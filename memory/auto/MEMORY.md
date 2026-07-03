@@ -1,199 +1,192 @@
-- [LABOR Standing NEXUS Brief](project_labor_standing_nexus_brief.md) — LABOR refreshes NEXUS_BRIEF each closeout
-- [Energy Strike Ledger](project_energy_strike_ledger.md) — HAWK unified strike ledger; %-offline sourced
-- [Board Lags Agents Not Vice Versa](finding_board_lags_agents_not_vice_versa.md) — check recipient STATUS before 'go read board'
-- [HENRY Macro Focus Not Positions](feedback_henry_macro_focus_not_positions.md) — HENRY: macro/market trends, not position mgmt
-- [Deploy on Trigger Not Calendar](feedback_deploy_on_trigger_not_calendar.md) — deploy fresh capital only on a fired trigger
-- [Anchor Prediction to Surprise Not Priced](finding_anchor_prediction_to_surprise_not_priced.md) — anchor event→move to surprise, not priced
-- [Auto-Memory Symlink Migration](project_automem_symlink_migration.md) — auto-memory lives in repo at memory/auto/
-- [Check Domain Owner Before Messaging](feedback_check_domain_owner_before_messaging.md) — read domain owner's files before correcting them
-- [Check Recipient Before Sharing](feedback_check_recipient_before_sharing.md) — read recipient's state; send only the delta
-- [Coordinator Packet Position-Row Staleness](finding_coordinator_packet_position_row_staleness.md) — verify packet position rows vs live session
-- [Boot-Protocol Live-Event Override](finding_boot_protocol_live_event_override.md) — don't auto-closeout mid-event; boot≠session-end
-- [HENRY Vol Broadcast → VIOLET](feedback_henry_vol_broadcast_to_violet.md) — HENRY reads vol; VIOLET broadcasts it
-- [Pull Live Primary Not Dashboard](feedback_pull_live_primary_not_dashboard.md) — pull load-bearing figures live not dashboard
-- [Blended Index Masks Bifurcation](finding_blended_index_masks_bifurcation.md) — decompose blends; measure tail dispersion
-- [Sub-Agent Escalation-Mode Discriminator](finding_subagent_escalation_mode_discriminator.md) — money=block on Will; reversible=default+log+flag
-- [Thin-Liquidity Prediction-Market Discipline](finding_thin_liquidity_prediction_market_discipline.md) — thin pred-market print isn't a hold; re-verify
-- [Calibration Discount Is Regime-Conditional](finding_calibration_discount_regime_conditional.md) — earned discount is regime-bound; re-derive
-- [Two-Way Read Directional Clarity](feedback_two_way_read_directional_clarity.md) — grade each scenario branch's direction explicitly
-- [Refresh-not-Retire Per-Entity Profiles](finding_refresh_not_retire_perentity_profiles.md) — refresh per-entity profiles, don't archive them
-- [Agent Git Isolation](feedback_agent_git_isolation.md) — stage one agent's dir only; never stash whole tree
-- [Concurrent-Commit Index Race](finding_concurrent_commit_index_race.md) — stage+commit in one shell call (shared index race)
-- [Shallow-Clone False Fork](finding_shallow_clone_false_fork.md) — shallow clone fakes fork; unshallow first
-- [Forced-Update = Rebase Churn](finding_forced_update_rebase_churn.md) — 'forced update' = rebase churn, not force-push
-- [Position Cost-Basis Not Authoritative](feedback_position_cost_basis_not_authoritative.md) — never cite cost-basis/P/L from STATUS; ask Will
-- [Cross-Agent Inbox Writes Exception-Only](feedback_cross_agent_inbox_writes.md) — write another's inbox only if Will authorizes
-- [Check Staged Before Commit](feedback_check_staged_before_commit.md) — git diff --cached: catch foreign staged files
-- [Git mv for Inbox Processing](feedback_git_mv_for_inbox_processing.md) — use git mv (not bash mv) for inbox→processed
-- [Put vs Duration Expression](feedback_put_vs_duration_expression.md) — match vehicle to the open transmission channel
-- [RED Must Present Strongest Bull Case](feedback_red_edge.md) — lead with strongest steelman, then honest odds
-- [WALTER COP Architecture Direction](project_walter_cop_direction.md) — WALTER→COP shared surface, not full inbox infra
-- [Verify ETF vs Underlying FX](feedback_verify_etf_vs_fx.md) — cross-check ETF price vs underlying FX
-- [Evaluate Evidence Standalone](feedback_evidence_standalone.md) — state evidence standalone before layering thesis
-- [Read Research Before Opining](feedback_read_research_before_opining.md) — read subfolder research before position views
-- [Telegram Reply Required](feedback_telegram_reply_required.md) — Telegram inbound: reply via tool, not transcript
-- [Check Existing Design Docs](feedback_check_existing_design_docs.md) — search design folder before writing new spec
-- [Weight Plumbing by Target Scale](feedback_weight_plumbing_by_target_scale.md) — judge infra by scaled pipeline, not one session
-- [Script Labels Match Thesis](feedback_script_labels_match_thesis.md) — calibrate script alert labels to thesis buckets
-- [CARL KB Push Down](feedback_carl_kb_architecture.md) — CARL KB thesis-level only; detail to sub-agents
-- [Phone Signal Architecture](project_phone_signal_architecture.md) — phone→GitHub API→Prome polls inbox (blocked)
-- [Messaging System Overhaul](project_messaging_overhaul.md) — don't patch inbox/outbox; messaging being replaced
-- [Flag Friction Real-Time](feedback_flag_friction_realtime.md) — flag workflow friction in real time, not batched
-- [WALTER Image Signal Intake](project_walter_image_signal_intake.md) — WALTER owns image signal intake on Telegram
-- [WALTER Autonomous Verify](feedback_walter_autonomous_verify.md) — spawn verify sub-agent without asking Will
-- [WALTER No Kill On Lede](feedback_walter_no_kill_on_lede.md) — read full body before KILL; lede hides data
-- [Parallel-Spawn Independent Agents](feedback_parallel_spawn_independent_agents.md) — batch independent sub-agent spawns in one message
-- [Break Multi-File Updates Into Chunks](feedback_break_multifile_updates.md) — break 3+ file updates into checkpointed chunks
-- [Route To Domain Agent Not PROME](feedback_route_to_domain_agent.md) — route to the domain agent, not PROME by default
-- [Sub-agent Prompt Discipline](feedback_subagent_prompt_discipline.md) — subagent prompt: lead decision, cap, top VERDICT
-- [Session Handoff Cadence](feedback_handoff_cadence.md) — offer clean handoffs at natural breakpoints
-- [Telegram Plugin Scope](project_telegram_plugin_scope.md) — Telegram plugin = WALTER project scope only
-- [CORRECTED-FRAMING Calibration](feedback_corrected_framing_calibration.md) — CORRECTED-FRAMING: conf=thesis strength, not 0.55
-- [WALTER STATUS.md Refactor Pattern](finding_walter_refactor_pattern.md) — STATUS refactor: sequenced passes, checkpoint each
-- [LIAISON 3-Turn Convergence Pattern](finding_liaison_convergence_pattern.md) — LIAISON: prep substrate + open with substance
-- [Verify State Before Propagating](feedback_verify_counts_before_propagating.md) — verify count/scope/absence vs ground truth first
-- [Verify Treasury Security Type](feedback_verify_treasury_security_type.md) — Treasury term collapses TIPS+nominal; check type
-- [Exit Recommendations Need Mark-Context](feedback_exit_recommendations_need_mark_context.md) — surface mark before exit; rule-window not close-no
-- [Intra-Day Closeout Discipline](feedback_intra_day_closeout_discipline.md) — run full closeout every session end
-- [Behavior-Language Over Hash-Pinning](feedback_behavior_language_over_hash_pinning.md) — state files: behavior-language, not hash pins
-- [Adversarial Brief for Pair Teams](feedback_adversarial_brief_for_pair_teams.md) — brief adversarial pairs to genuinely disagree
-- [Named Spawn Triggers Teams Mode](feedback_named_spawn_teams_mode.md) — name= spawn = async mailbox; omit for one-shot
-- [Revival Proxy Pattern](finding_revival_proxy_pattern.md) — spawn proxy subagent to catch up a stale agent
-- [Revival Boot Doc Sweep](finding_revival_boot_doc_sweep.md) — revival: sweep all boot docs, not just STATUS
-- [Framing-Precision Overlay](finding_framing_precision_overlay.md) — concept right, claim wrong → overlay note in inbox
-- [Teams-Mode Domain-Agent Spawn](finding_teams_mode_domain_agent_spawn.md) — teams-mode works for domain agents; WSL2=tmux
-- [Teams Mode No Split Pane](finding_teams_mode_no_split_pane.md) — teams mode has no split pane; that's Agent View
-- [POV Pivots in CHANGELOG](finding_pov_changelog_pattern.md) — log intra-version POV pivots in CHANGELOG
-- [Domain-Agent Steelman Backstop](finding_domain_agent_steelman_backstop.md) — when you+Will agree, have domain agent steelman
-- [Cross-Surface Validation Pattern](finding_cross_surface_validation_pattern.md) — two surfaces catching same fix = real redundancy
-- [Schema-Conformance ≠ Clean Text](finding_schema_conformance_not_clean_text.md) — schema-pass misses garble; read rendered prose
-- [Scan Agent Outboxes at Boot](feedback_scan_agent_outboxes_at_boot.md) — at boot scan AGENTS/*/outbox for to-PROME signals
-- [Front-Load Planning for Multi-Step Work](feedback_front_load_planning.md) — front-load all decisions before executing
-- [Push-Train Pattern](finding_push_train_pattern.md) — one closeout push ships all agents' commits (auto)
-- [Consolidate Domain-Agent Pressure](feedback_consolidate_domain_pressure.md) — 3+ agents, 1 decision: async SIGs, one packet
-- [DRAFT-ONLY Teams Spawn](finding_draft_only_teams_spawn.md) — teams-spawn domain agent DRAFT-ONLY to proposals/
-- [CSV-as-Ground-Truth Rehab](finding_csv_as_ground_truth.md) — find ground-truth source before scoping a rehab
-- [Cross-Flag Routing by Recipient State](finding_cross_flag_routing.md) — route cross-flags by recipient state (SIG vs Send)
-- [Path B Trim Pattern](finding_path_b_trim_pattern.md) — trim bloated state file to its design-doc role
-- [Doc Routing on Data Drops](feedback_doc_routing_data_drops.md) — narrative→TIMELINE, snapshot-only→STATUS
-- [Follow-up Audit Pass on Scoped Cleanups](finding_followup_audit_pass.md) — after scoped fix, re-read file for adjacent rot
-- [Boot Forward-State Hygiene: Predictions Scan + Catalyst Docket](finding_boot_predictions_scan.md) — boot-scan OPEN predictions for silent stale
-- [Threshold vs Mechanism](finding_threshold_vs_mechanism.md) — split predictions: mechanism vs threshold layers
-- [Audit Behavioral Ranking](feedback_audit_behavioral_ranking.md) — rank cleanup by behavior impact not line count
-- [Audit Packet Before Approval](feedback_audit_packet_before_approval.md) — audit packet vs source+tape before Will-approve
-- [Outside-This-Rail Disclosure](finding_outside_this_rail_disclosure.md) — 'Outside this rail' section: what packet omits
-- [Refuse Rail Scope Creep](feedback_refuse_rail_scope_creep.md) — new decision = new rail, not scope creep
-- [Closeout as Write-Back Tail](finding_closeout_as_writeback_tail.md) — closeout in auto-loaded CLAUDE.md not separate doc
-- [Sub-Agent MEMORY Split](finding_subagent_memory_split.md) — split sub-agent: spec.md + MEMORY.md for state
-- [Trump Rhetoric: Tape Not Info](feedback_trump_rhetoric_tape_not_info.md) — Trump deal rhetoric: tape, not P(resolution)
-- [Teams-Mode for Iterative Tasks](finding_teams_mode_iterative_tasks.md) — SendMessage for iterative; spawn for one-shot
-- [Sub-Agent Baseline Audit](finding_subagent_baseline_audit.md) — set-keeper sub-agents need baseline-scope audit
-- [Sub-Agent Naming Identity Over Functional](finding_subagent_naming_identity_over_functional.md) — name sub-agents by identity, not function
-- [Boot/Closeout Hardening Recipe](finding_boot_closeout_hardening_recipe.md) — harden boot/closeout: mirror, strip live-state
-- [Catalyst-vs-Consequence Conflation](finding_catalyst_vs_consequence_conflation.md) — P(consequence)=P(catalyst)×P(conseq|catalyst)
-- [Pathspec Commit Race Safety](finding_pathspec_commit_race_safety.md) — pathspec commit; never reset HEAD (shared index)
-- [Scope "supersede" narrowly](feedback_git_reconcile_scope.md) — supersede=discard conflicts, keep net-new files
-- [Will's cruise interest](user_cruise_interest.md) — cruise is Will's personal interest; keep detail
-- [Verify existence via external primaries](feedback_verify_existence_external_primaries.md) — fleet silence ≠ didn't happen; check primaries
-- [YoY base-effect → use multi-year stack](feedback_yoy_baseeffect_use_multiyear_stack.md) — YoY laps a break: read multi-year stack, not YoY
-- [Don't bank an unpassed forecast](feedback_dont_bank_unpassed_forecast.md) — keep pending forecasts in docket, not as fact
-- [Commit local, auto-push at closeout](feedback_defer_push_coordinate.md) — auto-push closeout; non-ff=routine rebase (serial multi-machine)
-- [Sub-agent propagation gap](feedback_subagent_propagation_gap.md) — closeout: diff subagent KB for unpropagated facts
-- [Use canonical measure for predictions](feedback_prediction_canonical_measure.md) — revise predictions off canonical series not proxy
-- [Single-month sub-component skepticism](feedback_single_month_subcomponent_skepticism.md) — single-month subcomponent: await 2nd-print confirm
-- [Thesis-load-bearing sweep scope](finding_thesis_loadbearing_sweep_scope.md) — scope sweeps by thesis tests, not topic coverage
-- [Shared-Antecedent Independence Test](finding_shared_antecedent_independence_test.md) — recheck independence if shared antecedent flips
-- [Doc Mirror-Consistency Check](finding_doc_mirror_consistency_check.md) — encode canonical→mirror; canonical wins on drift
-- [Independent Convergence Validates Schema](finding_independent_convergence_validates_schema.md) — blind proposer+consumer convergence=ratify schema
-- [Sub-Agent Pre-Fire Date Verification](finding_subagent_prefire_date_verification.md) — re-verify cadence-derived dates near fire date
-- [Documented Divergence as Discipline](finding_documented_divergence_as_discipline.md) — document rule deviations inline, never silent
-- [Verification-Correction Downstream Propagation](finding_verification_correction_downstream_propagation.md) — after a figure-fix, grep all derivative sections
-- [Measure Actionable Category Not Gross Rate](finding_measure_actionable_not_gross_rate.md) — meter the actionable cause, not gross rate
-- [NEXUS_BRIEF Drafting = Cross-Check Pass](finding_nexus_brief_drafting_cross_check.md) — draft brief by diffing peer briefs, mine edges
-- [Circular Corroboration via State File](finding_circular_corroboration_via_state_file.md) — shared-state can fake majority on derived facts
-- [Outbox Restraint for Push Friction](feedback_outbox_restraint_for_push_friction.md) — write cross-agent outbox only when critical
-- [Date-Specificity Weakest Link](feedback_date_specificity_weakest_link.md) — low-conf event call: don't pin a tight date too
-- [Forward-Discovery Prediction Spirit](feedback_forward_discovery_prediction_spirit.md) — forward-discovery: did NEW surface in-window?
-- [Sub-Agent Web Tools Not Autoloaded](feedback_subagent_web_tools_not_autoloaded.md) — subagent empty web result: maybe no web tools
-- [Litigation-Allegation Weighting](feedback_litigation_allegation_weighting.md) — complaint-only signal ≤40% conf till corroborated
-- [boot.py Cadence-Skip Pattern](finding_boot_py_cadence_skip_pattern.md) — boot.py: run fetchers + mtime cadence-skip
-- [Two-Machine Partition Clean Merge](finding_two_machine_partition_clean_merge.md) — 2-machine merge clean: own dirs, never double-run
-- [Just-Read Artifact Frame Contamination](finding_just_read_artifact_frame_contamination.md) — answer from evidence, not the artifact just read
-- [Governance-Doc Stale-Default Drift](finding_governance_doc_stale_default_drift.md) — fix doc when memory overrides it; sweep section
-- [Base-Rate vs Mechanism-Discriminator Layers](finding_base_rate_vs_mechanism_discriminator.md) — size on base-rate; make discriminators abstain
-- [Catalyst-Path Decoupling](finding_catalyst_path_decoupling.md) — label triggers level- vs path-driven at write
-- [Number Carries Threshold/Unit/Source](finding_number_carries_threshold_unit_source.md) — carry threshold+unit+source with every number
-- [Ledger Drift Behind Narrative](finding_ledger_drift_behind_narrative.md) — ledgers rot behind STATUS; refresh key rows
-- [Quote Carries Its Data-Minute](finding_quote_carries_data_minute.md) — stamp a quote with its data-minute, never now()
-- [External-Consumer Check Before Restructure](finding_external_consumer_check_before_restructure.md) — grep external consumers + check live ref, not spec
-- [OHLC Verify Before Session Claims](finding_ohlc_verify_before_session_claims.md) — verify daily-close OHLC before breach/count claim
-- [Pre-Registration Discipline Through Corroboration](finding_pre_registration_discipline_through_corroboration.md) — hold pre-registered mark to its check date
-- [Level-Conditional Probability Re-Marking](finding_level_conditional_probability_remarking.md) — price-level probability re-marks as spot moves
-- [Re-Derivation Surfaces Concept Failure](finding_re_derivation_surfaces_concept_failure.md) — re-derive level-anchored framework, don't re-mark
-- [Sustain-Count Role + Discriminating Power](finding_sustain_count_role_discriminating_power.md) — test if a trigger separates both outcome classes
-- [Tool-Default As-Of Date Drift](finding_tool_default_asof_date_drift.md) — carry source's own as_of; tool defaults drift
-- [Sub-Agent Year Verification](finding_subagent_year_verification.md) — confirm metric's YEAR from primary, not aggregator
-- [Option Marks Need Live Chain](finding_option_marks_need_live_chain.md) — pull live option chain; sanity vs moneyness/DTE
-- [Workbook Demote by Verification](finding_workbook_demote_by_verification.md) — verify consumer+counterparty before ledger freeze
-- [Convergence Sign Check](finding_convergence_sign_check.md) — sign-check cross-domain signals before scoring
-- [Boot-Sweep Regime-Context Check](finding_boot_sweep_macro_regime_context.md) — boot-check regime principals (Fed Chair, BOJ Gov)
-- [Comprehensive Grep > Sampling](finding_comprehensive_grep_over_sampling.md) — audit change-scope by full grep, never sampling
-- [Risk-Control Re-arm ≠ Sizing Decision](finding_risk_control_separate_from_sizing.md) — re-arm dead stop legs; risk-control != sizing
-- [Workflow Concurrency 529](finding_workflow_concurrency_529.md) — cap concurrent Workflows; on 529 go sequential
-- [Workflow Agent Unprompted Commit](finding_workflow_agent_unprompted_commit.md) — scope workflow subagents RESEARCH-ONLY; they commi
-- [Suspect Fresh Pull Over Curated Record](feedback_suspect_fresh_pull_over_curated_record.md) — fresh pull vs curated record: suspect the pull
-- [Divergence Needs Fresh Like-for-Like Baseline](finding_divergence_requires_fresh_likeforlike_baseline.md) — divergence: both sides fresh + like-for-like
-- [Workflow Scratch Crash Recovery](finding_workflow_scratch_crash_recovery.md) — salvage /tmp task outputs before re-running
-- [Private-by-Construction Unverifiable](finding_private_by_construction_unverifiable.md) — 144A/Reg-S = structurally unverifiable; re-mark
-- [Gov-Site 403 = User-Agent Header](finding_edgar_403_user_agent_header.md) — SEC/BLS 403 = missing User-Agent, not a block
-- [OCR/Screenshot Input — Verify First](feedback_ocr_verify_input_first.md) — verify OCR/pasted input before theorizing
-- [Git Crash Object-Corruption Recovery](finding_git_crash_object_corruption_recovery.md) — git crash zero-bytes tip: update-ref to last-good
-- [Verify Reader Before Source](finding_verify_reader_before_source.md) — verify the reader before declaring source broken
-- [Incentive-Flag Source Weighting](finding_incentive_flag_source_weighting.md) — weight sources by incentive; trust realized data
-- [CRLF Text-Mode TSV Flip](finding_crlf_textmode_tsv_flip.md) — edit CRLF state files in binary mode
-- [TERRY Day-Trading Review System](project_terry_daytrading_review_system.md) — TERRY runs standing day-trade review loop
-- [Curated Worktree Branch Landing](finding_curated_worktree_branch_landing.md) — land a stale branch via isolated worktree, FF-only
-- [Warm-Parked Agent Collision](feedback_warm_parked_agent_collision.md) — release teams-mode agents at closeout, or alias
-- [Cluster Adversarial Catches Framing](finding_cluster_adversarial_catches_framing.md) — adversarial round catches framing, not direction
-- [Same Datum, Two Evidentiary Standards](finding_same_datum_two_evidentiary_standards.md) — datum decisive in prose but partial in rail=tell
-- [Verify Load-Bearing Figures Before Trade](finding_verify_loadbearing_before_trade.md) — pre-trade: verify->adversarial->propagate figures
-- [Pathspec Rename Needs Both Paths](finding_pathspec_rename_needs_both_paths.md) — git-mv pathspec commit: list BOTH old+new paths
-- [Fleet Self-Report Convergence](finding_fleet_selfreport_convergence.md) — agents converge in template → fix fleet-wide
-- [Migration Tally Inventory-Incomplete](finding_migration_tally_inventory_incomplete.md) — enumerate sweep target from real files, not tally
-- [Confabulated Counterparty Position](finding_confabulated_counterparty_position.md) — confirm counterparty stance+source are real first
-- [Orchestration Mode-Split](feedback_orchestration_mode_split.md) — split fan-out vs live before spawning >1 agent
-- [Freshness Audit ≠ Caught Up](finding_freshness_audit_vs_caught_up.md) — fresh mtime ≠ caught up; check inbox+pending tests
-- [STATUS Spine Staleness Under Appended Top](finding_status_spine_staleness_under_appended_top.md) — append-on-top STATUS leaves a stale spine below
-- [Sibling Agent Protocol Drift](finding_sibling_agent_protocol_drift.md) — diff sibling agents to catch protocol drift
-- [Delta vs Own Prior = Local Extreme Trap](finding_delta_vs_own_prior_local_extreme.md) — Δ vs own prior: check trend before reversal call
-- [Verify Roster By Commit-Activity](finding_verify_roster_by_commit_activity.md) — verify roster by commit activity, not the list
-- [Gitignored Drop Zone Needs Boot-Surfacing](finding_gitignored_private_drop_boot_surfaced.md) — gitignore private drops + boot-surface them
-- [Composition-Mask Un-Mask Discriminator](finding_composition_mask_unmask_discriminator.md) — grade build-on-shrinking-base not the headline
-- [Verify Live API Schema Over Docs](finding_verify_live_api_schema_over_docs.md) — new API: map fields from live call, not docs
-- [Insurer Entity Scope Trap](finding_insurer_entity_scope_trap.md) — pin insurer figure's scope, NCI bridge, vintage
-- [Investigation-Routing Discriminator](finding_investigation_routing_discriminator.md) — need it this session→inline; else assign research
-- [Series Reconstruction + Extension](finding_series_reconstruction_extension.md) — rebuild capped series from primaries+validate
-- [Deep-Research Stale-Vintage Headline](finding_deep_research_stale_vintage_headline.md) — refresh load-bearing headline to latest print
-- [Fail Loud On Incomplete Data](finding_fail_loud_on_incomplete_data.md) — gate all-clear on zero failures AND zero flags
-- [Workflow Subagent Repo Sandbox](finding_workflow_subagent_repo_sandbox.md) — workflow subagents: repo-paths only, hardcode args
-- [Auto-Memory Link Model](finding_automem_hardlink_inplace_edit.md) — ~/.claude/memory is now a dir symlink to memory/auto/; Write tool is safe (old hardlink in-place rule superseded)
-- [DAEDALUS Maturity Map = Hygiene Input](project_daedalus_maturity_map_hygiene_input.md) — L-levels are hygiene, not the scoreboard
-- [RESEARCH-INTAKE Collection Lane](project_research_intake_collection_lane.md) — always-on data lane: GH Actions, separate repo, agents read-only
-- [gh run watch Exit Status Unreliable](finding_gh_run_watch_exit_status_unreliable.md) — gh run watch can exit 1 on a successful run; verify via gh run view --json conclusion
-- [Passive Surface Rot → Push Not Dashboard](finding_passive_surface_rot_push_not_dashboard.md) — gate the push, don't swap it for a dashboard (COP/BOARD rotted)
-- [Injection Claim Is OpenClaw Vestige](finding_injection_claim_is_openclaw_vestige.md) — verify a file is actually boot-loaded before calling it load-bearing
-- [Public-Prep for Anthropic Fellows](project_public_prep_anthropic_fellows.md) — repo→public portfolio; Track A done, Track B (history scrub) pending
-- [History-Scrub Verify by Content not Pickaxe](finding_history_scrub_verify_by_content_not_pickaxe.md) — read edited lines + blob-enumerate; scrub whole credential not half
-- [Roster Change Propagates to All Surfaces](finding_roster_change_propagates_to_all_surfaces.md) — roster edit? sweep every mirror + verify folders; point don't duplicate churny lists
-- [DAEDALUS Encode-Existing Needs Live Read](finding_daedalus_encode_existing_needs_live_read.md) — read-verify each handle vs live file; self-labeled "lifts" are often partial builds
-- [Verify Runtime Context Before Tool Broken](finding_verify_runtime_context_before_tool_broken.md) — reproduce from the ACTUAL launch cwd both ways; test "convention" claims empirically
-- [Verify Recommended Fix Not Just Finding](finding_verify_recommended_fix_not_just_finding.md) — an audit's fix can contradict governance; verify the remedy separately, esp. if it expands autonomy
-- [Credential Scrub Needs Env-Stripped Verify](finding_credential_scrub_envstripped_verify.md) — grep ALL copies; test with key source stripped (soft-fail scripts blank silently)
-- [Write-Behavior Check Before Agent-Tool Run](finding_write_behavior_check_before_agent_tool_run.md) — grep an agent tool for writes before test-running it; boot kits mutate
-- [Derived-Surface Band Rot](finding_derived_surface_band_rot.md) — derived docs' static bands rot into mis-routers; owner+source per row
-- [Registered Kill-Switch Cost Datum](finding_registered_killswitch_cost_datum.md) — hold verdict, log counterfactual cost, refine next pass
-- [EDGAR FTS Refutes Trade-Press Negatives](finding_edgar_fts_refutes_tradepress_negatives.md) — refute pricing/event negatives via EDGAR full-text before grading
-- [Deep-Research Slate Mining](finding_deep_research_slate_mining.md) — mine self-flagged gaps; adversarial-verify slate
-- [Ratio-Gauge Denominator Branch](finding_ratio_gauge_denominator_branch.md) — grade ratio thresholds jointly w/ denominator; pre-register artifact branch
-- [Flow Sign vs Program Direction](finding_flow_sign_vs_program_direction.md) — rotation sell-leg ≠ abandonment; check stated program first
-- [Self-Stamp Estimate Drift](finding_selfstamp_estimate_drift.md) — stamp from `date`; trust git clock over prose stamps
+- [LABOR Standing NEXUS Brief](project_labor_standing_nexus_brief.md) — LABOR refreshes
+- [Energy Strike Ledger](project_energy_strike_ledger.md) — HAWK unified strike
+- [Board Lags Agents Not Vice Versa](finding_board_lags_agents_not_vice_versa.md) — check recipient STATUS
+- [HENRY Macro Focus Not Positions](feedback_henry_macro_focus_not_positions.md) — HENRY: macro/market
+- [Deploy on Trigger Not Calendar](feedback_deploy_on_trigger_not_calendar.md) — deploy fresh capital only
+- [Anchor Prediction to Surprise Not Priced](finding_anchor_prediction_to_surprise_not_priced.md) — anchor event→move to
+- [Check Domain Owner Before Messaging](feedback_check_domain_owner_before_messaging.md) — read domain owner's files
+- [Check Recipient Before Sharing](feedback_check_recipient_before_sharing.md) — read recipient's state
+- [Coordinator Packet Position-Row Staleness](finding_coordinator_packet_position_row_staleness.md) — verify packet position
+- [Boot-Protocol Live-Event Override](finding_boot_protocol_live_event_override.md) — don't auto-closeout
+- [HENRY Vol Broadcast → VIOLET](feedback_henry_vol_broadcast_to_violet.md) — HENRY reads vol; VIOLET
+- [Pull Live Primary Not Dashboard](feedback_pull_live_primary_not_dashboard.md) — pull load-bearing figures
+- [Blended Index Masks Bifurcation](finding_blended_index_masks_bifurcation.md) — decompose blends; measure
+- [Sub-Agent Escalation-Mode Discriminator](finding_subagent_escalation_mode_discriminator.md) — money=block on Will
+- [Thin-Liquidity Prediction-Market Discipline](finding_thin_liquidity_prediction_market_discipline.md) — thin pred-market print
+- [Calibration Discount Is Regime-Conditional](finding_calibration_discount_regime_conditional.md) — earned discount is
+- [Two-Way Read Directional Clarity](feedback_two_way_read_directional_clarity.md) — grade each scenario
+- [Refresh-not-Retire Per-Entity Profiles](finding_refresh_not_retire_perentity_profiles.md) — refresh per-entity
+- [Agent Git Isolation](feedback_agent_git_isolation.md) — stage one agent's dir
+- [Position Cost-Basis Not Authoritative](feedback_position_cost_basis_not_authoritative.md) — never cite cost-basis/P/L
+- [Cross-Agent Inbox Writes Exception-Only](feedback_cross_agent_inbox_writes.md) — write another's inbox
+- [Check Staged Before Commit](feedback_check_staged_before_commit.md) — git diff --cached: catch
+- [Git mv for Inbox Processing](feedback_git_mv_for_inbox_processing.md) — use git mv (not bash mv)
+- [Put vs Duration Expression](feedback_put_vs_duration_expression.md) — match vehicle to the open
+- [RED Must Present Strongest Bull Case](feedback_red_edge.md) — lead with strongest
+- [WALTER COP Architecture Direction](project_walter_cop_direction.md) — WALTER→COP shared
+- [Verify ETF vs Underlying FX](feedback_verify_etf_vs_fx.md) — cross-check ETF price vs
+- [Evaluate Evidence Standalone](feedback_evidence_standalone.md) — state evidence standalone
+- [Read Research Before Opining](feedback_read_research_before_opining.md) — read subfolder research
+- [Telegram Reply Required](feedback_telegram_reply_required.md) — Telegram inbound: reply
+- [Check Existing Design Docs](feedback_check_existing_design_docs.md) — search design folder
+- [Weight Plumbing by Target Scale](feedback_weight_plumbing_by_target_scale.md) — judge infra by scaled
+- [Script Labels Match Thesis](feedback_script_labels_match_thesis.md) — calibrate script alert
+- [CARL KB Push Down](feedback_carl_kb_architecture.md) — CARL KB thesis-level
+- [Messaging System Overhaul](project_messaging_overhaul.md) — don't patch inbox/outbox
+- [Flag Friction Real-Time](feedback_flag_friction_realtime.md) — flag workflow friction in
+- [WALTER Image Signal Intake](project_walter_image_signal_intake.md) — WALTER owns image signal
+- [WALTER Autonomous Verify](feedback_walter_autonomous_verify.md) — spawn verify sub-agent
+- [WALTER No Kill On Lede](feedback_walter_no_kill_on_lede.md) — read full body before
+- [Parallel-Spawn Independent Agents](feedback_parallel_spawn_independent_agents.md) — batch independent
+- [Break Multi-File Updates Into Chunks](feedback_break_multifile_updates.md) — break 3+ file updates
+- [Route To Domain Agent Not PROME](feedback_route_to_domain_agent.md) — route to the domain
+- [Sub-agent Prompt Discipline](feedback_subagent_prompt_discipline.md) — subagent prompt: lead
+- [Session Handoff Cadence](feedback_handoff_cadence.md) — offer clean handoffs at
+- [Telegram Plugin Scope](project_telegram_plugin_scope.md) — Telegram plugin = WALTER
+- [CORRECTED-FRAMING Calibration](feedback_corrected_framing_calibration.md) — CORRECTED-FRAMING
+- [WALTER STATUS.md Refactor Pattern](finding_walter_refactor_pattern.md) — STATUS refactor
+- [LIAISON 3-Turn Convergence Pattern](finding_liaison_convergence_pattern.md) — LIAISON: prep substrate +
+- [Verify State Before Propagating](feedback_verify_counts_before_propagating.md) — verify count/scope/absence
+- [Verify Treasury Security Type](feedback_verify_treasury_security_type.md) — Treasury term collapses
+- [Exit Recommendations Need Mark-Context](feedback_exit_recommendations_need_mark_context.md) — surface mark before exit
+- [Intra-Day Closeout Discipline](feedback_intra_day_closeout_discipline.md) — run full closeout every
+- [Behavior-Language Over Hash-Pinning](feedback_behavior_language_over_hash_pinning.md) — state files: behavior-lang
+- [Adversarial Brief for Pair Teams](feedback_adversarial_brief_for_pair_teams.md) — brief adversarial pairs
+- [Named Spawn Triggers Teams Mode](feedback_named_spawn_teams_mode.md) — name= spawn = async
+- [Revival Proxy Pattern](finding_revival_proxy_pattern.md) — spawn proxy subagent to
+- [Revival Boot Doc Sweep](finding_revival_boot_doc_sweep.md) — revival: sweep all boot
+- [Framing-Precision Overlay](finding_framing_precision_overlay.md) — concept right, claim
+- [Teams-Mode Domain-Agent Spawn](finding_teams_mode_domain_agent_spawn.md) — teams-mode works for
+- [POV Pivots in CHANGELOG](finding_pov_changelog_pattern.md) — log intra-version POV
+- [Domain-Agent Steelman Backstop](finding_domain_agent_steelman_backstop.md) — when you+Will agree, have
+- [Cross-Surface Validation Pattern](finding_cross_surface_validation_pattern.md) — two surfaces catching
+- [Schema-Conformance ≠ Clean Text](finding_schema_conformance_not_clean_text.md) — schema-pass misses
+- [Scan Agent Outboxes at Boot](feedback_scan_agent_outboxes_at_boot.md) — at boot scan AGENTS/*/outb
+- [Front-Load Planning for Multi-Step Work](feedback_front_load_planning.md) — front-load all decisions
+- [Push-Train Pattern](finding_push_train_pattern.md) — one closeout push ships
+- [Consolidate Domain-Agent Pressure](feedback_consolidate_domain_pressure.md) — 3+ agents, 1 decision
+- [DRAFT-ONLY Teams Spawn](finding_draft_only_teams_spawn.md) — teams-spawn domain agent
+- [CSV-as-Ground-Truth Rehab](finding_csv_as_ground_truth.md) — find ground-truth source
+- [Cross-Flag Routing by Recipient State](finding_cross_flag_routing.md) — route cross-flags by
+- [Path B Trim Pattern](finding_path_b_trim_pattern.md) — trim bloated state file
+- [Doc Routing on Data Drops](feedback_doc_routing_data_drops.md) — narrative→TIMELINE
+- [Follow-up Audit Pass on Scoped Cleanups](finding_followup_audit_pass.md) — after scoped fix, re-read
+- [Boot Forward-State Hygiene: Predictions Scan + Catalyst Docket](finding_boot_predictions_scan.md) — boot-scan OPEN
+- [Threshold vs Mechanism](finding_threshold_vs_mechanism.md) — split predictions
+- [Audit Behavioral Ranking](feedback_audit_behavioral_ranking.md) — rank cleanup by behavior
+- [Audit Packet Before Approval](feedback_audit_packet_before_approval.md) — audit packet vs
+- [Outside-This-Rail Disclosure](finding_outside_this_rail_disclosure.md) — 'Outside this rail'
+- [Refuse Rail Scope Creep](feedback_refuse_rail_scope_creep.md) — new decision = new rail
+- [Closeout as Write-Back Tail](finding_closeout_as_writeback_tail.md) — closeout in auto-loaded
+- [Sub-Agent MEMORY Split](finding_subagent_memory_split.md) — split sub-agent: spec.md
+- [Trump Rhetoric: Tape Not Info](feedback_trump_rhetoric_tape_not_info.md) — Trump deal rhetoric
+- [Teams-Mode for Iterative Tasks](finding_teams_mode_iterative_tasks.md) — SendMessage for
+- [Sub-Agent Baseline Audit](finding_subagent_baseline_audit.md) — set-keeper sub-agents
+- [Sub-Agent Naming Identity Over Functional](finding_subagent_naming_identity_over_functional.md) — name sub-agents by
+- [Boot/Closeout Hardening Recipe](finding_boot_closeout_hardening_recipe.md) — harden boot/closeout
+- [Catalyst-vs-Consequence Conflation](finding_catalyst_vs_consequence_conflation.md) — P(consequence)=P(catalyst)
+- [Pathspec Commit Race Safety](finding_pathspec_commit_race_safety.md) — pathspec commit; never
+- [Scope "supersede" narrowly](feedback_git_reconcile_scope.md) — supersede=discard
+- [Will's cruise interest](user_cruise_interest.md) — cruise is Will's personal
+- [Verify existence via external primaries](feedback_verify_existence_external_primaries.md) — fleet silence ≠ didn't
+- [YoY base-effect → use multi-year stack](feedback_yoy_baseeffect_use_multiyear_stack.md) — YoY laps a break: read
+- [Don't bank an unpassed forecast](feedback_dont_bank_unpassed_forecast.md) — keep pending forecasts in
+- [Commit local, auto-push at closeout](feedback_defer_push_coordinate.md) — auto-push closeout
+- [Sub-agent propagation gap](feedback_subagent_propagation_gap.md) — closeout: diff subagent
+- [Use canonical measure for predictions](feedback_prediction_canonical_measure.md) — revise predictions off
+- [Single-month sub-component skepticism](feedback_single_month_subcomponent_skepticism.md) — single-month subcomponent
+- [Thesis-load-bearing sweep scope](finding_thesis_loadbearing_sweep_scope.md) — scope sweeps by thesis
+- [Shared-Antecedent Independence Test](finding_shared_antecedent_independence_test.md) — recheck independence if
+- [Doc Mirror-Consistency Check](finding_doc_mirror_consistency_check.md) — encode canonical→mirror
+- [Independent Convergence Validates Schema](finding_independent_convergence_validates_schema.md) — blind proposer+consumer
+- [Sub-Agent Pre-Fire Date Verification](finding_subagent_prefire_date_verification.md) — re-verify cadence-derived
+- [Documented Divergence as Discipline](finding_documented_divergence_as_discipline.md) — document rule deviations
+- [Verification-Correction Downstream Propagation](finding_verification_correction_downstream_propagation.md) — after a figure-fix, grep
+- [Measure Actionable Category Not Gross Rate](finding_measure_actionable_not_gross_rate.md) — meter the actionable
+- [NEXUS_BRIEF Drafting = Cross-Check Pass](finding_nexus_brief_drafting_cross_check.md) — draft brief by diffing
+- [Circular Corroboration via State File](finding_circular_corroboration_via_state_file.md) — shared-state can fake
+- [Outbox Restraint for Push Friction](feedback_outbox_restraint_for_push_friction.md) — write cross-agent outbox
+- [Date-Specificity Weakest Link](feedback_date_specificity_weakest_link.md) — low-conf event call
+- [Forward-Discovery Prediction Spirit](feedback_forward_discovery_prediction_spirit.md) — forward-discovery: did
+- [Sub-Agent Web Tools Not Autoloaded](feedback_subagent_web_tools_not_autoloaded.md) — subagent empty web
+- [Litigation-Allegation Weighting](feedback_litigation_allegation_weighting.md) — complaint-only signal
+- [boot.py Cadence-Skip Pattern](finding_boot_py_cadence_skip_pattern.md) — boot.py: run fetchers +
+- [Two-Machine Partition Clean Merge](finding_two_machine_partition_clean_merge.md) — 2-machine merge clean
+- [Just-Read Artifact Frame Contamination](finding_just_read_artifact_frame_contamination.md) — answer from evidence, not
+- [Governance-Doc Stale-Default Drift](finding_governance_doc_stale_default_drift.md) — fix doc when memory
+- [Base-Rate vs Mechanism-Discriminator Layers](finding_base_rate_vs_mechanism_discriminator.md) — size on base-rate; make
+- [Catalyst-Path Decoupling](finding_catalyst_path_decoupling.md) — label triggers level- vs
+- [Number Carries Threshold/Unit/Source](finding_number_carries_threshold_unit_source.md) — carry threshold+unit+sourc
+- [Ledger Drift Behind Narrative](finding_ledger_drift_behind_narrative.md) — ledgers rot behind
+- [Quote Carries Its Data-Minute](finding_quote_carries_data_minute.md) — stamp a quote with its
+- [External-Consumer Check Before Restructure](finding_external_consumer_check_before_restructure.md) — grep external consumers +
+- [OHLC Verify Before Session Claims](finding_ohlc_verify_before_session_claims.md) — verify daily-close OHLC
+- [Pre-Registration Discipline Through Corroboration](finding_pre_registration_discipline_through_corroboration.md) — hold pre-registered mark
+- [Level-Conditional Probability Re-Marking](finding_level_conditional_probability_remarking.md) — price-level probability
+- [Re-Derivation Surfaces Concept Failure](finding_re_derivation_surfaces_concept_failure.md) — re-derive level-anchored
+- [Sustain-Count Role + Discriminating Power](finding_sustain_count_role_discriminating_power.md) — test if a trigger
+- [Tool-Default As-Of Date Drift](finding_tool_default_asof_date_drift.md) — carry source's own as_of
+- [Sub-Agent Year Verification](finding_subagent_year_verification.md) — confirm metric's YEAR
+- [Option Marks Need Live Chain](finding_option_marks_need_live_chain.md) — pull live option chain
+- [Workbook Demote by Verification](finding_workbook_demote_by_verification.md) — verify consumer+counterpar
+- [Convergence Sign Check](finding_convergence_sign_check.md) — sign-check cross-domain
+- [Boot-Sweep Regime-Context Check](finding_boot_sweep_macro_regime_context.md) — boot-check regime
+- [Comprehensive Grep > Sampling](finding_comprehensive_grep_over_sampling.md) — audit change-scope by
+- [Risk-Control Re-arm ≠ Sizing Decision](finding_risk_control_separate_from_sizing.md) — re-arm dead stop legs
+- [Workflow Concurrency 529](finding_workflow_concurrency_529.md) — cap concurrent Workflows
+- [Workflow Agent Unprompted Commit](finding_workflow_agent_unprompted_commit.md) — scope workflow subagents
+- [Suspect Fresh Pull Over Curated Record](feedback_suspect_fresh_pull_over_curated_record.md) — fresh pull vs curated
+- [Divergence Needs Fresh Like-for-Like Baseline](finding_divergence_requires_fresh_likeforlike_baseline.md) — divergence: both sides
+- [Private-by-Construction Unverifiable](finding_private_by_construction_unverifiable.md) — 144A/Reg-S = structurally
+- [Gov-Site 403 = User-Agent Header](finding_edgar_403_user_agent_header.md) — SEC/BLS 403 = missing
+- [OCR/Screenshot Input — Verify First](feedback_ocr_verify_input_first.md) — verify OCR/pasted input
+- [Verify Reader Before Source](finding_verify_reader_before_source.md) — verify the reader before
+- [Incentive-Flag Source Weighting](finding_incentive_flag_source_weighting.md) — weight sources by
+- [CRLF Text-Mode TSV Flip](finding_crlf_textmode_tsv_flip.md) — edit CRLF state files in
+- [TERRY Day-Trading Review System](project_terry_daytrading_review_system.md) — TERRY runs standing
+- [Curated Worktree Branch Landing](finding_curated_worktree_branch_landing.md) — land a stale branch via
+- [Warm-Parked Agent Collision](feedback_warm_parked_agent_collision.md) — release teams-mode agents
+- [Cluster Adversarial Catches Framing](finding_cluster_adversarial_catches_framing.md) — adversarial round catches
+- [Same Datum, Two Evidentiary Standards](finding_same_datum_two_evidentiary_standards.md) — datum decisive in prose
+- [Verify Load-Bearing Figures Before Trade](finding_verify_loadbearing_before_trade.md) — pre-trade: verify->adversa
+- [Pathspec Rename Needs Both Paths](finding_pathspec_rename_needs_both_paths.md) — git-mv pathspec commit
+- [Fleet Self-Report Convergence](finding_fleet_selfreport_convergence.md) — agents converge in
+- [Migration Tally Inventory-Incomplete](finding_migration_tally_inventory_incomplete.md) — enumerate sweep target
+- [Confabulated Counterparty Position](finding_confabulated_counterparty_position.md) — confirm counterparty
+- [Orchestration Mode-Split](feedback_orchestration_mode_split.md) — split fan-out vs live
+- [Freshness Audit ≠ Caught Up](finding_freshness_audit_vs_caught_up.md) — fresh mtime ≠ caught up
+- [STATUS Spine Staleness Under Appended Top](finding_status_spine_staleness_under_appended_top.md) — append-on-top STATUS
+- [Sibling Agent Protocol Drift](finding_sibling_agent_protocol_drift.md) — diff sibling agents to
+- [Delta vs Own Prior = Local Extreme Trap](finding_delta_vs_own_prior_local_extreme.md) — Δ vs own prior: check
+- [Verify Roster By Commit-Activity](finding_verify_roster_by_commit_activity.md) — verify roster by commit
+- [Gitignored Drop Zone Needs Boot-Surfacing](finding_gitignored_private_drop_boot_surfaced.md) — gitignore private drops +
+- [Composition-Mask Un-Mask Discriminator](finding_composition_mask_unmask_discriminator.md) — grade build-on-shrinking-b
+- [Verify Live API Schema Over Docs](finding_verify_live_api_schema_over_docs.md) — new API: map fields from
+- [Insurer Entity Scope Trap](finding_insurer_entity_scope_trap.md) — pin insurer figure's
+- [Investigation-Routing Discriminator](finding_investigation_routing_discriminator.md) — need it this session→inlin
+- [Series Reconstruction + Extension](finding_series_reconstruction_extension.md) — rebuild capped series
+- [Deep-Research Stale-Vintage Headline](finding_deep_research_stale_vintage_headline.md) — refresh load-bearing
+- [Fail Loud On Incomplete Data](finding_fail_loud_on_incomplete_data.md) — gate all-clear on zero
+- [Workflow Subagent Repo Sandbox](finding_workflow_subagent_repo_sandbox.md) — workflow subagents
+- [Auto-Memory Link Model](finding_automem_hardlink_inplace_edit.md) — ~/.claude/memory is now a
+- [DAEDALUS Maturity Map = Hygiene Input](project_daedalus_maturity_map_hygiene_input.md) — L-levels are hygiene, not
+- [RESEARCH-INTAKE Collection Lane](project_research_intake_collection_lane.md) — always-on data lane: GH
+- [gh run watch Exit Status Unreliable](finding_gh_run_watch_exit_status_unreliable.md) — gh run watch can exit 1
+- [Passive Surface Rot → Push Not Dashboard](finding_passive_surface_rot_push_not_dashboard.md) — gate the push, don't swap
+- [Injection Claim Is OpenClaw Vestige](finding_injection_claim_is_openclaw_vestige.md) — verify a file is actually
+- [Public-Prep for Anthropic Fellows](project_public_prep_anthropic_fellows.md) — repo→public portfolio
+- [History-Scrub Verify by Content not Pickaxe](finding_history_scrub_verify_by_content_not_pickaxe.md) — read edited lines +
+- [Roster Change Propagates to All Surfaces](finding_roster_change_propagates_to_all_surfaces.md) — roster edit? sweep every
+- [DAEDALUS Encode-Existing Needs Live Read](finding_daedalus_encode_existing_needs_live_read.md) — read-verify each handle
+- [Verify Runtime Context Before Tool Broken](finding_verify_runtime_context_before_tool_broken.md) — reproduce from the ACTUAL
+- [Verify Recommended Fix Not Just Finding](finding_verify_recommended_fix_not_just_finding.md) — an audit's fix can
+- [Credential Scrub Needs Env-Stripped Verify](finding_credential_scrub_envstripped_verify.md) — grep ALL copies; test
+- [Write-Behavior Check Before Agent-Tool Run](finding_write_behavior_check_before_agent_tool_run.md) — grep an agent tool for
+- [Derived-Surface Band Rot](finding_derived_surface_band_rot.md) — derived docs' static
+- [Registered Kill-Switch Cost Datum](finding_registered_killswitch_cost_datum.md) — hold verdict, log
+- [EDGAR FTS Refutes Trade-Press Negatives](finding_edgar_fts_refutes_tradepress_negatives.md) — refute pricing/event
+- [Deep-Research Slate Mining](finding_deep_research_slate_mining.md) — mine self-flagged gaps
+- [Ratio-Gauge Denominator Branch](finding_ratio_gauge_denominator_branch.md) — grade ratio thresholds
+- [Flow Sign vs Program Direction](finding_flow_sign_vs_program_direction.md) — rotation sell-leg ≠
+- [Self-Stamp Estimate Drift](finding_selfstamp_estimate_drift.md) — stamp from `date`; trust
+- [Don't Retire a Dormant Thesis](feedback_dont_retire_dormant_thesis.md) — de-escalated catalyst →
