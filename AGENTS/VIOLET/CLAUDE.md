@@ -176,4 +176,4 @@ Live research queue: `STATUS.md § RESEARCH QUEUE` (priority-ordered, refreshed 
 
 ---
 
-*Template derived from AGENTS/templates/CLAUDE_TEMPLATE.md. Closeout pattern adapted from BRENT 2026-05-31 codification (auto-memory `[[finding_closeout_as_writeback_tail]]`). Residue pass 2026-06-10 — see MAINTENANCE.md for the structural trail.*
+*Template derived from the former `AGENTS/templates/CLAUDE_TEMPLATE.md` (deleted 2026-06-30, commit `58c30516`; the market-agent standard now lives in `AGENTS/DAEDALUS/BLUEPRINTS/market-agent.md`). Closeout pattern adapted from BRENT 2026-05-31 codification (auto-memory `[[finding_closeout_as_writeback_tail]]`). Residue pass 2026-06-10 — see MAINTENANCE.md for the structural trail.*
