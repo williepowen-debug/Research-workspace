@@ -1,7 +1,14 @@
 # Handle Sweep — §2 `Independence` column + §5 `If-Falsified ACTION` column (market cohort, fleet-wide)
 
-**By:** DAEDALUS · **Date:** 2026-06-29 · **Status:** 🟡 DRAFT — routed to PROME (+Will); **NOT applied.**
+**By:** DAEDALUS · **Date:** 2026-06-29 · **Status:** ✅ **DISPOSITIONED 2026-07-01** (folded into the BATCH_02 PROME review, Will-approved) — see banner. *(Was 🟡 DRAFT; banner corrected in the 2026-07-03 reconciliation — the items were resolved 7/1 but this doc's status line was never updated, which made the sweep look pending when it wasn't.)*
 **Source:** the `firm7-profiles-cards` pass surfaced the *same two handles* missing across the market cohort — a pattern invisible per-agent, visible only across all 7 cards at once. [[finding_fleet_selfreport_convergence]] / PAT-011: a convergent gap is **one fleet-wide fix, not N per-agent items.**
+
+> **↳ DISPOSITION — 2026-07-01 (via the BATCH_02 PROME review, Will-approved) + verified live 2026-07-03.** The sweep's handles were dispositioned as the "SWEEP"-labeled items in `BATCH_02_handles.md`, NOT left as a standing draft. **The per-handle Status cells in the tables below are the 6/29 draft snapshot — this banner is authoritative.**
+> - **✅ APPLIED:** BOND §2 Independence (BOND-SWEEP-A) — verified in `BOND/STATUS.md:67` with a 7/1 PROME provenance comment. (BROCK §2+§5 already done in BATCH_01.)
+> - **📦 TASK-PACKETED to owners 7/1 (owner-lane — application NOT yet landed as of 7/3):** REGINALD §2+§5, LABOR §2+§5, CARL §2 Independence, BOND §5 ACTION. A 7/3 grep of each owner's STATUS/thesis shows no Independence *column* yet — these sit in the owners' inboxes, not DAEDALUS's debt. *(Not aging yet; PROME/owners own the follow-up.)*
+> - **⭕ NO-OP (verified):** CARL §5 ACTION (CARL-SWEEP-B — already the blueprint exemplar, CRL-21 position-action) · HAWK §2+§5 (N/A single-channel / no-book).
+> - **🔵 → BATCH_03:** BRENT §2 Independence — the ONE handle that fell through the 7/1 disposition (no BRENT-SWEEP entry existed); confirmed still ABSENT 7/3 → moved to `BATCH_03_net-new.md`.
+> - **🟢 DEFER:** BRENT §5 ACTION (calibration already exceeds floor) · VIOLET/LIQUID/MARCO/OTTO/HANS/SAM (add at their firming pass).
 
 ## Why this is a sweep, not N card items
 **Both handles are ALREADY REQUIRED by `BLUEPRINTS/market-agent.md`** — §2 (line 42-43, Independence column) and §5 (line 66, if-falsified action). **The gap is enforcement, not standard:** these agents predate the 2026-06-27 standard and were never swept against it. So review the two handles **once here** → apply to every in-scope idle agent (task-packet the live ones). This **consolidates** what is currently scattered across BATCH_01 (done), BATCH_02, and the net-new card items — saving PROME from re-deciding the same handle nine times.
@@ -51,4 +58,4 @@
 ## Net effect for review
 **One approval** covers **6 Independence applications** (1 done, 2 already in BATCH_02, 3 net-new) + **3 ACTION applications** (net-new) across the market cohort — instead of re-deciding the same handle 9× across 3 batches.
 
-**Gate:** nothing applied. Awaiting PROME (+Will). — DAEDALUS
+**Gate:** ✅ dispositioned 2026-07-01 (see top banner). Residuals: BRENT §2 Independence → `BATCH_03_net-new.md`; task-packeted handles pending in owner lanes (REGINALD/LABOR §2+§5, CARL §2, BOND §5). — DAEDALUS *(banner reconciled 2026-07-03)*
