@@ -19,6 +19,7 @@
 6. **Data:** Banxico May ($5,611M +3.8%, count −1.7%) + FL condo May (8.6mo) → dashboard/VX/KB. Confirmed garbled "$5.69B" press was a mislabeled MAY figure.
 7. **Docket:** 6 passed catalysts pruned/re-dated (WestJet+Air Transat removed as resolved one-offs; Banxico/NFP/FL-Realtors re-dated to next; state-of-origin + OFLC H-2A pushed). Forward window now Jul 15 CPI → mid-Aug NTTO.
 8. **Closeout:** NEXUS_BRIEF v2.6 refresh; MEMORY provenance lesson + session arc; this SCRATCH.
+9. **STALENESS HUNT (Will-directed, post-closeout):** systematic sweep for stale current-claims. Big find: **FL Citizens "$678.8B" was stale (2024) AND directionally backwards** — Citizens depopulated 67% below peak ($235.6B removed 2025, 395K policies) → **MAR-17 (>$750B) INVALIDATED**; VX-SFE-03 BREACHED→DE-ESCALATED; thesis Ch3 insurance leg (exposure-thermometer decoupled from affordability); STATUS + KB-SFE-02; cross-flag CORAL. Also: `docket/CALENDAR.md` re-synced (17d mirror-drift I'd left); thesis Ch4 remittance bullet destaled; STATUS "NEXT SESSION 5/31" + "CROSS-AGENT RE-SEND" blocks pruned→pointers; ICE-raids row construction-nuance. **Will-steered round 2:** Central America verified moderating (+9.1% Q1'26 vs 2025 +20.1% — MAR-12 liquidation-exhaustion begun); FROZEN banners on 4 dormant sub-agents; CLAUDE.md threshold table (Citizens invalidated); TRADE.md Feb-vintage banner. 3 commits (46d26a8b, 1247117c + the SCRATCH true-up).
 
 ## NEXT SESSION
 1. **~Jul 15 June CPI** — ES-MARCO-08 real fork (pump now falling post-Brent-collapse; F&V held +6.1% May). The clean labor-vs-freight decoupling test. Shared print w/ BRENT.
@@ -40,7 +41,8 @@
 | MAR-26 construction raids | Q3 clean test (May South −17% MoM = emerging threshold) |
 | MCO April pax | 🟡 BTS T-100 (~Jul, now due) |
 | PREDICTIONS_ARCHIVE + calibration scoreboard (punchlist #2) | 🟠 fresh Q2 cohort now closed (MAR-18/01/26 + earlier) — build next; fold T1-D col-normalize |
-| MAINTENANCE punchlist | T1-B RESOLVED 7/2 (magnitude); still open: T1-D (col-count), T2-A (STATUS 3 READ-FIRST blocks — archive older two), T2-C (TRADE.md Feb-vintage), T3-A (VX triage 46/57 >60d), T3-B (border muni-bond EMMA), T3-C (skeleton archive) |
+| MAINTENANCE punchlist | RESOLVED 7/2: T1-B (magnitude), T1-E (FL Citizens), T2-A (STATUS stale blocks), T2-C stamped (TRADE.md banner), sub-agent FROZEN banners, CALENDAR resync. Still open: T1-D (col-count), T3-A (VX triage 46/57 >60d), T3-B (border muni-bond EMMA — latent opportunity), T3-C (skeleton archive), STATUS 3 READ-FIRST blocks (archive older two) |
+| FL Citizens exact current-exposure $ | 🟡 re-marked directionally (67% below peak, MAR-17 invalidated) but exact current $ not cleanly disclosed — pull Citizens Dec-2025 board report to nail the figure; reconcile w/ CORAL (whole-FL insurance owner) |
 | 2.2M→~1.0M propagation | Canonical + live surfaces done; dated/archival mentions (old CHANGELOG/TIMELINE entries, sub_agents/WORKFORCE, domain/sources/SDL, ML.tsv) retain old figure as snapshots — sweep opportunistically |
 | WALTER inbox item (6/27) | 🟡 unprocessed — separate signal, not spawned to process; flag if it recurs |
 | Ag-weather/crop-disaster owner | 🟡 open PROME loop (flagged 5/31, unassigned) |
@@ -49,6 +51,6 @@
 Inbox: PROME immigration-magnitude msg (6/26) PROCESSED (→ inbox/processed/; integrated as v2.6). WALTER subfolder item (6/27) left unprocessed. **Outbox: 4 written this session** — to-LABOR (magnitude reconcile + June), to-CORAL (magnitude reconcile), to-PROME (integrated + June corroborates), to-CARL (WC mask inverted). Stale 6/15 to-CARL note trashed (premise flipped). HERMES appears inactive (files sat 17d) — messaging overhaul pending ([[project_messaging_overhaul]]); NEXUS covered via NEXUS_BRIEF.
 
 ## PUSH STATE
-**7/2 session-16: ✅ ON ORIGIN.** Main commit `2927ea41` (SDL re-mark v2.6 + June-jobs catch-up) pushed via safe-push.sh (ff, swept a 4-commit push-train: MARCO + WALTER + CRUISE). This SCRATCH stamp is a tiny true-up (`[next]`) riding the next push.
+**7/2 session-16: ✅ ALL ON ORIGIN.** Commits: `2927ea41` (SDL re-mark v2.6 + June-jobs catch-up) · `943e29f3` (SCRATCH true-up) · `46d26a8b` (staleness hunt pt1: FL Citizens re-mark + CALENDAR resync + STATUS/thesis destale) · `1247117c` (staleness hunt pt2: CentAm verify + FROZEN banners + doc destale). All pushed via safe-push.sh (ff). This SCRATCH update is a tiny true-up riding the next push. NOTE: unrelated WALTER + memory/auto work in the tree at close — left untouched per isolation.
 - Files (all AGENTS/MARCO/): STATUS, SCRATCH, MEMORY, NEXUS_BRIEF, FINDINGS, MAINTENANCE, EXPECTED_SIGNALS, thesis/{THESIS,CHANGELOG,PREDICTIONS.tsv,TIMELINE}, docket/CATALYSTS.tsv, workbook/{KB,VX}.tsv, inbox/processed/ (PROME msg via git mv), outbox/ (4 new, 1 trashed).
 - **NOTE for next session/Will:** `AGENTS/WALTER/STATUS.md` had an uncommitted working-tree change during my closeout (not mine — left untouched per isolation). Flag to whoever runs WALTER if it persists.
