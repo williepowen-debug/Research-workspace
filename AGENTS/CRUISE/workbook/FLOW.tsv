@@ -1,8 +1,9 @@
 ID	From	To	Channel	Speed	Confirmed	Evidence	Notes
-FL-CRU-01	BRENT	CRUISE	Bunker fuel cost	Immediate	Yes	Fuel = major operating cost for all 3 operators	CCL unhedged = direct pass-through. RCL partially hedged.
-FL-CRU-02	HAWK	CRUISE	Gulf route insurance / itinerary	Days	Yes	Hormuz closure → Gulf season cancelled → MSC trapped	War risk insurance makes Gulf routes uninsurable
+FL-CRU-01	BRENT	CRUISE	Bunker fuel cost	Immediate	Yes	Fuel = major operating cost for all 3 operators	CCL unhedged = direct pass-through. RCL partially hedged. NOTE 7/2: sign flipped — Brent $71 4-mo low = current TAILWIND, not stress.
+FL-CRU-02	HAWK	CRUISE	Gulf route insurance / itinerary	Days	Yes	Hormuz closure -> Gulf season cancelled -> MSC trapped	7/2: DE-ESCALATED — strait degraded not sealed, ~75% transits, MOU 6/17. War-risk insurance still elevated = residual.
 FL-CRU-03	CRUISE	CARL	Port city consumer spending	Weeks-Months	Partial	$100-400K lost per cancelled port call	Shore excursion operators 80-90% cruise-dependent
 FL-CRU-04	CRUISE	LABOR	Port city employment	Months	Partial	290K US cruise jobs (CLIA). PortMiami 311K+ jobs.	Layoff announcements lag itinerary cancellations
-FL-CRU-05	CRUISE	WILL	Trade targets / canary signal	Immediate	Yes	Operator guidance warnings = actionable	CCL puts (fuel), NCLH puts (balance sheet)
-FL-CRU-06	Fuel spike	CCL P&L	Unhedged fuel pass-through	Immediate	Yes	$145-156M net income hit per 10% fuel move	No corporate hedging policy at CCL
+FL-CRU-05	CRUISE	WILL	Trade targets / canary signal	Immediate	Yes	Operator guidance warnings = actionable	7/2: thesis pivoted fuel/Gulf -> demand K-shape. NCLH structural short = surviving edge (unverified).
+FL-CRU-06	Fuel spike	CCL P&L	Unhedged fuel pass-through	Immediate	Yes	$145-156M net income hit per 10% fuel move	No corporate hedging policy at CCL. 7/2: dormant — fuel deflating, channel inactive.
 FL-CRU-07	Gulf cancellation	Excursion operators	Lost port call revenue	Days-Weeks	Partial	Single cancellation = $100-400K local impact	80-90% of excursion operators cruise-dependent
+FL-CRU-08	CARL/WALTER	CRUISE	Consumer discretionary -> cruise bookings (K-shape)	Weeks-Months	Partial	45% skip summer vacation / 49% cost (WALTER 6/21)	THE LIVE CHANNEL. Value end (CCL/NCLH) squeezed first; premium (RCL) resilient. Transmission lags into forward bookings / Q2 guidance.
