@@ -6,7 +6,7 @@
 
 ## STATUS
 
-**2026-07-02 ~9–9:40 PM ET (Thu — Will-Telegram re-boot ~2h after the 7 PM close + TWO 6-image Twitter batches).** Clean re-boot (doctor 0-HIGH / 15-MED all known; markets closed → levels flat, no new auto-fire; intake gate quiet). Routed both batches: **7 DISPATCH / 5 KILL / 3 verify-spawn (BOARD 417→424).** **2 local commits, both pathspec-scoped. 🔴 PUSH DEFERRED — 2+ concurrent live Claude sessions observed writing MARCO + CRUISE uncommitted (serial-single-machine violated).** Tier-1 light closeout.
+**2026-07-02 ~9–9:40 PM ET (Thu — Will-Telegram re-boot ~2h after the 7 PM close + TWO 6-image Twitter batches).** Clean re-boot (doctor 0-HIGH / 15-MED all known; markets closed → levels flat, no new auto-fire; intake gate quiet). Routed both batches: **7 DISPATCH / 5 KILL / 3 verify-spawn (BOARD 417→424).** **🟢 PUSHED (local = origin).** Ran alongside 2+ concurrent live Claude sessions that wrote MARCO + CRUISE (serial-single-machine VIOLATED) — initially deferred my push; it resolved (train swept my routing commits, tree cleared when they committed, I safe-pushed the closeout). Tier-1 light closeout.
 
 ## CHANGED (this session)
 
@@ -31,8 +31,7 @@
 
 ## GAPS
 
-- **🔴 PUSH DEFERRED — concurrent live sessions (the load-bearing carry-forward for next boot).** 2+ other Claude sessions running (pts/4 @21:07, pts/6 @21:17) actively wrote MARCO (session-16, mtime 21:30) + CRUISE (21:35), both **uncommitted foreign work** in the tree — serial-single-machine VIOLATED. My 2 commits are pathspec-scoped (BOARD/ + AGENTS/WALTER/ + delivery-zone only; **never touched MARCO/CRUISE**) and sit **local, not pushed.** Did NOT `git pull --rebase` (would disturb their in-flight work). The auto push-train sweeps my commits on the next clean tree / when a concurrent session commits+pushes. **Next boot: verify my 2 commits reached origin; if not, safe-push once the tree is clean.**
-- **MARCO + CRUISE have real uncommitted work** (MARCO session-16 = June-jobs catch-up, SDL-01 re-mark, thesis v2.6; CRUISE STATUS/TRADE/workbook). Not mine to commit — their owners must. Flagged Will.
+- **🟢 PUSH RESOLVED (was deferred mid-session) — but the concurrent-session event is the real carry-forward.** 2+ other Claude sessions ran (pts/4 @21:07, pts/6 @21:17) and wrote MARCO (session-16, June-jobs catch-up + SDL-01 re-mark + thesis v2.6) + CRUISE, both initially **uncommitted** — serial-single-machine VIOLATED. I committed my 2 routing batches pathspec-scoped (never touched MARCO/CRUISE) and deferred. Then: the concurrent sessions' push-train swept my batch-1+2 to origin, they committed their own dirs (tree cleared), and I safe-pushed the closeout `f3aa9e67` clean-ff. **All WALTER work on origin; local = origin; tree clean.** MARCO/CRUISE committed their own work. **The open item is the policy Q (below), not a pending push.**
 - **23 handoffs await consume** (batch-2 to BRENT/HAWK/CORAL/CARL/REGINALD/HENRY/SAM/VIOLET/LIQUID/BOND/RED; batch-1 to SAM/BOND/CARL/RED). Delivery ≠ consumption.
 - **STATUS boot#2/#3-spine trim** still owed (the older 6/28 lead paragraphs demoted to `>` spine). Carried.
 
@@ -44,7 +43,7 @@
 ## FOLLOW-UP (canonical running list — survives handoff via this file)
 
 **🔴🕕 Live / time-sensitive:**
-1. **PUSH DEFERRED** — confirm the 2 batch-commits reached origin next boot; safe-push once the tree is clean (see GAPS). Do NOT rebase while MARCO/CRUISE sit uncommitted.
+1. **PUSH RESOLVED** — all WALTER commits (routing + closeout) on origin, local = origin. The live carry-forward is the **concurrent-session policy Q** (OPEN DESIGN DECISIONS), not a pending push.
 2. **Iran full-kinetic 7d re-verify due ~7/5** — the 7/2 addendum was Hormuz-axis only. Ladder: further physical escalation / MOU collapse / de-escalation resumes / Iran-cluster pre-dispatch.
 3. **11 more DEWEY Batch-2 reports landing 7/2→7/22** — route each at boot step 7d as it lands, close its QUEUED ledger row. Next ASAP: prompt 07 (funding-seizure X1) + 10 (energy-HY-OAS); 08 JGB by ~7/6 (SIG-007/-003 are timely inputs); 09 UST by ~7/7.
 4. Brent <75 sustain-watch (RED-FT-04, BRENT-owned). HY 274 → next UPSIDE fire RED-FT-02 (>320).
