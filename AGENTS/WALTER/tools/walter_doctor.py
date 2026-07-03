@@ -206,6 +206,11 @@ def check_board_reconcile():
 
 # ── cron-feed liveness (boot step 7c) ───────────────────────────────────────
 def check_cron_liveness():
+    # These 3 cron feeds are KNOWN-DARK — superseded by the RESEARCH-INTAKE lane
+    # (boot step 7e; see CLAUDE.md step 7c). They are NOT live inputs, so staleness
+    # is EXPECTED, not a failure → emit INFO, not MED (removes the false-MED that
+    # fired every boot; fix per the 2026-07-03 arch/infra audit). A feed going
+    # FRESH again surfaces as "(ok) — REVIVED?" = the signal to re-integrate it.
     feeds = [  # (path, cadence label, stale-after days)
         ("FORGE/tools/news-sweep/latest.md", "M-F daily", 3),
         ("FORGE/tools/filing-watch/latest.md", "~daily", 3),
@@ -215,14 +220,13 @@ def check_cron_liveness():
     for rel, cadence, limit in feeds:
         p = REPO / rel
         if not p.exists():
-            out.append((MED, f"{rel}: MISSING"))
+            out.append((INFO, f"{rel}: absent (known-dark; superseded by RESEARCH-INTAKE lane, 7e)"))
             continue
         age = _age_days(dt.date.fromtimestamp(p.stat().st_mtime))
         if age > limit:
-            out.append((MED, f"{rel}: {age}d stale (cadence {cadence}, limit {limit}d) "
-                            f"— upstream cron likely down"))
+            out.append((INFO, f"{rel}: {age}d stale — known-dark, superseded by RESEARCH-INTAKE lane (7e); not a live input"))
         else:
-            out.append((INFO, f"{rel}: {age}d (ok)"))
+            out.append((INFO, f"{rel}: {age}d (ok) — REVIVED? re-integrate as a live input if intended"))
     return out
 
 

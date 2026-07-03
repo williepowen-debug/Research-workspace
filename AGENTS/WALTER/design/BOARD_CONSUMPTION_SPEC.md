@@ -229,11 +229,13 @@ Auto-memory `[[project_messaging_overhaul]]` ("don't patch inbox/outbox/HERMES h
 ## 13. Phase-1 acceptance checks ("done")
 
 - [x] WALTER routes a signal → BOARD file + INDEX row + `route_log` row + delivery file(s) in each recipient's `inbox/WALTER/` + `delivery_log` row(s). *(Phase-1 shipped; Quick-WALTER retired 2026-06-26.)*
-- [ ] BOARD still reconciles (ToC = sections = files).
-- [ ] `walter_doctor` runs via portable python and includes both new checks (`delivered_but_unconsumed` + git-derived `written_but_undelivered`).
-- [ ] BRENT -001 / HAWK -002 audited; backfill handoff files created (narrow — those two only).
-- [ ] Nothing claims `consumed` (Phase 2 not shipped).
-- [ ] Concise diff-stat shown; no push until Will/PROME approve.
+- [x] BOARD still reconciles (ToC = sections = files). *(verified 2026-07-03 — doctor `board_reconcile` ✓ at 434.)*
+- [x] `walter_doctor` runs via portable python and includes both new checks (`delivered_but_unconsumed` + git-derived `written_but_undelivered`). *(both live + running every boot.)*
+- [x] BRENT -001 / HAWK -002 audited; backfill handoff files created (narrow — those two only). *(delivery_log confirms both created 2026-06-17, COMMITTED — closed the structural BRENT miss.)*
+- [x] Nothing claims `consumed` (Phase 2 not shipped). *(satisfied at Phase-1 ship; Phase-2 consume has since rolled to 9 agents, correctly logged.)*
+- [x] Concise diff-stat shown; no push until Will/PROME approve. *(standing process criterion.)*
+
+*(All boxes ticked/verified 2026-07-03 arch/infra audit — Phase-1 acceptance complete.)*
 
 ---
 
@@ -241,7 +243,7 @@ Auto-memory `[[project_messaging_overhaul]]` ("don't patch inbox/outbox/HERMES h
 
 - Cross-agent "0 consumers after 7 days" routing-gap telemetry (now partially covered by §6.1).
 - Disposition analytics (skipped-rate → persistent mis-routing detection).
-- COP integration: per-agent "unread WALTER-delivery count" when COP resumes.
+- ~~COP integration: per-agent "unread WALTER-delivery count" when COP resumes.~~ *(DROPPED 2026-07-03 — COP decommissioned 2026-06-28; dead conditional.)*
 
 ---
 

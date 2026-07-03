@@ -1,6 +1,6 @@
 # DEEP-RESEARCH CANDIDATE FLAG — Proposal
 
-**Status:** PROPOSAL — **endorsed by PROME (6/19) + WALTER (6/19); §8 resolved; ready for WALTER to ratify per §9**
+**Status:** ✅ **RATIFIED & SHIPPED (2026-06-19)** — landed as CHECKLIST v0.18 (Phase 2.8), extended v0.20 (DEWEY-executor) → now v0.22; live ledger `registry/DEEP_RESEARCH_FLAGGED_LOG.tsv` + `walter_doctor` `deep_research_pending_overdue` check both operational. This doc is retained as the historical design spec — **do NOT re-land.** *(§9 ratification checklist below is satisfied; was: "PROPOSAL, endorsed PROME+WALTER 6/19, ready to ratify".)*
 **Date:** 2026-06-19
 **Origin:** Will idea ("give me a heads-up when a signal would benefit from a deeper / surrounding research task") → WALTER first-pass design (Telegram, 6/19) → design review + drafting (Claude Code helper session, branch `claude/brave-gates-jl3699`) → **PROME review 6/19** → **WALTER ratification-review 6/19**
 **Reviewed:**

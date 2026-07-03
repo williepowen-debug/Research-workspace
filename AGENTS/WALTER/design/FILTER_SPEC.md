@@ -35,9 +35,9 @@ Before any filter runs, check for system-critical conditions. If any trigger fir
 
 **Why bypass everything:** When the stakes are position-level or system-level, a duplicate reminder is cheaper than a missed trigger. Normal novelty/relevance filtering would incorrectly kill a critical second-hit.
 
-**Empirical note (v0.3 update Apr 20 2026):** zero FLASH signals across the first 51 dispatches (Apr 11–Apr 20). Bypass has never fired in production. Two interpretations: (a) trigger criteria are appropriately strict (FLASH-worthy events genuinely rare), or (b) criteria miss events that should have fired. The Apr 21 catalyst day (WAL/ZION earnings + Iran ceasefire expiry + 8-channel Iran cluster) is the first real test.
+**Empirical note (v0.3 Apr 20 2026; refreshed 2026-07-03):** zero FLASH bypass-fires across the first 51 dispatches (Apr 11–Apr 20) — and **still none through ~434 dispatches** as of 2026-07-03. Bypass has never fired in production. Two interpretations persist: (a) criteria are appropriately strict (FLASH-worthy events genuinely rare), or (b) criteria miss events that should have fired. The Apr 21 catalyst day passed without a bypass-fire; the triggers below remain the standing safety net.
 
-**Pre-Apr-21 bypass reaffirmation:**
+**Standing FLASH bypass triggers** (reaffirmed Apr 20 2026; live — mirrored in STATUS FILTER POSTURE):
 - WAL or ZION gap-down >5% premarket on Q1 miss → bypass-trigger (held-position material news)
 - KRE 1-day drop >3% intraday → bypass-trigger (proxy-position liquidity + sector stress)
 - Iran kinetic-interdiction of US naval vessel (distinct from boarding a commercial ship) → bypass-trigger (safety net: correlation break across oil/equity/USD)
@@ -45,7 +45,7 @@ Before any filter runs, check for system-critical conditions. If any trigger fir
 - VIX +5 intraday → bypass-trigger (explicit safety net spec)
 - Will explicit FLASH flag via Telegram → bypass-trigger
 
-If bypass fires Apr 21, route FLASH immediately + Telegram alert + BOARD archive. Do NOT run through Gate 1.
+If any bypass trigger fires, route FLASH immediately + Telegram alert + BOARD archive. Do NOT run through Gate 1.
 
 If no bypass triggers fire → proceed to Gate 1.
 

@@ -82,7 +82,7 @@ But: signal **bodies** are immutable per CHECKLIST editorial discipline. Re-cate
 
 ---
 
-## Cluster status flags (reserved for v0.2)
+## Cluster status flags (deferred — not implemented through v0.3)
 
 INDEX cluster sections may eventually carry status flags:
 - 🟢 ACTIVE — signals continuing to land
@@ -90,7 +90,7 @@ INDEX cluster sections may eventually carry status flags:
 - 🔴 SUPERSEDED-FRAMING — anchor change invalidates the cluster's framing (e.g., May 4 ceasefire-break re: IRAN_HORMUZ pre-May-4 signals)
 - ⚫ ARCHIVED — cluster closed; signals retained for history
 
-v0.1 ships without status flags. Add in v0.2 once cluster sections are live and we see how staleness shows up.
+v0.1 shipped without status flags. **Deferred through v0.2 + v0.3 (never implemented) — revisit only if cluster-level staleness needs its own flag. Note: the v0.10 signal-lifecycle `status`/`status_ref` tags (FORMAT_SPEC) may already cover the need at the signal level, making cluster-level flags redundant.** *(status-audit 2026-07-03.)*
 
 ---
 
