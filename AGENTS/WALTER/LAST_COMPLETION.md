@@ -37,8 +37,8 @@
 
 ## WILL_NEEDS
 
-1. **🔴 Heads-up: 2+ concurrent Claude sessions are running right now** (besides WALTER) — they wrote MARCO + CRUISE and left them **uncommitted**. If that's intentional, fine; if not, those sessions should close out + commit their own dirs (their work is real and at risk if the tree is disturbed). I deferred my push to avoid racing/disturbing them.
-2. Nothing else blocking — the two batches are fully routed + archived; the concurrent-session situation is the only open item.
+1. **✅ Concurrent-session Q RESOLVED** — Will confirmed CRUISE/MARCO/WALTER concurrent on one machine is intended; the push-chain worked (all committed own-dir pathspec-clean, all on origin, clean fast-forwards). No action needed — the earlier "heads-up" was an over-flag.
+2. Nothing blocking — the two batches are fully routed, archived, and pushed.
 
 ## FOLLOW-UP (canonical running list — survives handoff via this file)
 
@@ -58,7 +58,7 @@
 
 ## OPEN DESIGN DECISIONS (need Will)
 
-**🟦 NEW (surfaced this session):** **Concurrent-session policy** — the serial-single-machine assumption underpins the whole git protocol (safe-push, push-train, pathspec-commit-race mitigation). Tonight 2+ sessions ran concurrently and left uncommitted work. Is concurrent operation now intended (→ the git protocol needs per-agent-branches or a lock), or an accident (→ just a reminder to run one at a time)? This is the tripwire root CLAUDE.md names.
+**✅ RESOLVED (Will, 7/2 PM):** **Concurrent-session policy** — Will confirmed running CRUISE/MARCO/WALTER concurrently on ONE machine (shared repo, push-chaining) IS the intended, supported model — NOT the forbidden "two machines at once." Commit-scope audit confirmed all agents committed own-dir-only + pathspec-clean, with clean fast-forwards (MARCO→MARCO 20f / CRUISE→CRUISE 8f / WALTER→WALTER+BOARD+delivery). My mid-session push-defer was over-cautious (conflated one-machine-concurrent with two-machines-diverging). **Lesson: don't re-flag same-machine concurrency; the real guard is pathspec-commit, never `git add -A`.** (Encoded in MEMORY for future-WALTER.)
 
 **🟦 Parked (carried):** RED auto-cc trim · EIA `.env` durability · DEWEY↔Scout consolidation (RESEARCH-INTAKE lane supersedes dark crons) · group-chat artifact policy · INDEX status-column · HENRY LIAISON priority · FED_FRAMEWORK→UST_PLUMBING rename · Filter v2 Segment D · thin-liquidity prediction-market routing · delivery_log written_state enum · REITS/TRADES registry-completeness · CLIMATE_MACRO sustain-vs-fold · RESEARCH-INTAKE v2 (PROME lane-side threshold fast-follow + optional §5 glance-digest).
 
