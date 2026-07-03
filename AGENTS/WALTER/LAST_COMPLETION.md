@@ -64,7 +64,7 @@
 
 **✅ Tier-2 debt CLEARED this closeout (Will-directed):** 10-row registry_lag refresh (all from live STATUS; VIOLET upgraded YELLOW→ORANGE) · NETWORK-AWARENESS regen (both blocks) · staleness-sweep (`STALENESS_SWEEP_2026-07-02.tsv` — 100/430 cadence run, blanket section-preamble + date-discount backstop disposition, full per-signal tagging deferred as disproportionate for a cadence run; overdue flag cleared). **Still carried (optional):** STATUS boot#2/#3-spine trim · a BOOT_PROTOCOL §7e rationale section.
 
-**🟠 Carried (cross-agent / LIAISON):** RED Turn 8 / REGINALD Turn 7 (since 6/6). CARL LIAISON DORMANT. BRENT CLOSED. EVENT_WINDOW CLOSED (1/3 Path B).
+**🟠 Cross-agent / LIAISON — corrected 7/3:** RED **CONVERGED/DORMANT** (Turn-7 substance shipped into CHECKLIST v0.12; only a low-pri calibration-retro remains) · REGINALD **CLOSED** (archived from their side) · CARL DORMANT · BRENT CLOSED. EVENT_WINDOW CLOSED (1/3 Path B). *(All LIAISON channels now dormant/closed — no live cross-agent architectural threads.)*
 
 **🟠 Carried (autonomous-available):** consume-boot-step for the CC self-apply set (CARL/REGINALD/SAM/RED) · CLIMATE_MACRO sustain-vs-fold watch · auto-memory index trim (then promote the [7/2] intake-wiring + batch findings).
 
@@ -82,7 +82,7 @@
 
 **🔴 STALLED — needs Will or a cross-agent push:**
 - **B1. Delivery consume-step backlog MATERIALIZED** — 220 handoffs delivered-but-unconsumed (64 ACTION), concentrated in the 4 agents lacking the §8.1 consume boot-step: CARL/REGINALD/SAM/RED (RED ~90 files, CARL ~40; no `processed/` dirs). The exact "in BOARD ≠ received" failure the 6/17 delivery layer was built to prevent. WALTER can't self-fix (git isolation). → Will/PROME push the 4 to self-apply, or re-scope. **Highest impact.**
-- **B2. Cross-agent LIAISON program froze 6/6** — RED Turn 8 (VIX-spike trigger proposal) + REGINALD Turn 7 (calibration retro) 27d unanswered, auto-DORMANT ~7/6; CARL dormant since 6/20 (calibration cycle 1 never fired). → WALTER re-check handoff files + post queued substance or let lapse.
+- **B2. Cross-agent LIAISON program — ✅ RESOLVED as stale-manifest (7/3 live-verify + correction).** Checked the actual files: **REGINALD archived the channel from their side** (`AGENTS/REGINALD/archive/handoff_WALTER/`) → "awaiting Turn 7" was stale; **RED Turn 7's 4 substance items already shipped into CHECKLIST v0.12** (6/4 fires + overdue-detection + peak rule), only a low-pri calibration-retro cadence Q remains (RED active-since w/o prioritizing). STATUS manifest CORRECTED (REGINALD→CLOSED, RED→CONVERGED/DORMANT). CARL dormant since 6/20. **Not live work** — the audit had read WALTER's own stale manifest.
 - **B3. V0_9_STACK: 2 Will-approved fields never shipped** — `unanimity_state` + `event_anchored` (approved 5/6) skipped across v0.9→v0.12; tracker orphaned (archive-trigger fired, contents didn't); BRENT's `energy_transmission`/`regime_state` cosigned candidates have no tracker home. → ship v0.11 / defer / kill, then reconcile + archive V0_9_STACK.
 - **B4. Filter v2 Segment D** — Will picked Option A 4/20 (add `confidence_note` field), never implemented (~30 min). Blocks FILTER_V2_PLAN archival + the overdue FILTER v3 review (trigger ~May 20 / 50 dispatches; now 434). → resume or Will-drop.
 - **B5. Scheduled-scan workflow** — Will-approved infra (~$0.70-1.10/wk), un-built ~2mo, double-blocked on undelivered CARL+BRENT DATA_RELEASE_CALENDAR.md + the recurring budget still needs Will sign-off.
