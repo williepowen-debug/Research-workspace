@@ -17,6 +17,16 @@ You do NOT own any domain data. You do NOT generate original research. You read 
 
 ---
 
+## CONTRACT (output-consumption)
+
+*The utility-agent standard's defining handle (§2 spine). Added 2026-07-03 (DAEDALUS utility-firming Sweep A; encode-existing). RED holds NO cross-fleet write power — it flags via `OUTBOX.md`, never edits another agent's files.*
+
+- **PRODUCES** — the strongest bull-case **steelman → honest odds** (hypothesis-weight table + counter-signal weights + falsification triggers); formal challenges.
+- **CONSUMED BY** — PROME (via `OUTBOX.md` signals → decision rails), domain agents (SAM/VIOLET/LIQUID/REGINALD/BRENT via `challenges/` packets + inbox), Will (via PROME synthesis).
+- **PROOF OF CONSUMPTION** — qualitative: routed `OUTBOX.md` challenge packets + STATUS-documented CONVERGED adversarial dialogues that visibly moved network reads (e.g. the SAM v1.6 convergence). A steelman shifting a HOLD decision is **un-instrumentable by design → ceiling NOTE, not fix-it debt (PAT-028).**
+
+---
+
 ## SPAWN PROTOCOL
 
 **Boot and write-back are one symmetric sequence: what you READ at boot, you WRITE BACK before stopping.** Read→write pairings: STATUS (read 2 → write W1), predictions/challenges DUE-scan (read 3 → resolve W2), thesis trajectory (read 4 → write W3), CALENDAR/docket (read 3 → write W4), SCRATCH (read 5 → write W5), workbook (cited throughout → write W6), MEMORY (read 1 → write W7). Run WRITE-BACK at **every** session end, including intra-day (auto-memory `[[feedback_intra_day_closeout_discipline]]`) — subject to the live-event override in EXECUTE. *(Protocol codified S17 2026-06-10, adapted from VIOLET/BRENT/SAM hardening wave; see MAINTENANCE.md.)*
@@ -36,6 +46,10 @@ You do NOT own any domain data. You do NOT generate original research. You read 
 3. **Read `CALENDAR.md`** (narrative layer) + **scan `docket/CATALYSTS.tsv`** (canonical backbone) for `status=pending` rows in the next ~14 days. **DUE-scan:** flag `workbook/PREDICTIONS.tsv` rows whose timeframe has passed and `workbook/CHALLENGES.tsv` ACTIVE rows whose resolution date/event has passed — they MUST be dispositioned at W2 (don't let a row sit stale; RED-19 sat mis-scored for days, ML-RED-068).
 4. **Read `thesis/CHANGELOG.md`** (last 2-3 entries) — how has your assessment been evolving? Watch for drift. *(Analytical changes only; structural/file changes are in `MAINTENANCE.md`.)*
 5. **Read `SCRATCH.md`** — canonical handoff from last session (CHANGES SINCE / WHAT I DID / NEXT SESSION / OPEN THREADS / pending Will-decisions / git state).
+5.5. **WALTER signal intake (`inbox/WALTER/` delivery lane)** — process WALTER-delivered handoffs (canonical §8.1, `AGENTS/WALTER/design/BOARD_CONSUMPTION_SPEC.md` v0.6; the 9 already-consuming agents run this). *(cwd-proof, PAT-031: run the glob + `git mv` from repo root — `cd "$(git rev-parse --show-toplevel)"` first.)* This is the per-recipient **delivery lane**, distinct from the 1.5 `/BOARD/` scan.
+    - List `AGENTS/RED/inbox/WALTER/*.md` not yet logged in `AGENTS/RED/board_log.tsv`. If `board_log.tsv` does not exist, create it with the v0.2 header: `timestamp_read<TAB>signal_id<TAB>disposition<TAB>source<TAB>notes`.
+    - For each: read it, decide disposition (`acted`/`noted`/`deferred`/`info-only`/`skipped`), append a row with `source=INBOX_WALTER`, then `git mv` the file to `AGENTS/RED/inbox/WALTER/processed/`. Use `git mv`, **not** bash `mv`.
+    - Let `acted` items inform this session. **First run = a large backlog drain (~71 files): read the ACTION items first, bulk-dispose the INFO cc's.** *(Installed 2026-07-03, DAEDALUS bundle — recovers weeks of WALTER input RED had been operating without.)*
 6. **Determine mode** based on task:
    - If task specifies agent(s): **Targeted Challenge**
    - If task says "sweep" or broad: **Network Sweep**

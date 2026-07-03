@@ -132,4 +132,10 @@ The "we're wrong" case is **winning the tape**, and the 9-day window was its bes
 - USCB Q2 (CORAL's only orthogonal FL datum).
 
 ---
+## BOTTOM LINE
+
+**HOLD 69/56 — disciplined hold-for-confirm (as of S21b, 6/23).** The bull-steelman scored on the tape (VIX crushed, credit tightened, banks green through a hawkish-hold Warsh SEP), yet the substance hardened underneath — SKEW reloaded to a June high, criticized-credit migration (CHG-RED-040), positioning-squeeze convexity (VX-025) — while transmission keeps lagging. The binding number is HY OAS heading for <260 (the rarest 30yr regime → falsifies near-dated *timing*, not direction). Pre-registered 2nd-print trigger armed (VIX ≥20 a 2nd session within 3 trading days AND un-lagged HY ≥267); standing RED-vs-LIQUID disagreement on CCC-BB load-bearing, discriminator = Q2 BDC marks ~Jul 25. *(Labeled BOTTOM LINE added 2026-07-03, DAEDALUS utility-firming Sweep B; synthesis is RED's own S21/S21b header — refresh at next boot.)*
+
+---
+
 *RED Session 20: the week the bull-steelman scored — and the substance still hardened underneath it. A new Fed Chair the whole network missed delivered a hawkish trapped-Fed SEP, and the tape crushed VIX, tightened credit, and rallied banks anyway. The cleanest single signal that survived an adversarial sweep was SKEW reloading to a June high post-catalyst — deep-tail protection getting MORE expensive while spot vol sits at 17. The discipline lesson: I attacked five agents' weakest assumptions and the counter-evidence mostly favored the bull on four of them — including demoting one of my own standing bear signals (CCC-BB) to a curve artifact. That's the job. Net-bear barely moved because direction is reinforced even as transmission keeps lagging; the binding number is HY 266 heading for 260.*

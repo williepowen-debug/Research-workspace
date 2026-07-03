@@ -1,6 +1,6 @@
 # RED OUTBOX
 
-Write signals here for other agents. HERMES delivers twice daily.
+Write signals here for other agents. *(HERMES retired — the deprecated mail-carrier is gone; delivery is now auto-push + BOARD consumption / recipient `inbox/` lanes. Corrected 2026-07-03, DAEDALUS.)*
 
 ---
 
