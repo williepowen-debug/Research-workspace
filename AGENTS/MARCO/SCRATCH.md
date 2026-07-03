@@ -42,7 +42,8 @@
 | MCO April pax | 🟡 BTS T-100 (~Jul, now due) |
 | PREDICTIONS_ARCHIVE + calibration scoreboard (punchlist #2) | 🟠 fresh Q2 cohort now closed (MAR-18/01/26 + earlier) — build next; fold T1-D col-normalize |
 | MAINTENANCE punchlist | RESOLVED 7/2: T1-B (magnitude), T1-E (FL Citizens), T2-A (STATUS stale blocks), T2-C stamped (TRADE.md banner), sub-agent FROZEN banners, CALENDAR resync. Still open: T1-D (col-count), T3-A (VX triage 46/57 >60d), T3-B (border muni-bond EMMA — latent opportunity), T3-C (skeleton archive), STATUS 3 READ-FIRST blocks (archive older two) |
-| FL Citizens exact current-exposure $ | 🟡 re-marked directionally (67% below peak, MAR-17 invalidated) but exact current $ not cleanly disclosed — pull Citizens Dec-2025 board report to nail the figure; reconcile w/ CORAL (whole-FL insurance owner) |
+| FL Citizens exact current-exposure $ | ✅ LIVE-VERIFIED 7/2: ~$295.1B (Jun'25, −43% YoY) + rates being CUT (−2.6% personal Jun'26) → crisis PAST-PEAK. MAR-17 invalidated. Reconcile w/ CORAL. |
+| SDL-01 population-basis reconcile w/ LABOR | 🟠 BLS Table A-7 primary: FB LF −700K YoY / pop −571K YoY. The "~1.5M pop" (PROME note) is a broader/counterfactual basis, NOT realized YoY — reconcile which basis LABOR's U-3 counterfactual needs before either cites ~1.5M. |
 | 2.2M→~1.0M propagation | Canonical + live surfaces done; dated/archival mentions (old CHANGELOG/TIMELINE entries, sub_agents/WORKFORCE, domain/sources/SDL, ML.tsv) retain old figure as snapshots — sweep opportunistically |
 | WALTER inbox item (6/27) | 🟡 unprocessed — separate signal, not spawned to process; flag if it recurs |
 | Ag-weather/crop-disaster owner | 🟡 open PROME loop (flagged 5/31, unassigned) |
