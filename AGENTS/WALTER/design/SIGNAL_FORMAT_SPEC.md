@@ -1,4 +1,6 @@
-# WALTER Signal Format Specification v0.12
+# WALTER Signal Format Specification v0.13
+
+**v0.13 (2026-07-03):** Added the optional free-text `confidence_note` field (observation-vs-interpretation asymmetry capture — use when the two diverge ≥1 confidence band; non-structured, discretionary, non-breaking, no migration). Ships **Filter v2 Segment D** (Will Option A, decided 2026-04-20 Telegram msg 856; implementation debt cleared 7/3) → FILTER_V2_PLAN v2 COMPLETE + unblocks the overdue FILTER v3 review. Pairs CHECKLIST v0.23 (Phase 2 reach-for-it guidance). Executed per Will "you can execute" 2026-07-03.
 
 **v0.12 (2026-06-28):** Added `CLIMATE_MACRO` to the Domain Vocabulary (16th canonical domain — macro climate→economy; primary action recipient AEOLUS) AND to the `cluster` enum reference (12th cluster per CLUSTER_TAXONOMY v0.3). Closes the vocab/cluster gap surfaced when AEOLUS (climate→economy agent, built by DAEDALUS 2026-06-28) took its first routed signals (SIG-W-20260628-011/012) with no home domain code or cluster (both filed MISC + a de-facto `CLIMATE_MACRO` code at dispatch, fixed same-session). Inline enum-add, small-change rule; Will sign-off 2026-06-28 (Telegram "Can we fix that now?"). Propagates to ROUTING_TABLE v0.16 (CLIMATE_MACRO routing row) + CLUSTER_TAXONOMY v0.3 (12th cluster) + STATE §1.
 
@@ -81,6 +83,7 @@ status_ref: "anchors/IRAN_WAR.md verified-as-of 2026-06-10"   # MANDATORY whenev
 | `signal_type` | enum | See Signal Types | What kind of signal this is. |
 | `confidence` | float | 0.0–1.0 | Numerical confidence score. For machine routing and threshold filters. See Confidence Model below. |
 | `confidence_language` | enum | `confirmed` / `reports` / `assessed` / `unconfirmed` | Human-readable confidence tier. For prose context. Must be consistent with `confidence` per the mapping below. |
+| `confidence_note` | string | Free text | **v0.13 — Optional.** Use when observation quality and interpretation quality diverge materially (≥1 confidence band apart) — the single `confidence` score would suppress both the solid observation and the real interpretation doubt. Free prose captures the asymmetry, e.g. *"observation 0.85 / interpretation 0.40 — broadcast physically verified by SDR community but ops-vs-training intent ambiguous."* Non-structured (can't filter mechanically); WALTER's discretion, not a mandatory gate. Per FILTER_V2_PLAN Segment D (Will Option A, 2026-04-20). |
 | `resources` | int | 0 / 1 / 2 | Estimated processing resources needed. |
 | `safety_net` | enum | `clear` / `triggered` | Whether safety net override was triggered. |
 | `word_count` | int | — | Body word count. FLASH/IMMEDIATE must be ≤200. |
@@ -111,6 +114,8 @@ Two confidence fields, both required, both must be consistent. Numerical for mac
 | (filtered) | **<0.30** | Below routing threshold. Goes to kill log, not the archive. |
 
 **Why both fields:** The numerical score lets agents and tools filter mechanically (e.g., RED might want to see signals at 0.50+; REGINALD might only act on 0.85+). The language tier tells humans WHAT KIND of certainty this is — a 0.92 "confirmed" reads very differently from a 0.92 "reports."
+
+**Observation-vs-interpretation asymmetry (v0.13 — the optional `confidence_note`):** a single `confidence` collapses two distinct axes — how well-established the *observation* is vs. how confident the *interpretation* of it is. When they diverge by ≥1 band (a physically-verified event whose meaning is ambiguous, or a soft datum with a clear read), set `confidence` to the routing-relevant value and add a `confidence_note` capturing both in prose. Prototype: SIG-022 EAM/E-6B — broadcast verifiable via SDR community (obs ~0.85) but ops-vs-training intent unknowable (interp ~0.40), previously coded a single 0.40 that buried the solid observation. Discretionary (reach for it only on a material gap), non-breaking, no migration. Ships Filter v2 Segment D.
 
 **Adjustment factors** (from FILTER_SPEC.md):
 - +0.1 if corroborated by second independent source

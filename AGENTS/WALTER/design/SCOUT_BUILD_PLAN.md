@@ -1,6 +1,6 @@
 # SCOUT — Step-by-Step Build Spec
 
-*Owner: WALTER (design) · Implementer: WALTER or DEWEY next session · Status: **PLAN — not built.** Saved 2026-06-22 PM at Will direction ("save the plan… write a step by step build"). Companion to `AGENTS/DEWEY/REVIVAL_PLAN.md` (Scout-track architecture). Grounded in a live read of the actual feed infra, not memory.*
+*Owner: WALTER (design) · Status: 🔴 **RETIRED / SUPERSEDED 2026-07-03** — never built; the **RESEARCH-INTAKE lane** (wired 2026-06-29, Will option A) is the live successor for the dark-cron feed content Scout was to revive (WALTER CLAUDE.md step 7c names it exactly that). Retired per PROME 7/3 read + Will "you can execute" — building Scout would duplicate the lane. Plan preserved for history: the build steps + §2 Will-prereqs remain valid ONLY if a Telegram-digest delivery model is ever wanted beyond the lane's significance-gated push. Saved 2026-06-22 PM at Will direction. Companion to `AGENTS/DEWEY/REVIVAL_PLAN.md`.*
 
 ---
 

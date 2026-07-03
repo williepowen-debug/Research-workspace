@@ -1,6 +1,6 @@
 # FILTER v1 → v2 Review Plan
 
-**Status:** Segments A+B+C COMPLETE 2026-04-20 evening. Segment D (design-heaviest — 3-mechanic round-trip with Will) deferred post-Apr-21 catalyst day.
+**Status:** ✅ **v2 COMPLETE 2026-07-03** — all 4 segments shipped. Segment D (`confidence_note`, Will Option A) landed 7/3 into **FORMAT_SPEC v0.13 + CHECKLIST v0.23**. **→ FILTER v3 review now DUE** (trigger long-passed: 434 dispatches vs the 50/30-day bar). Archive-eligible to `design/history/` (deferred as trivial; CLAUDE.md + STATE refs updated in place). *[was: A+B+C complete 4/20; D deferred post-Apr-21 — the deferral ran ~2.5mo as implementation debt, cleared 7/3 per Will "you can execute".]*
 **Scope:** Full 7-item revision across FILTER_SPEC, FORMAT_SPEC, ROUTING_TABLE, and SIGNAL_PROCESSING_CHECKLIST
 **Trigger:** 10+ dispatches OR 30 days from Apr 11 (reached at 51 dispatches = 41 past threshold).
 
@@ -80,7 +80,7 @@ Deployed form (see CHECKLIST v0.8 Phase 1.5 + FILTER_SPEC v0.4 reference):
 
 **Expected time:** ~30 min, one pass. Will review criteria before commit.
 
-### SEGMENT D — Confidence asymmetry (MECHANIC DECIDED 2026-04-20 evening — Will picked A; implementation deferred post-Apr-21 catalyst)
+### SEGMENT D — Confidence asymmetry (✅ SHIPPED 2026-07-03 — `confidence_note` landed in FORMAT_SPEC v0.13 + CHECKLIST v0.23; Will Option A, decided 4/20, implemented 7/3)
 
 **Will decision (Telegram msg 856):** Option A — add optional free-text `confidence_note` field. Smallest footprint, non-breaking, prose captures asymmetry the way WALTER naturally describes it.
 
@@ -118,6 +118,8 @@ Solve observation-vs-interpretation split. SIG-022 EAM/E-6B observation was veri
 ---
 
 ## Completion Criteria
+
+✅ **ALL MET 2026-07-03** — Segment D (`confidence_note`) shipped into FORMAT_SPEC v0.13 + CHECKLIST v0.23; all 7 items landed in their owning docs; specs version-bumped + STATE §1 synced (drift-guard green); **FILTER v3 review trigger now fired (434 dispatches ≫ 50) → v3 review is the next filter-hygiene task.** Plan archive-to-history deferred as trivial.
 
 Filter v2 is complete when:
 - All 7 items are implemented in their owning docs

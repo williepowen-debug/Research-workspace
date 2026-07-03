@@ -1,5 +1,7 @@
 # FORMAT_SPEC v0.9 stack — candidate tracker
 
+> 🔴 **KILLED / CLOSED 2026-07-03** (Will "you can execute" + PROME default-kill). The two remaining candidate fields — `unanimity_state` + `event_anchored` — are **dropped**: `unanimity_state`'s fleet-consensus-meter need is already served by `network_uncertainty_peak` (shipped via CHECKLIST v0.12 item 4), and `event_anchored`'s IMMEDIATE-precedence is set per-signal at dispatch. ~2 months of skipping through v0.9→v0.13 without them = the operational verdict that they weren't needed. BRENT's cosigned `energy_transmission`/`regime_state` candidates are likewise dropped (BRENT channel closed). **Tracker retained for history — do NOT read as live/pending.** Revive only if a genuine *second* fragmented-narrative cluster earns a consensus field.
+
 *Tracking doc — what's queued for the v0.9 release of `SIGNAL_FORMAT_SPEC.md` once v0.8 lands and CARL/BRENT calibration cycle 1 fires. Not a spec itself — points back at the canonical source documents below. Created 2026-05-06 PM after Will sign-off on JOINT_PROPOSAL_2026-05-06_red_walter §5.*
 
 *Maintenance: when a candidate ships into FORMAT_SPEC v0.9, mark **SHIPPED** with the FORMAT_SPEC version + commit ref. When deferred to v0.10+, move to deferred section. Don't duplicate spec — point at it.*
