@@ -62,7 +62,7 @@
 
 **🟢 RESOLVED this session:** two 6-image Twitter batches routed (7 dispatch / 5 kill); OC-Maryland verify (CORRECTED-FRAMING, inoculated CARL); KOSPI verify (CONFIRMED fresh); Cushing counter-read surfaced to BRENT; SIG-006 refreshed CORAL's Cape Coral figure.
 
-**🟠 Carried (Tier-2 owed next full closeout):** 10-row registry_lag refresh + NETWORK-AWARENESS regen · STATUS spine-trim · staleness-sweep (16d overdue) · a BOOT_PROTOCOL §7e rationale section (optional).
+**✅ Tier-2 debt CLEARED this closeout (Will-directed):** 10-row registry_lag refresh (all from live STATUS; VIOLET upgraded YELLOW→ORANGE) · NETWORK-AWARENESS regen (both blocks) · staleness-sweep (`STALENESS_SWEEP_2026-07-02.tsv` — 100/430 cadence run, blanket section-preamble + date-discount backstop disposition, full per-signal tagging deferred as disproportionate for a cadence run; overdue flag cleared). **Still carried (optional):** STATUS boot#2/#3-spine trim · a BOOT_PROTOCOL §7e rationale section.
 
 **🟠 Carried (cross-agent / LIAISON):** RED Turn 8 / REGINALD Turn 7 (since 6/6). CARL LIAISON DORMANT. BRENT CLOSED. EVENT_WINDOW CLOSED (1/3 Path B).
 

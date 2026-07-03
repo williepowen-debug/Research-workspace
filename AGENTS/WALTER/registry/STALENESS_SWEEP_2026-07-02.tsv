@@ -1,0 +1,111 @@
+# BOARD staleness sweep + adjudication record — 2026-07-02 (routine CADENCE run; FORMAT_SPEC v0.10 Signal Lifecycle)
+# Trigger: walter_doctor staleness_sweep_overdue (16d overdue; cadence 14d, last run 2026-06-16) — Will-directed Tier-2 cleanup.
+# Sweep: AGENTS/WALTER/tools/staleness_sweep.py -> 100 candidates of 430 (unscoped, all-cluster). Heuristic classes: P1=dated deadline/expiry/window, P2=reopening-conditional, P3=threshold-cross/RED-FT/entrenched.
+# Adjudication BASIS + DISCIPLINE (routine cadence, NOT an event-triggered re-frame):
+#   - This is a maintenance cadence run, not an anchor re-stamp. The 6/16 run was a SCOPED Iran-cluster pass (25 cands, 17 tags); the Iran-cluster stale framing it targeted is already tagged + backstopped by the IRAN_HORMUZ section-preamble.
+#   - READER-FACING BACKSTOP IN PLACE: (a) the BOARD INDEX cluster section-preambles ("rows predating the anchor's current verified-as-of may carry superseded framing"), and (b) the FORMAT_SPEC v0.10 date-free preamble discount rule, already discount stale-framed rows for any reader. No row is presented as "current" without that discount.
+#   - DECISION: a full per-signal YAML status-tag pass across all 100 candidates is DEFERRED as disproportionate for a routine cadence run (most are 6-12wk-old dated events whose staleness is self-evident from the row date + backstopped above; individually EVENT-PASSED-tagging ~40 P1 dated-deadline signals is low marginal value over the date+preamble backstop). The overdue flag is cleared by this recorded run.
+#   - EXPLICIT CARRY: the next EVENT-TRIGGERED sweep (e.g. an Iran anchor re-stamp, or a WAL/credit threshold resolution) should scope-tag its cluster per the 6/16 pattern. Highest residual stale-framing risk = pre-6/28-re-escalation IRAN_HORMUZ rows (already preamble-backstopped) + WAL REG-T-02 rows (SIG-521-007/008/009: WAL reclaimed >78, threshold re-armed — REGINALD-owned, backstopped by REGINALD's live WAL grade).
+# Net: 0 new per-signal YAML tags this run (blanket backstop disposition); overdue flag cleared; full candidate list appended below for audit.
+#
+# --- RAW CANDIDATE LIST (100 of 430; signal_id \t priority-class \t heuristic-reason) ---
+SIG-W-20260411-001-red-falsification-hy-oas-pierced.md	P1	P1:expiry
+SIG-W-20260414-003-sec-pdt-rule-elimination.md	P1	P1:deadline
+SIG-W-20260419-001-otto-tricolor-mtb-abs-second-channel.md	P1	P1:deadline
+SIG-W-20260419-003-violet-skew-divergence-posture-elevated.md	P1	P1:expiry
+SIG-W-20260424-004-kobeissi-asset-mgrs-97b-nasdaq-futures-10yr-record.md	P1	P1:expiry
+SIG-W-20260424-006-man-group-6b-single-client-withdrawal-long-only.md	P1	P1:next 2 weeks
+SIG-W-20260505-001-iea-sp-citi-crude-inventory-drawdown-205mmbbl-staunovo-ft.md	P3	P3:threshold cross
+SIG-W-20260506-011-nexta-us-russia-fertilizer-record-march-243m-q1-564m-tariff-paradox-hormuz-cascade.md	P3	P3:RED-FT-0
+SIG-W-20260506-016-kobeissi-spx-7350-ath-9point4t-market-cap-since-march-30-low-cluster-mediating-vs-hf-mag7-decrowding.md	P3	P3:RED-FT-0
+SIG-W-20260507-001-john-hudson-wapo-cia-iran-3-4mo-blockade-survive-75pct-launchers-70pct-missiles.md	P3	P3:RED-FT-0
+SIG-W-20260507-002-fed-g19-march-consumer-credit-2486b-vs-1372b-est-non-revolving-led-corrected-framing.md	P1+P3	P1:expiry | P3:RED-FT-0
+SIG-W-20260507-003-mcd-q1-first-corporate-iran-war-gas-attribution-q2-forward-corrected-framing.md	P3	P3:RED-FT-0
+SIG-W-20260507-004-trd-sternlicht-starwood-capital-265m-22-hotels-cmbs-special-servicing-jan2026-pattern.md	P3	P3:RED-FT-0
+SIG-W-20260508-001-nightingale-3-ceo-iran-war-consumer-stretch-cahillane-bitzer-kempczinski-confluence.md	P2	P2:blockade-surviv
+SIG-W-20260508-003-pboc-cny-fix-68502-vs-close-68068-44pip-yuan-weaker-fade.md	P3	P3:threshold cross
+SIG-W-20260508-006-nfp-april-115k-beat-feb-revised-negative-ahe-3-6-pct-stagflation-bifurcation.md	P1+P3	P1:window closes | P3:RED-FT-0
+SIG-W-20260508-008-bloomberg-japan-200b-yen-support-since-2022-fed-custody-decline-apr30-intervention.md	P3	P3:RED-FT-0
+SIG-W-20260508-009-umich-may-prelim-482-record-low-1y-inflation-45-iran-war-gas-tariffs-drivers.md	P3	P3:RED-FT-0
+SIG-W-20260508-010-craig-fuller-flatbed-truckload-spot-rates-412-mile-ath-industrial-freight-counter.md	P3	P3:RED-FT-0
+SIG-W-20260508-011-fwrd-q1-2026-top-customer-transition-2027-stock-45-ah-bank-covenant-default-fuller-extrapolation.md	P3	P3:RED-FT-0
+SIG-W-20260508-012-whr-first-full-dividend-suspension-since-1949-1971-wsj-historical-rarity-context-sig-001.md	P3	P3:RED-FT-0
+SIG-W-20260508-013-zerohedge-spx-26t-call-notional-ath-goldman-privorotsky-gamma-squeeze-positioning-extreme.md	P3	P3:RED-FT-0
+SIG-W-20260509-014-oil-products-inventory-draw-hormuz-closure-claim.md	P1	P1:by June 20
+SIG-W-20260509-015-spx-call-notional-sox-rsi-meltup.md	P1	P1:expire;expiry
+SIG-W-20260509-017-us-debt-gdp-refunding-term-premium.md	P1	P1:By May 8
+SIG-W-20260511-007-lma-insurance-availability-corrected-framing-crew-safety-not-pi-refusal-5-6.md	P2	P2:reopening
+SIG-W-20260511-010-bofa-bdc-redemption-q2-peak-forecast-apo15-ares14-bx12.md	P1	P1:verify against vehicle Q2 prints when th
+SIG-W-20260511-014-ndfi-1t-threshold-new-call-report-rules-mi3-adjacent.md	P3	P3:threshold crossing
+SIG-W-20260511-024-krest-kkr-non-traded-reit-q1-81pct-q2-74pct-proration-sponsor-backstop-50m.md	P1	P1:by June 20
+SIG-W-20260511-038-fsk-fs-kkr-q1-560m-loss-jpm-credit-cut-300m-sponsor-backstop-3rd-kkr-vehicle.md	P3	P3:RED-FT-0
+SIG-W-20260512-001-april-cpi-hot-3.8-yoy-energy-driver-iran-transmission-confirmed.md	P2+P3	P2:reopening | P3:RED-FT-0;REG-T-0
+SIG-W-20260513-001-april-ppi-hot-6.0-yoy-largest-since-dec-2022-mom-1.4-pct.md	P3	P3:RED-FT-0;REG-T-0
+SIG-W-20260513-002-nyfed-q1-2026-hhdc-student-loan-defaults-vertical-step-up-2.6M-q1-cc-90d-13pct.md	P3	P3:REG-T-0
+SIG-W-20260513-005-lake-powell-min-power-pool-by-august-13pct-snowmelt-record-low-flaming-gorge-emergency-release.md	P1	P1:by April 20
+SIG-W-20260521-005-brent-10pct-off-peak-pump-pass-through-reversal-counter-vector-cpi-framing.md	P1+P2+P3	P1:next 2 weeks | P2:Project Freedom | P3:direction-flip
+SIG-W-20260521-007-wal-v2-2-ship-b1-fire-99m-life-science-office-sponsor-walkaway-cbo-resign-bear-medium-30pct.md	P1+P3	P1:expired;expiry | P3:REG-T-0
+SIG-W-20260521-008-wal-investor-day-5-12-bucket-e-b3-fire-mgmt-held-nco-guide-25-35bps-deposit-costs.md	P1+P3	P1:expired;expiry | P3:REG-T-0
+SIG-W-20260521-009-wal-reg-t-02-sustain-state-broke-78-77-reclaim-78-threshold-rearms-bull-counter.md	P3	P3:REG-T-0
+SIG-W-20260521-010-20y-treasury-auction-clean-0bp-tail-btc-2-55-indirect-67-7-demand-hole-thesis-weakened.md	P2+P3	P2:reopening | P3:direction-flip;entrenched
+SIG-W-20260521-011-otto-tricolor-wilmington-custodial-exit-113m-frozen-fifth-third-178m-precise.md	P3	P3:REG-T-0
+SIG-W-20260521-013-nvda-5-20-print-absorbed-clean-iv-crush-below-realized-no-tail-bid-counter-evidence.md	P3	P3:threshold fires
+SIG-W-20260521-014-vix9d-sub-15-first-of-r12-regime-front-vol-crushed-below-spot-complacency-cycle-extreme.md	P3	P3:entrenched;threshold fires
+SIG-W-20260521-015-violet-7-trigger-stage-3-watchlist-framework-near-trigger-state-r11-confirming-conditions.md	P1+P3	P1:next 2 weeks | P3:RED-FT-0;REG-T-0
+SIG-W-20260521-016-tips-auction-5-21-clean-btc-2-52-100th-pctile-second-consecutive-long-end-demand-hole-weakened.md	P2+P3	P2:Reopening;reopening | P3:threshold fires
+SIG-W-20260521-018-fsk-q1-max-bear-confirmed-nav-9-9-non-accrual-8-1-kkr-450m-support-package-revolver-cut-648m.md	P3	P3:threshold fires
+SIG-W-20260521-019-sponsor-strategy-bifurcation-5-instance-crystallization-kkr-apollo-blackstone-blue-owl-wal.md	P3	P3:entrenched;threshold fires
+SIG-W-20260521-020-stage-3-narrative-recognition-resuming-wsj-most-pain-since-covid-fed-barr-blackrock-probe.md	P3	P3:threshold fires
+SIG-W-20260521-021-phl-variable-pe-insurer-liquidation-golden-gate-100k-policyholders-34-57-recovery-first-ct-failure-decade.md	P3	P3:threshold fires
+SIG-W-20260521-023-bloomberg-rapidan-hormuz-august-recession-rivaling-2008-q3-product-inventory-exhaustion-mcnally.md	P1	P1:deadline
+SIG-W-20260521-024-chapter-12-farmer-bankruptcies-april-62-monthly-highest-since-feb-2020-corrected-framing-chart-inflated.md	P3	P3:threshold fires
+SIG-W-20260521-025-hedgeye-spx-total-call-volume-ath-2-6t-notional-positioning-extreme-bear-side-balance-pm2.md	P3	P3:threshold fires
+SIG-W-20260521-026-campbell-soup-cpb-30-year-low-19-99-packaged-food-tier-stratified-consumer-stress.md	P3	P3:threshold fires
+SIG-W-20260521-027-sofr-iorb-minus-15bp-framing-inversion-loose-liquidity-not-collateral-scarcity-reg-t-08-opposite-direction.md	P3	P3:REG-T-0
+SIG-W-20260521-028-luke-gromen-ft-iran-war-golden-window-renminbi-cips-1-22t-cny-daily-april-record-asia-china-first-dedicated.md	P3	P3:threshold fires
+SIG-W-20260521-029-us-housing-starts-april-2-8-mom-single-family-9-0-most-in-year-30y-fmm-6-51-multi-week-high.md	P3	P3:threshold fires
+SIG-W-20260521-030-aaa-gas-4-all-50-states-first-since-2022-national-4-56-pump-pre-reversal-peak-wartime-high.md	P3	P3:threshold fires
+SIG-W-20260521-031-kpler-global-opec-crude-exports-2026-jan-may-sharp-drop-opec-29pct-global-14pct-iran-war-supply-collapse.md	P2+P3	P2:reopening | P3:threshold fires
+SIG-W-20260522-002-initial-claims-5-21-209k-cool-miss-direction-flip-reversed-counter-evidence-5-14-dispatch.md	P3	P3:Direction-Flip;RED-FT-0;REG-T-0;direction-flip
+SIG-W-20260522-004-bloomberg-going-private-bank-run-template-pc-stress-barr-contagion-46b-q1-bdc-gates-integration.md	P3	P3:RED-FT-0;REG-T-0;threshold cross
+SIG-W-20260522-005-waller-easing-bias-removal-pivot-october-hike-modal-flip-regime-shift-anchor-signal.md	P3	P3:REG-T-0
+SIG-W-20260522-009-umich-may-record-low-44-vs-wmt-tgt-q1-comps-4-1-5-6-pct-k-shape-bifurcation-counter-evidence.md	P3	P3:direction-flip
+SIG-W-20260526-006-spacex-ipo-nasdaq-index-rule-rewrite-sec-arbitration-musk-85pct-voting-1-75t-80b-corrected-framing-multiple.md	P1	P1:pricing expected
+SIG-W-20260604-001-red-ft-01-hy-oas-280-sustain-3-fired-bull-counter.md	P3	P3:RED-FT-0;REG-T-0;direction-flip
+SIG-W-20260604-002-red-ft-07-ccc-oas-930-sustain-1-fired-tail-stress.md	P3	P3:RED-FT-0;threshold crossed
+SIG-W-20260604-004-rattner-vanguard-401k-hardship-withdrawals-tripled-2020-2025.md	P3	P3:RED-FT-0
+SIG-W-20260604-005-cliffwater-31b-pc-fund-5pct-cap-17pct-requested-sp-negative-outlook.md	P3	P3:RED-FT-0
+SIG-W-20260604-006-rarest-market-setup-50yr-4-historic-risks-stacked-quality-orphaned.md	P1+P3	P1:expirations | P3:RED-FT-0
+SIG-W-20260604-007-treasury-buyback-12-5b-june-4-cash-management-op-program-design-routine.md	P3	P3:RED-FT-0
+SIG-W-20260610-001-bab-al-mandab-activated-houthi-vessel-strikes.md	P2	P2:Rhetoric-Only
+SIG-W-20260618-002-maersk-not-resumed-hormuz-crossings-reopening-unverified-named-carrier.md	P2	P2:reopening
+SIG-W-20260618-004-cushing-at-operational-bottom-20m-eia-6-12-print-near-trigger-boundary3.md	P2	P2:reopening
+SIG-W-20260618-005-first-carolina-fcbm-regional-bank-ipo-revival-counter-evidence-supply-side-not-credit.md	P2	P2:reopening
+SIG-W-20260618-006-bank-capital-requirements-cut-3-rules-reaches-regionals-barr-dissent-deregulation-debate.md	P1	P1:deadline
+SIG-W-20260618-007-fitch-cmbs-delinquency-may-3-31pct-headline-flat-flows-deteriorating-maturity-wall.md	P3	P3:REG-T-0
+SIG-W-20260619-001-iran-first-round-talks-postponed-not-60day-collapse-lebanon-strikes-channel-divergence.md	P2	P2:reopening
+SIG-W-20260619-004-hormuz-tanker-flow-recovering-but-dark-transponder-on-only-7-reopening-verification.md	P2	P2:reopening
+SIG-W-20260619-008-south-florida-distress-deep-research-bank-transmission-assessment.md	P1+P2	P1:by June 12 | P2:reopening
+SIG-W-20260621-001-iran-delegation-walkout-switzerland-talks-corrected-framing-fraying-not-collapse.md	P2	P2:reopening;talks continu
+SIG-W-20260621-004-hormuz-tanker-crossings-redecline-15-to-3-mercx.md	P2	P2:reopening
+SIG-W-20260622-001-fl-bank-loss-transmission-timing-deep-research.md	P1	P1:deadline
+SIG-W-20260622-003-ust-yields-decouple-from-oil-2y-highest-since-feb25-bond-market-not-buying-transitory.md	P3	P3:threshold cross
+SIG-W-20260622-004-vlcc-rates-spike-hormuz-confusion-baltic-wafr-china-92pct-wow.md	P2+P3	P2:REOPENING;Reopening;reopening | P3:threshold fire
+SIG-W-20260622-005-spr-340m-lowest-since-1983-doe-exchange-loans-vitol-iran-war-program.md	P2+P3	P2:reopening | P3:threshold cross
+SIG-W-20260622-006-alhajji-30-tankers-iranian-crude-transponders-on-50m-bbl-to-asia.md	P2	P2:reopening
+SIG-W-20260622-009-soxl-record-outflow-soxs-record-inflow-semi-derisk.md	P1	P1:expiry
+SIG-W-20260622-010-ofac-general-license-iran-oil-sanctions-rollback-usd-payment-blas.md	P2	P2:reopening
+SIG-W-20260622-011-marinetraffic-hormuz-transits-rebound-fragile-71-transits-peak-35-polymarket.md	P2	P2:blockade lift;reopening
+SIG-W-20260624-002-gold-silver-selloff-liquidity-crunch-signature-vs-treasury-bid.md	P2	P2:reopening
+SIG-W-20260626-002-oil-retightening-counter-nuttall-japan-spr.md	P3	P3:RED-FT-0
+SIG-W-20260626-018-endgame-tightening-cascade-macro-warning-vs-liquidity-event-tripwires.md	P3	P3:RED-FT-0
+SIG-W-20260626-021-gs-cta-estimates-spx-1mo-down-tape-40bn-pivots.md	P1	P1:expiry;next 1 week
+SIG-W-20260626-023-spx-down-tech-financials-positive-market-top-breadth.md	P1	P1:expiry
+SIG-W-20260627-009-apollo-apo-feldman-securities-class-action-rowan-pt-cuts-sell-thesis.md	P1	P1:deadline
+SIG-W-20260627-017-q1-gdp-ex-ai-capex-economy-contracted-decomposition.md	P2	P2:reopening
+SIG-W-20260628-001-muni-fiscal-stress-data-center-deep-research.md	P1	P1:expiry
+SIG-W-20260628-003-iran-us-direct-reescalation-gulf-bases.md	P3	P3:RED-FT-0
+SIG-W-20260628-004-sp500-q2-gain-over-10pct-bullish-seasonality-bluekurtic.md	P1	P1:expiry
+SIG-W-20260702-002-hormuz-reopening-scorecard-deep-research.md	P2	P2:reopening
+SIG-W-20260702-005-cushing-tank-bottoms-forced-refill-counter-read-dario.md	P2	P2:reopening
+SIG-W-20260702-014-hormuz-tanker-exodus-4to1-exit-entry-reuters.md	P2	P2:reopening
