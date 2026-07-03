@@ -136,7 +136,7 @@ Five weeks of data (Apr 23 → May 31) broke the "10-breached acute-crisis" fram
 - Condo inventory **8.6mo May** (↓ from 8.9 Apr; inventory −13.4% YoY, sales +6.6% 9th straight). Miami-Dade ~12.9mo, PB 8.2mo. The distress-inventory thesis softened — supply is being absorbed, not piling up (MAR-08 >9.0 not met).
 - Migration (93% collapse, Miami −2.0%) stale — annual Census, no new print.
 - Airports (session-9 update): **MIA flipped negative** (Mar −1.76%, Apr −2.02%); FLL +10.2% Mar but base-effect; MCO record spring break (domestic anchor). Canadian/discretionary weakness concentrated in air + winter capacity, not yet aggregate FL airport volume.
-- Insurance (FL Citizens) exposure — **RE-MARKED 7/2: DEPOPULATED, not growing.** Entered 2026 **67% below peak** ($235.6B removed 2025; 395K policies, was 936K). "$678.8B" was 2024/near-peak. **MAR-17 (>$750B) INVALIDATED — wrong direction.** Affordability crisis persists (risk shifted to private market); the exposure metric decoupled from the stress. FL insurance → CORAL's domain, reconcile.
+- Insurance (FL Citizens) — **RE-MARKED 7/2 (live-verified): crisis PAST-PEAK.** Exposure **~$295.1B (June'25, −43% YoY from $520.1B)**, 67% below peak entering 2026; ~385K policies (lowest ever). **MAR-17 (>$750B) INVALIDATED.** Rates now being **CUT** — Citizens filed −2.6% personal-lines cut for Jun'26 (reversing a +15% ask 6mo prior; 2022 reforms working; commercial +10.4% the exception). Crisis easing on exposure AND personal rates, not just risk-shifted. FL insurance → CORAL's domain, reconcile.
 - **Net:** FL acute-stress timing pushed right; aggregate $ stress still projected for **winter 2026-27** (snowbird no-show, $600M-$1.2B), not Q2-Q3 2026.
 
 ---

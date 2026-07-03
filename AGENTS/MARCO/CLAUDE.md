@@ -194,7 +194,7 @@ After close: move `thread.md` content to `sub_agents/[NAME]/threads/archive/YYYY
 | FL Net Domestic Migration | 22,517 (93% collapse; 2025 annual, no new print til late '26) | Negative | Population decline confirmed |
 | Canadian Visitors | -28% (2-yr stack vs 2024; YoY is base-effect noise) | Sustained stack <-25% | Structural, not cyclical |
 | FL Condo Inventory | 8.6mo (May '26, absorbing) | >9mo | Distress territory |
-| FL Citizens Exposure | **DEPOPULATED — 67% below peak** (was "$678.8B" 2024) | ~~>$750B~~ **INVALIDATED (MAR-17)** | Exposure metric decoupled — risk shifted to private mkt; affordability crisis persists |
+| FL Citizens Exposure | **~$295.1B** (Jun'25, −43% YoY; 67% below peak; ~385K policies) | ~~>$750B~~ **INVALIDATED (MAR-17)** | Crisis PAST-PEAK — exposure collapsed + personal rates now being cut (−2.6% Jun'26); CORAL owns FL insurance |
 
 ---
 
