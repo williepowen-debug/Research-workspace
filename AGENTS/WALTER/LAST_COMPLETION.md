@@ -6,59 +6,63 @@
 
 ## STATUS
 
-**2026-07-02 ~7 PM ET (Thu — Will-Telegram boot).** Clean boot (doctor 0-HIGH / 15-MED all known). Cleared the full queued backlog: routed the 2 landed DEWEY Batch-2 deliverables, logged the 13-row Batch-2 ledger, resolved a data-integrity flag, and **wired the RESEARCH-INTAKE lane as WALTER's consumer** (the session's biggest deliverable — a Will-decided HIGH infra build pending since 6/29). **4 commits → safe-push at this closeout.** Tier-1-plus closeout.
+**2026-07-02 ~9–9:40 PM ET (Thu — Will-Telegram re-boot ~2h after the 7 PM close + TWO 6-image Twitter batches).** Clean re-boot (doctor 0-HIGH / 15-MED all known; markets closed → levels flat, no new auto-fire; intake gate quiet). Routed both batches: **7 DISPATCH / 5 KILL / 3 verify-spawn (BOARD 417→424).** **2 local commits, both pathspec-scoped. 🔴 PUSH DEFERRED — 2+ concurrent live Claude sessions observed writing MARCO + CRUISE uncommitted (serial-single-machine violated).** Tier-1 light closeout.
 
 ## CHANGED (this session)
 
-- **Routed 2 DEWEY Batch-2 research-outputs (commit c8680d88, Phase 2.8b):**
-  - **SIG-W-20260702-001 HY/CCC widening decomposition → VIOLET/LIQUID (+RED,TERRY,HENRY,BOND).** Verdict: GENUINE sector-driven (AI-equity→credit), NOT a DISH composition artifact → Gate A should NOT stand down. DISH in-index until the 7/31 rebalance (7/1 print not ex-DISH). SIG-627-010's "8.3% HY / 10.3% IG tech share" headline = UNVERIFIED. Cluster AI_INFRA_CAPEX.
-  - **SIG-W-20260702-002 Hormuz reopening scorecard → HAWK/BRENT (+SAM,RED,PROME).** HAW-13 institutional-reopening = FAIL (0/4 legs); BRT-07/17 P&I start-gun NOT fired; stalled + partially reversed post-6/27. Kills "~80 mines" + "~75% transits" (both UNVERIFIED); confirms Kiku 6/27. Cluster IRAN_HORMUZ.
-- **Logged the 13-row DEWEY Batch-2 ledger** (REQ-DEWEY-20260702-001..013; 001/002 RESOLVED, 003-013 QUEUED; deliver_by 7/2→7/22) per PROME's ask.
-- **IRAN_WAR anchor** — 7/2 Hormuz-axis re-verify addendum (confirms RE-ESCALATION/decoupled/stalled on the Hormuz axis; corrects the mine count + throughput figures; notes the full-kinetic 7d re-verify still due ~7/5).
-- **Resolved the Galveston SIG-626-006 data-integrity flag (commit b276b0a8):** background verify agent → $3.475M/$8.79 all-in CONFIRMED (Galveston Daily News; hammer $3.3M + 5% premium), $1.475M rejected as a digit-slip; garage a separate $6.2M lot. Annotated the canonical BOARD row; BROCK/CREED cleared to cite.
-- **Wired the RESEARCH-INTAKE lane as WALTER's consumer (commit 3fc1bcf8, PROME 6/29 packet, Will-decided option A):**
-  - `tools/intake_scan.py` — read-only detection + onset/change dedup (reads the lane's liveness.json, applies the §3 gate, diffs vs seen-baseline, prints the NEW-breach worklist; `--mark` reconciles).
-  - `registry/intake_seen.json` — dedup baseline, SEEDED with tonight's 4 still-true conditions so the first wired boot doesn't false-fire persistent conditions.
-  - `walter_doctor.py` — new `intake_liveness` health check (now 16 checks).
-  - `CLAUDE.md` — boot step 7e + step-7c dark-cron-successor note + a KEY-DESIGN-FILES row.
-  - 3 consumed from-PROME inbox items git-mv → processed/.
-- **Closeout docs:** STATUS (lead + all live-level blocks refreshed to 22:48Z levels + SESSION LOG row + push/callbacks), MEMORY (wiring finding + session notes), this file.
+**Batch 1 (2 route / 4 kill) — commit "route 6-image Will Twitter batch":**
+- **SIG-W-20260702-003 foreign-JGB-outflow 3-yr high (Barchart/MoF) → SAM PRIORITY (+BOND, RED).** Potential Ch1-re-add trigger — SAM holds the 16mo net-sell TREND but not this magnitude; its pre-registered "re-add only on a direct foreign-SALES print" is a candidate to clear. Cluster ASIA_CHINA.
+- **SIG-W-20260702-004 Ocean-City-MD "summer collapse / middle-class cooked" → CARL ROUTINE (+RED) as INOCULATION.** Verify-research **CORRECTED-FRAMING 0.72 — largely an artifact** (Boardwalk Rock festival CANCELED for 2026 + rainy Memorial-Day weather; %s from one unattributed aggregator). Routed so CARL does NOT bank it. counter_evidence + RED auto-cc. Cluster CONSUMER_STAGFLATION.
+- **4 kills, all stale-to-owner:** Hedgeye prime-age-participation + zerohedge negative-revisions (LABOR owns both from BLS primary, better-framed, its 7/2 12:35 STATUS); crack-spreads + Kemp-inventories (BRENT owns both AND reads them CONTRARY — cracks z-exhausted, wk-6/26 draws decelerating = first deficit-closing datapoint).
+
+**Batch 2 (5 route / 1 kill) — commit "route 2nd 6-image Will Twitter batch":**
+- **SIG-005 Cushing "tank-bottoms forced refill" (JustDario) → BRENT PRIORITY cluster_mediating (+HAWK,RED).** Counter-read to BRENT's "reopening barrels" — same +0.71M build, bear mechanic (forced operational-minimum refill at the sub-20M floor). Precision overlay: PADD2 BUILT +0.8M driven by Cushing, so "all PADDs drew" imprecise. Cluster IRAN_HORMUZ (anchor 7/2-fresh, guard satisfied).
+- **SIG-006 ICE negative-equity by vintage thru May-26 (ResiClub/Lambert) → CORAL ROUTINE (+CARL,REGINALD,RED).** Refresh Cape Coral 10.1%→11.1% (2nd source vs Parcl) + TX Sun Belt (San Antonio 7.7%/Austin 6.6%) + national 1.5% baseline. Cluster BANK_COLLATERAL / sec CONSUMER_STAGFLATION.
+- **SIG-007 KOSPI fresh new low + KORU −30% → HENRY/SAM PRIORITY (+VIOLET,RED).** Verify **CONFIRMED 0.90 — FRESH** genuine 7/2 new low (7,934 close −4.45% / 7,758 intraday, below the 6/26 8,198 halt), NOT a re-post; KORU −30% US-retail ETF wipeout; driver AI/semi unwind. Pressures HENRY's "contained-rotation won" read. Cluster ASIA_CHINA / sec POSITIONING_VALUATION; cluster_mediating.
+- **SIG-008 heavy-truck-sales recession lead → HENRY ROUTINE (+CARL,RED).** Framing-caveated: real rollover off the 2022 peak but ~0.30M near long-run AVERAGE, not a recession-trough — "collapsed" overstates. Cluster CONSUMER_STAGFLATION.
+- **SIG-009 leveraged-fund SOFR-futures short RECORD $700B (Barchart/CFTC) → LIQUID PRIORITY (+BOND,HENRY,RED).** Net-new systemic-leverage extreme in LIQUID's basis-trade lane. Cluster FED_FRAMEWORK.
+- **1 kill:** 2nd WTI-vs-321-crack chart (dup of batch-1, BRENT owns + z-exhausted read).
+
+**Closeout:** STATUS (lead + BOARD count + all live-level blocks refreshed to 00:56Z + push-state + SESSION-LOG row), SESSION_LOG breadcrumb, this file.
 
 ## RESULT
 
-2 dispatched / 0 killed / 1 verify-spawn (Galveston), BOARD reconciles at **417** (ToC = sections = files = TOTAL); route_log +2 / delivery_log +11 / 11 per-recipient handoffs; DEEP_RESEARCH_FLAGGED_LOG +13. No spec-version bumps. Doctor: 0 HIGH; the +11 MED vs boot = the 11 new handoffs correctly flagged `written_but_undelivered` (clears on the closeout safe-push). RESEARCH-INTAKE lane is live from next boot (step 7e), permanently closing the "6 feeds unread" gap. intake_scan tested: gate quiet (0 NEW / 4 suppressed) after seeding.
+7 dispatched / 5 killed / 3 verify-spawns (OC-Maryland CORRECTED-FRAMING · KOSPI CONFIRMED · [prior 7 PM: Galveston]). BOARD reconciles at **424** (ToC = sections = files = TOTAL); route_log +7 / delivery_log +23 / kill_log +5 / 23 per-recipient handoffs. **No spec-version bumps.** **The filter did real work:** batch 1 was 4/6 stale-to-owner (2 read contrary by BRENT); batch 2 was mostly net-new. Two verify-spawns each flipped a disposition (OC = a false-corroborator inoculation; KOSPI = confirmed-fresh not a re-post).
 
 ## GAPS
 
-- **10-row registry_lag refresh deferred** (LABOR/BOND/SAM/HENRY/VIOLET/CARL/LIQUID/BRENT/ORACLE/DAEDALUS) + NETWORK-AWARENESS regen — the standard board-lags-agents state; carried to next full closeout. **DON'T direct these to board — they're ahead of it.**
-- **STATUS boot#2/#3-spine trim** still owed (the 6/28 lead paragraphs demoted to `>` spine but not removed) — noted in the lead.
-- **11 handoffs await consume** (VIOLET/LIQUID SIG-001, HAWK/BRENT SIG-002); the CC self-apply consume-boot-step set still lacks it.
-- **No `[→ BP §7e]` rationale section** — boot step 7e is self-documenting + packet-referenced; a BOOT_PROTOCOL §7e is a cheap future add (xref check stays green — no dangling pointer).
+- **🔴 PUSH DEFERRED — concurrent live sessions (the load-bearing carry-forward for next boot).** 2+ other Claude sessions running (pts/4 @21:07, pts/6 @21:17) actively wrote MARCO (session-16, mtime 21:30) + CRUISE (21:35), both **uncommitted foreign work** in the tree — serial-single-machine VIOLATED. My 2 commits are pathspec-scoped (BOARD/ + AGENTS/WALTER/ + delivery-zone only; **never touched MARCO/CRUISE**) and sit **local, not pushed.** Did NOT `git pull --rebase` (would disturb their in-flight work). The auto push-train sweeps my commits on the next clean tree / when a concurrent session commits+pushes. **Next boot: verify my 2 commits reached origin; if not, safe-push once the tree is clean.**
+- **MARCO + CRUISE have real uncommitted work** (MARCO session-16 = June-jobs catch-up, SDL-01 re-mark, thesis v2.6; CRUISE STATUS/TRADE/workbook). Not mine to commit — their owners must. Flagged Will.
+- **23 handoffs await consume** (batch-2 to BRENT/HAWK/CORAL/CARL/REGINALD/HENRY/SAM/VIOLET/LIQUID/BOND/RED; batch-1 to SAM/BOND/CARL/RED). Delivery ≠ consumption.
+- **STATUS boot#2/#3-spine trim** still owed (the older 6/28 lead paragraphs demoted to `>` spine). Carried.
 
 ## WILL_NEEDS
 
-1. **Nothing blocking.** The whole queue cleared; you approved the intake wiring after review.
-2. **Optional:** de-hardcode dashboard/server.py + config/ (bot-token, low priority — you own).
+1. **🔴 Heads-up: 2+ concurrent Claude sessions are running right now** (besides WALTER) — they wrote MARCO + CRUISE and left them **uncommitted**. If that's intentional, fine; if not, those sessions should close out + commit their own dirs (their work is real and at risk if the tree is disturbed). I deferred my push to avoid racing/disturbing them.
+2. Nothing else blocking — the two batches are fully routed + archived; the concurrent-session situation is the only open item.
 
 ## FOLLOW-UP (canonical running list — survives handoff via this file)
 
 **🔴🕕 Live / time-sensitive:**
-1. **Iran full-kinetic 7d re-verify due ~7/5** — the 7/2 addendum was Hormuz-axis only. Ladder: further physical escalation / MOU collapse / de-escalation resumes / Iran-cluster pre-dispatch.
-2. **11 more DEWEY Batch-2 reports landing 7/2→7/22** — route each at boot step 7d as it lands, close its QUEUED ledger row. Next ASAP: prompt 07 (funding-seizure X1) + 10 (energy-HY-OAS); 08 JGB by 7/6; 09 UST by 7/7.
-3. Brent <75 sustain-watch (RED-FT-04, BRENT-owned). HY 274 → cross >280 un-fires nothing / next UPSIDE fire RED-FT-02 (>320).
+1. **PUSH DEFERRED** — confirm the 2 batch-commits reached origin next boot; safe-push once the tree is clean (see GAPS). Do NOT rebase while MARCO/CRUISE sit uncommitted.
+2. **Iran full-kinetic 7d re-verify due ~7/5** — the 7/2 addendum was Hormuz-axis only. Ladder: further physical escalation / MOU collapse / de-escalation resumes / Iran-cluster pre-dispatch.
+3. **11 more DEWEY Batch-2 reports landing 7/2→7/22** — route each at boot step 7d as it lands, close its QUEUED ledger row. Next ASAP: prompt 07 (funding-seizure X1) + 10 (energy-HY-OAS); 08 JGB by ~7/6 (SIG-007/-003 are timely inputs); 09 UST by ~7/7.
+4. Brent <75 sustain-watch (RED-FT-04, BRENT-owned). HY 274 → next UPSIDE fire RED-FT-02 (>320).
 
-**🟢 RESOLVED this session:** DEWEY Batch-2 05+06 routed · 13-row Batch-2 ledger logged · Galveston SIG-626-006 data-integrity flag (primary-verified) · RESEARCH-INTAKE consumer wiring (the HIGH pending item).
+**🟢 RESOLVED this session:** two 6-image Twitter batches routed (7 dispatch / 5 kill); OC-Maryland verify (CORRECTED-FRAMING, inoculated CARL); KOSPI verify (CONFIRMED fresh); Cushing counter-read surfaced to BRENT; SIG-006 refreshed CORAL's Cape Coral figure.
 
-**🟠 Carried (Tier-2 owed next full closeout):** 10-row registry_lag refresh + NETWORK-AWARENESS regen · STATUS spine-trim · a BOOT_PROTOCOL §7e rationale section (optional).
+**🟠 Carried (Tier-2 owed next full closeout):** 10-row registry_lag refresh + NETWORK-AWARENESS regen · STATUS spine-trim · staleness-sweep (16d overdue) · a BOOT_PROTOCOL §7e rationale section (optional).
 
-**🟠 Carried (cross-agent / LIAISON):** RED Turn 8 / REGINALD Turn 7 (since 6/6). CARL LIAISON DORMANT. BRENT CLOSED. EVENT_WINDOW CLOSED (1/3 Path B; Brent below the $75 falsifier the window was built for — BRENT-coordinated refresh owed).
+**🟠 Carried (cross-agent / LIAISON):** RED Turn 8 / REGINALD Turn 7 (since 6/6). CARL LIAISON DORMANT. BRENT CLOSED. EVENT_WINDOW CLOSED (1/3 Path B).
 
-**🟠 Carried (autonomous-available):** consume-boot-step for the CC self-apply set (CARL/REGINALD/SAM/RED) · CLIMATE_MACRO sustain-vs-fold watch (2 signals) · auto-memory index trim (then promote the [7/2] intake-wiring + [6/28] findings).
+**🟠 Carried (autonomous-available):** consume-boot-step for the CC self-apply set (CARL/REGINALD/SAM/RED) · CLIMATE_MACRO sustain-vs-fold watch · auto-memory index trim (then promote the [7/2] intake-wiring + batch findings).
 
 ## OPEN DESIGN DECISIONS (need Will)
 
-**🟦 Parked (carried — several WALTER-resolvable-now, need a triage pass):** RED auto-cc trim · EIA `.env` durability · DEWEY↔Scout consolidation (note: RESEARCH-INTAKE lane now supersedes the dark crons — the Scout thread may be moot) · group-chat artifact policy · INDEX status-column · HENRY LIAISON priority · FED_FRAMEWORK→UST_PLUMBING rename (defer) · Filter v2 Segment D · thin-liquidity prediction-market routing · delivery_log written_state enum · REITS/TRADES registry-completeness (archive-sources — flag not auto-add) · CLIMATE_MACRO sustain-vs-fold · **RESEARCH-INTAKE v2: PROME's lane-side threshold fast-follow (EIA/CFTC now flag; is more needed?) + the optional §5 glance-digest (build only if asked).**
+**🟦 NEW (surfaced this session):** **Concurrent-session policy** — the serial-single-machine assumption underpins the whole git protocol (safe-push, push-train, pathspec-commit-race mitigation). Tonight 2+ sessions ran concurrently and left uncommitted work. Is concurrent operation now intended (→ the git protocol needs per-agent-branches or a lock), or an accident (→ just a reminder to run one at a time)? This is the tripwire root CLAUDE.md names.
+
+**🟦 Parked (carried):** RED auto-cc trim · EIA `.env` durability · DEWEY↔Scout consolidation (RESEARCH-INTAKE lane supersedes dark crons) · group-chat artifact policy · INDEX status-column · HENRY LIAISON priority · FED_FRAMEWORK→UST_PLUMBING rename · Filter v2 Segment D · thin-liquidity prediction-market routing · delivery_log written_state enum · REITS/TRADES registry-completeness · CLIMATE_MACRO sustain-vs-fold · RESEARCH-INTAKE v2 (PROME lane-side threshold fast-follow + optional §5 glance-digest).
 
 ---
 
-*Maintenance note: heavy mixed session — DEWEY Batch-2 routing + a Will-decided HIGH infra build (RESEARCH-INTAKE consumer wiring) + a data-integrity resolution. Tier-1-plus closeout: STATUS live-layer fully refreshed (lead/BOARD/near-trigger/passive-scan/push/callbacks/bifurcation/SESSION-LOG), MEMORY + this file rewritten. 4 commits → safe-push. Deliberately deferred: the 10-row registry_lag refresh + NETWORK-AWARENESS regen (Tier-2, carried) — the one self-flagged debt.*
+*Maintenance note: heavy routing session — two 6-image Twitter batches (7 dispatch / 5 kill / 3 verify) discovered mid-closeout that 2+ concurrent Claude sessions are live and writing MARCO/CRUISE uncommitted. Committed my work local + pathspec-scoped, DEFERRED push (the disciplined call under observed concurrent foreign work), flagged Will. Tier-1 light closeout; the concurrent-session/deferred-push state is the load-bearing carry-forward.*

@@ -6,6 +6,10 @@
 
 ---
 
+**2026-07-02 ~9:40 PM ET — light-closeout breadcrumb (full deferred):** Will-Telegram re-boot + TWO 6-image Twitter batches → **7 DISPATCH / 5 KILL / 3 verify-spawn; BOARD 417→424.** 🔴 PUSH DEFERRED — 2+ concurrent live Claude sessions observed writing MARCO/CRUISE uncommitted (serial-single-machine violated); committed local + pathspec-scoped (never touched their files), push-train sweeps next clean tree; flagged Will. Full session row currently in STATUS SESSION LOG (rolls here next full closeout).
+
+---
+
 ## Archived from STATUS 2026-06-28 (trim-to-5)
 
 | 2026-06-27 Sat (~3-4 PM ET, **Will-Telegram SESSION-3 — paywalled-screenshot intake + design refinements**; **4 DISPATCH (SIG-W-20260627-029→032) / 2 KILL / 1 verify-spawn; BOARD 396→400**) | **Will-directed routing + 2 design refinements + 4 DEWEY prompts queued.** **(a)** Damac $20B-US-data-center → HENRY (029, split from SIG-026; dated-pledge + not-realized caveats). **(b) NMN paywalled-screenshot batch:** flood-insurance-gap→mortgage-credit → **CORAL (030; WALTER verify-spawn CONFIRMED 0.85** — Moody's RMS $375B/65%-gap FL/LA/SC/TX, First Street 14.6M ~68% above FEMA, post-Harvey DQ +205%, FL ~18% NFIP; structural/event-gated; $-figs modeled-not-realized) / ICE-May-mortgage-DQ-rose-MoM+YoY → CARL (031, body-paywalled → CARL pulls ICE print) / DRAFT-GSE-construction-loan-securitization-bill → CARL (032, DRAFT-not-law); **KILL** UWM-KBW-upgrade + RI-nonbank-servicer (Relevance). **(c) DESIGN: ROUTING_TABLE v0.15** (muni-fiscal → CARL-national/CORAL-FL, no new agent — closes the SIG-024 coverage gap, Will-approved) + **CHECKLIST v0.22** (investigation-routing discriminator + paywalled-pointer principle). **(d) 4 DEWEY deep-research prompts queued** via NEW `AGENTS/DEWEY/inbox/WALTER/` request lane + 4 PENDING DEEP_RESEARCH_FLAGGED_LOG rows. **6 commits LOCAL-pending; push DEFERRED (NEXUS+PROME active in tree).** Spec bumps: ROUTING_TABLE v0.15, CHECKLIST v0.22, STATE §1 synced. |
