@@ -4,6 +4,7 @@
 **Status:** 🟡 MONITORING — base case *selective CRE recognition accelerating*, **FIRMED** (now printing realized losses + broadening into multifamily); no CREED trigger fired 6/28→7/4; convergence 18→**20/40 (moderate)**
 **Tier:** 2 (spawned-as-needed). This is a **catch-up, not a standing daily.** Do not spawn without explicit Will permission.
 **Owner:** CREED after boot; Prome owns future topology/migration decisions only with Will approval.
+**▶ NEXT SESSION (Will-queued):** **BUILD the CREED workbook** from the ready spec `workbook/WORKBOOK_DESIGN.md` — this is why CREED is being re-spawned. First confirm §10's 5 open decisions with Will (Last_Refreshed col, prediction confidences, threshold bands, GAP-vector pulls, vector add/drop), then transcribe the 6-file TSV set (seed values are in the spec) + wire boot/closeout staleness alert. Legacy workbook stays frozen archive (freeze-banner flagged to REGINALD, pending).
 
 ---
 
