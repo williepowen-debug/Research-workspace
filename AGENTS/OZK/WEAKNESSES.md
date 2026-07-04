@@ -1,5 +1,5 @@
 # OZK Thesis — Weaknesses & Rebuttals
-**Created:** 2026-03-24 | **Last updated:** 2026-04-23 (C5 correction) | **Status:** All thesis-breakers addressed; C5 retracted and corrected
+**Created:** 2026-03-24 | **Last updated:** 2026-07-04 (added C7 — RESG-runoff/de-risking bull consensus) | **Status:** All thesis-breakers addressed; C5 retracted/corrected; C7 is the live 2026 bull case (meter quarterly)
 
 ---
 
@@ -141,6 +141,20 @@ Four independent research models confirm OZK's GFC performance was exceptional: 
 - **Scenario tree:** 50% substandard migration / 18% foreclosure / 20% extend / 12% takeout.
 
 Detail → `IQHQ_PLAYBOOK.md`. Invalidation triggers for this channel listed in THESIS.md "What Would Invalidate" §3.
+
+### C7: RESG Runoff = De-Risking (2026 Street/KBRA consensus — added 2026-07-04)
+
+**The Bull Argument (now the dominant Street narrative).** RESG is running off *faster than expected* via elevated 2026 repayments; CIB growth offsets; concentration keeps falling (62% Mar'25 → 60% Jun'25 → ~mid-50s, Gleason targets ≤50%); "RESG headwinds ease into 2027." Street price targets sit **low-to-mid $60s** (implied upside vs ~$50), and OZK is returning capital ($200M buyback 6/29, dividend +2.1% 7/1, 64th straight hike). KBRA **affirmed** ratings.
+
+**Our Rebuttal — this is adverse selection, not de-risking (extends C2 #6).**
+1. **The loans that repay are the healthy ones.** A performing RESG project can refinance or sell at par; a distressed one cannot. Elevated runoff *shrinks the numerator of good loans*, mechanically **concentrating** the residual into the problem book — the 11 tracked credits ($719M), near-zero-LTV names (Boston Office 95%, Seattle Pioneer 100%, Wauwatosa 103%), and IQHQ RaDD. Falling RESG % of loans and rising *severity* of what remains are consistent, not contradictory.
+2. **The same agency the bulls cite kept a NEGATIVE outlook** — KBRA flagged **RESG charge-offs rising in consecutive years** and "recent RESG downgrades portend elevated credit costs." Affirmation ≠ all-clear.
+3. **Capital returns into a known reserve event are optics-consistent, not credit-health proof.** A bank facing a probable large specific reserve (IQHQ Aug) still buys back stock and raises the dividend to signal confidence; it does not disprove the reserve.
+4. **De-risking touches the aggregate; it does not touch the specific-credit recognition path.** Concentration ratios can fall while the IQHQ Aug maturity still forces a $140-195M specific reserve (Scenario B). The trade is the *event*, not the *ratio*.
+
+**Discriminator to watch (Q2, Jul 21):** classified+criticized trajectory vs RESG balance. If **classified+criticized keeps rising while RESG balance falls**, that is the adverse-selection tell — a build on a shrinking base [[finding_composition_mask_unmask_discriminator]]. If both fall together, the bull case gains real ground and conviction should step down.
+
+**Confidence: MEDIUM-HIGH on the mechanism, but this is the live bull case — meter it quarterly.**
 
 ---
 

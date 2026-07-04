@@ -28,35 +28,34 @@
 - [2026-04-22] **Rossow canonical IQHQ exposure quote (Bisnow 3/19/26):** "We have one credit with IQHQ, which is the senior secured loan on their San Diego RaDD project." Michelle Rossow is OZK Chief Communications Officer. Closes the "any other project with IQHQ" ambiguity from Gleason Q1 transcript.
 - [2026-04-22] **Boynton Yards Somerville is NOT an IQHQ project** — common misclassification. Sponsor is Leggat McCall + DLJ Real Estate + Deutsche Finance America. OZK lent $246M to Leggat McCall (not IQHQ). This firms SEVEN_CREDIT §2 #5 Candidate B for the $169M Boston Life Sci substandard.
 - [2026-04-22] **Other IQHQ-project lenders (disconfirmation map):** Fenway → JPMorgan $165M; Arbor/Elco Yards Redwood City → KKR Real Estate Finance Trust $581M; Spur Phase I SSF → Apollo $275M; 155 N. Beacon Brighton → Citizens Bank $486.5M; 109 Brookline → $130M assumed from Equity Commonwealth 2020 (not OZK-originated).
+- [2026-07-04] **⚠️ SEC CIK 0001569650 is NOT OZK's operating-company filer — it's the 13F/13G institutional-investment-manager arm.** OZK dissolved its holding company in 2017; as an FDIC state non-member bank it files 10-K/10-Q/8-K **and** Section 16 insider forms with the **FDIC** (efr.fdic.gov, cert #110), not SEC EDGAR. That CIK's EDGAR history is entirely 13F-HR + 13G/A. **There is no SEC 10-Q for OZK.** Any EDGAR-keyed tool silently misses OZK financials — use FDIC EFR + OZK IR (Mgmt Comments / Financial Supplement). Corrects the old References line.
+- [2026-07-04] **Primary transcript beats trade press on the IQHQ maturity.** Bisnow (3/19/26) reported a "two-year extension → ~Aug 2028." REFUTED by the Q1 2026 earnings call (local `raw/Q1_2026_earnings_call_transcript.md`): Mealor "matures in August of this year," Gleason "August is an eternity from now." **Maturity = Aug 2026, re-confirmed from primary.** When a fresh web pull resurrects a date we already corrected, check the local primary before re-opening. [[finding_edgar_fts_refutes_tradepress_negatives]]
+- [2026-07-04] **RESG % of loans ≈ mid-50s and falling** (62% Mar'25 → 60% Jun'25; Gleason targets ≤50%). So PROME's unpinned "RESG 88%" is NOT RESG/total-loans. Bluerock IQHQ marks are all H2-2025 vintage (no fresh Q1); public sources call them fund equity/interest, not "PIK debt" — verify our PIK framing. Aimco MTD: no public ruling found (needs Chancery docket pull).
 
 ## References
-- [2026-04-02] EDGAR CIK for OZK: 0001569650 (note: most insider Form 3/4/5 filings live on FDIC EFR, not SEC — see Findings)
+- [2026-04-02→corrected 2026-07-04] ~~EDGAR CIK for OZK: 0001569650~~ — **that CIK is OZK's 13F institutional-investment-manager arm, NOT the operating company. OZK files financials + insider forms with FDIC (cert #110), not SEC EDGAR. No SEC 10-Q exists.** See 2026-07-04 Findings.
 - [2026-04-22] OZK IR docs: `ir.ozk.com/filings/documents/` — cross-posts FDIC + SEC filings. Quarterly: Financial Supplement + Management Comments (separate PDFs) + transcript. Will can pull via browser when WebFetch 403/timeouts block.
 
 ## Session Notes
 
-⚠️ **Open question:** KB_INDEX rollup **Phase 2** — architectural decision: (a) Do SELLSIDE / SHORT_INTEREST / FAILURE_COMP warrant a new "Market Evidence / Precedent" layer in the index, or cross-cut into existing layers? (b) Rule for single-row groups — fold into parent cluster (KB.tsv retag) or keep standalone? Decision-only, no writing. Phases 3 + 4 blocked on this. Full plan in TODO.md §H1.
+⚠️ **Open question:** Should Q2 conviction step down if the RESG-runoff/de-risking bull case (WEAKNESSES C7) is validated at the Jul-21 print? The discriminator is classified+criticized-vs-RESG-balance: both falling together = bull case gains; classified rising while RESG shrinks = adverse-selection tell (thesis holds). Pre-register the read before Jul 21.
 
 **CHANGES SINCE:** *(leave blank — next boot populates via market.py price delta check)*
 
-### LAST SESSION (2026-04-24, second OZK session)
+### LAST SESSION (2026-07-04 — 71-day revival + recent-data incorporation)
 
-- **Doc cleanup batch.** Fixed INDEX.md positions (× 1 → × 3, + missing $47.5P May × 2 line); Q1_2026_ANALYSIS.md header (REGINALD → OZK); research/README.md removed Feb25 row (file in archive/, not research/); shrunk TRADE.md 93 → 40 lines (Will approved Option 2 — kept conviction thesis + anti-trade warning, dropped Mar 7 earnings playbook + position assessment). Commit `ee0d599c`.
-- **KB_INDEX rollup — 6-phase plan documented in TODO.md §H1.** Will approved phasing. Each phase bounded, with own commit, no judgment carried forward without approval. Two phases shipped this session.
-- **Phase 1 done.** Header 159/17 → 195/28; naming-drift merge EXTEND_AND_PRETEND → EXTEND_PRETEND (KB.tsv row 176 retagged); LIFE_SCI range 21→26; GEOGRAPHY range 13→15; EXTEND_PRETEND range 8→9. Commit `93655ad0`.
-- **Phase 5 done.** Quick Lookup replaced "By earnings prep (Apr 16)" → "By 2026 catalyst" (May Call Report / Jul Q2 / Aug IQHQ / Oct sub notes + Affinius). Standalone Research +3 post-Q1 threads (CIB_MARGIN_COMPRESSION, IQHQ_SECONDARY_EXPOSURE, RESG_MIX_DETERIORATION). Commit `8bd512dc`.
-- **Phase 2-4 + 6 remain.** Phase 2 (15 min decision) blocks 3 + 4. Phase 6 closes after 3+4. Single next session can cover the lot (~60-80 min).
-- **Other agents active in tree mid-session.** REGINALD modified STATUS.md + workbook/PREDICTIONS.tsv (parallel session — flagged to Will, didn't touch). WALTER touched STATUS + filter/route logs; BOARD added 13 SIG-W files + INDEX. All non-OZK paths left untouched. My commits passed pre-push sanity check (`git diff origin/master..HEAD --name-only | grep -v '^AGENTS/OZK/'` → empty).
-- **STATUS.md price refresh at boot:** $47.59 → $47.47 (-0.25%, no threshold breach). Regional cohort idio-red on a green tape day (SPY +0.77%, QQQ +1.91%) — divergence noted, not OZK-specific.
+- **Boot on 71-day cold state (prior touch 4/24).** Git pull blocked by OTTO's uncommitted changes (other-agent files — flagged to Will, did NOT touch/pull; `git fetch` showed origin 0/0, so nothing missed). Read PROME REVIVAL-PACKET + resg-verification inbox items for catch-up context.
+- **Will steer mid-session:** de-prioritize positions (minimal/uncertain current OZK exposure), focus on **incorporating + updating all recent OZK data.** Pivoted accordingly.
+- **Web sweep (1 background agent) pulled all post-Apr outcomes.** Key: Q2 = **Jul 21** (not mid-Jul); −5.70% on 7/2 was **idiosyncratic, no public catalyst** (+1.95% AH); $200M buyback 6/29 + dividend +2.1% 7/1; KBRA affirm w/ **negative outlook** (RESG charge-off stress); Street targets low-mid $60s on RESG-runoff de-risking; WAL Investor Day = **no** IQHQ exposure (closes TODO #3); no fresh Q1 Bluerock marks.
+- **IQHQ Aug-2026 maturity re-confirmed from PRIMARY** (local Q1 transcript) — refuted a resurfaced Bisnow "2028 extension" claim. Thesis pin holds.
+- **Docs re-baselined:** `STATUS.md` (full rewrite — price, PROME-verified Q1 figures $487.5M/1.48% + NCO 0.56% + NPA $446.1M, Q2 Jul-21, dead cross-feed killed, recent-developments table, position table marked STALE/not-managed), `CALENDAR.md` (7 passed catalysts logged w/ outcomes; forward docket), `WEAKNESSES.md` (new **C7** RESG-runoff bull case + adverse-selection rebuttal), `MEMORY.md` (SEC-CIK correction, primary-refutes-Bisnow finding).
 
 ### NEXT SESSION
 
-1. **KB_INDEX rollup Phase 2** (~15 min, decision-only) — settle SELLSIDE layer + single-row rule. See TODO.md §H1.
-2. **KB_INDEX rollup Phase 3 + 4** (~45 min, after Phase 2) — multi-row cluster rollup + single-row reconciliation. Can co-execute.
-3. **KB_INDEX rollup Phase 6** (~10 min, after 3 + 4) — audit close.
-4. **Refresh `THREAD3_ROLL_MATH.md` chain quotes** — May 8 deadline now ~14 days out. Priority if Will signals roll execution.
-5. **Check REGINALD_CHANNEL on boot** for any new entries since 16:40 ET 2026-04-24 (REGINALD ran parallel session this session — may have written).
-
-### Prior note (pre-spinout seed): Initial Session Notes (2026-04-24, REGINALD migration session)
-
-OZK spun out from REGINALD sub-scope to top-level peer agent at `AGENTS/OZK/`. See `archive/OZK_SPINOUT_PLAN.md` for full migration plan. MEMORY.md seeded per plan §4a (6 Findings + 2 References moved, 1 Finding copied, 9 cross-cutting Will feedback rows + 2 shared tool findings duplicated). Boot test now complete — first genuine session above.
+1. **Pin the RESG "88%"** — extract Figure 16 (RESG diversification, 3/31/26) + funded/unfunded from `raw/Q1_2026_mgmt_comments.pdf`; identify what the metric is. Feeds Q2 path-(a).
+2. **Verify Bluerock "PIK debt" framing** vs the equity/interest characterization in public sources; reconcile PRIVATE_CREDIT/ + IQHQ_PLAYBOOK capital stack.
+3. **Aimco v. IQHQ MTD** — pull Delaware Chancery docket for any ruling.
+4. **Pre-register the Jul-21 Q2 read** (WEAKNESSES C7 discriminator; NCO ≤55bps kill-line watch — Q1 was 0.56%, 1bp above).
+5. **THESIS/CHANGELOG pass** — decide whether C7 warrants a conviction note (currently 🔴🔴 HIGH). Deferred pending Q2.
+6. **Deferred backlog:** KB_INDEX rollup Phases 2-4+6 (TODO.md §H1); refresh REGINALD_CHANNEL.
+- **Housekeeping flag for Will/PROME:** OTTO has uncommitted working-tree changes (STATUS, docket/CATALYSTS.tsv, thesis/PREDICTIONS.tsv) blocking clean pulls — a stale/broken OTTO closeout, not mine to fix.
