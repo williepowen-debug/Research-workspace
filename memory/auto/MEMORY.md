@@ -192,3 +192,4 @@
 - [Don't Retire a Dormant Thesis](feedback_dont_retire_dormant_thesis.md) — de-escalated catalyst →
 - [Asymmetric Records Need Reconciliation](finding_asymmetric_records_need_reconciliation.md) — agent records "I did X"; diff vs counterparty state at boot (fleet class-of-bug, PROME 7/3)
 - [Complete vs Selective Scan Drop-Safe](finding_complete_vs_selective_scan_drop_safe.md) — drop a redundant delivery channel only if the agent's other intake path is COMPLETE, not selective/tiered
+- [Decouple Idiosyncratic from Systemic Leg](finding_decouple_idiosyncratic_from_systemic_leg.md) — meter fraud-mechanism leg separately from systemic-transmission leg; one falsifying shouldn't collapse the other
