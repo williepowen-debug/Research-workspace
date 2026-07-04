@@ -6,7 +6,7 @@
 2. **Consume-step rollout — verify the 3 install-agents drained.** SAM (install packet) + REGINALD (keep-lane drain-step packet, **read SIG-704-004 OZK first**) + OTTO (freeze-or-refresh + boot-line packet) each self-apply at their **next boot**. CARL = dropped + its 40 archived (done). RED = done (DAEDALUS bundle). WALTER closed the REQ (`1ff0d93c`, B1 done; it *retracted* the I3 template-kill — its call). Next boot: confirm the 3 drained (check `inbox/WALTER/processed/` counts) — don't chase, they self-apply.
 3. **DAEDALUS trade-staleness sweep — endorsed; 2 refinements pending its follow-up.** Mechanism (`ledger_staleness.py --trade` + broadened dead-banner recognizer) PROME-verified non-breaking + read-only; endorsed as shipped. Refinements relayed (DAEDALUS lane): (a) make `--trade` *additive* to the workbook glob so the 6 dual-surface agents need one boot line not two; (b) the boot-line-accretion / consolidate-into-one-boot-hygiene-entry question. DAEDALUS also encoded a **standing dormant-freeze pre-approval** (`fd6e0d1d`, PAT-036) — freezes no longer need per-instance approval for clearly-idle surfaces.
 4. **Launch/forward queue (post-7/4):** **CREED launched + productive** (staleness sweep + MF-broadening **S5 2→3** flag → CARL + FROZEN-banner flag → REGINALD). **DEWEY** queue drain (PROMPT-06 Hormuz was 7/4-due but SIG-002/003 de-escalation deflated it → PROMPT-05 HY/CCC + 07 funding-seizure-X1 now the more thesis-relevant). **Mon 7/6:** LIQUID (HY index + the canary discriminator) · BOND (pre-refunding + JGB) · BRENT (COT + **STATUS is 7/1-stale**, predates its own 7/3 catalysts + the 4 fresh 7/4 oil datapoints) · HENRY.
-5. **FRED rotation tail (next LAPTOP visit, unchanged):** new key → laptop `.env` + drop bashrc export → swap RESEARCH-INTAKE GH secret `FRED_API_KEY` → DELETE old key at fred.stlouisfed.org. Canon: `PROME/MACHINE_LOCAL.md`.
+5. **FRED rotation tail — ✅ COMPLETE 7/4 (later laptop session).** Laptop `.env` swapped to new key + FRED-validated · bashrc old-key line deleted (single-home) · RESEARCH-INTAKE GH secret swapped · old key `8ce3f08d` DELETED at fred.org. Verified: 7/4 `collect` run pulled 16 fresh FRED series (HY OAS 275 [7/2]) after the deletion. History-exposed key dead everywhere → pre-flip credential blocker CLOSED. Canon: `PROME/MACHINE_LOCAL.md`.
 
 ## ✅ This session (Sat 7/4, ~12:19-14:49 ET)
 - **5-signal synthesis (6-reader grounded cross-check workflow):** every owner returned **substance-firms / no-trigger-fires**. Two opposite stories — **energy DE-ESCALATING** (Iran re-stamp SIG-002 + record 1.37B bbl oil-on-water + Houston-WTI premium→$0, SIG-003) vs **credit/CRE substance FIRMING** (CoreWeave AI-credit canary SIG-001 · OZK Seattle deed-in-lieu realized SIG-004 · S2 Capital $400M MF-fund wipeout SIG-005). Convergence discipline held: the credit cluster = **2 forcing functions** (AI-capex-unwind; 2022-refi-reset), both already in book — NOT a broad new crack. HEARTBEAT header note added (Will in-session).
@@ -15,8 +15,8 @@
 - **DAEDALUS review + OTTO route** (`d859a317`): trade-staleness sweep verified + endorsed; OTTO packet routed (freeze-or-refresh + `--trade` boot-line).
 
 ## Will actions (open, carried)
-- **Public-flip** (DELIBERATE WAIT) — pre-flip: rotate/delete old FRED key completes the credential story; essay review.
-- **Laptop visit:** FRED rotation tail (entry-point 5).
+- **Public-flip** (DELIBERATE WAIT) — pre-flip credential story now COMPLETE (FRED key rotated + old key deleted 7/4 ✅); remaining pre-flip = essay review + (post-flip) delete desktop mirror backup.
+- ~~**Laptop visit:** FRED rotation tail~~ ✅ DONE 7/4 (entry-point 5).
 - Nothing else blocking — the 7/4 threads all closed to committed state.
 
 ## Git / repo state
