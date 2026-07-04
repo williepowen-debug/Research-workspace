@@ -1,7 +1,7 @@
 # OTTO COMPLETION — 2026-07-04
 
 ## STATUS
-✅ **25-day dark-gap catch-up sweep** (last session Jun 9 → Jul 4). Boot ran clean; a full fired-but-unswept catalyst cluster (Jun 12/15/17/30) resolved via primary-source web/EDGAR work. **2 predictions FALSIFIED, 2 refreshed. Signal downgraded 🔴🔴 → 🔴 fraud-leg / 🟠 systemic-funding-leg.** WINTERKORN NOT respawned this session (no session ran between Jun 9 and today). Local commits pending push (Will-coordinated).
+✅ **25-day dark-gap catch-up sweep** (last session Jun 9 → Jul 4). Boot ran clean; a full fired-but-unswept catalyst cluster (Jun 12/15/17/30) resolved via primary-source web/EDGAR work. **2 predictions FALSIFIED, 2 refreshed. Signal downgraded 🔴🔴 → 🔴 fraud-leg / 🟠 systemic-funding-leg.** WINTERKORN **respawned + integrated** this session (date fixes + Castel correction + 2 new catalysts). **Inbox processed** (Will-flagged): PROME PAT-035 packet actioned (TRADE.md frozen + boot-line) + 2 WALTER signals integrated. 3 local commits (+ a 4th pending for this inbox batch), all riding next coordinated push.
 
 ## CHANGED
 - **OTTO-05 → FALSIFIED:** subprime BBB ABS spread did NOT hit 250bps by Jun 30 — it **TIGHTENED to +140bps** (EART 2026-3 Class D, settled ~Jun 24 `[CONF SEC FWP/IFR]`) vs +190 Mar. Deal upsized $1.2bn; Exeter 1st-ever AAA. **Systemic subprime-ABS funding-freeze sub-thread disconfirmed** — logged as CHANGELOG pivot.
@@ -30,4 +30,4 @@ The catch-up produced an honest **disconfirmation on the systemic-magnitude leg 
 ## FOLLOW-UP (priority queue)
 **P1:** Spawn WINTERKORN (weekly Tue due + T-3 pre-Jul-28) — sweep forward docket, verify Jul 28 FB + Jul 15/16/21 earnings dates. Update thesis/THESIS.md conviction/risk-matrix for the fraud-vs-systemic split.
 **P2:** Obtain direct Fitch May/Jun ABS print + 2022-vintage 10-D (OTTO-04). Refresh stale private-credit/BDC dashboard rows. Repair ML.tsv CRLF-merge corruption.
-**P3:** TRADE.md rehab (pre-split CVNA strikes); verify Jun 16 Carvana Chancery dismissal identity; DQ-series reconciliation (7.1% vs Fitch vs VX).
+**P3:** ~~TRADE.md rehab~~ ✅ FROZEN (PAT-035); verify Jun 16 Carvana Chancery dismissal identity; DQ-series reconciliation (7.1% vs Fitch vs VX); watch Jul 21 Ally for used-car/recovery follow-through (WALTER Hertz + 5.6%-DQ signals).

@@ -1,7 +1,11 @@
 # OTTO — Trade Ideas
 
-**Last Updated:** 2026-02-16
+> **FROZEN 2026-07-04 — not maintained; STATUS is canonical, do not cite rows as current.**
+
+**Last Updated:** 2026-02-16 *(content frozen 2026-07-04)*
 **Domain:** Subprime Auto Lending, ABS, Immigration-Credit Nexus
+
+> **Why frozen (PROME PAT-035 freeze-or-refresh):** OTTO holds **no active OTTO-originated position** (see "Active Positions" — none direct). Every idea below is Feb-vintage and stale-or-undercut: CVNA strikes are **PRE-split** (off ~5× since the May 7-8 5-for-1 split); the GT-resignation entry trigger is **dead** (GT ratified May 5); and the 2026-07-04 catch-up **disconfirmed** the two live-ish theses — subprime-ABS-spread widening → **OTTO-05 FALSIFIED** (spreads tightened to +140bps), ALLY puts → Ally credit **improving** (NCO/DQ down YoY). The live auto read (CVNA patience / no re-entry, First Brands → majority-Ch.7 Jul 28, ABS spreads) lives in `STATUS.md`. **Unfreeze only when a concrete OTTO auto trade re-emerges.**
 
 ---
 

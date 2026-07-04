@@ -14,6 +14,20 @@ routine content edits. Archive to `archive/` if it grows past ~300 lines (SAM ca
 
 ---
 
+## 2026-07-04 — TRADE.md frozen + `--trade` staleness boot-line (PROME PAT-035)
+
+**Trigger:** PROME task-packet (Jul 4, MEDIUM) routing DAEDALUS's fleet TRADE-staleness sweep (PAT-035). DAEDALUS extended `scripts/ledger_staleness.py` to cover trade/position surfaces; the `--trade` scan flagged `OTTO/TRADE.md` at +138d stale with no banner — a Data Hygiene two-state-rule violation. Routed owner-decides rather than frozen unilaterally.
+
+**What changed:**
+- **`TRADE.md` FROZEN** (banner in header, within the first-6-lines window `is_frozen()` reads). Chose freeze over refresh: OTTO holds no active OTTO-originated position; all ideas are Feb-vintage and stale-or-disconfirmed (pre-split CVNA strikes, dead GT trigger, ABS-spread short falsified this session, ALLY thesis undercut). Live auto read stays in STATUS.
+- **`scripts/boot.py` — new "Trade Staleness" step.** Added `STALENESS` path constant (repo-root `scripts/ledger_staleness.py`) + a read-only step running `ledger_staleness.py OTTO --trade --quiet` after the catalyst countdown. Read-only alert, never gates the boot. Mirrors the fleet's cwd-proof lazy-sweep pattern.
+
+**Files touched:** `TRADE.md` (freeze banner), `scripts/boot.py` (STALENESS const + step), `workbook/ML.tsv` (ML-180/-181 = the 2 WALTER signals processed same spawn), `STATUS.md` (boot-pointer inbox note), `MAINTENANCE.md` (this).
+
+**Boot-impact:** Every boot now surfaces trade-surface staleness alongside predictions/catalysts (frozen → silent OK). Closes the silent-rot path that let TRADE.md drift 138 days.
+
+**Lessons:** Freeze is the honest state for a Tier-2 spawn-on-need agent with no live position — a "maintained-current" TRADE.md would just repeat "nothing actionable," which STATUS already says. The staleness enforcer respects the FROZEN banner (STATIC_BANNER_MARKERS, first 6 lines) — verify the freeze is recognized (re-run the script) before wiring the boot-line, so the new step doesn't nag about a file you just froze.
+
 ## 2026-06-09 (PM) — WINTERKORN docket-steward sub-agent (v2.6 → v2.7)
 
 **Trigger:** Same-session follow-on to thesis/ consolidation (v2.6). Will-directed TIER-1 audit identified the docket-keeper sub-agent as the highest-leverage next move — the Jun-8 First Brands `Jun 17 → Jun 12` catch was precisely the failure mode FASTOW's `[[finding_subagent_pre_fire_date_verification]]` was built to prevent. Planned-before-built: spec sub-agent identity, scope, autonomy gradient, recurring-release universe, spawn cadence, 7 open scope questions answered by Will before any file written.

@@ -33,6 +33,7 @@ OTTO_DIR = SCRIPTS_DIR.parent
 WORKSPACE = OTTO_DIR.parent.parent  # Research-workspace/
 VENV_PYTHON = WORKSPACE / ".venv" / "bin" / "python3"
 FETCH = WORKSPACE / "FORGE" / "tools" / "market-data" / "fetch.py"
+STALENESS = WORKSPACE / "scripts" / "ledger_staleness.py"  # fleet enforcer (PROME PAT-035)
 
 WATCHLIST = ["CVNA", "ALLY"]  # OTTO's tradeable names (TRADE.md)
 
@@ -112,6 +113,14 @@ def main():
         # predictions_due returns 1 when overdue exist — that's a flag, not a failure
         status = "OK" if rc in (0, 1) else "FAIL"
         results.append((label, status, elapsed))
+
+    # N. Trade-surface staleness (fleet enforcer, read-only alert; PROME PAT-035)
+    if STALENESS.exists():
+        print(f"\n  ⏳ Trade Staleness...", flush=True)
+        rc, out, elapsed = run([str(VENV_PYTHON), str(STALENESS), "OTTO", "--trade", "--quiet"])
+        line = out.strip() or "✓ trade surface current or FROZEN"
+        print(f"    {line}")
+        results.append(("Trade Staleness", "OK" if rc == 0 else "FAIL", elapsed))
 
     # Summary
     total = time.time() - start_time
