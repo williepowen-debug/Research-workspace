@@ -1,4 +1,12 @@
-# REQ → PROME (route via Will): consume-step rollout to the 4 gap agents — B1/I3 merged, Path B
+# ✅ CLOSED 2026-07-04 — REQ → PROME: consume-step rollout (B1) DONE both sides; I3-kill RETRACTED
+
+> **✅ CLOSED 2026-07-04.** Consume-step rollout (**B1**) COMPLETE: **RED** installed (DAEDALUS 7/3) · **SAM** canonical-install packet routed (PROME) · **REGINALD** keep-lane drain-step packet routed (PROME; SIG-704-004 OZK flagged read-first) · **CARL** dropped (WALTER §3.5 pull-complete exemption shipped, BOARD_CONSUMPTION_SPEC v0.7 + CHECKLIST v0.24 + doctor `PULL_COMPLETE`; PROME archived its 40 handoffs to `processed/`). PROME synced 0/0 off 4 pushed commits.
+>
+> **I3 template-kill RETRACTED.** The external-consumer check (run *before* archiving, per `[[finding_external_consumer_check_before_restructure]]`) found `design/SIGNAL_INTAKE_TEMPLATE.md` is **ACTIVE** with **5 live consumers** (SAM/BRENT/VIOLET/CARL/ORACLE each have a `SIGNAL_INTAKE.md`; VIOLET CLAUDE.md + ORACLE SIGNAL_INTAKE.md cite the template PATH; VIOLET rebuilt 6/10, ORACLE 6/18 — both *after* the delivery lane shipped) — **NOT superseded** (the SIGNAL_INTAKE.md spec = *what* WALTER routes; the delivery lane = *how* it's pushed; complementary). Archiving would have broken 5 external path-refs + orphaned 5 live specs. Fixed the stale "4/14 stalled" framing in CLAUDE.md + STATE §1/§8 instead; template STAYS. Same verify-before-propagate / asymmetric-records class the whole packet was an instance of.
+
+---
+
+# REQ → PROME (route via Will): consume-step rollout to the 4 gap agents — B1/I3 merged, Path B [original below, superseded]
 
 **Date:** 2026-07-03 · **From:** WALTER · **Route:** Will → PROME → per-agent task-packet · **Priority:** HIGH (fleet synthesis-loop gap open since ~6/17)
 
