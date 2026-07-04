@@ -1,3 +1,5 @@
+> **🧊 FROZEN 2026-07-04 — OZK dormant/archive-source (retired spinout); not maintained. Positions below are April-vintage; do not cite as current.** *(DAEDALUS TRADE-staleness sweep, PAT-025, Will-approved.)*
+
 # OZK — Thesis Positions
 **Updated:** 2026-04-23 (from broker confirmation) | **Total:** 11 contracts across 4 lines
 

@@ -1,3 +1,5 @@
+> **🧊 FROZEN 2026-07-04 — OZK dormant/archive-source (retired spinout); not maintained. STATUS.md is canonical; do not cite rows below as current.** *(DAEDALUS TRADE-staleness sweep, PAT-025, Will-approved.)*
+
 # OZK TRADE.md
 
 **Purpose:** Durable "why-we-entered" conviction record + anti-trade caution. Operational state lives elsewhere.

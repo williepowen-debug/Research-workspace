@@ -67,10 +67,25 @@ def file_time(path):
         return None
 
 
+# Header banners that declare a surface intentionally static (dead/retired).
+# Broadened 2026-07-04 (DAEDALUS TRADE-staleness sweep, PAT-025) beyond the literal
+# "FROZEN" to the fleet's real dead-banner vocabulary — CARL "⛔ RETIRED" (line 1),
+# MARCO "⚠️ FEB-VINTAGE … NOT CURRENT" (line 3) — scanning the header block so an
+# intentional dead-banner is never a false-flag. Kept to strong, unambiguous phrases
+# (not bare "stale"/"vintage") to avoid exempting a genuinely-rotten file.
+STATIC_BANNER_MARKERS = ["FROZEN", "RETIRED", "NOT CURRENT", "DO NOT CITE", "NOT MAINTAINED", "ARCHIVED"]
+
+# Trade/position surfaces scanned under --trade (default glob stays workbook/*.tsv).
+TRADE_GLOBS = ["TRADE.md", "trade/TRADE.md", "TRADE_BOOK.md", "POSITIONS.md"]
+
+
 def is_frozen(path):
+    """True if the header (first ~6 lines) declares the surface intentionally static.
+    Named is_frozen for call-site compatibility; recognizes the whole dead-banner set."""
     try:
         with open(path, "r", encoding="utf-8", errors="replace") as f:
-            return "FROZEN" in f.readline().upper()
+            head = "".join(f.readline() for _ in range(6)).upper()
+        return any(k in head for k in STATIC_BANNER_MARKERS)
     except OSError:
         return False
 
@@ -82,11 +97,14 @@ def resolve_agent_dir(arg):
     return cand if os.path.isdir(cand) else None
 
 
-def scan_agent(agent_dir, days, glob_pat, strict=False):
+def scan_agent(agent_dir, days, glob_pats, strict=False):
     name = os.path.basename(agent_dir.rstrip("/"))
     status_t = file_time(os.path.join(agent_dir, "STATUS.md"))
     rows = []
-    for led in sorted(glob.glob(os.path.join(agent_dir, glob_pat))):
+    matched = []
+    for gp in glob_pats:
+        matched.extend(glob.glob(os.path.join(agent_dir, gp)))
+    for led in sorted(set(matched)):
         t = file_time(led)
         frozen = is_frozen(led)
         exempt = (not strict) and is_exempt(led)
@@ -149,14 +167,20 @@ def main():
     ap.add_argument("--all", action="store_true", help="scan every AGENTS/*/ with a workbook/")
     ap.add_argument("--days", type=int, default=30, help="staleness threshold in days behind STATUS (default 30 = rot, not mild drift)")
     ap.add_argument("--glob", default="workbook/*.tsv", help="ledger glob relative to agent dir (default workbook/*.tsv)")
+    ap.add_argument("--trade", action="store_true", help="scan trade/position surfaces (TRADE.md / trade/TRADE.md / TRADE_BOOK.md / POSITIONS.md) instead of workbook/*.tsv")
     ap.add_argument("--quiet", action="store_true", help="print only agents with stale ledgers (one line each)")
     ap.add_argument("--strict", action="store_true", help="disable by-name exemptions (schema/archive/backup/history/etc.)")
     args = ap.parse_args()
 
+    globs = TRADE_GLOBS if args.trade else [args.glob]
+
     if args.all:
+        # trade mode: anchor on STATUS.md (every real agent) and let scan_agent find
+        # its trade surfaces; workbook mode: anchor on the workbook/ dir as before.
+        anchor = "STATUS.md" if args.trade else "workbook"
         dirs = sorted(
             os.path.dirname(p)
-            for p in glob.glob(os.path.join(REPO, "AGENTS", "*", "workbook"))
+            for p in glob.glob(os.path.join(REPO, "AGENTS", "*", anchor))
         )
     elif args.agent:
         d = resolve_agent_dir(args.agent)
@@ -170,7 +194,7 @@ def main():
 
     total_stale = 0
     for d in dirs:
-        name, status_t, rows = scan_agent(d, args.days, args.glob, strict=args.strict)
+        name, status_t, rows = scan_agent(d, args.days, globs, strict=args.strict)
         total_stale += report(name, status_t, rows, args.quiet)
 
     if args.all and not args.quiet:

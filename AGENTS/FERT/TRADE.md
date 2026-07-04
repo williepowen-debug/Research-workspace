@@ -1,3 +1,5 @@
+> **🧊 FROZEN 2026-07-04 — FERT dormant/archive-source; not maintained. STATUS.md is canonical; do not cite rows below as current.** *(DAEDALUS TRADE-staleness sweep, PAT-025, Will-approved.)*
+
 # FERT — Trade Recommendations
 
 **Last Updated:** 2026-03-20
