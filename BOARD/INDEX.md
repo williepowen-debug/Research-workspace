@@ -35,7 +35,7 @@ Sorted by signal count descending. Cluster definitions in [`AGENTS/WALTER/design
 
 | Cluster | Count | Latest signal | Theme |
 |---------|------:|---------------|-------|
-| [IRAN_HORMUZ](#iran_hormuz-73) | 73 | 2026-07-03 · SIG-W-20260702-014 | Iran war / Hormuz chokepoint / GEOPOL_ENERGY supply / sanctions / state-response |
+| [IRAN_HORMUZ](#iran_hormuz-74) | 74 | 2026-07-04 · SIG-W-20260704-002 | Iran war / Hormuz chokepoint / GEOPOL_ENERGY supply / sanctions / state-response |
 | [POSITIONING_VALUATION](#positioning_valuation-69) | 69 | 2026-07-03 · SIG-W-20260702-017 | Equity positioning extremes / vol regime / breadth / fund flows / call-put skew / corporate-hedger positioning / bullish-counter-evidence |
 | [CONSUMER_STAGFLATION](#consumer_stagflation-82) | 82 | 2026-07-03 · SIG-W-20260702-008 | Sentiment / inflation expectations / CC delinq / labor weakness / consumer fuel-cost transmission / discretionary-demand-destruction |
 | [BANK_COLLATERAL](#bank_collateral-67) | 67 | 2026-07-03 · SIG-W-20260702-018 | Distressed CRE / residential housing / office vacancy / regulatory shocks affecting bank collateral / threshold-fire-events |
@@ -47,12 +47,12 @@ Sorted by signal count descending. Cluster definitions in [`AGENTS/WALTER/design
 | [ASIA_CHINA](#asia_china-20) | 20 | 2026-07-03 · SIG-W-20260703-001 | China / HK / EM-Asia contagion — trade dynamics / export controls / property collapse / peg fragility / state-level demand destruction / RMB internationalization / Japan BOJ dynamics |
 | [INFLATION_TRANSMISSION](#inflation_transmission-4) | 4 | 2026-07-03 · SIG-W-20260702-012 | Forward goods-CPI / supply-chain cost-push transmission — freight indices, port congestion, pump-pass-through, tariff front-loading, supply-chain disruption with 3-6 month CPI lag |
 | [AI_INFRA_CAPEX](#ai_infra_capex-20) | 20 | 2026-07-04 · SIG-W-20260704-001 | AI infrastructure capex sustainability / hyperscaler guidance / leveraged equity collateral on AI names |
-| **TOTAL** | **434** | | |
+| **TOTAL** | **436** | | |
 
 ---
 
 
-## IRAN_HORMUZ (73)
+## IRAN_HORMUZ (74)
 
 *Iran war / Hormuz chokepoint / GEOPOL_ENERGY supply disruption / sanctions enforcement / state-response. Includes oil-supply observations downstream of Iran-driven disruption. Rows in this section predating the anchor's current verified-as-of stamp may carry superseded war-state framing. [`anchors/IRAN_WAR.md`](../AGENTS/WALTER/anchors/IRAN_WAR.md) is canonical for current state — do not treat row framing as current without checking it.*
 
@@ -131,6 +131,7 @@ Sorted by signal count descending. Cluster definitions in [`AGENTS/WALTER/design
 | SIG-W-20260702-005 | 2026-07-03 | OIL_ENERGY | PRIORITY | WALTER → BRENT / HAWK, RED | **Cushing build = forced tank-bottom refill, not reopening barrels? (JustDario counter-read).** EIA WPSR: Cushing +0.71M to 19.7M was the ONLY build against a national commercial-crude draw (−3.7M). BRENT reads the build as "reopening barrels / softens the upside tail"; Dario reads it as a FORCED operational-minimum refill at tank bottoms (Cushing <20M floor) = bearish-tight, not bullish-normalization — a cluster_mediating counter to BRENT's live 2nd-derivative call. Precision overlay: Dario's "all PADDs drew" is imprecise (PADD2 BUILT +0.8M, driven by Cushing). Anchor 7/2-fresh (guard satisfied). signal_role cluster_mediating; SKIP-VERIFY 0.70 | [SIG-W-20260702-005-cushing-tank-bottoms-forced-refill-counter-read-dario.md](SIG-W-20260702-005-cushing-tank-bottoms-forced-refill-counter-read-dario.md) |
 | SIG-W-20260702-011 | 2026-07-03 | OIL_ENERGY | ROUTINE | WALTER → BRENT / HAWK, RED | **No Brent crude cargoes set to load in August — "a first for the global benchmark" (Staunovo/Reuters).** NET-NEW to BRENT (no BFOET/benchmark ref in its state). A structural datapoint about the physical Brent basket: BRENT grades (a) benign North Sea maintenance/decline seasonality vs (b) tightness/basket-hollowing (sharpens the paper-vs-physical question at the benchmark-mechanics level). Staunovo = UBS commodity strategist; Reuters primary. Anchor 7/2-fresh (guard satisfied; benchmark-structural, not war-state-dependent). signal_role primary_substance; SKIP-VERIFY 0.80 | [SIG-W-20260702-011-no-brent-cargoes-august-benchmark-first.md](SIG-W-20260702-011-no-brent-cargoes-august-benchmark-first.md) |
 | SIG-W-20260702-014 | 2026-07-03 | HORMUZ | PRIORITY | WALTER → HAWK, BRENT / SAM, RED | **Hormuz "4 tankers leaving per 1 entering, far below pre-war" (Matt Reed/Reuters).** A Reuters-sourced net-flow-DIRECTION datapoint (region emptying) that directionally corroborates tonight's DEWEY reopening-scorecard (SIG-702-002: 0/4 legs, degraded + reversed post-6/27). Carry the scorecard's caveat — it killed the absolute "~75% of prewar throughput" as unverified, so route this as net-flow direction NOT a hard level. Anchor 7/2-fresh (guard satisfied). signal_role cluster_mediating; SKIP-VERIFY 0.75 | [SIG-W-20260702-014-hormuz-tanker-exodus-4to1-exit-entry-reuters.md](SIG-W-20260702-014-hormuz-tanker-exodus-4to1-exit-entry-reuters.md) |
+| SIG-W-20260704-002 | 2026-07-04 | WAR | ROUTINE | WALTER → HAWK, BRENT / SAM, RED | **Iran anchor RE-STAMPED 7/4 (2 verify agents, converged HIGH).** (1) KINETIC — the 6/26-28 re-escalation flare-up PEAKED then REVERSED toward DE-ESCALATION: 6/28 halt-strikes → 7/1 comms channel → 7/2 Doha indirect talks (Qatar+Pakistan "positive progress"); no new kinetic 6/29-7/4; MOU fragile-but-RE-STABILIZING (supersedes "fraying hard toward collapse"); next round deferred until after the Khamenei funeral; oil decoupled ~$72; Hormuz 0/4 institutional but physical Saudi flow ~90% pre-war. (2) LEADERSHIP RE-STAMP — **Ali Khamenei (father) KILLED ~2/28; Mojtaba (son) SL since ~3/9; the June MOU (Islamabad Memorandum, signed by Trump+Pezeshkian) was AUTHORIZED by Mojtaba, not Ali.** 🚩 Governance flag: Mojtaba unseen in public since taking office. HAWK marks (6/26 B34/C44/D22) pre-date both the flare-up and the de-escalation → re-mark input (de-escalation firms B/C over D; Mojtaba governance-uncertainty a new MOU-durability tail). anchor_verified_as_of 7/4; narrative_channel pakistan_mediator; primary_substance; CONFIRMED 0.85 | [SIG-W-20260704-002-iran-anchor-restamp-deescalation-mojtaba-leadership.md](SIG-W-20260704-002-iran-anchor-restamp-deescalation-mojtaba-leadership.md) |
 
 
 ---

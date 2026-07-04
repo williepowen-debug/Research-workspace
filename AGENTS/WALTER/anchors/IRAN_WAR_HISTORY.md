@@ -2,6 +2,8 @@
 
 > **Full historical record of the IRAN-WAR anchor**, split out 2026-06-28 to keep the boot-read live anchor (`IRAN_WAR.md`) lean. Contains every prior verified-as-of stamp, superseded state block, old source bases, the load-bearing-facts / timeline reconstruction, and the signal-framing history. **Do NOT boot-read this file** — the current verified state + re-verify trigger live in [`IRAN_WAR.md`](IRAN_WAR.md). Append the newly-superseded block here at each re-stamp; never delete history.
 
+> **⚠️ LEADERSHIP CORRECTION (added 2026-07-04, retroactive — Will-approved).** Verify-research (2 independent WALTER sub-agents, 2026-07-04) established that **Ali Khamenei (father) was KILLED ~2026-02-28** (joint US-Israeli strike) and **Mojtaba Khamenei (son) has been Supreme Leader since ~2026-03-09** (Assembly of Experts, 59/88). Therefore **every generic "Khamenei" reference in the blocks below dated after ~2026-03-09 = MOJTABA (son), NOT Ali** — including the **6/18 "Khamenei okayed the MOU in writing"** (that was Mojtaba's written authorization of the June 17 Islamabad Memorandum, signed by Trump + President Pezeshkian). The May-2026 "Khamenei directive / Khamenei advisor" references are likewise Mojtaba-era. These historical blocks were written *before* the father/son distinction was verified and are left intact as lossless history; the correct current framing (+ a governance-uncertainty flag: Mojtaba unseen in public since taking office) lives in [`IRAN_WAR.md`](IRAN_WAR.md), 2026-07-04 stamp.
+
 ---
 
 # IRAN-WAR ANCHOR
