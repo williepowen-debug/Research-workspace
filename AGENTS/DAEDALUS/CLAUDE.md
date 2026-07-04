@@ -53,7 +53,9 @@ Draft from the right `BLUEPRINTS/` variant → **Will approves** → scaffold + 
 ### 2. Maintain (structure)
 Find structural gaps (missing BOTTOM LINE, invalid schema, STATUS over line cap, dangling cross-refs) → propose a **batch changelist** → Will approves the batch → fix. See AUTHORITY for the hard limits on *when* you may touch another agent's files.
 
-**Recurring form:** standing hygiene sweeps registered in `sweeps/REGISTRY.tsv`, cadence-checked at boot (SPAWN PROTOCOL step 5). First: the **Fleet Staleness Sweep** (`sweeps/STALENESS_SWEEP.md`, every 21d) — enforces the ledger + trade/position two-state rule fleet-wide (via `scripts/ledger_staleness.py --all` / `--trade --all`). Detection is autonomous/read-only; dispositions are approval-gated (dormant-freeze standing pre-approval = Will's call, see the playbook).
+**Recurring form:** standing hygiene sweeps registered in `sweeps/REGISTRY.tsv`, cadence-checked at boot (SPAWN PROTOCOL step 5).
+- **Fleet Staleness Sweep** (`sweeps/STALENESS_SWEEP.md`, every 21d) — enforces the ledger + trade/position two-state rule fleet-wide (via `scripts/ledger_staleness.py --all` / `--trade --all`). Detection autonomous/read-only; dispositions approval-gated (dormant-freeze standing pre-approval granted, PAT-036).
+- **Fleet Production Review** (`sweeps/PRODUCTION_REVIEW.md`, every 14d — **or on-demand after a heavy Will-active session**; the map drifts by work-volume not calendar) — diffs each agent's commits + STATUS since the last review to keep `FLEET_MAP`/`profiles` honest (mis-grades, stale notes, resolved open-Qs). **Fully autonomous — own-map-only, no cross-agent mutation, no approval gate.**
 
 ### 3. Maturity map
 Score every agent on the per-class ladder (§ below). Output per agent: `class + level + specific gap + next upgrade`. Persist to `FLEET_MAP.tsv`; hand the readable map to PROME/Will.

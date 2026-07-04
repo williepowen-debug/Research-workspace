@@ -7,6 +7,11 @@ Newest first. Keep entries terse; archive build minutiae to `FLEET_MAP.tsv`.
 
 ## Changelog
 
+### 2026-07-04 (later²) — Fleet Production Review added as recurring sweep #2 + CREED L1→L2
+- **What:** Will asked me to review other agents' daily production + flag map adjustments. Did it (WALTER 8 / CREED 8 / PROME 4 → **CREED L1→L2** re-grade + consume-loop reconciliation), then institutionalized it as `sweeps/` entry #2 — the **Fleet Production Review** (`sweeps/PRODUCTION_REVIEW.md`, 14d or on-demand). Diffs each agent's commits+STATUS since the last review to keep `FLEET_MAP`/`profiles` honest (mis-grades, stale notes, resolved open-Qs). **Fully autonomous — own-map-only, no cross-agent mutation, no approval gate** (unlike the Staleness Sweep).
+- **Map change:** CREED L1→L2 (conf M, confirm-read owed) — its live Tier-2 catch-up cleared the live-accruing-ledger gate via its native source-pack/thesis-rails, not the frozen-VX rehab originally scoped (PAT-030). Consume-loop rollout resolved by WALTER+PROME per-recipient → reconciled PAT-034.
+- **Design refinement (Will):** the map drifts by **work-volume, not calendar** — agents move far from their STATUS during active Will-work — so the on-demand-after-a-heavy-session trigger matters as much as the 14-day tick. Encoded in the playbook + the `sweeps/` boot note.
+
 ### 2026-07-04 (later) — TRADE-staleness sweep executed (PAT-025 → mechanism fix + PAT-035)
 - **What:** Will approved the fleet-wide TRADE.md staleness-sweep proposal (`upgrades/TRADE_STALENESS_SWEEP.md`). The scan reframed it from "banner N stale files" to a **mechanism gap**: `scripts/ledger_staleness.py` globbed `workbook/*.tsv` only (never watched the trade surface) + recognized only the literal "FROZEN" on line 1.
 - **Mechanism fix (shared script, Will-approved, tested, committed):** added a `--trade` glob (`TRADE.md/trade/TRADE.md/TRADE_BOOK.md/POSITIONS.md`) + a header-block dead-banner recognizer (`FROZEN|RETIRED|NOT CURRENT|DO NOT CITE|NOT MAINTAINED|ARCHIVED`). **Non-breaking** — default workbook mode byte-identical for the 6 current callers; validated. Now flags `REGINALD/TRADE.md` (+63d) and correctly exempts CARL (`RETIRED`, line 1) + MARCO (`NOT CURRENT`, line 3).
