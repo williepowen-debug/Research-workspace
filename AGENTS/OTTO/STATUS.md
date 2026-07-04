@@ -1,8 +1,16 @@
 # OTTO STATUS
 
-**Signal Status:** 🔴🔴 CRITICAL | **Last Updated:** 2026-06-08 EDT
+**Signal Status:** 🔴 fraud-leg CRITICAL / 🟠 systemic-funding-leg COOLING | **Last Updated:** 2026-07-04 EDT
 
-> **📌 New spawn:** Read `LAST_COMPLETION.md` first. **Jun 9 session = thesis/ consolidation + WINTERKORN sub-agent (CLAUDE.md → v2.7):** new docket-steward sub-agent at `docket/WINTERKORN.md` + `docket/WINTERKORN_MEMORY.md` (FASTOW-pattern scoped owner of CATALYSTS.tsv; weekly Tue + T-3 pre-hearing cadence). Closes the Jun-17→Jun-12 date-keeping failure mode on cadence. **Jun 12 is the canonical first-spawn target** (First Brands UST hearing pre-fire verification). Earlier in same session — thesis/ consolidation (CLAUDE.md → v2.6): built `thesis/` subdir; new `thesis/THESIS.md` v1.0 (12-section canonical thesis — Primary Cockroach, Secondary Invisible Exit, Carvana sub-thesis carve-out, transmission chain, why-now timing claim, conviction decomposition, expanded risk matrix); moved `CHANGELOG.md` → `thesis/CHANGELOG.md` + `workbook/PREDICTIONS.tsv` → `thesis/PREDICTIONS.tsv` (scripts updated); new `thesis/PREDICTIONS_ARCHIVE.md` (5 resolved-row post-mortems + calibration scoreboard — knocks STALE_PUNCHLIST #4-5). STATUS § THESIS block now mirror-only (canonical → `thesis/THESIS.md`). **No domain-data refresh — dashboard metrics unchanged from Jun 8 sweep.** Prior context — **Jun 8 = boot+closeout infra maturation (v2.3):** boot kit added (`scripts/boot.py` + `docket/CATALYSTS.tsv` — boot steps 4-5 now script-driven, ~2s); closeout matured toward SAM/BRENT — STATUS line-cap+archive (this file 417→162 lines, Mar-May check-ins → `workbook/STATUS_archive_20260608.md`), new `CHANGELOG.md` thesis-pivot log, promotion-scan step, Git section fixed to pathspec. **No domain-data refresh this session — dashboard metrics still Feb-Apr stamped (stale; flagged for next session).** Prior context — **Jun 2 = protocol hardening (v2.1, Phases 1-3b):** new git-pull boot step 0 + past-due-catch calendar scan; closeout rewritten as write-back mirror of boot; new `## Evidence & Hygiene Conventions` (evidence-grade tags `[CONF]`/`[PRESS]`/`[ALLEG]`/`[EST]`, `[STALE]` marking, Doc Ownership table); live-state stripped from CLAUDE.md (STATUS is single source of truth). Cross-doc audit produced **`STALE_PUNCHLIST.md`** (9 items; TRADE.md is headline 3.5-mo rot — remediation DEFERRED). **First Brands sweep resolved the boot-flagged May 20/25/29 catalysts:** May 20 conditional-DS approval DENIED (admin-insolvency grounds, cuts toward thesis); 4 Evolution SPV debtors already Ch.7 (Apr 9); confirmation re-targeted **Jun 17**; OTTO-32 held 85%.
+> **📌 New spawn (Jul 4 catch-up sweep — 25-day dark, Jun 9 → Jul 4):** A full catalyst cluster fired unswept while OTTO was dark. **Resolved this session (primary-sourced):**
+> - **OTTO-05 FALSIFIED** — subprime BBB ABS spread did NOT hit 250bps; it **TIGHTENED to +140bps** (EART 2026-3 Class D, settled ~Jun 24 `[CONF SEC FWP/IFR]`) vs +190 in Mar. Deal upsized to $1.2bn; Exeter earned 1st-ever AAA. **The "systemic subprime-ABS funding freeze" sub-thread is disconfirmed** — primary market open + tightening. Fraud-case leg (Tricolor/FBG) is idiosyncratic, not a broad-market repricing.
+> - **OTTO-28 FALSIFIED-on-window** — Ally Q2 prints Jul 21 (after Jun 30 resolve); Q1 had no Carvana break-out. And Ally credit is *improving* (retail NCO 1.97% −15bps YoY; 30+ DQ 4.60% −17bps YoY, 4th straight qtr) — prime/near-prime improving vs deep-subprime bleeding = Invisible-Exit-consistent bifurcation.
+> - **OTTO-32 HOLDS 85%** — Jun 12: UST convert-to-Ch.7 motion NOT granted; reformulated plan pays admin claims in full; **DS conditionally approved**; **confirmation moved to JUL 28** (new operative resolver). Plan still routes 111/112 debtors → Ch.7 — majority-Ch.7 branch on track inside Sep 30.
+> - **OTTO-04 nudged 75→68%** — spring tax-refund bounce softened the monthly Fitch series (recovery up to 37.48%); makes the ~24.3-24.5% Sep-30 projection less likely to cross 25%.
+> - **Carvana quiet** — CVNA $68.60 (+7% off $64 Jun 5) despite CFO insider selling; no new short report (Gotham's was Jan 28). The "Jun 12 Discovery Production 2" catalyst was a **phantom** (never independently confirmed — WINTERKORN was right); retired from docket.
+> - **Signal downgrade 🔴🔴 → 🔴/🟠 split:** fraud-pattern leg intact & grinding; systemic subprime-ABS-funding leg took two disconfirming hits. **⚠ Private-credit / BDC dashboard rows below are Feb–Apr stamped and were NOT refreshed this session — do not cite as current.** Docket swept + rebuilt; WINTERKORN weekly run due (Tue). — *Prior boot-pointer (Jun 9) below.*
+>
+> **Jun 9 session = thesis/ consolidation + WINTERKORN sub-agent (CLAUDE.md → v2.7):** new docket-steward sub-agent at `docket/WINTERKORN.md` + `docket/WINTERKORN_MEMORY.md` (FASTOW-pattern scoped owner of CATALYSTS.tsv; weekly Tue + T-3 pre-hearing cadence). Closes the Jun-17→Jun-12 date-keeping failure mode on cadence. **Jun 12 is the canonical first-spawn target** (First Brands UST hearing pre-fire verification). Earlier in same session — thesis/ consolidation (CLAUDE.md → v2.6): built `thesis/` subdir; new `thesis/THESIS.md` v1.0 (12-section canonical thesis — Primary Cockroach, Secondary Invisible Exit, Carvana sub-thesis carve-out, transmission chain, why-now timing claim, conviction decomposition, expanded risk matrix); moved `CHANGELOG.md` → `thesis/CHANGELOG.md` + `workbook/PREDICTIONS.tsv` → `thesis/PREDICTIONS.tsv` (scripts updated); new `thesis/PREDICTIONS_ARCHIVE.md` (5 resolved-row post-mortems + calibration scoreboard — knocks STALE_PUNCHLIST #4-5). STATUS § THESIS block now mirror-only (canonical → `thesis/THESIS.md`). **No domain-data refresh — dashboard metrics unchanged from Jun 8 sweep.** Prior context — **Jun 8 = boot+closeout infra maturation (v2.3):** boot kit added (`scripts/boot.py` + `docket/CATALYSTS.tsv` — boot steps 4-5 now script-driven, ~2s); closeout matured toward SAM/BRENT — STATUS line-cap+archive (this file 417→162 lines, Mar-May check-ins → `workbook/STATUS_archive_20260608.md`), new `CHANGELOG.md` thesis-pivot log, promotion-scan step, Git section fixed to pathspec. **No domain-data refresh this session — dashboard metrics still Feb-Apr stamped (stale; flagged for next session).** Prior context — **Jun 2 = protocol hardening (v2.1, Phases 1-3b):** new git-pull boot step 0 + past-due-catch calendar scan; closeout rewritten as write-back mirror of boot; new `## Evidence & Hygiene Conventions` (evidence-grade tags `[CONF]`/`[PRESS]`/`[ALLEG]`/`[EST]`, `[STALE]` marking, Doc Ownership table); live-state stripped from CLAUDE.md (STATUS is single source of truth). Cross-doc audit produced **`STALE_PUNCHLIST.md`** (9 items; TRADE.md is headline 3.5-mo rot — remediation DEFERRED). **First Brands sweep resolved the boot-flagged May 20/25/29 catalysts:** May 20 conditional-DS approval DENIED (admin-insolvency grounds, cuts toward thesis); 4 Evolution SPV debtors already Ch.7 (Apr 9); confirmation re-targeted **Jun 17**; OTTO-32 held 85%.
 
 ---
 
@@ -33,10 +41,10 @@
 | Case | Type | Live status |
 |------|------|------|
 | Tricolor | Double-pledging + skip | ~3% recovery; $113M gridlock; **Oct 19 trial** |
-| First Brands | Invoice fab + Ponzi | 4 Evolution SPV → Ch.7 (Apr 9); **Jun 12 UST hearing = OTTO-32 resolver** |
+| First Brands | Invoice fab + Ponzi | 4 Evolution SPV → Ch.7 (Apr 9); DS approved Jun 12 (no conversion); **Jul 28 confirmation = OTTO-32 resolver**; plan routes 111/112 → Ch.7 |
 | MFS (UK) | Double-pledging | CONFIRMED Feb 26 — Barclays + Atlas SP/Apollo £2B+ |
 | PrimaLend | BVY2 fraud | Plan confirmed Feb 2026 |
-| *Carvana (alleged)* | Related-party | **Jun 12 discovery prod 2**; CFO selling $19.5M/3mo |
+| *Carvana (alleged)* | Related-party | CVNA $68.60 (+7% off Jun 5); no new short report; CFO selling $19.5M/3mo; "Jun 12 prod 2" was phantom |
 
 ---
 
@@ -58,13 +66,14 @@
 | Blue Owl | $1.4B forced sale + OTIC permanently gated | 🔴🔴 |
 | JPM PC Markdowns | $22.2B exposure; 3-5% default spike forecast | 🔴🔴 |
 | Private Credit Sector | $265B market cap wipeout — "resembles bank run" | 🔴🔴 |
-| 60+ DQ Rate | **7.1% (Feb) — NEW RECORD** | 🔴🔴 |
-| Subprime ABS A-rated ~3yr spread | **+130bps direct print** (Exeter EART 2026-2 Class C, A/Aa3, priced Mar 20 `[CONF SEC FWP]`); generic +110bps Apr 23 (vs +80 Feb) | 🟠 |
-| Subprime ABS BBB spread | **+190bps direct print** (Exeter EART 2026-2 Class D, BBB/Baa3, priced Mar 20 `[CONF SEC FWP]`) — **below** prior ~200-235 extrapolation; OTTO-05 trigger 250bps Jun 30 needs +60bps in 3wk | 🟠 |
-| Subprime ABS issuance | **Below-IG IS clearing** — EART 2026-2 placed BB- (+380) + single-B (+320) Mar 20 `[CONF SEC FWP]`; Santander "hefty sub demand". *Corrects prior "IG-only" claim (Jun 8 refresh).* Spreads marginally widened on Iran arc then stable into early Jun | 🟢 reframed |
+| 60+ DQ Rate | **7.1% (Feb) — NEW RECORD**; spring Fitch series eased to ~6.1% on tax-refund seasonality `[PRESS]` — watch summer re-deterioration | 🟠 |
+| Subprime ABS BBB spread | **+140bps — TIGHTENED** (Exeter EART 2026-3 Class D, BBB/Baa3, settled ~Jun 24 `[CONF SEC FWP/IFR]`) vs +190 in Mar (EART 2026-2). Moved 50bps the WRONG way for OTTO-05 → **FALSIFIED** | 🟢 cooling |
+| Subprime ABS issuance | **Open + robust** — EART 2026-3 **upsized to $1.2bn** (WFS/Barclays/JPM, Jun 24); Exeter earned **1st-ever AAA** from S&P/Moody's; strong pace across Santander/Exeter/Westlake/Pagaya/CarMax. Below-IG clears. **"Systemic funding-freeze" sub-thread disconfirmed** | 🟢 |
+| Ally auto credit (Q1 2026) | retail NCO **1.97% (−15bps YoY)**; 30+ DQ **4.60% (−17bps YoY, 4th straight qtr improving)** — prime/near-prime improving while deep-subprime bleeds (bifurcation). Q2 prints Jul 21 | 🟢 |
+| CVNA price | **$68.60** (Jul 4, +7% off $64 Jun 5) despite CFO insider selling; no new short report since Gotham Jan 28 | 🟡 |
 | Fitch subprime ANL (Jan 2026) | **9.81% — post-pandemic high** (+30bp YoY) | 🔴 |
-| Recovery rate (YE2025) | **32.64%** (vs pre-pandemic 43.73%) | 🔴 |
-| 2022 vintage CNL realized | **22.42% Apr 15** → projects ~24.3-24.5% Sep 30 (vs 25% trigger) | 🟠 |
+| Recovery rate | **32.64% YE2025** (vs pre-pandemic 43.73%); Fitch monthly series bounced to **37.48%** on spring tax refunds `[PRESS]` | 🟠 |
+| 2022 vintage CNL realized | **22.42% Apr 15** → projects ~24.3-24.5% Sep 30 (vs 25% trigger); **OTTO-04 nudged 75→68%** on seasonal softening | 🟠 |
 | NFP | **-92,000 — FIRST NEGATIVE** | 🔴 |
 | CVNA Extension Rate | 5.41% (+45% spike) | 🔴 |
 | CFPB | **Functionally Dead** | 🔴 |
@@ -89,11 +98,11 @@ UK mortgage-finance. Barclays + Atlas SP (Apollo) = £2B+. Shortfall £1.3B ($1.
 ### Private Credit — 🔴🔴 SYSTEMIC
 9+ funds gating/restricting. BCRED, MS North Haven, BlackRock HPS, Cliffwater, Blue Owl. Fortune: "$265B meltdown." El-Erian: "2007-like." Economist: Dimon "cockroach" metaphor. Alt managers ~40% AUM from retail — retail wants out, can't get it.
 
-### Carvana
-Q4 EBITDA miss, GPU -$255 QoQ. **Stock ~$64 (post 5-for-1 split May 7-8), -15%/mo** `[PRESS Jun 5]` on **fresh CFO insider selling** (Form 144 Jun 1: Jenkins 63,750sh + 50k trust, ~$19.5M/3mo, zero buys); William Blair *added* CVNA to June conviction list (bull offset). **No short-seller report Mar 15–Jun 8** (Gotham/Hindenburg/MW silent). GCR FOIA report: DriveTime 20x-40x leverage, 73% adj EBITDA = related-party. Discovery: Mar 15 (done), **Jun 12 Production 2 (T-4, on track)**.
+### Carvana — 🟡 thesis patience (Jul 4)
+Q4 EBITDA miss, GPU -$255 QoQ. **Stock $68.60 (Jul 4) — +7% off the $64 Jun 5 low** despite continued CFO insider selling (Form 144 Jun 1: Jenkins ~$19.5M/3mo, zero buys); William Blair had *added* CVNA to June conviction list. **No new short-seller report through Jul 4** (Gotham's forensic report was Jan 28; Hindenburg/MW silent). GCR: DriveTime 20x-40x leverage, 73% adj EBITDA = related-party. **The "Jun 12 Discovery Production 2" catalyst was a phantom** — never independently confirmed from public sources (WINTERKORN correctly halted; catch-up searches found no such docket event). Separate DE Chancery Jun 16 dismissal was the *old 2020 direct-offering* case (SLC/Zapata), NOT the related-party/Bridgecrest thread `[PRESS, needs verify]`. Price strength + short-seller silence = re-entry NOT triggered; stay patient.
 
-### First Brands
-$12B debt (FT). DOJ indicted Patrick James (9 counts, life risk). Asset recovery <2%. $1.1B DIP loan nearly worthless. Auction end-March. Trial June 2026.
+### First Brands — Jun 12 DS approved → Jul 28 confirmation
+$12B debt. DOJ indicted Patrick James (9 counts). Asset recovery <2%. **Jun 12 hearing: UST convert-to-Ch.7 motion NOT granted** — debtors filed reformulated Joint Liquidating Plan paying admin claims IN FULL (addressed admin-insolvency basis), "won second chance." **DS conditionally approved Jun 12; voting record date Jun 15; confirmation hearing JUL 28 2026 9am CT (Lopez, SDTX Ct 401).** Plan still routes majority (111/112) debtors → Ch.7 + PMG litigation trust — OTTO-32 majority-Ch.7 branch on track inside Sep 30 `[CONF Bloomberg Law/TT/Octus]`.
 
 ---
 
@@ -124,10 +133,13 @@ $12B debt (FT). DOJ indicted Patrick James (9 counts, life risk). Asset recovery
 | **May 7** | PSEC declares $0.035 monthly div (down from $0.045) — Q3 FY26 earnings | ✅ |
 | **May 12** | NY Fed Q1 2026 HDC published — auto $1.685T, transition 2.97% flat | ✅ |
 | **May 14** | Trustee Rule 2004 motion vs ACV Capital LLC | 🟠 fraud surface expansion |
-| **Jun 12** | Carvana discovery production 2 | 🟠 T-4, on track |
-| **Jun 12** | First Brands: **UST convert-or-dismiss hearing (Judge Lopez, 10am CT, §1112(b))** — the OPERATIVE OTTO-32 resolver (corrected from Jun 17 per Jun 8 refresh) | 🔴 KEY `[CONF Law360/Octus]` — grant/convert = OTTO-32 confirmed early |
-| **Jun 17** | Tricolor §341 creditor meeting (continued) — trustee distribution-plan watch | 🔴 [CONF Verita Jun 9 via WINTERKORN]: §341 IS scheduled Jun 17 10am CT but **already noticed CONTINUED to Nov 11 2026** — meeting happens, distribution-plan filing slipping past it. $113M Wilmington/JPM/5-3/trustee gridlock unresolved. **OTTO-29 resolution-slip past Sep 30 now concrete** (was modeled-likely-slip) |
-| **Jun 17** | First Brands: plan-confirmation hearing — **CONTINGENT** on surviving the Jun 12 convert/dismiss hearing + a reset disclosure schedule (May 20 DS denied) | 🟠 contingent `[CONF]` |
+| **Jun 12** | Carvana discovery production 2 | ✅ **PHANTOM** — no such docket event independently confirmed (swept Jul 4); catalyst retired |
+| **Jun 12** | First Brands: UST convert-or-dismiss hearing (Judge Lopez, §1112(b)) — was OTTO-32 resolver | ✅ **RESOLVED (swept Jul 4)**: UST conversion NOT granted; reformulated plan pays admin claims in full; **DS conditionally approved**; confirmation → **Jul 28**. Pre-registered "deny+reset → confirmation survives" branch fired `[CONF Bloomberg Law/TT/Octus]` |
+| **Jun 17** | Tricolor §341 creditor meeting (continued) — trustee distribution-plan watch | ✅ **held + continued to Nov 11** (swept Jul 4); no distribution plan filed; $113M gridlock unresolved. OTTO-29 resolution-slip past Sep 30 confirmed |
+| **Jun 17** | First Brands: plan-confirmation hearing (contingent) | ✅ **SUPERSEDED → Jul 28** (swept Jul 4) — Jun 12 DS approval reset the confirmation to Jul 28 |
+| **Jun 30** | OTTO-05 + OTTO-28 prediction resolve | ✅ **BOTH FALSIFIED (swept Jul 4)** — OTTO-05: BBB spread tightened to +140bps (not >250); OTTO-28: Ally Q2 postdates resolve + no break-out |
+| **Jul 21** | Ally (ALLY) Q2 2026 earnings, 7:30am ET | 🟡 OTTO-28 postscript — Carvana-sourced-loan commentary + NCO/DQ bifurcation check |
+| **Jul 28** | **First Brands plan-confirmation hearing (Lopez, 9am CT, SDTX Ct 401)** — NEW operative OTTO-32 resolver | 🔴 KEY `[CONF Bloomberg Law/TT/Octus]` — plan confirmed = OTTO-32 CONFIRMED early (111/112 → Ch.7); delay past Sep 30 = window risk |
 | **Nov 11** | Tricolor §341 (continued) — next-canonical observation point after Jun 17 continuance | 🟠 [CONF Verita Jun 9 via WINTERKORN] — next forward-window check on distribution-plan / $113M dispute |
 | **Oct 19** | Tricolor executive trial (Judge Liman, SDNY) | 🟠 |
 
@@ -145,16 +157,18 @@ $12B debt (FT). DOJ indicted Patrick James (9 counts, life risk). Asset recovery
 | OTTO-29 | Tricolor ABS trustee distribution <15¢ | 🟢 Substance tracking CONFIRMED (auction ~3%, ABS <10¢); **resolution at Sep 30 RISK** — $113M dispute may push past resolve date |
 | OTTO-30 | 6th US bank discloses Tricolor exposure by Q2 | 🟠 OPEN — conf 65→45%. Q1 surface swept (HBAN/CFG/RF/Truist/etc clean). Origin Bancorp surfaces as known-unknown 6th name predating prediction window. Only Q2 earnings + MTB dollar update left. |
 | OTTO-31 | Wilmington Trust non-mortgage custodial exit by Dec 31 | 🟠 OPEN — **conf 60→30%**. Corporate-side EVIDENCE AGAINST (M&T anon source denial); only narrow Tricolor-specific resignation is corporate-confirmed. |
-| OTTO-04 | 2022 vintage CNL >25% by Sep 30 | 🟠 OPEN 75% — TRACKING. Apr 15 baseline 22.42% + ~40bp/mo on original → ~24.3-24.5% Sep 30. Striking distance but just below. |
-| OTTO-05 | Subprime BBB ABS spread >250bps by Jun 30 | 🟠 OPEN **conf 62→48%** — direct print EART 2026-2 Class D BBB **+190bps** (Mar 20 `[CONF SEC FWP]`) below prior extrapolation; needs +60bps in 3wk. "IG-only" structural claim **FALSIFIED** (below-IG clearing). |
-| OTTO-06, -07, -10, -11, -12, -28 | — | 6 OPEN (see TSV) |
+| OTTO-04 | 2022 vintage CNL >25% by Sep 30 | 🟠 OPEN **75→68%** — spring tax-refund bounce softened the burn (recovery to 37.48%); ~24.3-24.5% Sep 30 projection now less likely to cross 25%. |
+| OTTO-05 | Subprime BBB ABS spread >250bps by Jun 30 | ❌ **FALSIFIED (Jul 4)** — BBB **TIGHTENED to +140bps** (EART 2026-3, Jun 24) vs +190 Mar; deal upsized $1.2bn, 1st AAA. Spread moved OPPOSITE. Systemic-funding-freeze sub-thread disconfirmed. |
+| OTTO-28 | Ally discloses Carvana-specific DQ/NCO by Jun 30 | ❌ **FALSIFIED-on-window (Jul 4)** — Ally Q2 prints Jul 21 (post-resolve); Q1 no break-out. Ally credit improving (NCO −15bps, DQ −17bps YoY). |
+| OTTO-32 | First Brands majority Ch.7 by Sep 30 | 🟠 OPEN **85%** — Jun 12 DS approved (no conversion); confirmation **Jul 28**; plan routes 111/112 → Ch.7. |
+| OTTO-06, -07, -10, -11, -12 | — | 5 OPEN (see TSV) |
 
 ### Signal Triggers (not predictions — watched for cross-agent routing)
 
 | Trigger | Status |
 |---------|--------|
 | Carvana 10-K delayed or GT resigns | ❌ 10-K filed; no GT resignation |
-| First Brands converts to Ch. 7 | 🔴 **PARTIALLY DONE** — 4 Evolution SPV debtors already converted to Ch.7 (Apr 9 `[CONF]`); PMG plan routes all others to Ch.7; May 20 conditional-DS approval DENIED (admin-insolvency); **UST convert-or-dismiss hearing Jun 12 = operative resolver** (Jun 17 confirmation now contingent on it) |
+| First Brands converts to Ch. 7 | 🔴 **PARTIALLY DONE** — 4 Evolution SPV debtors already Ch.7 (Apr 9 `[CONF]`); **Jun 12 DS approved** (reformulated plan, full admin payment; UST conversion NOT granted); plan routes 111/112 → Ch.7; **confirmation Jul 28 = operative resolver** |
 
 ---
 
@@ -164,4 +178,4 @@ $12B debt (FT). DOJ indicted Patrick James (9 counts, life risk). Asset recovery
 - research/outputs/ — RP-OTT-1.1–4.1 (15 reports)
 
 *Mar 20 check-ins (FOMC, CVNA, fraud, ABS, CFPB) and prior condensed check-ins archived to `workbook/STATUS_archive_20260325.md`*
-*Next triggers: **Jun 12 First Brands UST convert-or-dismiss hearing (OPERATIVE OTTO-32 resolver)** + Carvana discovery production 2; Jun 17 First Brands confirmation (contingent on Jun 12) + Tricolor creditor meeting (likely slip); Jun 30 OTTO-05 (BBB ABS spread, conf→48%) + OTTO-28 (Ally/Carvana) resolve; Q2 bank earnings (Jul) for OTTO-30; Aug 31 OTTO-30 resolve; Sep 30 OTTO-04/29/32 resolve; Oct 19 Tricolor criminal trial*
+*Next triggers: **Jul 15 Q2 bank earnings open (JPM/WFC/C) — OTTO-30 forward-discovery** + Fitch Jun ABS print (OTTO-04); Jul 16 MTB Q2 (OTTO-31); Jul 21 Ally Q2 (OTTO-28 postscript); **Jul 28 First Brands plan-confirmation = OPERATIVE OTTO-32 resolver**; Aug 15 NY Fed Q2 HDC; Aug 31 OTTO-30 resolve; Sep 30 OTTO-04/29/32 resolve; Oct 19 Tricolor criminal trial; Nov 11 Tricolor §341 (continued)*

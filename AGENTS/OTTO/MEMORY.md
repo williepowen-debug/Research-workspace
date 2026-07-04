@@ -48,24 +48,26 @@
 
 ## Session Notes
 
-### CHANGES SINCE LAST SESSION (Jun 8 → Jun 9, 1-day gap)
-- No domain-event gap. Same-day continuation of Jun 8 infra work via Will-directed peer-parity audit.
+### CHANGES SINCE LAST SESSION (Jun 9 → Jul 4, 25-day dark gap)
+- **Major catch-up.** No OTTO session ran Jun 9 → Jul 4. A full fired-but-unswept catalyst cluster (Jun 12/15/17/30) resolved this session via primary-source web/EDGAR. WINTERKORN was NOT respawned post-Jun-12 (no session to do it). The 25-day gap is exactly the failure mode the WINTERKORN weekly cadence exists to prevent — the sub-agent only helps if OTTO actually spawns it.
 
-### LAST SESSION (Jun 9 — thesis/ consolidation + WINTERKORN sub-agent + WINTERKORN inaugural integration; CLAUDE.md v2.5 → v2.7)
-- **thesis/ consolidation (v2.6):** new `thesis/THESIS.md` v1.0 (12-section canonical thesis — Primary Cockroach + Secondary Invisible Exit + Carvana sub-thesis CARVED OUT + 7-stage transmission chain + why-now timing + decomposed conviction + expanded risk matrix); CHANGELOG + PREDICTIONS.tsv moved into thesis/; new `thesis/PREDICTIONS_ARCHIVE.md` (5 post-mortems + calibration scoreboard 5/5 substance, 4/5 substance+window); STATUS § THESIS now mirror-only. **Substantive thesis change: Carvana cockroach count = 4, not 5** (separate sub-thesis with LOWER conviction).
-- **WINTERKORN sub-agent (v2.7):** FASTOW-pattern docket steward at `docket/WINTERKORN.md` (spec) + `docket/WINTERKORN_MEMORY.md` (seeded). Auto-domain VW Dieselgate identity reference. Scoped owner of CATALYSTS.tsv + verifies forward dates against bankruptcy dockets / SEC EDGAR / rating agencies. Weekly Tue + T-3 pre-hearing cadence.
-- **WINTERKORN inaugural run (T-3 pre-Jun-12):** Pre-fire verification rule fired exactly as designed. **Caught Verita-noticed Tricolor §341 continuance to Nov 11 2026** — OTTO did not have it. OTTO-29 resolution-slip past Sep 30 escalated modeled-likely → concrete. 4 of 5 baseline-audit proposals accepted (Fitch ABS May/Jun, NY Fed Q2 HDC, Tricolor Nov 11); 1 deferred (rating-agency direct surveillance — Auto Finance News mirror covers). STATUS § CRITICAL TIMELINE + CATALYSTS.tsv updated. CALIBRATION seeded.
-- **3 CHANGELOG entries:** Carvana carve-out, Tricolor slip-concrete, WINTERKORN catch. **3 ML.tsv rows:** ML-175 (thesis/ build), ML-176 (WINTERKORN inaugural).
-- **Roadmap:** P2 #4-5 done (PREDICTIONS_ARCHIVE + calibration scoreboard); P3 #9 done (versioned THESIS); P3 #11 done (WINTERKORN sub-agent).
+### LAST SESSION (Jul 4 — 25-day catch-up sweep; 2 predictions FALSIFIED, signal downgraded)
+- **OTTO-05 FALSIFIED (the important one):** subprime BBB ABS spread did NOT hit 250bps — it **TIGHTENED to +140bps** (EART 2026-3 Class D, ~Jun 24 `[CONF SEC FWP/IFR]`) vs +190 Mar; deal upsized $1.2bn, Exeter 1st AAA. **Systemic subprime-ABS funding-freeze sub-thread disconfirmed.** Fraud-leg (Tricolor/FBG) is idiosyncratic, not broad repricing → signal downgraded 🔴🔴 → 🔴 fraud / 🟠 systemic. Logged as CHANGELOG pivot + auto-memory `[[finding_decouple_idiosyncratic_from_systemic_leg]]`.
+- **OTTO-28 FALSIFIED-on-window:** Ally Q2 prints Jul 21 (post-Jun-30 resolve); Ally credit improving (NCO/DQ down YoY, 4 straight qtr) = prime/subprime bifurcation.
+- **OTTO-32 HOLD 85%, resolver Jun 12/17 → Jul 28:** Jun 12 — UST conversion NOT granted; reformulated plan pays admin in full; DS conditionally approved; confirmation Jul 28. Plan routes 111/112 → Ch.7 `[CONF Bloomberg Law/TT/Octus]`.
+- **OTTO-04 nudged 75→68%:** spring tax-refund bounce (recovery 37.48% `[PRESS]`) softened the burn.
+- **Carvana:** CVNA $68.60 (+7% off Jun 5); no new short report (Gotham Jan 28 only). **"Jun 12 Discovery Production 2" was a phantom** — never confirmed, retired (WINTERKORN's halt-on-ambiguity vindicated).
+- **CATALYSTS.tsv rebuilt** — fixed a CRLF-merge corruption (Jun15/17 rows), pruned fired, added Jul 21 Ally + Jul 28 FB confirmation. **ML.tsv +177/-178/-179** (ML has pre-existing CRLF-merge corruption in old rows — repair-pending).
 
 ### NEXT SESSION
-> Top of `STALE_PUNCHLIST.md`. Two roadmap items knocked this session; remaining priorities:
-1. **Sweep Jun 12 outcomes** — First Brands UST §1112(b) (operative OTTO-32 resolver) AND second-chance DS vote (dual-headed per WINTERKORN finding); Carvana discovery production 2 (WINTERKORN-flagged PENDING: couldn't independently verify the date).
-2. **Spawn WINTERKORN post-Jun-12** — outcome sweep + prune Jun 12 rows + verify Jun 17 First Brands plan-confirmation contingency state. Re-verify Jun 17 Tricolor §341 actually held (vs further continued).
-3. **TRADE.md rehab (STALE_PUNCHLIST #1, roadmap #3)** — worst stale doc; pre-split CVNA strikes off 5×.
-4. **METSUKE-equivalent stale-doc flagger** — second sub-agent (future session). Closes TRADE.md / VX.tsv / RESEARCH_STATUS.md staleness loop.
-5. **DQ-series reconciliation** — OTTO's 7.1% vs Fitch 6.90% vs VX 6.80%; canonical series unclear.
-6. **OBK 10-Q + M&T Q2** (Jul 16, in CATALYSTS) — OTTO-30/31 watches.
+1. **Spawn WINTERKORN** (weekly Tue overdue + T-3 pre-Jul-28) — verify Jul 28 FB confirmation + Jul 15/16/21 earnings dates; sweep forward docket.
+2. **Update `thesis/THESIS.md` conviction-decomposition (Magnitude leg) + risk matrix** to encode the fraud-vs-systemic split (CHANGELOG logs the pivot; canonical doc not yet updated).
+3. **Jul 28 First Brands confirmation** = live OTTO-32 resolver (85%). Jul 15 Q2 bank earnings (OTTO-30 last forward-discovery shot). Jul 21 Ally Q2 (OTTO-28 postscript). Jul 16 MTB (OTTO-31).
+4. **Obtain direct Fitch May/Jun ABS print + 2022-vintage 10-D** (OTTO-04). **Repair ML.tsv CRLF-merge corruption.** Refresh stale private-credit/BDC dashboard rows.
+5. **TRADE.md rehab** (pre-split CVNA strikes); verify Jun 16 Carvana Chancery dismissal identity; DQ-series reconciliation (7.1% vs Fitch vs VX).
 
 ### PENDING PUSH
-- **Jun 9 work (3 commits across thesis/ v2.6 + WINTERKORN v2.7 + WINTERKORN inaugural + this closeout) committed LOCAL only.** Push is Will-coordinated; next window sweeps Jun 2 + Jun 8 + Jun 9 work (push-train pattern).
+- **Jun 2 + Jun 8 + Jun 9 + Jul 4 work all committed LOCAL only.** Push is Will-coordinated; next window sweeps all (push-train pattern).
+
+### FLEET-FLAG (surface to Will/PROME)
+- **Auto-memory index `~/.claude/.../memory/MEMORY.md` hit 195 lines** (approaching the ~200 read-limit; hook fired). Needs a compaction pass — but that means retiring ~55 cross-agent pointers, a fleet-owner (PROME) or Will-directed judgment call, NOT a silent OTTO side-effect. OTTO added its one pointer in-convention and flagged rather than pruned.
