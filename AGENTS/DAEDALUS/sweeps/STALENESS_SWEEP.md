@@ -30,11 +30,17 @@ Staleness is measured **vs each agent's own STATUS.md** (default 30d threshold).
 
 ### 3. Disposition & authority
 - **Detection is autonomous** (read-only). **All mutations are approval-gated** unless standing pre-approval exists (see below).
-- **Dormant freezes:** idle-verify (git log) → prepend banner → commit by pathspec (cross-agent edit under approval, per DAEDALUS AUTHORITY).
+- **Dormant freezes: STANDING PRE-APPROVED (Will, 2026-07-04) — autonomous under the gate below.** idle-verify (`git log`: no *self-authored* commits + STATUS older than cadence) → prepend a `FROZEN` banner → commit by pathspec → **log + report.** Ambiguous idle-verify → fall back to surface-for-approval (don't freeze on a maybe).
 - **Live/owner surfaces:** consolidate to one PROME rollout packet or per-owner task-packet (outbox-restraint — don't spray).
 - **New mechanism gaps** (a surface the script doesn't cover, a banner vocabulary it misses): patch `scripts/ledger_staleness.py` **additively/non-breaking** + validate the default mode is byte-identical for existing callers (PAT-035).
 
-> **Standing pre-approval (Will's call, once):** the **dormant-freeze** sub-class is low-risk + unambiguous (adding a "not maintained" banner to an idle-verified archive-source surface). If Will grants standing pre-approval, DAEDALUS may freeze dormant/idle-verified surfaces autonomously each sweep and just report; live-agent routing + mechanism patches always stay gated. **Current default: dormant freezes surface for approval each run** (as on 2026-07-04). ← *pending Will's standing-pre-approval decision.*
+> **Standing pre-approval — GRANTED 2026-07-04 (Will), tightly scoped.** DAEDALUS may **freeze dormant surfaces autonomously** each sweep and report, under ALL of:
+> - **(a) freeze-only** — prepend a "not maintained" banner; **never** delete or content-refresh.
+> - **(b) idle-verification passes** — the surface is script-flagged stale **AND** the agent has **zero *self-authored* commits** within the cadence window (WALTER/PROME routing commits do **not** count — check `git log` author + content) **AND** STATUS.md predates the cadence.
+> - **(c) always logged** in the Run Log + reported to Will each run.
+> - **(d) reversible** — it's a banner; removed on revival.
+>
+> **Everything else stays gated:** live-agent surfaces are **routed, never direct-edited**; `ledger_staleness.py` patches need approval. **If idle-verification is ambiguous, fall back to surface-for-approval — do not freeze on a maybe.** *(This pre-grant covers "permission" for the bounded class; the per-action idle guard still runs — PAT-036.)*
 
 ### 4. Record (close the loop)
 - Update `sweeps/REGISTRY.tsv` → `last_run` + `last_findings`.
