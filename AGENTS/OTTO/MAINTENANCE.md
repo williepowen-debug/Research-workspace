@@ -14,6 +14,23 @@ routine content edits. Archive to `archive/` if it grows past ~300 lines (SAM ca
 
 ---
 
+## 2026-07-04 — Closeout-maturity parity pass (Will-directed vs DAEDALUS exemplars)
+
+**Trigger:** Will asked to check OTTO's closeout condition/maturity vs more-developed agents. Compared against DAEDALUS `MATURITY_MAP.md` + `FLEET_MAP.tsv` + a step-by-step closeout extraction of REGINALD (L4)/LABOR/BROCK/CARL/SHADE/BRENT. Finding: OTTO's closeout **machinery is at/above parity** (only fleet agent with BOTH MAINTENANCE+CHANGELOG; full `boot.py`; WINTERKORN sub-agent = BRENT's FASTOW) — but OTTO sits at **mechanical L2, "Needs read"** while its structural twin BRENT read-verified L2→L4. Closed the three cheap conformance gaps.
+
+**What changed:**
+- **STATUS.md — added labeled `## BOTTOM LINE`** (DAEDALUS's #1 fleet conformance flag; was missing). Trailing synthesis: fraud-leg critical / systemic-funding-leg disconfirmed / next resolver Jul 28.
+- **`boot.py` — workbook staleness alert wired** (was `--trade`-only). Now runs `ledger_staleness.py OTTO --quiet` (workbook TSVs) + `--trade` under a "Workbook/Trade Staleness" step loop. Parity with REGINALD/BROCK/CARL/BRENT.
+- **Froze `workbook/VX.tsv` + `workbook/FLOW.tsv`** (FROZEN banners; no script parses either; VX→STATUS canonical, FLOW→thesis/THESIS.md canonical). Dropped the boot staleness alert from 5→3 stale ledgers.
+- **CLAUDE.md — new closeout step 7b: canonical↔mirror consistency check** (CATALYSTS↔TIMELINE, PREDICTIONS↔STATUS-block, THESIS↔mirror). CARL step-15 parity; encodes auto-memory `[[finding_doc_mirror_consistency_check]]` as a protocol step.
+- **DAEDALUS read requested** — `AGENTS/DAEDALUS/inbox/2026-07-04_from-OTTO_maturity-read-request.md` (judgment read + re-rate; flags the conv-matrix equivalent-titling question).
+
+**Files touched:** `STATUS.md`, `scripts/boot.py`, `workbook/VX.tsv` + `workbook/FLOW.tsv` (freeze banners), `CLAUDE.md` (step 7b), `MAINTENANCE.md` (this), + DAEDALUS inbox drop (untracked).
+
+**Boot-impact:** boot now surfaces workbook-ledger staleness every run (currently 3 stale: CROSS_AGENT_LOG/EXTENSION_PROXY/KB — a tracked freeze-or-refresh backlog). Closeout gains an explicit pre-commit mirror-consistency gate.
+
+**Lessons:** OTTO's *machinery* was already exemplar-tier; the gap was **conformance handles + a missing judgment read**, not substance — the same pattern DAEDALUS found on BRENT (L2→L4 under-rate). Wire the staleness alert AND freeze the proven-dead ledgers together, else the alert is noise. Remaining backlog: freeze-or-refresh CROSS_AGENT_LOG / EXTENSION_PROXY / KB with per-ledger judgment.
+
 ## 2026-07-04 — TRADE.md frozen + `--trade` staleness boot-line (PROME PAT-035)
 
 **Trigger:** PROME task-packet (Jul 4, MEDIUM) routing DAEDALUS's fleet TRADE-staleness sweep (PAT-035). DAEDALUS extended `scripts/ledger_staleness.py` to cover trade/position surfaces; the `--trade` scan flagged `OTTO/TRADE.md` at +138d stale with no banner — a Data Hygiene two-state-rule violation. Routed owner-decides rather than frozen unilaterally.

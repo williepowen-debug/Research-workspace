@@ -191,6 +191,14 @@ reconstructing how a view, or the architecture, evolved; NEXUS_BRIEF is read by 
    the `Recent thesis pivots` header line + `Cross-agent tensions` line current (`None active this
    cycle` if empty). No P/L or marks. *(OTTO is a **Tier-2 opt-in** — out of the locked-schema
    Tier-1 scope; NEXUS reads it for awareness but may also read STATUS directly.)*
+7b. **Consistency check — canonical ↔ mirror pairs** *(after all writes, before commit)* — verify each
+   doc-mirror pair agrees in **event/claim SET**, not merely freshness: **`docket/CATALYSTS.tsv` ↔ STATUS
+   CRITICAL TIMELINE** (same dated events), **`thesis/PREDICTIONS.tsv` ↔ STATUS § PREDICTIONS block**
+   (same OTTO-NN IDs + statuses), **`thesis/THESIS.md` conviction ↔ STATUS § THESIS mirror**. A canonical
+   change that didn't propagate to its mirror is the #1 silent-drift class (auto-memory
+   `[[finding_doc_mirror_consistency_check]]`). Reconcile before git — a mismatch caught here is free;
+   caught next boot it's a stale-intel incident. *(CARL step-15 parity; the boot/closeout-symmetric
+   agents encode this.)*
 8. **Git** *(mirror of boot 0)* — commit your files locally per the Git rules below; **push is
    Will-coordinated, not an automatic closeout step.** Note any pending push in MEMORY.md FOLLOW-UP.
 

@@ -1,3 +1,4 @@
+FROZEN 2026-07-04 — transmission-chain map; canonical 7-stage transmission chain now lives in thesis/THESIS.md; revise there, not here. Not maintained.
 ID	Entity	Trigger	Transmission	Endpoint	Agents_Affected	Status	Last_Validated
 FLOW-OTTO-001	Employment	Construction/Transportation job collapse accelerates	Vehicle-dependent workers lose income → 30-day miss (1mo) → 60-day DQ (3-4mo) → 90+ default (5-6mo) → Q1-Q2 2026 mass...	Employment-Auto Transmission	LABOR, CARL	ACTIVE	2026-02-04
 FLOW-OTTO-002	Fraud	Additional fraud discovered OR warehouse lines pulled	Liquidity squeeze on subprime lenders → Origination collapses → Consumer credit access declines → Can't refinance → D...	Consumer credit crunch	CARL	ACTIVE	2026-01-26

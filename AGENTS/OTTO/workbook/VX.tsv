@@ -1,3 +1,4 @@
+FROZEN 2026-07-04 — registry only (vector IDs / rungs / category are durable); Current_Value column stale-by-design, STATUS.md is canonical for live values; not maintained. Do not cite Current_Value as current.
 ID	Entity	Name	Category	Current_Value	Yellow	Orange	Red	Status	Confidence	Last_Updated	Notes
 VX-OTTO-001	ABS	2022 Vintage CNL	Performance	22.42% CNL at 31 months (worst performing); 6.80% 60+ DQ	20%	25%	30%	RED	90%	2026-02-04	S&P/Fitch
 VX-OTTO-002	ABS	Auto ABS Spreads	Market	BBB 180bps (+50bps post-Tricolor); BB 350bps+; Prime AAA tightening (38-45bps)	+50bps	+100bps	+200bps	ORANGE	80%	2026-02-04	Bloomberg/Banks

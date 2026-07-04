@@ -181,3 +181,9 @@ $12B debt. DOJ indicted Patrick James (9 counts). Asset recovery <2%. **Jun 12 h
 
 *Mar 20 check-ins (FOMC, CVNA, fraud, ABS, CFPB) and prior condensed check-ins archived to `workbook/STATUS_archive_20260325.md`*
 *Next triggers: **Jul 14 Q2 bank earnings open (JPM/WFC/C all Jul 14) — OTTO-30 forward-discovery**; Jul 15 Fitch Jun ABS print (OTTO-04) + MTB Q2 (OTTO-31); Jul 20 First Brands creditor-vote deadline; Jul 21 Ally Q2 (OTTO-28 postscript); **Jul 28 First Brands plan-confirmation = OPERATIVE OTTO-32 resolver**; Jul 29 Tricolor trial-scheduling hearing (Oct 19 vs Feb 2027); Aug 15 NY Fed Q2 HDC; Aug 31 OTTO-30 resolve; Sep 30 OTTO-04/29/32 resolve; Oct 19 Tricolor criminal trial (Castel); Nov 11 Tricolor §341 (continued)*
+
+---
+
+## BOTTOM LINE
+
+**Fraud-leg 🔴 CRITICAL and grinding to near-zero recovery** (Tricolor ~3%, First Brands → majority-Ch.7 confirmation Jul 28) — **but the systemic subprime-ABS funding-freeze thread is 🟠 DISCONFIRMED** this cycle: spreads *tightened* (BBB +140 vs +190 Mar), issuance is robust/upsized, Ally near-prime credit is improving. **Meter the two legs separately** — trade idiosyncratic fraud names on their own catalysts; do **not** position for a broad subprime-ABS repricing. Nearest hard resolver: **Jul 28 First Brands confirmation (OTTO-32, 85%)**. Watch the summer-re-deterioration tell (used-car values / recovery rate) into the Jul 15 Fitch + Jul 21 Ally prints.

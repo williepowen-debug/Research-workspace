@@ -114,13 +114,14 @@ def main():
         status = "OK" if rc in (0, 1) else "FAIL"
         results.append((label, status, elapsed))
 
-    # N. Trade-surface staleness (fleet enforcer, read-only alert; PROME PAT-035)
+    # N. Ledger staleness — workbook TSVs + trade surface (fleet enforcer, read-only alert; PROME PAT-035)
     if STALENESS.exists():
-        print(f"\n  ⏳ Trade Staleness...", flush=True)
-        rc, out, elapsed = run([str(VENV_PYTHON), str(STALENESS), "OTTO", "--trade", "--quiet"])
-        line = out.strip() or "✓ trade surface current or FROZEN"
-        print(f"    {line}")
-        results.append(("Trade Staleness", "OK" if rc == 0 else "FAIL", elapsed))
+        for slabel, sargs in [("Workbook", []), ("Trade", ["--trade"])]:
+            print(f"\n  ⏳ {slabel} Staleness...", flush=True)
+            rc, out, elapsed = run([str(VENV_PYTHON), str(STALENESS), "OTTO", "--quiet"] + sargs)
+            line = out.strip() or f"✓ {slabel.lower()} surface current or FROZEN"
+            print(f"    {line}")
+            results.append((f"{slabel} Staleness", "OK" if rc == 0 else "FAIL", elapsed))
 
     # Summary
     total = time.time() - start_time

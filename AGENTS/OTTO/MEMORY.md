@@ -65,6 +65,7 @@
 3. **Jul 28 First Brands confirmation** = live OTTO-32 resolver (85%). Jul 15 Q2 bank earnings (OTTO-30 last forward-discovery shot). Jul 21 Ally Q2 (OTTO-28 postscript). Jul 16 MTB (OTTO-31).
 4. **Obtain direct Fitch May/Jun ABS print + 2022-vintage 10-D** (OTTO-04). **Repair ML.tsv CRLF-merge corruption.** Refresh stale private-credit/BDC dashboard rows.
 5. ~~TRADE.md rehab~~ ✅ **FROZEN 2026-07-04** (PROME PAT-035; no active OTTO position, Feb-vintage/disconfirmed). Unfreeze only on a concrete OTTO auto trade. Remaining: verify Jun 16 Carvana Chancery dismissal identity; DQ-series reconciliation (7.1% vs Fitch vs VX).
+6. **Maturity parity (Will-directed 7/4):** closeout is exemplar-tier but OTTO sits mechanical-L2 "Needs read." **DAEDALUS judgment-read requested** (`AGENTS/DAEDALUS/inbox/2026-07-04_from-OTTO_maturity-read-request.md`) — BRENT precedent = likely L3-L4. **Workbook-staleness backlog now surfaced at boot: freeze-or-refresh CROSS_AGENT_LOG / EXTENSION_PROXY / KB** (VX+FLOW already frozen). Conv-matrix titling question deferred to DAEDALUS.
 
 ### PENDING PUSH
 - **Jun 2 + Jun 8 + Jun 9 + Jul 4 work all committed LOCAL only.** Push is Will-coordinated; next window sweeps all (push-train pattern).
