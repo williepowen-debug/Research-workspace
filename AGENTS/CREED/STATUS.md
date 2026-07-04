@@ -1,7 +1,7 @@
 # CREED STATUS
 
-**Updated:** 2026-06-28 15:xx ET (Tier-2 catch-up session; prior 2026-06-21 17:24 ET)
-**Status:** 🟡 MONITORING — base case *selective CRE recognition accelerating*; no CREED trigger fired 6/21→6/28
+**Updated:** 2026-07-04 (Tier-2 catch-up session, markets closed; prior 2026-06-28)
+**Status:** 🟡 MONITORING — base case *selective CRE recognition accelerating*, **FIRMED** (now printing realized losses + broadening into multifamily); no CREED trigger fired 6/28→7/4; convergence 18→**20/40 (moderate)**
 **Tier:** 2 (spawned-as-needed). This is a **catch-up, not a standing daily.** Do not spawn without explicit Will permission.
 **Owner:** CREED after boot; Prome owns future topology/migration decisions only with Will approval.
 
@@ -14,6 +14,38 @@ CREED is revived as the **national CRE / CMBS market-stress source pack and thes
 Current thesis:
 
 > CREED’s base case is **selective CRE recognition accelerating**, not broad CRE→bank cascade yet. CMBS is recognizing stress faster than banks; the edge is identifying when maturity-default/special-servicing stress crosses into bank provisions, reserve coverage, forced sales, or funding pressure.
+
+---
+
+## 2026-07-04 Catch-Up — Tier-2 spawn (markets closed, Sat holiday; NOT a standing daily)
+
+**Context:** Will spawned CREED for a 6/28→7/4 refresh. Weekend/holiday, markets closed — no live prices fabricated; figures carry as-of dates. **Thesis-state UNCHANGED** (base case *selective CRE recognition accelerating*, still pre-bank-transmission) but materially **FIRMED**. Convergence **18/40 → 20/40 (moderate)**; two sub-signal upgrades; **no CREED trigger (Signals 1–8) fired** — nothing crossed a hard trigger.
+
+### What moved — June Trepp print + a realized-recognition cluster
+- **June 2026 Trepp CMBS delinquency (NEW latest, verified aggregate):** overall **7.35%** (−20bps, *held down by a large lodging cure* −79bps to 5.22%); **office 11.57% (+4bps — ticked back UP)**; **multifamily 7.23% (+28bps — RESUMED rising, reversing the May cure)**; retail 6.91% (+30bps); industrial 1.20%. **Tell: including past-maturity loans still current on interest, the rate would be 9.53% — a NEW MULTI-YEAR HIGH.** The headline understates the maturity-default overhang. Top-5 new delinquencies ($998.9M of $2.64B): SoCal super-regional mall, NH regional mall, NY office complex, Minneapolis mixed-use tower, Manhattan multifamily. [connectcre / Yield PRO / Trepp, ~7/2] **June special-servicing print not yet published/indexed — owed; hold May office 16.75%.**
+- **Recognition is now printing as REALIZED losses, not just marks** — the core "selective recognition accelerating" claim getting concrete:
+  - **205 W Randolph (Chicago office)** liquidated at a **72% haircut = $12.2M realized CMBS loss** (COMM 2015-CR22). *Single-source (connectcre/Nightingale), unverified vs remit — corroborating color, not load-bearing; pull the servicer report only if it becomes pivotal.*
+  - **Bank OZK deed-in-lieu, Seattle U-District "Chapter Buildings"** (~394K SF office/life-science; the LOI-for-recap FAILED; ~**$126M** current OZK exposure — **NOT** the "$196M" in the post, which is the 2022 origination). **WALTER-CONFIRMED 0.85.** REGINALD owns as OZK-proxy (OZK Q2 earnings mid-late-July = provision-bump watch); CREED holds it as a marquee office/life-science deed-in-lieu comp.
+  - **Aon Center** (Chicago) −58% appraisal ($780M→$330.5M), 601W seeking another extension; **1 S Wacker / BXMT** $343M maturity default; **Galveston** $8.79/SF.
+- **Multifamily broadening — the new leg (S5 upgrade):** June MF delinq +28bps + a **Sun Belt 2022-vintage foreclosure cluster** — **S2 Capital $400M Fund I dissolved, "no return of capital" to LPs + $311M North Texas MF at foreclosure THIS MONTH** (WALTER-**CONFIRMED 0.88** vs The Real Deal; ~24% avg rent decline / ~50% interest-cost rise = the Sun Belt 2022-vintage signature); 75 West N.Dallas ($90M, Ares 2022 lender); Austin 526-unit ($61.1M-2024 → $9.5M opening bid); MF concessions **16.9%** (12-yr high, Class-C 21.5%/Sunbelt-led).
+- **Structural financing bifurcation (absorbs into base case, not a new trigger):** CRE pricing winners-vs-losers spread at a record (industrial +88.5% vs office +36.6% pre-pandemic; blended $129/SF median masks the office tail via survivorship); **CMBS/CDO/ABS book −$9.6B in Q1 while banks +$17.5B / agency +$12.8B / life +$3.3B** = "CMBS recognizing faster than banks" *as a financing flow*; CMBS defeasance a decade-low ($5.2B, only top assets transacting); Fitch downgraded 4 classes of GSMS 2017-GS6 (hotel/condo). Counter-leg: Blackstone refi'd the FLL W-Hotel ($115M, JPM) = trophy/cash-flowing quality still clears refi (FL → CORAL).
+
+### Signal re-scores (see THESIS convergence matrix)
+- **S5 Multifamily term-default broadening: 2 → 3** (June +28bps + Sun Belt cluster; still TX-concentrated, not yet "dominates outside NY/NJ/Houston").
+- **S6 Forced-sale / private-NAV recognition: 2 → 3** (now a CLUSTER of realized >30%-below-basis comps, no longer the single Galveston instance).
+- S1 office (11.57%, ticked up) and S2 maturity-default (9.53% maturity-adjusted = multi-year high) hold at 3, firmer. S3 bank-convergence holds at 2 (FDIC Q1 still counter-direction; Seattle OZK is one realized credit, not FDIC-level convergence). **Independence: S5 & S6 share the Sun-Belt-MF-cluster antecedent (count once); ~4–5 independent roots elevated, not 8.**
+
+### Inbox disposition — 15 WALTER signals (inbox/WALTER/) → consumed to inbox/WALTER/processed/
+All 15 ingested into the thesis above; git mv'd to `inbox/WALTER/processed/` (own-dir, per WALTER consume protocol). SIG-626-006 (Galveston) was already ingested 6/28 — consumed as dup. No re-delivery left live.
+
+### Routing — none written this session (deliberate)
+No CREED signal FIRED (all my Route-Matrix handoffs are fire-gated), and **WALTER already fanned each signal to its domain owner** via the BOARD `to:`/`info:` lists (REGINALD has Seattle OZK + 205 W Randolph + Galveston + S2 Capital bank-lender leg; BROCK has the S2 fund leg; CORAL has the FL W-Hotel/property-tax legs). Writing outboxes would duplicate WALTER's fan-out = outbox spam. **Watch-to-fire:** if S5 crosses ("term-defaults dominate outside NY/NJ/Houston") → CARL; if S3 fires (FDIC PDNA re-rising / OZK Q2 provision bump) → REGINALD urgent.
+
+### Monday/next-pull owed (weekend close)
+1. **June CMBS special-servicing** print (office SS >18% = S1 trigger; hold May 16.75% until published).
+2. Office-REIT tape Fri close: SLG / HIW / PDM / VNO / BXP (S8).
+3. Data-center REITs DLR / EQIX (M-09 AI↔CRE crossover).
+4. OZK Q2 earnings (mid-late July) — the Seattle deed-in-lieu provision read (REGINALD-led).
 
 ---
 
@@ -163,6 +195,6 @@ Do not start by copying the legacy CREED or REITS workbooks wholesale. Seed trac
 
 ## BOTTOM LINE
 
-**All-quiet on CRE substance — base case (*selective CRE recognition accelerating*) holds; no CREED trigger (Signals 1–8) fired 6/21→6/28.** The week's move was credit-beta + AI-positioning, not CRE recognition (convergence composite **18/40, low-moderate** — office-CMBS S1 the hottest at near-trigger). Carry forward: (1) the Galveston LGD comp — a single forced-sale point → REGINALD; watch for a *cluster*, not yet a discriminator; (2) the NEW data-center-CRE crossover (M-09) — currently a **strength** (hyperscaler capex rising), but an AI-capex shock would hit data-center demand AND the alt-mgr AI-credit book together. Monday data refresh owed (Trepp office CMBS / office-REIT tape / DLR-EQIX / gateway comps) before any level claim.
+**Base case (*selective CRE recognition accelerating*) holds and FIRMED; still no CREED trigger (Signals 1–8) fired 6/28→7/4.** Convergence **18 → 20/40 (moderate)** with two upgrades — **S5 Multifamily 2→3** (June MF delinq +28bps + a Sun Belt 2022-vintage foreclosure cluster) and **S6 Forced-sale 2→3** (now a cluster of realized >30%-below-basis comps, no longer the single Galveston point). The key shift: recognition is now printing as **realized losses** (205 W Randolph −72% closed CMBS loss; Bank OZK Seattle deed-in-lieu — CONFIRMED) and **broadening into multifamily** (S2 Capital $400M fund wiped out, "no return of capital" — CONFIRMED). June Trepp headline 7.35% is cure-flattered; **maturity-adjusted = 9.53%, a multi-year high.** Still **pre-bank-transmission** — S3 held at 2 (FDIC Q1 counter-direction; OZK is one realized credit). Discipline: anecdote cluster corroborates the verified June aggregate; S5/S6 share the Sun-Belt-MF antecedent (~4–5 independent roots, not 8). Owed: June CMBS special-servicing (office SS>18% = S1 trigger), office-REIT tape, OZK Q2 (mid-late July).
 
 *(Tier-2 spawn-on-need — updated when spawned. BOTTOM LINE handle relocated 2026-06-28 — DAEDALUS BATCH_01; the near-top "Bottom Line" was renamed "Thesis".)*
