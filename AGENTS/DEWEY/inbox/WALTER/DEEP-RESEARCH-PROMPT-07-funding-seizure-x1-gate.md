@@ -9,12 +9,14 @@ originating_evidence: "if dealer funding seizes first, the trigger never fires (
 clusters: credit-recognition X1 / private-credit stress / funding plumbing
 ledger_ref: AGENTS/WALTER/registry/DEEP_RESEARCH_FLAGGED_LOG.tsv (WALTER logs row at next boot, disposition QUEUED)
 run_order: 3 of 13
-deliver_by: ASAP — HY OAS ~275, 5bp under the >280 X1 line
+deliver_by: ASAP — HY tagged 280-283 (6/26-29) then RECEDED to 275 [7/2], X1 not sustained; the CoreWeave single-name slide (7/4) makes the "stress real, index doesn't print" scenario live
 ---
 
 # DEEP-RESEARCH PROMPT 07 — Funding-seizure pre-emption gate for the HY>280 X1 trigger
 
-**Decision question:** Is HY>280 X1 still a valid credit-recognition signal, or does the credit-bear entry need a calibrated funding-seizure pre-emption gate (dealers won't bid, trigger never prints) before sizing?
+> **★ 7/4 REVISION (PROME):** the "5bp-from-280, about to fire" urgency has softened — HY tagged 280-283 (6/26-29) then RECEDED to 275 [7/2], X1 not sustained. But the CORE question is MORE live, not less: the 7/4 CoreWeave junk-bond slide (single-name AI-credit stress while the HY *index* recedes) is exactly the "stress is real but the index-level trigger never prints" scenario this prompt probes. Keep the four-episode calibration as written; ADD to the closing judgment a single-name/sector-dispersion angle: can a name- or sector-level funding-or-credit seizure (à la CoreWeave) pre-empt or bypass the HY>280 index print, and should the X1 conjunction include a dispersion / single-name gate alongside the funding-seizure gate?
+
+**Decision question:** Is HY>280 X1 still a valid credit-recognition signal, or does the credit-bear entry need a calibrated funding-seizure (and/or single-name-dispersion) pre-emption gate — stress is real but the index never prints — before sizing?
 
 **Materiality gate:**
 - **(a) What a cheap verify can't answer:** the episode-level lead/lag calibration — which funding indicators broke before credit spreads, at what thresholds and lead times, with what false-positive rate. The in-repo Jan-26 SOFR research covers Sep-2019 mechanics + generic early-warning indicators only; no funding-vs-credit-spread lead/lag, no Mar-2020/UK-LDI/Mar-2023, no MMF/haircut/dealer-inventory calibration.

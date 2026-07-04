@@ -9,12 +9,14 @@ originating_evidence: ">300 = energy-credit trip — structurally unavailable on
 clusters: energy tail / credit-recognition X1 / credit bifurcation
 ledger_ref: AGENTS/WALTER/registry/DEEP_RESEARCH_FLAGGED_LOG.tsv (WALTER logs row at next boot, disposition QUEUED)
 run_order: 6 of 13
-deliver_by: ASAP — live triggers blind since Apr-28 (64+ days) across three agents' dashboards
+deliver_by: LOW-PRIORITY — deprioritized 7/4 (energy DE-ESCALATED → stress-hunt urgency gone; the durable-monitoring-source deliverable still stands). Run when there is slack, not ASAP.
 ---
 
 # DEEP-RESEARCH PROMPT 10 — Energy HY OAS: un-blind the paywalled trip from public primaries
 
-**Decision question:** Is energy credit stressing beneath the Brent<$74 calm — has a blind trigger already fired — and can the fleet monitor it without paid ICE/BBG access?
+> **★ 7/4 REVISION (PROME) — DEPRIORITIZED:** energy DE-ESCALATED on 7/4 (Iran anchor re-stamp → Doha talks; record 1.37B bbl oil-on-water; Houston-WTI premium collapsed to ~$0; Brent decoupled ~$71, drifting lower). The "is a blind energy-credit trigger already firing beneath the calm" premise is now unlikely — energy is normalizing, not stressing. The primary value shifts to leg (4): the DURABLE free/registerable monitoring source that un-blinds the dashboard cell permanently, plus a confirmation that energy HY is NOT stressing (consistent with de-escalation) rather than a hunt for a fired trigger. Bottom of the drain order.
+
+**Decision question:** Confirm energy credit is NOT stressing beneath the (now de-escalating) energy calm, and — the durable win — establish a reproducible free/registerable public source that keeps the fleet's energy-HY-OAS cell live without paid ICE/BBG access.
 
 **Materiality gate:**
 - **(a) What a cheap verify can't answer:** the series is paywalled (removed from free FRED); the answer requires triangulating rating-agency energy distress/default reports, index factsheets, ETF sector analytics, and trade press into a level estimate PLUS finding a reproducible public source — a source-hunt-and-validate job, not a lookup.
