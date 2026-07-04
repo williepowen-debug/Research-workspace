@@ -4,6 +4,16 @@
 
 ---
 
+### 2026-07-04 — `scripts/boot.py` v0.1 added (boot kit)
+- **Trigger:** Will parity build — mature agents (VIOLET/BRENT/SAM) each have a one-command `scripts/boot.py`; OZK had none (booted manually off shared `market.py`).
+- **What changed:** Created `scripts/` dir + `boot.py` v0.1 — self-contained (~150 lines): live prices via FORGE `fetch.py --json` (OZK + bank cohort, price-band + big-move flags), catalyst countdown (inlined list, trading-day counts, ⏰≤14d), standing-watch reminders (NCO kill-line / past-due / IQHQ reserve), inbox scan, STATUS/CALENDAR staleness. `--verbose` + `--horizon N` flags. Tested both modes clean.
+- **Boot-impact:** CLAUDE.md boot **step 5 rewired** market.py → boot.py (market.py retained as manual fallback); step 6 inbox now folded into boot.py output.
+- **Files touched:** `scripts/boot.py` (new), `CLAUDE.md` (boot step 5-6).
+- **Deliberately v0.1 (not full parity):** catalysts/thresholds are **inlined** (hand-synced to CALENDAR/STATUS), not read from a machine feed; no separate `catalyst_countdown.py`/`thresholds.py`/FDIC-EFR fetcher. Decomposition → DAEDALUS blueprint pass.
+- **Lessons:** reused FORGE `fetch.py --json` rather than reimplementing yfinance — one price source of truth, no drift.
+
+---
+
 ### 2026-07-04 — MAINTENANCE.md created + BOTTOM LINE added (parity pass)
 - **Trigger:** Will parity check vs L2 market-agents (VIOLET/BRENT/SAM) + DAEDALUS `market-agent.md` blueprint FLOOR. OZK was off the `MATURITY_MAP.md` (dormant during the 6/27 fleet scan).
 - **What changed:** (a) Created this `MAINTENANCE.md` (blueprint-required structural log — was missing). (b) Added a **BOTTOM LINE** section to the end of `STATUS.md` (blueprint FLOOR item — was missing).
