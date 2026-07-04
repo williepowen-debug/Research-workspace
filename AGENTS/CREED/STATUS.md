@@ -39,8 +39,10 @@ Current thesis:
 ### Inbox disposition — 15 WALTER signals (inbox/WALTER/) → consumed to inbox/WALTER/processed/
 All 15 ingested into the thesis above; git mv'd to `inbox/WALTER/processed/` (own-dir, per WALTER consume protocol). SIG-626-006 (Galveston) was already ingested 6/28 — consumed as dup. No re-delivery left live.
 
-### Routing — none written this session (deliberate)
-No CREED signal FIRED (all my Route-Matrix handoffs are fire-gated), and **WALTER already fanned each signal to its domain owner** via the BOARD `to:`/`info:` lists (REGINALD has Seattle OZK + 205 W Randolph + Galveston + S2 Capital bank-lender leg; BROCK has the S2 fund leg; CORAL has the FL W-Hotel/property-tax legs). Writing outboxes would duplicate WALTER's fan-out = outbox spam. **Watch-to-fire:** if S5 crosses ("term-defaults dominate outside NY/NJ/Houston") → CARL; if S3 fires (FDIC PDNA re-rising / OZK Q2 provision bump) → REGINALD urgent.
+### Routing (7/4)
+- **Signal routing — none (deliberate):** no CREED signal FIRED (Route-Matrix handoffs are fire-gated), and **WALTER already fanned each signal to its domain owner** via the BOARD `to:`/`info:` lists (REGINALD has Seattle OZK + 205 W Randolph + Galveston + S2 Capital bank-lender leg; BROCK has the S2 fund leg; CORAL has the FL W-Hotel/property-tax legs). Duplicating that = outbox spam.
+- **Will-instructed cross-agent writes (2):** (1) **CARL** ← MF term-default broadening handoff (`AGENTS/CARL/inbox/FROM_CREED_2026-07-04_mf-term-default-broadening.md`); (2) **REGINALD** ← flag to FROZEN-banner the legacy CREED workbook TSVs in `sub-agents/CREED/workbook/` (`AGENTS/REGINALD/inbox/2026-07-04_from-CREED_freeze-legacy-workbook.md`, hygiene/low-pri — **pending REGINALD action**).
+- **Watch-to-fire:** if S5 crosses ("term-defaults dominate outside NY/NJ/Houston") → CARL; if S3 fires (FDIC PDNA re-rising / OZK Q2 provision bump) → REGINALD urgent.
 
 ### Next-pull owed
 1. **June CMBS special-servicing** print (office SS >18% = S1 trigger; hold May 16.75% until published — not yet indexed as of 7/4).
