@@ -22,7 +22,7 @@ The primary-source pull turned a `[PRESS]`-grade, single-number OTTO-04 into a `
 ## WILL_NEEDS
 - **Decision:** does the OTTO-04 canonical measure move to the deep-subprime tranche? (Substance already confirmed >25%; blended-index metric is the technicality.)
 - **Jul 28 First Brands confirmation = live OTTO-32 resolver (85%).** Jul 14 Q2 banks (OTTO-30 last shot); ~Jul 15 Fitch Apr-data print; Jul 15 MTB (OTTO-31); Jul 21 Ally (OTTO-28 postscript).
-- Push pending: Jun 2 + Jun 8 + Jun 9 + Jul 4 s014 + s015 all committed local. Will present s015 — offered to push (else rides push-train).
+- Push: **only s015 (`cbba743e`) unpushed** (prior commits already on origin — the old "Jun 2/8/9 pending" note was stale). Will present — offered to push.
 
 ## FOLLOW-UP (priority queue)
 **P1:** Update thesis/THESIS.md conviction/risk-matrix — encode fraud-vs-systemic split + deep-vs-broad bifurcation; resolve the OTTO-04 canonical-measure question.

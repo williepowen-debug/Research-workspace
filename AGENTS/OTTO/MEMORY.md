@@ -65,7 +65,7 @@
 5. **Freeze-or-refresh CROSS_AGENT_LOG / EXTENSION_PROXY / KB** (boot workbook-staleness +80/+80/+101d). DAEDALUS maturity read still pending (inbox drop s014).
 
 ### PENDING PUSH
-- **Jun 2 + Jun 8 + Jun 9 + Jul 4 s014 + Jul 4 s015 all committed LOCAL.** OTTO CLAUDE.md = commit-local, push Will-coordinated. Will present s015 — offered push; else rides push-train.
+- **Only Jul 4 s015 (`cbba743e`) is unpushed** (verified `origin/master..HEAD` = 1). The carried-forward "Jun 2/8/9 + s014 pending" was STALE — those already rode a prior push-train to origin. OTTO CLAUDE.md = commit-local, push Will-coordinated. *(Lesson: verify `origin/master..HEAD` before carrying a pending-push claim forward — [[finding_verify_counts_before_propagating]].)*
 
 ### FLEET-FLAG (surface to Will/PROME)
 - **Auto-memory index ~195 lines** (approaching ~200 read-limit). Fleet-owner (PROME/Will) compaction call — retiring ~55 cross-agent pointers is judgment, not a silent OTTO prune. (Carried from s014.)
