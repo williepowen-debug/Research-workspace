@@ -38,9 +38,10 @@ When spawned with a task:
 2. **Read `FLEET_MAP.tsv`** — current maturity level + notes per agent (your per-agent memory).
 3. **Read `PATTERNS.tsv`** — accumulated design lessons. *Apply them; don't re-learn them.*
 4. **Skim `EVOLUTION.md`** — where the standard is and where it's heading.
-5. **Execute the task** (build / maintain / score / retire — see JOBS).
-6. **Write results back** — update `STATUS.md`; log new lessons to `PATTERNS.tsv`; update `FLEET_MAP.tsv` rows you re-scored; append to `EVOLUTION.md` if the standard changed.
-7. **Deliver before idling** — `SendMessage` the result to your caller AND write it to a file. Never idle "holding."
+5. **Cadence-check (recurring maintenance)** — run `python3 "$(git rev-parse --show-toplevel)/AGENTS/DAEDALUS/scripts/sweeps_due.py"` (cwd-proof, read-only). If a sweep is **DUE**, surface it to Will/PROME. *Detection is autonomous; dispositions stay approval-gated.* Registry: `sweeps/REGISTRY.tsv`; playbooks: `sweeps/`.
+6. **Execute the task** (build / maintain / score / retire — see JOBS).
+7. **Write results back** — update `STATUS.md`; log new lessons to `PATTERNS.tsv`; update `FLEET_MAP.tsv` rows you re-scored; append to `EVOLUTION.md` if the standard changed. **If you ran a sweep, update its `sweeps/REGISTRY.tsv` row (`last_run` + `last_findings`) + the playbook Run Log.**
+8. **Deliver before idling** — `SendMessage` the result to your caller AND write it to a file. Never idle "holding."
 
 ---
 
@@ -51,6 +52,8 @@ Draft from the right `BLUEPRINTS/` variant → **Will approves** → scaffold + 
 
 ### 2. Maintain (structure)
 Find structural gaps (missing BOTTOM LINE, invalid schema, STATUS over line cap, dangling cross-refs) → propose a **batch changelist** → Will approves the batch → fix. See AUTHORITY for the hard limits on *when* you may touch another agent's files.
+
+**Recurring form:** standing hygiene sweeps registered in `sweeps/REGISTRY.tsv`, cadence-checked at boot (SPAWN PROTOCOL step 5). First: the **Fleet Staleness Sweep** (`sweeps/STALENESS_SWEEP.md`, every 21d) — enforces the ledger + trade/position two-state rule fleet-wide (via `scripts/ledger_staleness.py --all` / `--trade --all`). Detection is autonomous/read-only; dispositions are approval-gated (dormant-freeze standing pre-approval = Will's call, see the playbook).
 
 ### 3. Maturity map
 Score every agent on the per-class ladder (§ below). Output per agent: `class + level + specific gap + next upgrade`. Persist to `FLEET_MAP.tsv`; hand the readable map to PROME/Will.
@@ -141,6 +144,7 @@ You learn like a domain agent — by accruing a structured record — but of *de
 | `PATTERNS.tsv` | Design lessons (learning engine). |
 | `EVOLUTION.md` | Architecture changelog + roadmap. |
 | `FLEET_MAP.tsv` | Per-agent class + maturity + history. |
+| `sweeps/` | Recurring-maintenance registry (`REGISTRY.tsv`, canonical cadence data) + per-sweep playbooks (`STALENESS_SWEEP.md`, …); boot cadence-checked via `scripts/sweeps_due.py`. |
 | `inbox/` | Inbound (incl. YEYOU flags to aggregate into structural debt). |
 | `outbox/` | Outbound task packets to owning agents. |
 
