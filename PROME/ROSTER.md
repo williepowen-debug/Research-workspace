@@ -47,7 +47,7 @@ Verified by recent commit cadence; each runs as its own Claude Code session.
 ## DORMANT — revive only on explicit need (4)
 | Agent | Domain | Why dormant |
 |---|---|---|
-| OZK | Bank OZK specialist | 0 commits/60d, cold since 4/24; revival-gated on Q2 print ~Jul-16 + live broker book |
+| OZK | Bank OZK specialist | 0 commits/60d, cold since 4/24; revival-gated on Q2 print **Jul-21** (confirmed 6/30; was mis-docketed ~Jul-16) + live broker book |
 | SENTRY | Cross-domain signal pipeline | CI pipeline live but human-idle since 6/02; STATUS frozen 5/09 (Will → dormant 6/27) |
 | BARON | Trump financial-policy network | dormant since 5/08 |
 | ZHAO | China macro | last real work pre-April; only triage-touched 6/26 |
