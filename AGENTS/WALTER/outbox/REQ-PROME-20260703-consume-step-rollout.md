@@ -1,6 +1,27 @@
 # REQ → PROME (route via Will): consume-step rollout to the 4 gap agents — B1/I3 merged, Path B
 
-**Date:** 2026-07-03 · **From:** WALTER · **Route:** Will → PROME → per-agent task-packet to **RED / CARL / REGINALD / SAM** · **Priority:** HIGH (fleet synthesis-loop gap open since ~6/17)
+**Date:** 2026-07-03 · **From:** WALTER · **Route:** Will → PROME → per-agent task-packet · **Priority:** HIGH (fleet synthesis-loop gap open since ~6/17)
+
+---
+
+## ✅ RECONCILED + REVISED ROUTE — 2026-07-04 (WALTER + PROME, Will-relayed)
+
+**The "4 gap agents / route to 4" framing below is SUPERSEDED.** Live-state reconciliation (WALTER 7/4) corrected it — the packet's counts predated their own resolution (the fleet **asymmetric-records** class again):
+
+- **RED — DONE, no route.** DAEDALUS installed the §8.1 step 7/3 (RED CLAUDE.md step 5.5; write-back `AGENTS/WALTER/inbox/2026-07-03_from-DAEDALUS_RED-consume-step-installed.md`). 98 staged / 0 processed = installed, drains on RED's next boot. Verified.
+- **The three remaining are NOT symmetric** — decision keys off whether each has a *complete* `/BOARD/` pull that already catches its ACTION items:
+  - **SAM → INSTALL the clean canonical §8.1 block** (no `/BOARD/` scan AND no lane = no structured intake at all; the lane is essential; no existing ledger to conflict). 18 handoffs.
+  - **REGINALD → KEEP the lane + INSTALL a drain-step** (adapted for its existing 11-col `board/BOARD_LOG.tsv`). Its `/BOARD/` scan is **tiered/selective (≠ complete)**; reconciliation found **1 un-dispositioned ACTION (SIG-W-20260704-004, the OZK deed-in-lieu)** → per the gate, do NOT silent-archive; the lane's not-missed guarantee has value (and is how OZK reaches it). 26 handoffs — do NOT bulk-archive.
+  - **CARL → DROP the lane** (bulk-archive its 40 + WALTER stops delivering). Runs a **complete whole-INDEX BOARD-diff** (dispositions every unrecorded SIG-W); reconciliation confirmed **all 22 ACTION handoffs already dispositioned in its `BOARD_LOG`** (0 misses) → the lane is redundant for CARL. Drop-safe.
+- **Mechanics correction:** the doctor's `delivered_but_unconsumed` keys off the **`git mv` to `processed/`**, NOT `board_log.tsv` (WALTER-verified: it globs `inbox/WALTER/*.md` excluding `processed/`). So the git-mv is load-bearing; the log is optional audit → the parallel-log worry is moot.
+
+**Division of labor (git-isolation-clean):**
+- **WALTER:** (a) reconciliation-confirm ✅ DONE (CARL clean / REGINALD 1-ACTION-flag) · (b) delivery-side pull-complete skip rule + doctor exemption for **CARL only** (BOARD_CONSUMPTION_SPEC + CHECKLIST) — ships on Will's go for the CARL-drop · (c) this REQ close + the I3 template-kill.
+- **PROME:** (1) route **SAM canonical** packet (unambiguous — green-lit) + a **REGINALD drain-step** packet · (2) **CARL-only** bulk-archive + commit (cross-dir write; after WALTER's skip-rule lands, so we don't archive-then-redeliver). Skip anything WALTER flagged (nothing for CARL; hold REGINALD's OZK item — it stays on the lane).
+
+*Below = the original 7/3 packet, retained for provenance; the route is now SAM-install / REGINALD-install / CARL-drop / RED-done.*
+
+---
 
 ## The problem (B1 = I3 — one bug, seen twice)
 
