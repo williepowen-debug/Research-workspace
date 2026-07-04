@@ -6,111 +6,69 @@
 
 ## STATUS
 
-**2026-07-03 (Fri — US MARKETS CLOSED, observed July-4 holiday; Will-Telegram boot → heavy design/architecture session).** Boot clean (doctor 0-HIGH; dark-cron MEDs muted this session → boot MED 4→1 = the real `delivered_but_unconsumed`). Corrected a boot error: 7/3 is the observed holiday → the 6c scan was Thu-7/2's close, no fresh Fri print (no auto-fire; repricing → Mon 7/6). **① Live 8-lane news sweep → 1 dispatch: SIG-703-001 weak 7/2 10Y JGB auction (MoF-verified) → SAM/BOND,RED (BOARD 433→434).** **② Iran double-verify + reconciliation → surfaced a father/son anchor gap (Ali Khamenei KIA war-day-1 Feb-28 per top-wire / Mojtaba Supreme Leader since ~Mar-9 / the "6/18 MOU" was Mojtaba / July 4-9 funeral); did NOT propagate the initial false framing; flagged to Will for the anchor re-stamp decision (PENDING).** **③ 6-lane arch/infra audit → ranked backlog folded into FOLLOW-UP below; Will's relevance-checks collapsed 3 "stalled" findings to stale-summary (bot-token handled 7/2 · auto-memory index already under cap · LIAISON archived-from-other-side) = the fleet "asymmetric-records-no-reconciliation" class-of-bug → auto-memory + DAEDALUS.** **④ Executed (Will "you can execute"):** doc-hygiene cluster · LIAISON manifest corrected (RED CONVERGED/DORMANT, REGINALD CLOSED) · **B1/I3 consume-step packet staged** (Will→PROME→RED/CARL/REGINALD/SAM) · **B4 SHIPPED** (`confidence_note` → FORMAT_SPEC v0.13 + CHECKLIST v0.23, Filter v2 COMPLETE, drift-green) · **B3 KILLED** (V0_9_STACK) · **I1 Scout RETIRED**. **6+ commits → safe-push at this closeout.** Tier-2.
-
-*(7/2 CHANGED/RESULT/GAPS below = prior session, superseded — retained for one-session provenance; the live carry-forward is the FOLLOW-UP + ARCH/INFRA BACKLOG sections.)*
+**2026-07-04 (Sat — US markets CLOSED, weekend + observed July-4 holiday; Will-Telegram boot → a big signal-clearout session).** Boot clean (doctor 0-HIGH; 1 known MED = `delivered_but_unconsumed`). **① Intake lane FIRST live news-feed route** (SIG-704-001 CoreWeave → LIQUID/HENRY; 1 kill; 3 held owner-ahead). **② Iran anchor RE-VERIFIED + RE-STAMPED** (Will-approved, 2 verify agents converged HIGH + BBC primary): kinetic 6/26-28 flare-up PEAKED → DE-ESCALATION (Doha talks; funeral 7/4-9 defers next round; oil decoupled ~$72) + **LEADERSHIP corrected** (Ali Khamenei KIA ~2/28 / Mojtaba son SL since ~3/9 / June MOU = Mojtaba + governance-uncertainty flag) → SIG-704-002 → HAWK/BRENT; anchor + history-banner + STATUS (4 blocks) reconciled. **③ Three 10-image Twitter batches:** batch-1 = 5 dispatch + 3 kill (4 verify agents all CONFIRMED); batch-2 = 10/10 dups; batch-3 = 9/10 dups + 1 net-new (China-Japan export controls → SAM). **BOARD 434→442; 8 dispatch / 4 kill / 4 verify-spawn; 5 commits all safe-pushed clean-ff; DAEDALUS ran concurrently (pathspec-scoped, untouched).** Tier-2 FULL closeout (Will-signaled).
 
 ## CHANGED (this session)
 
-**Batch 1 (2 route / 4 kill) — commit "route 6-image Will Twitter batch":**
-- **SIG-W-20260702-003 foreign-JGB-outflow 3-yr high (Barchart/MoF) → SAM PRIORITY (+BOND, RED).** Potential Ch1-re-add trigger — SAM holds the 16mo net-sell TREND but not this magnitude; its pre-registered "re-add only on a direct foreign-SALES print" is a candidate to clear. Cluster ASIA_CHINA.
-- **SIG-W-20260702-004 Ocean-City-MD "summer collapse / middle-class cooked" → CARL ROUTINE (+RED) as INOCULATION.** Verify-research **CORRECTED-FRAMING 0.72 — largely an artifact** (Boardwalk Rock festival CANCELED for 2026 + rainy Memorial-Day weather; %s from one unattributed aggregator). Routed so CARL does NOT bank it. counter_evidence + RED auto-cc. Cluster CONSUMER_STAGFLATION.
-- **4 kills, all stale-to-owner:** Hedgeye prime-age-participation + zerohedge negative-revisions (LABOR owns both from BLS primary, better-framed, its 7/2 12:35 STATUS); crack-spreads + Kemp-inventories (BRENT owns both AND reads them CONTRARY — cracks z-exhausted, wk-6/26 draws decelerating = first deficit-closing datapoint).
+**8 dispatches (SIG-704-001 → 008):**
+- **001 CoreWeave junk-bond slide** (Bloomberg 7/2, RESEARCH-INTAKE lane first news-feed route) → LIQUID/HENRY / RED. AI_INFRA_CAPEX; GROUNDED 0.70; credit-side repricing of the SIG-627-033 leverage leg.
+- **002 Iran anchor re-stamp** (de-escalation + Mojtaba leadership) → HAWK/BRENT / SAM,RED. IRAN_HORMUZ; CONFIRMED 0.85 (2 verify agents).
+- **003 record oil-on-water 1.37B + Houston-WTI premium collapse** (Karel Mercx) → BRENT / HAWK,RED. HYDROCARBON_INFRA; GROUNDED 0.80; pairs the Iran de-escalation.
+- **004 🔴 Bank OZK Seattle deed-in-lieu** (U-District Chapter Bldgs, ~394K SF) → REGINALD / CREED,RED. BANK_COLLATERAL; CONFIRMED-w/-CORRECTED-FRAMING 0.85 (the "$196M" = 2022 origination; current exposure ~$126M; the LOI-for-recap credits REALIZED).
+- **005 🔴 S2 Capital $400M multifamily fund dissolved** ("no return of capital" + $311M N.Texas foreclosure) → BROCK/CREED / REGINALD,RED. BANK_COLLATERAL/PC_STRESS; CONFIRMED 0.88 (Benefit Street Partners = the PC lender).
+- **006 US construction hiring rate 3.5% series-record-low** (Kobeissi) → LABOR / CARL,CORAL,RED. CONSUMER_STAGFLATION; CONFIRMED-w/-CORRECTED-FRAMING 0.85 (−0.9 not −1.1pp; ties Feb-26; openings-up composition-counter).
+- **007 PJM EEA2 grid emergency** → AEOLUS/HENRY / RED. CLIMATE_MACRO/AI_INFRA_CAPEX; CONFIRMED 0.85 (heat=trigger, AI/data-center=structural amplifier; DOE 202c data-center-curtailment precedent).
+- **008 🆕 China export controls on 20 Japanese entities** (incl. Natl Institute for Defense Studies) + dual-use ban → SAM / RED. ASIA_CHINA; SKIP-VERIFY 0.70; fresh First-Squawk breaking; ZHAO-dormant → SAM backup.
 
-**Batch 2 (5 route / 1 kill) — commit "route 2nd 6-image Will Twitter batch":**
-- **SIG-005 Cushing "tank-bottoms forced refill" (JustDario) → BRENT PRIORITY cluster_mediating (+HAWK,RED).** Counter-read to BRENT's "reopening barrels" — same +0.71M build, bear mechanic (forced operational-minimum refill at the sub-20M floor). Precision overlay: PADD2 BUILT +0.8M driven by Cushing, so "all PADDs drew" imprecise. Cluster IRAN_HORMUZ (anchor 7/2-fresh, guard satisfied).
-- **SIG-006 ICE negative-equity by vintage thru May-26 (ResiClub/Lambert) → CORAL ROUTINE (+CARL,REGINALD,RED).** Refresh Cape Coral 10.1%→11.1% (2nd source vs Parcl) + TX Sun Belt (San Antonio 7.7%/Austin 6.6%) + national 1.5% baseline. Cluster BANK_COLLATERAL / sec CONSUMER_STAGFLATION.
-- **SIG-007 KOSPI fresh new low + KORU −30% → HENRY/SAM PRIORITY (+VIOLET,RED).** Verify **CONFIRMED 0.90 — FRESH** genuine 7/2 new low (7,934 close −4.45% / 7,758 intraday, below the 6/26 8,198 halt), NOT a re-post; KORU −30% US-retail ETF wipeout; driver AI/semi unwind. Pressures HENRY's "contained-rotation won" read. Cluster ASIA_CHINA / sec POSITIONING_VALUATION; cluster_mediating.
-- **SIG-008 heavy-truck-sales recession lead → HENRY ROUTINE (+CARL,RED).** Framing-caveated: real rollover off the 2022 peak but ~0.30M near long-run AVERAGE, not a recession-trough — "collapsed" overstates. Cluster CONSUMER_STAGFLATION.
-- **SIG-009 leveraged-fund SOFR-futures short RECORD $700B (Barchart/CFTC) → LIQUID PRIORITY (+BOND,HENRY,RED).** Net-new systemic-leverage extreme in LIQUID's basis-trade lane. Cluster FED_FRAMEWORK.
-- **1 kill:** 2nd WTI-vs-321-crack chart (dup of batch-1, BRENT owns + z-exhausted read).
-
-**Batch 3 (2 route / 6 kill) — commit "route 3rd 8-image Will Twitter batch":**
-- **SIG-010 CFSv2 Nov Niño-3.4 +4.01°C ("first through 4°C", Jacobson) → AEOLUS ROUTINE (+RED).** Routed as the warm upper-TAIL, NOT a point forecast (single dynamical model ~5mo lead + documented warm bias; +4°C ≈1.5× strongest El Niño ever; poster's own y-axis-alert). Cluster CLIMATE_MACRO.
-- **SIG-011 no-August-Brent-cargoes ("a first for the benchmark", Staunovo/Reuters) → BRENT ROUTINE (+HAWK,RED).** Net-new structural datapoint on the physical Brent basket (maintenance vs tightness). Cluster IRAN_HORMUZ.
-- **6 kills:** gold dips-before-crash advocacy; API-6/30 (superseded by EIA wk-6/26 BRENT holds); 2 images of the same immaterial $7.5M SEC/Merrill SAR fine (Relevance); 2 HFI crack-disconnect images (BRENT owns two-sided; 3rd/4th crack tonight).
-
-**Batch 4 (4 route / 5 kill) — commit "route final 9-image Will Twitter batch":**
-- **SIG-012 tariff front-loading (Reuters via @rdd147) → CARL ROUTINE (+HENRY,MARCO,RED).** Retailers pulling China holiday orders forward 4-6wk ahead of expected tariffs; Roger's "inside news Trump planning hikes" speculation stripped. Two-sided (forward-CPI + Q4 pull-forward air-pocket). Cluster INFLATION_TRANSMISSION.
-- **SIG-013 CBs plan to cut USD exposure "first in 3 years" (Bloomberg) → BOND PRIORITY (+LIQUID,RED).** Net-new forward-intention reserve-manager survey (likely OMFIF); firms UST-foreign-demand-erosion. Cluster FED_FRAMEWORK.
-- **SIG-014 Hormuz "4 tankers exit per 1 enter, far below pre-war" (Matt Reed/Reuters) → HAWK/BRENT PRIORITY (+SAM,RED).** Reuters-sourced net-flow-DIRECTION corroborating the DEWEY scorecard (0/4, degraded) — routed as direction, not a hard level. Cluster IRAN_HORMUZ (anchor 7/2-fresh).
-- **SIG-015 PC-into-BNPL Blue Owl/KKR (Bloomberg Big Take) → BROCK ROUTINE (+CARL,RED).** Net-new PC vector (PC funds taking consumer-credit risk via BNPL). Cluster PC_STRESS.
-- **5 kills:** CC-DQ 13.1% (CARL holds w/ NY Fed context); Egan-Jones/insurer post (SHADE at docket depth + Moody's $807B nexus); USD/JPY 40yr-low (SAM); JustDario JPY-oil-snapback (TA); 1 off-topic personal image (cannabis/sperm ChatGPT — flagged Will as likely accidental).
-
-**Closeout:** STATUS (lead + BOARD count + all live-level blocks + push-state + SESSION-LOG row), SESSION_LOG breadcrumb, this file.
+**4 genuine kills:** stale-Feb bank-failure recirculation (intake) · NFP two-month revisions (LABOR owns) · Gordon-Johnson Fed-MBS opinion (no datum) · LFPR 61.5% (LABOR/MARCO own).
+**2 re-send batches:** batch-2 (10/10 dups of the 7/2 backlog) + batch-3 (9/10 dups) → 2 consolidated kill_log dedup rows, 0 dispatch.
 
 ## RESULT
 
-13 dispatched / 16 killed / 2 verify-spawns (OC-Maryland CORRECTED-FRAMING · KOSPI CONFIRMED). BOARD reconciles at **430** (ToC = sections = files = TOTAL); route_log +13 / delivery_log +42 / kill_log +16 / 42 per-recipient handoffs. **No spec-version bumps.** **The filter did real work:** batch 1 was 4/6 stale-to-owner (2 read contrary by BRENT); batch 2 was mostly net-new. Two verify-spawns each flipped a disposition (OC = a false-corroborator inoculation; KOSPI = confirmed-fresh not a re-post).
+8 dispatched / 4 killed / 4 verify-spawns (2 Iran [kinetic + leadership] + 2 batch-1 [CRE + macro/energy], all CONFIRMED) + 19 re-send dups dedup'd across batches 2-3. **BOARD reconciles at 442** (ToC = sections = files = TOTAL); route_log +8 / delivery_log +23 / kill_log +6 / 23 per-recipient handoffs. **No spec-version bumps.** The 4 batch-1 verify agents each materially sharpened a dispatch (OZK origination-vs-current; construction −0.9-not-−1.1 + openings-up; PJM heat-not-AI; S2 clean-confirm). **5 commits, all safe-pushed clean-ff, local = origin.**
 
 ## GAPS
 
-- **🟢 PUSH RESOLVED (was deferred mid-session) — but the concurrent-session event is the real carry-forward.** 2+ other Claude sessions ran (pts/4 @21:07, pts/6 @21:17) and wrote MARCO (session-16, June-jobs catch-up + SDL-01 re-mark + thesis v2.6) + CRUISE, both initially **uncommitted** — serial-single-machine VIOLATED. I committed my 2 routing batches pathspec-scoped (never touched MARCO/CRUISE) and deferred. Then: the concurrent sessions' push-train swept my batch-1+2 to origin, they committed their own dirs (tree cleared), and I safe-pushed the closeout `f3aa9e67` clean-ff. **All WALTER work on origin; local = origin; tree clean.** MARCO/CRUISE committed their own work. **The open item is the policy Q (below), not a pending push.**
-- **42 handoffs await consume** (across batches 1-4, to CARL/HENRY/MARCO/BOND/LIQUID/HAWK/BRENT/SAM/BROCK/CORAL/REGINALD/VIOLET/AEOLUS/RED). Delivery ≠ consumption.
-- **STATUS boot#2/#3-spine trim** still owed (the older 6/28 lead paragraphs demoted to `>` spine). Carried.
+- **23 handoffs await consume** (today's dispatches, across LIQUID/HENRY/HAWK/BRENT/SAM/REGINALD/CREED/BROCK/LABOR/CARL/CORAL/AEOLUS/RED). Delivery ≠ consumption.
+- **DAEDALUS ran concurrently** all session (its STATUS modified in-tree) — every WALTER commit was pathspec-scoped to WALTER/BOARD/delivery-zone, DAEDALUS untouched. Same-machine concurrency is the supported model (do NOT re-flag as a tripwire).
+- **History-migration** of the superseded 6/28 live-anchor block → IRAN_WAR_HISTORY.md still owed (left in the live anchor marked SUPERSEDED; next hygiene pass).
 
 ## WILL_NEEDS
 
-1. **✅ Concurrent-session Q RESOLVED** — Will confirmed CRUISE/MARCO/WALTER concurrent on one machine is intended; the push-chain worked (all committed own-dir pathspec-clean, all on origin, clean fast-forwards). No action needed — the earlier "heads-up" was an over-flag.
-2. Nothing blocking — the two batches are fully routed, archived, and pushed.
+1. **Consume-step packet** (`REQ-PROME-20260703-consume-step-rollout.md`) — staged 7/3, still awaiting your route to PROME. It's what clears the 64 unconsumed ACTION handoffs (CARL/REGINALD/SAM/RED lack the consume boot-step). The ONE standing ask.
+2. Nothing else blocking — all 8 dispatches routed, archived, delivered, pushed.
 
 ## FOLLOW-UP (canonical running list — survives handoff via this file)
 
-**🔴🕕 Live / time-sensitive:**
-1. **PUSH RESOLVED** — all WALTER commits (routing + closeout) on origin, local = origin. The live carry-forward is the **concurrent-session policy Q** (OPEN DESIGN DECISIONS), not a pending push.
-2. **✅ RESOLVED 7/4 (Will-directed) — Iran anchor RE-VERIFIED + RE-STAMPED.** 2 parallel WALTER verify agents (kinetic + leadership lenses) converged HIGH + cross-corroborated (Agent B located the exact BBC primary). Outcome: **(a) kinetic** — the 6/26-28 re-escalation flare-up PEAKED then REVERSED → de-escalation (6/28 halt-strikes → 7/2 Doha talks "positive progress" Qatar+Pakistan; MOU re-stabilizing NOT collapsing; funeral 7/4-9 defers next round; no new kinetic 6/29-7/4; oil decoupled ~$72; Hormuz 0/4 but physical Saudi ~90% pre-war; structural frame HOLDS); **(b) leadership re-stamp** — Ali Khamenei KIA ~2/28 / Mojtaba (son) SL since ~3/9 / June Islamabad Memorandum authorized by Mojtaba not Ali / 🚩 governance-uncertainty flag (Mojtaba unseen in public). Anchor + history-correction-banner + re-verify-ladder refreshed; dispatched **SIG-704-002 → HAWK/BRENT / SAM,RED**; STATUS Iran state reconciled across all 4 blocks. **New re-verify gates:** post-funeral Doha round outcome · Mojtaba succession-instability/public-reemergence · MOU formal collapse · visible kinetic change · 7d min · Iran-cluster pre-dispatch. **Owed (deferred):** history-migration of the superseded 6/28 live-anchor block → IRAN_WAR_HISTORY.md (next hygiene pass).
-3. **11 more DEWEY Batch-2 reports landing 7/2→7/22** — route each at boot step 7d as it lands, close its QUEUED ledger row. Next ASAP: prompt 07 (funding-seizure X1) + 10 (energy-HY-OAS); 08 JGB by ~7/6 (SIG-007/-003 are timely inputs); 09 UST by ~7/7.
-4. Brent <75 sustain-watch (RED-FT-04, BRENT-owned). HY 274 → next UPSIDE fire RED-FT-02 (>320).
+**🟢 RESOLVED this session:**
+- **Iran anchor re-verify + RE-STAMP** (the 7/3-flagged father/son decision + the due 7d re-verify) — DONE, Will-approved. Anchor now 7/4-fresh.
+- Intake-lane first live news-feed route proven (gate 5→1 discipline).
+- 8 dispatches (incl. 2 marquee CRE: OZK deed-in-lieu + S2 Capital) + 4 verify agents.
 
-**🟢 RESOLVED this session:** two 6-image Twitter batches routed (7 dispatch / 5 kill); OC-Maryland verify (CORRECTED-FRAMING, inoculated CARL); KOSPI verify (CONFIRMED fresh); Cushing counter-read surfaced to BRENT; SIG-006 refreshed CORAL's Cape Coral figure.
+**🔴🕕 Live / pending callbacks (today's handoffs await consume):**
+1. **REGINALD** — OZK deed-in-lieu: update the OZK tracker U-District line → realized deed-in-lieu; loss-severity / Q2-provision read (OZK Q2 earnings mid-late July). Route with ~$126M current exposure (NOT the $196M origination).
+2. **BROCK/CREED** — S2 Capital $400M fund + $311M N.Texas foreclosure (Benefit Street = PC leg).
+3. **SAM** — China-Japan export controls: MONITOR for escalation to rare-earths/semis = the ZHAO-spawn trigger + a real catalyst; confirm vs MOFCOM.
+4. **BRENT** (oil-on-water + Iran de-escalation) · **LABOR** (construction) · **AEOLUS/HENRY** (PJM) · **HAWK/BRENT** (Iran re-stamp re-mark — HAWK marks 6/26 pre-date both the flare-up + de-escalation).
+5. **Iran next re-verify gates:** post-funeral Doha outcome / Mojtaba succession-instability-or-public-reemergence / MOU collapse / kinetic change / 7d min (~7/11) / Iran-cluster pre-dispatch.
 
-**✅ Tier-2 debt CLEARED this closeout (Will-directed):** 10-row registry_lag refresh (all from live STATUS; VIOLET upgraded YELLOW→ORANGE) · NETWORK-AWARENESS regen (both blocks) · staleness-sweep (`STALENESS_SWEEP_2026-07-02.tsv` — 100/430 cadence run, blanket section-preamble + date-discount backstop disposition, full per-signal tagging deferred as disproportionate for a cadence run; overdue flag cleared). **Still carried (optional):** STATUS boot#2/#3-spine trim · a BOOT_PROTOCOL §7e rationale section.
+**🟠 Held for Will / carried:** consume-step packet → PROME (WILL_NEEDS #1) · FILTER v3 review due (442 dispatches) · DAEDALUS asymmetric-records handoff (`[[finding_asymmetric_records_need_reconciliation]]`) · 11 DEWEY Batch-2 reports landing 7/2→7/22 · OZK Q1 (REGINALD pickup, longest-stale Tier-1) · history-migration of the 6/28 anchor block.
 
-**🟠 Cross-agent / LIAISON — corrected 7/3:** RED **CONVERGED/DORMANT** (Turn-7 substance shipped into CHECKLIST v0.12; only a low-pri calibration-retro remains) · REGINALD **CLOSED** (archived from their side) · CARL DORMANT · BRENT CLOSED. EVENT_WINDOW CLOSED (1/3 Path B). *(All LIAISON channels now dormant/closed — no live cross-agent architectural threads.)*
+**Live-watch:** VIX 15.81 at the <16 RED-FT-06 line (sustain 1/5; markets reopen Mon 7/6) · Brent <75 sustain (BRENT-owned) · HY 275 → next UP-fire RED-FT-02/REG-T-03 >320.
 
-**🟠 Carried (autonomous-available):** consume-boot-step for the CC self-apply set (CARL/REGINALD/SAM/RED) · CLIMATE_MACRO sustain-vs-fold watch · auto-memory index trim (then promote the [7/2] intake-wiring + batch findings).
+## OPEN DESIGN DECISIONS (need Will) — ARCH/INFRA BACKLOG (carried from the 7/3 audit; condensed)
 
-## OPEN DESIGN DECISIONS (need Will)
+**🔴 STALLED — needs Will / a cross-agent push:**
+- **B1. Delivery consume-step backlog** — 64 ACTION handoffs delivered-but-unconsumed, concentrated in CARL/REGINALD/SAM/RED (lack the §8.1 consume boot-step). The staged packet (WILL_NEEDS #1) fixes it. **Highest impact.**
+- **B5. Scheduled-scan workflow** — Will-approved infra (~$0.70-1.10/wk), un-built; double-blocked on undelivered CARL+BRENT DATA_RELEASE_CALENDAR.md + recurring-budget sign-off.
+- **FILTER v3 review** — now DUE (trigger ~May-20 / 50-dispatch; now at 442). Filter v2 COMPLETE (Segment D `confidence_note` shipped 7/3).
 
-**✅ RESOLVED (Will, 7/2 PM):** **Concurrent-session policy** — Will confirmed running CRUISE/MARCO/WALTER concurrently on ONE machine (shared repo, push-chaining) IS the intended, supported model — NOT the forbidden "two machines at once." Commit-scope audit confirmed all agents committed own-dir-only + pathspec-clean, with clean fast-forwards (MARCO→MARCO 20f / CRUISE→CRUISE 8f / WALTER→WALTER+BOARD+delivery). My mid-session push-defer was over-cautious (conflated one-machine-concurrent with two-machines-diverging). **Lesson: don't re-flag same-machine concurrency; the real guard is pathspec-commit, never `git add -A`.** (Encoded in MEMORY for future-WALTER.)
+**🟠 INFRA planned-but-unbuilt:** I2 walter_doctor cron_liveness false-MED (now muted at boot) · I3 SIGNAL_INTAKE per-agent rollout (frozen, likely superseded by delivery lane) · I4 CROSS_REFS identifier cache (RED+REGINALD only, stale) · I5 dead `/home/moltbot` paths (INFRA/PROME scope).
 
-**🟦 Parked (carried) — now consolidated into the ARCH/INFRA BACKLOG below (2026-07-03 audit):** RED auto-cc trim · EIA `.env` durability · DEWEY↔Scout consolidation · group-chat artifact policy · INDEX status-column · HENRY LIAISON priority · FED_FRAMEWORK→UST_PLUMBING rename · Filter v2 Segment D · thin-liquidity prediction-market routing · delivery_log written_state enum · REITS/TRADES registry-completeness · CLIMATE_MACRO sustain-vs-fold · RESEARCH-INTAKE v2.
+**🔵 DECISIONS FOR WILL (parked block — run the ≥3-carried decision-walkthrough):** FED_FRAMEWORK→UST_PLUMBING rename · INDEX status-column · delivery_log written_state enum · RED auto-cc trim · thin-liquidity routing · CLIMATE_MACRO sustain-vs-fold · REITS/TRADES registry-completeness · OZK revive-or-shelf (WAL = next promotion candidate) · RESEARCH-INTAKE v2.
 
----
-
-## ARCH/INFRA BACKLOG — audit 2026-07-03 (canonical running list; consolidates + supersedes the scattered Parked one-liners above)
-
-*Source: 6-lane parallel arch/infra audit (workflow run wf_38e8fb51-5df; per-lane detail in its journal.jsonl). Ranked by what it needs. Cross-checked against what shipped since (COP retired, boot-protocol split, intake lane live) so nothing already-done is re-flagged.*
-
-**🔴 STALLED — needs Will or a cross-agent push:**
-- **B1. Delivery consume-step backlog MATERIALIZED** — 220 handoffs delivered-but-unconsumed (64 ACTION), concentrated in the 4 agents lacking the §8.1 consume boot-step: CARL/REGINALD/SAM/RED (RED ~90 files, CARL ~40; no `processed/` dirs). The exact "in BOARD ≠ received" failure the 6/17 delivery layer was built to prevent. WALTER can't self-fix (git isolation). → Will/PROME push the 4 to self-apply, or re-scope. **Highest impact.**
-- **B2. Cross-agent LIAISON program — ✅ RESOLVED as stale-manifest (7/3 live-verify + correction).** Checked the actual files: **REGINALD archived the channel from their side** (`AGENTS/REGINALD/archive/handoff_WALTER/`) → "awaiting Turn 7" was stale; **RED Turn 7's 4 substance items already shipped into CHECKLIST v0.12** (6/4 fires + overdue-detection + peak rule), only a low-pri calibration-retro cadence Q remains (RED active-since w/o prioritizing). STATUS manifest CORRECTED (REGINALD→CLOSED, RED→CONVERGED/DORMANT). CARL dormant since 6/20. **Not live work** — the audit had read WALTER's own stale manifest.
-- **B3. V0_9_STACK: 2 Will-approved fields never shipped** — `unanimity_state` + `event_anchored` (approved 5/6) skipped across v0.9→v0.12; tracker orphaned (archive-trigger fired, contents didn't); BRENT's `energy_transmission`/`regime_state` cosigned candidates have no tracker home. → ship v0.11 / defer / kill, then reconcile + archive V0_9_STACK.
-- **B4. Filter v2 Segment D** — Will picked Option A 4/20 (add `confidence_note` field), never implemented (~30 min). Blocks FILTER_V2_PLAN archival + the overdue FILTER v3 review (trigger ~May 20 / 50 dispatches; now 434). → resume or Will-drop.
-- **B5. Scheduled-scan workflow** — Will-approved infra (~$0.70-1.10/wk), un-built ~2mo, double-blocked on undelivered CARL+BRENT DATA_RELEASE_CALENDAR.md + the recurring budget still needs Will sign-off.
-
-**🟠 INFRA planned-but-unbuilt / broken:**
-- **I1. Scout feed-digest** — PLAN-only since 6/22, never built; likely SUPERSEDED by the RESEARCH-INTAKE lane (live 6/29 = "successor to the dark crons"). → reconcile Scout-vs-lane BEFORE any build effort (subsumes the "DEWEY↔Scout consolidation" parked item).
-- **I2. walter_doctor `cron_liveness` false-MED** — hardcodes the 3 dead feeds (47-57d dark) → MED every boot; full fix chained behind unbuilt Scout. → WALTER can mute the dead rows now (cheap, own-scope).
-- **I3. SIGNAL_INTAKE per-agent rollout** — frozen ~5/14 Tier-1, ~3mo; CLAUDE.md marker stale (says 4/14, actual 5); likely superseded by the delivery lane. → finish or kill + archive the template.
-- **I4. CROSS_REFS identifier cache** — only RED+REGINALD of the routed roster, both ~2mo stale vs their own refresh triggers; CARL.md named 5/5, never built. → refresh + decide scope (all routed agents vs falsification/threshold-only).
-- **I5. Dead `/home/moltbot` paths** (dashboard, calendar-sync, DOC) silently broken post-OpenClaw-cut — INFRA/PROME scope, decision-free but unrun.
-
-**🟢 CHEAP doc-hygiene — "done but never marked" (WALTER-owned, autonomous-available):**
-- Auto-memory index over cap (25.5/24.4KB) → BLOCKS ~11 queued finding-promotions; trim + batch-promote.
-- DEEP_RESEARCH_FLAG_PROPOSAL still self-labels "PROPOSAL / not-landed" but shipped (CHECKLIST v0.18→v0.22 + live ledger + live doctor check) → mark RATIFIED + archive.
-- BOARD_CONSUMPTION §13 acceptance boxes (5/6 unticked though "SHIPPED") + §14 dead COP-integration line (COP retired 6/28).
-- Archives owed: V0_9_STACK, BRENT_LIAISON_PREP (converged 6/6), repo-root RED joint-proposal stitch; sponsor_strategy 6/15 auto-defer note; OpenClaw SIGNOFF doc §A-landed marker.
-- FILTER_SPEC Apr-21 scaffolding → past-tense; CLUSTER_TAXONOMY "reserved for v0.2" status-flags (skipped v0.2 + v0.3); STATUS boot#2/#3-spine trim; BOOT_PROTOCOL §7e rationale section.
-
-**🔵 DECISIONS FOR WILL:** the 13-item parked block → run the ≥3-carried decision-walkthrough (several are 5-min closes: FED_FRAMEWORK→UST_PLUMBING rename, INDEX status-column, delivery_log written_state enum, RED auto-cc trim, thin-liquidity routing, CLIMATE_MACRO sustain-vs-fold, REITS/TRADES registry) · OZK Q1 (revive or shelf; WAL = next promotion candidate) · RESEARCH-INTAKE v2 (waits on PROME lane-side threshold work).
-
-**✅ RESOLVED / RETRACTED (7/3 audit corrections):**
-- **Bot-token rotation — HANDLED (was stale doc-state; Will-flagged 7/3, WALTER-verified).** Live tree = 0 hardcoded token hits; de-hardcoded to gitignored `.env` everywhere (cron_sweep.sh reads `$TELEGRAM_BOT_TOKEN` w/ a "never hardcode" guard; config/openclaw.json5 vector gone). PROME 7/2 "single-home secrets + boot env-doctor" (Will-approved, `d0fcbae1`) + rotation checklist (FRED rotated `df312435`). Only residual = old tokens in git *history* (immutable; PROME's checklist owns it; feeds-bot KEEP-decided 6/26). **Not a WALTER gap — removed from the list.**
-- **EIA `.env` durability — DOWNGRADED to a robustness nit** (not security): free/read-only/public key, gitignored (not exposed); only risk = silent Cushing-capability break if the local `.env` vanishes (doctor `cushing_capability` partly backstops). Low-stakes.
-
-**FYI — correctly parked (not forgotten):** queue/ dir (until MINIMIZE), FORMAT_SPEC `valid_until` backlog, DEEP_RESEARCH §7 v1.1 header field, OpenClaw Phase 9 (gated-last behind a CC Telegram poller), 42 handoffs-await-consume (expected delivery steady-state), feeds-bot KEEP (6/26 Will decision), group-chat artifact policy.
+**✅ RESOLVED / RETRACTED (prior audits):** bot-token rotation (HANDLED 7/2-7/3) · EIA `.env` durability (downgraded to nit) · B2 LIAISON program (stale-manifest, corrected 7/3) · B4 Filter-v2-D (SHIPPED 7/3) · B3 V0_9_STACK (KILLED 7/3) · I1 Scout (RETIRED 7/3) · COP (RETIRED 6/28).
 
 ---
 
-*Maintenance note: heavy routing session — two 6-image Twitter batches (7 dispatch / 5 kill / 3 verify) discovered mid-closeout that 2+ concurrent Claude sessions are live and writing MARCO/CRUISE uncommitted. Committed my work local + pathspec-scoped, DEFERRED push (the disciplined call under observed concurrent foreign work), flagged Will. Tier-1 light closeout; the concurrent-session/deferred-push state is the load-bearing carry-forward.*
+*Maintenance note: heavy Will signal-clearout session — boot + intake-first-route + Iran anchor re-stamp (2 verify) + 3 Twitter batches (5 dispatch + 4 verify batch-1; batches 2-3 = 19/20 re-sends dedup'd). 8 dispatch / 4 kill / 4 verify / BOARD 434→442 / 5 commits pushed. Tier-2 FULL closeout. DAEDALUS concurrent throughout; pathspec-scoped, untouched.*
