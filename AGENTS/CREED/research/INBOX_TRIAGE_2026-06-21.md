@@ -1,8 +1,8 @@
 # CREED Inbox Triage — 2026-06-21
 
 **Purpose:** Process stale Feb 2026 CREED inboxes against the June 2026 refresh.  
-**Source pack:** `AGENTS/CREED/research/REFRESH_2026-06-21.md`  
-**Status:** Current triage; old inboxes remain source archive.
+**Source pack:** `AGENTS/CREED/research/REFRESH_2026-06-21.md` *(now superseded by `REFRESH_2026-07-04.md`)*  
+**Status:** Historical triage record (2026-06-21). ⚠️ The triaged file `inbox/2026-02-24_signals.md` was **removed 6/28** (its conclusions live here; signals promoted into THESIS) — this doc preserves the disposition, the source file no longer exists.
 
 ---
 

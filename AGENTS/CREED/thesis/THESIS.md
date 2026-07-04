@@ -1,7 +1,7 @@
 # CREED Thesis Rails
 
 **Created:** 2026-06-21 15:10 ET  
-**Status:** Current rails v1.0 after Phase 3 refresh  
+**Status:** Current rails — Phase 3 base (6/21), updated 6/28 + **7/4** (June Trepp + realized-recognition cluster + 7/2 REIT tape; convergence 20/40). See CHANGELOG.  
 **Scope:** National CRE / CMBS market-stress synthesis. Not a trade recommendation.
 
 ---
@@ -188,7 +188,7 @@ Response:
 
 ## Convergence Matrix (5-pt stackable handle)
 
-*Added 2026-06-28 per DAEDALUS BATCH_01.* Maps the 8 Expected Signals onto the universal 5-pt scale so NEXUS/PROME can stack CREED's national-CRE read **without spawning the tier-2 agent**. Scale: 5 firing → 4 🔴 elevated → 3 🟠 building/near-trigger → 2 🟡 latent → 1 ⚪ dormant. Independence = shared-antecedent flag (count a shared root once). *Current reads carry as-of dates — refresh on the Monday pulls before re-scoring.*
+*Added 2026-06-28 per DAEDALUS BATCH_01.* Maps the 8 Expected Signals onto the universal 5-pt scale so NEXUS/PROME can stack CREED's national-CRE read **without spawning the tier-2 agent**. Scale: 5 firing → 4 🔴 elevated → 3 🟠 building/near-trigger → 2 🟡 latent → 1 ⚪ dormant. Independence = shared-antecedent flag (count a shared root once). *Current reads carry as-of dates (June Trepp + 7/2 REIT tape refreshed into the pack 7/4); re-verify the monthly CMBS special-servicing print + office-REIT tape before re-scoring.*
 
 | # | Vector (Expected Signal) | Score | Local state / current read [as-of] | Independence | Upgrade trigger |
 |---|---|---:|---|---|---|
@@ -199,7 +199,7 @@ Response:
 | 5 | Multifamily term-default broadening | **3 ↑** | **MF delinq RESUMED rising to 7.23% (+28bps)** [Trepp Jun — reverses the May cure] + **Sun Belt 2022-vintage foreclosure cluster** (S2 Capital $400M fund dissolved + $311M N.Texas; 75 West N.Dallas $90M; Austin 526-unit) + concessions **16.9%** Class-C/Sunbelt — building; cluster still TX-concentrated, not yet dominating *outside* NY/NJ/Houston | Independent (property-level) — but MF legs share the Sun-Belt-cluster antecedent w/ #6 | term-defaults dominate outside NY/NJ/Houston |
 | 6 | Forced-sale / private-NAV recognition | **3 ↑** | **now a CLUSTER of realized comps >30% below basis** (205 W Randolph **−72% realized** CMBS loss; Aon **−58%** mark; Galveston $8.79/SF; Austin MF; S2 Capital "no return of capital"; Seattle OZK deed-in-lieu) — no longer the single Galveston instance | Independent (LGD/recognition) — MF legs share the Sun-Belt-cluster antecedent w/ #5 | sale >30% below basis as a CLUSTER (now met, single-source); open-end fund gates (not yet) |
 | 7 | Office-demand structural hit (tape-confirmed) | 2 | AI-narrative only; data-center demand is a STRENGTH counter-signal (capex rising) | ⟂ shares office-demand root w/ #8 | REIT selloff + direct tenant-demand impairment |
-| 8 | Public REIT equity tape confirms | 2 | VNQ vs SPY not confirmed; Monday pull owed (weekend close) | ⟂ equity-tape read of #7's fundamental | VNQ −10% vs SPY/3mo + confirming fundamentals |
+| 8 | Public REIT equity tape confirms | 2 | **COUNTER-SIGNAL [7/2 close]** — VNQ −2.9pp vs SPY/3mo (far from −10 trigger), +6.3pp/1mo; office REITs rallied 5–15%; NOT confirming stress (OZK −5.7% lone dissent) | ⟂ equity-tape read of #7's fundamental | VNQ −10% vs SPY/3mo + confirming fundamentals |
 
 **Composite: 20/40 (moderate; was 18/40 on 6/28).** Base case *selective recognition accelerating* holds and **FIRMED** — recognition is now printing as **realized losses** (205 W Randolph −72% closed CMBS loss; Seattle OZK deed-in-lieu) and **broadening into multifamily** (June MF delinq +28bps + Sun Belt 2022-vintage foreclosure cluster). Two upgrades this window: **S5 Multifamily 2→3, S6 Forced-sale 2→3.** Still **nothing FIRED** — no signal crossed a hard trigger. **Counting once for shared antecedents** — maturity-wall root (S1+S2); office-demand root (S7+S8); Sun-Belt-MF-cluster root shared across S5+S6's MF legs; S3 downstream — = **~4–5 independent roots elevated, not 8.** Do not read 20/40 as broad confirmation; read it as *the recognition-acceleration base case getting louder, still pre-bank-transmission.* ⚠️ Most individual comps are single-source/WALTER-routed (SKIP-VERIFY 0.6–0.82); the two 7/4 items (Seattle OZK, S2 Capital) are WALTER-CONFIRMED (0.85–0.88), and the June aggregate MF/office prints are the load-bearing verified inputs — the anecdotes corroborate the aggregate rather than carrying the read alone.
 

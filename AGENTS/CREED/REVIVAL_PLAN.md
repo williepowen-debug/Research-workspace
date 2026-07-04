@@ -26,8 +26,8 @@ Top-level `AGENTS/CREED/` is now current as the national CRE / CMBS source-pack 
 - `AGENTS/CREED/CLAUDE.md`
 - `AGENTS/CREED/STATUS.md`
 - `AGENTS/CREED/REVIVAL_PLAN.md`
-- `AGENTS/CREED/inbox/2026-02-24_signals.md`
-- Phase 3 refresh: `AGENTS/CREED/research/REFRESH_2026-06-21.md`
+- ~~`AGENTS/CREED/inbox/2026-02-24_signals.md`~~ (removed 6/28 — triaged into `INBOX_TRIAGE_2026-06-21.md`)
+- Phase 3 refresh: `AGENTS/CREED/research/REFRESH_2026-06-21.md` (superseded 7/4 by `REFRESH_2026-07-04.md`)
 - Phase 4 thesis rails: `AGENTS/CREED/thesis/THESIS.md`
 - Phase 4 changelog: `AGENTS/CREED/thesis/CHANGELOG.md`
 - Phase 4 inbox triage: `AGENTS/CREED/research/INBOX_TRIAGE_2026-06-21.md`
@@ -63,7 +63,7 @@ This legacy frame is mechanism context only. Current claims should use the June 
 
 ### Top-level stale inbox
 
-- `AGENTS/CREED/inbox/2026-02-24_signals.md`
+- `AGENTS/CREED/inbox/2026-02-24_signals.md` *(historical inventory — file removed 6/28 after triage; content in `INBOX_TRIAGE_2026-06-21.md`)*
   - CMBS 2026 maturity/default risk estimate
   - hard-maturity / no-extension concept
   - housing liquidity sentiment signal

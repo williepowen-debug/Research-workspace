@@ -74,7 +74,7 @@ No CREED signal FIRED (all my Route-Matrix handoffs are fire-gated), and **WALTE
 
 ### Live triggers (mine) + Monday pulls owed (weekend close)
 - **Armed triggers unchanged** (THESIS Signals 1–8): office CMBS delinq >12% & holds / SS >18%; maturity-default majority of new delinquencies 2 consecutive mo; FDIC non-owner CRE PDNA re-rising; mod-exhaustion / re-default; multifamily term-default broadening; forced-sale >30% below basis (Galveston = single instance, **not** a cluster); office-demand tape-confirm; VNQ −10% vs SPY / 3mo.
-- **Monday pulls (flag — could not pull on weekend, do not cite levels until refreshed):**
+- **Monday pulls (flag — could not pull on weekend, do not cite levels until refreshed):** *[✔ ALL RESOLVED in the 7/4 session — see the 7/4 section at top: June Trepp print ingested, 7/2 REIT tape pulled. The list below is the frozen 6/28 state.]*
   1. Trepp weekly office CMBS delinquency / special-servicing — did May's **11.53% / 16.75%** hold? (Signal 1 gauge.)
   2. Office-REIT tape Fri close vs prior wk: SLG / HIW / PDM / VNO (+ BXP). (Signal 8.)
   3. Data-center REITs (DLR, EQIX) as the AI↔CRE crossover gauge (M-09). (New.)
@@ -114,7 +114,7 @@ Top-level CREED files:
 - `AGENTS/CREED/README.md` — current-vs-archive file index
 - `AGENTS/CREED/STATUS.md` — this file
 - `AGENTS/CREED/REVIVAL_PLAN.md` — phase plan / inventory
-- `AGENTS/CREED/inbox/2026-02-24_signals.md` — stale top-level inbox
+- ~~`AGENTS/CREED/inbox/2026-02-24_signals.md`~~ — **removed 6/28** (triaged → `research/INBOX_TRIAGE_2026-06-21.md`; signals promoted to THESIS). Current inbox path is `inbox/WALTER/` (+ `processed/`).
 
 Legacy source archive under REGINALD:
 - `AGENTS/REGINALD/sub-agents/CREED/STATUS.md`

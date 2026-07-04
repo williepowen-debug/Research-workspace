@@ -82,8 +82,8 @@ Legacy CREED lived as a REGINALD sub-agent:
 - `AGENTS/REGINALD/sub-agents/CREED/research/`
 - `AGENTS/REGINALD/sub-agents/CREED/sources/`
 
-Top-level stale inbox:
-- `AGENTS/CREED/inbox/2026-02-24_signals.md`
+Top-level stale inbox (⚠️ **removed 6/28**, commit 5a7ac1aa — fully triaged into `research/INBOX_TRIAGE_2026-06-21.md` and its signals promoted into THESIS; the file no longer exists, kept here for source-trail only):
+- ~~`AGENTS/CREED/inbox/2026-02-24_signals.md`~~ (deleted)
 
 Legacy sub-agent stale inbox:
 - `AGENTS/REGINALD/sub-agents/CREED/inbox/2026-02-27_office_reit_selloff.md`

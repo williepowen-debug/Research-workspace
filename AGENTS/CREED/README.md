@@ -26,7 +26,7 @@ Use these before making current CRE / CMBS claims:
 
 Do **not** treat these as current analytical truth:
 
-- `AGENTS/CREED/inbox/2026-02-24_signals.md` — stale top-level inbox
+- ~~`AGENTS/CREED/inbox/2026-02-24_signals.md`~~ — removed 6/28 (triaged → `research/INBOX_TRIAGE_2026-06-21.md`; content in THESIS). Live inbox is `inbox/WALTER/`.
 - `AGENTS/REGINALD/sub-agents/CREED/` — legacy REGINALD sub-agent tree / source archive
 - `AGENTS/REITS/` — dormant public-REIT source archive; live REIT tape now belongs to CREED
 

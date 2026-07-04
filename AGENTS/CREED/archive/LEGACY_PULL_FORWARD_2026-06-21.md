@@ -3,7 +3,7 @@
 **Purpose:** preserve high-value legacy CREED mechanisms from the old REGINALD sub-agent tree without moving/deleting that tree or treating stale Jan/Feb 2026 values as current.
 
 **Legacy source archive:** `AGENTS/REGINALD/sub-agents/CREED/`  
-**Current CREED source pack:** `AGENTS/CREED/research/REFRESH_2026-06-21.md`  
+**Current CREED source pack:** `AGENTS/CREED/research/REFRESH_2026-07-04.md` (supersedes the 6/21 pack)  
 **Current thesis rails:** `AGENTS/CREED/thesis/THESIS.md`
 
 ---

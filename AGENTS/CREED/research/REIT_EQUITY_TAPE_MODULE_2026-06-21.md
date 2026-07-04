@@ -6,7 +6,7 @@
 **Current owner:** CREED  
 **Status:** module / tracker design (durable methodology below — trigger designs, tracker panels, guardrails).
 
-> **Latest tape snapshot: 2026-07-02 close** — lives in `research/REFRESH_2026-07-04.md` §7. Headline: **office REITs + brokers rallied 5–15%** off the 6/18 baseline (SLG +5.7% / BXP +7.1% / VNO +7.3% / HPP +15.7% / JLL +10.1%); **VNQ −2.9pp vs SPY over 3mo** (far from the −10pp trigger), **+6.3pp over 1mo** (REITs outperforming). **Signal 2 read: the public equity tape is a COUNTER-SIGNAL** — not confirming the private/CMBS recognition deterioration. Lone dissent: **OZK −5.7% on 7/2** (Seattle deed-in-lieu). This snapshot updates the design doc below; the methodology/trigger designs are unchanged.
+> **Latest tape snapshot: 2026-07-02 close** — lives in `research/REFRESH_2026-07-04.md` §7. Headline: **office REITs + brokers rallied 5–15%** off the 6/18 baseline (SLG +5.7% / BXP +7.1% / VNO +7.3% / HPP +15.7% / JLL +10.1%); **VNQ −2.9pp vs SPY over 3mo** (far from the −10pp trigger), **+6.3pp over 1mo** (REITs outperforming). **Signal 8 read (THESIS): the public equity tape is a COUNTER-SIGNAL** — not confirming the private/CMBS recognition deterioration. Lone dissent: **OZK −5.7% on 7/2** (Seattle deed-in-lieu). This snapshot updates the design doc below; the methodology/trigger designs are unchanged.
 
 ---
 
