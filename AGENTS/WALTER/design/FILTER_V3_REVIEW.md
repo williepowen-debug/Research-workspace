@@ -78,15 +78,13 @@ The empirical-review trigger (**10+ dispatches OR 30 days**) is now mis-scaled: 
 
 ## Landed / pending
 
-**Landed this review (WALTER-owned, low-risk):**
+**Landed this review (all Will-greenlit 2026-07-04):**
 - Registry-lag refresh (CREED, DAEDALUS).
 - This review doc; `FILTER_V2_PLAN.md` archived → `design/history/`; STATE §1 + CLAUDE.md refs repointed.
-
-**Pending Will greenlight (draft text ready — batch, mirrors the v2 per-segment review):**
-- ① image-batch dedup → CHECKLIST Phase 1b (v0.25).
-- ② 3 kill sub-classes → FILTER_SPEC Gate 1 (v0.6).
-- ③ distressed-CRE figure-verify → CHECKLIST Phase 1.5 (decision: codify-now vs watch-2nd).
-- meta: reset the v3→v4 review trigger to quarterly-or-surprise.
+- **① image-batch dedup → CHECKLIST Phase 1b (v0.25)** — LANDED.
+- **② 3 kill sub-classes → FILTER_SPEC Gate 1 (v0.6)** — LANDED.
+- **③ distressed-CRE figure-verify → CHECKLIST Phase 1.5 (v0.25)** — LANDED (Will greenlit codify-now; flagged as 1-instance-but-systematic → re-check for a 2nd at v4).
+- **meta: review-cadence reset to quarterly-or-surprise** — LANDED in FILTER_SPEC v0.6 Tuning Rules.
 
 **Next review (v4):** ~2026-10-04 OR next filter-behavior surprise, whichever first.
 

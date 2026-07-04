@@ -21,15 +21,15 @@
 
 ## GAPS
 
-- **FILTER v3 spec edits await Will greenlight** — ① image-batch dedup → CHECKLIST Phase 1b (v0.25); ② 3 kill sub-classes → FILTER_SPEC Gate 1 (v0.6); ③ distressed-CRE figure-verify → CHECKLIST Phase 1.5 (codify-now vs watch-2nd decision); + reset the v3→v4 review trigger to quarterly-or-surprise. Draft text ready in FILTER_V3_REVIEW.md → land in one pass on his OK.
+- **FILTER v3 spec edits — LANDED** (Will-greenlit 7/4): ① image-batch dedup + ③ distressed-CRE figure → CHECKLIST v0.25; ② 3 named kill sub-classes + cadence-reset → FILTER_SPEC v0.6; STATE §1 synced, drift green. ③ flagged 1-instance-but-systematic → re-check for a 2nd at v4.
 - **Iran 6/28 history-migration — DEFERRED BY JUDGMENT** (not a miss): anchor is only 35 lines (no bloat), superseded blocks already clearly marked `[SUPERSEDED 6/28]`, load-bearing-splice risk > cosmetic gain. Migrate when the anchor actually grows.
 - **delivered_but_unconsumed still 174/33-ACTION at boot** — but now SELF-CLOSING: RED/SAM/REGINALD have the consume step installed (post-B1) and drain on their next boot; CARL exempted. Longer tail (CORAL/AEOLUS/OTTO/MARCO/TERRY/DEWEY/FERT) is a minor optional rollout, not a Will decision.
 
 ## WILL_NEEDS
 
-1. **Greenlight the FILTER v3 codification batch** (①+② recommend-land, ③ codify-now-vs-watch your call) — draft text ready, lands in one pass. The one open ask.
-2. **B1 is DONE** — no longer needs your route (was WILL_NEEDS #1 last session; git-confirmed closed).
-3. Nothing else blocking.
+1. **FILTER v3 codification batch — GREENLIT + LANDED this session** (①+② +③ codify-now, all greenlit): image-batch dedup + distressed-CRE figure → CHECKLIST v0.25; 3 named kill sub-classes + cadence-reset → FILTER_SPEC v0.6; STATE synced, drift green, pushed. **No open ask.**
+2. **B1 is DONE** — no longer needs your route (git-confirmed closed).
+3. Next backlog on deck when you're ready: the parked ~9 design decisions, one at a time (your call to start).
 
 ## FOLLOW-UP (canonical running list — survives handoff via this file)
 
@@ -55,8 +55,9 @@
 ## OPEN DESIGN DECISIONS (need Will) — condensed
 
 **🔴 ACTIVE:**
-- **FILTER v3 codification batch** (WILL_NEEDS #1) — ①②③ above.
+- ~~FILTER v3 codification batch~~ — **LANDED 7/4** (Will-greenlit; FILTER_SPEC v0.6 + CHECKLIST v0.25).
 - **B5 scheduled-scan workflow** — Will-approved infra, un-built; double-blocked on undelivered CARL+BRENT DATA_RELEASE_CALENDAR + recurring-budget sign-off.
+- **Parked ~9 design decisions** — Will wants these one at a time (next backlog after this session).
 
 **🟠 INFRA planned-but-unbuilt:** I2 walter_doctor cron_liveness false-MED (muted at boot) · I4 CROSS_REFS identifier cache (RED+REGINALD only, stale) · I5 dead `/home/moltbot` paths (INFRA/PROME scope).
 

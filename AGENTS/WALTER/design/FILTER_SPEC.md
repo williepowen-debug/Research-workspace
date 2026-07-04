@@ -1,4 +1,4 @@
-# WALTER Filter Specification v0.5
+# WALTER Filter Specification v0.6
 
 WALTER filters BEFORE routing. Every piece of incoming information passes through a **pre-gate System-Critical bypass**, then **Gate 1** (the two hard kill gates: Novelty + Relevance), then **a soft credibility check** that adjusts confidence before reaching Gate 2 (classification + routing). Most raw information should die at Novelty or Relevance.
 
@@ -87,6 +87,14 @@ Both Novelty AND Relevance are **hard kill gates**. A signal must pass BOTH to s
 - Market commentary that's purely technical/chart-based with no fundamental content
 
 **Edge case:** "Could create a new risk vector" is deliberately broad. When uncertain, pass to Gate 1c and let credibility set the confidence — better to let agents reject at low confidence than to kill something that turned out to matter.
+
+### Recognized kill sub-patterns (v0.6 — emerged practice, named for consistency; FILTER v3 review 2026-07-04)
+
+These are the sub-classes the kill log clusters into empirically. They do NOT change gate logic — Novelty and Relevance still decide — but naming them makes the recurring judgment explicit:
+
+- **stale-to-owner** *(Novelty)* — the domain owner already holds the datum, often *more currently*. The dominant kill class. **Requires a domain-STATUS check to confirm owner-ahead before killing** (an item that looks stale may carry a magnitude/recency delta the owner lacks — see the recency-of-figure discipline). Log `Novelty (stale-to-owner)` + name the owner + why they're ahead.
+- **advocacy / opinion / TA-narrative, no observable datum** *(Relevance/Novelty)* — op-eds, motivated-reasoning long-form, chart-divergence "warnings," manipulation narratives. **NO-ROUTE the narrative; route the eventual ACTUAL policy-action or datapoint if one appears.** Extract any falsifiable core and bind it to an existing observable test; do not route the prediction itself.
+- **stale recirculation** *(Novelty)* — a real-but-OLD event re-surfaced as fresh; **date-check before killing/routing.** ⚠️ **RESEARCH-INTAKE-lane amplifier:** the lane's `newssweep` onset-dedup flags a new *headline-appearance*, not event-age, so a months-old event can surface as a "NEW" breach (prototype: the Metropolitan Capital "first US bank failure of 2026" 7/4 kill = a 5-mo-stale Feb event). Date-check any lane-surfaced news item against its actual event date, not its feed-appearance date.
 
 ---
 
@@ -211,7 +219,7 @@ Signals that pass Gate 1 and get routed are logged to `AGENTS/WALTER/routed/rout
 - No default bias toward routing or killing. Apply the tuning rules above as primary guide.
 - In pre-catalyst windows (≤72h before WAL/ZION/OZK earnings, Fed meetings, CPI/NFP, Iran ceasefire expiry, BOJ decisions), shift temporarily toward LOOSE on the relevant domain — false-negatives cost more than false-positives when a catalyst is imminent.
 - During low-information stretches (no catalysts, stable macro, quiet geopolitics), shift toward TIGHT — let the signal density set by throughput trend itself.
-- Review monthly from Apr 20 going forward. Filter v3 trigger: 30 days from Apr 20 (~May 20) OR next 50 dispatches, whichever first.
+- **Review cadence (recalibrated v0.6, FILTER v3 review 2026-07-04):** the original "30 days OR 50 dispatches" trigger is mis-scaled at 400+ dispatches (it would fire continuously and in practice went unread Apr→Jul). **v3→v4 trigger: a quarterly pulse (~Oct 4 2026) OR the next filter-behavior surprise (first real false-positive kill / a mis-route / a new intake modality), whichever first** — a surprise-driven review beats a volume counter no one reads. Canonical review doc: `design/FILTER_V3_REVIEW.md`.
 
 ### OPEN-window dispatch posture (NEW v0.5 per JOINT_PROPOSAL §2d)
 
@@ -289,6 +297,7 @@ Raw Information Arrives
 
 ---
 
+*v0.6 — July 4, 2026 — Filter v3 review (Will greenlight 2026-07-04). Added "Recognized kill sub-patterns" subsection under Gate 1 — names the 3 emerged empirical kill sub-classes (stale-to-owner / advocacy-opinion-TA-no-datum / stale-recirculation) without changing gate logic; the stale-recirculation note flags the RESEARCH-INTAKE-lane headline-appearance-vs-event-age amplifier (Metropolitan Capital 5-mo-stale kill prototype). Recalibrated the review cadence to quarterly-or-surprise (canonical doc `design/FILTER_V3_REVIEW.md`). Empirical basis: v3 review of the last ~30 dispatches + 25 kills = zero false-positive kills, routes/precedence/confidence calibrated, BALANCED holds.*
 *v0.5 — May 8, 2026 — Added "OPEN-window dispatch posture" sub-section under Tuning Rules per JOINT_PROPOSAL_2026-05-05_walter_carl_brent §2d (3-way cosigned BRENT+CARL+WALTER 2026-05-05/06; Will sign-off 2026-05-08). When EVENT_WINDOW_STATE.md state = OPEN: Phase-2-cluster signals dispatch FLASH; cross-cluster signals stay normal precedence; verify-research mandatory on extreme-claim items; Will-Telegram threading under master message; daily roll-up; `event_window: open` header field on all dispatches. State transitions BRENT-led on CLOSED→OPEN (Path A 4/4 met OR Path B EIA triggers fire) and WALTER-led on OPEN→CLOSED (≥48h stable post-event); LESSONS #18 disambiguation early-close retroactive-tags in-window signals. Composes with BALANCED default — does not replace.*
 
 *v0.4 — April 20, 2026 (evening) — Filter v2 Segment C. Added "Verify-Research Trigger (Phase 1.5 — reference)" subsection between Gate 1b (Relevance) and the Credibility check, pointing to CHECKLIST v0.8 Phase 1.5 as canonical for the 4 trigger patterns, spawn discipline, and 4-verdict handling (CONFIRMED / CORRECTED-framing / FALSE / INDETERMINATE). FILTER_SPEC notes insertion point only; no filter logic changed. Empirical origin: 4 framing errors caught in Apr 11–20 window.*
