@@ -3,7 +3,9 @@
     "fred:UMCSENT:red": "2026-07-02T23:30:01Z",
     "fred:PSAVERT:orange": "2026-07-02T23:30:01Z",
     "fred:BAMLH0A0HYM2:orange": "2026-07-02T23:30:01Z",
-    "eia:cushing_mbbl:red": "2026-07-02T23:30:01Z"
+    "eia:cushing_mbbl:red": "2026-07-02T23:30:01Z",
+    "news:NEW_ALERT:data/2026-07-03/news.json": "2026-07-04T14:21:27Z",
+    "news:NEW_WATCH:data/2026-07-03/news.json": "2026-07-04T14:21:27Z"
   },
-  "updated": "2026-07-02T23:30:01Z"
+  "updated": "2026-07-04T14:21:27Z"
 }
