@@ -1,6 +1,6 @@
 # Counterparty Watch — OZK NDFI Partners
 
-**Last Updated:** 2026-03-24 | **Sources:** Deep Research (Gemini/ChatGPT/Perplexity/Claude, Mar 23 2026), SEC filings, Commercial Observer, trade publications
+**Last Updated:** 2026-07-04 (added Bluerock TI+ as IQHQ leading-indicator node) | **Sources:** Deep Research (Gemini/ChatGPT/Perplexity/Claude, Mar 23 2026), SEC filings, Commercial Observer, trade publications, Bisnow (3/19/26, 4/1/26)
 
 ---
 
@@ -55,6 +55,12 @@
 ---
 
 ## 🟡 MONITORED COUNTERPARTIES
+
+### Bluerock Total Income+ Real Estate Fund (TI+) — IQHQ leading-indicator node
+- **Relationship:** **NOT an OZK co-lender** — subordinate capital in the *shared IQHQ/RaDD stack*, first-loss to OZK's senior RaDD loan. Tracked as a leading indicator, not a counterparty exposure.
+- **Exposure:** IQHQ's largest shareholder, **>$700M** = $246M PIK loans ($160M@13.5% Dec'27 + $86M@14% Aug'28, interest unpaid, accruing ~$8-9M/qtr) + large first-loss equity (~$488M reported, indicative).
+- **Stress Indicators:** 🔴 $3.6B interval fund **listed at ~38% below NAV**; **9 straight negative quarters; redemption queue.** IQHQ NAV mark −4.4%→$6.28 (H2'25 vintage; peers Highland −23%→$7.72, T.Rowe $4.92, Altegris $2.26).
+- **CRE Linkage / why watch:** Bluerock's equity is first-loss on IQHQ, so its **next TI+ NAV mark moves BEFORE OZK's senior RaDD credit** — a leading indicator into the Aug 2026 RaDD maturity. Entity = **TI+ interval fund, NOT "Bluerock Homes Trust"/BHM** (corrected 7/4). BROCK notified 7/4. [KB-OZK-197]
 
 ### Blackstone (BREDS)
 - **Relationship:** Co-operator in large urban markets
@@ -129,6 +135,7 @@ When BROCK escalates these signals, check for OZK counterparty overlap:
 | Affinius bond maturity outcome (Oct 2026) | Bloomberg, trade press | If missed → escalate to 🔴, check OZK back-leverage exposure |
 | Blue Owl new fund gates or bridge lending freeze | SEC filings, BROCK | If freeze → reflexive channel activated, flag maturity wall acceleration |
 | Any new counterparty NAV markdown >10% | Fund quarterly reports | Log here, cross-check BROCK |
+| **Next Bluerock TI+ NAV mark on IQHQ** (last −4.4%→$6.28, H2'25) | TI+ fund reports / BROCK | Fresh IQHQ writedown → leading signal for OZK RaDD (Aug'26); escalate + flag REGINALD/BROCK |
 | New OZK co-lending deals with stressed partners | Commercial Observer, perecredit | Update deal count and exposure estimates |
 | Quarterly FFIEC Call Report NDFI line (RCONJ454) | FFIEC CDR | Track growth/decline of $2.74B total |
 | New SEC 8-K filings mentioning OZK as lender | EDGAR full-text search | Identify new counterparties |

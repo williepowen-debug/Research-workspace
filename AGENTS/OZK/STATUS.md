@@ -64,6 +64,8 @@
 | IQHQ specific reserve | Not broken out Q1 | Any positive Q2 (Jul 21) | Scenario B firing early |
 | Sub notes reprice | Oct 1 2026 | Pre-reprice refi announcement | +$12.8M/yr · Tier 2 −20% |
 
+**⚑ Jul-21 reads pre-registered** (falsifiable, 2026-07-04) → `workbook/PREDICTIONS.tsv` OZK-05→09: NCO kill-line (05, 50%), past-due >$550M (06, 40%), **★classified-vs-RESG discriminator (07, 55% — conviction-governing)**, IQHQ Q2 pre-reserve (08, 28%), Aug terminal $140M+ event (09, 68%). *(OZK-01 also resolves Jul-21, tracking FALSE.)*
+
 **Cross-feed (regime INVERTED since Apr — ref only, [[REGINALD]] owns):** KRE $75.02 [live 7/4] · HY OAS **278bps** [FRED 6/25, 2bp from 280 X1 trigger] · Brent **~$72** [live 7/4] — 🔴 **prior "stagflation re-heating / Brent $102" frame is DEAD.** New macro tailwind for banks: energy deflated, VIX 15.8, credit still tight-but-armed.
 
 ---
@@ -84,9 +86,9 @@
 
 ## Open Items (verification queue)
 
-1. ✅ **RESG "88%" concentration — RESOLVED phantom (7/4).** No disclosed OZK figure = 88%. Real Q1'26 RESG: **60% of unfunded / ~mid-50s of loans (both falling)**, LTC 49%/LTV 46%, $27.8B commitments (−$6.7B from peak). Recommended PROME re-anchor Q2 path-(a) off a verified metric. → `research/threads/RESG_CONCENTRATION_VERIFICATION.md`
-2. **Bluerock "PIK debt" framing** — public sources describe fund **equity/interest** holdings marked to unit value (Bluerock >$700M, −4.4% to $6.28), **not "PIK debt"** as thesis states. Verify characterization. No **fresh** Q1 mark found (all H2-2025 vintage).
-3. **Aimco v. IQHQ MTD ruling** — no public record of ruling found; needs Delaware Chancery docket pull.
+1. ✅ **RESG "88%" — RESOLVED phantom + 6-qtr trend PINNED (7/4).** No disclosed OZK figure = 88%. Q1'26: **60% of unfunded** (from ~79% at 3/31/24 peak, −11pts LTM), CIB 32%, **$27.8B commitments (−$6.7B/−19% from peak)**, LTC 49%/LTV 46%, ~mid-50s of loans (derived). **Runoff is a H2'25 event, still accelerating** (share 66→62→60; $ −2.1/−2.0/−1.0B/qtr), mgmt-guided through 2026-27. Direction confirms bull C7; **Jul-21 discriminator** = classified (+23% QoQ→$1.215B) still rising while RESG falls → adverse-selection tell. → `research/threads/RESG_CONCENTRATION_VERIFICATION.md`
+2. ✅ **Bluerock framing — RESOLVED (7/4).** PIK loans **CONFIRMED real** ($246M: $160M@13.5% Dec'27 + $86M@14% Aug'28; Bisnow 3/19/26) — our figures were right. **Entity was mislabeled** "Bluerock Homes Trust" → actually **Bluerock Total Income+ (TI+)**, a $3.6B interval fund (listed ~38% below NAV, redemption queue). Exposure >$700M = PIK **+ large first-loss equity** (~$488M reported, single-source). Equity leads the waterfall → **TI+ NAV mark = leading indicator for OZK RaDD** (−4.4%→$6.28, H2'25 vintage; no fresh Q1). → `IQHQ_PLAYBOOK.md` capital-stack footnote.
+3. ✅ **Aimco MTD — no ruling as of 7/4 (confirmed).** Suit real (Del. Chancery, $50M; $47M impairment Aug'24). MTD likely still in briefing given ~April filing — **not near-term.** Complaint does **not** name Bluerock → softened our "targets Bluerock PIK" inference.
 4. **−5.70% (7/2) driver** — no public catalyst; monitor for delayed news / 13D / block-trade print.
 5. **Boston Life Sci $169M sponsor ID** — US2 vs Leggat McCall. `TODO.md` #1.
 6. **WAL IQHQ exposure** — ✅ RESOLVED disconfirming: WAL Investor Day (5/12) disclosed **no** IQHQ/life-sci CRE. Not an IQHQ lender.

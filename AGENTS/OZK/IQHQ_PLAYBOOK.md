@@ -41,6 +41,8 @@
 | IQHQ Equity | ~$950M + $87M OZK reserve contribution 2024 | — | 6 funds marked 4-94% down |
 | **Total project cost** | **~$2.3B ($300M over original budget)** | | HR Ratings expects refi to $1.5B+ by 2028 |
 
+> **⚑ Bluerock exposure — verified & reconciled 2026-07-04 (Bisnow 3/19/26 + 4/1/26 primaries):** The $246M PIK loans above are **CONFIRMED verbatim** ($160M @13.5% Dec'27 + $86M @14% Aug'28; interest unpaid, accruing ~$8-9M/qtr). **Entity correction:** holder is the **Bluerock Total Income+ Real Estate Fund (TI+)** — a **$3.6B interval fund** (recently listed at ~38% discount to NAV; 9 straight quarters of negative returns, shrinking, redemption queue) — **NOT "Bluerock Homes Trust"** (prior mislabel, corrected below). Bluerock is IQHQ's **largest shareholder**, total exposure **>$700M** = the $246M PIK **plus a large first-loss equity/preferred position** (reported ~$488M equity + >$420M debt/pref, ~19% of IQHQ — *single-source, not in the fetched 3/19 Bisnow; treat as indicative, not pinned*). **Thesis refinement:** Bluerock's *equity* is first-loss and marked to unit value, so its TI+ NAV mark on IQHQ (−4.4% to $6.28, **H2'25 vintage — no fresh Q1'26 mark**; peers Highland −23%→$7.72, T.Rowe $4.92, Altegris $2.26) moves **ahead of** the PIK loans and **ahead of** OZK's senior RaDD loan in the waterfall → **the next TI+ NAV mark is a monitorable leading indicator for OZK RaDD credit** (queue into `PRIVATE_CREDIT/COUNTERPARTY_WATCH.md`). Seniority note: OZK = senior secured at the **RaDD project**; Bluerock PIK = loans to **IQHQ corporate** + corporate equity → Bluerock is levered to whole-enterprise failure, which is precisely the Scenario-A sponsor-support collapse that transmits up to OZK.
+
 **Leadership unchanged since Alan Gold departure Dec 2024.** Steve Rosetta (CEO), Tracy Murphy (Co-CEO/Co-Founder/President), John Bonanno (CIO). No post-Gold Chairman appointed publicly.
 
 ### 2b. The Aimco lawsuit (Agent 1 findings) — material new development
@@ -49,7 +51,7 @@
 - Fraudulent inducement
 - Breach of contract
 - Corporate mismanagement / breach of fiduciary duty
-- **Dilution via "conflicted financings and insider transactions"** — targets Bluerock PIK + IIP preferred structure
+- **Dilution via "conflicted financings and insider transactions"** — *general* allegation; the complaint does **not** name Bluerock (verified Bisnow 4/1/26). Our read that it implicates the Bluerock-PIK / IIP-preferred architecture is **inference, not pleaded** — soften downstream claims accordingly.
 - Excessive/self-interested management fees
 - Withholding material financial information
 
@@ -60,7 +62,7 @@ Seeking: restitution of $50M (Aimco's impaired original investment, down to ~$3M
 - BUT materially **chills any 4th rescue round** — no rational new investor funds a sponsor with active fraud/dilution claims
 - Discovery will expose Bluerock PIK/IIP preferred terms → bad optics if shown to be predatory
 - Gleason's "inner family squabble" framing is structurally accurate (equity-vs-equity) but **materially misleading**: the complaint puts the rescue-capital architecture on trial
-- Motion-to-dismiss response expected ~early June 2026
+- **MTD status (verified 2026-07-04 web sweep):** no public ruling found. Suit confirmed — Del. Court of Chancery, $50M at stake (Aimco booked a $47M impairment Aug 2024, position ~-94%). Given the ~April 2026 filing, an MTD ruling by now would be fast — **likely still in briefing; not a near-term catalyst.** Re-pull the Chancery docket only if a ruling surfaces.
 
 ### 2c. Portfolio stress tells (Agent 2 findings)
 
@@ -245,7 +247,7 @@ Hamblen's April 22 "better than December" language is **pipeline talk (tours/RFP
 ## 7. CROSS-AGENT SIGNALS
 
 ### 🔴 To BROCK — IQHQ capital stack and Bluerock exposure
-**Signal:** Bluerock (NYSE-listed, formerly Bluerock Homes Trust) has $246M of PIK loans to IQHQ (13.5-14%, accruing ~$8-9M/qtr unpaid), maturing Dec 2027 and Aug 2028 respectively. IQHQ is Bluerock's largest single exposure (>$700M including equity + PIK debt). **If IQHQ fails, Bluerock takes a significant hit.** Cross-screen: other Bluerock fund positions for similar concentration risks. Additionally, the Aimco complaint specifically alleges Bluerock PIK structure is an "insider transaction" — potential fiduciary claims against Bluerock's IQHQ directors / managers. Priority: 🟠
+**Signal:** The **Bluerock Total Income+ Real Estate Fund (TI+)** — a $3.6B interval fund (recently public-listed at ~38% discount to NAV), **not** "Bluerock Homes Trust" (corrected 2026-07-04) — has $246M of PIK loans to IQHQ ($160M @13.5% Dec'27 + $86M @14% Aug'28, accruing ~$8-9M/qtr unpaid) **on top of a large first-loss equity/preferred position**; IQHQ is Bluerock's largest single exposure (>$700M total, largest shareholder). **The equity leads the waterfall — TI+'s IQHQ NAV mark (−4.4%→$6.28, H2'25 vintage) is a leading indicator that moves before OZK's senior RaDD loan.** Watch the next TI+ NAV mark. *Caveat (corrected 2026-07-04):* the Aimco complaint alleges "conflicted financings and insider transactions" **generally** and does **not** name Bluerock — the fiduciary-claim-against-Bluerock read is our inference, not pleaded. Priority: 🟠
 
 ### 🟠 To CREED — SD downtown lab severity comp
 **Signal:** Campus at Horton closed Sep 2025 at **$130M AllianceBernstein credit bid on $399M senior construction loan = 67% severity.** This is the single most important comp for any downtown SD lab distressed exit. Cross-reference against CREED CMBS life sci DQ data and other distressed SD/Boston/Bay Area life sci asset tracking. Priority: 🟠

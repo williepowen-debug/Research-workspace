@@ -1,6 +1,6 @@
 # RESG "88%" Concentration — Verification Result
 
-**Date:** 2026-07-04 | **Requested by:** PROME (`inbox/2026-06-26_from-PROME_resg-verification.md`) | **Primary:** `raw/Q1_2026_mgmt_comments.pdf` (OZK Q1 2026 Management Comments, as-of 3/31/26)
+**Date:** 2026-07-04 (v1 verdict) · **2026-07-04 session 2** — added 6-quarter concentration trend + Jul-21 discriminator pre-registration | **Requested by:** PROME (`inbox/2026-06-26_from-PROME_resg-verification.md`) | **Primary:** `raw/Q{4'24…1'26}_mgmt_comments.pdf` (OZK Management Comments, Q4'24→Q1'26)
 
 ---
 
@@ -20,6 +20,27 @@
 | RESG weighted-avg **LTC / LTV** | **49% / 46%** | Fully-funded basis; "as-stabilized" for income property. |
 | RESG **appraisal coverage** | **92%** of commitment ($25.61B) appraised | Within trailing window; 16 new appraisals ($1.37B) in Q1. |
 | **Variable-rate** loans | **86–89%** of total commitment | 78% tied to 1-mo SOFR, 17% WSJ Prime. |
+
+## RESG concentration TREND — 6-quarter, primary-sourced (added 2026-07-04, session 2)
+
+*All figures from the quarterly RESG Management Comments (`raw/Q{4'24…1'26}_mgmt_comments.pdf`), "RESG share of unfunded loan commitments" narrative + "total commitments … receding by $X from a peak of $34.5B" line. The disclosed spine is the **unfunded share**; total-commitment $ is stated as a peak-delta.*
+
+| Quarter-end | RESG unfunded share | CIB unfunded share | RESG total commitments | Seq. Δ $ | Source line |
+|---|---|---|---|---|---|
+| 3/31/24 (peak) | **~79%** | ~13% | **$34.5B** | — | derived from LTM statements |
+| 12/31/24 | 71% | 21% | $32.4B | — | "decreased to 71% from 81% during 2024" |
+| 3/31/25 | 71% | 22% | $32.7B | +0.3 | "from 79% to 71% over last four quarters" |
+| 6/30/25 | 70% | 23% | $32.9B | +0.2 | "decreased 2% to 70% … first six months of 2025" |
+| 9/30/25 | 66% | 26% | $30.8B | **−2.1** | "decreased 6% to 66% … first nine months" |
+| 12/31/25 | 62% | 30% | $28.8B | **−2.0** | "during 2025 … decreased 10% to 62%" |
+| **3/31/26** | **60%** | **32%** | **$27.8B** | −1.0 | "decreased 11% to 60% over the last four quarters" |
+
+**Shape of the runoff — the load-bearing read:**
+1. **It's a H2'25 event, still accelerating.** $ commitments were *flat-to-slightly-up* through mid-2025 (−$2.1B → −$1.6B peak-delta = commitments actually nudged UP), then collapsed −$2.1B / −$2.0B / −$1.0B over Q3'25–Q1'26. Unfunded share: 71→71→70→**66→62→60**. The concentration decline management describes is overwhelmingly a **last-three-quarters** phenomenon.
+2. **Management guides it to persist:** "expected to continue through 2026 and likely in 2027." Gleason targets RESG ≤50% of loans. So the runoff is a *multi-year* structural glide, not a one-quarter blip.
+3. **Concentration IS genuinely falling — on every disclosed measure** ($ commitments −$6.7B/−19% from peak; unfunded share −19pts; CIB share +19pts). This is the factual core of the bull "de-risking" case (`WEAKNESSES.md` C7). Do not dispute the *direction*.
+
+**But falling concentration ≠ falling risk — the Jul-21 discriminator:** the tell is whether the runoff is *healthy* (good credits repay/refi out) or *adverse selection* (performers exit, problem credits stay). The signature is the **numerator-vs-denominator divergence**: in Q1'26, classified+criticized rose **+23% QoQ to $1.215B** *while* RESG commitments fell **−$1.0B**. Problem balances up, portfolio down = adverse-selection signature, thesis-supportive. **Pre-register for Q2 (Jul 21):** classified+criticized still RISING while RESG commitments still FALLING → adverse selection confirmed, conviction holds 🔴🔴; classified+criticized FALLING alongside RESG → healthy de-risking, C7 gains, step conviction down. → feeds `thesis/PREDICTIONS.tsv` (next task).
 
 ## Most likely origin of the "88%"
 A conflation of one of the ~86–89% (variable-rate) or ~92% (appraisal-coverage) figures, mislabeled as "RESG concentration." It is **not** RESG/total-loans (~mid-50s), **not** RESG/unfunded (60%), **not** LTC/LTV (49/46).

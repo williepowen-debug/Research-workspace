@@ -25,16 +25,14 @@
 
 ---
 
-### 2. Bluerock as secondary short candidate
-**Why:** Bluerock (NYSE-listed) holds $246M PIK loans to IQHQ (13.5-14%, accruing ~$8-9M/qtr unpaid) + significant equity (>$700M total exposure). If RaDD fails, Bluerock takes material hit. **Potentially cleaner IQHQ-fail trade than OZK** — avoids OZK's buyback squeeze risk, extension risk, offsetting CIB strength.
-**Status:** Outbox to BROCK sent Apr 22 (`outbox/2026-04-22_to-BROCK_...`). No REGINALD ticker-level research yet.
+### 2. Bluerock as secondary short candidate — ⚠️ ENTITY VERIFIED 7/4; trade gate NOT met
+**Why:** Bluerock holds $246M PIK loans to IQHQ ($160M@13.5% Dec'27 + $86M@14% Aug'28, accruing ~$8-9M/qtr unpaid) + large first-loss equity (>$700M total, largest IQHQ shareholder). If RaDD fails, Bluerock takes material hit. **Potentially cleaner IQHQ-fail trade than OZK** — avoids OZK's buyback squeeze risk, extension risk, offsetting CIB strength.
+**✅ Verification 7/4 (Bisnow 3/19/26):** Entity = **Bluerock Total Income+ Real Estate Fund (TI+)**, a $3.6B interval fund (listed ~38% below NAV, redemption queue) — **NOT "Bluerock Homes Trust"/BHM** (that was a mislabel). PIK figures confirmed verbatim. Detail → `IQHQ_PLAYBOOK.md` capital-stack footnote. BROCK inbox notified 7/4.
+**Trade gate:** needs a FRESH IQHQ NAV markdown to fire — but the last TI+ mark (−4.4%→$6.28) is **H2'25 vintage; no fresh Q1'26 mark found.** Expression **thins** per the gate below. Re-arm on the next TI+ NAV mark (the leading indicator).
 
-**Where to look:**
-- Bluerock Homes Trust — verify current ticker (formerly BHM, may have changed post-restructuring)
-- Q1 2026 10-Q / NAV marks (expected May-Jun)
-- Prior: "Bluerock 40% first-day trading loss" on NYSE listing — unconfirmed
-- Aimco complaint alleges Bluerock PIK structure is "conflicted financings" — fiduciary exposure for Bluerock directors
-- NexPoint / Highland Capital marks on IQHQ (Bluerock parent complex)
+**Where to look (remaining):**
+- Next TI+ NAV mark — watch for fresh IQHQ writedown (BROCK domain: interval-fund redemption-gate mechanics)
+- ~~Aimco names Bluerock~~ — REFUTED 7/4: complaint alleges "conflicted financings/insider transactions" generally, does **not** name Bluerock
 
 **Estimate:** 2 hours
 **Output:** `OZK/BLUEROCK_EXPOSURE.md` — entity structure, exposure sizing, thesis expression, options chain, position sizing
