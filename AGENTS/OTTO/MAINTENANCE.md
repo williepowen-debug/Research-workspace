@@ -14,6 +14,20 @@ routine content edits. Archive to `archive/` if it grows past ~300 lines (SAM ca
 
 ---
 
+## 2026-07-04 (session 015) — ML.tsv CRLF-merge corruption repaired + EDGAR-via-UA method established
+
+**Trigger:** LAST_COMPLETION-flagged GAP — `workbook/ML.tsv` carried pre-existing CRLF-merge corruption (append-only ledger, not boot-read, so it rotted unfixed across sessions). Repaired as a P2 hygiene item.
+
+**What changed:**
+- **ML.tsv repaired** — 3 overlaid defects fixed programmatically with *validate-before-write*: (a) 11 rows carried a spurious leading integer column (`cat -n`-style line numbers prepended); (b) ML-OTTO-171 was a CRLF-merge of a truncated draft + the complete row — collapsed to the complete copy via `rfind` (no retyping); (c) a stray blank line. Normalized all rows to **CRLF** (matches OTTO/fleet TSV convention — FLOW/VX_HISTORY/CATALYSTS all CRLF; `.gitattributes` absent). Result: **182 contiguous rows (001-182), every row exactly 8 fields**, IDs unique+monotonic — validated before the write executed.
+- **EDGAR primary-source access method established** — SEC `data.sec.gov` / `/Archives/` 403 via WebFetch (can't set a UA); works via `curl`/`urllib` with a compliant `User-Agent` header (auto-memory `[[finding_edgar_403_user_agent_header]]`). Now the OTTO path for 10-D / servicer-report pulls — used this session for the 2022-vintage CNL bifurcation.
+
+**Files touched:** `workbook/ML.tsv` (repair + ML-182/-183 appends), `STATUS.md` (dashboard rows), `thesis/PREDICTIONS.tsv` (OTTO-04).
+
+**Boot-impact:** none (ML.tsv is append-only, not boot-read) — but the ledger is now clean-parseable TSV for any future script.
+
+**Lessons:** validate-before-write (tab-count + ID contiguity) is the safety net for programmatic ledger repair; append in **binary CRLF** to avoid the text-mode line-ending flip (`[[finding_crlf_textmode_tsv_flip]]`); match the file's existing ending convention rather than imposing LF.
+
 ## 2026-07-04 — Closeout-maturity parity pass (Will-directed vs DAEDALUS exemplars)
 
 **Trigger:** Will asked to check OTTO's closeout condition/maturity vs more-developed agents. Compared against DAEDALUS `MATURITY_MAP.md` + `FLEET_MAP.tsv` + a step-by-step closeout extraction of REGINALD (L4)/LABOR/BROCK/CARL/SHADE/BRENT. Finding: OTTO's closeout **machinery is at/above parity** (only fleet agent with BOTH MAINTENANCE+CHANGELOG; full `boot.py`; WINTERKORN sub-agent = BRENT's FASTOW) — but OTTO sits at **mechanical L2, "Needs read"** while its structural twin BRENT read-verified L2→L4. Closed the three cheap conformance gaps.

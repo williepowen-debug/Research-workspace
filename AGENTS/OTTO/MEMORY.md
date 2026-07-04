@@ -36,6 +36,7 @@
 - [2026-05-22 PM] **Wilmington Trust Tricolor-specific resignation IS corporate-confirmed (narrow).** 30-day notice given Sep 20 2025 to step down as indenture trustee on Tricolor ABS only. Successor-trustee role being shunned by other major trustees (Auto Finance News). KBRA Oct 2025 commentary on Tricolor servicing transition didn't extend to other Wilmington-administered deals. This is a real cockroach #1 mechanic and a structural signal (successor vacuum) — but narrow, not franchise-level.
 - [2026-06-09] **Substantive change buried in structural reorg.** thesis/ consolidation forced the Carvana-bundling question that hadn't surfaced under the flat STATUS table. Without the structural pass, the carve-out wouldn't have happened. *Promotion candidate next session — does this generalize?*
 - [2026-06-09] **Inaugural sub-agent CALIBRATION seeding.** A propose-only sub-agent with empty CALIBRATION on first run will repeatedly re-propose the same items. Seed CALIBRATION explicitly at end of inaugural run with accept/decline patterns + date-classification guidance — observed first-run on WINTERKORN (4 accepted, 1 deferred with re-propose conditions). *Promotion candidate — pair with `[[finding_subagent_baseline_audit]]`.*
+- [2026-07-04 s015] **2022-vintage subprime CNL is bifurcated ~2.3x by credit tier** (primary-source 10-D, May-2026 collection): deep-subprime Exeter EART 2022-3 27.58% / 2022-2 26.34% (both >25%, ~28-29% terminal) vs broad-subprime Santander SDART 2022-6 12.08%. The Fitch blended subprime *index* (22.42%@31mo) is a composition average anchored DOWN by Santander's dominant $2B+ deals → OTTO-04's blended-index metric can falsify-on-technicality while the deep-subprime *substance* (what the thesis cares about) is confirmed >25%. Application of auto-memory `[[finding_blended_index_masks_bifurcation]]` + `[[finding_decouple_idiosyncratic_from_systemic_leg]]` + `[[finding_measure_actionable_not_gross_rate]]`. **Consider redefining OTTO-04's canonical measure to the deep-subprime tranche.** EDGAR primary pull works via curl/urllib + compliant User-Agent (`[[finding_edgar_403_user_agent_header]]`).
 
 ## References
 - [2026-04-15] Verita Global — Tricolor Ch.7 docket: https://veritaglobal.net/tricolor (WebFetch fails on cert verification; titles surface via WebSearch but contents blocked)
@@ -48,27 +49,23 @@
 
 ## Session Notes
 
-### CHANGES SINCE LAST SESSION (Jun 9 → Jul 4, 25-day dark gap)
-- **Major catch-up.** No OTTO session ran Jun 9 → Jul 4. A full fired-but-unswept catalyst cluster (Jun 12/15/17/30) resolved this session via primary-source web/EDGAR. WINTERKORN was NOT respawned post-Jun-12 (no session to do it). The 25-day gap is exactly the failure mode the WINTERKORN weekly cadence exists to prevent — the sub-agent only helps if OTTO actually spawns it.
+### CHANGES SINCE LAST SESSION (Jul 4 s014 catch-up → Jul 4 s015, same-day follow-on)
+- Same-day second session, no external time-gap. Session 014 (25-day catch-up sweep) ran earlier today; session 015 = Will-directed P2 primary-source pass. **WINTERKORN confirmed spawned in s014** (its LAST RUN log), so the boot "spawn WINTERKORN overdue" flag was WRONG — it's current (next weekly-Tue Jul 7 / T-3 pre-Jul-28 ~Jul 24-25).
 
-### LAST SESSION (Jul 4 — 25-day catch-up sweep; 2 predictions FALSIFIED, signal downgraded)
-- **OTTO-05 FALSIFIED (the important one):** subprime BBB ABS spread did NOT hit 250bps — it **TIGHTENED to +140bps** (EART 2026-3 Class D, ~Jun 24 `[CONF SEC FWP/IFR]`) vs +190 Mar; deal upsized $1.2bn, Exeter 1st AAA. **Systemic subprime-ABS funding-freeze sub-thread disconfirmed.** Fraud-leg (Tricolor/FBG) is idiosyncratic, not broad repricing → signal downgraded 🔴🔴 → 🔴 fraud / 🟠 systemic. Logged as CHANGELOG pivot + auto-memory `[[finding_decouple_idiosyncratic_from_systemic_leg]]`.
-- **OTTO-28 FALSIFIED-on-window:** Ally Q2 prints Jul 21 (post-Jun-30 resolve); Ally credit improving (NCO/DQ down YoY, 4 straight qtr) = prime/subprime bifurcation.
-- **OTTO-32 HOLD 85%, resolver Jun 12/17 → Jul 28:** Jun 12 — UST conversion NOT granted; reformulated plan pays admin in full; DS conditionally approved; confirmation Jul 28. Plan routes 111/112 → Ch.7 `[CONF Bloomberg Law/TT/Octus]`.
-- **OTTO-04 nudged 75→68%:** spring tax-refund bounce (recovery 37.48% `[PRESS]`) softened the burn.
-- **Carvana:** CVNA $68.60 (+7% off Jun 5); no new short report (Gotham Jan 28 only). **"Jun 12 Discovery Production 2" was a phantom** — never confirmed, retired (WINTERKORN's halt-on-ambiguity vindicated).
-- **CATALYSTS.tsv rebuilt** — fixed a CRLF-merge corruption (Jun15/17 rows), pruned fired, added Jul 21 Ally + Jul 28 FB confirmation. **ML.tsv +177/-178/-179** (ML has pre-existing CRLF-merge corruption in old rows — repair-pending).
+### LAST SESSION (Jul 4 s015 — P2 primary-source pass; OTTO-04 reframed 68→62%)
+- **2022-vintage 10-D pull `[CONF SEC 10-D]`:** bifurcation by tier — deep-subprime Exeter EART 2022-3 27.58% / 2022-2 26.34% (>25%, ~28-29% terminal) vs broad-subprime Santander SDART 2022-6 12.08%; both decelerating into summer, no May re-acceleration. Fitch blended index composition-anchored-down by Santander → **OTTO-04 68→62%**; deep-subprime magnitude leg CONFIRMED, blended-index metric may falsify-on-technicality. CHANGELOG + MAINTENANCE s015 entries logged.
+- **Fitch "May print" = March data** (2mo lag): DQ 6.11% / ANL 8.80% / recovery 37.48% — confirms prior `[PRESS]`, NO new data, no summer re-deterioration in Fitch yet (next print ~Apr-data mid-Jul). 3 stale-vintage articles (May-2024 / Aug-2023 / Jun-2025) avoided by year-verification. STATUS DQ/ANL/recovery rows re-stamped with data-month.
+- **ML.tsv CRLF-merge corruption REPAIRED** (structural): 11 spurious-int rows + 1 merged mega-row (ML-171) + stray blank → 182 clean contiguous rows, all 8 fields, validate-before-write. + ML-182/-183 appended. EDGAR primary pull now via curl/urllib + compliant UA.
 
 ### NEXT SESSION
-1. **Spawn WINTERKORN** (weekly Tue overdue + T-3 pre-Jul-28) — verify Jul 28 FB confirmation + Jul 15/16/21 earnings dates; sweep forward docket.
-2. **Update `thesis/THESIS.md` conviction-decomposition (Magnitude leg) + risk matrix** to encode the fraud-vs-systemic split (CHANGELOG logs the pivot; canonical doc not yet updated).
-3. **Jul 28 First Brands confirmation** = live OTTO-32 resolver (85%). Jul 15 Q2 bank earnings (OTTO-30 last forward-discovery shot). Jul 21 Ally Q2 (OTTO-28 postscript). Jul 16 MTB (OTTO-31).
-4. **Obtain direct Fitch May/Jun ABS print + 2022-vintage 10-D** (OTTO-04). **Repair ML.tsv CRLF-merge corruption.** Refresh stale private-credit/BDC dashboard rows.
-5. ~~TRADE.md rehab~~ ✅ **FROZEN 2026-07-04** (PROME PAT-035; no active OTTO position, Feb-vintage/disconfirmed). Unfreeze only on a concrete OTTO auto trade. Remaining: verify Jun 16 Carvana Chancery dismissal identity; DQ-series reconciliation (7.1% vs Fitch vs VX).
-6. **Maturity parity (Will-directed 7/4):** closeout is exemplar-tier but OTTO sits mechanical-L2 "Needs read." **DAEDALUS judgment-read requested** (`AGENTS/DAEDALUS/inbox/2026-07-04_from-OTTO_maturity-read-request.md`) — BRENT precedent = likely L3-L4. **Workbook-staleness backlog now surfaced at boot: freeze-or-refresh CROSS_AGENT_LOG / EXTENSION_PROXY / KB** (VX+FLOW already frozen). Conv-matrix titling question deferred to DAEDALUS.
+1. **Update thesis/THESIS.md conviction-decomposition (Magnitude leg) + risk matrix** — the standing P1 GAP. Encode BOTH the fraud-vs-systemic split (s014) AND the deep-vs-broad-subprime bifurcation / OTTO-04-metric-decoupling (s015). Consider redefining OTTO-04's canonical measure to the deep-subprime tranche.
+2. **WINTERKORN T-3 pre-Jul-28 (~Jul 24-25)** — re-verify FB confirmation cluster (Jul 20 vote → Jul 27 ballot-cert → Jul 28 hearing). Weekly-Tue Jul 7 optional.
+3. **Jul 28 First Brands confirmation = live OTTO-32 resolver (85%).** Jul 14 Q2 banks (OTTO-30 last shot); ~Jul 15 Fitch Apr-data print (OTTO-04 summer tell); Jul 15 MTB (OTTO-31); Jul 21 Ally (OTTO-28 postscript).
+4. **Route BDC/private-credit dashboard refresh to BROCK** (not OTTO domain — reference, don't re-maintain). DQ-series reconciliation (7.1% vs Fitch 6.90%/6.11% vs VX) still open. Verify Jun-16 Carvana Chancery dismissal identity.
+5. **Freeze-or-refresh CROSS_AGENT_LOG / EXTENSION_PROXY / KB** (boot workbook-staleness +80/+80/+101d). DAEDALUS maturity read still pending (inbox drop s014).
 
 ### PENDING PUSH
-- **Jun 2 + Jun 8 + Jun 9 + Jul 4 work all committed LOCAL only.** Push is Will-coordinated; next window sweeps all (push-train pattern).
+- **Jun 2 + Jun 8 + Jun 9 + Jul 4 s014 + Jul 4 s015 all committed LOCAL.** OTTO CLAUDE.md = commit-local, push Will-coordinated. Will present s015 — offered push; else rides push-train.
 
 ### FLEET-FLAG (surface to Will/PROME)
-- **Auto-memory index `~/.claude/.../memory/MEMORY.md` hit 195 lines** (approaching the ~200 read-limit; hook fired). Needs a compaction pass — but that means retiring ~55 cross-agent pointers, a fleet-owner (PROME) or Will-directed judgment call, NOT a silent OTTO side-effect. OTTO added its one pointer in-convention and flagged rather than pruned.
+- **Auto-memory index ~195 lines** (approaching ~200 read-limit). Fleet-owner (PROME/Will) compaction call — retiring ~55 cross-agent pointers is judgment, not a silent OTTO prune. (Carried from s014.)

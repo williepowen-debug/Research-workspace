@@ -1,7 +1,9 @@
 # OTTO STATUS
 
-**Signal Status:** 🔴 fraud-leg CRITICAL / 🟠 systemic-funding-leg COOLING | **Last Updated:** 2026-07-04 EDT
+**Signal Status:** 🔴 fraud-leg CRITICAL / 🟠 systemic-funding-leg COOLING | **Last Updated:** 2026-07-04 EDT (session 015)
 
+> **📌 Session 015 (Jul 4, same-day follow-on — P2 primary-source pass):** (1) **2022-vintage 10-D pull `[CONF SEC 10-D]`** — the "2022 vintage" is bifurcated ~2.3x by tier: DEEP subprime (Exeter EART 2022-3 **27.58%** / 2022-2 26.34%) already >25% & grinding to ~28-29% terminal; BROAD subprime (Santander SDART 2022-6 **12.08%**) nowhere near. Fitch blended index (22.42%) is a composition average anchored DOWN by Santander's dominant $2B+ deals → **OTTO-04 68→62%**; deep-subprime magnitude leg CONFIRMED but the blended-index metric may falsify-on-technicality (→ CHANGELOG session-015 entry). (2) **Fitch "May print" = March data** (2mo lag) — confirms prior figures, no summer re-deterioration visible yet; 3 stale-vintage traps (2023/24/25) avoided. (3) **ML.tsv CRLF-corruption REPAIRED** (182 clean rows → MAINTENANCE). All committed local. — *Jul 4 catch-up pointer below.*
+>
 > **📌 New spawn (Jul 4 catch-up sweep — 25-day dark, Jun 9 → Jul 4):** A full catalyst cluster fired unswept while OTTO was dark. **Resolved this session (primary-sourced):**
 > - **OTTO-05 FALSIFIED** — subprime BBB ABS spread did NOT hit 250bps; it **TIGHTENED to +140bps** (EART 2026-3 Class D, settled ~Jun 24 `[CONF SEC FWP/IFR]`) vs +190 in Mar. Deal upsized to $1.2bn; Exeter earned 1st-ever AAA. **The "systemic subprime-ABS funding freeze" sub-thread is disconfirmed** — primary market open + tightening. Fraud-case leg (Tricolor/FBG) is idiosyncratic, not a broad-market repricing.
 > - **OTTO-28 FALSIFIED-on-window** — Ally Q2 prints Jul 21 (after Jun 30 resolve); Q1 had no Carvana break-out. And Ally credit is *improving* (retail NCO 1.97% −15bps YoY; 30+ DQ 4.60% −17bps YoY, 4th straight qtr) — prime/near-prime improving vs deep-subprime bleeding = Invisible-Exit-consistent bifurcation.
@@ -67,14 +69,14 @@
 | Blue Owl | $1.4B forced sale + OTIC permanently gated | 🔴🔴 |
 | JPM PC Markdowns | $22.2B exposure; 3-5% default spike forecast | 🔴🔴 |
 | Private Credit Sector | $265B market cap wipeout — "resembles bank run" | 🔴🔴 |
-| 60+ DQ Rate | **7.1% (Feb) — NEW RECORD**; spring Fitch series eased to ~6.1% on tax-refund seasonality `[PRESS]` — watch summer re-deterioration | 🟠 |
+| 60+ DQ (Fitch subprime index) | Jan **6.90%** (record) → Feb 6.80% → **Mar 6.11%** (tax-refund low) `[PRESS Fitch via AutoRemarketing — Mar-2026 data, pub May 21 2026]` = **latest available print** (Fitch ~2mo lag). Summer re-deterioration NOT yet in Fitch data; next print (Apr data) ~mid-Jul. *(Separate 7.1%-Feb aggregate cut = DQ-reconciliation pending)* | 🟠 |
 | Subprime ABS BBB spread | **+140bps — TIGHTENED** (Exeter EART 2026-3 Class D, BBB/Baa3, settled ~Jun 24 `[CONF SEC FWP/IFR]`) vs +190 in Mar (EART 2026-2). Moved 50bps the WRONG way for OTTO-05 → **FALSIFIED** | 🟢 cooling |
 | Subprime ABS issuance | **Open + robust** — EART 2026-3 **upsized to $1.2bn** (WFS/Barclays/JPM, Jun 24); Exeter earned **1st-ever AAA** from S&P/Moody's; strong pace across Santander/Exeter/Westlake/Pagaya/CarMax. Below-IG clears. **"Systemic funding-freeze" sub-thread disconfirmed** | 🟢 |
 | Ally auto credit (Q1 2026) | retail NCO **1.97% (−15bps YoY)**; 30+ DQ **4.60% (−17bps YoY, 4th straight qtr improving)** — prime/near-prime improving while deep-subprime bleeds (bifurcation). Q2 prints Jul 21 | 🟢 |
 | CVNA price | **$68.60** (Jul 4, +7% off $64 Jun 5) despite CFO insider selling; no new short report since Gotham Jan 28 | 🟡 |
-| Fitch subprime ANL (Jan 2026) | **9.81% — post-pandemic high** (+30bp YoY) | 🔴 |
-| Recovery rate | **32.64% YE2025** (vs pre-pandemic 43.73%); Fitch monthly series bounced to **37.48%** on spring tax refunds `[PRESS]` | 🟠 |
-| 2022 vintage CNL realized | **22.42% Apr 15** → projects ~24.3-24.5% Sep 30 (vs 25% trigger); **OTTO-04 nudged 75→68%** on seasonal softening | 🟠 |
+| Fitch subprime ANL | Jan 2026 **9.81%** (post-pandemic high, +30bp YoY) → **Mar 8.80%** (seasonal ease) `[PRESS Fitch/AutoRemarketing — Mar-2026 data]`; TTM 9.00% | 🔴 |
+| Recovery rate | **32.64% YE2025** (vs pre-pandemic 43.73%); Fitch monthly bounced to **37.48%** on spring tax refunds `[PRESS Fitch/AutoRemarketing — Mar-2026 data, pub May 21 2026]` = latest available; TTM 37.02% | 🟠 |
+| 2022 vintage CNL — by tier `[CONF SEC 10-D]` | **DEEP subprime already >25%:** EART 2022-3 **27.58%** / 2022-2 26.34% (May'26, climbing but decel.). **BROAD subprime far below:** SDART 2022-6 **12.08%**. Fitch subprime *index* 22.42%@31mo `[PRESS]` = composition-blend between → ~24.3-24.5% Sep 30 (vs 25%); **OTTO-04 68→62%** (Santander's dominant low-CNL deals anchor the blend down) | 🟠 |
 | NFP | **-92,000 — FIRST NEGATIVE** | 🔴 |
 | CVNA Extension Rate | 5.41% (+45% spike) | 🔴 |
 | CFPB | **Functionally Dead** | 🔴 |
@@ -159,7 +161,7 @@ $12B debt. DOJ indicted Patrick James (9 counts). Asset recovery <2%. **Jun 12 h
 | OTTO-29 | Tricolor ABS trustee distribution <15¢ | 🟢 Substance tracking CONFIRMED (auction ~3%, ABS <10¢); **resolution at Sep 30 RISK** — $113M dispute may push past resolve date |
 | OTTO-30 | 6th US bank discloses Tricolor exposure by Q2 | 🟠 OPEN — conf 65→45%. Q1 surface swept (HBAN/CFG/RF/Truist/etc clean). Origin Bancorp surfaces as known-unknown 6th name predating prediction window. Only Q2 earnings + MTB dollar update left. |
 | OTTO-31 | Wilmington Trust non-mortgage custodial exit by Dec 31 | 🟠 OPEN — **conf 60→30%**. Corporate-side EVIDENCE AGAINST (M&T anon source denial); only narrow Tricolor-specific resignation is corporate-confirmed. |
-| OTTO-04 | 2022 vintage CNL >25% by Sep 30 | 🟠 OPEN **75→68%** — spring tax-refund bounce softened the burn (recovery to 37.48%); ~24.3-24.5% Sep 30 projection now less likely to cross 25%. |
+| OTTO-04 | 2022 vintage CNL >25% by Sep 30 | 🟠 OPEN **68→62%** — `[CONF SEC 10-D]` deep-subprime 2022 (EART) already 26-27.6% & >25%, but broad-subprime (SDART) only 12.1%; tracked *blended index* anchored low by Santander's dominant deals → crosses 25% less easily. No May re-acceleration. |
 | OTTO-05 | Subprime BBB ABS spread >250bps by Jun 30 | ❌ **FALSIFIED (Jul 4)** — BBB **TIGHTENED to +140bps** (EART 2026-3, Jun 24) vs +190 Mar; deal upsized $1.2bn, 1st AAA. Spread moved OPPOSITE. Systemic-funding-freeze sub-thread disconfirmed. |
 | OTTO-28 | Ally discloses Carvana-specific DQ/NCO by Jun 30 | ❌ **FALSIFIED-on-window (Jul 4)** — Ally Q2 prints Jul 21 (post-resolve); Q1 no break-out. Ally credit improving (NCO −15bps, DQ −17bps YoY). |
 | OTTO-32 | First Brands majority Ch.7 by Sep 30 | 🟠 OPEN **85%** — Jun 12 DS approved (no conversion); confirmation **Jul 28**; plan routes 111/112 → Ch.7. |
