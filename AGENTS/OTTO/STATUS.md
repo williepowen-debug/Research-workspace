@@ -139,9 +139,10 @@ $12B debt. DOJ indicted Patrick James (9 counts). Asset recovery <2%. **Jun 12 h
 | **Jun 17** | First Brands: plan-confirmation hearing (contingent) | ✅ **SUPERSEDED → Jul 28** (swept Jul 4) — Jun 12 DS approval reset the confirmation to Jul 28 |
 | **Jun 30** | OTTO-05 + OTTO-28 prediction resolve | ✅ **BOTH FALSIFIED (swept Jul 4)** — OTTO-05: BBB spread tightened to +140bps (not >250); OTTO-28: Ally Q2 postdates resolve + no break-out |
 | **Jul 21** | Ally (ALLY) Q2 2026 earnings, 7:30am ET | 🟡 OTTO-28 postscript — Carvana-sourced-loan commentary + NCO/DQ bifurcation check |
-| **Jul 28** | **First Brands plan-confirmation hearing (Lopez, 9am CT, SDTX Ct 401)** — NEW operative OTTO-32 resolver | 🔴 KEY `[CONF Bloomberg Law/TT/Octus]` — plan confirmed = OTTO-32 CONFIRMED early (111/112 → Ch.7); delay past Sep 30 = window risk |
+| **Jul 28** | **First Brands plan-confirmation hearing (Lopez, 9am CT, SDTX Ct 401)** — NEW operative OTTO-32 resolver (combined w/ final DS; voting deadline Jul 20) | 🔴 KEY `[CONF Bloomberg Law/TT/Octus]` — plan confirmed = OTTO-32 CONFIRMED early (111/112 → Ch.7); delay past Sep 30 = window risk |
+| **Jul 29** | Tricolor criminal trial-scheduling hearing (Judge Castel, SDNY) | 🟠 `[CONF Bloomberg/AFN/ICP]` — Castel rules on Chu's motion to push trial past Oct 19 → **Feb 2027**; gates the Oct 19 fraud-surface catalyst |
 | **Nov 11** | Tricolor §341 (continued) — next-canonical observation point after Jun 17 continuance | 🟠 [CONF Verita Jun 9 via WINTERKORN] — next forward-window check on distribution-plan / $113M dispute |
-| **Oct 19** | Tricolor executive trial (Judge Liman, SDNY) | 🟠 |
+| **Oct 19** | Tricolor executive trial (Chu/Goodgame, Judge **Castel**, SDNY) | 🟠 **date NOT final** — Jul 29 hearing decides Oct 19 vs Feb 2027 slip |
 
 ---
 
@@ -178,4 +179,4 @@ $12B debt. DOJ indicted Patrick James (9 counts). Asset recovery <2%. **Jun 12 h
 - research/outputs/ — RP-OTT-1.1–4.1 (15 reports)
 
 *Mar 20 check-ins (FOMC, CVNA, fraud, ABS, CFPB) and prior condensed check-ins archived to `workbook/STATUS_archive_20260325.md`*
-*Next triggers: **Jul 15 Q2 bank earnings open (JPM/WFC/C) — OTTO-30 forward-discovery** + Fitch Jun ABS print (OTTO-04); Jul 16 MTB Q2 (OTTO-31); Jul 21 Ally Q2 (OTTO-28 postscript); **Jul 28 First Brands plan-confirmation = OPERATIVE OTTO-32 resolver**; Aug 15 NY Fed Q2 HDC; Aug 31 OTTO-30 resolve; Sep 30 OTTO-04/29/32 resolve; Oct 19 Tricolor criminal trial; Nov 11 Tricolor §341 (continued)*
+*Next triggers: **Jul 14 Q2 bank earnings open (JPM/WFC/C all Jul 14) — OTTO-30 forward-discovery**; Jul 15 Fitch Jun ABS print (OTTO-04) + MTB Q2 (OTTO-31); Jul 20 First Brands creditor-vote deadline; Jul 21 Ally Q2 (OTTO-28 postscript); **Jul 28 First Brands plan-confirmation = OPERATIVE OTTO-32 resolver**; Jul 29 Tricolor trial-scheduling hearing (Oct 19 vs Feb 2027); Aug 15 NY Fed Q2 HDC; Aug 31 OTTO-30 resolve; Sep 30 OTTO-04/29/32 resolve; Oct 19 Tricolor criminal trial (Castel); Nov 11 Tricolor §341 (continued)*

@@ -41,7 +41,7 @@
 - [2026-04-15] Verita Global — Tricolor Ch.7 docket: https://veritaglobal.net/tricolor (WebFetch fails on cert verification; titles surface via WebSearch but contents blocked)
 - [2026-04-15] Kroll — First Brands docket (primary source for hearing dates, adjournments)
 - [2026-04-15] SEC EDGAR CIK 0001569650 = OZK (REGINALD scope)
-- [2026-04-15] DOJ/SDNY — Judge Lewis J. Liman presides over Tricolor criminal case; trial Oct 19 2026
+- [2026-04-15; corrected 2026-07-04] DOJ/SDNY Tricolor criminal case — presiding judge is **Kevin Castel** (set Oct 19 trial), NOT Liman (prior docs wrong; Liman took the Dec-2025 cooperator pleas). Oct 19 date NOT final — Castel holds a Jul 29 hearing on Chu's motion to slip to Feb 2027.
 - [2026-05-21] Octus — paid source for ABS litigation coverage; referenced Fifth Third Apr 24 supplemental motion but didn't quote (paywalled to OTTO)
 - [2026-05-21] Auto Finance News (autofinancenews.net) — primary press source for auction proceeds + missing vehicles; WebFetch hits 403 but search snippets reliable
 - [2026-02-16] Prior cross-agent exposure map: `AGENTS/OTTO/archive/CROSS_AGENT_SIGNAL_REGINALD_APR15_draft_superseded.md`

@@ -101,7 +101,7 @@ You do maintenance, not analysis. If a task requires a judgment call about the t
 | Class | Example | date_class | Notes |
 |-------|---------|------------|-------|
 | **Court-scheduled hearing** | First Brands UST convert-or-dismiss Jun 12; Tricolor creditor meeting Jun 17 | `confirmed` | Date is docket-verified per § BASELINE AUDIT court-calendar rules |
-| **Criminal-track milestone (selective)** | Tricolor Chu/Goodgame trial Oct 19 (Judge Liman); cooperator-witness motions if surfaced | `confirmed` | **Selective: trial + cooperator motions only.** Routine SDNY motion practice excluded — inflates TSV without driving OTTO action. |
+| **Criminal-track milestone (selective)** | Tricolor Chu/Goodgame trial Oct 19 (Judge **Castel**; Oct 19 date NOT final — Jul 29 scheduling hearing); cooperator-witness motions if surfaced | `confirmed` | **Selective: trial + cooperator motions only.** Routine SDNY motion practice excluded — inflates TSV without driving OTTO action. |
 | **Public release (rating + macro)** | Fitch Auto ABS Index monthly; NY Fed HDC quarterly; S&P / KBRA ABS surveillance | `confirmed` | Date is source-verified per recurring-release table |
 | **Bank earnings (named-banks subset)** | JPM / 5-3 / BCS / Regions / MTB / OBK quarterly earnings | `confirmed` | **Subset only — Tricolor-named banks for disclosure-escalation watch.** Not OTTO's primary scope (REGINALD owns bank sizing) but OTTO interested in surfacing-vs-flat. |
 | **ABS new-issue pricing window** | EART 2026-Q3 / Bridgecrest / GCAR | `modeled` | Pricing dates projectable from issuer cadence; revise within 7d via SEC EDGAR FWP search |
@@ -129,7 +129,7 @@ You do maintenance, not analysis. If a task requires a judgment call about the t
 | **S&P / KBRA / Moody's ABS surveillance** | Monthly + on-event | Rating-agency direct + Auto Finance News | Include monthly; 🟠 (downgrade wave is a signal trigger). On-event additions: any ECNL revision / class-action / CreditWatch placement → add as 🟠 ad-hoc row |
 | **First Brands docket** (S.D. Tex., Judge Lopez) | Per court calendar | Kroll restructuring docket (auth-gated → news clears) + Law360 + Octus + CreditSights | All hearings: UST motion, plan-confirmation, DS, examiner deadlines, omnibus, fee apps; 🔴 |
 | **Tricolor Ch.7 docket** (Verita, Judge Burns) | Per court calendar | Verita Global (cert-blocked → search-only) + Bloomberg Law + Green Street News | Creditor meetings, distribution-plan ETAs, Rule 2004 motions, trustee final reports; 🔴 |
-| **Tricolor SDNY criminal** (Chu/Goodgame, Judge Liman) | Per court calendar | DOJ press / Law360 | **Selective: trial date + cooperator-witness motions only.** Routine motion practice excluded. 🟠 |
+| **Tricolor SDNY criminal** (Chu/Goodgame, Judge Castel) | Per court calendar | DOJ press / Law360 | **Selective: trial date + cooperator-witness motions only.** Routine motion practice excluded. 🟠 |
 | **Carvana derivative / discovery** | Per case | StockTitan / PRNewswire / DE Chancery filings | Production milestones (Jun 12 Production 2), pre-trial conferences, ruling deadlines; 🟠 |
 | **Bank Q-earnings** (Tricolor-named: JPM, 5-3, BCS, Regions, MTB, OBK) | Quarterly | SEC EDGAR + IR calendars | 🟠 — named-banks subset (REGINALD owns sizing; OTTO tracks disclosure escalation) |
 | **ABS new-issue pricing** (EART / Bridgecrest / GCAR + smaller stressed shelves: CPS / Flagship / Lendbuzz / SAFCO) | Quarterly issuer cadence | SEC EDGAR FWP search + GlobalCapital | `modeled`; 🟠 — direct source for OTTO-05 spread tracking + OTTO-07 shelf-halt watch |
