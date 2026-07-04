@@ -469,6 +469,14 @@ def _delivery_roles():
     return out
 
 
+# Recipients whose OWN boot scan is a COMPLETE whole-INDEX /BOARD/ diff (dispositions
+# every unrecorded SIG-W across all of INDEX) → complete pull; WALTER SKIPS inbox
+# delivery to them (BOARD_CONSUMPTION_SPEC §3.5, v0.7, verified 2026-07-04). Any handoff
+# in their inbox is a to-ARCHIVE residue, NOT a consume-gap. Verify "complete" (not
+# tiered/selective) empirically before adding an agent. REGINALD/SAM are NOT complete.
+PULL_COMPLETE = {"CARL"}
+
+
 def check_delivered_but_unconsumed():
     """A delivered handoff (on origin) sitting >N days without being moved to
     processed/ → the recipient's Phase-2 consume boot-step may not be installed.
@@ -477,16 +485,27 @@ def check_delivered_but_unconsumed():
     if not files:
         return [(INFO, "no WALTER handoffs in flight")]
     origin = _origin_ref()
-    aged = []
+    aged, pull_complete = [], []
     for p, recipient, relpath in files:
         if _sync_state(relpath, origin) != "on_origin":
             continue  # not delivered yet → written_but_undelivered owns it
         age = _age_days(dt.date.fromtimestamp(p.stat().st_mtime))
         if age > N_UNCONSUMED_DAYS:
             sig = p.name[:-3] if p.name.endswith(".md") else p.name
-            aged.append((recipient, sig, age))
+            (pull_complete if recipient.upper() in PULL_COMPLETE else aged).append(
+                (recipient, sig, age))
+    # Pull-complete recipients (WALTER skips delivery, §3.5) — residual handoffs are a
+    # one-time to-ARCHIVE cleanup by PROME, NOT a consume-gap (+ a re-delivery tripwire).
+    pc = []
+    if pull_complete:
+        cnt = {}
+        for r, _s, _a in pull_complete:
+            cnt[r] = cnt.get(r, 0) + 1
+        pc = [(LOW, "pull-complete agents (WALTER skips delivery per §3.5) have handoffs to "
+               "ARCHIVE not consume: " + ", ".join(f"{r} {n}" for r, n in sorted(cnt.items()))
+               + " — bulk-`git mv` to processed/ (one-time; if NEW, WALTER mis-delivered)")]
     if not aged:
-        return [(INFO, f"all delivered handoffs consumed or ≤{N_UNCONSUMED_DAYS}d old "
+        return pc + [(INFO, f"all delivered handoffs consumed or ≤{N_UNCONSUMED_DAYS}d old "
                       f"({len(files)} in flight)")]
     # Collapse to a role-split summary (ACTION = the real risk; INFO cc-pile =
     # low-stakes per the 2026-06-23 delivery-telemetry calibration) — one line,
@@ -511,9 +530,9 @@ def check_delivered_but_unconsumed():
                f"oldest {oldest}d — {action_total} ACTION / {info_total} INFO: "
                f"{'; '.join(parts)}")
     if action_total:
-        return [(MED, summary + " — ACTION items are the risk; install recipient "
+        return pc + [(MED, summary + " — ACTION items are the risk; install recipient "
                       "consume boot-step (CC self-apply set) to clear")]
-    return [(LOW, summary + " — all-INFO cc-pile, low-stakes; clears when the "
+    return pc + [(LOW, summary + " — all-INFO cc-pile, low-stakes; clears when the "
                   "consume boot-step is installed")]
 
 

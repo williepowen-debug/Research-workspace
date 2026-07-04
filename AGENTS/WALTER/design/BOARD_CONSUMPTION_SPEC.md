@@ -1,6 +1,6 @@
 # BOARD Delivery + Consumption Spec
 
-**Version:** v0.6
+**Version:** v0.7
 **Created:** 2026-04-20 (v0.1 consumption-only) · **Extended:** 2026-06-17 (v0.2 delivery layer) · **Clarified:** 2026-06-18 (v0.3–v0.5 Quick-WALTER tightening) · **Collapsed:** 2026-06-26 (v0.6 single-machine platform-collapse — OpenClaw cut)
 **Owner:** WALTER
 **Status:** **Single-machine (desktop CC) since 2026-06-26 — OpenClaw cut; `delivered` is uniform (committed + on-origin); Quick-WALTER retired.** Delivery layer SHIPPED; consumption = Phase 2 self-apply (see §8). Approved-in-principle by Will + PROME + ORC (2026-06-17); v0.6 collapse Will-ratified 2026-06-26 (`design/OPENCLAW_CUTOVER_PLAN.md`).
@@ -82,6 +82,20 @@ Push is **not** automatic blanket WALTER authority (see §7). The one standing a
 
 - **FLASH / IMMEDIATE:** WALTER may perform a **clean-tree scoped commit + push via `scripts/safe-push.sh`** (the ff-gated helper) — *only if* there is no unrelated/uncommitted work in the shared tree and no unsafe rebase condition (0g, Will-ratified 2026-06-26). Git pushes **commits, not files**, so this is: *commit only the exact WALTER / BOARD / recipient-handoff paths, verify the tree is clean/safe, `pull --rebase` if behind, push via the ff-gate, never force* — NOT "push specific files." This is the **only** standing auto-push authorization; all other pushes stay Will-coordinated.
 - **PRIORITY / ROUTINE:** write + commit locally, mark `written_not_delivered_pending_push`, and surface in `walter_doctor` + closeout until a Will sync window (or the next push-train) pushes it.
+
+---
+
+### 3.5 Pull-complete recipient exemption — skip inbox delivery (added v0.7, 2026-07-04)
+
+A recipient that runs a **complete** `/BOARD/` diff-scan at boot — one that dispositions **every unrecorded `SIG-W` across all of INDEX** (not a tiered/selective subset) — already has a **complete pull**. For such an agent the per-recipient `inbox/WALTER/` handoff is redundant with its own scan (both are fed the same BOARD entry), so **WALTER SKIPS the `inbox/WALTER/` handoff + the `delivery_log` delivery row for it.** The BOARD entry + `route_log` row are still written (the signal is published + audit-logged as normal); only the redundant push-delivery to that agent is skipped.
+
+**Exemption criterion (verify empirically before adding an agent):** the agent's boot doc must run a *complete whole-INDEX* BOARD-diff (grep all of `BOARD/INDEX.md` vs its ledger, disposition every unrecorded ID). **Tiered/selective scans do NOT qualify** — they can skip the cluster an ACTION item lands in. Confirm by the 2026-07-04 CARL reconciliation method: the agent's ACTION handoffs already appear dispositioned in its ledger with **zero un-dispositioned ACTION**.
+
+**Current exemption list:**
+- **CARL** — runs a complete whole-INDEX BOARD-diff (`AGENTS/CARL/CLAUDE.md` boot step 5, diffs *all* of INDEX vs `board/BOARD_LOG.tsv`). Verified 2026-07-04: 22/22 ACTION handoffs already dispositioned, 0 misses → WALTER stops writing to `AGENTS/CARL/inbox/WALTER/`.
+- **NOT exempt — REGINALD** (BOARD-diff is *tiered/selective*, step 9b three-tier scope; the 7/4 reconciliation found an un-dispositioned ACTION — the OZK deed-in-lieu SIG-W-20260704-004 → keeps the lane + a drain-step) and **SAM** (no `/BOARD/` scan at all → the lane is its only intake).
+
+**Doctor:** `walter_doctor` carries a `PULL_COMPLETE` set that excludes exempt agents from `delivered_but_unconsumed` and instead flags any residual handoffs in their inbox as **to-ARCHIVE** (a one-time cleanup, not a consume-gap). **Transition:** existing pre-exemption handoffs are bulk-archived to `processed/` by PROME (cross-dir write, Will-authorized) once the exemption lands; going forward WALTER simply never creates them. Adding/removing an agent from the exemption edits both this list and the doctor's `PULL_COMPLETE` set.
 
 ---
 
@@ -249,6 +263,7 @@ Auto-memory `[[project_messaging_overhaul]]` ("don't patch inbox/outbox/HERMES h
 
 ## Version History
 
+- **v0.7** — 2026-07-04 — **§3.5 pull-complete recipient exemption** added (Will-approved, relayed via PROME). A recipient that runs a *complete whole-INDEX* `/BOARD/` diff-scan has a complete pull → WALTER skips its `inbox/WALTER/` handoff + `delivery_log` row (BOARD + route_log still written). First exemption: **CARL** (verified 7/4 — 22/22 ACTION already dispositioned, 0 misses). Explicitly NOT exempt: REGINALD (tiered scan; 1 un-dispositioned ACTION found) + SAM (no scan). `walter_doctor` `PULL_COMPLETE` set excludes exempt agents from `delivered_but_unconsumed` + flags residual handoffs as to-ARCHIVE. Provenance: WALTER↔PROME consume-step reconciliation 2026-07-04 (the "asymmetric-records" class; CARL/REGINALD asymmetry surfaced by the tiered-vs-complete distinction).
 - **v0.6** — 2026-06-26 — **single-machine platform-collapse** (OpenClaw/VPS cut). `delivered` collapses to one definition (committed + on-origin); §3.3 platform table retired; §3.4/§7 push authority → WALTER-self-on-clean-tree via `safe-push.sh` ff-gate (0g); §4 `recipient_platform` constant `CLAUDE_CODE` going forward (historical `OPENCLAW` rows preserved, append-only); §8 all recipients self-apply consume; §9 **Quick WALTER RETIRED** (0d); §10 VPS framing dropped. Will-ratified 2026-06-26 (Phase-0 0a/0d/0e/0f/0g). Canonical: `design/OPENCLAW_CUTOVER_PLAN.md` + `BOARD_CONSUMPTION_SPEC_v0.6_CHANGESET.md`. (v0.3–v0.5 were Quick-WALTER tightening — moot with Quick retired.)
 - **v0.2** — 2026-06-17 — Delivery layer added (`inbox/WALTER/` create-only handoff files + platform-nuanced `delivered` + `delivery_log.tsv` + git-derived sync telemetry + scoped-push policy + phased-time-boxed rollout + `board_log` `source` column + Quick/Full mode reference). Per "WALTER Routing v2 — Final Design Packet", Will + PROME + ORC approved-in-principle 2026-06-17.
 - **v0.1** — 2026-04-20 — initial consumption spec (`board_log.tsv` + BOARD-scan boot-step). Defaults approved by Will via Telegram msg 938. Propagation stalled → motivated v0.2.
