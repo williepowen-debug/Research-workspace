@@ -96,3 +96,9 @@
 ## Navigation
 
 **Cold boot → `INDEX.md`** · **Thesis → `THESIS.md` (v1.3)** · **Q1 → `Q1_2026_ANALYSIS.md`** · **IQHQ → `IQHQ_PLAYBOOK.md`** · **Seven credits → `SEVEN_CREDIT_DEEP_DIVE.md`** · **Bull pushback → `WEAKNESSES.md`** · **Backlog → `TODO.md`** · **KB → `workbook/KB_INDEX.md`**
+
+---
+
+## BOTTOM LINE
+
+RESERVOIR v1.3 intact: RESG stress is accumulating into the **Aug 2026 IQHQ RaDD maturity** (weighted EL $140M, 68% prob of a $140M+ event) — maturity re-confirmed from primary. **The Q2 print (Jul 21) is the near-term tell:** watch RaDD specific-reserve build and the **classified-vs-RESG-balance discriminator** (classified rising while RESG shrinks = adverse-selection, thesis holds; both falling = the de-risking bull case gains, step conviction down). NCO 0.56% sits **1bp above the ≤55bps kill-line.** Chief bull risk: RESG-runoff "de-risking" narrative (Street low-60s, WEAKNESSES C7). **Conviction 🔴🔴 HIGH. Next hard read: Jul 21 earnings.**
