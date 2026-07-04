@@ -14,7 +14,13 @@ Boot catch-up covering 6/28→7/4. Thesis-state **UNCHANGED** (base case still *
 
 **Ingested (15 WALTER signals, inbox/WALTER/):** office/CMBS realized comps (205 W Randolph, Aon/601W, 1 S Wacker/BXMT default, Seattle OZK, Galveston); Sun Belt MF cluster (S2 Capital, 75 West, Austin, 16.9% concessions); structural financing bifurcation (CRE pricing spread industrial +88.5% vs office +36.6%; CMBS book −$9.6B vs banks +$17.5B/agency +$12.8B; defeasance decade-low); Fitch GSMS 2017-GS6 downgrades; counter-leg (Blackstone FLL W-Hotel refi = quality still financeable — CORAL/FL). Two 7/4 items WALTER-CONFIRMED (0.85–0.88); rest single-source/SKIP-VERIFY 0.6–0.82.
 
-**Discipline notes:** anecdote cluster corroborates the verified June aggregate rather than carrying the read; S5/S6 share the Sun-Belt-MF-cluster antecedent (count once); no outbox routing this session — no signal fired (all my routes are fire-gated) and WALTER already fanned each signal to its domain owner via the BOARD `to:`/`info:` lists.
+**REIT equity tape (last close 7/2, pulled 7/4) — COUNTER-SIGNAL (S8 holds 2):** office REITs + brokers rallied 5–15% off the 6/18 baseline (SLG +5.7% / BXP +7.1% / VNO +7.3% / HPP +15.7% / JLL +10.1%); VNQ −2.9pp vs SPY/3mo (far from −10 trigger), +6.3pp/1mo (REITs outperforming). The public tape is not confirming the private/CMBS recognition deterioration. Lone dissent: OZK −5.7% on 7/2 (Seattle deed-in-lieu name).
+
+**Full source-pack refresh:** wrote `research/REFRESH_2026-07-04.md` (current pack — June Trepp + recognition cluster + financing bifurcation + 7/2 REIT tape); superseded `REFRESH_2026-06-21.md` (banner; retained for FDIC-Q1 / maturity-wall source-trail); added 7/2 snapshot pointer to the REIT tape module; swept the source-pack pointer in CLAUDE.md (boot order + Current Rails), README, STATUS, THESIS.
+
+**Cross-agent:** CREED→CARL handoff delivered (`AGENTS/CARL/inbox/FROM_CREED_2026-07-04_mf-term-default-broadening.md`, Will-instructed) — June CMBS MF + Sun Belt cluster for CARL's convergence work (CARL's CMBS-MF row was stale at Apr 7.71%).
+
+**Discipline notes:** anecdote cluster corroborates the verified June aggregate rather than carrying the read; S5/S6 share the Sun-Belt-MF-cluster antecedent (count once); the equity tape is a deliberate counter-signal (bear read is a private-market story the public REIT tape is not corroborating); no outbox routing beyond the Will-instructed CARL note — no signal fired (all routes fire-gated) and WALTER already fanned each signal to its domain owner via the BOARD `to:`/`info:` lists.
 
 ## 2026-06-21 — Phase 4 thesis rails installed
 

@@ -32,7 +32,7 @@ Current evidence:
 - FDIC Q1 2026 bank PDNA: **1.53%** overall; non-owner CRE and multifamily elevated, but large-bank non-owner CRE PDNA improved to **3.40%**. *(Q2 QBP not yet out.)*
 - **Realized-recognition comp cluster (Jun–Jul 2026 — the recognition now printing as REALIZED losses, not just marks; mostly single-source/WALTER-routed unless noted):** 205 W Randolph Chicago office liquidated at a **72% haircut = $12.2M realized CMBS loss** (COMM 2015-CR22; single-source, unverified vs remit); Aon Center Chicago **−58% appraisal** ($780M→$330.5M) with 601W seeking another extension; Bank OZK **deed-in-lieu** on the Seattle U-District "Chapter Buildings" (~394K SF office/life-science, ~$126M current OZK exposure; the LOI-for-recap FAILED — **CONFIRMED 0.85**); Galveston vacant office **$8.79/SF, 0% occ**; **S2 Capital $400M multifamily Fund I dissolved, "no return of capital"** to LPs + $311M North Texas MF at foreclosure this month (**CONFIRMED 0.88** vs The Real Deal primary); 75 West N.Dallas ($90M, Ares 2022 lender) + Austin 526-unit MF ($61.1M-2024 → $9.5M opening bid) forced-sale comps; MF rent concessions **16.9%** (12-yr high, Class-C 21.5% / Sunbelt-led).
 
-Primary source pack: `AGENTS/CREED/research/REFRESH_2026-06-21.md` (base pack; June-2026 refresh layered above pending a full source-pack rewrite).
+Primary source pack: `AGENTS/CREED/research/REFRESH_2026-07-04.md` (current — June Trepp + realized-recognition cluster + 7/2 REIT tape; supersedes `REFRESH_2026-06-21.md`, retained for FDIC-Q1 / maturity-wall source-trail).
 
 ---
 

@@ -59,7 +59,7 @@ Standing rule: route to the **domain owner**, one signal at a time, transmission
 4. Read `AGENTS/CREED/REVIVAL_PLAN.md`.
 5. Treat legacy CREED material under `AGENTS/REGINALD/sub-agents/CREED/` as **source archive**, not current truth.
 6. Before making market claims, read the current rails in this order:
-   1. `AGENTS/CREED/research/REFRESH_2026-06-21.md`
+   1. `AGENTS/CREED/research/REFRESH_2026-07-04.md` (current source pack; `REFRESH_2026-06-21.md` retained only for the FDIC-Q1 / maturity-wall source-trail it carries forward)
    2. `AGENTS/CREED/thesis/THESIS.md`
    3. `AGENTS/CREED/thesis/CHANGELOG.md`
    4. `AGENTS/CREED/research/INBOX_TRIAGE_2026-06-21.md`
@@ -109,11 +109,11 @@ Use current rails for the June 2026 thesis state. Fresh data is still required b
 
 Current source pack and thesis rails. These are mandatory before CREED makes current analytical claims:
 
-- `AGENTS/CREED/research/REFRESH_2026-06-21.md`
+- `AGENTS/CREED/research/REFRESH_2026-07-04.md` (current source pack; `REFRESH_2026-06-21.md` = FDIC-Q1 / maturity-wall source-trail)
 - `AGENTS/CREED/thesis/THESIS.md`
 - `AGENTS/CREED/thesis/CHANGELOG.md`
 - `AGENTS/CREED/research/INBOX_TRIAGE_2026-06-21.md`
-- `AGENTS/CREED/research/REIT_EQUITY_TAPE_MODULE_2026-06-21.md`
+- `AGENTS/CREED/research/REIT_EQUITY_TAPE_MODULE_2026-06-21.md` (latest tape snapshot 7/2 in §top)
 - `AGENTS/CREED/archive/LEGACY_PULL_FORWARD_2026-06-21.md`
 
 Every trade-relevant number still needs a source/date. Refresh monthly CMBS, FDIC, or REIT/broker tape before treating levels as current.

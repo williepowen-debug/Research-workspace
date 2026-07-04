@@ -14,7 +14,8 @@ Read these first:
 
 Use these before making current CRE / CMBS claims:
 
-- `AGENTS/CREED/research/REFRESH_2026-06-21.md` — current June 2026 source pack
+- `AGENTS/CREED/research/REFRESH_2026-07-04.md` — **current source pack** (June Trepp + realized-recognition cluster + 7/2 REIT tape)
+- `AGENTS/CREED/research/REFRESH_2026-06-21.md` — superseded 7/4; retained as FDIC-Q1 / maturity-wall source-trail
 - `AGENTS/CREED/thesis/THESIS.md` — current thesis rails
 - `AGENTS/CREED/thesis/CHANGELOG.md` — thesis change history
 - `AGENTS/CREED/research/INBOX_TRIAGE_2026-06-21.md` — stale inbox resolved against current rails
