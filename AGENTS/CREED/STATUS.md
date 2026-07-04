@@ -171,7 +171,7 @@ Refresh covered:
 
 Default priority order unless Will redirects:
 
-1. **Build a monthly CMBS / special-servicing + REIT equity tape tracker design** from current source categories, not legacy values.
+1. **Build the CREED workbook** (monthly CMBS/SS + REIT tape dashboard). ✅ **Design spec written 7/4** → `workbook/WORKBOOK_DESIGN.md` (fleet-standard 6-file set: SCHEMA/VX/FLOW/KB/PREDICTIONS/VX_HISTORY; VX mapped to the 8 Expected Signals, seeded current). **Will approved building it; chose "design doc first" — BUILD PENDING next session** (transcribe spec + pull GAP vectors + confirm §10 open decisions). Legacy workbook stays frozen archive.
 2. **Define handoff thresholds** for REGINALD, CORAL, LIQUID, and CARL so CREED routes only transmission-relevant signals.
 3. **Prepare Q2/Q3 bank-filing convergence questions** for REGINALD, focused on where CMBS/property stress should show up in bank provisions, PDNA, reserve coverage, or mods.
 
