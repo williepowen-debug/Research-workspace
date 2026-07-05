@@ -1,5 +1,6 @@
 ---
-name: ""
+name: finding_forced_update_rebase_churn
+description: "'forced update' when fetching the shared rebased master is BENIGN (rebase churns local commit SHAs, not a `push --force`) — verify via `git merge-base --is-ancestor <old-sha> origin/master` + fsck same-message twins before alarming; escalate only on a dangling commit with unique work and no twin. Root cause of hash-pin decay."
 metadata: 
   node_type: memory
   originSessionId: 4ee26111-1449-4eef-83c9-717df4b05511
