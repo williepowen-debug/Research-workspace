@@ -1,3 +1,4 @@
+# FROZEN 2026-07-04 — not maintained; STATUS is canonical, do not cite rows as current. Bank↔BDC relationship map is dead-reference (78d stale, no boot-read, no parser); load-bearing bank-exposure metrics route to REGINALD (bank scores) + workbook/KB.tsv. Unfreeze only if reactivated as a live tracked surface. (DAEDALUS BATCH_01 item 5.)
 BANK	BDC_FUND	RELATIONSHIP	SIZE	TYPE	NOTES
 JPMorgan Chase	ARCC	Admin Agent (Revolver)	$5.1B	Syndicated Facility	39 lenders in syndicate
 JPMorgan Chase	FSK	Admin Agent (Revolver)	$4.7B	Syndicated Facility	ING as collateral agent
