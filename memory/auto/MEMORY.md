@@ -4,59 +4,46 @@
 - [HENRY Macro Focus Not Positions](feedback_henry_macro_focus_not_positions.md) — HENRY: macro/market
 - [Deploy on Trigger Not Calendar](feedback_deploy_on_trigger_not_calendar.md) — deploy fresh capital only
 - [Anchor Prediction to Surprise Not Priced](finding_anchor_prediction_to_surprise_not_priced.md) — anchor event→move to
-- [Check Domain Owner Before Messaging](feedback_check_domain_owner_before_messaging.md) — read domain owner's files
-- [Check Recipient Before Sharing](feedback_check_recipient_before_sharing.md) — read recipient's state
+- **Check the other party's state first:** [Check Domain Owner Before Messaging](feedback_check_domain_owner_before_messaging.md) · [Check Recipient Before Sharing](feedback_check_recipient_before_sharing.md)
 - [Coordinator Packet Position-Row Staleness](finding_coordinator_packet_position_row_staleness.md) — verify packet position
-- [Boot-Protocol Live-Event Override](finding_boot_protocol_live_event_override.md) — don't auto-closeout
+- **Boot/closeout hygiene:** [Boot-Protocol Live-Event Override](finding_boot_protocol_live_event_override.md) · [Boot Forward-State Hygiene: Predictions Scan + Catalyst Docket](finding_boot_predictions_scan.md) · [Boot/Closeout Hardening Recipe](finding_boot_closeout_hardening_recipe.md) · [boot.py Cadence-Skip Pattern](finding_boot_py_cadence_skip_pattern.md) · [Boot-Sweep Regime-Context Check](finding_boot_sweep_macro_regime_context.md) · [Closeout as Write-Back Tail](finding_closeout_as_writeback_tail.md) · [Intra-Day Closeout Discipline](feedback_intra_day_closeout_discipline.md)
 - [HENRY Vol Broadcast → VIOLET](feedback_henry_vol_broadcast_to_violet.md) — HENRY reads vol; VIOLET
 - [Pull Live Primary Not Dashboard](feedback_pull_live_primary_not_dashboard.md) — pull load-bearing figures
 - [Blended Index Masks Bifurcation](finding_blended_index_masks_bifurcation.md) — decompose blends; measure
-- [Sub-Agent Escalation-Mode Discriminator](finding_subagent_escalation_mode_discriminator.md) — money=block on Will
+- **Sub-agent ops:** [Sub-Agent Escalation-Mode Discriminator](finding_subagent_escalation_mode_discriminator.md) · [Sub-agent Prompt Discipline](feedback_subagent_prompt_discipline.md) · [Sub-Agent MEMORY Split](finding_subagent_memory_split.md) · [Sub-Agent Baseline Audit](finding_subagent_baseline_audit.md) · [Sub-Agent Naming Identity Over Functional](finding_subagent_naming_identity_over_functional.md) · [Sub-agent propagation gap](feedback_subagent_propagation_gap.md) · [Sub-Agent Pre-Fire Date Verification](finding_subagent_prefire_date_verification.md) · [Sub-Agent Web Tools Not Autoloaded](feedback_subagent_web_tools_not_autoloaded.md) · [Sub-Agent Year Verification](finding_subagent_year_verification.md)
 - [Thin-Liquidity Prediction-Market Discipline](finding_thin_liquidity_prediction_market_discipline.md) — thin pred-market print
 - [Calibration Discount Is Regime-Conditional](finding_calibration_discount_regime_conditional.md) — earned discount is
 - [Two-Way Read Directional Clarity](feedback_two_way_read_directional_clarity.md) — grade each scenario
 - [Refresh-not-Retire Per-Entity Profiles](finding_refresh_not_retire_perentity_profiles.md) — refresh per-entity
-- [Agent Git Isolation](feedback_agent_git_isolation.md) — stage one agent's dir
+- **Git/commit hygiene:** [Agent Git Isolation](feedback_agent_git_isolation.md) · [Check Staged Before Commit](feedback_check_staged_before_commit.md) · [Git mv for Inbox Processing](feedback_git_mv_for_inbox_processing.md) · [Pathspec Commit Race Safety](finding_pathspec_commit_race_safety.md) · [Scope "supersede" narrowly](feedback_git_reconcile_scope.md) · [Commit local, auto-push at closeout](feedback_defer_push_coordinate.md) · [Pathspec Rename Needs Both Paths](finding_pathspec_rename_needs_both_paths.md)
 - [Position Cost-Basis Not Authoritative](feedback_position_cost_basis_not_authoritative.md) — never cite cost-basis/P/L
 - [Cross-Agent Inbox Writes Exception-Only](feedback_cross_agent_inbox_writes.md) — write another's inbox
-- [Check Staged Before Commit](feedback_check_staged_before_commit.md) — git diff --cached: catch
-- [Git mv for Inbox Processing](feedback_git_mv_for_inbox_processing.md) — use git mv (not bash mv)
 - [Put vs Duration Expression](feedback_put_vs_duration_expression.md) — match vehicle to the open
 - [RED Must Present Strongest Bull Case](feedback_red_edge.md) — lead with strongest
-- [WALTER COP Architecture Direction](project_walter_cop_direction.md) — WALTER→COP shared
+- **WALTER:** [WALTER COP Architecture Direction](project_walter_cop_direction.md) · [WALTER Image Signal Intake](project_walter_image_signal_intake.md) · [WALTER Autonomous Verify](feedback_walter_autonomous_verify.md) · [WALTER No Kill On Lede](feedback_walter_no_kill_on_lede.md) · [Telegram Plugin Scope](project_telegram_plugin_scope.md) · [WALTER STATUS.md Refactor Pattern](finding_walter_refactor_pattern.md) · [Telegram Reply Required](feedback_telegram_reply_required.md)
 - [Verify ETF vs Underlying FX](feedback_verify_etf_vs_fx.md) — cross-check ETF price vs
 - [Evaluate Evidence Standalone](feedback_evidence_standalone.md) — state evidence standalone
 - [Read Research Before Opining](feedback_read_research_before_opining.md) — read subfolder research
-- [Telegram Reply Required](feedback_telegram_reply_required.md) — Telegram inbound: reply
 - [Check Existing Design Docs](feedback_check_existing_design_docs.md) — search design folder
 - [Weight Plumbing by Target Scale](feedback_weight_plumbing_by_target_scale.md) — judge infra by scaled
 - [Script Labels Match Thesis](feedback_script_labels_match_thesis.md) — calibrate script alert
 - [CARL KB Push Down](feedback_carl_kb_architecture.md) — CARL KB thesis-level
 - [Messaging System Overhaul](project_messaging_overhaul.md) — don't patch inbox/outbox
 - [Flag Friction Real-Time](feedback_flag_friction_realtime.md) — flag workflow friction in
-- [WALTER Image Signal Intake](project_walter_image_signal_intake.md) — WALTER owns image signal
-- [WALTER Autonomous Verify](feedback_walter_autonomous_verify.md) — spawn verify sub-agent
-- [WALTER No Kill On Lede](feedback_walter_no_kill_on_lede.md) — read full body before
-- [Parallel-Spawn Independent Agents](feedback_parallel_spawn_independent_agents.md) — batch independent
+- **Teams-mode/spawning:** [Parallel-Spawn Independent Agents](feedback_parallel_spawn_independent_agents.md) · [Named Spawn Triggers Teams Mode](feedback_named_spawn_teams_mode.md) · [Teams-Mode Domain-Agent Spawn](finding_teams_mode_domain_agent_spawn.md) · [DRAFT-ONLY Teams Spawn](finding_draft_only_teams_spawn.md) · [Teams-Mode for Iterative Tasks](finding_teams_mode_iterative_tasks.md) · [Warm-Parked Agent Collision](feedback_warm_parked_agent_collision.md) · [Orchestration Mode-Split](feedback_orchestration_mode_split.md)
 - [Break Multi-File Updates Into Chunks](feedback_break_multifile_updates.md) — break 3+ file updates
 - [Route To Domain Agent Not PROME](feedback_route_to_domain_agent.md) — route to the domain
-- [Sub-agent Prompt Discipline](feedback_subagent_prompt_discipline.md) — subagent prompt: lead
 - [Session Handoff Cadence](feedback_handoff_cadence.md) — offer clean handoffs at
-- [Telegram Plugin Scope](project_telegram_plugin_scope.md) — Telegram plugin = WALTER
 - [CORRECTED-FRAMING Calibration](feedback_corrected_framing_calibration.md) — CORRECTED-FRAMING
-- [WALTER STATUS.md Refactor Pattern](finding_walter_refactor_pattern.md) — STATUS refactor
 - [LIAISON 3-Turn Convergence Pattern](finding_liaison_convergence_pattern.md) — LIAISON: prep substrate +
 - [Verify State Before Propagating](feedback_verify_counts_before_propagating.md) — verify count/scope/absence
 - [Verify Treasury Security Type](feedback_verify_treasury_security_type.md) — Treasury term collapses
 - [Exit Recommendations Need Mark-Context](feedback_exit_recommendations_need_mark_context.md) — surface mark before exit
-- [Intra-Day Closeout Discipline](feedback_intra_day_closeout_discipline.md) — run full closeout every
 - [Behavior-Language Over Hash-Pinning](feedback_behavior_language_over_hash_pinning.md) — state files: behavior-lang
 - [Adversarial Brief for Pair Teams](feedback_adversarial_brief_for_pair_teams.md) — brief adversarial pairs
-- [Named Spawn Triggers Teams Mode](feedback_named_spawn_teams_mode.md) — name= spawn = async
 - [Revival Proxy Pattern](finding_revival_proxy_pattern.md) — spawn proxy subagent to
 - [Revival Boot Doc Sweep](finding_revival_boot_doc_sweep.md) — revival: sweep all boot
 - [Framing-Precision Overlay](finding_framing_precision_overlay.md) — concept right, claim
-- [Teams-Mode Domain-Agent Spawn](finding_teams_mode_domain_agent_spawn.md) — teams-mode works for
 - [POV Pivots in CHANGELOG](finding_pov_changelog_pattern.md) — log intra-version POV
 - [Domain-Agent Steelman Backstop](finding_domain_agent_steelman_backstop.md) — when you+Will agree, have
 - [Cross-Surface Validation Pattern](finding_cross_surface_validation_pattern.md) — two surfaces catching
@@ -65,41 +52,28 @@
 - [Front-Load Planning for Multi-Step Work](feedback_front_load_planning.md) — front-load all decisions
 - [Push-Train Pattern](finding_push_train_pattern.md) — one closeout push ships
 - [Consolidate Domain-Agent Pressure](feedback_consolidate_domain_pressure.md) — 3+ agents, 1 decision
-- [DRAFT-ONLY Teams Spawn](finding_draft_only_teams_spawn.md) — teams-spawn domain agent
 - [CSV-as-Ground-Truth Rehab](finding_csv_as_ground_truth.md) — find ground-truth source
 - [Cross-Flag Routing by Recipient State](finding_cross_flag_routing.md) — route cross-flags by
 - [Path B Trim Pattern](finding_path_b_trim_pattern.md) — trim bloated state file
 - [Doc Routing on Data Drops](feedback_doc_routing_data_drops.md) — narrative→TIMELINE
 - [Follow-up Audit Pass on Scoped Cleanups](finding_followup_audit_pass.md) — after scoped fix, re-read
-- [Boot Forward-State Hygiene: Predictions Scan + Catalyst Docket](finding_boot_predictions_scan.md) — boot-scan OPEN
 - [Threshold vs Mechanism](finding_threshold_vs_mechanism.md) — split predictions
 - [Audit Behavioral Ranking](feedback_audit_behavioral_ranking.md) — rank cleanup by behavior
 - [Audit Packet Before Approval](feedback_audit_packet_before_approval.md) — audit packet vs
 - [Outside-This-Rail Disclosure](finding_outside_this_rail_disclosure.md) — 'Outside this rail'
 - [Refuse Rail Scope Creep](feedback_refuse_rail_scope_creep.md) — new decision = new rail
-- [Closeout as Write-Back Tail](finding_closeout_as_writeback_tail.md) — closeout in auto-loaded
-- [Sub-Agent MEMORY Split](finding_subagent_memory_split.md) — split sub-agent: spec.md
 - [Trump Rhetoric: Tape Not Info](feedback_trump_rhetoric_tape_not_info.md) — Trump deal rhetoric
-- [Teams-Mode for Iterative Tasks](finding_teams_mode_iterative_tasks.md) — SendMessage for
-- [Sub-Agent Baseline Audit](finding_subagent_baseline_audit.md) — set-keeper sub-agents
-- [Sub-Agent Naming Identity Over Functional](finding_subagent_naming_identity_over_functional.md) — name sub-agents by
-- [Boot/Closeout Hardening Recipe](finding_boot_closeout_hardening_recipe.md) — harden boot/closeout
 - [Catalyst-vs-Consequence Conflation](finding_catalyst_vs_consequence_conflation.md) — P(consequence)=P(catalyst)
-- [Pathspec Commit Race Safety](finding_pathspec_commit_race_safety.md) — pathspec commit; never
-- [Scope "supersede" narrowly](feedback_git_reconcile_scope.md) — supersede=discard
 - [Will's cruise interest](user_cruise_interest.md) — cruise is Will's personal
 - [Verify existence via external primaries](feedback_verify_existence_external_primaries.md) — fleet silence ≠ didn't
 - [YoY base-effect → use multi-year stack](feedback_yoy_baseeffect_use_multiyear_stack.md) — YoY laps a break: read
 - [Don't bank an unpassed forecast](feedback_dont_bank_unpassed_forecast.md) — keep pending forecasts in
-- [Commit local, auto-push at closeout](feedback_defer_push_coordinate.md) — auto-push closeout
-- [Sub-agent propagation gap](feedback_subagent_propagation_gap.md) — closeout: diff subagent
 - [Use canonical measure for predictions](feedback_prediction_canonical_measure.md) — revise predictions off
 - [Single-month sub-component skepticism](feedback_single_month_subcomponent_skepticism.md) — single-month subcomponent
 - [Thesis-load-bearing sweep scope](finding_thesis_loadbearing_sweep_scope.md) — scope sweeps by thesis
 - [Shared-Antecedent Independence Test](finding_shared_antecedent_independence_test.md) — recheck independence if
 - [Doc Mirror-Consistency Check](finding_doc_mirror_consistency_check.md) — encode canonical→mirror
 - [Independent Convergence Validates Schema](finding_independent_convergence_validates_schema.md) — blind proposer+consumer
-- [Sub-Agent Pre-Fire Date Verification](finding_subagent_prefire_date_verification.md) — re-verify cadence-derived
 - [Documented Divergence as Discipline](finding_documented_divergence_as_discipline.md) — document rule deviations
 - [Verification-Correction Downstream Propagation](finding_verification_correction_downstream_propagation.md) — after a figure-fix, grep
 - [Measure Actionable Category Not Gross Rate](finding_measure_actionable_not_gross_rate.md) — meter the actionable
@@ -108,9 +82,7 @@
 - [Outbox Restraint for Push Friction](feedback_outbox_restraint_for_push_friction.md) — write cross-agent outbox
 - [Date-Specificity Weakest Link](feedback_date_specificity_weakest_link.md) — low-conf event call
 - [Forward-Discovery Prediction Spirit](feedback_forward_discovery_prediction_spirit.md) — forward-discovery: did
-- [Sub-Agent Web Tools Not Autoloaded](feedback_subagent_web_tools_not_autoloaded.md) — subagent empty web
 - [Litigation-Allegation Weighting](feedback_litigation_allegation_weighting.md) — complaint-only signal
-- [boot.py Cadence-Skip Pattern](finding_boot_py_cadence_skip_pattern.md) — boot.py: run fetchers +
 - [Two-Machine Partition Clean Merge](finding_two_machine_partition_clean_merge.md) — 2-machine merge clean
 - [Just-Read Artifact Frame Contamination](finding_just_read_artifact_frame_contamination.md) — answer from evidence, not
 - [Governance-Doc Stale-Default Drift](finding_governance_doc_stale_default_drift.md) — fix doc when memory
@@ -126,11 +98,9 @@
 - [Re-Derivation Surfaces Concept Failure](finding_re_derivation_surfaces_concept_failure.md) — re-derive level-anchored
 - [Sustain-Count Role + Discriminating Power](finding_sustain_count_role_discriminating_power.md) — test if a trigger
 - [Tool-Default As-Of Date Drift](finding_tool_default_asof_date_drift.md) — carry source's own as_of
-- [Sub-Agent Year Verification](finding_subagent_year_verification.md) — confirm metric's YEAR
 - [Option Marks Need Live Chain](finding_option_marks_need_live_chain.md) — pull live option chain
 - [Workbook Demote by Verification](finding_workbook_demote_by_verification.md) — verify consumer+counterpar
 - [Convergence Sign Check](finding_convergence_sign_check.md) — sign-check cross-domain
-- [Boot-Sweep Regime-Context Check](finding_boot_sweep_macro_regime_context.md) — boot-check regime
 - [Comprehensive Grep > Sampling](finding_comprehensive_grep_over_sampling.md) — audit change-scope by
 - [Risk-Control Re-arm ≠ Sizing Decision](finding_risk_control_separate_from_sizing.md) — re-arm dead stop legs
 - [Workflow Concurrency 529](finding_workflow_concurrency_529.md) — cap concurrent Workflows
@@ -145,15 +115,12 @@
 - [CRLF Text-Mode TSV Flip](finding_crlf_textmode_tsv_flip.md) — edit CRLF state files in
 - [TERRY Day-Trading Review System](project_terry_daytrading_review_system.md) — TERRY runs standing
 - [Curated Worktree Branch Landing](finding_curated_worktree_branch_landing.md) — land a stale branch via
-- [Warm-Parked Agent Collision](feedback_warm_parked_agent_collision.md) — release teams-mode agents
 - [Cluster Adversarial Catches Framing](finding_cluster_adversarial_catches_framing.md) — adversarial round catches
 - [Same Datum, Two Evidentiary Standards](finding_same_datum_two_evidentiary_standards.md) — datum decisive in prose
 - [Verify Load-Bearing Figures Before Trade](finding_verify_loadbearing_before_trade.md) — pre-trade: verify->adversa
-- [Pathspec Rename Needs Both Paths](finding_pathspec_rename_needs_both_paths.md) — git-mv pathspec commit
 - [Fleet Self-Report Convergence](finding_fleet_selfreport_convergence.md) — agents converge in
 - [Migration Tally Inventory-Incomplete](finding_migration_tally_inventory_incomplete.md) — enumerate sweep target
 - [Confabulated Counterparty Position](finding_confabulated_counterparty_position.md) — confirm counterparty
-- [Orchestration Mode-Split](feedback_orchestration_mode_split.md) — split fan-out vs live
 - [Freshness Audit ≠ Caught Up](finding_freshness_audit_vs_caught_up.md) — fresh mtime ≠ caught up
 - [STATUS Spine Staleness Under Appended Top](finding_status_spine_staleness_under_appended_top.md) — append-on-top STATUS
 - [Sibling Agent Protocol Drift](finding_sibling_agent_protocol_drift.md) — diff sibling agents to
@@ -190,7 +157,8 @@
 - [Flow Sign vs Program Direction](finding_flow_sign_vs_program_direction.md) — rotation sell-leg ≠
 - [Self-Stamp Estimate Drift](finding_selfstamp_estimate_drift.md) — stamp from `date`; trust
 - [Don't Retire a Dormant Thesis](feedback_dont_retire_dormant_thesis.md) — de-escalated catalyst →
-- [Asymmetric Records Need Reconciliation](finding_asymmetric_records_need_reconciliation.md) — agent records "I did X"; diff vs counterparty state at boot (fleet class-of-bug, PROME 7/3)
-- [Complete vs Selective Scan Drop-Safe](finding_complete_vs_selective_scan_drop_safe.md) — drop a redundant delivery channel only if the agent's other intake path is COMPLETE, not selective/tiered
-- [Decouple Idiosyncratic from Systemic Leg](finding_decouple_idiosyncratic_from_systemic_leg.md) — meter fraud-mechanism leg separately from systemic-transmission leg; one falsifying shouldn't collapse the other
-- [Fetch Before Trusting Boot Sync](finding_fetch_before_trusting_boot_sync.md) — git ahead/behind is stale until you `git fetch`; a `0/0` can hide a 53-commit gap, esp. right after a machine switch — fetch before declaring "synced"
+- [Asymmetric Records Need Reconciliation](finding_asymmetric_records_need_reconciliation.md) — diff vs counterparty state at boot (fleet class-of-bug)
+- [Complete vs Selective Scan Drop-Safe](finding_complete_vs_selective_scan_drop_safe.md) — drop a channel only if the other intake path is COMPLETE
+- [Decouple Idiosyncratic from Systemic Leg](finding_decouple_idiosyncratic_from_systemic_leg.md) — meter idiosyncratic vs systemic legs separately
+- [Fetch Before Trusting Boot Sync](finding_fetch_before_trusting_boot_sync.md) — git fetch before declaring synced; 0/0 can hide a gap
+- [Market-Data venv Invocation](finding_market_data_venv_invocation.md) — run FORGE/tools/market-data with `.venv/bin/python`, not system `python3` (no yfinance); .venv travels with repo so it's NOT machine-specific
