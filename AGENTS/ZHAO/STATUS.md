@@ -1,6 +1,6 @@
 # ZHAO STATUS
 
-**Updated:** 2026-07-04 16:30 EDT (Sat/US holiday — markets closed. Boot after ~2.5mo gap since Apr 17. Major regime re-frame: late-March Gulf/LNG EMERGENCY has UNWOUND; two vectors — China TIC exit + Korea — carry the risk now.)
+**Updated:** 2026-07-04 17:00 EDT (Sat/US holiday. Boot after ~2.5mo gap + live data pull. Major regime re-frame: late-March Gulf/LNG EMERGENCY has UNWOUND; two vectors — China TIC exit + Korea — carry the risk now. April TIC + Belgium now CONFIRMED via live pull.)
 **Overall Status:** 🟠 ELEVATED (downgraded from 🔴🔴🔴 EMERGENCY) — Gulf war resolved / trade-war truced / HK peg normalized / yuan STRONGER. **Live leads: China TIC at $650B RED line; Korea KRW near 2009 lows.**
 
 ---
@@ -15,16 +15,16 @@ The April STATUS was built around a late-Feb/March Gulf shooting war (Hormuz clo
 | **Trade war** | Escalation watch, "summit?" 🟠 | **May 2026 Trump-Xi truce**: tariffs 41%→31%, fentanyl 20%→10%, reciprocal-tariff suspension → Nov 10 2026, rare-earth controls postponed 1yr | ✅ DE-ESCALATED |
 | **HK peg / HIBOR** | Spread -202/-231bps, quarter-end stress 🟠 | 1-mo HIBOR **2.94%** (up, tracking Fed), spread to SOFR **~-136bps** (well inside -200 trigger), AB HK$54.0B stable | ✅ NORMALIZED |
 | **USD/CNY** | 6.90, eyeing 7.30 break | **~6.80** (below 7.00); PBOC guiding *gradual* depreciation from a stronger level; policy rate 1.4% unchanged | ✅ Yuan STRONGER (7.30 thesis weak) |
-| **China TIC** | $694.4B (Jan), $44B buffer | **$652.3B (Mar)** — down **-$40.9B** from Feb $693.3B; **$2.3B above $650B RED line** | 🔴 ESCALATED |
+| **China TIC** | $694.4B (Jan), $44B buffer | **$651.1B (Apr)** — Feb $693B→Mar $652B (−$41B)→Apr $651B; pinned ~$1B above $650B line 2mo, **18yr low**, genuine exit (Belgium flat) | 🔴 ESCALATED |
 | **Korea** | KRW >1,500, KOSPI worst-ever crash 🔴 | KRW **~1,530–1,550** (near 2009 lows), record foreign equity outflows (₩7.7T single session, 7–8 day streak), inflation 3.2% Jun → BoK may HIKE Jul 16 | 🔴 HOLDS |
 | **Property/LGFV** | Vanke rescue, "lost decade" 🟠 | Slow burn: Vanke ¥9.4B maturing next 6mo, whitelist loans extended to 5yr, LGFV ~60T RMB | 🟠 UNCHANGED |
 
 **Bottom line:** The systemic-emergency framing is retired. What's left is **two clean, live leads** — (1) China's UST exit has *accelerated* to the $650B threshold even as everything else calmed, and (2) Korea remains the acute Asia-contagion node. These are the two things to watch.
 
-### Verification gaps (do not bank):
-- **April TIC country lines** (released ~Jun 18) not yet pulled for China/Belgium — March $652.3B is latest *confirmed*. April overall was a strong inflow month (+$206B LT), so China may have stabilized; **pull April+May China/Belgium before firing a LIQUID 🔴.**
-- **Belgium proxy** — last confirmed Dec $477.3B / my Jan STATUS $451B; Feb–Apr unconfirmed. **STALE — refresh needed.**
-- SOFR level (~4.30%) assumed; HIBOR-SOFR spread is EST off that.
+### Verification status (Jul 4 live pull):
+- **April TIC RESOLVED:** China **$651.1B** (18yr low — did NOT rebound despite record inflow month); Belgium **$454.0B** (flat vs Feb $454.7B). Belgium flat while China falls −$42B (Feb→Apr) = **genuine China exit, not Euroclear custody migration.** Latest is April; **May TIC ~Jul 16–18.**
+- **Saudi:** ~$148.8B (elevated — oil revenue recovered; sold $10.8B Mar but well above $120B). Forced-selling thesis dead → ZHA-09 likely missed.
+- Still stale: SOFR ~4.30% assumed (HIBOR-SOFR EST); Guizhou NPL 11.6% (needs refresh); property = slow burn, no fresh acute default (Vanke ¥9.4B maturing 6mo).
 
 ---
 
@@ -33,8 +33,8 @@ The April STATUS was built around a late-Feb/March Gulf shooting war (Hormuz clo
 ### Capital Flows
 | Metric | Value | Threshold | Status | Source |
 |--------|-------|-----------|--------|--------|
-| China Official UST | **$652.3B** | <$650B = RED | 🔴 AT LINE | [CONF] TIC Mar 2026 (-$40.9B MoM) |
-| Belgium TIC (proxy) | ~$451–477B (stale) | >$500B = RED | 🟡 REFRESH | [EST] last conf Dec $477.3B |
+| China Official UST | **$651.1B** | <$650B = RED | 🔴 AT LINE | [CONF] TIC Apr 2026 (18yr low; flat vs Mar) |
+| Belgium TIC (proxy) | **$454.0B** | >$500B = RED | 🟡 | [CONF] TIC Mar 2026 (flat = genuine CN exit) |
 | Combined Anchor Selling | reduced from 🔴 | — | 🟠 | Gulf leg collapsed; CN+KR remain |
 | Brent crude | **~$72** | shock transmission | 🟢 | [CONF] Jul 3 2026 |
 | Hormuz flows | **>10M bpd** (recovered) | — | 🟢 | [CONF] Jun 26 2026 |
@@ -82,7 +82,7 @@ The April STATUS was built around a late-Feb/March Gulf shooting war (Hormuz clo
 
 | Agent | Signal | State |
 |-------|--------|-------|
-| LIQUID | China TIC at $650B line (-$41B MoM) — **flag once April/May confirmed** | 🔴 pending verify |
+| LIQUID | China TIC $651.1B (Apr) pinned at $650B line 2mo, genuine exit (Belgium flat), 18yr low | 🔴 READY — recommend flag |
 | SAM | Korea KRW ~1,540, record equity outflows, BoK Jul 16 | 🔴 |
 | HAWK/BRENT | Gulf/Hormuz de-escalated, Brent $72 — energy-Asia shock cleared | 🟢 |
 | HENRY | Yuan strong, HK carry eased — China stress leg quieter | 🟢 |
@@ -124,13 +124,13 @@ The April STATUS was built around a late-Feb/March Gulf shooting war (Hormuz clo
 |----|-----------|------|--------|
 | ZHA-01 | USD/CNY breaks 7.30 | 25% ↓↓ | OPEN — yuan appreciated to 6.80, thesis weak |
 | ZHA-02 | 10Y rises on risk-off | — | ✅ CONFIRMED (Mar) |
-| ZHA-03 | Belgium >$500B | 40% | OPEN — refresh needed |
-| ZHA-04 | China <$650B | 60% | OPEN — $652.3B, $2.3B away; live |
+| ZHA-03 | Belgium >$500B | 25% ↓ | OPEN — Belgium $454B, moving away |
+| ZHA-04 | China <$650B | 65% | OPEN — $651.1B (Apr), pinned at line 2mo; VERY LIVE |
 | ZHA-05 | Regional NPL >12% | 50% | OPEN — Guizhou 11.6% (stale) |
 | ZHA-06 | >250 small banks consolidated | 60% | OPEN |
 | ZHA-07 | Liquidity crunch forcing UST sales | 60% | OPEN |
-| ZHA-08 | Gulf recycling >$50B/qtr | — | ❌ LIKELY FALSIFIED — Hormuz reopened, exports 90%+ recovered, Brent $72 |
-| ZHA-09 | Saudi TIC <$120B by Jun 2026 | 45% | OPEN — refresh needed (oil revenue recovered) |
+| ZHA-08 | Gulf recycling >$50B/qtr | — | ❌ FALSIFIED — Hormuz reopened, exports 90%+, Brent $72 |
+| ZHA-09 | Saudi TIC <$120B by Jun 2026 | 10% ↓ | ❌ LIKELY MISSED — Saudi ~$148.8B, oil recovered |
 | ZHA-10 | Yuan oil settlement >$5B cumulative | 40% | OPEN |
 
 ---

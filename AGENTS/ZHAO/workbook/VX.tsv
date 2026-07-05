@@ -1,6 +1,6 @@
 ID	Name	Current_Value	Status	Green	Yellow	Orange	Red	Last_Updated	Source	Notes
-VX-ZHAO-1.01	Belgium TIC Holdings ($B)	477.3	ORANGE	<450	>450	>480	>500	2026-03-06	TIC Dec 2025	China proxy via Euroclear. Dec $477.3B (down from $481B ATH Nov). Next print Mar 15.
-VX-ZHAO-1.02	China Official UST ($B)	652.3	ORANGE	>800	<750	<700	<650	2026-07-04	TIC Mar 2026	Mar $652.3B, -$40.9B MoM from Feb $693.3B. Only $2.3B above <650 RED. Verify Apr/May country line.
+VX-ZHAO-1.01	Belgium TIC Holdings ($B)	454.0	YELLOW	<450	>450	>480	>500	2026-07-04	TIC Mar 2026	China proxy. Mar $454.0B, flat vs Feb $454.7B. FLAT while China falls = genuine China exit, NOT custody migration. Well below $500B trigger.
+VX-ZHAO-1.02	China Official UST ($B)	651.1	ORANGE	>800	<750	<700	<650	2026-07-04	TIC Apr 2026	Apr $651.1B (18yr low), flat vs Mar $652.3B; step-drop was Feb->Mar -$40.9B. ~$1.1B above <650 RED for 2nd month. May TIC ~Jul 16-18.
 VX-ZHAO-1.03	Combined Annual Outflow ($B/yr)	100	YELLOW	<50	>75	>150	>250	2026-02-12	Calculated	Japan + China combined UST exit rate. Pre-Korea anchor.
 VX-ZHAO-1.04	Belgium YoY Growth (%)	26	ORANGE	<10	>15	>25	>35	2026-03-06	TIC Dec 2025	Dec vs Dec. Outpacing Japan (11%) and UK (16%).
 VX-ZHAO-1.05	True China Holdings Adj ($B)	1850	GREEN	>1800	<1700	<1600	<1500	2026-02-13	Setser/CFR	Stable ~$1.8-1.9T since 2015 when adjusted for Belgium.

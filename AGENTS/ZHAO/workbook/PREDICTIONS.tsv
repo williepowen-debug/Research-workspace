@@ -1,8 +1,8 @@
 Pred_ID	Date_Made	Prediction	Confidence	Timeframe	Status	Date_Resolved	Outcome	Invalidation	Notes
 ZHA-01	2026-03-03	USD/CNY breaks 7.30	25%	pushed to 2026 H2+	OPEN			DXY <100 sustained 10 sessions + PBOC stops gold buys	DOWNGRADE Jul 4: yuan APPRECIATED to ~6.80 (below 7.00), PBOC guiding gradual depreciation from stronger level, rate held 1.4%. Distance to 7.30 widened; thesis weak. 70%->55%->25%.
 ZHA-02	2026-03-03	10Y yield rises on risk-off (UST ≠ safe haven)	65%	Mar 2026	CONFIRMED	2026-03-03	10Y UP to 4.10% on -2.2% S&P day	—	Validated same day. Stagflation > deflation fear.
-ZHA-03	2026-03-06	Belgium TIC >$500B	65%	Q1-Q2 2026	OPEN			Growth decelerates <15% YoY for 2 consecutive prints	Next print Mar 15. Dec was $477.3B. SEC mandate Dec 2026 adds structural fuel.
-ZHA-04	2026-03-06	China official UST <$650B	60%	Q2-Q3 2026	OPEN			China stabilizes >$700B for 3 prints.	Jul 4: LIVE — Mar TIC $652.3B, only $2.3B above threshold after -$40.9B MoM drop from Feb $693.3B. Verify Apr/May prints (Apr overall was strong inflow so may have stabilized).
+ZHA-03	2026-03-06	Belgium TIC >$500B	25%	Q1-Q2 2026	OPEN			Growth decelerates <15% YoY for 2 consecutive prints	DOWNGRADE Jul 4: Belgium FELL from $477.3B Dec to ~$454B (flat Feb-Mar), moving AWAY from $500B. No custody-migration surge. 65%->25%. Timeframe likely missed.
+ZHA-04	2026-03-06	China official UST <$650B	65%	Q2-Q3 2026	OPEN			China stabilizes >$700B for 3 prints.	Jul 4: VERY LIVE — Apr $651.1B, Mar $652.3B: pinned ~$1.1B above threshold for 2 straight months (18yr low). Did NOT rebound in April. One more small tick breaches. May TIC ~Jul 16-18.
 ZHA-05	2026-03-06	Regional bank NPL >12% (any province)	55%	H1 2026	OPEN			Major PBOC recap before threshold	Guizhou at 11.6% — 0.4 from threshold. Zhengzhou 9.55%.
 ZHA-06	2026-03-06	>250 small banks consolidated in 2026	60%	2026	OPEN			Policy reversal on mergers	199 in 2024. Trend accelerating.
 ZHA-07	2026-03-06	Liquidity crunch forcing UST sales (again)	70%	2026	OPEN			Sustained PBOC easing removes pressure	Feb $456B proved pattern. FLOW-ZHAO-01 validated.
