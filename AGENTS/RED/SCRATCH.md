@@ -40,8 +40,8 @@
 - Concurrent NEXUS session: verify tree clean before next pull.
 
 ## PENDING WILL-DECISIONS
-- **Push:** 3 RED commits local-only (a92c1c50 preds / 4917ea0e drain / + the Chunk 3-5 closeout commit), **HELD — concurrent NEXUS+PROME session active** (safe-push needs coordination). Sweep at next clean window.
+- **Push: ✅ DONE 7/5 (Will-approved).** All RED commits on origin — a92c1c50 (preds) + 4917ea0e (drain) rode NEXUS/PROME's push-train; 87205c72 (closeout) safe-pushed clean ff. Synced ahead:0/behind:0. Nothing pending.
 - No trade/rail decision rose to a PROME alert this session (net no-move HOLD).
 
 ## GIT STATE (one line)
-On master; RED commits local (preds + inbox-drain + closeout), push HELD pending concurrent-NEXUS clearance; nothing staged outside `AGENTS/RED/`.
+On master, synced with origin (ahead 0 / behind 0); all RED commits pushed 7/5 via safe-push (clean ff); nothing staged outside `AGENTS/RED/`.
