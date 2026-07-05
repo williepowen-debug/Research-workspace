@@ -153,11 +153,11 @@ Leggat McCall + DLJ + Deutsche Finance America $246M loan (Dec 22 2021) is still
 - **Severity verdict:** Low-variance position in RESG foreclosure stack. Not where the big loss lives.
 
 ### #10 — 1229 W Concord Place, Chicago ($50.0M Foreclosed)
-- **Asset:** 284K SF fully vacant lab building, Lincoln Park / Lincoln Yards adjacent
-- **Sponsor:** **Sterling Bay** (OZK relationship collapsed per prior research; both Chicago credits were Sterling Bay)
-- **Path:** Original $65M loan → sponsor short sale failed Q1 → OZK took deed-in-lieu March 2026
-- **Comp read:** OZK's own Lincoln Yards northern 31 acres cleared Sep 2025 at $84M/$126M loan basis = -33%. Concord Place currently marked at 68% of May '25 appraisal.
-- **Expected loss:** Sale likely clears below $40M = 55-60% loss vs original loan (consistent with Chicago life sci supply doubling through 2026; Fulton Labs 400 N Aberdeen only >30% leased since 2022).
+- **Asset:** **320K SF** fully vacant lab building — the **sole completed Lincoln Yards building**. [size corrected 284K→320K, 2026-07-04 web verify]
+- **Sponsor:** **Sterling Bay + Harrison Street** JV (JPMorgan investment arm also an investor); OZK relationship collapsed. **Same sponsor pair as San Diego Pacific Center** — see the Sterling Bay pattern in `WEAKNESSES.md` C7.
+- **Path:** Original $65M loan → sponsor short sale failed Q1 → OZK took **deed-in-lieu March 2026**. **OZK plans to reposition lab→traditional office** (leadership: "an office use in particular is absolutely an executable transaction") — life-science re-tenanting buildout too costly.
+- **Comp read:** OZK's own Lincoln Yards northern 31 acres cleared Sep 2025 at $84M/$126M loan basis = -33%. Concord Place currently marked at 68% of May '25 appraisal (~$74M).
+- **Expected loss:** Sale likely clears below $40M = 55-60% loss vs original loan (Chicago life-sci supply doubling through 2026; Fulton Labs 400 N Aberdeen only >30% leased since 2022). *Office-pivot may alter severity math — monitor.*
 - **Additional charge-off:** $10-15M likely on resolution.
 
 ### #11 — 1650 Euclid Street, Santa Monica ($45.1M Foreclosed)

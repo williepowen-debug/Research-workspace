@@ -23,7 +23,7 @@
 ### Square Mile Capital
 - **Relationship:** RESG co-lending — most prolific *historical* partner (5 deals, $1.5B+ total)
 - **Example Deals:** One Chicago Square $735M ($475M OZK); **Bioterra SD $203M (Dec 2022, NOW VACANT)** [KB-OZK-023/030]; SF life science $373M
-- **Stress Indicators:** 🔴 Bioterra — 316K SF life science campus, completely vacant. 5 miles from Pacific Center (which OZK sold to distressed buyer SVP for $265M)
+- **Stress Indicators:** 🔴 Bioterra — 316K SF life science campus, completely vacant. 5 miles from **Pacific Center** (500K SF, Sorrento Mesa; developer **Sterling Bay + Harrison Street** — *not* Square Mile; **OZK sold the $265M loan to Strategic Value Partners on Jan 7, 2026** — a rare distressed-debt sale, one of the largest whole-loan dispositions in bank history) [KB-OZK-199]
 - **CRE Linkage:** Direct co-originator on OZK's most distressed assets. Square Mile described OZK as "a trusted and reliable partner in the construction lending space."
 - **Personnel:** David Dancer moved from Bank OZK RESG to Acore Capital — revolving door between OZK and NDFI counterparties
 
