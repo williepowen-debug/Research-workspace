@@ -88,7 +88,7 @@ The April STATUS was built around a late-Feb/March Gulf shooting war (Hormuz clo
 
 | Agent | Signal | State |
 |-------|--------|-------|
-| LIQUID | China TIC $651.1B (Apr) pinned at $650B line 2mo, genuine exit (Belgium flat), 18yr low | 🔴 READY — recommend flag |
+| LIQUID | China TIC $651.1B (Apr) pinned at $650B line 2mo, genuine exit (Belgium flat), 18yr low | 🟠 SENT → outbox 7/4 (awaiting PROME route) |
 | SAM | Korea KRW ~1,540, record equity outflows, BoK Jul 16 | 🔴 |
 | HAWK/BRENT | Gulf/Hormuz de-escalated, Brent $72 — energy-Asia shock cleared | 🟢 |
 | HENRY | Yuan strong, HK carry eased — China stress leg quieter | 🟢 |
@@ -144,10 +144,10 @@ The April STATUS was built around a late-Feb/March Gulf shooting war (Hormuz clo
 ## NEXT ACTIONS
 **Done Jul 4 sweep:** April TIC (China $651.1B / Belgium $454B) ✓ · Saudi ✓ · PMI/GDP/land-sales/gold ✓ · HK peg ✓ · ZHA-08 falsified, ZHA-01/03/09 re-marked ✓ · VX (13 rows) + FLOW (5 rows) refreshed ✓
 **Still open:**
-1. **LIQUID outbox** — China genuine-exit signal now verified; awaiting Will's route decision.
+1. **LIQUID outbox WRITTEN** 7/4 (`outbox/2026-07-04_to-LIQUID_china-genuine-ust-exit.md`) — needs PROME to route to LIQUID (cc SAM).
 2. **May TIC ~Jul 16–18** — does China break $650B. **BoK Jul 16** — hike?
 3. Couldn't refresh cheaply (still stale): **Guizhou/Zhengzhou NPL** (bank-specific), **Korea official UST $103B** (Apr TIC), **CNH-CNY spread**.
-4. **Tooling:** `FORGE/tools/market-data/fetch.py` broken — `ModuleNotFoundError: yfinance` (no live FX/price pull; fell back to web). Flag to PROME/FORGE.
+4. **Tooling note:** `market-data/fetch.py` works — invoke with **`.venv/bin/python`** (NOT system `python3`, which lacks yfinance). Live cross-check 7/4: USD/CNY 6.77, USD/KRW 1,530, Brent $72.13 — all confirm web figures.
 5. Process 3 stale inbox files (May 9, May 22, Jun 26) on a dedicated inbox spawn.
 
 *Prior April-and-earlier check-ins archived to `archive/STATUS_archive_20260704.md`. Research corpus RP-ZHAO-1..9 in `sources/`.*
