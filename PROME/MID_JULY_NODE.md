@@ -29,6 +29,11 @@
 - ○ **BDC marks 7/25–28** · **ARCC 7/28** (first top-tier wrapper read) — BROCK/CARL →
 - ○ **First Brands Ch.7 confirmation 7/28** (auto-fraud realization INTO the marks window → BROCK $237M/15 BDCs) — OTTO/BROCK/REG →
 - ○ **FOMC 7/28–29** (no dots; hold ~70–81% priced; story = dots-vs-pricing) — HENRY/VIOLET →
+- ○ **Hyperscaler Q2 FCF 7/29–31** (AMZN/MSFT/GOOG/META — HEN-36 AI-capex-cliff confirm; does FCF compress vs guide?) — HENRY →
+
+**TAIL — 7/30–8/8 · BOJ + the August macro read**
+- ○ **BOJ MPM + FY2027 purchase plan 7/31** (rates-axis bookend) · MOF data 7/31 · ABS rating actions 7/31 — SAM/BOND/CARL →
+- ○ then the **Aug freeze read**: ISM Mfg 8/3 · JOLTS 8/4 · **NFP-July 8/7** (2nd freeze print, V16 resolver) — LABOR →
 
 ## Pre-registered scenarios
 - **BEAR fire:** hot CPI → duration cracks (10Y → 4.8 HENRY fuse) + gamma flips → the 7/21/7/28 credit prints show *substance* → transmission arrives via the **consumer/regional path** (not the HY/wrapper path X1 was watching).
@@ -37,5 +42,6 @@
 ## Convergence discipline (the X1 lesson)
 The credit-recognition prints (banks 7/14 → OZK/ALLY/SYF/COF 7/21 → BDC/ARCC/First Brands 7/28) are **ONE correlated axis with three at-bats — NOT independent bear votes.** Genuinely independent overlays: FL labor · China/Korea (TIC/BoK/LPR) · JGB · FOMC · the gamma amplifier. Both axes firing = real two-root convergence; one axis = size down.
 
-## Open verify
-- **7/14-vs-15 bank kickoff date** — the load-bearing coincidence (banks same-day as CPI). Firm before the node goes live.
+## Resolved / pointers
+- ✅ **Bank-kickoff date CONFIRMED 7/14** — JPM/WFC/C all report the CPI morning (MTB 7/15) [CONF SEC 8-K/StockTitan, via OTTO; the 7/5 sweep resolved the 14-vs-15 flag]. The compound-vol coincidence holds.
+- **Surface map:** this .md = focused node companion · **artifact = the comprehensive ~55-catalyst visual** (3-axis situation board, built 7/5) · `DOCKET.tsv` = canonical dated rows · each agent's `docket/CATALYSTS.tsv` = domain detail.
