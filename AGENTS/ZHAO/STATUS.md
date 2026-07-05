@@ -51,10 +51,16 @@ The April STATUS was built around a late-Feb/March Gulf shooting war (Hormuz clo
 ### Domestic Stress
 | Metric | Value | Threshold | Status |
 |--------|-------|-----------|--------|
+| China Mfg PMI (Jun) | **50.3** (expansion 3mo) | <50 = contraction | 🟢 [CONF] AI/tech-export driven |
+| China Q1 GDP | **+5.0% YoY** | <4.5% = miss | 🟢 [CONF] accel from 4.5% |
+| Land sales rev (H1) | **-6.5% to -27% YoY** | <-20% = RED | 🟠 [CONF] fiscal drag persists |
 | LGFV Total Debt | ~60T RMB | >65T = RED | 🟠 |
 | Regional Bank NPL (Guizhou) | 11.6% (stale) | >12% = RED | 🟠 REFRESH |
-| PBOC Policy Rate | **1.4%** | <1.0% = RED | 🟠 [CONF] unchanged |
+| PBOC 7d repo / LPR | **1.4%** / 3.0%–3.5% | <1.0% = RED | 🟠 [CONF] LPR held 13mo |
+| PBOC gold streak | **19 months** (2,332t) | — | 🟢 [CONF] de-dollarization on |
 | Korea CPI (Jun) | **3.2%** | — | 🟠 highest since Dec 2023 → BoK hike watch |
+
+> **Nuance:** China's *headline growth* is running stronger than the stress narrative (PMI expanding, GDP 5%, exports strong on AI). The risk is **not** a growth collapse — it's concentrated in the **capital account** (genuine UST exit, 18yr low) and **property/fiscal** (land-revenue drought → LGFV refinancing). Don't conflate the two.
 
 ---
 
@@ -135,10 +141,13 @@ The April STATUS was built around a late-Feb/March Gulf shooting war (Hormuz clo
 
 ---
 
-## NEXT ACTIONS (next full session)
-1. **Pull April + May TIC China/Belgium** (`FORGE/tools/market-data` or ticdata) — decide LIQUID 🔴 flag.
-2. Refresh Belgium proxy, Guizhou/Zhengzhou NPL, Saudi TIC.
-3. Process 3 stale inbox files (May 9, May 22, Jun 26) on a dedicated inbox spawn.
-4. Resolve ZHA-08 formally (Gulf recycling) + downgrade ZHA-01.
+## NEXT ACTIONS
+**Done Jul 4 sweep:** April TIC (China $651.1B / Belgium $454B) ✓ · Saudi ✓ · PMI/GDP/land-sales/gold ✓ · HK peg ✓ · ZHA-08 falsified, ZHA-01/03/09 re-marked ✓ · VX (13 rows) + FLOW (5 rows) refreshed ✓
+**Still open:**
+1. **LIQUID outbox** — China genuine-exit signal now verified; awaiting Will's route decision.
+2. **May TIC ~Jul 16–18** — does China break $650B. **BoK Jul 16** — hike?
+3. Couldn't refresh cheaply (still stale): **Guizhou/Zhengzhou NPL** (bank-specific), **Korea official UST $103B** (Apr TIC), **CNH-CNY spread**.
+4. **Tooling:** `FORGE/tools/market-data/fetch.py` broken — `ModuleNotFoundError: yfinance` (no live FX/price pull; fell back to web). Flag to PROME/FORGE.
+5. Process 3 stale inbox files (May 9, May 22, Jun 26) on a dedicated inbox spawn.
 
 *Prior April-and-earlier check-ins archived to `archive/STATUS_archive_20260704.md`. Research corpus RP-ZHAO-1..9 in `sources/`.*
