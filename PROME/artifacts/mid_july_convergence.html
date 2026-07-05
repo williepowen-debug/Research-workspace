@@ -120,6 +120,39 @@
 
   footer{margin-top:44px;padding-top:18px;border-top:1px solid var(--line);font-size:12px;color:var(--ink3);font-family:var(--mono);line-height:1.7;}
   footer b{color:var(--ink2);}
+  /* ---- tabs ---- */
+  .tabs{display:flex;gap:2px;margin:26px 0 2px;border-bottom:1px solid var(--line);}
+  .tab{font-family:var(--sans);font-size:14px;font-weight:600;color:var(--ink3);cursor:pointer;background:none;
+    border:none;border-bottom:2px solid transparent;padding:10px 16px;margin-bottom:-1px;transition:color .15s,border-color .15s;}
+  .tab:hover{color:var(--ink);}
+  .tab[aria-selected="true"]{color:var(--ink);border-bottom-color:var(--accent);}
+  .tab:focus-visible{outline:2px solid var(--accent);outline-offset:2px;border-radius:4px;}
+  .panel[hidden]{display:none;}
+
+  /* ---- calendar (Month view) ---- */
+  .cal-intro{color:var(--ink2);font-size:14.5px;line-height:1.55;max-width:72ch;margin:22px 0 14px;}
+  .cal-intro b{color:var(--ink);}
+  .cal-legend{display:flex;gap:16px;flex-wrap:wrap;font-family:var(--mono);font-size:11px;color:var(--ink3);margin-bottom:14px;}
+  .cal-legend span{display:inline-flex;align-items:center;gap:6px;}
+  .cal-legend .d{width:8px;height:8px;border-radius:50%;}
+  .cal-scroll{overflow-x:auto;padding-bottom:4px;}
+  table.cal{width:100%;min-width:820px;border-collapse:separate;border-spacing:0;table-layout:fixed;}
+  table.cal th.dow{font-family:var(--mono);font-size:10px;letter-spacing:.16em;text-transform:uppercase;color:var(--ink3);
+    text-align:left;padding:4px 9px 8px;font-weight:600;width:14.28%;}
+  table.cal td{vertical-align:top;border:1px solid var(--line);height:118px;padding:7px 8px;background:var(--panel);}
+  table.cal td.wknd{background:var(--panel2);}
+  table.cal td.off{background:transparent;border-color:color-mix(in srgb,var(--line) 45%,transparent);}
+  table.cal td.off .dnum{opacity:.4;}
+  .chead{display:flex;justify-content:space-between;align-items:baseline;margin-bottom:6px;gap:6px;}
+  .dnum{font-family:var(--mono);font-size:13px;font-weight:600;color:var(--ink2);font-variant-numeric:tabular-nums;white-space:nowrap;}
+  .knotlabel{font-family:var(--mono);font-size:8.5px;letter-spacing:.1em;text-transform:uppercase;color:var(--accent);font-weight:700;white-space:nowrap;}
+  table.cal td.marquee{border-color:color-mix(in srgb,var(--accent) 48%,var(--line));
+    background:linear-gradient(180deg,color-mix(in srgb,var(--accent) 13%,var(--panel)),var(--panel));
+    box-shadow:inset 0 0 0 1px color-mix(in srgb,var(--accent) 22%,transparent);}
+  table.cal td.marquee .dnum{color:var(--accent);}
+  .cev{display:flex;gap:6px;align-items:flex-start;font-size:11px;line-height:1.3;color:var(--ink2);margin-top:5px;}
+  .cev .cd{width:6px;height:6px;border-radius:50%;background:var(--csv);flex:none;margin-top:4px;}
+  .cev.big{color:var(--ink);font-weight:600;}
   @media (prefers-reduced-motion: reduce){*{transition:none !important;}}
 </style>
 
@@ -133,6 +166,12 @@
     <span><b>View, not canon</b> — canonical dates live in each agent's ledger + PROME/DOCKET.tsv</span>
   </div>
 
+  <div class="tabs" role="tablist">
+    <button class="tab" role="tab" aria-selected="true" data-tab="timeline">Timeline</button>
+    <button class="tab" role="tab" aria-selected="false" data-tab="calendar">Month view</button>
+  </div>
+
+  <div id="tab-timeline" class="panel">
   <div class="band">
     <div class="card hinge">
       <h3>The hinge</h3>
@@ -156,6 +195,18 @@
   </div>
 
   <div id="timeline"></div>
+  </div><!-- /tab-timeline -->
+
+  <div id="tab-calendar" class="panel" hidden>
+    <p class="cal-intro">The month as a page — the ~20 prints that matter most, on their dates. The three <b>amber cells are the convergence knots</b>, and they line up: all three fall on a Tuesday. <b>14 Jul is the hinge</b> the whole month keys off. Weekend columns are dimmed (markets closed).</p>
+    <div class="cal-legend">
+      <span><span class="d" style="background:var(--sev-crit)"></span> critical</span>
+      <span><span class="d" style="background:var(--sev-high)"></span> high</span>
+      <span><span class="d" style="background:var(--sev-med)"></span> medium</span>
+      <span><span class="d" style="background:var(--accent)"></span> knot day</span>
+    </div>
+    <div class="cal-scroll"><div id="cal-grid"></div></div>
+  </div>
 
   <footer>
     <b>Severity</b> <span style="color:var(--sev-crit)">▮</span> critical &nbsp; <span style="color:var(--sev-high)">▮</span> high &nbsp; <span style="color:var(--sev-med)">▮</span> medium &nbsp; <span style="color:var(--sev-low)">▮</span> low — mirrors each agent's own 🔴🟠🟡🟢.
@@ -305,5 +356,63 @@
     });
     tl.appendChild(sec);
   });
+
+  // ---- tabs ----
+  var tabBtns=document.querySelectorAll('.tab');
+  tabBtns.forEach(function(t){
+    t.onclick=function(){
+      tabBtns.forEach(function(x){x.setAttribute('aria-selected','false');});
+      t.setAttribute('aria-selected','true');
+      document.getElementById('tab-timeline').hidden=(t.dataset.tab!=='timeline');
+      document.getElementById('tab-calendar').hidden=(t.dataset.tab!=='calendar');
+    };
+  });
+
+  // ---- calendar (Month view) ----
+  var cells=[{m:'jun',d:28},{m:'jun',d:29},{m:'jun',d:30}];
+  for(var ci=1;ci<=31;ci++) cells.push({m:'jul',d:ci});
+  cells.push({m:'aug',d:1});
+  var SEVC={crit:'var(--sev-crit)',high:'var(--sev-high)',med:'var(--sev-med)',low:'var(--sev-low)',done:'var(--ink3)'};
+  var MQ={14:'Knot 1',21:'Knot 2',28:'Knot 3'};
+  var CEV={
+    2:[{n:'NFP +57K · resolved',s:'done'}],
+    6:[{n:'ISM Services',s:'high'},{n:'CFTC COT',s:'high'}],
+    7:[{n:'JGB 30Y auction',s:'high'}],
+    8:[{n:'EIA STEO',s:'crit'}],
+    9:[{n:'UST 30Y reopen',s:'crit'}],
+    14:[{n:'CPI — THE HINGE',s:'crit',big:1},{n:'Big banks: JPM/WFC/C',s:'high'}],
+    15:[{n:'Student-loan Phase 1',s:'crit'},{n:'Fitch Auto ABS',s:'high'}],
+    16:[{n:'WAL Q2 · fire gate',s:'high'},{n:'BoK decision',s:'crit'},{n:'May TIC (China)',s:'crit'}],
+    17:[{n:'FL condo supply',s:'med'}],
+    20:[{n:'First Brands vote',s:'med'}],
+    21:[{n:'OZK Q2',s:'crit',big:1},{n:'ALLY Q2',s:'med'},{n:'FL jobs (T-11)',s:'high'},{n:'China LPR',s:'med'}],
+    22:[{n:'JGB 40Y',s:'high'},{n:'GOOGL',s:'high'},{n:'SYF / COF',s:'high'}],
+    23:[{n:'LAB-17 claims open',s:'crit'},{n:'ECB',s:'med'}],
+    24:[{n:'AXP · Japan CPI',s:'med'}],
+    27:[{n:'Treasury 2Y/5Y',s:'high'},{n:'BDC 10-Q cycle',s:'crit'}],
+    28:[{n:'ARCC Q2',s:'crit',big:1},{n:'First Brands Ch.7',s:'crit'},{n:'FOMC begins',s:'crit'},{n:'OPEC JMMC',s:'crit'}],
+    29:[{n:'FOMC decision',s:'crit'},{n:'Hyperscaler FCF →',s:'crit'}],
+    30:[{n:'LAB-17 claims close',s:'crit'}],
+    31:[{n:'BOJ MPM + FY27 plan',s:'crit'},{n:'ABS rating actions',s:'crit'}]
+  };
+  var DOW=['Sun','Mon','Tue','Wed','Thu','Fri','Sat'];
+  var ch='<table class="cal"><thead><tr>';
+  DOW.forEach(function(d){ch+='<th class="dow">'+d+'</th>';});
+  ch+='</tr></thead><tbody>';
+  cells.forEach(function(c,i){
+    if(i%7===0) ch+='<tr>';
+    var col=i%7, wknd=(col===0||col===6), off=(c.m!=='jul'), isM=(c.m==='jul'&&MQ[c.d]);
+    var cls=[]; if(off)cls.push('off'); if(wknd&&!off)cls.push('wknd'); if(isM)cls.push('marquee');
+    ch+='<td class="'+cls.join(' ')+'"><div class="chead"><span class="dnum">'+c.d+
+        (c.m==='aug'?'&nbsp;Aug':(c.m==='jun'?'&nbsp;Jun':''))+'</span>'+
+        (isM?'<span class="knotlabel">'+MQ[c.d]+'</span>':'')+'</div>';
+    if(c.m==='jul'&&CEV[c.d]) CEV[c.d].forEach(function(e){
+      ch+='<div class="cev'+(e.big?' big':'')+'"><span class="cd" style="--csv:'+SEVC[e.s]+'"></span>'+e.n+'</div>';
+    });
+    ch+='</td>';
+    if(col===6) ch+='</tr>';
+  });
+  ch+='</tbody></table>';
+  document.getElementById('cal-grid').innerHTML=ch;
 })();
 </script>
