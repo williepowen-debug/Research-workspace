@@ -45,7 +45,7 @@
 
 | Date | Event | Read |
 |---|---|---|
-| **7/2** | Stock **−5.70%** to $49.84 (from $52.09 6/30), **+1.95% AH** | 🟡 **Idiosyncratic — no public catalyst found.** KRE flat that day. Working read: block-sale/positioning/overreaction. Monitor. [web sweep 7/4] |
+| **7/2** | Stock **−5.70%** to $49.84 (from $52.09 6/30), **+1.95% AH** | 🟡 **Positioning, not news (7/4 verified, 3 sweeps).** No 8-K/13D/block-trade. Read: **sell-the-news** on 7/1 dividend hike (anticipated) + pre-Q2 profit-taking + regional-bank/CRE caution. [single-source recap] |
 | **7/1** | **Dividend hike +2.1% → $0.48/qtr** (64th straight increase) | Capital-return signal — bank-confident posture into Q2 [globenewswire 7/1] |
 | **6/30** | **$200M buyback** authorized | Same — de-risking/confidence narrative [7/1] |
 | **~Q2** | **KBRA affirmed ratings, NEGATIVE outlook** | 🔴 Thesis-supportive: cites CRE stress, **RESG charge-offs rising consecutive years**, "recent RESG downgrades portend elevated credit costs" [KBRA] |
@@ -89,7 +89,7 @@
 1. ✅ **RESG "88%" — RESOLVED phantom + 6-qtr trend PINNED (7/4).** No disclosed OZK figure = 88%. Q1'26: **60% of unfunded** (from ~79% at 3/31/24 peak, −11pts LTM), CIB 32%, **$27.8B commitments (−$6.7B/−19% from peak)**, LTC 49%/LTV 46%, ~mid-50s of loans (derived). **Runoff is a H2'25 event, still accelerating** (share 66→62→60; $ −2.1/−2.0/−1.0B/qtr), mgmt-guided through 2026-27. Direction confirms bull C7; **Jul-21 discriminator** = classified (+23% QoQ→$1.215B) still rising while RESG falls → adverse-selection tell. → `research/threads/RESG_CONCENTRATION_VERIFICATION.md`
 2. ✅ **Bluerock framing — RESOLVED (7/4).** PIK loans **CONFIRMED real** ($246M: $160M@13.5% Dec'27 + $86M@14% Aug'28; Bisnow 3/19/26) — our figures were right. **Entity was mislabeled** "Bluerock Homes Trust" → actually **Bluerock Total Income+ (TI+)**, a $3.6B interval fund (listed ~38% below NAV, redemption queue). Exposure >$700M = PIK **+ large first-loss equity** (~$488M reported, single-source). Equity leads the waterfall → **TI+ NAV mark = leading indicator for OZK RaDD** (−4.4%→$6.28, H2'25 vintage; no fresh Q1). → `IQHQ_PLAYBOOK.md` capital-stack footnote.
 3. ✅ **Aimco MTD — no ruling as of 7/4 (confirmed).** Suit real (Del. Chancery, $50M; $47M impairment Aug'24). MTD likely still in briefing given ~April filing — **not near-term.** Complaint does **not** name Bluerock → softened our "targets Bluerock PIK" inference.
-4. **−5.70% (7/2) driver** — no public catalyst; monitor for delayed news / 13D / block-trade print.
+4. ✅ **−5.70% (7/2) driver — RESOLVED as positioning (7/4, 3 sweeps).** No hidden catalyst — no 8-K / 13D / block-trade found. Best explanation: **sell-the-news** on the 7/1 dividend hike (largely anticipated) + pre-Q2 profit-taking + regional-bank/CRE caution [single-source market recap, hedged]. Downgraded from watch.
 5. **Boston Life Sci $169M sponsor ID** — US2 vs Leggat McCall. `TODO.md` #1.
 6. **WAL IQHQ exposure** — ✅ RESOLVED disconfirming: WAL Investor Day (5/12) disclosed **no** IQHQ/life-sci CRE. Not an IQHQ lender.
 

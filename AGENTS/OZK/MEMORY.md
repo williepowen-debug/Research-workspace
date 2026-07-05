@@ -41,7 +41,7 @@
 
 ## Session Notes
 
-⚠️ **Open question:** The **−5.70% (7/2) idiosyncratic drop still has no identified driver** — noise (block-trade/positioning) or a delayed-news precursor into Jul-21? Everything perishable is now banked and the pre-registered Jul-21 read is locked (OZK-07 discriminator), so the thesis hinges on the Jul-21 print. Re-check for a weekend/holiday 8-K / 13D / block-trade print at next boot before assuming noise — **a deeper news sweep (s3) still found no driver.** *(Prior open question — "pre-register the C7 discriminator before Jul 21" — RESOLVED this session as OZK-05→09.)*
+⚠️ **Open question:** Does the Jul-21 Q2 print show **classified+criticized still rising while RESG falls** (OZK-07 adverse-selection → hold 🔴🔴) or **both falling** (bull de-risking → step down)? The Sterling Bay forced-resolutions (discounted $265M sale + Chicago foreclosure) lean toward the adverse read — but that's the *anecdote*, not yet the *aggregate print*. Everything perishable is banked; the thesis now sits entirely on Jul 21. *(Resolved this session: the −5.70% 7/2 drop = **positioning/sell-the-news** on the 7/1 dividend, no hidden catalyst across 3 sweeps; and the C7-discriminator pre-registration → OZK-05→09.)*
 
 **CHANGES SINCE:** *(leave blank — next boot populates via market.py price delta check)*
 

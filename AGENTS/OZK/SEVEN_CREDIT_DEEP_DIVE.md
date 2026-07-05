@@ -41,6 +41,7 @@
 ### #1 — Sullivan Courthouse / 40 Thorndike ($156.4M)
 - **Asset:** 422K SF mid-rise office redevelopment in East Cambridge
 - **Cycle status:** Delivered into 28%+ Cambridge lab vacancy + 24% Class A office. OZK took $72.4M charge-off Q4 2025 on $300M original basis. Bank is dual-tracking title acquisition.
+- **Current status [web-verified 2026-07-04]:** Loan **came due Jan 2026**; extension talks with **Leggat McCall + Granite + CBRE Global Investors FAILED.** OZK "dual-tracking" — working the sponsors while preparing to take title if no fresh capital (Gleason: "you pay, you stay; you don't pay, you don't stay"). **Fire-sale prospect ~50% of the ~$380M cost (~$190M).** Boston-metro book now ~$1.4B active (Jan'26; the "$1.1B Greater Boston" figure is **2024-vintage**).
 - **Comp read:** One Lincoln (1.1M SF Boston) cleared Mar 2025 at $400M = -56% vs 2006 basis. 99 Bedford St cleared Nov 2025 at -63%. Fully-vacant Boston office severity 55-63%.
 - **Expected loss this credit:** $60-80M additional charge-off (on top of $72M already taken). Total loss trajectory $130-150M of $300M original = 43-50% severity.
 - **Timing:** OZK already moved to title. Resolution 2H 2026.
