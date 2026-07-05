@@ -67,10 +67,11 @@ After the re-anchor (WU1 above), Will flagged that RED + PROME were **live-concu
 **WU2 files changed:** `memory/auto/finding_pathspec_commit_race_safety.md` (Interpretation §), `AGENTS/NEXUS/CLAUDE.md` (closeout step 16 + boot step 6). Commits `fc47d135`, `f73ed760` (both pushed).
 **WU2 promotion:** the concurrent-op interpretation was the promotable learning — landed in the shared finding (not "none this pass" as WU1 stated; WU1's promotion scan predated this thread).
 
-## Still-open after this session (swept 7/5)
-- **BRIEFS_MAP stale-table prune** — the dead 6/16 table under two note-layers not yet pruned (offered, Will greenlit only boot-step #2). File hygiene, not protocol.
-- **RED/REGINALD/LIQUID brief-gaps → PROME route** — 6/27 brief-standup request still unfulfilled; RED also content-stale 6/23. Needs a PROME coordination note (not yet written).
-- **Root CLAUDE.md interpretive one-liner → PROME** — offered to route the concurrent-op nuance to root for fleet-wide *inline* coverage; unresolved.
+## Swept 7/5 (Will-directed "what did we miss") — all closed
+- **BRIEFS_MAP stale-table prune ✅** — rewrote 133→~55 lines: removed three dead snapshot layers (6/16 per-agent tables, 6/8 rollout section, roster-duplicating "Other agents" table) + the redundant 6/27 freshness table; kept the ★7/5 current note, the 6/27 model-shift rationale, Legend, Maintenance rules; added a `PROME/ROSTER.md` pointer (stops re-duplicating roster taxonomy). Maintenance rule now says "keep ONE current freshness note, don't accrete."
+- **RED/REGINALD/LIQUID brief-gaps → PROME ✅** — consolidated note `outbox/2026-07-05_to-PROME_brief-gaps-and-root-oneliner.md` (RED P1 = gap AND content-stale 6/23; REGINALD P2 hub; LIQUID P3 revived). Supersedes the unfulfilled 6/27 ask (→ `delivered/`).
+- **Root CLAUDE.md concurrent-op one-liner → PROME ✅** — folded into the same PROME note as a P3 addendum (root is PROME's commit-scope, not NEXUS's).
+- **Deferred-with-reason (not distractions):** verify-owed figures (S2 $400M, tech-8.3%-HY) = pre-trade gate, no trade pending; fallback-rate rollup = <6 data points, rule says don't act.
 
 ## Next Step
 
