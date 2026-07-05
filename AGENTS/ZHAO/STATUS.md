@@ -144,7 +144,7 @@ The April STATUS was built around a late-Feb/March Gulf shooting war (Hormuz clo
 ## NEXT ACTIONS
 **Done Jul 4 sweep:** April TIC (China $651.1B / Belgium $454B) ✓ · Saudi ✓ · PMI/GDP/land-sales/gold ✓ · HK peg ✓ · ZHA-08 falsified, ZHA-01/03/09 re-marked ✓ · VX (13 rows) + FLOW (5 rows) refreshed ✓
 **Still open:**
-1. **LIQUID outbox WRITTEN** 7/4 (`outbox/2026-07-04_to-LIQUID_china-genuine-ust-exit.md`) — needs PROME to route to LIQUID (cc SAM).
+1. **Two outboxes for PROME** (7/4): (a) `…_to-LIQUID_china-genuine-ust-exit.md` — route to LIQUID cc SAM; (b) `…_to-PROME_zhao-reactivation.md` — ROSTER dormant→active + DAEDALUS scan + NEXUS BRIEFS_MAP add.
 2. **May TIC ~Jul 16–18** — does China break $650B. **BoK Jul 16** — hike?
 3. Still stale (boot.py-flagged): **HK Agg Bal 37d** (pull fresh HKMA AB), **Guizhou/Zhengzhou NPL** (bank-specific), **Korea official UST $103B** (Apr TIC), **CNH-CNY spread**.
 4. **Boot automation LIVE:** `scripts/boot.py` — run at boot via `.venv/bin/python` for live FX/Brent + band check, staleness flags, TIC-release watch, catalyst docket, open predictions. (Fixes the 2.5mo-drift failure mode.)
