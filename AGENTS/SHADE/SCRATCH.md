@@ -1,9 +1,12 @@
 # SHADE SCRATCH.md — Ephemeral Session State
-**Rewritten:** 2026-06-28 ~3PM ET (PROME catch-up spawn — inbox-backlog triage + 6/21→6/28 regime reconcile + ownership formalization; weekend, markets closed, no live pull)
+**Rewritten:** 2026-07-04 ~PM ET (PROME teams-mode trigger-readiness spawn — CoreWeave/S2/OZK signal fold-in + 9-signal WALTER inbox processed + trigger re-marked CLOSER; July-4 weekend, markets closed, no live pull)
 
 ---
 
-## TOP VERDICT (6/28)
+## TOP VERDICT (7/4) — TRIGGER = CLOSER, still HOLD
+Wrapper-decoupling trigger moved from 6/28 "UNFIRED, held" to **CLOSER, not firing.** Two reasons: (1) HY has now **TAGGED 280** (not sustained; bar = >280 5+ sessions per BROCK's identical X1 def); (2) the **CoreWeave AI-credit canary is a NEW arming catalyst INDEPENDENT of the Q2 redemption wave** — asset-side collateral-mark path, not liability-side redemption path. The wrapper-led SIGN leg is still UNCONFIRMED (BROCK owns the post-7/2 wrapper-basket price adjudication; I have no fresh basket read). **Statutory dig stays holstered — deploy-on-trigger.** Highest-value: the CoreWeave insurer channel is real+growing+INVISIBLE — Athene L3 ~$154.8bn (+49% YoY, ~40-43%; DEWEY SIG-033) absorbs Apollo-originated AI-GPU structured credit but AI-collateral concentration is private-by-construction (hypothesis, not fact). JOINT w/ BROCK: still MACRO/DORMANT on observable tape — NOT transmitting — but arming catalyst strengthened + diversified.
+
+## PRIOR VERDICT (6/28)
 Insurer-wrapper transmission stays **structural/latent — no breach.** The 6/22-26 alt-manager crack is **AI-positioning unwind + macro multiple-compression (managers led, wrappers flat), NOT credit-substance recognition** — so my pre-registered wrapper-decoupling trigger has NOT fired even with HY 278 (2bp from the >280 level leg), because the wrapper-led leg is unmet. **Hold the statutory dig; the un-maskable test is forward (monolines 7/15-22 → BDC marks 7/25-28).**
 
 ## CHANGES SINCE LAST SHADE SESSION (6/26 → 6/28)
@@ -56,7 +59,7 @@ Insurer-wrapper transmission stays **structural/latent — no breach.** The 6/22
 | signal_...05-09_blackrock-metcold | DISCARD | PC-recovery=BROCK, China=ZHAO; immaterial; no insurer-wrapper |
 
 ## MAIL STATE
-- `inbox/WALTER/`: empty (SIG-008 processed 6/22). `board_log.tsv` exists + 8 legacy rows appended 6/28.
-- `inbox/` legacy: 8 items triaged 6/28, **left in place** (PROME serializes git mv per spawn guardrail). Dispositions in board_log + table above.
+- `inbox/WALTER/`: **CLEAN as of 7/4** — 9 signals (SIG-W-20260622-001/002, -20260624-001/005/009, -20260626-003/028, -20260627-008/033) processed 7/4, board_log rows appended, all `git mv`'d to `inbox/WALTER/processed/`. (These had landed 6/22-6/27 but the 6/28 SCRATCH wrongly said "empty" — asymmetric-record class, [[finding_asymmetric_records_need_reconciliation]]; now reconciled.)
+- `inbox/` legacy: 8 items triaged 6/28, still **left in place** (PROME to git mv). Dispositions in board_log + 6/28 table.
 - `inbox/processed/`: ATHENE_DEPOSIT_MAP (6/26).
-- **No new cross-agent outbox files this session** (per guardrail: edits SHADE-dir-only; cross-agent items reported to PROME as routing flags, not written into other agents' inboxes).
+- **No new cross-agent outbox files this session** (per guardrail: edits SHADE-dir-only; cross-agent items reported to PROME/BROCK as routing flags via SendMessage, not written into other agents' inboxes). Cross-check flag to BROCK delivered in the main SendMessage (AI-node has a third, insurer-balance-sheet leg the wrapper-basket tape can't see).
