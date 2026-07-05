@@ -33,9 +33,9 @@
 
 ## THESIS
 
-> **Canonical thesis lives in [`thesis/THESIS.md`](thesis/THESIS.md) (v1.0).** This block is a live-state mirror — case-status and validation tags only; durable framing + mechanism + conviction decomposition + risk matrix in the canonical doc.
+> **Canonical thesis lives in [`thesis/THESIS.md`](thesis/THESIS.md) (v1.1).** This block is a live-state mirror — case-status and validation tags only; durable framing + mechanism + conviction decomposition + risk matrix in the canonical doc.
 
-**Primary — "The Cockroach":** when you find one fraud, there are more. **4 confirmed cases** (Tricolor / First Brands / MFS / PrimaLend) + 1 alleged carve-out (Carvana). 🔴 **HIGH conviction** on pattern + magnitude.
+**Primary — "The Cockroach":** when you find one fraud, there are more. **4 confirmed cases** (Tricolor / First Brands / MFS / PrimaLend) + 1 alleged carve-out (Carvana). 🔴 **HIGH conviction** on pattern + **fraud-recovery magnitude**; **systemic-funding-transmission magnitude LOW/disconfirmed** (Jul 4 — BBB spreads tightened, issuance robust; see thesis/THESIS.md v1.1).
 
 **Secondary — "The Invisible Exit":** immigrant subprime cohort skip-defaults bypassing 30→60→90 DQ chain. 🔴 **Industrially validated May 21** (Tricolor 30K missing vehicles / Vervent Fresh Start). MEDIUM-HIGH conviction structurally; slow transmission to broad market via CNL not DQ.
 
