@@ -58,7 +58,7 @@
 - **ML.tsv CRLF-merge corruption REPAIRED** (structural): 11 spurious-int rows + 1 merged mega-row (ML-171) + stray blank → 182 clean contiguous rows, all 8 fields, validate-before-write. + ML-182/-183 appended. EDGAR primary pull now via curl/urllib + compliant UA.
 
 ### NEXT SESSION
-1. **Update thesis/THESIS.md conviction-decomposition (Magnitude leg) + risk matrix** — the standing P1 GAP. Encode BOTH the fraud-vs-systemic split (s014) AND the deep-vs-broad-subprime bifurcation / OTTO-04-metric-decoupling (s015). Consider redefining OTTO-04's canonical measure to the deep-subprime tranche.
+1. ✅ **thesis/THESIS.md → v1.1 (Jul 4)** — both Jul-4 pivots encoded; OTTO-04 measure question RESOLVED (stays blended index; miss = falsified-on-window/confirmed-on-substance, OTTO-29 convention). No carry-forward.
 2. **WINTERKORN T-3 pre-Jul-28 (~Jul 24-25)** — re-verify FB confirmation cluster (Jul 20 vote → Jul 27 ballot-cert → Jul 28 hearing). Weekly-Tue Jul 7 optional.
 3. **Jul 28 First Brands confirmation = live OTTO-32 resolver (85%).** Jul 14 Q2 banks (OTTO-30 last shot); ~Jul 15 Fitch Apr-data print (OTTO-04 summer tell); Jul 15 MTB (OTTO-31); Jul 21 Ally (OTTO-28 postscript).
 4. **Route BDC/private-credit dashboard refresh to BROCK** (not OTTO domain — reference, don't re-maintain). DQ-series reconciliation (7.1% vs Fitch 6.90%/6.11% vs VX) still open. Verify Jun-16 Carvana Chancery dismissal identity.
