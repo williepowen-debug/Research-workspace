@@ -9,37 +9,39 @@
 ## GIT STATE (one line)
 -->
 
-**Session 21 + 21b — Tue 2026-06-23 (eve).** Crash-recovery boot → VIX-rebid HOLD → full 40-signal WALTER inbox sweep → consolidated closeout. **conf 69 / NB 56 HELD; zero weight change all session.**
+**Session 22 — Sun 2026-07-05.** 12-day catch-up (last full closeout S21b 6/23): 98-signal WALTER inbox drain + 10-agent cross-domain sweep + FRED credit re-check. **HOLD 69/56; Stag 38 sole-modal (+1) / War 5 (−1); NB flat.**
 
-## CHANGES SINCE (S20b 6/22 close → S21 6/23)
-- **S21 session (6/23 ~8:38 PM) crashed mid write-back** during the atomic rename of STATUS.md. Recovered cleanly (lost exactly one edit, the Brent/OVX 6/23 row; restored from the `.tmp.26515` atomic-write temp). No corruption, fleet tree clean. Commit `74af4477`.
-- **Tape 6/23:** VIX **19.49 (+12.79%)** on SPY −1.45% — but banks GREEN (WAL/OZK/KRE up), both tails DEFLATED (SKEW 143.14 off the 146.72 high, OVX 46.60 −8%), Brent 76.70, HY OAS 265 (FRED 6/22, lagged). The VIX re-bid was the day's only new datum.
+## CHANGES SINCE (6/23 → 7/5)
+- **A 6/26 partial session** filed CHG-RED-041 (BRENT structural red-team) + its report but never closed out — STATUS/SCRATCH/CALENDAR/CHANGELOG left at 6/23. Swept this session.
+- **Tape:** HY OAS 265→peaked 283 (6/26 AI-selloff)→275; CCC 947→973→971 (sticky); VIX 19.5→15.8 (6/23 re-bid faded, 2nd-print trigger expired unfired); SKEW 146.7→150 (fresh high, but DIET NOT formally firing per VIOLET); Brent 76.7→72.1 (sub-75, structural decouple); OZK −5.7% (7/2 positioning); WAL 81.5.
+- **98 WALTER signals** accumulated (drained this session). **Concurrent NEXUS+PROME session active** (foreign staged files; HEAD moved; push held).
 
 ## WHAT I DID
-1. **Crash recovery** — diagnosed + completed the interrupted STATUS write; fleet-state check (no other agent had uncommitted/unpushed work). Committed `74af4477`.
-2. **S21 VIX-rebid panel** (wf_84edef4d, captured in STATUS pre-crash): bull-confirm 58 / acute-crack 22 / noise → **HOLD-FOR-CONFIRM**; pre-registered the **2nd-print trigger** (VIX close ≥20 a 2nd session within 3 trading days AND next un-lagged HY OAS ≥267); adopted the **May core-PCE 6/25 gate**.
-3. **Full WALTER inbox sweep — all 40 signals, chunks A–E, dispositioned + filed to `processed/`** (commits `3bac8c26` A / `2928a378` B / `5a144add` C / `4ec9ffb2` D / `0477eae6` E). **NET zero weight change** — every chunk confirmed "direction reinforced, transmission lagging," and RED's reads CONVERGED with each domain owner. Three bear-supportive residuals surfaced (see OPEN THREADS).
-4. **Consolidated closeout** — CHANGELOG 6/23 entry; STATUS S21b block; CHG-RED-040 logged; this SCRATCH; CALENDAR/MAINTENANCE refreshed; 2 auto-memories promoted (incentive-rubric, CRLF-gotcha).
-   - Persisted across sweep: **KB-RED-049…054** (6), **ML-RED-090…094** (5), **VX-RED-025 re-scoped** (+VX_HISTORY), **3 CATALYSTS rows** (June CMBS/MF tiebreaker 7/15 · winter-2026-27 FL 12/15 · May TIC 7/16), **CHG-RED-040**.
+1. **Chunk 0** — RED-18 resolved WRONG (Dec-26 <$80, 14/41 days; oil-bear-dir miss); RED-05 pushed to late-Jul; tally 8W/9C/2A. Commit `a92c1c50`.
+2. **Chunk 1** — drained 98-file WALTER inbox via background Workflow (0 ACTION / 26 moves-weight); `board_log.tsv` created; git-mv'd to processed/. Commit `4917ea0e`.
+3. **Chunk 2** — 10-agent cross-domain sweep (7 first-wave + 3 second-wave), all released; FRED primary re-pull confirmed the credit peak-6/26-revert.
+4. **Chunk 3** — STATUS full re-anchor (126 ln). **The correction:** June widening = concentrated AI-noise (not transmission); bear edge migrated to name-level. Stag 37→38 / War 6→5, NB flat.
+5. **Chunk 4** — KB +7 (055-061) / ML +3 (095-097) / VX 015(70→65)/021/025 reviewed + VX_HISTORY +3; CATALYSTS resolved 7 + re-dated 3 + 3 new; CHG-040/041 dispositioned; **FLOW.tsv FROZEN**; CALENDAR mirrored.
+6. **Chunk 5** — CHANGELOG + this SCRATCH + MAINTENANCE + MEMORY/auto-memory + commits.
 
 ## NEXT SESSION (dated, priority-ordered)
-1. **🔴 6/24 EIA WPSR — Cushing sub-20M** (BRENT routing #3; absorption-vs-squeeze, RED read = absorbed so far).
-2. **🔴 6/25 May core-PCE gate** (the dated HENRY-adopted gate; stagflation-substance test).
-3. **🔴 6/26 CFTC COT (post-MOU)** — the discriminator for the **positioning-squeeze residual** (VX-025); 6/16 data was PRE-MOU, true extreme first prints here.
-4. **🟠 7/3 Geneva round** (HAW-12; VX-025 war-tail discriminator) · **7/5 RED-18** Brent Dec-26 $80-95 resolves (AT-RISK-low; Dec strip owed from BRENT).
-5. **🔴 7/10 June CPI/PPI** (CHG-028 stagflation-leg falsifier) · **7/15 June CMBS DQ + MF starts** (618-007/008 tiebreakers) · **7/16 May TIC** (FOI Leg-B kill test).
-6. **🔴 ~Jul 30 WAL/OZK Q2** — THE fork-resolving binary + the **CHG-040 / leading-criticized-credit** discriminator (do OZK/EGBN/BKU/SBCF leading ticks BUILD or revert?). Pre-write the beat/miss × clean/dirty tree (owed since S20).
-7. **Daily: HY OAS <260 watch** (265 now; framework pre-written `research/HY260_CAPITULATION_FRAMEWORK.md`; bare print → HOLD Branch A).
+1. **🔴 7/9 30Y UST auction** — BOND term-premium residual test (KB-060; BND-11/12).
+2. **🔴 7/10 June CPI/PPI** — CHG-028 stagflation-leg falsifier (does core/services hold while energy deflates?).
+3. **🔴 mid-July BANK CLUSTER — WAL ~7/16 / OZK 7/21 / EGBN 7/22** (NOT Jul 30). Pre-write beat/miss × clean/dirty trees. OZK = CHG-040 leading-creep discriminator (build or revert?); WAL = REG-24 Office>$500M 70% + loss-absorption-vs-NIM.
+4. **🟡 7/15 June CMBS DQ + MF starts** · **7/16 May TIC** (China UST sub-$650B, ZHAO) · **7/25 Q2 BDC marks** (PC-gate channel).
+5. **🟡 7/31 DISH rebalance** — mechanical CCC tightening; do NOT misread as healing.
+6. **Daily:** HY re-cross >280 (WL-03, 5bps = FT-01 un-fire); SKEW<140-4td (Acute kill); CCC >1000.
 
-## OPEN THREADS (the 3 sweep residuals — all bear-supportive, same direction)
-- **(1) Premium MIGRATED, didn't vanish** — oil specs near-record short (KB-051) + freight VLCC +82-92%/insurance >1000% + semis max-bear 3x = the fleet is the crowded de-escalation/normalization position → asymmetric **squeeze convexity**. VX-025 re-scoped (vol-pricing leg DEAD / positioning leg ALIVE). Disc CFTC 6/26.
-- **(2) Leading criticized-credit migration** — chunk-A 618-009 (OZK/EGBN material) + chunk-C FL = same early edge the benign realized-NCO/per-capita framing discounts. **CHG-RED-040** (RED vs REGINALD/CORAL "reconciled-benign"). Disc Q2 ~Jul30.
-- **(3) Term-premium = 2Y hawkish-hold reprice, NOT a 30Y breakout** (KB-053). The real stagflation/fiscal confirm = a 30Y term-premium breakout (continuous watch, not yet fired). Raises the duration-leg bar.
-- Standing **RED-vs-LIQUID CCC-BB** disagreement (S21; disc Q2 BDC marks ~Jul25). VX-024 (Japan trigger) re-confirmed dead; residual = bounded VX-026 convexity-tail (retire Sep-18).
+## OPEN THREADS
+- **PC-redemption-gate channel UN-OWNED** (BCRED 5% 1st-ever) — flag to PROME for ownership; most substantive new bear datum.
+- **CHG-040** OZK-concentrated (NOT WAL) — disc OZK 7/21. **CHG-041** leans BRENT but tail (P&I→snap) untested — do NOT close.
+- **CCC retention-ratchet** (LIQUID) — define distressed threshold.
+- Acute-13 = single-mechanism vol-tail (VIOLET DIET not firing); floor not upgrade.
+- Concurrent NEXUS session: verify tree clean before next pull.
 
 ## PENDING WILL-DECISIONS
-- **Push window:** 6 RED commits local-only (`74af4477`→ closeout commit), unpushed by design — sweep up at the next coordinated window.
-- No open trade/rail decision from RED this session (net no-move; nothing rose to a PROME alert).
+- **Push:** 3 RED commits local-only (a92c1c50 preds / 4917ea0e drain / + the Chunk 3-5 closeout commit), **HELD — concurrent NEXUS+PROME session active** (safe-push needs coordination). Sweep at next clean window.
+- No trade/rail decision rose to a PROME alert this session (net no-move HOLD).
 
 ## GIT STATE (one line)
-On master, clean tree; 6 unpushed RED commits (crash-recovery + chunks A–E + consolidated closeout); push deferred (Will-coordinated).
+On master; RED commits local (preds + inbox-drain + closeout), push HELD pending concurrent-NEXUS clearance; nothing staged outside `AGENTS/RED/`.

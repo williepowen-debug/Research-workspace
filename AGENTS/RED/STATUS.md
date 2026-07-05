@@ -1,141 +1,126 @@
 # RED STATUS
-**Last Updated:** 2026-06-23 (Tue eve, **Session 21** evening re-anchor **+ S21b consolidated closeout** — 40-signal WALTER inbox sweep, chunks A–E; **HOLD 69/56, no weight change** on disciplined hold-for-confirm — see S21/S21b banners below). Prior anchor 6/22 (**Session 20** — 9-day catch-up). Last S19 anchor 6/12 close. In the gap **three catalysts fired and were absorbed:** BOJ hiked to 1.00% (6/16, as-priced, no carry unwind, yen *weaker* USDJPY 161.5 — **VX-RED-024 CONFIRMED, Japan trigger dead**); **FOMC 6/17 = HAWKISH HOLD under NEW Chair WARSH** (un-modeled — network blind-spot; dots +40bp→3.8 implying ≥1 hike, core PCE fcst 3.3%, easing language gutted) **yet VIX crushed to 17, equities recovered, HY OAS tightened to 266**; Iran "Islamabad MOU" signed 6/17 → Brent −$10 to $77, then Iran re-declared Hormuz closed 6/20 (declaratory) → Brent *shrugged*. **My pre-written bull-steelman scored almost completely.** Ran a 6-agent adversarial network sweep + stale-challenge closure (workflow wf_3ea13dec-167). **S20b intra-day update (~5:30 PM ET):** processed 2 new BOARD signals (DEWEY FL-timing / Bain Euro CLO → priorities #4/#7) + ran the SAM v1.6 adversarial dialogue → **CONVERGED** (Japan directional trigger dead; convexity-tail = MEDIUM/break-even, retire Sep-18; VX-RED-026 + USD/JPY counter-signal updated). **No RED-weight change.** **Role:** Adversarial Analysis / Thesis Stress-Tester.
+**Last Updated:** 2026-07-05 (Sun, **Session 22** — 12-day catch-up: 98-signal WALTER inbox drain + 10-agent cross-domain sweep + FRED-verified credit re-check). **HOLD 69/56 — Stag edges sole-modal (+1) / War −1; net-bear flat.** Prior full anchor 6/23 (S21b). **Role:** Adversarial Analysis / Thesis Stress-Tester.
 
-> **S21 (6/23 eve) — HOLD 69/56, no weight change (disciplined hold-for-confirm).** Ran a focused adversarial panel (workflow wf_84edef4d) on the day's lone new datum — **VIX re-bid to 19.49 (+12.79%) on SPY −1.45%.** Three independent lenses converged: **bull-confirm 58% / acute-crack 22% / noise-baserate = HOLD-FOR-CONFIRM** (P(regime-shift) ~25-30%). The move is sub-20, single-print, credit-unratified (HY OAS FRED-lagged to 6/22), and **banks printed GREEN on the red tape (WAL +2.44, OZK +1.57, KRE +1.57)** — the hardest datum to reconcile with a stress read, a 2nd+ corroboration of the bull's bank-unpricing leg (VX-021). **Live tail-pull REFUTES the acute-crack read:** SKEW **143.14** (off the 146.72 June high) + OVX **46.60 (−8.09%)** — both tails DEFLATED while the body (VIX) rose = normalization, NOT a coiled-spring release. Re-marking on this breaks RED's own single-print rule → **pre-registered the 2nd-print trigger** (VIX close ≥20 a 2nd session within 3 trading days AND next un-lagged HY OAS ≥267). **Two peer reframes today both *recommended* cutting conf; RED rejects both as over-reads:** HENRY's stagflation-fragility is already in S20's composition-shift note (net-new = the dated **May core PCE 6/25** gate — ADOPTED); LIQUID's "HY<260 kill-trigger demotion" double-counts RED's own 6/22 HY260 reframe. **LIQUID *re-affirmed* CCC-BB (791) as load-bearing — RED adversarially REJECTS** (791 ≈ the regime-invariant 781/789 band; "3 corroborations" non-independent: index/tail tautological, Euro-CLO/govvie single-print-adjacent, default-rate ≠ spreads) → standing **RED-vs-LIQUID disagreement**, discriminator = Q2 BDC marks ~Jul 25. Branch-EV across the 6/25 PCE fork ≈ 68-69 → HOLD is martingale-consistent, not anchor.
+> **S22 (7/5) headline — the June credit "re-widening" was NOT transmission engaging; it corrected.** FRED-verified: HY OAS peaked **283 on 6/26 (the Nasdaq −4% AI-selloff day) → 275 now**; CCC **973 → 971 (sticky).** DEWEY + LIQUID both *strengthen* RED's CCC-BB artifact demotion (concentrated AI-equity spillover, not broad deterioration). The genuine bear stress is **realized at the name level** — OZK deed-in-lieu + criticized-credit +23% QoQ + NCO 56bps; BCRED enforced a **5% redemption gate (1st ever)** — while the index stays calm and reverts. **Bifurcation thesis REINFORCED.** 5/7 domain peers converged bull-on-transmission = the Unanimity-Protocol blind-spot flag (index-calm masking name-cascade). Catch-up mechanics: RED-18 resolved WRONG (→ 8W/9C/2A); 98 inbox signals drained (0 ACTION / 26 moves-weight); board_log.tsv created.
 >
-> **S21b (6/23 closeout) — full WALTER inbox sweep: 40 signals (chunks A–E), ZERO weight change; RED converged with every domain owner (REGINALD/HAWK/BRENT/CORAL/SAM) → ran the Unanimity-Protocol blind-spot hunt.** Three bear-supportive residuals, all the same direction: **(1)** the de-escalation/normalization premium **migrated, didn't vanish** — oil specs near-record short (KB-051), freight VLCC +82-92% / war-insurance >1000%, semis max-bear 3x → the fleet IS the crowded position = asymmetric **squeeze convexity** (VX-025 re-scoped vol-pricing→positioning; disc **CFTC 6/26**); **(2)** leading **criticized-credit** migration (chunk-A 618-009 OZK/EGBN-material + chunk-C FL = the same early edge the benign realized-NCO framing discounts) → **CHG-RED-040**, disc **Q2 ~Jul30**; **(3)** the "term-premium breakout" is a hawkish-hold **2Y** reprice, NOT a **30Y** breakout (KB-053, high-bar). VX-024 (Japan trigger) re-confirmed dead from 2 new angles; FL acute tail thinned (oil-conditioned). Persisted KB-049…054 / ML-090…094 / VX-025 / 3 catalysts.
->
-> **Session 20 thesis-impacting deltas (vs 6/12):**
-> (1) **FOMC graded against my 3-branch tree → HYBRID, fits NEITHER branch cleanly.** Hawkish dots (toward HAWKISH-HOLD/76) + vol-absorbed, credit-tightening, equities-recovered (toward AS-PRICED/67). The substance hardened bear; the tape absorbed it. Calibration lesson: my tree conflated the *substance* dimension (dot-plot) with the *reaction* dimension (vol-snap) — reality split them. Warsh-as-Chair was un-modeled.
-> (2) **SKEW RELOADED, did not release.** I attacked VIOLET's coiled-spring as "war-premium residue that should deflate post-MOU"; live ^SKEW **146.72 (6/18→6/22)** — a June HIGH, *through* BOJ/FOMC/MOU/Brent-collapse. The deep-tail bid intensified after both the credit-FOMC and war tails resolved benign. **Acute held at 13 on this** (not cut), composition shifted credit-tail→vol-tail.
-> (3) **CCC-BB bifurcation DEMOTED** (LIQUID sweep): the 783bp tail-gap was ~781 at acute-stress (Mar: HY 319/VIX 26) AND ~789 now at risk-on (HY 266/VIX 17) → non-discriminating curve-shape artifact; already failed one out-of-sample test (Mar 781 predicted IG contagion; IG 74bps benign). One of my standing bear-confirming signals is weaker than I carried it.
-> (4) **HY OAS 266 → 6bps from <260 (WL-04 NEAR).** FT-01 firing sustain-met (266/266/263). **Base-rate re-frame (S20):** sub-260 is the rarest credit regime in 30yr (only 1997/2007/2025-Jan) and 3/3 PRECEDED major widening within 3-18mo — it falsifies near-dated TIMING, NOT direction; a max-complacency marker (bear-confirming structural). True capitulation needs the conjunction (HY<260 AND structural data backs off). Corrects RED's own prior "capitulate transmission" framing. Framework: `research/HY260_CAPITULATION_FRAMEWORK.md`.
-> (5) **War de-priced (−2):** MOU signed (signing-binary→de-escalation), HAW-11 expired (no Gulf infra hit). But **OVX 51.73 NOT crushed** + war-risk insurance >1000% → oil-tail IS priced; only equity-VIX (17) complacent → **VX-RED-025 weakened** (hedge already expensive where it'd pay). Jun-20 re-closure declaratory; PGSA-OFAC insurance trap is a new structural gate.
+> **Prior anchors (compressed):** S20–21b (6/22–23) — BOJ hiked as-priced 6/16 (Japan trigger dead, VX-024); FOMC 6/17 Warsh hawkish-hold ABSORBED (VIX crushed, HY tightened to 265); Iran MOU 6/17 (Brent −$10); SKEW reloaded; CCC-BB demoted to artifact. Was HOLD 69/56 with the binding watch "HY heading <260." **That watch is now DEAD** — HY reversed to 275 (WL-04 clear, +15 away).
 
 ---
 
 ## CURRENT ASSESSMENT
 
-**Confidence: 69% (was 70). Net bear 56% (was 57).** Re-anchored to 6/22 live tape. The −1/−1 decomposes: **direction REINFORCED by substance** (Warsh hawkish Fed forecasting 3.3% core PCE + ≥1 hike with no easing = textbook trapped/stagflation-Fed; SKEW reload; CARL: stagflation-trap arguably under-scored), **timing/transmission ERODED** (HY OAS→266 toward <260; CCC-BB demoted from clean-tail to artifact; broad credit refused to widen through TWO hawkish catalysts + a war re-escalation). The only clean bull-break was the war/oil leg (deal signed) → that's why NB only −1. **The bifurcation widened from both sides again — this is the regime, not a lag.**
+**Confidence 69% (=). Net-bear 56% (=).** Re-anchored to 7/5 live tape after a 12-day gap. The distribution barely moved but its *composition* shifted: **+1 Stagflation** (CARL: sticky-prices substance — ISM Prices-Paid 82.1, highest since Aug-22; V12 "Fed-Locked" MAXED 5/5) **offset by −1 War** (BRENT: oil structural-decoupling confirmed — the 6/27-28 kinetic spark made Brent FALL not snap, P 0.63→0.70). Net-bear flat = the S20/S21 pattern continues: **direction reinforced by substance, war/oil leg keeps deflating.** The session's real work was *disconfirming* a head-fake: the June HY/CCC widening looked like transmission finally firing; the 10-agent sweep + FRED re-pull showed a concentrated AI-equity spillover that peaked 6/26 and reverted. Transmission still lags at the index; the bear's edge is realized at the names.
 
-**Hypothesis weights (S21 — HELD unchanged 6/23 on hold-for-confirm; every weight as-of 6/23; last *moved* 6/22):**
+**Hypothesis weights (S22 7/5; every weight as-of 7/5):**
 
-| Hypothesis | Prob | Δ vs S19 | Key Driver |
-|------------|:----:|:--:|-----------|
-| **Full Stagflation Spiral** | **37%** | **+1** | Warsh hardened the *structural* leg (core PCE fcst 3.3%, +40bp dots, easing gutted; CARL V12 under-scored). Composition shift: now core/services-led, NOT oil-headline (Brent $77, pump $3.99 deflate the forward energy channel — July CPI energy decelerates). |
-| **Managed Decline / Muddle-Through** | **37%** | **+1** | tape absorbed BOJ+Warsh+Iran over 9 days; sweep verifiers tilt "bear mechanisms intact but suppressed/lagging/non-discriminating" (REGINALD loss-absorption defanged by NIM; LIQUID CCC-BB artifact). **Co-modal with Stagflation.** |
-| **Acute Financial Dislocation** | **13%** | **=** | **held NOT cut** — SKEW 146.72 reloaded post-catalyst (spring didn't release; VIOLET DIET 60d window ~through Aug 12). CCC-BB credit-tail leg DEMOTED → Acute now leans on the vol-tail (SKEW), not the credit-tail. |
-| **War Escalation** | **6%** | **−2** | MOU signed 6/17 (signing-binary→de-escalation, Brent −$10); HAW-11 expired. Offset: Jun-20 declaratory re-closure + Lebanon + PGSA-OFAC new gate + right-truncated training set (HAWK sweep). |
-| **Policy Rescue** | **3%** | **−1** | **WARSH** (new hawkish Chair, gutted easing, +40bp dots) kills the dovish-pivot path; residual = forced-backstop-on-credit-event ONLY. Dovish-surprise EXIT-ALL trigger even less likely. |
-| Soft Landing | **4%** | **+1** | clean 9-day absorption of two hawkish catalysts earns a bump; capped — Warsh *forecasting rising inflation* is the opposite of a soft-landing setup. |
+| Hypothesis | Prob | Δ vs S21 | Key Driver |
+|---|:--:|:--:|---|
+| **Full Stagflation Spiral** | **38%** | **+1** | CARL: ISM Prices-Paid 82.1 (highest since Aug-22) + Employment 48.6 (32mo contracting) = sticky-prices / no-output; V12 Fed-Locked MAXED 5/5 (Warsh). Core/services-led. **Sole modal.** |
+| **Managed Decline / Muddle** | **37%** | **=** | DEWEY: June widening = concentrated AI-noise, reverting. REGINALD: WAL NIM tailwind defangs loss-absorption (not-bear 56/44). LIQUID: risk-off beta, not substance. |
+| **Acute Financial Dislocation** | **13%** | **=** | **HELD but single-mechanism** — VIOLET: formal DIET *not* firing (VVIX flat, no corroboration); vol-tail = borrowed-SKEW (150, fresh) only. Credit-tail leg DEAD (artifact). New leg: PC redemption-gates (BCRED 5%). |
+| **War Escalation** | **5%** | **−1** | BRENT structural decoupling confirmed (6/27-28 kinetic test benign, P 0.70); SAM Japan bounded. Residual: P&I insurance not resumed (CHG-041 tail untested). |
+| **Policy Rescue** | **3%** | **=** | Warsh hawkish regime; forced-backstop-on-credit-event only. |
+| **Soft Landing** | **4%** | **=** | hawkish-tape-on-weak-NFP + sticky prices cap it. |
 
-**Net bear: 56% (−1) | Managed/Rescue: 40% (=) | Soft: 4% (+1).** Stagflation & Managed **co-modal 37/37**. Over S17→S20 the war-vol +4 (55→59) is now almost fully given back (→56), *replaced* by hardened stagflation substance — direction held, vehicle/timing is the binding constraint.
-
----
-
-## BULL CASE STEELMAN (RED's core duty — refreshed 6/22; it KEEPS scoring)
-
-The "we're wrong" case is **winning the tape**, and the 9-day window was its best stretch yet:
-
-1. **Two hawkish catalysts ABSORBED.** A new hawkish Chair (Warsh) raised 2026 dots +40bp and forecast 3.3% core PCE with no easing — and VIX *crushed* to 17, equities recovered, HY OAS *tightened* to 266. If systemic stress were building, a +40bp dot-shift cracks credit; instead credit tightened toward its own capitulation line.
-2. **HY OAS 266 — refused through NFP shock, hot CPI, kinetic war, a BOJ hike, AND a hawkish Warsh Fed.** Now 6bps from <260 (WL-04). The bear-kill canary keeps printing bull. **CCC-BB "bifurcation" is a non-discriminating curve artifact** (same ~785 at acute-stress and risk-on; failed its Mar IG-contagion test) — RED's strongest "tail dissents" signal got demoted this session.
-3. **Banks UN-pricing the stress:** WAL 79.1 / KRE 72.0 / OZK 49.8 held; WAL already ate $152.5M of fraud charge-offs (2.6× the implied B1 charge) and still printed $2.22 adj EPS — the loss-absorption constraint Bear-medium needs doesn't hold against the Warsh NIM tailwind (REGINALD sweep, ~65/35 bull).
-4. **Japan trigger DEAD:** BOJ hiked to a 31-yr-high rate and the yen *weakened* (USDJPY 161.5), no carry unwind, no MOF. The most-watched parallel amplifier failed to fire (VX-RED-024 confirmed).
-5. **Oil-shock pathway MUTED:** Brent $77, contango, 4 consecutive closure-and-shrug datums. The stagflation oil-leg is deflating on price (FLOW-HAWK-04/05 muted).
-6. **Warsh credibility is *containing* term premium** — hawkish prints rallied the long end (bear-flattener, 2Y +16bp, 30Y −2). The duration trade now needs a *growth* break, not an inflation print (LIQUID) — a higher bar.
-
-**If this is right:** the gap was the head-fake completing — bears added into a calm tape; the divergence re-opens wider than ever; WAL/OZK Q2 (mid-late July) prints clean and the bear thesis loses its last near-term catalyst. **Credit logged: I pre-wrote this scenario and it scored.**
+**Net-bear 56% (=) · Managed/Rescue 40% (=) · Soft 4% (=).** Stagflation **sole modal (38)** for the first time since early June — the prices / Fed-locked substance edged it above muddle-through.
 
 ---
 
-## COUNTER-SIGNALS (values refreshed 6/23 live; weights HELD — explicit)
+## BULL CASE STEELMAN (refreshed 7/5 — it STILL wins the index tape)
 
-| Signal | Value | Bull Read | Bear Read | RED Weight | Δ |
-|--------|-------|-----------|-----------|:----------:|:-:|
-| **HY OAS 265** (FRED 6/22) | FT-01 firing sustain-met (265/266/266); **WL-04 <260 NEAR (−5)** | canary dying; bull (BUT FRED-lagged — today's −1.45% SPY risk-off NOT yet in the print) | re-cross >280 un-fires FT-01 (far); <260 sustained = max-complacency, NOT capitulate (HY260 framework) | **65/35 bull** | −1; lagged |
-| **CCC OAS 947** (FRED 6/19) | FT-07 firing | tail-only/idiosyncratic | tail leads index | **45/55 bear** | **DEMOTED ←35/65** (CCC-BB artifact, LIQUID) |
-| **VIX 19.49 (+12.79%) / SKEW 143.14** (live 6/23) | VIX re-bid on −1.45% SPY = positioning, not stress; **SKEW OFF its 146.72 high** (tail deflating as body rises) | single-print sub-20; both tails (SKEW↓, OVX↓) refute a spring-release | SKEW still >138 fade-line — Acute-13 survivor intact but **SOFTENING** | **VIX 58/42 bull · SKEW 45/55 bear** | SKEW fading; 2nd-print VIX trigger pre-reg |
-| **Warsh FOMC: dots +40bp / core PCE 3.3%** | 6/17 | confidence signal; mkt absorbed | trapped/stagflation-Fed; rescue dead; CRE refi pressure on a lag | **55/45 bear (substance)** | NEW |
-| **USD/JPY 161.6** (live) | BOJ hiked, yen weaker, no MOF | carry/differential regime, no unwind | residual = bounded convexity-tail, MEDIUM/break-even — not a near-term catalyst | **60/40 bull** | VX-RED-024 confirmed; **convexity-tail MEDIUM** (RED⇄SAM dialogue 6/22 → VX-RED-026); retire Sep-18 if no trigger |
-| **Brent 76.70 (−1.54%) / OVX 46.60 (−8.09%)** (live 6/23) | flat-price toward <75 (FT-04 NEAR); oil-bear vindicated (RED-08/17/18); **OVX now ALSO crushing** = oil-tail de-pricing too | physical still tight (Cushing ~20M, SPR draining); Geneva ~7/3 discriminator | **price 65/35 bull · tail-vol 55/45 bull** | OVX −8% → VX-025 weaker still |
-| **WAL 79.1 / KRE 72.0 / OZK 49.8** (live) | bank stress un-pricing | Q2 prints mid-late Jul = real test; REG-24 Office >$500M near-locked | **65/35 bull** | held |
-| **10Y 4.51 / TLT 86.0** (live) | term premium contained by Warsh credibility | bear-flattener (2Y +16bp); duration needs a *growth* break now | **45/55 bear** | flat |
-| **Initial claims 226K** (FRED 6/13) | LABOR inert | drifting; shadow-adj higher | **70/30 bull** | held |
-| **Retail-puts-at-ATH / small-mid PE 0.76** | sustained | 10/10 higher 12mo | late-cycle marker | **70/30 bull** | sustained |
+1. **The credit transmission the bear needs still isn't firing broadly.** The June HY/CCC widening — which *looked* like the break — peaked 6/26 on a concentrated AI-equity selloff (Nasdaq −4%) and reverted (HY 283→275). Two independents (DEWEY, LIQUID) + FRED confirm: concentrated, not broad; the CCC-BB "tail" stays a curve artifact.
+2. **Acute rests on one leg that isn't even firing.** VIOLET: the formal DIET coiled-spring is NOT triggered (VVIX flat, no corroboration) — the SKEW-150 bid is single-mechanism hedge-rotation ("complacency-with-bid-tails"). 13% leans on a borrowed, un-confirmed signal.
+3. **WAL's NIM tailwind defangs the loss-absorption bear** (REGINALD not-bear 56%); banks green (WAL 81.5, KRE 75). 40-45bps NCO already priced; true bear needs >55bps + a visible charge-off (~30-35%).
+4. **Japan dead, oil de-escalating structurally.** BOJ hiked with no unwind (SAM VX-024); Brent $72 fresh 4-mo low; kinetic sparks now produce *falls* not snaps (BRENT P 0.70).
+5. **Term premium contained** — 30Y <5.0, a policy reprice not a term-premium breakout (BOND); the duration leg's bar is unmet.
 
-**Balance tilts BULL near-term and the bull pile is now persistence-heavy** (HY OAS, banks, Japan-dead, oil) AND has absorbed the substance (Warsh). The bear pile is substance-only (Warsh trapped-Fed, SKEW reload, CRE-DQ tier-creep) + structural-lag. The bifurcation re-opened from BOTH sides. Substance gates **WAL/OZK Q2 (~Jul 30)** and **July CPI/PPI (Jul 10)**.
+**If this is right:** the mid-July bank cluster (WAL 7/16, OZK 7/21) prints clean-enough, the index divergence re-widens, and the bear loses its last near-term catalyst. **The counter I must hold:** all of the above reads the *index/tape*, which is calm — and 5/7 peers converged there. That convergence is the Unanimity flag; the blind spot is the **name-level realized stress** (OZK deed-in-lieu, classified +23%, BCRED 5% gate, S2 Capital $400M fund dissolved) that never shows in HY OAS.
 
 ---
 
-## FALSIFICATION CRITERIA (6/22)
+## COUNTER-SIGNALS (live 7/5; weights explicit)
+
+| Signal | Value (7/5) | Bull read | Bear read | RED Wt | Δ |
+|---|---|---|---|:--:|:--:|
+| **HY OAS 275** (FRED 7/2) | peaked 283 6/26 → 275; FT-01 (<280) firing | AI-spillover reverting; <260 watch DEAD | sticky vs 265 (6/22); WL-03 >280 re-cross 5bps | **60/40 bull** | widening reverted |
+| **CCC OAS 971** (FRED 7/2) | peaked 973 6/26, barely reverted | tier co-widening = risk-off beta; gap artifact | **STICKY** (retention ratchet CCC 88%); WL-06 >1000 near | **50/50** | sticky = bear nuance |
+| **SKEW 150 / VIX 15.8 / OVX 41.6** | SKEW fresh high (7/1 peak 154.8); DIET NOT firing | single-mech, VVIX flat = no corroboration; VIX floor | vol-tail intact; kill SKEW<140-4td far | **VIX 60/40 bull · SKEW 45/55 bear** | Acute floor only |
+| **WAL 81.5 / OZK 49.8 / KRE 75.0** | banks green; OZK −5.7% (7/2) = positioning | stress un-pricing; NIM defangs | OZK criticized +23%, NCO 56bps, deed-in-lieu | **WAL 60/40 bull · OZK-names bear** | split |
+| **NFP +57K / AHE 3.5%** (7/2) | softening-labor, revision-driven | wages keep pace (mild soft) | +57K/−74K rev/U-3 4.2% = stagflationary mix | **50/50** | Stag substance |
+| **Brent 72.1 / USDJPY 161.3** | FT-04 (<75) firing; structural decouple | oil-bear vindicated; Japan no-unwind | P&I not resumed (tail live); WL-07>160 = confirmed NO-MOF | **65/35 bull** | War −1 |
+| **10Y 4.49 / 30Y ~4.97** | contained <5.0 | Warsh credibility holds long end | policy reprice, NOT term-premium breakout (BOND) | **50/50** | residual unfired |
+| **WRESBAL $2.951T** (6/24) | first sub-$3T; SOFR still calm (+1bp) | plumbing ample | reserves draining, ~$151B to $2.8T floor | **55/45 bear** | NEW watch |
+
+**Balance tilts BULL on the index tape** (credit reverted, banks green, Japan/oil deflating); the bear pile is **name-level realized** (OZK, PC-gates) + substance (sticky prices, Stag sole-modal). Bifurcation re-widened from both sides — the regime, not a lag.
+
+---
+
+## FALSIFICATION CRITERIA (7/5)
 
 | Trigger | Action | Status |
-|---------|--------|--------|
-| **HY OAS <260 sustained 3d** | **NOT a thesis-capitulation** — base rate 3/3 sub-260 → major widening in 3-18mo (1997→LTCM 6.78%, 2007→GFC 8.62%, 2025-Jan→Apr-spike). Falsifies near-dated TIMING only (size long-dated); flags MAX late-cycle complacency (bear-confirm structural). **True capitulation = HY<260 AND structural data backs off (conjunction)** → `research/HY260_CAPITULATION_FRAMEWORK.md` | **266 — 6bps away, WL-04 NEAR. Daily. On a bare print → HOLD (Branch A).** |
-| **HY OAS re-cross >280 sustained 3d** | FT-01 un-fires; bifurcation re-widens | 266 — far below; firing |
-| **HY OAS >320 sustained 3d** | Path B reasserts; +3 | 266 — 54bps away |
-| **VIX <16 sustained 5d** (guard retained) | Managed-decline confirmed; −50% IF DIET not concurrently firing | 17.1 — near; **but SKEW 146.72 firing = guard HOLDS (loaded-spring, not managed)** |
-| **WAL or OZK Q2 beat + clean disclosure** | Exit both; conf 69→62 | ~Jul 30. REG-24 (Office classified >$500M) near-mechanical at 70%. |
-| **OZK NCO sustained ≤55bps through Q3** | Invalidation §2; −5 | Q2 print ~Jul 30 (Q1 was 57bps) |
-| **Structural data backs OFF (3+ regionals Q2)** | Bear thesis broken; capitulate | Mid-late Jul |
-| **Initial claims >250K** | LABOR re-arms; +3 | 226K |
-| **Brent >$130 sustained 5d** | Re-price stagflation | $77.76 — far (physical tight caveat: Cushing ~20M, SPR drain) |
-| **Fed CUT signal / BTFP 2.0** | EXIT-ALL rescue trigger | INVERTED (hike-regime under Warsh). Dovish-surprise even less likely; trigger dormant. |
-| **SKEW deflates <138 w/ VIX flat** (NEW) | Coiled-spring fades silently (the un-monitored GRADUAL_FADE); cut Acute −2 | 146.72 — far; the falsifier-blindness gap VIOLET conceded — now monitored RED-side |
+|---|---|---|
+| **HY OAS re-cross >280 sustained 3d** | FT-01 un-fires; bifurcation re-widens; +2 | **275 — WL-03 NEAR (5bps).** The live near-term watch (replaces the dead <260 line). |
+| **HY OAS <260 sustained 3d** | (S20/S21 binding watch) | **DEAD — reversed to 275 (+15 away).** No longer near. |
+| **CCC OAS >1000 sustained** | tail-breakout; Acute +1 | 971 — WL-06 near (−29); sticky |
+| **SKEW <140 sustained 4td** (VIOLET kill) | vol-tail fades silently; Acute −2 | 150 — far (+10). The Acute single-mechanism kill-line. |
+| **VIX <16 sustained 5d** | Managed confirmed, −50% IF DIET not firing | 15.8 firing — **but DIET not-firing + SKEW 150 = guard HOLDS** |
+| **WAL Q2 (7/16) or OZK Q2 (7/21) beat + clean** | exit both; conf 69→62 | **Mid-July CLUSTER (WAL 7/16 / OZK 7/21 / EGBN 7/22) — NOT Jul 30.** REG-24 Office>$500M 70%. |
+| **OZK NCO >55bps + visible charge-off** | bear-confirm | Q1 already 56bps (breached ≤55 line); Q2 print 7/21 splits ~50/50 |
+| **Structural data backs off (3+ regionals Q2)** | bear broken; capitulate | Mid-July cluster |
+| **Brent >$130 sustained 5d** | re-price stagflation | 72.1 — far |
+| **Fed CUT / BTFP 2.0** | EXIT-ALL rescue trigger | INVERTED (Warsh hike-regime); dormant |
+| **DISH 7/31 rebalance CCC tightening** (NEW) | **mechanical — do NOT misread as healing** | pre-registered (DEWEY caveat) |
 
-### Self-bifurcation falsifier (CHG-RED-027) — 2-of-4 capitulate framing — **CORRECTED COUNT ~0.5–1 of 4 (NOT 2-of-4)**
-(a) WAL/OZK Q2 beat: pending ~Jul 30 — **not fired** | (b) HY <280 *60d continuous*: **NOT fired** — clock reset on the 5/20 pop to 286; from ~6/4 we're at ~day 18 of 60 (would fire ~early Aug if sustained). The closure sub-agent over-read this as "fired"; corrected. | (c) structural backs off: pending Q2 — not fired | (d) Brent <$95 + Hormuz >5mbpd 15d: **price leg fired ($77), transit leg NOT (0/4 reopen legs, declaratory closure) = half-fired** | **Total ~0.5–1 of 4 — framework NOT capitulated.** The more decisive standalone signal is **HY <260** (6bps away), a cleaner capitulation than the 2-of-4 framework.
+### Self-bifurcation falsifier (CHG-RED-027) — index-calm vs name-stress
+REINFORCED this session: index credit reverted (HY 283→275, AI-noise) while names realized (OZK deed-in-lieu + criticized +23%; BCRED 5% gate; S2 Capital fund dissolved). Paper-bull / structural-stress split is load-bearing and widening.
 
 ---
 
-## OPEN CHALLENGES (6/22 — batch-dispositioned via sweep closure pass)
+## OPEN CHALLENGES (7/5)
 
 | Challenge | Target | Strength | Status |
-|-----------|--------|----------|--------|
-| **CHG-RED-019 / 027 / 028** | Self (bifurcation core) | LIVE | **RE-TARGETED to current framework.** 027 corrected to ~0.5–1 of 4 (not capitulated). 028 re-marked: Warsh hardened core/services stagflation while oil-headline deflated; next falsifier July CPI (Jul 10). 019 = the public/private (paper-bull / structural-stress) bifurcation, load-bearing, anchors refreshed. |
-| **CHG-RED-022** | Self/calibration | STANDING | **RE-TARGETED → post-gap audit.** FOMC 3-branch tree scored HYBRID (substance/reaction split); Warsh blind-spot. ML-RED-085. |
-| **CHG-RED-009** | LABOR/CARL | — | **RE-TARGETED** — weighted-counter-signal method adopted; employment-channel live again under Warsh stagflation framing. |
-| **CHG-RED-006/007/008/013/014/015/016/018/020/021** | (Apr-vintage) | — | **RESOLVED** (sweep closure): unanimity broke; HY broke through 300/280→266 as feared; near-dated options all expired (020 VINDICATED — instruments died before thesis, exactly the call); Apr-21 earnings catalyst long resolved. |
-| **CHG-RED-029…036, 038** | SAM / VIOLET | various | **RESOLVED-CONVERGED** (pre-BOJ/FOMC cycle). BOJ/FOMC outcomes confirmed the convergence direction. |
-| **CHG-RED-037** | VIOLET (numerics mechanization) | STRONG | **RESOLVED — deadline (6/17 FOMC) passed; FOMC executed without an Orch-flagged numeric error surfacing in the sweep. Mechanization ask carried as standing VIOLET hygiene; no live dispute.** |
+|---|---|---|---|
+| **CHG-RED-040** | REGINALD/CORAL/OZK | MODERATE | **REFINED + SHARPENED (bear).** Leading criticized-credit creep CONFIRMED at OZK (book-wide: past-due doubled $207→465M, criticized +23%, NCO 56bps, deed-in-lieu) but **OZK-concentrated, NOT WAL** (idiosyncratic-office, WAL aggregate classified −9bps flat). Name-story, not sector. Disc = OZK 7/21. |
+| **CHG-RED-041** | BRENT/HAWK | MOD-STRONG | **LEANS BRENT — but DO NOT CLOSE.** Kinetic test 6/27-28 fired benign → structural read hardened (P 0.63→0.70); RED's feared snap didn't come. BUT the tail-size discriminator (P&I resumption → snap?) **never ran** — P&I not resumed. Structural strengthened, tail untested. |
+| **CHG-RED-027 / 028** | Self (bifurcation / stagflation-realization) | LIVE | **RE-TARGETED.** 027: index-calm-vs-name-stress bifurcation REINFORCED. 028: stagflation-realization = sticky-prices leg (ISM PP 82.1), CARL V12 maxed; next falsifier July CPI 7/10. |
+| **CHG-RED-006…039** | (prior) | — | RESOLVED / RESOLVED-CONVERGED (workbook). |
 
 ---
 
-## TOP ADVERSARIAL PRIORITIES (6/22)
+## TOP ADVERSARIAL PRIORITIES (7/5)
 
-1. **HY OAS <260 daily watch** — 6bps away (WL-04). ✅ **Framework pre-written** (`research/HY260_CAPITULATION_FRAMEWORK.md`): sub-260 is NOT a thesis-kill (3/3 base rate precedes widening 3-18mo); on a bare print → HOLD (Branch A); capitulate only on the conjunction with structural backing-off (Branch B = WAL/OZK Q2 beat-clean + DQ decel).
-2. **WAL/OZK Q2 (~Jul 30)** — the only live-or-die catalyst before the Sep expiries. REG-24 (Office classified >$500M) near-mechanical at 70%; the loss-absorption-vs-NIM question (REGINALD sweep) resolves here. Pre-write the beat/miss × clean/dirty tree.
-3. **July CPI/PPI (Jul 10)** — CHG-RED-028 mechanism falsifier: does core/services stagflation hold while energy decelerates (Brent $77)? Stagflation-leg test.
-4. **Q2 BDC marks (~Jul 25)** — LIQUID's genuinely durable bear sub-channel (private-credit mark-to-model lag; FSK NAV −9.9%, 11 Q1 div cuts, KBRA DLD 2.3% record). The credit-stress signal that ISN'T a curve artifact. **NEW precedent (6/22 b3, KB-RED-047):** Bain Euro CLO 2018-1 **Class F → 'D' 6/18** = first European CLO 2.0 rated-tranche default (AI-software-loan channel; mark→realization lag collapsed to ~6-7wk vs 1-3q). **RED call: discount the viral "2008-proof system FAILED" framing to ~0.55** (INVERTED — OC tests starving F to protect AAA-A = system *working*; first-for-Europe-not-globally; multi-cause AI repricing) — **but a genuine first-of-kind REALIZED, NON-artifact junior loss → supports HOLDING Acute 13, not cutting.**
-5. **Re-derive VX-RED-025** — OVX 51.73 (oil-tail priced) collapses the primary mispricing leg; demote to WEAK or re-scope to equity-VIX-only complacency. Geneva/Switzerland round (HAW-12, by ~Jul 3) + Jun 24 EIA Cushing<20M (WTI dislocation routing) are the discriminators.
-6. **Hold the SKEW mechanism loosely** — it's the one bear-supportive survivor, but it's a borrowed mechanism (GEX-explanation-died lesson). Monitor the SKEW<138 fade falsifier (NEW) — the GRADUAL_FADE VIOLET's tripwires don't catch.
-7. **CORAL FL = NOT an independent channel** — shared-antecedent with WAL/OZK CRE (collapses to 1 root); USCB canary pristine; the ~12mo lag is an un-calibrated national-SFR analog → de-anchor the date, widen window to 2027-28. Monitor USCB Q2 as the only genuinely orthogonal datum. **VINDICATED 6/22 b3 (DEWEY SIG-001, KB-RED-046):** independent deep-research lands the same call — ~70% normalizes WITHOUT a bank-loss event, charge-offs 2027 (leading-edge 30-89d H2-26), and confirms the ~12mo lag is a national single-family analog NOT FL-condo-specific. Cleanest counter to amplify: the loss elevated NOW (BKU $36M) is **C&I, not FL-RE** = visible stress ≠ thesis mechanism; SBCF/AMTB 30-89d "flickering" has negligible realized NCOs = **threshold-stuck**.
+1. **Mid-July bank cluster — WAL 7/16 / OZK 7/21 / EGBN 7/22** (NOT Jul 30). The fork-resolving binary, 2wks earlier than carried. Pre-write beat/miss × clean/dirty trees. OZK = the CHG-040 leading-creep discriminator (build or revert?); WAL = REG-24 Office>$500M (70%) + loss-absorption-vs-NIM.
+2. **July CPI/PPI 7/10** — CHG-028 stagflation-leg falsifier: does core/services hold while energy deflates (Brent $72)?
+3. **PC-redemption-gate channel** (BCRED 5% 1st-ever + MS/Apollo/Blue Owl at cap) — most substantive NEW bear datum, currently **un-owned.** Structural liquidity-mismatch or quarter-end blip? Flag for ownership; Q2 BDC marks ~7/25 discriminator.
+4. **CCC retention-ratchet** (LIQUID) — the live non-artifact tail-stickiness signal (CCC held 971 while HY reverted). Define the distressed threshold.
+5. **7/9 30Y auction + JGB-FX channel** (BOND) — the term-premium residual's next test (KB-053).
+6. **Hold SKEW loosely** — Acute's single leg; watch SKEW<140-4td fade (VIOLET kill) + a formal DIET fire (needs VVIX crush = add).
+7. **DISH 7/31 rebalance** — pre-registered mechanical CCC tightening; do NOT misread as healing.
 
 ---
 
-## PREDICTIONS SCORECARD (6/22 — DUE-scan reconciled)
+## PREDICTIONS SCORECARD (7/5)
 
 | Bucket | Rows | Notes |
-|------|------|-------|
-| **WRONG (7)** | 02 · 03 · 06 · 08 · 09 · 15 · 19 | unchanged |
-| **CORRECT (9)** | 07 · 11 · 12 · 13 · 14 · 16 · 17 · **01 (June stack died before thesis — Jun-18 expired, banks well above strikes, VIX 17)** · **10 (HY OAS <400 by June — 266, 134bps below)** | RED-01/10 resolved this session |
-| **ACTIVE (3)** | 04 (rescue Q2-Q3 — tracking non-occurrence; Warsh kills rescue path) · 05 (staffing canaries Q2 — prints late Jul) · 18 (Brent Dec26 $80-95, ~day 50/60, **AT-RISK low** — front $77.76 + contango; cross-read BRENT) | |
+|---|---|---|
+| **WRONG (8)** | 02·03·06·08·09·15·19·**18** | RED-18 NEW: Dec-26 <$80 on 14/41 window days (oil-BEAR-direction miss; FRED/yfinance-verified) |
+| **CORRECT (9)** | 07·11·12·13·14·16·17·01·10 | unchanged |
+| **ACTIVE (2)** | 04 (rescue Q2-Q3 — Warsh kills path) · 05 (staffing Q2 — pushed to ~late-Jul RHI/KFRC print) | |
 
-**TALLY: 7 WRONG / 9 CORRECT / 3 ACTIVE.** Direction profile holds: oil-bear (08 mid-cycle aside, 17/18 right) + HY-won't-widen (10/13) + timing-mismatch (01) are RED's best calls.
+**TALLY: 8 WRONG / 9 CORRECT / 2 ACTIVE.** Oil-bear (17/18-dir) + HY-won't-widen (10/13) + timing-mismatch (01) remain RED's best calls.
 
 ---
 
 ## MISSING DATA WANTED
-- ~~Broker outcomes on the Jun-18 expiry cluster~~ **RESOLVED (Will 6/22): the entire Jun-18 strike stack is dead/sold (maybe 1-2 rolled) — GONE for all intents. Any rolls live in REGINALD's Jul-17 $65P / Sep $67.5P/$70P WAL legs.**
-- **WAL/OZK Q2 (~Jul 30)** + **FFIEC MI3** (still UNCOLLECTED 5+ wks overdue — REGINALD V1 Bear-fast falsifier blind).
-- LIQUID May TIC (mid-July) — 2nd FOI-demand print (Leg B kill test). BRENT Dec26 strip for RED-18.
-- USCB Q2 (CORAL's only orthogonal FL datum).
+- **WAL/OZK/EGBN Q2 (7/16–22)** — the cluster + FFIEC MI3. Company-confirmed WAL date (REG's 7/16 is a MarketBeat estimate).
+- **PC-gate channel ownership** — who tracks retail-perpetual-PC redemption gates (BCRED/MS/Apollo)?
+- May TIC ~7/16 (China UST sub-$650B — ZHAO's foreign-official term-premium tie). Q2 BDC marks ~7/25.
 
 ---
 ## BOTTOM LINE
 
-**HOLD 69/56 — disciplined hold-for-confirm (as of S21b, 6/23).** The bull-steelman scored on the tape (VIX crushed, credit tightened, banks green through a hawkish-hold Warsh SEP), yet the substance hardened underneath — SKEW reloaded to a June high, criticized-credit migration (CHG-RED-040), positioning-squeeze convexity (VX-025) — while transmission keeps lagging. The binding number is HY OAS heading for <260 (the rarest 30yr regime → falsifies near-dated *timing*, not direction). Pre-registered 2nd-print trigger armed (VIX ≥20 a 2nd session within 3 trading days AND un-lagged HY ≥267); standing RED-vs-LIQUID disagreement on CCC-BB load-bearing, discriminator = Q2 BDC marks ~Jul 25. *(Labeled BOTTOM LINE added 2026-07-03, DAEDALUS utility-firming Sweep B; synthesis is RED's own S21/S21b header — refresh at next boot.)*
+**HOLD 69/56 (S22, 7/5).** After a 12-day gap, a 98-signal inbox drain and a 10-agent sweep, the distribution barely moved — but the session's value was *disconfirming* a head-fake: the June credit widening was concentrated AI-noise (FRED-verified peak 6/26), not transmission firing. Stagflation edged **sole modal (38)** on sticky-prices substance; War −1 on confirmed oil-decoupling. **The bear's genuine edge migrated to the name level** — OZK realized losses + criticized +23%, BCRED's first-ever 5% gate — while the index reverted and banks stayed green. The bifurcation is the regime. Binding tests: the **mid-July bank cluster (WAL 7/16)** and **July CPI 7/10**; the Acute leg is a single-mechanism vol-tail (SKEW<140-4td = kill). *(Refresh at next boot.)*
 
 ---
 
-*RED Session 20: the week the bull-steelman scored — and the substance still hardened underneath it. A new Fed Chair the whole network missed delivered a hawkish trapped-Fed SEP, and the tape crushed VIX, tightened credit, and rallied banks anyway. The cleanest single signal that survived an adversarial sweep was SKEW reloading to a June high post-catalyst — deep-tail protection getting MORE expensive while spot vol sits at 17. The discipline lesson: I attacked five agents' weakest assumptions and the counter-evidence mostly favored the bull on four of them — including demoting one of my own standing bear signals (CCC-BB) to a curve artifact. That's the job. Net-bear barely moved because direction is reinforced even as transmission keeps lagging; the binding number is HY 266 heading for 260.*
+*RED Session 22: the week I almost mistook a head-fake for the break. The June credit widening looked like transmission finally firing — and a 10-agent sweep plus a FRED re-pull showed it peaked on a single AI-selloff day and reverted. The discipline win was letting the fan-out overturn my own first read; the standing risk is that 5 of 7 peers now agree the transmission isn't firing, and the one thing they all under-weight is the realized stress at the names that never touches the index.*

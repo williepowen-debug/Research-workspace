@@ -4,6 +4,28 @@
 
 ---
 
+## 2026-07-05 — The June credit "re-widening" was a head-fake: 12-day catch-up, 98-signal inbox drain + 10-agent sweep + FRED re-check; Stag edges sole-modal (+1) / War −1, NB flat (Session 22)
+
+**Confidence: 69% (=). Net-bear: 56% (=).** Every weight as-of 7/5.
+
+**What happened:** 12-day gap (last full anchor S21b 6/23; a 6/26 partial session filed CHG-041 but never closed out). Re-anchored via a 98-signal WALTER inbox drain (background Workflow: 0 ACTION / 26 moves-weight) + a 10-agent cross-domain sweep (DEWEY/LIQUID/SAM/ZHAO/BRENT/BOND/OZK, then VIOLET/REGINALD/CARL) + a FRED primary re-pull.
+
+**The correction (the session's real work):** my first inbox read — "the June HY/CCC widening to 275/971 is the bear's transmission finally engaging" — was OVERTURNED. FRED-verified: HY OAS peaked **283 on 6/26** (the Nasdaq −4% AI-selloff day) then reverted to 275; CCC 973→971. DEWEY + LIQUID both grade it **concentrated AI-equity spillover, not broad deterioration**, and both *strengthen* RED's CCC-BB artifact demotion. Nuance: CCC is **sticky** (barely reverted while HY gave back half) = LIQUID's retention-ratchet, a live non-artifact watch. So transmission still lags at the index; the bear's genuine edge is **realized at the name level** (OZK deed-in-lieu + criticized +23% QoQ + NCO 56bps; BCRED's first-ever 5% redemption gate).
+
+**Re-balance:**
+- Stagflation 37 → **38 (+1)** — CARL: sticky-prices substance (ISM Prices-Paid 82.1, highest since Aug-22; V12 "Fed-Locked" MAXED 5/5). Rests on the prices leg, NOT NFP (softening / single-month). **Sole modal for the first time since early June.**
+- War 6 → **5 (−1)** — BRENT: oil structural-decoupling confirmed; the 6/27-28 kinetic spark made Brent FALL, not snap (P 0.63→0.70). Residual: P&I not resumed (CHG-041 tail untested).
+- Managed 37 (=) / Acute 13 (=) / Rescue 3 (=) / Soft 4 (=). **Acute held but honestly re-labeled single-mechanism** (VIOLET: formal DIET NOT firing, vol-tail = borrowed-SKEW only; kill-line SKEW<140-4td).
+- **NB flat (56):** +1 Stag offset by −1 War = the S20/S21 pattern continues — direction reinforced by substance, the war/oil leg keeps deflating.
+
+**Unanimity flag:** 5/7 peers converged bull-on-index-transmission — per RED's own protocol, the max-blind-spot moment. The blind spot is exactly the index-calm masking name-cascade-precursors. **The bifurcation thesis is REINFORCED, not broken.**
+
+**Resolved/confirmed:** RED-18 WRONG (Dec-26 <$80, 14/41 window days — oil-bear-direction miss → 8W/9C/2A). Term-premium residual (KB-053) confirmed unfired (BOND, 30Y contained <5.0). Japan dead/bounded (SAM). CHG-040 refined (OZK-concentrated, NOT WAL). **Calendar correction: WAL Q2 = ~Jul 16, not Jul 30** — the fork is a mid-July cluster (WAL 7/16 / OZK 7/21 / EGBN 7/22). DISH 7/31 mechanical-CCC-tightening trap pre-registered.
+
+**Artifacts:** STATUS full re-anchor; KB-RED-055…061; ML-RED-095…097; VX-015 (bull 70→65)/021/025 reviewed; CATALYSTS resolved 7 + re-dated 3 + 3 new; FLOW.tsv FROZEN; CHG-040/041 dispositioned. Next gates: mid-July bank cluster + July CPI 7/10.
+
+---
+
 ## 2026-06-23 — HOLD 69/56 (disciplined hold-for-confirm) + full WALTER inbox sweep (40 signals, 5 chunks): NO weight change, three positioning/credit residuals surfaced (Session 21 + 21b)
 
 **Confidence: 69% (HELD). Net bear: 56% (HELD).** Every weight as-of 6/23; last *moved* 6/22 (S20).

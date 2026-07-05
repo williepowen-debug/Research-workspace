@@ -11,6 +11,24 @@ Reverse-chronological log of **structural** changes to RED's docs, folders, sche
 
 ---
 
+## 2026-07-05 (Session 22) — 12-day catch-up: board_log.tsv created, 98-signal inbox drain via workflow, 6/26 partial-closeout swept, FLOW frozen
+
+**Trigger:** Will-directed 12-day catch-up (last full closeout S21b 6/23). A **6/26 partial session** had filed CHG-RED-041 + its challenge report but never updated STATUS/SCRATCH/CALENDAR/CHANGELOG (left anchored 6/23) — swept this session.
+
+**(1) `board_log.tsv` created (v0.2 schema).** First WALTER-lane delivery log for RED (`timestamp_read / signal_id / disposition / source / notes`). 98 backlogged `inbox/WALTER/` signals triaged via a background **Workflow** (10 agents, batches of 10, structured-schema classification: 0 ACTION / 26 moves-weight / 66 watch), then bulk board_log'd + `git mv`'d to `processed/`. Commit `4917ea0e`.
+
+**(2) Workflow `args` gotcha (tooling lesson).** The Workflow tool delivered `args` to the script as a JSON-**encoded string**, not an array (`files.slice().map` threw on the string). Fix: defensive `Array.isArray(args) ? args : JSON.parse(args)` atop any workflow taking `args`. First run failed 0-agents; second succeeded.
+
+**(3) Pre-commit sanity caught a concurrent NEXUS session.** During the drain, `git diff --cached` surfaced 3 foreign-staged NEXUS files + HEAD had moved to a PROME commit since boot = an active concurrent NEXUS+PROME session. Pathspec commits (`git commit AGENTS/RED/…`) correctly excluded all of it. **Push held (Will-coordinated)** — do not sweep-push while NEXUS is mid-flight.
+
+**(4) FLOW.tsv FROZEN.** +87d stale behind STATUS (ledger_staleness flag). Prepended a `# FROZEN 2026-07-05` banner (audit-only, Apr-vintage rows); STATUS/VX/CHALLENGES are canonical for live break-pathway logic.
+
+**(5) CATALYSTS date corrections.** WAL Q2 re-dated ~7/16 (was 7/30 — REGINALD, 2wk earlier); OZK 7/21 pinned; +3 rows (30Y auction 7/9, EGBN 7/22, DISH-rebalance 7/31 mechanical-CCC trap).
+
+**Boot-impact:** `board_log.tsv` is new (boot step 5.5 now has a log to append to). `inbox/WALTER/` top-level empty again. FLOW frozen (staleness alert clears). No schema/boot-path changes. KB +7 / ML +3 / VX 3-reviewed / CATALYSTS +3.
+
+---
+
 ## 2026-06-23 (Session 21 + 21b) — Crash recovery + 40-signal WALTER inbox sweep + CRLF tooling lesson
 
 **Trigger:** S21 session (6/23 ~8:38 PM) crashed mid write-back; Will then directed a chunked sweep of the WALTER inbox backlog.
