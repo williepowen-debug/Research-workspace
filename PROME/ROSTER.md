@@ -1,5 +1,5 @@
 # PROME/ROSTER.md — Verified Agent Roster
-**Owner:** Prome · **Last verified:** 2026-06-27 (commit-activity + STATUS-recency pass) · folder-existence reconciled 2026-06-30
+**Owner:** Prome · **Last verified:** 2026-06-27 (commit-activity + STATUS-recency pass) · folder-existence reconciled 2026-06-30 · **ZHAO reactivated dormant→active 2026-07-05** (8 commits 7/4, Will-approved)
 
 **Method:** classification by **30/60-day git-commit activity** (the "is it actually running" signal) + STATUS mtime + self-declared domain — *not* a prose guess. Re-verify by re-running the activity map (`git log --since=<60d> --pretty=%s | grep -cE '^NAME'` per agent) and diffing against this table.
 
@@ -7,7 +7,7 @@
 
 ---
 
-## ACTIVE — persistent domain owners (21)
+## ACTIVE — persistent domain owners (22)
 Verified by recent commit cadence; each runs as its own Claude Code session.
 
 | Agent | Domain | 30d commits |
@@ -32,9 +32,11 @@ Verified by recent commit cadence; each runs as its own Claude Code session.
 | CORAL | Florida (whole-state, 10 pillars) | 19 |
 | ORACLE | Prediction-market diagnostics | 16 |
 | SHADE | Insurer-lender / PE-insurance-captive | 13 |
+| ZHAO | China macro — UST demand / capital flows / Korea | 8† |
 | AEOLUS | Climate → economy (macro; insurance/ag/energy-demand channels) | new |
 
 > **AEOLUS** built + wired by DAEDALUS 2026-06-28 (spec: `AGENTS/DAEDALUS/builds/AEOLUS_SPEC.md`). Listed ACTIVE by intent (persistent domain owner); has no commit history yet — reconcile its row on the next commit-activity pass. Macro climate owner; CORAL keeps Florida (reconcile FL numbers upward).
+> **† ZHAO** reactivated 2026-07-05 (Will-approved) after ~2.5mo dormancy — the "8" = a single-day 7/4 reactivation burst (STATUS rewrite, KB-076…087, VX/FLOW/PREDICTIONS refresh, `boot.py`, `NEXUS_BRIEF.md`), not steady cadence; reconcile on the next activity pass. Domain is load-bearing: China genuine UST exit ($651.1B, 18yr low) feeds LIQUID's demand-hole convergence; Korea (KRW ~1,530) feeds SAM. DAEDALUS maturity-profile + NEXUS BRIEFS_MAP add routed 2026-07-05.
 
 ## TIER-2 — spawned as needed (4)
 | Agent | Domain | Note |
@@ -44,13 +46,14 @@ Verified by recent commit cadence; each runs as its own Claude Code session.
 | HANS | Geopolitics (energy-geo) | ~4 commits/30d |
 | OTTO | Auto-industry fraud & stress | 13/30d; STATUS 6/09 |
 
-## DORMANT — revive only on explicit need (4)
+## DORMANT — revive only on explicit need (3)
 | Agent | Domain | Why dormant |
 |---|---|---|
 | OZK | Bank OZK specialist | 0 commits/60d, cold since 4/24; revival-gated on Q2 print **Jul-21** (confirmed 6/30; was mis-docketed ~Jul-16) + live broker book |
 | SENTRY | Cross-domain signal pipeline | CI pipeline live but human-idle since 6/02; STATUS frozen 5/09 (Will → dormant 6/27) |
 | BARON | Trump financial-policy network | dormant since 5/08 |
-| ZHAO | China macro | last real work pre-April; only triage-touched 6/26 |
+
+*(ZHAO moved dormant→ACTIVE 2026-07-05 — reactivated 7/4, Will-approved; see ACTIVE table.)*
 
 ## RETIRED — moved out of the live tree
 **In `AGENTS/_archive/`** (archived 2026-06-27): **BUFFER** (shock-absorber / containment), **DOC** (system-health monitor), **EARNINGS** (corporate-earnings monitor), **FOREX** (FX monitor) — scaffolded but never launched (skeleton + empty workbooks, no STATUS, zero session commits); **DARWIN** (archived earlier). **Folders removed entirely** (2026-06 public-prep prune; recoverable from git history): **HERMES** (mail-carrier, deprecated by the messaging overhaul `[[project_messaging_overhaul]]`), **REITS** (REIT tape → absorbed into CREED), **TRADES** (trade scratchpad → superseded by TERRY).
