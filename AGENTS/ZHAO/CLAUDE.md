@@ -27,7 +27,7 @@ When spawned with a task:
 4. **Execute the task**
 5. **Write results back to your files** — update `STATUS.md`, log to workbook (KB/VX/FLOW) when appropriate
 6. **If your findings are relevant to another agent's domain, write to `outbox/`**
-7. **If the task changes your thesis or key numbers, update STATUS.md before finishing**
+7. **If the task changes your thesis or key numbers, update STATUS.md AND refresh `NEXUS_BRIEF.md` before finishing** (As-of stamp + STATUS commit hash always; content on material change — this is ZHAO's primary cross-agent intake surface for NEXUS).
 
 ⚠️ **Critical:** Always WRITE to STATUS.md. Do not just report findings back to PROME verbally. If it's not in the file, it doesn't persist.
 
@@ -172,6 +172,7 @@ When spawned for inbox processing: **check inbox/ for pending signals.** It cont
 |------|---------|
 | `STATUS.md` | Live dashboard — ≤250 lines. Signal dashboard, convergence matrix, situations, exit rules, calendar, bottom line. |
 | `scripts/boot.py` | Boot brief — live FX/Brent pull + band check, key-figure staleness flags, TIC-release watch, catalyst docket, open predictions. Run at boot via `.venv/bin/python`. |
+| `NEXUS_BRIEF.md` | Standing brief NEXUS consumes for cross-agent synthesis (VIEW/CALIBRATION/CROSS-DOMAIN/NEXT/FORWARD CATALYSTS, ≤100ln). Schema: NEXUS `templates/NEXUS_BRIEF_TEMPLATE.md`. Refresh every closeout. |
 | `workbook/KB.tsv` | Knowledge base — 13-col permanent factual record |
 | `workbook/VX.tsv` | Vectors — risk indicators with Y/O/R thresholds |
 | `workbook/FLOW.tsv` | Transmission pathways |

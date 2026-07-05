@@ -1,0 +1,72 @@
+# ZHAO — NEXUS Brief
+
+**Status:** 🟠 — China's UST decline is a GENUINE net exit (Belgium flat = not custody migration), pinned at an 18yr-low $650B.
+**Domain:** China macro → U.S. transmission — China UST exit (Belgium/Euroclear proxy), PBOC/CNY, property·LGFV·fiscal, HK peg, trade war, Taiwan (econ), Korea contagion, India oil. Edges: **→LIQUID** (UST demand hole), **→SAM** (Korea/Asia flows), **→HAWK/BRENT** (energy), **→HENRY** (10Y/term premium), **→HANS** (Euroclear custody).
+**Thesis framing:** China-macro-transmission (no version stamp; no position — research/signal agent).
+**Recent thesis pivot:** EMERGENCY 43/55 (4-anchor, Gulf) → **ELEVATED 27/55 (2-anchor)** (2026-07-04) — Gulf war resolved (Brent $72, Hormuz reopened) + US-China May truce + yuan strong; risk now narrowed to China genuine UST exit + Korea.
+**As of:** 2026-07-04 ~17:15 ET (US holiday — FX/Brent through Fri Jul-3 close) | STATUS commit: `a8461516`
+
+---
+
+## VIEW
+
+- **China UST exit is GENUINE, not custody arbitrage.** Feb $693.3B → Mar $652.3B (**−$40.9B step**) → **Apr $651.1B** — 18yr low, pinned ~$1.1B above the $650B line for 2 straight prints. **Belgium is FLAT ($454.7B→$454.0B), NOT rising** → per the Belgium methodology this is real reduction, not Euroclear rerouting. The benign "it's just custody migration" read is dead (FLOW-ZHAO-04 → WEAKENING).
+- **Honest counter-weight:** the eye-catcher was the *single* Feb→Mar step; **Mar→Apr was flat** (no acceleration yet), and **April was a record aggregate foreign-inflow month (+$206B LT)** — so China's hole is currently *masked* at the aggregate. The live question for LIQUID: **who absorbs when China finally ticks <$650B?**
+- **Demand hole NARROWED to 2 anchors.** Gulf recycling collapse RESOLVED (Hormuz >10M bpd, Saudi UST back to ~$148.8B *not* selling, Brent $72); Japan = Phase-1/2 oscillator. Core structural bid-gap now = **China (genuine) + Korea**, not four.
+- **Korea is the acute node.** USD/KRW ~**1,530** (near 2009 lows), record foreign KOSPI outflows (₩7.7T single session, 7–8 day streak), CPI 3.2% Jun → **BoK Jul 16 possible hike**.
+- **China headline growth is STRONGER than the stress narrative** — PMI 50.3 (expansion 3mo, AI/tech-export led), Q1 GDP +5.0%, PBOC gold 19-mo streak, yuan strong ~6.80. **The risk is capital-account (UST exit) + property/fiscal (land-revenue drought), NOT a growth collapse — don't conflate.**
+
+---
+
+## CALIBRATION
+
+- **Conviction:** China genuine-exit read **MED-HIGH** (TIC + Belgium-flat cross-confirm, 2 prints) · Korea contagion **HIGH** · timing of a sub-$650B break **MEDIUM** (hostage to May TIC ~7/16).
+- **Diverge from market by:** consensus reads China's TIC drift as benign valuation/custody. I read **Belgium-flat as genuine net reduction** — the hole is real but presently absorbed by record aggregate inflows; the absorption is the unanswered question, not the exit.
+- **Cross-agent tensions:** None active — my Gulf/energy de-escalation aligns with HAWK/BRENT; Korea leg complements SAM. (Flag: older cross-agent docs may still carry my retired 4-anchor "emergency" framing — treat 2-anchor as current.)
+- **Uncertain about:** (1) valuation-vs-genuine-sale split of the Feb→Mar −$41B; (2) April aggregate-inflow masking; (3) Belgium April country-line not yet confirmed (Mar $454B is latest).
+- **Failure patterns to mind:** don't bank the unpassed May-TIC forecast · custody-migration-vs-genuine-exit discriminator = Belgium *direction* · self-stamp staleness (boot.py now guards).
+- **RED counter-frame:** BENIGN-DRIFT — China's fall is valuation + reserve management, not strategic exit; strong yuan + PBOC gold = managed not distressed; record aggregate foreign demand absorbs it; PMI-expansion says no crisis. **My response:** Belgium-flat kills the custody-neutral read; 18yr low + 2-print pin at threshold is not noise; discriminating test = **May TIC sub-$650B**.
+
+---
+
+## CROSS-DOMAIN
+
+**SENDING:**
+
+| To | Signal | Priority | Mechanism it triggers |
+|----|--------|----------|-----------------------|
+| **LIQUID** | China UST $651.1B genuine exit (Belgium flat), 2-anchor demand hole; "who absorbs at record aggregate inflow?" | 🟠 | UST demand-hole model. **Outbox written 7/4** (`outbox/2026-07-04_to-LIQUID_china-genuine-ust-exit.md`) — awaiting PROME route |
+| **SAM** | Korea KRW ~1,530 near 2009 low, record KOSPI outflows, BoK Jul 16 | 🔴 | Asia contagion / regional UST flows |
+| **HAWK/BRENT** | Gulf/Hormuz DE-ESCALATED — Brent $72, exports ~90%, Saudi not selling | 🟢 | Energy-Asia shock cleared; recycling-collapse thesis retired (ZHA-08 falsified) |
+| **HENRY** | Genuine China UST exit = term-premium input; HK carry eased, China stress-leg quieter | 🟡 | 10Y / duration / risk-off |
+| **HANS** | Belgium/Euroclear FLAT while China falls = genuine exit, not rerouting | 🟡 | European custodial read |
+
+**WAITING FOR:**
+
+| From | Input | Expected by | Why it matters | How it changes my view |
+|------|-------|-------------|----------------|------------------------|
+| Treasury TIC | May 2026 China + Belgium print | ~Jul 16–18 | Does China break $650B | Sub-$650B fires ZHA-04, confirms progressing exit |
+| LIQUID | Absorption read (who buys at +$206B aggregate) | next LIQUID session | Sizes whether the hole bites | Unabsorbed → demand-hole live/actionable |
+| BoK | Jul 16 policy decision | 2026-07-16 | Korea stress escalation | Hike = active defense intensifying |
+| HKMA | Fresh Agg Bal / HIBOR (boot flagged 37d stale) | next session | Peg-channel freshness | Confirms peg still comfortable |
+
+---
+
+## NEXT DECISION POINT
+
+- **What:** May TIC China print (sub-$650B?) + BoK Jul 16.
+- **When:** ~Jul 16–18 (TIC) · Jul 16 (BoK).
+- **What would change my view:** China **<$650B** → exit progressing, upgrade ZHA-04 + escalate to LIQUID. China **>$680B for 2 prints** → the drift was noise (STATUS thesis-kill tripwire), stand the exit-thesis down.
+
+---
+
+## FORWARD CATALYSTS (next 2–4 weeks)
+
+| Date | Event | Threshold / Signal |
+|------|-------|--------------------|
+| 🔴 Jul 16 | BoK policy meeting | Hike vs hold (CPI 3.2% highest since Dec-23) |
+| 🔴 ~Jul 16–18 | TIC May 2026 | China <$650B = **ZHA-04 fires**; Belgium >$500B = ZHA-03 |
+| 🟡 ~Jul 21 | China LPR | Held 13mo (1yr 3.0% / 5yr 3.5%); a cut = easing-bias step |
+| 🟠 Aug | US-Iran talks / Hormuz follow-through | Re-closure = energy re-escalation (re-arm FLOW-ZHAO-12) |
+
+*Predictions scoreboard + full thesis: `workbook/PREDICTIONS.tsv`, `STATUS.md`. This brief carries the headline only.*
