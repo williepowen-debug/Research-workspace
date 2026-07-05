@@ -1,7 +1,29 @@
 # NEXUS — Fleet Brief Map
 **Purpose:** Single index of `NEXUS_BRIEF.md` status across the fleet. NEXUS reads this at BOOT step 6 to decide where the brief read-flow applies vs where raw STATUS fallback is mandatory.
-**Updated:** 2026-06-27 Sat (11-day re-anchor freshness sweep — see note below; table rows pre-date this and carry 6/16 dates, trust the note for current state).
+**Updated:** 2026-07-05 Sun (8-day re-anchor freshness sweep — see ★7/5 note; the ★6/27 note and table rows below are superseded for freshness, kept for the model-shift record).
 **Schema reference:** `templates/NEXUS_BRIEF_SCHEMA.md` §4.4 fallback triggers (a/b/c) + `brief_fallback_log.tsv` for run-time instrumentation.
+
+> **★ 2026-07-05 — 8-day re-anchor sweep: ZHAO now has a brief (add to rotation); LIQUID + OZK revived; RED remains the top brief-gap.**
+> Fleet scan 7/5 — **13 agents now maintain `NEXUS_BRIEF.md`** (ZHAO added a schema-conformant brief 7/4 on reactivation — PROME ask `inbox/2026-07-05_from-PROME_zhao-briefs-map-add.md`, Will-approved). Freshness this pass (brief / STATUS commit date):
+> | Agent | Brief | STATUS | Read-tier / note |
+> |---|---|---|---|
+> | CARL | 7/2 | 7/2 | T1 (R3 consumer) ✅FRESH — read full |
+> | HENRY | 7/2 | 7/2 | T1 (tape/vol/M-09) ✅FRESH — read full |
+> | VIOLET | 7/2 | 7/2 | T1 (vol/SKEW/gamma) ✅FRESH — read full |
+> | LABOR | 7/2 | 7/2 | T1-standing (chain-head/NFP) ✅FRESH — read full |
+> | ORACLE | 7/2 | 7/2 | T1 (crowd/Discipline-D) ✅FRESH — read full |
+> | SAM | 7/2 | 7/2 | T1 (R6 Japan/yen/JGB) ✅FRESH — read full |
+> | BRENT | 7/1 | 7/1 | T1 (R2/R5 energy) ✅FRESH — read full |
+> | MARCO | 7/2 | 7/2 | T2 (FL migration) — corroborates LABOR supply-shrink; opportunistic |
+> | **ZHAO** | **7/4** | **7/4** | **T1-when-hot NEW (R8 China/UST demand-hole = M-10; Korea).** Read full while the demand-hole is live (TIC 7/16). |
+> | BROCK | 6/28 | 7/4 | T1 (R3 private credit/M-08) — brief PIN-STALE vs 7/4 X1 STATUS → **read raw STATUS this pass** (X1 adjudication). Flag pin-hygiene. |
+> | HAWK | 6/26 | 6/26 | T1 (R2 geopol) — unchanged since prior anchor; energy dormant, low-read. |
+> | CORAL | 6/25 | 6/25 | T1 (R3 FL geography) — unchanged since prior anchor; use existing read. |
+> | OTTO | 6/09 | 6/09 | T2 (internal-ops) — doc-system synthesis only. |
+>
+> **Brief-LESS (read raw STATUS when domain live, flag if load-bearing):** **RED** (adversarial/Discipline-D — **THE top brief-gap; STATUS content-stale 6/23, pre-6/30/NFP**), **REGINALD** (M-02/M-05 hub — 2nd gap, STATUS 6/26), **LIQUID** (⚡ REVIVED 7/2 — no longer dormant; owns X1/plumbing/demand-hole; brief would be high-value, 3rd gap), **OZK** (revived 7/4), WALTER (routing 7/4), BOND (7/1). **Tier-1 brief coverage: 9 live briefs read this pass.** RED + REGINALD + LIQUID = the three highest-value open gaps (all load-bearing, all brief-less).
+>
+> **Fallback log this pass:** BROCK `stale` (pin-stale brief, read raw for 7/4 X1); RED/LIQUID `brief-gap`-adjacent (load-bearing, no brief) — logged to `brief_fallback_log.tsv`.
 
 > **★ 2026-06-27 — MODEL SHIFT: the brief is now FLEET-STANDARD; read-set is BRIEF-EXISTENCE-DRIVEN, not a frozen Tier-1 list.**
 > A fleet-wide scan found **12 agents now maintain `NEXUS_BRIEF.md`** — beyond the original hardcoded Tier-1. Two were OFF NEXUS's read-list and are now added: **CORAL** (whole-Florida geography-convergence, fresh 6/25 — top-priority geography, FL leg of the REGINALD/CARL transmission cluster, routes explicitly TO NEXUS) and **ORACLE** (prediction-market crowd lens, fresh 6/27 — the market-verdict counter-signal / Discipline-D + thin-liquidity Discipline-E feed; was wrongly marked DORMANT since 4/02). CLAUDE.md BOOT step 6 reframed: read every extant brief (Tier-1 in full each pass), fall back to STATUS for the brief-less.
