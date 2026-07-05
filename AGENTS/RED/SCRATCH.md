@@ -23,6 +23,7 @@
 4. **Chunk 3** — STATUS full re-anchor (126 ln). **The correction:** June widening = concentrated AI-noise (not transmission); bear edge migrated to name-level. Stag 37→38 / War 6→5, NB flat.
 5. **Chunk 4** — KB +7 (055-061) / ML +3 (095-097) / VX 015(70→65)/021/025 reviewed + VX_HISTORY +3; CATALYSTS resolved 7 + re-dated 3 + 3 new; CHG-040/041 dispositioned; **FLOW.tsv FROZEN**; CALENDAR mirrored.
 6. **Chunk 5** — CHANGELOG + this SCRATCH + MAINTENANCE + MEMORY/auto-memory + commits.
+7. **Auto-memory index compaction (post-closeout, Will-requested).** Reorganized `memory/auto/MEMORY.md` 165→23 lines into 14 theme groups; **git-verified LOSSLESS** (all 197 original pointers preserved + my 1 new = 198; only redundant per-line hooks dropped — every indexed file self-describes via `description:` frontmatter). PROME independently re-verified + concurred. **SHARED root file → HANDED TO PROME** to commit under the `auto-memory:` convention + fold in 8 pre-existing orphans + add a `description:` to `finding_forced_update_rebase_churn.md`. **RED stays OFF `memory/auto/`** (single-writer discipline; PROME actively editing there).
 
 ## NEXT SESSION (dated, priority-ordered)
 1. **🔴 7/9 30Y UST auction** — BOND term-premium residual test (KB-060; BND-11/12).
@@ -37,11 +38,12 @@
 - **CHG-040** OZK-concentrated (NOT WAL) — disc OZK 7/21. **CHG-041** leans BRENT but tail (P&I→snap) untested — do NOT close.
 - **CCC retention-ratchet** (LIQUID) — define distressed threshold.
 - Acute-13 = single-mechanism vol-tail (VIOLET DIET not firing); floor not upgrade.
-- Concurrent NEXUS session: verify tree clean before next pull.
+- Concurrent NEXUS/PROME session: verify tree clean before next pull.
+- **Auto-memory index:** compaction done + verified lossless; **awaiting PROME commit** (shared file, PROME's lane) — its commit must `git add` the untracked `finding_triage_summary_compression_inversion.md` (else the index points to an unversioned file) + fold the 8 orphans. **RED must NOT re-edit `memory/auto/MEMORY.md`.**
 
 ## PENDING WILL-DECISIONS
 - **Push: ✅ DONE 7/5 (Will-approved).** All RED commits on origin — a92c1c50 (preds) + 4917ea0e (drain) rode NEXUS/PROME's push-train; 87205c72 (closeout) safe-pushed clean ff. Synced ahead:0/behind:0. Nothing pending.
 - No trade/rail decision rose to a PROME alert this session (net no-move HOLD).
 
 ## GIT STATE (one line)
-On master, synced with origin (ahead 0 / behind 0); all RED commits pushed 7/5 via safe-push (clean ff); nothing staged outside `AGENTS/RED/`.
+On master, synced (ahead 0 / behind 0); ALL RED (`AGENTS/RED/`) commits pushed 7/5 via safe-push (clean ff). Only uncommitted tree changes are in `memory/auto/` (index compaction + new finding) — those are PROME's to commit, NOT RED's.
