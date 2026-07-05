@@ -20,6 +20,7 @@ You are part of a multi-agent research network tracking systemic financial risk.
 When spawned with a task:
 
 1. **Check `inbox/`** — process any pending signals (INTEGRATE, LOG, or DISCARD). **For each signal, log a one-line entry to KB.tsv** using the 13-column schema. Move processed signals to `inbox/processed/`.
+1b. **Run the boot brief** — from repo root: `.venv/bin/python AGENTS/ZHAO/scripts/boot.py` (use `.venv/bin/python`, **NOT** system `python3` — yfinance lives in the venv). Gives live FX/Brent + band check, key-figure staleness flags, TIC-release watch, catalyst docket, and open predictions. **Refresh anything flagged 🔴 STALE before trusting STATUS.md.** (`--quick` skips the network pull.)
 2. **Read `STATUS.md`** — your current state, dashboard, active situations
 3. **Before writing to KB.tsv, read `workbook/SCHEMA.tsv`** — validate all enum fields (Conf, Epistemic, Status) against `allowed_values`. Use `default` values when unsure.
 3b. **Read `AGENTS/VOCABULARIES.tsv`** — use NETWORK_GROUPS for Group field, CANONICAL_ENTITIES for Entity field, SOURCE_TAGS for Source field. If no match exists, use closest term and note the gap.
@@ -170,6 +171,7 @@ When spawned for inbox processing: **check inbox/ for pending signals.** It cont
 | File | Purpose |
 |------|---------|
 | `STATUS.md` | Live dashboard — ≤250 lines. Signal dashboard, convergence matrix, situations, exit rules, calendar, bottom line. |
+| `scripts/boot.py` | Boot brief — live FX/Brent pull + band check, key-figure staleness flags, TIC-release watch, catalyst docket, open predictions. Run at boot via `.venv/bin/python`. |
 | `workbook/KB.tsv` | Knowledge base — 13-col permanent factual record |
 | `workbook/VX.tsv` | Vectors — risk indicators with Y/O/R thresholds |
 | `workbook/FLOW.tsv` | Transmission pathways |

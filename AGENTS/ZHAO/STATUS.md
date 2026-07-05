@@ -146,8 +146,8 @@ The April STATUS was built around a late-Feb/March Gulf shooting war (Hormuz clo
 **Still open:**
 1. **LIQUID outbox WRITTEN** 7/4 (`outbox/2026-07-04_to-LIQUID_china-genuine-ust-exit.md`) — needs PROME to route to LIQUID (cc SAM).
 2. **May TIC ~Jul 16–18** — does China break $650B. **BoK Jul 16** — hike?
-3. Couldn't refresh cheaply (still stale): **Guizhou/Zhengzhou NPL** (bank-specific), **Korea official UST $103B** (Apr TIC), **CNH-CNY spread**.
-4. **Tooling note:** `market-data/fetch.py` works — invoke with **`.venv/bin/python`** (NOT system `python3`, which lacks yfinance). Live cross-check 7/4: USD/CNY 6.77, USD/KRW 1,530, Brent $72.13 — all confirm web figures.
+3. Still stale (boot.py-flagged): **HK Agg Bal 37d** (pull fresh HKMA AB), **Guizhou/Zhengzhou NPL** (bank-specific), **Korea official UST $103B** (Apr TIC), **CNH-CNY spread**.
+4. **Boot automation LIVE:** `scripts/boot.py` — run at boot via `.venv/bin/python` for live FX/Brent + band check, staleness flags, TIC-release watch, catalyst docket, open predictions. (Fixes the 2.5mo-drift failure mode.)
 5. Process 3 stale inbox files (May 9, May 22, Jun 26) on a dedicated inbox spawn.
 
 *Prior April-and-earlier check-ins archived to `archive/STATUS_archive_20260704.md`. Research corpus RP-ZHAO-1..9 in `sources/`.*
