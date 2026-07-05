@@ -46,6 +46,18 @@ The credit-recognition prints (banks 7/14 → OZK/ALLY/SYF/COF 7/21 → BDC/ARCC
 - ✅ **Bank-kickoff date CONFIRMED 7/14** — JPM/WFC/C all report the CPI morning (MTB 7/15) [CONF SEC 8-K/StockTitan, via OTTO; the 7/5 sweep resolved the 14-vs-15 flag]. The compound-vol coincidence holds.
 - **Surface map:** this .md = focused node companion · **artifact = the comprehensive ~55-catalyst visual** (3-axis situation board, built 7/5) · `DOCKET.tsv` = canonical dated rows · each agent's `docket/CATALYSTS.tsv` = domain detail.
 
+## Tasking — pre-load packets (routed 7/5, Will-approved)
+Converts PROME's whole-board pattern read into 4 bounded pre-loads (make us *faster* when prints land, not a thesis rebuild). Track returns here → fold into this tracker + the artifact.
+
+| # | Ask | Owner(s) | Deliver-by | Status |
+|---|---|---|---|---|
+| **A** | Correlation-collapse stress test — do the 5 axes → 1 rate-shock root on a hot CPI? + expression-type shortlist | **NEXUS** lead (gates a TERRY/VIOLET convex-expression pre-stage) | 7/14 | ○ out |
+| **B** | Bank→BDC read-through map — 7/14 transparent prints as a lens for 7/28 opaque marks | **BROCK** lead + CARL / REGINALD | 7/14 | ○ out |
+| **C** | Asia-rates demand-hole synthesis + the US-transmission trigger | **SAM + ZHAO** (NEXUS-brokered) | first 7/7, full 7/16 | ○ out |
+| **D** | Pre-load the AI-capex FCF-cliff read (7/29–31 hyperscaler FCF) | **HENRY** lead + DEWEY / SHADE | 7/29 | ○ out |
+
+**Gate:** A's verdict (REAL / PARTIAL / OVER-READ) decides whether we pre-stage the convex expression on the synchronization — deploy-on-trigger, not before. Packets: `AGENTS/{NEXUS,BROCK,SAM,ZHAO,HENRY,CARL,REGINALD,DEWEY,SHADE}/inbox/2026-07-05_from-PROME_*`.
+
 ## The artifact — persistence & how to update it
 - **URL (stable, Will's private artifact):** https://claude.ai/code/artifact/d57b576c-8442-4c81-a648-bbf541206249 — bookmark-able, persists across sessions.
 - **Source of record:** `PROME/artifacts/mid_july_convergence.html` (committed). ⚠️ The build copy in session scratchpad does NOT survive — always edit the **repo** copy.
