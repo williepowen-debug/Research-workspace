@@ -45,3 +45,10 @@ The credit-recognition prints (banks 7/14 → OZK/ALLY/SYF/COF 7/21 → BDC/ARCC
 ## Resolved / pointers
 - ✅ **Bank-kickoff date CONFIRMED 7/14** — JPM/WFC/C all report the CPI morning (MTB 7/15) [CONF SEC 8-K/StockTitan, via OTTO; the 7/5 sweep resolved the 14-vs-15 flag]. The compound-vol coincidence holds.
 - **Surface map:** this .md = focused node companion · **artifact = the comprehensive ~55-catalyst visual** (3-axis situation board, built 7/5) · `DOCKET.tsv` = canonical dated rows · each agent's `docket/CATALYSTS.tsv` = domain detail.
+
+## The artifact — persistence & how to update it
+- **URL (stable, Will's private artifact):** https://claude.ai/code/artifact/d57b576c-8442-4c81-a648-bbf541206249 — bookmark-able, persists across sessions.
+- **Source of record:** `PROME/artifacts/mid_july_convergence.html` (committed). ⚠️ The build copy in session scratchpad does NOT survive — always edit the **repo** copy.
+- **To update (redeploy to the SAME URL):** edit the repo source — as gates print, flip the event's `sv`/marker + fold the result into its `w:` watch-line in the JS `E[]` array — then call the **Artifact tool** with `file_path=PROME/artifacts/mid_july_convergence.html` **AND `url=https://claude.ai/code/artifact/d57b576c-8442-4c81-a648-bbf541206249`**. 
+  - ⚠️ **In a fresh session the `url=` param is REQUIRED** — omit it and a NEW URL is minted (Will's bookmark would go stale). Pass a short `label` per redeploy (version history is kept).
+- **Retire with the node (~8/1):** archive the source alongside this file; let the URL lapse.
