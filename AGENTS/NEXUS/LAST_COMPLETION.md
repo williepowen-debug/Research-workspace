@@ -57,6 +57,21 @@ The 6/27 flag ("integrate at next boot") was discharged: **PROME had corrected i
 3. **M-10 is new + thin (55%)** — needs the May TIC 7/16 print to confirm China <$650B (fires ZHA-04) AND LIQUID's absorption read (who buys at +$206B aggregate inflow). Watch for the first market move that front-runs it.
 4. **Verify-owed:** the S2 Capital $400M wipeout (BROCK-sourced SIG-704-005) and tech-8.3%-of-HY conduit figure are load-bearing to the "substance-firmed / AI-credit-conduit" read — cross-check against primary before trading off them.
 
+## WU2 — Concurrent-op calibration + protocol hardening (Will-directed, same session)
+
+After the re-anchor (WU1 above), Will flagged that RED + PROME were **live-concurrent** on the box. Three threads:
+1. **Confabulation flag fully closed** — verified PROME's 6/27 fix had only landed on PROME's surfaces; the phantom still sat in NEXUS's own STATUS header → **scrubbed** (WU1 already did this; confirmed downstream-complete).
+2. **Concurrent-op calibration (correction absorbed):** I mischaracterized ~100 RED files staged in the shared index (RED draining a 98-file WALTER inbox backlog, live) as an "anomaly / discipline slipping." It was normal concurrent-operation state. Verified nothing damaged (path-scoped commit ignored RED's files; RED committed its own moments later; my safe-push swept clean via push-train). **Promoted the lesson** → appended an "Interpretation during live concurrent operation" § to auto-memory `[[finding_pathspec_commit_race_safety]]` (boot-loaded fleet-wide, hardlinked repo↔~/.claude) + inlined into NEXUS CLAUDE.md **closeout step 16** (which also gained the previously-missing *mandatory* pre-commit sanity check — it only had the optional `git diff --cached --stat`).
+3. **Boot/closeout protocol edits (Will-approved #2):** added to NEXUS CLAUDE.md **boot step 6** the multi-day-re-anchor **fleet-freshness-scan first-move** (batch `git log -1` across all STATUS+briefs → prioritize read-set + enumerate owed dark-window catalysts). #3 (a correction-scrub boot clause) considered and **skipped** per Will (already covered by `[[finding_verification_correction_downstream_propagation]]` + the protocol caught it this pass).
+
+**WU2 files changed:** `memory/auto/finding_pathspec_commit_race_safety.md` (Interpretation §), `AGENTS/NEXUS/CLAUDE.md` (closeout step 16 + boot step 6). Commits `fc47d135`, `f73ed760` (both pushed).
+**WU2 promotion:** the concurrent-op interpretation was the promotable learning — landed in the shared finding (not "none this pass" as WU1 stated; WU1's promotion scan predated this thread).
+
+## Still-open after this session (swept 7/5)
+- **BRIEFS_MAP stale-table prune** — the dead 6/16 table under two note-layers not yet pruned (offered, Will greenlit only boot-step #2). File hygiene, not protocol.
+- **RED/REGINALD/LIQUID brief-gaps → PROME route** — 6/27 brief-standup request still unfulfilled; RED also content-stale 6/23. Needs a PROME coordination note (not yet written).
+- **Root CLAUDE.md interpretive one-liner → PROME** — offered to route the concurrent-op nuance to root for fleet-wide *inline* coverage; unresolved.
+
 ## Next Step
 
 Next trigger = **Mon 7/6 first tape** or any tier-1 inbox arrival. The **7/14–7/31 gate cluster** is where the widest-of-cycle divergence gets adjudicated (the daily tape can't). Hold the discipline: do NOT re-read a positioning move as credit transmission without the wrapper-vs-manager / CCC-HY-ratio discriminators — this pass proved the discipline right (X1 NOT MET). ORACLE's live tell stands: watch for the first crowd/market move that front-runs the dormant R3/M-08 or the new M-10 demand-hole.
