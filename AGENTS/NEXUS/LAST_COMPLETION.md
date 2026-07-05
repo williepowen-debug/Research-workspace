@@ -73,6 +73,11 @@ After the re-anchor (WU1 above), Will flagged that RED + PROME were **live-concu
 - **Root CLAUDE.md concurrent-op one-liner → PROME ✅** — folded into the same PROME note as a P3 addendum (root is PROME's commit-scope, not NEXUS's).
 - **Deferred-with-reason (not distractions):** verify-owed figures (S2 $400M, tech-8.3%-HY) = pre-trade gate, no trade pending; fallback-rate rollup = <6 data points, rule says don't act.
 
+## PROME feedback integrated (7/5)
+PROME reviewed the re-anchor (sound/disciplined; phantom-scrub confirmed as the exact HEARTBEAT-flagged fix; M-08/M-09 shared-node discipline held). Two date-drifts cross-caught against the PROME DOCKET, both fixed:
+- **OZK/WAL Q2 dates (NEXUS error, propagating):** was "~7/30" (internally inconsistent — one line already said WAL ~7/16). Corrected fleet-consistent → **WAL Q2 ~7/16, OZK Q2 7/21 (confirmed)** across M-05 + transmission chain + threshold table + docket. *(RED caught the date NEXUS missed; NEXUS's June-CPI-7/14 was right where RED's "7/10" was wrong — cross-check reconciled both.)*
+- **RED "content-stale 6/23" → RESOLVED:** timing artifact — RED re-anchored to 7/5 concurrently (S22, `87205c72`). Corrected in STATUS carry-forward + BRIEFS_MAP + downgraded RED's P1 framing in the PROME brief-gap note (brief-gap real, staleness gone).
+
 ## Next Step
 
 Next trigger = **Mon 7/6 first tape** or any tier-1 inbox arrival. The **7/14–7/31 gate cluster** is where the widest-of-cycle divergence gets adjudicated (the daily tape can't). Hold the discipline: do NOT re-read a positioning move as credit transmission without the wrapper-vs-manager / CCC-HY-ratio discriminators — this pass proved the discipline right (X1 NOT MET). ORACLE's live tell stands: watch for the first crowd/market move that front-runs the dormant R3/M-08 or the new M-10 demand-hole.
