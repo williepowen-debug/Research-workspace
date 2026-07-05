@@ -1,16 +1,16 @@
 ID	Name	Current_Value	Status	Green	Yellow	Orange	Red	Last_Updated	Source	Notes
 VX-ZHAO-1.01	Belgium TIC Holdings ($B)	477.3	ORANGE	<450	>450	>480	>500	2026-03-06	TIC Dec 2025	China proxy via Euroclear. Dec $477.3B (down from $481B ATH Nov). Next print Mar 15.
-VX-ZHAO-1.02	China Official UST ($B)	683.5	ORANGE	>800	<750	<700	<650	2026-03-06	TIC Dec 2025	Dec 2025 reading. Lowest since 2008. Q2-Q3 <$650B call.
+VX-ZHAO-1.02	China Official UST ($B)	652.3	ORANGE	>800	<750	<700	<650	2026-07-04	TIC Mar 2026	Mar $652.3B, -$40.9B MoM from Feb $693.3B. Only $2.3B above <650 RED. Verify Apr/May country line.
 VX-ZHAO-1.03	Combined Annual Outflow ($B/yr)	100	YELLOW	<50	>75	>150	>250	2026-02-12	Calculated	Japan + China combined UST exit rate. Pre-Korea anchor.
 VX-ZHAO-1.04	Belgium YoY Growth (%)	26	ORANGE	<10	>15	>25	>35	2026-03-06	TIC Dec 2025	Dec vs Dec. Outpacing Japan (11%) and UK (16%).
 VX-ZHAO-1.05	True China Holdings Adj ($B)	1850	GREEN	>1800	<1700	<1600	<1500	2026-02-13	Setser/CFR	Stable ~$1.8-1.9T since 2015 when adjusted for Belgium.
 VX-ZHAO-1.06	Agency MBS Rotation ($B)	100	GREEN	<50	>50	>75	>100	2026-02-13	Ginnie Mae	China #1 MBS holder mid-2022. $100B accumulated 2022-2023.
 VX-ZHAO-1.07	FX Intervention Proxy ($B)	120+	RED	<30	>50	>80	>100	2026-02-24	FT/Setser	Forward-adj FX settlement. Largest spike since 2015-16 devaluation. PBOC burning reserves to defend RMB. Validates forced liquidation thesis.
-VX-ZHAO-2.01	USD/CNY	6.85	GREEN	<7.20	>7.30	>7.40	>7.50	2026-03-06	Est post-NFP	NFP -92K drove USD weakness. PBOC not defending. 7.30 pushed out 6-10wk.
+VX-ZHAO-2.01	USD/CNY	6.80	GREEN	<7.20	>7.30	>7.40	>7.50	2026-07-04	PBOC fix Jul 3	Yuan below 7.00, stronger than March. PBOC gradual managed depreciation from stronger level. 7.30 thesis weak.
 VX-ZHAO-2.02	CNH-CNY Spread	0.02	GREEN	<0.02	>0.03	>0.05	>0.08	2026-02-13	Bloomberg	Offshore premium = capital flight pressure.
-VX-ZHAO-2.03	HK Aggregate Balance (B HKD)	53.8	GREEN	>55	<45	<40	<30	2026-03-06	HKMA Mar 6	Flat. Stable above $45B floor.
-VX-ZHAO-2.04	HIBOR-SOFR Spread (bps)	-211	ORANGE	>-100	<-100	<-200	<-300	2026-03-06	HKAB/SOFR Mar 6	1M HIBOR 2.196% vs SOFR ~4.30%. Was -170 Mar 3, worsened rapidly. NFP SOFR repricing may narrow.
-VX-ZHAO-2.05	USD/KRW	1500+	RED	<1400	>1450	>1480	>1500	2026-03-04	Market data Mar 4	17-year low. BoK governor canceled trip. BoK UST selling NOW ACTIVE. Export-Import Bank ₩40T emergency.
+VX-ZHAO-2.03	HK Aggregate Balance (B HKD)	54.0	GREEN	>55	<45	<40	<30	2026-05-28	HKMA May 28	HK$53,997M. Stable above $45B floor. No peg defense.
+VX-ZHAO-2.04	HIBOR-SOFR Spread (bps)	-136	YELLOW	>-100	<-100	<-200	<-300	2026-07-04	HKAB late Jun	1M HIBOR ~2.94% vs SOFR ~4.30%. Normalized well inside -200 trigger. Q1 carry stress resolved. SOFR EST.
+VX-ZHAO-2.05	USD/KRW	1540	RED	<1400	>1450	>1480	>1500	2026-07-04	TradingEconomics Jul 3	~1,530–1,550, near 2009 lows. Record foreign KOSPI outflows (₩7.7T single session, 7–8 day streak). CPI 3.2% Jun -> BoK Jul 16 hike watch.
 VX-ZHAO-2.06	KOSPI 2-Day Change (%)	-18.5	RED	>-5	<-5	<-10	<-15	2026-03-04	CNBC/Bloomberg	Worst 2-day crash in 46yr history. Samsung/Hynix ~50% index weight. Circuit breakers 2x.
 VX-ZHAO-2.07	Korea UST Holdings ($B)	103	YELLOW	Stable	Active defense	Active selling $5-10B/mo	Active selling >$15B/mo	2026-03-04	TIC + est	Official only. NPS adds $100-150B est. Total exposure $200-250B.
 VX-ZHAO-3.01	Evergrande Bond Price	0.08	RED	>0.20	<0.15	<0.10	<0.05	2026-02-13	Bloomberg	In default/liquidation. <0.6% recovery over 10yr.
@@ -30,5 +30,5 @@ VX-ZHAO-6.08	Debt Swap Coverage (%)	30	RED	>60	<50	<40	<30	2026-02-13	RP-ZHAO-2	
 VX-ZHAO-6.09	S&P NPA Forecast (%)	5.1	YELLOW	<4.5	>5.0	>5.5	>6.0	2026-02-13	S&P	Current 5.1%, forecast 5.4-5.8% (2025-27).
 VX-ZHAO-6.10	CIPS Volume YoY (%)	43	ORANGE	<10	>20	>35	>50	2026-02-13	RP-ZHAO-2	$24T in 2024. Alternative rails growing fast.
 VX-ZHAO-7.01	Combined Anchor Selling ($B/mo)	40-72	RED	<10	>15	>30	>50	2026-03-09	Est JP+CN+KR+Gulf	Four anchors active. Updated to include Gulf recycling reduction. Was $30-55B/mo (3-anchor).
-VX-ZHAO-7.02	Gulf Recycling Reduction ($B/qtr)	25-45	RED	<5	>10	>25	>40	2026-03-09	Campbell/KB-ZHAO-064	$250B/yr normally recycled. Hormuz -92% + Iraq 70% shut-in = $25-45B/qtr reduction (central $35B/qtr ≈ $12B/mo). INVOLUNTARY.
+VX-ZHAO-7.02	Gulf Recycling Reduction ($B/qtr)	recovering	GREEN	<5	>10	>25	>40	2026-07-04	CNBC Jun–Jul 2026	DE-ESCALATED: Hormuz reopened (>10M bpd), Saudi 90%/UAE 3.9M bpd, Brent $72. Acute recycling collapse over. ZHA-08 falsified.
 VX-ZHAO-8.01	NPC GDP Target (%)	4.5-5	NOTED	>5.5	<5	<4.5	<4	2026-03-05	Li Qiang Mar 5	First downgrade since 2023. Record fiscal deficit ~4% GDP.
