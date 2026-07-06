@@ -12,7 +12,7 @@
 |------|-------|-----------------|-----------|
 | ~~Thu Jul 2, 8:30 ET~~ **PRINTED — first-read in STATUS** | **June NFP: +57K (cons ~100-115K), net revisions −74K, U-3 4.2% (participation artifact), AHE 3.5%↑** | Stagflationary mix, not a clean growth break. Tape HAWKISH (10Y +3bp intraday despite the miss) — **KB-LIQ-060 branch NOT graded yet**: candidate MOF strike on the same bar (SAM verifies) + H.15 close pending | LIQUID, HENRY, LABOR, BOND |
 | **Thu Jul 2 close** | **2nd alt-mgr PE-wrapper gate watch — window effectively closes** (30d from the Jun 3-4 BCRED/Partners Group origin; 7/3 is the holiday) | Through 7/1: **CLEAN at the letter** (EDGAR-FTS: zero PE-wrapper proration filings; BXPE +$1.2B subs). Retroactive-conversion risk via July pubs (see ~Jul 31 row) | BROCK, LIQUID, REGINALD |
-| **Thu Jul 2, ~4:30pm ET** | **H.4.1 (as-of Wed 7/1)** | WRESBAL drain rate after the **−$82B week → $2.9514T (as-of 6/24), first sub-$3T; cushion ~$151B** (KB-LIQ-067). <$2.8T = PROME 🟠 (canonical WRESBAL) | LIQUID, PROME, REGINALD |
+| ~~Thu Jul 2~~ **Thu Jul 9, ~4:30pm ET** | **H.4.1 (as-of Wed 7/8)** | 7/1 print in: WRESBAL **$2.967T, +$15.5B** off the −$82B 6/24 week (sub-$3T held, cushion ~$167B) = one week ≠ trend (TGA lumps). 7/9 = drain-rate into refunding week (KB-LIQ-067; mechanism corrected KB-LIQ-070 — post-QT RMP regime, reserves absorb TGA swings directly). <$2.8T = PROME 🟠 (canonical WRESBAL) | LIQUID, PROME, REGINALD |
 | Daily | **HY OAS direction** | 275 [boot 7/1, latest FRED print] — **X1 approach band, 5bps to the >280 LIQUID half**; <260 = soft-kill (re-arms only on 2 fresh sub-265 closes); >320 = confirmation. CCC-BB 806 (pin — falsifier <400) | LIQUID |
 | Daily | **Duration** | 30Y 4.91 (0.01 above the 4.90 unwind); 10Y on the 4.50 pivot; NFP is the growth-break test | LIQUID, BOND |
 | Daily | **Alts/PC + vol** | APO $118 (alts-crack DEEPENING); BIZD $12.54 (line $12.50) | LIQUID, HENRY |
@@ -29,7 +29,7 @@
 | **Jul 28-29 (CONFIRMED)** | **July FOMC — hike watch** | July-hike only ~23% (the ~75% was P(hold), transposed — ORACLE 6/22); hike seen landing Q4 (Oct-modal ~53%, hike-by-YE ~61%), consistent with 9/18 dots. Retests KB-LIQ-060 | LIQUID, HENRY, ALL |
 | **~Jul 31** | **Q2 PE/PC tender publications** (retroactive 2nd-gate resolver) | Ares PMF Q2 results (expired 6/29) · Partners Group US ~$16B fund confirm (~6% vs 5% cap — same manager, not a 2nd-manager fire) · Blue Owl OCIC/OTIC Q2 · BCRED final proration. A 2nd-MANAGER gate here = contagion confirm 🟠 | BROCK, LIQUID, REGINALD |
 | Late Jul / Aug (~8/14) | Q2 10-Q cycle (broader BDC marks) | NA reversal vs compounding; div-cut cascade | BROCK, LIQUID |
-| **~YE2026** | **Warsh Balance-Sheet Policy review outcome** | QT pace / SRF / RRP / long-run SOMA "back in play" — Leg A future buffers (thinner). Standing multi-quarter monitor | LIQUID, REGINALD, ALL |
+| **~YE2026** | **Warsh Balance-Sheet Policy review outcome** | post-QT framework (RMP pace / SRF / RRP / long-run SOMA) "back in play" — Leg A future buffers (thinner). *(QT runoff ended Dec-2025 — KB-LIQ-070.)* Standing multi-quarter monitor | LIQUID, REGINALD, ALL |
 
 ---
 

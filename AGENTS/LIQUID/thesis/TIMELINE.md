@@ -17,7 +17,7 @@
 | **~Jun 30** | BCRED Q2 redemption window | Redemptions ≤ cap, no hard gate = Stage 3 manageable. BROCK: Q2 redemptions ~10% demand vs 5% cap → ~50% pro-rata (final satisfaction Aug); gate cluster CONTAINED, PE-wrapper UN-FIRED (day ~12) | Hard gate OR cap breach = Stage 3→4 inflection | Credit / PC |
 | **~Jul 25 — Q2 BDC marks** | **NEXUS-named credit-bifurcation transmission test** (R3 / M-08): does the K-split transmit? | CDLI-FSK gap closes OR CCC-BB compresses <~400 OR no mark catch-down = bifurcation falsified | Mark catch-down + gap persists = K-split transmitting to public marks (the bear book's load-bearing confirm) | Credit / PC |
 | **Late Jul — July FOMC** | Does the hike land in July? (July-hike only ~23%; modal hike Oct ~53%, hike-by-YE ~61% — ORACLE 6/22) | Hold / dovish pivot = front-end relief valve restored | Hike delivered = higher-for-longer confirmed; front-end-led flattening pressures basis-trade carry economics | Duration / Leg A |
-| **~YE2026 — Warsh Balance-Sheet review** | Does the review translate to action on QT/SRF/RRP/SOMA? | Status-quo or facility expansion = Leg A buffer restored | QT extension / SRF reprice / smaller long-run SOMA = thinner future buffers, **Leg A reinforced** (KB-LIQ-060) | Leg A / all |
+| **~YE2026 — Warsh Balance-Sheet review** | Does the review translate to action on the post-QT framework (RMP pace / SRF / RRP / SOMA)? *(QT runoff already ended Dec-2025 — KB-LIQ-070)* | Status-quo or facility expansion = Leg A buffer restored | Slower RMP pace / SRF reprice / smaller long-run SOMA = thinner future buffers, **Leg A reinforced** (KB-LIQ-060) | Leg A / all |
 
 ---
 

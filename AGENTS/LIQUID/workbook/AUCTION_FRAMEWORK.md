@@ -26,7 +26,7 @@
 - Forced to absorb if indirect bid weak
 
 ### Fed
-- NOT buying. QT still active.
+- QT runoff ENDED Dec-1-2025 → Fed now buys **T-bills via RMPs** to keep reserves ample (net reserve adder; KB-LIQ-070). But RMPs are **bills only** — the Fed is NOT bidding coupons/the belly, so 3Y/10Y/30Y auctions still clear without a Fed bid. Reinvests MBS runoff into bills.
 
 ## Stress Signals
 - BTC <2.0x = probable demand failure
