@@ -83,7 +83,7 @@ Converts PROME's whole-board pattern read into 4 bounded pre-loads (make us *fas
 **Gate:** A's verdict (REAL / PARTIAL / OVER-READ) decides whether we pre-stage the convex expression on the synchronization — deploy-on-trigger, not before. Packets: `AGENTS/{NEXUS,BROCK,SAM,ZHAO,HENRY,CARL,REGINALD,DEWEY,SHADE}/inbox/2026-07-05_from-PROME_*`.
 
 ## The artifact — persistence & how to update it
-- **URL (stable, Will's private artifact):** https://claude.ai/code/artifact/d57b576c-8442-4c81-a648-bbf541206249 — bookmark-able, persists across sessions.
+- **URL (stable, Will's private artifact):** https://claude.ai/code/artifact/d57b576c-8442-4c81-a648-bbf541206249 — bookmark-able, persists across sessions. **★ Last refreshed 2026-07-06** (7/6 prints resolved · demand-hole = one-root convergence correction · JGB-7/7→10Y-7/8→30Y-7/9 rates sequence · HENRY GCVR on the gamma tripwire). Next refresh point = CPI 7/14. Favicon set to 🗓️.
 - **Source of record:** `PROME/artifacts/mid_july_convergence.html` (committed). ⚠️ The build copy in session scratchpad does NOT survive — always edit the **repo** copy.
 - **To update (redeploy to the SAME URL):** edit the repo source — as gates print, flip the event's `sv`/marker + fold the result into its `w:` watch-line in the JS `E[]` array — then call the **Artifact tool** with `file_path=PROME/artifacts/mid_july_convergence.html` **AND `url=https://claude.ai/code/artifact/d57b576c-8442-4c81-a648-bbf541206249`**. 
   - ⚠️ **In a fresh session the `url=` param is REQUIRED** — omit it and a NEW URL is minted (Will's bookmark would go stale). Pass a short `label` per redeploy (version history is kept).

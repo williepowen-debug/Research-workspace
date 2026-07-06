@@ -37,4 +37,4 @@
 - Dashboard: `.venv/bin/python3` + FRED via `.env`. Firetime rc=1 = cosmetic (DEWEY-processed pointers + node-metadata dates + ZHAO-owned) — no gate drift.
 
 ## Git / repo state
-Clean tree; all 6 agents' self-closeouts + PROME closeout committed; **swept to origin via safe-push at closeout** (started this session 0/0, +BRENT concurrent Monday-pull rebased clean mid-session). Serial multi-machine — origin is the handoff. 6 named agents (LABOR/LIQUID AM, SAM/BOND/BRENT/HENRY PM) all released via shutdown; no warm parks across the boundary.
+Clean tree; all 6 agents' self-closeouts + PROME closeout committed; **swept to origin via safe-push at closeout** (started this session 0/0, +BRENT concurrent Monday-pull rebased clean mid-session). **Post-closeout: the mid-July convergence artifact was refreshed 7/6 + redeployed to the same URL (2 more commits pushed) — the board is current through today.** Serial multi-machine — origin is the handoff. 6 named agents (LABOR/LIQUID AM, SAM/BOND/BRENT/HENRY PM) all released via shutdown; no warm parks across the boundary.
