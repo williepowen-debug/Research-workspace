@@ -59,6 +59,41 @@ Benchmark = June 6/11 30Y: **indirect 60.0% / direct 25.3% / dealer 14.7% / BTC 
 
 ---
 
+## JGB 30Y auction 7/7 → US 30Y reopen 7/9 — LEADING-INDICATOR LINK (with SAM)
+
+**The sequence:** JGB 30Y auction Tue 7/7 (Tokyo afternoon, ~overnight ET) → US 3Y 7/7 (~1pm ET) → US 10Y reopen 7/8 → **US 30Y reopen 7/9 (BND-11).** The JGB is the **earliest** long-end demand read of the week — a ~2-day leading indicator into my decisive print.
+
+**SAM's JGB 7/7 pre-reg** (`AGENTS/SAM/STATUS.md` 7/6 note §2): JGB 30Y auctions at ~3.94% (MOF 7/3), right into the ~4.0% Meiji-Yasuda "perfect buying opportunity" bid. Benchmark = **Jun-10 JGB 30Y BTC 2.936x / tail 2.8bp** (tail is the cleaner super-long read — dealers pad cover). SAM's grades: **FIRM** BTC ≥~2.9x AND tail ≤~3bp · **SOFT** BTC 2.5–2.9x and/or tail 4–6bp · **WEAK/disorderly** BTC <~2.4x or tail >~7bp. SAM's lean: **~55% firm / ~35% soft / ~10% weak.**
+
+### The mechanism — and the caveat that bounds it (weight correctly)
+Japan is a **term-premium CORRELATION amplifier, NOT a mechanical UST-flow seller** (SAM's transmission map: Japan is a *net UST buyer*; JGB→UST transmits via **correlated global term premium**, not repatriation). So a JGB tail is a **sentiment / term-premium read-through**, not a flow-mechanical one.
+
+→ **Critical asymmetry for my grade:** the JGB read-through moves the **term-premium / concession / tail leg** of the US 30Y — NOT the **indirect-composition leg** (the foreign-official bid, which is ZHAO/TIC-owned and driven by a *different investor base* than Japanese lifers). This maps directly onto the reconciled grade card:
+- The JGB informs whether the US 30Y **cheapens/backs up into the reopen and prints a tail** (my term-premium leg / verdict ③'s price condition).
+- The JGB is **nearly silent on the indirect % (comp-acc) leg** — the ONE reconciled figure — because foreign officials at the US 30Y ≠ Japanese super-long buyers. That leg is informed by the US 3Y/10Y prints (7/7–8) and May TIC (7/16), not the JGB.
+
+**Circularity discipline (per PROME's 7/6 x-domain synthesis):** SAM's JGB, my 30Y-5.00 level, and HENRY's thin-bid are **correlated expressions of ONE term-premium root — not independent votes.** A JGB tail is the *same theme showing up in a second venue*, not an independent confirmation of the US demand-hole. **Do not double-count it as a fresh vote on the US indirect-composition question.**
+
+### Prior-shift on BND-11 (base = 70% benign / 30% marker; P(acute verdict ③) ≈ 12%)
+| JGB 7/7 print | Read-through (term-premium leg only) | BND-11 benign prior 7/9 | P(verdict ③ / arm-#1 acute) |
+|---|---|---|---|
+| **FIRM** (~55%) | Super-long bid real, floor confirms, term-premium pressure eases, orderly-grind reinforced | 70% → **~74%** | 12% → **~9%** |
+| **SOFT** (~35%) | JGB breaks 4.0% cleanly, global long-end backs up → US 30Y *concession* into 7/9; silent on US indirect | 70% → **~64%** | 12% → **~15%** |
+| **WEAK / disorderly** (~10%) | Disorderly-break precursor — the one case where correlation can drag the US long end hard (SAM's tail); a disorderly global super-long tape raises odds of BOTH a US tail AND foreign step-back | 70% → **~52%** | 12% → **~22%** |
+
+Probability-weighted over SAM's lean, the JGB pre-print moves my *unconditional* 70% only to ~68% — **the value is conditional, not a base-rate mover:** it tells me which way to lean the morning of 7/9 *once I see the print*, not a big shift now. Correct "leading indicator" framing.
+
+### Two-step confirmation gate (the operational core — don't over-react to the JGB alone)
+1. **JGB 7/7 = opening lean.** Sets the direction of the 7/9 prior shift per the table.
+2. **US 10Y reopen 7/8 = the confirming read** (same issuer, 1 day prior, closest read-through). A JGB tail is **upgraded to a real 7/9 downgrade ONLY if the US 10Y (7/8) also comes soft** (indirect steps down + directs/dealers backfill). **JGB-soft + US-10Y-soft = correlation transmitted → highest-confidence 7/9 downgrade.** **JGB-soft + US-10Y-firm = correlation was noise** (Japan-domestic timing, e.g. Meiji-Yasuda front-load cadence, not a global term-premium break) → **revert toward base 70%.**
+
+### Effect on the TERRY duration fire-card (`inbox/2026-07-06_from-PROME_duration-firecard-prebuild.md`)
+Arm-condition **#1** = my BND-11 acute verdict ③ verbatim (indirect <52% AND (BTC<2.3 OR tail>2bp) AND dealer >18–20%). The JGB print shifts **P(arm-#1 fires 7/9)** per the table above — **but it CANNOT fire arm-#1 on its own:** the JGB touches only the (BTC/tail) price leg via correlation, and arm-#1's **binding constraint is the indirect-composition leg (<52%)**, which the JGB doesn't move. So a WEAK JGB raises P(arm-#1) to ~22% but the trigger still requires the US-specific composition + dealer legs (informed by US 3Y/10Y + TIC). **The JGB actually feeds arm-#2 (BND-12 / 10Y five closes ≥4.50) as much as arm-#1** — it is fundamentally a term-premium/duration-backup signal, which is the arm-#2 channel. Net for TERRY: a soft/weak JGB is a *pre-arm heads-up to watch #1 and #2 more closely 7/8–9*, **not** an independent arm input. Card stays PRE-BUILD, unarmed.
+
+*(SAM is refining its JGB read-through signal via SendMessage — this section is built off SAM's committed 7/6 pre-reg; if SAM's refined calibration shifts the firm/soft/weak split I'll reconcile the prior-shift table, but the mechanism — correlation-not-flow, price-leg-not-composition-leg — is invariant.)*
+
+---
+
 ## Funding-plumbing overlay (LIQUID-owned; BOND watches for the mechanical read)
 Refunding weeks stress the plumbing as dealers finance new inventory ("plumbing seizes before the signal fires"). LIQUID grades these; BOND cross-reads them against the auction take:
 1. **SOFR–IORB** (post-Q-end −1bp, 7/2): a move **>0 during 7/7–9** = dealer-financing strain from auction settlement (not a Q-end artifact this time).
