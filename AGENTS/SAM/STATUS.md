@@ -6,7 +6,23 @@
 
 ---
 
-## 🆕 2026-07-02 SESSION NOTE (Thu 10:22 AM ET boot — MOF-verify: NO STRIKE; NFP +57K miss; 🔴 Meiji Yasuda demand-floor → SAM-32 FALSE + THESIS v1.6.3)
+## 🆕 2026-07-06 SESSION NOTE (Mon ~late-AM ET — PROME teams-mode spawn; USD/JPY 162.33 back IN zone [yen-side]; JGB 30Y 3.94% into the 4% floor; 7/7 30Y auction pre-registered; packet-C first cut)
+
+**LIVE MARKS (fetch.py ~late-AM ET):** USD/JPY **162.33** (+0.54%; back in the 162–163 MOF zone, re-approaching the 162.63 40-yr low) · EUR/JPY **185.36** (+0.52%) / GBP/JPY **216.81** (+0.68%) / AUD/JPY **112.68** (+0.93%) — **yen weakest of the majors → yen-SIDE driver, not USD** · FXY **$56.50** (−0.79%) · DXY **101.06** (+~0.4 vs 7/2's 100.67 — modest USD tailwind, does NOT explain the +1.4y move) · Brent **$72.20** · **JGB (MOF 7/3 pub): 10Y 2.768 / 20Y 3.699 / 30Y 3.940 / 40Y 3.834** — long-end bear-steepened +5–6bp over the holiday; **30Y ~6bp under the 4.0% Meiji-Yasuda bid** · CFTC **still −146,104 / 81.2% (Jun-23 print)** — **Jun-30 data prints tonight** (July-4-delayed), not yet out (verified deafut.txt = 260623).
+
+**(1) USD/JPY ZONE READ — strike-watch ARMED, not FIRED (re-entry is real; driver is yen-side).** 162.33 is back inside the 162–163 "3rd-strike-most-likely" zone (playbook S1) and re-approaching the 40-yr low. **Framing correction: this is NOT benign USD drift — the yen is the weakest major** (weaker than USD; AUD/JPY +0.93% = carry-on / funding-currency weakness), fed by the JGB long-end sell-off + the Japan-fiscal/yield-gap narrative. A yen-weak-vs-everything tape is exactly the "one-sided move" MOF frets over → **strike-watch back ON.** BUT the re-approach is via **orderly grind** (~+1.4y over 2 sessions, reclaiming the NFP/ambush dip), not a disorderly spike → per CH-011 (MOF fires on velocity, not level) **no actionable trigger has fired.** S1-A ambush caveat live: MOF silence (~20d) does NOT lower P(strike) — silence is loaded, not safe. **Flips to ACTIONABLE on:** a disorderly spike (>1.5–2%/day or ~2–3y in 1–2 sessions vertically through 163 / fresh 40-yr lows accelerating), OR a fresh ladder-escalation (rate-check headline / new T3 line — still raises P even in the ambush regime). Deploy-on-trigger unchanged: catch the follow-through of the reclaim, do NOT front-run the gap (ambush = zero lead-in). **FLAT stands; no entry trigger fired.**
+
+**(2) JGB 7/7 30Y AUCTION — PRE-REGISTERED (SAM-32 floor-real test / SAM-33 activation gate).** 30Y auctions at ~3.94%, right into the ~4.0% Meiji-Yasuda "perfect buying opportunity" level. Benchmark = **Jun-10 30Y BTC 2.936x / tail 2.8bp**; adjacent = Jul-2 10Y 3.13x/2.6bp (orderly-softer), Jun-30 2Y 4.82x/0.3bp (strong front). **Tail is the cleaner read than BTC at the super-long** (dealers can pad cover; a tight tail = real end-investor demand).
+- **REAL BID / floor confirming** — BTC ≥ ~2.9x **AND** tail ≤ ~3bp → Meiji-Yasuda's stated plan is FLOWING; demand-floor confirmed at 4.0%; orderly-grind base case reinforced; disorderly carry-tail thins further; **SAM-33 stays VOID/untested** (no material stress). *One firm print confirms the floor EXISTS, not that it's DEEP enough for the full gauntlet (40Y 7/22, FY2027 plan 7/31).*
+- **SOFT / "announced-not-flowed"** — BTC ~2.5–2.9x and/or **tail 4–6bp** → the bid is stated intent, not yet auction flow (dealers eating supply); demand-vacuum re-firms; 30Y breaks 4.0% cleanly; **SAM-33 test window ACTIVATES.**
+- **WEAK / disorderly** (tail-risk) — BTC < ~2.4x **or** tail > ~7bp w/ long tail → 🔴 cross-agent (BOND/LIQUID/HENRY); disorderly-break precursor; SAM-33 tested in earnest (a BOJ op vs *genuine disorder* does NOT falsify SAM-33 — that IS the let-run-truncates-disorder model).
+- **LEAN: ~55% firm-to-in-line / ~35% soft / ~10% weak.** Modest firm-lean *only because* the yield sits exactly where the named buyer said it would buy; discounted because the plan is a FY-2026 program (not necessarily front-loaded into THIS auction), the 10Y softened, and the long-end is bear-steepening under persistent super-long supply. Low conviction — **read the tail on print.**
+
+**(3) PACKET-C FIRST CUT (Asia demand-hole, Japan/JGB leg) → `research/outputs/PACKET_C_ASIA_DEMAND_HOLE.md`** (joint read w/ ZHAO synthesized there). Headline reconciled-to-one-figure w/ LIQUID: **Japan is a term-premium CORRELATION channel + marginal-recycling subtractor, NOT a UST-flow seller** (repatriation dormant; Japan still a net UST buyer) — so Japan does not add to the *flow*-hole (that's China-led) but amplifies the *price* (a real ~4% JGB pulls marginal Japan capital home vs hedged UST + JGB/UST long ends co-move up on shared term premium). Coherent slow-burn, not 3 unrelated stories. **Single trigger slow-burn→headline: a tailing 40Y auction (7/22) landing the same week as a soft May TIC (7/16) showing China/Japan UST holdings down** — removes the domestic-Japan floor and the foreign UST bid in one week.
+
+---
+
+## 2026-07-02 SESSION NOTE (Thu 10:22 AM ET boot — MOF-verify: NO STRIKE; NFP +57K miss; 🔴 Meiji Yasuda demand-floor → SAM-32 FALSE + THESIS v1.6.3)
 
 **LIVE MARKS (~10:30 AM ET):** USD/JPY **~161.0** (−1.0% day; intraday low 160.62; off Wed's 162.63) · FXY **$57.00** (+1.0%) · EUR/GBP/AUD-JPY −0.26..−0.36% (yen mildly bid vs all; the USDJPY move is mostly USD-side) · DXY **100.67** (−0.68%) · US 2Y **4.11** (−5bp) / 10Y **4.47** (≈flat) · Brent **$70.78** · JGB (MOF Jul-1 pub): 10Y **2.711** (+2bp) / 30Y **3.883** (+1bp — drift decelerated) · CFTC unchanged (Jun-23, 81.2%); **next print Mon Jul-6** (Fri 7/3 = July-4 observed; CFTC official schedule "July 06*"). Bond mkt early close 2 PM today; **markets CLOSED Fri 7/3.**
 
@@ -91,6 +107,8 @@ Hiked 25bp → 1.00% (highest since 1995); vote 7-1, Asada DOVISH-dissent for ho
 ---
 
 ## MARKET DATA — Thu Jul 2 ~10:30 AM ET (boot.py full sweep + live pulls; NFP morning)
+
+*⚠️ SUPERSEDED for live marks by the 2026-07-06 SESSION NOTE mini-table above (USD/JPY 162.33, JGB 30Y 3.94% per MOF 7/3 pub, DXY 101.06). Table below retained as the Jul-2 snapshot.*
 
 | Metric | Value | Source | Status |
 |--------|-------|---------|--------|
@@ -191,16 +209,16 @@ Per **STRATEGY.md** + v1.6 position logic (carry-convexity-tail):
 
 | Level | Significance | Status (Thu Jul 2 ~10:30 AM ET; JGB = MOF Jul-1 pub) |
 |-------|-------------|--------|
-| USD/JPY 160 | MOF zone (historic strikes; CH-011 disorder-not-level; 🆕 AMBUSH regime — unsignalled) | 🔴 **161.0, backed off the 162.63 40-yr low (−1.0% on ambush-story + NFP); MOF silent 16d, NO strike (7/2 candidate adjudicated NO-STRIKE)** |
+| USD/JPY 160 | MOF zone (historic strikes; CH-011 disorder-not-level; 🆕 AMBUSH regime — unsignalled) | 🔴 **162.33 (7/6) — back IN the 162–163 zone, re-approaching the 162.63 40-yr low; yen weakest of all majors (yen-side, not USD); MOF silent ~20d. Strike-watch ARMED (zone + yen-side driver) but NOT FIRED (orderly grind, no velocity trigger). S1-A: silence ≠ safe.** |
 | USD/JPY 155 | Phase 2 onset | NEAR-MISS twice (Apr 30 155.55, May 6 155.05); **direction moved AWAY post Jun 16-17 sequence** |
 | USD/JPY 147 | Forced unwind | SET |
 | USD/JPY 145 | Mechanical selling | SET |
 | JGB 10Y 2.40% | Stress crossover | 🔴 BREACHED — **2.711% (MOF Jul-1 pub, +2bp)** |
-| JGB 30Y 4.0% | 🆕 v1.6.3: **CONTESTED ZONE WITH A NAMED BID UNDER IT** (Meiji Yasuda ~4% re-entry; was "J-ICS acceleration zone") | 🟠 **3.883% (MOF Jul-1 pub, +1bp — drift DECELERATED). A 4.0 tag now tests whether the announced bid is real (Jul-7 auction), not vacuum acceleration. NOT a clean trigger (SAM-26 trap / CH-014).** |
+| JGB 30Y 4.0% | 🆕 v1.6.3: **CONTESTED ZONE WITH A NAMED BID UNDER IT** (Meiji Yasuda ~4% re-entry; was "J-ICS acceleration zone") | 🟠 **3.940% (MOF 7/3 pub; +5.7bp over the holiday — drift RE-ACCELERATED, now ~6bp under 4.0%). Tue 7/7 30Y auction is the first FLOW test of whether the ~4% bid is REAL vs announced-not-flowed — pre-registered (7/6 note): firm = BTC ≥2.9x/tail ≤3bp; soft = tail 4–6bp. NOT a clean trigger (SAM-26 trap / CH-014).** |
 | JGB 40Y | — | 🟠 **3.792% (MOF Jun-30 pub)** |
 | Brent $120 | Kharg scenario | 🟢 **~$71.4** — Phase 1 oil pressure dormant |
 | Brent $90 | Headwind resolved | 🟢 **BREACHED ~$71.4** (~−26% cum from $96.78 Jun-3). Decoupling shrug (Sat declaratory Hormuz re-closure → no spike); durable bearish-oil regime (Iran deal + IEA glut +8 mbpd by 2027 vs +2). |
-| CFTC % of cycle peak | METHOD residual gate | 🔴 **81.2% (Jun-23; FIRST cover off the 83.4% top)** — amplifier +5pp ON, residual ON; 3.8pp shy of the 85%/−153K escalation; leg-1 (−108K) ~32K away. **Next print Mon Jul 6** |
+| CFTC % of cycle peak | METHOD residual gate | 🔴 **81.2% (−146,104, Jun-23; FIRST cover off the 83.4% top)** — amplifier +5pp ON, residual ON; 3.8pp shy of the 85%/−153K escalation; leg-1 (−108K) ~32K away. **Jun-30 print due tonight (7/6, July-4-delayed) — not yet published as of late-AM (deafut.txt still 260623)** |
 | DXY | USD-side carry signal | 🔴 **100.67 (Jul-2 post-NFP, −0.68%)** — holding sub-101; NFP miss softened the USD leg without breaking the Warsh regime (Sep hike still priced) |
 
 ---
