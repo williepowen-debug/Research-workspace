@@ -1,0 +1,9 @@
+# WALTER local signal drop-zone — images/screenshots Will drops on the desktop.
+# Gitignore ALL drops (repo-bloat + often sensitive); keep only scaffolding tracked.
+# Matched pair per finding_gitignored_private_drop_boot_surfaced: gitignored = invisible
+# to `git status`, so discovery is via WALTER's boot-step, not git.
+*
+!.gitignore
+!.gitkeep
+!README.md
+processed/
