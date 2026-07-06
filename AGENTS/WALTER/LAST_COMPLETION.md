@@ -6,18 +6,19 @@
 
 ## STATUS
 
-**2026-07-04 (Sat PM — US markets CLOSED, holiday weekend; Will-Telegram boot #2 → a catch-up-on-stalled-work session).** Boot clean (doctor 0-HIGH; 3 MED). **① Boot-time reconciliation (the headline):** git log showed **later 7/4 sessions had already closed the #1 "stalled" item — the consume-step packet (B1)** — but my STATUS/LAST_COMPLETION lagged, still listing it as "awaiting Will's route." Reconciled: **B1 DONE both sides** (RED installed 7/3 · SAM + REGINALD packets routed by PROME · CARL dropped via the §3.5 pull-complete exemption, 40 handoffs archived), CARL exemption shipped (BOARD_CONSUMPTION_SPEC v0.7), I3 template-kill retracted. **So B1 is OFF Will's plate.** **② Registry-lag MED cleared** — CREED + DAEDALUS rows refreshed from live STATUS. **③ FILTER v3 review CONDUCTED** (the real overdue item — last empirical review was Apr/51 dispatches, ~390 since) → `design/FILTER_V3_REVIEW.md`: filter structurally healthy, **zero FP kills** in the recent window, routes/precedence/confidence calibrated, BALANCED holds; 4 emerged practices identified (2 codify / 1 decide / 1 hold) + review-cadence recalibration → **staged for Will greenlight.** **④ FILTER_V2_PLAN archived** → `design/history/`; STATE §1 + CLAUDE.md refs repointed to FILTER_V3_REVIEW. **0 signals routed** (intake gate quiet, markets closed, Iran anchor fresh from AM). Tier-2-lite closeout (follow-on to the AM Tier-2; live levels unchanged, markets closed).
+**2026-07-06 (Mon ~2:05 PM ET — US MARKETS OPEN, first session since Thu 7/2; Will-terminal boot).** Boot clean (doctor 0-HIGH after a board-TOTAL sweep 442→444; MED = registry_lag 13 rows + `delivered_but_unconsumed` 119/39-ACTION, both known/self-closing). **① The intake_liveness "stale 3d" MED was a false alarm** — the on-disk backstop read the pre-pull 7/3 file; the boot-7e `git pull` refreshed the lane (last_run 17:39Z / 6 feeds ok). Lane is LIVE, **no PROME collector-death flag.** **② 6c LIVE scan (markets open): NO new WALTER auto-fire** — VIX 15.93 first trading-day <16 but sustain 1/5 (7/2-close 16.15); Brent $71.95 <75 BRENT-owned; HY 275/CCC 971 [7/2] fired-suppressed; Cushing 19.67M [6/26] BRENT-owned. **③ RESEARCH-INTAKE lane: 3 NEW breaches → 2 routed / 2 killed (BOARD 442→444).** Tier-1 routing closeout.
 
 ## CHANGED (this session)
 
-- **Reconciled stale summary docs vs git ground-truth** — the asymmetric-records class again (my own files this time): B1 consume-step marked RESOLVED (was carried as WILL_NEEDS #1 / stalled), CARL §3.5 exemption + I3-retract reflected. STATUS delivery-layer bullet + pending-callbacks corrected.
-- **REGISTRY.tsv** — CREED (7/4, conv 20/40 moderate, CRE recognition FIRMED) + DAEDALUS (7/4, utility-cohort profiled PAT-034 + TRADE.md staleness sweep PAT-035 + dormant-freeze pre-approval PAT-036) rows refreshed. Clears the doctor `registry_lag` MED.
-- **`design/FILTER_V3_REVIEW.md`** (NEW) — first empirical filter review since Apr. Diagnostic + kill-audit table + 4 ranked codification recs w/ exact draft edits.
-- **FILTER_V2_PLAN.md** → `design/history/` (git mv); CLAUDE.md KEY-DESIGN-FILES + STATE §1 rows repointed to FILTER_V3_REVIEW.
+- **Routed 2 (RESEARCH-INTAKE lane, source-tagged):** **SIG-706-001** EGBN (Eagle Bancorp) new President & CEO Stephen R. Curley eff 7/6 → **REGINALD** (edgar_8k item-5.02; I pulled the SEC primary + CORRECTED-FRAMING the intake RED item-code → a *planned, previously-announced* succession completing, NOT distress; 5.02 refresh cycle 3/18+5/12+7/6). **SIG-706-002** two-sided 7/6 energy supply → **BRENT/HENRY** (Ukraine hit Russia's LARGEST refinery/Omsk, "all 11 top Russian gasoline producers now hit" = product-tightening ↔ Reuters UAE crude near record post-OPEC-exit = crude oversupply; WALTER multi-primary web confirm).
+- **Killed 2 = stale-recirculation** (FILTER_SPEC v0.6 sub-class): BoE bank-failure-playbook (Apr-14) + FT junk-bond-outflow (Apr-3) — 3-mo-old Google-News re-surfaces the intake seen-baseline hadn't cached; the FT one directionally outdated (HY since compressed to 275).
+- **BOARD/INDEX** 442→444 (2 files + 2 cluster rows + ToC/section-header/TOTAL bumps; board_reconcile re-verified green). **Logs:** route_log +2 / delivery_log +4 / kill_log +2. **4 delivery handoffs** (REGINALD/RED/BRENT/HENRY). **intake_seen** reconciled (`--mark`, +3 new −2 cleared).
+- **STATUS** live-level blocks regenerated to 7/6 markets-open prints (lead + BOARD-count + near-trigger + passive-scan + bifurcation + push-state + Overall tail).
+- **Scanner FP noted (not routed):** "Grove Wal-Mart shooting threat" = false WAL/Western-Alliance entity-match (Wal-Mart ≠ WAL) — lane entity-matcher improvement candidate.
 
 ## RESULT
 
-0 dispatched / 0 killed / 0 verify-spawns (no new signals — markets closed, intake gate quiet). **Catch-up deliverables:** B1 reconciled-DONE (removed from Will's plate) · registry MED cleared · FILTER v3 review conducted + written · v2 plan archived. **No spec-version bumps this commit** (the CHECKLIST/FILTER_SPEC codifications are staged for Will greenlight). BOARD unchanged at 442.
+**2 dispatched / 2 killed / 0 formal verify-spawns** (2 WALTER-direct primary verifications: SEC 8-K fetch for EGBN + multi-primary web sweep for the Ukraine strike). No spec-version bumps. BOARD 442→444, all guards green.
 
 ## GAPS
 
@@ -50,7 +51,7 @@
 
 **Iran anchor:** 7/4-fresh (re-stamped AM). Next re-verify gates: post-funeral Doha outcome / Mojtaba succession-instability-or-public-reemergence / MOU collapse / kinetic change / 7d min (~7/11) / Iran-cluster pre-dispatch.
 
-**Live-watch (markets reopen Mon 7/6):** VIX 15.81 at the <16 RED-FT-06 line (sustain 1/5) · Brent <75 sustain (BRENT-owned) · HY 275 → next UP-fire RED-FT-02/REG-T-03 >320.
+**Live-watch (7/6 markets OPEN, live prints):** VIX 15.93 first trading-day <16 RED-FT-06 (sustain 1/5 intraday — watch the close + the 5-session count) · Brent $71.95 <75 sustain (BRENT-owned) · HY 275 → next UP-fire RED-FT-02/REG-T-03 >320 · WAL $82.62 / KRE $75.51 / OZK $49.40 green-away · USD/JPY 162.15 (SAM).
 
 ## OPEN DESIGN DECISIONS (need Will) — condensed
 
