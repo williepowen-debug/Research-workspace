@@ -26,7 +26,8 @@
 - Forced to absorb if indirect bid weak
 
 ### Fed
-- NOT buying. QT still active.
+- **No coupon backstop at the long end.** QT **ENDED Dec 1 2025** (FOMC Oct-29-2025 decision; NY Fed 251210a; PROME-verified). Post-QT, the Fed **IS buying — but T-BILLS** (Reserve Management Purchases + reinvesting MBS principal into bills), **NOT coupons.** So RMP purchases do **not** absorb 20Y/30Y supply: the coupon/long-end demand read is **unaffected by Fed buying** — absorption at a coupon reopen is entirely private/foreign/dealer, no Fed bid at the back end.
+- *(Corrected 2026-07-06 by BOND per PROME fix-packet + LIQUID KB-LIQ-070; supersedes the stale "QT still active." This whole doc is a copy of LIQUID's `AUCTION_FRAMEWORK.md`, which LIQUID re-based to the post-QT RMP framing 7/6.)*
 
 ## Stress Signals
 - BTC <2.0x = probable demand failure
