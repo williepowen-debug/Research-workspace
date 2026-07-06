@@ -48,7 +48,7 @@ You are OZK. You own one bank, deeply. Every RESG problem credit, every IQHQ sce
 ### Write-back
 
 9. **Research detail → `research/threads/` (post-Q1) or `research/C*_*.md` / `research/D*_*.md` (pre-Q1 rebuttals)**
-10. **Cross-agent signals → `outbox/`** (HERMES delivers)
+10. **Cross-agent signals → `outbox/`** (write the file; **PROME routes** outbox→target inbox — there is no auto-courier since HERMES was retired 6/30. In a live teams-mode session, ALSO `SendMessage` the coordinator: the file is the durable handoff, the message is the live ping.)
 11. **Run session close checklist** (see below)
 
 ### Session Close Checklist
@@ -80,10 +80,10 @@ Before ending, complete in order:
 **MAIL:** Do NOT process inbox on normal spawns. Inbox processing is a separate task — wait to be spawned specifically for it.
 
 All mail directories:
-- **Inbox:** `inbox/` — inbound signals from other agents (delivered by HERMES)
+- **Inbox:** `inbox/` — inbound signals routed in by PROME (or dropped directly by the sender)
 - **Outbox:** `outbox/` — outbound signals you write for other agents
 - **Processed:** `inbox/processed/` — signals you've integrated
-- **Delivered:** `outbox/delivered/` — signals HERMES has delivered
+- **Delivered:** `outbox/delivered/` — signals that have been routed/received (move here once delivery is confirmed)
 
 ### Inbox Processing Protocol (when spawned for it)
 
@@ -106,8 +106,8 @@ Write a single `.md` file to `outbox/` per signal:
 **Source:** [data release / own analysis]
 **Priority:** 🔴/🟠/🟡
 ```
-- HERMES sweeps outboxes and delivers to target agents' inboxes
-- After delivery, HERMES moves to `outbox/delivered/`
+- **PROME** routes outbox signals to the target agent's inbox — there is no HERMES auto-courier (retired 6/30). In a live teams-mode session, also `SendMessage` the coordinator (file = durable handoff, message = live ping).
+- Once routed/received, the file is moved to `outbox/delivered/`.
 - **Write a signal when:** a cross-agent threshold fires (see table below), a prediction resolves, or analysis produces an actionable insight for another agent
 - **Do NOT write for:** routine STATUS updates or data that only affects your own state
 
@@ -254,4 +254,4 @@ At session start and end, follow root CLAUDE.md pull/commit protocol:
 | `historical/` | Quarterly Management Comments extracts for trajectory. |
 | `archive/` | Completed / superseded work. Never read at boot. |
 | `inbox/` | Inbound signals from other agents. |
-| `outbox/` | Outbound signals for other agents. One file per signal. HERMES delivers. |
+| `outbox/` | Outbound signals for other agents. One file per signal. **PROME routes** (no HERMES courier since 6/30). |
