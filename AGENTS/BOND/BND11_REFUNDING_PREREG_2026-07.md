@@ -74,14 +74,20 @@ Japan is a **term-premium CORRELATION amplifier, NOT a mechanical UST-flow selle
 
 **Circularity discipline (per PROME's 7/6 x-domain synthesis):** SAM's JGB, my 30Y-5.00 level, and HENRY's thin-bid are **correlated expressions of ONE term-premium root — not independent votes.** A JGB tail is the *same theme showing up in a second venue*, not an independent confirmation of the US demand-hole. **Do not double-count it as a fresh vote on the US indirect-composition question.**
 
-### Prior-shift on BND-11 (base = 70% benign / 30% marker; P(acute verdict ③) ≈ 12%)
-| JGB 7/7 print | Read-through (term-premium leg only) | BND-11 benign prior 7/9 | P(verdict ③ / arm-#1 acute) |
-|---|---|---|---|
-| **FIRM** (~55%) | Super-long bid real, floor confirms, term-premium pressure eases, orderly-grind reinforced | 70% → **~74%** | 12% → **~9%** |
-| **SOFT** (~35%) | JGB breaks 4.0% cleanly, global long-end backs up → US 30Y *concession* into 7/9; silent on US indirect | 70% → **~64%** | 12% → **~15%** |
-| **WEAK / disorderly** (~10%) | Disorderly-break precursor — the one case where correlation can drag the US long end hard (SAM's tail); a disorderly global super-long tape raises odds of BOTH a US tail AND foreign step-back | 70% → **~52%** | 12% → **~22%** |
+### Prior-shift on BND-11 — RECONCILED to SAM's confirmed tilt calibration (7/6 ping)
+SAM confirmed the mechanism and supplied **signed, asymmetric tilts to P(soft US 30Y print)** (a tail is louder than a firm print), with the correlation quantified at **~0.3–0.5 daily Δyield in today's calm tape (VIX 16 / MOVE ~68), tightening only in stress** — which is why the weak/disorderly case carries the most signal. **Two axes — and the distinction IS the LIQUID reconciliation resurfacing:**
+- **P(soft US 30Y print)** = SAM's axis = P(verdict ② masked **or** ③ acute). Base ~33%.
+- **P(BND-11 benign = TRUE)** = P(verdict ① **or** ②). Base ~70%. **Moves LESS than SAM's P(soft) tilt** — the masked-② soft print (indirect<55% + directs/dealers backfilling, no tail) still scores BND-11 TRUE, so SAM's soft-tilt flows only *partly* into verdict-③ (FALSE) and partly into verdict-② (soft-but-TRUE).
 
-Probability-weighted over SAM's lean, the JGB pre-print moves my *unconditional* 70% only to ~68% — **the value is conditional, not a base-rate mover:** it tells me which way to lean the morning of 7/9 *once I see the print*, not a big shift now. Correct "leading indicator" framing.
+| JGB 7/7 print (SAM prior) | SAM tilt → P(soft US 30Y) (base ~33%) | P(acute ③ / arm-#1) (base ~12%) | P(BND-11 benign=TRUE) (base ~70%) |
+|---|---|---|---|
+| **FIRM** BTC≥2.9x/tail≤3bp (~55%) | −3 to −5pp → **~29%** (Japan-local floor; may not travel) | → **~9%** | → **~73%** |
+| **SOFT** 2.5–2.9x / tail 4–6bp (~35%) | +5 to +8pp → **~40%** (ultra-long bid thin even at 4%) | → **~15%** | → **~66%** |
+| **WEAK/disorderly** BTC<2.4x / tail>7bp (~10%) | +10 to +15pp **+ fat left tail** → **~46%** (global ultra-long indigestion; stress-corr tightens) | → **~22%** | → **~58%** |
+
+**Reconciliation note (7/6a→b):** my first cut had the WEAK row at benign ~52% — a touch hot vs SAM's central +10–15pp tilt. Trimmed to **~58%**, because SAM's P(soft) tilt lands only ~+12pp on P(BND-11 FALSE) (the remainder is the masked-② that scores TRUE). The **fat left tail keeps P(acute ③) at ~22%** — that's where the weak-JGB signal concentrates. FIRM/SOFT rows already sat in SAM's range (unchanged).
+
+Probability-weighted over SAM's ~55/35/10 lean, the *unconditional* benign prior barely moves (70%→~68%) — **the value is conditional, not a base-rate mover:** which way to lean the morning of 7/9, heaviest on a weak/disorderly JGB (the correlated-stress path), lightest on a firm one (Japan-local). **Any dominant US catalyst in the 7/7–9 interim overrides it** (SAM's caveat = my two-step gate below).
 
 ### Two-step confirmation gate (the operational core — don't over-react to the JGB alone)
 1. **JGB 7/7 = opening lean.** Sets the direction of the 7/9 prior shift per the table.
@@ -90,7 +96,7 @@ Probability-weighted over SAM's lean, the JGB pre-print moves my *unconditional*
 ### Effect on the TERRY duration fire-card (`inbox/2026-07-06_from-PROME_duration-firecard-prebuild.md`)
 Arm-condition **#1** = my BND-11 acute verdict ③ verbatim (indirect <52% AND (BTC<2.3 OR tail>2bp) AND dealer >18–20%). The JGB print shifts **P(arm-#1 fires 7/9)** per the table above — **but it CANNOT fire arm-#1 on its own:** the JGB touches only the (BTC/tail) price leg via correlation, and arm-#1's **binding constraint is the indirect-composition leg (<52%)**, which the JGB doesn't move. So a WEAK JGB raises P(arm-#1) to ~22% but the trigger still requires the US-specific composition + dealer legs (informed by US 3Y/10Y + TIC). **The JGB actually feeds arm-#2 (BND-12 / 10Y five closes ≥4.50) as much as arm-#1** — it is fundamentally a term-premium/duration-backup signal, which is the arm-#2 channel. Net for TERRY: a soft/weak JGB is a *pre-arm heads-up to watch #1 and #2 more closely 7/8–9*, **not** an independent arm input. Card stays PRE-BUILD, unarmed.
 
-*(SAM is refining its JGB read-through signal via SendMessage — this section is built off SAM's committed 7/6 pre-reg; if SAM's refined calibration shifts the firm/soft/weak split I'll reconcile the prior-shift table, but the mechanism — correlation-not-flow, price-leg-not-composition-leg — is invariant.)*
+*(SAM's refined read-through signal is now INTEGRATED (7/6 ping): it confirmed the mechanism, quantified the correlation (~0.3–0.5 calm / tightening in stress), and supplied the asymmetric signed tilts folded into the table above. Full map: `AGENTS/SAM/research/outputs/PACKET_C_ASIA_DEMAND_HOLE.md` §2a. SAM will ping the actual JGB print ~late 7/6 ET; I'll set the 7/9 opening lean off it, then apply the two-step gate.)*
 
 ---
 
