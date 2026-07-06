@@ -99,7 +99,8 @@
 ## Durable Signals Log → `workbook/KB.tsv` (KB-LIQ-001..067)
 
 Recent (full text in KB.tsv):
-- **067** — RRP buffer exhausted → QT drains reserves directly, now ACTIVE (WRESBAL −$82B to $2.9514T as-of 6/24, first sub-$3T; cushion ~$151B); Q2-end turn itself clean noise (KB-LIQ-051 second instance).
+- **070** — ⚠️ CORRECTION to 067 (7/6, NY Fed primary): **QT ENDED Dec 1 2025 → Fed now runs RMPs** (buying T-bills to keep reserves ample). "QT drains reserves" is stale; correct mechanism = RRP exhausted → reserves absorb TGA/settlement swings directly (no buffer), Fed a net ADDER via RMPs. Observation stands. The "Fed injects $XB / QT over" press = mechanical RMPs, NOT stress (SRF $0, SOFR−IORB −1bp). RMPs buy bills not coupons → M-10 long-end absorption read UNCHANGED. Route to fleet: reconcile STATUS "Warsh QT pace" framing.
+- **067** — RRP buffer exhausted (load-bearing, stands) → ~~QT drains reserves directly~~ [mechanism corrected by 070], now ACTIVE (WRESBAL −$82B to $2.9514T as-of 6/24, first sub-$3T; cushion ~$151B); Q2-end turn itself clean noise (KB-LIQ-051 second instance).
 - **066** — CCC-BB gap partly AI-composition artifact on both legs (tech HY paper BB-concentrated; CCC carries software AI-disruption risk); falsifier <400 unchanged; BB>220-w/-CCC-flat = AI-repricing discriminator; ORCL fallen-angel watch.
 - **065** — a "CLO AAA" trigger must specify segment (BSL vs MM/PC) + basis at registration; the two reprice independently (LIQ-03: tail fired through 160 while the benchmark never left the 120s). Grade at the letter, symmetrically.
 - **064** — accumulating bear legs don't earn a conviction tick when the same window brings offsetting bear-negative macro AND the headline move is beta-not-substance.
