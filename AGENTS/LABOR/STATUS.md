@@ -115,7 +115,8 @@
 
 | Window | Cohort / Test | Status |
 |---|---|---|
-| **Late July (claims w/e ~Jul 18 + Jul 25)** | WARN surge cohort (Spirit-led, filed mid-June; MSFT leg retracted 7/2) hits the r=0.78 ~6-wk lag window → **LAB-17** | THE dated near-term test |
+| **Late July (claims w/e ~Jul 18 + Jul 25)** | WARN surge cohort (Spirit-led, mid-June) + **big-tech RIF cluster** (LinkedIn 606 eff Jul 13, Meta ~4,665 eff Jul 22, Intuit 910 eff Jul 31) hit the r=0.78 lag window → **LAB-17** (mechanism strengthened 7/6, but tech cohort CA/WA-concentrated + severance-buffered) | THE dated near-term test |
+| **Big-tech WARN cluster (7/6 finding)** | 8 software/internet firms posted involuntary RIFs Apr–Jul (~7,725: Meta/Intuit/Oracle/LinkedIn/Snap/Cloudflare/ServiceNow/Salesforce) + MSFT ~5,700 announced; **chips QUIET** (Intel/Broadcom 0). Tech white-collar displacement in HARD filings → AI-capex↔labor node / LAB-11 | WAVE not idiosyncratic; `BIGTECH_WARN_CLUSTER_20260706.md` |
 | **~Wk of Jul 6** | MSFT round-2 announcement window (<2.5% ≈ ≤5.5-5.7K, sales/consulting/Xbox); first hard primary = WA ESD WARN. Temple board quantifies layoffs same week | DATED — watch |
 | ✅ Jul 6 | ISM Services June — Employment **47.4** (−0.5pp from 47.9, sub-50); headline 54.0 exp | **GRADED — CONFIRMS freeze** (survey-layer low-hire; 47-48 hold band, NOT <47 escalation) |
 | Jul 9 | Claims w/e Jul 4 — ⚠️ holiday-week SA distortion, don't over-read | PENDING |
@@ -142,7 +143,7 @@
 | LAB-11 | AI narrative shield breaks | 55% | Q3-Q4 | AI #1 reason 4th mo (persistence ✓); 2nd post-layoff earnings cycle = the test. |
 | LAB-12 | U-3 ≥5.0% Q3-Q4 | **30%** (was 55) | Q3-Q4 | **Supply-shrink regime suppresses U-3** (LF −720K → U-3 fell despite +57K). Needs an actual firing wave (claims break) to fire now; NFIB anchor intact but the gauge itself is compromised (L-06). |
 | LAB-13 | Healthcare net-negative by July NFP | **15%** (was 30) | July (Aug 7 print) | June +21.5K, hospitals +9K — slowing (vs +38K avg) but well above zero. |
-| LAB-17 🆕 | **WARN-cohort claims test:** 4-wk MA ≥235K on any print by Aug 6 | **30%** | Aug 6 | Mechanism: mid-June WARN surge (**Spirit-led**; MSFT leg retracted 7/2 PM — no 2026 MSFT WARNs) → ~6-wk lag (r=0.78) → late-Jul claims. Falsifiable test of the WARN framework on a plateaued pipeline; benign claims + plateau + the Fortrex-style conversion haircut argue against, hence 30%. Level-driven trigger, pre-registered Jul 2. |
+| LAB-17 | **WARN-cohort claims test:** 4-wk MA ≥235K on any print by Aug 6 | **35%** (was 30) | Aug 6 | Mechanism STRENGTHENED 7/6: beyond the mid-June Spirit-led cohort, a **big-tech RIF cluster** now posts dated involuntary cohorts into the window — **LinkedIn 606 eff Jul 13, Meta ~4,665 eff Jul 22 (→ claims w/e Jul 25), Intuit 910 eff Jul 31** (`BIGTECH_WARN_CLUSTER_20260706.md`). BUT CA/WA-concentrated + severance-buffered = small vs 215K national base, so national 4-wk MA→235K still unlikely (threshold nudged only 30→35). Level-driven, pre-reg Jul 2. |
 | LAB-04 | FL foreclosures +75%+ YoY | 75% | (CARL) | Reclassified→CARL Jun 16, awaiting pickup. LABOR-side accelerant even weaker: FL claims quiet, not in top-10 IUR. |
 
 **Resolved this session:**
@@ -174,7 +175,7 @@
 | ✅ Jul 1 | ADP +98K; ISM Mfg 53.3 / emp 49.7; Challenger June 45,849 (printed 7/1, docket was right; AI #1 4th mo) | Bull-tilt gates 1-2: hiring weak, firing cooling |
 | ✅ Jul 2 | **NFP June +57K / U-3 4.2% (artifact) / net −74K rev; claims 215K** | LAB-02 ❌; Kill A RESET; bull-tilt WATCH → DEAD (2nd confirmation refused); freeze-deepening grade issued |
 | ✅ Jul 6 (Mon) | **ISM Services June: headline 54.0 (exp), Employment 47.4 (−0.5pp, sub-50)** | **CONFIRMS freeze** — emp in 47-48 "hold/deepen" band (not <47 escalation); demand fine, low-hire corroborated (supply-constrained flavor) |
-| Jul 9 | Claims w/e Jul 4 | ⚠️ holiday-week SA distortion — pre-commit: don't re-grade on this print alone |
+| **Jul 9** | Claims w/e Jul 4 — **PRE-REG (7/6):** base 215K / 4-wk MA 222K / below yr-ago 231K. Bands: **<230K = drift** (freeze holds; MOST LIKELY) · 230-250K = accelerating (discount on holiday wk) · >250K single = ARM T-01 provisional · >300K = T-02 FIRE. Watch NSA/shadow-adj divergence (does the gap vs the benign SA headline widen?). | ⚠️ **July-4-week SA distortion — PRE-COMMIT: no freeze re-grade on this print alone** (real test = LAB-17 Jul 18/25). Benign rise possible: late-June effectives cluster + Apr-May backlog going effective Jun-Aug. |
 | Jul 14 | June CPI (HENRY-owned) | Stagflation-mix check vs AHE 3.5% |
 | **~Jul 23 / Jul 30** | Claims w/e Jul 18 / Jul 25 | **LAB-17 window: WARN surge cohort lag test** |
 | ~Aug 3 | ISM Mfg July (modeled) | LAB-06 at-risk check (49.7 → >50 breaks it) |
