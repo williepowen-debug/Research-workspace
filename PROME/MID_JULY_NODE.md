@@ -2,7 +2,7 @@
 
 > **This is a VIEW, not canon.** Canonical dated rows = `PROME/DOCKET.tsv` (wins on any drift). This file is the at-a-glance node structure + live resolution log.
 > **⏳ RETIRE ~2026-08-01** — once the 7/28–29 knot resolves, fold outcomes into `memory/` + archive this file. Do not let it outlive the node.
-> **Owner:** PROME · **Synced from DOCKET:** 2026-07-05 · **Discoverable via:** SCRATCH entry-point 0.
+> **Owner:** PROME · **Synced from DOCKET:** 2026-07-06 · **Discoverable via:** SCRATCH entry-point 0.
 
 ## The story (one-liner)
 **Two independent stress axes test in one ~2-week window, hinged on June CPI (7/14).** A *credit-recognition* axis (correlated — one Q2 credit cycle, three at-bats), a *rates/Asia demand-hole* overlay, and a *vol amplifier* sitting on the hinge. **Base rate = passes benign (like the X1 gate did).** It only earns real bandwidth if the hinge breaks.
@@ -40,7 +40,28 @@
 - **BASE / pass:** CPI shows the energy washout → duration catches a bid, banks fine, marks maskable on shrinking bases → node passes like X1; credit-bear stays armed-but-unfired.
 
 ## Convergence discipline (the X1 lesson)
-The credit-recognition prints (banks 7/14 → OZK/ALLY/SYF/COF 7/21 → BDC/ARCC/First Brands 7/28) are **ONE correlated axis with three at-bats — NOT independent bear votes.** Genuinely independent overlays: FL labor · China/Korea (TIC/BoK/LPR) · JGB · FOMC · the gamma amplifier. Both axes firing = real two-root convergence; one axis = size down.
+The credit-recognition prints (banks 7/14 → OZK/ALLY/SYF/COF 7/21 → BDC/ARCC/First Brands 7/28) are **ONE correlated axis with three at-bats — NOT independent bear votes.** Genuinely independent overlays: FL labor · China/Korea (TIC/BoK/LPR) · JGB · FOMC · the gamma amplifier. Both axes firing = real two-root convergence; one axis = size down. **★ 7/6 refinement (adversarially graded):** China/Korea/JGB/US-long-end are largely **ONE term-premium "demand-hole" overlay**, NOT 3–4 separate votes (BOND 30Y level / SAM JGB / HENRY thin-bid = correlated expressions of one term-premium root; energy is orthogonal) — the rates overlay counts as **one** independent axis vs credit, not several. See the 7/6 synthesis section below.
+
+## 2026-07-06 — Cross-domain synthesis: the rates / long-end demand-hole (adversarially graded)
+*Source: PROME teams-mode (SAM/BOND/BRENT/HENRY) + a 4-check adversarial verify workflow, 7/6. Verdict on the "demand-hole convergence": **MIXED-leaning-refuted** — a pre-armed WATCH, not a building multi-axis thread. All live figures verified (30Y 5.00 / SPX 7,534 record / USD-JPY 162.3 / 10Y 4.48).*
+
+**Convergence audit (X1 applied) — 3 genuinely independent axes live, only ONE near a trigger:**
+- **Axis A — US long-end supply/demand = ONE root, not several.** BOND's 30Y level, SAM's JGB, HENRY's thin-duration-bid are *correlated expressions of one global term-premium repricing* (SAM's own words: Japan is a "correlation amplifier, NOT a UST-flow seller," net UST buyer). Do NOT count them as independent bear votes. Independent-signal count ≈ 1. The only genuinely orthogonal fact inside it: **Fed RMPs buy bills not coupons** = a real marginal-long-end-bid removal (post-QT).
+- **Axis B — AI-capex / FCF-cliff (HEN-36 ~55%)** — equity-de-rate leg UN-ARMED (market still rewards capex; first tell GOOGL 7/22).
+- **Axis C — energy convex up-tail (BRENT ~0.70 decoupling)** — orthogonal to rates, no trigger. Padding it into the rates convergence = the clearest X1 violation.
+
+**Nothing fired** (confirmed) — but joint proximity understates "unchanged": 30Y first-ever 5.00 touch + USD/JPY back in the MOF band + 10Y 2bp from its fuse. **Closest to firing = the 10Y 4.50 fuse** (a soft 7/9 30Y gapping 10Y through 4.50 → into CPI 7/14). 30Y 5.00 = a poke (BND-12 needs 5 consecutive closes); USD/JPY 0.1pp shy of the disorderly floor (MOF fires on speed not level).
+
+**Under-weighted risk (carry it):** the "+GEX equity cushion" is the WRONG risk model for this path — +GEX dampens a *level* move but NOT a *correlation/duration shock*, and the live 7/9→CPI transmission IS a duration shock → the 7/9 downside is asymmetric with near-zero buffer.
+
+**Discriminator ranking by information-value (rates/demand-hole):**
+1. **CPI 7/14 (Tue) = THE HINGE** — the only event that can independently flip the benign prior + gate the equity channel (hot core MoM ≥+0.3% → SPX gap >~1% under the ~7,437–7,471 gamma flip → VIOLET Gate B). *(Corrects the read that crowned the 40Y/TIC un-mask.)*
+2. **30Y UST reopen 7/9 (Thu)** — earliest LIVE forward demand read; BND-11 = indirect %-of-competitive vs June 60%; ACUTE = indirect <52% AND (BTC<2.3 OR tail>2bp) AND dealer>18–20%.
+3. **May TIC 7/16 (Thu)** — the FLOW/composition test (PACKET C): China AND Japan UST actually down = converts Japan from amplifier to subtractor. Backward-looking (~2mo stale), non-cataclytic.
+4. **40Y JGB 7/22 (Wed)** — removes the Japan ~4% Meiji-Yasuda floor; completes SAM's un-mask but LATEST/confirmatory/indirect. **★ Calendar fix: TIC 7/16 + 40Y 7/22 are SUCCESSIVE weeks (wk29 vs wk30, 6 days apart), NOT "same week"** (corrects SAM's packet-C framing).
+5. **JGB 30Y 7/7 (Tue)** — low standalone US info, but a **LEADING same-week read-through to BOND's 7/9 UST reopen** (a tailing JGB 30Y = correlation pre-arm for a soft US 30Y). ★ **This 7/7→7/9 link was previously unowned** (SAM stops at 7/7, BOND starts at 7/9) — now flagged for SAM+BOND.
+
+**Action:** HOLD FLAT (the thread doesn't clear the bar — one root, level-only, market ignoring it: SPX record, skew easing, credit inert). **TERRY pre-build (NOT arm)** a deploy-on-trigger duration/TLT-put fire-card for the 7/9→7/16 window, armed ONLY on a flow/velocity discriminator (BND-11 acute / 10Y 5 closes ≥4.50 / soft TIC) — routed to TERRY inbox 7/6 (`c11cafd8`).
 
 ## Resolved / pointers
 - ✅ **Bank-kickoff date CONFIRMED 7/14** — JPM/WFC/C all report the CPI morning (MTB 7/15) [CONF SEC 8-K/StockTitan, via OTTO; the 7/5 sweep resolved the 14-vs-15 flag]. The compound-vol coincidence holds.
