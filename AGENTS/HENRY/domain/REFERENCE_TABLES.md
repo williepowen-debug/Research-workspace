@@ -31,6 +31,29 @@ Risk parity deleverages     → T+5 to T+30
 | +50-100 bps | -5% to -10% | 0-1 session |
 | +100+ bps | -10%+ | Same day |
 
+## GAMMA-CUSHION VALIDITY RULE (GCVR)
+*Codified 7/6 from the mid-July-node adversarial pass. The discriminator for when "+GEX cushions equity" is TRUE vs falsely reassuring. Reusable — classify the shock BEFORE citing a gamma cushion.*
+
+> **Core rule:** Positive dealer gamma (+GEX, SPX above the flip) dampens moves that travel **ALONG the SPX price axis**. It gives **zero offset to shocks that originate OFF that axis** — rates/duration, cross-asset correlation, credit. Mis-applying "equity is cushioned" to an off-axis shock is falsely reassuring. **And a fast off-axis gap that clears the flip converts +GEX → −GEX — the cushion doesn't just vanish, it inverts to an amplifier.**
+
+**Why +GEX only cushions the SPX axis:** long-gamma dealers hedge by buying SPX dips / selling rips → mechanically dampens *intraday SPX oscillation*. That provides NO offset to (a) multiple compression from a higher discount rate (real yields/term premium up — the shock enters via the denominator, not the index price); (b) a cross-asset correlation spike (stocks AND bonds down together → risk-parity/vol-target forced de-lever = **cascade step 5** — a selling FLOW dealer gamma can't see); (c) credit-led selling (HY OAS gaps; credit leads equity 2–3 sess — gamma bounds velocity, not the trend).
+
+| Shock class | Originates on | +GEX cushion | Leading vol tell | Correct read |
+|-------------|--------------|--------------|------------------|--------------|
+| Equity-index level drift / mean-reverting dip | SPX price axis (positioning, equity news) | **VALID** — genuinely cushioned | VIX-led | "cushioned" is fair |
+| Rate / duration shock (30Y tail → 10Y gaps; real-yield/term-prem up) | rates | **INVALID — can invert** | **MOVE-led** | NOT cushioned; watch −GEX flip |
+| Cross-asset correlation spike / risk-parity de-lever | cross-asset | **INVALID** | correlation + MOVE | forced-selling flow, gamma blind |
+| Credit-led (HY OAS gaps) | credit | **INVALID / partial** | HY OAS + MOVE | gamma bounds velocity, not trend |
+
+**Three fast tells — which regime am I in?**
+1. **Where's the vol?** MOVE (rate vol) rising with VIX flat = off-axis shock → cushion INVALID (cf. LEADING INDICATOR SEQUENCE: MOVE leads VIX by 2–5 days). VIX-led = on-axis, cushion holds.
+2. **Stock-bond correlation sign.** Stocks AND bonds DOWN together = correlation spike → cushion INVALID. Stocks down / bonds bid (flight-to-quality) = on-axis.
+3. **KRE direction** (the existing margin-vs-credit test): KRE down *with* equity = credit story → cushion INVALID.
+
+**Worst case:** an off-axis shock LARGE enough to gap SPX under the flip = no cushion + then −GEX amplification.
+
+**Worked application (7/6 node):** the 7/9-30Y-reopen → CPI-7/14 path is an **off-axis rate/duration shock** (a soft 30Y gaps 10Y through 4.50 with no dovish-growth offset). So "equity cushioned now (+~1% over the flip, +GEX dampening)" is VALID *only* vs an equity-level move — it is **falsely reassuring for the live risk path**. A hot-CPI rate-led gap >~1% both (a) is the shock class +GEX doesn't cushion AND (b) flips SPX under the flip into −GEX amplification. Read "equity cushioned" as "cushioned against a garden-variety level dip, NOT against the rate-led gap that is the actual node risk."
+
 ## TRANSMISSION PATHS
 
 - **LABOR → HENRY:** Claims >300K = fundamental trigger → gamma test of Put Wall
