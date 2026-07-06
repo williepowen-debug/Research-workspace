@@ -44,6 +44,7 @@ The credit-recognition prints (banks 7/14 → OZK/ALLY/SYF/COF 7/21 → BDC/ARCC
 
 ## Resolved / pointers
 - ✅ **Bank-kickoff date CONFIRMED 7/14** — JPM/WFC/C all report the CPI morning (MTB 7/15) [CONF SEC 8-K/StockTitan, via OTTO; the 7/5 sweep resolved the 14-vs-15 flag]. The compound-vol coincidence holds.
+- **7/6 pre-node reads (teams-mode LABOR+LIQUID):** AI-credit canary **NOT-FIRED / reversed** (LIQUID — complex re-risking; now monitored KB-LIQ-069) → reinforces the **BASE/pass** scenario (credit-bear stays armed-but-unfired going into the node). **ISM Services freeze-deepening confirmed** (Emp 47.4, at the escalation line) = the labor backdrop into CPI 7/14 — a hot CPI on a deepening freeze is exactly the stagflation-squeeze read. **MSFT/Xbox ~5,700 AI-labor cut** = packet-D-relevant (Big Tech pruning non-AI headcount; LABOR big-tech WARN cluster sweep out to test wave-vs-isolated). **LIQUID refunding-absorption pre-reg** feeds KNOT-2's demand-hole (30Y 7/9 → TIC 7/16; the hole shows as composition, not cover).
 - **Surface map:** this .md = focused node companion · **artifact = the comprehensive ~55-catalyst visual** (3-axis situation board, built 7/5) · `DOCKET.tsv` = canonical dated rows · each agent's `docket/CATALYSTS.tsv` = domain detail.
 
 ## Tasking — pre-load packets (routed 7/5, Will-approved)
