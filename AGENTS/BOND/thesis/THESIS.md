@@ -1,8 +1,8 @@
-# BOND THESIS — v1.1
+# BOND THESIS — v1.1.1
 
-**Version:** 1.1 (2026-07-01 — long-end re-engagement watch + JGB-FX channel + mandate extension; see CHANGELOG)
-**Last Updated:** 2026-07-01 by BOND
-**Status:** 🟡 WATCH, **escalating** — **"expensive, not broken"** still holds (6 straight benign auction tests through the 6/23–25 cluster), but the long end is **re-engaging**: 30Y closed 4.97 on 7/1 (+11bp in two days, 3bp below threshold) in a *globally-synchronized* hawkish repricing — domestic data/Fed-path + a JGB super-long rout — into a July supply gauntlet (7/7–9 refunding, 20Y 7/22) with dealer long-end inventory at a **fresh all-time record** (FR2004 6/17). Auctions still clear at price but the *composition* is rotating: foreign/custodial (indirect) bids faded hard at the June belly cluster, absorbed 1:1 by domestic directs. Macro credit calm (issuance boom); CCC tail bifurcating.
+**Version:** 1.1.1 (2026-07-06 — QT-framing reconciliation + reconciled BND-11 grade / JGB leading-indicator methodology; see CHANGELOG. Prior v1.1 2026-07-01.)
+**Last Updated:** 2026-07-06 by BOND
+**Status:** 🟡 WATCH, **escalating** — **"expensive, not broken"** still holds (6 straight benign auction tests through the 6/23–25 cluster), but the long end is **re-engaging**: 30Y **at the 5.00 threshold line** (intraday 7/6; a *poke* — BND-12 needs 5 sustained closes; live values → STATUS) in a *globally-synchronized* hawkish repricing — domestic data/Fed-path + a JGB super-long rout — into a July supply gauntlet (7/7–9 refunding, 20Y 7/22). Dealer long-end inventory is at a **fresh all-time record** (FR2004 6/17) and — post-QT (ended Dec-1-2025) — **there is no Fed coupon backstop** (RMPs buy T-bills, not coupons), so 7/9 30Y absorption is entirely private/foreign/dealer. Auctions still clear at price but the *composition* is rotating: foreign/custodial (indirect) bids faded hard at the June belly cluster, absorbed 1:1 by domestic directs. Macro credit calm (issuance boom); CCC tail bifurcating.
 **Conviction:** Duration-short (TLT puts) **HOLD, no add** — the add-gates are pre-registered and none has fired; but the tape has rotated from "wrong tape" (bear-flattener) toward the thesis tape (global steepening tilt). Short-credit **NOT supported** (primary market in boom). Composite 12/35 (live scores owned by STATUS convergence matrix).
 
 ---
@@ -47,6 +47,10 @@ BOND owns the **market-structure transmission layer** — how the bond market's 
 
 **Read:** the character of phase III differs from May's: (1) it is **imported as much as domestic** — Japan's super-long vacuum (weakest 20Y JGB auction since May-2025; rinban step-down effective 7/1; yen at a 40-year low with intervention risk) is co-firing with US hawkish-data repricing; (2) the **demand microstructure is softer** — June-cluster indirects <60% at 2Y/7Y (rotation to directs, not dealer-stuffing — so far), dealer long-end stock at a fresh record ($74.6B 11–21Y), the dealer-absorption →4 trigger ARMED; (3) the real-rate leg is NOT the driver this time (DFII10 peaked 2.29 on 6/23 and retraced to 2.20; the move is policy-repricing + global term premium). The genuine *break* still needs what it always needed: a weak coupon auction (7/9 30Y is the test — BND-11) or a sustained threshold hold paired with funding stress (SOFR-IORB clean through quarter-end: SRF $0). Warsh's active-MBS-sales supply leg was explicitly deferred to a 2027 lane at Sintra ("years, not months") — removed as a near-term amplifier.
 
+**Regime clarification (7/6): no Fed backstop at the coupon/long end.** QT **ended Dec-1-2025** (FOMC Oct-29-2025 decision; NY Fed 251210a). Post-QT the Fed **is** buying — but **T-bills** via Reserve Management Purchases (+ reinvesting MBS principal into bills), **not coupons.** So Fed purchases do **not** absorb 20Y/30Y supply — the coupon/long-end demand read is **unaffected by Fed buying**, and the 7/9 30Y reopen is absorbed entirely by private/foreign/dealer bids. This *sharpens* the demand-hole thesis: the one buyer who could paper over a weak long-end auction is structurally absent. *(Corrected across BOND surfaces 7/6 per PROME fix-packet + LIQUID KB-LIQ-070; KB-BND-069.)*
+
+**BND-11 grade methodology (7/6, reconciled across three overlays — full spec `BND11_REFUNDING_PREREG_2026-07.md`, KB-BND-070):** (1) **LIQUID (absorption):** BOND + LIQUID grade the 7/9 30Y to **ONE figure — 30Y indirect as %-of-competitive-accepted vs the June-6/11 60.0% benchmark**; a *mechanically-clean* print (no tail, firm BTC) with indirect <55% + directs/dealers backfilling is the **masked demand-hole** (scores BND-11 TRUE but escalates the thesis). (2) **SAM (JGB leading indicator):** the JGB 30Y auction 7/7 (~2 days ahead) is a **term-premium *correlation* pre-arm, not a flow-seller** — it moves the US 30Y term-premium/tail leg, is near-silent on the indirect-composition leg (different buyer base), so it shifts the 7/9 prior only conditionally (weak JGB → benign ~58%) and **cannot fire an acute marker alone**; gated on US-10Y-7/8 confirmation. (3) **Circularity discipline:** JGB / 30Y-level / thin-bid are **one term-premium root, not independent votes** — don't double-count.
+
 ---
 
 ## EXIT / FALSIFICATION
@@ -57,7 +61,7 @@ BOND owns the **market-structure transmission layer** — how the bond market's 
 
 **2. Position-specific:**
 - **TLT puts:** kill if 10Y <4.15 AND 30Y <5.0 for 3 sessions AND a clean refunding. Re-arm conditional-add only on a fresh real tail (>1.5bp) + weak indirect (<60%) at a coupon auction.
-- **HYG $75P Jun:** salvage/expiry; reopen only on HY OAS reclaiming 300 with velocity.
+- **HYG puts:** June leg expired; stay closed — reopen only on HY OAS reclaiming 300 with velocity.
 
 **3. Convergence downgrade (trim/de-escalate):**
 - Long-end vector → 2 when 10Y <4.5 AND 30Y <5.0 (✅ met 6/15).
@@ -92,7 +96,7 @@ BOND owns the **market-structure transmission layer** — how the bond market's 
 | Position | Posture | Why |
 |---|---|---|
 | **TLT puts** | **HOLD, no add** | June conditional-add gates lapsed **unfired** — auctions cleared, yields eased; adding here chases a relaxing move. TLT puts remain the cleaner vehicle than equity puts if the long end re-engages [[feedback_put_vs_duration_expression]]. |
-| **HYG $75P Jun** | Salvage / near-expiry | Zero credit transmission (HY 271, HYG firm). Let decay; reopen only on HY OAS >300 w/ velocity. |
+| **HYG puts** | Closed (June leg expired) | Zero credit transmission (HY 275, HYG firm — live → STATUS). Reopen the thesis only on HY OAS >300 w/ velocity. |
 | **Credit-equity lead** | Inactive watch | Reactivate on HY OAS +75–100bp from trough while VIX <20. |
 
 ---

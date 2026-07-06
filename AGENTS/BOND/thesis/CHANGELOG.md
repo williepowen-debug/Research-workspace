@@ -4,6 +4,18 @@ Version history for `thesis/THESIS.md`. Newest first. Bump rules: **major (X.0)*
 
 ---
 
+## v1.1.1 — 2026-07-06 (QT-framing reconciliation + reconciled BND-11 grade methodology)
+
+**Triggers:** PROME QT-framing fix-packet (Will-authorized); teams-session reconciliation of the 7/9 refunding grade with LIQUID (absorption) and SAM (JGB leading indicator).
+
+**Refinements (no conviction change — TLT puts HOLD/no-add unchanged; composite 12/35 unchanged):**
+1. **QT-framing corrected fleet-wide-consistent.** QT **ended Dec-1-2025** (FOMC Oct-29-2025); post-QT the Fed buys **T-bills via RMPs, not coupons** → **no Fed backstop at the coupon/long end.** Fixed the stale "QT still active" line in `domain/sources/AUCTION_FRAMEWORK_from_LIQUID.md` and reconciled the framing across STATUS (Fed b/s row + MBS "passive runoff" → paydowns-reinvested-into-bills), THESIS (ACTIVE EPISODE regime clarification), VX-17. This **sharpens** the demand-hole thesis — the one buyer who could paper over a weak long-end auction is structurally absent. KB-BND-069.
+2. **BND-11 grade reconciled to ONE figure with LIQUID + folded in SAM's JGB leading indicator.** New spec `BND11_REFUNDING_PREREG_2026-07.md`. ONE metric = 30Y indirect (%-of-competitive-accepted) vs June-6/11 60.0%; the "masked hole" (clean-but-composition-soft) scores BND-11 TRUE yet escalates. JGB 30Y 7/7 = a term-premium *correlation* pre-arm (not flow) → moves the term-premium/tail leg, not the indirect-composition leg → conditional prior shift (firm ~73 / soft ~66 / weak ~58% benign), can't fire an acute marker alone, gated on US-10Y-7/8 confirmation. Circularity discipline: JGB / 30Y-level / thin-bid = one term-premium root, not independent votes. KB-BND-070.
+3. **Live refresh (7/6):** 30Y at the 5.00 threshold line intraday (a poke; BND-12 needs 5 closes); DFII10 2.25 (ticking toward the 2.5 re-arm); 10Y 4.48; credit inert (HY 275 / IG 75 / CCC 971). Stale-fix: HYG June put expired → HYG puts closed; THESIS Status line de-dated to point at STATUS.
+4. **Carried to next session:** FR2004 as-of-6/24 print (released 7/2) not retrievable this session (NY Fed API caps pre-2026 in-env) — registered as a next-session pull; dealer-absorption →4 trigger stays ARMED, half-met.
+
+---
+
 ## v1.1 — 2026-07-01 (long-end re-engagement + JGB-FX channel + mandate extension)
 
 **Triggers:** 11-day gap sweep (6/20→7/1); three predictions resolved (BND-02 FAILED, BND-04 FALSE, BND-10 VOID); a new transmission channel; a Will-approved coverage extension.

@@ -60,7 +60,7 @@ Japan's super-long demand vacuum is real and worsening (6/25 20Y JGB BTC 2.97x =
 
 ## New Coverage Baseline (7/1) — MBS/FHLB + EU rates
 
-- **MBS/housing (VX-17, score 1):** primary spread ~200–205bp (at/below median — but *policy-compressed* by the Jan-26 GSE $200B purchase directive); CC spread ~100–110bp [EST]; Fed MBS $1.96T passive runoff. Catalyst-monitored: Warsh active-sales (deferred to 2027 lane), GSE-release execution.
+- **MBS/housing (VX-17, score 1):** primary spread ~200–205bp (at/below median — but *policy-compressed* by the Jan-26 GSE $200B purchase directive); CC spread ~100–110bp [EST]; Fed MBS $1.96T — **post-QT, principal paydowns are reinvested into T-bills** (balance sheet no longer shrinking; QT ended Dec-1-2025), not into coupons. Catalyst-monitored: Warsh active-sales (deferred to 2027 lane), GSE-release execution.
 - **FHLB advances (VX-18, score 1):** $734B (3/31/26), +8.4% Q/Q (driver unattributed — read Q1 CFR narrative), ~30% below the 2023 SVB peak. Coordinate with REGINALD.
 - **EU rates (VX-19, score 2):** **ECB is HIKING** — depo 2.25% (6/11, first since 2023, war-inflation), ≥1 more priced, full QT; bund 2.94%, 2s10s +42bp; **OAT-Bund 77bp** (+10 in June; France trades on top of Italy at 73bp). Next GovC 7/23-or-24 (**verify date**). Converge xccy-basis number with LIQUID (proxy build needed).
 
