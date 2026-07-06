@@ -162,7 +162,7 @@
   <p class="lede">Roughly fifty dated catalysts land in one four-week window. This is the shape of it — what fires, when, and the single condition that decides whether any of it matters.</p>
   <div class="meta">
     <span><b>Window</b> 6 Jul – 8 Aug 2026</span>
-    <span><b>As of</b> Sun 5 Jul, markets closed</span>
+    <span><b>As of</b> Mon 6 Jul — 7/6 prints resolved</span>
     <span><b>View, not canon</b> — canonical dates live in each agent's ledger + PROME/DOCKET.tsv</span>
   </div>
 
@@ -188,7 +188,7 @@
     </div>
   </div>
 
-  <p class="disc"><b>Convergence discipline —</b> the credit-recognition prints (banks 14th → OZK/ALLY/SYF/COF 21st → BDC/ARCC/First-Brands 28th) are <b>one correlated axis with three at-bats, not a dozen independent votes.</b> The genuinely independent overlays: the labor freeze, the China/Korea demand-hole, the JGB/BOJ supply gauntlet, and the AI-capex correction. Both a rates break <em>and</em> a credit break = real two-root convergence. One alone = size down.</p>
+  <p class="disc"><b>Convergence discipline —</b> the credit-recognition prints (banks 14th → OZK/ALLY/SYF/COF 21st → BDC/ARCC/First-Brands 28th) are <b>one correlated axis with three at-bats, not a dozen independent votes.</b> And the overlays are fewer than they look: <b>the rates/long-end demand-hole is ONE term-premium root</b> — China/Korea flows, the JGB gauntlet, and the US-30Y are correlated expressions, not separate votes (7/6 x-domain synthesis graded the "4-way convergence" a pre-armed watch, not a thread). So the genuinely independent axes are just four: the <b>rates demand-hole</b>, the <b>credit-recognition</b> cluster, the <b>labor freeze</b>, and the <b>AI-capex correction</b>. Both a rates break <em>and</em> a credit break = real two-root convergence; one alone = size down. <em>(7/6: the AI-credit canary NOT-FIRED — it reversed — so the credit axis has de-escalated at the front.)</em></p>
 
   <div class="controls" id="filters" role="group" aria-label="Filter by transmission axis">
     <span class="lbl">Trace an axis</span>
@@ -211,7 +211,7 @@
   <footer>
     <b>Severity</b> <span style="color:var(--sev-crit)">▮</span> critical &nbsp; <span style="color:var(--sev-high)">▮</span> high &nbsp; <span style="color:var(--sev-med)">▮</span> medium &nbsp; <span style="color:var(--sev-low)">▮</span> low — mirrors each agent's own 🔴🟠🟡🟢.
     &nbsp;·&nbsp; <b>★</b> = a knot-defining print. &nbsp;·&nbsp; <b>FL</b>/<b>ASIA</b> = cross-cutting tags on Will's priority geographies.<br>
-    Built 5 Jul 2026 from a fleet-wide sweep of agent catalyst + prediction ledgers. Dates carry each owner's confidence; several marked ~est — verify closer in. Retire after the 28–31 Jul knot resolves.
+    Built 5 Jul 2026 from a fleet-wide sweep of agent catalyst + prediction ledgers; refreshed 6 Jul (7/6 prints resolved · demand-hole = one-root correction · the JGB→10Y→30Y rates sequence). Dates carry each owner's confidence; several marked ~est — verify closer in. Retire after the 28–31 Jul knot resolves.
   </footer>
 </div>
 
@@ -235,11 +235,11 @@
   ];
   var E=[
     // RUN-UP
-    {p:'runup',d:'Mon 6',ax:'labor',sv:'high',t:'ISM Services PMI (June)',o:'LABOR',w:'Services employment leg — <b>&lt;47</b> = realization catching up to the announcement wave; 10:00 ET.'},
-    {p:'runup',d:'Mon 6',ax:'labor',sv:'med',t:'MSFT round-2 layoffs window',o:'LABOR',w:'First hard WARN filing — announced <b>&gt;8K</b> = bigger than the reported ~5.5K ceiling.'},
+    {p:'runup',d:'Mon 6',ax:'labor',sv:'low',t:'ISM Services PMI (June)',o:'LABOR',w:'✅ RESOLVED — Employment <b>47.4</b> (4th month sub-50, right AT the &lt;47 line): freeze deepening confirmed, not yet realization. Demand fine (54.0).'},
+    {p:'runup',d:'Mon 6',ax:'labor',sv:'low',t:'MSFT round-2 → big-tech WARN wave',o:'LABOR',w:'✅ ~5,700 announced (hit the ~5.5K ceiling; 0 WARN filed yet) — but a <b>WAVE</b> underneath: 8 software firms, ~7,725 US since April. LAB-11 → survey-to-hard-data.'},
     {p:'runup',d:'Mon 6',ax:'rates',sv:'high',t:'CFTC COT (Jun-30 data)',o:'SAM · HENRY',w:'Net JPY short vs −146K — a <b>build &gt;−153K</b> reclaims the carry-convexity tail.',x:['ASIA']},
-    {p:'runup',d:'Tue 7',ax:'rates',sv:'high',t:'JGB 30Y auction',o:'SAM · BOND',w:'Is the Meiji-Yasuda ~4% super-long bid <b>real flow</b> or just an announcement? BTC/tail vs Jun-10.',x:['ASIA']},
-    {p:'runup',d:'7–9',ax:'rates',sv:'crit',t:'UST mini-refunding (3Y / 10Y-r / 30Y-r)',o:'BOND · LIQUID',w:'<b>The live gate.</b> 30Y reopen 7/9 into a ~4.97 tape + record dealer inventory — any stress marker fires BND-11, re-arms the TLT add.'},
+    {p:'runup',d:'Tue 7',ax:'rates',sv:'high',star:true,t:'JGB 30Y auction — leads the US 30Y read',o:'SAM · BOND',w:'Is the Meiji-Yasuda ~4% super-long bid <b>real flow</b> or announcement? BTC/tail vs Jun-10. <b>Now the leading read-through into the US 30Y 7/9</b> — a tail = correlation pre-arm (moves the term-premium leg, NOT the foreign-composition leg). Result ~late 6 Jul ET.',x:['ASIA']},
+    {p:'runup',d:'7–9',ax:'rates',sv:'crit',star:true,t:'UST mini-refunding — 3Y · 10Y-r 7/8 · 30Y-r 7/9',o:'BOND · LIQUID',w:'<b>The live gate.</b> 30Y reopen 7/9 into a <b>~5.00</b> tape (poked intraday 7/6) + record dealer inventory, and <b>no Fed coupon backstop</b> (post-QT the Fed buys bills only). The <b>10Y reopen 7/8 is the mid-gate</b> — a soft JGB/30Y is real only if the 10Y confirms. BND-11 acute → arms the pre-built TERRY duration card.'},
     {p:'runup',d:'Tue 8',ax:'energy',sv:'crit',t:'EIA STEO (July)',o:'BRENT',w:'First balance/price-path revision post-signing — down to the realized ~$71 from the old closed-Hormuz $105.'},
     {p:'runup',d:'Tue 8',ax:'rates',sv:'med',t:'June FOMC minutes',o:'BOND · HENRY',w:'Hike-dissent breadth; hawkish minutes re-rate the ~29% July-hike odds.'},
     {p:'runup',d:'Thu 9',ax:'rates',sv:'med',t:'JGB 5Y auction',o:'SAM',w:'Belly demand post-BOJ-hike; forward-path repricing.',x:['ASIA']},
@@ -376,9 +376,9 @@
   var MQ={14:'Knot 1',21:'Knot 2',28:'Knot 3'};
   var CEV={
     2:[{n:'NFP +57K · resolved',s:'done'}],
-    6:[{n:'ISM Services',s:'high'},{n:'CFTC COT',s:'high'}],
-    7:[{n:'JGB 30Y auction',s:'high'}],
-    8:[{n:'EIA STEO',s:'crit'}],
+    6:[{n:'ISM Svc: emp 47.4 ✓',s:'done'},{n:'MSFT WARN wave ✓',s:'done'},{n:'CFTC COT tonight',s:'high'}],
+    7:[{n:'JGB 30Y (leads 7/9)',s:'high'}],
+    8:[{n:'US 10Y reopen (gate)',s:'high'},{n:'EIA STEO',s:'crit'}],
     9:[{n:'UST 30Y reopen',s:'crit'}],
     14:[{n:'CPI — THE HINGE',s:'crit',big:1},{n:'Big banks: JPM/WFC/C',s:'high'}],
     15:[{n:'Student-loan Phase 1',s:'crit'},{n:'Fitch Auto ABS',s:'high'}],
