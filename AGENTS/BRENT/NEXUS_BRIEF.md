@@ -1,11 +1,11 @@
 # BRENT — NEXUS Brief
 
-**Status:** 🟠 **v5.0 — ASYMMETRY UPSIDE-CONVEX; structural decoupling EXTENDING to fresh lows, and the first "deficit-closing" data point just printed.** Brent **$71.36 (−2.14%)** — a fresh ~4-mo cycle low under the ~$72 Jun-27/28 kinetic-week trough; WTI **$68.32, broke $70**. **EIA wk-6/26 (live): Cushing BUILT +0.71M to 19.67M — first build; sub-floor drain REVERSED**; commercial −3.77M, SPR −5.54M, distillate +2.48M = all crude draws DECELERATED. Read: reopening barrels beginning to land → tilts the medium-term race toward **gentle-normalization** and **modestly softens the upside-convex tail**. One print (Cushing still <20M, SPR still 40-yr-low & drawing, P&I still not resumed) — a 2nd-derivative turn, NOT a reversal. **P(Brent holds <$75 over 1-2wk) = 0.70 (unch). v5.0 unchanged; CHANGELOG WATCH note logged.**
+**Status:** 🟠 **v5.0 — ASYMMETRY UPSIDE-CONVEX; structural decoupling HOLDING, now STALL-tested.** Brent **$72.26 (+0.64%, green)**, still $2.74 sub-$75; WTI $68.96; **STNG $75.36 (+3.22%, tanker tape firming)**; VIX 15.93. **The reopening is STALLING, not delivering** (Doha talks regressed Jul 1-2; ADNOC: full Hormuz flows not until 2027; P&I still unresumed; transits ~23% prewar; Iran tolls threat post-Aug-17) → the 7/1 "gentle-normalization" lean (one Cushing build) is **REBALANCED**: "reopening-stalls-while-buffers-empty" is a Tier-1 convex-arm *condition* → **the up-tail is HELD / marginally fattened, NOT auto-disarming** (the 7/1-registered v5.1-disarm did NOT trigger). Price holding ~$72 *through* the stall = decoupling robust near-term. **RED thesis-integrity reconciliation (owed follow-up delivered):** "STRUCTURAL settled" unbundled → **regime ~0.70 LEAN** (RED's language; earned back from RED's 0.55 on mutually-accepted evidence — 6/27-28 kinetic + 7/1-6 stall; RED's own 7/5 book concurs P 0.70) / **price-call P(<$75 1-2wk) = 0.70** / durable-resolution coin-flip **moved toward the convex up-tail** (concede RED's tail-under-pricing). **CHG-RED-041 (P&I/reopening-reversal SNAP-leg) LEFT OPEN** — untested. **v5.0 unchanged; CALIBRATION note logged (CHANGELOG 2026-07-06).** COT (Jun-30) grade = tonight ~3:30 ET.
 **Domain:** Oil & energy — Brent/WTI, OPEC+, storage (Cushing/SPR), tankers, energy credit; transmission to CARL (gas/consumer), HENRY (energy CPI/PPI), LIQUID (energy HY OAS), SAM (Japan LNG), HAWK (oil↔scenarios), REGINALD (energy loans).
 **Thesis version:** **v5.0 (Jun 29 PM — MAJOR, asymmetry flip)**; Jul-1 WATCH note (no bump) — first deficit-closing print softens the up-tail. v5.1 trigger registered = a 2nd consecutive deficit-closing print → convex-arm auto-disarm. Full THESIS.md / CHANGELOG.
 **⚑ v5.0 — asymmetry UPSIDE-CONVEX (positioning reversal, NOT a price-forecast reversal).** Central forecast neutral (calm hold near-term); the SKEW is up — downside capped (record-low inventories + SPR-refill bid), upside tail fat (reopening weeks-to-MONTHS, two rising Russian crude fuses, spent buffers, near-record spec short = squeeze fuel). **Phase-2-short bias RETIRED; no fresh shorts; we are NOT calling oil up — the convexity is up, not the forecast.** Physically still Phase 1 (squeeze unresolved) → the dominant medium-term risk re-rotated to a Phase-1 RE-SQUEEZE (reopening-failure-up), not Phase-2 (demand-down). **Jul-1 caveat: the deficit-closing side got its first evidence → the up-tail softened at the margin (not gone).**
 **Position:** **no flat-price length either way; forward = defined-risk long-convexity, deploy-on-trigger** (USO call spread, ~$500 max-loss, pre-negotiated-proposal authority; full plan `TRADE.md`; Will [Approve] at fire; no capital today). **Jul-1: today's data leaned AWAY from the arm — no trigger fired, NO ACTION.** **XLE $65C Sep-30 → LAPSE** = deep-OTM backstop. CF $130C expired Jun 18. Live prices in STATUS; no P/L here.
-**As of:** 2026-07-01 Wed PM ET (fresh cycle low + EIA wk-6/26 first deficit-closing print; BRT-08/09/28 resolved; v5.0 unchanged) | STATUS commit: Jul-1
+**As of:** 2026-07-06 Mon ~11:45 AM ET (RED thesis-integrity reconciliation — regime ~0.70 LEAN, CHG-041 open; reopening-STALL rebalance → convex tail HELD; COT tonight; v5.0 unchanged) | STATUS commit: 3fae18b4 (Jul-6)
 
 ---
 
@@ -40,7 +40,7 @@
 | HAWK | **BRT-28 RESOLVED — HAW-10 (Bab-proper) expired unfired Jul 1** (GoA ≠ strait proper); second-chokepoint premium bled out | 🟠 | Closes the Bab price-consequence rail; no second-corridor supply shock priced |
 | HENRY / CARL / SAM | Disinflationary energy leg now **physically confirming** (Cushing build + fresh $71 low), not just signed. **SAM: Japan crude stocks at a 4-yr low & draining on ME disruption (qcintel/Bloomberg) — corroborates the Hedgeye ~360→280M read** | 🟠 | HENRY: softer energy CPI leg reinforced, Jul-14 inverse-feedback intact. CARL: pump-relief durable (retail gas $3.83). SAM: import-relief physically progressing but stocks at 4-yr low = the tightness is real |
 | LIQUID | **Broad HY OAS 275bps (−5bps, Jun-30) = CALM, well <400bps** — no energy-credit stress. Energy-only OAS (BRENT threshold >400bps) needs your paid source (no free FRED series) | 🟡 | Energy-credit tail invisible on aggregate HY; the calm print confirms no acute stress |
-| PROME / RED | v5.0 UNCHANGED but softened at the margin: first deficit-closing print leans the race to normalization. **Decision rule registered: a 2nd such print → convex-arm auto-disarm (v5.1).** BRT-08/09/28 resolved. | 🟠 | No new capital; the up-arm is trending toward stand-down, not fire |
+| PROME / RED | **RED reconciliation delivered:** regime ~0.70 LEAN (earned back from 0.55 on mutually-accepted evidence), durable-resolution moved TOWARD the convex up-tail, **CHG-RED-041 (P&I snap-leg) left OPEN with my concurrence.** The 7/1 gentle-normalization lean **REBALANCED** by the 7/6 reopening-STALL → convex arm HELD, NOT auto-disarming. v5.0 unchanged. | 🟠 | No new capital; the up-arm is HELD (not trending to stand-down as 7/1 implied — the stall reversed that) |
 
 **WAITING FOR:**
 
@@ -54,9 +54,9 @@
 
 ## NEXT DECISION POINT
 
-- **What:** the convex arm (USO call spread, deploy-on-trigger) — ARMED, no capital. **Jul-1: today's deficit-closing print leaned AWAY from the arm; no trigger fired; no action.**
-- **When / rule:** Tier-1 arm on HAW-15 pivot or reopening-stalls-while-buffers-empty; Tier-2 on Brent >$75 ×2 closes or durable ceasefire collapse. **Auto-disarm approaching if a 2nd deficit-closing print lands (Cushing builds again + draws decelerate)** = up-whipsaw dissolving. XLE $65C → LAPSE (its re-escalation-snap trigger fired Jun 27-28 and didn't pay).
-- **Why:** the up-tail is a TAIL expressed convexly with limited premium; today it got a data point against, so the bar to deploy is higher, not lower.
+- **What:** the convex arm (USO call spread, deploy-on-trigger) — ARMED, no capital. **Jul-6: no trigger fired (Brent <$75; no P&I pull; no HAW-15) → NO ACTION.**
+- **When / rule:** Tier-1 arm on HAW-15 pivot or reopening-stalls-while-buffers-empty; Tier-2 on Brent >$75 ×2 closes or durable ceasefire collapse. **The 7/1-registered v5.1 auto-disarm (2nd deficit-closing print) did NOT trigger — the 7/6 reopening-STALL pushed the opposite way, so the arm is HELD / marginally fattened, not standing down.** XLE $65C → LAPSE (its re-escalation-snap trigger fired Jun 27-28 and didn't pay).
+- **Why:** the up-tail is a TAIL expressed convexly with limited premium; the stalling reopening (ADNOC-2027 / Doha regression / P&I unresumed) is *toward* the "reopening-stalls-while-buffers-empty" Tier-1 condition — the bar to deploy is lower than the 7/1 read implied, not higher. Still no fire (Brent <$75, no P&I pull).
 
 ---
 
@@ -64,12 +64,12 @@
 
 | Date | Event | Threshold / Signal |
 |------|-------|---------------------|
-| 🔴 Fri Jul 3 | CFTC COT (Jun-30) | **Kinetic-week read** — short-covering (partial spring rehab) vs continued liquidation (structural-confirm); Trigger #3 2nd-decline; re-pull ICE Brent main net |
-| 🔴 ~Jul 3 | SPR 172M auth fully withdrawn → DOE re-auth decision | Drain stops/slows vs extend (→ PROME) |
-| 🟠 ~Jul 2/3 | Baker Hughes rig count | 440 last; 17 to 457 (+50-from-trough) |
-| 🔴 Wed Jul 8 | EIA STEO (July) | First post-deal price-path revision (June $105 closed-Hormuz superseded by realized ~$71) |
+| 🔴 **TONIGHT Mon Jul 6 ~3:30 ET** | CFTC COT (Jun-30 data — holiday-delayed from Jul-3) | **2nd-week decoupling test.** Grade 3 standards: regime-liquidation vs Path-B Trigger #3 (N/A on a falling tape) + **ICE-Brent gross shorts >~+5K = convex-tail tell** (RED's tail). Pre-reg: `2026-07-06_teams-session.md` §1 |
+| 🔴 Wed Jul 8 | EIA STEO (July) | First post-deal price-path revision (June $105 closed-Hormuz superseded by realized ~$72) |
+| 🟠 Sat Jul 11 | OPEC MOMR (July) | Post-deal supply/demand balance |
 | 🟠 Tue Jul 14 | US CPI (June) | BRT-16 inverse-feedback test |
-| 🟡 Next EIA | WPSR wk-7/3 | **2nd deficit-closing print? (Cushing builds again = up-whipsaw dissolving → auto-disarm)** |
+| 🟡 Rolling | **P&I resumption / liners off Cape** | The **CHG-041 snap-leg discriminator** (snap or grind?) + BRT-07 start-gun |
+| 🟡 Next EIA | WPSR weekly | Cushing build again (normalize) vs the stall stopping the barrels landing (re-tighten) |
 
 ---
 

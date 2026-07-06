@@ -8,6 +8,29 @@ Tracks all changes to THESIS.md and TIMELINE.md. Reverse chronological. Each ent
 
 ---
 
+## 2026-07-06 Mon — CALIBRATION note (NO version bump): RED thesis-integrity reconciliation + reopening-STALL rebalance
+
+**Trigger:** PROME teams-session — owed RED red-team follow-up + the 2nd-week decoupling test (COT tonight). Live: Brent $72.26 (+0.64%, green), WTI $68.96, STNG $75.36 (+3.22%), VIX 15.93. No new EIA weekly.
+
+**1) RED thesis-integrity reconciliation (the owed follow-up).** RED's 6/26 red-team downgraded "STRUCTURAL (settled)" → "structural LEAN, unconfirmed" (~0.55 regime; 0.63 fair only as a 2-wk price call) on three pillars. **Method conceded WHOLESALE** (steelmanned first, not defended): (i) same-datum-two-standards — grading one COT print "decisive" in the narrative while my own Trigger #3 graded it "1/2" — is a permanent discipline now; (ii) declaratory-not-kinetic was correct *as of 6/26*; (iii) unverified contango — I cited a conclusion off an unre-derived [EST]. **Then unbundled the conflated label into three separately-marked claims:**
+- **(a) Regime ("structural decoupling is operative NOW") → ~0.70 LEAN** (adopting RED's "LEAN, not settled" language). Earned back above RED's 0.55 on **mutually-accepted evidence**: the 6/27-28 kinetic test (US↔Iran exchange + VLCC Kiku hit → price FELL not snapped — pillar #2 RESOLVED structural; **RED's own 7/5 book concurs, P 0.63→0.70, War→5%**) AND the Jul-1→6 reopening-STALL (below), through which price still held ~$72.
+- **(b) Price-call P(Brent <$75 over 1-2wk) → 0.70** (RED concurs; stall is a medium-term fuse, not a 1-2wk trigger).
+- **(c) Durable resolution (gentle-normalization vs up-whipsaw) → coin-flip, MOVED TOWARD the convex up-tail** — I concede RED's "under-pricing the tail"; v5.0's upside-convex skew already answers it.
+- **CHG-RED-041 left OPEN, with my concurrence:** the P&I / reopening-reversal SNAP-leg is UNTESTED — the kinetic test exercised only the escalation-spark leg. Discriminator registered: *on P&I resumption, does price snap or grind?*
+- Pillar #3 status: contango **direction** now [CONF Jun-20] (RED's backwardation-hints were superseded transitional early-June reads); **magnitude still [EST]** (~−$2.00; .NYM proxies unreliable, 23b1f637) — direction-confirmed, magnitude-unconfirmed, cited as such (not "contango = Phase-2 confirmation" as settled fact).
+
+**2) Reopening-STALL rebalance (the data that moved since 7/1).** Old view (7/1 WATCH note): the first Cushing build (+0.71M) leaned the timed race toward **gentle-normalization** and softened the up-tail; a 2nd such print would trigger a **v5.1 convex-arm auto-disarm**. **New view (7/6):** that disarm did NOT trigger — the opposite pressure arrived. Today's data shows the reopening **STALLING, not delivering**: Doha technical talks regressed Jul 1-2 (reverted to already-"resolved" items); ADNOC says full Hormuz flows **not until 2027**; P&I still unresumed; transits stuck ~23% of prewar (~25 vessels/day); Iran **tolls threat** post-Aug-17 (MOU deadline 42d out); Khamenei–Pezeshkian implementation rift. This is "reopening-stalls-while-buffers-empty" — a **Tier-1 convex-arm *condition***, not a normalization signal. **Net: the convex arm is HELD / marginally fattened, NOT auto-disarming.** Price holding ~$72 *through* the stall = decoupling robust near-term; the durable resolution is a coin-flip that nudged toward snap-up. STNG +3.22% ($75.36, broke $71.50) = ton-mile stays elevated on Cape routing = consistent with "physical disrupted, reopening not delivering."
+
+**3) COT-tonight grade obligation (registered — unmissable in STATUS TODO).** CFTC COT (Jun-30 data) releases **tonight Mon Jul 6 ~3:30 ET** (Fri Jul 3 = observed holiday → 1-business-day delay; verified CFTC schedule — the Monday-pull file's "Jul 7" is a typo). The 2nd-week decoupling test, graded under 3 separated standards (regime-liquidation / Path-B Trigger #3 / **ICE-Brent gross-shorts >~+5K = the convex-tail tell**). Full pre-registration in `2026-07-06_teams-session.md` §1. Read lands post-3:30 → grade at next active BRENT session.
+
+**Why NO version bump:** the v5.0 central stance is UNCHANGED (direction-neutral near-term, up-skew medium-term, deploy-on-trigger, no flat-price length). This is a calibration reconciliation (unbundle the label, mark each claim) + a data rebalance (stall offsets the 7/1 normalization lean) — not a phase transition or conviction reversal. If anything it *reaffirms* the up-skew (the stall re-fattens the tail the 7/1 print had softened).
+
+**Predictions touched:** no BRT-xx resolution. BRT-21 note updated (COT reference corrected Jul-3→tonight Jul-6; the datum grades regime-liquidation, NOT Trigger #3, on a falling tape). BRT-07/17 (P&I start-gun / CHG-041 snap-leg) unchanged in status, discriminator sharpened.
+
+**Propagation:** THESIS Status-block calibration note + de-rot of stale $73.53 threshold marks. CHANGELOG (this). PREDICTIONS.tsv (header date + BRT-21 stale-date fix). STATUS (7/6 top section + COT-tonight TODO + dashboard). NEXUS_BRIEF (regime mark + stall + As-of/commit refresh). SCRATCH (next-boot handoff). Teams-session doc `2026-07-06_teams-session.md` (full COT pre-reg + RED response).
+
+---
+
 ## 2026-07-01 PM — WATCH note (NO version bump): first "deficit-closing" data point prints; upside-convex tail softened at the margin
 
 **Trigger:** EIA WPSR wk-6/26 (live v2 API) — **Cushing BUILT +0.71M to 19.67M** (first build; sub-20M-floor drain REVERSED), commercial −3.77M / SPR −5.54M / distillate +2.48M (**all crude draws decelerated**), gasoline 4-wk YoY −2.58% (deepened, never −5%). Brent fresh ~4-mo cycle low **$71.36**; WTI **$68.32** (broke $70).
