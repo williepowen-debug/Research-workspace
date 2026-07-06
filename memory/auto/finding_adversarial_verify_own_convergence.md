@@ -1,0 +1,14 @@
+---
+name: finding_adversarial_verify_own_convergence
+description: Run the X1 double-counting adversary on PROME's OWN cross-domain convergence framing before writing it to canon — the coordinator's synthesis is not exempt from the trap it enforces on agents.
+metadata:
+  type: finding
+---
+
+When PROME synthesizes multiple domain agents' reads into a "convergence," "building thread," or "regime shift," run that framing through the **same adversarial verify (X1 double-counting / shared-antecedent test) it applies to agent claims — BEFORE** writing it to a durable surface (DOCKET / node / HEARTBEAT).
+
+**The instance (2026-07-06):** PROME flagged an "emergent 4-way long-end demand-hole thread" to Will (BOND 30Y-at-5.00 level + SAM JGB + HENRY thin-duration-bid + BRENT energy) and was about to write it to canon. An adversarial x-domain synthesis workflow (4-check: live-figures / convergence-refute / completeness-critic / sequencing-stress) graded it **MIXED-leaning-refuted**: it was **ONE term-premium root** (the three rates reads are correlated expressions of the same global term-premium repricing — SAM even said Japan is a "correlation amplifier, not a flow seller"; HENRY's thin-bid is read off the *same* 30Y/10Y tape as BOND's level), it was **level-only** on an **unconfirmed poke** (30Y 5.00, BND-12 needs 5 closes), and the market was actively **ignoring** it (SPX record, skew easing, credit inert). BRENT/energy was orthogonal — "breadth theater." The verify also surfaced genuinely new value the individual agents each half-saw but none owned (the unowned JGB-7/7→UST-7/9 link; CPI-7/14-is-the-hinge; the +GEX-is-the-wrong-risk-model finding).
+
+**Why:** the coordinator is *more* prone to convergence-inflation than the domain agents, because synthesizing across domains is exactly where correlated single-root signals masquerade as independent confirmation. The X1 discipline ([[finding_shared_antecedent_independence_test]], [[finding_independent_convergence_validates_schema]], [[finding_cluster_adversarial_catches_framing]]) applies to PROME's *own* framing, not just agents'. An over-read written to canon then propagates (node → docket → next-boot read → agent priors).
+
+**How to apply:** before writing a cross-domain "convergence / thread / regime-shift" to a durable surface — especially under ultracode — spawn a cheap adversarial verify: (a) an adversary told to *refute* the convergence (is it one root double-counted? already priced? unconfirmed?), (b) a completeness critic (did anything actually fire?), (c) verify the load-bearing live figures. If it comes back MIXED/refuted, downgrade to "pre-armed watch" and say so to Will explicitly. The cost (one workflow) is trivial vs. an over-read that ships. Corollary: the verify is *also* where the real, non-obvious value often surfaces (the unowned cross-domain links) — so it pays for itself even when the headline framing survives.
