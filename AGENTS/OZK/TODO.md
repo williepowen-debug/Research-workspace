@@ -1,9 +1,12 @@
 # OZK — Research TODO / Backlog
 
-**Last updated:** 2026-04-23 (afternoon session — subdir refresh queue cleared, gap supplement integrated, KB +7 rows)
+**Last updated:** 2026-07-06 (staleness sweep — H1 closed, P1/Thread-3 marked dead, archive pointers fixed; new item: read Q1 10-Q)
 **Source:** Follow-up threads identified during Threads 1 and 2 deep dives; plus subdir hygiene queue added Apr 23 (now cleared).
 
-**Strategic framing:** Thread 3 roll math exists ($42.5P × 2 May → Jan27 $42.5P × 2) but Will is holding off on execution as of Apr 23 — decision open past May 8 is a de-facto expiry. Watch the dated checkpoints fire (Bluerock Q1 marks May-Jun, Aimco motion early Jun). **Decide on adjacent-thread research based on whether the core IQHQ thesis is validating or invalidating.** Avoid pre-committing research hours to #2 (Bluerock) and #3 (WAL IQHQ) before the core thesis resolves.
+**Strategic framing (updated 7/6):** Position book is stale/not-managed (May lines expired unlogged; Aug 21 lines unverified — per Will's 7/4 steer). Research focus until Jul 21 = Q2-print preparation: the pre-registered OZK-05→09 reads govern conviction (OZK-07 discriminator above all). Bluerock trade gate stays parked pending a fresh TI+ NAV mark.
+
+### 🆕 NEW (2026-07-06): Read the Q1 2026 Form 10-Q — `raw/Q1_2026_10Q.pdf` (60 pp, retrieved via FDIC securities-filings API)
+**Why it matters:** First-ever 10-Q primary in our tree (IR page 403s blocked it all year; the API bypasses that). Pre-Q2 read targets: ASC 326 modification/TDR footnotes (extend-and-pretend quantification vs D6), specific-reserve detail (any RaDD pre-positioning), interest-reserve disclosures, sub-notes reprice language, NDFI/Fund Finance exposure tables. Directly arms the Jul-21 OZK-05→09 scoring. **Effort:** ~45-60 min. **Priority: HIGH — do before Jul 21.**
 
 ---
 
@@ -122,24 +125,11 @@ Currently 0.42% NCO super-prime clean. Quarterly earnings tracking. Inflection =
 
 ## Known Staleness — Deferred (not session scope)
 
-### H1. `workbook/KB_INDEX.md` rollup — Phases 1 & 5 done (2026-04-24); 2/3/4/6 pending
+### H1. `workbook/KB_INDEX.md` rollup — ✅ ALL PHASES CLOSED 2026-07-06 (staleness sweep)
 
-**State:** Header now correct (195 rows / 28 groups). Naming drift merged (EXTEND_AND_PRETEND → EXTEND_PRETEND). Existing-cluster ranges current (LIFE_SCI 21→26, GEOGRAPHY 13→15, EXTEND_PRETEND 8→9). Quick Lookup catalyst-driven (May Call Report / Jul Q2 / Aug IQHQ / Oct sub notes + Affinius). Standalone Research +3 post-Q1 threads. **12 new groups still missing from rollup tables** (AFFINIUS, SELLSIDE, FAILURE_COMP, RESG_MIX, PRIVATE_CREDIT + 7 single-row: IQHQ, SEVEN_CREDIT, TRANSCRIPT, SHORT_INTEREST, DISTRESSED_COMPS, NIM, CIB).
+**Resolution:** New "Post-Q1 / Revival Clusters" section added to KB_INDEX covering all 12 previously-missing groups — multi-row clusters (AFFINIUS 6, SELLSIDE 5, RESG_MIX 4, FAILURE_COMP 4, PRIVATE_CREDIT 3, IQHQ 3) each got a rollup row; the 6 singletons kept standalone in one combined row (Phase-2 decision: no fold — group tags in KB.tsv stay as-is, no data churn). Header 195→200. Also: 088/091 schema-repaired (missing Vectors col), 055/138 demoted REFUTED (Aug-2028 extension claim), KB-200 added (insider refresh). Completeness verified programmatically (awk group rollup vs tables). KB_INDEX_AUDIT.md → `archive/` (drift it flagged is fixed).
 
-**Phased plan (decided 2026-04-24):**
-
-| Phase | Status | Effort | Description |
-|---|---|---|---|
-| 1 — Mechanical refresh | ✅ done | — | Header counts, range extensions, naming-drift merge. Commit `93655ad0`. |
-| 2 — Architectural decision | ⬜ pending | ~15 min | (a) Do SELLSIDE/SHORT_INTEREST/FAILURE_COMP warrant a "Market Evidence / Precedent" layer? (b) Rule for single-row groups — fold into parent cluster or keep standalone? Decision-only, no writing. |
-| 3 — Multi-row cluster rollup | ⬜ blocked on 2 | ~25 min | Write rollup rows for AFFINIUS (6), SELLSIDE (5), FAILURE_COMP (4), RESG_MIX (3), PRIVATE_CREDIT (3) |
-| 4 — Single-row reconciliation | ⬜ blocked on 2 | ~20 min | Per Phase 2 rule — fold or standalone for the 7 single-row groups. Touches KB.tsv if folding. |
-| 5 — Quick Lookup + Standalone Research | ✅ done | — | Catalyst-driven lookups + 3 thread files. Commit `8bd512dc`. |
-| 6 — Audit | ⬜ after 3+4 | ~10 min | Spot-check rollup completeness, update KB_INDEX_AUDIT.md if new drift pattern. |
-
-**Recommended next-session sequence:** Phase 2 (decision, ~15 min) → Phase 3+4 (~45 min combined) → Phase 6 (~10 min). Single session can cover the lot.
-
-### H2. Hygiene items from 2026-04-24 tree audit (see `AUDIT.md`) — ✅ ALL DONE 2026-04-24
+### H2. Hygiene items from 2026-04-24 tree audit (see `archive/AUDIT_2026-04-24.md`) — ✅ ALL DONE 2026-04-24
 - ✅ `INDEX.md:10` positions snapshot fixed (× 1 → × 3, + missing $47.5P May × 2 line). Commit `ee0d599c`.
 - ✅ `Q1_2026_ANALYSIS.md:1` header fixed (REGINALD ANALYSIS → OZK ANALYSIS). Commit `ee0d599c`.
 - ✅ `research/README.md` Feb25 row removed (file lives in archive/, not research/). Commit `ee0d599c`.
@@ -149,17 +139,14 @@ Currently 0.42% NCO super-prime clean. Quarterly earnings tracking. Inflection =
 
 ## Position Management (added Apr 23)
 
-### P1. May $47.5P × 2 — decision by May 8
-**Why:** New position (not in prior files), 22 DTE, ~$0.73 OTM at $48.23. Original rationale (Apr earnings) expired; current implicit rationale is May 1-10 Call Report window (MI3/NDFI reveal). No system roll math exists.
-**Status:** Open. Not covered by THREAD3_ROLL_MATH.md.
-**Decide between:** (a) hold through Call Report and close, (b) roll forward if CR disclosure fires thesis, (c) let expire if CR is a non-event.
-**Estimate:** 30 min of decision math if a roll is wanted; otherwise a watch-item.
+### P1. May $47.5P × 2 — ✅ RESOLVED BY EXPIRY (May 15 passed unlogged during the 71-day dormancy)
+Both May lines expired; outcome unrecorded. Position book is stale/not-managed per Will's 7/4 steer — see STATUS positions banner. Nothing actionable remains here.
 
 ---
 
 ## Already-in-flight (don't re-spawn)
 
-- **Thread 3 roll: $42.5P × 2 May → Jan27 $42.5P × 2** — math in `THREAD3_ROLL_MATH.md`. **Will holding off on execution (Apr 23).** De-facto expiry May 15 if no action by May 8.
+- ~~**Thread 3 roll: $42.5P × 2 May → Jan27 $42.5P × 2**~~ — DEAD: roll never executed, May lines expired May 15 unlogged. Math archived → `archive/THREAD3_ROLL_MATH.md` (2026-07-06).
 - ✅ **OZK/STATUS.md focused refresh** — DONE Apr 23 (118 → 72 lines; all Q1 26 actuals, IQHQ Aug 2026 correction, sub notes Oct 1 reprice added; ownership violations removed).
 - ✅ **OZK/INDEX.md header fix** — DONE Apr 23 (v1.1 → v1.3 across header + File Map).
 - ✅ **OZK/THESIS.md NCO-framing revision** — DONE in v1.3 audit (Apr 23, committed `9322e2cc`).

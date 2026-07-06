@@ -1,13 +1,13 @@
 # OZK — Full Bear Case
 
-**Version:** v1.3 (2026-04-23) — Q1 NCO deceleration engaged; two unverified claims removed | **Changelog:** `CHANGELOG.md`
+**Version:** v1.4 (2026-07-06) — figures re-based to Call Report primary (past-due $487.5M/1.48%, NCO 0.56%); prediction cross-refs re-wired to OZK-xx rows | **Changelog:** `CHANGELOG.md`
 
 ## THE RESERVOIR THESIS
 
 OZK is a slow-building reservoir of unrecognized CRE losses. Stress is accumulating in the loan book, masked by reserve cuts, extend-and-pretend, and classification management. The 2022 vintage maturity wall forces recognition Q1-Q3 2026.
 
 **Three-wave catalyst structure:**
-1. ✅ **RESOLVED Apr 21 2026:** Q1 26 print confirmed slow-grind thesis. Past-due **doubled QoQ** ($207M → $465M, 0.64% → 1.41%). 3 new substandard credits (2 Seattle U District w/ signed LOI + 1 Boston Life Sci $169M, matured Dec 18). 2 new foreclosed assets (Chicago Life Sci $50M + Santa Monica Office $45M at **15% leased**). Near-zero LTVs: Boston Office 95%, Seattle Pioneer 100%, Wauwatosa Hotel 103%. NCO 0.57% in-line w/ ~50bps FY guide. Sterling Bay/Lincoln Yards seizure + SVP sale (KB-OZK-094/095) referenced and confirmed. Detail → `Q1_2026_ANALYSIS.md`.
+1. ✅ **RESOLVED Apr 21 2026:** Q1 26 print confirmed slow-grind thesis. Past-due **more than doubled QoQ** ($207M → **$487.5M / 1.48%** [Call Report primary; supplement basis $465M/1.41% — definitional fork, adopted 7/4]). 3 new substandard credits (2 Seattle U District w/ signed LOI + 1 Boston Life Sci $169M, matured Dec 18). 2 new foreclosed assets (Chicago Life Sci $50M + Santa Monica Office $45M at **15% leased**). Near-zero LTVs: Boston Office 95%, Seattle Pioneer 100%, Wauwatosa Hotel 103%. NCO **0.56%** [Call Report] — 1bp above the ≤55bps kill line (Invalidation §2). Sterling Bay/Lincoln Yards seizure + SVP sale (KB-OZK-094/095) referenced and confirmed. Detail → `Q1_2026_ANALYSIS.md`.
 2. **Q2 2026:** NY pipeline (0.41% 30-89 day, highest in country) converts to noncurrent
 3. **Aug 2026:** IQHQ RaDD ($555M funded / $915M commitment) — the whale. **CORRECTED 2026-04-22: maturity is Aug 2026, NOT Aug 2028 as prior framing suggested.** Q1 26 transcript Gleason: *"August is an eternity."* **3.3% leased** (JCVI 50K SF only; Tracy Murphy's Jan 2025 guidance of "two life sciences tenants by March 2025" did NOT materialize). **Aimco filed $50M fraud/breach complaint vs IQHQ April 2026** — chills any 4th rescue round. **CCO Michelle Rossow on-record Mar 19 2026: RaDD is OZK's SOLE IQHQ exposure** [KB-OZK-178]. Weighted expected loss $140M = 22% of OZK ACL on one credit. Scenario tree (50% substandard migration / 18% foreclosure / 20% extend / 12% takeout). Detail → `IQHQ_PLAYBOOK.md`.
 
@@ -42,10 +42,10 @@ OZK executed 590 RESG modifications over 14 quarters on ~300 loans — the avera
 | Metric | Q3 25 | Q4 25 | Q1 26 | Pattern |
 |---|---|---|---|---|
 | Substandard non-accrual | $150M | $341M | ~$400M+ | Mass migration starting Q3 25 ($59M base) — +154% then +127% QoQ |
-| Past-due 30+ DPD | 0.14% ($46M) | **0.64% ($207M)** | **1.41% ($465M)** | **Step change Q4 25; doubled again Q1 26 — 10x in 6 months** |
+| Past-due 30+ DPD | 0.14% ($46M) | **0.64% ($207M)** | **1.48% ($487.5M)** [Call Report; suppl. $465M/1.41%] | **Step change Q4 25; more than doubled again Q1 26 — >10x in 6 months** |
 | Classified+criticized | $943M | $984M | **$1,215M (+23%)** | Stable through Q4 25; inflow Q1 26 |
 
-**Reservoir thesis CONFIRMED on three migration metrics simultaneously**, not on share %. Recognition tempo: Q4 25 was a single-credit pulse ($72M Boston Office charge-off, largest single-quarter recognition in 5Q history); Q1 26 mass past-due flow now in the pipeline for Q2-Q3 26 NCO conversion. Forward calls: P(SNA >$500M by Q4 26) ~70%; P(classified/RESG ≥3.8% by Q4 26) 60% [REG-23].
+**Reservoir thesis CONFIRMED on three migration metrics simultaneously**, not on share %. Recognition tempo: Q4 25 was a single-credit pulse ($72M Boston Office charge-off, largest single-quarter recognition in 5Q history); Q1 26 mass past-due flow now in the pipeline for Q2-Q3 26 NCO conversion. Forward calls: P(SNA >$500M by Q4 26) ~70% [prose call, not pre-registered]; P(RESG problem-credit ratio ≥3.8% by Q4 26) 60% [OZK-04, re-scoped 7/4 to roster/commitments basis]. **Jul-21 Q2 reads pre-registered 7/4 → `workbook/PREDICTIONS.tsv` OZK-05→09** (conviction-governing: OZK-07 classified-vs-RESG discriminator).
 
 **11-credit problem book deep dive ($719M):** Blended expected loss $211-291M (29-40% severity using 2025-26 distressed comps). ACL $628M = 2.2-3.0x coverage today. If problem book migrates to ~$1.4B over Q2-Q4 26 (credible at observed past-due trajectory), coverage drops to 1.1-1.5x → implies $150-300M reserve build. Detail → `SEVEN_CREDIT_DEEP_DIVE.md`.
 
@@ -79,7 +79,7 @@ OZK executed 590 RESG modifications over 14 quarters on ~300 loans — the avera
 
 Under-provisioned ~35-40% vs peers while running charge-offs at 3x the norm. The thesis is trajectory, not snapshot.
 
-**Q1 26 NCO context (the bull pushback).** Q1 26 NCO annualized at **0.57%** — in-line with management's ~50bps FY26 guide and materially below FY25's 1.18%. Read alone, this could suggest 2025 was a one-time catch-up. But recognition through this cycle has been lumpy: quiet quarters (Q1 25 25bp, Q2 25 10bp, Q3 25 41bp) punctuated by pulse charge-offs (Q4 25 118bp driven by a single $72M Boston Office write-down). The three migration-velocity metrics — especially past-due doubling to $465M — sit in the *leading-indicator* layer before charge-offs convert. Thesis requires Q2-Q3 26 to show that conversion; if FY 26 NCO tracks ≤55bps through Q3, the reservoir framing is damaged. Explicit kill criterion — see "What Would Invalidate" §2.
+**Q1 26 NCO context (the bull pushback).** Q1 26 NCO annualized at **0.56%** [Call Report; supplement basis printed 0.57%] — near management's ~50bps FY26 guide, materially below FY25's 1.18%, and **just 1bp above the ≤55bps kill line**. Read alone, this could suggest 2025 was a one-time catch-up. But recognition through this cycle has been lumpy: quiet quarters (Q1 25 25bp, Q2 25 10bp, Q3 25 41bp) punctuated by pulse charge-offs (Q4 25 118bp driven by a single $72M Boston Office write-down). The three migration-velocity metrics — especially past-due more than doubling to $487.5M [Call Report] — sit in the *leading-indicator* layer before charge-offs convert. Thesis requires Q2-Q3 26 to show that conversion; if FY 26 NCO tracks ≤55bps through Q3, the reservoir framing is damaged. Explicit kill criterion — see "What Would Invalidate" §2; pre-registered Q2 read = OZK-05 (50%).
 
 ---
 
@@ -150,7 +150,7 @@ OZK has the **worst absolute Memo Item 3 ratio** in the screen [KB-OZK-020] — 
 | "Short interest 14-15% = squeeze" | Crowded yes, but coverage 1.6x and falling is the worst in peer group. Squeezes are temporary; trajectory isn't. |
 | "Gleason has never lost" | GFC record is genuine — beat industry NCOs every quarter but one, ROA >1.20% throughout [KB-OZK-064]. BUT: (1) GFC book was ~$2B community-scale AR CRE, not today's $20B+ national RESG [KB-OZK-067]. (2) CRE/equity 381% then vs ~620% now [KB-OZK-068]. (3) FDIC loss-share on 7 acquired banks cushioned performance [KB-OZK-066/071]. (4) OCC issued Formal Agreement June 2011 — "less than satisfactory" mgmt/liquidity ratings [KB-OZK-069]. (5) Corus Bank ran the same gateway-city construction model and failed when LTV was too high [KB-OZK-072]. The GFC record is *real* but categorically non-transferable. |
 | "IQHQ got extended, crisis deferred" | Extension = more time underwater. 97% vacant [KB-OZK-028 ⚠️ Oct 2024, may be stale], SD life sciences vacancy 25-29%. Extension doesn't create tenants. IQHQ itself under financial pressure (investor markdowns 4-23%, PIK loans at 13.5-14%) [KB-OZK-029]. |
-| "Mix-shift share stable at 27-31% for 6 quarters — no breakdown" | True on the share metric. But that's the WRONG indicator — share % is a mechanical artifact of asset sales and denominator changes. Three migration metrics underneath are all firing: substandard non-accrual mass migration ($59M → $341M Q2-Q4 25, +154% then +127% QoQ), past-due 30+ DPD regime change (10x in 6 months: $46M → $207M → $465M Q3 25 → Q4 25 → Q1 26), classified +23% QoQ Q1 26. Share stability hides the real story [KB-OZK-185]. See `research/threads/RESG_MIX_DETERIORATION.md`. |
+| "Mix-shift share stable at 27-31% for 6 quarters — no breakdown" | True on the share metric. But that's the WRONG indicator — share % is a mechanical artifact of asset sales and denominator changes. Three migration metrics underneath are all firing: substandard non-accrual mass migration ($59M → $341M Q2-Q4 25, +154% then +127% QoQ), past-due 30+ DPD regime change (>10x in 6 months: $46M → $207M → $487.5M [Call Report] Q3 25 → Q4 25 → Q1 26), classified +23% QoQ Q1 26. Share stability hides the real story [KB-OZK-185]. See `research/threads/RESG_MIX_DETERIORATION.md`. |
 
 ---
 
@@ -158,9 +158,9 @@ OZK has the **worst absolute Memo Item 3 ratio** in the screen [KB-OZK-020] — 
 
 Concentrated kill criteria. If any of these fire, the short's foundation is damaged. Items 1 and 3 are most load-bearing; items 4-5 are directional signals that shift probability weights without killing the thesis outright.
 
-**1. Past-due regime reverses.** If Q2 26 past-due stabilizes or declines (<$400M vs Q1 26's $465M / 1.41%), the migration-velocity pipeline is not flowing as predicted. The "10× in 6 months" pattern ($46M → $207M → $465M across Q3 25 → Q4 25 → Q1 26) needs continuation, not just the two observed steps. Resolves at Q2 26 earnings (~late July). Cross-ref: REG-23 in PREDICTIONS.tsv.
+**1. Past-due regime reverses.** If Q2 26 past-due stabilizes or declines (<$400M vs Q1 26's **$487.5M / 1.48%** [Call Report; threshold set 4/23 on the $465M supplement basis, kept unchanged]), the migration-velocity pipeline is not flowing as predicted. The ">10× in 6 months" pattern ($46M → $207M → $487.5M across Q3 25 → Q4 25 → Q1 26) needs continuation, not just the two observed steps. Resolves at Q2 26 earnings (Jul 21). Cross-ref: OZK-06 in `workbook/PREDICTIONS.tsv` (upside trigger >$550M, 40%).
 
-**2. Sustained sub-50bps NCO through Q2-Q3 26.** Past-due must convert to charge-offs for the reserve-consumption thesis to fire. Q1 26 NCO came in at 0.57% annualized — in-line with ~50bps FY guide. If Q2 and Q3 track at or below guide, the "reservoir" framing is wrong — 2025 was a catch-up event, not the start of a recognition cycle. Resolves by Q3 26 print. Cross-ref: REG-22.
+**2. Sustained sub-50bps NCO through Q2-Q3 26.** Past-due must convert to charge-offs for the reserve-consumption thesis to fire. Q1 26 NCO came in at 0.56% annualized [Call Report] — 1bp above the ≤55bps kill line. If Q2 and Q3 track at or below guide, the "reservoir" framing is wrong — 2025 was a catch-up event, not the start of a recognition cycle. Resolves by Q3 26 print. Cross-ref: OZK-03 (FY basis, 55%) + OZK-05 (Q2 read, 50%) in `workbook/PREDICTIONS.tsv`.
 
 **3. IQHQ RaDD cures.** Either (a) material lab tenant (>250K SF) lands pre-maturity at RaDD, or (b) IQHQ sponsor brings fresh equity for a 4th round despite Aimco's April 2026 fraud suit. Either collapses Wave 3 — the weighted $140M EL is **22% of the entire OZK ACL on one credit**, so IQHQ resolution alone re-rates the thesis. Watchpoints: JCVI lease expansion, any leasing LOI announcement, sponsor funding commentary. Resolves by Aug 2026 maturity. Detail → `IQHQ_PLAYBOOK.md`.
 

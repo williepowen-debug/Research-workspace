@@ -1,6 +1,6 @@
 # OZK — Scenario Analysis & Target Prices
-**Created:** 2026-03-23 | **Last Updated:** 2026-04-23 (post-Q1 26 reweight)
-**Current Price:** $47.52 (Apr 23 AM, -2.06%) | **TBV:** $47.15 (Q1 26) | **P/TBV:** ~1.01x
+**Created:** 2026-03-23 | **Last Updated:** 2026-07-06 (figure re-base to Call Report primary; **weights unchanged since 4/23 reweight**)
+**Price:** live → `STATUS.md` / boot.py (was $47.52 at the 4/23 reweight; $49.65 at 7/6 sweep) | **TBV:** $47.15 (Q1 26)
 **Short Interest:** ~14-15% float, 12-18 days to cover (KB-OZK-160 last refresh Mar 25 — needs next FINRA pull)
 
 > **Framing note:** Probabilities are scenario weights for position sizing. Post-Q1 reweight: migration-velocity metrics (past-due 10× in 6 months) confirmed the bear case at the leading-indicator layer, but capital buffer demonstrated through the print shrinks tail risk. Direction unchanged; weights shifted.
@@ -17,10 +17,10 @@
 | Tail | **3%** | $18-25 | $21.50 | $0.65 |
 | **Expected Value** | | | | **$38.97** |
 
-**Current $47.52 → implied ~22% overvaluation vs EV of $38.97.**
+**At the 4/23 reweight ($47.52): ~22% above EV of $38.97. At 7/6 ($49.65): ~27% above EV.**
 
 ### Reweight rationale (Apr 23)
-- **Bear +5pp (50→55):** Q1 26 past-due doubled ($207M → $465M), classified+criticized +23% QoQ, 3 new substandard + 2 new foreclosed. Migration-velocity thesis confirmed at the leading-indicator layer.
+- **Bear +5pp (50→55):** Q1 26 past-due more than doubled ($207M → $487.5M/1.48% [Call Report; suppl. $465M — basis standardized 7/4]), classified+criticized +23% QoQ, 3 new substandard + 2 new foreclosed. Migration-velocity thesis confirmed at the leading-indicator layer.
 - **Bull −3pp (15→12):** IQHQ maturity corrected Aug 2026 (not 2028) raises Wave 3 probability; Aimco $50M fraud suit chills 4th rescue round; OZK pulling BACK from Fund Finance subscriptions (Jake Munn Q1 call) removes the "regionals press into NDFI for growth" bull mechanism for OZK specifically.
 - **Tail −2pp (5→3):** CET1 11.64%, $16.9B primary+secondary liquidity, buybacks at accretive prices ($45.51 avg vs $47.15 TBV), TBV +11% YoY all demonstrate the capital buffer holds through the current stress. Rating-downgrade/deposit-flight tail sequence less likely.
 - **Base unchanged (30%):** slow-grind "threads the needle" remains the single most plausible single-path outcome.
@@ -31,7 +31,7 @@ Net EV: $37.45 → $38.97 (+$1.52). Implied overvaluation vs market: 24% → 22%
 
 ## SCENARIO A: BEAR CASE (55%)
 
-**Q1 26 confirmation status:** Past-due doubled QoQ ($207M → $465M, 0.64% → 1.41%) — LEADING INDICATOR of this scenario. 3 new substandard credits (2 Seattle U District + Boston Life Sci $169M), 2 new foreclosed (Santa Monica Office at 15% leased, Chicago Life Sci at 68% of appraisal). NCO 0.57% in-line with guide — recognition tempo not yet in Q2-Q3, as predicted. Thesis direction confirmed; timing on track.
+**Q1 26 confirmation status:** Past-due more than doubled QoQ ($207M → $487.5M, 0.64% → 1.48% [Call Report]) — LEADING INDICATOR of this scenario. 3 new substandard credits (2 Seattle U District + Boston Life Sci $169M), 2 new foreclosed (Santa Monica Office at 15% leased, Chicago Life Sci at 68% of appraisal). NCO 0.56% [Call Report] — 1bp above the ≤55bps kill line; recognition tempo not yet in Q2-Q3, as predicted. Thesis direction confirmed; timing on track.
 
 **Thesis:** Interest reserve depletion + 2022 vintage maturity wall forces nonaccrual wave Q2-Q3 2026 (Q1 was the past-due pulse; NCO conversion follows). Charge-offs exceed provisioning. Market reprices to stressed bank multiple.
 
@@ -60,13 +60,13 @@ Net EV: $37.45 → $38.97 (+$1.52). Implied overvaluation vs market: 24% → 22%
 
 ## SCENARIO B: BASE CASE (30%)
 
-**Q1 26 consistency:** This scenario is where Q1 print reads most cleanly. Mgmt tone confident (*"late stages of this CRE cycle"*), NCO 0.57% in-line, CET1 11.64%, buybacks accretive. Threads-the-needle mechanics observable.
+**Q1 26 consistency:** This scenario is where Q1 print reads most cleanly. Mgmt tone confident (*"late stages of this CRE cycle"*), NCO 0.56% [Call Report] near guide, CET1 11.64%, buybacks accretive. Threads-the-needle mechanics observable.
 
 **Thesis:** Management provisions just enough to stabilize ACL. Charge-offs elevated but contained. IQHQ resolution via Scenario A (extend with sponsor equity) or Scenario C (takeout). Slow grind sideways-to-lower; no capital event.
 
 **Mechanics:**
 1. Q2-Q3 26 charge-offs: $60-100M/quarter. Provision matches within ±10%.
-2. Past-due $465M Q1 26 partially converts to NCO but plateau-s, not doubles again.
+2. Past-due $487.5M Q1 26 [Call Report] partially converts to NCO but plateau-s, not doubles again.
 3. EPS compresses to $4.75-5.75 (from $6.18).
 4. Dividend maintained under scrutiny; may skip 2026 increase cycle.
 5. IQHQ extends in Aug 2026 with $100-200M fresh sponsor equity (20% weight in full scenario tree).
@@ -83,7 +83,7 @@ Net EV: $37.45 → $38.97 (+$1.52). Implied overvaluation vs market: 24% → 22%
 
 ## SCENARIO C: BULL CASE (12%)
 
-**Q1 26 pushback data:** NCO 0.57% in-line with guide, TBV +11% YoY, buybacks at accretive prices, CET1 11.64%. If we're wrong, these are the tells that would have warned us.
+**Q1 26 pushback data:** NCO 0.56% [Call Report] near guide, TBV +11% YoY, buybacks at accretive prices, CET1 11.64%. Post-Q1 additions to this column: dividend hike +2.1% (7/1, 64th straight), $200M buyback authorization (6/30), Street targets low-to-mid $60s on RESG-runoff de-risking (→ `WEAKNESSES.md` C7). If we're wrong, these are the tells that would have warned us.
 
 **Thesis:** CRE stabilizes, management rebuilds ACL, IQHQ cures, short squeeze amplifies the recovery.
 
@@ -137,11 +137,9 @@ Bear case needs EPS ~$5.00 at 6x → **$30** (-33% from $44.70).
 
 ---
 
-## PUT EXPECTED VALUE (pre-Q1 premium basis — see THREAD3_ROLL_MATH for current)
+## PUT EXPECTED VALUE (pre-Q1 premium basis — ⚠️ POSITION STATE STALE)
 
-⚠️ **The intrinsic-value calculations below use cost bases and price anchors from Mar 24 ($44.70 baseline, $4.05 entry).** The scenario logic (Bear 55% / Base 30% / Bull 12% / Tail 3%) is current, but for *live* roll economics — current May/Aug/Jan27 premiums, deltas, scenario P&L — read `THREAD3_ROLL_MATH.md` (dated same session as this reweight).
-
-**Key position-level takeaway:** Aug $45P (4 contracts, the core position) retains positive EV under the reweighted probabilities. Aug $42.5P (1 contract, deep bear) requires Scenario A or D to print. May $42.5P (2 contracts) is where the reweight matters most — tight timeline + Base case now at 30% means roll-to-duration dominates hold-to-expiry. See THREAD3 for specific Jan27 recommendation.
+⚠️ **The intrinsic-value calculations below use cost bases and price anchors from Mar 24 ($44.70 baseline, $4.05 entry).** The scenario logic (Bear 55% / Base 30% / Bull 12% / Tail 3%) is current, but the position book is **STALE / NOT MANAGED** (per 7/4 steer): the May lines expired unlogged (roll never executed — `THREAD3_ROLL_MATH.md` → `archive/`, dead), and the Aug 21 lines are unverified against broker. Do not act on the per-position EV tables below without live broker + chain data (STATUS positions banner governs).
 
 ---
 
@@ -213,7 +211,7 @@ Q1 earnings resolved Apr 21 (not Apr 16). Framework superseded by post-Q1 resolu
 | **IQHQ catalyst** | Substandard migration / specific reserve >$140M | Wave 3 firing at expected severity — hold / consider adding. |
 | **Aug 15 2026 RaDD maturity** | Default / deed-in-lieu | Scenario D tail firing. |
 | **Oct 1 2026 sub notes** | OZK redeems $350M rather than reprice | Directional bull signal (THESIS §4). |
-| **Ongoing** | Squeeze to $52+ with no fundamental catalyst | Accept — Aug duration designed for this. May positions should be already rolled to Jan27 per THREAD3. |
+| **Ongoing** | Squeeze to $52+ with no fundamental catalyst | Accept — Aug duration designed for this. (May-position roll language OBSOLETE — May lines expired unlogged; book stale/not-managed per 7/4.) |
 
 ---
 
@@ -222,12 +220,12 @@ Q1 earnings resolved Apr 21 (not Apr 16). Framework superseded by post-Q1 resolu
 | Field | Live source |
 |---|---|
 | Scenario weights / EV | THIS FILE (reweighted 2026-04-23) |
-| Thesis pillars + invalidation | `THESIS.md` v1.3 |
-| Bull-case rebuttals | `WEAKNESSES.md` (C5 corrected 2026-04-23) |
+| Thesis pillars + invalidation | `THESIS.md` v1.4 |
+| Bull-case rebuttals | `WEAKNESSES.md` (C7 RESG-runoff steelman added 2026-07-04) |
 | IQHQ scenario tree (detailed) | `IQHQ_PLAYBOOK.md` |
-| Current put roll economics | `THREAD3_ROLL_MATH.md` |
-| Current positions + prices | `STATUS.md` + broker |
+| Pre-registered Q2 reads | `workbook/PREDICTIONS.tsv` OZK-05→09 |
+| Current positions + prices | `STATUS.md` + broker (book ⚠️ stale/not-managed; roll math archived) |
 
 ---
 
-*KB evidence: 185 rows | Thesis: `THESIS.md` v1.3 | Weaknesses: `WEAKNESSES.md` (updated 2026-04-23) | Version history: `CHANGELOG.md` v1.3*
+*KB evidence: 199 rows | Thesis: `THESIS.md` v1.4 | Weaknesses: `WEAKNESSES.md` (C7 added 2026-07-04) | Version history: `CHANGELOG.md` v1.4*

@@ -24,15 +24,15 @@
 | **2** | Baltimore Land | $40.0M | 53% | **Goldman Sachs + Sagamore (Kevin Plank)** | **Baltimore Peninsula** (235 acres, deed-in-lieu Dec 2025) | ✅ HIGH |
 | **3** | Seattle Pioneer Sq Office | $25.9M | 100% | TBD — project likely **"The Jack"** (100% vacant since 2023 per prior REGINALD research) | 74 S Jackson or Pioneer Square adjacent | ⚠️ MED |
 | **4** | Wauwatosa Hotel | $17.9M | 103% | **HKS Holdings LLC** (Milwaukee local developer) + Concord Hospitality (operator) | **Renaissance Milwaukee West Hotel**, 2300 N Mayfair Rd (196 keys, opened Aug 2020 into COVID) | ✅ HIGH |
-| **5** | Boston Life Science | $169.3M | 91% | **UNDETERMINED** — top 2 candidates below | 10 Prospect Somerville (US2/Magellan) OR 808 Windsor Boynton Yards (Leggat McCall / DLJ / Deutsche Finance America) | ⚠️ LOW-MED |
+| **5** | Boston Life Science | $169.3M | 91% | **Magellan + RAS + Cypress + Affinius JV** (✅ RESOLVED 4/23 via UCC-1 Bk 85169 Pg 222 — see §2 #5; roster row reconciled 7/6) | **10 Prospect St, Somerville / USQ Parcel D2.1** (SPV: 31 Union Square D2.1 Owner LLC) | ✅ HIGH |
 | **6** | Seattle U District Office | $76.4M | 83% | **Touchstone (URG) + Portman Holdings + Lionstone Investments (LP)** | **Chapter Building I** — 4530 12th Ave NE Seattle (240K SF office) | ✅ HIGH |
 | **7** | Seattle U District Life Sci | $50.4M | 73% | Same as #6 | **Chapter Building II** — 4536 Brooklyn Ave NE (149K SF life sci/R&D) | ✅ HIGH |
 | **8** | Lake Tahoe SF Lots | $33.9M | 93% | **New Martis Partners / MA Partners** (Carey Richards affiliate) | **Schaffer's Mill**, Truckee CA, Martis Valley (475 acres — exact match; ~100 units remaining) | ✅ HIGH |
 | **9** | LA Land (foreclosed) | $54.5M | 86% appr | **Townscape Partners (Tyler Siegel/John Irwin) + TPG Angelo Gordon** (AG-SCH entity) | **8150 Sunset Blvd**, LA — 2.5 acres, Frank Gehry-designed 249 units + 65K SF retail entitled. OKO Group failed buyer. | ✅ HIGH |
-| **10** | Chicago Life Sci (foreclosed) | $50.0M | 68% appr | **Sterling Bay** (relationship fully collapsed) | **1229 W Concord Place** — 284K SF lab, 100% vacant, deed-in-lieu Mar 2026 | ✅ HIGH |
+| **10** | Chicago Life Sci (foreclosed) | $50.0M | 68% appr | **Sterling Bay** (relationship fully collapsed) | **1229 W Concord Place** — **320K SF** lab [corrected 284K→320K, 7/4 web verify], 100% vacant, deed-in-lieu Mar 2026 | ✅ HIGH |
 | **11** | Santa Monica Office (foreclosed) | $45.1M | 90% appr | Private creative office developer (not institutional) | **1650 Euclid Street** — 65K SF creative office, 15% leased | ✅ HIGH |
 
-**Combined book value: $719.8M.** Sponsor-identified with HIGH confidence: **$663.0M (92%).**
+**Combined book value: $719.8M.** Sponsor-identified with HIGH confidence: **$693.9M (96%)** — all rows except #3 Seattle Pioneer ($25.9M, MED). [Recomputed 7/6 with #5 at HIGH; prior "$663.0M (92%)" didn't reconcile to the table.]
 
 ---
 

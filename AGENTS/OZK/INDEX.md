@@ -1,43 +1,47 @@
 # OZK — Agent Index
 **Start here on cold boot.**
 
-**Last updated:** 2026-04-23 (Phase 1-3 restructure — see footer)
+**Last updated:** 2026-07-06 (staleness sweep — snapshot re-based to Call Report figures, boot sequence aligned to CLAUDE.md/boot.py, threads + workbook rows refreshed)
 
 **State snapshot:**
-- **Q1 2026 earnings ✅ RESOLVED Apr 21** — past-due doubled QoQ ($207M → $465M), 3 new substandard credits, 2 new foreclosed assets, NCO 0.57% in-line. Slow-grind thesis confirmed. → `Q1_2026_ANALYSIS.md`
-- **Thesis v1.3 (Apr 23)** — audit complete: INVALIDATION section added (v1.2), Q1 NCO deceleration engaged as bull data point, two unverified claims removed, SCENARIOS reweighted post-Q1 (Bear 55% / Base 30% / Bull 12% / Tail 3%, EV $38.97). → `CHANGELOG.md`
-- **KB.tsv: 185 rows / 17 groups** (178-185 added Apr 22-23)
-- **Positions:** $42.5P May 15 × 2 (rolling this week), $47.5P May 15 × 2, $42.5P Aug 21 × 3, $45P Aug 21 × 4. Roll recommendation → `THREAD3_ROLL_MATH.md`
-- **Next hard catalyst:** IQHQ RaDD Aug 2026 maturity — weighted EL $140M on $555M funded. → `IQHQ_PLAYBOOK.md`
+- **Q1 2026 earnings ✅ RESOLVED Apr 21** — past-due more than doubled QoQ (**$207M → $487.5M / 1.48%** [Call Report basis; supplement showed $465M/1.41% — definitional fork, Call Report is primary]), 3 new substandard credits, 2 new foreclosed assets, **NCO 0.56% — 1bp ABOVE the ≤55bps kill line** (Invalidation §2, watching Q2). → `Q1_2026_ANALYSIS.md`
+- **Thesis v1.3** — RESERVOIR: stress accumulates until the IQHQ RaDD **Aug 2026 maturity** forces recognition. Conviction 🔴🔴 HIGH. Revival re-baseline 2026-07-04 (71-day gap): logic intact, maturity re-confirmed from Q1 transcript primary. → `THESIS.md`, `CHANGELOG.md`
+- **KB.tsv: 200 rows / 28 groups** (196-199 added 2026-07-04; 200 insider refresh 2026-07-06)
+- **Positions: ⚠️ STALE / NOT MANAGED** — May lines expired unlogged; Aug 21 lines unverified. Do not cite as current. → `STATUS.md` positions banner, `POSITIONS.md`
+- **Next hard catalyst: Q2 earnings Tue Jul 21, 2026** (call Jul 22) — pre-registered reads OZK-05→09 in `workbook/PREDICTIONS.tsv`, conviction-governing discriminator = OZK-07 (classified rising vs RESG falling). Then **IQHQ RaDD Aug 2026 maturity** — weighted EL $140M on $555M funded. → `IQHQ_PLAYBOOK.md`
 
 ---
 
 ## Data Ownership (no duplication)
 
+*Canonical full ownership table → `CLAUDE.md` §DOC OWNERSHIP. Quick version:*
+
 | Doc | Owns | Don't put here |
 |---|---|---|
-| `STATUS.md` | Current prices, thresholds, positions, Q1 26 dashboard | Thesis detail (→ THESIS), deep math (→ sub-docs) |
+| `STATUS.md` | Current prices, thresholds, positions, dashboard | Thesis detail (→ THESIS), deep math (→ sub-docs) |
 | `THESIS.md` | Structural bear case, channels, synthesis + pointers | Current numbers (→ STATUS), trajectory math (→ sub-docs) |
 | `CHANGELOG.md` | Thesis-level deltas w/ old vs new view, version pinning | Data (→ KB) or process notes |
 | `Q1_2026_ANALYSIS.md` | Q1 26 earnings print synthesis — actuals, management comments | Forward scenarios (→ IQHQ_PLAYBOOK, SCENARIOS) |
 | `IQHQ_PLAYBOOK.md` | RaDD Aug 2026 scenarios (A/B/C/D), weighted EL, sponsor stack | Other credits (→ SEVEN_CREDIT) |
-| `SEVEN_CREDIT_DEEP_DIVE.md` | 7 problem credits ($719M), severity math, sponsor IDs | IQHQ (→ IQHQ_PLAYBOOK) |
-| `THREAD3_ROLL_MATH.md` | Options roll math — May 15 position → Aug/Nov/Jan27 candidates | General position view (→ STATUS) |
-| `workbook/KB.tsv` | 185-row canonical evidence database | Narrative (→ THESIS) |
+| `SEVEN_CREDIT_DEEP_DIVE.md` | 11 tracked problem credits ($719M), severity math, sponsor IDs | IQHQ (→ IQHQ_PLAYBOOK) |
+| `CALENDAR.md` | Forward dates + thresholds, pure table | Narrative |
+| `workbook/KB.tsv` | Canonical evidence database (KB-OZK-xxx) | Narrative (→ THESIS) |
+| `workbook/PREDICTIONS.tsv` | Pre-registered falsifiable reads (OZK-01→09) | Analysis (→ research/) |
 
 ---
 
 ## Boot Sequence
 
-| Order | File | Time | What You Get |
-|-------|------|------|-------------|
-| 1 | `STATUS.md` | 2 min | Live dashboard, positions, catalyst list, Q1 26 summary |
-| 2 | `THESIS.md` | 5 min | Bear case w/ synthesis pointers to sub-docs |
-| 3 | `CHANGELOG.md` (v1.1 top entry) | 3 min | What changed this week + what was retracted |
-| 4 | `workbook/KB_INDEX.md` | 2 min | 17-cluster KB navigator |
-| — | Deep dive as needed | — | `Q1_2026_ANALYSIS.md`, `IQHQ_PLAYBOOK.md`, `SEVEN_CREDIT_DEEP_DIVE.md`, `THREAD3_ROLL_MATH.md` |
+**The canonical boot protocol lives in `CLAUDE.md` §SPAWN PROTOCOL** — git pull → `STATUS.md` → `LESSONS.md` → `CALENDAR.md` → `MEMORY.md` → `scripts/boot.py` (live prices + catalyst countdown + standing watch + inbox + staleness in ~10s).
 
-**Total cold-boot: ~12 min** for the current operational picture.
+For deeper cold-boot orientation after that:
+
+| Order | File | What You Get |
+|-------|------|-------------|
+| 1 | `THESIS.md` | Bear case w/ synthesis pointers to sub-docs |
+| 2 | `CHANGELOG.md` (top entry) | Latest thesis-level change + what was retracted |
+| 3 | `workbook/KB_INDEX.md` | KB cluster navigator |
+| — | Deep dive as needed | `Q1_2026_ANALYSIS.md`, `IQHQ_PLAYBOOK.md`, `SEVEN_CREDIT_DEEP_DIVE.md`, `WEAKNESSES.md` |
 
 ---
 
@@ -47,21 +51,27 @@
 | File | Description |
 |------|-------------|
 | `INDEX.md` | This file — nav only, no data |
-| `STATUS.md` | Live dashboard |
+| `STATUS.md` | Live dashboard (≤250 lines) |
+| `LESSONS.md` | Verified mistake patterns + prevention rules (boot read) |
+| `CALENDAR.md` | Forward dates + thresholds (boot read) |
+| `MEMORY.md` | Session handoff + Feedback/Findings (boot read) |
 | `THESIS.md` | Master bear case (synthesis + pointers pattern) |
 | `CHANGELOG.md` | Thesis audit trail — v1.3 current, v1.0 pinned |
+| `MAINTENANCE.md` | Structural-change log (docs/folders/scripts) — read when investigating structure |
 | `Q1_2026_ANALYSIS.md` | Most recent earnings synthesis (Apr 21 actuals) |
-| `TODO.md` | Cross-session planning doc (Will-owned) |
-| `workbook/KB.tsv` | 185-row evidence database |
+| `TODO.md` | Research queue + prioritization |
+| `POSITIONS.md` / `TRADE.md` | Option positions (⚠️ broker-stale) / trade ideas |
+| `scripts/boot.py` | Boot kit v0.1 — prices, catalysts, watch, inbox, staleness |
+| `workbook/KB.tsv` | Evidence database (200 rows / 28 groups as of 2026-07-06) |
 | `workbook/KB_INDEX.md` | KB cluster navigator |
+| `workbook/PREDICTIONS.tsv` | Pre-registered falsifiable reads OZK-01→09 (05-09 resolve at Q2 Jul 21) |
 
 ### Active deep dives (read on-demand)
 | File | When to Read |
 |------|-------------|
 | `IQHQ_PLAYBOOK.md` | Modeling Aug 2026 RaDD maturity scenarios |
-| `SEVEN_CREDIT_DEEP_DIVE.md` | Drilling into RESG problem credits |
-| `THREAD3_ROLL_MATH.md` | Options roll execution — live recommendation |
-| `WEAKNESSES.md` | Stress-testing the thesis (bull case steelman) |
+| `SEVEN_CREDIT_DEEP_DIVE.md` | Drilling into RESG problem credits (11 tracked, $719M) |
+| `WEAKNESSES.md` | Stress-testing the thesis (bull case steelman — C7 = RESG-runoff de-risking) |
 | `SCENARIOS.md` | Probability-weighted outcomes (⚠️ may be superseded by IQHQ_PLAYBOOK §3) |
 
 ### Research — rebuttals (bull case pressure-test)
@@ -81,12 +91,13 @@
 | `research/D5_DIVIDEND_SUSTAINABILITY.md` | Dividend cut probability model |
 | `research/D6_EXTEND_AND_PRETEND.md` | 590 mods, 98% classification gap, 59% re-default |
 
-### Research — post-Q1 threads (Apr 22-23, thesis v1.1 inputs)
+### Research — post-Q1 threads
 | File | Verdict |
 |------|---------|
 | `research/threads/IQHQ_SECONDARY_EXPOSURE.md` | NO EVIDENCE of second IQHQ credit — Rossow on-record to Bisnow confirms RaDD is sole |
 | `research/threads/CIB_MARGIN_COMPRESSION.md` | Vertical-specific (3/6 compressing), net-neutral, NIM drift 4.20% → 4.10-4.15% |
 | `research/threads/RESG_MIX_DETERIORATION.md` | Apr 22 linear projection RETRACTED (Apr 23). Real indicators: substandard migration, past-due regime change, NCO tempo. |
+| `research/threads/RESG_CONCENTRATION_VERIFICATION.md` | "88%" = phantom (no such disclosed figure). 6-qtr primary trend pinned: unfunded share 79%→60%, commitments −19% from peak, runoff H2'25-accelerating. Feeds the OZK-07 Jul-21 discriminator. (2026-07-04) |
 
 ### Research — other
 | File | Topic |
@@ -100,8 +111,8 @@
 |------|---------|
 | `LIFE_SCI/` | Lab market findings — RaDD, Campus at Horton, downtown SD vacancy, SD/Boston/Chicago $3.2B book |
 | `GEOGRAPHY/` | CRE exposure by metro (58 MSAs), FL paradox stress-test, regulatory district mismatch |
-| `INSIDERS/` | Insider trading analysis, FDIC EFR pulls, departures tracker |
-| `PRIVATE_CREDIT/` | Affinius/NDFI counterparty risk |
+| `INSIDERS/` | Insider trading analysis, FDIC EFR pulls (cert #110 — NOT SEC EDGAR), departures tracker |
+| `PRIVATE_CREDIT/` | Affinius/NDFI counterparty risk + `COUNTERPARTY_WATCH.md` (Bluerock TI+ node — TI+ NAV mark leads OZK RaDD credit) |
 
 ### Raw sources (don't read at boot)
 | Path | Content |
@@ -124,14 +135,17 @@
 | `archive/INSTITUTIONAL_OWNERSHIP_PLAN.md` | FDIC EFR + KB-142-146 work integrated — archived Phase 1 |
 | `archive/EXTERNAL_PROMPTS.md` | Q1 prompts resolved — archived Phase 1 |
 | `archive/MARKET/` | Mar 24 charts + abandoned trade log, superseded by darkpool/short_vol tools — archived Phase 3 |
+| `archive/THREAD3_ROLL_MATH.md` | May $42.5P roll math — dead (May 8 deadline + May 15 expiry passed unlogged) — archived 2026-07-06 |
+| `archive/AUDIT_2026-04-24.md` | One-off tree audit deliverable (was top-level `AUDIT.md`) — archived 2026-07-06 |
+| `archive/KB_INDEX_AUDIT.md` | Point-in-time KB index audit — archived 2026-07-06 (rollup drift it flagged was fixed same day) |
 
 ### Workbook
 | File | Content |
 |------|---------|
-| `workbook/KB.tsv` | 185-row evidence database (14-column schema) |
-| `workbook/KB_INDEX.md` | 17-cluster navigator |
-| `workbook/KB_MIGRATION_LOG.md`, `workbook/KB_INDEX_AUDIT.md` | Audit trails |
-| `workbook/PREDICTIONS.tsv` | Falsifiable predictions (REG-01 through REG-23) |
+| `workbook/KB.tsv` | Evidence database — 200 rows / 28 groups (as of 2026-07-06; 088/091 schema-repaired, 055/138 REFUTED-demoted 7/6) |
+| `workbook/KB_INDEX.md` | Cluster navigator (rollup drift fixed 7/6 — all 28 groups indexed) |
+| `workbook/KB_MIGRATION_LOG.md` | Audit trail (KB migration provenance) |
+| `workbook/PREDICTIONS.tsv` | Pre-registered falsifiable reads OZK-01→09 (05-09 + 01 resolve at Q2 print Jul 21) |
 
 ---
 
@@ -152,7 +166,9 @@
 
 *This file is the entry point. If you're an agent spawning cold, read this first, then follow the boot sequence.*
 
-**Last tree-hygiene pass: 2026-04-23 (Phase 1-3 restructure).**
+**Last tree-hygiene pass: 2026-07-06 (staleness sweep).** INDEX re-based (Call Report figures, boot.py sequence, PREDICTIONS OZK-01→09, KB 200/28); `THREAD3_ROLL_MATH.md` (dead — May roll passed) + `AUDIT.md` (→ `AUDIT_2026-04-24.md`) + `workbook/KB_INDEX_AUDIT.md` moved → `archive/`; refuted-figure sweep run (INSIDERS/TIMELINE Aug-2028 + 284K, THESIS/SCENARIOS re-based to Call Report, KB-055/138 demoted REFUTED); KB_INDEX 12 missing groups added; fresh FDIC insider pull integrated (INSIDERS/ refreshed, KB-200).
+
+**Prior pass: 2026-04-23 (Phase 1-3 restructure).**
 - **Phase 1** — 4 top-level orphans → `archive/` (AUDIT_MAR25, TEMPLE8, INSTITUTIONAL_OWNERSHIP_PLAN, EXTERNAL_PROMPTS). 15 → 11 top-level .md files.
 - **Phase 2** — `sources/` prune: 50+ files → 10 primary-source extracts. Raw LLM outputs (30 files) → `raw/llm_outputs/`. Raw OZK PDFs renamed to snake_case in `raw/`. 15 superseded V1-V3 drafts deleted (~2,700 lines). Earnings call transcript → `raw/Q1_2026_earnings_call_transcript.md`.
 - **Phase 3** — Subdomain cleanup: `MARKET/` → `archive/MARKET/` (abandoned Mar 24). `GEOGRAPHY/FL_PARADOX/` sub-sub flattened to single `GEOGRAPHY/FL_PARADOX.md`. 5 → 4 subdomains.

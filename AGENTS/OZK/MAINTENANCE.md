@@ -4,6 +4,18 @@
 
 ---
 
+### 2026-07-06 — Staleness sweep (Will-directed): archive moves, KB schema repair, index re-base, new primary-source channel
+- **Trigger:** Will asked for a tree-wide stale-info sweep + inbox check. Found an April-era band of docs that never received the 7/4 revival corrections.
+- **Archive moves (git mv):** `THREAD3_ROLL_MATH.md` → `archive/` (dead — May roll passed unlogged); `AUDIT.md` → `archive/AUDIT_2026-04-24.md`; `workbook/KB_INDEX_AUDIT.md` → `archive/` (drift it flagged was fixed same day). Pointers updated in INDEX/TODO/CLAUDE.md.
+- **KB.tsv schema repair:** rows 088/091 fixed (were 12-col — missing empty Vectors field, Notes had slid left); 055/138 demoted ACTIVE → REFUTED (Aug-2028 extension claim, refuted by Q1'26 call primary); KB-200 added (insider refresh); KB-200 group typo fixed (INSIDERS→INSIDER). Now 200 rows / 28 groups / 0 malformed.
+- **KB_INDEX.md restructure:** new "Post-Q1 / Revival Clusters" section — the 12 groups that existed in KB.tsv but were never indexed (TODO §H1 Phases 2-4+6, now closed). Phase-2 decision: singletons stay standalone (no fold, no KB churn).
+- **New primary-source channel:** `raw/Q1_2026_10Q.pdf` (60 pp, filed 5/6) retrieved via the **FDIC securities-filings JSON API** (see MEMORY Findings 7/6) — first scripted retrieval; bypasses the 403'd IR page. Insider Form 4 pipeline now one-command.
+- **Boot-impact:** none structural. CLAUDE.md FILES table updated (THREAD3 row removed); core-thesis line re-based to Call Report figures; EFR URL modernized.
+- **Content re-bases (analytical log → CHANGELOG v1.4):** THESIS/SCENARIOS/INDEX/subdomain STATUS files re-based to Call Report primary ($487.5M/1.48% past-due, 0.56% NCO); Boston-sponsor erroneous 7/4 re-open reconciled (resolved 4/23 via UCC-1, KB-195); Lincoln Yards 284K→320K residue fixed in SEVEN_CREDIT roster + TIMELINE; INSIDERS refreshed from fresh pull (16 new Form 4s).
+- **Lessons:** (a) partial propagation is the dominant failure mode — three separate instances found (SEVEN_CREDIT roster vs dossier; STATUS re-open vs TODO resolution; GEOGRAPHY "Lincoln Yards sold" vs foreclosed). Fix = sweep ALL surfaces carrying a corrected figure, not just the doc where the correction landed. (b) A revival re-baseline can itself introduce errors by keying off stale secondary surfaces — verify against the resolution doc before re-opening a closed question.
+
+---
+
 ### 2026-07-04 — `scripts/boot.py` v0.1 added (boot kit)
 - **Trigger:** Will parity build — mature agents (VIOLET/BRENT/SAM) each have a one-command `scripts/boot.py`; OZK had none (booted manually off shared `market.py`).
 - **What changed:** Created `scripts/` dir + `boot.py` v0.1 — self-contained (~150 lines): live prices via FORGE `fetch.py --json` (OZK + bank cohort, price-band + big-move flags), catalyst countdown (inlined list, trading-day counts, ⏰≤14d), standing-watch reminders (NCO kill-line / past-due / IQHQ reserve), inbox scan, STATUS/CALENDAR staleness. `--verbose` + `--horizon N` flags. Tested both modes clean.

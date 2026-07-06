@@ -1,6 +1,6 @@
 # KB.tsv — Group Index
 
-**Updated:** 2026-04-24 | **Total rows:** 195 | **Groups:** 28
+**Updated:** 2026-07-06 (rollup drift fixed: 12 previously-unindexed groups added below; rows 196–200 integrated; 088/091 schema-repaired; 055/138 demoted REFUTED) | **Total rows:** 200 | **Groups:** 28
 
 Navigate the KB by investigation cluster. Each group maps to a folder or research file where the full synthesis lives.
 
@@ -21,9 +21,9 @@ Navigate the KB by investigation cluster. Each group maps to a folder or researc
 |-------|------|-------|---------------|----------------|
 | **EXTEND_PRETEND** | 096–097, 099–104, 176 | 9 | **research/D6_EXTEND_AND_PRETEND.md** | 590 mods, 98% classification gap, 59% re-default, NPL forensics, Schaffer's Mill workout-tempo evidence. (098 cross-listed → MGMT_CREDIBILITY) |
 | **DISTRESSED_LOANS** | 028–036 | 9 | THESIS.md (evidence) | Named problem loans: IQHQ RaDD, Sterling Bay, Boston, Seattle, Santa Monica |
-| **LIFE_SCI** | 094–095, 117, 137–141, 147–159, 189–191, 194–195 | 26 | **LIFE_SCI/FINDINGS.md** | $3.2B life sci, RaDD 3.3% leased + $1.23B total debt (15% PIK mezz accruing $76M), national bottoming 23.0%, SD rents 14th decline, Sorrento 38.2%, Boston ATH 28-34%, Bay Area first recovery, VC→AI crowding, Pacific Center sold, Temple 8 short, M&A $240B driving sublease, Boston 16.5M SF pipeline. Q1 26 adds: Boston Life Sci $169M substandard (sponsor confirmed), Seattle U Dist $127M, Chicago Life Sci $50M foreclosed, Ten Prospect sponsor correction. |
+| **LIFE_SCI** | 094–095, 117, 137–141, 147–159, 189–191, 194–195, 199 | 27 | **LIFE_SCI/FINDINGS.md** | $3.2B life sci, RaDD 3.3% leased + $1.23B total debt (15% PIK mezz accruing $76M), national bottoming 23.0%, SD rents 14th decline, Sorrento 38.2%, Boston ATH 28-34%, Bay Area first recovery, VC→AI crowding, Pacific Center sold, Temple 8 short, M&A $240B driving sublease, Boston 16.5M SF pipeline. Q1 26 adds: Boston Life Sci $169M substandard (sponsor confirmed), Seattle U Dist $127M, Chicago Life Sci $50M foreclosed, Ten Prospect sponsor correction. 7/4 add: 199 Sterling Bay forced-resolution pattern (Pacific Center SVP sale + Lincoln Yards 320K foreclosure). ⚠️ 138 REFUTED 7/6 (Aug-2028 extension claim — maturity is Aug 2026). |
 | **MGMT_CREDIBILITY** | 037–041, 069, 085, 093, 098 | 9 | THESIS.md (narrative) | "No concessions" contradiction, CFO selling, buyback non-use |
-| **INSIDER** | 142–145 | 4 | raw/llm_outputs/OZK_INSIDER_claude_prompt16.md | ZERO insider buys 18mo, 65:1 sell ratio, CRO filled (Majumdar), Mar 11 mass filing, Gleason "most uncertain time in 45yr career" |
+| **INSIDER** | 142–145, 200 | 5 | **INSIDERS/SELLING.md** (current) + raw/llm_outputs/OZK_INSIDER_claude_prompt16.md | ZERO insider buys (streak intact through 7/6/26), CRO Majumdar 2 discretionary sales (Feb 419 + May 827 = ~32% lighter), Kenny 3rd-straight grant flip, Brown 401(k) exit at $52.12, Gleason frozen since Jul 2023 |
 
 ## Thesis Layer 3: Catalyst & Timing
 
@@ -49,12 +49,20 @@ Navigate the KB by investigation cluster. Each group maps to a folder or researc
 
 | Group | Rows | Count | Folder / File | What It Covers |
 |-------|------|-------|---------------|----------------|
-| **BULL_COUNTER** | 051–055, 064–068, 070–073, 079, 092, 106 | 17 | research/C1-C3 + WEAKNESSES.md | GFC track record (11bps 22yr avg), record EPS $6.18, $1.3B sponsor extractions, 45.9% LTC, thin EV edge |
+| **BULL_COUNTER** | 051–055, 064–068, 070–073, 079, 092, 106 | 17 | research/C1-C3 + WEAKNESSES.md | GFC track record (11bps 22yr avg), record EPS $6.18, $1.3B sponsor extractions, 45.9% LTC, thin EV edge. ⚠️ 055 REFUTED 7/6 (Aug-2028 extension claim — maturity is Aug 2026 per Q1'26 call primary). |
 | **GAP** | 056–060 | 5 | GAP_ANALYSIS_REPORT.md | Known data gaps: short interest undated, IQHQ leasing unknown, Form 4 stale |
 
----
+## Post-Q1 / Revival Clusters *(section added 2026-07-06 — these 12 groups existed in KB.tsv but were never indexed; the "28 groups" header claim now matches the tables)*
 
-## Standalone Research (not tied to a single KB group)
+| Group | Rows | Count | Folder / File | What It Covers |
+|-------|------|-------|---------------|----------------|
+| **AFFINIUS** | 165–170 | 6 | PRIVATE_CREDIT/ | Affinius Capital: corporate bonds, Oct 2026 $2.7B structured maturity (OZK exposure UNVERIFIED), Veris acquisition, OZK co-lending, Columbus Center foreclosure |
+| **SELLSIDE** | 171–175 | 5 | WEAKNESSES.md | Street consensus Apr 2026, UBS Apr 7, Citi Sell maintained, institutional adds, ratings timeline |
+| **RESG_MIX** | 182, 184–185, 196 | 4 | research/threads/RESG_MIX_DETERIORATION.md + RESG_CONCENTRATION_VERIFICATION.md | Problem-category share band 27-31%, 8Q projection (retracted), 6-qtr stability, RESG concentration trend (79%→60% unfunded share, −19% commitments) |
+| **FAILURE_COMP** | 161–164 | 4 | THESIS.md (peer context) | Metropolitan Capital failure comp (39.6% MI3, failed Jan 30 2026), MCB active comp, reserve-inversion comp |
+| **PRIVATE_CREDIT** | 186–188 | 3 | PRIVATE_CREDIT/ + LESSONS.md | Fund Finance pullback (Munn Q1 call, verbal-only), LFG compression, asymmetric disclosure pattern |
+| **IQHQ** | 178, 197–198 | 3 | IQHQ_PLAYBOOK.md | Rossow sole-exposure confirmation, Bluerock TI+ entity structure (7/4 correction), Aimco MTD status (no ruling 7/4) |
+| **Singleton groups** | 160 (SHORT_INTEREST), 177 (DISTRESSED_COMPS), 179 (SEVEN_CREDIT), 180 (CIB), 181 (NIM), 183 (TRANSCRIPT) | 6 | respective owner docs | SI ~14-15% (Mar 25, stale), 2025-26 severity bands (29-40%), Boynton Yards sponsor confirm, CIB 3/6 vertical compression, Q1 26 NIM decomp 4.20%, Hamblen "MF heaviest payoff" quote |
 
 These research files exist in `research/` but span multiple KB groups or predate the KB system. They're indexed in `INDEX.md` but not directly reachable from the group tables above.
 

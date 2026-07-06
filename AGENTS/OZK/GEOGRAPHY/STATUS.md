@@ -1,5 +1,5 @@
 # GEOGRAPHY STATUS
-**Updated:** 2026-04-23 (Q1 2026 earnings integration — 3 new metro stress adds) | Prior refresh: 2026-03-24
+**Updated:** 2026-07-06 (staleness stamp + 2 corrections: Boston sponsor resolved, Lincoln Yards foreclosed-not-sold) | Prior refresh: 2026-04-23
 
 ## Assessment: 🔴 Risk is surgical — 24% of RESG (life sci + office) holds 100% of identified distress
 
@@ -23,9 +23,9 @@ The geographic research is the most complete view of OZK's loan book available o
 
 **Distressed clusters (~$3.1-3.3B post-Q1 26, 5 metros):**
 - **San Diego: ~$1.4B** — 30%+ vacancy, caps 4.4%→6.6%, RaDD as-market value $320-490M vs $915M loan. Aug 2026 RaDD maturity is the binary catalyst.
-- **Boston: ~$870M+** — $72.4M Sullivan charged off; 🆕 **$169M Boston Life Sci added Q1 26** (substandard accrual, matured Dec 18 2025, sponsor ID pending US2 vs Leggat McCall).
+- **Boston: ~$870M+** — $72.4M Sullivan charged off; 🆕 **$169M Boston Life Sci added Q1 26** (substandard accrual, matured Dec 18 2025; sponsor **RESOLVED 4/23 via UCC-1**: 10 Prospect St / USQ D2.1 / Magellan+RAS+Cypress+Affinius JV [KB-195]).
 - **Seattle: ~$360M+** — The Jack LTV 111%, Chapter Bldg appears empty, plus 🆕 **$127M Seattle U District combined Q1 26** ($76M Office + $50M Life Sci, **signed LOI for recap**). Bullish marker on the Life Sci piece, bearish on the Office piece (100% LTV).
-- **Chicago: ~$450M** — Earlier cohort mostly resolved (One Chicago $475M repaid, Lincoln Yards sold), but 🆕 **$50M Life Sci foreclosed added Q1 26** (68% of May '25 appraisal, prior short sale failed).
+- **Chicago: ~$450M** — Earlier cohort mostly resolved (One Chicago $475M repaid via CMBS), but 🆕 **$50M Life Sci foreclosed added Q1 26** — this IS Lincoln Yards 1229 W Concord (**foreclosed via deed-in-lieu Mar 2026, not sold**; 320K SF, 100% vacant, OZK owns via BOTO Strategic Properties IV; 68% of May '25 appraisal, prior short sale failed) [KB-094/199 corrected 7/6]. *(The loan SOLD was Pacific Center, San Diego — $265M to SVP Jan 2026.)*
 - **Los Angeles: ~$185M+** — Two nonaccruals + LA Land $54.5M OREO, plus 🆕 **Santa Monica Office $45M foreclosed Q1 26** (**only 15% leased**, $5M charge-off on transfer).
 
 **Bull corrections found (retained):**

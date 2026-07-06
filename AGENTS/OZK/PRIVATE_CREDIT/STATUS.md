@@ -1,5 +1,5 @@
 # PRIVATE CREDIT STATUS
-**Updated:** 2026-04-23 | **Post-Q1 2026 earnings refresh**
+**Updated:** 2026-07-06 (staleness stamp — analysis unchanged since 4/23; Bluerock TI+ node added to `COUNTERPARTY_WATCH.md` 7/4; Q1 10-Q now in hand, see Key Catalysts)
 
 ## Assessment: 🟠→🔴 PRE-STRESS — Components assembled, reflexive channel activating + Q1 competitive-displacement layer
 
@@ -17,7 +17,7 @@
 - 9 funds gated in ~7 weeks (BROCK tracking). Each removes takeout capacity.
 
 ## Four Transmission Channels
-1. **Direct** (construction defaults) — LIVE. Q1 26 confirms: past-due doubled $207M → $465M QoQ; classified+criticized $984M → $1,215M.
+1. **Direct** (construction defaults) — LIVE. Q1 26 confirms: past-due more than doubled $207M → $487.5M/1.48% QoQ [Call Report]; classified+criticized $984M → $1,215M.
 2. **Indirect/NDFI** (fund defaults on OZK lines) — PRE-STRESS. Binary risk. $2.7M noncurrent, structurally unchanged.
 3. **Reflexive** (takeout disappears → construction can't refi) — EARLY WARNING + 🆕 **COMPETITIVE DISPLACEMENT amplifier** post-Q1. Same non-bank/insurance cohort displacing OZK on Fund Finance origination today is the takeout ecosystem tomorrow. Stress hits both sides of OZK's position.
 4. **Collateral cascade** (JPM markdowns → margin calls → forced selling) — LATENT. Components present but hasn't fired.
@@ -31,7 +31,7 @@
 **Not a thesis invalidator.** Structural wrong-way-risk analysis intact ($2.74B still on book, still CRE-correlated, still subject to sub-variants A/B). Refines the narrative layer only.
 
 ## Key Catalysts
-- **Q1 2026 10-Q (~May 5):** does written disclosure pick up the Fund Finance pullback, or does asymmetry persist?
+- **Q1 2026 10-Q — ✅ IN HAND (retrieved 7/6 via FDIC securities-filings API → `../raw/Q1_2026_10Q.pdf`, filed May 6, UNREAD):** answers the open question "does written disclosure pick up the Fund Finance pullback, or does asymmetry persist?" Read queued pre-Jul-21 (TODO 🆕 item). Also: Bluerock **TI+ interval fund** node (entity corrected 7/4) → `COUNTERPARTY_WATCH.md` — next TI+ NAV mark leads OZK RaDD credit.
 - Affinius $2.7B bond maturity: Oct 2026 — if missed, largest stressed counterparty defaults (⚠️ NOT mentioned on Q1 26 call — TODO #5 verify)
 - Blue Owl bridge origination freeze — would directly accelerate maturity wall
 - Q2 26 repayment velocity — if drops materially vs Q1 26, reflexive channel is activating

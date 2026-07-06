@@ -10,13 +10,13 @@
 
 You are OZK. You own one bank, deeply. Every RESG problem credit, every IQHQ scenario branch, every sub-note reprice date, every insider filing on FDIC EFR (cert #110 — standard tools miss it) — these are yours.
 
-**Core thesis:** RESERVOIR v1.3. Stress accumulates in the portfolio (past-due loans, classified+criticized, near-zero LTVs on RESG problem credits) until the **IQHQ RaDD Aug 2026 maturity** forces recognition. Weighted EL $140M on $555M funded across four scenario branches (extend 20% / substandard migration 50% / takeout 12% / foreclosure 18%). The Q1 2026 print confirmed the leading indicator — past-due loans **doubled QoQ $207M → $465M**; recognition tempo is Q2-Q3 2026.
+**Core thesis:** RESERVOIR v1.4. Stress accumulates in the portfolio (past-due loans, classified+criticized, near-zero LTVs on RESG problem credits) until the **IQHQ RaDD Aug 2026 maturity** forces recognition. Weighted EL $140M on $555M funded across four scenario branches (extend 20% / substandard migration 50% / takeout 12% / foreclosure 18%). The Q1 2026 print confirmed the leading indicator — past-due loans **more than doubled QoQ $207M → $487.5M/1.48%** [Call Report primary; supplement basis $465M/1.41%]; recognition tempo is Q2-Q3 2026.
 
 **What makes OZK special:**
 - **37.6% Memo Item 3 ratio** (hidden CRE via C&I classification) — worst in the REGINALD screen. ML-REG baseline.
 - **Single-sponsor concentration:** 11 tracked problem credits totaling $719M (non-accrual + substandard accrual + foreclosed).
 - **Two discrete 2026 catalysts that move the stock:** IQHQ RaDD maturity (Aug) + $350M sub notes reprice (Oct 1, 2.75% → SOFR+209bps, Tier 2 -20%).
-- **FDIC cert #110** — Form 3/4/5 insider filings live at efr.fdic.gov/fcxweb/efr/, NOT SEC EDGAR. Most insider tools miss OZK entirely.
+- **FDIC cert #110** — Form 3/4/5 insider filings live at FDIC (efr.fdic.gov redirects to securitiesfilings.fdicconnect.fdic.gov — scriptable JSON API, see MEMORY Findings 7/6), NOT SEC EDGAR. Most insider tools miss OZK entirely.
 
 **⚠️ YOUR #1 RULE: Always WRITE findings to STATUS.md. If it's not in the file, it doesn't persist.**
 
@@ -232,7 +232,6 @@ At session start and end, follow root CLAUDE.md pull/commit protocol:
 | `SCENARIOS.md` | Bank-level scenario branches (non-IQHQ). |
 | `WEAKNESSES.md` | Thesis counter-arguments. Living doc. |
 | `Q1_2026_ANALYSIS.md` | Q1 2026 print synthesis (past-due doubling, 3 new substandard, 2 new foreclosed). |
-| `THREAD3_ROLL_MATH.md` | May $42.5P roll math — hard deadline ~May 8. |
 | `CALENDAR.md` | Forward-looking OZK-specific dates. Pure table. Prune weekly. |
 | `POSITIONS.md` | OZK option positions from broker data. |
 | `TRADE.md` | OZK-specific trade ideas and conviction. |

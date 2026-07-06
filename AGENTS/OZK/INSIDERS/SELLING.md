@@ -1,13 +1,27 @@
 # OZK — Insider Selling Tracker
 
-**Last Updated:** 2026-04-12
-**Sources:** FDIC EFR (efr.fdic.gov — OZK files with FDIC, NOT SEC EDGAR), GuruFocus, INSIDER_ACTIVITY_COMPILED.md, INSIDER_SCAN_OZK.md
+**Last Updated:** 2026-07-06 (fresh API pull — 16 new Form 4s since Apr 12)
+**Sources:** FDIC securities-filings API (`securitiesfilings.fdicconnect.fdic.gov/api/instdiscl/cert/110` — old efr.fdic.gov URL redirects here; fully scriptable, incl. attachment PDFs. See MEMORY Findings 7/6), GuruFocus, INSIDER_ACTIVITY_COMPILED.md, INSIDER_SCAN_OZK.md
 **Data Gap Fixed:** OZK dissolved its holding company in 2017 and files Form 3/4/5 with the FDIC (cert #110), not SEC EDGAR. Standard insider tracking tools (OpenInsider, Fintel, etc.) miss OZK entirely. FDIC EFR is the authoritative source.
-**Score:** 🔴 FULL CONVERGENCE (Score 13) — All C-suite sells, zero buys across 12 months, CRO sold discretionarily during reserve cuts.
+**Score:** 🔴 FULL CONVERGENCE (Score 13) — All C-suite sells, zero buys; **pattern EXTENDED at 7/6 pull: CRO 2nd discretionary sale, Kenny 3rd-straight grant flip, zero buying continues.**
 
 ---
 
 ## Form 4 Activity Log
+
+### 🆕 Q2 2026 UPDATE (pulled 2026-07-06 — activity Apr 12 → Jul 6)
+
+| Txn Date | Insider | Action | Shares | Price | Post-txn | Read |
+|---|---|---|---|---|---|---|
+| **2026-05-20** | **Majumdar (CRO)** | **SELL** | **827** | **$48.07** | 2,639 | 🔴 **2nd discretionary sale** (Feb 24: 419 = 10.78%; now 827 ≈ 24% of remaining). CRO cumulatively ~32% lighter since Feb. Not in the 5/18 grant batch — this is not grant-flipping; continued de-risking by the bank's risk officer into the pre-Q2/IQHQ window. |
+| **2026-05-22** | Dir. Kenny | SELL | 1,500 | $47.81 | 7,621 | 🟠 **3rd consecutive annual grant flip** — received 2,113 on 5/18, sold 1,500 (71%) within 4 days (2024: 86% in 7d; 2025: 38% in 5wk). Comp-as-paycheck pattern intact. |
+| **2026-06-12** | Helen W. Brown (officer) | SELL — 401(k) intra-plan transfer OUT of OZK stock | 4,317 | $52.12 | 2,791 (line) | 🟠 Discretionary (Rule 16b-3(f) exempt), executed **at the June high** ($52.12; OZK closed $52.09 on 6/30 before the 7/2 −5.7% drop). Well-timed exit within the plan. |
+| **2026-04-28** | Dir. East | SELL | 1,000 | n/d | 147,724 (+1,400 ind. +20,389 pref.) | 🟡 ~0.7% of holdings — low signal. |
+| 2026-05-18 | 12 directors/officers | GRANT | 2,113 each | $0 | — | Routine annual equity grant (2019 Omnibus Plan) after the 5/18 annual meeting (vote-results 8-K 5/19). Not a signal — except as feedstock for Kenny's flip. Recipients: N. Brown, Cholmondeley, East, Fabrega, Franklin, Gearhart, Kenny, Koefoed, Musico, Orndorff, Sadoff, Whipple. |
+
+**Zero insider buying continues** through Jul 6. **Gleason still frozen** — no Form 4 since Jul 2023.
+
+---
 
 ### CRO Majumdar — 🔴 STRONGEST SIGNAL
 
@@ -24,6 +38,8 @@
 | **Context** | Same quarter bank cut ACL by $56.6M while noncurrent doubled. 75% of noncurrent concentrated in other nonfarm nonresidential CRE. The risk officer reducing personal exposure without automatic plan cover, while managing the bank's credit risk function. |
 
 **Assessment:** Strongest single insider signal in the screen. Discretionary CRO sell during reserve cuts = maximum signal per scoring framework.
+
+**🆕 UPDATE 7/6:** Majumdar sold AGAIN — 827 shares @ $48.07 on 2026-05-20 (≈24% of remaining; post-txn 2,639). Two discretionary sales in three months, cumulative ~32% reduction since February, with the IQHQ RaDD maturity and Q2 print inside 90 days. Signal upgraded from "strongest single event" to **active pattern**.
 
 ---
 
@@ -102,12 +118,14 @@
 | Jun 12, 2025 | SELL (S) | -782 | $45.16 | 7,543 | Multiple trades $45.15-$45.18 |
 | Oct 23, 2025 | SELL (S) | -350 | $45.51 | 7,193 | |
 | Jan 30, 2026 | SELL (S) | -185 | $47.54 | 7,008 | |
+| **May 18, 2026** | GRANT (A) | +2,113 | $0 | 9,121 | 2019 Omnibus Plan annual grant |
+| **May 22, 2026** | SELL (S) | -1,500 | $47.81 | 7,621 | **71% of grant sold within 4 days** |
 
-**Totals:**
-- Grants received: 3,725 shares ($0 cost)
-- Shares sold: 3,770 shares (~$173,600 proceeds)
-- Net: -45 shares (sold MORE than received)
-- Starting position: 7,053 → Current: 7,008
+**Totals (through 7/6/26):**
+- Grants received: 5,838 shares ($0 cost)
+- Shares sold: 5,270 shares (~$245K proceeds)
+- Net: +568 shares vs pre-2024 baseline of 7,053 → current 7,621
+- Three consecutive years of grant-flipping (86% in 7d / 38% in 5wk / 71% in 4d)
 
 **Assessment:** Director treating equity compensation as cash paycheck. Every grant followed by immediate selling. Net position declined despite receiving ~$170K in free stock over 2 years. Zero open-market purchases. Not the behavior of a director who believes the stock is undervalued.
 
@@ -211,23 +229,24 @@
 
 ## What Would Change the Score
 
-- **Any insider purchase** at current levels (~$42-44) = material counter-signal, drops score significantly
-- **10b5-1 plan disclosure** for Majumdar's Feb sale (if retroactively revealed) = downgrades from discretionary to planned
+- **Any insider purchase** at current levels (~$49-50) = material counter-signal, drops score significantly
+- **10b5-1 plan disclosure** for Majumdar's Feb or May sale (if retroactively revealed) = downgrades from discretionary to planned
 - **Gleason open-market purchase** = strongest possible counter-signal
 - **New selling** = confirms trajectory but already at max convergence
 
 ---
 
-## Pre-Earnings Action
+## Pull Log
 
-**FDIC EFR pull completed Apr 12, 2026 (cert #110).** Full Form 4 history reviewed. Results:
-- 18 Form 4 filings in 2026 (all sells or comp grants)
+**2026-07-06 pull (API, cert #110):** 16 new Form 4s since Apr 12 — see 🆕 Q2 2026 UPDATE table above. Key: Majumdar 2nd sale (5/20), Kenny grant-flip #3 (5/22), Brown 401(k) transfer-out at $52.12 (6/12), East 1,000 (4/28), 12× routine annual grants (5/18). Zero buys. **Pre-Q2 insider window closes ~Jul 7** (14 days before Jul 21 earnings) — any late filings before the print would be notable.
+**Next:** Re-pull after Jul 21 earnings (one command: `curl -s -A "Mozilla/5.0" "https://securitiesfilings.fdicconnect.fdic.gov/api/instdiscl/cert/110"`).
+
+**2026-04-12 pull (FDIC EFR, cert #110).** Full Form 4 history reviewed. Results:
+- 18 Form 4 filings in 2026 YTD at that point (all sells or comp grants)
 - Zero insider purchases
 - Gleason: zero Form 4 filings going back to at least Jul 2023
 - Mar 11, 2026 batch (10 filers): likely annual comp event — Hamblen, Hicks, Brown, Thomas, Wolfe, Carter, Cathey, Gotham, Orndorff, Taylor
-- Last pre-earnings window closes ~Apr 7 (14 days before Apr 21 earnings). No buying detected.
-
-**Next:** Re-check FDIC EFR after Apr 21 earnings for any post-earnings transactions.
+- Pre-Q1-earnings window closed ~Apr 7. No buying detected.
 
 ---
 

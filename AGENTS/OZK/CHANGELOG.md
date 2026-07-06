@@ -15,6 +15,25 @@ A new entry must describe:
 
 ---
 
+## v1.4 — 2026-07-06 (staleness sweep: figures re-based to Call Report primary; prediction cross-refs re-wired)
+
+### Summary
+No thesis-direction change. Housekeeping refinement from the 7/6 staleness sweep: (a) all Q1'26 figures in THESIS re-based from the supplement basis ($465M/1.41% past-due, 0.57% NCO) to the **FDIC Call Report primary ($487.5M/1.48%, 0.56%)** adopted as canonical on 7/4 (definitional fork noted where relevant); (b) stale prediction cross-refs (REG-22/REG-23 — extracted to OZK-03/OZK-04 on 4/24) re-wired to the live OZK-xx rows, and the 7/4 pre-registered Jul-21 reads (OZK-05→09) linked from Migration Velocity + Invalidation sections.
+
+### Changes
+
+**1. Figure re-base** *(NO analytical change — same underlying quarter, standardized primary source)*
+- Past-due Q1'26: $465M/1.41% → **$487.5M/1.48%** [Call Report REPDTE 20260331] in wave-1 summary, migration table, bull-rebuttal row, Invalidation §1. "10x in 6 months" → ">10x" (46→487.5 = 10.6x).
+- NCO Q1'26: 0.57% → **0.56%** [Call Report] in wave-1 summary, ACL-thinning bull-pushback paragraph, Invalidation §2 — framing sharpened to "1bp above the ≤55bps kill line."
+- **Invalidation §1 threshold (<$400M) deliberately kept unchanged** — set 4/23 on the supplement basis; re-basing the baseline doesn't move a pre-registered threshold.
+
+**2. Cross-ref re-wire** *(navigation integrity)*
+- REG-23 → **OZK-04** (re-scoped 7/4 to RESG-roster/commitments basis, 60%); REG-22 → **OZK-03** (+ **OZK-05** Q2 read); Invalidation §1 → **OZK-06**; Migration Velocity now points at the **OZK-05→09 Jul-21 pre-registration block** (conviction-governing: OZK-07).
+
+- **Position implication:** Unchanged. Same data, standardized basis; all thresholds intact.
+
+---
+
 ## v1.3 — 2026-04-23 (audit-driven: Q1 NCO engaged, unverified claims removed, SCENARIOS reweighted)
 
 ### Summary

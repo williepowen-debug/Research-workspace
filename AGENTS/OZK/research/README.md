@@ -35,7 +35,16 @@ Original analysis produced by the agent network. Each file is a standalone deep 
 | **D6** | **Extend-and-pretend: 590 mods, 98% classification gap, 59% re-default. Thesis Layer 2 (mechanism).** |
 | 8K Framework | Forced disclosure triggers and timeline |
 | NDFI Analysis | Shadow CRE in non-depository financial institution loans |
-| Insider Activity | Form 4 compilation |
+| Insider Activity | Form 4 compilation (superseded for currency by `../INSIDERS/SELLING.md` pull log) |
+
+## Threads (`threads/` — post-Q1 2026 research) *(section added 2026-07-06)*
+
+| File | Verdict / Status |
+|------|------|
+| `threads/IQHQ_SECONDARY_EXPOSURE.md` | CLOSED — no second IQHQ credit (Rossow on-record: RaDD is sole exposure) |
+| `threads/CIB_MARGIN_COMPRESSION.md` | CLOSED — vertical-specific (3/6 compressing), net-neutral; NIM drift 4.20% → 4.10-4.15% |
+| `threads/RESG_MIX_DETERIORATION.md` | REVISED — Apr 22 linear projection retracted Apr 23; real indicators = substandard migration, past-due regime change, NCO tempo |
+| `threads/RESG_CONCENTRATION_VERIFICATION.md` | ACTIVE (2026-07-04) — "88%" = phantom; 6-qtr primary trend pinned (unfunded share 79%→60%, commitments −19%); feeds the OZK-07 Jul-21 discriminator |
 
 ---
 

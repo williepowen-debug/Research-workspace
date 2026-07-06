@@ -1,7 +1,7 @@
 # OZK — Dashboard
 
-**Updated:** 2026-07-04 (revival re-baseline; prior touch 2026-04-24, 71d cold) | **Price:** $49.84 (7/2 close, **−5.70% idiosyncratic**; +1.95% AH → ~$50.81) | **TBV:** $47.15 [Q1'26] | **P/TBV:** ~1.06×
-**Thesis:** RESERVOIR v1.3 | **Conviction:** 🔴🔴 HIGH | **KB:** 195 rows / 28 groups
+**Updated:** 2026-07-06 (staleness sweep — see MAINTENANCE.md) | **Price:** $49.65 [7/6 live, −0.38%; 7/2 −5.70% drop resolved = positioning, AH bounce didn't hold] | **TBV:** $47.15 [Q1'26] | **P/TBV:** ~1.05×
+**Thesis:** RESERVOIR v1.4 (7/6 figure re-base — no direction change) | **Conviction:** 🔴🔴 HIGH | **KB:** 199 rows / 28 groups
 **Next hard catalyst:** OZK **Q2 earnings Tue Jul 21, 2026** (call Jul 22) → dress rehearsal for **IQHQ RaDD maturity Aug 2026** (weighted EL $140M on $555M funded)
 
 > **⚠️ REVIVAL NOTE (2026-07-04):** 71-day cold boot. STATUS re-baselined this session off: live price, PROME-verified Q1 Call Report figures, and a web sweep of all post-Apr developments (Q2 date, KBRA, capital returns, IQHQ/Bluerock/Aimco/WAL outcomes). Thesis docs (THESIS/IQHQ_PLAYBOOK/SEVEN_CREDIT) logic intact; IQHQ Aug-2026 maturity **re-confirmed from primary transcript this session**. Open verifications flagged in §Open Items.
@@ -37,7 +37,7 @@
 | CET1 | 11.64% | Buffer intact | — |
 | TBV/share | $47.15 | +11% YoY | Buybacks at $45.51 avg |
 
-**3 new substandard (Q1):** 2 Seattle U District (Office $76M + Life Sci $50M, signed LOI recap) + 1 Boston Life Sci $169M (matured Dec 18 2025 — sponsor ID open). **2 new foreclosed:** Chicago Life Sci $50M · Santa Monica Office $45M (15% leased, $5M charge-off). **Near-zero LTVs:** Boston Office 95% · Seattle Pioneer 100% · Wauwatosa Hotel 103%. All 11 tracked credits ($719M) → `SEVEN_CREDIT_DEEP_DIVE.md`.
+**3 new substandard (Q1):** 2 Seattle U District (Office $76M + Life Sci $50M, signed LOI recap) + 1 Boston Life Sci $169M (matured Dec 18 2025 — sponsor **RESOLVED 4/23 via UCC-1**: 10 Prospect St / USQ D2.1 / Magellan+RAS+Cypress+Affinius JV [KB-195]; 7/4 "open" flag was an erroneous re-open, reconciled 7/6). **2 new foreclosed:** Chicago Life Sci $50M · Santa Monica Office $45M (15% leased, $5M charge-off). **Near-zero LTVs:** Boston Office 95% · Seattle Pioneer 100% · Wauwatosa Hotel 103%. All 11 tracked credits ($719M) → `SEVEN_CREDIT_DEEP_DIVE.md`.
 
 ---
 
@@ -57,7 +57,7 @@
 
 | Signal | Current [date] | Watch Level | Fires |
 |---|---|---|---|
-| OZK price | $49.84 [7/2] | <$45 / <$40 | Thesis execution bands (no fire) |
+| OZK price | $49.65 [7/6] | <$45 / <$40 | Thesis execution bands (no fire) |
 | Past-due loans | $487.5M / 1.48% [Q1] | >$550M or >2.0% next Q | Recognition tempo accelerating |
 | NCO (ann.) | **0.56%** [Q1] | >80bps mid-year / **≤55bps kill** | 🔴 **1bp from Invalidation §2 kill line** |
 | RaDD leased % | ~3.3% (JCVI 50K SF) | Any signing >100K SF | Scenario A probability up |
@@ -90,7 +90,7 @@
 2. ✅ **Bluerock framing — RESOLVED (7/4).** PIK loans **CONFIRMED real** ($246M: $160M@13.5% Dec'27 + $86M@14% Aug'28; Bisnow 3/19/26) — our figures were right. **Entity was mislabeled** "Bluerock Homes Trust" → actually **Bluerock Total Income+ (TI+)**, a $3.6B interval fund (listed ~38% below NAV, redemption queue). Exposure >$700M = PIK **+ large first-loss equity** (~$488M reported, single-source). Equity leads the waterfall → **TI+ NAV mark = leading indicator for OZK RaDD** (−4.4%→$6.28, H2'25 vintage; no fresh Q1). → `IQHQ_PLAYBOOK.md` capital-stack footnote.
 3. ✅ **Aimco MTD — no ruling as of 7/4 (confirmed).** Suit real (Del. Chancery, $50M; $47M impairment Aug'24). MTD likely still in briefing given ~April filing — **not near-term.** Complaint does **not** name Bluerock → softened our "targets Bluerock PIK" inference.
 4. ✅ **−5.70% (7/2) driver — RESOLVED as positioning (7/4, 3 sweeps).** No hidden catalyst — no 8-K / 13D / block-trade found. Best explanation: **sell-the-news** on the 7/1 dividend hike (largely anticipated) + pre-Q2 profit-taking + regional-bank/CRE caution [single-source market recap, hedged]. Downgraded from watch.
-5. **Boston Life Sci $169M sponsor ID** — US2 vs Leggat McCall. `TODO.md` #1.
+5. ✅ **Boston Life Sci $169M sponsor ID — WAS ALREADY RESOLVED (reconciled 7/6).** Confirmed 4/23 via UCC-1 (Bk 85169 Pg 222): **10 Prospect St / USQ D2.1 / Magellan+RAS+Cypress+Affinius JV** [KB-195]. The 7/4 revival re-opened it in error (keyed off the stale roster row, which said UNDETERMINED — now fixed). Severity biases to LOW end of 25-40% band (institutional JV → workout path). → `SEVEN_CREDIT_DEEP_DIVE.md` §2 #5.
 6. **WAL IQHQ exposure** — ✅ RESOLVED disconfirming: WAL Investor Day (5/12) disclosed **no** IQHQ/life-sci CRE. Not an IQHQ lender.
 
 ---
