@@ -26,7 +26,7 @@
 
 | Date | Event | What to Check | Threshold / Signal |
 |------|-------|---------------|-------------------|
-| **★ Tue Jul 21** | **OZK Q2 2026 earnings** (release after close; call Wed Jul 22, 8:30am ET) | Q2 specific reserve build; classified+criticized trajectory; RESG concentration/runoff; Gleason's Aug-IQHQ resolution preview + sponsor-support language | Q2 specific reserve on RaDD >$100M = **Scenario B firing early.** Extension language w/o cure = Scenario A. NCO ≤55bps = kill-line pressure (Invalidation §2). |
+| **★ Tue Jul 21** | **OZK Q2 2026 earnings** (release after close; call Wed Jul 22, 8:30am ET) | Q2 specific reserve build; classified+criticized trajectory; RESG concentration/runoff; Gleason's Aug-IQHQ resolution preview + sponsor-support language. **Added 7/6:** funded-balance creep (RaDD $555M static 21mo — any move; Chapter II draws vs $38.9M unfunded); any **Peninsula life-sci (Portal 405 / 777 Industrial)** appearing in the substandard table [KB-201]; mods counter (624 → ?) [KB-202] | Q2 specific reserve on RaDD >$100M = **Scenario B firing early.** Extension language w/o cure = Scenario A. NCO ≤55bps = kill-line pressure (Invalidation §2). Pre-registered reads OZK-05→09. |
 | **Late Jul** | Campus at Horton post-foreclosure leasing update | Downtown-SD lab comp — AllianceBernstein leased any of 770K SF since Sep-2025 credit bid? | Leasing → RaDD severity lower. Still empty → 65-70% severity holds. |
 
 ## AUGUST

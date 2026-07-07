@@ -32,6 +32,8 @@ No thesis-direction change. Housekeeping refinement from the 7/6 staleness sweep
 
 - **Position implication:** Unchanged. Same data, standardized basis; all thresholds intact.
 
+**Same-day addendum (7/6 PM — external-memo cross-check):** Will provided an external LLM memo (Atrium-2026-based; → `raw/llm_outputs/`). Cross-checking it against our primaries produced two THESIS-relevant changes: **(a) Pacific Center corrected** — Q4'25 Mgmt Comments disclose FULL principal repayment on $0.10B funded (par exit, NOT loss realization); WEAKNESSES C7 #5 adverse-selection transaction anecdote downgraded to one-of-two (Lincoln Yards remains the loss leg) [KB-199 corrected]. **(b) Extend-and-pretend counter updated 590 → 624 mods** (+34 in Q1'26; $904M reserves + $430M paydowns, per Q1'26 Mgmt Comments) [KB-202]. Neither changes thesis direction; (a) marginally strengthens the bull's funded-discipline point and is honestly logged as such. New unverified leads (Portal 405 / 777 Industrial / Southline, Peninsula) tracked at KB-201 pending the Atrium PDF.
+
 ---
 
 ## v1.3 — 2026-04-23 (audit-driven: Q1 NCO engaged, unverified claims removed, SCENARIOS reweighted)

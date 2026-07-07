@@ -5,6 +5,9 @@
 
 **Strategic framing (updated 7/6):** Position book is stale/not-managed (May lines expired unlogged; Aug 21 lines unverified — per Will's 7/4 steer). Research focus until Jul 21 = Q2-print preparation: the pre-registered OZK-05→09 reads govern conviction (OZK-07 discriminator above all). Bluerock trade gate stays parked pending a fresh TI+ NAV mark.
 
+### 🆕 NEW (2026-07-06 PM): Get + verify the 2026 Atrium PDF ("The Life Science Reckoning Through the Lens of Bank OZK")
+**Why:** Will-provided external memo (→ `raw/llm_outputs/OZK_LIFE_SCI_CREDIT_MEMO_2026-07-06.md`) is built on it — image-only in the memo's environment, so its per-asset LTV/risk-grade table is unverified. It names **three OZK life-sci credits we never mapped** (Portal 405 + 777 Industrial, San Carlos; Southline, SSF) [KB-201] and shows RaDD as-market LTV 86%, **conflicting with KB-117's 186-285%**. The PDF resolves both. **Ask Will for the file**; then verify table → promote/kill KB-201, reconcile KB-117. **Priority: HIGH (feeds Q2 watch).**
+
 ### 🆕 NEW (2026-07-06): Read the Q1 2026 Form 10-Q — `raw/Q1_2026_10Q.pdf` (60 pp, retrieved via FDIC securities-filings API)
 **Why it matters:** First-ever 10-Q primary in our tree (IR page 403s blocked it all year; the API bypasses that). Pre-Q2 read targets: ASC 326 modification/TDR footnotes (extend-and-pretend quantification vs D6), specific-reserve detail (any RaDD pre-positioning), interest-reserve disclosures, sub-notes reprice language, NDFI/Fund Finance exposure tables. Directly arms the Jul-21 OZK-05→09 scoring. **Effort:** ~45-60 min. **Priority: HIGH — do before Jul 21.**
 

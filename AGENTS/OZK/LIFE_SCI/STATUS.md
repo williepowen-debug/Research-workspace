@@ -7,7 +7,7 @@ The bear case lives here. FL is a fortress, office losses are being taken (Bosto
 
 **Q1 2026 print (Apr 22):** Three new life-sci-adjacent problem credits added — $269M combined. Life-sci concentration deteriorating broadly, not just at IQHQ.
 
-**Sterling Bay forced-resolution pattern (verified 7/4 [KB-OZK-199]):** OZK's two 2026 life-sci resolutions are both Sterling Bay + Harrison Street credits cleared via **loss realization, not clean repayment** — Pacific Center $265M loan sold to distressed PE buyer SVP (Jan 2026, "largest whole-loan disposition in bank history") + Lincoln Yards 320K SF foreclosure (Mar 2026). Supports the adverse-selection read of RESG runoff (→ `../WEAKNESSES.md` C7 #5).
+**Sterling Bay resolution pattern (verified 7/4; CORRECTED 7/6 [KB-OZK-199]):** OZK's two 2026 life-sci resolutions are both Sterling Bay + Harrison Street credits, but they split: **Lincoln Yards** 320K SF = genuine loss realization (foreclosure Mar 2026); **Pacific Center** = **PAR EXIT** — sold to distressed buyer SVP, but Q4'25 Mgmt Comments disclose **full principal repayment on $0.10B funded / $0.27B commitment** (corrects the 7/4 "discounted sale" read; caught via Will-provided external memo, verified in our own Q4 extract). Adverse-selection transaction evidence = Lincoln Yards only (→ `../WEAKNESSES.md` C7 #5, downgraded to one-of-two).
 
 ## RaDD Capital Stack
 
@@ -58,7 +58,7 @@ Full detail + severity math → `../SEVEN_CREDIT_DEEP_DIVE.md`.
 |------|--------|--------|
 | **RaDD** | $915M ($555M funded) | 🔴 97% vacant, 94% submarket vacancy. Aug 2026 maturity. |
 | **Aperture Del Mar** | $475M | 🟢 Pre-leased Neurocrine through 2036 |
-| **Pacific Center** | $265M | ⚪ SOLD Jan 2026 (TRD 1/7) to distressed buyer SVP — "largest whole-loan disposition in bank history." Mgmt claimed ~par on ~$100M outstanding; **sale price undisclosed in press** [KB-OZK-199]. Sterling Bay + Harrison Street forced-resolution pattern. |
+| **Pacific Center** | $265M commit / $100M funded | ⚪ SOLD Q4'25 (TRD reported 1/7/26) to distressed buyer SVP — "largest whole-loan disposition in bank history." **Q4'25 Mgmt Comments: FULL principal repayment on $0.10B funded [primary, confirmed 7/6]** — par exit, no loss; $165M unfunded commitment de-risked [KB-095/199 corrected]. |
 | **Bioterra** | $202M | 🔴 Vacant in 38% Sorrento Mesa |
 
 ## Boston Life Sci
