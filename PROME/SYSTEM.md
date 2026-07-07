@@ -53,9 +53,9 @@ Core rule:
 | Machine model (serial multi-machine, desktop ⇄ laptop) | root `CLAUDE.md` + `PROME/MACHINE_LOCAL.md` | `PROME/CLAUDE.md` (identity) · `SYSTEM.md` (Prome Runtime) · `ORCHESTRAL_LAYER_DESIGN.md` (open-questions bullet) · `public-prep/HISTORY_SCRUB_PLAN.md` (safety rail 5) |
 | HY-watch mechanism (intake lane primary, desktop timer redundancy) | `HEARTBEAT.md` §Thresholds + intake repo | `PROME/STATUS.md` (Core State + HY lane row) · `SYSTEM.md` (Architecture Note 1) · `ACTIVE_DECISIONS.md` (RESEARCH-INTAKE + Post-FOMC rows) · bank-put proposal §F |
 | Position truth (off-repo Will/broker; FORGE = stale mirror) | root `CLAUDE.md` + `FORGE/STATUS.md` banner | `SYSTEM.md` (Freshness Discipline + Note 3) · `ACTIVE_DECISIONS.md` (Current Mode) · `action-cards/TEMPLATE.md` (header) · bank-put proposal (inputs line) |
-| Roster / classification | `PROME/ROSTER.md` | root `CLAUDE.md` (active list) · `AGENTS.md` (table + run-model note) · `README.md` · `AGENTS/_INDEX.md` + `_NETWORK.md` · `skills/walter/references/agent-directory.md` |
+| Roster / classification | `PROME/ROSTER.md` | root `CLAUDE.md` (active list) · `AGENTS.md` (table + run-model note) · `README.md` · `AGENTS/_INDEX.md` + `_NETWORK.md` *(skills/walter mirror retired — dir archived 7/6 → `archive/skills-openclaw/`)* |
 | Forward catalyst dates | **`PROME/DOCKET.tsv`** | `SCRATCH.md` (operator card) · `HEARTBEAT.md` (Near Gates) · `STATUS.md` (Next Best Action docket line) · fire-time artifacts (checked by `scripts/firetime_check.py`) |
-| Trigger bands / levels | `FORGE/tools/market-data/config.py` + `AGENTS/LIQUID/workbook/KILL_MEMO_HY_OAS_260.md` + intake-lane alerts | `HEARTBEAT.md` §Thresholds · `skills/walter/references/agent-directory.md` (trigger-lines table) · fire-time artifacts |
+| Trigger bands / levels | `FORGE/tools/market-data/config.py` + `AGENTS/LIQUID/workbook/KILL_MEMO_HY_OAS_260.md` + intake-lane alerts | `HEARTBEAT.md` §Thresholds · fire-time artifacts *(skills/walter trigger-table mirror retired — archived 7/6)* |
 
 ---
 
