@@ -1,7 +1,7 @@
 # OZK — Dashboard
 
 **Updated:** 2026-07-06 (staleness sweep — see MAINTENANCE.md) | **Price:** $49.65 [7/6 live, −0.38%; 7/2 −5.70% drop resolved = positioning, AH bounce didn't hold] | **TBV:** $47.15 [Q1'26] | **P/TBV:** ~1.05×
-**Thesis:** RESERVOIR v1.4 (7/6 figure re-base — no direction change) | **Conviction:** 🔴🔴 HIGH | **KB:** 199 rows / 28 groups
+**Thesis:** RESERVOIR v1.4 (7/6 figure re-base — no direction change) | **Conviction:** 🔴🔴 HIGH | **KB:** 209 rows / 28 groups
 **Next hard catalyst:** OZK **Q2 earnings Tue Jul 21, 2026** (call Jul 22) → dress rehearsal for **IQHQ RaDD maturity Aug 2026** (weighted EL $140M on $555M funded)
 
 > **⚠️ REVIVAL NOTE (2026-07-04):** 71-day cold boot. STATUS re-baselined this session off: live price, PROME-verified Q1 Call Report figures, and a web sweep of all post-Apr developments (Q2 date, KBRA, capital returns, IQHQ/Bluerock/Aimco/WAL outcomes). Thesis docs (THESIS/IQHQ_PLAYBOOK/SEVEN_CREDIT) logic intact; IQHQ Aug-2026 maturity **re-confirmed from primary transcript this session**. Open verifications flagged in §Open Items.
@@ -45,7 +45,9 @@
 
 | Date | Event | Read |
 |---|---|---|
-| **7/2** | Stock **−5.70%** to $49.84 (from $52.09 6/30), **+1.95% AH** | 🟡 **Positioning, not news (7/4 verified, 3 sweeps).** No 8-K/13D/block-trade. Read: **sell-the-news** on 7/1 dividend hike (anticipated) + pre-Q2 profit-taking + regional-bank/CRE caution. [single-source recap] |
+| **7/6** | **Insider pattern ESCALATED** (fresh FDIC API pull): CRO Majumdar 2nd discretionary sale (827 @ $48.07, 5/20, ~32% lighter since Feb); Kenny grant-flip #3; Brown 401(k) exit @ $52.12 at the June high. Zero buys continue; pre-Q2 window closes ~Jul 7 | 🟠 Risk officer de-risking into the Q2/IQHQ window — `INSIDERS/` [KB-200] |
+| **7/6** | **OZK↔Affinius co-lending CONFIRMED** (Atrium Q4'25 primary): $95M of the SqMile(=Affinius)-originated 777 Industrial note is OZK's, as-market underwater; + 2 more unmapped Peninsula credits (Portal 405 — Atrium-graded Substandard already; Southline) | 🟠 → `research/threads/ATRIUM_LIFESCI_ASSET_MAP.md` [KB-203/204/205]; BROCK signaled |
+| **7/2** | Stock **−5.70%** to $49.84 (from $52.09 6/30), **+1.95% AH** | 🟡 **Positioning, not news (7/4 verified, 3 sweeps; re-confirmed 7/6: no 8-K since May 19).** Read: **sell-the-news** on 7/1 dividend hike + pre-Q2 profit-taking + regional-bank/CRE caution. |
 | **7/1** | **Dividend hike +2.1% → $0.48/qtr** (64th straight increase) | Capital-return signal — bank-confident posture into Q2 [globenewswire 7/1] |
 | **6/30** | **$200M buyback** authorized | Same — de-risking/confidence narrative [7/1] |
 | **~Q2** | **KBRA affirmed ratings, NEGATIVE outlook** | 🔴 Thesis-supportive: cites CRE stress, **RESG charge-offs rising consecutive years**, "recent RESG downgrades portend elevated credit costs" [KBRA] |
