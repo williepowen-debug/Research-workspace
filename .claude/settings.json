@@ -1,0 +1,16 @@
+{
+  "hooks": {
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash \"$(git rev-parse --show-toplevel)/scripts/session_banner.sh\"",
+            "timeout": 30,
+            "statusMessage": "Boot banner: repo sync + env flags (flag-not-force)"
+          }
+        ]
+      }
+    ]
+  }
+}
