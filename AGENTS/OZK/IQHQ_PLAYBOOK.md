@@ -167,6 +167,8 @@ Hamblen's April 22 "better than December" language is **pipeline talk (tours/RFP
 - Adjusting for RaDD's stronger physical product (Class A+, LEED Gold, waterfront): **50-65% severity range**
 - On $555M funded: **$275-360M loss**
 
+> **⚠️ 7/6 counter-datum — Atrium Q4'25 valuation ladder [KB-206] challenges this band.** Atrium's desktop as-market for RaDD is **$1.06B** ($72 rent/70% occ/7.25% cap) and even its office-conversion scenario is **$546M** — on $555M funded, the as-market implies **~0% severity** (funded covered ~1.9x) and the office scenario ~0-2%. A $275-360M loss on funded requires value **<~$280M**, i.e. ~47% below Atrium's worst scenario — closer to the Horton credit-bid dynamics (forced-sale, no-bid tape) than to any appraisal-style mark. The dispersion ($546M office / $1.06B as-market / $1.82B bank mark vs. Horton-implied ~$185-250M equivalent) IS the uncertainty: D-severity is a bet that a forced resolution prices at Horton's clearing level, not Atrium's model level. **Re-derivation queued pre-Jul-21 (TODO)** — pre-registered OZK-09 weights left unchanged pending that pass (no silent threshold moves).
+
 **Probability: ~18%** (higher than pre-Horton baseline — the Horton print demonstrates a market-clearing mechanism for downtown SD lab construction loans)
 
 **OZK impact:**

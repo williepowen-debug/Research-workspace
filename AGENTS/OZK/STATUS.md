@@ -78,7 +78,7 @@
 | **Late Jul** | Campus at Horton post-foreclosure leasing | Downtown-SD lab comp — still-empty = RaDD severity 65-70% holds |
 | **Aug 2026** | **IQHQ RaDD maturity** ⚠️ (Aug 2026 **re-confirmed from Q1 transcript primary 7/4**) | 4-scenario tree — A-extend 20% / **B-migration 50%** / C-takeout 12% / **D-foreclosure 18%**. `IQHQ_PLAYBOOK.md` |
 | **Oct 1, 2026** | $350M sub notes reprice (2.75% → SOFR+209) | +$12.8M/yr interest · Tier 2 −20% for 12mo · ~$0.09 EPS drag |
-| **Oct 2026** | Affinius Capital $2.7B bond maturity | Exposure UNVERIFIED — not on OZK Q1 call. `PRIVATE_CREDIT/` |
+| **Oct 2026** | Affinius Capital $2.7B bond maturity | Corporate exposure still unverified, **but asset-level co-lending CONFIRMED 7/6**: OZK holds $95M of the Affinius/Square-Mile-originated 777 Industrial note (as-market underwater per Atrium) + SqMile junior under OZK's Southline senior [KB-203]. `PRIVATE_CREDIT/` |
 
 *Passed catalysts (outcomes logged) → `CALENDAR.md`.*
 

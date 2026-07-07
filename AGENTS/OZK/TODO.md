@@ -5,8 +5,14 @@
 
 **Strategic framing (updated 7/6):** Position book is stale/not-managed (May lines expired unlogged; Aug 21 lines unverified — per Will's 7/4 steer). Research focus until Jul 21 = Q2-print preparation: the pre-registered OZK-05→09 reads govern conviction (OZK-07 discriminator above all). Bluerock trade gate stays parked pending a fresh TI+ NAV mark.
 
-### 🆕 NEW (2026-07-06 PM): Get + verify the 2026 Atrium PDF ("The Life Science Reckoning Through the Lens of Bank OZK")
-**Why:** Will-provided external memo (→ `raw/llm_outputs/OZK_LIFE_SCI_CREDIT_MEMO_2026-07-06.md`) is built on it — image-only in the memo's environment, so its per-asset LTV/risk-grade table is unverified. It names **three OZK life-sci credits we never mapped** (Portal 405 + 777 Industrial, San Carlos; Southline, SSF) [KB-201] and shows RaDD as-market LTV 86%, **conflicting with KB-117's 186-285%**. The PDF resolves both. **Ask Will for the file**; then verify table → promote/kill KB-201, reconcile KB-117. **Priority: HIGH (feeds Q2 watch).**
+### ✅ DONE (2026-07-06 PM): Atrium PDF obtained + fully extracted
+Will provided it same session → `raw/Atrium_Life_Science_Reckoning_OZK_2025Q4.pdf` (67pp, **~Q4'25 vintage** — the memo had mislabeled it 2026). Read visually (image-only), pp 10-16 + 27-62. KB-201 VERIFIED; KB-117 SUPERSEDED (it was the garbled one — real Atrium RaDD as-market = $1.06B); KB +7 (203-209). Extraction → `research/threads/ATRIUM_LIFESCI_ASSET_MAP.md`. Follow-ups below.
+
+### 🆕 Reconciliation queue from the Atrium extraction (2026-07-06 PM)
+1. **The Jack / SEVEN_CREDIT #3 conflict** — roster says $25.9M outstanding; Atrium says $72.5M commit / $56M deployed / $16.1M ACL reserve, originated by Claros Mortgage Trust → assigned to OZK [KB-207]. Rework the ID/figure. ~30 min.
+2. **IQHQ_PLAYBOOK D-severity re-derivation** vs the valuation-dispersion ladder [KB-206] — Horton 67% forced-sale clearing vs Atrium $546M-1.06B model values. **Do before Jul 21** (feeds OZK-09 interpretation; pre-registered weights unchanged until then). ~45 min.
+3. **Verify the 2024 $128M Lincoln Yards LAND-loan foreclosure** [KB-208, single-source] — Cook County records / OZK 2024 quarterly foreclosed-asset tables. ~20 min.
+4. **Note-assignment channel scan** — two acquired-paper cases surfaced (777 Industrial ex-Square Mile; The Jack ex-Claros): does OZK hold more purchased construction notes? Fold into the 10-Q read (purchased-loan disclosures).
 
 ### 🆕 NEW (2026-07-06): Read the Q1 2026 Form 10-Q — `raw/Q1_2026_10Q.pdf` (60 pp, retrieved via FDIC securities-filings API)
 **Why it matters:** First-ever 10-Q primary in our tree (IR page 403s blocked it all year; the API bypasses that). Pre-Q2 read targets: ASC 326 modification/TDR footnotes (extend-and-pretend quantification vs D6), specific-reserve detail (any RaDD pre-positioning), interest-reserve disclosures, sub-notes reprice language, NDFI/Fund Finance exposure tables. Directly arms the Jul-21 OZK-05→09 scoring. **Effort:** ~45-60 min. **Priority: HIGH — do before Jul 21.**

@@ -59,7 +59,17 @@ Full detail + severity math → `../SEVEN_CREDIT_DEEP_DIVE.md`.
 | **RaDD** | $915M ($555M funded) | 🔴 97% vacant, 94% submarket vacancy. Aug 2026 maturity. |
 | **Aperture Del Mar** | $475M | 🟢 Pre-leased Neurocrine through 2036 |
 | **Pacific Center** | $265M commit / $100M funded | ⚪ SOLD Q4'25 (TRD reported 1/7/26) to distressed buyer SVP — "largest whole-loan disposition in bank history." **Q4'25 Mgmt Comments: FULL principal repayment on $0.10B funded [primary, confirmed 7/6]** — par exit, no loss; $165M unfunded commitment de-risked [KB-095/199 corrected]. |
-| **Bioterra** | $202M | 🔴 Vacant in 38% Sorrento Mesa |
+| **Bioterra** | **$165M commit** [corrected 7/6 from "$202M" — old figure ≈ Atrium's $203M as-market VALUE, likely value/loan transposition; KB-209] | 🔴 Vacant (0% leased Aug'25), Longfellow sponsor, orig Nov'22, +1 prior lender. Atrium as-market $203M (81% LTV commit) |
+
+**🆕 Peninsula/Bay Area assets added 7/6 (Atrium Q4'25 primary — we had never mapped these; full table → `../research/threads/ATRIUM_LIFESCI_ASSET_MAP.md`):**
+
+| Loan | OZK Position | Atrium read (Q4'25) |
+|------|--------|--------|
+| **Portal 405** (San Carlos, Menlo+Beacon) | $149M commit (Dec'22; ~$104M funded) | 🔴 as-market ≈ commitment (LTV ~100%); **graded 6.1 Substandard-Accrual by Atrium** — not yet in OZK's substandard table. Top Q2/Q3 migration candidate [KB-204] |
+| **777 Industrial** (San Carlos, Presidio Bay) | **$95M assigned from Square Mile/Affinius** ($118M orig Apr'22) | 🔴 as-market $91M < $95M senior — underwater; **RG6**; = the named OZK↔Affinius co-lending link [KB-203] |
+| **Southline Ph I** (SSF, GSAM+Lane+Beacon) | $279.75M senior (Dec'22; ~$196M funded); SqMile ~$100M junior | 🟡 Best cushion (as-market 61%); Atrium: could outperform the bank's own mark if lease-up lands [KB-205] |
+| **101 South St** (Boynton Yards, Flagship) | OZK-financed | 🟢 FULLY LEASED — healthy-asset calibration [KB-209] |
+| **300 Third Ave** (Waltham, Lincoln Property) | OZK 2020-vintage | 🟢 75% leased — 2020-vintage CAN lease; stress is 2021-22 spec vintage [KB-209] |
 
 ## Boston Life Sci
 
@@ -83,6 +93,7 @@ Full detail + severity math → `../SEVEN_CREDIT_DEEP_DIVE.md`.
 
 ## What Changed
 
+- **Jul 6 (PM2):** Atrium Q4'25 PDF ingested (Will-provided, read from primary — `../raw/Atrium_Life_Science_Reckoning_OZK_2025Q4.pdf`). Three unmapped credits added (Portal 405 / 777 Industrial / Southline) + 2 healthy assets named (101 South St, 300 Third Waltham); Bioterra corrected $202M→$165M; RaDD valuation-dispersion ladder pinned (KB-206, supersedes KB-117); 777 Industrial = named OZK↔Affinius co-lending link (KB-203, BROCK signaled). Full extraction → `../research/threads/ATRIUM_LIFESCI_ASSET_MAP.md`. KB +7 (203-209).
 - **Jul 6:** Staleness-sweep refresh. Sterling Bay forced-resolution pattern added [KB-199]; Lincoln Yards 320K SF (was 284K); Pacific Center sale detail reconciled (mgmt ~par claim vs press-undisclosed); Bluerock entity corrected → TI+ interval fund, NAV-mark leading-indicator wired to COUNTERPARTY_WATCH; monitoring checkpoints resolved (Aimco no-MTD-ruling, no fresh TI+ Q1 mark); RaDD funded static $555M/21mo added; Q2 Jul-21 pre-registered reads (OZK-08/09) linked. KB rows 24 → 27 (194/195/199 added to header).
 - **Apr 23:** Post-Q1 refresh. IQHQ maturity corrected Aug 2028 → Aug 2026 (prior research error). Three new Q1 26 credits integrated: Boston Life Sci $169M, Seattle U Dist $50M, Chicago foreclosed $50M. Aimco suit filing + Bluerock NAV marks added to monitoring.
 - Mar 25 (PM): **Prompt 20 integrated** (Claude + Gemini). 13 new KB rows (147-159). National bottoming, SD rents 14th decline, Sorrento Mesa 38.2%, Boston ATH, Bay Area green shoot, VC/AI crowding, Pacific Center sold, Temple 8 short, HR Ratings RaDD mezz ($1.23B debt, 15% PIK), M&A $240B sublease driver, Boston 16.5M SF pipeline.

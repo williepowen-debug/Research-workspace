@@ -45,6 +45,7 @@ Original analysis produced by the agent network. Each file is a standalone deep 
 | `threads/CIB_MARGIN_COMPRESSION.md` | CLOSED — vertical-specific (3/6 compressing), net-neutral; NIM drift 4.20% → 4.10-4.15% |
 | `threads/RESG_MIX_DETERIORATION.md` | REVISED — Apr 22 linear projection retracted Apr 23; real indicators = substandard migration, past-due regime change, NCO tempo |
 | `threads/RESG_CONCENTRATION_VERIFICATION.md` | ACTIVE (2026-07-04) — "88%" = phantom; 6-qtr primary trend pinned (unfunded share 79%→60%, commitments −19%); feeds the OZK-07 Jul-21 discriminator |
+| `threads/ATRIUM_LIFESCI_ASSET_MAP.md` | ACTIVE (2026-07-06) — canonical extraction of the Atrium Q4'25 10-asset report: 3 unmapped credits added (Portal 405/777 Industrial/Southline), Affinius co-lending confirmed, RaDD valuation ladder (supersedes KB-117), reconciliation queue |
 
 ---
 

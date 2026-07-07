@@ -40,7 +40,7 @@
 | Date | Event | What to Check | Threshold / Signal |
 |------|-------|---------------|-------------------|
 | **Oct 1, 2026** | **$350M sub notes reprice** | 2.75% fixed → SOFR+209bps (~6.4%). Tier 2 capital −20% for 12mo. Mgmt "no plans to redeem or replace." | +$12.8M/yr interest (~$0.09 EPS annual drag). NIM headwind not in most street models. |
-| **Oct 2026** | Affinius Capital $2.7B bond maturity ⚠️ | Refi ability, OZK exposure, NDFI stress. NOT mentioned on OZK Q1 call — **exposure UNVERIFIED.** | Failure to refi = discrete OZK catalyst (if exposed). |
+| **Oct 2026** | Affinius Capital $2.7B bond maturity ⚠️ | Refi ability, NDFI stress. Corporate exposure unverified, but **asset-level co-lending CONFIRMED 7/6** (777 Industrial: OZK holds $95M of Affinius/SqMile-originated note, as-market underwater; SqMile ~$100M junior under OZK's Southline senior) [KB-203]. | Failure to refi = discrete OZK catalyst via the co-lending/takeout channel. |
 
 ---
 

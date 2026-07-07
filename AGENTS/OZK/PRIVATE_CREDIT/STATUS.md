@@ -32,7 +32,7 @@
 
 ## Key Catalysts
 - **Q1 2026 10-Q — ✅ IN HAND (retrieved 7/6 via FDIC securities-filings API → `../raw/Q1_2026_10Q.pdf`, filed May 6, UNREAD):** answers the open question "does written disclosure pick up the Fund Finance pullback, or does asymmetry persist?" Read queued pre-Jul-21 (TODO 🆕 item). Also: Bluerock **TI+ interval fund** node (entity corrected 7/4) → `COUNTERPARTY_WATCH.md` — next TI+ NAV mark leads OZK RaDD credit.
-- Affinius $2.7B bond maturity: Oct 2026 — if missed, largest stressed counterparty defaults (⚠️ NOT mentioned on Q1 26 call — TODO #5 verify)
+- Affinius $2.7B bond maturity: Oct 2026 — if missed, largest stressed counterparty defaults. **7/6: asset-level co-lending CONFIRMED** — OZK holds $95M of the Affinius/Square-Mile-originated 777 Industrial note (Square Mile rebranded → Affinius 2023; "Sm Tactical Finance III LLC"), as-market underwater per Atrium; plus SqMile ~$100M junior under OZK's $279.75M Southline senior [KB-203]. Corporate-level exposure still unverified. BROCK signaled 7/6.
 - Blue Owl bridge origination freeze — would directly accelerate maturity wall
 - Q2 26 repayment velocity — if drops materially vs Q1 26, reflexive channel is activating
 - Any JPM/GS CRE collateral markdown — triggers Channel 4

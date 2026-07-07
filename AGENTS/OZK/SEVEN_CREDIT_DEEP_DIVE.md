@@ -22,7 +22,7 @@
 |---|---|---|---|---|---|---|
 | **1** | Boston Office | $156.4M | 95% | **Leggat McCall + Related Beal** (historical; now equity-out) | **Sullivan Courthouse / 40 Thorndike**, Cambridge, MA (422K SF, 100% vacant) | ✅ HIGH |
 | **2** | Baltimore Land | $40.0M | 53% | **Goldman Sachs + Sagamore (Kevin Plank)** | **Baltimore Peninsula** (235 acres, deed-in-lieu Dec 2025) | ✅ HIGH |
-| **3** | Seattle Pioneer Sq Office | $25.9M | 100% | TBD — project likely **"The Jack"** (100% vacant since 2023 per prior REGINALD research) | 74 S Jackson or Pioneer Square adjacent | ⚠️ MED |
+| **3** | Seattle Pioneer Sq Office | $25.9M | 100% | TBD — project likely **"The Jack"** (100% vacant since 2023 per prior REGINALD research) ⚠️ **7/6 CONFLICT: Atrium says The Jack = $72.5M commit/$56M deployed/$16.1M ACL reserve, originated by Claros Mortgage Trust then assigned to OZK [KB-207] — doesn't reconcile with $25.9M. ID or figure needs rework (TODO).** | 74 S Jackson or Pioneer Square adjacent | ⚠️ LOW-MED (downgraded 7/6) |
 | **4** | Wauwatosa Hotel | $17.9M | 103% | **HKS Holdings LLC** (Milwaukee local developer) + Concord Hospitality (operator) | **Renaissance Milwaukee West Hotel**, 2300 N Mayfair Rd (196 keys, opened Aug 2020 into COVID) | ✅ HIGH |
 | **5** | Boston Life Science | $169.3M | 91% | **Magellan + RAS + Cypress + Affinius JV** (✅ RESOLVED 4/23 via UCC-1 Bk 85169 Pg 222 — see §2 #5; roster row reconciled 7/6) | **10 Prospect St, Somerville / USQ Parcel D2.1** (SPV: 31 Union Square D2.1 Owner LLC) | ✅ HIGH |
 | **6** | Seattle U District Office | $76.4M | 83% | **Touchstone (URG) + Portman Holdings + Lionstone Investments (LP)** | **Chapter Building I** — 4530 12th Ave NE Seattle (240K SF office) | ✅ HIGH |

@@ -1,6 +1,6 @@
 # KB.tsv — Group Index
 
-**Updated:** 2026-07-06 (rollup drift fixed: 12 previously-unindexed groups added below; rows 196–200 integrated; 088/091 schema-repaired; 055/138 demoted REFUTED) | **Total rows:** 200 | **Groups:** 28
+**Updated:** 2026-07-06 PM (Atrium extraction: +203–209; 117 SUPERSEDED, 201 verified; earlier same day: rollup drift fixed, 196–202 integrated, 088/091 schema-repaired, 055/138 REFUTED) | **Total rows:** 209 | **Groups:** 28
 
 Navigate the KB by investigation cluster. Each group maps to a folder or research file where the full synthesis lives.
 
@@ -20,8 +20,8 @@ Navigate the KB by investigation cluster. Each group maps to a folder or researc
 | Group | Rows | Count | Folder / File | What It Covers |
 |-------|------|-------|---------------|----------------|
 | **EXTEND_PRETEND** | 096–097, 099–104, 176, 202 | 10 | **research/D6_EXTEND_AND_PRETEND.md** | 590 mods (→ **624 through Q1'26, +34/qtr** [202]), 98% classification gap, 59% re-default, NPL forensics, Schaffer's Mill workout-tempo evidence. (098 cross-listed → MGMT_CREDIBILITY) |
-| **DISTRESSED_LOANS** | 028–036 | 9 | THESIS.md (evidence) | Named problem loans: IQHQ RaDD, Sterling Bay, Boston, Seattle, Santa Monica |
-| **LIFE_SCI** | 094–095, 117, 137–141, 147–159, 189–191, 194–195, 199 | 27 | **LIFE_SCI/FINDINGS.md** | $3.2B life sci, RaDD 3.3% leased + $1.23B total debt (15% PIK mezz accruing $76M), national bottoming 23.0%, SD rents 14th decline, Sorrento 38.2%, Boston ATH 28-34%, Bay Area first recovery, VC→AI crowding, Pacific Center sold, Temple 8 short, M&A $240B driving sublease, Boston 16.5M SF pipeline. Q1 26 adds: Boston Life Sci $169M substandard (sponsor confirmed), Seattle U Dist $127M, Chicago Life Sci $50M foreclosed, Ten Prospect sponsor correction. 7/4 add: 199 Sterling Bay resolution pattern (Lincoln Yards 320K foreclosure = loss; Pacific Center SVP sale = **par exit, corrected 7/6**). 7/6 adds: 201 Peninsula asset leads (Portal 405 / 777 Industrial / Southline — Atrium 2026, unverified). ⚠️ 138 REFUTED 7/6 (Aug-2028 extension claim — maturity is Aug 2026). |
+| **DISTRESSED_LOANS** | 028–036, 207–208 | 11 | THESIS.md (evidence) | Named problem loans: IQHQ RaDD, Sterling Bay, Boston, Seattle, Santa Monica. 7/6 adds: 760 Aloha OREO 40%-below-appraisal + The Jack $72.5M/$16.1M-ACL/Claros-assigned [207]; 2024 $128M Lincoln Yards land-loan foreclosure [208, unverified] |
+| **LIFE_SCI** | 094–095, 117 (SUPERSEDED), 137–141, 147–159, 189–191, 194–195, 199, 201, 204–206, 209 | 32 | **LIFE_SCI/FINDINGS.md** + research/threads/ATRIUM_LIFESCI_ASSET_MAP.md | $3.2B life sci, RaDD 3.3% leased + $1.23B total debt (15% PIK mezz accruing $76M), national bottoming 23.0%, SD rents 14th decline, Sorrento 38.2%, Boston ATH 28-34%, Bay Area first recovery, VC→AI crowding, Pacific Center sold, Temple 8 short, M&A $240B driving sublease, Boston 16.5M SF pipeline. Q1 26 adds: Boston Life Sci $169M substandard (sponsor confirmed), Seattle U Dist $127M, Chicago Life Sci $50M foreclosed, Ten Prospect sponsor correction. 7/4 add: 199 Sterling Bay resolution pattern (Lincoln Yards 320K foreclosure = loss; Pacific Center SVP sale = **par exit, corrected 7/6**). 7/6 adds: 201 Peninsula asset leads (Portal 405 / 777 Industrial / Southline — Atrium 2026, unverified). ⚠️ 138 REFUTED 7/6 (Aug-2028 extension claim — maturity is Aug 2026). |
 | **MGMT_CREDIBILITY** | 037–041, 069, 085, 093, 098 | 9 | THESIS.md (narrative) | "No concessions" contradiction, CFO selling, buyback non-use |
 | **INSIDER** | 142–145, 200 | 5 | **INSIDERS/SELLING.md** (current) + raw/llm_outputs/OZK_INSIDER_claude_prompt16.md | ZERO insider buys (streak intact through 7/6/26), CRO Majumdar 2 discretionary sales (Feb 419 + May 827 = ~32% lighter), Kenny 3rd-straight grant flip, Brown 401(k) exit at $52.12, Gleason frozen since Jul 2023 |
 
@@ -56,7 +56,7 @@ Navigate the KB by investigation cluster. Each group maps to a folder or researc
 
 | Group | Rows | Count | Folder / File | What It Covers |
 |-------|------|-------|---------------|----------------|
-| **AFFINIUS** | 165–170 | 6 | PRIVATE_CREDIT/ | Affinius Capital: corporate bonds, Oct 2026 $2.7B structured maturity (OZK exposure UNVERIFIED), Veris acquisition, OZK co-lending, Columbus Center foreclosure |
+| **AFFINIUS** | 165–170, 203 | 7 | PRIVATE_CREDIT/ | Affinius Capital: corporate bonds, Oct 2026 $2.7B structured maturity, Veris acquisition, Columbus Center foreclosure. **7/6: co-lending CONFIRMED at asset level** — 777 Industrial $95M assigned to OZK from SqMile(=Affinius) Tactical Finance III; SqMile junior under Southline senior [203] |
 | **SELLSIDE** | 171–175 | 5 | WEAKNESSES.md | Street consensus Apr 2026, UBS Apr 7, Citi Sell maintained, institutional adds, ratings timeline |
 | **RESG_MIX** | 182, 184–185, 196 | 4 | research/threads/RESG_MIX_DETERIORATION.md + RESG_CONCENTRATION_VERIFICATION.md | Problem-category share band 27-31%, 8Q projection (retracted), 6-qtr stability, RESG concentration trend (79%→60% unfunded share, −19% commitments) |
 | **FAILURE_COMP** | 161–164 | 4 | THESIS.md (peer context) | Metropolitan Capital failure comp (39.6% MI3, failed Jan 30 2026), MCB active comp, reserve-inversion comp |
