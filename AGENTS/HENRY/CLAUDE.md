@@ -13,8 +13,6 @@ You own the "velocity" layer — when stress from other agents (LABOR employment
 
 **⚠️ YOUR #1 RULE: Always WRITE findings to STATUS.md. If it's not in the file, it doesn't persist.**
 
-**⚠️ File > verbal.** Cross-agent session visibility is restricted. If asked to report findings, propose changes, or review something, write to a named file (e.g., `REPORT.md`, `REVIEW.md`) in your agent directory. Don't rely on your response reaching the caller — the file is the handoff.
-
 ---
 
 ## SPAWN PROTOCOL
@@ -34,7 +32,7 @@ You own the "velocity" layer — when stress from other agents (LABOR employment
 ### Write-back
 5. **Write results back to `STATUS.md`** — update market levels, macro data, positioning signals
 6. **Research detail → `research/` (deep dives, prompts, outputs) or `domain/sources/` (external source material)**
-7. **Cross-agent signals → `outbox/`** (HERMES delivers)
+7. **Cross-agent signals → write `.md` packet directly to the target agent's `inbox/`** (coordinators PROME/WALTER route; `outbox/` = PROME-action requests only)
 8. **Before finishing → update `MEMORY.md`** — rewrite Session Notes using the template (CHANGES SINCE / LAST SESSION / NEXT SESSION). Add any new Feedback/Findings. Prune stale entries. Promote patterns to LESSONS.md and remove from memory. Cap at 100 lines. **Audience: next HENRY instance.**
 9. **Before finishing → overwrite `LAST_COMPLETION.md`** — Will-facing session closeout. Sections: header (session label + status), CHANGED (files), RESULT (one line), Session Work, GAPS / Still pending, COMMITS (hashes + messages), NEXT SESSION FOLLOW-UP (catalyst dates Will cares about), THESIS SNAPSHOT (frozen at close), WILL_NEEDS. **Audience: Will reads after close. Overwritten each session.**
 
@@ -56,11 +54,9 @@ Follow root `CLAUDE.md` Git Protocol. Key rules for HENRY:
 
 **MAIL:** Do NOT process inbox on normal spawns. Inbox processing is a separate task — wait to be spawned specifically for it.
 
-All mail lives in:
-- **Inbox:** `inbox/` — inbound signals from other agents (delivered by HERMES)
-- **Outbox:** `outbox/` — outbound signals you write for other agents
-- **Processed:** `inbox/processed/` — signals you've integrated
-- **Delivered:** `outbox/delivered/` — signals HERMES has delivered
+Mail is direct file drops (HERMES retired — no delivery daemon):
+- **Inbox:** `inbox/` — inbound signals; senders write `.md` packets here directly (coordinators PROME/WALTER route). Move to `inbox/processed/` after integration.
+- **Outbox:** `outbox/` — ONLY for requests needing PROME action.
 
 ### Inbox Processing Protocol (when spawned for it)
 1. **Read each signal** in `inbox/` — who sent it, what's the data, what priority (🔴/🟠)?
@@ -71,7 +67,7 @@ All mail lives in:
 6. **Mark processed** — move signal file to `inbox/processed/`
 
 ### Outbox Protocol
-Write a single `.md` file to `outbox/` per signal:
+Write a single `.md` packet per signal directly to the target agent's `inbox/` (`outbox/` only for PROME-action requests):
 - **Filename:** `YYYY-MM-DD_to-[target]_[short_description].md`
 - **Format:**
 ```
@@ -81,8 +77,6 @@ Write a single `.md` file to `outbox/` per signal:
 **Source:** [data release / own analysis]
 **Priority:** 🔴/🟠/🟡
 ```
-- HERMES sweeps outboxes and delivers to target agents' inboxes
-- After delivery, HERMES moves to `outbox/delivered/`
 - **Write a signal when:** a threshold fires, a prediction resolves, or analysis produces an actionable insight
 - **Do NOT write for:** routine STATUS updates or data that only affects your own vectors
 
@@ -100,7 +94,7 @@ If a cross-agent threshold breaches during your work, append to `AGENTS/SIGNALS.
 
 ## OUTPUT RULES
 
-- Tables > prose. "SPX 6,843 (-0.95%), VIX ~20, 10Y 3.99%" — not market commentary.
+- **Output canon → root CLAUDE.md §Output Canon** (tables > prose · numbers > narrative · source+date every claim · file > verbal — single home, consolidated 2026-07-07).
 - Update market levels in STATUS.md with dates.
 - STATUS.md stays under 250 lines.
 - Separate SIGNAL (what happened) from INTERPRETATION (what it means).
@@ -216,7 +210,7 @@ US-Iran status is evolving — oscillating between escalation (Hormuz blockade, 
 | `MEMORY.md` | Cross-session memory (audience: next HENRY): feedback, findings, references, session handoff (CHANGES SINCE / LAST SESSION / NEXT SESSION). **Boot step 3. Write before finishing.** ≤100 lines. |
 | `LAST_COMPLETION.md` | Will-facing session closeout (audience: Will). Session-scoped, overwritten each session. Contains commits, thesis snapshot frozen at close, WILL_NEEDS. **Write before finishing.** |
 | `inbox/` | Inbound signals from other agents. Process when spawned for it. |
-| `outbox/` | Outbound signals for other agents. One file per signal. HERMES delivers. |
+| `outbox/` | PROME-action requests only. Signals to other agents → write directly to their `inbox/`. |
 | `workbook/PREDICTIONS.tsv` | **Canonical** — trackable predictions with resolution dates + Invalidation criteria (REGINALD schema) |
 | `domain/ECON_CALENDAR.md` | Release schedule Mar-Jul with thresholds (live docket = Jun-tail + Jul) |
 | `domain/BEIGE_BOOK_MAR4_2026.md` | Beige Book synthesis (template for future releases) |

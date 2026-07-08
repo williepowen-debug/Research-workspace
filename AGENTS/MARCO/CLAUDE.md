@@ -45,11 +45,9 @@ Three domains: (1) International Visitor Flows (Canadian collapse -28%), (2) Wor
 
 **MAIL:** Do NOT process inbox on normal spawns. Inbox processing is a separate task — wait to be spawned specifically for it.
 
-All mail lives in removed:
-- **Inbox:** `inbox/` — inbound signals from other agents (delivered by HERMES)
-- **Outbox:** `outbox/` — outbound signals you write for other agents
-- **Processed:** `inbox/processed/` — signals you've integrated
-- **Delivered:** `outbox/delivered/` — signals HERMES has delivered
+Mail is direct file drops (HERMES retired — no delivery daemon):
+- **Inbox:** `inbox/` — inbound signals; senders write `.md` packets here directly (coordinators PROME/WALTER route). Move to `inbox/processed/` after integration.
+- **Outbox:** `outbox/` — ONLY for requests needing PROME action.
 
 ### Inbox Processing Protocol (when spawned for it)
 1. **Read each signal** in `inbox/` — who sent it, what's the data, what priority (🔴/🟠)?
@@ -60,7 +58,7 @@ All mail lives in removed:
 6. **Mark processed** — move signal file to `inbox/processed/`
 
 ### Outbox Protocol
-Write a single `.md` file to `outbox/` per signal:
+Write a single `.md` packet per signal directly to the target agent's `inbox/` (`outbox/` only for PROME-action requests):
 - **Filename:** `YYYY-MM-DD_to-[target]_[short_description].md`
 - **Format:**
 ```
@@ -70,8 +68,6 @@ Write a single `.md` file to `outbox/` per signal:
 **Source:** [data release / own analysis]
 **Priority:** 🔴/🟠/🟡
 ```
-- HERMES sweeps outboxes and delivers to target agents' inboxes
-- After delivery, HERMES moves to `outbox/delivered/`
 - **Write a signal when:** a threshold fires, a prediction resolves, or analysis produces an actionable insight
 - **Do NOT write for:** routine STATUS updates or data that only affects your own vectors
 
@@ -136,10 +132,9 @@ After close: move `thread.md` content to `sub_agents/[NAME]/threads/archive/YYYY
 
 ## OUTPUT RULES
 
-- Tables > prose. "Canadian visitors: -28% YoY (22.9M trips)" not paragraphs.
+- **Output canon → root CLAUDE.md §Output Canon** (tables > prose · numbers > narrative · source+date every claim · file > verbal — single home, consolidated 2026-07-07).
 - Update stale dashboard rows rather than appending sections.
 - STATUS.md stays under 250 lines. Archive to `domain/sources/`.
-- Source and date all data points.
 - **Before starting any research, check the CONFIRMED FINDINGS table in STATUS.md.** Do not re-research confirmed findings (e.g., FL migration 93% collapse, Canadian -28%, Mexico remittances -4.6%). If asked about something already confirmed, cite the finding and confidence level instead of re-deriving it.
 
 ---
@@ -223,7 +218,7 @@ After close: move `thread.md` content to `sub_agents/[NAME]/threads/archive/YYYY
 | `scripts/staleness.py` | STATUS header-date + VX.tsv per-row `Last Updated` drift check. |
 | `domain/sources/` | Research archives, STATUS backups |
 | `inbox/` | Inbound signals from other agents. Process when spawned for it. |
-| `outbox/` | Outbound signals for other agents. One file per signal. HERMES delivers. |
+| `outbox/` | PROME-action requests only. Signals to other agents → write directly to their `inbox/`. |
 | `workbook/VX.tsv` | 57 vectors — live indicator dashboard (status/levels/thresholds). Sync changed levels here at closeout. |
 | `workbook/KB.tsv` | **Living knowledge base** — new facts/claims go here at closeout (step 7). The current workbook. |
 | `workbook/ML.tsv` | **FROZEN founding-research log** (entries Jan 20–Feb 4 2026). Superseded by `KB.tsv` for new findings; not in the closeout write path. Dated snapshots — treat values as as-of-Created, not current (see VX.tsv/STATUS for live values). `scripts/ml_to_kb.py` is LEGACY — it regenerates KB from ML in mode `'w'` and would WIPE hand-added KB rows (sessions 8+); do not run a full regen. |

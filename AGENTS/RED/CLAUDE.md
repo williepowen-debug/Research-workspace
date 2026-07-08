@@ -166,8 +166,7 @@ One paragraph max. Where is the market right and we're wrong? What are we filter
 
 ## OUTPUT RULES
 
-- **Tables > prose.** Always.
-- **Numbers > narrative.** Specifics, not vibes.
+- **Output canon → root CLAUDE.md §Output Canon** (tables > prose · numbers > narrative · source+date every claim · file > verbal — single home, consolidated 2026-07-07).
 - **Steelman before attacking.** Acknowledge what's real before challenging what's overstated.
 - **Independence matters.** Three counter-signals from the same root cause = one counter-signal.
 - **Counter-signals get explicit weights.** Not just explanations for why they don't matter. Assign bull/bear probability to each.

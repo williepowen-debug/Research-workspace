@@ -13,8 +13,6 @@ Key tension you must hold: staffing canaries (RHI/KFRC) are bottoming while WARN
 
 **⚠️ YOUR #1 RULE: Always WRITE findings to STATUS.md. If it's not in the file, it doesn't persist.**
 
-⚠️ **File > verbal.** Cross-agent session visibility is restricted. If asked to report findings, propose changes, or review something, write to a named file (e.g., `REPORT.md`, `REVIEW.md`) in your agent directory. Don't rely on your response reaching the caller — the file is the handoff.
-
 ---
 
 ## SPAWN PROTOCOL
@@ -60,11 +58,9 @@ C6. **Git — pathspec commits, never `git reset HEAD`** (clobbers other agents'
 
 **MAIL:** Do NOT process inbox on normal spawns. Inbox processing is a separate task — wait to be spawned specifically for it.
 
-All mail lives in removed:
-- **Inbox:** `inbox/` — inbound signals from other agents (delivered by HERMES)
-- **Outbox:** `outbox/` — outbound signals you write for other agents
-- **Processed:** `inbox/processed/` — signals you've integrated
-- **Delivered:** `outbox/delivered/` — signals HERMES has delivered
+Mail is direct file drops (HERMES retired — no delivery daemon):
+- **Inbox:** `inbox/` — inbound signals; senders write `.md` packets here directly (coordinators PROME/WALTER route). Move to `inbox/processed/` after integration.
+- **Outbox:** `outbox/` — ONLY for requests needing PROME action.
 
 ### Inbox Processing Protocol (when spawned for it)
 1. **Read each signal** in `inbox/` — who sent it, what's the data, what priority (🔴/🟠)?
@@ -75,7 +71,7 @@ All mail lives in removed:
 6. **Mark processed** — move signal file to `inbox/processed/`
 
 ### Outbox Protocol
-When you need to signal another agent, write a single .md file to `outbox/`:
+When you need to signal another agent, write a single .md packet directly to the target agent's `inbox/` (`outbox/` only for PROME-action requests):
 - **Filename:** `YYYY-MM-DD_to-[target]_[short_description].md`
 - **Format:**
 ```
@@ -85,8 +81,6 @@ When you need to signal another agent, write a single .md file to `outbox/`:
 **Source:** [data release / own analysis]
 **Priority:** 🔴/🟠/🟡
 ```
-- HERMES sweeps outboxes and delivers to target agents' inboxes
-- After delivery, HERMES moves to `outbox/delivered/`
 - **Write a signal when:** a threshold fires, a prediction resolves, or analysis produces an actionable insight
 - **Do NOT write for:** routine STATUS updates or data that only affects your own vectors
 
@@ -99,10 +93,9 @@ If a cross-agent threshold breaches during your work, also append to `AGENTS/SIG
 
 ## OUTPUT RULES
 
-- Tables > prose. "Claims 212K, +4K WoW" not paragraphs about claims.
+- **Output canon → root CLAUDE.md §Output Canon** (tables > prose · numbers > narrative · source+date every claim · file > verbal — single home, consolidated 2026-07-07).
 - Update stale rows in STATUS.md rather than appending new sections.
 - STATUS.md stays under 250 lines. Archive to `domain/sources/` if growing.
-- Source and date all data points.
 - When signals conflict, state both honestly. Don't narrativize.
 - **Source tags on dashboards.** Every Signal Dashboard value must include a source tag: `[CONF]` for confirmed data with source + date, `[EST]` for estimates. Example: `**213K** | [CONF] BLS Mar 5` or `**~215K** | [EST] model-implied`. No naked numbers.
 - **Prediction ID format:** All predictions use `LAB-xx` (e.g., `LAB-01`, `LAB-11`). No bare numbers. Prevents ID collisions when cross-referencing across agents.
@@ -236,7 +229,7 @@ When analyzing a new layoff event, apply these frameworks rather than reasoning 
 | `LESSONS.md` | LABOR-specific mistake-patterns. Read at boot (B3), written at closeout (C5). |
 | `TRADE.md` | Position ideas (KELYA puts) |
 | `inbox/` | Inbound signals from other agents. Process when spawned for it. |
-| `outbox/` | Outbound signals for other agents. HERMES delivers. |
+| `outbox/` | PROME-action requests only. Signals to other agents → write directly to their `inbox/`. |
 | `domain/sources/` | Research archives, deep dives |
 | `scripts/boot.py` | **Boot orchestrator** — runs the three sweeps below in ~5s. Step B2. |
 | `scripts/labor_data.py` | Live FRED domain sweep (claims, NFP, U-3/6, JOLTS, temp) + threshold flags |
