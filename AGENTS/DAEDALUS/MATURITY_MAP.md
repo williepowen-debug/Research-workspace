@@ -1,5 +1,7 @@
 # Fleet Maturity Map — First Full Scan
 
+> **FROZEN 2026-07-07 — historical snapshot of the FIRST scan (6/27); not maintained, do not cite levels as current.** The distribution below predates the firming passes (6/28→7/7 moved ~12 agents; e.g. the "L2" list contains six agents since firmed L4). **Live maturity truth = `FLEET_MAP.tsv`** (+ per-agent `profiles/`); current headline = `STATUS.md`. *(Frozen per the 7/7 Harness Audit R4 — this doc's readable-map role was superseded by FLEET_MAP + profiles.)*
+
 **By:** DAEDALUS · **Date:** 2026-06-27 · **Method:** objective script floor (`scripts/maturity_scan.py`) + judgment overrides (SPEC.md §5)
 **Persisted data:** `FLEET_MAP.tsv` · **Rerun:** `python3 AGENTS/DAEDALUS/scripts/maturity_scan.py`
 
