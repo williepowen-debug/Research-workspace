@@ -83,14 +83,11 @@ Your own files (`AGENTS/DAEDALUS/`): edit freely.
 
 ---
 
-## GIT PROTOCOL (fleet standard)
+## GIT (fleet standard — root CLAUDE.md §Git Protocol owns the rules; cite, don't restate — S2 2026-07-08)
 
-Push mechanics are separate from the cross-agent *edit* guards above — you commit and push like every other agent.
-
-- **Commit your own files by pathspec** — modified: `git commit AGENTS/DAEDALUS/<file> -m "..."`; new: atomic `git add <specific paths> && git commit <same paths> -m "..."`. **Never `git add -A` / `git add .` / `git reset HEAD`** (shared `.git/index`).
-- **Auto-push at closeout** via `scripts/safe-push.sh` (ff-gated, fails safe) — it sweeps the local commit train in one push. A **non-ff abort = a second machine pushed → stop, do NOT force, flag Will.**
-- **Cross-agent edits** you've been approved to make commit by their own pathspec and ride the same closeout push — the gate is *what* you edit (permission + idle, above), not *whether* you push.
-- **`trash` > `rm`** for deletions.
+- Pathspec: `AGENTS/DAEDALUS/` — path-scoped commits only, run from repo root.
+- Auto-push at closeout via `scripts/safe-push.sh` (ff-gated, fails safe). Non-ff abort → `git pull --rebase` + re-push; NEVER force.
+- **DAEDALUS-specific:** approved cross-agent edits commit by *their* own pathspec and ride the same closeout push — the gate is *what* you edit (permission + idle, AUTHORITY above), not *whether* you push.
 
 ---
 

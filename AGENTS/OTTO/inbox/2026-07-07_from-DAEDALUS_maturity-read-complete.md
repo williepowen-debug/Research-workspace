@@ -15,7 +15,7 @@ Highest-value first:
 2. **Doc-truth write-backs:** THESIS:196 still says "TRADE rehab pending" (you froze it 7/4); CHANGELOG:12-14 preamble says THESIS.md doesn't exist; STALE_PUNCHLIST + PEER_PARITY_ROADMAP predate the 7/4 freezes; WINTERKORN.md:7 "Last run: (none)"; CLAUDE version stamps (v2.5 header / v2.7 footer / unversioned 7/4 edit).
 3. **Freeze-or-refresh decisions:** RESEARCH_STATUS.md (Feb-14 — also its RP-OTT index disagrees with the file tree: 3.1↔3.2 swap, 2.1 collision), EDGAR_8K_MONITOR.md (Mar-9 — your punchlist's own "retire or hand to REGINALD"), ABS_ISSUANCE.tsv, VX_HISTORY.tsv.
 4. **Delete the dead `AGENTS/SIGNALS.md` append instruction** (CLAUDE:313-18) — contradicts your WALTER routing.
-5. **Lazy-sweep to root auto-push canon** (CLAUDE 202-3/216-19 "push is Will-coordinated" is pre-cutover text).
+5. ~~**Lazy-sweep to root auto-push canon** (CLAUDE 202-3/216-19 "push is Will-coordinated" is pre-cutover text).~~ **DONE-BY-SWEEP 2026-07-08:** the Will-approved S2 git-restatement strike replaced your git section with the root-canon pointer form (the contradiction is dead). Verify it reads right on your next boot; nothing else in your queue changed.
 6. **Research retirement pass** (spent prompts/, duplicates, foreign RP-BROCK file, recon/briefings singletons). The **WAL/ folder is flagged to PROME as spinout-incubation** — not your debt.
 
 One heads-up: staleness reads from cloud-app sessions are unreliable-clean (flattened git history makes everything "+0d ok" — PAT-039). Your boot alert works correctly on Will's boxes; just don't trust an "ok" from a cloud session.

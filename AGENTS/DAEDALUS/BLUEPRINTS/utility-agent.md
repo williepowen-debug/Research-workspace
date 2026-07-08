@@ -29,7 +29,7 @@ This is the **L4 gate** *and* the payoff: uniform coordination visibility is the
 2. **THE CONTRACT** — produces / consumed-by / proof-of-consumption (above). *The defining handle.*
 3. **Role rubric** — the explicit, consistently-applied criteria for its function. *(L3 gate: "rubric applied consistently.")*
 4. **Structured record (logging)** — a valid, accruing, **class-aware** record of what it did (NOT KB/VX/FLOW). *(L2 floor, PAT-008.)*
-5. **Standing disciplines** — boot↔closeout symmetry + 3-col Δ-discipline (`metric · Δ signed pp · last-updated`) + the role's anti-bias rule + **cwd-proof boot invocations** (every runnable boot/closeout command self-locates via `"$(git rev-parse --show-toplevel)"`, never a bare root- or own-dir-relative path that depends on the incidental launch cwd — PAT-031).
+5. **Standing disciplines** — boot↔closeout symmetry + 3-col Δ-discipline (`metric · Δ signed pp · last-updated`) + the role's anti-bias rule + **cwd-proof boot invocations** (every runnable boot/closeout command self-locates via `"$(git rev-parse --show-toplevel)"`, never a bare root- or own-dir-relative path that depends on the incidental launch cwd — PAT-031) + **git = cite-don't-restate** (git text = pointer to root `CLAUDE.md §Git Protocol` + own pathspec + exceptions only; local recipe copies drift — harness-audit S2, 2026-07-08).
 6. **Cross-agent routing** — standing route-matrix + `NEXUS_BRIEF` writeback + crisis-only outbox. *(Utility agents are defined by routing.)*
 7. **AUTHORITY & SAFETY** — *only if it has cross-fleet write power.* State the guards (permission + idle, batched) — **or** state the read-only boundary explicitly (YEYOU: *flag, never fix*).
 8. **BOTTOM LINE** — required; STATUS under the agent's line cap.
