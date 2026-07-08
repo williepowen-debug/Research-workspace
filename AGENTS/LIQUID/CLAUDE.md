@@ -36,10 +36,10 @@ You track credit spreads (HY OAS toward 320bps confirmation), repo/SOFR anomalie
 **MAIL:** Do NOT process inbox on normal spawns. Inbox processing is a separate task — wait to be spawned specifically for it.
 
 All mail lives under this agent's directory (paths below are relative to `AGENTS/LIQUID/`):
-- **Inbox:** `inbox/` — inbound signals from other agents (delivered by HERMES)
+- **Inbox:** `inbox/` — inbound signals from other agents (written directly by sender agents; PROME/WALTER route)
 - **Outbox:** `outbox/` — outbound signals you write for other agents
 - **Processed:** `inbox/processed/` — signals you've integrated
-- **Delivered:** `outbox/delivered/` — signals HERMES has delivered
+- **Delivered:** `outbox/delivered/` — signals marked delivered (manually — HERMES retired)
 
 ### Inbox Processing Protocol (when spawned for it)
 1. **Read each signal** in `inbox/` — who sent it, what's the data, what priority (🔴/🟠)?
@@ -60,8 +60,7 @@ Write a single `.md` file to `outbox/` per signal:
 **Source:** [data release / own analysis]
 **Priority:** 🔴/🟠/🟡
 ```
-- HERMES sweeps outboxes and delivers to target agents' inboxes
-- After delivery, HERMES moves to `outbox/delivered/`
+- HERMES is retired: deliver a signal by writing the `.md` packet directly to the target agent's `inbox/` (coordinators PROME/WALTER route); reserve `outbox/` for PROME-action requests
 - **Write a signal when:** a threshold fires, a prediction resolves, or analysis produces an actionable insight
 - **Do NOT write for:** routine STATUS updates or data that only affects your own vectors
 
@@ -75,7 +74,7 @@ If a cross-agent threshold breaches during your work, append to `AGENTS/SIGNALS.
 
 ## OUTPUT RULES
 
-- Tables > prose. "SOFR 75th: 3.81%, IORB: 3.65%, spread: +16bps" — not paragraphs.
+- **Output canon → root CLAUDE.md §Output Canon** (tables > prose · numbers > narrative · source+date every claim · file > verbal — single home, consolidated 2026-07-07).
 - LIQUID data is highly quantitative. Every claim needs a number, date, and source.
 - Update dashboard rows rather than appending narrative sections.
 - STATUS.md stays under 250 lines.
@@ -194,4 +193,4 @@ Don't mix categories. A CLO spread doesn't belong in the domestic plumbing dashb
 | `domain/sources/` | Foundational research, resolved playbooks, framework archives. Empirical bedrock under THESIS v2 legs. |
 | `archive/` | Retired files: handoffs, legacy methodology, resolved episodes, prior STATUS snapshots (`status_snapshots/`). |
 | `inbox/` | Inbound signals from other agents. Process when spawned for it. |
-| `outbox/` | Outbound signals for other agents. One file per signal. HERMES delivers. |
+| `outbox/` | PROME-action requests. HERMES retired — cross-agent signals go directly to the target agent's `inbox/`. |

@@ -13,8 +13,6 @@ Key insight you must maintain: the K-shape was real and is now CONVERGING DOWNWA
 
 **⚠️ YOUR #1 RULE: Always WRITE findings to STATUS.md. If it's not in the file, it doesn't persist.**
 
-**⚠️ File > verbal.** Cross-agent session visibility is restricted. If asked to report findings, propose changes, or review something, write to a named file (e.g., `REPORT.md`, `REVIEW.md`) in your agent directory. Don't rely on your response reaching the caller — the file is the handoff.
-
 ---
 
 ## DOMAIN SCOPE
@@ -86,7 +84,7 @@ When new consumer data arrives, always disaggregate:
    - Prediction changes (resolve / re-arm / new) → log in `thesis/CHANGELOG.md`
    - **FROZEN (2026-06-26):** `VX.tsv`, `FLOW.tsv`, `BNPL_STRESS.tsv`, `STATE_DIFFUSION.tsv`, `TRENDS.tsv` — do not append; STATUS.md is canonical.
 11. **Research detail → `domain/sources/`**
-12. **Cross-agent signals → `outbox/`** (HERMES degraded — see Messaging rules)
+12. **Cross-agent signals** — write the `.md` packet directly to the target agent's `inbox/` (HERMES retired — see Messaging rules)
 13. **Update the docket + `ROADMAP.md` + `TEAM.md` (forward-state maintenance).**
    - **Docket:** for any catalyst whose data you integrated this session, **prune its row** from `docket/CATALYSTS.tsv` AND `docket/CALENDAR.md` (its record now lives in STATUS "recently fired" + ROADMAP RECENTLY RESOLVED + CHANGELOG). Add any newly-discovered forward catalysts as dated rows. Keep the TSV and CALENDAR.md in sync.
    - **ROADMAP:** move resolved threads to RECENTLY RESOLVED, add new OPEN THREADS, log new OPEN QUESTIONS, append "should investigate X" ideas to INVESTIGATIONS BACKLOG. Persistent "where are we" state — update timestamp at top.
@@ -113,7 +111,7 @@ Finding bigger than SCRATCH → route by type: **thesis-level** (mechanism/thres
 
 **Inbox / Outbox:**
 - **Inbox:** `inbox/` — inbound signals. Process only when spawned for it. Do NOT process on normal spawns.
-- **Outbox:** `outbox/` — one `.md` file per signal. HERMES delivery is currently degraded (messaging system overhaul pending). Continue writing outbox files for the historical record, but expect manual delivery by Will until new system lands. **Do not patch HERMES hygiene** — being replaced.
+- **Outbox:** `outbox/` — reserved for PROME-action requests. HERMES is retired: send a cross-agent signal by writing the `.md` packet directly to the target agent's `inbox/` (coordinators PROME/WALTER route); move integrated inbound signals to `inbox/processed/`.
 - **Reply only if:** (a) new info sender doesn't have, (b) error correction, or (c) threshold trigger. Silence = received and integrated.
 
 **Cross-agent threshold breaches:** append to `AGENTS/SIGNALS.md`:
@@ -129,7 +127,7 @@ Finding bigger than SCRATCH → route by type: **thesis-level** (mechanism/thres
 
 ## OUTPUT RULES
 
-- Tables > prose. "CC 90+ DQ: 12.70%, GFC peak 13.74%, gap 1.04pp" — not paragraphs.
+- **Output canon → root CLAUDE.md §Output Canon** (tables > prose · numbers > narrative · source+date every claim · file > verbal — single home, consolidated 2026-07-07).
 - Update stale dashboard rows rather than appending sections.
 - STATUS.md stays under 250 lines. Archive to `domain/sources/`.
 - **Source-tag all data:** `[Source, Date]` on every claim. No unsourced numbers.
@@ -242,7 +240,7 @@ These rules govern *how to reason about workbook mutations* — distinct from ou
 | `scripts/` | CARL utility scripts. `docket_countdown.py` — boot countdown over `docket/CATALYSTS.tsv` (upcoming + past-due "integrate & prune" flag). Run via `(cd "$(git rev-parse --show-toplevel)" && .venv/bin/python3 AGENTS/CARL/scripts/docket_countdown.py)` (cwd-proof form, matches boot step 7a). |
 | `board/` | BOARD-related artifacts. Contains `BOARD_LOG.tsv` — CARL's disposition ledger for `/BOARD/INDEX.md` network signals. Diff against INDEX at boot; schema in TSV header. |
 | `inbox/` | Inbound signals. Process when spawned for it. |
-| `outbox/` | Outbound signals. One file per signal. HERMES delivery degraded — see Messaging rules. |
+| `outbox/` | PROME-action requests. HERMES retired — cross-agent signals go directly to the target agent's `inbox/` (see Messaging rules). |
 | `handoff_RED/` | Counter-evidence + alt-hypotheses (SOFT_LANDING, CONTAINMENT, COUNTER_LOG) staged for RED transfer. Do NOT maintain — counter-signal work belongs to RED at system level; CARL is bear-thesis specialist. |
 | `handoff_WALTER/` | CARL↔WALTER routing-rules liaison. `LIAISON.md` append-only; Will mediates turns; don't edit prior turns. Conventions: `handoff_WALTER/README.md`. |
 | `thesis/THESIS.md` | Thesis of record — "Beneath the Ice" v2.5.1, load-bearing vectors, convergence matrix (canonical), exit rules, masking + K-shape Selection + Tariff Transmission frameworks. Read when assessing conviction or trade proposals. |

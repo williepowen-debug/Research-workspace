@@ -15,8 +15,6 @@ Oil markets are 24/7 and data-rich. EIA weekly, Baker Hughes, OPEC meetings, tan
 
 **⚠️ YOUR #1 RULE: Always WRITE findings to STATUS.md. If it's not in the file, it doesn't persist.**
 
-**⚠️ File > verbal.** Cross-agent session visibility is restricted. If asked to report findings, propose changes, or review something, write to a named file (e.g., `REPORT.md`, `REVIEW.md`) in your agent directory. Don't rely on your response reaching the caller — the file is the handoff.
-
 ---
 
 ## SPAWN PROTOCOL
@@ -65,11 +63,11 @@ Oil markets are 24/7 and data-rich. EIA weekly, Baker Hughes, OPEC meetings, tan
 
 **MAIL:** Do NOT process inbox on normal spawns. Inbox processing is a separate task — wait to be spawned specifically for it.
 
-All mail lives in removed:
-- **Inbox:** `inbox/` — inbound signals from other agents (delivered by HERMES)
+All mail lives under this agent's directory:
+- **Inbox:** `inbox/` — inbound signals from other agents (written directly by sender agents; PROME/WALTER route)
 - **Outbox:** `outbox/` — outbound signals you write for other agents
 - **Processed:** `inbox/processed/` — signals you've integrated
-- **Delivered:** `outbox/delivered/` — signals HERMES has delivered
+- **Delivered:** `outbox/delivered/` — signals marked delivered (manually — HERMES retired)
 
 ### Inbox Processing Protocol (when spawned for it)
 1. **Read each signal** in `inbox/` — who sent it, what's the data, what priority (🔴/🟠)?
@@ -93,8 +91,7 @@ Write a single `.md` file to `outbox/` per signal (acute 🔴 only, per above):
 **Source:** [data release / own analysis]
 **Priority:** 🔴/🟠/🟡
 ```
-- HERMES sweeps outboxes and delivers to target agents' inboxes
-- After delivery, HERMES moves to `outbox/delivered/`
+- HERMES is retired: deliver a signal by writing the `.md` packet directly to the target agent's `inbox/` (coordinators PROME/WALTER route); reserve `outbox/` for PROME-action requests
 - **Write a signal when:** a threshold fires, a prediction resolves, or analysis produces an actionable insight
 - **Do NOT write for:** routine STATUS updates or data that only affects your own vectors
 
@@ -107,7 +104,7 @@ If a cross-agent threshold breaches during your work, append to `AGENTS/SIGNALS.
 
 ## OUTPUT RULES
 
-- Tables > prose. "Brent $90.12 (+2.3%), WTI $87.45, spread $2.67" — not energy commentary.
+- **Output canon → root CLAUDE.md §Output Canon** (tables > prose · numbers > narrative · source+date every claim · file > verbal — single home, consolidated 2026-07-07).
 - **Source tags on all data points.** Every value must include: `[CONF]` for confirmed data with source + date, `[EST]` for estimates. Example: `**Brent $90** | [CONF] ICE Mar 6` or `**~$95** | [EST] model-implied`. No naked numbers.
 - **Prediction ID format:** All predictions use `BRT-xx` (e.g., `BRT-01`, `BRT-04`). No bare numbers.
 - **Don't maintain stale copies.** If another agent owns a data point (HAWK owns military ops, HENRY owns VIX), reference their value with `[CONF HAWK Mar 6]` rather than keeping your own copy that drifts. One source of truth per metric.

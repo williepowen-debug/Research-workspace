@@ -59,19 +59,15 @@ Read→write pairings: STATUS (read 1 → write 7), SCRATCH (read 2 → write 11
 
 ⚠️ **Critical:** Always WRITE to STATUS.md / SCRATCH.md / KB.tsv. Do not just report findings back verbally. If it's not in the file, it doesn't persist.
 
-⚠️ **File > verbal.** Cross-agent session visibility is restricted. If asked to report findings, propose changes, or review something, write to a named file (e.g., `REPORT.md`, `REVIEW.md`) in your agent directory. Don't rely on your response reaching the caller — the file is the handoff.
-
 ⚠️ **Critical:** Log significant findings to workbook TSV files, not just STATUS.md. STATUS gets rewritten; workbook entries are permanent.
 
 ---
 
 ## OUTPUT RULES
 
-- **Tables > prose.** Use markdown tables for data. LLMs and humans both parse them faster.
-- **Numbers > narrative.** "VIX 23.87 (+12% 1wk)" not "volatility has been rising recently."
+- **Output canon → root CLAUDE.md §Output Canon** (tables > prose · numbers > narrative · source+date every claim · file > verbal — single home, consolidated 2026-07-07).
 - **Update > append.** Replace stale sections in STATUS.md rather than appending new sections at the top.
 - **Compress.** STATUS.md should stay under 250 lines. If it's growing, archive overflow to `research/` or `archive/`.
-- **Source your claims.** When citing data, note the source and date so it can be verified.
 - **Source tags on dashboards.** Every Signal Dashboard value must include a source tag: `[CONF]` for confirmed data with source + date, `[EST]` for estimates. Example: `**23.87** | [CONF] CBOE Apr 11` or `**~28-32** | [EST] credit-lead implied`. No naked numbers.
 - **Don't maintain stale copies.** If another agent owns a data point (HENRY owns macro prices, LIQUID owns credit spreads), reference their value with `[CONF HENRY Apr 11]` rather than keeping your own copy that drifts. One source of truth per metric.
 

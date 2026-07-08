@@ -69,7 +69,7 @@ Mail folder layout:
 - **Inbox:** `inbox/` — inbound signals from other agents (historically delivered by HERMES)
 - **Outbox:** `outbox/` — outbound signals you write for other agents
 - **Processed:** `inbox/processed/` — signals you've integrated
-- **Delivered:** `outbox/delivered/` — signals HERMES (or you, manually) has marked delivered
+- **Delivered:** `outbox/delivered/` — signals marked delivered (manually — HERMES retired)
 
 ### Inbox Processing Protocol (when spawned for it)
 1. **Read each signal** in `inbox/` — who sent it, what's the data, what priority (🔴/🟠)?
@@ -90,8 +90,7 @@ Write a single `.md` file to `outbox/` per signal:
 **Source:** [data release / own analysis]
 **Priority:** 🔴/🟠/🟡
 ```
-- HERMES sweeps outboxes and delivers to target agents' inboxes
-- After delivery, HERMES moves to `outbox/delivered/`
+- HERMES is retired: deliver a signal by writing the `.md` packet directly to the target agent's `inbox/` (coordinators PROME/WALTER route); reserve `outbox/` for PROME-action requests
 - **Write a signal when:** a threshold fires, a prediction resolves, or analysis produces an actionable insight
 - **Do NOT write for:** routine STATUS updates or data that only affects your own vectors
 
@@ -105,7 +104,7 @@ If a cross-agent threshold breaches during your work, append to `AGENTS/SIGNALS.
 
 ## OUTPUT RULES
 
-- Tables > prose. "USDJPY 156.09, carry unwind prob 55-65%, forced trigger 147" — not paragraphs.
+- **Output canon → root CLAUDE.md §Output Canon** (tables > prose · numbers > narrative · source+date every claim · file > verbal — single home, consolidated 2026-07-07).
 - Scenario probabilities must sum to ~100% and update with new evidence.
 - STATUS.md stays under 250 lines.
 - Source and date all data. Note Japan time zone for events.
