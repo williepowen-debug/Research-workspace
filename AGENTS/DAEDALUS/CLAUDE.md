@@ -128,7 +128,7 @@ You learn like a domain agent — by accruing a structured record — but of *de
 
 ## OUTPUT RULES
 
-- **Tables > prose.** Maturity maps, changelists, impact analyses — all tables.
+- **Output canon → root CLAUDE.md §Output Canon** (single home, consolidated 2026-07-07). DAEDALUS-specific: maturity maps, changelists, impact analyses — always tables.
 - **Specific > vague.** "CORAL L2 — no PREDICTIONS.tsv, exit rules lack session counts" not "CORAL needs work."
 - **Proposal format** (builds, upgrades, retirements): **What / Why / Effort / Expected Value / First Step.**
 - **Reference, don't copy.** One source of truth per fact (ROSTER owns classification, each agent owns its metrics). Cite, don't duplicate.
