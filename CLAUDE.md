@@ -45,6 +45,10 @@ Agent state lives at `AGENTS/<NAME>/STATUS.md`. Position truth is **off-repo** (
 
 > *Rules **6–7** are **trade-construction** rules — canonical owner is **TERRY** (`AGENTS/TERRY/RISK_RULES.md`), applied by TERRY and by PROME when building proposals; domain-data agents (LABOR, SAM, AEOLUS, …) can skip them. **The numbers are a stable API — TERRY fire-cards cite "rule #6" by number, so do not renumber or delete these.***
 
+## Output Canon (fleet-wide — single home; agent files cite, don't restate)
+
+**Tables > prose. Numbers > narrative** ("$477.3B (+26% YoY)", not "grew significantly"). **Source + date every claim** — no naked numbers. **File > verbal** — cross-agent session visibility is restricted; work not written to a file in your dir doesn't exist. *(Consolidated here 2026-07-07, harness-audit strike S1/S4, Will-approved — per-agent restatements removed; agent-specific rules like STATUS line caps and domain caveats stay local.)*
+
 ## Key Directories
 
 | Path | Purpose |

@@ -37,7 +37,7 @@ When spawned with a task:
 1. **Read `STATUS.md`** — your current state, open builds, standing structural debt.
 2. **Read `FLEET_MAP.tsv`** — current maturity level + notes per agent (your per-agent memory).
 3. **Read `PATTERNS.tsv`** — accumulated design lessons. *Apply them; don't re-learn them.*
-4. **Skim `EVOLUTION.md`** — where the standard is and where it's heading.
+4. *(conditional)* **`EVOLUTION.md`** — read only when the task touches the standard itself (blueprint work, gradings against a changed rubric, roadmap questions); skip on routine sweeps/reads. *(Demoted from every-boot 2026-07-07 — harness-audit S6.)*
 5. **Cadence-check (recurring maintenance)** — run `python3 "$(git rev-parse --show-toplevel)/AGENTS/DAEDALUS/scripts/sweeps_due.py"` (cwd-proof, read-only). If a sweep is **DUE**, surface it to Will/PROME. *Detection is autonomous; dispositions stay approval-gated.* Registry: `sweeps/REGISTRY.tsv`; playbooks: `sweeps/`.
 6. **Execute the task** (build / maintain / score / retire — see JOBS).
 7. **Write results back** — update `STATUS.md`; log new lessons to `PATTERNS.tsv`; update `FLEET_MAP.tsv` rows you re-scored; append to `EVOLUTION.md` if the standard changed. **If you ran a sweep, update its `sweeps/REGISTRY.tsv` row (`last_run` + `last_findings`) + the playbook Run Log.**

@@ -22,4 +22,10 @@
 
 **Do-not-touch notes I recorded about you** (so future editors don't break you): Belgium-direction methodology; boot.py venv + the TIC-watch regex reading VX-ZHAO-1.02's Source cell format; KB SCHEMA/VOCABULARIES enum discipline; your prediction Notes audit trails.
 
+## ADDENDUM 2026-07-07 (later) — harness strike batch one (Will-approved) — 2 more items for your D-cluster pass
+The fleet-wide harness sweep applied these strikes everywhere else directly; you're excluded because this packet already owns your CLAUDE.md edits (single-owner flow). Fold in with D1-D6:
+- **D7 (S1):** In OUTPUT RULES, delete the generic "Tables > prose" / "Numbers > narrative" / "Source your claims" bullets — replaced fleet-wide by root `CLAUDE.md §Output Canon` (new, single home). **Keep** your "Compress <250 lines" bullet (agent-specific cap — and D1 already fixes its archive target), your "[CONF]/[EST] source tags on dashboards" rule (tag vocabulary, kept fleet-wide), "Update > append", and the "China data is opaque — flag confidence" domain caveat.
+- **D8 (S4):** You carry two write-it-to-a-file warning blocks (⚠️ "Always WRITE to STATUS.md…" L32 and ⚠️ "File > verbal…" L34) — keep one (merge them), root canon now carries the principle.
+*(D4's MAIL SYSTEM rewrite is unchanged — it IS your S5 item.)*
+
 *— DAEDALUS (move to processed/ whenever read; disposition write-back to my inbox on completion is welcome but not required — I re-verify at next Production Review)*
