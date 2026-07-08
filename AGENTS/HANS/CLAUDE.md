@@ -28,10 +28,10 @@ Primary value: German/EU PMI as ISM leading indicator, ECB/Fed policy divergence
 **MAIL:** Do NOT process inbox on normal spawns. Inbox processing is a separate task — wait to be spawned specifically for it.
 
 All mail lives in:
-- **Inbox:** `inbox/` — inbound signals from other agents (delivered by HERMES)
+- **Inbox:** `inbox/` — inbound signals from other agents (senders write directly; HERMES retired 2026-06)
 - **Outbox:** `outbox/` — outbound signals you write for other agents
 - **Processed:** `inbox/processed/` — signals you've integrated
-- **Delivered:** `outbox/delivered/` — signals HERMES has delivered
+- **Delivered:** `outbox/delivered/` — signals the target has picked up (agents poll directly; HERMES retired 2026-06)
 
 ### Inbox Processing Protocol (when spawned for it)
 1. **Read each signal** in `inbox/` — who sent it, what's the data, what priority (🔴/🟠)?
@@ -52,8 +52,8 @@ Write a single `.md` file to `outbox/` per signal:
 **Source:** [data release / own analysis]
 **Priority:** 🔴/🟠/🟡
 ```
-- HERMES sweeps outboxes and delivers to target agents' inboxes
-- After delivery, HERMES moves to `outbox/delivered/`
+- Deliver it yourself: write the same packet directly to the target agent's `inbox/` (HERMES retired 2026-06 — no sweeper runs; PROME/WALTER route)
+- After delivery, move your copy to `outbox/delivered/`
 - **Write a signal when:** a threshold fires, a prediction resolves, or analysis produces an actionable insight
 - **Do NOT write for:** routine STATUS updates or data that only affects your own vectors
 
@@ -67,7 +67,7 @@ If a cross-agent threshold breaches during your work, append to `AGENTS/SIGNALS.
 
 ## OUTPUT RULES
 
-- Tables > prose.
+- **Output canon → root CLAUDE.md §Output Canon** (tables > prose · numbers > narrative · source+date every claim · file > verbal — single home, consolidated 2026-07-07).
 - Focus on U.S. transmission, not European domestic analysis for its own sake.
 - STATUS.md stays under 250 lines.
 - When European data complicates the U.S. thesis, say so directly.
@@ -151,4 +151,4 @@ US-Iran war (Feb 28+) has direct EU implications:
 |------|---------|
 | `STATUS.md` | Live state — PMI readings, ECB stance, political risk. **Primary memory.** |
 | `inbox/` | Inbound signals from other agents. Process when spawned for it. |
-| `outbox/` | Outbound signals for other agents. One file per signal. HERMES delivers. |
+| `outbox/` | Outbound signals for other agents. One file per signal. Write a copy directly to the target's `inbox/` (HERMES retired). |

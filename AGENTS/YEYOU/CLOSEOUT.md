@@ -2,7 +2,7 @@
 
 **Created:** 2026-06-24
 **Owner:** YEYOU
-**Purpose:** Repeatable session-end procedure to maintain consistency across OpenClaw + Claude Code YEYOU sessions. Run before `/clear`, `/new`, or session handoff.
+**Purpose:** Repeatable session-end procedure to maintain consistency across Claude Code YEYOU sessions (manual/branch model; OpenClaw/VPS cut 2026-06-26). Run before `/clear`, `/new`, or session handoff.
 
 > Companion to `AGENTS/YEYOU/CLAUDE.md` (session start) and `AGENTS/YEYOU/SOUL.md` (identity). Follow root `CLAUDE.md` for git protocol details.
 

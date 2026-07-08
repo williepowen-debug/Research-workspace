@@ -56,8 +56,7 @@ Mirror of boot — write back what you read:
 
 ## OUTPUT RULES
 
-- **Tables > prose.** Use markdown tables for data.
-- **Numbers > narrative.** "Bank failure Apr 30: 19%→27% (+8pp, 3 days)" not "odds have been rising."
+- **Output canon → root CLAUDE.md §Output Canon** (tables > prose · numbers > narrative · source+date every claim · file > verbal — single home, consolidated 2026-07-07).
 - **Update > append.** Replace stale sections in STATUS.md.
 - **Compress.** STATUS.md under 250 lines.
 - **Source your claims.** Every probability needs: platform, market name, date, volume.
