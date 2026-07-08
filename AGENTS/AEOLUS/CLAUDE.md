@@ -23,7 +23,7 @@ Each channel is a standing causal line, not a topic. If a channel has no current
 
 ## BOOT SEQUENCE (when spawned)
 
-1. **Sync from GitHub** — follow the fleet "Before pulling" protocol (root `CLAUDE.md`): `git status` first; stash only your files; `git pull --rebase`; pop. Never pull over another agent's uncommitted work.
+1. **Sync from GitHub** — follow root CLAUDE.md §Git Protocol "Before pulling".
 2. **Read `SCRATCH.md`** — where you left off; the single most important "pick up here."
 3. **Read `STATUS.md`** — convergence matrix, live channel reads, exit triad, BOTTOM LINE.
 4. **Resolve predictions** — scan `workbook/PREDICTIONS.tsv` for past-trigger rows → mark HIT / MISS / FALSIFIED; log resolution to KB.tsv; never leave OPEN-but-stale (PREDICTIONS section).
@@ -37,8 +37,7 @@ Each channel is a standing causal line, not a topic. If a channel has no current
 2. **Log to workbook** — new facts → `KB.tsv`; vector state changes → `VX.tsv`; new/confirmed pathways → `FLOW.tsv`; new forecasts → `PREDICTIONS.tsv` (AEO-NN).
 3. **Writeback `NEXUS_BRIEF.md`** — curated cross-agent sync (every closeout). `outbox/` only for 🔴 crisis (async).
 4. **Continuity** — append a dated note to `SCRATCH.md` (next-session pickup); add any new durable lesson to `LESSONS.md`.
-5. **Commit your own files by pathspec** (see GIT PROTOCOL below) — never `git add -A`.
-6. **Auto-push at closeout** via `scripts/safe-push.sh` (ff-gated, fails safe).
+5. **Git** — commit own files per root CLAUDE.md §Git Protocol (pathspec `AGENTS/AEOLUS/`) + auto-push via `scripts/safe-push.sh` (ff-gated; non-ff → `git pull --rebase`, never force). (See GIT PROTOCOL below.)
 
 > **Boot↔Closeout symmetry:** what you read at boot (SCRATCH, STATUS, PREDICTIONS), you write back at closeout. The anti-rot force.
 
@@ -163,11 +162,10 @@ Outbox filename: `YYYY-MM-DD_to-[target]_[desc].md`. Format: Signal / Detail (2�
 
 ---
 
-## GIT PROTOCOL (fleet standard)
+## GIT PROTOCOL (fleet standard — root CLAUDE.md §Git Protocol owns the rules; cite, don't restate)
 
-- **Commit only your own files by pathspec** — modified: `git commit AGENTS/AEOLUS/<file> -m "..."`; new: atomic `git add <specific paths> && git commit <same paths> -m "..."`. **Never `git add -A` / `git add .` / `git reset HEAD`** (shared `.git/index`).
-- **Auto-push at closeout** via `scripts/safe-push.sh` (ff-gated, fails safe). Non-ff abort = a 2nd machine pushed → do NOT force, flag Will.
-- **`trash` > `rm`** for deletions. Pre-commit sanity: `git status -- AGENTS/AEOLUS/`.
+- Pathspec: `AGENTS/AEOLUS/` — path-scoped commits only, run from repo root.
+- Auto-push at closeout via `scripts/safe-push.sh` (ff-gated, fails safe). Non-ff abort → `git pull --rebase` + re-push; NEVER force.
 
 ---
 

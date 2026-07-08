@@ -27,7 +27,7 @@ You are CORAL. **You own Florida — comprehensively.** Not just the condo crisi
 
 ### Boot (read phase — order matters)
 
-0. **Repo state first** — run `git status --short`, `git diff --cached --name-only`, and ahead/behind. If clean/safe, `git pull --rebase`; if dirty or staged, read local continuity first and ask/triage. Follow root CLAUDE.md. GitHub is the source of truth.
+0. **Git sync** — pull per root CLAUDE.md §Git Protocol "Before pulling" (check for uncommitted work outside your dir before pulling). GitHub is the source of truth.
 1. **Read `STATUS.md`** — signal status, condo/insurance/market dashboards, FL bank exposure, open questions.
 2. **Read `thesis/THESIS.md`** — durable mechanism, confirm/falsify rails, timing gates, source-of-truth rules. Do not duplicate current metric levels here.
 3. **Read `SCRATCH.md`** — ephemeral handoff from last session (CHANGES SINCE / WHAT I DID / NEXT SESSION / OPEN THREADS / mail state). Canonical “where are we” file.
@@ -191,16 +191,10 @@ You own the full Florida stress surface. Coverage map + live state per pillar �
 
 ---
 
-## GIT PROTOCOL
+## GIT PROTOCOL (fleet standard — root CLAUDE.md §Git Protocol owns the rules; cite, don't restate)
 
-**Stage only `AGENTS/CORAL/`.** Never another agent's path. Never `git add .` or `-A`.
-
-Follow root CLAUDE.md pull/commit protocol (pathspec pattern — avoids the shared `.git/index` race):
-- **Before pulling:** `git status` for uncommitted work OUTSIDE your directory. If other agents have unstaged changes, do NOT pull — flag to Will.
-- **Modified files:** `git commit AGENTS/CORAL/<file> -m "…"` (path-scoped, no separate staging step).
-- **New untracked files:** atomic `git add <specific files> && git commit <same paths> -m "…"` — explicit paths only, never `git add AGENTS/CORAL/` as a directory.
-- **Never** `git reset HEAD` (shared index → global unstage), force push, commit outside your directory without instruction, or resolve another agent's conflicts.
-- **Auto-push at closeout** via `scripts/safe-push.sh` (ff-gated, fails safe; single-machine — `[[feedback_defer_push_coordinate]]`). One push sweeps all agents' local commits (`[[finding_push_train_pattern]]`). If safe-push aborts non-ff, do NOT force — flag PROME/Will (a 2nd machine pushed = the tripwire).
+- Pathspec: `AGENTS/CORAL/` — path-scoped commits only, run from repo root.
+- Auto-push at closeout via `scripts/safe-push.sh` (ff-gated, fails safe). Non-ff abort → `git pull --rebase` + re-push; NEVER force.
 
 ---
 
