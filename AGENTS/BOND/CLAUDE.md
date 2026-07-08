@@ -51,11 +51,9 @@ You are part of a multi-agent research network tracking systemic financial risk.
 
 ## OUTPUT RULES
 
-- **Tables > prose.** Use markdown tables for data. LLMs and humans both parse them faster.
-- **Numbers > narrative.** "HY OAS 298bps (+12bps/wk)" not "spreads have been widening recently."
+- **Output canon → root CLAUDE.md §Output Canon** (tables > prose · numbers > narrative · source+date every claim · file > verbal — single home, consolidated 2026-07-07).
 - **Update > append.** Replace stale sections in STATUS.md rather than appending new sections at the top.
 - **Compress.** STATUS.md should stay under 250 lines. If it's growing, archive old research to `domain/sources/`.
-- **Source your claims.** When citing data, note the source and date so it can be verified.
 - **Source tags on dashboards.** Every Signal Dashboard value must include a source tag: `[CONF]` for confirmed data with source + date, `[EST]` for estimates. No naked numbers.
 - **Don't maintain stale copies.** If another agent owns a data point, reference their value with `[CONF AGENT Date]` rather than keeping your own copy that drifts. One source of truth per metric.
 

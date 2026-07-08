@@ -17,8 +17,6 @@ Geopolitical risk is binary in ways domestic stress isn't. Wars start on specifi
 
 **⚠️ YOUR #1 RULE: Always WRITE findings to STATUS.md. If it's not in the file, it doesn't persist.**
 
-**⚠️ File > verbal.** Cross-agent session visibility is restricted. If asked to report findings, propose changes, or review something, write to a named file (e.g., `REPORT.md`, `REVIEW.md`) in your agent directory. Don't rely on your response reaching the caller — the file is the handoff.
-
 ---
 
 ## SPAWN PROTOCOL
@@ -60,7 +58,7 @@ All mail lives under `AGENTS/HAWK/`:
 - **Inbox:** `inbox/` — inbound signals from other agents (historically delivered by HERMES)
 - **Outbox:** `outbox/` — outbound signals you write for other agents
 - **Processed:** `inbox/processed/` — signals you've integrated
-- **Delivered:** `outbox/delivered/` — signals marked delivered (by HERMES, or manually when proxying)
+- **Delivered:** `outbox/delivered/` — signals marked delivered (manually, on direct-drop)
 
 ### Inbox Processing Protocol
 When spawned for inbox processing: **check inbox/ for pending signals and process them.** It contains the full processing steps, outbox format, and receipt template.
@@ -76,7 +74,7 @@ Write a single `.md` file to `outbox/` per signal:
 **Source:** [data release / own analysis]
 **Priority:** 🔴/🟠/🟡
 ```
-- HERMES is meant to sweep outboxes and deliver to target inboxes, then move the file to `outbox/delivered/` — **but HERMES is currently unreliable** (see ⚠️ note above). With Will's authorization, deliver manually: copy to the target `inbox/` (rename `to-X` → `from-HAWK`), then move your copy to `outbox/delivered/`.
+- Delivery is direct — there is no HERMES sweep layer. Per the ⚠️ note above: with Will's authorization, copy the packet to the target `inbox/` (rename `to-X` → `from-HAWK`), then move your copy to `outbox/delivered/`; otherwise `outbox/` is scanned by PROME at boot (Convention B).
 - **Write a signal when:** a threshold fires, a prediction resolves, or analysis produces an actionable insight
 - **Do NOT write for:** routine STATUS updates or data that only affects your own vectors
 
@@ -97,7 +95,7 @@ Follow the **Git Protocol** in root `CLAUDE.md`, with these HAWK overrides per a
 
 ## OUTPUT RULES
 
-- Tables > prose. "Brent $90 (+14%), scenario C (35% prob)" — not geopolitical commentary.
+- **Output canon → root CLAUDE.md §Output Canon** (tables > prose · numbers > narrative · source+date every claim · file > verbal — single home, consolidated 2026-07-07).
 - Scenario probabilities must be maintained and updated with new evidence.
 - STATUS.md stays under 250 lines. Archive to `domain/sources/` if growing.
 - Separate FACTS (what happened) from ASSESSMENT (what it means for markets).
@@ -273,5 +271,5 @@ Every STATUS.md update must end with a `## BOTTOM LINE` section: 2-4 sentences. 
 | `thesis/PREDICTIONS_ARCHIVE.md` | Verbatim post-mortems for closed (CONFIRMED/FAILED/PARTIALLY/VOIDED) predictions. Reference-only — NOT loaded at boot. Anchors `#hawk-NN` referenced from PREDICTIONS.tsv. |
 | `domain/sources/` | Research archives, STATUS backups |
 | `inbox/` | Inbound signals from other agents. Process when spawned for it. |
-| `outbox/` | Outbound signals for other agents. One file per signal. HERMES delivers. |
+| `outbox/` | Outbound signals for other agents. One file per signal. 🔴 acute only — PROME scans at boot (HERMES retired). |
 | `research/` | Deep dives, analysis outputs |

@@ -237,7 +237,7 @@ Generic intake — "routed signals, however delivered":
 
 ## OUTPUT RULES
 
-- Tables > prose. Always.
+- **Output canon → root CLAUDE.md §Output Canon** (tables > prose · numbers > narrative · source+date every claim · file > verbal — single home, consolidated 2026-07-07).
 - Max 200 lines in STATUS.md. Archive older synthesis reports to `research/`.
 - Never editorialize — state the convergence, the confidence, the direction (Δ), the action. Done.
 - When uncertain, say so with a number. "65% this is real convergence" > "this might be converging".
