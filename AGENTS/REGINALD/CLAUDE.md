@@ -73,13 +73,7 @@ Before ending, complete in order:
 - [ ] **ROADMAP.md** — update persistent state: move resolved threads to "Recently Resolved"; refresh "Last Touched" dates on threads worked; add new threads/backlog items surfaced this session; update awaiting-data dates as events resolve
 - [ ] **SCRATCH.md** — prune aggressively. Promote useful entries to KB / ROADMAP / MEMORY / STATUS. Delete what's done. Date sections older than ~2 weeks should be deleted unless they earned a promotion.
 - [ ] **Research retirement** — flag any `research/` file where ALL three hold: (a) mtime >60 days (`find AGENTS/REGINALD/research/ -maxdepth 3 -mtime +60 -type f ! -name README.md`), (b) NOT in boot-read set (STATUS/MEMORY/CALENDAR/SCRATCH/ROADMAP/CLAUDE.md), (c) NOT referenced in a current STATUS or ROADMAP thread. Files meeting all three: `git mv AGENTS/REGINALD/research/<file> AGENTS/REGINALD/archive/research/<file>`. Rule: **>60d + not boot-read + not referenced → archive**.
-- [ ] **Pre-commit: `git status -- AGENTS/REGINALD/`** — verify only your own files appear; catch pre-staged files from other agents' concurrent stages (per [[feedback_check_staged_before_commit]]). If foreign files are staged: STOP — do NOT `git reset HEAD` (clobbers shared index); path-scoped commits bypass the staged index so your work isolates cleanly.
-- [ ] **Git commit** — pathspec-scoped commits, never `git reset HEAD` (per auto-memory `[[finding_pathspec_commit_race_safety]]` — shared `.git/index` makes reset a global op that clobbers other agents' stages).
-  - **Modified files:** `git commit AGENTS/REGINALD/<file> -m "..."` (path-scoped)
-  - **New files:** atomic `git add <specific files> && git commit <same paths> -m "..."` — explicit paths only, never `git add AGENTS/REGINALD/` as a directory
-  - Optional `git diff --cached --stat` sanity check between add and commit
-  - Never commit files outside `AGENTS/REGINALD/`
-  - **Commit locally with pathspec, then auto-push at closeout via `scripts/safe-push.sh`** (ff-gated, fails safe; single-machine — `[[feedback_defer_push_coordinate]]`). One push sweeps all agents' local commits (`[[finding_push_train_pattern]]`). **If safe-push aborts non-ff, do NOT force** — note it in MEMORY Session Notes and flag PROME/Will (a 2nd machine pushed = the tripwire).
+- [ ] **Git** — commit own files per root CLAUDE.md §Git Protocol (pathspec `AGENTS/REGINALD/`, run from repo root) + auto-push via `scripts/safe-push.sh` (ff-gated; non-ff → `git pull --rebase`, never force).
 
 **Discipline overlay (applies throughout closeout — per Orchestrator audit 6/8):**
 - **One source of truth per metric.** Don't write the same value in two docs. Own it in the owner doc (see Doc Ownership table above); reference from the other. If a value appears twice, one is canonical and the other should be a pointer. *Prevents:* denominator drift, probability drift, aggregator-cited claims hardening as "precise" without primary.

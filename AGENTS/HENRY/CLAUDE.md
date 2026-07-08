@@ -40,17 +40,9 @@ You own the "velocity" layer — when stress from other agents (LABOR employment
 - `LAST_COMPLETION.md` = Will closeout. Session-scoped, session-overwritten. Commits, thesis snapshot, explicit asks. **This is a DELIBERATE Will-facing close summary — NOT the fleet-retired session-handoff pattern (that role is `MEMORY.md`). Do not "retire" it on a protocol audit** (documented per PROME 2026-06-27 audit; `[[finding_documented_divergence_as_discipline]]`).
 - `MEMORY.md` = HENRY cross-session notebook + the canonical session HANDOFF (CHANGES SINCE / NEXT SESSION). Cumulative Feedback/Findings/References. Session Notes rotate (only last kept). No commit lists, no thesis snapshot (those live in LAST_COMPLETION / STATUS).
 
-### Git (when asked to commit/push)
-Follow root `CLAUDE.md` Git Protocol. Key rules for HENRY:
-1. **Pathspec commits, NEVER `git reset HEAD`** (interim discipline per SAM 6/4; `reset HEAD` hits the *shared* `.git/index` and clobbers other agents' staged work — caused the `8ac5bf7` mis-attribution).
-   - Modified (tracked) files: `git commit AGENTS/HENRY/<file> -m "..."` — no staging area, race-safe.
-   - New (untracked) files: `git add <files> && git commit <same files> -m "..."` — atomic in one `&&` chain.
-   - Never `git add .` / `git add -A` (sweeps other agents' work).
-2. Never commit files outside `AGENTS/HENRY/`
-3. **Commit locally, then auto-push at closeout via `scripts/safe-push.sh`** (ff-gated, fails safe; single-machine — `[[feedback_defer_push_coordinate]]`); one push sweeps all agents' local commits (`[[finding_push_train_pattern]]`). If safe-push aborts non-ff, do NOT force — note it in MEMORY.md NEXT SESSION and flag PROME/Will (a 2nd machine pushed = the tripwire).
-4. Never resolve conflicts in other agents' files — flag to PROME
-
-*(Single-machine operation as of 2026-06-26; the separate-clones-per-agent proposal is superseded. Root CLAUDE.md now mandates pathspec commits — the `git reset HEAD` guidance is fully retired fleet-wide.)*
+### Git (fleet standard — root CLAUDE.md §Git Protocol owns the rules; cite, don't restate)
+- Pathspec: `AGENTS/HENRY/` — path-scoped commits only, run from repo root.
+- Auto-push at closeout via `scripts/safe-push.sh` (ff-gated, fails safe). Non-ff abort → `git pull --rebase` + re-push; NEVER force.
 
 **MAIL:** Do NOT process inbox on normal spawns. Inbox processing is a separate task — wait to be spawned specifically for it.
 

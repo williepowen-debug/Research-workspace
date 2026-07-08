@@ -48,7 +48,7 @@ Geopolitical risk is binary in ways domestic stress isn't. Wars start on specifi
 12. **Forward-state** — update CONVERGENCE MATRIX `Last Updated` cells; refresh the cross-theater energy-strike ledger (`domain/energy-strikes/STRIKES.tsv` + `SUMMARY.md`) if a strike was logged this session. Research detail → `domain/sources/` (source material) or `research/` (deep dives).
 13. **Rewrite `SCRATCH.md`** using `templates/SCRATCH.template.md` — CHANGES SINCE / WHAT I DID / NEXT SESSION (dated, future-verifiable) / OPEN THREADS / pending decisions / one-line mail state. This is the **canonical session handoff** (it replaces the retired `LAST_COMPLETION.md`; `MEMORY.md` holds persistent learnings, NOT the per-session handoff). *(Mirror of boot step 2.)*
 14. **`NEXUS_BRIEF.md`** — write-back the cross-agent synthesis brief (the external twin of SCRATCH; schema `AGENTS/NEXUS/templates/NEXUS_BRIEF_SCHEMA.md`). **Mandatory every session, even no-change** — minimum is refreshing the `As of:` stamp + `STATUS commit:` hash so staleness self-corrects. Material STATUS change → brief content updates same session. NEXUS reads this at its boot in place of raw STATUS.
-15. **Promotion scan + Git** — thesis-level finding → `thesis/`; transferable cross-agent lesson → auto-memory; HAWK-specific durable learning → local `MEMORY.md` (remove from MEMORY.md after promoting to auto-memory). Cross-agent signals → `outbox/` (see Outbox Protocol). **Git: pathspec commits, never `git reset HEAD`; commit locally, then auto-push at closeout via `scripts/safe-push.sh`** (ff-gated, single-machine) — see the **Git** subsection below.
+15. **Promotion scan + Git** — thesis-level finding → `thesis/`; transferable cross-agent lesson → auto-memory; HAWK-specific durable learning → local `MEMORY.md` (remove from MEMORY.md after promoting to auto-memory). Cross-agent signals → `outbox/` (see Outbox Protocol). **Git: commit own files per root CLAUDE.md §Git Protocol (pathspec `AGENTS/HAWK/`) + auto-push via `scripts/safe-push.sh`** (ff-gated; non-ff → `git pull --rebase`, never force) — see the **Git** subsection below.
 
 **MAIL:** Do NOT process inbox on normal spawns unless boot step 6 finds pending signals. Full inbox processing is a separate task — wait to be spawned specifically for it.
 
@@ -83,13 +83,11 @@ If a cross-agent threshold breaches during your work, append to `AGENTS/SIGNALS.
 | DATE | HAWK | TARGET | 🔴/🟠 | Description |
 ```
 
-### Git (commit + auto-push at closeout)
+### Git (fleet standard — root CLAUDE.md §Git Protocol owns the rules; cite, don't restate)
 
-Follow the **Git Protocol** in root `CLAUDE.md`, with these HAWK overrides per auto-memory `[[finding_pathspec_commit_race_safety]]`:
-1. **Use pathspec commits — never `git reset HEAD`.** A shared `.git/index` makes `reset` a global op that clobbers other agents' staged work. For modified files: `git commit AGENTS/HAWK/<file> -m "..."`. For new untracked files: atomic `git add <specific files> && git commit <same specific files> -m "..."` — explicit paths only, **never `git add AGENTS/HAWK/` as a directory** (sweeps in unintended files). Optional sanity check between add and commit: `git diff --cached --stat`.
-2. **Never commit files outside `AGENTS/HAWK/`.** Signals you deliver into another agent's inbox stay untracked — flag them to Will rather than committing them yourself.
-3. **Pull discipline:** scoped stash for working-tree changes (`git stash push -- AGENTS/HAWK/`); the staging-area race is eliminated by pathspec commits above.
-4. **Commit locally with pathspec, then auto-push at closeout via `scripts/safe-push.sh`** (ff-gated, fails safe; single-machine — `[[feedback_defer_push_coordinate]]`). One push sweeps all agents' local commits (`[[finding_push_train_pattern]]`). **If safe-push aborts non-ff, do NOT force — note it in `SCRATCH.md` and flag PROME/Will** (a 2nd machine pushed = the tripwire). Never resolve conflicts in another agent's files — flag to PROME.
+- Pathspec: `AGENTS/HAWK/` — path-scoped commits only, run from repo root.
+- Auto-push at closeout via `scripts/safe-push.sh` (ff-gated, fails safe). Non-ff abort → `git pull --rebase` + re-push; NEVER force.
+- **HAWK-specific:** signals you deliver into another agent's inbox stay untracked — flag them to Will rather than committing them yourself.
 
 ---
 
