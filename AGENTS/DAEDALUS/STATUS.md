@@ -64,7 +64,7 @@ DAEDALUS sees the whole fleet, has one real build behind it (AEOLUS, 6/28), and 
 
 ---
 
-**7/8 addendum — STRIKE BATCH ONE APPLIED (Will-approved):** S1+S4+S5+S6 executed fleet-wide (4 editor fan-out + verification counters): root `§Output Canon` single-home, 18 files canon-pointered, live HERMES/OpenClaw instructions rewritten to direct-inbox reality, dup File>verbal struck, own SPAWN-4 demoted. ZHAO/TERRY packeted not edited (single-owner flow); dormant skipped. The "lives in removed" scrub artifact = 6-file class, all resolved. **S2 held for R2; S3 pending per-agent look.** Audit report header carries the full disposition banner.
+**7/8 addendum — STRIKE BATCH ONE APPLIED (Will-approved):** S1+S4+S5+S6 executed fleet-wide (4 editor fan-out + verification counters): root `§Output Canon` single-home, 18 files canon-pointered, live HERMES/OpenClaw instructions rewritten to direct-inbox reality, dup File>verbal struck, own SPAWN-4 demoted. ZHAO/TERRY packeted not edited (single-owner flow); dormant skipped. The "lives in removed" scrub artifact = 6-file class, all resolved. **S2 APPLIED same-day (Will-approved):** 24 files to git cite-form (4-editor fan-out), blueprints prescribe it for new builds, both live push contradictions dead + a **3rd drift class found** (stale non-ff flag-Will semantics, ≥6 files) — every git drift to date lived in a local restatement, none in root. Exceptions verified intact (WALTER/YEYOU/BROCK/HAWK/SHADE/DEWEY). Residuals: WALTER BOOT_PROTOCOL:92 (inbox-noted), TERRY (packet), NEXUS incident-note → root-promotion candidate. **S3 pending per-agent look; R2 root rewrite still open (pointers are R2-proof).** Audit report header carries the full disposition banner.
 
 ## BOTTOM LINE
 
