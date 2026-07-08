@@ -21,7 +21,7 @@ Skip for casual one-off exchanges with no artifacts. **Live-event override:** if
 ## Pre-closeout (~1 min)
 
 1. `git status --short` — review what's changed
-2. Confirm no other agents have uncommitted work outside `AGENTS/LIQUID/` (per root CLAUDE.md "Before pulling"). If dirty: do NOT pull; commit your LIQUID work locally — auto-push at closeout still sweeps it safely (`safe-push` only pushes committed work, never touches others' uncommitted; "Agent Git Isolation").
+2. Confirm no other agents have uncommitted work outside `AGENTS/LIQUID/` (per root CLAUDE.md "Before pulling"). If dirty: do NOT pull; commit your LIQUID work with pathspec — root CLAUDE.md §Git Protocol covers how `safe-push` handles the rest.
 3. Mentally inventory session artifacts:
    - **Did I pull fresh tape?** → dashboard cells need refresh
    - **Did any threshold breach?** → cross-agent signal candidate (CLAUDE.md table)
@@ -121,27 +121,11 @@ If no surprising lessons: skip.
 
 ## Chunk 5 — Git + report (Standard / Heavy; Light optional; Bounce skips)
 
-### Git sequence (pathspec-scoped — **never `git reset HEAD`**, shared `.git/index`)
+### Git (fleet standard — root CLAUDE.md §Git Protocol owns the rules; cite, don't restate)
 
-**Modified files** — path-scoped commit, no separate staging step:
-```
-git status --short                                       # check scope; note dirty OUTSIDE LIQUID/
-git commit AGENTS/LIQUID/<file> [<file2> ...] -m "LIQUID: <subject>"
-```
-
-**New untracked files** — atomic add+commit, explicit paths (never `git add AGENTS/LIQUID/` as a directory — sweeps unintended files):
-```
-git add AGENTS/LIQUID/<specific-new-file>
-git diff --cached --stat                                 # optional sanity: nothing unexpected
-git commit AGENTS/LIQUID/<specific-new-file> [...] -m "LIQUID: <subject>"
-```
-
-- **Never `git reset HEAD`** — shared index makes it a global unstage that races other agents' concurrent stages (root CLAUDE.md; incident `8ac5bf71`, memory `finding_pathspec_commit_race_safety`).
-- **Auto-push at closeout via `scripts/safe-push.sh`** (ff-gated, fails safe; single-machine — `feedback_defer_push_coordinate`). Commit locally with pathspec, then run `safe-push` as the closeout tail; one push sweeps everyone's committed work (`finding_push_train_pattern`). **If safe-push aborts non-ff, do NOT force** — note it in the MEMORY CURRENT block and flag PROME/Will (a 2nd machine pushed = the tripwire).
-
-Commit-message style: `LIQUID: <short one-liner>` subject; body explains WHY when non-obvious; `Co-Authored-By: Claude Opus 4.8 (1M context) <noreply@anthropic.com>` trailer.
-
-**If working tree outside LIQUID is dirty** (other agents' uncommitted work): that's fine — commit your LIQUID work with pathspec and let `safe-push` sweep the committed train at closeout. safe-push never touches others' uncommitted files; it only aborts on a non-ff origin (the 2nd-machine tripwire) — `finding_push_train_pattern` + "Agent Git Isolation".
+- Pathspec: `AGENTS/LIQUID/` — path-scoped commits only, run from repo root.
+- Auto-push at closeout via `scripts/safe-push.sh` (ff-gated, fails safe). Non-ff abort → `git pull --rebase` + re-push; NEVER force — note it in the MEMORY CURRENT block and flag PROME/Will if it recurs.
+- Commit-message style: `LIQUID: <short one-liner>` subject; body explains WHY when non-obvious; `Co-Authored-By: Claude Opus 4.8 (1M context) <noreply@anthropic.com>` trailer.
 
 ### Session summary to Will
 

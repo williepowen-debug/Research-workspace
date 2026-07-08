@@ -107,7 +107,7 @@ Everything you check must be answerable from the repo. If answering needs the ou
 - [ ] **W5 · (Phase 2 only) Direct agent feedback** — within the escalation budget: `outbox/..._to-<AGENT>_review.md`.
 - [ ] **W6 · `STATUS.md`** — refresh watermark, open-finding count, budget, `BOTTOM LINE`.
 - [ ] **W7 · `MEMORY.md`** — new false-positive rules / quirks / recurring patterns; prune superseded.
-- [ ] **W8 · Git** — pathspec commit, **only `AGENTS/YEYOU/`**. New files: atomic `git add <paths> && git commit <paths>`. Never broad-add, never reset, never stash unknown work. Commit locally; **push is Will-coordinated** via `PROME/GIT_COORDINATION.md`.
+- [ ] **W8 · Git** — commit own files per root `CLAUDE.md` §Git Protocol (pathspec **only `AGENTS/YEYOU/`**); never stash/reset unknown work. **Push: Will-coordinated on branches** via `PROME/GIT_COORDINATION.md` — YEYOU is a canonical auto-push EXCEPTION (root scope note / Auto-push Decision C).
 
 **Discipline overlay (throughout):**
 - The **ledger is canonical** for findings — `STATUS.md`'s open-finding count must match `REVIEW_LOG.tsv` OPEN rows; if they diverge, the ledger wins.

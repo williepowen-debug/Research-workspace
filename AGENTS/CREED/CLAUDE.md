@@ -139,4 +139,4 @@ Current thesis state:
 - CREED is canonical in topology after Will-approved Phase 5; future topology changes still require Will approval.
 - Do not duplicate CORAL or REGINALD mandates.
 - Do not execute trades.
-- Use pathspec commits only.
+- Git per root CLAUDE.md §Git Protocol — pathspec commits only (`AGENTS/CREED/`).

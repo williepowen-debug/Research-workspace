@@ -199,28 +199,19 @@ reconstructing how a view, or the architecture, evolved; NEXUS_BRIEF is read by 
    `[[finding_doc_mirror_consistency_check]]`). Reconcile before git — a mismatch caught here is free;
    caught next boot it's a stale-intel incident. *(CARL step-15 parity; the boot/closeout-symmetric
    agents encode this.)*
-8. **Git** *(mirror of boot 0)* — commit your files locally per the Git rules below; **push is
-   Will-coordinated, not an automatic closeout step.** Note any pending push in MEMORY.md FOLLOW-UP.
+8. **Git** *(mirror of boot 0)* — commit own files per root CLAUDE.md §Git Protocol (pathspec
+   `AGENTS/OTTO/`) + auto-push via `scripts/safe-push.sh` (ff-gated; non-ff → `git pull --rebase`
+   + re-push, never force). If a push was deferred/aborted, note it in MEMORY.md FOLLOW-UP.
 
 **Discipline:** apply § Evidence & Hygiene Conventions throughout closeout (one-source-of-truth,
 `[STALE]`-marking, evidence-grade tags).
 
-### Git (commit local at session end; push is Will-coordinated)
-Follow the **Git Commit Protocol** in root `CLAUDE.md`. **Pathspec commits — never `git reset
-HEAD` / never `git add AGENTS/OTTO/` as a directory** (shared `.git/index` makes both global
-ops that clobber other agents' concurrent stages; see auto-memory
-`[[finding_pathspec_commit_race_safety]]`). Key rules for OTTO:
-1. **Modified files:** `git commit AGENTS/OTTO/<file> -m "..."` — path-scoped, no separate stage.
-2. **New untracked files:** atomic `git add <specific files> && git commit <same files> -m "..."`
-   — explicit paths only. Optional `git diff --cached --stat` between add and commit.
-3. **Commit locally at session end; do NOT push by default** — pushing is Will-coordinated
-   (a session-end push races other agents' unpushed commits / dirty trees on the shared branch).
-   Note any pending push in MEMORY.md FOLLOW-UP so the next coordinated window sweeps it
-   (`[[finding_push_train_pattern]]`).
-4. Never commit files outside `AGENTS/OTTO/` (the WALTER inbox signal drop stays untracked —
-   WALTER processes + commits it himself).
-5. Scoped stash when pulling: `git stash push -- AGENTS/OTTO/`. Never resolve conflicts in
-   other agents' files — flag to PROME. Do not pull when other agents have uncommitted work.
+### Git (fleet standard — root CLAUDE.md §Git Protocol owns the rules; cite, don't restate)
+- Pathspec: `AGENTS/OTTO/` — path-scoped commits only, run from repo root.
+- Auto-push at closeout via `scripts/safe-push.sh` (ff-gated, fails safe). Non-ff abort →
+  `git pull --rebase` + re-push; NEVER force.
+- OTTO-specific: the WALTER inbox signal drop stays untracked — WALTER processes + commits it
+  himself; never commit it.
 
 ---
 

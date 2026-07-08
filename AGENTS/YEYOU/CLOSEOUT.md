@@ -130,27 +130,13 @@ If none triggered, skip.
 
 ## Chunk 4 — Git + report (Standard / Heavy; Light optional; Bounce skips)
 
-### Git sequence
+### Git (fleet standard — root CLAUDE.md §Git Protocol owns the mechanics; cite, don't restate)
 
-```
-git status --short                                       # check scope
-# modified files — path-scoped commit, NO staging step (never `git reset HEAD`):
-git commit -m "YEYOU: <subject>" -- AGENTS/YEYOU/<file> AGENTS/YEYOU/<file>
-# new untracked files — atomic add+commit of EXPLICIT paths (never `git add AGENTS/YEYOU/` as a directory):
-git add -- AGENTS/YEYOU/<newfile> && git commit -m "YEYOU: <subject>" -- AGENTS/YEYOU/<newfile>
-# mixed modified + new files: add only new explicit paths first, then commit all explicit paths:
-git add -- AGENTS/YEYOU/<newfile> && git commit -m "YEYOU: <subject>" -- AGENTS/YEYOU/<modified> AGENTS/YEYOU/<newfile>
-git pull --rebase                                        # only if push rejected or before push when safe
-git push                                                 # only on Will's explicit push call
-```
-
-**Never `git reset HEAD`** — shared `.git/index` makes it a global unstage that races concurrent agents (auto-memory `[[finding_pathspec_commit_race_safety]]`, incident `8ac5bf71`). Matches root `CLAUDE.md` "Before committing". **Pushing is a separate gate** — commit locally freely, but push only when Will coordinates it (concurrent agents may have unpushed local commits; `[[feedback_defer_push_coordinate]]`).
-
-**Git pull constraint:** `git pull --rebase` is okay only in a clean/safe flush. Do NOT run `git pull --rebase` during dirty closeout; coordinate via `PROME/GIT_COORDINATION.md`.
-
-Commit message style: subject = `YEYOU: <short one-liner>`; body explains WHY not WHAT when useful. **Option order matters:** put `-m` before `--`; everything after `--` is treated as a pathspec.
-
-If working tree outside `AGENTS/YEYOU/` is dirty (other agents' uncommitted work): commit your work, defer push, and note pending push in `AGENTS/YEYOU/STATUS.md` or `AGENTS/YEYOU/reviews/REVIEW_LOG.tsv`.
+- Pathspec: `AGENTS/YEYOU/` — path-scoped commits only, run from repo root.
+- **Push: Will-coordinated on branches — YEYOU is a canonical auto-push EXCEPTION** (root `CLAUDE.md` scope note / Auto-push Decision C; coordinate via `PROME/GIT_COORDINATION.md`). Commit locally freely; `git push` only on Will's explicit push call.
+- **Git pull constraint:** `git pull --rebase` is okay only in a clean/safe flush. Do NOT run `git pull --rebase` during dirty closeout; coordinate via `PROME/GIT_COORDINATION.md`.
+- Commit message style: subject = `YEYOU: <short one-liner>`; body explains WHY not WHAT when useful. **Option order matters:** put `-m` before `--`; everything after `--` is treated as a pathspec.
+- If working tree outside `AGENTS/YEYOU/` is dirty (other agents' uncommitted work): commit your work, defer push, and note pending push in `AGENTS/YEYOU/STATUS.md` or `AGENTS/YEYOU/reviews/REVIEW_LOG.tsv`.
 
 ### Session summary to PROME
 
@@ -201,7 +187,7 @@ One short message (via outbox):
 | **Memory storage** | `memory/YYYY-MM-DD.md` + auto-memory | `AGENTS/YEYOU/MEMORY.md` + review ledger |
 | **Git scope** | Root `PROME/` + explicitly scoped root files | Root `AGENTS/YEYOU/` + outbox |
 | **Commit examples** | `git commit -m "PROME: <subject>" -- PROME/<file>` | `git commit -m "YEYOU: <subject>" -- AGENTS/YEYOU/<file>` |
-| **Push gate** | Will-coordinated flush | Will-coordinated flush |
+| **Push gate** | Auto-push at closeout via `scripts/safe-push.sh` (root `CLAUDE.md` §Git Protocol) | Will-coordinated on branches (canonical auto-push EXCEPTION — Decision C) |
 | **Cross-agent handoff** | Direct read of outbox / live `PROME/` docs | Via outbox → PROME reads directly |
 | **Bounce procedure** | Append 3-5 lines to SCRATCH | Append 3-5 lines to STATUS |
 | **Skip rules** | `PROME/TODAY.md`, `PROME/HANDOFF.md`, `AGENTS/<other>/` files | `CLAUDE.md` (doc-ownership only), `HANDOFF.md`, `AGENTS/PROME/` files |
@@ -222,7 +208,6 @@ One short message (via outbox):
 - Both use chunked updates with checkpoints
 - Both use `trash` over `rm` for deletions
 - Both use `git pull --rebase` before push (when safe, but with constraint during dirty closeout)
-- Both use `git push` only on Will-coordinated flush
 - Both have Bounce/Light/Standard/Heavy closeout tiers
 
 ---
