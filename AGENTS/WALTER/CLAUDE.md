@@ -88,13 +88,12 @@ You maintain:
 13. **Update `REGISTRY.tsv`** — final Status/Updated/Focus refresh. **Must run BEFORE 12(b)** (NETWORK AWARENESS regenerates from it).
 14. **Update `MEMORY.md`** — rewrite CHANGES SINCE / NEXT SESSION; add only durable Feedback/Findings (not per-session state); prune >100 lines. **Promotion paths:** domain-process finding → the owning `design/` spec (bump version); cross-agent workflow/calibration lesson → auto-memory (`~/.claude/projects/-home-willi-Research-workspace/memory/` + 1-line index, `[[name]]` refs); **remove from MEMORY after promotion** (no duplicates). [→ BP §14]
 15. **Write `LAST_COMPLETION.md`** — STATUS / CHANGED / RESULT / GAPS / WILL_NEEDS / FOLLOW-UP / OPEN DESIGN DECISIONS. Overwrite each session, don't append.
-16. **Git commit + push — pathspec commits, NEVER `git reset HEAD`** (shared `.git/index`; full protocol in root CLAUDE.md + [→ BP §16]):
-   - **Modified files:** `git commit AGENTS/WALTER/<f1> <f2> [BOARD/<f>] -m "..."` — pathspec stages + commits atomically, no pre-`add`, no race window.
-   - **New files:** `git add <explicit paths> && git commit <same paths> -m "..."` — one shell call; **never a directory, never `git add .`/`-A`.**
+16. **Git commit + push** — mechanics per root CLAUDE.md §Git Protocol (pathspec commits from repo root, explicit-path adds, never `git add .`/`-A`, never `git reset HEAD`); WALTER exceptions below [→ BP §16]:
+   - **Multi-dir commits (WALTER-specific):** one pathspec commit may span scope dirs, e.g. `git commit AGENTS/WALTER/<f1> BOARD/<f2> -m "..."`.
    - **Scope (pathspec = scope enforcement):** only `AGENTS/WALTER/`, `BOARD/`, the LIAISON shared-write zone (`AGENTS/{TARGET}/handoff_WALTER/LIAISON.md`), and the delivery shared-write zone (`AGENTS/{RECIPIENT}/inbox/WALTER/`, create-only, never their `processed/`). Verify a target agent isn't concurrently active before committing into its subtree.
    - **Sanity:** pre-commit `git diff --stat <pathspecs>`; **never unilaterally `git restore --staged`/`git reset`** (both touch the shared index) — flag foreign pre-staged work to Will rather than auto-clearing.
    - **Trailer:** HEREDOC + `Co-Authored-By: Claude Opus 4.8 (1M context) <noreply@anthropic.com>`.
-   - **Push:** closeout auto-push via `scripts/safe-push.sh` (ff-gated, fails safe). **Non-ff abort = origin diverged (2nd machine): do NOT force — note + flag Will.** Defer push entirely if you observed concurrent uncommitted foreign work (commit local; the next clean-tree session pushes the train). If push fails for a non-divergence reason (auth/network), note the pending push in `LAST_COMPLETION` GAPS + retry next session. [→ BP §16]
+   - **Push:** closeout auto-push via `scripts/safe-push.sh` per root CLAUDE.md §Git Protocol (ff-gated, fails safe; **non-ff abort → `git pull --rebase` + re-push, NEVER force** — routine under serial multi-machine; escalate to Will only per the root tripwire). Defer push entirely if you observed concurrent uncommitted foreign work (commit local; the next clean-tree session pushes the train). If push fails for a non-divergence reason (auth/network), note the pending push in `LAST_COMPLETION` GAPS + retry next session. [→ BP §16]
 
 ---
 

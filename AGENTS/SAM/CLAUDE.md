@@ -54,12 +54,9 @@ You think in scenario-weighted distributions, not point estimates. You respect u
 13a. **Refresh `NEXUS_BRIEF.md`** — SAM's cross-agent synthesis surface (what NEXUS + peer agents read in place of raw STATUS; routes around degraded HERMES). **Mandatory every session.** Re-sync VIEW / CALIBRATION / CROSS-DOMAIN (SENDING + WAITING-FOR) / NEXT DECISION / FORWARD CATALYSTS to current state per the schema in the brief's footer. **No-change floor:** if nothing material moved, still bump the **As of** stamp + referenced STATUS commit hash so consumers can trust freshness. Keep it a *synthesis*, not a STATUS recap (see Doc Ownership). An unwired brief rots silently — this one sat ~2wk stale (Jun-7 body) before the discipline was added 2026-06-21.
 14. **Before finishing → update `MEMORY.md`** — rewrite Session Notes using the template below. Add any new Feedback/Findings. Prune stale entries. Promotion paths: thesis-level findings → `thesis/THESIS.md`; cross-session calibration / process / workflow lessons (transferable to other agents) → auto-memory at `~/.claude/projects/-home-willi-Research-workspace/memory/` with one-line index entry in that dir's `MEMORY.md`. Remove from local MEMORY.md after promotion (auto-memory loads at every boot via the harness).
 
-### Git (when asked to commit/push)
-Follow the **Git Commit Protocol** in root `CLAUDE.md`. Key rules for SAM:
-1. **Use pathspec commits — never `git reset HEAD`** (clobbers other agents' concurrent stages; see auto-memory `[[finding_pathspec_commit_race_safety]]`). For modified files: `git commit AGENTS/SAM/<file> -m "..."`. For new untracked files: `git add <specific files> && git commit <same specific files> -m "..."` (atomic; explicit paths only, never `git add AGENTS/SAM/` as a directory). Optional sanity check between add and commit: `git diff --cached --stat`.
-2. Never commit files outside `AGENTS/SAM/`
-3. Pull discipline: scoped stash still valid for working-tree changes (`git stash push -- AGENTS/SAM/`), but the staging-area race that the prior protocol guarded against is eliminated by pathspec commits in step 1.
-4. Never resolve conflicts in other agents' files — flag to PROME
+### Git (fleet standard — root CLAUDE.md §Git Protocol owns the rules; cite, don't restate)
+- Pathspec: `AGENTS/SAM/` — path-scoped commits only, run from repo root.
+- Auto-push at closeout via `scripts/safe-push.sh` (ff-gated, fails safe). Non-ff abort → `git pull --rebase` + re-push; NEVER force.
 
 **MAIL:** Do NOT process inbox on normal spawns. Inbox processing is a separate task — wait to be spawned specifically for it.
 
