@@ -31,14 +31,21 @@
 
 ## Session Notes
 
-### CHANGES SINCE LAST SESSION (Mon Jul 6 closeout → Wed Jul 8 ~9:30 PM ET spawn)
+### CHANGES SINCE LAST SESSION (Wed Jul 8 ~9:30 PM ET → Thu Jul 9 ~9:00 PM ET targeted-drain spawn)
 
-- **JGB 30Y auction (7/7) RESOLVED FIRM:** BTC 4.55x / tail 0.3bp — decisively above the pre-registered floor bar, highest BTC since May-2019. Meiji-Yasuda ~4.0% demand floor confirmed REAL flow.
-- **US-Iran truce collapsed overnight 7/7→7/8** (US strikes, Iran retaliation); Brent +6.3% → ~$79.
-- **USD/JPY 162.33 → 162.41**, holding in the 162–163 MOF zone; driver shifted from pure yen-side grind to oil-shock (Japan ~90% ME-oil-dependent) — still no risk-off yen-haven re-couple.
-- CFTC Jun-30 print still unconfirmed as of this session (check next boot).
+- **BND-11 (US 30Y reopen 7/9) RESOLVED NOT-FIRED, decisively:** indirect 77.74% SURGED (+17.8pp vs June), dealer 10.05%, BTC 2.44, high yield 5.058%. Open question routed SAM+ZHAO: who is the 77.74%? — this session's core deliverable.
+- USD/JPY 162.28 [7/9], Brent retraced to $76.01 settle (from $78.82 [7/8] peak) — the war-shock that drove the 7/8 zone re-test is already fading.
+- CFTC Jun-30 print still not confirmed pulled as of this session (carry-open item, unchanged).
 
-### LAST SESSION (Wed Jul 8 ~9:30 PM ET — PROME spawn: JGB 30Y auction print delivered to BOND + truce-collapse/oil-shock read)
+### LAST SESSION (Thu Jul 9 ~9:00 PM ET — PROME targeted-drain spawn: Japan-leg pre-registration + WALTER consume-step install + inbox drain)
+
+- **(1) Japan-leg pre-registration on the BND-11 77.74% indirect surge — SAFE-HAVEN-TRANSIENT not Japan-duration-extension-durable, MEDIUM conf.** Four-leg read: the Meiji-Yasuda 30Y program is JGB-to-JGB rotation (funded by selling legacy JGBs), not fresh capital reaching for USTs; the structural FX-hedging headwind (BOJ 1.00% vs Fed ~3.5-3.75%) is unchanged and argues against unhedged UST reach with USD/JPY at 40-yr lows; the standing JGB→US transmission-map framework (7/1) already models Japan as a term-premium-correlation channel, not a flow/repatriation vector; and timing tracks the oil/war shock (Brent already retraced by the same day) rather than a JGB-linked bid. Pre-registered discriminators: May TIC 7/16 (consistency check only — predates the event window) + MOF weekly flows (first available proxy at next boot, currently stale through 6/27) + persistence-without-a-trigger at the Aug refunding. Full write-up → STATUS 7/9 EVE note.
+- **(2) WALTER consume-step INSTALLED** (§8.1 block added to CLAUDE.md, deferred across 2 prior sessions) + 18-file `inbox/WALTER/` backlog drained to `processed/` with dispositions logged in new `board_log.tsv`: 4 acted, 8 noted, 6 info-only — none triggered a fresh STATUS/THESIS re-mark (all either already-integrated or superseded by the 7/7-7/9 event sequence). Lane clean going forward.
+- **(3) Non-WALTER inbox drained** (4 files → `inbox/processed/`): the amended Asia-rates packet (item 1), ZHAO Korea-leg cc (superseded, low-urgency), the consume-step task packet itself (executed), 6/26 PROME triage note (historical).
+- **(4) New SAM-35** (thesis/PREDICTIONS.tsv) — Jul-22 40Y JGB bid-real pre-registration, extending SAM-32/CH-015's framework to the longest tenor (own baseline BTC 2.702/soft, May-27). 50% firm-lean.
+- **Files touched:** STATUS (7/9 EVE session note + top banner pointer) · CLAUDE.md (consume-step block) · board_log.tsv (NEW) · PREDICTIONS.tsv (SAM-35 + preamble) · inbox/WALTER/processed (18 files) · inbox/processed (4 files) · MEMORY (this).
+
+### PRIOR SESSION (Wed Jul 8 ~9:30 PM ET — PROME spawn: JGB 30Y auction print delivered to BOND + truce-collapse/oil-shock read)
 
 - **(1) JGB 30Y auction (7/7) graded + relayed to BOND.** BTC 4.55x/tail 0.3bp vs Jun-10 baseline 2.936x/2.8bp — FIRM, clears the pre-registered bar with room to spare. SAM-32/v1.6.3 demand-floor thesis now has its strongest evidencing print (real flow, not announced-not-flowed); SAM-33 stays VOID. Note written to `AGENTS/BOND/inbox/2026-07-08_from-SAM_jgb-30y-auction-internals.md` — BND-11 read-through: FIRM → mildly lower P(soft US 30Y) ~−3-5pp (term-premium tilt, not flow-mechanical), leaning toward the fuller end given the print's strength; stacks with US 10Y reopen 7/8 clearing CLEAN.
 - **(2) Truce-collapse/oil-shock MOF read:** USD/JPY 162.41, in-zone but oil-driven (not risk-off yen-haven — yen weakened despite the shock, consistent with THESIS § OIL-IN-YEN). No fresh MOF rate-check/strike evidence found overnight. Per CH-011, continuation of the existing orderly grind → strike-watch ARMED, still NOT FIRED. No re-mark of carry-unwind buckets (oil/MOU route already a named 60d driver; this is re-escalation of the same route, not new).
@@ -47,7 +54,7 @@
 
 ### NEXT SESSION
 
-1. **Route the 7/7 JGB 30Y grade to LIQUID/HENRY too (shared test, not yet sent — only BOND got it 7/8).** FIRM: BTC 4.55x/tail 0.3bp, Meiji floor confirmed real. **Jul-22 40Y = second read** (super-long floor's hardest test; packet-C headline trigger paired w/ a soft 7/16 TIC — successive weeks). **Packet-C FULL synthesis w/ ZHAO due 7/16** (post May TIC + BoK).
+1. **Route the 7/7 JGB 30Y grade to LIQUID/HENRY too (shared test, not yet sent — only BOND got it 7/8).** FIRM: BTC 4.55x/tail 0.3bp, Meiji floor confirmed real. **Jul-22 40Y = second read** (super-long floor's hardest test; SAM-35 pre-registered 7/9 — see PREDICTIONS.tsv; packet-C headline trigger paired w/ a soft 7/16 TIC — successive weeks). **Packet-C FULL synthesis w/ ZHAO due 7/16** — Japan-leg pre-registration DELIVERED 7/9 (safe-haven-transient read on BND-11's 77.74% indirect surge; see STATUS 7/9 EVE note); fold into the 7/16 joint write w/ ZHAO's China leg.
 2. **CFTC Jun-30 print — verify pulled** (was still showing Jun-23 data as of 7/8; check deafut.txt primary next boot). First read of whether shorts held through the 40-yr-low + ambush-story week; SAM-30 reclaim line ~3.8pp away; leg-1 (−108K) ~32K away.
 2b. **Re-derive the STRATEGY modal band (METSUKE escalation)** — FXY $57.5-59.5 / USDJPY 154-160 contradicted by 2+ weeks of 160-162.6 tape; annotated UNDER RE-DERIVATION. Re-derive off the Jul-6 CFTC + Jul-7 30Y reads (per [[finding_re_derivation_surfaces_concept_failure]] — re-derive the framework, don't re-mark the number).
 3. **MOF ambush-regime follow-through:** watch for any sharp yen-specific spike (the trigger now arrives unsignalled — catch follow-through, not the gap); ~7/31 MOF monthly = hard confirm of the 7/2 no-strike call. If a candidate fires, fast semi-confirm via BOJ current-account projections (~2bd).

@@ -41,6 +41,21 @@ You think in scenario-weighted distributions, not point estimates. You respect u
    - **MOF weekly flows:** `mof.go.jp/policy/international_policy/reference/itn_transactions_in_securities/week.csv` (CP932 encoded)
    - **News/narrative:** WebSearch (always cross-check ETF prices vs underlying FX).
 
+### WALTER signal intake (inbox/WALTER delivery lane) — installed 2026-07-09
+
+At boot, after STATUS / MEMORY reads — run the glob + `git mv` from repo root
+(cwd-proof, PAT-031: `cd "$(git rev-parse --show-toplevel)"` first):
+
+1. List `AGENTS/SAM/inbox/WALTER/*.md` not yet in `AGENTS/SAM/board_log.tsv`.
+   (If `board_log.tsv` does not exist, create it with the v0.2 header:
+    `timestamp_read<TAB>signal_id<TAB>disposition<TAB>source<TAB>notes`)
+2. For each: read it, decide disposition (acted/noted/deferred/info-only/skipped),
+   append a row to `board_log.tsv` with source=INBOX_WALTER,
+   then `git mv` the file to `AGENTS/SAM/inbox/WALTER/processed/`.
+3. Let `acted` items inform this session.
+
+*(Canonical spec: `AGENTS/WALTER/design/BOARD_CONSUMPTION_SPEC.md` v0.6 §8.1. Backlog of 18 files drained 2026-07-09 (PROME spawn) — see `board_log.tsv`. Per-boot going forward this is usually 0–few new files.)*
+
 ### Execute
 8. **Execute the task**
 
