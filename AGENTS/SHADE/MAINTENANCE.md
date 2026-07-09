@@ -4,6 +4,15 @@ Structural-change log for SHADE architecture: docs/scripts/protocol/schema chang
 
 ---
 
+### 2026-07-09 (eve) — Will-directed fleet self-sweep (stale/inconsistent info)
+- **Trigger:** Will-directed fleet-wide self-sweep for stale/inconsistent info, same evening as the LIGHT catch-up spawn.
+- **Dead pointer fixed:** STATUS §9 "Phase documents" list pointed to `research/STATUS_DRAFT_2026-06-15.md` / `STATUS_REFRESH_PHASE1_MAP_2026-06-15.md` / `STATUS_REFRESH_PHASE3_SOURCES_2026-06-15.md` — all three were `git mv`'d to `archive/` on 6/26 (T1c pass below) but STATUS's own pointer was never updated. Corrected to `archive/...` paths.
+- **Retirement (>60d + unreferenced):** `research/NAIC_SPRING_MAR26.md` (mtime 2026-03-27, ~104d old, zero references anywhere in STATUS/SCRATCH/CLAUDE/MEMORY, content superseded by the current NAIC CLO-RBC narrative in STATUS §2/§6) → `git mv`'d to `archive/NAIC_SPRING_MAR26.md`.
+- **Overdue calendar rows re-spec'd (STATUS §6):** the 2026-06-23 NAIC RBC IRE WG webex (16d overdue) and 2026-07-06 NAIC CLO C-1 Residuals/PAF comment deadline (3d overdue) were still labeled "New / imminent" / "live comment window" — factually stale framing. Re-spec'd both as PASSED-UNGRADED with an explicit note that no fresh NAIC pull was done this LIGHT catch-up (no fleet agent carries the outcome either) — flag for next SHADE session, do not assume relief/resolution from silence.
+- **Asymmetric-record fix:** the 7/5 AI-capex-preload-cc → HENRY contribution (drafted this evening, `outbox/2026-07-09_to-HENRY_ai-capex-insurer-contribution.md`) was logged `drafted-pending-route` earlier the same session; PROME then delivered it to `AGENTS/HENRY/inbox/` (Will-authorized) before the sweep. Updated `board_log.tsv` disposition to `acted`/DELIVERED-7/9, and reconciled STATUS/SCRATCH/outbox-file language so sender and (per PROME) receiver records agree.
+- **Checked, no fix needed:** WAL/OZK Q2-date claims (none present in SHADE files), X1/BND-11/truce/QT canon (SHADE's own STATUS/SCRATCH already matched tonight's digest — written earlier this same session), Athene figures (already the 7/4-verified $154.9bn/+42%/yr/~35%-of-assets set throughout; no residual +49%/40-43%/34.7% vintage found). `domain/sources/` KB docs (01-08) already carry `LAST_REVIEWED: 2026-03` + explicit >60d-stale banners from the 6/26 T1a pass — left as-is (already correctly bannered, not silently rotted).
+- **Files touched:** `STATUS.md`, `SCRATCH.md`, `board_log.tsv`, `outbox/2026-07-09_to-HENRY_ai-capex-insurer-contribution.md`, `MAINTENANCE.md`; `git mv` `research/NAIC_SPRING_MAR26.md` → `archive/`.
+
 ### 2026-06-26 — Tier-1 fleet fixes applied (T1a/T1b/T1c)
 - **Trigger:** Will-directed fleet architecture review; Prome Tier-1 fixes mandated across all agents.
 - **T1a — Stale-ledger fix:** Added `LAST_REVIEWED` field to all 8 `domain/sources/` KB doc headers (Mar'26 vintage; flagged as ⚠️ >60d stale). Added KB staleness warning to STATUS §0. Note: KB-07 (FABN) is additionally superseded by `research/ATHENE_FABN_MATURITY_LADDER_2026-06-22.md` for kill-path-1 figures.

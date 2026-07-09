@@ -1,6 +1,8 @@
-# SHADE → HENRY: insurer AI-credit angle for HEN-36 FCF-cliff read (draft, pending PROME/Will route)
+# SHADE → HENRY: insurer AI-credit angle for HEN-36 FCF-cliff read
 
-**Context:** PROME task packet `AGENTS/SHADE/inbox/2026-07-05_from-PROME_ai-capex-preload-cc.md` (Will-approved 7/5) asked SHADE to send this paragraph to HENRY for the 7/29-31 hyperscaler FCF-cliff read (HEN-36), cc PROME, by ~7/25. **NOT yet delivered to HENRY's inbox** — today's spawn scope restricts SHADE to files inside `AGENTS/SHADE/` and requires cross-agent routes to be LISTED, not executed. Drafted here so PROME/Will can copy it into HENRY's inbox, or explicitly authorize SHADE to deliver directly next session.
+**STATUS: DELIVERED-7/9** (self-sweep update, same evening) — PROME copied this contribution into `AGENTS/HENRY/inbox/` tonight, Will-authorized. Retained here as SHADE's outbox record of what was sent.
+
+**Context:** PROME task packet `AGENTS/SHADE/inbox/processed/2026-07-05_from-PROME_ai-capex-preload-cc.md` (Will-approved 7/5) asked SHADE to send this paragraph to HENRY for the 7/29-31 hyperscaler FCF-cliff read (HEN-36), cc PROME, by ~7/25. Originally drafted here mid-session because today's spawn scope restricted SHADE to files inside `AGENTS/SHADE/`; PROME executed the actual cross-agent delivery the same evening.
 
 ---
 

@@ -17,7 +17,7 @@ Wrapper-decoupling trigger CLOSER, not firing — HY tagged 280 (not sustained),
 
 ## WHAT I DID (2026-07-09, LIGHT catch-up)
 1. **Boot:** SHADE CLAUDE.md, STATUS, PROME digest packet, inbox items. Confirmed `inbox/WALTER/` already clean (nothing new since 7/4).
-2. **Drained the 7/5 AI-capex-preload cc (PROME Packet D, Will-approved):** drafted the one-paragraph insurer AI-credit contribution for HENRY's HEN-36 (`outbox/2026-07-09_to-HENRY_ai-capex-insurer-contribution.md`) but did NOT deliver to HENRY's inbox — today's spawn scope confines SHADE to its own dir and requires cross-agent routes to be listed, not executed. Logged disposition `drafted-pending-route` in `board_log.tsv`; moved inbox file to `processed/`.
+2. **Drained the 7/5 AI-capex-preload cc (PROME Packet D, Will-approved):** drafted the one-paragraph insurer AI-credit contribution for HENRY's HEN-36 (`outbox/2026-07-09_to-HENRY_ai-capex-insurer-contribution.md`) — initially not delivered (today's spawn scope confined SHADE to its own dir); **PROME delivered it to `AGENTS/HENRY/inbox/` the same evening (Will-authorized) — DELIVERED-7/9, closed.** Logged disposition `acted` in `board_log.tsv`; moved inbox file to `processed/`.
 3. **Arming-road refresh:** cross-checked LIQUID/HENRY/NEXUS/BROCK STATUS for what moved 7/4→7/9 on the CoreWeave/AI-credit channel. Net: quieter, not louder (see TOP VERDICT).
 4. **Monoline forward-watch:** wrote explicit SHADE-side watch items + thresholds ahead of the 7/15-22 prints into STATUS §6 (consumer-ABS read-through, wrapper-decoupling sign-leg check, FABN spread, AI-HY cohort graduation re-check).
 5. **STATUS.md:** added §0b (7/9 catch-up delta), updated §6 monolines row, updated BOTTOM LINE. No statutory dig opened (trigger not fired).
@@ -26,7 +26,7 @@ Wrapper-decoupling trigger CLOSER, not firing — HY tagged 280 (not sustained),
 1. **Boot:** STATUS → SCRATCH → MEMORY; check board_log + inbox/WALTER/; re-pull HY OAS/APO/wrapper-basket live marks before citing as current.
 2. **Trigger watch (deploy-on-trigger, STATUS §10 item 6):** still HY>280 SUSTAINED AND wrapper-basket-leads-managers-down. Watch the beta-vs-substance distinction into the Fri 7/10 Brent verdict + CPI 7/14 — a beta-driven HY re-approach to 280 does NOT arm.
 3. **Monolines 7/15-22:** run the 4 watch items in STATUS §6 against the actual SYF/ALLY/COF prints when they land.
-4. **HENRY delivery:** confirm with PROME whether the drafted outbox contribution was routed to HENRY's inbox; if not, deliver directly (within scope next session) ahead of the ~7/25 deadline.
+4. **HENRY delivery:** CLOSED — delivered 7/9 by PROME. No follow-up needed unless HENRY signals a gap ahead of ~7/25.
 5. **DO NOT** re-run NPORT crawl unless kill-path-1 nears a trade. **DO NOT** pre-fire the statutory dig on a beta-only HY re-approach.
 
 ## OPEN THREADS
@@ -35,7 +35,7 @@ Wrapper-decoupling trigger CLOSER, not firing — HY tagged 280 (not sustained),
 | Wrapper-decoupling trigger | ⚠️ CLOSER, unchanged since 7/4 (HY 267, retreating; sign leg unconfirmed) |
 | CoreWeave/AI-HY arming road | 🟢 quieter since 7/4 (KB-LIQ-069 closed NOT-FIRED 7/6); SpaceX (KB-LIQ-072) idiosyncratic, not corroborating |
 | Insurer-lender double-jeopardy | 🟠 SHADE-OWNED; trigger-gated, unchanged |
-| AI-capex FCF-cliff HENRY contribution | 🟡 drafted, not delivered — route pending PROME/Will |
+| AI-capex FCF-cliff HENRY contribution | ✅ delivered 7/9 (PROME, Will-authorized) |
 | Monolines 7/15-22 | 🟡 watch items + thresholds now written (STATUS §6); no data yet |
 | FABN peer-relative canary | 🟠 YELLOW; T+123 (+43-48bp), unchanged |
 | Egan-Jones Aug 12 | 🟢 calendar binary, unchanged |
@@ -44,5 +44,5 @@ Wrapper-decoupling trigger CLOSER, not firing — HY tagged 280 (not sustained),
 ## MAIL STATE
 - `inbox/WALTER/`: CLEAN — confirmed nothing new since 7/4.
 - `inbox/` root: 1 item (AI-capex-preload cc) triaged this session → `processed/`. Now empty.
-- `outbox/`: new draft `2026-07-09_to-HENRY_ai-capex-insurer-contribution.md` — NOT yet a cross-agent delivery, awaiting PROME/Will route authorization.
-- No writes outside `AGENTS/SHADE/` this session.
+- `outbox/`: `2026-07-09_to-HENRY_ai-capex-insurer-contribution.md` — DELIVERED-7/9 (PROME copied into `AGENTS/HENRY/inbox/`, Will-authorized); record kept here as SHADE's sent-copy.
+- No writes outside `AGENTS/SHADE/` this session (self-sweep pass: `NAIC_SPRING_MAR26.md` git mv'd research/→archive/, STATUS §9 dead-pointer fixed, §6 two overdue NAIC dates re-spec'd — see `MAINTENANCE.md`).
