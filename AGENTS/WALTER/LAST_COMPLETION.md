@@ -6,67 +6,63 @@
 
 ## STATUS
 
-**2026-07-06 (Mon — US MARKETS OPEN, first session since Thu 7/2; Will-terminal boot → heavy routing day + a new ingestion method shipped).** Boot clean (doctor 0-HIGH after a board-TOTAL sweep). Two routing sub-sessions + one architecture packet: **(1) AM RESEARCH-INTAKE lane** — 2 dispatch / 2 kill (BOARD 442→444). **(2) PM WILL DROP-ZONE (new)** — a gitignored + boot-surfaced desktop drop folder (`AGENTS/WALTER/inbox/WILL/`) as a Telegram alternative for bulk batches; first live run = a **47-image batch → parallel-OCR extraction fan-out (6 Sonnet sub-agents transcribe) → WALTER dedup/filter/route → 15 dispatch / 25 kill (BOARD 444→459)**. **ZHAO reactivated** (Will-confirmed → China-RE dispatch + registry refreshed). **(3) Karpathy "LOOPS.md" essay → PROME** as a harness-agent decision packet. **6c live scan: no new WALTER auto-fire** (VIX 15.93 sustain 1/5). **Full Tier-2 closeout** (13 registry_lag rows refreshed, MED cleared).
+**2026-07-08 (Wed ~23:00-23:30 ET — MARKETS CLOSED; PROME-spawned teams-mode session, US-Iran truce-collapse night).** Scoped task from PROME: run the intake-lane + drop-zone/BOARD sweep for signals NOT already covered by tonight's energy-re-arm adjudications (BRENT/HAWK/SAM already ran the re-arm; PROME already routed energy notes to RED/HENRY/LIQUID/CARL — explicitly not duplicated). Boot clean (doctor 0-HIGH; 2 MED both known/self-closing). git pull clean.
 
 ## CHANGED (this session)
 
-- **AM intake routing (source: RESEARCH-INTAKE):** SIG-706-001 EGBN new President&CEO S. Curley → REGINALD (SEC-primary pull + CORRECTED-FRAMING the intake RED item-code → planned succession, not distress); SIG-706-002 two-sided energy supply → BRENT/HENRY (Ukraine largest-refinery / all-11-gasoline-producers ↔ UAE crude near record). 2 stale-recirculation kills (BoE Apr-14 / FT junk Apr-3).
-- **Drop-zone shipped:** `AGENTS/WALTER/inbox/WILL/` gitignored (`git check-ignore` verified) + `processed/` + README; committed `3a27c75d`.
-- **Drop-zone first batch (source: WILL-DROPZONE):** SIG-706-003→017 (15 dispatch across 9 clusters) / 25 kill (11 iPhone E-variant re-crops deduped pre-extraction + 2 board-dups + oil-retreads + stale-vintage + off-thesis) / 2 held owner-ahead. BOARD 444→459 (reconciles); route_log +15 / delivery_log +23 handoffs / kill_log +6-grouped. 47 images → `processed/`.
-- **ZHAO reactivated** (Will-confirmed active 7/6) — registry row refreshed dormant→ORANGE; China-RE-erased-20yr-gains routed to it (SIG-706-017).
-- **Karpathy LOOPS.md → PROME** (`SIG-WALTER-PROME-20260706-karpathy-loops-harness-agent-decision.md`): essay transcription + WALTER analysis + rec (no new standing agent; run one harness audit first) + 4 borrowables.
-- **REGISTRY:** 13 lagging rows refreshed (ZHAO + OZK/OTTO/RED/NEXUS/BROCK/SHADE/BRENT/BOND/SAM/LIQUID/HENRY/LABOR) → registry_lag MED cleared.
-- **MEMORY + auto-memory:** new `[[finding_batch_extraction_fanout_then_route]]` (extraction-fan-out pattern) + index line; WALTER MEMORY finding on the drop-zone + printf-%-mangle + E-variant-dedup gotchas.
+- **RESEARCH-INTAKE gate (1 NEW breach, 5 NEW_WATCH news items):** **SIG-708-001** SpaceX's $25B avg-BBB bond trading at BB-junk-level spreads (1.62pp vs 1.55pp avg BB; Invesco "very sloppy") → LIQUID/HENRY action, RED info — WebSearch-CONFIRMED 0.82 across Bloomberg/CNBC/FXStreet, 2nd rating-vs-spread disconnect after CoreWeave (SIG-704-001). **2 kills:** subprime-auto "brightens" trade-press pair (CONTRADICTED by NY Fed/Philly Fed primary — 90+d DQ +12.2% YoY, no meaningful 2026 improvement; would've introduced a false counter-signal vs CARL's owned deterioration thesis) + Barron's preferred-stock-ETF piece (evergreen content-marketing, no new data).
+- **Drop-zone sweep (task-directed):** found 2 items sat unprocessed in `inbox/WILL/` since 2026-07-06 ~15:2x (drop-zone boot-step-not-wired GAPS item from the 7/6 session — confirmed costly this time). Both triaged and routed: **SIG-708-002** Phoenix multifamily rents, CoStar June-2026 consecutive monthly declines → REGINALD (info-refresh only, extends REGINALD's own SIG-W-20260426-014, no new magnitude claim). **SIG-708-003** Atrium "The Life Science Reckoning Through the Lens of Bank OZK" (67pp, dated Oct 22 2025, image-only PDF — confirmed via pdftoppm render + PDF metadata, no text layer) → REGINALD, flagged unread/stale-vintage but relevant background given OZK is an active thesis. Both files moved to `inbox/WILL/processed/`.
+- **BOARD:** 459 → 462. route_log +3 / delivery_log +5 (6 per-recipient handoffs written: LIQUID, HENRY, RED ×1 SIG-708-001; REGINALD ×2) / kill_log +2. INDEX.md cluster ToC + section headers updated (AI_INFRA_CAPEX 20→21, BANK_COLLATERAL 73→75, TOTAL 459→462). intake_scan.py --mark run (seen-baseline reconciled: +1 new, -3 cleared).
+- **Recipient-inbox backlog check (task-directed, ls-based, not a deep audit):** HAWK's reported 10-signal WALTER backlog is **already cleared** (0 unprocessed root-level files, 10 in its own `processed/` — resolved earlier tonight by HAWK itself, not a live issue). The broader `delivered_but_unconsumed` pattern is real and fleet-wide (doctor MED, 129 across 14 agents) — quick per-agent root-level inbox counts: REGINALD 29 / CORAL 23 / SAM 19 / HENRY 13 / BRENT 11 / MARCO 10 / AEOLUS 5 / VIOLET 5 / BOND 5 / TERRY 6 / LIQUID 4 / RED 3 / LABOR 2 / CARL 0 (exempted, pull-complete) / HAWK 0. Not a new finding — matches the doctor's existing MED tracking; no action taken beyond noting it (out of scope for tonight's task).
+- **DEWEY batch-2 manifest re-prioritized:** item **10 (energy-hy-oas-unblind)** moved from #12/bottom ("DEPRIORITIZED — energy de-escalated," 7/4 note) to **#2** (right after CoreWeave). The de-escalation premise it was deprioritized on reversed overnight with the truce collapse; the prompt's HY-OAS-by-energy-exposure decomposition directly feeds LIQUID's tonight-tasked energy-OAS re-state / HY-path-under-oil-sustained-week pre-registration. 7/4 note's item-10 entry marked superseded, retained for history.
+- **STATUS.md:** new dated header entry prepended (Tier-1 light); BOARD-count changelog bullet prepended with tonight's detail.
 
 ## RESULT
 
-**17 dispatched / 27 killed** this session (AM 2+2, PM 15+25). BOARD **442→459**, all guards green (board_reconcile / log_reconcile / version-drift). All commits safe-pushed clean-ff; **local = origin/master (0/0)**. New ingestion channel live + validated. No spec-version bumps.
+**1 dispatch (RESEARCH-INTAKE) + 2 dispatch (drop-zone sweep) = 3 dispatched / 2 killed** this session. BOARD 459→462, all guards should reconcile (INDEX ToC + section headers + TOTAL updated in lockstep with new files). No spec-version bumps. Iran anchor untouched (BRENT/HAWK/SAM/PROME own tonight's re-arm adjudication — no duplicate work per task scope).
 
 ## GAPS
 
-- **Drop-zone boot-step NOT wired** (deferred): until a boot-step surfaces "N images waiting" in `inbox/WILL/`, drops left between sessions only get seen if Will says so in-session. Top infra item for next session. (Gitignored ⇒ invisible to `git status`, so the boot-step is the only cross-session discovery path — `[[finding_gitignored_private_drop_boot_surfaced]]`.)
-- **printf %-mangle:** a kill_log row with `62%;` silently mangled + dropped the off-thesis kill row; caught by a post-write field-count check + restored (`6299b7c1`). Lesson logged (use Python not printf for rich TSV appends).
-- **Japan-oil-futures "unorthodox pivot"** held (not on BOARD) — real (Reuters-confirmed) but stale premise (oil decoupled low, not "up") + SAM already holds the concept. Route to SAM info-only only if Will wants.
+- **Drop-zone boot-step still NOT wired** (carried from 7/6) — this session is direct evidence of the cost: 2 items (1 fresh CoStar chart + 1 substantive 67-page OZK report) sat invisible for 2 days until an explicitly-scoped sweep caught them. Still the top deferred infra item.
+- **route_log / delivery_log / kill_log / INDEX edits not independently reconciled via `walter_doctor.py` post-write** this session (ran doctor pre-session only) — recommend next boot re-run doctor to confirm board_reconcile / log_reconcile stay green after tonight's manual appends.
+- **git commit not yet run as of this file being written** — see WILL_NEEDS.
 
 ## WILL_NEEDS
 
-1. **LOOPS.md harness-agent decision (routed to PROME):** revive DARWIN vs extend DAEDALUS vs no-new-agent. My rec = **no new standing agent** (work is episodic; Rule 8 caution); fold into DAEDALUS or revive DARWIN on-demand; cheap first move = task DAEDALUS with ONE LOOPS.md-derived harness audit and let the work size the ownership question. PROME + DAEDALUS to coordinate.
-2. **Japan-oil-futures item:** route to SAM info-only, or leave as a logged hold? (Your call.)
-3. Parked ~9 design decisions still on deck when you want them (one at a time).
+1. None blocking — routine session, no decisions required from Will.
 
 ## FOLLOW-UP (canonical running list — survives handoff via this file)
 
 **🟢 RESOLVED this session:**
-- Registry_lag MED (13 rows refreshed) · ZHAO reactivation (registry + routing) · the AM intake + PM drop-zone batches (all committed + pushed).
+- HAWK's 10-signal backlog tell (already self-cleared, not live) · RESEARCH-INTAKE gate cleared (1 routed / 2 killed) · drop-zone 2-item backlog cleared · DEWEY manifest item-10 re-prioritized.
 
 **🟠 Held for Will / carried:**
-- **Drop-zone boot-step wiring** (GAPS #1) — top deferred infra.
-- **LOOPS.md harness-agent decision** → PROME (WILL_NEEDS #1); the 4 borrowables (prune-harness-on-upgrade / restart-vs-patch / read-traces / contract-first) — apply to WALTER's own harness regardless.
-- **Japan-oil-futures HOLD** (WILL_NEEDS #2).
-- **DAEDALUS asymmetric-records handoff** still owed.
-- **11 DEWEY Batch-2 reports** landing through 7/22 (passive).
-- **B5 scheduled-scan** — double-blocked (undelivered CARL+BRENT DATA_RELEASE_CALENDAR + recurring-budget sign-off).
-- **Iran 6/28 history-migration** — deferred by judgment (anchor lean).
-- **Parked ~9 design decisions** — run the ≥3-carried walkthrough when Will has appetite.
+- **Drop-zone boot-step wiring** — still the top deferred infra item (carried from 7/6, now with direct cost-evidence from tonight).
+- **LOOPS.md harness-agent decision** → PROME (carried from 7/6, unresolved as of this session).
+- **Japan-oil-futures HOLD** (carried from 7/6, unresolved — WALTER did not touch this session, out of scope).
+- **DAEDALUS asymmetric-records handoff** still owed (carried).
+- **DEWEY Batch-2 queue** — 11 prompts still live (10 re-prioritized to #2 tonight; 18/CoreWeave still #1); reports land through 7/22.
+- **B5 scheduled-scan** — double-blocked (carried).
+- **Parked ~9 design decisions** — run the walkthrough when Will has appetite (carried).
 
-**Iran anchor:** 7/4-fresh. Re-verify gates: post-funeral Doha outcome / Mojtaba succession-instability-or-reemergence / MOU collapse / kinetic change / 7d min (~7/11) / Iran-cluster pre-dispatch.
+**Iran anchor:** untouched this session (7/4-fresh stamp still the last WALTER-side update; tonight's truce-collapse re-arm is owned by BRENT/HAWK/SAM/PROME, not duplicated here per explicit task scope).
 
-**Live-watch (7/6 markets open):** VIX 15.93 <16 RED-FT-06 (sustain 1/5 — watch the 5-session count) · Brent $71.95 <75 (BRENT) · HY 275 → next UP-fire >320 · **BOND 30Y ~5.00 AT threshold pre-7/9-reopen** · USDJPY 162.15.
+**Live-watch:** not re-scanned tonight (markets closed, no new WALTER threshold-fire attempted; last live scan was 7/6 — see STATUS spine for those levels, treat as stale pending next markets-open boot).
 
 ## OPEN DESIGN DECISIONS (need Will) — condensed
 
-**🔴 ACTIVE:**
-- **Drop-zone boot-step + standing-lane formalization** — wire boot-surfacing + `processed/`-move convention (deferred from this session; Will greenlit the method).
-- **LOOPS.md harness/loop-design ownership** — revive DARWIN vs extend DAEDALUS vs no-new-agent (at PROME; WALTER rec = no new standing agent + run one audit first).
-- **B5 scheduled-scan workflow** — Will-approved infra, un-built; double-blocked.
-- **Parked ~9 design decisions** — one at a time.
+**🔴 ACTIVE (carried, unchanged this session):**
+- Drop-zone boot-step + standing-lane formalization.
+- LOOPS.md harness/loop-design ownership (at PROME).
+- B5 scheduled-scan workflow.
+- Parked ~9 design decisions.
 
-**🟠 INFRA planned-but-unbuilt:** I4 CROSS_REFS identifier cache (RED+REGINALD only, stale) · I5 dead `/home/moltbot` paths.
+**🟠 INFRA planned-but-unbuilt (carried):** I4 CROSS_REFS identifier cache · I5 dead `/home/moltbot` paths.
 
-**🔵 PARKED DECISIONS:** FED_FRAMEWORK→UST_PLUMBING rename · INDEX status-column · delivery_log written_state enum · RED auto-cc trim · thin-liquidity routing · CLIMATE_MACRO sustain-vs-fold · REITS/TRADES registry-completeness · OZK revive-or-shelf (now REVIVED 7/4; WAL = next promotion candidate) · RESEARCH-INTAKE v2.
+**🔵 PARKED DECISIONS (carried):** FED_FRAMEWORK→UST_PLUMBING rename · INDEX status-column · delivery_log written_state enum · RED auto-cc trim · thin-liquidity routing · CLIMATE_MACRO sustain-vs-fold · REITS/TRADES registry-completeness · RESEARCH-INTAKE v2.
 
-**✅ RESOLVED / RETRACTED:** ZHAO reactivation (7/6) · registry_lag MED (7/6) · drop-zone method (SHIPPED 7/6) · B1 consume-step (DONE 7/4) · FILTER v3 codification (LANDED 7/4) · COP (RETIRED 6/28).
+**✅ RESOLVED / RETRACTED this session:** DEWEY manifest item-10 re-prioritization (9/4 deprioritization reversed) · HAWK backlog tell (confirmed non-issue).
 
 ---
 
-*Maintenance note: heavy 7/6 session — 17 dispatch / 27 kill across an AM intake lane + a new PM desktop drop-zone (first live run, 47 images via parallel-OCR extraction fan-out); ZHAO reactivated; Karpathy LOOPS.md routed to PROME as a harness-agent decision. Full Tier-2 (registry_lag cleared). Top next-session item = wire the drop-zone boot-step.*
+*Maintenance note: scoped teams-mode session (PROME-spawned) during the fleet's US-Iran truce-collapse energy re-arm night — deliberately narrow (intake + drop-zone sweep + backlog check + one manifest edit), explicitly not duplicating the energy-re-arm routing PROME already ran tonight. 3 dispatch / 2 kill, BOARD 459→462. Top carried item unchanged: wire the drop-zone boot-step.*
