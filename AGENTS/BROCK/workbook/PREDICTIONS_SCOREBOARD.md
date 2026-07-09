@@ -1,16 +1,16 @@
 # BROCK Predictions Scoreboard
 
-**Updated:** 2026-06-20. Tracks resolution outcomes + calibration for falsified/confirmed predictions. Resolved rows live in `PREDICTIONS_ARCHIVE.tsv`; OPEN/PARTIAL/tombstones stay in `PREDICTIONS.tsv`. Full per-prediction detail (invalidation, notes) is in the archive — this is the summary scoreboard.
+**Updated:** 2026-07-09 (BRK-01 + BRK-24 resolved, 9d-overdue queue-clear). Tracks resolution outcomes + calibration for falsified/confirmed predictions. Resolved rows live in `PREDICTIONS_ARCHIVE.tsv`; OPEN/PARTIAL/tombstones stay in `PREDICTIONS.tsv`. Full per-prediction detail (invalidation, notes) is in the archive — this is the summary scoreboard.
 
 ---
 
-## SCORE (fully-resolved, n=7)
+## SCORE (fully-resolved, n=9)
 
 | Hit rate | Brier (mean) | Baseline |
 |----------|--------------|----------|
-| **5 / 7 = 71% correct** | **0.244** | 0.25 (coin-flip) |
+| **7 / 9 = 78% correct** | **0.230** | 0.25 (coin-flip) |
 
-**Confirmed correct (5):**
+**Confirmed correct (7):**
 | ID | Call | Conf | Outcome |
 |----|------|------|---------|
 | BRK-03 | ≥1 major BDC triggers redemption gate | 55% | ✅ massively exceeded (13+ gates) |
@@ -18,6 +18,8 @@
 | BRK-08 | Blue Owl reduces/exits hyperscale DC exposure | 35% | ✅ OBDC II frozen, forced $1.4B sales, CoreWeave syndication failed |
 | BRK-21 | National Dentex defaults at Apr-26 maturity | 75% | ✅ added to OBDC non-accrual Q1 |
 | BRK-28 | HY OAS→260 OR APO>$130 sustained by 6/30 | 50% | ✅ APO leg fired (>$130 ×5 on the $35B Broadcom deal) |
+| BRK-01 | PSEC dividend cut again or rating downgrade | 60% | ✅ dividend-cut leg fired ($0.045→$0.035, -22.2%, 5/7/26 8-K); ratings leg N/A (both downgrades pre-window) |
+| BRK-24 | Analyst/media publishes Athene FY2025 statutory analysis by Q2 | 55% | ✅ Eisman/Gober (3/2, Benzinga/Yahoo/AOL) + "THE HOLE" Substack (4/4) — 6/8 audit sweep MISSED an already-published event |
 
 **Missed (2):**
 | ID | Call | Conf | Why it missed |
@@ -37,13 +39,15 @@
 - **The two misses are different species:**
   - **BRK-14 = good discipline.** A macro-contrarian call (capex *peak/cut*) against a secular tailwind (AI buildout) — correctly carried LOW conf (40%) and correctly missed. The MISS is itself thesis-*supporting* (capex re-accelerating = more AI-infra lending demand).
   - **BRK-09 = a premise error, not a calibration error.** 60% conf, but the underlying framing (HRZN acquired by Monroe, terms worse) was factually **inverted** — caught only at resolution. The fix isn't lower confidence; it's **verifying the premise at creation** (per LESSONS #7 ownership-chain + finding_verification_correction_downstream_propagation), not at resolution.
-- **Brier 0.244** edges the 0.25 coin-flip baseline; with n=7 it's noisy, dragged up by BRK-08 under-confidence and BRK-09 overconfidence-on-a-wrong-premise. Direction of the read (structural calls under-priced, premise-sourcing is the error surface) holds.
+- **Brier 0.230** edges the 0.25 coin-flip baseline; with n=9 still noisy but improving on the 0.244 n=7 read (BRK-01/BRK-24 both landed on the correct side at moderate confidence, pulling the mean down toward better calibration). Direction of the read (structural calls under-priced, premise-sourcing is the error surface) holds.
+- **BRK-24 is a process-failure catch, not a calibration lesson.** The qualifying event (Eisman/Gober, 3/2/26) predated the 6/8 audit sweep by ~3 months, yet the sweep recorded "zero external analysis" and RE-ARMED at lower confidence (65%→55%) on a false negative. The miss wasn't in the prediction — it was in the verification sweep not searching hard enough for an already-public event. Echoes LESSONS #17 (verify filing status, don't carry "pending" forward without a real check) at the media-monitoring layer.
 
 ## TAKEAWAYS (feed into next prediction-writing)
 1. **Structural/cascade calls (gates, default-acknowledgment, sponsor distress) hit and were under-priced** → don't anchor them too low.
 2. **Premise-verify at creation for any call naming a specific deal/entity mechanic** (HRZN direction was the failure mode), not just at resolution.
 3. **Low-conf macro-contrarian calls against a secular tailwind are healthy** even when they miss (BRK-14) — keep the confidence honest and low.
+4. **"Publication-exists" predictions need an actual targeted search at every audit, not just a general sweep** — BRK-24's false-negative RE-ARM (6/8) shows a passive "did anything cross my desk" scan can miss a named, findable, already-published event. For monitoring-type predictions, run an explicit targeted query (named principals + topic) at every disposition check, not just a general news skim.
 
 ---
 
-*Resolved-row detail: `PREDICTIONS_ARCHIVE.tsv`. Active OPEN/PARTIAL forecasts: `PREDICTIONS.tsv` (14 OPEN + 2 PARTIAL as of 6/20). Update this scoreboard whenever a prediction resolves.*
+*Resolved-row detail: `PREDICTIONS_ARCHIVE.tsv`. Active OPEN/PARTIAL forecasts: `PREDICTIONS.tsv` (13 OPEN + 2 PARTIAL as of 7/9). Update this scoreboard whenever a prediction resolves.*
