@@ -4,6 +4,24 @@
 
 ---
 
+## 2026-07-08 ~23:15 ET — War Escalation 5%→7% (+2): truce collapse fires the CHG-041 tail test I'd held open since 6/26 (live-event addendum, S22 core otherwise unchanged)
+
+**Confidence 69% (=). Net-bear 56%→58% (+2).**
+
+**What happened:** US-Iran truce collapsed 7/7→7/8 (3 tankers hit, US sanctions on Iran oil reimposed, war-risk premium 0.125%→0.2-0.4%/transit). Brent snapped **$79.02 (+6.55%) [FORGE live 7/8]**, through the $74-75 decoupling line. BRENT adjudicated ENERGY TAIL RE-ARM (mechanism 0.75/sustain 0.55), gated on a Fri 7/10 close sustain test.
+
+**Why my prior (7/5) War cut was premature:** on 7/5 I cut War 6%→5%, crediting the 6/27-28 kinetic exchange as confirming BRENT's "structural not coiled-spring" read. But CHG-RED-041 (filed 6/26) specifically said the real tail — a kinetic spark breaking the P&I/sanctions/shipping mechanism, not just a symmetric military exchange — had never been tested; I noted this at the time ("P&I not resumed") but let the weight move anyway. That was too generous to the bull case: 6/27-28 held because it was declaratory (base-to-base, zero shipping/insurance/sanctions impact), not because the mechanism was tested and failed.
+
+**Tonight IS that test.** Tanker hits (real damage) + sanctions reimposition (policy act) + war-risk repricing are exactly the institutional legs CHG-041 flagged as untested. Grade: **PARTIALLY CONFIRMED** — mechanism direction right (category-error critique vindicated), magnitude short of my original +$15-25 sizing (realized so far: +$5-7; HAWK's ladder caps D at 46%, not clean-dominant — this is a partial, not maximal, tail event).
+
+**Re-balance:** War 5%→**7% (+2)**, funded from Managed Decline 37%→35% (−2). Stagflation (38), Acute (13), Rescue (3), Soft (4) unchanged. Net-bear 56%→**58%**.
+
+**What would move this further:** BRENT's Fri 7/10 close sustain test (>$75 both sessions + ≥2/4 institutional legs). CONFIRMS → War weight moves further up, CHG-041 resolves RESOLVED-CONVERGED. DENIES (round-trip <$74, legs walk back) → War reverts toward 5% and CHG-041 reopens on harder terms (a *physical* tail test failing would be a stronger structural-decoupling datum than the 6/29 declaratory test).
+
+**Standing bull steelman (not abandoned):** HAWK ladder still short of clean-D (35/50; claimed 85-site strike vs. confirmed 15 intercepted, zero damage/casualties), same-day EIA print shows supply normalizing (first crude build in 10wks, Hormuz still flowing ~25 ships/day), Trump rhetoric unexecuted, and the 6/28 fade precedent is real. A partial 48-72h bleed that clears $74 on a close basis while still fading is a live outcome my own red-team of BRENT's sustain test flagged as under-captured by a binary level test (see outbox memo `2026-07-08_to-PROME_chg041-grade-sustain-redteam.md`).
+
+---
+
 ## 2026-07-05 — The June credit "re-widening" was a head-fake: 12-day catch-up, 98-signal inbox drain + 10-agent sweep + FRED re-check; Stag edges sole-modal (+1) / War −1, NB flat (Session 22)
 
 **Confidence: 69% (=). Net-bear: 56% (=).** Every weight as-of 7/5.
