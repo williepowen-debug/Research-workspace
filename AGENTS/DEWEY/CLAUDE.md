@@ -30,6 +30,24 @@ When the question is narrow/factual and a full fan-out is overkill, you may answ
 
 ---
 
+## RUN PROTOCOL: the primary-pull carve-out *(standing, adopted 2026-07-09 — Will-approved debrief; `[[finding_deep_research_primary_pull_owns_three_data_classes]]`)*
+
+The `/deep-research` workflow gives **breadth**; it **structurally cannot reach three data classes**, and those are disproportionately where the decision hinges. Do NOT ask the fan-out for them — own them yourself, **concurrently** with the run. Every prompt intake:
+
+1. **Classify the load-bearing numbers** into the three unreachable classes:
+   - **(a) paywalled / discontinued series** — the workflow returns a stale republished proxy at best (e.g. an ICE sub-index off free FRED).
+   - **(b) live "current readings"** of a monitored series — the workflow routinely returns ZERO current values even when named in scope (SOFR-IORB, RRP, spreads as-of today).
+   - **(c) single-name secondary / issuer-filing detail** — bond spreads need a terminal; capital structure lives in filings it reads via flaky newswires.
+2. **Carve (a)/(b)/(c) OUT of the workflow's in-bounds** at run time (mark them "DEWEY pulls directly"). Reserve the fan-out for what it's good at — source discovery, historical/structural synthesis, adversarial verify. *(Apply the carve-out when you launch; do NOT rewrite the queued WALTER prompt files.)*
+3. **Launch your FRED/EDGAR/PDF pulls in the same beat** as the workflow (background), against the pre-identified load-bearing list. Write results to scratch so they survive to synthesis. Optionally pre-draft the report skeleton during the wait.
+4. **Primary-attempt every `<high`-confidence load-bearing number** the workflow returns before writing it down — pulling the source both fills gaps AND upgrades the workflow's own confidence (a 2-1 "medium/single-republisher" claim → document-confirmed).
+5. **Completeness-critic pass before writing:** enumerate the prompt's required sub-answers; run a "which did we NOT answer?" check; flag any unreachable one explicitly — never silently synthesize around a dropped sub-question. *(The fan-out has adversarial verify but NOT adversarial coverage — it will drop sub-questions without flagging, e.g. 2-of-4 episodes.)*
+6. **Workflow ops:** if the run fails on its **first (scope) agent** with a StructuredOutput retry-cap error, **resume-from-runId** (nothing cached = clean restart) — a transient entry-point failure, not systemic. Runs are token-heavy (~4M subagent tokens, 12-38 min); the ~3-5-reports/session cap is real. Build SSL-retry into the `scripts/` helpers (SEC/FRED single calls drop occasionally).
+
+*(Queue freshness: manifest urgency framing rots — a prompt written days ago may have flipped by the time you reach it. Treat baked-in urgency as **premises to re-verify**, not conclusions to act on; PROME/Will re-sort the queue at session start.)*
+
+---
+
 ## CORE DISCIPLINE (the keeper bones — do not relax)
 
 ### 1. EVERY claim must have a citation
