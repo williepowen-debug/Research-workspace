@@ -1,13 +1,13 @@
 # FIRE CARDS — Ladder & Comparison
 
-**Updated:** 2026-07-09 (TRY-FIRE-004 added, NO-ARM recorded) · **Owner:** TERRY · **Status:** all **PROPOSE-ONLY**, **$500 max-loss/card**, **0 fired live**.
+**Updated:** 2026-07-09 PM (TRY-FIRE-004 red-team patch: per-arm invalidation + thesis re-scope, arm-#1 DEAD/card stays ALIVE) · **Owner:** TERRY · **Status:** all **PROPOSE-ONLY**, **$500 max-loss/card**, **0 fired live**.
 Living index of the staged fire cards. Standing rule (Will 6/26): fresh capital deploys ONLY on a fired trigger — never pre-position. Update this doc when a card is added/fired/invalidated.
 
 **The cards:**
 - `PRICE-TRIGGER_HY280_regional-put.md` — TRY-FIRE-001
 - `PRINT-TRIGGER_WAL-EGBN-build.md` — TRY-FIRE-002
 - `PRINT-TRIGGER_monoline-COF-SYF-ALLY.md` — TRY-FIRE-003
-- `FLOW-TRIGGER_duration-TLT-put.md` — TRY-FIRE-004 (duration/TLT puts, flow/velocity-discriminator-gated — spec routed by PROME 7/6, ID-corrected 7/8, card built + 7/9 arm-check NO-ARM recorded this session)
+- `FLOW-TRIGGER_duration-TLT-put.md` — TRY-FIRE-004 (duration/TLT puts, flow/velocity-discriminator-gated — spec routed by PROME 7/6, ID-corrected 7/8, card built + 7/9 arm-#1 DEAD recorded; 7/9 PM red-team patch re-scoped thesis + invalidations, card stays ALIVE)
 
 ---
 
@@ -55,5 +55,5 @@ Jul 30    WAL              -> path (c) standalone + path (a) build-defer
 ## TRY-FIRE-004 (separate rail — duration, not credit)
 
 **Target:** TLT puts · **Trigger class:** **FLOW/VELOCITY** (explicitly not PRICE-level) · **Thesis owner:** BOND/LIQUID/SAM+ZHAO · **Confidence:** LOW/contingent.
-Arms on ANY ONE of 3 discriminators (BND-11 acute 7/9 reopen / VX-BND-05 10Y-sustain 5-closes≥4.50 / soft TIC 7/16) — never the bare 30Y-level poke. Full spec + discriminator log → `FLOW-TRIGGER_duration-TLT-put.md`.
-**2026-07-09 state:** arm-#1 (BND-11) **NO-ARM, HIGH confidence** — every leg failed (indirect 77.74%, dealer 10.05%, BTC 2.44, foreign demand surged; BOND grades the level as oil/term-premium, not demand-hole). arm-#2 (10Y 5-close sustain) is the **live watch**: 2-of-5 entering today, 10Y ~4.53 intraday — today's 4PM close, if ≥4.50, makes 3-of-5. arm-#3 (TIC) unchanged, pending 7/16.
+Arms on ANY ONE of 3 discriminators (BND-11 acute 7/9 reopen / VX-BND-05 10Y-sustain 5-closes≥4.50 / soft TIC 7/16, transactions-based per 7/9 patch) — never the bare 30Y-level poke. Card thesis **re-scoped 2026-07-09 PM (Will-ratified, red-team F5/F6/F9/F10)** from demand-hole to the **inflation/term-premium channel** (BOND HEN-40 two-channel frame); invalidations now scoped **per-arm**, not card-global — see full spec + changelog → `FLOW-TRIGGER_duration-TLT-put.md`.
+**2026-07-09 state:** arm-#1 (BND-11) **DEAD** — clean 7/9 print confirmed (indirect 77.74%, dealer 10.05%, BTC 2.44, no tail, foreign demand surged; BOND grades the level as oil/term-premium, not demand-hole). This is arm-#1's own DISARM firing, not a card-level lapse (per the 7/9 PM re-scope) — **card stays ALIVE.** arm-#2 (10Y 5-close sustain) is the **live watch**: 2-of-5 entering today (7/7 4.55, 7/8 4.57), intraday `^TNX` 4.54 as of ~15:40 ET — 7/9 official close not yet confirmed at patch time; a ≥4.50 close makes it 3-of-5. arm-#3 (TIC) respecified to valuation-adjusted transactions (China+Japan net sellers, Apr vs May), pending 7/16.
