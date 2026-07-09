@@ -1,4 +1,6 @@
 # REGINALD TRADE.md
+> **FROZEN 2026-07-09 — not maintained; `POSITIONS.md` is canonical position truth (position truth itself is now OFF-repo, Will/broker direct), do not cite rows below as current.** All strikes/entries here are Jun 2026 (some Apr-2026 "NEEDS VERIFICATION" earnings estimates), long-cleared per STATUS.md (Jun-18 cluster CLEARED 6/19, Jun-30 pile expired). Per root CLAUDE.md Data Hygiene (dead-ledger rule) + DAEDALUS BATCH_03 item 5 (2026-07-03 inbox ask) — disposition: FROZEN (dead surface), not live-mtime-alerted, since trade construction/live rec is TERRY's lane now and this file predates that split.
+
 **Created:** 2026-03-07 UTC
 **Status:** 🔴🔴🔴 EXTREME — Eight channels simultaneously active. NFP -92K confirmed. WAL $126.4M charge-off. Brent $90. Earnings season in 40 days.
 **Based on:** STATUS.md (Mar 6), VX.tsv, KB.tsv, PREDICTIONS.tsv, BANK_EXPOSURE_MATRIX.md

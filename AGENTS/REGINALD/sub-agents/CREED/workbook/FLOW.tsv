@@ -1,3 +1,4 @@
+# FROZEN 2026-03-17 — legacy CREED (national CRE/CMBS) archive, NOT maintained. Canonical = AGENTS/CREED/STATUS.md + AGENTS/CREED/thesis/THESIS.md. Do NOT cite rows as current: values are Jan–Mar 2026 (e.g. Office CMBS DQ 12.34% Jan -> superseded by 11.57% Jun 2026).
 Flow_ID	Name	Speed	Status	Layer	Trigger	Current	Key_Insight	Sends_To
 FLOW-CREED-01	CRE Doom Loop	QUARTERS	ACTIVE (slow)	DQ→VAL→MOD	Mod exhaustion >60%	Office CMBS 11.31% RED; Bank 1.56% GREEN	Vacancy → Value decline → LTV breach → Mod → Re-default → Recognition → Provision spike	REGINALD (bank provisions)
 FLOW-CREED-02	Maturity Wall Cascade	QUARTERS	ARMED	MAT→VAL→FND	>25% maturity default; Peak Q2-Q3 2026	$300-500B/Q; ~25% office default	Maturities force refinancing at repriced values. If >20% fail → systemic. Appraisals forced lower → Fund NAV marks down	REGINALD (balance sheet), LIQUID (refinancing demand)

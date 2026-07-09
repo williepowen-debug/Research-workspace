@@ -1,3 +1,4 @@
+# FROZEN 2026-03-17 — legacy CREED (national CRE/CMBS) archive, NOT maintained. Canonical = AGENTS/CREED/STATUS.md + AGENTS/CREED/thesis/THESIS.md. Do NOT cite rows as current: values are Jan–Mar 2026 (e.g. Office CMBS DQ 12.34% Jan -> superseded by 11.57% Jun 2026).
 Vector_ID	Date	Value	Status	Notes
 VX-CREED-1.01	2026-01-27	11.31%	RED	Inherited from REGINALD. Exceeds GFC peak (~10.7%).
 VX-CREED-1.02	2026-01-27	1.56%	GREEN	Inherited from REGINALD. Large 1.86%, small 1.14%. Masked by modifications.

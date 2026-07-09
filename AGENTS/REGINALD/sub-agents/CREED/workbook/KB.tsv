@@ -1,3 +1,4 @@
+# FROZEN 2026-03-17 — legacy CREED (national CRE/CMBS) archive, NOT maintained. Canonical = AGENTS/CREED/STATUS.md + AGENTS/CREED/thesis/THESIS.md. Do NOT cite rows as current: values are Jan–Mar 2026 (e.g. Office CMBS DQ 12.34% Jan -> superseded by 11.57% Jun 2026).
 Entry_ID	Date	Category	Observation	Source	Vector_Ref	Confidence
 ML-CREED-001	2026-01-27	DQ	Office CMBS DQ at 11.31% exceeds GFC peak (~10.7%). This is structural (remote work), not cyclical. Bank-reported CRE DQ at 1.56% (GREEN) creates massive bifurcation — the single largest masking signal in the network.	Trepp, FRED	VX-CREED-1.01, VX-CREED-1.02	90%
 ML-CREED-002	2026-01-27	MOD	$7.7B+ CRE loans modified to avoid NPL recognition. WFC alone $770M with 10% annualized charge-off on CURRENT modified loans — proves modifications are failing. Pattern: modify → report current → avoid provision → charge-off later.	Bank 10-Q	VX-CREED-2.01	85%

@@ -1,6 +1,6 @@
 # REGINALD CALENDAR
 
-**Last Updated:** 2026-06-26 (Prome-directed maintenance pass — WAL Q2 print date corrected to **~Jul 16** per historical pattern + MarketBeat; CFG/EGBN dates added; BCRED gate upgrade; arch pass) | **View:** Forward-looking only. Past events pruned weekly.
+**Last Updated:** 2026-07-09 (catch-up refresh — **WAL Q2 print RE-CORRECTED to confirmed Jul 21 AMC** [company self-announced, BusinessWire/Yahoo Finance/MarketBeat 7/6/2026 release; supersedes the 6/26 "~Jul 16 per historical pattern" estimate], same day as OZK's confirmed 7/21 AMC; CFG stays Jul 16 unaffected; June entries pruned) | **View:** Forward-looking only. Past events pruned weekly.
 
 ---
 
@@ -8,24 +8,18 @@
 
 | Frequency | Event | What to Check | Threshold / Signal |
 |-----------|-------|---------------|-------------------|
-| Weekly (Thu) | Initial claims | DOGE layoff acceleration | >300K = all ORANGE banks → RED. (Latest: 226K [FRED 6/13]) |
-
-## JUNE
-
-| Date | Event | What to Check | Threshold / Signal | Who Cares |
-|------|-------|---------------|-------------------|-----------|
-| ~~**Jun 18**~~ ✅ FIRED | **Bank capital-rules comment period CLOSED** | Final rule direction now the forward catalyst | Confirmed via SIG-W-20260618-006: ~5.2% CET1 relief Cat III/IV regionals, but mandatory AOCI inclusion (SVB-2023 mechanism) is the catch into the hawkish flip; Barr 6-1 dissent (>20 deviations from Basel mins). Final-rule date TBD = next catalyst. | ALL banks |
-| ~~**Jun 18**~~ ✅ CLEARED | **Options expiry cluster** → canonical list in `POSITIONS.md` (do NOT re-list here) | **Will confirm 6/19: ALL closed out or expired worthless.** Canonical Jun-18 set per POSITIONS.md: WAL $65P/$67.5P/$77.5P/$85P · KRE $60P · EGBN $25P · FITB $45P · HYG $75P · APO $100P · ARES $95P · IWM $257P. ⚠️ **My boot list was desynced from POSITIONS** (had phantom SSB $90P, wrong IWM $250P [that's a live Jun-30 pos], missing WAL $77.5P/FITB/APO/ARES) — fixed; POSITIONS is now single-source. | FORGE, PROME |
-| **Jun 30** | **Next expiry pile** → contents canonical in `POSITIONS.md` | KRE $63P/$65P/$67P + IWM $250P (Jun-30). All deep OTM at current tape (KRE $71.99 / IWM $298.18, 6/22) — default let-expire unless tape breaks. Then Jul-17: WAL $65P / FLG $13P / ZION $57.5P. | FORGE |
+| Weekly (Thu) | Initial claims | DOGE layoff acceleration | >300K = all ORANGE banks → RED. (Latest: 215K [FRED wk 6/20, per 7/6 snapshot] — 7/9 print ungraded) |
 
 ## JULY
 
 | Date | Event | What to Check | Threshold / Signal | Who Cares |
 |------|-------|---------------|-------------------|-----------|
-| **Jul 16** | 🟠 **CFG Q2 print** (confirmed MarketBeat/StockTitan) | NCO trajectory (5-qtr monotonic decline); CRE NCO; BDC $12.5B exposure | Axis-B standout: strong-3-path regional but collateral-backed/deferrable. CFG print alongside OZK = first mid-July data signal before monoline gate. | REGINALD monitoring |
-| **~Jul 16** | 🔴 **WAL Q2 print — critical v2.2 second-data-point test** (confirmed: historical Q2 2025=Jul 17, Q2 2024=Jul 18, Q2 2022=Jul 21; MarketBeat est. Jul 16 2026) | NCO ex-fraud test (REG-25); Office classified migration (REG-24); $99M life-science loan charge-off post-mortem (LGD assumption test); whether ADDITIONAL Office credits walked away in Q2 (2+ migrations = v2.5/v3 territory) | If REG-25 fires (NCO >40bps) + REG-24 progresses ($476M Q2 start + further migration → $500M+) → v2.2 confirmed mechanically. A second material Office walk-away → v2.5/v3 promotion. **Note:** WAL now prints WITH CFG (Jul 16), NOT as a late backstop after the monoline gate. **Jul-17 $65P CATCHES the print (1-day buffer); Sep remains core tenor.** | REGINALD primary; cross-flag PROME, RED |
-| **~Jul 21** | 🟠 **Monoline gate** (COF/SYF/ALLY Axis-A unsecured consumer prints) | Axis-A consumer turn showing? COF dual-axis read; SYF/ALLY unsecured | Axis-A break ≠ Axis-B thesis; only a dual-axis COF signal shifts the frame | CARL primary; REGINALD monitors |
-| **Jul 22** | 🟠 **EGBN Q2 print** (confirmed MarketBeat/analyst consensus) | CRE nonaccrual creep (IPRE/constr): does the office-relationship migration from 6/20 drill CONVERT to NCO? Coverage 114%→? | Forced reserve-build IS Q2 transmission; realized NCO stays 2027 thesis. Single-name credit tripwire class. | REGINALD primary |
+| **Jul 14** | 🔴 **CPI (THE HINGE)** | Common-cause across rate + oil axes; JPM/WFC/C Q2 kickoff | Feeds BROCK bank-to-BDC read-through map (REGINALD contribution due 7/14). | REGINALD monitoring |
+| **Jul 16** | 🟠 **CFG Q2 print** (confirmed MarketBeat/StockTitan) | NCO trajectory (5-qtr monotonic decline); CRE NCO; BDC $12.5B exposure | Axis-B standout: strong-3-path regional but collateral-backed/deferrable. Unaffected by the WAL date correction below. | REGINALD monitoring |
+| **🔴 Jul 21 AMC** | **WAL Q2 print — critical v2.2 second-data-point test — RE-CONFIRMED 2026-07-09 (web-verified, supersedes the 6/26 "~Jul 16" estimate)** | Company self-announced (BusinessWire/Yahoo Finance/MarketBeat, release dated 7/6/2026): results **after market close Tuesday, July 21, 2026**; conference call Wed 7/22 noon ET (Vecchione/Idnani). NCO ex-fraud test (REG-25); Office classified migration (REG-24); $99M life-science loan charge-off post-mortem; whether ADDITIONAL Office credits walked in Q2 (2+ migrations = v2.5/v3 territory). | **Lands the SAME DAY as OZK's confirmed 7/21 AMC print — single-day double-fire, not sequential as previously modeled.** ⚠️ **Jul-17 $65P NO LONGER catches the print** (Jul-17 is a Friday expiry, lapses 2 trading days before the 7/21 AMC release) — this reverses the 6/26 "1-day buffer" framing; verify against live broker book before treating any Jul-17 position as print-exposed. Sep remains core tenor regardless. | REGINALD primary; cross-flag PROME, RED, TERRY (position-dating impact) |
+| **~Jul 21-24** | 🟠 **Monoline gate** (ALLY 7/21 / SYF ~7/22 / COF ~7/22-24 Axis-A unsecured consumer prints) | Axis-A consumer turn showing? COF dual-axis read; SYF/ALLY unsecured | Axis-A break ≠ Axis-B thesis; only a dual-axis COF signal shifts the frame | CARL primary; REGINALD monitors |
+| **Jul 21 AMC (confirmed)** | 🟠 **OZK Q2 print** (peer-owned) | Stock −6.6% wk into print. Seattle Chapter Buildings deed-in-lieu (recap failed → REO, recorded wk-ending 7/2) is a **Q3 subsequent event, NOT a Q2 charge-off** — watch the Q2 specific-reserve BUILD against the pre-registered $15-30M fail-band ($20M mid, already in the $628.5M ACL). | Grading frame for REGINALD's OZK cross-ref; same-day as WAL. | OZK primary; REGINALD cross-ref |
+| **Jul 22** | 🟠 **EGBN Q2 print** (confirmed MarketBeat/analyst consensus) | CRE nonaccrual creep (IPRE/constr): does the office-relationship migration from 6/20 drill CONVERT to NCO? Coverage 114%→? **NEW governance overlay:** Stephen Curley installed President/CEO eff. 7/6 (8-K, planned succession — NOT distress; corrected framing per WALTER 7/6 delta on the intake lane's RED mis-flag). | Forced reserve-build IS Q2 transmission; realized NCO stays 2027 thesis. Single-name credit tripwire class + new-CEO reserve-philosophy watch. | REGINALD primary |
 | **~Mid-Jul (Q2 prints)** | 🟠 **CRE-DQ-by-tier Q2 watch** (from 6/20 drill) | BKU + SBCF 30-89 **both tested 6/20 PM → small CRE leading-ticks (+50% / +132%); Q2 = BUILD vs quarter-end/acquired-pool lumpiness**; OZK/EGBN named-loan creep→NCO; OZK FFIEC RC-N past-due-by-category; SSB/AMTB criticized→NCO (SIG-008 bar) | Ticks build → tier-wide down-tier creep firming; revert → lumpiness, severity stays concentrated at OZK/EGBN. `research/CRE_DQ_BY_TIER_2026-06-20.md` | REGINALD primary |
 
 ## LATER (forward catalysts — OZK-primary, REGINALD info)
@@ -38,9 +32,9 @@
 
 ## PREDICTION CHECKPOINTS
 
-> **Single source of truth: `workbook/PREDICTIONS.tsv`** (REG-01 through REG-25).
+> **Single source of truth: `workbook/PREDICTIONS.tsv`** (REG-01 through REG-25, 21 rows).
 > Display copy removed 2026-06-26 — read the TSV for confidence and resolve dates.
-> Active Q2-Q3 2026: **REG-24** (WAL Office classified >$500M) | **REG-25** (WAL NCO >40bps) — first-chance resolve **~Jul 16** WAL Q2 print.
+> Active Q2-Q3 2026: **REG-24** (WAL Office classified >$500M) | **REG-25** (WAL NCO >40bps) — first-chance resolve **Jul 21 AMC** WAL Q2 print (corrected 7/9, was ~Jul 16).
 
 ---
 
