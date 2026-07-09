@@ -3,8 +3,8 @@
 **Status:** 🟠 — China's UST decline is a GENUINE net exit (Belgium flat = not custody migration), pinned at an 18yr-low $650B.
 **Domain:** China macro → U.S. transmission — China UST exit (Belgium/Euroclear proxy), PBOC/CNY, property·LGFV·fiscal, HK peg, trade war, Taiwan (econ), Korea contagion, India oil. Edges: **→LIQUID** (UST demand hole), **→SAM** (Korea/Asia flows), **→HAWK/BRENT** (energy), **→HENRY** (10Y/term premium), **→HANS** (Euroclear custody).
 **Thesis framing:** China-macro-transmission (no version stamp; no position — research/signal agent).
-**Recent thesis pivot:** EMERGENCY 43/55 (4-anchor, Gulf) → **ELEVATED 27/55 (2-anchor)** (2026-07-04) — Gulf war resolved (Brent $72, Hormuz reopened) + US-China May truce + yuan strong; risk now narrowed to China genuine UST exit + Korea.
-**As of:** 2026-07-04 ~17:15 ET (US holiday — FX/Brent through Fri Jul-3 close) | STATUS commit: `a8461516`
+**Recent thesis pivot:** EMERGENCY 43/55 (4-anchor, Gulf) → **ELEVATED 27/55 (2-anchor)** (2026-07-04) — Gulf war resolved (Brent $72, Hormuz reopened) + US-China May truce + yuan strong; risk now narrowed to China genuine UST exit + Korea. **7/9 update:** Gulf tail RE-ARMED fleet-wide (HAWK/BRENT-owned, not a ZHAO re-open) → matrix ~28/55; China/Korea legs unchanged in direction. New: **China-leg pre-registration on the 7/9 30Y indirect-bid surge (77.74%) — verdict: NOT China** (KB-ZHAO-090, ZHA-11).
+**As of:** 2026-07-09 ~17:45 ET (catch-up spawn) | STATUS commit: pending this session's commit
 
 ---
 
@@ -15,6 +15,7 @@
 - **Demand hole NARROWED to 2 anchors.** Gulf recycling collapse RESOLVED (Hormuz >10M bpd, Saudi UST back to ~$148.8B *not* selling, Brent $72); Japan = Phase-1/2 oscillator. Core structural bid-gap now = **China (genuine) + Korea**, not four.
 - **Korea is the acute node.** USD/KRW ~**1,530** (near 2009 lows), record foreign KOSPI outflows (₩7.7T single session, 7–8 day streak), CPI 3.2% Jun → **BoK Jul 16 possible hike**.
 - **China headline growth is STRONGER than the stress narrative** — PMI 50.3 (expansion 3mo, AI/tech-export led), Q1 GDP +5.0%, PBOC gold 19-mo streak, yuan strong ~6.80. **The risk is capital-account (UST exit) + property/fiscal (land-revenue drought), NOT a growth collapse — don't conflate.**
+- **NEW 7/9 — the 30Y indirect-bid surge does NOT threaten the genuine-exit read.** 7/9 30Y reopen: indirect bidders 77.74% (vs 60.0% Jun). China is very unlikely to be that buyer — SAFE is explicitly curbing UST concentration risk while PBOC's diversification vehicle is gold (not duration), and reserves are growing ($3.442T May, highest since Oct-2015) even as the UST slice shrinks — a reallocation signature, not distress. But this is inference, not proof: genuine-exit is a stock signal on a 2.5mo TIC lag, the 30Y surge is a single-auction flow signal, and TIC carries no maturity breakdown — **even May TIC (7/16) can't directly confirm/deny China's participation in this specific auction.** Read: 77.74% is more likely Japan-duration-extension / safe-haven flow (SAM's leg) than PBOC reserve reallocation. Full write-up: STATUS.md "30Y INDIRECT-BID CHINA-LEG PRE-REGISTRATION"; KB-ZHAO-090; ZHA-11.
 
 ---
 
@@ -35,9 +36,10 @@
 
 | To | Signal | Priority | Mechanism it triggers |
 |----|--------|----------|-----------------------|
-| **LIQUID** | China UST $651.1B genuine exit (Belgium flat), 2-anchor demand hole; "who absorbs at record aggregate inflow?" | 🟠 | UST demand-hole model. **Outbox written 7/4** (`outbox/2026-07-04_to-LIQUID_china-genuine-ust-exit.md`) — awaiting PROME route |
+| **LIQUID** | China UST $651.1B genuine exit (Belgium flat), 2-anchor demand hole; "who absorbs at record aggregate inflow?" | 🟠 | UST demand-hole model. **Outbox written 7/4** (`outbox/2026-07-04_to-LIQUID_china-genuine-ust-exit.md`) — still awaiting PROME route as of 7/9 |
+| **SAM** (proposed, LIST only — not sent) | China clears the field for (b) Japan-duration-extension on the 30Y 77.74% indirect bid — genuine-exit posture argues against China as the buyer | 🟠 | Joint demand-hole synthesis (7/5 packet, due 7/16) |
 | **SAM** | Korea KRW ~1,530 near 2009 low, record KOSPI outflows, BoK Jul 16 | 🔴 | Asia contagion / regional UST flows |
-| **HAWK/BRENT** | Gulf/Hormuz DE-ESCALATED — Brent $72, exports ~90%, Saudi not selling | 🟢 | Energy-Asia shock cleared; recycling-collapse thesis retired (ZHA-08 falsified) |
+| **HAWK/BRENT** | 7/9: Gulf tail RE-ARMED (7/8 truce collapse, Brent $76.01 settle) — supersedes the 7/4 de-escalated read below. HAWK/BRENT-owned, ZHAO flags only for consistency. | 🟠 UPDATED | Energy-Asia shock re-live; capital-gated on Fri 7/10 sustain verdict |
 | **HENRY** | Genuine China UST exit = term-premium input; HK carry eased, China stress-leg quieter | 🟡 | 10Y / duration / risk-off |
 | **HANS** | Belgium/Euroclear FLAT while China falls = genuine exit, not rerouting | 🟡 | European custodial read |
 
@@ -65,7 +67,7 @@
 | Date | Event | Threshold / Signal |
 |------|-------|--------------------|
 | 🔴 Jul 16 | BoK policy meeting | Hike vs hold (CPI 3.2% highest since Dec-23) |
-| 🔴 ~Jul 16–18 | TIC May 2026 | China <$650B = **ZHA-04 fires**; Belgium >$500B = ZHA-03 |
+| 🔴 ~Jul 16–18 | TIC May 2026 | China <$650B = **ZHA-04 fires**; Belgium >$500B = ZHA-03; aggregate-direction-only test for ZHA-11 (30Y China-leg) |
 | 🟡 ~Jul 21 | China LPR | Held 13mo (1yr 3.0% / 5yr 3.5%); a cut = easing-bias step |
 | 🟠 Aug | US-Iran talks / Hormuz follow-through | Re-closure = energy re-escalation (re-arm FLOW-ZHAO-12) |
 

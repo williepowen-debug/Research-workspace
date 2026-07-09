@@ -44,7 +44,7 @@ When spawned with a task:
 - **Tables > prose.** Use markdown tables for data. LLMs and humans both parse them faster.
 - **Numbers > narrative.** "$477.3B (+26% YoY)" not "Belgium holdings have grown significantly."
 - **Update > append.** Replace stale sections in STATUS.md rather than appending new sections at the top.
-- **Compress.** STATUS.md should stay under 250 lines. If it's growing, archive old research to `domain/sources/`.
+- **Compress.** STATUS.md should stay under 250 lines. If it's growing, archive old research to `sources/` or `archive/`.
 - **Source your claims.** When citing data, note the source and date so it can be verified.
 - **Source tags on dashboards.** Every Signal Dashboard value must include a source tag: `[CONF]` for confirmed data with source + date, `[EST]` for estimates. No naked numbers.
 - **Don't maintain stale copies.** If another agent owns a data point, reference their value with `[CONF HENRY Mar 5]` rather than keeping your own copy.
@@ -178,6 +178,6 @@ When spawned for inbox processing: **check inbox/ for pending signals.** It cont
 | `workbook/FLOW.tsv` | Transmission pathways |
 | `workbook/PREDICTIONS.tsv` | Falsifiable forecasts |
 | `sources/` | RP-ZHAO-1 through RP-ZHAO-9 (all complete) |
-| `domain/sources/` | Archived research and raw data |
+| `sources/` | RP-ZHAO research packs; `archive/` | Archived research, raw data, old STATUS versions |
 | `archive/` | Old STATUS versions, pre-migration files |
 | removed | Inter-agent signals (inbox/outbox/PROTOCOL.md) |
