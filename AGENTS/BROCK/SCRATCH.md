@@ -1,6 +1,8 @@
 # BROCK SCRATCH — Forward-State, Watch Order, Session Log
 
-**Purpose:** Session-handoff working state — "where are we / what next." Read at boot (after STATUS), refreshed at closeout. Holds NEXT-BOOT moves, FOLLOW-UP tiers, watch order, CHANGES-SINCE, SESSION LOG, and a workbook/mail/git health block. Persistent learnings → `LESSONS.md`; dated catalysts → `docket/CATALYSTS.tsv`; cross-agent → `NEXUS_BRIEF.md`. **Updated:** 2026-06-25 Thu ET.
+**Purpose:** Session-handoff working state — "where are we / what next." Read at boot (after STATUS), refreshed at closeout. Holds NEXT-BOOT moves, FOLLOW-UP tiers, watch order, CHANGES-SINCE, SESSION LOG, and a workbook/mail/git health block. Persistent learnings → `LESSONS.md`; dated catalysts → `docket/CATALYSTS.tsv`; cross-agent → `NEXUS_BRIEF.md`. **Updated:** 2026-06-25 Thu ET — **file body STALE past this point (self-sweep 7/9); NEXT BOOT list below corrected 7/9, rest of file (6/25 reads + session log) kept as historical narrative — see `STATUS.md` for current state.**
+
+> **⚡ 7/9 STALE-BELOW NOTICE:** the two 6/25-dated quoted reads immediately below predate the 7/4 X1 resolution (NOT MET, externally corroborated 7/9) and the 7/9 BRK-01/BRK-24 prediction resolutions. Do not cite "X1 = the decoupling marker" language as an open question — X1 is CLOSED. Current state → `STATUS.md`.
 
 > **6/25 read (memo: `domain/sources/MACRO_VS_CREDIT_DISCRIMINATOR_JUN25.md`):** alts sold off 6/20→6/25 (APO $137.50→$122.21 −11%, ARES →$113.37, BX →$115.70) while WRAPPERS held flat (ARCC/FSK/OBDC) and KRE rallied → **leaning MACRO (manager multiple-compression), not credit-substance recognition.** Cleanest "now credit" trigger: **wrapper basket ARCC/FSK/OBDC/BIZD LEADS managers down + HY OAS >280 sustained.** HY OAS 271 [6/23] (+8bp off 263, in-band), CCC 956 (+17bp). **APO Dec $95P recovered ~10–12× to mid ~$3.35** (see Tier-4). X1: PC-manager compression + yen-carry share one root (higher-for-longer/long-duration-of-cheap-funding) — discount co-move "two-signal" ~50%; the wrapper-leading trigger = the decoupling marker.
 > **6/25 intel-pull (memo: `domain/sources/Q2_BDC_CATALYST_MAP.md`):** Q2 BDC cycle is the STEP-2 substance test — **ARCC Jul 28 = first read (top-tier); BXSL ~early Aug (top-tier) — both highest-signal for wrapper-leading;** FSK/OBDC/OCSL already priced; non-traded BCRED/OTF/OCIC/GCRED Q2 satisfaction ~Aug. **Fresh 6/23: Apollo gated ADS at 5% on 17% Q2 demand** — credit-gate escalation but redemption-FLOW (credit fund, not PE wrapper) → does NOT fire tape trigger or 2nd-PE-gate (UN-FIRED, window closes ~7/3). Discipline: GSBD −3.7% NAV is STALE Q1 (~May 7, inside Fitch review); Cliffwater "Q1 NAV" was the CY2025 annual (+9.3%) — Q1-2026 NAV still PENDING. Verdict unchanged: MACRO tape / substance firming bear.
@@ -8,12 +10,16 @@
 ---
 
 ## ⚡ NEXT BOOT — FIRST MOVES
-*(6/20 session DID: 15-agent adversarial sweep of 6/15→6/20 — HY OAS live-verify (263, count 0/10), KBRA/Fitch-BDC/SharonAI/Thoreau/FOMC findings (all verified to primary), STATUS+KB write-back, WALTER 4-signal intake + board_log creation. CLOSED — below is what's still open.)*
-1. ~~🔴 **2nd-PE-gate re-sweep (~6/24)**~~ — ✅ ADS (~6/23) CONFIRMED via WALTER/HEARTBEAT but classified as CREDIT fund (not PE-wrapper) → does NOT fire BRK-29. BRK-29 PE-wrapper window UN-FIRED day ~23; final check before ~7/3 close.
-2. 🟠 **Cliffwater CDLI Q1 full NAV** — still NOT public; the top-tier bifurcation anchor (0.6% NA). Pull when it lands — NA >1% = top-tier crack.
-3. 🔴 **HY OAS daily vs 280** — 278 [6/25], 2bp from X1-trigger LIQUID-half. STEP-1 nuance: hawkish Fed → any compression is complacency → STEP-2, not auto-kill. Re-pull FRED daily. **X1 = 280 sustained + wrapper basket leading managers down.**
-4. 🟠 **6/30 prediction disposition** — BRK-24 (Athene FY2025 analysis → FALSE track, NAIC deferred 2027) + BRK-01 (PSEC — no cut in window). BRK-28 RESOLVED 6/15.
-5. 🔴 **BRK-30 watch** — Q3 gate-refire. Compounding queue = structural demand overhang; monitor Q3 tender disclosures from BCRED/ADS/Monroe/Cliffwater from ~9/30.
+*(REFRESHED 7/9 self-sweep — the 6/20-dated list below this note is SUPERSEDED, kept struck through for the historical record. Current open items:)*
+1. ~~🔴 **2nd-PE-gate re-sweep (~6/24)**~~ — ✅ RESOLVED 7/4: BRK-29 GRADED LAPSE (window closed 7/3, no 2nd PE-wrapper gate fired).
+2. 🟠 **Cliffwater CDLI Q1 full NAV** — still NOT public as of 7/9 (last checked 6/28). Top-tier bifurcation anchor (0.6% NA). Pull when it lands — NA >1% = top-tier crack. **Still genuinely open — carry forward.**
+3. ~~🔴 **HY OAS daily vs 280 / X1**~~ — ✅ RESOLVED 7/4, externally corroborated 7/9: X1 ADJUDICATED NOT MET (wrapper-leads LAGS + HY>280 tagged-not-sustained, now 267 [7/7]). LIQUID gate CLOSED. No longer a watch item — see monolines 7/15-22 → BDC marks 7/25-28 for the next real test.
+4. ~~🟠 **6/30 prediction disposition**~~ — ✅ RESOLVED 7/9 (9d late): BRK-24 CONFIRMED (Eisman/Gober 3/2/26 + Substack 4/4/26 — the FALSE-track lean below was WRONG, corrected on re-check) + BRK-01 CONFIRMED (PSEC dividend cut 5/7/26, the "no cut in window" note below was also WRONG — cut landed after this note was written). See `PREDICTIONS_ARCHIVE.tsv` KB-BRK-176/177.
+5. 🔴 **BRK-30 watch** — Q3 gate-refire, resolve 10/15. Compounding queue = structural demand overhang; monitor Q3 tender disclosures from BCRED/ADS/Monroe/Cliffwater from ~9/30. **Still open, unchanged.**
+6. 🔴 **ARCC Q2 (7/28) grading criteria** — pre-registered 7/9 in STATUS.md (NA%, NAV, PIK, coverage, dividend action). New item.
+7. 🟠 **Bank→BDC read-through map** (PROME Packet B, due 7/14) — BROCK's frame built 7/9 (`domain/sources/BANK_TO_BDC_READTHROUGH_MAP_JUL09.md`); CARL/REGINALD rows still PENDING. New item.
+
+*(Original 6/20-dated list, superseded — kept for record: 2nd-PE-gate re-sweep / Cliffwater CDLI / HY OAS vs 280 / 6/30 pred disposition / BRK-30 watch. All superseded per above except #2 and #5, which carry forward unchanged.)*
 
 ---
 
