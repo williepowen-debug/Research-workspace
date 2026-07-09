@@ -3,8 +3,14 @@
 **Status:** 🟠 ELEVATED — FL household/condo stress real; bank-loss transmission not yet in Q1 prints
 **Domain:** Whole-Florida stress surface — condo/SF/CRE real estate, insurance, FL banks, migration/tourism, state fiscal/property-tax, labor/construction, coastal/climate
 **Thesis version:** Coral Bleaching v1.0 — installed rails at `thesis/THESIS.md`; changelog `thesis/CHANGELOG.md`
-**As of:** 2026-06-25 16:30 ET | STATUS commit: cluster Pass-1 (DEWEY timing + FL-bank leg grid), local-only pending push
+**As of:** 2026-07-09 17:35 ET | STATUS commit: 74ea5aa8 (7/9 Pass-2 — WALTER 18-SIG backlog drain + MARCO migration/AEOLUS C1 reconcile), local-only pending push. **Mandatory-refresh note:** this brief went 2 weeks unrefreshed (last touch 6/25) despite two 7/9 sessions writing material STATUS changes — caught in the 7/9 self-sweep; see 7/9 UPDATE below for what moved.
 **Cluster:** FL regional-bank CRE/condo leg of the transmission-terminus cluster (REGINALD hub, CARL consumer). Leg grid → `CLUSTER_FL_BANK_LEG.md`.
+
+---
+
+## 7/9 UPDATE (since 6/25 — content refresh, no thesis-level change)
+
+Two 7/9 catch-up passes (14-day CORAL gap): drained 8-item + 18-item inbox/WALTER backlogs. Material moves: **property-tax amendment now verified-CERTIFIED** (Amendment 3/HJR 1F, was a vague ballot-watch placeholder) with a new CRE/MF/business burden-shift headwind; **hurricane forecast corrected** (CSU cut to 9/4/1, fewest since 2014 — was carrying a stale 14/7/3); neg-equity refresh (Cape Coral 11.1%, Lakeland 10.8% new); FL migration divergence vs BofA-internal reconciled to MARCO's canonical +22,517 (no number change); Citizens/depopulation scope question opened vs AEOLUS (294,253 personal-lines vs ~395K unscoped — unresolved, not urgent). No bank-transmission gate change; fleet's energy/rates macro sequence filed as non-FL context. Full detail → `STATUS.md` 7/9 blocks.
 
 ---
 
@@ -66,8 +72,8 @@
 | Next CORAL session | Per-metro convergence grid | Add negative-equity and bankruptcy canaries to SW-FL/SE-FL map |
 | Late Jun / Jul | Fresh FL housing / foreclosure / bankruptcy updates | SW-FL convergence cluster acceleration; bankruptcy court rank validation |
 | Late Jul 2026 | Q2 FL bank earnings | SSB classified CRE migration, SBCF two credits, VLY criticized, AMTB ACL/NPL, USCB condo-assoc canary |
-| Hurricane season through Nov 30 | FL landfall risk | Reverses insurance-easing channel if loss event hits |
-| Nov 3 2026 | FL property-tax amendment | Household relief vs local fiscal stress / services cuts |
+| Hurricane season through Nov 30 | FL landfall risk | CSU now 9/4/1 (fewest since 2014); soft-market asymmetry (AEOLUS) — reverses insurance-easing channel if loss event hits |
+| Nov 3 2026 | FL property-tax Amendment 3/HJR 1F (CERTIFIED, verified primary 7/9) | Household relief vs CRE/MF burden-shift + muni-fiscal stress; poll 64%±3.8 vs 60% bar — tight |
 
 ---
 

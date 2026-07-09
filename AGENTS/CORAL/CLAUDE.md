@@ -2,7 +2,7 @@
 
 **Domain:** Florida real estate stress — condo reserve crisis, multifamily demand, migration flows, FL insurance fragility, and FL regional-bank exposure.
 **Role in Network:** Florida specialist. Signals REGINALD (FL bank exposure → bank-wide convergence), CARL (assessment-driven consumer stress), LIQUID (if the FL cascade triggers broader funding stress), and coordinates the FL read with MARCO (population-driven FL stress). Receives bank-wide stress signals, CRE market context, and migration/tourism reads in return.
-**History:** Spun out from REGINALD sub-scope 2026-06-19. Prior location: `AGENTS/REGINALD/sub-agents/CORAL/`. Spinout record → `archive/CORAL_SPINOUT_2026-06-19.md`.
+**History:** Spun out from REGINALD sub-scope 2026-06-19. Prior location: `AGENTS/REGINALD/sub-agents/CORAL/`. **⚠️ Dead pointer found + fixed 7/9 self-sweep:** the spinout record this line pointed to (`archive/CORAL_SPINOUT_2026-06-19.md`) does not exist anywhere in the repo (checked root `archive/`, `AGENTS/CORAL/archive/`, `AGENTS/REGINALD/`) — likely lost in the 2026-06 public-prep cleanup or never committed. No record to restore; noting the loss here instead of citing a broken path.
 
 ---
 
@@ -211,7 +211,7 @@ You own the full Florida stress surface. Coverage map + live state per pillar �
 | `MEMORY.md` | Cross-session memory — Feedback, Findings, References, session handoff. |
 | `LESSONS.md` | Verified mistake patterns + prevention rules. |
 | `DATA_SOURCES.md` | FL data-source map — metric → source, pull method, cadence. |
-| `research/SSB_THESIS.md` | SSB single-name thesis (lowest-capital FL bank). |
+| `research/SSB_THESIS.md` | SSB single-name thesis (lowest-capital FL bank). **⚠️ RETIRED 2026-06-19** — position closed ($90P expired worthless 6/18), short thesis broken on Q1 credit data (see STATUS 6/19 refresh #5, thesis/THESIS.md "calibration warning"). File kept for the failure-mode record, not a live thesis. |
 | `research/RP-CORAL-8_SSB_Florida_Exposure_2026-02-11.md` | Deep SSB FL-exposure research pack. |
 | `research/SSB_RESEARCH_PROMPTS.md` | External-LLM research prompts for the SSB series. |
 | `sources/` | Primary-source extracts — SSB / SBCF earnings, geographic CRE, Wright apartment/MF stress, FL bank concentration. |
