@@ -95,11 +95,11 @@ The target shape for a PROME-on-Fable working session. Everything here is the *h
 ### Record-vs-reality rule (born 7/9 — TWO instances in one day)
 **Canon never asserts an artifact exists until it's been verified on disk** (`ls` / git history). "Routed" ≠ "built"; intent ≠ artifact. The 7/6 "fire-card PRE-BUILT" was an inbox packet with no card file for 3 days; the KB-VIO-110 packet-build was a fired gate with no execution for 7. Corollaries: registered action-gates → `PROME/GATES.tsv` **the same session they're approved** ([[finding_fired_gate_needs_owner_independent_ledger]]); when a spawn reports "X was never actually created," git-verify, then fix the canon that claimed otherwise.
 
-### Codex cross-vendor lane (first run 7/9 — validated)
-- **A tool, not a fleet agent** — no ROSTER entry, no dir, no inbox. Invoke via the codex plugin (rescue subagent for delegated investigation; review commands for diffs).
-- **Best use:** silent-failure hunting on harness/infra code, and **pre-arm red-team of decision-rail logic** (fire-cards, gate definitions) — the places same-vendor blind spots cost most. Review-only by default; fix-mode only on tightly scoped non-agent files.
+### Codex cross-vendor lane (validated ×2 on 7/9)
+- **A tool with a charter, not a fleet agent** — no ROSTER entry, no inbox, no STATUS. Invoke via the codex plugin (rescue subagent for delegated investigation; review commands for diffs). **Standing contract = `PROME/codex/CHARTER.md`** (harness home, built 7/9 Will-directed): every spawn prompt cites it near the top — *"Read `PROME/codex/CHARTER.md` first and operate under it."* The charter carries the delivery contract (final message = FULL findings, never idle without delivering — the 7/9 chase lesson), mode rules (read-only default; fix-mode path scope = scripts/ + FORGE/tools/ only), output format/severity rubric, and repo orientation.
+- **Best use:** silent-failure hunting on harness/infra code, and **pre-arm red-team of decision-rail logic** (fire-cards, gate definitions) — the places same-vendor blind spots cost most; run it the night BEFORE a gate grades, so fixes can still be pre-registered.
 - **Economics:** runs on Will's OpenAI subscription → zero Anthropic tokens for the review itself; PROME pays only the verification pass.
-- **Same trust bar as any agent:** findings verified against live code before endorsement (7/9: 11 findings checked — all real, one scenario overstated). PROME applies fixes under pathspec discipline. **Findings preserved to `PROME/cluster/`** (no agent dir exists to hold them) — see `2026-07-09_codex_bootgate_review.md`.
+- **Same trust bar as any agent:** findings verified against live code before endorsement (7/9: 22 findings across 2 runs — all real, one scenario overstated). PROME applies fixes under pathspec discipline. **Findings archive = `PROME/codex/findings/`** (PROME-written, with dispositions).
 
 ### Fable-context economics (the orchestrator's context IS the session's scarce resource)
 - Agents deliver **word-capped summaries + file pointers**, never dumps; PROME reads verdicts and verifies claims — it does not read domain files it can delegate.
