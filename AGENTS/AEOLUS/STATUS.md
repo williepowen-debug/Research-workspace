@@ -79,13 +79,13 @@ No formation currently in the pipeline meets any line — status quo benign, unp
 ## CORAL FL BOUNDARY HANDSHAKE — AEOLUS side (write-back for CORAL's parallel session)
 
 Handshake sent 2026-06-28 (`AGENTS/CORAL/inbox/processed/2026-06-28_from-AEOLUS_boundary-handshake.md`) — file shows moved to CORAL's processed/, but no reconciliation reply logged back to AEOLUS as of this session. **AEOLUS's current position, one figure per shared FL metric (unchanged since 6/28, not independently re-verified this session):**
-| Metric | AEOLUS figure | As-of | Source |
-|---|---|---|---|
-| Citizens (FL) policy count | ~395K (from 1.42M peak) | early-May 2026 | Citizens FL |
-| Citizens premium change | −8.7% | early-May 2026 | Insurify |
-| New FL carriers entered | 17+ | early-May 2026 | Insurify |
+| Metric | AEOLUS figure | Scope (unconfirmed) | As-of | Source |
+|---|---|---|---|---|
+| Citizens (FL) policy count | ~395K (from 1.42M peak) | **UNLABELED — likely all-lines/total PIF, not confirmed personal-lines-only** | early-May 2026 | Citizens FL |
+| Citizens premium change | −8.7% | same caveat as above | early-May 2026 | Insurify |
+| New FL carriers entered | 17+ | statewide, all lines (as stated) | early-May 2026 | Insurify |
 
-AEOLUS treats these as **provisional pending CORAL's canonical FL read** — per the boundary rule, defer to CORAL's numbers once she reconciles; do not keep AEOLUS's copy live if CORAL's figure differs.
+**🚩 CROSS-AGENT FLAG (7/9 self-sweep):** CORAL's own figure is **294,253 (personal-lines Citizens PIF)** — differs from AEOLUS's ~395K. This is very likely a **scope mismatch (all-lines/total vs. personal-lines) and/or vintage gap**, not necessarily a conflicting read — AEOLUS never had the line-of-business breakdown to confirm. AEOLUS's ~395K is now labeled UNLABELED/unconfirmed-scope pending CORAL's canonical breakdown; **do not average or pick one arbitrarily** — CORAL's more granular figure should be treated as canonical for personal-lines once she confirms scope+vintage on her side. AEOLUS treats all three rows above as **provisional pending CORAL's canonical FL read** — per the boundary rule, defer to CORAL's numbers once she reconciles; do not keep AEOLUS's copy live if CORAL's figure differs.
 
 ---
 

@@ -2,6 +2,8 @@
 
 **Owner:** AEOLUS · The richness layer. STATUS.md carries the live reads + 5-pt handles; this file carries the full `stage → mechanism → state` transmission tables per channel.
 
+> **Sync note (2026-07-09 self-sweep):** this file was 11 days stale (last touched 6/28) — C1 and C3 stage-states below refreshed to match tonight's STATUS.md; C2/C4/C5 stage tables NOT independently re-verified this session (still [6/28] — no material contradicting evidence surfaced, but treat as unrefreshed, not re-confirmed).
+
 **Core thesis:** Climate and weather reprice markets through a small, fixed set of causal channels. The edge is positioning ahead of consensus on tradeable-horizon weather events (Tier 1) while a structural-climate backdrop (Tier 2) tells us which direction the slow drift runs. We win by keeping each channel *live and falsifiable*, not by forecasting weather better than NOAA.
 
 ---
@@ -12,7 +14,7 @@
 
 | Stage | Mechanism | State (confirmed/open/falsified) |
 |---|---|---|
-| 1 | Active season / major landfall → insured losses spike | **open, benign-leaning** — below-normal forecast (CSU 11/5/2, ACE ~55-60%); pre-peak, light H1 losses [6/28] |
+| 1 | Active season / major landfall → insured losses spike | **open, benign-leaning, deepened** — CSU cut further to 9/4/1 (from 11/5/2 on 6/10), fewest storms since 2014; zero active storms, none expected 7 days [NHC/CSU 7/9] |
 | 2 | Losses exceed cat budgets → reinsurance ROL ↑ at next renewal (Jan/Jun) | **falsified-direction** — ROL DOWN 15-30% YoY at Jun-1 renewal (soft market) [6/28] |
 | 3 | Higher ceded cost → primary insurer margin/solvency stress; some exit markets | open — soft market, no stress |
 | 4 | Coastal insurability collapse → property values / mortgage availability hit | open → hand FL specifics to CORAL (FL stabilizing [6/28]) |
@@ -40,8 +42,8 @@
 
 | Stage | Mechanism | State |
 |---|---|---|
-| 1 | Heat dome (summer) or polar vortex (winter) → demand spike | **open, building** — heat dome into early-July; El Niño summer [6/28] |
-| 2 | CDD/HDD vs normal breaches band → storage draw / price move | open — June CDD −15% (benign); storage +6% cushion [6/28] |
+| 1 | Heat dome (summer) or polar vortex (winter) → demand spike | **confirmed (partial) — first realized event** — PJM EEA2 grid emergency 7/3 (MD/VA 102-104°F + data-center demand amplifier); did not break 2006 record [PJM/WALTER SIG 7/9] |
+| 2 | CDD/HDD vs normal breaches band → storage draw / price move | open — June CDD −15% baseline (benign then); Henry Hub still storage-cushioned (+6% vs 5-yr avg) as of 22 Jun read, not re-verified fresh this session [6/28 price data, 7/9 demand-event overlay] |
 | 3 | Nat-gas / power reprice (Uri-2021 style tail in extreme cases) | open → BRENT (HH $3.16, no stress yet) |
 
 **Tradeable surface:** nat gas, power, utilities. **Owner handoff:** energy pricing → BRENT; geopolitical energy → HAWK.
