@@ -173,6 +173,12 @@ def check_artifact(path, docket_rows, covered_dates, today):
             if any(c in tok for c in "<>{}*$") or tok in dead:
                 continue
             segs = tok.split("/")
+            # Extension-less token whose tail segments are all CAPS/digits is an
+            # agent/owner list or acronym prose ("PROME/LIQUID/WALTER",
+            # "skills/MCP", "memory/2026-07-08"), not a path claim — skip.
+            if (not re.search(r"\.\w{2,4}$", tok)
+                    and all(re.fullmatch(r"[A-Z0-9_-]+", s) for s in segs[1:])):
+                continue
             prefix2 = "/".join(segs[:2])
             full_missing = bool(re.search(r"\.\w{2,4}$", tok)) and not os.path.exists(os.path.join(REPO, tok))
             prefix_missing = len(segs) >= 2 and not os.path.exists(os.path.join(REPO, prefix2))
@@ -189,6 +195,18 @@ def check_artifact(path, docket_rows, covered_dates, today):
         for pat, kind in DATE_PATTERNS:
             for m in pat.finditer(line):
                 d = parse_date_token(kind, m.groups(), default_year)
+                # Year-boundary roll for bare tokens (no year written): a date
+                # >~6 months off is on the wrong side of a year boundary — a Dec
+                # run must read "Jan 5" as next year, an early-Jan run must read
+                # "Dec 28" as last year. Explicit-year kinds never roll.
+                if d is not None and kind in ("mon_d", "m_d"):
+                    try:
+                        if (today - d).days > 183:
+                            d = d.replace(year=d.year + 1)
+                        elif (d - today).days > 183:
+                            d = d.replace(year=d.year - 1)
+                    except ValueError:
+                        pass  # Feb-29 roll into a non-leap year: keep as parsed
                 # Strictly-future dates only: past/today tokens are vintage
                 # stamps and provenance, not fire-path claims.
                 if d is None or d in seen or d <= today or d in covered_dates:

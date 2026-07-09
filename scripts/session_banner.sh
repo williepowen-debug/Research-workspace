@@ -23,13 +23,16 @@ fi
 
 FLAGS=""
 [ "$FETCH_RC" -ne 0 ] && FLAGS="$FLAGS [FETCH FAILED — sync state UNVERIFIED; do not trust 0/0]"
+# "?" = rev-list couldn't resolve HEAD...origin/master (renamed branch/ref, unborn
+# HEAD): sync state is UNKNOWN, never let it fall through to the all-clear line.
+{ [ "$AHEAD" = "?" ] || [ "$BEHIND" = "?" ]; } && FLAGS="$FLAGS [SYNC STATE UNVERIFIED — ahead/behind vs origin/master unresolvable; do not trust clean]"
 [ "$BEHIND" != "0" ] && [ "$BEHIND" != "?" ] && FLAGS="$FLAGS [BEHIND origin/master by $BEHIND — local state stale; apply the before-pulling protocol, do NOT auto-pull]"
 [ "$AHEAD" != "0" ] && [ "$AHEAD" != "?" ] && FLAGS="$FLAGS [AHEAD by $AHEAD unpushed commit(s)]"
 [ "$DIRTY" != "0" ] && FLAGS="$FLAGS [DIRTY TREE: $DIRTY path(s) — may be another agent's live work; check ownership before ANY git op]"
 [ -n "$ENV_FLAG" ] && FLAGS="$FLAGS [env_doctor FAIL — fix/flag before citing FRED-dependent levels]"
 
 if [ -z "$FLAGS" ]; then
-    echo "[boot-banner] repo 0/0 vs origin/master, tree clean, env_doctor OK (flag-not-force: nothing pulled/modified)"
+    echo "[boot-banner] repo ${AHEAD}/${BEHIND} vs origin/master, tree clean, env_doctor OK (flag-not-force: nothing pulled/modified)"
 else
     echo "[boot-banner FLAGS]$FLAGS (flag-not-force: nothing pulled/modified — resolve per root CLAUDE.md Git Protocol)"
 fi
