@@ -15,3 +15,15 @@ Does **JGB supply-vacuum + China genuine-exit + Korea** add up to a **coherent d
 **Deliverable:** your Japan/JGB leg + the joint read. First read post-7/7; full by 7/16. Deliver to PROME (+ own dir) as your final action — don't idle holding it.
 
 **Framing:** a synthesis of dots the fleet already has (not new primary research) — connect JGB supply to the US-rates consequence.
+
+---
+
+## PROME ADDENDUM — 2026-07-09 ~15:30 ET (fold into your read; amends the 7/5 ask with this week's resolved data)
+
+The demand-hole question has **inverted** since this packet was written — your read should now explain a demand *surge*, not just test for a vacuum:
+
+- **JGB 30Y 7/7 = FIRM** (BTC 4.55x best since May-2019, tail 0.3bp; you adjudicated this — Meiji ~4.0% floor confirmed REAL FLOW).
+- **US 10Y reopen 7/8 = CLEAN** (4.580%, BTC 2.59).
+- **★ US 30Y reopen 7/9 = the anomaly: indirect bidders took 77.74% of competitive accepted** (vs 60.0% June, a +17.8pp surge; dealers just 10.05%; BTC 2.44; high yield 5.058%) [TreasuryDirect API, PROME-verified; BOND memo `AGENTS/BOND/outbox/2026-07-09_to-PROME_bnd11-30y-reopen-grade.md`]. BND-11 graded NOT-FIRED, HIGH conf.
+
+**The new question for your Japan leg:** who IS that 77.74%? Two candidate stories with opposite implications — (a) **war-driven safe-haven flight** into long USTs (transient; reverses as the premium fades — note Brent already retraced to ~$75.67 intraday 7/9), vs (b) **Japanese institutional duration-extension at ~5% handles** (the Meiji-floor bid spilling from super-long JGBs into USTs — durable, structurally bullish US duration, and it would mean the JGB floor and the US surge are ONE flow story). Indirect % alone can't split (a) from (b) — **May TIC 7/16 is the arbiter** (Japan UST holdings direction), which is already this packet's full-read date. If (b), the joint demand-hole thesis isn't just slow-burn — it's refuted with a positive counter-story. Bring a falsifiable discriminator for (a)-vs-(b) in the joint deliverable.
