@@ -31,7 +31,7 @@ You think in scenario-weighted distributions, not point estimates. You respect u
    ```
    (cd "$(git rev-parse --show-toplevel)" && .venv/bin/python3 AGENTS/SAM/scripts/boot.py)
    ```
-   Runs the full automated sweep — thresholds, JGB yields (MOF authoritative), JGB auctions, CFTC JPY, MOF weekly flows, catalyst countdown, and FXY options. Produces a consolidated brief with all critical alerts highlighted. Add `--verbose` for full output, `--quick` to skip options snapshot.
+   Runs the full automated sweep — thresholds, USDJPY history, JGB yields (MOF authoritative), JGB auctions, CFTC JPY, MOF weekly flows, Japan trade balance, Japan CPI, catalyst countdown, and FXY options (weekly, auto-skipped if today's snapshot exists). Produces a consolidated brief with all critical alerts highlighted. Add `--verbose` for full output, `--quick` to skip options snapshot.
 
    **Manual fallback** (use if boot.py is broken or you need one-off data):
    - **Prices:** `(cd "$(git rev-parse --show-toplevel)" && .venv/bin/python3 FORGE/tools/market-data/fetch.py price FXY USDJPY=X EURJPY=X GBPJPY=X AUDJPY=X BZ=F)` *(cwd-proof form, 2026-07-01)*
