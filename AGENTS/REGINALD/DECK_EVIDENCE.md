@@ -1,3 +1,5 @@
+> **FROZEN 2026-07-09** — Mar-13 slide-deck source material, static point-in-time evidence assembly. Not maintained; current thesis evidence lives in thesis/THESIS.md + workbook/KB.tsv.
+
 # DECK_EVIDENCE.md — Thesis Evidence Assembly
 **Author:** REGINALD | **Date:** 2026-03-13 | **Purpose:** Slide deck source material
 **Audience:** Finance-literate but not macro-deep. Knows what a put is. Doesn't read call reports.

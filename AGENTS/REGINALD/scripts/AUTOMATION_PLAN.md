@@ -1,3 +1,5 @@
+> **COMPLETE 2026-07-09** (not FROZEN — plan was fully executed) — all 8 scripts + `boot.py` orchestrator described below exist and are now wired into CLAUDE.md boot sequence (step 7b, 2026-07-09). Kept for historical build-rationale reference, not a live TODO.
+
 # REGINALD Automation Plan
 **Created:** 2026-04-09 | **Status:** APPROVED — execute in next session
 

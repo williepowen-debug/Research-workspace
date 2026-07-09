@@ -1,3 +1,5 @@
+> **FROZEN 2026-07-09** — Mar-2026 scoring-upgrade proposal; superseded by the live `BANK_EXPOSURE_MATRIX.md` scoring in current use. Not maintained.
+
 # CONVERGENCE_RESCALE.md — Bank Scoring Upgrade: 3-Point → 5-Point
 
 **Prepared:** 2026-03-06 | **Author:** REGINALD subagent

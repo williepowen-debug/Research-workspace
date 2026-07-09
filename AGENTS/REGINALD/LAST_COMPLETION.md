@@ -1,3 +1,5 @@
+> **FROZEN 2026-07-09** — one-off Apr-7 completion marker, superseded by ongoing STATUS/MEMORY/ROADMAP session cadence. Not maintained; do not cite as current.
+
 ## COMPLETION — REGINALD — 2026-04-07
 STATUS: ✅ DONE
 CHANGED: AGENTS/REGINALD/STATUS.md

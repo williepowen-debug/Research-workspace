@@ -286,5 +286,5 @@ Metropolitan Capital failed with 61% true CRE (labeled 10.7%). Three masking lev
 | `AGENTS/CORAL/STATUS.md` | CORAL | Florida-specific state (top-level peer agent, promoted 2026-06-19) |
 | `AGENTS/OZK/STATUS.md` | OZK | Single-name bank deep coverage (top-level peer agent) |
 | `sub-agents/CREED/STATUS.md` | CREED | CRE market-level state |
-| `sub-agents/TEX/STATUS.md` | TEX | Texas stress |
-| `sub-agents/RENO/STATUS.md` | RENO | Nevada stress |
+| `archive/sub-agents/TEX/` | TEX | Texas stress — **DEAD POINTER FIXED 2026-07-09**: no live STATUS.md, already archived (research/sources subdirs only) |
+| `archive/sub-agents/RENO/` | RENO | Nevada stress — **DEAD POINTER FIXED 2026-07-09**: no live STATUS.md, already archived (research/sources subdirs only) |

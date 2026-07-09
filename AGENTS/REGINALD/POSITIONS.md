@@ -35,7 +35,7 @@ Will confirms 6/19: SSB $90P **was a real position, believed sold** (can't recal
 | Ticker | Strike | Expiry | Notes |
 |---|---|---|---|
 | WAL | $65P | Jul-17-2026 | NEW vs Apr 2 baseline |
-| WAL | $67.5P | Sep-18-2026 | core REINFORCED-HOLD (catches Q2 print ~Jul 30) |
+| WAL | $67.5P | Sep-18-2026 | core REINFORCED-HOLD (catches Q2 print — Jul 21 AMC, confirmed 7/9, was ~Jul 30 est) |
 | WAL | $70P | Sep-18-2026 | core REINFORCED-HOLD |
 | KRE | $63P | Jun-30-2026 | |
 | KRE | $65P | Jun-30-2026 | |
@@ -59,7 +59,7 @@ Will confirms 6/19: SSB $90P **was a real position, believed sold** (can't recal
 
 ## Key Context
 
-- **WAL** now 3 positions across 2 expiries (Jul-17 $65P / Sep-18 $67.5P + $70P) — Jun-18 cluster (4 positions) cleared 6/18. Sep $77.5P… *(note: $77.5P was Jun-18, now expired — Sep tenor holds $67.5P/$70P)*. Sep $67.5P/$70P are core REINFORCED-HOLD per v2.2 deltas and **catch the WAL Q2 print (~Jul 30)** which the cleared Jun puts could not.
+- **WAL** now 3 positions across 2 expiries (Jul-17 $65P / Sep-18 $67.5P + $70P) — Jun-18 cluster (4 positions) cleared 6/18. Sep $77.5P… *(note: $77.5P was Jun-18, now expired — Sep tenor holds $67.5P/$70P)*. Sep $67.5P/$70P are core REINFORCED-HOLD per v2.2 deltas and **catch the WAL Q2 print — CORRECTED 2026-07-09: confirmed Jul 21 AMC (was ~Jul 30 est)**. ⚠️ **The Jul-17 $65P no longer catches the print either way** (was framed 6/26 as a 1-day-buffer catch of an assumed ~Jul-16 date; the confirmed Jul-21 date means Jul-17 now lapses BEFORE the print, same as it would have under the old ~Jul-30 estimate) — flagged for TERRY/PROME, not actioned here (no trade recs; verify against live broker book).
 - **KRE** — 7 positions across 4 expiries ($60-$67, Jun-30 / Aug-21 / Sep-30 / Dec-18). Tape $71.72 (6/18) above all strikes (deep OTM) — tail-risk insurance, not directional.
 - **No current EGBN / HYG / ARES / SSB positions.** EGBN/HYG/ARES cleared at Jun-18; SSB $90P was a real position, sold/closed per Will 6/19 (date unrecorded — propagation gap, see CLEARED section above).
 - **Next mechanical decision pile: Jun 30 expiry** — KRE $63P/$65P/$67P + IWM $250P. All deep OTM at current tape; default let-expire unless tape breaks. Then Jul-17 (WAL $65P / FLG $13P / ZION $57.5P).

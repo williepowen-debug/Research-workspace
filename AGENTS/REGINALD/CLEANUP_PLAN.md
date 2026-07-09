@@ -1,3 +1,5 @@
+> **FROZEN 2026-07-09** — Mar-5 cleanup plan, executed long ago (file structure it describes predates many subsequent reorganizations). Not maintained; do not use as a current file-structure reference.
+
 # REGINALD Cleanup Plan
 **Created:** 2026-03-05 | **Template:** HENRY (gold standard)
 **Goal:** Bring REGINALD to HENRY-level cleanliness

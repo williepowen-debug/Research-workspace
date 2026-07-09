@@ -1,3 +1,5 @@
+> **FROZEN 2026-07-09** — pre-dates the live `inbox/` directory (per-signal .md packets, drained each session); this root file (last entry 2026-03-23, HERMES-routed) is not maintained. Canonical = `inbox/` + `inbox/processed/` dir contents.
+
 # $(basename $d) INBOX
 
 Agent signals routed by HERMES. Process on session start.
