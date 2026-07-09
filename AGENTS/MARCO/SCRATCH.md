@@ -1,58 +1,67 @@
 # MARCO SCRATCH.md — Ephemeral Session State
-**Last Updated:** 2026-07-02 ET (session 16 — 17-day catch-up: June jobs + Banxico May + FL condo May + **SDL-01 magnitude re-mark (thesis v2.6)** + 3 Q2 predictions resolved + PROME immigration-magnitude msg integrated)
+**Last Updated:** 2026-07-09 ET (session 17 — PROME-spawned catch-up: WALTER SIG backlog drained (10 items, oldest 6/19) + LFPR less-than-HS-diploma cohort live-verified (SDL-01 corroboration) + energy re-shock forward-read (Brent re-arm + Russia diesel ban → FL tourism-cost + ES-MARCO-08 contamination risk) + FL migration divergence flagged for CORAL)
 
-## CHANGES SINCE (session 15 → 16)
-17 days elapsed (6/15 → 7/2). What moved while offline:
-- **June jobs (rel 7/2, moved up from 7/3 for observed 7/4):** NFP +57K (May rev DOWN to +129K); UE 4.2% but LFPR **61.5% = 50yr-low ex-Covid**; household emp −507K; **total LF −1M+ YoY**; net migration halved. **L&H −61K** *during* the World Cup.
-- **Banxico May remittances (7/1):** $5,611M +3.8% YoY (4th straight growth); count −1.7% YoY.
-- **FL condo May (FL Realtors, 6/16):** 8.6mo (↓ 8.9 Apr); inventory −13.4% YoY; sales +6.6% (9th straight).
-- **May housing starts (Census, 6/16):** South-region starts −17.0% MoM — flips April's against-signal geography.
-- **PROME inbox (6/26):** Tier-2 verify re-marking the "2.2M CBO" figure → ~1.0M realized LF (integrated this session).
-- Air Transat completed total US route exit 6/30.
+## CHANGES SINCE (session 16 → 17)
+7 days elapsed (7/2 → 7/9). Per PROME's shared fleet digest (`PROME/packets/2026-07-09_current-events-digest.md`):
+- **US-Iran truce COLLAPSED 7/7→7/8** — Brent spiked $78.82 (+6.28%), BRENT adjudicated ENERGY TAIL RE-ARM. Capital gate = Friday 7/10 sustain verdict.
+- **Russia second root (7/9):** Saratov refinery halted + Russia banned diesel exports — separate from the Iran ladder, contaminates the Friday LEVEL leg. Routed to HAWK.
+- **BND-11 (30Y demand-hole) RESOLVED NOT-FIRED 7/9** — indirect bid 77.74%, decisively refutes the demand-hole thesis (not MARCO's lane, noted for regime context).
+- **June NFP was SOFT** (+57K, revisions −74K) — already integrated 7/2, no new print this window.
+- Brent tape at 7/9 close: $76.01 settle (low $75.60).
+- No new MARCO-owned hard print landed in this window (condo/Banxico/StatCan/NTTO all sit on their existing cadence — next due dates unchanged, see NEXT SESSION).
 
-## WHAT I DID (session 16)
-1. **Boot** — STATUS/SCRATCH/MEMORY read; boot.py (6 passed catalysts, 3 predictions due, 2 ES past deadline). Pulled all fresh prints live (WebSearch/pdfminer; verified primaries not dashboards).
-2. **SDL-01 MAGNITUDE RE-MARK (the big one) — thesis v2.5→v2.6.** Integrated PROME's Tier-2 correction: "2.2M self-deportations (CBO)" is a mis-attributed *disputed-DHS* claim (CBO ≈290K+30K), realized = **~1.0M foreign-born LF / ~1.5M pop** (FRED LNU01073395). Direction/mechanism UNCHANGED. **June jobs independently corroborate** (total LF −1M+ YoY ≈ the ~1.0M). Re-marked across THESIS + CHANGELOG + STATUS + VX-SDL-01 + KB (WFD-SDL-02) + FINDINGS + NEXUS_BRIEF; resolved MAINTENANCE T1-B; MEMORY provenance lesson. Reconcile notes → LABOR + CORAL; reply → PROME.
-3. **June jobs analysis** — SDL-01 now visible in flagship aggregate; L&H −61K = ES-01 hospitality mask INVERTED (May +70K WC-hiring → June −61K). Multi-causal caveat preserved (aging+discouraged+immigration+66.6% CPS). → STATUS dashboard, KB-WFD-NFP-02, ES-01 APPEARING.
-4. **Q2 predictions resolved (window closed 6/30):** MAR-18 CONFIRMED (Cdn air capacity); MAR-01 MISS-on-threshold (Nogales residential −50/−60% floor never reached ~$245K median; stress in cross-border retail not residential); MAR-26 MECHANISM-CONFIRMED/threshold-emerging (May South starts −17% MoM, Q3 clean test). → PREDICTIONS.tsv + TIMELINE.
-5. **Expected signals:** ES-01 APPEARING (national); ES-05 pushed to H2 (June CPI Jul 15); ES-04/ES-07 formally resolved DID_NOT_APPEAR at Q2 close (moved to Resolved).
-6. **Data:** Banxico May ($5,611M +3.8%, count −1.7%) + FL condo May (8.6mo) → dashboard/VX/KB. Confirmed garbled "$5.69B" press was a mislabeled MAY figure.
-7. **Docket:** 6 passed catalysts pruned/re-dated (WestJet+Air Transat removed as resolved one-offs; Banxico/NFP/FL-Realtors re-dated to next; state-of-origin + OFLC H-2A pushed). Forward window now Jul 15 CPI → mid-Aug NTTO.
-8. **Closeout:** NEXUS_BRIEF v2.6 refresh; MEMORY provenance lesson + session arc; this SCRATCH.
-9. **STALENESS HUNT (Will-directed, post-closeout):** systematic sweep for stale current-claims. Big find: **FL Citizens "$678.8B" was stale (2024) AND directionally backwards** — Citizens depopulated 67% below peak ($235.6B removed 2025, 395K policies) → **MAR-17 (>$750B) INVALIDATED**; VX-SFE-03 BREACHED→DE-ESCALATED; thesis Ch3 insurance leg (exposure-thermometer decoupled from affordability); STATUS + KB-SFE-02; cross-flag CORAL. Also: `docket/CALENDAR.md` re-synced (17d mirror-drift I'd left); thesis Ch4 remittance bullet destaled; STATUS "NEXT SESSION 5/31" + "CROSS-AGENT RE-SEND" blocks pruned→pointers; ICE-raids row construction-nuance. **Will-steered round 2:** Central America verified moderating (+9.1% Q1'26 vs 2025 +20.1% — MAR-12 liquidation-exhaustion begun); FROZEN banners on 4 dormant sub-agents; CLAUDE.md threshold table (Citizens invalidated); TRADE.md Feb-vintage banner.
-10. **LIVE-RESEARCH corrections (Will-directed, "correct our information"):** verified/corrected the load-bearing figures. **FL Citizens NAILED:** exposure ~$295.1B (June'25, −43% YoY from $520.1B; was "$678.8B" 2024), ~385K policies, AND rates being CUT (−2.6% personal Jun'26, reversing +15% ask; 2022 reforms) → crisis PAST-PEAK (bigger de-escalation than the first-pass "risk-shifted"). **SDL-01 BLS Table A-7 primary:** LF −700K YoY (32.6M→31.9M; men −970K), pop −571K YoY — CORRECTS the "~1.5M pop" (broader/counterfactual basis, reconcile LABOR). **MAR-11 H-2A UPGRADED 80→88%** (H1 FY26 254,688 +16.9%, ~455-465K pace). **Confirmed current (no correction):** Canadian travel (May latest, June Jul 13; +AC 3,000-flight cancellation), Miami-Dade condo ($415K −2.35%, sales +5.4%), MCO (Jan +3.0% domestic anchor), emigration (fee-drop live Apr 13). Refreshed LABOR/CORAL outbox w/ corrected figures. Commits: 46d26a8b, 1247117c, cf6431e2, a3ae7d95, 5f2be125, 3f6f3f81. **Closeout:** NEXUS_BRIEF full refresh (+CORAL edge, SDL basis, FL Citizens, H-2A); STATUS 7/2 block + header; this SCRATCH.
+## WHAT I DID (session 17)
+1. **Boot** — STATUS/SCRATCH read; `PROME/packets/2026-07-09_current-events-digest.md` (shared canon); inbox listing (10 WALTER SIGs, oldest 6/19).
+2. **Drained WALTER SIG backlog (10 items, oldest-first).** Dispositions:
+
+| SIG | Date | Disposition | Note |
+|-----|------|------|------|
+| 20260619-007 | 6/19 | PROCESSED-INTEGRATED | FL jobless 4.8%>US 4.3% (Apr, UCF) + Spirit Airlines context → folded into Florida Triple Exposure + energy-shock precedent |
+| 20260619-008 | 6/19 | PROCESSED-INTEGRATED | S-FL distress deep-research — Spirit=energy-shock casualty (NOT FL demand, don't double-count) → used as the $85-Brent threshold precedent |
+| 20260621-005 | 6/21 | **LAPSED** | Global-flights-vs-US-survey reconcile ask — window passed, superseded by subsequent hard prints (MIA/FLL/NTTO structural reads already in STATUS); no residual action |
+| 20260621-011 | 6/21 | PROCESSED-CONFIRMED | ResiClub FL migration +23K vs +314K — matches MARCO's own canonical 22,517/93%-collapse figure; already reconciled, no action |
+| 20260626-027 | 6/26 | PROCESSED-FLAGGED | BofA-internal Miami/Orlando/Tampa net-negative Q1'26 — divergent vintage/basis vs canonical; flagged to CORAL reconcile in STATUS, NOT resolved |
+| 20260626-033 | 6/26 | PROCESSED-INTEGRATED | FL property-tax amendment (Nov ballot) anti-migration design → new forward driver logged in Florida Triple Exposure |
+| 20260627-024 | 6/27 | PROCESSED-CONFIRMED | World Cup host-city booking miss (~80% below forecast) — duplicate of already-integrated ES-MARCO-09 finding (session 13, 6/15) |
+| 20260627-026 | 6/27 | PROCESSED-NOTED | Surfside/Damac luxury condo — different cohort (foreign-capital ultra-luxury), tangential to migration/tourism metrics, noted as color only |
+| 20260702-012 | 7/2 | PROCESSED-INTEGRATED | Tariff front-loading (CARL-action) — cross-referenced against MARCO's own remittance pull-forward-paradox (already resolved 6/2, normalizing) |
+| 20260706-016 | 7/6 | **PROCESSED-ACTION (verified)** | FRED LFPR less-than-HS-diploma ACTION item — live-pulled via fredgraph.csv (LNS11327659): 49.0 (Jul'25 high) → 43.1 (Jun'26), accelerating. SDL-01 corroboration (not independent print). |
+
+All 10 `git mv`'d to `inbox/WALTER/processed/`.
+
+3. **Live-verified the LFPR ACTION item** — pulled `fredgraph.csv?id=LNS11327659` directly (primary, not dashboard). Confirmed the SIG's "~49→~43" claim exactly; found the decline is *accelerating* in the last 3 months (Apr 45.0/May 44.0/Jun 43.1), which the SIG didn't flag. → STATUS dashboard + 7/9 UPDATE block.
+4. **Energy re-shock forward-read (PROME task c).** Built a concrete threshold rather than a vague "watch it": Spirit Airlines' 5/2 SDNY liquidation is the only fired precedent for jet-fuel-cost → FL-airline-capacity transmission, and it fired near Brent's $116 May peak, not at current $76. Set **$85 sustained 2+wk** as the re-engagement threshold; below that, treat as background drag already partly priced into DOT Transport CPI (+9.3% YoY Apr). Also flagged a second, MARCO-specific risk: the energy re-arm threatens to contaminate **ES-MARCO-08** (my own produce-vs-pump discriminating test, due ~Jul 15 CPI) by ending the pump-relief window early.
+5. **FL migration shared-metric reconcile (PROME task e).** Stated MARCO's canonical figure explicitly (+22,517 net domestic migration, 2025 annual, Census-derived, 93% collapse from +314K 2022 peak — STALE, no 2026 print) and flagged the BofA-internal Q1'26 net-negative claim as an unreconciled divergent-vintage/basis signal, NOT a contradiction to resolve unilaterally. Routed to CORAL via STATUS flag (not executed as a cross-agent write).
+6. **STATUS write-back** — new "7/9 UPDATE (session 17)" READ-FIRST block, dashboard rows (FL migration divergence caveat, LFPR row), new "Energy Re-Shock → FL Tourism/Cost Channel" active-situation section, Florida Triple Exposure additions (FL jobless/Spirit context, property-tax amendment), UNRESOLVED/PENDING rows (migration reconcile, ES-MARCO-08 contamination watch).
 
 ## NEXT SESSION
-1. **~Jul 15 June CPI** — ES-MARCO-08 real fork (pump now falling post-Brent-collapse; F&V held +6.1% May). The clean labor-vs-freight decoupling test. Shared print w/ BRENT.
-2. **~Jul 17 FL Realtors June condo** — <8.5mo = absorption confirmed (May 8.6, trajectory there); >9.0 = distress re-engages (MAR-08).
-3. **~late Jul FL-state June hospitality employment** — de-masks ES-01 (national L&H already −61K); does FL-specific confirm?
-4. **~Aug 1 Banxico June remittances** — count YoY cleanest SDL-01 readout.
-5. **~Aug 8 July NFP** — does L&H stay negative once WC rolls off (post-Jul-19)? further LFPR/LF-YoY contraction = SDL-01 aggregate visibility deepens.
-6. **~mid-Aug NTTO June arrivals** (1st WC month) — ES-09 reversal read (leans FAIL).
-7. **MCO April pax** via BTS T-100 (~now available, ~3mo lag) — closes the airport thread (FLL done 6/15).
-8. **Reconcile confirm:** watch LABOR/CORAL adopt the ~1.0M LF figure (they may still carry old ~1.6–1.9M / 2.2M).
+1. **Fri 7/10** — BRENT sustain verdict (fleet capital gate). If Brent holds/climbs toward the $85 threshold, MARCO's tourism-cost watch escalates from WATCH to live.
+2. **~Jul 15 June CPI** — ES-MARCO-08 real fork, now under a **contamination watch**: check whether pump prices held their relief or reversed with the 7/8-7/9 re-arm before trusting the labor-vs-freight read.
+3. **~Jul 17 FL Realtors June condo** — <8.5mo = absorption confirmed (May 8.6, trajectory there); >9.0 = distress re-engages (MAR-08).
+4. **~late Jul FL-state June hospitality employment** — de-masks ES-MARCO-01.
+5. **~Aug 1 Banxico June remittances** — count YoY cleanest SDL-01 readout.
+6. **~mid-Aug NTTO June arrivals** (1st WC month) — ES-MARCO-09 reversal read (leans FAIL).
+7. **FL migration reconcile w/ CORAL** — needs a live session with CORAL present (or a joint thread) to resolve the BofA-internal vs Census-annual divergence; not resolvable from MARCO's side alone (CORAL owns whole-FL framing, was spawned in parallel same day).
+8. **MCO April pax** via BTS T-100 — still open (carried from session 16).
 
 ## OPEN THREADS
 | Item | Status |
 |------|--------|
-| SDL-01 magnitude reconcile → LABOR + CORAL | 🟠 outbox notes sent; watch adoption (LABOR sourced old ~1.6–1.9M to MARCO) |
-| ES-MARCO-08 produce-vs-pump | 🔴 real fork at June CPI ~Jul 15 (pump now falling — Brent $91→$83) |
-| ES-MARCO-01 hospitality | 🟠 APPEARING national (L&H −61K); FL-state confirm ~late Jul |
+| FL migration divergence (canonical +22,517 vs BofA Q1'26 net-negative) | 🟠 FLAGGED 7/9 — needs CORAL joint reconcile, not unilaterally resolvable |
+| ES-MARCO-08 contamination risk (energy re-arm vs pump-relief-window test design) | 🟡 WATCH — resolves at Jul 15 CPI or earlier if Brent moves |
+| Energy-shock → FL tourism-cost threshold ($85 Brent sustained 2wk) | 🟡 WATCH — cross-ref BRENT/HAWK Friday verdict |
+| SDL-01 magnitude reconcile → LABOR + CORAL | 🟠 carried from session 16, still watching adoption |
+| ES-MARCO-01 hospitality (FL-state confirm) | 🟠 national APPEARING; FL-state due ~late Jul |
 | ES-MARCO-09 World Cup reversal | 🟠 leans FAIL; NTTO June ~mid-Aug |
-| MAR-26 construction raids | Q3 clean test (May South −17% MoM = emerging threshold) |
-| MCO April pax | 🟡 BTS T-100 (~Jul, now due) |
-| PREDICTIONS_ARCHIVE + calibration scoreboard (punchlist #2) | 🟠 fresh Q2 cohort now closed (MAR-18/01/26 + earlier) — build next; fold T1-D col-normalize |
-| MAINTENANCE punchlist | RESOLVED 7/2: T1-B (magnitude), T1-E (FL Citizens), T2-A (STATUS stale blocks), T2-C stamped (TRADE.md banner), sub-agent FROZEN banners, CALENDAR resync. Still open: T1-D (col-count), T3-A (VX triage 46/57 >60d), T3-B (border muni-bond EMMA — latent opportunity), T3-C (skeleton archive), STATUS 3 READ-FIRST blocks (archive older two) |
-| FL Citizens exact current-exposure $ | ✅ LIVE-VERIFIED 7/2: ~$295.1B (Jun'25, −43% YoY) + rates being CUT (−2.6% personal Jun'26) → crisis PAST-PEAK. MAR-17 invalidated. Reconcile w/ CORAL. |
-| SDL-01 population-basis reconcile w/ LABOR | 🟠 BLS Table A-7 primary: FB LF −700K YoY / pop −571K YoY. The "~1.5M pop" (PROME note) is a broader/counterfactual basis, NOT realized YoY — reconcile which basis LABOR's U-3 counterfactual needs before either cites ~1.5M. |
-| 2.2M→~1.0M propagation | Canonical + live surfaces done; dated/archival mentions (old CHANGELOG/TIMELINE entries, sub_agents/WORKFORCE, domain/sources/SDL, ML.tsv) retain old figure as snapshots — sweep opportunistically |
-| WALTER inbox item (6/27) | 🟡 unprocessed — separate signal, not spawned to process; flag if it recurs |
-| Ag-weather/crop-disaster owner | 🟡 open PROME loop (flagged 5/31, unassigned) |
+| MAR-26 construction raids | Q3 clean test (carried) |
+| MCO April pax | 🟡 BTS T-100, still open |
+| Property-tax amendment (Nov 3 ballot) | 🟡 NEW 7/9 — watch vote, log to docket next full closeout |
+| FL jobless 4.8%>US 4.3% (Apr, UCF) | 🟡 integrated as context, not independently re-verified this session |
+| PREDICTIONS_ARCHIVE + calibration scoreboard (punchlist #2) | 🟠 carried from session 16, not touched this session |
+| MAINTENANCE punchlist (T1-D, T3-A/B/C) | 🟡 carried from session 16, not touched this session |
 
 ## Mail state
-Inbox: PROME immigration-magnitude msg (6/26) PROCESSED (→ inbox/processed/; integrated as v2.6). WALTER subfolder item (6/27) left unprocessed. **Outbox: 4 written this session** — to-LABOR (magnitude reconcile + June), to-CORAL (magnitude reconcile), to-PROME (integrated + June corroborates), to-CARL (WC mask inverted). Stale 6/15 to-CARL note trashed (premise flipped). HERMES appears inactive (files sat 17d) — messaging overhaul pending ([[project_messaging_overhaul]]); NEXUS covered via NEXUS_BRIEF.
+Inbox: **all 10 WALTER SIGs processed this session** (see disposition table above) → `inbox/WALTER/processed/`. No outbox writes this session (no threshold fired; migration divergence + energy watch routed via STATUS flags per PROME's "LIST, don't execute" instruction, not written to CORAL/BRENT inboxes directly).
 
 ## PUSH STATE
-**7/2 session-16: ✅ CLOSED OUT — ALL ON ORIGIN.** Commits (chrono): `2927ea41` (SDL re-mark v2.6 + June-jobs) · `943e29f3` (true-up) · `46d26a8b` (staleness hunt pt1: FL Citizens + CALENDAR resync) · `1247117c` (pt2: CentAm + FROZEN banners + doc destale) · `cf6431e2` (live-research: Citizens ~$295B + SDL BLS primary) · `a3ae7d95` (SCRATCH) · `5f2be125` (H-2A upgrade + AC capacity + Miami-Dade) · `3f6f3f81` (EMG-01) · `db537f00` (closeout: NEXUS_BRIEF +CORAL edge / STATUS / SCRATCH). All ff-pushed via safe-push.sh. This final stamp rides the next push. NOTE: unrelated WALTER + memory/auto work was in the tree during the session — left untouched per isolation.
-- Files (all AGENTS/MARCO/): STATUS, SCRATCH, MEMORY, NEXUS_BRIEF, FINDINGS, MAINTENANCE, EXPECTED_SIGNALS, thesis/{THESIS,CHANGELOG,PREDICTIONS.tsv,TIMELINE}, docket/CATALYSTS.tsv, workbook/{KB,VX}.tsv, inbox/processed/ (PROME msg via git mv), outbox/ (4 new, 1 trashed).
-- **NOTE for next session/Will:** `AGENTS/WALTER/STATUS.md` had an uncommitted working-tree change during my closeout (not mine — left untouched per isolation). Flag to whoever runs WALTER if it persists.
+**Session 17: files touched (all `AGENTS/MARCO/`) — STATUS.md, SCRATCH.md, `inbox/WALTER/*` (10 files git-mv'd to `processed/`).** Commit pending this session (pathspec, from repo root). **NO PUSH per PROME instruction** — rides the next closeout/push-train.
