@@ -1,5 +1,5 @@
 # ORCHESTRATION PLAYBOOK
-**Created:** 2026-06-26 | **Owner:** Prome | **Companion to:** `PROME/ORCHESTRAL_LAYER_DESIGN.md` (fleet-scan/ranking layer)
+**Created:** 2026-06-26 | **Updated:** 2026-07-09 (+§Standard Fable session — session-design guide, Will-directed; Codex cross-vendor lane; verification tiers; record-vs-reality rule) | **Owner:** Prome | **Companion to:** `PROME/ORCHESTRAL_LAYER_DESIGN.md` (fleet-scan/ranking layer)
 **Purpose:** Operating rules for running a multi-agent session. Read when Will says "let's orchestrate" / before spawning >1 agent. Born from the 2026-06-26 debrief: the orchestration layer works, but we were paying live-orchestration prices for fan-out work and absorbing a fragile-concurrency tax.
 
 ---
@@ -59,7 +59,53 @@ When PROME runs on a top-tier model (Fable 5), **judgment concentrates up, volum
 - **Git:** spawned agents commit only their own `AGENTS/<NAME>/` dirs (or leave commits to PROME's closeout sweep). Never shared/root files.
 - **Context economics:** PROME delegates file-dump reading (Explore/agents) and keeps Fable tokens for synthesis — that's where the cost asymmetry pays.
 
-**Not delegated down, ever:** trigger sign-off, X1/regime state changes, routing decisions, Will-approvals, Telegram sends, HEARTBEAT/DOCKET writes.
+**Not delegated down, ever:** trigger sign-off, X1/regime state changes, routing decisions, Will-approvals, Telegram sends, HEARTBEAT/DOCKET/GATES writes.
+
+---
+
+## The standard Fable session (session-design guide — Will-directed 2026-07-09; evidence: the 7/8 nine-spawn live-event run + the 7/9 five-agent wave)
+
+The target shape for a PROME-on-Fable working session. Everything here is the *how-to-run-it* layer on top of §Mode-split and §Model tiering — cite those, don't restate.
+
+### Lifecycle
+1. **Boot + declare** (`PROME/BOOT.md` in full). End the declaration with: regime + live tape, the top catalyst (especially one that already printed while offline — say that FIRST), pending decisions, blockers.
+2. **Co-plan with Will.** Will sets direction; PROME proposes the wave as a table (task · agent · model · why-now), marking what's *sequenced* (true dependency only) vs *parallel*. Get ONE launch approval for the whole wave — not per-agent drip.
+3. **Launch.** Parallel spawns go in one message. Sequence only on real data dependency (7/9: TERRY waited for BOND because arm-#1 *was* BOND's verdict; VIOLET/LIQUID ran parallel because nothing coupled them).
+4. **While agents work: PROME verifies, and otherwise stays quiet** (§discipline 2). Fable time goes to primary-checking verdicts as they land — not to narrating progress or relaying idle pings.
+5. **Canon the same hour a verdict verifies** — HEARTBEAT amendment, DOCKET row, GATES.tsv state flip. Never batch canon to closeout; a crash loses it.
+6. **Synthesize at milestones, batched.** Lead with the outcome; N agent reports → one synthesis.
+7. **Closeout** (`PROME/CLOSEOUT.md` tier): write-back tail, GATES.tsv states current, auto-memory for new *classes* (not instances), safe-push sweeps every agent's local commits.
+
+### Spawn packet template (proven 7/8–7/9 — every field earned its place)
+1. Identity line: *"You are X, the <domain> agent in Will's fleet. PROME spawned you."* + **today's date AND time** + repo root.
+2. **Boot-read list** — own `CLAUDE.md` + `STATUS.md` + task-specific files/inbox items *by path* (subagents auto-load nothing).
+3. Scoped task **with the tape numbers PROME already has** (don't make a Sonnet agent re-fetch what Fable already verified) — and with traps flagged (e.g. 7/9 LIQUID: "do NOT grade the pre-reg early, it's conditioned on Friday's close").
+4. Domain rules restated in one line: numbers > narrative · source + date every claim · no trade recommendations · **no files outside `AGENTS/<NAME>/`**.
+5. Deliverables, exactly: files in own dir → **pathspec commit recipe from repo root** (incl. the pre-commit `git status -- AGENTS/<NAME>/` check) → do-not-push → **word-capped SendMessage summary (≤150-200 words)**.
+6. The deliver-before-idle line, verbatim (§discipline 1).
+7. Web tools note when relevant: *"NOT autoloaded — ToolSearch 'select:WebSearch,WebFetch' first."*
+
+### Verification tiers (Fable's core job — where the model premium pays)
+| Claim class | Bar |
+|---|---|
+| Moves canon / gates capital / fires-or-resolves a trigger | **Primary-source verify, mandatory, BEFORE any canon write** (7/9: BOND's auction figures re-pulled from the TreasuryDirect API — exact match — before HEARTBEAT/DOCKET/TERRY moved) |
+| Domain judgment with registered re-arm thresholds | Read the reasoning; spot-check only if surprising (7/9: LIQUID's SpaceX-idiosyncratic verdict — sound structure + registered thresholds = no escalation) |
+| Mechanical / hygiene / process claims | Trust commit evidence — verify via `git log`/`git status`/`ls`, not re-doing the work (7/9: VIOLET's "no packet-build commit exists" reproduced in one git command) |
+
+### Record-vs-reality rule (born 7/9 — TWO instances in one day)
+**Canon never asserts an artifact exists until it's been verified on disk** (`ls` / git history). "Routed" ≠ "built"; intent ≠ artifact. The 7/6 "fire-card PRE-BUILT" was an inbox packet with no card file for 3 days; the KB-VIO-110 packet-build was a fired gate with no execution for 7. Corollaries: registered action-gates → `PROME/GATES.tsv` **the same session they're approved** ([[finding_fired_gate_needs_owner_independent_ledger]]); when a spawn reports "X was never actually created," git-verify, then fix the canon that claimed otherwise.
+
+### Codex cross-vendor lane (first run 7/9 — validated)
+- **A tool, not a fleet agent** — no ROSTER entry, no dir, no inbox. Invoke via the codex plugin (rescue subagent for delegated investigation; review commands for diffs).
+- **Best use:** silent-failure hunting on harness/infra code, and **pre-arm red-team of decision-rail logic** (fire-cards, gate definitions) — the places same-vendor blind spots cost most. Review-only by default; fix-mode only on tightly scoped non-agent files.
+- **Economics:** runs on Will's OpenAI subscription → zero Anthropic tokens for the review itself; PROME pays only the verification pass.
+- **Same trust bar as any agent:** findings verified against live code before endorsement (7/9: 11 findings checked — all real, one scenario overstated). PROME applies fixes under pathspec discipline. **Findings preserved to `PROME/cluster/`** (no agent dir exists to hold them) — see `2026-07-09_codex_bootgate_review.md`.
+
+### Fable-context economics (the orchestrator's context IS the session's scarce resource)
+- Agents deliver **word-capped summaries + file pointers**, never dumps; PROME reads verdicts and verifies claims — it does not read domain files it can delegate.
+- Idle notifications are no-ops: never relayed to Will, never responded to beyond housekeeping.
+- Division of labor, fixed: **Will** = direction, launch approval, trade decisions, shared-root commit scope, off-repo truth. **PROME** = wave design, packets, verification, canon, synthesis. **Spawns** = everything else.
+- If Fable spend looks heavy, the lever is *fewer/larger batched deliveries* — not reverting the architecture.
 
 ---
 
