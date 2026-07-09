@@ -1,12 +1,13 @@
 # FIRE CARDS — Ladder & Comparison
 
-**Updated:** 2026-06-27 · **Owner:** TERRY · **Status:** all **PROPOSE-ONLY**, **$500 max-loss/card**, **0 fired live**.
+**Updated:** 2026-07-09 (TRY-FIRE-004 added, NO-ARM recorded) · **Owner:** TERRY · **Status:** all **PROPOSE-ONLY**, **$500 max-loss/card**, **0 fired live**.
 Living index of the staged fire cards. Standing rule (Will 6/26): fresh capital deploys ONLY on a fired trigger — never pre-position. Update this doc when a card is added/fired/invalidated.
 
 **The cards:**
 - `PRICE-TRIGGER_HY280_regional-put.md` — TRY-FIRE-001
 - `PRINT-TRIGGER_WAL-EGBN-build.md` — TRY-FIRE-002
 - `PRINT-TRIGGER_monoline-COF-SYF-ALLY.md` — TRY-FIRE-003
+- `FLOW-TRIGGER_duration-TLT-put.md` — TRY-FIRE-004 (duration/TLT puts, flow/velocity-discriminator-gated — spec routed by PROME 7/6, ID-corrected 7/8, card built + 7/9 arm-check NO-ARM recorded this session)
 
 ---
 
@@ -48,3 +49,11 @@ Jul 30    WAL              -> path (c) standalone + path (a) build-defer
 **Net:** three expressions, one credit thesis, laddered so the earliest/cleanest read (monolines) informs the later/heavier one (regionals), with the price rail (HY280) underneath as the regime-level catch-all.
 
 > Caveat per owners (6/25–26): trade-READY ≠ high-conviction. REGINALD grades realized synchronized NCO as a **2027** event (Q2 path = reserve-build, ~25–35%); LIQUID is pre-trigger (HY ~276, in no-man's-land). Don't pre-position into green banks — let the print/level grade, then express.
+
+---
+
+## TRY-FIRE-004 (separate rail — duration, not credit)
+
+**Target:** TLT puts · **Trigger class:** **FLOW/VELOCITY** (explicitly not PRICE-level) · **Thesis owner:** BOND/LIQUID/SAM+ZHAO · **Confidence:** LOW/contingent.
+Arms on ANY ONE of 3 discriminators (BND-11 acute 7/9 reopen / VX-BND-05 10Y-sustain 5-closes≥4.50 / soft TIC 7/16) — never the bare 30Y-level poke. Full spec + discriminator log → `FLOW-TRIGGER_duration-TLT-put.md`.
+**2026-07-09 state:** arm-#1 (BND-11) **NO-ARM, HIGH confidence** — every leg failed (indirect 77.74%, dealer 10.05%, BTC 2.44, foreign demand surged; BOND grades the level as oil/term-premium, not demand-hole). arm-#2 (10Y 5-close sustain) is the **live watch**: 2-of-5 entering today, 10Y ~4.53 intraday — today's 4PM close, if ≥4.50, makes 3-of-5. arm-#3 (TIC) unchanged, pending 7/16.

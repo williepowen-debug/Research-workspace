@@ -13,7 +13,7 @@
 | Trigger→card toolchain | 🟢 BUILT & TESTED | the minutes-not-hours path is live end-to-end |
 | `scripts/chain_fetch.py` | 🟢 built, selftest PASS, live-validated | live option-chain CLI; marks matched the bank-put proposal exactly |
 | `scripts/grade_print.py` + `grade_config.json` | 🟢 built, selftest PASS | Q2 print grader; 3 mis-grade traps as hard guards; `--tally` rolls path (a)/(b)/(c) |
-| Fire cards | 🟢 staged, **0 fired live** | `TRADE_CARD_TEMPLATE_FIRE.md` + **3** skeletons (HY≥280 / WAL-EGBN / **monoline COF-SYF-ALLY**), $500 budget locked · side-by-side: `setups/FIRE_CARDS_LADDER.md` |
+| Fire cards | 🟢 staged, **0 fired live** | `TRADE_CARD_TEMPLATE_FIRE.md` + **4** skeletons (HY≥280 / WAL-EGBN / monoline COF-SYF-ALLY / **duration-TLT-put, flow-gated**), $500 budget locked · side-by-side: `setups/FIRE_CARDS_LADDER.md` |
 | Day-trading review loop | 🟢 live · **SIDE tool** | dry-powder feeder, **subordinate to the thesis system** (Will 6/27) — must not displace the core work. S3 6/24–26 **−$3,969** (wiped S2; cumulative −$1,017) = funding nothing; plug the leak, keep it small. `daytrading/` |
 | `SIGNALS.tsv` context ledger | 🟢 NEW, live | trade-construction context (WALTER INFO / my chart obs / thesis-owner timing); decay-tracked, boot-surfaced. **NEXUS regime PIN = STALE (6/16 pre-FOMC), refresh owed** |
 | `inbox/WILL/` drop zone | 🟢 NEW, live | Will's reserved trading-data drop; raw gitignored (stays local), boot-surfaced; feeds the day-trading review |
@@ -23,6 +23,7 @@
 | Risk unit for Will | 🟡 open | $/%/R preference unresolved (see MEMORY Standing Decisions) |
 
 ## What's pending
+- **2026-07-09:** TRY-FIRE-004 (duration/TLT puts) actually built this session — the 7/6 PROME PRE-BUILD packet (ID-corrected 7/8) had only routed the spec to inbox/, the card file was never written (process gap, flagged to PROME). 7/9 arm-check: arm-#1 (BND-11 30Y reopen) **NO-ARM, HIGH confidence**; arm-#2 (VX-BND-05 10Y-sustain) is the live watch pending today's 4PM close (2-of-5 entering today). See `setups/FLOW-TRIGGER_duration-TLT-put.md`.
 - **Awaiting a fired trigger** to exercise a fire card (HY OAS ≥280 sustained, or a Jul 16–30 print grading as transmission). Detection = LIQUID/SENTRY.
 - **NEXUS regime PIN stale** — `SIGNALS.tsv` carries NEXUS's 6/16 *pre-FOMC* read; refresh owed (flag in `outbox/2026-06-27_to-NEXUS_post-fomc-reanchor-flag.md`). Will refreshing NEXUS soon → re-stamp the PIN then.
 - **Day-trading S3 carries:** (1) request a timestamped order export (confirms RH auto-close + closes churn/cancel gap); (2) Monday-mark the open book — WAL 9/18 75P (**THESIS-scope → FORGE, not day-trade**), WEN 7/2 8.50P.
