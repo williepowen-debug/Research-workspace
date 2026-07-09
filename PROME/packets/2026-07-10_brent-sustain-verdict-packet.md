@@ -50,6 +50,10 @@ Deliver your result (final message + file) as your final action before idling �
 ## §HAWK-read (fill from HAWK's 7/9 delivery)
 [PENDING — HAWK spawned 7/9 ~16:40 ET; summary + verdict line goes here when it lands.]
 
+## §Other 7/9-eve inputs for the spawn prompt
+- **ORACLE cross-check (7/9):** "US blockade on Iran" market 48.0% ($210K vol, real depth) vs HAWK ladder D46 — CONVERGES, KL≈noise. No resolution-matched market exists for the sustain test itself (coverage gap, not a dislocation). `AGENTS/ORACLE/DIVERGENCE_2026-07-09.md`.
+- **MARCO ES-MARCO-08 contamination flag (7/9, Will-routed):** MARCO's produce-vs-pump CPI test (due ~7/15) assumed the pump-relief window holds — the 7/8 re-arm may close it early. Informational for BRENT: a CONFIRM verdict feeds CARL's pass-through AND invalidates MARCO's test assumption; note it in the routing list of the verdict memo (MARCO owns the re-spec).
+
 ---
 
 ## Same-window companions (Friday, after the BRENT verdict)

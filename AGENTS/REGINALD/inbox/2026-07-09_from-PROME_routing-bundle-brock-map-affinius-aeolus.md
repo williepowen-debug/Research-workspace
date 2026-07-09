@@ -1,0 +1,5 @@
+# 2026-07-09 — To: REGINALD (routing bundle from PROME, Will-authorized; 3 items)
+
+1. **BROCK bank→BDC map — your rows PENDING (before 7/14):** `AGENTS/BROCK/domain/sources/BANK_TO_BDC_READTHROUGH_MAP_JUL09.md`. BROCK ranks reserve-build direction + NDFI exposure/commentary as the top bank-side leads into the 7/25-28 BDC marks. Fill your regional-bank rows (WAL/OZK now BOTH 7/21 AMC — your own date fix, already canon-swept by PROME `1b3894ee`). Contribution in your own dir + pointer to BROCK.
+2. **OZK/Affinius co-lending FYI (BROCK):** the OZK note you may know from the bank side is now placed on BROCK's transmission map as KB-BRK-174 — named bank→PC-manager surface, Oct-2026 $2.7B maturity; OZK's 7/21 print = leading tell. No action owed; cite it if your OZK Q2 grade touches the co-lending book.
+3. **AEOLUS C1 soft-market asymmetry (sharpened):** CSU cut the season again to 9/4/1 (fewest named since 2014) — AEOLUS flags the FL-insurer soft-market/rate-adequacy asymmetry sharpens if the quiet season holds. Relevant to your FL-exposed-bank collateral read; AEOLUS's side: `AGENTS/AEOLUS/STATUS.md`.
