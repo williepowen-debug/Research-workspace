@@ -2,10 +2,12 @@
 
 > **This is a VIEW, not canon.** Canonical dated rows = `PROME/DOCKET.tsv` (wins on any drift). This file is the at-a-glance node structure + live resolution log.
 > **⏳ RETIRE ~2026-08-01** — once the 7/28–29 knot resolves, fold outcomes into `memory/` + archive this file. Do not let it outlive the node.
-> **Owner:** PROME · **Synced from DOCKET:** 2026-07-06 · **Discoverable via:** SCRATCH entry-point 0.
+> **Owner:** PROME · **Synced from DOCKET:** 2026-07-09 eve (prior 7/6) · **Discoverable via:** SCRATCH entry-point 0.
 
 ## The story (one-liner)
 **Two independent stress axes test in one ~2-week window, hinged on June CPI (7/14).** A *credit-recognition* axis (correlated — one Q2 credit cycle, three at-bats), a *rates/Asia demand-hole* overlay, and a *vol amplifier* sitting on the hinge. **Base rate = passes benign (like the X1 gate did).** It only earns real bandwidth if the hinge breaks.
+
+> **★ 7/9 state update (post-dating the 7/6 synthesis below — read it as history):** (1) the **demand-hole overlay RESOLVED BENIGN at the flow level 3×** (JGB 7/7 FIRM → clean 10Y 7/8 → 30Y 7/9 indirect 77.74% SURGED, BND-11 NOT-FIRED) — the overlay's live question is now *who is the transient bid* (SAM+ZHAO joint read 7/9: safe-haven/fast-money, not structural Asia; TIC 7/16 arbiter); the 10Y *level* leg (arm-#2, 3-of-5) is what survives. (2) **Energy re-entered the node from outside:** truce collapsed 7/8 → tail ACTIVE, Fri 7/10 sustain verdict = a capital gate BEFORE the hinge; the KNOT-1 "first CPI w/ Brent $71" framing is superseded — Brent ~$76, and 7/14 CPI is June data (pre-spike; the oil shock hits JULY CPI + breakevens). (3) **WAL moved 7/16→7/21 AMC** (confirmed) — KNOT-2 rewritten below; 7/21 is now the credit-axis super-day.
 
 ## ⚡ Promotion trigger (the ONE thing that flips background → active)
 **June CPI 7/14 hot core** (energy washout does NOT show / core sticky — exact band = HENRY/CARL) → promote the node. **Soft → it likely passes.**
