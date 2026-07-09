@@ -1,8 +1,39 @@
 # CORAL — Florida Real Estate Stress Monitor
 ## Comprehensive Florida Agent | 10 pillars (real estate · insurance · banks · migration · tourism · fiscal · labor · climate)
 
-**Last Updated:** 2026-06-25 ET (transmission-terminus cluster Pass-1 — DEWEY Phase-3 timing packet ingested; FL-bank leg grid → `CLUSTER_FL_BANK_LEG.md`. Prior: 2026-06-20 WALTER inbox + thesis rails. Thesis → `thesis/THESIS.md`; changelog → `thesis/CHANGELOG.md`; pillar map → `COVERAGE.md`; banks → `FL_BANK_WATCHLIST.md`)
-**Signal Status:** 🟠 ELEVATED — **slow broad demand-normalization, not an acute crash; THESIS SPLIT holds.** Retail/condo + single-family distress REAL (FL #1 foreclosure; condo −6.1% YoY/92% of mkts; SW-FL SF correction; ~18-20% of 2024-vintage financed buyers underwater; bankruptcy filings accelerating; demand engine — migration AND Canadian snowbirds — failing on both fronts). BUT two counter-currents keep it 🟠 not 🔴: (1) **insurance is SPLIT** — personal/reinsurance easing, but commercial/condo-association layer still rising; (2) **bank transmission NOT in Q1 2026 prints** + CRE distress is condo/residential-specific (Miami office tightest in US). Acute bank stress pushed to ~winter 2026-27 (converges with MARCO). **Biggest forward variable: Nov-3-2026 property-tax amendment** (two-sided).
+**Last Updated:** 2026-07-09 ET (catch-up session, 14-day gap — PROME-spawned; inbox drain [8 items] + fleet current-events digest ingest + AEOLUS boundary handshake resolved + forward prep for Q2 bank earnings/FL-employment. Prior: 2026-06-25 transmission-terminus cluster Pass-1. Thesis → `thesis/THESIS.md`; changelog → `thesis/CHANGELOG.md`; pillar map → `COVERAGE.md`; banks → `FL_BANK_WATCHLIST.md`)
+**Signal Status:** 🟠 ELEVATED — **slow broad demand-normalization, not an acute crash; THESIS SPLIT holds.** Retail/condo + single-family distress REAL (FL #1 foreclosure; condo −6.1% YoY/92% of mkts; SW-FL SF correction now rolling to negative YoY at the MSA level [Cape Coral, 7/6 Bilello]; ~18-20% of 2024-vintage financed buyers underwater; bankruptcy filings accelerating; demand engine — migration AND Canadian snowbirds — failing on both fronts). BUT two counter-currents keep it 🟠 not 🔴: (1) **insurance is SPLIT** — personal/reinsurance easing, but commercial/condo-association layer still rising; (2) **bank transmission NOT in Q1 2026 prints** + CRE distress is condo/residential-specific (Miami office tightest in US). Acute bank stress pushed to ~winter 2026-27 (converges with MARCO). **Biggest forward variable: Nov-3-2026 property-tax amendment** (two-sided). **No thesis-level change from the fleet's macro sequence (energy re-arm, truce collapse, rates fuse) — FL channel is domestically/structurally driven, not macro-beta; see 7/9 block below.**
+
+---
+
+## 7/9 CATCH-UP — READ FIRST (14-day gap; fleet macro context + inbox drain)
+
+**Fleet regime (PROME digest, as of 7/9 close, not CORAL-verified):** ENERGY TAIL ACTIVE (Iran truce collapsed 7/7-7/8, Brent $76.01 settle), capital gated on Fri 7/10 sustain verdict; rates fuse arm-#2 3-of-5 (10Y ≥4.50 three sessions); BND-11 demand-hole thesis REFUTED (30Y reopen strong); CPI 7/14 = the hinge. **FL read:** none of this is a first-order FL channel mover — no direct FL-CRE bank read, no FL-insurance-catastrophe read, no FL-migration read attached to the energy/rates sequence. Filed as context only; **not** propagating into FL dashboard rows. One indirect watch: 10Y ≥4.50 sustained = mortgage-rate headwind reinforcing the SF/condo demand freeze (directionally consistent with existing thesis, not a new driver).
+
+**Inbox drained this session (8 items, oldest-first; full detail → `board_log.tsv` + `inbox/processed/`):**
+
+| # | Item | Date | Disposition |
+|---|------|------|-------------|
+| 1 | REGINALD BayFirst SBA exit | 2026-03-04 | **Archived** — superseded; folded into FL_BANK_WATCHLIST (BAFN row already carries current SBA-runoff state); stale 4mo+, no new info. |
+| 2 | PROME ingest: Parcl builder MSI | 2026-06-26 | **Noted** — Deltona/Lakeland added to fire-sale geography (below); tripwire pre-registered (MSI >6.0 across ≥5 FL metros, 2+ wks → 🟠→🔴). |
+| 3 | PROME: FL labor verification | 2026-06-26 | **Verified, no correction needed** — STATUS already carries 4.8% SA correctly; "+40.5K" label not in use. Rank claim ("2nd-worst YoY") remains unverified — flag if load-bearing. |
+| 4 | AEOLUS boundary handshake | 2026-06-28 | **Resolved** — see below. |
+| 5 | WALTER SIG-20260626-014 (KB Home FQ2) | 2026-06-26 | **Info-only** — national builder-margin-collapse confirms FL new-dev price-cut dynamic; no threshold change. |
+| 6 | WALTER SIG-20260627-024 (Ciccarone $1T infra) | 2026-06-27 | **Noted** — superseded/refined by #7. |
+| 7 | WALTER SIG-20260628-001 (muni fiscal, resolves #6) | 2026-06-28 | **Noted** — Jacksonville best-positioned; FL NOT a deferred-infra concentration point; reconciled to one property-tax number (pillar 9, no conflict). |
+| 8 | WALTER SIG-20260706-003 (Cape Coral rolling neg YoY) | 2026-07-06 | **Acted** — folded into pillar-2 dashboard row below. |
+
+**AEOLUS boundary handshake — RESOLVED:** Sanity-checked COVERAGE.md pillar 10 (coastal/climate) against AEOLUS's macro climate→economy scope (global insurance/reinsurance, agriculture, energy demand). **No conflict, no carve-out needed** — AEOLUS operates at global/macro level via 3 channels; CORAL retains FL-specific hurricane/flood/insurability as canonical, same reconcile-to-one-number pattern already run with MARCO. AEOLUS routes FL-specific signals to CORAL and defers to CORAL's numbers on FL insurance (C1) and FL property (C4) overlap. Proposed route (not executed — listing only): confirm-back to PROME/DAEDALUS that no carve-out is needed.
+
+**Forward prep — pre-print watch items:**
+
+| Print | Date | FL-side watch item | Threshold |
+|-------|------|---------------------|-----------|
+| Q2 2026 FL bank earnings (SSB/SBCF/BKU/VLY/AMTB/USCB) | ~7/21–28 (per CALENDAR; exact dates TBC) | Bank-transmission upgrade gate (below) | ≥2 FL-exposed banks show synchronized criticized/classified→realized NCO migration + specific reserve build, OR USCB's $126M condo-assoc book shows first crack |
+| FL State Employment (FloridaCommerce/BLS LAUS) | Monthly, next release ~mid-late Jul (exact date TBC — verify) | Does 4.8% SA hold or extend the 7-straight-rise streak; construction-sector print (ICE labor squeeze) | New print >4.8% SA = 8th straight rise, strengthens labor leg of household-stress stack |
+| "Monolines" (7/15-22, per fleet digest) | 7/15-22 | **Not a CORAL-owned catalyst** — no FL-specific monoline (bond-insurer) exposure identified in current coverage; flagging as outside-scope, no action | — |
+
+**Bank-transmission upgrade gate — current read (unchanged since 6/25, restated for the gap):** Single diagnostic = synchronized criticized/classified→realized NCO + specific reserve build across ≥2 FL banks. **NOT met at Q1; NOT met currently** (no Q2 prints yet). Closest precursor = AMTB+SBCF early-bucket (30-89d/NPA) YoY migration, but AMTB's driver is CRE-HFS/C&I not condo, and SBCF's 30-89d was actually −14% QoQ off a Q4 peak (nonaccrual $72M→$95M is the sharper Q1 signal). DEWEY timing chain (research-grade, not verified-primary) still projects continued early-bucket migration at Q2, NOT crystallized synchronized loss — that's a 2027 event. Q2 prints (~7/21-28) are the live re-test.
 
 ---
 
@@ -68,7 +99,7 @@ The dashboard above is pillars 1/3/5/10 (condo, insurance, climate). The rest of
 |--------|--------------------------|--------|
 | **Migration (7)** | Net domestic **+22,517 (−93% from peak, now #8)**; intl +178,674 but **−57% YoY** (−75% projected); **natural change negative**; out-migration ~510K → GA/TX/NC, driven by insurance/assessments/cost. *Demand engine failing.* | 🔴 |
 | **Tourism/snowbird (8)** | 2025 record 143.3M but Q1'26 **−1.0%**; **Canadian −12.1%** + airline capacity deleted (worst SW-FL); overseas **+8.5% record** + Epic Universe (Orlando TDT record $384.6M) offset. | 🟠 |
-| **Single-family (2)** | Median $420K (+1.8%), 4.7mo supply, but correction **Gulf-Coast-concentrated** (Cape Coral −10% "worst in US", North Port; Tampa +2.5%); 43% of listings cut; FL Realtors "inflection point." | 🟠 |
+| **Single-family (2)** | Median $420K (+1.8%), 4.7mo supply, but correction **Gulf-Coast-concentrated** (Cape Coral −10% "worst in US" and now **rolling to negative YoY** [Bilello, 7/6 via WALTER SIG-706-003]; % below-peak: Miami −3 / WPB −5 / Orlando −5 / PSL −6; North Port; Tampa +2.5%); 43% of listings cut; FL Realtors "inflection point." **SF still milder than condo/underwater leg** (see pillar 3 + neg-equity row). | 🟠 |
 | **CRE non-condo (4)** | **Condo/residential-specific, not commercial-wide:** Miami office 12.5% (tightest in US); retail/industrial mostly healthy. | 🟢 |
 | **Labor (econ)** | Unemployment **4.8%, now above US**, 7 straight rises; 7/10 sectors negative YoY; construction in ICE labor squeeze (immigrants 37.9% of FL constr.); permits −6.1% (Lennar −53%). | 🟠 |
 | **State fiscal (9)** | **🔴 Property-tax amendment on Nov-3-2026 ballot** (homestead $50K→$250K; −$8.4B local rev, no backfill); budget deficits FY28-29 −$8.1B; condo HB913 relief valves (loans/2yr pause) soften the assessment cascade. | 🟠 |
@@ -95,6 +126,7 @@ The dashboard above is pillars 1/3/5/10 (condo, insurance, climate). The rest of
 
 ## OPEN QUESTIONS / NEXT SESSION
 
+0. **[7/9 NEW] Builder fire-sale geography spreading** — Parcl builder Motivated-Seller-Index (PROME ingest 6/26, report-only) confirms demand normalization from the *supply* side; **Deltona and Lakeland are new entrants** to the FL fire-sale cell list (joins Tampa/North Port/Pensacola/+Orlando/Jax), MSI range 4.2-7.1. Containment (freeze-not-crash) is a *temporal delay*, not a structural cap — builder concessions feed appraisal comps and undercut the resale freeze over time. **Pre-registered tripwire (not yet checked this session): MSI sustains >6.0 across ≥5 FL metros for 2+ consecutive weeks → upgrade supply-side price-discovery leg 🟠→🔴.** Next-session action: pull current Parcl MSI dashboard.
 1. **Q2 2026 FL bank earnings (~late Jul)** — does the classified-CRE "rate-shock reclass" start migrating to nonaccrual/charge-off, or keep curing? This is the bank-leg re-test. **DEWEY timing (6/22):** Q2 should show **continued early-bucket migration, not crystallized loss** — the leading-edge 30-89d is the tell (SBCF $17.2M→$28.2M; AMTB NPA→1.93%), realized synchronized NCO is a 2027 event. **Single diagnostic = synchronized criticized/classified→realized NCO + specific reserve build across ≥2 FL banks** (none yet; AMTB+SBCF early-bucket migration is the closest precursor, but AMTB's driver is CRE-HFS/C&I not condo). Watch SSB classified trend, SBCF 30-89d + 2 commercial credits, AMTB ACL build off thin ~45% coverage, USCB's $126M condo-assoc book for the first crack. Full grid → `CLUSTER_FL_BANK_LEG.md`.
 2. **Reconcile owner of the condo-inventory metric with MARCO** — both agents now carry 8.9mo/Miami-Dade 12.9mo (identical, good). Establish MARCO as the live owner; CORAL references. (Boundary handshake — see CLAUDE.md.)
 3. ✅ **Insurance tension RESOLVED** — personal/reinsurance channel is easing (Citizens 294,253 policies; personal rate cut; reinsurance −15-20%), but condo/commercial layer is still rising (Citizens Commercial Lines +10.4% capped / +18.8% uncapped). Monitor hurricane reversal + condo master-policy stress.

@@ -1,4 +1,4 @@
-# CORAL SCRATCH — 2026-06-25 (transmission-terminus cluster Pass-1: DEWEY timing + FL-bank leg grid)
+# CORAL SCRATCH — 2026-07-09 (catch-up session, 14-day gap)
 
 **Purpose:** Canonical ephemeral session handoff. Read at boot; rewrite at closeout. Durable findings → `MEMORY.md`/workbook; live state → `STATUS.md`.
 
@@ -6,43 +6,40 @@
 
 ## CHANGES SINCE LAST SESSION
 
-- Spawned by Prome as the **FL regional-bank CRE/condo leg** of a 3-agent transmission-terminus cluster (REGINALD = bank-terminus hub, CARL = consumer-credit substance). Shared brief: `PROME/synthesis/2026-06-25_transmission-terminus-cluster.md`.
-- Ingested 3 queued WALTER signals (now 0 pending): **SIG-W-20260622-001 (DEWEY Phase-3 timing packet, acted)**, SIG-W-20260621-011 (ResiClub price-easing reconcile, acted), SIG-W-20260621-013 (national builder overhang, info-only).
-- **Got the FL-bank loss-transmission TIMING answer** (the #1 open question): cost-shock-now + ~12mo lag → 30-89d a H2-2026 event already flickering (SBCF $17.2M→$28.2M; AMTB NPA→1.93%) → NCO concentrated 2027. Winter-26/27 acute call holds for charge-off stage, slightly conservative on the leading edge.
-- **Insurance walk-back:** +18.8% uncapped commercial = UNVERIFIED this run (unparseable OIR PDF); only +10.4% capped holds. Split-mark intact.
-- **AMTB attribution confirmed correct on my side** — the $24.6M/76%-coverage/CET1-12.2% block is BKU not AMTB; my rows already attribute right. Flagged to REGINALD anyway.
+- **Spawned by PROME for a catch-up session** — last own CORAL session was 6/25 (14-day gap, stalest in fleet). Not a domain-research spawn; scope = inbox drain + STATUS/SCRATCH refresh + AEOLUS boundary handshake + forward prep.
+- **Fleet moved a lot while CORAL was dark:** Iran truce collapsed 7/7-7/8 (energy tail re-armed, Brent $76.01 settle 7/9), rates fuse arm-#2 3-of-5, BND-11 demand-hole thesis refuted, CPI 7/14 = the hinge. **None of it is a first-order FL channel mover** — filed as context in STATUS 7/9 block, not propagated into dashboard rows. One soft linkage: sustained 10Y ≥4.50 reinforces the SF/condo demand freeze via mortgage rates (consistent with, not new to, the existing thesis).
+- **8-item inbox fully drained** (oldest 2026-03-04 → newest 2026-07-06): BayFirst SBA exit archived (superseded); Parcl builder-MSI ingest noted (Deltona/Lakeland new fire-sale entrants, tripwire pre-registered); FL-labor verification confirmed (4.8% SA already correct in STATUS, no fix needed); AEOLUS boundary handshake resolved (no carve-out); 4 WALTER SIGs processed (KB Home FQ2 info-only, Ciccarone infra + muni-fiscal-resolve noted/reconciled, Cape Coral rolling-negative-YoY acted into pillar 2).
+- **No thesis-level change.** Bank-transmission upgrade gate unchanged since 6/25: NOT met at Q1, NOT met now (no Q2 prints yet). Restated in STATUS with the diagnostic spelled out for Will/PROME visibility ahead of the ~7/21-28 print window.
 
 ## WHAT I DID THIS SESSION
 
-- Logged 3 WALTER rows to `board_log.tsv`; `git mv` all to `inbox/WALTER/processed/`.
-- **Built `CLUSTER_FL_BANK_LEG.md`** — the FL-bank leg of the Q2-print convergence grid (AMTB/SBCF/USCB/BKU/VLY: feeding legs, predicted Q2 signal, FL single diagnostic, falsifier, current read) + the timing chain + 4 reconciliation flags + what I need from REGINALD/CARL. **This is the primary handoff.**
-- Updated `STATUS.md`: new 6/25 timing block (READ FIRST), insurance dashboard-row walk-back, Open-Q#1 with diagnostic + DEWEY datapoints, header.
-- Updated `FL_BANK_WATCHLIST.md`: SBCF → ELEVATED (30-89d flicker + 224% non-OO RBC), AMTB NPA-of-assets + thin-coverage framing, BKU-attribution note, insurance walk-back, headline.
-- Added `KB.tsv` ML-CORAL-024 (timing finding, DEWEY-grade research-not-verified-primary).
-- Refreshed `NEXUS_BRIEF.md` As-of + SENDING/VIEW for the timing read.
-- Reported to Prome (`team-lead`) via SendMessage.
-
-**Follow-on passes (same session, cluster iteration):**
-- **Housing-secured reconciliation** (CARL overlap): spawned sub-agent → **VERIFIED Q1'26 resi 1-4 family %loans** (AMTB 25.6 / SBCF 25.0 / BKU 24.7 / USCB 15.5 / VLY 11.5; HELOC only VLY 1.4% discrete). 3-way partition: net resi 1-4 fam ONCE (shared w/ CARL), CRE/condo CORAL-only, pure-HELOC negligible. → `CLUSTER_FL_BANK_LEG.md` + KB ML-CORAL-025. Commit 245cfc52.
-- **FINAL FL FILL** (completes master grid): spawned sub-agent → **VERIFIED 10-Q XBRL 30-89d aging**. Key refinement of DEWEY: SBCF $28.2M +65% YoY but **−14% QoQ off Q4 peak** (sharper signal = nonaccrual $72→95M); AMTB $88.6M lumpy commercial-timing (suspect); USCB +43% YoY tiny-base; BKU ex-gov benign. Cleanest ≥2-bank synced = USCB+SBCF YoY, NOT NCO → diagnostic still NOT met. SSB/VLY = $0/not-isolable (defer to REGINALD fleet). Condo/SIRS = **2027 not Q2**. → `CLUSTER_FL_BANK_LEG.md` "FINAL FL FILL" + KB ML-CORAL-026 + watchlist SBCF QoQ-correction. Commit ee8c195e.
+- Read boot chain: CLAUDE.md, STATUS.md, SCRATCH.md, `PROME/packets/2026-07-09_current-events-digest.md`, full inbox backlog.
+- **Drained 8 inbox items** (4 root + 4 WALTER), oldest-first, one-line disposition each: `git mv` all to `inbox/processed/` or `inbox/WALTER/processed/`; logged the 4 WALTER items to `board_log.tsv` with dispositions (info-only/noted/noted/acted).
+- **Resolved AEOLUS boundary handshake** — sanity-checked COVERAGE.md pillar 10 vs AEOLUS's macro scope; no conflict, no carve-out needed (AEOLUS = global/macro, CORAL = FL-canonical, same MARCO-style reconcile pattern). Noted in both STATUS 7/9 block and COVERAGE.md pillar-9/10 area. **Proposed route (not executed):** confirm-back to PROME/DAEDALUS that no carve-out is needed — LIST only, per catch-up rules.
+- **Updated STATUS.md**: new "7/9 CATCH-UP — READ FIRST" block (fleet regime context + FL-relevance read, inbox disposition table, AEOLUS resolution, forward-prep table for Q2 bank earnings + FL-employment + monolines-outside-scope note, bank-transmission-gate current read); single-family dashboard row updated with Cape Coral rolling-negative-YoY + Bilello % below-peak figures; Open Questions #0 added for builder-MSI/Deltona-Lakeland spread + tripwire.
+- **Updated COVERAGE.md**: pillar 9 note (Jacksonville best-positioned on Ciccarone ICA metric, FL not an infra-concentration point); AEOLUS boundary resolution line under the pillar table.
+- No new web/primary verification pulled this session (catch-up scope = synthesis of already-delivered fleet intel, not fresh research) — flagged where load-bearing figures remain unverified (FL labor rank claim; exact Q2 earnings + FL-employment release dates).
 
 ## NEXT SESSION
 
-1. **Per-metro convergence grid** (the deferred build) — Miami / Tampa / Orlando / Jax / SW-FL, overlay negative-equity + the ~13mo Miami-Dade condo tail. Started conceptually; not yet a file.
-2. **Q2 FL bank earnings (~late Jul, exact dates TBC — verify)** — run the grid's single diagnostic: synchronized criticized/classified → realized NCO + specific reserve build across ≥2 FL banks. Watch SBCF 30-89d migration, AMTB ACL build off thin ~45%, USCB's $126M condo-assoc book for first crack.
-3. **MARCO reconcile** — Miami-Dade condo months-supply: ~13.2-13.7mo (DEWEY/Redfin) vs 12.9mo (CORAL/By-The-Sea Apr) — reconcile to one number; MARCO is live owner.
-4. **Re-pin DEWEY's academic sources** — the ICE McDash insurance→delinquency working paper authors/citation were "recovered, to be re-pinned"; the ~12mo lag is a national single-family analog, not FL-condo-specific (external-validity caveat).
-5. **Verify exact Q2 print dates** for AMTB/USCB/SBCF/BKU/VLY (I used ~late Jul placeholders in the grid).
+1. **Pull current Parcl MSI dashboard** — check the Deltona/Lakeland/Tampa/North Port/Pensacola tripwire (>6.0 across ≥5 metros, 2+ wks) — was report-only ingested this session, not independently checked.
+2. **Verify exact Q2 FL bank earnings dates** (SSB/SBCF/BKU/VLY/AMTB/USCB, currently ~7/21-28 placeholder) and **exact FL State Employment (FloridaCommerce) release date** — both flagged TBC in STATUS forward-prep table.
+3. **Q2 FL bank earnings re-test** (~7/21-28) — run the single diagnostic (synchronized criticized/classified→realized NCO + specific reserve build across ≥2 FL banks); watch SBCF nonaccrual $72M→$95M trend, AMTB thin ~45% ACL coverage, USCB $126M condo-assoc book.
+4. **Per-metro convergence grid** (carried over from 6/25, still not built) — Miami/Tampa/Orlando/Jax/SW-FL overlay.
+5. **MARCO reconcile** — Miami-Dade condo months-supply (~13.2-13.7mo DEWEY/Redfin vs 12.9mo CORAL/By-The-Sea) still not reconciled to one number; MARCO is live owner.
+6. **FL labor rank claim** ("2nd-worst YoY behind CT") — pull all-state LAUS YoY deltas and rank if it becomes load-bearing (currently unverified per PROME 6/26 note).
 
 ## OPEN THREADS
 
-- **Bank leg timing (resolved-ish):** early-delinquency H2-2026 (flickering now), synchronized NCO 2027. Q2 predicted = continued migration, not crystallized loss.
-- **Substance-vs-beta (cluster input):** my FL read says the cost-shock substance is REAL and *building* but has NOT converted to bank loss — supports "stress is real but transmission lagged," i.e., the widening is not yet bank-substance. CARL's consumer read is the cross-check.
-- **DEWEY grade:** research-output NOT verified-primary (EDGAR 403). Mechanism/direction solid; exact timing + bank attribution inferred. Don't over-weight.
+- **Bank-transmission gate:** unchanged, NOT met; Q2 prints (~7/21-28) are the live re-test window. See STATUS 7/9 block for full restated diagnostic.
+- **AEOLUS handshake:** resolved this session; no further action unless PROME/DAEDALUS surfaces a genuine conflict later.
+- **Builder-MSI tripwire:** pre-registered but not checked live this session — next-session action item #1.
+- **Substance-vs-beta:** FL cost-shock/demand-collapse substance remains real and building per the 6/25 cluster work; nothing this session changes that read. Macro sequence (energy/rates) is beta context, not a new FL substance driver.
 
 ## MAIL STATE
 
-- `inbox/WALTER/`: **0 pending**; processed SIG-W-20260622-001, -011, -013 into `inbox/WALTER/processed/`.
-- Legacy `inbox/`: 1 stale REGINALD BayFirst SBA signal (2026-03-04, not processed; outside scope).
-- `outbox/`: none — cluster handoff is via `CLUSTER_FL_BANK_LEG.md` + SendMessage to `team-lead` (not outbox).
-- **Pending push:** all commits local-only (Will-coordinated push). **3 commits this session:** 1d371108 (Pass-1 leg grid + DEWEY timing), 245cfc52 (housing-secured reconcile), ee8c195e (FINAL FL fill). Note for next push window.
+- `inbox/`: **0 pending** (root) after this session's 4-item drain; 4 WALTER items also drained (`inbox/WALTER/` still has ~18 older un-scoped items not in this session's assignment — see note below).
+- `inbox/WALTER/`: session scope was the 4 named SIGs (014/024/001/003) only, per spawn instructions — NOT a full WALTER-lane sweep. ~18 other WALTER items (2026-06-26 through 2026-07-06, incl. an ENSO-hurricane-lane NOTICE) remain unprocessed; flagging for a dedicated WALTER-lane session, not silently claiming "inbox empty."
+- Legacy `inbox/`: the 2026-03-04 REGINALD item is now archived (was the last legacy holdout).
+- `outbox/`: none written — no 🔴 acute signal this session; cross-agent items are LIST-only per catch-up rules (see STATUS 7/9 block + final report to PROME).
+- **Pending push:** local commits only, per fleet auto-push-at-closeout (PROME/Will-coordinated). This session's commit(s) added to the queue from 6/25 (1d371108, 245cfc52, ee8c195e — still noted as pending push per prior SCRATCH).
