@@ -43,7 +43,7 @@ Canonical doc-ownership / trust map: `PROME/SYSTEM.md` → **Boot Trust Stack** 
 
 1. **Read `PROME/HANDOFF.md`** — top live entries only; older history is archived.
 2. **Read `PROME/SCRATCH.md`** — immediate handoff / what is hot **+ the operator card** (today's date, catalysts, near-gates; absorbed the old `TODAY.md`).
-3. **Read `PROME/ACTIVE_DECISIONS.md`** — unresolved/approved-but-not-executed decisions before new work.
+3. **Read `PROME/ACTIVE_DECISIONS.md`** — unresolved/approved-but-not-executed decisions before new work — **and `PROME/GATES.tsv` (fire-ledger):** any `FIRED-UNEXECUTED` row = 🔴 blocking (clear or escalate to Will before new work); any `LIVE` row with `last_checked` >5d → refresh or flag. *(Born 7/9 from the KB-VIO-110 dropped-execution incident: gates fired 7/2 into a frozen VIOLET session and the consequence was orphaned for 7 days — this ledger is the coordination-layer index so an owner freezing can never hide a fired gate again. Register action-gates the session they're approved; owners' KBs stay canonical for full logic.)*
 4. **Read `PROME/STATUS.md`** — agent/system health and work queue.
 5. **Market-data freshness gate:**
    - Explicit-`Read` `HEARTBEAT.md` (PROME-facing regime memo — not auto-injected).
