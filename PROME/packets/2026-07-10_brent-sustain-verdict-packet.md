@@ -7,7 +7,7 @@
 
 ## PROME pre-spawn checklist (do these BEFORE launching)
 1. Pull the Friday LCOU26 settlement independently (FORGE `BZ=F` proxy + WebSearch for the official ICE settle) — PROME verifies BRENT's graded print against a primary before ANY canon write (verification tier: gates capital).
-2. Scan the tape for fresh Friday leg-prints (war-risk quotes / JWC-P&I news / transit counts) — flag any found in the spawn prompt so the Opus spawn doesn't miss a countable leg.
+2. Scan the tape for fresh Friday leg-prints (war-risk quotes / JWC-P&I news / transit counts) — flag any found in the spawn prompt so the Opus spawn doesn't miss a countable leg. **Baselines to beat (HAWK 7/9: both are PRE-EVENT vintage):** Hormuz transits 34/83 [PortWatch as-of 7/5, before the 7/6-8 attacks] · war-risk "8x pre-crisis / 6 clubs withdrawn" [tagged pre-existing, not post-damage]. A print is FRESH only if Friday-dated AND post-dating these; re-citing either vintage = non-countable per the ratified spec.
 3. Check `AGENTS/HAWK/outbox/2026-07-09_to-PROME_russia-two-front-read.md` landed (spawned 7/9 eve) — carry its verdict line into §HAWK-read below if not already filled.
 4. Confirm Will is available for a possible [Approve] window post-verdict.
 
