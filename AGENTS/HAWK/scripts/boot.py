@@ -2,6 +2,19 @@
 """
 HAWK Boot Sequence — Master Orchestrator
 
+FROZEN 2026-07-09 — NOT wired into the boot protocol; do not invoke as a boot
+step. Test-run this session (--quick) surfaced internal state that flatly
+contradicts current STATUS.md: script reports "War Day 51 / Ceasefire Day 8 /
+Scenario D82%-C12%-B6%" and infra last-updated 2026-04-13, vs. the canonical
+7/8 STATUS.md ladder (Day ~129, B12/C42/D46 — D and B are near-INVERTED
+between the two). Wiring this in as DAEDALUS's option (a) suggested would
+inject stale, contradictory data into every boot rather than genuine
+automation coverage (PAT-034). Disposition: (b) RETIRE, per DAEDALUS
+2026-07-08 note (AGENTS/HAWK/inbox/processed/). Manual STATUS.md-driven boot
+(this agent's CLAUDE.md boot sequence) is the deliberate, current path. If
+revived, the sub-scripts' data sources need a live-refresh audit first —
+don't just re-wire the wrapper.
+
 One-command morning refresh for all HAWK monitoring. Runs scripts in
 priority order and outputs consolidated brief with 🔴 alerts.
 

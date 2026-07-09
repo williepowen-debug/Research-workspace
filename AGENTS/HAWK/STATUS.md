@@ -49,7 +49,7 @@
 
 **Headline: ~35/50 🔴** (from 22/50 Jun 26; Jun-12 all-time peak 38/50). Active/critical tier — the first convergence reading since the signing (6/17) to clear 30.
 
-**Off-core:** Russia-Ukraine track not re-swept this session (no fresh search); carried at prior peak-intensity read pending next refresh. Taiwan/Venezuela dormant vectors not re-swept this session (due for periodic re-sweep per LESSONS.md dormant-vector rule — flag for next boot).
+**Off-core:** Russia-Ukraine track re-swept 7/9 (PROME-routed task) — refining/products-axis attrition stepped up sharply: Omsk (largest refinery, ~75% capacity lost) + Saratov (CDU-6, 2.2% national capacity) + 2 Tatarstan sites + a Bashkortostan products-pipeline pumping station all hit 7/6-7/8, → full diesel export ban through 7/31 [CNN/Bloomberg/Moscow Times/Kyiv Independent, 7/7-9]. **Separate root from the Iran ladder — does NOT move B12/C42/D46 or the 10-vector score.** Crude-export infra proper (Druzhba/Baltic terminals/Novorossiysk) still unstruck. Full read: `outbox/2026-07-09_to-PROME_russia-two-front-read.md`. Taiwan/Venezuela dormant vectors not re-swept this session (due for periodic re-sweep per LESSONS.md dormant-vector rule — flag for next boot).
 
 ---
 
@@ -114,7 +114,7 @@
 | HAW-12 | Switzerland/Vance round reconvenes/firm date by Jul 3 | Jun 19 - Jul 3 | **CONFIRMED (resolved 7/8)** — round held/concluded ~6/22 with a "roadmap toward final deal." Resolved 16 days stale. |
 | HAW-13 | ≥1 harder Hormuz gate clears by Jul 4 (liner majors OR JWLA-033) | Jun 19 - Jul 4 | **FAILED (resolved 7/8)** — institutional scorecard 0/4 per DEWEY 7/2 report. Resolved 4 days stale. |
 | HAW-14 | Iran does NOT execute direct kinetic on Israel/US **over Lebanon** by Jul 19 | Jun 19 - Jul 19 | **OPEN, but NOT quiet** — the underlying kinetic-floor has breached twice (6/28, 7/8) via a non-Lebanon catalyst chain (tanker-attack → US-strike → Gulf-base retaliation). Literal Lebanon-path wording stays technically unmet; do not read this row as calm. Recommend re-scoping at next closeout. |
-| HAW-15 | Ukraine does NOT strike Russian crude-export infra by Jul 15 | Jun 19 - Jul 15 | OPEN — not re-checked this session (no fresh Russia-Ukraine search); carried forward, due for a fresh sweep before window close. |
+| HAW-15 | Ukraine does NOT strike Russian crude-export infra by Jul 15 | Jun 19 - Jul 15 | **OPEN, checked 7/9** — refining/products axis stepped up sharply (Omsk/Saratov/Tatarstan x2/Bashkortostan pumping station, 7/6-8) but named crude-export triggers (Druzhba, Primorsk/Ust-Luga, Novorossiysk) remain unstruck; row stays technically unmet. Flagged "not quiet" — watch for a pivot from products to crude-export targeting (would FAIL this row and trip Brent flip-trigger #2). |
 
 ---
 
