@@ -5,3 +5,5 @@ VX-AEO-03	2026-06-28	Agriculture/food	C2	unseeded	BENIGN	2	corn 68% G/E, prices 
 VX-AEO-04	2026-06-28	Energy demand	C3	unseeded	BENIGN_WATCH	2	storage +6%, June CDD -15%	Forward stress: heat dome building into July; upgrade to 3 if sustained.
 VX-AEO-05	2026-06-28	Property/physical	C4	unseeded	SOFT_CA_WATCH	2	light H1 losses, FL stabilizing	CA residual stress (FAIR Plan, moratorium lapsed). FL → CORAL.
 VX-AEO-06	2026-06-28	Supply chain/logistics	C5	unseeded	RISING_STRESS	3	freight +40% YoY, Rhine/Miss. low	The live channel. Separate climate leg (rivers/Panama) from tariff/demand thermometer.
+VX-AEO-07	2026-07-09	ENSO regime	ALL	EL_NINO_STRENGTHENING (3)	EL_NINO_STRENGTHENING (moderate, accelerating)	3	Niño-3.4 +1.7°C (17 Jun wkly, up from +0.7°C); CSU cut to 9/4/1	Root unchanged direction, faster pace than 6/28 base — verify vs next ONI monthly before upgrading composite root score itself.
+VX-AEO-08	2026-07-09	Energy demand	C3	BENIGN_WATCH (2)	REALIZED_EVENT (2→3 upgrade)	3	PJM EEA2 7/3 (heat, MD/VA); CSU further ACE-suppressing cut	Heat-dome forecast from 6/28 materialized (KB-AEO-018). First realized C3 event of the season.

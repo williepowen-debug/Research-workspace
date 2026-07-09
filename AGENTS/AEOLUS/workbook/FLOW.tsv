@@ -1,6 +1,6 @@
 ID	Date	Channel	Pathway	Stage	Speed	State	Notes
 FLOW-AEO-01	2026-06-28	C1	El Niño → ↑ Atlantic wind shear → fewer/weaker hurricanes → benign insured losses	suppression	seasonal	CONFIRMED-direction	The bear-kill mechanism for C1. CSU 11/5/2, ACE ~55-60% normal.
-FLOW-AEO-02	2026-06-28	C3	El Niño summer + heat dome → cooling/power demand ↑ → nat-gas/power price	demand spike	weeks	BUILDING	June CDD -15% (benign now); heat dome into July is the forward trigger. Storage +6% cushions price.
+FLOW-AEO-02	2026-06-28	C3	El Niño summer + heat dome → cooling/power demand ↑ → nat-gas/power price	demand spike	weeks	PARTIAL-CONFIRM (7/9)	June CDD -15% (benign then); PJM EEA2 7/3/2026 (heat-driven, MD/VA) = first realized grid-stress event — did not break 2006 demand record. Price/gas leg not yet confirmed (Henry Hub still cushioned by storage).
 FLOW-AEO-03	2026-06-28	C5	El Niño → Panama watershed drought → draft/transit restriction → freight ↑	chokepoint	months	OVERHANG (forward)	Panama clear now; basis for prediction AEO-04 (~45%). Late-2026 risk.
 FLOW-AEO-04	2026-06-28	C5	Low rivers (Rhine/Mississippi) → barge capacity cut → freight + goods delays → goods CPI	chokepoint	weeks	CONFIRMED (partial)	The durable climate leg of C5. Rhine ~106cm; Miss. driest Jan-May in 132yrs. Routed to MARCO.
 FLOW-AEO-05	2026-06-28	C1/C4	Below-normal season + soft reinsurance → insurability loosening → benign C1/C4	insurability hinge	renewal cycle	CONFIRMED	The shared hinge coupling C1↔C4. ROL -15/-30%; FL stabilizing. Count the root once.
