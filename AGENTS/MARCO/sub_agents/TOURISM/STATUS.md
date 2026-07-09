@@ -1,4 +1,7 @@
 # TOURISM STATUS
+
+> ⚠️ **SHELVED 2026-06-15** (session 15 decision) — MARCO does tourism inline in top-level `AGENTS/MARCO/STATUS.md` now; this sub-agent is not maintained. Figures below are as-of May-31 and STALE (e.g. Canadian 2-yr stack now −28.4% air / −28.7% auto convergence per 6/15; MIA April −2.02%/domestic −3.27%; World Cup host-city bookings ~80% below forecast, ES-MARCO-09 leans FAIL — none of that is reflected below). Top-level `AGENTS/MARCO/STATUS.md` is canonical — do not cite these rows as current. *(Banner added 2026-07-09 — the other 4 dormant sub-agents got this 7/2; this one was missed.)*
+
 **Last Updated:** 2026-05-31 (MARCO session-9 full refresh) | **Status:** 🔴 STRUCTURAL — Canadian boycott intact and 2-yr stack *worsening* (−30% Apr vs 2024); the April +1.4% YoY headline is base-effect noise, not recovery. Sentiment 82% (Nanos May). MIA flipped negative. Air channel + FL-bound capacity permanently deleting. **The FL $ hole still lands winter 2026-27 (snowbird no-show, $600M-$1.2B).**
 
 ---

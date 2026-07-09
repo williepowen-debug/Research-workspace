@@ -63,8 +63,8 @@
 
 ## TIER 3 — dormant / cleanup
 
-### ✅ Dormant sub-agents FROZEN-bannered — DONE 2026-07-02
-*(7/2 hunt: BORDER/HOUSING/MIGRATION/WORKFORCE STATUS files (untouched since Apr-21, carrying stale DHS-shutdown / 9.1mo-condo / $678.8B / 2.2M figures) each got a FROZEN banner pointing to canonical STATUS. TOURISM left live (recent). Will-approved freeze-not-archive.)*
+### ✅ Dormant sub-agents FROZEN-bannered — DONE 2026-07-02, TOURISM closed 2026-07-09
+*(7/2 hunt: BORDER/HOUSING/MIGRATION/WORKFORCE STATUS files (untouched since Apr-21, carrying stale DHS-shutdown / 9.1mo-condo / $678.8B / 2.2M figures) each got a FROZEN banner pointing to canonical STATUS. TOURISM left live (recent) — the 7/2 call was correct at the time (5/31-dated, ~32d old). **7/9 self-sweep: that grace period had lapsed (39d, no banner) — found and closed. TOURISM now carries a SHELVED banner matching the other 4.** Will-approved freeze-not-archive.)*
 
 ### T3-A · VX.tsv — 46/57 vectors are Jan-vintage (>60d, boot.py flags)
 - **What:** 45 of 57 vectors last-updated Jan 20-22 (founding research): FL insurance index, net-migration, Sunbelt-Snowbelt differential, TX/FL housing, CA ag workforce, border vectors, etc.

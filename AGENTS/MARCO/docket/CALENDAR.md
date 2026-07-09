@@ -1,6 +1,6 @@
 # MARCO CALENDAR
 
-**Last Updated:** 2026-07-02 (session 16 — June-jobs catch-up + SDL magnitude re-mark; re-synced to CATALYSTS.tsv after the 17-day drift) | **View:** Forward-looking only. Past events pruned to `thesis/TIMELINE.md`. Countdown anchored to 2026-07-02.
+**Last Updated:** 2026-07-09 (session 17 — ES-MARCO-08 row RE-SPEC'd for the energy re-arm contamination watch, see below; no other catalyst-date changes this session). PRIOR: 2026-07-02 (session 16 — June-jobs catch-up + SDL magnitude re-mark; re-synced to CATALYSTS.tsv after the 17-day drift) | **View:** Forward-looking only. Past events pruned to `thesis/TIMELINE.md`. Countdown anchored to 2026-07-02.
 
 **Machine feed:** `docket/CATALYSTS.tsv` (this is its prose/countdown twin). When they disagree, the TSV is source-of-truth for fields; this file owns grouping + narrative.
 
@@ -20,7 +20,7 @@
 
 | Δ | Date | Event | Threshold / Signal | Who |
 |---|------|-------|--------------------|-----|
-| 🔴 | ~Jul 15 | **BLS June CPI — fresh F&V** | **ES-MARCO-08 real fork.** F&V holds ≳5% YoY WHILE June pump/energy-CPI falls (Brent collapsed $91→$83) = transient freight driver exiting, labor re-weights UP (MAR-14 hold/upgrade); F&V softens in step = freight carried more. Shared print with BRENT. Confirm BLS line = fresh F&V. | MARCO, CARL, BRENT |
+| 🔴 | ~Jul 15 | **BLS June CPI — fresh F&V** | **ES-MARCO-08 — RE-SPEC 7/9, CONTAMINATION WATCH.** Test premise (pump-relief window held through the print) is now in question: US-Iran truce collapsed 7/7-7/8 (Brent re-armed, $76.01 settle 7/9) + Russia diesel-export ban 7/9. If pump reverses before this print, the fork can't cleanly discriminate labor vs freight — check EIA weekly retail-gas trend before citing either outcome. See `EXPECTED_SIGNALS.md` ES-MARCO-08. Shared print with BRENT. | MARCO, CARL, BRENT |
 | 🟡 | ~Jul 17 | FL Realtors June condo | <8.5mo = absorption confirmed (May 8.6, inventory −13.4% YoY — trajectory there); >9.0 = distress re-engages (MAR-08). | MARCO, REGINALD |
 | 🟠 | ~late Jul | FL-state June hospitality employment | de-masks ES-MARCO-01 (national L&H already −61K in June, mask inverted) — does FL-specific confirm? State release lags. | MARCO, LABOR |
 | 🟡 | ~Jul | MCO April pax via BTS T-100 | closes the airport thread (FLL done 6/15). ~3mo lag → April now available. | MARCO |

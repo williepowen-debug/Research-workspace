@@ -133,7 +133,7 @@ Five weeks of data (Apr 23 → May 31) broke the "10-breached acute-crisis" fram
 ### H-2A / Ag Labor (🔴 — bottleneck persists)
 - Red River Valley (MN/ND) potato growers: H-2A delays threaten 2026 crop. South Africa consular interviews backed to **July** (past planting).
 - ~44% of ~2M US farmworkers undocumented (govt surveys). Structural trend toward larger industrial farms + mechanization as small farms lose labor access.
-- NASS Farm Labor Survey still CANCELED (Aug 2025) — permanent data blind spot. Replacement framework: OFLC H-2A disclosure, BLS QCEW NAICS 11, NASS Crop Progress, State Dept visa issuances, CPI F&V. (→ `domain/sources/AG_LABOR_ALT_SOURCES_MAR26.md`)
+- NASS Farm Labor Survey still CANCELED (Aug 2025) — permanent data blind spot. Replacement framework: OFLC H-2A disclosure, BLS QCEW NAICS 11, NASS Crop Progress, State Dept visa issuances, CPI F&V. (→ `domain/sources/LABOR/AG_LABOR_ALT_SOURCES_MAR26.md`)
 - Prediction #11 (H-2A >425K FY26) **on track → upgraded 80→88% (7/2):** OFLC H1 FY26 certified **254,688 (+16.9% YoY)**; front-loaded season projects ~455–465K full-year, comfortably above 425K. FY25 certified 398,258 (record). Bottleneck = processing, not demand.
 
 ### Canadian Travel — STRUCTURAL (🔴, re-classified from 🟠 BIFURCATED — session-9 full refresh)
@@ -191,7 +191,7 @@ Five weeks of data (Apr 23 → May 31) broke the "10-breached acute-crisis" fram
 **Imminent (next ~2 weeks):**
 | Date | Event | Priority |
 |------|-------|----------|
-| **~Jul 15** | BLS June CPI — fresh F&V vs falling pump = **ES-MARCO-08 real fork** (Brent collapsed $91→$83) | 🔴 |
+| **~Jul 15** | BLS June CPI — **ES-MARCO-08 RE-SPEC 7/9: contamination watch**, not a clean fork (energy re-arm may have closed the pump-relief window; see EXPECTED_SIGNALS.md) | 🔴 |
 | **~Jul 17** | FL Realtors June condo — <8.5mo = absorption confirmed; >9.0 = distress re-engages (MAR-08) | 🟡 |
 | **~Aug 1** | Banxico June remittances — count YoY = cleanest SDL-01 readout | 🟠 |
 | **~mid-Aug** | NTTO June arrivals (1st World-Cup month) — ES-MARCO-09 reversal read (advance signals lean FAIL) | 🟠 |
