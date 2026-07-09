@@ -42,7 +42,7 @@ These have real premium left but expire before the 2027 window and re-fund a TRI
 **Est. recoverable ≈ $675** (confirm against live broker marks; image values are a 10:33 snapshot, not authoritative — rule #3).
 
 ## A2. LET EXPIRE — don't pay commission (sub-$30 dead remnants)
-KRE 65 P Jun-30 ($16) · KRE 63 P Jun-30 ($2) · KRE 60 P Jul-17 ($27) · OZK 42.5 P Jul-17 ($20) · ZION 57.5 P Jul-17 ($10) · WAL 65 P Jul-17 ($5). Commission ≈ value; let them die. *(7/9 note: with WAL confirmed 7/21 AMC, the WAL 65P Jul-17 expires 4 days BEFORE the print — under the old ~7/16 date it was a free print-lottery; now worthless-by-construction. Let-die disposition confirmed; flagged to Will/TERRY vs the live book.)*
+KRE 65 P Jun-30 ($16) · KRE 63 P Jun-30 ($2) · KRE 60 P Jul-17 ($27) · OZK 42.5 P Jul-17 ($20) · ZION 57.5 P Jul-17 ($10) · WAL 65 P Jul-17 ($5). Commission ≈ value; let them die. *(7/9 note: with WAL confirmed 7/21 AMC, the WAL 65P Jul-17 expires 4 days BEFORE the print — under the old ~7/16 date it was a free print-lottery; now worthless-by-construction. Same for ZION 57.5P Jul-17 — ZION Q2 confirmed Mon 7/20 5:30pm AMC [Zions release-dates announcement, verified 7/9], expiry 3 days before the print. Let-die dispositions confirmed for both; flagged to Will/TERRY vs the live book.)*
 
 ## B. HOLD (separate decisions, not part of reshape)
 - **KRE 60 P Dec-18-26 ($276, ×3)** — closest existing to the window; HOLD or roll to KRE Mar-31-27 (optional, see variant).
