@@ -1,8 +1,8 @@
 # BOND — Status
 
 **Agent:** BOND | **Domain:** US Bond Market Structure (+ MBS/FHLB + EU rates per 6/27 extension, integrated 7/1)
-**State:** 🟡 WATCH, **escalating** — the long end is re-engaging: 30Y **~5.00** (intraday 7/6, AT the threshold line) the day before the 7/9 reopen, into the July supply gauntlet with dealer inventory at a **fresh all-time record** and **no Fed coupon backstop** (post-QT Fed buys bills, not coupons — QT ended Dec-1-2025).
-**Last Updated:** 2026-07-06 (Mon, teams session) by BOND — live refresh + QT-framing fix + BND-11 refunding pre-reg reconciled with LIQUID (ONE figure)
+**State:** 🟡 WATCH — **BND-11 resolved NOT FIRED (7/9): the demand-hole did NOT bite.** The 30Y reopen came in FIRM (indirect surged to 77.7%, BTC 2.44, dealers un-stuffed) — 7th straight benign test, the *inverse* of the masked hole. The long-end *level* stays elevated (30Y ~5.05) but on the **oil/term-premium channel**, decoupled from the (firm) demand/flow channel. Watch shifts from the auction (resolved benign) to the 10Y-sustain / oil-inflation leg.
+**Last Updated:** 2026-07-09 (Thu, teams session) by BOND — BND-11 30Y-reopen grade (NOT FIRED) + BTC acute-threshold reconciled to <2.15 (matched LIQUID)
 **Thesis:** durable thesis → `thesis/THESIS.md` (**v1.1**, bumped 7/1)
 
 ---
@@ -17,8 +17,8 @@ Phase-III long-end re-fire, **globally synchronized**: domestic hawkish-data rep
 
 | Metric | Current | Status | Source / Date | BOND Read |
 |---|---:|---|---|---|
-| 30Y yield | **~5.00%** | 🟠 | [CONF ^TYX intraday, 7/6] | **AT the 5.0 line** (was 4.97 close 7/1) the day before the 7/9 reopen. BND-12 tests the *sustain* — 1–2 pokes don't falsify; only a 5-session hold. |
-| 10Y yield | **4.48%** | 🟡 | [CONF ^TNX intraday, 7/6] | Flat; a few bp *through* the June 4.538 stop (market rallied into the reopens). Below 4.6 trigger. |
+| 30Y yield | **~5.05%** | 🟠 | [CONF ^TYX intraday, 7/9 ~2PM] | Above the 5.0 line, +oil-shock term premium. **7/9 reopen cleared FIRM at 5.058% with surging indirect** — the level is term-premium, not a demand break. BND-12 sustain needs a 5-session hold. |
+| 10Y yield | **4.53%** | 🟡 | [CONF ^TNX intraday, 7/9 ~2PM] | −0.79% d/d but ≥4.50 → if it closes ≥4.50, VX-BND-05 sustain = **3-of-5** (resolve on close). Oil/term-premium-driven; 10Y reopen 7/8 was CLEAN (4.580%, BTC 2.59). |
 | 5Y / 2Y | 4.22 / 4.17 | 🟡 | [CONF ^FVX intraday 7/6 / DGS2 7/1] | Belly steady; Fed-path repricing still a real component (not pure term premium). |
 | 10Y real (DFII10) | **2.25%** | 🟡 | [CONF FRED, 7/1] | +5bp off 2.20 (6/30) — real-rate leg ticking back UP toward the 2.5 re-arm after the late-June retrace. Not there; watch. |
 | 5Y5Y fwd (T5YIFR) | **2.20%** | 🟢 | [CONF FRED, 7/1] | Anchored. Kinetic Iran exchange 6/25–28 bought only ~2–6bp — the oil→BE re-arm bar is HIGH (KB-064). |
@@ -30,7 +30,7 @@ Phase-III long-end re-fire, **globally synchronized**: domestic hawkish-data rep
 | USD/JPY | ~162 | 🟠 | [CONF multi-source, 6/30–7/1] | **40-year yen low**; Mimura first verbal warning since 6/5. Actual intervention = mechanical UST reserve selling (FL-BND-11). |
 | FR2004 11–21Y | **$74.6B** | 🟠 | [CONF NY Fed API, as-of 6/17] | **Fresh all-time record** (+11.4% over 5/27). Combined long-end $174.5B #2 ever. **6/24 print (rel. 7/2) PENDING pull** — decisive dealer-absorption 3-vs-4 input; re-grade when it lands. |
 | SOFR−IORB | **+3bps** | 🟢 | [CONF FRED, 6/30] | Quarter-end only: SRF take-up **$0** both ops, RRP $26.9B one-day blip. Watch normalization 7/2. |
-| TLT | $85.31 | 🟡 | [CONF yfinance, 7/6] | −0.24% d/d, drifting lower with the long end; puts working, no add-gate fired. |
+| TLT | $84.57 | 🟡 | [CONF yfinance, 7/9 ~2PM] | +0.25% d/d; lower than 7/6 ($85.31) with the long-end level. Puts working on the *level* (term-premium leg); **no auction add-gate fired** (BND-11 NOT FIRED → TERRY arm-#1 not met). |
 | VIX / KRE / HYG | 16.6 / 76.18 / 79.59 | 🟢 | [CONF yfinance, 7/1] | Risk-ON selloff tell: banks rallying while duration sells = policy repricing, not growth fear. |
 | Brent | ~$71 | 🟢 | [CONF yfinance BZ=F, 7/1] | Fell THROUGH the kinetic window (OPEC+ 4th hike + de-escalation-from-crisis-baseline). Decoupling test resolved benign. |
 | Energy HY OAS | *285 [STALE Apr 28]* | 🟡 | LIQUID owns | **Structurally unpinnable from public primaries** (FRED has no sector OAS; `…EY` = effective yield). Needs ICE access — stays [STALE]. |
@@ -46,9 +46,25 @@ Phase-III long-end re-fire, **globally synchronized**: domestic hawkish-data rep
 | 6/24 | 5Y (91282CQX2) | $70B | 2.35 | 4.200% | 61.60% | 25.51% | 12.89% | **0.7bp tail — 8th consecutive tailing 5Y**; indirect −13.3pp m/m. |
 | 6/25 | 7Y (91282CQW4) | $44B | 2.50 | 4.260% | **57.55%** | 29.70% | 12.75% | Indirect −20.8pp m/m; tail **unpinnable** (treat as unknown). |
 
-**Read:** no hard stress marker (nothing near BTC <2.3 / tail >1.5bp / dealer spike) — **6th straight benign test**. The story is **composition**: foreign/custodial (indirect) bid faded hard at the belly, absorbed ~1:1 by domestic directs — *rotation, not hole*; dealers were NOT stuffed. Composes with TIC-April private outflow (KB-049) + UST allocation multi-decade low (KB-057) → VX-08/13 → 3. **Next gate: 7/7 3Y · 7/8 10Y-R · 7/9 30Y-R** (settle 7/15) — **BND-11** pre-registers 70% benign; the 7/9 30Y into a **~5.00 tape**, record dealer stock, and **no Fed coupon backstop** is the single most important print of the month.
+**Read:** no hard stress marker (nothing near BTC <2.3 / tail >1.5bp / dealer spike) — **6th straight benign test**. The story is **composition**: foreign/custodial (indirect) bid faded hard at the belly, absorbed ~1:1 by domestic directs — *rotation, not hole*; dealers were NOT stuffed.
 
-> **🔴 BND-11 refunding pre-reg — RECONCILED WITH LIQUID (ONE figure): `BND11_REFUNDING_PREREG_2026-07.md`.** BOND owns mechanics + term-premium; LIQUID owns absorption + plumbing; **both grade to ONE metric: 30Y indirect as % of _competitive accepted_ vs the June 6/11 = 60.0% benchmark.** The reconciliation that matters: a *mechanically clean* print (no tail, firm BTC) with **indirect <55% + directs/dealers backfilling** is the **masked demand-hole** — it scores BND-11 TRUE yet still escalates the thesis. Acute (BND-11 FALSE): indirect <52% AND (BTC<2.3 OR tail>2bp) AND dealer>18–20%.
+## 🟢 BND-11 RESOLVED (7/9 30Y reopen) — NOT FIRED, verdict ① HOLDING (7th benign test)
+
+**912810UU0 · $22B · TreasuryDirect primary (comp-accepted %; June $ reproduce the 60.0/25.3/14.7 benchmark exactly → method validated):**
+
+| Metric | Jul-9 | Jun-11 bench | Δ | Fire test | Leg |
+|---|---:|---:|---:|---|---|
+| Indirect | **77.74%** | 59.95% | +17.8pp | <52% | ❌ |
+| Dealer | **10.05%** | 14.74% | −4.7pp | >18–20% | ❌ |
+| BTC | **2.44** | 2.33 | +0.11 | <2.15* | ❌ |
+| High yield | 5.058% | 5.020% | +3.8bp | — | priced in |
+| Direct | 12.21% | 25.31% | −13.1pp | — | crowded out by indirect |
+
+*\*BTC acute threshold **reconciled 7/9 to <2.15** (matched LIQUID; was 2.30 — a mis-ported 5Y line, non-discriminating vs the 30Y's 2.30–2.44 recent cluster). Tail-vs-WI unpinnable in-env (immaterial — gating legs already fail).*
+
+**The inverse of the masked hole:** indirect **surged**, dealers **un-stuffed** — foreign demand for the long bond is robust. Confirms JGB-30Y-7/7 FIRM (SAM) + clean 10Y-7/8. **Channel split (HEN-40):** demand/flow FIRM; the ~5.05% 30Y *level* is the oil/term-premium channel (elevated, orderly — cleared a +3.8bp concession into a *surging* bid). **TERRY arm-#1 (= verdict ③) does NOT fire.** Live duration channel = arm-#2 (10Y sustain). Full grade → `outbox/2026-07-09_to-PROME_bnd11-30y-reopen-grade.md`.
+
+> **✅ BND-11 RESOLVED 7/9 = NOT FIRED (verdict ① HOLDING).** Pre-reg `BND11_REFUNDING_PREREG_2026-07.md`; both agents graded to ONE metric: 30Y indirect as % of _competitive accepted_ vs June 6/11 = 60.0% — the 7/9 print **surged to 77.7%** (inverse of the masked hole; not <55%, dealers un-stuffed). Acute leg (BND-11 FALSE), **BTC threshold reconciled 7/9 to <2.15**: indirect <52% AND (BTC<2.15 OR tail>2bp) AND dealer>18–20% — every gating leg failed.
 >
 > **JGB 30Y auction 7/7 folded in as a LEADING INDICATOR (with SAM):** Japan = term-premium *correlation* amplifier, NOT a UST-flow seller → the JGB read-through moves the **term-premium/tail leg** of the US 30Y, NOT the indirect-composition leg (foreign-official bid, TIC-owned). So a JGB tail shifts my 7/9 prior only modestly (SAM-reconciled: weak JGB → benign 70%→~58%, P(acute)→~22%; soft → ~66%; firm → ~73%) and **cannot fire the demand-hole alone** — the binding indirect<52% leg is US-specific. **Two-step gate:** a JGB-soft is upgraded only if the US 10Y reopen 7/8 *also* comes soft (correlation transmitted); JGB-soft + US-10Y-firm = noise, revert to base. Circularity: JGB / 30Y-level / thin-bid are ONE term-premium root, not independent votes. Detail in the pre-reg file.
 
@@ -117,4 +133,4 @@ Japan's super-long demand vacuum is real and worsening (6/25 20Y JGB BTC 2.97x =
 
 ## BOTTOM LINE
 
-**The long end is re-engaging — and this time it's global.** 30Y is **AT ~5.00 intraday (7/6)** the day before the 7/9 reopen, driven roughly equally by domestic hawkish-data repricing (JOLTS beat, ISM prices, Dec-hike ~80%) and Japan's super-long rout (weakest JGB 20Y demand since the 2025 rout; BOJ standing aside; yen 40-yr low with MOF intervention risk = mechanical UST selling). Auctions still clear — six straight benign tests — but the **composition is deteriorating** (indirects <60% at two of three June tenors), **dealer long-end inventory is at a fresh all-time record**, and — corrected this session — **QT ended Dec-1-2025 so the Fed buys T-bills not coupons: there is no Fed bid under the 7/9 30Y.** Every piece of the demand-hole configuration is pre-positioned except the trigger. **The decisive print is the 7/9 30Y reopen (BND-11, 70% benign), now graded on ONE reconciled figure with LIQUID** — 30Y indirect (comp-acc%) vs the June 60.0% benchmark, where a *clean-but-composition-soft* print (<55% indirect, directs/dealers backfilling) is the masked hole even if BTC/tail read benign. **TLT puts HOLD, no add** — add-gates pre-registered; DFII10 ticked to 2.25 (toward the 2.5 re-arm) but isn't there. Credit is a non-story at the index level (HY 275, IG 75), CCC tail (971) the only residue.
+**The month's decisive print came in firm, not hollow — the demand-hole did NOT bite.** The 7/9 30Y reopen (BND-11) resolved **NOT FIRED** (verdict ① HOLDING, high conf): foreign/indirect demand **surged to 77.7%** of competitive accepted (vs June 60.0%), BTC firmed to 2.44, and dealers took *less* than June (10.0%) — the **inverse** of the masked demand-hole we'd pre-registered as the likeliest way it bites. Seventh straight benign test, and every long-end demand read of the week points the same way (JGB 30Y 7/7 FIRM per SAM, US 10Y 7/8 CLEAN, US 30Y 7/9 FIRM). **The demand/flow channel is firm; the elevated 30Y level (~5.05) is the oil/term-premium channel** — the 7/8 truce-collapse oil shock (Brent $78.82→~$75.67) — which cleared a +3.8bp concession into a surging bid, i.e. orderly, not a buyers' strike (HEN-40 decoupled-channels). **TERRY arm-#1 (= BND-11 acute verdict ③) does NOT fire**; the live duration channel is arm-#2 (BND-12 / 10Y five closes ≥4.50 — 10Y 4.53 today, provisionally 3-of-5 pending the close, term-premium-driven). **TLT puts HOLD, no add** — no auction add-gate fired; DFII10 was 2.25 (<2.5 re-arm) at last read. **BTC acute threshold reconciled fleet-wide to <2.15** (BOND matched LIQUID; the 30Y's recent BTC cluster is 2.30–2.44 so <2.30 was non-discriminating). Credit a non-story at the index level (HY 275, IG 75); CCC tail (971) the only residue.

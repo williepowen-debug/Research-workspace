@@ -2,6 +2,17 @@
 
 **Built:** 2026-07-06 (teams-session, PROME task) · **Owner:** BOND (auction mechanics + term-premium grade)
 **Reconciles with:** LIQUID `workbook/DEMAND_HOLE_AUCTION_PREREG_2026-07.md` (absorption / funding-plumbing overlay).
+
+---
+
+## ✅ RESOLVED 2026-07-09 — BND-11 = NOT FIRED (verdict ① HOLDING, HIGH conf)
+
+**30Y reopen 912810UU0 (TreasuryDirect primary, comp-accepted %):** indirect **77.74%** (Jun 60.0%, **+17.8pp**) · direct **12.21%** · dealer **10.05%** (Jun 14.7%, dealers took *less*) · **BTC 2.44** (Jun 2.33) · high yield **5.058%** (coupon 5.000%, +3.8bp vs Jun stop) · alloc% 7.13 · tail-vs-WI unpinnable in-env (high-vs-median 5.1bp, not the WI tail — immaterial). Raw $: comp-acc $21,951,364,800 = ind $17,065,257,000 + dir $2,679,847,800 + dlr $2,206,260,000.
+
+**Fire test (reconciled) FAILS every gating leg:** indirect 77.74%≮52%, dealer 10.05%≯18–20%, BTC 2.44≮2.15. → **NOT FIRED.** The *inverse* of the masked hole: indirect **surged**, dealers **un-stuffed** — 7th straight benign test. Demand/flow channel firm; the ~5.05% 30Y level is the **oil/term-premium channel** (elevated, orderly), decoupled (HEN-40). Confirms JGB-30Y-7/7-FIRM + clean-10Y-7/8. **TERRY arm-#1 does NOT fire** (arm-#1 = verdict ③ verbatim). Live channel = arm-#2 (BND-12 10Y sustain). Grade memo → `outbox/2026-07-09_to-PROME_bnd11-30y-reopen-grade.md`.
+
+### BTC-threshold reconciliation (STEP 1, one-figure doctrine) — CANONICAL = **BTC < 2.15**
+BND-11 previously used BTC<2.30; LIQUID used <2.15. **Reconciled to <2.15 (LIQUID's figure wins).** Rationale: the 30Y's recent BTC cluster is **2.30–2.44** (May 2.30 / Jun 2.33 / Jul 2.44) so <2.30 sits AT the mean (non-discriminating); 2.30 was a mis-ported 5Y-note line; **<2.15 is a genuine left-tail break**, the correct acute discriminator (the masked hole shows in composition, not BTC). LIQUID unchanged; **BOND moved to match**. All acute-leg references below now read **<2.15**.
 **Rule of engagement:** BOND owns the **mechanical grade** (BTC / tail / dealer take) + the **term-premium read**. LIQUID owns the **absorption composition** (who bought) + **funding plumbing** (SOFR-IORB / SRF / repo). **This doc fuses both into ONE grade card — we grade to ONE indirect figure on ONE denominator. Do not silo, do not double-count.**
 
 ---
@@ -45,7 +56,7 @@ Benchmark = June 6/11 30Y: **indirect 60.0% / direct 25.3% / dealer 14.7% / BTC 
 |---|---|---|---|---|---|
 | **① HOLDING** (benign) | **≥58%** (≈ June) | BTC ≥2.30 · no tail (stop ≤ WI+1bp) · dealer ≤17% · SOFR-IORB ≤0 | **TRUE** | holding | Benign. China exit stays masked; April +$206B foreign-inflow mask persists. A sub-$650B May-TIC (7/16) gets absorbed without strain. |
 | **② SOFTENING — masked hole** (bearish) | **<55%** | AND directs/dealers backfill (**direct >28% OR dealer >17%**) · BTC still firm 2.28–2.33 · ≤ mild tail | **mechanically TRUE but FLAGGED** (no tail → marker doesn't fire) | **bearish / softening progressing** | **THE reconciliation: do NOT call it healthy.** Mechanical-clear + composition-deteriorating = masked hole progressing → escalate long-end read; **pre-confirms** a biting sub-$650B TIC (China exit reaching the long end). BND-11 scores TRUE, thesis still escalates. |
-| **③ DEMAND-HOLE FIRING** (acute) | **<52%** | AND (**BTC <2.3 OR tail >1.5–2bp**) AND dealer **>18–20%** (forced warehouse) | **FALSE** (marker fires) | acute | Converge → escalate. TLT-put add re-arms; long-end vector →4; cross-flag LIQUID/ZHAO/PROME same-day; feeds mid-July node packet C hard. |
+| **③ DEMAND-HOLE FIRING** (acute) | **<52%** | AND (**BTC <2.15 OR tail >1.5–2bp**) AND dealer **>18–20%** (forced warehouse) | **FALSE** (marker fires) | acute | Converge → escalate. TLT-put add re-arms; long-end vector →4; cross-flag LIQUID/ZHAO/PROME same-day; feeds mid-July node packet C hard. |
 
 *Indirect **55–58%** = yellow band (between ① and ②): call by whether directs/dealers are backfilling above June shares.*
 
@@ -94,7 +105,7 @@ Probability-weighted over SAM's ~55/35/10 lean, the *unconditional* benign prior
 2. **US 10Y reopen 7/8 = the confirming read** (same issuer, 1 day prior, closest read-through). A JGB tail is **upgraded to a real 7/9 downgrade ONLY if the US 10Y (7/8) also comes soft** (indirect steps down + directs/dealers backfill). **JGB-soft + US-10Y-soft = correlation transmitted → highest-confidence 7/9 downgrade.** **JGB-soft + US-10Y-firm = correlation was noise** (Japan-domestic timing, e.g. Meiji-Yasuda front-load cadence, not a global term-premium break) → **revert toward base 70%.**
 
 ### Effect on the TERRY duration fire-card (`inbox/2026-07-06_from-PROME_duration-firecard-prebuild.md`)
-Arm-condition **#1** = my BND-11 acute verdict ③ verbatim (indirect <52% AND (BTC<2.3 OR tail>2bp) AND dealer >18–20%). The JGB print shifts **P(arm-#1 fires 7/9)** per the table above — **but it CANNOT fire arm-#1 on its own:** the JGB touches only the (BTC/tail) price leg via correlation, and arm-#1's **binding constraint is the indirect-composition leg (<52%)**, which the JGB doesn't move. So a WEAK JGB raises P(arm-#1) to ~22% but the trigger still requires the US-specific composition + dealer legs (informed by US 3Y/10Y + TIC). **The JGB actually feeds arm-#2 (BND-12 / 10Y five closes ≥4.50) as much as arm-#1** — it is fundamentally a term-premium/duration-backup signal, which is the arm-#2 channel. Net for TERRY: a soft/weak JGB is a *pre-arm heads-up to watch #1 and #2 more closely 7/8–9*, **not** an independent arm input. Card stays PRE-BUILD, unarmed.
+Arm-condition **#1** = my BND-11 acute verdict ③ verbatim (indirect <52% AND (BTC<2.15 [reconciled 7/9] OR tail>2bp) AND dealer >18–20%). The JGB print shifts **P(arm-#1 fires 7/9)** per the table above — **but it CANNOT fire arm-#1 on its own:** the JGB touches only the (BTC/tail) price leg via correlation, and arm-#1's **binding constraint is the indirect-composition leg (<52%)**, which the JGB doesn't move. So a WEAK JGB raises P(arm-#1) to ~22% but the trigger still requires the US-specific composition + dealer legs (informed by US 3Y/10Y + TIC). **The JGB actually feeds arm-#2 (BND-12 / 10Y five closes ≥4.50) as much as arm-#1** — it is fundamentally a term-premium/duration-backup signal, which is the arm-#2 channel. Net for TERRY: a soft/weak JGB is a *pre-arm heads-up to watch #1 and #2 more closely 7/8–9*, **not** an independent arm input. Card stays PRE-BUILD, unarmed.
 
 *(SAM's refined read-through signal is now INTEGRATED (7/6 ping): it confirmed the mechanism, quantified the correlation (~0.3–0.5 calm / tightening in stress), and supplied the asymmetric signed tilts folded into the table above. Full map: `AGENTS/SAM/research/outputs/PACKET_C_ASIA_DEMAND_HOLE.md` §2a. SAM will ping the actual JGB print ~late 7/6 ET; I'll set the 7/9 opening lean off it, then apply the two-step gate.)*
 
