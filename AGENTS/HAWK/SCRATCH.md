@@ -1,49 +1,49 @@
-# HAWK SCRATCH — 2026-06-26 (Fri PM)
+# HAWK SCRATCH — 2026-07-08 (Wed, ~9:30 PM ET)
 
 **Purpose:** Ephemeral session handoff — the canonical "where are we / what next" file. Read at boot (SPAWN PROTOCOL step 2), rewritten in full at closeout (step 13). Disposable: rewritten every session. Persistent learnings → `MEMORY.md`; cross-agent twin → `NEXUS_BRIEF.md`.
 
 ---
 
 ## CURRENT MARKS (one line)
-- Scenario: **B 34% / C 44% (BASE) / D 22%** · Convergence **22/50 🟠** · Kinetic risk **🟠** (sub-kinetic, quiescent) · Brent ref **~$73.7 (below $75, war premium drained)** [defer price to BRENT]
+- Scenario: **B 12% / C 42% (BASE) / D 46%** · Convergence **~35/50 🔴** · Kinetic risk **🔴** (active exchange, 2nd night possible) · Brent ref **$78.02, +5.2% 7/8 settle** [defer sustain-vs-fade to BRENT]
 
-## MAINTENANCE LOG (PROME scoped follow-ups, 2026-06-26 post-LATE)
-- **PREDICTIONS.tsv tab fix** — HAW-10 (9→10 cols: inserted empty `Outcome` field, Status=OPEN) + HAW-11 (11→10 cols: merged stray-tab-split `Notes`). Delimiter-only; tab-strip byte-compare vs HEAD = identical (zero content change). All rows 17–32 now 10 cols. Commit `830756ed` (local).
-- **SOURCES.md refresh** (refresh-not-retire) — added reference-index banner (NOT boot-read) + as-of stamp, applied Mar-6 BRENT oil handoff to Energy section, added Venezuela theater, updated posture footer 🔴→🟠 (STATUS canonical). Commit `c25f8051` (local).
-- **PENDING PUSH:** both commits local-only — sweep in next Will-coordinated push window.
-
-## CHANGES SINCE LAST SESSION
-- **Decoupling test RESOLVED = SHRUG (thesis HOLDS).** 6/20 Hormuz re-closure repriced to ZERO at Mon 6/22 open; Brent deflated $80.57 (6/19) → ~$73.7 (6/26), −19% on the month. Hardest decoupling test of the war passed.
-- Iran's 6/20 "first step" stayed coercive/non-kinetic and did NOT climb to a second step through 6/26. Hormuz transits rebounded (71/3d, peak 35) then faded to ~3/day; open Iranian export flow ~50M bbl transponders-ON; OFAC Iran-oil general license landed as primary text.
-- Live oil-bull counter (Nuttall/Hedgeye) argues sub-$75 is a mechanical cargo-dump dip over a tightening physical market (cracks ATH, record-low inventories, SPR 40-yr-low) — coiled spring, not structural decoupling. BRENT adjudicates price.
+## CHANGES SINCE LAST SESSION (spans 6/26 → 7/8, 12-day gap)
+- **6/28 vertical kinetic spike** (IRGC strikes on Kuwait+Bahrain bases + Kiku tanker hit + 2 nights US strikes) — own remark B20/C44/D36, never merged to STATUS (banner said "PROME coordinates," never happened).
+- **6/29-7/4 partial de-escalation**: halt-strikes → comms channel (7/1) → Doha indirect talks (7/2, Qatar+Pakistan mediators, "positive progress") → no new kinetic through 7/4. Hormuz institutional scorecard resolved 0/4 STALLED (DEWEY 7/2). Iran anchor re-stamped 7/4: Mojtaba Khamenei (untested new SL) authorized the ceasefire, hasn't appeared publicly since — durability tail.
+- **7/6**: JMIC Advisory 012-26 (5th Fleet) re-elevates Hormuz to SUBSTANTIAL threat, ahead of tonight's collapse.
+- **7/6-8 TRUCE COLLAPSE**: Iran struck 3 neutral tankers (real damage, no official claim) → US struck 80+ Iran targets + reimposed sanctions → Iran claimed 85-site Bahrain/Kuwait strike (confirmed: 15 intercepted, zero damage) → Trump declared ceasefire "over" at NATO Ankara, threatens blockade/2nd-strike/Kharg-seizure (all unexecuted rhetoric) → Brent $78.02 +5.2%, first non-shrug gap of the war.
 
 ## WHAT I DID THIS SESSION
-- Processed 9-signal WALTER backlog (6/21–26) via PROME catch-up packet — all confirm C-Grind/decoupling, NONE re-mark. Marks HELD B34/C44/D22 (re-stamped 6/20→6/26).
-- Ingested 4 flagged signals into STATUS B-ladder + KB-201..205: 71-transit anchor (6622-011), OFAC license = new Regulatory sub-gate (6622-010), near-record-short positioning asymmetry (6621-010), SPR 40-yr-low (6622-005). Stamped 5 confirms-in-place.
-- Resolved **HAW-11 FAILED** (no Gulf infra hit by 6/22 = kill-switch unfired = decoupling reinforced) in STATUS + `thesis/PREDICTIONS.tsv`. HAW-14 nudged back toward_confirm.
-- Convergence eased 23→22/50 (Hormuz vector 4→3). Archived stale pre-MOU sections (Executive Read Jun-18 + delta) → `domain/sources/STATUS_archive_20260626.md`; STATUS now 130 lines.
-- **Session-spine architecture port** (this session): symmetric BOOT/CLOSEOUT in CLAUDE.md; created SCRATCH + template; demoted MEMORY to durable-only; refreshed NEXUS_BRIEF; retired LAST_COMPLETION (×3 → archive/).
+- **Repaired a 12-day staleness gap**: the 6/28 remark was never merged to STATUS; 10 WALTER inbox signals (6/28-7/6) + 2 root-inbox items (PROME 7/1, DAEDALUS 7/3) sat unprocessed. All logged to `board_log.tsv`, moved to `processed/`. DAEDALUS's dangling-ref fix applied (dropped the never-existed `CEASEFIRE_FADE_PROTOCOL.md` reference from CLAUDE.md + MEMORY.md — content lives in `EXIT_PROTOCOL.md`).
+- Independently verified the 7/7-8 sequence via WebSearch across ~12 queries (CENTCOM, CNN, Reuters, Bloomberg, Al Jazeera, Kuwait/Bahrain MOD, NATO coverage) — built a CONFIRMED/CLAIMED/UNVERIFIED table (STATUS.md). Key finding: Iran's "85 sites" claim vs. confirmed 15-projectile intercept with zero damage is a large claim-vs-confirmed gap; the tanker attacks on neutral shipping (real damage, no official Iranian claim) are the more consequential, less-covered escalation vector.
+- **Re-marked B12/C42/D46** off the true 6/28 baseline (B20/C44/D36), not the stale STATUS 34/44/22. Convergence 22→~35/50. Full reasoning + discriminator table in STATUS.md.
+- **Resolved 3 stale-but-passed-window predictions**: HAW-10 FAILED (Bab-al-Mandab locus never met, Jul1 window), HAW-12 CONFIRMED (Switzerland round held/concluded 6/22), HAW-13 FAILED (Hormuz institutional scorecard 0/4 by Jul4, per DEWEY). Flagged HAW-14 as OPEN-but-not-quiet (kinetic floor breached twice via non-Lebanon catalyst).
+- Added KB-HAWK-206..211 (bridge + tonight's facts); updated VX-HAWK-IRAN-01/02, USIRAN-KINETIC-01, GULFSTATE-01, DIPLOMACY-01.
+- Wrote `outbox/2026-07-08_to-PROME_truce-collapse-ladder-remark.md`.
 
 ## NEXT SESSION (dated, future-verifiable)
-1. **Structural-vs-coiled-spring watch:** does Brent hold <$75 (my structural read) or snap back (Nuttall)? Defer price to BRENT; I read the geopolitical re-arm catalysts. (ongoing)
-2. **HAW-12** — Switzerland/Vance round firm date by **Jul 3**.
-3. **HAW-10** — Bab-al-Mandab-proper Houthi commercial-vessel strike by **Jul 1** (locus unmet, mechanism fired 6/8-9).
-4. **HAW-13** — harder Hormuz gate (liner majors OR JWLA-033 step-down) by **Jul 4** (toward_fail).
-5. **HAW-14** — Iran no direct kinetic on Israel/US over Lebanon by **Jul 19** (back toward_confirm; Israel ~20% S.Lebanon occupation = live fail-path).
+1. **3rd-kinetic-night check** — did Trump's "probably tonight" 2nd strike happen, and did it stay calibrated or escalate further? Check within 24h (by **Jul 9**).
+2. **Brent sustain-vs-fade** — does $78 hold through Friday's close (**Jul 10**)? Defer to BRENT but this is the single cleanest D-vs-C discriminator right now.
+3. **HAW-15** — Ukraine no-crude-export-strike prediction is due **Jul 15**; not re-checked this session, needs a fresh Russia-Ukraine sweep before window close.
+4. **Iraq/PMF backlash watch** — the inverted Iraq tail (flagged 6/28) is still unfired; check for Green Zone/Embassy Baghdad activity.
+5. **Russia-Ukraine + Taiwan/Venezuela dormant-vector re-sweep** — not touched this session (LESSONS.md dormant-vector rule; overdue).
+6. **HAW-14 re-scope decision** — flagged twice now (6/28, 7/8) as breached-but-not-per-literal-wording; recommend Will/next-closeout decide whether to re-word to a catalyst-agnostic threshold.
 
 ## OPEN THREADS / WATCHES
-- 🔴 Brent holds <$75? (structural-vs-spring discriminator; BRENT-owned price, HAWK reads geopolitical re-arm)
-- 🟠 Lebanon — Israel campaign vs Iran "second step" (HAW-14 fail-path); 6 days quiet → drift toward confirm
-- 🟠 Russia-Ukraine off-axis at peak intensity — product/crack channel only; HAW-15 (no crude-export pivot) holds, flag BRENT on first crude-terminal/Druzhba strike
-- 🟡 Carry-over: THESIS.md rewrite (stale, v1.2 frozen Apr-20); HAWK CLAUDE.md Tier-2 boot.py; Kharg/US-strikes-on-Iranian-energy-infra channel has no HAW-xx coverage
+- 🔴 3rd kinetic night / further US-Iran strikes — hourly-relevant, check news before any further HAWK action
+- 🔴 Brent hold vs fade above $75 (BRENT-owned; geopolitical read = tonight's actions are harder-confirmed than 6/20 or 6/28)
+- 🟠 Iraq/PMF backlash channel (unfired discriminator, cleanest "new theater" tell)
+- 🟠 MOU formal-collapse watch — Trump's "over" is rhetoric; no textual withdrawal yet
+- 🟡 Mojtaba Khamenei public-appearance watch (untested-leader durability tail, from 7/4 anchor re-stamp)
+- 🟡 HAW-15 Ukraine crude-export-infra window closes Jul 15, needs a fresh check
 
 ## PREDICTIONS DUE / DECISIONS PENDING
-- HAW-10 (Jul 1), HAW-12 (Jul 3), HAW-13 (Jul 4), HAW-15 (Jul 15), HAW-14 (Jul 19). No Will-decision pending (HAWK holds no trade book).
+- HAW-14 (Jul 19, flagged not-quiet), HAW-15 (Jul 15, needs fresh sweep). No Will-decision pending (HAWK holds no trade book).
 
 ## MAIL STATE (one line per surface)
-- Inbox: clear (catch-up packet + 9 WALTER signals processed → processed/)
-- WALTER lane: clear
-- Outbox: `2026-06-20_to-BRENT_hawk-boot-sync.md` (pre-existing; superseded by today's BRENT cross-row + NEXUS_BRIEF refresh)
+- Inbox: clear except `2026-07-08_from-DAEDALUS_boot-orchestrator-unwired.md` (explicitly deferred this session per spawn instructions — harness housekeeping, not tonight's scope)
+- WALTER lane: clear (10 signals processed → `processed/`)
+- Outbox: `2026-07-08_to-PROME_truce-collapse-ladder-remark.md` (new this session)
 
 ## PENDING PUSH / GIT (if any)
-- ⚠️ This session's edits left UNCOMMITTED in working tree per PROME (Prome commits the HAWK dir sequentially alongside BRENT to avoid shared-index race). All changes scoped to `AGENTS/HAWK/`. Prior-session commits e3f3a8cb / baf55b3c / 764fe4da still local-unpushed (Will-coordinated push pending).
+- Isolated worktree this session — commit `AGENTS/HAWK/` via pathspec from repo root per CLAUDE.md Git section. No cross-agent files touched.

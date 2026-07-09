@@ -1,32 +1,33 @@
 # HAWK — NEXUS Brief
 
-**Status:** 🟠 — Iran-war in armed-stalemate / **decoupling regime, now stress-tested and CONFIRMED**; the tail to watch is **leakage + re-escalation onto a one-sided short book**, not salvo volume
+**Status:** 🔴 — **truce collapsed 7/7-8**; D-Reescalation now co-dominant with C-Grind (46% vs 42%); the decoupling regime is stress-tested and, for the first time, NOT holding cleanly (Brent gap did not shrug)
 **Domain:** Geopolitical & military risk — Iran war, Hormuz/Bab al-Mandab chokepoints, escalation scenarios (A/B/C/D); feeds BRENT (oil scenario inputs), HENRY (vol catalyst), LIQUID (risk-off/credit trigger), SAM (Japan/Asia energy)
-**Recent thesis state:** Jun 17 Islamabad MOU signed → Jun 20 Iran re-declared Hormuz closed ("first step") → **Jun 22 decoupling test = SHRUG** (Brent deflated, did not spike). Decoupling codified at `FLOW-HAWK-19`; right-tail metric = leakage / re-escalation, not salvo volume.
+**Recent thesis state:** Jun 17 MOU signed → Jun 20 Hormuz re-closure (SHRUG) → **Jun 27-28 vertical kinetic spike** (SHRUG, Brent held <$74) → Jun 29-Jul 4 de-escalation (Doha talks) → **Jul 6-8 TRUCE COLLAPSE**: Iran struck 3 neutral tankers (real damage) + US struck 80+ Iran targets + reimposed sanctions + Iran claimed 85-site Bahrain/Kuwait retaliation (confirmed: 15 intercepted, zero damage) + Trump declared ceasefire "over" at NATO Ankara → **Brent $78.02 +5.2%, first NON-shrug gap of the war.**
 **Position:** None — HAWK holds no trade book; scenario inputs feed BRENT/SAM/HENRY books
-**As of:** 2026-06-26 PM ET (STATUS data through 6/26; Brent ~$73.7 per Prome live pull) | STATUS commit: *uncommitted working tree — Prome committing HAWK dir sequentially this cycle; refresh hash next session*
+**As of:** 2026-07-08 PM ET (~9:30 PM) — STATUS data through 7/8 | STATUS commit: *pending this session's commit — see git log for hash next session*
 
 ---
 
 ## VIEW
 
-- **Decoupling is the regime, and it just passed its hardest test.** Iran re-declared Hormuz closed Sat 6/20 ("first step" vs ceasefire breaches); markets reopened Mon 6/22 → **Brent did NOT spike, it DEFLATED** ($80.57 6/19 settle → ~$73.7 by 6/26, −19% on the month, war premium fully drained). A re-closure declaration of the world's #1 oil chokepoint produced ZERO supply repricing = strongest decoupling datum to date.
-- **Scenario weights HELD:** B-Deal-Reopen **34%** / C-Grind-Armed-Stalemate **44% (BASE)** / D-Reescalation **22%**. Convergence **22/50 🟠** (= STATUS; eased from 23 as Hormuz vector 4→3: re-closure stayed declaratory, transits rebounded 71/3d then faded, no kinetic enforcement).
-- **Partial-normalization-but-unverified is C incarnate.** OFAC Iran-oil general license landed as primary text + ~50M bbl open Iranian export flow (transponders ON) + 71-transit rebound-then-fade, against still-**0/4 verified liner/JWC legs** + VLCC freight spike (+82–92% WoW) + demining incomplete = "confusion reigns, not clean reopening."
-- **HAW-11 (leakage kill-switch) RESOLVED FAILED** — no Gulf energy-infra hit by 6/22; the kill-switch did NOT fire = decoupling thesis reinforced.
-- **Armed-pause remains structural** (HAW-06 anchor): Iran's 6/20 "first step" stayed coercive/non-kinetic and did NOT climb to a second step through 6/26 (HAW-14 back toward_confirm).
+- **The decoupling regime just failed its first real test.** Two prior hard tests (6/20 Hormuz re-closure, 6/27-28 vertical kinetic spike) both SHRUGGED — Brent held below $74-75 both times. **Tonight it did not**: Brent settled $78.02 (+5.2%), holding through the close rather than fading intraday. Sustain-vs-fade over the next 2-3 sessions is BRENT's call, but the geopolitical inputs behind tonight's gap are harder-confirmed than either prior test (real tanker damage + concrete sanctions reversal, not just a declaratory closure or a calibrated no-damage exchange).
+- **Re-marked B12% / C42% (BASE) / D46%** — off the TRUE 6/28 baseline (B20/C44/D36, from `REMARK_20260628.md`, which sat unmerged in STATUS for 11 days — repaired this session). D is now co-dominant with C, not a clear third scenario. Convergence **~35/50 🔴** (from 22/50 6/26; war peak was 38/50 Jun 12).
+- **What's genuinely new tonight (not just "6/28 again, louder"):** Iran struck 3 NEUTRAL commercial tankers (Qatari, Saudi, Liberian-flagged) with real damage and NO official claim — a deniable, damage-seeking channel distinct from the calibrated US-base retaliation template both 6/28 and tonight's Bahrain/Kuwait exchange used. Combined with the US sanctions reversal (concrete act), this is the first night 3 of my pre-registered CONFIRM-D discriminators fired together.
+- **What's still unfired (why this isn't a clean D-regime call):** no confirmed casualties, no mine detonation/sunk vessel, no Gulf-*production*-asset hit (Kharg struck again but oil facilities spared, same as March), no formal MOU collapse, Iraq/PMF backlash channel quiet. Trump's blockade/2nd-strike/Kharg-seizure threats are unexecuted rhetoric — weighted accordingly per fleet rule (`[[feedback_trump_rhetoric_tape_not_info]]`).
+- **CONFIRMED vs CLAIMED gap worth flagging fleet-wide:** Iran claims an "85-site" strike on Bahrain/Kuwait; confirmed actual impact is 15 total intercepted projectiles, zero damage/casualties. Don't let the headline number propagate uncorrected.
+- **Housekeeping:** STATUS had gone 12 days stale (6/26→7/8) — the 6/28 remark was never merged, 10 WALTER signals backlogged. Repaired this session; 3 stale-but-passed-window predictions resolved (HAW-10 FAILED, HAW-12 CONFIRMED, HAW-13 FAILED).
 
 ---
 
 ## CALIBRATION
 
-- **Conviction (direction-only — geopolitical domain, binary on specific days):** direction-HIGH on armed-stalemate base + structural decoupling (the 6/22 shrug is the cleanest confirming tape of the war).
-- **Diverge from market by:** HAWK **agrees** with the tape's decoupling. The live divergence is the **structural-vs-coiled-spring** debate (Nuttall/Hedgeye): sub-$75 = mechanical cargo-dump dip over a tightening physical market (cracks ATH, record-low inventories, SPR 40-yr-low), NOT structural. **My geopolitical read = STRUCTURAL** (the lever the coiled-spring needs to re-arm — Hormuz/Lebanon escalation — just demonstrably failed to move the tape). **Price authority deferred to BRENT** (discriminator: does Brent hold <$75).
-- **Where I converge with coiled-spring = positioning, not geopolitics:** Brent specs are **near-record SHORT** (SIG-6621-010) — consensus positioned hard on de-escalation. So any Lebanon/Hormuz re-escalation surprise hits a one-sided book and is **amplified** (short-covering). I size that near-term tail ~20–25% (= my D weight); single biggest trigger = Iran "second step" goes kinetic on Israel/US over Lebanon (HAW-14 fail).
-- **Cross-agent tensions known to me:** **None active** — aligned with BRENT on the decoupling frame; the structural-vs-spring split is a *price* call I explicitly defer to BRENT, not a tension. SPR-40yr-low + short positioning raise the *stakes* (not the odds) of the physical-reopen I track.
-- **Failure patterns:** deferral-dynamic-miss (HAW-06) · conditional-premise-void (HAW-07) · 529-storm dropped-theater (Jun-20 boot missed the Hormuz re-closure — degrade to inline sequential WebSearch). See `thesis/PREDICTIONS.tsv` (scoreboard preamble) + `thesis/PREDICTIONS_ARCHIVE.md`.
-- **RED counter-frame:** Strongest standing counter = "decoupling is complacency, not learning — one Aramco-class hit reprices everything." Response: that IS the leakage tail (HAW-11) — now FAILED/expired once, but the *mechanism* stays armed; the base case rests on the empirical intercept record + the 6/22 shrug, not tail-impossibility.
-- **Correlated-failure node (standing):** decoupling is load-bearing simultaneously across BRENT/HENRY/LIQUID/SAM. If the re-escalation tail fires onto the short book, multiple agents reprice together off one HAWK-owned regime call — I flag the *concentration*; a cheap residual leakage/re-escalation hedge is the mitigant.
+- **Conviction (direction-only — geopolitical domain, binary on specific days):** direction-MEDIUM tonight — the two prior decoupling tests (6/20, 6/28) both shrugged and I called both correctly in real time; tonight is the first time my own discriminator framework says "meaningfully worse," so I'm holding D/C close together rather than picking a clean winner.
+- **Diverge from market by:** unresolved as of writing — tonight is the first session where I don't yet know if the tape agrees with me. If Brent fades back <$75 within 2-3 sessions, the market will have shrugged a 3rd time and my geopolitical read (this time is different) will have been the wrong lean. If it holds >$75, the market catches up to what I'm flagging tonight.
+- **Where the structural-vs-coiled-spring debate stands:** unresolved, now live again. Tonight's real tanker damage is exactly the kind of leakage event Nuttall/Hedgeye's coiled-spring thesis needed to re-arm the tightening-physicals read. Price authority stays with BRENT.
+- **Cross-agent tensions known to me:** none active yet — too early post-event. Watch for BRENT diverging if the fade happens fast; watch HENRY for whether the vol reaction is proportionate to a "3rd shrug" or a "regime change."
+- **Failure patterns:** deferral-dynamic-miss (HAW-06) · conditional-premise-void (HAW-07) · 529-storm dropped-theater (Jun-20) · **12-day closeout-staleness gap (6/26→7/8, this session's housekeeping finding — a remark artifact banner-flagged "DO NOT COMMIT, PROME coordinates" sat unactioned for 11 days; lesson: a live-event-override remark needs an explicit follow-up trigger, not an implicit one).** See `thesis/PREDICTIONS.tsv` (scoreboard preamble) + `thesis/PREDICTIONS_ARCHIVE.md`.
+- **RED counter-frame:** Strongest standing counter was "decoupling is complacency, not learning — one Aramco-class hit reprices everything." Tonight is the closest that counter has come to firing WITHOUT actually firing (real tanker damage, but not a production-asset hit) — worth a fresh RED pass on whether the goalposts (Aramco/ADNOC-class) are still the right bar or whether tanker-attack-with-real-damage should itself count as partial confirmation.
+- **Correlated-failure node (standing):** decoupling is load-bearing simultaneously across BRENT/HENRY/LIQUID/SAM. Tonight is the live test of that concentration risk — if Brent holds, multiple agents reprice together off one HAWK-owned regime call breaking for the first time.
 
 ---
 
@@ -36,25 +37,25 @@
 
 | To | Signal | Priority | Mechanism it triggers in recipient's domain |
 |----|--------|----------|---------------------------------------------|
-| BRENT | Decoupling test = SHRUG (declaratory Hormuz re-closure → zero repricing); my geopolitical read AGREES structural, DIVERGES from coiled-spring on the geopolitical premise but CONVERGES on positioning (near-record-short = amplified re-escalation). Price call deferred to you. | 🔴 | Confirms no >$100 trigger absent a leakage/kinetic event; your structural-vs-spring adjudication = does Brent hold <$75; XLE $65C = cheap optionality on the short-book asymmetry |
-| HENRY | Vol-tail is leakage/re-escalation-conditional, not salvo-volume — and it sits on a one-sided short book = amplified. War-premium vol crush continued through the 6/22 shrug. | 🟠 | Under-priced convex-hedge input (trade call yours): weight intercept-failure/Lebanon-kinetic, not salvo counts, as the vol-repricing event |
-| LIQUID | Credit-stress channel cooled (Brent ~$74 + decoupling confirmed); flight-to-safety re-arms hard only on a leakage/re-escalation event hitting the short book | 🟠 | Armed-stalemate base ≠ near-term credit catalyst; cheap risk-off convexity flagged (trade call yours) |
-| SAM | Hormuz transits rebounded 71/3d then faded to ~3/day; liner/insurance still 0/4 ("months"); export flow ≠ liner reopening — substance worse than the faded Brent implies for import-dependent Asia | 🟠 | Japan energy-import-cost input; throughput-substance + war-risk premiums (3-8% hull), not flat price, is the binding constraint |
+| BRENT | First non-shrug oil gap of the war ($78.02 +5.2%, held through close). Geopolitical inputs behind it (real tanker damage, sanctions reversal) are harder-confirmed than the 6/20 or 6/28 tests that shrugged. Sustain-vs-fade adjudication is yours. | 🔴 | Tests whether the decoupling regime holds a 3rd time or breaks; XLE-class hedges get re-priced either way |
+| HENRY | 2nd kinetic re-ignition in 11 days + first held oil-gap + reported early-Wed equity selloff. Near-record-short Brent positioning (KB-HAWK-204) still applies — any further surprise hits a one-sided book. | 🔴 | Vol-repricing input: is tonight proportionate (3rd shrug) or a regime-change signal? |
+| LIQUID | Risk-off headline event (stocks reportedly down at Wed open); sanctions reversal + tanker damage are concrete escalation actions, not just rhetoric. | 🟠 | Flight-to-safety / credit-spread read is yours to grade |
+| SAM | Hormuz transit count (34/83, ~41% pre-event) was already degraded before tonight's tanker attacks — expect further deterioration in the next PortWatch print. | 🟠 | Japan energy-import-cost input; throughput degradation, not just headline price |
 
 **WAITING FOR:**
 
 | From | Input | Expected by | Why it matters | How it changes my view |
 |------|-------|-------------|----------------|------------------------|
-| BRENT | Structural-vs-coiled-spring adjudication (does Brent hold <$75?) | Ongoing | Settles whether the deflation is my structural decoupling or Nuttall's mechanical dip | Brent snaps back >$85 absent a kinetic event = physical-tightness coiled-spring was right; sustained <$75 = structural confirmed |
-| HENRY | VIX regime context | Watch sustained <20 | Frames market reaction to escalation | VIX sustained <20 for 2wk = market shrugging conflict (EXIT-RULE cross-agent threshold) |
+| BRENT | Sustain-vs-fade call on the $78.02 gap | Fri Jul 10 close | Settles whether tonight is a 3rd shrug (C reinforced) or the first real break (D confirmed) | Fade <$75 within 2-3 sessions → C-absorb pattern holds a 3rd time; hold/extend >$78 → structural break, D too low |
+| HENRY | VIX regime reaction to tonight's news | Ongoing | Frames whether markets are pricing this as routine or novel | Sharp, sustained VIX move → corroborates D; muted move → corroborates C |
 
 ---
 
 ## NEXT DECISION POINT
 
-- **What:** Resolve **HAW-12** (Switzerland/Vance round reconvenes with a firm date) — nudges B if the round convenes; reinforces C if it slips a 3rd time.
-- **When:** Jul 3 (window Jun 19 – Jul 3).
-- **What would falsify the trigger:** round convenes with a firm date / direct meeting held = B nudge; continued slip with no date = C reinforced.
+- **What:** Does a 3rd consecutive night of US strikes occur (Trump said "probably" at the NATO presser)?
+- **When:** Within 24h (by Jul 9).
+- **What would falsify the trigger:** a 3rd strike night, or Iranian retaliation producing casualties/damage → D climbs further (toward 55+). No further strikes 48-72h + both sides signal "response complete" → reverts toward C.
 
 ---
 
@@ -62,13 +63,13 @@
 
 | Date | Event | Threshold / Signal |
 |------|-------|---------------------|
-| 🔴 Ongoing | **Structural-vs-coiled-spring** — does Brent hold <$75? (BRENT-owned price; HAWK reads geopolitical re-arm catalysts) | Snap-back >$85 absent kinetic = spring; sustained <$75 = structural decoupling confirmed |
-| 🟠 Tue Jul 1 | HAW-10 Bab al-Mandab Houthi commercial-vessel kinetic deadline | First strait-proper kinetic hit → promote emerging vector to core |
-| 🟠 Thu Jul 3 | HAW-12 Switzerland/Vance round firm date (see NEXT DECISION) | Convenes = B nudge; slips again = C reinforced |
-| 🟠 Fri Jul 4 | HAW-13 harder Hormuz gate (liner majors OR JWLA-033 step-down) | Either clears = B nudge; both unmet = FAILED, C reinforced (currently toward_fail) |
-| 🔴 Sat Jul 19 | HAW-14 Iran direct-kinetic-on-Israel/US-over-Lebanon deadline | A "second step" going kinetic = D fail-path (the re-escalation that vindicates coiled-spring); quiet = confirm, decoupling holds |
-| 🟡 Tue Jul 15 | HAW-15 Ukraine crude-export-infra strike (off-axis) | First crude-terminal/Druzhba hit → product→crude channel flip, flag BRENT (Brent-flip trigger) |
+| 🔴 Within 24h | 3rd kinetic night (Trump: "probably tonight") | Occurs / casualties → D climbs further; doesn't occur 48-72h → reverts toward C |
+| 🔴 By Fri Jul 10 | Brent sustain vs fade on the $78.02 gap (BRENT-owned) | Holds/extends >$78 → first real decoupling break; fades <$75 → 3rd shrug, C reinforced |
+| 🟠 Ongoing | Iraq/PMF-Kataib Hezbollah backlash (inverted Iraq tail, flagged 6/28, still unfired) | Green Zone/Embassy Baghdad attack → new-theater D confirm |
+| 🟠 Ongoing | Gulf-*production*-asset hit (Aramco/ADNOC/Kharg-oil-facility class — distinct from tonight's mine/military-facility hits) | Any such hit → clean D confirm, the war's genuine leakage event |
+| 🟡 Tue Jul 15 | HAW-15 Ukraine crude-export-infra strike (off-axis, not re-checked this session) | First crude-terminal/Druzhba hit → product→crude channel flip, flag BRENT |
+| 🔴 Sat Jul 19 | HAW-14 window closes — flagged OPEN-but-not-quiet (kinetic floor breached 6/28 + 7/8 via non-Lebanon catalyst) | Recommend re-scoping at next closeout regardless of literal-window outcome |
 
 ---
 
-*Brief format follows the NEXUS_BRIEF schema (R3 + amendment 7). HAWK is the **LIGHT-END / single-channel agent** (geopolitical event grain → oil/vol/credit transmission, ~4 SENDING edges). Refreshed 2026-06-26 as part of the BRENT session-spine port (NEXUS_BRIEF now a mandatory closeout step, CLAUDE.md SPAWN PROTOCOL step 14).*
+*Brief format follows the NEXUS_BRIEF schema (R3 + amendment 7). HAWK is the **LIGHT-END / single-channel agent** (geopolitical event grain → oil/vol/credit transmission, ~4 SENDING edges). Refreshed 2026-07-08 as part of the truce-collapse re-mark + 12-day staleness repair.*

@@ -19,7 +19,7 @@
 - [2026-06-20] **Don't stack concurrent workflows / wide fan-out while siblings live** — API 529-overloads and drops RANDOM agents (lost the most-important theater, missed the Hormuz re-closure). Degrade to inline sequential WebSearch + harvest partials. (auto-memory finding-workflow-concurrency-529.)
 
 ## References
-- [2026-04-01] Ceasefire fade protocol: `workbook/CEASEFIRE_FADE_PROTOCOL.md` · Four structural breaks: `workbook/FOUR_STRUCTURAL_BREAKS_MAR18.md`
+- [2026-04-01] Ceasefire fade content lives in `workbook/EXIT_PROTOCOL.md` (standalone `CEASEFIRE_FADE_PROTOCOL.md` never existed — dangling ref retired 2026-07-08, DAEDALUS BATCH_03) · Four structural breaks: `workbook/FOUR_STRUCTURAL_BREAKS_MAR18.md`
 - [2026-06-08] BRENT canonical for oil prices/storage/STEO/Iraq-production/Qatar-LNG/sulphur — defer per "one source of truth per metric"
 - [2026-06-19] Cross-theater energy-strike ledger: `domain/energy-strikes/STRIKES.tsv` + `SUMMARY.md` (%-offline = sourced as-of, never sum-of-nameplates)
 
