@@ -47,8 +47,12 @@ Deliver your result (final message + file) as your final action before idling �
 
 ---
 
-## §HAWK-read (fill from HAWK's 7/9 delivery)
-[PENDING — HAWK spawned 7/9 ~16:40 ET; summary + verdict line goes here when it lands.]
+## §HAWK-read (delivered 7/9 eve — `AGENTS/HAWK/outbox/2026-07-09_to-PROME_russia-two-front-read.md`, PROME spot-verified vs Moscow Times 7/7+7/8)
+- **Separate root, ZERO Iran-ladder contamination** — none of HAWK's 5 CONFIRM-D discriminators touched; ladder stays B12/C42/D46, convergence ~35/50 unchanged.
+- **Step-change, but scoped to the REFINING/PRODUCTS axis only:** Omsk (Russia's largest, ~75% of plant capacity down 7/6) + Saratov + 2 Tatarstan sites + a products-pipeline station, all hit in 72h → sovereign diesel-export ban through 7/31; global diesel benchmark +~13% Wed. **Crude-export infra (Druzhba/Baltic/Novorossiysk) UNSTRUCK** — HAW-15 open-not-failed.
+- **Sharpens the two-root flag for the verdict:** the Russia shock is products/diesel-side, not crude-supply-side. If Brent holds >$75 on Russia headlines, that's neither the Iran mechanism NOR even Russia crude supply — one more reason the Iran-specific fresh legs do ALL the binding work. Attribute the tape's roots explicitly.
+- **Next tell (BRENT's call per HAWK):** targeting pivot from products to actual crude-export infrastructure would flip HAW-15 + Brent flip-trigger #2 — if a pivot headline lands Friday, name it in the verdict as a separate-root escalation, still not an Iran leg.
+- Correlation fact for the routing list: two independent supply shocks (Hormuz/Gulf + Russia refining) now stress the same commodity complex — HENRY/LIQUID input, not a ladder input.
 
 ## §Other 7/9-eve inputs for the spawn prompt
 - **ORACLE cross-check (7/9):** "US blockade on Iran" market 48.0% ($210K vol, real depth) vs HAWK ladder D46 — CONVERGES, KL≈noise. No resolution-matched market exists for the sustain test itself (coverage gap, not a dislocation). `AGENTS/ORACLE/DIVERGENCE_2026-07-09.md`.
