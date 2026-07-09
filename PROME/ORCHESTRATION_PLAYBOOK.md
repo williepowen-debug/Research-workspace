@@ -40,6 +40,29 @@ Don't pick one mode for the whole session. The common shape:
 
 ---
 
+## Model tiering (Fable-orchestrated fleet — Will-approved 2026-07-08)
+
+When PROME runs on a top-tier model (Fable 5), **judgment concentrates up, volume delegates down.** Domain agents spawn as subagents/workflows with explicit `model:` overrides instead of Will launching separate interactive sessions. This is the old "research on Sonnet, synthesis on Opus" cost doctrine, one tier up.
+
+| Tier | Model | Work |
+|---|---|---|
+| Orchestrate/decide | PROME on Fable 5 | Synthesis, adversarial verify of load-bearing claims, trigger-adjudication sign-off, regime/HEARTBEAT/DOCKET/canon writes, cross-agent routing, everything Will-facing |
+| Domain judgment | `sonnet` (default) | Domain-agent spawns: evidence gathering + first-pass adjudication, written to their own dirs |
+| Load-bearing exception | `opus` | Adjudications where a wrong call moves positioning (e.g., a fired trigger's re-arm call) |
+| Mechanical | `haiku` | Fetches, grep/inventory sweeps, staleness checks, formatting, workflow readers |
+
+**Quality rails — stricter, not looser, at lower tiers:**
+- **Tight task packets:** every spawn states scope, files to read first (own `CLAUDE.md` + `STATUS.md` — subagents don't auto-load them), today's date explicitly, deliverable format, deliver-before-idle. Web tools need ToolSearch loading — say so in the prompt.
+- **Structured outputs** (Workflow `schema`) wherever the result is data.
+- **Load-bearing findings get a Fable-level primary-source check** before touching canon, firing a trigger, or routing cross-agent — mandatory, not judgment-call.
+- **Escalation valve:** contradictions / ungrounded hedging from a lower-tier agent → PROME pulls that specific question up inline; fallback = re-run higher (still cheaper than running everything big).
+- **Git:** spawned agents commit only their own `AGENTS/<NAME>/` dirs (or leave commits to PROME's closeout sweep). Never shared/root files.
+- **Context economics:** PROME delegates file-dump reading (Explore/agents) and keeps Fable tokens for synthesis — that's where the cost asymmetry pays.
+
+**Not delegated down, ever:** trigger sign-off, X1/regime state changes, routing decisions, Will-approvals, Telegram sends, HEARTBEAT/DOCKET writes.
+
+---
+
 ## Operating disciplines (apply in BOTH modes)
 
 ### 1. Report-delivery contract (fixes the chase-the-idle-agent defect)
