@@ -15,7 +15,7 @@ The one genuinely under-weighted risk: the "equity is cushioned by +GEX" comfort
 - **Sizing:** **$500 max-loss** (standing rule, Will 6/26). Needs **live broker book at fire-time (rule #4).** Apply rules #6/#7 at fire-time (puts on green days, roll duration don't trim).
 - **ARM only on a FLOW / VELOCITY discriminator (any ONE) — never the level:**
   1. **BND-11 ACUTE at the 7/9 30Y reopen** (BOND grades): indirect (%-of-competitive-accepted) **<52% AND (BTC <2.3 OR tail >2bp) AND dealer >18–20%.**
-  2. **10Y five consecutive closes ≥4.50** (BND-12; LIQUID/BOND/intake watch).
+  2. **10Y five consecutive closes ≥4.50** (the 10Y-sustain escalation leg of BOND's **VX-BND-05** — *ID corrected by PROME 7/8, HENRY-flagged: "BND-12" is BOND's separate 30Y>5.00-sustain call; cite VX-BND-05 for this leg*; LIQUID/BOND/intake watch). *(Count as of 7/8: 2 of 5 — 7/7 4.55, 7/8 ~4.57.)*
   3. **Soft May TIC 7/16** (ZHAO/LIQUID/SAM): China **AND** Japan UST holdings actually **DOWN** (converts Japan from correlation-amplifier to a real flow-subtractor — the PACKET-C flow test).
 - **DISARM / expire unfired if:** 30Y retraces under 5.00 post-auction, OR 10Y mean-reverts under 4.50, OR a **clean 7/9 print** (indirect holds ≥58%, no tail). Then the card lapses.
 - **CPI 7/14 note:** CPI is the true regime *hinge* (not the 40Y/TIC un-mask). A hot core (MoM ≥+0.3%) on a pre-armed rates channel is the compound scenario — but CPI is HENRY/CARL/LIQUID's grade; this card is the *rates-channel* expression, armed on the flow discriminators above, with CPI as the amplifier.
