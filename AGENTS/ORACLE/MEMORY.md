@@ -18,11 +18,12 @@ ORACLE brought back online after 79 days dormant (last touch 2026-04-01 inaugura
 - Fed no-cuts **81.9%** — past the 57–70% HENRY anchored to; higher-for-longer confirms.
 - "Nothing Ever Happens 2026" 44%→**82.5%** since Apr — complacency surge (pairs with VIOLET).
 
-**Pending / next session:**
-- Data-source note: no `POLY` SOURCE_TAG in VOCABULARIES.tsv — propose one to PROME (used free-text "Polymarket" for now).
-- Kalshi not wired (needs API key) — recession/Fed/CPI markets there would corroborate Polymarket. Ask Will if he has Kalshi creds.
-- Thesis side of the divergence map is the Apr baseline — get a current read from RED/SENTRY.
-- Bank-failure Jun-30 market resolves 6/30 — find the next-month replacement before then.
-- Re-pull cadence: `polymarket.py pull --log` each session (or schedule). 3-day re-check due ~6/22 on the thin movers per discipline.
+**Pending / next session (as of 6/18 — see status notes below, corrected 2026-07-09 self-sweep):**
+- Data-source note: no `POLY` SOURCE_TAG in VOCABULARIES.tsv — propose one to PROME (used free-text "Polymarket" for now). *(Still using free-text as of 7/9; low priority.)*
+- ~~Kalshi not wired~~ — **RESOLVED 2026-06-27**: `scripts/kalshi.py` built + wired, creds present, corroboration lane LIVE (see MAINTENANCE.md 6/27 entry).
+- Thesis side of the divergence map is the Apr baseline — get a current read from RED/SENTRY. *(Still owed as of 7/9 — RED carried since 6/13; not urgent, crowd & fleet both calm.)*
+- ~~Bank-failure Jun-30 market resolves 6/30~~ — **RESOLVED 6/30, rolled 7/2** (roll-watch: no clean single-binary July replacement exists yet; named-bank-EOY event carries the cluster).
+- Re-pull cadence: `polymarket.py pull --log` each session (or schedule) — **standing practice since**, both platforms, every session.
+- ~~Push deferred to a Will-coordinated window~~ — **SUPERSEDED 2026-06-27**: auto-push at closeout via `scripts/safe-push.sh` is now the fleet standard (see MAINTENANCE.md 6/27 entry); this file's original git note below is historical only.
 
-**Git:** all changes inside `AGENTS/ORACLE/`. Committed locally; push deferred to a Will-coordinated window (per shared-branch protocol).
+**Git (historical, 6/18):** all changes inside `AGENTS/ORACLE/`. Committed locally; push deferred to a Will-coordinated window (per shared-branch protocol). *(See correction above — superseded 6/27.)*

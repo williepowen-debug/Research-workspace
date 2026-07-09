@@ -11,6 +11,7 @@ Fed >4.00% after July	market	KXFED-26JUL-T4.00	T1	LIQUID,HENRY
 June CPI YoY >3.5%	market	KXCPIYOY-26JUN-T3.5	T1	HENRY
 June CPI YoY >3.6%	market	KXCPIYOY-26JUN-T3.6	T1	HENRY
 June CPI YoY >3.8%	market	KXCPIYOY-26JUN-T3.8	T1	HENRY
+# FINALIZED 2026-07-02 (fetcher self-flags [finalized] at pull; last prices >4.2%=82%, >4.3%=25%) — kept pinned: still returns clean data harmlessly, no roll needed until a July U3 event opens. NOTE: [finalized] is the fetcher's own tag, not an independently-verified binary settlement (82%/25% reads as last-trade, not confirmed 100/0) — do not cite these two rows as a confirmed TRUE/FALSE outcome; LABOR/HENRY own the actual BLS-print read.
 June U3 unemployment >4.2%	market	KXU3-26JUN-T4.2	T1	LABOR,HENRY
 June U3 unemployment >4.3%	market	KXU3-26JUN-T4.3	T1	LABOR,HENRY
 #

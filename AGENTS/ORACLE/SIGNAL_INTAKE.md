@@ -1,7 +1,7 @@
 # ORACLE — Signal Intake Spec
 
-**Owner:** ORACLE | **Consumer:** WALTER routing | **Last Updated:** 2026-06-18
-**Domain:** Prediction-market monitoring (Polymarket; Kalshi pending) — crowd-implied probabilities on thesis events. I track what the CROWD prices; route me anything that *should* move a prediction market so I can check whether it did.
+**Owner:** ORACLE | **Consumer:** WALTER routing | **Last Updated:** 2026-06-18 (routing taxonomy unchanged; stale "Kalshi pending" line corrected 2026-07-09 self-sweep — Kalshi wired live since 2026-06-27)
+**Domain:** Prediction-market monitoring (Polymarket + Kalshi, both live) — crowd-implied probabilities on thesis events. I track what the CROWD prices; route me anything that *should* move a prediction market so I can check whether it did.
 
 | Priority | Meaning | Delivery |
 |----------|---------|----------|
