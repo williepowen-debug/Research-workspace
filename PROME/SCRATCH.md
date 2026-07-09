@@ -29,3 +29,9 @@
 
 ## Git / repo state
 Clean at closeout, safe-push run (verify "Pushed." + 0/0). Evening session: PROME commits ~15 (packets ×4 · digest ×2 · WAL sweep ×2 · ZION · shadow-adj/HEARTBEAT · node+ROSTER self-sweep · routes ×3 · report · closeout set) + agent locals ~25 across 11 agents (all verified clean-scoped, zero index-race casualties across up-to-11 concurrent writers). All swept by the push-train.
+
+## 7/9 ~19:15 ET addendum — DEWEY debrief dispositioned (Will approved all 3 gated items)
+- DEWEY's 8-item research-process debrief reviewed + fully dispositioned: **trace_bond.py GREENLIT** (2nd surface; the KB-LIQ-069/072 tripwire instrument) · **prompt-07b QUEUED** (funding-gate calibration: Mar-2020/Mar-2023 generalization + FP rate; after 08/09, deliver-by ~7/16; on-return → LIQUID/HENRY; a calibrated gate may become a GATES.tsv row) · **WALTER manifest-spec note routed** (premises-to-reverify phrasing + 3 carve-out classes; +REQ-07b ledger row ask).
+- **PROME standing practice adopted (item 4b): 60-sec DEWEY queue re-sort at each session start** — baked-in manifest urgency = premises to reverify, never conclusions.
+- DEWEY's auto-memory committed + indexed by PROME (single-writer): `finding_deep_research_primary_pull_owns_three_data_classes`.
+- Files: DEWEY inbox ×2 (dispositions + 07b prompt) · WALTER inbox ×1 · memory commit `33aaec4c`. DEWEY queue resumes at 08 with the new protocol.
