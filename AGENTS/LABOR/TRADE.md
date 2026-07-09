@@ -40,7 +40,7 @@ LABOR vector → threshold → target agent(s) → priority. Thresholds referenc
 ## §2 — KELYA Position
 
 **Position:** KELYA $7.5P Aug 21
-**Live state (Jul 2):** spot **$13.00** (−0.84% *on the NFP-big-miss day* — market shrug); strike $7.5 = **$5.50 OTM**; **~50 DTE**; write-off state confirmed. **DTE ≤30 mechanical checkpoint: Jul 22.** Contracts / cost basis / mark → FORGE. *(Prior mark: $11.65 Jun 9.)*
+**Live state (refreshed 7/9):** spot **$13.44** (+0.90%) [CONF fetch.py 7/9]; strike $7.5 = **$5.94 OTM**; **~43 DTE**; write-off state confirmed, no change to thesis. **DTE ≤30 mechanical checkpoint: Jul 22.** Contracts / cost basis / mark → FORGE. *(Prior marks: $13.00 Jul 2 / $11.65 Jun 9.)*
 
 ### Thesis state
 

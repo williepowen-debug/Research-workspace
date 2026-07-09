@@ -5,7 +5,7 @@
 **Thesis framing:** "Hotel California" (low-fire/low-hire structure → eventual realization break). No version number.
 **Recent thesis pivot:** **Jul 2 — bifurcation RESOLVED into a deeper freeze:** NFP June +57K (miss) with net −74K revisions killed the "hard data revising up" bull story (Kill A reset), while claims 215K / Challenger 45,849 (lowest since Dec-25) / WARN plateau show firing QUIET — and the labor force shrank 720K in one month (participation 61.5%), so **U-3 fell to 4.2% as an artifact**. The pre-registered supply-shrink signature (U-3↓ + AHE↑ 3.5% + LFPR↓) fired in national data. Matrix 48/80→37/75 — v6/v9 duration merge, ≈41/80 like-for-like (announcement layer stood down; freeze depth increased).
 **Position:** N/A — research / early-warning domain. KELYA puts are TRADE.md scope, not core LABOR; I don't mark positions (KELYA $13.00 on print day = market shrug; write-off stands).
-**As of:** 2026-07-02 ~11:45 ET (full Jul-2 stack: NFP June + claims + JOLTS May + ADP/ISM + Challenger June, all adversarially verified vs primaries) | STATUS commit: `b50c6ada`
+**As of:** 2026-07-02 ~11:45 ET (full Jul-2 stack: NFP June + claims + JOLTS May + ADP/ISM + Challenger June, all adversarially verified vs primaries) | STATUS commit: `b50c6ada`. **⚠️ STALE 7/9:** this brief owes a full re-pin — ISM Services (7/6), MSFT/Xbox round-2 (7/6), big-tech WARN cluster (7/6), and the Jul-9 claims grade (215K/MA 218,750, drift) all post-date this VIEW/CALIBRATION; the SPAWN PROTOCOL "re-pin every closeout" step was skipped 7/6 and 7/9. Read STATUS.md for current state until the next full re-pin.
 
 ---
 
@@ -69,7 +69,7 @@
 | Date | Event | Threshold / Signal |
 |------|-------|---------------------|
 | 🟠 Mon Jul 6 | ISM Services June [date confirmed] | Svs emp <47 = survey leg next step; ≥48 = stalling |
-| 🟡 Thu Jul 9 | Claims w/e Jul 4 | ⚠️ holiday-week SA distortion — no re-grade on this alone |
+| ✅ Thu Jul 9 | Claims w/e Jul 4 — **215K, 4-wk MA 218,750** (↓3,750) [CONF FRED/DOL 7/9] | GRADED — `<230K drift` band, nothing-new, holiday-week distortion didn't bite |
 | 🟡 Tue Jul 14 | June CPI (HENRY-owned) | Stagflation-mix check vs AHE 3.5% |
 | 🟠 ~Jul 21 | BLS State Emp June (FL UR) | FL >5.0% or renewed ↑ = T-11 |
 | 🔴 Thu Jul 23 / Thu Jul 30 | Claims w/e Jul 18 / Jul 25 | **LAB-17 window** — 4-wk MA ≥235K = WARN cohort converting; T-01 bands standing |
