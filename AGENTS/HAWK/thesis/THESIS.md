@@ -1,4 +1,4 @@
-> ⚠️ **SUPERSEDED Apr 20** → see `STATUS.md` / `audits/HAWK_SYNTHESIS_2026-05-22.md` + Jun 8 refresh for current regime (B 12% / C 53% / D 35%, Damage-vs-Salvo decoupling thesis canonical at `workbook/FLOW.tsv` FLOW-HAWK-19). **THESIS rewrite to current regime is #1 next-session item (HAWK MEMORY.md Jun 8 entry).** Do not action from this file until rewritten.
+> ⚠️ **SUPERSEDED Apr 20** (banner refreshed 2026-07-09 — the embedded scenario %s from the Jun 8 refresh were themselves 4 remarks stale vs the current 7/8 ladder; dropped rather than re-citing a number that will drift again) → see `STATUS.md` (current canonical scenario ladder + Convergence Matrix) / `audits/HAWK_SYNTHESIS_2026-05-22.md` for the historical Jun 8 refresh; Damage-vs-Salvo decoupling thesis canonical at `workbook/FLOW.tsv` FLOW-HAWK-19. **THESIS rewrite to current regime remains an open backlog item.** Do not action from this file until rewritten.
 
 ---
 

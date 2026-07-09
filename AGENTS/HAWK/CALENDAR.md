@@ -1,5 +1,7 @@
 # HAWK CALENDAR
 
+> **🧊 FROZEN 2026-07-09** — not maintained since 2026-05-22 (48 days stale, not touched by the 7/8-7/9 truce-collapse re-mark session); not in `CLAUDE.md`'s FILES table (orphaned surface, only cross-referenced by same-day 2026-05-22 `audits/` snapshots). Scenario %s and dated rows below are **historical, not current** — `STATUS.md` (Convergence Matrix, Next-Rung Tells, Cross-Agent Implications) is canonical for forward catalysts. Do not cite anything below as live. *(Same treatment as `scripts/boot.py` and `workbook/PRICE_BREACHES.tsv` — root CLAUDE.md Data Hygiene: FROZEN-bannered or live, never silent-rot.)*
+
 **Last Updated:** 2026-05-22 12:50 EDT | **View:** Forward-looking only  
 **Scenario:** C/Grind-Partial-Thaw 57% / D-Reescalation 35% / B-Deal-Reopen 8%  
 **Kinetic Risk:** 🟠 HIGH | **Convergence:** 33/45 | **US/Israel posture:** preserved strike option / armed pause
