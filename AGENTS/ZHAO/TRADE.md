@@ -1,4 +1,4 @@
-> **🧊 FROZEN 2026-07-04 — ZHAO dormant/archive-source; not maintained. STATUS.md is canonical; do not cite rows below as current.** *(DAEDALUS TRADE-staleness sweep, PAT-025, Will-approved.)*
+> **🧊 FROZEN 2026-07-04 — superseded 4-anchor content / no active position; not maintained. STATUS.md is canonical; do not cite rows below as current.** *(DAEDALUS TRADE-staleness sweep, PAT-025, Will-approved. Rationale reworded 2026-07-09 — ZHAO reactivated same day as the freeze, so "dormant" was never accurate; the freeze itself stands until a concrete position re-emerges.)*
 
 # ZHAO TRADE.md
 **Updated:** 2026-03-09 23:45 UTC

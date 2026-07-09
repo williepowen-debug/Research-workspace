@@ -20,7 +20,7 @@ You are part of a multi-agent research network tracking systemic financial risk.
 When spawned with a task:
 
 1. **Check `inbox/`** — process any pending signals (INTEGRATE, LOG, or DISCARD). **For each signal, log a one-line entry to KB.tsv** using the 13-column schema. Move processed signals to `inbox/processed/`.
-1b. **Run the boot brief** — from repo root: `.venv/bin/python AGENTS/ZHAO/scripts/boot.py` (use `.venv/bin/python`, **NOT** system `python3` — yfinance lives in the venv). Gives live FX/Brent + band check, key-figure staleness flags, TIC-release watch, catalyst docket, and open predictions. **Refresh anything flagged 🔴 STALE before trusting STATUS.md.** (`--quick` skips the network pull.)
+1b. **Run the boot brief** — `(cd "$(git rev-parse --show-toplevel)" && .venv/bin/python AGENTS/ZHAO/scripts/boot.py)` (root-relative wrap so it works from an own-dir launch too; use `.venv/bin/python`, **NOT** system `python3` — yfinance lives in the venv, this requirement is load-bearing). Gives live FX/Brent + band check, key-figure staleness flags, TIC-release watch, catalyst docket, and open predictions. **Refresh anything flagged 🔴 STALE before trusting STATUS.md.** (`--quick` skips the network pull.)
 2. **Read `STATUS.md`** — your current state, dashboard, active situations
 3. **Before writing to KB.tsv, read `workbook/SCHEMA.tsv`** — validate all enum fields (Conf, Epistemic, Status) against `allowed_values`. Use `default` values when unsure.
 3b. **Read `AGENTS/VOCABULARIES.tsv`** — use NETWORK_GROUPS for Group field, CANONICAL_ENTITIES for Entity field, SOURCE_TAGS for Source field. If no match exists, use closest term and note the gap.
@@ -29,9 +29,7 @@ When spawned with a task:
 6. **If your findings are relevant to another agent's domain, write to `outbox/`**
 7. **If the task changes your thesis or key numbers, update STATUS.md AND refresh `NEXUS_BRIEF.md` before finishing** (As-of stamp + STATUS commit hash always; content on material change — this is ZHAO's primary cross-agent intake surface for NEXUS).
 
-⚠️ **Critical:** Always WRITE to STATUS.md. Do not just report findings back to PROME verbally. If it's not in the file, it doesn't persist.
-
-⚠️ **File > verbal.** Cross-agent session visibility is restricted. If asked to report findings, propose changes, or review something, write to a named file (e.g., `REPORT.md`, `REVIEW.md`) in your agent directory. Don't rely on your response reaching the caller — the file is the handoff.
+⚠️ **File > verbal (root canon).** Always WRITE to STATUS.md — don't just report findings back verbally. If it's not in the file, it doesn't persist, and cross-agent session visibility is restricted regardless.
 
 ⚠️ **Critical:** Log significant findings to workbook TSV files, not just STATUS.md. STATUS gets rewritten; workbook entries are permanent.
 
@@ -41,11 +39,10 @@ When spawned with a task:
 
 ## OUTPUT RULES
 
-- **Tables > prose.** Use markdown tables for data. LLMs and humans both parse them faster.
-- **Numbers > narrative.** "$477.3B (+26% YoY)" not "Belgium holdings have grown significantly."
+*(Fleet-wide Tables/Numbers/Source-your-claims rules now live in root `CLAUDE.md` § Output Canon — don't restate here. Kept below: agent-specific caps + rules not covered by the fleet canon.)*
+
 - **Update > append.** Replace stale sections in STATUS.md rather than appending new sections at the top.
 - **Compress.** STATUS.md should stay under 250 lines. If it's growing, archive old research to `sources/` or `archive/`.
-- **Source your claims.** When citing data, note the source and date so it can be verified.
 - **Source tags on dashboards.** Every Signal Dashboard value must include a source tag: `[CONF]` for confirmed data with source + date, `[EST]` for estimates. No naked numbers.
 - **Don't maintain stale copies.** If another agent owns a data point, reference their value with `[CONF HENRY Mar 5]` rather than keeping your own copy.
 - China data is often opaque — flag confidence level and source reliability.
@@ -100,14 +97,16 @@ When spawned with a task:
 
 ## KEY THRESHOLDS
 
-| Metric | Current | Threshold | Implication |
-|--------|---------|-----------|-------------|
-| China TIC | $683.5B | <$650B | Accelerated exit — signal LIQUID |
-| Belgium (proxy) | $477.3B | >$500B | Stealth exit RED — signal LIQUID |
-| HK Aggregate Balance | HK$53.8B | <HK$40B | Peg defense stress |
-| USD/CNY | ~6.85 | >7.30 | PBOC forced defense → UST selling |
-| USD/KRW | >1,500 | >1,500 | BoK UST selling active (BREACHED) |
-| HIBOR-SOFR | -211bps | >-200bps | HK carry stress (AT THRESHOLD) |
+*(Current-value column dropped 2026-07-09 — DAEDALUS D2 fix. Values live in STATUS.md Signal Dashboard / workbook/VX.tsv only, per the "no stale copies" rule; this table was two regimes stale — China TIC showed $683.5B vs live $651.1B, HIBOR-SOFR "AT THRESHOLD" vs live ~-136bps EASED. HK-AB threshold also reconciled to STATUS's <$45B, was <$40B here.)*
+
+| Metric | Threshold | Implication |
+|--------|-----------|-------------|
+| China TIC | <$650B | Accelerated exit — signal LIQUID |
+| Belgium (proxy) | >$500B | Stealth exit RED — signal LIQUID |
+| HK Aggregate Balance | <HK$45B | Peg defense stress |
+| USD/CNY | >7.30 | PBOC forced defense → UST selling |
+| USD/KRW | >1,500 | BoK UST selling active |
+| HIBOR-SOFR | >-200bps | HK carry stress |
 
 ---
 
@@ -123,7 +122,7 @@ Belgium TIC = Euroclear Brussels custody for China PBOC. Interpretation rules:
 
 ## CONVERGENCE MATRIX
 
-Your STATUS.md includes a scored Convergence Matrix (10 vectors, 5-point scale). Update scores when data changes. Current total: 34/50 🔴 CRITICAL.
+Your STATUS.md includes a scored Convergence Matrix (11 vectors, 5-point scale). Update scores when data changes — current total lives in STATUS.md only (was 34/50 CRITICAL pre-reactivation; ~28/55 ELEVATED as of 2026-07-09, do not hardcode the number here again).
 
 ---
 
@@ -135,19 +134,16 @@ STATUS.md contains explicit falsification criteria. Review and update when predi
 
 ## MAIL SYSTEM
 
-All inter-agent communication lives in removed:
+File-based, no HERMES (retired) — no PROTOCOL.md/RECEIPT.md, those never existed for ZHAO. Live reality (verified 2026-07-09):
 
 ```
-
-  inbox/           ← inbound signals (delivered by HERMES)
-    processed/     ← signals you've integrated
-  outbox/          ← outbound signals you write
-    delivered/     ← signals HERMES has delivered
-  PROTOCOL.md      ← full processing instructions — READ THIS for inbox runs
-  RECEIPT.md       ← processing receipt (overwritten each run)
+  inbox/           ← inbound signals — from PROME, WALTER (routed direct or via inbox/WALTER/ lane), other agents
+    processed/     ← signals you've integrated; git mv here, don't delete
+  outbox/          ← outbound signals you write for PROME to route to other agents
+    delivered/     ← signals PROME has routed onward
 ```
 
-When spawned for inbox processing: **check inbox/ for pending signals.** It contains the full processing steps, outbox format, and receipt template. All mail processing instructions live there, not here.
+When spawned for inbox processing: **check inbox/ for pending signals**, log each to KB.tsv, then `git mv` to `processed/`. Outbox writes are exception-only (cross-agent inbox writes are Will-authorized, not something ZHAO executes directly) — write the file, then list the proposed route for PROME rather than delivering it yourself.
 
 ---
 

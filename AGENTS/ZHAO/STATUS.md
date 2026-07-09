@@ -54,9 +54,9 @@ The April STATUS was built around a late-Feb/March Gulf shooting war (Hormuz clo
 |--------|-------|-----------|--------|--------|
 | China Official UST | **$651.1B** | <$650B = RED | 🔴 AT LINE | [CONF] TIC Apr 2026 (18yr low; flat vs Mar) |
 | Belgium TIC (proxy) | **$454.0B** | >$500B = RED | 🟡 | [CONF] TIC Mar 2026 (flat = genuine CN exit) |
-| Combined Anchor Selling | reduced from 🔴 | — | 🟠 | Gulf leg collapsed; CN+KR remain |
-| Brent crude | **~$72** | shock transmission | 🟢 | [CONF] Jul 3 2026 |
-| Hormuz flows | **>10M bpd** (recovered) | — | 🟢 | [CONF] Jun 26 2026 |
+| Combined Anchor Selling | reduced from 🔴 | — | 🟠 | Gulf leg collapsed; CN+KR remain — **STALE, see below** |
+| Brent crude | **$76.01 settle** (STALE row was ~$72/Jul 3) | shock transmission | 🟠 RE-ARMED 7/8-7/9 | [CONF] fleet 7/9 digest — not a ZHAO pull, HAWK/BRENT own this number |
+| Hormuz flows | recovered-then-RE-ESCALATED (Iran tanker strikes 7/8) | — | 🟠 | [CONF] fleet 7/9 digest — STALE row was Jun 26 "recovered," now superseded; HAWK/BRENT domain |
 
 ### Currency / HK Peg
 | Metric | Value | Threshold | Status | Source |
