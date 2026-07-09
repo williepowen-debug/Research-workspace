@@ -108,7 +108,7 @@ The April STATUS was built around a late-Feb/March Gulf shooting war (Hormuz clo
 
 | Agent | Signal | State |
 |-------|--------|-------|
-| LIQUID | China TIC $651.1B (Apr) pinned at $650B line 2mo, genuine exit (Belgium flat), 18yr low | 🟠 SENT → outbox 7/4 (still awaiting PROME route as of 7/9 — file verified live at `outbox/2026-07-04_to-LIQUID_china-genuine-ust-exit.md`) |
+| LIQUID | China TIC $651.1B (Apr) pinned at $650B line 2mo, genuine exit (Belgium flat), 18yr low | 🟢 DELIVERED-7/5-via-PROME (`AGENTS/LIQUID/inbox/processed/2026-07-05_from-ZHAO_via-PROME_china-genuine-ust-exit.md` — LIQUID has already processed it; outbox original is ZHAO's record copy, not an open item) |
 | SAM (proposed, not sent) | China-leg clears field for (b) Japan-duration-extension on the 30Y 77.74% indirect bid — see 7/9 pre-registration above | 🟠 LIST-only per catch-up discipline; route via PROME |
 | SAM | Korea KRW ~1,540, record equity outflows, BoK Jul 16 | 🔴 |
 | HAWK/BRENT | Gulf tail RE-ARMED 7/8 (Brent $76.01 settle 7/9) — capital-gated on Fri 7/10 sustain verdict per fleet digest; supersedes the 7/4 "de-escalated" read | 🟠 UPDATED 7/9 |
@@ -168,7 +168,7 @@ The April STATUS was built around a late-Feb/March Gulf shooting war (Hormuz clo
 **Done Jul 9 catch-up sweep:** inbox drained (6 items — dispositions below) ✓ · 30Y China-leg pre-registration written (KB-ZHAO-090, ZHA-11) ✓ · property BIS milestone logged (KB-ZHAO-088) ✓ · genuine-exit corroboration (KB-ZHAO-089) ✓ · CLAUDE.md `domain/sources/` dead pointer fixed (D1) ✓ · Convergence Matrix vector 8 flagged stale + re-scored ✓ · STATUS/NEXUS_BRIEF refreshed ✓
 **Done Jul 4 sweep:** April TIC (China $651.1B / Belgium $454B) ✓ · Saudi ✓ · PMI/GDP/land-sales/gold ✓ · HK peg ✓ · ZHA-08 falsified, ZHA-01/03/09 re-marked ✓ · VX (13 rows) + FLOW (5 rows) refreshed ✓
 **Still open:**
-1. **LIQUID outbox still awaiting PROME route** (`outbox/2026-07-04_to-LIQUID_china-genuine-ust-exit.md`, cc SAM) — file verified live 7/9, just unrouted. The reactivation packet (`…_to-PROME_zhao-reactivation.md`) appears resolved (DAEDALUS scanned 7/7, roster active) — ROSTER/NEXUS BRIEFS_MAP flip not independently re-verified this session.
+1. ~~LIQUID outbox still awaiting PROME route~~ — **CORRECTED 7/9 (PROME):** already DELIVERED 7/5 via PROME (`AGENTS/LIQUID/inbox/processed/2026-07-05_from-ZHAO_via-PROME_china-genuine-ust-exit.md`, LIQUID has processed it). ZHAO's `outbox/2026-07-04_to-LIQUID_china-genuine-ust-exit.md` is the record copy, not an open item — asymmetric-records error on ZHAO's part this session, now reconciled. The reactivation packet (`…_to-PROME_zhao-reactivation.md`) appears resolved (DAEDALUS scanned 7/7, roster active) — ROSTER/NEXUS BRIEFS_MAP flip not independently re-verified this session.
 2. **May TIC ~Jul 16–18** — does China break $650B (ZHA-04) + aggregate-direction test for ZHA-11 (30Y China-leg). **BoK Jul 16** — hike?
 3. Still stale (boot.py-flagged): **HK Agg Bal 37d** (pull fresh HKMA AB), **Guizhou/Zhengzhou NPL** (bank-specific), **Korea official UST $103B** (Apr TIC), **CNH-CNY spread**.
 4. **Boot automation LIVE:** `scripts/boot.py` — run at boot via `.venv/bin/python` for live FX/Brent + band check, staleness flags, TIC-release watch, catalyst docket, open predictions. (Fixes the 2.5mo-drift failure mode.)

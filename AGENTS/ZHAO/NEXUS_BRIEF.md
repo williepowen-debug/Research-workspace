@@ -36,7 +36,7 @@
 
 | To | Signal | Priority | Mechanism it triggers |
 |----|--------|----------|-----------------------|
-| **LIQUID** | China UST $651.1B genuine exit (Belgium flat), 2-anchor demand hole; "who absorbs at record aggregate inflow?" | 🟠 | UST demand-hole model. **Outbox written 7/4** (`outbox/2026-07-04_to-LIQUID_china-genuine-ust-exit.md`) — still awaiting PROME route as of 7/9 |
+| **LIQUID** | China UST $651.1B genuine exit (Belgium flat), 2-anchor demand hole; "who absorbs at record aggregate inflow?" | 🟢 | UST demand-hole model. **DELIVERED-7/5-via-PROME** (`AGENTS/LIQUID/inbox/processed/2026-07-05_from-ZHAO_via-PROME_china-genuine-ust-exit.md`, already processed by LIQUID) — outbox original is ZHAO's record copy only |
 | **SAM** (proposed, LIST only — not sent) | China clears the field for (b) Japan-duration-extension on the 30Y 77.74% indirect bid — genuine-exit posture argues against China as the buyer | 🟠 | Joint demand-hole synthesis (7/5 packet, due 7/16) |
 | **SAM** | Korea KRW ~1,530 near 2009 low, record KOSPI outflows, BoK Jul 16 | 🔴 | Asia contagion / regional UST flows |
 | **HAWK/BRENT** | 7/9: Gulf tail RE-ARMED (7/8 truce collapse, Brent $76.01 settle) — supersedes the 7/4 de-escalated read below. HAWK/BRENT-owned, ZHAO flags only for consistency. | 🟠 UPDATED | Energy-Asia shock re-live; capital-gated on Fri 7/10 sustain verdict |
