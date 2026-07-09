@@ -19,9 +19,8 @@
 - ○ gamma tripwire armed (level, intake-watched) →
 
 **KNOT 2 — 7/16 & 7/21–22 · demand-hole + credit-recognition super-cluster**
-- ○ **7/16 WAL Q2** [bank-put (c) FIRE GATE] — REGINALD/PROME/TERRY — needs live broker book (rule #4) →
 - ○ 7/16 **BoK** decision · ○ **May TIC 7/16–18** (China sub-$650B fires ZHA-04) — ZHAO/LIQUID/SAM →
-- ○ **7/21 SUPER-CLUSTER:** OZK Q2 · ALLY Q2 · **FL State Emp (Florida, T-11)** · China LPR — REGINALD/CARL/LABOR/CORAL/ZHAO →
+- ○ **7/21 SUPER-CLUSTER (densified 7/9):** **WAL Q2 AMC** [bank-put (c) FIRE GATE — date CONFIRMED 7/9 via WAL's 7/6 release, was ~7/16 est; needs live broker book, rule #4] · OZK Q2 AMC · ALLY Q2 7:30am · **FL State Emp (Florida, T-11)** · China LPR — REGINALD/PROME/TERRY/CARL/LABOR/CORAL/ZHAO →
 - ○ 7/22 SYF/COF (Axis-A) · 40Y JGB + GOOGL →
 
 **KNOT 3 — 7/23–29 · realization + marks + Fed**

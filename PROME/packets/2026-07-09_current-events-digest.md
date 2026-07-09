@@ -20,7 +20,7 @@
 Brent $76.01 settle (low $75.60) · WTI ~$71.9 · 10Y 4.539 (^TNX; verify vs DGS10) · 30Y ~5.05 · TLT $84.65 · VIX 16.04 · MOVE 72.41 [7/8] · HY 267 [7/7] · USD/JPY 162.28 · UMCSENT 44.8 · PSAVERT 3.0 [orange, new].
 
 ## Forward docket (next 3 weeks)
-**Fri 7/10:** BRENT sustain verdict (capital gate) + RED grades CHG-041 final + 10Y close (arm-#2 4-of-5 or reset) + WASDE · **Mon 7/13:** arm-#2 completes if held · **Tue 7/14: CPI (THE HINGE)** + JPM/WFC/C kickoff · **7/15-22:** monolines / Axis-A (SYF/ALLY/COF) · **~7/16:** WAL Q2 (est — reshape-(c) gate) + TIC (arm-#3 + demand-hole arbiter) · **7/21:** OZK Q2 (AMC, confirmed; −6.6% wk into print) · **7/22:** 40Y JGB + GOOGL · **7/25-28:** BDC/ARCC Q2 marks · **7/28-29:** FOMC · **~7/31:** MOF monthly (hard intervention confirm).
+**Fri 7/10:** BRENT sustain verdict (capital gate) + RED grades CHG-041 final + 10Y close (arm-#2 4-of-5 or reset) + WASDE · **Mon 7/13:** arm-#2 completes if held · **Tue 7/14: CPI (THE HINGE)** + JPM/WFC/C kickoff · **7/15-22:** monolines / Axis-A (SYF/ALLY/COF) · **7/16:** TIC (arm-#3 + demand-hole arbiter) · **7/21 (triple print):** WAL Q2 AMC (CONFIRMED 7/9, was ~7/16 est — reshape-(c) gate) + OZK Q2 AMC (−6.6% wk into print) + ALLY 7:30am · **7/22:** 40Y JGB + GOOGL · **7/25-28:** BDC/ARCC Q2 marks · **7/28-29:** FOMC · **~7/31:** MOF monthly (hard intervention confirm).
 
 ## Standing discipline (applies to every catch-up)
 - Numbers > narrative · source + date every claim · verify load-bearing claims vs primaries before writing them into your canon.
