@@ -18,7 +18,7 @@
 - **Fleet stale-info self-sweep (11 agents + PROME):** 30+ defects fixed — worst class = forward-facing secondary surfaces (CALENDAR/TRADE/THESIS) contradicting live state, 3 ACTIVELY INVERTED (ORACLE Iran row, SAM Iran-deal-SIGNED, HAWK inverse ladder calendar); ZHAO+BROCK ledger-drift catches; shadow-adj-270k retired from HEARTBEAT (`350af6f5`).
 - **Open-threads sweep → `PROME/reports/2026-07-09_fleet-open-threads.md`** (`3a852d1b`): Tier-1 = BRK-24 vintage contradiction (BROCK's own March primary contradicts the figures behind tonight's CONFIRMED grade — file verified on disk) → **joint reconcile routed** (`af80902a`).
 - **Routes delivered (Will-authorized ×3 waves):** 7-note bundle (`157bf7ca`) + HAWK cross-flags CARL/HENRY (`155cf1cd`) + BRK-24 joint (`af80902a`).
-- **All 11 spawns released** (shutdown-approved; REGINALD's approval message not observed — verify no orphan pane next session if anything looks off).
+- **All 11 spawns released** (shutdown-approved; REGINALD's approval message arrived late-crossed at ~20:5x ET in the next PROME session [stamped 18:50 ET] — clean shutdown CONFIRMED, no orphan pane, caution cleared).
 
 ## Operator Card + Cautions
 - **Now: Thu 7/9 evening ~18:50 ET, markets closed.** Tape at close (unchanged from afternoon closeout): Brent **$76.01 settle** (low $75.60) · WTI ~$71.9 · 10Y **4.539** (3-of-5) · 30Y ~5.05 · TLT $84.65 · VIX 16.04 · MOVE 72.41 [7/8, ×3 up] · HY 267 [7/7] · USD/JPY 162.28 · Cushing 19.61M · SPR 319.5M · UMCSENT 44.8 · PSAVERT 3.0. **Claims 215K w/e 7/4 = drift band, nothing-new; shadow-adj overlay RETIRED (dead since Jun-2 falsification).**
