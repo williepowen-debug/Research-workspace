@@ -121,12 +121,12 @@ The hidden risk to HOMER's housing vector:
 | # | Prediction | Conf (Apr → 7/10) | Timeframe | Verdict + basis (2026-07-10) |
 |---|---|---|---|---|
 | **PHAN-P01** | BNPL stacking >70% | 60% → 60% | H2 2026 | **OPEN** — H2 window just opened; no fresh stacking print in-file (63% at build). DATA-NEEDED: BNPL stacking update H2 2026 |
-| **PHAN-P02** | Klarna credit losses >1.0% | 65% → **12%** | FY2026 | **MIXED** — **premise REFUTED at parent** (Klarna Q1-2026 PROFITABLE, adj op profit $68M, CARL STATUS May-14 §6); path to >1.0% broken. Not a clean numeric MISS (no in-file FY26 provision %). DATA-NEEDED: Klarna Q2/FY26 provision ~Aug |
+| **PHAN-P02** | Klarna credit losses >1.0% | 65% → 12% → **6%** | FY2026 | **MIXED (MISS-lean hardened)** — premise REFUTED (Klarna Q1-2026 profitable) **+ Q1 actual provision 0.55% of GMV** (reported May-18) is below even the 0.80% band → >1.0% remote. DATA-NEEDED: Q2 provision ~Aug-20 |
 | **PHAN-P03** | CFPB 1033 enforcement delayed beyond 2026 | 90% → **96%** | EOY 2026 | **OPEN — tracking HIT** — mechanism LOCKED (REGULATORY.tsv 2026-04-01 WITHDRAWAL; 2026 enforcement essentially impossible). Formal resolution EOY 2026 |
 | **PHAN-P04** | At least 2 more fintech failures | 60% → **45%** | 2026 | **OPEN** — 0 confirmed NEW 2026 *failures* in-file (FloatMe/Current = distress/investigations, not failures); half the window elapsed at zero. DATA-NEEDED: H2-2026 failure confirmations |
 | **PHAN-P05** | BNPL-linked mortgage defaults identifiable in FHA data | 50% → **40%** | Q3–Q4 2026 | **OPEN** — window just opened; parent notes HUD BNPL RFI **STALLED** (no final guidance) → identifiability delayed. DATA-NEEDED: FHA/HUD BNPL-attribution data |
-| **PHAN-P06** | NY passes first comprehensive BNPL licensing law | 55% → 55% | 2026 | **OPEN** — still PROPOSED in-file (2026-04-09), no passage recorded. DATA-NEEDED: NY legislative outcome H2 2026 |
-| **PHAN-P07** | Cash-advance AG enforcement expands to 5+ states | 75% → 75% | 2026 | **OPEN — definitional split** — narrow (state-AG actions): NY+DC ≈ 2-3, short of 5; broad (state EWA laws): 12 enacted → HIT. Wording ("AG enforcement") → narrow governs → not yet met in-file. DATA-NEEDED: state-AG count H2 2026 |
+| **PHAN-P06** | NY passes first comprehensive BNPL licensing law | 55% → n/a | 2026 | **MIXED — fact TRUE, no forecasting credit** — NY BNPL Act was **SIGNED 2025-05-09** (predates the 4/9 forecast; authored blind to it). DFS rules proposed 2026-02-23. New calibration mode: authored-blind-to-existing-fact |
+| **PHAN-P07** | Cash-advance AG enforcement expands to 5+ states | 75% → **80%** | 2026 | **OPEN — trending HIT** — **Minnesota AG sued Brigit 2026-06-10** → narrow count NY+MN+DC ≈ 3; court rulings vs EWA in 7 states; wave accelerating. DATA-NEEDED: state-AG count H2 2026 |
 
 > **Calibration modes logged (per row, in TSV Notes):** P02 = premise-refutation (built on a losing-Klarna prior parent overturned); P04 = distress≠failure discriminator; P05 = RFI-awareness ≠ data-availability; P06 = proposed≠passed; P07 = definitional-precision (AG-enforcement vs state-laws not disambiguated at authoring). P01/P03 unresolvable-in-file (window open / durable regulatory fact).
 
@@ -152,8 +152,8 @@ Two workbook TSVs **stay LIVE** as append surfaces — DAEDALUS audit flagged bo
 | Fact | Legacy PHAN value (frozen) | Canonical owner / correction |
 |---|---|---|
 | **Klarna Q1-2026 profitability** | STATUS.md asserts Klarna FY2025 net loss, provisions "rising," "narrative cracking," Elliott $6.5B lifeline | ⛔ **REFUTED — Klarna Q1-2026 PROFITABLE** (CARL parent, May-14-2026). The legacy Klarna deterioration narrative is wrong. |
-| **Affirm quarterlies** (GMV, DQ, provisions, ABS FICO) | 2.3% DQ, $214.2M provisions (+40% YoY), ABS WA FICO 672, GMV $13.8B | **KB-CARL-228 + CARL `workbook/BNPL_STRESS.tsv`** canonical |
-| **Klarna quarterlies** (provisions, revenue, class action) | 0.65% provisions, $1.08B rev, case 25-cv-07033 | **KB-CARL-228 + `BNPL_STRESS.tsv`** canonical |
+| **Affirm quarterlies** (GMV, DQ, provisions, ABS FICO) | 2.3% DQ, $214.2M provisions (+40% YoY), ABS WA FICO 672, GMV $13.8B | **KB-CARL-228 + CARL `workbook/BNPL_STRESS.tsv`** canonical. *[2026-07-10 news sweep found fresher Q1-2026 actuals: 30+ DPD **2.8%** (flat YoY), allowance $512M = **6.0%** of loans HFI — route to CARL for KB-228]* |
+| **Klarna quarterlies** (provisions, revenue, class action) | 0.65% provisions, $1.08B rev, case 25-cv-07033 | **KB-CARL-228 + `BNPL_STRESS.tsv`** canonical. *[2026-07-10 news sweep: Q1-2026 provision **0.55% of GMV** (reported May-18), US 30+ DPD improved 36bps from Q2-25 peak, profitable — route to CARL]* |
 | **BNPL late-payment rate** | 41% (ABA) | Owned at parent — verify current figure at CARL |
 | **CC 90+ DQ** | 12.70% (STATUS.md:156 uses this as the phantom-debt multiplier base) | **Parent now 13.1%** — use CARL's figure |
 | **ALLY-analog conclusion** (composition-masking) | FLOW-PHAN-06 + SV-PHAN-2026-04-17-01 | **KB-CARL-228** canonical; §2c here retained only as the *mechanism/trigger* framework, not for the Affirm data points |
@@ -178,7 +178,7 @@ Two workbook TSVs **stay LIVE** as append surfaces — DAEDALUS audit flagged bo
 | **New Economy Project** | Ongoing | NYC cash-advance fee tracking ($650M+ drain) |
 | **Chime regulatory tracker** | 2026 | State EWA-law count (12 enacted, ~20 pending) |
 
-**Catalyst cadence:** Affirm FY Q3 ~May, Q4 ~Aug; Klarna quarterly ~mid-quarter-close+6wk. **Next natural refresh trigger:** Affirm / Klarna Q2 prints, ~Aug-2026.
+**Catalyst cadence:** Affirm FY Q3 ~May, Q4 ~Aug; Klarna quarterly ~mid-quarter-close+6wk. **Next natural refresh trigger:** **Affirm FQ4-2026 earnings CONFIRMED 2026-08-20 after close** (TipRanks/MarketBeat, news sweep 7/10); Klarna Q2 ~mid-Aug. *(Supersedes the earlier "~Aug-13" estimate.)*
 
 ---
 
@@ -200,6 +200,8 @@ A CARL-directed ad-hoc spawn against the phantom-debt domain should:
 |---|---|---|
 | **2026-07-10** | **DOSSIER assembly** (MOLD / DAEDALUS editor) | Dossier assembled from PHAN's Apr-2026 frozen surfaces (transcription-with-provenance, no new analysis). Legacy CLAUDE.md/STATUS.md frozen same day; COCKROACH.tsv + REGULATORY.tsv kept live. |
 | **2026-07-10** | **1st ad-hoc pass** (CARL-directed, ledger-hygiene only, no web data) | **(1)** 7 predictions dispositioned (§4 + `workbook/PREDICTIONS.tsv`): all 2026 windows still open → P02 **MIXED** (premise refuted, Klarna Q1 profitable), P03 re-marked 90%→96% (tracking-HIT, 1033 withdrawn), P04 60%→45%, P05 50%→40%, P06/P07 held, P01 held; calibration mode logged per row. **(2)** FLOW-numbering divergence (§2c) **reconciled — TSV numbering wins** (canonical crosswalk added; prose FLOW-PHAN-03→TSV-04, prose FLOW-PHAN-04→§2a framework/no TSV ID); TSV not renumbered. **(3)** Live ledgers COCKROACH.tsv + REGULATORY.tsv verified readable, headers clean, untouched. Header + §4 truth-stamped. |
+| **2026-07-10** | **Staleness sweep** (CARL-directed, tag-don't-refresh, no web) | 6 rows STALE-tagged: 4 REGULATORY (1033 arc superseded by 4/1 WITHDRAWAL; HUD RFI ACTIVE vs parent STALLED) + 2 COCKROACH (both Klarna rows, deterioration REFUTED). §2a given `[as-of Apr-2026]` section tag. Retirement candidates listed (SCHEMA.tsv; CARL_HANDOFF — keep, load-bearing). |
+| **2026-07-10** | **News sweep** (CARL-directed, web, last-30d) — SV-PHAN-2026-07-10-01 | **P06 CORRECTED** → MIXED: NY BNPL Act **SIGNED 2025-05-09** (predates the forecast → authored-blind-to-existing-fact); DFS rules proposed 2026-02-23 — REGULATORY.tsv +2 corrective rows, old 4/9 row STALE-tagged. **P07 → 80% trending HIT**: Minnesota AG v. Brigit 2026-06-10 (adds MN to NY/DC) — REGULATORY.tsv +1 row. **P02 → 6%**: Klarna Q1-2026 provision 0.55% GMV (May-18). **Affirm/Klarna Q1 actuals** (2.8% DQ/$512M; 0.55%) routed to CARL KB-228 (§6). **P04:** Parker/Hokodo 2026 failures found but B2B/out-of-consumer-scope → not counted, not appended. Furnishing≠visibility (Senate probe May-2026) reinforces P03/§2a. Affirm FQ4 earnings confirmed **2026-08-20** (§8). All figures year-verified 2026. |
 
 ---
 

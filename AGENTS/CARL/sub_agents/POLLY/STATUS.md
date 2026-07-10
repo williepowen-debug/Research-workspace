@@ -2,6 +2,8 @@
 **Last real data refresh:** 2026-04-29 | **Staleness sweep (no data):** 2026-07-10 | **Next:** final refresh at Q2 P&C prints ~late Jul (Will-approved refresh-then-demote)
 
 > ⚠️ **STALE-VINTAGE BANNER (2026-07-10 tag-don't-refresh honesty pass — NO data pulled).** Every value below is **Apr-2026 vintage unless explicitly marked otherwise** — do **NOT** cite as current. Parent **CARL STATUS.md** carries the live insurance rows (UNH/ELV/ALL Q1, CA FAIR 684K, Tenants CPI 7.4%). Dashboard rows carry `[STALE — <as-of>]`; where parent carries the live figure, `[SUPERSEDED — see parent STATUS]`. Prior status descriptor (Apr-29): 🔴 ELEVATED — CA FAIR Plan 684K; auto normalizing; UNH Q1 MCR 83.9% (no breach); ELV Q1 BCR 86.8% + $935M CMS accrual; MA cost trend ~10% confirmed elevated.
+>
+> 📡 **NEWS SWEEP (2026-07-10, feeds late-Jul refresh — NOT applied here):** 6-thread 30-day scan in `state_vectors/SV-POLLY-2026-07-10-01.md`. Headlines: CA FAIR ~30% hike APPROVED (eff Oct-15); FL Citizens ~293,772 end-May (ATL) + Jun-1 reinsurance -20/-30%; UNH Q2 **Jul 16** / ELV Q2 **Jul 22** (date correction); ELV FY BCR guide 90.2% vs Q1 86.8%; auto CPI May −1.7% MoM; OBBBA CMS interim final rule live (Jan-1-2027 start).
 
 **Phase:** Phase 2-3 (Premium Pressure → Coverage Erosion) nationally; Phase 3-4 (Coverage Erosion → Protection Collapse) in CA/LA `[STALE — 2026-04-29]`
 

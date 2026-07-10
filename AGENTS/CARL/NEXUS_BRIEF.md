@@ -5,7 +5,7 @@
 **Thesis version:** v2.6.2 ("Beneath the Ice")
 **Recent thesis pivot:** **v2.6.2 (Jul 10, additive — no score move):** **Independence map added** to the convergence section — 14 vectors ≈ **~10 effectively independent roots** (co-rooted: energy V5/V7-leg/V12-leg · labor V6/V16 · NY-Fed-source V1/V4 · K-shape lens V8); shared-root shocks score as ONE root moving. Prior **v2.6.1 (Jul 2, Will-approved):** V3 Fannie MF DQ→GFC **4→3** — CRL-03 invalidated on its own pre-registered trigger. Net 52→51/70. (v2.6 Jun 22: paired V12 4→5 + V5 4→3.)
 **Position:** N/A — research domain, no direct book. Thesis expresses via REGINALD/FORGE (KRE/WAL/OZK); I do not mark positions.
-**As of:** 2026-07-10 PM-2 ET (Fable orchestration — sub-agent restructure ratified + verified: GIG reconciled [**Dave 28DPD canary RETIRED** → provisioning signal], PHAN dossier'd, THESIS v2.6.2 Independence map; 51/70 holds) | STATUS pin: latest CARL STATUS (behavior-pin)
+**As of:** 2026-07-10 late ET (Fable orchestration day: restructure ratified+verified + staleness sweep + 7-agent NEWS SWEEP synthesized — docket dates corrected [UNH 7/16 / ELV 7/22 / Affirm 8/20], Jul-24 row split [Sub-V sunset ≠ Sec-122 tariff cliff; **CIT struck Sec-122 May-7**, China effective ~35%], S2 Capital REALIZED $0-to-LPs → REGINALD, **V7 FL-composition review opened** [gas+insurance legs easing vs foreclosures firing + Waymo Tampa]; 51/70 holds) | STATUS pin: latest CARL STATUS (behavior-pin)
 
 ---
 

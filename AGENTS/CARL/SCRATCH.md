@@ -2,7 +2,7 @@
 **Last session:** 2026-07-10 ~15:30 ET (Fri, PM-2)
 **Type:** **Fable orchestration session** — CARL-as-coordinator spawned 5 NAMED agents (GIG/STUE/HOMER/DOC/PHAN) to ratify + verify the DAEDALUS sub-agent restructure end-to-end, plus CARL-parent plumbing (THESIS v2.6.2, SPAWN_PROTOCOL rewrite, TEAM truth-up). **No score change — 51/70 holds. No market-data pulls (architecture session).**
 
-**PRIORITY-1:** **June CPI 7/14 (Mon, in 4d) is THE hinge** — pre-register a read (V12 inflation / CRL-10 food 62% / gas pass-through / core→FOMC / medical-care CPI [DOC ride-along, tagged 7/10]) + pull the **7/14 DTN urea weekly** (CRL-10 tell). Unchanged from last session — the orchestration session deliberately didn't touch it.
+**PRIORITY-1:** **June CPI 7/14 (Mon, in 4d) is THE hinge** — pre-register a read (V12 inflation / CRL-10 food 62% / gas pass-through / core→FOMC) + pull the **7/14 DTN urea weekly** (CRL-10 tell). **News-sweep adds to the 7/14 watch:** (a) **medical-care SERVICES CPI** — May reaccelerated 3.2→3.6%; a 2nd rising print revives DOC-P03's path (DOC sweep); (b) **auto-insurance CPI** — May printed −1.7% MoM, June print same release (POLLY); (c) **NFIB June lands the SAME DAY** (~Jul-14, POP). Full sweep synthesis in ROADMAP 7/10-late row + per-agent SVs.
 
 ---
 
@@ -17,7 +17,8 @@ Same-day back-to-back sessions — no market delta integrated (gas $3.884 / Bren
 5. **Plumbing:** SPAWN_PROTOCOL rewritten (SV canon = own state_vectors/ · DATA-REFRESH exit-checklist · downward-propagation rule #10 · roster reality); CLAUDE.md 7b sub-ledger predictions glob; TEAM.md fully rewritten (catalyst-driven refresh rules, PAT-044 warning, POLLY Apr-29 fix); docket +DOC on CPI-7/14 + ~Oct-30 DOC-P10 row (Affirm/Klarna Aug-13 row already existed).
 6. **Hygiene:** Ally raw 10-K HTMLs (17.4MB) trashed — zero live cites, never git-committed, EDGAR accessions in provenance note. COOK declared dead. 3 DAEDALUS notes → processed/. **Write-back delivered:** `AGENTS/DAEDALUS/inbox/2026-07-10_from-CARL_restructure-writeback.md` (★-marked the 3 un-inferable decisions).
 7. CHANGELOG (v2.6.2 entry), ROADMAP (Independence thread ✅; staleness thread CLOSED; new "remaining restructure lanes" thread), NEXUS_BRIEF re-pinned (Dave-canary-retired fleet note + convergence-reading caveat), MEMORY +2 entries.
-8. **EVE — bands ratified + Gridwise pull + fleet-wide staleness sweep (Will-directed, 7 named agents, tag-don't-refresh):** VX-GIG-3.08 bands Will-approved provisional (re-cut at Dave Q2); GIG Gridwise pull — no mid-year print (P03/P06 stamped, carry to Aug) but NEW Q1-26 fuel-share data landed (17.4% ride / 15.6% delivery of gross — first hard gas-squeeze quantification); PAT-046 rule 5 into SPAWN_PROTOCOL + all 3 templates. Then all 7 sub-agent dirs swept honest: POLLY/POP full restamps + banners (13 TSVs), POP's 9 wrong-IEEPA occurrences tagged + **Sub-V P03 premise contradicted** (resolve 7/24), STUE collections-restart contradiction caught (CRL-14 class), HOMER Freddie-HPI hypothesis contradicted-so-far + KBH gap (→ refresh brief), GIG FLOW dead-JOLTS residual tagged, 12 files retired→archive/ (STUE 11, POLLY 1). **ML.tsv schema-drift = confirmed recurring class (3rd instance: GIG/POLLY/POP)** — repairs ride each next refresh; per-agent refresh briefs in ROADMAP remaining-lanes thread.
+8. **LATE — fleet-wide NEWS SWEEP (Will-directed, 7 named agents, web) + synthesis** *(chronologically after item 9's staleness sweep)*: docket surgery (UNH 7/16 / ELV 7/22 / Affirm 8/20 all source-verified; **Jul-24 row was CONFLATING Sub-V debt-sunset with the Sec-122 tariff cliff → split**; CIT struck Sec-122 May-7 → new Jul-20 USTR row; ~Sept Sweet watch). KB +3 (323 tariff decomposition ~35% [IEEPA open-Q RESOLVED] / 324 S2 REALIZED $0-to-LPs → **REGINALD packet sent** / 325 Affirm-Klarna Q1 actuals). CRL-14 restart-timing note (late-summer/fall, stays STUCK). **NEW: V7 composition review open question** (FL: gas + insurance legs easing vs foreclosures firing + Waymo Tampa — thesis-review, Will visibility, no mechanical rescore). Dave provision pre-guided as timing artifact (3.08 bands stay provisional). PHAN: P06 authored-blind-to-existing-fact / P07→80% / P02→6%. Sub-V June +28%, H1 +50% (decel-but-level-high → P03 framing set).
+9. **EVE — bands ratified + Gridwise pull + fleet-wide staleness sweep (Will-directed, 7 named agents, tag-don't-refresh):** VX-GIG-3.08 bands Will-approved provisional (re-cut at Dave Q2); GIG Gridwise pull — no mid-year print (P03/P06 stamped, carry to Aug) but NEW Q1-26 fuel-share data landed (17.4% ride / 15.6% delivery of gross — first hard gas-squeeze quantification); PAT-046 rule 5 into SPAWN_PROTOCOL + all 3 templates. Then all 7 sub-agent dirs swept honest: POLLY/POP full restamps + banners (13 TSVs), POP's 9 wrong-IEEPA occurrences tagged + **Sub-V P03 premise contradicted** (resolve 7/24), STUE collections-restart contradiction caught (CRL-14 class), HOMER Freddie-HPI hypothesis contradicted-so-far + KBH gap (→ refresh brief), GIG FLOW dead-JOLTS residual tagged, 12 files retired→archive/ (STUE 11, POLLY 1). **ML.tsv schema-drift = confirmed recurring class (3rd instance: GIG/POLLY/POP)** — repairs ride each next refresh; per-agent refresh briefs in ROADMAP remaining-lanes thread.
 
 ## STATUS CHANGES
 | Item | Change |
@@ -54,10 +55,11 @@ Same-day back-to-back sessions — no market delta integrated (gas $3.884 / Bren
 
 ---
 
-## OUTBOX (1 new this session)
+## OUTBOX (2 new this session)
 | File | To | Summary |
 |------|----|---------|
-| DAEDALUS/inbox/2026-07-10_from-CARL_restructure-writeback.md | DAEDALUS | Full queue+docket dispositions; ★GIG judgment calls / ★SV-migrate / ★Ally-trash; 2 framing corrections (CRL-08 "never recorded", dedup "expect score to move") |
+| DAEDALUS/inbox/2026-07-10_from-CARL_restructure-writeback.md | DAEDALUS | Full queue+docket dispositions; ★GIG judgment calls / ★SV-migrate / ★Ally-trash; 2 framing corrections — **PROCESSED by DAEDALUS same night (1dfec470)** |
+| REGINALD/inbox/2026-07-10_from-CARL_tx-mf-realization-cluster.md | REGINALD | S2 $0-to-LPs + $140M DFW FCs + ~$900M TX July auctions + Trepp $2.54B July maturities; 3 bank-side questions; silence=received |
 *(Prior 9 still pending messaging-overhaul; outbox-restraint held.)*
 
 ## INBOX (0 unprocessed)

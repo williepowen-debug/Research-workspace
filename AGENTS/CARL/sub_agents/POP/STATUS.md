@@ -3,6 +3,8 @@
 
 > ⚠️ **STALE-VINTAGE BANNER (2026-07-10 honesty pass):** All values below are **Apr-17-vintage unless individually marked**. Do **not** cite any dashboard row as current. This was a tag-only sweep — no web pulls, no value updates, no prediction resolution. Rows contradicted by parent CARL facts carry `[SUPERSEDED ...]`; the China IEEPA 125-145% figure carries `[FLAGGED WRONG ...]`; past-dated catalysts still listed as upcoming carry `[PASSED]`. Real refresh + P01-P08 resolution happen at the Jul-24 spawn.
 
+> 📡 **News sweep 2026-07-10 → `state_vectors/SV-POP-2026-07-10-01.md`** (feeds Jul-24 refresh, NOT applied here): CIT STRUCK Sec-122 (May 7, non-parties still pay pending appeal); Jul-24 cliff likely → Sec-301 12.5%/46-countries replacement (USTR Jul-20 deadline), not relief; June Sub-V +28% YoY / H1 +50% (growth-rate decel continues, level stays high); NFIB May 95.3 / Unc 91 (fresh); China effective ~35% (Sec122+Sec301) — 125-145% was transient 2025 peak.
+
 **Status (as of Apr-17):** 🔴 CRITICAL — NFIB Uncertainty BREACHED >90; profit trend -25pp; tariff regime changed (IEEPA struck, Section 122 10% active)
 
 ## ⚠️ THRESHOLD BREACHES THIS REFRESH (Apr 17)
