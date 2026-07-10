@@ -6,13 +6,13 @@ Source: `PROME/reports/2026-07-09_fleet-open-threads.md` (11-agent open-threads 
 
 The sweep surfaced standing capability gaps (report Tier-3). **Will's explicit bias: where a build is cheap, recommend building it now — don't park things for elegance.** For each gap: (a) structural or transient? (b) who owns the build? (c) build-now / build-later / park, with sizing (sessions, model tier).
 
-The list (one already carved out):
-1. ~~LABOR insider Form-4 scanner (WAL/OZK, 14x framework)~~ — **CARVED OUT, already greenlit** (Will 7/9): time-boxed to the 7/21 WAL/OZK prints, LABOR builds it next boot. Not yours — listed so you don't re-litigate it; DO fold its existence into your maturity map.
-2. **LABOR job-posting-withdrawal tracker** — 3-12wk labor lead time; flagged since Feb, never built.
-3. **ORACLE structural-credit market coverage** — zero prediction-market instrumentation on CRE-default / CC-delinquency / Fed-facility series; + the proposed **disruption-vs-supply spread as a derived number** (standing build candidate).
-4. **SAM GPIF-flows tracking script** — Tier-2/3 backlog since 6/15; a named Japan demand-leg gap.
-5. **HAWK Baghdad/Green-Zone instrument** — cleanest unfired D-discriminator, currently ad-hoc search only.
-6. **MARCO sub-annual FL migration proxies** (USPS COA, school enrollment) — canonical figure is annual+stale by construction.
+The list — **UPDATE (PROME, 7/9 ~20:50): Will directed same-night builds; items 1-4 are being BUILT by their owners in a 7/9-eve spawn wave** (LABOR: Form-4 scanner + job-posting-tracker feasibility probe · ORACLE: structural-credit coverage + disruption-vs-supply spread · SAM: GPIF script + MOF weekly read). **Your Ask-1 narrows to:** (a) items 5-6 below — full assessment, they were deferred to you because their data-source feasibility is unknown; (b) a light review pass over the 1-4 build outcomes at your next boot (fold into the maturity map; flag anything built brittle or mis-owned — the outcomes will be in the owners' dirs + PROME's session record).
+1. ~~LABOR insider Form-4 scanner~~ — BUILDING tonight (was already carved out/greenlit; 7/21-print time box).
+2. ~~LABOR job-posting-withdrawal tracker~~ — feasibility-probing tonight (free-source-or-honest-wall; if it hits a paid wall, the wall doc comes to you as input).
+3. ~~ORACLE structural-credit coverage + disruption-vs-supply spread~~ — BUILDING tonight.
+4. ~~SAM GPIF-flows script~~ — BUILDING tonight (+ the owed MOF weekly read).
+5. **HAWK Baghdad/Green-Zone instrument** — cleanest unfired D-discriminator, currently ad-hoc search only. YOURS to assess: is there a repeatable free source, and is it worth a build?
+6. **MARCO sub-annual FL migration proxies** (USPS COA, school enrollment) — canonical figure is annual+stale by construction. YOURS to assess: source feasibility + whether the proxy quality justifies the build.
 
 Cross-domain patterns from the sweep worth weighing in your assessment (report bottom): vintage traps = the fleet's worst error class · single-point-of-failure sources · passive monitoring misses events (the Form-4/BRK-24 lesson — "publication-exists" predictions need targeted search on a clock) · unowned transmission legs cluster at domain boundaries.
 
