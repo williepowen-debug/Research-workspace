@@ -310,7 +310,7 @@ Q1 gig platform earnings will show impact May 6-7
 
 ## KEY DOCS
 - **RP-LABOR-12**: Comprehensive gig baseline (2026-02-11)
-- **CARL_HANDOFF_20260417.md**: Apr 17 session findings for CARL
+- **outbox/CARL_HANDOFF_20260417.md**: Apr 17 session findings for CARL
 - **ML.tsv**: Master log (entries through ML-GIG-18)
 - **VX.tsv**: Vector tracking (updated Apr 17)
 

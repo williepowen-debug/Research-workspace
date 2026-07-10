@@ -1,3 +1,5 @@
+> ⛔ FROZEN 2026-07-10 — META retired (DAEDALUS audit, Will-approved). Never conformed to the sub-agent contract; primary deliverable + research inputs missing from repo. Do not cite as live. RESEARCH_DIGEST harvested to AGENTS/DAEDALUS/reference/.
+
 # META — Methodology & Architecture Research
 
 ## Role

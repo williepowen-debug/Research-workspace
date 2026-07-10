@@ -1,4 +1,16 @@
-> ⛔ FROZEN 2026-07-10 — META retired (DAEDALUS audit, Will-approved). Never conformed to the sub-agent contract; primary deliverable + research inputs missing from repo. Do not cite as live. This file was harvested to AGENTS/DAEDALUS/reference/META_RESEARCH_DIGEST_harvested_2026-07-10.md (the sole surviving copy; its source documents were pruned from the repo).
+<!--
+================================================================================
+HARVEST PROVENANCE — prepended 2026-07-10 by KORE (editor agent) for DAEDALUS.
+Context: Will-approved META sub-agent retirement (DAEDALUS CARL sub-agent audit,
+2026-07-10). Original at AGENTS/CARL/sub_agents/META/core/RESEARCH_DIGEST.md — now
+FROZEN. This is the SOLE surviving copy of the 6-framework methodology digest: its
+source documents (HEUER_CONDENSED, CARL_NONAKA_RESEARCH_SECTION, CARL_BOUNDARY_
+OBJECTS_RESEARCH_SECTION, Lab_notebooks, Military_notes, CARL_HOSPITAL_HANDOFFS_
+RESEARCH_SECTION) were pruned from the repo. Relevance to DAEDALUS: maps onto the
+PATTERNS / BLUEPRINTS layer (design doctrine for how agents are built).
+Content below is byte-identical to the frozen original (diff-verified at harvest).
+================================================================================
+-->
 
 # RESEARCH DIGEST
 
