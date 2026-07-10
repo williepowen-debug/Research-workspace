@@ -54,7 +54,7 @@ POLLY is a subordinate agent. Primary functions:
 
 ## Key Thresholds
 
-| Metric | Current | Yellow | Orange | Red | Source |
+| Metric | Current (build-vintage snapshot) | Yellow | Orange | Red | Source |
 |--------|---------|--------|--------|-----|--------|
 | Auto Insurance CPI YoY | 5.9% | >8% | >12% | >18% | BLS Feb 2026 |
 | Uninsured Motorist Rate | 15.4% | >14% ✅ | >17% | >20% | IRC 2023 |
@@ -67,6 +67,8 @@ POLLY is a subordinate agent. Primary functions:
 | Avg Employer Deductible | $1,886 | >$2,000 | >$2,500 | >$3,000 | KFF 2025 |
 | HO P&C Combined Ratio | 106.1% | >102% ✅ | >105% ✅ | >110% | S&P/III 2025 |
 | Medical Debt Prevalence | ~20% / $195B | >20% ✅ | >25% | >30% | KFF/CFPB |
+
+> Live values live in STATUS.md's dashboard — this table defines thresholds/bands; the snapshot column is NOT current (as-of ~build date, see file history).
 
 ## Key Data Sources
 
@@ -98,13 +100,8 @@ workbook/
   FLOW.tsv                             # Transmission pathways (5 flows)
   HOTSPOTS.tsv                         # Geographic hotspot status
   PREDICTIONS.tsv                      # Predictions with confidence and invalidation
-sources/
-  (populated during deep dives)
-archive/
-  POLLY_DOMAIN_SKELETON.md             # Legacy (v0.1 bootstrap)
-  POLLY_METHODOLOGY_SKELETON.md        # Legacy (v0.1 bootstrap)
-  POLLY_HANDOFF_S0.md                  # Session 0 handoff (Jan 2026)
-  POLLY_HANDOFF_S1.md                  # Session 1 handoff (Jan 2026)
+# sources/  — created on demand during deep dives; not present until populated
+# archive/  — legacy v0.1 skeletons + S0/S1 handoffs (deleted in 2026-06 public-prep prune, commit 1cb18fbc; recoverable from git history)
 ```
 
 ## On Session Start
@@ -124,7 +121,8 @@ archive/
 
 ## State Vector Protocol
 
-**Location:** ../SHARED/state_vectors/incoming/ (or CARL outbox if SHARED doesn't exist)
+**Channel:** Write state vectors to your own `state_vectors/` directory, named `SV-POLLY-YYYY-MM-DD-NN.md`. CARL reads them at harvest (SPAWN_PROTOCOL Phase B).
+<!-- SV channel corrected 2026-07-10 (DAEDALUS, Will-approved): ../SHARED/ never existed -->
 **Filename:** SV-POLLY-[YYYY-MM-DD]-[##].md
 
 Template:

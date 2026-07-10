@@ -60,7 +60,7 @@ POP is a subordinate agent. Primary functions:
 
 ## Key Thresholds
 
-| Metric | Current | Yellow | Orange | Red | Source |
+| Metric | Current (build-vintage snapshot) | Yellow | Orange | Red | Source |
 |--------|---------|--------|--------|-----|--------|
 | Ch.11 Filings YoY | +37% (Q1 2026) | >20% | >40% | >60% | ABI/Epiq |
 | Subchapter V YoY | +67% (Q1 2026) | >30% | >50% | >80% | GlobeNewswire |
@@ -72,6 +72,8 @@ POP is a subordinate agent. Primary functions:
 | Retail Closures 2026 | 7,900-14,000 proj. | >5K | >10K | >15K | Coresight |
 | Business Apps (monthly) | ~515K (Feb 2026) | Decline 3+ mo. | YoY -10% | YoY -15% | Census BFS |
 | NFIB Tariff Neg. Impact | 61% of SBs | >40% | >55% | >70% | NSBA Survey |
+
+> Live values live in STATUS.md's dashboard — this table defines thresholds/bands; the snapshot column is NOT current (as-of ~build date, see file history).
 
 ## Key Data Sources
 
@@ -103,13 +105,11 @@ workbook/
   PREDICTIONS.tsv                      # Predictions
   SECTOR.tsv                           # Sector-level stress data
   TARIFF.tsv                           # Tariff impact tracking by sector
-sources/
-  (research deep dives go here)
-archive/
-  POP_DOMAIN_SKELETON.md               # Legacy domain scaffold
-  POP_METHODOLOGY_SKELETON.md          # Legacy methodology scaffold
-  POP_HANDOFF_S0.md                    # Session 0 handoff
-  POP_HANDOFF_S1.md                    # Session 1 handoff
+domain/
+  sources/                             # Research deep dives
+    INVISIBLE_INCOME_DEEP_DIVE.md      # Invisible-income ($73-145B) deep dive
+    SB_BANK_PIPELINE_DEEP_DIVE.md      # SB → KRE/OZK/WAL bank-pipeline deep dive
+# archive/  — legacy skeletons + S0/S1 handoffs (deleted in 2026-06 public-prep prune, commit 1cb18fbc; recoverable from git history)
 ```
 
 ## On Session Start
@@ -130,7 +130,8 @@ archive/
 
 ## State Vector Protocol
 
-**Location:** ../SHARED/state_vectors/incoming/ (or CARL outbox if SHARED doesn't exist)
+**Channel:** Write state vectors to your own `state_vectors/` directory, named `SV-POP-YYYY-MM-DD-NN.md`. CARL reads them at harvest (SPAWN_PROTOCOL Phase B).
+<!-- SV channel corrected 2026-07-10 (DAEDALUS, Will-approved): ../SHARED/ never existed -->
 **Filename:** SV-POP-[YYYY-MM-DD]-[##].md
 
 Template:

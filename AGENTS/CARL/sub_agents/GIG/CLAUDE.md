@@ -59,7 +59,7 @@ GIG is a subordinate agent. Primary function is to:
 
 ## Key Thresholds
 
-| Metric | Current | Yellow | Orange | Red | Source |
+| Metric | Current (build-vintage snapshot) | Yellow | Orange | Red | Source |
 |--------|---------|--------|--------|-----|--------|
 | Dave 28DPD | 1.89% | >2.10% | >2.30% | >2.50% | Dave 10-K/Q |
 | DoorDash Median Hourly | $11.63 | <$11 | <$10 | <$9 | Gridwise |
@@ -68,6 +68,8 @@ GIG is a subordinate agent. Primary function is to:
 | Multi-Apping Rate | ~50% | >55% | >65% | >75% | Industry |
 | Emergency Loan Dependency | 58% | >55% ✅ | >65% | >75% | RadCred |
 | Waymo Rides/Week | 500K | 750K | 1M | 2M | Waymo/CNBC |
+
+> Live values live in STATUS.md's dashboard — this table defines thresholds/bands; the snapshot column is NOT current (as-of ~build date, see file history).
 
 ## Key Data Sources
 
@@ -94,12 +96,13 @@ workbook/
   PLATFORM.tsv                         # Platform-level metrics (Uber, Lyft, DoorDash, Dave, Fiverr, etc.)
   DRIVER_ECONOMICS.tsv                 # Driver income/expenses by platform and region
   AV_TRACKER.tsv                       # Waymo/Tesla deployment, rides, displacement
-  VX.tsv                               # Vector tracking (18 vectors)
-  ML.tsv                               # Master log (13 entries)
+  VX.tsv                               # Vector tracking (17 vectors)
+  ML.tsv                               # Master log (18 entries)
   FLOW.tsv                             # Transmission pathways (6 flows)
   PREDICTIONS.tsv                      # Predictions (8 active)
 sources/
   RP-LABOR-12_Gig_Economy_Baseline_2026-02-11.md  # Comprehensive baseline (24K+)
+outbox/                                # State Vector deliveries (SV-GIG-*.md) — see SV protocol for go-forward channel
 ```
 
 ## On Session Start
@@ -117,7 +120,8 @@ sources/
 
 ## State Vector Protocol
 
-**Location:** ../SHARED/state_vectors/incoming/ (or CARL outbox if SHARED doesn't exist)
+**Channel:** Write state vectors to your own `state_vectors/` directory, named `SV-GIG-YYYY-MM-DD-NN.md`. CARL reads them at harvest (SPAWN_PROTOCOL Phase B). (Prior SVs live in `outbox/`.)
+<!-- SV channel corrected 2026-07-10 (DAEDALUS, Will-approved): ../SHARED/ never existed -->
 **Filename:** SV-GIG-[YYYY-MM-DD]-[##].md
 
 Template:
@@ -170,7 +174,7 @@ CARL's workbook holds the canonical gig-related entries. GIG is the sub-agent; C
 
 **VX vectors (CARL workbook/VX.tsv):**
 - VX-CARL-4.03: Trade-down migration (Dollar Tree 6.5M new HH from >$100K) — K-shape converging
-- GIG's own vectors tracked in GIG workbook/VX.tsv (18 vectors, 5 CRITICAL)
+- GIG's own vectors tracked in GIG workbook/VX.tsv (17 vectors, 6 CRITICAL)
 
 **FLOW entries (CARL workbook/FLOW.tsv):**
 - FLOW-CARL-4.01/4.02: Payment hierarchy cascade (Auto > Mortgage > Student > CC) — gig auto DQ feeds this

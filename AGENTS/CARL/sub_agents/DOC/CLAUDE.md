@@ -73,6 +73,8 @@ DOC is a subordinate agent. Primary function is to:
 | Rural Hospitals Negative Margin | 46% | >40% ✅ | >50% | >60% | Chartis 2025 |
 | Rx Cost Trend (Employer) | 11-12% | >8% ✅ | >12% | >15% | Segal/PwC 2026 |
 
+> Live values live in STATUS.md's dashboard — this table defines thresholds/bands; the snapshot column is NOT current (as-of ~build date, see file history).
+
 ## Key Data Sources
 
 | Source | Frequency | What It Covers |
@@ -97,19 +99,15 @@ CLAUDE.md                              # This file — agent instructions
 STATUS.md                              # Current state dashboard (≤200 lines)
 workbook/
   SCHEMA.tsv                           # Column definitions for all workbook TSVs
-  VX.tsv                               # Vector tracking (12 vectors)
+  VX.tsv                               # Vector tracking (18 vectors)
   ML.tsv                               # Master log
-  FLOW.tsv                             # Transmission pathways (5 flows)
+  FLOW.tsv                             # Transmission pathways (7 flows)
   PREDICTIONS.tsv                      # Predictions
   COST_DRIVER.tsv                      # Healthcare cost drivers (GLP-1, Rx, hospital, etc.)
   COVERAGE.tsv                         # Coverage status (employer, ACA, Medicaid, uninsured)
-sources/
-  (populated during deep dives)
-archive/
-  DOC_DOMAIN_SKELETON.md               # Legacy domain skeleton (archived 2026-04-09)
-  DOC_METHODOLOGY_SKELETON.md          # Legacy methodology skeleton (archived 2026-04-09)
-  DOC_HANDOFF_S0.md                    # Session 0 handoff (archived 2026-04-09)
-  DOC_HANDOFF_S1.md                    # Session 1 handoff (archived 2026-04-09)
+state_vectors/                         # Delivered State Vectors (SV-DOC-*.md) — CARL harvest source
+# sources/  — created on demand during deep dives; not present until populated
+# archive/  — legacy skeletons + S0/S1 handoffs (deleted in 2026-06 public-prep prune, commit 1cb18fbc; recoverable from git history)
 ```
 
 ## On Session Start
@@ -128,7 +126,8 @@ archive/
 
 ## State Vector Protocol
 
-**Location:** ../SHARED/state_vectors/incoming/ (or CARL outbox if SHARED doesn't exist)
+**Channel:** Write state vectors to your own `state_vectors/` directory, named `SV-DOC-YYYY-MM-DD-NN.md`. CARL reads them at harvest (SPAWN_PROTOCOL Phase B).
+<!-- SV channel corrected 2026-07-10 (DAEDALUS, Will-approved): ../SHARED/ never existed -->
 **Filename:** SV-DOC-[YYYY-MM-DD]-[##].md
 
 Template:
