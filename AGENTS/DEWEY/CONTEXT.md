@@ -6,6 +6,11 @@ Counter-evidence is weighted equally to confirming evidence.
 
 **Refreshed:** 2026-07-02 (Iran/Hormuz section brought current to HAWK 6/28 re-mark + BRENT 7/1 NEXUS_BRIEF, ahead of Batch-2 prompt 06 Hormuz-scorecard run — the fastest-moving domain; other sections still 6/21 vintage). Prior: 2026-06-21 (WALTER pre-spawn); base 2026-06-20 DEWEY revival from 11-cluster taxonomy + REGISTRY. Original frozen late-Feb 2026.
 
+> ⚠️ **STALE-SECTION BANNER (flagged 2026-07-10, DEWEY closeout — refresh these before domain research, don't cite as current):**
+> - **Iran/Hormuz (§Geopolitical/energy + §Current date context): REVERSED.** The 7/2 "oil DECOUPLED to fresh lows / reopening physically DELIVERING" read was overturned by the **7/8 US-Iran truce collapse** (US strikes, Brent +6.3%→~$79 then ~$76, QAFCO offline, strait NOT reopened, OFAC ceasefire-relief revoked). HAWK/BRENT/SAM state files are canonical + current; refresh from them before any Iran-domain run. *(DEWEY's own 7/10 reports 11 + 13 use the corrected post-7/8 state.)*
+> - **Japan/carry (§Japan): 6/21-vintage, superseded.** SAM is now **v1.6.4** — JGB 30Y through the ~4.0% floor, 7/7 auction FIRM (BTC 4.55x), CFTC crossed −153K/85% (entry gate met), Katayama GPIF jawbone 7/10. See DEWEY's own **`output/2026-07-10_jgb-superlong-demand-sign.md`** + SAM STATUS for current.
+> - **§Current date context ("as of 6/21"):** 3+ weeks stale (credit levels, Brent, the "6/22 decoupling test" all superseded).
+
 ## The network in one line
 
 A multi-agent operation tracking systemic-risk *transmission* — detecting stress early enough to position ahead of consensus. Core transmission chain: **LABOR → CARL (consumer) → REGINALD (banks) → market repricing**, with HENRY (velocity), LIQUID (amplification), SAM (Japan, parallel trigger), and HAWK→BRENT (oil/energy) as additional vectors.
