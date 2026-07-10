@@ -49,8 +49,9 @@
 3. **Passive monitoring misses events** — BROCK's audit-skim class (2 catches tonight) + LABOR's unbuilt scanners: "publication/event-exists" predictions need targeted search on a clock, not ambient awareness.
 4. **Unowned transmission legs cluster at domain boundaries** — PJM power-prices (AEOLUS→?), GPIF (SAM), custody hubs (ZHAO), Global Atlantic (SHADE). Boundary-legs need explicit owners or they stay orphaned.
 
-## Route/decision asks for Will
-1. BRK-24 vintage reconcile = SHADE+BROCK joint packet at next boot — **authorize the route?** (Tier-1 #1; pre-monolines.)
-2. PJM demand→price leg owner (BRENT vs HENRY) — your call.
-3. LAB-04: CARL takes it or LABOR reclaims — one-line decision.
-4. Tier-3 builds are DEWEY/dedicated-session candidates, not tonight's tail.
+## Route/decision asks for Will — ALL DISPOSITIONED (Will, 7/9 ~20:30 ET session)
+1. BRK-24 vintage reconcile — ✅ AUTHORIZED + ROUTED same night (`af80902a`, SHADE+BROCK joint packets).
+2. PJM leg — ✅ **HENRY, PROVISIONAL** (packet in its inbox); Will is considering a dedicated power/electricity-cost agent → **DAEDALUS scoping the spinout** (its inbox packet, Ask 2).
+3. LAB-04 — ✅ **CORAL** (Will's call; better fit than the CARL/LABOR binary — foreclosure-by-metro is already in CORAL's mandate). Packet in CORAL's inbox; LABOR told to hand over + mark REHOMED. Employment-signature cross-flag rule preserved.
+4. Tier-3 builds — ✅ **Form-4 scanner carved out + GREENLIT to LABOR (deliver before 7/21)**; the rest → **DAEDALUS capability-gap assessment** with Will's explicit bias-to-build ("if we can just go ahead and take care of them we should").
+5. Position-adjacent (Tier-1 #9) — ✅ tasked: **TERRY** = HBAN Oct $16P date+thesis stub · **REGINALD** = OZK flow/short-interest look before 7/20. Packets in their inboxes.
