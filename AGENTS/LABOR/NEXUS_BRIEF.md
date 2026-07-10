@@ -49,7 +49,7 @@
 
 | From | Input | Expected by | Why it matters | How it changes my view |
 |------|-------|-------------|----------------|------------------------|
-| CARL | LAB-04 pickup (FL foreclosures — routed Jun 16, unowned) | next CARL session | Closes the hand-off loop | Resolves LAB-04 → MOVED; FL labor driver keeps weakening (FL claims quiet Jul 2) |
+| ~~CARL~~ CORAL | ~~LAB-04 pickup~~ **RESOLVED 7/9:** Will re-homed LAB-04 to CORAL (not CARL) — CARL limbo closed | n/a | Hand-off loop closed | LAB-04 → REHOMED→CORAL in ledger; FL labor driver at hand-off: WEAKENED (FL claims quiet Jul 2) |
 | MARCO | ICE worksite-disruption → construction/starts layoff granularity | Q3 | Sizes vector 11 (the demand slice of ICE) | Confirms/raises the only LABOR-bearish ICE channel |
 | REGINALD/CARL | Q2 earnings: layoff-cohort revenue + AI-narrative treatment (LAB-10/11) | Jul 25–Aug | 2nd post-layoff cycle = AI-shield test | LAB-11 resolve direction |
 | WALTER | Any S&P-vs-ISM mfg employment reconciliation coverage; July flash PMI (~Jul 23) | ~Jul 23 | Resolves the survey divergence | Outlier-vs-leader call on mfg employment |

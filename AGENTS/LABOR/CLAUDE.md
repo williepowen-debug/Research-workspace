@@ -236,6 +236,8 @@ When analyzing a new layoff event, apply these frameworks rather than reasoning 
 | `scripts/predictions_due.py` | Flags OPEN predictions past/near due-by (PREDICTIONS.tsv) |
 | `docket/CATALYSTS.tsv` | **Catalyst source of truth** (8-col). STATUS calendar is its human twin. |
 | `scripts/warn_texas.py` | Texas WARN API (cron Wed 8AM ET) |
+| `tools/form4_scanner.py` | SEC EDGAR Form-4 insider-transaction pull + 14x sell/buy framework scoring. `scan <TICKER> --days N`. Built 7/9 (Will-greenlit), WAL/OZK-first-class, ZION included. |
+| `tools/job_postings_tracker.py` | Indeed Hiring Lab job-postings index (free GitHub CSV) — `national` / `state <ABBR>` / `rank`. Built 7/9 (feasibility-probe outcome: YES, minimal build shipped). |
 | `workbook/VX.tsv` | Vectors — tracked risk indicators with thresholds and state |
 | `workbook/KB.tsv` | Knowledge base — timestamped evidence with sources, cross-links, confidence levels |
 | `workbook/FLOW.tsv` | Transmission pathways — how stress travels between domains |
