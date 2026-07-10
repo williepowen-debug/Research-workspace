@@ -1,0 +1,6 @@
+discovered_date	period_label	report_type	url	asset_size_jpy_bn	period_return_pct	domestic_bonds_pct	domestic_bonds_jpy_bn	foreign_bonds_pct	foreign_bonds_jpy_bn	domestic_equities_pct	domestic_equities_jpy_bn	foreign_equities_pct	foreign_equities_jpy_bn	domestic_bonds_flow_jpy_bn	foreign_bonds_flow_jpy_bn	domestic_equities_flow_jpy_bn	foreign_equities_flow_jpy_bn	parse_status
+2026-07-09	FY2025_ANNUAL	annual_summary	https://www.gpif.go.jp/en/performance/73509681gpif/annual_report_summary_2025_en.pdf	293643.7	16.47	26.91	80679.1	24.48	73399.0	23.81	71390.5	24.8	74356.9	14753.2	2653.0	-10693.2	-4201.3	OK
+2026-07-09	FY2025_HOLDINGS	portfolio_holdings_xlsx	https://www.gpif.go.jp/en/performance/73509681gpif/unyoujoukyou_2025_20_en_2.xlsx															LINK_ONLY
+2026-07-09	FY2025_3Q	quarterly_update	https://www.gpif.go.jp/en/performance/75943515gpif/2025_3Q_0206_en.pdf	293427.6	5.84	25.29	74570.7	25.34	74715.7	24.69	72804.6	24.67	72746.1					OK
+2026-07-09	FY2025_2Q	quarterly_update	https://www.gpif.go.jp/en/performance/92011372gpif/2025_2Q_1107_en.pdf	277614.7	5.52	26.29	74276.3	25.1	70929.4	24.16	68258.4	24.45	69071.5					OK
+2026-07-09	FY2025_1Q	quarterly_update	https://www.gpif.go.jp/en/performance/2025_1Q_0801-en.pdf	260024.3	4.09	26.13	68916.6	25.22	66517.4	24.37	64275.4	24.28	64053.6					OK
