@@ -18,6 +18,17 @@
 
 ---
 
+## 2026-07-10 — Core-files staleness sweep + triaged remediation
+
+**Noticed during the session:**
+- **PAT-043 in the wild.** The audit's headline — live thesis in STATUS, thesis-of-record fossilized — is exactly decay-from-the-durable-end. The tell: refresh loops touch STATUS because it's convenient mid-session; THESIS/TIMELINE/INDEX/MATRIX only move on a deliberate rewrite that never gets scheduled. Banner-guard is the cheap interim; the real fix is *scheduling* the rewrite (post-7/21).
+- **The two-clock header silences its own nag.** Adding a STALE-VINTAGE header to KB/FLOW resets the git-commit-time the staleness script keys on → boot-7a stops flagging them. Caught it before committing; moved the refresh-debt to a ROADMAP thread so it's not lost. The human-readable "Last real data refresh" date is the honest artifact, but you MUST re-home the auto-nag or it vanishes (PAT-044 laundering).
+- **CCC/HY quietly walked back to the tripwire line.** 3.49× [6/24] → 3.61× [7/9], AT the 3.6× line, ARMED 1-of-3. But the driver is HY compression (270 vs 276 6/24), not a CCC blowout — a denominator-shrink move, beta-ish, not tail-substance. Don't over-read the single close.
+
+**Threads carried (ROADMAP):** post-Jul-21 thesis-of-record rewrite (bucket 2) + KB reconstruction (bucket 3); VX-REG-18.04 X1-root reframe; inbox (2 PROME + 5 WALTER) not processed.
+
+---
+
 ## 2026-06-25 — Transmission-Terminus Cluster, Pass 1 (hub seat) — tripwire + grid + leg-spec
 
 **Did three bounded things (per Prome spawn brief):**
@@ -54,29 +65,7 @@
 
 ---
 
-## 2026-06-20 — Recovery of orphaned 6/19 BOARD rows + CRE-DQ-by-tier drill
-
-**Noticed during the session:**
-- The CRE-DQ-by-tier question resolved cleaner than expected: it's a CRE-**CONCENTRATION** sort, not asset-size. OZK + EGBN (the 2 highest-CRE names) creep; BKU/SBCF (diversified) don't. SIG-009's "$16-40B tier" was a proxy for concentration — a Trepp asset-bucket cut can mask a concentration story. Worth remembering for future tier-based signals.
-- **Reservoir-lag is the load-bearing concept.** OZK's NCO (0.57%) looks benign but past-due doubled and 88% is 5 CRE loans; the loss line lags the leading bucket 1-2 quarters. Reading NCO alone (the 6/8 cut) missed this — the drill's value was *switching metrics* (DQ leading vs NCO lagging), exactly what the 6/19 open question flagged.
-- **Accepted the adversary's BKU hole.** I pulled BKU's nonaccrual (lagging) and called it RESOLVING but never pulled its 30-89 past-due (leading) — the bucket that moved at OZK. With only the OZK number I might've over-claimed tier-creep; with only BKU-resolving, over-claimed idiosyncratic. Honest read needs the leading bucket on BOTH; Q2 gets it. Good case for why the adversarial stage earns its cost.
-- **OZK files no SEC 10-Q** — cost the subagent ~3 verification passes. Promoted to MEMORY Findings so the next OZK drill doesn't repeat the hunt.
-
-**Threads carried (all in ROADMAP):** BKU 30-89 past-due Q2 falsifier, EGBN CRE-creep watch, Iran oil-leg re-firm (Mon 6/22), capital-rules final rule, MI3/FFIEC, APO Q1, OZK Call Report recheck.
-
----
-
-## 2026-06-19 — Boot + 11-day-gap catch-up + BOARD CRE-credit mini-cluster [pruned stale 6/02 section >2wk; its threads live in ROADMAP]
-
-**Noticed during the catch-up:**
-- The CCC/HY "narrowing" framing I shipped 6/8 (3.48→3.44x) has **re-widened to 3.57x** on the 6/17 FRED refresh — HY tightened to 263bps faster than CCC came in. The bifurcation read keeps oscillating on the 2-day window; the durable statement is "tail lags the index rally," not a clean trend either way. If I keep re-litigating this every boot, it's a candidate for a CCC/HY-ratio tripwire (e.g. >3.6x sustain) so it stops being a prose judgment call. Flagged, not built.
-- **IORB sanity-check caught a framing trap:** WALTER's BOARD signals repeatedly say "Fed flipped cut→HIKE 6/17." IORB is flat at 3.65 → no actual hike happened. It was a hawkish *guidance/dots* flip. Transcribing the signal's shorthand as "hike" would have been wrong. (Echoes [[finding_circular_corroboration_via_state_file]] / verify-from-raw-series.)
-- **HY OAS 263 is 3bps from my own Exit-100% rule (<260).** Risk-on tape is quietly walking me toward my own exit trigger from the credit side while the CRE-fundamental side deteriorates. The bear can be "right on fundamentals, stopped out on credit spreads" — hold both in view.
-- The Trepp CRE-DQ-by-tier signal (009) *looks* like it contradicts my 6/8 cohort finding but is a different metric (DQ vs NCO). Logged the distinction explicitly in STATUS + BOARD_LOG so a future read doesn't false-flag a contradiction.
-
-**Threads carried (all in ROADMAP):** CRE-DQ-by-tier drill (new, OZK-cleanest), capital-rules final-rule watch (new), WAL $85P disposition flag (new) + prior: Juris banking, Slide 113 stress test, Slide 89 NDFI chart, Q&A transcript, life-sci #3, MI3/FFIEC, APO Q1, OZK 10-Q.
-
----
+*(6/20 + 6/19 sections pruned 2026-07-10 — >2wk, substance in ROADMAP Recently Resolved / MEMORY Findings.)*
 
 ## TEMPLATE FOR FUTURE DAYS
 

@@ -1,9 +1,9 @@
 # WAL STATUS
 
 **Last Updated:** 2026-06-08 PM (cohort NCO decomp → Hyp A; thesis bumped to v2.2.1 6/8 AM) | **Thesis:** v2.2.1 "Concentrated CRE Tail Risk Actualizing on Q2 Timeline" (`THESIS.md` v2.2.1, `SCENARIOS.md` v2.2, `CHANGELOG.md`, drill findings `../research/WAL_10Q_DRILL_2026-05-21.md`)
-**Price:** **$79.99** (Jun 8 intraday, −0.20%) | **Threshold:** $78 | **Buffer:** +$1.99 🟢 **RECLAIMED $78** (was breached 7 sessions through 5/21 $77.63; held above through Fri 6/5 risk-off)
+**Price:** **$80.69** (7/10 live, +0.85%; was $79.99 Jun-8) | **Threshold:** $78 | **Buffer:** +$2.69 🟢 held above $78 (softened ~$1.82 on the week but tape still not signaling the bear — see `../STATUS.md`)
 **Status:** 🔴 SHORT THESIS ACTIVE + B1 + B3 FIRED + V4 — 10-Q subsequent-event disclosed $99M life-science office sponsor walk-away (late April, previously *pass* → substandard/non-accrual). Same strategic-default mechanic as IQHQ (OZK). Chief Banking Officer Stephen Curley (head of National Business Lines) resigned same week. Market reacted ~10% on 5/11-5/15 (Simply Wall St 5/14). REG-24 70%, REG-25 75%. **v2.2.1 (6/8 AM):** Bear-medium 30→25 on loss-absorption channel only (macro-NIM tailwind softening: 20Y clean + Waller pivot); EV $67.98 → **$68.93**; PT $50-68. **Cohort NCO decomp (6/8 PM) → Hyp A genuine cohort improvement** — WAL bear now idiosyncratic, "sharpen to WAL-specific" EARNED; Bear-medium stays 25 (no revert); positions/PT/predictions UNCHANGED (`../research/COHORT_NCO_DECOMP_2026-06-08.md`). **V2 inventory test CLEAN** (10-Q has only LAM + Cantor V; WAL escalated to active litigation against Jefferies parent in NY Supreme Court Mar 2026). **V3 NDFI cohort-median CONFIRMED via 10-Q breakout** ($14.93B / 25.2% of HFI). **V1 MI3 primary falsifier STILL HASN'T RUN** — FFIEC PDD bulk window 5/14-16 passed without integration; v2.1 calibration table preserved. Q2 print late July is the binary second-data-point test (one Office migration or many?).
-**KB:** 70 rows / 10 groups (refresh pending Wave 1 chunk 4) | **Consensus:** Mod Buy (cohort median) | **Assets:** ~$90B+
+**KB:** 105 rows / 16 groups (Wave 1 chunk-4 refresh done — corrected 2026-07-10; per `KB_INDEX.md`) | **Consensus:** Mod Buy (cohort median) | **Assets:** ~$90B+
 
 ---
 
@@ -63,7 +63,7 @@ LAM was 70% of total Q1 C&I NCOs ($181.4M). Single-credit charge-off at 21bps of
 | Mortgage Warehouse & MSR | **Lone confirming sub-vector** | $7.155B (12% of loans, 30x peer median) — sits in C&I, not NDFI |
 | Hotel ($4.5B) | **Latent watch** | 0.40% non-Office classified rate; LTV 53%; not currently stressed |
 
-V3 reduced from "major thesis pillar" to "quality-of-names question on the 2,000 lender-finance obligors." Mortgage warehouse counterparty transmission lands at Apollo Atlas SP, not WAL (`domain/WAREHOUSE_EXPOSURE.md`).
+V3 reduced from "major thesis pillar" to "quality-of-names question on the 2,000 lender-finance obligors." Mortgage warehouse counterparty transmission lands at Apollo Atlas SP, not WAL (`../domain/WAREHOUSE_EXPOSURE.md`).
 
 ---
 

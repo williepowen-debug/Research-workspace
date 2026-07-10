@@ -250,7 +250,7 @@ The original V3 thesis ($17.2B SSFA at 20% RW = $1.1B capital savings; "Other On
 
 ### Net V3 read
 
-V3 is now a **quality-of-names question on the 2,000 underlying lender-finance obligors**, not a sizing question. The headline NDFI exposure is at cohort center. The remaining concentration story is the $7.15B Mortgage Warehouse — but that book classifies as C&I (Call Report mechanics) and warehouse-counterparty work (`domain/WAREHOUSE_EXPOSURE.md`) shows transmission lands at **Apollo Atlas SP**, not WAL — Atlas SP is the dominant warehouse provider to FHA-stressed non-bank servicers ($6.9B at PFSI = 78% concentration). WAL holds warehouse books to different counterparties.
+V3 is now a **quality-of-names question on the 2,000 underlying lender-finance obligors**, not a sizing question. The headline NDFI exposure is at cohort center. The remaining concentration story is the $7.15B Mortgage Warehouse — but that book classifies as C&I (Call Report mechanics) and warehouse-counterparty work (`../domain/WAREHOUSE_EXPOSURE.md`) shows transmission lands at **Apollo Atlas SP**, not WAL — Atlas SP is the dominant warehouse provider to FHA-stressed non-bank servicers ($6.9B at PFSI = 78% concentration). WAL holds warehouse books to different counterparties.
 
 ---
 
@@ -343,7 +343,7 @@ Current: $85P / $77.5P / $70P / $65P Jun/Sep — see `../POSITIONS.md` for contr
 | `sources/q1_2026/WAL Q1 2026 - Deck Synthesis.md` | Round 2 deck deep-mine — Slide 12 Classified mix, Slide 17 outlook, Slide 23 maturity wall, Slide 24 NDFI cohort |
 | `sources/q1_2026/WAL Earnings Call.md` | Q1 transcript |
 | `FRAUD/` | V2 chain documentation — refresh pending Wave 1 chunk 2 (`FRAUD/SYNTHESIS_V2.md`) |
-| `domain/WAREHOUSE_EXPOSURE.md` | Mortgage warehouse counterparty mapping (Atlas SP = Apollo, not WAL) |
+| `../domain/WAREHOUSE_EXPOSURE.md` | Mortgage warehouse counterparty mapping (Atlas SP = Apollo, not WAL) |
 | `LEADERSHIP.md` | Insider activity + CFO swap (Idnani from JPM FIG) |
 | `EARNINGS_PREP.md` | Pre-print framework (now historic) |
 | `CHANGELOG.md` | Thesis change history (this directory) |

@@ -319,7 +319,7 @@ V2.1 is the **second time in 24 hours** that external grep/audit caught a wrong 
 - Slide 24: WAL at **7% Ex-Mtg Credit** (vs peer median 6%, average 8%). **At cohort center, not outlier.** Original NDFI-opacity thesis disconfirmed at sizing level.
 - Slide 20: Lender Finance ($2.3B) is **structurally protected** — ~2,000 obligors / 50+ facilities / no single >$30M / 53% effective advance rate / 1.9-yr duration.
 - CLN reference pool **shrinking**: $8.5B (Mar-25) → $8.1B (Dec-25) → $7.9B (Mar-26). Down $600M YoY. CLN-arbitrage sub-vector disconfirmed.
-- $7.155B Mortgage Warehouse & MSR (12% of loans, 30x peer median) is the **lone confirming sub-vector** — sits in C&I, not NDFI (Call Report mechanics), and warehouse-counterparty work (`domain/WAREHOUSE_EXPOSURE.md`) shows transmission lands at Apollo Atlas SP, not WAL.
+- $7.155B Mortgage Warehouse & MSR (12% of loans, 30x peer median) is the **lone confirming sub-vector** — sits in C&I, not NDFI (Call Report mechanics), and warehouse-counterparty work (`../domain/WAREHOUSE_EXPOSURE.md`) shows transmission lands at Apollo Atlas SP, not WAL.
 - V3 reduced from "major thesis pillar" to "quality-of-names question on the 2,000 underlying lender-finance obligors."
 
 **Mgmt outlook tension (Slide 17):**

@@ -1,5 +1,7 @@
 # REGINALD TIMELINE
 
+> ⚠️ **STALE-VINTAGE — 2026-04-02 (pre-Q1-earnings forward calendar, two cycles behind). The LIVE calendar lives in `STATUS.md` §Key Catalysts + `CALENDAR.md`.** Do NOT cite below as current — every Apr branch-point shows "PENDING" (all long resolved); no Jul-14 CPI, no Jul-21 WAL+OZK same-day double-print. **Full rebuild scheduled post-Jul-21 print** (flagged 2026-07-10 audit).
+
 **Last Updated:** 2026-04-02
 **View:** Forward-looking catalyst calendar with branch points. Week-by-week through the Q1 earnings detonation window and beyond.
 

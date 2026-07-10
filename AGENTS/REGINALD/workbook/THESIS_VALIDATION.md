@@ -1,6 +1,8 @@
 # Thesis Validation Criteria & Dependencies
 *Archived from PREDICTIONS.md on Mar 5, 2026*
 
+> ⚠️ **ARCHIVED SNAPSHOT — criteria as of 2026-03-05; NOT maintained. Canonical thesis state = `STATUS.md` (status / EV / channels) + `workbook/PREDICTIONS.tsv` (REG-01..25).** Do NOT read the criteria below as current validation status — they predate the entire Q1/Q2 earnings arc and the 6/8 Hyp-A resolution. **Correction (2026-07-10 audit):** the "PSEC 35%" PIK figure below is the fleet's canonical HALLUCINATED datum — root CLAUDE.md Critical Rule 3 records **actual PSEC PIK was 8.6%, not 35%**. Struck inline below.
+
 ---
 
 ## Primary Thesis: "The Convergence"
@@ -14,7 +16,7 @@
 **Partially validated:**
 - ✅ Office CMBS DQ at ATH — 12.34% (Jan 2026)
 - ✅ SLOOS shows C&I tightening — Jan 2026 survey
-- ✅ BDC PIK at elevated levels — PSEC 35%, FSK 27%
+- ⚠️ BDC PIK at elevated levels — ~~PSEC 35%~~ **PSEC 8.6% (corrected 2026-07-10 — the 35% was hallucinated; root Rule 3)**, FSK 27% *(this "validation" is weakened — PSEC PIK was not in fact elevated)*
 
 **Invalidated if:**
 - FHLB stays <$550B through 2026

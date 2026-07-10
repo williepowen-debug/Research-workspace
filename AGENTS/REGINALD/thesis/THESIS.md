@@ -1,4 +1,7 @@
 # REGINALD — The Convergence Thesis
+
+> ⚠️ **STALE-VINTAGE — v1.4, 2026-04-16 (pre-Q1/Q2-earnings). The LIVE thesis lives in `STATUS.md`.** Do NOT cite anything below as current. This file predates the 6/8 cohort→Hyp-A resolution, the 🔴→🟠 status downgrade, the EV re-mark to $68.93, and the Jul-21 WAL Q2 date. Known-stale below: Status 🔴🔴🔴 (→ 🟠 ELEVATED), "WAL below $78 (~$67-68)" (→ **$80.69, above**), PT $47-60 (→ $50-68), broken pointer `OZK/THESIS.md` (→ `../OZK/`). **Full refresh scheduled post-Jul-21 print** (flagged 2026-07-10 audit).
+
 **Version:** 1.4
 **Last Updated:** 2026-04-16
 **Status:** 🔴🔴🔴 CRITICAL — Six of eight channels at red+, all open simultaneously

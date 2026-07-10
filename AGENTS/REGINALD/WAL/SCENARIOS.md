@@ -165,7 +165,7 @@ V2.0's EV table was multi-quarter unconditional, but applied to Jun 18 positions
 
 ### Sep-18-conditional EV (for comparison)
 
-Sep 18 captures Q2 print (Jul 30) + most of Q3 → ~70% of multi-quarter bear-slow probability mass + ~60% of tail probability mass.
+Sep 18 captures Q2 print (Jul 21 AMC — corrected 2026-07-09; was ~Jul 30 est) + most of Q3 → ~70% of multi-quarter bear-slow probability mass + ~60% of tail probability mass.
 
 | Position | Sep-conditional Bear-fast | Sep-conditional Bear-slow | Sep-conditional Tail | **Sep-EV** |
 |----------|-----|-----|-----|-----|

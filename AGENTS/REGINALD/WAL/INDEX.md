@@ -1,6 +1,8 @@
 # WAL — Agent Index
 **Start here on cold boot.**
 
+> ⚠️ **STALE-VINTAGE — v2.0, May 1 (this "cold boot" index was never updated past v2.0). Cold-boot off `WAL/STATUS.md` + `WAL/THESIS.md` instead (both v2.2.1).** Do NOT trust the weights/EV/positions below: they are v2.0 (Bear 30/Base 38/Bull 25, EV $57→$72, PT $55-70, REG-25 55%). Canonical is **Bear-med 25, EV $68.93, PT $50-68, REG-24 70%/REG-25 75%**. Positions table lists expired Jun-18 puts — canonical positions → `../POSITIONS.md`. **Full refresh to v2.1 scheduled post-Jul-21 print** (flagged 2026-07-10 audit).
+
 **Last session (May 1 — Wave 1 chunks 1-6):** THESIS v2.0 release ("compounder with concentrated CRE tail risk"); CHANGELOG created; STATUS refreshed; FRAUD/STATUS + FRAUD/SYNTHESIS_V2 post-print rewrite; **KB.tsv 80→105 rows** (Q1 print evidence appended); KB_INDEX +1 group (LEADING_CREDIT) + post-Apr 21 quick-reference; SCENARIOS.md re-weighted (Bear 45%→30%, Base 30%→38%, Bull 20%→25%, EV $57→$72).
 
 ---

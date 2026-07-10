@@ -1,5 +1,7 @@
 # Bank Exposure Matrix — Convergence Channel Analysis
 
+> ⚠️ **STALE-VINTAGE — 2026-02-23 (~4.5mo, pre-earnings). Canonical scores live in `STATUS.md` §Convergence Matrix.** Do NOT cite the scores/prices below as current — the Matrix tables here disagree with STATUS AND with each other (EGBN 11 vs 12, CFG 8 vs 9, ZION 6 vs 9; OZK absent entirely). Canonical: **EGBN 20, WAL 20, CFG 15, ZION ~8-9, OZK 13, SSB 11, FLG 8.** The MI3/hidden-CRE ratios (OZK 37.6% / WAL 24.2% / EGBN 23.7%) DO still hold. **Full re-score scheduled post-Jul-21 print** (flagged 2026-07-10 audit).
+
 *Cross-referencing regional banks against the 8 KRE convergence channels + Municipal/Geographic stress*
 
 **Last Updated:** 2026-02-23 13:50 UTC
