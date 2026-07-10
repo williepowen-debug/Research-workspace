@@ -60,7 +60,7 @@ DOC is a subordinate agent. Primary function is to:
 
 ## Key Thresholds
 
-| Metric | Current | Yellow | Orange | Red | Source |
+| Metric | Current (build-vintage snapshot) | Yellow | Orange | Red | Source |
 |--------|---------|--------|--------|-----|--------|
 | Medical Care CPI YoY | 3.4% (Feb 2026) | >4% | >6% | >8% | BLS, Mar 2026 |
 | Avg Single Deductible | $1,886 | >$2,000 | Exceeds savings | >5% income | KFF 2025 |

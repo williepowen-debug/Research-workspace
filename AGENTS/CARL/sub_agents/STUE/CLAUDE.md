@@ -64,7 +64,7 @@ STUE is a subordinate agent. Primary function is to:
 
 ## Key Thresholds
 
-| Metric | Current | Yellow | Orange | Red | Source |
+| Metric | Current (build-vintage snapshot) | Yellow | Orange | Red | Source |
 |--------|---------|--------|--------|-----|--------|
 | 90+ DQ Rate | 9.6% | >6% | >8% | >10% | NY Fed |
 | 30+ DQ Rate | 16.3% | >12% | >15% | >18% | NY Fed |
@@ -72,6 +72,8 @@ STUE is a subordinate agent. Primary function is to:
 | Active Repayment DQ (by $) | 18.6% | >10% | >15% | >20% | FSA |
 | SAVE Non-Selection Rate | TBD | >20% | >35% | >50% | ED/FSA |
 | Servicer Bill Failure Rate | 2.5M/800K DQ | >500K | >1M | >2M | DOE/MOHELA |
+
+> Live values live in STATUS.md's dashboard — this table defines thresholds/bands; the snapshot column is NOT current (as-of ~build date, see file history).
 
 ## Key Data Sources
 
@@ -91,6 +93,9 @@ STUE is a subordinate agent. Primary function is to:
 CLAUDE.md                    # This file — agent instructions
 STATUS.md                    # Current state dashboard
 workbook/                    # Domain logs (TSV exports)
+research/                    # Sourced research notes (CFPB, FICO, MOHELA AG list, etc.)
+domain/                      # Domain compilations + spawn data-refresh outputs
+state_vectors/               # Delivered State Vectors (SV-STUE-*.md) — CARL harvest source
 ```
 
 ## On Session Start
@@ -107,7 +112,8 @@ workbook/                    # Domain logs (TSV exports)
 
 ## State Vector Protocol
 
-**Location:** ../SHARED/state_vectors/incoming/ (or CARL outbox if SHARED doesn't exist)
+**Channel:** Write state vectors to your own `state_vectors/` directory, named `SV-STUE-YYYY-MM-DD-NN.md`. CARL reads them at harvest (SPAWN_PROTOCOL Phase B).
+<!-- SV channel corrected 2026-07-10 (DAEDALUS, Will-approved): ../SHARED/ never existed -->
 **Filename:** SV-STUE-[YYYY-MM-DD]-[##].md
 
 Template:

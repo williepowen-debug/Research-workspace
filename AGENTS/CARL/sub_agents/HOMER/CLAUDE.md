@@ -70,7 +70,7 @@ HOMER is a subordinate agent. Primary function is to:
 
 ## Key Thresholds
 
-| Metric | Current | Yellow | Orange | Red | Source |
+| Metric | Current (build-vintage snapshot) | Yellow | Orange | Red | Source |
 |--------|---------|--------|--------|-----|--------|
 | Fannie MF Serious DQ | 0.74% | >0.50% | >0.65% | >0.80% | Fannie Mae |
 | Freddie MF Serious DQ | 0.48% | >0.30% | >0.40% | >0.50% | Freddie Mac |
@@ -83,6 +83,8 @@ HOMER is a subordinate agent. Primary function is to:
 | Builder Price Cuts | 41% | >25% | >35% | >45% | NAHB |
 | Rent Growth (% Cities Negative) | 56% | >20% | >40% | >55% | Apollo/Slok |
 | Existing Home Sales (Ann.) | ~4.7M | <5.0M | <4.5M | <4.0M | NAR |
+
+> Live values live in STATUS.md's dashboard — this table defines thresholds/bands; the snapshot column is NOT current (as-of ~build date, see file history).
 
 ## Key Data Sources
 
@@ -111,11 +113,13 @@ CLAUDE.md                    # This file — agent instructions
 STATUS.md                    # Current state dashboard
 workbook/                    # Domain TSVs
   SCHEMA.tsv                 # Column definitions for all workbook TSVs
+  KB.tsv                     # HOMER's canonical housing KB (delegated from CARL)
   PIPELINE.tsv               # Foreclosure pipeline tracking
   MULTIFAMILY.tsv            # MF DQ, CMBS, maturity wall
   STATE_HSG.tsv              # State-level housing stress
   BUILDER.tsv                # Builder metrics and sentiment
 domain/                      # Research files, deep dives
+state_vectors/               # Delivered State Vectors (SV-HOMER-*.md) — CARL harvest source
 ```
 
 ## On Session Start
@@ -132,7 +136,8 @@ domain/                      # Research files, deep dives
 
 ## State Vector Protocol
 
-**Location:** ../SHARED/state_vectors/incoming/ (or CARL outbox if SHARED doesn't exist)
+**Channel:** Write state vectors to your own `state_vectors/` directory, named `SV-HOMER-YYYY-MM-DD-NN.md`. CARL reads them at harvest (SPAWN_PROTOCOL Phase B).
+<!-- SV channel corrected 2026-07-10 (DAEDALUS, Will-approved): ../SHARED/ never existed -->
 **Filename:** SV-HOMER-[YYYY-MM-DD]-[##].md
 
 Template:
@@ -178,7 +183,7 @@ This is not monitoring — it's an active stress transmission vector feeding CAR
 
 ## CARL Cross-References
 
-**KB Migration (Apr 13 2026):** 40 housing entries now delegated from CARL → HOMER. HOMER's own KB (`workbook/KB.tsv`, 45 entries) is now the canonical source for housing domain data. CARL KB entries marked DELEGATED TO HOMER retain provenance links. HOMER KB entries include a CARL_ID column for traceability.
+**KB Migration (Apr 13 2026):** 40 housing entries now delegated from CARL → HOMER. HOMER's own KB (`workbook/KB.tsv`, 65 entries) is now the canonical source for housing domain data. CARL KB entries marked DELEGATED TO HOMER retain provenance links. HOMER KB entries include a CARL_ID column for traceability.
 
 **Use HOMER KB first.** Only reference CARL KB for: cross-domain entries (KB-CARL-058 utility/insurance, KB-CARL-066 FL triple squeeze, KB-CARL-140 MD/DOGE), thesis-level housing claims that CARL retained, or VX/FLOW/PREDICTIONS entries (which stay at CARL level).
 
