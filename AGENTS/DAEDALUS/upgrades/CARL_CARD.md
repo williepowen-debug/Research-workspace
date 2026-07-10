@@ -6,6 +6,8 @@
 
 **↳ BATCH_02 cross-ref (do NOT re-propose):** CARL's one true floor gap — **a labeled `## BOTTOM LINE` in STATUS** (§8) — is **already routed in `BATCH_02_handles.md` item 4 (🟡 pending PROME).** It is referenced, not re-proposed, here. Everything else on this card is **net-new** beyond BATCH_02.
 
+> **⟳ REFRESHED 2026-07-10** — thesis now **v2.6.1 / 51/70** (CRL-03 invalidated 7/2; V12 first vector at 5). Queue statuses updated below. **The live work surface is now the 7/10 docket** (`outbox/2026-07-10_to-CARL_upgrade-docket.md`, 9 items) **+ CARL's ratification queue** (inbox note `2026-07-10_from-DAEDALUS_subagent-restructure-complete.md`) — this card is the durable per-section record behind them. Sub-agent layer restructured 7/10 (audit + WP1-4): PHAN→DOSSIER, META frozen, GIG reconciliation draft pending ratify, POP/POLLY refresh-then-demote at late-Jul catalysts — full record in `upgrades/CARL_SUBAGENT_AUDIT_2026-07-10.md`. The card's §"Separately" row on sub-agent staleness is SUPERSEDED by that audit.
+
 ---
 
 | § | Blueprint section | CARL current state | Applies? | Gap type | Proposed minimal handle | Priority |
@@ -33,13 +35,15 @@
 
 ---
 
-## The queue
-1. **§8 BOTTOM LINE handle** — **already routed in BATCH_02 item 4 (pending PROME).** The one cheap floor gap; not re-proposed here.
-2. **§2 Independence column** — **NET-NEW**, cheapest net-new structural handle (S). Formalizes shared-antecedent reasoning into the matrix and immediately surfaces the VX-1.01/VX-CC-01 CC double-count CARL itself flagged. *Highest-value net-new.*
-3. ✅ **APPLIED 7/3 (BATCH_03, DAEDALUS direct — CARL idle).** **CLAUDE.md FILES-table Stub→RETIRED fix** — one-cell self-doc drift; the L238 cell now reads ⛔ RETIRED (Jun 26), matching the file's own banner.
-4. **ABS_BASELINE.tsv freeze-or-refresh** — NET-NEW, S; data-liveness, route a task-packet to CARL (don't guess the freeze-vs-refresh call).
-5. **STATUS 251→<250 trim** — NET-NEW, S, owner hygiene.
-6. **consistency_check.py build** — NET-NEW, M; the named L5 gate, already spec'd in CARL's ROADMAP — note/encourage, it's CARL's lane.
-7. **VX-1.01/VX-CC-01 dedup + sub-agent staleness diff** — CARL own closeout work; flagged, not DAEDALUS-applied.
+## The queue *(statuses refreshed 7/10)*
+1. ✅ **§8 BOTTOM LINE handle — APPLIED 7/1** (PROME CARL-4, verified in-file).
+2. **§2 Independence column** — STILL OPEN (docket #2). Cheapest net-new handle; surfaces the VX-1.01/VX-CC-01 double-count. *Highest-value open handle.*
+3. ✅ **APPLIED 7/3 (BATCH_03, DAEDALUS direct — CARL idle).** CLAUDE.md FILES-table Stub→RETIRED fix.
+4. **ABS_BASELINE.tsv freeze-or-refresh** — STILL OPEN (docket #5); CARL's freeze-vs-refresh call.
+5. **STATUS trim** — STILL OPEN and WORSE: 251→263→**265 ln** (docket #6).
+6. **consistency_check.py build** — 🟡 **IN BUILD 7/10**: Phase-0 spec committed (`bbbd4e4e`, Will-greenlit B4). The L5 gate — watch to completion + durable wiring (PAT-041: home it in boot step 7.0, not a session surface).
+7. **VX-1.01/VX-CC-01 dedup** — STILL OPEN (docket #3, now bundled w/ ROADMAP L86 sub-items a/c). ~~Sub-agent staleness diff~~ → SUPERSEDED by the 7/10 audit/restructure (see refresh banner).
+8. *(added 7/10)* ✅ **boot.py WIRE — DONE by CARL same-day** (step 7.0 cwd-proof + covers-clause, docket_countdown canonical, catalyst_countdown superseded-bannered; PAT-040 closed, PAT-032 write-back received).
+9. *(added 7/10)* **Sub-agent ratification queue** — OPEN, 7 items in CARL inbox (GIG reconciliation JUDGMENT calls, PHAN predictions ×7, TEAM.md rows, SPAWN_PROTOCOL SV-canon mirror + due-scan glob, HOMER SV-02 refile, COOK call, label polish). POP refresh-then-demote **Jul-24 catalyst**; POLLY late-Jul.
 
 > **Note for application:** CARL is idle (all owned files stamp Jun 22-26; every post-6/28 commit touching `AGENTS/CARL/` is WALTER writing CARL's inbox/board, not CARL content). Handle-adds are idle-applicable **with approval**, but they touch CARL's files → gate on **permission + a fresh idle-check** (AUTHORITY). For the ABS_BASELINE freeze-vs-refresh data-liveness call, **route a task-packet** rather than editing the ledger myself (BATCH_02 items 7-8 precedent). DO NOT TOUCH: the 3-mechanism masking separation, the CRL-20/21/24 falsification windows + position-action commitments, KB `Delegated_To`, the frozen VX/FLOW/BNPL/STATE_DIFFUSION/TRENDS ledgers, the retired TRADE.md.
