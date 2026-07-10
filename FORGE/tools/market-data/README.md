@@ -21,6 +21,8 @@ Layer 3: Automation      → dashboard.py (combined view, alerts, STATUS updates
 | FRED | Economic series (claims, delinquencies, SOFR, yields) | Yes (free) — already have one |
 | yfinance | Equity/ETF/commodity/FX prices | No |
 | EDGAR | SEC filings | No |
+| EIA v2 | Petroleum stocks (`eia_fetch`), EIA-930 hourly demand + retail power prices (`eia_fetch_facets`) | Yes (free) — in `.env` |
+| PJM emergency postings | Grid emergency-procedure postings (scraped, `power_watch.py`) | No |
 
 ## Coverage
 
@@ -42,6 +44,24 @@ python3 dashboard.py --tier 1        # Decision drivers only
 python3 fetch.py price KRE           # Single ticker price
 python3 fetch.py fred ICSA           # Single FRED series
 ```
+
+## Power / Grid-Stress Instrument (power_watch.py)
+
+Built by DAEDALUS 2026-07-10 (Will-approved Step-1 power instrument layer — power-agent staged path; see `AGENTS/DAEDALUS/outbox/2026-07-10_to-PROME_tier3-gaps-and-power-agent-memo.md` §5). **Consumer: HENRY (provisional)** — boot-time read of the grid-stress → power-price leg.
+
+```bash
+python3 FORGE/tools/market-data/power_watch.py   # self-locating, any cwd
+# rc 0 = quiet · 1 = emergency-class PJM posting(s) — REVIEW · 2 = fetch failure
+```
+
+Three reads, one verdict line:
+1. **PJM emergency postings** — scrapes `https://emergencyprocedures.pjm.com/` (public, server-rendered; browser UA). Flag-not-fire: emergency-class types (EEA/Capacity Emergency/Load Shed/…) print REVIEW + rc=1; routine local transmission warnings are counted but don't trip. Never auto-declares a C3 event (AEOLUS/HENRY judgment).
+2. **PJM hourly demand** — EIA-930 via new `fetch.eia_pjm_demand()` (route `electricity/rto/region-data`, respondent=PJM, type=D). UTC hour stamps; publishes ~2-6h behind real time.
+3. **Retail price backdrop** — monthly US industrial+residential c/kWh via new `fetch.eia_retail_power_price()` (route `electricity/retail-sales`). **~2-month lag** — cite the month label, never call it current.
+
+Client surface added to `fetch.py` (non-breaking; petroleum `eia_fetch()` untouched): generic `eia_fetch_facets(route, facets, …)` + the two wrappers above. All routes verified live 2026-07-10.
+
+**The PJM-key wall:** actual LMPs (RT/DA prices) need PJM Data Miner 2 — free pjm.com account + subscription key, one-time human registration (6 calls/min non-member). Next increment once a key lands in `.env` as `PJM_API_KEY`. Alternative: gridstatus.io free tier (also signup-gated). Structural capacity-cost leg (BRA auctions: 26/27 cleared at the $329.17 cap, 27/28 at $333.44, 6,623 MW short) is annual-cadence via BRA PDFs, not this script.
 
 ## Citation Convention (CRITICAL — read before citing data)
 

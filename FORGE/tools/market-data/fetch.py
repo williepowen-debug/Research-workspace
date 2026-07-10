@@ -344,6 +344,96 @@ def eia_fetch(series_id, route="petroleum/stoc/wstk", limit=2):
 
 
 # ---------------------------------------------------------------------------
+# EIA electricity (v2 API — EIA-930 hourly demand + monthly retail prices)
+# Added 2026-07-10 (DAEDALUS Step-1 power instrument layer — power-agent staged
+# path; consumer: power_watch.py, HENRY-provisional). Non-breaking: petroleum
+# callers use eia_fetch() above, which is untouched.
+# ---------------------------------------------------------------------------
+
+def eia_fetch_facets(route, facets, frequency="hourly", data_col="value",
+                     limit=24, keep_fields=()):
+    """Generic EIA v2 pull with arbitrary facets. eia_fetch() above is
+    petroleum-shaped (weekly frequency + a `series` facet); this serves routes
+    keyed on other facets — e.g. EIA-930 respondent/type, retail-sales
+    stateid/sectorid. Verified live 2026-07-10 against both routes.
+
+    facets: dict facet_id -> value or list of values.
+    keep_fields: extra row fields to carry through (e.g. "sectorid").
+    Returns newest-first [{date, value, <keep_fields...>}, ...] mirroring
+    fred_fetch/eia_fetch shape, or [{"error": ...}] on failure."""
+    start_time = time.time()
+    facet_sig = "_".join(f"{k}-{'-'.join(map(str, v if isinstance(v, (list, tuple)) else [v]))}"
+                         for k, v in sorted(facets.items()))
+    cache_key = f"eia_{route}_{facet_sig}_{data_col}_{frequency}_{limit}"
+    cached = _cache_get(cache_key)
+    if cached:
+        _audit_log("EIA_CACHE_HIT", {"route": route, "facets": facet_sig, "limit": limit})
+        return cached
+
+    if not EIA_API_KEY:
+        return [{"error": "EIA_API_KEY not set (add to FORGE/tools/market-data/.env)"}]
+
+    params = [
+        ("api_key", EIA_API_KEY),
+        ("frequency", frequency),
+        ("data[0]", data_col),
+        ("sort[0][column]", "period"),
+        ("sort[0][direction]", "desc"),
+        ("length", limit),
+    ]
+    for k, v in facets.items():
+        for vv in (v if isinstance(v, (list, tuple)) else [v]):
+            params.append((f"facets[{k}][]", vv))
+    url = f"{EIA_BASE}/{route}/data/?{urllib.parse.urlencode(params)}"
+    data = _retry_request(url)
+
+    latency_ms = (time.time() - start_time) * 1000
+
+    if "error" in data:
+        _audit_log("EIA_ERROR", {"route": route, "facets": facet_sig, "error": data["error"]}, latency_ms)
+        return [{"error": data["error"]}]
+
+    rows = data.get("response", {}).get("data", [])
+    result = []
+    for r in rows:
+        if r.get(data_col) is None:
+            continue
+        row = {"date": r["period"], "value": r[data_col]}
+        for f in keep_fields:
+            row[f] = r.get(f)
+        result.append(row)
+    _cache_set(cache_key, result)
+    _audit_log("EIA_FETCH", {"route": route, "facets": facet_sig, "observations": len(result)}, latency_ms)
+    return result
+
+
+def eia_pjm_demand(hours=26):
+    """EIA-930 hourly demand for the PJM balancing authority (route
+    electricity/rto/region-data, respondent=PJM, type=D). Newest-first;
+    period stamps are UTC hours ("YYYY-MM-DDTHH"); values are MWh for the
+    hour (≈ average MW). Publication lags real time ~2-6 hours — stamp
+    reads with the period hour, not "now". Default 26 rows = latest read
+    + a full prior-24h peak window + slack."""
+    return eia_fetch_facets("electricity/rto/region-data",
+                            {"respondent": "PJM", "type": "D"},
+                            frequency="hourly", data_col="value", limit=hours)
+
+
+def eia_retail_power_price(sectors=("IND", "RES"), state="US", months=3):
+    """Monthly average retail electricity price, cents/kWh (route
+    electricity/retail-sales, forms EIA-826/861M). state="US" = U.S. total,
+    served cleanly (verified live 2026-07-10; state codes e.g. "PA" also
+    work). ~2-MONTH PUBLICATION LAG — the latest print is a backdrop, not a
+    live price; always cite its month label. Rows carry `sectorid`
+    ("IND"/"RES") so callers can split sectors."""
+    return eia_fetch_facets("electricity/retail-sales",
+                            {"stateid": state, "sectorid": list(sectors)},
+                            frequency="monthly", data_col="price",
+                            limit=months * max(len(sectors), 1),
+                            keep_fields=("sectorid",))
+
+
+# ---------------------------------------------------------------------------
 # Prices (yfinance)
 # ---------------------------------------------------------------------------
 
