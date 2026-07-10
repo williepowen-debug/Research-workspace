@@ -30,6 +30,8 @@ From Will's 2026-07-09 ~23:22 ET Telegram image batch (8 images). Three same-the
 
 **Read (WALTER, not analyst):** the three legs are the stress (hot PPI + record long-end yield) plus the policy counter (repatriation jawbone). For SAM's carry thesis the tension is: fundamentals argue continued BOJ-behind-the-curve yen weakness, while the Katayama repatriation signal is a yen-strengthening policy vector. Route the convergence; SAM adjudicates direction. BOND gets the JGB-10Y leg (global long-end).
 
+**🔻 7/10 MARKET-REACTION ADDENDUM (folded from a later Will-Telegram image, batch 3):** the Katayama repatriation jawbone WORKED intraday — **yen soaring** (JPYUSD +0.57%, Barchart "Japanese Yen soaring," Fri Jul 10) and **JGB yields REVERSED DOWN: 10Y −10bp to 2.775%** (off the 2.887% 30-yr-high print in Leg 2 the prior morning) **+ 20Y −10bp to 3.765%** (zerohedge, quoting the Katayama post). So the same-day sequence is: hot PPI + JGB 30yr-high (stress) → Katayama GPIF/repatriation jawbone → yen up + JGB yields down (the yen-POSITIVE vector priced). Confirms the two-sided read; SAM owns whether this is a durable turn or a jawbone bounce. Pairs with the record-short-positioning signal SIG-W-20260709-018 (a strengthening yen INTO the largest yen short since 2007 = squeeze fuel).
+
 **Routing:** SAM (action) / BOND (info). Verdict: SKIP-VERIFY 0.80.
 
 ## Routing note
