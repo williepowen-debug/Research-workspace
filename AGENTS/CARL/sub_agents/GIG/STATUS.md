@@ -1,4 +1,7 @@
 # GIG STATUS
+
+> ⚠️ **BYPASSED 2026-06-22 / DO NOT CITE AS CURRENT (stamped 2026-07-10, DAEDALUS — mechanical warning, PROME-recommended).** This dashboard is frozen at Apr-17 vintage and **asserts facts falsified by the Jun-22 refresh** (`outbox/SV-GIG-2026-06-22-01.md`): FL gas is $3.617 **BELOW** national (not $4.093 above — thesis-leg sign inverted), the Dave 28DPD canary is survivorship-reframed, natl gas peaked $4.50 May-11 and is receding. **Pending CARL ratification of `RECONCILIATION_DRAFT_2026-07-10.md`** — read the draft + Jun-22 SV for current truth. This banner comes out when the reconciliation lands.
+
 **Last Updated:** 2026-04-17 | **Status:** 🔴 CRITICAL — Gas Easing But Diesel Up, Waymo Crossed 11 Cities, Tesla Driverless in Austin, Dave Q1 May 7
 
 > **Update (Apr 17, 2026):** Gas eased to $4.076 national (from $4.16 Apr 8 — down $0.084 post-ceasefire). FL $4.09, CA $5.86, TX $3.72, IL $4.34. **Diesel STILL $5.608** (Apr 13, -$0.035 from prior week — delivery squeeze persists). Waymo now 11 cities — Nashville live Apr 7, Lyft partnership confirmed, London testing underway. Tesla fully driverless in Austin (no safety driver), geofence expanded to 245 sq mi. Dave Q1 earnings confirmed May 7. Uber May 6, DoorDash May 6, Lyft May 7. **Key risk: Q1 gig platform earnings all land May 6-7 — one-week window reveals gas spike impact on driver counts and worker pay.**
