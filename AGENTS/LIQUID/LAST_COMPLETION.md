@@ -1,0 +1,8 @@
+# LIQUID — LAST_COMPLETION (2026-07-10 ~10:50 ET)
+
+STATUS: DONE (completed + independently re-verified the interrupted ~10:02 spawn's work — all its figures matched my fresh boot.py run)
+CHANGED: STATUS.md (header/BOTTOM LINE + 7/10 bullets, $700B + JGB-floor monitors, DISH-7/31 annotation, KB list→074) · MEMORY.md (7/10 note + 7/2 HAWKISH-tick correction) · board_log.tsv (+10) · 14 inbox items → processed/ · DEMAND_HOLE prereg GRADED · KB.tsv 073/074 · DAEDALUS Batch-1 items 1–7 (CLOSEOUT cwd fix ×2, 3 archive READMEs, orphan archived, relocation, BOTTOM LINE, IDENTITY, PUNCHLIST frozen)
+RESULT: HY OAS 270bps [7/8 FRED] — 267→270 tier CO-WIDENING (CCC 964→975, BB 157→160), 10bp under the 280 X1 line; X1 CLOSED (wrappers LAGS); RE-KILL no fire (closes 267/270 vs <260); KB-069 NOT-FIRED (BB 160 vs 220); KB-072 WATCH (IG 76/basis 194). LIQ-05 UNGRADED, count NOT started — Brent-close gated. 30Y reopen 7/9 graded ABSORPTION HOLDING: indirect 77.74% (TreasuryDirect raw) vs June 60.0%, BTC 2.44, stop 5.058%. Reserves $3.099T [as-of 7/8] +$132B w/w; SOFR−IORB −12bp; SRF $0. Energy-HY 164bps [5/31] confirmed best-available — nothing fresher to flag.
+GAPS: KB-LIQ-074 not adopted (X1 shared canon — BROCK sign-off needed; row-definition mismatch to reconcile) · DAEDALUS ask-8 (EXPECTED_SIGNALS re-home build) pending · CRWV/APLD basket spreads terminal-gated · 30Y WI-tail not independently verified
+WILL_NEEDS: nothing — no proposal owed (X1 both-halves fail regardless of today's Brent verdict)
+FOLLOW-UP: grade LIQ-05 only after BRENT's 14:30 ET sustain verdict + today's close; route KB-LIQ-074 to BROCK; DAEDALUS disposition note owed to its inbox (blocked by no-files-outside-LIQUID this spawn); relay 30Y absorption grade to BOND (BND-11)

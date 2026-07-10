@@ -77,3 +77,16 @@ Refunding weeks stress the plumbing as dealers finance new inventory. Watch for 
 | Demand-hole FIRES (30Y acute) | the mask is cracking ahead of TIC → M-10 goes from masked to live *before* the data; escalate packet C |
 
 **Grade timing:** results ~1pm ET each day. Post a one-line absorption verdict per tenor into STATUS + cross-flag BOND same-day; roll the composite into packet C for the mid-July node.
+
+---
+
+## ✅ GRADED 2026-07-10 (T+1 on the 30Y — 7/9 session missed the same-day post; verified vs TreasuryDirect raw accepted $, not the WALTER headline)
+
+| Tenor | Date | BTC | Indirect | Direct | Dealer | Stop | Verdict vs pre-reg |
+|-------|------|-----|----------|--------|--------|------|--------------------|
+| **30Y reopen** (912810UU0) | **7/9** | **2.44** | **77.74%** ($17.065B/$21.951B comp.) | 12.21% | 10.05% | **5.058%** (record since 2007) | **ABSORPTION HOLDING** — indirect ≥58% cleared by +19.7pp; BTC 2.44 ≥2.28 ✓ |
+| **10Y reopen** (91282CQQ7) | 7/8 | 2.59 | **81.49%** ($31.721B/$38.924B comp.) | 10.73% | 7.78% | 4.580% | **HOLDING** — indirect ≥68% ✓, BTC ≥2.45 ✓, above even June's 78.2% outlier |
+
+**Composite verdict: ABSORPTION HOLDING — and the June "masked-hole" signature REVERSED, not just held.** 30Y indirect SURGED 60.0%→77.7% (+17.7pp) while directs (25.3%→12.2%) and dealers (14.7%→10.1%) *shrank* — the foreign bid replaced the domestic backfill at the 5.058% record stop. Read: this was **price-clearing** (a ~4bp yield concession vs the June 5.020 stop drew the bid — consistent with SAM's ~4.0%-JGB demand-floor "yield roll-up" world where higher long yields PULL institutional demand), NOT a buyers' strike. Caveats: (a) WI-tail not independently verified (WALTER SIG-W-20260709-008 reports "orderly foreign-led"; averageMedianYield 5.007 vs 5.058 stop is normal single-price dispersion); (b) one strong reopen ≠ the June step-down erased — the late-July 2Y/5Y/7Y cycle (2Y indirect 55.45% = closest approach to the <55% line) remains the sustain test; (c) indirect ≠ purely foreign-official (includes foreign private + some domestic funds routed via dealers).
+
+**Thread-forward (TIC 7/16, packet C):** benign branch — absorption holding; the April +$206B inflow mask persists → a sub-$650B China print should get absorbed without market strain (ZHA-04 fires on data, not stress). Plumbing overlay across 7/7–9: CLEAN — SOFR−IORB deeply negative (−12bp, SOFR 3.53 [7/9] vs IORB 3.65), SRF $0 both legs, SOFR99 tail +12bp contained (<20), reserves $3.099T [H.4.1 as-of Wed 7/8] — no dealer-financing strain; the "plumbing seizes before the signal" tail did not show. Cross-flag BOND routed via PROME summary 7/10 (BND-11 feed).

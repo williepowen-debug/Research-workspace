@@ -13,7 +13,7 @@ Funding markets specialist. Monitors Treasury plumbing (RRP/SRF/SOFR/reserves), 
 
 > *Conceptual frame lives in `thesis/THESIS.md` (v2.0, 2026-05-19). This file is identity + current focus only.*
 
-## Current Focus (snapshot as of 2026-06-25; item 5 refreshed 7/6 — live levels → `scripts/boot.py`)
+## Current Focus (snapshot as of 2026-06-25; item 5 refreshed 7/6; pointer restamped 7/10 — **for current state → `STATUS.md`**, live levels → `scripts/boot.py`)
 
 1. **Credit channel — bilateral watch:** HY OAS **276** (6/24), **cushion above the 260 KILL 16bps** — WIDENED 263(6/17)→271(6/23)→276(6/24) AWAY from the kill; TRIGGER A broken/reset, soft-kill scare RESET. **Now 4bps from the >280 X1-decoupling trigger (LIQUID half).** ⚠️ Aggregate masks bifurcation — CCC 964, **CCC−BB 798** widening with the index (KB-LIQ-058/061); substance FIRMED (BROCK KBRA 2.3% record default). APO co-trigger **BROKE <$130 (~$122)** on the AI/alts-crack = bear-confirming (PC→public transmission candidate), NOT Trigger C. Kill memo: `workbook/KILL_MEMO_HY_OAS_260.md`. *(book flat; APO Dec $95P is BROCK's.)*
 2. **Duration transmission (received from BOND-domain):** 30Y **4.94** / 10Y **4.50** / 2Y **4.16** (6/23) — sub-5.00 off the <4.90 unwind (touched 4.90, reversed); 2Y eased off the 4.24 Feb-25 high = term-premium re-steepen. **FOMC 6/17 RESOLVED it (credible-hawkish RALLIED the long end — KB-LIQ-060); now needs a GROWTH break to re-fire.** Brent **~$74** decoupled/disinflationary (Treasury 60d Iran license; curve in contango).
