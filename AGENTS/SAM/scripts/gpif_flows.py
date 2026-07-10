@@ -352,10 +352,20 @@ def main():
             flows = [data.get(k) for k in ("domestic_bonds_flow", "foreign_bonds_flow",
                                             "domestic_equities_flow", "foreign_equities_flow")]
             if any(f is not None for f in flows):
-                print(f"    Rebalancing flow (¥bn): DomBonds {data.get('domestic_bonds_flow','?'):+.1f}  "
-                      f"ForBonds {data.get('foreign_bonds_flow','?'):+.1f}  "
-                      f"DomEq {data.get('domestic_equities_flow','?'):+.1f}  "
-                      f"ForEq {data.get('foreign_equities_flow','?'):+.1f}")
+                def fmt_flow(v):
+                    # Degraded-path guard: a PARTIAL parse can leave some flow
+                    # keys unset while others are populated. Format numerics
+                    # normally; fall back to the raw value ("?") as a plain
+                    # string instead of feeding it a numeric format spec,
+                    # which raised ValueError and skipped append_row() below
+                    # — losing the whole report row over a display-only bug.
+                    if isinstance(v, (int, float)):
+                        return f"{v:+.1f}"
+                    return str(v) if v is not None else "?"
+                print(f"    Rebalancing flow (¥bn): DomBonds {fmt_flow(data.get('domestic_bonds_flow'))}  "
+                      f"ForBonds {fmt_flow(data.get('foreign_bonds_flow'))}  "
+                      f"DomEq {fmt_flow(data.get('domestic_equities_flow'))}  "
+                      f"ForEq {fmt_flow(data.get('foreign_equities_flow'))}")
 
         append_row(row)
         appended += 1

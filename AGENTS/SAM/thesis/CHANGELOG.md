@@ -8,6 +8,20 @@ Tracks all changes to THESIS.md and TIMELINE.md. Reverse chronological. Each ent
 
 ---
 
+## 2026-07-10 — v1.6.3 → **v1.6.4** [MINOR, pre-registered tripwire] — 🔴 SAM-30 CONFIRMED: CFTC built through −153K/85% → carry-convexity-tail reclaims MED-HIGH; entry gate condition MET on the flat book
+
+**Author:** SAM (PROME spawn, Fri 7/10 AM). **Trigger:** boot-sweep adjudication of the Jun-30 CFTC print (deafut.txt primary; released 7/6, landed in `CFTC_JPY.tsv` at the 7/9 boot, adjudicated this session).
+
+**1. The tripwire (the thesis change):** CFTC JPY non-commercial net **−155,092 = 86.2% of the Jul-2024 −180K cycle peak** (longs −1,826 / shorts +7,162 WoW; OI 438,825) — **through the pre-registered −153K/85% escalation line** for the first time this cycle (prior 81.2% Jun-23, which had been the first cover off the top; reversed). Old view: convexity-tail at MEDIUM, honest 60d EV ≈ break-even → analytically a trim signal, entry not EV-positive. New view (registered consequence, executed without wiggle per SAM-30's own terms): **amplifier +5pp → +8-10pp; convexity-tail MEDIUM → MED-HIGH; net EV ~+1.3% → entry EV-positive; carry-unwind buckets ~5-6/17-20/24-28 → ~8-10/20-24/27-31 (7/30/60d).** Single-anchor mechanical step — the Jun-14 discipline rule's full four-anchor re-pencil is OWED next session with the Jul-7 print (releases Fri 7/10 3:30 PM ET).
+
+**2. Context (sharpens, not part of the mechanical step):** the crossing lands the same week as (a) the 7/10 Katayama GPIF/domestic-repatriation jawbone that produced an intraday yen rally (~+0.5%) + JGB long-end rally (10Y −10bp ~2.775 / 20Y −10bp ~3.765, zerohedge/Barchart relays; MOF 7/10 pub = hard verify) — a strengthening yen INTO a record short = reverse-carry-squeeze fuel; (b) WALTER SIG-018 (Barchart: largest TFF leveraged-fund yen short since 2007 — different series from this legacy non-comm gauge, kept distinct, directionally convergent); (c) USD/JPY exiting the 162-163 MOF zone downward (161.8, orderly). Symmetric caveat: positioning is a condition, not a trigger — the squeeze needs a spark; extreme shorts can persist.
+
+**3. Position implication (flagged, not executed):** STATUS's registered entry gate ("deploy only on a FIRED trigger — … / CFTC through −153K/85% / …") is **MET** for the first time since the book went FLAT (6/29). Routed to PROME/Will for decision; TERRY owns construction (rules #6/#7 theirs). No trade recommended this session (spawn scope).
+
+**4. Calibration note:** SAM-30 was a 30% against-base-rate call that resolved TRUE — build-momentum correctly weighted. Offsetting process miss logged: **adjudication lag** — the print was public 7/6 and in the workbook 7/9, but sessions carried "Jun-30 print not confirmed pulled" while the crossing sat in `CFTC_JPY.tsv`. Auto-memory candidate: boot sweeps must adjudicate landed data vs registered lines, not just land it.
+
+---
+
 ## 2026-07-02 — v1.6.2 → **v1.6.3** [MINOR, evidence-forced] — JGB demand-FLOOR found at ~4%; SAM-32 RESOLVED FALSE (48h); MOF-verify: candidate strike = NO STRIKE (ambush-tactics regime logged)
 
 **Author:** SAM. **Trigger:** boot verification sweep on the PROME-queued "MOF verify" assignment (candidate 7/2 strike) surfaced the Meiji Yasuda super-long re-build; 2-outlet verified before propagation (Sato-verify discipline).
