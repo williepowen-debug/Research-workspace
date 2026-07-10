@@ -755,6 +755,29 @@ def check_boot_protocol_xref():
     return out
 
 
+def check_dropzone_pending():
+    """Surface unprocessed items in the WILL desktop drop-zone (inbox/WILL/).
+    Backstops boot step 7f — even if boot skips the scan, an unprocessed drop
+    self-alarms here (the 7/6+7/8 'items sat invisible 2 days' failure class)."""
+    dz = WALTER / "inbox" / "WILL"
+    out = []
+    if not dz.is_dir():
+        out.append((LOW, "inbox/WILL/ drop-zone absent — scaffold not present"))
+        return out
+    skip = {"processed", ".gitignore", ".gitkeep", ".DS_Store", "README.md"}
+    pending = sorted(
+        p.name for p in dz.iterdir()
+        if p.name not in skip and not p.name.startswith(".")
+    )
+    if pending:
+        shown = ", ".join(pending[:8]) + (" …" if len(pending) > 8 else "")
+        out.append((MED, f"{len(pending)} item(s) waiting in inbox/WILL/ drop-zone — "
+                         f"process per CHECKLIST (image-batch/OCR fan-out), never auto-dispatch: {shown}"))
+    else:
+        out.append((INFO, "inbox/WILL/ drop-zone empty"))
+    return out
+
+
 CHECKS = [
     ("version_drift", check_version_drift),
     ("claude_md_version_drift", check_claude_md_version_drift),
@@ -771,6 +794,7 @@ CHECKS = [
     ("written_but_undelivered", check_written_but_undelivered),
     ("deep_research_pending_overdue", check_deep_research_pending_overdue),
     ("staleness_sweep_overdue", check_staleness_sweep_overdue),
+    ("dropzone_pending", check_dropzone_pending),
     ("boot_protocol_xref", check_boot_protocol_xref),
 ]
 

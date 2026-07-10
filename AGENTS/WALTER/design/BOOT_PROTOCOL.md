@@ -8,9 +8,9 @@
 
 ---
 
-## §0.5 — walter_doctor.py (the 15 checks)
+## §0.5 — walter_doctor.py (checks — canonical set = the tool's `CHECKS` list)
 
-Built 2026-06-16; mechanizes the manual domain audit. Read-only, stdlib-only, ~1s, one extra FRED-pull-free. Exit code = count of HIGH/MED. The 15 checks:
+Built 2026-06-16; mechanizes the manual domain audit. Read-only, stdlib-only, ~1s, one extra FRED-pull-free. Exit code = count of HIGH/MED. The checks (the `CHECKS` list in the tool is canonical; two added after the original set are appended at #16-17):
 
 1. **version_drift** — core spec self-declared header versions vs `STATE.md` §1.
 2. **claude_md_version_drift** — CLAUDE.md KEY-DESIGN-FILES version claims vs spec headers (guards the boot doc itself).
@@ -27,6 +27,8 @@ Built 2026-06-16; mechanizes the manual domain audit. Read-only, stdlib-only, ~1
 13. **deep_research_pending_overdue** — DEEP_RESEARCH_FLAGGED_LOG rows PENDING past deadline / stale `open` >30d (the Phase-2.8 flag loop-closer).
 14. **staleness_sweep_overdue** — last STALENESS_SWEEP vs 14d cadence (lifecycle-tagging-lapse guard).
 15. **boot_protocol_xref** — every `[→ BP §x]` pointer in CLAUDE.md resolves to a real `## §x` section here, and every section is pointed-to (added 2026-06-28 per PROME review of the boot-protocol split — guards the split's one new failure mode: cross-ref drift when a step is renumbered or a §x renamed. Dangling pointer → MED; orphan section → LOW. Same mechanize-the-audit philosophy as claude_md_version_drift).
+16. **intake_liveness** — RESEARCH-INTAKE lane freshness (last_run age / feed-degraded / seen-baseline seeded); collector-death → flag PROME (runs between `cron_liveness` and `cushing_capability` in the CHECKS list). *(Was missing from this numbered list; documented 2026-07-09.)*
+17. **dropzone_pending** — unprocessed items in the `inbox/WILL/` desktop drop-zone (backstops boot step §7f; MED when items wait, INFO when empty — guards the 7/6+7/8 "drop sat invisible 2 days" failure class). Added 2026-07-09.
 
 Doc/infra + delivery health — distinct from step 6c (market-data threshold scan). HIGH (version drift, BOARD miscount) → fix before proceeding; MED (dead crons, undelivered-to-CC) → surface/escalate, not blocked on. Adding a new core spec? Add its path to the `SPECS` list in `version_drift_check.py`.
 
@@ -62,6 +64,10 @@ Added 2026-06-20 (DEWEY revival Phase 2). DEWEY hands finished `/deep-research` 
 ## §7e — RESEARCH-INTAKE lane consume
 
 Added 2026-07-02 (PROME packet 2026-06-29, Will-decided option A; rationale section backfilled 2026-07-03). WALTER is the **consumer** of the always-on RESEARCH-INTAKE collection lane (a separate GitHub-Action-written repo `/home/willi/Research-Intake`, 6 feeds: EIA / EDGAR-8K / Treasury-auctions / CFTC-VIX / FRED-16-series / newssweep). It is wired as a PUSH through the delivery lane **gated to significance — deliberately NOT a passive dashboard**, because a passive read-side surface is exactly the COP/BOARD read-side-rot failure mode (`[[finding_passive_surface_rot_push_not_dashboard]]`). The lane repo is READ-ONLY to WALTER (`pull --ff-only`, NEVER push). `intake_scan.py` does detection + onset-dedup against `registry/intake_seen.json` — a still-true condition does NOT re-push; a clear→re-appear is a fresh onset. Route each NEW breach through the normal delivery flow tagged `source: RESEARCH-INTAKE`, precedence per the scan (HY≥280 X1-breach = IMMEDIATE → LIQUID/PROME; other red = PRIORITY; orange = ROUTINE/INFO), then `intake_scan.py --mark` to reconcile the baseline. **Reconcile with step 6c:** the lane is the machine-independent PRIMARY for the feeds it carries (esp. HY OAS X1) — the 6c dashboard pull is redundancy; fire HY≥280 ONCE, don't double-dispatch. Health self-alarm = doctor `intake_liveness` (collector-death → flag PROME, exception-only). Full WALTER only.
+
+## §7f — WILL drop-zone scan
+
+Added 2026-07-09 (Will-directed, "wire the drop-zone boot-step" — the top deferred infra item from the 7/6+7/8 GAPS). The desktop drop-zone `AGENTS/WALTER/inbox/WILL/` (gitignored, TERRY-pattern, shipped 7/6) is Will's **bulk-image/file channel** as a Telegram alternative. Until this step it had NO boot-time surfacing — the 7/8 session found 2 substantive items (a fresh CoStar chart + a 67-page OZK report) that **sat invisible for 2 days** until an explicitly-scoped sweep caught them (the exact cost the 7/6+7/8 GAPS flagged). This step wires the scan into boot so drops surface automatically: `ls` the dir, exclude `processed/` + the `.gitignore`/`.gitkeep`/README scaffold, surface "N item(s) waiting" in the boot reply, process per the image-batch/OCR-fan-out flow (`[[finding_batch_extraction_fanout_then_route]]`). **Never auto-dispatch** (preserves the Will-curated loop, same discipline as §7c). Backstopped by the `dropzone_pending` doctor check so an unprocessed drop self-alarms even if boot skips this step — mechanize-the-audit, same philosophy as `claude_md_version_drift`/`boot_protocol_xref`.
 
 ## §8 — registry refresh + fs-scan
 
