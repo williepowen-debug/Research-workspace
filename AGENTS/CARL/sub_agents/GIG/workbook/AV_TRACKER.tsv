@@ -18,3 +18,5 @@ Tesla	cities_planned_2026	11 more (Las Vegas, Dallas priority)		 	US	2026-03-31	
 Cruise	status	Paused/restructuring		 	N/A	2026-03-31	Various	G	Post-incident restructuring. GM scaling back. Not a near-term factor.
 SECTOR	total_av_rides_annualized	~26M		 	US	2026-04-09	CARL estimate	Y	Vs ~7B+ total US rideshare rides/year. AV is <0.4% of volume currently.
 SECTOR	av_pct_of_rideshare	<0.4%		 	US	2026-04-09	CARL estimate	G	Small now but trajectory matters. Doubling every 6-12 months.
+Waymo	cities_active	15+ (Jul-8: +San Diego, Las Vegas, Tampa FL, Denver; LV live)	11 (Apr-7)	+4 cities	US	2026-07-08	CNBC/Electrek Jul-8-2026 (year-verified)	O	Jul-8 driverless expansion; existing markets now incl Atlanta/Miami/Dallas/Houston/San Antonio/Orlando. FL AV footprint = Tampa+Miami+Orlando (cross-ref MARCO/CORAL).
+Waymo	fleet_size	~3,500	3,000 (Apr)	+500	US	2026-07-08	CNBC/Electrek Jul-8-2026 (year-verified)	O	>20M cumulative autonomous trips; still ~500K rides/wk, targeting 1M rides/wk EOY 2026. GIG-P07 on track.
