@@ -1,8 +1,8 @@
 # ORACLE STATUS
 
-**Updated:** 2026-07-09 (Thu ~16:55 ET, PROME-spawned catch-up/diagnostics refresh) — live pull both platforms + roll-watch (2 resolved pins repinned, 2 new adds: Hormuz-closure proxy, US-declares-war proxy) + divergence check vs fleet marks | prior: 2026-07-02 — **7-day gap, own inbox was empty across it.**
+**Updated:** 2026-07-09 (Thu ~21:55 ET, PROME-spawned Tier-3 open-threads build — Will-greenlit bias-to-build) — structural-credit coverage sweep both platforms (comprehensive keyword search, confirmed NAMED gap not a search miss) + 2 new bank-failure markets found/pinned + disruption-vs-supply spread launched as a standing derived series (`tools/disruption_supply_spread.py`, first value **+44.8pp**) | prior: 2026-07-09 ~16:55 ET catch-up/diagnostics refresh (live pull both platforms + roll-watch + divergence check) | prior-prior: 2026-07-02 — **7-day gap, own inbox was empty across it.**
 **Domain:** Prediction-market monitoring (Polymarket + Kalshi) — crowd-implied probabilities & crowd-vs-thesis divergence
-**Data:** live via `scripts/polymarket.py pull --log` (Gamma API) + `scripts/kalshi.py pull --log` (CFTC exchange, RSA-PSS). Series → `workbook/ODDS_LOG.tsv` (40 rows this pull) / `KALSHI_ODDS_LOG.tsv` (8 rows). Cross-agent surface → `NEXUS_BRIEF.md`. Divergence detail → `DIVERGENCE_2026-07-09.md`. Metrics → `PREDICTION_MARKET_METRICS.md`.
+**Data:** live via `scripts/polymarket.py pull --log` (Gamma API) + `scripts/kalshi.py pull --log` (CFTC exchange, RSA-PSS). Series → `workbook/ODDS_LOG.tsv` (42 rows this pull) / `KALSHI_ODDS_LOG.tsv` (8 rows). Derived → `workbook/DISRUPTION_SUPPLY_SPREAD.tsv` (new, 2 rows). Cross-agent surface → `NEXUS_BRIEF.md`. Divergence detail → `DIVERGENCE_2026-07-09.md`. Metrics → `PREDICTION_MARKET_METRICS.md`.
 **State:** 🟠 — **the crowd repriced the 7/7-7/8 US-Iran truce collapse in real time and materially, but is NOT pricing a supply shock.** Hormuz-normal-by-Dec31 eroded further (82.5%→**61.5%**, −21/7d); the escalation-tail market (US blockade) jumped +17.5/7d to **48.0%** — closely tracking HAWK's own D-rung (46%). Yet WTI-$100 war-premium is still dead (**3.2%**). Separately, Fed-hike-2026 **recrossed above 50%** for the first time since 7/2's "rolling over" call.
 
 ---
@@ -24,6 +24,12 @@ The truce collapsed 7/7→7/8 (fleet digest: 80+ US targets struck, Treasury rev
 ---
 
 ## Alerts (read first)
+
+**🟡 STRUCTURAL CREDIT — confirmed NAMED coverage gap on both platforms (Tier-3 open-threads build, 2026-07-09 ~21:55 ET).** Comprehensive sweep (Kalshi: 14 keyword queries × up to 6 pages/6K open markets each; Polymarket: 12 keyword queries) found **zero open events** on CRE default, credit-card delinquency/charge-off, Fed emergency facility, Fed balance sheet, auto-loan delinquency, yield-curve inversion, credit-rating downgrade, or SOFR credit-crunch — on **either** platform. Kalshi series exist (KXCREDEFMAX, KXCCDELINQ, KXCCCHGOFF, KXFEDFACILITY, KXBALANCESHEET, KXAUTODELQ, YINVERT/KX10Y2YDATE) but carry no open event; Polymarket has no dedicated market at all. This is the exact axis HENRY's dormant thesis says could re-ignite before the crowd prices it — **it remains genuinely un-priced by real money right now.** Only proxies live: single-name bank Q2 provision binaries (Citi/BAC, already tracked, thin) + named-bank failure/bailout events. Re-check each session (standing item, KB-ORC-028/029). → REGINALD, CARL, LIQUID, HENRY.
+
+**🟡 NEW MARKETS — July single-binary bank-failure market now exists (was a named gap since 7/2).** "US bank failure by Jul 31?" **18.0% Yes** ($13.6K vol/$7.0K liq, ⚠️thin, Δ7d +5.0) — pinned to watchlist. Companion "US bank failure by Dec 31, 2026?" **66.0% Yes** ($844 vol/$4.1K liq, ⚠️no depth) also pinned — reads far above the already-tracked "Which banks fail EOY 2026" event's top named-bank leg (~2.6%); likely scope difference (ANY bank vs named majors list), flagged not resolved. → REGINALD, CARL.
+
+**⚪ NEW DERIVED SERIES — disruption-vs-supply spread launched.** `tools/disruption_supply_spread.py` computes P(US blockade on Iran) − P(WTI $100 Jul war-premium) from `ODDS_LOG.tsv` each pull, logs to `workbook/DISRUPTION_SUPPLY_SPREAD.tsv`. First value (2026-07-09/10 pulls): **+44.8pp** (48.0-48.5% blockade vs 3.2-3.7% WTI-$100). A collapsing spread = HAWK/BRENT's regime-flip tripwire (blockade cooling or supply fear arriving). → HAWK, BRENT.
 
 **🟠 IRAN/OIL — truce-collapse repriced hard on shipping/disruption, ZERO on oil supply premium.** Hormuz-normal-Dec31 **61.5% (Δ7d −21.0)**; near-term Hormuz-normal-Jul15 **0.4% (Δ7d −6.0)** — near-certain the disruption persists past its own resolution window. Ships-transit ladder by Jul31: 60/day **12.5% (Δ7d −48.5)**, 80/day **3.7% (Δ7d −15.8)**, 100/day **1.1% (Δ7d −6.9)** — every rung fell, meaning the crowd expects LESS recovery, not more. **NEW Hormuz-closure proxy** (0 ships transit, any date): by-Jul14 **5.4%**, by-Jul31 **12.0% (Δ7d +6.5)** — full closure still a tail (rising, still low) — crowd's read = harassment/disruption, not a clean strait closure. **US blockade on Iran 48.0% (Δ7d +17.5, $210K vol/$64.7K liq)** — closely tracks HAWK's D-rung (46%, digest 7/9) — **see divergence note: this converges, doesn't diverge.** **YET WTI-$100-war-premium still just 3.2%** — the crowd has NOT priced a supply shock despite the collapse; oil moves are being read as transit/diesel-export disruption (Russia + Iran two-root), not barrels lost. → HAWK/BRENT.
 
@@ -64,6 +70,8 @@ The truce collapsed 7/7→7/8 (fleet digest: 80+ US targets struck, Treasury rev
 | Which banks fail EOY (top) | T1 | 2.6% | +0.2 | +0.1 | $205 | $331 | ⚠️thin, no name priced |
 | **Citi Q2 prov >$2.9B** | T1 | **31.5%** | **−25.5** | **−27.5** | $7.0K | $2.7K | ⚠️thin — single-print swing, re-check |
 | BAC Q2 prov >$1.4B | T1 | 44.5% | +1.0 | +1.5 | $5.2K | $12 | ⚠️no depth |
+| **US bank failure by Jul 31 (NEW)** | T1 | **18.0%** | +0.5 | +5.0 | $13.6K | $7.0K | ⚠️thin, gap-fill: named-gap since 7/2 |
+| US bank failure by Dec 31 2026 (NEW) | T2 | 66.0% | +1.5 | +1.5 | $844 | $4.1K | ⚠️no depth, scope-gap vs EOY named-bank event |
 | US unemployment ladder (top) | T1 | 12.5% | +2.8 | +0.2 | $119.6K | $1.5K | ⚠️thin ⏮stale-date |
 | **Hormuz normal by Dec 31** | T1 | **61.5%** | +3.0 | **−21.0** | $4.7M | $259.0K | eroding fast |
 | China invade Taiwan <2027 | T1 | 4.0% | −0.1 | +0.5 | $38.2M | $756.3K | deep, low |
@@ -122,7 +130,9 @@ The truce collapsed 7/7→7/8 (fleet digest: 80+ US targets struck, Treasury rev
 - **7/2→7/9 gap:** own inbox was empty across the gap (no domain-agent signals queued); this was a scheduled diagnostics refresh, not a backlog drain.
 - **Kalshi creds confirmed present** (chmod 600, unchanged since 7/2 fix); Kalshi lane LIVE.
 - **Stale-date markets** (China-GDP, unemployment ladder) shown ⏮ not RESOLVED — don't roll on the bogus endDate.
-- **Kalshi gap-fills still pending event-open:** CRE default (KXCREDEFMAX), credit-card delinquency (KXCCDELINQ), Fed facility (KXFEDFACILITY) — re-check each session.
+- **Structural-credit gap-fills — comprehensively re-checked 2026-07-09 ~21:55 ET, still zero open events on either platform:** CRE default (KXCREDEFMAX/KXCREDEF), credit-card delinquency (KXCCDELINQ), credit-card charge-off (KXCCCHGOFF), Fed facility (KXFEDFACILITY), Fed balance sheet (KXBALANCESHEET), auto-loan delinquency (KXAUTODELQ), yield-curve inversion (YINVERT), credit-rating downgrade (KXCREDITRATING) — Kalshi series exist but no open event; Polymarket has no dedicated market. Re-check each session (see KB-ORC-028/029, alerts above).
+- **2 new bank-failure markets pinned this session:** "US bank failure by Jul 31" (18.0%, thin) + "US bank failure by Dec 31 2026" (66.0%, no-depth) — see alerts above.
+- **New derived series:** `workbook/DISRUPTION_SUPPLY_SPREAD.tsv` (disruption-vs-supply spread, first value +44.8pp) — see alerts above.
 - **BTC-dip $40K** dashboard row still needs a clean repin (Dec-31 market); low-priority, BTC strong.
 - **Two thin-liquidity swings this pull need a re-check before next session:** Citi Q2 prov (Δ7d −27.5 on $2.7K liq) and WTI $80-Jul (Δ1d −24.5 on $20.8K liq, moderate not thin but still a big single-day move).
 

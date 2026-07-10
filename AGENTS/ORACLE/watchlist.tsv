@@ -8,6 +8,9 @@ Fed: HIKE in 2026	market	fed-rate-hike-in-2026	T1	LIQUID,HENRY
 Fed: hike at July mtg	market	will-the-fed-increase-interest-rates-by-25-bps-after-the-july-2026-meeting	T1	LIQUID,HENRY
 Major bank bailout before 2027	market	major-us-bank-bailout-before-2027	T1	LIQUID,BROCK
 # ROLLED 2026-07-02 — "US bank failure by Jun 30" + "Which banks fail by Jun 30" event RESOLVED 6/30; kept EOY named-bank event (below). No July single-binary bank-failure market exists yet — keep re-searching.
+# FOUND 2026-07-09 (structural-credit sweep, Tier-3 open-threads item) — the July single-binary bank-failure market the 7/2 note said didn't exist yet now does. 18.0% Yes, $13.6K vol/$7.0K liq (thin, ⚠️re-check). Also pinned a companion Dec-31 binary (66.0%, $844 vol/$4.1K liq — very thin, NOTE: reads far above the "Which banks fail EOY" event's top named-bank leg (~2.6%) — different question scope (ANY bank vs a specific named list), not a contradiction, but worth a divergence note if it persists.
+US bank failure by Jul 31	market	us-bank-failure-by-july-31-20260630183502534	T1	REGINALD,CARL
+US bank failure by Dec 31 2026	market	us-bank-failure-by-december-31-2026-20260629191920016	T2	REGINALD,CARL
 US debt default by 2027	market	us-defaults-on-debt-by-2027	T2	BOND
 # ROLLED 2026-07-02 — "Iran ends enrichment by Jun 30" RESOLVED; Jul-31 + Dec-31 rows below carry it.
 AI bubble burst 2026	market	ai-industry-downturn-by-december-31-2026-857	T2	BROCK
