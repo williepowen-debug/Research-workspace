@@ -26,6 +26,8 @@ Philip Pilkington (7/8 12:21PM) quoting HFI Research: "Welcome to the wall. Crac
 
 **Read (WALTER, not analyst):** a crack-spread / refined-product-tightening datapoint at fresh highs — relevant to BRENT's live product-tightening thread (Omsk-refinery strikes, SIG-W-20260706-002) and the re-armed energy tail (7/8 Iran re-escalation). CAVEAT: HFI crack-disconnect content is a **recurring source BRENT owns two-sided** (2 prior instances killed 7/2 when energy was de-escalating); re-routed here — lightly — because the energy tail re-armed 7/8, making product-tightening live again. The Pilkington SPR-subsidy "own goal" wrapper is narrative and stripped. BRENT owns the two-sided read. ROUTINE.
 
+**🔻 7/10 CORROBORATION (folded from a later Will-Telegram image, batch 4):** a SECOND independent source on the same read — **Tracy Shuchart (@chigrl), chart via Bloomberg (7/7): the 321 crack spread (RKS321C ~60.4/bbl) "literally screaming we have a problem… but supply glut"** — 321 crack at the top of its multi-decade range. Upgrades the source quality on this signal (HFI + Shuchart/Bloomberg 321 crack both flagging product-crack blowout), and carries Shuchart's own two-sided caveat (crack screaming vs crude supply-glut). Still BRENT-owned two-sided; the supply-side driver is the Omsk damage (SIG-W-20260709-019).
+
 **Routing:** BRENT (action). Verdict: SKIP-VERIFY 0.60.
 
 ## Routing note
