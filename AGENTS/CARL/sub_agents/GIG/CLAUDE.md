@@ -172,11 +172,11 @@ CARL's workbook holds the canonical gig-related entries. GIG is the sub-agent; C
 - KB-CARL-162: Savings rate Feb 4.0% (↓0.5pp) — consumers burning savings. Gig workers first affected.
 - KB-CARL-165: Tariff burden ~$1,500/HH — additional cost squeeze on gig worker households.
 
-**VX vectors (CARL workbook/VX.tsv):**
+**VX vectors (CARL `workbook/VX.tsv` — ⚠️ FROZEN 2026-06-26, do not cite rows as current; live reads → CARL `STATUS.md` convergence matrix + dashboard / `thesis/THESIS.md`. IDs below are provenance-only):**
 - VX-CARL-4.03: Trade-down migration (Dollar Tree 6.5M new HH from >$100K) — K-shape converging
-- GIG's own vectors tracked in GIG workbook/VX.tsv (17 vectors, 6 CRITICAL)
+- GIG's own vectors tracked in GIG `workbook/VX.tsv` (live — not frozen; distinct from CARL-parent VX above)
 
-**FLOW entries (CARL workbook/FLOW.tsv):**
+**FLOW entries (CARL `workbook/FLOW.tsv` — ⚠️ FROZEN 2026-06-26, do not cite rows as current; live transmission logic → CARL `STATUS.md` / `thesis/THESIS.md`. IDs below are provenance-only):**
 - FLOW-CARL-4.01/4.02: Payment hierarchy cascade (Auto > Mortgage > Student > CC) — gig auto DQ feeds this
 - Employment → Gig overflow → Consumer credit transmission
 

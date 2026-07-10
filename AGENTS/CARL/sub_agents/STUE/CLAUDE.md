@@ -157,18 +157,17 @@ CARL's workbook holds the canonical student loan entries. STUE is the sub-agent;
 - KB-CARL-150: MOHELA failures — 2.5M missed bills, 800K DQ, credit errors
 - KB-CARL-151: Demographic concentration — Black, women, 18-29, Southern
 
-**VX vectors (CARL workbook/VX.tsv):**
-- VX-CARL-1.06: CONSOLIDATED — use SL vectors below
-- VX-CARL-SL-01 through SL-07: Dedicated student loan vectors (30+ DQ, 90+ DQ, SAVE, credit score population, defaults, Treasury, servicer failure)
+**VX vectors — ⚠️ `CARL workbook/VX.tsv` was FROZEN 2026-06-26 (do NOT cite rows as live).** Canonical current values now live in **CARL `STATUS.md`** (convergence matrix) + `thesis/THESIS.md`. The historical SL vector IDs (VX-CARL-1.06 consolidated; VX-CARL-SL-01…SL-07: 30+/90+ DQ, SAVE, credit-score pop, defaults, Treasury, servicer failure) are retained only for provenance — read STATUS for their present state.
 
-**FLOW entries (CARL workbook/FLOW.tsv):**
-- FLOW-CARL-4.01/4.02: Payment hierarchy cascade (Auto > Mortgage > Student > CC)
+**FLOW entries — ⚠️ `CARL workbook/FLOW.tsv` was FROZEN 2026-06-26 (do NOT cite rows as live).** Payment-hierarchy cascade (Auto > Mortgage > Student > CC) provenance = FLOW-CARL-4.01/4.02; canonical mechanism now in `thesis/THESIS.md`.
 
-**Predictions (CARL thesis/PREDICTIONS.tsv):**
-- CRL-04: Student 90+ DQ >10% (95%)
-- CRL-05: CC >GFC via student loan cascade (82%)
-- CRL-13: SAVE non-selection >35% (70%)
-- CRL-14: MOHELA-caused defaults >500K (65%)
+**Predictions (CARL thesis/PREDICTIONS.tsv — verify live status there each session):**
+- CRL-04: Student 90+ DQ >10% — **CONFIRMED 2026-05-12** (NY Fed Q1 2026 = 10.3%)
+- CRL-05: CC 90+ DQ >GFC 13.74% via cascade — OPEN 85% (Q1 2026 = 13.1%, breach window ~mid-Aug)
+- CRL-13: SAVE non-selection >35% — OPEN 75% (Oct 1 2026 first-tranche read → Q1 2027)
+- CRL-14: MOHELA-caused defaults >500K — OPEN 65% (Q3-Q4 2026)
+
+*STUE keeps no own PREDICTIONS.tsv — its trackable predictions ARE these CARL CRL-* rows (parent is system of record). Due-scan = eyeball these four against CARL's ledger at boot.*
 
 **Domain source (copied to STUE domain/):**
 - StudentLoan_Data_2026-02.md: Pre-STUE comprehensive compilation (Feb 2026). Shadow DQ, credit score impacts, spillover analysis, timeline, transmission pathways.

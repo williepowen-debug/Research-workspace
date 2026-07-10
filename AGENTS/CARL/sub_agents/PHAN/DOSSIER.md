@@ -4,7 +4,9 @@
 >
 > **Domain scope** *(carried from CLAUDE.md:5,7)*: phantom debt / shadow credit — the $400B+ in consumer borrowing invisible to credit bureaus. BNPL stacking, cash-advance / earned-wage-access (EWA) apps, fintech-lender ("cockroach") health, regulatory visibility changes (CFPB 1033), and phantom-DTI impact on mortgage underwriting (→ HOMER).
 >
-> **Refresh model.** No standing sessions. Refreshed by **ad-hoc CARL spawns** against this dossier (per CARL SPAWN_PROTOCOL templates). **Next natural catalyst:** Affirm / Klarna Q2 prints, ~Aug-2026. See §8 Refresh Protocol.
+> **Refresh model.** No standing sessions. Refreshed by **ad-hoc CARL spawns** against this dossier (per CARL SPAWN_PROTOCOL templates). **Next natural catalyst / ad-hoc spawn trigger:** Affirm / Klarna Q2 prints, ~Aug-2026. See §8 Refresh Protocol.
+>
+> **Last ad-hoc pass:** 2026-07-10 (ledger-hygiene only, no web data) — 7 predictions **dispositioned** (§4; ledger `workbook/PREDICTIONS.tsv`), FLOW-numbering divergence **reconciled** (§2c, TSV wins). See §9 change history.
 >
 > **⚠️ Vintage warning.** The legacy identity surfaces (CLAUDE.md, STATUS.md) are FROZEN at their Apr-2026 build vintage and carry a Klarna narrative that has since been **REFUTED at parent** (Klarna Q1-2026 profitable, CARL May-14). Do not cite any "Current" value in this dossier as live — see §6 SUPERSEDED AT PARENT.
 
@@ -81,7 +83,16 @@ The hidden risk to HOMER's housing vector:
 - **Trigger:** Provision divergence from DQ headline — NOW ACTIVE per legacy vintage (Affirm +40% YoY provisions vs DQ improvement).
 - **Evidence (Apr-17 vintage):** Affirm provisions +40% YoY; ABS FICO 672 (lowest since 2022-A trust); ALLY analog with 6-month lag expectation. ⚠ Affirm quarterly figures now owned at parent — see §6.
 
-> **⚠ Numbering divergence (transcription note):** The legacy STATUS.md:157-194 prose used a *different* FLOW numbering — its FLOW-PHAN-03 was "Cockroach Cascade" and FLOW-PHAN-04 was "Phantom DTI → Mortgage Surprise" (🟡 LOADING, 6–18mo lag), a pathway not present in FLOW.tsv. The table above follows the **FLOW.tsv canonical numbering** (which carries the breakpoint/lag columns). The STATUS "Phantom DTI → Mortgage Surprise" pathway is preserved by §2a above. Do not treat the two numbering schemes as reconciled — they were divergent at freeze.
+> **✅ Numbering RECONCILED (2026-07-10 ad-hoc pass) — TSV numbering WINS.** The `workbook/FLOW.tsv` scheme is canonical: it carries the breakpoint/lag/mechanism columns and the complete 6-pathway set, so the dossier and all pointers cite **TSV IDs only**. The legacy STATUS.md:161-195 prose used a *shorter, divergent* numbering; crosswalk of the divergent prose IDs → canonical TSV IDs:
+>
+> | Frozen STATUS prose ID | Prose name | → Canonical TSV ID |
+> |---|---|---|
+> | FLOW-PHAN-01 | Shadow → Visible Credit Cascade | FLOW-PHAN-01 (agree) |
+> | FLOW-PHAN-02 | BNPL Stacking Cascade | FLOW-PHAN-02 (agree) |
+> | FLOW-PHAN-03 | Cockroach Cascade | **FLOW-PHAN-04** (Fintech Cockroach Cascade) — *renumbered* |
+> | FLOW-PHAN-04 | Phantom DTI → Mortgage Surprise | **no TSV ID** — distinct pathway, preserved as the §2a framework (not a canonical FLOW row) |
+>
+> TSV FLOW-PHAN-03 (Payday Debt Trap), -05 (PHAN-to-CARL), -06 (Composition-Masking) have **no prose twin** — prose-only readers were missing three pathways. Basis for TSV winning: it is the more complete and structurally richer surface. The TSV is **not** renumbered (per demotion terms); the frozen STATUS prose stands as-is under its FROZEN banner — this crosswalk is the reconciliation of record. Cite TSV IDs going forward.
 
 ---
 
@@ -103,19 +114,21 @@ The hidden risk to HOMER's housing vector:
 
 ---
 
-## 4. Open predictions (7 rows — ⚠ UNRESOLVED, resolution is CARL's)
+## 4. Open predictions (7 rows — DISPOSITIONED 2026-07-10 ad-hoc pass)
 
-*Carried from `workbook/PREDICTIONS.tsv`. All 7 made 2026-04-09 (P03/P07 confidence-upgraded Apr-17). **All marked ⚠ UNRESOLVED — do NOT resolve or re-mark from this dossier.** A future CARL spawn resolves these and flags outcomes to CARL parent (see §8). Confidences are the April marks.*
+*Carried from `workbook/PREDICTIONS.tsv` (the ledger of record — this table mirrors it). All 7 made 2026-04-09 (P03/P07 confidence-upgraded Apr-17). **Dispositioned 2026-07-10** by a CARL-directed ad-hoc pass, evidence-gated to own files + CARL parent STATUS/KB/CHANGELOG (no web pulls). **All 2026 windows are still open**, so no clean HIT/MISS is possible (year not closed); the pass re-marks confidence where a premise moved, notes each success/failure mode, and flags DATA-NEEDED where resolution requires a not-yet-published figure. Next data event: Affirm/Klarna Q2 ~Aug (ad-hoc spawn trigger, §8).*
 
-| # | Prediction | Conf (Apr) | Timeframe | Resolution status |
+| # | Prediction | Conf (Apr → 7/10) | Timeframe | Verdict + basis (2026-07-10) |
 |---|---|---|---|---|
-| **PHAN-P01** | BNPL stacking >70% | 60% | H2 2026 | ⚠ UNRESOLVED — was 63% at build; no reporting = no constraint on growth |
-| **PHAN-P02** | Klarna credit losses >1.0% | 65% | FY2026 | ⚠ UNRESOLVED — ⚠ **premise (rising Klarna losses) refuted at parent §6**; still CARL's to formally resolve |
-| **PHAN-P03** | CFPB 1033 enforcement delayed beyond 2026 | 90% | EOY 2026 | ⚠ UNRESOLVED — upgraded 75%→90% Apr-17 (CFPB moved to withdraw rule) |
-| **PHAN-P04** | At least 2 more fintech failures | 60% | 2026 | ⚠ UNRESOLVED — 3 already (CURO/Tricolor/Synapse); FloatMe/Current = investigations, not failures |
-| **PHAN-P05** | BNPL-linked mortgage defaults identifiable in FHA data | 50% | Q3–Q4 2026 | ⚠ UNRESOLVED — HUD RFI signals awareness; low confidence |
-| **PHAN-P06** | NY passes first comprehensive BNPL licensing law | 55% | 2026 | ⚠ UNRESOLVED — proposed 2026-04-09 |
-| **PHAN-P07** | Cash-advance AG enforcement expands to 5+ states | 75% | 2026 | ⚠ UNRESOLVED — upgraded 65%→75% Apr-17 (CO active, CT enacted, FloatMe/Current investigations; 12 state laws, ~20 pending) |
+| **PHAN-P01** | BNPL stacking >70% | 60% → 60% | H2 2026 | **OPEN** — H2 window just opened; no fresh stacking print in-file (63% at build). DATA-NEEDED: BNPL stacking update H2 2026 |
+| **PHAN-P02** | Klarna credit losses >1.0% | 65% → **12%** | FY2026 | **MIXED** — **premise REFUTED at parent** (Klarna Q1-2026 PROFITABLE, adj op profit $68M, CARL STATUS May-14 §6); path to >1.0% broken. Not a clean numeric MISS (no in-file FY26 provision %). DATA-NEEDED: Klarna Q2/FY26 provision ~Aug |
+| **PHAN-P03** | CFPB 1033 enforcement delayed beyond 2026 | 90% → **96%** | EOY 2026 | **OPEN — tracking HIT** — mechanism LOCKED (REGULATORY.tsv 2026-04-01 WITHDRAWAL; 2026 enforcement essentially impossible). Formal resolution EOY 2026 |
+| **PHAN-P04** | At least 2 more fintech failures | 60% → **45%** | 2026 | **OPEN** — 0 confirmed NEW 2026 *failures* in-file (FloatMe/Current = distress/investigations, not failures); half the window elapsed at zero. DATA-NEEDED: H2-2026 failure confirmations |
+| **PHAN-P05** | BNPL-linked mortgage defaults identifiable in FHA data | 50% → **40%** | Q3–Q4 2026 | **OPEN** — window just opened; parent notes HUD BNPL RFI **STALLED** (no final guidance) → identifiability delayed. DATA-NEEDED: FHA/HUD BNPL-attribution data |
+| **PHAN-P06** | NY passes first comprehensive BNPL licensing law | 55% → 55% | 2026 | **OPEN** — still PROPOSED in-file (2026-04-09), no passage recorded. DATA-NEEDED: NY legislative outcome H2 2026 |
+| **PHAN-P07** | Cash-advance AG enforcement expands to 5+ states | 75% → 75% | 2026 | **OPEN — definitional split** — narrow (state-AG actions): NY+DC ≈ 2-3, short of 5; broad (state EWA laws): 12 enacted → HIT. Wording ("AG enforcement") → narrow governs → not yet met in-file. DATA-NEEDED: state-AG count H2 2026 |
+
+> **Calibration modes logged (per row, in TSV Notes):** P02 = premise-refutation (built on a losing-Klarna prior parent overturned); P04 = distress≠failure discriminator; P05 = RFI-awareness ≠ data-availability; P06 = proposed≠passed; P07 = definitional-precision (AG-enforcement vs state-laws not disambiguated at authoring). P01/P03 unresolvable-in-file (window open / durable regulatory fact).
 
 ---
 
@@ -181,4 +194,13 @@ A CARL-directed ad-hoc spawn against the phantom-debt domain should:
 
 ---
 
-*PHAN dossier assembled 2026-07-10 by MOLD (DAEDALUS editor), from PHAN's Apr-2026 frozen surfaces. Transcription-with-provenance — no new analysis. Legacy identity surfaces (CLAUDE.md, STATUS.md) frozen same day; COCKROACH.tsv + REGULATORY.tsv stay live. Provenance and refutations per DAEDALUS audit `upgrades/CARL_SUBAGENT_AUDIT_2026-07-10.md`.*
+## 9. Change history (ad-hoc pass log)
+
+| Date | Pass | What changed |
+|---|---|---|
+| **2026-07-10** | **DOSSIER assembly** (MOLD / DAEDALUS editor) | Dossier assembled from PHAN's Apr-2026 frozen surfaces (transcription-with-provenance, no new analysis). Legacy CLAUDE.md/STATUS.md frozen same day; COCKROACH.tsv + REGULATORY.tsv kept live. |
+| **2026-07-10** | **1st ad-hoc pass** (CARL-directed, ledger-hygiene only, no web data) | **(1)** 7 predictions dispositioned (§4 + `workbook/PREDICTIONS.tsv`): all 2026 windows still open → P02 **MIXED** (premise refuted, Klarna Q1 profitable), P03 re-marked 90%→96% (tracking-HIT, 1033 withdrawn), P04 60%→45%, P05 50%→40%, P06/P07 held, P01 held; calibration mode logged per row. **(2)** FLOW-numbering divergence (§2c) **reconciled — TSV numbering wins** (canonical crosswalk added; prose FLOW-PHAN-03→TSV-04, prose FLOW-PHAN-04→§2a framework/no TSV ID); TSV not renumbered. **(3)** Live ledgers COCKROACH.tsv + REGULATORY.tsv verified readable, headers clean, untouched. Header + §4 truth-stamped. |
+
+---
+
+*PHAN dossier assembled 2026-07-10 by MOLD (DAEDALUS editor), from PHAN's Apr-2026 frozen surfaces. Transcription-with-provenance — no new analysis. Legacy identity surfaces (CLAUDE.md, STATUS.md) frozen same day; COCKROACH.tsv + REGULATORY.tsv stay live. Provenance and refutations per DAEDALUS audit `upgrades/CARL_SUBAGENT_AUDIT_2026-07-10.md`. Predictions dispositioned + FLOW numbering reconciled 2026-07-10 (§9).*

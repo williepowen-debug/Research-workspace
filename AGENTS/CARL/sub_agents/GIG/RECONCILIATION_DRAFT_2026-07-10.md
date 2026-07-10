@@ -13,6 +13,26 @@
 
 ---
 
+## 0. CARL RATIFICATION — 2026-07-10 ~15:00 ET
+
+**Ratified by CARL (parent). Application delegated to named GIG agent, same session, CARL reviews before commit.**
+
+| Item | Ruling |
+|---|---|
+| **F1** | **RATIFIED.** FL-gas leg is SIGN-INVERTED — strike the "FL drivers getting LESS relief" framing on every surface. FL-convergence case re-bases on **gig-concentration + UI-cliff**, carrying the magnitude caveat (~8% recipiency ≈ 42,500 recipients). **GIG-P02: OPEN, confidence 80→50**, rationale rewritten to the re-based legs. |
+| **F2** | **RATIFIED — canary retired.** Dave 28DPD demoted PRIMARY CANARY → **platform-health indicator** (survivorship bias: Dave underwrites out worst subprime, CashAI filtering). New primary liquidity signal = **provision-for-credit-losses trajectory** (+151% YoY Q1) + ExtraCash portfolio contraction. Add new vector **VX-GIG-3.06 (Dave loss provisioning)** — proposed bands G: <+50% YoY / Y: +50–100% / O: +100–200% / R: >+200% or 2 consecutive qtrs >+100% `[FLAG: uncertain — Will to review]` (mgmt claims Q1 spike is quarter-end timing; Q2 print ~Aug resolves). |
+| **F3–F6** | **RATIFIED as drafted (mechanical).** VX-GIG-6.01 gas 🔴→🟠. |
+| **GIG-P01** | **MISS, resolve now** (both legs). 1.69% record low vs >2.10% target AND premise invalidated — the metric cannot confirm the thesis even if it rises. Do not hold the Q2 leg. Successor signal = VX-GIG-3.06 provisioning. |
+| **GIG-P02** | OPEN, re-weighted 80→50 (per F1). |
+| **GIG-P03 / P06** | **OPEN + `[DATA-NEEDED: Gridwise]`** — unresolvable from files; no fresh pulls in this reconciliation pass; resolve at the Q2 platform-earnings refresh (~Aug). |
+| **GIG-P08** | **MISS** (by inference, basis noted in resolution). Mechanism inverted: gas squeeze produced *more* hours-on-platform (Lyft supply surplus, Uber trips +20%), not driver exodus. No direct counts disclosed — resolution note must say "inference from platform supply commentary, counts undisclosed." |
+| **§4 STALE tags** | **RATIFIED all 6**, incl. the full AV surface (Apr-17 vintage, neither refreshed nor refuted; GIG-P07 rests on it). |
+| **Header/banner** | Remove DAEDALUS ⚠️ BYPASSED banner when applied. New header: `Last Updated 2026-07-10 (reconciliation of Jun-22 SV — data as-of Jun-22, NOT a fresh refresh; next refresh: Q2 platform earnings ~Aug)`. Overall status **🔴 CRITICAL → 🟠 ELEVATED** (oversupply structural, gas receding, canary reframed). |
+| **SV channel** | **Decision: GIG MIGRATES to own `state_vectors/`** (canon per SPAWN_PROTOCOL update, Wave 3). Prior SVs stay in `outbox/` as history. Completion SV for this reconciliation → `state_vectors/SV-GIG-2026-07-10-01.md`. |
+| **§5 C1–C4** | Accepted as CARL-parent items — handled by CARL at parent level this session (Wave 3), NOT GIG edits. |
+
+---
+
 ## 1. Fact Reconciliation Table (core)
 
 | # | STATUS location (file:line) | Current claim (Apr-17) | Evidence (SV / parent file:line) | Proposed replacement | Class |

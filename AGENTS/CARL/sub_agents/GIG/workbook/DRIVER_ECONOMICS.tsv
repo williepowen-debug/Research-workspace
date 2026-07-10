@@ -27,3 +27,7 @@ SECTOR	NATIONAL	cash_advance_dependency	65%		 	2025-12-31	Everee 2025	R	65% use 
 SECTOR	NATIONAL	bills_delayed	61%		 	2025-12-31	Everee 2025	R	61% delay essential bills due to payout timing.
 SECTOR	NATIONAL	emergency_loans_quarterly	58%		 	2025-12-31	RadCred 2026	R	58% seek emergency loans at least once per quarter. Structural crisis.
 SECTOR	NATIONAL	auto_loans_underwater	52.9%		 	2025-12-31	Industry/RP-LABOR-12	R	Majority of gig worker auto loans have negative equity. Asset trap.
+SECTOR	NATIONAL	gas_national_avg	$3.929	$4.076 (Apr 17)	receding, -$0.62 from May peak	2026-06-22	AAA Jun 22 2026	O	Peaked $4.50 May 11 (EIA wk); now reverting. Still +$1.04/gal YoY. Vector 🔴→🟠.
+SECTOR	Florida	gas_state_avg	$3.617	$4.093 (Apr 17)	LEG INVERTED — now BELOW national	2026-06-22	AAA Jun 22 2026	Y	FL was ABOVE national Apr 17 (+$0.017); now $0.312 BELOW national $3.929 = FL-divergence thesis leg flipped sign.
+SECTOR	NATIONAL	gas_peak_2026	$4.500	—	May 11 peak	2026-05-11	EIA Weekly	O	Breached $4.50 (parent CRL-08 threshold) ~2-3 wks (May 4-18); reverted to $4.052 by Jun 15. Breach disposition = CARL-parent (§6).
+SECTOR	NATIONAL	fare_vs_driver_pay_ytd	+9.6% fares / +3.6% pay	+9.6% / +4.1% (2025)	2.7x extraction ratio	2026-05-13	Gridwise May 13 2026	R	Platforms capturing 2.7x the per-fare increase. Gas drag 37-67% of hourly earnings.

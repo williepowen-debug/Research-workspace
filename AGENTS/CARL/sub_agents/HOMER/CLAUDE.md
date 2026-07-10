@@ -139,6 +139,7 @@ state_vectors/               # Delivered State Vectors (SV-HOMER-*.md) — CARL 
 **Channel:** Write state vectors to your own `state_vectors/` directory, named `SV-HOMER-YYYY-MM-DD-NN.md`. CARL reads them at harvest (SPAWN_PROTOCOL Phase B).
 <!-- SV channel corrected 2026-07-10 (DAEDALUS, Will-approved): ../SHARED/ never existed -->
 **Filename:** SV-HOMER-[YYYY-MM-DD]-[##].md
+**`corrected/` subdir convention:** `state_vectors/corrected/` holds SVs that were later **withdrawn/superseded by a correction** (kept as audit trail, NOT current findings). A withdrawn SV gets moved here and a top-of-file banner points to the superseding SV. ⚠️ **Retrieval hazard:** valid SVs must live in `state_vectors/` **proper** — CARL's harvest globs and normal SV lookups do NOT descend into `corrected/`. Never file a live/valid SV under `corrected/`.
 
 Template:
 ```
@@ -194,7 +195,7 @@ This is not monitoring — it's an active stress transmission vector feeding CAR
 - KB-CARL-058: Utility/insurance surge (cross-domain, stays in CARL)
 - KB-CARL-066: FL triple squeeze (cross-agent, stays in CARL)
 
-**VX vectors (CARL workbook/VX.tsv):**
+**VX vectors** — ⚠️ **CARL `workbook/VX.tsv` is FROZEN 2026-06-26** (not maintained; do not cite rows as current). For live vector state read **CARL `STATUS.md`** (convergence matrix + dashboard). The VX-IDs below are provenance pointers only, values are build-vintage:
 - VX-CARL-HSG-01: 30yr mortgage rate (6.46%, ORANGE)
 - VX-CARL-HSG-02: Rent growth negative (56% cities, ORANGE)
 - VX-CARL-MF-01: Fannie MF DQ (0.74%, ORANGE)
@@ -207,7 +208,7 @@ This is not monitoring — it's an active stress transmission vector feeding CAR
 - VX-CARL-2.01: Rent late rate (11.7%, GREEN)
 - VX-CARL-2.02: FL HOA assessments ($10K-$100K+, YELLOW)
 
-**FLOW entries (CARL workbook/FLOW.tsv):**
+**FLOW entries** — ⚠️ **CARL `workbook/FLOW.tsv` is FROZEN 2026-06-26** (not maintained; do not cite rows as current). Transmission-mechanic narrative now lives in **CARL `STATUS.md`**. IDs below are provenance pointers only:
 - FLOW-CARL-3.01: FL employment -> housing (ACTIVE-RED)
 - FLOW-CARL-3.02: CA fire -> foreclosure (LOADED)
 - FLOW-CARL-4.01: Payment hierarchy cascade
@@ -215,5 +216,5 @@ This is not monitoring — it's an active stress transmission vector feeding CAR
 - FLOW-CARL-8.02: Home price decline -> Mortgage DQ spiral
 
 **Predictions (CARL thesis/PREDICTIONS.tsv):**
-- CRL-03: Fannie MF DQ >0.80% (90%, Q2 2026)
-- CRL-06: Foreclosures >70K/qtr (70%, Q2 2026)
+- CRL-03: Fannie MF DQ >0.80% (Q2 2026) — **[PARENT-INVALIDATED — CRL-03 closed → MISSED at v2.6.1 Jul-2 2026; Fannie MF May 0.58% = 2nd consecutive month <0.65%, gap to 0.80% GFC peak WIDENED to 22bps. See CARL thesis/CHANGELOG.md. Mechanism note survives: Trepp CMBS MF 7.71% ATH diverges — different book. V3 4→3.]**
+- CRL-06: Foreclosures >70K/qtr (78%, Q2 2026) — **OPEN at parent** (may already CONFIRM on FC-starts basis: Q1 82,631 starts; parent owns resolution)

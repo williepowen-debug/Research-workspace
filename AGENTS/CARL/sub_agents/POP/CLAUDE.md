@@ -185,12 +185,9 @@ CARL's workbook holds the canonical small business entries. POP is the sub-agent
 - KB-CARL-165: Tariff burden ~$1,500/HH — compounds small business customer demand destruction
 - Reference POP SECTOR.tsv and TARIFF.tsv for granular data
 
-**VX vectors (CARL workbook/VX.tsv):**
-- POP's own vectors tracked in POP workbook/VX.tsv (17 vectors)
+**VX vectors — ⚠️ CARL `workbook/VX.tsv` was FROZEN 2026-06-26 (do NOT cite rows as current).** Live vector state = CARL `STATUS.md` (convergence matrix + dashboard) / `thesis/THESIS.md`. POP's own vectors: POP workbook/VX.tsv (17 vectors). *(Repointed 2026-07-10 — fleet-wide frozen-cite sweep.)*
 
-**FLOW entries (CARL workbook/FLOW.tsv):**
-- FLOW-CARL-4.01/4.02: Payment hierarchy cascade — small business owner follows same hierarchy
-- Employment → Consumer credit transmission paths
+**FLOW entries — ⚠️ CARL `workbook/FLOW.tsv` was FROZEN 2026-06-26 (do NOT cite rows as current).** Provenance IDs: FLOW-CARL-4.01/4.02 payment-hierarchy cascade (small-business owner follows same hierarchy); Employment → Consumer credit transmission. Canonical mechanism narrative = CARL `STATUS.md`/`thesis/THESIS.md`.
 
 **Predictions:**
 - POP's own predictions in POP workbook/PREDICTIONS.tsv

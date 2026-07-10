@@ -1,4 +1,7 @@
 # HOMER STATUS
+
+> ⚠️ **[PARENT-INVALIDATED — CRL-03 closed → MISSED at v2.6.1 Jul-2 2026, see CARL thesis/CHANGELOG.md]** — This STATUS (Jun-8 vintage) treats CRL-03 (Fannie MF DQ >0.80% GFC-breach, Q2 2026) as an *open, alive-at-65-70%* decision. **It resolved MISSED on 2026-07-02:** Fannie MF May 0.58% = 2nd consecutive month <0.65% (Apr 0.64% → May 0.58%; 2026 series Jan 0.73/Feb 0.74/Mar 0.78/Apr 0.64/May 0.58), gap to the 0.80% GFC peak WIDENED to 22bps and is moving away. Parent honored the pre-registered invalidation (did NOT override with the extend-and-pretend rationale this file leans on); V3 Fannie-MF vector 4→3. **Mechanism note survives:** CRE/MF stress not gone — Trepp CMBS MF 7.71% ATH still diverges (different book) — but the GSE-MF GFC-approach is not firing. All "CRL-03 decision point / pending / alive" language below is superseded; read as historical. *(Stamped 2026-07-10 verification pass. This STATUS otherwise not refreshed since Jun-8 — pending next HOMER spawn.)*
+
 **Last Updated:** 2026-06-08 (Spawn 6 — Will Part A/B stress-test + Spawn 5 correction) | **Status:** 🔴 CRITICAL — **CORRECTION TO SPAWN 5: Trepp CMBS MF Apr 2026 = 7.71% NEW ATH (+56bps from Mar 7.15%), NOT 6.57%.** The "6.57% May -46bps" cited in Spawn 5 was May **2025** data (Multifamily Dive article dated Jun 16 2025 — year-misread). Reality: Fannie MF Apr -14bps + Trepp MF Apr +56bps = **DIVERGENCE, NOT cross-confirmation**. Per Trepp's explicit language, current regime is "path-dependent sorting — stronger borrowers extending maturities and buying time, weaker assets forced into recapitalizations, distressed sales, or foreclosure." Fannie Apr -14bps fits the **extend-and-pretend mechanism**. CRL-03 mechanism intact; reverting Spawn 5's confidence-drop call. Trepp May 2026 release ~mid-Jun. Other holds: NAHB HMI bounce May 37 (+3pts), Existing Home Sales 4.02M Apr (backed away from <4.0M RED), Freddie HPI Apr +1.4% YoY accel from Mar +0.7%; 30Y mortgage UP 6.48% Jun 4, New Home Sales -11.3% YoY worst-since-2022, ATTOM Apr filings +18% YoY, ICE FC starts +26% YoY, MBA Q1 NDS DQ 4.44% +18bps QoQ. **Realtor.com May 2026 list prices -2.4% YoY (steepest since 2017); Redfin Apr 2026: 47% more sellers than buyers nationally (down from 49% end-2025 peak — gap shrinking, not widening).**
 
 **⚠️ THRESHOLD WATCH:**
@@ -52,7 +55,7 @@ The housing picture is **mixed-bearish**, with stress mechanism intact under hea
 |--------|-------|-------|--------|--------|
 | **Fannie MF Serious DQ** | **0.64% Apr (-14bps MoM from Mar 0.78%)** — headline below 0.65%; drop best explained by mod/extension, not borrower resolution | Apr 2026, rel May 27 | Fannie Mae | 🟠 (headline) / 🔴 (mechanism) |
 | Fannie MF DQ trajectory | Feb 0.74% → **Mar 0.78% (2bps from 0.80% GFC peak)** → Apr 0.64% | Apr 2026 | Fannie Mae | — |
-| **Fannie MF May DQ** | **PENDING release ~Jun 26** — load-bearing for CRL-03 (<0.65% × 2 consec mo invalidates) | — | Fannie Mae | ⚠️ |
+| **Fannie MF May DQ** | ~~PENDING release ~Jun 26~~ **RESOLVED: 0.58% (May, rel ~Jun 26) — 2nd consec <0.65% → CRL-03 INVALIDATED/MISSED [PARENT-INVALIDATED v2.6.1 Jul-2, CARL CHANGELOG]** | 2026-05 | Fannie Mae | ⬇️ |
 | Fannie SF Serious DQ | **0.57%** (Apr, -1bp MoM) | Apr 2026 | Fannie Mae | 🟢 |
 | **Trepp CMBS MF DQ** | **7.71% Apr 2026 — NEW ATH (+56bps from Mar 7.15%)** — large NYC/SF loans went delinquent | Apr 2026 | Trepp | 🔴🔴 |
 | Trepp CMBS MF Apr Hard Maturities | **$35.6M** (no remaining extension options) | Apr 2026 | Trepp | 🔴 |
@@ -179,7 +182,7 @@ The housing picture is **mixed-bearish**, with stress mechanism intact under hea
 | **~Jun 17** | ICE Mortgage Monitor May | Cure trajectory, DQ flow |
 | **Jun 19** | NAR Existing Home Sales May *(if delayed from Jun 9)* | — |
 | **~Jun 24** | Census New Home Sales May | Below 600K SAAR breach? |
-| **~Jun 26** | **Fannie Mae May Monthly Summary — CRL-03 DECISION POINT** | <0.65% × 2 consec mo INVALIDATES CRL-03 |
+| ~~**~Jun 26**~~ ✅ | ~~Fannie Mae May Monthly Summary — CRL-03 DECISION POINT~~ **FIRED: May 0.58% → CRL-03 INVALIDATED/MISSED** | **[PARENT-INVALIDATED — CRL-03 closed at v2.6.1 Jul-2 2026, CARL CHANGELOG]** |
 | **~Jun 29** | Freddie HPI Apr/May refresh | YoY accel trajectory |
 | **Jun 30** | Case-Shiller Apr | 20-city deceleration; Tampa/Denver/Seattle path |
 | **Q2 release** | MBA Q1 NDS (already released May 14) | ✅ DONE: 4.44% DQ +18bps QoQ |
@@ -226,7 +229,7 @@ The housing picture is **mixed-bearish**, with stress mechanism intact under hea
 ## OPEN QUESTIONS / INVESTIGATIONS
 
 1. **Is Fannie MF Apr -14bps borrower-resolution OR mod/extension-driven?** Working hypothesis: mod/extension (Trepp explicitly describes Feb 2026 CMBS DQ DROP via mods on 5 office + 4 mall loans; same regime likely applies to Fannie book). Confirmation needs Fannie Q1 2026 10-Q multifamily mod activity exhibits — paywalled in search results, **next-session EDGAR pull required**. Trepp's parallel Apr +56bps to 7.71% NEW ATH refutes any "two-source reversal" reading.
-2. **Fannie May DQ + Trepp May (both due ~mid-late Jun) — does extend-and-pretend regime continue?** If Fannie May <0.65% AND Trepp May falls = mods accelerating, headline-CRL-03 may invalidate even as mechanism intact. If Fannie May bounces back >0.70% = Apr was mod-batch effect. If Trepp May extends ATH = stress accelerating regardless of Fannie headline.
+2. **Fannie May DQ + Trepp May (both due ~mid-late Jun) — does extend-and-pretend regime continue?** **[RESOLVED — CRL-03 PARENT-INVALIDATED v2.6.1 Jul-2, CARL CHANGELOG]** Fannie May printed **0.58%** (2nd consec <0.65%) → CRL-03 MISSED; parent did NOT accept the extend-and-pretend override. ~~If Fannie May <0.65% AND Trepp May falls = mods accelerating, headline-CRL-03 may invalidate even as mechanism intact. If Fannie May bounces back >0.70% = Apr was mod-batch effect. If Trepp May extends ATH = stress accelerating regardless of Fannie headline.~~
 3. **Freddie HPI Apr +1.4% YoY accel — leading or lagging signal?** Working hypothesis: lagging close-price measure of list prices set 60-90d ago (May list prices -2.4% YoY Realtor.com = leading-edge bearish). Worth re-test if Freddie May/Jun closes also accelerate.
 4. **30Y rate back-up — Iran shock vs UMich un-anchoring?** PMMS 6.48% Jun 4 = +18bps from Apr 30 low. Need to disentangle term-premium (UMich 5-10Y 3.5%) from energy-shock pass-through.
 5. **ICE FC Active Inventory above March 2020 pre-pandemic 2nd consec month** — what's the lookback for "above pre-pandemic"? This may be the most under-discussed datapoint of the refresh.

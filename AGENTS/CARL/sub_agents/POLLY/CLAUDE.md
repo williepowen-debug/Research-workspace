@@ -171,8 +171,8 @@ CARL's workbook holds the canonical insurance-adjacent entries. POLLY is the sub
 
 **KB entries (CARL workbook/KB.tsv):** Check for entries tagged INSURANCE or HEALTH_COVERAGE.
 
-**VX vectors (CARL workbook/VX.tsv):** Housing stress vectors (CARL) affected by CA property insurance market failure. Medical debt feeds CARL CC DQ vectors.
+**VX vectors — ⚠️ CARL `workbook/VX.tsv` was FROZEN 2026-06-26 (do NOT cite rows as current).** Live vector state = CARL `STATUS.md` (convergence matrix + dashboard) / `thesis/THESIS.md`. Provenance context: housing stress vectors (CARL) affected by CA property insurance market failure; medical debt feeds CARL CC DQ vectors. *(Repointed 2026-07-10 — fleet-wide frozen-cite sweep.)*
 
-**FLOW entries (CARL workbook/FLOW.tsv):** FLOW-POLLY-03 (Medical Debt Cascade) connects to CARL CC delinquency via hospital/collection channel.
+**FLOW entries — ⚠️ CARL `workbook/FLOW.tsv` was FROZEN 2026-06-26 (do NOT cite rows as current).** Transmission-mechanic narrative lives in CARL `STATUS.md`. Provenance ID: FLOW-POLLY-03 (Medical Debt Cascade → CARL CC delinquency via hospital/collection channel).
 
 **POLLY's own vectors tracked in:** workbook/VX.tsv (13 vectors)

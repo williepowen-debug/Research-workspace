@@ -23,3 +23,9 @@ Lyft	q1_2026_earnings_date	May 7 CONFIRMED (after close)		 	2026-04-17	Lyft IR/M
 Fiverr	active_buyers	3.3M	3.8M	-13.2% YoY	2025-12-31	Fiverr Q4 2025	R	Demand side SHRINKING. Digital freelance contracting.
 Upwork	active_clients	796K		 	2025-09-30	Upwork 9-mo 2025	Y	$4B+ annual spend. Median freelancer income $85K (survivorship bias — top earners).
 Instacart	fuel_incentive	$5/week if >125 miles		 	2026-04-01	CNN Apr 2026	R	Minimal — $5/week doesn't cover $15+/week added gas cost
+Dave	28DPD	1.69%	1.89% (Q4)	-20bp seq / record Q1 low	2026-03-31	Dave Q1 2026 (PRNewswire May 5; 8-K)	G	SURVIVORSHIP — optically improved; provision +151% is the real signal. Platform-health indicator, NOT stress canary.
+Dave	provision_credit_losses	$26.6M	$10.6M (Q1'25)	+151% YoY	2026-03-31	Dave Q1 2026 8-K	R	More informative than DQ — loss expectations rising even as reported DQ improves.
+Dave	extracash_portfolio	$279.1M	$297.3M (Dec)	-6% QoQ	2026-03-31	Dave Q1 2026	Y	Portfolio contracting; net monetization 5.1% (4-yr high); ARPU +24% YoY.
+Lyft	driver_incentive_spend	-$12.8M YoY	prior FY spend	cut	2026-03-31	Lyft Q1 2026 (May 7)	R	Attributed to "organic growth"/drivers "spending more time on platform" = leveraging supply surplus. Active Riders +17%, 236.9M trips.
+Uber	gross_bookings	$53.7B	prior qtr	+25% YoY	2026-03-31	Uber Q1 2026 (May 6)	Y	3.64B trips (+20%); rev +14% (25-vs-14 gap = routing/incentive structure). NO driver metrics disclosed.
+DoorDash	gas_subsidy_budget	~$100M H1 (>$50M Q2)	$0	new program	2026-03-31	DoorDash Q1 2026 (May 6); WaPo May 6	R	Gas relief launched Mar 23 ($5-15/wk tiered, 10% cashback) = admission gas structurally compresses Dasher net.

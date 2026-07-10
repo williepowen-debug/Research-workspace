@@ -1,5 +1,5 @@
 Stage	Event	Timeline	Population	Credit_Product	Est_DQ_Impact	CARL_Vector	Confidence	Source
-1	SAVE transition — borrowers enter repayment ($0→$50-407/mo)	Month 0 (Jul 1)	7.5M	Student Loan	+5-8pp to student 90+ DQ (9.6%→15-18%)	V4 (Student)	90%	FSA / ED guidance / Oct 2023 precedent
+1	SAVE transition — borrowers enter repayment ($0→$50-407/mo)	Month 0 (Jul 1)	7.5M	Student Loan	+5-8pp to student 90+ DQ (9.6%→15-18%)	V4 (Student)	90%	FSA / ED guidance / Oct 2023 precedent [STALE base — 9.6% anchor superseded 2026-07-10: 90+ DQ now 10.3% (Q1 2026, NY Fed, per STATUS/SV-01); projection +5-8pp band unchanged, re-anchor to 10.3%→15-18%]
 2	Non-selectors auto-transition to Standard ($0→$407/mo cliff)	Month 3 (Oct 1)	2.25-3.375M (30-45%)	Student Loan	Additional +3-5pp to student 90+ DQ	V4 (Student)	70% (CRL-13)	CARL est based on Oct 2023 precedent + MOHELA failures
 3	MOHELA operational failure — missed notices, processing failures	Month 0-6 (Jul-Dec)	500K-1M additional	Student Loan	+1-2pp manufactured DQ	V4 (Student)	65% (CRL-14)	MOHELA track record: 2.5M missed bills, 800K manufactured DQ
 4	Credit score destruction — 90-day DQ hits reports	Month 3-6 (Oct-Dec)	10-12M total	All products	-87 to -171 pts. 760+→590. Categorical reclassification.	V1 (CC), V2 (Auto), V9 (K-shape)	80%	NY Fed Liberty Street Economics Mar 2025

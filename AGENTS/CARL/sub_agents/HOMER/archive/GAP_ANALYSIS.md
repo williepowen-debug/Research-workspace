@@ -1,4 +1,6 @@
 # HOMER GAP ANALYSIS
+> ⚠️ **BUILD-VINTAGE ARTIFACT (2026-04-13) — not maintained.** CRL-03 referenced herein (as "active, 90% confidence") is **PARENT-INVALIDATED — CRL-03 closed → MISSED at v2.6.1 Jul-2 2026** (Fannie MF May 0.58% = 2nd consec <0.65%; see CARL thesis/CHANGELOG.md). Historical planning record only; do not action gaps as still-open. *(>60d, not boot-read — candidate for `archive/` at CARL's next commit sweep; stamped 2026-07-10 verification pass.)*
+
 **Generated:** 2026-04-13
 **Purpose:** Identify specific data gaps a human researcher could go fill
 

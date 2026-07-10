@@ -1,6 +1,9 @@
 # DOC STATUS
-**Last Updated:** 2026-06-08 | **Status:** 🔴 ELEVATED — ACA mid-year attrition accelerating (-17 to -21% Feb-Apr); Mercer 2026 cost guide 6.7% (15-yr high) w/ Rx +9.4% large-emp + GLP-1 ~20% of Rx spend; Med-Care CPI moderating headline (2.5% YoY Apr) masks services 3.2% still elevated; Q1 GDP 2nd-est confirms healthcare-services downward revision = care-avoidance visible in NIPA.
+**Last real data refresh:** 2026-06-08 | **Last touched:** 2026-07-10 (DAEDALUS-directed verification/hygiene pass — NO data refresh; rewiring verified, staleness tagged, CPI sign-flip resolved from parent evidence)
+**Status:** 🔴 ELEVATED — ACA mid-year attrition accelerating (-17 to -21% Feb-Apr); Mercer 2026 cost guide 6.7% (15-yr high) w/ Rx +9.4% large-emp + GLP-1 ~20% of Rx spend; Med-Care CPI moderating headline (2.5% YoY Apr) masks services 3.2% still elevated; Q1 GDP 2nd-est confirms healthcare-services downward revision = care-avoidance visible in NIPA.
 **Thesis Confidence:** 84% | **Phase:** Phase 2-3 (Straining → Deferring) — Phase-3 acceleration via ACA mid-year cliff
+
+> ⚠️ **STALENESS BANNER (2026-07-10 verification pass):** Dashboard values below are ~32 days old (last real refresh Jun-8). Treat all dashboard/workbook figures as Jun-8-vintage unless re-pulled. **Superseded since Jun-8 (from parent CARL evidence, NOT re-pulled by DOC):** (1) Hospital Services CPI MoM Apr -0.3% → **May +0.7% (sign flip back UP)** = DOC care-avoidance CPI-channel 2nd-print **FAILED** [KB-CARL-293, BLS May CPI rel Jun-10; CARL STATUS 6/11]; (2) overall May Medical Care CPI YoY **not in-files → DATA-NEEDED**. Next real refresh due at next DOC-relevant catalyst — **June CPI 7/14** (medical-care component; docket has no DOC-specific row, nearest is CARL's 7/14 CPI) then **KFF EHBS Sept 2026** (validates Mercer +6.7%/Rx +9.4%).
 
 ---
 
@@ -31,10 +34,10 @@ Healthcare costs are a non-discretionary stress MULTIPLIER on CARL's consumer th
 
 | Vector | Current | Threshold | Status | Trend |
 |--------|---------|-----------|--------|-------|
-| Medical Care CPI YoY | **2.5% (Apr 2026)** ↓ from 3.1% Mar | >4% elevated | 🟢 (was 🟡) | MODERATING ↓ |
-| Medical Care Services CPI YoY | **3.2% (Apr 2026)** ↓ from 3.7% Mar | >4% elevated | 🟡 WATCH | EASING ↓ |
-| Medical Care Commodities CPI YoY | **-0.5% (Apr 2026)** ↓ from 0.3% Mar | — | 🟢 | FALLING ↓ |
-| Hospital Services CPI MoM | **-0.3% (Apr 2026)** sign flip from +0.4% Mar | — | 🟢 | EASING |
+| Medical Care CPI YoY | **2.5% (Apr 2026)** ↓ from 3.1% Mar `[STALE — Apr; May YoY not integrated, DATA-NEEDED]` | >4% elevated | 🟢 (was 🟡) | MODERATING ↓ |
+| Medical Care Services CPI YoY | **3.2% (Apr 2026)** ↓ from 3.7% Mar `[STALE — Apr; May not integrated]` | >4% elevated | 🟡 WATCH | EASING ↓ |
+| Medical Care Commodities CPI YoY | **-0.5% (Apr 2026)** ↓ from 0.3% Mar `[STALE — Apr]` | — | 🟢 | FALLING ↓ |
+| Hospital Services CPI MoM | ~~-0.3% (Apr 2026) sign flip~~ → **May +0.7% MoM = SIGN FLIP BACK UP** (care-avoidance CPI-channel 2nd-print **FAILED**; Apr -0.3% = single-month noise) [KB-CARL-293, BLS May CPI rel Jun-10] | — | 🟢→neutral | REVERTED ↑ (hypothesis failed) |
 | Physicians' Services CPI MoM | **+0.6% (Apr 2026)** | — | 🟡 | RISING ↑ |
 | Employer Total Cost Trend 2026 | **+6.7% (Mercer)** — 15-YR HIGH | >6% elevated | 🟠 ORANGE | ACCELERATING |
 | Employer Rx Cost Trend (large) | **+9.4% (Mercer, 500+ EE)** | >8% elevated | 🟠 ORANGE | ACCELERATING |
@@ -60,6 +63,7 @@ Healthcare costs are a non-discretionary stress MULTIPLIER on CARL's consumer th
 
 | Finding | Value | Source | Date |
 |---------|-------|--------|------|
+| **[RESOLVED FAILED 2026-07-10]** Hospital-CPI care-avoidance sign-flip (Apr -0.3% MoM) | **May +0.7% MoM = sign flip back UP → 2nd-print confirmation FAILED.** Apr negative print reads as single-month noise, NOT care-avoidance pricing through to CPI. Failure mode: *direction-of-hypothesis captured, single-month sub-component did not persist* (3rd validation of single-month-skepticism rule). **Care-avoidance mechanism still stands via NIPA Q1 (BEA-confirmed) — only the CPI-pricing channel is unconfirmed.** Was tracked in VX-DOC-1.02 Notes + STATUS dashboard, not a formal DOC-P row. | KB-CARL-293 / CARL STATUS 6/11 / BLS May CPI rel Jun-10 | May 2026 (resolved 7/10) |
 | **[NEW]** BEA Q1 2026 GDP 2nd est | Healthcare = largest single contributor to services downward revision; outpatient + hospital + nursing home all weaker | BEA, rel May 28 | May 28, 2026 |
 | **[NEW]** ACA mid-year drop nationwide | -17% nat'l / -21% federal-marketplace Feb→Apr; 27% of drop concentrated in 400-500% FPL "subsidy cliff" cohort (44% drop in that band) | KFF / Wakely / Modernhealthcare | May 2026 |
 | **[NEW]** ACA premium increase realized | Avg enrollee monthly premium $113→$178 (+58%) post-lapse | KFF / Wakely | May 2026 |
@@ -135,7 +139,7 @@ Three active channels:
 |---------|-----------|-----------|-----------|--------|-------|
 | DOC-P01 | ACA enrollment -5%+ full year 2026; 3-5M uninsured from subsidy lapse | **85% ↑** (was 70%) | 2026 full year (CMS Jan 2027) | **STRENGTHENING** | Wakely range -17 to -26%; KFF/Modernhealth confirm -17 nat'l / -21 federal Feb-Apr already realized. 5M dropping plausible. CONF +15pp. |
 | DOC-P02 | Employer healthcare costs +10% in 2026 confirmed by KFF Sept survey | **75%** (was 80%) | KFF Sept 2026 | TRACKING | Mercer +6.7% trend below 10% threshold; magnitude bias DOWN. KFF EHBS uses different denominator; could come in higher. CONF -5pp. |
-| DOC-P03 | Medical care CPI crosses 4% threshold in 2026 (GLP-1 + deferred care backlog) | **35% ↓** (was 55%) | Q3-Q4 2026 | **WEAKENING** | Apr 2.5% YoY = AWAY from threshold (Mar 3.1% → Apr 2.5%). Services moderating 3.7→3.2%. Path to 4% requires sharp services reacceleration AND commodities recovery. CONF -20pp. |
+| DOC-P03 | Medical care CPI crosses 4% threshold in 2026 (GLP-1 + deferred care backlog) | **35% ↓** (was 55%) | Q3-Q4 2026 (NOT yet due) | **WEAKENING** | Apr 2.5% YoY = AWAY from threshold (Mar 3.1% → Apr 2.5%). Services moderating 3.7→3.2%. Path to 4% requires sharp services reacceleration AND commodities recovery. CONF -20pp. **[2026-07-10 verification, no re-mark:] May hospital MoM flipped back UP +0.7% (parent KB-CARL-293) — the reacceleration path is NOT materializing; direction still AWAY. Overall May Med-Care CPI YoY not in-files. Reconfirm at June CPI 7/14. Stays WEAKENING 35%; not due till Q3-Q4.** |
 | DOC-P04 | Rural hospital closures exceed 200 total since 2010 by end 2026 | 70% | Dec 2026 | TRACKING | 4 YTD; 734 at-risk; on track |
 | DOC-P05 | Care deferral rate approaches 40% (CRITICAL threshold) | **60%** (was 65%) | Q2-Q3 2026 | TRACKING | KFF Apr reprint at 36% (stable, not rising) — slight conf trim. ACA cliff acceleration still adds pressure H2. |
 | DOC-P06 | Medical debt in collections rise visible in H2 2026-2027 | **75% ↑** (was 65%) | H2 2026-H1 2027 | **STRENGTHENING** | CFPB enforcement neutered (6 actions dismissed); ACA cliff accelerating new uninsured 6mo early. CONF +10pp. |
@@ -148,14 +152,17 @@ Three active channels:
 
 ## UPCOMING CATALYSTS
 
+*(Past-dated rows below marked FIRED at 2026-07-10 verification pass — data integration DUE at next real DOC refresh; DOC did not re-pull.)*
+
 | Date | Event | DOC Watch |
 |------|-------|-----------|
-| **2026-06-10** | **BLS CPI May 2026 release** (Wed) | Medical Care YoY (Apr was 2.5%); services 3.2% — watch for second monthly leg of moderation OR reacceleration; hospital MoM (Apr -0.3% sign flip) is the key tell |
-| 2026-06-11 | Census QSS Q1 2026 full release | Healthcare-services sub-component drill-down; cross-check BEA narrative |
-| 2026-06-16-17 | FOMC | Rate path implications for ACA premium / employer cost (indirect) |
-| 2026-Q2 ongoing | ACA mid-year coverage dropouts | Wakely -17 to -26% trajectory; KFF tracker |
-| **2026-07-01** | Medicare GLP-1 Bridge begins | $50/mo Wegovy/Zepbound |
-| 2026-09 | KFF Employer Health Benefits Survey 2026 | Validates Mercer +6.7% / Rx +9.4% / GLP-1 coverage trajectory |
+| ~~2026-06-10~~ **FIRED** | BLS CPI May 2026 | **INTEGRATED (partial, from parent):** hospital MoM +0.7% sign-flip-back-up → care-avoidance CPI-channel FAILED (see KEY FINDINGS). Overall May Med-Care CPI YoY still DATA-NEEDED. |
+| ~~2026-06-11~~ **FIRED** | Census QSS Q1 2026 full release | Sub-component drill-down NOT pulled by DOC — DATA-NEEDED at next refresh |
+| ~~2026-06-16-17~~ **FIRED** | FOMC | Rate path (indirect) — no DOC-specific integration outstanding |
+| **2026-07-14** | **June CPI (nearest DOC-relevant catalyst)** | Medical-care component; reconfirm DOC-P03 trajectory + overall Med-Care CPI YoY (docket has no DOC-specific row — rides CARL's 7/14 CPI) |
+| 2026-Q3 ongoing | ACA mid-year coverage dropouts | Wakely -17 to -26% trajectory; KFF tracker |
+| ~~2026-07-01~~ **FIRED** | Medicare GLP-1 Bridge began | $50/mo Wegovy/Zepbound — program active Jul-Dec 2026 |
+| 2026-09 | KFF Employer Health Benefits Survey 2026 | Validates Mercer +6.7% / Rx +9.4% / GLP-1 coverage trajectory — **DOC's next major refresh anchor** |
 | 2026-09 | Census uninsured rate 2025 | Validates -17 to -21% mid-year |
 | **2026-10-01** | OBBBA refugee/asylee Medicaid ends | Coverage loss |
 | 2026-Q3-Q4 | 2027 plan-design decisions (GLP-1 exclusions) | DOC-P07 resolution |
@@ -163,16 +170,19 @@ Three active channels:
 
 ---
 
-## STATE VECTORS WRITTEN THIS SESSION
+## STATE VECTORS (last real session — 2026-06-08; + verification SV 2026-07-10)
 
 - **SV-DOC-2026-06-08-01** — ACA mid-year attrition realized (-17 to -21% Feb→Apr); cohort uninsured-loading 6mo ahead of baseline → CARL CRL-05 / medical-debt / DOC-P01 strengthening.
 - **SV-DOC-2026-06-08-02** — Mercer 2026 employer cost +6.7% (15-yr high) + Rx +9.4% + GLP-1 = 20% Rx spend → top-40% benefits-cost shock; transmits to CARL real-wage K-shape and DOC-P07 GLP-1 exclusion crystallization.
 - **SV-DOC-2026-06-08-03** — BEA Q1 2026 GDP 2nd estimate: healthcare-services = largest single contributor to consumer-services downward revision → care-avoidance signal now visible in NIPA macro data, not just KFF/Gallup surveys.
+- **SV-DOC-2026-07-10-01** — [GREEN] Verification/hygiene pass (no data refresh): rewiring verified, ~32d staleness tagged, hospital-CPI sign-flip resolved FAILED from parent evidence. No CARL action required.
 
 ---
 
 ## DATA GAPS — UNRESOLVED
 
+- **[NEW 2026-07-10 — DATA-NEEDED] Overall May Medical Care CPI YoY** — parent carried only hospital-services MoM (+0.7%, from KB-CARL-293); the overall May Med-Care CPI YoY is NOT in-files. Pull at next refresh / reconfirm at June CPI 7/14 (VX-DOC-1.01).
+- **[NEW 2026-07-10 — DATA-NEEDED] Q1 2026 GDP 3rd estimate (rel Jun 26) healthcare-services revision direction** — DOC-P10 interim checkpoint; parent CARL STATUS carries the 2nd-est (May 28, healthcare = largest services drag) but not the Jun-26 3rd-est detail ("2nd-est KB candidate pending"). DOC-P10 not due till Oct 30 — this is a confirmation checkpoint, not a resolution.
 - **QSS Q1 2026 full release** (Jun 11) — sub-component drill-down (outpatient vs hospital vs physician) not yet quantified; will refine BEA NIPA signal
 - **Kaufman Hall Apr/May 2026 flash reports** — search returned through Feb 2026 only; may not yet be public or paywalled. Need direct kaufmanhall.com check next session.
 - **PBM Q1 2026 earnings detail** — Cigna pharmacy cost +11.8% YoY captured; CVS/Caremark commentary not pulled in this pass

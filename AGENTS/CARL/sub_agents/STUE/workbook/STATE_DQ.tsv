@@ -1,3 +1,4 @@
+# FROZEN 2026-07-10 — not maintained since 2026-04-06 (build vintage); STATUS.md is canonical, do not cite rows as current. Est_Current_DQ figures are April estimates; national 90+ DQ has since risen 9.6%→10.3% (Q1 2026, NY Fed) so state estimates likely understate. No state-level Q1 2026 data on hand to refresh.
 State	Borrowers	CDR_Pre_Forbearance	Est_Current_DQ	For_Profit_Concentration	CARL_Priority	Overlap_Vectors	Source	Notes
 MS	~350K	18-20%	25-30%+	HIGH	No	—	FSA CDR / STRUCTURAL	Lowest median income. Worst CDR historically.
 WV	~180K	17-19%	25-28%	MEDIUM	No	—	FSA CDR / STRUCTURAL	Economic decline, aging population.

@@ -1,4 +1,6 @@
 # HOMER → CARL Update Plan
+> ⚠️ **BUILD-VINTAGE ARTIFACT (2026-04-13) — not maintained; updates below were long since applied.** CRL-03 referenced herein is **PARENT-INVALIDATED — CRL-03 closed → MISSED at v2.6.1 Jul-2 2026** (see CARL thesis/CHANGELOG.md). Note: it also references CARL `VX.tsv`/`FLOW.tsv`, both **FROZEN 2026-06-26**. Historical record only. *(>60d, not boot-read — candidate for `archive/` at CARL's next commit sweep; stamped 2026-07-10 verification pass.)*
+
 **Generated:** 2026-04-13
 **Based on:** HOMER STATUS.md refresh Apr 13 (Spawn 2 Data Refresh)
 **Next available KB ID:** KB-CARL-180
