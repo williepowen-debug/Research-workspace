@@ -4,6 +4,13 @@
 
 ---
 
+### 2026-07-10 — WIRED `scripts/boot.py` into CLAUDE.md as boot step 3c (PAT-040 disposition: APPLY, not retire)
+- **Trigger:** DAEDALUS 7/8 inbox note (S3 sweep, PAT-040): boot.py installed 6/15 but the numbered boot list never invoked it — 25 days installed-but-unwired ("automation coverage that isn't"). PROME's 7/10 full-boot spawn authorized HENRY to apply the wiring IF the eval evidence supports it, else retire.
+- **Eval-evidence read (why APPLY):** (1) the suite's own **minimum-viable-baseline rule** (evals/README §Operator Cost: "Case 01 TARGET + one GUARDRAIL") was **met 6/15** — case 01 PASS + case 02 PASS, zero DO-NOTs, no contamination (results.tsv); (2) the change is **Tier-1 additive** per `proposals/2026-06-15_boot_closeout_hardening.md` (read-only display script, no reasoning-surface change — the eval's regression-guard role applies, and additive hygiene is its lowest-risk class); (3) **live smoke-test this session:** ran clean twice (full 8.1s + --quick 3.9s), and the due-scan immediately earned its keep — it surfaced HEN-39 (due 7/9, ungraded) and, after registration, HEN-40. The retire branch had no case: the script is correct, cheap, and this very session's task list (an ungraded due prediction + a prediction living only in STATUS prose) is the exact failure mode it prevents.
+- **What changed:** CLAUDE.md SPAWN PROTOCOL — new step 3c (cwd-proof invocation + "covers live tape + FRED credit + due-scan" supersession clause + the DUE-row disposition rule + "predictions must be TSV rows, not STATUS prose"). This applies proposal steps 4+8 (paired read/write); the rest of the 6/15 hardening proposal stays draft.
+- **Files touched:** `CLAUDE.md` (step 3c), `MAINTENANCE.md` (this entry), `MEMORY.md` (infra note flipped to WIRED).
+- **Boot-impact:** boot.py is now a mandatory boot step. **Still owed to Will:** post-change eval re-run (guardrails 02/03 must hold — per README re-run cadence, a boot-protocol change is a trigger) + the case-03 baseline that was never run. Flagged to PROME in this session's report, not silent-shipped.
+
 ### 2026-06-15 — RETIRED `scripts/refresh_status.py`
 - **Trigger:** Boot-audit + Will/ORC/Prome convergent review flagged it as a stale-data writer.
 - **What changed:** Moved `scripts/refresh_status.py` → `archive/retired/refresh_status.py`.
