@@ -25,6 +25,7 @@ You own the "velocity" layer — when stress from other agents (LABOR employment
    - List `AGENTS/HENRY/inbox/WALTER/*.md` not yet logged in `AGENTS/HENRY/board_log.tsv`. If `board_log.tsv` does not exist, create it with the v0.2 header: `timestamp_read<TAB>signal_id<TAB>disposition<TAB>source<TAB>notes`.
    - For each file: read it, decide disposition (`acted` / `noted` / `deferred` / `info-only` / `skipped`), append a row to `board_log.tsv` with `source=INBOX_WALTER`, then `git mv` the file to `AGENTS/HENRY/inbox/WALTER/processed/`.
    - Let `acted` items inform this session. Do not use bash `mv`; use `git mv` so the consume move is staged correctly. Spec: `AGENTS/WALTER/design/BOARD_CONSUMPTION_SPEC.md` v0.2.
+3b. **Power/grid leg check (provisional ownership, Will 7/9)** — run `python3 "$(git rev-parse --show-toplevel)/FORGE/tools/market-data/power_watch.py"` — PJM emergency postings + EIA-930 demand + retail-price backdrop, feeds the AI-capex FCF node (power cost = neocloud FCF line item). rc 0 = quiet, rc 1 = emergency posting(s) — REVIEW (your disposition), rc 2 = fetch failure (check manually, never assume quiet). *(Shared FORGE instrument, wired by DAEDALUS 2026-07-10, Will-approved Step-1; AEOLUS C3 grid-stress signals now route here.)*
 
 ### Execute
 4. **Execute the task**
