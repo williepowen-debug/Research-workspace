@@ -18,30 +18,32 @@
 - **Deep-research ledger:** REQ-DEWEY-20260702-003 (prompt 07) → RESOLVED-with-gaps; REQ-DEWEY-20260702-006 (prompt 10) → RESOLVED; new row REQ-DEWEY-20260704-018 (prompt 18) logged QUEUED then closed RESOLVED same boot (per handoff instruction). 4 DEWEY handoffs git mv'd → `inbox/DEWEY/processed/`.
 - **RESEARCH-INTAKE gate: 0 routed / 3 killed / 1 held.** 4 NEW_WATCH all ROUTINE PC news. Killed: San-Bernardino wildfire (false-positive keyword match on CAL FIRE incident code 'bdc' — logged for the intake false-positive rate) + Freshfields-Austria law-firm marketing + ACI "World Cup" listicle. Held owner-ahead: Reuters "US direct-lending activity falls even as PC firms raise more cash" (genuine BROCK dry-powder/deployment-divergence datum but ROUTINE + theme-saturated + BROCK RED5 owner-ahead). intake_scan --mark reconciled (5 gated true, +1/-1).
 - **Drop-zone swept manually** (`inbox/WILL/`, boot-step still unwired): empty.
-- **STATUS.md:** new dated lead prepended (Tier-1-plus); all live-level blocks regenerated to 7/9 close (Overall / near-trigger / passive-scan / bifurcation / push / BOARD-count) — no stale 7/6 levels carried.
+- **STATUS.md:** new dated lead prepended (Tier-1-plus); all live-level blocks regenerated to 7/9 close (Overall / near-trigger / passive-scan / bifurcation / push / BOARD-count) — no stale 7/6 levels carried; all Iran-state blocks reconciled to the 7/9 re-stamp (lead / Overall / anchor-bullet / NETWORK-AWARENESS subsection).
+- **🔴 IRAN ANCHOR RE-VERIFIED + RE-STAMPED 7/9 (Will-directed, added after the boot reply):** 1 independent WALTER kinetic/diplomatic verify-agent (web sweep 7/9, HIGH multi-primary) + BRENT/HAWK/SAM triangulation → **STATE CHANGE: RE-ESCALATION, June ceasefire DE FACTO COLLAPSED; oil decoupling CRACKED for the first time (Brent $78 [7/8] → ~$76 [7/9] = first non-shrug of the war), sustain UNCONFIRMED pending Fri 7/10.** WALTER AHEAD of the board on the 7/9 extension (HAWK's 7/8-eve marks predate: the EXECUTED 2nd US strike night, the 7/9 Jordan strike, the 1st confirmed death [Iranshahr firefighter], and the "zero-damage" correction [Kuwait ≥1 injured]). Confirmed executed vs rhetoric separated (blockade / Kharg seizure / formal MOU termination = still rhetoric). Anchor `anchors/IRAN_WAR.md` re-stamped (7/9 top stamp + re-verify ladder + "Current state" header; 7/4 stamp demoted to prior). **Dispatched SIG-W-20260709-004 IMMEDIATE → HAWK/BRENT/SAM action / RED,PROME info** (BOARD 465→466, IRAN_HORMUZ 76→77; route_log +1 / delivery_log +5 / 5 handoffs). board_reconcile ✓ 466.
 
 ## RESULT
 
-**3 dispatched (all DEWEY research-outputs) / 3 killed (intake noise) / 1 held.** BOARD 462→465, all guards reconcile. 3 bifurcation signals (all cluster_mediating; below the ≥5 peak). No spec-version bumps. Iran anchor NOT touched (see the flag below).
+**4 dispatched (3 DEWEY research-outputs + 1 Iran anchor re-stamp) / 3 killed (intake noise) / 1 held.** BOARD 462→466, all guards reconcile. 3 bifurcation signals (the 3 DEWEY, all cluster_mediating; SIG-004 is primary_substance). No spec-version bumps. **Iran anchor RE-VERIFIED + RE-STAMPED 7/9 (Will-directed, see below).**
 
 ## GAPS
 
-- **🚩 IRAN ANCHOR DIVERGENCE — the top carry-forward.** The WALTER anchor (`anchors/IRAN_WAR.md`) still reads the **7/4 "de-escalating via Doha talks"** state, but the **7/8 PROME teams-session re-armed the fleet on a US-Iran truce COLLAPSE** (HAWK/BRENT/SAM/PROME own the kinetic re-arm). The anchor and the fleet's current kinetic read DIVERGE. WALTER did NOT re-verify this session (no Iran-cluster signal to dispatch → the pre-dispatch guard did not fire; the kinetic re-arm is domain-owned). **A WALTER anchor re-stamp is owed; the 7-day re-verify is independently due ~7/11.** Next Iran-cluster dispatch MUST re-verify first (pre-dispatch guard). Surfaced to Will in the boot reply.
+- **Iran leadership axis NOT re-verified this pass** (the 2nd verify-agent — leadership/Hormuz-physical lens — was stopped mid-run; the kinetic/diplomatic lens completed HIGH). The 7/4 Mojtaba stamp (Ali KIA ~2/28, burial 7/9 Mashhad) is carried forward; a leadership re-verify is owed on the next full pass. Anchor 7/9 stamp flags this explicitly.
+- **The next Iran gate is the Fri 7/10 BRENT sustain verdict** (Brent >$75 official settle + ≥2/4 institutional legs → decoupling durably cracked / re-arm confirmed; fade <$74-75 → another shrug, re-arm stands down). BRENT owns it; WALTER re-verifies the anchor on that outcome.
 - **Drop-zone boot-step still NOT wired** (carried) — swept manually this session (empty), but it remains the top deferred infra item; a boot-step surfacing "N images waiting" is still owed.
 - **Full registry_lag refresh deferred** (~20 MED rows, none WALTER-actionable for routing) — a Tier-2 item.
 
 ## WILL_NEEDS
 
-1. **Iran anchor re-stamp decision** — do you want WALTER to run a full Iran re-verify + re-stamp next session (the anchor lags the 7/8 fleet truce-collapse re-arm; 7d re-verify due ~7/11 anyway)? Not blocking today (no Iran signal routed).
-2. Otherwise none blocking — routine routing session.
+1. **Iran re-verify + re-stamp — DONE this session** (Will-directed). Anchor now on the 7/9 RE-ESCALATION / de-facto-collapse state; SIG-004 dispatched to HAWK/BRENT/SAM. Next gate = the Fri 7/10 BRENT sustain verdict; leadership axis re-verify owed next full pass. No decision needed.
+2. Otherwise none blocking.
 
 ## FOLLOW-UP (canonical running list — survives handoff via this file)
 
 **🟢 RESOLVED this session:**
-- DEWEY Batch-2 prompts 07 / 10 / 18 routed + ledger-closed (3 research-outputs, 21 handoffs). · RESEARCH-INTAKE gate cleared (0 routed / 3 killed / 1 held). · Drop-zone swept (empty).
+- DEWEY Batch-2 prompts 07 / 10 / 18 routed + ledger-closed (3 research-outputs, 21 handoffs). · RESEARCH-INTAKE gate cleared (0 routed / 3 killed / 1 held). · Drop-zone swept (empty). · **🔴 Iran anchor RE-VERIFIED + RE-STAMPED 7/9 (Will-directed) → RE-ESCALATION / de-facto ceasefire collapse; SIG-004 → HAWK/BRENT/SAM; BOARD →466.**
 
 **🟠 Held for Will / carried:**
-- **🚩 Iran anchor re-stamp** — anchor 7/4 "de-escalating" diverges from the 7/8 fleet truce-collapse re-arm; WALTER re-stamp owed, 7d re-verify due ~7/11. (NEW top item.)
+- **Iran — next gate = Fri 7/10 BRENT sustain verdict** (durable crack vs another shrug — BRENT owns; WALTER re-verifies the anchor on that outcome). **Leadership-axis re-verify owed** (2nd agent stopped this pass; Mojtaba stamp carried). 7d re-verify next ~7/16.
 - **Drop-zone boot-step wiring** — still the top deferred infra item (carried from 7/6/7/8).
 - **DEWEY Batch-2 queue — remaining prompts:** 08 (JGB super-long, deadline 7/6 PASSED) · 09 (UST demand-rotation, deadline 7/7 PASSED — both may have run; check `inbox/DEWEY/` next boot) · 11 (food-supply-CPI-fork, CPI 7/14) · 12 (mechanical-selling-stack, opex 7/17) · 13 (criticized-credit-migration, WAL/OZK Q2 ~7/16) · 14 (bank-PC-exposure, Q2 ~7/16) · 15 (FHA-VA-loss-waterfall, Q2 ~7/16) · 16 (BDC-rating-print-hunt, Q2 marks 7/25-28) · 17 (insurer-lender-double-jeopardy, 7/25-28). Reports land through ~7/28.
 - **DEWEY backlog items surfaced this session:** prompt-07b (funding-seizure gate calibration: Mar-2020 + Mar-2023 + false-positive check) · `trace_bond.py` (live CRWV/APLD secondary spreads — the un-measured leg on SIG-001) · `ofr_stfm.py` (OFR STFM helper for SIG-003) · energy June-30-vintage re-pull (first energy-sector OAS print spanning the truce collapse, ~mid-late July, for SIG-002).

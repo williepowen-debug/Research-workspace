@@ -592,3 +592,8 @@ timestamp_routed	signal_id	recipient	role	recipient_platform	precedence	handoff_
 2026-07-10T00:20:00Z	SIG-W-20260709-003	HENRY	INFO	CLAUDE_CODE	PRIORITY	AGENTS/HENRY/inbox/WALTER/SIG-W-20260709-003.md	written_not_delivered_pending_push	INFO: DEWEY research-output 003
 2026-07-10T00:20:00Z	SIG-W-20260709-003	REGINALD	INFO	CLAUDE_CODE	PRIORITY	AGENTS/REGINALD/inbox/WALTER/SIG-W-20260709-003.md	written_not_delivered_pending_push	INFO: DEWEY research-output 003
 2026-07-10T00:20:00Z	SIG-W-20260709-003	RED	INFO	CLAUDE_CODE	PRIORITY	AGENTS/RED/inbox/WALTER/SIG-W-20260709-003.md	written_not_delivered_pending_push	INFO: DEWEY research-output 003
+2026-07-10T00:45:00Z	SIG-W-20260709-004	HAWK	ACTION	CLAUDE_CODE	IMMEDIATE	AGENTS/HAWK/inbox/WALTER/SIG-W-20260709-004.md	written_not_delivered_pending_push	ACTION: Iran anchor re-stamp 7/9 (truce collapse + decoupling cracked)
+2026-07-10T00:45:00Z	SIG-W-20260709-004	BRENT	ACTION	CLAUDE_CODE	IMMEDIATE	AGENTS/BRENT/inbox/WALTER/SIG-W-20260709-004.md	written_not_delivered_pending_push	ACTION: Iran anchor re-stamp 7/9 (truce collapse + decoupling cracked)
+2026-07-10T00:45:00Z	SIG-W-20260709-004	SAM	ACTION	CLAUDE_CODE	IMMEDIATE	AGENTS/SAM/inbox/WALTER/SIG-W-20260709-004.md	written_not_delivered_pending_push	ACTION: Iran anchor re-stamp 7/9 (truce collapse + decoupling cracked)
+2026-07-10T00:45:00Z	SIG-W-20260709-004	RED	INFO	CLAUDE_CODE	IMMEDIATE	AGENTS/RED/inbox/WALTER/SIG-W-20260709-004.md	written_not_delivered_pending_push	INFO: Iran anchor re-stamp 7/9 (truce collapse + decoupling cracked)
+2026-07-10T00:45:00Z	SIG-W-20260709-004	PROME	INFO	CLAUDE_CODE	IMMEDIATE	AGENTS/PROME/inbox/WALTER/SIG-W-20260709-004.md	written_not_delivered_pending_push	INFO: Iran anchor re-stamp 7/9 (truce collapse + decoupling cracked)

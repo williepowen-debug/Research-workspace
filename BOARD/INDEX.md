@@ -35,7 +35,7 @@ Sorted by signal count descending. Cluster definitions in [`AGENTS/WALTER/design
 
 | Cluster | Count | Latest signal | Theme |
 |---------|------:|---------------|-------|
-| [IRAN_HORMUZ](#iran_hormuz-76) | 76 | 2026-07-06 · SIG-W-20260706-013 | Iran war / Hormuz chokepoint / GEOPOL_ENERGY supply / sanctions / state-response |
+| [IRAN_HORMUZ](#iran_hormuz-77) | 77 | 2026-07-09 · SIG-W-20260709-004 | Iran war / Hormuz chokepoint / GEOPOL_ENERGY supply / sanctions / state-response |
 | [POSITIONING_VALUATION](#positioning_valuation-71) | 71 | 2026-07-06 · SIG-W-20260706-015 | Equity positioning extremes / vol regime / breadth / fund flows / call-put skew / corporate-hedger positioning / bullish-counter-evidence |
 | [CONSUMER_STAGFLATION](#consumer_stagflation-85) | 85 | 2026-07-06 · SIG-W-20260706-016 | Sentiment / inflation expectations / CC delinq / labor weakness / consumer fuel-cost transmission / discretionary-demand-destruction |
 | [BANK_COLLATERAL](#bank_collateral-75) | 75 | 2026-07-08 · SIG-W-20260708-003 | Distressed CRE / residential housing / office vacancy / regulatory shocks affecting bank collateral / threshold-fire-events |
@@ -47,12 +47,12 @@ Sorted by signal count descending. Cluster definitions in [`AGENTS/WALTER/design
 | [ASIA_CHINA](#asia_china-23) | 23 | 2026-07-06 · SIG-W-20260706-017 | China / HK / EM-Asia contagion — trade dynamics / export controls / property collapse / peg fragility / state-level demand destruction / RMB internationalization / Japan BOJ dynamics |
 | [INFLATION_TRANSMISSION](#inflation_transmission-5) | 5 | 2026-07-06 · SIG-W-20260706-008 | Forward goods-CPI / supply-chain cost-push transmission — freight indices, port congestion, pump-pass-through, tariff front-loading, supply-chain disruption with 3-6 month CPI lag |
 | [AI_INFRA_CAPEX](#ai_infra_capex-22) | 22 | 2026-07-09 · SIG-W-20260709-001 | AI infrastructure capex sustainability / hyperscaler guidance / leveraged equity collateral on AI names |
-| **TOTAL** | **465** | | |
+| **TOTAL** | **466** | | |
 
 ---
 
 
-## IRAN_HORMUZ (76)
+## IRAN_HORMUZ (77)
 
 *Iran war / Hormuz chokepoint / GEOPOL_ENERGY supply disruption / sanctions enforcement / state-response. Includes oil-supply observations downstream of Iran-driven disruption. Rows in this section predating the anchor's current verified-as-of stamp may carry superseded war-state framing. [`anchors/IRAN_WAR.md`](../AGENTS/WALTER/anchors/IRAN_WAR.md) is canonical for current state — do not treat row framing as current without checking it.*
 
@@ -137,6 +137,7 @@ Sorted by signal count descending. Cluster definitions in [`AGENTS/WALTER/design
 
 
 ---
+| SIG-W-20260709-004 | 2026-07-09 | GEOPOL_ENERGY | IMMEDIATE | HAWK, BRENT, SAM → RED, PROME | **🔴 IRAN ANCHOR RE-STAMP 7/9 — ceasefire DE FACTO COLLAPSED; oil decoupling CRACKED (first non-shrug of the war), sustain unconfirmed pending Fri 7/10.** Will-directed re-verify (1 WALTER kinetic/diplomatic verify-agent HIGH multi-primary + BRENT/HAWK/SAM triangulation). 2nd vertical re-ignition in 11d, but 7/8 added 3 new vectors vs the 6/28 shrug: deniable strikes on 3 neutral tankers in Hormuz (Al Rekayyat/Wedyan/+1) + US oil-sanctions REIMPOSED + first oil gap that HELD (Brent $78 7/8 → ~$76 7/9). Confirmed: 2 US strike nights (80+ then ~90 targets incl Kharg NON-oil), 1 death (Iranshahr), Iran retaliation on Bahrain/Kuwait/Jordan bases (intercepted, NOT zero-damage — Kuwait ≥1 injured). UNEXECUTED (rhetoric): naval blockade, Kharg SEIZURE, formal MOU termination. Still short of peak (no mine detonation / no production-infra hit / MOU not formally dead). WALTER AHEAD of board on 7/9 (HAWK 7/8-eve marks predate the executed 2nd night + Jordan + casualty). BRENT sustain-test Fri 7/10. HIGH 0.85; symmetric ≤0.55 both ways. | [file](SIG-W-20260709-004-iran-anchor-restamp-truce-collapse-decoupling-cracked.md) |
 
 
 ## POSITIONING_VALUATION (71)
