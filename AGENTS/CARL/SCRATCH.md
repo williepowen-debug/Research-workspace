@@ -19,6 +19,8 @@
 5. **BROCK/PROME** → wrote Axis-A consumer→BDC read-through doc (`domain/sources/2026-07-10_axisA...`) + delivered pointer to BROCK inbox (cc PROME), ahead of 7/14.
 6. **DAEDALUS** → WIRED boot.py as CLAUDE.md boot step 7.0; swapped `catalyst_countdown.py`→`docket_countdown.py`, tested clean (exit 0); deprecated catalyst_countdown. Resolves the consumer_pulse-into-boot thread.
 7. Write-back: STATUS (header/NOW/BOTTOM), KB +2, ROADMAP (RESOLVED row + thread closed), NEXUS_BRIEF re-pin, this SCRATCH, 5 inbox→processed.
+8. **Intraday energy re-mark** (Will-requested live pull): RBOB −7.33%/Brent slipping $75.82 → shock FADING both roots; **V5 HELD at 3 (Will-confirmed)**; KB-322.
+9. **Consistency sweep** (Will-requested) → fixed 4 clean items: stale "CMBS 7.71% ATH" in Fannie-MF row (STATUS:35) + THESIS V3 cell → **June 7.23%/maturity-adj 9.53%**; **ALLY Q2 date PREDICTIONS Jul-18→Jul-21** (web-verified); **ABS_BASELINE FROZEN** (ledger_staleness now clean); closed 2 moot ROADMAP threads (Workbook-refresh superseded by freeze + ABS_BASELINE refresh).
 
 ## STATUS CHANGES
 | Item | Change |
@@ -48,11 +50,11 @@
 6. **Jul 24** — Sub-V Sec 122 cliff (POP); **Jul 31** 🔴 — ABS subordinate rating actions (CRL-20/21).
 
 ### BACKLOG (no deadline)
-7. **STATUS trim** — 265 lines (>250 guideline); archive oldest DANGER-window digests.
-8. **ABS_BASELINE.tsv +83d behind STATUS** (ledger_staleness flag) — FREEZE or refresh.
-9. **consumer_pulse obs_date sanity check** (residual of the boot.py thread — guard the stale-obs false-alarm class).
-10. **Auto 90+ 5.6% Q1 verify** (via-relay, KB-312) vs NY Fed primary — resolves at Q2 HHDC ~mid-Aug.
-11. Sub-agent refresh — PHAN/POLLY/POP ~84d (Affirm/Klarna ~Aug, NFIB, Q2 P&C).
+7. **STATUS trim** — 265 lines (>250 guideline); archive oldest DANGER-window digests. **Includes lead-block spine-staleness** (line-2 para still says "gas $3.838/Brent ~$70" Jul-2 vintage vs live dashboard rows — flagged in consistency sweep #5).
+8. **CRL-06 metric ambiguity** (consistency sweep #3) — "70K/qtr" = starts vs filings vs REO? 3-mo-old open question; resolve BEFORE the **Jul 16 ATTOM Q2** print grades it (may already be CONFIRMED on starts basis, Q1 82,631).
+9. **WALTER↔CARL LIAISON calibration cycle 1** — ~2mo overdue (consistency sweep #8); **Will keep/kill decision** pending.
+10. ~~ABS_BASELINE freeze~~ ✅ DONE 7/10 (FROZEN banner; ledger clean). **consumer_pulse obs_date sanity check** still open (boot.py residual).
+11. **Auto 90+ 5.6% Q1 verify** (via-relay, KB-312) vs NY Fed primary — resolves at Q2 HHDC ~mid-Aug. Sub-agent refresh — PHAN/POLLY/POP ~84d.
 
 ---
 
