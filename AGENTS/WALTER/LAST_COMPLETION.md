@@ -6,63 +6,66 @@
 
 ## STATUS
 
-**2026-07-08 (Wed ~23:00-23:30 ET — MARKETS CLOSED; PROME-spawned teams-mode session, US-Iran truce-collapse night).** Scoped task from PROME: run the intake-lane + drop-zone/BOARD sweep for signals NOT already covered by tonight's energy-re-arm adjudications (BRENT/HAWK/SAM already ran the re-arm; PROME already routed energy notes to RED/HENRY/LIQUID/CARL — explicitly not duplicated). Boot clean (doctor 0-HIGH; 2 MED both known/self-closing). git pull clean.
+**2026-07-09 (Thu ~20:15 ET — US MARKETS CLOSED (post-session); Will-terminal boot).** DEWEY Batch-2 deep-research routing day. Boot clean (doctor 0-HIGH; 18 MED = registry_lag ~20 rows [none WALTER-actionable] + `delivered_but_unconsumed` 55/21-ACTION, both known/self-closing). git pull clean. 6c live scan (markets closed): no new WALTER auto-fire.
 
 ## CHANGED (this session)
 
-- **RESEARCH-INTAKE gate (1 NEW breach, 5 NEW_WATCH news items):** **SIG-708-001** SpaceX's $25B avg-BBB bond trading at BB-junk-level spreads (1.62pp vs 1.55pp avg BB; Invesco "very sloppy") → LIQUID/HENRY action, RED info — WebSearch-CONFIRMED 0.82 across Bloomberg/CNBC/FXStreet, 2nd rating-vs-spread disconnect after CoreWeave (SIG-704-001). **2 kills:** subprime-auto "brightens" trade-press pair (CONTRADICTED by NY Fed/Philly Fed primary — 90+d DQ +12.2% YoY, no meaningful 2026 improvement; would've introduced a false counter-signal vs CARL's owned deterioration thesis) + Barron's preferred-stock-ETF piece (evergreen content-marketing, no new data).
-- **Drop-zone sweep (task-directed):** found 2 items sat unprocessed in `inbox/WILL/` since 2026-07-06 ~15:2x (drop-zone boot-step-not-wired GAPS item from the 7/6 session — confirmed costly this time). Both triaged and routed: **SIG-708-002** Phoenix multifamily rents, CoStar June-2026 consecutive monthly declines → REGINALD (info-refresh only, extends REGINALD's own SIG-W-20260426-014, no new magnitude claim). **SIG-708-003** Atrium "The Life Science Reckoning Through the Lens of Bank OZK" (67pp, dated Oct 22 2025, image-only PDF — confirmed via pdftoppm render + PDF metadata, no text layer) → REGINALD, flagged unread/stale-vintage but relevant background given OZK is an active thesis. Both files moved to `inbox/WILL/processed/`.
-- **BOARD:** 459 → 462. route_log +3 / delivery_log +5 (6 per-recipient handoffs written: LIQUID, HENRY, RED ×1 SIG-708-001; REGINALD ×2) / kill_log +2. INDEX.md cluster ToC + section headers updated (AI_INFRA_CAPEX 20→21, BANK_COLLATERAL 73→75, TOTAL 459→462). intake_scan.py --mark run (seen-baseline reconciled: +1 new, -3 cleared).
-- **Recipient-inbox backlog check (task-directed, ls-based, not a deep audit):** HAWK's reported 10-signal WALTER backlog is **already cleared** (0 unprocessed root-level files, 10 in its own `processed/` — resolved earlier tonight by HAWK itself, not a live issue). The broader `delivered_but_unconsumed` pattern is real and fleet-wide (doctor MED, 129 across 14 agents) — quick per-agent root-level inbox counts: REGINALD 29 / CORAL 23 / SAM 19 / HENRY 13 / BRENT 11 / MARCO 10 / AEOLUS 5 / VIOLET 5 / BOND 5 / TERRY 6 / LIQUID 4 / RED 3 / LABOR 2 / CARL 0 (exempted, pull-complete) / HAWK 0. Not a new finding — matches the doctor's existing MED tracking; no action taken beyond noting it (out of scope for tonight's task).
-- **DEWEY batch-2 manifest re-prioritized:** item **10 (energy-hy-oas-unblind)** moved from #12/bottom ("DEPRIORITIZED — energy de-escalated," 7/4 note) to **#2** (right after CoreWeave). The de-escalation premise it was deprioritized on reversed overnight with the truce collapse; the prompt's HY-OAS-by-energy-exposure decomposition directly feeds LIQUID's tonight-tasked energy-OAS re-state / HY-path-under-oil-sustained-week pre-registration. 7/4 note's item-10 entry marked superseded, retained for history.
-- **STATUS.md:** new dated header entry prepended (Tier-1 light); BOARD-count changelog bullet prepended with tonight's detail.
+- **DEWEY step-7d — 4 handoffs (3 deliverables) landed 7/9 → routed per CHECKLIST Phase 2.8b (BOARD 462→465):**
+  - **SIG-W-20260709-001 CoreWeave/neocloud AI-credit map** (prompt-18, REQ-DEWEY-20260704-018; closes PROME's Will-approved 7/5 cc Packet D) → **LIQUID + HENRY** action / NEXUS, BROCK, SHADE, RED, REGINALD, PROME info. Cluster AI_INFRA_CAPEX 21→22 (secondary PC_STRESS). Verdict: IDIOSYNCRATIC-not-systemic on structure (parent senior-UNSECURED HY above ring-fenced non-recourse IG take-or-pay DDTL SPVs; true tripwire = anchor-contract cancellation, NOT GPU prices/macro-HY). LIQUID = named live-index tripwire basket (CRWV 9.25%-2030 + 9.00%-2031 + APLD 9.25%-2030, widen while CCC flat); HENRY = FCF-cliff §3/§1 for the 7/29-31 pre-load; BROCK/SHADE = holder-base CORRECTION (Blackstone-led, not APO/ARES/Blue Owl). Funded debt $24.86B (+$3.49B/qtr). VERIFIED-PRIMARY structure / live spreads UNMEASURED (trace_bond.py backlog).
+  - **SIG-W-20260709-002 energy HY OAS un-blind** (prompt-10, REQ-DEWEY-20260702-006) → **LIQUID + BOND + BRENT** action / HAWK, RED, REGINALD, PROME info. Cluster HYDROCARBON_INFRA 19→20 (secondary FED_FRAMEWORK). CALM: ICE BofA US HY Energy OAS = 164bps (May-31), tightest of all HY sectors, 136bps headroom to the >300 trip; live post-June-1 UNVERIFIED-by-design (monthly source, ~5-6wk lag) but broad HY 267-270 tightening → PRIMED-not-fired. BOND = the durable win (free monthly source NAMED: Fidelity 931730.PDF). Decoupling KB-LIQ-058 SUPPORTED. Was re-prioritized #12→#2 on 7/8.
+  - **SIG-W-20260709-003 funding-seizure X1 pre-emption gate** (prompt-07, REQ-DEWEY-20260702-003, fleet #1 blind spot) → **LIQUID** action / PROME, NEXUS, HENRY, REGINALD, RED info. Cluster FED_FRAMEWORK 29→30 (secondary PC_STRESS). Verdict: HY>280 X1 DOES need a funding-seizure gate — in Sep-2019 repo + Oct-2022 UK LDI the credit index LAGGED/never-printed → the bear can fire on the funding conjunction even if HY never prints 280. Gate = acute SOFR-99pct-vs-IORB + slow reserve-scarcity leads + single-name dispersion (CoreWeave basket). Live 7/9 CALM but ON RRP drained to $5.8B = faster transmission. GAPS: Mar-2020/Mar-2023 UNVERIFIED, no false-positive rate, thresholds illustrative → **prompt-07b recommended.**
+- **BOARD 462→465.** route_log +3 / delivery_log +21 (21 per-recipient handoffs) / kill_log +3. INDEX ToC + section headers + TOTAL updated in lockstep; board_reconcile ✓ 465, log_reconcile ✓. (Insert boundary bug caught + fixed — rows initially landed one section low, re-inserted robustly before the next `##` header.)
+- **Deep-research ledger:** REQ-DEWEY-20260702-003 (prompt 07) → RESOLVED-with-gaps; REQ-DEWEY-20260702-006 (prompt 10) → RESOLVED; new row REQ-DEWEY-20260704-018 (prompt 18) logged QUEUED then closed RESOLVED same boot (per handoff instruction). 4 DEWEY handoffs git mv'd → `inbox/DEWEY/processed/`.
+- **RESEARCH-INTAKE gate: 0 routed / 3 killed / 1 held.** 4 NEW_WATCH all ROUTINE PC news. Killed: San-Bernardino wildfire (false-positive keyword match on CAL FIRE incident code 'bdc' — logged for the intake false-positive rate) + Freshfields-Austria law-firm marketing + ACI "World Cup" listicle. Held owner-ahead: Reuters "US direct-lending activity falls even as PC firms raise more cash" (genuine BROCK dry-powder/deployment-divergence datum but ROUTINE + theme-saturated + BROCK RED5 owner-ahead). intake_scan --mark reconciled (5 gated true, +1/-1).
+- **Drop-zone swept manually** (`inbox/WILL/`, boot-step still unwired): empty.
+- **STATUS.md:** new dated lead prepended (Tier-1-plus); all live-level blocks regenerated to 7/9 close (Overall / near-trigger / passive-scan / bifurcation / push / BOARD-count) — no stale 7/6 levels carried.
 
 ## RESULT
 
-**1 dispatch (RESEARCH-INTAKE) + 2 dispatch (drop-zone sweep) = 3 dispatched / 2 killed** this session. BOARD 459→462, all guards should reconcile (INDEX ToC + section headers + TOTAL updated in lockstep with new files). No spec-version bumps. Iran anchor untouched (BRENT/HAWK/SAM/PROME own tonight's re-arm adjudication — no duplicate work per task scope).
+**3 dispatched (all DEWEY research-outputs) / 3 killed (intake noise) / 1 held.** BOARD 462→465, all guards reconcile. 3 bifurcation signals (all cluster_mediating; below the ≥5 peak). No spec-version bumps. Iran anchor NOT touched (see the flag below).
 
 ## GAPS
 
-- **Drop-zone boot-step still NOT wired** (carried from 7/6) — this session is direct evidence of the cost: 2 items (1 fresh CoStar chart + 1 substantive 67-page OZK report) sat invisible for 2 days until an explicitly-scoped sweep caught them. Still the top deferred infra item.
-- **route_log / delivery_log / kill_log / INDEX edits not independently reconciled via `walter_doctor.py` post-write** this session (ran doctor pre-session only) — recommend next boot re-run doctor to confirm board_reconcile / log_reconcile stay green after tonight's manual appends.
-- **git commit not yet run as of this file being written** — see WILL_NEEDS.
+- **🚩 IRAN ANCHOR DIVERGENCE — the top carry-forward.** The WALTER anchor (`anchors/IRAN_WAR.md`) still reads the **7/4 "de-escalating via Doha talks"** state, but the **7/8 PROME teams-session re-armed the fleet on a US-Iran truce COLLAPSE** (HAWK/BRENT/SAM/PROME own the kinetic re-arm). The anchor and the fleet's current kinetic read DIVERGE. WALTER did NOT re-verify this session (no Iran-cluster signal to dispatch → the pre-dispatch guard did not fire; the kinetic re-arm is domain-owned). **A WALTER anchor re-stamp is owed; the 7-day re-verify is independently due ~7/11.** Next Iran-cluster dispatch MUST re-verify first (pre-dispatch guard). Surfaced to Will in the boot reply.
+- **Drop-zone boot-step still NOT wired** (carried) — swept manually this session (empty), but it remains the top deferred infra item; a boot-step surfacing "N images waiting" is still owed.
+- **Full registry_lag refresh deferred** (~20 MED rows, none WALTER-actionable for routing) — a Tier-2 item.
 
 ## WILL_NEEDS
 
-1. None blocking — routine session, no decisions required from Will.
+1. **Iran anchor re-stamp decision** — do you want WALTER to run a full Iran re-verify + re-stamp next session (the anchor lags the 7/8 fleet truce-collapse re-arm; 7d re-verify due ~7/11 anyway)? Not blocking today (no Iran signal routed).
+2. Otherwise none blocking — routine routing session.
 
 ## FOLLOW-UP (canonical running list — survives handoff via this file)
 
 **🟢 RESOLVED this session:**
-- HAWK's 10-signal backlog tell (already self-cleared, not live) · RESEARCH-INTAKE gate cleared (1 routed / 2 killed) · drop-zone 2-item backlog cleared · DEWEY manifest item-10 re-prioritized.
+- DEWEY Batch-2 prompts 07 / 10 / 18 routed + ledger-closed (3 research-outputs, 21 handoffs). · RESEARCH-INTAKE gate cleared (0 routed / 3 killed / 1 held). · Drop-zone swept (empty).
 
 **🟠 Held for Will / carried:**
-- **Drop-zone boot-step wiring** — still the top deferred infra item (carried from 7/6, now with direct cost-evidence from tonight).
-- **LOOPS.md harness-agent decision** → PROME (carried from 7/6, unresolved as of this session).
-- **Japan-oil-futures HOLD** (carried from 7/6, unresolved — WALTER did not touch this session, out of scope).
+- **🚩 Iran anchor re-stamp** — anchor 7/4 "de-escalating" diverges from the 7/8 fleet truce-collapse re-arm; WALTER re-stamp owed, 7d re-verify due ~7/11. (NEW top item.)
+- **Drop-zone boot-step wiring** — still the top deferred infra item (carried from 7/6/7/8).
+- **DEWEY Batch-2 queue — remaining prompts:** 08 (JGB super-long, deadline 7/6 PASSED) · 09 (UST demand-rotation, deadline 7/7 PASSED — both may have run; check `inbox/DEWEY/` next boot) · 11 (food-supply-CPI-fork, CPI 7/14) · 12 (mechanical-selling-stack, opex 7/17) · 13 (criticized-credit-migration, WAL/OZK Q2 ~7/16) · 14 (bank-PC-exposure, Q2 ~7/16) · 15 (FHA-VA-loss-waterfall, Q2 ~7/16) · 16 (BDC-rating-print-hunt, Q2 marks 7/25-28) · 17 (insurer-lender-double-jeopardy, 7/25-28). Reports land through ~7/28.
+- **DEWEY backlog items surfaced this session:** prompt-07b (funding-seizure gate calibration: Mar-2020 + Mar-2023 + false-positive check) · `trace_bond.py` (live CRWV/APLD secondary spreads — the un-measured leg on SIG-001) · `ofr_stfm.py` (OFR STFM helper for SIG-003) · energy June-30-vintage re-pull (first energy-sector OAS print spanning the truce collapse, ~mid-late July, for SIG-002).
+- **LOOPS.md harness-agent decision** → PROME (carried, unresolved).
+- **Japan-oil-futures HOLD** (carried, unresolved — out of scope).
 - **DAEDALUS asymmetric-records handoff** still owed (carried).
-- **DEWEY Batch-2 queue** — 11 prompts still live (10 re-prioritized to #2 tonight; 18/CoreWeave still #1); reports land through 7/22.
-- **B5 scheduled-scan** — double-blocked (carried).
-- **Parked ~9 design decisions** — run the walkthrough when Will has appetite (carried).
+- **Full registry_lag refresh** (~20 rows) + STATUS boot-spine trim + Iran 6/28 history-migration — Tier-2 items.
+- **Held intake item:** Reuters "US direct-lending activity falls even as PC firms raise more cash" — surfaced not dispatched (BROCK owner-ahead); re-consider if it recurs with fresh magnitude.
 
-**Iran anchor:** untouched this session (7/4-fresh stamp still the last WALTER-side update; tonight's truce-collapse re-arm is owned by BRENT/HAWK/SAM/PROME, not duplicated here per explicit task scope).
-
-**Live-watch:** not re-scanned tonight (markets closed, no new WALTER threshold-fire attempted; last live scan was 7/6 — see STATUS spine for those levels, treat as stale pending next markets-open boot).
+**Live-watch (7/9 close, markets closed — treat as stale pending next boot):** VIX 15.84 (−6.27%, sub-16 streak reset = sustain 1/5, watch the 5-session count) · HY 270 / CCC 975 [7/8] fired-suppressed · Cushing 19.61M [7/3] <20M BRENT-owned · WAL $80.01 / KRE $74.65 / OZK $50.17 green-away · USD/JPY 162.34 · 10Y 4.56 [7/8].
 
 ## OPEN DESIGN DECISIONS (need Will) — condensed
 
-**🔴 ACTIVE (carried, unchanged this session):**
+**🔴 ACTIVE (carried):**
+- Iran anchor re-stamp cadence (the 7/4-vs-7/8 divergence makes this concrete).
 - Drop-zone boot-step + standing-lane formalization.
 - LOOPS.md harness/loop-design ownership (at PROME).
 - B5 scheduled-scan workflow.
-- Parked ~9 design decisions.
+- Parked ~9 design decisions (run the walkthrough when Will has appetite).
 
 **🟠 INFRA planned-but-unbuilt (carried):** I4 CROSS_REFS identifier cache · I5 dead `/home/moltbot` paths.
 
 **🔵 PARKED DECISIONS (carried):** FED_FRAMEWORK→UST_PLUMBING rename · INDEX status-column · delivery_log written_state enum · RED auto-cc trim · thin-liquidity routing · CLIMATE_MACRO sustain-vs-fold · REITS/TRADES registry-completeness · RESEARCH-INTAKE v2.
 
-**✅ RESOLVED / RETRACTED this session:** DEWEY manifest item-10 re-prioritization (9/4 deprioritization reversed) · HAWK backlog tell (confirmed non-issue).
-
 ---
 
-*Maintenance note: scoped teams-mode session (PROME-spawned) during the fleet's US-Iran truce-collapse energy re-arm night — deliberately narrow (intake + drop-zone sweep + backlog check + one manifest edit), explicitly not duplicating the energy-re-arm routing PROME already ran tonight. 3 dispatch / 2 kill, BOARD 459→462. Top carried item unchanged: wire the drop-zone boot-step.*
+*Maintenance note: DEWEY Batch-2 routing session — 3 research-outputs (CoreWeave prompt-18 / energy-HY-OAS prompt-10 / funding-seizure-X1 prompt-07) + 21 handoffs, BOARD 462→465, 3 ledger rows closed. Top carried item elevated: the Iran anchor now lags the 7/8 fleet truce-collapse re-arm — a WALTER re-stamp is owed (7d re-verify due ~7/11).*

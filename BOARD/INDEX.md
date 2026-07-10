@@ -42,12 +42,12 @@ Sorted by signal count descending. Cluster definitions in [`AGENTS/WALTER/design
 | [MISC](#misc-14) | 14 | 2026-06-28 · SIG-W-20260628-013 | Singletons / market-structure / adversarial-meta / counter-evidence-without-cluster-home |
 | [CLIMATE_MACRO](#climate_macro-5) | 5 | 2026-07-06 · SIG-W-20260706-010 | Macro climate→economy — ENSO state, energy demand, ag/food, insurance/reinsurance, property/physical, supply-chain (AEOLUS) |
 | [PC_STRESS](#pc_stress-39) | 39 | 2026-07-06 · SIG-W-20260706-011 | Private credit / BDC / asset-manager stress — gates / unwinds / AUM pulls / regulatory inquiries / sponsor-strategy bifurcation |
-| [HYDROCARBON_INFRA](#hydrocarbon_infra-19) | 19 | 2026-07-06 · SIG-W-20260706-006 | Hydrocarbon-infra meta-cluster — refinery fires, pipeline strikes, water curtailment, non-ME incidents, SPR mechanics |
-| [FED_FRAMEWORK](#fed_framework-29) | 29 | 2026-07-03 · SIG-W-20260702-013 | Fed operating-framework regime shift / UST-foreign-holder composition / macro plumbing |
+| [HYDROCARBON_INFRA](#hydrocarbon_infra-20) | 20 | 2026-07-09 · SIG-W-20260709-002 | Hydrocarbon-infra meta-cluster — refinery fires, pipeline strikes, water curtailment, non-ME incidents, SPR mechanics |
+| [FED_FRAMEWORK](#fed_framework-30) | 30 | 2026-07-09 · SIG-W-20260709-003 | Fed operating-framework regime shift / UST-foreign-holder composition / macro plumbing |
 | [ASIA_CHINA](#asia_china-23) | 23 | 2026-07-06 · SIG-W-20260706-017 | China / HK / EM-Asia contagion — trade dynamics / export controls / property collapse / peg fragility / state-level demand destruction / RMB internationalization / Japan BOJ dynamics |
 | [INFLATION_TRANSMISSION](#inflation_transmission-5) | 5 | 2026-07-06 · SIG-W-20260706-008 | Forward goods-CPI / supply-chain cost-push transmission — freight indices, port congestion, pump-pass-through, tariff front-loading, supply-chain disruption with 3-6 month CPI lag |
-| [AI_INFRA_CAPEX](#ai_infra_capex-21) | 21 | 2026-07-08 · SIG-W-20260708-001 | AI infrastructure capex sustainability / hyperscaler guidance / leveraged equity collateral on AI names |
-| **TOTAL** | **462** | | |
+| [AI_INFRA_CAPEX](#ai_infra_capex-22) | 22 | 2026-07-09 · SIG-W-20260709-001 | AI infrastructure capex sustainability / hyperscaler guidance / leveraged equity collateral on AI names |
+| **TOTAL** | **465** | | |
 
 ---
 
@@ -464,7 +464,7 @@ Sorted by signal count descending. Cluster definitions in [`AGENTS/WALTER/design
 | SIG-W-20260706-011 | 2026-07-06 | PE_CONTAGION | ROUTINE | BROCK → — | **Pennsylvania PSERS teachers' pension is ~$41B underwater, citing private equity as the biggest drag** — a ~$10B PE bet returned just 2.59% vs the ~10% expected (TribLive/Center Square, 7/1). A public-pension PE-allocation-stress datapoint. → BROCK. SKIP-VERIFY 0.78 | [SIG-W-20260706-011-psers-pennsylvania-teachers-pension-41b-shortfall-pe-259pct-return.md](SIG-W-20260706-011-psers-pennsylvania-teachers-pension-41b-shortfall-pe-259pct-return.md) |
 ---
 
-## HYDROCARBON_INFRA (19)
+## HYDROCARBON_INFRA (20)
 
 *Hydrocarbon-infrastructure stress meta-cluster — refinery fires, pipeline explosions, drone strikes on oil/petrochem assets globally (non-ME), water-emergency curtailment risk. Rows are dispatch-time snapshots — older rows may carry framing superseded by later signals or current domain-agent state; do not treat row framing as current without checking it. Full description in [`AGENTS/WALTER/design/CLUSTER_TAXONOMY.md`](../AGENTS/WALTER/design/CLUSTER_TAXONOMY.md).*
 
@@ -491,6 +491,7 @@ Sorted by signal count descending. Cluster definitions in [`AGENTS/WALTER/design
 | SIG-W-20260706-006 | 2026-07-06 | OIL_ENERGY | ROUTINE | BRENT → HENRY,RED | **SPR at 325.7M bbl (Jul 2) — lowest since May 1983, ~175M above the ~150M operating minimum** (DOE chart; war-driven 172M release Mar 11 over 120 days). VERIFIED (EIA/CNN/Fortune/The Hill). Pilkington overlay (analyst extrapolation, NOT verified): SPR hits congressional min by end-July; 120–160M more to suppress prices would breach operational minimum; crack spreads imply refiners see $110–115 input vs $68 quoted; Iran easing the Omani corridor on purpose through the funeral week. → BRENT / HENRY,RED. CONFIRMED-core 0.85 | [SIG-W-20260706-006-spr-325m-lowest-since-1983-pilkington-operational-floor-thesis.md](SIG-W-20260706-006-spr-325m-lowest-since-1983-pilkington-operational-floor-thesis.md) |
 
 ---
+| SIG-W-20260709-002 | 2026-07-09 | CREDIT_SPREADS | PRIORITY | LIQUID, BOND, BRENT → HAWK, RED, REGINALD, PROME | **DEWEY deep-research — energy HY OAS un-blind (prompt-10).** Blinded energy-HY-OAS cell (dark 64d since Apr-28) un-blinds to CALM: ICE BofA US HY Energy OAS = 164bps (May-31), TIGHTEST of all HY sectors, below the >300 trip & >400 stress line. Neither crossed Apr28→end-May. Live post-June-1 UNVERIFIED (no public source; monthly ~5-6wk lag) but broad HY 267-270 TIGHTENING through the 7/7-8 re-arm → energy vector PRIMED not fired. Free monthly source NAMED (Fidelity `931730.PDF`). Decoupling (KB-LIQ-058) SUPPORTED. LIQUID=energy-OAS re-state (7/8 task; 136bps headroom; same-week-blind caveat); BOND=free source for KB-063; BRENT=>400 line remote. cluster_mediating. 0.75 | [file](SIG-W-20260709-002-energy-hy-oas-unblind-calm-164bps-monthly-source-named.md) |
 
 
 ## MISC (14)
@@ -517,7 +518,7 @@ Sorted by signal count descending. Cluster definitions in [`AGENTS/WALTER/design
 
 ---
 
-## AI_INFRA_CAPEX (21)
+## AI_INFRA_CAPEX (22)
 
 *AI infrastructure capex sustainability — hyperscaler capex guidance, OpenAI/Stargate financing, leveraged equity collateral on AI names, chip-side capex revisions, data-center spending. Small/emerging cluster — flagged for consolidation review if it doesn't grow. Rows are dispatch-time snapshots — older rows may carry framing superseded by later signals or current domain-agent state; do not treat row framing as current without checking it. Full description in [`AGENTS/WALTER/design/CLUSTER_TAXONOMY.md`](../AGENTS/WALTER/design/CLUSTER_TAXONOMY.md).*
 
@@ -546,6 +547,7 @@ Sorted by signal count descending. Cluster definitions in [`AGENTS/WALTER/design
 | SIG-W-20260704-001 | 2026-07-04 | CREDIT_SPREADS | ROUTINE | LIQUID, HENRY → RED | **CoreWeave junk bonds sliding "as investors question the AI boom" (Bloomberg 7/2) — credit-side repricing of the AI-infra-leverage leg.** NOT a new name — CoreWeave's profile is already on the BOARD via SIG-627-033 (DEWEY: ~$24.9B debt / ~5.4× D/E / interest 25.8% of rev / $6.3B backstop). Fresh = the *credit market now actively repricing* that leverage (mark→realized). LIQUID: pull the live CoreWeave HY curve vs the 6/27 snapshot — idiosyncratic-name or a widening AI-infra-HY cohort move (pairs SIG-627-010 tech = record 8.3% of HY)? HENRY: credit-side confirm of the AI-capex-correction (DRAM relapse 7/1, SOX −6.3%). Two-sided (repricing-underway vs already-priced/washout). RESEARCH-INTAKE lane, first live news-feed route (1 of 5 flagged cleared the bar). Thin headline, no quoted mark → SKIP-VERIFY/GROUNDED 0.70 | [SIG-W-20260704-001-coreweave-junk-bonds-slide-ai-infra-credit-repricing.md](SIG-W-20260704-001-coreweave-junk-bonds-slide-ai-infra-credit-repricing.md) |
 | SIG-W-20260708-001 | 2026-07-08 | PRIVATE_CREDIT | PRIORITY | LIQUID, HENRY → RED | **SpaceX's $25B inaugural bond (avg BBB rating) trades at a wider spread (1.62pp over Treasuries) than the average BB-junk bond (1.55pp)** — 30Y tranche 1.99pp. Invesco's IG-credit head called secondary performance "very sloppy." Same rating-vs-spread disconnect pattern as CoreWeave (SIG-704-001) — a second large single-name where bond-market skepticism on AI/mega-capex + execution risk is running well ahead of both the rating agencies and (very bullish) equity sentiment. Single-name, not index-level. WebSearch-CONFIRMED across Bloomberg/CNBC/FXStreet. 0.82 | [SIG-W-20260708-001-spacex-25b-bond-trading-at-junk-spreads-bbb-rated.md](SIG-W-20260708-001-spacex-25b-bond-trading-at-junk-spreads-bbb-rated.md) |
 ---
+| SIG-W-20260709-001 | 2026-07-09 | PRIVATE_CREDIT | PRIORITY | LIQUID, HENRY → NEXUS, BROCK, SHADE, RED, REGINALD, PROME | **DEWEY deep-research — CoreWeave/neocloud AI-credit map (prompt-18; closes PROME 7/5 cc Packet D).** Two-layer stack: parent senior-UNSECURED HY notes (CRWV 9.25%-2030/$2.0B + 9.00%-2031/$1.75B = the slid bonds) above ring-fenced non-recourse GPU-backed DDTL SPVs rated to contracted take-or-pay cash flow (Moody's A3 IG), NOT GPU value → true tripwire = anchor-contract cancellation, not GPU prices/macro-HY. Slide is IDIOSYNCRATIC not systemic (MSFT 67%→45% Q1-26, >98% take-or-pay, RPO $60.7B, Blackstone-concentrated holders, broad HY tightening). Funded debt $24.86B (+$3.49B/qtr). LIQUID=named tripwire basket (CRWV+APLD widen while CCC flat); HENRY=FCF-cliff §3/§1 for the 7/29-31 pre-load; BROCK/SHADE=holder-base correction (Blackstone not APO/ARES/Blue Owl); NEXUS=contract-cancellation R3↔R4. cluster_mediating. VERIFIED-PRIMARY structure / live spreads UNMEASURED. 0.80 | [file](SIG-W-20260709-001-coreweave-neocloud-ai-credit-map-idiosyncratic-not-systemic.md) |
 
 ## ASIA_CHINA (23)
 
@@ -581,7 +583,7 @@ Sorted by signal count descending. Cluster definitions in [`AGENTS/WALTER/design
 
 *(SIG-W-20260526-008 row relocated from FED_FRAMEWORK section 2026-06-10 — YAML `cluster: ASIA_CHINA` is canonical; row was misfiled at dispatch.)*
 
-## FED_FRAMEWORK (29)
+## FED_FRAMEWORK (30)
 
 *Fed operating-framework regime shift / UST-foreign-holder composition. Beckworth Mercatus / Apollo private-vs-CB / Fed-balance-sheet-reduction policy. Smallest cluster — flagged for consolidation review or rename to UST_PLUMBING in v0.2 if it doesn't grow. Rows are dispatch-time snapshots — older rows may carry framing superseded by later signals or current domain-agent state; do not treat row framing as current without checking it. Full description in [`AGENTS/WALTER/design/CLUSTER_TAXONOMY.md`](../AGENTS/WALTER/design/CLUSTER_TAXONOMY.md).*
 
@@ -623,6 +625,7 @@ Sorted by signal count descending. Cluster definitions in [`AGENTS/WALTER/design
 
 
 ---
+| SIG-W-20260709-003 | 2026-07-09 | CREDIT_SPREADS | PRIORITY | LIQUID → PROME, NEXUS, HENRY, REGINALD, RED | **DEWEY deep-research — funding-seizure X1 pre-emption gate (prompt-07, fleet #1 blind spot).** HY>280 X1 DOES need a funding-seizure gate: in both adversarially-verified episodes (Sep-2019 repo SOFR +315bps vs IORB w/ HY OAS unmoved; Oct-2022 UK LDI fire-sale fully reversed by end-Oct) stress ignited through funding/collateral plumbing, repriced days-to-intraday, credit index LAGGED/never-printed → bear can fire on the funding conjunction even if HY never prints 280 (index = lagging confirmation). Gate = acute SOFR-99pct-vs-IORB + slow reserve-scarcity leads + single-name dispersion (CoreWeave basket). Live 7/9 CALM (SOFR-IORB −7bps) but ON RRP drained to $5.8B = faster transmission. GAPS: Mar-2020/Mar-2023 UNVERIFIED, no false-positive rate, thresholds illustrative → prompt-07b recommended. cluster_mediating. 0.75 | [file](SIG-W-20260709-003-funding-seizure-x1-preemption-gate.md) |
 
 ## CLIMATE_MACRO (5)
 
