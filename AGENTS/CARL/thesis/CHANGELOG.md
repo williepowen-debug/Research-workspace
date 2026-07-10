@@ -8,6 +8,28 @@ Tracks all changes to THESIS.md and PREDICTIONS.tsv. Reverse chronological. Each
 
 ---
 
+## 2026-07-10 PM — THESIS v2.6.1 → v2.6.2: Independence map (additive, no score move) + workbook dedup + CRL-08 two-series annotation
+
+### THESIS — v2.6.2 (minor: additive structural handle; Fable orchestration session, DAEDALUS docket #2+#3)
+**Author:** CARL. **Score unchanged 51/70.**
+- **Independence map added** (matrix-adjacent block, mirrored one-line in STATUS): shared antecedents tagged — NY Fed HHDC source-pair (V1/V4), energy co-root (V5, V7-leg, V12-leg), labor co-root (V6/V16), K-shape lens (V8); 6 single-root IND. Reading rule: 14 vectors ≈ ~10 effectively independent roots; shared-root shocks scored as one root moving (Jun-22 paired-move discipline codified). Landed as a block, not an in-table column — cell richness preserved (PAT-015 pushback noted to DAEDALUS).
+- **Verify-by-reading result:** the VX-CARL-1.01/VX-CARL-CC-01 duplication was workbook-level ONLY — the matrix has exactly ONE CC vector, so DAEDALUS docket #3's "rescore the composite — expect it to move" was wrong; **no score move from the dedup.**
+- **Mirror sync:** STATUS V16 evidence cell was still at Jun-6 framing — synced to the Jul-2 "re-arm ARMED, held" state (L85 sub-item a, partial; THESIS-side V6/V8/V10/V11/V13/V14 reason-cell text refresh still open in ROADMAP).
+
+### WORKBOOK (VX.tsv, frozen-ledger disposition edits + KB ref hygiene)
+- **VX-CARL-CC-01 → SUPERSEDED** (pointer to VX-CARL-1.01); load-bearing content (CRL-05 >13.74% Q2-Q3 window ~mid-Aug; KB-096/243 SYF anchors) verified carried into survivor Notes.
+- **VX-CARL-1.01 bands re-cut** to ranges `<8% / 8-11% / 11-13.74% / ≥13.74%` — closes the 13–13.74% orange/red dead zone (ROADMAP L85 sub-item c).
+- **VX-CARL-HSG-03 duplicate ID** (bonus find — two vectors shared one ID): Realtor list-price row renumbered → **VX-CARL-HSG-06**; Existing-Home-Sales keeps HSG-03.
+- **KB.tsv:** 3 Vector refs repointed CC-01→1.01 (KB-096/155/243; conservative ref-cleanup, Statuses preserved).
+
+### PREDICTIONS — CRL-08 annotation (no conf change, stays 28%)
+- **Two-series reconciliation** (GIG WP-4 parent item C1): EIA weekly $4.500 wk-of-May-11 (single obs) vs AAA daily $4.564 May-21 (<1wk above) — both single-point crosses, neither sustained 2wk → May "first-cross-not-sustained" grading STANDS on both series. GIG-side history reconciled same day. (CRL-07 magnitude caveat = already in ledger since Jun-22, no-op.)
+
+### HYGIENE — Ally raw-10-K retention (DAEDALUS EOD find A)
+- `domain/sources/ally/10k_fy2024|fy2025/` HTMLs (17.4MB) **trashed** — no live doc cited them (all refs → RECLASSIFICATION_AUDIT_FY2025.md, kept); never git-committed (verified); EDGAR accessions recorded in the audit's provenance note.
+
+---
+
 ## 2026-07-10 — PREDICTIONS: CRL-10 trim 75→62 (DEWEY food-supply fork) + docket CPI-7/14 add (no thesis version change)
 
 ### PREDICTIONS — CRL-10 re-mark (prediction-confidence only; no vector score move)

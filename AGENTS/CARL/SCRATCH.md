@@ -1,92 +1,84 @@
 # CARL SCRATCH
-**Last session:** 2026-07-10 ~12:25 ET (Fri)
-**Type:** Big multi-part session — inbox-processing (4 dispositions) + intraday energy re-mark (**V5 HELD at 3, Will-confirmed**) + consistency sweep (4 fixes) + PROME loop-closure (V5 walk-back propagated) + **C1/A1 (CRL-10 trim 75→62 [DEWEY fork] + CPI-7/14 docket add).** **No score change — 51/70 holds all session.**
+**Last session:** 2026-07-10 ~15:30 ET (Fri, PM-2)
+**Type:** **Fable orchestration session** — CARL-as-coordinator spawned 5 NAMED agents (GIG/STUE/HOMER/DOC/PHAN) to ratify + verify the DAEDALUS sub-agent restructure end-to-end, plus CARL-parent plumbing (THESIS v2.6.2, SPAWN_PROTOCOL rewrite, TEAM truth-up). **No score change — 51/70 holds. No market-data pulls (architecture session).**
 
-**PRIORITY-1:** **June CPI 7/14 (in 4d) is THE near-term hinge.** Reads through to V12 inflation, **CRL-10 food (just trimmed 75→62** on DEWEY fork — fertilizer input disinflating + WASDE flat, but 7/8 Hormuz re-arm + El Niño Q4 are live tails), **July gas pass-through** (products spike FADED intraday — RBOB −7.33%), and core→FOMC. Watch the print **+ the 7/14 DTN urea weekly** (does the 7/8 Hormuz shock reverse the June nitrogen decline? — the key CRL-10 tell). Then the **Jul 15–24 cluster** (Treasury Phase 1, ATTOM Q2, **SYF/COF/ALLY Q2 = CRL-24** — BROCK Axis-A rows staged).
+**PRIORITY-1:** **June CPI 7/14 (Mon, in 4d) is THE hinge** — pre-register a read (V12 inflation / CRL-10 food 62% / gas pass-through / core→FOMC / medical-care CPI [DOC ride-along, tagged 7/10]) + pull the **7/14 DTN urea weekly** (CRL-10 tell). Unchanged from last session — the orchestration session deliberately didn't touch it.
 
 ---
 
-## CHANGES SINCE LAST SESSION (Jul 2 → Jul 10, now integrated)
-1. **ENERGY TAIL RE-ARMED (was dead-deepened Jul 2).** Two independent oil shocks: **RUSSIA/products** (Ukraine hit 5 refineries 7/6-8, Omsk ~75% down; Russia diesel-export ban thru 7/31; global diesel +~13% Wed) + **IRAN/crude** (truce collapse 7/7-8, 3 tankers hit, Treasury revoked oil-relief, wind-down 7/17). Retail gas $3.796 (7/8) → **$3.884 (7/10)**; diesel $4.852 ORANGE re-tightening; Brent ~$75.6 marginal at the $75 sustain line.
-2. **CREED CMBS-MF (7/4):** MF DQ resumed rising → June **7.23%** (+28bps after a May cure to 6.95%; maturity-adj **9.53%** multi-yr high) + realized Sun Belt 2022-vintage MF foreclosure cluster (S2 Capital $400M fund dissolved). GSE-vs-CMBS MF divergence widening.
-3. Prior Jul-8 targeted energy re-mark (STATUS gas/Brent rows only, commit e82dbe8a) — this session superseded it with live 7/10 data + the Russia root.
+## CHANGES SINCE LAST SESSION
+Same-day back-to-back sessions — no market delta integrated (gas $3.884 / Brent ~$75.6 from the noon session stand; BRENT grades the Brent>$75 sustain at TODAY'S close — check BRENT's grade at next boot). DAEDALUS's restructure notes (3) landed in inbox at ~13:15-14:16 and were fully consumed this session.
 
-## WHAT HAPPENED (this session)
-1. Boot + all 4 scans (docket, predictions, failure-pattern, ledger-staleness). Reconciled Jul-2-SCRATCH vs Jul-8-STATUS energy gap via git log.
-2. Processed 5 inbox items → 4 dispositions (PROME 7/5 = cc-half of BROCK).
-3. **HAWK** → STATUS energy rows (gas/Brent/diesel, two-root discipline) + KB-320.
-4. **CREED** → STATUS CMBS-MF row (retitled June) + KB-321.
-5. **BROCK/PROME** → wrote Axis-A consumer→BDC read-through doc (`domain/sources/2026-07-10_axisA...`) + delivered pointer to BROCK inbox (cc PROME), ahead of 7/14.
-6. **DAEDALUS** → WIRED boot.py as CLAUDE.md boot step 7.0; swapped `catalyst_countdown.py`→`docket_countdown.py`, tested clean (exit 0); deprecated catalyst_countdown. Resolves the consumer_pulse-into-boot thread.
-7. Write-back: STATUS (header/NOW/BOTTOM), KB +2, ROADMAP (RESOLVED row + thread closed), NEXUS_BRIEF re-pin, this SCRATCH, 5 inbox→processed.
-8. **Intraday energy re-mark** (Will-requested live pull): RBOB −7.33%/Brent slipping $75.82 → shock FADING both roots; **V5 HELD at 3 (Will-confirmed)**; KB-322.
-9. **Consistency sweep** (Will-requested) → fixed 4 clean items: stale "CMBS 7.71% ATH" in Fannie-MF row (STATUS:35) + THESIS V3 cell → **June 7.23%/maturity-adj 9.53%**; **ALLY Q2 date PREDICTIONS Jul-18→Jul-21** (web-verified); **ABS_BASELINE FROZEN** (ledger_staleness now clean); closed 2 moot ROADMAP threads (Workbook-refresh superseded by freeze + ABS_BASELINE refresh).
-10. **PROME loop-closure review** → propagated the V5 3→4 walk-back to ALL surfaces (STATUS header/bottom + NEXUS ×3 were still framing it as an open ask); softened "stalls short of $4.00"; wrote DAEDALUS boot.py WIRE disposition note.
-11. **C1 (DEWEY fork) + A1 (docket CPI):** corrected urea basis (my $585 was mis-based — peaked Apr ~$858, rolled over June $718 retail/$453 intl); **CRL-10 TRIM 75→62** (input disinflating + WASDE flat vs 7/8 Hormuz re-arm + El Niño Q4 tails); added **June CPI 7/14** to docket TSV+CALENDAR (was missing — countdown now surfaces it, verified); ENSO +3°C cite = no-op (not carried).
+## WHAT HAPPENED
+1. Boot + boot.py --quick clean. **Did NOT git pull** — uncommitted non-CARL changes present (DEWEY output, WALTER inbox, memory/auto); flagged to Will, proceeded local.
+2. **Wave 1 — GIG reconciliation RATIFIED (CARL §0 block in the draft) + APPLIED by named-GIG:** FL-gas leg SIGN-INVERTED struck everywhere; **Dave 28DPD canary RETIRED** → provisioning = new signal (**VX-GIG-3.06**, bands `[FLAG: uncertain — Will to review]`); P01+P08 MISS, P02 80→50, P03/P06 DATA-NEEDED(Gridwise); 13 TSV appends; AV surface [STALE Apr-17]; do-not-cite banner LIFTED; **SV channel migrated to own `state_vectors/`**. ⚠️ GIG idled without sending its report — work verified from disk (clean); report re-requested ×2, see MEMORY finding.
+3. **Wave 2 — STUE/HOMER/DOC/PHAN verify-repair passes, all reported clean:** STUE (workbooks two-stated; found the **fleet-class frozen-VX/FLOW-cited-as-live defect** → swept + fixed in all 6 sub-agent CLAUDE.md — CARL patched POLLY/POP, GIG self-fixed); HOMER (CRL-03 parent-invalidation stamped ×6, KB.tsv FROZEN protecting ~47-row delegation provenance, SV-02 refiled, CARL git-mv'd 4 build-vintage docs → archive/); DOC (clean exemplar; Apr CPI sign-flip resolved MISS; repaired 2 pre-existing TSV schema defects); PHAN dossier (7 predictions dispositioned — P02 12% premise-refuted [Klarna], P03 96% tracking-HIT [1033 withdrawn]; FLOW crosswalk = TSV canonical).
+4. **Wave 3 — CARL-parent:** **THESIS v2.6.2** — Independence map (14 vectors ≈ ~10 effective roots; additive; STATUS mirrors) + **VX dedup verified WORKBOOK-ONLY → no score move** (refuted DAEDALUS "expect it to move"); CC-01 SUPERSEDED→1.01; band gap 13–13.74 closed; **HSG-03 dup-ID → HSG-06**; 3 KB refs repointed. **CRL-08 C1**: two-series reconciliation annotated — partial-not-sustained STANDS (28% unchanged). **C2 = no-op** (CRL-07 caveat already in ledger since Jun-22).
+5. **Plumbing:** SPAWN_PROTOCOL rewritten (SV canon = own state_vectors/ · DATA-REFRESH exit-checklist · downward-propagation rule #10 · roster reality); CLAUDE.md 7b sub-ledger predictions glob; TEAM.md fully rewritten (catalyst-driven refresh rules, PAT-044 warning, POLLY Apr-29 fix); docket +DOC on CPI-7/14 + ~Oct-30 DOC-P10 row (Affirm/Klarna Aug-13 row already existed).
+6. **Hygiene:** Ally raw 10-K HTMLs (17.4MB) trashed — zero live cites, never git-committed, EDGAR accessions in provenance note. COOK declared dead. 3 DAEDALUS notes → processed/. **Write-back delivered:** `AGENTS/DAEDALUS/inbox/2026-07-10_from-CARL_restructure-writeback.md` (★-marked the 3 un-inferable decisions).
+7. CHANGELOG (v2.6.2 entry), ROADMAP (Independence thread ✅; staleness thread CLOSED; new "remaining restructure lanes" thread), NEXUS_BRIEF re-pinned (Dave-canary-retired fleet note + convergence-reading caveat), MEMORY +2 entries.
 
 ## STATUS CHANGES
 | Item | Change |
 |------|--------|
-| Convergence | **51/70 HOLDS** (no score move all session; V5 3→4 FADED intraday → HELD at 3 Will-confirmed; CRL-10 conf trim 75→62 is a prediction re-mark, not a vector score) |
-| Gas Pump | $3.796 (7/8) → **$3.884 (7/10)** — CRL-01 pass-through FIRING; 🟡→🟠 |
-| Diesel | $4.827 (7/2) → **$4.852 (7/10)** — 🟠 re-tightening (Russia products ban) |
-| Brent (ref) | $78.82 (7/8) → **~$75.6 (7/10)** — marginal at sustain line; BRENT grades Fri close |
-| CMBS MF DQ | Apr 7.71% → **June 7.23%** (+ maturity-adj 9.53%; Sun Belt FC cluster) |
-| KB | +2 (320 gas / 321 CMBS-MF) → 317 data rows |
-| boot.py | WIRED (step 7.0); catalyst_countdown→docket_countdown swap |
+| Convergence | **51/70 HOLDS** — v2.6.2 is additive (Independence map); dedup verified no-score-impact |
+| THESIS | v2.6.1 → **v2.6.2** (Independence map; ~10 effective roots reading rule) |
+| VX.tsv | CC-01 SUPERSEDED→1.01 (bands re-cut on survivor); HSG-03 dup → HSG-06 |
+| STATUS V16 cell | Mirror synced to Jul-2 re-arm-ARMED state (was Jun-6 framing) |
+| GIG (sub-agent) | Reconciled: 🔴 CRITICAL → 🟠 ELEVATED; canary retired; banner lifted; data as-of Jun-22 |
+| PHAN | Dossier predictions: P02 65→12%, P03 90→96%, P04 60→45% |
+| TEAM.md | Full truth-up; refresh rules now catalyst-driven |
 
 ---
 
 ## NEXT SESSION SHOULD
 
 ### IMMEDIATE (this session / 24h)
-1. **June CPI 7/14 (in 4d) = the hinge** — pre-register a read (V12 inflation / CRL-10 food / gas pass-through / core→FOMC) + pull the **7/14 DTN urea weekly** (the CRL-10 tell: does the 7/8 Hormuz shock reverse the June nitrogen decline?). *(V5 resolved-HELD this session; re-opens only on sustained retail >$4.00 — do not re-surface as an open ask.)*
+1. **CPI 7/14 pre-registration** (PRIORITY-1 above) — this was deliberately NOT done in the orchestration session; it's the next work item. Also check **BRENT's Fri-close grade** on the Brent>$75 sustain (V5 context).
+2. **If GIG's report arrived** (re-requested ×2): read for (b)/(d) flags; else accept disk-verification as final and close the loop.
 
 ### UPCOMING (this week)
-2. **Jul 14** — BROCK bank→BDC node (JPM/WFC/C prints); my Axis-A rows already delivered — no further action unless BROCK pings.
-3. **Jul 15** 🔴 — Treasury Phase 1 launch (~500K) + Insurance Q2 (UNH/ELV, CRL-22).
-4. **Jul 16** — ATTOM Q2 foreclosures (CRL-06; DEWEY: inflecting on RoC / normalizing on level).
+3. **Jul 14** 🔴 June CPI (+ DTN urea weekly) → V12/CRL-10/gas/medical-care reads.
+4. **Jul 15** 🔴 Treasury Phase 1 (~500K; date soft) + Insurance Q2 UNH/ELV (CRL-22).
+5. **Jul 16** 🟠 ATTOM Q2 foreclosures (CRL-06 — **resolve the 70K starts-vs-filings-vs-REO ambiguity BEFORE the print grades it**; Q1 82,631 starts) — natural window for **HOMER's owed real data-refresh** (pair with builders Jul-22).
 
 ### UPCOMING (next 2 weeks)
-5. **Jul 21–24** — Q2 consumer-credit (SYF ~7/22 / ALLY ~7/18-21 / COF ~7/22-24 / AXP) = **CRL-24/20/21/12** + Builder Q2 (DHI FQ3/PHM = CRL-23). This is the maskability-gradient node — NCO↑ × ACL↓ is the tell.
-6. **Jul 24** — Sub-V Sec 122 cliff (POP); **Jul 31** 🔴 — ABS subordinate rating actions (CRL-20/21).
+6. **Jul 21–24** Q2 consumer-credit (ALLY 7/21, SYF/COF ~7/22-24, AXP 7/24) = CRL-24/20/21/12 + builders DHI/PHM (CRL-23). **Jul 24 = POP refresh-then-demote** at the Sub-V Sec-122 dual catalyst (resolve P01-P08, absorb NFIB×3; deep-dives survive verbatim). **~late Jul: POLLY refresh-then-demote** at Q2 P&C.
+7. **Jul 31** 🔴 ABS subordinate rating actions window.
 
 ### BACKLOG (no deadline)
-7. **MATURITY CLUSTER (Will-greenlit B4+B5, re-prioritized behind CPI-7/14 by PROME):** **B2** build `consistency_check.py` (spec at `scripts/CONSISTENCY_CHECK_SPEC.md`, Phase 0 done — 6-phase plan; catches value-mirror drift not free-text/narrative) · **B1/B5** STATUS trim 266→<250 (lead-block spine-stale) · **A2** ROADMAP trim (135KB, RECENTLY RESOLVED = 96KB → cap ~2wk, move rest to CHANGELOG). Do after CPI-7/14 readiness settles. **⛔ BLOCKED: D1/D2 (sub-agent spawns POP/POLLY + TEAM.md) — DAEDALUS is reworking sub-agent architecture; leave those files ALONE (Will 7/10).**
-8. **CRL-06 metric ambiguity** (consistency sweep #3) — "70K/qtr" = starts vs filings vs REO? 3-mo-old open question; resolve BEFORE the **Jul 16 ATTOM Q2** print grades it (may already be CONFIRMED on starts basis, Q1 82,631).
-9. **WALTER↔CARL LIAISON calibration cycle 1** — ~2mo overdue (consistency sweep #8); **Will keep/kill decision** pending.
-10. ~~ABS_BASELINE freeze~~ ✅ DONE 7/10 (FROZEN banner; ledger clean). **consumer_pulse obs_date sanity check** still open (boot.py residual).
-11. **Auto 90+ 5.6% Q1 verify** (via-relay, KB-312) vs NY Fed primary — resolves at Q2 HHDC ~mid-Aug. Sub-agent refresh — PHAN/POLLY/POP ~84d.
+8. **consistency_check.py build** (Phase 1 per spec — greenlit, sequenced post-CPI-readiness) + TEAM mtime-automation rides it. **B1/B5 STATUS trim 265→<250** + A2 ROADMAP trim. THESIS reason-cell prose refresh V6/V8/V10/V11/V13/V14 (L85a residual, cosmetic).
+9. WALTER↔CARL LIAISON calibration cycle 1 (~2mo overdue; Will keep/kill pending). consumer_pulse obs_date sanity check (boot.py residual). Auto 90+ 5.6% verify at Q2 HHDC ~mid-Aug.
+10. **Aug-13 Affirm/Klarna = PHAN dossier ad-hoc spawn** (resolves P02 numeric); **~Aug Dave Q2 = GIG refresh** (provision persist-vs-revert = the retired-canary successor tell).
 
 ---
 
-## OUTBOX (0 new PROME-action; 1 cross-agent delivery this session)
+## OUTBOX (1 new this session)
 | File | To | Summary |
 |------|----|---------|
-| BROCK/inbox/2026-07-10_from-CARL_axisA-consumer-bdc-rows.md | BROCK (cc PROME) | Axis-A consumer→BDC read-through rows delivered ahead of 7/14 |
+| DAEDALUS/inbox/2026-07-10_from-CARL_restructure-writeback.md | DAEDALUS | Full queue+docket dispositions; ★GIG judgment calls / ★SV-migrate / ★Ally-trash; 2 framing corrections (CRL-08 "never recorded", dedup "expect score to move") |
 *(Prior 9 still pending messaging-overhaul; outbox-restraint held.)*
 
 ## INBOX (0 unprocessed)
-*(5 processed this session → inbox/processed/: HAWK, CREED, BROCK, PROME-readthrough-cc, DAEDALUS.)*
+*(3 DAEDALUS notes consumed → processed/ this session. inbox/WALTER/ all processed.)*
 
 ---
 
 ## WORKBOOK HEALTH
 | TSV / file | Rows | Last Mod | Note |
 |------------|------|----------|------|
-| STATUS.md | 265 | Jul 10 | **>250 guideline** (trim backlog #7) |
-| NEXUS_BRIEF.md | 77 | Jul 10 | re-pinned; under 100 |
-| KB.tsv | 318 (317 data) | Jul 10 | +2 (320-321) |
-| PREDICTIONS.tsv | 26 | Jul 2 | 17 OPEN; no change this session |
-| BOARD_LOG.tsv | 423 | Jul 2 | no BOARD diff this session (INDEX unmoved) |
-| CATALYSTS.tsv | 14 | Jul 2 | 0 past-due; Jul 15–31 cluster live |
-| VX.tsv | 122 | Jun 26 | gas/energy rows lag STATUS (mechanical refresh due) |
-| ABS_BASELINE.tsv | — | — | **+83d behind STATUS** (ledger_staleness flag — freeze/refresh) |
-| FLOW.tsv | 26 | Jun 26 | FROZEN-class; STATUS canonical |
+| STATUS.md | 265 | Jul 10 | **>250 cap** (trim = backlog #8) |
+| NEXUS_BRIEF.md | 79 | Jul 10 | re-pinned; under 100 |
+| KB.tsv | 319 (318 data) | Jul 10 | 3 Vector-refs repointed (no new rows — architecture session) |
+| PREDICTIONS.tsv | 26 | Jul 10 | 17 OPEN; CRL-08 annotated (conf unchanged) |
+| VX.tsv | 122 | Jul 10 | FROZEN ledger; disposition edits only (CC-01 SUPERSEDED, HSG-06) |
+| CATALYSTS.tsv | 16 | Jul 10 | 15 rows; 0 past-due; CPI 7/14 next |
+| BOARD_LOG.tsv | 423 | Jul 2 | INDEX unmoved — no diff needed |
+| sub_agents/* | — | Jul 10 | ALL 5 exercised surfaces verified/reconciled today; POP/POLLY CLAUDE.md patched |
 
 ---
 
 ## URGENT
-- **V5 gas-squeeze re-arm is LIVE** — retail $3.884 firing toward $4.00 (products-led); BRENT grades the crude sustain at Fri close. Surface V5 3→4 to Will if retail sustains >$4.00. **Two-root discipline: Russia products ≠ Iran crude.**
-- **Jul 21–24 consumer-credit node = CRL-24 direct** (SYF/COF/ALLY NCO↑ × ACL↓); Axis-A rows staged for BROCK's bank→BDC map.
-- **GIT:** inbox-processing sweep committed local; auto-push at closeout via safe-push. If non-ff, rebase (routine).
+- **CPI 7/14 pre-registration not yet done** — it's the single time-sensitive gap this session left open (deliberate; architecture day).
+- **GIG report undelivered** (work verified clean from disk; 2 pings sent) — close the loop next session, don't re-do the work.
+- **GIT:** big multi-file session (CARL tree + sub_agents + DAEDALUS write-back). Commit with EXPLICIT file paths (DAEDALUS process-ask: no broad pathspec sweeps); auto-push via safe-push; non-ff → rebase (routine).

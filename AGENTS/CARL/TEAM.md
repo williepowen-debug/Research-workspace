@@ -1,41 +1,51 @@
 # CARL Sub-Agent Team
 
-**Updated:** 2026-06-22 PM (GIG refreshed via catch-up gather — 66d gap closed: driver oversupply confirmed, Dave Q1 1.69% survivorship, FL UI Wave-1 magnitude-constrained 8% recipiency, gas squeeze receding; SV-GIG-2026-06-22-01. STUE/DOC/HOMER now ~13-14d edging stale; PHAN/POLLY/POP 66d.)
+**Updated:** 2026-07-10 PM (Fable orchestration session — full roster truth-up after the DAEDALUS restructure [WP1-4] + CARL-directed verification/repair passes on STUE/HOMER/DOC/GIG/PHAN. GIG reconciliation RATIFIED + APPLIED same day; PHAN → DOSSIER; META → FROZEN; POLLY Last-Refresh corrected to Apr-29.)
 
-> **Status (Jun 9):** 3/7 monitoring agents fresh (DOC Jun-8, HOMER Jun-8, STUE Jun-9). 4 still stale 50-60d: **GIG is priority spawn** — FL UI Wave 1 cliff in 15 days; Dave Q1 (May 7), Uber/DASH/Lyft Q1 (May 6-7) all 33d-stale unintegrated at GIG-level. PHAN/POP/POLLY medium-stale — Affirm Q3 / Klarna Q1 / NFIB Apr-May / Q2 P&C all pending; lower-urgency, parallel-spawn-burst candidates. Forward catalysts + which agent owns each live in `docket/CALENDAR.md` (who_cares column).
+> **Freshness discipline (2026-07-10):** the Status/ages below are hand-written snapshots as of the Updated stamp — **verify against each sub-agent's `STATUS.md` mtime before trusting** (`ls -l sub_agents/*/STATUS.md`). Freshness keys on the CANONICAL SURFACE's own state, never on SV-receipt (PAT-044: the Jun-22 GIG SV was marked "🟢 fresh" here while GIG's STATUS rotted 66d into asserting falsified facts). Mtime-derived ages in boot.py = open build item (pairs with consistency_check).
 
 ---
 
 ## ROSTER
 
-| Agent | Domain | Status | Last Refresh | Stale? |
-|-------|--------|--------|-------------|--------|
-| **STUE** | Student loans (DQ, default, SAVE/RAP, servicers) | 🟢 BUILT | **Jun 9** | 🟢 fresh (CRL-04 BREACHED + SAVE→RAP operational-GO + Treasury Phase 1 cadence resolved) |
-| **HOMER** | Housing (foreclosures, MF DQ, builders, state-level) | 🟢 BUILT | **Jun 8** | 🟢 fresh (MF reframed extend-and-pretend; year-misread caught & corrected) |
-| **DOC** | Healthcare costs (medical debt, OOP, care avoidance, GLP-1 cost shock) | 🟢 BUILT | **Jun 8** | 🟢 fresh (Mercer +6.7% V14 candidate; ACA cliff realizing 6mo early; NIPA care-avoidance) |
-| **GIG** | Gig economy (oversupply, Dave 28DPD, gas squeeze, AV) | 🟢 BUILT | **Jun 22** | 🟢 fresh (driver oversupply confirmed; Dave Q1 1.69% survivorship; FL UI Wave-1 magnitude-constrained 8% recipiency; gas receding — SV-GIG-2026-06-22-01) |
-| **PHAN** | Phantom debt / BNPL ($400B+ invisible, stacking, fintech cockroaches) | 🟢 BUILT | **Apr 17** | 🟡 53d (Affirm/Klarna Q1 prints at parent only, not PHAN-level) |
-| **POLLY** | Insurance (P&C, FAIR plans, health, FL/CA, auto) | 🟢 BUILT | **Apr 17** | 🟡 53d (Q2 ~late Jul; hurricane Q3; lower urgency) |
-| **POP** | Small business (Ch.11, closures, owner guarantees, tariff transmission) | 🟢 BUILT | **Apr 17** | 🟡 53d (NFIB Apr+May unintegrated; Sub-V May +36% in parent only) |
-| **META** | Methodology & architecture research | ⚪ SPECIAL | Apr 6 | — |
+### Standing sub-agents (spawn per docket catalysts)
 
-**Team readiness:** 7/7 monitoring agents built. GIG fresh (Jun 22); STUE/DOC/HOMER ~13-14d (edging stale); PHAN/POLLY/POP 66d (medium-stale — Affirm/Klarna Q2 ~Aug, NFIB, Q2 P&C pending).
+| Agent | Domain | Last real refresh | Canonical-surface state (7/10) | Next catalyst (docket) |
+|-------|--------|-------------------|-------------------------------|------------------------|
+| **STUE** | Student loans (DQ, SAVE→RAP, servicers, Treasury collections) | **Jun 9** (data) · 7/10 verify/repair pass | ✅ verified; workbooks two-stated (STATE_DQ FROZEN; SERVICER/CASCADE/TIMELINE live w/ STALE tags); no own PREDICTIONS.tsv (its predictions ARE parent CRL-04/05/13/14 — accepted 7/10) | ~Jul 15 Treasury Phase 1 🔴 |
+| **HOMER** | Housing (foreclosures, MF DQ, builders, state-level) | **Jun 8** (data) · 7/10 verify/repair pass | ✅ verified; CRL-03 parent-invalidation stamped ×6; KB.tsv FROZEN (delegation provenance protected); SV-02 refiled; 4 build-vintage docs → archive/. **Owes a real data-refresh spawn** (live TSVs Jun-8 vintage) | ~Jul 16 ATTOM Q2 🟠 + ~Jul 22 builders 🟠 |
+| **DOC** | Healthcare costs (medical debt, OOP, care avoidance, GLP-1, ACA cliff) | **Jun 8** (data) · 7/10 verify pass | ✅ verified CLEAN (exemplar build held); Apr CPI sign-flip hypothesis resolved MISS; TSV schema defects repaired (PREDICTIONS 8→9-col, ML stub padded); honest staleness banner | 7/14 June CPI 🔴 (ride-along, tagged 7/10) · ~Oct 30 DOC-P10 🟡 |
+| **GIG** | Gig economy (oversupply, Dave provisioning, gas squeeze, AV) | **7/10 RECONCILIATION** (data as-of **Jun-22**, not a fresh pull) | ✅ reconciled + ratified: FL-gas leg SIGN-INVERTED (struck), **Dave 28DPD canary RETIRED** → provisioning (VX-GIG-3.06, bands ⚠ Will-review); P01/P08 MISS, P02 50%; AV surface [STALE Apr-17]; do-not-cite banner LIFTED | Q2 platform earnings ~Aug (Dave provision persist-vs-revert = the new tell) |
+
+### Dossier-mode (ad-hoc spawns against the dossier; no standing refresh)
+
+| Agent | Entry surface | State | Spawn trigger |
+|-------|---------------|-------|---------------|
+| **PHAN** | `PHAN/DOSSIER.md` (CLAUDE/STATUS FROZEN w/ Klarna-refuted warning) | 7/10 pass: 7 predictions dispositioned (P02 12% premise-refuted; P03 96% tracking-HIT on 1033 withdrawal), FLOW crosswalk reconciled (TSV numbering canonical); COCKROACH.tsv + REGULATORY.tsv stay live-append | ~Aug 13 Affirm FQ4 + Klarna Q2 (docket row live) |
+
+### Refresh-then-demote at catalyst (Will-approved sequencing — do NOT demote early)
+
+| Agent | Domain | Last real refresh | Gate |
+|-------|--------|-------------------|------|
+| **POLLY** | Insurance (P&C, FAIR plans, MA culling, FL/CA) | **Apr 29** *(TEAM previously said Apr-17 — corrected 7/10 per audit)* | Q2 P&C prints ~late Jul → final refresh (must-carry: ML-POLLY-19 MA/OBBBA synthesis), then dossier |
+| **POP** | Small business (Sub-V, closures, owner income, tariff) | **Apr 17** | **Jul 24 Sub-V Sec 122 cliff** (dual catalyst) → final refresh (resolve P01-P08, absorb NFIB ×3 + Sub-V decel; deep-dives survive verbatim), then dossier |
+
+### Frozen / dead
+
+| Agent | Disposition |
+|-------|-------------|
+| **META** | FROZEN 7/10 (WP-2; RESEARCH_DIGEST harvested to DAEDALUS/reference/). Do not spawn. |
+| **COOK** | Never built; **declared dead as a standing agent 7/10** (CARL disposition, DAEDALUS concurrence). If OBBBA/SNAP fires (Dec-2026 window) → DOC dossier-section or ad-hoc spawn. Plan git-recoverable at `0f2c59ab`. |
 
 ---
 
-## UPCOMING CATALYSTS → see `docket/`
+## REFRESH RULES (rewritten 2026-07-10 — catalyst-driven, replacing the never-held "3-7 day" cadence)
 
-Forward catalysts (with the sub-agent that owns each, in the `who_cares` column) now live in **`docket/CALENDAR.md`** / **`docket/CATALYSTS.tsv`** — run `scripts/docket_countdown.py` at boot. The old April/May table here was retired May 29 2026 (all dates fired; superseded by the docket). This file is now just the sub-agent **roster + staleness + spawn rules**; the docket drives *when* to spawn.
+- **Spawn on catalyst, not calendar:** spawn a standing sub-agent when the docket (`docket/CATALYSTS.tsv`, `who_cares` column) shows its catalyst inside ~1 week, or when a domain shock fires (e.g., HAWK gas alert → GIG).
+- **Staleness is a citation rule, not a spawn alarm:** a sub-agent's data older than its last catalyst = don't cite as current; STALE-tag on read. Between catalysts, stale-but-tagged is the EXPECTED state, not a violation.
+- **Every refresh runs the SPAWN_PROTOCOL exit-checklist** (STATUS + every TSV touched-or-STALE-marked + due predictions dispositioned + SV to own `state_vectors/`). A refresh that only touches STATUS is a bypass.
+- **Parent catch-up gathers write down same-session** or stamp `BYPASSED <date>` (SPAWN_PROTOCOL rule #10).
 
-**Near-term sub-agent spawn relevance (from docket):** DOC (healthcare GDP drag — priority) · HOMER (Case-Shiller/Freddie HPI/NAHB/home-sales/builder Q2, late June) · GIG/LABOR (JOLTS Jun 2, NFP Jun 5, FL UI cliff Jun 24) · POLLY (insurance Q2 ~Jul + hurricane season) · PHAN (Affirm/Klarna ~Aug) · STUE (SAVE→RAP Jul 1, collections ~Jul) · POP (Sub-V Jul 24).
+## UPCOMING CATALYSTS → `docket/`
 
----
-
-## REFRESH RULES
-
-- **Current:** Refreshed within last 3 trading days. No action needed.
-- **Stale (3-7 days):** Refresh on next session if no higher priority.
-- **Very stale (>7 days):** Mandatory refresh. Data unreliable.
-- **Dormant:** Not operational. Cannot be spawned until built out.
-
-**At session start, check this table. Spawn any BUILT agent that is stale AND has an upcoming catalyst.**
+Forward catalysts + owning sub-agent (`who_cares`) live in `docket/CATALYSTS.tsv` / `CALENDAR.md`; boot.py's docket countdown surfaces them. This file is roster + freshness + spawn rules only.

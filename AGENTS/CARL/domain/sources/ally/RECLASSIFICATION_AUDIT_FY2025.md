@@ -4,6 +4,8 @@
 **Audit Type:** Forensic accounting review for credit deterioration masking (vs. REGINALD regional bank framework)  
 **Context:** Q1 2026 earnings showed "record low" NCO and improving 30+ DQ, but S-tier origination concentration declined sharply
 
+> **Provenance (2026-07-10 retention pass):** the raw 10-K HTML inputs (`10k_fy2024/ally-20241231.htm` 9.0MB + `10k_fy2025/ally-20251231.htm` 8.4MB = 17.4MB, the largest files in CARL's tree) were trashed 7/10 — no live doc cited them; every reference points to THIS audit. Re-pull from EDGAR if ever needed: FY2024 acc `0000040729-25-000006` (filed 2025-02-19), FY2025 acc `0000040729-26-000005` (filed 2026-02-25). (Verified 7/10: the HTMLs were never git-committed — local-only files; EDGAR is the sole recovery path. Local trash also holds them short-term.)
+
 ---
 
 ## 1. Headline Verdict

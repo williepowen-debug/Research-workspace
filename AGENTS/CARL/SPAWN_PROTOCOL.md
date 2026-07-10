@@ -2,13 +2,17 @@
 
 **Purpose:** CARL delegates data gathering to domain-specific sub-agents and focuses on cross-domain synthesis. Sub-agents gather; CARL connects.
 
-**Last meaningful update:** 2026-04-09 | **Last hygiene pass:** 2026-05-31 (Phase 1 dedup, workbook refs, auto-memory pattern pointers)
+**Last meaningful update:** 2026-07-10 (post-restructure: SV-channel canon, DATA-REFRESH checklist, downward-propagation rule, roster reality — see DAEDALUS `CARL_SUBAGENT_AUDIT_2026-07-10.md`) | **Prior hygiene pass:** 2026-05-31
 
 ---
 
 ## SCOPE OF THIS FILE
 
-CARL's boot/session-end protocol lives in `CLAUDE.md` SPAWN PROTOCOL (14 steps, including docket countdown + PREDICTIONS scan). **This file is about spawning sub-agents** (STUE, HOMER, GIG, PHAN, POLLY, POP, DOC, META) — when, how, with what prompt. Roster + staleness lives in `TEAM.md`; which sub-agent each upcoming catalyst maps to lives in `docket/CATALYSTS.tsv` (`who_cares` column).
+CARL's boot/session-end protocol lives in `CLAUDE.md` SPAWN PROTOCOL (14 steps, including docket countdown + PREDICTIONS scan). **This file is about spawning sub-agents** — when, how, with what prompt. Roster + staleness lives in `TEAM.md`; which sub-agent each upcoming catalyst maps to lives in `docket/CATALYSTS.tsv` (`who_cares` column).
+
+**Roster reality (2026-07-10 restructure):** **standing** = STUE, HOMER, DOC, GIG · **dossier-mode** = PHAN (ad-hoc spawns against `PHAN/DOSSIER.md`; CLAUDE/STATUS frozen) · **standing pending refresh-then-demote at catalyst** = POP (Jul-24 Sub-V) and POLLY (Q2 P&C ~late Jul) · **frozen** = META (harvested 7/10) · COOK never built (disposition: dead as standing agent — DOC dossier-section or ad-hoc spawn if OBBBA/SNAP fires, Dec-2026 window).
+
+**SV channel (canonical, 2026-07-10):** each sub-agent delivers state vectors to **its own `state_vectors/` dir** (`SV-<NAME>-YYYY-MM-DD-NN.md`). CARL harvests there at Phase B. The old `../SHARED/state_vectors/` path never existed — any remaining reference is a defect. GIG migrated from `outbox/` delivery 2026-07-10; pre-migration SVs remain in `GIG/outbox/` as history.
 
 ---
 
@@ -28,6 +32,13 @@ CARL's boot/session-end protocol lives in `CLAUDE.md` SPAWN PROTOCOL (14 steps, 
 **When:** Sub-agent is stale (>7d for monitoring; >3d if a catalyst just fired in its domain) or has a catalyst approaching in the docket.
 **What:** Sub-agent pulls latest data via web search, updates STATUS.md and workbook TSVs.
 **Cost:** ~$0.02-0.05 per spawn.
+
+**Refresh exit-checklist (mandatory — the TSV half was systematically skipped for 3 months; audit must-fix #1):**
+- [ ] STATUS.md dashboard values updated (source+date each)
+- [ ] **Every workbook TSV touched or `[STALE — <date>]`-marked** — no TSV left silently at prior vintage
+- [ ] **Every own-ledger prediction past its resolver dispositioned** — resolve / re-arm with reason / `⚠ DUE-UNRESOLVED [DATA-NEEDED: …]`
+- [ ] State vector written to own `state_vectors/`
+- [ ] KB row logged for new facts
 
 ### 2. DEEP DIVE
 **When:** CARL identifies a specific question needing investigation.
@@ -207,3 +218,4 @@ Data that challenges the thesis (per auto-memory [[feedback_red_edge]] — alway
 7. **Sub-agents flag uncertainty.** If a finding is ambiguous or a source is questionable, the sub-agent says so. CARL decides what to do with it.
 8. **Per [[feedback_subagent_prompt_discipline]]**: decision-lead, word cap, decision-usefulness, verdict-first. Don't over-template.
 9. **Per [[feedback_parallel_spawn_independent_agents]]**: independent spawns in ONE message with multiple Agent calls — never sequential.
+10. **Downward propagation (standing rule, 2026-07-10 — audit must-fix #5, PAT-044 root fix).** Any CARL parent-level move that supersedes a sub-domain fact (catch-up gather, workbook freeze, CRL invalidation, refuted prior) **writes down to the owning sub-agent's STATUS/dossier in the same session** — or stamps that surface `BYPASSED <date>` explicitly. Never key TEAM.md freshness on SV-receipt: freshness = the canonical surface's own state (the Jun-22 GIG bypass laundered a 66d-stale STATUS into "🟢 fresh" and let it assert falsified facts for 18 days).
