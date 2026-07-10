@@ -31,7 +31,7 @@ You think in scenario-weighted distributions, not point estimates. You respect u
    ```
    (cd "$(git rev-parse --show-toplevel)" && .venv/bin/python3 AGENTS/SAM/scripts/boot.py)
    ```
-   Runs the full automated sweep — thresholds, USDJPY history, JGB yields (MOF authoritative), JGB auctions, CFTC JPY, MOF weekly flows, Japan trade balance, Japan CPI, catalyst countdown, and FXY options (weekly, auto-skipped if today's snapshot exists). Produces a consolidated brief with all critical alerts highlighted. Add `--verbose` for full output, `--quick` to skip options snapshot.
+   Runs the full automated sweep — thresholds, USDJPY history, JGB yields (MOF authoritative), JGB auctions, CFTC JPY, MOF weekly flows, GPIF portfolio/flows, Japan trade balance, Japan CPI, catalyst countdown, and FXY options (weekly, auto-skipped if today's snapshot exists). Produces a consolidated brief with all critical alerts highlighted. Add `--verbose` for full output, `--quick` to skip options snapshot.
 
    **Manual fallback** (use if boot.py is broken or you need one-off data):
    - **Prices:** `(cd "$(git rev-parse --show-toplevel)" && .venv/bin/python3 FORGE/tools/market-data/fetch.py price FXY USDJPY=X EURJPY=X GBPJPY=X AUDJPY=X BZ=F)` *(cwd-proof form, 2026-07-01)*
@@ -255,6 +255,7 @@ Reference levels only. **Current values live in `STATUS.md`** (avoid same-data-i
 | `workbook/KURA_MEMORY.md` | KURA's state file — RUN LOG, PENDING, STANDING MONITORS, CALIBRATION (SAM-owned: pattern of which proposals SAM accepts/rejects), NEXT RUN HINTS. Per [[finding_subagent_memory_split]]. |
 | `workbook/KB.tsv` | Knowledge base — durable facts/references. Grouped by 9 categories (Insurer/Regulatory/Repatriation/BOJ-Wages/Carry-FX/Energy/Household/Framework/Cross-Agent); `Status` col flags LIVE vs SUPERSEDED. Not auto-pulled. Curated by **KURA** on command (spec in `workbook/KURA.md`); SAM can also hand-edit when needed. |
 | `workbook/KB_ARCHIVE.tsv` | Retired KB rows — resolved point-in-time operational telemetry (SK-refiner saga, Mar-27 intervention sequence, dated probability snapshots). Same schema as KB. Reference-only. |
-| `workbook/*.tsv` | Operational data tsvs. **Auto-pulled (written by boot.py scripts):** CFTC_JPY, CPI, FXY_OPTIONS, JGB_AUCTIONS, JGB_YIELDS, MOF_FLOWS, USDJPY. **Hand-maintained:** FLOW, VX. (CATALYSTS moved to `docket/` 2026-05-28.) |
+| `workbook/*.tsv` | Operational data tsvs. **Auto-pulled (written by boot.py scripts):** CFTC_JPY, CPI, FXY_OPTIONS, GPIF_FLOWS, JGB_AUCTIONS, JGB_YIELDS, MOF_FLOWS, USDJPY. **Hand-maintained:** FLOW, VX. (CATALYSTS moved to `docket/` 2026-05-28.) |
+| `workbook/GPIF_FLOWS.tsv` | GPIF (Government Pension Investment Fund) release tracker — `scripts/gpif_flows.py`. Idempotent by report URL; GPIF is quarterly-laggy by construction (interim update PDFs ~5wk after quarter-end, annual summary + portfolio-holdings Excel ~Jul 1-3). Captures asset size, period return, 4-way asset-class allocation %, and (annual report only) net rebalancing flow by asset class — the closest GPIF publishes to a "flow" number. Portfolio-holdings Excel link is logged, not parsed (security-level detail, out of scope). Built 2026-07-09. |
 | `inbox/` | Inbound signals from other agents. Process when spawned for it. |
 | `outbox/` | Outbound signals for other agents. One file per signal. (See ⚠️ messaging-overhaul note in SPAWN PROTOCOL > MAIL.) |

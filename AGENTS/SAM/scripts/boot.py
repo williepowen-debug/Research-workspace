@@ -56,6 +56,7 @@ BOOT_SEQUENCE = [
     ("JGB Auctions",               "jgb_auctions.py",      [], "JGB AUCTIONS", False),
     ("CFTC JPY Positioning",       "cftc_jpy.py",          [], "CFTC",         False),
     ("MOF Weekly Flows",           "mof_flows.py",         [], "MOF FLOWS",    False),
+    ("GPIF Portfolio / Flows",     "gpif_flows.py",        [], "GPIF",         False),
     ("Japan Trade Balance",        "trade_balance_japan.py", ["--boot"], "TRADE BALANCE", False),
     ("Japan CPI",                  "cpi_japan.py",         [], "CPI",          False),
     ("Catalyst Countdown",         "catalyst_countdown.py", [], "CATALYSTS",    False),
@@ -135,7 +136,7 @@ def main():
                 "ALERT", "SHORT BUILD", "SHORT COVER",
                 "BUYER STRIKE", "Quality problem",
                 "IMMINENT", "HIGH PRIORITY",
-                "Latest", "LATEST",
+                "Latest", "LATEST", "NEW:",
                 "VOL PROXY", "ATM IV", "25d RR",  # surface the FXY vol read
             )
             lines = output.splitlines()
