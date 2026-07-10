@@ -23,11 +23,10 @@
 
 ## RESULT
 
-**4 dispatched (3 DEWEY research-outputs + 1 Iran anchor re-stamp) / 3 killed (intake noise) / 1 held.** BOARD 462→466, all guards reconcile. 3 bifurcation signals (the 3 DEWEY, all cluster_mediating; SIG-004 is primary_substance). No spec-version bumps. **Iran anchor RE-VERIFIED + RE-STAMPED 7/9 (Will-directed, see below).**
+**5 dispatched (3 DEWEY research-outputs + Iran kinetic re-stamp SIG-004 + Iran leadership re-verify SIG-005) / 3 killed (intake noise) / 1 held.** BOARD 462→467, all guards reconcile. 3 bifurcation signals (the 3 DEWEY, all cluster_mediating; SIG-004/005 primary_substance). Spec bumps this session: BOARD_CONSUMPTION_SPEC v0.8 + CHECKLIST v0.26 (design-walkthrough; STATE §1 synced, drift-green). **Iran anchor RE-VERIFIED + RE-STAMPED 7/9 both axes (kinetic + leadership), Will-directed.** Plus the urgent-items pass (DEWEY queue triage + drop-zone boot-step wired) + the design-decision walkthrough (RED pull-complete + 4 resolutions).
 
 ## GAPS
 
-- **Iran leadership axis NOT re-verified this pass** (the 2nd verify-agent — leadership/Hormuz-physical lens — was stopped mid-run; the kinetic/diplomatic lens completed HIGH). The 7/4 Mojtaba stamp (Ali KIA ~2/28, burial 7/9 Mashhad) is carried forward; a leadership re-verify is owed on the next full pass. Anchor 7/9 stamp flags this explicitly.
 - **The next Iran gate is the Fri 7/10 BRENT sustain verdict** (Brent >$75 official settle + ≥2/4 institutional legs → decoupling durably cracked / re-arm confirmed; fade <$74-75 → another shrug, re-arm stands down). BRENT owns it; WALTER re-verifies the anchor on that outcome.
 - **Drop-zone boot-step still NOT wired** (carried) — swept manually this session (empty), but it remains the top deferred infra item; a boot-step surfacing "N images waiting" is still owed.
 - **Full registry_lag refresh deferred** (~20 MED rows, none WALTER-actionable for routing) — a Tier-2 item.
@@ -43,7 +42,7 @@
 - DEWEY Batch-2 prompts 07 / 10 / 18 routed + ledger-closed (3 research-outputs, 21 handoffs). · RESEARCH-INTAKE gate cleared (0 routed / 3 killed / 1 held). · Drop-zone swept (empty). · **🔴 Iran anchor RE-VERIFIED + RE-STAMPED 7/9 (Will-directed) → RE-ESCALATION / de-facto ceasefire collapse; SIG-004 → HAWK/BRENT/SAM; BOARD →466.**
 
 **🟠 Held for Will / carried:**
-- **Iran — next gate = Fri 7/10 BRENT sustain verdict** (durable crack vs another shrug — BRENT owns; WALTER re-verifies the anchor on that outcome). **Leadership-axis re-verify owed** (2nd agent stopped this pass; Mojtaba stamp carried). 7d re-verify next ~7/16.
+- **Iran — next gate = Fri 7/10 BRENT sustain verdict** (durable crack vs another shrug — BRENT owns; WALTER re-verifies the anchor on that outcome). **Leadership axis RE-VERIFIED 7/9 (DONE)** — SL Mojtaba likely INCAPACITATED (wounded 2/28, unseen, UNPROVEN IRGC-council, divided leadership) → longer-tail lean; SIG-005 → HAWK/SAM; "June Islamabad Memorandum" provenance flagged UNVERIFIED. Next leadership triggers: Mojtaba public reappearance / IRGC-council power-grab / contested-succession rupture. 7d re-verify next ~7/16.
 - **Drop-zone boot-step wiring** — still the top deferred infra item (carried from 7/6/7/8).
 - **DEWEY Batch-2 queue — remaining prompts:** 08 (JGB super-long, deadline 7/6 PASSED) · 09 (UST demand-rotation, deadline 7/7 PASSED — both may have run; check `inbox/DEWEY/` next boot) · 11 (food-supply-CPI-fork, CPI 7/14) · 12 (mechanical-selling-stack, opex 7/17) · 13 (criticized-credit-migration, WAL/OZK Q2 ~7/16) · 14 (bank-PC-exposure, Q2 ~7/16) · 15 (FHA-VA-loss-waterfall, Q2 ~7/16) · 16 (BDC-rating-print-hunt, Q2 marks 7/25-28) · 17 (insurer-lender-double-jeopardy, 7/25-28). Reports land through ~7/28.
 - **DEWEY backlog items surfaced this session:** prompt-07b (funding-seizure gate calibration: Mar-2020 + Mar-2023 + false-positive check) · `trace_bond.py` (live CRWV/APLD secondary spreads — the un-measured leg on SIG-001) · `ofr_stfm.py` (OFR STFM helper for SIG-003) · energy June-30-vintage re-pull (first energy-sector OAS print spanning the truce collapse, ~mid-late July, for SIG-002).
