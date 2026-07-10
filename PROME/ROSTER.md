@@ -43,7 +43,7 @@ Verified by recent commit cadence; each runs as its own Claude Code session.
 |---|---|---|
 | CREED | National CRE / CMBS | committed 6/27; spawn for CMBS / REIT-tape work |
 | DEWEY | Deep on-demand research | self-identified Tier-2 "go deep on one question"; stateless (INDEX.tsv only) |
-| HANS | Geopolitics (energy-geo) | ~4 commits/30d |
+| HANS | Europe macro (PMI→ISM lead, ECB/Fed divergence, EU UST custody) — US-market lens | ~4 commits/30d; label fixed 7/10 (was "Geopolitics (energy-geo)" — PAT-042, DAEDALUS catch vs `AGENTS/HANS/CLAUDE.md`; military ceded to HAWK) |
 | OTTO | Auto-industry fraud & stress | 13/30d; STATUS 6/09 |
 
 ## DORMANT — revive only on explicit need (3)
