@@ -57,6 +57,7 @@ Deliver your result (final message + file) as your final action before idling �
 ## §Other 7/9-eve inputs for the spawn prompt
 - **ORACLE cross-check (7/9):** "US blockade on Iran" market 48.0% ($210K vol, real depth) vs HAWK ladder D46 — CONVERGES, KL≈noise. No resolution-matched market exists for the sustain test itself (coverage gap, not a dislocation). `AGENTS/ORACLE/DIVERGENCE_2026-07-09.md`.
 - **MARCO ES-MARCO-08 contamination flag (7/9, Will-routed):** MARCO's produce-vs-pump CPI test (due ~7/15) assumed the pump-relief window holds — the 7/8 re-arm may close it early. Informational for BRENT: a CONFIRM verdict feeds CARL's pass-through AND invalidates MARCO's test assumption; note it in the routing list of the verdict memo (MARCO owns the re-spec).
+- **Energy-HY un-blind (added 7/9 ~20:30, DEWEY prompt-10 via WALTER SIG-W-20260709-002 — in BRENT's own inbox):** ICE BofA US HY Energy OAS **164bps [5/31, VERIFIED-PRIMARY] = tightest of all HY sectors**, 136bp under the >300 trip; broad HY tightened through the 7/8 re-arm → **decoupling SUPPORTED, energy-credit vector PRIMED-not-fired**. Context only, NOT a countable leg (monthly source, ~5-6wk lag — no post-6/1 print exists by design; same-week trips are unconfirmable). BRENT should drain its inbox at spawn.
 
 ---
 
