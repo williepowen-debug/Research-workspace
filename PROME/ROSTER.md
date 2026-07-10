@@ -1,5 +1,5 @@
 # PROME/ROSTER.md — Verified Agent Roster
-**Owner:** Prome · **Last verified:** 2026-06-27 (commit-activity + STATUS-recency pass) · folder-existence reconciled 2026-06-30 · **ZHAO reactivated dormant→active 2026-07-05** (8 commits 7/4, Will-approved)
+**Owner:** Prome · **Last verified:** 2026-06-27 (commit-activity + STATUS-recency pass) · folder-existence reconciled 2026-06-30 · **ZHAO reactivated dormant→active 2026-07-05** (8 commits 7/4, Will-approved) · **counts refreshed 2026-07-10** (PROME commit-activity re-run — classification UNCHANGED; no active/tier-2/dormant flips)
 
 **Method:** classification by **30/60-day git-commit activity** (the "is it actually running" signal) + STATUS mtime + self-declared domain — *not* a prose guess. Re-verify by re-running the activity map (`git log --since=<60d> --pretty=%s | grep -cE '^NAME'` per agent) and diffing against this table.
 
@@ -10,33 +10,35 @@
 ## ACTIVE — persistent domain owners (22)
 Verified by recent commit cadence; each runs as its own Claude Code session.
 
-| Agent | Domain | 30d commits |
+> **The count column is a vintage snapshot (as-of the header date), NOT live** — it rots within days (re-run the Method command to refresh). **Classification is the signal, not the raw count.** *(Vintage-stamp added 2026-07-10 — same "hardcoded-Current value silently rots" defect DAEDALUS fixed in CARL's sub-agent CLAUDE.md files the same day.)*
+
+| Agent | Domain | 30d commits (as-of 2026-07-10) |
 |---|---|---:|
-| PROME | Coordinator / chief of staff | 116 |
-| WALTER | Signal & news routing | 137 |
-| SAM | Japan — BOJ / JGB / carry | 135 |
-| VIOLET | VIX / vol term structure / vol-of-vol | 118 |
-| BRENT | Oil — Brent / WTI | 81 |
-| CARL | Consumer & credit-transmission macro | 62 |
-| LIQUID | HY / credit spreads / liquidity | 57 |
-| RED | Adversarial red-team | 43 |
-| REGINALD | Regional banks | 41 |
-| HENRY | Macro velocity / market trends | 39 |
-| LABOR | Labor market (claims / JOLTS / NFP) | 38 |
-| MARCO | Florida migration / tourism (FL sub; reconcile w/ CORAL) | 37 |
+| PROME | Coordinator / chief of staff | 322 |
+| WALTER | Signal & news routing | 229 |
+| SAM | Japan — BOJ / JGB / carry | 85 |
+| LIQUID | HY / credit spreads / liquidity | 76 |
+| VIOLET | VIX / vol term structure / vol-of-vol | 74 |
+| BRENT | Oil — Brent / WTI | 61 |
+| RED | Adversarial red-team | 44 |
+| HENRY | Macro velocity / market trends | 44 |
+| CARL | Consumer & credit-transmission macro | 42 |
+| LABOR | Labor market (claims / JOLTS / NFP) | 41 |
 | BROCK | Private credit / BDC / non-traded credit | 36 |
-| HAWK | Energy / geopolitics strikes | 34 |
-| NEXUS | Cross-agent synthesis | 26 |
-| BOND | US bond-market structure / auctions / rates | 22 |
-| TERRY | Trade construction / risk scoring | 20 |
-| CORAL | Florida (whole-state, 10 pillars) | 19 |
-| ORACLE | Prediction-market diagnostics | 16 |
-| SHADE | Insurer-lender / PE-insurance-captive | 13 |
-| ZHAO | China macro — UST demand / capital flows / Korea | 8† |
-| AEOLUS | Climate → economy (macro; insurance/ag/energy-demand channels) | new |
+| HAWK | Energy / geopolitics strikes | 35 |
+| TERRY | Trade construction / risk scoring | 33 |
+| REGINALD | Regional banks | 32 |
+| MARCO | Florida migration / tourism (FL sub; reconcile w/ CORAL) | 32 |
+| ORACLE | Prediction-market diagnostics | 31 |
+| BOND | US bond-market structure / auctions / rates | 30 |
+| CORAL | Florida (whole-state, 10 pillars) | 23 |
+| SHADE | Insurer-lender / PE-insurance-captive | 21 |
+| NEXUS | Cross-agent synthesis | 18 |
+| ZHAO | China macro — UST demand / capital flows / Korea | 13† |
+| AEOLUS | Climate → economy (macro; insurance/ag/energy-demand channels) | 5 |
 
 > **AEOLUS** built + wired by DAEDALUS 2026-06-28 (spec: `AGENTS/DAEDALUS/builds/AEOLUS_SPEC.md`). *(Stale "no commit history yet" note removed 7/9 — self-commits exist 6/28 + 7/9 catch-up `564d689d`; row reconciled.)* Macro climate owner; CORAL keeps Florida (boundary handshake RESOLVED 7/9: AEOLUS global/macro, CORAL FL-canonical, reconcile-to-one-number).
-> **† ZHAO** reactivated 2026-07-05 (Will-approved) after ~2.5mo dormancy — the "8" = a single-day 7/4 reactivation burst (STATUS rewrite, KB-076…087, VX/FLOW/PREDICTIONS refresh, `boot.py`, `NEXUS_BRIEF.md`), not steady cadence; reconcile on the next activity pass. Domain is load-bearing: China genuine UST exit ($651.1B, 18yr low) feeds the long-end flow question *(demand-hole refuted at flow level 7/9 — live thread = who-is-the-transient-bid, ZHA-11, TIC 7/16 arbiter)*; Korea (KRW ~1,530) feeds SAM. Ran 7/9 catch-up (China-leg pre-reg, activity current). DAEDALUS maturity-profile + NEXUS BRIEFS_MAP add routed 2026-07-05.
+> **† ZHAO** reactivated 2026-07-05 (Will-approved) after ~2.5mo dormancy — the "13" = the 7/4 reactivation burst (8: STATUS rewrite, KB-076…087, VX/FLOW/PREDICTIONS refresh, `boot.py`, `NEXUS_BRIEF.md`) + the 7/9 catch-up (~5), not yet steady multi-week cadence — recount next pass. Domain is load-bearing: China genuine UST exit ($651.1B, 18yr low) feeds the long-end flow question *(demand-hole refuted at flow level 7/9 — live thread = who-is-the-transient-bid, ZHA-11, TIC 7/16 arbiter)*; Korea (KRW ~1,530) feeds SAM. Ran 7/9 catch-up (China-leg pre-reg, activity current). DAEDALUS maturity-profile + NEXUS BRIEFS_MAP add routed 2026-07-05.
 
 ## TIER-2 — spawned as needed (4)
 | Agent | Domain | Note |
