@@ -1,3 +1,5 @@
+> ⛔ DEMOTED TO DOSSIER 2026-07-10 (DAEDALUS audit, Will-approved) — this file is FROZEN at its Apr-2026 vintage; entry surface is DOSSIER.md. WARNING: this file's Klarna narrative was REFUTED at parent (Klarna Q1-2026 profitable, CARL May-14) — do not cite any value here as current.
+
 # PHAN STATUS (Phantom Debt & Shadow Credit)
 **Last Updated:** 2026-04-17 | **Status:** 🔴 CRITICAL — $400B+ invisible to credit bureaus, stacking BREACHED, CFPB 1033 DEAD (CFPB moved to withdraw), Klarna provisions RISING, state EWA wave accelerating
 
