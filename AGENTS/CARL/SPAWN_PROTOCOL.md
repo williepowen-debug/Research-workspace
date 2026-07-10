@@ -60,8 +60,9 @@ Per auto-memory [[feedback_subagent_prompt_discipline]] — four rules for sub-a
 2. **Word cap** — give a target length ("under 400 words" / "verdict + 3 bullets"). Without one, models pad.
 3. **Decision-usefulness** — every section in the spawn's output must change something CARL would do; if it wouldn't, cut it from the prompt.
 4. **Verdict-first** — require the spawn to lead with its conclusion, then evidence. CARL reads verdicts first; evidence on demand.
+5. **Delivery-before-idle, stated IN the prompt (PAT-046, 2026-07-10).** Every teams-mode/named spawn prompt ends with an explicit "send your report as your final action BEFORE going idle." Fleet rules alone don't reach spawned agents — GIG applied a full reconciliation correctly then idled silently; the 4 prompts that said it explicitly all delivered. If a spawn idles silently anyway: verify from disk (files are the contract) before re-pinging.
 
-Don't over-template. The four rules apply to all three spawn types; pasting a long boilerplate template usually violates rule 3.
+Don't over-template. The five rules apply to all three spawn types; pasting a long boilerplate template usually violates rule 3.
 
 ### Adversarial-pair spawns (when used)
 Per auto-memory [[feedback_adversarial_brief_for_pair_teams]] — when spawning a pair to disagree (e.g., bull vs. bear take on the masking framework, or RED steelman + CARL bear), brief them explicitly toward genuine disagreement. Without the framing, both default to the same default-judicious tone and the second voice adds nothing.
@@ -70,7 +71,7 @@ Per auto-memory [[feedback_adversarial_brief_for_pair_teams]] — when spawning 
 
 ## PROMPT TEMPLATES
 
-These are starting points, not boilerplate. Adapt per the four rules above.
+These are starting points, not boilerplate. Adapt per the five rules above.
 
 ### DATA REFRESH
 ```
@@ -86,7 +87,7 @@ For each refreshed metric: update STATUS.md value + date, log a KB row, update V
 
 Output back to CARL: verdict (1 line: "no change" / "X breached" / "Y newly stale"), then up to 5 bullets of evidence. Under 300 words.
 
-Do NOT update files outside your own directory.
+Do NOT update files outside your own directory. Send your output back as your final action BEFORE going idle (rule 5).
 ```
 
 ### DEEP DIVE
@@ -109,7 +110,7 @@ Update STATUS.md only if findings change a dashboard value. Update workbook TSVs
 
 Output back: verdict + which CARL artifact you wrote to. Under 400 words.
 
-Do NOT update files outside your own directory.
+Do NOT update files outside your own directory. Send your output back as your final action BEFORE going idle (rule 5).
 ```
 
 ### EARNINGS WATCH
@@ -129,7 +130,7 @@ Update PLATFORM/CARRIER/SECTOR TSV (your sub-agent's domain TSV) + STATUS.md. Lo
 
 Output back: verdict (1 line: beat/miss/neutral on thesis), then metric table + 3 lines of management commentary that matter. Under 250 words.
 
-Do NOT update files outside your own directory.
+Do NOT update files outside your own directory. Send your output back as your final action BEFORE going idle (rule 5).
 ```
 
 ---

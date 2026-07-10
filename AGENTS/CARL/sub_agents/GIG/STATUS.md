@@ -248,10 +248,10 @@ FL leg INVERTED (FL now below national)
 |---|------------|-----------|------------|--------|-------|
 | GIG-P01 | Dave 28DPD >2.10% | Q1-Q2 2026 | 65% | **MISS** (7/10) | Q1 1.69% record low + premise invalidated (survivorship). Successor = VX-GIG-3.08 provisioning. |
 | GIG-P02 | FL gig stress leads national | Q2-Q3 2026 | **50%** (↓ from 80%) | TRACKING | FL-gas leg inverted; re-based on gig-concentration + UI-cliff (~8% recipiency caveat), not gas. |
-| GIG-P03 | Lyft weekly earnings <$300 | Q1-Q2 2026 | 70% | TRACKING `[DATA-NEEDED: Gridwise]` | SV has trips/riders/incentive but no weekly-$ figure. Resolve Q2 ~Aug. |
+| GIG-P03 | Lyft weekly earnings <$300 | Q1-Q2 2026 | 70% | TRACKING `[DATA-NEEDED: Gridwise]` | SV has trips/riders/incentive but no weekly-$ figure. Searched web 7/10 — no mid-year 2026 Gridwise print (blog cites 2025 data, $19.48/hr, no weekly-$). Resolve Q2 ~Aug. |
 | GIG-P04 | Multi-apping rate >65% | H2 2026 | 65% | TRACKING | No new survey in SV. |
 | GIG-P05 | ~~1099-K exodus >15%~~ | ~~2026~~ | — | CANCELLED | OBBBA reverted to $20K. |
-| GIG-P06 | DoorDash median <$11/hr | Q2 2026 | 65% | TRACKING `[DATA-NEEDED: Gridwise]` | No updated median-hourly $ in SV. Resolve Q2 ~Aug. |
+| GIG-P06 | DoorDash median <$11/hr | Q2 2026 | 65% | TRACKING `[DATA-NEEDED: Gridwise]` | No updated median-hourly $ in SV. Searched web 7/10 — no mid-year 2026 Gridwise print (blog cites 2025 data, $11.26 trip / $11.63 gross). Resolve Q2 ~Aug. |
 | GIG-P07 | Waymo displaces >10K equiv drivers by EOY 2026 | EOY 2026 | 60% | TRACKING `[STALE AV data]` | Rests on un-refreshed Apr-17 AV surface. |
 | GIG-P08 | Gas $4+ triggers visible driver count decline QoQ | Q1-Q2 2026 | 70% | **MISS** (7/10) | Mechanism inverted — more hours-on-platform, not exodus (inference; counts undisclosed). |
 
