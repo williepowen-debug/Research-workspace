@@ -1,0 +1,18 @@
+# MIGRATION_PROXIES.tsv — sub-annual FL migration proxy legs (built by DAEDALUS 2026-07-10, Will-approved Tier-3 gap #6)
+# FRAMING RULE: Proxies are DIRECTION/DERIVATIVE tells for VX-MARCO-3.03 between annual Census prints — they NEVER
+#   restate the canonical level (different bases: registered voters / licensed drivers / K-12 families ≠ total
+#   population; vintage/basis traps are the fleet's worst error class). Canonical: FL net domestic migration
+#   +22,517 (2025, Census) — workbook/VX.tsv VX-MARCO-3.03; next print ~Dec 2026.
+# LEGS: FLHSMV_LICENSE_INFLOW (quarterly, MANUAL from free MIAMI-Realtors publications ~Jan/Apr/Jul/Oct — FLHSMV
+#   raw data not free) · VOTER_REG_NET (monthly, SCRIPT: tools/fl_migration_proxies.py, FL DOS "New and Removed
+#   Voters by County") · FLDOE_ENROLLMENT (2x/school-yr, MANUAL: Survey 2 ~Dec-Jan, Survey 3 ~Feb-Mar).
+# USPS COA excluded by design: paywalled since 2023, not free.
+# PERIOD CONVENTIONS: YYYY-MM (monthly) · YYYY-Qn · YYYY-Hn · FLDOE uses YYYY-10 (Survey 2 Oct count) /
+#   YYYY-02 (Survey 3 Feb count). value = level where the source gives one, else NA (direction still usable).
+# VOTER_REG_NET CAVEAT: removals are dominated by list-maintenance purge cycles (e.g. Mar-Jun 2025: 31K/39K/32K/14K
+#   inactive removals), so net swings on purges, not migration — yoy_pct is computed on NEW valid voters (inflow),
+#   the cleaner direction read.
+period	leg	geography	value	yoy_pct	direction_read	source	retrieved	notes
+2026-H1	FLHSMV_LICENSE_INFLOW	FL statewide	NA	+3.0	inflow still growing — contradicts further-collapse on the inflow side; says nothing about outflow	https://www.miamirealtors.com/2026/07/02/more-new-yorkers-and-californians-are-moving-to-south-florida-in-2026-based-on-driver-license-exchanges/	2026-07-10	Out-of-state driver-license exchanges (FLHSMV data via MIAMI Realtors). Inflow only, no outflow counterpart.
+2026-H1	FLHSMV_LICENSE_INFLOW	South Florida (Miami-Dade+Broward+Palm Beach)	NA	+16.0	SoFla inflow accelerating (NY/CA exchanges up) — regional divergence vs +3% statewide	https://www.miamirealtors.com/2026/07/02/more-new-yorkers-and-californians-are-moving-to-south-florida-in-2026-based-on-driver-license-exchanges/	2026-07-10	Same publication as statewide row. Inflow only, no outflow counterpart.
+2026-05	VOTER_REG_NET	FL statewide	+13508	-0.8	inflow direction: new voters -0.8% YoY, YTD +12.6% — no inflow-collapse signal	https://dos.fl.gov/elections/data-statistics/voter-registration-statistics/voter-registration-reports/	2026-07-10	New 36,388 vs prior-yr same month; net = new - removals (removals purge-cycle-dominated); YTD new +12.6% YoY.
