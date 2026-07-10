@@ -2,9 +2,9 @@
 
 **By:** DAEDALUS · **Date:** 2026-06-28 · **Class:** Market (Tier-2 spawn-on-need transmitter — national CRE/CMBS → REGINALD/CORAL/LIQUID/CARL)
 **Method:** `UPGRADE_PROTOCOL.md` (one section at a time) · graded vs `BLUEPRINTS/market-agent.md` · comprehension in `profiles/CREED.md`
-**Verdict: L1 (conf M), adversarially verified.** CREED is a **well-built revival, NOT a skeleton** — exemplary stale-data hygiene + an L3-flavored thesis. It grades L1 only because the **L2 gate (a live accruing ledger) is unmet**: its structured records are FROZEN Feb'26 legacy un-pulled-forward. The climb is a **PULL-FORWARD / rehab, not a build-from-scratch** (PAT-021). Graded floor-not-ceiling for a spawn-on-need agent. Nothing applied.
+**Verdict (RE-SCORED 2026-07-10): L2, conf M→H FIRMED.** ~~L1 (conf M)~~ — the L2 gate cleared 7/4 via CREED's **native** source-pack + accruing convergence matrix (PAT-030), NOT the originally-scoped legacy rehab. Not L3 — honest hold: predictions leg empty (zero logged/resolving), exit-rule handles unapplied. **The frozen-VX pull-forward question is CLOSED: banner-and-archive** — schema harvested into `workbook/WORKBOOK_DESIGN.md` (7/4, "do not import the 40KB legacy KB" §6), FROZEN banners applied by REGINALD to all 5 legacy TSVs (MEMORY.md:77). Queue rewritten below; delta detail in `profiles/CREED.md` (refreshed 7/10).
 
-**↳ PROME scoping (6/28) — ✅ APPLIED 6/28 (commit 4fa5eb21):** batch-1 (gated, `BATCH_01_handles.md`) = BOTTOM LINE (§8) + 5-pt convergence over the 8 Expected Signals (§2) + one-table routing consolidation (§6). **HELD for round two:** live-workbook stand-up / PREDICTIONS rehab (§5) — justify accruing machinery on a spawn-on-need agent first. Apply only after PROME/Will approve + idle-check.
+**↳ PROME scoping (6/28) — ✅ APPLIED 6/28 (commit 4fa5eb21):** BOTTOM LINE (§8) + 5-pt convergence (§2, **now exercised: rescored 18→20/40 on 7/4 w/ independence counting**) + route-matrix consolidation (§6, **landed CLAUDE.md:37-51, fire-gated**). ~~HELD: workbook/PREDICTIONS (§5)~~ → **now Will-queued as the next spawn's pinned task** (STATUS:7 "▶ NEXT SESSION"; spec §10 carries 5 open Will decisions). NEXUS_BRIEF writeback: **WAIVED-by-posture** (spawn-on-need; fire-gated routing is the substitute — do not install).
 
 ---
 
@@ -21,10 +21,10 @@
 
 ---
 
-## The queue (pull-forward first)
-1. **§5 light PREDICTIONS.tsv + a live workbook stub** — **the L2 gate.** This is the single thing that moves CREED L1→L2. Note: it's a *rehab* — the legacy KB/VX/FLOW under `REGINALD/sub-agents/CREED/` are schema seeds (per `LEGACY_PULL_FORWARD_2026-06-21.md`); pull forward + refresh values, don't reinvent.
-2. **§2 5-pt convergence matrix over the 8 Expected Signals** — highest cross-agent value (fleet consumes CREED without spawning it). Pair with #1 in the same session to land L2 + the L3 backbone together.
-3. **§6 route-matrix consolidation + NEXUS_BRIEF writeback** — quick win, pure consolidation.
-4. **§4 session-counts + FIRED triad**, then §3/§7 pull-forwards, then §8/§1 polish.
+## The queue (REWRITTEN 7/10 — build first, rehab dead)
+1. **BUILD the workbook from `workbook/WORKBOOK_DESIGN.md`** — Will-queued, the pinned next-spawn task: confirm spec §10's 5 open Will decisions → transcribe the 6-TSV set (**PREDICTIONS seed = the L3 predictions leg**, 4 seeds w/ resolution events) + wire boot mtime-alert (spec §9). ~~Legacy pull-forward~~ DEAD — do NOT rehab; seed-from-refresh already executed at design level.
+2. **§4 session-counts + FIRED-triad** — co-priority with the build (the other L3 leg still thin; Signal-1 "holds" has no N, THESIS:99); apply in the same session.
+3. **Drain the 2 pending WALTER sigs** (7/6 Seattle 37% vacancy; June-MF-DQ ~dup) at spawn.
+4. Then §3/§7/§8/§1 polish as before. **L4 path** = a CREED handoff demonstrably folded into a REGINALD proposal or CARL matrix row (REGINALD leg already consumed the 7/4 freeze flag; CARL's MF handoff sits delivered-unconsumed — PROME nudge suggested, agency-vs-private MF divergence is analytically live vs CRL-03).
 
-> **Sequencing note:** before scoping #1, grep `REGINALD/sub-agents/CREED/` to keep mechanism-valid rows and refresh only stale values. **Application:** CREED is idle (tier-2, last touched 6/28 via PROME catch-up). Edits touch CREED's files → **permission + fresh idle-check**. Respect the stale-data hygiene + tier-2 posture (`profiles/CREED.md` §5) — do NOT impose always-on cadence. Open structural-debt item: the frozen legacy ledgers lack a FROZEN banner (prose-pointer firewall only) — fold into the conformance batch.
+> **Application:** owner-lane — the build is CREED's own next spawn, not a DAEDALUS edit. Respect stale-data hygiene, tier-2 posture, the pinned STATUS:7 pointer, canonical-truth ordering (spec §1), and the 4.01 reconcile-not-fork rule w/ REGINALD (`profiles/CREED.md` §5/§8).
