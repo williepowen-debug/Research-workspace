@@ -1,8 +1,8 @@
 # CARL SCRATCH
 **Last session:** 2026-07-10 ~12:25 ET (Fri)
-**Type:** Inbox-processing — 4 dispositions (HAWK Russia-diesel/CRL-01 + energy live-refresh · CREED CMBS-MF · BROCK Axis-A map · DAEDALUS boot.py wire). **No score change — 51/70 holds; V5 gas-squeeze re-arm candidate 3→4 surfaced to Will, NOT executed.**
+**Type:** Big multi-part session — inbox-processing (4 dispositions) + intraday energy re-mark (**V5 HELD at 3, Will-confirmed**) + consistency sweep (4 fixes) + PROME loop-closure (V5 walk-back propagated) + **C1/A1 (CRL-10 trim 75→62 [DEWEY fork] + CPI-7/14 docket add).** **No score change — 51/70 holds all session.**
 
-**PRIORITY-1:** **The V5 gas-squeeze re-arm decision is LIVE.** Retail gas **$3.884** (Jul 10, +8.8¢/2d, gap to $4.00 just 11.6¢) is FIRING on the products-led two-root oil shock. Next session: pull live gas + read **BRENT's Fri-7/10-close Brent-sustain grade** → **if retail sustains >$4.00 (products cracks hold), surface V5 3→4 to Will for approval.** Then the **Jul 15–24 catalyst cluster** opens (Treasury Phase 1, ATTOM Q2, SYF/COF/ALLY Q2 = CRL-24 — my BROCK Axis-A rows already staged).
+**PRIORITY-1:** **June CPI 7/14 (in 4d) is THE near-term hinge.** Reads through to V12 inflation, **CRL-10 food (just trimmed 75→62** on DEWEY fork — fertilizer input disinflating + WASDE flat, but 7/8 Hormuz re-arm + El Niño Q4 are live tails), **July gas pass-through** (products spike FADED intraday — RBOB −7.33%), and core→FOMC. Watch the print **+ the 7/14 DTN urea weekly** (does the 7/8 Hormuz shock reverse the June nitrogen decline? — the key CRL-10 tell). Then the **Jul 15–24 cluster** (Treasury Phase 1, ATTOM Q2, **SYF/COF/ALLY Q2 = CRL-24** — BROCK Axis-A rows staged).
 
 ---
 
@@ -21,11 +21,13 @@
 7. Write-back: STATUS (header/NOW/BOTTOM), KB +2, ROADMAP (RESOLVED row + thread closed), NEXUS_BRIEF re-pin, this SCRATCH, 5 inbox→processed.
 8. **Intraday energy re-mark** (Will-requested live pull): RBOB −7.33%/Brent slipping $75.82 → shock FADING both roots; **V5 HELD at 3 (Will-confirmed)**; KB-322.
 9. **Consistency sweep** (Will-requested) → fixed 4 clean items: stale "CMBS 7.71% ATH" in Fannie-MF row (STATUS:35) + THESIS V3 cell → **June 7.23%/maturity-adj 9.53%**; **ALLY Q2 date PREDICTIONS Jul-18→Jul-21** (web-verified); **ABS_BASELINE FROZEN** (ledger_staleness now clean); closed 2 moot ROADMAP threads (Workbook-refresh superseded by freeze + ABS_BASELINE refresh).
+10. **PROME loop-closure review** → propagated the V5 3→4 walk-back to ALL surfaces (STATUS header/bottom + NEXUS ×3 were still framing it as an open ask); softened "stalls short of $4.00"; wrote DAEDALUS boot.py WIRE disposition note.
+11. **C1 (DEWEY fork) + A1 (docket CPI):** corrected urea basis (my $585 was mis-based — peaked Apr ~$858, rolled over June $718 retail/$453 intl); **CRL-10 TRIM 75→62** (input disinflating + WASDE flat vs 7/8 Hormuz re-arm + El Niño Q4 tails); added **June CPI 7/14** to docket TSV+CALENDAR (was missing — countdown now surfaces it, verified); ENSO +3°C cite = no-op (not carried).
 
 ## STATUS CHANGES
 | Item | Change |
 |------|--------|
-| Convergence | **51/70 HOLDS** (no score move; V5 3→4 candidate surfaced to Will, not executed) |
+| Convergence | **51/70 HOLDS** (no score move all session; V5 3→4 FADED intraday → HELD at 3 Will-confirmed; CRL-10 conf trim 75→62 is a prediction re-mark, not a vector score) |
 | Gas Pump | $3.796 (7/8) → **$3.884 (7/10)** — CRL-01 pass-through FIRING; 🟡→🟠 |
 | Diesel | $4.827 (7/2) → **$4.852 (7/10)** — 🟠 re-tightening (Russia products ban) |
 | Brent (ref) | $78.82 (7/8) → **~$75.6 (7/10)** — marginal at sustain line; BRENT grades Fri close |
@@ -38,7 +40,7 @@
 ## NEXT SESSION SHOULD
 
 ### IMMEDIATE (this session / 24h)
-1. **Pull live gas + check BRENT's Fri-close Brent-sustain grade** → if retail sustains >$4.00, surface **V5 3→4** to Will (products-led). Two-root discipline: don't co-mingle Russia products vs Iran crude.
+1. **June CPI 7/14 (in 4d) = the hinge** — pre-register a read (V12 inflation / CRL-10 food / gas pass-through / core→FOMC) + pull the **7/14 DTN urea weekly** (the CRL-10 tell: does the 7/8 Hormuz shock reverse the June nitrogen decline?). *(V5 resolved-HELD this session; re-opens only on sustained retail >$4.00 — do not re-surface as an open ask.)*
 
 ### UPCOMING (this week)
 2. **Jul 14** — BROCK bank→BDC node (JPM/WFC/C prints); my Axis-A rows already delivered — no further action unless BROCK pings.
@@ -50,7 +52,7 @@
 6. **Jul 24** — Sub-V Sec 122 cliff (POP); **Jul 31** 🔴 — ABS subordinate rating actions (CRL-20/21).
 
 ### BACKLOG (no deadline)
-7. **STATUS trim** — 265 lines (>250 guideline); archive oldest DANGER-window digests. **Includes lead-block spine-staleness** (line-2 para still says "gas $3.838/Brent ~$70" Jul-2 vintage vs live dashboard rows — flagged in consistency sweep #5).
+7. **MATURITY CLUSTER (Will-greenlit B4+B5, re-prioritized behind CPI-7/14 by PROME):** **B2** build `consistency_check.py` (spec at `scripts/CONSISTENCY_CHECK_SPEC.md`, Phase 0 done — 6-phase plan; catches value-mirror drift not free-text/narrative) · **B1/B5** STATUS trim 266→<250 (lead-block spine-stale) · **A2** ROADMAP trim (135KB, RECENTLY RESOLVED = 96KB → cap ~2wk, move rest to CHANGELOG). Do after CPI-7/14 readiness settles. **⛔ BLOCKED: D1/D2 (sub-agent spawns POP/POLLY + TEAM.md) — DAEDALUS is reworking sub-agent architecture; leave those files ALONE (Will 7/10).**
 8. **CRL-06 metric ambiguity** (consistency sweep #3) — "70K/qtr" = starts vs filings vs REO? 3-mo-old open question; resolve BEFORE the **Jul 16 ATTOM Q2** print grades it (may already be CONFIRMED on starts basis, Q1 82,631).
 9. **WALTER↔CARL LIAISON calibration cycle 1** — ~2mo overdue (consistency sweep #8); **Will keep/kill decision** pending.
 10. ~~ABS_BASELINE freeze~~ ✅ DONE 7/10 (FROZEN banner; ledger clean). **consumer_pulse obs_date sanity check** still open (boot.py residual).

@@ -5,7 +5,7 @@
 **Thesis version:** v2.6.1 ("Beneath the Ice")
 **Recent thesis pivot:** **v2.6.1 (Jul 2, Will-approved):** V3 Fannie MF DQ→GFC **4→3** — CRL-03 invalidated on its own pre-registered trigger (May 0.58%, 2nd consec <0.65%, gap to 0.80% GFC widened to 22bps). V16 re-arm ARMED but HELD at 3 (June NFP soft, single-month). Net 52→51/70 — honest −1, a housing/CRE resolver died. (Prior v2.6 Jun 22: paired V12 4→5 + V5 4→3, 52/70.)
 **Position:** N/A — research domain, no direct book. Thesis expresses via REGINALD/FORGE (KRE/WAL/OZK); I do not mark positions.
-**As of:** 2026-07-10 ET (inbox-processing — energy re-arm/CRL-01 firing + CREED CMBS-MF integrated; no score change, 51/70 holds) | STATUS pin: latest CARL STATUS (behavior-pin)
+**As of:** 2026-07-10 ET (inbox-processing + energy re-arm→held + CREED CMBS-MF + CRL-10 trim 75→62 [DEWEY fork] + CPI-7/14 docket add; no score change, 51/70 holds) | STATUS pin: latest CARL STATUS (behavior-pin)
 
 ---
 
@@ -65,6 +65,7 @@
 
 | Date | Event | Threshold / Signal |
 |------|-------|---------------------|
+| 🔴 **7/14** | **June CPI** (headline/core/food/energy) | Near-term HINGE — V12 inflation, CRL-10 food (trimmed 75→62 on DEWEY fork), July gas pass-through, core→FOMC |
 | ~Jul 15 | Treasury Phase 1 (~500K) + Insurance Q2 (UNH/ELV) | ⚠️ Phase 1 date unconfirmed, servicing≠enforcement; CRL-22 MLR |
 | ~Jul 16 | ATTOM Q2 foreclosures | V10; DEWEY — inflecting on RoC, normalizing on level |
 | ~Jul 21-24 | Q2 consumer-credit (SYF/ALLY/COF/AXP) + Builder (DHI/PHM) | Masking CRL-20/21/24; CRL-23 builder GM |

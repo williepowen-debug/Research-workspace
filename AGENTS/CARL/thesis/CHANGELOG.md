@@ -8,6 +8,19 @@ Tracks all changes to THESIS.md and PREDICTIONS.tsv. Reverse chronological. Each
 
 ---
 
+## 2026-07-10 — PREDICTIONS: CRL-10 trim 75→62 (DEWEY food-supply fork) + docket CPI-7/14 add (no thesis version change)
+
+### PREDICTIONS — CRL-10 re-mark (prediction-confidence only; no vector score move)
+**Author:** CARL (Will-directed C1 from PROME 7/10 audit; integrates DEWEY food-supply-CPI fork, landed f1f53939).
+- **CRL-10 (Food CPI YoY >4.0%, Q4 2026): 75% → 62% (TRIM, not kill).** The fertilizer INPUT path turned disinflationary on the latest vintage — urea peaked April (US-retail ~$858 / intl >$850/mt WB Pink Sheet) then rolled over hard through June (intl $453, −41% MoM; US-retail $718, −13%); WASDE Jul-10 crop farm-prices UNCHANGED; the elevated F&V CPI (+6.74% YoY, May) is a LAGGING Q4-25/Q1-26 winter-freeze base-effect surfacing via FSA designation-lag, NOT a fresh in-window supply collapse. Near-term supply-push to >4% faded → the path to threshold now leans on Q4 tails rather than current momentum. **Kept alive (mechanism intact — [[finding_threshold_vs_mechanism]], trim not kill):** (a) all fertilizer prints PRE-DATE the 7/8 Hormuz re-escalation → supply-rail RE-ARMED (QAFCO ~14% global urea offline since Mar-4; June decline fragile); (b) strengthening El Niño (very strong ≥+2.0°C likely OND-2026; circulated "+3°C" REFUTED — conflated Niño-1+2); (c) tightening grain stocks (lowest US wheat production since 1970/71). Timeframe unchanged; next read June CPI 7/14.
+- **Data correction (STATUS urea row):** prior "$585/T May-1" was basis-inconsistent (NOLA/wholesale or UAN mislabel; correct US-retail May ~$820-860) → corrected to DEWEY's reconciled DTN-retail / WB-Pink-Sheet series (Apr peak → June rollover).
+- **ENSO cite:** no CARL file carried the refuted "+3°C" figure — no-op (precautionary DEWEY flag verified clean).
+
+### DOCKET (A1) — added June CPI 7/14
+Added `2026-07-14 June CPI` to `docket/CATALYSTS.tsv` + `docket/CALENDAR.md` (both had been 8d unmaintained; earliest row was 7/15). CPI 7/14 is the near-term hinge (V12 inflation / CRL-10 / gas pass-through / core→FOMC); boot's `docket_countdown.py` now surfaces it. BLS schedule verified (7/14 8:30 ET).
+
+---
+
 ## 2026-07-02 — THESIS v2.6 → v2.6.1 (Will-approved): V3 Fannie MF 4→3 (CRL-03 invalidated), net 52→51/70 + prediction resolutions
 
 ### THESIS — version bump v2.6 → v2.6.1 (minor: single vector downgrade on a pre-registered trigger firing, Will-approved)

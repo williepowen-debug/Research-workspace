@@ -1,5 +1,5 @@
 # CARL DOCKET — Catalyst Calendar
-**Updated:** 2026-07-02 (full catch-up sweep — pruned 6 fired [UMich final Jun-26, Fannie MF May Jun-26, Freddie HPI Jun-29, Case-Shiller Jun-30, CB Confidence Jun-30, SAVE→RAP Jul-1]; removed the contradicted "Jul-15 collections restart" [AWG/TOP paused indefinitely — CRL-14 SPLIT]; added July-NFP Aug-7 [V16] + Aug-21 sanctions-waiver-expiry [CRL-08 tail])
+**Updated:** 2026-07-10 (added **June CPI 7/14** — the near-term hinge, was missing; docket had been 8d unmaintained w/ earliest row 7/15 [A1, PROME audit]). Prior 2026-07-02 (full catch-up sweep — pruned 6 fired [UMich final Jun-26, Fannie MF May Jun-26, Freddie HPI Jun-29, Case-Shiller Jun-30, CB Confidence Jun-30, SAVE→RAP Jul-1]; removed the contradicted "Jul-15 collections restart" [AWG/TOP paused indefinitely — CRL-14 SPLIT]; added July-NFP Aug-7 [V16] + Aug-21 sanctions-waiver-expiry [CRL-08 tail])
 
 Human-readable twin of `docket/CATALYSTS.tsv`. **The two must not diverge** — edit both together, or regenerate this from the TSV. The TSV is the machine source (read by `scripts/docket_countdown.py` at boot, SPAWN PROTOCOL step 7a).
 
@@ -15,6 +15,7 @@ Human-readable twin of `docket/CATALYSTS.tsv`. **The two must not diverge** — 
 ## July
 | Date | Event | Test | Pri |
 |------|-------|------|-----|
+| **7/14** | **June CPI** (headline/core/food/energy) | V12 inflation leg + CRL-10 food (trimmed 62) + gas pass-through; core→FOMC | 🔴 |
 | ~Jul 15 | Insurance Q2 (UNH/ELV; ALL ~Aug) | CRL-22 MLR / K-shape Selection | 🟠 |
 | **~Jul 15** | **Treasury Phase 1 launch (~500K accounts)** | ⚠️ date unconfirmed ("July 2026"); SERVICING handoff, NOT enforcement (AWG/TOP paused indefinitely — CRL-14) | 🔴 |
 | ~Jul 16 | ATTOM Q2 foreclosures | V10 (Q1 REO +45% YoY); DEWEY: inflecting on RoC, normalizing on level | 🟠 |
