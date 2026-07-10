@@ -24,7 +24,7 @@ The Jun-22 GIG "refresh" was a **CARL-side catch-up gather** (workflow `w95yzkvi
 |---|---|---|
 | FL gas divergence (thesis leg) | $4.093 **ABOVE** national | $3.617 **BELOW** national — **leg inverted** |
 | Dave 28DPD (PRIMARY CANARY) | 1.89%, Q1 TBD | Q1 1.69% record low + provision +151% — SV reframes the canary itself as survivorship-biased |
-| Natl gas | $4.076 🔴 FIRED | peaked $4.50 May-11 (CRL-08 breach never recorded), receding $3.929 |
+| Natl gas | $4.076 🔴 FIRED | peaked $4.50 May-11, receding $3.929 *(CORRECTED per WP-4: "breach never recorded" was imprecise — CARL parent DID record AAA $4.564 on 5/21, graded partial-not-sustained; the gap is GIG-side only)* |
 | Platform oversupply | inferred | Lyft −$12.8M incentives, DoorDash $100M gas subsidy, 2.7× extraction — nowhere in workbook |
 
 Violates SPAWN_PROTOCOL:203 ("if it's not in STATUS.md or a workbook TSV, it didn't happen") — the protocol's own canon says the Jun-22 refresh *didn't happen*. Contrast DOC's Jun-8 refresh (a real sub-agent session): full contract maintained, diff table, STALE markers, SVs delivered AND integrated. **The failure discriminator is spawn type, not build quality.**
@@ -40,7 +40,7 @@ CARL's boot scans its own PREDICTIONS.tsv — no mechanism scans sub-agent ledge
 | **DOC** | **WELL-BUILT** | **KEEP** — the model build; use as the template exemplar | Full contract conformance; diff-table refresh discipline; only defects = dangling dirs + 32d stale (its Apr CPI sign-flip call FAILED per May print — needs respawn to absorb) |
 | **HOMER** | BUILT-BUT-DRIFTED | **KEEP** | Strongest structure (5 live TSVs, calibration postmortem, corrected/ audit-trail convention); KB.tsv dead since Apr-29; CRL-03 invalidation unpropagated |
 | **STUE** | BUILT-BUT-DRIFTED | **KEEP** | Excellent STATUS/SV discipline incl. self-corrections; workbooks decoupled since April |
-| **GIG** | BUILT-BUT-DRIFTED | **KEEP, but reconciliation spawn FIRST** — fold Jun-22 SV into STATUS/workbook, resolve P01 MISS, record CRL-08 breach, fix inverted FL-gas leg | Canonical surface asserts falsified facts; sole record of Q1 platform integration lives in one outbox file |
+| **GIG** | BUILT-BUT-DRIFTED | **KEEP, but reconciliation spawn FIRST** — fold Jun-22 SV into STATUS/workbook, resolve P01 MISS, reconcile CRL-08 gas history GIG-side (parent already recorded+graded it), fix inverted FL-gas leg | Canonical surface asserts falsified facts; sole record of Q1 platform integration lives in one outbox file |
 | **POP** | **WELL-BUILT** | **REFRESH-THEN-DEMOTE** — one final spawn at the **Jul-24 dual catalyst** (Sub-V print + Section 122 expiry, 14d out, currently unowned): resolve P01-P08, absorb NFIB×3 + Sub-V decel, then flatten to dossier | Best conformance of the demotion candidates; both deep-dives (SB→KRE/OZK/WAL pipeline; invisible-income $73-145B) must survive **verbatim** |
 | **POLLY** | BUILT-BUT-DRIFTED | **REFRESH-THEN-DEMOTE** at Q2 P&C prints (~late Jul) — or demote now + reroute docket `who_cares=POLLY` rows to CARL-direct | ML-POLLY-19 MA-cost-trend/OBBBA (Dec-30-2026) synthesis exists nowhere at parent; TEAM.md date wrong (actual last session Apr-29 not Apr-17) |
 | **PHAN** | BUILT-BUT-DRIFTED | **DEMOTE-WITH-CARE** (no catalyst gate — Affirm/Klarna Q2 ~Aug can be an ad-hoc spawn against the dossier) | Dashboard asserts refuted Klarna narrative, zero STALE marks; must-carry: COCKROACH.tsv + REGULATORY.tsv (unique fleet assets), FLOW pathways, 7 predictions, phantom-DTI framework |
