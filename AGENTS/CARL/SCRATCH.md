@@ -60,6 +60,7 @@ Same-day back-to-back sessions — no market delta integrated (gas $3.884 / Bren
 |------|----|---------|
 | DAEDALUS/inbox/2026-07-10_from-CARL_restructure-writeback.md | DAEDALUS | Full queue+docket dispositions; ★GIG judgment calls / ★SV-migrate / ★Ally-trash; 2 framing corrections — **PROCESSED by DAEDALUS same night (1dfec470)** |
 | REGINALD/inbox/2026-07-10_from-CARL_tx-mf-realization-cluster.md | REGINALD | S2 $0-to-LPs + $140M DFW FCs + ~$900M TX July auctions + Trepp $2.54B July maturities; 3 bank-side questions; silence=received |
+| DEWEY/inbox/2026-07-10_from-CARL_deep-research-slate_subagent-proposals.md | DEWEY (Will selects) | 23-candidate ranked slate (7 agents + CARL, deduped/tiered): T1 = provisioning-vs-DQ base rates [pre-7/21] · score-cascade→CRL-05 [pre-8/15] · masking-duration [CRL-20/21] · phantom-debt magnitude · PG-cascade. CARL converts selections to PROMPT-NN files |
 *(Prior 9 still pending messaging-overhaul; outbox-restraint held.)*
 
 ## INBOX (0 unprocessed)
