@@ -35,7 +35,7 @@ BOOT_SEQUENCE = [
     ("Gas Price Tracker",         "gas_tracker.py",       [], "GAS PRICES",      False),
     ("Consumer Pulse (FRED)",     "consumer_pulse.py",    [], "CONSUMER PULSE",  False),
     ("Housing Pulse (FRED)",      "housing_pulse.py",     [], "HOUSING PULSE",   False),
-    ("Catalyst Countdown",        "catalyst_countdown.py", [], "CATALYSTS",       False),
+    ("Docket Countdown",          "docket_countdown.py",  [], "CATALYSTS",       False),
     ("ABS Trust Monitor (EDGAR)", "abs_monitor.py",       [], "ABS FILINGS",     True),
 ]
 

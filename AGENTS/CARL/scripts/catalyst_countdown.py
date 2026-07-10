@@ -1,5 +1,11 @@
 #!/usr/bin/env python3
 """
+⚠️ SUPERSEDED 2026-07-10 — replaced by docket_countdown.py in boot.py + boot step 7a.
+This script greps free-text dates out of STATUS.md/TEAM.md (noisy, drifts).
+The canonical forward-catalyst source is docket/CATALYSTS.tsv, read by
+docket_countdown.py. Kept for reference only; not wired into boot. Do not
+re-add to boot.py's BOOT_SEQUENCE.
+
 CARL Catalyst Countdown
 Reads STATUS.md danger window and TEAM.md catalyst tables, computes
 trading days to each upcoming event, and prints a prioritized countdown.

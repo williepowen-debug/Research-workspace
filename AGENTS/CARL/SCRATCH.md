@@ -1,84 +1,88 @@
 # CARL SCRATCH
-**Last session:** 2026-07-02 ~14:00 ET (Thu)
-**Type:** Full catch-up sweep (gather workflow wng35yy0d — 7 research-only agents; Jun 26–Jul 2 catalysts) → **v2.6.1 EXECUTED (Will-approved): V3 Fannie MF DQ→GFC 4→3, CRL-03 INVALIDATED, 52→51/70.**
+**Last session:** 2026-07-10 ~12:25 ET (Fri)
+**Type:** Inbox-processing — 4 dispositions (HAWK Russia-diesel/CRL-01 + energy live-refresh · CREED CMBS-MF · BROCK Axis-A map · DAEDALUS boot.py wire). **No score change — 51/70 holds; V5 gas-squeeze re-arm candidate 3→4 surfaced to Will, NOT executed.**
 
-**PRIORITY-1:** **July NFP ~Aug 7 = the V16 re-arm resolver** (V16 ARMED but HELD at 3 this session — June NFP +57K/−74K revised away the May strength, but single-month; a negative or another sharp-decel-with-down-revision → V16 3→4). Then **~mid-Aug NY Fed Q2 HHDC = CRL-05 direct** (CC 90+ vs GFC 13.74%) + verify the via-relay auto 90+ ~5.6% Q1 figure vs primary.
+**PRIORITY-1:** **The V5 gas-squeeze re-arm decision is LIVE.** Retail gas **$3.884** (Jul 10, +8.8¢/2d, gap to $4.00 just 11.6¢) is FIRING on the products-led two-root oil shock. Next session: pull live gas + read **BRENT's Fri-7/10-close Brent-sustain grade** → **if retail sustains >$4.00 (products cracks hold), surface V5 3→4 to Will for approval.** Then the **Jul 15–24 catalyst cluster** opens (Treasury Phase 1, ATTOM Q2, SYF/COF/ALLY Q2 = CRL-24 — my BROCK Axis-A rows already staged).
 
 ---
 
-## CHANGES SINCE LAST SESSION (Jun 26 → Jul 2, now integrated)
-1. **CRL-03 INVALIDATED** — Fannie MF DQ May **0.58%** (2nd consec <0.65%), its own pre-registered trigger. V3 4→3.
-2. **June NFP SOFT +57K / −74K revisions** (May restated −25%) — reversed the May beat; V16 re-arm armed. CRL-11 MISSED (May JOLTS hires 3.3%, Apr revised up).
-3. **Nominal HPI ACCELERATING** (Freddie +1.9%/CS +0.8% YoY) — the "HPI turns negative 2026" call is wrong for now; reframed to real-erosion (real −2.4% YoY, 11 mo).
-4. **CRL-08 dead-deepened 40→28** — Jun 25-28 real kinetic (tanker strikes/US airstrikes/Iran missile on Kuwait base) yet Brent FELL to ~$70; gas $3.838. Treasury sanctions waiver (Aug 21) absorbs it.
-5. **CRL-14 CORRECTION** — AWG/TOP collections paused indefinitely since Jan 16; "Jul-15 restart" was a phantom catalyst (removed from docket). SAVE→RAP began on schedule Jul 1 (staggered to Mar 2027).
-6. UMich June-final: sentiment 49.5 (no relapse), 5-10Y 3.3% (V12 HELD 5); UMCSENT 44.8 flag was a stale May obs.
+## CHANGES SINCE LAST SESSION (Jul 2 → Jul 10, now integrated)
+1. **ENERGY TAIL RE-ARMED (was dead-deepened Jul 2).** Two independent oil shocks: **RUSSIA/products** (Ukraine hit 5 refineries 7/6-8, Omsk ~75% down; Russia diesel-export ban thru 7/31; global diesel +~13% Wed) + **IRAN/crude** (truce collapse 7/7-8, 3 tankers hit, Treasury revoked oil-relief, wind-down 7/17). Retail gas $3.796 (7/8) → **$3.884 (7/10)**; diesel $4.852 ORANGE re-tightening; Brent ~$75.6 marginal at the $75 sustain line.
+2. **CREED CMBS-MF (7/4):** MF DQ resumed rising → June **7.23%** (+28bps after a May cure to 6.95%; maturity-adj **9.53%** multi-yr high) + realized Sun Belt 2022-vintage MF foreclosure cluster (S2 Capital $400M fund dissolved). GSE-vs-CMBS MF divergence widening.
+3. Prior Jul-8 targeted energy re-mark (STATUS gas/Brent rows only, commit e82dbe8a) — this session superseded it with live 7/10 data + the Russia root.
 
 ## WHAT HAPPENED (this session)
-1. Boot + 4 scans; caught the 10-day SCRATCH/STATUS gap + 6 past-due catalysts + ~40 (truncated) BOARD backlog.
-2. Gather workflow wng35yy0d (7 research-only agents, Sonnet) — housing/labor/sentiment/energy/student-loans/credit + BOARD.
-3. Surfaced the paired score decision to Will → **V3 4→3, hold V16 (51/70)** approved.
-4. Full write-back: THESIS v2.6.1, PREDICTIONS (CRL-03/11 MISSED + 08/13/14 re-marks), CHANGELOG, STATUS (~26 rows), KB +16 (302-317), BOARD_LOG +98 (2 batches → 0 undispositioned), docket (6 pruned + collections removed + 2 added), CALENDAR, ROADMAP, NEXUS_BRIEF, this SCRATCH.
-5. Replied to 2 PROME inbox notes (UMCSENT false-alarm resolved; DAEDALUS CARL-SWEEP-A accepted+deferred); archived both to processed/.
+1. Boot + all 4 scans (docket, predictions, failure-pattern, ledger-staleness). Reconciled Jul-2-SCRATCH vs Jul-8-STATUS energy gap via git log.
+2. Processed 5 inbox items → 4 dispositions (PROME 7/5 = cc-half of BROCK).
+3. **HAWK** → STATUS energy rows (gas/Brent/diesel, two-root discipline) + KB-320.
+4. **CREED** → STATUS CMBS-MF row (retitled June) + KB-321.
+5. **BROCK/PROME** → wrote Axis-A consumer→BDC read-through doc (`domain/sources/2026-07-10_axisA...`) + delivered pointer to BROCK inbox (cc PROME), ahead of 7/14.
+6. **DAEDALUS** → WIRED boot.py as CLAUDE.md boot step 7.0; swapped `catalyst_countdown.py`→`docket_countdown.py`, tested clean (exit 0); deprecated catalyst_countdown. Resolves the consumer_pulse-into-boot thread.
+7. Write-back: STATUS (header/NOW/BOTTOM), KB +2, ROADMAP (RESOLVED row + thread closed), NEXUS_BRIEF re-pin, this SCRATCH, 5 inbox→processed.
 
 ## STATUS CHANGES
 | Item | Change |
 |------|--------|
-| Convergence | **52 → 51/70** (V3 4→3, CRL-03 invalidated; V16 held at 3 armed) |
-| Predictions | CRL-03 MISSED, CRL-11 MISSED, CRL-08 40→28%, CRL-14 SPLIT, CRL-13 timeframe refine; +CRL-24/25 into STATUS table |
-| Fannie MF | 0.64% Apr → **0.58% May** (CRL-03 dead) |
-| Labor | NFP June +57K/−74K; JOLTS May hires 3.3%; LFPR 61.5%; UR 4.2% |
-| Energy | gas $3.838, Brent ~$70, diesel $4.827 |
-| Housing | Freddie +1.9%, CS +0.8%, months-supply 10.3; auto 90+ 5.6% Q1 [verify]; mortgage DQ inflecting |
-| KB / BOARD | KB +16 (302-317); BOARD_LOG +98 (325→423) |
+| Convergence | **51/70 HOLDS** (no score move; V5 3→4 candidate surfaced to Will, not executed) |
+| Gas Pump | $3.796 (7/8) → **$3.884 (7/10)** — CRL-01 pass-through FIRING; 🟡→🟠 |
+| Diesel | $4.827 (7/2) → **$4.852 (7/10)** — 🟠 re-tightening (Russia products ban) |
+| Brent (ref) | $78.82 (7/8) → **~$75.6 (7/10)** — marginal at sustain line; BRENT grades Fri close |
+| CMBS MF DQ | Apr 7.71% → **June 7.23%** (+ maturity-adj 9.53%; Sun Belt FC cluster) |
+| KB | +2 (320 gas / 321 CMBS-MF) → 317 data rows |
+| boot.py | WIRED (step 7.0); catalyst_countdown→docket_countdown swap |
 
 ---
 
 ## NEXT SESSION SHOULD
 
 ### IMMEDIATE (this session / 24h)
-1. Nothing dated in the next 24h. (Next dated catalyst ~Jul 15.)
+1. **Pull live gas + check BRENT's Fri-close Brent-sustain grade** → if retail sustains >$4.00, surface **V5 3→4** to Will (products-led). Two-root discipline: don't co-mingle Russia products vs Iran crude.
 
-### UPCOMING (this week / next 2 weeks)
-2. **~Jul 15** — Treasury Phase 1 (~500K, date unconfirmed; servicing≠enforcement) + Insurance Q2 (UNH/ELV, CRL-22).
-3. **~Jul 16** — ATTOM Q2 foreclosures (V10; DEWEY: inflecting on RoC / normalizing on level).
-4. **~Jul 21-24** — Q2 consumer-credit (SYF/ALLY/COF/AXP — CRL-12/20/21/24) + Builder Q2 (DHI/PHM — CRL-23).
+### UPCOMING (this week)
+2. **Jul 14** — BROCK bank→BDC node (JPM/WFC/C prints); my Axis-A rows already delivered — no further action unless BROCK pings.
+3. **Jul 15** 🔴 — Treasury Phase 1 launch (~500K) + Insurance Q2 (UNH/ELV, CRL-22).
+4. **Jul 16** — ATTOM Q2 foreclosures (CRL-06; DEWEY: inflecting on RoC / normalizing on level).
+
+### UPCOMING (next 2 weeks)
+5. **Jul 21–24** — Q2 consumer-credit (SYF ~7/22 / ALLY ~7/18-21 / COF ~7/22-24 / AXP) = **CRL-24/20/21/12** + Builder Q2 (DHI FQ3/PHM = CRL-23). This is the maskability-gradient node — NCO↑ × ACL↓ is the tell.
+6. **Jul 24** — Sub-V Sec 122 cliff (POP); **Jul 31** 🔴 — ABS subordinate rating actions (CRL-20/21).
 
 ### BACKLOG (no deadline)
-5. **Wire `consumer_pulse.py` into boot** (step 7) + obs_date sanity check — accepted this session, not done (ROADMAP thread).
-6. **DAEDALUS CARL-SWEEP-A** — matrix §2 Independence column (dedicated pass; don't flatten CRL-21/20 loop).
-7. **Verify auto 90+ 5.6% Q1** (via-relay, KB-312) vs NY Fed primary.
-8. **Sub-agent refresh burst** — STUE/HOMER/DOC ~24d, PHAN/POLLY/POP 76d (Affirm/Klarna ~Aug 13, NFIB, Q2 P&C).
-9. **STATUS trim** — 263 lines (>250 guideline); archive oldest DANGER-window digests + fat resolved-prediction blobs (ROADMAP workbook-archive thread). FLOW.tsv 76d, ABS_BASELINE +76d (7d scan).
+7. **STATUS trim** — 265 lines (>250 guideline); archive oldest DANGER-window digests.
+8. **ABS_BASELINE.tsv +83d behind STATUS** (ledger_staleness flag) — FREEZE or refresh.
+9. **consumer_pulse obs_date sanity check** (residual of the boot.py thread — guard the stale-obs false-alarm class).
+10. **Auto 90+ 5.6% Q1 verify** (via-relay, KB-312) vs NY Fed primary — resolves at Q2 HHDC ~mid-Aug.
+11. Sub-agent refresh — PHAN/POLLY/POP ~84d (Affirm/Klarna ~Aug, NFIB, Q2 P&C).
 
 ---
 
-## OUTBOX (1 new this session)
+## OUTBOX (0 new PROME-action; 1 cross-agent delivery this session)
 | File | To | Summary |
 |------|----|---------|
-| 2026-07-02_to-PROME_umcsent-resolved+daedalus-sweep-a.md | PROME | UMCSENT 44.8 = stale May obs (recommend lane obs_date check); CARL-SWEEP-A accepted+deferred |
+| BROCK/inbox/2026-07-10_from-CARL_axisA-consumer-bdc-rows.md | BROCK (cc PROME) | Axis-A consumer→BDC read-through rows delivered ahead of 7/14 |
 *(Prior 9 still pending messaging-overhaul; outbox-restraint held.)*
 
 ## INBOX (0 unprocessed)
-*(2 PROME notes processed → inbox/processed/; WALTER/ subdir unchanged.)*
+*(5 processed this session → inbox/processed/: HAWK, CREED, BROCK, PROME-readthrough-cc, DAEDALUS.)*
 
 ---
 
 ## WORKBOOK HEALTH
 | TSV / file | Rows | Last Mod | Note |
 |------------|------|----------|------|
-| STATUS.md | 263 | Jul 2 | **>250 guideline** (trim backlog #9) |
-| NEXUS_BRIEF.md | ~95 | Jul 2 | re-pinned; under 100 |
-| PREDICTIONS.tsv | 26 | Jul 2 | CRL-03/11 MISSED; 15 OPEN |
-| KB.tsv | 316 rows | Jul 2 | +16 (302-317) |
-| BOARD_LOG.tsv | 422 | Jul 2 | +98, 0 undispositioned, 0 dupes |
-| CATALYSTS.tsv | 13 | Jul 2 | 6 pruned + collections removed + 2 added; 0 past-due |
-| VX.tsv | 121 | **Jun 16** | gas/energy/sentiment rows lag STATUS (mechanical refresh due) |
-| FLOW.tsv | 25 | **Apr 17** | **76d STALE** |
+| STATUS.md | 265 | Jul 10 | **>250 guideline** (trim backlog #7) |
+| NEXUS_BRIEF.md | 77 | Jul 10 | re-pinned; under 100 |
+| KB.tsv | 318 (317 data) | Jul 10 | +2 (320-321) |
+| PREDICTIONS.tsv | 26 | Jul 2 | 17 OPEN; no change this session |
+| BOARD_LOG.tsv | 423 | Jul 2 | no BOARD diff this session (INDEX unmoved) |
+| CATALYSTS.tsv | 14 | Jul 2 | 0 past-due; Jul 15–31 cluster live |
+| VX.tsv | 122 | Jun 26 | gas/energy rows lag STATUS (mechanical refresh due) |
+| ABS_BASELINE.tsv | — | — | **+83d behind STATUS** (ledger_staleness flag — freeze/refresh) |
+| FLOW.tsv | 26 | Jun 26 | FROZEN-class; STATUS canonical |
 
 ---
 
 ## URGENT
-- **July NFP ~Aug 7 (V16 re-arm) + NY Fed Q2 HHDC ~mid-Aug (CRL-05)** — the two resolvers that matter next.
-- **Auto 90+ 5.6% Q1 is via-relay** — do NOT treat as load-bearing until verified vs NY Fed primary.
-- **GIT:** v2.6.1 sweep committed local; auto-push at closeout via safe-push. If non-ff, rebase (routine).
+- **V5 gas-squeeze re-arm is LIVE** — retail $3.884 firing toward $4.00 (products-led); BRENT grades the crude sustain at Fri close. Surface V5 3→4 to Will if retail sustains >$4.00. **Two-root discipline: Russia products ≠ Iran crude.**
+- **Jul 21–24 consumer-credit node = CRL-24 direct** (SYF/COF/ALLY NCO↑ × ACL↓); Axis-A rows staged for BROCK's bank→BDC map.
+- **GIT:** inbox-processing sweep committed local; auto-push at closeout via safe-push. If non-ff, rebase (routine).

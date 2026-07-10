@@ -5,12 +5,13 @@
 **Thesis version:** v2.6.1 ("Beneath the Ice")
 **Recent thesis pivot:** **v2.6.1 (Jul 2, Will-approved):** V3 Fannie MF DQ→GFC **4→3** — CRL-03 invalidated on its own pre-registered trigger (May 0.58%, 2nd consec <0.65%, gap to 0.80% GFC widened to 22bps). V16 re-arm ARMED but HELD at 3 (June NFP soft, single-month). Net 52→51/70 — honest −1, a housing/CRE resolver died. (Prior v2.6 Jun 22: paired V12 4→5 + V5 4→3, 52/70.)
 **Position:** N/A — research domain, no direct book. Thesis expresses via REGINALD/FORGE (KRE/WAL/OZK); I do not mark positions.
-**As of:** 2026-07-02 ET (full catch-up sweep — Jun 26–Jul 2 catalysts integrated, v2.6.1) | STATUS pin: latest CARL STATUS (behavior-pin)
+**As of:** 2026-07-10 ET (inbox-processing — energy re-arm/CRL-01 firing + CREED CMBS-MF integrated; no score change, 51/70 holds) | STATUS pin: latest CARL STATUS (behavior-pin)
 
 ---
 
 ## VIEW
 
+- **7/10 — energy tail RE-ARMED, CRL-01 gas pass-through FIRING (products-led).** Retail gas $3.884 (+8.8¢/2d, gap to $4.00 just 11.6¢) on a **two-root** oil shock: RUSSIA/products (Ukraine hit 5 refineries 7/6-8, Omsk ~75% down; diesel-export ban thru 7/31; global diesel +13%) landing on the pump NOW vs IRAN/crude (Brent ~$75.6 marginal at the sustain line — BRENT grades Fri close). Two-root discipline: **products-led, not crude-led. V5 gas-squeeze re-arm candidate (3→4) surfaced to Will — NOT executed; 51/70 holds.** Separately, CREED: CMBS MF DQ resumed rising (June 7.23%, maturity-adj 9.53% multi-yr high) + realized Sun Belt 2022-vintage MF foreclosure cluster → GSE-vs-CMBS MF divergence widening (confirms the CRL-03-invalidation caveat).
 - **This cycle went AGAINST several bear legs — and the honest read is a −1, not a reframe.** **CRL-03 INVALIDATED** (Fannie MF DQ May 0.58%, 2nd consec <0.65%, gap to GFC widened) — the GFC-approach in the GSE MF book is not firing (CRE/MF stress persists elsewhere: CMBS MF 7.71% ATH). The **"HPI turns negative 2026" call is wrong for now** — nominal HPI ACCELERATING (Freddie +1.9%/Case-Shiller +0.8% YoY); reframe to real-erosion (real −2.4% YoY, 11 mo) + months-supply 10.3. **CRL-08 dead-deepened 40→28** — Jun 25-28 was a GENUINE kinetic escalation yet Brent FELL through it to ~$70 (gas $3.838); the Jun-22 Treasury sanctions waiver (expires Aug 21) absorbs the risk.
 - **The consumer-income/employment CORE re-softened, offsetting:** June NFP **+57K / −74K revisions** (May restated −25% → V16 re-arm ARMED, held at 3 pending July NFP); LFPR 61.5% (lowest since Mar-2021); continuing claims +55K to a 3-mo high (labor-hoarding); **Real DPI YoY turned negative** (first since 2022); CC 90+ 13.1% intact; **auto 90+ ~5.6% Q1 record** (via-relay, verifying); savings 3.0% pinned; KB Home FQ2 op-margin 8.6→2.5%.
 - **V12 Stagflation Trap HOLDS 5** — UMich June-final 5-10Y **3.3%** (2nd print below the 3.5% red line but still 30bps above CARL's 3.0% downgrade trigger); score anchored to the Warsh SEP, un-fires only on a dovish pivot. CB Expectations 74.4 = 6 consec mo <80. *(The machine-lane "UMCSENT 44.8 band-breach" was a STALE MAY obs — June-final sentiment 49.5, no relapse.)*
@@ -37,7 +38,8 @@
 | To | Signal | Priority | Mechanism it triggers in recipient's domain |
 |----|--------|----------|---------------------------------------------|
 | PROME/LABOR | **June NFP SOFT +57K / −74K revisions** (May restated −25%); LFPR 61.5%; continuing claims 3-mo high | 🔴 | Reverses the May "acute-employment beat"; V16 re-arm armed. LABOR owns topline; use continuing-claims not U-3 (per LABOR L-06) |
-| REGINALD | **Fannie MF DQ falling (May 0.58%) but CMBS-MF 7.71% ATH diverges**; mortgage DQ inflecting (ICE May, FHA non-current >13%) | 🟠 | GSE-book easing while CRE/MF book stressed — extend-and-pretend split; condo/CRE collateral read still open |
+| REGINALD | **GSE-vs-CMBS MF divergence WIDENING (CREED 7/4):** Fannie MF DQ falling (0.58% May) but CMBS-MF resumed rising June 7.23% (maturity-adj 9.53% multi-yr high) + realized Sun Belt 2022-vintage MF FC cluster (S2 Capital $400M fund dissolved, TX-concentrated); mortgage DQ inflecting (ICE, FHA non-current >13%) | 🟠 | GSE-book easing while CRE/MF book stressed — extend-and-pretend split; condo/CRE collateral read still open |
+| BRENT/HAWK/PROME | **Gas pass-through FIRING — retail $3.884 (products-led two-root shock; Russia refinery-strike/diesel-ban + Iran crude); V5 re-arm candidate 3→4** | 🟠 | pump→energy-CPI July landing; two-root discipline (Russia products ≠ Iran crude); BRENT owns the Brent-sustain grade (Fri close) |
 | REGINALD/LIQUID | ABS subordinate-tranche: EART Class E **breached**; no new actions Jun 26–Jul 2 (clean null) | 🟠 | Rating actions → forced selling; Q2-Q3 wave still pre-action |
 | POLLY/CORAL | Flood-uninsured → FL mortgage-credit-risk ($375B exposure, post-Harvey DQ +205%) | 🟠 | Insurance-gap → mortgage-DQ transmission; FL priority geography |
 
@@ -53,9 +55,9 @@
 
 ## NEXT DECISION POINT
 
-- **What:** V16 3→4 re-arm (ARMED Jul 2, held on single-month discipline). Next: whether June's soft NFP + revisions is confirmed or one-off.
-- **When:** **July NFP ~Aug 7** (V16). Then **~mid-Aug NY Fed Q2 HHDC** (CRL-05 direct; also verifies the via-relay auto 90+ 5.6%).
-- **What would change my view:** July NFP negative/sharp-decel-with-down-revision → V16→4; a rebound → hold. Waiver-lapse + Doha-collapse → CRL-08 re-arm. A Warsh dovish pivot → V12 5→4 (unlikely).
+- **What:** (a) **V5 gas-squeeze re-arm 3→4** (candidate surfaced to Will 7/10 — retail pass-through firing on the two-root shock); (b) V16 3→4 re-arm (ARMED Jul 2, held on single-month discipline).
+- **When:** (a) **next few days** — retail vs $4.00 + BRENT's Brent-sustain grade (Fri 7/10 close); (b) **July NFP ~Aug 7** (V16); then **~mid-Aug NY Fed Q2 HHDC** (CRL-05 direct; also verifies the via-relay auto 90+ 5.6%).
+- **What would change my view:** retail sustained >$4.00 (products cracks hold) → V5 3→4 (Will decision); a fade back → hold. July NFP negative/sharp-decel-with-down-revision → V16→4; a rebound → hold. A Warsh dovish pivot → V12 5→4 (unlikely).
 
 ---
 
