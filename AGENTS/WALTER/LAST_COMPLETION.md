@@ -57,16 +57,24 @@
 
 ## OPEN DESIGN DECISIONS (need Will) — condensed
 
-**🔴 ACTIVE (carried):**
-- Iran anchor re-stamp cadence (the 7/4-vs-7/8 divergence makes this concrete).
-- Drop-zone boot-step + standing-lane formalization.
+**✅ DESIGN-WALKTHROUGH RESOLVED (7/9, Will-approved — the parked ~9 cleared):**
+- **RED auto-cc → RED made §3.5 pull-complete** (BOARD_CONSUMPTION_SPEC v0.8 + doctor `PULL_COMPLETE={"CARL","RED"}` + CHECKLIST v0.26 + RED packet). RED runs a complete whole-INDEX BOARD scan + is INFO-cc-only → zero ACTION-miss risk; removes ~24% of delivery volume + the largest unconsumed-INFO pile. RED drains its 3 residual handoffs on next boot.
+- **FED_FRAMEWORK → kept + description broadened** to funding-plumbing (CLUSTER_TAXONOMY row + INDEX ToC theme); UST_PLUMBING rename declined (high-churn/low-gain).
+- **INDEX lifecycle status-column → declined** (tags stay in signal frontmatter + staleness-sweep records).
+- **delivery_log written_state enum → formalized** (write-time stamp, NOT a lifecycle field; authoritative delivered-state is git-derived via the doctor; don't backfill the ~560 `pending_push` rows).
+- **thin-liquidity routing → fold-convention codified** (CHECKLIST v0.26 Phase 1b: low-volume prediction-market datum corroborating a live signal FOLDS as a market-implied-timing layer).
+- **Drop-zone boot-step → wired** earlier this session (CLAUDE.md step 7f + BOOT_PROTOCOL §7f + doctor `dropzone_pending`).
+
+**🟢 DROPPED:** REITS/TRADES registry-completeness (no-op — neither exists as an agent dir).
+
+**🟠 DEFERRED (Will-approved):** CLIMATE_MACRO sustain-vs-fold (AEOLUS's domain call) · RESEARCH-INTAKE v2 (revisit with more run-history) · I4 CROSS_REFS identifier cache (build on-demand).
+
+**🔵 SURFACED (not WALTER-fixable):** I5 dead `/home/moltbot` paths live in NON-WALTER files (`dashboard/server.py`, FORGE tools, `AGENTS/DOC`, `tools/calendar`) — already inventoried in `design/OPENCLAW_CUTOVER_PLAN.md` as INFRA/OTHER-AGENT items; route to owners. WALTER's own design-doc refs are correct historical cutover record.
+
+**🔴 STILL ACTIVE (carried, outside the walkthrough):**
+- Iran anchor re-stamp cadence (exercised 7/9; standing cadence question remains — next 7d ~7/16).
 - LOOPS.md harness/loop-design ownership (at PROME).
-- B5 scheduled-scan workflow.
-- Parked ~9 design decisions (run the walkthrough when Will has appetite).
-
-**🟠 INFRA planned-but-unbuilt (carried):** I4 CROSS_REFS identifier cache · I5 dead `/home/moltbot` paths.
-
-**🔵 PARKED DECISIONS (carried):** FED_FRAMEWORK→UST_PLUMBING rename · INDEX status-column · delivery_log written_state enum · RED auto-cc trim · thin-liquidity routing · CLIMATE_MACRO sustain-vs-fold · REITS/TRADES registry-completeness · RESEARCH-INTAKE v2.
+- B5 scheduled-scan workflow (double-blocked).
 
 ---
 
