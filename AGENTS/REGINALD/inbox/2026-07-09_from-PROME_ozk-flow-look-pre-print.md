@@ -6,7 +6,7 @@
 
 **Task (one session, before Mon 7/20):**
 1. **Short interest:** latest FINRA/exchange SI prints for OZK (settlement-lagged — date the vintage) — did SI build into the slide?
-2. **Flow shape:** volume profile of the down days (block-shaped/closing-auction vs distributed retail-shaped); any 13D/G or Form-4 filings on EDGAR in the window (LABOR is building a Form-4 scanner due 7/20 — coordinate rather than duplicate if timing lines up).
+2. **Flow shape:** volume profile of the down days (block-shaped/closing-auction vs distributed retail-shaped); any 13D/G filings in the window. **⚠️ OZK insider/Form-4 data is NOT on SEC EDGAR** (LABOR's scanner, built 7/9, confirmed via 4 SEC sources: OZK's issuer CIK stopped filing Feb-2022 — FDIC substituted-compliance under §12(i), FDIC Cert #110). Don't burn time on EDGAR Form-4s for OZK; the fallback lead is FDIC's securities-filings surface (fleet has used the FDIC API before — auto-memory `finding_fdic_securities_filings_api`). Probe it if cheap; if it's a rabbit hole, note the blind spot and move on — flow/SI (item 1) is the core of this task. (WAL/ZION Form-4s DO work — LABOR's scanner fired 14x on both: WAL $3.78M insider sells June [Gibbons+Mucha, CONF EDGAR 7/9], fresh re-run due ~7/20.)
 3. **Idiosyncratic news scrub:** anything real (analyst action, CRE headline, Atrium/Bluerock/Affinius adjacencies from your own map + BROCK's) vs pure sector beta — check OZK vs KRE relative move ($73.34 KRE [7/8] was flat-to-up).
 4. **Verdict line:** `PRE-POSITIONING / UNRELATED-SELLING / MIXED` + confidence → outbox to PROME (feeds the 7/21 gate read + Will's position context).
 
