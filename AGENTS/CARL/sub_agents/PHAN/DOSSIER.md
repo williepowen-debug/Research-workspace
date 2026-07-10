@@ -32,7 +32,7 @@ The reason PHAN survives as a dossier: three analytical assets that exist nowher
 
 ### 2a. Phantom-DTI Gap framework (35% apparent → 47% real)
 
-*Carried from STATUS.md:110-121 + CLAUDE.md:54-58,144. This is PHAN's core original framework.*
+*Carried from STATUS.md:110-121 + CLAUDE.md:54-58,144. This is PHAN's core original framework. **`[as-of Apr-2026 unless noted]`** — the gap structure is durable, but the point-in-time claims below (11.52% FHA DQ, "lenders now scanning," "only Affirm reports") are build-vintage; verify at parent before citing as current.*
 
 The hidden risk to HOMER's housing vector:
 - Consumer shows **35% DTI** to the mortgage underwriter.

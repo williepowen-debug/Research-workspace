@@ -1,6 +1,9 @@
 # POLLY STATUS
-**Last Updated:** 2026-04-29 | **Status:** 🔴 ELEVATED — CA FAIR Plan 684K; auto normalizing; UNH Q1 MCR 83.9% (no breach); ELV Q1 BCR 86.8% + $935M CMS accrual; MA cost trend ~10% confirmed elevated
-**Phase:** Phase 2-3 (Premium Pressure → Coverage Erosion) nationally; Phase 3-4 (Coverage Erosion → Protection Collapse) in CA/LA
+**Last real data refresh:** 2026-04-29 | **Staleness sweep (no data):** 2026-07-10 | **Next:** final refresh at Q2 P&C prints ~late Jul (Will-approved refresh-then-demote)
+
+> ⚠️ **STALE-VINTAGE BANNER (2026-07-10 tag-don't-refresh honesty pass — NO data pulled).** Every value below is **Apr-2026 vintage unless explicitly marked otherwise** — do **NOT** cite as current. Parent **CARL STATUS.md** carries the live insurance rows (UNH/ELV/ALL Q1, CA FAIR 684K, Tenants CPI 7.4%). Dashboard rows carry `[STALE — <as-of>]`; where parent carries the live figure, `[SUPERSEDED — see parent STATUS]`. Prior status descriptor (Apr-29): 🔴 ELEVATED — CA FAIR Plan 684K; auto normalizing; UNH Q1 MCR 83.9% (no breach); ELV Q1 BCR 86.8% + $935M CMS accrual; MA cost trend ~10% confirmed elevated.
+
+**Phase:** Phase 2-3 (Premium Pressure → Coverage Erosion) nationally; Phase 3-4 (Coverage Erosion → Protection Collapse) in CA/LA `[STALE — 2026-04-29]`
 
 ---
 
@@ -38,8 +41,8 @@
 | TRV Q1 cat losses | $2.27B (Q1 2025) | **$761M (Q1 2026)** | MAJOR IMPROVEMENT | Counter-signal |
 | POLLY-P02 confidence | 65% | **72%** | RAISED (CA FAIR Plan pace) | YES |
 | POLLY-P05 confidence | 70% | **82%** | RAISED (Q1 auto data) | Mild counter |
-| UNH Q1 2026 | Expected today | **PENDING — reports Apr 21** | DATA MISSING | UPDATE NEEDED Apr 21 |
-| ELV Q1 2026 | Expected today | **PENDING — reports Apr 22** | DATA MISSING | UPDATE NEEDED Apr 22 |
+| UNH Q1 2026 | Expected today | **PENDING — reports Apr 21** `[FIRED — reported Apr 21; see 04-29 table]` | DATA MISSING | UPDATE NEEDED Apr 21 |
+| ELV Q1 2026 | Expected today | **PENDING — reports Apr 22** `[FIRED — reported Apr 22; see 04-29 table]` | DATA MISSING | UPDATE NEEDED Apr 22 |
 
 **CARL NOTE:** The two signals that matter most for CARL's consumer stress thesis:
 1. CA FAIR Plan at 684K is a deepening structural failure — amplifier risk rising.
@@ -59,22 +62,22 @@ Insurance is both INDICATOR and AMPLIFIER of consumer financial stress. As indic
 
 | Vector | ID | Current | Threshold | Status | Trend | Last Updated |
 |--------|-----|---------|-----------|--------|-------|--------------|
-| Auto Insurance CPI YoY | VX-POLLY-2.01 | **0.8% (Mar 2026)** | >8% Yellow | 🟢 GREEN | SHARPLY MODERATING | **2026-04-17** |
-| Uninsured Motorist Rate | VX-POLLY-2.03 | 15.4% (2023) [STALE] | >14% Yellow | 🟡 YELLOW | RISING | 2026-04-09 |
-| Combined Uninsured+Underinsured | VX-POLLY-2.03 | 33.4% (2023) [STALE] | >28% Yellow | 🟡 YELLOW | RISING | 2026-04-09 |
-| CA FAIR Plan Enrollment | VX-POLLY-1.03 | **684,388 (Mar 2026)** | Largest carrier | 🔴 RED | RISING | **2026-04-17** |
-| CA FAIR Plan Exposure | VX-POLLY-1.03 | **$750B (Mar 2026)** | — | 🔴 RED | RISING | **2026-04-17** |
-| FL Citizens Policy Count | VX-POLLY-1.03 | ~336K (Mar 2026) | Growth resuming | 🟢 GREEN | DECLINING | 2026-04-09 |
-| Homeowners Premium Growth | VX-POLLY-1.01 | 4% nat'l (2026 proj) | >8% Yellow | 🟡 YELLOW | STABLE/RISING | 2026-04-09 |
-| CA Homeowners Premium Growth | VX-POLLY-1.01 | 16% (2026 proj); 35.8% FAIR Plan rate hike req | >12% Orange | 🔴 RED | RISING | **2026-04-17** |
-| HO P&C Combined Ratio | VX-POLLY-4.01 | TRV Q1 CR 88.6%; HO underlying 69.7% (FY2025: 106.1%) | >102% Yellow | 🟡 YELLOW | IMPROVING (Q1) | **2026-04-17** |
-| Auto P&C Combined Ratio | VX-POLLY-2.02 | PGR Q1 86.4%; TRV auto Q1 82.9% | >100% Red | 🟢 GREEN | SOLIDLY PROFITABLE | **2026-04-17** |
-| ACA Marketplace Enrollment | VX-POLLY-3.03 | 23.1M (-4.9% YoY) [Jan 2026] | <22M Yellow | 🟠 ORANGE | DECLINING | 2026-04-09 |
-| Health Uninsured Rate | VX-POLLY-3.03 | 8% / 27.1M | >9% Yellow | 🟡 YELLOW | RISING (policy) | 2026-04-09 |
-| Avg Employer Deductible | VX-POLLY-3.02 | $1,886 avg | >$2,000 Yellow | 🟡 YELLOW | RISING | 2026-04-09 |
-| Medical Debt Prevalence | VX-POLLY-3.04 | ~20% / $195B | >20% Yellow | 🟡 YELLOW | RISING | 2026-04-09 |
-| MA MLR / MCR (UNH consolidated) | VX-POLLY-3.01 | **83.9% Q1 2026 (cons. MCR); FY guide 88.8%±50bps** | >88% Yellow | 🟡 YELLOW — no breach; FY path uncertain | STABLE (Q1 beat; V28 RAF unresolved) | **2026-04-29** |
-| BCR (ELV consolidated) | VX-POLLY-3.01 | **86.8% Q1 2026**; $935M CMS accrual | >88% Yellow | 🟡 YELLOW — Medicaid stressed; MA improving | ELEVATED (Medicaid) / IMPROVING (MA) | **2026-04-29** |
+| Auto Insurance CPI YoY | VX-POLLY-2.01 | **0.8% (Mar 2026)** `[STALE — Mar 2026]` | >8% Yellow | 🟢 GREEN | SHARPLY MODERATING | **2026-04-17** |
+| Uninsured Motorist Rate | VX-POLLY-2.03 | 15.4% (2023) `[STALE — 2023 IRC]` | >14% Yellow | 🟡 YELLOW | RISING | 2026-04-09 |
+| Combined Uninsured+Underinsured | VX-POLLY-2.03 | 33.4% (2023) `[STALE — 2023 IRC]` | >28% Yellow | 🟡 YELLOW | RISING | 2026-04-09 |
+| CA FAIR Plan Enrollment | VX-POLLY-1.03 | **684,388 (Mar 2026)** `[SUPERSEDED — see parent STATUS: 684,388]` | Largest carrier | 🔴 RED | RISING | **2026-04-17** |
+| CA FAIR Plan Exposure | VX-POLLY-1.03 | **$750B (Mar 2026)** `[STALE — Mar 2026]` | — | 🔴 RED | RISING | **2026-04-17** |
+| FL Citizens Policy Count | VX-POLLY-1.03 | ~336K (Mar 2026) `[STALE — Mar 2026]` | Growth resuming | 🟢 GREEN | DECLINING | 2026-04-09 |
+| Homeowners Premium Growth | VX-POLLY-1.01 | 4% nat'l (2026 proj) `[STALE — 2026-04-09]` | >8% Yellow | 🟡 YELLOW | STABLE/RISING | 2026-04-09 |
+| CA Homeowners Premium Growth | VX-POLLY-1.01 | 16% (2026 proj); 35.8% FAIR Plan rate hike req `[STALE — 2026-04-17]` | >12% Orange | 🔴 RED | RISING | **2026-04-17** |
+| HO P&C Combined Ratio | VX-POLLY-4.01 | TRV Q1 CR 88.6%; HO underlying 69.7% (FY2025: 106.1%) `[STALE — Q1/2026-04-17]` | >102% Yellow | 🟡 YELLOW | IMPROVING (Q1) | **2026-04-17** |
+| Auto P&C Combined Ratio | VX-POLLY-2.02 | PGR Q1 86.4%; TRV auto Q1 82.9% `[STALE — Q1/2026-04-17]` | >100% Red | 🟢 GREEN | SOLIDLY PROFITABLE | **2026-04-17** |
+| ACA Marketplace Enrollment | VX-POLLY-3.03 | 23.1M (-4.9% YoY) [Jan 2026] `[STALE — Jan 2026]` | <22M Yellow | 🟠 ORANGE | DECLINING | 2026-04-09 |
+| Health Uninsured Rate | VX-POLLY-3.03 | 8% / 27.1M `[STALE — 2026-04-09]` | >9% Yellow | 🟡 YELLOW | RISING (policy) | 2026-04-09 |
+| Avg Employer Deductible | VX-POLLY-3.02 | $1,886 avg `[STALE — 2026-04-09]` | >$2,000 Yellow | 🟡 YELLOW | RISING | 2026-04-09 |
+| Medical Debt Prevalence | VX-POLLY-3.04 | ~20% / $195B `[STALE — 2026-04-09]` | >20% Yellow | 🟡 YELLOW | RISING | 2026-04-09 |
+| MA MLR / MCR (UNH consolidated) | VX-POLLY-3.01 | **83.9% Q1 2026 (cons. MCR); FY guide 88.8%±50bps** `[SUPERSEDED — see parent STATUS: UNH Q1 MCR 83.9%]` | >88% Yellow | 🟡 YELLOW — no breach; FY path uncertain | STABLE (Q1 beat; V28 RAF unresolved) | **2026-04-29** |
+| BCR (ELV consolidated) | VX-POLLY-3.01 | **86.8% Q1 2026**; $935M CMS accrual `[SUPERSEDED — see parent STATUS: ELV Q1 BCR 86.8%]` | >88% Yellow | 🟡 YELLOW — Medicaid stressed; MA improving | ELEVATED (Medicaid) / IMPROVING (MA) | **2026-04-29** |
 
 ---
 
@@ -140,8 +143,8 @@ Insurance is both INDICATOR and AMPLIFIER of consumer financial stress. As indic
 
 ## SEASONAL WATCH
 
-- **Hurricane season:** Jun 1-Nov 30, 2026. **CSU Apr 9: 13 named storms, 6 hurricanes, 2 major (BELOW-NORMAL).** El Nino dominant = high wind shear. NOAA outlook expected May 2026. FL durability test — but favorable setup.
-- **CA wildfire season:** May-Oct 2026. FAIR Plan at $750B exposure and 35.8% rate hike pending. Any major fire = solvency stress for CA FAIR Plan and potential assessment on all CA insured. Legislative reform push (Apr 14: 40 groups urging action by Apr 22).
+- **Hurricane season:** Jun 1-Nov 30, 2026 (NOW ACTIVE). **CSU Apr 9: 13 named storms, 6 hurricanes, 2 major (BELOW-NORMAL).** El Nino dominant = high wind shear. NOAA outlook `[PASSED — expected May 2026; not integrated, refresh at Q2 spawn]`. FL durability test — but favorable setup. `[STALE — 2026-04-09 forecast]`
+- **CA wildfire season:** May-Oct 2026 (NOW ACTIVE). FAIR Plan at $750B exposure and 35.8% rate hike pending `[STALE — Mar 2026]`. Any major fire = solvency stress for CA FAIR Plan and potential assessment on all CA insured. Legislative reform push `[PASSED — Apr 14: 40 groups urged action by Apr 22 2026; outcome not integrated]`.
 - **UNH Q1 2026:** ✅ REPORTED Apr 21. MCR 83.9% (no breach); adj EPS $7.23 beat; MA -965K Q1; FY guide >$18.25. DOJ: no update. V28 RAF: unresolved. Next: Q2 2026 (July).
 - **ELV Q1 2026:** ✅ REPORTED Apr 22. BCR 86.8%; adj EPS $12.58 beat; $935M CMS accrual; Medicaid stressed. Next: Q2 2026 (July).
 - **OBBBA implementation:** 6-month redeterminations and work requirements begin **Dec 30-31, 2026.** H1 2026 is pre-wave. First disenrollment wave hits H1 2027.

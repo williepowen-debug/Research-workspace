@@ -1,5 +1,9 @@
 # POP STATUS
-**Last Updated:** 2026-04-17 | **Status:** 🔴 CRITICAL — NFIB Uncertainty BREACHED >90; profit trend -25pp; tariff regime changed (IEEPA struck, Section 122 10% active)
+**Last real data refresh:** 2026-04-17 | **Staleness sweep (no data):** 2026-07-10 | **Next:** final refresh at Jul-24 Sub-V Sec-122 cliff (Will-approved refresh-then-demote)
+
+> ⚠️ **STALE-VINTAGE BANNER (2026-07-10 honesty pass):** All values below are **Apr-17-vintage unless individually marked**. Do **not** cite any dashboard row as current. This was a tag-only sweep — no web pulls, no value updates, no prediction resolution. Rows contradicted by parent CARL facts carry `[SUPERSEDED ...]`; the China IEEPA 125-145% figure carries `[FLAGGED WRONG ...]`; past-dated catalysts still listed as upcoming carry `[PASSED]`. Real refresh + P01-P08 resolution happen at the Jul-24 spawn.
+
+**Status (as of Apr-17):** 🔴 CRITICAL — NFIB Uncertainty BREACHED >90; profit trend -25pp; tariff regime changed (IEEPA struck, Section 122 10% active)
 
 ## ⚠️ THRESHOLD BREACHES THIS REFRESH (Apr 17)
 | Metric | Old | New | Threshold | Status |
@@ -11,17 +15,17 @@
 | BFS Business Apps | ~515K (Jan) | **496K (Feb, -5.8%)** | YoY decline | 🟡 First meaningful MoM drop |
 
 ## ⚠️ TARIFF REGIME CHANGE — CRITICAL UPDATE
-**Supreme Court struck IEEPA tariffs Feb 20, 2026** (6-3 ruling; Learning Resources v. Trump). ~$166B in refunds owed to ~330K importers. CBP CAPE refund tool goes live Apr 20, 2026.
+**Supreme Court struck IEEPA tariffs Feb 20, 2026** (6-3 ruling; Learning Resources v. Trump). ~$166B in refunds owed to ~330K importers. CBP CAPE refund tool goes live Apr 20, 2026 `[PASSED — went live ~Apr 20; verify uptake at Jul-24 refresh]`.
 
 **Replacement:** Section 122 of Trade Act of 1974 — 10% global import surcharge, effective Feb 24, 2026, expires Jul 24, 2026 (150 days). Rate may increase to 15% (Navarro signaled). Congress can extend or replace.
 
-**Net effect for small businesses:** IEEPA rates (125%+ China; country-specific reciprocal) gone; replaced with flat 10% global. Steel/aluminum (Section 232, up to 50%) and autos (25%) remain. China electronics: 35% effective (20% + 25% Section 301 stacked). Small business tariff burden REDUCED from peak but uncertainty about Jul 24 expiry creates continued planning paralysis.
+**Net effect for small businesses:** IEEPA rates (125%+ China `[FLAGGED WRONG pre-Apr-17 — actual ~20%; correct at Jul-24 refresh]`; country-specific reciprocal) gone; replaced with flat 10% global. Steel/aluminum (Section 232, up to 50%) and autos (25%) remain. China electronics: 35% effective (20% + 25% Section 301 stacked). Small business tariff burden REDUCED from peak but uncertainty about Jul 24 expiry creates continued planning paralysis.
 
 ---
 
 ## THESIS
 
-Small business stress is a 3-6 month leading indicator of employment destruction and a DIRECT channel for owner-consumer income loss. April 2026 tariffs have become the dominant accelerant: 61% of small businesses report negative impact, with no ability to hedge cost increases at scale. The bankruptcy acceleration (+37% Ch.11, +67% Subchapter V in Q1 2026) is no longer a warning — it is an active closure wave. Owner compensation cuts (32-50% of owners) are an immediate, invisible consumer stress signal that does not appear in unemployment data.
+Small business stress is a 3-6 month leading indicator of employment destruction and a DIRECT channel for owner-consumer income loss. April 2026 tariffs have become the dominant accelerant: 61% of small businesses report negative impact, with no ability to hedge cost increases at scale. The bankruptcy acceleration (+37% Ch.11, +67% Subchapter V in Q1 2026) `[SUPERSEDED — parent: Sub-V May +36%, decelerating 91→67→36% over 4 mo; "acceleration" framing no longer holds — reassess at Jul-24 refresh]` is no longer a warning — it is an active closure wave. Owner compensation cuts (32-50% of owners) are an immediate, invisible consumer stress signal that does not appear in unemployment data.
 
 ---
 
@@ -30,7 +34,7 @@ Small business stress is a 3-6 month leading indicator of employment destruction
 | Vector | Current | Prior | Threshold | Status |
 |--------|---------|-------|-----------|--------|
 | Ch.11 Bankruptcies YoY | +37% Q1 2026; Mar monthly -11% MoM | +37% Q1 | >40% = 🔴 | 🟠 ELEVATED |
-| Subchapter V YoY | +91% (Feb 2026); +67% Q1 avg | +67% Q1 | >50% = 🔴 | 🔴 BREACHED |
+| Subchapter V YoY | +91% (Feb 2026); +67% Q1 avg `[SUPERSEDED — parent: Sub-V May 281 filings +36%, DECELERATING 91→67→36% over 4 mo]` | +67% Q1 | >50% = 🔴 | 🔴 BREACHED |
 | NFIB Optimism | **95.8 (Mar 2026)** | 98.8 (Feb) | <95 = 🟡 | 🟡 AT THRESHOLD — 3rd consecutive monthly drop |
 | NFIB Uncertainty | **92 (Mar 2026)** | 88 (Feb) | >90 = 🟡 | 🟡 **BREACHED** |
 | NFIB Profit Trend | **-25% net (Mar 2026)** | est. -14% (Feb) | — | 🔴 Worst since COVID |
@@ -55,13 +59,13 @@ Small business stress is a 3-6 month leading indicator of employment destruction
 - **Feb 20, 2026:** Supreme Court 6-3 struck IEEPA tariffs (Learning Resources v. Trump). ~$166B refunds owed to ~330K importers. CBP CAPE refund tool live Apr 20.
 - **Feb 24, 2026:** Section 122 replacement: 10% ad valorem global surcharge, expires Jul 24, 2026 (150-day cap).
 - **Still in effect:** Steel/aluminum (Section 232, up to 50%); autos/parts (25%); China Section 301 (25% on most goods).
-- **China electronics effective rate:** ~35% (10% Sec 122 + 25% Sec 301). Down from 145% IEEPA peak.
+- **China electronics effective rate:** ~35% (10% Sec 122 + 25% Sec 301). Down from 145% IEEPA peak `[FLAGGED WRONG pre-Apr-17 — actual ~20%; correct at Jul-24 refresh]`.
 - **Potential escalation:** Navarro signaled rate may rise to 15% before Jul 24. Section 301 investigations ongoing → could replace Sec 122 at higher rates post-Jul 24.
 - **July 24 cliff:** If Section 122 expires without replacement, abrupt drop to pre-tariff levels — OR Congress votes to extend. Either way: planning paralysis continues.
 
 ### SMALL BUSINESS IMPACT OF REGIME CHANGE
 - **IEEPA refunds are NOT relief:** Refunds cover past-paid tariffs, not ongoing costs. Small businesses may get cash, but Section 122 continues accruing.
-- **Net effective rate DROP from IEEPA peak:** Reduces worst-case cost pressure. Many small businesses that imported from China at 125-145% IEEPA rates are now at 35-50% (Section 301 + Sec 122).
+- **Net effective rate DROP from IEEPA peak:** Reduces worst-case cost pressure. Many small businesses that imported from China at 125-145% IEEPA rates `[FLAGGED WRONG pre-Apr-17 — actual ~20%; correct at Jul-24 refresh]` are now at 35-50% (Section 301 + Sec 122).
 - **Uncertainty UNRESOLVED:** Jul 24 expiry + possible 15% escalation + Section 301 replacements = continued investment/hiring paralysis. NFIB Uncertainty 92 (>90 threshold BREACHED) confirms this.
 - **Pre-IEEPA survey data caveat:** The 61% negative impact figure (NSBA), 70% higher costs (US Chamber), and 83% altered operations (Michigan Retailers) predate the IEEPA ruling. These numbers likely IMPROVED marginally post-Feb 20 but survey data not yet updated.
 
@@ -94,14 +98,14 @@ Small business stress is a 3-6 month leading indicator of employment destruction
 | **NEW** Restaurant closures expanded | **944-1,049 announced (6 chains FY2026)**: Wendy's 300-350, Pizza Hut 250, Papa John's 200, Jack in the Box 50-100, Noodles 30-35, Bahama Breeze 14 | Restaurant Dive, Apr 2026 | 2026-04 | 🔴 |
 | **NEW** MCA NY protection extended | NY FAIR Business Practices Act extended consumer protections to small businesses (Feb 2026) | NY AG, Feb 2026 | 2026-02 | 🟠 |
 | Ch.11 commercial filings Q1 2026 | 2,422 (+37% YoY); Mar monthly: 649 (-11% from Mar 2025) | ABI/Epiq, Apr 2026 | 2026-Q1 | 🟠 |
-| Subchapter V small biz filings | Q1 +67% YoY; Feb alone +91% YoY | GlobeNewswire, Apr 8 2026 | 2026-Q1 | 🔴 BREACHED |
+| Subchapter V small biz filings | Q1 +67% YoY; Feb alone +91% YoY `[SUPERSEDED — parent: Sub-V May +36%, decelerating]` | GlobeNewswire, Apr 8 2026 | 2026-Q1 | 🔴 BREACHED |
 | Overall commercial bankruptcies Q1 2026 | 8,436 (+14% YoY); individual total filings +16% YoY in March | ABI/Epiq | 2026-Q1 | 🟡 |
 | Owner compensation cuts | 32-50% (Truist/BofA 2024) [STALE — awaiting 2026 survey] | Truist/BofA | 2024 | 🔴 BREACHED |
 | Est. total owner income lost | $73-145B annually (tariff-adj $83-165B) | POP estimate (Apr 9) | 2026-04-09 | 🔴 |
 | Revenue expectations index | 33 (lowest since 2020, -6pt YoY) | Fed SBCS 2026 Report | 2025 survey | 🟠 |
 | Employment expectations index | 23 (lowest since 2020, -3pt YoY) | Fed SBCS 2026 Report | 2025 survey | 🟠 |
 | Retail closures projected 2026 | 7,900-14,000 (1,200+ publicly announced YTD) | Coresight/WebProNews | 2026 | 🟠 |
-| Eddie Bauer bankruptcy | 175 stores closing by Apr 30, 2026 | Retail Dive, 2026 | 2026-04 | 🟠 |
+| Eddie Bauer bankruptcy | 175 stores closing by Apr 30, 2026 `[PASSED — date elapsed; confirm outcome at Jul-24 refresh]` | Retail Dive, 2026 | 2026-04 | 🟠 |
 | Saks Global (Neiman Marcus) Ch.11 | Filed Jan 14, 2026; exit financing $500M secured; summer exit planned | CNBC/Fox Business | 2026-01 | 🟠 |
 | SBA 7(a) early defaults spike | ~3.4% est.; rising; no Q1 2026 data yet | SBA/CrestmontCapital | 2025 | 🟡 |
 | MCA market / default rates | $19.65B market; 11-18% default rate (vs 1.16% traditional) | Industry reports | 2025-2026 | 🟠 |

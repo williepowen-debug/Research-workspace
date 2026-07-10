@@ -57,10 +57,10 @@ The housing picture is **mixed-bearish**, with stress mechanism intact under hea
 | Fannie MF DQ trajectory | Feb 0.74% → **Mar 0.78% (2bps from 0.80% GFC peak)** → Apr 0.64% | Apr 2026 | Fannie Mae | — |
 | **Fannie MF May DQ** | ~~PENDING release ~Jun 26~~ **RESOLVED: 0.58% (May, rel ~Jun 26) — 2nd consec <0.65% → CRL-03 INVALIDATED/MISSED [PARENT-INVALIDATED v2.6.1 Jul-2, CARL CHANGELOG]** | 2026-05 | Fannie Mae | ⬇️ |
 | Fannie SF Serious DQ | **0.57%** (Apr, -1bp MoM) | Apr 2026 | Fannie Mae | 🟢 |
-| **Trepp CMBS MF DQ** | **7.71% Apr 2026 — NEW ATH (+56bps from Mar 7.15%)** — large NYC/SF loans went delinquent | Apr 2026 | Trepp | 🔴🔴 |
+| **Trepp CMBS MF DQ** | **7.71% Apr 2026 — NEW ATH** [SUPERSEDED — parent STATUS carries CMBS MF **June 7.23% / maturity-adj 9.53%** (CREED 7/4); stress continued] | Apr 2026 | Trepp | 🔴🔴 |
 | Trepp CMBS MF Apr Hard Maturities | **$35.6M** (no remaining extension options) | Apr 2026 | Trepp | 🔴 |
 | Trepp CMBS Hard Maturities May | **$2.57B across CRE** (multifamily share growing) | May 2026 | Trepp | 🔴 |
-| Trepp CMBS MF DQ — May 2026 | **NOT YET RELEASED** (release pattern ~mid-Jun) | — | Trepp | ⚠️ |
+| Trepp CMBS MF DQ — May 2026 | ~~NOT YET RELEASED~~ **[SUPERSEDED — parent now carries June 7.23% / mat-adj 9.53% (CREED 7/4)]** | — | Trepp | ⚠️ |
 | Trepp CMBS Special Servicing — Multifamily | Last seen 8.42% May 2025; growing presence in low-debt-yield watchlist | (lagging) | Trepp | 🔴 |
 | **Mod/Extension Pattern** | Feb 2026 CMBS DQ DROP driven by 5 office + 4 mall loan mods (extensions 1mo to ~3yrs) — Trepp: "path-dependent sorting" | Feb-May 2026 | Trepp | 🔴 |
 | 2026 MF Maturity Wall | **$160B+ maturities due 2026 (+50% YoY)** — extension-driven distress masking | 2026 | Trepp / CRE Daily | 🔴🔴 |
@@ -73,12 +73,12 @@ The housing picture is **mixed-bearish**, with stress mechanism intact under hea
 ### Mortgage Rates / Demand
 | Metric | Value | As Of | Source | Status |
 |--------|-------|-------|--------|--------|
-| **30-Yr Mortgage Rate (PMMS)** | **6.48% Jun 4** (down 5bps from prior wk 6.53%; YoY 6.85%) — **+18bps from Apr 30 6.30% low** | Jun 4, 2026 | Freddie PMMS | 🟠 |
+| **30-Yr Mortgage Rate (PMMS)** | **6.48% Jun 4** [STALE — Jun-4, predates refresh; no fresher HOMER pull] | Jun 4, 2026 | Freddie PMMS | 🟠 |
 | 30Y trajectory | 6.30 Apr 17 → 6.30 Apr 30 → 6.51 mid-May (multi-week high) → 6.53 May 29 → 6.48 Jun 4 | Jun 4, 2026 | Freddie | 🟠 |
-| **Existing Home Sales (SAAR)** | **4.02M Apr** (+0.2% MoM from 3.98M Mar — backed away from <4.0M RED by a whisker) | Apr 2026, rel May 11 | NAR | 🔴 |
+| **Existing Home Sales (SAAR)** | **4.02M Apr** [SUPERSEDED — parent STATUS: **May 4.17M**] | Apr 2026, rel May 11 | NAR | 🔴 |
 | Existing Median Price | **$417,800** (+1.8% YoY, Apr record) | Apr 2026 | NAR | 🟢 |
 | Existing Inventory | **4.4 months** (1.47M units) | Apr 2026 | NAR | 🟡 |
-| **Existing Home Sales May** | **RELEASE Jun 9 — TOMORROW; load-bearing** | — | NAR | ⚠️ |
+| **Existing Home Sales May** | ~~RELEASE Jun 9~~ **FIRED: 4.17M (parent STATUS)** | 2026-05 | NAR | ✅ |
 | **New Home Sales (SAAR Apr)** | **622K** (-6.2% MoM from Mar 663K, **-11.3% YoY**, still worst since 2022 territory) | Apr 2026, rel ~May 25 | Census | 🔴🔴 |
 | New Home Median Price Apr | **$422,500** (+8.0% MoM bounce, +2.2% YoY) — mix effect likely | Apr 2026 | Census | 🟡 |
 | New Home Inventory Apr | **489K** (9.4 months supply, +8% MoM, +9% YoY) | Apr 2026 | Census | 🔴 |
@@ -87,7 +87,7 @@ The housing picture is **mixed-bearish**, with stress mechanism intact under hea
 ### Builder Distress
 | Metric | Value | As Of | Source | Status |
 |--------|-------|-------|--------|--------|
-| **NAHB HMI May** | **37** (+3pts from Apr 34; beat est 34; 25th consec month <50) | May 2026 (rel May 18) | NAHB | 🔴 |
+| **NAHB HMI May** | **37** [SUPERSEDED — parent STATUS: **NAHB June 35** (rolled back over, May bounce faded)] | May 2026 (rel May 18) | NAHB | 🔴 |
 | HMI Current Sales (May) | **40** (+3pts from 37 Apr) | May 2026 | NAHB | 🔴 |
 | HMI Expected Sales 6mo (May) | **45** (+3pts from 42 Apr — partial recovery from Apr -7pts) | May 2026 | NAHB | 🔴 |
 | HMI Buyer Traffic (May) | **25** (+3pts from 22 Apr — still severely depressed) | May 2026 | NAHB | 🔴 |
@@ -95,8 +95,8 @@ The housing picture is **mixed-bearish**, with stress mechanism intact under hea
 | Avg Price Reduction (May) | **6%** (+1pp from Apr 5% — those cutting cut DEEPER) | May 2026 | NAHB | 🟠 |
 | Sales Incentives (May) | **61%** (+1pp from Apr 60%; 14th consec month ≥60%) | May 2026 | NAHB | 🔴 |
 | NAHB Regional 3mo Avg (May) | Midwest 43, Northeast 42, **South 35 (flat)**, **West 28 (-1)** | May 2026 | NAHB | 🟠 |
-| Lennar Q2 FY2026 Guide | GM **15.5-16.0%** / Orders **21-22K** / Deliveries **20-21K** / ASP **$370-375K** / EPS **$1.10-1.40** | Q2 FY26 prev | LEN | 🟠 |
-| **Lennar reports Q2** | **Jun 11 (4:00 PM ET) — NOT Jun 16 per prior calendar** | Jun 11, 2026 | LEN | ⚠️ DATE FIX |
+| Lennar Q2 FY2026 Guide | GM **15.5-16.0%** / Orders **21-22K** [SUPERSEDED — LEN reported FQ2 Jun-11; parent STATUS carries the **guide-CUT**; grade below is pre-print] | Q2 FY26 prev | LEN | 🟠 |
+| **Lennar reports Q2** | ~~Jun 11 (4:00 PM ET)~~ **FIRED Jun-11 — reported; see parent STATUS (LEN FQ2 guide-cut)** | Jun 11, 2026 | LEN | ✅ FIRED |
 | Lennar Q1 FY2026 (actual) | GM 15.2% (mgmt: "low point"); orders 18,515 (+1% YoY); ASP -8% YoY; incentives 14.1% on deliveries | Q1 FY26 | LEN | 🔴 |
 | DHI Q2 FY2026 GM | 20.1% (BEAT 19.0-19.5% guide; litigation/warranty + cost) [STALE Apr 21] | Q2 FY26 | DHI | 🟠 |
 | PHM Q1 2026 GM | 24.4% MISS (-310bps YoY) [STALE Apr 23] | Q1 2026 | PHM | 🔴 |
@@ -135,7 +135,7 @@ The housing picture is **mixed-bearish**, with stress mechanism intact under hea
 | NAR Pending — Midwest (Apr) | +3.0% MoM, +2.7% YoY | Apr 2026 | NAR | 🟢 |
 | NAR Pending — South (Apr) | **-0.7% MoM**, +4.7% YoY | Apr 2026 | NAR | 🟠 |
 | NAR Pending — West (Apr) | +0.4% MoM, +3.8% YoY | Apr 2026 | NAR | 🟡 |
-| **NAR Pending — May** | **Release Jun 17 (Wed)** | — | NAR | ⚠️ |
+| **NAR Pending — May** | ~~Release Jun 17~~ **FIRED (past — value not pulled this pass)** | — | NAR | ✅ FIRED |
 | MBA Purchase Apps (wk 5/8) | **+4% WoW, +7% YoY** | wk 5/8 | MBA | 🟢 |
 | MBA Purchase Apps (wk 5/29) | **-3% WoW**, +7% YoY — **lowest in 6 weeks** | wk 5/29 | MBA | 🔴 |
 | MBA Pending Home Sales Tracker | -0.2% wk ending 5/31 — **3rd consecutive weekly decline** | wk 5/31 | MBA | 🔴 |
@@ -149,13 +149,13 @@ The housing picture is **mixed-bearish**, with stress mechanism intact under hea
 ### Pricing / Regional
 | Metric | Value | As Of | Source | Status |
 |--------|-------|-------|--------|--------|
-| **Freddie HPI YoY Apr** | **+1.4%** (ACCEL from Mar +0.7%) — counter-signal to deflation setup | Apr 2026, rel May 29 | Freddie | 🟡 |
+| **Freddie HPI YoY Apr** | **+1.4%** [SUPERSEDED — parent STATUS: **Freddie HPI May +1.9%** (accel continued, not the roll-over this row's hypothesis expected)] | Apr 2026, rel May 29 | Freddie | 🟡 |
 | Freddie HPI States Below Peak | **19 states + DC** below previous peaks (April data) | Apr 2026 | Freddie | 🟠 |
 | Freddie HPI Largest Declines (Apr) | DC -3.8%, CO -2.4%, MS -2.2%, WA -2.2% | Apr 2026 | Freddie | 🟠 |
-| Case-Shiller National YoY (Mar) | **+0.8% YoY** (weakest since Jul 2023; ease from Feb +0.9%) | Mar 2026, rel Apr 28 | S&P/CS | 🟠 |
+| Case-Shiller National YoY (Mar) | **+0.8% YoY** [SUPERSEDED — parent STATUS: **Case-Shiller Apr +0.8%** (flat, held — no further decel)] | Mar 2026, rel Apr 28 | S&P/CS | 🟠 |
 | Case-Shiller 20-City Worst (Mar) | Seattle -2.5%, Denver -2.0%, Tampa -1.9%, Dallas -1.7%, Phoenix -1.6% | Mar 2026 | S&P/CS | 🔴 |
 | Case-Shiller 20-City Best (Mar) | Chicago +6.1%, NY +4.0%, Cleveland +3.0% | Mar 2026 | S&P/CS | 🟢 |
-| Case-Shiller Apr | **Release Jun 30** | — | S&P/CS | ⚠️ |
+| Case-Shiller Apr | ~~Release Jun 30~~ **FIRED: +0.8% (parent STATUS)** | 2026-04 | S&P/CS | ✅ FIRED |
 
 ---
 
@@ -166,13 +166,15 @@ The housing picture is **mixed-bearish**, with stress mechanism intact under hea
 | FL Employment → Housing | 1-3 months | 🔴 ACTIVE | WARN +76% → Income loss → Mortgage stress → Foreclosure |
 | CA Fire → Foreclosure | Incident | 🟠 LOADED | Fire → Uninsured loss → Default → Mass foreclosure |
 | Unemployment → Mortgage DQ | 1-3 months | 🔴 CONFIRMED | +1pp unemployment → +0.6pp mortgage DQ (NY Fed) |
-| Home Price Decline → DQ Spiral | Concurrent | 🟠 SLOWING | Freddie Apr +1.4% YoY accel = aggregate not deteriorating; condo K-shape still active |
-| **MF Maturity Wall → CMBS** | 6-12 months | 🔴 EXTEND-AND-PRETEND ACTIVE | Trepp Apr 7.71% NEW ATH +56bps; Fannie -14bps headline drop = mod/extension-driven; $160B+ 2026 wall +50% YoY compressing extension runway |
+| Home Price Decline → DQ Spiral | Concurrent | 🟠 SLOWING | Freddie Apr +1.4% [SUPERSEDED — May +1.9% parent]; aggregate not deteriorating; condo K-shape still active |
+| **MF Maturity Wall → CMBS** | 6-12 months | 🔴 EXTEND-AND-PRETEND ACTIVE | Trepp Apr 7.71% [SUPERSEDED — June 7.23%/mat-adj 9.53% parent]; Fannie -14bps→May 0.58% (CRL-03 MISSED); $160B+ 2026 wall +50% YoY |
 | **Tariff → Builder Margin** | 6-12 months | 🟠 LOADED | $10,900/home cost shock → FY27 GM hit (CRL-23) — not yet visible in margins |
 
 ---
 
 ## CATALYSTS (Forward)
+
+> ⚠️ **ALL Jun-dated rows below have FIRED (today 2026-07-10).** Jun 9/19 Existing Sales (May 4.17M), Jun 11 Lennar (guide-cut), Jun 16 NAHB (June 35), Jun 17 ICE + NAR Pending, Jun 24 New Home Sales, Jun 26 Fannie (0.58% → CRL-03 MISSED), Jun 29 Freddie HPI (May +1.9%), Jun 30 Case-Shiller (Apr +0.8%) — all released; values in parent STATUS. "Late Jul" Trepp Jun already superseded (June 7.23%/9.53%). Only Q3 rows remain genuinely forward. Not re-pulled this pass.
 
 | Date | Event | Impact |
 |------|-------|--------|
@@ -208,7 +210,7 @@ The housing picture is **mixed-bearish**, with stress mechanism intact under hea
 
 ---
 
-## LEN FQ2 WATCHLIST (Grade Jun 11)
+## LEN FQ2 WATCHLIST (Grade Jun 11) — ✅ FIRED (LEN reported Jun-11; parent STATUS carries guide-cut. Table below = pre-print watch, ungraded this pass)
 
 | Metric | Q1 FY26 Actual | Q2 Guide | Watch For |
 |--------|----------------|----------|-----------|

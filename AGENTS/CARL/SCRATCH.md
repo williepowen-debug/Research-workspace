@@ -17,6 +17,7 @@ Same-day back-to-back sessions — no market delta integrated (gas $3.884 / Bren
 5. **Plumbing:** SPAWN_PROTOCOL rewritten (SV canon = own state_vectors/ · DATA-REFRESH exit-checklist · downward-propagation rule #10 · roster reality); CLAUDE.md 7b sub-ledger predictions glob; TEAM.md fully rewritten (catalyst-driven refresh rules, PAT-044 warning, POLLY Apr-29 fix); docket +DOC on CPI-7/14 + ~Oct-30 DOC-P10 row (Affirm/Klarna Aug-13 row already existed).
 6. **Hygiene:** Ally raw 10-K HTMLs (17.4MB) trashed — zero live cites, never git-committed, EDGAR accessions in provenance note. COOK declared dead. 3 DAEDALUS notes → processed/. **Write-back delivered:** `AGENTS/DAEDALUS/inbox/2026-07-10_from-CARL_restructure-writeback.md` (★-marked the 3 un-inferable decisions).
 7. CHANGELOG (v2.6.2 entry), ROADMAP (Independence thread ✅; staleness thread CLOSED; new "remaining restructure lanes" thread), NEXUS_BRIEF re-pinned (Dave-canary-retired fleet note + convergence-reading caveat), MEMORY +2 entries.
+8. **EVE — bands ratified + Gridwise pull + fleet-wide staleness sweep (Will-directed, 7 named agents, tag-don't-refresh):** VX-GIG-3.08 bands Will-approved provisional (re-cut at Dave Q2); GIG Gridwise pull — no mid-year print (P03/P06 stamped, carry to Aug) but NEW Q1-26 fuel-share data landed (17.4% ride / 15.6% delivery of gross — first hard gas-squeeze quantification); PAT-046 rule 5 into SPAWN_PROTOCOL + all 3 templates. Then all 7 sub-agent dirs swept honest: POLLY/POP full restamps + banners (13 TSVs), POP's 9 wrong-IEEPA occurrences tagged + **Sub-V P03 premise contradicted** (resolve 7/24), STUE collections-restart contradiction caught (CRL-14 class), HOMER Freddie-HPI hypothesis contradicted-so-far + KBH gap (→ refresh brief), GIG FLOW dead-JOLTS residual tagged, 12 files retired→archive/ (STUE 11, POLLY 1). **ML.tsv schema-drift = confirmed recurring class (3rd instance: GIG/POLLY/POP)** — repairs ride each next refresh; per-agent refresh briefs in ROADMAP remaining-lanes thread.
 
 ## STATUS CHANGES
 | Item | Change |
@@ -74,7 +75,7 @@ Same-day back-to-back sessions — no market delta integrated (gas $3.884 / Bren
 | VX.tsv | 122 | Jul 10 | FROZEN ledger; disposition edits only (CC-01 SUPERSEDED, HSG-06) |
 | CATALYSTS.tsv | 16 | Jul 10 | 15 rows; 0 past-due; CPI 7/14 next |
 | BOARD_LOG.tsv | 423 | Jul 2 | INDEX unmoved — no diff needed |
-| sub_agents/* | — | Jul 10 | ALL 5 exercised surfaces verified/reconciled today; POP/POLLY CLAUDE.md patched |
+| sub_agents/* | — | Jul 10 | ALL 7 dirs verified/reconciled AND staleness-swept today (two-state honest); per-agent refresh briefs → ROADMAP remaining-lanes |
 
 ---
 

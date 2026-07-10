@@ -1,6 +1,6 @@
 # CARL Sub-Agent Team
 
-**Updated:** 2026-07-10 PM (Fable orchestration session — full roster truth-up after the DAEDALUS restructure [WP1-4] + CARL-directed verification/repair passes on STUE/HOMER/DOC/GIG/PHAN. GIG reconciliation RATIFIED + APPLIED same day; PHAN → DOSSIER; META → FROZEN; POLLY Last-Refresh corrected to Apr-29.)
+**Updated:** 2026-07-10 eve (Fable orchestration session — full roster truth-up after the DAEDALUS restructure [WP1-4] + CARL-directed verification/repair passes on STUE/HOMER/DOC/GIG/PHAN. GIG reconciliation RATIFIED + APPLIED same day; PHAN → DOSSIER; META → FROZEN; POLLY Last-Refresh corrected to Apr-29. **EVE: all 7 dirs staleness-swept honest** — POLLY/POP restamped + banner'd [Apr-vintage declared, refresh gates unchanged], contradictions tagged [STUE collections-restart, POP Sub-V accel framing, HOMER Freddie-HPI hypothesis], 12 files retired. Per-agent refresh briefs → ROADMAP remaining-lanes thread.)
 
 > **Freshness discipline (2026-07-10):** the Status/ages below are hand-written snapshots as of the Updated stamp — **verify against each sub-agent's `STATUS.md` mtime before trusting** (`ls -l sub_agents/*/STATUS.md`). Freshness keys on the CANONICAL SURFACE's own state, never on SV-receipt (PAT-044: the Jun-22 GIG SV was marked "🟢 fresh" here while GIG's STATUS rotted 66d into asserting falsified facts). Mtime-derived ages in boot.py = open build item (pairs with consistency_check).
 

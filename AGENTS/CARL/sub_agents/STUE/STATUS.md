@@ -1,6 +1,8 @@
 # STUE STATUS
 **Last Updated:** 2026-06-09 | **Status:** 🔴🔴 CRITICAL — **CRL-04 BREACHED** (NY Fed Q1 2026 90+ DQ **10.3%**, up from 9.6% Q4 2025, >10% threshold); +2.6M defaults flow Q1 2026 (Liberty Street Economics May 12); SAVE→RAP Jul 1 wave imminent (round-2 ED "courtesy" emails sent late May/early Jun); Sweet Jun 15 notice deadline pending (no public confirmation notices have been sent); AFT/MOHELA May 28 status conference held — discovery continues, no public ruling.
 
+> **⚠️ STALENESS BANNER [added 2026-07-10 hygiene sweep, no data pulled] — this file is a JUN-9 SNAPSHOT (31d old).** Forward events framed below as upcoming/imminent have since PASSED and are UNVERIFIED here (integrate at next refresh): **Sweet Jun 15 notice deadline**, **FOMC Jun 16-17**, **SAVE→RAP Jul 1 formal-wave start**, **Jul involuntary-collections "restart"**, **Treasury Phase 1 Jul launch**. Do NOT cite any "Xd away / IMMINENT / PENDING" framing below as current. Live values → CARL parent STATUS.md. **Contradiction w/ parent:** collections "Expected Restart Jul 2026" (below) conflicts with CARL CRL-14 note (collections PAUSED indefinitely Jan 16, NO restart date corroborated) — parent wins; do not cite a Jul restart as fact.
+
 ---
 
 ## ⚠️ NEW SINCE APR 17 → JUN 9 (53 days)
@@ -26,10 +28,10 @@
 
 Federal student loan stress is a mass credit destruction event in active execution. **CRL-04 (90+ DQ >10%) has now BREACHED** at NY Fed Q1 2026 = 10.3% — first official primary-source >10% print, though scoring-methodology change (Equifax Risk Score 3.0 → VantageScore 4.0) introduces a 2nd-print verification need on absolute level. Mechanism unambiguously intact: 2.6M Q1 + 1M Q4 2025 DRG transfers; 17%+ of borrowers 90+ DPD at least once since repayment resumed; older-defaulter shift (avg 38.9y) confirms this is not a "new-borrower" effect but a structural payment-resumption stress wave.
 
-**Forward catalyst stack still firing:**
-1. **Jun 15 (6d)** — Sweet non-Exhibit C notice deadline. ~170K-271K borrowers in pipeline.
-2. **Jul 1 (22d)** — SAVE→RAP formal wave start. ~7M borrowers, 90-day windows, non-selectors → Standard/Tiered Standard Oct 1. Round-2 ED courtesy emails ALREADY OUT — operational confirmation Jul 1 is real.
-3. **Jul (TBD)** — Involuntary collections restart + Treasury Phase 1 ~500K defaulted accounts.
+**Forward catalyst stack still firing:** *[STALE — as-of 2026-06-09; items 1-3 have PASSED as of 2026-07-10, check-at-next-refresh]*
+1. **Jun 15 (6d)** — Sweet non-Exhibit C notice deadline. ~170K-271K borrowers in pipeline. *[PASSED 2026-07-10 — outcome unverified here]*
+2. **Jul 1 (22d)** — SAVE→RAP formal wave start. ~7M borrowers, 90-day windows, non-selectors → Standard/Tiered Standard Oct 1. Round-2 ED courtesy emails ALREADY OUT — operational confirmation Jul 1 is real. *[FIRED 2026-07-01 — post-Jul-1 reality unverified here]*
+3. **Jul (TBD)** — Involuntary collections restart + Treasury Phase 1 ~500K defaulted accounts. *[PARTIAL — Treasury Phase 1 window opened; "collections restart" contradicts parent CRL-14 (paused indefinitely)]*
 4. **Q3-Q4** — Post-transition DQ wave (CRL-14 window — MOHELA capacity test).
 
 National FICO 714 + -62-pt avg DQ-borrower score drop unchanged. Cascade to CC/auto/mortgage still operative. **v2.5.1 thesis fully intact; CRL-04 graduates to MET pending 2nd-print confirmation.**
@@ -65,7 +67,7 @@ National FICO 714 + -62-pt avg DQ-borrower score drop unchanged. Cascade to CC/a
 | ED Final Guidance | Issued Mar 31 2026 | — |
 | ED "Courtesy" Email Round 1 | Earlier — pre-May | — |
 | **ED "Courtesy" Email Round 2** | **Late May / early Jun 2026** (College Investor reporting) — pre-formal warning | 🟠 IMMINENT |
-| Servicer Formal Notices | **Begin Jul 1 2026** in waves every 2 weeks | 🔴 IMMINENT |
+| Servicer Formal Notices | **Begin Jul 1 2026** in waves every 2 weeks | 🔴 IMMINENT [STALE — as-of 2026-06-09; Jul 1 FIRED, waves now underway — verify at next refresh] |
 | Selection Window | 90 days from receipt of personalized notice | — |
 | Auto-Transition (non-selectors) | Standard or Tiered Standard | 🔴 |
 | Est. Non-Selection Rate | 30-45% (CARL CRL-13 baseline; empirically anchored 30-47% GAO/CFPB/Embold) | 🔴 |
@@ -110,7 +112,7 @@ National FICO 714 + -62-pt avg DQ-borrower score drop unchanged. Cascade to CC/a
 |--------|-------|--------|
 | Involuntary Collections | PAUSED (Jan 16 2026) | 🟡 |
 | First Wave Notices | ~1,000 borrowers (week of Jan 7) | FIRED |
-| **Expected Restart** | **Jul 2026** (per ED guidance) | 🔴 IMMINENT |
+| **Expected Restart** | **Jul 2026** (per ED guidance) | 🔴 IMMINENT [STALE + CONTRADICTS PARENT — as-of 2026-06-09; CARL CRL-04/14 note: involuntary collections PAUSED indefinitely Jan 16 2026, NO restart date corroborated. Do not cite a Jul restart as fact] |
 | Borrowers Exposed | 5M+ in default at pause time | 🔴 |
 
 ---
@@ -139,6 +141,8 @@ Unchanged from Apr 17 in substance. Direct (DQ→score destruction), payment hie
 ---
 
 ## CATALYSTS
+
+> *[STALE — as-of 2026-06-09] All rows below dated ≤ 2026-07-10 have PASSED (Jun 15 Sweet deadline, Jun 16-17 FOMC, ~Jun-Jul NY Fed/FSA follow-up, Jul 1 SAVE→RAP waves, Jul collections/Treasury). Outcomes UNVERIFIED here — integrate & re-date at next refresh. "(Nd)" countdowns are Jun-9-relative, not current.*
 
 | Date | Event | Impact |
 |------|-------|--------|
