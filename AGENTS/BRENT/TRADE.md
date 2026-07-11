@@ -1,6 +1,8 @@
 # BRENT TRADE.md — domain trade surface
 
-**Updated:** 2026-07-01 Wed PM ET | **THESIS v5.0 (asymmetry UPSIDE-CONVEX)** | **LIVE surface** (not frozen — keep current at every closeout or it rots).
+**Updated:** 2026-07-10 Fri ~9:30 PM ET | **THESIS v5.0 (asymmetry UPSIDE-CONVEX)** | **LIVE surface** (not frozen — keep current at every closeout or it rots).
+
+> **⚠️ 7/10 RECONCILE NOTE (read first):** The Tier-2 arm trigger below was hardened. The old wording "Brent >$75 into 2 consecutive closes" **NOMINALLY fired this week** (Sep-26 settled $76.01 Thu / ~$76.0 Fri) — but the ratified GATE-BRENT-SUSTAIN spec (7/9 addendum `2843c921`) **DENIED** the re-arm because **level alone is necessary-not-sufficient**: a CONFIRM also requires **≥2 FRESH institutional legs (settlement basis)**, and only 1 fired (war-risk premium). **A bare >$75 ×2 is NOT a fired trigger.** Trigger language below is corrected so this surface can't be misread later. Verdict: `outbox/2026-07-10_to-PROME_sustain-verdict.md`.
 **Rule:** calls on red days, puts on green days. **Trade proposals → Will [Approve]; never execute without it.**
 **Ownership / one-source-of-truth:** THIS file owns *position status* + *trade plans*. **STATUS** owns live market data (prices/storage/levels). **THESIS** owns the conviction. Do NOT restate live prices here — reference STATUS. **No cost-basis / P/L from state files** — ask Will (`[[feedback_position_cost_basis_not_authoritative]]`).
 
@@ -10,7 +12,7 @@
 
 **Direction-NEUTRAL near-term; risk-skew ASYMMETRIC TO THE UPSIDE medium-term.** Downside capped (record-low inventories + SPR-refill bid → gentle-normalization floor ~high-$70s/$80); upside tail fat AND rising (reopening weeks-to-months, rising Russian crude fuses, spent buffers, near-record spec short = squeeze fuel). **Phase-2-short bias RETIRED; no flat-price length EITHER WAY.** Forward expression = **defined-risk long-convexity, deploy-on-trigger** (below). **⚠️ SKEW flip, not a direction call — we are NOT calling oil up; the convexity is up, not the forecast.**
 
-**🟡 Jul-1 read:** the first "deficit-closing" data point printed (EIA wk-6/26: **Cushing BUILT +0.71M**, all crude draws decelerated) → leans the race toward **gentle-normalization** and **modestly softens the up-tail**. No trigger fired; **NO ACTION.** WATCH: a 2nd build next week = up-whipsaw dissolving → **auto-disarm approaching** (see Disarm/horizon). Brent $71.36 fresh cycle low; WTI $68.32 (<$70) nudges the *down*-tail (demand) nearer too.
+**🔴 7/8→7/10 CYCLE (supersedes the Jul-1 read):** the decoupling **CRACKED** 7/8 (truce collapse — 3 tankers hit in-strait, sanctions reimposed, war-risk 0.125%→0.2-0.4%+/transit; Brent gapped +6% to $78.75) → **energy tail RE-ARMED fragile-watch → ACTIVE**, capital GATED on a 2-session sustain test. **7/10: sustain test DENIED** — level held (~$76 settle both sessions) but only 1 of ≥2 required fresh institutional legs fired → **tail reverts ACTIVE → 🟡 fragile-watch. No capital deployed** (rule #6 — no calls chased into a cooling tape; the 7/8→7/10 fade $79→$76 is the shrug). **COT double-grade (7/10) CONFIRMS the convex-tail FUEL is present** — spec shorts BUILT not covered both prints (ICE Brent gross +~22K into 6/30 tank-bottoms; NYMEX WTI-phys +6,753 into the 7/7 spike); RED's crowded-short catch vindicated → **up-tail marginally FATTER, arm stays ARMED.** But no trigger fired (sustain DENIED). *(Prior Jul-1 "gentle-normalization / softens up-tail" read is now historical — overtaken by the crack.)*
 
 ---
 
@@ -41,7 +43,7 @@
 
 **Arm triggers (tiered — leading-cheap-first; deploy convexity while vol is still calm, don't chase the confirmed spike):**
 - **TIER-1 (preferred entry, ~$300):** HAW-15 crude-export pivot **confirmed** (HAWK ledger), **OR** reopening visibly **stalls** (P&I pull / liners stay Cape 2+ wks / transit re-collapse) **while** Cushing/SPR at hard floors.
-- **TIER-2 (add/initiate, ~$200, vol pricier):** Brent **sustains >$75 into 2 consecutive closes** (RED-FT-04 inverts), **OR** a **durable** ceasefire collapse / confirmed Hormuz physical re-closure.
+- **TIER-2 (add/initiate, ~$200, vol pricier) — HARDENED per the ratified GATE-BRENT-SUSTAIN spec (7/9 addendum `2843c921`):** fires only on the **full CONFIRM partition**, NOT on level alone — **(i) ICE Brent front-month settles >$75 both sessions** (settlement basis; intraday wicks disregarded) **AND (ii) ≥2 FRESH countable institutional legs** from {war-risk premium ≥0.2%/transit · transits ≤~18/day or confirmed liner Cape re-route · P&I-club/JWC withdrawal-or-relisting}. **Sanctions-in-force is DOWN-WEIGHTED — supporting only, cannot be one of the two.** A leg with no fresh dated print = NON-COUNTABLE. **Level >$75 ×2 is necessary-not-sufficient — a bare >$75 ×2 does NOT fire this tier** (that was the 7/10 DENY: settles $76.01/$76.0 but only 1 fresh leg). **OR** a **durable** ceasefire collapse / confirmed Hormuz physical re-closure.
 
 **Disarm / horizon:**
 - **Auto-disarm** if the reopening **COMPLETES** (P&I resumes + liners off Cape + sustained transits) **AND** buffers begin refilling — the whipsaw setup dissolves.
@@ -90,12 +92,14 @@
 
 | Date | Event | Bears on |
 |------|-------|----------|
-| ~~Jul 1~~ | ✅ EIA WPSR wk-6/26 | Cushing BUILT +0.71M / draws decelerated = race → normalization; **softens up-arm** |
-| Fri Jul 3 | CFTC COT (Jun-30) | kinetic-week covering (Tier-2 lean) vs continued liquidation |
-| ~Jul 2/3 | Baker Hughes | 440 last; 17 to 457 (rig-response medium-term bearish) |
-| ~Jul 3 | SPR 172M auth withdrawal | the buffer-clock deadline |
-| Wed Jul 8 | EIA STEO (July) | first post-deal price path |
-| Rolling | **HAW-15** pivot / P&I resumption / reopening 2nd-derivative | **Tier-1 arm triggers** |
+| ~~Jul 8~~ | ✅ EIA STEO (July) | first post-deal price path (fired amid the 7/8 crack) |
+| ~~Jul 10~~ | ✅ CFTC/ICE COT double-grade | **spring-fuel CONFIRMED** — shorts built not covered (both prints); convex tail fatter |
+| ~~Jul 10~~ | ✅ GATE-BRENT-SUSTAIN | **DENIED** — level held, <2 fresh legs; tail → fragile-watch |
+| **Sat Jul 11** | OPEC MOMR (July) | demand/supply-balance revision |
+| **Tue Jul 14** | US CPI (June) | BRT-16 inverse-feedback (does soft energy unwind hike-pricing?) |
+| **~Wed Jul 15** | EIA WPSR (next weekly) | did the crisis re-tighten Cushing/draws, or keep normalizing? |
+| **Tue Jul 28** | OPEC JMMC | policy behind the tape |
+| Rolling | **HAW-15** crude-export pivot / **2nd fresh Iran institutional leg** (transit ≤~18 · liner Cape re-route · JWC/P&I withdrawal) | **arm triggers — the re-arm needs leg #2** |
 
 ---
 

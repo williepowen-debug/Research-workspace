@@ -14,6 +14,28 @@
 
 ---
 
+## 🔴 7/10 — COT DOUBLE-GRADE (Jun-30 dropped obligation + Jul-7 truce-collapse print) — SPRING-FUEL CONFIRMED
+
+**Grading the 7/6 pre-registration (`2026-07-06_teams-session.md` §1: A=regime-liquidation, B=Path-B Trigger #3 [N/A on a falling tape], C=ICE-Brent gross shorts >~+5K = convex-tail tell). Both prints graded here — the Jun-30 grade never landed (7/8 truce-collapse, 7/9 spec addendum, 7/10 verdict crowded it out). Primaries: CFTC futures-only (NYMEX WTI-physical) + engine.online ICE-Brent commentary — NOT proxies.**
+
+| Print (as-of) | Venue | MM Long | MM Short | MM Net | ΔNet WoW | Gross-short move | Source |
+|---|---|---|---|---|---|---|---|
+| **Jun-30** (rel. 7/6) | **ICE Brent** | — | — | **~55K lots** | **−34K** (7th straight wk ↓) | gross-longs −12K vs net −34K ⇒ **gross shorts BUILT ~+22K** ("fresh shorts entering") | engine.online 7/7 (wk-end 6/30) |
+| Jun-30 (back-comp) | NYMEX WTI-phys | ~203.6K | ~122.3K | ~81.3K | ~−1.6K (vs 6/23 82.9K) | ~flat | CFTC (from 7/7 deltas) |
+| **Jul-7** (rel. 7/10) | **NYMEX WTI-phys** | **193,113** | **129,072** | **64,041** | **−17,241** | **shorts BUILT +6,753** into the +5% wk | CFTC as-of 7/7 [CONF] |
+| Jul-7 | NYMEX Brent-Last-Day | — | 744 | — | short −3,920 | (tiny contract, not the tell) | CFTC as-of 7/7 |
+
+*ICE Brent Jul-7 net not yet published at grading (ICE commentary lags) — **flagged pending**; CFTC WTI-physical (a pre-registered venue, "watch BOTH") carries the Jul-7 squeeze-fuel read.*
+
+**GRADE — both prints: (C) SPRING-FLAG FIRED → convex tail FATTENS (arm-LEAN, not fire).**
+- **(A) Regime:** net de-risking continued BOTH weeks (ICE Brent 7th straight ↓; WTI −17K into the crisis wk) — BUT **not clean long-liquidation.** Jun-30 was **short-build-led** (gross shorts +~22K vs longs −12K); Jul-7 was **both** (longs −10.5K AND shorts +6.75K). Shorts ADDED into a +5% week = crowded-short conviction, **not** capitulation.
+- **(B) Trigger #3 (BRT-21 leg):** **N/A both prints, as pre-registered** — Jun-30 wk fell (liquidation≠distribution), Jul-7 wk rose (+5-6%, not a distribution top). **Trigger #3 stays 1/2, not advanced.**
+- **(C) Squeeze-fuel (load-bearing):** **shorts BUILT into tank-bottoms (Jun-30, +~22K ICE) AND into the truce-collapse spike (Jul-7, +6.75K WTI)** — both ≫ the +5K threshold. RED's 6/26 crowded-short catch is **VINDICATED and standing.** Corroborated by BofA "biggest energy-fund outflow since Jul-2024" (SIG-W-20260706-015) — positioning washed out = dry tinder.
+
+**Reconciliation with tonight's DENY:** the fuel was real and the spark fired (7/8 +6%), but there was **no capitulation cascade** — Brent bled $79→$76 by 7/10 and the sustain gate DENIED on the legs. So: **convex-tail FUEL confirmed present (arm stays ARMED, marginally fatter), but no follow-through → no trigger, consistent with DENY.** The squeeze partially ignited then faded. Convex arm: still ARMED, no capital.
+
+---
+
 ## 🔴 JUL 8 EVE — DECOUPLING CRACK: RE-ARM CONDITION FIRED (energy tail fragile-watch → ACTIVE)
 
 **Live (Wed Jul 8 ~9:30 PM ET, FORGE fetch):** Brent **$78.75 (+6.19%)** · WTI **$74.17 (+5.30%)** [CONF]. (PROME ~9 PM: $78.82 / +6.28%; CNBC settle $78.02 / +5.2% — all consistent.)
@@ -135,7 +157,7 @@
 | **Refinery utilization** | **96.6%** — margin-boom | wk-6/26 EIA [CONF] |
 | **Cracks (refiner proxy)** | refiners **+4.38% agg 1d** on crude-DOWN day = cracks WIDENING; z ~+1.3σ EXHAUSTED | Jul 1 [CONF refiner_ratios.py] |
 | **Gasoline 4-wk YoY** | **−2.58%** (deepened from −1.1%; Trigger #2 0/3, never −5% → BRT-08 resolved) | wk-6/26 EIA [CONF] |
-| **Spec positioning (COT)** | last: NYMEX WTI MM net +82,872 (Jun-23), continued liquidation. **TONIGHT Mon Jul 6 ~3:30 ET COT (Jun-30 data) = 2nd-week test** (Monday proxy: WTI MM ~124.5K→114.6K ≈ −10K, unverified) | Jun-23 [CONF CFTC] |
+| **Spec positioning (COT)** | **GRADED 7/10 (both prints — see COT section):** ICE Brent MM net **~55K** (6/30, 7th straight wk ↓, **gross shorts +~22K**) → NYMEX WTI-phys net **64,041** (7/7, **shorts +6,753 into the +5% wk**). **Spring-fuel CONFIRMED — shorts built, not covered; convex tail fatter, arm ARMED.** Trigger #3 N/A both (stays 1/2). | 7/7 [CONF CFTC] / 6/30 [CONF engine.online] |
 | **US oil rigs (Baker Hughes)** | **440 (+7 WoW from 433)** — resumed climbing; 17 to 457 | wk-6/26 [CONF BH] |
 | **STNG / tankers** | **$75.36 (+3.22%)** — FIRMING, broke $71.50 threshold; ton-mile stays elevated on Cape routing + sanctioned-fleet/war-risk leg (reopening not delivering) | Jul 6 live [CONF FORGE] |
 | **XLE (position)** | **$53.26 (+0.08%)**; $65C Sep 30 deep OTM (~22% to strike), salvage ~0 | Jul 6 live [CONF FORGE] |
@@ -153,25 +175,27 @@
 
 ---
 
-## CONVERGENCE MATRIX (Jul 1 recalc — measuring a structural transition cooling toward normalization)
+## CONVERGENCE MATRIX (scores = Jul 1 vintage; **`Independence` column added 7/10 per DAEDALUS BATCH_03** — encode-existing, composite math unchanged; full re-score of scores deferred to next session given the 7/8 crack → 7/10 DENY cycle)
 
-| Vector | Score | State |
-|--------|-------|-------|
-| Hormuz/chokepoint | 🟠 3 | Reopening now DELIVERING (Cushing build = barrels landing) + ~75% transits; P&I still open |
-| Bab al-Mandab | 🟡 2 ↓ | **BRT-28 resolved — HAW-10 expired unfired Jul 1** (strait-proper never hit); second-chokepoint premium bled out |
-| Gulf production | 🟠 4 | Shut-in regime physically intact but unwinding; STEO still models closed-Hormuz |
-| Brent price | 🟠 3 | **$71.36 fresh cycle low, sub-$75 (RED-FT-04), contango** — decoupling extending |
-| US production response | 🟠 3 | **440 (+7); 17 to 457** — rig add resumed |
-| Demand destruction (Path B) | 🟠 3 ↓ | Triggers resolved sub-threshold: #1 contaminated, **#2 window-closed 0/3 (BRT-08 resolved, never −5%)**, #3 1/2. Demand softening real but the destruction leg was pre-empted |
-| Storage (global) | 🟠 4 ↓ | **2nd-derivative TURNED: Cushing BUILT +0.71M, all draws decelerated.** Levels still critical (SPR 40-yr low; Cushing <20M) but the cycle-max-draw narrative broke |
-| Tanker/shipping | 🟠 3 | STNG ~$70 weak; war-risk unwinding; asset-values record (structural leg) |
-| Refining bottleneck | 🟠 3 | Util 96.6% margin-boom; cracks WIDENING (compression absent) |
-| Energy credit | 🟡 2 | **Broad HY OAS 2.75% (275bps, −5bps, Jun-30 FRED) = CALM, well <400bps stress.** Energy-only OAS needs LIQUID (no free series). No energy-credit stress |
-| OPEC+ policy | 🟠 3 | Paper behind Hormuz; JMMC Jul 28 |
-| Ceasefire stability | 🟠 4 | Most fragile yet (Jun 27-28 exchange) but no new kinetic since; HAW-10 (Bab) expired unfired |
-| Curve structure | 🔴 4 | **CONTANGO** — Phase-2 structure confirmed |
-| Macro transmission | 🟠 3 | oil→CPI premise ($90+) failed on the retrace; inverse-feedback Jul 14 |
-| **TOTAL** | **44/70** (↓ from 47 Jun-29) | Jul-1 nets −3: Bab −1 (window closed unfired), Demand −1 (triggers resolved sub-threshold), Storage −1 (Cushing build / draws decelerated). The transition is cooling further toward normalization, not a crisis. |
+**`Independence` handle (shared-antecedent annotation, `[[finding_shared_antecedent_independence_test]]`):** the four kinetic-root vectors {Hormuz · Gulf production · Tanker/shipping · Ceasefire} all trace to the **one Iran-kinetic anchor** → count **once**, not four times, when PROME/NEXUS stack cross-agent convergence. Brent price + Curve structure are **OUTPUTS** (reflect the drivers, not independent inputs). This does NOT change the local composite (per DAEDALUS floor-not-ceiling); it flags double-counting for the stacker.
+
+| Vector | Score | Independence | State |
+|--------|-------|--------------|-------|
+| Hormuz/chokepoint | 🟠 3 | **Iran-kinetic ROOT (anchor)** — count once for the cluster | Reopening now DELIVERING (Cushing build = barrels landing) + throughput elevated-but-unquantified (KILL the "~75%" figure — unverified per SIG-W-20260702-002); P&I still open |
+| Bab al-Mandab | 🟡 2 ↓ | independent chokepoint (Houthi/Red Sea) | **BRT-28 resolved — HAW-10 expired unfired Jul 1** (strait-proper never hit); second-chokepoint premium bled out |
+| Gulf production | 🟠 4 | shared Iran-kinetic root w/ Hormuz → count once | Shut-in regime physically intact but unwinding; STEO still models closed-Hormuz |
+| Brent price | 🟠 3 | **OUTPUT — excluded from independent-driver count** | **$71.36 fresh cycle low, sub-$75 (RED-FT-04), contango** — decoupling extending _(Jul-1 mark; live tape now ~$76 post-crack)_ |
+| US production response | 🟠 3 | independent (shale economics) | **440 (+7); 17 to 457** — rig add resumed |
+| Demand destruction (Path B) | 🟠 3 ↓ | independent (demand-side) | Triggers resolved sub-threshold: #1 contaminated, **#2 window-closed 0/3 (BRT-08 resolved, never −5%)**, #3 1/2. Demand softening real but the destruction leg was pre-empted |
+| Storage (global) | 🟠 4 ↓ | semi-dependent (reopening barrels ← Hormuz) | **2nd-derivative TURNED: Cushing BUILT +0.71M, all draws decelerated.** Levels still critical (SPR 40-yr low; Cushing <20M) but the cycle-max-draw narrative broke |
+| Tanker/shipping | 🟠 3 | shared Iran-kinetic root (war-risk/Cape) → count once | STNG ~$70 weak; war-risk unwinding; asset-values record (structural leg) |
+| Refining bottleneck | 🟠 3 | independent (+ exogenous Russia-products shock) | Util 96.6% margin-boom; cracks WIDENING (compression absent) |
+| Energy credit | 🟡 2 | independent (credit market) | **Energy HY OAS 164bps (tightest HY sector, DEWEY 7/9 un-blind) = CALM, well <400bps.** Broad HY ~275bps. No energy-credit stress; >400 line remote |
+| OPEC+ policy | 🟠 3 | independent (policy) | Paper behind Hormuz; JMMC Jul 28 |
+| Ceasefire stability | 🟠 4 | shared Iran-kinetic root (the anchor itself) → count once | Most fragile yet (Jun 27-28 exchange) but no new kinetic since; HAW-10 (Bab) expired unfired _(Jul-1 mark; 7/8 truce-collapse not yet re-scored here)_ |
+| Curve structure | 🔴 4 | **OUTPUT — reflects the drivers** | **CONTANGO** — Phase-2 structure confirmed |
+| Macro transmission | 🟠 3 | independent (macro) | oil→CPI premise ($90+) failed on the retrace; inverse-feedback Jul 14 |
+| **TOTAL** | **44/70** (↓ from 47 Jun-29) | **~11 effective independent drivers** (kinetic cluster collapses 4→1; 2 outputs excluded) | Jul-1 nets −3: Bab −1, Demand −1, Storage −1. ⚠️ **Scores are Jul-1 vintage — the 7/8 crack → 7/10 DENY cycle is NOT yet re-scored here; next session re-score owed.** |
 
 ---
 
