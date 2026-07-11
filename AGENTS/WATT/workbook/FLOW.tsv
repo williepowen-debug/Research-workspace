@@ -1,0 +1,5 @@
+id	channel	from	mechanism	to	state	routes_to
+FL-WATT-01	P1	grid emergency / heat / outage	reserve shortfall -> RT/DA LMP spike	industrial + data-center power cost	armed (1 realized 7/3)	HENRY, AEOLUS
+FL-WATT-02	P2	capacity auction at cap	retail/industrial pass-through	consumer + industrial bills	FIRED (structural)	CARL
+FL-WATT-03	P3	AI-capex buildout	interconnection-queue + IPP load growth	grid supply-demand imbalance	building	HENRY (HEN-36)
+FL-WATT-04	P4	Henry Hub gas price	gas-fired marginal unit -> power price (spark spread)	power price floor/coupling	needs pull	BRENT, CARL

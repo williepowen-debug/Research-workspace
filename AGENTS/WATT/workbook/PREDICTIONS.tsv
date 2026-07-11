@@ -1,0 +1,3 @@
+id	made	channel	prediction	resolve_date	status	conf_tier	if_falsified	criteria	resolution
+WATT-01	2026-07-10	P2	PJM 2028/29 BRA clears at (or within 5% of) the price cap again	2026-12-31	OPEN	PROVISIONAL	-conf on structural-scarcity leg; re-weight P2 down	28/29 BRA result >= 95% of the applicable cap
+WATT-02	2026-07-10	P1	At least one more PJM EEA2+ (or DOE §202(c)) grid-emergency event before Labor Day 2026	2026-09-07	OPEN	PROVISIONAL	recurrence case weakens to n=1; P1 = seasonal-thermometer not structural	>=1 EEA2+ posting or 202(c) order in PJM footprint by 9/7

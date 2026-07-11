@@ -5,7 +5,11 @@ power_watch.py — boot-time power/grid-stress instrument (PJM leg).
 Built by DAEDALUS 2026-07-10 (Will-approved Step-1 instrument layer — power-agent
 staged path; see AGENTS/DAEDALUS/outbox/
 2026-07-10_to-PROME_tier3-gaps-and-power-agent-memo.md §5).
-Consumer: HENRY (provisional owner of the grid-stress → power-price leg).
+Moved into AGENTS/WATT/ 2026-07-10 on the WATT spinout (Step-2, Will-approved):
+WATT owns the power/grid thesis + this instrument. HENRY consumes WATT's OUTPUT
+(STATUS + NEXUS_BRIEF), no longer runs the instrument itself.
+Owner/consumer: WATT (channel P1 stress→price). Imports the shared FORGE EIA
+client (fetch.py) by absolute self-location — the client stays in FORGE.
 
 Three reads, one verdict line, each fail-LOUD (stderr + rc=2, never fabricated):
   1. PJM emergency-procedures postings — https://emergencyprocedures.pjm.com/
@@ -36,7 +40,7 @@ HONEST WALLS (what this script does NOT cover, and why):
     reliability requirement). Annual cadence, tracked via BRA PDFs — not here.
 
 Usage (self-locating, works from any cwd):
-  python3 /home/willi/Research-workspace/FORGE/tools/market-data/power_watch.py
+  python3 /home/willi/Research-workspace/AGENTS/WATT/power_watch.py
 """
 
 import re
@@ -45,8 +49,11 @@ import urllib.request
 from datetime import datetime, timezone
 from pathlib import Path
 
-# Self-locate: import the FORGE fetch module regardless of cwd.
-sys.path.insert(0, str(Path(__file__).resolve().parent))
+# Self-locate the shared FORGE EIA client (fetch.py) regardless of cwd.
+# This file lives at AGENTS/WATT/power_watch.py -> parents[2] == repo root.
+# fetch.py stays in FORGE/tools/market-data/ (shared client, not moved).
+_FORGE_MD = Path(__file__).resolve().parents[2] / "FORGE" / "tools" / "market-data"
+sys.path.insert(0, str(_FORGE_MD))
 import fetch  # noqa: E402  (eia_pjm_demand, eia_retail_power_price, .env loader)
 
 PJM_EP_URL = "https://emergencyprocedures.pjm.com/"

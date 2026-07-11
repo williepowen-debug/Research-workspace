@@ -1,0 +1,10 @@
+field	description
+id	KB row id, format KB-WATT-NNN
+date	ISO date the fact was recorded/observed (YYYY-MM-DD)
+channel	P1 | P2 | P3 | P4 | P5 | cross — which transmission channel it feeds
+fact	the knowledge item (one sentence, sourced)
+value	the load-bearing number if any (with unit); blank if narrative
+source	origin (PJM / EIA-930 / EIA-retail / LBNL / IPP filing / agent handoff)
+as_of	as-of date of the value (may lag `date` for lagged series)
+confidence	EMPIRICAL | PROVISIONAL | ASSUMPTION
+notes	caveats, cross-refs, routing

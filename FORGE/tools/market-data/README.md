@@ -45,12 +45,12 @@ python3 fetch.py price KRE           # Single ticker price
 python3 fetch.py fred ICSA           # Single FRED series
 ```
 
-## Power / Grid-Stress Instrument (power_watch.py)
+## Power / Grid-Stress Instrument (power_watch.py → moved to AGENTS/WATT/)
 
-Built by DAEDALUS 2026-07-10 (Will-approved Step-1 power instrument layer — power-agent staged path; see `AGENTS/DAEDALUS/outbox/2026-07-10_to-PROME_tier3-gaps-and-power-agent-memo.md` §5). **Consumer: HENRY (provisional)** — boot-time read of the grid-stress → power-price leg.
+Built by DAEDALUS 2026-07-10 (Will-approved Step-1 power instrument layer). **MOVED 2026-07-10 to `AGENTS/WATT/power_watch.py`** on the WATT spinout (Step-2): the **WATT** agent now owns the grid-stress → power-price leg (was HENRY-provisional). The **EIA client routes stay here in `fetch.py`** (shared); `power_watch.py` imports them by self-location from its new home. Run it from WATT:
 
 ```bash
-python3 FORGE/tools/market-data/power_watch.py   # self-locating, any cwd
+python3 AGENTS/WATT/power_watch.py   # self-locating, any cwd (imports FORGE fetch.py)
 # rc 0 = quiet · 1 = emergency-class PJM posting(s) — REVIEW · 2 = fetch failure
 ```
 

@@ -345,9 +345,10 @@ def eia_fetch(series_id, route="petroleum/stoc/wstk", limit=2):
 
 # ---------------------------------------------------------------------------
 # EIA electricity (v2 API — EIA-930 hourly demand + monthly retail prices)
-# Added 2026-07-10 (DAEDALUS Step-1 power instrument layer — power-agent staged
-# path; consumer: power_watch.py, HENRY-provisional). Non-breaking: petroleum
-# callers use eia_fetch() above, which is untouched.
+# Added 2026-07-10 (DAEDALUS Step-1 power instrument layer). Consumer:
+# power_watch.py (moved to AGENTS/WATT/ on the 7/10 WATT spinout — it imports
+# these routes from here by self-location; the client stays shared in FORGE).
+# Non-breaking: petroleum callers use eia_fetch() above, which is untouched.
 # ---------------------------------------------------------------------------
 
 def eia_fetch_facets(route, facets, frequency="hourly", data_col="value",

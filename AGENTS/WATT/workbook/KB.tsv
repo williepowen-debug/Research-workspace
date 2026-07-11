@@ -1,0 +1,7 @@
+id	date	channel	fact	value	source	as_of	confidence	notes
+KB-WATT-001	2026-07-10	P2	PJM 2026/27 base residual auction cleared at the price cap	$329.17/MW-day	PJM BRA	2026	EMPIRICAL	structural capacity-cost leg; data-center-load driven
+KB-WATT-002	2026-07-10	P2	PJM 2027/28 BRA cleared at cap again; uncapped sim ~$530; 6,623 MW short of reliability requirement	$333.44/MW-day	PJM BRA	2027	EMPIRICAL	two consecutive at-cap clears = P2 FIRED; retail pass-through to ComEd/BGE/Dominion in train
+KB-WATT-003	2026-07-03	P1	PJM declared EEA2 (energy emergency alert 2) — the one realized grid-emergency event so far	—	PJM / KB-AEO-018	2026-07-03	EMPIRICAL	inherited from AEOLUS/HENRY; the n=1 recurrence anchor
+KB-WATT-004	2026-07-03	P1	DOE §202(c) emergency order precedent — PJM can curtail data centers ≥50 MW	≥50 MW	DOE 202(c)	2026-07-03	EMPIRICAL	neocloud opex/uptime risk channel; feeds HENRY HEN-36
+KB-WATT-005	2026-07-11	P1	PJM demand vs 24h peak, quiet-but-armed at build time	88.9% of peak	power_watch / EIA-930	2026-07-11 02Z	EMPIRICAL	119,652 MW vs 134,573 MW peak; 0 emergency-class postings
+KB-WATT-006	2026-07-11	P1	US retail power price backdrop (industrial / residential)	8.66 / 18.83 c/kWh	EIA retail	2026-04	EMPIRICAL	~2mo publication lag; the pass-through denominator

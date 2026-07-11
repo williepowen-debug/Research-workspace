@@ -1,0 +1,5 @@
+id	channel	indicator	state	score	threshold	source	as_of	notes
+VX-WATT-P1	P1	PJM grid stress (demand vs peak + emergency postings)	quiet-but-armed	2	EEA2+ / LMP>$1000 = 5	power_watch	2026-07-11	demand 88.9% peak; 0 emergency-class; 1 prior EEA2 (7/3)
+VX-WATT-P2	P2	structural capacity cost (BRA clear vs cap)	confirmed short — FIRED	4	28/29 at cap again = 5	PJM BRA	2026-07-10	26/27 + 27/28 both at cap; 27/28 6,623MW short
+VX-WATT-P3	P3	data-center demand leg (queue depth / IPP load)	elevated — needs first pull	3	queue>2x peak load = 4	LBNL / IPP	2026-07-10	GAP: WATT owes first interconnection-queue pull
+VX-WATT-P4	P4	gas->power coupling (spark spread)	no live read	1	spread negative = 3	BRENT+PJM	2026-07-10	GAP: WATT owes first spark-spread read
