@@ -1,12 +1,22 @@
-# HENRY — COMPLETION (2026-07-11 threads sweep, PROME-spawned, Will-directed fleet pilot — second session today; AM backlog-sweep block preserved below)
+# HENRY — COMPLETION (2026-07-11 — three sessions same day: backlog-sweep boot → threads sweep → Will-approved pre-CPI execution wave; earlier blocks preserved below)
 
-## COMPLETION — HENRY — 2026-07-11 (~18:00 ET)
+## COMPLETION — HENRY — 2026-07-11 (~18:45 ET, pre-CPI execution wave)
+STATUS: ✅ DONE
+CHANGED: STATUS.md (2Y row in ACTIVE THRESHOLDS, blackout + exec-wave block, header stamp), workbook/PREDICTIONS.tsv (HEN-38 amended: 2Y-confirm + SOFR-squeeze overlay + blackout context), research/credit/HY_OAS_PLAYBOOK.md (FROZEN banner), workbook/THESIS_VALIDATION.md (HEN-35 30%→~15% reconciled), NEXUS_BRIEF.md (blackout + wires bullet, stamp), MEMORY.md, LAST_COMPLETION.md.
+RESULT: All 5 Will-approved items executed. (1) 2Y row wired [FRED DGS2 7/9 = 4.16; yellow >4.25 clears the 7/8 post-FOMC high 4.21; 2Y-vs-10Y = the hike-repricing-vs-term-premium channel discriminator]. (2) SOFR-squeeze overlay on HEN-38's demote branch [~$700B leveraged short; rates→equity half only — LIQUID owns plumbing, seam note expected]. (3) HY_OAS_PLAYBOOK FROZEN (banner chosen over live-reconcile — the doc's value is its reference layers, not its dead decision tree). (4) Buyback-blackout now on STATUS + NEXUS_BRIEF with sources+dates [RP-HEN-6.4/8.1 Apr; ML-HEN-028 Feb; top-20 ≈ 50% of ~$1.02T/yr; rolling exits banks ~7/16-17 → GOOGL ~7/24 → hyperscalers ~7/31-8/2], estimate-grade flagged. (5) THESIS_VALIDATION HEN-35 reconciled to ~15%. STATUS at 243/250 lines.
+GAPS: Blackout share is own-corpus estimate-grade — verify vs GS/BofA desk data at the next weekday session. Non-approved threads-sweep items (CCC−BB 900 row, SBC-adjusted FCF column, breakeven cadence, route-outs) remain pending PROME disposition.
+WILL_NEEDS: None.
+FOLLOW-UP: Mon 7/13 — DGS10 double-confirmation (HEN-40 4-of-5 + potential 5th close) + DGS2 pull for the new 2Y row. Tue 7/14 — CPI with HEN-38's three new overlays live; repull gamma flip AM; verify blackout share. LIQUID's plumbing-half seam note via PROME.
+
+---
+
+## (earlier, ~18:00 ET) COMPLETION — HENRY — threads sweep (triage-first)
 STATUS: ✅ DONE
 CHANGED: AGENTS/HENRY/reports/2026-07-11_threads-sweep.md (new), AGENTS/HENRY/LAST_COMPLETION.md. Nothing else touched — triage-first, propose-don't-execute honored.
-RESULT: Whole-corpus sweep (KB 115 rows, FLOW, THESIS_VALIDATION, 8 research clusters, board_log 74 rows, outbox, sources) via subagent scan + 3 load-bearing claims re-verified by hand. 20 items inventoried: 7 missed connections, 9 further threads, 5 contradictions (H:6 / M:9 / L:5). Top 3: (1) buyback blackout covers the entire 7/14–7/31 event window and no live surface carries it; (2) the rate-shock→equity transmission chain is the under-instrumented load-bearing chain (no 2Y row, no SOFR-squeeze overlay on HEN-38's demote branch, MOVE tracker was 5mo stale until this AM); (3) the falsification layer contradicts the live layer (HY_OAS_PLAYBOOK runs a RETIRED kill tree unfrozen; THESIS_VALIDATION carries HEN-35 at 30% vs live ~15%). 6 route-outs listed for PROME (BOND structural-demand corpus, LIQUID ×2, VIOLET, CARL, BROCK) — written nowhere outside AGENTS/HENRY/.
-GAPS: None on the sweep itself. All proposed fixes deliberately NOT executed (triage-first mandate) — execution order proposed in the report; cheapest pre-7/14 items are ~30 min total.
-WILL_NEEDS: None. (Disposition of the proposed-execution list is PROME/Will's call, but that's routing, not a Will-hands item.)
-FOLLOW-UP: PROME dispositions route-outs + approves/declines the pre-7/14 execution list (2Y wiring, HEN-38 squeeze clause, playbook FROZEN banner, blackout sizing). Next HENRY session: Mon 7/13 (DGS10 double-confirmation day) — execute whatever PROME approved before the 7/14 CPI print.
+RESULT: Whole-corpus sweep (KB 115 rows, FLOW, THESIS_VALIDATION, 8 research clusters, board_log 74 rows, outbox, sources) via subagent scan + 3 load-bearing claims re-verified by hand. 20 items inventoried: 7 missed connections, 9 further threads, 5 contradictions (H:6 / M:9 / L:5). Top 3: (1) buyback blackout covers the entire 7/14–7/31 event window and no live surface carries it; (2) the rate-shock→equity transmission chain is the under-instrumented load-bearing chain; (3) the falsification layer contradicts the live layer. 6 route-outs listed for PROME (BOND structural-demand corpus, LIQUID ×2, VIOLET, CARL, BROCK) — written nowhere outside AGENTS/HENRY/.
+GAPS: None on the sweep itself.
+WILL_NEEDS: None.
+FOLLOW-UP: The pre-7/14 execution list was subsequently Will-APPROVED and executed same evening (block above). Route-outs still pending PROME.
 
 ---
 

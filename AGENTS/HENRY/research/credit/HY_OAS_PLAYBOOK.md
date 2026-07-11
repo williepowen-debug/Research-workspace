@@ -1,7 +1,9 @@
-# HY OAS Playbook — Living Doc
+# HY OAS Playbook — FROZEN
 
-**Last Updated:** 2026-04-17 ~11:00 ET
-**Doc Type:** Living playbook (sections 1-6 updated in place; sections 7-8 append-only)
+> **⚠️ FROZEN 2026-07-11 — not maintained; do NOT cite rows or decision trees as current.** This doc is an **Apr-17 vintage snapshot** (spot 285bps [Apr-16]). Its invalidation machinery runs the **triple-AND kill (HY<260 + VIX<15 + SPX>7,100)** that was formally **RETIRED 6/23** (`workbook/THESIS_VALIDATION.md` — "its SPX leg was empirically falsified"), and the sub-260 soft-kill branch it centers is **DEAD, direction flipped** (credit WIDENED off its tights: 265→278 [FRED 6/25]→270 [FRED 7/8]; the 6/23 inverted read was PROME-corrected 6/26). **Canonical credit state = `STATUS.md` (CREDIT EARLY-WARNING MONITOR + ACTIVE THRESHOLDS); falsification layer = `workbook/THESIS_VALIDATION.md`.** Kept for the still-useful reference layers: the signal-hierarchy (incl. the CCC−BB >900 lead-level) and the historical threshold-cross log. *(Frozen per the fleet ledger-staleness rule — no silent-rot middle; threads-sweep item #4, Will-approved 7/11.)*
+
+**Last Updated:** 2026-04-17 ~11:00 ET (content) · FROZEN 2026-07-11
+**Doc Type:** ~~Living playbook~~ **FROZEN snapshot** (was: sections 1-6 updated in place; sections 7-8 append-only)
 **Owner:** HENRY
 **Canonical Data:** FRED `BAMLH0A0HYM2` (ICE BofA US HY Index OAS)
 **Why this doc exists:** HY OAS has two live threshold regimes operating in opposite directions. Without a consolidated playbook, each threshold cross risks being handled ad-hoc.

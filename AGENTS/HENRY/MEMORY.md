@@ -58,14 +58,16 @@
 - **Fixed a live gap: MOVE Index tracker (VX-HEN-18.01) was 5mo-stale and ~40-50pts wrong** ("~110-120 est" vs actual 72.41 [PROME-verified 7/8]). Refreshed to 72.41 (GREEN, well below 115 yellow). Also recomputed VX-HEN-14.08 (MOVE/VIX ratio, also 5mo-stale): **4.28** (72.41/16.90) — crosses the 4.0 yellow, corroborating the HEN-40/GCVR "watch MOVE not VIX" framing with an actual number for the first time.
 - **CPI-week frame tightened** (STATUS 7/8 block bullets 1-3 condensed as superseded/graded; bullet 4 sharpened): June CPI 7/14 is a PRE-SPIKE print (June Brent ~$71-72; July's spike isn't in it), answering a DIFFERENT question (cyclical/hawkish-dots validation) than the oil-shock question (JULY CPI, mid-Aug release, interim proxy = breakevens/TIPS). Full scope → sweep report §3.
 - STATUS.md trimmed 7/8 oil-shock block to stay at 235 lines (cap 250).
+- *(Same-day, ~17:45 + ~18:30)* **Threads sweep** (`reports/2026-07-11_threads-sweep.md`, 20 items, 6 High) **then the Will-approved pre-CPI execution wave — 5 items EXECUTED:** (1) **2Y row** in ACTIVE THRESHOLDS [FRED DGS2 7/9 = 4.16; yellow >4.25 = clears the 7/8 post-FOMC high 4.21; 2Y-vs-10Y = channel discriminator]; (2) **HEN-38 amended** with 2Y-confirm channel + SOFR-squeeze overlay on the demote branch [my half = rates→equity; LIQUID writes the plumbing half, PROME seam note expected] + blackout context; (3) **buyback-blackout note** on STATUS + NEXUS_BRIEF [estimate-grade, own-corpus sources RP-HEN-6.4/8.1 Apr + ML-HEN-028 Feb — **verify vs GS/BofA desk data at next weekday session**]; (4) **HY_OAS_PLAYBOOK FROZEN** (banner — it ran the RETIRED triple-AND tree at Apr-17 vintage); (5) **THESIS_VALIDATION HEN-35 reconciled** 30%→~15%. NOT executed (not in the approved list): CCC−BB 900 lead-level row, breakeven cadence, SBC-adjusted FCF column, informed-options build, route-outs — PROME dispositions those.
 
 ### NEXT SESSION
 **🔴 PRIORITY:**
 1. **Mon 7/13:** FRED posts the official 7/10 DGS10 close (confirms/denies HEN-40's 4-of-5 provisional) AND the potential 5th consecutive ≥4.50 close lands same session — a double-confirmation day, eve of CPI.
-2. **June CPI Tue 7/14 8:30 (HEN-38)** — PRE-SPIKE print, don't read oil-washout into it. PROMOTE core ≥+0.3% / DEMOTE ≤+0.2%; boundary = supercore. **Repull the gamma flip 7/14 AM** (7/2 band EXPIRED, SPX cleared the call wall). Also repull MOVE/VIX same-day (VX-HEN-14.08/18.01, just refreshed — keep the cadence).
-3. **7/22 GOOGL = first HEN-36 FCF tell**; MSFT/META 7/29 core gate. Packet-D final consolidation to PROME ~7/25.
-4. **DEWEY PROMPT-12 (CTA/gamma/vol-control calibration) STILL OVERDUE** (was deliver-by 7/10, chased 7/10, still absent 7/11) — escalate to PROME if still missing by 7/14.
-5. Consider whether the interim oil→CPI breakeven/TIPS cadence (T10YIE/DFII10) needs an explicit HENRY-owned tracking line, not ad hoc reads of BOND's STATUS — flagged in sweep report, not yet built.
+2. **June CPI Tue 7/14 8:30 (HEN-38 — now carries 3 overlays: 2Y confirm >4.21, squeeze-shape check on a soft print, blackout-thinned absorption)** — PRE-SPIKE print, don't read oil-washout into it. PROMOTE core ≥+0.3% / DEMOTE ≤+0.2%; boundary = supercore. **Repull gamma flip 7/14 AM** (7/2 band EXPIRED); repull MOVE/VIX + DGS2 same-day. **Verify blackout-share vs desk data (GS/BofA).**
+3. **7/22 GOOGL = first HEN-36 FCF tell**; MSFT/META 7/29 core gate. Packet-D consolidation to PROME ~7/25. SBC-adjusted FCF column (threads-sweep #6) still unbuilt — propose before 7/22.
+4. **DEWEY PROMPT-12 STILL OVERDUE** (deliver-by was 7/10) — escalate to PROME if still missing by 7/14.
+5. **HEN-35 expires 7/17:** grade the literal miss AND decide re-registering the mechanism at the ~3mo vol-expansion base-rate horizon (threads-sweep #8; copy VIOLET).
+6. Breakeven/TIPS interim-proxy cadence (T10YIE/DFII10) still unformalized — sweep report §4.
 
 **Pending Will decisions:** PJM_API_KEY for WATT's LMP leg (no longer HENRY's ask to make, FYI only).
 

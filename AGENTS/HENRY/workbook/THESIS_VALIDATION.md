@@ -16,8 +16,8 @@ Hawkish-but-stagflationary FOMC (6/17): Fed HELD 12-0 but the SEP dots flipped c
 
 ### Axis 2 — POSITIONING / FROTH (HENRY-domain): CRACKING — the live near-term driver
 AI/semi crowded-trade unwind (KOSPI −9.99% 6/22-23 on SK Hynix HBM capex; MU −11%, SMH −6.5%; record SOXL-out / SOXS-in) into record concentration (semis 18.8% of S&P, AI ~45%), record leveraged-ETF positioning, dealer negative gamma 7,500-7,375 (WALTER 6/18), + JPM ~$165B month-end rebalance into 6/30. So far a **ROTATION** (small-caps/value/Russell-record cushioning), not a cascade.
-- **Confirmed (→ cascade) if:** VIX >23 sustained (vol-control arms) + breadth collapses + levered-ETF rebalancing + negative-gamma amplification into 7,500-7,375 → the rotation becomes a systematic unwind (**HEN-35**, 30% by 7/17).
-- **Invalidated / contained if:** MU 6/24 beats + soft PCE 6/25 stabilize the AI book; VIX stays <23; small-caps/value keep absorbing → contained factor rotation, no cascade.
+- **Confirmed (→ cascade) if:** VIX >23 sustained (vol-control arms) + breadth collapses + levered-ETF rebalancing + negative-gamma amplification into 7,500-7,375 → the rotation becomes a systematic unwind (**HEN-35**, ~~30%~~ **~15% by 7/17 — RECONCILED 7/11 to the live STATUS figure** [7/1 threshold-vs-mechanism split: literal cascade trending-MISS at ~15%; the strengthening mechanism tracks separately as HEN-36 ~55%]. *This layer had carried the stale 6/23 prior for 18 days — falsification-layer rot, threads-sweep item #5, Will-approved fix.*).
+- **Invalidated / contained if:** MU 6/24 beats + soft PCE 6/25 stabilize the AI book; VIX stays <23; small-caps/value keep absorbing → contained factor rotation, no cascade. *(7/11 note: this branch has largely materialized — MU beat 6/24, VIX never neared 23, records through 7/10 — hence the ~15%; the 7/14 CPI shock-into-unhedged-tape path is what keeps it nonzero to expiry.)*
 
 ### Axis 3 — STRUCTURAL CREDIT: CONFIRMED, accelerating, now transmitting via alts
 CCC the sole tier widening over 1yr; **CCC−BB 791** (ratio 6.07×, Δ5d +13). The "alts = no public stress" tell BROKE this week (ARES −15% / APO −7%) — the K-split is starting to transmit.
