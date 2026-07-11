@@ -60,6 +60,14 @@ def esc(s):
     return html.escape(s, quote=True)
 
 
+def trunc(s, n):
+    """Word-boundary truncation with a visible ellipsis — never a mid-word chop."""
+    if len(s) <= n:
+        return s
+    cut = s[:n].rsplit(" ", 1)[0].rstrip(" ,;:—-(")
+    return cut + " …"
+
+
 EMOJI_CLASS = {"🟢": "ok", "🟡": "watch", "🟠": "elev", "🔴": "crit"}
 
 
@@ -68,6 +76,9 @@ def status_class(text, default="watch"):
         if e in text:
             return c
     return default
+# Channel cards use default="none" (neutral gray): a missing status emoji in a
+# HEARTBEAT channel head renders honestly-unknown, never a guessed yellow —
+# the fix belongs in HEARTBEAT (fleet status-key convention), not here.
 
 
 # ---------------------------------------------------------------- parsers ----
@@ -147,7 +158,7 @@ def parse_gates(today):
         if m:
             age = (today - dt.date(*map(int, m.groups()))).days
         rows.append({"gate": gate.strip(), "owner": owner.strip(), "kind": kind,
-                     "state": md_clean(state)[:220], "cond": md_clean(cond)[:160],
+                     "state": trunc(md_clean(state), 220), "cond": trunc(md_clean(cond), 160),
                      "checked_age": age})
     return rows
 
@@ -179,9 +190,10 @@ def parse_docket(today, horizon=21):
 def parse_heartbeat():
     text = read("HEARTBEAT.md")
     one = ""
-    m = re.search(r'"([^"]+)"', text)
+    m = re.search(r"^\*\*One-liner.*$", text, re.M)
     if m:
-        one = m.group(1)
+        q = re.search(r'[“"]([^”"]+)[”"]', m.group(0))
+        one = q.group(1) if q else ""
     split = ""
     m = re.search(r"Break \d+ / Grind \d+ / Unresolved \d+", text)
     if m:
@@ -190,9 +202,9 @@ def parse_heartbeat():
     for m in re.finditer(r"^\d+\.\s+\*\*(.+?)\*\*(.*)$", text, re.M):
         head = m.group(1)
         name = md_clean(head.split("—")[0])
-        cls = status_class(head, "watch")
-        headline = md_clean(head.split("—", 1)[1] if "—" in head else head)
-        body = md_clean(m.group(2))[:230]
+        cls = status_class(head, "none")
+        headline = trunc(md_clean(head.split("—", 1)[1] if "—" in head else head), 64)
+        body = trunc(md_clean(m.group(2)), 230)
         channels.append({"name": name, "cls": cls, "headline": headline, "body": body})
     ticker = []
     m = re.search(r"## Stress dashboard.*?\n\n(.+?)\n\n", text, re.S)
@@ -289,6 +301,8 @@ h2{font-size:12px;text-transform:uppercase;letter-spacing:.12em;color:var(--ink2
 .watch{color:var(--watch);background:var(--watch-bg);border-color:var(--watch)}
 .elev{color:var(--elev);background:var(--elev-bg);border-color:var(--elev)}
 .crit{color:var(--crit);background:var(--crit-bg);border-color:var(--crit)}
+.none{color:var(--ink2);background:var(--paper);border-color:var(--line)}
+.card.none{border-left-color:var(--line)}
 .muted{color:var(--ink2)}
 .regime{margin-bottom:16px}
 .oneliner{font-size:16.5px;font-style:italic;margin-bottom:10px;text-wrap:balance}
@@ -597,6 +611,10 @@ def build(today, now_iso):
         for cls, text, src in attn[:14]:
             out += (f'<li><span class="tag {cls}">{esc(cls)}</span>'
                     f'<span>{esc(text)}<span class="src">{esc(src)}</span></span></li>')
+        if len(attn) > 14:
+            out += (f'<li><span class="tag none">+{len(attn) - 14}</span>'
+                    f'<span class="muted">more items not shown — no silent caps; '
+                    f'see owner files</span></li>')
         return out
 
     def render_gates():
@@ -605,7 +623,7 @@ def build(today, now_iso):
             age = f' · checked {g["checked_age"]}d ago' if g["checked_age"] is not None else ""
             out += (f'<li><span class="tag watch">LIVE</span><span><b>{esc(g["gate"])}</b> '
                     f'<span class="muted">({esc(g["owner"])}{age})</span><br>'
-                    f'<span class="muted">{esc(g["cond"][:150])}</span></span></li>')
+                    f'<span class="muted">{esc(trunc(g["cond"], 150))}</span></span></li>')
         for g in recent_resolved:
             word = g["state"].split(" ")[0]
             out += (f'<li><span class="tag ok">DONE</span><span class="muted">'
@@ -622,9 +640,14 @@ def build(today, now_iso):
         for r in docket:
             d = r["start"].strftime("%a %-m/%-d") + ("+" if r["span"] else "")
             soon = ' class="soon"' if r["days_out"] <= 3 else ""
-            when = "today" if r["days_out"] == 0 else f'in {r["days_out"]}d'
+            if r["days_out"] < 0:
+                when = "live now"       # multi-day window already in progress
+            elif r["days_out"] == 0:
+                when = "today"
+            else:
+                when = f'in {r["days_out"]}d'
             out += (f'<li{soon}><span class="d">{esc(d)}</span>'
-                    f'<span class="in">{esc(when)}</span><span>{esc(r["catalyst"][:110])}'
+                    f'<span class="in">{esc(when)}</span><span>{esc(trunc(r["catalyst"], 110))}'
                     f'<br><span class="own">{esc(r["owners"])}</span></span></li>')
         return out or "<li class='muted'>nothing in the next 21 days</li>"
 
@@ -633,9 +656,11 @@ def build(today, now_iso):
         maxc = max((r["c30"] for r in fleet), default=1) or 1
         for r in fleet:
             nb = ' <span class="chip ok">newborn</span>' if r["newborn"] else ""
-            w = max(3, int(64 * min(r["c30"], maxc) / maxc))
+            # sqrt scale: PROME's coordinator volume shouldn't flatten everyone
+            # else to slivers — perceptual, not proportional (labels carry truth)
+            w = max(3, int(64 * (min(r["c30"], maxc) / maxc) ** 0.5))
             rows += (f'<tr><td class="agent">{esc(r["name"])}{nb}</td>'
-                     f'<td class="dom">{esc(r["dom"][:70])}</td>'
+                     f'<td class="dom">{esc(trunc(r["dom"], 70))}</td>'
                      f'<td class="lvl">{esc(r["lvl"])}</td>'
                      f'<td><span class="chip {r["cls"]}">{esc(r["word"])}</span></td>'
                      f'<td class="num">{r["c30"]}<div class="barwrap">'
@@ -666,7 +691,7 @@ def build(today, now_iso):
   <button role="tab" aria-selected="false" data-view="view-gloss">Glossary</button>
 </nav>
 
-<div id="view-ops">
+<div id="view-ops" role="tabpanel" aria-label="Operations">
 <section class="regime">
   <div class="oneliner">“{esc(hb["one"])}”<span class="split">{esc(hb["split"])}</span></div>
   <div class="cards">{panel_guard("regime", "HEARTBEAT.md", render_channels)}</div>
@@ -697,7 +722,7 @@ def build(today, now_iso):
 </div>
 </div>
 
-<div id="view-gloss" hidden>{GLOSSARY}</div>
+<div id="view-gloss" role="tabpanel" aria-label="Glossary" hidden>{GLOSSARY}</div>
 
 <div class="footer">
   Generated surface — <b>points into canon, never owns it</b>. Owner files win on any
