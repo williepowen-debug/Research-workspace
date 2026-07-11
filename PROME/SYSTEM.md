@@ -22,7 +22,7 @@ Core rule:
 | File | Trust | Role |
 |---|---|---|
 | `CLAUDE.md` (root + `PROME/`) | High | Repo + PROME operating rules — the only docs Claude Code genuinely auto-injects. |
-| `MEMORY.md` (auto-memory index — lives in-repo at `memory/auto/`, **hardlinked** from `~/.claude` [same inode, no symlink — `[[finding_automem_hardlink_inplace_edit]]`]) | High for curated lessons; check freshness | Operating lessons / findings / feedback index — the genuinely-injected memory layer. |
+| `MEMORY.md` (auto-memory index — lives in-repo at `memory/auto/`; `~/.claude/.../memory/` is a **directory symlink** to it, so normal Write/Edit tools are safe — `[[finding_automem_hardlink_inplace_edit]]` [superseded-hardlink slug, current model inside]) | High for curated lessons; check freshness | Operating lessons / findings / feedback index — the genuinely-injected memory layer. |
 
 *(`AGENTS.md` + `USER.md` are **explicit boot-reads**, not injected — see the next table. `SOUL.md` + `IDENTITY.md` were deleted root-level in the 2026-06-30 public-prep cleanup.)*
 
