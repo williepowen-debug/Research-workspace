@@ -28,13 +28,13 @@
 
 ## GAPS
 
-- **🔴 Iran anchor re-stamp OWED (top item):** the Fri 7/10 BRENT sustain gate **RESOLVED DENY** (PROME 7/10 PM, verified vs primaries — level held ~$76 both sessions but only 1/≥2 fresh countable legs fired → energy tail reverts to fragile-watch, re-arm stands down). `anchors/IRAN_WAR.md` still reads "verdict pending Friday." Re-stamp was offered at boot; Will redirected to ABC, so it was NOT done unilaterally — re-surfaced to Will. 7d re-verify still due ~7/16.
+- **🔴 Iran anchor RE-STAMPED 7/10 (Will-directed, end of session — DONE):** the Fri 7/10 BRENT sustain gate RESOLVED DENY (PROME 7/10 PM + BRENT, verified vs primary settles — level held ~$76 both sessions but only 1/≥2 institutional legs → crack was another shrug at the sustain test; re-arm stood down to fragile-watch). Folded into `anchors/IRAN_WAR.md` as a 7/10 gate-outcome addendum + oil-block / re-verify-trigger / current-state-header updates. Kinetic + leadership left on the 7/9 stamp (only the oil gate resolved). **Full 7d kinetic re-verify still due ~7/16.**
 - **STATUS Overall/anchor-block + near-trigger live-levels full regen deferred** (Tier-2) — the new lead carries current state; the Overall block below still references the pre-DENY "pending Friday" gate.
 - **Full registry_lag refresh deferred** (~16 MED rows, none WALTER-actionable).
 
 ## WILL_NEEDS
 
-1. **Iran anchor re-stamp — awaiting your go.** The Fri 7/10 gate is decided (DENY / fragile-watch per PROME). Want me to re-stamp the anchor to that outcome (fold in PROME's grade, demote the "pending Friday" line)? ~5-min touch, the one genuine state-staleness left.
+1. **Iran anchor re-stamp — DONE this session** (Will-directed). Anchor now folds the Fri 7/10 BRENT gate DENY (re-arm stood down to fragile-watch) as a 7/10 gate-outcome addendum; kinetic/leadership stay on the 7/9 stamp. Next: full 7d kinetic re-verify ~7/16. No decision needed.
 2. **Kentland — optional:** say the word if you want a low-priority INFO breadcrumb to REGINALD to keep the 2026 failure-count tally; otherwise it stays killed.
 3. Otherwise none blocking.
 
@@ -44,7 +44,7 @@
 - 3 DEWEY Batch-2 deliverables (prompts 08/11/13) routed + ledger-closed (BOARD →487, 13 handoffs). · Inbox root 5→2 (3 filed). · Outbox cleared (both items were already CLOSED). · REQ-DEWEY-20260709-07b ledger row logged. · BOOT_PROTOCOL §16 non-ff reword (DAEDALUS drift). · Kentland Polymarket signal verified + KILLED + Will-replied.
 
 **🟠 Held for Will / carried:**
-- **🔴 Iran anchor re-stamp** (Fri 7/10 gate = DENY/fragile-watch per PROME; anchor still says "pending" — awaiting Will's go; 7d re-verify ~7/16). **Leadership axis** (Mojtaba likely incapacitated / longer tail) carried from 7/9. Iran-cluster pre-dispatch guard active.
+- **🔴 Iran anchor RE-STAMPED 7/10 (DONE)** — Fri 7/10 BRENT gate DENY folded (re-arm stood down to fragile-watch, 7/10 gate-outcome addendum). **Leadership axis** (Mojtaba likely incapacitated / longer tail) carried from 7/9. **Next: full 7d kinetic re-verify ~7/16.** Iran-cluster pre-dispatch guard active.
 - **phone-signal ingestion Part B build** (PROME 7/5 design, Will-approved 🟡 — WALTER builds a `phone_inbox/` sweep into `intake_scan.py`; depends on Will's Part A Shortcut/PAT setup; promote the design doc into `design/` when built + fold into `[[project_messaging_overhaul]]`). Left in inbox root, boot-visible.
 - **DAEDALUS utility-firming Sweep A+B** (7/3, Will+PROME-approved — add a labeled CONTRACT block to CLAUDE.md §top + a labeled `## BOTTOM LINE` at STATUS tail, encode-existing; write-back to `AGENTS/DAEDALUS/inbox/` on completion). Left in inbox root, boot-visible.
 - **DEWEY Batch-2 queue — remaining prompts:** 09 (UST demand-rotation, deadline passed — check `inbox/DEWEY/` next boot) · 07b (funding-gate calibration, deliver ~7/16) · 12 (mechanical-selling, opex 7/17) · 13 done · 14 (bank-PC-exposure, Q2 ~7/16) · 15 (FHA-VA-loss-waterfall, Q2 ~7/16) · 16 (BDC-rating-print-hunt, Q2 marks 7/25-28) · 17 (insurer-lender-double-jeopardy, 7/25-28). Reports land through ~7/28.
@@ -62,8 +62,8 @@
 
 **🔵 SURFACED (not WALTER-fixable, carried):** I5 dead `/home/moltbot` paths in NON-WALTER files (dashboard/server.py, FORGE tools, AGENTS/DOC, tools/calendar) — inventoried in `design/OPENCLAW_CUTOVER_PLAN.md`, route to owners.
 
-**🔴 STILL ACTIVE (carried):** Iran anchor re-stamp cadence (gate resolved 7/10 DENY; re-stamp pending Will's go) · LOOPS.md harness/loop ownership (at PROME) · B5 scheduled-scan workflow (double-blocked).
+**🔴 STILL ACTIVE (carried):** Iran anchor re-stamp cadence (gate resolved 7/10 DENY, re-stamped 7/10; **next = full 7d kinetic re-verify ~7/16**) · LOOPS.md harness/loop ownership (at PROME) · B5 scheduled-scan workflow (double-blocked).
 
 ---
 
-*Maintenance note: a boot + sitrep session that turned into the ABC inbox/outbox cleanup Will asked for. Threads: (1) 3 DEWEY Batch-2 deliverables that landed 7/10 routed (BOARD 484→487, 13 handoffs, 3 cluster_mediating, ledger closed) — prompt 08 was a Will-dropped-but-delivered re-anchored verdict routed as forward-context; (2) inbox root 5→2 + outbox cleared (both outbox items already CLOSED — outbox lagged git truth, the recurring asymmetric-records pattern) + 07b ledger row logged + BOOT_PROTOCOL §16 non-ff reword; (3) 1 Telegram Polymarket signal (Kentland $3.7M bank failure) FDIC-verified + KILLED as immaterial + Will-replied. board_reconcile ✓ 487, drift-green, no-HIGH. **Top live forward item: the Iran anchor re-stamp (Fri 7/10 gate RESOLVED DENY/fragile-watch — awaiting Will's go).** 7d Iran re-verify ~7/16.*
+*Maintenance note: a boot + sitrep session that turned into the ABC inbox/outbox cleanup Will asked for. Threads: (1) 3 DEWEY Batch-2 deliverables that landed 7/10 routed (BOARD 484→487, 13 handoffs, 3 cluster_mediating, ledger closed) — prompt 08 was a Will-dropped-but-delivered re-anchored verdict routed as forward-context; (2) inbox root 5→2 + outbox cleared (both outbox items already CLOSED — outbox lagged git truth, the recurring asymmetric-records pattern) + 07b ledger row logged + BOOT_PROTOCOL §16 non-ff reword; (3) 1 Telegram Polymarket signal (Kentland $3.7M bank failure) FDIC-verified + KILLED as immaterial + Will-replied; (4) **Iran anchor RE-STAMPED 7/10 (Will-directed) — Fri 7/10 BRENT gate DENY folded (re-arm stood down to fragile-watch), oil-block/trigger/state-header updated, kinetic+leadership left on the 7/9 stamp.** board_reconcile ✓ 487, drift-green, no-HIGH. **Next live forward item: the full 7d Iran kinetic re-verify ~7/16.**
