@@ -28,6 +28,11 @@ Read→write pairings: STATUS (read 1 → write 7), SCRATCH (read 2 → write 11
    (cd "$(git rev-parse --show-toplevel)" && .venv/bin/python3 AGENTS/VIOLET/scripts/boot.py)
    ```
    Use `--verbose` for full output. Web-search only for narrative/headline catalysts the boot kit doesn't cover.
+5b. **Staleness guard (automated — run at every boot; DAEDALUS L4 packet #3, applied 2026-07-11).** Anti-recurrence mechanism for the 7/2-7/8 frozen-STATUS gap (KB-VIO-113 class) — surfaces ledger/TRADE drift at boot instead of relying on same-session discipline:
+   ```
+   python3 "$(git rev-parse --show-toplevel)/scripts/ledger_staleness.py" VIOLET --quiet
+   python3 "$(git rev-parse --show-toplevel)/scripts/ledger_staleness.py" VIOLET --trade --quiet
+   ```
 5a. **WALTER signal intake (`inbox/WALTER/` delivery lane)** — process WALTER-delivered handoffs:
    - List `AGENTS/VIOLET/inbox/WALTER/*.md` not yet logged in `AGENTS/VIOLET/board_log.tsv`. If `board_log.tsv` does not exist, create it with the v0.2 header: `timestamp_read<TAB>signal_id<TAB>disposition<TAB>source<TAB>notes`.
    - For each file: read it, decide disposition (`acted` / `noted` / `deferred` / `info-only` / `skipped`), append a row to `board_log.tsv` with `source=INBOX_WALTER`, then `git mv` the file to `AGENTS/VIOLET/inbox/WALTER/processed/`.
@@ -162,7 +167,7 @@ Live research queue: `STATUS.md § RESEARCH QUEUE` (priority-ordered, refreshed 
 | `SIGNAL_INTAKE.md` | **WALTER subscription spec** (consumer: WALTER routing — template `AGENTS/WALTER/design/SIGNAL_INTAKE_TEMPLATE.md`). Scope-of-attention + exclusions + keywords + durable threshold lines ONLY; live values stay in STATUS; operational dispatch rows go to the future VIO-T-NN registry via LIAISON, not here | On thesis bump · threshold-line shift · missed or unneeded signal |
 | `README.md` | Front-door orientation: directory map + 3 durable thesis pillars (pointer-first, no live values, rates cite the canonical table) | On protocol change, file add/retire, or thesis-pillar change |
 
-*`workbook/VX.tsv` retired 2026-06-10 → `archive/VX_2026-04-15_threshold_dashboard.tsv` (dead since 4/15; daily series superseded by VX_DAILY.tsv, threshold lines by SIGNAL_INTAKE/STATUS/thesis).*
+*`workbook/VX.tsv` retired 2026-06-10 (dead since 4/15; daily series superseded by VX_DAILY.tsv, threshold lines by SIGNAL_INTAKE/STATUS/thesis). Its archive copy was deleted with the whole `VIOLET/archive/` dir in the 2026-06 public-prep prune (`1cb18fbc`/`7133b7d6`) — recover via git history only. (Dangling-ref fix 2026-07-11, DAEDALUS L4 packet #5.)*
 
 ---
 

@@ -24,7 +24,7 @@
 | `scripts/` | `boot.py` (~10s live boot: thresholds + options OI + COT + catalyst countdown), `convexity_read.py`, fred_fetch, backfill, etc. |
 | `research/` | Time-stamped deep dives (post-mortems, analogs, audits, packet specs) |
 | `outbox/` | 🔴-acute outbound signals ONLY (NEXUS_BRIEF is the primary cross-agent surface) |
-| `archive/` | Retired docs (incl. pre-template SIGNAL_INTAKE, cold-boot deliverables) |
+| ~~`archive/`~~ | **Deleted** in the 2026-06 public-prep prune (`1cb18fbc`/`7133b7d6`) — retired docs recoverable via git history only *(ref fixed 2026-07-11, DAEDALUS L4 packet #5)* |
 
 ---
 

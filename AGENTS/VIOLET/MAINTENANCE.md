@@ -10,6 +10,18 @@ Log material structural changes only — not routine content edits. Template ado
 
 ---
 
+## 2026-07-11 — DAEDALUS L4-firming packet applied (all 6): boot staleness guard + handles + hygiene
+
+**Trigger:** DAEDALUS 7/4 packet (Will-approved 7/4; PROME green-lit execution 7/11 after the domain sweep flagged it 7 days unconsumed). The staleness guard is the direct anti-recurrence fix for the 7/2-7/8 frozen-STATUS gap (KB-VIO-113: Gate A/C fired into a dead dashboard).
+
+**What changed:** **CLAUDE.md** — new BOOT step 5b: two cwd-proof `scripts/ledger_staleness.py VIOLET [--trade] --quiet` lines run at every boot (tested this session, exit 0 both modes); dangling `archive/` footnote fixed (dir deleted in the 2026-06 public-prep prune). **STATUS.md** — `## BOTTOM LINE` handle added (DAEDALUS #1); `Independence` column added to the convergence matrix (#2, 45-pt composite untouched). **workbook/** — `hy_oas_fred.csv` + `combined_vix_credit.csv` FROZEN-bannered (last data 2026-04-09, superseded by fred_cache). **README.md / SIGNAL_INTAKE.md** — dangling archive refs fixed. **TRADE.md** — footer corrected to 7/2 + staleness pointer added (KB-VIO-110 vehicle spec RETIRED per Will 7/9; body rewrite still owed).
+
+**Files touched:** CLAUDE.md, STATUS.md, README.md, SIGNAL_INTAKE.md, TRADE.md, workbook/hy_oas_fred.csv, workbook/combined_vix_credit.csv, MAINTENANCE.md.
+
+**Boot-impact:** every future boot self-flags ledger/TRADE drift — the failure mode that produced the 7-day gap now has a mechanical tripwire. **Open residue:** PAT-032 disposition note to `AGENTS/DAEDALUS/inbox/` not yet sent (session was own-dir-restricted); DAEDALUS MATURITY_MAP won't reconcile until it lands.
+
+**Lessons:** the packet sat unconsumed through the exact incident it would have prevented, then through one more full session — an anti-recurrence fix competes for attention like any other task unless something (a sweep, a guard) forces it to the front. Also: apply-some-of-a-packet is worse than apply-none; all 6 landed together so DAEDALUS's tracking reconciles in one ACK.
+
 ## 2026-06-23 — Credit-gate summary wired into boot.py (closes the boot/credit blind spot)
 
 **Trigger:** At the 6/23 boot (after a 9-day dark gap spanning the BOJ/FOMC catalyst window), VIOLET mis-read the credit gate as "fred_fetch broken / gate UNCONFIRMED." The proximate bug was a read-side glob over a proliferated cache (KB-VIO-103→104, fixed same session), but the deeper gap was that **boot.py never surfaced the credit gate at all** — fred_fetch was a manual session step, so the load-bearing CCC/Bin-B verdict wasn't in the boot brief. Will-approved wiring it in. Also reconciles a doc drift: VIOLET's CLAUDE.md SPAWN step 5 already described boot.py as "live vol surface + **FRED credit** + catalyst countdown," but boot.py did not run FRED.
