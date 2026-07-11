@@ -53,6 +53,7 @@ Closeout is the **write-back tail** of boot (auto-memory `[[finding_closeout_as_
 | `HEARTBEAT.md` | boot: market-data / regime gate (step 5) | per Write-Back Contract — update after a regime-level change or >48h stale (market week); **commit is Will-gated** (shared doc) |
 | `memory/YYYY-MM-DD.md` | on-demand | Chunk 2 — create/append |
 | `PROME/DOCKET.tsv` | boot: fire-time gate input (step 5) | Chunk 1 — paired with the operator card: any catalyst date that moved/resolved this session updates its DOCKET row (canonical; SCRATCH/HEARTBEAT are views) |
+| **Fleet-Ops dashboard** (Will-facing artifact, born 7/11) | not a boot read — Will's comprehension surface | **Standard+ closeouts:** regenerate `python3 PROME/tools/fleet_dashboard.py -o <scratchpad>/fleet_dashboard.html` → republish via Artifact tool **to the recorded URL** (in the script header — pass `url=` from any session that didn't mint it, else it orphans Will's tab). Generated-only, points-into-canon, fail-loud parsers; its age badge covers gaps between sessions |
 
 **Intentionally one-way (no closeout write-back, by design):**
 - `FLEET_SCAN.md` — superseded historical snapshot (retired from boot reads, doc-audit 7/10); no closeout write-back and no refresh — current fleet-state reads are `ROSTER.md` + DAEDALUS `FLEET_MAP.tsv`.

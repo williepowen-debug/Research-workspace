@@ -24,6 +24,7 @@
 | `AGENTS/TERRY/RISK_SCORING.md` | TERRY risk scoring | Edge, capped Kelly, Brier calibration, execution-block checklist. |
 | `AGENTS/ORACLE/PREDICTION_MARKET_METRICS.md` | Prediction-market diagnostics | Entropy, KL bits, entropy-collapse alerts, ORACLE→TERRY packet. |
 | `HEARTBEAT.md` | Regime pointer | **RE-BASED 7/11** (post-sustain-DENY; 6/25 base + 15-amendment chain archived verbatim → `PROME/archive/HEARTBEAT_PREREBASE_SNAPSHOT_2026-07-10.md`); refresh dashboard/FRED before citing any level as current. |
+| **Fleet-Ops dashboard** (`PROME/tools/fleet_dashboard.py` → claude.ai artifact) | Will-facing comprehension surface (born 7/11, Will-directed) | Generated-only from canon (ROSTER/FLEET_MAP/GATES/DOCKET/HEARTBEAT/git) — points, never owns; refresh = closeout-wired (CLOSEOUT symmetry table); URL recorded in script header. |
 
 ---
 
