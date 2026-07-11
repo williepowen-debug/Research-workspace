@@ -8,7 +8,24 @@ Tracks all changes to THESIS.md and TIMELINE.md. Reverse chronological. Each ent
 
 ---
 
-## 2026-07-10 PM — v1.6.4 → **v1.6.5** [MINOR, pre-registered resolver] — 🔴 SAM-36 FALSE/DE-LOAD: Jul-7 print covers to 68.8% of peak, past the −140K DE-LOAD line → carry-convexity-tail reverts MED-HIGH → MEDIUM; TRY-FIRE-005 entry NOT recommended
+## 2026-07-10 PM (2nd) — v1.6.5 → **v1.6.6** [MINOR, evidence review] — Oil/MOU tail-route EV-weight RECOMPUTED, REAFFIRMED 8%/+3% unchanged
+
+**Author:** SAM (PROME follow-up tasking, same session as SAM-36). **Trigger:** the 7/9 self-sweep flagged the route's 8% weight (THESIS § THE N TAIL-ROUTES) as pending-recompute — set pre-truce-collapse, sitting stale in a live table. PROME tasked the recompute this session now that three fresh datapoints exist.
+
+**1. The three datapoints:**
+- **(a) The 7/8 truce-collapse re-arm.** Real: US-Iran strikes, ceasefire declared over, Brent +6.3%→~$79. But the realized transmission was Phase-1 (oil spike → terms-of-trade hit → yen WEAKENS), not Phase-2 (recession risk → yen-haven bid → carry unwind) — the wrong direction for this route's own +3% payoff mechanism (see STATUS 7/8 note: "yen weakened DESPITE the geopolitical shock... echoing OIL-IN-YEN").
+- **(b) BRENT's GATE-BRENT-SUSTAIN graded DENY tonight** (`AGENTS/BRENT/outbox/2026-07-10_to-PROME_sustain-verdict.md`, ~21:15 ET): level held (~$76 settle both sessions) but only 1 of ≥2 required FRESH institutional legs fired (war-risk premium surge only — sanctions down-weighted per RED red-team #3 as near-automatic; transits and P&I/JWC had no fresh Friday print). Energy tail reverts ACTIVE → 🟡 fragile-watch — an independent, adversarially-gated cross-agent verdict that this specific re-escalation did NOT durably establish.
+- **(c) SAM's own Jul-7 CFTC print (SAM-36, same session).** JPY noncommercial shorts covered sharply through this exact event window (86.2%→68.8% of peak, the largest WoW reduction in the tracked series) — Japan-side FX positioning was unwinding, not building, into the oil shock. A live/gripping re-escalation route should show positioning building on the fear, not covering.
+
+**2. Verdict: REAFFIRM 8% / +3% FXY move-if-fires, unchanged.** All three datapoints point the same way: a real trial of this route ran this week and faded fast without producing its own stated payoff mechanism (no Phase-2 yen-haven bid, no positioning build, and now an independent DENY on institutional-leg breadth). This is consistent with what an honest 8% base rate implies — a real-but-not-dominant tail probability — not evidence the true rate is higher or lower. Per the fleet-wide calibration lesson (one data point rarely justifies a 15-25pp shift), reaffirming rather than adjusting off a single fired-then-faded instance is the disciplined call. **A genuine SECOND re-escalation attempt** (fresh distinct Iran leg, sustained >2 sessions, clearing BRENT's own ≥2-institutional-leg bar) **would warrant a fresh look** — this is not a permanent close of the question.
+
+**3. Downstream effect: none.** Route contribution stays 8%×+3%=+0.24% in the EV table (§ THE N TAIL-ROUTES); gross expected payoff, overlap discount, and net 60d EV are all unchanged. TERRY's TRY-FIRE-005 conditional-move math (which sums this same route table) is therefore also unaffected — no re-derivation needed there. THESIS version bumped to log the evidence review per the audit-trail convention (a reaffirmation is still "new evidence for an existing view"), not because any number moved.
+
+**4. Also this session (same spawn, separate task):** `STRATEGY.md` FXY modal-band re-derivation executed — see that file's own CHANGELOG (dated 2026-07-10 PM). Not a THESIS.md change; logged here only as a same-session pointer.
+
+---
+
+## 2026-07-10 PM (1st) — v1.6.4 → **v1.6.5** [MINOR, pre-registered resolver] — 🔴 SAM-36 FALSE/DE-LOAD: Jul-7 print covers to 68.8% of peak, past the −140K DE-LOAD line → carry-convexity-tail reverts MED-HIGH → MEDIUM; TRY-FIRE-005 entry NOT recommended
 
 **Author:** SAM (PROME/teams-mode spawn, Fri 7/10 ~9:00 PM ET). **Trigger:** the Jul-7-data CFTC print, released 3:30 PM ET today — the pre-registered resolver for the TRY-FIRE-005 entry decision Will set this morning (option (b): TERRY pre-built the card, entry gated on this print).
 

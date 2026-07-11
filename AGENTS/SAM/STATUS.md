@@ -48,6 +48,11 @@
 
 **Position: FLAT stands, no entry.**
 
+**PROME follow-up tasking (same spawn, 3 more items — GATE-SAM-30 verified/canoned by PROME first, GATES.tsv + HEARTBEAT, commit `3670a5b1`):**
+- **TASK 4 — FXY modal-band RE-DERIVED** (open since 7/2 METSUKE escalation): stale $57.5-59.5/154-160 (a leftover from the pre-v1.6 compression-grind framework, never actually re-derived after the Jun-16/17 pivot) → new **modal FXY $55.3-57.7/USDJPY 159-166**, downside convexity-tail (conditional) **$59.2-62.0/148-155**, new upside disorder-tail **<$54.9/>167**. TRY-FIRE-005 cross-ref: TERRY's independently-derived $59.03 ladder-center converges almost exactly with the new tail-zone floor — two independent methods agree; strikes remain sensible, no re-strike recommended. Full derivation → `STRATEGY.md` CHANGELOG 2026-07-10 PM.
+- **TASK 5 — Oil/MOU tail-route EV-weight RECOMPUTED, REAFFIRMED 8%/+3%** (was flagged pending-recompute 7/9): 3 fresh datapoints (7/8 re-arm delivered Phase-1 yen-weakness not Phase-2 haven-bid; BRENT's independent GATE-BRENT-SUSTAIN graded DENY tonight, only 1 of ≥2 fresh legs; SAM's own Jul-7 COT shows covering not building) all point to "fired, faded fast" — consistent with an honest 8% base rate, not evidence to move it. No downstream EV-table change. THESIS **v1.6.5 → v1.6.6**. Full reasoning → `thesis/CHANGELOG.md` 2026-07-10 PM (2nd).
+- **TASK 6 — hygiene:** OPEN_THREADS #4 (CFTC Jun-30 never-pulled) struck resolved. BOJ current-account-projections fast-confirm instrument (S1-A) **scoped, not built** — clean automatable source found (`boj.or.jp/en/statistics/boj/fm/juq/`, predictable daily XLSX URLs, ~2bd cadence matching the playbook citation), but which line item actually signals a "strike" vs an ordinary JGB op is unverified — flagged as the real gap, not the source. Full scoping → `OPEN_THREADS_2026-07-09.md`.
+
 ---
 
 ## 2026-07-09 EVE SESSION NOTE (Thu ~9:00 PM ET — PROME targeted-drain spawn; Japan-leg pre-registration on the 77.74% US 30Y indirect surge; WALTER consume-step installed + 18-file backlog drained)
