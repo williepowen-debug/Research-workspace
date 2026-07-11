@@ -778,6 +778,29 @@ def check_dropzone_pending():
     return out
 
 
+def check_status_spine_overflow():
+    """STATUS.md keeps only the ~5 most recent dated leads; older ones roll to
+    SESSION_LOG.md at closeout (protocol §12). Nothing mechanized the cap, so the
+    spine silently grew to 12 leads / 100KB by 2026-07-11 (a string of Tier-1
+    closeouts each deferred the trim). Count the leads so the bloat self-alarms
+    instead of rotting — LOW a few over (legit between Tier-2 trims), MED once
+    clearly bloated. Added 2026-07-11 (Will-directed boot/closeout sweep)."""
+    status = WALTER / "STATUS.md"
+    try:
+        text = status.read_text(encoding="utf-8", errors="replace")
+    except OSError:
+        return [(LOW, "STATUS.md unreadable — spine count unverifiable")]
+    n = len(re.findall(r"^(?:> )?\*\*Updated:\*\*", text, flags=re.M))
+    CAP = 5
+    if n > CAP + 3:
+        return [(MED, f"STATUS.md has {n} dated leads (cap ~{CAP}) — roll the oldest "
+                     f"{n - CAP} to SESSION_LOG.md at closeout (protocol §12 spine-bloat guard)")]
+    if n > CAP:
+        return [(LOW, f"STATUS.md has {n} dated leads (soft cap {CAP}) — trim the oldest "
+                     f"{n - CAP} at the next full closeout")]
+    return [(INFO, f"STATUS.md spine at {n} lead(s) (≤{CAP})")]
+
+
 CHECKS = [
     ("version_drift", check_version_drift),
     ("claude_md_version_drift", check_claude_md_version_drift),
@@ -796,6 +819,7 @@ CHECKS = [
     ("staleness_sweep_overdue", check_staleness_sweep_overdue),
     ("dropzone_pending", check_dropzone_pending),
     ("boot_protocol_xref", check_boot_protocol_xref),
+    ("status_spine_overflow", check_status_spine_overflow),
 ]
 
 MARK = {HIGH: "✗", MED: "⚠", LOW: "·", INFO: "✓"}

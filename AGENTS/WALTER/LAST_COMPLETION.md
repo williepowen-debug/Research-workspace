@@ -6,7 +6,7 @@
 
 ## STATUS
 
-**2026-07-11 (Fri ~9:20 PM ET / late-eve — US MARKETS CLOSED; Will-terminal boot).** Sitrep + inbox/outbox ABC cleanup + 1 Telegram signal. Boot clean (doctor 0-HIGH; 16 MED = registry_lag + `delivered_but_unconsumed`, known/self-closing). git pull clean. No 6c auto-fire attempted (markets closed).
+**2026-07-11 (Fri late-eve — US MARKETS CLOSED; Will-terminal boot; LONG multi-thread session ending in a Tier-2 FULL closeout).** Sitrep → ABC inbox/outbox cleanup → Kentland kill → Iran anchor re-stamp → DAEDALUS Sweep A/B → BOARD-consumption cleanup → **Tier-2 boot/closeout sweep**. Boot clean; **closeout ends doctor-fully-green** (was 16-MED at the sweep's start). git pull clean. No 6c auto-fire (markets closed).
 
 ## CHANGED (this session)
 
@@ -29,8 +29,8 @@
 ## GAPS
 
 - **🔴 Iran anchor RE-STAMPED 7/10 (Will-directed, end of session — DONE):** the Fri 7/10 BRENT sustain gate RESOLVED DENY (PROME 7/10 PM + BRENT, verified vs primary settles — level held ~$76 both sessions but only 1/≥2 institutional legs → crack was another shrug at the sustain test; re-arm stood down to fragile-watch). Folded into `anchors/IRAN_WAR.md` as a 7/10 gate-outcome addendum + oil-block / re-verify-trigger / current-state-header updates. Kinetic + leadership left on the 7/9 stamp (only the oil gate resolved). **Full 7d kinetic re-verify still due ~7/16.**
-- **STATUS Overall/anchor-block + near-trigger live-levels full regen deferred** (Tier-2) — the new lead carries current state; the Overall block below still references the pre-DENY "pending Friday" gate.
-- **Full registry_lag refresh deferred** (~16 MED rows, none WALTER-actionable).
+- **Tier-2 boot/closeout sweep COMPLETED this session (Will-directed — the last thread):** flagged stale/inconsistent/unfinished across boot+closeout, then fixed: **registry_lag fully cleared** (19 rows refreshed, doctor 16-MED→0), **STATUS spine trimmed 12→5 leads** (7 archived to SESSION_LOG), **NETWORK AWARENESS regenerated** to 7/11 + Overall oil-line synced to the DENY, **step-7c dark-crons retired** (INTERIM→dead, 2mo stale), **new `status_spine_overflow` doctor check** → **doctor now fully green ("WALTER domain healthy")**. No stale/inconsistent boot/closeout items remain.
+- **Minor carried (noted, not blocking):** CARL LIAISON 66d (past the 30d dormant-flag — low-stakes manifest hygiene) · `delivered_but_unconsumed` 9 all-INFO / 0-ACTION (DEWEY 7 research + FERT 2 dormant, self-closing).
 
 ## WILL_NEEDS
 
@@ -43,6 +43,7 @@
 **🟢 RESOLVED this session:**
 - 3 DEWEY Batch-2 deliverables (prompts 08/11/13) routed + ledger-closed (BOARD →487, 13 handoffs). · Inbox root 5→2 (3 filed). · Outbox cleared (both items were already CLOSED). · REQ-DEWEY-20260709-07b ledger row logged. · BOOT_PROTOCOL §16 non-ff reword (DAEDALUS drift). · Kentland Polymarket signal verified + KILLED + Will-replied. · DAEDALUS utility-firming Sweep A/B applied (CONTRACT block + BOTTOM LINE).
 - **BOARD-consumption audit + right-sized cleanup (Will-directed):** audited the fleet's BOARD-consume state — ~13 of the fleet already consume (11 via the delivery-lane consume-step + CARL/RED pull-complete). The apparent "5-agent / 13-unconsumed gap" **dissolved on inspection** (per Will's supersede/aware check): AEOLUS/MARCO/OZK unconsumed were all **today's fresh** deliveries; **CREED** already held both its 7/6 CRE themes in its own STATUS/LAST_COMPLETION/thesis (aware, redundant handoff); **TERRY** was 6 aged-out **INFO cc's** (2-wk-old positioning/timing, moot). Action taken: **archived CREED ×2 + TERRY ×6 stale handoffs → their `inbox/WALTER/processed/`** (Will-authorized cross-dir, per the pull-complete bulk-archive precedent) + **staged consume-step install packets for AEOLUS + MARCO** (the only two live agents worth a forward-looking §8.1 step). Skipped the blanket 5-agent rollout (not warranted).
+- **Tier-2 boot/closeout sweep (Will-directed):** audited boot+closeout for stale/inconsistent/unfinished → registry_lag fully cleared (19 rows), STATUS spine 12→5, NETWORK AWARENESS regen, step-7c dark-crons retired, `status_spine_overflow` doctor check added, MEMORY session-notes refreshed + mechanize-the-cap finding logged → **doctor fully green**.
 
 **🟠 Held for Will / carried:**
 - **🔴 Iran anchor RE-STAMPED 7/10 (DONE)** — Fri 7/10 BRENT gate DENY folded (re-arm stood down to fragile-watch, 7/10 gate-outcome addendum). **Leadership axis** (Mojtaba likely incapacitated / longer tail) carried from 7/9. **Next: full 7d kinetic re-verify ~7/16.** Iran-cluster pre-dispatch guard active.
