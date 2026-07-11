@@ -1,6 +1,6 @@
 # FLEET DIRECTORY — what every agent is, does, and is missing
 
-> **GENERATED — DO NOT EDIT.** Rendered from `PROME/ROSTER.md` (existence · domain · status) + `AGENTS/DAEDALUS/FLEET_MAP.tsv` (class · maturity · missing/next) by `AGENTS/DAEDALUS/scripts/render_directory.py`. Edit the **sources**, then regenerate — hand-edits are overwritten. Generated 2026-07-10.
+> **GENERATED — DO NOT EDIT.** Rendered from `PROME/ROSTER.md` (existence · domain · status) + `AGENTS/DAEDALUS/FLEET_MAP.tsv` (class · maturity · missing/next) by `AGENTS/DAEDALUS/scripts/render_directory.py`. Edit the **sources**, then regenerate — hand-edits are overwritten. Generated 2026-07-11.
 
 *One source of truth per column (PAT-006): **what it does** + **status** ← ROSTER (PROME); **class** + **maturity level** + **missing/next** ← FLEET_MAP (DAEDALUS). "Missing / next" is a truncated one-liner — full gap detail in `FLEET_MAP.tsv` + `upgrades/<AGENT>_CARD.md`. PROME (coordinator) and dormant agents are un-graded → blank grade cells.*
 
@@ -30,6 +30,9 @@
 | NEXUS | Utility | L4 | Cross-agent synthesis | consumption-read to lift PROVISIONAL + optional §7 label -> L5 |
 | ZHAO | Market | L3 | China macro — UST demand / capital flows / Korea | L3->L4: consumption evidence (LIQUID absorb |
 | AEOLUS | Market | L2 | Climate → economy (macro; insurance/ag/energy-demand channels) | sustain predictions resolving |
+| WATT | Market | L1 | Power/grid — PJM stress → wholesale price → industrial/data-center cost | L2: close P3/P4 first pulls |
+| VULCAN | Market | L1 | AI-capex / semiconductor / memory cycle → systemic risk (concentration, memory, power-demand, Taiwan chokepoint) | L2: quantify S1 (capex trajectory |
+| MIDAS | Market | L1 | Metals — monetary (gold/silver: debasement, real-rates) + industrial (copper/PGM: growth, China, supply) | L2: build metals_watch.py |
 
 ## 🟡 TIER-2 — spawned as needed
 
@@ -56,4 +59,4 @@
 | YEYOU | Utility | L2 | Repo-wide reviewer (manual / branch model) | CONTRACT block + clear OpenClaw/GLM + dangling-ref stale cluster (apply… |
 
 ---
-*22 active · 4 tier-2 · 3 dormant · 2 special. Dropped (retired): HERMES. Regenerated each Production Review — `sweeps/PRODUCTION_REVIEW.md`.*
+*25 active · 4 tier-2 · 3 dormant · 2 special. Dropped (retired): HERMES. Regenerated each Production Review — `sweeps/PRODUCTION_REVIEW.md`.*

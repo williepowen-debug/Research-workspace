@@ -8,6 +8,9 @@ Detect stress transmission early enough to position ahead of consensus.
 3. **Energy shock:** HAWK → BRENT → HENRY (demand destruction)
 4. **Japan:** SAM — independent trigger via carry unwind → LIQUID
 5. **Volatility:** VIOLET — credit-to-vol lag detection → HENRY, LIQUID, RED
+6. **Power:** AEOLUS (weather detection) → WATT (grid stress → power price) → HENRY (AI-capex FCF) + CARL (retail pass-through)
+7. **AI-capex:** VULCAN (concentration mechanism / memory cycle / compute-demand / Taiwan chokepoint) → VIOLET (concentration-unwind vol) + HENRY (FCF) + WATT (power demand)
+8. **Metals:** {BOND (gold↔real-rates), ZHAO (copper↔China)} ↔ MIDAS → LIQUID (safe-haven) + HENRY (growth tell); HAWK → MIDAS (PGM supply)
 
 NEXUS synthesizes across all chains. MARCO feeds immigration/labor supply into LABOR + BRENT. **VIOLET tracks credit-to-vol transmission — when credit spreads widen and VIX hasn't caught up.** **TERRY converts thesis into trade construction: entry, structure, sizing, invalidation, roll/no-roll rules, and postmortems.**
 
@@ -41,6 +44,9 @@ Grouped directory views live in `AGENTS/_INDEX.md`; the canonical topology map l
 | TERRY | Trade construction, chart/tape analysis, execution rails | Utility / trading desk |
 | **VIOLET** | **VIX, vol term structure** | **Credit → Vol** |
 | **AEOLUS** | **Climate → economy (insurance, ag/food, energy demand)** | **Climate → {BRENT, CORAL, MARCO}** |
+| **WATT** | **Power/grid (PJM stress → wholesale price → data-center/industrial cost)** | **AEOLUS C3 → WATT → {HENRY, CARL}** |
+| **VULCAN** | **AI-capex / semiconductor / memory (systemic: concentration, memory cycle, power demand, Taiwan chokepoint)** | **VULCAN → {VIOLET, HENRY, WATT}** |
+| **MIDAS** | **Metals (monetary: gold/silver debasement/real-rates; industrial: copper/PGM growth/China/supply)** | **{BOND, ZHAO} ↔ MIDAS → {LIQUID, HENRY}** |
 | **DAEDALUS** | **Fleet architect — design / structure / maturity / lifecycle** | **Meta / system** |
 
 ---

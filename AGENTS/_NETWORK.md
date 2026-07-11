@@ -39,6 +39,8 @@ flowchart LR
         MARCO[MARCO<br/>Migration / labor supply]
         AEOLUS[AEOLUS<br/>Climate → economy]
         BARON[BARON<br/>Policy network]
+        WATT[WATT<br/>Grid stress / power price]
+        MIDAS[MIDAS<br/>Metals: monetary + industrial]
     end
 
     subgraph MACRO[Funding / macro / market structure]
@@ -48,6 +50,7 @@ flowchart LR
         SAM[SAM<br/>Japan / BOJ / carry]
         ZHAO[ZHAO<br/>China / TIC / capital flows]
         HANS[HANS<br/>Europe / UST demand]
+        VULCAN[VULCAN<br/>AI-capex / semis / memory]
     end
 
     subgraph RESEARCH[Research / ops]
@@ -80,6 +83,22 @@ flowchart LR
     AEOLUS -->|energy demand| BRENT
     AEOLUS -->|FL insurance / property| CORAL
     AEOLUS -->|food CPI / migration| MARCO
+
+    %% Power (WATT), AI-capex (VULCAN), Metals (MIDAS) — DAEDALUS build 2026-07-10/11
+    AEOLUS -->|grid-stress detection| WATT
+    WATT -->|power cost / FCF input| HENRY
+    WATT -->|retail pass-through| CARL
+    BRENT -->|gas → power| WATT
+    VULCAN -->|AI-capex concentration| VIOLET
+    VULCAN -->|capex / FCF| HENRY
+    VULCAN -->|compute → power demand| WATT
+    ZHAO -->|China export controls| VULCAN
+    HAWK -->|Taiwan chip chokepoint| VULCAN
+    MIDAS -->|gold ↔ real-rate tell| BOND
+    MIDAS -->|safe-haven flow| LIQUID
+    MIDAS -->|copper ↔ China demand| ZHAO
+    MIDAS -->|copper / PGM growth tell| HENRY
+    HAWK -->|PGM supply SA/Russia| MIDAS
 
     SAM -->|carry unwind / JGB stress| LIQUID
     SAM -->|carry volatility| HENRY
@@ -140,6 +159,9 @@ flowchart LR
 | Private credit | BROCK → SHADE → LIQUID / REGINALD | Gates, PIK/NAV stress, insurer wrapper funding, NDFI bank bridge |
 | Energy shock | HAWK → BRENT → HENRY/LIQUID/CARL | Kinetic/chokepoint events, Brent/storage/insurance, inflation/demand destruction, energy credit |
 | Climate → economy | AEOLUS → BRENT / CORAL / MARCO | Insurance losses, ag/food supply shifts, energy-demand swings on a weather/structural horizon |
+| Power | AEOLUS → WATT → HENRY / CARL; BRENT → WATT | Grid emergencies (PJM EEA), LMP spikes, capacity-auction clears at cap, data-center load |
+| AI-capex | VULCAN → VIOLET / HENRY / WATT; ZHAO / HAWK → VULCAN | Hyperscaler capex guides, Mag-7 concentration, memory cycle, export controls, Taiwan chokepoint |
+| Metals | {BOND, ZHAO} ↔ MIDAS → LIQUID / HENRY; HAWK → MIDAS | Gold real-rate divergence (debasement), copper/China demand, GSR, PGM supply |
 | Japan/carry | SAM → LIQUID/HENRY | JGB/BOJ/carry unwind, USDJPY/FXY, global funding volatility |
 | Credit-to-vol | BOND/BROCK/REGINALD → VIOLET → HENRY/LIQUID/RED | Credit spreads or bank stress widen before VIX/vol catches up |
 

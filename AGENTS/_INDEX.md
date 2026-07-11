@@ -37,6 +37,7 @@ Active + Tier-2 domain owners and meta-agents with live folders. Full verified c
 | LABOR | [`LABOR/`](./LABOR/) | Credit |
 | LIQUID | [`LIQUID/`](./LIQUID/) | Funding / Macro |
 | MARCO | [`MARCO/`](./MARCO/) | Energy / Geopolitics / Credit bridge |
+| MIDAS | [`MIDAS/`](./MIDAS/) | Energy / Commodities (metals: monetary gold/silver + industrial copper/PGM) |
 | NEXUS | [`NEXUS/`](./NEXUS/) | Synthesis / Ops |
 | ORACLE | [`ORACLE/`](./ORACLE/) | Synthesis / Ops |
 | OTTO | [`OTTO/`](./OTTO/) | Credit · Tier-2 |
@@ -46,7 +47,9 @@ Active + Tier-2 domain owners and meta-agents with live folders. Full verified c
 | SHADE | [`SHADE/`](./SHADE/) | Private Credit |
 | TERRY | [`TERRY/`](./TERRY/) | Synthesis / Ops |
 | VIOLET | [`VIOLET/`](./VIOLET/) | Synthesis / Ops |
+| VULCAN | [`VULCAN/`](./VULCAN/) | Funding / Macro (AI-capex concentration / market structure; systemic) |
 | WALTER | [`WALTER/`](./WALTER/) | Synthesis / Ops |
+| WATT | [`WATT/`](./WATT/) | Energy / Commodities (power/grid: PJM stress → price → cost) |
 | YEYOU | [`YEYOU/`](./YEYOU/) | Meta — repo-wide reviewer (manual/branch) |
 
 *PROME runs from root [`../PROME/`](../PROME/); the historical `AGENTS/PROME/` tree is archived under [`../PROME/archive/AGENTS_PROME_LEGACY_2026-06-24/`](../PROME/archive/AGENTS_PROME_LEGACY_2026-06-24/).*
