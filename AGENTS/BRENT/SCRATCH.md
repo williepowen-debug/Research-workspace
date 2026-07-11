@@ -41,4 +41,4 @@
 ## WORKBOOK HEALTH
 - **LIVE & current (Jul-10):** STATUS (verdict + COT + matrix-w-Independence), TRADE (reconciled), SCRATCH (this), board_log (38 rows), sustain-verdict memo. **THESIS v5.0 unchanged** (no bump — the DENY reverts a re-arm, doesn't restructure the thesis; convex tail was already the v5.0 skew).
 - **FROZEN:** KB.tsv, VX.tsv, FLOW.tsv, TIMELINE.md. **STALE (deferred):** GROUP_MAP.tsv +115d.
-- **GIT:** STATUS + memo committed earlier (59a34faa); this closeout commits COT/matrix STATUS edits + TRADE + SCRATCH + board_log + moved inbox files. Rides push-train (no push per task).
+- **GIT:** verdict memo + STATUS banner committed 59a34faa; COT/matrix STATUS + TRADE + SCRATCH + board_log committed 61a5bd6e. Rides push-train (no push per task). **⚠️ Attribution note (shared-index race, PROME-verified):** my Task-3 inbox renames (21 files → processed/, R100 pure renames, zero content change) were swept into **SAM's commit 64e92053** — SAM committed without pathspec while my `git mv` sat staged in the shared index. Nothing lost, just cross-attributed; history stays as-is (no mid-session rewrite). Do NOT re-mv/re-stage those paths — already in HEAD.
