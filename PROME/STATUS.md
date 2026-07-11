@@ -23,7 +23,7 @@
 | `AGENTS/TERRY/` | Trade construction | Now owns old TRADES verification playbook + risk scoring/calibration. |
 | `AGENTS/TERRY/RISK_SCORING.md` | TERRY risk scoring | Edge, capped Kelly, Brier calibration, execution-block checklist. |
 | `AGENTS/ORACLE/PREDICTION_MARKET_METRICS.md` | Prediction-market diagnostics | Entropy, KL bits, entropy-collapse alerts, ORACLE→TERRY packet. |
-| `HEARTBEAT.md` | Regime pointer | Base 6/25, amended through 7/1; refresh dashboard/FRED before citing any level as current. |
+| `HEARTBEAT.md` | Regime pointer | **RE-BASED 7/11** (post-sustain-DENY; 6/25 base + 15-amendment chain archived verbatim → `PROME/archive/HEARTBEAT_PREREBASE_SNAPSHOT_2026-07-10.md`); refresh dashboard/FRED before citing any level as current. |
 
 ---
 
