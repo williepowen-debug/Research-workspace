@@ -8,6 +8,24 @@ Tracks all changes to THESIS.md and TIMELINE.md. Reverse chronological. Each ent
 
 ---
 
+## 2026-07-11 — v1.6.6 → **v1.6.7** [MINOR, mechanism re-scope] — CH-010 resolved toward RED round 2: 30Y-4.5% = J-GAAP statutory-impairment TAIL (disorderly-only), not a clean forced-seller; base case net-demand-positive; mid-cap bifurcation watch
+
+**Author:** SAM (Will-approved sweep follow-up, Sat 7/11 weekend session — no live tape; all data vintage-stamped). **Trigger:** DEWEY research-output prompt-08, routed via WALTER SIG-W-20260710-004 (delivered 7/10, consumed at the 7/11 sweep; source report `AGENTS/DEWEY/output/2026-07-10_004`). Note: the DEWEY prompt was Will-dropped 7/9 as event-passed for the 7/7 auction — this is its FORWARD-context application to the standing CH-010 mechanism question (OPEN_THREADS #5, open since 7/2), not a live-trigger read.
+
+**1. Old view (v1.6.2 → v1.6.6):** CH-010 CONTESTED — SAM's asset-markdown read (30Y ~4.5% = reflexive forced-selling zone, legacy-book impairment → sell) vs RED's economic-value read (higher yields improve solvency → duration-gap-closing BUYING); sign unresolved pending the accounting basis (J-GAAP statutory vs ICS economic value). v1.6.3 gave RED round 1 (Meiji Yasuda bid at 4.0%, 50bp below the claimed zone).
+
+**2. New view (v1.6.7) — mechanism-split, RED wins round 2:**
+- **Base case at higher long-end yields = net-demand-POSITIVE.** Under J-ICS/ESR economic value, higher yields IMPROVE lifer solvency — Nippon Life ESR −2pp to 222% [DEWEY 7/10], still comfortably strong. The ESR channel argues buying into a rise, not selling.
+- **What survives is a TAIL, and it has a specific accounting basis:** J-GAAP *statutory* impairment on low-coupon legacy holdings can force selling — but only in a **disorderly** move through ~4.5%, not as a clean level trigger. This aligns CH-010's answer with SAM-33's existing orderly-grind-base/disorderly-tail architecture (the same split, now with the accounting mechanism named).
+- **Flow evidence (leg-4 of the v1.6.1 demand-vacuum resolved):** May's −¥201.2bn super-long net-sell is partially offset by Apr's +¥327.2bn → **2-month net +¥126bn BUYING** [DEWEY 7/10]. The "lifers turned net-SELLERS" leg of the v1.6.1 vacuum framing does not survive the 2-month window (single-month flow-sign trap — same lesson class as SAM-32's rotation sell-leg).
+- **GPIF:** NOT the marginal buyer — 25% domestic-bond policy weight unchanged; Katayama's 7/10 GPIF/repatriation jawbone reads rhetorical, not flow [DEWEY 7/10, convergent with SAM's own `gpif_flows.py` FY2025 read].
+
+**3. Surviving falsifiable edge — BIFURCATION WATCH (pre-registered observable):** mid-cap lifers (**Fukoku/Asahi** — still absent from the super-long per v1.6.3) plausibly face J-GAAP impairment pressure near 4.5% while the majors buy. If 30Y re-tests 4.0-4.5%, the tell is **mid-cap-SPECIFIC selling** (insurer disclosures / flow composition), not aggregate-lifer selling. Aggregate flow staying positive while a mid-cap breaks = the bifurcation confirming; aggregate selling = SAM's original read reviving.
+
+**4. Downstream:** 30Y-4.5% carry-tail route KEPT (already a thin tail per CH-011; mechanism now correctly characterized — **no EV-table number moves**, no bucket change, no conviction change). KEY-THRESHOLDS-table row updated. `insurers/TRACKER.md` per-insurer refresh queued for next live session if the bifurcation watch needs a hard anchor (weekend — no fresh disclosure pull). Next test: 40Y auction 7/22 (SAM-35, unchanged at 50%).
+
+---
+
 ## 2026-07-10 PM (2nd) — v1.6.5 → **v1.6.6** [MINOR, evidence review] — Oil/MOU tail-route EV-weight RECOMPUTED, REAFFIRMED 8%/+3% unchanged
 
 **Author:** SAM (PROME follow-up tasking, same session as SAM-36). **Trigger:** the 7/9 self-sweep flagged the route's 8% weight (THESIS § THE N TAIL-ROUTES) as pending-recompute — set pre-truce-collapse, sitting stale in a live table. PROME tasked the recompute this session now that three fresh datapoints exist.
