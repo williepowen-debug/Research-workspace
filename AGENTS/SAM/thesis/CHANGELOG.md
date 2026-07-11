@@ -8,7 +8,21 @@ Tracks all changes to THESIS.md and TIMELINE.md. Reverse chronological. Each ent
 
 ---
 
-## 2026-07-10 — v1.6.3 → **v1.6.4** [MINOR, pre-registered tripwire] — 🔴 SAM-30 CONFIRMED: CFTC built through −153K/85% → carry-convexity-tail reclaims MED-HIGH; entry gate condition MET on the flat book
+## 2026-07-10 PM — v1.6.4 → **v1.6.5** [MINOR, pre-registered resolver] — 🔴 SAM-36 FALSE/DE-LOAD: Jul-7 print covers to 68.8% of peak, past the −140K DE-LOAD line → carry-convexity-tail reverts MED-HIGH → MEDIUM; TRY-FIRE-005 entry NOT recommended
+
+**Author:** SAM (PROME/teams-mode spawn, Fri 7/10 ~9:00 PM ET). **Trigger:** the Jul-7-data CFTC print, released 3:30 PM ET today — the pre-registered resolver for the TRY-FIRE-005 entry decision Will set this morning (option (b): TERRY pre-built the card, entry gated on this print).
+
+**1. The resolver (the thesis change):** CFTC JPY non-commercial net **−123,778 = 68.8% of the Jul-2024 −180K cycle peak** (longs 112,247 [+375 WoW] / shorts 236,025 [−30,939 WoW]; OI 398,103 [−40,722]) — source: CFTC public API `publicreporting.cftc.gov` (id `260707097741F`, report date 2026-07-07, dataset equivalent to `deafut.txt`, same primary as the AM verify). This is a **31,314-contract net covering move**, down sharply from 86.2% (Jun-30) — the single largest WoW net-short reduction in the tracked series (`workbook/CFTC_JPY.tsv`, 2026-04-07 onward). Against Will's registered resolver terms (net ≤−153K/85% = CONFIRM/enter; net ≥−140K = DE-LOAD/no-entry; between = NOT-CONFIRMED): **−123,778 clears the DE-LOAD line by 16,222 contracts** — not a marginal miss of the CONFIRM bar, a clean DE-LOAD. **Registered consequence: TRY-FIRE-005 entry NOT recommended; amplifier reverts +8-10pp → +5pp; carry-convexity-tail MED-HIGH → MEDIUM (net EV back to break-even-to-slightly-negative, RED #1 terms); carry-unwind buckets revert toward ~5-6/17-20/24-28 (7/30/60d).** This unwinds v1.6.4's single-anchor mechanical step from earlier today — the full four-anchor re-pencil (Jun-14 discipline rule) remains owed and now has two data points (Jun-30 build, Jul-7 cover) to work from.
+
+**2. Timing read (why this isn't jawbone-caused):** the report date is Tue 2026-07-07 — the covering happened **before** the 7/10 JST Katayama GPIF/repatriation jawbone that rallied the yen intraday today. Plausible drivers inside the 7/1–7/7 window: the 7/7 JGB 30Y auction resolving FIRM (BTC 4.55x/tail 0.3bp, relayed to BOND same day) reducing conviction in a disorderly-break carry-unwind path, plus the accumulating hot-PPI/rising-JGB-yield stack cutting both ways on directional yen conviction. **This walks back the 7/10 AM note's "record short + policy-driven yen bid = reverse-carry-squeeze fuel" framing**: positioning was already unwinding into that framing, not building into it — the fuel was being removed in real time as the framing was written.
+
+**3. Position implication (flagged, not executed):** the entry-gate condition SAM-30 opened this morning is now **closed DE-LOAD** by SAM-36. Recommendation to Will/PROME: do not approve TRY-FIRE-005 entry; FLAT book stands. This is a recommendation only — SAM does not execute (root rule #5).
+
+**4. Calibration note:** SAM-36 registered at 50% (net-holds-through vs covers, genuinely uncertain call given the Jun-23→Jun-30 build had just accelerated) — resolved FALSE. Distinct from SAM-30, which stays RESOLVED CONFIRMED (it graded the Jun-30 print correctly on its own terms; the build to 86.2% was real and did cross the line). The lesson is about **entry-gate persistence, not SAM-30's grading**: a single-print crossing of an escalation line is a necessary but not sufficient condition for entry when the very next print can reverse it within days — a two-print (or momentum-of-covering) confirmation requirement may be worth pre-registering for future CFTC-gated entries, not just single-print tripwires. Auto-memory candidate.
+
+---
+
+## 2026-07-10 AM — v1.6.3 → **v1.6.4** [MINOR, pre-registered tripwire] — 🔴 SAM-30 CONFIRMED: CFTC built through −153K/85% → carry-convexity-tail reclaims MED-HIGH; entry gate condition MET on the flat book
 
 **Author:** SAM (PROME spawn, Fri 7/10 AM). **Trigger:** boot-sweep adjudication of the Jun-30 CFTC print (deafut.txt primary; released 7/6, landed in `CFTC_JPY.tsv` at the 7/9 boot, adjudicated this session).
 
