@@ -1,6 +1,6 @@
 # CARL SCRATCH
-**Last session:** 2026-07-10 ~15:30 ET (Fri, PM-2)
-**Type:** **Fable orchestration session** — CARL-as-coordinator spawned 5 NAMED agents (GIG/STUE/HOMER/DOC/PHAN) to ratify + verify the DAEDALUS sub-agent restructure end-to-end, plus CARL-parent plumbing (THESIS v2.6.2, SPAWN_PROTOCOL rewrite, TEAM truth-up). **No score change — 51/70 holds. No market-data pulls (architecture session).**
+**Last session:** 2026-07-10 ~14:45–20:00 ET (Fri — full-day Fable orchestration, closed out ~20:00)
+**Type:** **Fable orchestration day, 5 phases** — CARL-as-coordinator ran 7 NAMED agents through: (1) restructure ratification+verification (GIG/STUE/HOMER/DOC/PHAN), (2) fleet-wide staleness sweep (all 7, tag-don't-refresh), (3) fleet-wide NEWS sweep (all 7, web) + synthesis, (4) durable-fact workbook appends, (5) DEWEY deep-research slate (23 candidates) + **Tier-1 prompts C1-C5 DRAFTED ready-to-run in DEWEY inbox (Will-gated)**. **No score change — 51/70 holds; THESIS v2.6.2 (additive).**
 
 **PRIORITY-1:** **June CPI 7/14 (Mon, in 4d) is THE hinge** — pre-register a read (V12 inflation / CRL-10 food 62% / gas pass-through / core→FOMC) + pull the **7/14 DTN urea weekly** (CRL-10 tell). **News-sweep adds to the 7/14 watch:** (a) **medical-care SERVICES CPI** — May reaccelerated 3.2→3.6%; a 2nd rising print revives DOC-P03's path (DOC sweep); (b) **auto-insurance CPI** — May printed −1.7% MoM, June print same release (POLLY); (c) **NFIB June lands the SAME DAY** (~Jul-14, POP). Full sweep synthesis in ROADMAP 7/10-late row + per-agent SVs + **the citable 6-pattern cross-domain synthesis: `domain/sources/2026-07-10_cross-domain-synthesis_subagent-sweeps.md`** (masking×4-domains, prices→balance-sheets rotation, cliffs→ramps, buffers thinning, FL rotation, containment counter-list → route to RED next mechanical session).
 
@@ -47,6 +47,9 @@ Same-day back-to-back sessions — no market delta integrated (gas $3.884 / Bren
 ### UPCOMING (next 2 weeks)
 6. **Jul 21–24** Q2 consumer-credit (ALLY 7/21, SYF/COF ~7/22-24, AXP 7/24) = CRL-24/20/21/12 + builders DHI/PHM (CRL-23). **Jul 24 = POP refresh-then-demote** at the Sub-V Sec-122 dual catalyst (resolve P01-P08, absorb NFIB×3; deep-dives survive verbatim). **~late Jul: POLLY refresh-then-demote** at Q2 P&C.
 7. **Jul 31** 🔴 ABS subordinate rating actions window.
+
+### DEWEY QUEUE (Will-gated — run on Will's go when he spawns DEWEY)
+0. **Prompts C1-C5 drafted + committed in `AGENTS/DEWEY/inbox/`** (house format: sub-answers enumerated, carve-outs, on-return chains). Run order: **C1 provisioning-vs-DQ (~7/20 HARD, pre-bank-earnings)** → C2 score-cascade/CRL-05 (~8/8) → C3 masking-duration (~7/31) → C4 phantom magnitude → C5 PG-cascade. Full 23-candidate slate (Tier-2/3 bench) in the same inbox. On C1 return: feeds Jul-21-24 ACL read + GIG 3.08 band re-cut.
 
 ### BACKLOG (no deadline)
 8. **consistency_check.py build** (Phase 1 per spec — greenlit, sequenced post-CPI-readiness) + TEAM mtime-automation rides it. **B1/B5 STATUS trim 265→<250** + A2 ROADMAP trim. THESIS reason-cell prose refresh V6/V8/V10/V11/V13/V14 (L85a residual, cosmetic).
