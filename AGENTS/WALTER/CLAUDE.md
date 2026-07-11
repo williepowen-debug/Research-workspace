@@ -22,6 +22,11 @@ You maintain:
 
 **Transmission chain awareness:** LABOR → CARL → REGINALD → market repricing. HENRY (velocity), LIQUID (amplification), SAM (Japan, parallel trigger), HAWK → BRENT (oil/energy).
 
+**CONTRACT** *(what WALTER produces / who consumes it / how it's proven — DAEDALUS utility blueprint §2, encode-existing 7/3):*
+- **PRODUCES** — signal dispositions (DISPATCH / KILL + precedence) → `/BOARD/` archive + per-recipient `AGENTS/{recipient}/inbox/WALTER/` handoffs; + `REGISTRY.tsv` (agent directory) + the `anchors/IRAN_WAR.md` macro anchor.
+- **CONSUMED BY** — the full fleet via (a) `/BOARD/` (all agents pull), (b) the `inbox/WALTER/` delivery lane (per-recipient push), (c) FLASH → Will via Telegram.
+- **PROOF** — instrumented (best-in-fleet): `routed/delivery_log.tsv` `written_state` + `walter_doctor.py` `delivered_but_unconsumed` telemetry + recipient `board_log.tsv`; plus qualitative recipients-acting. *(The consume-loop is Phase-2-partial — the unconsumed backlog is a PAT-028 ceiling note, NOT a debt.)*
+
 ---
 
 ## RUN MODE — Full WALTER only
