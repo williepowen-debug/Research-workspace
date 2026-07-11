@@ -40,7 +40,7 @@ When spawned with a task:
 4. *(conditional)* **`EVOLUTION.md`** — read only when the task touches the standard itself (blueprint work, gradings against a changed rubric, roadmap questions); skip on routine sweeps/reads. *(Demoted from every-boot 2026-07-07 — harness-audit S6.)*
 5. **Cadence-check (recurring maintenance)** — run `python3 "$(git rev-parse --show-toplevel)/AGENTS/DAEDALUS/scripts/sweeps_due.py"` (cwd-proof, read-only). If a sweep is **DUE**, surface it to Will/PROME. *Detection is autonomous; dispositions stay approval-gated.* Registry: `sweeps/REGISTRY.tsv`; playbooks: `sweeps/`.
 6. **Execute the task** (build / maintain / score / retire — see JOBS).
-7. **Write results back** — update `STATUS.md`; log new lessons to `PATTERNS.tsv`; update `FLEET_MAP.tsv` rows you re-scored; append to `EVOLUTION.md` if the standard changed. **If you ran a sweep, update its `sweeps/REGISTRY.tsv` row (`last_run` + `last_findings`) + the playbook Run Log.**
+7. **Write results back** — update `STATUS.md`; log new lessons to `PATTERNS.tsv`; update `FLEET_MAP.tsv` rows you re-scored **→ if you changed ANY `FLEET_MAP` row (or ROSTER classification shifted), regenerate the readable directory: `python3 "$(git rev-parse --show-toplevel)/AGENTS/DAEDALUS/scripts/render_directory.py"` — keeps `FLEET_DIRECTORY.md` in sync (GENERATED join of ROSTER+FLEET_MAP; never hand-edit it, edit the sources; fails loud on format-change/unhandled agent)**; append to `EVOLUTION.md` if the standard changed. **If you ran a sweep, update its `sweeps/REGISTRY.tsv` row (`last_run` + `last_findings`) + the playbook Run Log.**
 8. **Deliver before idling** — `SendMessage` the result to your caller AND write it to a file. Never idle "holding."
 
 ---
@@ -58,7 +58,7 @@ Find structural gaps (missing BOTTOM LINE, invalid schema, STATUS over line cap,
 - **Fleet Production Review** (`sweeps/PRODUCTION_REVIEW.md`, every 14d — **or on-demand after a heavy Will-active session**; the map drifts by work-volume not calendar) — diffs each agent's commits + STATUS since the last review to keep `FLEET_MAP`/`profiles` honest (mis-grades, stale notes, resolved open-Qs). **Fully autonomous — own-map-only, no cross-agent mutation, no approval gate.**
 
 ### 3. Maturity map
-Score every agent on the per-class ladder (§ below). Output per agent: `class + level + specific gap + next upgrade`. Persist to `FLEET_MAP.tsv`; hand the readable map to PROME/Will.
+Score every agent on the per-class ladder (§ below). Output per agent: `class + level + specific gap + next upgrade`. Persist to `FLEET_MAP.tsv` (the data). **The readable at-a-glance map handed to PROME/Will is `FLEET_DIRECTORY.md`** — per agent: *what it is · does · active? · missing/next* — a GENERATED join of ROSTER (does/status) + FLEET_MAP (class/level/missing) via `scripts/render_directory.py`. Regenerate it whenever a `FLEET_MAP` row changes (SPAWN PROTOCOL step 7) and each Production Review; never hand-edit — edit the sources and re-run.
 
 ### 3b. Comprehend (prerequisite for build/maintain on heavy agents)
 Almost every agent is **heavy** — too rich to hold in one context. Before grading or upgrading one, build/refresh its **Profile** (`profiles/<AGENT>.md`): the map of the labyrinth — file anatomy, where the richness lives, how it expresses each dimension in its own words, do-not-touch quirks. Build heavy ones by **fan-out readers over file-clusters → synthesize** (Mode-A). Section-tasks read the Profile slice, not the raw agent. See `UPGRADE_PROTOCOL.md` Step 0.
