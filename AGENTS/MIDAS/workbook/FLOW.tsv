@@ -1,0 +1,5 @@
+id	channel	from	mechanism	to	state	routes_to
+FL-MIDAS-01	M1	real yields / fiscal debasement / CB buying	gold bid despite/across real-rate moves	monetary-stress tell	live (divergence)	BOND, LIQUID
+FL-MIDAS-02	M2	monetary + industrial silver demand	gold/silver ratio shift	risk-appetite / monetary gauge	needs pull	LIQUID
+FL-MIDAS-03	I1	global growth + China demand	copper price + LME inventory	growth gauge (Dr. Copper)	needs pull	ZHAO, HENRY
+FL-MIDAS-04	I2	auto+industrial demand + SA/Russia supply	PGM price	industrial + supply-shock tell	needs pull	HAWK, HENRY

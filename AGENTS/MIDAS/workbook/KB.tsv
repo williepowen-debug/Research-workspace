@@ -1,0 +1,5 @@
+id	date	channel	fact	value	source	as_of	confidence	notes
+KB-MIDAS-001	2026-07-11	M1	10Y real yield elevated; gold's structural bid despite positive real yields = live fiscal-debasement + CB-buying premium	2.31	FRED DFII10	2026-07-09	EMPIRICAL	the M1 divergence signal; MIDAS owes gold-spot quantification (metals_watch.py)
+KB-MIDAS-002	2026-07-11	M1	Gold as debasement tell splits cleanly from BOND's real-rate ownership: BOND owns the yield level, MIDAS owns gold's divergence from it	—	seam design	2026-07-11	EMPIRICAL	reconcile DFII10 to one figure w/ BOND
+KB-MIDAS-003	2026-07-11	I1	Copper = the cleanest China-growth thermometer; MIDAS owns copper as the read, ZHAO owns China macro	—	seam design	2026-07-11	EMPIRICAL	two-way cross-flag w/ ZHAO on China demand
+KB-MIDAS-004	2026-07-11	I2	PGM supply concentrated in South Africa + Russia = the industrial-channel supply-shock vector; HAWK owns the geopolitics, MIDAS the metals repricing	—	structural (known)	2026-07	ASSUMPTION	MIDAS owes first Pt/Pd-spot + SA/Russia supply pull

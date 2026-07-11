@@ -1,0 +1,5 @@
+id	channel	indicator	state	score	threshold	source	as_of	notes
+VX-MIDAS-M1	M1	gold vs real-yield divergence (debasement premium)	live, needs spot quantification	3	gold up + real yields up extreme = 5	FRED DFII10 2.31	2026-07-11	M1 core; owes gold-spot pull
+VX-MIDAS-M2	M2	silver + gold/silver ratio	no live read	2	GSR>95 = 4	—	2026-07-11	GAP: owes silver-spot + GSR pull
+VX-MIDAS-I1	I1	copper (Dr. Copper / China demand)	no live read	2	copper -20% + LME inv +100% = 5	—	2026-07-11	GAP: owes copper-spot + LME-inventory pull
+VX-MIDAS-I2	I2	PGMs (Pt/Pd, auto+industrial+supply)	no live read	2	major SA/Russia outage = 4	—	2026-07-11	GAP: owes Pt/Pd-spot + supply pull

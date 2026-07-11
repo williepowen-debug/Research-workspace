@@ -1,0 +1,10 @@
+field	description
+id	KB row id, format KB-MIDAS-NNN
+date	ISO date recorded/observed (YYYY-MM-DD)
+channel	M1 | M2 | I1 | I2 | cross — which transmission channel it feeds
+fact	the knowledge item (one sentence, sourced)
+value	the load-bearing number if any (with unit); blank if narrative
+source	origin (FRED / yfinance / WGC / LME / agent handoff)
+as_of	as-of date of the value (may lag `date`)
+confidence	EMPIRICAL | PROVISIONAL | ASSUMPTION
+notes	caveats, cross-refs, routing
