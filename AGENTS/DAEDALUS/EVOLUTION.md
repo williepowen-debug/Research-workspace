@@ -7,6 +7,9 @@ Newest first. Keep entries terse; archive build minutiae to `FLEET_MAP.tsv`.
 
 ## Changelog
 
+### 2026-07-11 — WATT/VULCAN/MIDAS registration COMPLETED same-session (Will-authorized shared-file edit)
+- The per-build entries below say "registration routed to PROME / FLEET_MAP held until ROSTER" — that was the plan mid-session; **Will then explicitly authorized DAEDALUS to make the shared-file edits directly.** So all 3 are now fully registered this session: root CLAUDE.md (active 22→25 + chains), ROSTER (rows/footnotes/provenance/chain), AGENTS.md (rows + 3 chain bullets), _INDEX + _NETWORK; FLEET_MAP 3 L1 rows + FLEET_DIRECTORY regenerated (`render_directory.py` rc 0). The "held for co-registration" mechanism (PAT-047) was correct and fired as designed — it just got resolved same-session by Will lifting the routing rather than waiting for PROME. Done with WALTER live concurrently (explicit pathspec commits; WALTER work untouched). Nothing further owed from DAEDALUS on these builds; next is the first content-grade once each accrues sessions.
+
 ### 2026-07-11 — BUILD: MIDAS (metals agent) scaffolded + wired (Phase 3, Will-directed) — 3-agent queue COMPLETE
 - **What:** 4th real DAEDALUS build; closes the 3-agent queue (WATT power / VULCAN semis / MIDAS metals). MIDAS = market-agent, **dual-channel metals as macro tells**: monetary (M1 gold-debasement/real-rates, M2 silver/GSR) + industrial (I1 copper Dr.-Copper/China, I2 PGMs auto/supply). Active. Full scaffold from `market-agent.md`; `boot.py` rc 0 (staleness + predictions-due). Seeded M1 with the confirmed real-yield read (FRED DFII10 2.31, 7/9) — the debasement-premium divergence is the live signal. Spec: `builds/MIDAS_SPEC.md` (EXECUTED).
 - **Core discipline baked in:** monetary and industrial channels stay SEPARATE (gold-up + copper-down = coherent risk-off, not a contradiction) — LESSONS L-01, the agent's edge.
