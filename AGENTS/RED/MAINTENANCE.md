@@ -11,6 +11,16 @@ Reverse-chronological log of **structural** changes to RED's docs, folders, sche
 
 ---
 
+## 2026-07-10 — RED added to WALTER §3.5 pull-complete exemption (boot step 5.5 → no-op)
+
+**Trigger:** WALTER notice `inbox/2026-07-09_from-WALTER_pull-complete-exemption.md` (Will-approved design-walkthrough 7/9) — RED added to BOARD_CONSUMPTION_SPEC §3.5 v0.8 alongside CARL: boot step 1.5's whole-INDEX BOARD scan already IS RED's complete pull (auto-cc INFO-only, never ACTION owner on a WALTER dispatch → zero ACTION-miss risk from dropping the per-signal handoff lane, which was 24% of delivery-lane volume and the largest unconsumed-INFO pile).
+
+**What changed:** `CLAUDE.md` step 5.5 rewritten — WALTER stops writing to `inbox/WALTER/`; the step is now a no-op / cheap empty-check rather than live intake. Step 1.5 corrected 10→12 cluster sections (CLIMATE_MACRO added 6/28, missed in the original count). Drained the pre-exemption backlog same session (8 files: `board_log.tsv` rows + `git mv` to `processed/`) before the lane went dormant.
+
+**Boot-impact:** step 5.5 no longer needs a live glob-and-disposition pass each boot; step 1.5 is now the sole WALTER-signal channel. Friction → log here if `inbox/WALTER/` ever gets a stray post-exemption file (should route to `walter_doctor` as a to-ARCHIVE flag per WALTER's own doctor script).
+
+---
+
 ## 2026-07-05 (Session 22) — 12-day catch-up: board_log.tsv created, 98-signal inbox drain via workflow, 6/26 partial-closeout swept, FLOW frozen
 
 **Trigger:** Will-directed 12-day catch-up (last full closeout S21b 6/23). A **6/26 partial session** had filed CHG-RED-041 + its challenge report but never updated STATUS/SCRATCH/CALENDAR/CHANGELOG (left anchored 6/23) — swept this session.

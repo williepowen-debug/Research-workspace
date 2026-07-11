@@ -35,8 +35,8 @@ You do NOT own any domain data. You do NOT generate original research. You read 
 
 0. **`git pull`** — sync from GitHub before reading anything. Follow pull protocol in root CLAUDE.md. GitHub is the source of truth.
 1. **Read `MEMORY.md`** — institutional knowledge from prior sessions. What you already learned. Don't re-learn it.
-1.5. **Scan `/BOARD/INDEX.md`** — RED-scoped consumption pass (added 2026-05-06 per RED↔WALTER LIAISON Turn 5 / JOINT_PROPOSAL §4.3, Will-approved 2026-05-06):
-    - **(b1)** Read cluster ToC at top of `/BOARD/INDEX.md` (~10s overview of all 10 cluster sections).
+1.5. **Scan `/BOARD/INDEX.md`** — RED-scoped consumption pass (added 2026-05-06 per RED↔WALTER LIAISON Turn 5 / JOINT_PROPOSAL §4.3, Will-approved 2026-05-06). **RED is PULL_COMPLETE (§3.5 v0.8, 2026-07-09) — this scan is now RED's SOLE WALTER-signal channel** (WALTER no longer pushes per-signal handoffs to `inbox/WALTER/`):
+    - **(b1)** Read cluster ToC at top of `/BOARD/INDEX.md` (~10s overview of all 12 cluster sections — CLIMATE_MACRO added 6/28).
     - **(b2)** Pull signals where RED is in `to:` line (action) since last RED boot — full body read; treat as direct ASK.
     - **(b3)** Pull signals where `cluster_mediating: true` (post-v0.8) OR prose-tagged paper-vs-structural / bifurcation / divergence in dispatch_note (interim) — full body read for adversarial-overlay relevance.
     - **(b4)** Pull signals carrying CORRECTED-FRAMING verify-research verdict in dispatch_note — body skim only, looking for direction-confirmed-magnitude-imprecise patterns to flag in MEMORY's CORRECTED-FRAMING calibration.
@@ -46,10 +46,8 @@ You do NOT own any domain data. You do NOT generate original research. You read 
 3. **Read `CALENDAR.md`** (narrative layer) + **scan `docket/CATALYSTS.tsv`** (canonical backbone) for `status=pending` rows in the next ~14 days. **DUE-scan:** flag `workbook/PREDICTIONS.tsv` rows whose timeframe has passed and `workbook/CHALLENGES.tsv` ACTIVE rows whose resolution date/event has passed — they MUST be dispositioned at W2 (don't let a row sit stale; RED-19 sat mis-scored for days, ML-RED-068).
 4. **Read `thesis/CHANGELOG.md`** (last 2-3 entries) — how has your assessment been evolving? Watch for drift. *(Analytical changes only; structural/file changes are in `MAINTENANCE.md`.)*
 5. **Read `SCRATCH.md`** — canonical handoff from last session (CHANGES SINCE / WHAT I DID / NEXT SESSION / OPEN THREADS / pending Will-decisions / git state).
-5.5. **WALTER signal intake (`inbox/WALTER/` delivery lane)** — process WALTER-delivered handoffs (canonical §8.1, `AGENTS/WALTER/design/BOARD_CONSUMPTION_SPEC.md` v0.6; the 9 already-consuming agents run this). *(cwd-proof, PAT-031: run the glob + `git mv` from repo root — `cd "$(git rev-parse --show-toplevel)"` first.)* This is the per-recipient **delivery lane**, distinct from the 1.5 `/BOARD/` scan.
-    - List `AGENTS/RED/inbox/WALTER/*.md` not yet logged in `AGENTS/RED/board_log.tsv`. If `board_log.tsv` does not exist, create it with the v0.2 header: `timestamp_read<TAB>signal_id<TAB>disposition<TAB>source<TAB>notes`.
-    - For each: read it, decide disposition (`acted`/`noted`/`deferred`/`info-only`/`skipped`), append a row with `source=INBOX_WALTER`, then `git mv` the file to `AGENTS/RED/inbox/WALTER/processed/`. Use `git mv`, **not** bash `mv`.
-    - Let `acted` items inform this session. **First run = a large backlog drain (~71 files): read the ACTION items first, bulk-dispose the INFO cc's.** *(Installed 2026-07-03, DAEDALUS bundle — recovers weeks of WALTER input RED had been operating without.)*
+5.5. **WALTER signal intake (`inbox/WALTER/` delivery lane) — WALTER NO-OP since 2026-07-09.** RED was added to WALTER's **§3.5 pull-complete exemption** (v0.8, alongside CARL) — WALTER no longer writes per-signal handoffs here (boot 1.5's whole-INDEX scan is now RED's sole WALTER channel; auto-cc INFO-only meant zero ACTION-miss risk from dropping this lane). Once the pre-7/9 backlog is drained, this directory stays empty — keep this step as a cheap empty-check or retire it; either is fine. *(Historical: installed 2026-07-03 DAEDALUS bundle; retired to no-op 2026-07-09 per WALTER's routing-source fix, `inbox/2026-07-09_from-WALTER_pull-complete-exemption.md`.)*
+    - If `inbox/WALTER/*.md` ever has files (shouldn't, post-drain): disposition in `board_log.tsv` (`timestamp_read<TAB>signal_id<TAB>disposition<TAB>source<TAB>notes`, disposition = `acted`/`noted`/`deferred`/`info-only`/`skipped`) then `git mv` to `processed/` — same mechanics as before, just no longer a live inflow.
 6. **Determine mode** based on task:
    - If task specifies agent(s): **Targeted Challenge**
    - If task says "sweep" or broad: **Network Sweep**

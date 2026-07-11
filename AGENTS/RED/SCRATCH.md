@@ -9,41 +9,41 @@
 ## GIT STATE (one line)
 -->
 
-**Session 22 — Sun 2026-07-05.** 12-day catch-up (last full closeout S21b 6/23): 98-signal WALTER inbox drain + 10-agent cross-domain sweep + FRED credit re-check. **HOLD 69/56; Stag 38 sole-modal (+1) / War 5 (−1); NB flat.**
+**Session 22 continuation — Fri 2026-07-10 ~22:30 ET** (live-event addenda 7/8 + 7/10, now formally closed out). Base: S22 7/5 (12-day catch-up). **HOLD 69/57; Stag 38 sole-modal / War 6 (net +1 vs 7/5 after the 7/8→7/10 round-trip) / NB 57.**
 
-## CHANGES SINCE (6/23 → 7/5)
-- **A 6/26 partial session** filed CHG-RED-041 (BRENT structural red-team) + its report but never closed out — STATUS/SCRATCH/CALENDAR/CHANGELOG left at 6/23. Swept this session.
-- **Tape:** HY OAS 265→peaked 283 (6/26 AI-selloff)→275; CCC 947→973→971 (sticky); VIX 19.5→15.8 (6/23 re-bid faded, 2nd-print trigger expired unfired); SKEW 146.7→150 (fresh high, but DIET NOT formally firing per VIOLET); Brent 76.7→72.1 (sub-75, structural decouple); OZK −5.7% (7/2 positioning); WAL 81.5.
-- **98 WALTER signals** accumulated (drained this session). **Concurrent NEXUS+PROME session active** (foreign staged files; HEAD moved; push held).
+## CHANGES SINCE (7/5 → 7/10)
+- **7/8 live event:** US-Iran truce collapsed. Brent $79.02 (+6.55%). Graded CHG-041 PARTIALLY CONFIRMED interim; War 5→7%; red-teamed BRENT's Fri sustain-test spec (3 fixes recommended, adopted).
+- **7/10 live event:** BRENT graded the Fri sustain gate **DENY** (level held ~$76 both sessions, only 1 of ≥2 fresh institutional legs). **CHG-041 graded FINAL: PARTIALLY CONFIRMED (closed)** — mechanism durably confirmed / magnitude-durability denied. Deliberately did NOT apply my own 7/8 pre-registered fallback (DENY→War to ~5%) given BRENT's same-night COT double-grade (shorts BUILT not covered, ICE +~22K/WTI-phys +6,753) — squeeze-fuel standing, not thinning. War 7→6% (half reversal). Managed 35→36. NB 58→57.
+- **PROME follow-up tasking (same session, Will-approved):** (A) drain ~10-item inbox backlog; (B) close 2 date-drift items flagged in PROME's 7/5 re-anchor review + sweep WAL Q2 date fleet-wide correction into RED's own surfaces.
+- **Fleet-wide, absorbed via inbox:** WAL Q2 date corrected 7/16→**7/21 AMC** (company-confirmed, REGINALD catch, 9-surface sweep `1b3894ee` 7/9) — RED's own surfaces had NOT been swept; fixed this session. SpaceX BBB@BB-spreads → graded IDIOSYNCRATIC by LIQUID (KB-LIQ-072). CoreWeave/neocloud AI-credit → IDIOSYNCRATIC not systemic (DEWEY). Energy HY OAS un-blind: CALM 164bps, decoupling = expected base-rate not institutional reopening (DEWEY) — corroborates tonight's DENY read. Funding-seizure X1 pre-emption gate proposed (DEWEY) — fleet-wide NOTED not rail-written pending 07b ~7/16; corroborates CHG-027 self-bifurcation (index lagging).
+- **RED added to WALTER's §3.5 pull-complete exemption** (v0.8, alongside CARL) — WALTER stops pushing per-signal handoffs to `inbox/WALTER/`; step 1.5 (BOARD scan) is now the sole WALTER-signal channel. Step 1.5 cluster count corrected 10→12 (CLIMATE_MACRO added 6/28).
+- **NEXUS_BRIEF.md created** (was brief-less since founding; PROME-routed ask 7/6, no urgency but real gap — RED was one of NEXUS's 3 highest-value brief-less agents).
 
-## WHAT I DID
-1. **Chunk 0** — RED-18 resolved WRONG (Dec-26 <$80, 14/41 days; oil-bear-dir miss); RED-05 pushed to late-Jul; tally 8W/9C/2A. Commit `a92c1c50`.
-2. **Chunk 1** — drained 98-file WALTER inbox via background Workflow (0 ACTION / 26 moves-weight); `board_log.tsv` created; git-mv'd to processed/. Commit `4917ea0e`.
-3. **Chunk 2** — 10-agent cross-domain sweep (7 first-wave + 3 second-wave), all released; FRED primary re-pull confirmed the credit peak-6/26-revert.
-4. **Chunk 3** — STATUS full re-anchor (126 ln). **The correction:** June widening = concentrated AI-noise (not transmission); bear edge migrated to name-level. Stag 37→38 / War 6→5, NB flat.
-5. **Chunk 4** — KB +7 (055-061) / ML +3 (095-097) / VX 015(70→65)/021/025 reviewed + VX_HISTORY +3; CATALYSTS resolved 7 + re-dated 3 + 3 new; CHG-040/041 dispositioned; **FLOW.tsv FROZEN**; CALENDAR mirrored.
-6. **Chunk 5** — CHANGELOG + this SCRATCH + MAINTENANCE + MEMORY/auto-memory + commits.
-7. **Auto-memory index compaction (post-closeout, Will-requested).** Reorganized `memory/auto/MEMORY.md` 165→23 lines into 14 theme groups; **git-verified LOSSLESS** (all 197 original pointers preserved + my 1 new = 198; only redundant per-line hooks dropped — every indexed file self-describes via `description:` frontmatter). PROME independently re-verified + concurred. **SHARED root file → HANDED TO PROME** to commit under the `auto-memory:` convention + fold in 8 pre-existing orphans + add a `description:` to `finding_forced_update_rebase_churn.md`. **RED stays OFF `memory/auto/`** (single-writer discipline; PROME actively editing there).
+## WHAT I DID (this continuation)
+1. **CHG-041 FINAL grade** off BRENT's DENY verdict — PARTIALLY CONFIRMED (closed). STATUS/CHANGELOG/CHALLENGES.tsv/ML.tsv updated + outbox memo. Commit `f0209951`.
+2. **Inbox drain (10 items):** 8 WALTER-lane signals dispositioned in `board_log.tsv` (7 noted/info-only, 1 acted — Iran re-stamp fully absorbed into CHG-041 chain) + git-mv'd to processed/; 2 top-level items actioned (pull-complete exemption → CLAUDE.md boot-step edits + MAINTENANCE.md entry; NEXUS_BRIEF ask → brief written) + moved to processed/.
+3. **2 date-drift fixes** (PROME 7/5 review flag): June CPI 7/10→**7/14** (mis-carried date) and WAL Q2 7/16→**7/21 AMC** (stale MarketBeat estimate, fleet already corrected elsewhere) — swept across STATUS.md, CALENDAR.md, docket/CATALYSTS.tsv, this file.
+4. **CLAUDE.md boot-step edit:** step 5.5 now notes RED is PULL_COMPLETE (WALTER no-op going forward, kept as empty-check); step 1.5 cluster count 10→12.
 
 ## NEXT SESSION (dated, priority-ordered)
-1. **🔴 7/9 30Y UST auction** — BOND term-premium residual test (KB-060; BND-11/12).
-2. **🔴 7/10 June CPI/PPI** — CHG-028 stagflation-leg falsifier (does core/services hold while energy deflates?).
-3. **🔴 mid-July BANK CLUSTER — WAL ~7/16 / OZK 7/21 / EGBN 7/22** (NOT Jul 30). Pre-write beat/miss × clean/dirty trees. OZK = CHG-040 leading-creep discriminator (build or revert?); WAL = REG-24 Office>$500M 70% + loss-absorption-vs-NIM.
+1. **🔴 7/14 June CPI/PPI** — CHG-028 stagflation-leg falsifier (does core/services hold while energy deflates, Brent ~$76?).
+2. **🔴 mid-July BANK CLUSTER — WAL + OZK both 7/21 AMC (triple print w/ ALLY am) / EGBN 7/22** (NOT Jul 30; date now canonical). OZK = CHG-040 leading-creep discriminator (build or revert?); WAL = REG-24 Office>$500M 70% + loss-absorption-vs-NIM.
+3. **🟡 War Escalation re-mark trigger:** a 2nd independent fresh Iran institutional leg (transit ≤~18/day, NEW Cape re-route, JWC re-list/P&I suspension, 4th+ tanker/production-asset hit) would reopen CHG-041 and move War back up from 6%.
 4. **🟡 7/15 June CMBS DQ + MF starts** · **7/16 May TIC** (China UST sub-$650B, ZHAO) · **7/25 Q2 BDC marks** (PC-gate channel).
 5. **🟡 7/31 DISH rebalance** — mechanical CCC tightening; do NOT misread as healing.
 6. **Daily:** HY re-cross >280 (WL-03, 5bps = FT-01 un-fire); SKEW<140-4td (Acute kill); CCC >1000.
+7. **Maintenance:** keep NEXUS_BRIEF.md refreshed at session closeout per SPAWN PROTOCOL; step 5.5 stays a cheap empty-check (WALTER writer retired for RED).
 
 ## OPEN THREADS
 - **PC-redemption-gate channel UN-OWNED** (BCRED 5% 1st-ever) — flag to PROME for ownership; most substantive new bear datum.
-- **CHG-040** OZK-concentrated (NOT WAL) — disc OZK 7/21. **CHG-041** leans BRENT but tail (P&I→snap) untested — do NOT close.
+- **CHG-040** OZK-concentrated (NOT WAL) — disc OZK 7/21. **CHG-041 CLOSED** (PARTIALLY CONFIRMED, this session) — do not re-litigate absent a 2nd fresh Iran leg.
 - **CCC retention-ratchet** (LIQUID) — define distressed threshold.
 - Acute-13 = single-mechanism vol-tail (VIOLET DIET not firing); floor not upgrade.
-- Concurrent NEXUS/PROME session: verify tree clean before next pull.
-- **Auto-memory index:** compaction done + verified lossless; **awaiting PROME commit** (shared file, PROME's lane) — its commit must `git add` the untracked `finding_triage_summary_compression_inversion.md` (else the index points to an unversioned file) + fold the 8 orphans. **RED must NOT re-edit `memory/auto/MEMORY.md`.**
+- **Auto-memory index:** compaction (7/5) handed to PROME — verify it landed if not already confirmed; RED must NOT re-edit `memory/auto/MEMORY.md`.
 
 ## PENDING WILL-DECISIONS
-- **Push: ✅ DONE 7/5 (Will-approved).** All RED commits on origin — a92c1c50 (preds) + 4917ea0e (drain) rode NEXUS/PROME's push-train; 87205c72 (closeout) safe-pushed clean ff. Synced ahead:0/behind:0. Nothing pending.
-- No trade/rail decision rose to a PROME alert this session (net no-move HOLD).
+- No trade/rail decision rose to a PROME alert this session (net no-move HOLD; energy tail reverted to fragile-watch per BRENT, not a RED-owned capital call).
+- Push: commits are LOCAL only this session (per explicit instruction on the CHG-041 task) — flag to PROME/next session that `AGENTS/RED/` has unpushed commits pending the normal auto-push closeout.
 
 ## GIT STATE (one line)
-On master, synced (ahead 0 / behind 0); ALL RED (`AGENTS/RED/`) commits pushed 7/5 via safe-push (clean ff). Only uncommitted tree changes are in `memory/auto/` (index compaction + new finding) — those are PROME's to commit, NOT RED's.
+On master, **ahead of origin by 2 local commits** (`f0209951` CHG-041 final + this session's inbox/date-drift/NEXUS_BRIEF/CLAUDE.md commit) — NOT pushed per this session's scope (explicitly local-commit-only); next agent's closeout auto-push sweeps them.

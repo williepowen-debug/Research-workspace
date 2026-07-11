@@ -38,7 +38,7 @@
 4. **Japan dead, oil de-escalating structurally.** BOJ hiked with no unwind (SAM VX-024); Brent $72 fresh 4-mo low; kinetic sparks now produce *falls* not snaps (BRENT P 0.70).
 5. **Term premium contained** — 30Y <5.0, a policy reprice not a term-premium breakout (BOND); the duration leg's bar is unmet.
 
-**If this is right:** the mid-July bank cluster (WAL 7/16, OZK 7/21) prints clean-enough, the index divergence re-widens, and the bear loses its last near-term catalyst. **The counter I must hold:** all of the above reads the *index/tape*, which is calm — and 5/7 peers converged there. That convergence is the Unanimity flag; the blind spot is the **name-level realized stress** (OZK deed-in-lieu, classified +23%, BCRED 5% gate, S2 Capital $400M fund dissolved) that never shows in HY OAS.
+**If this is right:** the mid-July bank cluster (WAL/OZK 7/21 AMC) prints clean-enough, the index divergence re-widens, and the bear loses its last near-term catalyst. **The counter I must hold:** all of the above reads the *index/tape*, which is calm — and 5/7 peers converged there. That convergence is the Unanimity flag; the blind spot is the **name-level realized stress** (OZK deed-in-lieu, classified +23%, BCRED 5% gate, S2 Capital $400M fund dissolved) that never shows in HY OAS.
 
 ---
 
@@ -68,7 +68,7 @@
 | **CCC OAS >1000 sustained** | tail-breakout; Acute +1 | 971 — WL-06 near (−29); sticky |
 | **SKEW <140 sustained 4td** (VIOLET kill) | vol-tail fades silently; Acute −2 | 150 — far (+10). The Acute single-mechanism kill-line. |
 | **VIX <16 sustained 5d** | Managed confirmed, −50% IF DIET not firing | 15.8 firing — **but DIET not-firing + SKEW 150 = guard HOLDS** |
-| **WAL Q2 (7/16) or OZK Q2 (7/21) beat + clean** | exit both; conf 69→62 | **Mid-July CLUSTER (WAL 7/16 / OZK 7/21 / EGBN 7/22) — NOT Jul 30.** REG-24 Office>$500M 70%. |
+| **WAL Q2 or OZK Q2 (both 7/21 AMC) beat + clean** | exit both; conf 69→62 | **Mid-July CLUSTER (WAL + OZK 7/21 AMC, same day as ALLY am / EGBN 7/22) — NOT Jul 30.** REG-24 Office>$500M 70%. |
 | **OZK NCO >55bps + visible charge-off** | bear-confirm | Q1 already 56bps (breached ≤55 line); Q2 print 7/21 splits ~50/50 |
 | **Structural data backs off (3+ regionals Q2)** | bear broken; capitulate | Mid-July cluster |
 | **Brent >$130 sustained 5d** | re-price stagflation | 72.1 — far |
@@ -86,15 +86,15 @@ REINFORCED this session: index credit reverted (HY 283→275, AI-noise) while na
 |---|---|---|---|
 | **CHG-RED-040** | REGINALD/CORAL/OZK | MODERATE | **REFINED + SHARPENED (bear).** Leading criticized-credit creep CONFIRMED at OZK (book-wide: past-due doubled $207→465M, criticized +23%, NCO 56bps, deed-in-lieu) but **OZK-concentrated, NOT WAL** (idiosyncratic-office, WAL aggregate classified −9bps flat). Name-story, not sector. Disc = OZK 7/21. |
 | **CHG-RED-041** | BRENT/HAWK | MOD-STRONG | **7/10 FINAL: PARTIALLY CONFIRMED — RESOLVED.** BRENT's Fri sustain gate DENIED (level ~$76 held, but only 1 of ≥2 fresh institutional legs — war-risk premium only; transits/P&I no fresh Fri print, sanctions down-weighted). Mechanism half CONFIRMED durably (war-risk premium re-priced to a new structural base, not reverted; category-error critique on the 6/29/6/20 declaratory tests holds). Magnitude/durability half DENIED (+$15-25 sizing too large for this trigger tier; realized +$5-7, bled $79→$76, never broadened past 1 leg). NOT graded a clean bull win: BRENT's COT double-grade shows shorts BUILT not covered into the week (ICE +~22K, WTI-phys +6,753) — squeeze fuel standing. Reopens on a 2nd independent fresh Iran leg. Full grade: `outbox/2026-07-10_to-PROME_chg041-final-grade.md`. |
-| **CHG-RED-027 / 028** | Self (bifurcation / stagflation-realization) | LIVE | **RE-TARGETED.** 027: index-calm-vs-name-stress bifurcation REINFORCED. 028: stagflation-realization = sticky-prices leg (ISM PP 82.1), CARL V12 maxed; next falsifier July CPI 7/10. |
+| **CHG-RED-027 / 028** | Self (bifurcation / stagflation-realization) | LIVE | **RE-TARGETED.** 027: index-calm-vs-name-stress bifurcation REINFORCED. 028: stagflation-realization = sticky-prices leg (ISM PP 82.1), CARL V12 maxed; next falsifier June CPI **7/14** (date-fix 7/10, was mis-carried 7/10). |
 | **CHG-RED-006…039** | (prior) | — | RESOLVED / RESOLVED-CONVERGED (workbook). |
 
 ---
 
 ## TOP ADVERSARIAL PRIORITIES (7/5)
 
-1. **Mid-July bank cluster — WAL 7/16 / OZK 7/21 / EGBN 7/22** (NOT Jul 30). The fork-resolving binary, 2wks earlier than carried. Pre-write beat/miss × clean/dirty trees. OZK = the CHG-040 leading-creep discriminator (build or revert?); WAL = REG-24 Office>$500M (70%) + loss-absorption-vs-NIM.
-2. **July CPI/PPI 7/10** — CHG-028 stagflation-leg falsifier: does core/services hold while energy deflates (Brent $72)?
+1. **Mid-July bank cluster — WAL + OZK 7/21 AMC (triple print w/ ALLY am) / EGBN 7/22** (NOT Jul 30; WAL date fixed 7/10, was carried ~7/16). The fork-resolving binary. Pre-write beat/miss × clean/dirty trees. OZK = the CHG-040 leading-creep discriminator (build or revert?); WAL = REG-24 Office>$500M (70%) + loss-absorption-vs-NIM.
+2. **June CPI/PPI 7/14** (date fixed 7/10, was mis-carried 7/10) — CHG-028 stagflation-leg falsifier: does core/services hold while energy deflates (Brent $76)?
 3. **PC-redemption-gate channel** (BCRED 5% 1st-ever + MS/Apollo/Blue Owl at cap) — most substantive NEW bear datum, currently **un-owned.** Structural liquidity-mismatch or quarter-end blip? Flag for ownership; Q2 BDC marks ~7/25 discriminator.
 4. **CCC retention-ratchet** (LIQUID) — the live non-artifact tail-stickiness signal (CCC held 971 while HY reverted). Define the distressed threshold.
 5. **7/9 30Y auction + JGB-FX channel** (BOND) — the term-premium residual's next test (KB-053).
@@ -116,14 +116,14 @@ REINFORCED this session: index credit reverted (HY 283→275, AI-noise) while na
 ---
 
 ## MISSING DATA WANTED
-- **WAL/OZK/EGBN Q2 (7/16–22)** — the cluster + FFIEC MI3. Company-confirmed WAL date (REG's 7/16 is a MarketBeat estimate).
+- **WAL/OZK/EGBN Q2 (7/21–22)** — the cluster + FFIEC MI3. WAL date now company-confirmed 7/21 AMC (was a MarketBeat 7/16 estimate; fixed 7/10 per WAL's own 7/6 release, REGINALD catch).
 - **PC-gate channel ownership** — who tracks retail-perpetual-PC redemption gates (BCRED/MS/Apollo)?
 - May TIC ~7/16 (China UST sub-$650B — ZHAO's foreign-official term-premium tie). Q2 BDC marks ~7/25.
 
 ---
 ## BOTTOM LINE
 
-**HOLD 69/56 (S22, 7/5).** After a 12-day gap, a 98-signal inbox drain and a 10-agent sweep, the distribution barely moved — but the session's value was *disconfirming* a head-fake: the June credit widening was concentrated AI-noise (FRED-verified peak 6/26), not transmission firing. Stagflation edged **sole modal (38)** on sticky-prices substance; War −1 on confirmed oil-decoupling. **The bear's genuine edge migrated to the name level** — OZK realized losses + criticized +23%, BCRED's first-ever 5% gate — while the index reverted and banks stayed green. The bifurcation is the regime. Binding tests: the **mid-July bank cluster (WAL 7/16)** and **July CPI 7/10**; the Acute leg is a single-mechanism vol-tail (SKEW<140-4td = kill). *(Refresh at next boot.)*
+**HOLD 69/56 (S22, 7/5); War re-marked twice since (7/8 +2, 7/10 −1 net +1) — see addenda.** After a 12-day gap, a 98-signal inbox drain and a 10-agent sweep, the distribution barely moved — but the session's value was *disconfirming* a head-fake: the June credit widening was concentrated AI-noise (FRED-verified peak 6/26), not transmission firing. Stagflation edged **sole modal (38)** on sticky-prices substance. **The bear's genuine edge migrated to the name level** — OZK realized losses + criticized +23%, BCRED's first-ever 5% gate — while the index reverted and banks stayed green. The bifurcation is the regime. Binding tests: the **mid-July bank cluster (WAL + OZK, both 7/21 AMC)** and **June CPI 7/14**; the Acute leg is a single-mechanism vol-tail (SKEW<140-4td = kill). *(Refresh at next boot.)*
 
 ---
 
