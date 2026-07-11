@@ -6,7 +6,7 @@
 ## Contents
 
 - `CLAUDE.md` / `LIQUID_METHODOLOGY.md` / `LIQUID_SKELETON.md` / `LIQUID_SESSION_CONTEXT.md` / `RESEARCH_STATUS.md` — pre-Feb operating docs, superseded by the live root files
-- `EXPECTED_SIGNALS.md` (308 ln) — pre-registered "absence-is-data" signal tracker, stranded by `4894d8cc` while LABOR/SAM kept theirs live (sibling-drift, DAEDALUS 7/4). **Re-home of ~5 orphan signal-types (FHLB stress, sponsored-repo contraction, MMF WAM, FTD spike, CCY-basis) into `workbook/` is Will-approved and PENDING** — until built, this file is the reference copy
+- `EXPECTED_SIGNALS.md` (308 ln) — pre-registered "absence-is-data" signal tracker, stranded by `4894d8cc` while LABOR/SAM kept theirs live (sibling-drift, DAEDALUS 7/4). **Re-home DONE 2026-07-11** → `workbook/EXPECTED_SIGNALS_TRACKER.md` (ES-LIQ-01..05: FHLB stress, sponsored-repo, MMF WAM, FTD spike, CCY-basis; ask-8 closed). This file stays as the historical reference copy only
 - `INBOX_20260327.md` / `OUTBOX_20260327.md` — mail snapshots
 - `TRADE_20260214.md` — retired trade surface (LIQUID is a no-book data agent)
 - `RP-LIQUID-5_INSURANCE_LEVEL3_CRE_TRANSMISSION.md` — Feb framework-stage research (insurance Level-3/CRE transmission), never picked up (129d unreferenced, header still "Initial Research Framework"); archived 2026-07-10 per DAEDALUS ask #6. Distinct from the live SHADE-sourced Athene FABN thread in STATUS

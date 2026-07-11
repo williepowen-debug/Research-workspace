@@ -87,7 +87,11 @@ The Brent leg was explicitly deferred to BRENT's own test ("per BRENT") — i.e.
 
 ---
 
-## Summary of proposed items (none executed — all flagged for PROME/Will sign-off)
+## EXECUTION ADDENDUM (same day, ~15:30-16:15 ET — Will decided, PROME-relayed)
+
+Items 1 (Option A: LIQ-05 VOID + LIQ-06 registered, KB-LIQ-075), 3 (ask-8 tracker built → `workbook/EXPECTED_SIGNALS_TRACKER.md`), 5 (VX/FLOW FROZEN), 6-partial (CPI-day pre-reg written → `workbook/CPI_20260714_CREDIT_PREREG.md`; consumer-ABS row NOT approved/built) executed; item 4's STATUS-side correction applied (mandate claim → PARTIAL). Item 2 (BB-OAS drift) + DOCKET wording = PROME's side. The list below is preserved as the original proposal record.
+
+## Summary of proposed items (original sweep output — see addendum above for what was subsequently executed)
 
 1. Re-scope/grade KB-LIQ-071 / LIQ-05 per one of Options A/B/C (§1).
 2. Reconcile the GATE-LIQ-069 BB-OAS 157-vs-160 [7/8] figure drift between `GATES.tsv` and STATUS (§2).

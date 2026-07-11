@@ -184,10 +184,11 @@ Don't mix categories. A CLO spread doesn't belong in the domestic plumbing dashb
 | `workbook/KILL_MEMO_HY_OAS_260.md` | Pre-written trigger ladder when HY OAS approaches 260 kill. |
 | `workbook/BDC_MARK_CONVERGENCE_MONITOR.md` | BDC mark watch; Q1 in (FSK NAV -9.9%), **Q2 marks ~7/25 = NEXUS R3 credit-bifurcation transmission test**. |
 | `workbook/AUCTION_FRAMEWORK.md` | Treasury auction grading framework (BTC, indirect bid, tail). Active for 20Y/2Y/5Y/7Y cycles. |
+| `workbook/EXPECTED_SIGNALS_TRACKER.md` | Absence-is-data expected-signals tracker (ES-LIQ-01..05: FHLB / sponsored-repo / MMF WAM / FTD / CCY-basis; bands + response protocol). Born 7/11 (DAEDALUS ask-8). |
 | `workbook/TIC_FRAMEWORK.md` | Monthly TIC release interpretation (Japan, China/Belgium proxy, FOI demand hole). |
 | ~~`workbook/CUSTODIAL_VELOCITY_PROTOCOL.md`~~ | Slimmed 5/20 → KB-LIQ-055 (Foreign_Custodial_Flow_Disaggregation) + KB-LIQ-056 (Collateral_Velocity_Ratio); full doc preserved at `domain/sources/CUSTODIAL_VELOCITY_PROTOCOL_20260211.md`. |
-| `workbook/FLOW.tsv` | Flow signal registry — cross-referenced from KB.tsv. |
-| `workbook/VX.tsv` | Volatility / vector observation registry — cross-referenced from KB.tsv. |
+| `workbook/FLOW.tsv` | FROZEN 2026-07-11 — historical flow registry; STATUS/KB.tsv canonical, do not cite rows as current. |
+| `workbook/VX.tsv` | FROZEN 2026-07-11 — historical vector registry; STATUS/KB.tsv canonical, do not cite rows as current. |
 | `workbook/PREDICTIONS.tsv` | Active prediction log (small; durable). Scanned at boot by `scripts/boot.py` (due/overdue OPEN rows). |
 | `workbook/CATALYSTS.tsv` | Machine-readable forward-event docket (8-col; consumed by `scripts/boot.py` countdown). **Human twin = `CALENDAR.md` — must not diverge in event set.** |
 | `domain/sources/` | Foundational research, resolved playbooks, framework archives. Empirical bedrock under THESIS v2 legs. |

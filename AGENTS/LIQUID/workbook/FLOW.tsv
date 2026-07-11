@@ -1,3 +1,4 @@
+# FROZEN 2026-07-11 — not maintained; STATUS.md/KB.tsv canonical, do not cite rows as current (root CLAUDE.md Data Hygiene; Will-approved 7/11 sweep item 5)
 # REGISTRY - POINT-IN-TIME, NOT LIVE. Status/Current_Position reflect when the row was last touched, not live state. Live state = STATUS.md + scripts/boot.py. Carry an as-of date inline + restamp on touch. Last broad restamp: 2026-06-25.
 Flow_ID	Name	Speed	Status	Layer	Trigger	Current_Position	Key_Insight
 FLOW-LIQUID-1.01	RRP Depletion Cascade	HOURS to DAYS	ARMED	Domestic Funding	RRP <$5B AND any flow shock	Off the floor (~$5.72B [FRED 6/25]) - Q-end window-dressing noise, NOT a re-activation	Zero buffer essentially gone (the ~$5.7B 6/25 bump is 6/30 quarter-end noise; choppy 3.9->6.5->4.5->5.7 over 6/22-6/25; structural-zero intact). System Fed-dependent. Sustained >$10B into July = real re-activation tell. (Was $0.177B pinned-zero Apr 8.)

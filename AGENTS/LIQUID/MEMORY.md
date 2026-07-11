@@ -1,7 +1,23 @@
 # LIQUID — Cross-Session Memory
 
 ## Session Notes
-### CURRENT SESSION (2026-07-10 Fri AM — PROME spawn: fresh print + 3-gate sweep + full 14-item inbox drain + 30Y prereg grade)
+### CURRENT SESSION (2026-07-11 Sat PM — PROME spawn: domain triage sweep, then Will-approved execution wave)
+
+**Context:** Weekend, markets closed — zero live pulls, everything vintage-stamped. Two-phase spawn: (1) TRIAGE-FIRST sweep (report `reports/2026-07-11_domain-sweep.md`, committed `2a2264fd`); (2) PROME returned with Will's decisions ~15:30 ET → executed 5 approved items.
+
+**Done:**
+- **LIQ-05 GRADED VOID (Will Option A, premise-mismatch):** GATE-BRENT-SUSTAIN's 7/10 DENY fired via a mechanism (level ~$76 held, but 1-of-≥2 fresh legs) that sat OUTSIDE both scripted branches — the falsifier text required round-trip <$74 or 48h walk-back, neither occurred. Voided in PREDICTIONS.tsv + KB-LIQ-071 (status→PARTIALLY_VOIDED; Part-1 energy restate STANDS). **Lesson → KB-LIQ-075:** a pre-reg whose IF-leg is delegated to another agent's gate must enumerate that gate's FULL outcome space (leg-count partials included), not just price paths.
+- **LIQ-06 REGISTERED (KB-LIQ-075, 60%):** IF DGS10 ≥4.50 Mon 7/13 official close (arm-#2 5-of-5) THEN HY OAS holds 265-280 every close 7/13-7/17. FALSIFY-A = any >280 close w/ no fresh oil leg (duration alone can drive the X1 approach). FALSIFY-B = 2 consecutive <265. VOID-GUARD = 7/13 <4.50. Diagnostic reweighted rates-only (CCC+BB co-widen = beta; energy-HY dropped). Grade Fri 7/17 close (FRED lag → ~7/21).
+- **ask-8 CLOSED (no 3rd slip):** `workbook/EXPECTED_SIGNALS_TRACKER.md` born — ES-LIQ-01..05 (FHLB / sponsored-repo / MMF WAM / FTD spike / CCY-basis) re-homed from `archive/legacy/EXPECTED_SIGNALS.md` on the LABOR/SAM template; bands + response protocol + absence-is-data log; all QUIET-EXPECTED at registration. Packet → processed/.
+- **VX.tsv + FLOW.tsv FROZEN** (banner prepended; CLAUDE.md FILES rows updated) — were silent-rot (Feb-Mar / Jan-TIC vintages), root-CLAUDE.md Data Hygiene item.
+- **CPI 7/14 credit pre-reg** → `workbook/CPI_20260714_CREDIT_PREREG.md` (hot ≥+0.4% core MoM → HY +5-15bp 1-3 sessions / in-line hold / soft ≤+0.1% → toward 265 + kill-re-arm watch; DELETE-BY 7/17). ⚠️ **Consensus pin owed Mon 7/13 before 8:30 ET Tue** (couldn't verify consensus on a weekend without fabrication risk).
+- **STATUS mandate-SIG claim corrected "integrated"→PARTIAL** (SECONDARY live · TERTIARY proxy-substituted Euro-HY-corp ≠ peripheral sovereigns, BOND handshake un-run · PRIMARY microstructure = open backlog, PD datum 24d stale).
+
+**Left with PROME (theirs, not mine):** GATES.tsv BB-OAS 157-vs-160 [7/8] reconcile; DOCKET line-49 wording. **Sweep items proposed but NOT executed (no approval given):** consumer-ABS/credit-card spread row (monolines gap); WALTER SIG-W-20260710-004 disposition (proposed "noted, corroborates SAM 7/2 overlay" — apply at next normal spawn); MIDAS seam FYI (no action).
+
+**Next session:** boot.py first; Mon 7/13 = LIQ-06 condition day (DGS10 close) + CPI consensus pin; Tue 7/14 = CPI branches live; funding-microstructure PRIMARY build still open backlog (stage-2 spec = NEXT-SESSION #4 below).
+
+### PRIOR SESSION (2026-07-10 Fri AM — PROME spawn: fresh print + 3-gate sweep + full 14-item inbox drain + 30Y prereg grade)
 
 **Context:** PROME spawn ~9:30–10:45 ET, markets open. An earlier identical spawn was interrupted ~10:02 ET mid-write (permission-mode fix) — its uncommitted work (STATUS header/BOTTOM LINE, KB-LIQ-073/074, NFP correction, DAEDALUS items 2/3/4/7) was **independently re-verified against a fresh boot.py run (all figures matched)** and completed, not discarded. *(Note: the 7/6 teams / 7/8 late / 7/9 sessions wrote STATUS+KB but left no MEMORY notes — STATUS Current State bullets are the record for those.)*
 

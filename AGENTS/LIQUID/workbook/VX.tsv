@@ -1,3 +1,4 @@
+# FROZEN 2026-07-11 — not maintained; STATUS.md/KB.tsv canonical, do not cite rows as current (root CLAUDE.md Data Hygiene; Will-approved 7/11 sweep item 5)
 # REGISTRY - POINT-IN-TIME, NOT LIVE. Current_Value/Status reflect each row's Last_Updated stamp, not live state. Live state = STATUS.md + scripts/boot.py. Restamp (value + Status + Last_Updated/Source) on touch. Last broad restamp: 2026-06-25 (funding + credit load-bearing rows).
 Vector_ID	Name	Category	Current_Value	Yellow	Orange	Red	Status	Confidence	Last_Updated	Source	Notes
 VX-LIQUID-1.01	SOFR-IORB Spread	Funding	SOFR 3.62% / IORB 3.65% / spread -3bps [FRED 6/24]	+5bps	+15bps	+25bps	GREEN	98%	2026-06-24	FRED SOFR (6/24)	Restamped 6/24: spread still -3bps (negative, below IORB) = no funding stress; matches STATUS + boot.py. June series ~3.61-3.63. Structural-leak hypothesis remains REJECTED (KB-LIQ-051, Apr breach mechanical).
