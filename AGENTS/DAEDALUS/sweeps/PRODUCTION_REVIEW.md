@@ -36,6 +36,13 @@ git log --after="$LAST 00:00" --pretty=format:"%s" | sed -E 's/^([A-Z]+).*/\1/' 
 ### 4. Record
 REGISTRY `last_run` + `last_findings`; the Run Log below; STATUS/EVOLUTION if material; PATTERNS if it taught something durable.
 
+### 5. Regenerate the directory
+After any FLEET_MAP row change, regenerate the readable fleet directory so it stays in sync with the source:
+```
+python3 "$(git rev-parse --show-toplevel)/AGENTS/DAEDALUS/scripts/render_directory.py"
+```
+`FLEET_DIRECTORY.md` is GENERATED (joins `PROME/ROSTER.md` + `FLEET_MAP.tsv`) — never hand-edit it; edit the sources then re-run. The script fails loud if ROSTER's format changes or a new FLEET_MAP agent is unhandled (add it to the SPECIAL map or DROP set). Also re-run whenever ROSTER's active/tier-2/dormant classification changes.
+
 ---
 
 ## Run Log

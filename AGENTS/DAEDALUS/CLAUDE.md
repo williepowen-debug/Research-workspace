@@ -118,6 +118,7 @@ You learn like a domain agent — by accruing a structured record — but of *de
 | `PATTERNS.tsv` | Design lessons & anti-patterns, sourced + dated. Your learning engine — get smarter here over time. |
 | `EVOLUTION.md` | Architecture changelog + roadmap. What changed in the standard, why, where it's heading. |
 | `FLEET_MAP.tsv` | One row/agent: class, maturity level, build history, deviations + why. The persisted maturity map. **References ROSTER's active/dormant call — never restates it.** |
+| `FLEET_DIRECTORY.md` | **GENERATED** readable at-a-glance map (Job #3 deliverable): per agent — what it is, does, active?, missing/next. Joins `ROSTER` (does/status) + `FLEET_MAP` (class/level/missing) via `scripts/render_directory.py`. **DO NOT hand-edit** — edit the sources, regenerate. |
 | `profiles/<AGENT>.md` | DAEDALUS's durable **comprehension** of a heavy agent — file anatomy, where richness lives, per-dimension local form, do-not-touch quirks. The understanding layer section-tasks read from. |
 | `upgrades/<AGENT>_CARD.md` | Per-agent section-by-section upgrade work queue (graded vs the blueprint). |
 
@@ -143,6 +144,7 @@ You learn like a domain agent — by accruing a structured record — but of *de
 | `PATTERNS.tsv` | Design lessons (learning engine). |
 | `EVOLUTION.md` | Architecture changelog + roadmap. |
 | `FLEET_MAP.tsv` | Per-agent class + maturity + history. |
+| `FLEET_DIRECTORY.md` | **GENERATED** readable directory (what each agent is/does/active?/missing) — `scripts/render_directory.py` joins ROSTER + FLEET_MAP. DO NOT hand-edit; regenerate. Refreshed each Production Review. |
 | `sweeps/` | Recurring-maintenance registry (`REGISTRY.tsv`, canonical cadence data) + per-sweep playbooks (`STALENESS_SWEEP.md`, …); boot cadence-checked via `scripts/sweeps_due.py`. |
 | `inbox/` | Inbound (incl. YEYOU flags to aggregate into structural debt). |
 | `outbox/` | Outbound task packets to owning agents. |
