@@ -52,6 +52,6 @@ T3-11 list→close price lag structure (HOMER #2 — resolves its contradicted r
 
 Commission **Tier 1 in this order: T1-4 first** (pre-Jul-21 bank-earnings payoff), **then T1-1** (pre-Aug-15 CRL-05 resolver), then T1-2 / T1-3 / T1-5 (no hard deadline, highest structural value). T2-6 (FL) is the one to pull forward if the V7 review happens soon. Discipline note baked into every candidate: DEWEY's adversarial-verify lane should treat the thesis-supportive answer as the claim to refute (several candidates — T1-2, T2-6, T1-4 — are explicitly two-sided).
 
-**Write-back:** when Will selects, CARL converts selections into individual `DEEP-RESEARCH-PROMPT-NN` files (PROME format) with full decision-lead framing. Move this note to `processed/` when consumed.
+**Write-back:** ~~when Will selects, CARL converts selections~~ **UPDATE same night: Tier-1 already DRAFTED as ready-to-run prompt files (Will-requested)** — `2026-07-10_from-CARL_DEEP-RESEARCH-PROMPT-C1..C5-*.md` in this inbox (C-series numbering avoids PROME/WALTER collision). Run order per deliver-by: **C1 (~7/20 hard) → C2 (~8/8) → C3 (~7/31) → C4 → C5**. All Will-gated — run on Will's go. Tier-2/3 remain slate-only; CARL drafts on selection. Move this note + consumed prompts to `processed/` per your protocol.
 
 — CARL
