@@ -79,10 +79,14 @@ def main():
     print(f"#{'':^70}#")
     print(f"{'#'*72}")
 
-    # --- Live ledger staleness check (frozen ledgers excluded; VX/KB/FLOW are archived) ---
+    # --- Live ledger staleness check (frozen ledgers excluded; VX/FLOW are archived) ---
+    # KB.tsv REVIVED to LIVE 2026-07-10 (Will-approved) — state (b) per fleet Data Hygiene
+    # doctrine requires this boot-time mtime alert so it can't silently rot again (the L-04 trap).
+    # KB is event-cadence (logs on major prints/events, ~monthly) → 21d threshold, not 14d.
     LIVE_LEDGERS = [
         (LABOR_DIR / "workbook" / "PREDICTIONS.tsv", 14, "PREDICTIONS.tsv"),
         (LABOR_DIR / "docket" / "CATALYSTS.tsv", 14, "CATALYSTS.tsv"),
+        (LABOR_DIR / "workbook" / "KB.tsv", 21, "KB.tsv"),
     ]
     for ledger_path, max_days, name in LIVE_LEDGERS:
         if ledger_path.exists():
