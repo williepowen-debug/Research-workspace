@@ -87,6 +87,9 @@ def main():
         (LABOR_DIR / "workbook" / "PREDICTIONS.tsv", 14, "PREDICTIONS.tsv"),
         (LABOR_DIR / "docket" / "CATALYSTS.tsv", 14, "CATALYSTS.tsv"),
         (LABOR_DIR / "workbook" / "KB.tsv", 21, "KB.tsv"),
+        # WARN_COHORT.tsv (created 7/10): rolling filing->effective->claims tracker for the
+        # WARN->claims framework. Event-cadence (new material filings) → 30d threshold.
+        (LABOR_DIR / "docket" / "WARN_COHORT.tsv", 30, "WARN_COHORT.tsv"),
     ]
     for ledger_path, max_days, name in LIVE_LEDGERS:
         if ledger_path.exists():
