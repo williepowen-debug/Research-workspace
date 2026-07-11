@@ -68,7 +68,7 @@ Each is `event → mechanism → repricing`, with a live read maintained in STAT
 |---|---|---|---|---|
 | **C1** | Insurance / reinsurance | cat losses → rate-on-line ↑ → primary insurer solvency + coastal insurability | reinsurers, P&C, coastal carriers | CORAL (FL), REGINALD (bank exposure) |
 | **C2** | Agriculture / food | drought·heat·flood → crop yield ↓ → grain & softs ↑ → food CPI + fertilizer demand | ag commodities, food producers, fertilizer | MARCO (CPI bridge) |
-| **C3** | Energy demand | heat dome → cooling/power demand ↑; polar vortex → heating demand ↑ (Uri-style nat-gas spike) | nat gas, power, utilities | HENRY (power/grid, provisional Will 7/9), BRENT (nat-gas), HAWK (geopol) |
+| **C3** | Energy demand | heat dome → cooling/power demand ↑; polar vortex → heating demand ↑ (Uri-style nat-gas spike) | nat gas, power, utilities | WATT (power/grid, spun out of HENRY-prov 7/10), BRENT (nat-gas), HAWK (geopol) |
 | **C4** | Property / physical assets | chronic peril (SLR, wildfire, flood) → insurability loss + property values ↓ → mortgage/CRE/muni credit risk | regional banks, REITs, munis | CORAL (FL), REGINALD, CREED |
 | **C5** | Supply chain / logistics | drought (Panama), low rivers (Rhine/Mississippi), storms → chokepoint/freight disruption → goods inflation | shipping, freight, goods-CPI | MARCO, HENRY |
 
@@ -108,7 +108,7 @@ Durable banded rules live here; the live read lives in STATUS with `[src M/D]` +
 | ACE (Accumulated Cyclone Energy) vs normal | ≥110% | ≥130% | ≥150% + landfall | C1 → CORAL/REGINALD |
 | Reinsurance rate-on-line (Jan/Jun renewal) | +5% YoY | +15% | +25% | C1 → SHADE/REGINALD |
 | US crop condition (good/excellent %) | <55% | <45% | <35% | C2 → MARCO |
-| CDD/HDD vs 10-yr normal (region) | ±10% | ±20% | ±30% sustained | C3 → HENRY (power) / BRENT (nat-gas) |
+| CDD/HDD vs 10-yr normal (region) | ±10% | ±20% | ±30% sustained | C3 → WATT (power) / BRENT (nat-gas) |
 | Property insurance non-renewal rate (peril region) | +10% YoY | +25% | +40% / carrier exit | C4 → CORAL/REGINALD/CREED |
 | Reinsurer cat-loss tally (Gallagher Re/Munich Re, YTD vs 10-yr avg) | ≥110% | ≥130% | ≥150% | C4 → REGINALD/CREED |
 | Panama Canal daily transits (vs ~36 normal) | ≤32 | ≤27 | ≤22 (draft-restricted) | C5 → MARCO |
@@ -139,7 +139,7 @@ Weather resolves on a **fixed clock** (forecasts verify on schedule) — uniquel
 |---|---|---|
 | FL hurricane/flood/insurance signal | CORAL | 🔴/🟠 |
 | Weather-driven nat-gas demand shock | BRENT (+ HAWK if geopolitical) | 🔴/🟠 |
-| Grid-stress / power-price signal (PJM EEA, price spikes) | HENRY (provisional owner, Will 7/9 — routing fixed by DAEDALUS 7/10, was BRENT whose mandate excludes power) | 🔴/🟠 |
+| Grid-stress / power-price signal (PJM EEA, price spikes) | WATT (power/grid owner — spun out of HENRY-provisional 2026-07-10; AEOLUS detects C3, WATT prices) | 🔴/🟠 |
 | Crop/drought → food-CPI signal | MARCO | 🟠 |
 | Coastal/peril property → bank/CRE/muni exposure | REGINALD / CREED (CORAL if FL) | 🟠 |
 | Chokepoint/freight disruption → goods-CPI | MARCO (+ HENRY macro) | 🟠 |
