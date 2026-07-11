@@ -15,6 +15,7 @@
 2. **CARL**: Russia-diesel retail pass-through window LIVE ~7/11-13 (weekend check) + CPI-hinge frame; confirm DEWEY urea/CRL-10 stuck.
 3. **HENRY**: HEN-40 grades off Friday's close (now due) + oil-shock→CPI transmission.
 4. **REGINALD**: JPM/WFC/C first-read Tue 7/14; **OZK flow/SI adjudication before ~7/18** (packet in inbox w/ insider-tracker verdict leg).
+5. **PROME (during the Group-1 wave):** run the weekly **spine audit** (`PROME/tools/spine_audit.workflow.js`) in the background — stamp 7/8 goes >7d on 7/15; don't let it flag mid-CPI-week. **Staged pending Will OK (doc-audit 7/10 items 6-7):** HEARTBEAT re-base (weekend/Mon-AM candidate — base 6/25 + 15d amendment chain; archive chain, rewrite §Regime verified-current, add re-base cadence rule) + firetime expiry-dated allowlist draft (`scripts/` = Will scope; stopgap pointer now in BOOT step 5).
 **Group 2 — credit cluster (before/during 7/15-22), wave 3:**
 5. **SHADE+BROCK teams pair**: BRK-24 reconcile FIRST (deadline pre-monolines 7/15) → monolines watch-spec (un-maskable M-08 test). BROCK: integrate CARL Axis-A→BDC rows pre-ARCC-7/28. SHADE: 2 routed Telegram image batches (7/9) unprocessed.
 6. **LIQUID**: ⚠️ **KB-LIQ-071 premise half-failed** (path was "IF Brent sustains Fri" — Brent DENIED) → formal grade/re-scope owed, not silent death. + ask-8 boot slot + ORACLE Fed-odds packet.

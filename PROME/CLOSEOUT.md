@@ -1,6 +1,6 @@
 # PROME CLOSEOUT
 
-**Created:** 2026-05-18
+**Created:** 2026-05-18 · **Updated:** 2026-07-10 (doc-audit fixes: GATES.tsv write-back contract added [symmetry + Write-Back + File-ownership rows] · DOCKET.tsv File-ownership row · FLEET_SCAN row retired-pointer · Updated-stamp convention adopted — bump this line on material edits)
 **Owner:** Prome
 **Purpose:** Repeatable session-end procedure to keep Prome's state files consistent across sessions. Run before `/clear`, `/new`, or session handoff.
 
@@ -48,6 +48,7 @@ Closeout is the **write-back tail** of boot (auto-memory `[[finding_closeout_as_
 | `HANDOFF.md` | boot: continuity read | Chunk 1 — append/rotate concise continuity entry when session affects future Prome state |
 | `SCRATCH.md` | boot: hot-state + operator card | Chunk 1 — full rewrite (incl. operator card: date/catalysts/near-gates) |
 | `ACTIVE_DECISIONS.md` | boot: decisions read | Chunk 1 — surgical if a decision moved |
+| `PROME/GATES.tsv` | boot: fire-ledger gate (step 3 — any `FIRED-UNEXECUTED` row blocks new work) | Chunk 1 — surgical: register any action-gate approved this session (record-vs-reality rule); flip state on any verdict that landed; refresh `last_checked` on rows touched. **A row must never leave a session `FIRED-UNEXECUTED` without an escalation note** |
 | `STATUS.md` | boot: health/queue read | Chunk 1 — surgical |
 | `HEARTBEAT.md` | boot: market-data / regime gate (step 5) | per Write-Back Contract — update after a regime-level change or >48h stale (market week); **commit is Will-gated** (shared doc) |
 | `memory/YYYY-MM-DD.md` | on-demand | Chunk 2 — create/append |
@@ -69,6 +70,7 @@ Use this as the manual write-back feature. Do not auto-edit every surface; updat
 | Immediate next-session state **+ operator card** (date/catalysts/near-gates) | `PROME/SCRATCH.md` | Full rewrite for Standard/Heavy; Bounce may append 3–5 lines. |
 | Cross-runtime continuity / decisions Will made | `PROME/HANDOFF.md` | Concise top entry only if future Prome needs it; keep latest 3–5 live. |
 | Non-terminal decision state | `PROME/ACTIVE_DECISIONS.md` | Surgical row update; if unknown, mark `DEFERRED` / reconcile, never infer execution. |
+| Action-gate approved / fired / resolved / lapsed | `PROME/GATES.tsv` | Register the same session it's approved; resolve the same session the verdict lands. Owners' KBs stay canonical for full logic — GATES is the coordination index so an owner freezing can't orphan a fired gate (`[[finding_fired_gate_needs_owner_independent_ledger]]`). |
 | Agent/system health or work queue | `PROME/STATUS.md` | Surgical update; avoid repeating HEARTBEAT/SCRATCH market narrative. |
 | Regime/thresholds/near gates | `HEARTBEAT.md` | PROME **owns the content** — update after regime-level changes or when >48h stale (market week). But `HEARTBEAT.md` is a **shared doc — committing it is Will-gated** (root `CLAUDE.md`): scope it + get Will's OK, don't sweep it into your `PROME/` closeout commit. |
 | Forward catalyst date moved / resolved / slid | `PROME/DOCKET.tsv` | Update the row (canonical) **and run `scripts/firetime_check.py` on its citing artifacts** — a date change can break artifact logic (7/1 WAL sequencing case): full re-read on any flag. |
@@ -232,12 +234,14 @@ One short message:
 | `PROME/SCRATCH.md` | Full rewrite |
 | `PROME/STATUS.md` | Surgical update |
 | `PROME/ACTIVE_DECISIONS.md` | Surgical if a decision moved (boot decisions-read pair) |
+| `PROME/GATES.tsv` | Surgical if any gate state moved (register / resolve / lapse; refresh `last_checked`; never leave `FIRED-UNEXECUTED` standing) |
+| `PROME/DOCKET.tsv` | Surgical if a catalyst date moved/resolved + run `firetime_check.py` on citing artifacts (DATE flag ⇒ full logic re-read) |
 | `PROME/HANDOFF.md` | Append/rotate concise cross-runtime continuity entry when needed |
 | `memory/YYYY-MM-DD.md` | Create or append; **commit at closeout** (outside `PROME/` — see Chunk 4 git sequence) |
 | `memory/auto/` (auto-memory; `~/.claude/.../memory/` is a symlink to it) | Selective add only; **commit + push at closeout** (canonical git-tracked home is `memory/auto/`, outside `PROME/` — see Chunk 4) |
 | `PROME/BOOT.md` | Only if boot sequence / conditional modules changed |
 | `PROME/SYSTEM.md` | Only if architecture / Boot Trust Stack (doc-ownership) changed |
 | `PROME/AUTONOMY.md` | Only if autonomy changed |
-| `PROME/FLEET_SCAN.md` | Don't touch at closeout; refreshes on demand |
+| `PROME/FLEET_SCAN.md` | Don't touch — superseded historical snapshot (fleet state = `PROME/ROSTER.md` + DAEDALUS `FLEET_MAP.tsv`; doc-audit 7/10) |
 | `PROME/ORCHESTRAL_LAYER_DESIGN.md` | Only if prototypes produced feedback |
 | Root `CLAUDE.md`, `HEARTBEAT.md`, other shared | Flag to Will; don't auto-edit unless explicitly approved |

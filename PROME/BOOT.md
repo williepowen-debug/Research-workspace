@@ -2,7 +2,7 @@
 
 **Goal:** become operational fast without loading manuals.
 
-**Auto-loaded context (Claude Code):** only the `CLAUDE.md` files (root + `PROME/`, plus any `~/.claude/CLAUDE.md`) and the auto-memory `MEMORY.md` are genuinely auto-injected each session — don't re-read *those* unless debugging drift. **`AGENTS.md` and `USER.md` are NOT auto-loaded** (OpenClaw vestige — confirm by their absence from fresh boot context); `Read` them explicitly when a task needs them. (`SOUL.md` + `IDENTITY.md` no longer exist — deleted root-level in the 2026-06-30 public-prep cleanup.)
+**Auto-loaded context (Claude Code):** only the `CLAUDE.md` files (root + `PROME/`, plus any `~/.claude/CLAUDE.md`) and the auto-memory `MEMORY.md` are genuinely auto-injected each session — don't re-read *those* unless debugging drift. **`AGENTS.md` and `USER.md` are NOT auto-loaded** (OpenClaw vestige — confirm by their absence from fresh boot context). **`USER.md` = every-boot explicit `Read`** (Will's operator model; `PROME/CLAUDE.md` step 1 owns this — the old "when a task needs it" line here contradicted it, reconciled 2026-07-10 doc-audit). `AGENTS.md` stays on-demand (roster/routing tasks only). (`SOUL.md` + `IDENTITY.md` no longer exist — deleted root-level in the 2026-06-30 public-prep cleanup.)
 
 > ⚠️ **`HEARTBEAT.md` is NOT auto-injected** (OpenClaw always-on vestige). It is a **PROME-facing regime memo**: PROME writes it and must explicitly `Read` it at boot (the market-data freshness gate below) — don't assume it's in context; domain agents do not read it. Full trust-layer detail: `PROME/SYSTEM.md` → Boot Trust Stack.
 
@@ -34,6 +34,7 @@ Canonical doc-ownership / trust map: `PROME/SYSTEM.md` → **Boot Trust Stack** 
 ## Boot Sequence
 
 0. **Check repo state:**
+   A **SessionStart banner** (`scripts/session_banner.sh`, hook-wired 2026-07-06) should already have printed fetch/ahead-behind/dirty-tree/env_doctor at launch — **no banner in this session's context = the hook is broken: flag it to Will**, then run the checks below manually. (Banner present ⇒ the checks below are confirmation, not discovery.)
    ```bash
    git status --short
    git diff --cached --name-only
@@ -50,9 +51,9 @@ Canonical doc-ownership / trust map: `PROME/SYSTEM.md` → **Boot Trust Stack** 
    - If today is a weekend/holiday or markets are closed, use it as **orientation only** and preserve its observation dates.
    - Before citing any level as current, run the market dashboard / fetch tool.
    - **Env doctor:** `cd "$(git rev-parse --show-toplevel)" && python3 scripts/env_doctor.py --quiet` — machine-local key/infra presence (<1s, no network): FRED/EIA keys in the single-home `.env`, bashrc two-home drift, expected desktop extras. **rc=1 (✗) ⇒ fix or flag to Will before citing FRED-dependent levels.** Inventory canon = `PROME/MACHINE_LOCAL.md`.
-   - **Fire-time gate:** `cd "$(git rev-parse --show-toplevel)" && python3 scripts/firetime_check.py --window 7 --quiet` — checks fire-path artifacts cited by `PROME/DOCKET.tsv` rows ≤7d out (dead pointers / date drift / canon-ordering). **A DATE flag ⇒ full logic re-read of the artifact** (a date fix can break gate sequencing — 7/1 WAL case), never a find-replace.
+   - **Fire-time gate:** `cd "$(git rev-parse --show-toplevel)" && python3 scripts/firetime_check.py --window 7 --quiet` — checks fire-path artifacts cited by `PROME/DOCKET.tsv` rows ≤7d out (dead pointers / date drift / canon-ordering). **A DATE flag ⇒ full logic re-read of the artifact** (a date fix can break gate sequencing — 7/1 WAL case), never a find-replace. rc=1 is actionable EXCEPT for the standing known-benign flags — **the current known-flags list lives in `PROME/SCRATCH.md` §Cautions** (stopgap until the script grows an expiry-dated allowlist — Will-scoped, doc-audit 7/10 item 7).
 6. **Decide conditional reads:**
-   - `PROME/FLEET_SCAN.md` only for fleet/market-state work, stale-state risk, or Will-requested audit.
+   - Fleet-state reads (`PROME/ROSTER.md` classification + DAEDALUS `FLEET_MAP.tsv` maturity) only for fleet work, stale-state risk, or Will-requested audit. *(`FLEET_SCAN.md` = superseded snapshot, historical only.)*
    - `AGENTS/*/outbox/*to-PROME*` only for operational routing/signal work — **and include `AGENTS/PROME/inbox/` in that scan**: the tree was nominally archived 6/25, but WALTER SIGs have landed there since (6/26, 6/27 — spine-audit finding 7/1), so treat it as a live legacy delivery surface until the messaging overhaul re-homes it. Pre-6/25 contents under `PROME/archive/` remain archaeology.
    - Prome implementation/identity docs (`PROME/CLAUDE.md`, `PROME/SYSTEM.md`) only for implementation work.
    - `PROME/CLOSEOUT.md` before `/clear`, `/new`, or durable handoff.
@@ -69,8 +70,8 @@ Canonical doc-ownership / trust map: `PROME/SYSTEM.md` → **Boot Trust Stack** 
 | Market prices / dashboard | Read `FORGE/tools/market-data/README.md`. Run `dashboard.py` / `fetch.py` before citing levels. |
 | Forward catalyst dates / fire-time artifacts | **`PROME/DOCKET.tsv` = canonical** (SCRATCH card + HEARTBEAT gates are views); `scripts/firetime_check.py` = the freshness checker (boot gate above). |
 | Spine reconciliation (weekly) | `PROME/tools/spine_audit.workflow.js` (5-reader Workflow over the boot-read/protocol set vs canon anchors) — run when the STATUS "Last spine audit" stamp is >7d. Canon-change sweeps use the Mirror Map (`PROME/SYSTEM.md` → Canonical → Mirrors). |
-| News routing / data feeds | Always-on collection now runs in the **RESEARCH-INTAKE** repo (GitHub Actions; `[[project_research_intake_collection_lane]]`). The local `FORGE/tools/news-sweep/sweep.py` cron is dead (cut VPS) — its fetch/classify logic is revived in the lane. Boot-*read* the lane only once the consumer side is wired; until then, `sweep.py` is for editing the entity index only. |
-| Fleet scan / ranking | `PROME/FLEET_SCAN.md`, `PROME/ORCHESTRAL_LAYER_DESIGN.md` |
+| News routing / data feeds | Always-on collection runs in the **RESEARCH-INTAKE** repo (GitHub Actions; `[[project_research_intake_collection_lane]]`). **WALTER owns lane consumption** (wired 7/2, proven live 7/4 — see ACTIVE_DECISIONS row); **PROME never boot-reads the lane.** `FORGE/tools/news-sweep/sweep.py` = entity-index edits only (its cron died with the VPS). |
+| Fleet scan / ranking | `PROME/ROSTER.md` (verified classification) + `AGENTS/DAEDALUS/FLEET_MAP.tsv` (maturity/state, DAEDALUS-owned) + `PROME/ORCHESTRAL_LAYER_DESIGN.md` (layer design). *`PROME/FLEET_SCAN.md` = superseded historical snapshot (its own banner says so) — don't boot-read it (doc-audit 7/10).* |
 | Agent roster / classification | `PROME/ROSTER.md` — verified Active/Tier-2/Dormant/Retired + commit-activity evidence (refresh by re-running the activity map; `[[finding_verify_roster_by_commit_activity]]`) |
 | Sub-agent spawn | `AGENTS.md`, `PROME/COMPLETION_SPEC.md`; include completion instructions. |
 | Multi-agent orchestration (>1 agent) | `PROME/ORCHESTRATION_PLAYBOOK.md` — apply the mode-split rule (fan-out/Workflow vs live) BEFORE spawning. |
