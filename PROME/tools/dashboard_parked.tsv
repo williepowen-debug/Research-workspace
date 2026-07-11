@@ -1,0 +1,12 @@
+# dashboard_parked.tsv — expiry-dated "quiet by design" register for the Fleet-Ops dashboard.
+# Born 2026-07-11 (Will-approved). Same discipline as scripts/firetime_allowlist.tsv:
+#   - parked_until = YYYY-MM-DD, MANDATORY — the agent's planned re-activation date.
+#     Past it, normal staleness flagging resumes AUTOMATICALLY (parking can never
+#     hide a genuinely dead agent). No permanent parking, by design.
+#   - Effect while live: fleet grid shows a neutral "parked → date" chip instead of
+#     aging/lagging/cold, and the agent is excluded from staleness attention flags.
+#     Inbox-depth flags still apply (parked ≠ excused from mail).
+# MAINTENANCE: PROME owns rows; add one when a session decides an agent goes quiet
+#   until a known date; delete or renew when plans change.
+agent	parked_until	added	reason
+SAM	2026-07-16	2026-07-11	Quiet by plan until the 7/16 double-discriminator day (May TIC + MOF ITS wk-7/5-7/11 + BoK) — SCRATCH Group-3 queue decision 7/10.

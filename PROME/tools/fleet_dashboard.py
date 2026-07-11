@@ -118,15 +118,49 @@ def parse_fleet_map():
     return out
 
 
-def agent_git(name):
-    """(days_since_last_commit_to_dir, commits_30d) — dir-based activity."""
+def busdays(d0, d1):
+    """Weekdays strictly after d0 through d1 — staleness that doesn't age on weekends."""
+    n, d = 0, d0
+    while d < d1:
+        d += dt.timedelta(days=1)
+        if d.weekday() < 5:
+            n += 1
+    return n
+
+
+def agent_git(name, today):
+    """(business_days_since_last_commit_to_dir, commits_30d) — dir-based activity."""
     path = "PROME/" if name == "PROME" else f"AGENTS/{name}/"
     ts = sh(["git", "log", "-1", "--format=%ct", "--", path])
     days = None
     if ts:
-        days = (dt.datetime.now() - dt.datetime.fromtimestamp(int(ts))).days
+        days = busdays(dt.datetime.fromtimestamp(int(ts)).date(), today)
     n = sh(["git", "rev-list", "--count", "--since=30.days", "HEAD", "--", path])
     return days, int(n) if n.isdigit() else 0
+
+
+def load_parked(today):
+    """PROME/tools/dashboard_parked.tsv -> {agent: (until, reason)} for live rows only.
+    Expiry-dated like the firetime allowlist: a lapsed row silently stops parking
+    (staleness resumes) — parking can never hide a dead agent."""
+    out = {}
+    path = os.path.join(REPO, "PROME", "tools", "dashboard_parked.tsv")
+    if not os.path.exists(path):
+        return out
+    with open(path, encoding="utf-8") as f:
+        for line in f:
+            if line.startswith("#") or line.startswith("agent\t") or not line.strip():
+                continue
+            p = line.rstrip("\n").split("\t")
+            if len(p) < 4:
+                continue
+            try:
+                until = dt.date.fromisoformat(p[1].strip())
+            except ValueError:
+                continue
+            if today <= until:
+                out[p[0].strip()] = (until, p[3].strip())
+    return out
 
 
 def inbox_depth(name):
@@ -444,11 +478,14 @@ long every day, the thresholds need tuning — tell PROME.</p></div>
 <div class="panel"><h3>Fleet grid columns</h3>
 <p><b>Maturity</b> (L1–L5, DAEDALUS's scale): L1 scaffold just built → L2 first own
 data pulls → L3 predictions resolving on a clock → L4 other agents consume its output
-by name → L5 fully self-running periphery. <b>Last activity</b> = days since any commit
-touched the agent's directory (≤3 fresh · ≤7 aging · 8–14 lagging · &gt;14 cold — calendar
-days, so Mondays read slightly old). <b>30d commits</b> = volume of recent work.
+by name → L5 fully self-running periphery. <b>Last activity</b> = <b>business days</b>
+("bd") since any commit touched the agent's directory (≤3 fresh · ≤7 aging · 8–14
+lagging · &gt;14 cold — weekends don't age anyone). <b>30d commits</b> = volume of recent work.
 <b>Inbox</b> = unprocessed items waiting (excludes processed/). <b>newborn</b> = built
-within days, no track record yet — low bars are honest, not alarming.</p>
+within days, no track record yet — low bars are honest, not alarming. <b>parked →
+date</b> = quiet by plan until that date (expiry-dated register, PROME/tools/
+dashboard_parked.tsv); staleness flagging resumes automatically past the date, and
+inbox flags still apply while parked.</p>
 <p class="own">owners: PROME/ROSTER.md (classification) · AGENTS/DAEDALUS/FLEET_MAP.tsv (maturity)</p></div>
 
 <div class="panel"><h3>Catalyst runway</h3>
@@ -526,26 +563,33 @@ def build(today, now_iso):
     env_rc = run_rc("env_doctor.py", "--quiet")
     fire_rc = run_rc("firetime_check.py", "--window", "7", "--quiet")
 
-    # -- fleet rows (active roster, git-computed)
+    # -- fleet rows (active roster, git-computed; staleness in BUSINESS days)
+    parked = load_parked(today)
     fleet = []
     for name, dom in active:
-        days, c30 = agent_git(name)
+        days, c30 = agent_git(name, today)
         depth = inbox_depth(name)
         lvl, conf = fmap.get(name, ("—", ""))
-        if days is None:
+        is_parked = name in parked
+        if is_parked:
+            until, _ = parked[name]
+            cls, word = "none", f"parked → {until.month}/{until.day}"
+        elif days is None:
             cls, word = "crit", "no git history"
         elif days <= 3:
-            cls, word = "ok", f"{days}d ago"
+            cls, word = "ok", f"{days}bd ago"
         elif days <= 7:
-            cls, word = "watch", f"{days}d ago"
+            cls, word = "watch", f"{days}bd ago"
         elif days <= 14:
-            cls, word = "elev", f"{days}d — lagging"
+            cls, word = "elev", f"{days}bd — lagging"
         else:
-            cls, word = "crit", f"{days}d — cold"
+            cls, word = "crit", f"{days}bd — cold"
         fleet.append({"name": name, "dom": dom, "days": 999 if days is None else days,
                       "word": word, "cls": cls, "c30": c30, "depth": depth,
-                      "lvl": lvl, "conf": conf, "newborn": lvl == "L1"})
-    fleet.sort(key=lambda r: -r["days"])
+                      "lvl": lvl, "conf": conf, "newborn": lvl == "L1",
+                      "parked": is_parked})
+    # stalest first; parked sink to the bottom (intentionally quiet ≠ needs eyes)
+    fleet.sort(key=lambda r: (r["parked"], -r["days"]))
 
     # -- needs-attention items (composed, worst first)
     attn = []

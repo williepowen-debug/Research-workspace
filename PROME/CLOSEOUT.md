@@ -46,7 +46,7 @@ Closeout is the **write-back tail** of boot (auto-memory `[[finding_closeout_as_
 | Surface | Boot (read) | Closeout (write-back) |
 |---|---|---|
 | `HANDOFF.md` | boot: continuity read | Chunk 1 — append/rotate concise continuity entry when session affects future Prome state |
-| `SCRATCH.md` | boot: hot-state + operator card | Chunk 1 — full rewrite (incl. operator card: date/catalysts/near-gates) |
+| `SCRATCH.md` | boot: hot-state + operator card | Chunk 1 — full rewrite (incl. operator card: date/catalysts/near-gates). **Format contract (7/11):** the cautions "Pending Will:" line is parsed by the Fleet-Ops dashboard — keep the exact label `Pending Will:` and `·`-separated items, one line |
 | `ACTIVE_DECISIONS.md` | boot: decisions read | Chunk 1 — surgical if a decision moved |
 | `PROME/GATES.tsv` | boot: fire-ledger gate (step 3 — any `FIRED-UNEXECUTED` row blocks new work) | Chunk 1 — surgical: register any action-gate approved this session (record-vs-reality rule); flip state on any verdict that landed; refresh `last_checked` on rows touched. **A row must never leave a session `FIRED-UNEXECUTED` without an escalation note** |
 | `STATUS.md` | boot: health/queue read | Chunk 1 — surgical |
