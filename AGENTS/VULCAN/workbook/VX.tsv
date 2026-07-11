@@ -1,0 +1,5 @@
+id	channel	indicator	state	score	threshold	source	as_of	notes
+VX-VULCAN-S1	S1	AI-capex concentration (capex trajectory + Mag-7 weight)	live vector, needs quantifying	3	Mag-7>=40%+breadth collapse = 5	VIOLET Path-B	2026-07-10	the seat's core channel; owes first quantification pre-7/22 stack
+VX-VULCAN-S2	S2	memory cycle (DRAM/NAND/HBM price + capex)	no live read	2	contract -25% QoQ = 4	—	2026-07-10	GAP: owes first pull
+VX-VULCAN-S3	S3	AI-capex -> power demand (compute->MW)	inherited link only	2	grid-load imbalance w/ WATT = 3	WATT P3	2026-07-10	GAP: owes compute->MW sizing
+VX-VULCAN-S4	S4	supply-chain / geopolitics (TSMC + export controls)	structural, needs pull	2	fab cutoff / Taiwan kinetic = 4/5	—	2026-07-10	GAP: owes first TSMC-rev + BIS pull

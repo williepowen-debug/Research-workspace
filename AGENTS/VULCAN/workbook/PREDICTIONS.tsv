@@ -1,0 +1,3 @@
+id	made	channel	prediction	resolve_date	status	conf_tier	if_falsified	criteria	resolution
+VULCAN-01	2026-07-10	S1	The 7/22–7/29 megacap stack shows hyperscaler aggregate AI-capex guides HELD OR RAISED (not cut YoY)	2026-07-31	OPEN	PROVISIONAL	if cut YoY: S1/S5 fire, concentration-unwind risk jumps — flag VIOLET/HENRY	MSFT/GOOGL/AMZN/META aggregate FY capex guide vs prior quarter
+VULCAN-02	2026-07-10	S2	Memory (DRAM/NAND) contract pricing does NOT roll >25% QoQ through Q3 (cycle stays up)	2026-09-30	OPEN	PROVISIONAL	if it rolls: S2 fires = real-economy demand inflection tell	TrendForce/maker-guide contract price QoQ by 9/30

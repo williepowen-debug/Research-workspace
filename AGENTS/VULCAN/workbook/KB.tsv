@@ -1,0 +1,5 @@
+id	date	channel	fact	value	source	as_of	confidence	notes
+KB-VULCAN-001	2026-07-10	S1	VIOLET carries index concentration/leverage (Path-B) as the fleet's live systemic vol vector, 🔴 and unresolved/broadened since 7/1	—	VIOLET STATUS:58	2026-07-01	EMPIRICAL	VULCAN's #1 job = supply the fundamental driver (capex + Mag-7 weight + FCF)
+KB-VULCAN-002	2026-07-10	S1	HENRY HEN-36 = AI-capex FCF node (~$290B), gates the 7/22–7/29 megacap earnings stack	~$290B	HENRY (cross-agent, HEN-36)	2026-07	PROVISIONAL	inherited context — VULCAN owes its own capex-trajectory quantification, do not restate as VULCAN-verified
+KB-VULCAN-003	2026-07-10	S3	Datacenter compute demand couples to WATT P3 (grid load); WATT spun out same day owns the power price	—	WATT / cross-agent	2026-07-10	EMPIRICAL	VULCAN sizes compute→MW; WATT prices the grid response
+KB-VULCAN-004	2026-07-10	S4	TSMC-Taiwan leading-edge concentration is the structural single-point-of-failure for the whole AI-chip chain	—	structural (known)	2026-07	ASSUMPTION	VULCAN owes first TSMC monthly-rev + BIS-action pull; Taiwan kinetic = HAWK cross-flag
