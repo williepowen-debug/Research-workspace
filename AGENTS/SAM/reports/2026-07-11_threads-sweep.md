@@ -59,3 +59,12 @@ Lens: **MC** = missed connection · **FT** = further thread · **DEF** = known d
 ---
 
 *Nothing executed; no files outside AGENTS/SAM/ touched; FLAT stands; no trade recs. Rounds 1-2 artifacts: `reports/2026-07-11_domain-sweep.md` (+ postscript), commits ce854ff8 + a749cb99.*
+
+---
+
+## POSTSCRIPT — round 4 (~17:45 ET, Will-approved pre-CPI execution wave)
+
+- **#3 ZHAO packet AUTHORED + STAGED** → `outbox/2026-07-11_to-ZHAO_7716-joint-read-japan-leg.md` (Japan-leg verdict + the mechanical ¥-bar resolver + the three BoK/Korea/China pre-registrations SAM needs from ZHAO's leg before Thursday). PROME delivers in its routing pass — nothing written to ZHAO's inbox by SAM.
+- **#1 JGB_SUPPLY_DEMAND errata PATCHED** — new § CH-010 RESOLUTION overlay block + punchline banner pointer + 4 surgical supersession annotations (§Leg-3 seller-trigger, §Net, §THE ASYMMETRY, §TRADEABILITY #3). PROME relays the BOND heads-up.
+- **#10 seam ownership DECIDED by Will:** Norinchukin-CLO US leg → **BROCK** (SAM's Japan leg stands; counterpart = `AGENTS/BROCK`). PROME routing BROCK the seam note.
+- Remaining from the priority set: #2 TFF decomposition, #4 insurer_quartr.py, #9 SAM-29 consequence pre-registration → next live session.
