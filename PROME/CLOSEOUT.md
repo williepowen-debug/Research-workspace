@@ -33,7 +33,7 @@ Skip for casual one-off exchanges with no artifacts.
 | **Standard** *(default)* | End-of-thread or end-of-day; multi-artifact session | All Chunk 1 + Chunk 2 daily log (+ auto-memory if a lesson earned) + Chunk 4 commit + `safe-push.sh` | Yes, auto-push |
 | **Heavy** | Pattern-discovery session; new designs/patterns to fold | Standard + design-docs + Chunk 3 residuals | Yes, auto-push |
 
-End-of-day always runs at least Standard so the audit trail catches up. 10 Bounces + 1 end-of-day Standard = no audit gap, just a rollup HANDOFF entry covering the day.
+End-of-day always runs at least Standard so the audit trail catches up. 10 Bounces + 1 end-of-day Standard = no audit gap, just a rollup HANDOFF entry covering the day. *(Chunk 3 is trigger-gated at ANY tier, not Heavy-only — a fired trigger this session [e.g. spawned-agent release, autonomy-grant change] runs its Chunk-3 step even on a lighter closeout; Heavy just makes the full residual sweep standard. Spine-audit de-conflict 7/11, mirroring Chunk 2's "not a Heavy-only step" note.)*
 
 **Bounce procedure (the truly minimal):** append 3-5 lines to `PROME/SCRATCH.md` — (a) what just happened, (b) what's pending, (c) next-session entry point. No STATUS, no HANDOFF, no daily log, no auto-memory. **Optional but recommended — a 1-line checkpoint commit** so the addendum survives a non-clean resume (crash / `git checkout` / reset): `cd "$(git rev-parse --show-toplevel)" && git commit -m "PROME: bounce checkpoint" -- PROME/SCRATCH.md` (~5s; repo-root cwd per root canon step 0). Without it the SCRATCH addendum is uncommitted working-tree state that a bad resume can lose. Total time: ~30-40 seconds.
 
@@ -55,7 +55,7 @@ Closeout is the **write-back tail** of boot (auto-memory `[[finding_closeout_as_
 | `PROME/DOCKET.tsv` | boot: fire-time gate input (step 5) | Chunk 1 — paired with the operator card: any catalyst date that moved/resolved this session updates its DOCKET row (canonical; SCRATCH/HEARTBEAT are views) |
 
 **Intentionally one-way (no closeout write-back, by design):**
-- `FLEET_SCAN.md` — conditional boot read; refreshed *on demand* by the fleet-scanner subagent, never at closeout.
+- `FLEET_SCAN.md` — superseded historical snapshot (retired from boot reads, doc-audit 7/10); no closeout write-back and no refresh — current fleet-state reads are `ROSTER.md` + DAEDALUS `FLEET_MAP.tsv`.
 - COMM mailbox + inbox / agent-outbox scan — ACKed / routed *inline during the session*, not deferred to closeout.
 - **OPEN-predictions resolution / forward-catalyst firing** — domain-agent-owned (NEXUS / ORACLE / LABOR), not a PROME closeout surface. PROME's only forward-state write-back is rolling the **operator-card catalyst list in `SCRATCH`** (the closeout counterpart to BOOT step-8's forward-state scan) — it does not resolve predictions.
 

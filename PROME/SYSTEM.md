@@ -1,5 +1,5 @@
 # Prome System Map
-**Created:** 2026-05-08 21:28 ET · **Updated:** 2026-07-01 (hygiene trim: dead `dashboard/server.py` row cut; OpenClaw spawn-prohibition → teams-mode reality; serial-multi-machine phrasing; HY-watch → intake-lane primary; FSK example marked historical; FORGE/STATUS caveat re-based). Prior: 2026-06-26 surgical refresh.  
+**Created:** 2026-05-08 21:28 ET · **Updated:** 2026-07-11 (spine-audit minors: stamp caught up — mirror-map rows carried 7/6 edits under the 7/01 stamp; auto-memory link wording symlink→hardlink [`[[finding_automem_hardlink_inplace_edit]]`]; scrub-plan pointer PROME-prefixed). Prior: 2026-07-01 (hygiene trim: dead `dashboard/server.py` row cut; OpenClaw spawn-prohibition → teams-mode reality; serial-multi-machine phrasing; HY-watch → intake-lane primary; FSK example marked historical; FORGE/STATUS caveat re-based). Prior: 2026-06-26 surgical refresh.  
 **Owner:** Prome  
 **Purpose:** Current architecture map for Prome’s operating system — what each file owns, what to trust, and where future Prome should look first.
 
@@ -22,7 +22,7 @@ Core rule:
 | File | Trust | Role |
 |---|---|---|
 | `CLAUDE.md` (root + `PROME/`) | High | Repo + PROME operating rules — the only docs Claude Code genuinely auto-injects. |
-| `MEMORY.md` (auto-memory index — lives in-repo at `memory/auto/`, symlinked from `~/.claude`) | High for curated lessons; check freshness | Operating lessons / findings / feedback index — the genuinely-injected memory layer. |
+| `MEMORY.md` (auto-memory index — lives in-repo at `memory/auto/`, **hardlinked** from `~/.claude` [same inode, no symlink — `[[finding_automem_hardlink_inplace_edit]]`]) | High for curated lessons; check freshness | Operating lessons / findings / feedback index — the genuinely-injected memory layer. |
 
 *(`AGENTS.md` + `USER.md` are **explicit boot-reads**, not injected — see the next table. `SOUL.md` + `IDENTITY.md` were deleted root-level in the 2026-06-30 public-prep cleanup.)*
 
@@ -50,7 +50,7 @@ Core rule:
 | Canonical fact | Canonical home | Known mirrors (verify on canon change) |
 |---|---|---|
 | Git/push protocol (pathspec, auto-push, non-ff=routine, repo-root cwd) | root `CLAUDE.md` Git Protocol | `PROME/CLAUDE.md` (git-default ¶) · `PROME/BOOT.md` (non-negotiables) · `PROME/GIT_COORDINATION.md` (cookbook + Push Discipline) · `PROME/CLOSEOUT.md` (Chunk 4) · `PROME/AUTONOMY.md` (header note) · auto-memory `feedback_defer_push_coordinate` |
-| Machine model (serial multi-machine, desktop ⇄ laptop) | root `CLAUDE.md` + `PROME/MACHINE_LOCAL.md` | `PROME/CLAUDE.md` (identity) · `SYSTEM.md` (Prome Runtime) · `ORCHESTRAL_LAYER_DESIGN.md` (open-questions bullet) · `public-prep/HISTORY_SCRUB_PLAN.md` (safety rail 5) |
+| Machine model (serial multi-machine, desktop ⇄ laptop) | root `CLAUDE.md` + `PROME/MACHINE_LOCAL.md` | `PROME/CLAUDE.md` (identity) · `SYSTEM.md` (Prome Runtime) · `ORCHESTRAL_LAYER_DESIGN.md` (open-questions bullet) · `PROME/public-prep/HISTORY_SCRUB_PLAN.md` (safety rail 5) |
 | HY-watch mechanism (intake lane primary, desktop timer redundancy) | `HEARTBEAT.md` §Thresholds + intake repo | `PROME/STATUS.md` (Core State + HY lane row) · `SYSTEM.md` (Architecture Note 1) · `ACTIVE_DECISIONS.md` (RESEARCH-INTAKE + Post-FOMC rows) · bank-put proposal §F |
 | Position truth (off-repo Will/broker; FORGE = stale mirror) | root `CLAUDE.md` + `FORGE/STATUS.md` banner | `SYSTEM.md` (Freshness Discipline + Note 3) · `ACTIVE_DECISIONS.md` (Current Mode) · `action-cards/TEMPLATE.md` (header) · bank-put proposal (inputs line) |
 | Roster / classification | `PROME/ROSTER.md` | root `CLAUDE.md` (active list) · `AGENTS.md` (table + run-model note) · `README.md` · `AGENTS/_INDEX.md` + `_NETWORK.md` *(skills/walter mirror retired — dir archived 7/6 → `archive/skills-openclaw/`)* |

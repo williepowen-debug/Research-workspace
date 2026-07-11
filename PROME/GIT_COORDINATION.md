@@ -8,7 +8,7 @@
 
 Keep multiple concurrent Claude Code agents from clobbering one another through shared-index git operations, stale Prome paths, or unsafe pushes. *(All agents are Claude Code sessions under **serial multi-machine** operation — Will runs one box at a time, desktop ⇄ laptop, close-out-push before switching; OpenClaw/VPS was cut 2026-06-26. Machine-local inventory → `PROME/MACHINE_LOCAL.md`.)*
 
-This doc is the canonical coordination surface. The old `AGENTS/PROME/` tree is archived at `PROME/archive/AGENTS_PROME_LEGACY_2026-06-24/` and is not live intake, boot, or git protocol.
+This doc is the live coordination surface (vs the archived `AGENTS/PROME/` tree); **root `CLAUDE.md` Git Protocol is canon** — this doc mirrors it and adds the PROME cookbook (per `SYSTEM.md` Canonical→Mirrors). The old `AGENTS/PROME/` tree is archived at `PROME/archive/AGENTS_PROME_LEGACY_2026-06-24/` and is not live intake, boot, or git protocol.
 
 ## Hard Rules
 
@@ -110,6 +110,8 @@ Push is **automated at closeout** via `scripts/safe-push.sh`, predicated on **se
 **Non-ff abort (updated 2026-07-01):** = the other machine pushed since this clone last pulled — **routine** under serial multi-machine. Do NOT force; `git pull --rebase` + re-push. **Tripwire (escalate to Will, consider per-agent branches):** rebase conflicts outside your own dir, or non-ff recurring mid-session — the signatures of two machines running simultaneously, which the protocol forbids. Fully reversible (revert the closeout step + restore the manual line = one commit).
 
 **YEYOU exception (Decision C, Will 2026-06-26):** YEYOU is a repo-wide reviewer on a branch model — it stays **manual/branch** (commits and branches locally, does **not** auto-push) until Will reviews.
+
+**Other auto-push exceptions (root canon — full list in root `CLAUDE.md` Git Protocol scope note):** **TERRY** (self-sweeps, live) and **WALTER** (architectural, per its `BOARD_CONSUMPTION_SPEC` §7). *(Added 7/11 spine-audit — this doc had drifted to naming YEYOU alone.)*
 
 ## YEYOU Landing Rail — RESOLVED 2026-06-25
 
