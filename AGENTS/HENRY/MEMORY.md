@@ -50,33 +50,32 @@
 
 ## Session Notes
 
-### CHANGES SINCE LAST SESSION (2026-07-10 ~10:30 ET — PROME-spawned FULL BOOT, periphery drain)
-*DAEDALUS flagged the boot lane 8+ days behind into the 7/14→7/22→7/29 window. Six overdue rows + two fixes, all executed.*
-- **Inboxes DRAINED:** root 13 packets (oldest 6/27) + WALTER lane 20 signals (7/2–7/9) → board_log 53→73 rows, all git-mv'd to processed/. Standouts folded into STATUS: SHADE Packet-D (Athene L3 latent-not-firing), DEWEY neocloud map (tripwire = anchor-contract cancellation), SAM demand-floor overlay (SAM-32 FALSE, floor ~4.0% 30Y — JGB-disorderly tail doubly gated), froth trifecta, single-stock P/C record-low 0.71.
-- **HEN-39 GRADED (was due 7/9): RESOLVED-BENIGN-BASE-CASE.** 30Y-R FIRM (indirect 77.7% vs 60.0% June, BTC 2.44, dealers 10.0%; BND-11 NOT FIRED, 7th benign). Self-grade: "muted-bid = thin duration bid" was WRONG at the long end. Sequencing survived, driver reassigned to the OIL leg.
-- **HEN-40 REGISTERED in PREDICTIONS.tsv** (was STATUS-prose-only — invisible to the due-scan; status must be exactly ACTIVE/OPEN for boot.py to see it). Resolves TODAY 16:00: energy = BRENT verdict (>$75/<$74), rates = 10Y close ≥4.50 → 4-of-5. NOT graded early.
-- **PJM power leg ACCEPTED (provisional, Will 7/9).** power_watch.py = boot step 3b; first owner-run rc 0 QUIET (3 routine local warnings, demand 80.8% of peak). LMP leg pending Will's PJM_API_KEY.
-- **PAT-040 DISPOSITIONED: boot.py WIRED as CLAUDE.md step 3c** (PROME-authorized). Evidence: min-viable eval baseline met 6/15 (01+02 PASS), T1-additive, live smoke-test clean. Owed to Will: post-change eval re-run + case-03 baseline (MAINTENANCE.md entry).
-- **PAT-042 label fix:** STATUS HANS boundary corrected — HANS = Europe macro (PMI→ISM lead, ECB/Fed divergence, EU UST custody), NOT geopolitics/energy; geo→HAWK, energy→BRENT.
-- **NEXUS_BRIEF refreshed** (was stuck 7/2) — decoupled-channels regime; flagged the 7/2 gamma band as EXPIRED to VIOLET (SPX 7,555 cleared the old call wall).
-- **HAWK two-shock question answered in STATUS/NEXUS_BRIEF** (couldn't write to his inbox this spawn — PROME may route): independent Russia-products + Iran-crude roots = correlated, non-diversifying energy-CPI pressure hitting JULY data + breakevens, not 7/14.
-- Trimmed the superseded 7/1 tape table from STATUS (250-line cap; lineage in git history).
+### CHANGES SINCE LAST SESSION (2026-07-11 ~15:00 ET — PROME-spawned BACKLOG-SWEEP BOOT)
+*Spawn brief described a large backlog (12 inbox packets, ~20 WALTER signals, NEXUS_BRIEF stuck 7/2, PAT-040 undispositioned, HEN-39 ungraded) — verified via `git log` that ALL of it was already drained by the 7/10 full-boot + eval-continuation sessions (commits `c2fc5cff`, `e8d78b31`, `304b40ce`). Real work this session: grade HEN-40, process 4 genuinely-new packets, reconcile the WATT spinout on HENRY's own surfaces, fix a live gap.*
+- **HEN-40 GRADED MIXED** off Friday 7/10 close. Energy leg **DENY** — BRENT's own authoritative sustain-test (level PASS, legs FAIL 1-of-2) → BRT-16 stays FAILED, Axis-1 framing does NOT invert. Rates leg **PROVISIONAL CONFIRM** (3-of-5 official FRED / 4-of-5 if 7/10's ^TNX 4.57 holds official Monday 7/13). **Self-correction:** my own pre-reg energy-leg criterion was level-only and applied literally would've wrongly said CONFIRM — deferred to BRENT's fuller verdict instead (delegate-to-owner discipline, same family as the 6/23 HY-OAS inversion). Full grade → `reports/2026-07-11_full-boot-sweep.md`.
+- **WATT spinout reconciled on HENRY's own surfaces** (DAEDALUS's 3 asks — CLAUDE.md was already fixed 7/10 but STATUS/NEXUS_BRIEF still asserted ownership): STATUS PJM row now "consumed from WATT," NEXUS_BRIEF domain-line + sending-row rewritten. VULCAN + MIDAS seam FYIs folded in (no action, per their packets).
+- **4 new packets processed** (all landed after the 7/10 boot): WATT-spinout-handoff (acted, above), VULCAN seam (noted), MIDAS seam (noted), WALTER SIG-W-20260710-004 (DEWEY JGB ALM-buyer read, noted — corroborates SAM-32). board_log.tsv +1 row; all 4 `git mv`'d to processed/.
+- **Fixed a live gap: MOVE Index tracker (VX-HEN-18.01) was 5mo-stale and ~40-50pts wrong** ("~110-120 est" vs actual 72.41 [PROME-verified 7/8]). Refreshed to 72.41 (GREEN, well below 115 yellow). Also recomputed VX-HEN-14.08 (MOVE/VIX ratio, also 5mo-stale): **4.28** (72.41/16.90) — crosses the 4.0 yellow, corroborating the HEN-40/GCVR "watch MOVE not VIX" framing with an actual number for the first time.
+- **CPI-week frame tightened** (STATUS 7/8 block bullets 1-3 condensed as superseded/graded; bullet 4 sharpened): June CPI 7/14 is a PRE-SPIKE print (June Brent ~$71-72; July's spike isn't in it), answering a DIFFERENT question (cyclical/hawkish-dots validation) than the oil-shock question (JULY CPI, mid-Aug release, interim proxy = breakevens/TIPS). Full scope → sweep report §3.
+- STATUS.md trimmed 7/8 oil-shock block to stay at 235 lines (cap 250).
 
 ### NEXT SESSION
 **🔴 PRIORITY:**
-1. **GRADE HEN-40** (resolved at 7/10 16:00 close): pull BRENT's sustain verdict + the 10Y 4pm close (≥4.50 → 4-of-5; <4.50 → count reset). Then watch **Mon 7/13 = potential 5th close, eve of CPI**.
-2. **June CPI Tue 7/14 8:30 (HEN-38)** — PRE-SPIKE print (June Brent ~$71-72; don't read oil-washout into it). PROMOTE core ≥+0.3% / DEMOTE ≤+0.2%; boundary = supercore. **Repull the gamma flip 7/14 AM** — the 7/2 band (~7,437–7,471) is EXPIRED (SPX cleared the 7,500-7,550 call wall). C+WFC report same day.
-3. **7/22 GOOGL = first HEN-36 FCF tell**; MSFT/META 7/29 core gate. Packet-D final consolidation to PROME ~7/25 (DEWEY PROMPT-18 + SHADE inputs now in hand).
-4. **DEWEY PROMPT-12 (CTA/gamma/vol-control calibration) now OVERDUE** (was deliver-by 7/10) — chase via PROME if still absent.
-5. Boot step 3c (boot.py) + 3b (power_watch) are now protocol — run them.
+1. **Mon 7/13:** FRED posts the official 7/10 DGS10 close (confirms/denies HEN-40's 4-of-5 provisional) AND the potential 5th consecutive ≥4.50 close lands same session — a double-confirmation day, eve of CPI.
+2. **June CPI Tue 7/14 8:30 (HEN-38)** — PRE-SPIKE print, don't read oil-washout into it. PROMOTE core ≥+0.3% / DEMOTE ≤+0.2%; boundary = supercore. **Repull the gamma flip 7/14 AM** (7/2 band EXPIRED, SPX cleared the call wall). Also repull MOVE/VIX same-day (VX-HEN-14.08/18.01, just refreshed — keep the cadence).
+3. **7/22 GOOGL = first HEN-36 FCF tell**; MSFT/META 7/29 core gate. Packet-D final consolidation to PROME ~7/25.
+4. **DEWEY PROMPT-12 (CTA/gamma/vol-control calibration) STILL OVERDUE** (was deliver-by 7/10, chased 7/10, still absent 7/11) — escalate to PROME if still missing by 7/14.
+5. Consider whether the interim oil→CPI breakeven/TIPS cadence (T10YIE/DFII10) needs an explicit HENRY-owned tracking line, not ad hoc reads of BOND's STATUS — flagged in sweep report, not yet built.
 
-**Pending Will decisions:** eval re-run + case-03 baseline (post-wiring, ~30 min); PJM_API_KEY for the LMP leg.
+**Pending Will decisions:** PJM_API_KEY for WATT's LMP leg (no longer HENRY's ask to make, FYI only).
 
 ### GAPS — PERSISTENT
 - **0DTE SPX share** still unsourced. **GEX/gamma-flip: 7/2 band EXPIRED** — repull flashalpha/insiderfinance 7/14 CPI AM (VX-HEN-9.01/9.02).
+- **Breakeven/TIPS interim-proxy cadence** not yet formalized as a HENRY-tracked line (see sweep report §4) — recommend building next session if the July-CPI-test framing keeps getting cited.
 
 ### INFRASTRUCTURE NOTES
-- 7/10: **boot.py IS NOW BOOT STEP 3c** (PAT-040 applied; was "installed-but-unwired" since 6/15). power_watch.py = step 3b (shared FORGE tool, read-only for HENRY). Due-scan requires PREDICTIONS.tsv status exactly ACTIVE/OPEN — register predictions as TSV rows, never STATUS prose only.
+- 7/10: **boot.py IS BOOT STEP 3c**, power_watch.py **MOVED to AGENTS/WATT/ (no longer HENRY's — consume, don't run)**. Due-scan requires PREDICTIONS.tsv status exactly ACTIVE/OPEN.
+- 7/10: **WATT/VULCAN/MIDAS spun out** as new agents (power-cost, semi/capex, metals respectively) — all three now feed HENRY inputs rather than HENRY owning those legs. See CLAUDE.md step 3b.
 - 6/15: **`refresh_status.py` RETIRED** → `archive/retired/` (stale writer — do NOT resurrect; MAINTENANCE.md).
-- 6/9: **Credit monitor** — use **CCC−BB** not CCC−HY; multi-month window; FRED via curl (urllib times out). Pull credit LIVE from FRED, not dashboard/sibling-STATUS.
+- 6/9: **Credit monitor** — use **CCC−BB** not CCC−HY; multi-month window; FRED via curl (urllib times out).
 - 6/6: **Auto-mem symlink** — writes land in `memory/auto/`; don't commit memory/auto yourself. Pathspec commits only (no `git reset HEAD`).
