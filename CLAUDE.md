@@ -58,7 +58,7 @@ Agent state lives at `AGENTS/<NAME>/STATUS.md`. Position truth is **off-repo** (
 | FORGE/timing/ | Thesis timing research, convergence timeline, research corpus |
 | FORGE/tools/market-data/ | Live data CLI: `python3 fetch.py price KRE`, `python3 dashboard.py` |
 | memory/ | Daily session notes (YYYY-MM-DD.md) |
-| PROME/ | Coordinator state (SCRATCH, STATUS, FLEET_SCAN, ORCHESTRAL_LAYER_DESIGN, AUTONOMY) |
+| PROME/ | Coordinator state (SCRATCH, STATUS, ROSTER, GATES.tsv, DOCKET.tsv, AUTONOMY) |
 | docs/ | AUTO_MEMORY.md (auto-memory git-sync system) |
 
 ## Git Protocol
@@ -75,7 +75,7 @@ Agents share one working directory and branch. **GitHub is the single source of 
 
 **At session end:**
 1. Commit your files locally (follow "Before committing" below).
-2. **Auto-push at closeout** via `scripts/safe-push.sh` (ff-gated, fails safe) — wired into your closeout protocol. It sweeps all local commits in one fast-forward push (the push-train, now automated — see auto-memory `finding_push_train_pattern`). *(Rollout in progress: agents whose closeout/CLAUDE.md still say "defer push" simply commit-local and conservative — their commits ride the next agent's auto-push. Each is lazy-swept to this policy when next active.)*
+2. **Auto-push at closeout** via `scripts/safe-push.sh` (ff-gated, fails safe) — wired into your closeout protocol. It sweeps all local commits in one fast-forward push (the push-train, now automated — see auto-memory `finding_push_train_pattern`). *(Lazy-sweep complete 2026-06-27 — all active domain agents are on auto-push; intentional exceptions per the scope note above [TERRY self-sweep, WALTER architectural, YEYOU manual/branch]. Stale-parenthetical fix 7/11, Will-approved.)*
 3. **If safe-push aborts (non-ff), do NOT force.** First response: `git pull --rebase`, then re-push — under serial multi-machine this is **routine** (the other machine pushed since this clone last pulled). **Escalate to Will (per-agent-branches tripwire) only if** the rebase hits conflicts outside your own dir, or non-ff recurs mid-session — either means two machines ran simultaneously, which the protocol forbids.
 
 **Before committing:** (pathspec pattern — avoids the shared-`.git/index` race; see auto-memory `finding_pathspec_commit_race_safety`, incident `8ac5bf71` Jun 4 2026)

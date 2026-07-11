@@ -40,6 +40,7 @@ import sys
 
 REPO = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DOCKET = os.path.join(REPO, "PROME", "DOCKET.tsv")
+ALLOWLIST = os.path.join(REPO, "scripts", "firetime_allowlist.tsv")
 
 # Dates on a line containing one of these (before the date) are historical
 # annotations or vintage stamps, not live claims — skip them.
@@ -128,6 +129,58 @@ def load_docket():
             if slid:
                 covered.add(dt.date(int(slid.group(1)), int(slid.group(2)), int(slid.group(3))))
     return rows, covered
+
+
+def load_allowlist():
+    """Expiry-dated known-benign suppressions (scripts/firetime_allowlist.tsv).
+
+    Row: artifact <TAB> pattern <TAB> expires <TAB> added <TAB> reason.
+    Missing file = empty list (allowlist is optional). Malformed rows fail loud
+    to stderr and suppress nothing — a broken allowlist must never hide flags.
+    """
+    rows = []
+    if not os.path.exists(ALLOWLIST):
+        return rows
+    with open(ALLOWLIST, encoding="utf-8") as f:
+        for n, line in enumerate(f, 1):
+            line = line.rstrip("\n")
+            if not line or line.startswith("#") or line.startswith("artifact\t"):
+                continue
+            parts = line.split("\t")
+            if len(parts) < 5:
+                print(f"WARNING: allowlist line {n} malformed (<5 cols) — ignored, "
+                      f"nothing suppressed by it.", file=sys.stderr)
+                continue
+            try:
+                expires = dt.date.fromisoformat(parts[2].strip())
+            except ValueError:
+                print(f"WARNING: allowlist line {n} bad expires date {parts[2]!r} — "
+                      f"ignored, nothing suppressed by it.", file=sys.stderr)
+                continue
+            rows.append({"artifact": parts[0].strip(), "pattern": parts[1].strip(),
+                         "expires": expires, "added": parts[3].strip(),
+                         "reason": parts[4].strip(), "line": n})
+    return rows
+
+
+def apply_allowlist(rel, flags, allow_rows, today):
+    """Split flags into (kept, suppressed) for one artifact; expired rows re-flag."""
+    kept, suppressed = [], []
+    live = [r for r in allow_rows if r["artifact"] == rel and today <= r["expires"]]
+    expired = [r for r in allow_rows if r["artifact"] == rel and today > r["expires"]]
+    for f in flags:
+        row = next((r for r in live if r["pattern"] in f), None)
+        if row:
+            suppressed.append((f, row))
+        else:
+            kept.append(f)
+    # An expired row whose pattern still matches a flag has NOT been re-verified —
+    # keep the flag AND announce the expiry so the row gets renewed or deleted.
+    for r in expired:
+        if any(r["pattern"] in f for f in flags):
+            kept.append(f"ALLOWLIST EXPIRED {r['expires']}: row (line {r['line']}) for "
+                        f"pattern {r['pattern']!r} — re-verify the claim, then renew or delete")
+    return kept, suppressed
 
 
 def git_time(path):
@@ -263,10 +316,14 @@ def main():
                   f"(window={args.window}: no docket rows in range cite artifacts).")
         return 0
 
-    total_flags = 0
+    allow_rows = load_allowlist()
+    total_flags, total_suppressed = 0, 0
     for t in targets:
         flags, infos = check_artifact(t, rows, covered, today)
+        rel = os.path.relpath(t, REPO) if os.path.isabs(t) else t
+        flags, suppressed = apply_allowlist(rel, flags, allow_rows, today)
         total_flags += len(flags)
+        total_suppressed += len(suppressed)
         if args.quiet and not flags:
             continue
         status = "⚠️ " if flags else "✅"
@@ -274,8 +331,13 @@ def main():
         for f in flags:
             print(f"    ⚠️  {f}")
         if not args.quiet:
+            for f, r in suppressed:
+                print(f"    ◦  allowlisted (expires {r['expires']}): {f}")
             for i in infos:
                 print(f"    ·  {i}")
+    if total_suppressed and not args.quiet:
+        print(f"\n◦ {total_suppressed} known-benign flag(s) suppressed by "
+              f"scripts/firetime_allowlist.tsv (expiry-dated; expired rows re-flag).")
     if total_flags:
         print(f"\n→ {total_flags} flag(s). Rule: a DATE flag means FULL LOGIC RE-READ "
               f"of the artifact (a date fix can break gate sequencing), never a find-replace.")
