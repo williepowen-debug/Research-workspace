@@ -2,9 +2,11 @@
   "seen": {
     "fred:UMCSENT:red": "2026-07-02T23:30:01Z",
     "fred:PSAVERT:orange": "2026-07-02T23:30:01Z",
+    "fred:BAMLH0A0HYM2:orange": "2026-07-11T02:47:18Z",
     "eia:cushing_mbbl:red": "2026-07-02T23:30:01Z",
     "edgar:EGBN_2026_07_06_5_02_9_01_": "2026-07-06T18:14:40Z",
-    "news:NEW_WATCH:data/2026-07-09/news.json": "2026-07-10T00:15:17Z"
+    "news:NEW_ALERT:data/2026-07-10/news.json": "2026-07-11T02:47:18Z",
+    "news:NEW_WATCH:data/2026-07-10/news.json": "2026-07-11T02:47:18Z"
   },
-  "updated": "2026-07-10T00:15:17Z"
+  "updated": "2026-07-11T02:47:18Z"
 }
