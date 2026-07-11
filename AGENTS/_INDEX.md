@@ -51,6 +51,7 @@ Active + Tier-2 domain owners and meta-agents with live folders. Full verified c
 | WALTER | [`WALTER/`](./WALTER/) | Synthesis / Ops |
 | WATT | [`WATT/`](./WATT/) | Energy / Commodities (power/grid: PJM stress → price → cost) |
 | YEYOU | [`YEYOU/`](./YEYOU/) | Meta — repo-wide reviewer (manual/branch) |
+| ZHAO | [`ZHAO/`](./ZHAO/) | Funding / Macro (China — UST demand / capital flows / Korea; reactivated 2026-07-05) |
 
 *PROME runs from root [`../PROME/`](../PROME/); the historical `AGENTS/PROME/` tree is archived under [`../PROME/archive/AGENTS_PROME_LEGACY_2026-06-24/`](../PROME/archive/AGENTS_PROME_LEGACY_2026-06-24/).*
 
@@ -58,10 +59,9 @@ Active + Tier-2 domain owners and meta-agents with live folders. Full verified c
 
 | Folder | Tier | Note |
 |---|---|---|
-| [`OZK/`](./OZK/) | dormant | Bank-OZK specialist; revive on Q2 print (~Jul-16) + live broker book |
+| [`OZK/`](./OZK/) | dormant | Bank-OZK specialist; revive on Q2 print (Jul-21 AMC, confirmed) + live broker book |
 | [`SENTRY/`](./SENTRY/) | dormant | Cross-domain signal pipeline; human-idle since 6/02 |
 | [`BARON/`](./BARON/) | dormant | Trump financial-policy network; dormant since 5/08 |
-| [`ZHAO/`](./ZHAO/) | dormant | China macro / TIC / capital flows |
 | [`FERT/`](./FERT/) | archive-source | Fertilizer / food security — do not launch |
 | [`CRUISE/`](./CRUISE/) | archive-source | Cruise / tourism canary (Will's personal interest) — do not launch |
 | [`ATHENA/`](./ATHENA/) | archive-source | Reading / knowledge companion — do not launch |
