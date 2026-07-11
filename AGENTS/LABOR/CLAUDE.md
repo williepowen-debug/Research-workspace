@@ -191,13 +191,7 @@ Update it every session. If your bottom line hasn't changed, your session didn't
 
 ## KEY THRESHOLDS
 
-| Metric | Current | Threshold | Implication |
-|--------|---------|-----------|-------------|
-| Initial Claims | 213K | >250K sustained | Consumer conversion accelerates |
-| Initial Claims | 213K | >300K | All ORANGE banks escalate |
-| U-3 | 4.3% | >5.0% | Structural bid break |
-| Shadow Payroll Gap | WARN ↑ / Claims flat | Resolves Mar-Apr | THE critical test |
-| DOGE Positions | 312-327K | >400K | Escalation |
+> **Durable home: `STATUS.md` § KEY THRESHOLDS** (re-homed 2026-07-02, DAEDALUS LABOR-10). One source of truth per metric — the live bands/levels + T-number cross-refs live there, refreshed every session by `boot.py`; `labor_data.py` wires its flags to that table. This boot-loaded pointer replaces the stale duplicate table that was here (removed 7/10 — it still showed Claims 213K / U-3 4.3% / DOGE 312-327K / "Shadow Payroll Gap resolves Mar-Apr", all superseded).
 
 ---
 
