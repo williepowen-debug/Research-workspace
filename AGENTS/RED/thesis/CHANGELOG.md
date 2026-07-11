@@ -4,6 +4,24 @@
 
 ---
 
+## 2026-07-10 ~22:00 ET — CHG-041 FINAL GRADE: PARTIALLY CONFIRMED, mechanism vindicated / sustain denied. War 7%→6% (−1, partial not full reversal — deviates from my own 7/8 pre-registration)
+
+**Confidence 69% (=). Net-bear 58%→57% (−1).**
+
+**What happened:** BRENT graded the Fri 7/10 sustain gate **DENY** — Brent settled ~$76 both sessions (LEVEL passes) but only **1 of ≥2 required fresh institutional legs** fired (war-risk premium surge, Lloyd's List 7/10; transits still 7/5-vintage 34/88, not ≤18; P&I cover explicitly NOT withdrawn per Lloyd's List 7/10; sanctions down-weighted per my own 7/8 red-team fix #3, since it's near-automatic). Energy tail reverts 🟠 ACTIVE → 🟡 fragile-watch.
+
+**CHG-041 FINAL GRADE: PARTIALLY CONFIRMED (closed).** Splitting the two halves cleanly:
+- **Mechanism half — CONFIRMED, durably.** The 6/26 category-error critique (grading the kinetic tail priced-out off a non-kinetic 6/20 test) holds up fully. When the real lever was pulled 7/7-10, the war-risk premium repriced to a **structurally new base** (Lloyd's List 7/10: "mid-single-digit% new normal," not a reversion to the pre-crisis 0.125%) — that's a permanent re-rating, not a one-week spike.
+- **Magnitude/durability half — DENIED.** My original sizing (+$15-25 convex snap) was too large for this trigger tier (HAWK ladder D capped 46%, not clean-dominant). The realized move (+$5-7, then bleeding $79→$76 across the week) did not broaden into a 2nd institutional leg inside the sustain window.
+
+**Why I'm NOT mechanically applying my own 7/8 pre-registration** ("DENY → reverts War toward 5%, reopens the debate on harder terms"): BRENT's same-night COT double-grade shows oil spec shorts **BUILT, not covered**, into the +5% truce-collapse week (ICE Brent gross shorts +~22K into a 7th-straight-week net-short decline [6/30]; NYMEX WTI-phys shorts +6,753 [7/7], CFTC-verified) — my own 6/26 crowded-short catch (KB-RED-051) is independently re-confirmed and, per BRENT, standing. A "failed" sustain test where the crowd got *shorter*, not covered, is not the same evidentiary object as a failed test into de-risked positioning — it means the squeeze fuel for the *next* tail event is fatter, not that this tail event resolved the debate bull's way. Reverting War all the way to 5% would double-count "test failed" without weighting "market didn't believe the failure enough to cover."
+
+**Re-balance:** War **7%→6% (−1, not −2)** — half credit given back for the failed durability, half held for the structurally-repriced mechanism + standing squeeze-fuel. Freed point → Managed Decline 35%→36% (+1). Stagflation (38), Acute (13), Rescue (3), Soft (4) unchanged. Net-bear 58%→**57%**.
+
+**What reopens CHG-041 (post-close):** a 2nd independent fresh Iran institutional leg (transit count ≤~18/day, a confirmed NEW liner Cape re-route, a JWC re-listing/P&I suspension, or a 4th+ tanker/production-asset hit) — same reopen condition BRENT set for the energy tail itself. Full detail: `AGENTS/RED/outbox/2026-07-10_to-PROME_chg041-final-grade.md`.
+
+---
+
 ## 2026-07-08 ~23:15 ET — War Escalation 5%→7% (+2): truce collapse fires the CHG-041 tail test I'd held open since 6/26 (live-event addendum, S22 core otherwise unchanged)
 
 **Confidence 69% (=). Net-bear 56%→58% (+2).**
