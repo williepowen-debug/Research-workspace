@@ -348,6 +348,117 @@ td.num{font-family:var(--mono);font-variant-numeric:tabular-nums;text-align:righ
 ul.plain{list-style:none}
 ul.plain li{padding:5px 0;border-top:1px solid var(--line);font-size:13px}
 ul.plain li:first-child{border-top:0}
+.tabs{display:flex;gap:2px;margin-bottom:16px;border-bottom:1px solid var(--line)}
+.tabs button{font:inherit;font-size:13px;font-weight:600;letter-spacing:.03em;
+  background:none;border:0;border-bottom:3px solid transparent;color:var(--ink2);
+  padding:6px 14px 8px;cursor:pointer}
+.tabs button[aria-selected="true"]{color:var(--ink);border-bottom-color:var(--accent)}
+.tabs button:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.gloss{max-width:76ch}
+.gloss .panel h3{font-size:14.5px;margin-bottom:6px}
+.gloss .panel p{font-size:13.5px;line-height:1.55;margin-bottom:8px}
+.gloss .panel p:last-child{margin-bottom:0}
+.gloss .own{font-family:var(--mono);font-size:11px;color:var(--ink2)}
+.gloss table{font-size:12.5px}
+.gloss td:first-child{white-space:nowrap;font-weight:600}
+"""
+
+GLOSSARY = """
+<div class="gloss">
+<div class="panel"><h3>How to read this page in 20 seconds</h3>
+<p><b>Pending Will</b> = the action is on you. <b>Needs attention</b> = the action is on
+the fleet (worst first). <b>Fire ledger</b> = the tripwires armed on your behalf — every
+one ends at your desk if it trips. <b>Catalyst runway</b> = what the calendar forces.
+<b>Fleet grid</b> = who's healthy, who's drifting. Everything else is context.</p></div>
+
+<div class="panel"><h3>The fire ledger &amp; gate states</h3>
+<p>A central register of every pre-registered <i>"if X happens, someone must DO
+something"</i> rule — not predictions that merely get graded, only rules that owe an
+<b>action</b> (build a packet, arm a trade card, bring you a proposal). PROME scans it at
+every boot.</p>
+<p>Born 2026-07-09 from a real failure: two VIOLET triggers fired on 7/2 into a frozen
+session and the owed hedge-packet sat orphaned for seven days before an audit found it.
+The ledger makes that structurally impossible — the watching is centralized even though
+the trigger logic stays with the domain agents.</p>
+<table><tr><td><span class="chip watch">LIVE</span></td><td>armed tripwire — condition
+watched, not yet met</td></tr>
+<tr><td><span class="chip crit">FIRED-UNEXECUTED</span></td><td>condition came TRUE and the
+owed action hasn't happened — blocks all new PROME work until cleared or escalated to
+you. Should never survive a session.</td></tr>
+<tr><td><span class="chip ok">RESOLVED</span></td><td>condition tested, verdict landed,
+consequence executed (or explicitly not owed)</td></tr>
+<tr><td><span class="chip ok">LAPSED</span></td><td>fired but the action window passed —
+your call, recorded, not retro-built</td></tr></table>
+<p class="own">owner: PROME/GATES.tsv · full trigger logic stays in each owner's KB</p></div>
+
+<div class="panel"><h3>Arm-#1 / #2 / #3</h3>
+<p>The three independent <b>arming paths</b> for TERRY's duration/TLT-put fire card
+(TRY-FIRE-004). Each is a different way the rates thesis can prove itself: #1 was an
+auction-stress test (resolved NOT-FIRED 7/9), #2 is five consecutive 10Y closes ≥4.50,
+#3 is foreign official selling in the TIC data. Any single arm completing → TERRY arms
+the card → comes to you for [Approve] with the live broker book. "Armed" never means
+"traded" — capital moves only on your explicit approval.</p>
+<p class="own">owner: AGENTS/TERRY/setups/FLOW-TRIGGER_duration-TLT-put.md</p></div>
+
+<div class="panel"><h3>Break / Grind / Unresolved</h3>
+<p><b>NEXUS's regime probability split</b> over the next 2–6 weeks — the one numeric
+regime call in the system, deliberately owned by exactly one agent (PROME runs no
+competing split, so you always know whose judgment you're reading).</p>
+<p><b>Break</b> — the accumulated stress (rates-vol, credit fuel, record equity
+complacency) cracks into an actual market repricing. <b>Grind</b> — the calm holds and
+the stress dissipates or stays latent. <b>Unresolved</b> — the honest bucket: the window
+ends and the tape still hasn't told us. A high Unresolved number means the decisive
+tests are still ahead — watch the catalyst runway, not the noise.</p>
+<p class="own">owner: AGENTS/NEXUS/STATUS.md (re-anchored after regime-moving events)</p></div>
+
+<div class="panel"><h3>Status colors (fleet-wide key)</h3>
+<table>
+<tr><td><span class="chip ok">green</span></td><td>none / healthy / fresh</td></tr>
+<tr><td><span class="chip watch">yellow</span></td><td>monitoring — armed or aging, no action owed yet</td></tr>
+<tr><td><span class="chip elev">orange</span></td><td>elevated — deserves a look this session</td></tr>
+<tr><td><span class="chip crit">red</span></td><td>active/critical — blocking or cold; act or escalate</td></tr></table>
+<p>Same key everywhere in the repo (STATUS files, HEARTBEAT, this page). Color is never
+the only signal — every chip carries its words.</p></div>
+
+<div class="panel"><h3>Needs attention — how it's composed</h3>
+<p>Auto-assembled at build time, worst first, from: fired-unexecuted gates · failing
+health checks · live gates unchecked &gt;5d · HEARTBEAT blocking rows · active agents
+cold (&gt;14d) or lagging (8–14d) · inboxes ≥8 deep · a stale spine audit (&gt;7d).
+Nothing is hand-curated; if it's listed, a rule put it there. If this rail is ever
+long every day, the thresholds need tuning — tell PROME.</p></div>
+
+<div class="panel"><h3>Fleet grid columns</h3>
+<p><b>Maturity</b> (L1–L5, DAEDALUS's scale): L1 scaffold just built → L2 first own
+data pulls → L3 predictions resolving on a clock → L4 other agents consume its output
+by name → L5 fully self-running periphery. <b>Last activity</b> = days since any commit
+touched the agent's directory (≤3 fresh · ≤7 aging · 8–14 lagging · &gt;14 cold — calendar
+days, so Mondays read slightly old). <b>30d commits</b> = volume of recent work.
+<b>Inbox</b> = unprocessed items waiting (excludes processed/). <b>newborn</b> = built
+within days, no track record yet — low bars are honest, not alarming.</p>
+<p class="own">owners: PROME/ROSTER.md (classification) · AGENTS/DAEDALUS/FLEET_MAP.tsv (maturity)</p></div>
+
+<div class="panel"><h3>Catalyst runway</h3>
+<p>The canonical forward calendar (PROME/DOCKET.tsv) filtered to the next 21 days —
+scheduled events that force a test or a decision: data prints, earnings, auctions,
+policy meetings, gate-completion dates. Orange dates are ≤3 days out. When the regime
+split is heavily "Unresolved," this list is where it resolves.</p></div>
+
+<div class="panel"><h3>Shorthand that appears on this page</h3>
+<table>
+<tr><td>HY OAS / X1</td><td>high-yield credit spread (bps); &gt;280 sustained is the
+pre-registered stress line ("X1"), &lt;260 twice re-kills the axis</td></tr>
+<tr><td>HOLD FLAT</td><td>standing posture: no new capital deployed without a fired
+trigger + your approval ($500/card max-loss)</td></tr>
+<tr><td>COT</td><td>CFTC Commitments-of-Traders positioning data (weekly, Fri 3:30 PM)</td></tr>
+<tr><td>[as-of] stamps</td><td>every number carries its observation date — a Friday
+vintage shown on Sunday is disclosure, not an error; refresh before acting</td></tr>
+<tr><td>fire card</td><td>a pre-built trade construction (TERRY) that sits shelved
+until its gate fires — so decision speed never requires decision haste</td></tr>
+<tr><td>env / firetime chips</td><td>boot health checks: machine keys present ·
+fire-path artifacts free of date-drift/dead pointers (known-benigns allowlisted)</td></tr>
+<tr><td>spine audit</td><td>weekly 5-reader reconciliation of PROME's core docs
+against canon — the age chip shows days since last run (&gt;7d = due)</td></tr></table></div>
+</div>
 """
 
 AGE_JS = """
@@ -363,6 +474,16 @@ AGE_JS = """
     if(h>24) el.textContent=label+' — refresh before trusting';
   }
   tick(); setInterval(tick,600000);
+})();
+(function(){
+  var tabs=document.querySelectorAll('.tabs button');
+  tabs.forEach(function(b){b.addEventListener('click',function(){
+    tabs.forEach(function(x){
+      var on=x===b;
+      x.setAttribute('aria-selected',on?'true':'false');
+      document.getElementById(x.getAttribute('data-view')).hidden=!on;
+    });
+  });});
 })();
 """
 
@@ -540,6 +661,12 @@ def build(today, now_iso):
   </div>
 </div>
 
+<nav class="tabs" role="tablist">
+  <button role="tab" aria-selected="true" data-view="view-ops">Operations</button>
+  <button role="tab" aria-selected="false" data-view="view-gloss">Glossary</button>
+</nav>
+
+<div id="view-ops">
 <section class="regime">
   <div class="oneliner">“{esc(hb["one"])}”<span class="split">{esc(hb["split"])}</span></div>
   <div class="cards">{panel_guard("regime", "HEARTBEAT.md", render_channels)}</div>
@@ -568,6 +695,9 @@ def build(today, now_iso):
     {esc(tier2_names)} &nbsp;·&nbsp; Dormant: {esc(dormant_names)}</p></div>
 </div>
 </div>
+</div>
+
+<div id="view-gloss" hidden>{GLOSSARY}</div>
 
 <div class="footer">
   Generated surface — <b>points into canon, never owns it</b>. Owner files win on any
