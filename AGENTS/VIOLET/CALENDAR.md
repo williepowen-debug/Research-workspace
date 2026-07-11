@@ -55,6 +55,7 @@ VIX futures and options expire on the **Wednesday 30 days prior to the third Fri
 | ~Jul 10 | SK Hynix ADR Nasdaq listing (single-source — verify) | Semis capital-rotation event (MU + SK Hynix both >$1T) | 🟡 Watch. |
 | **Jul 14** | **June CPI** | Energy-collapse pass-through test; **HENRY flip-tripwire catalyst** (thin cushion to the 7,437-7,471 flip) under a hawkish Fed | 🟠 Next macro vol-gate after today. HENRY/CARL own substance. |
 | Jul 15 | VIX July expiration | Standard monthly; Q2 earnings season opens same week | ⚪ Low. |
+| **Jul 16** | **Japan double-discriminator: May TIC (4PM ET Thu) + MOF ITS wk-7/5-7/11 (~7:50PM ET Wed 7/15) + BoK** | Carry→vol transmission channel (VIOLET-chartered read; SAM owns substance). SAM resolver: ≥+¥500B durable / <¥0 transient-confirmed | 🟠 **Added 7/11 (Will-approved wave).** VIOLET watch: USDJPY 10d RV 5.62% [7/10] vs 3y p50 8.35 (near-floor calm) + FXY ATM IV ~11.4% [7/10] ≈ 2× RV (event premium priced). JPY-vol instrument scoped, not built — `research/2026-07-11_jpy-vol-instrument-scope.md`. |
 | Jul 29 | FOMC (no SEP, Warsh) | Tests 6/17 dot-flip follow-through; hike optionality live post-Sintra (~70% Sep odds priced) | 🟠 First gate of the Fed-HIKE regime. |
 | Sep 16 | FOMC + SEP + VIX Sep quarterly expiry | Quarterly dot-plot convergence; ~1 hike priced by Sep | 🟠 Next major gate. |
 
