@@ -341,6 +341,18 @@ SERIES = [
         "hysteresis": 1.5,  # Must move 1.5pts past boundary (alerts at 31.5/28.5 not 30)
         "notes": ">30=regime change",
     },
+    {
+        "name": "MOVE",
+        "source": "price",
+        "id": "^MOVE",
+        "agent": "VIOLET/HENRY",
+        "tier": 2,
+        "direction": "higher_worse",
+        "green": (None, 90),
+        "yellow": (90, 120),
+        "red": (120, None),
+        "notes": "Rates-vol (ICE BofAML). Yahoo feed is SPARSE (days can be missing) — check the print's date, not just the value; direction/streak vs VIX is the live read (HEN-40 / VIOLET vol node)",
+    },
 ]
 
 
@@ -400,7 +412,7 @@ def format_value(value, series_def):
     if value >= 100000:
         return f"{value:,.0f}"
     # Dollar prices
-    if series_def["source"] == "price" and name not in ("USD/JPY", "VIX"):
+    if series_def["source"] == "price" and name not in ("USD/JPY", "VIX", "MOVE"):
         return f"${value:,.2f}"
     # Percentages / rates / spreads
     if value < 100:
