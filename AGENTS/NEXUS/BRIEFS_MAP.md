@@ -3,17 +3,18 @@
 **Updated:** 2026-07-05 Sun (8-day re-anchor sweep — current freshness is the ★7/5 note below; the ★6/27 note keeps only the MODEL-SHIFT rationale. **Pruned 7/5:** removed three dead snapshot layers — the 6/16 per-agent tables, the 6/8 rollout-priority section, and the roster-duplicating "Other agents" table — per the stale-spine-under-appended-top pattern; roster taxonomy lives in `PROME/ROSTER.md`.)
 **Schema reference:** `templates/NEXUS_BRIEF_SCHEMA.md` §4.4 fallback triggers (a/b/c) + `brief_fallback_log.tsv` for run-time instrumentation.
 
+> **★ 2026-07-10 — CPI-week re-anchor freshness update: LABOR/CARL/HENRY/REGINALD STATUS all moved 7/9–7/10 (re-anchor read raw STATUS for these — brief pins not re-verified this pass; check pin-hygiene next full brief-read loop). SAM/BRENT tonight's verdict memos read direct (outbox, not brief). The ★7/5 sweep note below is otherwise current.**
 > **★ 2026-07-05 — 8-day re-anchor sweep: ZHAO now has a brief (add to rotation); LIQUID + OZK revived; RED remains the top brief-gap.**
-> Fleet scan 7/5 — **13 agents now maintain `NEXUS_BRIEF.md`** (ZHAO added a schema-conformant brief 7/4 on reactivation — PROME ask `inbox/processed/2026-07-05_from-PROME_zhao-briefs-map-add.md`, Will-approved). Freshness this pass (brief / STATUS commit date):
+> Fleet scan 7/5 — **13 agents now maintain `NEXUS_BRIEF.md`** (ZHAO added a schema-conformant brief 7/4 on reactivation — PROME ask `inbox/processed/2026-07-05_from-PROME_zhao-briefs-map-add.md`, Will-approved). Freshness (STATUS commit dates updated 7/10; brief pins as of 7/5 unless noted):
 > | Agent | Brief | STATUS | Read-tier / note |
 > |---|---|---|---|
-> | CARL | 7/2 | 7/2 | T1 (R3 consumer) ✅FRESH — read full |
-> | HENRY | 7/2 | 7/2 | T1 (tape/vol/M-09) ✅FRESH — read full |
-> | VIOLET | 7/2 | 7/2 | T1 (vol/SKEW/gamma) ✅FRESH — read full |
-> | LABOR | 7/2 | 7/2 | T1-standing (chain-head/NFP) ✅FRESH — read full |
-> | ORACLE | 7/2 | 7/2 | T1 (crowd/Discipline-D) ✅FRESH — read full |
-> | SAM | 7/2 | 7/2 | T1 (R6 Japan/yen/JGB) ✅FRESH — read full |
-> | BRENT | 7/1 | 7/1 | T1 (R2/R5 energy) ✅FRESH — read full |
+> | CARL | 7/2 | **7/10** | T1 (R3 consumer) — STATUS moved 7/10 (inbox-drain, 51/70 holds); **read raw STATUS 7/10**, brief-pin likely stale, verify next loop |
+> | HENRY | 7/2 | **7/10** | T1 (tape/vol/M-09) — STATUS moved 7/10 (full boot, HEN-39/40); **read raw STATUS 7/10**, brief-pin likely stale |
+> | VIOLET | 7/2 | 7/9 | T1 (vol/SKEW/gamma) — MOVE-led vol read (SKEW eased <145); ✅ recent |
+> | LABOR | 7/2 | **7/10** | T1-standing (chain-head/NFP) — STATUS moved 7/9–7/10 (CPI-week frame + WARN cohort); **read raw STATUS 7/9–7/10**, brief-pin likely stale |
+> | ORACLE | 7/2 | 7/9 | T1 (crowd/Discipline-D) ✅ recent |
+> | SAM | 7/2 | **7/10** | T1 (R6 Japan/yen/JGB) — GATE-SAM-30 DE-LOAD memo read direct (outbox); STATUS moved 7/10 |
+> | BRENT | 7/1 | **7/10** | T1 (R2/R5 energy) — GATE-BRENT-SUSTAIN DENY memo read direct (outbox); STATUS moved 7/10 |
 > | MARCO | 7/2 | 7/2 | T2 (FL migration) — corroborates LABOR supply-shrink; opportunistic |
 > | **ZHAO** | **7/4** | **7/4** | **T1-when-hot NEW (R8 China/UST demand-hole = M-10; Korea).** Read full while the demand-hole is live (TIC 7/16). |
 > | BROCK | 6/28 | 7/4 | T1 (R3 private credit/M-08) — brief PIN-STALE vs 7/4 X1 STATUS → **read raw STATUS this pass** (X1 adjudication). Flag pin-hygiene. |
@@ -21,7 +22,7 @@
 > | CORAL | 6/25 | 6/25 | T1 (R3 FL geography) — unchanged since prior anchor; use existing read. |
 > | OTTO | 6/09 | 6/09 | T2 (internal-ops) — doc-system synthesis only. |
 >
-> **Brief-LESS (read raw STATUS when domain live, flag if load-bearing):** **RED** (adversarial/Discipline-D — **top brief-gap; STATUS now FRESH 7/5** — re-anchored concurrently (S22); brief-gap real, the 6/23-staleness was a timing artifact, resolved), **REGINALD** (M-02/M-05 hub — 2nd gap, STATUS 6/26), **LIQUID** (⚡ REVIVED 7/2 — no longer dormant; owns X1/plumbing/demand-hole; brief would be high-value, 3rd gap), **OZK** (revived 7/4), WALTER (routing 7/4), BOND (7/1), **SHADE** (⚡ insurer-lender / PE-insurance-captive — ACTIVE 7/4, load-bearing for M-02/M-08 via the **BROCK→SHADE** double-jeopardy node; Athene exposure), **AEOLUS** (⚡ climate→economy — NEW 6/28, feeds R5 energy→CPI + CARL insurance + CORAL FL via **AEOLUS→{BRENT,CORAL,MARCO}**; owner of the S-26060701 El-Niño forward-CPI channel). **Tier-1 brief coverage: 9 live briefs read this pass.** RED + REGINALD + LIQUID = the three highest-value open gaps (all load-bearing, all brief-less) — **brief-standup routed to PROME 7/5** (`outbox/`). *(SHADE + AEOLUS added 7/5 roster-audit — were prior blind spots; both active, both in the transmission web.)*
+> **Brief-LESS (read raw STATUS when domain live, flag if load-bearing):** **RED** (adversarial/Discipline-D — **top brief-gap; STATUS now FRESH 7/5** — re-anchored concurrently (S22); brief-gap real, the 6/23-staleness was a timing artifact, resolved), **REGINALD** (M-02/M-05 hub — 2nd gap, **STATUS moved to 7/10** [WAL 7/21 date-fix + CCC/HY 3.61× tripwire re-arm]; read raw 7/10), **LIQUID** (⚡ REVIVED 7/2 — no longer dormant; owns X1/plumbing/demand-hole; brief would be high-value, 3rd gap), **OZK** (revived 7/4), WALTER (routing 7/4), BOND (7/1), **SHADE** (⚡ insurer-lender / PE-insurance-captive — ACTIVE 7/4, load-bearing for M-02/M-08 via the **BROCK→SHADE** double-jeopardy node; Athene exposure), **AEOLUS** (⚡ climate→economy — NEW 6/28, feeds R5 energy→CPI + CARL insurance + CORAL FL via **AEOLUS→{BRENT,CORAL,MARCO}**; owner of the S-26060701 El-Niño forward-CPI channel). **Tier-1 brief coverage: 9 live briefs read this pass.** RED + REGINALD + LIQUID = the three highest-value open gaps (all load-bearing, all brief-less) — **brief-standup routed to PROME 7/5** (`outbox/`). *(SHADE + AEOLUS added 7/5 roster-audit — were prior blind spots; both active, both in the transmission web.)*
 >
 > **Fallback log this pass:** BROCK/RED/LIQUID all `stale` (BROCK pin-stale brief; RED/LIQUID missing-brief) — logged to `brief_fallback_log.tsv`. *(RED/LIQUID are MISSING-brief, not `brief-gap` — no brief-quality defect to score.)*
 

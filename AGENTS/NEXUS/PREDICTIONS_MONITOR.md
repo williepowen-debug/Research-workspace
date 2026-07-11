@@ -1,6 +1,6 @@
 # PREDICTIONS MONITOR
 **Purpose:** Falsifiable prediction ledger. Granular claim-level track. Includes HIT / MISS / TRUE-in-letter-FALSE-in-spirit / falsified — the falsification log is a discipline asset, not a stigma to hide.
-**Last restructured:** 2026-06-06 (self-audit Phase B). **Last resolution pass: 2026-07-05** (8-day re-anchor — ZHAO-revival unblocked the China cluster: **PRED-32 MISS** [no LGFV cascade; China growth stronger than stress narrative], **PRED-35 FALSIFIED** [oil-buffer mechanism inverted], **PRED-42 MISS** [Belgium $454B flat, thesis-confirming for M-10], **PRED-30 leg-swap** [Gulf leg falsified, China leg survivor → M-10]). Prior pass 2026-06-27 (HY OAS, Iran, RED conf, CC DQ).
+**Last restructured:** 2026-06-06 (self-audit Phase B). **Last resolution pass: 2026-07-10** (CPI-week re-anchor — three cross-agent gate adjudications integrated, see the dedicated section below: **GATE-BRENT-SUSTAIN DENY** [level held, leg-count failed → M-06], **BND-11 NOT-FIRED** [demand-hole refuted 3× → M-10], **GATE-SAM-30 DE-LOAD** [carry-entry reversed within one COT print → R6]). Prior pass 2026-07-05 (8-day re-anchor — ZHAO-revival unblocked the China cluster: **PRED-32 MISS** [no LGFV cascade; China growth stronger than stress narrative], **PRED-35 FALSIFIED** [oil-buffer mechanism inverted], **PRED-42 MISS** [Belgium $454B flat, thesis-confirming for M-10], **PRED-30 leg-swap** [Gulf leg falsified, China leg survivor → M-10]). Prior pass 2026-06-27 (HY OAS, Iran, RED conf, CC DQ).
 **⚠️ ORPHAN-FLAG RESOLVED (2026-06-27):** PROME flagged `PREDICTIONS_MONITOR.md` as "stale since 3/30 + mislocated in PROME/." **This is the live canonical ledger (`AGENTS/NEXUS/PREDICTIONS_MONITOR.md`, current);** the file PROME found at `PROME/PREDICTIONS_MONITOR.md` is a **stale orphan** (frozen 2026-03-23, commit `c9daf3a8`, pre-relocation) with no live boot-consumer. Routed to PROME to trash (its dir). Boot step 3 path is correct as-is.
 **Format:** ID | Date | Source | Claim | Trigger | Status | Conf
 
@@ -89,6 +89,18 @@ These items have passed their trigger date but were not formally resolved during
 | PRED-44 | Mar 2026 | OTTO/NEXUS | JEF "losses over time" → multi-lender markdowns Q1-Q2 | Q1 bank earnings Apr 20-29 | UNVERIFIED — Q1 prints past; not in 5/21 integrated | REGINALD / OZK refresh |
 | PRED-46 | Apr 2026 | NEXUS/SAM | BOJ Apr 23-24 rate hike (pulled fwd from May) | Apr 23-24 BOJ | ❌ **MISS (date)** resolved 2026-06-16 — no Apr hike; BOJ hiked Jun 16. Pull-forward timing wrong; direction vindicated. | resolved |
 | PRED-47 | Apr 2026 | NEXUS/HAWK | Iran pause expiry Apr 6 → escalation within 2 weeks | Apr 6 + 14d | ❌F **FALSIFIED (resolved 2026-06-27)** — same as PRED-33: de-escalation structural (MOU signed 6/17, decoupling stress-test passed 6/20). Escalation-resumes mechanism dead. | FALSIFIED |
+
+---
+
+## 🔵 CROSS-AGENT GATE ADJUDICATIONS — integrated into synthesis (2026-07-10)
+
+These are pre-registered **action-gates** owned by domain agents (canonical logic + full figures in `PROME/GATES.tsv` + the owner's KB), resolved this week and folded into the 7/10 re-anchor matrix. Logged here so NEXUS's ledger carries the resolution + the threshold-vs-mechanism read (Discipline A), not to duplicate ownership.
+
+| Gate | Owner | Trigger | Resolution (7/10) | Threshold vs Mechanism (Disc. A) | Matrix |
+|---|---|---|---|---|---|
+| **BND-11** (30Y demand-hole) | BOND/TERRY | 30Y reopen 7/9: indirect <52% AND (BTC <2.15 OR tail >2bp) AND dealer >18-20% | ❌ **NOT-FIRED / MISS** — indirect **77.74% SURGED** (vs June 60%), dealer 10.05%, BTC 2.44 → 0 of 3 legs; 7th straight benign auction | **Neither fired, mechanism INVERTED** — the bid *surged* (opposite of the hole). Foreign demand-hole refuted at flow level a 3rd time. **Disc-F caveat:** the surged bid is safe-haven **TRANSIENT** (SAM+ZHAO: GPIF added domestic duration, JPY COT covering pre-jawbone) → the *acute-auction* path missed, but the *structural* China-exit thesis is unresolved, arbitrated by **TIC 7/16**. | **M-10 ↓5** |
+| **GATE-BRENT-SUSTAIN** (energy re-arm) | BRENT | Brent >$75 both sessions (settle) AND no round-trip <$74 AND ≥2/4 FRESH institutional legs | ✅P **DENY / PARTIAL** — LEVEL passed (~$76 both, no <$74 round-trip) but only **1 of ≥2 fresh legs** fired (war-risk surge; transits/P&I no fresh Fri print; sanctions down-weighted) → energy tail reverts fragile-watch | **TRUE-in-letter on LEVEL, FALSE on the binding leg-count.** Mechanism-crack real (war-risk premium DID return); durable-institutional-broadening did not. Textbook threshold-met/mechanism-failed split. **Counter-current:** oil spec shorts BUILT into the +5% week = fatter unlit squeeze fuel (T-13). | **M-06 ↑8** |
+| **GATE-SAM-30** (carry-convexity entry) | SAM/TERRY | COT JPY noncomm net build >−153K (85% of −180K peak); covering-check: ≥−140K = de-load | ✅L→reverted **DE-LOAD / no entry** — entry-gate FIRED 7/10 AM (Jun-30 −155,092 = 86.2%) then covering-check DE-LOADED (Jul-7 **−123,778 = 68.8%**, largest single-week covering in series, dated 7/7 pre-jawbone) | **Entry threshold briefly met (letter), sustain mechanism INVERTED within one print** — positioning was already unwinding into the "record-short = squeeze fuel" framing, not building toward it. Carry tail MED-HIGH→MEDIUM (SAM v1.6.5). | **R6** (antecedent map) |
 
 ---
 
