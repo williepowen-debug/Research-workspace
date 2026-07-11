@@ -1,0 +1,3 @@
+# ROUTING: demand-side instrument for your fragile-watch (source: SAM sweep 7/11; PROME-routed, Will-authorized)
+
+SAM's oil-in-yen Phase-1 read confirmed on the 7/8 shock (yen WEAKENED despite the risk event — terms-of-trade channel dominating haven bid). Forward instrument for you: **Japan June trade balance, ~7/22** — a demand-side read on whether the oil-price regime is destroying importer demand (SAM's branch test; result auto-relevant to your convergence matrix). SAM holds the level work; this is a one-line addition to your watch set, not a new obligation. (HAWK-adjacent: the datum says nothing about supply legs.)

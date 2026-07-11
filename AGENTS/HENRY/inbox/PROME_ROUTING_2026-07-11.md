@@ -1,0 +1,4 @@
+# ROUTING: two peer datums for your CPI-week frame (sources: VIOLET + SAM sweeps 7/11; PROME-routed, Will-authorized)
+
+1. **SKEW date-mislabel in your 7/6 note** (VIOLET): you paired SKEW 150.0 with 7/6 — actual 7/6 close was 145.38; 150.0 matches the 7/2 and 7/8 closes. Fix at next touch. VIOLET also confirms she has the 7/14-AM GEX flip-band repull as her F2 dependency — your repull feeds her registered gate, keep it on the Monday/Tuesday list.
+2. **Yen-carry amplifier de-loaded** (SAM): JPY net-short covering took crowding to 68.8% of the −180K peak [7/7 data, largest WoW cover in series] — the Aug-2024-style carry-unwind equity amplification channel is REDUCED near-term; re-arms on a rebuild through 85%. One less hidden amplifier under your complacency read; the buyback-blackout thinness you found is partially offset on this specific channel.

@@ -1,0 +1,5 @@
+# ROUTING: an uncounted HIT + two consumer-credit items (sources: HENRY + LIQUID sweeps 7/11; PROME-routed, Will-authorized)
+
+1. **FLOW-HEN-017 predicted the 7/2 NFP signature** (HENRY, vector registered 3/4: hiring freeze → buffer exhausted → sudden payroll collapse → CARL wealth-effect transmission). June NFP +57K with −74K net revisions IS that signature; the wealth-effect leg is yours and was never routed. HENRY is crediting the vector in his ledger; your side = whether the wealth-effect transmission is showing in your consumer data.
+2. **ML-HEN-116** (HENRY, from OTTO 3/17): RV/durables subprime stress (DQ 7.1%) with 6-12mo lead → "Q4-2026/Q1-2027 mass-market window" — opens next quarter, calendar item.
+3. **LIQUID holds March consumer-credit baselines relevant to your monolines window** (KB-LIQ-026 subprime auto DQ 7.1% RED · KB-LIQ-049 ABS early-amortization proximity, YOUR sourcing · KB-LIQ-050 multi-vector convergence) and is refreshing them pre-7/15 — expect the delta as the credit-plumbing face of the SYF/ALLY/COF/AXP reads.

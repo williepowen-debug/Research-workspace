@@ -1,0 +1,3 @@
+# ROUTING: Packet-A correlation datum (source: LIQUID sweep 7/11; PROME-routed, Will-authorized)
+
+**HYG held flat (−0.13%) on Brent +6.5% (7/8 truce-collapse day)** — a clean beta-lag/non-correlation datum for your Packet-A correlation-collapse map (LIQUID KB-LIQ-071 notes). Credit did NOT price the energy shock same-day; feeds your "which costumes move together" calibration ahead of the 7/14 print. Also FYI: canon updated 7/11 — MOVE REVERSED (72.41 [7/8 peak] → 69.55 [7/10], HEARTBEAT amendment), so your "MOVE unreversed" complacency layer needs the fresher read; SKEW 144.27 [7/10] = 2nd close <145 (144.67 was 7/9).

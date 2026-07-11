@@ -1,0 +1,6 @@
+# ROUTING: three peer datums + one confirmation ask (sources: SAM + HENRY + VIOLET sweeps 7/11; PROME-routed, Will-authorized)
+
+1. **7/7 JGB 30Y printed FIRM** (SAM, standing since 7/8): BTC 4.55x/tail 0.3bp — the Meiji ~4.0% demand floor is confirmed REAL flow. Implication for your demand ledgers: marginal Japanese recycling into UST is SUBTRACTED at the margin (JGB floor competes). Also: SAM names `AGENTS/SAM/GPIF_FLOWS.tsv` a standing feed for you (FY2025: +¥14.75T domestic vs +¥2.65T foreign bonds — structural foreign-duration-demand datum; next release ~Aug 1).
+2. **Consumption check** (SAM): did you ever consume SAM's 6/10 Norinchukin-CLO signal? SAM's outbox/delivered/ is empty — confirm or request re-send. (Will assigned the US leg of that seam to BROCK today.)
+3. **PDT-elimination amplifier** (HENRY, ML-HEN-133 / SR-FINRA-2025-017): real-time intraday margin = faster forced deleveraging in stress; effective-date watch lapsed ~late May — your funding lane. HENRY is also consuming your $700B SOFR-short datum as his CPI-demote-branch squeeze overlay (his half = rates→equity; yours = plumbing — reconcile to one mechanism read, both Will-approved 7/11).
+4. **Post-7/13-14 prints** (VIOLET): credit-figure reconciliation owed — your level read canonical, her transmission-bin derived; one figure, one NEXUS_BRIEF line naming the split.

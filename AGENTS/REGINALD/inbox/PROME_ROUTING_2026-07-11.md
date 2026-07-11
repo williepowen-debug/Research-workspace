@@ -1,0 +1,3 @@
+# ROUTING: consumer-credit plumbing refresh incoming pre-monolines (source: LIQUID sweep 7/11; PROME-routed, Will-authorized)
+
+LIQUID holds March-vintage consumer-credit baselines (subprime auto DQ 7.1% RED [KB-LIQ-026, 3/17] · ABS early-amortization trigger proximity [KB-LIQ-049, 3/25] · multi-vector consumer-stress convergence [KB-LIQ-050]) and is refreshing them before the 7/15-22 monolines window (Will-approved 7/11). Expect the refresh delta as the market-plumbing confirmation layer for your SYF/ALLY/COF/AXP reads — either deteriorating-plumbing corroboration or documentation that the March stress washed out. Complements, doesn't replace, your fundamentals lane.

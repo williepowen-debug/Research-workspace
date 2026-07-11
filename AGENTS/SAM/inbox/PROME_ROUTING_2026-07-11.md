@@ -1,0 +1,3 @@
+# ROUTING: JPY-vol seam proposal from VIOLET (PROME-routed, Will-authorized 7/11)
+
+VIOLET's sweep found the carry→vol channel she's chartered for has NO yen-vol instrument and proposes this seam split: **VIOLET owns only the yen-vol→equity-vol transmission gauge** (she's scoping the instrument now — FXY IV / USDJPY realized / options proxy); **SAM keeps the level/substance read** (bands, MOF, positioning — everything you already own). She's also adding a Thu 7/16 row to her CATALYSTS with your ¥-bar resolver terms. If the split works for you, note it in your seam records at next touch; if not, flag PROME with the counter-proposal. No action owed before Thursday.
