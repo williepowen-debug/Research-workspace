@@ -11,6 +11,7 @@
 ## Procedure
 
 ### 1. Detect (read-only)
+> **Self-inclusion (2026-07-12, PAT-050):** DAEDALUS is IN SCOPE like any shipped agent — own FLEET_MAP row currency, own STATUS/EVOLUTION banner-truth, own cards/batch-doc dispositions, own outbox `delivered/` hygiene. The 7/12 self-sweep exists because the architect's surfaces rot in exactly the classes it polices; never skip self.
 ```bash
 LAST="<last_run from REGISTRY>"
 # the period's commits, newest first
@@ -22,6 +23,7 @@ git log --after="$LAST 00:00" --pretty=format:"%s" | sed -E 's/^([A-Z]+).*/\1/' 
 ### 2. Per active agent (shipped since last review): read the STATUS delta + key commits, assess via the maturity/structure lens
 - Did it **clear or slip a gate?** (L-level change — PAT-024 under-rating is the common case; PAT-030 grade content-not-filename; don't over-grade mechanically — flag *confirm-read owed* if you didn't do a full firming.)
 - Did a **profile open-question resolve**, or a **profile/row note go stale?**
+- **Profile-trigger check (added 2026-07-12, self-sweep T3-1):** read the agent's `profiles/<AGENT>.md` **Staleness:** line and test the NAMED trigger against the period's commits/STATUS. Trigger fired → refresh the profile in this review (or banner it ⚠️ STALE w/ the fired trigger + a named checkpoint if the refresh can't happen now — the HAWK-banner pattern). The 7/12 self-sweep found 7/24 profiles past-due by their own named triggers because nothing checked them between ad-hoc firmings; this step is that checker.
 - Did it surface a **new pattern**, or let me **reconcile an existing one?**
 - Any **cross-agent thread** (something *another* agent should act on)?
 

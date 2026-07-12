@@ -1,5 +1,5 @@
 # SAM — DAEDALUS Comprehension Profile
-**Built:** 2026-07-10 (firming read, single full-core reader) · **Grade at build:** L4 Conf-H (was L2 Conf-M — 2-level under-rate, PAT-024 #9) · **Class:** Market (Japan trigger — JGB/yen/carry, parallel trigger in the transmission chain)
+**Built:** 2026-07-10 (firming read, single full-core reader) · **Grade at build:** L4 Conf-H (was L2 Conf-M — 2-level under-rate, PAT-024 #9) · **Class:** Market (Japan trigger — JGB/yen/carry, parallel trigger in the transmission chain) · **Staleness:** refresh when the Sep-18 LOCKED window advances a stage or FXY modal band re-derived or >45d
 
 ## Identity in one line
 The fleet's Japan-side parallel trigger: JGB demand-vacuum / carry-unwind thesis (v1.6.3) with **arguably the fleet's best predictions discipline** (ahead of source-exemplar OTTO) and a three-sub-agent internal staff (KOYOMI docket-steward · METSUKE auditor · KURA workbook-steward).

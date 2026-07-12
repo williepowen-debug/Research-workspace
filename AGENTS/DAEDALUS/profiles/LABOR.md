@@ -1,5 +1,7 @@
 # Agent Profile — LABOR
 
+> ⚠️ **STALE 2026-07-12** — own named triggers FIRED: JOLTS 6/30 + NFP 7/2 resolved + 3 live sessions (7/6, 7/9, 7/10 incl. `PREDICTIONS_SCOREBOARD.md` build) unabsorbed. Refresh at 7/18 review.
+
 **Built by:** DAEDALUS · **Date:** 2026-06-29 · **Comprehension method:** 1-reader live comprehension (workflow `firm7-profiles-cards`; documents the 6/28 firm-next7 adversarially-confirmed L4)
 **Sources read:** CLAUDE.md, STATUS.md (255 ln), TRADE.md, NEXUS_BRIEF.md, LESSONS.md, workbook/{VX,KB,FLOW,PREDICTIONS,SCHEMA,EXPECTED_SIGNALS,FRAMEWORK_SUMMARY}, docket/CATALYSTS.tsv + git log / mtimes. SKIM-only: archive/, domain/sources/, sources/ (incl. .docx, March RP-LAB fulltexts), inbox/processed/, scripts/. · **Staleness:** refresh when the STATUS convergence matrix materially re-rates, when the Jun-30 JOLTS / Jul-2 NFP catalyst cluster resolves the thesis, or > 45 days.
 

@@ -1,6 +1,6 @@
 # Batch Changelist 01 — SHADE / BROCK / CREED "encode-existing-reasoning" handles
 
-**By:** DAEDALUS · **Date:** 2026-06-28 · **Status:** 🟡 DRAFT — routed to PROME (+Will) for review; **NOT applied.**
+**By:** DAEDALUS · **Date:** 2026-06-28 · **Status:** ✅ APPLIED — all 8 items live since 2026-06-28: BROCK `STATUS.md:140` + `workbook/PREDICTIONS.tsv` Action_If_Falsified col, CREED `STATUS.md:38,200-204`, SHADE `STATUS.md:151,276-280`. *(Banner added late 2026-07-12 per DAEDALUS self-sweep — record was never updated after the 6/28 apply.)*
 **Scope (per PROME direction 6/28):** encode-existing-reasoning **HANDLES only** — comparable interfaces that make these three machine-stackable for NEXUS/PROME and lift judgment they *already do* into a structured form. **No new per-session machinery** (those are held for round two, below). Every item is **additive** (floor-not-ceiling, PAT-015) — local richness is never stripped.
 
 **Sources:** `upgrades/{SHADE,BROCK,CREED}_CARD.md` (full queues) · `profiles/{…}.md` (do-not-touch). Graded vs `BLUEPRINTS/market-agent.md`.

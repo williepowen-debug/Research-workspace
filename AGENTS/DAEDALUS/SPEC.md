@@ -1,6 +1,6 @@
 # DAEDALUS — Design Spec (Phase 0)
 
-**Status:** 🟢 APPROVED — Will signed off + merged to master 2026-06-27; wired into root `CLAUDE.md` / `PROME/ROSTER.md` / `AGENTS.md` + git-aligned to fleet auto-push by PROME. Phase 4 (first real maintenance pass) next.
+**Status:** 🟢 APPROVED — Will signed off + merged to master 2026-06-27; wired into root `CLAUDE.md` / `PROME/ROSTER.md` / `AGENTS.md` + git-aligned to fleet auto-push by PROME. Phase 4 (first real maintenance pass) next. *(Historical Phase-0 snapshot — live state: STATUS.md; standard's history: EVOLUTION.md.)*
 **Created:** 2026-06-27 · **Owner:** Will (decisions) / DAEDALUS (maintenance)
 **Class:** Meta-agent — the fleet's architect. Not a market-domain agent.
 **Reports to:** PROME · **Spawnable by:** PROME *or* Will (on-demand, not always-on)

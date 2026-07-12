@@ -43,11 +43,11 @@
 
 ## The queue (quick wins first)
 
-1. **Apply Sweep A — §2 CONTRACT block.** *Net-new-to-apply, highest value, zero design work remaining.* Content pre-drafted in `inbox/2026-07-03_from-DAEDALUS_utility-firming-sweepAB.md` — assemble verbatim into CLAUDE.md near IDENTITY. **Routed 7/3, still owner-pending at 7/4** — if still open after WALTER's next Tier-2 closeout, worth a light DAEDALUS/PROME nudge (not yet — 3 Tier-1 sessions between routing and now is not neglect).
-2. **Apply Sweep B — §8 labeled BOTTOM LINE.** *Paired with #1, same packet, same status.* Label the existing "Overall:" STATUS line.
-3. **STATUS spine-subsection regen** ("Today's routing + stale agents," "Last registry refresh") — mechanical, folds into WALTER's own next Tier-2 closeout step 12(b)/13. Not a DAEDALUS action item; noting it here because it's the one live discrepancy this re-verification surfaced beyond the 7/3 assessment.
+1. **Apply Sweep A — §2 CONTRACT block.** ✅ **APPLIED 7/11** (`AGENTS/WALTER/CLAUDE.md:26-27`, CONTRACT block present). *(Closed 2026-07-12 per DAEDALUS self-sweep.)*
+2. **Apply Sweep B — §8 labeled BOTTOM LINE.** ✅ **APPLIED 7/11** (`AGENTS/WALTER/STATUS.md:138`, labeled `## BOTTOM LINE`). *(Closed 2026-07-12.)*
+3. **STATUS spine-subsection regen** ("Today's routing + stale agents," "Last registry refresh") — mechanical, folds into WALTER's own next Tier-2 closeout step 12(b)/13. **Remains open — re-verify at next read.**
 4. **Optional §7 polish** — label the existing create-only/never-edit-processed guard as a distinct `## AUTHORITY & SAFETY` block (Sweep A's optional ask). Low value, pure encode-existing.
-5. **SIGNAL_INTAKE.md (I3) reconcile-or-kill** — WALTER's own call, not gated on anything external; low urgency.
+5. **SIGNAL_INTAKE.md (I3) reconcile-or-kill** — WALTER's own call, not gated on anything external; low urgency. **Remains open — re-verify at next read.**
 6. **YEYOU clean-bill** — no action available from this side; note as an open unknown, not a queued item.
 
 > **Note for application:** WALTER is **live** (see profile header — commit `cd6d62e8` 12:29:30 EDT, debug capture 12:31:24 EDT, this read ~12:34 EDT). **Do not direct-edit any WALTER file without a fresh idle-check first** — everything in this card and the paired profile is read-only comprehension against a moving target. Sweep A/B remain WALTER's own apply (per the 7/3 routing decision: "WALTER is live this session → you own the apply") — DAEDALUS does not take over WALTER's pending task-packet unilaterally; re-verify idle status and Will/PROME's continued intent before any direct edit, and prefer a re-ping over a bypass if it stays open past WALTER's next full closeout.

@@ -1,6 +1,6 @@
 # OSPREY + FALCON Build — Execution Spec (HAWK split)
 
-**Author:** DAEDALUS · **Date:** 2026-07-12 · **Status:** EXECUTING (Will greenlit the build 2026-07-12; §13 decisions ratified below)
+**Author:** DAEDALUS · **Date:** 2026-07-12 · **Status:** 🟢 EXECUTED 2026-07-12 (WP-1..5 complete; WP-4/5 run directly by DAEDALUS — verification in session record; registered + pushed same-day)
 **Source spec:** `AGENTS/HAWK/design/2026-07-12_war-agent-split-spec.md` (HAWK, Will-approved concept)
 **Comprehension base:** `builds/hawk_split/MANIFEST_A_core.md` (core state + 106-file inventory) · `MANIFEST_B_ledgers.md` (VX/FLOW/STRIKES/KB row-level) · `MANIFEST_C_thesis.md` (predictions/lessons/scripts) — editors read the manifests, not raw HAWK.
 **Precedent:** WATT/VULCAN/MIDAS build queue 7/10-11 (PAT-047 co-registration, PAT-048 instrument-light).

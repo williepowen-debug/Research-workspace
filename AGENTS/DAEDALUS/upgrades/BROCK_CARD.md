@@ -16,8 +16,8 @@
 | 7 | **Standing disciplines** | mechanism-vs-thermometer + EXPECTED_SIGNALS absence-is-data + Δ cols + boot↔closeout symmetry | ✅ APPLIES | conformant (fleet model) | None material (matrix Δ already serves the 3-col discipline) | 0 |
 | 8 | **BOTTOM LINE** | STATUS ends w/ 4-para BOTTOM LINE, single-read lead, updated 6/28; 211 ln <cap | ✅ APPLIES | conformant | None (richer than floor — OK per floor-not-ceiling) | 0 |
 | 3 | **Thresholds** | EXPECTED_SIGNALS durable bands (no live values) + VX/STATUS live + conjunction triggers | ✅ APPLIES | conformant | *Optional only:* extract the 5-step Decision Tree into a standalone KILL_MEMO.md (survives STATUS rewrites). Low value. | 3 |
-| 2 | **Convergence matrix** | 14-vector matrix, composite 60/70; shared-node "score once" reasoning in **prose only** | ✅ APPLIES (adapted) | missing **handle** | Add an `Independence` column (+ optional `#`) lifting the score-once reasoning into the table. Keep the prose; do NOT flatten to a bare flag. | 2 |
-| 5 | **Predictions** | ledger + 7-resolved archive + Brier-0.244 scoreboard + failure-synthesis; **no if-falsified ACTION column** | ✅ APPLIES (adapted) | missing **handle** | Add `If-Falsified ACTION` column to PREDICTIONS.tsv (→trim/extend/−Npp), sourced from the TRADE.md trigger ladder | 2 |
+| 2 | **Convergence matrix** | 14-vector matrix, composite 60/70; shared-node "score once" reasoning in **prose only** | ✅ APPLIES (adapted) | missing **handle** — ✅ **DONE 6/28 (see banner)** | Add an `Independence` column (+ optional `#`) lifting the score-once reasoning into the table. Keep the prose; do NOT flatten to a bare flag. | 2 |
+| 5 | **Predictions** | ledger + 7-resolved archive + Brier-0.244 scoreboard + failure-synthesis; **no if-falsified ACTION column** | ✅ APPLIES (adapted) | missing **handle** — ✅ **DONE 6/28 (see banner)** | Add `If-Falsified ACTION` column to PREDICTIONS.tsv (→trim/extend/−Npp), sourced from the TRADE.md trigger ladder | 2 |
 
 ### Separately — the real L4→L5 work (staleness, not structure)
 | Item | Why | Effort |

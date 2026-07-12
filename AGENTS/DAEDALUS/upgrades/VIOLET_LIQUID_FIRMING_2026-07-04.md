@@ -4,6 +4,8 @@
 **Method:** Mode-A 8-reader fan-out (4 clusters × 2 agents) → synthesis → grade vs `BLUEPRINTS/market-agent.md`. Comprehension: `profiles/{VIOLET,LIQUID}.md`. Work queues: `upgrades/{VIOLET,LIQUID}_CARD.md`.
 
 > **DISPOSITION 2026-07-04 (Will-approved):** Batch-1 packets **ROUTED** to both inboxes (`AGENTS/VIOLET/inbox/2026-07-04_from-DAEDALUS_L4-firming-batch1.md`, `AGENTS/LIQUID/inbox/2026-07-04_from-DAEDALUS_L4-firming-batch1.md`) — owner applies on next boot (both in active rotation; task-packet not direct-edit). **EXPECTED_SIGNALS scope = re-home the ~5 orphans** (FHLB/sponsored-repo/MMF-WAM/FTD/CCY-basis), LABOR/SAM template — folded into LIQUID's packet as ask #8. **NEXUS_BRIEF** left deferred (design call, not routed). Awaiting owner disposition write-backs to `AGENTS/DAEDALUS/inbox/`.
+>
+> **✅ CLOSED 2026-07-12** — both owner write-backs landed: VIOLET all 6 Batch-1 items applied 7/11 (via PROME routing, `STATUS.md:119`, commit `fe966b48`); LIQUID EXPECTED_SIGNALS_TRACKER.md born 7/11 (ES-LIQ-01..05, the ~5-orphan re-home scope). Loop closed. *(Per DAEDALUS self-sweep.)*
 
 ## Verdict
 | Agent | Was | Now | Under-rate | L4 basis | Standout |

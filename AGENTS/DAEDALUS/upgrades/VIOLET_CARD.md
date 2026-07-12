@@ -36,7 +36,7 @@
 
 ## The queue
 1. **FLEET_MAP / profile already reflect L4 (DAEDALUS's own files) — DONE 7/4** (corrected the L2→L4 false-negative; PAT-024). No concurrency risk.
-2. **Batch 1 — quick handle-adds + hygiene (one CLAUDE.md/STATUS changelist):** §8 BOTTOM LINE label · §2 Independence column · `--trade`+workbook staleness boot lines · 2 dead-CSV disposition · 3 dangling-archive-ref fixes · TRADE.md footer bump. All **S**, all additive, all in-file. **Route as one task-packet** (permission + idle-check first).
+2. **Batch 1 — quick handle-adds + hygiene (one CLAUDE.md/STATUS changelist):** §8 BOTTOM LINE label · §2 Independence column · `--trade`+workbook staleness boot lines · 2 dead-CSV disposition · 3 dangling-archive-ref fixes · TRADE.md footer bump. ✅ **ALL 6 ITEMS APPLIED 7/11** (`AGENTS/VIOLET/STATUS.md:119`, commit `fe966b48`). *(Closed 2026-07-12 per DAEDALUS self-sweep.)*
 3. **Batch 2 — §5 predictions handle consolidation:** thin `PREDICTIONS.tsv` indexing the thesis table + `if-falsified ACTION` column. **M**, additive; preserve the 3-layer numbering. Owner-lane (touches thesis + workbook).
 4. **Owner staleness — VIX_THESIS.md live-tail refresh** (move the 6/10 "Current status" tail to STATUS, or restamp). Owner closeout work; route, don't edit.
 5. **Optional priority-3 refinements** (§3 canonical durable-band table · §4 explicit bidirectional-flip · §7 EXPECTED_SIGNALS tracker) — batch only if a VIOLET changelist is already open. Low value; substance already covered.

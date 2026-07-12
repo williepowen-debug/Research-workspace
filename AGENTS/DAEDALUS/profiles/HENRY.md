@@ -1,5 +1,5 @@
 # HENRY — DAEDALUS Comprehension Profile
-**Built:** 2026-07-10 (first full firming read — HENRY held the map's oldest grade: L3 surveyed 6/27, pre-blueprint, never profiled) · **Grade at build:** L4 Conf-H (L3→L4; 10th upward correction, PAT-024 — holds even on a survey-verified prior) · **Class:** Market (macro/velocity: rates, vol regime, credit-equity transmission, AI-capex FCF node; macro-focus-not-positions per Will 6/15)
+**Built:** 2026-07-10 (first full firming read — HENRY held the map's oldest grade: L3 surveyed 6/27, pre-blueprint, never profiled) · **Grade at build:** L4 Conf-H (L3→L4; 10th upward correction, PAT-024 — holds even on a survey-verified prior) · **Class:** Market (macro/velocity: rates, vol regime, credit-equity transmission, AI-capex FCF node; macro-focus-not-positions per Will 6/15) · **Staleness:** refresh after the PROME-scheduled full boot / 7/14-7/29 catalyst stack resolves or >45d
 
 ## Identity in one line
 The fleet's macro transmission engine and **blueprint DONOR for §3 (thresholds) and §4 (invalidation)** — its Will-approved state-claim convention (`[src M/D]` + `FIRED/NOT-FIRED [as-of @ level]`, standing-rule-vs-state split, TRIAD w/ literal fired-counts) IS the standard both sections were harvested from, and both still exemplify. Provisional power/grid-leg owner since 7/9 (couples to HEN-36 AI-capex node).

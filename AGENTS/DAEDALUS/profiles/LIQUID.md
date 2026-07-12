@@ -1,5 +1,7 @@
 # Agent Profile — LIQUID
 
+> ⚠️ **PARTIALLY STALE 2026-07-12** — EXPECTED_SIGNALS revival (§4e ★ + §7 open-Q) RESOLVED 7/11 (`workbook/EXPECTED_SIGNALS_TRACKER.md`, ES-LIQ-01..05). Refresh at 7/18 review.
+
 **Built by:** DAEDALUS · **Date:** 2026-07-04 · **Comprehension method:** Mode-A 4-reader fan-out (identity/state/routing · thesis/thresholds/exit [PAT-013 core] · domain research foundation · automation/boot/archive) → synthesis. First full comprehension (was mechanical-only Conf-L before this).
 **Sources read:** CLAUDE.md, IDENTITY.md, USER.md, STATUS.md, CLOSEOUT.md, CATCHUP_PUNCHLIST.md, CALENDAR.md, STRATEGY.md, CREDIT_THRESHOLDS.md, MEMORY.md, board_log.tsv, thesis/{THESIS,CHANGELOG,TIMELINE}, workbook/{KB.tsv,CATALYSTS,PREDICTIONS,VX,FLOW,KILL_MEMO_HY_OAS_260,AUCTION_FRAMEWORK,TIC_FRAMEWORK,BDC_MONITOR}, scripts/{boot.py,hy_oas_watch.py}, domain/sources/ (24 files skim), archive/ (glob + README tiers). **Staleness:** refresh when the failure-leg framework (A/B/C) re-marks, the X1 conjunction fires/resolves, or the 7/1 mandate-extension (funding microstructure/IG/EU) beds in — or > 45 days.
 

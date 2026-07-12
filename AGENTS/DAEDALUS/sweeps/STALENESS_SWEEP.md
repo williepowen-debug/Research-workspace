@@ -20,6 +20,8 @@ The boot cadence-check surfaces it when >21d since `last_run`. Run on demand any
 ```
 Staleness is measured **vs each agent's own STATUS.md** (default 30d threshold). Declared-static surfaces are auto-exempt — the recognizer scans the header block for `FROZEN | RETIRED | NOT CURRENT | DO NOT CITE | NOT MAINTAINED | ARCHIVED`.
 
+> **Self-inclusion (2026-07-12, PAT-050):** `AGENTS/DAEDALUS/` is IN SCOPE — check own ledger-class surfaces (FLEET_MAP row currency, upgrades/ batch-doc banners vs dispositions, outbox flat-files vs `delivered/`) the same way. The 7/12 self-sweep found 9 dead outbox files + a 2-week-stale self-row precisely because this sweep never looked inward.
+
 ### 2. Classify each flagged surface (judgment)
 | Class | Test | Disposition |
 |---|---|---|

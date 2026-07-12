@@ -58,7 +58,7 @@
 
 | Agent | Class | Lvl | What it does | Missing / next |
 |---|---|---|---|---|
-| DAEDALUS | Meta | L3 | Fleet architect — design / structure / maturity / lifecycle | EVOLUTION roadmap executing |
+| DAEDALUS | Meta | L4 | Fleet architect — design / structure / maturity / lifecycle | L5 when EVOLUTION demonstrably current |
 | YEYOU | Utility | L2 | Repo-wide reviewer (manual / branch model) | CONTRACT block + clear OpenClaw/GLM + dangling-ref stale cluster (apply… |
 
 ---

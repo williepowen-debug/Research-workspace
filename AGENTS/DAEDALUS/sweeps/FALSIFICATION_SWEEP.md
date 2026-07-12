@@ -18,6 +18,7 @@
    - ***-consumed research headlines** — any doc another agent reads by name (check the consumer's boot list); a stale lead paragraph here propagates cross-agent (the SAM→BOND case)
 4. **Surface inventory source:** `profiles/<AGENT>.md` §3 "Invalidation / exit" rows (the comprehension layer already maps where falsification lives per agent — this is what the profiles are FOR) + the 7/11 pilot reports (`AGENTS/{VIOLET,LIQUID,HENRY,SAM}/reports/2026-07-11_threads-sweep.md`) as the seed. Agents without a profile row for invalidation → inventory at first sweep, add to the profile.
 5. **Method:** Mode-A Sonnet reader fan-out (one reader per 3-4 agents), each returns per-surface: `surface | live-thesis-version/date | surface's cited-version/stamp | verdict (CURRENT / STALE-FLAGGED / FROZEN-OK) | one-line why`. DAEDALUS synthesizes; no reader edits anything.
+6. **Self-inclusion (2026-07-12, PAT-050):** DAEDALUS is IN SCOPE — its "falsification surfaces" = PATTERNS.tsv rows still asserted true, blueprint prescriptions vs live practice, and the maturity ladder's criteria vs how grades are actually given. Check that the standard still describes reality.
 
 ## Dispositions (approval-gated — same model as sweep #1)
 

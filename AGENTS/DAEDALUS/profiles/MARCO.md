@@ -1,5 +1,5 @@
 # MARCO — DAEDALUS Comprehension Profile
-**Built:** 2026-07-10 (firming read, single full-core reader) · **Grade at build:** L4 Conf-H (was L2 Conf-L — 2-level under-rate, PAT-024 #7) · **Class:** Market (FL-economy specialist; CORAL shares FL, one-figure rule)
+**Built:** 2026-07-10 (firming read, single full-core reader) · **Grade at build:** L4 Conf-H (was L2 Conf-L — 2-level under-rate, PAT-024 #7) · **Class:** Market (FL-economy specialist; CORAL shares FL, one-figure rule) · **Staleness:** refresh when VX-MARCO-3.03 adjudicates (BofA Tier-1) or >45d
 
 ## Identity in one line
 Florida-economy agent (visitor flows, workforce/migration supply-shock, housing) — **a blueprint DONOR**: market-agent §6 routing + §7 disciplines were sourced FROM MARCO (mechanism-vs-thermometer, EXPECTED_SIGNALS). Never conform its local forms toward the template; the template points at them.

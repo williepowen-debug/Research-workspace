@@ -1,5 +1,7 @@
 # Agent Profile — NEXUS
 
+> ⚠️ **STALE 2026-07-12** — own named trigger FIRED: live pass 7/10 re-anchored STATUS past the 6/27 vintage this profile is graded on; PROVISIONAL tag's blocker resolved. Refresh at 7/18 review.
+
 **Built by:** DAEDALUS · **Date:** 2026-07-04 · **Comprehension method:** solo live read (fast-follow of the 7/3 utility-firming pass; documents + re-verifies the 7/3 DAEDALUS-direct-applied L2→L4 firming, a confirmed two-level under-rate, PAT-024)
 **Sources read:** CLAUDE.md, STATUS.md, LAST_COMPLETION.md, PREDICTIONS_MONITOR.md, BRIEFS_MAP.md, SIGNALS.md, CONFIRMED.md, brief_fallback_log.tsv, templates/{NEXUS_BRIEF_SCHEMA.md, NEXUS_BRIEF_TEMPLATE.md} (heads), inbox/ + outbox/ + research/ + recon/ + signals_archive/ listings (one unprocessed inbox item read in full), `upgrades/UTILITY_FIRMING_2026-07-03.md`, `BLUEPRINTS/utility-agent.md`, `FLEET_MAP.tsv` NEXUS row, recent git log for `AGENTS/NEXUS/`. **Staleness:** refresh when NEXUS runs its next live pass (STATUS re-anchors past the current 6/27 vintage), the PROVISIONAL tag firms or changes, or > 45 days.
 

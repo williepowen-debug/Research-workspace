@@ -7,6 +7,16 @@ Newest first. Keep entries terse; archive build minutiae to `FLEET_MAP.tsv`.
 
 ## Changelog
 
+### 2026-07-12 — DUAL RESTRUCTURE: HAWK war-agent split (OSPREY + FALCON) + HOMER promotion — the standard gains a SPLIT/PROMOTION methodology
+- **HAWK split (builds 5-6):** OSPREY (Russia/Ukraine) + FALCON (Iran/Gulf) built + content-migrated; HAWK re-cut to cross-war synthesis + dormant book. First execution of an agent SPLIT (vs green-field build): the method that worked = **reader fan-out over the FULL tree → manifests as contracts → DAEDALUS-ratified build spec (closing the domain spec's gaps) → parallel Sonnet editor WPs → re-cut → verify → registration.** New rules minted: **PAT-049** (domain-authored split specs: analytical core reliable / operational periphery blind / "freeze" ambiguous — reader fan-out closes it; banner the ORIGINALS of copied files) and the freeze-disambiguation (freeze = no row surgery, NOT dead-ledger — the residual agent's KB/board_log/PREDICTIONS stay LIVE with split-notes). Prediction re-homing form: `FAL-01 ←HAW-16` / `OSP-01 ←HAW-17` with REHOMED status at the origin + re-totaled preamble + archive backfilled BEFORE banners.
+- **HOMER promotion (CARL sub-agent → top-level):** first sub-agent promotion executed by DAEDALUS (OZK/CORAL were pre-DAEDALUS). Method: comprehension manifest → structural review w/ ★ rulings (Will-approved) → git-mv → top-level surface REBUILD (STATUS from the PARENT's fresher rows, not the stale sub-agent copy) → parent shed + pointer block → handoff packets to every seam agent (CREED/REGINALD/CORAL/CARL) → registration. Seam rule applied: one-owner-per-figure collapse (Trepp CMBS-MF was independently tracked by 3 agents → HOMER owns, others consume).
+- **Registration:** 25→28 active; WALTER ROUTING_TABLE → v0.17 (war-theater + housing carves, CORAL-promotion precedent); PAT-047 co-registration order held.
+- **Sweep #3 registered (Falsification Freshness, 21d):** content-diff on in-content stamps (never mtime/git-time — PAT-039/044), surfaces inventoried from profiles §3, dispositions task-packet-only. Off PROME's 7/11 4/4-rot pilot.
+
+### 2026-07-12 (same day, later) — SELF-SWEEP → self-inclusion becomes part of the standard (PAT-050)
+- Will-directed 4-reader audit of DAEDALUS's own tree (33 findings, 11 HIGH): every HIGH was a banked pattern applied outward but never inward (own FLEET_MAP row 2wks un-re-scored = PAT-024; 6 stale cards/banners = PAT-032; fossilized Build-progress/roadmap tables = PAT-043; 9 dead outbox files = the dead-mail class). Root cause = **asymmetric plumbing**: inbound write-backs closed only the FLEET_MAP leg; no sweep scoped the sweeper.
+- **Standard changes (Will-approved, installed same-day):** (1) **self-inclusion clauses** in all 3 sweep playbooks — DAEDALUS's own surfaces are in scope; (2) **SPAWN-7 write-back TAIL rule** — processing a write-back closes card + batch banner + outbox copy, not just the row; (3) **profile-trigger check** added to Production Review step 2 (each profile's named "refresh when X" tested against the period); (4) **PAT-044 two-clock header baked into blueprints** (market §8 + utility §5); (5) own `outbox/delivered/` created (the scaffold every built agent already got). Self-row re-scored L3→**L4** honestly-not-L5 (L5's "EVOLUTION roadmap live" criterion is exactly what the sweep found broken — verify at 7/18). BRENT's 13-day-stale `<$75` threshold inversion fixed direct (Will-directed).
+
 ### 2026-07-11 — WATT/VULCAN/MIDAS registration COMPLETED same-session (Will-authorized shared-file edit)
 - The per-build entries below say "registration routed to PROME / FLEET_MAP held until ROSTER" — that was the plan mid-session; **Will then explicitly authorized DAEDALUS to make the shared-file edits directly.** So all 3 are now fully registered this session: root CLAUDE.md (active 22→25 + chains), ROSTER (rows/footnotes/provenance/chain), AGENTS.md (rows + 3 chain bullets), _INDEX + _NETWORK; FLEET_MAP 3 L1 rows + FLEET_DIRECTORY regenerated (`render_directory.py` rc 0). The "held for co-registration" mechanism (PAT-047) was correct and fired as designed — it just got resolved same-session by Will lifting the routing rather than waiting for PROME. Done with WALTER live concurrently (explicit pathspec commits; WALTER work untouched). Nothing further owed from DAEDALUS on these builds; next is the first content-grade once each accrues sessions.
 
@@ -178,10 +188,12 @@ Newest first. Keep entries terse; archive build minutiae to `FLEET_MAP.tsv`.
 
 ## Roadmap (where the standard should go)
 
+*(Roadmap swept 2026-07-12, self-sweep S1 #6 — the 4 done rows were never struck: the exact PAT-032 class. Current forward items live in STATUS.md §Next actions; this table = the original Phase-era roadmap, now fully dispositioned.)*
+
 | Priority | Item | Why | Phase |
 |---|---|---|---|
-| High | Assemble `market-agent` + `utility-agent` blueprints **best-of-breed** from `BEST_PRACTICES.md` (NOT cloned from one agent — sources: REGINALD/LIQUID/OTTO/BOND/MARCO for market; WALTER/NEXUS/RED/YEYOU for utility) | Complete the variant set; give the scorer a standard per class | 3 |
-| High | Build the maturity scoring script (objective L0–L2 floor) | Makes the fleet map trustworthy + rerunnable | 2 |
-| Med | First full fleet maturity scan → seed `FLEET_MAP.tsv` for all ~20 agents | The deliverable Will most wants | 2 |
+| ~~High~~ | ~~Assemble `market-agent` + `utility-agent` blueprints best-of-breed~~ — ✅ **DONE 6/28** (both built + ACTIVE same day; meta variant too — see 6/28 entries) | ~~Complete the variant set~~ | ✅ 3 |
+| ~~High~~ | ~~Build the maturity scoring script~~ — ✅ **DONE 6/27** (`scripts/maturity_scan.py`, hardened 6/28 PAT-020 + 7/3 PAT-031 heuristic) | ~~Trustworthy + rerunnable map~~ | ✅ 2 |
+| ~~Med~~ | ~~First full fleet maturity scan → seed FLEET_MAP~~ — ✅ **DONE 6/27** (+ judgment-read firming pass completed 7/10: every active agent read-verified) | ~~The deliverable Will most wants~~ | ✅ 2 |
 | ~~Med~~ | ~~Bring `AGENTS/templates/CLAUDE_TEMPLATE.md` under `BLUEPRINTS/`~~ — ✅ **MOOT** (Will deleted `AGENTS/templates/` 6/30, `58c30516`; BLUEPRINTS are the sole standard) | ~~Stop template/reality drift~~ | ✅ 3 |
-| Low | Decide cadence: on-demand vs light weekly map refresh | Avoid staleness without over-running | post-2 |
+| ~~Low~~ | ~~Decide cadence: on-demand vs light weekly map refresh~~ — ✅ **RESOLVED 7/4-7/12** by the sweeps system (`sweeps/REGISTRY.tsv`: staleness 21d / production review 14d / falsification 21d, boot cadence-checked via `sweeps_due.py`) | ~~Avoid staleness without over-running~~ | ✅ |

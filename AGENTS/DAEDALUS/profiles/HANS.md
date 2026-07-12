@@ -1,5 +1,5 @@
 # HANS — DAEDALUS Comprehension Profile
-**Built:** 2026-07-10 (firming read, single full-core reader) · **Grade at build:** L3 Conf-M-high (was L2 Conf-L — under-rate, PAT-024 #8) · **Class:** Market, tier-2 spawn-as-needed
+**Built:** 2026-07-10 (firming read, single full-core reader) · **Grade at build:** L3 Conf-M-high (was L2 Conf-L — under-rate, PAT-024 #8) · **Class:** Market, tier-2 spawn-as-needed · **Staleness:** refresh on FLOW reconcile-or-freeze changelist landing or >45d
 
 ## Identity in one line — ⚠️ THE LABEL IS WRONG FLEET-WIDE
 HANS is **European macro through the US-market lens** (German PMI→ISM ~2mo lead = declared #1 signal, ECB/Fed divergence, EU custody of USTs, EU sovereign spreads/LDI, EU bank USD-funding, EU energy *demand-side* TTF/storage) — per its own charter `CLAUDE.md:3,10`, with military/geopolitics **explicitly ceded to HAWK** (`:92`). The "Geopolitics (energy-geo)" label in `PROME/ROSTER.md:46` (+ formerly this map + `HENRY/STATUS.md:119`) is drift — it mis-rubrics graders and mis-routes signals (PAT-042). ROSTER fix flagged to PROME 7/10.

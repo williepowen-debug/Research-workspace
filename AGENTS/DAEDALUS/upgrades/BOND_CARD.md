@@ -5,7 +5,7 @@
 **Verdict: L4 (conf M — the lowest-conf of the firm-7), adversarially verified 6/28.** BOND is **conformant or exemplary on 6 of 8 sections**; predictions/exit/thesis are among its *strongest* dimensions (the old "thin prediction discipline" read was WRONG — PAT-024). conf is **M not H** because the cross-agent-routing dimension has a live structural hole (NEXUS_BRIEF absent → no steady-state channel post-HERMES) and BOND has had no session since 6/20 to act on two queued Will-approved SIGs. Every proposal below is an *added handle* or a *staleness refresh*, never a rewrite (PAT-015 floor-not-ceiling). Nothing applied — this is the queue.
 
 **↳ BATCH cross-ref (do NOT re-propose — already routed):**
-- **§2 Convergence `Independence` column** = **BATCH_02 item A5 (pending PROME)**. Encodes the existing VX-08…16 "feed-not-double-counted" note (already in the composite prose). Referenced below, not re-proposed.
+- **§2 Convergence `Independence` column** = **BATCH_02 item A5 — ✅ APPLIED 2026-07-01 by PROME** (`AGENTS/BOND/STATUS.md:87,96`, "Independence column added 2026-07-01... Will-approved"). *(Closure note added 2026-07-12 per DAEDALUS self-sweep.)* Encodes the existing VX-08…16 "feed-not-double-counted" note (already in the composite prose). Referenced below, not re-proposed.
 - **§6 NEXUS_BRIEF.md build** (BOND's pending "Packet 7") = **BATCH_02 §C HELD build** — net-new channel infra, deliberately held to justify vs the messaging-overhaul (`messaging_overhaul`; don't build dead channel infra). Referenced below, not re-proposed.
 
 ---
@@ -36,7 +36,7 @@
 
 ## The queue
 1. **FLEET_MAP correction (DAEDALUS's own file — DONE in BATCH_02):** L3→L4, struck the false "build prediction track (it's thin)" premise; predictions are a STRONGEST dimension (PAT-024). No concurrency risk.
-2. **§2 Independence column** (+ trivial `#`) — **already in BATCH_02 A5 (pending PROME)**; cheap formalization of the existing prose note. Reference, do not re-propose.
+2. **§2 Independence column** (+ trivial `#`) — **✅ APPLIED 7/1 by PROME** (BATCH_02 A5, `BOND/STATUS.md:87,96`). No further action. *(Closed 2026-07-12.)*
 3. **§5 if-falsified ACTION column** on PREDICTIONS.tsv — **NET-NEW**; the only real net-new section-handle gap. Cheap formalization (consequence already in Notes prose) → makes the predictions dimension fully conformant. Batch with item 2 as one BOND changelist on approval.
 4. **CLAUDE.md HERMES dangling-ref fix** — **NET-NEW**; cheap hygiene already flagged by the 6/27 protocol-audit SIG. BOND's own file, idle.
 5. **§3 optional KILL_MEMO extraction** — low value; conjunction triggers already cover the cascade. Defer.

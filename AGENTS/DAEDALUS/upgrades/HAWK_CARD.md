@@ -1,5 +1,7 @@
 # Upgrade Card — HAWK (read-only assessment, no agent files touched)
 
+> ⚠️ **SUPERSEDED 2026-07-12** — HAWK split (OSPREY Russia/Ukraine + FALCON Iran/Gulf; HAWK re-cut to cross-war synthesis + dormant book, `builds/OSPREY_FALCON_BUILD.md`). The Iran-core queue below now = FALCON's domain; fresh cards owed for HAWK-residual/OSPREY/FALCON at the 7/18 production review.
+
 **By:** DAEDALUS · **Date:** 2026-06-29 · **Class:** Market (geopolitical & military risk → oil/vol/credit; energy-strikes DATA agent, **light-end SINGLE-CHANNEL**, holds NO trade book — oil ceded to BRENT Mar-6)
 **Method:** `UPGRADE_PROTOCOL.md` (one section at a time) · graded vs `BLUEPRINTS/market-agent.md` · comprehension in `profiles/HAWK.md`
 **Verdict: L4 (conf H), adversarially verified 6/28** (firm-next7). HAWK is a **strong-calibration** agent — **conformant or exemplary on all 8 sections**, with Convergence / Invalidation-exit / Predictions all **exemplary**. The 6/27 mechanical scan's "no exit-rules / missing falsification rails" was a **definitive false-negative** (PAT-024) — rails live in 5 distinct places. Every item below is an *added handle* or a *staleness refresh*, never a rewrite (PAT-015 floor-not-ceiling). Nothing applied — this is the queue.
