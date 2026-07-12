@@ -68,7 +68,7 @@
 | 🟠 Ongoing | Oman two-route Hormuz mediation + US-Iran technical talks | Lands w/ a date → B-path; dies → D |
 | 🟠 Ongoing | Iraq/PMF-Kataib Hezbollah backlash (unfired discriminator #5; Baghdad watch automated, QUIET 7/12) | Green Zone/Embassy Baghdad attack → new-theater D confirm |
 | 🟡 Ongoing | Mojtaba public reappearance | Would ease the incapacitation/longer-tail flag |
-| 🟡 Tue Jul 15 | HAW-15 window closes — named crude-export TERMINALS unstruck in-window (trending CONFIRMED-on-letter) | Named terminal hit in the final 3 days flips it; else terminal-pivot held |
+| ✅ Resolved 7/12 | HAW-15 **FAILED** (Will-directed correction of my same-day CONFIRMED-lean) — crude-export channel re-hit in-window: Primorsk ~6/25 / NOVATEK-Ust-Luga 7/10 (exports halted) / Vysotsk / Kavkaz / 7/4 St-Pete op; Novorossiysk 5/23+6/8 (pre-window ledger gaps) | Flip-trigger #2 FIRED, but in-window damage LIMITED → crude exports not yet degraded → Brent decoupling holds at the tape. **Escalation of terminal damage = the next Brent tell.** |
 | 🟠 → Aug 1 | HAW-17 (NEW) — Ukraine's shadow-fleet TANKER campaign (7/6-12, 21-42 vessels claimed; Ukrainian KINETIC destruction, VX-SHADOW→RED) | Becomes a world-crude-supply event (named terminal / Kpler liftings drop / war-risk buyer pullback) → Brent-bid channel opens, flag BRENT; stays attritional + Crimea-fuel logistics → contained. MIXED channel (crude tankers vs Azov fuel-to-Crimea) |
 
 ---
