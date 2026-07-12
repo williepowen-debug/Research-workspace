@@ -7,19 +7,21 @@ Canonical paths remain `AGENTS/<NAME>/`. This file is an index only.
 | Agent | Path | Role |
 |---|---|---|
 | LABOR | [`LABOR/`](./LABOR/) | Employment, claims, labor-market deterioration; upstream credit trigger. |
-| CARL | [`CARL/`](./CARL/) | Consumer credit, housing, delinquencies, phantom debt; receives LABOR stress. |
+| CARL | [`CARL/`](./CARL/) | Consumer credit / consumer-transmission macro, delinquencies, phantom debt; receives LABOR stress; consumes HOMER housing asset-market data. |
+| HOMER | [`HOMER/`](./HOMER/) | Housing asset market (foreclosure pipeline, GSE + Trepp CMBS-MF one-owner figure, builders, HPI, mortgage-rate surface); promoted from CARL 2026-07-12. Feeds CARL (consumer transmission), REGINALD (bank collateral), HENRY (wealth effect). |
 | OTTO | [`OTTO/`](./OTTO/) | Auto and consumer DQ canary; feeds CARL. |
 | REGINALD | [`REGINALD/`](./REGINALD/) | Regional banks, NDFI exposure, CRE bank transmission, WAL/OZK bank transmission. |
 | OZK | [`OZK/`](./OZK/) | Bank OZK focused surface; spun out from REGINALD. |
 | CORAL | [`CORAL/`](./CORAL/) | Florida convergence: real estate, insurance, FL banks, migration/tourism. |
-| CREED | [`CREED/`](./CREED/) | National CRE / CMBS market stress plus public REIT equity-market tape; feeds REGINALD, CORAL, LIQUID, and CARL. Claude Code roster — do not spawn without explicit Will permission. |
+| CREED | [`CREED/`](./CREED/) | National CRE / non-MF CMBS market stress plus public REIT equity-market tape; feeds REGINALD, CORAL, and LIQUID. Multifamily / Trepp CMBS-MF figure handed to HOMER (one-owner handoff 2026-07-12). Claude Code roster — do not spawn without explicit Will permission. |
 
 ## Transmission map
 
 ```text
 LABOR → CARL → REGINALD → repricing
            ↘ OTTO
-CREED → REGINALD (national CRE/CMBS + REIT tape bank bridge) + LIQUID (refi/funding) + CARL (multifamily)
+HOMER → CARL (consumer transmission) / REGINALD (bank collateral) / HENRY (wealth effect)
+CREED → REGINALD (national CRE/non-MF CMBS + REIT tape bank bridge) + LIQUID (refi/funding) + HOMER (Trepp CMBS-MF, one-owner handoff)
 REGINALD ↔ OZK / CORAL / BROCK
 LIQUID amplifies; HENRY gauges market speed; VIOLET tracks credit→vol lag.
 ```

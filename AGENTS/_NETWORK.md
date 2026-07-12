@@ -20,7 +20,7 @@ flowchart LR
 
     subgraph CREDIT[Credit / consumer / banks]
         LABOR[LABOR<br/>Employment / claims]
-        CARL[CARL<br/>Consumer credit / housing]
+        CARL[CARL<br/>Consumer credit / consumer transmission]
         OTTO[OTTO<br/>Auto / consumer DQ]
         REGINALD[REGINALD<br/>Regional banks]
         OZK[OZK<br/>Bank OZK]
@@ -165,7 +165,7 @@ flowchart LR
 
 | Chain | Primary path | What confirms stress |
 |---|---|---|
-| Credit | LABOR → CARL → REGINALD → HENRY/LIQUID, with CREED feeding CRE/CMBS and public REIT tape bank-bridge stress | Claims/payroll composition, consumer DQ/housing, CRE maturity/default recognition, REIT equity/NAV/dividend stress, bank loss recognition, market repricing |
+| Credit | LABOR → CARL → REGINALD → HENRY/LIQUID, with CREED feeding CRE/CMBS and public REIT tape bank-bridge stress | Claims/payroll composition, consumer DQ (housing asset-market feed via HOMER — see Housing chain), CRE maturity/default recognition, REIT equity/NAV/dividend stress, bank loss recognition, market repricing |
 | Private credit | BROCK → SHADE → LIQUID / REGINALD | Gates, PIK/NAV stress, insurer wrapper funding, NDFI bank bridge |
 | Energy shock / war | {OSPREY, FALCON} → HAWK → BRENT → HENRY/LIQUID/CARL (acute theater signals → BRENT direct, HAWK cc) | Theater kinetic/chokepoint events, cross-war reconciliation, Brent/storage/insurance, inflation/demand destruction |
 | Housing | HOMER → CARL / REGINALD / HENRY | Foreclosure pipeline, GSE-vs-CMBS multifamily divergence, builder margins, HPI, mortgage-rate surface |

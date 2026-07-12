@@ -6,8 +6,12 @@ Canonical paths remain `AGENTS/<NAME>/`. This file is an index only.
 
 | Agent | Path | Role |
 |---|---|---|
-| HAWK | [`HAWK/`](./HAWK/) | Geopolitical/military risk, Gulf infrastructure, chokepoints, kinetic escalation. |
+| OSPREY | [`OSPREY/`](./OSPREY/) | Russia-Ukraine war theater (←HAWK split 2026-07-12); acute 🔴 theater signals go direct to BRENT, HAWK cc'd. |
+| FALCON | [`FALCON/`](./FALCON/) | Iran-Gulf war theater (←HAWK split 2026-07-12); acute 🔴 theater signals go direct to BRENT, HAWK cc'd. |
+| HAWK | [`HAWK/`](./HAWK/) | Cross-war geopolitical synthesis + dormant book (reclassified 2026-07-12 — theater ownership moved to OSPREY/FALCON); reconciles theater reads for BRENT; Taiwan-chokepoint feed to VULCAN, PGM-supply feed to MIDAS. |
 | BRENT | [`BRENT/`](./BRENT/) | Oil and energy markets, storage, tankers, refinery damage, energy-credit transmission. |
+| WATT | [`WATT/`](./WATT/) | Power/grid: PJM stress → power price → cost transmission (DAEDALUS-built 2026-07-10/11). |
+| MIDAS | [`MIDAS/`](./MIDAS/) | Metals: monetary (gold/silver ↔ real rates, with BOND) + industrial (copper/PGM ↔ China, with ZHAO); safe-haven/growth tells to LIQUID/HENRY (DAEDALUS-built 2026-07-10/11). |
 | MARCO | [`MARCO/`](./MARCO/) | Migration/labor supply bridge into labor, agriculture, energy demand, tourism. |
 | AEOLUS | [`AEOLUS/`](./AEOLUS/) | Climate → economy (macro). Channels: insurance/reinsurance, agriculture/food, energy demand. Tiered weather (live) / structural-climate (backdrop) horizon. |
 | BARON | [`BARON/`](./BARON/) | Trump/policy network and political vector tracking. *(dormant — revive on need.)* |
@@ -15,8 +19,10 @@ Canonical paths remain `AGENTS/<NAME>/`. This file is an index only.
 ## Transmission map
 
 ```text
-HAWK → BRENT → HENRY / LIQUID / CARL
+{OSPREY, FALCON} → HAWK → BRENT → HENRY / LIQUID / CARL   (acute theater signals → BRENT direct, HAWK cc'd)
 AEOLUS → BRENT (energy demand) / CORAL (FL insurance·property) / MARCO (food-CPI·migration)
+AEOLUS → WATT → HENRY / CARL (grid stress → power price → cost); BRENT → WATT (gas → power)
+{BOND, ZHAO} ↔ MIDAS → LIQUID / HENRY (metals tells); HAWK → MIDAS (PGM supply SA/Russia)
 BARON → HAWK (policy vector)
 MARCO bridges labor supply, migration, agriculture, tourism, and energy demand.
 ```
