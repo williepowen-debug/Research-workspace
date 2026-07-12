@@ -2,7 +2,9 @@
 
 **Promoted from CARL sub-agent 2026-07-12** (Will-directed; DAEDALUS review `AGENTS/DAEDALUS/builds/homer_promotion/PROMOTION_REVIEW.md`). Parent-era record (pre-promotion dashboard, Spawn 1-6 history) lives in `archive/` + `state_vectors/` — not restated here.
 
-**Last Updated:** 2026-07-12 (promotion rebuild) | **Status:** 🔴 CRITICAL | **Data vintage:** rebuilt from CARL's current STATUS housing rows (freshest available source — CARL STATUS.md updated 2026-07-12), NOT a straight copy of HOMER's own pre-promotion STATUS (which was 34 days stale, Jun-8 vintage, superseded banners already applied). **This STATUS launches current as of the CARL cutover point; HOMER's own first-boot session owes the next live data refresh (see First-Boot Mandate below) — most rows below carry May/June 2026 as-of dates, not July.**
+**Last Updated:** 2026-07-12 (first-boot live-data session, post-promotion-rebuild) | **Status:** 🔴 CRITICAL | **Data vintage:** rebuilt from CARL's current STATUS housing rows at promotion (freshest available source at cutover), THEN refreshed this session with live web pulls (ICE First Look May 2026, Freddie PMMS Jul 9, NAR June EHS, builder-earnings calendar verification). Most core rows are now July-current on the check date; a few (Fannie/Trepp MF, Case-Shiller, Freddie HPI) remain at their natural release-cadence vintage (May/June) — that is normal lag, not staleness, and is flagged per-row.
+
+**Inheritance verification (this session, 2026-07-12):** spot-verified 4 load-bearing inherited figures against primaries — **0 drifts found** in the values themselves (Fannie May 0.58% MF serious DQ confirmed exact via CalculatedRisk/PR Newswire/StockTitan; Trepp June 7.23% MF DQ [+28bps, 48bps below Apr's 7.71% ATH] confirmed exact via Multi-Housing News/Yield PRO/ConnectCRE; ATTOM Q1 82,631 FC starts confirmed internally consistent across HOMER/CARL files — it's the FC-starts figure, not a separate metric). **3 staleness gaps found and fixed** (not copy-drift, but rows that aged out since the 6/26–7/4 cutover pulls): 30Y PMMS was 3 weeks stale (Jun 18 6.47% → now Jul 9 6.49%, w/ Jul 2 6.43% 7-wk-low waypoint); ICE foreclosure-pipeline trio (FC inventory/starts/DQ rate) was April-vintage → refreshed to May (ICE First Look, rel Jun 26); NAR Existing Home Sales June print was mis-scheduled in the inherited docket as a ~7/23 upcoming catalyst — it **already released 7/9** (4.09M SAAR, -2.4% MoM, +2.8% YoY) and is now booked as data, not a forward catalyst (see docket fix below). **MF-books as-of-date check:** Fannie (May, rel Jun 26) and Trepp (June, rel ~Jul 4) are NOT the same calendar month — confirmed intentional, not drift: Trepp's monthly print structurally releases ~3-4 weeks faster than Fannie's, so a 1-month stagger between the two books is the steady-state, not a desync to fix.
 
 ---
 
@@ -25,10 +27,10 @@ The single best open housing question, now consolidated under one owner (HOMER, 
 | Metric | Value | As Of | Source | Status |
 |--------|-------|-------|--------|--------|
 | Foreclosures Q1 2026 (ATTOM) | **118,727 filings** (+6% QoQ, +26% YoY). **Q1 REO 14,020 (+45% YoY) — pipeline CONVERTING, not just accumulating.** | Apr 16, ATTOM | ATTOM | 🔴 |
-| ICE Active FC Inventory | **276K (+32% YoY); above Mar-2020 pre-pandemic 271K for 2nd consec month.** FC starts 37K Apr +26% YoY; cures ~20% below YoY pace. | Apr 2026, ICE Mortgage Monitor | ICE | 🔴🔴 |
+| ICE Active FC Inventory | **280K (+34% YoY, highest in 6 years);** above Mar-2020 pre-pandemic 271K for 3rd consec month. FC starts 33K May (-9% MoM, +19% YoY); cures -6% MoM, FHA lagging. | May 2026, ICE First Look (rel Jun 26) | ICE | 🔴🔴 |
 | MBA Q1 NDS All Loans DQ | **4.44%** (+18bps QoQ, +40bps YoY); FHA FC inventory highest since Q4 2018, VA highest since Q2 2017. NY Fed HHDC echo (7/12): mortgage serious-DQ transition 1.4→1.5%, +59K new-FC notations — consumer-transmission read, stays at CARL. | Q1 2026 (rel May 14) + NY Fed HHDC | MBA | 🔴 |
-| FHA DQ / Mortgage DQ inflection | **11.52% (Q4-25) vs Conv 2.89%**; ICE: US mortgage DQ rose MoM+YoY in May-26; FHA non-current >13% (FL/2022+ Sun Belt thin-equity vintage concentrated). | Q4-25 MBA + May-26 ICE | MBA/ICE | 🔴 |
-| 90+/FC Pipeline | **878K** (+175K/25% in 4mo, cure -40%) — **[STALE, Feb 2026 — no fresher HOMER pull since]** | Feb 2026, MBA | MBA | 🔴🔴 |
+| FHA DQ / Mortgage DQ inflection | **11.52% (Q4-25) vs Conv 2.89%**; ICE national DQ rate 3.50% May (+15bps MoM — flagged calendar-driven/Sunday month-end, not broad deterioration); FHA non-current >13% (FL/2022+ Sun Belt thin-equity vintage concentrated). | Q4-25 MBA + May-26 ICE | MBA/ICE | 🔴 |
+| 90+/FC Pipeline | **577K 90+ DQ (not in FC), 5-mo SA low but +111K YoY (largest annual increase since 2020) + 280K FC inventory ≈ 857K combined** — refreshes the stale MBA 878K Feb cut with ICE's May read (different source/methodology, same concept; composition shifted toward more FC-inventory, fewer new serious-DQ entries). | May 2026, ICE First Look (rel Jun 26) | ICE | 🔴🔴 |
 | Nat'l State Leaders Q1 | TX 10,617 FC starts #1; FL 10,099 #2. Top rates: IN 1/739 HU, SC 1/743, FL 1/750. | Q1 2026, ATTOM | ATTOM | 🔴 |
 | Non-Bank Servicer Stress | **PennyMac FHA DQ 7.5%** (+160bps QoQ); loanDepot $107.5M loss; Rithm Q1 "DQ will reverse" claim QUIETLY DROPPED → mod-accounting normalization framing. | Apr 28 + Apr 13 | PennyMac/Rithm 10-Q/8-K | 🟠 |
 
@@ -44,10 +46,10 @@ The single best open housing question, now consolidated under one owner (HOMER, 
 ### Mortgage Rates / Demand (HOMER-owned surface, ★ ruling)
 | Metric | Value | As Of | Source | Status |
 |--------|-------|-------|--------|--------|
-| 30-Yr Mortgage (PMMS) | **6.47% Jun 18** (−5bps from 6.52% Jun 11) — **pre-FOMC survey, does NOT capture the Jun-17 hawkish reprice.** Sideways 6.47-6.53% band = no genuine refi relief. | Jun 18, Freddie PMMS | Freddie | 🟠 |
-| 10Y-FRM Spread | **~195-200bps** (vs ~150bps historical norm) — HOMER-owned mortgage-specific surface; Treasury/Fed direction referenced-only (BROCK/HENRY). Post-FOMC UST 10Y 4.52%/30Y ~4.95% (cracked 5.00% intraday, highest since 2007). | Jun 22, Freddie PMMS + UST | Freddie/UST | 🟠 |
-| MBA Purchase Apps | **+1.1% WoW** (wk Apr 24) — refi window opened-and-shut, Refi −4.4%. | Apr 24, MBA | MBA | 🟠 |
-| Existing Home Sales (SAAR) | **4.17M May** (+3.2% MoM), cleared <4.0M RED. Months-supply 4.5 (above pre-pandemic first time in years); median $429,300 +1.3% YoY = weakest appreciation in cycle; first-time share 35% (compositional, not mass-market recovery). | May 2026 (rel Jun 19), NAR | NAR | 🟠 (was 🔴🔴) |
+| 30-Yr Mortgage (PMMS) | **6.49% Jul 9** (+6bps from 6.43% Jul 2, which was a 7-week low). Post-FOMC dip fully played out by Jul 2, then partially reversed. YoY 6.72% (-23bps). Still no genuine refi relief. **[Refreshed this session — was 3wk-stale at Jun 18 6.47%.]** | Jul 9, Freddie PMMS | Freddie | 🟠 |
+| 10Y-FRM Spread | **~195-200bps** (vs ~150bps historical norm) — HOMER-owned mortgage-specific surface; Treasury/Fed direction referenced-only (BROCK/HENRY). Post-FOMC UST 10Y 4.52%/30Y ~4.95% (cracked 5.00% intraday, highest since 2007). [UST leg needs a fresh Jul pull next session — held at Jun 22 vintage.] | Jun 22, Freddie PMMS + UST | Freddie/UST | 🟠 |
+| MBA Purchase Apps | **+1.1% WoW** (wk Apr 24) — refi window opened-and-shut, Refi −4.4%. **[STALE — owed a fresh weekly pull, not sourced this session.]** | Apr 24, MBA | MBA | 🟠 |
+| Existing Home Sales (SAAR) | **4.09M June** (-2.4% MoM from May, +2.8% YoY), stays clear of <4.0M RED. Median $440,600 (+1.8% YoY, 36th consecutive YoY increase); inventory 4.6mo (1.56M units). **[Refreshed this session — corrects an inherited docket error that flagged this as a ~7/23 upcoming catalyst; it released 7/9. Next EHS release: Aug 10 (July data).]** | Jun 2026 (rel Jul 9), NAR | NAR | 🟠 |
 | New-Home Sales + Builder Overhang | **580K SAAR May (−7.3% MoM, not stat-sig)**; **months-supply 10.3, tied 2008-09 bust high** (from 9.3 Apr). Builder supply ~2x existing. ~50% of AZ/FL listings cutting prices. | May 2026 (rel Jun 24), Census | Census | 🔴 |
 
 ### Builder Distress
@@ -78,33 +80,39 @@ The single best open housing question, now consolidated under one owner (HOMER, 
 
 ---
 
-## OPEN ITEMS (first-boot mandate)
+## OPEN ITEMS
 
-1. **Owed full data refresh — hard prerequisite, not nice-to-have.** Most rows above carry May/June 2026 as-of dates (CARL's freshest at cutover). HOMER's own STATUS was 34 days stale pre-promotion; the ATTOM Q2 print (7/16) is the first live test of the rebuilt agent and should anchor the first refresh pass.
-2. **FL condo reconciliation owed (CORAL cc).** Live, unresolved divergence: CORAL's broad FL condo index (−6.1% YoY, 92% of markets declining) vs. HOMER's county-level medians (Miami-Dade <$400K −10% YoY, Broward −8% YoY). Different metrics (broad index vs. county medians/inventory) — not necessarily contradictory, but no reconciliation pass has been run. Logged as a docket item.
-3. **CRL-06 metric-clarification owed by CARL** (starts vs. filings vs. REO threshold definition) — HOMER supplies the data (ATTOM Q1: 82,631 FC starts already exceeds 70K), CARL owns the resolution call.
-4. **CREED task packet DELIVERED 7/12** (S5 demotion to HOMER-fed cross-reference + Trepp MF routing — `AGENTS/CREED/inbox/`) — unconsumed until CREED's next Tier-2 spawn. *(Corrected same-day: this file was rebuilt before the WP-H2 delivery pass ran — cross-model review catch.)*
-5. **3-way Trepp citation collapse** — REGINALD packet DELIVERED 7/12 (`AGENTS/REGINALD/inbox/`); HOMER-primary / CREED+REGINALD-consumer formalized in the rulings, but the REGINALD-side re-source lands at REGINALD's next boot — not yet executed in its files.
+1. **First-boot data refresh — DONE this session for the highest-value rows** (ICE pipeline trio, PMMS, June EHS; see Inheritance verification note above). Still owed: MBA weekly purchase-apps refresh, UST 10Y/30Y leg of the 10Y-FRM spread, Freddie HPI/Case-Shiller next-print pulls (next release Jul 28 — see Catalysts). Not a hard blocker, but next session should close these.
+2. **FL condo reconciliation owed (CORAL cc).** Live, unresolved divergence: CORAL's broad FL condo index (−6.1% YoY, 92% of markets declining) vs. HOMER's county-level medians (Miami-Dade <$400K −10% YoY, Broward −8% YoY). Different metrics (broad index vs. county medians/inventory) — not necessarily contradictory, but no reconciliation pass has been run. Logged as a docket item; not actioned this session (out of this session's scope).
+3. **CRL-06 data package DELIVERED this session** — `AGENTS/HOMER/reports/2026-07-12_CRL-06-data-package.md`. Full starts/filings/REO dataset incl. a genuinely new finding: the metric choice is outcome-determinative — starts (82,631 Q1, 55,718 Apr+May, tracking a 2nd straight >70K quarter) and filings (118,727 Q1) both already clear 70K, but REO (14,020 Q1) does not and is not the same order of magnitude — so "which metric" isn't a rounding question, it flips the resolution. CARL still owns the resolution call.
+4. **CREED task packet DELIVERED 7/12, verified still on disk/unconsumed this session** (S5 demotion to HOMER-fed cross-reference + Trepp MF routing — `AGENTS/CREED/inbox/2026-07-12_from-DAEDALUS_homer-promotion-s5-demotion.md`). CREED's own 7/4 STATUS independently carries the same June 7.23%/9.53%-mat-adj Trepp figures HOMER owns — consistent, not contradictory; the packet's job is to formalize CREED as consumer, not to fix a numeric error.
+5. **3-way Trepp citation collapse** — REGINALD packet DELIVERED 7/12, verified still on disk/unconsumed this session (`AGENTS/REGINALD/inbox/2026-07-12_from-DAEDALUS_homer-promotion-trepp-mf-owner.md`); HOMER-primary / CREED+REGINALD-consumer formalized in the rulings, but the REGINALD-side re-source lands at REGINALD's next boot — not yet executed in its files.
 
 ---
 
-## CATALYSTS (near-term — full calendar in `docket/CATALYSTS.tsv`)
+## CATALYSTS (near-term — full calendar in `docket/CATALYSTS.tsv`, corrected this session)
 
 | Date | Event | Watch |
 |------|-------|-------|
-| **Jul 16** | ATTOM Q2 2026 foreclosures | CRL-06 metric test; V10 acceleration continuation |
-| **Jul 22-23** | DHI FQ3 / PHM Q2 earnings | CRL-23 FY27 tariff language; GM vs. KB Home's 2.5% floor |
-| Monthly | NAHB HMI, Trepp CMBS, Freddie PMMS | Builder sentiment; GSE-vs-CMBS divergence continuation |
-| ~Aug | MBA Q2 NDS, Fannie/Freddie June MF DQ | Pipeline + divergence confirmation |
+| **Jul 16, 10:00am ET** | NAHB HMI (July) | Builder sentiment continuation off June's 35 (14th consec <40) |
+| **Jul 16** | ATTOM Q2 2026 foreclosures (est., unconfirmed) | CRL-06 metric test; V10 acceleration continuation — starts/filings pace already tracking >70K (see CRL-06 package) |
+| **Jul 17** | Census Housing Starts/Permits (June) | SF vs MF starts split; South/West softness continuation |
+| **Jul 21, 8:30am ET call** | DHI FQ3 2026 earnings (corrected from prior 7/22 est.) | CRL-23 FY27 tariff language; GM vs. KB Home's 2.5% floor |
+| **Jul 22, 8:30am ET call** | PHM Q2 2026 earnings (corrected from prior 7/23 est.) | CRL-23 read-through; K-shape commentary continuation |
+| **Jul 28** | S&P Case-Shiller (May data) | Nominal-accel/real-negative divergence continuation; Realtor.com leading-edge rollover test |
+| Thu, weekly, 12:00pm ET | Freddie PMMS | Rate trajectory off Jul 9's 6.49% (+6bps off 7-wk low) |
+| ~late-Jul | Trepp CMBS (June/July print), Fannie June MF DQ | GSE-vs-CMBS divergence continuation |
+| Aug 10 | NAR Existing Home Sales (July data) | **[Corrected this session — June data already released 7/9 (4.09M SAAR); do not treat EHS as a ~7/23 catalyst.]** |
+| ~Aug | MBA Q2 NDS | Pipeline confirmation |
 
 ---
 
 ## PREDICTIONS
 
-HOMER's own ledger (`thesis/PREDICTIONS.tsv`, HOM-xx) is freshly opened at promotion — **0 rows**, first live session opens HOM-01+. **CRL-06 (foreclosures >70K/qtr) and CRL-23 (builder FY27 GM compression) remain on CARL's `thesis/PREDICTIONS.tsv`** — parent-retained per DAEDALUS ★ ruling (both are CARL convergence-matrix thesis-scoring instruments); HOMER is the data owner feeding them, not the resolution owner. CRL-06 metric-clarification is CARL-owed (see Open Items #3).
+HOMER's own ledger (`thesis/PREDICTIONS.tsv`, HOM-xx) is freshly opened at promotion — **0 rows**, first live session opens HOM-01+. **CRL-06 (foreclosures >70K/qtr) and CRL-23 (builder FY27 GM compression) remain on CARL's `thesis/PREDICTIONS.tsv`** — parent-retained per DAEDALUS ★ ruling (both are CARL convergence-matrix thesis-scoring instruments); HOMER is the data owner feeding them, not the resolution owner. CRL-06 data package (this session) is the current best evidence pack; CARL owns the resolution call.
 
 ---
 
 ## BOTTOM LINE
 
-HOMER launches with a strong seed corpus (~287 workbook rows across 5 live TSVs + a provenance-clean frozen KB) and a structurally clean 7/10 restructure pass behind it, but the dashboard above is rebuilt from CARL's fresher rows, not from a live HOMER pull — most figures are May/June 2026 vintage, and the honest gap is flagged rather than hidden. The single most important thing right now is the GSE-vs-CMBS multifamily divergence (Fannie improving to 0.58% vs. Trepp deteriorating to a maturity-adjusted 9.53% multi-year high) — HOMER is now the one owner of that figure, with CREED and REGINALD as consumers, closing a 3-way independent-citation risk that predates the promotion. Next: ATTOM's 7/16 Q2 release is the first live test of the rebuilt agent and should anchor the owed full data refresh, alongside the FL condo reconciliation with CORAL and the CREED/REGINALD handoff packets (delivered 7/12, unconsumed until their next boots).
+HOMER's first live session closed the promotion-rebuild's honest data-vintage gap on the highest-value rows: inheritance verification found the copied figures themselves clean (0 drifts on Fannie 0.58%, Trepp 7.23%/9.53%, ATTOM 82,631 starts — all confirmed against primaries), but 3 rows had aged out since the 6/26-7/4 cutover pulls and are now refreshed (30Y PMMS 6.49% Jul 9, ICE FC-pipeline trio to May, NAR EHS to the actual June print — which also corrected an inherited docket error that had June's already-released 7/9 report misfiled as a ~7/23 upcoming catalyst). The single most important thing right now is still the GSE-vs-CMBS multifamily divergence (Fannie improving to 0.58% vs. Trepp deteriorating to a maturity-adjusted 9.53% multi-year high, now confirmed on both legs) — HOMER is the one owner, CREED/REGINALD are consumers, and both handoff packets are verified still on disk and unconsumed (expected — lands at their next boots). The CRL-06 data package is delivered (`reports/2026-07-12_CRL-06-data-package.md`) with a genuinely new finding: the starts-vs-filings-vs-REO metric choice is outcome-determinative, not cosmetic — CARL's resolution call actually matters. Next: ATTOM's ~7/16 Q2 release (date still unconfirmed by press release) is the next hard test; NAHB (7/16), Census starts (7/17), and DHI/PHM earnings (7/21, 7/22 — both corrected by a day from the inherited estimate) are the near-term catalyst wall, each now carrying an exact date/time and a mechanical resolver per the sweep's GAPS lens (see `reports/2026-07-12_domain-sweep.md`).

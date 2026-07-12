@@ -1,4 +1,4 @@
-# LIVE — Last real data refresh: 2026-06 (KB Home FQ2 2026, rel late-Jun) | Next: DHI FQ3 / PHM Q2 earnings ~Jul 22-23.
+# LIVE — Last real data refresh: 2026-07-12 (HOMER first-boot session: NAR June EHS + Freddie PMMS Jul 9) | Next: NAHB HMI Jul 16 10am ET; DHI FQ3 earnings Jul 21 8:30am ET (confirmed, corrected from prior 7/22 est.); PHM Q2 earnings Jul 22 8:30am ET (confirmed, corrected from prior 7/23 est.).
 Entity	Metric	Value	Prior	As_Of	Source	Status	Notes
 INDUSTRY	NAHB HMI	37	34 (Apr)	2026-05	NAHB (rel 2026-05-18)	R	May 2026 +3pts BOUNCE from Apr 34 (not recovery). Beat est 34. 25th consecutive month <50. Tariff cost shock + Iran war uncertainty cited as headwinds.
 INDUSTRY	HMI Current Sales	40	37 (Apr)	2026-05	NAHB (rel 2026-05-18)	R	+3pts from Apr.
@@ -37,6 +37,7 @@ PHM	Q1 2026 Incentives	10.9% of gross sales price	8.0% (Q1'25)	2026-Q1 (Apr 23)	
 PHM	K-Shape Quote (explicit)	"K-shaped economy — lower/middle income struggling much more"	n/a	2026-Q1 (Apr 23)	PHM Q1 2026 Earnings Call	R	Direct K-shape confirmation from builder mgmt.
 TOL	Q1 FY2026 Adj Gross Margin	26.5%	n/a	2026-Q1	TOL Earnings	G	[STALE Q1 FY26] Luxury segment resilient.
 NATIONAL	Existing Home Sales (SAAR)	4.02M	3.98M (Mar)	2026-04	NAR (rel 2026-05-11)	R	+0.2% MoM. Backed away from <4.0M RED threshold by a whisker. May data releases Jun 9.
+NATIONAL	Existing Home Sales (SAAR) — June	4.09M	4.17M (May, per STATUS)	2026-06	NAR (rel 2026-07-09)	O	-2.4% MoM, +2.8% YoY. Median $440,600 (+1.8% YoY — 36th consecutive YoY price-increase month). Inventory 4.6mo (1.56M units, up from May's 4.5mo). Stays clear of <4.0M RED. [CORRECTS a stale docket assumption: this report already RELEASED 7/9, not a ~7/23 upcoming catalyst — next EHS release is Aug 10 (July data).]
 NATIONAL	Existing Median Price	$417,800	$408,800 (Mar)	2026-04	NAR (rel 2026-05-11)	G	+1.8% YoY. Apr record.
 NATIONAL	Existing Inventory	4.4 months (1.47M units)	4.1 months (Mar)	2026-04	NAR (rel 2026-05-11)	Y	+0.3 mo MoM. Slight easing.
 NATIONAL	New Home Sales (SAAR)	622K	663K (Mar)	2026-04	Census (rel ~May 25)	R	-6.2% MoM, -11.3% YoY. Still worst-since-2022 territory.
@@ -47,7 +48,8 @@ NATIONAL	MBA Purchase Apps (wk 5/8)	+4% WoW, +7% YoY	n/a	2026-05-08 wk	MBA	G	Apr
 NATIONAL	MBA Purchase Apps (wk 5/29)	-3% WoW, +7% YoY	+4% WoW (wk 5/8)	2026-05-29 wk	MBA (rel 2026-06-03)	R	Lowest in 6 weeks. Spring window collapsing as 30Y back-up transmits.
 NATIONAL	MBA Pending Home Sales Tracker	-0.2% WoW	n/a	2026-05-31 wk	MBA	R	3rd consecutive weekly decline.
 NATIONAL	Freddie PMMS 30yr	6.48%	6.53% (prior wk)	2026-06-04	Freddie PMMS	O	Jun 4 2026 release. -5bps WoW; +18bps from Apr 30 6.30% low. YoY 6.85% (-37bps). Iran-shock + UMich un-anchoring + Treasury back-up transmitting.
-NATIONAL	30Y Rate Trajectory	6.30→6.30→6.51→6.53→6.48	n/a	2026-06-04	Freddie PMMS	O	Apr 17 6.30 → Apr 30 6.30 → mid-May 6.51 (multi-week high) → May 29 6.53 → Jun 4 6.48.
+NATIONAL	Freddie PMMS 30yr — Jul 9	6.49%	6.43% (Jul 2, 7-wk low)	2026-07-09	Freddie PMMS (freddiemac.com/pmms, releases Thu 12pm ET)	O	+6bps WoW off the Jul-2 seven-week low; YoY 6.72% (-23bps). STATUS.md's Jun-18 6.47% row was 3 weeks stale — this supersedes it. 15yr 5.82% (vs 5.79% Jul 2).
+NATIONAL	30Y Rate Trajectory (extended)	6.47(Jun18)→6.43(Jul2,7wk low)→6.49(Jul9)	n/a	2026-07-09	Freddie PMMS	O	Post-FOMC dip fully played out by Jul 2 (7-week low), then partially reversed +6bps by Jul 9. No genuine refi relief — still 195-200bps over historical 10Y-FRM norm (see STATUS 10Y-FRM Spread row).
 NATIONAL	MBA 30yr Contract Rate	6.42%	6.51%	2026-04-10	MBA	O	[STALE — Apr 10 wk; superseded by PMMS Jun 4 6.48% direction]
 NATIONAL	Housing Starts (SAAR)	1.465M	1.521M (Feb)	2026-04	Census	R	-2.8% MoM. SF starts 0.930M = -9.0% MoM (most in nearly a year). MF +14.3% offsetting. South -9.1% / West -11%.
 NATIONAL	Refi Rejection	Series high	n/a	2025-Q4	NY Fed SCE	R	[STALE — Q4'25]

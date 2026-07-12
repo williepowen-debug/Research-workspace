@@ -1,4 +1,4 @@
-# LIVE — Last real data refresh: 2026-05 (ATTOM May monthly foreclosure filings, most recent row) | Next: ATTOM Q2 2026 foreclosures ~Jul 16.
+# LIVE — Last real data refresh: 2026-07-12 (HOMER first-boot session, ICE First Look May 2026 pull + ATTOM May national FC-starts/REO) | Next: ATTOM Q2 2026 foreclosures ~Jul 16 (est., unconfirmed — pattern-based on Q1's Apr-16 cadence; no press release seen yet as of 7/12).
 State	Metric	Loan_Type	Value	Prior	Change	As_Of	Source	Status	Notes
 NATIONAL	MBA Q1 NDS All Loans DQ	ALL	4.44%	4.26% (Q4'25)	+18bps QoQ, +40bps YoY	2026-Q1	MBA (rel 2026-05-14)	O	Q1 2026 release. FHA + VA FC inventory at multi-year highs. FC starts +4bps to 0.24%. Pandemic FHA relief expiration (Sep 2025) + trial-payment-plan mechanics contributing.
 NATIONAL	MBA Q1 FC Starts	ALL	0.24%	0.20%	+4bps QoQ	2026-Q1	MBA (rel 2026-05-14)	R	Q1 NDS release.
@@ -11,10 +11,13 @@ NATIONAL	FC Starts (Monthly)	ALL	28,414	n/a	+12% YoY	2026-04	ATTOM (rel 2026-05-
 NATIONAL	REO Completions (Monthly)	ALL	5,098	n/a	+42% YoY	2026-04	ATTOM (rel 2026-05-14)	R	April monthly release. +42% YoY = pipeline converting to REO.
 NATIONAL	REO Completions (Qtr)	ALL	14,020	n/a	+45% YoY	2026-Q1	ATTOM	R	Q1 2026. Pipeline converting accelerating.
 NATIONAL	National FC Rate (Apr)	ALL	1 in 3,388 HU	n/a	n/a	2026-04	ATTOM (rel 2026-05-14)	O	National baseline; state leaders DE/SC/FL/IN.
-NATIONAL	ICE DQ Rate	ALL	3.35%	3.35% (Mar)	Flat MoM	2026-04	ICE/BK Mortgage Monitor 2026	O	April 2026 hold. National DQ rate stable but pipeline still building beneath.
-NATIONAL	ICE FC Starts (Monthly)	ALL	37,000	~39,100 (Mar)	-5.4% MoM, +26% YoY	2026-04	ICE/BK 2026	R	April ICE data. +26% YoY consistent with ATTOM direction.
-NATIONAL	ICE Active FC Inventory	ALL	276K	273K (Mar)	+3K MoM, +32% YoY	2026-04	ICE/BK 2026	R	Above March-2020 pre-pandemic 271K for 2nd consecutive month. Pipeline accumulation intact even as flow stabilizes.
-NATIONAL	ICE Cure Activity	ALL	62K+/mo (Mar-Apr)	n/a	~20% below YoY pace	2026-04	ICE/BK 2026	O	Cures recovered from Nov-Feb collapse but still well below YoY. Pipeline drain insufficient.
+NATIONAL	ICE DQ Rate	ALL	3.50%	3.35% (Apr)	+15bps MoM	2026-05	ICE First Look (rel 2026-06-26, businesswire/housingwire)	O	May 2026. Rise flagged CALENDAR-DRIVEN (Sunday month-end delayed processing), not broad deterioration — mgmt explicit. Still below Jan-2020 pre-pandemic level.
+NATIONAL	ICE FC Starts (Monthly)	ALL	33,000	37,000 (Apr)	-9% MoM, +19% YoY	2026-05	ICE First Look (rel 2026-06-26)	R	May 2026. MoM decline but YoY still elevated; consistent direction w/ ATTOM May starts row below.
+NATIONAL	ICE Active FC Inventory	ALL	280K	276K (Apr)	+4K MoM, +34% YoY	2026-05	ICE First Look (rel 2026-06-26)	R	Highest level in SIX YEARS. Above March-2020 pre-pandemic 271K for 3rd consecutive month. Pipeline accumulation intact even as monthly starts flow eases.
+NATIONAL	ICE 90+ DQ (not in FC)	ALL	577K	577K (Apr, SA)	Flat MoM (5-mo low SA); +111K YoY	2026-05	ICE First Look (rel 2026-06-26)	O	Largest annual increase since 2020 even as SA level hits a 5-month low — composition shift: fewer new serious-DQ entries, but FC-inventory (row above) still growing. [Refreshes the STALE MBA 878K Feb combined 90+/FC row below — different source/methodology (ICE vs MBA), not a direct supersession; combined ICE cut (577K+280K FC inventory ≈ 857K) is the freshest read on the same concept.]
+NATIONAL	ICE Cure Activity	ALL	~58K/mo (May, -6% MoM)	62K+/mo (Mar-Apr)	-6% MoM	2026-05	ICE First Look (rel 2026-06-26)	O	FHA cures continuing to lag broader market performance. Pipeline drain still insufficient.
+NATIONAL	ATTOM FC Starts (Monthly)	ALL	27,304	28,414 (Apr)	-4% MoM, +13% YoY	2026-05	ATTOM (rel 2026-06-11)	R	May monthly release (confirms PIPELINE row below's filings figure). Two-month (Apr+May) FC-starts sum = 55,718; Q1 total was 82,631 — Q2 tracking a comparable or higher starts pace pending June.
+NATIONAL	ATTOM REO Completions (Monthly)	ALL	4,092	5,098 (Apr)	-20% MoM, +6% YoY	2026-05	ATTOM (rel 2026-06-11)	R	May monthly release. YoY still positive but MoM deceleration — watch June for confirmation of the REO-conversion trend (Q1 REO +45% YoY).
 NATIONAL	New DQ Inflow (Monthly)	ALL	609K	n/a	Largest since May 2020	2025-11	ICE/BK	R	[STALE — Nov 2025 data] Single-month record post-COVID. See KB-CARL-013.
 NATIONAL	FHA DQ Rate	FHA	11.52%	n/a	vs Conv 2.89% (8.63pp spread)	2025-Q4	MBA	R	[STALE — Q4'25; Q1'26 MBA NDS released May 14 has updated FHA FC inv at decade high — need primary-source pull for headline DQ rate]
 NATIONAL	Conventional DQ Rate	CONV	2.89%	n/a	n/a	2025-Q4	MBA	G	[STALE — Q4'25] Stable — top-40% resilience.
