@@ -1,6 +1,6 @@
 # VULCAN — TRADE
 
-**NO OPEN POSITIONS — newborn agent (2026-07-10).** No book yet; placeholder feeding PROME synthesis once VULCAN forms tradeable ideas.
+**NO OPEN POSITIONS (as of 2026-07-12).** No book yet; placeholder feeding PROME synthesis once VULCAN forms tradeable ideas. S1 trigger ("capex cut YoY at earnings stack") is **NOT-FIRED** as of the 2026-07-12 quantification — hyperscaler FY26 capex guidance is still being raised (agg ≈$710-725B), not cut. Watching the GOOGL 7/22/26 print (first gate) and the 7/29-31 cluster for a flip; see `STATUS.md`/`THESIS.md` for the registered resolvers (VULCAN-01/03/04).
 
 *(Banner-compliant per blueprint §8 / PAT-023: a trade surface carries a FROZEN/NOT-CURRENT banner OR a live mtime alert — never the silent-rot middle. Exempts the surface until VULCAN opens its first idea; `boot.py` runs `ledger_staleness.py VULCAN --trade` regardless.)*
 

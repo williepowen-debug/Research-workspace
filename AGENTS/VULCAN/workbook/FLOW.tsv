@@ -1,5 +1,5 @@
 id	channel	from	mechanism	to	state	routes_to
-FL-VULCAN-01	S1	hyperscaler AI-capex cycle	megacap earnings + index concentration	single-factor index fragility	live (VIOLET Path-B)	VIOLET, HENRY
-FL-VULCAN-02	S2	HBM/DRAM/NAND price + capex	most-cyclical semi -> demand inflection	real-economy demand tell	needs pull	HENRY, CARL
-FL-VULCAN-03	S3	AI-capex buildout	datacenter compute -> grid load	power cost	building (feeds WATT)	WATT, HENRY
-FL-VULCAN-04	S4	TSMC-Taiwan concentration + export controls	leading-edge chokepoint	supply shock	structural	ZHAO, HAWK
+FL-VULCAN-01	S1	hyperscaler AI-capex cycle	megacap earnings + index concentration	single-factor index fragility	QUANTIFIED 7/12: agg Q1 capex $129.8B/agg FY guide ~$710-725B, Mag-7 32.5%, VIOLET Path-B still 🔴	VIOLET, HENRY
+FL-VULCAN-02	S2	HBM/DRAM/NAND price + capex	most-cyclical semi -> demand inflection	real-economy demand tell	LIVE 7/12: TrendForce 2Q26 +58-75%QoQ, Micron beat — accelerating UP not rolling; ALSO feeds S1 as component-cost pass-through (new link, see MISSED CONNECTIONS)	HENRY, CARL
+FL-VULCAN-03	S3	AI-capex buildout	datacenter compute -> grid load	power cost	building (feeds WATT) — GAP PERSISTS, deprioritized this session for S1	WATT, HENRY
+FL-VULCAN-04	S4	TSMC-Taiwan concentration + export controls	leading-edge chokepoint	supply shock	LIVE 7/12: TSMC rev +30.1%YoY no stress; two-sided pull opened (US eases / Taiwan tightens, 7/1 first criminal detention)	ZHAO, HAWK
