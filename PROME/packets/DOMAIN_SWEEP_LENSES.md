@@ -16,4 +16,5 @@ Deliverable: `reports/<date>_domain-sweep.md` — prioritized table (item / lens
 | Agent | Swept | Notes |
 |---|---|---|
 | VIOLET, LIQUID, HENRY, SAM | 2026-07-11 (pilot) | 72 items; reports in each agent's reports/ |
+| WATT, VULCAN, MIDAS, OSPREY, FALCON, HOMER | 2026-07-12 (new-agent first-session wave, 6× Sonnet spawns) | ~60 items total; reports in each agent's reports/; notable: MIDAS falsified its own build-session M1 framing on first spot pull; OSPREY caught inherited "swept-complete" mark content-wrong; HOMER caught REGINALD's 8mo-stale GSE leg |
 | all others | pending | fold into next natural session |
