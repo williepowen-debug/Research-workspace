@@ -2,9 +2,9 @@
 
 **Status:** 🟠 — Russia/Ukraine energy-war campaign at high intensity across **three parallel channels**; Channel 1 (refineries/products) escalated materially this session (Omsk — Russia's largest refinery, first-ever strike); Channel 2 (crude-export terminals) unchanged, non-countable attribution HOLDS on independent re-verification; Channel 3 (shadow-fleet tankers) continues, vessel-count claims now reconciled. Brent stays decoupled (~$76-79, BRENT-owned figure, not re-verified this session).
 **Domain:** Russia/Ukraine war theater — energy-strike campaign, crude-vs-products channel model, Ukraine-side shadow-fleet kinetic strikes, Druzhba/EU angle, Baltic/Black-Sea oil ports. Feeds BRENT (oil/military-infrastructure inputs) directly on acute signals; routine reads route via HAWK's cross-war synthesis.
-**Recent thesis state:** First live OSPREY session (2026-07-12 PM), post-spinout from HAWK (2026-07-12 AM). Inheritance verification came back CLEAN (32 STRIKES rows, 3 VX rows, 3 FLOW rows, OSP-01 all byte-identical to HAWK's pre-split frozen record). But the inherited ledger's "swept-complete through 7/12" mark was itself incomplete — a fresh sweep found 4 material gaps, closed this session.
+**Recent thesis state:** First live OSPREY session (2026-07-12 PM, two rounds), post-spinout from HAWK (2026-07-12 AM). R1: inheritance verification CLEAN; inherited "swept-complete through 7/12" mark was itself incomplete — 4 material gaps closed. R2 (PROME-directed): EXIT RULES firmed to v1.0; Ufa/Saratov prior strikes verified + rowed (ledger now 39 rows); **canonical refining-offline band registered: ~30% offline, band 25-35%, early-July [EST]** (KB-OSPREY-011 — the ONE number for downstream consumers; Ukraine GS's 42.74% self-report excluded by method; likely upper-half skew given July hits).
 **Position:** None — OSPREY holds no trade book; military/infrastructure inputs feed BRENT's book.
-**As of:** 2026-07-12 PM. STATUS commit: this session's closeout commit (pending at time of writing).
+**As of:** 2026-07-12 PM (round 2). STATUS commits: `945efa71` (R1) + this round's closeout commit.
 
 ---
 
@@ -42,7 +42,7 @@
 | From | Input | Expected by | Why it matters | How it changes my view |
 |------|-------|-------------|-----------------|-------------------------|
 | BRENT | Does Brent move on the fresh crude-export record (4.22M bpd) or the Omsk escalation, or stay priced-in? | Ongoing | Tests whether "channel targeted, not yet degraded" is still the market's correct read | A move = new-information reaction; no move = confirms priced-in |
-| An independent outlet (Energy Intelligence / Kpler / Bloomberg / Reuters) | A refining-offline aggregate that corroborates or refutes Ukraine GS's 42.74% self-report | By Aug 2 (OSP-03 window) | Gates whether Channel 1's Upgrade Trigger fires on solid ground vs. a belligerent's claim | Corroboration = Channel 1 → 5; refutation/silence = stays at 4 |
+| An independent outlet (Energy Intelligence / Kpler / Bloomberg / Reuters) | A fresh refining-offline aggregate — it supersedes OSPREY's canonical 25-35% band outright (KB-OSPREY-011 supersession rule) | By Aug 2 (OSP-03 window; band expires same date) | Gates whether Channel 1's Upgrade Trigger fires on solid ground vs. a belligerent's claim | >40% = Channel 1 → 5 + OSP-03 CONFIRMED; sub-40% or silence = stays at 4 (silence at expiry = OSP-03 VOID, re-derive band) |
 
 ---
 

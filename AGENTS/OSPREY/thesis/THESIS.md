@@ -28,7 +28,7 @@ Per the HAWK split spec (§2), OSPREY's framework is the **crude-vs-products cha
 
 ## What would change this thesis
 
-See CLAUDE.md EXIT RULES (Russia-coded, thin-at-launch) for the falsification layer — channel-kill conditions (campaign cessation, Ukraine capitulation/ceasefire, channel migration per the flip-trigger table). This THESIS.md section will absorb a proper "kill conditions" writeup once EXIT RULES firm up at first live sessions; for now, defer to CLAUDE.md to avoid drafting the same content twice inconsistently.
+See CLAUDE.md EXIT RULES (Russia-coded, **v1.0 as of 2026-07-12 PM** — firmed from thin-at-launch in round 2 of the first live session) for the full falsification layer: two-leg channel-kill conditions with measurable resolvers, thesis-kill (incl. a model-falsification clause — a genuine world-crude event WITHOUT Brent repricing breaks the channel model's market-relevance premise), prediction-retirement paths for OSP-01/02/03, and time-based review triggers. CLAUDE.md is the single home for these rules; this section deliberately stays a pointer to avoid drafting the same content twice inconsistently.
 
 ## Provenance
 

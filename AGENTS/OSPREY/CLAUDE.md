@@ -137,27 +137,40 @@ Maintain the three-channel dashboard in STATUS.md (see current instance there). 
 
 ---
 
-## EXIT RULES (Falsification) — Russia-coded, **THIN-AT-LAUNCH by design; owner firms this up at first live sessions**
+## EXIT RULES (Falsification) — Russia-coded. **v1.0, firmed 2026-07-12 PM (round-2, PROME-directed; was thin-at-launch)** — owner refines further as live incidents test these.
 
-*(OSPREY does NOT inherit `workbook/EXIT_PROTOCOL.md` — that file is 100% Iran-coded and went to FALCON per build spec §2b. This section is a fresh Russia-coded start, deliberately honest about being thin rather than padded.)*
+*(OSPREY does NOT inherit `workbook/EXIT_PROTOCOL.md` — that file is 100% Iran-coded and went to FALCON per build spec §2b. This section is the Russia-coded falsification layer; `thesis/THESIS.md` §"What would change this thesis" defers here — single home, don't duplicate.)*
 
 ### 1. Channel-Kill (a channel goes dormant, not the whole thesis)
-- **Channel 1 (refineries/products) kill:** sustained cessation of Ukrainian refinery strikes for 30+ days AND refining capacity recovers to >90% of pre-campaign baseline.
-- **Channel 2 (crude-export terminals) kill:** no crude-terminal-class strike for 30+ days AND crude exports remain at or above 2026-high levels (no shut-in signal).
-- **Channel 3 (shadow-fleet tankers) kill:** no tanker-strike incident for 21+ days AND no war-risk-premium repricing observed.
-- A channel-kill does NOT close the theater — a dead channel can re-arm; migration path = re-open the channel's row on the next material strike (mirrors LIQUID's channel-kill-vs-thesis-kill pattern, BLUEPRINT §4).
+Each kill requires BOTH legs (a strike-pause alone is see-saw noise — MEMORY.md see-saw discipline; a recovery alone just means repair outpaced a still-live campaign). Measure pauses from the ledger's newest in-channel `Date`, not from memory.
 
-### 2. Thesis-Kill (exit the theater overlay entirely)
-- Full ceasefire/peace deal AND all three channels quiet 60+ days AND Baltic/Black-Sea export terminals return to full pre-war operational status.
-- Ukraine capitulation or a durable territorial settlement that ends the strike campaign as a matter of policy, not just tactical lull.
+- **Channel 1 (refineries/products) kill:** no `refinery`-class STRIKES.tsv row for **30+ days** AND an independent-outlet aggregate (EnergyIntel/Kpler/Bloomberg/Reuters — same source tier as OSP-03; never the Ukraine GS or Russian government alone) shows refining capacity recovered to **>90% of pre-campaign baseline** (~5.5-6M bpd runs, pre-Aug-2025). Companion policy tell: diesel-export ban lifted AND not re-imposed for 30+ days.
+- **Channel 2 (crude-export terminals) kill:** no `crude-terminal`/`pipeline`/`oil-port`-class row for **30+ days** AND seaborne crude exports hold ≥3.5M bpd 4-wk-avg (Kpler/Bloomberg) with no shut-in signal. NOTE: this channel was ALREADY mis-called dormant once (HAW-15, the founding lesson) — any Channel-2 kill call requires a fresh mechanism-level sweep (refineries AND terminals AND tankers AND pipeline; not named-terminal searches) before it is written.
+- **Channel 3 (shadow-fleet tankers) kill:** no vessel-strike incident for **21+ days** AND no war-risk-premium repricing (insurer/P&I reporting, via HAWK's cross-war enforcement read) in the same window.
+- A channel-kill does NOT close the theater — a dead channel re-arms on the next material strike: re-open the row, restore its last score, log a KB row noting the re-arm (mirrors LIQUID's channel-kill-vs-thesis-kill pattern, BLUEPRINT §4; dormant-armed framing, MEMORY.md).
+
+### 2. Thesis-Kill (exit the theater overlay entirely — OSPREY goes dormant-book)
+- Full ceasefire/peace deal **in force** (not merely declared — declaratory≠physical, MEMORY.md see-saw discipline) AND all three channels quiet 60+ days AND Baltic/Black-Sea export terminals at full pre-war operational status.
+- Ukraine capitulation or a durable territorial settlement that ends the strike campaign as policy, not tactical lull. Test: an explicit Ukrainian-government stand-down of deep strikes, OR 60+ days of zero deep-strike activity alongside settlement implementation.
+- **Model-falsification (kills the framework, not the theater):** if a genuine world-crude-supply event occurs (a Channel-2/3 Upgrade Trigger fires on confirmed physical disruption) and Brent does NOT reprice (no >$5 sustained move within 5 sessions, BRENT-verified), the channel model's core market-relevance premise is broken — escalate to Will + HAWK before continuing to use the model; do not patch silently.
 
 ### 3. Cross-Agent Thresholds
 - Brent sustains a break >$85 for 3+ sessions with ≥2 institutional legs (BRENT-owned call) → decoupling thesis broken, re-mark all three channels' Brent-relevance upward.
 - Brent fades and holds <pre-campaign baseline for 5+ sessions → de-escalation confirmed, channels can be marked toward dormant even without a formal ceasefire.
 
-### 4. Time-Based
-- Review channel scores every 7 days minimum while any channel is 🔴/🟠.
-- Firm up this EXIT RULES section (currently thin-at-launch) at OSPREY's first live sessions — this is a standing SCRATCH.md first-increment item, not a silent gap.
+### 4. Prediction-Retirement (what closes/retires each live OSP row)
+Resolution conditions are pre-registered in each row's Invalidation column — canonical text lives in `thesis/PREDICTIONS.tsv`; on any wording conflict, the TSV wins (wording-identity discipline, PREDICTIONS preamble). This section adds the retire/void paths:
+- **OSP-01 (tanker→world-crude, by Aug 1):** resolves CONFIRMED/FAILED per its row. **No VOID path** — it is unconditional (MEMORY.md: unconditional predictions have no void path). If evidence is genuinely mixed at window close (e.g. a liftings drop Kpler attributes to non-tanker causes), grade PARTIALLY with a post-mortem — do not stretch the window.
+- **OSP-02 (diesel-ban extension, by Jul 31/graded Aug 3):** resolves on the RF government's own action — extended/renewed = CONFIRMED, lifted/lapsed = FAILED. **VOID path:** ban becomes moot before 7/31 (superseded by a broader products-export ban, or a ceasefire-linked policy reversal) → VOID with premise-failure noted; no credit either way.
+- **OSP-03 (independent >40% offline, by Aug 2):** CONFIRMED only on a named independent outlet's OWN figure (EnergyIntel/Kpler/Bloomberg/Reuters/Vortexa). GS-claim-only = FAILED **regardless of how many outlets relay the GS number** — relay ≠ independent verification; check the figure's ultimate source, not the masthead. **VOID path:** if no independent outlet publishes ANY refining-offline aggregate in the window, VOID (no-data ≠ sub-40%) and re-register with a longer window.
+- **Standing rule:** every prediction flagged DUE at boot is resolved at that session's closeout (SPAWN PROTOCOL step 10) — never OPEN-but-stale. A window passed unresolved for 2+ sessions = hygiene defect; flag in SCRATCH.
+
+### 5. Time-Based Review Triggers
+- **Every session while any channel is 🔴:** re-check that channel's Upgrade Trigger + the damage-escalation watch.
+- **Every 7 days minimum while any channel is 🟠+:** full three-channel re-score against fresh sourcing (not carried marks). Currently all three qualify — effectively every OSPREY session until de-escalation.
+- **Every 14 days:** re-verify the two slow aggregates (floating storage; Urals discount / export congestion) — both rot silently; vintages tracked in the ANALYSIS Watch table. Overdue = surface at boot as ⚠️, per root Data Hygiene.
+- **Every 30 days (or at any kill evaluation):** re-read this EXIT RULES section itself against live state — a rule unexercised for 30+ days gets a sanity re-read, not silent trust (SPAWN PROTOCOL step 12 is the per-session hook).
+- **Canonical-band expiry:** the KB-OSPREY-011 refining-offline band (25-35%) carries Stale_By 2026-08-02 — if no independent aggregate replaces it by then, re-derive; never silently extend.
 
 ---
 
