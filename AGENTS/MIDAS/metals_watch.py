@@ -19,11 +19,15 @@ real-yield trend over a trailing ~90-day window — CONVERGE = real-rate-
 consistent / debasement premium NOT confirmed this window; DIVERGE = gold
 holding/rising through rising real yields / premium confirmed this window).
 
+LME COPPER INVENTORY LEG (added round-2 same day, 2026-07-12): westmetall.com
+publishes the LME copper stock series (daily, business days) in a plain
+server-rendered HTML table — scraped with a browser UA, fail-loud. This
+closes the "no free LME source" wall hit earlier the same session (CME
+warehouseStockAPI 403'd; LME.com vendor-gated). Sanity cross-check 7/12:
+westmetall LME cash $13,408.50/t [7/10] vs COMEX HG=F $6.28/lb = $13,845/t
+(~3% COMEX premium — consistent, two independent venues).
+
 OUT OF SCOPE (documented gaps, not silently dropped):
-  - LME/COMEX warehouse inventory (I1 threshold table needs it) — no free
-    public API found 2026-07-12 (LME publishes XLS w/ 2-day lag via licensed
-    vendors only; CME's warehouseStockAPI returned 403 on a bare GET). Next
-    increment: try a scrape of westmetall.com or a signup-gated aggregator.
   - CFTC COT (gold/silver/copper net positioning) — weekly cadence (Fri
     release, Tue data), not a daily-pull fit for this script. Pulled manually
     this session via the CFTC Socrata API (see STATUS.md baseline + KB rows);
@@ -42,7 +46,9 @@ Usage (self-locating, works from any cwd):
   python3 /home/willi/Research-workspace/AGENTS/MIDAS/metals_watch.py
 """
 
+import re
 import sys
+import urllib.request
 from datetime import datetime, timezone
 from pathlib import Path
 
@@ -59,6 +65,36 @@ ETF_PROXIES = {"GLD": "Gold ETF", "SLV": "Silver ETF", "CPER": "Copper ETF",
 
 # GSR bands (MIDAS CLAUDE.md THRESHOLDS table)
 GSR_YELLOW, GSR_ORANGE, GSR_RED = 85, 90, 95
+
+WESTMETALL_CU_URL = ("https://www.westmetall.com/en/markdaten.php"
+                     "?action=table&field=LME_Cu_cash")
+BROWSER_UA = ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
+              "(KHTML, like Gecko) Chrome/126.0 Safari/537.36")
+
+
+def read_lme_copper_stocks():
+    """LME copper warehouse stocks (tonnes) scraped from westmetall.com's
+    public daily table (columns: date | cash | 3-month | stock). Returns
+    (rows_newest_first, latest, oldest) where each row = (date_str, tonnes).
+    Fail-loud: raises on HTTP failure or if the table shape isn't recognized
+    (never fabricates a value)."""
+    req = urllib.request.Request(WESTMETALL_CU_URL, headers={"User-Agent": BROWSER_UA})
+    with urllib.request.urlopen(req, timeout=25) as r:
+        html = r.read().decode("utf-8", errors="replace")
+    trs = re.findall(r"<tr[^>]*>(.*?)</tr>", html, re.S)
+    data = []
+    for tr in trs:
+        cells = [re.sub(r"<[^>]+>", "", c).strip()
+                 for c in re.findall(r"<t[dh][^>]*>(.*?)</t[dh]>", tr, re.S)]
+        if len(cells) == 4 and re.match(r"\d{2}\.\s", cells[0]):
+            try:
+                data.append((cells[0], int(cells[3].replace(",", ""))))
+            except ValueError:
+                continue  # non-numeric stock cell (header/blank) — skip, don't guess
+    if len(data) < 5:
+        raise ValueError(f"westmetall LME table parse got only {len(data)} rows — "
+                         f"layout may have changed, check {WESTMETALL_CU_URL}")
+    return data, data[0], data[-1]
 
 
 def read_real_yield():
@@ -184,25 +220,45 @@ def main():
     else:
         failures.append("divergence-calc: missing real-yield or gold leg")
 
-    print(f"\n  NOTE: LME/COMEX inventory (I1) and CFTC COT (weekly cadence) and copper-vs-200dma "
-          f"(I1) are NOT wired into this script — documented gaps, see file header + STATUS.md.")
+    # --- 6. LME copper stocks (I1 inventory leg — westmetall scrape) ---
+    lme_latest = None
+    lme_drawdown_pct = None
+    try:
+        rows, lme_latest, lme_oldest = read_lme_copper_stocks()
+        peak = max(rows, key=lambda t: t[1])
+        lme_drawdown_pct = (lme_latest[1] - peak[1]) / peak[1] * 100
+        ytd_pct = (lme_latest[1] - lme_oldest[1]) / lme_oldest[1] * 100
+        print(f"\n  LME COPPER STOCKS (westmetall.com scrape, LME data, business-daily):")
+        print(f"    Latest: {lme_latest[1]:,} t  [{lme_latest[0]}]")
+        print(f"    Table span: {lme_oldest[0]} ({lme_oldest[1]:,} t) -> latest  ({ytd_pct:+.1f}% over span)")
+        print(f"    Span peak: {peak[1]:,} t [{peak[0]}]  (latest = {lme_drawdown_pct:+.1f}% vs peak)")
+    except Exception as e:
+        failures.append(f"LME-stocks: {e}")
+        print(f"\n  ERROR LME copper stocks scrape FAILED: {e}", file=sys.stderr)
+
+    print(f"\n  NOTE: CFTC COT (weekly cadence) and copper-vs-200dma (I1) are NOT wired "
+          f"into this script — documented gaps, see file header + STATUS.md.")
 
     # --- Verdict (always printed; failed legs say so, never fabricated) ---
     y_s = f"DFII10 {latest_y['value']} [{latest_y['date']}]" if latest_y else "real-yield FETCH-FAIL"
     g_s = (f"gold ${fut['GC=F']['price']:,.2f}" if fut and "error" not in fut.get("GC=F", {"error": 1}) else "gold FETCH-FAIL")
     gsr_s = f"GSR {gsr:.2f} ({gsr_band})" if gsr else "GSR FETCH-FAIL"
     div_s = divergence_state or "divergence FETCH-FAIL"
-    print(f"\n  Metals leg: {y_s} · {g_s} · {gsr_s} · M1: {div_s}\n")
+    lme_s = (f"LME Cu {lme_latest[1]:,}t [{lme_latest[0]}]" if lme_latest else "LME Cu FETCH-FAIL")
+    print(f"\n  Metals leg: {y_s} · {g_s} · {gsr_s} · {lme_s} · M1: {div_s}\n")
 
     rc = 0
     if failures:
         print(f"  metals_watch.py: {len(failures)} leg(s) FAILED: {'; '.join(failures)}", file=sys.stderr)
         rc = 2
     elif gsr_band in ("YELLOW", "ORANGE", "RED") or (divergence_state and divergence_state.startswith("CONVERGE")):
-        # CONVERGE = the FALSIFICATION direction for M1's live thesis (STATUS.md
-        # bidirectional flip rule: "gold sells off as real yields rise" falsifies
-        # the debasement premium) — flag for review, not "all quiet." DIVERGE
-        # just confirms the currently-registered thesis; not urgent on its own.
+        # CONVERGE flags REVIEW as the falsification direction of M1 v1's premium
+        # claim. Under M1 v2 (2026-07-12 re-derivation, THESIS.md) CONVERGE is the
+        # EXPECTED state (cyclical layer re-coupled to real rates) — the flag stays
+        # deliberately: it keeps the operator eyeballing the divergence state each
+        # boot until v2 survives its first catalyst tests (MIDAS-03/04). Revisit
+        # after those resolve: if v2 holds, CONVERGE should become the quiet state
+        # and DIVERGE (premium reassertion) should become the REVIEW trigger.
         rc = 1
     return rc
 
