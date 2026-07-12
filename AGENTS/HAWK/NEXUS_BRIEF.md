@@ -4,7 +4,7 @@
 **Domain:** Geopolitical & military risk — Iran war, Hormuz/Bab al-Mandab chokepoints, escalation scenarios (A/B/C/D); feeds BRENT (oil scenario inputs), HENRY (vol catalyst), LIQUID (risk-off/credit trigger), SAM (Japan/Asia energy)
 **Recent thesis state:** Jun 17 MOU signed → Jun 20 Hormuz re-closure (SHRUG) → Jun 27-28 vertical kinetic spike (SHRUG) → Jun 29-Jul 4 de-escalation (Doha) → **Jul 6-8 truce collapse** (3 tankers + 2 US strike nights + sanctions reimposed) → **Jul 11-12 STEP-UP**: 4th vessel struck (1 sailor missing) → US 3rd strike round (~140 targets) → Iran's broadest Gulf retaliation of the war (Qatar+UAE+Bahrain+Kuwait +claimed Jordan/Oman) → IRGC formally + ENFORCED-closes Hormuz. Oil sustain test **FAILED → DENY 7/10** (~$76, <2 legs).
 **Position:** None — HAWK holds no trade book; scenario inputs feed BRENT/SAM/HENRY books
-**As of:** 2026-07-12 ~afternoon ET — STATUS data through 7/12 | STATUS commit: *pending this session's commit — see git log for hash*
+**As of:** 2026-07-12 ~afternoon ET — STATUS data through 7/12 | STATUS commit: `54f8356c`
 
 ---
 
