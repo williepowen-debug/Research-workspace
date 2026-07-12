@@ -1,3 +1,5 @@
+> 🧊 **FROZEN 2026-07-12 (HAWK split)** — this Iran-theater file was inherited WHOLESALE by FALCON (`AGENTS/FALCON/thesis/TIMELINE.md` = the live copy). HAWK's copy = pre-split historical record; do not update here.
+
 # HAWK TIMELINE
 
 **Last Updated:** 2026-04-20

@@ -1,6 +1,8 @@
 # HAWK LESSONS — Mistake Patterns to Avoid
 
-*Read at boot (SPAWN PROTOCOL step 4). One lesson per entry: what happened, why it bites, the rule.*
+*Read at boot (SPAWN PROTOCOL step 3). One lesson per entry: what happened, why it bites, the rule.*
+
+**Split note (2026-07-12):** items 1-2 are primary-inherited by **FALCON** (Iran/Gulf-sourced; item 2 also copy-worthy to OSPREY as general active-conflict boot methodology), item 4 by **OSPREY** (Russia/Ukraine-sourced, its founding calibration lesson) — copies made to both siblings' own `LESSONS.md` at spinout. HAWK retains the **full history** below (nothing removed — freeze-in-place philosophy). **Item 3 (dormant-vector re-sweep) is HAWK's own standing operating lesson post-split** — HAWK now owns the dormant book, so this is the one item that lives here primarily, not just historically. Baked into `CLAUDE.md` boot step 6b (45-day re-sweep cadence check).
 
 ## [2026-06-12] Prediction text and promotion-threshold text must be written identically
 **What happened:** HAW-10 was registered in PREDICTIONS.tsv as "Houthi commercial-vessel kinetic attack (mechanism) **on Bab al-Mandab** (threshold)" while the same session's STATUS emerging-vector row said "first Houthi **kinetic** commercial-vessel hit = promote to core + fires HAW-10" — no locus restriction. When the Houthis struck two vessels in the **Gulf of Aden** (6/8-9), the two texts gave different answers: vector promotion criterion satisfied, prediction locus unmet.

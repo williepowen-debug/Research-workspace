@@ -1,8 +1,8 @@
 # HAWK SOURCES
 
-> **Reference index — NOT boot-read.** Consulted ad hoc when running a theater scan; not part of the BOOT sequence (STATUS/SCRATCH/LESSONS/predictions). Sources below are evergreen monitoring endpoints — refreshed, not rebuilt.
-> **Last refreshed:** 2026-06-26 (created 2026-02-18).
-> **Oil handoff (Mar 6 2026):** oil prices / storage / tanker *markets* are **BRENT's** lane. HAWK owns military ops, chokepoint *transit* tracking, escalation indicators, and geopolitical catalysts — see the Energy/Commodity section for the split.
+> **Reference index — NOT boot-read.** Consulted ad hoc when running a dormant-book re-sweep or cross-war synthesis question; not part of the BOOT sequence (STATUS/SCRATCH/LESSONS/predictions/sibling NEXUS_BRIEFs). Sources below are evergreen monitoring endpoints — refreshed, not rebuilt.
+> **Last refreshed:** 2026-06-26 (created 2026-02-18). **Split 2026-07-12:** Iran/Middle East regional sources → **FALCON**; Russia/Ukraine regional sources → **OSPREY** (both copied to the siblings' own `SOURCES.md`, generic sections below copied to all three). This file trimmed to generic sections + HAWK's dormant-book regional focus (China/Taiwan, Venezuela/LatAm).
+> **Oil handoff (Mar 6 2026, unchanged):** oil prices / storage / tanker *markets* are **BRENT's** lane. Theater chokepoint *transit* tracking now belongs to OSPREY (Baltic/Black Sea)/FALCON (Hormuz/Bab al-Mandab); HAWK's use is limited to dormant-book chokepoints (Suez/Malacca) and cross-war synthesis.
 
 Monitored sources for geopolitical and military risk.
 
@@ -90,22 +90,12 @@ Key accounts for real-time military tracking:
 
 ---
 
-## Regional Focus
-
-### Iran/Middle East
-- Al-Monitor: https://www.al-monitor.com
-- Iran International: https://www.iranintl.com
-- Middle East Eye: https://www.middleeasteye.net
+## Regional Focus (HAWK dormant-book scope only — Iran/ME → FALCON, Russia/Ukraine → OSPREY, both split 2026-07-12)
 
 ### China/Taiwan
 - SCMP: https://www.scmp.com
 - Taiwan News: https://www.taiwannews.com.tw
 - China Brief (Jamestown): https://jamestown.org/programs/cb
-
-### Russia/Ukraine
-- ISW daily updates
-- Kyiv Independent: https://kyivindependent.com
-- Meduza: https://meduza.io/en
 
 ### Venezuela / Latin America
 - Reuters/AP world wires (above) — primary
@@ -122,8 +112,7 @@ Key accounts for real-time military tracking:
 | 🟠 ORANGE | Daily |
 | 🔴 RED | Continuous / multiple daily |
 
-**Current posture (2026-06-26):**
-- **Iran / Gulf — 🟠 ORANGE** (down from 🔴; Jun 17 ceasefire/MOU signed, kinetic halted, decoupling test passed Jun 22 — escalation re-engaged sub-kinetic but quiescent). Daily scans.
-- **Russia/Ukraine — 🟠** (at peak separately; oil-infrastructure strikes feed BRENT).
-- Venezuela / Taiwan / trade war — 🟡 secondary watch.
+**Current posture (2026-07-12, split day):**
+- **Iran/Gulf and Russia/Ukraine theater posture** now tracked at `AGENTS/FALCON/SOURCES.md` and `AGENTS/OSPREY/SOURCES.md` respectively — not here.
+- Venezuela / Taiwan / trade war — 🟡 secondary watch, HAWK dormant book (see STATUS.md DORMANT BOOK table for the current re-sweep cadence).
 > Canonical tier truth lives in `STATUS.md`, not here — this footer is a quick-reference snapshot, refresh at closeout if posture shifts a tier.

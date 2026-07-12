@@ -1,5 +1,7 @@
 # Energy-Infrastructure Strike Ledger — Summary
 
+> 🧊 **FROZEN 2026-07-12** — theater strike ledgers live at `AGENTS/OSPREY/domain/energy-strikes/` (RU-UA, 32 rows) + `AGENTS/FALCON/domain/energy-strikes/` (GULF-IRAN, 4 rows); do not cite this file's content as current. HAWK's thin, regenerated cross-war aggregate is `AGENTS/HAWK/domain/energy-strikes/CROSS_WAR_SUMMARY.md`.
+
 **Living index for `STRIKES.tsv`.** One row per *material* energy-infrastructure attack, **all theaters in one table** (so cross-theater patterns — e.g. Russia's campaign peaking the week Iran signed its MOU — are queryable). Russia–Ukraine seeded fully; Gulf–Iran backfilled opportunistically.
 **Maintainer:** HAWK. **Last updated:** 2026-07-12 (Will-directed crude-terminal backfill — 7 rows added: Novorossiysk 5/23+6/8, Kavkaz 6/20, Primorsk 6/25, St-Petersburg 7/4, Vysotsk 7/6, NOVATEK-Ust-Luga 7/10).
 

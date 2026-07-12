@@ -1,61 +1,41 @@
-# HAWK SCRATCH — 2026-07-12 (Sun, ~afternoon ET)
+# HAWK SCRATCH — 2026-07-12 (split/re-cut day)
 
-**Purpose:** Ephemeral session handoff — the canonical "where are we / what next" file. Read at boot (SPAWN PROTOCOL step 2), rewritten in full at closeout (step 13). Disposable: rewritten every session. Persistent learnings → `MEMORY.md`; cross-agent twin → `NEXUS_BRIEF.md`.
+**Purpose:** Ephemeral session handoff — the canonical "where are we / what next" file. Read at boot (SPAWN PROTOCOL step 2), rewritten in full at closeout (step 14). Disposable: rewritten every session. Persistent learnings → `MEMORY.md`; cross-agent twin → `NEXUS_BRIEF.md`.
 
 ---
 
+## SPLIT-COMPLETION NOTE
+
+**HAWK's war-agent split (Will-approved concept, DAEDALUS-built) executed 2026-07-12.** OSPREY (Russia/Ukraine, `AGENTS/OSPREY/`) and FALCON (Iran/Gulf, `AGENTS/FALCON/`) are scaffolded, seeded, and content-migrated per `design/2026-07-12_war-agent-split-spec.md` + `AGENTS/DAEDALUS/builds/OSPREY_FALCON_BUILD.md`. HAWK re-cut to synthesis + dormant book (this session, WP-3): CLAUDE.md rewritten (identity/boot/closeout/domain-scope/cross-agent-signals/FILES), STATUS.md re-cut to a ≤120-line cross-war reconciliation dashboard, VX.tsv/FLOW.tsv reduced to the 8/6 dormant+synthesis rows, KB.tsv/board_log.tsv/PREDICTIONS.tsv kept LIVE (not frozen) with split-notes and re-totaled preambles, PREDICTIONS_ARCHIVE.md backfilled (5 owed post-mortems: HAW-10/12/13/14/15), STRIKES.tsv+SUMMARY.md FROZEN with a new thin CROSS_WAR_SUMMARY.md, SOURCES.md/LESSONS.md/OPEN_THREADS.md updated. **HAWK has not yet run an independently-verified synthesis session** — everything above is the mechanical re-cut, seeded from HAWK's own pre-split content. Full detail: `AGENTS/DAEDALUS/builds/hawk_split/WP3_REPORT.md`.
+
 ## CURRENT MARKS (one line)
-- Scenario: **B 8% / C 34% / D 58% (BASE)** · Convergence **~37/50 🔴** (4 kinetic vectors maxed = war-first) · Kinetic risk **🔴** (3rd strike round done; 4th possible) · Brent ref **~$76** [BRENT owns; sustain test FAILED → DENY 7/10]
-
-## ADDENDUM (7/12, post-closeout — Will-surfaced: Ukraine's Russian-TANKER campaign, which I'd MISSED at boot)
-- **The miss:** scoped my Russia sweep to HAW-15's named terminals; missed a week-long, industrial-scale Ukrainian KINETIC campaign against Russian shadow-fleet **tankers** (Sea of Azov + Black Sea, 7/6-12, ongoing; 21-42 vessels claimed; SBU Sea Baby drones; crude tanker "the Blue" 7/8; suezmax off Novorossiysk; Rostov loading terminal). Shadow fleet is explicitly my domain — genuine miss.
-- **CORRECTED TWICE (Will pushed a 2nd time — I was wrong both my boot sweep AND my first "tighter confirmation"):** the crude-export TERMINAL channel WAS struck in-window. Primorsk ~6/25 (named crude terminal, fuel-reservoir hit) + NOVATEK-Ust-Luga complex 7/10 (exports halted) + Vysotsk 7/6 + Kavkaz 6/20 + 7/4 St-Pete Baltic op; Novorossiysk crude terminal also re-hit 5/23+6/8 (pre-window, MISSING from my ledger). **HAW-15 → FAILED.**
-- **Two compounding causes of the miss:** (a) single-search-per-terminal returned only Mar/Apr headlines; (b) my OWN energy-strike ledger was stale (6/20) + had already missed the 5/23+6/8 Novorossiysk re-strikes → under-baselined the crude channel. Fixes: STRIKES.tsv backfilled (7 rows), SUMMARY flip-trigger #2 → FIRED + Pattern① corrected, KB-222/223, LESSONS 7/12 corollary 2. **Market caveat that survives:** in-window terminal damage LIMITED/fast-repair → crude exports not yet degraded → why Brent hasn't ripped (valve shot-at, not closed). BRENT sent a CORRECTION flag.
-- **HAW-17 registered** (does the tanker campaign become a world-crude-supply event by Aug 1, or stay attritional/Crimea-fuel? 60% attritional). VX-SHADOW-01/02 → RED, UKR-01 updated. KB-220/221.
-- **Conceptual note for the handoff:** HAW-15 was never "Ukraine won't hurt Russian oil" — it's a Brent CHANNEL discriminator (refineries/products [frees crude, bearish Brent] vs crude-export terminals [cuts world crude, Brent bid]). The row's "crude-export infrastructure" label under-communicated that; worth a clearer label if reused.
-- **🏗️ STRUCTURAL (Will-approved concept 7/12):** HAWK to be SPLIT into two sibling war-agents (OSPREY=Russia/Ukraine, FALCON=Iran/Gulf — proposed) + a synthesis HAWK (cross-war + dormant book). Root cause of the doc-rot was one agent overloaded with two acute wars. Spec drafted → `design/2026-07-12_war-agent-split-spec.md`; routed to DAEDALUS (build) + PROME (roster/CLAUDE.md transmission chain). Tier-1 doc fixes (high-water-mark ledgers, staleness alarm, sweep cadence) fold into the new agents. **Awaiting Will/DAEDALUS greenlight to build — no action until then.** If the split does NOT proceed, do the Tier-1 fixes on HAWK standalone as the fallback.
-
-## CHANGES SINCE LAST SESSION (7/8 → 7/12, 4-day gap; my 7/8 marks + WALTER's 7/9 anchor BOTH predated the 7/11-12 step-up)
-- **WALTER 7/9 anchor corrections to my 7/8 STATUS:** 2nd US strike night was EXECUTED (I had "pending"); **1 firefighter KILLED** at Iranshahr 7/8 (I had "zero casualties"); Kuwait **≥1 injured + damage** (I had "zero damage"); **7/9 Iran fired 8 missiles at a US base in Jordan** (new theater). SL Mojtaba likely **INCAPACITATED** (longer tail). June-MOU provenance flagged unverified (one source dates first implementation to April, not June).
-- **7/10 oil sustain test → DENY** (BRENT/PROME): Brent held ~$76 both 7/9+7/10 but <2 institutional legs → decoupling crack did NOT durably arm; energy-tail re-arm stood down to fragile-watch. 2nd re-ignition behaved at the tape like the first (6/28).
-- **7/11 (my sweep):** 4th vessel struck — Cyprus container ship ablaze/abandoned, **1 sailor MISSING** (first near-maritime-casualty); triggered the 3rd US strike round.
-- **7/12 (my sweep) — the step-up:** US **3rd strike round ~140 targets** (fires my #1 CONFIRM-D discriminator) → Iran's **broadest Gulf retaliation of the war** (Qatar+UAE+Bahrain+Kuwait, +claimed Jordan/Oman; UAE/Qatar/Oman new) → **IRGC formally + ENFORCED-closes Hormuz** (warning shot, vessel stopped). Sea mines now CONFIRMED laid.
-- **Dormant vectors swept quiet:** Taiwan = routine PLA posturing (China-Russia Joint Sea-2026 7/6-13; MOFCOM export controls vs Japan); Venezuela normalization. No non-Iran theater changed state.
+- Role: cross-war reconciliation + dormant book (no scenario ladder of HAWK's own — that's FALCON's). Cross-war read: both theaters kinetic-high, Brent decoupled (~$76-79) on both. Kill-switches to watch: FAL-01 (Jul 26), OSP-01 (Aug 1). No HAWK-native predictions open (next = HAW-18).
 
 ## WHAT I DID THIS SESSION
-- Full catch-up boot: read STATUS/SCRATCH/LESSONS/PREDICTIONS; ledger-staleness + Baghdad watch (both QUIET); consumed WALTER's canonical 7/9 anchor; independent day-by-day web sweep 7/9→7/12 (~7 queries).
-- **Re-marked B8/C34/D58** (D now base) off the 7/8 B12/C42/D46 baseline; convergence ~35→~37/50. Core framing: **kinetic at a war-high, market still decoupled** — D is base but NOT runaway because every hard point-of-no-return gate is unfired (no production-infra hit, no vessel sunk/mine detonation, no formal MOU collapse, Iraq quiet) and both sides still spare oil-production infra.
-- Rewrote STATUS.md (120 lines). Added **KB-HAWK-212..219**. Updated VX (IRAN-01, IRAN-02 [ORANGE→**RED** formal enforced closure], USIRAN-KINETIC-01, GULFSTATE-01, DIPLOMACY-01 — all Last_Updated 7/12).
-- **HAW-14 RE-SCOPED in-window (Will-directed) → FAILED** (Lebanon-locus → catalyst-agnostic; direct-kinetic-on-US floor breached 4× via non-Lebanon catalysts). **Registered HAW-16** (production-infra-hit/vessel-sunk kill-switch, Jul 26, 70%). HAW-15 carried OPEN (final check due before 7/15).
-- Processed mail: 4 WALTER signals + 4 root inbox (DAEDALUS×3/HENRY) → board_log.tsv (8 rows) + git mv to processed/. Wrote 🔴 outbox to PROME.
-- Falsification check: no exit/downgrade trigger fired (this is an escalation upgrade; thesis-kill conditions are the opposite of current state).
+- Executed WP-3 (HAWK re-cut) per DAEDALUS build spec: rewrote CLAUDE.md, STATUS.md; reduced VX.tsv (18→8 rows) and FLOW.tsv (20→6 rows) to verbatim HAWK-owned rows with split-note headers; prepended a split-note to KB.tsv (kept LIVE); re-totaled PREDICTIONS.tsv preamble (5C/8F/1P/1V/0 OPEN) and marked HAW-16/17 REHOMED with pointer notes; backfilled PREDICTIONS_ARCHIVE.md (HAW-10/12/13/14/15, verbatim + backfill stamps); FROZE STRIKES.tsv + SUMMARY.md, built new CROSS_WAR_SUMMARY.md (thin/derived, pointer table to OSPREY's + FALCON's own ledgers); appended a split-marker to board_log.tsv (continues, not reset); trimmed SOURCES.md to generic + China/Taiwan + Venezuela/LatAm; added a split note to LESSONS.md; SUPERSEDED-banner'd OPEN_THREADS_2026-07-09.md.
+- Did NOT touch AGENTS/OSPREY/ or AGENTS/FALCON/ (read-only reference for seeding this STATUS/NEXUS_BRIEF).
 
 ## NEXT SESSION (dated, future-verifiable)
-1. **4th US strike round / further kinetic** — did strikes continue past 7/12, or halt? Check news first thing.
-2. **HAW-16 gate watch** — any Gulf-ally/Iranian oil-PRODUCTION-infra hit (Aramco/ADNOC/Kharg-oil) OR vessel confirmed SUNK? = C→D-runaway confirm + Brent decoupling breaks. Window to **Jul 26**.
-3. **HAW-15 — FINAL check before Jul 15 window close:** any in-window Russian CRUDE-export-infra strike (Primorsk/Ust-Luga/Novorossiysk/Druzhba)? Products campaign continues; crude-export unstruck as of 7/12. Resolve at/after 7/15.
-4. **Brent sustain (BRENT-owned)** — does Brent finally break and HOLD >$85 w/ ≥2 institutional legs? Failed twice (6/28, 7/10). Single cleanest D-vs-C market discriminator.
-5. **Oman two-route Hormuz proposal** — does it land with a date (→B) or die (→D)? US-Iran technical-talks readout watch.
-6. **Iraq/PMF backlash** — Baghdad watch QUIET 7/12; re-run at boot (unfired CONFIRM-D discriminator #5).
-7. **Mojtaba public-reappearance watch** — would ease the incapacitation/longer-tail flag.
-8. **HAW-14 post-mortem** — owed to `thesis/PREDICTIONS_ARCHIVE.md#hawk-14` (one-line lesson already inline).
+1. **First genuinely independent HAWK synthesis pass** — boot-read OSPREY's and FALCON's freshly-updated (not spinout-seeded) NEXUS_BRIEFs and produce a real reconciliation delta, validating SYNTHESIS DISCIPLINE (spec §6) in practice rather than as a design intent. This STATUS is still a seeded cut, not a verified session.
+2. **Taiwan/Venezuela dormant re-sweep (OVERDUE)** — flagged repeatedly since pre-split `OPEN_THREADS_2026-07-09.md`, never actioned. Clock isn't past the 45-day cadence yet (22d as of split) but the content re-sweep against external primaries is separately owed regardless — don't wait for the clock.
+3. **FLOW-HAWK-18 disposition question** — China commercial-reserve-drawdown → SPR-crack row carries an open owner-lane question (retire, or route to ZHAO/BRENT) per the build spec's ruling — not resolved at split, needs a decision.
+4. **HAW-14 deeper post-mortem** — PREDICTIONS_ARCHIVE.md#hawk-14 has the mechanical backfill (verbatim + stamp) but the fuller analytical post-mortem (locus-vs-mechanism wording failure, cross-referenced against HAW-10's same-class wedge) is still HAWK-owner-lane, not yet written up as a standalone lesson synthesis.
+5. Check whether OSPREY's or FALCON's swept-through marks have gone stale (CROSS_WAR_SUMMARY.md) — FALCON's is already known-stale (2026-03-19, backfill owed on their end, not HAWK's to fix, but worth a nudge if still stale next session).
 
 ## OPEN THREADS / WATCHES
-- 🔴 4th US strike round / further kinetic — hourly-relevant, check news before any HAWK action
-- 🔴 HAW-16 hard-gate (production-infra hit / vessel sunk) — the C→D-runaway kill-switch
-- 🔴 Brent break-and-hold >$85 w/ ≥2 legs (BRENT-owned; failed 6/28 + 7/10)
-- 🟠 Oman two-route Hormuz mediation — the live B-path
-- 🟠 Iraq/PMF backlash (unfired discriminator #5; Baghdad watch automated)
-- 🟡 Mojtaba public reappearance (incapacitation/longer-tail flag)
-- 🟡 HAW-15 Russia crude-export window closes Jul 15 — final check owed
+- 🔴 FAL-01 (Jul 26) — Gulf-ally/Iranian oil-production hit or vessel sunk; owned by FALCON, watched here for cross-war reconciliation
+- 🔴 OSP-01 (Aug 1) — Russia tanker campaign becomes a world-crude event; owned by OSPREY, watched here
+- 🟠 Taiwan/Venezuela dormant re-sweep — overdue, see NEXT SESSION #2
+- 🟡 FLOW-HAWK-18 disposition (retire vs. route to ZHAO/BRENT)
+- 🟡 FALCON's Gulf-Iran strike-ledger backfill (their founding mandate, not HAWK's — watch only)
 
 ## PREDICTIONS DUE / DECISIONS PENDING
-- HAW-15 (Jul 15, needs final Russia crude-export check). HAW-16 (Jul 26, new gate). HAW-14 resolved FAILED this session. No Will-decision pending (HAWK holds no trade book).
+- None open at HAWK (HAW-01..17 frozen/rehomed; next HAWK-native prediction is HAW-18, not yet registered). No Will-decision pending.
 
 ## MAIL STATE (one line per surface)
-- Inbox (root): clear (4 items processed → `processed/`)
-- WALTER lane: clear (4 signals processed → `WALTER/processed/`)
-- Outbox: `2026-07-12_to-PROME_third-strike-round-remark.md` (new, 🔴). Prior 7/08+7/09 outbox files still present (PROME-scanned).
+- Inbox (root): clear
+- WALTER lane: clear
+- Outbox: prior 7/12 packets (pre-split) still present, PROME-scanned; no new outbox this session (mechanical re-cut, not a signal-worthy event)
 
 ## PENDING PUSH / GIT (if any)
-- Commit `AGENTS/HAWK/` via pathspec from repo root per CLAUDE.md Git section; auto-push via `scripts/safe-push.sh` (ff-gated). git mv'd 8 inbox files (tracked renames within own dir). No cross-agent files touched.
+- Commit `AGENTS/HAWK/` via pathspec from repo root per CLAUDE.md Git section; auto-push via `scripts/safe-push.sh` (ff-gated). No cross-agent files touched (OSPREY/FALCON untouched this session, per hard constraint).

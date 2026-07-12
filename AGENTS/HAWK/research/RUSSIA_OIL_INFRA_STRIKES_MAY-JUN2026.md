@@ -1,3 +1,5 @@
+> 🧊 **FROZEN 2026-07-12 (HAWK split)** — copied to OSPREY (`AGENTS/OSPREY/research/RUSSIA_OIL_INFRA_STRIKES_MAY-JUN2026.md` = the live working copy). HAWK's original = pre-split historical record.
+
 # Ukraine Strikes on Russian Oil Infrastructure — May 1 to Jun 18, 2026 (gap sweep)
 
 **Compiled:** 2026-06-18 (HAWK)

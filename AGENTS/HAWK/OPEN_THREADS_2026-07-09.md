@@ -1,5 +1,7 @@
 # HAWK Open Threads — 2026-07-09
 
+> 🧊 **SUPERSEDED 2026-07-12 (split)** — live residue migrated: Iran items → FALCON SCRATCH, Russia items → OSPREY SCRATCH, Taiwan/Venezuela dormant re-sweep → HAWK STATUS.md DORMANT BOOK table (carried forward, still flagged never-actioned). Do not action from this file — it is a pre-split snapshot, kept for historical reference only.
+
 Scope: active unresolved items only — dated docket gates not yet due (Fri Brent verdict, HAW-14/15 windows) excluded per instruction.
 
 ## 1. Open Questions

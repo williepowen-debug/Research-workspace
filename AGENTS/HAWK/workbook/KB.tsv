@@ -1,3 +1,4 @@
+#SPLIT-NOTE 2026-07-12: LIVE ledger, continues under HAWK (not frozen). Rows <=KB-HAWK-223 = pre-split both-theater history (incl. 2 known duplicate IDs 131/132, no surgery performed). Rows KB-HAWK-224+ = synthesis/dormant-book facts only -- theater facts now accrue in AGENTS/OSPREY/workbook/KB.tsv and AGENTS/FALCON/workbook/KB.tsv.
 ID	Date	Group	Entity	Fact	Source	Conf	Epistemic	Status	Stale_By	DerivedFrom	Vectors	Notes
 KB-HAWK-001	2026-02-13	WAR	Iran	USS Gerald Ford carrier strike group departed for Middle East	Pentagon	A1	EMPIRICAL	CONFIRMED		 	VX-HAWK-IRAN-01	Preceded Operation Epic Fury by 15 days
 KB-HAWK-002	2026-02-17	WAR	Iran	Geneva talks produced "guiding principles" agreement; Iranian FM says drafting phase next but "difficult"	RTRS	B2	EMPIRICAL	SUPERSEDED			VX-HAWK-IRAN-01	Superseded by war launch Feb 28 (KB-HAWK-010)

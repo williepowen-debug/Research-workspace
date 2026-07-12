@@ -1,3 +1,5 @@
+> 🧊 **FROZEN 2026-07-12 (HAWK split)** — this Iran-theater file was inherited WHOLESALE by FALCON (`AGENTS/FALCON/thesis/CHANGELOG.md` = the live copy). HAWK's copy = pre-split historical record; do not update here.
+
 # HAWK CHANGELOG
 
 Tracks all changes to THESIS.md and TIMELINE.md. Reverse chronological. Each entry documents what changed, why, and the old → new view. This is the audit trail.

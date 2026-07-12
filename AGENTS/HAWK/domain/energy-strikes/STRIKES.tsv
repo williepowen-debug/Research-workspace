@@ -1,3 +1,4 @@
+#FROZEN 2026-07-12 -- theater strike ledgers live at AGENTS/OSPREY/domain/energy-strikes/ (RU-UA, 32 rows) + AGENTS/FALCON/domain/energy-strikes/ (GULF-IRAN, 4 rows); do not cite rows below as current.
 strike_id	Date	Theater	Attacker	Facility	Region	FacilityOperator	Type	Capacity	Status	Strike#	Channel	ReturnToService	Conf	Source	Notes
 RU-20260223-DRUZHBA1	2026-02-23	RU-UA	Ukraine	Druzhba-1 pump (Kaleykino)	Tatarstan	Transneft	pump-station	?	disrupted	1	crude-export(pipeline)	unk	B2	KB-041	1,200km from border; cut Druzhba flow to Hungary
 RU-20260322-PRIMORSK	2026-03-22	RU-UA	Ukraine	Primorsk	Leningrad	Transneft	crude-terminal	~1M bpd port	reduced	1	crude-export	unk	B2	MoscowTimes/Euromaidan	Fuel depot ignited; berths + 2 tankers hit
