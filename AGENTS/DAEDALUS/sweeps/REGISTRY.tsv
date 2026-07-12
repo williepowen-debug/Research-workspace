@@ -1,5 +1,6 @@
 task	cadence_days	last_run	playbook	status	last_findings
 Fleet Staleness Sweep	21	2026-07-04	sweeps/STALENESS_SWEEP.md	active	dormant OZK/ZHAO/FERT FROZEN; live-stale REGINALD(routed BATCH_03)+OTTO(tier-2); +9 workbook ledgers owner-alert; mechanism extended (--trade+recognizer, PAT-035)
 Fleet Production Review	14	2026-07-04	sweeps/PRODUCTION_REVIEW.md	active	WALTER8/CREED8/PROME4 -> CREED L1->L2 (confirm-read owed); consume-loop resolved (PAT-034 reconciled); WALTER spine-lag+I3 self-resolved; NEXUS lane open-thread
+Falsification Freshness Sweep	21	2026-07-11	sweeps/FALSIFICATION_SWEEP.md	active	PILOT (PROME-directed, pre-registry): 4/4 agents falsification-surface rot (HENRY unfrozen retired kill tree + HEN-35 2x live prob; VIOLET tail 3 revs stale; LIQUID conviction mark 16d + pivot log stopped 5/19; SAM BOND-consumed doc superseded lead) — instances owner-fixed 7/11, process registered 7/12
 # --- Add future recurring DAEDALUS maintenance sweeps below (maturity re-scan, dangling-ref sweep, ...). ---
 # Columns: task | cadence_days (int) | last_run (YYYY-MM-DD) | playbook (repo-relative) | status (active|paused) | last_findings (free text). Canonical cadence data — sweeps_due.py parses this; sweeps/*.md reference it, don't restate it.
