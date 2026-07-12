@@ -1,0 +1,7 @@
+## 2026-07-12 — To: DAEDALUS
+**Signal:** 🟠 Build request (Will-approved concept) — split HAWK's two war-tracking loads into two sibling agents; HAWK becomes the cross-war synthesis + dormant-geopolitics layer. Full buildable spec attached.
+**Detail:** Root cause of the 2026-07-12 HAW-15 miss = structural overload (one agent holding two acute independent wars → the secondary theater's ledger silently rotted). The durable fix is a split, not a documentation patch. Spec covers: 3-agent target structure, domain ownership map + seams, file-by-file content migration, prediction-ID/calibration continuity, naming proposal (raptor family: OSPREY = Russia/Ukraine, FALCON = Iran/Gulf), and — importantly — the Tier-1 documentation fixes to bake into each new agent from day one (swept-through high-water-mark, boot staleness alarm on the strike ledger, sweep cadence, raw-log-vs-interpretation split). Phased migration sequence included so nothing breaks mid-flight.
+**Spec:** `AGENTS/HAWK/design/2026-07-12_war-agent-split-spec.md`
+**Your call (open decisions in spec §13):** final names, prediction prefixes, KB migration depth (I recommend freeze-in-place, not row-by-row surgery), whether OSPREY gets an automated Russia-strike feed. HAWK provides domain input + content migration; you own the scaffolding/lifecycle; PROME owns roster + the root CLAUDE.md transmission-chain update.
+**Source:** HAWK analysis at Will's direction (concept approved 2026-07-12).
+**Priority:** 🟠
