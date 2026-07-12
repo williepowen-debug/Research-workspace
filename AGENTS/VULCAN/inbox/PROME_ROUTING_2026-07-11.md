@@ -1,4 +1,0 @@
-# ROUTING: two AI-concentration datums + a missing credit seam (sources: VIOLET + LIQUID sweeps 7/11; PROME-routed, Will-authorized)
-
-1. **NDX-SPX 3m ATM IV dispersion** (VIOLET, board_log SIG-W-20260702-017): spread hit 10.2 [7/2 signal] = 2nd-highest ever (ATH 10.80 on 6/23, ~5σ vs 5.1 mean), peak aligned with the Path-B partial-fire. Direct market-pricing evidence for your S1 concentration quantification — use it before the 7/22-7/29 earnings gates.
-2. **Your seam map has no credit leg** (LIQUID): LIQUID's KB-LIQ-066 (tech-HY BB-concentration composition artifact), 069 (5 AI-HY re-arm triggers incl. ORCL fallen-angel), and 073 (named CRWV/APLD bond basket) are the credit face of your thesis — your CLAUDE.md cites LIQUID only as a design-pattern donor. Until DAEDALUS registers the formal seam (flagged), treat LIQUID as your reconcile-to-one-figure counterpart on AI-credit stress: LIQUID owns spread tells, you own capex/fundamentals.
