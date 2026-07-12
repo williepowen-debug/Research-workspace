@@ -50,15 +50,39 @@
 
 **Repricing:** memory makers, a broad demand-velocity read (→ HENRY), goods/tech demand (→ CARL). **Why it matters:** memory is the most cyclical semi — a contract-price roll is one of the earliest real-economy demand tells. **First pull (2026-07-12):** TrendForce 2Q26 forecast + Micron FQ3 FY26 print (reported 6/24/26, revenue $41.46B vs $32.75-34.25B guide, CEO says can fill only 50-67% of demand) both confirm a structural shortage, not a roll — no capacity relief expected before late 2027/2028. **New cross-channel link (MISSED CONNECTIONS, 2026-07-12): S2 feeds S1 directly.** MSFT and META both cite higher component/memory costs as explicit drivers of their FY26 capex-guide raises (MSFT: ~$25B of its $190B guide = pricing effect). Some fraction of the eye-catching capex $ growth is memory-cost inflation, not purely incremental compute capacity — relevant nuance for how VIOLET/HENRY read the raw capex figures. **Next resolver:** VULCAN-04, SK Hynix Q2'26 print 7/23/26.
 
-## S3 — AI-capex → power demand (feeds WATT) — GAP
+## S3 — AI-capex → power demand (feeds WATT) — first sizing done 2026-07-12 (round 2)
 
 | Stage | Mechanism | State |
 |---|---|---|
 | 1 | AI-capex → datacenter buildout → compute demand | confirmed (macro) |
-| 2 | Compute demand → interconnection + grid MW load | needs sizing |
-| 3 | Grid can't supply → power becomes the binding constraint on AI deployment | open (the WATT coupling) |
+| 2 | Compute demand → interconnection + grid MW load | **sized: capex-implied ~8-11 GW/yr global 4-name flow (2026) — conversion below** |
+| 3 | Grid can't supply → power becomes the binding constraint on AI deployment | open (the WATT coupling) — WATT's P2 capacity leg already FIRED on its side |
 
-**Repricing:** hands WATT the demand driver (WATT prices the grid response); power-availability as a gate on AI-capex. **VULCAN owes** the compute→MW sizing; WATT owns the power price (reconcile to one figure).
+**Repricing:** hands WATT the demand driver (WATT prices the grid response); power-availability as a gate on AI-capex. WATT owns the power price (reconcile to one figure).
+
+### CAPEX → MW CONVERSION (first pass, 2026-07-12 — every step ASSUMPTION-tier unless noted)
+
+**Inputs:** S1 baseline agg FY26 capex guide $710-725B (4-name, EMPIRICAL, KB-009) · capex intensity **$50-60B per GW** all-in AI infrastructure [Jensen Huang, ~May 2026 vintage, NVDA hardware >half of that sum — **incentive-flagged: vendor-sourced**, Barclays has publicly stress-tested the "Jensen math"; Stargate corroborates ~$50B/GW ($500B/~10GW target)] · AI-related share of hyperscaler capex **~70-75%** [industry estimate vs top-5, late-2025/early-2026 vintage; KB-017].
+
+| Step | Calculation | Result | Tier |
+|---|---|---|---|
+| 1. AI-specific 2026 capex (4-name) | $710-725B × 70-75% | **$500-545B** | ASSUMPTION (share) |
+| 2. Implied new AI capacity, global, 2026 flow | $500-545B ÷ $50-60B/GW | **~8.3-10.9 GW/yr** | ASSUMPTION ($/GW) |
+| 3. Gross-up for non-big-4 (Oracle/Stargate/xAI/neoclouds/China; 4-name ≈ ~70% of global AI capex) | ÷ 0.7 | **~12-16 GW/yr global all-players** | ASSUMPTION |
+| 4. Cumulative 2024-2030, 4-name (2024-25 ~$630B actuals + 2026 guide + FLAT-at-2026 2027-30 — the conservative branch) | ~$4.2T × ~70% ÷ $50-60B/GW | **~48-62 GW global (4-name)** | ASSUMPTION (flat-capex branch) |
+| 5. All-players global, 2024-2030 | ÷ 0.7 | **~68-89 GW** | ASSUMPTION |
+| 6. US share (~55-60%) → PJM share of US DC (~25-35%, VA data-center alley) | sequential | **~9.5-19 GW PJM, hyperscaler-AI only** | ASSUMPTION ×2 |
+| 7. PJM total-DC (hyperscaler-AI ≈ 50-70% of PJM DC growth; rest = colo/enterprise/crypto) | ÷ 0.5-0.7 | **~14-37 GW PJM total-DC, 2024-2030** | ASSUMPTION |
+
+**Honest-uncertainty note:** 5+ stacked assumptions — the band is wide by construction and the deliverable is *which forecast sits inside the band*, not a point estimate. Known biases: (a) GPU-refresh into existing shells inflates $ without net-new MW (overstates GW); (b) capex-year ≠ energization-year (12-24mo lag — 2026 capex powers 2027-28 load); (c) flat-capex 2027-30 is conservative — the 2026 guide is +77% YoY, and if that growth persists the band shifts materially up; (d) S2's component-cost inflation means some capex $ is price, not capacity (same nuance as the S1 read — cuts implied GW further).
+
+### RECONCILIATION vs WATT's P3 range (read-only consume of AGENTS/WATT/, 2026-07-12)
+
+WATT's two seam datums [WATT STATUS P3 row, KB-WATT-012..014]: **PJM-official 32 GW** total peak-load growth 2024-2030, 30 GW (94%) data-center-driven [PJM via DCD, pub 2025-08-12] vs **WoodMac/utility-self-reported 55 GW by 2030** (100 GW by 2037) [via White & Case, pub 2026-03-11] — a 23 GW / 70% unreconciled gap.
+
+**VULCAN's verdict: hyperscaler-guided capex supports the LOW-to-MID (PJM-official) forecast, not the high one.** PJM's 32 GW sits inside the upper half of the capex-implied ~14-37 GW band; WoodMac's 55 GW sits ~50% ABOVE the band's top. For 55 GW to be real funded demand, at least one of: **(a)** aggregate capex keeps growing high-double-digits through 2028-30 (2026's +77% raise is a trajectory, not a step), **(b)** PJM's share of the US buildout rises above ~35%, or **(c)** the 55 GW contains double-counted/speculative utility interconnection requests (same project shopped to multiple utilities — a known inflation mechanism in self-reported pipelines; this branch resolves the gap as *artifact*, not demand). **The (a)-vs-(c) discriminator is on VULCAN's clock: the 7/22-7/31 capex-guide cluster.** Continued raises + FY27 acceleration language → (a) gains, 55 GW path stays live; capex plateau/cut → 32 GW is the funded ceiling and the WoodMac excess is likely artifact. Registered as **VULCAN-06** (resolves 7/31).
+
+**Shared-antecedent discipline:** this couples S3's resolver to S1's catalyst — the capex root is shared (per STATUS independence note); a capex disappointment fires BOTH, count the root once. **Double-count guard for the seam:** WATT's IPP PPA datums (VST 3,800MW AWS + 2,609MW Meta; TLN 1,920MW Amazon) are the *utility-side reflection of the same hyperscaler capex* — when reconciling to one figure, PPA-MW and capex-implied-MW are two views of one demand, never additive.
 
 ## S4 — Supply-chain / geopolitics (the chokepoint) — first pull done 2026-07-12
 

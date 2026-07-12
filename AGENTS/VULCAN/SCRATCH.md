@@ -1,15 +1,15 @@
 # VULCAN — SCRATCH (next-session pickup)
 
-**2026-07-12 — FIRST REAL SESSION (S1 capex quantification + S2/S4 first pulls, PROME-routed hard-clock ask).**
-
-Delivered the S1 pre-print baseline (all 4 hyperscalers, Q1 CY26 actuals + FY26 guides, sourced+dated) ahead of GOOGL 7/22 and the 7/29-31 cluster. Closed S2 (memory) and S4 (supply-chain) first-pull gaps. S3 (compute→power) is the one gap left — deliberately deprioritized this session. Full detail → `THESIS.md` S1 section, `STATUS.md` matrix, `workbook/KB.tsv` KB-VULCAN-005..015, `reports/2026-07-12_domain-sweep.md`.
+**2026-07-12 ROUND 2 (PROME-directed continued development): S3 STOOD UP.** Round-1 route-outs confirmed DELIVERED by PROME (commit 40357f1d — LIQUID/ZHAO/HENRY legs). WATT's fresh 7/12 material consumed read-only; S1's $710-725B baseline converted to implied GW (THESIS.md S3 conversion table; KB-016..019; all constants ASSUMPTION-tier, $/GW incentive-flagged vendor source); reconciled vs WATT's PJM-32GW/WoodMac-55GW divergence → **guided capex supports the 32GW low-mid path; the 55GW high side needs persistent capex acceleration or is utility self-report artifact; VULCAN-06 (resolves 7/31) is the discriminator**. Round-1 prediction-ID mislabels in VX/KB notes corrected (SK Hynix=VULCAN-04, TSMC=VULCAN-05). Composite 11/20; **all 4 channels now carry VULCAN-owned live reads.** Seam handoff to WATT = route-out for PROME (report addendum + NEXUS_BRIEF WATT row); WATT is consuming VULCAN's capex figures in parallel — **reconcile to one figure at next contact.**
 
 **▶ PICK UP HERE (next session, priority order):**
 1. **Run `boot.py`** — confirm staleness + predictions-due.
-2. **Resolve near-term predictions as they hit:** VULCAN-05 TSMC delayed print (7/13), VULCAN-03 GOOGL (7/22, the big one), VULCAN-04 SK Hynix (7/23), VULCAN-01/04-composite + MSFT/META/AMZN (7/29-30).
-3. **S3 sizing (the one persisting gap)** — compute→MW demand; hand WATT the demand driver. Now has hard $ capex figures to seed a first-pass model.
-4. **Deliver the route-outs** flagged in the domain-sweep report (LIQUID FCF-compression datum, ZHAO/HAWK 7/1 Taiwan detention, WATT capex seed, VIOLET/HENRY component-cost nuance) — these are PROME's to route, not VULCAN's to send directly (outbox = crisis-only).
-5. **Sharpen the Mag-7 weight source** — currently aggregator-cited, not primary.
+2. **Resolve on the clock:** VULCAN-05 TSMC delayed print (7/13) → VULCAN-03 GOOGL (7/22, the big one) → VULCAN-04 SK Hynix (7/23) → VULCAN-01 + VULCAN-06 full cluster (7/29-31; same catalyst, count the capex root once).
+3. **WATT seam reconcile** — confirm WATT consumed the S3 handoff; land ONE shared demand figure (capex-implied band + PJM/WoodMac forecasts + PPA-MW as the same demand, not additive).
+4. **Sharpen conversion constants** — replace the Jensen $/GW if the 7/22-7/31 calls disclose capex-per-DC or MW figures; refresh the 70-75% AI-share (vintage predates the guide raises).
+5. **Sharpen the Mag-7 weight source** — currently aggregator-cited, not primary. Micron 8/4 print enters the GAPS window next session.
+
+**Round-1 note (2026-07-12 earlier, preserved):** S1 pre-print baseline delivered (all 4 hyperscalers, Q1 CY26 actuals + FY26 guides) ahead of GOOGL 7/22; S2/S4 first-pull gaps closed; domain sweep run → `reports/2026-07-12_domain-sweep.md`.
 
 **Prior build-session note (2026-07-10, preserved for context):**
 
