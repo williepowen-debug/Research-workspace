@@ -229,7 +229,7 @@ V9 merged into V8 (May 1). V15 Refi-Window dropped (RED domain). **Independence 
 - **Thesis kill:** Claims <220K 8+ weeks AND CC 90+ DQ declines 2 consecutive quarters
 - **Time-based:** consumer earnings quarters = mandatory review. Forward dates → **`docket/CALENDAR.md`**; per-company watch-metric templates → `archive/EARNINGS_WATCH_Q1.md` (Q1, reusable for Q2+ prep).
 
-*Next catalysts: full dated feed in **`docket/CALENDAR.md`** (run `scripts/docket_countdown.py`). Highest-leverage near-term: **Jun 16-17 FOMC + SEP** — first dot-plot post-Waller, market pricing ~2-in-3 Oct hike vs Fed dots. Next breach test: **~mid-Aug NY Fed Q2 HHDC** (CRL-05 direct).*
+*Next catalysts: full dated feed in **`docket/CALENDAR.md`** (run `scripts/docket_countdown.py`). Highest-leverage near-term: **CPI Tue 7/14** (fleet hinge) + Beige Book ~7/15 + **FOMC Jul 28-29** *(Jun 16-17 FOMC GRADED hawkish-relative — see header; line patched by PROME 7/12, wording CARL's to refine)*. Next breach test: **~mid-Aug NY Fed Q2 HHDC** (CRL-05 direct).*
 *Key docs: `thesis/THESIS.md` | `thesis/PREDICTIONS.tsv` | `thesis/CHANGELOG.md` | `workbook/KB.tsv` | `domain/sources/CVNA_FRAUD_WATCH.md` | `workbook/ABS_BASELINE.tsv` | `workbook/STATE_DIFFUSION.tsv`*
 
 ---
