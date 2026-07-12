@@ -10,8 +10,10 @@
 
 | Channel | Direction | Candidate surface | Trigger to propose |
 |---|---|---|---|
-| P1 | long scarcity | IPP generators (VST/CEG/NRG/TLN) on grid-emergency risk | 2nd EEA2+ event OR summer LMP regime |
+| P1 | long scarcity | IPP generators (VST/CEG/NRG/TLN) on grid-emergency risk | 2nd EEA2+ event OR summer LMP regime — **watch:** 7/1 LMP-proxy already hit Orange ($574) once, not yet a trigger (below $1,000 Red, single-day) |
 | P2 | structural | utility/IPP capacity-cost beneficiaries; industrial power-cost shorts | 28/29 BRA confirms at cap |
-| P3 | long buildout | IPP load-growth beneficiaries | interconnection-queue pull confirms imbalance |
+| P3 | long buildout | IPP load-growth beneficiaries | interconnection-queue pull confirms imbalance — **2026-07-12 first pull: confirmed structural, not yet at escalation trigger** (32GW PJM-own vs 55GW WoodMac, unreconciled; IPP guidance reaffirmed not raised) |
+
+*(2026-07-12: P3/P4 gaps closed this session — see STATUS/THESIS. No trigger crossed; still no open positions.)*
 
 *All candidates route through TERRY for construction + Will approval before any position (root rules #5–#8). WATT produces the signal, not the execution.*

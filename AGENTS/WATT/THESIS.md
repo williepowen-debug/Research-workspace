@@ -12,7 +12,7 @@
 |---|---|---|
 | 1 | Heat dome / cold snap / generator outage → load spike or supply loss | open (seasonal) |
 | 2 | Reserve margin erodes → PJM issues emergency-procedure postings (warnings → EEA1 → EEA2) | open (1 realized: EEA2 7/3) |
-| 3 | Reserve shortfall → RT/DA LMP spikes (to scarcity pricing / cap) | open (LMP leg not yet wired — PJM_API_KEY pending) |
+| 3 | Reserve shortfall → RT/DA LMP spikes (to scarcity pricing / cap) | **confirmed via proxy** (2026-07-12): EIA's free biweekly wholesale-price file shows a real $574.04/MWh (Orange) print on 7/1, retreating to $72.38 by 7/7. Official PJM Data Miner LMP still not wired (PJM_API_KEY pending) — this is a real-trade proxy, not the official series |
 | 4 | Sustained high power cost → industrial curtailment + data-center opex/uptime risk (§202(c) curtailment precedent) | confirmed precedent (7/3 DOE order) |
 
 **Repricing:** IPP power-generator equities (upside on scarcity), industrial power-cost margin compression, neocloud FCF drag. **Confirms/breaks this channel alone:** an EEA2+ event with an LMP spike confirms; a full mild summer with no emergency postings kills the *live read* (migrates to P2/P3, does not kill thesis).
@@ -28,26 +28,26 @@
 
 **Repricing:** utility retail rate cases, industrial siting economics, consumer energy CPI (→ CARL). **Confirms/breaks:** the 28/29 BRA (~Dec-2026) — at cap again confirms structural; materially below cap with draining queues falsifies. This is the cleanest bidirectional flip.
 
-## P3 — Data-center demand leg (couples to HEN-36) — GAP, needs first pull
+## P3 — Data-center demand leg (couples to HEN-36) — first pull complete 2026-07-12
 
 | Stage | Mechanism | State |
 |---|---|---|
 | 1 | Hyperscaler + neocloud AI-capex → new data-center interconnection requests | confirmed (macro) |
-| 2 | Interconnection queue depth balloons; IPPs guide load growth up | needs first pull (LBNL Queued Up; VST/CEG/NRG/TLN) |
-| 3 | Queue > system peak-load growth → structural supply-demand imbalance | open |
-| 4 | Power availability becomes the binding constraint on AI-capex deployment | open (the HEN-36 coupling) |
+| 2 | Interconnection queue depth balloons; IPPs guide load growth up | **confirmed, first pull:** PJM's own 20-yr forecast = 32GW total / 30GW (94%) data-center-driven peak-load growth by 2030 [PJM via DCD, 2025-08-12]; all 4 IPPs (VST/CEG/NRG/TLN) reaffirmed/beat FY26 guidance, none cut, Q1-2026 |
+| 3 | Queue > system peak-load growth → structural supply-demand imbalance | open — not yet at the "queue > 2x peak load" trigger; **unreconciled divergence flagged:** Wood Mackenzie's utility-self-reported 55GW/2030 (via White & Case, 2026-03-11) runs 23GW/70% hotter than PJM's own 32GW official number — possible utility over-commitment vs PJM's central planning forecast, un-routed to REGINALD/HENRY as of 7/12 |
+| 4 | Power availability becomes the binding constraint on AI-capex deployment | open (the HEN-36 coupling); new hyperscaler PPAs (VST 3,800MW AWS + 2,609MW Meta; TLN 1,920MW Amazon) sit **outside** IPP guidance = unpriced upside, a soft confirming signal |
 
-**Repricing:** IPP equities, power-availability as a gate on the ~$290B AI-capex FCF node (HENRY). **WATT owes:** the first interconnection-queue + IPP-load pull.
+**Repricing:** IPP equities, power-availability as a gate on the ~$290B AI-capex FCF node (HENRY). **Escalation trigger:** interconnection queue > 2× system peak load, OR any IPP formally *raises* (not just reaffirms) 2026 guidance.
 
-## P4 — Gas → power coupling (spark spread) — GAP, needs first pull
+## P4 — Gas → power coupling (spark spread) — first pull complete 2026-07-12
 
 | Stage | Mechanism | State |
 |---|---|---|
-| 1 | Henry Hub gas price (BRENT owns) sets gas-fired marginal cost | open |
-| 2 | Gas-fired unit sets the power clearing price → spark spread | needs first pull |
-| 3 | Spread compresses/negative → gas-fired uneconomic → supply tightens further | open |
+| 1 | Henry Hub gas price (BRENT owns) sets gas-fired marginal cost | live: NG=F $2.94/MMBtu (7/10), down ~10% over the week even as power spiked [yfinance] |
+| 2 | Gas-fired unit sets the power clearing price → spark spread | **live, first pull:** baseline (7/7) +$49.53/MWh; spike-day (7/1) +$551.50/MWh — both wide and positive. Heat-rate assumption (7.0 MMBtu/MWh, efficient CCGT) is ASSUMPTION-tier, not yet calibrated to the actual PJM gas fleet (EIA-923 would sharpen this) |
+| 3 | Spread compresses/negative → gas-fired uneconomic → supply tightens further | open — **mechanism refinement:** the heat-stress regime that drives P1 *widens* the spread (gas captures scarcity rent as marginal price-setter) rather than compressing it. Compression is a *different* regime this thesis hasn't tested yet — likely mild-weather oversupply or high-renewable-curtailment days, not the heat-dome/P1 regime |
 
-**Repricing:** the gas↔power handshake with BRENT; power-price floor. **WATT owes:** the first spark-spread read (Henry Hub from BRENT × PJM power price).
+**Repricing:** the gas↔power handshake with BRENT; power-price floor. **Data source:** EIA's free biweekly wholesale-price file (`eia.gov/electricity/wholesale`) × yfinance Henry Hub (NG=F) — no PJM_API_KEY required for this proxy-grade read.
 
 ## P5 — PPA tape (tier-2, not yet in the live matrix)
 

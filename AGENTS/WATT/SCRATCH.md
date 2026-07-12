@@ -1,15 +1,15 @@
 # WATT — SCRATCH (next-session pickup)
 
-**2026-07-10 — BUILD SESSION (DAEDALUS scaffold, Will-approved spinout).**
+**2026-07-12 — SECOND SESSION (first real post-build session; domain sweep run).**
 
-WATT is live. Spun out of HENRY's provisional power leg. Step-1 instruments (`power_watch.py`) moved in from FORGE and re-import-pathed; smoke-tested rc 0 with live data. Matrix seeded: P1 live (quiet-but-armed, demand 88.9% peak), P2 live (🔴 structural — both BRAs at cap), **P3 + P4 are GAPS carrying inherited/no reads.**
+Both P3 and P4 gaps from birth are closed — all four core channels now carry WATT-owned, sourced-and-dated reads (see STATUS/THESIS/workbook). Headline find: a free EIA wholesale-price file (`eia.gov/electricity/wholesale`, no key, biweekly) gives a usable PJM price proxy and it caught a real **$574.04/MWh Orange-band spike on 7/1** that the postings-only P1 read had completely missed. Full writeup: `reports/2026-07-12_domain-sweep.md`.
 
 **▶ PICK UP HERE (next session, in priority order):**
-1. **Run `boot.py`** first — confirm power_watch + staleness + predictions-due all green.
-2. **Close P3 gap** — pull interconnection-queue depth (LBNL Queued Up 2026 edition) + IPP load-growth guidance (VST/CEG/NRG/TLN latest earnings). Re-score VX-WATT-P3, update STATUS.
-3. **Close P4 gap** — ask BRENT for Henry Hub; compute spark spread vs PJM power price. Re-score VX-WATT-P4.
-4. **Process inbox** — HENRY ownership-handoff packet (integrate the HEN-36 coupling detail), AEOLUS C3 routing-confirmation.
-5. **PJM_API_KEY** — if Will has registered it, wire the LMP leg into `power_watch.py` (upgrades P1 from demand-proxy to actual price).
-6. Resolve/extend PREDICTIONS (WATT-01 28/29 BRA Dec; WATT-02 EEA2 recurrence by 9/7) at boot.
+1. **Run `boot.py`** first — confirm power_watch + staleness + predictions-due all green. Resolve WATT-03 (due 8/2), WATT-04 (due 7/23), WATT-05 (due 7/20) when their dates pass.
+2. **Instrument upgrade (proposed 7/12, not yet built)** — wire the EIA ICE wholesale-price file into `power_watch.py` as an automatic P1 LMP-proxy + P4 spark-spread leg. It's `openpyxl`-parseable, biweekly, free. This was a manual pull this session; automating it is the single highest-value next build (closes the founding P1/P4 honest-wall permanently, no PJM_API_KEY needed).
+3. **Calibrate the P4 heat-rate assumption** — currently a flat 7.0 MMBtu/MWh guess. Pull actual PJM gas-fleet heat rates (EIA-923, `facility-fuel` or `electric-power-operational-data` routes) for a real number instead of an ASSUMPTION-tier constant.
+4. **Reconcile the P3 32GW (PJM-own) vs 55GW (Wood Mackenzie/utility-self-reported) divergence** — a 23GW/70% gap nobody has explained yet. Route to REGINALD/HENRY if it looks like utility over-commitment relative to PJM's own planning number (credit/FCF-timing angle).
+5. **PJM_API_KEY** — still open (Will-gated); wires the *official* granular LMP once registered (the EIA proxy is daily-aggregate/biweekly-lag, not real-time).
+6. Check whether the 7/1 LMP-proxy spike gets independently corroborated by AEOLUS (C3 heat-dome detection for that date) — worth a quick cross-check next session, not urgent.
 
-**Open dependencies (not WATT's to do):** Will → PJM_API_KEY registration (~5min); HENRY → drop its provisional-owner role + power_watch boot line (packet routed); PROME → confirm ROSTER row.
+**Open dependencies (not WATT's to do):** Will → PJM_API_KEY registration (~5min); PROME → route the P3 32GW-vs-55GW divergence + P4/P1 NEXUS_BRIEF findings to BRENT/HENRY if not auto-consumed.

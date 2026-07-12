@@ -1,5 +1,5 @@
 id	channel	from	mechanism	to	state	routes_to
-FL-WATT-01	P1	grid emergency / heat / outage	reserve shortfall -> RT/DA LMP spike	industrial + data-center power cost	armed (1 realized 7/3)	HENRY, AEOLUS
+FL-WATT-01	P1	grid emergency / heat / outage	reserve shortfall -> RT/DA LMP spike	industrial + data-center power cost	confirmed: LMP-proxy hit $574/MWh 7/1, retreated by 7/7 (2 realized: EEA2 7/3 + price spike 7/1)	HENRY, AEOLUS
 FL-WATT-02	P2	capacity auction at cap	retail/industrial pass-through	consumer + industrial bills	FIRED (structural)	CARL
-FL-WATT-03	P3	AI-capex buildout	interconnection-queue + IPP load growth	grid supply-demand imbalance	building	HENRY (HEN-36)
-FL-WATT-04	P4	Henry Hub gas price	gas-fired marginal unit -> power price (spark spread)	power price floor/coupling	needs pull	BRENT, CARL
+FL-WATT-03	P3	AI-capex buildout	interconnection-queue + IPP load growth	grid supply-demand imbalance	confirmed via first pull (32GW PJM-own / 55GW WoodMac); IPP guidance holding, not yet escalating	HENRY (HEN-36)
+FL-WATT-04	P4	Henry Hub gas price	gas-fired marginal unit -> power price (spark spread)	power price floor/coupling	live: wide/healthy both baseline and spike-day, no compression	BRENT, CARL
