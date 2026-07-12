@@ -26,6 +26,7 @@ flowchart LR
         OZK[OZK<br/>Bank OZK]
         CORAL[CORAL<br/>Florida convergence]
         CREED[CREED<br/>National CRE / CMBS / REIT tape]
+        HOMER[HOMER<br/>Housing asset market]
     end
 
     subgraph PC[Private credit / insurance]
@@ -34,7 +35,9 @@ flowchart LR
     end
 
     subgraph ENERGY[Energy / geopolitics / commodities / climate]
-        HAWK[HAWK<br/>Geopolitical / military]
+        HAWK[HAWK<br/>Geopol synthesis + dormant book]
+        OSPREY[OSPREY<br/>Russia-Ukraine war theater]
+        FALCON[FALCON<br/>Iran-Gulf war theater]
         BRENT[BRENT<br/>Oil / energy markets]
         MARCO[MARCO<br/>Migration / labor supply]
         AEOLUS[AEOLUS<br/>Climate → economy]
@@ -64,7 +67,7 @@ flowchart LR
     CORAL -->|FL bank/real estate convergence| REGINALD
     CREED -->|CRE / CMBS / public REIT tape bank bridge| REGINALD
     CREED -->|maturity wall / refi pressure| LIQUID
-    CREED -->|multifamily spillovers| CARL
+    CREED -->|Trepp CMBS-MF row, one-owner handoff 7/12| HOMER
     CREED -->|Florida overlap only| CORAL
     OZK -. peer bank surface .- REGINALD
 
@@ -73,7 +76,14 @@ flowchart LR
     BROCK -->|NDFI / BDC bank bridge| REGINALD
     BROCK -->|credit market stress| BOND
 
-    HAWK -->|kinetic/chokepoint catalyst| BRENT
+    OSPREY -->|Russia theater read| HAWK
+    FALCON -->|Iran-Gulf theater read| HAWK
+    OSPREY -.->|acute 🔴 direct, HAWK cc| BRENT
+    FALCON -.->|acute 🔴 direct, HAWK cc| BRENT
+    HAWK -->|reconciled geopol oil-risk read| BRENT
+    HOMER -->|consumer-stress transmission| CARL
+    HOMER -->|Path C bank collateral| REGINALD
+    HOMER -->|wealth effect / HPI| HENRY
     BRENT -->|inflation / demand destruction| HENRY
     BRENT -->|energy credit / funding shock| LIQUID
     BRENT -->|gas pump / consumer pressure| CARL
@@ -157,7 +167,8 @@ flowchart LR
 |---|---|---|
 | Credit | LABOR → CARL → REGINALD → HENRY/LIQUID, with CREED feeding CRE/CMBS and public REIT tape bank-bridge stress | Claims/payroll composition, consumer DQ/housing, CRE maturity/default recognition, REIT equity/NAV/dividend stress, bank loss recognition, market repricing |
 | Private credit | BROCK → SHADE → LIQUID / REGINALD | Gates, PIK/NAV stress, insurer wrapper funding, NDFI bank bridge |
-| Energy shock | HAWK → BRENT → HENRY/LIQUID/CARL | Kinetic/chokepoint events, Brent/storage/insurance, inflation/demand destruction, energy credit |
+| Energy shock / war | {OSPREY, FALCON} → HAWK → BRENT → HENRY/LIQUID/CARL (acute theater signals → BRENT direct, HAWK cc) | Theater kinetic/chokepoint events, cross-war reconciliation, Brent/storage/insurance, inflation/demand destruction |
+| Housing | HOMER → CARL / REGINALD / HENRY | Foreclosure pipeline, GSE-vs-CMBS multifamily divergence, builder margins, HPI, mortgage-rate surface |
 | Climate → economy | AEOLUS → BRENT / CORAL / MARCO | Insurance losses, ag/food supply shifts, energy-demand swings on a weather/structural horizon |
 | Power | AEOLUS → WATT → HENRY / CARL; BRENT → WATT | Grid emergencies (PJM EEA), LMP spikes, capacity-auction clears at cap, data-center load |
 | AI-capex | VULCAN → VIOLET / HENRY / WATT; ZHAO / HAWK → VULCAN | Hyperscaler capex guides, Mag-7 concentration, memory cycle, export controls, Taiwan chokepoint |

@@ -32,14 +32,17 @@ Active + Tier-2 domain owners and meta-agents with live folders. Full verified c
 | DAEDALUS | [`DAEDALUS/`](./DAEDALUS/) | Meta — fleet architect (on-demand) |
 | DEWEY | [`DEWEY/`](./DEWEY/) | Synthesis / Ops · Tier-2 |
 | HANS | [`HANS/`](./HANS/) | Funding / Macro · Tier-2 |
-| HAWK | [`HAWK/`](./HAWK/) | Energy / Geopolitics |
+| FALCON | [`FALCON/`](./FALCON/) | Energy / Geopolitics (Iran-Gulf war theater; ←HAWK split 7/12) |
+| HAWK | [`HAWK/`](./HAWK/) | Energy / Geopolitics (cross-war synthesis + dormant book) |
 | HENRY | [`HENRY/`](./HENRY/) | Funding / Macro |
+| HOMER | [`HOMER/`](./HOMER/) | Credit (housing asset market; ←CARL promotion 7/12) |
 | LABOR | [`LABOR/`](./LABOR/) | Credit |
 | LIQUID | [`LIQUID/`](./LIQUID/) | Funding / Macro |
 | MARCO | [`MARCO/`](./MARCO/) | Energy / Geopolitics / Credit bridge |
 | MIDAS | [`MIDAS/`](./MIDAS/) | Energy / Commodities (metals: monetary gold/silver + industrial copper/PGM) |
 | NEXUS | [`NEXUS/`](./NEXUS/) | Synthesis / Ops |
 | ORACLE | [`ORACLE/`](./ORACLE/) | Synthesis / Ops |
+| OSPREY | [`OSPREY/`](./OSPREY/) | Energy / Geopolitics (Russia-Ukraine war theater; ←HAWK split 7/12) |
 | OTTO | [`OTTO/`](./OTTO/) | Credit · Tier-2 |
 | RED | [`RED/`](./RED/) | Synthesis / Ops |
 | REGINALD | [`REGINALD/`](./REGINALD/) | Credit |

@@ -5,12 +5,13 @@ Detect stress transmission early enough to position ahead of consensus.
 **Transmission Chains:**
 1. **Credit:** LABOR → CARL → REGINALD → repricing (CREED national CRE/CMBS + CORAL geo convergence + HENRY velocity + LIQUID amplification)
 2. **Private credit cascade:** BROCK → SHADE (insurance) → LIQUID (funding)
-3. **Energy shock:** HAWK → BRENT → HENRY (demand destruction)
+3. **Energy shock / war:** {OSPREY (Russia/Ukraine), FALCON (Iran/Gulf)} → HAWK (cross-war synthesis, no double-count) → BRENT → HENRY (demand destruction); acute theater signals → BRENT direct, HAWK cc'd
 4. **Japan:** SAM — independent trigger via carry unwind → LIQUID
 5. **Volatility:** VIOLET — credit-to-vol lag detection → HENRY, LIQUID, RED
 6. **Power:** AEOLUS (weather detection) → WATT (grid stress → power price) → HENRY (AI-capex FCF) + CARL (retail pass-through)
 7. **AI-capex:** VULCAN (concentration mechanism / memory cycle / compute-demand / Taiwan chokepoint) → VIOLET (concentration-unwind vol) + HENRY (FCF) + WATT (power demand)
 8. **Metals:** {BOND (gold↔real-rates), ZHAO (copper↔China)} ↔ MIDAS → LIQUID (safe-haven) + HENRY (growth tell); HAWK → MIDAS (PGM supply)
+9. **Housing:** HOMER (asset market: pipeline, GSE+CMBS multifamily, builders, HPI) → CARL (consumer transmission) + REGINALD (Path C bank collateral) + HENRY (wealth effect)
 
 NEXUS synthesizes across all chains. MARCO feeds immigration/labor supply into LABOR + BRENT. **VIOLET tracks credit-to-vol transmission — when credit spreads widen and VIX hasn't caught up.** **TERRY converts thesis into trade construction: entry, structure, sizing, invalidation, roll/no-roll rules, and postmortems.**
 
@@ -23,7 +24,8 @@ Grouped directory views live in `AGENTS/_INDEX.md`; the canonical topology map l
 | Agent | Domain | Chain |
 |-------|--------|-------|
 | LABOR | Employment, claims | Credit |
-| CARL | Consumer credit, housing | Credit |
+| CARL | Consumer credit (housing asset-market → HOMER 7/12; CARL keeps consumer-transmission reads) | Credit |
+| **HOMER** | **Housing — pipeline, GSE+CMBS multifamily, builders, HPI, mortgage-rate surface** | **Housing → {CARL, REGINALD, HENRY}** |
 | REGINALD | Regional banks (OZK, WAL) | Credit |
 | CORAL | Florida real estate, insurance, FL banks, migration/tourism | Credit (geo convergence) |
 | CREED | National CRE / CMBS + public REIT equity tape | Credit (CRE→bank bridge) |
@@ -33,7 +35,9 @@ Grouped directory views live in `AGENTS/_INDEX.md`; the canonical topology map l
 | BROCK | BDC, private credit, CLOs | PC cascade |
 | SHADE | PE-insurance-captive | PC cascade |
 | SAM | Japan, BOJ, carry trade | Japan |
-| HAWK | Geopolitical, military | Energy |
+| HAWK | Geopolitical synthesis (cross-war) + dormant book (Taiwan, Venezuela, trade, chokepoints) | Energy (synthesis hub) |
+| **OSPREY** | **Russia/Ukraine war — energy strikes, crude-vs-products channel, shadow-fleet kinetic** | **Energy (theater → HAWK/BRENT)** |
+| **FALCON** | **US/Israel/Iran-Gulf war — scenario ladder, Hormuz, Bab-al-Mandab, Baghdad watch** | **Energy (theater → HAWK/BRENT)** |
 | BRENT | Oil, energy markets | Energy |
 | RED | Adversarial analysis | All |
 | MARCO | Migration, labor supply | Credit + Energy |
