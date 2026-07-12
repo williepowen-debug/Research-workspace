@@ -32,9 +32,9 @@
 
 | Stage | Mechanism | State |
 |---|---|---|
-| 1 | Hyperscaler + neocloud AI-capex → new data-center interconnection requests | confirmed (macro) |
+| 1 | Hyperscaler + neocloud AI-capex → new data-center interconnection requests | confirmed (macro) — **upstream driver quantified via VULCAN seam (rd-2, 7/12):** FY26 4-name hyperscaler capex guide ≈$710–725B, +77% vs 2025's $410B [KB-VULCAN-009 via KB-WATT-020]. VULCAN owns the capex→MW conversion (in progress); WATT never straight-lines dollars→GW (component-price inflation inflates dollars, not MW) |
 | 2 | Interconnection queue depth balloons; IPPs guide load growth up | **confirmed, first pull:** PJM's own 20-yr forecast = 32GW total / 30GW (94%) data-center-driven peak-load growth by 2030 [PJM via DCD, 2025-08-12]; all 4 IPPs (VST/CEG/NRG/TLN) reaffirmed/beat FY26 guidance, none cut, Q1-2026 |
-| 3 | Queue > system peak-load growth → structural supply-demand imbalance | open — not yet at the "queue > 2x peak load" trigger; **unreconciled divergence flagged:** Wood Mackenzie's utility-self-reported 55GW/2030 (via White & Case, 2026-03-11) runs 23GW/70% hotter than PJM's own 32GW official number — possible utility over-commitment vs PJM's central planning forecast, un-routed to REGINALD/HENRY as of 7/12 |
+| 3 | Queue > system peak-load growth → structural supply-demand imbalance | open — not yet at the "queue > 2x peak load" trigger; **unreconciled divergence flagged:** Wood Mackenzie's utility-self-reported 55GW/2030 (via White & Case, 2026-03-11) runs 23GW/70% hotter than PJM's own 32GW official number — routed to REGINALD 7/12 (PROME-delivered). VULCAN's +77% capex acceleration leans directionally toward the higher figure (PJM's Jan-26 forecast may lag), but the dollars≠MW caveat cuts the other way — hold both until VULCAN's MW conversion lands |
 | 4 | Power availability becomes the binding constraint on AI-capex deployment | open (the HEN-36 coupling); new hyperscaler PPAs (VST 3,800MW AWS + 2,609MW Meta; TLN 1,920MW Amazon) sit **outside** IPP guidance = unpriced upside, a soft confirming signal |
 
 **Repricing:** IPP equities, power-availability as a gate on the ~$290B AI-capex FCF node (HENRY). **Escalation trigger:** interconnection queue > 2× system peak load, OR any IPP formally *raises* (not just reaffirms) 2026 guidance.

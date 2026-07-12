@@ -11,7 +11,7 @@ WATT owns the power/grid thesis + this instrument. HENRY consumes WATT's OUTPUT
 Owner/consumer: WATT (channel P1 stress→price). Imports the shared FORGE EIA
 client (fetch.py) by absolute self-location — the client stays in FORGE.
 
-Three reads, one verdict line, each fail-LOUD (stderr + rc=2, never fabricated):
+Four reads, one verdict line, each fail-LOUD (stderr + rc=2, never fabricated):
   1. PJM emergency-procedures postings — https://emergencyprocedures.pjm.com/
      (public, no key; JSF app but postings are SERVER-RENDERED in the initial
      HTML, so a plain GET with a browser User-Agent works — verified 2026-07-10).
@@ -26,15 +26,27 @@ Three reads, one verdict line, each fail-LOUD (stderr + rc=2, never fabricated):
   3. Retail price backdrop via EIA retail-sales (fetch.eia_retail_power_price):
      latest monthly US industrial + residential prints. ~2-MONTH LAG — always
      cited with their month labels.
+  4. LMP-PROXY + SPARK SPREAD (added 2026-07-12, WATT session 2): EIA's free
+     ICE-sourced wholesale price file (eia.gov/electricity/wholesale,
+     ice_electric-YYYY.xlsx, no key), hub "PJM WH Real Time Peak" — real OTC
+     trade wtd-avg $/MWh by delivery day. BIWEEKLY publication + daily-hub
+     aggregation: this is a lagged proxy, NOT real-time LMP — every print is
+     stamped with its delivery date, never "now". Spark spread computed inline
+     vs Henry Hub (yfinance NG=F latest daily close, own date stamp) using a
+     flat 7.0 MMBtu/MWh heat rate — ASSUMPTION-tier, not PJM-fleet-calibrated
+     (EIA-923 calibration is the named next increment). REVIEW (rc=1) trips on:
+     latest proxy print >= $500/MWh (Orange band) OR spark spread negative.
 
-Exit codes: 0 = ok/quiet · 1 = emergency-class posting(s) — review · 2 = fetch/parse failure.
+Exit codes: 0 = ok/quiet · 1 = emergency-class posting(s) OR Orange-band
+LMP-proxy print OR negative spark spread — review · 2 = fetch/parse failure.
 
 HONEST WALLS (what this script does NOT cover, and why):
-  - LMPs (the actual price leg): PJM Data Miner 2 needs a free pjm.com account
-    + subscription key — one-time HUMAN registration (6 calls/min non-member).
-    LMP wiring is the named next increment once a key lands in
-    FORGE/tools/market-data/.env as PJM_API_KEY. Alternative: gridstatus.io
-    free tier — also signup-gated.
+  - Official real-time/granular LMPs: PJM Data Miner 2 needs a free pjm.com
+    account + subscription key — one-time HUMAN registration (6 calls/min
+    non-member). Official-LMP wiring is the named next increment once a key
+    lands in FORGE/tools/market-data/.env as PJM_API_KEY. The leg-4 EIA proxy
+    (above) covers the daily/biweekly-lag price read in the meantime; it can
+    MISS intra-day spikes and anything since the last biweekly file update.
   - Structural capacity cost: 2026/27 BRA cleared at the $329.17/MW-day cap,
     2027/28 at the $333.44 cap (uncapped sim ~$530; 6,623 MW short of the
     reliability requirement). Annual cadence, tracked via BRA PDFs — not here.
@@ -69,6 +81,16 @@ HIGH_SEV_PAT = re.compile(
     re.IGNORECASE)
 
 NEAR_PEAK_PCT = 95.0  # latest hour within 5% of 24h peak = stress hint
+
+# --- Leg 4: LMP-proxy + spark spread (EIA ICE wholesale file) ---------------
+EIA_WHOLESALE_URL = "https://www.eia.gov/electricity/wholesale/xls/ice_electric-{year}.xlsx"
+PJM_HUB = "PJM WH Real Time Peak"  # the PJM Western Hub row in the EIA file
+# ASSUMPTION-tier heat rate (efficient CCGT, MMBtu/MWh). NOT calibrated to the
+# actual PJM gas fleet — EIA-923 calibration is the named next increment
+# (WATT LESSONS L-05 / SCRATCH item 3). Every printed spread carries this flag.
+HEAT_RATE_MMBTU_PER_MWH = 7.0
+LMP_ORANGE = 500.0   # $/MWh — WATT THRESHOLDS Orange band
+LMP_RED = 1000.0     # $/MWh — WATT THRESHOLDS Red band / scarcity cap zone
 
 
 def fetch_pjm_postings():
@@ -131,6 +153,60 @@ def read_retail_prices():
     return out
 
 
+def read_wholesale_pjm(rows_back=10):
+    """LMP-proxy: EIA's free ICE-sourced wholesale price file, PJM Western Hub
+    RT Peak rows. Returns the last `rows_back` rows sorted by trade date, each
+    {trade, deliv, wtd, high, low} with datetime.date stamps. BIWEEKLY
+    publication — the newest row can lag real time by up to ~2 weeks; callers
+    must cite the delivery date, never 'now'. Fail-loud: raises on fetch/parse
+    failure or zero hub rows (hub rename / layout change), never fabricates."""
+    import io
+    from openpyxl import load_workbook
+
+    year = datetime.now(timezone.utc).year
+    url = EIA_WHOLESALE_URL.format(year=year)
+    req = urllib.request.Request(url, headers={"User-Agent": BROWSER_UA})
+    with urllib.request.urlopen(req, timeout=30) as resp:
+        data = resp.read()
+
+    wb = load_workbook(io.BytesIO(data), data_only=True, read_only=True)
+    ws = wb[wb.sheetnames[0]]
+    rows = []
+    for row in ws.iter_rows(min_row=2, values_only=True):
+        # cols: hub(0) trade_date(1) deliv_start(2) deliv_end(3) high(4) low(5) wtd_avg(6)
+        if row and row[0] == PJM_HUB and row[1] is not None and row[6] is not None:
+            rows.append({"trade": row[1].date(), "deliv": row[2].date() if row[2] else None,
+                         "wtd": float(row[6]), "high": float(row[4]), "low": float(row[5])})
+    wb.close()
+    if not rows:
+        raise ValueError(f"EIA wholesale file parsed but 0 '{PJM_HUB}' rows — "
+                         f"hub renamed or layout change? ({url})")
+    rows.sort(key=lambda r: r["trade"])
+    return rows[-rows_back:]
+
+
+def read_henry_hub():
+    """Henry Hub front-month (NG=F) latest daily close + ITS OWN date stamp
+    (yfinance). The stamp can differ from the LMP-proxy's delivery date —
+    callers print both, never blend the vintages."""
+    import yfinance as yf
+    h = yf.Ticker("NG=F").history(period="10d")
+    if h is None or h.empty:
+        raise ValueError("yfinance NG=F returned no rows")
+    return float(h["Close"].iloc[-1]), h.index[-1].date().isoformat()
+
+
+def lmp_band(wtd):
+    """WATT THRESHOLDS band label for a $/MWh print."""
+    if wtd >= LMP_RED:
+        return "RED (>=$1,000)"
+    if wtd >= LMP_ORANGE:
+        return "ORANGE (>=$500)"
+    if wtd >= 150.0:
+        return "YELLOW (>=$150)"
+    return "normal"
+
+
 def main():
     now_utc = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
     print(f"{'=' * 72}\n  POWER WATCH (PJM leg) — fetched {now_utc}\n{'=' * 72}")
@@ -179,8 +255,54 @@ def main():
         failures.append(f"retail: {e}")
         print(f"\n  ERROR retail price backdrop FAILED: {e}", file=sys.stderr)
 
-    print(f"\n  NOTE: LMP price leg NOT wired — needs PJM_API_KEY in .env "
-          f"(free pjm.com registration, human one-time). See header.")
+    # --- 4. LMP-proxy + spark spread (EIA ICE wholesale, biweekly lag) ---
+    lmp = None          # latest proxy row
+    spread = None       # $/MWh, vs assumed heat rate
+    hh = None           # (close, date)
+    lmp_review = False
+    try:
+        px = read_wholesale_pjm()
+        lmp = px[-1]
+        wmax = max(px, key=lambda r: r["wtd"])
+        print(f"\n  LMP-PROXY (EIA ICE wholesale, {PJM_HUB}; BIWEEKLY file — "
+              f"latest row can lag ~2wk, cite delivery dates):")
+        for r in px[-5:]:
+            flag = f"  << {lmp_band(r['wtd'])}" if r["wtd"] >= 150.0 else ""
+            print(f"    deliv {r['deliv']} (traded {r['trade']}): "
+                  f"wtd ${r['wtd']:,.2f}/MWh (hi {r['high']:,.2f} / lo {r['low']:,.2f}){flag}")
+        if wmax is not lmp and wmax["wtd"] >= 150.0:
+            print(f"    window max: ${wmax['wtd']:,.2f}/MWh deliv {wmax['deliv']} "
+                  f"[{lmp_band(wmax['wtd'])}] — {len(px)}-row window")
+        if lmp["wtd"] >= LMP_ORANGE:
+            lmp_review = True
+            print(f"    LATEST PRINT {lmp_band(lmp['wtd'])} — REVIEW")
+
+        try:
+            hh = read_henry_hub()
+            spread = lmp["wtd"] - HEAT_RATE_MMBTU_PER_MWH * hh[0]
+            print(f"\n  SPARK SPREAD (P4; heat rate {HEAT_RATE_MMBTU_PER_MWH} MMBtu/MWh "
+                  f"= ASSUMPTION, not PJM-fleet-calibrated):")
+            print(f"    power ${lmp['wtd']:,.2f} (deliv {lmp['deliv']}) - "
+                  f"{HEAT_RATE_MMBTU_PER_MWH} x HH ${hh[0]:.3f} ({hh[1]}) "
+                  f"= {'+' if spread >= 0 else ''}${spread:,.2f}/MWh")
+            if lmp["deliv"] is not None and str(lmp["deliv"]) != hh[1]:
+                print(f"    (vintage mismatch: power leg {lmp['deliv']} vs gas leg {hh[1]} — "
+                      f"biweekly file lag; do not read as a same-day spread)")
+            if spread < 0:
+                lmp_review = True
+                print(f"    SPREAD NEGATIVE — gas-fired uneconomic — REVIEW")
+        except Exception as e:
+            failures.append(f"HenryHub: {e}")
+            print(f"\n  ERROR Henry Hub (NG=F) FAILED: {e} — spark spread not computed",
+                  file=sys.stderr)
+    except Exception as e:
+        failures.append(f"EIA-wholesale: {e}")
+        print(f"\n  ERROR LMP-proxy (EIA wholesale) FAILED: {e}\n"
+              f"  Manual check: https://www.eia.gov/electricity/wholesale/", file=sys.stderr)
+
+    print(f"\n  NOTE: official PJM LMP (Data Miner 2) still NOT wired — needs PJM_API_KEY "
+          f"in .env (free pjm.com registration, human one-time). The leg-4 EIA proxy above "
+          f"covers the lagged daily price read; it can miss intra-day spikes. See header.")
 
     # --- Verdict (always printed; failed legs say so, never fabricated) ---
     if demand:
@@ -197,12 +319,21 @@ def main():
         e = "emergencies: none posted"
     r = (f"retail ind {retail['IND'][0]:.2f} c/kWh ({retail['IND'][1]}), "
          f"res {retail['RES'][0]:.2f} ({retail['RES'][1]})") if retail else "retail FETCH-FAIL"
-    print(f"\n  Power leg: {d} · {e} · {r}\n")
+    if lmp:
+        p = f"LMP-proxy ${lmp['wtd']:,.2f}/MWh deliv {lmp['deliv']} [{lmp_band(lmp['wtd'])}]"
+        if spread is not None:
+            p += (f" · spark {'+' if spread >= 0 else ''}${spread:,.2f}/MWh "
+                  f"(HR {HEAT_RATE_MMBTU_PER_MWH} ASSUMED; gas {hh[1]})")
+        else:
+            p += " · spark NOT COMPUTED (gas leg fail)"
+    else:
+        p = "LMP-proxy FETCH-FAIL"
+    print(f"\n  Power leg: {d} · {e} · {p} · {r}\n")
 
     if failures:
         print(f"power_watch: {len(failures)} leg(s) FAILED — {'; '.join(failures)}", file=sys.stderr)
         return 2
-    return 1 if high_sev else 0
+    return 1 if (high_sev or lmp_review) else 0
 
 
 if __name__ == "__main__":
