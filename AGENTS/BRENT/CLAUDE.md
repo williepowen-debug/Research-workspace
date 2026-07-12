@@ -155,7 +155,7 @@ If a cross-agent threshold breaches during your work, append to `AGENTS/SIGNALS.
 |--------|-------|-------------|
 | Brent | >$100 | HAWK Scenario C confirmation |
 | Brent | >$120 | Demand destruction accelerates, Phase 2 approaches |
-| Brent | <$75 | Thesis break — squeeze failed |
+| Brent | <$75 | (v5.0) Structural decoupling — price detached from still-deficit physical; thesis-CONFIRMING, not a break. *['<$75 = thesis break' RETIRED v4→v5; distinct from the WTI-Brent "US decoupling" concept on the next row. Fixed 2026-07-12 by DAEDALUS, Will-directed — flagged since 6/29, see inbox write-back.]* |
 | WTI-Brent spread | >$5 | US decoupling from global (bullish US production) |
 | Cushing | <20M bbl | Operational minimum, WTI dislocation risk |
 | Gasoline crack | >$30/bbl | Pump price surge → CARL alert |
