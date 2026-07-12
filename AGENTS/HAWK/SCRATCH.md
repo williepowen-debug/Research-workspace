@@ -1,49 +1,53 @@
-# HAWK SCRATCH — 2026-07-08 (Wed, ~9:30 PM ET)
+# HAWK SCRATCH — 2026-07-12 (Sun, ~afternoon ET)
 
 **Purpose:** Ephemeral session handoff — the canonical "where are we / what next" file. Read at boot (SPAWN PROTOCOL step 2), rewritten in full at closeout (step 13). Disposable: rewritten every session. Persistent learnings → `MEMORY.md`; cross-agent twin → `NEXUS_BRIEF.md`.
 
 ---
 
 ## CURRENT MARKS (one line)
-- Scenario: **B 12% / C 42% (BASE) / D 46%** · Convergence **~35/50 🔴** · Kinetic risk **🔴** (active exchange, 2nd night possible) · Brent ref **$78.02, +5.2% 7/8 settle** [defer sustain-vs-fade to BRENT]
+- Scenario: **B 8% / C 34% / D 58% (BASE)** · Convergence **~37/50 🔴** (4 kinetic vectors maxed = war-first) · Kinetic risk **🔴** (3rd strike round done; 4th possible) · Brent ref **~$76** [BRENT owns; sustain test FAILED → DENY 7/10]
 
-## CHANGES SINCE LAST SESSION (spans 6/26 → 7/8, 12-day gap)
-- **6/28 vertical kinetic spike** (IRGC strikes on Kuwait+Bahrain bases + Kiku tanker hit + 2 nights US strikes) — own remark B20/C44/D36, never merged to STATUS (banner said "PROME coordinates," never happened).
-- **6/29-7/4 partial de-escalation**: halt-strikes → comms channel (7/1) → Doha indirect talks (7/2, Qatar+Pakistan mediators, "positive progress") → no new kinetic through 7/4. Hormuz institutional scorecard resolved 0/4 STALLED (DEWEY 7/2). Iran anchor re-stamped 7/4: Mojtaba Khamenei (untested new SL) authorized the ceasefire, hasn't appeared publicly since — durability tail.
-- **7/6**: JMIC Advisory 012-26 (5th Fleet) re-elevates Hormuz to SUBSTANTIAL threat, ahead of tonight's collapse.
-- **7/6-8 TRUCE COLLAPSE**: Iran struck 3 neutral tankers (real damage, no official claim) → US struck 80+ Iran targets + reimposed sanctions → Iran claimed 85-site Bahrain/Kuwait strike (confirmed: 15 intercepted, zero damage) → Trump declared ceasefire "over" at NATO Ankara, threatens blockade/2nd-strike/Kharg-seizure (all unexecuted rhetoric) → Brent $78.02 +5.2%, first non-shrug gap of the war.
+## CHANGES SINCE LAST SESSION (7/8 → 7/12, 4-day gap; my 7/8 marks + WALTER's 7/9 anchor BOTH predated the 7/11-12 step-up)
+- **WALTER 7/9 anchor corrections to my 7/8 STATUS:** 2nd US strike night was EXECUTED (I had "pending"); **1 firefighter KILLED** at Iranshahr 7/8 (I had "zero casualties"); Kuwait **≥1 injured + damage** (I had "zero damage"); **7/9 Iran fired 8 missiles at a US base in Jordan** (new theater). SL Mojtaba likely **INCAPACITATED** (longer tail). June-MOU provenance flagged unverified (one source dates first implementation to April, not June).
+- **7/10 oil sustain test → DENY** (BRENT/PROME): Brent held ~$76 both 7/9+7/10 but <2 institutional legs → decoupling crack did NOT durably arm; energy-tail re-arm stood down to fragile-watch. 2nd re-ignition behaved at the tape like the first (6/28).
+- **7/11 (my sweep):** 4th vessel struck — Cyprus container ship ablaze/abandoned, **1 sailor MISSING** (first near-maritime-casualty); triggered the 3rd US strike round.
+- **7/12 (my sweep) — the step-up:** US **3rd strike round ~140 targets** (fires my #1 CONFIRM-D discriminator) → Iran's **broadest Gulf retaliation of the war** (Qatar+UAE+Bahrain+Kuwait, +claimed Jordan/Oman; UAE/Qatar/Oman new) → **IRGC formally + ENFORCED-closes Hormuz** (warning shot, vessel stopped). Sea mines now CONFIRMED laid.
+- **Dormant vectors swept quiet:** Taiwan = routine PLA posturing (China-Russia Joint Sea-2026 7/6-13; MOFCOM export controls vs Japan); Venezuela normalization. No non-Iran theater changed state.
 
 ## WHAT I DID THIS SESSION
-- **Repaired a 12-day staleness gap**: the 6/28 remark was never merged to STATUS; 10 WALTER inbox signals (6/28-7/6) + 2 root-inbox items (PROME 7/1, DAEDALUS 7/3) sat unprocessed. All logged to `board_log.tsv`, moved to `processed/`. DAEDALUS's dangling-ref fix applied (dropped the never-existed `CEASEFIRE_FADE_PROTOCOL.md` reference from CLAUDE.md + MEMORY.md — content lives in `EXIT_PROTOCOL.md`).
-- Independently verified the 7/7-8 sequence via WebSearch across ~12 queries (CENTCOM, CNN, Reuters, Bloomberg, Al Jazeera, Kuwait/Bahrain MOD, NATO coverage) — built a CONFIRMED/CLAIMED/UNVERIFIED table (STATUS.md). Key finding: Iran's "85 sites" claim vs. confirmed 15-projectile intercept with zero damage is a large claim-vs-confirmed gap; the tanker attacks on neutral shipping (real damage, no official Iranian claim) are the more consequential, less-covered escalation vector.
-- **Re-marked B12/C42/D46** off the true 6/28 baseline (B20/C44/D36), not the stale STATUS 34/44/22. Convergence 22→~35/50. Full reasoning + discriminator table in STATUS.md.
-- **Resolved 3 stale-but-passed-window predictions**: HAW-10 FAILED (Bab-al-Mandab locus never met, Jul1 window), HAW-12 CONFIRMED (Switzerland round held/concluded 6/22), HAW-13 FAILED (Hormuz institutional scorecard 0/4 by Jul4, per DEWEY). Flagged HAW-14 as OPEN-but-not-quiet (kinetic floor breached twice via non-Lebanon catalyst).
-- Added KB-HAWK-206..211 (bridge + tonight's facts); updated VX-HAWK-IRAN-01/02, USIRAN-KINETIC-01, GULFSTATE-01, DIPLOMACY-01.
-- Wrote `outbox/2026-07-08_to-PROME_truce-collapse-ladder-remark.md`.
+- Full catch-up boot: read STATUS/SCRATCH/LESSONS/PREDICTIONS; ledger-staleness + Baghdad watch (both QUIET); consumed WALTER's canonical 7/9 anchor; independent day-by-day web sweep 7/9→7/12 (~7 queries).
+- **Re-marked B8/C34/D58** (D now base) off the 7/8 B12/C42/D46 baseline; convergence ~35→~37/50. Core framing: **kinetic at a war-high, market still decoupled** — D is base but NOT runaway because every hard point-of-no-return gate is unfired (no production-infra hit, no vessel sunk/mine detonation, no formal MOU collapse, Iraq quiet) and both sides still spare oil-production infra.
+- Rewrote STATUS.md (120 lines). Added **KB-HAWK-212..219**. Updated VX (IRAN-01, IRAN-02 [ORANGE→**RED** formal enforced closure], USIRAN-KINETIC-01, GULFSTATE-01, DIPLOMACY-01 — all Last_Updated 7/12).
+- **HAW-14 RE-SCOPED in-window (Will-directed) → FAILED** (Lebanon-locus → catalyst-agnostic; direct-kinetic-on-US floor breached 4× via non-Lebanon catalysts). **Registered HAW-16** (production-infra-hit/vessel-sunk kill-switch, Jul 26, 70%). HAW-15 carried OPEN (final check due before 7/15).
+- Processed mail: 4 WALTER signals + 4 root inbox (DAEDALUS×3/HENRY) → board_log.tsv (8 rows) + git mv to processed/. Wrote 🔴 outbox to PROME.
+- Falsification check: no exit/downgrade trigger fired (this is an escalation upgrade; thesis-kill conditions are the opposite of current state).
 
 ## NEXT SESSION (dated, future-verifiable)
-1. **3rd-kinetic-night check** — did Trump's "probably tonight" 2nd strike happen, and did it stay calibrated or escalate further? Check within 24h (by **Jul 9**).
-2. **Brent sustain-vs-fade** — does $78 hold through Friday's close (**Jul 10**)? Defer to BRENT but this is the single cleanest D-vs-C discriminator right now.
-3. **HAW-15** — Ukraine no-crude-export-strike prediction is due **Jul 15**; not re-checked this session, needs a fresh Russia-Ukraine sweep before window close.
-4. **Iraq/PMF backlash watch** — the inverted Iraq tail (flagged 6/28) is still unfired; check for Green Zone/Embassy Baghdad activity.
-5. **Russia-Ukraine + Taiwan/Venezuela dormant-vector re-sweep** — not touched this session (LESSONS.md dormant-vector rule; overdue).
-6. **HAW-14 re-scope decision** — flagged twice now (6/28, 7/8) as breached-but-not-per-literal-wording; recommend Will/next-closeout decide whether to re-word to a catalyst-agnostic threshold.
+1. **4th US strike round / further kinetic** — did strikes continue past 7/12, or halt? Check news first thing.
+2. **HAW-16 gate watch** — any Gulf-ally/Iranian oil-PRODUCTION-infra hit (Aramco/ADNOC/Kharg-oil) OR vessel confirmed SUNK? = C→D-runaway confirm + Brent decoupling breaks. Window to **Jul 26**.
+3. **HAW-15 — FINAL check before Jul 15 window close:** any in-window Russian CRUDE-export-infra strike (Primorsk/Ust-Luga/Novorossiysk/Druzhba)? Products campaign continues; crude-export unstruck as of 7/12. Resolve at/after 7/15.
+4. **Brent sustain (BRENT-owned)** — does Brent finally break and HOLD >$85 w/ ≥2 institutional legs? Failed twice (6/28, 7/10). Single cleanest D-vs-C market discriminator.
+5. **Oman two-route Hormuz proposal** — does it land with a date (→B) or die (→D)? US-Iran technical-talks readout watch.
+6. **Iraq/PMF backlash** — Baghdad watch QUIET 7/12; re-run at boot (unfired CONFIRM-D discriminator #5).
+7. **Mojtaba public-reappearance watch** — would ease the incapacitation/longer-tail flag.
+8. **HAW-14 post-mortem** — owed to `thesis/PREDICTIONS_ARCHIVE.md#hawk-14` (one-line lesson already inline).
 
 ## OPEN THREADS / WATCHES
-- 🔴 3rd kinetic night / further US-Iran strikes — hourly-relevant, check news before any further HAWK action
-- 🔴 Brent hold vs fade above $75 (BRENT-owned; geopolitical read = tonight's actions are harder-confirmed than 6/20 or 6/28)
-- 🟠 Iraq/PMF backlash channel (unfired discriminator, cleanest "new theater" tell)
-- 🟠 MOU formal-collapse watch — Trump's "over" is rhetoric; no textual withdrawal yet
-- 🟡 Mojtaba Khamenei public-appearance watch (untested-leader durability tail, from 7/4 anchor re-stamp)
-- 🟡 HAW-15 Ukraine crude-export-infra window closes Jul 15, needs a fresh check
+- 🔴 4th US strike round / further kinetic — hourly-relevant, check news before any HAWK action
+- 🔴 HAW-16 hard-gate (production-infra hit / vessel sunk) — the C→D-runaway kill-switch
+- 🔴 Brent break-and-hold >$85 w/ ≥2 legs (BRENT-owned; failed 6/28 + 7/10)
+- 🟠 Oman two-route Hormuz mediation — the live B-path
+- 🟠 Iraq/PMF backlash (unfired discriminator #5; Baghdad watch automated)
+- 🟡 Mojtaba public reappearance (incapacitation/longer-tail flag)
+- 🟡 HAW-15 Russia crude-export window closes Jul 15 — final check owed
 
 ## PREDICTIONS DUE / DECISIONS PENDING
-- HAW-14 (Jul 19, flagged not-quiet), HAW-15 (Jul 15, needs fresh sweep). No Will-decision pending (HAWK holds no trade book).
+- HAW-15 (Jul 15, needs final Russia crude-export check). HAW-16 (Jul 26, new gate). HAW-14 resolved FAILED this session. No Will-decision pending (HAWK holds no trade book).
 
 ## MAIL STATE (one line per surface)
-- Inbox: clear except `2026-07-08_from-DAEDALUS_boot-orchestrator-unwired.md` (explicitly deferred this session per spawn instructions — harness housekeeping, not tonight's scope)
-- WALTER lane: clear (10 signals processed → `processed/`)
-- Outbox: `2026-07-08_to-PROME_truce-collapse-ladder-remark.md` (new this session)
+- Inbox (root): clear (4 items processed → `processed/`)
+- WALTER lane: clear (4 signals processed → `WALTER/processed/`)
+- Outbox: `2026-07-12_to-PROME_third-strike-round-remark.md` (new, 🔴). Prior 7/08+7/09 outbox files still present (PROME-scanned).
 
 ## PENDING PUSH / GIT (if any)
-- Isolated worktree this session — commit `AGENTS/HAWK/` via pathspec from repo root per CLAUDE.md Git section. No cross-agent files touched.
+- Commit `AGENTS/HAWK/` via pathspec from repo root per CLAUDE.md Git section; auto-push via `scripts/safe-push.sh` (ff-gated). git mv'd 8 inbox files (tracked renames within own dir). No cross-agent files touched.
