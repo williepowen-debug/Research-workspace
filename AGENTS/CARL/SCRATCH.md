@@ -1,91 +1,86 @@
 # CARL SCRATCH
-**Last session:** 2026-07-10 ~14:45–20:00 ET (Fri — full-day Fable orchestration, closed out ~20:00)
-**Type:** **Fable orchestration day, 5 phases** — CARL-as-coordinator ran 7 NAMED agents through: (1) restructure ratification+verification (GIG/STUE/HOMER/DOC/PHAN), (2) fleet-wide staleness sweep (all 7, tag-don't-refresh), (3) fleet-wide NEWS sweep (all 7, web) + synthesis, (4) durable-fact workbook appends, (5) DEWEY deep-research slate (23 candidates) + **Tier-1 prompts C1-C5 DRAFTED ready-to-run in DEWEY inbox (Will-gated)**. **No score change — 51/70 holds; THESIS v2.6.2 (additive).**
+**Last session:** 2026-07-12 ~08:00–11:30 ET (Sun — Will data-drop + integration session, Fable, NO spawns)
+**Type:** Two Will-provided sources integrated at parent level (NY Fed Q1 HHDC condensed brief + Beige Book May-26), docket gaps fixed, **HOMER promotion case drafted → DAEDALUS** (Will-directed), closeout sweep recovered an over-pruned archive file. **No score change — 51/70 holds; THESIS v2.6.2.**
 
-**PRIORITY-1:** **June CPI 7/14 (Mon, in 4d) is THE hinge** — pre-register a read (V12 inflation / CRL-10 food 62% / gas pass-through / core→FOMC) + pull the **7/14 DTN urea weekly** (CRL-10 tell). **News-sweep adds to the 7/14 watch:** (a) **medical-care SERVICES CPI** — May reaccelerated 3.2→3.6%; a 2nd rising print revives DOC-P03's path (DOC sweep); (b) **auto-insurance CPI** — May printed −1.7% MoM, June print same release (POLLY); (c) **NFIB June lands the SAME DAY** (~Jul-14, POP). Full sweep synthesis in ROADMAP 7/10-late row + per-agent SVs + **the citable 6-pattern cross-domain synthesis: `domain/sources/2026-07-10_cross-domain-synthesis_subagent-sweeps.md`** (masking×4-domains, prices→balance-sheets rotation, cliffs→ramps, buffers thinning, FL rotation, containment counter-list → route to RED next mechanical session).
+**PRIORITY-1:** **CPI 7/14 pre-registration — TOMORROW MORNING (Mon), print at 8:30 ET. Still not done; two sessions have deferred it.** Pre-register: V12 inflation read / CRL-10 food (62%) / gas pass-through (July re-spike partially in window) / medical-care SERVICES (DOC watch — May 3.6% reaccel) / auto-insurance CPI. Same morning: **DTN urea weekly** + **NFIB June lands same day**. Also collect **BRENT's Fri-close grade** on Brent>$75 sustain (was owed at this boot; not found — chase).
 
 ---
 
 ## CHANGES SINCE LAST SESSION
-Same-day back-to-back sessions — no market delta integrated (gas $3.884 / Brent ~$75.6 from the noon session stand; BRENT grades the Brent>$75 sustain at TODAY'S close — check BRENT's grade at next boot). DAEDALUS's restructure notes (3) landed in inbox at ~13:15-14:16 and were fully consumed this session.
+Gas $3.876 Sun AM (AAA, down from $3.884 Thu) — the ~7/11-13 lagged catch-up window is FIZZLING, consistent with the 7/10 RBOB rollover call; diesel $4.880 still ORANGE (Russia export ban thru 7/31). **BOARD INDEX moved 7/10 → 72 undispositioned signals (Jul-2→7-10 vintage) found at boot diff — disposition pass NOT run this session** (delegate-extraction candidate, Sonnet sub-agent + CARL final calls per Jun-8 pattern). HAWK had uncommitted local work at boot (didn't pull; we were already at origin tip — later synced).
 
 ## WHAT HAPPENED
-1. Boot + boot.py --quick clean. **Did NOT git pull** — uncommitted non-CARL changes present (DEWEY output, WALTER inbox, memory/auto); flagged to Will, proceeded local.
-2. **Wave 1 — GIG reconciliation RATIFIED (CARL §0 block in the draft) + APPLIED by named-GIG:** FL-gas leg SIGN-INVERTED struck everywhere; **Dave 28DPD canary RETIRED** → provisioning = new signal (**VX-GIG-3.08**, bands `[FLAG: uncertain — Will to review]`); P01+P08 MISS, P02 80→50, P03/P06 DATA-NEEDED(Gridwise); 13 TSV appends; AV surface [STALE Apr-17]; do-not-cite banner LIFTED; **SV channel migrated to own `state_vectors/`**. ⚠️ GIG initially idled without sending its report (work verified from disk; MEMORY finding) — report DELIVERED after ping, and it caught a real CARL error: **the ratification named VX-GIG-3.06, an ID already taken (Cash Advance Payout Bridge) — GIG refused to overwrite, placed provisioning at next-free 3.08, CARL ratified 3.08** and corrected all parent-side refs (post-push correction commit).
-3. **Wave 2 — STUE/HOMER/DOC/PHAN verify-repair passes, all reported clean:** STUE (workbooks two-stated; found the **fleet-class frozen-VX/FLOW-cited-as-live defect** → swept + fixed in all 6 sub-agent CLAUDE.md — CARL patched POLLY/POP, GIG self-fixed); HOMER (CRL-03 parent-invalidation stamped ×6, KB.tsv FROZEN protecting ~47-row delegation provenance, SV-02 refiled, CARL git-mv'd 4 build-vintage docs → archive/); DOC (clean exemplar; Apr CPI sign-flip resolved MISS; repaired 2 pre-existing TSV schema defects); PHAN dossier (7 predictions dispositioned — P02 12% premise-refuted [Klarna], P03 96% tracking-HIT [1033 withdrawn]; FLOW crosswalk = TSV canonical).
-4. **Wave 3 — CARL-parent:** **THESIS v2.6.2** — Independence map (14 vectors ≈ ~10 effective roots; additive; STATUS mirrors) + **VX dedup verified WORKBOOK-ONLY → no score move** (refuted DAEDALUS "expect it to move"); CC-01 SUPERSEDED→1.01; band gap 13–13.74 closed; **HSG-03 dup-ID → HSG-06**; 3 KB refs repointed. **CRL-08 C1**: two-series reconciliation annotated — partial-not-sustained STANDS (28% unchanged). **C2 = no-op** (CRL-07 caveat already in ledger since Jun-22).
-5. **Plumbing:** SPAWN_PROTOCOL rewritten (SV canon = own state_vectors/ · DATA-REFRESH exit-checklist · downward-propagation rule #10 · roster reality); CLAUDE.md 7b sub-ledger predictions glob; TEAM.md fully rewritten (catalyst-driven refresh rules, PAT-044 warning, POLLY Apr-29 fix); docket +DOC on CPI-7/14 + ~Oct-30 DOC-P10 row (Affirm/Klarna Aug-13 row already existed).
-6. **Hygiene:** Ally raw 10-K HTMLs (17.4MB) trashed — zero live cites, never git-committed, EDGAR accessions in provenance note. COOK declared dead. 3 DAEDALUS notes → processed/. **Write-back delivered:** `AGENTS/DAEDALUS/inbox/2026-07-10_from-CARL_restructure-writeback.md` (★-marked the 3 un-inferable decisions).
-7. CHANGELOG (v2.6.2 entry), ROADMAP (Independence thread ✅; staleness thread CLOSED; new "remaining restructure lanes" thread), NEXUS_BRIEF re-pinned (Dave-canary-retired fleet note + convergence-reading caveat), MEMORY +2 entries.
-8. **LATE — fleet-wide NEWS SWEEP (Will-directed, 7 named agents, web) + synthesis** *(chronologically after item 9's staleness sweep)*: docket surgery (UNH 7/16 / ELV 7/22 / Affirm 8/20 all source-verified; **Jul-24 row was CONFLATING Sub-V debt-sunset with the Sec-122 tariff cliff → split**; CIT struck Sec-122 May-7 → new Jul-20 USTR row; ~Sept Sweet watch). KB +3 (323 tariff decomposition ~35% [IEEPA open-Q RESOLVED] / 324 S2 REALIZED $0-to-LPs → **REGINALD packet sent** / 325 Affirm-Klarna Q1 actuals). CRL-14 restart-timing note (late-summer/fall, stays STUCK). **NEW: V7 composition review open question** (FL: gas + insurance legs easing vs foreclosures firing + Waymo Tampa — thesis-review, Will visibility, no mechanical rescore). Dave provision pre-guided as timing artifact (3.08 bands stay provisional). PHAN: P06 authored-blind-to-existing-fact / P07→80% / P02→6%. Sub-V June +28%, H1 +50% (decel-but-level-high → P03 framing set).
-9. **EVE — bands ratified + Gridwise pull + fleet-wide staleness sweep (Will-directed, 7 named agents, tag-don't-refresh):** VX-GIG-3.08 bands Will-approved provisional (re-cut at Dave Q2); GIG Gridwise pull — no mid-year print (P03/P06 stamped, carry to Aug) but NEW Q1-26 fuel-share data landed (17.4% ride / 15.6% delivery of gross — first hard gas-squeeze quantification); PAT-046 rule 5 into SPAWN_PROTOCOL + all 3 templates. Then all 7 sub-agent dirs swept honest: POLLY/POP full restamps + banners (13 TSVs), POP's 9 wrong-IEEPA occurrences tagged + **Sub-V P03 premise contradicted** (resolve 7/24), STUE collections-restart contradiction caught (CRL-14 class), HOMER Freddie-HPI hypothesis contradicted-so-far + KBH gap (→ refresh brief), GIG FLOW dead-JOLTS residual tagged, 12 files retired→archive/ (STUE 11, POLLY 1). **ML.tsv schema-drift = confirmed recurring class (3rd instance: GIG/POLLY/POP)** — repairs ride each next refresh; per-agent refresh briefs in ROADMAP remaining-lanes thread.
+1. Boot clean (boot.py --quick, git 0-behind). Model plan set with Will: **CARL orchestrates on Fable; sub-agents spawn on Sonnet (Haiku for mechanical)** — MEMORY updated.
+2. **NY Fed Q1 HHDC condensed brief** (Will drop → `domain/sources/2026-05_NYFed_HHDC_2026Q1_condensed_brief.md`): headline release was already integrated May-12; incremental = **KB-312 auto-90+ 5.6% relay UNCONFIRMED by primary text** (no exact figure; transitions "mostly unchanged") → STATUS row demoted 🔴🔴→🔴, not-load-bearing until Q2 HHDC ~8/15; **KB-326** credit-supply EXPANDING (CC limits +1.1%, HELOC 16th consec) → RED containment list; **KB-327** mortgage serious-transition 1.4→1.5 + 59K FC notations (→HOMER); **KB-328** age K-shape (auto/CC youth-led; student surge all-ages, 40-49 highest = 38.9-defaulter-age cross-confirm) + collections 5.0% medical/utility (→DOC); FL selected-state tempering fold (→HOMER).
+3. **Beige Book May-26** (pub 6/3 — NEVER integrated; Jun-5 sweep buckets missed it): Fed's own **"increasingly bifurcated across income groups"** 3-tier read = V8 anecdotal-primary corroboration + DQ-rising-districts + "low-hire, low-fire" (KB-329). Vintage caveat: pre-dates June energy retrace + Warsh FOMC.
+4. **Docket gaps fixed:** +**~Jul-15 Beige Book** (date soft) + **Jul-28/29 FOMC** (V12 anchor, no SEP, pre-registered read owed per Jun-17 pattern). CATALYSTS.tsv + CALENDAR synced (19=19 verified).
+5. **HOMER promotion question (Will-raised):** assessment given (case is real — 30-row housing section, Path C cross-domain, GSE-vs-CMBS split across HOMER/dormant-CREED, no housing node in fleet chain), **memo delivered → `AGENTS/DAEDALUS/inbox/2026-07-12_from-CARL_homer-promotion-case.md`** with seams/migration/4-★-judgment-calls; NO structural change through 7/24; ROADMAP thread opened. Also mapped sub-agent roster + tmux spawn commands for Will.
+6. **Closeout sweep findings:** PROME's 6/30 public-prep prune (1cb18fbc) had deleted `AGENTS/CARL/archive/` INCLUDING live-referenced `EARNINGS_WATCH_Q1.md` (needed for Jul-21-24 Q2 prep) → **recovered from history (198 lines), archive/ recreated**; 4 unreferenced >60d research files retired into it; **archive-convention conflict logged as ROADMAP OPEN QUESTION → route to PROME**.
+7. NEXUS_BRIEF re-stamped + updated (auto-5.6% do-not-cite warning fleet-wide, Beige Book citable line, FOMC row). MEMORY +model-tiering note. Mid-session commits 8007893f/b66e628a pushed; closeout commit follows.
 
 ## STATUS CHANGES
 | Item | Change |
 |------|--------|
-| Convergence | **51/70 HOLDS** — v2.6.2 is additive (Independence map); dedup verified no-score-impact |
-| THESIS | v2.6.1 → **v2.6.2** (Independence map; ~10 effective roots reading rule) |
-| VX.tsv | CC-01 SUPERSEDED→1.01 (bands re-cut on survivor); HSG-03 dup → HSG-06 |
-| STATUS V16 cell | Mirror synced to Jul-2 re-arm-ARMED state (was Jun-6 framing) |
-| GIG (sub-agent) | Reconciled: 🔴 CRITICAL → 🟠 ELEVATED; canary retired; banner lifted; data as-of Jun-22 |
-| PHAN | Dossier predictions: P02 65→12%, P03 90→96%, P04 60→45% |
-| TEAM.md | Full truth-up; refresh rules now catalyst-driven |
+| Convergence | **51/70 HOLDS** — both integrations corroborative/verification-grade, no vector moves |
+| Auto 90+ DQ row | 🔴🔴 → 🔴; "5.6% record" now flagged UNCONFIRMED-by-primary (KB-312 note) |
+| CC 90+ row | + credit-supply-expanding counter-note (KB-326) |
+| MBA NDS / FL / Student rows | + NY Fed primary folds (KB-327/328) |
+| K-shape row | + Beige Book "increasingly bifurcated" (KB-329) |
+| Docket | +2 rows (~7/15 Beige Book, 7/28-29 FOMC); 21 total events |
 
 ---
 
 ## NEXT SESSION SHOULD
 
-### IMMEDIATE (this session / 24h)
-1. **CPI 7/14 pre-registration** (PRIORITY-1 above) — this was deliberately NOT done in the orchestration session; it's the next work item. Also check **BRENT's Fri-close grade** on the Brent>$75 sustain (V5 context).
-2. ~~GIG report~~ ✅ CLOSED — report delivered post-ping; 3.06→3.08 collision ratified + refs corrected; no other flags. GIG loop fully closed.
+### IMMEDIATE (Mon 7/14)
+1. **CPI pre-registration BEFORE 8:30 ET** (PRIORITY-1 above) — then grade the print same day; integrate NFIB June + DTN urea weekly.
+2. **Chase BRENT's Fri 7/10 close grade** on Brent>$75 sustain (V5/CRL-08 context).
 
 ### UPCOMING (this week)
-3. **Jul 14** 🔴 June CPI (+ DTN urea weekly) → V12/CRL-10/gas/medical-care reads.
-4. **Jul 15** 🔴 Treasury Phase 1 (~500K; date soft) + Insurance Q2 UNH/ELV (CRL-22).
-5. **Jul 16** 🟠 ATTOM Q2 foreclosures (CRL-06 — **resolve the 70K starts-vs-filings-vs-REO ambiguity BEFORE the print grades it**; Q1 82,631 starts) — natural window for **HOMER's owed real data-refresh** (pair with builders Jul-22).
+3. **Jul 15** 🔴 Treasury Phase 1 (date soft) + 🟠 **Beige Book (July)** — K-shape language vs May-26 baseline (KB-329).
+4. **Jul 16** 🔴 UNH Q2 (CRL-22) + 🟠 ATTOM Q2 (CRL-06 — resolve 70K metric ambiguity FIRST) → **HOMER data-refresh spawn (Sonnet)** w/ ROADMAP lane-(f) NY-Fed routing items; **chase DAEDALUS ack on promotion memo if silent**.
+5. **Jul 20** 🟠 USTR Sec-301. **Jul 21-24** Q2 consumer-credit (ALLY 7/21, SYF/COF ~7/22, AXP 7/24 = CRL-24/20/21/12) + builders 7/22 (CRL-23) + **Jul 24 POP refresh-then-demote** (Sub-V sunset; P03 premise contradicted).
 
 ### UPCOMING (next 2 weeks)
-6. **Jul 21–24** Q2 consumer-credit (ALLY 7/21, SYF/COF ~7/22-24, AXP 7/24) = CRL-24/20/21/12 + builders DHI/PHM (CRL-23). **Jul 24 = POP refresh-then-demote** at the Sub-V Sec-122 dual catalyst (resolve P01-P08, absorb NFIB×3; deep-dives survive verbatim). **~late Jul: POLLY refresh-then-demote** at Q2 P&C.
-7. **Jul 31** 🔴 ABS subordinate rating actions window.
+6. **Jul 28-29** 🔴 FOMC — **pre-register a read** (no SEP; V12 un-fire trigger = dovish pivot 2 consec meetings). ~late-Jul POLLY refresh-then-demote (Q2 P&C).
+7. **Jul 31** 🔴 ABS subordinate rating-actions window.
 
-### DEWEY QUEUE (Will-gated — run on Will's go when he spawns DEWEY)
-0. **Prompts C1-C5 drafted + committed in `AGENTS/DEWEY/inbox/`** (house format: sub-answers enumerated, carve-outs, on-return chains). Run order: **C1 provisioning-vs-DQ (~7/20 HARD, pre-bank-earnings)** → C2 score-cascade/CRL-05 (~8/8) → C3 masking-duration (~7/31) → C4 phantom magnitude → C5 PG-cascade. Full 23-candidate slate (Tier-2/3 bench) in the same inbox. On C1 return: feeds Jul-21-24 ACL read + GIG 3.08 band re-cut.
+### DEWEY QUEUE (Will-gated, unchanged)
+0. C1-C5 prompts in `AGENTS/DEWEY/inbox/`; run order C1 provisioning-vs-DQ (~7/20 HARD) → C2 → C3 → C4 → C5.
 
 ### BACKLOG (no deadline)
-8. **consistency_check.py build** (Phase 1 per spec — greenlit, sequenced post-CPI-readiness) + TEAM mtime-automation rides it. **B1/B5 STATUS trim 265→<250** + A2 ROADMAP trim. THESIS reason-cell prose refresh V6/V8/V10/V11/V13/V14 (L85a residual, cosmetic).
-9. WALTER↔CARL LIAISON calibration cycle 1 (~2mo overdue; Will keep/kill pending). consumer_pulse obs_date sanity check (boot.py residual). Auto 90+ 5.6% verify at Q2 HHDC ~mid-Aug.
-10. **Aug-13 Affirm/Klarna = PHAN dossier ad-hoc spawn** (resolves P02 numeric); **~Aug Dave Q2 = GIG refresh** (provision persist-vs-revert = the retired-canary successor tell).
+8. **72 BOARD signals undispositioned** (Jul 2-10) — Sonnet delegate-extraction + CARL final calls + reconcile pass (Jun-8 pattern). Do before they accrete further.
+9. consistency_check.py Phase 1 (post-CPI-readiness) · STATUS trim 265→<250 (B1/B5) · archive-vs-prune reconcile w/ PROME (ROADMAP OPEN QUESTION) · THESIS reason-cell prose (L85a, cosmetic) · WALTER LIAISON calibration (Will keep/kill pending).
+10. **Aug-13/8-20 Affirm+Klarna → PHAN ad-hoc**; **~Aug Dave Q2 → GIG refresh**; **~8/15 NY Fed Q2 HHDC** = CRL-05 breach window + auto-5.6% resolver.
 
 ---
 
-## OUTBOX (2 new this session)
+## OUTBOX (1 new this session)
 | File | To | Summary |
 |------|----|---------|
-| DAEDALUS/inbox/2026-07-10_from-CARL_restructure-writeback.md | DAEDALUS | Full queue+docket dispositions; ★GIG judgment calls / ★SV-migrate / ★Ally-trash; 2 framing corrections — **PROCESSED by DAEDALUS same night (1dfec470)** |
-| REGINALD/inbox/2026-07-10_from-CARL_tx-mf-realization-cluster.md | REGINALD | S2 $0-to-LPs + $140M DFW FCs + ~$900M TX July auctions + Trepp $2.54B July maturities; 3 bank-side questions; silence=received |
-| DEWEY/inbox/2026-07-10_from-CARL_deep-research-slate_subagent-proposals.md | DEWEY (Will selects) | 23-candidate ranked slate (7 agents + CARL, deduped/tiered): T1 = provisioning-vs-DQ base rates [pre-7/21] · score-cascade→CRL-05 [pre-8/15] · masking-duration [CRL-20/21] · phantom-debt magnitude · PG-cascade. CARL converts selections to PROMPT-NN files |
-*(Prior 9 still pending messaging-overhaul; outbox-restraint held.)*
+| DAEDALUS/inbox/2026-07-12_from-CARL_homer-promotion-case.md | DAEDALUS (PROME/Will visibility) | HOMER→top-level housing agent: evidence/seams/migration/4-★ calls; review this week, cutover if approved ~7/25-8/5; **chase ack after 7/16 session** |
+*(Prior: REGINALD tx-mf packet 7/10 [silence=received]; DEWEY slate ​+ C1-C5 Will-gated; DAEDALUS restructure write-back PROCESSED.)*
 
 ## INBOX (0 unprocessed)
-*(3 DAEDALUS notes consumed → processed/ this session. inbox/WALTER/ all processed.)*
 
 ---
 
 ## WORKBOOK HEALTH
-| TSV / file | Rows | Last Mod | Note |
-|------------|------|----------|------|
-| STATUS.md | 265 | Jul 10 | **>250 cap** (trim = backlog #8) |
-| NEXUS_BRIEF.md | 79 | Jul 10 | re-pinned; under 100 |
-| KB.tsv | 319 (318 data) | Jul 10 | 3 Vector-refs repointed (no new rows — architecture session) |
-| PREDICTIONS.tsv | 26 | Jul 10 | 17 OPEN; CRL-08 annotated (conf unchanged) |
-| VX.tsv | 122 | Jul 10 | FROZEN ledger; disposition edits only (CC-01 SUPERSEDED, HSG-06) |
-| CATALYSTS.tsv | 16 | Jul 10 | 15 rows; 0 past-due; CPI 7/14 next |
-| BOARD_LOG.tsv | 423 | Jul 2 | INDEX unmoved — no diff needed |
-| sub_agents/* | — | Jul 10 | ALL 7 dirs verified/reconciled AND staleness-swept today (two-state honest); per-agent refresh briefs → ROADMAP remaining-lanes |
+| TSV / file | Rows/Lines | Last Mod | Note |
+|------------|------------|----------|------|
+| STATUS.md | 265 | Jul 12 | at cap+15 (trim = backlog) |
+| NEXUS_BRIEF.md | 82 | Jul 12 | re-stamped; under 100 ✅ |
+| KB.tsv | 326 (325 data) | Jul 12 | +4 this session (326-329) + KB-312 note |
+| PREDICTIONS.tsv | 26 | Jul 10 | 17 OPEN; none past-window (7/12 scan clean) |
+| VX.tsv | 122 | Jul 10 | FROZEN ledger |
+| CATALYSTS.tsv | 20 (19 data) | Jul 12 | +2; CALENDAR synced 19=19 ✅ |
+| BOARD_LOG.tsv | 423 | Jul 2 | **⚠️ 72 signals behind INDEX (7/10 vintage)** |
+| MEMORY.md | 51 | Jul 12 | under 100-cap ✅ |
+| sub_agents/* | — | Jul 10 | routing notes for HOMER/DOC/STUE in ROADMAP lane (f) |
 
 ---
 
 ## URGENT
-- **CPI 7/14 pre-registration not yet done** — it's the single time-sensitive gap this session left open (deliberate; architecture day).
-- **GIG report undelivered** (work verified clean from disk; 2 pings sent) — close the loop next session, don't re-do the work.
-- **GIT:** big multi-file session (CARL tree + sub_agents + DAEDALUS write-back). Commit with EXPLICIT file paths (DAEDALUS process-ask: no broad pathspec sweeps); auto-push via safe-push; non-ff → rebase (routine).
+- **CPI 7/14 pre-registration — Monday 8:30 ET deadline. Third session carrying this; do it FIRST.**
+- **72 BOARD signals undispositioned** — biggest hygiene debt; delegate-extraction next mechanical session.
+- **DAEDALUS promotion-memo ack** — chase after 7/16 if silent (memo says so explicitly).
