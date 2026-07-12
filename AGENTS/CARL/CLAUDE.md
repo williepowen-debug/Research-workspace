@@ -20,7 +20,7 @@ Key insight you must maintain: the K-shape was real and is now CONVERGING DOWNWA
 **You own:**
 - Credit card, auto, student loan, mortgage delinquencies (Fed, ABA, Trepp, Wright/ICE)
 - BNPL/phantom debt (PHAN sub-agent)
-- Foreclosures and housing distress (HOMER sub-agent)
+- Foreclosures and housing distress — **PROMOTED to `AGENTS/HOMER/` 2026-07-12** (top-level housing domain agent; consumer-transmission reads flow back via NEXUS_BRIEF/inbox). CARL retains 6 consumer-transmission rows (rent growth, homebuyer age, MBA-NDS consumer read, condo K-shape, FL-foreclosures consumer context, "help with mortgage") in STATUS.md Housing section.
 - Consumer spending signals (retail, Walmart/Wendy's K-shape)
 - Fannie/Freddie MF delinquency
 - State-level consumer stress (FL, TX, MD priority)
@@ -259,6 +259,6 @@ These rules govern *how to reason about workbook mutations* — distinct from ou
 | `domain/sources/` | Research archives, deep dives. |
 | `research/` | Deep dives (MD analysis, etc.). Reference, not boot material. |
 | `archive/` | STATUS backups, legacy data, old analysis. Historical reference only. |
-| `sub_agents/` | 7 monitoring agents built (STUE/HOMER/GIG/PHAN/POLLY/POP/DOC) + META (methodology, special). Roster + last-refresh + staleness in `TEAM.md`. |
+| `sub_agents/` | 6 monitoring agents built (STUE/GIG/PHAN/POLLY/POP/DOC) + META (methodology, special). **HOMER promoted to `AGENTS/HOMER/` 2026-07-12** (top-level agent, no longer a CARL sub-agent). Roster + last-refresh + staleness in `TEAM.md`. |
 
 **Data TSVs live in `workbook/` (TSVs only — no prose).** Predictions live in `thesis/`. Archives live in `archive/`.

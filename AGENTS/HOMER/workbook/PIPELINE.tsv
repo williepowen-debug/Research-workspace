@@ -1,3 +1,4 @@
+# LIVE — Last real data refresh: 2026-05 (ATTOM May monthly foreclosure filings, most recent row) | Next: ATTOM Q2 2026 foreclosures ~Jul 16.
 State	Metric	Loan_Type	Value	Prior	Change	As_Of	Source	Status	Notes
 NATIONAL	MBA Q1 NDS All Loans DQ	ALL	4.44%	4.26% (Q4'25)	+18bps QoQ, +40bps YoY	2026-Q1	MBA (rel 2026-05-14)	O	Q1 2026 release. FHA + VA FC inventory at multi-year highs. FC starts +4bps to 0.24%. Pandemic FHA relief expiration (Sep 2025) + trial-payment-plan mechanics contributing.
 NATIONAL	MBA Q1 FC Starts	ALL	0.24%	0.20%	+4bps QoQ	2026-Q1	MBA (rel 2026-05-14)	R	Q1 NDS release.
