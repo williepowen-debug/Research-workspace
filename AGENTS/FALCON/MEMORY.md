@@ -13,6 +13,7 @@
 ## Findings
 
 - [2026-06-08] **Deferral-dynamic calibration anchor (HAW-06 FAILED)** *(inherited from HAWK)* — This conflict produces armed pauses via ally-request deferrals, NOT clean breaks (or clean collapses). Don't over-predict clean state changes on deadline-shaped events. See `thesis/PREDICTIONS.tsv` preamble for the fuller inherited-lessons list.
+- [2026-07-12] **Borderline kill-switch instances get flagged, not solo-resolved.** First live session found a genuine gray-zone event against FAL-01's registered "Aramco/ADNOC/Kharg-terminal CLASS" threshold (a single KOC offshore drilling platform hit — real production-class damage, but not the named major-complex scale). Resolving it either way alone would repeat the HAW-10/HAW-14 wording-wedge failure class (registered text vs. real-world partial match). The move: hold the prediction OPEN, log the event with full detail, and explicitly route the threshold-class judgment call to the cross-agent consumer (BRENT/PROME) who has decision-relevant stake in the answer, rather than let a single agent's read silently become the fleet's answer on a fleet-wide-load-bearing kill-switch.
 
 ## References
 

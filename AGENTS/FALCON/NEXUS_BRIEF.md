@@ -1,9 +1,9 @@
 # FALCON — NEXUS Brief
 
-**Status:** 🔴 — **war at its highest KINETIC intensity yet** (3rd US strike round + broadest-ever Gulf retaliation + first formal enforced Hormuz closure); **D-Reescalation now BASE (58%)**, but the market keeps pricing "contained" (Brent ~$76, decoupled) — that gap IS the signal.
+**Status:** 🔴 — **war at its highest KINETIC intensity yet** (3rd US strike round + broadest-ever Gulf retaliation + first formal enforced Hormuz closure); **D-Reescalation BASE (58%, held unchanged)**, but the market keeps pricing "contained" (Brent ~$76, decoupled) — that gap IS the signal. **NEW 7/12 PM: a Kuwait Oil Company offshore drilling platform was hit (borderline FAL-01 instance, held OPEN, routed to BRENT/PROME for a second read).**
 **Domain:** Geopolitical & military risk — Iran/Gulf war theater (US-Israel-Iran), Hormuz/Bab al-Mandab chokepoints, escalation scenarios (B/C/D); feeds BRENT (oil scenario inputs), HENRY (vol catalyst), LIQUID (risk-off/credit trigger), SAM (Japan/Asia energy). **Spun out of HAWK 2026-07-12** — sibling OSPREY owns Russia/Ukraine; HAWK reconciles both into cross-war synthesis.
 **Position:** None — FALCON holds no trade book; scenario inputs feed BRENT/SAM/HENRY books.
-**As of:** 2026-07-12 (spinout snapshot, seeded from HAWK's live brief — not yet a FALCON-verified session) | STATUS commit: pending (build-phase, uncommitted at write time)
+**As of:** 2026-07-12 PM ET — **FALCON's first live session** (inheritance re-verified clean against HAWK's frozen record, no drift). | STATUS commit: this session's pathspec commit, `AGENTS/FALCON/`
 
 ---
 
@@ -13,7 +13,9 @@
 - **Re-marked B8% / C34% / D58% (BASE)** (from 7/8 B12/C42/D46). The #1 pre-registered CONFIRM-D discriminator — a **3rd consecutive US strike round** (~140 targets 7/12) — has FIRED, so D is now the base case. Plus: broadest Gulf retaliation of the war (UAE/Qatar/Oman are new theaters), first **formal + ENFORCED** Hormuz closure (warning shot, vessel stopped), a 4th vessel struck with **1 sailor missing**, sea mines now **confirmed laid**, and an apparently **incapacitated Supreme Leader** (structural longer tail).
 - **Why D is base but NOT runaway (capped ~58, not 65+):** every hard point-of-no-return gate remains UNFIRED — no oil-PRODUCTION-asset hit (both sides still deliberately spare it — US spared Kharg oil 3×, Iran hit bases not Aramco/ADNOC), no vessel SUNK, no confirmed mine detonation on a hull, no formal MOU collapse, Iraq/PMF quiet (Baghdad watch QUIET as of 7/12, pending script arrival at WP-3). And the market keeps not confirming: Brent ~$76, sustain test failed twice (6/28 shrug, 7/10 DENY); energy HY OAS 164bp tightest-in-class; a live **Oman two-route Hormuz** mediation channel + US-Iran technical talks still reported alive.
 - **The single most disciplined tell fleet-wide = production-infra sparing.** After a 3rd strike round and a formal strait closure, both belligerents are STILL choosing not to hit the one target (oil production) that would end the decoupling. That is a hard, observable signal this remains a *calibrated* exchange even at peak breadth — not yet all-out war.
-- **Build note:** this is FALCON's first brief, seeded verbatim from HAWK's 2026-07-12 brief filtered to Iran/Gulf content. Russia/Ukraine content (previously "off-core" in HAWK's brief) now lives in OSPREY's own brief.
+- **Build note:** this brief is now FALCON-verified (first live session, 7/12 PM) — inheritance held clean against HAWK's frozen record. Russia/Ukraine content lives in OSPREY's own brief.
+- **NEW this session — fresh-leg monitoring baseline built:** `domain/FRESH_LEG_BASELINE.md` is now the primary surface for grading the pre-registered GATE-BRENT-SUSTAIN re-arm condition (2nd independent FRESH Iran leg + Brent >$75). 7 legs tracked (war-risk, transits, P&I/JWC, liner reroute, kinetic step, production-hit/FAL-01, sanctions/FAL-02), each with exact vintage + a mechanically gradable "what counts as fresh" bar. War-risk (5% hull) is the ONE leg that has fired (7/10); all others remain at their prior vintage or are BORDERLINE (see below) — the re-arm condition has NOT been met this session.
+- **NEW this session — KOC platform hit, the closest call yet to FAL-01:** a Kuwait Oil Company offshore drilling platform was hit by drone 7/12 PM (material damage + 1 worker injured, unclaimed). This is a genuine oil-PRODUCTION-class asset but not clearly the registered Aramco/ADNOC/Kharg-terminal CLASS (single rig vs. major complex). FALCON is NOT resolving FAL-01 on this alone — held OPEN, explicitly flagged for BRENT/PROME to weigh in on whether it counts inside the registered threshold.
 
 ---
 
@@ -34,7 +36,7 @@
 
 | To | Signal | Priority | Mechanism it triggers in recipient's domain |
 |----|--------|----------|-----------------------------------------------|
-| BRENT | The load-bearing test just got harder: 3rd strike round + formal enforced Hormuz closure + UAE targeted + confirmed mines — and Brent is STILL ~$76, sustain resolved DENY 7/10. A durable break >$85 w/ ≥2 legs = cleanest structural-repricing signal yet. | 🔴 direct (HAWK cc'd) | Whether the decoupling regime finally breaks; XLE-class + crude hedges reprice either way |
+| BRENT | The load-bearing test just got harder: 3rd strike round + formal enforced Hormuz closure + UAE targeted + confirmed mines — and Brent is STILL ~$76, sustain resolved DENY 7/10. A durable break >$85 w/ ≥2 legs = cleanest structural-repricing signal yet. **NEW: a KOC offshore drilling platform was hit 7/12 PM — need your read on whether it counts inside FAL-01's Aramco/ADNOC/Kharg-terminal CLASS threshold or stays outside it as a smaller asset. Also: please confirm the ~6.7 Mbpd GCC voluntary/chokepoint curtailment figure is live in your book, reconciled against FALCON's "production spared" framing.** | 🔴 direct (HAWK cc'd) | Whether the decoupling regime finally breaks; XLE-class + crude hedges reprice either way |
 | HENRY | 3rd kinetic re-ignition in 15 days, broadest Gulf retaliation of the war, formal Hormuz closure. Oil-leg event (consistent w/ your decoupled-channels frame), not flow-leg. | 🔴 direct (HAWK cc'd) | Vol-repricing input: proportionate to a "contained" tape or a regime-change signal? |
 | LIQUID | Energy HY OAS 164bp tightest-in-class = NO credit-stress signature beneath the decoupling. Escalation is real but the credit channel is quiet. | 🟠 via HAWK synthesis | Flight-to-safety / spread read is yours; credit is the tell if it moves |
 | SAM | Formal enforced Hormuz closure + UAE targeting degrade transit further; USD/JPY oil-driven yen weakness not a haven bid. | 🟠 via HAWK synthesis | Japan energy-import-cost input; throughput degradation |
@@ -63,7 +65,8 @@
 | Date | Event | Threshold / Signal |
 |------|-------|----------------------|
 | 🔴 Ongoing | 4th US strike round / further kinetic | Continues → D climbs; halts 72h + both signal "complete" → reverts toward C |
-| 🔴 → Jul 26 | FAL-01: production-infra hit OR vessel sunk | Fires → C→D-runaway + Brent break; holds → calibrated-escalation validated |
+| 🔴 → Jul 26 | FAL-01: production-infra hit OR vessel sunk | Fires → C→D-runaway + Brent break; holds → calibrated-escalation validated. **BORDERLINE INSTANCE 7/12 PM (KOC platform) — held OPEN, not resolved, awaiting BRENT/PROME read.** |
+| 🔴 → Jul 17 | FAL-02 (new): OFAC Iran-oil sanctions wind-down deadline | New relief license before 7/17 = FAILED (de-escalation tell); clean wind-down = CONFIRMED (status quo) |
 | 🔴 Ongoing | Brent break-and-hold >$85 w/ ≥2 legs (BRENT-owned) | Durable break → structural repricing; failed 6/28 + 7/10 |
 | 🟠 Ongoing | Oman two-route Hormuz mediation + US-Iran technical talks | Lands w/ a date → B-path; dies → D |
 | 🟠 Ongoing | Iraq/PMF-Kataib Hezbollah backlash (unfired discriminator #5; Baghdad watch automated, pending WP-3 script arrival, QUIET as of 7/12) | Green Zone/Embassy Baghdad attack → new-theater D confirm |
