@@ -34,8 +34,8 @@
 6. **Brent sustain (BRENT-owned)** — does Brent finally break and HOLD >$85 w/ ≥2 legs?
 7. **Oman two-route Hormuz proposal** — any dated framework readout?
 8. ~~Strike-ledger backfill~~ — **DONE round-2 (same day).** Residual: 6 DATE-UNRESOLVED rows + 3 conflict pairs (Ras Tanura restart, Ruwais date, Mina al-Ahmadi capacity) queued LOW-priority per-facility date-pinning.
-9. ~~PortWatch live-scrape~~ — **DONE round-2 (same day):** `scripts/hormuz_transit_watch.py`, boot step 5b-2. **Run it ~7/17-19** — that's when the 7/12 formal-closure impact reaches the official prints.
-10. **FAL-01 base-rate caveat follow-through** — if FAL-01 is re-registered after Jul 26, re-derive confidence from the CURRENT-cycle record (post-MOU restraint + Oman channel), not the debunked war-long-sparing frame (KB-FALCON-010).
+9. ~~PortWatch live-scrape~~ — **DONE round-2 (same day):** `scripts/hormuz_transit_watch.py`, boot step 5b-2. **Run it ~7/17-19** — that's when the first official prints COVERING the 7/6-7/12 window land. Grade on prints only; do NOT infer transit levels for the un-published gap.
+10. **FAL-01 re-registration = RE-DERIVE CONFIDENCE FROM SCRATCH (do NOT inherit the 70%).** ⚠️ Hard rule for after the Jul-26 window closes: the current 70% rested partly on the now-weakened "war-long production-sparing" base rate. Any re-registration must build a fresh confidence number from the CURRENT-cycle record (post-MOU restraint + Oman channel + whatever the KOC-platform call resolves to), NOT carry the 70% forward unexamined. Mid-window terms stay frozen (pre-registration discipline); this applies only at re-registration. (KB-FALCON-010; PROME round-3 directive.)
 
 ## OPEN THREADS / WATCHES
 - 🔴 KOC platform / FAL-01-class ambiguity — the single highest-leverage open call right now
