@@ -19,13 +19,25 @@ real-yield trend over a trailing ~90-day window — CONVERGE = real-rate-
 consistent / debasement premium NOT confirmed this window; DIVERGE = gold
 holding/rising through rising real yields / premium confirmed this window).
 
-LME COPPER INVENTORY LEG (added round-2 same day, 2026-07-12): westmetall.com
-publishes the LME copper stock series (daily, business days) in a plain
-server-rendered HTML table — scraped with a browser UA, fail-loud. This
-closes the "no free LME source" wall hit earlier the same session (CME
-warehouseStockAPI 403'd; LME.com vendor-gated). Sanity cross-check 7/12:
-westmetall LME cash $13,408.50/t [7/10] vs COMEX HG=F $6.28/lb = $13,845/t
-(~3% COMEX premium — consistent, two independent venues).
+LME COPPER INVENTORY LEG (round-2 2026-07-12; BASELINE DEFINED round-3):
+westmetall.com publishes the LME copper stock series (daily) in a plain
+server-rendered HTML table — scraped with a browser UA, fail-loud. Closes the
+"no free LME source" wall (CME warehouseStockAPI 403'd; LME.com vendor-gated).
+Round-3: the CLAUDE.md threshold "+X% vs normal" now grades against a DEFINED
+baseline — the trailing-2yr rolling MEDIAN of daily LME stock (read_lme_copper_
+baseline pulls current + 2 prior years via westmetall &year= pages). As of
+2026-07-12: 2yr median ~239,400 t (n=507); latest 306,500 t [7/10] = +28% =
+just into the Yellow band (+25%) — but the RED demand-collapse fire needs the
+CONJUNCTION (copper -20% AND inv +100%), and inventory is FALLING off the 4/15
+peak while price is UP, so it is NOT firing. Cross-check: westmetall LME cash
+$13,408.50/t [7/10] vs COMEX HG=F $6.28/lb=$13,845/t (~3% premium, consistent).
+
+POLARITY DISCIPLINE (standing instruction — PROME round 3, Will-approved):
+the M1 divergence classifier flags CONVERGE as REVIEW (rc=1). This polarity is
+FROZEN through the two M1 v2 catalyst tests — MIDAS-03 (CPI 7/14) and MIDAS-04
+(China GDP ~7/16). DO NOT flip it before both resolve. Only if M1 v2 survives
+BOTH does the polarity invert (CONVERGE -> quiet, DIVERGE -> the REVIEW
+trigger). See the verdict block + SCRATCH.md.
 
 OUT OF SCOPE (documented gaps, not silently dropped):
   - CFTC COT (gold/silver/copper net positioning) — weekly cadence (Fri
@@ -47,6 +59,7 @@ Usage (self-locating, works from any cwd):
 """
 
 import re
+import statistics
 import sys
 import urllib.request
 from datetime import datetime, timezone
@@ -71,6 +84,62 @@ WESTMETALL_CU_URL = ("https://www.westmetall.com/en/markdaten.php"
 BROWSER_UA = ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
               "(KHTML, like Gecko) Chrome/126.0 Safari/537.36")
 
+# LME copper inventory bands (MIDAS CLAUDE.md THRESHOLDS: "+X% vs normal").
+# "normal" is now DEFINED (round-3, KB-018) as the trailing-2yr rolling MEDIAN
+# of daily LME stock — not an undefined baseline. Bands per the CLAUDE.md table.
+LME_YELLOW, LME_ORANGE, LME_RED = 25, 50, 100  # % above the 2-yr median
+
+
+def _parse_westmetall_table(html):
+    """Extract [(datetime, tonnes)] from a westmetall LME_Cu table page.
+    Only rows matching 'DD. Month YYYY' with a numeric stock cell — anything
+    else is skipped, never guessed."""
+    out = []
+    for tr in re.findall(r"<tr[^>]*>(.*?)</tr>", html, re.S):
+        cells = [re.sub(r"<[^>]+>", "", c).strip()
+                 for c in re.findall(r"<t[dh][^>]*>(.*?)</t[dh]>", tr, re.S)]
+        if len(cells) == 4 and re.match(r"\d{2}\.\s", cells[0]):
+            try:
+                dt = datetime.strptime(cells[0], "%d. %B %Y")
+                out.append((dt, cells[0], int(cells[3].replace(",", ""))))
+            except ValueError:
+                continue
+    return out
+
+
+def _fetch_westmetall(url):
+    req = urllib.request.Request(url, headers={"User-Agent": BROWSER_UA})
+    with urllib.request.urlopen(req, timeout=25) as r:
+        return r.read().decode("utf-8", errors="replace")
+
+
+def read_lme_copper_baseline():
+    """Trailing-2yr median baseline for LME copper stock. Fetches the current
+    table plus the two prior calendar years (westmetall &year= pages), builds
+    a daily series, and returns (median_2yr, n_obs_in_window, latest_dt).
+    Fail-loud: raises if the combined series is too short to define a baseline.
+    Best-effort on the history legs — if a prior-year page fails, it degrades
+    to whatever depth it got AND flags it, rather than silently under-sampling
+    (caller sees n_obs and can judge)."""
+    latest_year = datetime.now().year
+    combined = []
+    fetched_years = []
+    for yr in (latest_year, latest_year - 1, latest_year - 2):
+        url = WESTMETALL_CU_URL + (f"&year={yr}" if yr != latest_year else "")
+        try:
+            combined += _parse_westmetall_table(_fetch_westmetall(url))
+            fetched_years.append(yr)
+        except Exception:
+            continue  # degrade, don't fail the whole baseline on one bad year
+    if len(combined) < 60:
+        raise ValueError(f"LME baseline: only {len(combined)} obs across "
+                         f"years {fetched_years} — insufficient for a 2yr median")
+    combined.sort(key=lambda t: t[0])
+    latest_dt = combined[-1][0]
+    cutoff = latest_dt.timestamp() - 730 * 86400
+    window = [v for dt, _, v in combined if dt.timestamp() >= cutoff]
+    return statistics.median(window), len(window), latest_dt
+
 
 def read_lme_copper_stocks():
     """LME copper warehouse stocks (tonnes) scraped from westmetall.com's
@@ -78,9 +147,7 @@ def read_lme_copper_stocks():
     (rows_newest_first, latest, oldest) where each row = (date_str, tonnes).
     Fail-loud: raises on HTTP failure or if the table shape isn't recognized
     (never fabricates a value)."""
-    req = urllib.request.Request(WESTMETALL_CU_URL, headers={"User-Agent": BROWSER_UA})
-    with urllib.request.urlopen(req, timeout=25) as r:
-        html = r.read().decode("utf-8", errors="replace")
+    html = _fetch_westmetall(WESTMETALL_CU_URL)
     trs = re.findall(r"<tr[^>]*>(.*?)</tr>", html, re.S)
     data = []
     for tr in trs:
@@ -222,16 +289,29 @@ def main():
 
     # --- 6. LME copper stocks (I1 inventory leg — westmetall scrape) ---
     lme_latest = None
-    lme_drawdown_pct = None
+    lme_band = None
+    lme_vs_median_pct = None
     try:
         rows, lme_latest, lme_oldest = read_lme_copper_stocks()
         peak = max(rows, key=lambda t: t[1])
         lme_drawdown_pct = (lme_latest[1] - peak[1]) / peak[1] * 100
-        ytd_pct = (lme_latest[1] - lme_oldest[1]) / lme_oldest[1] * 100
         print(f"\n  LME COPPER STOCKS (westmetall.com scrape, LME data, business-daily):")
         print(f"    Latest: {lme_latest[1]:,} t  [{lme_latest[0]}]")
-        print(f"    Table span: {lme_oldest[0]} ({lme_oldest[1]:,} t) -> latest  ({ytd_pct:+.1f}% over span)")
-        print(f"    Span peak: {peak[1]:,} t [{peak[0]}]  (latest = {lme_drawdown_pct:+.1f}% vs peak)")
+        print(f"    Span peak: {peak[1]:,} t [{peak[0]}]  (latest = {lme_drawdown_pct:+.1f}% vs peak, {'falling' if lme_drawdown_pct < 0 else 'at/near peak'})")
+        # Baseline: trailing-2yr rolling median (defined 'normal', KB-018)
+        try:
+            median_2yr, n_win, _ = read_lme_copper_baseline()
+            lme_vs_median_pct = (lme_latest[1] - median_2yr) / median_2yr * 100
+            lme_band = ("RED" if lme_vs_median_pct >= LME_RED else
+                        "ORANGE" if lme_vs_median_pct >= LME_ORANGE else
+                        "YELLOW" if lme_vs_median_pct >= LME_YELLOW else "benign")
+            direction = "FALLING (drawing down)" if lme_drawdown_pct < -3 else "flat/rising"
+            print(f"    vs 2yr median {median_2yr:,.0f} t (n={n_win}): {lme_vs_median_pct:+.1f}%  ->  band {lme_band}")
+            print(f"    band context: Y+{LME_YELLOW}/O+{LME_ORANGE}/R+{LME_RED}% vs median; but the RED demand-collapse")
+            print(f"    fire needs the CONJUNCTION (copper -20% AND inv +100%) — inventory {direction}, price UP = NOT firing")
+        except Exception as be:
+            failures.append(f"LME-baseline: {be}")
+            print(f"    2yr-median baseline UNAVAILABLE: {be}", file=sys.stderr)
     except Exception as e:
         failures.append(f"LME-stocks: {e}")
         print(f"\n  ERROR LME copper stocks scrape FAILED: {e}", file=sys.stderr)
@@ -244,7 +324,8 @@ def main():
     g_s = (f"gold ${fut['GC=F']['price']:,.2f}" if fut and "error" not in fut.get("GC=F", {"error": 1}) else "gold FETCH-FAIL")
     gsr_s = f"GSR {gsr:.2f} ({gsr_band})" if gsr else "GSR FETCH-FAIL"
     div_s = divergence_state or "divergence FETCH-FAIL"
-    lme_s = (f"LME Cu {lme_latest[1]:,}t [{lme_latest[0]}]" if lme_latest else "LME Cu FETCH-FAIL")
+    lme_s = (f"LME Cu {lme_latest[1]:,}t{f' ({lme_vs_median_pct:+.0f}% vs 2yr-med, {lme_band})' if lme_band else ''} [{lme_latest[0]}]"
+             if lme_latest else "LME Cu FETCH-FAIL")
     print(f"\n  Metals leg: {y_s} · {g_s} · {gsr_s} · {lme_s} · M1: {div_s}\n")
 
     rc = 0
@@ -252,13 +333,13 @@ def main():
         print(f"  metals_watch.py: {len(failures)} leg(s) FAILED: {'; '.join(failures)}", file=sys.stderr)
         rc = 2
     elif gsr_band in ("YELLOW", "ORANGE", "RED") or (divergence_state and divergence_state.startswith("CONVERGE")):
-        # CONVERGE flags REVIEW as the falsification direction of M1 v1's premium
-        # claim. Under M1 v2 (2026-07-12 re-derivation, THESIS.md) CONVERGE is the
-        # EXPECTED state (cyclical layer re-coupled to real rates) — the flag stays
-        # deliberately: it keeps the operator eyeballing the divergence state each
-        # boot until v2 survives its first catalyst tests (MIDAS-03/04). Revisit
-        # after those resolve: if v2 holds, CONVERGE should become the quiet state
-        # and DIVERGE (premium reassertion) should become the REVIEW trigger.
+        # POLARITY DISCIPLINE (standing instruction — PROME round 3, Will-approved,
+        # 2026-07-12): CONVERGE flags REVIEW and stays REVIEW-only THROUGH the two
+        # M1 v2 catalyst tests — MIDAS-03 (CPI 7/14) and MIDAS-04 (China GDP ~7/16).
+        # DO NOT flip the polarity this round. Only if M1 v2 SURVIVES BOTH tests do
+        # we flip: CONVERGE -> quiet (the expected re-coupled state) and DIVERGE
+        # (premium reassertion) -> the REVIEW trigger. Until then, CONVERGE = REVIEW
+        # keeps the operator eyeballing the divergence state each boot.
         rc = 1
     return rc
 
