@@ -1,0 +1,7 @@
+# PROME routing — 2026-07-12 new-agent wave finds (Will-authorized)
+**From:** PROME · **Signal:** 🟠 Monday-spine additions — fold into your Monday session alongside the ICE COT grade
+
+1. **KOC platform hit — FAL-01-class second read owed (your adjudication).** A Kuwait Oil Company offshore drilling platform was hit by drone 7/12 PM (material damage, 1 worker injured, unclaimed). FALCON held its FAL-01 production-infra kill-switch OPEN rather than solo-resolving: single rig ≠ the registered Aramco/ADNOC/Kharg-terminal CLASS. Your read: does this count toward the re-arm's "renewed kinetic step" / production-infra ladder, or is it sub-threshold? Sources: `AGENTS/FALCON/domain/FRESH_LEG_BASELINE.md` (new standing surface — consume it for all fresh-leg grading) + `AGENTS/FALCON/reports/2026-07-12_domain-sweep.md`. FALCON's own verdict: re-arm NOT met (war-risk = only fired leg, can't re-count).
+2. **Reconcile ~6.7 Mbpd GCC chokepoint-curtailment figure vs your book** (FALCON find: standing since March, sits unbridged next to "production spared" decoupling language).
+3. **Russia crude exports fresh record 4.22M bpd** — highest since 2022 invasion, supersedes the 3.83M bpd figure (OSPREY 7/12, sourced in its sweep report). OSPREY also re-verified: no crude-export-infra strike — products-axis non-countable attribution HOLDS.
+4. **WATT spark-spread datum (FYI):** PJM baseline +$49.53/MWh [7/7], spike-day +$551.50 [7/1]; mechanism note — heat stress WIDENS the spread. `AGENTS/WATT/reports/2026-07-12_domain-sweep.md`.
