@@ -1,0 +1,7 @@
+# swept-complete through: 2026-03-19 (GULF-IRAN theater — inherited seed rows only from AGENTS/HAWK/domain/energy-strikes/STRIKES.tsv at spinout 2026-07-12; backfill owed, see SCRATCH.md founding-mandate item #1)
+# scope label: material subset — absence of a row != absence of a strike; see swept-through mark above (Tier-1 fix #1/#5, build spec §4)
+strike_id	Date	Theater	Attacker	Facility	Region	FacilityOperator	Type	Capacity	Status	Strike#	Channel	ReturnToService	Conf	Source	Notes
+GI-20260307-HAIFA	2026-03-07	GULF-IRAN	Iran/IRGC	Haifa refinery	Israel	Bazan	refinery	?	hit	1	product-crack	unk	B2	KB-047	IRGC Kheibarshekan ballistic missiles 3/7-8; IRGC-confirmed
+GI-20260319-YANBU	2026-03-19	GULF-IRAN	Iran-axis(unclaimed)	Samref (Yanbu)	Saudi Arabia	Aramco-ExxonMobil JV	refinery	~400 kbpd	hit	1	crude/product	unk	C3	KB-100	Drone hit Samref; separate ballistic intercepted before Yanbu
+GI-20260319-MINAAHMADI	2026-03-19	GULF-IRAN	Iran-axis(unclaimed)	Mina al-Ahmadi	Kuwait	KNPC	refinery	466 kbpd	fire	1	crude/product	unk	C3	KB-103	Drone attack ignited fire
+GI-20260319-MINAABDULLAH	2026-03-19	GULF-IRAN	Iran-axis(unclaimed)	Mina Abdullah	Kuwait	KNPC	refinery	270 kbpd	fire	1	crude/product	unk	C3	KB-103	Drone attack ignited fire

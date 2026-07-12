@@ -1,0 +1,2 @@
+# FALCON Knowledge Base — fresh ledger 2026-07-12 (spinout from HAWK). Historical record = AGENTS/HAWK/workbook/KB.tsv (FROZEN, 225 rows through KB-HAWK-223, 2 known duplicate IDs KB-HAWK-131/132 — no surgery). Cite KB-HAWK-NNN in Notes/DerivedFrom for provenance when a fact continues a HAWK-era thread. New rows use KB-FALCON-001 and up. Schema: see workbook/SCHEMA.tsv (copied verbatim from HAWK) + CLAUDE.md KB.tsv section.
+ID	Date	Group	Entity	Fact	Source	Conf	Epistemic	Status	Stale_By	DerivedFrom	Vectors	Notes
