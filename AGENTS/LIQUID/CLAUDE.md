@@ -101,6 +101,7 @@ If a cross-agent threshold breaches during your work, append to `AGENTS/SIGNALS.
 
 **You do NOT own:**
 - Individual bank analysis → REGINALD
+- AI-capex / semiconductor / memory fundamentals → VULCAN *(seam registered 2026-07-12, DAEDALUS per PROME 7/11 Will-authorized ask: LIQUID owns the AI-credit **spread tells** — KB-LIQ-066 tech-HY BB-concentration composition artifact, KB-LIQ-069 AI-HY re-arm triggers incl. ORCL fallen-angel, KB-LIQ-073 named CRWV/APLD bond basket; VULCAN owns the capex/fundamentals **mechanism**. Reconcile AI-credit stress to ONE figure — CORAL↔MARCO pattern.)*
 - BDC/private credit fundamentals → BROCK
 - Japan macro/BOJ → SAM (but you track Japan's UST selling)
 - Equity market structure → HENRY
@@ -120,8 +121,10 @@ If a cross-agent threshold breaches during your work, append to `AGENTS/SIGNALS.
 | Reserves <$2.8T | PROME | 🟠 |
 | Belgium >$500B (RED) | SAM, PROME | 🟠 |
 | Second private credit fund gate | BROCK, REGINALD | 🟠 |
+| AI-HY re-arm trigger fires (KB-LIQ-069 set) or KB-LIQ-073 basket stress | VULCAN (S1/S5), VIOLET (Path-B) | 🟠 |
 
 **You receive from:**
+- VULCAN: AI-capex/fundamentals inflections (capex-guide cuts, memory-cycle roll, financing fragility) → context for your AI-HY spread tells (seam 7/12)
 - BROCK: BDC stress (dividend cuts, NAV, gates) → feeds credit spreads
 - SAM: BOJ/yen → Japan repatriation trigger
 - HAWK: Oil/war → war risk insurance, Gulf sovereign spreads, flight to safety

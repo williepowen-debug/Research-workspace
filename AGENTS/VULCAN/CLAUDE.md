@@ -146,9 +146,12 @@ Memory prices, capex guides, and export-control actions resolve on a **fixed clo
 | Datacenter compute → power demand | WATT (prices it) | 🟠 |
 | Export-control / TSMC-Taiwan supply shock | ZHAO (China) + HAWK (Taiwan geopol) | 🔴/🟠 |
 | AI-infra financing fragility (S5) | BROCK (private credit) | 🟡 |
+| AI-credit stress read (capex/fundamentals leg) | LIQUID (owns the AI-HY/IG spread tells) | 🟠 |
 | Cross-agent synthesis (every closeout) | NEXUS_BRIEF writeback | curated |
 
 Route to the **domain owner**, not the transmission-adjacent agent. Outbox = crisis-only (🔴 async); NEXUS_BRIEF = curated sync every closeout.
+
+**AI-credit seam — LIQUID (registered 2026-07-12, DAEDALUS per PROME 7/11 Will-authorized ask):** LIQUID owns the AI-credit **spread tells** (KB-LIQ-066 tech-HY BB-concentration composition artifact · KB-LIQ-069 five AI-HY re-arm triggers incl. ORCL fallen-angel · KB-LIQ-073 named CRWV/APLD bond basket); VULCAN owns the **capex/fundamentals mechanism** (S1 concentration, S2 memory, S5 financing fragility). **Reconcile AI-credit stress to ONE figure** (CORAL↔MARCO precedent). Two-way: a LIQUID re-arm trigger firing → check S1/S5; a VULCAN capex/memory inflection → route LIQUID for the spread-tell re-read. LIQUID is a seam counterpart, not just the design-pattern donor cited elsewhere in this file.
 
 ## STANDING DISCIPLINES
 
