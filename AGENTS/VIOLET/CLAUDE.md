@@ -154,6 +154,7 @@ Live research queue: `STATUS.md § RESEARCH QUEUE` (priority-ordered, refreshed 
 | `NEXUS_BRIEF.md` | Cross-agent synthesis brief (NEXUS reads in place of raw STATUS; schema R3+amd7) | Every closeout (As-of+hash min; content on material change) |
 | `MEMORY.md` | Curated insights (regime defs, KB-VIO-036 framework, METRIC SEMANTICS, session-note trajectory) | When thesis evolves or session adds durable learning |
 | `CALENDAR.md` | VIX expirations, FOMC/CPI/BOJ catalysts (human twin of CATALYSTS.tsv) | Weekly + at closeout |
+| `CANARY_MAP.md` | Fleet early-warning layer: instrument→domain→threshold→route map, thresholds cited from registered sources only (action-gates stay canonical in `PROME/GATES.tsv`) | Thesis bump · registered-threshold shift · monthly staleness sweep (its Review cadence section) |
 | `TRADE.md` | VIX-linked positions, vehicles, sizing, live decision frameworks | When positions or frameworks change |
 | `thesis/VIX_THESIS.md` | Core framework + L1 canonical base-rate table | When thesis evolves |
 | `thesis/CHANGELOG.md` | Old view → new view at each thesis version bump + dated POV pivots | At version bump / POV pivot |
