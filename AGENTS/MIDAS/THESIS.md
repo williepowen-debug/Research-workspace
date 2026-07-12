@@ -13,11 +13,11 @@
 | Stage | Mechanism | State |
 |---|---|---|
 | 1 | Real yields set the classic opportunity-cost anchor for gold | confirmed (DFII10 2.31, elevated) |
-| 2 | Fiscal debasement + central-bank de-dollarization buying bid gold ABOVE what real rates justify | open (the divergence) |
-| 3 | Gold holds/rises despite rising real yields → the debasement premium is confirmed | open |
+| 2 | Fiscal debasement + central-bank de-dollarization buying bid gold ABOVE what real rates justify | **open — UNTESTED this session** (see Stage 3 correction; distinct from Tier-2's multi-year backdrop, which this 90d pull doesn't reach) |
+| 3 | Gold holds/rises despite rising real yields → the debasement premium is confirmed | **CORRECTED 2026-07-12: trailing 90d shows the OPPOSITE — gold -18.6% ($5,052.50→$4,113.70) while DFII10 +36bp (1.95→2.31), verified across 5 monthly markers (3/19-7/10), not a 2-point read. Real-rate-consistent (CONVERGE), premium NOT confirmed this window.** (KB-MIDAS-005) |
 | 4 | A monetary/fiscal stress event → gold spikes as the safe-haven + debasement trade | open (the systemic event) |
 
-**Repricing:** gold as a monetary-stress read (→ BOND real-rate seam, LIQUID safe-haven). **Confirms/breaks:** gold holding through rising real yields confirms the premium; gold converging back down to real rates falsifies it. **MIDAS owes** the gold-spot + divergence quantification.
+**Repricing:** gold as a monetary-stress read (→ BOND real-rate seam, LIQUID safe-haven). **Confirms/breaks:** gold holding through rising real yields confirms the premium; gold converging back down to real rates falsifies it — **the trailing 90d data sits on the falsification side of that line**, not yet a verdict (one window). **Tier-1 vs Tier-2 distinction (load-bearing):** gold's absolute level ($4,113.70) is still historically extraordinary — that multi-year ascent may still be Tier-2 structural debasement evidence. What Stage 3's correction shows is that the *marginal, live* (Tier-1) move is currently real-rate-consistent, not an additional above-and-beyond premium. Both can be true at once; don't conflate the level with the delta. Re-test at MIDAS-03 (CPI 7/14 reaction) and MIDAS-01 (9/30).
 
 ### M2 — Silver + gold/silver ratio
 
@@ -38,20 +38,20 @@
 | Stage | Mechanism | State |
 |---|---|---|
 | 1 | Copper demand tracks global industrial activity + China (the marginal buyer) | confirmed (structural) |
-| 2 | Copper price + LME/COMEX inventory signal demand direction | needs first pull |
-| 3 | Copper roll + inventory build = confirmed demand inflection (not positioning noise) | open |
+| 2 | Copper price + LME/COMEX inventory signal demand direction | price leg LIVE (2026-07-12): +10.5% vs 200dma, +9.2% QoQ — growth-confirming; **inventory leg still needs first pull** (no free API found, KB-MIDAS-010) |
+| 3 | Copper roll + inventory build = confirmed demand inflection (not positioning noise) | open — current price action is the OPPOSITE of a roll; China Q2 GDP (~7/16) is the next test (MIDAS-04) |
 
-**Repricing:** copper as the cleanest China-growth thermometer (→ ZHAO two-way, HENRY velocity). **MIDAS owes** the first copper-spot + LME-inventory + China-imports pull.
+**Repricing:** copper as the cleanest China-growth thermometer (→ ZHAO two-way, HENRY velocity). Price leg closed 2026-07-12; **MIDAS still owes** the LME-inventory + China-imports pull.
 
 ### I2 — PGMs (platinum / palladium)
 
 | Stage | Mechanism | State |
 |---|---|---|
-| 1 | PGM demand = auto catalysts + industrial | open |
-| 2 | Supply concentrated in South Africa + Russia = structural fragility | confirmed (structural) |
-| 3 | SA/Russia supply disruption/sanction → PGM supply shock | open |
+| 1 | PGM demand = auto catalysts + industrial | open; price leg LIVE (2026-07-12): Pt $1,629.00 (+0.6%), Pd $1,276.30 (+2.6%, 90d strength) |
+| 2 | Supply concentrated in South Africa + Russia = structural fragility | confirmed (structural); PROVISIONAL first read (2026-07-12, WebSearch — needs primary verify): WPIC ~240koz 2026 Pt deficit, SA power-cost + flooding constraints, US anti-dumping action on Russian Pd (rate unreconciled across sources) |
+| 3 | SA/Russia supply disruption/sanction → PGM supply shock | open — no confirmed acute outage; sanctions proceeding ongoing (Commerce Dept determination pending) |
 
-**Repricing:** PGM supply consequence of SA/Russia events (→ HAWK geopol, HENRY auto/industrial). **MIDAS owes** the first Pt/Pd-spot + supply pull.
+**Repricing:** PGM supply consequence of SA/Russia events (→ HAWK geopol, HENRY auto/industrial). Price leg closed 2026-07-12; **MIDAS still owes** primary-source verification of the supply backdrop (currently PROVISIONAL) + a HAWK cross-flag.
 
 ---
 

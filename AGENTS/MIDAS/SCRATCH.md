@@ -1,16 +1,17 @@
 # MIDAS — SCRATCH (next-session pickup)
 
-**2026-07-11 — BUILD SESSION (DAEDALUS scaffold, Will-approved; Phase 3 / final of the 3-agent queue).**
+**2026-07-12 — FIRST REAL SESSION (Will-directed, priority: stand up `metals_watch.py` + first live baseline).**
 
-MIDAS is live. Dual-channel metals agent — monetary (gold/silver) + industrial (copper/PGM). No day-1 spot instrument; the value at birth is the dual-channel structure + clean seams. M1 (gold) carries the confirmed real-yield read (DFII10 2.31, FRED 7/9); M2/I1/I2 are honest GAPS awaiting spot pulls. `boot.py` = staleness + predictions-due only.
+`metals_watch.py` is BUILT and wired into `boot.py` as leg 0 (self-locating, imports FORGE `fetch.py`). Every channel now carries a dated live read for the first time. **Headline finding: the 7/11 build session's M1 framing ("gold structurally bid despite rising real yields") does NOT survive the first spot pull** — trailing 90d shows gold -18.6% while DFII10 +36bp, the classic inverse relationship, verified across 5 monthly markers. M1 downgraded 3→2. Full detail: STATUS.md "HEADLINE CORRECTION" + KB-MIDAS-005.
 
 **▶ PICK UP HERE (next session, priority order):**
-1. **Build `metals_watch.py`** (THE priority first increment) — real yield (FRED DFII10, confirmed working) + gold/silver/copper/Pt/Pd spot (ETF proxies GLD/SLV/CPER/PPLT/PALL via shared FORGE `fetch.py` — futures GC=F errored on test, validate the proxies) + gold/silver ratio. Wire into boot.py as leg 0 (PAT-041: durable cadence at build time, same session).
-2. **M1 quantification** — gold spot vs real-yield divergence = the debasement premium (the live signal). Route to BOND (real rates) + LIQUID (safe-haven). Resolve MIDAS-01 by 9/30.
-3. **I1 first pull** — copper spot + LME/COMEX inventory + China imports = the Dr.-Copper/China thermometer. Route to ZHAO. Resolve MIDAS-02 by 9/30.
-4. **M2 / I2 pulls** — silver + GSR; Pt/Pd + SA/Russia supply.
-5. **Process inbox** — BOND + ZHAO seam packets (the two-way ones), LIQUID/HAWK/HENRY handshakes.
+1. **LME/COMEX inventory (I1)** — still a gap; no free API found this session (CME `warehouseStockAPI.json` → 403; LME vendor-gated). Try westmetall.com scrape next.
+2. **I2 primary-source verify** — the 132.83%/828% Russian-Pd tariff figures need reconciliation (Federal Register / Commerce Dept determination); WPIC 240koz Pt-deficit figure needs the actual WPIC quarterly, not a WebSearch summary. Currently PROVISIONAL, not EMPIRICAL.
+3. **Resolve MIDAS-03** (CPI 7/14 gold-vs-real-yield same-day sign check) by 7/16 once DFII10 T+1 publishes.
+4. **Resolve MIDAS-04** (China Q2 GDP ~7/16, copper 2-session reaction) — VERIFY the exact NBS release date/time first (this session's 7/16 is WebSearch-derived).
+5. **Consider wiring COT into a weekly-cadence leg** — this session's CFTC pull was manual (direct Socrata API, NOT WebSearch/WebFetch — see LESSONS L-05, those hallucinated wrong numbers on first attempt).
+6. **CB gold-buying / WGC flow data** — Tier-2 M1 structural leg, still unpulled (quarterly cadence candidate).
 
-**Discipline reminder (LESSONS L-01):** keep the monetary and industrial channels SEPARATE — gold up + copper down is a coherent risk-off read, not a contradiction. Don't collapse to "metals up/down."
+**Discipline reminder (LESSONS L-01):** keep the monetary and industrial channels SEPARATE. This session actually surfaced a THIRD state beyond the two named in THESIS.md ("reflation" both-up, "risk-off" gold-up/copper-down): **gold down + copper up = growth-without-debasement-premium**. Worth naming explicitly next session if it persists.
 
-**Open dependencies (not MIDAS's to do):** PROME → ROSTER/root/AGENTS.md registration; BOND/ZHAO → integrate the two-way seams.
+**Open dependencies (not MIDAS's to do):** PROME → deliver the LIQUID gold-leg-ownership ack (route-out, see report); ZHAO → integrate copper/China seam given the corrected I1 read; HAWK → cross-verify the I2 PGM-supply backdrop.

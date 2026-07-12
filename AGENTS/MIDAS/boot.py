@@ -1,18 +1,21 @@
 #!/usr/bin/env python3
 """
-boot.py — MIDAS boot instrument. Ledger staleness + predictions-due, one verdict.
+boot.py — MIDAS boot instrument. Metals spot/yield + ledger staleness + predictions-due, one verdict.
 
-Built by DAEDALUS 2026-07-11 (MIDAS build). cwd-proof + self-locating: lives at
-AGENTS/MIDAS/boot.py -> parents[2] == repo root; finds scripts/ledger_staleness.py
-regardless of launch cwd. metals_watch.py (real yield + gold/silver/copper/PGM spot +
-GSR, via the shared FORGE fetch client) is the flagged priority first increment — when
-built, add its call here as leg 0 (PAT-041: wire the cadence durably at build time).
+Built by DAEDALUS 2026-07-11 (MIDAS build); metals_watch.py wired in 2026-07-12
+(MIDAS first real session, PAT-041 — cadence wired same session as the build).
+cwd-proof + self-locating: lives at AGENTS/MIDAS/boot.py -> parents[2] == repo
+root; finds scripts/ledger_staleness.py and metals_watch.py regardless of
+launch cwd.
 
-Boot step 4 in CLAUDE.md. Two legs:
+Boot step 4 in CLAUDE.md. Three legs:
+  0. metals_watch.py — real yield (FRED DFII10) + gold/silver/copper/Pt/Pd
+     spot (futures + ETF proxy) + GSR + M1 divergence classifier.
   1. ledger staleness — workbook/*.tsv AND TRADE.md vs STATUS mtime (shared script).
   2. predictions-due  — workbook/PREDICTIONS.tsv rows past resolve_date still OPEN.
 
-Combined exit: 0 = quiet · 1 = REVIEW (stale ledger or prediction due) · 2 = a leg failed.
+Combined exit: 0 = quiet · 1 = REVIEW (metals leg flagged, stale ledger, or
+prediction due) · 2 = a leg failed.
 """
 
 import csv
@@ -25,9 +28,11 @@ ROOT = Path(__file__).resolve().parents[2]
 HERE = Path(__file__).resolve().parent
 STALENESS = ROOT / "scripts" / "ledger_staleness.py"
 PREDICTIONS = HERE / "workbook" / "PREDICTIONS.tsv"
+METALS_WATCH = HERE / "metals_watch.py"
 
 
 def run(cmd):
+    sys.stdout.flush()  # avoid interleaving with the child's unbuffered stdout
     try:
         return subprocess.run([sys.executable, *cmd], cwd=str(ROOT)).returncode
     except Exception as e:  # noqa: BLE001
@@ -68,9 +73,16 @@ def predictions_due():
 
 def main():
     print("=" * 72)
-    print("  MIDAS BOOT — ledger staleness · predictions-due")
+    print("  MIDAS BOOT — metals watch · ledger staleness · predictions-due")
     print("=" * 72)
     rcs = []
+
+    print("\n--- 0. metals_watch (real yield + spot + GSR + M1 divergence) ---")
+    if METALS_WATCH.exists():
+        mw = run([str(METALS_WATCH)])
+        rcs.append(mw)
+    else:
+        print("  metals_watch.py not found — skipping leg 0")
 
     print("\n--- 1. ledger staleness (workbook + TRADE.md vs STATUS) ---")
     sw = run([str(STALENESS), "MIDAS", "--quiet"])

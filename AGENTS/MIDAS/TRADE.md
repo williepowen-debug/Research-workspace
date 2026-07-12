@@ -1,6 +1,8 @@
 # MIDAS — TRADE
 
-**NO OPEN POSITIONS — newborn agent (2026-07-11).** No book yet; placeholder feeding PROME synthesis once MIDAS forms tradeable ideas.
+**NO OPEN POSITIONS.** No book yet; placeholder feeding PROME synthesis once MIDAS forms tradeable ideas.
+
+**2026-07-12 update:** first live baseline landed (STATUS.md). M1's trigger ("divergence confirmed + quantified") is now quantified as **NOT confirmed** — trailing 90d shows real-rate-consistent gold decline, not a debasement premium. No candidate below triggers yet.
 
 *(Banner-compliant per blueprint §8 / PAT-023: a trade surface carries a FROZEN/NOT-CURRENT banner OR a live mtime alert — never the silent-rot middle. Exempts the surface until MIDAS opens its first idea; `boot.py` runs `ledger_staleness.py MIDAS --trade` regardless.)*
 
