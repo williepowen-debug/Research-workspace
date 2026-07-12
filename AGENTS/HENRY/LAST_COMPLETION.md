@@ -1,6 +1,16 @@
-# HENRY — COMPLETION (2026-07-11 — three sessions same day: backlog-sweep boot → threads sweep → Will-approved pre-CPI execution wave; earlier blocks preserved below)
+# HENRY — COMPLETION (2026-07-11 — four sessions same day: backlog-sweep boot → threads sweep → pre-CPI execution wave → CPI-disregard steelman; earlier blocks preserved below)
 
-## COMPLETION — HENRY — 2026-07-11 (~18:45 ET, pre-CPI execution wave)
+## COMPLETION — HENRY — 2026-07-11 (~23:15 ET, CPI-disregard steelman, round 3)
+STATUS: ✅ DONE
+CHANGED: AGENTS/HENRY/research/2026-07-11_cpi-disregard-steelman.md (new, standalone-readable for NEXUS), LAST_COMPLETION.md.
+RESULT: Four-leg steelman built with web evidence. Strongest disregard case: (1) headline telegraphed NEGATIVE with ~85% of forecaster mass in a 0.3pp band (Kalshi: −0.1% 37%/−0.2% 33%/0.0% 15%) on already-observed June gasoline −9.2%; core pre-rounding est 0.26%; the oil shock is structurally NOT in this print. (2) 2026 empirical: beta is to CORE surprises only (Apr hot = SPX −0.7%; May in-line = looked through + VIX 21.69→16.42 crush) — cheap vol consistent with the demonstrated reaction function. (3) July FOMC parked (hold ~70-81%); the 9-8 split arbitrates on July/Aug prints, both pre-Sept-FOMC. (4) BLS imputation >30% of cells (vs ~10% norm) + World Cup June lodging distortion (+20-70% host-city ADR) truncates the hot tail's credibility; JPY-vs-equity vol gap = coherent RV (7/16 binary vs telegraphed distribution). Counter-read: blackout-thinned flow, ARM-#2 completing the session BEFORE, 0.26% sitting exactly on the rounding boundary, $700B SOFR short making the soft branch two-way, Warsh testifying 90 min post-print (Kraken 7/8), unhedged tape both layers. Falsifiable line: rational IF in-range print + orderly rates (SPX <0.5%, 10Y ±3bp); complacent IF tails print OR an IN-RANGE print still moves SPX >1%/10Y >8bp (fragility, not information, was the risk).
+GAPS: Per-print straddle-implied-vs-realized history not retrievable weekend from free sources (flagged in-doc; IV rank 16.8% [7/7] used as proxy). JPY-vol-2× premise taken from PROME relay, not independently verified.
+WILL_NEEDS: None.
+FOLLOW-UP: PROME routes the NEXUS pointer. Tuesday's tape grades the falsifiable line (thresholds pre-registered in-doc). Mon 7/13 session as previously queued.
+
+---
+
+## (earlier, ~18:45 ET) COMPLETION — HENRY — pre-CPI execution wave
 STATUS: ✅ DONE
 CHANGED: STATUS.md (2Y row in ACTIVE THRESHOLDS, blackout + exec-wave block, header stamp), workbook/PREDICTIONS.tsv (HEN-38 amended: 2Y-confirm + SOFR-squeeze overlay + blackout context), research/credit/HY_OAS_PLAYBOOK.md (FROZEN banner), workbook/THESIS_VALIDATION.md (HEN-35 30%→~15% reconciled), NEXUS_BRIEF.md (blackout + wires bullet, stamp), MEMORY.md, LAST_COMPLETION.md.
 RESULT: All 5 Will-approved items executed. (1) 2Y row wired [FRED DGS2 7/9 = 4.16; yellow >4.25 clears the 7/8 post-FOMC high 4.21; 2Y-vs-10Y = the hike-repricing-vs-term-premium channel discriminator]. (2) SOFR-squeeze overlay on HEN-38's demote branch [~$700B leveraged short; rates→equity half only — LIQUID owns plumbing, seam note expected]. (3) HY_OAS_PLAYBOOK FROZEN (banner chosen over live-reconcile — the doc's value is its reference layers, not its dead decision tree). (4) Buyback-blackout now on STATUS + NEXUS_BRIEF with sources+dates [RP-HEN-6.4/8.1 Apr; ML-HEN-028 Feb; top-20 ≈ 50% of ~$1.02T/yr; rolling exits banks ~7/16-17 → GOOGL ~7/24 → hyperscalers ~7/31-8/2], estimate-grade flagged. (5) THESIS_VALIDATION HEN-35 reconciled to ~15%. STATUS at 243/250 lines.
