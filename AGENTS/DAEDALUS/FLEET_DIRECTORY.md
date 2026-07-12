@@ -13,7 +13,7 @@
 | SAM | Market | L4 | Japan — BOJ / JGB / carry | BOTTOM LINE -> STATUS<250 -> 5-pt table (~8 rows) -> staleness lines =… |
 | LIQUID | Market | L4 | HY / credit spreads / liquidity | L4->L5: 5-pt overlay + Independence col (alongside DORMANT->TRIGGERED)… |
 | VIOLET | Market | L4 | VIX / vol term structure / vol-of-vol | L5 candidacy read at next firming pass (verify the 6 applied handles in… |
-| BRENT | Market | L4 | Oil — Brent / WTI | L4->L5: fix CLAUDE threshold-drift line 168 |
+| BRENT | Market | L4 | Oil — Brent / WTI | L4->L5: closeout-hygiene sweep (TRADE.md PAT-023 RESOLVED 6/29 |
 | RED | Utility | L4 | Adversarial red-team | no-overlap-table + labeled read-only-boundary handles + RED resolves FL… |
 | HENRY | Market | L4 | Macro velocity / market trends | 🔴 PROME-scheduled FULL BOOT pre-7/14 (HEN-39/40 |
 | CARL | Market | L4 | Consumer & credit-transmission macro | L5: BOTTOM LINE handle + consistency_check.py |

@@ -2,7 +2,7 @@
 
 **Purpose:** canonical topology for agent transmission, synthesis, and routing.
 
-**Status:** live map source. Historical visual maps live in `PROME/archive/agent_network.*`. Do not maintain separate live topologies. Dormant / archive-source / retired agents are omitted here (they don't currently transmit) — full roster + tiers → [`_INDEX.md`](./_INDEX.md) + [`../PROME/ROSTER.md`](../PROME/ROSTER.md).
+**Status:** live map source. Historical visual maps live in `PROME/archive/agent_network.*`. Do not maintain separate live topologies. Dormant agents with historically-wired edges (OZK, BARON) remain as reference nodes; retired / archive-source agents are omitted — full roster + tiers → [`_INDEX.md`](./_INDEX.md) + [`../PROME/ROSTER.md`](../PROME/ROSTER.md).
 
 ## Core model
 

@@ -7,7 +7,7 @@
 
 ---
 
-## ACTIVE — persistent domain owners (25)
+## ACTIVE — persistent domain owners (28)
 Verified by recent commit cadence; each runs as its own Claude Code session.
 
 > **The count column is a vintage snapshot (as-of the header date), NOT live** — it rots within days (re-run the Method command to refresh). **Classification is the signal, not the raw count.** *(Vintage-stamp added 2026-07-10 — same "hardcoded-Current value silently rots" defect DAEDALUS fixed in CARL's sub-agent CLAUDE.md files the same day.)*

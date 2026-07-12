@@ -36,7 +36,7 @@
 **WAITING-FOR:**
 - **ATTOM Q2 2026 foreclosures (7/16)** — first live test of the rebuilt agent; anchors the owed data refresh.
 - **DHI FQ3 / PHM Q2 earnings (7/22-23)** — CRL-23 read-through.
-- **CREED task packet delivery** (S5 demotion + Trepp MF routing, WP-H3) — not yet sent as of this build.
+- **CREED packet consumption** (S5 demotion + Trepp MF routing — delivered 7/12 to `AGENTS/CREED/inbox/`, lands at CREED's next Tier-2 spawn).
 - **CORAL FL-condo reconciliation** — logged, not actioned.
 
 ---
