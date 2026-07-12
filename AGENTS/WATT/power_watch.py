@@ -33,8 +33,9 @@ Four reads, one verdict line, each fail-LOUD (stderr + rc=2, never fabricated):
      aggregation: this is a lagged proxy, NOT real-time LMP — every print is
      stamped with its delivery date, never "now". Spark spread computed inline
      vs Henry Hub (yfinance NG=F latest daily close, own date stamp) using a
-     flat 7.0 MMBtu/MWh heat rate — ASSUMPTION-tier, not PJM-fleet-calibrated
-     (EIA-923 calibration is the named next increment). REVIEW (rc=1) trips on:
+     7.0 MMBtu/MWh heat rate = EIA's published spark-spread benchmark (7,000
+     Btu/kWh, efficient-CCGT proxy — NOT a live marginal-unit HR; full EIA-923
+     PJM-fleet derivation spec'd next session). REVIEW (rc=1) trips on:
      latest proxy print >= $500/MWh (Orange band) OR spark spread negative.
 
 Exit codes: 0 = ok/quiet · 1 = emergency-class posting(s) OR Orange-band
@@ -85,10 +86,20 @@ NEAR_PEAK_PCT = 95.0  # latest hour within 5% of 24h peak = stress hint
 # --- Leg 4: LMP-proxy + spark spread (EIA ICE wholesale file) ---------------
 EIA_WHOLESALE_URL = "https://www.eia.gov/electricity/wholesale/xls/ice_electric-{year}.xlsx"
 PJM_HUB = "PJM WH Real Time Peak"  # the PJM Western Hub row in the EIA file
-# ASSUMPTION-tier heat rate (efficient CCGT, MMBtu/MWh). NOT calibrated to the
-# actual PJM gas fleet — EIA-923 calibration is the named next increment
-# (WATT LESSONS L-05 / SCRATCH item 3). Every printed spread carries this flag.
+# Heat rate for the spark spread (MMBtu/MWh). CALIBRATED 2026-07-12 (rd-3) from
+# a NAMED PUBLISHED proxy, no longer a bare guess: 7.0 MMBtu/MWh = EIA's own
+# standard spark-spread benchmark of 7,000 Btu/kWh ("a fairly new and efficient
+# natural gas combined-cycle generator" — eia.gov/todayinenergy/includes/
+# sparkspread_explain.php). PJM-specific vintage range [EIA id=47556, 2020 data]:
+# 1990s CCGT >8,000, 2000s 7,300, 2010s 6,700-7,000 Btu/kWh. So 7.0 is the
+# efficient-CCGT end; the marginal price-setting unit during scarcity is often
+# OLDER/less-efficient (higher HR), which would NARROW the computed spread.
+# CAVEAT still stands: fleet-BENCHMARK, not a live marginal-unit heat rate.
+# Full EIA-923 PJM-gas-fleet-average derivation spec'd next session (KB-WATT-025).
+# Low sensitivity while gas is cheap: at HH ~$3 a 7.0->8.0 swing moves the
+# spread only ~$3/MWh. HEAT_RATE_LABEL prints with every spread.
 HEAT_RATE_MMBTU_PER_MWH = 7.0
+HEAT_RATE_LABEL = "EIA benchmark 7,000 Btu/kWh (efficient-CCGT proxy, not live marginal HR)"
 LMP_ORANGE = 500.0   # $/MWh — WATT THRESHOLDS Orange band
 LMP_RED = 1000.0     # $/MWh — WATT THRESHOLDS Red band / scarcity cap zone
 
@@ -280,11 +291,15 @@ def main():
         try:
             hh = read_henry_hub()
             spread = lmp["wtd"] - HEAT_RATE_MMBTU_PER_MWH * hh[0]
+            spread_hi = lmp["wtd"] - 8.0 * hh[0]  # older-unit sensitivity (higher HR)
             print(f"\n  SPARK SPREAD (P4; heat rate {HEAT_RATE_MMBTU_PER_MWH} MMBtu/MWh "
-                  f"= ASSUMPTION, not PJM-fleet-calibrated):")
+                  f"= {HEAT_RATE_LABEL}):")
             print(f"    power ${lmp['wtd']:,.2f} (deliv {lmp['deliv']}) - "
                   f"{HEAT_RATE_MMBTU_PER_MWH} x HH ${hh[0]:.3f} ({hh[1]}) "
                   f"= {'+' if spread >= 0 else ''}${spread:,.2f}/MWh")
+            print(f"    sensitivity @ HR 8.0 (older marginal unit): "
+                  f"{'+' if spread_hi >= 0 else ''}${spread_hi:,.2f}/MWh "
+                  f"(delta ${spread - spread_hi:,.2f} — low while gas is cheap)")
             if lmp["deliv"] is not None and str(lmp["deliv"]) != hh[1]:
                 print(f"    (vintage mismatch: power leg {lmp['deliv']} vs gas leg {hh[1]} — "
                       f"biweekly file lag; do not read as a same-day spread)")
@@ -323,7 +338,7 @@ def main():
         p = f"LMP-proxy ${lmp['wtd']:,.2f}/MWh deliv {lmp['deliv']} [{lmp_band(lmp['wtd'])}]"
         if spread is not None:
             p += (f" · spark {'+' if spread >= 0 else ''}${spread:,.2f}/MWh "
-                  f"(HR {HEAT_RATE_MMBTU_PER_MWH} ASSUMED; gas {hh[1]})")
+                  f"(HR {HEAT_RATE_MMBTU_PER_MWH} = EIA benchmark; gas {hh[1]})")
         else:
             p += " · spark NOT COMPUTED (gas leg fail)"
     else:
