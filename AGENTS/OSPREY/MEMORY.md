@@ -15,6 +15,7 @@
 - [inherited, 2026-06-20] **Dormant-armed framing.** A muted vector isn't dead — it's primed to re-fire on escalation. Reconcile stale vectors as "MUTED, re-fires if X," not deleted.
 - [inherited, 2026-06-20] **Don't stack concurrent workflows / wide fan-out while siblings live** — API 529-overloads and drops RANDOM agents (can lose the most-important theater, miss a key event). Degrade to inline sequential WebSearch + harvest partials. (auto-memory `finding_workflow_concurrency_529`.)
 - [2026-07-12, founding] **Own-ledger-staleness is a silent trap.** HAWK's crude-export-terminal miss (→ HAW-15 FAILED, OSPREY's founding calibration lesson, full detail in LESSONS.md) happened partly because the ledger it trusted as a baseline was itself stale and gappy. Check the swept-complete mark before trusting the ledger as current-state.
+- [2026-07-12, OSPREY's own] **A swept-complete DATE is not proof of swept-complete CONTENT.** OSPREY's first live sweep found 4 material strikes (incl. Omsk, Russia's largest refinery) missing from a ledger whose header mark was dated the SAME DAY as the check — a subtler variant of the founding lesson above (there the mark was visibly old; here it looked current and still wasn't exhaustive). Full detail: LESSONS.md.
 
 ## References
 - [inherited, 2026-06-08] BRENT is canonical for oil prices/storage/STEO/crack-spread levels — defer per "one source of truth per metric." OSPREY feeds BRENT military/infrastructure inputs, does not maintain its own price series.

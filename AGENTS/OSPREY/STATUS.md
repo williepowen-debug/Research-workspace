@@ -1,11 +1,11 @@
 # OSPREY STATUS
 **Agent:** OSPREY (Russia/Ukraine War Theater — Energy-Strike Campaign, Crude-vs-Products Channel Model)
-**OSPREY — spun out of HAWK 2026-07-12; historical record frozen under `AGENTS/HAWK/`.** HAWK's Russia coverage (STATUS off-core paragraph, VX-UKR-01/SHADOW-01/SHADOW-02, FLOW-07/08/20, the full 36-row strike ledger's 32 RU-UA rows, HAW-15/17) is the seed for this file. Cite `KB-HAWK-NNN` for pre-7/12 provenance.
-**Last Updated:** 2026-07-12 (spinout day) — content current through HAWK's 7/12 STATUS + two same-day outbox packets to BRENT (crude-terminal flip-trigger correction + tanker-campaign notice). **Not yet independently re-verified by OSPREY** — first live session owes a fresh sweep.
+**OSPREY — spun out of HAWK 2026-07-12; historical record frozen under `AGENTS/HAWK/`.**
+**Last Updated:** 2026-07-12 PM — OSPREY's **first live session**, independently re-verified (not just HAWK-inherited). Fresh web sweep (day-by-day gap check per LESSONS.md item 2) closed 4 material ledger gaps and refreshed 3 aggregates.
 
-**⚠️ OIL HANDOFF (inherited):** oil fundamentals (prices, storage, crack spreads, tanker markets) are owned by **BRENT**. OSPREY owns military operations, strike-campaign tracking, and the crude-vs-products channel model for the Russia/Ukraine theater. Feed BRENT the military/infrastructure inputs; do not track oil prices or storage independently.
+**⚠️ OIL HANDOFF (inherited):** oil fundamentals (prices, storage, crack spreads, tanker markets) are owned by **BRENT**. OSPREY owns military operations, strike-campaign tracking, and the crude-vs-products channel model for the Russia/Ukraine theater.
 
-**Core read — THREE CHANNELS NOW RUNNING IN PARALLEL, not sequentially (corrected 7/12).** Refineries/products campaign FIRING (~1/3 of Russian primary refining capacity offline); crude-export TERMINALS re-activated in-window (flip-trigger #2 FIRED); shadow-fleet TANKERS newly under industrial-scale Ukrainian kinetic attack (7/6-12). Damage on channels 2+3 is limited/fast-repair so far — crude exports were still at a 2026-high mid-June — so Brent stays decoupled (~$76-79). The valve is being shot at, not closed.
+**Core read — THREE CHANNELS STILL RUNNING IN PARALLEL; Channel 1 escalated materially this session, Channels 2-3 unchanged.** Refineries/products campaign FIRING and escalating (Russia's LARGEST refinery, Omsk, struck for the first time 7/6 — a high-materiality ledger gap closed this session); crude-export TERMINALS unchanged since 7/12 AM (no new terminal damage found — **non-countable attribution HOLDS**); shadow-fleet TANKERS campaign continues, vessel-count claims now RECONCILED (progressive tallies, not contradictory). Crude exports hit a fresh record (4.22M bpd, highest since 2022 invasion) — the decoupling mechanism is not just holding, it's strengthening on primary Kpler data. **NEW this session: Russia banned diesel EXPORTS 7/8-7/31 — high relevance for CARL's Monday retail pass-through check.**
 
 ---
 
@@ -13,30 +13,35 @@
 
 | # | Channel | Score (1-5) | Current State | Independence | Key Signal | Upgrade Trigger | Last Updated |
 |---|---|---:|---|---|---|---|---|
-| 1 | Refineries/products | **4** 🔴 | ~1/3 of Russian primary refining capacity offline (≈2.14M bpd, mid-June, Energy Intelligence/Kyiv Post); first-week-June runs <4M bpd (21-yr low); fuel shortages 25+ regions. Bearish/neutral Brent — refinery hits FREE crude for export. | Independent root cause (drone/long-range-strike campaign on inland refineries) from channels 2-3, though same attacker/campaign umbrella. | Crude exports at 2026-high (3.83M bpd, 17May-14Jun) confirms the free-crude mechanism. | Sustained runs <3M bpd OR a >40% capacity-offline sourced aggregate. | Jul 12 |
-| 2 | Crude-export terminals | **3** 🟠 ↑ | Flip-trigger #2 FIRED 2026-07-12 (corrected from HAWK's earlier "dormant" read): Primorsk (~6/25, fuel-reservoir, LIMITED), NOVATEK-Ust-Luga (7/10, condensate exports SUSPENDED), Vysotsk (7/6), Kavkaz (6/20), 7/4 St-Pete op; Novorossiysk re-hit 5/23+6/8 (pre-window gaps). Damage limited/fast-repair — no confirmed berth destruction, no sustained loadings halt. | Same attacker (Ukraine) as channel 1, but a genuinely distinct target class (export infrastructure vs. inland refining) with a distinct Brent-relevance mechanism — counts separately, not a restatement of channel 1. | NOVATEK-Ust-Luga exports still SUSPENDED as of 7/10 (most-recent concrete disruption). | A named crude-berth confirmed destroyed, OR a sustained (multi-week) loadings halt, OR a Kpler-confirmed liftings drop. | Jul 12 |
-| 3 | Shadow-fleet tankers | **3** 🟠 NEW | Industrial-scale Ukrainian KINETIC strikes on Russian tankers, Sea of Azov + Black Sea, 7/6-12 ongoing (claims vary: 21 vessels/3d, 12 tankers+tug+cargo, or 42 tankers in the 7/6-10 op — unreconciled). MIXED: crude tanker "the Blue" (7/8) + suezmax off Novorossiysk = world-market relevant; most Azov strikes are fuel tankers resupplying occupied Crimea = military logistics, not world crude. | Distinct mechanism (vessel destruction vs. fixed-facility strikes) and distinct actor-emphasis (Ukrainian naval drones/SBU vs. long-range strike aircraft/drones) from channels 1-2 — genuinely a third, not a relabeling. | Claim-count reconciliation still owed; crude-vs-fuel-tanker split not yet quantified. | A named crude tanker sinking/total-loss confirmed, OR Kpler/insurer data showing a buyer pullback from Russian shadow-fleet liftings. | Jul 12 |
+| 1 | Refineries/products | **4** 🔴 | ESCALATED this session: Omsk (Russia's LARGEST refinery, ~22Mt/yr, ~10% of national capacity) struck for the FIRST TIME 7/6 — new one-way drone-range record (>2,500km), ~38-40% of facility throughput damaged. Plus Ufa re-strike (7/1), Saratov full-halt (7/8, only CDU hit), Syzran re-strike (7/12). Refining-offline aggregate now has 3 non-converging figures: 33% (EnergyIntel mid-June, B2) / 42.74% (Ukraine GS self-report, C4 — do NOT adopt without corroboration) / 25% (unnamed analysts). | Independent root cause from channels 2-3 (inland refining vs export infra), same attacker/campaign umbrella. | Diesel-fuel EXPORT BAN (Novak, 7/8-7/31) — first policy-level confirmation of the domestic fuel-crisis mechanism. | Sustained runs <3M bpd OR an INDEPENDENTLY-sourced >40% capacity-offline aggregate (gated via OSP-03 — Ukraine GS's 42.74% claim alone does NOT fire this). | Jul 12 PM |
+| 2 | Crude-export terminals | **3** 🟠 | UNCHANGED this session — fresh sweep found NO new crude-export-terminal strike. Flip-trigger #2 (FIRED 7/12 AM) still holds at: Primorsk (~6/25, LIMITED), NOVATEK-Ust-Luga (7/10, condensate SUSPENDED), Vysotsk (7/6), Kavkaz (6/20), 7/4 St-Pete op, Novorossiysk (5/23+6/8). Damage still limited/fast-repair — no confirmed berth destruction, no sustained loadings halt. | Distinct target class (export infra vs. inland refining) from channel 1 — counts separately. | Crude exports hit a FRESH RECORD 4.22M bpd (4wk-avg to 7/5, highest since 2022 invasion, Bloomberg/Kpler) — confirms the free-crude mechanism is strengthening, not degrading. | A named crude-berth confirmed destroyed, OR a sustained (multi-week) loadings halt, OR a Kpler-confirmed liftings drop. **NONE fired this sweep — non-countable attribution HOLDS.** | Jul 12 PM (re-verified, unchanged) |
+| 3 | Shadow-fleet tankers | **3** 🟠 | Campaign continues (Sea of Azov + Black Sea); vessel-count claim spread (21/35/42) **RECONCILED this session** — daily tallies (7/6=2, 7/7=8, 7/8=9, 7/9=14, 7/10=21+support vessels, 7/11-12=10+4 ferries) sum consistently with the cumulative claims; these were progressive snapshot windows, not contradictory counts. No named crude-tanker total loss found beyond "the Blue" (7/8, already priced in). MIXED channel (crude vs. Crimea-fuel) split still not quantified. | Distinct mechanism (vessel destruction) and actor-emphasis from channels 1-2. | No new crude-tanker sinking/total-loss found this sweep. | A named crude tanker sinking/total-loss confirmed, OR Kpler/insurer data showing a buyer pullback. **UNFIRED.** | Jul 12 PM |
 
-**Headline: no single composite score (channel model, not an additive convergence sum) — read the three rows independently; BRENT's decoupling-vs-Brent-story test is which channel(s), if any, cross their Upgrade Trigger.** All three channels are attacker-side (Ukraine); none has yet produced a *world-crude-supply* event per the sourced aggregates.
+**Headline: no single composite score (channel model, not an additive convergence sum) — read the three rows independently.** All three channels are attacker-side (Ukraine); none has yet produced a *world-crude-supply* event per the sourced aggregates. **This session's single most important finding: Channel 1 escalated materially (Omsk) while Channel 2's non-countable attribution held — the products-vs-crude distinction that PROME's priority framing depends on is intact and freshly re-verified, not just inherited.**
 
 ---
 
 ## Current sourced aggregates (EXTERNAL — not ledger outputs; see `domain/energy-strikes/ANALYSIS_2026-07-12.md` for full metric-discipline notes)
-- **~1/3 of Russian primary refining capacity offline ≈ 2.14M bpd** | mid-June 2026 | Energy Intelligence/Kyiv Post.
-- **Russian crude shipments 3.83M bpd (17 May–14 Jun) = 2026-high**; floating storage ~120M bbl (+25% vs April) | Bloomberg/Moscow Times/Vortexa, ORC-verified 6/18.
-- **Urals discount ~25% vs Brent** (May; was ~$6.4 Mar) — mixed signal, loadings still clearing (shadow fleet ~48% of seaborne).
+- **Refining offline — 3 non-converging figures, do not merge:** ~33% ≈2.14M bpd (EnergyIntel/KyivPost, mid-June, B2) | 42.74% (Ukraine GS self-report, early-July, C4 — uncorroborated) | ~25% (unnamed analysts, ~7/9). Gated via OSP-03.
+- **NEW: Russian crude shipments 4.22M bpd (4wk-avg to Jul 5) = highest since the 2022 invasion** | Bloomberg 7/7, Kpler-sourced | supersedes the prior 3.83M bpd (17May-14Jun) read.
+- **NEW: Diesel/gasoil loadings collapsed to 234kbpd (1-10 Jul)** vs 400kbpd June vs ~817kbpd 2025-avg | Kpler via multiple, 7/8.
+- **NEW: Russia banned diesel-fuel EXPORTS entirely, 7/8 through 7/31** (Novak; Mongolia-type pre-existing deals exempted) | Moscow Times/CNN/Meduza 7/8-9. **Route-out: high relevance for CARL's Monday (7/13) Russia-diesel retail pass-through window check.**
+- Floating storage ~120M bbl (+25% vs April, mid-June vintage — NOT re-verified this session, owed next).
+- Urals discount ~25% vs Brent (May vintage — NOT re-verified this session, owed next).
 
 ---
 
-## CONFIRMED vs CLAIMED vs UNVERIFIED — 7/12 sweep (inherited from HAWK, not independently re-verified)
+## CONFIRMED vs CLAIMED vs UNVERIFIED — 7/12 PM sweep (OSPREY's own, independently verified)
 
 | Event | Status | Detail | Source/date |
 |---|---|---|---|
-| Flip-trigger #2 (crude-export terminal channel) FIRED | **CONFIRMED (corrected)** | HAWK's own same-day "terminals unstruck" read was WRONG twice before landing here — see LESSONS.md founding lesson. Primorsk/NOVATEK-Ust-Luga/Vysotsk/Kavkaz/St-Pete all struck in-window (Jun19-Jul15). | Will-directed sweep 7/12 [AlJazeera/NBC/Euromaidan/Wikipedia/EnergyIntel/United24/bairdmaritime/militarnyi/KyivPost/MoscowTimes] |
-| Terminal/tanker damage LIMITED, not degrading crude exports | **CONFIRMED (as of mid-June aggregate)** | Crude exports at 2026-high mid-June, i.e. pre-dating the worst of the terminal re-strikes — a fresher aggregate is owed. | Bloomberg/Moscow Times/Vortexa |
-| Shadow-fleet tanker campaign, industrial scale | **CONFIRMED (targeting); scale CLAIMED, unreconciled** | 21-42 vessel-strike claims across sources, not yet reconciled to one figure. | Moscow Times/WashTimes/PBS/ABC/Ukrainska Pravda/Kyiv Independent/US News/Wikipedia 7/12 |
-| Crude tanker "the Blue" struck | **CONFIRMED** | 7/8, named crude tanker, world-market relevant. | Outbox sweep 7/12 |
-| A named crude berth destroyed / sustained loadings halt | **UNFIRED** | Not observed as of 7/12 — the next Brent tell. | — |
+| Inheritance verification | **CLEAN** | Spot-check of the 32 inherited STRIKES.tsv rows, VX-HAWK-UKR-01/SHADOW-01/SHADOW-02, FLOW-HAWK-07/08/20, and OSP-01(←HAW-17) against HAWK's pre-split frozen record (commit `0b172009`) found byte-identical content; only legitimate spinout annotations added (KB-NNN→KB-HAWK-NNN renumbering, cross-theater notes for FALCON). No drift, no defects. | Diff against `git show 0b172009:...` this session |
+| Omsk refinery — high-materiality ledger gap | **CONFIRMED, BACKFILLED** | Russia's largest refinery (~22Mt/yr, ~10% national capacity), struck 7/6 for the first time, new one-way drone-range record (>2,500km, Fire Point FP-1); this was NOT in the inherited ledger despite the "swept-complete through 7/12" mark. | Militarnyi/CNBC/United24/DefenceExpress 7/6-7 |
+| Ufa, Saratov, Syzran re-strikes | **CONFIRMED, BACKFILLED** | 3 additional gaps closed: Ufa 7/1 (2nd-in-week), Saratov 7/8 (full halt, only CDU hit), Syzran 7/12 (same-day). | Euronews/KyivPost/Meduza/Bloomberg, 7/1-7/12 |
+| Russia diesel export ban | **CONFIRMED** | Novak announced full diesel-export ban 7/8, effective through 7/31. | Moscow Times/CNN/Meduza 7/8-9 |
+| Crude-export terminal further damage | **UNFIRED (re-checked, unchanged)** | No new crude-berth strike or sustained loadings halt found in this sweep — the next Brent tell remains unfired. | This session's sweep, 7/12 PM |
+| Vessel-strike claim spread (21/35/42) | **RECONCILED** | Daily tallies sum consistently with the cumulative claims — progressive windows of one campaign, not contradictory counts. | KyivIndependent/USNews/WashTimes/Bloomberg/Ukrinform, 7/6-7/12 |
+| Refining-offline aggregate | **UNRECONCILED (3-way spread flagged)** | 33% / 42.74% / 25% in circulation — do not headline the Ukraine GS figure without independent corroboration. | KB-OSPREY-007; OSP-03 registered to gate |
 
 ---
 
@@ -44,9 +49,10 @@
 
 | Agent | Read-through |
 |---|---|
-| **BRENT** | 🟠 Flip-trigger #2 FIRED but damage LIMITED so far — crude exports not yet degraded. Next tell = damage escalation (sustained loadings halt / confirmed berth damage / Kpler liftings drop). Two 7/12 outbox packets delivered the full correction; OSPREY inherits the standing watch. |
-| **HAWK (synthesis)** | 🟡 Routine — OSPREY's three-channel dashboard feeds HAWK's cross-war oil-decoupling reconciliation alongside FALCON's Iran-side read. Acute 🔴 signals bypass HAWK and go direct to BRENT (HAWK cc'd). |
-| **RED** | Standing invitation for a fresh steelman pass: is "limited/fast-repair" itself under-confident given three parallel channels now hitting one crude-export chokepoint system in a single month? |
+| **BRENT** | 🟠 No escalation on the crude-supply-relevant channels this sweep (Channel 2 unchanged, Channel 3 no new crude-tanker loss). Fresh crude-export record (4.22M bpd) reinforces the decoupling read with harder data. Next tell unchanged: damage escalation on Channel 2. |
+| **CARL** | 🟠 **ROUTE-OUT:** Russia's diesel-export ban (7/8-7/31, Novak) is a fresh, high-relevance policy datum for Monday's (7/13) Russia-diesel retail pass-through window check — see KB-OSPREY-005. Diesel exports collapsed to 187kbpd (pre-ban) vs 535kbpd Jul-2025; Russia was ~11% of global diesel supply in 2025. |
+| **HAWK (synthesis)** | 🟡 Routine — three-channel dashboard refreshed and independently re-verified this session (not just inherited). Escalation on Channel 1 (Omsk) is the headline item for HAWK's next cross-war reconciliation pass. |
+| **RED** | Standing invitation for a fresh steelman pass, now with more data: does the market under-price a scenario where Channel 1's escalation (Omsk-scale hits) eventually forces enough refining offline that crude-export volumes themselves become the bottleneck (storage/shut-in risk), even without a single Channel-2 event? |
 
 ---
 
@@ -54,19 +60,22 @@
 
 | ID | Claim | Window | Status |
 |---|---|---|---|
-| OSP-01 | Ukraine's shadow-fleet TANKER campaign does NOT become a measurable Russian WORLD-CRUDE-export disruption (named terminal hit / Kpler liftings drop / war-risk buyer pullback) by Aug 1 — stays attritional + Crimea-fuel logistics | Jul 12 - Aug 1 | **OPEN** — 60%. ←HAW-17 re-homed at split. Captures the channel-3 tanker campaign HAW-15 (terminals) + the refinery campaign (products) both missed. Decision-relevant for BRENT. |
-| HAW-15 (historical, frozen) | Ukraine does NOT strike Russian CRUDE-export infrastructure by Jul 15 | Jun 19 - Jul 15 | **FAILED** (resolved 2026-07-12, HAWK's record — OSPREY's founding calibration lesson; see LESSONS.md). Frozen: `AGENTS/HAWK/thesis/PREDICTIONS_ARCHIVE.md#hawk-15`. |
+| OSP-01 | Ukraine's shadow-fleet TANKER campaign does NOT become a measurable Russian WORLD-CRUDE-export disruption by Aug 1 — stays attritional + Crimea-fuel logistics | Jul 12 - Aug 1 | **OPEN — 65%** (nudged from 60% this session: fresh record crude exports + no new crude-tanker loss both support the attritional read). ←HAW-17 re-homed at split. |
+| OSP-02 (NEW) | Russia's diesel-export ban gets EXTENDED past Jul 31 rather than lifted on schedule | Jul 12 - Aug 3 | **OPEN — 70%.** GAPS-lens registration; mechanically gradable (RF govt/Novak statement). |
+| OSP-03 (NEW) | An INDEPENDENT (non-Ukraine-GS) source confirms >40% Russian refining capacity offline within 3 weeks | Jul 12 - Aug 2 | **OPEN — 35%.** GAPS-lens registration; operationalizes CLAUDE.md's existing Channel-1 Upgrade Trigger, which had no dated resolver until this session. |
+| HAW-15 (historical, frozen) | Ukraine does NOT strike Russian CRUDE-export infrastructure by Jul 15 | Jun 19 - Jul 15 | **FAILED** (resolved 2026-07-12, HAWK's record). Frozen: `AGENTS/HAWK/thesis/PREDICTIONS_ARCHIVE.md#hawk-15`. |
 
 ---
 
-## FIRST-INCREMENT BACKLOG (owned by OSPREY, not blocking launch — see SCRATCH.md)
+## FIRST-INCREMENT BACKLOG (owned by OSPREY, still open — not addressed this session, not blocking)
 1. Russia strike-feed / sanctions-tracker automation (PAT-048-deferred, priority first increment).
-2. Russia-war vol/credit FLOW rows (HAWK's FLOW-04/05 were Iran-loaded → went to FALCON; OSPREY builds fresh).
-3. Firm up the thin Russia-coded exit rules (CLAUDE.md EXIT RULES section — currently thin-at-launch by design).
-4. EU/Druzhba angle expansion (pipeline-to-Hungary channel, currently only VX-HAWK-UKR-01's Druzhba-1 row from Feb).
+2. Russia-war vol/credit FLOW rows (build fresh — HAWK's FLOW-04/05 went to FALCON).
+3. Firm up the thin Russia-coded exit rules (CLAUDE.md EXIT RULES section — still thin-at-launch).
+4. EU/Druzhba angle expansion (only one Feb-dated row currently).
+5. **NEW:** Ufa's implied 1st-of-2 strike (~6/24-25) and Saratov's implied 1st/2nd strikes (pre-5/31) are open-verify items, not yet dated/rowed.
 
 ---
 
 ## BOTTOM LINE
 
-**Spinout day (2026-07-12): OSPREY inherits a hot theater mid-correction.** HAWK's own same-day read on the crude-export-terminal channel was wrong twice before landing on FAILED (HAW-15) — the lesson (search the mechanism not the named targets; don't trust a stale own-ledger as a baseline) is OSPREY's founding calibration discipline, baked into the Tier-1 ledger fixes below. **The single most important thing right now: three channels (refineries FIRING, crude-terminals re-fired, shadow-fleet tankers newly kinetic) are running in parallel against Russian oil infrastructure, but none has yet produced a world-crude-supply event — Brent stays decoupled because damage is limited and fast-repair.** **Next:** first live session owes an independent re-verification sweep (this file is HAWK-inherited, not yet OSPREY-original), a reconciliation of the 21-42 vessel-strike claim spread, and a firmed-up damage-escalation watch feeding BRENT.
+**First live OSPREY session (2026-07-12 PM): inheritance verified CLEAN, but the "swept-complete through 7/12" ledger mark inherited from HAWK was itself wrong — a date stamp is not proof of content completeness.** A fresh day-by-day gap sweep closed 4 material strikes the inherited ledger missed, the highest-materiality being Omsk (Russia's largest refinery, first-ever hit, new drone-range record). **The single most important thing right now: Channel 1 (refineries/products) escalated materially this session while Channel 2 (crude-export terminals) showed NO further damage — the products-vs-crude "non-countable" attribution that PROME's priority framing depends on is intact and now independently re-verified, not just inherited from HAWK.** Crude exports hit a fresh record (4.22M bpd) on primary Kpler data, reinforcing the decoupling mechanism. **Highest-value route-out: Russia's new diesel-export ban (7/8-7/31) is fresh, high-relevance ammunition for CARL's Monday retail pass-through check.** **Next:** independent corroboration of the refining-offline aggregate (OSP-03, by Aug 2), continued damage-escalation watch on Channel 2, and the still-open first-increment backlog.
