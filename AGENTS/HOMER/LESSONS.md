@@ -1,0 +1,22 @@
+# LESSONS.md — HOMER Mistake Patterns & Rules
+
+*Read at boot. Learn once, prevent forever. Verified mistakes that burned us — each with a prevention rule. For Will's working preferences and do-not-touch notes, see `MEMORY.md`. Seeded 2026-07-12 at promotion from HOMER's own pre-promotion record (`archive/`, `STATUS.md` CALIBRATION section) — carried forward, not re-learned.*
+
+---
+
+### [Data] — Verify the Year Explicitly Before Citing a Load-Bearing Metric
+**Mistake:** HOMER's Spawn 5 cited "Trepp CMBS MF May 2026 6.57% (−46bps from Apr 7.15% ATH)" as load-bearing two-source cross-confirmation of a multifamily-stress reversal, and built a downgrade State Vector off it. The source article (Multifamily Dive) was dated Jun 16 **2025** and reported May **2025** data — a year mismatch masked by relative phrasing ("in May") and a cluster of correctly-dated 2026 results nearby giving false confidence. Reality: Trepp Apr 2026 = 7.71% NEW ATH (+56bps from Mar), the opposite direction. Caught in Spawn 6 (Will Part A stress-test) via fresh queries.
+**Rule:** Before citing any web-pulled metric as **load-bearing** (capable of changing a prediction confidence, a STATUS color, or a transmission-chain status), confirm the year explicitly from the primary source — either the article's publication date or an explicit year-stamp on the cited number itself. Relative phrasing ("May print," "latest data," "fell to X%") is insufficient. If the primary source isn't fetchable, the metric stays in an Open Questions / unconfirmed bucket, not in the dashboard.
+**Secondary rule:** When two series are claimed to "cross-confirm" a regime change, verify each independently from its own primary source before treating them as multi-source corroboration.
+
+### [Calibration] — Honor a Pre-Registered Invalidation Trigger Even When Inconvenient
+**Pattern (heritage, not a mistake):** CRL-03 (Fannie MF DQ breaches 0.80% GFC peak) carried a pre-registered invalidation rule: "MF DQ reverses below 0.65% for 2 consecutive months." Apr 2026 printed 0.64% (month 1); May printed 0.58% (month 2) — the rule fired. CARL (parent, at the time) honored the pre-registration and closed CRL-03 MISSED, explicitly declining to override with an "extend-and-pretend, the headline is suppressed by mods" rationale that HOMER's own contemporaneous STATUS had been leaning toward.
+**Rule:** When a pre-registered trigger fires, resolve the prediction on its own terms — don't retroactively construct a mechanism-survives argument to keep it alive. A mechanism note can (and should) accompany the resolution ("CRE/MF stress isn't gone — the CMBS book still diverges") without reopening the specific prediction. This discipline is now HOMER's own to carry, having inherited the GSE-vs-CMBS divergence as its marquee ownership.
+
+### [Process] — A Sub-Agent's SV-Only Update Channel Can Silently Drift Stale Behind Its Own Parent
+**Mistake pattern (promotion-day consequence, caught 2026-07-12):** HOMER's own STATUS.md sat at Jun-8 vintage for 34 days while CARL's STATUS.md — reading HOMER's same underlying metrics — carried materially fresher numbers (May Fannie print, June Trepp print) that never flowed back into HOMER's file. The asynchronous State-Vector-to-CARL channel meant HOMER's *own* dashboard was the stalest copy of HOMER's *own* domain data.
+**Rule:** As a top-level agent, HOMER now owns its own boot-time staleness check (`scripts/ledger_staleness.py`, two-clock workbook headers) instead of relying on an SV harvest cadence set by another agent's spawn schedule. Never let the authoritative copy of a domain's data be a file the domain owner doesn't itself refresh on its own cadence.
+
+### [Process] — Reconcile the FL Read With CORAL/MARCO Before Publishing
+**Mistake risk:** HOMER (county-level condo medians/inventory) and CORAL (broad FL condo price index) both cover Florida condo stress with different metrics and no visible reconciliation step — a live, confirmed divergence as of the 2026-07-12 promotion review (CORAL −6.1% YoY/92% of markets vs. HOMER Miami-Dade <$400K −10% YoY, Broward −8% YoY).
+**Rule:** Before publishing an FL housing figure, check whether CORAL or MARCO already owns an overlapping read. Different metrics on the same geography aren't automatically contradictory, but an unreconciled divergence sitting silently across two agents' STATUS files is data fiction waiting to be cited wrong. Flag genuine disagreements, don't paper over them — this is a standing docket item (`docket/CATALYSTS.tsv`).

@@ -1,0 +1,2 @@
+# LIVE — opened 2026-07-12 at promotion. New rows go here as KB-HOMER-001+. The parent-era ledger (workbook/KB.tsv, ~65 rows, CARL_ID provenance, banner-marked not-maintained since 2026-07-10) stays as historical record — cite it by its own row date, never as current, and do not append to it. This file is the canonical destination for HOMER's own post-promotion research.
+ID	Date	Group	Entity	Fact	Source	Conf	Epistemic	Status	Stale_By	Notes
