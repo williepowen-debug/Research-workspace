@@ -41,6 +41,11 @@ Geopolitical risk is binary in ways domestic stress isn't. Wars start on specifi
     python3 "$(git rev-parse --show-toplevel)/AGENTS/FALCON/scripts/baghdad_watch.py"
     ```
     US Embassy Baghdad alert-feed diff for the unfired CONFIRM-D discriminator #5 (PMF/Kataib Hezbollah backlash). Flag-not-fire: rc 0 = quiet/generic, rc 1 = new REVIEW-flagged alert(s) — YOUR disposition call, rc 2 = fetch failure (verify channel manually, never assume quiet). *(Inherited from HAWK 2026-07-12 via git mv — script + state JSON live at `AGENTS/FALCON/scripts/`, smoke-tested rc 0 at move time; build-time 404 caveat removed same-day, cross-model review catch.)*
+5b-2. **Hormuz transit-count pull** — run:
+    ```
+    python3 "$(git rev-parse --show-toplevel)/AGENTS/FALCON/scripts/hormuz_transit_watch.py"
+    ```
+    Direct pull of IMF PortWatch's `Daily_Chokepoints_Data` FeatureServer (official series behind the unscrapable Hub page). Flag-not-fire: rc 0 = no new sub-18/day print, rc 1 = new print(s) at/below the 18/day fresh-leg bar (FRESH_LEG_BASELINE.md row 2) — YOUR disposition call, rc 2 = fetch failure (fall back to the last-known vintage in FRESH_LEG_BASELINE.md, never assume unchanged). Dataset lags ~5-8d — the script reports print age. *(Built 2026-07-12 round-2 session, PROME-tasked probe; state JSON committed.)*
 5c. **Strike-ledger staleness check (Tier-1 fix #2, build spec §4.2)** — 3-line boot check, cwd-proof, in-content dates not git-time (PAT-039): read `domain/energy-strikes/STRIKES.tsv`'s header `# swept-complete through:` mark and its newest row-date; compare BOTH against today. If the theater is ACTIVE (per STATUS posture) and either is >7d behind today, surface a ⚠️ strike-ledger-stale flag and treat a backfill sweep as due at closeout (step 12). *(This is the direct fix for the HAW-15 miss — see LESSONS item 4/corollary 2.)*
 6. **Signal intake** *(only when pending or when spawned specifically for inbox processing — see MAIL):*
    - **a. `inbox/`** — cross-agent signals (INTEGRATE / LOG / DISCARD); log a one-line KB.tsv entry per integrated signal; `git mv` to `inbox/processed/`.
