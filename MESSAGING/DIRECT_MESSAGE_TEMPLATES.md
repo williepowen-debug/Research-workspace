@@ -8,7 +8,7 @@ These templates are proposed and are not live until ratified.
 ---
 schema: direct-message/v1
 message_id: MSG-SENDER-YYYYMMDD-NNN
-created_at: YYYY-MM-DDTHH:MM:SS-04:00
+created_at: "YYYY-MM-DDTHH:MM:SS-04:00"
 from: SENDER
 subject: Short decision-oriented subject
 supersedes: null
@@ -53,7 +53,7 @@ State what the recipient must produce, decide, update, or explicitly leave uncha
 ---
 schema: direct-message/v1
 message_id: MSG-SENDER-YYYYMMDD-NNN
-created_at: YYYY-MM-DDTHH:MM:SS-04:00
+created_at: "YYYY-MM-DDTHH:MM:SS-04:00"
 from: SENDER
 subject: Short informational subject
 supersedes: null
@@ -126,4 +126,3 @@ related:
 ```
 
 The body must say exactly which prior obligations are replaced.
-
