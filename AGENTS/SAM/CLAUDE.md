@@ -259,3 +259,23 @@ Reference levels only. **Current values live in `STATUS.md`** (avoid same-data-i
 | `workbook/GPIF_FLOWS.tsv` | GPIF (Government Pension Investment Fund) release tracker — `scripts/gpif_flows.py`. Idempotent by report URL; GPIF is quarterly-laggy by construction (interim update PDFs ~5wk after quarter-end, annual summary + portfolio-holdings Excel ~Jul 1-3). Captures asset size, period return, 4-way asset-class allocation %, and (annual report only) net rebalancing flow by asset class — the closest GPIF publishes to a "flow" number. Portfolio-holdings Excel link is logged, not parsed (security-level detail, out of scope). Built 2026-07-09. |
 | `inbox/` | Inbound signals from other agents. Process when spawned for it. |
 | `outbox/` | Outbound signals for other agents. One file per signal. (See ⚠️ messaging-overhaul note in SPAWN PROTOCOL > MAIL.) |
+
+---
+
+## DIRECT MESSAGING V1 — FIRST COHORT (WILL-APPROVED 2026-07-14)
+
+This is a narrow exception to the legacy **“do not process inbox on normal spawns”** rule. At normal boot, process **top-level `inbox/MSG-*.md`** Direct Messaging v1 files addressed to **SAM**. Do not generalize this exception to other inbox traffic.
+
+1. From the repository root, validate the message:
+   ```bash
+   python3 MESSAGING/tools/validate.py --repo-root . AGENTS/SAM/inbox/MSG-*.md
+   ```
+2. Read each validated message and its independently identified obligations.
+3. Record a recipient-owned disposition with `MESSAGING/tools/msg.py receipt`: `ACCEPTED`, `DEFERRED`, `BLOCKED`, or `REJECTED`. ACTION requires a disposition; do not use silence as acknowledgment.
+4. Execute accepted work under normal domain and source-verification rules.
+5. Close each obligation separately with `INTEGRATED` plus exact target/effect, or `NO_CHANGE` plus the checked target and rationale. `COMPLETED` alone is not integration evidence.
+6. After every obligation in the message is terminal, `git mv` the message to `inbox/processed/`. Commit the message move, receipt, and any domain changes with the normal path-scoped agent commit.
+7. If PyYAML is unavailable, do not hand-edit structured state blindly. Install from `MESSAGING/requirements.txt` if safe; otherwise leave the readable message in place and report the dependency blocker to Will/PROME.
+
+**Ownership:** SAM owns only SAM's receipt and domain artifacts. PROME owns the delivered request. Generated messaging views are non-canonical. **WALTER signals remain under the existing WALTER intake and board-log protocol; never convert or double-receipt them through this lane.**
+
