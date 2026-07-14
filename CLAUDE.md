@@ -106,7 +106,7 @@ Closeout discipline, fleet-wide (ratified 2026-06-26 after a 5-agent architectur
 
 - **Ledger staleness — STATUS is canonical truth.** TSV workbook ledgers (KB/VX/FLOW/etc.) **and agent-level position / `TRADE.md` surfaces** (e.g. `FORGE/STATUS.md`) silently drift behind STATUS — a *universal* fleet failure mode. Keep each ledger in one of two states, never the silent-rot middle: **(a) FROZEN** — dead ledger, prepend a banner `FROZEN <date> — not maintained; STATUS is canonical, do not cite rows as current`, and stop maintaining it; or **(b) LIVE with a boot-time mtime staleness alert** (surface "X.tsv stale Nd" at boot, not at closeout).
 - **Research/sources retirement (closeout step):** a file that is *>60 days old AND not boot-read AND not referenced by a live doc* → `git mv` to `archive/`. Prevents research-graveyard accumulation.
-- **Out of scope (do not build):** outbox-kill / new cross-agent send protocols / inbox boot-auto-triage. File-based messaging is slated for replacement (auto-memory `messaging_overhaul`) — interim is only "stop writing dead outbox files"; route messaging redesign to that effort.
+- **Direct Messaging v1 first cohort (Will-approved 2026-07-14):** the ratified messaging overhaul lives under `MESSAGING/`. Live coded routes are narrowly allowlisted to **PROME → BRENT** and **PROME → SAM**; those two recipients process top-level `inbox/MSG-*.md` at normal boot under their local v1 instructions. All other direct routes, general inbox boot-auto-triage, outbox-kill, and ad hoc replacement protocols remain out of scope. **WALTER is unchanged** and continues under its own BOARD/inbox specification.
 
 ## Tools
 
