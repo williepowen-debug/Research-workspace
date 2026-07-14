@@ -1,7 +1,7 @@
 # Direct Agent Messaging v1 Specification
 
-**Status:** IMPLEMENTATION-READY PROPOSAL — NOT YET LIVE  
-**Version:** 1.0-rc1  
+**Status:** DEFAULTS RATIFIED FOR IMPLEMENTATION — NOT YET LIVE  
+**Version:** 1.0-rc2  
 **Prepared:** 2026-07-13  
 **Owner proposed:** PROME for operations; Will for ratification; WALTER retains exclusive ownership of WALTER routing semantics.
 
@@ -300,9 +300,9 @@ Diagnostics report; they do not rewrite research or reassign work automatically.
 
 Ephemeral `SendMessage` coordination is not independently durable. Any decision, assignment, or result that must survive the session must still be written to a repository artifact. V1 may later provide a helper to convert a live team instruction into a direct message.
 
-## 16. Ratification decisions
+## 16. Ratified implementation defaults
 
-Recommended defaults are shown below.
+Will approved the following defaults on 2026-07-13. They authorize implementation and testing on the design branch, not live activation.
 
 | Decision | Recommended v1 choice |
 |---|---|
@@ -334,4 +334,3 @@ V1 is ready to activate when:
 7. Duplicate processing is idempotent.
 8. Rollback can stop v1 generation while leaving existing inboxes and WALTER intact.
 9. Root and agent instructions are reconciled in the same activation change.
-
