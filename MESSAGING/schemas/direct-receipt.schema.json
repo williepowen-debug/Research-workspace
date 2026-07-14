@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "direct-receipt/v1",
+  "title": "Direct Agent Receipt v1 front matter",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema", "message_id", "recipient", "obligations"],
+  "properties": {
+    "schema": {"const": "direct-receipt/v1"},
+    "message_id": {"type": "string", "pattern": "^MSG-[A-Z][A-Z0-9_-]*-[0-9]{8}-[0-9]{3}$"},
+    "recipient": {"type": "string", "pattern": "^[A-Z][A-Z0-9_-]*$"},
+    "obligations": {
+      "type": "array",
+      "minItems": 1,
+      "items": {"type": "string"},
+      "uniqueItems": true
+    }
+  }
+}
