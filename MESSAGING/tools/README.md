@@ -1,6 +1,6 @@
 # Direct Messaging v1 Tools
 
-The validator is read-only. The authoring CLI is feature-gated: repository `MESSAGING/config.yaml` is committed with `write_mode: disabled`, and this implementation recognizes only temporary-repository `write_mode: test`. There is no live-write mode in this slice.
+The validator is read-only. The authoring CLI is feature-gated by `MESSAGING/config.yaml`. The first activation uses `write_mode: cohort`: only `PROME -> BRENT` and `PROME -> SAM` are allowed. Temporary repositories may use `write_mode: test`. All other live routes fail closed.
 
 ## Dependency
 
@@ -41,13 +41,15 @@ python3 MESSAGING/tools/msg.py compose \
   --expected-target AGENTS/BRENT/STATUS.md
 ```
 
-`--write` is deliberately rejected in the real repository while `write_mode: disabled`.
+`--write` succeeds only for routes explicitly named in the cohort allowlist. WALTER and all other agents remain outside the live scope.
 
 ## Receipt engine
 
-The receipt command is available only in a temporary test repository configured with `write_mode: test`. It initializes the recipient-owned receipt if needed, appends one lifecycle event, validates the complete candidate, and atomically replaces the receipt only when valid.
+The receipt command initializes the recipient-owned receipt if needed, appends one lifecycle event, validates the complete candidate, and atomically replaces the receipt only when valid. In cohort mode, it accepts receipts only for messages whose sender and recipient match the allowlist.
 
-The implementation does not yet expose live receipt writes.
+## Multi-obligation composition
+
+`compose-file --spec draft.yaml` accepts a human-readable YAML draft containing multiple obligations. It allocates one message ID, generates recipient-specific obligation IDs, and delivers an identical copy to each addressed inbox. Every route must pass the cohort allowlist. A partial batch write is rolled back.
 
 ## Run tests
 
