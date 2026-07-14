@@ -1,7 +1,7 @@
 ---
 schema: direct-message/v1
 message_id: MSG-PROME-20260713-001
-created_at: 2026-07-13T14:00:00-04:00
+created_at: "2026-07-13T14:00:00-04:00"
 from: PROME
 subject: Grade the KOC platform hit
 supersedes: null
