@@ -8,7 +8,7 @@ import sys
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "tools"))
 
-from msg import MessagingError, allocation_lock, compose, receipt_lock, record_receipt  # noqa: E402
+from msg import MessagingError, allocation_lock, compose, compose_file, receipt_lock, record_receipt  # noqa: E402
 from validate import load_agents, validate  # noqa: E402
 
 
@@ -63,6 +63,16 @@ class MessagingCliTests(unittest.TestCase):
         (root / "AGENTS/BRENT/inbox").mkdir(parents=True)
         (root / "AGENTS/SAM/inbox").mkdir(parents=True)
 
+    def set_cohort(self, root: Path) -> None:
+        (root / "MESSAGING/config.yaml").write_text(
+            "schema: direct-messaging-config/v1\n"
+            "write_mode: cohort\n"
+            "allowed_senders: [PROME]\n"
+            "allowed_recipients: [BRENT, SAM]\n"
+            'reason: "fixture cohort"\n',
+            encoding="utf-8",
+        )
+
     def test_preview_has_no_side_effects(self):
         with tempfile.TemporaryDirectory() as tmp:
             repo = Path(tmp)
@@ -78,6 +88,68 @@ class MessagingCliTests(unittest.TestCase):
             self.make_repo(repo, mode="disabled")
             with self.assertRaises(MessagingError):
                 compose(compose_args(repo, write=True))
+
+    def test_live_cohort_allows_prome_to_brent(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            repo = Path(tmp)
+            self.make_repo(repo)
+            self.set_cohort(repo)
+            _, destination = compose(compose_args(repo, write=True))
+            self.assertTrue(destination.exists())
+
+    def test_live_cohort_rejects_non_allowlisted_recipient(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            repo = Path(tmp)
+            self.make_repo(repo)
+            self.set_cohort(repo)
+            args = compose_args(repo, write=True)
+            args.recipient = "NEXUS"
+            (repo / "AGENTS/NEXUS/inbox").mkdir(parents=True)
+            (repo / "PROME/ROSTER.md").write_text(
+                (repo / "PROME/ROSTER.md").read_text() + "| NEXUS | Synthesis |\n", encoding="utf-8"
+            )
+            with self.assertRaises(MessagingError):
+                compose(args)
+
+    def test_multi_obligation_file_fans_out_with_one_identity(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            repo = Path(tmp)
+            self.make_repo(repo)
+            self.set_cohort(repo)
+            spec = repo / "draft.yaml"
+            spec.write_text(
+                "sender: PROME\n"
+                'created_at: "2026-07-14T14:00:00+00:00"\n'
+                'subject: "Two-agent activation packet"\n'
+                "body: Cohort test.\n"
+                "obligations:\n"
+                "  - to: BRENT\n"
+                "    role: ACTION\n"
+                "    urgency: NEXT_BOOT\n"
+                "    requested_action: Re-score the matrix.\n"
+                "    definition_of_done: Matrix is current.\n"
+                "    expected_targets: [AGENTS/BRENT/STATUS.md]\n"
+                "  - to: BRENT\n"
+                "    role: INFO\n"
+                "    urgency: ROUTINE\n"
+                "  - to: SAM\n"
+                "    role: ACTION\n"
+                "    urgency: NEXT_BOOT\n"
+                "    requested_action: Re-pencil the buckets.\n"
+                "    definition_of_done: Buckets are current.\n"
+                "    expected_targets: [AGENTS/SAM/STATUS.md]\n",
+                encoding="utf-8",
+            )
+            text, destinations = compose_file(argparse.Namespace(repo_root=repo, spec=spec, write=True))
+            self.assertEqual(len(destinations), 2)
+            self.assertTrue(all(path.exists() for path in destinations))
+            self.assertEqual(text.count("message_id: MSG-PROME-20260714-001"), 1)
+            self.assertIn("#BRENT-02", text)
+            self.assertIn("#SAM-01", text)
+            report = validate(destinations, load_agents(repo, None))
+            self.assertEqual(report.errors, 0, report.findings)
+            self.assertEqual(len(report.messages), 1)
+            self.assertEqual(len(report.obligations), 3)
 
     def test_allocator_contention_fails_closed(self):
         with tempfile.TemporaryDirectory() as tmp:
