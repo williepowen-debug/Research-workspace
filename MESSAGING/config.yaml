@@ -1,0 +1,3 @@
+schema: direct-messaging-config/v1
+write_mode: disabled
+reason: "Design-branch implementation only. Live inbox and receipt writes require a reviewed activation change."
