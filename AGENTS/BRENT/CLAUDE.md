@@ -162,3 +162,23 @@ If a cross-agent threshold breaches during your work, append to `AGENTS/SIGNALS.
 | VLCC rate | >WS200 | Tanker super-cycle territory |
 | HY energy OAS | >400bps | Energy credit stress emerging |
 | US rig count | +50 from trough | Shale response kicking in (bearish medium-term) |
+
+---
+
+## DIRECT MESSAGING V1 — FIRST COHORT (WILL-APPROVED 2026-07-14)
+
+This is a narrow exception to the legacy **“do not process inbox on normal spawns”** rule. At normal boot, process **top-level `inbox/MSG-*.md`** Direct Messaging v1 files addressed to **BRENT**. Do not generalize this exception to other inbox traffic.
+
+1. From the repository root, validate the message:
+   ```bash
+   python3 MESSAGING/tools/validate.py --repo-root . AGENTS/BRENT/inbox/MSG-*.md
+   ```
+2. Read each validated message and its independently identified obligations.
+3. Record a recipient-owned disposition with `MESSAGING/tools/msg.py receipt`: `ACCEPTED`, `DEFERRED`, `BLOCKED`, or `REJECTED`. ACTION requires a disposition; do not use silence as acknowledgment.
+4. Execute accepted work under normal domain and source-verification rules.
+5. Close each obligation separately with `INTEGRATED` plus exact target/effect, or `NO_CHANGE` plus the checked target and rationale. `COMPLETED` alone is not integration evidence.
+6. After every obligation in the message is terminal, `git mv` the message to `inbox/processed/`. Commit the message move, receipt, and any domain changes with the normal path-scoped agent commit.
+7. If PyYAML is unavailable, do not hand-edit structured state blindly. Install from `MESSAGING/requirements.txt` if safe; otherwise leave the readable message in place and report the dependency blocker to Will/PROME.
+
+**Ownership:** BRENT owns only BRENT's receipt and domain artifacts. PROME owns the delivered request. Generated messaging views are non-canonical. **WALTER signals remain under the existing WALTER intake and board-log protocol; never convert or double-receipt them through this lane.**
+
