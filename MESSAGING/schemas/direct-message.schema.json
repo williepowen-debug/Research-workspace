@@ -1,0 +1,40 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "direct-message/v1",
+  "title": "Direct Agent Message v1 front matter",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema", "message_id", "created_at", "from", "subject", "supersedes", "related", "obligations"],
+  "properties": {
+    "schema": {"const": "direct-message/v1"},
+    "message_id": {"type": "string", "pattern": "^MSG-[A-Z][A-Z0-9_-]*-[0-9]{8}-[0-9]{3}$"},
+    "created_at": {"type": "string", "format": "date-time"},
+    "from": {"type": "string", "pattern": "^[A-Z][A-Z0-9_-]*$"},
+    "subject": {"type": "string", "minLength": 1, "maxLength": 160},
+    "supersedes": {"type": ["string", "null"]},
+    "related": {"type": "array", "items": {"type": "string"}, "uniqueItems": true},
+    "obligations": {
+      "type": "array",
+      "minItems": 1,
+      "items": {"$ref": "#/$defs/obligation"}
+    }
+  },
+  "$defs": {
+    "obligation": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["obligation_id", "to", "role", "urgency", "requested_action", "definition_of_done", "due", "receipt_required", "expected_targets"],
+      "properties": {
+        "obligation_id": {"type": "string"},
+        "to": {"type": "string", "pattern": "^[A-Z][A-Z0-9_-]*$"},
+        "role": {"enum": ["ACTION", "INFO"]},
+        "urgency": {"enum": ["URGENT", "NEXT_BOOT", "SCHEDULED", "ROUTINE"]},
+        "requested_action": {"type": ["string", "null"]},
+        "definition_of_done": {"type": ["string", "null"]},
+        "due": {"type": ["string", "null"]},
+        "receipt_required": {"type": "boolean"},
+        "expected_targets": {"type": "array", "items": {"type": "string"}, "uniqueItems": true}
+      }
+    }
+  }
+}
