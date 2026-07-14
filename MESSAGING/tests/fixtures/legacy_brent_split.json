@@ -1,0 +1,9 @@
+{
+  "source_items": [1, 2, 3, 4, 5],
+  "normalized_obligations": [
+    {"obligation": 1, "source_items": [1, 5], "role": "ACTION"},
+    {"obligation": 2, "source_items": [2], "role": "ACTION"},
+    {"obligation": 3, "source_items": [3], "role": "INFO"},
+    {"obligation": 4, "source_items": [4], "role": "INFO"}
+  ]
+}
