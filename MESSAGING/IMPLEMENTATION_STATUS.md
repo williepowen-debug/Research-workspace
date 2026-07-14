@@ -2,7 +2,7 @@
 
 **As of:** 2026-07-14  
 **Branch:** `codex/messaging-design-rationale`  
-**Activation:** LOCKED
+**Activation:** FIRST COHORT — PROME → BRENT / SAM ONLY
 
 ## Completed on the design branch
 
@@ -19,16 +19,17 @@
 - Idempotent duplicate delivery/event handling.
 - Lifecycle, evidence, ownership, path, and provenance validation.
 - End-to-end temporary-repository tests.
+- Multi-obligation, multi-recipient composition with atomic fanout.
+- Recipient-scoped live allowlist for PROME → BRENT and PROME → SAM.
 
 ## Safety boundary
 
-The committed `MESSAGING/config.yaml` uses `write_mode: disabled`. The CLI implementation accepts writes only when a temporary test repository explicitly sets `write_mode: test`. It has no live-write mode.
+The committed `MESSAGING/config.yaml` uses `write_mode: cohort`. It permits only PROME → BRENT and PROME → SAM. All other senders and recipients fail closed. Temporary repositories may use `write_mode: test`.
 
 The tooling does not commit, push, alter agent instructions, reassign work, escalate automatically, or write to WALTER-owned files.
 
 ## Known pre-activation limitations
 
-- Composer currently creates one recipient obligation per invocation. Multi-obligation authoring remains to be added before broad activation.
 - PROME and WILL incoming destination rules remain intentionally unresolved; the CLI refuses to guess them.
 - Legacy direct and WALTER adapters are not yet implemented.
 - Generated open-work and health views are not yet implemented.
@@ -38,10 +39,8 @@ The tooling does not commit, push, alter agent instructions, reassign work, esca
 
 Before live activation:
 
-1. Add multi-obligation and multi-recipient composition while preserving recipient-specific state.
+1. Observe the two first-cohort messages through recipient disposition and closeout.
 2. Resolve PROME's incoming-message destination contract.
 3. Build read-only legacy/WALTER adapters.
 4. Build generated open-work and health views.
-5. Run a full dry run against a disposable copy of repository structure.
-6. Reconcile canonical root and agent instructions in one reviewed activation change.
-
+5. Review the cohort before expanding the allowlist.
