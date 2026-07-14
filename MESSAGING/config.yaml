@@ -1,3 +1,8 @@
 schema: direct-messaging-config/v1
-write_mode: disabled
-reason: "Design-branch implementation only. Live inbox and receipt writes require a reviewed activation change."
+write_mode: cohort
+allowed_senders:
+  - PROME
+allowed_recipients:
+  - BRENT
+  - SAM
+reason: "First activation cohort approved by Will on 2026-07-14. WALTER and all other agents remain outside live scope."
