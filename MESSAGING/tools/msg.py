@@ -61,12 +61,19 @@ def load_config(repo_root: Path) -> dict[str, Any]:
     return data
 
 
-def require_test_write(repo_root: Path) -> None:
+def require_write(repo_root: Path, sender: str, recipient: str) -> None:
     config = load_config(repo_root)
     mode = config.get("write_mode")
-    if mode != "test":
-        reason = config.get("reason", "live activation has not been approved")
-        raise MessagingError(f"writes are locked (write_mode={mode!r}): {reason}")
+    if mode == "test":
+        return
+    if mode == "cohort":
+        allowed_senders = set(config.get("allowed_senders") or [])
+        allowed_recipients = set(config.get("allowed_recipients") or [])
+        if sender in allowed_senders and recipient in allowed_recipients:
+            return
+        raise MessagingError(f"live cohort does not allow {sender} -> {recipient}")
+    reason = config.get("reason", "live activation has not been approved")
+    raise MessagingError(f"writes are locked (write_mode={mode!r}): {reason}")
 
 
 def slugify(value: str) -> str:
@@ -163,11 +170,10 @@ def build_message_data(args: argparse.Namespace, message_id: str, created: dt.da
 
 
 def render_message(data: dict[str, Any], body: str | None) -> str:
-    role = data["obligations"][0]["role"]
     sections = [f"# {data['subject']}"]
     if body:
         sections.extend(["", body.strip()])
-    if role == "ACTION":
+    if len(data["obligations"]) == 1 and data["obligations"][0]["role"] == "ACTION":
         obligation = data["obligations"][0]
         sections.extend(
             [
@@ -181,8 +187,23 @@ def render_message(data: dict[str, Any], body: str | None) -> str:
                 obligation["definition_of_done"],
             ]
         )
-    else:
+    elif len(data["obligations"]) == 1:
         sections.extend(["", "**No action is requested.**"])
+    else:
+        sections.extend(["", "## Recipient obligations"])
+        for obligation in data["obligations"]:
+            sections.extend(["", f"### {obligation['obligation_id']} — {obligation['role']}"])
+            if obligation["role"] == "ACTION":
+                sections.extend(
+                    [
+                        "",
+                        f"**Requested action:** {obligation['requested_action']}",
+                        "",
+                        f"**Definition of done:** {obligation['definition_of_done']}",
+                    ]
+                )
+            else:
+                sections.extend(["", "**No action is requested from this recipient.**"])
     front = yaml.safe_dump(data, sort_keys=False, allow_unicode=True).strip()
     return f"---\n{front}\n---\n\n" + "\n".join(sections).rstrip() + "\n"
 
@@ -216,7 +237,7 @@ def compose(args: argparse.Namespace) -> tuple[str, Path]:
 
     if not args.write:
         return generate()
-    require_test_write(repo_root)
+    require_write(repo_root, args.sender, args.recipient)
     with allocation_lock(repo_root, args.sender, date_key):
         text, destination = generate()
         destination.parent.mkdir(parents=True, exist_ok=True)
@@ -226,6 +247,104 @@ def compose(args: argparse.Namespace) -> tuple[str, Path]:
         except FileExistsError as exc:
             raise MessagingError(f"destination already exists: {destination}") from exc
         return text, destination
+
+
+def build_batch_data(draft: dict[str, Any], message_id: str, created: dt.datetime) -> dict[str, Any]:
+    raw_obligations = draft.get("obligations")
+    if not isinstance(raw_obligations, list) or not raw_obligations:
+        raise MessagingError("compose-file obligations must be a non-empty list")
+    counters: dict[str, int] = {}
+    obligations: list[dict[str, Any]] = []
+    for raw in raw_obligations:
+        if not isinstance(raw, dict):
+            raise MessagingError("each compose-file obligation must be a mapping")
+        recipient = str(raw.get("to", "")).upper()
+        counters[recipient] = counters.get(recipient, 0) + 1
+        role = str(raw.get("role", "")).upper()
+        urgency = str(raw.get("urgency", "")).upper()
+        due = raw.get("due")
+        if urgency == "NEXT_BOOT" and due is None:
+            due = "next_boot"
+        obligations.append(
+            {
+                "obligation_id": f"{message_id}#{recipient}-{counters[recipient]:02d}",
+                "to": recipient,
+                "role": role,
+                "urgency": urgency,
+                "requested_action": raw.get("requested_action") if role == "ACTION" else None,
+                "definition_of_done": raw.get("definition_of_done") if role == "ACTION" else None,
+                "due": due,
+                "receipt_required": True if role == "ACTION" else bool(raw.get("receipt_required", False)),
+                "expected_targets": raw.get("expected_targets") or [],
+            }
+        )
+    return {
+        "schema": "direct-message/v1",
+        "message_id": message_id,
+        "created_at": format_timestamp(created),
+        "from": str(draft.get("sender", "")).upper(),
+        "subject": draft.get("subject"),
+        "supersedes": draft.get("supersedes"),
+        "related": draft.get("related") or [],
+        "obligations": obligations,
+    }
+
+
+def batch_destinations(repo_root: Path, data: dict[str, Any]) -> list[Path]:
+    recipients = sorted({item["to"] for item in data["obligations"]})
+    paths: list[Path] = []
+    for recipient in recipients:
+        roles = {item["role"] for item in data["obligations"] if item["to"] == recipient}
+        filename_role = next(iter(roles)) if len(roles) == 1 else "MIXED"
+        paths.append(destination_for(repo_root, recipient, data["message_id"], filename_role, data["subject"]))
+    return paths
+
+
+def write_batch(paths: list[Path], text: str) -> None:
+    existing = [path for path in paths if path.exists()]
+    if existing:
+        raise MessagingError(f"batch destination already exists: {existing[0]}")
+    created: list[Path] = []
+    try:
+        for path in paths:
+            path.parent.mkdir(parents=True, exist_ok=True)
+            with path.open("x", encoding="utf-8") as handle:
+                handle.write(text)
+            created.append(path)
+    except Exception:
+        for path in created:
+            path.unlink(missing_ok=True)
+        raise
+
+
+def compose_file(args: argparse.Namespace) -> tuple[str, list[Path]]:
+    repo_root = args.repo_root.resolve()
+    draft = yaml.safe_load(args.spec.read_text(encoding="utf-8"))
+    if not isinstance(draft, dict):
+        raise MessagingError("compose-file spec must decode to a mapping")
+    sender = str(draft.get("sender", "")).upper()
+    created = parse_cli_timestamp(draft.get("created_at"), "created_at") or utc_now()
+    date_key = created.astimezone(dt.timezone.utc).strftime("%Y%m%d")
+    agents = load_agents(repo_root, None)
+    recipients = {str(item.get("to", "")).upper() for item in draft.get("obligations", []) if isinstance(item, dict)}
+    if sender not in agents or not recipients or not recipients.issubset(agents):
+        raise MessagingError("compose-file sender and recipients must exist in PROME/ROSTER.md")
+
+    def generate() -> tuple[str, list[Path]]:
+        sequence = next_sequence(repo_root, sender, date_key)
+        message_id = f"MSG-{sender}-{date_key}-{sequence:03d}"
+        data = build_batch_data(draft, message_id, created)
+        validate_message_data(data, agents)
+        return render_message(data, draft.get("body")), batch_destinations(repo_root, data)
+
+    if not args.write:
+        return generate()
+    for recipient in recipients:
+        require_write(repo_root, sender, recipient)
+    with allocation_lock(repo_root, sender, date_key):
+        text, destinations = generate()
+        write_batch(destinations, text)
+        return text, destinations
 
 
 def escape_table(value: str | None) -> str:
@@ -280,7 +399,6 @@ def validate_candidate(message_path: Path, receipt_path_value: Path, text: str, 
 
 def record_receipt(args: argparse.Namespace) -> tuple[str, Path, bool]:
     repo_root = args.repo_root.resolve()
-    require_test_write(repo_root)
     message_path = args.message.resolve()
     try:
         relative_message = message_path.relative_to(repo_root)
@@ -292,6 +410,7 @@ def record_receipt(args: argparse.Namespace) -> tuple[str, Path, bool]:
     data, _ = load_front_matter(message_path)
     if not data or data.get("schema") != "direct-message/v1":
         raise MessagingError("--message must be a Direct Messaging v1 file")
+    require_write(repo_root, data.get("from", ""), args.recipient)
     matching = [item for item in data["obligations"] if item.get("to") == args.recipient]
     if not matching:
         raise MessagingError(f"{args.recipient} owns no obligation in {data['message_id']}")
@@ -347,7 +466,12 @@ def parser() -> argparse.ArgumentParser:
     compose_parser.add_argument("--created-at")
     compose_parser.add_argument("--body")
     compose_parser.add_argument("--body-file", type=Path)
-    compose_parser.add_argument("--write", action="store_true", help="Allowed only in write_mode: test")
+    compose_parser.add_argument("--write", action="store_true", help="Requires test mode or an allowed live-cohort route")
+
+    file_parser = commands.add_parser("compose-file", help="Preview or write a multi-obligation YAML draft")
+    add_common_repo(file_parser)
+    file_parser.add_argument("--spec", required=True, type=Path)
+    file_parser.add_argument("--write", action="store_true", help="Requires test mode or allowed routes for every recipient")
 
     receipt_parser = commands.add_parser("receipt", help="Append one recipient-owned event in test mode")
     add_common_repo(receipt_parser)
@@ -371,6 +495,12 @@ def main(argv: list[str] | None = None) -> int:
             text, destination = compose(args)
             print(f"destination: {destination}")
             print("mode: TEST-WRITE" if args.write else "mode: PREVIEW")
+            print(text)
+        elif args.command == "compose-file":
+            text, destinations = compose_file(args)
+            for destination in destinations:
+                print(f"destination: {destination}")
+            print("mode: COHORT/TEST-WRITE" if args.write else "mode: PREVIEW")
             print(text)
         elif args.command == "receipt":
             _, target, changed = record_receipt(args)
