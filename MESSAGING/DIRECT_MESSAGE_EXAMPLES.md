@@ -7,7 +7,7 @@ These examples normalize patterns observed in committed PROME packets. They are 
 ```yaml
 schema: direct-message/v1
 message_id: MSG-PROME-20260711-001
-created_at: 2026-07-11T12:00:00-04:00
+created_at: "2026-07-11T12:00:00-04:00"
 from: PROME
 subject: Refresh Packet-A correlation inputs before the July 14 print
 supersedes: null
@@ -21,7 +21,7 @@ obligations:
     urgency: SCHEDULED
     requested_action: "Reconcile the HYG/Brent non-correlation datum and corrected MOVE reversal in Packet A."
     definition_of_done: "Packet A reflects the current correlation evidence or records a sourced NO_CHANGE decision."
-    due: 2026-07-14T09:00:00-04:00
+    due: "2026-07-14T09:00:00-04:00"
     receipt_required: true
     expected_targets:
       - AGENTS/NEXUS/STATUS.md
@@ -34,7 +34,7 @@ Why this helps: the original packet mixed a useful datum with a stale-read corre
 ```yaml
 schema: direct-message/v1
 message_id: MSG-PROME-20260711-002
-created_at: 2026-07-11T12:10:00-04:00
+created_at: "2026-07-11T12:10:00-04:00"
 from: PROME
 subject: Decide the proposed SAM/VIOLET yen-vol seam
 supersedes: null
@@ -47,7 +47,7 @@ obligations:
     urgency: SCHEDULED
     requested_action: "Accept the proposed seam and record it, or send PROME a counter-proposal. No analytical work is required before the condition is reviewed."
     definition_of_done: "SAM records acceptance in its seam authority surface or returns a specific counter-proposal to PROME."
-    due: 2026-07-16T09:00:00-04:00
+    due: "2026-07-16T09:00:00-04:00"
     receipt_required: true
     expected_targets:
       - AGENTS/SAM/STATUS.md
@@ -118,7 +118,7 @@ VIOLET may write directly to SAM:
 ```yaml
 schema: direct-message/v1
 message_id: MSG-VIOLET-20260713-001
-created_at: 2026-07-13T14:30:00-04:00
+created_at: "2026-07-13T14:30:00-04:00"
 from: VIOLET
 subject: Yen-vol transmission gauge selected
 supersedes: null
@@ -149,4 +149,3 @@ evidence_tier = POINTED
 ```
 
 This prevents the system from rewarding unnecessary file edits merely to prove activity.
-
