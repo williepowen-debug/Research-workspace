@@ -12,9 +12,12 @@ This package translates the one-week compatibility baseline into a concrete dire
 - `DIRECT_MESSAGE_TEMPLATES.md` — copyable ACTION, INFO, and receipt templates.
 - `DIRECT_MESSAGE_EXAMPLES.md` — realistic PROME/NEXUS, PROME/SAM, and PROME/BRENT examples.
 - `IMPLEMENTATION_PLAN.md` — build order, acceptance tests, rollout, and rollback.
+- `IMPLEMENTATION_STATUS.md` — completed code, locked safety boundary, and remaining activation gates.
 - `RATIFICATION.md` — Will's approved defaults and the remaining activation gate.
 - `schemas/` — machine-readable v1 front-matter contracts.
 - `tools/validate.py` — read-only validator; sending remains inactive.
+- `tools/msg.py` — preview and temporary-repository authoring/receipt engine; live writes are feature-locked.
+- `config.yaml` — committed activation gate (`write_mode: disabled`).
 - `tests/` — validator and compatibility fixtures.
 
 ## Supersession note
