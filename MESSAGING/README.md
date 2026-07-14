@@ -1,6 +1,6 @@
 # Direct Agent Messaging v1 — Design Package
 
-**Status:** IMPLEMENTATION-READY PROPOSAL — NOT YET LIVE  
+**Status:** DEFAULTS RATIFIED FOR IMPLEMENTATION — NOT YET LIVE  
 **Prepared:** 2026-07-13  
 **Scope:** Direct agent-to-agent inbox traffic. WALTER's external-signal lane remains native.
 
@@ -12,6 +12,10 @@ This package translates the one-week compatibility baseline into a concrete dire
 - `DIRECT_MESSAGE_TEMPLATES.md` — copyable ACTION, INFO, and receipt templates.
 - `DIRECT_MESSAGE_EXAMPLES.md` — realistic PROME/NEXUS, PROME/SAM, and PROME/BRENT examples.
 - `IMPLEMENTATION_PLAN.md` — build order, acceptance tests, rollout, and rollback.
+- `RATIFICATION.md` — Will's approved defaults and the remaining activation gate.
+- `schemas/` — machine-readable v1 front-matter contracts.
+- `tools/validate.py` — read-only validator; sending remains inactive.
+- `tests/` — validator and compatibility fixtures.
 
 ## Supersession note
 
@@ -23,5 +27,4 @@ This package translates the one-week compatibility baseline into a concrete dire
 
 ## Ratification boundary
 
-Before implementation changes live behavior, Will should ratify the decisions listed in `DIRECT_MESSAGING_V1_SPEC.md` §16. Ratification should then be recorded in the repository's canonical decision surface and reconciled with root instructions.
-
+Will ratified the recommended defaults in `DIRECT_MESSAGING_V1_SPEC.md` §16 on 2026-07-13. See `RATIFICATION.md`. Live activation still requires root-rule reconciliation and a passing implementation acceptance review.
