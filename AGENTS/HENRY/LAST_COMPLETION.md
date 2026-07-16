@@ -29,9 +29,9 @@
 5. Hygiene: firetime_check "dead pointers" verified as FALSE POSITIVES (all exist).
 
 ## GAPS / Still pending
-- **Exact gamma flip is PAYWALLED** — delivered only a ~7,530-7,545 estimate. **VIOLET's F2 gate depends on the precise number** — needs a Will decision: pay for SpotGamma or accept the free-tracker estimate.
-- 0DTE SPX share still unsourced (standing gap).
-- DEWEY PROMPT-12 overdue (was 7/10).
+- **Gamma flip — RESOLVED (Will 7/16): accept the free-tracker estimate + error bar, NO subscription.** On decision days near the band, refine from Will's broker SPX option-OI screenshot (on-demand upgrade). Current read [free/GS 7/14]: flip ~7,530-7,545, **negative-gamma regime, put wall 7,500 / call wall 7,600.**
+- **Buyback-blackout estimate VERIFIED vs desk data** (was a standing TODO): GS desk 7/14 = ~97% of S&P in blackout, 10b5-1 ~80% of order count. Estimate-grade claim now desk-confirmed.
+- 0DTE SPX share still unsourced (standing gap). DEWEY PROMPT-12 overdue (was 7/10).
 
 ## COMMITS
 - `9d206424` — HENRY 7/16 post-CPI grade (8 files; STATUS/PREDICTIONS/NEXUS/MEMORY + memo + 3 packet moves). **Not pushed** — PROME owns the closeout push-train.
@@ -47,4 +47,9 @@
 Calm surface, coiling spring — but the rates fuse is now CONFIRMED-armed and it survived a deflationary print. The term-premium/real-rate channel holds the 10Y ≥4.50 independent of the data; breakevens are ignoring both the deflation and the $86 Hormuz oil. Cyclical axis disinflating (core 2.6%, supercore 3.1%), positioning-cascade dead (HEN-35 MISS) but the AI-capex mechanism live (HEN-36, GOOGL 7/22 first tell), structural credit still bifurcating (CCC−BB 812, 3mo +74). SPX straddling a migrated-up gamma flip = thin cushion into the earnings cluster.
 
 ## WILL_NEEDS
-- **One decision:** exact gamma-flip source (paywalled SpotGamma vs free-tracker estimate) — this is VIOLET's F2 dependency, currently the only open blocker.
+- **None open.** The one decision (gamma-flip source) was resolved by Will 7/16 (accept the free-tracker estimate + error bar; refine from broker SPX-OI on decision days). Recorded in STATUS + GAPS above.
+
+## 7/16 NEWS SWEEP (Will-directed, folded into surfaces)
+- **June PPI FELL −0.28% MoM headline / core +0.20%** [FRED PPIFIS/PPIFES] — same energy-washout shape as CPI, corroborates HEN-40.
+- **Fed pre-blackout:** Waller [7/13] oil-passthrough "diminished" (→ HEN-41 DENY lean); Warsh [7/14] "not mission accomplished" hawkish-hold. **FOMC hold 79.5%**, Sept-hike 44%.
+- **HEN-36 (pre-GOOGL 7/22):** GOOGL Q1 FCF −47% YoY funded via $84.75B equity + ~$40B debt = FCF-cliff confirming; MSFT $25B memory-pricing in capex (Amy Hood, confirms VULCAN); aggregate capex $725B (+77%). Equity de-rate leg still un-armed.
