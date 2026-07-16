@@ -193,7 +193,7 @@ The April STATUS was built around a late-Feb/March Gulf shooting war (Hormuz clo
 2. **May TIC ~Jul 16–18** — does China break $650B (ZHA-04) + aggregate-direction test for ZHA-11 (30Y China-leg). **BoK Jul 16** — hike?
 3. Still stale (boot.py-flagged): **HK Agg Bal 37d** (pull fresh HKMA AB), **Guizhou/Zhengzhou NPL** (bank-specific), **Korea official UST $103B** (Apr TIC), **CNH-CNY spread**.
 4. **Boot automation LIVE:** `scripts/boot.py` — run at boot via `.venv/bin/python` for live FX/Brent + band check, staleness flags, TIC-release watch, catalyst docket, open predictions. (Fixes the 2.5mo-drift failure mode.)
-5. **DAEDALUS D2/D3/D5/D6 + D7/D8 CLAUDE.md cluster** (`inbox/processed/2026-07-07_from-DAEDALUS_scan-complete-upgrade-queue.md`) — D1 fixed this session; D2 (KEY THRESHOLDS drop Current col), D3 (Convergence Matrix note), D5 (boot.py invocation wrap), D6 (TRADE.md freeze reword), D7/D8 (OUTPUT RULES dedup to root canon) still open for next session.
+5. ~~DAEDALUS D2/D3/D5/D6 + D7/D8 CLAUDE.md cluster... still open for next session~~ — **CORRECTED 7/16 (domain-sweep lens 1, stale-claim class):** this line was never updated after the work actually happened. CLAUDE.md shows D1 (`domain/sources/` pointer), D2 (KEY THRESHOLDS Current col dropped), D3 (Convergence Matrix hardcode note), D4 (MAIL SYSTEM rewrite — wasn't even listed here but also done), D5 (boot.py invocation wrap, live in SPAWN PROTOCOL 1b), D6 (TRADE.md freeze reword), D7/D8 (OUTPUT RULES dedup to root canon) **all complete, each dated 2026-07-09 in-file.** Nothing left open in this cluster.
 6. **KB-ZHAO-089 is secondary-sourced** (TradingEconomics/aggregator, not SAFE primary) — verify against SAFE/PBOC primary before citing load-bearing.
 
 ## BOTTOM LINE
