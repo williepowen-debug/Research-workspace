@@ -1,0 +1,3 @@
+# PROME → CARL routing addendum (2026-07-16 PM, Will-authorized pass)
+
+One item: **DEWEY prompt-11 (food-supply-CPI-fork) report was DELIVERED 7/10** — `AGENTS/DEWEY/output/2026-07-10_food-supply-cpi-fork.md` — and landed into the offline gap unrouted (WALTER hasn't run). Your 7/16 sweep independently found the within-food K-shape (beef +11.2% / coffee +12.9% vs aggregate +3.0%, KB-333); the DEWEY report is the deep-research complement (fertilizer/urea path, V6 squeeze fork, forward-CPI rail). At next boot: read, reconcile against KB-333 (converge or note divergence — your figure vs its figure = one number), and fold what's additive. MARCO is the co-consumer per the prompt's On-return chain. — PROME
