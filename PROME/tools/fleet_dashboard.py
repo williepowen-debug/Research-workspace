@@ -23,10 +23,17 @@ ARTIFACT_URL: https://claude.ai/code/artifact/c884f088-4936-44a0-9232-30851b9427
   (minted 2026-07-11. Same-conversation republish of the same file path keeps this
    URL; from any OTHER session pass url="..." to the Artifact tool — else it mints
    a new URL and orphans Will's tab. finding_artifact_redeploy_same_url.)
+
+V2 (2026-07-16, Will-directed): + "Since last build" delta panel (diffs canon state vs
+  the snapshot persisted at the previous build — PROME/tools/dashboard_state.json,
+  committed so deltas survive machine switches) and + "Gate distance" tiles (HEARTBEAT
+  stress-dashboard levels, as-of stamps preserved, positioned against the FORGE
+  market-data config.py bands — bands stay canon-owned, nothing hand-entered here).
 """
 import argparse
 import datetime as dt
 import html
+import json
 import os
 import re
 import subprocess
@@ -276,6 +283,167 @@ def parse_spine_stamp(today):
     return d, (today - d).days
 
 
+# ---------------------------------------------- v2: tiles + build deltas ----
+
+STATE_PATH = os.path.join(REPO, "PROME", "tools", "dashboard_state.json")
+
+# ticker-token prefix (HEARTBEAT stress dashboard) -> SERIES name (FORGE config.py).
+# Presentation wiring only — the levels and the bands both stay canon-owned.
+TICKER_TILE_MAP = [
+    ("Brent", "Brent"), ("HY OAS", "HY OAS"), ("CCC", "CCC OAS"),
+    ("10Y", "10Y Yield"), ("MOVE", "MOVE"), ("VIX", "VIX"),
+    ("USD/JPY", "USD/JPY"), ("Cushing", "Cushing"), ("WAL", "WAL"), ("OZK", "OZK"),
+    ("Init claims", "Init Claims"), ("Cont claims", "Cont Claims"),
+    ("SOFR-IORB", "SOFR-IORB"),
+]
+
+
+def load_bands():
+    """FORGE/tools/market-data/config.py SERIES -> {name: series dict}. Bands = canon."""
+    sys.path.insert(0, os.path.join(REPO, "FORGE", "tools", "market-data"))
+    import config as md_config
+    return {s["name"]: s for s in md_config.SERIES}
+
+
+def _inside(val, rng):
+    lo, hi = rng
+    return (lo is None or val >= lo) and (hi is None or val < hi)
+
+
+def _band_class(val, s):
+    if _inside(val, s["red"]):
+        return "crit"
+    if _inside(val, s["yellow"]):
+        return "watch"
+    return "ok"
+
+
+def _fmt(v):
+    if abs(v) >= 1e5:
+        return f"{v:,.0f}"
+    return f"{v:,.2f}".rstrip("0").rstrip(".")
+
+
+def _fmt_rng(rng):
+    lo, hi = rng
+    if lo is None:
+        return f"<{_fmt(hi)}"
+    if hi is None:
+        return f"≥{_fmt(lo)}"
+    return f"{_fmt(lo)}–{_fmt(hi)}"
+
+
+def parse_tiles(hb):
+    """Distance tiles: HEARTBEAT ticker levels (as-of stamps kept) vs config bands."""
+    bands = load_bands()
+    tiles = []
+    for tok in hb["ticker"]:
+        for prefix, cname in TICKER_TILE_MAP:
+            if not tok.startswith(prefix) or cname not in bands:
+                continue
+            rest = tok[len(prefix):].replace(",", "").replace("−", "-")
+            m = re.search(r"-?\d+(?:\.\d+)?", rest)
+            if not m:
+                break
+            val = float(m.group(0))
+            sfx = re.match(r"\s*([kKM])\b", rest[m.end():])
+            if sfx:
+                val *= 1e3 if sfx.group(1) in "kK" else 1e6
+            s = bands[cname]
+            hw = s["direction"] == "higher_worse"
+            red_line = s["red"][0] if hw else s["red"][1]
+            if red_line:
+                # unit-scale reconcile: HEARTBEAT writes "215k"/"20.04M"; config bands
+                # are in native units (claims raw count, Cushing in millions).
+                for scale in (1, 1e-3, 1e-6, 1e3, 1e6):
+                    if 0.05 <= abs(val * scale) / abs(red_line) <= 20:
+                        val *= scale
+                        break
+                else:
+                    break  # magnitudes irreconcilable — no tile, never a wrong one
+            gap = (red_line - val) if hw else (val - red_line)
+            dist = (f"{_fmt(gap)} to red {_fmt(red_line)}" if gap > 0
+                    else f"{_fmt(-gap)} PAST red {_fmt(red_line)}")
+            stamp_m = re.search(r"\[([^\]]{1,40})\]", tok)
+            stamp = stamp_m.group(1).split(";")[0].strip()[:14] if stamp_m else "?"
+            tiles.append({"name": cname, "val": val, "cls": _band_class(val, s),
+                          "dist": dist, "dir": "↑ worse" if hw else "↓ worse",
+                          "stamp": stamp, "yellow": s["yellow"], "red": s["red"]})
+            break
+    return tiles
+
+
+FLEET_WORD = {"ok": "fresh", "watch": "quiet", "elev": "lagging",
+              "crit": "cold", "none": "parked"}
+
+
+def make_snapshot(built, hb, gates, docket, fleet, pending, tiles):
+    return {"v": 1, "built": built,
+            "one": hb["one"], "split": hb["split"],
+            "channels": {c["name"]: c["cls"] for c in hb["channels"]},
+            "gates": {g["gate"]: f'{g["kind"]}:{g["state"].split(" ")[0]}'
+                      for g in gates},
+            "docket": sorted(f'{r["start"].isoformat()} {r["catalyst"][:60]}'
+                             for r in docket),
+            "fleet": {r["name"]: r["cls"] for r in fleet},
+            "pending": pending,
+            "levels": {t["name"]: t["val"] for t in tiles}}
+
+
+def load_prev_snapshot():
+    if not os.path.exists(STATE_PATH):
+        return None
+    try:
+        with open(STATE_PATH, encoding="utf-8") as f:
+            s = json.load(f)
+        return s if s.get("v") == 1 else None
+    except Exception:
+        return None
+
+
+def diff_snapshots(prev, cur):
+    """Canon-state changes since the previous build, worst class first."""
+    d = []
+    if prev["one"] != cur["one"] and cur["one"]:
+        d.append(("elev", f'Regime one-liner CHANGED → “{cur["one"]}”'))
+    if prev["split"] != cur["split"] and cur["split"]:
+        d.append(("elev", f'NEXUS split {prev["split"] or "—"} → {cur["split"]}'))
+    for n, c in cur["channels"].items():
+        p = prev["channels"].get(n)
+        if p and p != c:
+            d.append((c if c == "crit" else "watch", f"Channel {n}: {p} → {c}"))
+    for gid, st in cur["gates"].items():
+        p = prev["gates"].get(gid)
+        if p is None:
+            d.append(("watch", f"NEW gate {gid} ({st.split(':', 1)[0]})"))
+        elif p != st:
+            cls = "crit" if "FIRED-UNEXECUTED" in st else "watch"
+            d.append((cls, f"{gid}: {p} → {st}"))
+    prev_dock, cur_dock = set(prev["docket"]), set(cur["docket"])
+    for row in sorted(cur_dock - prev_dock):
+        d.append(("watch", f"Runway + {row[11:]} ({row[:10]})"))
+    for row in sorted(prev_dock - cur_dock):
+        d.append(("none", f"Runway − {row[11:]} (passed/resolved/re-dated)"))
+    for n, c in cur["fleet"].items():
+        p = prev["fleet"].get(n)
+        if p and p != c and ("crit" in (p, c) or "elev" in (p, c)):
+            d.append(("elev" if c in ("crit", "elev") else "ok",
+                      f"{n}: {FLEET_WORD.get(p, p)} → {FLEET_WORD.get(c, c)}"))
+    for n, v in cur["levels"].items():
+        p = prev.get("levels", {}).get(n)
+        if p is not None and p != v:
+            d.append(("none", f"{n} {_fmt(p)} → {_fmt(v)}"))
+    for p in cur["pending"]:
+        if p not in prev["pending"]:
+            d.append(("watch", f"Pending-Will + {p}"))
+    for p in prev["pending"]:
+        if p not in cur["pending"]:
+            d.append(("ok", f"Pending-Will resolved − {p}"))
+    order = {"crit": 0, "elev": 1, "watch": 2, "ok": 3, "none": 4}
+    d.sort(key=lambda x: order.get(x[0], 5))
+    return d
+
+
 def run_rc(script, *args):
     try:
         r = subprocess.run([sys.executable, os.path.join(REPO, "scripts", script), *args],
@@ -409,6 +577,19 @@ ul.plain li:first-child{border-top:0}
 .gloss .own{font-family:var(--mono);font-size:11px;color:var(--ink2)}
 .gloss table{font-size:12.5px}
 .gloss td:first-child{white-space:nowrap;font-weight:600}
+.tiles{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:10px}
+.tile{border:1px solid var(--line);border-left-width:4px;border-radius:4px;
+  background:var(--panel);padding:9px 11px}
+.tile.ok{border-left-color:var(--ok)}
+.tile.watch{border-left-color:var(--watch)}
+.tile.elev{border-left-color:var(--elev)}
+.tile.crit{border-left-color:var(--crit)}
+.tile .tn{font-size:10.5px;text-transform:uppercase;letter-spacing:.07em;
+  color:var(--ink2);display:flex;justify-content:space-between}
+.tile .tv{font-family:var(--mono);font-size:19px;font-weight:700;margin:1px 0}
+.tile .tv .asof{font-size:10.5px;font-weight:400;color:var(--ink2);margin-left:5px}
+.tile .td{font-family:var(--mono);font-size:11px;color:var(--ink2);line-height:1.5}
+.tile .td b{color:var(--ink)}
 """
 
 GLOSSARY = """
@@ -562,6 +743,12 @@ def build(today, now_iso):
     spine_d, spine_age = parse_spine_stamp(today)
     env_rc = run_rc("env_doctor.py", "--quiet")
     fire_rc = run_rc("firetime_check.py", "--window", "7", "--quiet")
+    try:
+        tiles = parse_tiles(hb)
+        tiles_err = None
+    except Exception as e:
+        tiles, tiles_err = [], f"{type(e).__name__}: {str(e)[:120]}"
+    prev = load_prev_snapshot()
 
     # -- fleet rows (active roster, git-computed; staleness in BUSINESS days)
     parked = load_parked(today)
@@ -635,6 +822,9 @@ def build(today, now_iso):
     recent_resolved = [g for g in gates if g["kind"] == "resolved"
                        and g["checked_age"] is not None and g["checked_age"] <= 7]
 
+    cur_snapshot = make_snapshot(now_iso, hb, gates, docket, fleet, pending, tiles)
+    delta = diff_snapshots(prev, cur_snapshot) if prev else None
+
     # ---------------------------------------------------------------- html --
     def render_channels():
         cards = ""
@@ -695,6 +885,40 @@ def build(today, now_iso):
                     f'<br><span class="own">{esc(r["owners"])}</span></span></li>')
         return out or "<li class='muted'>nothing in the next 21 days</li>"
 
+    def render_tiles():
+        if tiles_err:
+            return (f'<div class="parsefail">⚠ PARSE FAILED ({esc(tiles_err)}) — read '
+                    f'HEARTBEAT.md stress dashboard + FORGE/tools/market-data/config.py.</div>')
+        if not tiles:
+            return ('<div class="parsefail">⚠ no ticker↔band matches parsed — read '
+                    'HEARTBEAT.md stress dashboard.</div>')
+        out = ""
+        for t in tiles:
+            out += (f'<div class="tile {t["cls"]}"><div class="tn"><span>{esc(t["name"])}'
+                    f'</span><span>{esc(t["dir"])}</span></div>'
+                    f'<div class="tv">{esc(_fmt(t["val"]))}'
+                    f'<span class="asof">[{esc(t["stamp"])}]</span></div>'
+                    f'<div class="td"><b>{esc(t["dist"])}</b><br>'
+                    f'y {esc(_fmt_rng(t["yellow"]))} · r {esc(_fmt_rng(t["red"]))}</div></div>')
+        return out
+
+    def render_delta():
+        if prev is None:
+            return ('<li><span class="tag none">FIRST</span><span class="muted">'
+                    'first tracked build — deltas begin next build</span></li>')
+        if not delta:
+            return ('<li><span class="tag ok">NONE</span><span class="muted">'
+                    'no canon-state changes since the last build</span></li>')
+        word = {"ok": "done", "none": "info"}
+        out = ""
+        for cls, text in delta[:16]:
+            out += (f'<li><span class="tag {cls}">{esc(word.get(cls, cls))}</span>'
+                    f'<span>{esc(text)}</span></li>')
+        if len(delta) > 16:
+            out += (f'<li><span class="tag none">+{len(delta) - 16}</span>'
+                    f'<span class="muted">more deltas not shown — no silent caps</span></li>')
+        return out
+
     def render_fleet():
         rows = ""
         maxc = max((r["c30"] for r in fleet), default=1) or 1
@@ -717,7 +941,7 @@ def build(today, now_iso):
     tier2_names = " · ".join(n for n, _ in tier2)
     dormant_names = " · ".join(n for n, _ in dormant)
 
-    return f"""<title>Fleet Ops — PROME</title>
+    page = f"""<title>Fleet Ops — PROME</title>
 <style>{CSS}</style>
 <div class="bar">
   <h1>FLEET OPS · PROME</h1>
@@ -742,8 +966,18 @@ def build(today, now_iso):
   <div class="ticker">{panel_guard("ticker", "HEARTBEAT.md", render_ticker)}</div>
 </section>
 
+<div class="panel"><h2>Gate distance — HEARTBEAT levels vs FORGE bands</h2>
+  <div class="tiles">{panel_guard("tiles", "HEARTBEAT.md + FORGE config.py", render_tiles)}</div>
+  <p class="muted" style="font-size:11.5px;margin-top:9px">Levels come from the HEARTBEAT
+  stress dashboard with their [as-of] stamps — a stale stamp means canon needs refreshing,
+  not this page. Bands come from <code>FORGE/tools/market-data/config.py</code> (canon
+  absolute thresholds); gate-specific trigger lines (e.g. the 4.50 arm-#2 rule) live in the
+  fire ledger below and are not restated here.</p></div>
+
 <div class="cols">
 <div>
+  <div class="panel"><h2>Since last build{esc(" — vs " + prev["built"]) if prev else ""}</h2>
+    <ul class="attn">{panel_guard("delta", "PROME/tools/dashboard_state.json", render_delta)}</ul></div>
   <div class="panel"><h2>Needs attention</h2>
     <ul class="attn">{render_attn()}</ul></div>
   <div class="panel"><h2>Pending Will</h2>
@@ -779,6 +1013,7 @@ def build(today, now_iso):
 </div>
 <script>{AGE_JS}</script>
 """
+    return page, cur_snapshot
 
 
 def main():
@@ -788,10 +1023,14 @@ def main():
     args = ap.parse_args()
     now = dt.datetime.now()
     now_iso_utc = dt.datetime.now(dt.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
-    html_out = build(now.date(), now.strftime("%Y-%m-%d %H:%M"))
+    html_out, snap = build(now.date(), now.strftime("%Y-%m-%d %H:%M"))
     with open(args.out, "w", encoding="utf-8") as f:
         f.write(html_out)
-    print(f"wrote {args.out} ({len(html_out)//1024}KB)")
+    with open(STATE_PATH, "w", encoding="utf-8") as f:
+        json.dump(snap, f, indent=1, sort_keys=True)
+        f.write("\n")
+    print(f"wrote {args.out} ({len(html_out)//1024}KB) + state snapshot "
+          f"({os.path.relpath(STATE_PATH, REPO)})")
     return 0
 
 
