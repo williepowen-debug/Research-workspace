@@ -39,19 +39,22 @@ def _fred_key():
 API_KEY = _fred_key()
 BASE = "https://api.stlouisfed.org/fred/series/observations"
 
-def fetch(series_id, limit=10, start=None, all_data=False):
+def fetch(series_id, limit=None, start=None, all_data=False):
+    """limit=None means unbounded. A `start` with no explicit `limit` returns the
+    WHOLE range: capping an ascending-sorted range would silently return only the
+    oldest N rows of it (the caller asks for 11 years, gets 10 days of 2015)."""
     params = {
         "series_id": series_id,
         "api_key": API_KEY,
         "file_type": "json",
         "sort_order": "desc",
     }
-    if not all_data:
-        params["limit"] = limit
     if start:
         params["observation_start"] = start
         params["sort_order"] = "asc"
-    
+    if not all_data and limit is not None:
+        params["limit"] = limit
+
     url = f"{BASE}?{urllib.parse.urlencode(params)}"
     req = urllib.request.Request(url, headers={"Accept": "application/json"})
     with urllib.request.urlopen(req, timeout=30) as resp:
@@ -65,11 +68,11 @@ def main():
         return
     
     series_id = args[0]
-    limit = 10
+    limit = None
     start = None
     all_data = False
     csv_mode = False
-    
+
     for i, a in enumerate(args[1:], 1):
         if a == "--limit" and i + 1 < len(args):
             limit = int(args[i + 1])
@@ -80,8 +83,13 @@ def main():
         if a == "--csv":
             csv_mode = True
     
+    # Default to the latest 10 ONLY for a bare call. With --start, an unset --limit
+    # means "the whole range" (see fetch()); capping it would silently drop the range.
+    if limit is None and start is None:
+        limit = 10
+
     obs = fetch(series_id, limit, start, all_data)
-    
+
     if csv_mode:
         print("date,value")
         for o in obs:
