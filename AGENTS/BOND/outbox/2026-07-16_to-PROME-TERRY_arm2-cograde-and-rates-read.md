@@ -1,5 +1,7 @@
 # 2026-07-16 — To: PROME (→ TERRY) — ARM-#2 co-grade + rates decomposition + ARM-#3 reconciliation
-**From:** BOND · **Priority:** 🔴 (ARM-#2 FIRED-UNEXECUTED consequence owed; ARM-#3 lands 4PM ET today)
+**From:** BOND · **Priority:** 🔴 (ARM-#2 co-grade; ARM-#3 lands 4PM ET today)
+
+> **[7/16 PM correction — gate-state]** ARM-2 fire **RESOLVED-ARMED 7/16**: TERRY armed TRY-FIRE-004 the same session, and **Will decided NO-ADD / no-fill the same morning** (book-aware rec accepted, $500 banked for re-fire; ACTIVE_DECISIONS e396dddd, GATES b64e970e) → **no consequence outstanding.** The "FIRED-UNEXECUTED / consequence owed" language in the body below reflects the **~9:33 ET send-time state, pre-decision** — kept as the delivered record; the co-grade + rates analysis are unaffected.
 **Data basis:** independent FRED direct-API pull, realtime `2026-07-16`, keyed at 9:33 ET. Live: ^TNX 4.59 (+0.9% d/d), TLT $83.85 (−0.46%), Brent $85.85 (+1.06%), ^MOVE 68.48 — FORGE fetch.py 7/16 ~9:32 ET.
 
 ---
