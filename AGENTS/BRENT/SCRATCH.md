@@ -1,44 +1,48 @@
-# BRENT SCRATCH — Fri Jul 10, 2026 (teams-session: GATE-BRENT-SUSTAIN verdict + COT double-grade + TRADE reconcile + full inbox drain)
+# BRENT SCRATCH — Thu Jul 16, 2026 (teams-session: RE-ARM ADJUDICATION on the formal Hormuz closure)
 
 **Purpose:** Ephemeral session handoff — canonical "where are we / what next". Read at boot (step 2), rewritten at closeout (step 11).
 
-**Session arc:** PROME spawned me (teams-mode) to grade GATE-BRENT-SUSTAIN, then a 3-item follow-up. Delivered: (1) **sustain verdict = DENY**; (2) **COT double-grade** (the dropped 7/6 obligation + the fresh 7/7 print); (3) **TRADE.md reconcile** (Tier-2 trigger hardened to the ratified spec); (4) **full inbox drain** (21 files: 17 WALTER + 4 other) incl. the owed DAEDALUS Independence-column apply. All committed local (rides push-train; do NOT push per task).
+**Session arc:** PROME spawned me (teams-mode) to adjudicate the energy re-arm after the fleet was OFFLINE 7/13-15 through the 7/11-12 formal Hormuz closure. Delivered: (1) **RE-ARM CONFIRMED** (fragile-watch → 🔴 ACTIVE); (2) **deploy read = PASS-ON-CHASE**; (3) **MSG-001 CLOSED** (Direct Messaging v1 first live test — convergence matrix re-scored 44→53/70); (4) **enlarged packet items a-e resolved**; (5) full inbox drain. Adjudication memo → `outbox/2026-07-16_to-PROME_rearm-adjudication.md`, SendMessage'd to PROME.
 
 ---
 
 ## ⚡ NEXT BOOT FIRST MOVES
-1. 🔴 **Full CONVERGENCE MATRIX re-score OWED** — scores are Jul-1 vintage (44/70); the 7/8 crack → 7/10 DENY cycle is NOT yet re-scored. The `Independence` column (added 7/10 per DAEDALUS) IS current; only the numeric scores lag. Re-score next session.
-2. 🟡 **Watch for a 2nd FRESH Iran institutional leg** — the re-arm from fragile-watch → ACTIVE needs war-risk staying surged + level >$75 PLUS one of: fresh transit count ≤~18/day · NEW liner Cape re-route on insurance grounds · JWC re-listing/widening or P&I cover withdrawal · renewed kinetic step (4th tanker / Gulf production-asset hit, HAWK's ladder). One fresh leg (war-risk) is already standing.
-3. 🟠 **Sat Jul 11 OPEC MOMR · Tue Jul 14 US CPI** (BRT-16 inverse-feedback) · **~Wed Jul 15 next EIA WPSR** (did the crisis re-tighten Cushing/draws or keep normalizing?).
-4. 🟡 **GROUP_MAP.tsv +115d stale** (freeze-or-refresh; the 7/1 KB/VX/FLOW freeze didn't cover it — PROME 7/1 ledger note). Closeout hygiene, deferred this session.
-5. 🟡 **CHASE HAWK on HAW-15** (crude-export pivot — Tier-1 arm trigger; still unfired; Russia campaign stays products/diesel-side, crude-infra unstruck per HAWK 7/9).
+1. 🔴 **CFTC COT Fri 7/17 (positions as-of 7/14)** — FIRST print capturing the formal closure. Decisive read: do the crowded shorts (spring-fuel, confirmed 7/10) COVER (squeeze IGNITING → bullish confirmation) or hold (more fuel)? Grade under both standards.
+2. 🔴 **Deploy watch — the arm is ARMED-and-HOT, no capital.** Deploy trigger flips from "unpriced tail" to "vol-cooldown re-entry": a RED-day / pullback toward ~$80-82 that STABILIZES with the closure still in force = the clean convex entry (OVX ~61 now = too rich to chase). If Will wants blockade→Scenario-C tail NOW, small further-OTM ~$200 tranche only, live broker book (rule #4).
+3. 🔴 **Baker Hughes ~7/17** (445, 12 to 457) · 🔴 **EIA WPSR wk-7/17 (rel 7/22)** — FIRST post-closure inventory read (Cushing hold >20M? crude draws accelerate? — the wk-7/10 data was PRE-closure vintage).
+4. 🟠 **FAL-01 escalation watch** — named-major facility hit (Aramco/ADNOC/Kharg) OR vessel SUNK = clean FAL-01 fire = Scenario-C accelerant. KOC 7/12 was borderline (held open, concur w/ FALCON).
+5. 🟡 **Japan June trade balance ~7/22** (SAM-routed, PROME_ROUTING_2026-07-11) — demand-side read on whether the oil regime is destroying importer demand; auto-relevant to my convergence matrix. Watch-set addition, SAM holds level work.
+6. 🟡 **OPEC JMMC Tue 7/28 · FOMC Wed 7/29 · July CPI (carries the oil shock — June printed cool).**
 
-## CHANGES SINCE LAST SESSION (Jul 6 → Jul 10) — the big cycle
-- **7/8 the decoupling CRACKED** (truce collapse — 3 tankers hit in-strait, Treasury reimposed sanctions, war-risk 0.125%→0.2-0.4%+; Brent +6% to $78.75). Energy tail RE-ARMED fragile-watch → **ACTIVE**, capital gated on a 2-session sustain test.
-- **7/9 spec ratified** (settlement basis + DENY=complement + ≥2 fresh legs binding + sanctions down-weighted). Thursday leg PASSED thin (~$76).
-- **7/10 sustain test → DENY.** Level held (~$76 settle both sessions, no round-trip <$74) but only **1 of ≥2 fresh countable legs** fired (war-risk premium, Lloyd's List 7/10). Tail reverts **ACTIVE → fragile-watch.** No capital.
-- **COT (both prints) = SPRING-FUEL CONFIRMED** — spec shorts BUILT not covered (ICE Brent gross +~22K into 6/30 tank-bottoms; NYMEX WTI-phys +6,753 into the 7/7 spike). Convex tail marginally FATTER; arm stays ARMED, no trigger.
+## CHANGES SINCE LAST SESSION (Jul 10 → Jul 16) — the formal closure
+- **7/11-12 Iran FORMALLY closed Hormuz** (IRGC fired on GFS Galaxy 7/11; US 3rd strike wave ~140 targets; Qatar blanket maritime suspension — first Gulf state; KOC platform hit). Ceasefire fully collapsed; US blockade element too (CNBC 7/15).
+- **Brent +13%:** settles 7/13 $78.85 → 7/14 $84.73 → 7/15 $84.95 → 7/16 ~$85.6 live. All >>$75.
+- **Transits COLLAPSED** to 10/88 (11%) 7/12 [PortWatch] — physical confirmation of the closure.
+- **OVX ~61** (crisis-level oil vol) — the deploy-killer.
+- EIA wk-7/10 (PRE-closure vintage): Cushing back >20M (20.04M, wk 1 of 2 for Boundary #3 rescission); SPR 316.5M 43-yr low; gas YoY −1.06%; pump $3.855.
 
 ## WHAT I DID THIS SESSION
-- **GATE-BRENT-SUSTAIN verdict = DENY** → `outbox/2026-07-10_to-PROME_sustain-verdict.md` (leg-by-leg table + root attribution + consequence). STATUS top banner + Friday-grade. PROME canoned it (GATES RESOLVED, HEARTBEAT amended, commit 3670a5b1).
-- **COT double-grade** → STATUS "🔴 7/10 — COT DOUBLE-GRADE" section + dashboard COT row. Primaries: CFTC futures-only (WTI-phys) + engine.online (ICE Brent). Trigger #3 N/A both prints (stays 1/2).
-- **TRADE.md reconcile** → header reconcile-note + Tier-2 trigger HARDENED (level necessary-not-sufficient + ≥2 fresh legs binding; bare >$75 ×2 does NOT fire); CURRENT STANCE updated through 7/8→7/10 cycle; COT spring-fuel folded in; CATALYSTS table refreshed forward.
-- **Inbox drain (21 files)** → 17 WALTER sigs board_logged + moved to processed; 4 non-WALTER moved. Owed **DAEDALUS Independence-column** applied to STATUS matrix + loop-close note to `AGENTS/DAEDALUS/inbox/` (written, NOT committed — outside my dir; flagged to PROME). PROME EIA-alert-bands: **accepted as-is, no change** (silence=accept). Killed the unverified "~75% prewar transits" figure in the live matrix (SIG-W-20260702-002). Updated energy-credit vector to 164bps (DEWEY un-blind, SIG-W-20260709-002).
+- **RE-ARM ADJUDICATION** → CONFIRMED decisively (≥3 fresh legs beyond war-risk anchor + level >>$75; two standalone CONFIRM paths). Graded against the 7/10 DENY baseline, settlement basis, FALCON FRESH_LEG conventions. STATUS top banner + full memo. Recommend HEARTBEAT 🟡→🔴 (PROME owns the amendment).
+- **DEPLOY = PASS-ON-CHASE** — missed the cheap 7/11-13 window (offline); OVX 61 vol-rich; +13% happened; green day (rule #6). Arm ARMED-and-HOT. TRADE.md updated (header + CURRENT STANCE + plan status).
+- **MSG-001 (v1 first live test)** — receipt ACCEPTED→INTEGRATED (both validated clean), matrix re-scored 44→53/70 against CURRENT regime (7/8-10 state superseded, noted in receipt), message git-mv'd to processed. Tooling friction: NONE material (validate rc-0, PyYAML present, receipt engine clean) — minor UX notes only, reported to PROME.
+- **Packet items a-e** → STATUS "🟠 7/16 ENLARGED-PACKET ITEMS" section: KOC borderline/hold-open, GCC 6.7 Mbpd reconciled (flow-vs-asset), Russia 4.22M (HAW-15 unfired), COT spring-fuel confirmed (next 7/17), FRESH_LEG_BASELINE adopted.
+- **Convergence matrix** re-scored (Hormuz/Gulf/Brent/Tanker/Ceasefire/Curve all ↑ to 5; kinetic cluster maxed).
+- **Inbox DRAINED** — MSG-001 + 3 routing files (7/11, 7/12, DAEDALUS threshold-fix) → processed. WALTER inbox already clean (0).
 
 ## OPEN THREADS / WATCHES
-- 🔴 **Convergence matrix re-score** (see NEXT BOOT #1) — the one owed analytical debt.
-- 🟡 **Convex arm = ARMED, no capital; tail marginally FATTER** (COT spring-fuel confirmed; RED's crowded-short catch vindicated). Fires on Tier-1 (HAW-15 / reopening-stall) or the HARDENED Tier-2 (level >$75 ×2 settle AND ≥2 fresh legs). Will [Approve] at fire.
-- 🟡 **CHG-RED-041** — RED grades FINAL off tonight's DENY (separate spawn). Nuance handed: not a clean fade — war-risk leg DID fire (mechanism-crack half stayed confirmed); the magnitude/durability half failed (no ≥2-leg broadening; $79→$76 bleed).
-- 🟡 **Pillar #3 residual:** contango DIRECTION [CONF Jun-20]; MAGNITUDE still [EST] (~−$2.00; .NYM proxies unreliable). Stamp clean [CONF] if an ICE-settle source appears.
-- 🟡 **GROUP_MAP.tsv freeze** + benchmark-mechanics watch (no-August-Brent-cargoes, SIG-011).
+- 🔴 **Deploy decision** sits with Will (proposal in memo §2; pass-on-chase, or small tranche if he wants tail-now).
+- 🔴 **COT 7/17** — squeeze-ignition test.
+- 🟡 **LIQUID:** HY OAS calm 272 [7/14] has NOT repriced the closure — the key LAGGING credit tell to watch.
+- 🟡 **Curve structure** — contango→backwardation flip is [EST] (M1-M3 ~+$3-5); stamp [CONF] if an ICE-settle source appears.
+- 🟡 **GROUP_MAP.tsv +115d stale** (freeze-or-refresh — deferred again this session).
 
 ## POSITION DECISIONS → see `TRADE.md` (canonical)
-- **v5.0 stance: no flat-price length either way; forward = defined-risk long-convexity, deploy-on-trigger.** No capital (sustain DENIED; no trigger). XLE $65C Sep-30 = LAPSE. Conditional Phase-2 short = DORMANT.
+- **v5.0 stance holds: no flat-price length either way; forward = defined-risk long-convexity.** Arm = 🔴 ARMED-and-HOT (re-arm CONFIRMED) but NO capital — deploy = pass-on-chase at $86/green/OVX-61. XLE $65C Sep-30 = LAPSE. Conditional Phase-2 short = DORMANT.
 
 ## MAIL STATE
-- **Inbox: CLEAN** (drained 21 files this session — 17 WALTER → processed + board_logged, 4 non-WALTER → processed). **Outbox:** `2026-07-10_to-PROME_sustain-verdict.md` (delivered via SendMessage + file). **Cross-agent writes:** DAEDALUS loop-close note (untracked, flagged to PROME).
+- **Inbox: CLEAN** (drained MSG-001 + 3 routing files → processed; WALTER 0). **Outbox:** `2026-07-16_to-PROME_rearm-adjudication.md` (delivered via SendMessage + file). **Receipt:** `messages/receipts/MSG-PROME-20260714-001__BRENT.md` (INTEGRATED, validated).
 
 ## WORKBOOK HEALTH
-- **LIVE & current (Jul-10):** STATUS (verdict + COT + matrix-w-Independence), TRADE (reconciled), SCRATCH (this), board_log (38 rows), sustain-verdict memo. **THESIS v5.0 unchanged** (no bump — the DENY reverts a re-arm, doesn't restructure the thesis; convex tail was already the v5.0 skew).
+- **LIVE & current (7/16):** STATUS (re-arm banner + re-scored matrix 53/70 + packet items + dashboard), TRADE (re-arm/pass-on-chase), SCRATCH (this), adjudication memo, MSG-001 receipt. **THESIS v5.0 unchanged** (the re-arm confirms the pre-registered up-tail; no restructure — the skew was already upside-convex). Consider a THESIS/CHANGELOG note next session logging "Phase-1 re-squeeze realized 7/12."
 - **FROZEN:** KB.tsv, VX.tsv, FLOW.tsv, TIMELINE.md. **STALE (deferred):** GROUP_MAP.tsv +115d.
-- **GIT:** verdict memo + STATUS banner committed 59a34faa; COT/matrix STATUS + TRADE + SCRATCH + board_log committed 61a5bd6e. Rides push-train (no push per task). **⚠️ Attribution note (shared-index race, PROME-verified):** my Task-3 inbox renames (21 files → processed/, R100 pure renames, zero content change) were swept into **SAM's commit 64e92053** — SAM committed without pathspec while my `git mv` sat staged in the shared index. Nothing lost, just cross-attributed; history stays as-is (no mid-session rewrite). Do NOT re-mv/re-stage those paths — already in HEAD.
+- **GIT:** committed local (pathspec AGENTS/BRENT/ only). Rides push-train — do NOT push per task (PROME owns closeout push).
