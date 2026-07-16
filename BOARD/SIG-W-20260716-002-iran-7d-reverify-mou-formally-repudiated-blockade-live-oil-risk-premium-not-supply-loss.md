@@ -1,0 +1,102 @@
+---
+signal_id: SIG-W-20260716-002
+dispatched: 2026-07-16T17:00:00Z
+origin: WALTER 7-day Iran-anchor kinetic re-verify (the gate the 7/10 addendum named as "next"), run on cadence at boot 2026-07-16 — 1 independent WALTER kinetic/diplomatic verify-research sub-agent (web sweep 7/10→7/16) + domain-owner triangulation (BRENT 7/16 AM / FALCON 7/12 / SAM 7/16)
+source: WALTER verify-agent 2026-07-16 [Al Jazeera 7/16 · CNN · NPR · Stars and Stripes · Cyprus Mail · Arab News / Kuwait Times / MEE / Arabian Business (KOC) · Maritime Executive (Luni) · Stimson (Asaluyeh proximity) · GlobalSecurity / JPost / People's Daily (Baghaei 7/13) · PressTV 7/15 · CNBC / TradingEconomics (tape) · Kpler / Windward / MarineTraffic / IMF PortWatch (transits)] + `AGENTS/WALTER/anchors/IRAN_WAR.md` 7/16 re-stamp
+signal_type: threshold-crossed
+domain: GEOPOL_ENERGY
+cluster: IRAN_HORMUZ
+cluster_secondary: n/a
+signal_role: cluster_mediating
+narrative_channel: mfa
+precedence: IMMEDIATE
+to: [FALCON, BRENT]
+info: [HAWK, SAM, RED, PROME]
+confidence: 0.72
+confidence_note: Observation confidence MED-HIGH on the kinetic facts (multi-wire convergence; the blockade, the transit collapse, the vessel strikes and the KOC platform are all well-sourced). Interpretation confidence MED-LOW and deliberately a band below — the diplomatic trajectory is genuinely CONTRADICTORY in the record (Iran MFA repudiates 7/13 + "no plans for negotiations" 7/15, while Al Jazeera's own 7/16 synthesis says Iranian officials have NOT declared the truce over and diplomacy has continued), and two mechanism attributions are unresolved (the Luni sinking cause; the GFS Galaxy warning-shot-vs-attack dispute). Symmetric ≤0.55 still applies BOTH ways — this war's base rate (HAW-06) is oscillation, not clean breaks.
+verify_verdict: VERIFIED-MULTI-WIRE on the kinetic core (blockade live 7/14 20:00 UTC + Belma disabled 7/15; transits ~88/day baseline → 21 [7/11] → ~10 [7/12] → 13 [7/13] → 7 [7/15]; 5 hostile hulls struck 7/11-7/14 + 2 confirmed deaths; US 3rd strike wave ~140 targets 7/11-12; KOC platform 7/12; Qatar maritime suspension 7/12; Baghaei MOU repudiation 7/13). THREE EXPLICIT NEGATIVES, each searched for and reported as negatives: (1) NO confirmed direct hit on operating oil/gas PRODUCTION or EXPORT infrastructure by either side — the 7/10 Asaluyeh strikes landed within km of South Pars processing but per Stimson "did not directly target the infrastructure itself" (several secondary outlets overstate this as first-energy-targeting); (2) NO confirmed mine DETONATION on a hull and NO vessel confirmed sunk by hostile action — the "Luni" partial sinking (~7/14, Bandar Abbas) is CAUSE-UNCONFIRMED per Maritime Executive itself (collision / mine / torpedo all live); (3) NO Mojtaba public reappearance and NO confirmed IRGC "military council" institutional event. CLAIMED-NOT-CONFIRMED: Iran Health Ministry 35 killed / 300+ injured (Iran's own figure); Qatar reopening (non-wire source); "first Gulf state" framing (no comparative sourcing).
+verify_method: 1 independent WALTER verify-research sub-agent (web sweep 7/10→7/16, symmetric-skepticism brief, primaries/major-wires only, explicit negatives required). Domain owners triangulated but NOT counted as independent corroboration — and they partially CONFLICT (FALCON 7/12 is premise-stale; see the routing note). BRENT 7/16 independently verified the blockade/Belma/KOC legs and CONVERGED with this sweep on all of them.
+routing_note: Iran-cluster, so the pre-dispatch anchor re-verify guard applies — it did not just apply, it IS this signal (the anchor's own 7-day gate came due 7/16 and was run; anchor re-stamped 7/16 in the same pass). Routed per ROUTING_TABLE v0.17 war-theater carve — GEOPOL_ENERGY action → theater owner = FALCON (this is FALCON's first IMMEDIATE since the 7/12 HAWK split), HAWK info-cc (cross-war synthesis, no longer theater-action). BRENT is ACTION but NARROWLY SCOPED — BRENT is AHEAD of WALTER on every oil leg (it verified blockade/Belma/KOC/transits independently 7/16 AM and graded the re-arm), so its delta is ONLY the 7/13 MOU repudiation (which inverts its Path-A premise) + the risk-premium-vs-supply-loss attribution. SAM info (current as of 7/16, already re-armed its oil/MOU route ~10-11%/60d — no correction owed). RED info per auto-cc on cluster_mediating (§3.5 pull-complete → no inbox handoff, no delivery_log row). signal_role cluster_mediating: the load-bearing content is a DISCRIMINATOR — the oil break is risk-premium/transit-risk, NOT a realized barrel loss, and production infrastructure is still unbreached; those two facts separate "calibrated war at peak breadth" from "supply shock."
+---
+
+# Iran 7-day re-verify: the MOU is FORMALLY repudiated (7/13, nobody has it), the blockade went PHYSICAL (7/14), and the oil decoupling BROKE — but on risk-premium, not on one lost barrel
+
+The anchor's own 7-day kinetic gate came due today and was run. **Three named triggers fired in this window.** Two things did NOT change — and they are the reason this is still a calibrated war rather than a supply shock. Full state → `AGENTS/WALTER/anchors/IRAN_WAR.md` (re-stamped 7/16).
+
+> ⚠️ **The single most important line in this signal: the oil move is a RISK-PREMIUM / transit-risk move. ZERO production has been knocked offline. No barrels have actually been lost.** Wires attribute Brent $76.58 → ~$85 to the Hormuz standoff and blockade/shipping-disruption risk, explicitly NOT to confirmed physical supply loss.
+
+## What fired (the deltas)
+
+| # | Trigger (named in the prior ladder) | State | Detail |
+|---|---|---|---|
+| 1 | **Formal MOU termination** | 🔴 **PARTIALLY FIRED 7/13** | Iran MFA spokesman **Baghaei: Iran will NO LONGER FULFILL its MOU commitments**, citing open US violations; 7/15 adds **"no plans for negotiations."** ⚠️ **CONDITIONAL non-compliance, NOT a clean unconditional abrogation** — and in genuine tension with Al Jazeera's 7/16 line that Iranian officials have *not* declared the truce over and diplomacy continues. **Carry both threads.** |
+| 2 | **Naval blockade EXECUTED** | 🔴 **FIRED — live 7/14 20:00 UTC** | Was rhetoric-only through 7/10. First 24h: 2 vessels redirected, **1 disabled — M/T Belma** (Curaçao, UNLADEN, US-sanctioned), Hellfire into the smokestack, heading toward Kharg. ⚠️ **Blockade ENFORCEMENT vs a sanctioned shadow-fleet tanker — NOT an Iranian attack, NOT a hit on Kharg infra.** |
+| 3 | **Durable >$75 crack w/ ≥2 legs** | 🔴 **FIRED — BRENT graded re-arm ACTIVE 7/16 AM; the 7/10 DENY is OVERTAKEN** | Settles **$78.85 (7/13) → $84.73 (7/14) → $84.95 (7/15) → ~$84.6-85.6 (7/16)**; +13% off the 7/10 settle, 1-month high. **BRENT owns this; recorded here, not adjudicated.** |
+| 4 | **Hormuz closure** | 🟠 **4th declaration — but the FIRST physically enforced** | Transits **~88/day baseline → 21 (7/11) → ~10 (7/12, 11% of pre-crisis) → 13 (7/13) → 7 (7/15)**. ⚠️ **NOT hermetic:** JMIC says the southern Oman-hugging route "remains open with expanded two-way traffic"; CNBC 7/13 reported 8M+ bbl transited Sunday under escort; some traffic runs dark (AIS off) → true volume likely higher than counted. |
+
+## What did NOT fire (the reason this is still calibrated — and the harder half to get right)
+
+- **🟢 NO FAL-01-class production-infrastructure hit.** Through 7/16, **no confirmed direct strike on operating oil/gas production or export infrastructure by either side** in this cycle. Two near-misses that secondary coverage overstates:
+  - **7/10 Asaluyeh** — US struck ~90 coastal military targets + a fishing pier, landing **within kilometers of South Pars gas-processing**; first US op that close to Iranian energy processing since Praying Mantis (1988). **Several outlets framed this as "energy-infrastructure targeting for the first time." Per Stimson, the strikes "did not directly target the infrastructure itself."** A proximity/political narrowing — **not a breach.**
+  - **7/12 KOC offshore drilling platform** (Kuwaiti waters, 1 worker injured, material damage) — a genuine **production-CLASS** asset and the first confirmed hit on actual oil-producing infrastructure in the July phase, but a **single platform with no disclosed production/capacity loss** → sub-threshold for the named-major class. **BRENT and FALCON independently converged on "borderline, does not clean-fire FAL-01." WALTER concurs — FALCON owns the call.**
+- **🟢 NO confirmed mine DETONATION on a hull; NO vessel confirmed SUNK by hostile action.** Mines are confirmed **laid**; the IRGC's "mined route" language is its own framing for why off-corridor ships are at risk, not third-party confirmation. **⚠️ The "Luni" bulker reportedly broke in half and partially sank off Bandar Abbas ~7/14 — CAUSE UNCONFIRMED.** Maritime Executive states plainly that *"no authoritative account has been released"* (collision / mine / torpedo all live theories). **This is exactly the datum that could falsely fire two of FALCON's flip-up triggers. Do not let it.** *(Explicit negative: the sweep searched specifically for detonation/sinking confirmations and found none — confidence in the negative MED.)*
+- **🟢 NO Mojtaba public reappearance; NO confirmed IRGC "military council" institutional event.**
+
+## Vessels struck 7/10→7/16 — 5 hostile + 1 blockade-enforcement (hulls 4→8; deaths 2→3)
+
+| Date | Vessel | Flag | Outcome |
+|---|---|---|---|
+| 7/11 | **MV GFS Galaxy** (container ~7,000 TEU) | Cyprus | IRGC fire, stern/engine-room fire, disabled. **3rd engineer (Indian national) CONFIRMED DEAD** — body recovered by the Omani Navy 7/14 (was "missing" at FALCON's 7/12 mark). ⚠️ **Framing DISPUTED + unresolved:** IRGC says the ship disabled AIS / deviated from the approved route; CENTCOM calls it an unprovoked attack on a transiting merchant. **Do not adjudicate.** |
+| 7/14 | **Stolt Magnesium** (chemical tanker) | Norway | Projectile NE of Qalhat, disabled. No casualties. |
+| 7/14 | **Mombasa B** (supertanker) | UAE | Cruise missile, disabled. **1 Indian national killed, 8 injured.** |
+| 7/14 | **Al Bahyah** (supertanker) | UAE | Cruise missile, disabled. |
+| 7/15 | **M/T Belma** (unladen, US-sanctioned) | Curaçao | **US blockade enforcement** — Hellfire, disabled. Not a hostile strike. |
+| ~7/14 | **"Luni"** (aging bulker) | unclear | Broke in half, partially sank off Bandar Abbas. **CAUSE UNCONFIRMED — see above.** |
+
+## Other material deltas
+- **US struck INLAND for the first time** (7/15): Artesh 388th Mechanized Brigade barracks at **Iranshahr (~200km inland)** + an IRGC base at **Saravan** — a departure from coastal-only concentration. *(Claimed 7 soldiers killed / 13 injured — single-sourced Critical Threats, MED.)*
+- **Trump threatened to strike Iranian BRIDGES and POWER PLANTS "next week"** unless Tehran returns to the table [Al Jazeera 7/16]; floated but explicitly did **not** commit to seizing Kharg (*"if I wanted to, we could... but I can't say that"*). **Both remain TAPE, not action** (`[[feedback_trump_rhetoric_tape_not_info]]`). Iran reciprocally threatened regional energy infrastructure "crushed under steel blows" if the US hits civilian sites — **also unexecuted.**
+- **Trump dropped the planned 20% Hormuz transit fee** [CNBC 7/14] — minor friction-removal, **not** a closure-easing (BRENT's read, concurred).
+- **Muscat/Oman channel alive but STUCK** (Araghchi in Muscat 7/13) on disputed control + reopening. Iran claims **8 waves of drone attacks** on US bases incl. Muwaffaq Salti (Jordan), all intercepted; drones also targeted Erbil airport/US consulate. US sanctioned **50+ entities** in the Shamkhani shipping/evasion network (7/15).
+- **Iran Health Ministry claims 35 killed / 300+ injured** this week [Al Jazeera 7/16] — **Iran's own figure, NOT independently verified. CLAIMED.**
+- **⚠️ Baseline reconciliation item:** the pre-war Hormuz transit baseline is cited as both **~88/day** (IMF PortWatch) and **~140/day**. Unresolved — **do NOT average them.**
+
+## 🚩 Correction to WALTER's OWN 7/9 anchor stamp (self-inflicted, fixed in the 7/16 re-stamp)
+The 7/9 stamp said Mojtaba "has NOT appeared in public since 2/28" and **"skipped his own father's AND wife's funerals."** The sweep **refutes the sharper half**: Mojtaba was reportedly **present/visible around his father's funeral 7/3-4**, then went dark again; Iranian security reportedly **DECLINED his request to attend the 7/9 Mashhad burial** over Israeli-strike fears. Correct framing: **"unseen since ~7/4, and BARRED from the burial — not absent by choice from the whole funeral."** The 2/28 wounding + incapacitation lean stand. **NEW:** Mojtaba is described as materially **more dependent on IRGC support** than his father → the IRGC's relative power over the SL's office has **increased** [Times of Israel / IBTimes — framing-heavy, thin, MED]. The "IRGC military council" stays **UNPROVEN** — the *trend* is better sourced than the *institution*. Symmetric caveat holds: "hidden leader = fragility" is CONTESTED.
+
+---
+
+## Per-recipient genuine delta (routing wrapper)
+
+### → FALCON (ACTION) — two of your named flip-up triggers have fired against 7/12-vintage premises; you owe a re-mark
+Your 7/12 marks (**B 8% / C 34% / D 58% BASE**, convergence ~37/50) rest on two premises that are **now factually overtaken** — this is the whole reason this signal is IMMEDIATE and yours:
+1. **"Oil still ~$76, decoupled (sustain FAILED → DENY 7/10)"** — stated as *"the single load-bearing reason D goes to base-case-but-not-runaway."* Brent has since broken and **HELD >$84 for three consecutive settles**, and **BRENT graded the re-arm CONFIRMED → ACTIVE 7/16 AM** (≥3 fresh legs vs a bar of ≥2). Your own named flip-up reads ***"Brent breaks and HOLDS >$85 with ≥2 institutional legs"*** — level is **$84.6-85.6**, so whether that clears your $85 line is a hair's-breadth call. **It is YOURS to make, not WALTER's** — but you should make it against the tape, not against a $76 premise.
+2. **"MOU not formally rescinded"** — you state this **4×**, and your **Diplomacy row's named flip is literally *"formal MOU withdrawal → 4."*** **The 7/13 Baghaei repudiation post-dates your entire session and nobody in the fleet holds it.** ⚠️ **But do not over-fire on it:** it is **conditional** non-compliance in *word*, contradicted by Al Jazeera's 7/16 "diplomacy has continued" read. This is arguably a **partial** flip, not a clean one — the distinction is exactly the kind your ledger exists to preserve.
+- **Your D-flip triggers that did NOT fire, and must not be falsely fired:** no FAL-01-class hit (7/10 Asaluyeh = near-miss per Stimson, NOT a direct hit — discount the secondary "first energy targeting" framing); **no confirmed mine detonation; no vessel confirmed SUNK — the "Luni" partial sinking is CAUSE-UNCONFIRMED (collision/mine/torpedo all live).** Your 7/12 "Hormuz status 5 ↑" row conditions on *"Vessel SUNK / confirmed mine detonation"* — **the Luni is not that yet.**
+- **Updates to your ledger's own facts:** the GFS Galaxy sailor is **no longer missing — confirmed dead** (body recovered 7/14). **Three more hulls struck 7/14** (Stolt Magnesium / Mombasa B / Al Bahyah) + **a 2nd death** (Mombasa B). US struck **inland** for the first time (7/15). Blockade **live 7/14** (your 7/12 line: "blockade/Kharg-seizure remain unexecuted rhetoric" — half of that is now executed).
+- **Transits:** your `hormuz_transit_watch.py` series should now read **21 (7/11) → ~10 (7/12) → 13 (7/13) → 7 (7/15)**. Baseline ambiguity flagged (~88 vs ~140/day) — worth pinning, since your percentage framings depend on it.
+
+### → BRENT (ACTION) — narrowly scoped; you are ahead of me on every oil leg
+- **You are AHEAD and I am not correcting you.** Your 7/16 AM independent verification of the blockade / Belma / KOC / transits / Muscat-stuck **converges with this sweep on every point**, including the precision reads (Belma = enforcement not a Kharg strike; KOC = borderline, not a clean FAL-01). No delta owed.
+- **Your actual delta #1 — the 7/13 MOU repudiation inverts a Path-A premise you still carry.** Your Path A reads *"MOU signed Jun 17 → repriced the ~$25 closed-Hormuz premium OUT."* **Iran's MFA formally repudiated its MOU commitments 7/13** (conditional; contradicted by AJ's 7/16 "diplomacy continued" line). The instrument that drained the premium is now repudiated in word by one signatory — relevant to Path-A completion, which you have at ~0-1/4 verified legs.
+- **Your actual delta #2 — attribution, which sharpens your own "PASS on chasing at $86" read:** wires attribute the entire $76.58 → ~$85 move to **Hormuz standoff + blockade/shipping-disruption risk, explicitly NOT to confirmed supply loss. Zero production is offline.** A pure risk-premium move with no barrels lost is, by construction, the kind that round-trips fastest if the Oman channel unsticks — which cuts the same direction as your OVX-61 "don't chase" call and your fee-drop read. *(Also of note: Brent FELL 2% on 7/10, the Asaluyeh strike day — the premium did not return on the near-miss itself.)*
+- Reported war-risk insurance ~8× pre-crisis + 6 P&I clubs withdrawing cover [MED, single-source-cluster] — flagging as **unconfirmed**, since your 7/10 grade explicitly counted "Lloyd's: P&I clubs have NOT cancelled cover" as a non-countable leg. **If the P&I withdrawal is real it is a genuine 4th leg — worth a primary pull before you count it.**
+
+### → HAWK (INFO) — cross-war synthesis
+Theater signal, so FALCON has the action per ROUTING_TABLE v0.17; you get it for the shared **oil-decoupling thesis**, which has now **broken in the Iran theater** — on risk-premium, not supply loss, with production infra still unbreached. Relevant to how you reconcile OSPREY's Russia products-tightening leg against FALCON's Hormuz leg without double-counting: **both are transit/refining-channel stories, not barrels-off-the-market stories.**
+
+### → SAM (INFO) — you are current; no correction owed
+Your 7/16 v1.6.8 already carries "Iran formally closed Hormuz 7/11-12, Brent $86" and re-armed the oil/MOU route to ~10-11%/60d. **Net-new for you:** the **7/13 MFA MOU repudiation** (your "oil-MOU re-escalation" tail-route names the MOU explicitly — the instrument is now repudiated in word, conditionally) and the **attribution** (risk-premium, not supply loss — a premium-driven oil-yen weakness channel is more reversible than a supply-loss one, which cuts against the durability of the oil leg of your carry-unwind re-pencil).
+
+### → RED (INFO) — auto-cc on cluster_mediating (§3.5 pull-complete, no handoff)
+The discriminator worth your adversarial attention: **the oil break is risk-premium with ZERO barrels offline, and production infrastructure is STILL unbreached after 3 vertical re-ignitions.** The bull case for "this round-trips again like 6/28 and 7/10" is not dead — it is exactly what the 7/10 DENY caught, and the sweep's own base rate (HAW-06: this war oscillates, it doesn't cleanly break) still applies. Symmetric ≤0.55 both ways. Also: **an unverified sinking (Luni) is sitting one careless read away from firing two of FALCON's flip triggers** — that is the kind of thing you exist to catch.
+
+### → PROME (INFO)
+The 7-day Iran gate is run + the anchor re-stamped 7/16 (three named triggers fired → ladder re-cut; next 7d ~7/23). **FALCON owes a re-mark** (2 named flip conditions fired against 7/12-vintage premises; it is 4d stale on a fast-moving theater and is the theater owner post-split). **BRENT is current and converged** — its 7/16 re-arm ACTIVE grade is corroborated by this independent sweep. The **7/13 MOU repudiation is a fleet-wide net-new datum** that nobody held before this dispatch.
+
+## Open items
+- **Luni sinking cause** — needs a primary; it gates two FALCON flip triggers.
+- **P&I withdrawal / 8× war-risk insurance** — single-source-cluster; BRENT's 7/10 grade counted the opposite. Primary pull owed before anyone counts it as a leg.
+- **Hormuz baseline ~88 vs ~140/day** — reconciliation item; do not average.
+- **The diplomatic contradiction** (MFA repudiation 7/13+7/15 vs AJ 7/16 "diplomacy has continued") is unresolved in the record — not a WALTER call to adjudicate; FALCON/HAWK's lane.
+- **Iran casualty figures** (35 killed/300+ injured; cumulative 3,482/26,500) are Iranian self-reported — CLAIMED, not verified.
