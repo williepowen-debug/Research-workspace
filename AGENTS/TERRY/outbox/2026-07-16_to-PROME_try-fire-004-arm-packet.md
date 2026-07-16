@@ -110,6 +110,15 @@ Will is **not flat**. Existing duration-short book (Fidelity, live ~10:09 ET):
 2. **Crash-tail ladder 77/76/75 — ONLY if adding.** It is the *one non-redundant piece* (deep-OTM convexity he doesn't own) — a cheap tail on top of his grind. Small size.
 3. **Grind-spread 81/76 — NO, REDUNDANT. (Retract my §5C flat-book rec.)** Its long leg (81) sits right on his existing 82P, and its 76–81 payoff zone overlaps TBT + 85P + 82P. It doubles down on the grind he already owns.
 
+**Does the redundancy actually bite? (stub-vs-live check — PROME's challenge, answered YES.)** The "his puts are decaying stubs" argument only holds for the *smallest* leg:
+| Leg | Live? | Short-TLT delta (sh-equiv) |
+|---|---|---:|
+| TBT (+6.6%) | **LIVE** — linear, shares don't decay | ~12 |
+| 85 P ×2 (−14%, ITM, Sep-30) | **LIVE, dominant** — ITM ≈0.55Δ, real intrinsic + 2.5mo | ~110 |
+| 82 P ×2 (−41%, OTM, Oct-16) | half-stub — hurting but 2.2% OTM + 3mo runway | ~64 |
+| **Existing total** | | **~186 sh short** |
+The book's short-delta is **dominated by the ITM 85 P + linear TBT — both working, neither a stub.** So the redundancy bites: adding the 81/76 spread (~194 sh) **≈ DOUBLES** his short-TLT delta (186 → ~380, 2.0×), concentrated 76–81 *below* his current strikes. The one genuine gap (deep tail below 76) is filled by the **outright crash-tail, not the spread** (the spread caps exactly at 76). ⇒ **the spread does not survive; bank it, or add the crash-tail only.**
+
 **Aggregate + correlation flags (the real risk, bigger than the per-card $500):**
 - **Thesis exposure, not card exposure:** $500/card is per-card, but duration-short is now ~$1,150 → **~$1,650 if this adds.** Size against the *thesis* total, not a flat book.
 - **One shared falsifier across the ENTIRE book — including the energy longs.** BOND's rates-short thesis rests on the *oil-driven* term/real-yield premium; BRENT's registered falsifier is **fast Hormuz de-escalation → Brent retraces.** That single headline would **(a) drop his USO/oil longs AND (b) ease the real-yield premium → bonds rally → TBT + all TLT puts lose — simultaneously.** His book is effectively one concentrated **"Middle East stays hot / oil stays bid"** bet. Adding $500 more duration-short deepens that concentration. **Flag to Will before he adds.**
