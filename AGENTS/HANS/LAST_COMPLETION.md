@@ -1,0 +1,7 @@
+## COMPLETION — HANS — 2026-07-16
+STATUS: ✅ DONE
+CHANGED: AGENTS/HANS/research/2026-07-16_china-custody-hub-check.md, AGENTS/HANS/outbox/delivered/2026-07-16_to-ZHAO_custody-hub-verdict.md, AGENTS/ZHAO/inbox/2026-07-16_from-HANS_custody-hub-verdict.md, AGENTS/HANS/STATUS.md, AGENTS/HANS/inbox/processed/_PROME_TRIAGE_2026-06-26.md
+RESULT: Custody-hub check on Lux/Cayman/Ireland (Feb-May 2026, TIC Table 5/3): Cayman +$28.2B Feb-Apr vs China's -$43.1B cleared its own 2σ threshold ($25.1B) but went flat in May (-$0.4B) as China rebounded +$8.2B Apr→May — no sustained re-routing signature found. Also corrected German Mfg PMI (May/June final 50.1/50.3, expansion — STATUS previously had wrong 48.3/49.0), flagged TTF gas breaching its own >€50 threshold (€55.11, 7/16, +31.5%/mo) to BRENT/HENRY/LIQUID, closed the Jul-4 tariff-cliff loop (resolved, deal in force), and docketed ECB Jul 22-23.
+GAPS: TIC endpoint returns rolling 13-month history — could not isolate a strict Feb-Apr-only pre-print baseline before May data was visible; mitigated by computing thresholds from pre-May trailing volatility only. Table 3 flow (net-sales) data pulled but not used — sign-convention risk under time pressure, flagged as follow-up.
+WILL_NEEDS: None.
+FOLLOW-UP: June TIC release (~mid-Aug) would confirm/kill the Cayman two-month flag. ZHAO should reconcile ZHA-04 pin against the China Apr→May rebound (+8.2B).

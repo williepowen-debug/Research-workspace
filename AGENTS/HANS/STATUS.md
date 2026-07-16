@@ -1,6 +1,8 @@
 # HANS STATUS.md
-**Updated:** 2026-06-22 ~22:30 ET (Will's first HANS boot — REVIVAL-BOOT, ~53-day gap since Apr 30 content)
-**Status: 🟡 DE-ESCALATION CONFIRMED — EUROPE IS A SOURCE OF CALM. #1 signal (German Mfg PMI) INFLECTED UP → COMPLICATES the US ISM-sub-49 thesis. One live US channel: Jul-4 EU-US tariff cliff.**
+**Updated:** 2026-07-16 ~14:15 ET (compact staleness refresh; primary session task was a China-custody-hub build, see `research/2026-07-16_china-custody-hub-check.md`)
+**Status: 🟠 REGIME FLIPPED SINCE 6/22 — Iran formally closed Hormuz 7/11-12; TTF gas has BREACHED my own >€50 crisis threshold (€55.11, 7/16). German Mfg PMI is corrected UP (see below) — was in expansion in May/June, not sub-50 as I had it. Jul-4 tariff cliff RESOLVED (deal took effect). ECB next meets Jul 22-23.**
+
+**⚠️ 7/16 correction:** the 6/22 STATUS below understated German Mfg PMI materially — verified-primary May/June **final** readings are **50.1 / 50.3** (both expansion), not the 48.3/49.0 this file previously carried. See corrected row in §1. Everything else in the 6/22 body (ECB hike, TTF €42, sovereign spreads, bank calm) is unchanged/historical-context unless updated below.
 
 > **Revival note:** Full-domain live refresh via workflow `wf_d99906ff` (10 agents, each dimension self-verified vs an INDEPENDENT source). **Every number below web-verified as of Jun 22 2026.** Prior STATUS (the "🔴🔴🔴 WAR DAY 62 / protracted-conflict / EU energy-crisis" frame) archived → `workbook/STATUS_archive_20260430.md`. **That frame is now directionally wrong** — the war de-escalated (Islamabad MOU signed Jun 17; Brent $111→$78), and every European stress vector I was tracking has relaxed.
 
@@ -25,9 +27,11 @@
 
 ## #1 SIGNAL — GERMAN PMI → US ISM (~2-MONTH LEAD)
 
+**[as-of 2026-07-16]** — **CORRECTED:** German Mfg PMI **June FINAL = 50.3** (revised up from 50.0 flash) and **May FINAL = 50.1** (revised up from 49.9 flash) — both readings are **in expansion (>50)**, a five-month-low pace for June per TradingEconomics but still >50. This replaces/corrects the 6/22 row below, which had carried 49.0 June-flash / 48.3 May-final — those May/June-final figures were wrong; do not cite them further. Net effect: the "still sub-50, inflecting up" framing from 6/22 is **superseded** — PMI has actually been in expansion for at least 2 months. This still argues against a clean US ISM sub-49 break (if anything more strongly), but the specific levels below need replacing. **July flash due ~Jul 24 2026 — docketed, not yet released.** Sources: [investinglive.com 2026-07-01](https://investinglive.com/news/germany-june-final-manufacturing-pmi-503-vs-500-prelim-20260701/), [tradingeconomics.com/germany/manufacturing-pmi](https://tradingeconomics.com/germany/manufacturing-pmi) — both retrieved 2026-07-16.
+
 | Metric | Latest | Prior | Source (verified) |
 |--------|--------|-------|-------------------|
-| **German Mfg PMI** | **49.0** (June flash; 34-mo high, +0.7 MoM; 1st new-orders rise in >1yr) | 48.3 May final / 47.0 Dec | HCOB/S&P Global ✓ |
+| **German Mfg PMI** | **50.3 June FINAL** ✓ 7/16 (revised from 50.0 flash) | **50.1 May FINAL** ✓ 7/16 (revised from 49.9 flash) — ~~48.3/49.0 6/22 vintage, WRONG~~ | HCOB/S&P Global via TE/investinglive ✓✓ (2 sources) |
 | German Services PMI | 49.4 (June flash; 3-mo high) | 47.1 May | HCOB ✓ |
 | German Composite | **50.4 — back in EXPANSION** (June flash) | 48.5 May | HCOB ✓ |
 | Eurozone Mfg PMI | 51.6 (May final) | 52.2 Apr (~4-yr high) | HCOB ✓ |
@@ -59,17 +63,18 @@
 
 ---
 
-## ENERGY — CRISIS RELIEVED
+## ENERGY — 🔴 CRISIS RE-ARMED (7/16 update — Hormuz formally closed 7/11-12)
+
+**[as-of 2026-07-16]** Regime flip since the 6/22 "crisis relieved" read below: Iran **formally closed the Strait of Hormuz 7/11-12** (fleet-wide 🔴 ACTIVE per PROME); Qatar suspended maritime LNG transit; Trump ordered an Iranian-port blockade resumption + demanded a 20% security fee on Hormuz cargo (~7/14-15). **TTF has breached my own >€50 crisis threshold** — this is a fired threshold, not a watch item. Cross-agent flag sent to BRENT/HENRY/LIQUID (below).
 
 | Metric | Latest | Threshold | Source ✓ |
 |--------|--------|-----------|----------|
-| **TTF gas** | **€41.97/MWh** (~$13.3/MMBtu), +17.8% YoY | >€50 crisis | TE ✓ |
-| EU gas storage | **~46.7% full** (~46% across GIE/GEF); refill marginally AHEAD of required pace | <40 orange / <30 red | GIE/AGSI ✓ |
-| Qatar LNG | **FM formally extended to ~mid-Aug, but exports/transit RECOVERING** — ~300k t loaded wk to Jun 19 (most since early Mar); 4 tankers transited Hormuz | — | Bloomberg/Reuters ✓ |
-| German pump diesel | €1.795/L (-4% WoW) | >€2.00 industrial crisis | GlobalPetrolPrices ✓ |
-| Brent (cross-check) | $78.10 (-3.1% d/d) — matches BRENT | — | TE/CNBC ✓ |
+| **TTF gas** | **€55.11/MWh (7/16, +1.10% d/d)**; €53.1 (7/15); **+31.5% over trailing month** | **>€50 crisis — BREACHED 🔴** | TradingEconomics ✓ 7/16 |
+| EU gas storage | **~52.5% full (7/14, GIE AGSI+)** — up from 46.7% (6/22) on continued refill, but **~14pp BELOW the 5-yr seasonal norm**; mandatory 2026 winter target relaxed 90%→80% | <40 orange / <30 red (absolute); norm-gap is the binding constraint now | GIE/AGSI+ via GEF ✓ 7/14 |
+| Qatar LNG | Maritime transit **suspended again** following the formal Hormuz closure — reverses the 6/22 "recovering" read | — | search-corroborated, not primary-doc verified this pass |
+| Brent (cross-check, BRENT owns) | $84.7-85.0 (7/14-15, per PROME briefing) | — | BRENT |
 
-**Read:** Energy is **no longer an acute US-thesis stress vector.** TTF below my €50 line and far under Goldman's €74 war scenario; diesel falling = EU cost-push fading (supports the disinflation read HENRY tracks). My old "permanent loss of Qatari LNG" assumption is **reversed** — it was a temporary FM, now recovering. **Residual risk:** storage ~46% is below the seasonal norm (deficit metric is method-dependent: ~14-18pp depending on the norm/target definition) entering winter → a cold winter OR a Hormuz re-closure that *sticks* (vs the Jun-20 declaratory-only event) re-arms the gas vector in Q4. That is the trip-wire.
+**Read:** Energy is back to an **acute, live US-thesis stress vector** — reverse of the 6/22 call. TTF +31% in a month and above the crisis line; storage refill continued but the gap-to-norm is what matters entering an autumn/winter window under an active-closure regime (vs 6/22's temporary/declaratory framing). This directly complicates HENRY's disinflation read (cost-push channel re-arming) and is BRENT's lane for the oil/energy-price leg — HANS owns the EU gas/storage number only.
 
 **⚠️ 6/23 sweep update (energy axis marginally HOTTER on supply, CALM on price):** (a) **Qatar Ras Laffan explosion Jun 21-22 — 13 dead, 66 injured** at the Barzan facility *during* the LNG restart Europe is counting on (Italy 33% / Poland 25% / Belgium 16% of LNG from Qatar pre-war); Qatar calls it a technical accident, says exports unaffected — but it's a **2nd disruption at the same hub**, a real tail on the EU refill narrative `[BREAKING/UNCONFIRMED impact]`. (b) Hormuz transits collapsed to ~12 Sun (from ~35 Sat) on Iran's re-declaration, but **Geneva talks convened Jun 22 and set a safe-passage "mechanism"** + US issued a temporary Iranian-oil license → diplomacy live, strait contested-not-closed. (c) Price shrugged it off: **TTF ~€42 flat, Brent ~$78-80.** (d) The concrete re-escalation lever is the **Israel-Lebanon ceasefire fraying** (Iran's Hormuz re-declaration traces directly to Israeli S. Lebanon strikes) — **next Lebanon-Israel talks Washington Jun 23-25 = the near-term energy catalyst.**
 
@@ -93,7 +98,7 @@
 
 ## POLITICAL / DEFENSE / TRADE — THE ONE LIVE US CHANNEL
 
-- 🟡 **JULY 4 2026 EU-US TARIFF CLIFF (~12 days out) — was the single most US-market-relevant European item; now materially DE-RISKED.** Trump set a hard Jul-4 deadline to fully implement the 15% all-inclusive cap framework or go "much higher" (autos threatened 15%→25%). **6/23 sweep: European Parliament APPROVED the tariff-implementation texts Jun 16** (zero tariffs on US industrial goods; preferential US ag/seafood access) → EU on track to **beat** the deadline; only **Council formal sign-off** remains. Auto-escalation tail reduced, not eliminated (downgraded 🟠→🟡). Watch for any fresh Trump statement into Jul 4 as the only acute tail. → PROME/HENRY catalyst docket.
+- ✅ **JULY 4 2026 EU-US TARIFF CLIFF — RESOLVED, loop closed 7/16.** EU implemented its side of the deal and published enacting texts before the deadline (confirmed 6/25, in force ~6/30-7/1) — **beat** the deadline as the 6/23 sweep expected. Terms: **15% baseline on most EU exports to US; zero tariffs on US industrial goods into EU**; includes a Commission suspension-safeguard if the US side reneges, and a **2029 sunset/renewal clause**. No further action; this catalyst is closed. Sources: [dailycaller.com 6/25](https://dailycaller.com/2026/06/25/eu-finalizes-us-trade-deal-trump-july-4-deadline/), [rte.ie 6/30](https://www.rte.ie/news/business/2026/0630/1581078-eu-to-implement-trade-deal-with-us-from-tomorrow/).
 - France: **Lecornu in office, stable** (survived no-confidence votes; 2026 budget passed via 49.3). OAT-Bund 72bps = NOT transmitting; fastest-repricing tail if it destabilizes.
 - Germany: **Merz coalition intact;** 2026 budget €524.5B (borrowing €174.3B, ~3× two-years-prior); defense €108.2B (€82.7B core + €25.5B Zeitenwende), ~€650B/5yr path to NATO 3.5% by 2029 — orderly, heavy long-end Bund supply.
 - EU-China: rare-earth truce (EU benefits derivatively via the US-China truce) expires ~Oct/Nov 2026; ACI threatened/under-study, NOT invoked — latent, not live.
@@ -101,7 +106,16 @@
 
 ---
 
-## CROSS-AGENT FLAGS (Jun 22)
+## CROSS-AGENT FLAGS (Jul 16)
+
+| → Agent | Signal | Pri |
+|---------|--------|-----|
+| **BRENT / HENRY / LIQUID** | **TTF gas €55.11/MWh (7/16) — BREACHED my >€50 crisis threshold**, +31.5% trailing month, driven by the 7/11-12 formal Hormuz closure + Qatar transit re-suspension. EU storage 52.5% (7/14) — refilling but ~14pp below 5-yr norm. Reverses my 6/22 "energy no longer acute" call. Cost-push/stagflation channel re-arming — relevant to HENRY's disinflation read and LIQUID's funding-stress watch. | 🟠 |
+| **ZHAO** | Custody-hub check delivered (Lux/Cayman/Ireland) — Cayman +$28.2B Feb-Apr vs China's -$43.1B is the one candidate re-routing flag, didn't sustain into May as China itself rebounded +$8.2B Apr→May. Full detail: `research/2026-07-16_china-custody-hub-check.md` + outbox delivered to ZHAO inbox. | 🟠 |
+| **HENRY** | German Mfg PMI **correction**: May/June final = 50.1/50.3 (expansion), not the 48.3/49.0 this file previously carried — supersedes the 6/22 flag below; still argues against a clean ISM sub-49 break. | 🟡 |
+| **PROME** | Jul-4 tariff cliff RESOLVED (deal in force, terms above) — remove from live catalyst docket. ECB next meets Jul 22-23 (decision 13:45 CET, presser 14:30 CET). | 🟡 |
+
+## CROSS-AGENT FLAGS (Jun 22, historical)
 
 | → Agent | Signal | Pri |
 |---------|--------|-----|
@@ -125,14 +139,14 @@
 
 ---
 
-## CATALYST DOCKET (forward)
+## CATALYST DOCKET (forward, refreshed 7/16)
 
 | Date | Event | Pri |
 |------|-------|-----|
-| **Jun 23-25** | **Israel-Lebanon talks (Washington)** — the live energy-re-escalation lever (Hormuz/Lebanon seam) | 🟠 |
-| **~Jun 24** | German Ifo (June) — confirm the rebound; June flash already up | 🟡 |
-| **Jul 4 2026** | EU-US tariff cliff — **DE-RISKED** (EP approved texts Jun 16, Council sign-off pending) | 🟡 |
-| Jul 22 2026 | ECB Governing Council (no pre-commitment; Sept favored for next move) | 🟡 |
+| ~~Jul 4 2026~~ | ~~EU-US tariff cliff~~ — **RESOLVED**, deal in force since ~7/1 | ✅ closed |
+| **Jul 22-23 2026** | **ECB Governing Council** — decision Jul 23 13:45 CET, Lagarde presser 14:30 CET. Watch for any response to the energy-inflation re-impulse from Hormuz (ECB hiked once already on the earlier war-inflation pass; a second acute leg could re-open the hiking debate) | 🟠 |
+| **~Jul 24 2026** | German/EU flash PMI (July) — first read since the confirmed May/June expansion prints; also first read to reflect any Hormuz-driven sentiment hit | 🟠 |
+| Ongoing | Hormuz closure / TTF trajectory — my own >€50 threshold already fired; next watch line is a sustained break toward the Goldman €74 war-scenario band | 🔴 |
 | ~Oct/Nov 2026 | EU-China rare-earth truce expiry | 🟡 |
 
 ---
