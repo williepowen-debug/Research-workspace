@@ -27,7 +27,7 @@
 >
 > **FALLBACK (per F10):** if country-level net-transactions granularity for LT Treasuries is **not cleanly available** at the release, do **NOT** treat bare holdings-down as sufficient. Flag the granularity gap to PROME and hold **arm-#3 = UNDETERMINED** pending a transactions-level read. Do not arm on a valuation-contaminated holdings print.
 
-Note: arm-#3 is a **secondary** confirmation on TRY-FIRE-004. Arm-#2 already **COMPLETED 5-of-5 Mon 7/13** (FIRED-UNEXECUTED) → the card's consequence (TERRY arms → Will) is already owed regardless of ARM3. ARM3 grade adds/subtracts a flow leg; it does not gate the arm-#2 consequence.
+Note: arm-#3 is a **secondary / deepen-only** confirmation on TRY-FIRE-004. Arm-#2 **COMPLETED 5-of-5 Mon 7/13 → RESOLVED-ARMED 7/16**; TERRY armed TRY-FIRE-004 the same session it was found, and **Will decided NO-ADD / no-fill the same morning** (book-aware rec accepted, $500 banked for re-fire; ACTIVE_DECISIONS e396dddd, GATES b64e970e) → **no consequence outstanding.** ARM3 adds/subtracts a flow leg on an already-ARMED-but-fill-DECLINED card; it does not re-open the fill decision.
 
 ---
 
