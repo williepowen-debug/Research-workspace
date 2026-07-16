@@ -45,28 +45,41 @@ DISCRIMINATOR LOG (dated entries — record, don't re-derive ZONE 1)
 
 **2026-07-09 PM patch note:** per-arm re-read of the above (F5, see ZONE 1 Invalidation) — the clean 7/9 print (indirect 77.74%, no tail) is arm-#1's DISARM, formally confirming **arm-#1 DEAD**, not a card-global lapse. Card-level lapse requires arm-#2 AND arm-#3 also dead, which they are not (arm-#2 LIVE WATCH 2-of-5 pending close; arm-#3 PENDING 7/16). **Card stays ALIVE, re-scoped — PRE-BUILT/SHELVED status is about trade-readiness (no arm yet fired), not about the card being lapsed/dead.**
 
+**2026-07-16 ~09:35 ET — ARM-#2 FIRED → CARD ARMED (arm packet built for Will [Approve]).** Source: FRED DGS10 direct pull, TERRY-verified this session (independent of PROME's boot pull). Fleet was offline 7/13–7/15 (usage limits); arm-#2 completed during the gap and is caught + actioned same-session per the fire-ledger rule.
+
+| Discriminator | State as of 7/16 | Arm threshold | Met? |
+|---|---|---|---|
+| #1 BND-11 acute (30Y reopen) | DEAD since 7/9 (indirect 77.74%, no tail). | — | **DEAD (unchanged)** |
+| #2 VX-BND-05 10Y-sustain | **5-of-5 COMPLETE Mon 7/13** — official DGS10: 7/7 4.55 · 7/8 4.56 · 7/9 4.54 · 7/10 4.56 · **7/13 4.62** · 7/14 4.58 (streak intact, count 6; no <4.50 close = no disarm). | 5 consecutive closes ≥4.50 | **YES — FIRED, HIGH confidence** |
+| #3 Soft May TIC (7/16) | Releases **today 4:00 PM ET**; grading template pre-staged. Per F10: net TRANSACTIONS (China AND Japan both net sellers, Apr vs May), NOT bare holdings-down. | China AND Japan both net sellers (transactions) | **PENDING — grades today PM** |
+
+**Verdict: arm-#2 FIRED → card ARMED.** Registered consequence executed: arm packet → `AGENTS/TERRY/outbox/2026-07-16_to-PROME_try-fire-004-arm-packet.md` → Will [Approve] + live broker book. **Terry fill-verdict = CONDITIONAL** (armed as registered, not a chase-now rec): live option marks were unavailable at 09:32 ET (bid/ask 0.00, stale 7/15 last-trades, broken IV) → live re-pull required (rule #4); TLT is RED and at range lows → today's open is a rule-#6 chase, prefer a green-day/scaled fill. Context: June CPI 7/14 cool (−0.42% MoM headline) yet 10Y held the line = term-premium channel confirmed; MOVE round-tripped (77.77 [7/14] → 68.48 [7/16]); July CPI (mid-Aug) carries the Hormuz/Brent oil shock. **Latch:** arm-#2 is ARMED and latches until a <4.50 close disarms it (F6 precedence rule).
+
 ══════════════════════════════════════════════════════════════
 ZONE 2 — LIVE MARKS (fill ONLY at actual fire — rule #4)
 ══════════════════════════════════════════════════════════════
-- **Timestamp (ET):** ____
-- **Trigger-level confirm:** [which discriminator fired] — DID IT ACTUALLY HIT? [Y/N]
-- **Spot(s):** TLT $____ (from `fetch.py price TLT --json`) — as-of ____
-- **Green/red day check (rule #6):** [puts on green ✓ / calls on red ✓ / breaking & why]
-- **Chain marks:** `chain_fetch.py TLT <EXPIRY> --type put --no-cache`
-  | Strike | Mark | Spread% | IV% | OI | Moneyness% |
-  |---|---|---|---|---|---|
-  | | | | | | |
-- **Liquidity OK?** [Y/N]
-- **Broker position truth:** `[POSITION_STATE_UNKNOWN]` until pulled live at fire.
-- **Sizing:** `risk_calc.py --premium <mark> --max-loss 500` → ____ contracts
+- **Timestamp (ET):** 2026-07-16 ~09:32–09:35 ET (ARM pull; NOT a fill)
+- **Trigger-level confirm:** arm-#2 (10Y 5-close sustain) — DID IT ACTUALLY HIT? **Y** (5-of-5 complete 7/13, FRED-verified §DISCRIMINATOR LOG)
+- **Spot(s):** TLT **$83.80** (fetch.py, −0.52% d/d) — as-of 2026-07-16 09:35 ET; 10Y 4.59, 30Y 5.12, MOVE 68.48
+- **Green/red day check (rule #6):** **RED day (TLT −0.52%, at range lows) — BREAKING rule #6.** Why noted: arm is a registered consequence firing today; but the FILL should not chase — prefer green-day/scaled entry (see arm packet §7.1). Vol axis partially offsets (MOVE 77→68.48, IV deflating).
+- **Chain marks:** `chain_fetch.py TLT 2026-09-18 --type put --no-cache` — **⚠️ 09:32 ET returned bid/ask = 0.00 ALL strikes, last-trades stamped 7/15, IV field broken (6.25% floor). NOT fillable. Re-pull required once options trade today (~15–30 min post-open) or read broker chain.**
+  | Strike | Mark (live) | Stale lastPrice [7/15] | OI | Moneyness% |
+  |---|---|---|---|---|
+  | 77 P | _pending live_ | $0.09 (unreliable) | 54,506 | −8.1% |
+  | 76 P | _pending live_ | $0.07 (unreliable) | 2,661 | −9.3% |
+  | 75 P | _pending live_ | $0.05 (unreliable) | 30,195 | −10.5% |
+  | 74 P | _pending live_ | $0.05 (unreliable) | 3,674 | −11.7% |
+- **Liquidity OK?** OI deep on 77/75; **spread unconfirmed** (0.00 at pull) → confirm at live re-pull.
+- **Broker position truth:** `[POSITION_STATE_UNKNOWN]` — off-repo, Will's broker book required at fire (rule #4).
+- **Sizing:** `risk_calc.py --premium <live_mark> --max-loss 500` → contracts = floor(500/(mark×100)); e.g. $0.10→50, $0.20→25, $0.30→16. Max loss hard-capped $500 (defined-risk).
 
 ══════════════════════════════════════════════════════════════
 ZONE 3 — TRIGGER CONFIRM + DECISION
 ══════════════════════════════════════════════════════════════
-- [ ] A discriminator actually fired (not a near-miss) · [ ] Live marks < 15 min · [ ] Green/red OK
-- [ ] Liquidity OK · [ ] Max loss ≤ $500 · [ ] Position truth known
+- [x] A discriminator actually fired (arm-#2, 5-of-5 7/13) · [ ] Live marks < 15 min (**BLOCKED — 0.00 at 09:32, re-pull req'd**) · [ ] Green/red OK (**RED, rule-#6 break flagged**)
+- [ ] Liquidity OK (spread unconfirmed) · [x] Max loss ≤ $500 (defined-risk) · [ ] Position truth known (off-repo)
 
-**Terry verdict (as of 2026-07-09 PM patch):** **NO TRADE — NO-ARM.** Card remains PRE-BUILT/SHELVED, 0 fired. Arm-#1 DEAD (confirmed 7/9), arm-#2 LIVE WATCH (2-of-5, pending 7/9 close), arm-#3 PENDING (7/16) — card is ALIVE and re-scoped, NOT lapsed (per-arm invalidation, F5).
-**Decision:** [ ] APPROVE  [ ] REJECT  [x] HOLD — awaiting discriminator
+**Terry verdict (as of 2026-07-16 ARM):** **CONDITIONAL — CARD ARMED, arm packet delivered.** Arm-#2 FIRED (5-of-5 complete 7/13, TERRY-verified). Registered consequence executed → arm packet `outbox/2026-07-16_to-PROME_try-fire-004-arm-packet.md` → Will [Approve]. NOT a chase-now rec: live marks blocked (re-pull required, rule #4), red-day/range-low entry (rule #6 break), deep-OTM low-delta structure. Arm-#1 DEAD, arm-#3 PENDING (grades today 4pm). Card is ARMED, ALIVE, re-scoped.
+**Decision:** [ ] APPROVE  [ ] APPROVE-MODIFIED (spread/closer-strike/green-day scale)  [ ] REJECT  [ ] HOLD — Will's call at live marks
 
 **APPROVAL REQUIRED — Will must approve/reject before execution. Terry never executes.**
