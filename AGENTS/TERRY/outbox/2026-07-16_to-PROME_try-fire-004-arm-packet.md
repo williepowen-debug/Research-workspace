@@ -35,17 +35,21 @@ Semantics applied per BOND co-ratification (2dp DGS10, ≥ inclusive, holidays n
 
 **TLT 6-session tape:** 84.36 (7/8) · 84.49 (7/9) · 84.47 (7/10) · 83.97 (7/13) · 84.08 (7/14) · 84.24 (7/15) · **83.80 (7/16)**. Grinding lower; today gapped down and sits at range lows.
 
-## 3. ⚠️ LIVE OPTION MARKS NOT AVAILABLE (rule #4 blocker — read before sizing)
-At 09:32 ET the TLT Sep-18 put chain (yfinance, `--no-cache`) returns **bid/ask = 0.00 across all strikes**, last-trades stamped **7/15** (yesterday), and a **broken IV field (6.25% floor)**. Options have not traded today yet (first minutes after open). **These are NOT fillable marks.** Stale last-prices below are indicative only:
+## 3. ⚠️ LIVE OPTION MARKS UNAVAILABLE via tool — broker chain required (rule #4). Reference = 7/15 close.
+**Re-pulled live at 09:45 ET (15+ min post-open, `--no-cache`) — still no live NBBO.** Diagnostic run confirms a **yfinance feed limitation, not timing/illiquidity:**
+- **0 puts** have a 2026-07-16 trade; **ATM bid/ask = 0.00** on even the 56k-OI 83 put and 14k-OI 84 put; `fast_info` TLT spot returns `None`. Only 1 of 23 strikes shows any nonzero quote.
+- ⇒ **The tool cannot produce fillable intraday marks today. Live marks REQUIRE Will's broker chain (rule #4).**
 
-| Strike | Moneyness | Stale lastPrice [7/15] | OI | Vol |
-|---|---|---:|---:|---:|
-| 77 P | −8.1% | $0.09 | 54,506 | 5,050 |
-| 76 P | −9.3% | $0.07 | 2,661 | 15 |
-| 75 P | −10.5% | $0.05 | 30,195 | 23 |
-| 74 P | −11.7% | $0.05 | 3,674 | 3 |
+**Reference basis = 7/15 prior-session CLOSE (lastPrice), ~1 day stale.** The ATM ladder is clean and monotonic (80=$0.23 · 81=$0.35 · 82=$0.57 · 83=$0.84 · 84=$1.27), so these are real closing marks, usable as a *reference* (NOT a fill). Target 8–12% OTM strikes:
 
-The penny prints + broken IV are **not trustworthy** (a Sep 63-DTE 8% OTM TLT put on realistic ~12–14% IV should be worth materially more than $0.09). **REQUIREMENT: pull a live chain once options trade today (re-run `chain_fetch.py TLT 2026-09-18 --type put --no-cache`, ~15–30 min post-open) OR read Will's live broker chain BEFORE any fill.** Sizing below is a formula, not a filled number.
+| Strike | Mny% (@83.81) | 7/15 close (ref) | LastTrade [vol] | OI | Reliability |
+|---|---|---:|---|---:|---|
+| 77 P | −8.1% | **$0.09** | 7/15 [vol 5,050] | 54,506 | good — heavily traded 7/15 |
+| 76 P | −9.3% | $0.07 | 7/15 [vol 15] | 2,661 | fair — thin |
+| 75 P | −10.5% | $0.05 | 7/15 [vol 23] | 30,195 | fair — thin |
+| 74 P | −11.7% | $0.05 | 7/10 [vol 3] | 3,674 | stale (7/10) |
+
+**77 P ($0.09, 7/15) is the most reliable reference** (the day's most active). TLT is −0.51% today → live put marks likely a touch *higher* than the 7/15 ref (fewer contracts per $500). **Confirm the live bid/ask on Will's broker before any fill** — at penny premiums a 1–2¢ difference swings contract count ±20–40%.
 
 ## 4. Structure (pre-locked in ZONE 1 — honored)
 - **Instrument:** TLT puts, outright. **Expiry: 2026-09-18** (Sep monthly; captures the July-CPI/TIC window + buffer, 63 DTE).
@@ -53,17 +57,16 @@ The penny prints + broken IV are **not trustworthy** (a Sep 63-DTE 8% OTM TLT pu
   - Best listed liquidity: **77 P** (OI 54.5k, today's most active) and **75 P** (OI 30k).
 - **Rationale (card ZONE 1):** convex expression of a term-premium/inflation duration shock; beats outright TLT short (unbounded/margin) and long-dated puts (wrong tenor for a velocity catalyst).
 
-## 5. Sizing framework ($500 max-loss cap, rule: contracts = floor(500 / (mark × 100)))
-Fill the mark column at live-pull time; the position is defined-risk (max loss = premium paid, hard-capped $500):
+## 5. Sizing ($500 max-loss cap; contracts = floor(500 / (mark × 100)))
+Defined-risk — max loss = premium paid, hard-capped $500. **Sized off the 7/15 reference (§3); re-run `risk_calc.py --premium <live_broker_mark> --max-loss 500` at fill:**
 
-| If live mark = | Contracts (≤$500) | Actual $ at risk |
-|---:|---:|---:|
-| $0.10 | 50 | $500 |
-| $0.20 | 25 | $500 |
-| $0.30 | 16 | $480 |
-| $0.50 | 10 | $500 |
+| Strike | Ref mark [7/15] | Contracts @ ref | Cost @ ref | Note |
+|---|---:|---:|---:|---|
+| **77 P** (rec) | $0.09 | **55** | $495 | most reliable ref; best OI/liquidity |
+| 76 P | $0.07 | 71 | $497 | thin recent volume |
+| 75 P | $0.05 | 100 | $500 | thin; penny-sensitive |
 
-`risk_calc.py --premium <live_mark> --max-loss 500` at fire. **Max loss cannot exceed premium paid.** Note: at deep-OTM strikes each contract is low-delta (~5–10Δ), so this is a **convex tail bet** — cheap, low hit-rate, needs a large TLT move (≥8–12% to Sep) to pay.
+**Live-mark sensitivity (why the broker mark matters):** if today's live 77 P prints $0.11 → 45 contracts ($495); $0.13 → 38 ($494). TLT −0.5% today pushes puts up, so expect *fewer* than 55. **Structural read:** each 8–12% OTM contract is low-delta (~5–10Δ) — this is a **convex tail bet** (cheap, low hit-rate, needs a ≥8–12% TLT move to ~74–77 by Sep 18). 55× the 77 P ≈ ~300–550 share-equiv of short-TLT delta = a defined-risk lottery on a duration shock, not a core short.
 
 ## 6. Decision context — what changed since the card was scoped (goes IN, doesn't veto the arm)
 - **June CPI (7/14) printed COOL** — headline −0.42% MoM (outright deflationary month), core −0.02% [FRED CPIAUCSL/CPILFESL] — **yet the 10Y HELD the 4.50 line** (4.62 pre-print → 4.58 post). This is the bull case for the *re-scoped* thesis: yields sustaining despite a cool print = **term premium, not inflation expectations**. The demand-hole leg was already refuted (7/9 auction); this is the term-premium/inflation-channel card.
@@ -80,8 +83,8 @@ Fill the mark column at live-pull time; the position is defined-risk (max loss =
 
 ## 8. Execution checklist (must all be TRUE before fill)
 - [ ] Arm-#2 fired — **YES (verified §1)**
-- [ ] Live option marks pulled <15 min old — **NO (blocked, §3) → re-pull required**
-- [ ] Green/red check (rule #6) — **RED day, flagged (§7.1)**
+- [ ] Live option marks pulled <15 min old — **NO — tool can't serve live TLT option NBBO (re-pulled 09:45 ET, still 0.00; §3). Will's broker chain required.**
+- [ ] Green/red check (rule #6) — **RED day (TLT −0.51% @09:45), flagged (§7.1)**
 - [ ] Liquidity OK (77/75 P deep) — pending live spread confirm
 - [ ] Max loss ≤ $500 — **YES (defined-risk, §5)**
 - [ ] Position truth known — **NO → Will's broker book required**
