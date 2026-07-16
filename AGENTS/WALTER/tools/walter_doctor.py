@@ -27,6 +27,11 @@ Checks:
   written_but_undelivered   inbox/WALTER/ handoff committed-local but not on origin (git-derived)
   deep_research_pending_overdue  DEEP_RESEARCH_FLAGGED_LOG row PENDING past its deadline (or stale open >30d)
   staleness_sweep_overdue  last STALENESS_SWEEP_*.tsv vs 14d cadence (lifecycle-tagging lapse guard)
+  dropzone_pending       unprocessed items in the inbox/WILL/ desktop drop-zone (backstops step 7f)
+  boot_protocol_xref     every [→ BP §x] pointer resolves to a real BOOT_PROTOCOL section (and back)
+  status_spine_overflow  STATUS.md dated-lead count vs the ~5 cap (protocol §12 spine-trim guard)
+  restated_set_drift     prose restatements of a SET/COUNT vs canonical source (3 seeds; see docstring)
+  cluster_softcap_breach cluster size vs its CLUSTER_TAXONOMY soft cap (split-vs-keep prompt)
 
 The two delivery checks mechanize BOARD_CONSUMPTION_SPEC v0.2 §6 (the anti-rot
 safeguard for the WALTER Routing v2 delivery layer). Sync/origin state is derived
@@ -825,7 +830,8 @@ def check_restated_set_drift():
     of the 11' when CLIMATE_MACRO made it 12 on 6/28 (18 days stale, in the step run on
     every dispatch). Same class as the two version checks, one datum-type over.
 
-    SCOPED TO TWO SEEDS ON PURPOSE (Will-approved 2026-07-16). This is NOT a generic
+    SCOPED TO THREE SEEDS ON PURPOSE (Will-approved 2026-07-16; seed 3 added same day).
+    This is NOT a generic
     'scan prose for stale claims' — that isn't buildable and would be overselling. It
     checks only registered (canonical -> restatement-site) pairs, so a NEW restatement
     somewhere else is invisible until added here. Adding a seed = add a SEEDS entry.
@@ -920,9 +926,108 @@ def check_restated_set_drift():
                         bits.append(f"taxonomy has un-sectioned {{{', '.join(sorted(missing))}}}")
                     out.append((MED, "BOARD INDEX cluster sections ≠ CLUSTER_TAXONOMY: " + "; ".join(bits)))
 
+    # ── Seed 3: the doctor's own check set ──────────────────────────────────────
+    # Canonical = this module's CHECKS list — the strongest possible ground truth
+    # (exact, no regex on the canon side). LOWEST-VALUE seed of the three and
+    # deliberately labelled as such: a wrong check-count is COSMETIC (nobody acts on
+    # it), unlike seeds 1-2 which guard BEHAVIOURAL claims (RULE 10 decides whether a
+    # handoff gets written; step 11 runs on every dispatch). Added on near-zero-cost
+    # grounds, not value — it caught two real drifts on 2026-07-16 (CLAUDE.md "the 15
+    # checks" when there were 18; BP §0.5 enumerating 17, having never been given
+    # status_spine_overflow when it landed 7/11).
+    names = {n for n, _ in CHECKS}
+    claude = _read(WALTER / "CLAUDE.md")
+    if claude:
+        m = re.search(r"BP §0\.5 for the (\d+) checks", claude)
+        if not m:
+            out.append((LOW, "CLAUDE.md step 0.5: check-count claim didn't match — "
+                             "phrasing changed? re-anchor the regex"))
+        elif int(m.group(1)) != len(names):
+            out.append((MED, f"CLAUDE.md step 0.5 says 'the {m.group(1)} checks' but CHECKS "
+                             f"has {len(names)} — stale restatement"))
+    # this module's own docstring "Checks:" block — a 3rd restatement, and it was
+    # itself stale (listed 15 of 20) when seed 3 was built. Self-referential on purpose.
+    doc = __doc__ or ""
+    block = re.search(r"^Checks:\n(.*?)^\n", doc, re.S | re.M)
+    if block:
+        docnames = set(re.findall(r"^  ([a-z_]+)\s", block.group(1), re.M))
+        if docnames and docnames != names:
+            miss, extra = names - docnames, docnames - names
+            bits = []
+            if miss:
+                bits.append(f"CHECKS undocumented: {{{', '.join(sorted(miss))}}}")
+            if extra:
+                bits.append(f"documented but gone: {{{', '.join(sorted(extra))}}}")
+            out.append((MED, "walter_doctor module docstring 'Checks:' ≠ CHECKS — " + "; ".join(bits)))
+
+    bp = _read(WALTER / "design/BOOT_PROTOCOL.md")
+    if bp:
+        sec = re.search(r"^## §0\.5.*?(?=^## §\d)", bp, re.S | re.M)
+        if not sec:
+            out.append((LOW, "BOOT_PROTOCOL §0.5 span didn't parse — re-anchor before trusting"))
+        else:
+            listed = set(re.findall(r"^\d+\. \*\*([a-z_]+)\*\*", sec.group(0), re.M))
+            if listed and listed != names:
+                miss, extra = names - listed, listed - names
+                bits = []
+                if miss:
+                    bits.append(f"CHECKS not enumerated: {{{', '.join(sorted(miss))}}}")
+                if extra:
+                    bits.append(f"enumerated but not in CHECKS: {{{', '.join(sorted(extra))}}}")
+                out.append((MED, "BOOT_PROTOCOL §0.5 enumeration ≠ CHECKS — " + "; ".join(bits)))
+
     if not out:
         out.append((INFO, f"restated sets match canon (pull-complete = "
-                          f"{{{', '.join(sorted(truth))}}}; clusters = {len(clusters)})"))
+                          f"{{{', '.join(sorted(truth))}}}; clusters = {len(clusters)}; "
+                          f"checks = {len(names)})"))
+    return out
+
+
+def check_cluster_softcap_breach():
+    """A cluster's soft cap (CLUSTER_TAXONOMY `Soft cap` column) is the size at which
+    its split-vs-keep decision re-opens. NOT a restatement check — a THRESHOLD check,
+    same shape as status_spine_overflow, which is why it lives on its own rather than
+    inside restated_set_drift.
+
+    Why it exists: the cap was un-evaluable from the doc that defined it. Through v0.3
+    the taxonomy carried a rotting `Current count` column (a v0.1-era snapshot), so
+    AI_INFRA_CAPEX read **3** against its cap of **15** while BOARD actually held **23**
+    — a governance rule breached by 8 with nothing surfacing it, for ~6 weeks. v0.4
+    (2026-07-16, Will-approved) swapped the derived-and-rotting count column for the
+    stable cap column and pointed counts at the live INDEX ToC; this check closes the
+    loop by evaluating the cap against that live count.
+
+    A breach is a PROMPT, not a rule: it re-opens the split-vs-keep question (taxonomy
+    MISC-vs-new-cluster tree). It does NOT auto-split, auto-raise the cap, or block
+    dispatch — **Will signs off** on any split. MED so it's visible without pretending
+    to be blocking."""
+    tax = _read(WALTER / "design/CLUSTER_TAXONOMY.md")
+    idx = _read(BOARD / "INDEX.md")
+    if tax is None or idx is None:
+        return [(LOW, "CLUSTER_TAXONOMY.md or BOARD/INDEX.md unreadable — soft caps unchecked")]
+    caps = {}
+    for name, cell in re.findall(r"^\|\s*\d+\s*\|\s*\*\*([A-Z][A-Z_]+)\*\*\s*\|[^|]*\|([^|]*)\|",
+                                 tax, re.M):
+        m = re.search(r"\d+", cell)
+        if m:
+            caps[name] = int(m.group(0))
+    if not caps:
+        return [(INFO, "no cluster soft caps set (taxonomy `Soft cap` column all '—')")]
+    live = {n: int(c) for n, c in re.findall(r"^## ([A-Z][A-Z_]+) \((\d+)\)$", idx, re.M)}
+    out = []
+    for name, cap in sorted(caps.items()):
+        n = live.get(name)
+        if n is None:
+            out.append((LOW, f"soft cap set for {name} (cap {cap}) but no BOARD INDEX section — "
+                             f"cluster renamed or not yet used?"))
+        elif n > cap:
+            out.append((MED, f"{name} is {n} vs soft cap {cap} (+{n - cap}) — BREACHED: re-open "
+                             f"split-vs-keep (taxonomy MISC-vs-new-cluster tree). A prompt, not a "
+                             f"rule — Will signs off on any split; do NOT auto-split or re-cap."))
+    if not out:
+        out.append((INFO, "all cluster soft caps within limit ("
+                          + ", ".join(f"{n} {live.get(n, '?')}/{c}" for n, c in sorted(caps.items()))
+                          + ")"))
     return out
 
 
@@ -946,6 +1051,7 @@ CHECKS = [
     ("dropzone_pending", check_dropzone_pending),
     ("boot_protocol_xref", check_boot_protocol_xref),
     ("status_spine_overflow", check_status_spine_overflow),
+    ("cluster_softcap_breach", check_cluster_softcap_breach),
 ]
 
 MARK = {HIGH: "✗", MED: "⚠", LOW: "·", INFO: "✓"}
