@@ -200,7 +200,11 @@ IG OAS peaked **164bps (Mar 15)** — modest. **Both are true: IG barely moved; 
 - **ICE BofA HY OAS `BAMLH0A0HYM2` / IG `BAMLC0A0CM`** — full history via archived FRED raw endpoint, `Source: Ice Data Indices, LLC`, range 1996-12-31→2023-12-11 [PRIMARY] *(DEWEY-verified 7/16; see BACKLOG — FRED's live API is truncated to a rolling ~3yr window)*
 - FRED (DEWEY-pulled 7/16): SOFR, SOFR1/25/75/**99**, SOFRVOL, **IORB**/IOER, EFFR, RRPONTSYD, WRESBAL, TEDRATE, DBAA, DAAA, DGS2, DGS10, WLCFOCEL, BORROW, H.8 deposits
 - Supporting artifacts (this run): `output/2026-07-16_repo-market-svb-window-mar2023.md` · `output/2026-07-16_credit-spreads-march-2023-oas.md` · `output/2026-07-16_svb-march-2023-sequence-verification.md`
-- Scratch: `sofr99_iorb_spread.csv` (2,066 daily rows: `date, sofr, sofr99, policy, policy_src, spread99_bps, sofr_bps, effr_bps, rrp_bn, sofrvol_bn`) + `build.py`
+- **Reproduction recipe** (the FP census is derived data — regenerate it, do not chase a path). The working series was 2,066 daily rows `date, sofr, sofr99, policy, policy_src, spread99_bps, sofr_bps, effr_bps, rrp_bn, sofrvol_bn`, built as:
+  1. `scripts/fred_pull.py {SOFR,SOFR99,EFFR,RRPONTSYD,SOFRVOL} --start 2018-04-03 --csv` *(the `--start` bug is fixed as of `fef252d9`; pre-fix pulls silently returned the ten OLDEST rows)*
+  2. Policy rate = **IORB spliced to IOER at the 2021-07-28/29 seam** (level-continuous at 0.15%); tag each row with which one applies.
+  3. `spread99_bps = (SOFR99 − policy) × 100`; fire = spread ≥ threshold; flag ±2 business days of quarter-end / month-end / Apr-15.
+  *(The original working files lived under a session-scoped `/tmp` scratchpad and are gone by design — session-UUID'd paths do not survive the session, so they are deliberately not cited as artifacts. Closeout step 8d.)*
 
 ---
 
