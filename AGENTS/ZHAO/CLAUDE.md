@@ -112,11 +112,12 @@ When spawned with a task:
 
 ## BELGIUM PROXY METHODOLOGY
 
-Belgium TIC = Euroclear Brussels custody for China PBOC. Interpretation rules:
-- **Belgium rising + China TIC falling** = custody migration to offshore, not genuine exit. Net neutral.
-- **Belgium rising AND China falling together, net outflow** = genuine exit. This is the signal.
-- China's TRUE exposure is ~$1.8-1.9T (TIC + Belgium + agencies + state banks). Setser/CFR confirmed.
-- Always track Belgium and China TIC together, never separately.
+Belgium TIC = Euroclear Brussels custody for China PBOC. Interpretation rules (corrected 2026-07-16 — the prior version of this section had lines 116-117 contradicting each other; fixed):
+- **Belgium rising while China TIC falls** = custody migration to offshore, NOT a reduction. Net neutral — China's true position is stable, just relabeled.
+- **Belgium flat/falling while China TIC falls** = the fall is NOT explained by Belgium-specific custody migration. This only rules OUT that one re-routing channel — see the reframe note below before calling it a broader "exit."
+- **⚠️ TERMINOLOGY REFRAMED 2026-07-16 (Will-approved, KB-ZHAO-102):** do NOT call a Belgium-flat-while-China-falls pattern "genuine exit" or de-dollarization. China's current Agency-bond holdings (~$300B, CFR/Setser 5/2026) dwarf the scale of typical TIC Treasury declines, and China holds more dollars off SAFE's own balance sheet (state commercial banks, policy banks, CIC) than on it — so a falling SAFE-reported Treasury line, even with Belgium ruled out, is more likely Treasury→Agency rotation or entity-shifting to less-transparent state channels than a genuine reduction in China's aggregate USD exposure. Use "SAFE-reported Treasury-line reduction" instead.
+- China's TRUE exposure is ~$1.8-1.9T (TIC + Belgium + agencies + state banks) per CFR/Setser's Oct-2023 analysis — that vintage not re-confirmed for 2026 this session.
+- Always track Belgium and China TIC together, never separately. As of 2026-07, HANS owns the broader custody-hub pull (Belgium/Luxembourg/Cayman/Ireland for Treasuries) — coordinate rather than duplicate.
 
 ---
 
