@@ -166,7 +166,8 @@ The April STATUS was built around a late-Feb/March Gulf shooting war (Hormuz clo
 | **Jul 15** | China Q2 GDP — PRINTED 4.3% YoY (miss vs 4.5%, down from Q1 5.0%) [NBS] | ✅ done, logged KB-ZHAO-095 |
 | **Jul 16** | BoK policy meeting — PRINTED: HIKED +25bp to 2.75% | ✅ done, ZHA-12 forward branch open |
 | **Jul 16 ~4PM ET** | TIC May 2026 data — China/Belgium (ZHA-04) + Korea (ZHA-13) + arbiter for ZHA-11 (30Y China-leg, aggregate-only test) | 🔴 pre-registered, awaiting print |
-| ~Jul 21 | China LPR decision | 🟡 pre-registration check pending (task 2) |
+| **Jul 21** | China LPR decision | 🟡 pre-registered ZHA-14 (30%, DOWNGRADED — analyst consensus expects rate held rest of 2026) |
+| **Late Jul (exact date TBC)** | Politburo economic-work meeting — post-Q2-GDP-miss policy response | 🔴 pre-registered ZHA-15 (55% stimulus branch) |
 | Nov 10 2026 | Reciprocal-tariff suspension expiry (truce clock) | 🟠 |
 | ~May 2027 | Rare-earth control postponement expiry (1yr clock) | 🟡 |
 | Dec 2026 | SEC Cash Clearing mandate | 🟡 |
@@ -190,6 +191,8 @@ The April STATUS was built around a late-Feb/March Gulf shooting war (Hormuz clo
 | ZHA-11 | China NOT the 30Y 7/9 indirect-bid (77.74%) driver | 65% | OPEN — pre-registered 7/9, indirect test only (TIC has no maturity breakdown); resolves ~4PM ET today |
 | ZHA-12 | BoK hike (delivered) succeeds as currency defense (won holds/strengthens, EASES demand-hole) | 55% | OPEN — hike delivered 7/16, won reaction favorable so far (~1,480), 4wk window |
 | ZHA-13 | Korea May TIC shows net UST SELLING (reserve defense, deepens demand-hole) | 50% | OPEN — pre-registered, resolves ~4PM ET today |
+| ZHA-14 | PBOC cuts 1yr/5yr LPR at 7/21 fixing | 30% ↓ | OPEN — downgraded, analyst consensus expects hold through 2026 |
+| ZHA-15 | Politburo late-Jul meeting signals STIMULUS branch (concrete new fiscal measure) | 55% | OPEN — pre-registered, date TBC |
 
 ---
 
