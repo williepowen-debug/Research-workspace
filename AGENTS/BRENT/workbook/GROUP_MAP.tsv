@@ -1,3 +1,4 @@
+## FROZEN 2026-07-16 — not maintained; STATUS is canonical, do not cite rows as current. (Dead KB-migration map, +130d stale; retained only until the KB migration is formally closed out, then delete.)
 ## BRENT Group Migration Map — current KB groups → NETWORK_GROUPS
 ## Use this during KB migration. After migration, delete this file.
 Current_Group	Network_Group	Sub_Note

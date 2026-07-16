@@ -1,6 +1,8 @@
 # DEMAND DESTRUCTION TRACKER
 
-**🟠 Last Updated:** 2026-07-15 Wed (EIA wk-7/10 pull — scheduled Wednesday run). **⚡ ENERGY TAIL RE-ARMED + CUSHING BACK ABOVE 20M (week 1 of 2).**
+**🔴 7/16 Thu — RE-ARM CONFIRMED → energy tail 🔴 ACTIVE (Phase-1 re-squeeze).** Iran formally closed Hormuz 7/11-12; graded vs the 7/10 DENY baseline = level >>$75 (settles $78.85→$84.95→~$86) + ≥3 fresh legs (transit collapse 10/88=11%, renewed kinetic step, formal closure+Qatar suspension). Deploy = **pass-on-chase** (OVX ~61 vol-rich, +13% happened, green day; Will confirmed) — re-entry watch ~$80-82. **Demand-side note:** wk-7/10 EIA below is PRE-closure vintage; the pump-price re-fire from the re-arm lags 2-4 wks (gas $3.855 now). Next EIA wk-7/17 (rel 7/22) = first post-closure demand read. _(Full adjudication → `outbox/2026-07-16_to-PROME_rearm-adjudication.md`.)_
+
+**🟠 Last Updated (prior):** 2026-07-15 Wed (EIA wk-7/10 pull — scheduled Wednesday run). **⚡ ENERGY TAIL RE-ARMED + CUSHING BACK ABOVE 20M (week 1 of 2).**
 
 ---
 **[Jul-15 EIA wk-7/10 UPDATE]:** 🟢 **CUSHING +430K → 20.044M — FIRST CLOSE ABOVE 20M FLOOR SINCE JUN 12.** Crude −1.692M → 409.7M (drew after last week's surprise build). SPR −2.99M → **316.5M** (deeper 43yr low). Gasoline −1.664M → ~210.4M. Distillate +2.3M → ~105.9M. Gas pump $3.855/gal [CONF EIA Jul 14] — BELOW $4 threshold. Refinery util ~95–96% [EST]. Production ~13.86M bpd [EST]. Routing Boundary #3 EASING: **need 1 more consecutive week above 20M** (wk-7/17, released Jul 22) to fully rescind. ⚠️ This data ends Jul 10 — BEFORE Hormuz formal closure Jul 11-12 + Brent re-arm $78.85 Jul 13. Pre-escalation snapshot. See `data/eia_2026-07-15.md`.

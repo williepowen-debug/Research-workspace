@@ -7,7 +7,8 @@
 ---
 
 ## ⚡ NEXT BOOT FIRST MOVES
-1. 🔴 **CFTC COT Fri 7/17 (positions as-of 7/14)** — FIRST print capturing the formal closure. Decisive read: do the crowded shorts (spring-fuel, confirmed 7/10) COVER (squeeze IGNITING → bullish confirmation) or hold (more fuel)? Grade under both standards.
+1. 🔴 **CFTC COT Fri 7/17 ~3:30 PM ET (positions as-of 7/14)** — FIRST post-closure print. **GRADE MECHANICALLY against the frozen pre-reg: `setups/2026-07-17_COT-grade-and-FAL02-prereg.md`.** Primary metric = WoW change in MM GROSS SHORTS (WTI-phys, base 129,072): **COILED** ΔShorts ≥ −7,000 (fuel intact, re-entry conviction HIGHEST) · **IGNITING** −7K to −25K (burning, re-entry moderate) · **FUEL SPENT** ≤ −25,000 (consumed, re-entry DOWNGRADED). ICE Brent leg when published. → write grade to STATUS COT + TRADE re-entry read.
+1b. 🔴 **FAL-02 oil-side (wind-down 00:01 ET 7/17)** — observe BINDING vs ALREADY-PRICED per the same pre-reg file (lean: already-priced); hand to FALCON's resolver, don't write its dir. Re-entry proposal to Will ONLY on a stabilized ~$80-82 pullback / vol-cooldown.
 2. 🔴 **Deploy watch — the arm is ARMED-and-HOT, no capital.** Deploy trigger flips from "unpriced tail" to "vol-cooldown re-entry": a RED-day / pullback toward ~$80-82 that STABILIZES with the closure still in force = the clean convex entry (OVX ~61 now = too rich to chase). If Will wants blockade→Scenario-C tail NOW, small further-OTM ~$200 tranche only, live broker book (rule #4).
 3. 🔴 **Baker Hughes ~7/17** (445, 12 to 457) · 🔴 **EIA WPSR wk-7/17 (rel 7/22)** — FIRST post-closure inventory read (Cushing hold >20M? crude draws accelerate? — the wk-7/10 data was PRE-closure vintage).
 4. 🟠 **FAL-01 escalation watch** — named-major facility hit (Aramco/ADNOC/Kharg) OR vessel SUNK = clean FAL-01 fire = Scenario-C accelerant. KOC 7/12 was borderline (held open, concur w/ FALCON).
