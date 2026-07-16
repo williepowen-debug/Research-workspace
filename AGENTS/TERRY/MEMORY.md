@@ -43,30 +43,33 @@ Detection (HY-280 break, print alerts) is LIQUID/SENTRY; TERRY owns everything A
   the 6/26 709P, force-closed before a settlement it would have won). Detail in daytrading/.
 - **No closed Terry-reviewed thesis trades yet** — POSTMORTEMS.md is template-only until one closes.
 - **`SIGNALS.tsv` = the trade-construction context ledger** (Will 6/27, "store in lasting memory, don't put everything of value in STATUS" → option B). Durable home for anything that shapes timing/sizing/structure but isn't the thesis. `source` column spans WALTER (routed INFO), TERRY-chart (my own levels/IV/expected-move), and thesis-owner timing notes (REGINALD/CARL/LIQUID/… scaffolding, NOT their thesis truth). NEXUS regime = one **PIN** row (denominator), refreshed not streamed. Decay-tracked (as_of/decay/conf/status); `boot.py` surfaces PIN + active rows, flags >21d for re-verify/retire. OUT of scope: thesis truth + raw catalyst calendar. STATUS keeps only a one-line read + pointer. New context → add a row; recall at fire-time.
+- **Position truth BEFORE structure on a marginal add (7/16, load-bearing).** A clean *flat-book* structure rec can be exactly wrong against the real book. My 81/76 grind-spread was the best flat-book expression — but Will already owned the grind 3 ways (TBT linear + ITM 85P + 82P ≈$1,150, ~186 sh short-delta), so the spread ≈DOUBLED his short-delta redundantly. The "his puts are decaying stubs" escape hatch failed on a delta check (the dominant leg was an ITM 85P at −14%, not a stub). Rule #4 isn't just "don't cite stale marks" — for any marginal add, **pull the book and rank the marginal exposure, not the standalone trade.** Also: watch **shared falsifiers across the WHOLE book** — Hormuz de-escalation would hit his rates-short (via the oil-driven term premium) AND his oil-longs at once; a card that looks defined-risk in isolation can concentrate a portfolio-level bet.
+- **Sparse-index intraday endpoints can be date-shifted (7/16).** yfinance `^MOVE` 1h-bars returned degenerate single points labeled **one day late** (carried 7/10's 69.55 onto 7/13), which led me to a wrong F3→F1 gate-attribution correction I had to RETRACT. The posted **daily** (investing.com, arithmetic-self-consistent + tied to the yf 7/10 anchor) showed the real spike was 7/13 (77.77 +11.82%). **Before canonizing any date-dependent claim off a sparse index, verify against a posted daily source** — don't trust the intraday/1h endpoint's date labels. (VIOLET's ±1-day ^MOVE caveat, confirmed the hard way.)
 
 ---
 
-## Current Session (2026-06-27 Sat)
+## Current Session (2026-07-16 Thu — teams w/ PROME)
 
-**Prior (6/26 digest):** built + shipped the trigger→card toolchain (chain_fetch, grade_print+config, FIRE template + 2 trigger skeletons) + durable layer (MEMORY/CLOSEOUT). All on origin.
+**Prior (6/27 digest):** built SIGNALS.tsv context ledger + NEXUS PIN; logged day-trade S3 (−$3,969); built monoline TRY-FIRE-003 + path-(m) grader. All on origin.
 
-**Delivered 6/27:**
-- **`SIGNALS.tsv`** — new trade-construction context ledger (Will option B); logged 7 WALTER INFO signals; `source` column + NEXUS regime **PIN**; `boot.py` surfaces PIN + active rows + >21d staleness flag.
-- **NEXUS diagnosed 11d-dark / pre-FOMC stale** — populated PIN with the 6/16 read (stale-stamped); wrote `outbox/2026-06-27_to-NEXUS_post-fomc-reanchor-flag.md` (3 unprocessed gates: FOMC 6/17, Iran 6/19, OPEX 6/19). Will refreshing NEXUS soon.
-- **`inbox/WILL/` drop zone** — Will's reserved trading-data drop; raw gitignored (local), boot-surfaced.
-- **Day-trading Session 3 logged** (JOURNAL/LEDGER/PROFILE) off Will's Robinhood CSV: −$3,969 / 3 days; see day-trading Durable Finding above.
-- **Day-trading reframed = bounded SIDE project** (Will 6/27, now in Standing Decisions) — subordinate to the thesis system; must not displace it.
-- **Thesis desk (primary):** assessed fleet trade-readiness → the regional/credit **Q2-print complex** is closest-to-tradeable (REGINALD/LIQUID; owners flag Q2 modest, 2027 = realized event). Built **monoline fire card TRY-FIRE-003** (COF/SYF/ALLY, earliest un-maskable tell) + extended `grade_print.py`/`grade_config.json` with **path (m) un-mask tally** (`--book-direction`/`--nco-guide`/`--dq-formation`; selftest PASS) + **`setups/FIRE_CARDS_LADDER.md`** (3-card comparison + July print calendar + monoline→regional gate link).
+**Delivered 7/16 (first live card ARM):**
+- **TRY-FIRE-004 ARMED** — arm-#2 (VX-BND-05 10Y 5-close ≥4.50) FIRED 5-of-5 Mon 7/13, independently FRED-verified (matched PROME + BOND co-grade, no restatement). First card ever to reach ARM.
+- **Live-marked arm packet** on Will's broker chain (FORGE tool couldn't serve TLT option NBBO — 3 pulls all 0.00; documented as a feed limitation). Built ladder-at-asks + 3 grind-spread variants; flat-book rec was 81/76 spread.
+- **Position truth REVERSED the rec → Will NO-ADD.** Will owns duration-short 3 ways (TBT + ITM 85P + 82P ≈$1,150); the spread ≈doubles his short-delta redundantly. Flagged the shared **Hormuz-de-escalation falsifier across his rates-short AND oil-long books**. $500 banked; crash-ladder = approved fallback.
+- **VIO-116 rates-vol shape memo** — no stand-alone shape (folds into 004). Interim F3→F1 attribution correction **RETRACTED** after web-verifying the MOVE spike was 7/13 (my yf 1h-bar was date-shifted); F3 fired cleanly, PROME's GATES attribution correct.
+- **USO 7/17 calls triage** — salvage the 120C (don't feed extrinsic to theta into a 2-way 1DTE catalyst @ OVX 61); 127C dust; keep shares. Will acts directly.
+- **HBAN** — built governance stub + two-branch decision memo (one-print vehicle: Oct-16 < Q3; $20 dust; real decision is re-entry). Q2 = 7/23 BMO (IR-verified), DOCKET registered by PROME.
+- **Light card-relevant sweep** — rates premises intact/reinforcing; Muscat inconclusive; OZK div-hike+$200M buyback = mild headwind for OZK puts.
 
-**Status:** all committed + pushed (synced 0/0). Open carries: NEXUS PIN refresh (Will re-anchoring NEXUS) + a day-trade timestamped order export.
+**Status:** all committed, NOT pushed (PROME runs the push-train). arm-#3 grade handed to PROME (4pm). Deferred: DAEDALUS firming apply.
 
 ---
 
 ## Next Session
 
-1. **No cards fired live yet** — fire cards staged, waiting on a real LIQUID/SENTRY trigger (HY≥280 or a Jul print).
-2. **Jul print week:** MONOLINES print FIRST (~Jul 18–23: COF/SYF/ALLY — `setups/PRINT-TRIGGER_monoline-COF-SYF-ALLY.md`, earliest un-maskable tell; grade with `grade_print.py NAME --book-direction … [--nco-guide raised] [--dq-formation rising]` → **path (m)**, built 6/27), then regionals (~Jul 22–30, paths a/b/c). If transmission grades, the matching PRINT-TRIGGER skeleton is the card.
-3. **HY≥280 sustained:** PRICE-TRIGGER skeleton → fill ZONE 2 → present.
-4. **Refresh the NEXUS regime PIN** in `SIGNALS.tsv` once Will re-anchors NEXUS post-FOMC (currently the 6/16 pre-FOMC read, stale-stamped).
-5. **Day-trading S3 carries:** request a **timestamped order export** (confirms RH auto-close + closes the churn/cancel gap); Monday-mark the open book (WAL 9/18 75P = THESIS/FORGE-scope, WEN 7/2 8.50P).
-6. **Carry:** resolve Will's risk-UNIT question (+ a number for the day-trade Rule 3 cap).
+1. **arm-#3 (May TIC) result** — PROME grades at 4pm 7/16; if FIRED, consume/log on TRY-FIRE-004 (deepen-confirm only, no new trade); UNDETERMINED/dead = just log. Pre-reg expectation = no-fire/UNDETERMINED.
+2. **TRY-FIRE-004 re-fire conditions** ($500 banked, card ARMED/HOT): red-day/vol-cooldown TLT entry, OR arm-#3 fire, OR fresh discriminator → crash-ladder 77/76/75 = approved fallback shape. (Do NOT re-add the 81/76 spread — redundant w/ Will's book.)
+3. **HBAN branch outcome** — Will's thesis-or-exit call pre-7/23; consume onto stub/two-branch memo; if re-entry, proper structure (Q3-spanning tenor + strike matched to a −13%+ stress move, not dust).
+4. **DAEDALUS firming apply** (deferred `inbox/2026-07-03_…`): CONTRACT block + BOTTOM LINE + PAT-031 cwd-proof + 3 drift fixes; DAEDALUS write-back on completion (PAT-032).
+5. **OZK puts** — mild headwind flagged (div-hike + $200M buyback 7/1); the tell is criticized/SM build not NCO (WALTER SIG-006) → watch the 7/21 print's credit supplement.
+6. **Carries:** NEXUS PIN refresh (still 6/16 pre-FOMC stale); Will's risk-UNIT question; day-trade timestamped order export.

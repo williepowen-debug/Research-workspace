@@ -1,8 +1,17 @@
 # TERRY STATUS
-**Updated:** 2026-07-16 Thu (teams session w/ PROME): **TRY-FIRE-004 ARMED — first card to reach ARM.** arm-#2 (VX-BND-05 10Y 5-close sustain ≥4.50) FIRED — 5-of-5 completed Mon 7/13 (TERRY-verified FRED DGS10: 7/7 4.55·7/8 4.56·7/9 4.54·7/10 4.56·7/13 4.62·7/14 4.58). Arm packet → Will [Approve]. VIO-116 rates-vol hedge shape memo delivered (folds into TRY-FIRE-004, no separate hedge). arm-#3 (May TIC) grades today 4pm — template staged. · **Status:** 🟠 ARMED (1 card armed, still 0 fired live — awaits Will [Approve] + live marks)
+**Updated:** 2026-07-16 Thu CLOSEOUT (teams session w/ PROME): **TRY-FIRE-004 ARMED (first card to reach ARM) → WILL DECIDED NO ADD.** arm-#2 (VX-BND-05 10Y 5-close ≥4.50) FIRED 5-of-5 Mon 7/13 (TERRY-verified FRED DGS10: 7/7 4.55·7/8 4.56·7/9 4.54·7/10 4.56·7/13 4.62·7/14 4.58; BOND co-graded CONFIRM). Live-marked packet built (broker chain 10:04 ET) → **Will NO-ADD (book-aware: already owns grind 3 ways ~$1,150; 81/76 spread redundant). $500 BANKED; crash-ladder = approved fallback.** VIO-116 shape memo (folds into 004; F3 correct, my F1 retraction retracted). USO 7/17 triage (salvage 120C; Will acts directly). HBAN stub + two-branch memo (Will decides pre-7/23). Inbox drained (1 deferral: DAEDALUS). · **Status:** 🟠 ARMED, 0 fired live — card ARMED/HOT, $500 banked for re-fire
 **Agent:** TERRY — trade construction / tactical execution discipline. Owns the ACTION/card side; never executes. Detection = LIQUID/SENTRY.
 
 > Durable mandate + lessons → `MEMORY.md`. Session-end procedure → `CLOSEOUT.md`. Role/start-here → `README.md`. Risk gates → `RISK_SCORING.md`.
+
+## ⚑ ARM-3 TIC HANDOFF → PROME (2026-07-16, session-end)
+The **May TIC arm-#3 grade (4:00 PM ET today) transfers to PROME** — no TERRY session needed for it. PROME grades mechanically against my template `setups/ARM3-TIC-grading-template_2026-07-16.md` + BOND's CUT-A/CUT-B (`AGENTS/BOND/setups/2026-07-16_ARM3-TIC-grading-template.md`). **Grade the CARD's net-TRANSACTIONS wording (China AND Japan both net sellers, Apr→May), NOT the stale GATES "holdings-down"** (already reconciled). Fallback: transactions granularity missing → UNDETERMINED, do NOT arm on holdings. **Pre-registered expectation = likely NO-FIRE / UNDETERMINED** (China nowcast UP + Japan buying). **A FIRE only DEEPEN-CONFIRMS (card already armed) → route to TERRY next boot; UNDETERMINED/dead needs no TERRY session.**
+
+## Next-boot pickup (explicit)
+1. **arm-#3 result** — if it FIRED, consume + log on the card (deepen-confirm only, no new trade); if UNDETERMINED/dead, just log.
+2. **DAEDALUS firming apply** (deferred, `inbox/2026-07-03_…`) — CONTRACT block + BOTTOM LINE + PAT-031 cwd-proof + 3 drift fixes; DAEDALUS write-back owed on completion (PAT-032).
+3. **HBAN branch outcome** — Will's thesis-or-exit decision (pre-7/23 print); consume onto the stub/two-branch memo; if re-entry, build proper structure (Q3-spanning tenor).
+4. **Re-fire conditions for TRY-FIRE-004** ($500 banked, card ARMED/HOT): a red-day/vol-cooldown TLT entry, OR arm-#3 fire, OR a fresh discriminator — crash-ladder 77/76/75 = the approved fallback shape.
 
 ## Live state
 
