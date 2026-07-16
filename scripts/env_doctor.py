@@ -28,7 +28,7 @@ from pathlib import Path
 
 REPO = Path(__file__).resolve().parent.parent
 DEFAULT_ENV_FILE = REPO / "FORGE" / "tools" / "market-data" / ".env"
-REQUIRED_KEYS = ["FRED_API_KEY", "EIA_API_KEY"]  # expected on EVERY box
+REQUIRED_KEYS = ["FRED_API_KEY", "EIA_API_KEY", "PJM_API_KEY"]  # expected on EVERY box
 
 # Hostname-keyed expectations for machine-local extras. Only list items whose
 # ABSENCE on that box is a problem; boxes intentionally without an item (per
