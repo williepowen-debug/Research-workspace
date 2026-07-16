@@ -124,10 +124,11 @@ Japan's super-long demand vacuum is real and worsening (6/25 20Y JGB BTC 2.97x =
 | ~~Mon 7/13~~ | ~~ARM-#2 5th close~~ | ✅ **RESOLVED: COMPLETED 5-of-5 at 4.62** (co-graded 7/16, independent FRED). FIRED-UNEXECUTED — TERRY consequence owed. |
 | **Thu 7/16 ~4PM ET** | **May TIC (ARM-#3)** | 🔴 **Grade off net transactions (both net sellers), NOT holdings** — template staged `setups/2026-07-16_ARM3-TIC-grading-template.md`. GATES row stale (flagged PROME). |
 | ~~Tue 7/14~~ | ~~June CPI~~ | ✅ COOL: headline −0.42% MoM, core −0.02% — yet 10Y held ≥4.50 (real-yield channel). |
+| ~~Wed 7/15~~ | ~~June PPI~~ | ✅ COOL too: final demand −0.3% MoM (vs flat exp), +5.5% YoY (vs 6.2% cons); goods −1.4% (gasoline −12%, energy −6.4%) [Bloomberg/CNBC/BLS 7/15]. **Both June prints pre-Hormuz/backward-looking; 10Y dipped ~4.55 intraday then back to 4.59 — line held through BOTH = term-premium confirmation.** |
 | Wed 7/8 | June FOMC minutes | Hike-dissent breadth; task-force color |
 | Wed 7/22 · Thu 7/23 | 20Y reopening · 10Y TIPS (new) · ECB GovC (7/23-or-24 — **verify**) | vs STRONG 6/16 20Y · real demand · 2nd ECB hike? (VX-19) |
 | Mon–Tue 7/27–28 | **2Y+5Y same day (7/27)** + 7Y (7/28) | Compressed month-end cluster; indirect-fade trend test (VX-13 →4 candidate) |
-| Tue–Wed 7/28–29 | FOMC (no SEP) | ~29% hike priced; hawkish-hold + long-end break = regime re-read |
+| Tue–Wed 7/28–29 | FOMC (no SEP) | **Lean shifted to ON-HOLD after cool CPI+PPI** (Waller 7/13 conditional hike needed "hot" prints — both cool; Street bets on hold, Benzinga/Bloomberg 7/15). Target 3.50–3.75%. Front-end rally on "hold" while long-end holds on term premium = **steepener** watch. Blackout **7/18–30** (last speaker window 7/16–17). |
 | Fri 7/31 | BOJ decision | Post-Tankan hike odds; FL-BND-11 FX leg |
 | Wed 8/5 | QRA (pattern-inferred — **verify**) | Coupon-size guidance |
 | Watch | **MOF FX intervention (actual)** 🔴 · Warsh task force (end-2026) · buyback accept-cap | UST reserve selling = FL-BND-11 fires · 2027 lane · YCC-lite tell |
