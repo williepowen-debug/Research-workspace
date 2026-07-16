@@ -1,7 +1,7 @@
-## COMPLETION — ZHAO — 2026-07-16 (reframe applied fleet-wide across ZHAO's files, Will-approved)
+## COMPLETION — ZHAO — 2026-07-16 (close OPEN_THREADS residue)
 STATUS: ✅ DONE
-CHANGED: AGENTS/ZHAO/STATUS.md, AGENTS/ZHAO/NEXUS_BRIEF.md, AGENTS/ZHAO/CLAUDE.md, AGENTS/ZHAO/workbook/{KB,PREDICTIONS,FLOW,VX}.tsv
-RESULT: Applied the Will-approved "genuine exit → SAFE-reported Treasury-line reduction" reframe across every ZHAO surface: STATUS.md (Signal Dashboard, Cross-Agent Transmission, REFRAME FLAG section marked APPROVED&APPLIED, Bottom Line rewritten), NEXUS_BRIEF.md (Status line, VIEW bullets, CROSS-DOMAIN table), PREDICTIONS.tsv (ZHA-04/ZHA-11 interpretation notes — mechanical thresholds/bands/falsification rules left untouched), KB.tsv (KB-083/087/090 amended in-place with pointers to KB-102, originals preserved verbatim for the audit trail), FLOW.tsv (FLOW-04 reframed, FLOW-05 gold-context note, FLOW-11 downgraded FIRING→PAUSED on May's data, FLOW-10 refreshed with today's small-bank numbers), VX.tsv (VX-1.03/7.01 flagged stale + reframed). Also fixed a pre-existing logic bug in CLAUDE.md's Belgium Proxy Methodology (lines 116-117 contradicted each other) while correcting terminology there. Registered the Canada/France Agency-custody-hub gap as a named next-session thread in the STATUS reframe section.
-GAPS: None on this task — full scope closed in one pass.
+CHANGED: AGENTS/ZHAO/OPEN_THREADS_2026-07-09.md
+RESULT: Marked ✅ RESOLVED 7/16 in `OPEN_THREADS_2026-07-09.md`: Thread #1 (gold-math destination → KB-ZHAO-102), Thread #3 (multi-hub custody check → HANS's `research/2026-07-16_china-custody-hub-check.md`, no sustained re-routing signature), plus two adjacent items in the same spirit — Thread #2 (Korea KRW leg, refreshed via the BoK hike/ZHA-12) and Q3/Q4 in the Open Questions section (Belgium April/May print, KB-089 SAFE-primary verification). Added a status line at the file header pointing to what's resolved vs. still open (Q1, Q2, Gaps section, Thread #4 remain).
+GAPS: None on this task.
 WILL_NEEDS: None.
-FOLLOW-UP: Standing by for PROME's 4:03PM TIC re-verification (last outstanding item). PROME is routing the reframe to SAM/LIQUID/NEXUS directly — ZHAO does not send outside its own dir.
+FOLLOW-UP: Standing by for PROME's 4:03PM TIC re-verification — genuinely the last outstanding item this session.
