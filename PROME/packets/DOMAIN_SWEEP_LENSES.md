@@ -17,4 +17,5 @@ Deliverable: `reports/<date>_domain-sweep.md` — prioritized table (item / lens
 |---|---|---|
 | VIOLET, LIQUID, HENRY, SAM | 2026-07-11 (pilot) | 72 items; reports in each agent's reports/ |
 | WATT, VULCAN, MIDAS, OSPREY, FALCON, HOMER | 2026-07-12 (new-agent first-session wave, 6× Sonnet spawns) | ~60 items total; reports in each agent's reports/; notable: MIDAS falsified its own build-session M1 framing on first spot pull; OSPREY caught inherited "swept-complete" mark content-wrong; HOMER caught REGINALD's 8mo-stale GSE leg |
+| ZHAO | 2026-07-16 (round-2 tasking, Sonnet teammate) | 11 items (3H/5M/3L); report `AGENTS/ZHAO/reports/2026-07-16_domain-sweep.md`; notable: LGFV VX cluster 153d silent-rot under a 7/4-rescored matrix (freshness illusion); multi-hub custody gap → HANS spawned same-day as hub owner; caught its own never-sent 7/4 HANS ask |
 | all others | pending | fold into next natural session |
