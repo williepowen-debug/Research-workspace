@@ -14,6 +14,7 @@
 #   (verify the underlying fact first, cite it in reason). scripts/ is Will-scoped:
 #   structural changes to this file's format go through Will.
 artifact	pattern	expires	added	reason
-PROME/SCRATCH.md	2026-07-13	2026-07-14	2026-07-11	Legitimate card date: arm-#2 (GATE-TERRY-ARM2) completes Mon 7/13 — a gate-completion window, not a docket catalyst; DOCKET carries CPI 7/14. Self-expires after Monday.
 PROME/SCRATCH.md	2026-09-26	2026-08-21	2026-07-11	"Sep-26" = Brent Sep-2026 futures contract label (ICE LCOU26), a month-YEAR token the parser misreads as month-day. Renew/retire at the Aug contract-roll if SCRATCH still cites Sep-26.
-AGENTS/ZHAO/NEXUS_BRIEF.md	workbook/PREDICTIONS.tsv	2026-08-01	2026-07-11	Artifact-relative pointer, not dead: AGENTS/ZHAO/workbook/PREDICTIONS.tsv exists (verified 7/11); checker resolves backticked paths repo-root-only. Clears when ZHAO full-paths the pointer at a boot, or if the checker learns artifact-relative resolution.
+AGENTS/REGINALD/OPEN_THREADS_2026-07-09.md	HBAN/STATUS.md	2026-08-16	2026-07-16	Forward BUILD TARGET, not an existence claim: the Threads table says "Stand up a thin HBAN/STATUS.md ... This month" — file is planned, not stale (REGINALD 7/16 banner documents the repoint). Clears when REGINALD builds it or retires the thread; re-verify at expiry.
+AGENTS/REGINALD/OPEN_THREADS_2026-07-09.md	2026-10-16	2026-10-17	2026-07-16	"Oct-16" = HBAN Oct-16 $16P option EXPIRY date (position real per FORGE 7/16 mirror; rationale stated by Will 7/16), not a docket catalyst; REGINALD 7/16 banner marks it RESOLVED. Self-expires after the option expires.
+AGENTS/TERRY/setups/HBAN_oct16-16P_stub.md	2026-10-16	2026-10-17	2026-07-16	Same HBAN option expiry date in the governance stub's own title/body — the stub exists to document that expiry (expiry-vs-catalyst math is its own section). Self-expires after the option expires.

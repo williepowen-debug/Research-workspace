@@ -214,12 +214,23 @@ def check_artifact(path, docket_rows, covered_dates, today):
 
     # 1. Pointer resolution — backticked paths + bare repo-dir-prefixed tokens,
     #    line-by-line so lines that declare a path dead don't flag.
+    #    A pointer is LIVE if it resolves against the repo root OR the citing
+    #    artifact's own directory — agents write paths relative to their own
+    #    dir (`workbook/X.tsv` inside AGENTS/<NAME>/ = AGENTS/<NAME>/workbook/X.tsv).
+    #    Root-only resolution produced ~14 false DEAD flags at the 7/16 boot
+    #    (HENRY-verified class; fixed 7/16 Will-approved).
+    art_dir = os.path.dirname(full)
+
+    def _resolves(p):
+        return (os.path.exists(os.path.join(REPO, p))
+                or os.path.exists(os.path.join(art_dir, p)))
+
     dead = set()
     for line in text.splitlines():
         if DEAD_OK_RE.search(line):
             continue
         for p in extract_repo_paths(line):
-            if not os.path.exists(os.path.join(REPO, p)):
+            if not _resolves(p):
                 dead.add(p)
         for m in BARE_PATH_RE.finditer(line):
             tok = m.group(0).rstrip(".,;:/")
@@ -233,8 +244,8 @@ def check_artifact(path, docket_rows, covered_dates, today):
                     and all(re.fullmatch(r"[A-Z0-9_-]+", s) for s in segs[1:])):
                 continue
             prefix2 = "/".join(segs[:2])
-            full_missing = bool(re.search(r"\.\w{2,4}$", tok)) and not os.path.exists(os.path.join(REPO, tok))
-            prefix_missing = len(segs) >= 2 and not os.path.exists(os.path.join(REPO, prefix2))
+            full_missing = bool(re.search(r"\.\w{2,4}$", tok)) and not _resolves(tok)
+            prefix_missing = len(segs) >= 2 and not _resolves(prefix2)
             if prefix_missing or full_missing:
                 dead.add(tok if full_missing else prefix2)
     for p in sorted(dead):
