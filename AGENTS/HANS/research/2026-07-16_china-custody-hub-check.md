@@ -4,6 +4,8 @@
 
 **Retrieval note:** `ticdata.treasury.gov` 403'd without a header; fixed with `curl -A "Mozilla/5.0 (research; contact williepowen@gmail.com)"`. Both TIC endpoints return a **rolling 13-month table** — there is no way to request "Feb-Apr only." May 2026 came back in the same pull as the Feb-Apr baseline, so the pre-print/post-print split collapsed into one retrieval. **Thresholds below were computed from Jun-2025→Apr-2026 trailing deltas only (May excluded from the volatility calc) before the May reading was applied to the verdict** — preserves pre-registration discipline even though the number was visible early.
 
+**⚠️ May-26 data label (PROME-verified 2026-07-16 ~13:35 ET):** every **May-26 figure in this file** is **May 2026 [TIC SLT pre-staged, pulled ~13:15 ET 7/16; official release 4:00 PM ET 7/16 — PROME re-verifies at 4:03 PM]**. PROME independently pulled `slt_table3.html` and confirmed the pre-staged May column is genuine (Belgium Mar 454,026 exact match to ZHAO's anchor; schema = `for_lt_treas_net` etc.) — this was NOT a stale-mirror/date-shift misread. Sign convention is also now confirmed from the source file's own documentation line (`slt_table3.txt` header): **"A positive number for net U.S. sales to foreigners denotes an increase in a foreign position."** If PROME's 4:03 PM re-check finds any May figure moved at the official release, this file gets re-stamped — treat May figures below as pre-staged-but-verified, not yet reconciled against the 4 PM press release.
+
 ---
 
 ## 1) Holdings level, Feb-May 2026 (Table 5, $B)
@@ -49,6 +51,19 @@ Source: Treasury TIC Table 5 (`slt_table5.txt`), retrieved 2026-07-16. Belgium M
 - Luxembourg: -$14.9B (fell **with** China — same direction, not re-routing).
 - Ireland: -$5.5B (fell with China — same direction, not re-routing).
 
+## 5) China May rebound — composition (ref. only, ZHAO owns interpretation)
+
+Table 3, China row, **2026-05 [pre-staged, see label above]** — sign convention per source doc: positive = increase in foreign position.
+
+| Component | 2026-05 value | Read |
+|---|---:|---|
+| Total net U.S. sales (= net position change) | **+$5.947B** | Net increase in China's position |
+| LT (bonds/notes) net | **-$0.129B** | ~flat — essentially no long-term buying |
+| LT valuation change | **+$1.705B** | Price/FX effect, not a transaction |
+| ST (bills) net | **+$6.076B** | Bill buying drives essentially all of the net increase |
+
+**Read:** China's May **+$8.2B holdings rebound (Table 5, 651.1→659.3) is bills-driven, not a resumption of coupon/duration buying** — LT net purchases are approximately flat (-$0.13B). This composition detail matters for ZHAO's exit-thesis interpretation: a bill-only bounce is consistent with cash-management/collateral behavior and is a materially weaker signal than a coupon-buying rebound would be. HANS pulled this row independently (Table 3, `slt_table3.txt`, 2026-07-16) to source it directly rather than relay a secondhand figure.
+
 ---
 
 ## Verdict
@@ -59,9 +74,10 @@ Source: Treasury TIC Table 5 (`slt_table5.txt`), retrieved 2026-07-16. Belgium M
 
 ---
 
-## Follow-up (not done here, time-boxed)
+## Follow-up
 
-- Table 3 also carries **Net U.S. Sales** (transactional flow, not holdings-level) for all four hubs by month — pulled but not used in this verdict to avoid a sign-convention error under time pressure (holdings-level Table 5 numbers are unambiguous and match ZHAO's existing Belgium methodology). Flagged for a follow-up pass if ZHAO's thesis needs the flow/valuation split.
+- **Resolved:** sign convention on Table 3's "Net U.S. Sales" columns is confirmed (source doc: positive = increase in foreign position) — the flow/valuation split (§5 above) is now usable; a full four-hub flow table (not just China) is a candidate follow-up if ZHAO's thesis needs the LT/ST split for Belgium/Lux/Ireland/Cayman too (not built here, time-boxed).
 - One more month (June TIC, releases ~mid-Aug) would confirm or kill the Cayman two-month flag.
+- **Pending:** PROME's 4:03 PM ET re-verification of the May column against the official 4:00 PM release. If any figure moves, this file and the ZHAO note both need a re-stamp.
 
 **Sources:** `ticdata.treasury.gov/resource-center/data-chart-center/tic/Documents/slt_table5.txt`, `.../slt_table3.txt` — both retrieved 2026-07-16.

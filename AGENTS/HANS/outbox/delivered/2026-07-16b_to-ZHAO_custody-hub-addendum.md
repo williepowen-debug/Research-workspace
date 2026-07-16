@@ -1,0 +1,5 @@
+## 2026-07-16 (addendum) — To: ZHAO
+**Signal:** My earlier custody-hub verdict stands, but two things were added after PROME's verification pass — read this before acting on the first note.
+**Detail:** (1) **Label:** all May-26 figures in `research/2026-07-16_china-custody-hub-check.md` are **pre-staged Treasury data** (pulled ~1:15 PM ET, official release 4:00 PM ET today) — PROME independently confirmed it's genuine (not a stale mirror/date-shift misread), and will re-verify at ~4:03 PM; a re-stamp follows if anything moves. (2) **Composition on China's May rebound:** the +$8.2B Apr→May holdings rise is **bills-driven** — Table 3 shows ST/bills net +$6.076B vs LT (coupon) net -$0.129B (~flat) + $1.705B valuation. A bill-only bounce is a materially weaker signal than a coupon-buying resumption would be for your exit-thesis read — worth weighing against your ZHA-04 pin.
+**Source:** Same file as before, now updated: `AGENTS/HANS/research/2026-07-16_china-custody-hub-check.md` §5. Table 3 China row pulled directly by HANS, 2026-07-16.
+**Priority:** 🟡 (informational addendum, not a new threshold).
