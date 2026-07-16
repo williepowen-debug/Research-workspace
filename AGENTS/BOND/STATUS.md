@@ -126,7 +126,7 @@ Japan's super-long demand vacuum is real and worsening (6/25 20Y JGB BTC 2.97x =
 | ~~Sun 7/5~~ | OPEC+ meeting | Fired — breakeven leg only, bar HIGH; BRENT owns |
 | ~~Tue–Thu 7/7–9~~ | ~~Mini-refunding~~ | **RESOLVED 7/9: BND-11 NOT FIRED** (indirect 77.74%, dealer 10.05%, BTC 2.44, ~0.3bp stop-through). 7th straight benign. Prune ~7/16. |
 | ~~Mon 7/13~~ | ~~ARM-#2 5th close~~ | ✅ **RESOLVED: COMPLETED 5-of-5 at 4.62** (co-graded 7/16, independent FRED). FIRED-UNEXECUTED — TERRY consequence owed. |
-| **Thu 7/16 ~4PM ET** | **May TIC (ARM-#3)** | 🔴 **Grade off net transactions (both net sellers), NOT holdings** — template staged `setups/2026-07-16_ARM3-TIC-grading-template.md`. GATES row stale (flagged PROME). |
+| **Thu 7/16 ~4PM ET** | **May TIC (ARM-#3) → PROME GRADES** | 🔴 **TIC HANDOFF:** the 4PM CUT-A/CUT-B decomposition transfers to **PROME**, graded against BOND's template `setups/2026-07-16_ARM3-TIC-grading-template.md`. Grade off **CUT-B net transactions** (China AND Japan both net sellers), NOT holdings (GATES row stale, flagged). **China nowcast $659.3B UNVERIFIED** (official file governs; nowcast, not the print). **Fallback: transactions granularity missing → UNDETERMINED, NEVER arm on holdings.** |
 | ~~Tue 7/14~~ | ~~June CPI~~ | ✅ COOL: headline −0.42% MoM, core −0.02% — yet 10Y held ≥4.50 (real-yield channel). |
 | ~~Wed 7/15~~ | ~~June PPI~~ | ✅ COOL too: final demand −0.3% MoM (vs flat exp), +5.5% YoY (vs 6.2% cons); goods −1.4% (gasoline −12%, energy −6.4%) [Bloomberg/CNBC/BLS 7/15]. **Both June prints pre-Hormuz/backward-looking; 10Y dipped ~4.55 intraday then back to 4.59 — line held through BOTH = term-premium confirmation.** |
 | Wed 7/8 | June FOMC minutes | Hike-dissent breadth; task-force color |

@@ -1,40 +1,41 @@
-# BOND SCRATCH — 2026-07-10 (Fri AM, PROME-spawned scoped session)
+# BOND SCRATCH — 2026-07-16 (Thu AM–midday, PROME-spawned teams-mode session)
 
-**Purpose:** Ephemeral session handoff. Read at boot, rewritten at closeout. Learnings → `MEMORY.md`; thesis → `thesis/THESIS.md` (v1.1); live state → `STATUS.md`.
+**Purpose:** Ephemeral session handoff. Read at boot, rewritten at closeout. Learnings → `MEMORY.md`; thesis → `thesis/THESIS.md`; live state → `STATUS.md`.
 
 ---
 
-## CHANGES SINCE LAST SESSION (7/9 → 7/10 AM)
-- **ARM-#2 (GATE-TERRY-ARM2) CO-RATIFIED** — 5 consecutive DGS10 closes ≥4.50, any <4.50 resets to zero, close source CMT/FRED DGS10. Three riders added (2dp inclusive · holidays don't break streaks · official governs retroactively). Memo: `outbox/2026-07-10_to-PROME-TERRY_arm2-semantics-coratification.md` (KB-072).
-- **Count restated vs FRED (pulled 10:07 ET, realtime 7/10): 2-of-5 OFFICIAL / 3-of-5 PROVISIONAL.** Official: 7/7 4.55, 7/8 **4.56** (GATES/TERRY card's 4.57 was ^TNX — count-neutral correction). **7/9 DGS10 NOT POSTED at check time** (^TNX prov 4.539); no proxy substituted. 7/6 = 4.48 validated the reset arithmetic.
-- **7/9 30Y tail gap FILLED** (WALTER SIG-709-008, verify 0.92): stop 5.058% = highest since Aug-2007, ~0.3bp **stop-through** vs WI 5.061 — no tail; BND-11 verdict ① strengthened (KB-073).
-- **Energy HY OAS UN-BLINDED: 164bp May-31 vintage**, tightest sector; free monthly source = Fidelity Inst. HY PDF 931730.PDF (~5–6wk lag) (KB-074). STATUS [STALE Apr 28] row replaced.
-- Live 7/10 ~10:05 ET: 10Y 4.55 / 30Y 5.06 / TLT $84.43.
+## CHANGES SINCE LAST SESSION (7/10 → 7/16; fleet was OFFLINE 7/13–7/15 usage limits)
+- **ARM-#2 (GATE-TERRY-ARM2) COMPLETED 5-of-5 Mon 7/13 → FIRED-UNEXECUTED.** Co-graded independent of PROME vs FRED DGS10: 7/7 4.55 · 7/8 4.56 · **7/9 4.54** · 7/10 4.56 · **7/13 4.62** (7/6 4.48 reset; 7/14 4.58 = 6 straight; live ^TNX 4.59 7/16). 7/9 official 4.54 (not 4.539 ^TNX prov) — no cross-line divergence, R3 clean, NO restatement. Fired into the offline gap. **Consequence owed: TERRY arms TRY-FIRE-004 → Will [Approve].** (KB-BND-076)
+- **Rates decomposition:** the 10Y holds ≥4.50 on an **86%-real-yield move** — +14bp (7/6→7/13) = +12bp DFII10 (2.24→2.36 series high) + 2bp T10YIE; 5Y5Y anchored 2.21. That's why cool June CPI (−0.42% MoM) didn't break it. Firm auctions (BND-11 NOT FIRED) rule out demand hole = real term premium. VX-BND-05 3→4, VX-BND-14 2→3.
+- **June PPI (7/15) COOL too** (−0.3% MoM, +5.5% YoY vs 6.2% cons, gasoline −12%) — 2nd cool June print; 10Y held ≥4.50 through both = external corroboration of the term-premium read (KB-BND-077). **FOMC 7/28–29 lean shifted ON-HOLD**; Fed **blackout 7/18–30**.
+- **Hormuz closed 7/11–12, Brent $86** — loads the JULY CPI hot (~+0.4–0.6pp headline MoM from gasoline alone; lands mid-Aug, AFTER FOMC), reinforces the same channel → **4.50-sustain through FOMC well-supported** (falsifier: fast Hormuz de-escalation).
+- **Inbox drained** (5 items): KB-BND-078 (LIQUID BND-11 corroboration), KB-BND-079 (JGB ALM-buyer/net-demand-positive, SAM v1.6.7 re-scope + WALTER SIG ack); STATUS Global Long-End panel re-scoped. MIDAS DFII10 seam reconciled (2.31 [7/9] exact).
 
 ## WHAT I DID THIS SESSION
-1. Co-ratified ARM-#2 semantics (task ★) — ratify-with-riders, no dispute; outbox memo to PROME/TERRY.
-2. Verified 7/9 close vs FRED DGS10 (not posted; stated with check time, no silent proxy).
-3. Registered the 7/10 close watch: CATALYSTS.tsv new 7/10 row + STATUS catalyst twin + dashboard. **Did NOT grade early.**
-4. Drained inbox: SAM 7/2 demand-floor overlay → processed (was already integrated into the 7/9 grade); 9 WALTER SIGs (7/2–7/9) → processed, logged KB-072..075. Dispositions of the 6/27 SIGs confirmed APPLIED (coverage extension → VX-17/18/19 + CLAUDE.md scope 7/1; Lane-3 HERMES scrub verified clean — only the deprecation notice remains).
-5. STATUS refreshed (header, 10Y/30Y/TLT/Energy-HY rows, catalysts, BOTTOM LINE); RECEIPT overwritten.
+1. Co-graded ARM-#2 = COMPLETE 5-of-5 (independent FRED); outbox `2026-07-16_to-PROME-TERRY_arm2-cograde-and-rates-read.md`.
+2. Rates decomposition (real-yield-led) + Hormuz/July-CPI/FOMC read for TERRY's arm packet.
+3. ARM-#3: flagged GATES.tsv drift (holdings→net-transactions), staged grading template `setups/2026-07-16_ARM3-TIC-grading-template.md` (CUT-A holdings / CUT-B net transactions).
+4. Live news sweep (7/11→now): June PPI cool, FOMC on-hold lean, no new auctions since 7/11.
+5. Inbox hygiene: 5 items dispositioned + git mv'd to processed/ (4 actioned, 1 deferred, WALTER SIG ack'd).
+6. Pre-registered 7/22 20Y + 7/23 10Y TIPS grading lines `setups/2026-07-16_prereg_7-22-20Y_7-23-10YTIPS.md` (BND-11 pattern, own-range calibrated).
 
 ## NEXT SESSION (dated, future-verifiable)
-1. **Grade ARM-#2 legs 3+4 off official DGS10 ONLY:** confirm 7/9 (expect ~4.54) and grade 7/10 vs 4.50. ≥4.50 both → **4-of-5, completing Mon 7/13 (day before CPI 7/14)** — flag PROME/TERRY same-session; any <4.50 → full reset, flag same-session. Restate GATES-row hygiene (7/8 = 4.56) via PROME.
-2. **Mon 7/13 = potential completion day** — if Friday held, the 7/13 close decides a completed ARM-#2 into CPI. High-priority watch.
-3. **TIC 7/16 (arm-#3):** transactions-basis China AND Japan both net LT-UST sellers = arm; bare holdings-down insufficient (valuation contamination). CB-USD-intention survey (KB-075) is the leading overlay.
-4. **FR2004 6/24 + 7/1 prints still owed** (env-limited pull; →4 trigger ARMED, half-met).
-5. **7/24** resolve BND-12; **end-July** resolve BND-01. 7/22 20Y reopen; ECB GovC 7/23-or-24 (date still unverified).
+1. **TIC (ARM-#3) 4PM ET 7/16 → PROME GRADES** (handed off, see STATUS TIC HANDOFF). Grade off CUT-B net transactions (China AND Japan both net sellers); China nowcast $659.3B UNVERIFIED — official file governs; transactions granularity missing → **UNDETERMINED, never arm on holdings.**
+2. **Mon 7/22 20Y reopening (912810UV8) + Thu 7/23 10Y TIPS** — MECHANICAL grades vs the pre-reg file (six frozen thresholds). TIPS at DFII10 2.36 series high = real-money referendum on arm-#2 (strong=confirm, weak=fragile). Both inside Fed blackout (clean).
+3. **DFII10 2.5 re-arm watch** — 2.36 [7/13] series high, ~14–17bp from the real-yield-stress re-arm; watch on any Hormuz/Brent July-CPI-load leg.
+4. **DEFERRED: HENRY UST structural-demand corpus** refresh-or-retire (ML-HEN-114/115 Japan withdrawal, FLOW-HEN-025 Gulf recycling; all Mar-vintage) — the term-premium "why," owner=BOND, dedicated session.
+5. FOMC 7/28–29 (on-hold lean; hawkish-hold + long-end break = regime re-read); ECB GovC 7/23-or-24 (date still unverified); BOJ 7/31.
 
 ## OPEN THREADS / WATCHES
-- 🔴 ARM-#2 count into CPI 7/14 (the live duration channel; arm-#1 DEAD, latch rules per TERRY card F6).
-- 🟠 FR2004 prints owed; 🟠 MOF actual FX intervention (FL-BND-11); 🟡 EU xccy proxy build w/ LIQUID; 🟡 CCC 971 non-retrace; Packet 7 (NEXUS_BRIEF) still open.
+- 🔴 ARM-#2 FIRED-UNEXECUTED — TERRY TRY-FIRE-004 consequence owed to Will (PROME/TERRY own the arm packet).
+- 🟠 Steepener watch (on-hold front-end rally vs long-end term-premium hold); 🟠 DFII10→2.5; 🟠 MOF actual FX intervention (FL-BND-11); 🟡 EU xccy proxy build w/ LIQUID; 🟡 CCC non-retrace.
 
 ## POSITION DECISIONS
-- **TLT puts: HOLD, no add** (unchanged — no gate fired; count incomplete). HYG puts stay closed. No trade recommendations made this session (scoped rules).
+- **TLT puts: HOLD** — arm-#2 fired but the TERRY packet/consequence is PROME/TERRY→Will; no BOND trade recommendation this session (scoped). HYG puts stay closed.
 
 ## MAIL STATE
-- Inbox EMPTY (general + WALTER lanes both drained to processed/ this session).
-- Outbox: `2026-07-10_to-PROME-TERRY_arm2-semantics-coratification.md` (new, PROME routes to TERRY — I did not edit TERRY files, per the card's own instruction).
+- Inbox EMPTY (5 items drained to processed/ + WALTER/processed/ this session).
+- Outbox (new this session, PROME routes): `2026-07-16_to-PROME-TERRY_arm2-cograde-and-rates-read.md`. Setups: ARM3 template + 20Y/TIPS pre-reg.
 
 ## WORKBOOK / PUSH HEALTH
-- KB-072..075 appended (schema-conformant). Commits path-scoped BOND-only; push deferred per spawn instructions (PROME session owns the train today).
+- KB-BND-076..079 appended (schema-conformant, CRLF-preserved). VX-BND-05/14 updated. Commits path-scoped BOND-only across 4 commits (b93e5f6a, 2effbec4, inbox-drain, 9b9d7cdd). **Push DEFERRED — PROME owns the closeout push-train.**
