@@ -73,7 +73,7 @@ ZONE 3 — TRIGGER CONFIRM + DECISION
 - [x] A discriminator actually fired (arm-#2, 5-of-5 7/13) · [x] Live marks (broker chain 10:04 ET) · [~] Green/red (RED, muted for spread — §7.1)
 - [x] Liquidity OK (all rungs) · [x] Max loss ≤ $500 (defined-risk, every variant) · [ ] Position truth (Will confirms)
 
-**Terry verdict (as of 2026-07-16, live-marked):** **CLEAN structure — REC = 81/76 put debit spread.** Arm-#2 FIRED (5-of-5 7/13). Will APPROVED the ladder structure; live broker chain in hand (10:04 ET). Rec the 81/76 spread over the outright ladder: pays on the confirmed term-premium GRIND (outright ladder = $0 if TLT only reaches ~78), closer breakeven, sells rich tail-skew vol, ~⅓ the theta. Approved outright fallback = 77 P (41 ct/$492) for a crash view. Arm-#1 DEAD, arm-#3 grades today 4pm. Card ARMED, live.
-**Decision:** [ ] APPROVE-MODIFIED → 81/76 spread (Terry rec)  [ ] 82/77 or 80/75 spread  [ ] APPROVE outright 77 P ladder  [ ] REJECT/HOLD — Will's call; fill timing per rule #6 (§7.1)
+**Terry verdict (2026-07-16):** flat-book analysis reached CLEAN/REC=81/76 spread — then **position truth (10:09 ET) REVERSED it to book-aware NO ADD** (§9 in arm packet): Will already owns the grind 3 ways (TBT + ITM 85P + 82P ≈$1,150, ~186 sh short-delta, live not stubs), so the spread ≈doubles his short-delta redundantly. Arm-#2 FIRED (5-of-5 7/13); arm-#1 DEAD; arm-#3 grades today 4pm. Card ARMED.
+**Decision (WILL, 2026-07-16 ~10:30 ET):** **NO ADD — book-aware rec accepted.** Redundant + deepens a concentrated "Mideast-stays-hot" bet (shared Hormuz-de-escalation falsifier across his rates-short AND oil-long books). **Card stays ARMED; the $500 is BANKED for a re-fire** (arm-#3 4pm, or a red-day/vol-cooldown entry). **Crash-ladder (77/76/75) = approved fallback shape** if a re-fire warrants deploying — the one non-redundant exposure.
 
 **APPROVAL REQUIRED — Will must approve/reject before execution. Terry never executes.**
