@@ -64,7 +64,7 @@ Apply when entering, updating, or resolving any prediction. Came from real misse
 | PRED-40 | Mar 2026 | BROCK/NEXUS | Bank loss exposure $73.4-137.6B | Q2-Q3 earnings | 🔴 ACTIVE | 80% |
 | PRED-41 | Mar 2026 | OTTO/NEXUS | Mass-market consumer stress breaks Q4 2026 / Q1 2027 | 6-12mo lag from RV/auto destruction | 🔴 ACTIVE | 75% |
 | PRED-43 | Mar 2026 | HANS/HAWK | Dimona→Fordow→Kharg sequence as main escalation path | Israeli nuclear retaliation to Dimona strike | 🔴 ACTIVE — **catalyst-vs-consequence caveat:** P(sequence) = P(Dimona strike) × P(Israeli nuclear retaliation \| Dimona strike). Reassess given HAWK 5/22 partial-thaw reframe (SIG-26060602). | 65% (likely reducing) |
-| PRED-45 | Apr 2026 | NEXUS | Blue Owl arms-length fire sale triggers industry mark-down | First secondary at 85-90¢ or below | 🔴 ACTIVE | 90% |
+| PRED-45 | Apr 2026 | NEXUS | Blue Owl arms-length fire sale triggers industry mark-down | First secondary at 85-90¢ or below | 🔴 ACTIVE — **LIVE EVIDENCE (news-sweep 7/16):** Cliffwater CCLFX (interval fund, ~$31B) is **force-selling ~$1B NAV of private-credit loans into the SECONDARY MARKET** [PitchBook LCD] to meet a Q2 17% redemption run (vs 5-7% cap; ADS BDC 16.8%). This is the arms-length-secondary mechanism firing via the redemption/liquidity channel — **watch the clearing price** (the 85-90¢ trigger). A distressed secondary print would force the industry mark-down AHEAD of the 7/25-28 BDC-mark calendar. Non-oil, independent of Hormuz. | 90% |
 
 ---
 
