@@ -6,11 +6,11 @@ VX-ZHAO-1.04	Belgium YoY Growth (%)	decel	YELLOW	<10	>15	>25	>35	2026-07-04	TIC 
 VX-ZHAO-1.05	True China Holdings Adj ($B)	1850	GREEN	>1800	<1700	<1600	<1500	2026-02-13	Setser/CFR	Stable ~$1.8-1.9T since 2015 when adjusted for Belgium.
 VX-ZHAO-1.06	Agency MBS Rotation ($B)	100	GREEN	<50	>50	>75	>100	2026-02-13	Ginnie Mae	China #1 MBS holder mid-2022. $100B accumulated 2022-2023.
 VX-ZHAO-1.07	FX Intervention Proxy ($B)	stale	YELLOW	<30	>50	>80	>100	2026-07-04	FT/Setser (Feb)	DOWNGRADED: yuan now STRONG ~6.80, PBOC resisting appreciation not defending depreciation. Feb "burning reserves" read contradicted by current CNY. Needs fresh SAFE settlement print.
-VX-ZHAO-2.01	USD/CNY	6.80	GREEN	<7.20	>7.30	>7.40	>7.50	2026-07-04	PBOC fix Jul 3	Yuan below 7.00, stronger than March. PBOC gradual managed depreciation from stronger level. 7.30 thesis weak.
+VX-ZHAO-2.01	USD/CNY	6.76	GREEN	<7.20	>7.30	>7.40	>7.50	2026-07-16	ZHAO boot.py live (yfinance)	Yuan below 7.00, stronger than March. PBOC gradual managed depreciation from stronger level. 7.30 thesis weak.
 VX-ZHAO-2.02	CNH-CNY Spread	0.02	GREEN	<0.02	>0.03	>0.05	>0.08	2026-02-13	Bloomberg	Offshore premium = capital flight pressure.
 VX-ZHAO-2.03	HK Aggregate Balance (B HKD)	54.0	GREEN	>55	<45	<40	<30	2026-05-28	HKMA May 28	HK$53,997M. Stable above $45B floor. No peg defense.
 VX-ZHAO-2.04	HIBOR-SOFR Spread (bps)	-136	YELLOW	>-100	<-100	<-200	<-300	2026-07-04	HKAB late Jun	1M HIBOR ~2.94% vs SOFR ~4.30%. Normalized well inside -200 trigger. Q1 carry stress resolved. SOFR EST.
-VX-ZHAO-2.05	USD/KRW	1540	RED	<1400	>1450	>1480	>1500	2026-07-04	TradingEconomics Jul 3	~1,530–1,550, near 2009 lows. Record foreign KOSPI outflows (₩7.7T single session, 7–8 day streak). CPI 3.2% Jun -> BoK Jul 16 hike watch.
+VX-ZHAO-2.05	USD/KRW	1478.51	YELLOW	<1400	>1450	>1480	>1500	2026-07-16	ZHAO boot.py live (yfinance), corrob. FXStreet/TradingPedia	Won strengthened to 2mo low post-BoK-hike (+25bp to 2.75%, 7/16), down from ~1,530-1,540 (7/4-7/5). Downgraded from RED — hike-defense working so far (ZHA-12). CPI 3.2% Jun was the hike driver.
 VX-ZHAO-2.06	KOSPI foreign flows	grinding	ORANGE	inflow	mild outflow	sustained outflow	crash	2026-07-04	TradingEconomics Jul 2026	Reframed from Mar -18.5% crash event. Now: grinding foreign net-selling (₩7.7T single session, 7-8 day streak), not a fresh crash. Tech-share exposure.
 VX-ZHAO-2.07	Korea UST Holdings ($B)	103	YELLOW	Stable	Active defense	Active selling $5-10B/mo	Active selling >$15B/mo	2026-03-04	TIC + est	Official only. NPS adds $100-150B est. Total exposure $200-250B.
 VX-ZHAO-3.01	Evergrande Bond Price	0.08	RED	>0.20	<0.15	<0.10	<0.05	2026-02-13	Bloomberg	In default/liquidation. <0.6% recovery over 10yr.
