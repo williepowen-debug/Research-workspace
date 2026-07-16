@@ -801,9 +801,135 @@ def check_status_spine_overflow():
     return [(INFO, f"STATUS.md spine at {n} lead(s) (≤{CAP})")]
 
 
+def _read(p: Path) -> str | None:
+    try:
+        return p.read_text(encoding="utf-8", errors="replace")
+    except OSError:
+        return None
+
+
+def _agents_in(span: str) -> set[str]:
+    """Extract agent-name tokens from a prose span. Agent names are UPPER_SNAKE, >=3
+    chars; drop the connective words that share that shape."""
+    return {t for t in re.findall(r"\b[A-Z][A-Z_]{2,}\b", span)
+            if t not in {"NOT", "AND", "SKIPPED", "BOARD", "ACTION", "INFO", "WALTER"}}
+
+
+def check_restated_set_drift():
+    """version_drift + claude_md_version_drift compare a canonical source to a
+    restatement — but both only watch VERSION NUMBERS. A doc that restates a SET or a
+    COUNT in prose drifts invisibly to them. Two live instances found 2026-07-16 in one
+    session: (a) CLAUDE.md RULE 10 — the rule read at dispatch time — still advertised
+    the §3.5 exemption as '(v0.7) currently CARL' when it had been CARL + RED since v0.8
+    (7/09, 7 days stale); (b) CLAUDE.md boot step 11 said a signal's cluster 'MUST be 1
+    of the 11' when CLIMATE_MACRO made it 12 on 6/28 (18 days stale, in the step run on
+    every dispatch). Same class as the two version checks, one datum-type over.
+
+    SCOPED TO TWO SEEDS ON PURPOSE (Will-approved 2026-07-16). This is NOT a generic
+    'scan prose for stale claims' — that isn't buildable and would be overselling. It
+    checks only registered (canonical -> restatement-site) pairs, so a NEW restatement
+    somewhere else is invisible until added here. Adding a seed = add a SEEDS entry.
+
+    HISTORY IS THE TRAP, not detection: changelogs legitimately say 'as of v0.26 —
+    CARL + RED' and STATE legitimately says 'pairs BOARD_CONSUMPTION_SPEC v0.8'. Those
+    are correct RECORDS of a past state and must not be flagged. Every regex below is
+    therefore anchored to a distinctive CURRENT-claim phrasing rather than to a bare
+    name/number, and changelog spans are excluded. Same lesson as boot_protocol_xref,
+    where a doc's own example pointer read as a real dangling reference."""
+    out = []
+
+    # ── Seed 1: the §3.5 pull-complete exemption set ────────────────────────────
+    # Canonical = this module's own PULL_COMPLETE constant (what the code actually does).
+    truth = set(PULL_COMPLETE)
+    sites = [
+        (WALTER / "CLAUDE.md", "RULE 10",
+         r"pull-complete recipients \(currently ([^)]*)\)"),
+        (WALTER / "design/SIGNAL_PROCESSING_CHECKLIST.md", "Phase 3.5 exemption note",
+         r"§3\.5 exemption list \(\*\*([^*]+)\*\*"),
+    ]
+    for path, label, pat in sites:
+        text = _read(path)
+        if text is None:
+            out.append((LOW, f"{path.name} unreadable — {label} exemption claim unverifiable"))
+            continue
+        m = re.search(pat, text)
+        if not m:
+            out.append((LOW, f"{path.name} {label}: no pull-complete claim matched — "
+                             f"phrasing changed? re-anchor the regex or drop the seed"))
+            continue
+        claimed = _agents_in(m.group(1))
+        if claimed != truth:
+            out.append((MED, f"{path.name} {label} claims pull-complete = "
+                             f"{{{', '.join(sorted(claimed))}}} but PULL_COMPLETE is "
+                             f"{{{', '.join(sorted(truth))}}} — stale restatement"))
+
+    # Canonical prose home: the spec's own "Current exemption list" bullets. Span-scoped
+    # so the adjacent "NOT exempt — REGINALD/SAM" bullet can't be miscounted as members.
+    spec = _read(WALTER / "design/BOARD_CONSUMPTION_SPEC.md")
+    if spec is not None:
+        m = re.search(r"\*\*Current exemption list:\*\*(.*?)\*\*Doctor:\*\*", spec, re.S)
+        if m:
+            listed = set()
+            for line in m.group(1).splitlines():
+                if line.lstrip().startswith("- **") and "NOT exempt" not in line:
+                    b = re.match(r"\s*- \*\*([A-Z][A-Z_]{2,})\*\*", line)
+                    if b:
+                        listed.add(b.group(1))
+            if listed and listed != truth:
+                out.append((MED, f"BOARD_CONSUMPTION_SPEC §3.5 'Current exemption list' = "
+                                 f"{{{', '.join(sorted(listed))}}} but PULL_COMPLETE is "
+                                 f"{{{', '.join(sorted(truth))}}} — spec and code disagree"))
+
+    # ── Seed 2: the cluster set ─────────────────────────────────────────────────
+    # Canonical = CLUSTER_TAXONOMY's numbered table (`| N | **NAME** | ...`).
+    tax = _read(WALTER / "design/CLUSTER_TAXONOMY.md")
+    if tax is None:
+        out.append((LOW, "CLUSTER_TAXONOMY.md unreadable — cluster-set claims unverifiable"))
+    else:
+        clusters = set(re.findall(r"^\|\s*\d+\s*\|\s*\*\*([A-Z][A-Z_]+)\*\*", tax, re.M))
+        if not clusters:
+            out.append((LOW, "CLUSTER_TAXONOMY.md: canonical numbered table didn't parse — "
+                             "structure changed? re-anchor before trusting this seed"))
+        else:
+            n = len(clusters)
+            # (a) the taxonomy's own heading restates the count
+            m = re.search(r"^## The (\d+) clusters", tax, re.M)
+            if m and int(m.group(1)) != n:
+                out.append((MED, f"CLUSTER_TAXONOMY heading says '{m.group(1)} clusters' but its "
+                                 f"own canonical table lists {n} — self-inconsistent"))
+            # (b) CLAUDE.md dispatch step 11 restates the count
+            claude = _read(WALTER / "CLAUDE.md")
+            if claude:
+                m = re.search(r"MUST be 1 of the (\d+) in `CLUSTER_TAXONOMY\.md`", claude)
+                if not m:
+                    out.append((LOW, "CLAUDE.md step 11: cluster-count claim didn't match — "
+                                     "phrasing changed? re-anchor the regex"))
+                elif int(m.group(1)) != n:
+                    out.append((MED, f"CLAUDE.md step 11 (run on EVERY dispatch) says a cluster "
+                                     f"MUST be 1 of {m.group(1)} — canonical taxonomy has {n}"))
+            # (c) BOARD INDEX sections must be exactly the taxonomy set
+            idx = _read(BOARD / "INDEX.md")
+            if idx:
+                sections = set(re.findall(r"^## ([A-Z][A-Z_]+) \(\d+\)$", idx, re.M))
+                if sections and sections != clusters:
+                    extra, missing = sections - clusters, clusters - sections
+                    bits = []
+                    if extra:
+                        bits.append(f"INDEX has un-taxonomied {{{', '.join(sorted(extra))}}}")
+                    if missing:
+                        bits.append(f"taxonomy has un-sectioned {{{', '.join(sorted(missing))}}}")
+                    out.append((MED, "BOARD INDEX cluster sections ≠ CLUSTER_TAXONOMY: " + "; ".join(bits)))
+
+    if not out:
+        out.append((INFO, f"restated sets match canon (pull-complete = "
+                          f"{{{', '.join(sorted(truth))}}}; clusters = {len(clusters)})"))
+    return out
+
+
 CHECKS = [
     ("version_drift", check_version_drift),
     ("claude_md_version_drift", check_claude_md_version_drift),
+    ("restated_set_drift", check_restated_set_drift),
     ("board_reconcile", check_board_reconcile),
     ("log_reconcile", check_log_reconcile),
     ("cron_liveness", check_cron_liveness),
