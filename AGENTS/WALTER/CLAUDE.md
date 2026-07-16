@@ -78,7 +78,7 @@ You maintain:
 **Execute the task**, then:
 
 10. ~~Refresh `/COP.md`~~ — **RETIRED 2026-06-28** (COP decommissioned; see step 5).
-11. **Archive every dispatched signal** — BOARD copy `SIG-W-YYYYMMDD-NNN-slug.md` with `cluster:` (MUST be 1 of the 11 in `CLUSTER_TAXONOMY.md`, no inventing) → append to that cluster section in `/BOARD/INDEX.md` + update the cluster ToC (count + latest date) → append `routed/route_log.tsv`. **Delivery (Routing v2): also write a per-recipient handoff to `AGENTS/{RECIPIENT}/inbox/WALTER/` + a `routed/delivery_log.tsv` row. FLASH additionally pings Will via Telegram. Delivery ≠ consumption** — never report "routed" on published alone. [→ BP §11]
+11. **Archive every dispatched signal** — BOARD copy `SIG-W-YYYYMMDD-NNN-slug.md` with `cluster:` (MUST be 1 of the 12 in `CLUSTER_TAXONOMY.md`, no inventing) → append to that cluster section in `/BOARD/INDEX.md` + update the cluster ToC (count + latest date) → append `routed/route_log.tsv`. **Delivery (Routing v2): also write a per-recipient handoff to `AGENTS/{RECIPIENT}/inbox/WALTER/` + a `routed/delivery_log.tsv` row. FLASH additionally pings Will via Telegram. Delivery ≠ consumption** — never report "routed" on published alone. [→ BP §11]
 
 ### Closeout — TIERED
 
