@@ -72,7 +72,11 @@ Phase-III long-end re-fire, **globally synchronized**: domestic hawkish-data rep
 
 ## Global Long-End — JGB/FX panel (new, channel 6)
 
+> **[7/16 re-scope — SAM v1.6.7 errata, KB-BND-079]** The "demand vacuum / lifers net sellers" framing below is **superseded**: SAM's base case is now **net-demand-POSITIVE** (Meiji floor auction-confirmed 7/7); the 30Y ~4.5% forced-seller tail is re-scoped to **J-GAAP statutory-impairment, mid-cap-concentrated (Fukoku/Asahi), DISORDERLY-only** — a thin conditional tail, not a fat reflexive one (DEWEY/WALTER SIG-W-20260710-004 concurs: ALM-buyer, not forced-seller). **BOND's Japan-as-term-premium-correlation-amplifier framing is unchanged and consistent** — my long-end tail work does NOT build on the old reflexive forced-seller mechanism. Do not re-cite it.
+
 Japan's super-long demand vacuum is real and worsening (6/25 20Y JGB BTC 2.97x = weakest since the May-2025 rout; lifers net sellers; rinban stepped down to ¥2.5T/mo **effective 7/1**; BOJ stood aside through an 8.8bp 30Y rout) — but the 6/20–7/1 window shows **duration decoupling, not competition**: after the weak JGB 20Y, USTs *rallied* four sessions to a 7-week low. The 6/30–7/1 co-selloff had different signatures (JP: pure super-long steepener, 2Y −3/30Y +9; US: near-parallel +4–7bp policy repricing). **The armed transmission leg is FX:** yen 162+ (40-yr low), record ¥11.7T already spent Apr–May, Mimura verbal warning 7/1 — *actual* MOF intervention = mechanical selling from $1T+ UST reserves. Watch: **7/2 10Y JGB auction · USD/JPY 165 · BOJ 7/31.** Full read → KB-BND-065; reply to SAM in `outbox/`.
+
+> **[7/16 DEFERRED — structural-demand corpus handoff, PROME routing 7/11]** HENRY handed BOND the UST structural-demand corpus (the term-premium "why" under the auctions): **ML-HEN-114/115** (Japan withdrawal $50–120B/yr, 30Y depth −30% [Mar vintage]), **FLOW-HEN-025 + VX-HEN-20.05** (Gulf recycling −$50–75B/yr [3/12]). All **Mar-vintage**; nobody owns the structural-demand layer in writing. **Refresh-or-retire deferred to a dedicated session** — it's the mechanism under my arm-#2 term-premium read but not urgent for the arm grades or the 4PM TIC. Owner: BOND.
 
 ## New Coverage Baseline (7/1) — MBS/FHLB + EU rates
 
