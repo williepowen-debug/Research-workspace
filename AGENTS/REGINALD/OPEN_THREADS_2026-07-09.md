@@ -2,6 +2,8 @@
 
 *Follow-on to tonight's catch-up + self-sweep. Ranked, no trade recs, no dated-gate restating (7/21 etc. are gates, not threads — see CALENDAR).*
 
+> **🔧 2026-07-16 DEAD-POINTER FIX (PROME firetime_check):** Two stale pointers below resolved — (1) **`workbook/SHORT_INTEREST.tsv`** (Gap table, "stale, un-bannered, missed the FROZEN sweep"): **CORRECTED — it IS frozen** (banner dated 2026-06-27, "orphaned data-feed, 0 live consumers, STATUS/ROADMAP canonical"). No live short-interest instrument stands (confirmed) — but the ledger is properly bannered, not a silent-rot risk. Strike the "un-bannered" claim. (2) **`HBAN/STATUS.md` / HBAN gap** (Gap + Threads tables): position **REAL per FORGE 7/16 mirror**; **HBAN Q2 = Thu 7/23 BMO** (TERRY primary-verified vs HBAN IR, in PROME/DOCKET.tsv — REGINALD co-owns); the "Oct-16" flag = **HBAN option expiry, RESOLVED** (not a date error). The remaining live thread is genuine: HBAN still has no thesis folder behind a real position — cycle tell for the 7/23 read = **criticized/special-mention build**, not headline NCO (WALTER SIG-006 frame). Repointed, not struck.*
+
 ## 1. Open Questions
 
 | # | Question | Why it matters | Owner |

@@ -1,9 +1,12 @@
-> **FROZEN 2026-07-09** — one-off Apr-7 completion marker, superseded by ongoing STATUS/MEMORY/ROADMAP session cadence. Not maintained; do not cite as current.
+# REGINALD — LAST COMPLETION (2026-07-16 teams-spawn)
 
-## COMPLETION — REGINALD — 2026-04-07
-STATUS: ✅ DONE
-CHANGED: AGENTS/REGINALD/STATUS.md
-RESULT: EOD scan complete. WAL -1.54% to $71.96 (approaching $70 level), KRE flat at $66.75, OZK +0.71% at $46.64. HY OAS tightened 313→305bps mechanically on ceasefire headlines, but CCC/HY ratio stuck at 3.2x confirms distressed credit concentration. Scenario D thesis confirmed: credit bifurcation deepening despite headline spread improvement. 14 days to WAL/OZK earnings.
-GAPS: None
-WILL_NEEDS: None
-FOLLOW-UP: Re-scan Apr 8; watch WAL $70 level and HY OAS for re-breach of 320bps
+**STATUS:** ✅ COMPLETE — full priority stack delivered; must-finish (OZK adjudication) shipped.
+**CHANGED:** `outbox/2026-07-16_to-PROME_ozk-adjudication.md` (new) · STATUS.md (7/16 header + GSE row + CCLFX watch row) · PREDICTIONS.tsv (REG-24/25 re-grade) · CALENDAR.md (HBAN 7/23 + OZK row + re-grades) · MEMORY.md (7/16 session) · OPEN_THREADS_2026-07-09.md (dead-pointer fix) · `AGENTS/CARL/inbox/REGINALD_ROUTING_2026-07-16.md` (SYF, Will-authorized) · 4 inbox items → processed/.
+**RESULT:**
+- **OZK slide = MIXED, leaning UNRELATED/transient-analyst-driven** (conf med-high). −6.6%/wk slide (→$49.37 [7/8]) driven by TD Cowen Buy→Hold ~7/6 (PT→$53) + crowded-short churn (SI 14.28% float 6/30, +2.1% only); **FULLY REVERSED to $52.88 [7/16] → 7/21 print surprise NOT spent, setup intact.** MIXED because Score-13 insiders + DEWEY concentration-creep are real substrate; div raise+$200M buyback 7/1 counter.
+- **Bank prints 7/14-15: benign-to-improving, ZERO criticized build.** MTB criticized −$700M QoQ (9th qtr), WFC releasing office CRE reserves, JPM credit benign under +41% trading beat, Citi neutral → **confirms WAL/OZK bear is idiosyncratic-concentration, not tier-wide.**
+- **DEWEY-owed outputs:** CHG-RED-040 → resolves toward REGINALD/CORAL (idiosyncratic, not broad-tier); **REG-24 70→65%, REG-25 75→72%, REG-26 33%.**
+- **GSE MF fixed:** Fannie 0.75% Nov-25 (stale) → HOMER 0.58% May (improving); 🔴→🟠.
+**GAPS:** WAL office not separately tagged at loan-class level (base-rate's key discriminator undisclosed); OZK slide-window SI (7/2-8) won't settle/report until mid-July — 6/30 print pre-dates it.
+**WILL_NEEDS:** `POSITIONS.md` broker refresh remains the one thing gating a 7/21 fire (off-repo truth, rule #4) — FORGE 7/16 shows OZK Aug-21 45P×4 + 42.5P×1 current.
+**FOLLOW-UP:** Fill BROCK bank→BDC map with the now-landed 7/14-15 data; grade WAL/OZK/ALLY 7/21 triple live off pre-registered frames; SYF reconcile round-trip with CARL pre-7/22; build thin HBAN thesis pre-7/23.
