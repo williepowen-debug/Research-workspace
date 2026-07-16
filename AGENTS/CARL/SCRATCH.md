@@ -33,11 +33,15 @@
 ---
 
 ## NEXT SESSION SHOULD
+### ⭐ MUST-DO BEFORE 7/22 (PROME-flagged at 7/16 closeout)
+0a. **SYF FIGURE RECONCILE with REGINALD — converge on ONE number pre-7/22 print.** My read (KB-334): SYF May-monthly NCO **5.5% sitting AT the FY26 guide ceiling** (<5.5%) = CRL-24 coin-flip, discriminator is ACL-coverage direction. NEXUS's 7/16 sweep read it as "**lowered charge-off guidance**" (improving framing). NOT necessarily contradictory (SYF DID cut FY26 guide 6.0%→<5.5% AND May monthly runs at 5.5% = at the lowered ceiling) — but the *framing* diverges (at-ceiling/coin-flip vs improving). **Two agents must present ONE figure to Will before the 7/22 print** — REGINALD has the same reconcile in its routing note. Resolve which frame is load-bearing (level vs coverage-direction).
+0b. **GAS-$4 CROSSING consumption (weekend card is self-grading).** Read `2026-07-16_gas-4dollar-crossing-card.md` + AAA number: ≥$4.00 (7/17-20) → resolve CRL-26 CONFIRMED + write STATUS/KB/NEXUS + cross-flag HENRY/BRENT. **PRE-FLAG: a SUSTAINED cross (≥~2wk >$4.00) escalates the V5 gas rail 3→4 = a WILL DECISION** (don't auto-bump; surface it). <$3.85 first = CRL-26 MISS.
 ### IMMEDIATE / this week
-1. **Q2 consumer-credit earnings 7/21-24** (CRL-24/20/21/12) + **Builders 7/22** (CRL-23) — the masking resolvers. Spawn HOMER (Sonnet) for builder data if needed.
+1. **Q2 consumer-credit earnings 7/21-24** (CRL-24/20/21/12) + **Builders 7/22** (CRL-23) — the masking resolvers. **CRL-24 = coin-flip; the discriminator is ACL-coverage DIRECTION (build vs release), NOT the NCO level alone.** Spawn HOMER (Sonnet) for builder data if needed.
 2. **FOMC 7/28-29 — pre-register a read** (V12 anchor, no SEP; un-fire = dovish pivot 2 consec).
 3. **UNH Q2 (7/16, CRL-22)** + **ATTOM Q2 foreclosures (7/16, CRL-06 2nd confirming point)** — integrate if released; ELV Q2 7/22.
 4. **REO-conversion sub-watch** (new): track ATTOM REO/completions (was 14,020 Q1, May −20% MoM) — the pipeline-conversion tell that CRL-06-on-starts doesn't capture.
+5. **OSPREY 42.7%-refining reconcile PENDING:** PROME deferred the Russia refining-capacity supply-side figure (KB-332) to OSPREY — expect OSPREY's verdict in inbox; I own only the consumer-transmission slice (freight→core). Don't re-verify the supply figure myself.
 ### BACKLOG
 5. **72 BOARD signals undispositioned** (7/10 vintage) — Sonnet delegate-extraction + CARL final calls (Jun-8 pattern). Biggest hygiene debt.
 6. STATUS trim (now ~248 near cap after June-CPI add) · consistency_check.py Phase 1 · Jul 20 USTR Sec-301/Sec-122 · Jul 24 POP refresh-then-demote (Sub-V sunset).
