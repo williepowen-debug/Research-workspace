@@ -1,8 +1,8 @@
 # ARM PACKET → PROME → Will [Approve] — TRY-FIRE-004 (TLT duration-short / puts)
 **From:** TERRY · **Date:** 2026-07-16 (updated ~10:10 ET w/ Will's live broker chain; markets open) · **Gate:** GATE-TERRY-ARM2 = FIRED (arm-#2 5-of-5 completed Mon 7/13)
-**Consequence executed:** arm-#2 fired → TERRY arms TRY-FIRE-004 → **this packet → Will [Approve].** Will has APPROVED the ladder structure; this version finalizes sizing on live marks + offers the grind-spread refinement.
-**Terry verdict:** **CLEAN structure. Recommendation: 81/76 put debit spread (§5C)** — better-matched to the confirmed term-premium GRIND than the outright crash-ladder. Defined risk ≤$500 every variant.
-**Confidence in trade structure:** Medium (structure clean + thesis confirmed by BOND/HENRY; magnitude/timing is the open risk — hence spread over outright).
+**Consequence executed:** arm-#2 fired → TERRY arms TRY-FIRE-004 → **this packet → Will [Approve].** Will APPROVED the ladder structure; then his live broker book landed (10:09 ET) and **he is NOT flat** — see §9, which reverses the recommendation.
+**Terry verdict (book-aware, §9):** **ADD NOTHING now — bank the $500.** Will already owns the duration-short grind three ways (TBT + 85P + 82P ≈ $1,150); the confirmed thesis is *already expressed*. If deploying anyway, take ONLY the crash-tail 77 P (the one gap) — **NOT** the 81/76 spread (redundant). §5C's flat-book spread rec is RETRACTED. Defined risk ≤$500 every variant; but the real risk is the ~$1,650 thesis concentration with a **shared Hormuz-de-escalation falsifier across his rates-short AND oil-long books.**
+**Confidence:** structure clean; the call is a *sizing/portfolio* judgment, not a structure one.
 
 ---
 
@@ -92,14 +92,34 @@ Given BOND + HENRY both confirm a **term-premium GRIND** (real-yield-led, higher
 - [~] Green/red check (rule #6) — **RED day (TLT −0.4%); muted for the spread, flagged for outright (§7.1)**
 - [x] Liquidity OK — **YES on all rungs at $500 scale (§3)**
 - [x] Max loss ≤ $500 — **YES, defined-risk every variant (§5)**
-- [ ] Position truth — **Will confirms no conflicting TLT/duration book (VIO-116 same lane)**
+- [x] Position truth — **KNOWN (Will's broker screenshots, 10:09 ET). NOT flat — see §9. This supersedes the flat-book rec above.**
 
-## Decision
-**Terry verdict: CLEAN structure — recommend the 81/76 put debit spread (§5C)** over the approved outright ladder: same defined ≤$500 risk, but it *pays on the confirmed grind* (the outright ladder expires worthless if TLT only reaches ~78), breaks even far closer to spot, sells the rich tail-skew vol, and bleeds ~⅓ the theta. Will approved the ladder structure; this is an APPROVE-MODIFIED refinement, his call.
+## 9. ⚠️ PORTFOLIO-AWARE REFRAME (position truth landed — this REVERSES the §5C rec)
+Will is **not flat**. Existing duration-short book (Fidelity, live ~10:09 ET):
+| Position | Exposure | Type | Zone / tenor |
+|---|---:|---|---|
+| TBT 14 sh (+6.6%) | ~$517 | 2× inverse UST — **linear grind** | continuous |
+| TLT Sep-30 **85 P** ×2 | $434 | ITM put (~1.3% ITM) | 82–85 zone, Sep-30 |
+| TLT Oct-16 **82 P** ×2 | $198 | near-money put (~2.2% OTM) | 79–82 zone, Oct-16 |
+| **Total** | **~$1,150** | duration-short, 3 ways | **already owns the grind + mid-strikes** |
 
-- [ ] **APPROVE-MODIFIED → 81/76 spread** (13 ct, ~$468, max loss $468, max payoff $6,032) — *Terry rec*
-- [ ] APPROVE-MODIFIED → 82/77 (higher win-prob) or 80/75 (max convexity) spread
-- [ ] APPROVE → outright 77 P ladder (41 ct, $492) — approved fallback, crash-only
-- [ ] REJECT / HOLD (e.g. wait for green-day fill)
+**What his book already has:** the linear grind (TBT) **and** near/mid-money convexity (85P/82P), longer-dated than my Sep-18. **What it lacks:** deep-OTM crash-tail (nothing below 82).
+
+**Re-ranked for HIS book (not a flat book):**
+1. **ADD NOTHING — bank the $500 (Terry rec now).** The grind is already expressed three ways (~$1,150); the thesis is confirmed but *owned*. Preserve dry powder for a cleaner re-fire — **arm-#3 could re-trigger at 4pm today**, or a red-day/vol-cooldown entry (same discipline BRENT applies to energy). Adding here is pressing a working, already-held thesis.
+2. **Crash-tail ladder 77/76/75 — ONLY if adding.** It is the *one non-redundant piece* (deep-OTM convexity he doesn't own) — a cheap tail on top of his grind. Small size.
+3. **Grind-spread 81/76 — NO, REDUNDANT. (Retract my §5C flat-book rec.)** Its long leg (81) sits right on his existing 82P, and its 76–81 payoff zone overlaps TBT + 85P + 82P. It doubles down on the grind he already owns.
+
+**Aggregate + correlation flags (the real risk, bigger than the per-card $500):**
+- **Thesis exposure, not card exposure:** $500/card is per-card, but duration-short is now ~$1,150 → **~$1,650 if this adds.** Size against the *thesis* total, not a flat book.
+- **One shared falsifier across the ENTIRE book — including the energy longs.** BOND's rates-short thesis rests on the *oil-driven* term/real-yield premium; BRENT's registered falsifier is **fast Hormuz de-escalation → Brent retraces.** That single headline would **(a) drop his USO/oil longs AND (b) ease the real-yield premium → bonds rally → TBT + all TLT puts lose — simultaneously.** His book is effectively one concentrated **"Middle East stays hot / oil stays bid"** bet. Adding $500 more duration-short deepens that concentration. **Flag to Will before he adds.**
+
+## Decision (book-aware)
+**Terry verdict: the thesis is right and Will already owns it. Recommend ADD NOTHING now — bank the $500 for a re-fire (arm-#3 4pm or a red-day entry).** If he wants to deploy anyway, take ONLY the **crash-tail 77 P** (41 ct/$492) — the one gap in his book — **NOT** the 81/76 spread (redundant with his 82P/85P). Either way, size against the ~$1,650 thesis total and the shared-Hormuz-falsifier concentration, not a flat book.
+
+- [ ] **HOLD / BANK the $500** — book already expresses the grind; re-fire on arm-#3 or a red-day entry (*Terry rec*)
+- [ ] APPROVE → crash-tail 77 P ladder (41 ct/$492) — the non-redundant add, if deploying
+- [ ] APPROVE → 81/76 spread — *only if* he wants to concentrate the grind further (Terry flags redundant)
+- [ ] REJECT
 
 Fill timing is Will's (rule #6, §7.1). **APPROVAL REQUIRED — Will must approve/reject before execution. TERRY never executes.**
