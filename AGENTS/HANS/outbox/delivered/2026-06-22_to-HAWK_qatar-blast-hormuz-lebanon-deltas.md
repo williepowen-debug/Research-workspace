@@ -1,3 +1,7 @@
+**⚠️ SUPERSEDED — NEVER DELIVERED.** This signal sat in `outbox/` for 24 days without reaching HAWK's inbox (caught by the 2026-07-16 domain sweep, finding #4). Dispositioned by PROME 2026-07-16: do not deliver late — superseded by the real, formal 7/11-12 Hormuz closure; the contested/declaratory framing below (Geneva safe-passage mechanism, ~12 transits, Qatar-blast-as-accident) is now stale and would add noise, not signal. Closed without delivery.
+
+---
+
 ## 2026-06-22 — To: HAWK
 **Signal:** Three Gulf/energy-infra deltas you're missing (your STATUS is Jun-20 PM; these are Jun 21-23) — Qatar Ras Laffan explosion, the Jun-22 Geneva "safe-passage mechanism," and a dated Lebanon catalyst.
 
