@@ -6,6 +6,7 @@ Human-readable ledger of Terry-reviewed trade plans. Full cards should live unde
 | Date | Setup | Thesis owner | Terry verdict | Will decision | Status | Card |
 |---|---|---|---|---|---|---|
 | 2026-06-20 | Terry scaffold | Prome/Will | N/A | Approved scaffold | Created | — |
+| 2026-07-16 | TRY-FIRE-004 TLT Sep-18 duration-short (arm-#2 fired 7/13) | BOND (VX-BND-05) / HENRY | CLEAN — rec 81/76 put spread over outright crash-ladder | Ladder structure APPROVED; spread refinement pending | PROPOSED | setups/FLOW-TRIGGER_duration-TLT-put.md |
 
 ## Status Values
 

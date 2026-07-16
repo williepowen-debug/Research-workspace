@@ -62,24 +62,18 @@ ZONE 2 — LIVE MARKS (fill ONLY at actual fire — rule #4)
 - **Trigger-level confirm:** arm-#2 (10Y 5-close sustain) — DID IT ACTUALLY HIT? **Y** (5-of-5 complete 7/13, FRED-verified §DISCRIMINATOR LOG)
 - **Spot(s):** TLT **$83.80** (fetch.py, −0.52% d/d) — as-of 2026-07-16 09:35 ET; 10Y 4.59, 30Y 5.12, MOVE 68.48
 - **Green/red day check (rule #6):** **RED day (TLT −0.52%, at range lows) — BREAKING rule #6.** Why noted: arm is a registered consequence firing today; but the FILL should not chase — prefer green-day/scaled entry (see arm packet §7.1). Vol axis partially offsets (MOVE 77→68.48, IV deflating).
-- **Chain marks:** `chain_fetch.py TLT 2026-09-18 --type put --no-cache` — **⚠️ 09:32 ET returned bid/ask = 0.00 ALL strikes, last-trades stamped 7/15, IV field broken (6.25% floor). NOT fillable. Re-pull required once options trade today (~15–30 min post-open) or read broker chain.**
-  | Strike | Mark (live) | Stale lastPrice [7/15] | OI | Moneyness% |
-  |---|---|---|---|---|
-  | 77 P | _pending live_ | $0.09 (unreliable) | 54,506 | −8.1% |
-  | 76 P | _pending live_ | $0.07 (unreliable) | 2,661 | −9.3% |
-  | 75 P | _pending live_ | $0.05 (unreliable) | 30,195 | −10.5% |
-  | 74 P | _pending live_ | $0.05 (unreliable) | 3,674 | −11.7% |
-- **Liquidity OK?** OI deep on 77/75; **spread unconfirmed** (0.00 at pull) → confirm at live re-pull.
-- **Broker position truth:** `[POSITION_STATE_UNKNOWN]` — off-repo, Will's broker book required at fire (rule #4).
-- **Sizing:** `risk_calc.py --premium <live_mark> --max-loss 500` → contracts = floor(500/(mark×100)); e.g. $0.10→50, $0.20→25, $0.30→16. Max loss hard-capped $500 (defined-risk).
+- **Chain marks:** FORGE tool could NOT serve live NBBO (0.00 across 3 pulls 09:32/09:45/09:52 — yfinance feed limitation). **Live marks = Will's broker chain, ~10:04 ET, TLT $83.89** (bid/ask): 82 P 0.65/0.67 · 81 P 0.43/0.44 · 80 P 0.28/0.29 · 77 P 0.11/0.12 · 76 P 0.08/0.09 · 75 P 0.06/0.07. Put skew steep (75 P IV 15.55% >> 82 P 11.53%). Full greeks in arm packet §3.
+- **Liquidity OK?** YES on all rungs at $500 scale (77 P ask 0.12×1030; 82 P bid 0.65×1394).
+- **Broker position truth:** `[POSITION_STATE_UNKNOWN]` — Will confirms no conflicting TLT/duration book (VIO-116 same lane).
+- **Sizing (live asks, $500 cap):** outright 77 P → 41 ct/$492 · 76 P → 55/$495 · 75 P → 71/$497. **Grind-spreads:** 82/77 → 8 ct/$448 (7.9×) · **81/76 → 13 ct/$468 (12.9×) [TERRY REC]** · 80/75 → 21 ct/$483 (20.7×). Decisive: at TLT→78 grind, spreads pay 7–9× while outright ladder = $0.
 
 ══════════════════════════════════════════════════════════════
 ZONE 3 — TRIGGER CONFIRM + DECISION
 ══════════════════════════════════════════════════════════════
-- [x] A discriminator actually fired (arm-#2, 5-of-5 7/13) · [ ] Live marks < 15 min (**BLOCKED — 0.00 at 09:32, re-pull req'd**) · [ ] Green/red OK (**RED, rule-#6 break flagged**)
-- [ ] Liquidity OK (spread unconfirmed) · [x] Max loss ≤ $500 (defined-risk) · [ ] Position truth known (off-repo)
+- [x] A discriminator actually fired (arm-#2, 5-of-5 7/13) · [x] Live marks (broker chain 10:04 ET) · [~] Green/red (RED, muted for spread — §7.1)
+- [x] Liquidity OK (all rungs) · [x] Max loss ≤ $500 (defined-risk, every variant) · [ ] Position truth (Will confirms)
 
-**Terry verdict (as of 2026-07-16 ARM):** **CONDITIONAL — CARD ARMED, arm packet delivered.** Arm-#2 FIRED (5-of-5 complete 7/13, TERRY-verified). Registered consequence executed → arm packet `outbox/2026-07-16_to-PROME_try-fire-004-arm-packet.md` → Will [Approve]. NOT a chase-now rec: live marks blocked (re-pull required, rule #4), red-day/range-low entry (rule #6 break), deep-OTM low-delta structure. Arm-#1 DEAD, arm-#3 PENDING (grades today 4pm). Card is ARMED, ALIVE, re-scoped.
-**Decision:** [ ] APPROVE  [ ] APPROVE-MODIFIED (spread/closer-strike/green-day scale)  [ ] REJECT  [ ] HOLD — Will's call at live marks
+**Terry verdict (as of 2026-07-16, live-marked):** **CLEAN structure — REC = 81/76 put debit spread.** Arm-#2 FIRED (5-of-5 7/13). Will APPROVED the ladder structure; live broker chain in hand (10:04 ET). Rec the 81/76 spread over the outright ladder: pays on the confirmed term-premium GRIND (outright ladder = $0 if TLT only reaches ~78), closer breakeven, sells rich tail-skew vol, ~⅓ the theta. Approved outright fallback = 77 P (41 ct/$492) for a crash view. Arm-#1 DEAD, arm-#3 grades today 4pm. Card ARMED, live.
+**Decision:** [ ] APPROVE-MODIFIED → 81/76 spread (Terry rec)  [ ] 82/77 or 80/75 spread  [ ] APPROVE outright 77 P ladder  [ ] REJECT/HOLD — Will's call; fill timing per rule #6 (§7.1)
 
 **APPROVAL REQUIRED — Will must approve/reject before execution. Terry never executes.**
