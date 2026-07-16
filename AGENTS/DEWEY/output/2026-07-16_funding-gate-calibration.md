@@ -42,7 +42,18 @@ The parent report derived the gate from two **funding-origin** episodes (Sep-201
 | **Mar 16** | — | **ACUTE LEG FIRES: +190bps** | **credit led by ~17 business days (24 calendar)** |
 | Mar 20-23 | **peak 423→431bps** | — | |
 
-**By the time the acute leg printed (Mar 16), Baa−10Y had already completed ~59% of its eventual +226bps move.** The gate is a *lagging* indicator in this archetype.
+**★ UPGRADED TO THE ACTUAL X1 TRIGGER SERIES (post-drafting).** The above ran on a **Baa−10Y proxy** because HY OAS was unreachable (FRED's ICE truncation). The `fred_pull.py --splice` helper **built later the same session** (Will-greenlit build-pass) closed that gap. Actual **ICE BofA HY OAS** [PRIMARY: Ice Data Indices via archived FRED, DEWEY-pulled]:
+
+| Date | HY OAS | vs Feb-20 | Note |
+|---|---|---|---|
+| **2020-02-20** | **362bps** | — | base |
+| **2020-02-21** | **366** | +4 | **credit starts moving — matches FSB's Feb-21 "flight to safety" date exactly** |
+| 2020-02-28 | 504 | +142 | funding still flat |
+| **2020-03-09** | **668** | **+306** | **credit already +306bps — acute leg has NOT fired** |
+| **2020-03-16** | **838** | **+476** | **← the acute leg fires HERE (+190bps SOFR99−IOER)** |
+| **2020-03-23** | **1087** | **+725** | peak |
+
+**→ By the time the acute leg printed, HY OAS had already completed 66% of its eventual +725bps move** — *worse* than the proxy's 59%, and this is **the series X1 actually triggers on.** The gate is a lagging indicator in this archetype, and the upgrade **strengthens the finding** rather than softening it. *(Baa−10Y retained above as independent corroboration — two different credit measures, same verdict.)*
 
 **The refutation attempt failed — and its failure strengthens the finding.** The obvious objection: late-Feb Baa−10Y widening is a *Treasury-rally* artifact, not credit deterioration. Decomposition kills it: DGS10 fell **−46bps** while DBAA fell only **−12bps** → **corporates underperformed the safe asset by 34bps.** Genuine credit underperformance. *(The same caveat runs the other way on TED — partly bill-richening — which makes funding look* less *stressed early, widening the credit lead.)*
 
@@ -148,7 +159,7 @@ IG OAS peaked **164bps (Mar 15)** — modest. **Both are true: IG barely moved; 
 ## Counter-Evidence
 
 1. **The gate's core verdict survives** — for funding-origin seizures, Sep-2019 (+690bps, HY *never* repriced) and UK-LDI remain unrefuted. **This report narrows the gate's scope; it does not overturn the parent.**
-2. **Mar-2020's acute leg DID fire (+190bps ≥ +30)** — so on the *acute leg alone* Mar-2020 is a true positive. The failure is the **conjunction** (slow leg never fired) and the **timing** (59% of the move done). An acute-only gate would fire — late and uselessly.
+2. **Mar-2020's acute leg DID fire (+190bps ≥ +30)** — so on the *acute leg alone* Mar-2020 is a true positive. The failure is the **conjunction** (slow leg never fired) and the **timing** (**66% of the HY move already done** — 59% on the Baa proxy). An acute-only gate would fire — late and uselessly.
 3. **The archetype taxonomy is DEWEY's construct, not a sourced framework.** Four episodes, three archetypes — thin. A future episode may not fit. *(Confidence: Medium on the taxonomy; High on the underlying per-episode data.)*
 4. **RRP-drained regime is unprecedented in the sample.** The $0.151B buffer means the next funding event may look nothing like the 2018-19 reserve-scarcity regime the FP census is built on. **Caveat 3 (regime-dependence) cuts directly against the calibration's forward validity** — the honest weak point of this report.
 5. **The 2-year Treasury recommendation is single-episode.** −102bps/3d at Mar-2023 is compelling but n=1 for this purpose; it is *not* calibrated for false positives (a large 2Y move has many benign causes — CPI, FOMC).
@@ -165,7 +176,16 @@ IG OAS peaked **164bps (Mar 15)** — modest. **Both are true: IG barely moved; 
 1. **Pre-2018 unconstructible** (§3 caveat 4) — the prompt's "since 2015" is scoped, not answered.
 2. **Barr Review figures were NOT verified by the parent agent** — the salvaged sub-agent corrects them: **"over $40 billion"** (not "$42 billion"); **"roughly 85 percent"** of the deposit base (not "~80%"); the ~$100B is an **expectation communicated to supervisors**, not queued order flow; 94% uninsured verified. *Cited here at the corrected values.*
 3. **FHLB Q1-2023 advances / ~$304B issuance: not verified.**
-4. **Dealer-side repo leg unmeasured** — GCF/tri-party rates, DVP fails, SRF take-up. **The repo-calm finding rests on the SOFR distribution + ON RRP; the segment where a dealer squeeze shows FIRST is unclosed.** → the `ofr_stfm.py` BACKLOG build (2nd hit confirmed).
+4. ~~**Dealer-side repo leg unmeasured**~~ → **✅ CLOSED same session by the `ofr_stfm.py` build** (Will-greenlit build-pass, triggered by *this* gap). **The dealer-side segment was calm too — the verdict no longer rests on the SOFR distribution alone** [PRIMARY: OFR U.S. Repo Markets, DEWEY-pulled 7/16]:
+
+| SVB week | GCF (interdealer) | DVP | Tri-party |
+|---|---|---|---|
+| 2023-03-08 | 4.57% | 4.48% | 4.55% |
+| 2023-03-10 *(failure)* | 4.58% | 4.50% | 4.55% |
+| **2023-03-15 (peak)** | **4.65%** | 4.55% | 4.56% |
+| 2023-03-16 | 4.66% | 4.55% | 4.55% |
+
+**GCF over the entire SVB week: 4.57% → 4.66% = +9bps, and it sat AT IORB (4.65%) — +0bps — on Mar-15.** GCF is the *interdealer* segment where a collateral squeeze shows up **first**; it did not move. **This independently corroborates repo-calm from the exact blind spot the verdict was flagged on.** *(Still open: SRF take-up. Fails are now pullable but are weekly/lagging — diagnostic, not pre-emptive.)*
 5. Bank CDS / KRE magnitudes not verified. No Fed/BIS *statement* that repo stayed orderly retrieved — the verdict rests on rate data (stronger than a quote, but the citation gap is real).
 6. **No BIS Quarterly Review April 2020 exists** (BIS publishes Mar/Jun/Sep/Dec; the Mar-2020 edition *predates* the turmoil). Substituted the FSB Holistic Review — more granular on dating anyway. *Prompt premise corrected.*
 
@@ -204,8 +224,8 @@ IG OAS peaked **164bps (Mar 15)** — modest. **Both are true: IG barely moved; 
 **If I had more time/tools:** the dealer-side repo leg (GCF/DVP fails/SRF) via `ofr_stfm.py` — the one unclosed leg under the repo-calm verdict; FP-calibrate the DGS2 discriminator (currently n=1); Barr Review CDS/FHLB legs.
 
 **Suggestions:**
-1. **⚠️ BUILD `ofr_stfm.py` — 2nd hit CONFIRMED, gate tripped.** The 7/09 row predicted 07b as the trigger and it landed exactly: the repo-calm verdict rests on the SOFR distribution with the dealer-side leg (where a squeeze shows FIRST) unmeasured. Prioritize GCF/DVP + fails; MMF composition second. **Will-greenlit per the build gate.**
-2. **BUILD: add the Wayback `/data/<ID>.txt` fallback to `fred_pull.py`** — pairs with the `limit`-bug fix; unlocks all historical credit-spread work (base rates, episode studies) for the fleet.
+1. ✅ **`ofr_stfm.py` — BUILT + shipped this session** (Will-greenlit build-pass). **It immediately closed this report's own load-bearing gap:** GCF interdealer +9bps across the SVB week, sitting *at* IORB — repo-calm corroborated from the dealer-side segment the verdict was flagged on. Public/no-key: OFR `series/dataset?dataset=repo` (164 series) + NY Fed `pd/get/<KEYID>.json`. **Traps encoded:** `-F` (Final) lags **~3.5 months** behind `-P` (Preliminary) → the module **splices Final history + Preliminary tail and labels the boundary**, because preferring Final alone silently serves 3-month-old data as "latest"; NY Fed's `/get/all/timeseries/` returns **200-with-empty**; OFR `/v1/metadata/` needs auth while `/v1/series/dataset` does not. *(Still open: SRF take-up; MMF composition.)*
+2. ✅ **`fred_pull.py --archive/--splice` — BUILT + shipped this session.** Full 1996→today for licence-truncated ICE BofA series (7,722 spliced obs; **107-obs overlap between archive and live matched EXACTLY**, which validates the archive source). **It also immediately upgraded this report's Mar-2020 leg from a Baa proxy to the actual HY OAS series — strengthening the finding 59% → 66%.** The truncation now **warns loudly on stderr** instead of failing silently.
 3. **Auto-memory candidates (promotion scan):** (a) *an IG proxy masks an HY move* — the Baa−Aaa/HY divergence nearly produced a wrong verdict; (b) *don't close a data wall without an archive-endpoint check* — strengthen the existing `[[finding_declared_data_wall_needs_fleet_memory_check]]` with the Wayback recipe; (c) *verify a fix against a series that can demonstrate it*.
 4. **BACKLOG build-pass:** ≥3 candidates now sit past the gate (`ofr_stfm.py` **2nd-hit**, `fred_pull.py` Wayback fallback **solution-in-hand**, `ffiec_callreport.py`/`disaster_shocks.py` high-recurrence). **Surfacing a build-pass suggestion to Will per closeout step 11.**
 </content>
