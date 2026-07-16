@@ -9,4 +9,7 @@ On-hold Fed lean (cool CPI 7/14 + cool PPI 7/15; blackout 7/18-30) + long-end he
 ## 3. Awareness: forced private-loan supply into secondaries (BROCK owns)
 CCLFX gating → ~$1B NAV force-sale into the secondary market (spec: NEXUS outbox 7/16, routed to BROCK). Your slice = the HY-technicals tell if forced private supply starts pricing against public HY sitting calm at 272.
 
+## 4. [added ~1:45 PM] TTF crisis-line breach — the lagging-tell divergence is now cross-MARKET
+**TTF gas €55.11/MWh [7/16], +31.5% trailing month, through HANS's €50 crisis line** (Hormuz closure + Qatar Ras Laffan blanket suspension; EU storage 52.5% [7/14], ~14pp under 5-yr norm) [HANS refresh, PROME web-verified vs TradingEconomics/OilPrice]. Sharpens item 1: European gas HAS repriced the closure while HY at 272 has not — the non-reprice is no longer explainable as "commodities haven't moved." Also feeds the EU bank/private-credit exposure node (HANS's lane; your seam = US transmission). Source: `AGENTS/HANS/STATUS.md` 7/16 refresh.
+
 *(Your GATE-LIQ-069/072/076 rows: last_checked 7/9-7/11 — refresh at boot per fire-ledger rule.) Consume at next boot per your protocol. — PROME*
