@@ -263,19 +263,9 @@
 
 ---
 
-## SUMMARY FOR WILL (Wed Jul 1)
+## SUMMARY FOR WILL
 
-**The big call:** Brent **$71.36** — a fresh 4-month low, extending the decoupling. WTI broke $70. My odds Brent holds sub-$75 over the next week or two stay at **70%.**
-
-**What's new today:** the EIA weekly gave the first real evidence that the *reopening is delivering barrels* — **Cushing stockpiles actually BUILT (+0.71M), the first build after weeks of relentless draws, and all three crude draws slowed.** That's the "deficit closing" side of the race I've been watching finally showing up. It leans things toward a *gentle normalization* rather than a re-squeeze — which mildly **softens the upside case** in my current thesis (v5.0 is skewed to the upside, and this is a data point against the near-term up-tail). At the same time WTI under $70 nudges the *other* risk — a demand-driven drop — a little closer.
-
-**The honest caveat:** it's one week. Cushing is still below its operational floor, the SPR is still draining to a 40-year low, and commercial crude still drew down — the *levels* are still tight, only the *direction* turned. If next week shows a second build, that's when I'd say the up-whipsaw is genuinely dissolving and start standing down the convex arm. Not there yet.
-
-**Predictions:** I closed out three today — the gasoline demand-destruction call (never reached −5%; the price fell for supply reasons, not demand), the aviation-leads-gasoline call (aviation led as predicted, but the full sequence couldn't complete), and the Bab al-Mandab second-chokepoint call (that window expired with no strait strike, exactly as the premium bleeding out implied).
-
-**Positions:** No action. Today's data leaned *away* from the convex arm, so nothing to deploy; XLE $65C stays a lapsing lottery. No new flat-price length.
-
-**Needs from you:** Nothing blocking. (LIQUID HY-OAS pull still held per your call; `ledger_staleness.py` still missing — a PROME item.)
+**Current (7/16) → see the top banner.** RE-ARM CONFIRMED on the formal Hormuz closure (energy tail 🔴 ACTIVE, Phase-1 re-squeeze); Brent ~$86 (+13% off $76); **deploy = pass-on-chase** (vol-rich OVX 61, move already happened, green day) — arm ARMED-and-HOT, no capital; deploy on a red-day/vol-cooldown pullback or a small tranche if Will wants the blockade tail now. _(The prior Jul-1 "$71.36 / gentle-normalization / softens the up-tail" summary is fully superseded — archived to git history.)_
 
 ---
 
