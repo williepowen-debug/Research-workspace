@@ -11,7 +11,7 @@ WATT owns the power/grid thesis + this instrument. HENRY consumes WATT's OUTPUT
 Owner/consumer: WATT (channel P1 stress→price). Imports the shared FORGE EIA
 client (fetch.py) by absolute self-location — the client stays in FORGE.
 
-Four reads, one verdict line, each fail-LOUD (stderr + rc=2, never fabricated):
+Five reads, one verdict line, each fail-LOUD (stderr + rc=2, never fabricated):
   1. PJM emergency-procedures postings — https://emergencyprocedures.pjm.com/
      (public, no key; JSF app but postings are SERVER-RENDERED in the initial
      HTML, so a plain GET with a browser User-Agent works — verified 2026-07-10).
@@ -38,29 +38,46 @@ Four reads, one verdict line, each fail-LOUD (stderr + rc=2, never fabricated):
      PJM-fleet derivation spec'd next session). REVIEW (rc=1) trips on:
      latest proxy print >= $500/MWh (Orange band) OR spark spread negative.
 
+  5. OFFICIAL LMP (added 2026-07-16, PROME-wired Will-directed after the
+     PJM_API_KEY landed — see MACHINE_LOCAL.md PJM row): PJM Data Miner 2
+     `rt_unverified_fivemin_lmps`, PJM-RTO aggregate (pnode_id=1), all 5-min
+     prints for the current EPT day. Latest print + today's max, each with its
+     EPT stamp. This closes the leg-4 blind spot (the 7/12 intraday spike class:
+     e.g. 7/16 printed $410.55 @11:30 EPT while the proxy's newest row was days
+     old). UNVERIFIED feed = operational read, NOT settlement data — PJM's
+     verified hourly feed (rt_hrl_lmps) posts next business day ~11 AM-12 PM;
+     cite prints as "unverified 5-min". Key from FORGE .env (PJM_API_KEY,
+     loaded by the fetch.py import); key ABSENT = leg prints a SKIP note, not
+     a failure (laptop until the key is copied — env_doctor flags it at boot).
+     REVIEW (rc=1) trips when latest OR today-max >= $500 (Orange band).
+
 Exit codes: 0 = ok/quiet · 1 = emergency-class posting(s) OR Orange-band
-LMP-proxy print OR negative spark spread — review · 2 = fetch/parse failure.
+LMP print (official latest/today-max, or proxy latest) OR negative spark
+spread — review · 2 = fetch/parse failure.
 
 HONEST WALLS (what this script does NOT cover, and why):
-  - Official real-time/granular LMPs: PJM Data Miner 2 needs a free pjm.com
-    account + subscription key — one-time HUMAN registration (6 calls/min
-    non-member). Official-LMP wiring is the named next increment once a key
-    lands in FORGE/tools/market-data/.env as PJM_API_KEY. The leg-4 EIA proxy
-    (above) covers the daily/biweekly-lag price read in the meantime; it can
-    MISS intra-day spikes and anything since the last biweekly file update.
+  - Settlement-grade LMPs: leg 5 reads the UNVERIFIED 5-min feed (fresh but
+    subject to PJM verification); the verified hourly feed lags a business
+    day. Anything settlement-critical re-reads rt_hrl_lmps after posting.
+  - Non-member key = 6 calls/min: leg 5 spends 1 call/run. Do not loop it.
   - Structural capacity cost: 2026/27 BRA cleared at the $329.17/MW-day cap,
     2027/28 at the $333.44 cap (uncapped sim ~$530; 6,623 MW short of the
     reliability requirement). Annual cadence, tracked via BRA PDFs — not here.
 
-Usage (self-locating, works from any cwd):
-  python3 /home/willi/Research-workspace/AGENTS/WATT/power_watch.py
+Usage (self-locating, works from any cwd — venv python REQUIRED: leg 4 needs
+openpyxl, which lives in the repo venv, not system python):
+  /home/willi/Research-workspace/.venv/bin/python3 /home/willi/Research-workspace/AGENTS/WATT/power_watch.py
 """
 
+import json
+import os
 import re
 import sys
+import urllib.parse
 import urllib.request
 from datetime import datetime, timezone
 from pathlib import Path
+from zoneinfo import ZoneInfo
 
 # Self-locate the shared FORGE EIA client (fetch.py) regardless of cwd.
 # This file lives at AGENTS/WATT/power_watch.py -> parents[2] == repo root.
@@ -207,6 +224,45 @@ def read_henry_hub():
     return float(h["Close"].iloc[-1]), h.index[-1].date().isoformat()
 
 
+# --- Leg 5: official LMP (PJM Data Miner 2) ---------------------------------
+PJM_DM2_BASE = "https://api.pjm.com/api/v1"
+PJM_RTO_PNODE_ID = 1  # PJM-RTO aggregate node
+
+
+def read_pjm_lmp_official(api_key):
+    """Official PJM-RTO real-time LMP via Data Miner 2 `rt_unverified_fivemin_lmps`
+    (posts every 5 min, ~5-10 min behind real time; UNVERIFIED — operational read,
+    not settlement). Pulls every 5-min print for the current EPT day and returns
+    ((latest_lmp, latest_stamp_ept), (max_lmp, max_stamp_ept), n_prints).
+    Date format has NO leading zeros (m/d/yyyy) — the API's accepted form,
+    live-verified 2026-07-16. Fail-loud: raises on HTTP error, 0 rows, or a
+    schema change (missing fields); never fabricates."""
+    now_ept = datetime.now(ZoneInfo("America/New_York"))
+    day = f"{now_ept.month}/{now_ept.day}/{now_ept.year}"
+    qs = urllib.parse.urlencode({
+        "rowCount": 500, "startRow": 1,
+        "datetime_beginning_ept": f"{day} 00:00to{day} 23:59",
+        "pnode_id": PJM_RTO_PNODE_ID,
+        "fields": "datetime_beginning_ept,total_lmp_rt",
+    })
+    req = urllib.request.Request(
+        f"{PJM_DM2_BASE}/rt_unverified_fivemin_lmps?{qs}",
+        headers={"Ocp-Apim-Subscription-Key": api_key})
+    with urllib.request.urlopen(req, timeout=30) as resp:
+        payload = json.loads(resp.read().decode("utf-8"))
+    items = payload.get("items") or []
+    if not items:
+        raise ValueError(f"Data Miner 2 returned 0 five-min rows for pnode "
+                         f"{PJM_RTO_PNODE_ID} on {day} EPT — feed gap or query break "
+                         f"(errors: {payload.get('errors')})")
+    items.sort(key=lambda r: r["datetime_beginning_ept"])
+    latest = items[-1]
+    peak = max(items, key=lambda r: float(r["total_lmp_rt"]))
+    stamp = lambda r: r["datetime_beginning_ept"][11:16] + " EPT"  # noqa: E731
+    return ((float(latest["total_lmp_rt"]), stamp(latest)),
+            (float(peak["total_lmp_rt"]), stamp(peak)), len(items))
+
+
 def lmp_band(wtd):
     """WATT THRESHOLDS band label for a $/MWh print."""
     if wtd >= LMP_RED:
@@ -315,9 +371,32 @@ def main():
         print(f"\n  ERROR LMP-proxy (EIA wholesale) FAILED: {e}\n"
               f"  Manual check: https://www.eia.gov/electricity/wholesale/", file=sys.stderr)
 
-    print(f"\n  NOTE: official PJM LMP (Data Miner 2) still NOT wired — needs PJM_API_KEY "
-          f"in .env (free pjm.com registration, human one-time). The leg-4 EIA proxy above "
-          f"covers the lagged daily price read; it can miss intra-day spikes. See header.")
+    # --- 5. Official LMP (PJM Data Miner 2, 5-min unverified) ---
+    lmp_off = None      # ((latest, stamp), (max, stamp), n_prints)
+    pjm_key = os.environ.get("PJM_API_KEY", "")
+    if not pjm_key:
+        print(f"\n  OFFICIAL LMP: SKIPPED — PJM_API_KEY absent from the FORGE .env on this "
+              f"box (machine-local; copy it per PROME/MACHINE_LOCAL.md PJM row — env_doctor "
+              f"flags this at boot). Leg-4 proxy above is the only price read: it can MISS "
+              f"intra-day spikes.")
+    else:
+        try:
+            lmp_off = read_pjm_lmp_official(pjm_key)
+            (cur, cur_ts), (pk, pk_ts), n = lmp_off
+            cur_flag = f"  << {lmp_band(cur)}" if cur >= 150.0 else ""
+            pk_flag = f"  << {lmp_band(pk)}" if pk >= 150.0 else ""
+            print(f"\n  OFFICIAL LMP (Data Miner 2, PJM-RTO 5-min UNVERIFIED — operational "
+                  f"read, not settlement; verified hourly posts next business day):")
+            print(f"    latest:    ${cur:>9,.2f}/MWh  @{cur_ts}{cur_flag}")
+            print(f"    today max: ${pk:>9,.2f}/MWh  @{pk_ts}  ({n} prints since 00:00 EPT){pk_flag}")
+            if cur >= LMP_ORANGE or pk >= LMP_ORANGE:
+                lmp_review = True
+                print(f"    OFFICIAL PRINT {lmp_band(max(cur, pk))} — REVIEW")
+        except Exception as e:
+            failures.append(f"DM2-LMP: {e}")
+            print(f"\n  ERROR official LMP (Data Miner 2) FAILED: {e}\n"
+                  f"  Manual check: https://dataminer2.pjm.com/feed/rt_unverified_fivemin_lmps",
+                  file=sys.stderr)
 
     # --- Verdict (always printed; failed legs say so, never fabricated) ---
     if demand:
@@ -334,6 +413,14 @@ def main():
         e = "emergencies: none posted"
     r = (f"retail ind {retail['IND'][0]:.2f} c/kWh ({retail['IND'][1]}), "
          f"res {retail['RES'][0]:.2f} ({retail['RES'][1]})") if retail else "retail FETCH-FAIL"
+    if lmp_off:
+        (ocur, ocur_ts), (opk, opk_ts), _n = lmp_off
+        o = (f"LMP {ocur:,.2f} @{ocur_ts} / max {opk:,.2f} @{opk_ts} "
+             f"[{lmp_band(max(ocur, opk))}] (DM2 5-min unverified)")
+    elif pjm_key:
+        o = "LMP official FETCH-FAIL"
+    else:
+        o = "LMP official SKIP (no key this box)"
     if lmp:
         p = f"LMP-proxy ${lmp['wtd']:,.2f}/MWh deliv {lmp['deliv']} [{lmp_band(lmp['wtd'])}]"
         if spread is not None:
@@ -343,7 +430,7 @@ def main():
             p += " · spark NOT COMPUTED (gas leg fail)"
     else:
         p = "LMP-proxy FETCH-FAIL"
-    print(f"\n  Power leg: {d} · {e} · {p} · {r}\n")
+    print(f"\n  Power leg: {d} · {e} · {o} · {p} · {r}\n")
 
     if failures:
         print(f"power_watch: {len(failures)} leg(s) FAILED — {'; '.join(failures)}", file=sys.stderr)
