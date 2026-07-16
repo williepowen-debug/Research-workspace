@@ -1,8 +1,10 @@
 ---
 name: finding-declared-data-wall-needs-fleet-memory-check
 description: "A builder's honestly-verified 'data not retrievable' finding can be true for its system but false for the fleet — check the auto-memory index + the domain owner's dir for an already-solved door before accepting a declared wall (OZK/EDGAR vs FDIC API, 2026-07-09)"
-metadata:
+metadata: 
+  node_type: memory
   type: feedback
+  originSessionId: bd8279ea-4bcb-44d7-a76b-0ad3a0a4cbd7
 ---
 
 **The pattern:** LABOR's Form-4 scanner build (2026-07-09) declared OZK insider data "not retrievable via SEC EDGAR by this or any similar tool" — verified against 4 independent SEC sources, hardened fail-loud, honestly reported. The finding was EDGAR-true but fleet-false: the FDIC securities-filings API ([[finding_fdic_securities_filings_api]], discovered in the OZK agent's session 3 days earlier) serves the same data through a different agency's door, and `AGENTS/OZK/INSIDERS/SELLING.md` was already tracking it, scored and current.
@@ -10,3 +12,9 @@ metadata:
 **Why:** rigorous within-system verification (N sources inside SEC) cannot detect a cross-system alternative (another agency, another agent's tooling). The builder's honesty made the wall *credible* — which is exactly what makes this class dangerous: a well-verified wall gets accepted and becomes a standing false blind spot. Sibling class: [[finding_asymmetric_records_need_reconciliation]] (one part of the fleet knows what another part re-discovers).
 
 **How to apply:** when any agent (spawned builder, deep-research, or self) declares a structural data wall / "not retrievable" / "no source exists," the coordinator's acceptance step includes a fleet-memory check BEFORE the wall enters canon: grep the auto-memory index for the entity/data-type, and check the domain owner's dir (the agent that owns that name may already have the door). Also seed build-spawn prompts with the relevant `reference`-type memories for the entities in scope, not just technique memories. A declared wall is a claim requiring verification, same as a figure.
+
+**Second confirmation + a new door (2026-07-16, DEWEY — this time the declarer was ME, and the refutation took ~1 hour).** I verified that free FRED serves ICE BofA (`BAML*`) series only as a rolling ~3-year window (exactly 795 obs from exactly 2023-07-17 across HY/IG/CCC; controls unaffected — a licensing cut, not availability), confirmed `fredgraph.csv?cosd=` and ALFRED `vintage_date` were truncated identically, and logged **"DOCUMENT, not BUILD — there is no free source to build against."** Within the hour a sub-agent recovered **full 1996-12-31→2023-12-11 history** from a **Wayback snapshot of FRED's raw text endpoint** (`web.archive.org/web/<ts>id_/https://fred.stlouisfed.org/data/<ID>.txt`), provenance header intact (`Source: Ice Data Indices, LLC`) = still [PRIMARY]. I verified it independently; the 107-obs overlap with the live API matched exactly.
+
+**The generalizable door: ARCHIVE/ALTERNATE ENDPOINT.** Rigor on the *live* surface (I tested 4 live paths) cannot detect a *historical* copy of it. So extend the acceptance step: before a wall enters canon, check **(a)** fleet memory, **(b)** the domain owner's dir, **(c) a different agency's door** (the OZK/FDIC case), and **(d) an archive/alternate endpoint** — Wayback CDX over the provider's *raw data* URL (not the rendered page), which often predates a licensing change. Recipe: `curl --compressed` + the `id_` raw modifier; enumerate via the **CDX index API** — `archive.org/wayback/available` returns **false negatives** (reported 0 snapshots for a URL with 5, and nearly killed this path). Caveat: archives recover **history**, not live data.
+
+**The meta-lesson:** my wall was *self-declared and honestly verified*, which is precisely the profile this memory warns is dangerous — thorough within-scope verification makes a wall credible enough to enter canon unchallenged. **Being the one who verified it is not evidence the wall is real.** Sibling: [[finding_verify_fix_against_capable_case]].
