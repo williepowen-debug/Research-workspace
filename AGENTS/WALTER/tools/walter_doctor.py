@@ -32,6 +32,7 @@ Checks:
   status_spine_overflow  STATUS.md dated-lead count vs the ~5 cap (protocol §12 spine-trim guard)
   restated_set_drift     prose restatements of a SET/COUNT vs canonical source (3 seeds; see docstring)
   cluster_softcap_breach cluster size vs its CLUSTER_TAXONOMY soft cap (split-vs-keep prompt)
+  registered_but_unrouted agent has a REGISTRY row but zero ROUTING_TABLE presence
 
 The two delivery checks mechanize BOARD_CONSUMPTION_SPEC v0.2 §6 (the anti-rot
 safeguard for the WALTER Routing v2 delivery layer). Sync/origin state is derived
@@ -1031,6 +1032,71 @@ def check_cluster_softcap_breach():
     return out
 
 
+def check_registered_but_unrouted():
+    """An agent has a REGISTRY.tsv row but no ROUTING_TABLE presence — i.e. it is
+    "registered" but nothing can actually route to it.
+
+    Why it exists (the 2026-07-16 VULCAN/WATT/MIDAS incident): DAEDALUS built three
+    agents 7/10-11 and wired NONE of them into routing — zero ROUTING_TABLE rows, no
+    mention in any WALTER design doc, no inbox/WALTER/ dir, so none had ever received a
+    routed signal. Meanwhile AI_INFRA_CAPEX — the cluster covering VULCAN's exact
+    domain — grew to 23 signals routed to HENRY/LIQUID/VIOLET instead. It surfaced only
+    because Will happened to ask whether VULCAN should be involved.
+
+    The root cause is structural and WILL recur: REGISTRY and ROUTING_TABLE are separate
+    surfaces that drift independently. WALTER's boot step-8 fs-scan adds a REGISTRY row
+    for a live-but-unregistered agent (which is what registered all six on 7/16) — but
+    **a REGISTRY row is not a routing row**, and nothing reconciled the two. So
+    "registered" silently reads as "wired." DAEDALUS wired its 7/12 batch
+    (OSPREY/FALCON/HOMER, ROUTING_TABLE v0.17) and missed the 7/10-11 batch; nothing
+    caught the asymmetry for 6 days.
+
+    Consequence when unrouted: the agent's own domain accumulates in a cluster it never
+    sees, and dispatch invents de-facto domain codes for the orphan lane (7/16: BOTH
+    `AI_CAPEX` and `AI_INFRA` appeared as `domain:` headers for the same lane, neither in
+    the canonical vocabulary — the exact drift the Domain Vocabulary exists to prevent).
+
+    MED, not HIGH: an unrouted agent is a real gap but not a data-integrity fault, and
+    Tier-2/dormant agents are legitimately spawn-on-demand. Scoped to Tier-1 ACTIVE rows
+    to avoid alarming on the dormant tail — a dormant agent nobody routes to is fine."""
+    reg = _read(WALTER / "REGISTRY.tsv")
+    rt = _read(WALTER / "design/ROUTING_TABLE.md")
+    if reg is None or rt is None:
+        return [(LOW, "REGISTRY.tsv or ROUTING_TABLE.md unreadable — routing coverage unchecked")]
+    # WALTER routes; PROME/Will/meta + reviewer agents are not routing targets.
+    NON_TARGETS = {"WALTER", "PROME", "DAEDALUS", "YEYOU", "DEWEY", "WILL"}
+    DORMANT = {"RETIRED", "DORMANT", "ARCHIVE", "GRAY", "GREY"}
+    rows = [ln.split("\t") for ln in reg.strip().splitlines()[1:] if ln.strip()]
+    unrouted, tier2 = [], []
+    for r in rows:
+        if len(r) < 9:
+            continue
+        agent, tier, status = r[0].strip(), r[1].strip(), r[8].strip().upper()
+        if agent in NON_TARGETS or not agent:
+            continue
+        if any(d in status for d in DORMANT):
+            continue
+        # Presence = the agent is named anywhere in ROUTING_TABLE (a domain row's
+        # Action/Backup/Info cell, or a carve sub-section). Deliberately permissive:
+        # we are catching TOTAL absence, not auditing row quality.
+        if re.search(rf"\b{re.escape(agent)}\b", rt):
+            continue
+        (unrouted if tier == "1" else tier2).append(agent)
+    out = []
+    if unrouted:
+        out.append((MED, f"registered but UNROUTED — Tier-1 active, zero ROUTING_TABLE presence "
+                         f"({len(unrouted)}): {', '.join(sorted(unrouted))} — nothing can route to "
+                         f"them; their domain accumulates in a cluster they never see, and dispatch "
+                         f"will invent de-facto domain codes. Add a domain code to FORMAT_SPEC "
+                         f"(canonical) THEN a ROUTING_TABLE row; a REGISTRY row is not a routing row."))
+    if tier2:
+        out.append((LOW, f"Tier-2 registered but unrouted ({len(tier2)}): {', '.join(sorted(tier2))} "
+                         f"— expected if spawn-on-demand; confirm it is intentional."))
+    if not out:
+        out.append((INFO, "every active registered agent has ROUTING_TABLE presence"))
+    return out
+
+
 CHECKS = [
     ("version_drift", check_version_drift),
     ("claude_md_version_drift", check_claude_md_version_drift),
@@ -1052,6 +1118,7 @@ CHECKS = [
     ("boot_protocol_xref", check_boot_protocol_xref),
     ("status_spine_overflow", check_status_spine_overflow),
     ("cluster_softcap_breach", check_cluster_softcap_breach),
+    ("registered_but_unrouted", check_registered_but_unrouted),
 ]
 
 MARK = {HIGH: "✗", MED: "⚠", LOW: "·", INFO: "✓"}
