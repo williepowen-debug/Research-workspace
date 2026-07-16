@@ -2,6 +2,8 @@
 **Created:** 2026-06-22 08:55 ET  
 **Status:** Scaffold / pre-PMI playbook. Jun 2026 flash PMIs are **PENDING** until Tue 2026-06-23.
 
+**⚠️ [domain-sweep 2026-07-16] Jun23 Update Procedure below was never executed — open loop for 24 days.** This file's May-26 figure (**50.1 final**, correctly sourced right here on 6/22) is what STATUS.md should have carried, but STATUS.md instead carried a wrong 48.3 for 24 days until corrected 2026-07-16. Verified-current PMI is now in `STATUS.md` §1 (May 50.1 / June 50.3, both final, both expansion) — read there, not here, until this scaffold is rebuilt. July flash (~Jul 24) is pre-registered as HNS-03 in `workbook/PREDICTIONS.tsv`.
+
 ---
 
 ## Why German / Eurozone PMI Matters

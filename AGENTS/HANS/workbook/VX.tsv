@@ -1,12 +1,13 @@
 Vector_ID	Name	Category	Current_Value	Yellow	Orange	Red	Status	Confidence	Last_Updated	Source	Notes
-VX-HANS-1.01	UK UST Holdings	UST_DEMAND	888.5	850	800	750	GREEN	HIGH	2026-02-13	TIC Nov 2025	Post-LDI diversification - NOT stable
-VX-HANS-1.02	Ireland UST Holdings	UST_DEMAND	340.3	320	300	280	GREEN	HIGH	2026-02-13	TIC Nov 2025	Fund domicile - 60-70% non-European beneficial owners
-VX-HANS-1.03	Luxembourg UST Holdings	UST_DEMAND	425.6	400	375	350	GREEN	HIGH	2026-02-13	TIC Nov 2025	Fund domicile - 60-70% non-European beneficial owners
-VX-HANS-1.04	Belgium UST Holdings	UST_DEMAND	481.0	550	400	350	ORANGE	HIGH	2026-02-13	TIC Nov 2025	ZHAO overlap - Euroclear/China proxy
-VX-HANS-1.05	France UST Holdings	UST_DEMAND	376.1	350	325	300	GREEN	HIGH	2026-02-13	TIC Nov 2025	ECB QT reallocation
-VX-HANS-1.06	Switzerland UST Holdings	UST_DEMAND	300.3	280	260	240	GREEN	HIGH	2026-02-13	TIC Nov 2025	SNB reserves + wealth management
-VX-HANS-1.07	Germany UST Holdings	UST_DEMAND	109.8	100	90	80	GREEN	HIGH	2026-02-13	TIC Nov 2025	Small holder
-VX-HANS-1.08	Total Europe Top 7 UST	UST_DEMAND	2921.6	2800	2600	2400	GREEN	HIGH	2026-02-13	TIC Nov 2025	Sum of top 7 - watch for decline
+VX-HANS-1.01	UK UST Holdings	UST_DEMAND	948.6	850	800	750	GREEN	HIGH	2026-07-16	TIC May 2026 (pre-staged, PROME-verified)	Post-LDI diversification - NOT stable; [domain-sweep 7/16] was 5mo-stale at 888.5/Feb13
+VX-HANS-1.02	Ireland UST Holdings	UST_DEMAND	357.2	320	300	280	GREEN	HIGH	2026-07-16	TIC May 2026 (pre-staged, PROME-verified)	Fund domicile - 60-70% non-European beneficial owners; see research/2026-07-16_china-custody-hub-check.md
+VX-HANS-1.03	Luxembourg UST Holdings	UST_DEMAND	436.0	400	375	350	GREEN	HIGH	2026-07-16	TIC May 2026 (pre-staged, PROME-verified)	Fund domicile - 60-70% non-European beneficial owners; see research/2026-07-16_china-custody-hub-check.md
+VX-HANS-1.04	Belgium UST Holdings	UST_DEMAND	472.0	550	400	350	ORANGE	HIGH	2026-07-16	TIC May 2026 (pre-staged, PROME-verified)	ZHAO overlap - Euroclear/China proxy; [domain-sweep 7/16 flag] status=ORANGE looks like a scheme bug - value 472 sits ABOVE Orange(400) and BELOW Yellow(550), ordinally a Yellow read; carried as-is pending owner review, not silently changed
+VX-HANS-1.05	France UST Holdings	UST_DEMAND	393.1	350	325	300	GREEN	HIGH	2026-07-16	TIC May 2026 (pre-staged, PROME-verified)	ECB QT reallocation
+VX-HANS-1.06	Switzerland UST Holdings	UST_DEMAND	281.1	280	260	240	GREEN	HIGH	2026-07-16	TIC May 2026 (pre-staged, PROME-verified)	SNB reserves + wealth management; now just above Yellow(280) - watch
+VX-HANS-1.07	Germany UST Holdings	UST_DEMAND	109.8	100	90	80	GREEN	HIGH	2026-02-13	TIC Nov 2025	Small holder; [domain-sweep 7/16] Germany dropped out of Table 5's major-holders list this pull - NOT re-verified, still 5mo-stale, carried as-is
+VX-HANS-1.08	Total Europe Top 7 UST	UST_DEMAND	2998.0	2800	2600	2400	GREEN	HIGH	2026-07-16	Sum of rows above (6 refreshed + 1 stale Germany)	Sum of top 7 - watch for decline; Germany leg still Feb13-vintage, see 1.07
+VX-HANS-1.09	Cayman Islands UST Holdings	UST_DEMAND	471.3	NA	NA	NA	MONITOR	HIGH	2026-07-16	TIC May 2026 (pre-staged, PROME-verified)	NEW row - closes the Setser/CFR secondary-hub gap ZHAO flagged; fund/hedge-fund domicile, not a China-Belgium-style official proxy; 2-month Feb-Apr rise (+28.2B) vs China's -43.1B fall was the one re-routing candidate but did not sustain into May (flat -0.4B) - see research/2026-07-16_china-custody-hub-check.md; no scored thresholds yet (informational monitor row)
 VX-HANS-2.01	EUR/USD	CURRENCY	1.145	1.15	1.05	1.00	YELLOW	HIGH	2026-06-22	TradingEconomics	Below 1.05 watch, <1.00 crisis; 1.145 (weakest since mid-Mar) = dollar-strength not euro stress
 VX-HANS-2.02	GBP/USD	CURRENCY	1.26	1.20	1.15	1.10	GREEN	HIGH	2026-02-13	Bloomberg	Cable
 VX-HANS-2.03	DXY	CURRENCY	101	100	102	105	YELLOW	HIGH	2026-06-22	TradingEconomics	Dollar strength index; ~101 = 18-mo high on hawkish Fed hold (Jun 17); >102 watch
@@ -33,25 +34,25 @@ VX-HANS-7.03	Euro Area USD Repo Outstanding	BANKING	1600	1700	1800	2000	YELLOW	M
 VX-HANS-7.04	EUR/USD FX Swap Daily Volume	BANKING	250	300	350	400	GREEN	MEDIUM	2026-02-13	ECB MMSR	EUR billions - spike = stress or unwind
 VX-HANS-7.05	VSTOXX	RISK_SENTIMENT	18	25	35	45	GREEN	HIGH	2026-02-13	Bloomberg	Euro Stoxx volatility - >35 severe stress
 VX-HANS-7.06	ECB MRO/LTRO Take-up	BANKING	50	150	300	500	GREEN	MEDIUM	2026-02-13	ECB est	EUR billions - rising = reserve shortage
-VX-HANS-8.01	TTF Natural Gas Price	ENERGY	13.3	15	20	25	GREEN	HIGH	2026-06-22	TradingEconomics	$/MMBtu (=€42/MWh); >20 crisis; +18% YoY (was +47% Apr), below war-elevated
-VX-HANS-8.02	EU Gas Storage Percent	ENERGY	46.7	50	40	30	YELLOW	HIGH	2026-06-22	GIE/AGSI	% full; refill marginally ahead of pace; ~14-18pp below seasonal norm = Q4 winter trip-wire
+VX-HANS-8.01	TTF Natural Gas Price	ENERGY	17.5	15	20	25	YELLOW	HIGH	2026-07-16	TradingEconomics	$/MMBtu (=€55.11/MWh 7/16); [domain-sweep 7/16] crossed Yellow(15) since 6/22's 13.3/€42 - Hormuz formally closed 7/11-12; +31.5%/mo
+VX-HANS-8.02	EU Gas Storage Percent	ENERGY	52.5	50	40	30	GREEN	HIGH	2026-07-16	GIE/AGSI+	% full (7/14); [domain-sweep 7/16] refill continued past Yellow(50) since 6/22's 46.7 - still ~14pp below 5yr norm, absolute level now GREEN
 VX-HANS-8.03	Henry Hub Natural Gas	ENERGY	4.98	5.00	7.00	10.00	YELLOW	HIGH	2026-02-13	EIA/CME	$/MMBtu - US benchmark; >7 LNG export max, >10 crisis
 VX-HANS-8.04	TTF-Henry Hub Spread	ENERGY	7.42	10	15	20	YELLOW	HIGH	2026-02-13	Calculated	$/MMBtu - LNG arbitrage; >15 maximum export incentive
 VX-HANS-8.05	German IP YoY Growth	ENERGY	-0.5	-1.0	-2.0	-3.0	GREEN	HIGH	2026-06-22	Destatis Apr	% YoY; +0.4% MoM = 1st rise of 2026; <-2% curtailment
-VX-HANS-8.06	German Manufacturing PMI	ENERGY	49.0	48	45	42	GREEN	HIGH	2026-06-22	HCOB Jun flash	Index; 49.0 June flash = 34-mo high (+0.7 MoM); <50 contraction; inflecting UP
+VX-HANS-8.06	German Manufacturing PMI	ENERGY	50.3	48	45	42	GREEN	HIGH	2026-07-16	HCOB Jun FINAL (2 sources)	Index; [domain-sweep 7/16 CORRECTION] was wrong at 49.0/6-22-vintage; June final=50.3 (May final=50.1), both expansion, revised up from flash
 VX-HANS-9.01	ARA ULSD Diesel Crack vs Brent	DIESEL	21.7	25	35	45	GREEN	HIGH	2026-02-18	OPIS/ICE	$/bbl - Nov 2025 peak $46/bbl; >$35 severe tightness
 VX-HANS-9.02	German Pump Diesel Price	DIESEL	1.714	1.80	2.00	2.20	YELLOW	HIGH	2026-02-18	fuel-prices.eu	EUR/liter - 15.7% above EU avg (€1.536); >€2.00 industrial crisis threshold
 VX-HANS-9.03	Russian Total Diesel Exports	DIESEL	900	800	650	500	YELLOW	HIGH	2026-02-18	Vortexa/Kpler	Thousand bpd (global, all destinations); Jan 2026 recovering from Sep 2025 low of 586k
 VX-HANS-9.04	EU ARA Diesel Stocks vs 5yr Avg	DIESEL	-20	-10	-20	-30	ORANGE	MEDIUM	2026-02-18	Euroilstocks	% vs 5-year average; ARA at 4.5-month low end Dec 2025
 VX-HANS-9.05	European Diesel Imports (ex-Russia)	DIESEL	850	800	700	600	YELLOW	HIGH	2026-02-18	IEA/Kpler	Thousand bpd; India/Turkey ~160k bpd at risk from EU sanctions (now at 20th package, Apr 2026; value Feb-stale, refresh pending)
 VX-HANS-10.01	German IP YoY Momentum	GERMAN_INDUSTRIAL	-0.6%	<-1%	<-2%	<-3%	YELLOW	MEDIUM	2026-02-18	Destatis Dec 2025	6th consecutive YoY decline; full year 2025 = -1.1%
-VX-HANS-10.02	German Manufacturing PMI (Latest)	GERMAN_INDUSTRIAL	49.0	<48	<45	<42	GREEN	HIGH	2026-06-22	HCOB Jun flash	June flash 49.0, 34-mo high, 1st new-orders rise in >1yr; still sub-50
+VX-HANS-10.02	German Manufacturing PMI (Latest)	GERMAN_INDUSTRIAL	50.3	<48	<45	<42	GREEN	HIGH	2026-07-16	HCOB Jun FINAL (2 sources)	[domain-sweep 7/16 CORRECTION] June final=50.3, May final=50.1 - BOTH IN EXPANSION, not "still sub-50" as this row said; July flash ~7/24 pre-registered as HNS-03
 VX-HANS-10.03	US ISM vs German IP Signal Gap	TRANSMISSION	+5.5 pts	>3	>5	>8	ORANGE	MEDIUM	2026-02-18	Analysis	ISM 52.6 vs German signal ~47; tariff distortion present; historically closes 1-2Q
 VX-HANS-10.04	US ISM Manufacturing Employment	US_INDUSTRIAL	48.1	<50	<47	<44	ORANGE	HIGH	2026-02-18	ISM Jan 2026	28 consecutive months contracting; structural not cyclical weakness
 VX-HANS-10.05	German IP Annual Decline	GERMAN_INDUSTRIAL	-1.1%	<-1%	<-2%	<-3%	ORANGE	HIGH	2026-02-18	Destatis full year 2025	Third consecutive annual decline; energy-intensive down 17.8% vs 2021
 VX-HANS-10.06	German Input Cost Inflation (PMI)	GERMAN_INDUSTRIAL	37-month high	>24m high	>36m high	All-time high	ORANGE	MEDIUM	2026-02-18	HCOB Jan 2026	Metals/energy/wages surging; cannot pass to customers; margin destruction
 VX-HANS-11.01	Ceasefire_Probability_30d	WAR_RISK	RESOLVED	25%	40%	60%	GREEN	HIGH	2026-06-22	Analysis	US-Iran: Islamabad MOU SIGNED Jun 17 2026 (de-escalation); was 12%. Vector resolved — re-escalation now the tail.
-VX-HANS-11.02	TTF_Gas_War_Scenario	ENERGY	42	40	60	74	YELLOW	HIGH	2026-06-22	ICE	EUR/MWh; de-escalated to €42 (was €52); Goldman €74 crisis off table; near 40 floor; Q4 storage trip-wire only
+VX-HANS-11.02	TTF_Gas_War_Scenario	ENERGY	55.11	40	60	74	YELLOW	HIGH	2026-07-16	TradingEconomics	EUR/MWh; [domain-sweep 7/16] re-escalated from €42 (6/22) on real 7/11-12 Hormuz closure; Goldman €74 crisis ceiling back in play, not off-table; status unchanged YELLOW but value moved 2/3 of the way to Orange(60)
 VX-HANS-11.03	European_Defense_Issuance_5yr	DEFENSE	0	400	800	1200	GREEN	HIGH	2026-03-04	Analysis	EUR billions cumulative new issuance; duration supply UST headwind
 VX-HANS-11.04	Ukraine_Refinery_Capacity_Loss	WAR_RISK	20%	10%	20%	35%	RED	HIGH	2026-03-04	Subagent brief	% Russian refinery capacity offline (structural damage); >20% = diesel shock
 VX-HANS-11.05	iTraxx_Senior_Financial	BANKING	95	80	150	200	ORANGE	HIGH	2026-03-04	est	Bps; war risk + MFS fraud widening; >150 = stress
