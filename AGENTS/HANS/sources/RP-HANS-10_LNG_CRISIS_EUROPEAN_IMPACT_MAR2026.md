@@ -2,6 +2,8 @@
 **Date:** 2026-03-02
 **Status:** CRISIS — RED ALERT
 
+**➡️ [domain-sweep 2026-07-16] Refresh pointer, not rewritten today:** this Mar-2 analysis modeled the *first* Hormuz/Qatar-LNG crisis episode. That episode de-escalated by 6/22 and has now **re-escalated for real** (formal 7/11-12 closure, TTF €55.11 vs this doc's Mar-vintage levels). Current live state is `STATUS.md` ENERGY section + its TTF Escalation Ladder (built 7/16) — read there first. This doc is a historical-analog reference (useful for the March-episode anchor cited in the ladder), not a current snapshot.
+
 ---
 
 ## SITUATION
