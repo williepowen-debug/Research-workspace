@@ -94,7 +94,17 @@ The April STATUS was built around a late-Feb/March Gulf shooting war (Hormuz clo
 | Korea CPI (Jun) | **3.2%** | — | 🟠 BoK HIKED +25bp to 2.75% 7/16 in response (KB-ZHAO-093) |
 | China real property (BIS index) | **~86** vs 2021 peak ~113 | below 2006 level | 🟠 [CONF] WALTER SIG-W-20260706-017, orig. Hedgeye 7/5 — 20yr gains erased |
 
-> **Nuance UPDATED 7/16:** China's headline-growth-stronger-than-stress framing (carried since Jul 4) is now mixed — PMI still expanding, but **Q2 GDP decelerated to 4.3% (miss)**, the first clear growth wobble of 2026. Risk was previously framed as concentrated in **capital account** + **property/fiscal** only; the growth leg now needs watching too, not just assumed resilient. MIDAS's copper strength (+10.5% vs 200dma) was cited 7/12 as corroborating the growth-strength read — that corroboration sits awkwardly next to a GDP miss; flagged to MIDAS/PROME as unreconciled (KB-ZHAO-095).
+**Q2 GDP decomposition (June monthlies + H1 cumulative, released alongside GDP 7/15, KB-ZHAO-097):**
+| Component | Value | Trend |
+|---|---|---|
+| June retail sales | **+1.0% YoY** | ↑ RECOVERING (May was -0.6%, first drop in 3+yrs) |
+| June industrial production | **+5.3% YoY** | ↑ ACCELERATING (May +4.5%, beat consensus, AI/high-tech-export driven) |
+| H1 fixed-asset investment | **-5.7% YoY** (ex-property: **-2.7%**) | ↓ property is doing almost all the damage |
+| H1 real estate investment | **-18% YoY** | ↓↓ the dominant drag on the headline |
+| H1 infrastructure / manufacturing investment | -2.4% / -1.2% YoY | ↓ mild |
+| H1 high-tech investment | **+4.6% YoY** (aircraft/spacecraft +23.3%, info services +15.5%) | ↑ |
+
+> **Nuance UPDATED 7/16:** the GDP miss is a **property/investment story, not a broad growth-collapse story** — retail sales and industrial production both *improved* within the quarter (industrial production hit its best print in months), while property investment fell 18%. This resolves most of the earlier copper-vs-GDP tension: MIDAS's copper strength (+10.5% vs 200dma, cited 7/12) tracks the *industrial* leg, which is accelerating — not the *property* leg, which is what actually missed. Compatible, not contradictory (KB-ZHAO-095/097; note to MIDAS in outbox). **Demand-side oil read routed to BRENT** (outbox/2026-07-16_to-BRENT_china-oil-demand-read.md, via PROME) — China's June crude imports collapsed -41.3% YoY (lowest since Oct 2016) but the causal story is multi-factor (Hormuz-war supply disruption + structural EV adoption + inventory drawdown, not primarily the GDP-linked cyclical leg) — don't over-read the import collapse as demand destruction from a weakening China.
 
 ---
 
