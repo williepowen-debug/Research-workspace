@@ -27,7 +27,7 @@ Coordination is file-based. Write to `AGENTS/<NAME>/outbox/` to request Prome ac
 
 *Scoped overlaps are intentional — reconcile shared metrics to **one figure**, don't silo: **CORAL↔MARCO** (FL migration/tourism) and **AEOLUS↔CORAL** (FL climate/coastal). **Florida is a top-priority geography for Will.** Agent spinout/promotion provenance (OZK, CORAL, AEOLUS, HOMER, OSPREY/FALCON; WAL = next promotion candidate) → `PROME/ROSTER.md`.*
 
-Agent state lives at `AGENTS/<NAME>/STATUS.md`. Position truth is **off-repo** (Will/broker direct — the on-repo `WILL/trading-journal/` photos were removed in the 2026-06 public-prep cleanup); `FORGE/STATUS.md` + `FORGE/PORTFOLIO.md` = the structured mirror (broker-export refreshed, currently stale); trade construction = TERRY.
+Agent state lives at `AGENTS/<NAME>/STATUS.md`. Position truth is **off-repo** (Will/broker direct — the on-repo `WILL/trading-journal/` photos were removed in the 2026-06 public-prep cleanup); `FORGE/STATUS.md` + `FORGE/PORTFOLIO.md` = the structured mirror (broker-export refreshed — last reconcile 2026-07-16; stales between reconciles); trade construction = TERRY.
 
 ## Critical Rules
 
