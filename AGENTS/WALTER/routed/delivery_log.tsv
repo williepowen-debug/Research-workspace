@@ -683,3 +683,35 @@ timestamp_routed	signal_id	recipient	role	recipient_platform	precedence	handoff_
 2026-07-17T02:45:00Z	SIG-W-20260717-004	SAM	info	CC	IMMEDIATE	AGENTS/SAM/inbox/WALTER/SIG-W-20260717-004.md	written_not_delivered_pending_push	Iran 7/16 wave; RED skipped per §3.5 pull-complete
 2026-07-17T02:45:00Z	SIG-W-20260717-004	PROME	info	CC	IMMEDIATE	AGENTS/PROME/inbox/WALTER/SIG-W-20260717-004.md	written_not_delivered_pending_push	Iran 7/16 wave; RED skipped per §3.5 pull-complete
 2026-07-17T02:45:00Z	SIG-W-20260717-004	NEXUS	info	CC	IMMEDIATE	AGENTS/NEXUS/inbox/WALTER/SIG-W-20260717-004.md	written_not_delivered_pending_push	Iran 7/16 wave; RED skipped per §3.5 pull-complete
+2026-07-17T04:20:00Z	SIG-W-20260717-005	REGINALD	action	CC	PRIORITY	AGENTS/REGINALD/inbox/WALTER/SIG-W-20260717-005.md	written_not_delivered_pending_push	Will-Telegram batch 7/17
+2026-07-17T04:20:00Z	SIG-W-20260717-005	CREED	info	CC	PRIORITY	AGENTS/CREED/inbox/WALTER/SIG-W-20260717-005.md	written_not_delivered_pending_push	Will-Telegram batch 7/17
+2026-07-17T04:20:00Z	SIG-W-20260717-005	BROCK	info	CC	PRIORITY	AGENTS/BROCK/inbox/WALTER/SIG-W-20260717-005.md	written_not_delivered_pending_push	Will-Telegram batch 7/17
+2026-07-17T04:20:00Z	SIG-W-20260717-005	SHADE	info	CC	PRIORITY	AGENTS/SHADE/inbox/WALTER/SIG-W-20260717-005.md	written_not_delivered_pending_push	Will-Telegram batch 7/17
+2026-07-17T04:20:00Z	SIG-W-20260717-006	HOMER	action	CC	PRIORITY	AGENTS/HOMER/inbox/WALTER/SIG-W-20260717-006.md	written_not_delivered_pending_push	Will-Telegram batch 7/17
+2026-07-17T04:20:00Z	SIG-W-20260717-006	REGINALD	info	CC	PRIORITY	AGENTS/REGINALD/inbox/WALTER/SIG-W-20260717-006.md	written_not_delivered_pending_push	Will-Telegram batch 7/17
+2026-07-17T04:20:00Z	SIG-W-20260717-006	CORAL	info	CC	PRIORITY	AGENTS/CORAL/inbox/WALTER/SIG-W-20260717-006.md	written_not_delivered_pending_push	Will-Telegram batch 7/17
+2026-07-17T04:20:00Z	SIG-W-20260717-007	BROCK	action	CC	PRIORITY	AGENTS/BROCK/inbox/WALTER/SIG-W-20260717-007.md	written_not_delivered_pending_push	Will-Telegram batch 7/17
+2026-07-17T04:20:00Z	SIG-W-20260717-007	LIQUID	info	CC	PRIORITY	AGENTS/LIQUID/inbox/WALTER/SIG-W-20260717-007.md	written_not_delivered_pending_push	Will-Telegram batch 7/17
+2026-07-17T04:20:00Z	SIG-W-20260717-007	REGINALD	info	CC	PRIORITY	AGENTS/REGINALD/inbox/WALTER/SIG-W-20260717-007.md	written_not_delivered_pending_push	Will-Telegram batch 7/17
+2026-07-17T04:20:00Z	SIG-W-20260717-008	LABOR	action	CC	ROUTINE	AGENTS/LABOR/inbox/WALTER/SIG-W-20260717-008.md	written_not_delivered_pending_push	Will-Telegram batch 7/17
+2026-07-17T04:20:00Z	SIG-W-20260717-008	HENRY	info	CC	ROUTINE	AGENTS/HENRY/inbox/WALTER/SIG-W-20260717-008.md	written_not_delivered_pending_push	Will-Telegram batch 7/17
+2026-07-17T04:20:00Z	SIG-W-20260717-009	WATT	action	CC	PRIORITY	AGENTS/WATT/inbox/WALTER/SIG-W-20260717-009.md	written_not_delivered_pending_push	Will-Telegram batch 7/17
+2026-07-17T04:20:00Z	SIG-W-20260717-009	VULCAN	info	CC	PRIORITY	AGENTS/VULCAN/inbox/WALTER/SIG-W-20260717-009.md	written_not_delivered_pending_push	Will-Telegram batch 7/17
+2026-07-17T04:20:00Z	SIG-W-20260717-009	HENRY	info	CC	PRIORITY	AGENTS/HENRY/inbox/WALTER/SIG-W-20260717-009.md	written_not_delivered_pending_push	Will-Telegram batch 7/17
+2026-07-17T04:20:00Z	SIG-W-20260717-010	VULCAN	action	CC	PRIORITY	AGENTS/VULCAN/inbox/WALTER/SIG-W-20260717-010.md	written_not_delivered_pending_push	Will-Telegram batch 7/17
+2026-07-17T04:20:00Z	SIG-W-20260717-010	BROCK	action	CC	PRIORITY	AGENTS/BROCK/inbox/WALTER/SIG-W-20260717-010.md	written_not_delivered_pending_push	Will-Telegram batch 7/17
+2026-07-17T04:20:00Z	SIG-W-20260717-010	LIQUID	info	CC	PRIORITY	AGENTS/LIQUID/inbox/WALTER/SIG-W-20260717-010.md	written_not_delivered_pending_push	Will-Telegram batch 7/17
+2026-07-17T04:20:00Z	SIG-W-20260717-010	HENRY	info	CC	PRIORITY	AGENTS/HENRY/inbox/WALTER/SIG-W-20260717-010.md	written_not_delivered_pending_push	Will-Telegram batch 7/17
+2026-07-17T04:20:00Z	SIG-W-20260717-010	NEXUS	info	CC	PRIORITY	AGENTS/NEXUS/inbox/WALTER/SIG-W-20260717-010.md	written_not_delivered_pending_push	Will-Telegram batch 7/17
+2026-07-17T04:20:00Z	SIG-W-20260717-011	MIDAS	action	CC	PRIORITY	AGENTS/MIDAS/inbox/WALTER/SIG-W-20260717-011.md	written_not_delivered_pending_push	Will-Telegram batch 7/17
+2026-07-17T04:20:00Z	SIG-W-20260717-011	LIQUID	info	CC	PRIORITY	AGENTS/LIQUID/inbox/WALTER/SIG-W-20260717-011.md	written_not_delivered_pending_push	Will-Telegram batch 7/17
+2026-07-17T04:20:00Z	SIG-W-20260717-011	HENRY	info	CC	PRIORITY	AGENTS/HENRY/inbox/WALTER/SIG-W-20260717-011.md	written_not_delivered_pending_push	Will-Telegram batch 7/17
+2026-07-17T04:20:00Z	SIG-W-20260717-011	BOND	info	CC	PRIORITY	AGENTS/BOND/inbox/WALTER/SIG-W-20260717-011.md	written_not_delivered_pending_push	Will-Telegram batch 7/17
+2026-07-17T04:20:00Z	SIG-W-20260717-012	OSPREY	action	CC	ROUTINE	AGENTS/OSPREY/inbox/WALTER/SIG-W-20260717-012.md	written_not_delivered_pending_push	Will-Telegram batch 7/17
+2026-07-17T04:20:00Z	SIG-W-20260717-012	BRENT	info	CC	ROUTINE	AGENTS/BRENT/inbox/WALTER/SIG-W-20260717-012.md	written_not_delivered_pending_push	Will-Telegram batch 7/17
+2026-07-17T04:20:00Z	SIG-W-20260717-012	HAWK	info	CC	ROUTINE	AGENTS/HAWK/inbox/WALTER/SIG-W-20260717-012.md	written_not_delivered_pending_push	Will-Telegram batch 7/17
+2026-07-17T04:20:00Z	SIG-W-20260717-013	BRENT	action	CC	PRIORITY	AGENTS/BRENT/inbox/WALTER/SIG-W-20260717-013.md	written_not_delivered_pending_push	Will-Telegram batch 7/17
+2026-07-17T04:20:00Z	SIG-W-20260717-013	FALCON	action	CC	PRIORITY	AGENTS/FALCON/inbox/WALTER/SIG-W-20260717-013.md	written_not_delivered_pending_push	Will-Telegram batch 7/17
+2026-07-17T04:20:00Z	SIG-W-20260717-013	HAWK	info	CC	PRIORITY	AGENTS/HAWK/inbox/WALTER/SIG-W-20260717-013.md	written_not_delivered_pending_push	Will-Telegram batch 7/17
+2026-07-17T04:20:00Z	SIG-W-20260717-013	SAM	info	CC	PRIORITY	AGENTS/SAM/inbox/WALTER/SIG-W-20260717-013.md	written_not_delivered_pending_push	Will-Telegram batch 7/17
+2026-07-17T04:20:00Z	SIG-W-20260717-013	PROME	info	CC	PRIORITY	AGENTS/PROME/inbox/WALTER/SIG-W-20260717-013.md	written_not_delivered_pending_push	Will-Telegram batch 7/17
