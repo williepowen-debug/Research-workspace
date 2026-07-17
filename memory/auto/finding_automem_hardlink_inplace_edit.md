@@ -13,6 +13,6 @@ metadata:
 
 **Why the change is safe:** a directory symlink resolves at path-lookup time, so it always points at the current file regardless of atomic rename. There is no second hardlinked inode to desync.
 
-**How to apply (current):** write / edit / create / delete `memory/auto/` files with normal tools (the `Write` and `Edit` tools are fine); the symlink makes the `~/.claude` load path track them automatically. A **new** memory file needs a `memory/auto/MEMORY.md` index pointer + a git commit — and note these live **outside `PROME/`**, so commit them explicitly at closeout (see `PROME/CLOSEOUT.md` Chunk 4). See [[project_automem_symlink_migration]].
+**How to apply (current):** write / edit / create / delete `memory/auto/` files with normal tools (the `Write` and `Edit` tools are fine); the symlink makes the `~/.claude` load path track them automatically. A **new** memory file needs a `memory/auto/MEMORY.md` index pointer + a git commit — and note these live **outside `PROME/`**, so commit them explicitly at closeout (see `PROME/CLOSEOUT.md` Chunk 4). *(Absorbed [[project_automem_symlink_migration]] 2026-07-17, Will-approved — that slug is now a tombstone anchor; `docs/AUTO_MEMORY.md` is the canonical doc.)*
 
 *(Filename/slug retained for reference-continuity; the "hardlink" in the name is historical.)*

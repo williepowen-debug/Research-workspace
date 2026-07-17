@@ -1,16 +1,10 @@
 ---
 name: project-automem-symlink-migration
-description: Auto-memory is wired into the repo at memory/auto/ (migration complete/stable since ~2026-06-05); memory edits commit alongside code and sync via git
+description: "TOMBSTONE (2026-07-17, Will-approved) — folded into finding_automem_hardlink_inplace_edit; docs/AUTO_MEMORY.md is canonical for the current model. File kept as a name-anchor for older docs that cite this slug."
 metadata: 
   node_type: memory
   type: project
   originSessionId: 79f62375-9180-4c8c-8406-2e35dcc0fe6e
 ---
 
-Auto-memory symlink migration is **COMPLETE and stable** (live since ~2026-06-05). Kept as an anchor for docs that reference it ([[project_messaging_overhaul]] and HENRY/CARL planning docs).
-
-**Why:** Per-project memory at `~/.claude/projects/-home-willi-Research-workspace/memory/` is outside the repo by default. The in-repo mirror at `memory/auto/` makes memory edits commit alongside code and sync across sessions/machines via git.
-
-**How to apply (current reality):**
-- The layout is **stable** — `memory/auto/*.md` are normal tracked files; the index is `memory/auto/MEMORY.md`. (Superseded the earlier "in-flux / don't assume stable" guidance.)
-- Daily logs go in `memory/YYYY-MM-DD.md`; durable lessons in `memory/auto/<slug>.md` + a one-line index entry.
+Migration COMPLETE/stable since ~2026-06-05: `~/.claude/.../memory/` is a directory symlink to the git-tracked `memory/auto/`. Current model + write mechanics → [[finding_automem_hardlink_inplace_edit]] + `docs/AUTO_MEMORY.md` (canonical). Layout: daily logs = `memory/YYYY-MM-DD.md`; durable lessons = `memory/auto/<slug>.md` + one index line in `memory/auto/MEMORY.md`.

@@ -1,8 +1,10 @@
 ---
 name: project_public_prep_anthropic_fellows
-description: repo being prepped public as portfolio for Will's Anthropic Fellows (Economics & Policy) application; Track A declutter DONE, Track B history-scrub PENDING (the go-public gate)
-metadata:
+description: "repo being prepped public as portfolio for Will's Anthropic Fellows (Economics & Policy) application; Track A declutter DONE, Track B history-scrub DONE+verified 6/30 (b01c0346), FRED key rotated 7/4 — remaining gate = Will's public-flip (+ post-flip verify)"
+metadata: 
+  node_type: memory
   type: project
+  originSessionId: d486914a-6e91-4f37-a4b2-9bf0d4ffeeaa
 ---
 
 Will is prepping this repo to go public as the centerpiece portfolio artifact for his application to the **Anthropic Fellows Program — Economics & Policy** (The Anthropic Institute) — a 4-month research fellowship (greenhouse job 5183053008). Thread started 2026-06-30.
@@ -15,6 +17,6 @@ Will is prepping this repo to go public as the centerpiece portfolio artifact fo
 
 **Track A — readability today: DONE 2026-06-30.** git-rm clutter from the current tree (no history rewrite). 5,303 → ~3,920 tracked files (~26%). Cut: `/docs` OpenClaw vestiges (8), `dashboard/` web app + `TOOLS.md` (dead OpenClaw infra; server.py held a dead telegram token), pure junk (`_trash`/pycache/recovered), emptied every `processed/`+`delivered/` container (915 signals; KEPT the containers via `.gitkeep` per Will — "keep the concept, clear the churn"), 0-ref agent archives (~320). KEPT: referenced archives (`PROME/archive`, `AGENTS/_archive`, `FORGE/_archive`, `REGINALD/archive` etc.), `BOARD/` (live → route to WALTER to thin), `memory/` daily logs, current unprocessed inbox. README overhauled + fixed (markdown structure, dead `.clawhub/` citation → real Feb evidence, commit# rounded).
 
-**Track B — history scrub: PENDING = the real go-public gate.** filter-repo (targeted — messy history is fine) to remove from ALL history: (i) OBJECTIVE — secrets (telegram tokens, Google OAuth `client_secret`, `.env`/keys) + private financial data (`WILL/trading-journal` broker photos [gone from tree, still in history], positions, broker details); (ii) SUBJECTIVE — "unprofessional" content (**Will must DEFINE the criteria**). Process: read-only inventory → manifest → Will-approval → ONE filter-repo pass → flip repo public. Do while repo still PRIVATE.
+**Track B — history scrub: ✅ DONE + verified 2026-06-30** (updated 7/17 — this paragraph had gone stale): targeted `git filter-repo` pass complete (final `b01c0346`, fresh-clone verified clean; plan/manifest/lesson → `PROME/public-prep/HISTORY_SCRUB_PLAN.md`). The last credential blocker cleared 7/4 (FRED key rotated end-to-end, history-exposed old key deleted at the issuer). **Remaining gate = Will flips the repo public** (deliberate wait, don't nag) → then Phase-5 post-flip verify + delete the desktop mirror backup.
 
-**Next session:** Track B inventory (offered), or essay revision after Will's edits. BOARD thinning → WALTER. Related: [[finding_passive_surface_rot_push_not_dashboard]] (why the dead infra rotted).
+**Next:** essay revision after Will's edits (essay still not final). Related: [[finding_passive_surface_rot_push_not_dashboard]] (why the dead infra rotted) · [[finding_history_scrub_verify_by_content_not_pickaxe]].
