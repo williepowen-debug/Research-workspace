@@ -5,7 +5,9 @@
 **Thesis version:** **v5.0 (Jun 29 PM — asymmetry flip; unchanged).** The re-arm CONFIRMS the pre-registered up-tail — no restructure (the skew was already upside-convex). Next session: log a THESIS/CHANGELOG note "Phase-1 re-squeeze realized 7/12." Full THESIS.md / CHANGELOG.
 **⚑ v5.0 — asymmetry UPSIDE-CONVEX.** Downside capped (record-low inventories + SPR-refill bid), upside tail fat — and 7/12 that tail STARTED PAYING (formal closure, transits 11%). **We were NOT calling oil up; the convexity was up. The convexity has now fired — but at $86/OVX-61 the cheap entry is gone, so the arm's job flips from "capture unpriced tail" to "add on a vol-cooldown pullback."**
 **Position:** **no flat-price length either way; forward = defined-risk long-convexity** (USO call spread, ~$500 max-loss, pre-negotiated-proposal authority; `TRADE.md`; Will [Approve] at fire). **7/16: re-arm CONFIRMED but deploy = pass-on-chase → NO capital.** Deploy on a RED-day/vol-cooldown pullback (~$80-82 that stabilizes), or a small ~$200 further-OTM tranche if Will wants blockade→Scenario-C tail now. **XLE $65C Sep-30 → LAPSE.** Live prices in STATUS; no P/L here.
-**As of:** 2026-07-16 Thu ~9:35 AM ET (RE-ARM CONFIRMED on formal Hormuz closure; deploy=pass-on-chase; matrix 53/70; MSG-001 closed) | STATUS commit: (this session — pending push-train)
+**🔴 7/17 3:50 PM ET — COT GRADED (report-date 7/14) = SQUEEZE IGNITING (partial).** MM gross shorts `WTI-PHYSICAL-NYMEX` **129,072 → 119,187 (ΔS −9,885**, in the frozen IGNITING band −25K..−7K). Graded off CFTC's raw `f_disagg.txt` (Socrata never went fresh through 15:45; report-date 7/14 verified in-row; anchor reconciled exact via ΔMM cols). **Caveats:** de-grossing-led (net −2,067; longs −11,952 > shorts −9,885, no fresh-long conviction) · ICE-WTI sibling shorts BUILT +8,531 · ~92% of the short fuel remains → **igniting, not ignited.** Crowded short beginning to cover into the closure spike (RED's 6/26 catch paying), partial. **Effect on re-entry: Branch-1 (the $80-82 pullback) HIGHEST→MODERATE** (covering supports price → dip may not come; spring no longer fully coiled). **Branch-2 (Kharg seizure/blockade → gap $100+, no pullback, book strands flat) is un-hedged and INVISIBLE to the COT** — a seizure fires no FAL-01; flow-anchor it (Kharg loadings→0, not a headline) → tail-rider OR accept-flat decision (Will's). Denominator ruling stands: **88 canonical** (PortWatch 50th pct); reject 97 (stale CY2024) / 140 (98th-pct peak mis-cited). **Today $87.71 (+4.1%) = first settle >$85 EVER if it holds** → FALCON $85×3 session 1, earliest full fire 7/21. **Cooldown gate to deploy:** OVX/VIX ratio <p90 (2.89) AND OVX <p75 (44.2) — now 3.27 (p95.9 FIRE) / 60.4 (p93). **7/21 tree** (4-rail cluster: bank triple + FL employment + China LPR + possible $85×3) in `outbox/2026-07-17_to-PROME_cot-grade-verdict.md`. Arm ARMED-and-HOT, no capital; deploy/tail-rider = PROPOSALS to Will.
+
+**As of:** 2026-07-17 Fri ~3:50 PM ET (COT graded = SQUEEZE IGNITING partial; both-branch re-entry; OVX-ratio cooldown gate; 7/21 tree written) | prior: 7/16 RE-ARM CONFIRMED, matrix 53/70, MSG-001 closed | STATUS commit: (this session — pending push-train)
 
 ---
 
@@ -25,7 +27,7 @@
 - **Diverge from market by:** I read the closure as physically real (transits 11%, not just declaratory) AND I read $86/OVX-61 as a poor convex entry — both at once. The market has already priced a large war premium into $86; if the closure holds it runs, if Muscat delivers an off-ramp it round-trips hard.
 - **Cross-agent tensions:** **None acute** — but flag the LAGGING credit tell: HY OAS calm 272 [FRED 7/14] has NOT repriced a formal chokepoint closure. Either credit is complacent or the closure is seen as transient. Watch for energy-HY widening as the confirmation/refutation.
 - **Failure-pattern guardrails:** don't-chase-the-spike (rule #6, the arm's own premise) · web-verified load-bearing facts (settles, transit prints, OVX) before banking (LESSONS #1) · declaratory ≠ physical — this time it's BOTH (closure declared AND transits collapsed), which is why the grade is CONFIRM not the June fade.
-- **Uncertain about:** (1) ceasefire/blockade durability — *HAWK's domain*; (2) CFTC COT 7/17 — do crowded shorts (spring-fuel, confirmed 7/10) COVER (squeeze igniting) or hold (more fuel) — *my data, decisive*; (3) does wk-7/17 EIA show the closure re-tightening Cushing/draws — *my data*.
+- **Uncertain about:** (1) ceasefire/blockade durability — *HAWK's domain*; (2) ~~CFTC COT 7/17~~ **RESOLVED 7/17 = SQUEEZE IGNITING (partial)** — shorts covered −9,885 (in band) but de-grossing-led, sibling divergence, ~92% fuel remains; (3) does wk-7/17 EIA (rel 7/22) show the closure re-tightening Cushing/draws — *my data*; (4) NEW — the **Kharg gap/strand** (Branch-2): a seizure removes ~1.5 Mbpd with infra intact, invisible to both the COT and FAL-01 — *flow-anchored watch (Kharg loadings→0)*.
 
 ---
 
@@ -63,7 +65,8 @@
 
 | Date | Event | Threshold / Signal |
 |------|-------|---------------------|
-| 🔴 **Fri Jul 17** | CFTC COT (positions as-of 7/14) | **First print capturing the closure.** Crowded shorts COVER (squeeze igniting → bullish confirmation) vs hold (more fuel) |
+| ✅ **Fri Jul 17** | CFTC COT (as-of 7/14) — **GRADED = SQUEEZE IGNITING (partial)** | Shorts covered −9,885 (in band) but de-grossing-led (net −2,067), ICE-WTI sibling BUILT +8,531, ~92% fuel remains → igniting not ignited |
+| 🔴 **Tue Jul 21** | 4-rail cluster (COT×$85-threshold × bank triple × FL employment × China LPR) | Pre-written tree in the 7/17 grade memo; $85×3 earliest full fire; Kharg-seizure = Branch-2 gap tripwire (flow-anchored, no FAL-01) |
 | 🔴 ~Jul 17 | Baker Hughes rig count | 445 (12 to 457); closure may stall shale-response capex |
 | 🔴 Tue Jul 22 | EIA WPSR (wk-7/17) | **First post-closure inventory read** — Cushing hold >20M? crude draws accelerate? |
 | 🟠 Tue Jul 28 | OPEC JMMC | Policy behind the closure |
