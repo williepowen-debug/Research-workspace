@@ -220,10 +220,20 @@ def check_artifact(path, docket_rows, covered_dates, today):
     #    Root-only resolution produced ~14 false DEAD flags at the 7/16 boot
     #    (HENRY-verified class; fixed 7/16 Will-approved).
     art_dir = os.path.dirname(full)
+    # Agent-home resolution (added 7/17): agents write home-relative paths
+    # ("inbox/x.md", "workbook/y.tsv") from files living in subdirs (setups/,
+    # research/) — those survive both the root and artifact-dir passes (the
+    # TERRY setups/->inbox/processed/ case). Resolve against the enclosing
+    # AGENTS/<NAME>/ home as a third base.
+    segs = rel.replace("\\", "/").split("/")
+    agent_home = (os.path.join(REPO, segs[0], segs[1])
+                  if segs[0] == "AGENTS" and len(segs) > 2 else None)
 
     def _resolves(p):
         return (os.path.exists(os.path.join(REPO, p))
-                or os.path.exists(os.path.join(art_dir, p)))
+                or os.path.exists(os.path.join(art_dir, p))
+                or (agent_home is not None
+                    and os.path.exists(os.path.join(agent_home, p))))
 
     dead = set()
     for line in text.splitlines():
