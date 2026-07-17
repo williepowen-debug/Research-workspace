@@ -25,7 +25,7 @@ Per the root overlap rule (CORAL is FL-canonical; HOMER owns housing mechanics),
 
 > **FL foreclosure filings, H1-2026: 27,494 = 0.27% of housing units = 1 in 373 = #1 highest state rate in the nation. Source: ATTOM 2026 Mid-Year Foreclosure Market Report (rel 2026-07-16), primary-verified.**
 
-**Status: PROPOSED, CORAL-confirm pending.** SendMessage sent to CORAL 7/17 with the figure + metro texture; she has an open task (#8) on the same reconcile. Because both numbers derive from the same single primary, a fork is unlikely — but I've marked the FL row in `STATE_HSG.tsv` "PROPOSED CANONICAL — CORAL confirm pending" rather than asserting it unilaterally. Will update to CONFIRMED on her reply. **No two-different-FL-numbers state exists** — my KB carries exactly one FL foreclosure figure, flagged as pending-confirm.
+**Status: CORAL-CONFIRMED 2026-07-17.** Both agents independently pulled the primary and converged on the *identical* figure — no divergence at all. Agreed split: CORAL-canonical for the FL state-rate headline; HOMER cites it and owns the pipeline mechanics (starts/REO/timeline/metros). Two disambiguation flags adopted on both sides: **(1) window-labeling** — "1-in-373" is H1 cumulative, distinct from the May-monthly "1-in-2,110" (consistent ~0.047%/mo×6, not a step-change), both tagged explicitly to prevent a false-contradiction cross-cite; **(2) FL is barely #1** — SC 0.26% (1-in-381) is right behind, so it's a Southeast cluster, not FL-unique. STATE_HSG + STATUS rows flipped proposed→CONFIRMED. **Bonus: also closed the older 7/12 FL-condo inventory reconcile** — CORAL countersigned, I relabeled my "12.9mo" → Miami-Dade on all 3 surfaces (statewide is her 8.9mo).
 
 ---
 

@@ -21,15 +21,18 @@ PROME-directed, Will-routed task from the 7/17 RESEARCH-INTAKE lane run: pull th
 ## BYPRODUCT ROUTED
 - **CARL (CRL-06, CARL-owned):** Q2 actuals now in — Q2 clears 70K on filings (115,714) + starts (~82-88K) but NOT REO (~13,963). Flagged in memo + NEXUS_BRIEF; CARL owns resolution.
 
+## CORAL RECONCILE — BOTH CLOSED THIS SESSION (7/17)
+- **FL foreclosure figure CONFIRMED.** Both agents converged INDEPENDENTLY on the identical figure (0.27% / 1-in-373 / 27,494 / #1 / ATTOM Mid-Year 2026). CORAL-canonical (FL state-rate headline), HOMER cites + owns pipeline mechanics. STATE_HSG + STATUS rows flipped proposed→CONFIRMED. Adopted CORAL's two disambiguation flags: window-labeling (H1-cumulative "1-in-373" ≠ May-monthly "1-in-2,110") + FL "barely #1" (SC 0.26% behind, SE cluster).
+- **7/12 FL-condo inventory reconcile CLOSED.** CORAL countersigned; relabeled my "12.9mo" → **Miami-Dade** on all 3 surfaces (STATUS, MULTIFAMILY.tsv, STATE_HSG.tsv); statewide = CORAL's 8.9mo. Ownership split countersigned (statewide price/inventory = CORAL; county medians + foreclosure pipeline = HOMER).
+
 ## NEXT SESSION
-1. **CORAL confirm** on the FL foreclosure figure → flip STATE_HSG row from "proposed canonical" to CONFIRMED; and the still-pending FL-condo 12.9mo relabel.
-2. **Move WALTER sigs to `inbox/WALTER/processed/`** (SIG-006/006/001) — actioned this session, not yet filed.
+1. **Move WALTER sigs to `inbox/WALTER/processed/`** (SIG-006/006/001) — actioned this session, not yet filed.
 3. **HOM-01 first resolver ~Jul 30** (FMHPI June data): Leg-1 read + early-kill arm. Boot resolution scan applies.
 4. **DHI FQ3 (7/21) + PHM Q2 (7/22)** — CRL-23 read; NAHB HMI July pull (rel 7/16, not yet pulled); UST 10Y/30Y + MBA weekly still owed (lower priority).
 5. **Verify REGINALD consumed the Path-C note** + whether CARL moved on CRL-06 Q2 actuals.
 
 ## OPEN THREADS
-- FL foreclosure figure — proposed canonical, CORAL confirm pending (live task #8).
+- FL foreclosure figure + FL-condo reconcile — BOTH CLOSED with CORAL 7/17 (see above). No open CORAL items.
 - GSE-vs-CMBS MF divergence — next Fannie + Trepp prints ~late-Jul co-determine.
 - HOM-01 OPEN — FMHPI nominal-rollover, first resolver ~Jul 30.
 - STATUS threshold-table note: "FL Foreclosures YoY" bands (+75/150/200) now under-read FL stress — FL shifted from rate-of-change story to LEVEL story. Consider a durable-band revisit (not done this session; flagged in PIPELINE row + memo).
