@@ -53,6 +53,13 @@ If live chain data is unavailable, ask Will/broker for these before making a fir
 | Expected move through catalyst | Preferred | Strike/target sanity check |
 | Skew | Preferred | Put/call spread attractiveness |
 
+### 3b. Settlement / assignment taxonomy (external research — `options/RESEARCH.md` TT-05/TT-09)
+Matters most **near expiry**, where TERRY already operates (e.g. the 7/16 USO 1-DTE triage):
+- **Cash-settled index options** (SPX, XSP, NDX, RUT): **no assignment risk**, no early exercise; **larger** contract size.
+- **ETF options** (SPY, QQQ, IWM): deepest liquidity, easiest sizing — **but carry assignment risk.**
+- **Futures options** (ES/MES, NQ/MNQ): ~24h, SPAN margin; **settle to the futures contract**, not to cash.
+- **⚠️ Broker-specific and NOT assumable:** assignment handling, product fees, and **auto-liquidation if you can't settle** (can close a position at a bad price/time). **Ask Will/broker — do not infer.**
+
 ## 4. Structure selection heuristics
 
 - **Shares/ETF:** use when timing is uncertain but thesis is durable and loss can be stopped mechanically.

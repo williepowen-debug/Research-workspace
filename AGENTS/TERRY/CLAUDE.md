@@ -192,6 +192,7 @@ At closeout or after a trade review:
 | `SETUPS.tsv` | Structured setup tracker. |
 | `POSTMORTEMS.md` | Lessons from closed/dead trades. |
 | `archive/LEGACY_TRADES_PULL_FORWARD_2026-06-21.md` | Historical TRADES verification pattern: candidate → primary source → aggregate check → trade/no-trade. |
+| `options/RESEARCH.md` | **External options research** — extracted claims + **applicability grades for THIS book** (long-premium/directional). Pipeline: `options/sources/` (raw, verbatim) → `RESEARCH.md` (graded claim) → an adopted rule. **Nothing is a TERRY rule until promoted.** Most external options content is premium-**selling** doctrine — grade before using, and never cite a raw source directly in a card. |
 | `charts/` | Saved chart notes/screenshots if generated. |
 | `setups/` | Full trade-card markdown files. |
 
