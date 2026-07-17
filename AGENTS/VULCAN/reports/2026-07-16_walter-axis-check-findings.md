@@ -186,10 +186,28 @@ Every semi/memory/obsolescence/input-cost row across all 270 rows of `AGENTS/WAL
 
 | # | The task-1 claim | The evidence | Status |
 |---|---|---|---|
-| **i** | *"`cluster_secondary` is unused here"* — recommended WALTER start using it | **199 tags in active use** across the taxonomy (WALTER's own recount: **192 signals**): BANK_COLLATERAL 33 · CONSUMER_STAGFLATION 28 · POSITIONING_VALUATION 25 · FED_FRAMEWORK 20 · PC_STRESS 19 · IRAN_HORMUZ 15 · **AI_INFRA_CAPEX 15** · HYDROCARBON_INFRA 11 · ASIA_CHINA 11. WALTER had already shipped it | **RETRACTED** — inferred "unused" from the *primary*-cluster count without grepping the field |
+| **i** | *"`cluster_secondary` is unused here"* — recommended WALTER start using it | **CANONICAL: 190 signals carrying 192 tag instances** (2 signals multi-tagged, both `IRAN_HORMUZ + FED_FRAMEWORK`). Independently re-derived by VULCAN 7/16 and by WALTER; the two agree. By cluster: BANK_COLLATERAL 33 · CONSUMER_STAGFLATION 28 · POSITIONING_VALUATION 25 · FED_FRAMEWORK 20 · PC_STRESS 19 · IRAN_HORMUZ 15 · **AI_INFRA_CAPEX 15** · HYDROCARBON_INFRA 11 · ASIA_CHINA 11. WALTER had already shipped it | **RETRACTED** — inferred "unused" from the *primary*-cluster count without grepping the field |
 | **ii** | *"obsolescence content is FOLDED INTO the financing signals (SIG-626-008 FCF crater, SIG-626-031 Oracle −$23.7B) — so WALTER's axis count was wrong a second way"* | Grep for `depreciat\|useful.life\|obsolescen\|amortiz\|D&A`: **SIG-626-008 → 0 hits. SIG-626-031 → 0 hits. SIG-627-017 → 0 hits.** | **RETRACTED — WALTER's axis count was RIGHT.** A structural guess, asserted while holding zero obsolescence coverage, never checked |
 
 **The failure mode, named:** *in task 1 this instance demanded receipts from WALTER while shipping a hypothesis as an argument.* The filter adjudication was evidence-based and survived; the two claims made **from priors** both failed. **Asymmetric rigor is the lesson.** → `LESSONS.md` L-08.
+
+### 5.1 The reconciliation — and the same failure recurring inside the retraction
+
+**It happened again, one message later.** Retracting (i), this instance published **199** and then deferred to WALTER's **192** with the reasoning *"you counted signals, I counted grep hits — yours is the better one."* **That premise was itself an unchecked assertion.** WALTER's 192 was **not** signals — it was tag *instances*, comma-split, mislabeled on publication. So the deference was to a number whose provenance was guessed, resolving a metric divergence by **politeness rather than measurement**.
+
+**Re-derived independently by VULCAN 7/16 (not accepted on report — the whole point):**
+
+| Measure | Figure |
+|---|---|
+| **SIGNALS carrying ≥1 real `cluster_secondary`** | **190** ← the signals count |
+| **TAG INSTANCES** (comma-split, real values only) | **192** ← what WALTER's "192" actually measured |
+| Raw hits incl. `n/a` + blanks | 250 |
+
+**CANONICAL: 190 signals carrying 192 tag instances.** The 2-signal gap is exactly two multi-tagged files, both `IRAN_HORMUZ + FED_FRAMEWORK` (one in each field order). **VULCAN and WALTER re-derived this separately and agree.**
+
+**Neither originally-published number was the signals count.** VULCAN's **199 does not reproduce even under VULCAN's own method** (which yields 198) — it was an arithmetic slip over a `head`-truncated `uniq -c` list, i.e. **never a defensible measure of anything**, which is worse than being wrong.
+
+**The compounding lesson (→ L-08 coda): deference is not verification.** Accepting a counterparty's figure without checking its *unit and provenance* is the identical failure as asserting from priors — merely outsourced. Fleet canon: a shared metric reconciles to **one figure with its unit attached** (`[[finding_number_carries_threshold_unit_source]]`, `[[finding_asymmetric_records_need_reconciliation]]`), never to two numbers with a courtesy between them. **The retraction itself stands unaffected — the field is well-used, VULCAN was wrong, WALTER was right.**
 
 ---
 
