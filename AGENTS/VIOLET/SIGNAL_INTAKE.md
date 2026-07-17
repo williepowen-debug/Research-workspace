@@ -1,6 +1,6 @@
 # VIOLET — Signal Intake Spec
 
-**Owner:** VIOLET | **Consumer:** Routing agent (WALTER) | **Last Updated:** 2026-06-10
+**Owner:** VIOLET | **Consumer:** Routing agent (WALTER) | **Last Updated:** 2026-07-17 (added JPY 10d RV carry→vol threshold line, KB-VIO-117)
 **Domain:** VIX complex, vol term structure, vol-of-vol (VVIX), SKEW/tail pricing, credit-to-vol transmission timing, vol-regime classification.
 
 ---
@@ -119,6 +119,7 @@ options, hedge, fear gauge, market stress, panic, drawdown, tail risk
 | VIX3M/VIX | 1.0 | Below | Term-structure inversion — **marks vol peaks, exit-timing signal (KB-VIO-034: 2.2% hit rate as onset predictor). NOT a crash-onset leading indicator.** |
 | 20d SKEW avg | 140 | Below, sustained 4+ td | Elevated-SKEW regime termination test (R-series regimes, KB-VIO-043/061). Single-day dips are noise — sustained breaks are the signal |
 | VIX | 30 / 40 | Above | Regime lines: >30 equity stress confirmed; >40 crash regime (credit-vol lead relationship inverts above 40) |
+| JPY 10d RV (USDJPY, carry→vol) | p90 WATCH / p95 FIRE (percentile-anchored, **re-derived each run** — current ~13.97 / 15.21; Aug-2024 unwind anchor 18.0) | Above | Carry-unwind → equity-vol transmission (KB-VIO-102 Aug-2024 replay class). IV/RV >2× (FXY OI-wt near-ATM call IV) = event premium priced; →1× w/o RV spike = risk passed; RV>IV = unwind underway. Owner: VIOLET (transmission read) / SAM (substance). Instrument LIVE 7/16 (`scripts/jpy_vol.py`, boot-wired); ratified KB-VIO-117. Route on FIRE: outbox SAM + PROME. |
 
 ---
 

@@ -1,42 +1,39 @@
-# VIOLET SCRATCH — July 11, 2026 (Sat weekend session: sweep + Will-approved execution wave)
+# VIOLET SCRATCH — July 17, 2026 (PROME-spawned catalyst-day session)
 
-> **⚡ 7/11 ~16:15 ET — two-part session (PROME-spawned): (1) triage domain sweep (`reports/2026-07-11_domain-sweep.md`), then (2) Will-approved execution of its proposed items.** Headline: **the MOVE-led fresh look ran and found the queued premise stale — MOVE REVERSED: 72.41 [7/8 peak] → 68.89 [7/9, −4.9%] → 69.55 [7/10]** (like-for-like within Yahoo's feed, PROME FORGE pull converges). The acute rates-vol-vs-equity-complacency divergence is dead; equity complacency simultaneously deepened (VIX 15.03, VIX3M/VIX 1.236 cycle-steepest, SKEW 144.27 second close <145, single-stock put/call **0.71 record low**). **Disposition NO-FIRE; conditions registered** (F1 MOVE>72.41 / F2 hot-CPI+flip-band / F3 10Y>4.60 w MOVE>70 · N1 MOVE<66 / N2 SKEW>148) → `research/2026-07-11_move-led-vol-hedge-fresh-look.md`, KB-VIO-116. **DAEDALUS L4 packet fully applied** (boot staleness guard live — verified exit-0). All levels Fri-close vintages; nothing live (weekend).
+> **⚡ 7/17 ~13:20 ET — five-task session (COT grade pending 3:30).** Headline: **equity-vol is DE-COMPRESSING off the 7/10 complacency floor — VVIX 103.33 crossed the >100 watch line (from 87.28), VIX3M/VIX contango flattened to 1.129 (from 1.236), VIX 17.85, SKEW back >145 — but it's catalyst-day-mechanics-dominated, NOT a confirmed crack.** The load-bearing tell: **MOVE ~68 [7/15-16, web] is flat-to-down, NOT re-escalating** toward 70-72 even as equity-vol pops → no cross-asset confirm. Credit 🔴 Bin-A but unchanged; COT lev-money flipped net-long +5,112 [7/7] with the 2nd read grading 3:30 today; JPY carry-vol dead calm. **jpy_vol.py RATIFIED as-built** (canary now Tier-1 LIVE). Ruling KB-VIO-118; COT pre-reg KB-VIO-119.
 
 ## NEXT SESSION (priority-ordered)
 
-1. **🔴 Boot now includes the staleness guard (CLAUDE.md step 5b)** — run it; it's live as of this session.
-2. **🔴 Adjudicate the KB-VIO-116 F/N conditions vs fresh tape** — F1 MOVE >72.41 through CPI+1 / N1 MOVE <66 / N2 SKEW >148. FORGE `fetch.py price ^MOVE` now works (sparse history); VIOLET method = 1h bars + fast_info (memo §1).
-3. **🔴 First pulls: fresh CCC/dispersion prints** (7/8-7/10 data, FRED T+1, post ~7/13-7/14) **+ COT VIX 7/10 report** (first post-shock positioning read) — both grade the CPI-week context before the print.
-4. **🟠 CPI 7/14 ~8:30 ET + Citi/WFC Q2 same morning** — the branch map is memo §5; HENRY's GEX flip-band repull due 7/14 AM (band EXPIRED per HENRY 7/10 routing — F2 needs this number).
-5. **🟠 Send DAEDALUS the PAT-032 disposition note** (one line to `AGENTS/DAEDALUS/inbox/`: L4 packet all-6 applied 7/11) — owed but NOT sent this session (spawn rules restricted writes to own dir; route via PROME or send at next unrestricted session). DAEDALUS's MATURITY_MAP won't reconcile until this lands.
-6. **🟡 TRADE.md body gate-sections rewrite** — footer now carries a staleness pointer (KB-VIO-110 vehicle spec RETIRED per Will 7/9), but the body still describes the old VIX-calls gate. Rewrite when touched next.
-7. **🟡 20d SKEW avg recompute, M1:M2 repull, OVX, broad equity put/call, VIX options OI, HY/BB ladder refresh** — all still carried.
-8. **🟡 HENRY SKEW date-mislabel flag** (7/6 150.0 vs actual 145.38) — still owed at next cross-agent sync.
-9. **⚪ VULCAN seam noted** (7/10 DAEDALUS note, processed): VULCAN owns Path-B's capex mechanism, VIOLET keeps the vol expression; fold in VULCAN's S1 when it lands (due ahead of 7/22-7/29 megacap stack).
+1. **🔴 GRADE the 7/14 COT print** (if the 3:30 background timer already fired and I graded, this is DONE — check STATUS "COT VIX — TODAY'S GRADED READ" + KB-VIO-119 GRADE line). If not yet graded: run `.venv/bin/python3 AGENTS/VIOLET/scripts/cftc_cot.py --boot`, verify report-date = 2026-07-14 (NOT 7/07), grade vs the KB-VIO-119 branch map (persist ~+3-8k / deepen >+8-10k / reverse net-short), append grade to STATUS + KB-VIO-119, send follow-up to PROME.
+2. **🟠 GATE-VIO-116 re-open watch:** MOVE >70-72. Web-verify daily (Yahoo daily feed DEAD past 7/10; 1h-bar mislabels 1d late — use investing.com/CNBC/WebSearch). Distance ~2-4 pts as of 7/15-16.
+3. **🟠 jpy_vol IV/RV into MOF Wed 7/22:** watch whether IV/RV collapses toward 1× (risk passed) or holds/widens (event priced). Currently 2.77× and *widening* — risk-passed signature NOT yet appeared.
+4. **🟡 VVIX/contango follow-through:** does VVIX hold >100 and contango keep flattening (crack-building) or revert (catalyst-day mechanics confirmed)? This is the de-compression-vs-crack resolution.
+5. **🟡 Carried refreshes:** 20d SKEW avg recompute · M1:M2 detail · OVX resume-pull · broad equity put/call · HY/BB ladder · VIX9D (not in this run's threshold output).
+6. **⚪ PAT-032 note to DAEDALUS** (L4 packet all-6 applied 7/11) — cross-dir write, route via PROME. Still owed.
+7. **⚪ VULCAN S1** (Path-B capex) — fold in ahead of 7/22-7/29 megacap stack; sets the NDX-SPX IV-dispersion canary line.
 
 ## WHAT I DID THIS SESSION
 
-1. **Sweep (part 1):** full triage inventory → `reports/2026-07-11_domain-sweep.md` (committed `0f94f974`).
-2. **Fresh look (part 2, Will-approved):** pulled Fri closes via yfinance (daily + fast_info + 1h bars); found and verified the MOVE reversal (like-for-like reconciliation under ICE T+1 posting, both date-label models agree on the ordinal fact; PROME FORGE convergence); wrote the memo with shape-only hedge read (rates-vol/duration lane per Will's 7/9 ruling) + registered F/N conditions + CPI branch map; KB-VIO-116.
-3. **DAEDALUS L4 packet — all 6 applied:** #3 staleness guard wired into CLAUDE.md boot step 5b (tested, exit 0 both modes); #1 BOTTOM LINE added to STATUS; #2 Independence column added to convergence matrix (45-pt composite untouched); #4 FROZEN banners on `hy_oas_fred.csv` + `combined_vix_credit.csv`; #5 three dangling archive refs fixed (README, SIGNAL_INTAKE, CLAUDE.md — dir deleted in public-prep prune, noted); #6 TRADE.md footer bumped (+ staleness pointer for the retired vehicle spec). Packet → processed/.
-4. **SIG-W-20260709-015 processed:** put/call 0.71 record low filed to board_log (acted), reconciled vs SKEW per the ask (two-tier structure unwinding from both ends), → WALTER/processed/.
-5. **VX_DAILY:** 7/9 row corrected from intraday-TICK to official closes (15.84/18.99/21.32/88.78/144.67, basis CLOSE); 7/10 row added (15.03/18.57/21.09/87.28/144.27, ratio 1.2355).
-6. **Thesis PREDICTIONS row #6 synced** to KB-VIO-114 (RESOLVED broke 2/4, count reset 0/4, re-arms at next >150 close).
-7. **Inbox zeroed:** DAEDALUS 7/4 + 7/10, HENRY 7/6 + routing 7/10, PROME 7/6, WALTER SIG → all `git mv` to processed/.
-8. **STATUS surgically updated** (7/11 header block, dashboard 7/10 vintages, MOVE row REVERSED 🟠→🟡, GEX row 🟢→🟡 band-expired, posture line → registered conditions, queue refreshed, footer). NEXUS_BRIEF refreshed. LAST_COMPLETION written.
+1. **Booted** (boot.py + both staleness guards clean). Consumed inbox: PROME jpy-vol-built note, lane-query, routing note; WALTER SIG-003 (COT flip) + SIG-020 (0.42 cash-ratio fused-premise trap / real flow facts).
+2. **Task 1 — jpy_vol.py RATIFIED as-built** (KB-VIO-117). Faithful to frozen scope; future-bar guard adopted; **intraday IV leg confirmed on live RTH quotes** (FXY Sep-18 63DTE OI-wt call IV 9.8%, note not stale). Event premium widening (IV/RV 2.03×→2.77×) into MOF 7/22, risk-passed signature absent. Owed items delivered: KB row + SIGNAL_INTAKE §ACTIVE THRESHOLDS +JPY line + CANARY_MAP Tier-1 promotion.
+3. **Task 2 — vol-stack ruling: de-compression not crack** (KB-VIO-118). Shared-antecedent surface move (one signal) vs split independent vectors (MOVE non-confirming, credit unchanged, COT turned, JPY calm). GATE-VIO-116 re-open distance ~2-4 pts.
+4. **Task 3 — COT lev-money 2nd read PRE-REGISTERED** (KB-VIO-119, before the 3:30 print): persist/deepen/reverse branch map + effect on the fleet "nothing has broken" frame. Grade pending 3:30 (background timer bkle6gfrd set for 15:31).
+5. **Task 4 — canary menu** delivered in the memo: jpy_vol closed one Tier-2 hole; remaining legs ranked (OVX cheapest/highest-leverage, single-stock skew split, NDX-SPX IV dispersion, GEX cadence, KOSPI-amplifier owner-assignment). CANARY_MAP → v1.1.
+6. **Task 5 — lane ratification: KEEP + AMEND** (rebutted the CUT — cftc_cot covers positioning, this lane covers structural/narrative vol events boot can't compute). Re-pointed the query toward the structural class.
+7. **Write-backs:** STATUS full 7/17 refresh, NEXUS_BRIEF refresh (tensions: None active), this SCRATCH, outbox memo to PROME.
 
 ## CARRY-FORWARD
 
-- **Push state:** committed locally, NOT pushed (per spawn instruction).
-- **Regime one-liner:** LOW_VOL deepening toward complacency on every equity gauge; MOVE reversed off its auction-week peak; credit unknown pending fresh prints; NO-FIRE, conditions registered into CPI 7/14.
-- **Biggest open loop:** F/N adjudication at next boot + the PAT-032 note to DAEDALUS.
-- **Data caveats:** everything in this session is 7/10-close vintage or older (weekend); COT 7/10, fresh credit, GEX band, M1:M2 all still unpulled.
+- **Push state:** committed + safe-push at closeout (per protocol).
+- **Regime one-liner:** LOW_VOL de-compressing off the 7/10 floor; VVIX crossed 100, contango flattening; MOVE non-confirming, credit unchanged-Bin-A, COT turned (2nd read 3:30), JPY calm. De-compression not crack. No position.
+- **Biggest open loop:** the 3:30 COT grade (discriminator for the ruling).
+- **Data caveats:** equity-vol is 7/17 intraday TICK (not settle); MOVE is web ~68 [7/15-16] (Yahoo daily dead); COT still showing 7/7 in boot until the 3:30 release.
 
 ## OPEN HYPOTHESES (flagged, NOT actionable until backtested)
 
-- **MOVE-before-VIX: the 7/6-7/8 climb now reads as auction-week repricing that partially unwound, not the leading edge of a transmission** — one full cycle (rise + reversal) without VIX ever confirming. If CPI produces a rates shock, watch whether MOVE re-leads; two clean instances would make the pattern registerable.
-- **Complacency-extreme stack as contrarian timing signal** — record put/call 0.71 + sub-145 SKEW + cycle-steepest contango simultaneously is a rare configuration; worth a backtest (does the triple-extreme cluster precede vol events at better-than-base rates?) before it does any inferential work.
+- **VVIX-leads on this cycle's de-compression:** VVIX crossed 100 while VIX still <20 and term structure still in contango — is vol-of-vol the first gauge to move in a complacency unwind? One instance; watch whether VVIX>100 precedes a VIX>20 break.
+- **COT lev-money net-long as a positioning lead:** the 3-week short-cover → net-long trajectory (−18.9k→−2k→+5.1k) into a flat VIX — does sophisticated positioning lead spot vol? The 7/14 2nd read is instance two.
 
 ---
 
-*Last updated: 2026-07-11 ~16:15 ET (Sat). Sweep + Will-approved execution: MOVE reversal found/verified (KB-VIO-116, NO-FIRE, F/N conditions registered into CPI 7/14), DAEDALUS L4 packet all-6 applied (staleness guard LIVE at boot), SIG-015 processed, VX_DAILY 7/9-7/10 fixed, prediction #6 synced, inbox zeroed. Top next: run the new boot guard, adjudicate F/N vs fresh tape, pull credit + COT before CPI.*
+*Last updated: 2026-07-17 ~13:20 ET. jpy_vol ratified (KB-VIO-117, Tier-1); vol-stack de-compression-not-crack (KB-VIO-118); COT 2nd-read pre-registered (KB-VIO-119, grade 3:30 via timer bkle6gfrd); canary menu + lane KEEP+AMEND in the outbox memo. Top next: grade the COT, watch MOVE >70-72 + jpy IV/RV into MOF 7/22.*
