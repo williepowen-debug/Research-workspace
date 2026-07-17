@@ -1,4 +1,5 @@
 # FIRE CARDS — Ladder & Comparison
+> **Master registry of ALL cards (live/staged/archived) → `setups/INDEX.md`.** This file is the fire-card (001-004/006) side-by-side comparison detail only.
 
 **Updated:** 2026-07-17 ~15:45 ET (**TRY-FIRE-006 PRE-BUILT** — Kharg-strand energy tail, flow-anchored, $200 tranche; built ≠ armed, blocked on a FALCON Kharg-loadings data-source freeze) · **Owner:** TERRY · **Status:** live cards **PROPOSE-ONLY**, **$500 max-loss/card** (006 = separate $200 tranche), **0 fired live**. **Live ladder = 001-004, 006 · 005 = SHELVED/dead.**
 Living index of the staged fire cards. Standing rule (Will 6/26): fresh capital deploys ONLY on a fired trigger — never pre-position. Update this doc when a card is added/fired/invalidated.
@@ -8,7 +9,7 @@ Living index of the staged fire cards. Standing rule (Will 6/26): fresh capital 
 - `PRINT-TRIGGER_WAL-EGBN-build.md` — TRY-FIRE-002
 - `PRINT-TRIGGER_monoline-COF-SYF-ALLY.md` — TRY-FIRE-003
 - `FLOW-TRIGGER_duration-TLT-put.md` — TRY-FIRE-004 (duration/TLT puts, flow/velocity-discriminator-gated — spec routed by PROME 7/6, ID-corrected 7/8, card built + 7/9 arm-#1 DEAD recorded; 7/9 PM red-team patch re-scoped thesis + invalidations, card stays ALIVE)
-- ~~`FLOW-TRIGGER_carry-convexity-FXY-call.md` — TRY-FIRE-005~~ — 🔴 **SHELVED 2026-07-10 (DENY on the Jul-7 COT print; no entry made, $0 at risk).** Dead per its own kill rule; re-arm needs a fresh build, not a revival. See § below.
+- ~~`_archive/FLOW-TRIGGER_carry-convexity-FXY-call.md` — TRY-FIRE-005~~ — 🔴 **SHELVED 2026-07-10 (DENY on the Jul-7 COT print; no entry made, $0 at risk); ARCHIVED 2026-07-17.** Dead per its own kill rule; re-arm needs a fresh build, not a revival. See § below.
 - `FLOW-TRIGGER_kharg-strand-USO-call.md` — TRY-FIRE-006 (energy supply-loss tail, flow-anchored on Kharg EXPORT-loadings; USO call spread, $200 tranche; PRE-BUILT 7/17 per PROME Will-approved packet — built ≠ armed, blocked on FALCON Kharg-loadings source freeze). See § below.
 
 ---
@@ -79,4 +80,4 @@ Arms on ANY ONE of 3 discriminators (BND-11 acute 7/9 reopen / VX-BND-05 10Y-sus
 
 **Target:** FXY calls (2026-08-21 expiry, 58C+59C ladder) · **Trigger class:** **PRINT/CONFIRM** (today's 3:30 PM ET Jul-7-data CFTC COT print) · **Thesis owner:** SAM (THESIS.md v1.6.4, GATE-SAM-30 fired, MED-HIGH, net EV ~+1.3%) · **Confidence in structure:** MEDIUM (thesis MED-HIGH, taxed by IV-over-realized richness — see card).
 **Covering-check gate (exact):** Jul-7-data print ≤−153K → CONFIRM → Will [Approve]; ≥−140K → DENY → shelve; between → NOT-CONFIRMED → no entry today, gate stays live to next weekly print.
-**2026-07-10 ~11:15 ET state:** card BUILT, gate PENDING (awaiting 3:30 PM ET print). Sizing pre-computed: 6× 58C ($180) + 20× 59C ($300) = $480/$500 cap. FXY green today (+0.41%, $56.71) — rule #6 break flagged with both fire-today / wait-for-red-day branches in ZONE 1. Full spec → `FLOW-TRIGGER_carry-convexity-FXY-call.md`.
+**2026-07-10 ~11:15 ET state:** card BUILT, gate PENDING (awaiting 3:30 PM ET print). Sizing pre-computed: 6× 58C ($180) + 20× 59C ($300) = $480/$500 cap. FXY green today (+0.41%, $56.71) — rule #6 break flagged with both fire-today / wait-for-red-day branches in ZONE 1. Full spec → `_archive/FLOW-TRIGGER_carry-convexity-FXY-call.md`.

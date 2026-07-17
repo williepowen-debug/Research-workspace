@@ -6,7 +6,7 @@ No Terry-reviewed trades have been closed yet. **One PROCESS postmortem is recor
 ---
 
 ## 2026-07-10 — TRY-FIRE-005 (FXY carry-convexity calls) — PROCESS postmortem, no trade
-**Original card:** `setups/FLOW-TRIGGER_carry-convexity-FXY-call.md`
+**Original card:** `setups/_archive/FLOW-TRIGGER_carry-convexity-FXY-call.md` *(archived 2026-07-17 in the setups/ reorg — dead card)*
 **Outcome:** SHELVED on a correct DENY — **never entered, $0 at risk, no P&L.** The postmortem is about the *logging*, not the decision.
 **Tags:** `GOOD_LOSS_PROCESS_WORKED` (the gate), `STALE_DATA` (the ledger)
 
