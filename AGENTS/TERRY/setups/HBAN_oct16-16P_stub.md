@@ -18,7 +18,7 @@
 - But Oct-16 likely **expires just before the Q3 print** (~mid-late Oct) → this is a **Q2-print + interim CRE/regional-stress vehicle, not a Q3 play.** If the thesis is Q3-print-dependent, the tenor is wrong (would need Nov+).
 
 ## Rationale — ✅ STATED BY WILL 2026-07-16 (stub RESOLVED; was UNKNOWN)
-> **"Stress lottery ticket — I was seeing unusual volume and attempted a play."** — Will, 7/16 in-session (routed via PROME, `inbox/PROME_ROUTING_2026-07-16_hban-rationale.md`).
+> **"Stress lottery ticket — I was seeing unusual volume and attempted a play."** — Will, 7/16 in-session (routed via PROME, `inbox/processed/PROME_ROUTING_2026-07-16_hban-rationale.md`).
 
 **Read:** an **opportunistic volume-signal play**, explicitly **NOT** part of a structured regional/CRE-stress basket thesis. This is Branch A of the thesis-or-exit ask: **position declared, rides through the 7/23 BMO Q2 print, resolves on its own.** No exit action, no restructure, no Q3-spanning re-tenor — the tenor mismatch flagged below is **moot** because there is no Q3-dependent thesis to span. ~$20 of mark value remaining; **no further governance owed beyond this log.**
 
