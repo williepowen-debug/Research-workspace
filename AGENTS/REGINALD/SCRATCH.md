@@ -18,12 +18,24 @@
 
 ---
 
+## 2026-07-17 — Boot + CFG print read + tripwire fire-fade + 3-packet integration
+
+**Noticed during the session:**
+- **The tripwire's pre-registered driver-decomp rule earned its keep.** VX-REG-18.04 technically hard-fired 7/13 (3 consec >3.6×: 3.607/3.606/3.613 — all within 0.013 of the line) then reset 7/14. Without the 6/25-built decomp rule ("HY-tightening=beta=no escalate") I'd have faced a judgment call on escalating a marginal, already-faded fire; the rule pre-decided it. The design lesson: the escalation clause keying on the DRIVER (CCC-led vs HY-led), not just the level, is what kept a denominator artifact from becoming a false 🔴 to LIQUID/BROCK.
+- **CFG −3.27% the day AFTER a clean beat** — on a broad risk-off tape (SPY −1%, KRE −2.1%, VIX +9.8%). Post-beat profit-taking + beta. Watch that Monday: a WAL/OZK sell-off into/after the print needs the same beta-vs-substance decomposition before reading it as thesis-confirming.
+- **Brent +$11.67/wk and the 7/10 "sustain verdict" framing is overtaken** — the question was whether $76 sustains; the tape answered with $87.67. HAWK/BRENT own the verdict; my STATUS rows now carry the escalation read (oil leg FIRING).
+- **WALTER's BB/B sub-index gap flag (SIG-717-003) is worth remembering when citing REG-T-03/04:** blended HY at 8.3 pctile while CCC at 87.8 pctile — the blended >320/>350 triggers may lag a tail-led break. Not actionable now; lane fix is PROME's.
+
+**Threads carried (ROADMAP):** 7/21 double-print grading (frames done, ALLY pin added); POSITIONS broker refresh gate; BROCK bank→BDC map fill (CFG data now in hand); post-7/21 rewrite buckets.
+
+---
+
 ## 2026-07-10 — Core-files staleness sweep + triaged remediation
 
 **Noticed during the session:**
 - **PAT-043 in the wild.** The audit's headline — live thesis in STATUS, thesis-of-record fossilized — is exactly decay-from-the-durable-end. The tell: refresh loops touch STATUS because it's convenient mid-session; THESIS/TIMELINE/INDEX/MATRIX only move on a deliberate rewrite that never gets scheduled. Banner-guard is the cheap interim; the real fix is *scheduling* the rewrite (post-7/21).
 - **The two-clock header silences its own nag.** Adding a STALE-VINTAGE header to KB/FLOW resets the git-commit-time the staleness script keys on → boot-7a stops flagging them. Caught it before committing; moved the refresh-debt to a ROADMAP thread so it's not lost. The human-readable "Last real data refresh" date is the honest artifact, but you MUST re-home the auto-nag or it vanishes (PAT-044 laundering).
-- **CCC/HY quietly walked back to the tripwire line.** 3.49× [6/24] → 3.61× [7/9], AT the 3.6× line, ARMED 1-of-3. But the driver is HY compression (270 vs 276 6/24), not a CCC blowout — a denominator-shrink move, beta-ish, not tail-substance. Don't over-read the single close.
+- **CCC/HY quietly walked back to the tripwire line.** 3.49× [6/24] → 3.61× [7/9], AT the 3.6× line, ARMED 1-of-3. But the driver is HY compression (270 vs 276 6/24), not a CCC blowout — a denominator-shrink move, beta-ish, not tail-substance. Don't over-read the single close. *(RESOLVED 7/17: it went on to complete the 3-consec fire 7/13 then reset 7/14 — graded beta/benign per the decomp rule, no escalation. See 7/17 section + VX.tsv.)*
 
 **Threads carried (ROADMAP):** post-Jul-21 thesis-of-record rewrite (bucket 2) + KB reconstruction (bucket 3); VX-REG-18.04 X1-root reframe; inbox (2 PROME + 5 WALTER) not processed.
 
@@ -53,19 +65,7 @@
 
 ---
 
-## 2026-06-22 — Boot refresh + STATUS-to-6/22 + SHADE Athene + DEWEY FL-timing
-
-**Noticed during the session:**
-- **"Oil-leg re-fire" was really a stall, not a re-fire.** Brent +3.45% on the day but ~flat vs Thursday ($80.69→$80.59) — a sharp up-day off a Friday dip, NOT a move back toward the $94 war premium. Reading the day-% as a trend would overstate it; the honest read decomposes the move from the level. Same family as the 6/19 CCC/HY-oscillation caution — don't read a single 2-day print as a trend.
-- **DEWEY FL-bank-timing independently corroborated my 6/20 drill** on the BKU-vs-AMTB attribution (two surfaces converging via different evidence — my direct 10-Q pull vs DEWEY's institutional-mirror; my drill the higher grade since EDGAR 403'd DEWEY). New datapoint it added: SBCF CRE-NOO 224% of RBC.
-- **CCC/HY tripwire flag recurring (3rd boot).** 3.56x today, oscillating in the 3.44-3.57 band every refresh. The 6/19 note flagged building a >3.6x-sustain tripwire so it stops being a prose judgment call each boot. Still flagged, not built — promote to a VX vector if it recurs once more.
-- **WAL diverged WEAKER than the cohort** (−1.44% vs KRE +0.96%) — the cleanest single-day idiosyncratic-WAL tape signal we've had; closed $0.76 from the $78 threshold.
-
-**Threads carried (all in ROADMAP):** WAL $78 threshold watch (new-live), CRE-DQ-by-tier Q2 build/revert, capital-rules final rule, MI3/FFIEC, APO Q1, OZK Call Report, CARL handover, PROME ZION-scaffold.
-
----
-
-*(6/20 + 6/19 sections pruned 2026-07-10 — >2wk, substance in ROADMAP Recently Resolved / MEMORY Findings.)*
+*(6/22 section pruned 2026-07-17; 6/20 + 6/19 pruned 2026-07-10 — >2wk, substance in ROADMAP Recently Resolved / MEMORY Findings.)*
 
 ## TEMPLATE FOR FUTURE DAYS
 

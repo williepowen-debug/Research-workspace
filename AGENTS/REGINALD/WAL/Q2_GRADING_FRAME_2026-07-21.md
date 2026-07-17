@@ -68,6 +68,8 @@ If WAL **sells off on the print where NIM / deposit-cost / AOCI / guidance is th
 
 ## 5. Print-day read order (pull in this sequence)
 
+> **⚑ Pinned 7/17 (RED memo §7/21-2 via PROME):** the **ALLY 7:30 AM print informs path-(a) regional-cohort ONLY** — auto/consumer credit is a non-comparable read-across to WAL (CRE) / OZK (RESG). **Do NOT fade the reshape-(b)/(c) bank puts on an ALLY beat.** The bank-level reads below are the decider; morning sequencing shorthand is not a verdict. (Benchmark stack going in: JPM/WFC/C/MTB benign 7/14-15 + **CFG clean 7/16** — NCO 37bps 6th straight ↓, CRE-led nonaccrual decline — so any WAL/OZK criticized/NCO rise reads MORE idiosyncratic, per §6's guardrail logic.)
+
 1. **Ex-fraud NCO bps** (headline vs the §1 ladder) — and immediately, **the $99M life-sci disposition** (A/B/C) — these two together set the grade.
 2. **Office/CRE-NOO classified $** (§2) + is it rising into a shrinking book?
 3. **Count of NEW pass→classified Office migrations** (§3 escalation).
