@@ -176,6 +176,30 @@ tastytrade's own published SPY strangle table: **~90% win rate · average win +$
 
 ---
 
+## § OPEN ITEM #9 RESOLVED — the deep-OTM skew / crash premium (dug 2026-07-17, Will-directed)
+
+**The caveat as originally written ("both VRP papers measure ATM variance, not deep-OTM skew") was half-right and needs correcting in BOTH directions.** The skew collapse reaches *further* than I implied, but the *deep* tail — exactly where the crash-ladder and HBAN sit — stays genuinely untested. Net: **the deep tail is the one place a residual premium most plausibly survives, so assume the crash-ladder pays a skew tax on top of the rates tax.**
+
+### The historical baseline: the skew premium was real and grew MONOTONICALLY with depth
+**Bondarenko, "Why are Put Options So Expensive?" (SPX futures puts, 08/1987-12/2000):** 1-month puts had average excess returns of **−39%/month ATM** rising to **−95%/month deep-OTM** — i.e. **the deeper the strike, the more overpriced.** Selling them was a documented "puzzle"; cumulative buyer→seller wealth transfer ≈ **$18bn** over the sample. For the deep tail to break even, an **Oct-1987-magnitude crash would have to occur ~1.3× per year.** **This is the base rate for BUYING deep tail insurance: near-total premium loss in most months.** Directly quantifies the theta/decay drag the crash-ladder pays for its convexity.
+
+### Correction #1 — the post-2012 collapse reaches FURTHER than "ATM only"
+Re-reading Dew-Becker/Giglio: their five strategies **explicitly include the 5% OTM put**, and the structural-break tests *"do not reject… stability over time for **the put**, straddle, and delta-hedged versions"* — i.e. the **5% OTM put's alpha went to ~zero post-2012 just like the straddle.** They go further: *"volatility and **jump** risk… have not captured any premium in the recent data,"* and they measure realized **jump** variation directly. **So the skew/jump premium collapse is IN their result, at least out to 5% OTM.** My original caveat over-implied that OTM was untouched — wrong. Don't lean on stale Bondarenko-era "deep puts are always rich" logic; that regime (1987-2000) is even *older* than the ATM one and is refuted at 5% OTM.
+
+### Correction #2 — but the DEEP tail (8-13% OTM) is genuinely untested, and it's where a premium most likely persists
+- **Depth gap is real.** DBG stop at **5% OTM.** The live tails are **deeper**: crash-ladder ~**8-11% OTM** (TLT 77/76/75 vs ~$84), HBAN 16P ~**13% OTM**. **No study I found tests whether the collapse extends to the 8-13% strip.** Searched directly — the post-2012 deep-tail question is under-researched (the literature that does exist — Bollerslev/Todorov/Kelly-Jiang tail-risk factors — uses deep-OTM puts to *measure jump risk*, not to test whether their premium decayed).
+- **Two mechanisms argue the deep tail could survive the collapse that killed 5%-OTM:** (1) **price-insensitive institutional hedging** — institutions buy deep index puts *"because they must, not because it is cheap,"* keeping deep-OTM demand permanently inflated post-1987; (2) the deep tail is nearly **pure jump risk** (diffusive/variance risk barely touches a far-OTM strike), and DBG's *mechanism* — retail gaining the ability to *sell* — plausibly clears the **variance** premium (sellable via straddles) far better than the **crash-jump** premium (few retail agents write deep tail insurance). **So the thing that collapsed the ATM/5%-OTM premium may not reach the deep jump strip.** Unproven either way — lean: **assume a residual deep-tail premium, especially at the far strikes.**
+
+### What this changes for the two live tails
+| | Depth | Verdict on the skew/deep-tail tax |
+|---|---|---|
+| **TLT crash-ladder 77/76/75** | ~8-11% OTM | **Double reason to assume it PAYS:** it's rates (VRP persists, Leg A) **AND** deep-OTM (skew premium most likely to survive). The 75P especially is far-tail. **The convexity (TT-02) is the justification for paying both.** |
+| **HBAN Oct-16 16P** | ~13% OTM | Single-name is structurally cheap (Leg B), **but 13% OTM + earnings-event is where any residual single-name premium concentrates** — the deep strike and the 7/23 print stack. Cheapest of the caveats, not zero. |
+
+**Bottom line for the caveat:** don't over-apply the SPX good-news to the far tail. **The crash-ladder pays a real premium — rates VRP + deep-OTM skew — and Bondarenko quantifies the base rate (near-total monthly decay, break-even only on a ~annual '87-scale crash).** That is precisely the trade TT-02 says to make *anyway*: accept the steep average bleed to own the terminal-window convexity. **The research doesn't veto the ladder — it prices the tax, and the tax is real. No rule changed, no card armed, no position touched.**
+
+---
+
 ## Dating (INFERRED — neither transcript is dated)
 
 | Video | Inferred date | Evidence | Consequence |
@@ -199,4 +223,5 @@ tastytrade's own published SPY strangle table: **~90% win rate · average win +$
 6. **TT-04 — is there tastytrade research on management timing from a non-45-DTE entry?** Would test whether "21 DTE" is a real constant or a 45-DTE artifact.
 7. **Re-check TT-06 (0DTE liquidity ranking) before use** — self-described fast-moving; XSP explicitly flagged by the presenters as likely to change.
 8. **Rates VRP post-2012 — no direct break test found.** Leg-A verdict is a MEDIUM-confidence inference. A clean post-2012 structural-break study of Treasury/swaption VRP (the rates analog to Dew-Becker/Giglio) would upgrade or overturn it. Watch for one.
-9. **Deep-OTM put SKEW ≠ ATM variance.** Both VRP literatures I pulled measure ATM variance (variance swaps / swaptions). The crash-ladder and HBAN tail are **deep-OTM puts**; the skew premium is a distinct, less-settled question. Flagged so the "small single-name tax / full rates tax" reads aren't over-extended to the far tail.
+9. ✅ **RESOLVED 2026-07-17 → § OPEN ITEM #9.** Skew premium was real + monotonic in depth (Bondarenko: ATM −39%/mo → deep-OTM −95%/mo, 1987-2000). DBG's collapse **reaches to 5% OTM and into jump risk** (further than "ATM only"), **but the deep 8-13% strip — where both live tails sit — is untested and is where a residual premium most plausibly persists** (price-insensitive institutional hedging + pure-jump strikes that retail can't easily supply). Verdict: **crash-ladder pays rates VRP + deep skew (double tax); HBAN's deep strike + 7/23 print is where its small single-name premium concentrates.** Successor: #10.
+10. **No post-2012 deep-OTM (8-13%) put-return study found** — the depth extension of the DBG collapse is a genuine gap in the literature, not just in my search. If a deep-tail break test surfaces (Bollerslev/Todorov/Kelly-Jiang orbit), it would settle whether the crash-ladder's skew tax is full or partial. Watch for it.
