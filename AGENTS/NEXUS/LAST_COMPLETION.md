@@ -1,5 +1,9 @@
 # NEXUS LAST COMPLETION
-**Pass:** 2026-07-17 Fri — **UNITS 1 + 1b of a planned day session** (Will-direct spawn, side window): (1) day-absorption on the 7/16 anchor — CCLFX premise-kill 4-surface re-mark + full inbox drain + fleet-correction sweep (~1:50 PM); (1b) **full pin-hygiene brief-read loop (the owed 7/16 item) + an ARM-3 correction** (~2:55 PM). **Unit 2 (post-3:30 PM COT: split re-mark) PENDING at this write.**
+**Pass:** 2026-07-17 Fri — **FULL 3-UNIT catalyst-day session** (Will-direct spawn, side window): (1) day-absorption — CCLFX premise-kill 4-surface re-mark + inbox drain + fleet-correction sweep (~1:50 PM); (1b) pin-hygiene brief loop + ARM-3 correction + intra-day revival folds (~2:55-3:45 PM); (2) **post-COT SPLIT RE-MARK 22/37/41 → 26/33/41** (~4:25 PM).
+
+## Unit 2 (~4:25 PM): the split re-mark
+
+Triple grade consumed: **BRENT = SQUEEZE IGNITING-partial** (MM shorts −9,885 in-band off the raw CFTC file [Socrata lagged — fleet memory `finding_cftc_cot_raw_file_beats_socrata_lag`]; de-grossing-led, ICE sibling BUILT +8,531, ~92% fuel remains; Brent $87.7 = first-ever >$85 settle candidate, ×3 test s1, full fire earliest 7/21) · **SAM = JPY STALL** (−122,663/68.1%, two-sided flat; SAM-37 confirmed; FLAT stands, R6 unchanged) · **VIOLET = VIX-positioning DEEPENING** (KB-VIO-121). Plus a risk-off tape day. **Re-mark: Break 26 (↑4: oil spine deepened + falsifier decayed B 8→5% + fast-layer recognition started + Kharg gap live; capped by CCLFX-kill + intact absorption) / Grind 33 (↓4: clean-bull needs a ~5-10% de-escalation; covering supports price) / Unresolved 41 (modal — slow layers un-asked until 7/25-28→8/13).** T-13 RESOLVED (successor = the 7/21 4-rail tree); "no destruction YET" phrasing swap (buffers thin); 7/18-19 weekend docket row (Muscat/transits/Kharg-flow) + 7/21 4-rail row. Memo: `outbox/2026-07-17_to-PROME_unit2-split-remark-26-33-41.md`.
 
 ## Unit 1b (~2:00-2:55 PM): pin-hygiene loop + ARM-3 correction
 
