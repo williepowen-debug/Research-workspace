@@ -1,6 +1,25 @@
 # MIDAS — SCRATCH (next-session pickup)
 
-**⚠ STANDING INSTRUCTION — POLARITY DISCIPLINE (PROME round 3, Will-approved, 2026-07-12):** `metals_watch.py`'s M1 classifier flags **CONVERGE = REVIEW (rc=1)**, and that polarity is **FROZEN through MIDAS-03 (CPI 7/14) AND MIDAS-04 (China GDP ~7/16)**. **NO flip until BOTH resolve.** Only if M1 v2 survives both tests do you flip the script polarity (CONVERGE→quiet, DIVERGE→review trigger) and update the metals_watch header + verdict-block comments. This is written into the metals_watch.py header comment too. Do not flip early.
+**✅ POLARITY FLIPPED 2026-07-17 (was FROZEN):** both catalyst tests resolved this week and **M1 v2 SURVIVED** — MIDAS-03 (CPI 7/14) = HIT/v2-consistent, MIDAS-04 (China GDP 7/15) = NO-FIRE. Per the PROME-round-3/Will-approved conditional, `metals_watch.py`'s M1 classifier is now **INVERTED**: CONVERGE (gold re-coupled) = quiet (rc=0); **DIVERGE (gold rising THROUGH rising real yields = premium reassertion) = the REVIEW trigger (rc=1)**. Header + verdict-block + this banner updated; verified current CONVERGE state returns rc=0. Flagged to PROME (pre-authorized, not a new decision).
+
+---
+
+**2026-07-17 REVIEW-AND-GRADE SESSION (PROME-spawned).** Graded the two overdue polarity tests, flipped the polarity, staged the next one, wrote the two-channel week read.
+
+Live @ 7/17 ~12:55 ET (COMEX fut, yfinance): gold **$4,021.90**, silver **$56.26**, copper **$6.26**, Pt **$1,610.50**, Pd **$1,253.00**; GSR **71.46** (benign); DFII10 **2.32 [7/15]** (peak 2.36 [7/13]); LME Cu **300,600t [7/16]** (+24% vs 2yr-med, benign, falling −25% off peak); M1 divergence **CONVERGE** (yields +42bp, gold −12.6% 90d).
+
+**Grades (both quoted verbatim in the 7/17 memo + resolutions in PREDICTIONS.tsv):**
+- **MIDAS-03 = HIT** (CPI 7/14, v2-consistent): cool CPI (hdln −0.42% MoM, core 0.0%) but real yields REFUSED to fall (DFII10 2.36 [7/13] → 2.33 [7/14] → 2.32 [7/15]); gold +1.60% same-day 7/14 but FELL over the week (sub-$4k 7/16) = no premium reassertion. v2 was the REGISTERED frame (v0 falsified round-1). Branch caveat: both branches assumed yields-UP; actual −3bp DOWN → graded on the v2 mechanism. No BOND/LIQUID escalation. KB-021.
+- **MIDAS-04 = NO-FIRE** (China GDP 7/15): 4.3% YoY MISS (weakest since Q4-2022) but copper held (−0.5% 2-sess, needed −5%). Copper reads structural/AI-grid demand, not China cyclical weakness → reconciles PROME 7/16 seam w/ ZHAO. **DATE DRIFT FIXED: GDP was 7/15, not the registered ~7/16.** KB-022.
+
+**▶ PICK UP HERE:**
+1. **MIDAS-05 (China LPR ~7/20 → copper 2-session)** — STAGED, grades ~7/23. **VERIFY LPR date** vs pbc.gov.cn (convention = 20th; 7/20 Mon) + reconcile ZHAO's 7/21 (1-day fork). Anchored EXPLICITLY to the LPR event, not a bare calendar slot (date-drift guard). Current 1Y 3.0%/5Y 3.5%, held 13 mo; ZHAO ZHA-14 = cut ~35% prob.
+2. **WGC Q2 GDT (~late July)** = v2 kill-cond #2 (<100t) — calendar it. Excel 403-walled (L-09).
+3. **MIDAS-01 cushion thinning** — gold $4,021.90 only ~8.6% above the $3,702.33 falsify line (dipped $3,963 intraday 7/17). OPEN, DFII10 2.32 >2.0.
+4. **China Cu imports −41.3% YoY [BRENT 7/17]** — base-effect check owed (ZHAO's series; my 7/12 palladium lesson). Firm price + falling LME ⇒ likely destocking/base-effect, not collapse (provisional).
+5. **WPIC Pt-deficit** still PROV; **COT weekly-cadence** leg still owed.
+
+**Lane query:** RATIFIED w/ light amendment (added real-yield/TIPS + PGM-supply terms) — see the 7/17 memo to PROME.
 
 ---
 

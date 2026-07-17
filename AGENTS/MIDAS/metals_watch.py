@@ -32,12 +32,17 @@ CONJUNCTION (copper -20% AND inv +100%), and inventory is FALLING off the 4/15
 peak while price is UP, so it is NOT firing. Cross-check: westmetall LME cash
 $13,408.50/t [7/10] vs COMEX HG=F $6.28/lb=$13,845/t (~3% premium, consistent).
 
-POLARITY DISCIPLINE (standing instruction — PROME round 3, Will-approved):
-the M1 divergence classifier flags CONVERGE as REVIEW (rc=1). This polarity is
-FROZEN through the two M1 v2 catalyst tests — MIDAS-03 (CPI 7/14) and MIDAS-04
-(China GDP ~7/16). DO NOT flip it before both resolve. Only if M1 v2 survives
-BOTH does the polarity invert (CONVERGE -> quiet, DIVERGE -> the REVIEW
-trigger). See the verdict block + SCRATCH.md.
+POLARITY — FLIPPED 2026-07-17 (both catalyst tests resolved, M1 v2 SURVIVED):
+The polarity was FROZEN (CONVERGE=REVIEW) through the two M1 v2 catalyst tests.
+Both resolved this week and v2 survived: MIDAS-03 (CPI 7/14) — gold stayed
+re-coupled to real rates (yields near series-high 2.36 [7/13], gold capped/fell
+over the CPI week, no debasement-premium reassertion) = v2-consistent; MIDAS-04
+(China GDP 4.3% miss, NBS 7/15) — gold did NOT do a haven spike on the miss
+(GC=F -0.42% on 7/15), copper held (no I1 fire) = v2 not falsified. Per the
+Will-approved conditional, the polarity is now INVERTED: CONVERGE (gold
+re-coupled, moving inversely to real rates) = the EXPECTED/quiet baseline (rc=0);
+DIVERGE (gold holding/rising THROUGH rising real yields = premium reassertion,
+v2 kill-cond #3) = the REVIEW trigger (rc=1). See the verdict block + SCRATCH.md.
 
 OUT OF SCOPE (documented gaps, not silently dropped):
   - CFTC COT (gold/silver/copper net positioning) — weekly cadence (Fri
@@ -332,14 +337,14 @@ def main():
     if failures:
         print(f"  metals_watch.py: {len(failures)} leg(s) FAILED: {'; '.join(failures)}", file=sys.stderr)
         rc = 2
-    elif gsr_band in ("YELLOW", "ORANGE", "RED") or (divergence_state and divergence_state.startswith("CONVERGE")):
-        # POLARITY DISCIPLINE (standing instruction — PROME round 3, Will-approved,
-        # 2026-07-12): CONVERGE flags REVIEW and stays REVIEW-only THROUGH the two
-        # M1 v2 catalyst tests — MIDAS-03 (CPI 7/14) and MIDAS-04 (China GDP ~7/16).
-        # DO NOT flip the polarity this round. Only if M1 v2 SURVIVES BOTH tests do
-        # we flip: CONVERGE -> quiet (the expected re-coupled state) and DIVERGE
-        # (premium reassertion) -> the REVIEW trigger. Until then, CONVERGE = REVIEW
-        # keeps the operator eyeballing the divergence state each boot.
+    elif gsr_band in ("YELLOW", "ORANGE", "RED") or (divergence_state and divergence_state.startswith("DIVERGE")):
+        # POLARITY FLIPPED 2026-07-17 (both M1 v2 catalyst tests resolved, v2
+        # SURVIVED — MIDAS-03 CPI 7/14 + MIDAS-04 China-GDP 7/15; see header block
+        # + SCRATCH.md). CONVERGE (gold re-coupled, inverse to real rates) is now
+        # the EXPECTED/quiet baseline and no longer trips REVIEW. DIVERGE (gold
+        # holding/rising THROUGH rising real yields = debasement-premium
+        # reassertion, v2 kill-cond #3) is the alarm — REVIEW so the operator
+        # eyeballs it and considers escalating BOND/LIQUID.
         rc = 1
     return rc
 
