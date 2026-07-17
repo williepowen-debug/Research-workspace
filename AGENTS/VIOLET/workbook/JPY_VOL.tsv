@@ -1,0 +1,2 @@
+date	jpy_close	rv10	rv20	rv10_pctile	p90_watch	p95_fire	fxy_spot	fxy_expiry	atm_call_iv	iv_rv10	state	iv_leg_note	stamp_utc
+2026-07-16	162.07	4.97	4.09	17.9	13.97	15.21	56.45	2026-09-18	10.1	2.03	CALM	STALE quotes (off-RTH pull) — confirm intraday before acting on the IV leg	2026-07-17T01:37:52+00:00

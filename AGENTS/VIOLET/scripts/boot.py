@@ -34,6 +34,7 @@ BOOT_SEQUENCE = [
     ("Credit gate (FRED · KB-VIO-090/096)", "fred_fetch.py", ["--summary"], True),
     ("VIX options positioning",     "vix_options.py", [], False),
     ("CFTC COT VIX positioning",    "cftc_cot.py", ["--boot"], False),
+    ("JPY carry-vol canary (scope 7/11; built 7/16)", "jpy_vol.py", ["--boot"], True),
     ("Catalyst countdown",          "catalyst_countdown.py", [], False),
 ]
 
@@ -49,6 +50,7 @@ KEY_MARKERS = (
     "EXTREME_", "ELEVATED_",  # COT flag triggers
     "📊",  # DoD OI alert
     "CREDIT GATE", "VERDICT", "CCC", "Bin-A", "🟢",  # fred credit-gate summary (🟢 = block-lifted verdict)
+    "JPY VOL", "FXY confirm",  # jpy_vol carry canary (RV spine + IV leg)
     "⚠️",
     "✓ appended", "already has a row",
 )
