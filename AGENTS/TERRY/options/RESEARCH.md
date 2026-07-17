@@ -16,7 +16,7 @@
 
 ---
 
-> **UPDATE 2026-07-17 (both open threads explored, Will-directed).** **TT-08 (PDT) verified TRUE** and unblocked — gone since 2026-06-04, Robinhood day-1 → § TT-08 VERIFIED. **The long-premium challenge was confronted and did not survive contact with independent evidence** → § THE LONG-PREMIUM CHALLENGE. Headline: *"buying premium is negative-EV"* describes a **regime that ended around 2012**, and the Fed/Yale paper that shows this **also implies tastytrade's own 15-16yr sample straddles the break.** **But this does not vindicate the book** — alpha ≈ 0 means *fairly priced*, not *profitable*, and the evidence is **S&P-500-only** while Will's instruments are TLT and single-names (**open item #5 — now the live thread**).
+> **UPDATE 2026-07-17 (both open threads explored, Will-directed).** **TT-08 (PDT) verified TRUE** and unblocked — gone since 2026-06-04, Robinhood day-1 → § TT-08 VERIFIED. **The long-premium challenge was confronted and did not survive contact with independent evidence** → § THE LONG-PREMIUM CHALLENGE. Headline: *"buying premium is negative-EV"* describes a **regime that ended around 2012**, and the Fed/Yale paper that shows this **also implies tastytrade's own 15-16yr sample straddles the break.** **But this does not vindicate the book** — alpha ≈ 0 means *fairly priced*, not *profitable*, and the evidence is **S&P-500-only**. **UPDATE — open item #5 now resolved (§ OPEN ITEM #5):** Will's actual instruments **split** — the **TLT crash-ladder likely pays the FULL rates-vol tax** (the equity break does *not* transfer to rates), while the **HBAN single-name tail is structurally cheap** except around its own 7/23 print. The SPX good-news reaches neither live tail cleanly; **the ladder is the one that pays.**
 
 ## The one-paragraph verdict
 
@@ -136,6 +136,46 @@ tastytrade's own published SPY strangle table: **~90% win rate · average win +$
 
 ---
 
+---
+
+## § OPEN ITEM #5 RESOLVED — does the 2012 VRP collapse reach TLT and single-name banks?
+
+**Dug 2026-07-17 (Will-directed). Answer: NO for TLT, YES for single names — the two instruments split, and the split is the whole point.** The SPX "good news" from the last section **does NOT transfer to the crash-ladder**, but it **is corroborated for the HBAN tail by a second, independent mechanism.** This is the answer that actually governs the book, because both live tails are rates or single-name — neither is index.
+
+### Leg A — RATES (TLT crash-ladder): the premium tax most likely PERSISTS ⚠️
+
+**Evidence the rates VRP is real and large:**
+- **Mueller, Vedolin & Yen, "Bond Variance Risk Premia" (LSE FMG DP 699, Jan 2012), data 1983-2010**, options on **30Y / 10Y / 5Y** Treasury futures (covers TLT's long end). Shorting Treasury variance earns an **annualized Sharpe ≈ 2**; variance-swap shorts ~**+20%/month**; *"significantly negative and economically relevant,"* robust to transaction costs and margin. **Buying** bond vol protection was expensive — same sign as equities.
+- **Critical vintage limit: that sample ENDS in 2010** — *before* the equity paper's Aug-2012 break. On its own it proves the rates VRP existed pre-break; it says **nothing** about survival.
+
+**Evidence it PERSISTED past 2012 (unlike equities):**
+- **Swaption VRP, 2015-2020 window:** short-vol in the interest-rate market *"remains highly statistically significant even accounting for transaction costs and margin,"* with **predictive power for future bond returns.** So the rates premium is documented **live well after** the equity break.
+- **Recent tape (2026):** MOVE-implied has run **ahead of** realized — a 30-day realized/implied spread in the **~82nd percentile** on a 2-yr lookback during the March-2026 stress. Consistent with a **premium still being paid** for Treasury vol.
+- **Mechanism argument (why the equity break should NOT transfer):** Dew-Becker/Giglio attribute the SPX collapse to **retail gaining the ability to *sell* SPX options** + dealer gamma normalizing — a **retail-supply** story. The **Treasury options market is institution/dealer-dominated, not retail-driven**; that specific mechanism has no obvious analog in rates. **The thing that killed the equity premium is largely absent here.**
+
+**⇒ Verdict for the crash-ladder (TLT 77/76/75 puts): assume the full premium tax still applies.** The SPX good-news does not reach rates. **⚠️ This is an INFERENCE, graded MEDIUM** — built from a pre-break existence paper + post-break swaption persistence + a mechanism argument. **I did NOT find a direct post-2012 structural-break test for rates** (the clean analog to Dew-Becker/Giglio doesn't appear to exist yet). Two real limits that cut toward the ladder anyway: (1) the rates VRP is **most negative at short-dated / near-the-money** and the **sign can flip positive at long maturities/tenors** — the crash-ladder is **short-dated OTM**, i.e. the **expensive** end; (2) variance-swap/swaption VRP measures **ATM variance**, while deep-OTM **put skew** is a distinct animal not directly covered. **Net: the crash-ladder pays a real vol tax, and TT-02's convexity argument is the reason to pay it anyway — not evidence that it's cheap.**
+
+### Leg B — SINGLE-NAME (HBAN / bank tail): the tax is SMALL ✅ (independent corroboration)
+
+- **The variance risk premium lives at the INDEX level, not the single-stock level.** Single-name equity options are priced **close to fair value**; the premium is a **correlation risk premium** created by institutions **over-buying *index* puts** for portfolio hedging, which inflates *index* IV relative to component IV.
+- **Magnitude:** S&P 500 **implied correlation ~39.5% vs realized ~32.5%** (DJ30: 46.0% vs 35.5%); implied exceeds realized **~70% of trading days.** That gap **is** the premium — and **single names don't carry it.** (This is exactly what dispersion trades monetize: sell the overpriced index, buy the ~fair components.)
+- **Convergence, two ways:** this is a **different mechanism** from Dew-Becker/Giglio reaching the **same conclusion** for individual options — component/single-name options ≈ fairly priced. Independent corroboration (fleet: `shared_antecedent_independence_test` — genuinely independent, not circular).
+
+**⇒ Verdict for the HBAN Oct-16 16P tail: the single-name premium tax is small — the position is ~fairly priced structurally, so this is NOT where the money leaks.** ⚠️ **One real exception, and it's live for HBAN:** the "fairly priced" result is an **average over calendar time**; **single-name IV gets rich into an *earnings* catalyst**, and **HBAN Oct-16 spans the 7/23 BMO print.** Event-vol richness is a **local** premium the structural result doesn't cover — so the lottery ticket likely **did** pay some event-vol premium at entry. Consistent with Will's own "stress lottery ticket" framing; doesn't change the ride-it-out call, but names the one place the single-name tax actually bites.
+
+### The synthesis that matters
+| Instrument | Live tail | Structural vol tax | Basis |
+|---|---|---|---|
+| **SPX index options** | (not in book) | **~zero post-2012** | Dew-Becker/Giglio, direct break test |
+| **TLT / rates** | **crash-ladder 77/76/75** | **⚠️ likely FULL — persists** | pre-break existence + post-break swaption persistence + institution-dominated microstructure (MEDIUM-confidence inference) |
+| **Single-name banks** | **HBAN Oct-16 16P** | **✅ SMALL** — ~fairly priced | correlation-risk-premium literature + Dew-Becker convergence; **local exception: earnings-event vol (7/23)** |
+
+**The trap this kills:** it would have been easy to take the SPX good-news and quietly assume "buying puts is cheap now" across the book. **That is wrong exactly where it's most expensive** — the **crash-ladder is the one live tail that pays the full tax.** The correct read: **structure supplies no free edge in either name; the ladder additionally pays a real rates-vol premium (justified only by the convexity in TT-02), while the single-name tail is structurally cheap except around its own print.** As always: **the edge must come from the thesis, and TERRY does not arm on any of this** — it's construction context, not a signal.
+
+**No rule changed, no card armed, no position touched.**
+
+---
+
 ## Dating (INFERRED — neither transcript is dated)
 
 | Video | Inferred date | Evidence | Consequence |
@@ -155,6 +195,8 @@ tastytrade's own published SPY strangle table: **~90% win rate · average win +$
 
 **Still open:**
 4. **TT-09 / TT-08 residuals — broker policy unknowns (one Will/broker answer closes all four).** (a) Robinhood's **house maintenance requirements**, if any, beyond FINRA minimums; (b) what Robinhood's *"further restrictions"* for repeated **IMD** violations concretely are — tastytrade documents a **90-day short-position restriction**, Robinhood is vague; (c) **assignment handling** near expiry; (d) **auto-liquidation** policy. Durable once answered.
-5. **🔴 Does the post-2012 VRP collapse extend to TLT and single-name banks?** **The one that actually matters for this book** — the crash-ladder is TLT, the HBAN tail is single-name, and **Dew-Becker/Giglio is S&P-500-only with an explicitly index-specific mechanism** (SPX dealer gamma, retail SPX supply). If the break is index-only, Will's *actual* instruments may still carry the full premium tax and the good news above **does not reach them.** Needs separate evidence — rates VRP (TLT/MOVE) and single-name VRP literature.
+5. ✅ **RESOLVED 2026-07-17 → § OPEN ITEM #5.** The instruments **split**: **TLT rates tail likely pays the FULL vol tax** (rates VRP persisted past 2012; equity break doesn't transfer — MEDIUM-confidence inference), **single-name HBAN tail is structurally CHEAP** (~fairly priced; premium lives at the index level) **except around its own 7/23 earnings print.** Successor threads → #8, #9.
 6. **TT-04 — is there tastytrade research on management timing from a non-45-DTE entry?** Would test whether "21 DTE" is a real constant or a 45-DTE artifact.
 7. **Re-check TT-06 (0DTE liquidity ranking) before use** — self-described fast-moving; XSP explicitly flagged by the presenters as likely to change.
+8. **Rates VRP post-2012 — no direct break test found.** Leg-A verdict is a MEDIUM-confidence inference. A clean post-2012 structural-break study of Treasury/swaption VRP (the rates analog to Dew-Becker/Giglio) would upgrade or overturn it. Watch for one.
+9. **Deep-OTM put SKEW ≠ ATM variance.** Both VRP literatures I pulled measure ATM variance (variance swaps / swaptions). The crash-ladder and HBAN tail are **deep-OTM puts**; the skew premium is a distinct, less-settled question. Flagged so the "small single-name tax / full rates tax" reads aren't over-extended to the far tail.
