@@ -1,64 +1,65 @@
-# FALCON SCRATCH — 2026-07-12 PM (first live session + ROUND-2 continuation, same day)
+# FALCON SCRATCH — 2026-07-17 AM (Friday session: FAL-02 grade + the owed re-mark)
 
 **Purpose:** Ephemeral session handoff — the canonical "where are we / what next" file. Read at boot (SPAWN PROTOCOL step 2), rewritten in full at closeout (step 13). Persistent learnings live in `MEMORY.md`; the cross-agent twin is `NEXUS_BRIEF.md`.
 
 ---
 
 ## CURRENT MARKS (one line)
-- Scenario: **B 8% / C 34% / D 58% (BASE)** — unchanged this session (no re-derivation, marks re-verified not re-scored) · Convergence **~37/50 🔴** · Kinetic risk **🔴** · Brent ref ~$76 [defer price to BRENT; sustain test FAILED → DENY 7/10]
+- Scenario: **B 5% / C 30% / D 65% (BASE)** — **RE-MARKED this session** (was B8/C34/D58, 7/12) · Convergence **40/50 🔴 = NEW ALL-TIME HIGH** (prior peak 38, Jun 12) · Kinetic **🔴** · Brent **$86.59 live intraday** [7/17 09:55 ET, FALCON pull; BRENT owns] — **but ZERO settles >$85, high settle $84.95 (7/15)**
 
 ## CHANGES SINCE LAST SESSION
-- **This IS FALCON's first live session** — everything before this was DAEDALUS's build-time seed. Inheritance-verified clean: spot-checked STATUS marks, FAL-01 terms (vs HAW-16 in HAWK's frozen ledger — exact match), HAW-14 resolution (exact match) — no drift found.
-- **New since 7/10 (the priority-context anchor date):** a Kuwait Oil Company offshore drilling platform hit by drone 7/12 PM (material damage + 1 worker injured) — BORDERLINE FAL-01 instance, held OPEN not resolved, routed to BRENT/PROME. Qatar/Kuwait casualty detail filled in (3 injured Qatar incl. 1 child; Kuwait 3 border posts + the platform). IRGC claims Al Udeid command-center destroyed (UNVERIFIED, Qatar MOD says no casualties). IMO issued a formal avoidance advisory (~6,000 seafarers stranded). IRGC stopped a 2nd vessel (boarding, non-kinetic). CENTCOM/Trump publicly dispute Iran's Hormuz-closed claim.
-- **Unchanged (reconfirmed same vintage):** PortWatch transit count still 7/5 (34/88, 39%) — no fresher official print found, site unscrapable. War-risk hull premium ~5%, corroborated via a 2nd source (Star/Xinhua 7/11) — same leg as the 7/10 fire. P&I cover (JWLA-033) still standing since March, no new circular found. Baghdad watch re-run live: still QUIET.
+- **The world moved hard 7/12 → 7/17 and my marks were 5 days stale on a theater that stepped twice.** Net-new: **MOU FORMALLY REPUDIATED 7/13** (Baghaei; "no plans for negotiations" 7/15) · **six consecutive US strike nights 7/11-16** (CENTCOM verbatim, 7+ outlets) · **US naval blockade LIVE 7/14 20:00 UTC** · **first INLAND strikes 7/15** (~200km) · **first BRIDGES/rail/airport/comms 7/16** · hulls **4→8**, deaths **2→3** (GFS Galaxy engineer confirmed DEAD 7/14, was "missing") · **M/T Belma disabled 7/15-16** near Kharg (US enforcement, unladen shadow-tanker) · **oil decoupling BROKE** ($76 → mid-$80s) · **official transits collapsed to 10/88 = 11%** [7/12 print].
+- **Two of my OWN named flip-ups fired** — the re-mark was owed and is now DONE (SIG-W-20260716-002 discharged).
+- **FAL-02 RESOLVED = CONFIRMED** — FALCON's first closed row; `thesis/PREDICTIONS_ARCHIVE.md` created per protocol.
+- **FAL-01 UNFIRED and its base STRENGTHENED** — six nights, zero energy-infra hits. Sparing went **OBSERVED → DEMONSTRATED-UNDER-OPPORTUNITY**.
 
 ## WHAT I DID THIS SESSION
-- Ran boot checks live for the first time: `ledger_staleness.py` (clean, no alert), `baghdad_watch.py` (QUIET, rc 0).
-- Inheritance-verified FALCON's seeded content against HAWK's frozen record (STATUS, VX, PREDICTIONS) — clean, no drift.
-- **Built `domain/FRESH_LEG_BASELINE.md`** — the standing fresh-leg monitoring surface for BRENT/PROME's GATE-BRENT-SUSTAIN re-arm question (7 legs: war-risk, transits, P&I/JWC, liner reroute, kinetic step, production-hit/FAL-01, sanctions/FAL-02 — each with current state, exact vintage, source, fresh-print bar, check URL, cadence).
-- Fresh web pass on Iran-Gulf since 7/10 (task 3) — found the KOC platform hit (flagged, not resolved), Al Udeid claims, IMO advisory, casualty/damage detail, Hormuz open/closed declaratory dispute.
-- Registered **FAL-02** (Treasury Jul 17 sanctions wind-down resolver) — GAPS-lens catch, was previously prose-only.
-- Ran the DOMAIN_SWEEP_LENSES 4-lens module → `reports/2026-07-12_domain-sweep.md` (8 findings, TOP 3, 4 route-outs for PROME).
-- Wrote 9 new KB.tsv rows (KB-FALCON-001..009); updated VX-HAWK-GULFSTATE-01 and VX-HAWK-IRAN-02 with dated new entries; added 1 fresh STRIKES.tsv row (GI-20260712-KOCPLATFORM) + updated ANALYSIS_2026-07-12.md caveat.
-- Updated STATUS.md (header, convergence-matrix row, CONFIRMED/CLAIMED/UNVERIFIED table +6 rows, predictions table, BOTTOM LINE) — still under the 250-line cap (129 lines).
-- **ROUND-2 (PROME-tasked, same day): strike-ledger backfill EXECUTED** — 5→27 rows, Feb-28 war-start→Jul-12, anchored on the Bloomberg/IJ Apr-7 damage compilation + month-by-month mechanism sweeps. 7 rows carry explicit source-conflict flags; 6 rows carry DATE-UNRESOLVED marks (never invented dates). Headline finding (KB-FALCON-010, ANALYSIS §1): production-class assets WERE hit in Feb-Apr (Khurais/Manifa/South Pars/Ras Laffan/Ju'aymah) — "spared for the ENTIRE war" is cycle-scoped, not war-scoped; FAL-01 base-rate caveat logged (terms/window unchanged). Second find (KB-FALCON-011): VTTI Fujairah struck 5/4 — May was NOT quiet; HAW-15-class gap in the inherited record.
-- **ROUND-2: PortWatch probe SUCCEEDED** — `Daily_Chokepoints_Data` FeatureServer is public; built `scripts/hormuz_transit_watch.py` (rc 0/1/2, state JSON, smoke-tested), wired as boot step 5b-2 in CLAUDE.md. Fresh official series 7/1-7/5: 42/36/34/25/34 per day — transits RECOVERING pre-tanker-strikes; only sub-18 prints (6/22: 14, 6/23: 15) are historical, no fresh leg fires (KB-FALCON-012). Residual limit = ~5-8d publication lag, honestly documented.
-- **Did NOT** re-derive B/C/D scenario percentages — held at the inherited 7/12 AM marks; the KOC platform ambiguity is a flag, not (yet) a re-mark trigger.
+- **Graded FAL-02 = CONFIRMED**, mechanically, against OFAC primaries (browser-UA curl after WebFetch timed out twice — gov-site UA class). Caught the two near-miss GLs (**Y 7/10, Z 7/14**) that are designation-**companion** wind-downs, i.e. the *opposite* of relief — a keyword read fails FAL-02 falsely. Logged the honest calibration lesson: **65% was mis-calibrated LOW** (~80-85% deserved), not a good call.
+- **Executed the owed RE-MARK**: B8/C34/D58 → **B5/C30/D65**, convergence 37 → **40/50**, each delta tied to the named premise that moved it. Oil 3→4, Gulf prod/bypass 3→4 (bypass half), diplomacy 3→4 (registered flip fired, graded PARTIAL per WALTER's don't-over-fire warning).
+- **Made the $85 call** (WALTER left it to me): pulled live `BZ=F` settles → **ZERO settles >$85** (high $84.95, 7/15; 7/16 = $84.23). Mechanism fired, **threshold did not** → oil vector **4 not 5**. Flagged to BRENT that ">$85 held 3 settles" is **false**; ">$84" is true.
+- **Transit prints:** ran `hormuz_transit_watch.py` (rc 0). Newest print **7/12 = 10/88 (11%)**; **no new print today** (PortWatch hasn't published 7/13+; BRENT's 7/16 consumer run had advanced my state — verified benign). The 7/6-7/12 window is now RESOLVED on official data: **five consecutive sub-18 prints** → row-2 bar **FIRED**.
+- **Belma logged to KB (KB-FALCON-022), NOT STRIKES.tsv** — documented divergence: STRIKES' own scope label is facilities-only (vessels → KB); a row there would corrupt the facility base rate FAL-01 rests on.
+- **Advanced STRIKES swept-through 7/12 → 7/17 with ZERO new rows — the zero IS the finding** (confidence basis stated honestly in-header: rests on WALTER's verify + my FAL-01 negative, not an independent day-by-day sweep).
+- **Registered 3 FAL-01 false-fire traps** (power plants ≠ FAL-01 and Trump forward-dates them INSIDE the window; April-vintage Bandar Abbas refinery stories; export-terminal near-misses).
+- Wrote **12 KB rows** (KB-FALCON-013..024), updated **4 VX vectors** with dated entries, refreshed `FRESH_LEG_BASELINE.md` (leg 2 FIRED, leg 7 RETIRED), dispositioned **4 WALTER signals** `acted` in board_log, `git mv`'d all 7 inbox items to processed.
+- **Amended the lane query** (owner-wins) — the proven gap: the lane watches only `"Bab al-Mandab"` but **Reuters spells it "Bab el-Mandeb"**, so it would have MISSED my most important new conditional chain. Also added **`Kharg`** (the FAL-01 resolver — was missing entirely), the bypass terms, and my Iraq/PMF discriminator strings.
+- Wrote the BRENT inbox note (3:30 COT-grade-relevant) + the PROME session memo.
 
 ## NEXT SESSION (dated, future-verifiable)
-1. **KOC platform disposition** — check whether BRENT/PROME/Will render a verdict on the FAL-01-class question; if it resolves toward "counts," FAL-01 needs re-grading. Check by next boot.
-2. **4th US strike round / further kinetic** — did the war continue past 7/12 PM, or hold? First thing to check.
-3. **FAL-01 gate watch** (production-infra major-complex hit / vessel sunk) — window to **Jul 26**.
-4. **FAL-02 gate watch** (Treasury sanctions wind-down) — window to **Jul 17** (5 days out at registration — tightest clock FALCON is carrying).
-5. **Al Udeid damage claim** — check for independent US/Qatari confirmation or denial of IRGC's claimed command-center destruction.
-6. **Brent sustain (BRENT-owned)** — does Brent finally break and HOLD >$85 w/ ≥2 legs?
-7. **Oman two-route Hormuz proposal** — any dated framework readout?
-8. ~~Strike-ledger backfill~~ — **DONE round-2 (same day).** Residual: 6 DATE-UNRESOLVED rows + 3 conflict pairs (Ras Tanura restart, Ruwais date, Mina al-Ahmadi capacity) queued LOW-priority per-facility date-pinning.
-9. ~~PortWatch live-scrape~~ — **DONE round-2 (same day):** `scripts/hormuz_transit_watch.py`, boot step 5b-2. **Run it ~7/17-19** — that's when the first official prints COVERING the 7/6-7/12 window land. Grade on prints only; do NOT infer transit levels for the un-published gap.
-10. **FAL-01 re-registration = RE-DERIVE CONFIDENCE FROM SCRATCH (do NOT inherit the 70%).** ⚠️ Hard rule for after the Jul-26 window closes: the current 70% rested partly on the now-weakened "war-long production-sparing" base rate. Any re-registration must build a fresh confidence number from the CURRENT-cycle record (post-MOU restraint + Oman channel + whatever the KOC-platform call resolves to), NOT carry the 70% forward unexamined. Mid-window terms stay frozen (pre-registration discipline); this applies only at re-registration. (KB-FALCON-010; PROME round-3 directive.)
+1. **PortWatch 7/13-7/15 prints** — should land **Sat 7/18 / Sun 7/19**. Pre-committed framing: **<10/day = deepening confirms** · **>~18/day = closure leaking, bypass absorbing** · **flat 7-14 = closure bites monitored transits while the bypass carries barrels (most likely; the case my caveat is built for)**. Grade on prints only; never infer the unpublished gap.
+2. **FAL-01 window closes Jul 26** — 9 days. **Do NOT let a power-plant campaign falsely fire it** (Trump forward-dated the grid campaign to "next week" = 7/20-26, INSIDE the window). **Watch KHARG specifically** — that's the real tail, and US blockade assets are now adjacent to it (Belma interdicted en route).
+3. **FAL-01 RE-REGISTRATION RULE (unchanged, still binding):** at/after Jul 26, **RE-DERIVE confidence from scratch — do NOT carry the 70% forward.** The 70% partly rested on the now-dead "war-long sparing" base rate (KB-FALCON-010). *Directional note from this session: the current-cycle record argues ABOVE 70% — but derive it, don't inherit it.*
+4. **⚠️ Baghdad watch may be DEGRADED, not quiet** — script itself flags "newest embassy alert 34d old; Quiet OR drawdown artifact (embassy on ordered departure); verify channel is live." **A 34-day silence during the war's most intense phase is not obviously quiet.** My CONFIRM-D discriminator #5 may be measuring the channel, not the theater. **Find a second sourcing route or downgrade the tell's weight.** Do not keep reporting "QUIET" as if it were evidence.
+5. **WSJ shuttle-fleet reconcile — OWED.** Are WSJ's ~7/13 "3 crude supertankers" the same as the anchor's 7/14 trio (Stolt Magnesium is CHEMICAL not crude; dates differ)? If same, **4→8 hulls double-counts**. I did not bank the count. Resolve with BRENT.
+6. **Bab el-Mandeb conditional** — US grid strike → Iran's standing Houthi request executes. **Neither half fired.** The one chain that opens a SECOND strait while the first is closed; its trigger is exactly what Trump dated to 7/20-26.
+7. **Shuttle-trade breakage = the premium→supply-loss transmission tell.** Currently attacked but not visibly stopped. **Magnitude does not exist** — no shuttle-specific volume series anywhere (no Kpler/Vortexa/TankerTrackers). Finding one would be high-value.
+8. **HANS Hormuz-duration mining — QUEUED, not done** (`AGENTS/HANS/domain/sources/HORMUZ_DURATION_MODEL_MAR10.md` + offramp map + LNG impact). March-cycle vintage → prior-episode **base rates/framework**, NOT current parameters. Mine for resolver-worthy thresholds on the CURRENT closure (transit-recovery pace, insurance-normalization sequence, off-ramp preconditions).
+9. **Baseline ambiguity (88 vs 97 vs ~140/day)** — the ~140 provenance is unidentified and will bite the fleet (11% vs 7% on the same print is a pure denominator artifact). Not mine to chase, but flag it until someone pins it.
+10. **Brent settle watch** — if 7/17 settled >$85, that's **session 1 of 3**; earliest >$85-hold fire = **Tue 7/21**. Check the settle, don't assume from the intraday.
 
 ## OPEN THREADS / WATCHES
-- 🔴 KOC platform / FAL-01-class ambiguity — the single highest-leverage open call right now
-- 🔴 4th US strike round / further kinetic
-- 🔴 FAL-01 hard-gate (major-complex hit / vessel sunk) — Jul 26
-- 🔴 FAL-02 (Treasury wind-down) — Jul 17, tightest clock
-- 🟠 Oman two-route Hormuz mediation
-- 🟠 Iraq/PMF backlash (Baghdad watch automated, QUIET as of 7/12 PM live run)
-- 🟢 Strike-ledger backfill — CLOSED round-2 (27 rows; residual date-pinning LOW-priority)
-- 🟠 PortWatch ~7/17-19 print check — first official read on the 7/12 closure's transit impact (scripted, boot 5b-2)
-- 🟡 Mojtaba public reappearance
-- 🟡 Al Udeid damage-claim independent verification
+- 🔴 **FAL-01** (Jul 26) — unfired, base strengthened; 3 false-fire traps registered; **Kharg is the tail**
+- 🔴 **Trump's forward-dated power-plant/bridge campaign, "next week" = 7/20-26** — inside FAL-01's window, does NOT fire it
+- 🔴 PortWatch 7/13-15 prints (Sat/Sun) — decides re-arm framing
+- 🟠 Bab el-Mandeb conditional chain (Reuters, 3 sources; neither half executed)
+- 🟠 Shuttle/STS bypass integrity — the premium→supply-loss tell
+- 🟠 **Baghdad watch DEGRADED?** 34d feed silence, possible drawdown artifact
+- 🟠 WSJ hull-count reconcile / double-count risk
+- 🟡 Oman two-route mediation (any dated readout?)
+- 🟡 Mojtaba public reappearance / Al Udeid damage-claim verification
+- 🟢 **FAL-02 — CLOSED CONFIRMED 7/17.** Sanctions leg 7 retired from FRESH_LEG_BASELINE.
 
 ## PREDICTIONS DUE / DECISIONS PENDING
-- FAL-01 (Jul 26) — production-infra/vessel-sunk gate, now carrying an active borderline-instance flag.
-- FAL-02 (Jul 17) — sanctions wind-down resolver, new this session.
-- No Will-decision pending (FALCON holds no trade book); KOC platform disposition is a BRENT/PROME judgment ask, not a Will-approval ask.
+- **FAL-01 (Jul 26)** — the only OPEN row. 70% frozen; re-derive at re-registration.
+- **FAL-02 — RESOLVED CONFIRMED 7/17.** Scoreboard now **1C / 0F / 0P / 0V / 1 OPEN**.
+- No Will-decision pending (FALCON holds no trade book).
 
 ## MAIL STATE (one line per surface)
-- Inbox (root): clear, checked — no items
-- WALTER lane: clear, checked — no items
-- BOARD scan: checked `/BOARD/INDEX.md` for FALCON-named rows — none found (expected, brand-new agent)
-- Outbox: clear — no outbox file written this session (route-outs live in `reports/2026-07-12_domain-sweep.md` for PROME to deliver per this session's spawn-packet instruction, not written as separate outbox files)
+- Inbox (root): **CLEARED** — 3 PROME routing items consumed → `inbox/processed/`
+- WALTER lane: **CLEARED** — 4 signals (SIG-W-20260716-002, -20260717-004/-013/-018) all dispositioned `acted` → `inbox/WALTER/processed/`
+- BOARD scan: FALCON-named rows arrived via the WALTER lane this cycle; board_log has 4 new rows
+- Outbox: **1 written** → `2026-07-17_to-PROME_fal02-confirmed-remark-b5-c30-d65-transit-fired.md`
+- Cross-agent: **1 BRENT inbox note** written (untracked per CLAUDE.md — flagged to PROME, not committed by me)
 
 ## PENDING PUSH / GIT (if any)
-- This session's commits are FALCON's own first live-session commits (pathspec `AGENTS/FALCON/`) — auto-push-at-closeout regime starts now per CLAUDE.md's build-phase note. PROME sweeps at its own closeout; not pushing directly.
+- Session committed pathspec `AGENTS/FALCON/` + auto-push via `scripts/safe-push.sh` at closeout. The BRENT inbox note is deliberately **left untracked** (FALCON-specific rule: signals delivered into another agent's inbox stay untracked; flag, don't commit).
