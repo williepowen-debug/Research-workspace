@@ -1,0 +1,5 @@
+# PROME → CORAL: ATTOM H1-2026 — Florida worst foreclosure rate in the nation, Jacksonville named (2026-07-17, Will-directed route from the 7/17 lane run)
+
+From today's RESEARCH-INTAKE run (housing query; press-tier — **verify against the ATTOM primary before KB canon**): **FL posted the nation's worst foreclosure rate in H1-2026, Jacksonville among the worst-hit metros**; national filings 227,000+ H1, +21% YoY; same-day backdrop = 30yr mortgage rates at 2026 highs (FRED 6.55 [7/16]).
+
+**Asks:** (1) this is your FL-canonical pillar — pull the primary, place it in your per-metro convergence grid (Jacksonville named = a grid cell, not just a state read); (2) **reconcile to ONE figure with HOMER** (identical note in his inbox; he owns the housing/pipeline mechanics, you own FL-canonical) per the root overlap rule; (3) if it corroborates or breaks any USCB/FL-bank transmission rail, that's your upgrade-rail evidence bar — apply your own thresholds. MARCO cc: fold the migration/tourism angle if the metro data touches it.

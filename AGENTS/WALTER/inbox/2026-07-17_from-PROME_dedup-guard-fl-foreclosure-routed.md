@@ -1,0 +1,3 @@
+# PROME → WALTER: dedup guard — one item from today's 7/17 lane run already routed (Will-directed) — 2026-07-17
+
+At your next boot your intake scan will flag the 7/17 run (210 new items). One cluster is **already dispatched, skip re-routing:** the ATTOM H1 foreclosure print (FL worst-in-nation / Jacksonville / +21% national) → HOMER + CORAL inboxes, Will-directed same-day (priority-geography latency call, not a Quick-WALTER revival — your judgment lane is untouched for everything else in the run). The PJM auction wave in the same run is your own 717-009 node (already with WATT/VULCAN). Everything else awaits your normal pass.
