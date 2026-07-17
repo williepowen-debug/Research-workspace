@@ -2,51 +2,67 @@
 """
 ORACLE — Disruption-vs-Supply Spread (Iran/Hormuz axis)
 
-Formula (per OPEN_THREADS_2026-07-09.md #3 "Threads to Pull" — ORACLE's own
-proposed standing build):
+    spread_pp = P(Hormuz transit disruption persists)  -  P(WTI hits $100, war premium)
 
-    spread_pp = P(US blockade on Iran, top/farthest leg)  -  P(WTI hits $100, current month, war premium)
+WHAT IT MEASURES
+The crowd is pricing two DIFFERENT things on the Iran/Hormuz axis, and the gap
+between them is the signal:
+  - DISRUPTION  — "ships can't move normally"  (transit harassment, re-routing,
+    convoying). Reversible. Prices a RISK PREMIUM.
+  - SUPPLY LOSS — "barrels stop existing"      (production/refining/export
+    infrastructure destroyed or a true chokepoint closure). NOT reversible on
+    the same timescale.
 
-Rationale: ~8 tracked markets on the Iran/Hormuz axis (Hormuz-normal,
-ships-transit ladder, 0-ships closure, US blockade) are all repricing the
-7/7-7/8 truce collapse as a SHIPPING/TRANSIT disruption. Meanwhile the oil
-supply-shock proxy (WTI $100, "war premium") has stayed near-dead. The gap
-between "crowd prices disruption" and "crowd prices supply loss" is exactly
-the fleet's own two-root framing (transit/diesel-export disruption vs
-barrels-lost) collapsed into one number. A widening spread = disruption
-repricing without supply fear (current regime, 2026-07-09: ~45pp). A
-COLLAPSING spread = either the blockade cools OR oil supply catches up —
-either is HAWK/BRENT's regime-flip tripwire (see OPEN_THREADS #3).
+A WIDE spread = disruption is repriced but supply fear is absent → the move is
+premium, not shortage (regime as of 2026-07-17, ~40pp). A COLLAPSING spread =
+supply fear is catching up to disruption → the regime is flipping from "price
+story" to "supply story". That flip is HAWK/BRENT/FALCON's tripwire. Note the
+spread can also collapse benignly (disruption easing) — always read WHICH leg
+moved, which is why both legs are logged, never just the spread.
 
-Inputs (both pulled from workbook/ODDS_LOG.tsv, the Polymarket machine time
-series written by scripts/polymarket.py pull --log):
-  - blockade leg: most recent row whose slug starts with
-    "us-announces-blockade-on-iran" (family-prefix match survives slug
-    rollover across resolution windows)
-  - WTI $100 leg: most recent row whose slug starts with "will-wti-reach-100-in-"
-    AND label contains "war premium" (this auto-rolls month to month — Jun
-    market ages out once a fresher Jul/Aug pull exists)
+  v2 REBUILD 2026-07-17 — the v1 disruption leg (P(US blockade on Iran)) RESOLVED
+  YES: the US announced a blockade 7/13, in effect 7/14 16:00 ET. A resolved leg
+  is pinned at 100% forever, so v1 measured a constant minus a variable and
+  crashed on the drained-liquidity null. v1 rows are retained under
+  regime='v1-blockade' and are NOT comparable to v2 rows (different disruption
+  leg) — do not chart them as one continuous series.
 
-Both legs are required to come from the SAME calendar day's pull (same date
-prefix on ts) unless --allow-stale is passed, otherwise the script warns
-and marks the reading STALE-PAIRED rather than silently mixing two different
-pull sessions.
+  LEG CHOICE (v2) — why NOT the 0-ships closure proxy:
+  A full Hormuz closure means barrels genuinely stop. That is a SUPPLY event, so
+  putting it on the disruption side would invert the thing this tool exists to
+  measure. It is logged as a CONTEXT column (closure_prob) instead: it is the
+  bridge between the two regimes and the cleanest single escalation tell, but it
+  is not the disruption leg.
 
-Output: prints the spread and appends one row to
-workbook/DISRUPTION_SUPPLY_SPREAD.tsv (ts, blockade_prob, blockade_liq,
-wti100_slug, wti100_prob, wti100_liq, spread_pp, note).
+INPUTS (from workbook/ODDS_LOG.tsv, written by scripts/polymarket.py pull --log)
+  - disruption leg: "Hormuz traffic normal by Dec 31", INVERTED (1 - P(normal)).
+    Deepest market on the axis (~$5.3M vol / ~$258K liq, 2026-07-17) and dated
+    Dec-31 so it does not roll mid-regime. Inverted so the leg reads in the
+    "more disruption = higher number" direction, same sign as the supply leg.
+  - supply leg: WTI $100 war premium, current month.
+    !! MONTH-ROLL (owed action): the WTI leg is month-stamped and auto-rolls by
+    family prefix ONLY once a fresher month's market is pinned in watchlist.tsv
+    and pulled. When the front month turns over, RE-PIN the new month's WTI $100
+    market or this leg silently ages out. Guarded below: a supply leg staler than
+    --max-leg-age-days (default 3) vs the disruption leg is a hard exit.
+  - context: 0-ships Hormuz closure proxy (not part of the arithmetic).
 
-Update cadence: run once per ORACLE session after `polymarket.py pull --log`
-(same cadence as the rest of the closeout write-back). Stdlib only.
+Both legs must come from the SAME calendar day's pull unless --allow-stale;
+otherwise the reading is marked STALE-PAIRED. Resolved/illiquid legs hard-exit
+rather than silently logging a garbage spread (a resolved leg is the exact
+failure that killed v1).
+
+Output: appends one row to workbook/DISRUPTION_SUPPLY_SPREAD.tsv.
+Cadence: run once per ORACLE session, after `polymarket.py pull --log`.
+Stdlib only.
 
 Usage:
-  python3 tools/disruption_supply_spread.py            # compute + log
+  python3 tools/disruption_supply_spread.py             # compute + log
   python3 tools/disruption_supply_spread.py --dry-run   # compute, don't write
   python3 tools/disruption_supply_spread.py --allow-stale
 """
 import argparse
 import csv
-import datetime
 import os
 
 HERE = os.path.dirname(os.path.abspath(__file__))
@@ -54,72 +70,137 @@ ORACLE_DIR = os.path.dirname(HERE)
 ODDS_LOG = os.path.join(ORACLE_DIR, "workbook", "ODDS_LOG.tsv")
 OUT_LOG = os.path.join(ORACLE_DIR, "workbook", "DISRUPTION_SUPPLY_SPREAD.tsv")
 
-BLOCKADE_PREFIX = "us-announces-blockade-on-iran"
-WTI100_PREFIX = "will-wti-reach-100-in-"
-WTI100_LABEL_MUST_CONTAIN = "war premium"
+# Family prefixes — survive slug rollover across resolution windows.
+DISRUPTION_PREFIX = "strait-of-hormuz-traffic-returns-to-normal-by-december"
+SUPPLY_PREFIX = "will-wti-reach-100-in-"
+SUPPLY_LABEL_MUST_CONTAIN = "war premium"
+CLOSURE_PREFIX = "0-ships-transit-hormuz"
 
-OUT_HEADER = ["ts", "blockade_slug", "blockade_prob", "blockade_liq",
-              "wti100_slug", "wti100_prob", "wti100_liq", "spread_pp", "note"]
+# A leg at/above this is settling or settled — its price is no longer a forecast.
+RESOLVED_PROB = 0.99
+# Below this, a single small bet moves the print; ORACLE's standing thin-liq bar.
+THIN_LIQ = 5000.0
+
+REGIME = "v2-hormuz-normal-inverted"
+
+OUT_HEADER = ["ts", "regime",
+              "disruption_slug", "disruption_label", "disruption_prob", "disruption_liq",
+              "supply_slug", "supply_prob", "supply_liq",
+              "closure_prob", "spread_pp", "note"]
+
+
+def _f(val):
+    """ODDS_LOG writes a literal 'None' for drained/absent liquidity."""
+    if val is None or val in ("", "None"):
+        return None
+    try:
+        return float(val)
+    except ValueError:
+        return None
+
+
+def _fmt_liq(val):
+    f = _f(val)
+    return "n/a (drained)" if f is None else f"${f:,.0f}"
 
 
 def _latest_matching(rows, slug_pred, label_pred=None):
-    """Latest row (by ts string, which sorts lexically = chronologically for
-    the ISO 8601 Z-suffixed timestamps this fetcher writes) matching slug_pred
-    (and label_pred if given)."""
+    """Latest row by ts (ISO-8601 Z sorts lexically = chronologically)."""
     matches = [r for r in rows if slug_pred(r["slug"])
                and (label_pred is None or label_pred(r["label"]))]
-    if not matches:
-        return None
-    return max(matches, key=lambda r: r["ts"])
+    return max(matches, key=lambda r: r["ts"]) if matches else None
 
 
-def load_odds_log():
-    if not os.path.exists(ODDS_LOG):
-        raise SystemExit(f"no ODDS_LOG at {ODDS_LOG} — run polymarket.py pull --log first")
-    with open(ODDS_LOG, newline="") as f:
-        return list(csv.DictReader(f, delimiter="\t"))
+def _check_leg_live(row, name):
+    """A resolved or liquidity-drained leg is not a forecast. Fail loud — this is
+    exactly how v1 died (blockade leg resolved, spread became meaningless)."""
+    prob = _f(row["yes_prob"])
+    if prob is None:
+        raise SystemExit(f"{name} leg has unreadable yes_prob={row['yes_prob']!r} (slug={row['slug']})")
+    liq = _f(row["liquidity"])
+    if prob >= RESOLVED_PROB or liq is None:
+        raise SystemExit(
+            f"{name} leg looks RESOLVED/settled — prob={prob:.3f}, liq={_fmt_liq(row['liquidity'])}, "
+            f"slug={row['slug']}\n"
+            f"  A resolved leg is pinned forever and makes the spread meaningless.\n"
+            f"  Re-pin a live market in watchlist.tsv and bump the prefix in this script "
+            f"(and bump REGIME so the old rows stay non-comparable)."
+        )
+    return prob, liq
 
 
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--dry-run", action="store_true", help="compute + print only, don't write")
     ap.add_argument("--allow-stale", action="store_true",
-                     help="allow blockade/WTI legs from different pull days")
+                    help="allow disruption/supply legs from different pull days")
+    ap.add_argument("--max-leg-age-days", type=int, default=3,
+                    help="hard-exit if the supply leg is older than this vs the disruption leg "
+                         "(catches a silently un-rolled WTI month)")
     args = ap.parse_args()
 
-    rows = load_odds_log()
+    if not os.path.exists(ODDS_LOG):
+        raise SystemExit(f"no ODDS_LOG at {ODDS_LOG} — run polymarket.py pull --log first")
+    with open(ODDS_LOG, newline="") as f:
+        rows = list(csv.DictReader(f, delimiter="\t"))
 
-    blockade = _latest_matching(rows, lambda s: s.startswith(BLOCKADE_PREFIX))
-    wti100 = _latest_matching(
+    disruption = _latest_matching(rows, lambda s: s.startswith(DISRUPTION_PREFIX))
+    supply = _latest_matching(
         rows,
-        lambda s: s.startswith(WTI100_PREFIX),
-        lambda label: WTI100_LABEL_MUST_CONTAIN in label.lower(),
+        lambda s: s.startswith(SUPPLY_PREFIX),
+        lambda label: SUPPLY_LABEL_MUST_CONTAIN in label.lower(),
     )
+    closure = _latest_matching(rows, lambda s: s.startswith(CLOSURE_PREFIX))
 
-    if blockade is None:
-        raise SystemExit(f"no ODDS_LOG row found for blockade slug prefix '{BLOCKADE_PREFIX}' — check watchlist/pin")
-    if wti100 is None:
-        raise SystemExit(f"no ODDS_LOG row found for WTI $100 war-premium market — check watchlist/pin")
+    if disruption is None:
+        raise SystemExit(f"no ODDS_LOG row for disruption prefix '{DISRUPTION_PREFIX}' — check watchlist/pin")
+    if supply is None:
+        raise SystemExit(f"no ODDS_LOG row for WTI $100 war-premium market — check watchlist/pin "
+                         f"(month-roll? see MONTH-ROLL note in this file's docstring)")
 
-    blockade_day = blockade["ts"][:10]
-    wti100_day = wti100["ts"][:10]
-    note = ""
-    if blockade_day != wti100_day and not args.allow_stale:
-        note = f"STALE-PAIRED: blockade pull {blockade['ts']} vs WTI100 pull {wti100['ts']} — different days, re-pull both before trusting this reading"
-        print(f"WARNING: {note}")
+    normal_prob, disruption_liq = _check_leg_live(disruption, "disruption (Hormuz-normal)")
+    supply_prob_raw, supply_liq = _check_leg_live(supply, "supply (WTI $100)")
 
-    blockade_prob = float(blockade["yes_prob"]) * 100
-    wti100_prob = float(wti100["yes_prob"]) * 100
-    spread_pp = blockade_prob - wti100_prob
+    # INVERT: the market asks P(traffic NORMAL); we want P(disruption persists).
+    disruption_prob = (1.0 - normal_prob) * 100
+    supply_prob = supply_prob_raw * 100
+    spread_pp = disruption_prob - supply_prob
 
-    ts_now = max(blockade["ts"], wti100["ts"])
+    closure_prob = (_f(closure["yes_prob"]) * 100) if closure else None
 
-    print(f"Disruption-vs-Supply spread — {ts_now}")
-    print(f"  Disruption leg: US blockade on Iran (top leg)  {blockade_prob:.1f}%  "
-          f"(liq ${float(blockade['liquidity']):,.0f}, slug={blockade['slug']}, pulled {blockade['ts']})")
-    print(f"  Supply leg:     WTI hits $100 war-premium      {wti100_prob:.1f}%  "
-          f"(liq ${float(wti100['liquidity']):,.0f}, slug={wti100['slug']}, pulled {wti100['ts']})")
-    print(f"  Spread = {blockade_prob:.1f} - {wti100_prob:.1f} = {spread_pp:+.1f}pp")
+    notes = []
+    d_day, s_day = disruption["ts"][:10], supply["ts"][:10]
+    if d_day != s_day:
+        delta_days = abs((_date(d_day) - _date(s_day)).days)
+        msg = (f"STALE-PAIRED: disruption pull {disruption['ts']} vs supply pull {supply['ts']} "
+               f"({delta_days}d apart) — re-pull both before trusting this reading")
+        if delta_days > args.max_leg_age_days and not args.allow_stale:
+            raise SystemExit(
+                f"{msg}\n  Legs are >{args.max_leg_age_days}d apart — likely an un-rolled WTI month. "
+                f"Re-pin the current-month WTI $100 market, or pass --allow-stale to override.")
+        if not args.allow_stale:
+            notes.append(msg)
+            print(f"WARNING: {msg}")
+    for row, nm in ((disruption, "disruption"), (supply, "supply")):
+        liq = _f(row["liquidity"])
+        if liq is not None and liq < THIN_LIQ:
+            n = f"THIN: {nm} leg liq ${liq:,.0f} < ${THIN_LIQ:,.0f} — do not mark on one print (≥3-day re-check)"
+            notes.append(n)
+            print(f"WARNING: {n}")
+    note = " | ".join(notes)
+
+    ts_now = max(disruption["ts"], supply["ts"])
+
+    print(f"Disruption-vs-Supply spread — {ts_now}  [{REGIME}]")
+    print(f"  Disruption leg: Hormuz transit disruption persists  {disruption_prob:5.1f}%   "
+          f"(= 100 - {normal_prob * 100:.1f}% normal-by-Dec31; liq {_fmt_liq(disruption['liquidity'])})")
+    print(f"  Supply leg:     WTI $100 war premium                {supply_prob:5.1f}%   "
+          f"(liq {_fmt_liq(supply['liquidity'])}, slug={supply['slug']})")
+    print(f"  Spread = {disruption_prob:.1f} - {supply_prob:.1f} = {spread_pp:+.1f}pp")
+    if closure_prob is not None:
+        print(f"  [context] Hormuz 0-ships closure tail: {closure_prob:.1f}%  "
+              f"(bridge between regimes — NOT in the arithmetic)")
+    print(f"  Read: WIDE = premium not shortage · COLLAPSING = supply fear catching up (check WHICH leg moved)")
     if note:
         print(f"  NOTE: {note}")
 
@@ -131,10 +212,18 @@ def main():
         w = csv.writer(f, delimiter="\t")
         if write_header:
             w.writerow(OUT_HEADER)
-        w.writerow([ts_now, blockade["slug"], f"{blockade_prob:.2f}", blockade["liquidity"],
-                    wti100["slug"], f"{wti100_prob:.2f}", wti100["liquidity"],
+        w.writerow([ts_now, REGIME,
+                    disruption["slug"], "Hormuz transit disruption persists (1 - normal-by-Dec31)",
+                    f"{disruption_prob:.2f}", disruption["liquidity"],
+                    supply["slug"], f"{supply_prob:.2f}", supply["liquidity"],
+                    f"{closure_prob:.2f}" if closure_prob is not None else "",
                     f"{spread_pp:.2f}", note])
     print(f"  logged -> {os.path.relpath(OUT_LOG, ORACLE_DIR)}")
+
+
+def _date(s):
+    import datetime
+    return datetime.date.fromisoformat(s)
 
 
 if __name__ == "__main__":

@@ -227,6 +227,13 @@ Mirror of boot — write back what you read:
 
 **Frequency:** Every spawn, `pull --log` all watchlist markets (both `polymarket.py` and `kalshi.py`). Run `polymarket.py movers` as the discovery sweep for new/news-reactive markets the watchlist misses (dedicated sessions, or whenever Will asks "what's moving").
 
+**Derived series — `tools/disruption_supply_spread.py` (run EVERY session, right after `polymarket.py pull --log`):**
+`(cd "$(git rev-parse --show-toplevel)/AGENTS/ORACLE" && python3 tools/disruption_supply_spread.py)` → appends to `workbook/DISRUPTION_SUPPLY_SPREAD.tsv`.
+Computes **P(Hormuz transit disruption persists) − P(WTI $100 war premium)** — the crowd's own split between *disruption* (ships can't move; reversible; a RISK PREMIUM) and *supply loss* (barrels stop existing; not reversible). **WIDE spread = premium, not shortage** (2026-07-17: **+40.5pp**). **COLLAPSING spread = the regime is flipping from a price story to a supply story → HAWK/BRENT/FALCON tripwire** — but always read *which leg moved*, since the spread also collapses benignly if disruption merely eases.
+- **⚠️ WTI MONTH-ROLL (owed action, no auto-fix):** the supply leg is month-stamped (`will-wti-reach-100-in-<month>-2026`). It auto-rolls by family prefix **only once the new month's market is pinned in `watchlist.tsv` and pulled.** When the front month turns over, **re-pin it** or the leg silently ages out. The script hard-exits if the legs drift >3 days apart, so the failure is loud — but the re-pin is manual.
+- **⚠️ Leg-resolution is the known killer:** v1 used P(US blockade on Iran) as the disruption leg; it **resolved YES 7/13-7/14** and the series died (a resolved leg is pinned at 100% forever). The script now hard-exits on a resolved/liquidity-drained leg rather than logging garbage. **If that fires: re-pin a live market, bump the prefix AND bump `REGIME`** so old rows stay non-comparable. Never chart across regimes.
+- **Do NOT use the 0-ships closure proxy as the disruption leg** — a full closure means barrels genuinely stop, so it is a *supply* event; it is logged as a **context column** only.
+
 **Historical tracking:** `ODDS_LOG.tsv` is the machine time series (one row per market per pull). `KB.tsv` is the 13-col knowledge base for derived claims/divergences.
 
 ---
@@ -255,6 +262,8 @@ Process when spawned. Integrate probability-relevant data.
 | File | Purpose |
 |------|---------|
 | `scripts/polymarket.py` | The Polymarket fetcher — search / market / event / pull (see DATA COLLECTION METHOD) |
+| `tools/disruption_supply_spread.py` | **Run every session after `pull --log`** — disruption-vs-supply spread (see DATA COLLECTION METHOD → Derived series; carries the WTI month-roll + leg-resolution warnings) |
+| `workbook/DISRUPTION_SUPPLY_SPREAD.tsv` | Derived series: disruption-minus-supply spread, one row per session. `regime` column gates comparability — **never chart across regimes** |
 | `scripts/kalshi.py` | The Kalshi fetcher — status / search / market / event / series / pull (RSA-PSS signed, read-only) |
 | `watchlist.tsv` | Polymarket markets pulled every session (label, type, slug, tier, route) |
 | `kalshi_watchlist.tsv` | Kalshi markets pulled every session (label, type, ticker, tier, route) |
