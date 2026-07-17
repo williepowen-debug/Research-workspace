@@ -6,7 +6,7 @@
 
 ## CORE THESIS (v2.2.1 — refinement)
 
-v2.2 structural vectors UNCHANGED. v2.2.1 adds **macro-tailwind context** (NIM-compression mechanism softened by 5/20 20Y auction clean print + 5/22 Waller easing-bias-removal pivot) and **cohort-signal context** (SIG-030 NPA improvement at 5/10 names — **NCO decomposition done 6/8 PM → Hypothesis A: genuine cohort improvement; "sharpen to WAL-specific" framing now EARNED by data, no weight change**). Bear-medium probability trimmed 30% → 25% on **loss-absorption channel only** (terminal effect: higher PPE buffer absorbs same credit losses without stock-breaking event). Recognition-delay (timing) channel handled by existing Sep tenor — NOT included in weight cut, to avoid double-counting. Base 33% → 35%, Bull 18% → 21%. EV $67.98 → $68.93. **Overvaluation (÷EV convention pinned 6/8): 16.3% — WIDENED ~2pp from v2.2's 14.2%** (price rose $2.52 vs EV $0.95; directionally bear-supportive). PT range $50-68 UNCHANGED. REG-24/REG-25 confidence UNCHANGED. Position implications: UNCHANGED — Sep core (Sep $77.5P / Sep $70P) still positioned for late-July Q2 print.
+v2.2 structural vectors UNCHANGED. v2.2.1 adds **macro-tailwind context** (NIM-compression mechanism softened by 5/20 20Y auction clean print + 5/22 Waller easing-bias-removal pivot) and **cohort-signal context** (SIG-030 NPA improvement at 5/10 names — **NCO decomposition done 6/8 PM → Hypothesis A: genuine cohort improvement; "sharpen to WAL-specific" framing now EARNED by data, no weight change**). Bear-medium probability trimmed 30% → 25% on **loss-absorption channel only** (terminal effect: higher PPE buffer absorbs same credit losses without stock-breaking event). Recognition-delay (timing) channel handled by existing Sep tenor — NOT included in weight cut, to avoid double-counting. Base 33% → 35%, Bull 18% → 21%. EV $67.98 → $68.93. **Overvaluation (÷EV convention pinned 6/8): 16.3% — WIDENED ~2pp from v2.2's 14.2%** (price rose $2.52 vs EV $0.95; directionally bear-supportive). PT range $50-68 UNCHANGED. REG-24/REG-25 confidence UNCHANGED at v2.2.1 *(since re-graded to 65/72 on 7/16 — see predictions table)*. Position implications: UNCHANGED — Sep core (**$67.5P + $70P** per `../POSITIONS.md`; the "$77.5P Sep" originally written here was the mis-recorded Jun-18 position, fixed 7/17) still positioned for the Q2 print (confirmed Tue Jul 21 AMC).
 
 **Why v2.2.1 not v2.3:** refinement only. NO structural vector change. B1 fire / V4 Curley / V1 MI3 pending / leading-bucket migration / V2 inventory CLEAN / V3 cohort-median CONFIRMED — all stand.
 
@@ -17,7 +17,7 @@ v2.2 structural vectors UNCHANGED. v2.2.1 adds **macro-tailwind context** (NIM-c
 WAL's concentrated CRE tail risk is actualizing one quarter earlier than v2.1's bear-slow case priced. The Q1 2026 10-Q (filed 5/11) disclosed a **subsequent event** that fires Bucket B1: a **$99M life-science office sponsor walk-away** (late April 2026) on a loan previously graded **pass**. Same week, **Chief Banking Officer Stephen Curley** (head of National Business Lines, the org where Office/CRE concentration sits) resigned effective immediately. Market reacted ~10% on the combined news. Bear-slow → Bear-medium speed.
 
 **What's new in v2.2 vs v2.1:**
-1. **B1 FIRED — $99M life-science office walk-away** (10-Q subsequent event). Same strategic-default mechanic as IQHQ (OZK). At 60% LGD, alone pushes Q2 NCO past 40bps before any normal Q2 activity. REG-25 confidence ratchet 55% → 75%+.
+1. **B1 FIRED — $99M life-science office walk-away** (10-Q subsequent event). Same strategic-default mechanic as IQHQ (OZK). At 60% LGD, alone pushes Q2 NCO past 40bps before any normal Q2 activity. REG-25 confidence ratchet 55% → 75%+ *(v2.2-era; current 72% per 7/16 re-grade — see predictions table §)*.
 2. **Curley resignation** (effective immediately, same week as 10-Q). Stated reason: CEO opportunity elsewhere. Pattern matters regardless of stated causality.
 3. **Q1 leading-bucket migration already firing pre-event:** Other CRE-NOO nonaccrual $228M → $263M = **+$35M QoQ (+15.4%)**.
 4. **NDFI breakout cleaner than deck:** $14.928B total (25.2% of HFI) — Mortgage credit intermediaries $10.25B / Business credit $3.4B / PE funds $1.26B. Ties to deck Slide 24; V3 cohort-median conclusion stands.
@@ -30,9 +30,9 @@ WAL's concentrated CRE tail risk is actualizing one quarter earlier than v2.1's 
 - Structural bull case (TBV CAGR 18.3%, deposit growth, NII +11-14% guide).
 
 **Path to short thesis paying (v2.2 reweight):**
-1. **Q2 print (late July) — second migration test.** If Q2 shows additional material Office/CRE-NOO credit migration beyond the $99M, we're in V2.5/V3 territory and Bear shifts toward 45%+. If $99M is the ONLY material migration, V2.2 may overstate and thesis is contained slow-grind.
+1. **Q2 print (confirmed Tue Jul 21 AMC) — second migration test.** If Q2 shows additional material Office/CRE-NOO credit migration beyond the $99M, we're in V2.5/V3 territory and Bear shifts toward 45%+. If $99M is the ONLY material migration, V2.2 may overstate and thesis is contained slow-grind.
 2. **V1-fast trigger** (MI3 ≥25% on FFIEC PDD when integrated): bear path faster than v2.2's bear-medium framing; $65P Jun becomes core position.
-3. **V1-slow trigger** (REG-24 Office classified >$500M by Q3 confidence now 70%): mechanical given $377M Q1 classified + $99M moving = $476M start of Q2; one more $50M migration crosses threshold.
+3. **V1-slow trigger** (REG-24 Office classified >$500M by Q3, confidence **65%** — re-graded 7/16 from 70%, DEWEY un-blind): mechanical given $377M Q1 classified + $99M moving = $476M start of Q2; one more $50M migration crosses threshold — but Q1 classified printed FLAT $947M total, tempering.
 
 **Price target range: $50-68** (v2.2 compressed from v2.1 $52-70 — market priced ~10% on 5/11-5/15 drawdown; upside narrows because relief-rally risk is real; downside floor moved fractionally lower because bear-medium speed materializing).
 
@@ -53,7 +53,7 @@ The 5pp Bear-medium cut (30% → 25%) is justified by the **terminal effect**, n
 
 - **Loss-absorption channel (TERMINAL — included in weight cut):** Higher pre-provision earnings from NII tailwind (no-cut + steady NIM on variable-rate book) increases WAL's capacity to absorb the same B1-class credit losses without producing a stock-breaking event. The Bear-medium scenario range $58-66 is conditional on a stock-breaking recognition event during Q2-Q3; a stronger loss-absorption buffer raises the credit-event magnitude required to cross that range. **Legitimately trims bear-medium weight.**
 
-- **Recognition-delay channel (TIMING — NOT included in weight cut):** Cheaper funding → easier extend-and-pretend → credit event lands later. This is a tenor effect, already handled by existing Sep-dated positions (Sep $77.5P / Sep $70P) which span the late-July Q2 print. Including timing in WEIGHT when it's already handled by TENOR would **double-count the delay** against positions already paid for the window.
+- **Recognition-delay channel (TIMING — NOT included in weight cut):** Cheaper funding → easier extend-and-pretend → credit event lands later. This is a tenor effect, already handled by existing Sep-dated positions (Sep **$67.5P + $70P** per `../POSITIONS.md` — strike list corrected 7/17) which span the Jul-21 Q2 print. Including timing in WEIGHT when it's already handled by TENOR would **double-count the delay** against positions already paid for the window.
 
 **Structural vectors UNCHANGED by macro tailwind softening:**
 - B1 fire ($99M life-sci pass-grade walk-away) — still loaded for Q2 print
@@ -300,8 +300,8 @@ V3 is now a **quality-of-names question on the 2,000 underlying lender-finance o
 | # | Prediction | Timeframe | Confidence | Status |
 |---|---|---|---|---|
 | **REG-20** | WAL major stress event | Apr-Jun 2026 | 82% | ✅ **RESOLVED CONFIRMED-PARTIAL 2026-05-08** (Q1 earnings miss + $152.5M fraud + tape -2%) |
-| **REG-24** | WAL Office classified > $500M by Q3 2026 | Q2-Q3 2026 | **70%** (was 60%) | v2.2 ratchet — $377M Q1 classified + $99M life-science moving = $476M Q2 start; one more $50M migration crosses |
-| **REG-25** | WAL ex-fraud NCO > 40bps in Q2 OR Q3 2026 | Q2-Q3 2026 | **75%** (was 55%) | v2.2 ratchet — $99M life-science at 60% LGD = ~$60M Q2 charge-off = ~10bps; Q1 was 39bps; mechanical cross of 40bps before any normal Q2 activity |
+| **REG-24** | WAL Office classified > $500M by Q3 2026 | Q2-Q3 2026 | **65%** (60→70 v2.2; **70→65 re-grade 7/16**, DEWEY un-blind: classified FLAT $947M, SM built no conversion, base-rate reverts, benign cohort) | v2.2 ratchet — $377M Q1 classified + $99M life-science moving = $476M Q2 start; one more $50M migration crosses. First-chance resolve **Jul 21 AMC**. |
+| **REG-25** | WAL ex-fraud NCO > 40bps in Q2 OR Q3 2026 | Q2-Q3 2026 | **72%** (55→75 v2.2; **75→72 trim 7/16**: NCOs lag + cohort decelerating, held high by two-window + $99M leg) | v2.2 ratchet — $99M life-science at 60% LGD = ~$60M Q2 charge-off = ~10bps; Q1 was 39bps; mechanical cross of 40bps before any normal Q2 activity. **REG-26 (33%)** isolates the >55bps+charge-off surprise. First-chance resolve **Jul 21 AMC**. |
 
 ---
 
@@ -328,7 +328,7 @@ CFO swap remains the tell. Vishal Idnani (JPM FIG, 20yr MD, advised 50+ regional
 
 ## POSITIONS
 
-Current: $85P / $77.5P / $70P / $65P Jun/Sep — see `../POSITIONS.md` for contracts and `WAL/SCENARIOS.md` for strike-by-strike thesis.
+Current positions: **grep `../POSITIONS.md` (canonical) — do not trust any strike list in this file.** *(The "$85P/$77.5P/$70P/$65P Jun/Sep" list formerly here was May-vintage; Jun-18 + Jul-17 tenors have since cleared — live Sep core is $67.5P+$70P per POSITIONS 6/19.)* Strike-by-strike thesis → `SCENARIOS.md` (see its 7/17 position-truth banner).
 
 **Note:** SCENARIOS.md still reflects pre-Q1 probability weights — needs refresh in Wave 1 chunk 2 (V2 resolved → reduces "raise/regulatory" branch; V3 disconfirmed → reduces "NDFI shock" branch; V1 sharpened to Office → tightens path-1 narrative).
 

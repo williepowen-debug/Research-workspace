@@ -1,3 +1,5 @@
+> ⚠️ **FROZEN 2026-07-17 (audit) — CREED is a live top-level agent (`AGENTS/CREED/`); this local file is a Feb-2026 fossil, not maintained.**
+
 # CREED Expected Signals
 
 **Agent:** CREED (Commercial Real Estate Exposure & Distress)

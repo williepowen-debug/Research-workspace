@@ -36,7 +36,7 @@ At boot, after STATUS/MEMORY — run the glob + `git mv` from repo root (cwd-pro
 2. For each: read it, decide disposition, append a row to the existing 11-col `board/BOARD_LOG.tsv` (Channels_Touched=INBOX_WALTER), then `git mv` the file to `inbox/WALTER/processed/`.
 3. Let acted items inform the session. **Installed 2026-07-09** (PROME 7/4 rollout ask) — first drain cleared a 31-file backlog (22 archived-with-note as pre-6/26-session-boundary stale, 9 dispositioned live).
 8. **Scan inbox** — `ls inbox/` (exclude `processed/`). Report count + senders. Do NOT process — just awareness.
-9. **Check peer/sub-agent STATUS files if relevant** — `../BROCK/STATUS.md`, `../CORAL/STATUS.md`, `../OZK/STATUS.md` (top-level peer agents), `sub-agents/CREED/STATUS.md`
+9. **Check peer/sub-agent STATUS files if relevant** — `../BROCK/STATUS.md`, `../CORAL/STATUS.md`, `../OZK/STATUS.md`, **`../CREED/STATUS.md`** (all top-level; CREED runs live at `AGENTS/CREED/` — corrected 7/17 audit, the local `sub-agents/CREED/` copy is a FROZEN Feb fossil)
 9b. **BOARD diff scan** (per WALTER LIAISON Turn 2 lock) — pull `/BOARD/INDEX.md` + `/BOARD/SIG-W-*.md` since last `board/BOARD_LOG.tsv` row. Three-tier scope:
     - **(a) Action-recipient unconditional** — `grep '^to:.*REGINALD' /BOARD/SIG-W-*.md` since last-session — read all hits.
     - **(b) cluster_mediating unconditional** — `grep 'cluster_mediating: true' /BOARD/SIG-W-*.md` since last-session — read all hits.
@@ -227,22 +227,24 @@ Metropolitan Capital failed with 61% true CRE (labeled 10.7%). Three masking lev
 
 ## BANK WATCHLIST
 
-**Tier 1 (Max Stress, Score 10+):** EGBN (12), WAL (10)
-**Tier 2 (Elevated, Score 9):** VLY, CFG, ZION
-**Full scoring → `BANK_EXPOSURE_MATRIX.md`**
+**Tier 1 (Max Stress):** EGBN (20), WAL (20)
+**Tier 2 (Elevated):** CFG (15), OZK (13), SSB (11) — ZION demoted to ~8-9 (Q1 disconfirming)
+**Live scores = STATUS.md Convergence Matrix** (synced 7/17 audit — this list had drifted to pre-rescale values); full methodology → `BANK_EXPOSURE_MATRIX.md` (STALE-VINTAGE-bannered, re-score post-7/21)
 
 ---
 
 ## KEY THRESHOLDS
 
-| Metric | Current (Mar 4) | Threshold | Implication |
-|--------|-----------------|-----------|-------------|
-| FHLB Advances | ~$480B | >$700B | Early crisis |
-| KRE | ~$67.90 (+0.21%) | <$60 | Acute stress |
-| WAL | ~$80.32 | <$78 | Hidden CRE thesis accelerating |
-| Claims (from LABOR) | 212K | >300K | All ORANGE → RED |
-| Office CMBS DQ | check | >15% | CRE transmission accelerating |
-| HY OAS (from LIQUID) | 308bps (CONF Mar 3) | >320bps | Credit transmission confirmed |
+*Thresholds + implications only — **live "current" values are OWNED by `STATUS.md` §THRESHOLD STATUS** (the "Current (Mar 4)" column formerly here rotted 4.5 months as a false-current surface; converted to pointer 7/17 audit per one-source-of-truth).*
+
+| Metric | Threshold | Implication |
+|--------|-----------|-------------|
+| FHLB Advances | >$700B | Early crisis |
+| KRE | <$60 | Acute stress |
+| WAL | <$78 | Hidden CRE thesis accelerating |
+| Claims (from LABOR) | >300K | All ORANGE → RED |
+| Office CMBS **DQ** (not SS — basis note in STATUS) | >15% | CRE transmission accelerating |
+| HY OAS (from LIQUID) | >320bps | Credit transmission confirmed |
 
 ---
 
@@ -250,7 +252,7 @@ Metropolitan Capital failed with 61% true CRE (labeled 10.7%). Three masking lev
 
 | File | Purpose |
 |------|---------|
-| `thesis/THESIS.md` | Master convergence thesis v1.3 — 10 sections: channels/clusters, 3-layer architecture, loss quantification, what's priced in, validation scorecard. |
+| `thesis/THESIS.md` | Master convergence thesis **v1.4 — STALE-VINTAGE-bannered 7/10, rewrite to v1.5 post-7/21** — 10 sections: channels/clusters, 3-layer architecture, loss quantification, what's priced in, validation scorecard. |
 | `thesis/TIMELINE.md` | Forward-looking catalyst calendar — week-by-week events, branch points, "our view," position calendar. |
 | `thesis/CHANGELOG.md` | Thesis evolution audit trail — what changed, why, old vs new view. |
 | `STATUS.md` | Live state — sub-agent dashboard, FHLB, watchlist. **Primary snapshot.** ≤250 lines. |
@@ -268,12 +270,12 @@ Metropolitan Capital failed with 61% true CRE (labeled 10.7%). Three masking lev
 | `research/README.md` | **Master research index** — all series, key findings, data gaps, next priorities. Read before spawning research. |
 | `research/outputs/` | Completed research by series (RP-REG-3.x, RP-REG-4.x, RP-FL-x.x, RQ-ad-hoc) |
 | `research/prompts/` | Research prompts for external LLM execution |
-| `workbook/VX.tsv` | Indicator vectors — 12-column schema (ID/Name/Category/Current_Value/Yellow/Orange/Red/Status/Confidence/Last_Updated/Source/Cross_Links/Notes). 59 rows. |
-| `workbook/KB.tsv` | Knowledge base — 14-column schema (ID/Date/Session/Entity/Category/Description/Analysis/Data_Quote/Source/Status/Confidence/Thesis_Impact/Vector_Links/Cross_Links/Notes). 116+ entries, ID format ML-REG-xxx. |
+| `workbook/VX.tsv` | Indicator vectors — **13-column** schema (ID/Name/Category/Current_Value/Yellow/Orange/Red/Status/Confidence/Last_Updated/Source/Cross_Links/Notes; label corrected 7/17). 61 rows; ⚠️ ~30 rows Jan-Apr vintage — see file banner, refresh post-7/21. |
+| `workbook/KB.tsv` | Knowledge base — **15-column** schema (ID/Date/Session/Entity/Category/Description/Analysis/Data_Quote/Source/Status/Confidence/Thesis_Impact/Vector_Links/Cross_Links/Notes; label corrected 7/17). 116+ entries, ID format ML-REG-xxx. STALE-VINTAGE two-clock header; malformed block ~099..116 **+ 139** (reconstruction post-7/21). |
 | `workbook/FLOW.tsv` | Transmission mechanics — 10-column schema (ID/Name/Speed/Layer/Status/Trigger/Current_Position/Pathway/Key_Insight/Cross_Links/Last_Updated). 22 rows. |
 | `workbook/THESIS_VALIDATION.md` | Thesis confirmation/invalidation criteria + dependency maps |
 | `workbook/OTTO_INTEL.md` | Cross-agent intel from OTTO (307 lines) |
-| `workbook/VX_HISTORY.tsv` | Archived slow-moving vectors (quarterly refresh) |
+| `workbook/VX_HISTORY.tsv` | Archived slow-moving vectors — **header-only, never populated** (noted 7/17 audit; populate or retire at the post-7/21 workbook pass) |
 | `SUB_AGENTS.md` | Sub-agent coordination (CREED, TEX, RENO, BELT). Note: BROCK, CORAL, and OZK are top-level peer agents, not sub-agents (CORAL promoted 2026-06-19). |
 | `domain/FL_MIGRATION_REFERENCE.md` | FL migration -93% data + Hormuz cascade table (static reference) |
 | `earnings_briefs/` | Earnings analysis files (VLY Q1 etc.) |
@@ -285,6 +287,6 @@ Metropolitan Capital failed with 61% true CRE (labeled 10.7%). Three masking lev
 | `AGENTS/BROCK/STATUS.md` | BROCK | BDC/private credit (top-level peer agent) |
 | `AGENTS/CORAL/STATUS.md` | CORAL | Florida-specific state (top-level peer agent, promoted 2026-06-19) |
 | `AGENTS/OZK/STATUS.md` | OZK | Single-name bank deep coverage (top-level peer agent) |
-| `sub-agents/CREED/STATUS.md` | CREED | CRE market-level state |
+| `../CREED/STATUS.md` | CREED | CRE market-level state — **LIVE at top level `AGENTS/CREED/` (corrected 7/17; local `sub-agents/CREED/` = FROZEN Feb fossil)** |
 | `archive/sub-agents/TEX/` | TEX | Texas stress — **DEAD POINTER FIXED 2026-07-09**: no live STATUS.md, already archived (research/sources subdirs only) |
 | `archive/sub-agents/RENO/` | RENO | Nevada stress — **DEAD POINTER FIXED 2026-07-09**: no live STATUS.md, already archived (research/sources subdirs only) |

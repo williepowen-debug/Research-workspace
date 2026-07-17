@@ -8,6 +8,18 @@ Tracks all changes to `WAL/THESIS.md`. Reverse chronological. Mirrors format of 
 
 ---
 
+## 2026-07-17 — RETRO-ENTRY (audit catch): 7/16 REG-24/25 re-grade + 7/10 date-fix, logged late
+
+**What changed (no version bump — probability re-grade + hygiene, structural vectors untouched):**
+- **7/16 (teams-spawn): REG-24 70→65%** (DEWEY prompt-13 un-blind: classified FLAT $947M, SM +24% to $403M but no conversion; office not separately tagged; base rate on aggregate criticized surges reverts; benign 7/14-16 cohort) and **REG-25 75→72%** (NCOs lag + cohort NCO decelerating hard [MTB 0.23%/WFC 0.34%]; held high by the two-window Q2-OR-Q3 structure + the $99M idiosyncratic leg). Written to PREDICTIONS.tsv same-day but **the closeout drift-grep was skipped**, leaving 70/75 fossilized in 8+ display surfaces (this file's tracked THESIS.md included) until the 7/17 audit swept them. REG-26 (33%, the >55bps+charge-off surprise) was registered 7/10.
+- **7/10:** print-date corrections (Jul-30/late-Jul → confirmed Tue Jul 21 AMC) touched THESIS/SCENARIOS without entries — logged here retroactively.
+- **7/17 audit:** phantom "Sep $77.5P" corrected across THESIS/SCENARIOS/STATUS (canonical Sep core = $67.5P+$70P per ../POSITIONS.md); SCENARIOS EV-spot staleness bannered ($80.15 [6/5] → $81.88 [7/17], overvaluation 16.3%→~18.8% at live spot, EV re-marks at the print).
+
+**Old view → new view:** REG-24/25 at 70/75 → **65/72**; everything else unchanged (Bear-med 25, EV $68.93, PT $50-68, v2.2.1).
+**Lesson:** probability changes REQUIRE the drift-grep + a changelog entry at the changing session, not at the next audit (repeat of the 6/2 propagation finding).
+
+---
+
 ## 2026-06-08 (PM) — v2.2.1 intra-version: COHORT SIGNAL RESOLVED → HYPOTHESIS A (NCO decomposition)
 
 **Author:** REGINALD (Will-directed, Orchestrator-reviewed) | **No version bump** — evidence resolution of the open question v2.2.1 (AM) explicitly held open; no weight/EV/PT/prediction change.

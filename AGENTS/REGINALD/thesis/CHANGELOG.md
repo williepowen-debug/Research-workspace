@@ -8,6 +8,13 @@ Tracks all changes to THESIS.md and TIMELINE.md. Reverse chronological. Each ent
 
 ---
 
+## 2026-07-17 — RETRO-ENTRY (audit catch): 7/10 fossil-bannering of THESIS/TIMELINE, logged late
+
+**What changed (no version bump — hygiene, not thesis):** On 2026-07-10 both `THESIS.md` (v1.4) and `TIMELINE.md` received top-of-file **STALE-VINTAGE banners** (PAT-043 decay-from-the-durable-end: the live thesis had migrated to STATUS.md while these fossilized pre-earnings — 🔴🔴🔴 framing, "WAL below $78 ~$67-68", PT $47-60, 12/12-cohort). Files were edited without changelog entries; logged here retroactively per the M7 silent-divergence discipline gap. **Rewrite (THESIS v1.4→v1.5, TIMELINE rebuild) is deliberately scheduled post-Jul-21** — CPI 7/14 + the WAL/OZK double-print re-mark everything a rewrite would say. Cross-ref: WAL-level REG-24/25 re-grade 7/16 (70/75→65/72) is logged in `../WAL/CHANGELOG.md` 7/17 retro-entry.
+**Old view → new view:** none (banner-only). Banners are the interim truth-guard; v1.5 is the fix.
+
+---
+
 ## 2026-05-21 — WAL bank-thesis: v2.1 → v2.2 (B1 fired via 10-Q subsequent event + Curley resignation)
 
 ### Bank-Thesis Update — master THESIS.md unchanged

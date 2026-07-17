@@ -1,3 +1,5 @@
+> ⚠️ **FROZEN 2026-07-17 (audit) — Feb-2026 fossil. DO NOT read as current.** CREED runs LIVE as a top-level agent: canonical state → `AGENTS/CREED/STATUS.md` (updated 7/4). This local copy predates the promotion; its headline figures (office DQ "12.34% Jan ATH", $936B wall) are superseded (office DQ 11.57% June Trepp; $875B 2026 wall).
+
 # CREED STATUS
 **Last Updated:** 2026-02-25 | **Status:** 🔴 RED — CMBS $57.7B Default Expected (2026); Large Banks 5% CRE PDNA; Loss Cycle ACCELERATING
 

@@ -1,7 +1,7 @@
 # WAL — Agent Index
 **Start here on cold boot.**
 
-> ⚠️ **STALE-VINTAGE — v2.0, May 1 (this "cold boot" index was never updated past v2.0). Cold-boot off `WAL/STATUS.md` + `WAL/THESIS.md` instead (both v2.2.1).** Do NOT trust the weights/EV/positions below: they are v2.0 (Bear 30/Base 38/Bull 25, EV $57→$72, PT $55-70, REG-25 55%). Canonical is **Bear-med 25, EV $68.93, PT $50-68, REG-24 70%/REG-25 75%**. Positions table lists expired Jun-18 puts — canonical positions → `../POSITIONS.md`. **Full refresh to v2.1 scheduled post-Jul-21 print** (flagged 2026-07-10 audit).
+> ⚠️ **STALE-VINTAGE — v2.0, May 1 (this "cold boot" index was never updated past v2.0). Cold-boot off `WAL/STATUS.md` + `WAL/THESIS.md` instead (both v2.2.1).** Do NOT trust the weights/EV/positions below: they are v2.0 (Bear 30/Base 38/Bull 25, EV $57→$72, PT $55-70, REG-25 55%). Canonical is **Bear-med 25, EV $68.93, PT $50-68, REG-24 65%/REG-25 72%/REG-26 33%** *(re-graded 7/16; this banner previously said 70/75 — fixed 7/17 audit; live confidences → `../workbook/PREDICTIONS.tsv`)*. Positions table lists expired Jun-18 puts — canonical positions → `../POSITIONS.md`. **Full refresh to v2.1 scheduled post-Jul-21 print** (flagged 2026-07-10 audit).
 
 **Last session (May 1 — Wave 1 chunks 1-6):** THESIS v2.0 release ("compounder with concentrated CRE tail risk"); CHANGELOG created; STATUS refreshed; FRAUD/STATUS + FRAUD/SYNTHESIS_V2 post-print rewrite; **KB.tsv 80→105 rows** (Q1 print evidence appended); KB_INDEX +1 group (LEADING_CREDIT) + post-Apr 21 quick-reference; SCENARIOS.md re-weighted (Bear 45%→30%, Base 30%→38%, Bull 20%→25%, EV $57→$72).
 
@@ -36,7 +36,7 @@
 | $70P | Sep 18 | 1 | $4.20 | HOLD — cheap tail exposure |
 | $65P | Jun 18 | 1 | ~$0.75 | **CONSIDER CLOSE OR ROLL TO SEP** — needs rapid move v2.0 thesis no longer projects |
 
-**Q1 2026 print: ✅ Apr 21** | **Investor Day: May 12** | **Q2 print: ~late Jul** | **Bear EV target: $58-68 (30%)** | **Base EV target: $70-78 (38%)** | **Bull EV target: $85-95 (25%)** | **Tail: $35-45 (7%)**
+**Q1 2026 print: ✅ Apr 21** | **Investor Day: May 12** | **Q2 print: ✅ confirmed Tue Jul 21 AMC** *(was "~late Jul"; fixed 7/17)* | **Bear EV target: $58-68 (30%)** | **Base EV target: $70-78 (38%)** | **Bull EV target: $85-95 (25%)** | **Tail: $35-45 (7%)**
 
 ## Data Update Rules
 
@@ -104,9 +104,9 @@
 ### Research (vector-organized)
 | Folder | Topic |
 |--------|-------|
-| `research/HIDDEN_CRE/` | Vector 1: MI3 reclassification, true CRE exposure |
-| `research/JEFFERIES/` | Vector 2: Double-pledging, intermediary chain |
-| `research/SSFA/` | Vector 3: Capital arbitrage, $17.2B exposures |
+| ~~`research/HIDDEN_CRE/`~~ | Vector 1: MI3 reclassification — **DEAD POINTER (7/17 audit): dir exists nowhere (not WAL/, research/, or archive/)**; live V1 material → `../domain/sources/` + `THESIS.md` |
+| ~~`research/JEFFERIES/`~~ | Vector 2: Double-pledging — **DEAD POINTER (7/17 audit)**; live V2 material → `FRAUD/` |
+| ~~`research/SSFA/`~~ | Vector 3: Capital arbitrage — **DEAD POINTER (7/17 audit)**; V3 refined to cohort-median, see `STATUS.md` V3 table |
 | `research/RQ-REG-A01_WAL_ZION_FRAUD_COMPARISON.md` | WAL vs ZION fraud provision analysis |
 
 ### Sources & Archive

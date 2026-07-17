@@ -1,3 +1,5 @@
+> ⚠️ **STALE-VINTAGE — frozen at 2026-02-16 (bannered 7/17 audit).** OTTO cross-agent intel snapshot, Feb vintage — historical reference only, no live upkeep.
+
 # OTTO CROSS-AGENT INTELLIGENCE LOG
 
 **Last Updated:** 2026-02-16 02:18 UTC

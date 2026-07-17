@@ -1,3 +1,5 @@
+> ⚠️ **FROZEN 2026-07-17 (audit) — Feb-2026 vintage, no live upkeep. BELT is a dormant sub-agent shell; do not cite rows as current.**
+
 # BELT STATUS
 **Last Updated:** 2026-02-17 | **Status:** 🟡 MONITORING | **Check-in:** On-demand (no daily cron)
 

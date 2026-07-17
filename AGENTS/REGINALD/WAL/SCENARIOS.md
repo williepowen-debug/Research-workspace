@@ -1,6 +1,10 @@
 # WAL — Scenario Analysis & Target Prices
-**Created:** 2026-03-25 (v1.0) | **Last Updated:** 2026-06-08 PM (v2.2.1 — macro-NIM tailwind softening + cohort context RESOLVED → Hyp A genuine improvement)
-**Current Price:** **$80.15** (Fri 6/5 close per yfinance) | **TBV:** $61.14 | **P/TBV:** 1.31x | **CET1:** 11.0%
+> **⚠️ TWO CORRECTIONS (2026-07-17 audit — read before using this file):**
+> **(1) POSITION TRUTH:** every "$77.5P **Sep**" reference below is a PHANTOM — per canonical `../POSITIONS.md` (5/8 broker refresh + 6/19 reconcile), the $77.5P was **Jun-18 tenor, cleared 6/18**; the live Sep core is **$67.5P + $70P**. The strike-by-strike sections were built in May on the mis-recorded book and are NOT rebuilt here (position-architecture rebuild = post-7/21 v2.3 rewrite). Grep `../POSITIONS.md` before ANY position use — never this file.
+> **(2) EV SPOT ANCHOR [STALE]:** the "Current Price $80.15 (6/5)" below is ~6 weeks old. Spot **$81.88 [7/17 live]** → overvaluation on the pinned ÷EV convention = **(81.88−68.93)/68.93 ≈ 18.8%**, not the 16.3% shown. EV/probabilities themselves are v2.2.1 (6/8) and re-mark at the Jul-21 print — deliberately not recomputed pre-print.
+
+**Created:** 2026-03-25 (v1.0) | **Last Updated:** 2026-06-08 PM (v2.2.1 — macro-NIM tailwind softening + cohort context RESOLVED → Hyp A genuine improvement); date-fix 7/10; audit banner 7/17
+**Current Price:** **$80.15** [STALE — Fri 6/5 close; live 7/17 = $81.88, see banner] | **TBV:** $61.14 | **P/TBV:** 1.31x | **CET1:** 11.0%
 **Short Interest:** 3.54% float / 2.71 days (Mar 25 — REFRESH PENDING)
 **Q1 2026 EPS:** $1.65 GAAP / $2.22 adjusted | **FY2025 NI:** $991M
 
@@ -8,7 +12,7 @@
 
 > **v2.2.1 thesis framing** (per `THESIS.md` v2.2.1, refinement): v2.2 structural vectors UNCHANGED. v2.2.1 adds macro-NIM-tailwind softening (20Y auction clean + Waller pivot) trimming Bear-medium 30%→25% on **loss-absorption channel only** (timing handled by Sep tenor), and cohort-signal context (SIG-030 NPA improvement at 5/10 names — **RESOLVED 6/8 PM → Hyp A genuine cohort improvement**; WAL bear idiosyncratic, "sharpen to WAL-specific" earned, Bear-medium stays 25 / no revert).
 
-> **v2.2 thesis framing** (per `THESIS.md` v2.2, post 10-Q drill): WAL's concentrated CRE tail risk is **actualizing on Q2 timeline** — one quarter earlier than v2.1's bear-slow case priced. 10-Q subsequent-event note disclosed **$99M life-science office sponsor walk-away** (Bucket B1 fired); Chief Banking Officer Curley resigned same week; market reacted ~10% on combined news. **Bear-slow → Bear-medium speed.** V2 inventory test came back clean (no new Leucadia-era credits); V3 NDFI cohort-median confirmed via 10-Q breakout. V1 MI3 primary falsifier still hasn't run (FFIEC PDD pending). Short thesis is now *partially realizing*; Q2 print (late July) is the critical second-data-point test.
+> **v2.2 thesis framing** (per `THESIS.md` v2.2, post 10-Q drill): WAL's concentrated CRE tail risk is **actualizing on Q2 timeline** — one quarter earlier than v2.1's bear-slow case priced. 10-Q subsequent-event note disclosed **$99M life-science office sponsor walk-away** (Bucket B1 fired); Chief Banking Officer Curley resigned same week; market reacted ~10% on combined news. **Bear-slow → Bear-medium speed.** V2 inventory test came back clean (no new Leucadia-era credits); V3 NDFI cohort-median confirmed via 10-Q breakout. V1 MI3 primary falsifier still hasn't run (FFIEC PDD pending). Short thesis is now *partially realizing*; Q2 print (confirmed Tue Jul 21 AMC) is the critical second-data-point test.
 
 ---
 
@@ -23,13 +27,13 @@
 | Tail | 7% | 7% | **7%** | $35-45 | $35-45 | $40.00 | $2.80 |
 | **Expected Value** | | | **100%** | | | | **$68.93** |
 
-**Overvaluation (÷EV convention): (80.15 − 68.93) / 68.93 = 16.3%.** v2.2 at $77.63 to EV $67.98 was **14.2%** on the same convention. **Gap WIDENED ~2pp** because price rose $2.52 (+3.2%) while EV only rose $0.95 (+1.4%). Directionally **bear-supportive** (more room to fall, even after Bear-medium trim).
+**Overvaluation (÷EV convention): (80.15 − 68.93) / 68.93 = 16.3% [STALE spot — at $81.88 (7/17) it is ~18.8%].** v2.2 at $77.63 to EV $67.98 was **14.2%** on the same convention. **Gap WIDENED ~2pp** because price rose $2.52 (+3.2%) while EV only rose $0.95 (+1.4%). Directionally **bear-supportive** (more room to fall, even after Bear-medium trim).
 
 ### Re-weight rationale (v2.2 → v2.2.1)
 
 | Shift | Driver |
 |---|---|
-| Bear-medium 30% → 25% | Macro-NIM-tailwind double-stack (5/20 20Y clean auction + 5/22 Waller pivot) softens loss-absorption channel — higher PPE absorbs same B1-class losses without stock-breaking event. **Cut rests on loss-absorption ONLY**; recognition-delay timing channel handled by existing Sep-dated tenor (Sep $77.5P / Sep $70P span late-July Q2 print) — including timing in weight would double-count delay against positions already paid for the window. |
+| Bear-medium 30% → 25% | Macro-NIM-tailwind double-stack (5/20 20Y clean auction + 5/22 Waller pivot) softens loss-absorption channel — higher PPE absorbs same B1-class losses without stock-breaking event. **Cut rests on loss-absorption ONLY**; recognition-delay timing channel handled by existing Sep-dated tenor (Sep $77.5P / Sep $70P span Jul-21 Q2 print) — including timing in weight would double-count delay against positions already paid for the window. |
 | Base 33% → 35% | Modest +2pp absorbing NII tailwind ("higher for longer" benefits variable-rate book) |
 | Bull 18% → 21% | Compounder narrative modestly strengthens on Waller no-cut implication |
 | Bear-fast / Tail unchanged | V1 MI3 mechanism + tail mechanics not affected by macro-NIM softening |
@@ -38,8 +42,8 @@
 ### What v2.2.1 does NOT do
 
 - Does NOT reweight on cohort framing. **Cohort NCO decomposition RESOLVED 6/8 PM → Hypothesis A (genuine cohort improvement)** — ZION/CFG/MTB GENUINE, FITB confounded-excluded, EGBN cosmetic-outlier (see THESIS COHORT CONTEXT + `../research/COHORT_NCO_DECOMP_2026-06-08.md`). Bear-medium **stays 25, NO revert toward 30** (the revert was the Hyp B path, now closed); WAL bear narrows to idiosyncratic, "sharpen to WAL-specific" framing EARNED. Re-openable at Q2 (maturity wall).
-- Does NOT change REG-24 (70%) or REG-25 (75%) confidence — single-credit mechanical math doesn't depend on NIM.
-- Does NOT change position posture. Sep core (Sep $77.5P / Sep $70P) still positioned for Q2 print. Jun 18 cluster still requires its own decision (decision window ~6/11 — substance owed to PROME reply rests on this v2.2.1 framing).
+- Does NOT change REG-24 or REG-25 confidence — single-credit mechanical math doesn't depend on NIM. *(Confidences at this writing 70/75; re-graded **65/72** on 7/16 — canonical `../workbook/PREDICTIONS.tsv`.)*
+- Does NOT change position posture. Sep core (**$67.5P / $70P** per `../POSITIONS.md` — the "$77.5P Sep" originally written here was the mis-recorded Jun-18 position, see 7/17 banner) still positioned for Q2 print. Jun 18 cluster still requires its own decision (decision window ~6/11 — substance owed to PROME reply rests on this v2.2.1 framing).
 
 ### v2.2 unconditional table preserved as reference
 
@@ -371,12 +375,12 @@ V2.0 understated this position by ~55% because V2.0's framework had demoted V1 �
 | Position | Direction (5/21 spot $77.63) | v2.1 Recommendation | **v2.2 Recommendation** |
 |---|---|---|---|
 | $85P Jun | $7.37 ITM | HOLD as event-driven hedge | **HOLD as event-driven hedge.** Most v2.2 evidence (B1 fire, Curley) ALREADY in tape via 5/11-5/15 drawdown. Q2 print is post-Jun expiry; Jun catalysts now slimmer (only FFIEC PDD if integrated; AOCI rule comment close Jun 18). |
-| $77.5P Sep | ~ATM (slightly OTM) | HOLD — timeline-coherent core | **REINFORCED-HOLD core.** Sep window catches Q2 print (late Jul) — this is where v2.2's $99M materializes as charge-off + REG-25 hit. Single best risk-adj position. |
+| ~~$77.5P Sep~~ [PHANTOM — was Jun-18, cleared; see 7/17 banner] | ~ATM (slightly OTM) | HOLD — timeline-coherent core | **REINFORCED-HOLD core.** Sep window catches Q2 print (Tue Jul 21 AMC) — this is where v2.2's $99M materializes as charge-off + REG-25 hit. Single best risk-adj position. |
 | $70P Sep | 9.8% OTM | HOLD — timeline-coherent cheap tail | **REINFORCED-HOLD.** Same Q2 print thesis; cheaper exposure to bear-medium midpoint $62. Pays on bear-medium / bear-fast / tail. |
 | $65P Jun | Deep OTM | HOLD or ROLL TO SEP (MI3 optionality) | **HOLD-to-expiry as cheap lottery.** v2.2 doesn't change the underlying math; MI3 optionality still embedded if FFIEC PDD integrates pre-expiry. Jun expiry post-Curley/post-10Q digestion = limited upside outside MI3 surprise. |
 | $67.5P Jun | Deep OTM | (added 5/8 broker refresh) | **HOLD as Jun expiry tactical** — same window as $65P/$85P; layered strike coverage. |
 | $77.5P Jun | (added 5/8 broker refresh) | (added 5/8 broker refresh) | **HOLD.** Jun expiry. Strike near current — most leveraged Jun position to any near-term move. |
-| $65P Jul | (added 5/8 broker refresh) | (added 5/8 broker refresh) | **HOLD** — Jul 17 expiry doesn't catch Q2 print (late Jul). Tactical only. |
+| $65P Jul | (added 5/8 broker refresh) | (added 5/8 broker refresh) | ~~HOLD~~ **EXPIRED 7/17** (lapsed OTM at $81.88 per dashboard; broker-confirm owed). Never caught the print (Jul 21 AMC). |
 | $67.5P Sep | (added 5/8 broker refresh) | (added 5/8 broker refresh) | **REINFORCED-HOLD.** Sep tenor; deeper OTM than $77.5P/$70P; cheaper tail leg of the Sep core. |
 
 **Will-decision pending:** Roll-to-Sep-$65P cost analysis (need broker quote on Jun-65P-bid vs Sep-65P-ask). Out-of-scope this session; flagged for Jun T-7 close window (~Jun 11) at latest. Default if no decision by Jun 11: HOLD $65P Jun through expiry on MI3-optionality. If MI3 ≥25% (mid-May): $65P Jun reactivates as core position.

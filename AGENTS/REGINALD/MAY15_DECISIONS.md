@@ -1,3 +1,5 @@
+> ✅ **RESOLVED / HISTORICAL (marked 7/17 audit).** May-15 expiry decision memo — outcomes recorded in POSITIONS.md 5/21 (SSB $95P + WAL $75P both gone per Will confirm). Kept as decision-process record only.
+
 # MAY 15 EXPIRY CLUSTER — Decision Memo
 
 **Created:** 2026-05-08 (Fri night, market closed) | **Expiry:** Friday May 15 2026 (T-5 trading days) | **Scope:** REGINALD-thesis positions only — see `../OZK/` for OZK May 15 cluster, `FORGE/STATUS.md` for TLT $88P May 15.

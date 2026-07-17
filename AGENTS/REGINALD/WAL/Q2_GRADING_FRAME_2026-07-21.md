@@ -3,7 +3,8 @@
 **Print:** Tuesday **July 21, 2026 AMC**; call Wed 7/22 noon ET (Vecchione/Idnani). Same day as OZK.
 **Pre-registered:** 2026-07-10 (11 days out, BEFORE the print — the whole point is to fix the grade now so print-day is mechanical, not motivated). **Owner:** REGINALD.
 **Parallel doc:** OZK's `../../OZK/` Jul-21 reads (PREDICTIONS OZK-05→09) — read side-by-side on print day.
-**Governs:** REG-24 (Office classified >$500M by Q3, 70%) + REG-25 (ex-fraud NCO >40bps in Q2 or Q3, 75%) → `../workbook/PREDICTIONS.tsv`.
+**Governs:** REG-24 (Office classified >$500M by Q3, **65%**) + REG-25 (ex-fraud NCO >40bps in Q2 or Q3, **72%**) → `../workbook/PREDICTIONS.tsv`.
+> **⚠️ PRE-PRINT RE-GRADE (2026-07-16, annotated 7/17 — permitted, the no-edit rule binds post-print only):** REG-24 70→**65%** (DEWEY un-blind: classified FLAT $947M, SM built +24% but no conversion; office not separately tagged; base rate says aggregate criticized surges revert; benign 7/14-16 cohort) · REG-25 75→**72%** (NCOs lag + cohort NCO decelerating hard, but two-window Q2-OR-Q3 + the $99M idiosyncratic leg hold it high) · REG-26 unchanged 33%. The 70%/75% figures elsewhere in this file are the 7/10 pre-registration vintage — grade against 65/72/33. Canonical: `../workbook/PREDICTIONS.tsv`.
 
 > **Why this exists:** OZK went into 7/21 with a pre-registered $15-30M fail-band; WAL did not. Bare confidences (70%/75%) aren't decision-ready — they don't say *what reading confirms vs disconfirms*, decided before the number lands. This frame does. It also preserves the 6/25 adversarial correction that must not be re-lost: **REG-25 >40bps is PRICED, not a surprise.** [[finding_anchor_prediction_to_surprise_not_priced]]
 
@@ -99,9 +100,9 @@ WAL trades against **green complacency** (cohort risk-on, WAL $80.69). Positioni
 
 | Read | Pre-print P | Resolves |
 |---|---|---|
-| REG-25 ex-fraud NCO >40bps (Q2 or Q3) | ~75% (but 40-55bps is PRICED) | Q2 first chance |
-| REG-25 TRUE bear-confirm (>55bps AND $99M charged-off in-Q2) | **~30-35%** | Q2 |
-| REG-24 Office classified >$500M (by Q3) | ~70% | Q2 first read, Q3 deadline |
+| REG-25 ex-fraud NCO >40bps (Q2 or Q3) | **72%** [re-graded 7/16, was ~75%] (but 40-55bps is PRICED) | Q2 first chance |
+| REG-25 TRUE bear-confirm = REG-26 (>55bps AND $99M charged-off in-Q2) | **33%** [registered as REG-26 7/10] | Q2 |
+| REG-24 Office classified >$500M (by Q3) | **65%** [re-graded 7/16, was ~70%] | Q2 first read, Q3 deadline |
 | $99M disposition = (C) cure/bull-disconfirm | ~20-25% | Q2 |
 | 2+ NEW Office migrations (escalation) | ~15-20% | Q2 |
 | Non-credit selloff dominates (falsifier) | low for WAL (NIM improving) — reversal-watch | Q2 |

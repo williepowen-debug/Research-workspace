@@ -1,8 +1,8 @@
 # WAL STATUS
 
-**Last Updated:** 2026-06-08 PM (cohort NCO decomp → Hyp A; thesis bumped to v2.2.1 6/8 AM) | **Thesis:** v2.2.1 "Concentrated CRE Tail Risk Actualizing on Q2 Timeline" (`THESIS.md` v2.2.1, `SCENARIOS.md` v2.2, `CHANGELOG.md`, drill findings `../research/WAL_10Q_DRILL_2026-05-21.md`)
-**Price:** **$80.69** (7/10 live, +0.85%; was $79.99 Jun-8) | **Threshold:** $78 | **Buffer:** +$2.69 🟢 held above $78 (softened ~$1.82 on the week but tape still not signaling the bear — see `../STATUS.md`)
-**Status:** 🔴 SHORT THESIS ACTIVE + B1 + B3 FIRED + V4 — 10-Q subsequent-event disclosed $99M life-science office sponsor walk-away (late April, previously *pass* → substandard/non-accrual). Same strategic-default mechanic as IQHQ (OZK). Chief Banking Officer Stephen Curley (head of National Business Lines) resigned same week. Market reacted ~10% on 5/11-5/15 (Simply Wall St 5/14). REG-24 70%, REG-25 75%. **v2.2.1 (6/8 AM):** Bear-medium 30→25 on loss-absorption channel only (macro-NIM tailwind softening: 20Y clean + Waller pivot); EV $67.98 → **$68.93**; PT $50-68. **Cohort NCO decomp (6/8 PM) → Hyp A genuine cohort improvement** — WAL bear now idiosyncratic, "sharpen to WAL-specific" EARNED; Bear-medium stays 25 (no revert); positions/PT/predictions UNCHANGED (`../research/COHORT_NCO_DECOMP_2026-06-08.md`). **V2 inventory test CLEAN** (10-Q has only LAM + Cantor V; WAL escalated to active litigation against Jefferies parent in NY Supreme Court Mar 2026). **V3 NDFI cohort-median CONFIRMED via 10-Q breakout** ($14.93B / 25.2% of HFI). **V1 MI3 primary falsifier STILL HASN'T RUN** — FFIEC PDD bulk window 5/14-16 passed without integration; v2.1 calibration table preserved. Q2 print late July is the binary second-data-point test (one Office migration or many?).
+**Last Updated:** 2026-07-17 (audit-sweep spine refresh; prior 6/8 PM cohort decomp / 7/10 price line) | **Thesis:** v2.2.1 "Concentrated CRE Tail Risk Actualizing on Q2 Timeline" (`THESIS.md` v2.2.1, `SCENARIOS.md` v2.2.1 — see its 7/17 position-truth banner, `CHANGELOG.md`, drill findings `../research/WAL_10Q_DRILL_2026-05-21.md`)
+**Price:** **$81.88** (7/17 live, −2.52% on broad risk-off) | **Threshold:** $78 | **Buffer:** +$3.88 🟢 held above $78 (tape not signaling the bear — the confirmation channel is the **Tue Jul 21 AMC Q2 print**, see `../STATUS.md`)
+**Status:** 🔴 SHORT THESIS ACTIVE + B1 + B3 FIRED + V4 — 10-Q subsequent-event disclosed $99M life-science office sponsor walk-away (late April, previously *pass* → substandard/non-accrual). Same strategic-default mechanic as IQHQ (OZK). Chief Banking Officer Stephen Curley (head of National Business Lines) resigned same week. Market reacted ~10% on 5/11-5/15 (Simply Wall St 5/14). **REG-24 65% / REG-25 72% / REG-26 33%** (re-graded 7/16 — DEWEY un-blind; canonical `../workbook/PREDICTIONS.tsv`). **v2.2.1 (6/8 AM):** Bear-medium 30→25 on loss-absorption channel only (macro-NIM tailwind softening: 20Y clean + Waller pivot); EV $67.98 → **$68.93**; PT $50-68. **Cohort NCO decomp (6/8 PM) → Hyp A genuine cohort improvement** — WAL bear now idiosyncratic, "sharpen to WAL-specific" EARNED; Bear-medium stays 25 (no revert); positions/PT/predictions UNCHANGED (`../research/COHORT_NCO_DECOMP_2026-06-08.md`). **V2 inventory test CLEAN** (10-Q has only LAM + Cantor V; WAL escalated to active litigation against Jefferies parent in NY Supreme Court Mar 2026). **V3 NDFI cohort-median CONFIRMED via 10-Q breakout** ($14.93B / 25.2% of HFI). **V1 MI3 primary falsifier STILL HASN'T RUN** — FFIEC PDD bulk window 5/14-16 passed without integration; v2.1 calibration table preserved. Q2 print **Tue Jul 21 AMC** (confirmed 7/9; grading frame pre-registered → `Q2_GRADING_FRAME_2026-07-21.md`) is the binary second-data-point test (one Office migration or many?).
 **KB:** 105 rows / 16 groups (Wave 1 chunk-4 refresh done — corrected 2026-07-10; per `KB_INDEX.md`) | **Consensus:** Mod Buy (cohort median) | **Assets:** ~$90B+
 
 ---
@@ -80,28 +80,20 @@ V3 reduced from "major thesis pillar" to "quality-of-names question on the 2,000
 
 ## POSITIONS
 
-| Strike | Expiry | Contracts |
-|---|---|---|
-| $85P | Jun 18 | 1 |
-| $77.5P | Sep 18 | 1 |
-| $70P | Sep 18 | 1 |
-| $65P | Jun 18 | 1 |
-
-**P/L stale (last broker import Apr 2). Live P/L → `../POSITIONS.md`.** Per CLAUDE.md rule: "Prices must be live. Never cite prices from STATUS files."
+**→ `../POSITIONS.md` is CANONICAL — no strike list is maintained here** (the May-vintage table formerly in this section carried a phantom "Sep $77.5P" and listed the cleared Jun-18 cluster as live — exactly the re-list-drift class the 6/19 structural fix banned; removed 7/17 audit). Live Sep core per POSITIONS 6/19: **$67.5P + $70P**; Jun-18 cluster cleared 6/18; Jul-17 $65P lapsed 7/17 (broker-confirm owed).
 
 ---
 
-## CATALYSTS
+## CATALYSTS (refreshed 7/17 — past events ✅, forward only below the line)
 
 | Date | Event | What it tests |
 |---|---|---|
-| **May 1-10** | **Q1 Call Report filings (FFIEC)** | **MI3 trajectory (V1 acceleration test ≥25%)** + NDFI line reconcile |
-| May 6 | APO Q1 (pre-market) | Atlas SP context, warehouse-counterparty story |
-| **May 12** | **WAL Investor Day** | Mgmt response to thesis vectors — Office concentration, MI3, ECR pressure |
-| May 21 | APO class action deadline | PC sector headline risk |
-| **Jun 18** | **$85P + $65P expiry; AOCI comment period closes** | Position management decision |
-| Q2 print (~Jul) | Quarterly | NCO ex-fraud test (REG-25); Office classified migration (REG-24) |
-| Sep 18 | $77.5P + $70P expiry | Position management |
+| ~~May 1-10~~ | Q1 Call Report filings (FFIEC) | ✅ PASSED WITHOUT INTEGRATION — MI3 test (≥25%) still un-run, FFIEC PDD overdue (ROADMAP thread) |
+| ~~May 12~~ ✅ | WAL Investor Day | Findings shipped `INVESTOR_DAY_FINDINGS_2026-05-12.md` (E=B3 FIRED; Q&A hunt still open) |
+| ~~Jun 18~~ ✅ | $85P + $65P expiry; AOCI comment closed | All Jun-18 cleared per Will 6/19; capital-rules final rule pending |
+| ~~Jul 17~~ ✅ | Jul-17 $65P expiry | Lapsed OTM at $81.88 (broker-confirm owed) |
+| **🔴 Tue Jul 21 AMC** | **Q2 print** (call Wed 7/22 noon) | REG-25 NCO ex-fraud / REG-24 Office classified / $99M disposition A/B/C — grade off `Q2_GRADING_FRAME_2026-07-21.md` verbatim |
+| Sep 18 | Sep core **$67.5P + $70P** expiry (per `../POSITIONS.md`) | Position management post-print |
 
 ---
 
@@ -155,4 +147,4 @@ Cat III/IV mandatory unrealized AFS loss recognition phasing in. Same AOCI dynam
 
 ---
 
-*Thesis (v2.0) → `THESIS.md` | Changelog → `CHANGELOG.md` | Round 2 deep-mine → `sources/q1_2026/` | Fraud detail → `FRAUD/` (refresh pending Wave 1 chunk 3) | Evidence → `workbook/KB.tsv` (refresh pending chunk 4) | Scenarios → `SCENARIOS.md` (re-weight pending chunk 5) | Insiders → `LEADERSHIP.md` | Pre-print prep → `EARNINGS_PREP.md` (historic)*
+*Thesis (**v2.2.1**) → `THESIS.md` | Changelog → `CHANGELOG.md` | Round 2 deep-mine → `sources/q1_2026/` | Fraud detail → `FRAUD/` | Evidence → `workbook/KB.tsv` | Scenarios → `SCENARIOS.md` (v2.2.1; 7/17 banner) | Insiders → `LEADERSHIP.md` | Pre-print prep → `EARNINGS_PREP.md` (historic) | Print-day frame → `Q2_GRADING_FRAME_2026-07-21.md`* *(Wave-1 chunk 3/4/5 refreshes completed May 1 — stale "pending" notes removed 7/17.)*

@@ -2,7 +2,7 @@
 
 **Created:** 2026-03-05
 **Purpose:** Research prompt infrastructure indexed by cluster
-**Usage:** Run prompts with research-capable LLM, save output to `research/outputs/`
+**Usage:** Run prompts with research-capable LLM, save output as a dated file at `research/` top level (the old `research/outputs/` tree was archived 6/26 — do not write there)
 
 ---
 
@@ -22,7 +22,7 @@ prompts/
 
 ## Completed Research Index
 
-All research below is ✅ Complete. Outputs live in `research/outputs/`. Do NOT re-run without new data.
+All research below is ✅ Complete. Outputs were archived to `archive/research/outputs/` (6/26). Do NOT re-run without new data.
 
 ### Cluster 1: Florida (CORAL Territory) — `cluster_1_florida/`
 | ID | Title | Status | Key Finding |

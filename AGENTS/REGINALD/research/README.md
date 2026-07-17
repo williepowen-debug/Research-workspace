@@ -1,140 +1,31 @@
-# REGINALD Research Status
+# REGINALD Research Index
 
-**Updated:** 2026-02-15  
-**Research Packages:** 17+ complete  
-**Sub-Agents:** BROCK, CREED, CORAL, RENO, TEX
+> **Rebuilt 2026-07-17 (audit)** — the prior index (Feb-15 vintage) pointed at `outputs/` series that were archived 6/26 and listed none of the live 2026 research files. Prior content (RP-REG-3.x/4.x series tables, key findings) → git history + `archive/research/outputs/`.
 
----
+**Read before spawning research** (per CLAUDE.md FILES table): check whether a live file below already covers the question, then check `archive/research/`.
 
-## RESEARCH SERIES
+## Live research files (this directory)
 
-### RP-REG-3.x — Geographic & Municipal Analysis
+| File | Date | What it holds | Feeds |
+|------|------|---------------|-------|
+| `CCC_HY_TRIPWIRE_2026-06-25.md` | 6/25 | VX-REG-18.04 full definition — 3-consec >3.6× fire rule, driver-decomp (CCC-led=substance / HY-led=beta), band derivation. **First fire 7/13 (HY-led, no escalate) adjudicated in VX.tsv 7/17.** | VX-REG-18.04, STATUS CCC row |
+| `Q2_PRINT_CONVERGENCE_GRID_2026-06-25.md` | 6/25 | Master Q2-print grid (WAL/OZK/EGBN/ZION/CFG/SSB + CORAL FL canaries), verified-reconciled w/ CARL+CORAL legs | 7/21-23 print week |
+| `Q2_PREREG_ADVERSARIAL_2026-06-25.md` | 6/25 | Two-axis consumer/CRE model (Axis A monolines lead / Axis B regional CRE terminus); WAL magnitude-grading origin (40-55bps PRICED); tripwire classes | `WAL/Q2_GRADING_FRAME_2026-07-21.md` |
+| `CRE_DQ_BY_TIER_2026-06-20.md` | 6/20 | Severity-graded tier-wide CRE-DQ leading-creep drill (OZK/EGBN material, BKU/SBCF small); Q2 build-vs-revert falsifier | STATUS CRE-DQ divergence row; 7/21-22 watch |
+| `COHORT_NCO_DECOMP_2026-06-08.md` | 6/8 | Hyp-A resolution — genuine cohort improvement (ZION/CFG/MTB), EGBN cosmetic outlier, FITB confounded | STATUS Cohort Signal section |
+| `WAL_10Q_DRILL_2026-05-21.md` | 5/21 | v2.2 trigger drill — B1 $99M life-sci walk-away, V2 inventory clean, NDFI breakout, Curley | `WAL/THESIS.md` v2.2+ |
 
-| # | Title | Status | Key Finding |
-|---|-------|--------|-------------|
-| 3.1 | Regional Bank Geographic Footprints | ✅ Complete | No KRE constituent has material TX border exposure |
-| 3.2 | Municipal Securities Exposure | ✅ Complete | ZION = $5.78B total muni (lender, not just holder); WAL = $1.36B UNRATED |
-| 3.3 | DC Corridor Bank Analysis | ✅ Complete | EGBN 100% DC, already in crisis; NoVA has "Defense Shield" |
-| 3.4 | Texas Border Municipal Analysis | ✅ Complete | Barclays void; CFR/TCBI filling gap; Laredo water crisis |
-| 3.5 | Florida Insurance-Banking Nexus | ✅ Complete | Citizens $678B "Sword of Damocles"; VLY commercial reinsurance risk |
+## Archived (→ `archive/research/`, moved 6/26 + 7/17)
 
-### RP-REG-4.x — Systemic Channels
+`Q1_10Q_SWEEP_2026-05-08.md` (retired 7/17, >60d rule) · `FL_CONVERGENCE.md` · `GSE_PLS_CRE_EXPOSURE_ANALYSIS.md` · `outputs/` (all RP-REG-3.x / 4.x / FL series — the old index's tree, incl. muni/DC-corridor/FL-insurance findings). Sub-agent research: `archive/sub-agents/{TEX,RENO}/`.
 
-| # | Title | Status | Key Finding |
-|---|-------|--------|-------------|
-| 4.1 | Stablecoin Deposit Flight | ✅ Complete | $500B outflow projected by 2028; systemic NIM compression |
-| 4.2 | Florida HOA/Condo Crisis | ✅ Complete | Post-Surfside SB 4-D → $10K-$224K assessments on 900K+ condos |
-| 4.3 | FL Institutional Capital | ✅ Complete | Private capital flows to distressed FL assets |
+## Prompts
 
-### RP-FL-x.x — Florida Deep Dives (CORAL)
+`prompts/README.md` — external-LLM research prompt conventions. *(Outputs no longer land in `research/outputs/` — that dir is empty/retired; new research writes dated files at this level.)*
 
-| # | Title | Status | Key Finding |
-|---|-------|--------|-------------|
-| 1.1 | Florida Condo Receivership | ✅ Complete | 1,438 blacklisted buildings |
-| 1.2 | FL Private Insurer Health | ✅ Complete | Carrier stress mapping |
-| 1.3 | VLY Florida Exposure | ✅ Complete | FL 27% of loans, $3.3B Miami CRE |
-| 1.4 | Florida Bridge Loan Market | ✅ Complete | Refinancing gap analysis |
-| 1.5 | Florida Developer Acquisitions | ✅ Complete | Distressed deal flow |
-| 2.1 | Private Insurer Health (v2) | ✅ Complete | Updated carrier analysis |
+## Open research gaps (live, from ROADMAP)
 
-### RP-REG-5.x — Market Microstructure & Volume
-
-| # | Title | Status | Key Finding |
-|---|-------|--------|-------------|
-| 5.1 | KRE Volume Deep-Dive (Tasks 1-4) | 🟡 In Progress (5-7 pending) | Moved to `trade/market-microstructure/`. KRE shares -12.4% while price +6.8% (AP redemption). OZK 0.53x up/down ratio = persistent distribution. |
-
-### RQ-REG-x — Research Questions (Ad Hoc)
-
-| # | Title | Status | Key Finding |
-|---|-------|--------|-------------|
-| A01 | WAL/ZION Fraud Comparison | ✅ Complete | Both -13% post-Tricolor; WAL "hyper-vigilant" |
-| A02 | Stupin Syndicate Mapping | ✅ Complete | Sector exposure mapping |
-| A02B | Forensic Insurance Auditor | ✅ Complete | Deep forensic analysis |
-| A03 | Fraud Contagion Signals | ✅ Complete | Sector transmission paths |
-| B01 | LP Liquidity / CFG Transmission | ✅ Complete | Fund finance $10-11B exposure |
-| C01 | FHLB Haircut Policy | ✅ Complete | Haircut mechanics during stress |
+MI3/FFIEC PDD Q1 pull (overdue) · post-7/21 thesis-of-record rewrite inputs · KB malformed-block reconstruction (~ML-REG-099..116 + 139) · Atrium 67pp OZK life-sci report (unread) · WAL Investor Day Q&A transcript hunt.
 
 ---
-
-## KEY FINDINGS SUMMARY
-
-### 1. Multi-Channel Exposure Matrix
-Banks scored by exposure to 8 convergence channels. WAL (10), VLY (9), CFG (9), ZION (9) have multiple paths to break.
-
-### 2. Hidden Exposures Discovered
-| Bank | What Market Sees | What We Found |
-|------|------------------|---------------|
-| ZION | $1.4B muni securities | $5.78B total (+ $4.36B loans + $524M unfunded) |
-| WAL | $2.28B muni securities | $1.36B is UNRATED = private placements |
-| CFG | Big muni investor? | $1M — effectively zero |
-
-### 3. Florida Doom Loop
-Citizens Property Insurance emergency assessment can levy 10% on ALL FL policies indefinitely. Banks hit both sides: loan losses + AFS/OCI losses on muni holdings.
-
-### 4. BDC Transmission Path
-PIK masks 6% shadow default rate (vs 2.1% reported). PSEC 8.6% (verified — prior 35% was hallucinated), FSK 27%. Dividend cuts → NAV crashes → bank fund finance losses.
-
----
-
-## DATA GAPS
-
-| Gap | Priority | Notes |
-|-----|----------|-------|
-| Burke & Herbert (BHRB) deep dive | 🟡 Medium | DC corridor, >50% AFS in munis |
-| Nevada gaming/tourism stress | 🟡 Medium | RENO sub-agent territory |
-| Texas border bank forensics | 🟡 Medium | IBOC is only public play |
-| 2013 sequester precedent analysis | 🟢 Low | Historical comparison |
-
----
-
-## SUB-AGENT RESEARCH STATUS
-
-| Sub-Agent | Research Packages | Status |
-|-----------|-------------------|--------|
-| **BROCK** | BDC analysis, bankruptcy tracking, AI capex | Active |
-| **CREED** | CMBS DQ, maturity wall, Chicago repricing | Active |
-| **CORAL** | FL condo, HOA, insurance, VLY exposure | Active |
-| **RENO** | Canadian tourism, housing | Dormant |
-| **TEX** | Border, munis | Dormant |
-
----
-
-## EXHAUSTED TOPICS
-
-*Do not re-research without new data:*
-
-- Regional bank CLO holdings (RF is outlier, not systemic)
-- Japan BOJ FSR — they're BUYING CLOs, not selling (trigger is US credit cycle)
-- SoCal/Imperial Valley — coastal only, no KRE exposure to ag stress
-- SBCF deep dive — fortress balance sheet, skip as short target
-
----
-
-## NEXT RESEARCH PRIORITIES
-
-| Priority | Topic | Trigger |
-|----------|-------|---------|
-| 🔴 High | PSEC/FSK Q4 analysis | Feb 15-20 earnings |
-| 🔴 High | Q1 bank earnings preview | Mar 2026 |
-| 🟠 Medium | Phoenix CRE repricing | If Chicago pattern spreads |
-| 🟡 Low | BHRB DC exposure | If DOGE accelerates |
-
----
-
-## FILE LOCATIONS
-
-```
-research/
-├── README.md              # This file — master research index
-├── prompts/               # Research prompts for external LLM execution
-├── outputs/
-│   ├── RP-REG-3.x/       # Geographic/Municipal
-│   ├── RP-REG-4.x/       # Systemic Channels
-│   ├── RP-FL-x.x/        # Florida (CORAL)
-│   └── RQ-ad-hoc/        # Ad hoc research questions (A01-C01)
-└── FL_CONVERGENCE.md     # Florida convergence synthesis
-```
-
----
-
-*For bank exposure details, see `BANK_EXPOSURE_MATRIX.md`*
+*Updated 2026-07-17. Peer research: CREED (`AGENTS/CREED/`), OZK (`AGENTS/OZK/`), CORAL (`AGENTS/CORAL/`).*

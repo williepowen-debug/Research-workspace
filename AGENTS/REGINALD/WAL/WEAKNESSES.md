@@ -1,4 +1,6 @@
 # WAL — Thesis Weaknesses
+> ⚠️ **STALE-VINTAGE — v1-era DRAFT, 2026-03-25 (bannered 7/17 audit).** Written before the v2.x "compounder + concentrated CRE tail" reframing; carries superseded claims (true-CRE ~59% w/ MI3, Cantor $98M — actual Q1 charge $26.1M, SSFA $1.1B). **Live falsifier canon → `THESIS.md` v2.2.1 calibration tables + `Q2_GRADING_FRAME_2026-07-21.md` non-credit falsifier**, not this file. Rewrite folds into the post-Jul-21 v2.3 pass.
+
 **Last Updated:** 2026-03-25 | **DRAFT**
 
 ---

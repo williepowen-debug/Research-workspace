@@ -1,3 +1,5 @@
+> ⚠️ **STALE-VINTAGE — frozen at 2026-03-19 (bannered 7/17 audit). DO NOT cite rows as current** ("HY OAS 328" → 271 [7/16]; "Brent $108+" → $87.67 [7/17]; "UI cliff Mar 24" → passed unresolved). Live channel status = STATUS.md §THESIS table. Rewrite folds into the post-Jul-21 thesis pass.
+
 # 8-Channel Convergence Status
 **Last Updated:** 2026-03-19 | **Source:** Post-Mar-17 + CARL HY OAS flag
 

@@ -112,7 +112,7 @@ Per prep position-implications matrix:
 
 | Position | Action | Reasoning |
 |---|---|---|
-| **Sep $77.5P / $70P (core)** | **REINFORCED — HOLD** | REG-25 (WAL ex-fraud NCO >40bps Q2 OR Q3) confidence ratchets 55% → 65%+ on guide-hold without Q1-tension acknowledgment. Sep tenor matches Q2 print (~late Jul) and pre-Q3 catalysts. |
+| **~~Sep $77.5P~~ / $70P (core)** *(7/17 note: the $77.5P was Jun-18-tenor per POSITIONS canonical — mis-recorded here at writing; Sep core = $67.5P+$70P)* | **REINFORCED — HOLD** | REG-25 (WAL ex-fraud NCO >40bps Q2 OR Q3) confidence ratchets 55% → 65%+ on guide-hold without Q1-tension acknowledgment. Sep tenor matches Q2 print (~late Jul) and pre-Q3 catalysts. |
 | **Jun $85P (event-driven hedge)** | **HOLD** | No B1/B2 fire; bucket D modal-U2; modal "passive into MI3 print" remains the active read. $85P retains optionality if MI3 print (today / 5/14-16) fires bear-fast. |
 | **Jun $65P (under V2.1 close-rec WITHDRAWN, HOLD-or-ROLL-TO-SEP)** | **HOLD; do not close** | No B2 (Bucket D bear-fast trigger) fired. No L1/L2 cleared. Modal "passive into MI3 print" applies. Reactivation candidate ONLY if MI3 print fires ≥27% (V1 hard-confirmed) per WAL/THESIS.md V2.1 calibration table. |
 | **No new positions** | — | The B3 trigger is a confidence-ratchet, not a new position-trigger. |

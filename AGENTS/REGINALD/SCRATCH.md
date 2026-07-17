@@ -41,29 +41,7 @@
 
 ---
 
-## 2026-06-25 — Transmission-Terminus Cluster, Pass 1 (hub seat) — tripwire + grid + leg-spec
-
-**Did three bounded things (per Prome spawn brief):**
-1. **CCC/HY >3.6×-sustain tripwire BUILT** (finally — flagged 6/8, 6/19, 6/22, never built). VX-REG-18.04 + `research/CCC_HY_TRIPWIRE_2026-06-25.md`. Live re-pull (`.venv` + fetch.py fred): **3.49× [6/24]** (CCC 964 / HY 276). **3.6× NEVER crossed in 12 sessions** (band 3.42-3.57x) → DORMANT. Sustain = **3 consecutive closes >3.6×** (derived: oscillation cycle ~1-2d, in-band elevated clusters up to 3d, threshold set above the band ceiling); reset on any ≤3.6×; ARMED at 1-2. Mandatory **driver-decomp**: CCC-led=substance/escalate LIQUID/BROCK; HY-led=beta/benign.
-2. **Master Q2-Print Convergence Grid** skeleton stood up → `research/Q2_PRINT_CONVERGENCE_GRID_2026-06-25.md` (WAL/OZK/EGBN/ZION/CFG/SSB + CORAL FL-canary rows) + exact leg-input spec for CARL/CORAL.
-3. **Inbox triage** (load-bearing-for-cluster only).
-
-**Key analytic finding (substance-vs-beta):** 6/19→6/24 ratio **COMPRESSED** 3.560→3.493× — HY widened +3.8% vs CCC +1.8%, so the 6/24 bear leg is **HY/index-led, not CCC-tail-led = beta not substance.** Additive gap (CCC−HY) widened +7bp though → ratio and gap diverge when both legs move (ratio base grows). Handed to Prome/CARL as a corroborating input to the X1 "widening is beta" call; CARL's consumer-substance read is the independent test.
-
-**WALTER inbox triage dispositions:**
-- **PROCESSED (cluster-load-bearing):** SIG-W-20260624-007 (DFAST) → INTEGRATED, bull-counter+coverage-caveat row in STATUS + BOARD_LOG. SIG-W-20260624-004 (BXMT) → INFO_ONLY cross-ref (not bank-held), STATUS + BOARD_LOG.
-- **DEFERRED, already-integrated:** 618-005/006/007/008/009 (ACTION cluster) — all live in STATUS rows (IPO / capital-rules / Office CMBS / MF starts / CRE-DQ-by-tier DRILLED 6/20). Not re-moved.
-- **DEFERRED → other agents' legs:** 619-002/007/008 + 621-011/013 + 622-001 (DEWEY) → CORAL (FL CRE/condo). 622-008 (consumer card) → CARL. 621-009 (liquidity backdrop) → LIQUID. 622-002 (AI-software CLO) → BROCK/light. None cluster-Pass-1-critical; DEWEY (622-001) already partially reflected in my STATUS CRE-DQ row.
-
-**Grid FINALIZED + VERIFIED-RECONCILED same session** — both legs folded then reconciled to CORAL's verified 10-Q XBRL fill (commit `ee8c195e`): CARL consumer (CFG = only separate consumer path → 3-path standout; rest housing-secured→CORAL) + CORAL FL (5 canaries, BKU/AMTB attribution fixed, two-channel resi+condo netting). **Verified 30-89d:** SBCF $28.2M (−14% QoQ off Q4 peak/+65% YoY; nonaccrual $72→95M sharper), USCB $10.1M (tiny base), AMTB $88.6M (lumpy-commercial), BKU $234M→$123M ex-gov benign. SSB FL-content ≈$0 (rate-shock reclass); VLY→fleet. **Cluster verdict: diagnostic NOT-met + predicted un-met Q2; realized synchronized NCO = 2027; condo/SIRS = 2027.** Key refinement: the only ≥2-bank synchronized = USCB+SBCF **YoY-ONLY**, NOT realized NCO, QoQ cooling. CCC/HY tripwire DORMANT (3.49×); 6/24 widening HY-led=beta. All three corroborate: nothing fires near-term, machinery pre-built for X1.
-
-**Wave-2 + adversarial pass + COF/CFG axis-split wired same session** (`research/Q2_PREREG_ADVERSARIAL_2026-06-25.md` + grid): 3 tripwire classes (synchronized-credit / single-name-credit / **NON-CREDIT balance-sheet** ≥2 of ZION/WAL/CFG/EGBN). **TWO-AXIS consumer/CRE model (CARL-ratified):** Axis A = unsecured/un-maskable/H2-26 = monolines SYF/ALLY + COF-card (LEAD); Axis B = collateral-backed/deferrable/Q1'27 = regional CRE terminus (my positions sit here). **COF = dual-axis standout** (only name with both on one B/S post-Discover); **CFG reclassified** strong-3-path-regional-but-Axis-B-only (18.7% consumer is housing-secured, NOT unsecured). Monoline-only break confirms Axis A, does NOT flip Axis-B terminus. **monoline LEAD COF/SYF/ALLY** print FIRST ~Jul15-22 (all GREEN 6/25, Axis-A turn not showing); **ZION re-registered** onto AOCI/NIM axis (10Y 4.41 [6/24], +11bp QoQ — re-pull 6/30 mark); **WAL magnitude-graded** — 40-45bps PRICED, bear-confirm >55bps+$99M-charge-off ~30-35% (NOT my prior ~70% — over-claim corrected); EGBN+AMTB ~25-35% JOINT + disjunctive (reserve-build IS Q2 transmission, realized NCO 2027).
-
-**Threads carried (ROADMAP):** CCC/HY tripwire daily monitor (un-fired, 3-consec >3.6× = fire); **monoline LEAD prints ~Jul15-22** (earliest consumer-turn read); **ZION 6/30 AOCI/TBVPS re-pull**; Q2-grid forward confirmer = rising 30-89d FL resi/condo at ≥2 of {AMTB,SBCF,USCB} 2 consec Q; WAL Q2 magnitude watch (>55bps+charge-off); SSB FL-# resolves Q2/10-Q.
-
-**Open for next session:** Pass-2 = wire CCC/HY consecutive-count check into scripts/boot.py (deferred); refresh STATUS prices (WAL $81.48 6/25, stale 6/22 block); refresh grid [PENDING] cells + AMTB/BKU 10-Q attribution at the Q2 prints; re-pull 6/30 quarter-end AOCI mark for ZION.
-
----
+*(6/25 section pruned 2026-07-17 — >3wk; tripwire def promoted to research/CCC_HY_TRIPWIRE + VX row; Q2 grid/axis-split live in research/Q2_* files + grading frame; un-done leftovers [ZION 6/30 AOCI re-pull, boot.py consec-counter] promoted to ROADMAP backlog.)*
 
 *(6/22 section pruned 2026-07-17; 6/20 + 6/19 pruned 2026-07-10 — >2wk, substance in ROADMAP Recently Resolved / MEMORY Findings.)*
 

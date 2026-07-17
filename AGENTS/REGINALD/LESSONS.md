@@ -27,7 +27,7 @@ All three can coexist at the same bank. WAL uses all three.
 **Rule:** Every metric must have a date. "Office DQ is 12.34%" means nothing without "as of Jan 2026." Stale data in STATUS.md causes wrong analysis.
 
 ### [Process] — STATUS.md Is Not a Research Report
-**Rule:** STATUS.md is a dashboard — current state, thresholds, positions. Research detail belongs in archive/, workbook/, or source files. If STATUS.md exceeds 10KB, it needs pruning.
+**Rule:** STATUS.md is a dashboard — current state, thresholds, positions. Research detail belongs in archive/, workbook/, or source files. If STATUS.md exceeds **250 lines** (the enforced CLAUDE.md cap — the old "10KB" figure conflicted with it and lost; reconciled 7/17), it needs pruning.
 
 ### [Data] — Verify Real-Time Prices Before Building Narratives
 **Mistake:** STATUS.md stated Brent $118-125 and built an entire FL energy shock cascade on that figure. Actual was $81.40. The error propagated through multiple sections before being caught.
@@ -39,7 +39,7 @@ All three can coexist at the same bank. WAL uses all three.
 
 ### [Methodology] — Run Own Falsifier-Status Check Before Thesis-Level Reframings
 **Mistake:** WAL THESIS v2.0 (May 1) demoted V1 (hidden CRE / MI3 reclassification) from "MI3/hidden CRE/fast-transmission" to "Office single-point" — a 14× scope narrowing — BEFORE V1's primary pre-registered falsifier (MI3 ≥25% via Q1 Call Report) actually ran. RED CHG-RED-025 stress-test (May 6, 6-method weighted) verdict: OVER-CORRECTED (~26% aggregate PASS). Strongest single critique: M2 (counter-factual / pre-registered falsifiers). Caught by external grep + methodology audit, not by self-review.
-**Rule:** Before publishing thesis-level reframings, run own falsifier-status check. Pre-registered falsifiers live in `WEAKNESSES.md` and bank-specific thesis files. Ask "have any of my own falsifiers actually fired?" — if not, reframing is premature. Demoting on framework redefinition (renaming the vector to narrower scope) instead of falsifier-firing is the specific anti-pattern. Same lesson family as the WALTER Turn 2 catch (claimed "zero action" in BOARD routing without running the grep first) — both cases would have been prevented by 30-second verification pass before publishing.
+**Rule:** Before publishing thesis-level reframings, run own falsifier-status check. Pre-registered falsifiers live in **`WAL/WEAKNESSES.md`** (path fixed 7/17 — no top-level WEAKNESSES.md exists; note that file is itself v1-era-bannered, live falsifier canon = `WAL/THESIS.md` calibration tables) and bank-specific thesis files. Ask "have any of my own falsifiers actually fired?" — if not, reframing is premature. Demoting on framework redefinition (renaming the vector to narrower scope) instead of falsifier-firing is the specific anti-pattern. Same lesson family as the WALTER Turn 2 catch (claimed "zero action" in BOARD routing without running the grep first) — both cases would have been prevented by 30-second verification pass before publishing.
 
 ### [Methodology] — Position EV Math Must Match Thesis Timeline
 **Mistake:** WAL SCENARIOS v2.0 EV table credited Jun 18 puts with full multi-quarter bear-payout intrinsic ($22 on $85P at $63 stock) — but V2.0's own bear-case mechanics said "fires across Q2-Q3 2026 (not single event)." Q3 ends Sep 30, well after Jun 18 expiry. RED M4 catch: either the math or the thesis is wrong; they can't both be true.

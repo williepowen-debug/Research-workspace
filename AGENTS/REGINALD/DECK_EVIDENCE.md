@@ -44,7 +44,7 @@ Dale Gibbons served as WAL's CFO for 22 years — longer than five times the ind
 **The source:**  
 - WAL 8-K filings: Dec 11, 2024 (CEO medical leave); Jul 17, 2025 (CFO transition); Dec 11, 2025 (board additions) — all on SEC EDGAR, CIK 1212545  
 - LinkedIn / JPM FIG: Idnani background  
-- `INSIDER_BEHAVIOR_SCAN.md` (filed 2026-03-13)  
+- `domain/INSIDER_BEHAVIOR_SCAN.md` (filed 2026-03-13; path fixed 7/17)  
 - `STATUS.md` CFO Swap Analysis section (filed 2026-03-13)
 
 **Strength:** 🔴 SMOKING GUN  
@@ -64,7 +64,7 @@ The headline was "profits up 10.2%, NIM highest since 2019." The fine print: non
 - FDIC Quarterly Banking Profile, Q4 2025 — released Feb 24, 2026  
   https://www.fdic.gov/news/speeches/2026/fdic-quarterly-banking-profile-fourth-quarter-2025  
 - Chart 11 (CRE concentration by bank size — the "money shot")  
-- `RP-REG-6_FDIC_QBP_Q4_2025.md`
+- `domain/sources/RP-REG-6_FDIC_QBP_Q4_2025.md`
 
 **Strength:** 🔴 SMOKING GUN  
 *This is the government regulator's own data. There is no "but that's just one analyst" objection. The FDIC itself is flagging exactly what we're trading against.*
@@ -83,7 +83,7 @@ The standard playbook in commercial real estate distress is "extend and pretend"
 - Bloomberg, Mar 6, 2026: Kennedy Wilson bondholder revolt  
 - KW Exchange Offer dated Mar 2, 2026 (SEC filing)  
 - Milbank LLP bondholder organization confirmed  
-- `mail/inbox/2026-03-11_to-reginald_kennedy-wilson-bondholder-revolt.md`  
+- ~~`mail/inbox/2026-03-11_…kennedy-wilson-bondholder-revolt.md`~~ *(dead path — the HERMES-era `mail/` tree was retired; file not preserved in `inbox/processed/` either. Claim stands on the Bloomberg/SEC cites above; noted 7/17 audit.)*  
 - `STATUS.md` Mar 12 AM update, Signal 2
 
 **Strength:** 🟠 STRONG SIGNAL  
@@ -143,7 +143,7 @@ OZK built its reputation as a disciplined CRE lender. But it is now holding $915
 - Bisnow: "Bank OZK Offloads $265M Life Sciences Construction Loan" (Jan 5, 2026)  
 - Moody's OZK CRE Concentration Report (Jun 2024)  
 - FDIC Call Report (Construction/Tier 1 ratio)  
-- `RP-REG-7_OZK_THESIS.md`
+- `domain/sources/RP-REG-7_OZK_THESIS.md`
 
 **Strength:** 🟠 STRONG SIGNAL  
 *The IQHQ number ($915M loan, ~$500M analyst estimate of value) is verifiable from public filings and analyst research. The loan sale is documented. The CEO quote is on the record.*
@@ -198,7 +198,7 @@ Bank OZK's Chief Risk Officer sold 10.78% of his personal stock holdings in Febr
 Insider stock sales are common and often meaningless — most executives sell through "10b5-1 plans," which are pre-programmed automatic schedules set up months in advance. A discretionary sale, with no such plan, means the person actively decided to sell on that specific day. The person who did this at OZK is the Chief Risk Officer — the individual whose job is to understand, in detail, every stressed credit on the bank's books. In the same period, OZK's CFO staged approximately $944,000 in sales across two tranches (October 2024 and January 2025), representing roughly 22% of holdings. A director sold $5.2 million at $51.50 — the stock is now in the $42-44 range, near a 52-week low. No insider at OZK has purchased shares in the past 12 months. The CEO (who owns ~10% of the company personally) has not sold — but at that ownership level, any sale would be a public market signal, so his captivity is not evidence of confidence. The bank's own management said reserves were built "over 14 quarters in anticipation that some sponsors would become no longer willing to or able to support their projects."
 
 **The source:**  
-- SEC EDGAR Form 4 filings (OZK files with FDIC, not SEC — insider data accessed through OZK IR documents; see note in `INSIDER_BEHAVIOR_SCAN.md`)  
+- SEC EDGAR Form 4 filings (OZK files with FDIC, not SEC — insider data accessed through OZK IR documents; see note in `domain/INSIDER_BEHAVIOR_SCAN.md`)  
 - OZK Q4 2025 earnings call transcript (Jan 20, 2026): 14-quarter reserve build language  
 - `STATUS.md` Insider Behavior Scan section (filed 2026-03-13)  
 - Director Whipple: $5.2M sale at $51.50 documented in OZK FDIC proxy filing

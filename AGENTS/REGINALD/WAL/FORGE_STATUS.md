@@ -1,3 +1,5 @@
+> ⚠️ **STALE-VINTAGE — Feb/Mar-2026 fossil (bannered 2026-07-17 audit). Do NOT cite as current.** Live canon: price/tape → `../STATUS.md`; positions → `../POSITIONS.md`; thesis → `THESIS.md` v2.2.1.
+
 # WAL (Western Alliance Bancorporation) — Trade Status
 
 **Last Updated:** 2026-02-24
