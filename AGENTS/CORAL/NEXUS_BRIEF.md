@@ -3,8 +3,14 @@
 **Status:** 🟠 ELEVATED — FL household/condo stress real; bank-loss transmission not yet in Q1 prints
 **Domain:** Whole-Florida stress surface — condo/SF/CRE real estate, insurance, FL banks, migration/tourism, state fiscal/property-tax, labor/construction, coastal/climate
 **Thesis version:** Coral Bleaching v1.0 — installed rails at `thesis/THESIS.md`; changelog `thesis/CHANGELOG.md`
-**As of:** 2026-07-09 17:35 ET | STATUS commit: 74ea5aa8 (7/9 Pass-2 — WALTER 18-SIG backlog drain + MARCO migration/AEOLUS C1 reconcile), local-only pending push. **Mandatory-refresh note:** this brief went 2 weeks unrefreshed (last touch 6/25) despite two 7/9 sessions writing material STATUS changes — caught in the 7/9 self-sweep; see 7/9 UPDATE below for what moved.
+**As of:** 2026-07-17 ~12:45 ET | STATUS commit: pending this session (ATTOM H1-2026 foreclosure route). Prior: 74ea5aa8 (7/9 Pass-2). See 7/17 UPDATE below.
 **Cluster:** FL regional-bank CRE/condo leg of the transmission-terminus cluster (REGINALD hub, CARL consumer). Leg grid → `CLUSTER_FL_BANK_LEG.md`.
+
+---
+
+## 7/17 UPDATE (ATTOM H1-2026 foreclosure — no thesis-level change, no rail move)
+
+Primary-verified the ATTOM Mid-Year 2026 report (`sources/ATTOM_H1_2026_foreclosure.md`). **FL #1 state foreclosure rate 0.27% (1 in 373 HU), 27,494 properties** — but +0.01pp over SC (Southeast cluster, not FL-unique); rate-rank rose #3(Q1)→#1(H1). FL holds nation's **#1 (Punta Gorda 0.50%) + #2 (Lakeland 0.48%)** metros; **Jacksonville + Ocala are NEW entrants** (Tampa/Orlando rotated out). **Per-metro convergence grid now BUILT** (`GRID_PER_METRO.md`): core SW/Central Gulf Coast hardened, FC channel broadened NE but no new multi-channel metro. **Bank-rail = CONTEXT-ONLY** — collateral-side, and it does NOT show the pre-registered bridge (foreclosure broadening into SE-FL condo collateral); epicenter is SW-FL single-family (neg-equity/carrying-cost driven), not condo-tower. ONE FL figure reconciled with HOMER (housing mechanics). 7/21 FL-employment print pre-registered as joint read (LABOR already leans not-employment-driven). Window discipline: "1 in 373" H1-cumulative ≠ older "1 in 2,110" May-monthly (consistent, no step-change).
 
 ---
 
@@ -69,7 +75,8 @@ Two 7/9 catch-up passes (14-day CORAL gap): drained 8-item + 18-item inbox/WALTE
 
 | Date | Event | Threshold / Signal |
 |------|-------|---------------------|
-| Next CORAL session | Per-metro convergence grid | Add negative-equity and bankruptcy canaries to SW-FL/SE-FL map |
+| ✅ 7/17 | Per-metro convergence grid — BUILT (`GRID_PER_METRO.md`) | Core SW/Central Gulf Coast hardened (holds nation's #1/#2 FC metros); FC channel broadened NE (Jax/Ocala) but no new multi-channel metro |
+| **Tue 7/21** | **FL State Employment (June) — joint read w/ ATTOM H1 foreclosure** | **FL UR ≥4.9% (8th rise) + foreclosure breadth beyond SW-FL vintage metros = employment-driven signature → cross-flag LABOR + accelerate bank-NCO timeline. Else = cost-stack driver = CORAL's, timeline slow. LABOR already leans not-employment-driven.** Same day: OZK/WAL/ALLY + China LPR (separate rails) |
 | Late Jun / Jul | Fresh FL housing / foreclosure / bankruptcy updates | SW-FL convergence cluster acceleration; bankruptcy court rank validation |
 | Late Jul 2026 | Q2 FL bank earnings | SSB classified CRE migration, SBCF two credits, VLY criticized, AMTB ACL/NPL, USCB condo-assoc canary |
 | Hurricane season through Nov 30 | FL landfall risk | CSU now 9/4/1 (fewest since 2014); soft-market asymmetry (AEOLUS) — reverses insurance-easing channel if loss event hits |

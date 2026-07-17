@@ -1,4 +1,4 @@
-# CORAL SCRATCH — 2026-07-09 (catch-up session, 14-day gap; 2 passes)
+# CORAL SCRATCH — 2026-07-17 (ATTOM H1-2026 foreclosure route, PROME-spawned, teams-mode w/ HOMER live)
 
 **Purpose:** Canonical ephemeral session handoff. Read at boot; rewrite at closeout. Durable findings → `MEMORY.md`/workbook; live state → `STATUS.md`.
 
@@ -6,48 +6,44 @@
 
 ## CHANGES SINCE LAST SESSION
 
-**Pass 1 (16:55 ET):** Spawned by PROME for a catch-up session (14-day gap, stalest in fleet). Drained 8 scoped inbox items, resolved AEOLUS boundary handshake, refreshed STATUS/SCRATCH, stated forward-prep watch items. Full detail in prior SCRATCH revision (superseded by this rewrite) + `CATCHUP_2026-07-09.md`.
+Will-directed route from today's RESEARCH-INTAKE lane run: pull the ATTOM H1-2026 foreclosure primary, verify press claims, place in per-metro grid, run the bank-rail check, reconcile ONE figure with HOMER (live in parallel), pre-register the 7/21 joint read, and dispose the MARCO angle. **No thesis-level change, no rail move.** Material outputs:
 
-**Pass 2 (17:35 ET, same evening, Will-approved):** PROME follow-up — drain the full WALTER SIG backlog flagged in Pass 1 (18 items) + a 2-item PROME routing bundle (MARCO migration reconcile, AEOLUS C1 sharpen). This pass produced **real thesis-relevant updates**, not just housekeeping:
-- **Property-tax amendment (pillar 9) MAJOR rewrite** — Amendment 3/HJR 1F is verified-primary CERTIFIED (was a vague "🔴 ballot watch" placeholder since 6/19). New CRE/MF/business burden-shift headwind identified (extends DEWEY's original framing).
-- **Hurricane forecast MATERIAL update** — CSU cut twice since the 6/19 dashboard figure (14/7/3 → 11/5/2 → **9/4/1**, fewest since 2014). This was stale on the dashboard for 3 weeks; caught this pass via the AEOLUS ENSO reconcile ask.
-- **Neg-equity refresh** — Cape Coral 10.1%→11.1% (2nd independent source), 2024-vintage cohort 35.4%, Lakeland 10.8% added.
-- **Fire-sale consolidation** — 3 overlapping Parcl-MSI-family WALTER signals (004/011/627-003) reconciled to one read instead of risking triple-counting.
-- **Insurance — 2 new structural threads** — construction-insurance *availability* block (not just price) on a $1.6B Miami tower; flood-uninsured mortgage-credit tail (FL ~18% of NFIP policies).
-- **Migration divergence CLOSED** (routing bundle #1) — BofA Q1 metro-negative claim vs MARCO's canonical +22,517: documented as different vintage/basis, MARCO's figure adopted explicitly as canonical, no CORAL number changed.
-- **Citizens/depopulation scope flag OPENED, not resolved** (routing bundle #2) — CORAL's 294,253 (personal-lines) vs AEOLUS's ~395K (scope unspecified) are plausibly different line-scopes, not a contradiction, but unverified — carried as an open question, not silently reconciled either way.
+- **ATTOM H1-2026 primary VERIFIED** (`sources/ATTOM_H1_2026_foreclosure.md`) — all 4 press claims true, 2 nuanced. FL #1 state rate **0.27% (1 in 373 HU), 27,494 properties** — but +0.01pp over SC (Southeast cluster). FL holds nation's **#1 (Punta Gorda 0.50%) + #2 (Lakeland 0.48%)** metros; Cape Coral 0.35%; **Jax 0.31% + Ocala 0.31% NEW** (Tampa/Orlando rotated out). National 227,548 +21%; starts 164,566 +18%; REO 27,983 +33%.
+- **Per-metro convergence grid BUILT** (`GRID_PER_METRO.md`) — the multi-session open build item, now closed. Verdict 🟠 holds: core SW/Central Gulf Coast hardened, FC channel broadened NE but no new multi-channel metro.
+- **Bank-rail = CONTEXT-ONLY** (does not move, does not arm) — collateral-side; the pre-registered bridge (FC broadening into SE-FL condo collateral) is NOT met (epicenter is SW-FL single-family/neg-equity, not condo-tower). Re-test = Q2 bank earnings ~7/21-28.
+- **KB row ML-CORAL-029** added; **STATUS** 7/17 block + refreshed FC dashboard rows (window-tagged) + grid pointer; **FL_Forward_Log** 7/17 (done) + 7/21 (pre-registered) rows; **NEXUS_BRIEF** 7/17 update + WATCH refresh.
+- **Two load-bearing nuances:** (1) WINDOW — "1 in 373" H1-cumulative ≠ "1 in 2,110" May-monthly (consistent, no step-change); (2) RANK — FL rose #3(Q1)→#1(H1) = the real relative-deterioration signal.
 
 ## WHAT I DID THIS SESSION
 
-**Pass 1:** boot chain read, 8-item scoped inbox drain, AEOLUS handshake resolution, STATUS/SCRATCH/COVERAGE updates, forward-prep table, CATCHUP note, commit `f1617d32`.
-
-**Pass 2:**
-- Read all 18 remaining WALTER SIGs (`inbox/WALTER/`, oldest 2026-06-26 SIG-004 → newest 2026-07-04 SIG-006) + the ENSO routing NOTICE + the PROME routing bundle.
-- `git mv` all 19 WALTER-lane files to `inbox/WALTER/processed/`; `git mv` the routing bundle to `inbox/processed/`.
-- Logged 19 disposition rows to `board_log.tsv` (oldest-first, one line each — acted/noted/superseded, no LAPSED candidates found in this batch — none carried a hard watch-window that passed unmet).
-- **Major STATUS.md rewrite**: new "7/9 EVENING — WALTER BACKLOG SWEEP" block (9 numbered sub-sections covering all 18 signals + both routing-bundle items); updated dashboard rows (neg-equity, hurricane forecast) and pillar-table rows (migration, CRE, state fiscal, labor, insurance-commercial); added 2 new Open Questions (hurricane asymmetry watch, Citizens-scope reconcile). STATUS still 171 lines (under the 250-line cap).
-- Cross-read `AGENTS/MARCO/STATUS.md` (migration canonical figure + its own divergence-flag language, commit `a95631b7`) and `AGENTS/AEOLUS/STATUS.md` (C1 ENSO figures, Citizens ~395K/−8.7%/17+carriers) to do the reconcile — did NOT edit either file (not CORAL's to write; per fleet rule, own the FL-specific number, cite the other agent's file for their side).
+- Boot chain (date, CLAUDE.md, THESIS, STATUS, SCRATCH, inbox). Web tools loaded via ToolSearch.
+- Pulled ATTOM primary (2 fetches: PRNewswire 302827085 + attomdata.com) — got both metro lists (≥200K H1, ≥500K Q2).
+- Wrote primary extract, built grid, added KB row, updated STATUS/forward-log/NEXUS_BRIEF, wrote MARCO note, wrote PROME outbox memo.
+- **SendMessage HOMER ×2:** (1) foreclosure ONE-figure proposal; (2) condo-index + inventory-label reconcile confirm (closes the DAEDALUS 7/12 + PROME-routing 7/12 condo asks).
+- **Drained root inbox** (6 items → processed): today's ATTOM tasking, LAB-04 rehome (PROME) + handover detail (LABOR), DAEDALUS homer-condo-reconcile, PROME ratify-lane, PROME_ROUTING condo package.
+- **LAB-04 registered as CRL-FCL** (LABOR numbering retires); the ATTOM H1 print = first CRL-FCL datum. Employment-signature cross-flag rule baked into 7/21 pre-reg.
 
 ## NEXT SESSION
 
-1. **Citizens scope reconciliation (unresolved, flagged this session)** — pull Citizens' own filing/dashboard to confirm whether CORAL's 294,253 (personal-lines) and AEOLUS's ~395K are genuinely different line-scopes or an actual conflict. Don't carry both silently past one more session.
-2. **Pull current Parcl MSI dashboard live** — the fire-sale tripwire (MSI >6.0 across ≥5 FL metros, 2+ wks) is pre-registered but has never been checked against a live pull, across two sessions now.
-3. **Ballot-language lawsuit + re-pull polling** on Amendment 3/HJR 1F before sizing anything off the 64%±3.8 poll (DEWEY's own caveat, not yet actioned).
-4. **Q2 FL bank earnings** (~7/21-28, TBC) — the bank-transmission gate re-test, unchanged from Pass 1.
-5. **Verify exact Q2 earnings + FL State Employment release dates** (still TBC placeholders).
-6. **Per-metro convergence grid** and **MARCO Miami-Dade condo-supply reconcile** — both carried over multiple sessions now, still not built.
+1. **LOCK the HOMER foreclosure figure** — confirm he accepted 0.27%/1-in-373/#1/27,494/ATTOM Mid-Year 2026; if his reply diverged, resolve. (He was mid-reconcile at my closeout — check inbox.) Also confirm he relabeled his "12.9mo inventory" row → Miami-Dade (not statewide).
+2. **7/21 (Tue) — grade the joint read MECHANICALLY** (FL State Employment June + ATTOM H1): FL UR ≥4.9%? metro-UR overlap w/ Jax/Ocala? Spec in `FL_Forward_Log.md`. Same day: OZK/WAL/ALLY triple + China LPR.
+3. **Q2 FL bank earnings (~7/21-28)** — the bank-transmission gate re-test (unchanged). Spec → `CLUSTER_FL_BANK_LEG.md`.
+4. **Fill grid data gaps:** Ocala (near-total gap, new FC entrant), Jacksonville (is the FC rise MF/labor/insurance-driven?), Punta Gorda metro-discrete neg-equity/condo.
+5. **WALTER-lane backlog: 5 items pending** (`inbox/WALTER/`: SIG-W-20260709-010/011/012, 20260710-006, 20260717-006) — NOT processed this session (narrow one-off, per boot rule #8). 7/17-006 = pending home sales −5.4% MoM June (national, INFO→CORAL; does NOT resolve FL — already absorbed as context). Process on next normal session.
+6. **Citizens depopulation scope** (294,253 personal-lines vs AEOLUS ~395K) — still open from 7/9, needs primary pull.
 
 ## OPEN THREADS
 
-- **Bank-transmission gate:** unchanged, NOT met; Q2 prints are the live re-test.
-- **Citizens scope flag:** open, needs primary-source resolution (see Next Session #1).
-- **Property-tax amendment:** now has a verified-primary structure and a sharpened two-sided read (homeowner tailwind vs CRE/MF headwind vs muni-fiscal tail); P(pass) tight, watch the lawsuit + repolling.
-- **Hurricane/ENSO:** season forecast keeps cutting (now 9/4/1) under a soft reinsurance market — AEOLUS's asymmetry framing adopted; watch for any August upward revision (bear-thesis threat) or landfall (bull-thesis trigger).
-- **Substance-vs-beta:** unchanged from Pass 1 — FL's macro-independence from the fleet's energy/rates sequence holds after two passes of new inbound data.
+- **HOMER foreclosure figure:** agreed-in-flight, NOT yet locked (awaiting his confirm). ONE figure = 0.27%/1-in-373/#1/27,494/ATTOM Mid-Year 2026.
+- **HOMER condo reconcile:** I countersigned — statewide price −6.1%/inventory 8.9mo = CORAL; county medians + FC pipeline = HOMER; 12.9mo = Miami-Dade (he relabels).
+- **Bank-transmission gate:** unchanged, NOT met; foreclosure print is context-only. Q2 prints = live re-test.
+- **7/21 joint read:** pre-registered; base case (per LABOR's quiet-claims lean) = divergence branch (cost-stack driver = CORAL's, bank timeline slow). Joint-deterioration branch is the surprising/high-info outcome.
+- **RESEARCH-INTAKE lane query:** amended proposal sent to PROME (add "Florida foreclosure" OR "Florida property tax").
 
 ## MAIL STATE
 
-- `inbox/`: **0 pending** (root — all items processed across both passes today).
-- `inbox/WALTER/`: **0 pending** — full backlog cleared this session (4 items Pass 1 + 18 items + 1 notice Pass 2 = 23 total WALTER-lane items processed today).
-- `outbox/`: none written — no 🔴 acute signal either pass; all cross-agent items are LIST-only per catch-up rules.
-- **Pending push:** local commits only, per fleet auto-push-at-closeout (PROME/Will-coordinated). Queue: 1d371108, 245cfc52, ee8c195e (6/25) + f1617d32 (7/9 Pass 1) + this session's Pass-2 commit, still pending push per prior SCRATCH notes.
+- `inbox/` (root): **0 pending** — 6 items processed to `inbox/processed/` this session.
+- `inbox/WALTER/`: **5 pending** — NOT processed (narrow one-off; next normal session). See NEXT SESSION #5.
+- `outbox/`: 1 written — `2026-07-17_to-PROME_attom-h1-foreclosure-verified.md` (the deliverable memo). MARCO note written to `AGENTS/MARCO/inbox/`.
+- **SendMessage:** HOMER ×2 (foreclosure figure + condo reconcile); PROME summary = final closeout action.
+- **Pending push:** this session's commit + any prior local commits — auto-push at closeout via `scripts/safe-push.sh`.
