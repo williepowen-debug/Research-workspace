@@ -16,6 +16,8 @@
 
 ---
 
+> **UPDATE 2026-07-17 (both open threads explored, Will-directed).** **TT-08 (PDT) verified TRUE** and unblocked — gone since 2026-06-04, Robinhood day-1 → § TT-08 VERIFIED. **The long-premium challenge was confronted and did not survive contact with independent evidence** → § THE LONG-PREMIUM CHALLENGE. Headline: *"buying premium is negative-EV"* describes a **regime that ended around 2012**, and the Fed/Yale paper that shows this **also implies tastytrade's own 15-16yr sample straddles the break.** **But this does not vindicate the book** — alpha ≈ 0 means *fairly priced*, not *profitable*, and the evidence is **S&P-500-only** while Will's instruments are TLT and single-names (**open item #5 — now the live thread**).
+
 ## The one-paragraph verdict
 
 **Both videos are premium-*selling* content, and this book is a premium *buyer*.** Taken at face value, almost nothing here is a rule TERRY should adopt. **But the 21-DTE study contains a finding they never state, because from their seat it's a cost rather than a product: the short strangle's tail risk explodes in the final ~2 weeks — and that explosion IS the long tail's payoff window.** Their own 15-year dataset, read from our side of the trade, is an argument for holding a *deliberate* tail bet into the terminal window rather than rolling out of it. That single inversion (**TT-02**) is worth more to this desk than everything else in both transcripts combined. The 0DTE video contributes durable market-structure facts (**TT-05**, **TT-09**) and **one claim that could materially change the day-trading loop but must not be acted on until verified (TT-08, PDT)**.
@@ -62,7 +64,75 @@ The inversion is real but it is **not symmetric, and the numbers do not transfer
 | **TT-10** | 0DTE positions are "highly volatile"; sizes "should be **very very small**." | V2 @7:51 | **CONTEXT (already satisfied)** | Consistent with the standing **$500 max loss/card**. No change implied. |
 | **TT-06** | **0DTE liquidity ranking:** SPX / SPY / QQQ / IWM deepest + tightest spreads; then ES / MES / NQ / MNQ "sufficiently deep"; **XSP / NDX / RUT thinner** but tightening fast. SPY dominates contract volume; **SPX trades more than ES**. Volume is *"only one aspect of liquidity"* — also want spreads + open interest. | V2 @4:41, 7:20 | **CONTEXT — ⚠️ DATED** | Their own caveat (volume ≠ liquidity) matches `CHART_OPTIONS_WORKFLOW.md` §3, which already requires bid/ask **and** OI. The **ranking is a snapshot of a fast-moving market** and they say so: XSP *"might be a totally different story in a couple of years."* **Re-check before relying on it.** |
 | **TT-07** | NASDAQ products have the **highest std-dev of daily price change**, then Russell, then S&P. Cited live: *"E-minis have had a 10-point range. NASDAQ has had a 150-point range."* | V2 @6:05, 6:34 | **CONTEXT — the anecdote is misleading** | The **std-dev slide is the real claim**; the 10-vs-150 remark is **one day, unnormalized, across different-scale indices** — apples to oranges. Normalized it is ~0.18% (ES ≈5,500) vs ~0.75% (NQ ≈20,000): the directional conclusion survives, **the 15x impression does not.** Classic raw-points-across-scales error — **do not repeat the 10/150 framing.** |
-| **TT-08** | **"PDT is gone… level playing field."** Pattern Day Trader rule described as **removed**, framed as a *"pretty big structural change"* making ETF 0DTEs more accessible (can close intraday without a PDT strike). | V2 @0:28, 8:40 | **🔴 VERIFY-FIRST — BLOCKED** | **The one claim here that could materially change the day-trading loop — and it must not.** PDT (FINRA's $25k pattern-day-trader threshold) is longstanding; **removal would be a genuine regulatory change I cannot confirm from a transcript, and the transcript is known-imperfect.** Unverified secondary on a **regulatory** fact is exactly what root Critical Rule #3 exists for. **Requires a FINRA/SEC primary check before it changes a single day-trading decision.** Status: **UNVERIFIED — not actionable.** |
+| **TT-08** | **"PDT is gone… level playing field."** Pattern Day Trader rule described as **removed**, framed as a *"pretty big structural change"* making ETF 0DTEs more accessible (can close intraday without a PDT strike). | V2 @0:28, 8:40 | **✅ CONFIRMED — primary-verified 2026-07-17 → unblocked. See § TT-08 VERIFIED.** | **The video was right.** PDT eliminated via FINRA Rule 4210 amendment; **SEC approved 2026-04-14** (Rel. 34-105226), **effective 2026-06-04** (FINRA RN 26-10). **Robinhood implemented day-1.** ⚠️ *Elimination ≠ no margin discipline* — see the verified section for what replaced it and what still binds. |
+
+---
+
+---
+
+## § TT-08 VERIFIED — PDT is genuinely gone (primary-checked 2026-07-17)
+
+**Verdict: the transcript's claim is TRUE and the check is closed.** Verified against primaries, not aggregators.
+
+| Fact | Value | Source |
+|---|---|---|
+| Mechanism | Amendment to **FINRA Rule 4210**, replacing day-trading margin provisions with **intraday margin standards** | FINRA RN 26-10 |
+| SEC approval | **2026-04-14** (Release No. **34-105226**; filed 2025-12-29, comments closed 2026-02-04) | SEC / FINRA |
+| **Effective** | **2026-06-04** | FINRA RN 26-10 |
+| Eliminated | The **$25,000 minimum equity**, the **day-trade count**, and the **"pattern day trader" designation itself** — *"in their entirety."* Firms are **no longer permitted** to classify customers as PDT | FINRA RN 26-10 |
+| Replaced by | **Intraday margin deficit (IMD)** monitoring — equity must stay proportional to **real-time intraday exposure**; firms either block deficit-creating trades or issue a margin call | FINRA RN 26-10 |
+| **Phase-in** | Firms may take up to **18 months → 2027-10-20** to implement | FINRA RN 26-10 |
+| **Robinhood** | **Implemented day-1 (2026-06-04).** *"No more day trade restrictions or day trade calls with your Robinhood margin account."* Existing PDT flags cleared | Robinhood support |
+| tastytrade | Also day-1 ready 2026-06-04 (self-reported) | tastytrade |
+
+### What this does NOT mean — the part that matters
+1. **⚠️ Elimination of PDT ≠ elimination of margin discipline.** A **fixed $25k floor** was replaced by **exposure-based, real-time control.** In some respects this is *tighter*: a deficit can now be caught **intraday**, not just end-of-day.
+2. **The $2,000 margin minimum equity requirement still applies.** Unchanged.
+3. **Repeated IMD violations still trigger restrictions.** tastytrade documents a **90-day restriction on creating/increasing short positions**; Robinhood's page says only *"repeated failures to meet requirements can lead to further restrictions"* — **vaguer, and unresolved.**
+4. **Phase-in means broker-dependent, not universal.** Any *other* broker could lawfully still enforce PDT until **2027-10-20**. Robinhood is confirmed clear; **no other broker Will uses has been checked.**
+5. **House requirements are unaddressed.** Neither FINRA RN 26-10 nor Robinhood's page states whether stricter in-house maintenance requirements apply. **Unknown — do not assume absent.**
+
+### Consequence for the day-trading loop (`daytrading/`)
+The **binding constraint that shaped that loop is gone** — no day-trade counting, no $25k floor, on Robinhood, since 2026-06-04. **This does not make day-trading a better idea.** S3 ran **−$3,969** and Will's own standing read is *"plug the leak, keep it small"* — the loop's problem was **never** PDT, it was **P&L**. Removing a constraint that was accidentally acting as a brake is **a risk, not an opportunity**: the rule was capping trade frequency for free. **TERRY's position: no change to the loop's standing, and the $500/card cap is now doing work PDT used to do for us.** *(Also worth noting: the loop's S3 window pre-dates 6/4, so PDT removal is **not** an explanation for those losses.)*
+
+**Calibration note (recorded in fairness to the source):** this was the transcript's single riskiest, most checkable claim, and it **verified clean** — including the subtle framing that it was a *structural* change. That is a genuine mark **in tastytrade's favor** and it is recorded as deliberately as the criticisms above.
+
+---
+
+## § THE LONG-PREMIUM CHALLENGE — confronted, and it does NOT go the way tastytrade implies
+
+**Why this section exists:** Will's standing instruction (7/17) — *if their research says long premium is negative-EV, that's a challenge to this book's whole expression style and should be confronted, not filed.* Confronted. **The result is the opposite of expected, and it is the most consequential thing in this file.**
+
+### Step 1 — the tastytrade claim, and its actual shape
+tastytrade's own published SPY strangle table: **~90% win rate · average win +$90 · average loss −$475.** That implies a **seller's EV of ≈ +$33.50/trade** — *(0.90 × 90) − (0.10 × 475)* — with a **5.3× loss-to-win ratio.** *(TERRY-computed from their figures; sanity-check: ≈ +$33.50 sits squarely inside the 21-DTE study's "+$20 to +$40" sweet spot — the two datasets corroborate each other.)* **Mirror it and the buyer's EV is ≈ −$33.50:** lose ~90% of the time, paid ~$475 when right. **That is the variance risk premium, and the classic literature (Coval & Shumway 2001; Bakshi & Kapadia 2003) backs it.** So on its face: **yes, buying premium was negative-EV.**
+
+### Step 2 — the independent evidence, which is newer and cuts the other way
+**Dew-Becker (Federal Reserve Bank of Chicago) & Giglio (Yale/NBER), "The decline of the S&P 500 variance risk premium," dated 2026-06-02** (Chicago Fed WP 2025-17). **S&P 500 options, 1987-2025.** Five strategies — **5% out-of-the-money puts** and ATM straddles, each with/without daily delta hedging, plus the variance swap. **Deliberately chosen as an independent, incentive-free check: a Fed/academic paper has no brokerage revenue riding on the answer.**
+
+> **"After 2012 — a sample equally long as those in the original studies that found negative premia — standard options strategies no longer have statistically significant alphas or information ratios."**
+
+- **Structural break: August 2012** (baseline; dated off a shift in dealer S&P 500 gamma, and confirmed by break tests accounting for multiple testing).
+- Alphas are **significantly negative pre-2012 across all five strategies**, then **rise post-2012, turning positive for the straddle and delta-hedged straddle**. Betas barely move — so this is **not** a mechanical artifact of changing market exposure.
+- **The killer line for the doctrine:** *"there was only a relatively brief period between 1987 and about 2010 where traded options earned a (negative) CAPM alpha. Outside that period, neither traded options nor their dynamic replication strategy had a nonzero alpha in either direction"* — **tested back to 1926.**
+- **Mechanism:** dealer/intermediary frictions fell and retail gained the ability to *sell* options, not just buy → the demand asymmetry that created the premium collapsed → dealer net gamma went to zero **exactly when returns did.**
+- **The authors' own bottom line:** *"now it is **much less expensive for investors to hedge deep losses in the aggregate stock market** than it used to be."* They frame it as an anomaly decaying after publication: *"markets are getting more efficient."*
+
+### Step 3 — the honest synthesis (and the criticism this licenses)
+1. **"Buying premium is negative-EV" is a claim about a regime that ended ~14 years ago.** It was true roughly 1987-2010. Independent, current evidence says it is **no longer true for SPX.** The premium-selling edge was a **~23-year window that has closed.**
+2. **⚠️ tastytrade's sample straddles the break — this is a real methodological criticism.** Their study is *"15-16 years"* of data from a video inferred at ~2022-23 → a sample of roughly **2007-2023**, of which **~5 years sit in the pre-Aug-2012 regime where the alpha genuinely existed.** Their averages are therefore **blended across a structural break** and are biased *in favor of their own doctrine* (fleet pattern: `blended_index_masks_bifurcation`). **Important limit on this criticism:** it contaminates their **P&L levels** (the +$20-40, the +$33.50). It probably does **not** contaminate **TT-02's timing shape** — *when* CVaR explodes is a gamma/convexity fact, not a risk-premium fact, so **the inversion survives even though the levels don't.**
+3. **🚨 But this does NOT vindicate the book, and I will not let it read that way.** *Alpha ≈ zero* means options are now **fairly priced** — **not** that buying them is profitable. **The structure supplies no edge in either direction.** Every dollar of expected value must come from **the thesis being right about direction and timing.** The correct conclusion is *"the premium tax on your expression is much smaller than the doctrine claims"* — **not** *"buying puts is now a good trade."*
+4. **⚠️ Instrument mismatch — the sharpest limit here.** The paper is **S&P 500 index options only.** The book is **TLT and single-name banks.** Index VRP ≠ rates VRP ≠ single-name VRP, and the stated mechanism (SPX dealer gamma, retail SPX supply) is **explicitly index-specific.** **Do NOT assume the 2012 break transfers to TLT or HBAN.** That is a separate, unanswered question — and given the crash-ladder and the HBAN tail are both single-name/rates, it is **the one that actually matters for this book.** *(Open item #5.)*
+5. **Status:** working paper (Chicago Fed WP / SSRN), June 2026. Authors are Fed + Yale/NBER; sample ends 2025. **High-quality but not yet peer-reviewed** — strong enough to overturn a house doctrine's applicability, **not** strong enough to found a trade on.
+
+### What actually changes for TERRY
+| | Before this check | After |
+|---|---|---|
+| "Long premium is negative-EV" | Unexamined tastytrade doctrine, treated as a live threat to the book | **Regime-bounded (1987-2010). Refuted for SPX post-Aug-2012 by independent evidence.** Not established either way for TLT/single-names |
+| The 21-DTE study's P&L levels | Taken at face value | **Blended across a structural break → biased toward the house's own doctrine** |
+| TT-02 (the CVaR inversion) | The file's headline finding | **Survives** — it's a convexity fact, not a premium fact |
+| Cost of Will's expression | Presumed to carry a heavy premium tax | **Tax is likely much smaller than doctrine claims — but the edge still must come entirely from the thesis** |
+
+**No rule changes, no card armed, no position touched.** This resolves a *doctrinal* question, not a trade one.
 
 ---
 
@@ -79,7 +149,12 @@ The inversion is real but it is **not symmetric, and the numbers do not transfer
 `sibo` → **Cboe** · `C bar` / `sivar` / `C var` → **CVaR** · `piano` → **P&L** · `spies` → **SPY** · `queues` → **QQQ** · `iwm` → IWM · `SSP` / `SXP` → **XSP** · `RU` → **RUT** · `24DE` *(V1 title)* → **21 DTE** · `20 Delta` → 20Δ · `GTH` → Global Trading Hours *(real term, transcribed correctly)* · `span margining` → **SPAN margin** *(real)* · `zerod` / `ZDES` / `ETEs` → 0DTE · **`"Julius penis book"` → almost certainly *Julia Spina's* book** (tastytrade researcher; *The Unlucky Investor's Guide to Options Trading*, ~2021 — fits "first book that ever covered this kind of stuff… first time anybody ever took tasty research"). **Inference, not certain** — flagged as the clearest demonstration that this transcript needs decoding, not trusting.
 
 ## Open items
-1. **🔴 TT-08 (PDT) — needs a FINRA/SEC primary check.** Blocked until then; **do not let it touch the day-trading loop.** Highest-value verification in this file.
-2. **TT-09 — Will's broker's actual assignment + auto-liquidation policy is unknown.** One-time answer, durable payoff.
-3. **TT-04 — is there tastytrade research on management timing from a non-45-DTE entry?** Would test whether "21 DTE" is a real constant or a 45-DTE artifact.
-4. **TT-02 — is there tastytrade research from the LONG premium side?** They almost certainly have "buying premium is negative EV" work. **That is a direct challenge to this book's whole expression style and should be confronted, not filed** (per Will 7/17). Would also let TT-02's inversion be checked against their own long-side numbers instead of my reasoning alone.
+1. ✅ **TT-08 (PDT) — CLOSED 2026-07-17.** Primary-verified: **true.** Gone since 2026-06-04; Robinhood day-1. → § TT-08 VERIFIED. Residual unknowns folded into #2.
+2. ✅ **Long-premium challenge — CLOSED 2026-07-17.** Confronted per Will. **Regime-bounded and refuted for SPX post-2012** by independent Fed/Yale evidence. → § THE LONG-PREMIUM CHALLENGE. Residual question folded into #5 — **which is now the live one.**
+3. **🔴 #5 is the successor thread and the highest-value open question in this file** (see below).
+
+**Still open:**
+4. **TT-09 / TT-08 residuals — broker policy unknowns (one Will/broker answer closes all four).** (a) Robinhood's **house maintenance requirements**, if any, beyond FINRA minimums; (b) what Robinhood's *"further restrictions"* for repeated **IMD** violations concretely are — tastytrade documents a **90-day short-position restriction**, Robinhood is vague; (c) **assignment handling** near expiry; (d) **auto-liquidation** policy. Durable once answered.
+5. **🔴 Does the post-2012 VRP collapse extend to TLT and single-name banks?** **The one that actually matters for this book** — the crash-ladder is TLT, the HBAN tail is single-name, and **Dew-Becker/Giglio is S&P-500-only with an explicitly index-specific mechanism** (SPX dealer gamma, retail SPX supply). If the break is index-only, Will's *actual* instruments may still carry the full premium tax and the good news above **does not reach them.** Needs separate evidence — rates VRP (TLT/MOVE) and single-name VRP literature.
+6. **TT-04 — is there tastytrade research on management timing from a non-45-DTE entry?** Would test whether "21 DTE" is a real constant or a 45-DTE artifact.
+7. **Re-check TT-06 (0DTE liquidity ranking) before use** — self-described fast-moving; XSP explicitly flagged by the presenters as likely to change.
