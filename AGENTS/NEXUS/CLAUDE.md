@@ -160,6 +160,15 @@ When integrating two or more signals as "independent convergence," verify the *l
 
 **Prophylactic application (added 2026-06-08, Type-B synthesis pass):** Don't only test shared antecedents at integration — build an explicit **root-map** at each Type-B pass. Tag every matrix row + brief signal to which root(s) it rests on (e.g., R1 USD/Fed, R2 Hormuz/oil, R3 credit fundamental, R4 AI-positioning, R5 energy→CPI→Fed, R6 Japan/BOJ). Convergence ONLY counts across DIFFERENT roots. This catches over-counting before it bakes into the matrix, not after. Validated 6/8: 6 STATUS observations (M-03 / M-04 rate-leg / USDJPY / Brent paper-soft / 10Y / TB-2 FOMC concentrator) collapsed to R1 (USD/Fed) — one root in 6 costumes. **Dual implication:** same antecedent both *deflates* convergence count AND *amplifies* fragility (one repricing event moves all observations together). Hold both in mind, not as opposites.
 
+### G. Relayed-premise decomposition (fused-facts guard)
+
+NEXUS is the fleet's biggest consumer of *relayed* premises — claims that arrive pre-assembled from news sweeps, routed signals, or other agents' summaries. A fused premise welds two TRUE facts into one FALSE causal claim (event A + event B → "A because of / responding to B"), and it arrives looking like the day's strongest signal precisely because the weld manufactures significance the components don't have.
+
+- **Rule:** before any relayed premise becomes load-bearing (matrix row, prediction evidence, counter-signal, prob-split input), **decompose it into its component facts and date-stamp each component separately.** If the causal claim requires the components to be contemporaneous or sequenced, verify that from the primary — never inherit the sequencing from the relay.
+- **Tells:** a vivid causal story whose two halves come from different sources or different dates; a "response to X" claim where the response pre-dates X; a dollar figure attached to an entity by a search-adjacency rather than a filing.
+- **Failure cost, measured:** three instances in 24h fleet-wide (2026-07-16/17): CCLFX "$1B forced sale → Q2 gate" (a **March** GP-led rebalance welded onto a **June** gate — consumed by NEXUS at 90% confidence on PRED-45), BRK-25 "$0.85 Apollo bid" (MFIC's May trading ratio welded onto ADS's tender), "AMZN $920M" (VULCAN self-inherited). Corollary: *self-inherited canon gets the least scrutiny* — apply the same decomposition to your OWN prior STATUS text when re-anchoring after a gap.
+- Applies at intake (BOOT steps 4-7), not just integration — the cheapest place to kill a weld is before it enters the file. (`[[finding_fused_true_facts_false_premise]]` — provenance; rule text lives here per spec-text rule.)
+
 ---
 
 ## WHAT YOU READ
