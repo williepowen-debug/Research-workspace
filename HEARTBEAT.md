@@ -61,7 +61,7 @@ Approved Jun 4: **Prome owns this file.** Update after regime-level changes or w
 | 7/25-28 | BDC Q2 marks (ARCC 7/28 first-read; BXSL ~early Aug) | BROCK/CARL | The real M-08 recognition read (NA% / NAV / PIK / coverage) |
 | Tue 7/28 | First Brands Ch.7 plan-confirmation hearing (SDTX 9am CT) | OTTO/BROCK/REGINALD/CARL | Auto-credit stress recognition node |
 | 7/28-29 | FOMC | HENRY/BOND | Post-CPI frame; oil shock in the July data, not June's |
-| 7/29-31 | Hyperscaler Q2 FCF (AMZN/MSFT/GOOG/META) | HENRY/NEXUS/VULCAN | The HEN-36 gate proper; VULCAN owes the S1 capex quantification BEFORE it |
+| 7/29-31 | Hyperscaler Q2 FCF (AMZN/MSFT/GOOG/META) | HENRY/NEXUS/VULCAN | The HEN-36 gate proper. VULCAN S1 baseline was DELIVERED 7/12 ($710-725B agg FY26 capex guide, +77% YoY; KB-005..011) — this cluster RESOLVES it vs actuals, nothing owed (stale "owes" cell fixed 7/17, Will-approved). MSFT 7/29 doubles as the useful-life single-name live test (DOCKET 7/22-8/3 row) |
 | ~7/31 | MOF monthly (intervention hard-confirm) + BOJ MPM (FY2027 plan) | SAM | Ambush-regime hard data |
 
 ## Blocking / Pending
