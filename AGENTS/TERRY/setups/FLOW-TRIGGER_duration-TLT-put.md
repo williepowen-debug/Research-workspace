@@ -68,6 +68,24 @@ DISCRIMINATOR LOG (dated entries — record, don't re-derive ZONE 1)
 ══════════════════════════════════════════════════════════════
 ZONE 2 — LIVE MARKS (fill ONLY at actual fire — rule #4)
 ══════════════════════════════════════════════════════════════
+
+### ★ RE-FIRE MARKS — 2026-07-17 ~16:00 ET (crash-tail 77P; the $500-banked re-fire question)
+- **Timestamp (ET):** 2026-07-17 ~16:00 ET (TERRY live pull — re-fire entry marks, NOT a new arm).
+- **Trigger-level confirm:** this is a **RE-FIRE on ENTRY QUALITY, not a new arm.** arm-#2 remains **ARMED/latched** — official DGS10 closes all ≥4.50 (7/13 4.62 · 7/14 4.58 · 7/15 4.55), **no <4.50 close = no disarm**; live 10Y **4.54** [^TNX]. **No FRESH discriminator fired today** — arms all resolved (#1 DEAD · #2 latched · #3 fired-weak 7/16). The case for acting today is a cleaner *entry*, not new information.
+- **Spot(s):** TLT **$84.51/$84.52 (+0.36%)** [fetch.py + chain_fetch, 16:00 ET] · 10Y **4.54%** · TBT **$36.35** (−0.85%) · context: **HY OAS 271** [7/16, FRED] (9bp under 001's 280 line, flat on the week).
+- **Green/red day check (rule #6):** **GREEN day (TLT +0.36%) → rule-#6 CLEAN** (puts on green). This is the material change vs 7/16, when TLT was **RED at range lows** and the fill would have been a rule-#6 chase. Vol also cooled: 77P IV **12.79%** (vs 75P IV 15.55 on 7/16 → 13.97 now; MOVE round-tripped) — the tail is marginally cheaper on vol.
+- **Chain marks (TLT Sep-30 puts, live 16:00 ET, spot $84.52):**
+  | Strike | Mny% | Bid/Ask | Mark | IV% | OI | Spread% |
+  |---|---|---|---|---|---|---|
+  | **77 P** | −8.9 | 0.10 / **0.11** | 0.11 | 12.79 | 657 | 9.5 |
+  | 76 P | −10.1 | 0.07 / 0.08 | 0.08 | 13.38 | 715 | 13 |
+  | 75 P | −11.3 | 0.05 / 0.06 | 0.06 | 13.97 | 2199 | 18 |
+- **Liquidity OK?** YES — all three rungs fine at $500 scale; 77P is cleanest (tightest spread, deep-dated OI 657).
+- **Broker position truth:** *(from 7/17 ~12:30 ET snapshot — dated context copy, CONFIRM live at fire)* Will owns the **grind** three ways — TLT 85P Sep-30, TLT 82P Oct-16, TBT 14sh (≈$1,009 mkt) — but does **NOT** own the 77/76/75 crash-tail. **The 77P is net-new and non-redundant** (this is exactly the "one gap" the 7/16 NO-ADD carved out).
+- **Sizing (live asks, $500 cap):** **77P → 45 ct = $495** · 76P → 62 ct = $496 · 75P → 83 ct = $498. Approved fallback shape = 77/76/75 ladder; **77P standalone is the cleanest single expression.**
+- **Stress (77P × 45 ct, $495 risk, Sep-30 terminal intrinsic):** TLT 77 (ATM) / 80 / unch → **−$495 (−100%)** · BE **76.89 (−9.0%)** · TLT 75 → **+$8,505 (~18×)** · 73 → **~36×** · 70 → **~63×**. Two correctors: **(a)** a *fast* shock pays MORE than terminal intrinsic (IV expands + residual theta — TLT→78 could mark ~3–4× at $0 intrinsic); **(b)** the **grind pays ZERO** — strike sits ~1.6σ out (IV-implied P(ITM) ~6–8%), so this is a **fast-duration-shock instrument only**, correct for the tail role (Will owns the grind already).
+
+### (7/16 ARM-pull — historical record, do not re-mark)
 - **Timestamp (ET):** 2026-07-16 ~09:32–09:35 ET (ARM pull; NOT a fill)
 - **Trigger-level confirm:** arm-#2 (10Y 5-close sustain) — DID IT ACTUALLY HIT? **Y** (5-of-5 complete 7/13, FRED-verified §DISCRIMINATOR LOG)
 - **Spot(s):** TLT **$83.80** (fetch.py, −0.52% d/d) — as-of 2026-07-16 09:35 ET; 10Y 4.59, 30Y 5.12, MOVE 68.48
@@ -80,6 +98,22 @@ ZONE 2 — LIVE MARKS (fill ONLY at actual fire — rule #4)
 ══════════════════════════════════════════════════════════════
 ZONE 3 — TRIGGER CONFIRM + DECISION
 ══════════════════════════════════════════════════════════════
+
+### ★ RE-FIRE DECISION — 2026-07-17 (crash-tail 77P, $500 banked)
+- [x] Card ARMED (arm-#2 latched, no disarm) — **but NO fresh discriminator today** (re-fire is on entry quality, not new info)
+- [x] Live marks pulled (TLT chain + spot, 16:00 ET, <15 min old)
+- [x] **Green/red rule SATISFIED** — GREEN TLT day = puts-on-green, rule-#6 clean (the fix for 7/16's red-day chase)
+- [x] Liquidity acceptable (all rungs) · [x] Max loss = $495 ≤ $500 (defined-risk) · [x] Vol cooled (77P IV 12.79 vs 7/16 tail 15.55)
+- [~] Position truth = 7/17 12:30 snapshot (Will owns grind, NOT the 77 tail → **77P non-redundant**); confirm live at fire
+- [x] §9 concentration: deepens the Hormuz-shared cluster, BUT the 77P leans on the **real-yield channel that survives a de-escalation** (the durable leg)
+
+**Terry verdict (2026-07-17): CONDITIONAL — CLEAN structure + CLEANEST entry window since arm, GATED on Will's re-fire appetite.** What improved vs the 7/16 NO-ADD: rule-#6-clean entry (green vs red-day chase), vol cooled ~2 IV pts, and the 77P is specifically the **non-redundant "one gap"** the NO-ADD itself carved out — so proposing it is consistent with that decision, not a reversal. What did NOT change: no fresh discriminator fired today (better entry ≠ new information), and it deepens the same concentrated Mideast-shared-falsifier book. **Edge is positive-EV only if a fast term-premium shock is fatter-tailed than the ~7% the 12.79% IV implies — that probability is BOND's call, not TERRY's.** Structural read: right instrument, right role, right day, defined $495 risk.
+
+**Decision (WILL, 2026-07-17):**  [ ] APPROVE 77P × ~45 ct ($495)   [ ] APPROVE 77/76/75 ladder   [ ] HOLD — wait for a FRESH discriminator, not just a better entry   [ ] REJECT
+
+---
+
+### (7/16 ARM decision — historical record)
 - [x] A discriminator actually fired (arm-#2, 5-of-5 7/13) · [x] Live marks (broker chain 10:04 ET) · [~] Green/red (RED, muted for spread — §7.1)
 - [x] Liquidity OK (all rungs) · [x] Max loss ≤ $500 (defined-risk, every variant) · [ ] Position truth (Will confirms)
 
