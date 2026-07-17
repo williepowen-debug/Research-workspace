@@ -1,5 +1,5 @@
 {
- "built": "2026-07-16 14:06",
+ "built": "2026-07-16 20:53",
  "channels": {
   "Credit": "watch",
   "Energy": "watch",
@@ -8,12 +8,12 @@
  },
  "docket": [
   "2026-07-15 Q2 monolines / Axis-A (SYF/ALLY/COF/AXP)",
-  "2026-07-16 May TIC (China UST + Belgium; Korea $103B)",
   "2026-07-20 ZION Q2 print (5:30pm ET AMC)",
   "2026-07-21 FL State Employment June (FL UR)",
   "2026-07-21 OZK Q2 print (AMC; call Wed 7/22 8:30 ET)",
   "2026-07-21 WAL Q2 print (AMC; call Wed 7/22 noon ET) \u2014 bank-put reshape",
   "2026-07-22 40Y JGB auction + GOOGL earnings",
+  "2026-07-22 Hyperscaler Q2 10-Q useful-life watch \u2014 VULCAN pre-registere",
   "2026-07-23 HBAN Q2 earnings (BMO)",
   "2026-07-23 LAB-17 claims window (w/e 7/18 + 7/25) + July flash PMI ~7/2",
   "2026-07-25 BDC Q2 marks window",
@@ -25,12 +25,12 @@
   "2026-07-31 MOF monthly intervention data"
  ],
  "fleet": {
-  "AEOLUS": "watch",
+  "AEOLUS": "ok",
   "BOND": "ok",
   "BRENT": "ok",
   "BROCK": "ok",
   "CARL": "ok",
-  "CORAL": "watch",
+  "CORAL": "ok",
   "FALCON": "ok",
   "HAWK": "ok",
   "HENRY": "ok",
@@ -49,9 +49,9 @@
   "SHADE": "ok",
   "TERRY": "ok",
   "VIOLET": "ok",
-  "VULCAN": "watch",
+  "VULCAN": "ok",
   "WALTER": "ok",
-  "WATT": "watch",
+  "WATT": "ok",
   "ZHAO": "ok"
  },
  "gates": {
@@ -64,7 +64,7 @@
   "GATE-SAM-30": "resolved:RESOLVED",
   "GATE-TERRY-ARM1": "resolved:RESOLVED",
   "GATE-TERRY-ARM2": "resolved:RESOLVED",
-  "GATE-TERRY-ARM3": "live:LIVE",
+  "GATE-TERRY-ARM3": "resolved:RESOLVED",
   "GATE-VIO-110": "resolved:LAPSED",
   "GATE-VIO-116": "resolved:RESOLVED"
  },
@@ -85,8 +85,7 @@
  },
  "one": "spark tested, spark faded, fuel got fatter.",
  "pending": [
-  "** PJM_API_KEY (WATT)",
-  "DEWEY impact-capture\u2192WALTER routing OK",
+  "** DEWEY impact-capture\u2192WALTER routing OK",
   "HBAN fall-thesis-or-exit pre-7/23 (TERRY two-branch memo ready)",
   "VIOLET canary-map prioritization"
  ],
