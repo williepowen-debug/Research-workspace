@@ -69,7 +69,7 @@ Eight independent channels terminate at regional banks. Six at 🔴+.
 | **mREIT distress cluster** | KREF Q1 **div CUT 60%** ($0.25→$0.10) + BV -9% ($13.04→$11.87) + $73.5M CECL surge + Boston life-sci REO $37M loss + **0.53× BV (47% disc)** — apex public mREIT move cycle. STWD $0.39 dist-earn miss + $347M foreclosure. Sternlicht-franchise + KKR-vehicle 3rd-instance (KREF/KREST/FSK). (SIG-W-20260511-025/012) | 🔴 NEW |
 | **JPM bank-PE de-risking** | JPM SRT on **$4B NAV-loan portfolio** (12.5% loss slice transferred to outside investors) — NOT divestiture; bank wants downside protection on PE NAV-loan book. MUFG doing same on listed-PC-fund loans. **Bank-PC transmission crystallizes;** cross-confirms Bloomberg "2023 bank-run template for PC stress" framing same day. (SIG-W-20260522-006 + 004) | 🟠 NEW |
 | TCW Red Lobster mark gap | TCW PC Fund: equity -98%, debt at par on PIK loan maturing 2029. Mark-to-model fiction. (Bloomberg 4-14) | 🔴 |
-| DB Financials positioning | Multi-year low (-1.5 to -2 z) vs consensus earnings growth +20-40% — widest divergence since 2020. **Crowded-short unwind risk** if WAL/OZK/ZION beat. | 🟠 |
+| DB Financials positioning | Multi-year low (-1.5 to -2 z) vs consensus earnings growth +20-40% — widest divergence since 2020. **Crowded-short unwind risk** if WAL/OZK/ZION beat. **WAL-specific refresh [recon 7/17]: SI 3.8→4.91% float (+27.75%, FINRA 6/30 report) — shorts BUILDING into 7/21; Street de-risked (zero PT raises, EPS cut −3.16%/30d to $2.33); NO Street NCO estimate exists → credit line = unanchored surprise. `WAL/PREPRINT_RECON_2026-07-17.md`.** | 🟠 |
 
 ---
 
