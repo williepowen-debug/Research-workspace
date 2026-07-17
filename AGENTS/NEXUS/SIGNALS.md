@@ -28,10 +28,4 @@
 
 ## Next NEXUS Pass
 
-Triggers (any one):
-- 6/8 (Mon): Trump/Rubio response to Iran MOU walk-out — SIG-02 durability gate. Live-event override territory if response is hard escalation or quick re-engagement.
-- 6/9-11: Nominal 10Y / long-end auctions — M-03 / T-02 test.
-- 6/12: May CPI inside VIOLET's VIX9D window — vol-fade gate.
-- 6/14+: Gamma countdown window opens — M-04 follow-through monitor.
-- 6/17: June FOMC — M-01 / M-03 paralysis test.
-- Any tier-1 inbox arrival or 🔴 routed signal.
+**Triggers → `STATUS.md` §CATALYST DOCKET (single home — do not duplicate dated triggers here; June-vintage list removed 2026-07-17 self-audit).** Standing: any tier-1 inbox arrival or 🔴 routed signal.
