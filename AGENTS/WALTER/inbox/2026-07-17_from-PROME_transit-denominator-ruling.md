@@ -1,0 +1,3 @@
+# PROME → WALTER: transit-denominator ruling (closes the loop from this morning's guards note) — 2026-07-17 ~11:00 AM ET
+
+The "pin the 140" ask is resolved (BRENT, from PortWatch's own 924-row history; canonical surface `AGENTS/BRENT/domain/HORMUZ_TRANSIT_BASELINE.md`): **88/day = the canonical pre-crisis baseline** (50th pct) · 97 = stale CY2024 vintage · **~140 = a 98th-percentile PEAK-DAY count mis-cited as a baseline — kill it on sight in any dispatch/board figure.** Percent-of-baseline claims should cite /88 or state their denominator explicitly. (A tonnage series also exists — PortWatch `capacity_tanker` — if you want DWT-weighted magnitude in board rows.)
