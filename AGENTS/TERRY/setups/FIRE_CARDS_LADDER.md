@@ -1,6 +1,6 @@
 # FIRE CARDS — Ladder & Comparison
 
-**Updated:** 2026-07-17 ~09:50 ET (**TRY-FIRE-005 SHELVED** — its 7/10 3:30 PM COT gate resolved DENY that day; logged here 7d late) · **Owner:** TERRY · **Status:** live cards **PROPOSE-ONLY**, **$500 max-loss/card**, **0 fired live**. **Live ladder = 001-004 · 005 = SHELVED/dead.**
+**Updated:** 2026-07-17 ~15:45 ET (**TRY-FIRE-006 PRE-BUILT** — Kharg-strand energy tail, flow-anchored, $200 tranche; built ≠ armed, blocked on a FALCON Kharg-loadings data-source freeze) · **Owner:** TERRY · **Status:** live cards **PROPOSE-ONLY**, **$500 max-loss/card** (006 = separate $200 tranche), **0 fired live**. **Live ladder = 001-004, 006 · 005 = SHELVED/dead.**
 Living index of the staged fire cards. Standing rule (Will 6/26): fresh capital deploys ONLY on a fired trigger — never pre-position. Update this doc when a card is added/fired/invalidated.
 
 **The cards:**
@@ -9,6 +9,7 @@ Living index of the staged fire cards. Standing rule (Will 6/26): fresh capital 
 - `PRINT-TRIGGER_monoline-COF-SYF-ALLY.md` — TRY-FIRE-003
 - `FLOW-TRIGGER_duration-TLT-put.md` — TRY-FIRE-004 (duration/TLT puts, flow/velocity-discriminator-gated — spec routed by PROME 7/6, ID-corrected 7/8, card built + 7/9 arm-#1 DEAD recorded; 7/9 PM red-team patch re-scoped thesis + invalidations, card stays ALIVE)
 - ~~`FLOW-TRIGGER_carry-convexity-FXY-call.md` — TRY-FIRE-005~~ — 🔴 **SHELVED 2026-07-10 (DENY on the Jul-7 COT print; no entry made, $0 at risk).** Dead per its own kill rule; re-arm needs a fresh build, not a revival. See § below.
+- `FLOW-TRIGGER_kharg-strand-USO-call.md` — TRY-FIRE-006 (energy supply-loss tail, flow-anchored on Kharg EXPORT-loadings; USO call spread, $200 tranche; PRE-BUILT 7/17 per PROME Will-approved packet — built ≠ armed, blocked on FALCON Kharg-loadings source freeze). See § below.
 
 ---
 
@@ -58,6 +59,17 @@ Jul 30    WAL              -> path (c) standalone + path (a) build-defer
 **Target:** TLT puts · **Trigger class:** **FLOW/VELOCITY** (explicitly not PRICE-level) · **Thesis owner:** BOND/LIQUID/SAM+ZHAO · **Confidence:** LOW/contingent.
 Arms on ANY ONE of 3 discriminators (BND-11 acute 7/9 reopen / VX-BND-05 10Y-sustain 5-closes≥4.50 / soft TIC 7/16, transactions-based per 7/9 patch) — never the bare 30Y-level poke. Card thesis **re-scoped 2026-07-09 PM (Will-ratified, red-team F5/F6/F9/F10)** from demand-hole to the **inflation/term-premium channel** (BOND HEN-40 two-channel frame); invalidations now scoped **per-arm**, not card-global — see full spec + changelog → `FLOW-TRIGGER_duration-TLT-put.md`.
 **2026-07-09 state:** arm-#1 (BND-11) **DEAD** — clean 7/9 print confirmed (indirect 77.74%, dealer 10.05%, BTC 2.44, no tail, foreign demand surged; BOND grades the level as oil/term-premium, not demand-hole). This is arm-#1's own DISARM firing, not a card-level lapse (per the 7/9 PM re-scope) — **card stays ALIVE.** arm-#2 (10Y 5-close sustain) is the **live watch**: 2-of-5 entering today (7/7 4.55, 7/8 4.57), intraday `^TNX` 4.54 as of ~15:40 ET — 7/9 official close not yet confirmed at patch time; a ≥4.50 close makes it 3-of-5. arm-#3 (TIC) respecified to valuation-adjusted transactions (China+Japan net sellers, Apr vs May), pending 7/16.
+
+---
+
+## TRY-FIRE-006 (energy supply-loss tail — Kharg strand → USO call spread) — PRE-BUILT / SHELVED
+
+**Target:** USO OTM call spread · **Trigger class:** **FLOW** (Kharg crude EXPORT-loadings strand — explicitly NOT a price level, NOT a headline, NOT the Hormuz transit count) · **Thesis owner:** RED (reversibility red-team finding A) + BRENT (Scenario-C/$200 Tier-2) + FALCON (Kharg tripwire) · **Confidence in structure:** Medium.
+**Built 2026-07-17 ~15:40 ET** per PROME's Will-approved pre-build packet ("build it flow-anchored"). **Built ≠ armed ≠ deployed.**
+**The edge:** a Kharg strand removes ~1.5 Mbpd (90% of Iran exports) *without destroying capacity* → oil gaps $95-100+ with NO $80-82 pullback → the book's pass-on-chase strands it flat, AND **FAL-01 stays DARK** (destruction-specific) so the reversible-premium market under-reacts to a real supply loss. This card is the pre-built gap-continuation response.
+**Trigger (exact):** Kharg loadings ≈ZERO ≥2 consecutive obs days + 1 corroborator (Kharg-specific war-risk/P&I withdrawal OR official export-suspension/seizure OR FALCON Kharg-seizure tripwire). **NOT the Hormuz transit count** (86.6% crisis-day base rate; transit ≠ volume — the reversibility-consistent bypass). Four anti-false-fire guards encoded.
+**Shape:** USO call spread, ~45-60 DTE, further-OTM, net debit ≤**$200** (spread mandatory — OVX p93 / OVX-VIX ratio p96.8, vol tax). **$200 = NEW capital, SEPARATE from 004's $500.** Rule #6 green-day break **pre-authorized** in-card (gap-continuation = regime-break momentum, not mean-reversion).
+**⚠️ BLOCKED before ARM:** needs a Kharg-EXPORT-loadings data source frozen with FALCON (the Hormuz chokepoint script won't do it). Retire on de-escalation (Muscat/Article-5, RED ~5-10%); re-underwrite if unfired ~30d. GATES row proposed to PROME → `outbox/2026-07-17_to-PROME_try-fire-006-kharg-strand-prebuild-and-gates-row.md`. Full spec → `FLOW-TRIGGER_kharg-strand-USO-call.md`.
 
 ---
 
