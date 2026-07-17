@@ -1,7 +1,7 @@
 # BRENT STATUS
 
 **🔴🔴 7/16 Thu ~9:35 AM ET — RE-ARM CONFIRMED: energy tail 🟡 fragile-watch → 🔴 ACTIVE (Phase-1 re-squeeze underway). The 7/10 DENY is OVERTAKEN.** Iran FORMALLY closed Hormuz 7/11-12 (IRGC fired on *GFS Galaxy* 7/11; US 3rd strike wave ~140 targets; Qatar blanket maritime suspension — first Gulf state since onset; KOC offshore platform hit). **The re-arm conditions are not just met — they're demolished.** Graded against the 7/10 GATE-BRENT-SUSTAIN DENY baseline (settlement basis, FALCON `FRESH_LEG_BASELINE.md` conventions):
-- **LEVEL: PASS decisively.** ICE Brent Sep-26 settles **7/13 $78.85 → 7/14 $84.73 → 7/15 $84.95 → 7/16 ~$85.6 live** [CONF CNBC/TradingEconomics + boot.py] — every session >>$75 by $4-10, building not fading, no round-trip toward $74 (7/11-12 closure hit over the weekend; Mon gapped +4%).
+- **LEVEL: PASS decisively.** Brent (BZ=F front) settles **7/13 $83.30 → 7/14 $84.73 → 7/15 $84.95 → 7/16 $84.23; 7/17 $86.88 live intraday** [CONF Yahoo BZ=F daily OHLC, re-pulled 7/17] — every session >>$75 by $8-10, building not fading, no round-trip toward $74. **⚠️ CORRECTION (7/17, per FALCON + own re-pull): the 7/13 "$78.85" carried at re-arm was a Mon 7/13 intraday SPOT quote [TradingEconomics], NOT a settle — the 7/13 settle was $83.30. High-water SETTLE = $84.95 (7/15); ZERO settles >$85. The LEVEL pass is UNCHANGED (all settles >>$75 either way); only the mislabel is fixed. FALCON's separate >$85-for-3-sessions threshold remains UNFIRED.**
 - **FRESH COUNTABLE LEGS: ≥3 beyond the standing war-risk anchor (bar was ≥2):** (1) **Hormuz transit COLLAPSE — cleanest, PHYSICAL:** official IMF PortWatch **7/12 = 10/88 (11% of pre-crisis), 1 tanker**; sustained sub-18 run 7/8→7/12 (15/11/9/14/10) — all fresh vs the 7/5 vintage countable at the 7/10 grade; meets the ≤~18/day bar decisively [CONF `hormuz_transit_watch.py` 7/16]. (2) **Renewed kinetic step** — US 3rd strike round (~140) + IRGC on *GFS Galaxy* + KOC platform hit (7/11-12). (3) **Formal Hormuz closure + Qatar blanket maritime suspension** — a standalone CONFIRM path ("confirmed physical re-closure"). War-risk premium (leg 1) still surged ~5%.
 - **TWO independent standalone Tier-2 CONFIRM paths also fired:** durable ceasefire collapse + confirmed Hormuz physical re-closure.
 
@@ -115,7 +115,7 @@
 
 | Metric | Value | Updated |
 |--------|-------|---------|
-| **Brent (BZ=F)** | **~$85.6 (+0.75%, GREEN)** — +13% off the 7/10 ~$76 settle; settles 7/13 $78.85 → 7/14 $84.73 → 7/15 $84.95 → 7/16 live, all >>$75 | Jul 16 live [CONF boot.py] |
+| **Brent (BZ=F)** | **$86.88 (+3.15%, GREEN)** — +14% off the 7/10 $76.01 settle; settles 7/13 $83.30 → 7/14 $84.73 → 7/15 $84.95 → 7/16 $84.23; 7/17 $86.88 live intraday, all >>$75 | Jul 17 10:32 ET live [CONF boot.py / Yahoo BZ=F] |
 | **WTI (CL=F)** | **$80.20–80.39 (+0.75–0.99%)** — reclaimed $80 | Jul 16 live [CONF boot.py] |
 | **OVX (oil vol)** | **~61 (+1.46%)** — CRISIS-LEVEL (near Jun-Jul high 63.7; avg 47.6); vs ~30-35 calm. Convex-arm entry now vol-RICH | Jul 16 [CONF CBOE] |
 | **Curve structure** | **CONTANGO → BACKWARDATION FLIP [EST]** — M1−M3 back toward +$3-5 (was −$2 Jul-6); front-led surge on the closure = Phase-1 squeeze structure. Diesel premium ~$80 | 7/13 [EST] |
@@ -157,7 +157,7 @@
 | Storage (global) | 🟠 4 (—) | semi-dependent (reopening barrels ← Hormuz) | **Cushing back >20M (20.04M wk-7/10, week 1 of 2 for Boundary #3 rescission); SPR 316.5M 43-yr low.** ⚠️ Data is PRE-closure vintage (wk ends 7/10) — next EIA (wk-7/17, rel 7/22) is the first post-closure read |
 | Tanker/shipping | 🔴 5 (↑2) | shared Iran-kinetic root → count once | **Transit collapse + Cape routing + war-risk ~5% surged + ton-mile maxed.** The structural asset-value leg now joined by acute-disruption leg |
 | Refining bottleneck | 🟠 3 (—) | independent (+ exogenous Russia-products shock) | Util 96.2% margin-boom; diesel premium ~$80 (cracks WIDENING); compression still absent |
-| Energy credit | 🟡 2 (—) | independent (credit market) | **HY OAS calm 272bps [FRED 7/14]; energy-only calm.** ⚠️ **Has NOT yet repriced supply risk — the key LAGGING tell.** >400 line still remote |
+| Energy credit | 🟡 2 (—) | independent (credit market) | **Energy-HY OAS re-derived 183bps [CONF Fidelity 931730 / ICE BofA HY Corp Sectors, as-of 6/30/26]** — up ~+19bp from the stale 164 [5/31] but STILL the tightest HY sector and *below* broad HY OAS 271bps [FRED 7/15]. ⚠️ **Credit has NOT repriced the Hormuz closure as solvency risk — the key LAGGING tell; >400 stress line remote.** (6/30 vintage predates the 7/11-12 closure; the July print [~Aug] is the first post-closure read — flagged to LIQUID.) |
 | OPEC+ policy | 🟠 3 (—) | independent (policy) | Paper behind the closure; JMMC Jul 28 |
 | Ceasefire stability | 🔴 5 (↑1) | shared Iran-kinetic root (the anchor itself) → count once | **FULL COLLAPSE — formal war footing; ceasefire dead, US blockade + 3rd strike wave.** Maxed |
 | Curve structure | 🔴 5 (↑1) | **OUTPUT — reflects the drivers** | **CONTANGO → BACKWARDATION FLIP** (M1-M3 back toward +$3-5 [EST] from −$2 Jul-6); front-led = Phase-1 squeeze structure |

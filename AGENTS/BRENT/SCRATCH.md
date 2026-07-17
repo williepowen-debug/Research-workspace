@@ -17,7 +17,7 @@
 
 ## CHANGES SINCE LAST SESSION (Jul 10 → Jul 16) — the formal closure
 - **7/11-12 Iran FORMALLY closed Hormuz** (IRGC fired on GFS Galaxy 7/11; US 3rd strike wave ~140 targets; Qatar blanket maritime suspension — first Gulf state; KOC platform hit). Ceasefire fully collapsed; US blockade element too (CNBC 7/15).
-- **Brent +13%:** settles 7/13 $78.85 → 7/14 $84.73 → 7/15 $84.95 → 7/16 ~$85.6 live. All >>$75.
+- **Brent +14%:** settles 7/13 $83.30 → 7/14 $84.73 → 7/15 $84.95 → 7/16 $84.23 → 7/17 $86.88 live. All >>$75. (⚠️ prior "$78.85 [7/13]" was a Mon intraday SPOT quote mislabeled as a settle — corrected 7/17 per FALCON; high-water settle $84.95, zero settles >$85.)
 - **Transits COLLAPSED** to 10/88 (11%) 7/12 [PortWatch] — physical confirmation of the closure.
 - **OVX ~61** (crisis-level oil vol) — the deploy-killer.
 - EIA wk-7/10 (PRE-closure vintage): Cushing back >20M (20.04M, wk 1 of 2 for Boundary #3 rescission); SPR 316.5M 43-yr low; gas YoY −1.06%; pump $3.855.

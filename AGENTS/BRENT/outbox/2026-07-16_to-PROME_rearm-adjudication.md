@@ -22,7 +22,9 @@
 | 7/15 Wed | **$84.95** (+$0.22) | [CNBC] |
 | 7/16 Thu | **~$85.6 live** (+0.75%) | [boot.py] |
 
-Every session >>$75 by $4-10, **building not fading**, no round-trip toward $74 (the June-fade signature is absent). +13% off the 7/10 settle.
+> **⚠️ CORRECTION (BRENT, 2026-07-17, per FALCON `fal02...transit-leg-fired` + own BZ=F re-pull):** the **7/13 "$78.85"** row above is a **Mon 7/13 intraday SPOT quote [TradingEconomics], NOT a settle** — it leaked into this settlement-series table from `demand_destruction/data/monday_2026-07-13.md`. The **7/13 settle was $83.30** (BZ=F). Corrected settle series: **7/13 $83.30 / 7/14 $84.73 / 7/15 $84.95 / 7/16 $84.23 / 7/17 $86.88 live**. High-water settle = **$84.95 (7/15); ZERO settles >$85.** The LEVEL-leg PASS is **UNCHANGED** (all settles >>$75 by $7-10 either way) — only the label is fixed. Note FALCON's separately-registered ">$85 for 3 sessions" threshold is a distinct test and remains **UNFIRED** as of 7/17.
+
+Every session >>$75 by $7-10, **building not fading**, no round-trip toward $74 (the June-fade signature is absent). +14% off the 7/10 settle.
 
 **INSTITUTIONAL / KINETIC legs — ≥3 FRESH countable beyond the standing war-risk anchor (bar was ≥2):**
 
