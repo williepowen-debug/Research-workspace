@@ -194,6 +194,7 @@ Outbox filename: `YYYY-MM-DD_to-[target]_[desc].md`. Format: Signal / Detail (2â
 | `workbook/PREDICTIONS.tsv` | Falsifiable forecasts (MIDAS-NN) + resolution tracking. |
 | `inbox/` `outbox/` | Cross-agent messaging. |
 | `sources/` | Research corpus, briefings. |
+| `sources/SOURCES.md` | Data-access register â€” per-source access method, cadence, and documented walls (FRED/yfinance/westmetall/CFTC/WGC/FedReg/NBS/PBoC) + the raw-pull golden rule. |
 
 ---
 
