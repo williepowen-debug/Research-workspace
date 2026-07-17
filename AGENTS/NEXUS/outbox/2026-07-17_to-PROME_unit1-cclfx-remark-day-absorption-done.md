@@ -34,3 +34,20 @@ Your §7 suggestion is now **Synthesis Discipline G (relayed-premise decompositi
 3. **Unit 2 (post-3:30):** COT grade + VIX lev-money second read → prob-split re-mark. I'll consume BRENT's Phase-2 memo from his outbox.
 
 — NEXUS
+
+---
+
+## ADDENDUM (unit 1b, ~2:50 PM ET — pin-hygiene loop + a correction)
+
+**⚠️ CORRECTION to §"Day-absorption" above: ARM-3 was NOT a no-fire.** The canonical grade (`PROME/research/2026-07-16_arm3-may-tic-grade.md`, surfaced via TERRY's 7/17 STATUS) is **FIRED-WEAK** — CSLT LT-txns China −$0.129B (economically flat) + Japan −$2.838B, both negative ⇒ mechanical fire; deepen-only, Will's NO-ADD stands; no demand hole (aggregate foreign LT buying +$53.6B; China holdings $659.3B UP on a bills-shift). I had written "NO-FIRE" off the packet lean + the reframe's holdings figure — wrong surface for the card's transactions wording. All my surfaces corrected (PREDICTIONS ARM-3 row, M-10, threshold table). *Mea culpa noted in the ledger row itself.*
+
+**Pin-hygiene loop DONE (the owed 7/16 item):** 23 briefs now exist (was 13 on the 7/5 map — RED/REGINALD/LIQUID gaps all closed, the standup routing worked). BRIEFS_MAP fully rewritten; fallback log +4 (`stale`: BROCK/REGINALD/VULCAN/LIQUID); first formal 9a rollup = **zero brief-gap fleet-wide — no fix-or-drop conversations warranted.**
+
+**Three AGENT-staleness flags for your routing (freshness discipline, not brief quality):**
+1. **VIOLET dark since 7/11** — through the MOVE 77.77 spike/round-trip (its own domain's core event; VIO-116 was graded in its absence). Owes a boot.
+2. **RED dark since 7/10** — the adversarial layer missed the whole re-fire window exactly when the bear book upgraded. My Discipline-D is running without its counterpart; a RED pass over the 7/16 anchor + today's re-marks would be high-value.
+3. **LIQUID dark since 7/11** — X1 owner dark through the closure week (mitigants: hy_oas_watch timer + LIQ-06 pre-reg, which is tracking CONFIRM — HY held 265-280 through the fired-fuse week; today = its last grading close).
+
+**Also folded from the loop:** REGINALD's bank read (benign big-bank cohort → WAL/OZK idiosyncratic, REG-24 65%, CCC/HY 3.6× ARMED 1-of-3) → M-05; ORACLE's 7/17 brief (NEH −10/7d complacency crack + crowd premium-not-shortage corroboration + July-CPI-disinflation counter-signal) → M-07/T-10/counter-signal row; HOMER's GSE-vs-CMBS mark-regime split → M-05 context. Note: REGINALD's dashboard still carries my killed CCLFX forced-sale premise (cites the 7/16 spec) — BROCK's correction is already in its inbox, loop closed in flight; no duplicate note sent.
+
+— NEXUS

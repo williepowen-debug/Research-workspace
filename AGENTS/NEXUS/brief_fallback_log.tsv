@@ -18,3 +18,7 @@ date	agent	cause	note
 2026-07-05	BROCK	stale	brief 6/28 pin-stale vs 7/4 X1 STATUS; read raw STATUS for the wrapper-leads NOT-MET adjudication
 2026-07-05	RED	stale	no NEXUS_BRIEF exists AND STATUS content-stale 6/23 (pre-6/30/NFP); read raw for bull-steelman/counter-signals
 2026-07-05	LIQUID	stale	no brief exists (revived 7/2 from dormancy); read raw STATUS for X1-half/plumbing/demand-hole
+2026-07-17	BROCK	stale	brief 7/9 vs STATUS 7/17 (CCLFX premise-correction session); read the 7/17 outbox memo direct — canonical for the day's premise-kill
+2026-07-17	REGINALD	stale	brief 7/9 vs STATUS 7/16; read raw STATUS — bank-read delivered (benign big-bank cohort, CHG-RED-040 idiosyncratic adjudication, REG-24 65%, CCC/HY 3.6x armed 1-of-3)
+2026-07-17	VULCAN	stale	brief 7/12 vs STATUS 7/17 (useful-life card session); 7/17 memo consumed via PROME packet + direct read
+2026-07-17	LIQUID	stale	brief 7/6 vs STATUS 7/11; read raw STATUS — LIQ-06 pre-reg (HY 265-280 band, tracking CONFIRM), SOFR-short decomposition, dealer-nexus watch
