@@ -25,7 +25,7 @@ Will-directed route from today's RESEARCH-INTAKE lane run: pull the ATTOM H1-202
 
 ## NEXT SESSION
 
-1. **LOCK the HOMER foreclosure figure** — confirm he accepted 0.27%/1-in-373/#1/27,494/ATTOM Mid-Year 2026; if his reply diverged, resolve. (He was mid-reconcile at my closeout — check inbox.) Also confirm he relabeled his "12.9mo inventory" row → Miami-Dade (not statewide).
+1. ✅ **HOMER foreclosure figure LOCKED** — CORAL↔HOMER CONFIRMED 7/17. Both agents independently pulled the primary and converged on the IDENTICAL figure (0.27%/1-in-373/#1/27,494/ATTOM Mid-Year 2026) — zero divergence. Adopted his sharper trajectory read (flow-growth decelerating / conversion accelerating). Condo-inventory reconcile also CLOSED (he relabeled 12.9mo → Miami-Dade). *Nothing to do next session — done.*
 2. **7/21 (Tue) — grade the joint read MECHANICALLY** (FL State Employment June + ATTOM H1): FL UR ≥4.9%? metro-UR overlap w/ Jax/Ocala? Spec in `FL_Forward_Log.md`. Same day: OZK/WAL/ALLY triple + China LPR.
 3. **Q2 FL bank earnings (~7/21-28)** — the bank-transmission gate re-test (unchanged). Spec → `CLUSTER_FL_BANK_LEG.md`.
 4. **Fill grid data gaps:** Ocala (near-total gap, new FC entrant), Jacksonville (is the FC rise MF/labor/insurance-driven?), Punta Gorda metro-discrete neg-equity/condo.
@@ -34,8 +34,8 @@ Will-directed route from today's RESEARCH-INTAKE lane run: pull the ATTOM H1-202
 
 ## OPEN THREADS
 
-- **HOMER foreclosure figure:** agreed-in-flight, NOT yet locked (awaiting his confirm). ONE figure = 0.27%/1-in-373/#1/27,494/ATTOM Mid-Year 2026.
-- **HOMER condo reconcile:** I countersigned — statewide price −6.1%/inventory 8.9mo = CORAL; county medians + FC pipeline = HOMER; 12.9mo = Miami-Dade (he relabels).
+- ✅ **HOMER foreclosure figure: LOCKED** (CORAL↔HOMER CONFIRMED 7/17, independent convergence, identical figure). ONE figure = 0.27%/1-in-373/#1/27,494/ATTOM Mid-Year 2026.
+- ✅ **HOMER condo reconcile: CLOSED** — statewide price −6.1%/inventory 8.9mo = CORAL; county medians + FC pipeline = HOMER; 12.9mo = Miami-Dade (he relabeled all 3 surfaces).
 - **Bank-transmission gate:** unchanged, NOT met; foreclosure print is context-only. Q2 prints = live re-test.
 - **7/21 joint read:** pre-registered; base case (per LABOR's quiet-claims lean) = divergence branch (cost-stack driver = CORAL's, bank timeline slow). Joint-deterioration branch is the surprising/high-info outcome.
 - **RESEARCH-INTAKE lane query:** amended proposal sent to PROME (add "Florida foreclosure" OR "Florida property tax").
