@@ -54,10 +54,12 @@ OUT OF SCOPE (documented gaps, not silently dropped):
     spot+yield+GSR legs). Computed manually this session (see STATUS.md);
     candidate next increment.
 
-Exit codes: 0 = quiet · 1 = REVIEW (GSR band crossed, or M1 divergence state
-flips vs STATUS.md's last-recorded state) · 2 = a leg failed (fail-LOUD,
-never fabricated — a missing leg prints ERROR and is excluded from the
-verdict, it is never silently treated as zero/neutral).
+Exit codes: 0 = quiet · 1 = REVIEW (GSR band crossed, OR M1 = DIVERGE — gold
+holding/rising THROUGH rising real yields = debasement-premium reassertion;
+post the 2026-07-17 polarity flip, CONVERGE [gold re-coupled/inverse to real
+rates] is the QUIET baseline and no longer trips REVIEW) · 2 = a leg failed
+(fail-LOUD, never fabricated — a missing leg prints ERROR and is excluded from
+the verdict, it is never silently treated as zero/neutral).
 
 Usage (self-locating, works from any cwd):
   python3 /home/willi/Research-workspace/AGENTS/MIDAS/metals_watch.py

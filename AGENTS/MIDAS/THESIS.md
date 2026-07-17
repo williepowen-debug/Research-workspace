@@ -10,11 +10,13 @@
 
 ### M1 — Gold — debasement / real-rates (the core monetary tell)
 
+> **✅ 2026-07-17 RESOLUTION STAMP (read before the 7/12 derivation below):** **M1 v2 is now CONFIRMED** — both catalyst tests resolved and survived: **MIDAS-03 (CPI 7/14) = HIT/v2-consistent** (cool CPI, but real yields refused to fall and gold got no premium bid → re-coupled/capped), **MIDAS-04 (China GDP 7/15) = NO-FIRE** (gold no haven spike on the miss). **Polarity FLIPPED**: `metals_watch.py` now treats CONVERGE=quiet (rc=0), DIVERGE=REVIEW (rc=1). **LIQUID curve check consumed (KB-026):** the "higher-rate bets" attribution for the 7/16 sub-$4k break is refuted (DGS2 −8bp 4.21→4.13); gold-down = real-yield **LEVEL** cap + **positioning** unwind, NOT a rate-repricing, and NOT an EndGame confirm while DXY 100.75 soft. **Gold-level ownership settled: MIDAS is metals-board canonical, LIQUID consumes.** The 7/12 scoreboard below stands as the derivation record; the live state lives in STATUS.md.
+
 | Stage | Mechanism | State |
 |---|---|---|
-| 1 | Real yields set the classic opportunity-cost anchor for gold | confirmed (DFII10 2.31, elevated) |
+| 1 | Real yields set the classic opportunity-cost anchor for gold | confirmed (DFII10 2.32 [7/15], elevated near series high 2.36 [7/13]) |
 | 2 | Fiscal debasement + central-bank de-dollarization buying bid gold ABOVE what real rates justify | **open — UNTESTED this session** (see Stage 3 correction; distinct from Tier-2's multi-year backdrop, which this 90d pull doesn't reach) |
-| 3 | Gold holds/rises despite rising real yields → the debasement premium is confirmed | **CORRECTED 2026-07-12: trailing 90d shows the OPPOSITE — gold -18.6% ($5,052.50→$4,113.70) while DFII10 +36bp (1.95→2.31), verified across 5 monthly markers (3/19-7/10), not a 2-point read. Real-rate-consistent (CONVERGE), premium NOT confirmed this window.** (KB-MIDAS-005) |
+| 3 | Gold holds/rises despite rising real yields → the debasement premium is confirmed | **CORRECTED 2026-07-12** (gold −18.6% while DFII10 +36bp, real-rate-consistent CONVERGE, KB-005) → **RESOLVED 2026-07-17: the delta-premium stays FALSIFIED and v2's re-coupling is CONFIRMED** — MIDAS-03 HIT (cool CPI, gold still no premium bid). The premium lives in the LEVEL (+24% YoY), not the delta. |
 | 4 | A monetary/fiscal stress event → gold spikes as the safe-haven + debasement trade | open (the systemic event) |
 
 **Repricing:** gold as a monetary-stress read (→ BOND real-rate seam, LIQUID safe-haven). **Confirms/breaks:** gold holding through rising real yields confirms the premium; gold converging back down to real rates falsifies it — **the trailing 90d data sits on the falsification side of that line**, not yet a verdict (one window). **Tier-1 vs Tier-2 distinction (load-bearing):** gold's absolute level ($4,113.70) is still historically extraordinary — that multi-year ascent may still be Tier-2 structural debasement evidence. What Stage 3's correction shows is that the *marginal, live* (Tier-1) move is currently real-rate-consistent, not an additional above-and-beyond premium. Both can be true at once; don't conflate the level with the delta. Re-test at MIDAS-03 (CPI 7/14 reaction) and MIDAS-01 (9/30).
@@ -39,16 +41,16 @@
 **M1 v2 statement (falsifiable):** gold's price = a **structural CB-floor layer** (~244t/q official buying, de-dollarization motive, largely insensitive to real rates) **plus a cyclical speculative layer** (ETFs, COMEX specs, retail) that blew off into late January 2026 and is now mean-reverting, **re-coupled to real rates as its direction-setter**. The "debasement premium" is real but lives in the **LEVEL** (gold +24% YoY with DFII10 at 2.31 — far above any real-rate model), not in the **DELTA** (marginal moves now track real-rate direction). Read the monetary tell accordingly: *direction of marginal moves* = rates story; *height of the eventual floor above the $3,317 pre-run shelf* = debasement story.
 
 **What CONFIRMS v2 (testable dates):**
-1. **CPI 7/14 (MIDAS-03):** hot print → yields up → gold *down* = the re-coupled cyclical layer behaving as v2 expects.
-2. **WGC Q2 GDT (~late July):** CB net buying ≥150t = structural layer intact.
-3. Gold basing in **$3,700–4,300** while DFII10 holds 2.2–2.5 = the floor forming well above the pre-run shelf.
+1. **CPI 7/14 (MIDAS-03): ✅ RESOLVED HIT 2026-07-17.** The print was *cool* (not the hypothetical hot print), yet real yields refused to fall (DFII10 2.36 [7/13]→2.32 [7/15]) and gold got no disinflation/premium bid — the re-coupled cyclical layer behaved exactly as v2 expects. Confirmed.
+2. **WGC Q2 GDT (~late July):** CB net buying ≥150t = structural layer intact. *(Still pending — kill-cond #2.)*
+3. Gold basing in **$3,700–4,300** while DFII10 holds 2.2–2.5 = the floor forming well above the pre-run shelf. **✅ roughly where we are** (gold $4,021.90, DFII10 2.32).
 
 **What KILLS v2:**
 1. **Structural-floor failure:** gold closes below **$3,317** (7/10/25 pre-blow-off close) without a major real-yield spike (DFII10 still <2.6) → the CB floor isn't where v2 says; re-derive again, escalate BOND/LIQUID.
 2. **CB-buying collapse:** WGC Q2 <100t net (or net selling) → the structural layer's premise is gone.
 3. **Re-decoupling UP:** gold rises through *rising* real yields sustained **3+ weeks** → the "re-coupled" claim is dead; that's a v1-style premium reassertion — a *bigger* monetary-stress signal, escalate rather than celebrate.
 
-**MIDAS-03 consistency (checked this round):** mechanical grading unchanged (same-day sign check), but the *interpretation* inverts under v2 — `yields up + gold down` was registered as "extends the correction"; under v2 it is the **expected, thesis-consistent** outcome. The escalation case is now `yields up + gold flat/up` (v2 kill-condition #3 trigger). PREDICTIONS.tsv row updated with both framings.
+**MIDAS-03 resolution (2026-07-17, HIT):** graded on the v2 mechanism (premium-reassertion vs re-coupling), since the actual CPI day had real yields −3bp DOWN, not the "yields up" both pre-written branches assumed (branch-coverage lesson L-10). No premium reassertion → no BOND/LIQUID escalation. The escalation case remains `gold rising THROUGH rising real yields sustained 3+wk` (v2 kill-cond #3) — now the `metals_watch.py` REVIEW trigger post-flip.
 
 ### M2 — Silver + gold/silver ratio
 
@@ -70,7 +72,7 @@
 |---|---|---|
 | 1 | Copper demand tracks global industrial activity + China (the marginal buyer) | confirmed (structural) |
 | 2 | Copper price + LME/COMEX inventory signal demand direction | BOTH legs LIVE w/ DEFINED baseline (round-3): price +10.5% vs 200dma, +9.2% QoQ; **LME stocks 306,500t [7/10, westmetall/LME]** = **+28.0% vs the trailing-2yr rolling median (239,400t, n=507) → YELLOW band**; 83rd pct of the 2.5yr series; but **−23.9% off the 4/15 peak (402,625t)** = drawing down ~3 months, tightening |
-| 3 | Copper roll + inventory build = confirmed demand inflection (not positioning noise) | open — NOT met: the conjunction requires copper −20% AND inv +100% *vs the 2yr median* (≈479kt); current is price UP + inventory Yellow-but-falling. ✅ Threshold-definition gap CLOSED (round-3, KB-018): "+X% vs normal" now grades against the **trailing-2yr rolling median** (implemented in metals_watch.py leg 6, auto-updating), replacing the round-2 "+110.9% YTD" artifact of a multi-year-low Jan start. China Q2 GDP (~7/16) is the next test (MIDAS-04) |
+| 3 | Copper roll + inventory build = confirmed demand inflection (not positioning noise) | open — NOT met: the conjunction requires copper −20% AND inv +100% *vs the 2yr median* (≈479kt); current is price UP + inventory Yellow-but-falling. ✅ Threshold-definition gap CLOSED (round-3, KB-018): "+X% vs normal" now grades against the **trailing-2yr rolling median** (implemented in metals_watch.py leg 6, auto-updating), replacing the round-2 "+110.9% YTD" artifact of a multi-year-low Jan start. ✅ MIDAS-04 RESOLVED NO-FIRE (China Q2 GDP 4.3% miss, NBS 7/15): copper HELD (−0.5% 2-sess) = structural/AI-grid demand, not cyclical weakness. Next test: MIDAS-05 (China LPR ~7/20) |
 
 **Repricing:** copper as the cleanest China-growth thermometer (→ ZHAO two-way, HENRY velocity). Price + inventory legs both closed 2026-07-12 (inventory via westmetall.com scrape, wired into `metals_watch.py`); **MIDAS still owes** the China-imports pull.
 
