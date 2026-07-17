@@ -258,6 +258,12 @@ def check_artifact(path, docket_rows, covered_dates, today):
     for line in text.splitlines():
         for pat, kind in DATE_PATTERNS:
             for m in pat.finditer(line):
+                # Prediction-ID guard: "LAB-10/11" (= LAB-10 and LAB-11) parses
+                # as Oct-11 via the bare m/d pattern. An UPPERCASE-run + hyphen
+                # immediately before the token is an ID list, not a date claim.
+                # Lowercase prefixes stay live ("pre-7/23" is a real date).
+                if kind == "m_d" and re.search(r"[A-Z]{2,}-$", line[: m.start()]):
+                    continue
                 d = parse_date_token(kind, m.groups(), default_year)
                 # Year-boundary roll for bare tokens (no year written): a date
                 # >~6 months off is on the wrong side of a year boundary — a Dec
