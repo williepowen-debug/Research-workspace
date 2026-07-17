@@ -6,6 +6,8 @@
 >
 > **⚡ 7/16-17 (jpy_vol canary LIVE + ratified):** `scripts/jpy_vol.py` built (PROME, Will-authorized) to my frozen scope, **RATIFIED as-built** (KB-VIO-117) — RV spine + FXY OI-wt IV confirm, ladder re-derived each run, future-bar guard adopted. Current: RV10 3.55% p7.1 CALM; **IV/RV 2.77× and *widening*** (2.03×→2.77× as RV collapsed faster than IV) — event premium NOT collapsing toward 1× into MOF Wed 7/22 (risk-passed signature absent). Promoted to CANARY_MAP Tier-1.
 >
+> **⚡ 7/17 (OVX canary BUILT+CALIBRATED — and FIRING):** Will-greenlit gap-filler `scripts/ovx.py` (KB-VIO-120) closes the Tier-2 uncalibrated OVX hole (dark through the 7/1-7/8 war week). VIOLET owns the transmission read → PRIMARY instrument = OVX/VIX **ratio** (isolates oil-vol LEADING from a broad co-move); analog-scan validated (caught Abqaiq-2019 pure oil shock + II-2025, REFUSED Ukraine-2022 co-move). **Currently FIRING: OVX 60.83/p93, ratio 3.38/p96.8** — oil-vol→equity-vol transmission channel loaded at a full-history extreme. Context signal to BRENT/HAWK, not an action-gate.
+>
 > *(7/9-7/11 lineage — MOVE reversal / KB-VIO-110 LAPSED / SKEW sustain broke 2/4 / Bin-A gate history — retained in STATUS + KB-VIO-113/114/116; compressed here per the upward-compression rule.)*
 
 **Status:** 🟡→🟠 v3.6 — **de-compression off the 7/10 complacency extreme, not a confirmed regime change.** Equity-vol surface firmed as ONE shared-antecedent signal; independent confirm is partial (credit unchanged-🔴, MOVE non-confirming-🟡, COT turned-🟠 w/ 2nd read pending, JPY calm-🟢). Only credit + COT sit on the stress side and credit isn't fresh — hence "de-compression not crack." No position; GATE-VIO-116 re-open (MOVE >70-72) is VIOLET's to watch, distance ~2-4 pts.
@@ -42,6 +44,7 @@
 | **PROME** | **VIX-COT 2nd read pre-registered (KB-VIO-119); grade at 3:30.** Persist/deepen = the VIX-complacency leg of "nothing has broken" gets an asterisk (demand-for-protection rising while price-of-vol stays low). | 🔴 | Feeds the fleet's day-3-reads synthesis; the positioning-side crack test. |
 | **SAM** | jpy_vol canary LIVE (KB-VIO-117): RV10 p7.1 CALM but **IV/RV 2.77× widening into MOF Wed 7/22** — event premium held, risk-passed signature absent. Your MOF substance + my transmission gauge reconcile here. | 🟠 | The Aug-2024-replay canary is now instrumented; WATCH p90 13.97 / FIRE p95 15.21. |
 | BOND / NEXUS | MOVE ~68 [7/15-16] — round-tripped the 7/13 F3 fire (77.77→68.48), NOT re-escalating; the rates-vol non-confirm of today's equity-vol pop. | 🟠 | Rates substance is yours; VIOLET owns only the vol-transmission read. |
+| **BRENT / HAWK** | **OVX canary FIRING (KB-VIO-120):** OVX/VIX ratio 3.38 (p96.8) = oil-vol→equity-vol transmission channel loaded at a full-history extreme; oil-vol (p93) has run hot while equity-vol only just de-compresses. | 🟠 | You own the oil substance behind the elevated OVX; VIOLET flags only that the transmission channel is loaded (context, not an action-gate). |
 
 **WAITING FOR:**
 

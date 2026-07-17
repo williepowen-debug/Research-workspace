@@ -26,6 +26,7 @@ Equity-vol just took its first real step off the complacency floor — VVIX poke
 | **CCC−BB dispersion** | **8.07** | 7/15 [FRED] | 🔴 | [CONF] boot — disp ≥8.00 leg holds. Bin-A tree state unchanged. |
 | **COT Lev Money NET** | **+5,112 / pct3y 97.4 EXTREME_LONG** | 7/7 report | 🟠 | [CONF] cftc_cot.py boot — first net-LONG since band went live, OUTSIDE VIX_LEV_NET_BAND (−75k, 0). **7/14 report (2nd read) grades ~3:30 today** — pre-reg KB-VIO-119. |
 | **JPY vol (canary, LIVE)** | RV10 **3.55%** p7.1 CALM · IV/RV **2.77×** | 7/17 ~13:09 ET | 🟢 | [CONF] jpy_vol.py boot (RTH, IV leg live) — RV near-floor; IV/RV *widening* (2.03×[7/16]→2.77×) into MOF 7/22 = event premium NOT collapsing (risk-passed signature absent). FXY Sep-18 63DTE OI-wt call IV 9.8%. Ratified KB-VIO-117. |
+| **OVX oil-vol (canary, LIVE — NEW)** | ratio **3.38 (p96.8) — FIRE** · OVX 60.83 (p93) | 7/17 ~13:55 ET | 🔴 | [CONF] ovx.py (built+calibrated 7/17, KB-VIO-120) — OVX/VIX ratio at a full-history extreme = **oil-vol→equity-vol transmission channel LOADED** (Abqaiq/II-2025 class; ratio filter REFUSES broad co-moves). Context canary → BRENT/HAWK + NEXUS, NOT an action-gate. The dark-canary hole (dark through the war week) was hiding a real elevated regime. |
 | SPX (ref, HENRY-owned) | ~7,544, near 7,530-45 flip band | 7/16 [HENRY] | 🟡 | [CONF HENRY 7/16] — flip ~7,530-45, put wall 7,500 / call wall 7,600 (free-tracker ±err, PROME routing 7/16). At the neg-gamma band = amplification live. |
 | OVX / HY OAS / Eq put-call | **[STALE — not pulled]** | ≤7/1 | ⚪ | Carried; refresh at next full session. BRENT/HAWK own oil-vol substance. |
 
@@ -69,7 +70,7 @@ Equity-vol just took its first real step off the complacency floor — VVIX poke
 | GEX / dealer positioning (ref, HENRY) | 🟡 | SHARED (SPX options positioning) | Flip ~7,530-45, SPX ~7,544 at the band [HENRY 7/16, ±err] — amplification live. | 2026-07-16 (HENRY) |
 | Index concentration / leverage (Path-B) | 🔴 | Semi-INDEPENDENT (VULCAN owns capex mechanism) | Carried; WALTER SIG-020 flow layer (Citadel 3.5x dip-buying, record option run-rate, 45.8% HH allocation) = the concentration/complacency's flow tell. | 2026-07-17 |
 | JPY carry→vol (canary) | 🟢 | INDEPENDENT (FX RV + FXY IV) | RV10 3.55% p7.1 CALM; IV/RV 2.77× (event premium widening into MOF 7/22). LIVE canary, ratified KB-VIO-117. | 2026-07-17 |
-| Oil/geopolitical→vol | 🟢 | INDEPENDENT (oil complex, BRENT-owned) | War premium faded; not transmitting. | 2026-07-11 (directional) |
+| Oil/geopolitical→vol | 🟠 | INDEPENDENT (oil complex; VIOLET owns the transmission read) | **OVX canary now LIVE + FIRING** — OVX 60.83 (p93), OVX/VIX ratio 3.38 (p96.8, >p95 FIRE) = transmission channel LOADED at a full-history extreme. Oil-vol has run hot while equity-vol only just de-compresses; if a transmission comes it leads from here. Context signal (KB-VIO-120), not a trade gate. | 2026-07-17 |
 
 *Independence structure (DAEDALUS L4 #2): the equity-vol vectors share ONE antecedent (SPX/VIX options surface) — VVIX/term-structure/SKEW all moving together today is ONE signal, not three. The genuine multi-channel confirm/deny must come from the INDEPENDENT vectors (credit, MOVE, COT, JPY). Right now: credit 🔴 (unchanged), MOVE 🟡 (non-confirming), COT 🟠 (turned, 2nd read pending), JPY 🟢 (calm). Only credit + COT are on the stress side, and credit isn't fresh — hence "de-compression not crack."*
 
@@ -97,6 +98,7 @@ Equity-vol just took its first real step off the complacency floor — VVIX poke
 
 - **VIOLET → PROME (7/17, this session):** memo `outbox/2026-07-17_to-PROME_...` — jpy_vol RATIFIED + intraday IV confirm; vol-stack ruling (de-compression not crack) + GATE-VIO-116 distance; VIX-COT pre-registration + 3:30 grade; canary-map menu; lane ratification.
 - **VIOLET → HENRY / RED / NEXUS:** VVIX crossed 100 + contango flattening = first de-compression off complacency; treat as ONE surface signal until an independent channel (MOVE/COT/credit) confirms.
+- **VIOLET → BRENT / HAWK / NEXUS (7/17, NEW):** OVX canary built+calibrated+LIVE (KB-VIO-120) and **FIRING** — OVX/VIX ratio 3.38 (p96.8) = oil-vol→equity-vol transmission channel loaded at a full-history extreme. VIOLET owns the transmission read only; BRENT/HAWK own the oil substance behind the elevated OVX. Context, not an action-gate. This closes the dark-canary hole that ran through the 7/1-7/8 war week.
 - **VIOLET ← WALTER SIG-020 (7/17):** the 0.42 cash-ratio headline is UNVERIFIED (fused-premise trap); what's REAL is the flow layer — Citadel 3.5x dip-buying on down days, record ~$6.8B/day option premium, 45.8% HH equity allocation, 3% savings. This is the FLOW side of the same calm VIOLET tracks on the VOL side; conviction-vs-exhausted-capacity is the open question. → folded into KB-VIO-118 two-layer read.
 - **VIOLET ← WALTER SIG-003 (7/16):** COT VIX lev-money flip to +5,112 landed (pct3y IS VIOLET's to compute); folded into KB-VIO-119.
 - **VIOLET ← PROME routing (7/16):** GATE-VIO-116 F3 fired 7/13/round-tripped (re-open watch is VIOLET's); SAM accepted the JPY-vol seam split; gamma-flip = free-tracker estimate ±err.
@@ -111,7 +113,8 @@ Equity-vol just took its first real step off the complacency floor — VVIX poke
 | 🟠 | **Watch GATE-VIO-116 re-open (MOVE >70-72)** — web-verify MOVE daily (Yahoo daily dead; investing.com/CNBC). Distance ~2-4 pts. | Standing. |
 | 🟠 | **jpy_vol IV/RV into MOF Wed 7/22** — watch whether IV/RV collapses toward 1× (risk passed) or holds/widens (event still priced). Currently 2.77× and widening. | NEW 7/17. |
 | 🟡 | **Consider folding MOVE into boot.py** (web-verified daily close, since Yahoo daily is dead) — currently manual web-verify. | Carried. |
-| 🟡 | **20d SKEW avg recompute · M1:M2 detail · OVX resume · broad equity put/call · HY/BB ladder · VIX9D** — none refreshed this session (scope was ratify + stack + COT). | Carried. |
+| ✅ | ~~OVX resume~~ **DONE 7/17 — BUILT + CALIBRATED + boot-wired (`scripts/ovx.py`, KB-VIO-120), promoted CANARY_MAP Tier-1; currently FIRING (ratio 3.38/p96.8).** Will-greenlit gap-filler. | DONE 7/17. |
+| 🟡 | **20d SKEW avg recompute · M1:M2 detail · broad equity put/call · HY/BB ladder · VIX9D** — none refreshed this session (scope was ratify + stack + COT + OVX build). | Carried. |
 | 🟡 | **VULCAN S1 (Path-B capex mechanism)** — fold in when it lands, ahead of the 7/22-7/29 megacap stack. | Carried. |
 | ⚪ | **PAT-032 disposition note to DAEDALUS** (L4 packet all-6 applied 7/11) — cross-dir write, route via PROME. | Owed. |
 
@@ -125,4 +128,4 @@ Equity-vol just took its first real step off the complacency floor — VVIX poke
 
 ---
 
-*Last updated: 2026-07-17 ~13:15 ET (PROME-spawned catalyst-day session; COT grade pending 3:30). Ratified jpy_vol.py (KB-VIO-117, canary Tier-1 LIVE). Vol-stack refresh: de-compression off the 7/10 extreme, VVIX crossed 100, contango flattened, MOVE non-confirming → NOT a crack (KB-VIO-118). VIX-COT 2nd-read pre-registered (KB-VIO-119), grade at 3:30. SIGNAL_INTAKE +JPY threshold line; CANARY_MAP v1.1 (jpy_vol Tier-1). All equity-vol 7/17 intraday TICK; MOVE web ~68 [7/15-16].*
+*Last updated: 2026-07-17 ~14:05 ET (PROME-spawned catalyst-day session; COT grade pending 3:30). Ratified jpy_vol.py (KB-VIO-117, canary Tier-1 LIVE). Vol-stack refresh: de-compression off the 7/10 extreme, VVIX crossed 100, contango flattened, MOVE non-confirming → NOT a crack (KB-VIO-118). VIX-COT 2nd-read pre-registered (KB-VIO-119), grade at 3:30. **OVX canary BUILT+CALIBRATED+boot-wired (KB-VIO-120), Will-greenlit — currently FIRING (ratio 3.38/p96.8), closes the dark-canary hole.** SIGNAL_INTAKE +JPY +OVX threshold lines; CANARY_MAP v1.1 (jpy_vol + OVX Tier-1). All equity-vol 7/17 intraday TICK; MOVE web ~68 [7/15-16].*

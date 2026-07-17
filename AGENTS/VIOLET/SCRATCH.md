@@ -21,6 +21,7 @@
 5. **Task 4 — canary menu** delivered in the memo: jpy_vol closed one Tier-2 hole; remaining legs ranked (OVX cheapest/highest-leverage, single-stock skew split, NDX-SPX IV dispersion, GEX cadence, KOSPI-amplifier owner-assignment). CANARY_MAP → v1.1.
 6. **Task 5 — lane ratification: KEEP + AMEND** (rebutted the CUT — cftc_cot covers positioning, this lane covers structural/narrative vol events boot can't compute). Re-pointed the query toward the structural class.
 7. **Write-backs:** STATUS full 7/17 refresh, NEXUS_BRIEF refresh (tensions: None active), this SCRATCH, outbox memo to PROME.
+8. **BONUS (Will-greenlit mid-session, PROME-relayed) — OVX canary BUILT+CALIBRATED+boot-wired** (`scripts/ovx.py`, KB-VIO-120): closes the Tier-2 uncalibrated OVX hole (dark through the war week). OVX/VIX ratio = primary transmission instrument (WATCH p90 2.89/FIRE p95 3.18, full-history re-derived), OVX≥p75 floor. Analog-scan validated (Abqaiq/II-2025 caught, Ukraine-2022 refused). **Currently FIRING: ratio 3.38/p96.8** — oil-vol→equity-vol channel loaded at a full-history extreme. Promoted CANARY_MAP Tier-1; SIGNAL_INTAKE +OVX line; NEXUS→BRENT/HAWK. Committed separately from the first batch.
 
 ## CARRY-FORWARD
 
