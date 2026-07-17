@@ -137,7 +137,7 @@ If a cross-agent threshold breaches during your work, append to `AGENTS/SIGNALS.
 
 ## KEY THRESHOLDS
 
-> *"Current" column is a snapshot — verify against `STATUS.md` (live dashboards) on every boot. Last refresh: 2026-07-01. Load-bearing figures pulled from live primary (FRED/yfinance), not dashboard.py.*
+> *"Current" column is a **2026-07-01 snapshot — STALE, do not cite as live; `STATUS.md` + `scripts/boot.py` are canonical.** Material state-flips since: **X1 gate CLOSED** (HY 271 [7/15], the 6/26-30 280-tag faded); **reserves REBOUNDED $3.143T [7/15]** (no longer sub-$3T — that was a one-week TGA dip); **SOFR-IORB normalized −3bp** (the +3bp was a Q-end turn); **GATE-LIQ-069 ARMED** (S&P ORCL BBB- 7/9); **funding-seizure SCOPED gate registered** (KB-LIQ-079). Load-bearing figures = live primary (FRED/yfinance), never this table.*
 > **Basis canon (binding on every count):** yields on **FRED H.15** (DGS10/DGS30; CBOE ^TNX/^TYX same-day proxy only); price-level triggers on **raw unadjusted closes** (yfinance `auto_adjust=False`, `Close` column — adjusted series mutate at ex-dates); auction percentages on **accepted basis**; **Brent on the ICE front-month SETTLE** (not a 4pm snapshot — the stagflation-ladder clause-1 clock keys off this); **USD/JPY on the 5pm ET New York close**; H.4.1 series (reserves/TREAST/WALCL) dated by their **as-of Wednesday**, not the pull date. Declare the basis when you write a number.
 
 | Metric | Current | Threshold | Implication |

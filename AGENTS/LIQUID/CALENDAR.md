@@ -1,29 +1,21 @@
 # LIQUID — Calendar & Data Releases
 
-**Last Updated:** 2026-07-01 Wed (quarter-end roll: May PCE + late-June auctions → Resolved; NFP 7/2 + late-July auctions added; FOMC dates confirmed; 7/3 = July-4 observed holiday)
+**Last Updated:** 2026-07-17 Fri (twin-sync w/ CATALYSTS.tsv: CPI 7/14 + PPI 7/15 + TIC 7/16 + H.4.1 7/9 → Resolved; forward set = 7/25 BDC / 7/27 auctions / 7/28-29 FOMC / 7/31 tenders / 8/14 10-Q / YE Warsh; Fed blackout 7/18-30)
 
 > **Source-of-truth pairing:** `workbook/CATALYSTS.tsv` is the machine-readable forward-event docket (dated rows, consumed by the boot countdown). **This human calendar is its twin — they must not diverge in the *event set*.** When you add or resolve a dated catalyst, update both. Rolling daily watches (HY-OAS direction, 30Y <4.90 unwind, USD/JPY, SOFR-IORB) are NOT dated catalysts — they live in STATUS danger windows + `scripts/boot.py`, not CATALYSTS.tsv.
 
 ---
 
-## This Week (Jun 29 – Jul 3, 2026) — ⚠️ Fri Jul 3 = July-4 OBSERVED market holiday
+## This Week (Jul 13–17, 2026) — Fed blackout begins 7/18 (July FOMC 7/28-29)
 
-| Date | Event | Signal Threshold | Who Cares |
-|------|-------|-----------------|-----------|
-| ~~Thu Jul 2, 8:30 ET~~ **PRINTED — first-read in STATUS** | **June NFP: +57K (cons ~100-115K), net revisions −74K, U-3 4.2% (participation artifact), AHE 3.5%↑** | Stagflationary mix, not a clean growth break. **CORRECTED (PROME 7/2): the "HAWKISH +3bp" read was a bad pre-open tick — true 10Y ~4.47, ≈FLAT vs prior close = muted duration bid, not hawkish** — **KB-LIQ-060 branch NOT graded yet**: candidate MOF strike on the same bar (SAM verifies) + H.15 close pending | LIQUID, HENRY, LABOR, BOND |
-| **Thu Jul 2 close** | **2nd alt-mgr PE-wrapper gate watch — window effectively closes** (30d from the Jun 3-4 BCRED/Partners Group origin; 7/3 is the holiday) | Through 7/1: **CLEAN at the letter** (EDGAR-FTS: zero PE-wrapper proration filings; BXPE +$1.2B subs). Retroactive-conversion risk via July pubs (see ~Jul 31 row) | BROCK, LIQUID, REGINALD |
-| ~~Thu Jul 2~~ **Thu Jul 9, ~4:30pm ET** | **H.4.1 (as-of Wed 7/8)** | 7/1 print in: WRESBAL **$2.967T, +$15.5B** off the −$82B 6/24 week (sub-$3T held, cushion ~$167B) = one week ≠ trend (TGA lumps). 7/9 = drain-rate into refunding week (KB-LIQ-067; mechanism corrected KB-LIQ-070 — post-QT RMP regime, reserves absorb TGA swings directly). <$2.8T = PROME 🟠 (canonical WRESBAL) | LIQUID, PROME, REGINALD |
-| Daily | **HY OAS direction** | 275 [boot 7/1, latest FRED print] — **X1 approach band, 5bps to the >280 LIQUID half**; <260 = soft-kill (re-arms only on 2 fresh sub-265 closes); >320 = confirmation. CCC-BB 806 (pin — falsifier <400) | LIQUID |
-| Daily | **Duration** | 30Y 4.91 (0.01 above the 4.90 unwind); 10Y on the 4.50 pivot; NFP is the growth-break test | LIQUID, BOND |
-| Daily | **Alts/PC + vol** | APO $118 (alts-crack DEEPENING); BIZD $12.54 (line $12.50) | LIQUID, HENRY |
-| Daily | **SOFR-IORB / RRP quarter-end** | +3bps ABOVE ceiling on the Q-end turn print — KB-LIQ-051 pattern says mechanical; needs 3+ sessions to be structural. RRP sustained >$10B into July = real re-activation | LIQUID |
-| Daily | USD/JPY >160 | 162.49 triggered on level (repat = Sep tail; SAM 6/30: lifer→UST channel RETIRED, conditional watch only) | LIQUID, SAM |
+**No LIQUID-owned forward dated catalyst this week** — June CPI (7/14) + PPI (7/15) printed COOL, June TIC (7/16) benign (all in Resolved below). **Next dated catalyst = ~7/25 Q2 BDC marks.** Per the pairing note above, rolling daily watches (HY-OAS band, 30Y/10Y, USD/JPY, SOFR-IORB, the funding-seizure acute leg) live in `scripts/boot.py` + STATUS danger windows, NOT here.
+
+**Live state 7/17 (pointer, not canonical — boot.py governs):** HY OAS 271 [7/15], X1 gate CLOSED; **GATE-LIQ-069 ARMED** (S&P ORCL BBB- 7/9); KB-071 oil-beta path graded MISS; funding clean (SOFR99-IORB +5bp, GCF-Tri +2bp, RRP $0.125B, **reserves rebounded $3.143T**); APO $120.6 (<$130); USD/JPY 162.5 (>160, SAM); MOVE 68 / VIX 18.
 
 ## Later (2026)
 
 | Date | Event | Signal Threshold | Who Cares |
 |------|-------|-----------------|-----------|
-| **~Jul 16** | **June TIC** (May flows) | Belgium proxy →$500B = 🟠 SAM/PROME; Japan >$20B single-month sell = SAM route (KB-LIQ-031). April: official +$49.2B carried a private −$23.1B outflow; Belgium unconfirmed | LIQUID, SAM |
 | **~Jul 25** | **Q2 BDC marks** (FSK, OBDC) | **NEXUS-named credit-bifurcation transmission test** — CDLI-FSK gap / CCC-BB / mark catch-down. The bear book's load-bearing falsifier-or-confirm | BROCK, LIQUID, NEXUS |
 | **~Jul 27 (modeled)** | **Late-July Treasury auctions** (2Y/5Y/7Y) | **2Y indirect is the watch** — June cycle: 2Y 55.45% (0.45pp above the <55% line, closest approach), 5Y 61.6%, 7Y 57.6%; all cleared, directs absorbed the step-down. Sustained <55% = FOI demand-hole confirm | LIQUID, BOND |
 | **Jul 28-29 (CONFIRMED)** | **July FOMC — hike watch** | July-hike only ~23% (the ~75% was P(hold), transposed — ORACLE 6/22); hike seen landing Q4 (Oct-modal ~53%, hike-by-YE ~61%), consistent with 9/18 dots. Retests KB-LIQ-060 | LIQUID, HENRY, ALL |
@@ -37,6 +29,11 @@
 
 | Date | Event | Outcome |
 |------|-------|---------|
+| Jul 16 | **June TIC** (May flows) | **BENIGN — absorption HOLDING.** China +$8.2B rebound (bills-driven, LT flat); custody hubs clean (HANS 4-hub). **China-exit REFRAMED (Will-approved 7/16): SAFE-line decline = Treasury→Agency rotation + off-SAFE entity-shifting, NOT aggregate USD-exposure cut** — demand-hole now refuted 4 ways (auctions · Japan MOF · Korea · China rotation). No Belgium >$500B. ZHA-04 $650B line still graded (KB-ZHAO-102/103). SAM/ZHAO-domain |
+| Jul 15 | **June PPI** | **COOL** — supported the on-hold Fed lean (blackout 7/18-30). Part of the week's steepener (2Y −8bp) |
+| Jul 14 | **June CPI** | **COOL / in-line** — but this is PRE-Hormuz-spike data (per HEARTBEAT); the oil-shock inflation pass-through lands in the **JULY CPI (~mid-Aug)**, not this print. 2Y fell 8bp on the week (4.21→4.13); credit shrugged (HY 272→271). CPI_20260714_CREDIT_PREREG graded (soft branch) |
+| Jul 9 | **H.4.1 + reserve trajectory** | **Reserves REBOUNDED:** WRESBAL $2.967T [7/1] → $3.099T [7/8] → **$3.143T [7/15]**, +$176B — the "first sub-$3T" [$2,951B 6/24] was a one-week TGA dip, not a trend. Leg-A intact (RRP drained $0.125B [7/16]), NOT accelerating (KB-LIQ-067/070). 30Y reopen 7/9 absorption HOLDING (indirect 77.74%) |
+| Jul 3 | **2nd PE-wrapper gate watch (30d window)** | **CLOSED CLEAN at the letter** — no 2nd-manager PE-wrapper hard-gate in the window (EDGAR-FTS verified). Retroactive-conversion risk rolls to the ~7/31 Q2 tender pubs |
 | Jul 2 (8:30 ET) | **June NFP** | **+57K vs ~100-115K consensus; net revisions −74K (upward-revision story reversed); U-3 4.2% via participation −0.3pp = supply artifact; AHE 3.5% re-accelerating** (BLS via PROME/HEARTBEAT `b78c737d`). **CORRECTED 7/2 (PROME): "10Y +3bp HAWKISH" was a bad pre-open ^TNX tick — true tape ~4.47, ≈FLAT vs prior close, muted duration bid not a hawkish rise**; VIX 16.05. KB-LIQ-060 weak→rally branch NOT playing out at first read but UNGRADED — MOF-strike flow confound on the 8:30 bar (UNCONFIRMED, SAM) + stagflationary mix means the growth-break premise isn't clean. Grade on SAM verdict + H.15 closes |
 | Jun 30 → graded 7/1 | **LIQ-03 resolves (CLO AAA vs SOFR+160)** | **ACHIEVED at the letter, TAIL-FORM:** PC/MM senior AAA printed through 160 in Mar-Apr (Diameter S+170/185, SEC 8-Ks primary; like-for-like 149→170 in a month) while **benchmark BSL AAA never exceeded ~S+125 avg** (April peak) and ended June ~120-125 tightening. Within-AAA bifurcation → KB-LIQ-065; successor LIQ-04 (BSL avg >150, H2, 25%). Adversarial verify flipped the initial MISS |
 | Jun 30 (finals → July) | **BCRED Q2 redemption window** | Window closed 6/30; ~10% requests vs 5% cap → ~50% expected fill, **final proration publishes July** (→ ~Jul 31 row). July distribution CUT −10% ($0.20→$0.18, 8-K 6/22); NAV $23.94/sh, $45.3B aggregate 5/31. No hard gate |
