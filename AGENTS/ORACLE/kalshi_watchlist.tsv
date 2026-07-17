@@ -25,3 +25,16 @@ June U3 unemployment >4.3%	market	KXU3-26JUN-T4.3	T1	LABOR,HENRY
 #   KXYINVERT / KX10Y2Y — yield-curve inversion / 10Y-2Y spread   (rates/recession -> LIQUID,HENRY)
 # NOTE: no standalone VIX market found on Kalshi (2026-06-27 sweep) — VIX/vol remains a gap. S&P/Nasdaq RANGE markets exist
 #   (KXINX daily, KXINXY yearly, KXINXEOYCLOSE) but daily ranges are too short-dated/noisy to track as signal.
+#
+# ===== ADDED 2026-07-17 (authoritative /events?status=open sweep — corrects the 7/9 "genuinely un-priced" overstatement) =====
+# METHOD NOTE: the `kalshi.py search` command is UNRELIABLE for macro discovery — it scans /markets?status=open (sports-dominated slice), so "recession"/"oil"/"crude" all return 0 even though those markets exist & pull fine by ticker. AUTHORITATIVE discovery = /series?category=X then /events?series_ticker=X&status=open (used here). The 7/9 "comprehensive sweep = zero open" rests partly on the shaky search — re-run the authoritative sweep, not `search`.
+# STILL zero open events (7/17, authoritative): KXCREDEF/KXCREDEFMAX (CRE default), KXCCDELINQ (CC delinquency), KXMORTGAGEDEF (mortgage default), KXFEDFACILITY (Fed facility), KXCREDITCDEF (CC defaults), CREDITC (SOFR crunch), YINVERT (yield inversion). Those specific gap-fills DO still hold — re-check each session.
+# CORRECTION: broader structural-credit axis is NOT fully un-priced. These credit-stress gauges ARE open+liquid now:
+# CREDIT: US credit-rating-downgrade 2026 — DEEP ($67.6K vol / $34.0K OI), the standout systemic-credit gauge Polymarket lacks. 16% Yes.
+US credit rating downgrade 2026	market	KXCREDITRATING-26DEC31	T1	REGINALD,CARL,LIQUID
+# CREDIT: corporate bankruptcy count (yearly) — >750 companies 83% ($6.2K vol/$6.0K OI). Corporate-distress gauge. -> CARL,REGINALD
+Corporate bankruptcies 2026 >750	market	KXBANKRUPTCY-26-750	T2	CARL,REGINALD
+# OIL SETTLE (item-2 deliverable — the BRENT settle-reference check FALCON/BRENT lacked): "Brent price @ Jul 31 5PM EDT >$85". 57% Yes ($4.4K vol/$4.2K OI). !! Resolves on a SINGLE month-end reading, NOT FALCON's "3 consecutive settles >$85" — right instrument family (Brent settle-ref), different resolution. Cite precisely. Monthly -> re-pin next month's KXBRENTMON event (and move the strike to track the live $85 line). -> BRENT,FALCON,HAWK
+Brent >$85 @ Jul31 settle-ref	market	KXBRENTMON-26JUL3117-T84.99	T2	BRENT,FALCON,HAWK
+# SUPPLY TRUTH (barrel-level, better than WTI-$100 proxy): "Iran crude production Jul 2026 >2.0 mbpd". 77% Yes (thin OI 200). Iran ~2.0-2.2 mbpd = roughly its SANCTIONED baseline, NOT collapsed = direct barrel confirmation of "premium not shortage". Monthly (resolves Aug 12). -> BRENT,FALCON,HAWK
+Iran crude production Jul >2.0mbpd	market	KXIRANCRUDE-26AUG12-T2.0	T2	BRENT,FALCON,HAWK

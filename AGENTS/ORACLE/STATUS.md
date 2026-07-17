@@ -21,6 +21,10 @@
 
 **🟡 NEW CHOKEPOINT COVERAGE — Bab el-Mandeb + Houthi pinned.** Bab-el-Mandeb-closed ($6.2M deep event): by-Dec31 **31.5% (Δ7d +10.5)**. Houthi-targets-shipping: by-Aug31 **57.0% (Δ7d +36.5)**. Both were untracked; they complete the shipping-disruption axis (Red Sea / Suez feed) alongside Hormuz. → HAWK, BRENT.
 
+**🟢 ITEM-2 SOLVED — found the BRENT SETTLE-reference market FALCON/BRENT lacked.** Their durable-sustain thesis had no resolution-matched market (Polymarket only has intraday-HIGH oil). **Kalshi `KXBRENTMON-26JUL3117` = "Brent price @ Jul 31 5PM EDT" — a settle-reference ladder.** Live: **>$85 = 57%** (Δp +15, $4.4K vol/$4.2K OI), >$80.99 72% / >$82.99 62% / >$86.99 45%. **⚠️ Resolves on a SINGLE month-end reading, NOT FALCON's "3 consecutive settles >$85"** — right instrument family, different resolution; cite precisely (KB-ORC-040). Bonus: **Kalshi `KXIRANCRUDE` prices Iran's actual July production >2.0 mbpd at 77%** — roughly its *sanctioned baseline, not collapsed* — a barrel-level confirmation of "premium not shortage" (better than the WTI-$100 proxy). Both pinned. → BRENT, FALCON, HAWK.
+
+**🟡 STRUCTURAL CREDIT — 7/9 "genuinely un-priced" claim CORRECTED (partly wrong).** Via the *authoritative* Kalshi `/events?status=open` sweep (the 7/9 pass used the unreliable `search` — see maintenance): the **specific** gap-fills DO still hold zero-open (CRE-default KXCREDEF, CC-delinquency KXCCDELINQ, mortgage-default KXMORTGAGEDEF, Fed-facility KXFEDFACILITY, SOFR-crunch, yield-inversion). **BUT the broader axis is partly priced:** **US-credit-rating-downgrade-2026 16% — DEEP ($67.6K vol/$34.0K OI)**, the systemic-credit gauge Polymarket lacks; + corporate-bankruptcy-count >750 83%; + auto-loan-delinquency Q2. All pinned (KB-ORC-039). → REGINALD, CARL, LIQUID.
+
 **🟡 FED — July meeting now a near-certain HOLD; 2026-hike tail still live.** July-hike **14.5%→3.6%** (Δ7d −10.9, $14.6M vol) — the meeting is priced as a hold. But Fed-HIKE-2026 still **51.5%** and No-cuts-2026 firmed to **83.7%** (Δ7d +6.0) — dovish tell (<70%) firmly not fired; if anything the crowd got *less* dovish on the week. → LIQUID, HENRY.
 
 **🟡 CPI — July market prices a DISINFLATION step-down even as energy reprices.** July-CPI-modal (pinned, replaces resolved June event): modal **3.4% (31.0%)** / 3.3% (27.5%) / 3.5% (15.0%) — below June's ~3.7% print. Crowd expects CPI to *fall* while the oil/Hormuz premium reprices — a genuine tension, HENRY's to adjudicate. ⚠️thin ($6.1K liq). Kalshi June finalized: >3.6% 99% / >3.8% 26% (June ~3.7%). → HENRY, LABOR. (KB-ORC-037.)
@@ -74,7 +78,7 @@
 | FL: Cat-4 hurricane <2027 | T3 | 22.0% | — | — | $334.3K | $2.2K | ⚠️thin |
 | FL: Cat-5 hurricane <2027 | T3 | 12.5% | — | −4.0 | $137.8K | $1.6K | ⚠️thin |
 
-**Kalshi corroboration (2026-07-17T14:10Z):** recession 12.0% (Δp +2.0, 2.9M vol/807.5K OI); July-hike (>3.75%) 4.0% (Δp −3.0) — matches PM's July-hold read; >4.00% 1%; June CPI >3.6% 99% / >3.8% 26% [finalized ~3.7%]; June U3 >4.2% 82% [finalized].
+**Kalshi corroboration (2026-07-17T16:13Z):** recession 12.0% (Δp +2.0, 2.9M vol/807.5K OI); July-hike (>3.75%) 4.0% (Δp −3.0) — matches PM's July-hold read; >4.00% 1%; June CPI >3.6% 99% / >3.8% 26% [finalized ~3.7%]; June U3 >4.2% 82% [finalized]. **NEW pins:** US-credit-rating-downgrade-2026 **16%** ($67.6K vol); corporate-bankruptcy >750 **83%**; **Brent >$85 @ Jul31-5PM 57%** (settle-ref); Iran-crude-prod Jul >2.0mbpd **77%** (⚠️thin).
 
 Δ in pp. ⚠️thin = liq < $5K (do not mark on one print; ≥3-day re-check). ⏮ = live market w/ stale endDate. ⛔ = display-quirk false-RESOLVED on daily/ladder events (event is live; read recent legs via `event` command).
 
