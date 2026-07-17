@@ -8,6 +8,7 @@ Human-readable ledger of Terry-reviewed trade plans. Full cards should live unde
 | 2026-06-20 | Terry scaffold | Prome/Will | N/A | Approved scaffold | Created | — |
 | 2026-07-16 | TRY-FIRE-004 TLT Sep-18 duration-short (arm-#2 fired 7/13) | BOND (VX-BND-05) / HENRY | BOOK-AWARE: ADD NOTHING / bank $500 (Will already owns grind via TBT+85P+82P ≈$1,150; 81/76 spread redundant; crash-tail 77P = only non-redundant add) | Ladder structure approved; Terry recommends bank + re-fire | PROPOSED | setups/FLOW-TRIGGER_duration-TLT-put.md |
 | 2026-07-16 | USO 7/17 calls triage (120C/127C expire tomorrow) | BRENT (energy re-arm) / Will | SALVAGE 120C (protect ~$204, don't feed extrinsic to theta into 2-way 1DTE catalyst @ OVX 61); 127C near-dead lottery; keep shares | Pending Will | PROPOSED | outbox/2026-07-16_to-PROME_uso-0717-calls-triage.md |
+| 2026-07-17 | WAL grind put-spread (77.5P/67.5P Jan-2027) — properly-tenored bank expression from Part B tenor diagnostic | REGINALD / Will (NOT TERRY) | CONDITIONAL — clean structure, gated on thesis-owner confirm + post-7/21 entry + not-already-broken-down; spread is the $500-cap-compliant version (outright 77.5P $605 breaches). Preferred as ROLL TARGET for dying Sep WAL puts, not additive | Pending (not armed/fired) | CONDITIONAL | setups/WAL_grind-putspread_2026-07-17.md |
 
 ## Status Values
 
