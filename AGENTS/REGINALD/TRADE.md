@@ -440,7 +440,7 @@ If forced to reduce 30-40% of risk (account drawdown or external capital need):
 | Trigger | Implication | Action |
 |---------|-------------|--------|
 | Claims <240K sustained (2+ weeks) | Labor shock was transient | Exit 50% all positions |
-| HY OAS <260bps | Credit normalizing | Exit 100% KRE/ZION/SSB |
+| ~~HY OAS <260bps~~ | ~~Credit normalizing~~ | ~~Exit 100% KRE/ZION/SSB~~ **← STRUCK 7/17: re-anchored 6/19 (Will-confirmed, ORC catch) to a REVIEW trigger — thesis narrowed to CRE-specific; broad HY is not its confirmation channel. Live exit rules = STATUS.md §EXIT RULES.** |
 | BTFP 2.0 announced | Fed backstopped regionals | Exit 100% all puts |
 | OZK Apr 16 reports NPLs DECLINING | Hidden CRE not transmitting | Exit OZK puts; reassess thesis |
 | EGBN Q1 deposits stable (no outflow) | DC channel not transmitting | Exit EGBN; reassess thesis |
