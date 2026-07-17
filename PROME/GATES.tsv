@@ -2,7 +2,7 @@
 # Born 2026-07-09 from the KB-VIO-110 dropped-execution incident (Gate A/C fired 7/2 into a frozen VIOLET session; tail-hedge packet-build never ran; found 7/9).
 # SCOPE: action-gates only. Predictions that merely get GRADED later stay in the owning agent's PREDICTIONS ledger — do not duplicate them here.
 # STATES: LIVE · FIRED-UNEXECUTED (🔴 blocking — clear or escalate to Will same session, never leave standing) · RESOLVED <date+verdict> · LAPSED <date+why> · RETIRED.
-# BOOT RULE (wired into PROME/BOOT.md step 5): any FIRED-UNEXECUTED row blocks new work; any LIVE row with last_checked >5d gets refreshed or flagged.
+# BOOT RULE (wired into PROME/BOOT.md step 3): any FIRED-UNEXECUTED row blocks new work; any LIVE row with last_checked >5d gets refreshed or flagged.
 # MAINTENANCE: PROME owns this file. Register a row the same session a gate is approved; resolve/lapse rows the session their verdict lands. Owners' own KBs stay canonical for full logic — this is the coordination-layer index so a fired gate can never again be orphaned by its owner freezing.
 gate_id	registered	owner	condition	consequence_on_fire	state	last_checked	source
 GATE-TERRY-ARM1	2026-07-06	TERRY/BOND	BND-11 acute at the 7/9 30Y reopen: indirect<52% AND (BTC<2.15 [canonical, reconciled 7/9] OR tail>2bp) AND dealer>18-20%	TERRY arms TRY-FIRE-004 -> Will [Approve] + live broker book (rule #4)	RESOLVED 7/9 NOT-FIRED (indirect 77.74 / dealer 10.05 / BTC 2.44, TreasuryDirect PROME-verified; NO-ARM recorded on card)	2026-07-09	AGENTS/TERRY/setups/FLOW-TRIGGER_duration-TLT-put.md (TRY-FIRE-004 — card file only EXISTS as of 7/9: the 7/6 "pre-build" was a routed inbox packet, never a built card; 2nd record-vs-reality instance, cf GATE-VIO-110)

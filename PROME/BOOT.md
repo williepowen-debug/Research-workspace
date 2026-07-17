@@ -34,7 +34,7 @@ Canonical doc-ownership / trust map: `PROME/SYSTEM.md` → **Boot Trust Stack** 
 ## Boot Sequence
 
 0. **Check repo state:**
-   A **SessionStart banner** (`scripts/session_banner.sh`, hook-wired 2026-07-06) should already have printed fetch/ahead-behind/dirty-tree/env_doctor at launch — **no banner in this session's context = the hook is broken: flag it to Will**, then run the checks below manually. (Banner present ⇒ the checks below are confirmation, not discovery.)
+   A **SessionStart banner** (`scripts/session_banner.sh`) should already have printed fetch/ahead-behind/dirty-tree/env_doctor at launch. Wiring truth (updated 7/17, spine-audit #4): the root-level hook (2026-07-06) **never fires for subdir-launched sessions** (CC bug #10367 — 7 banner-less sessions; auto-memory `finding_subdir_launch_hooks_dont_fire`); the 7/16 mirror into `PROME/.claude/settings.json` (`e580462f`) is the live wiring and **VERIFIED — banner fired at both 7/16 boots post-mirror**. **No banner = flag it to Will**, then run the checks below manually. (Banner present ⇒ the checks below are confirmation, not discovery.)
    ```bash
    git status --short
    git diff --cached --name-only

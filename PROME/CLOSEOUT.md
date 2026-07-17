@@ -1,6 +1,6 @@
 # PROME CLOSEOUT
 
-**Created:** 2026-05-18 · **Updated:** 2026-07-10 (doc-audit fixes: GATES.tsv write-back contract added [symmetry + Write-Back + File-ownership rows] · DOCKET.tsv File-ownership row · FLEET_SCAN row retired-pointer · Updated-stamp convention adopted — bump this line on material edits)
+**Created:** 2026-05-18 · **Updated:** 2026-07-17 (spine-audit #4 stamp-bump: the 7/11 body edits [Chunk-3 de-conflict note · SCRATCH format contract · dashboard symmetry row] never bumped this line — content itself re-verified accurate). Prior 2026-07-10 (doc-audit fixes: GATES.tsv write-back contract added [symmetry + Write-Back + File-ownership rows] · DOCKET.tsv File-ownership row · FLEET_SCAN row retired-pointer · Updated-stamp convention adopted — bump this line on material edits)
 **Owner:** Prome
 **Purpose:** Repeatable session-end procedure to keep Prome's state files consistent across sessions. Run before `/clear`, `/new`, or session handoff.
 

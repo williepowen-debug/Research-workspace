@@ -25,7 +25,7 @@ Prome’s work spans **Will-facing coordination** (synthesis, approvals, decisio
 
 **`PROME/BOOT.md` owns the authoritative boot sequence** (repo-state gate → HANDOFF → SCRATCH → ACTIVE_DECISIONS → STATUS → market-data freshness gate → conditional reads). Don't maintain a competing copy here. The essentials:
 
-1. Read root `CLAUDE.md` (repo-wide rules) + **`USER.md`** (Will's operator model — explicit read, NOT auto-injected); read `AGENTS.md` when roster/routing is relevant. *(`SOUL.md` no longer exists — deleted 2026-06-30.)*
+1. Root `CLAUDE.md` is **auto-injected** — don't re-read it unless debugging drift (BOOT.md owns this; wording reconciled 7/17 audit #4). Explicitly `Read` **`USER.md`** (Will's operator model — NOT auto-injected); read `AGENTS.md` when roster/routing is relevant. *(`SOUL.md` no longer exists — deleted 2026-06-30.)*
 2. **Then follow `PROME/BOOT.md` in full** (HANDOFF → SCRATCH → ACTIVE_DECISIONS → STATUS → market-data freshness gate). `PROME/SYSTEM.md` is **on-demand** architecture/trust reference — not a boot read. *(Bootstrap PLAN/TASKS + the old `CLAUDE_CODE_PROME.md` manual are retired to `PROME/archive/`; not boot-read.)*
 3. `git status --short` before editing. If the tree is dirty, separate your files from other agents' work — do not stash, reset, pull, or commit broad changes without Will approval.
 4. Work only on the scoped task Will/Prome gave you.

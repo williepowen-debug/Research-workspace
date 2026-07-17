@@ -159,7 +159,7 @@ Historical example of the ownership split (FSK May-11 event; card archived):
 
 Known current caveat:
 
-- `FORGE/STATUS.md` (+`PORTFOLIO.md`) is the broker-export-refreshed structured position mirror — carries a STALE banner (last export 5/21); position truth is off-repo (Will/broker direct). Never cite its marks as current.
+- `FORGE/STATUS.md` (+`PORTFOLIO.md`) is the broker-export-refreshed structured position mirror — last reconciled **2026-07-16** (Will screenshots; prior 5/21) and **stales between exports** (its own banner governs); position truth is off-repo (Will/broker direct). Never cite its marks as current.
 
 ---
 
@@ -190,11 +190,11 @@ Trust each file's own `Updated:` stamp over any table here (behavior-language be
 
 1. **Detection/action layer is now automated (2026-06-26; re-based 2026-07-01).** Trigger detection runs unattended — the **RESEARCH-INTAKE lane is the machine-independent PRIMARY** for the HY OAS watch (GH Actions, weekday-daily, bands + named ≥280 X1-breach / <260 re-kill alerts); LIQUID's desktop `liquid-hy-watch` systemd timer is machine-local **redundancy** (dark when that box is off). The trigger→card path is tooled: `AGENTS/TERRY/scripts/{chain_fetch,grade_print}.py` + `TRADE_CARD_TEMPLATE_FIRE.md`. Standing rule: deploy fresh capital only on a fired trigger ([[feedback_deploy_on_trigger_not_calendar]]).
 
-2. **File-based messaging is in use but being replaced.** Don't patch inbox/outbox/HERMES hygiene gaps — flag and let them ride ([[project_messaging_overhaul]]).
+2. **File-based messaging is in use but being replaced.** Don't patch inbox/outbox hygiene gaps — flag and let them ride ([[project_messaging_overhaul]]). *(7/14 delta: Direct Messaging v1 first cohort is LIVE — PROME→BRENT + PROME→SAM `MSG-*` routes under `MESSAGING/`, both proven 7/16; HERMES's folder was removed entirely in the 6/30 prune. All other routes: still let-ride.)*
 
-3. **Execution truth lives outside these docs.** Position truth is **off-repo** (Will/broker direct); `FORGE/STATUS.md`+`PORTFOLIO.md` is only the broker-export structured mirror (stale since 5/21) — never cite its marks as current. Retired Toscanini refs → `PROME/archive/TOSCANINI_2026-03/` (historical only).
+3. **Execution truth lives outside these docs.** Position truth is **off-repo** (Will/broker direct); `FORGE/STATUS.md`+`PORTFOLIO.md` is only the broker-export structured mirror (last reconcile 7/16; stales between exports) — never cite its marks as current. Retired Toscanini refs → `PROME/archive/TOSCANINI_2026-03/` (historical only).
 
-4. **Always-on collection now lives in the RESEARCH-INTAKE repo (2026-06-29).** Built as **GitHub Actions in a dedicated private repo, NOT a VPS** — collectors write only there, agents read read-only (no working-branch divergence by construction). 6 feeds weekday-daily; replaces the dead `/home/moltbot` VPS crons (news-sweep / dashboard). Open follow-up: consumer-wiring (an agent reading the lane + its `liveness` staleness check). [[project_research_intake_collection_lane]].
+4. **Always-on collection now lives in the RESEARCH-INTAKE repo (2026-06-29).** Built as **GitHub Actions in a dedicated private repo, NOT a VPS** — collectors write only there, agents read read-only (no working-branch divergence by construction). 6 feeds weekday-daily; replaces the dead `/home/moltbot` VPS crons (news-sweep / dashboard). Consumer wiring DONE (WALTER 7/2, proven live 7/4); lane-side coverage doctor added 7/17 (`scripts/lane_coverage_check.py`, INFO-severity). [[project_research_intake_collection_lane]].
 
 ---
 
