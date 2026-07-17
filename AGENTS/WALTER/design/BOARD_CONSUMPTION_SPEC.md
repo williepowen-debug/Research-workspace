@@ -1,6 +1,6 @@
 # BOARD Delivery + Consumption Spec
 
-**Version:** v0.9
+**Version:** v0.10
 **Created:** 2026-04-20 (v0.1 consumption-only) · **Extended:** 2026-06-17 (v0.2 delivery layer) · **Clarified:** 2026-06-18 (v0.3–v0.5 Quick-WALTER tightening) · **Collapsed:** 2026-06-26 (v0.6 single-machine platform-collapse — OpenClaw cut)
 **Owner:** WALTER
 **Status:** **Single-machine (desktop CC) since 2026-06-26 — OpenClaw cut; `delivered` is uniform (committed + on-origin); Quick-WALTER retired.** Delivery layer SHIPPED; consumption = Phase 2 self-apply (see §8). Approved-in-principle by Will + PROME + ORC (2026-06-17); v0.6 collapse Will-ratified 2026-06-26 (`design/OPENCLAW_CUTOVER_PLAN.md`).
@@ -97,6 +97,20 @@ A recipient that runs a **complete** `/BOARD/` diff-scan at boot — one that di
 - **NOT exempt — REGINALD** (BOARD-diff is *tiered/selective*, step 9b three-tier scope; the 7/4 reconciliation found an un-dispositioned ACTION — the OZK deed-in-lieu SIG-W-20260704-004 → keeps the lane + a drain-step) and **SAM** (no `/BOARD/` scan at all → the lane is its only intake).
 
 **Doctor:** `walter_doctor` carries a `PULL_COMPLETE` set that excludes exempt agents from `delivered_but_unconsumed` and instead flags any residual handoffs in their inbox as **to-ARCHIVE** (a one-time cleanup, not a consume-gap). **Transition:** existing pre-exemption handoffs are bulk-archived to `processed/` by PROME (cross-dir write, Will-authorized) once the exemption lands; going forward WALTER simply never creates them. Adding/removing an agent from the exemption edits both this list and the doctor's `PULL_COMPLETE` set.
+
+#### 3.5.2 Who counts as "the recipient" — a SPAWNED INSTANCE does not consume (added v0.10, 2026-07-16)
+
+**Rule: only the recipient's LIVE session consumes. A read-only spawned instance reading a handoff/note does NOT count as consumption, and MUST NOT move it to `processed/`.**
+
+**Consumption ≠ reading. Consumption = INTEGRATION** — the recipient has folded the content into its own state (STATUS / KB / marks / gates). A spawned instance can *read* and even *act* (produce findings), but it **cannot integrate**: it holds no authority to re-mark its own agent's canonical state, so nothing has actually landed.
+
+**Why it matters (the failure this prevents):** if a spawned instance marks a note consumed, the **live** session's next boot inbox-scan shows **clean** — and the work exists only in a report nobody is prompted to open. **A cleared inbox is read as "handled." That silently converts a pending integration into a lost one.**
+
+**Provenance (2026-07-16, and the direction is worth recording):** surfaced by **VULCAN — by DECLINING to act.** A read-only VULCAN instance, spawned by WALTER for the AI_INFRA_CAPEX axis check, was given a note whose own text invited `processed/`. It read it, acted on it (8 recommendations, R-01..R-08), **and deliberately left it unprocessed**, reasoning that *"consumption isn't integration — I read and acted; the live VULCAN hasn't folded R-01..R-08 into STATUS/KB yet,"* and flagged the ambiguity to WALTER rather than resolving it either way. **That judgment was correct and this spec did not cover it.** WALTER ratified + codified same-session. **The general lesson: an agent declining an in-scope action and flagging why is a spec-gap detector — treat it as a finding, not as friction.**
+
+**Applies to:** dispatches (`inbox/WALTER/SIG-*.md`) and notes (`*-NOTE.md`) alike — the question is *who consumed*, orthogonal to §3.5/§3.5.1's *what's exempt*.
+
+**Not mechanizable, and not claimed to be:** `delivered_but_unconsumed` measures whether a file moved to `processed/` — it cannot see *which* session moved it, and nothing in the repo distinguishes a spawned instance's `git mv` from the live session's. **This is an authorship discipline on the spawning coordinator** (WALTER: say it in the spawn prompt), not a check. Mechanizing it would need instance-provenance in the commit trailer — real cost, not obviously worth it, **not proposed.**
 
 #### 3.5.1 Scope limit — the exemption covers DISPATCHES, not NOTES (added v0.9, 2026-07-16)
 
