@@ -21,6 +21,8 @@ Live @ 7/17 ~12:55 ET (COMEX fut, yfinance): gold **$4,021.90**, silver **$56.26
 
 **Lane query:** RATIFIED w/ light amendment (added real-yield/TIPS + PGM-supply terms) — see the 7/17 memo to PROME.
 
+**POST-DELIVERY (7/17): LIQUID curve check consumed → KB-026 + STATUS/NEXUS corrected.** The WALTER SIG-011 "higher-rate bets" mechanism is REFUTED by the tape (DGS2 −8bp 4.21→4.13 [7/10→7/15], MIDAS-verified vs FRED; DFII10 off its 7/13 peak). Corrected: gold's sub-$4k dips = real-yield LEVEL opportunity-cost cap + positioning unwind, NOT a rate-hike repricing — the "gold weakness ≠ risk-on" conclusion still holds. EndGame stays 1-of-4 (DXY 100.75 soft; a real liquidity event pairs gold-down w/ dollar-squeeze UP). Gold-leg NOT an EndGame confirm unless DXY breaks UP >102-103. LIQUID now owns metals-board gold levels (stopped own-pulling).
+
 ---
 
 **2026-07-12 ROUND 3 (PROME/Will-directed, same day): primary-sourced the PROV legs + defined the LME baseline.**
