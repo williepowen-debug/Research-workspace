@@ -1,7 +1,9 @@
 # VIOLET — NEXUS Brief
 
-**As of:** 2026-07-17 ~13:20 ET (intraday TICK; PROME-spawned catalyst-day session — COT grade appended after 3:30) | **STATUS commit:** pending this session's commit (see STATUS.md footer).
+**As of:** 2026-07-17 ~16:20 ET (EOD close/settle; PROME-spawned catalyst-day session — full closeout w/ COT verdict + EOD stack) | **STATUS commit:** see STATUS.md footer.
 
+> **⚡ 7/17 CLOSEOUT (Will-directed — COT verdict + EOD stack):** **The day CLOSED FIRMING, not fading — the de-compression STRENGTHENED.** (1) **COT 2nd read GRADED = DEEPENING** (report-date 7/14 verified, KB-VIO-121): lev-money net **+10,189 / pct3y 99.4** (3y extreme long, ~doubled from +5,112 [7/7]); mirror Asset Mgr −43,329 / pct3y 3.8 (extreme-short). The **independent positioning channel now CONFIRMS** — one of three crack-conditions MET → crack thesis strengthens. (2) **EOD stack (official settle):** VIX **18.7** close (up from 17.85 intraday, 15.03 [7/10] — firmed INTO the close rather than mean-reverting), **VVIX 104.79** (held >100), **VIX3M/VIX 1.098** (contango compressed *further* toward the 1.0 inversion line — from 1.129 intraday / 1.236 [7/10]), SKEW 145.72, **MOVE ~68** [web, 7/15-16; exact 7/17 close not cleanly indexed — feed caveat] flat, **NOT re-escalating**. **Still short of a full crack:** the rates-vol price channel (MOVE) hasn't confirmed and term-structure hasn't inverted (1.098, approaching not met); Friday-afternoon/weekend-premium caveat on the into-the-close firming. Net: **de-compression strengthening, positioning-confirmed, price-channels not yet — carry "positioning has turned even though prices haven't" into the frame.**
+>
 > **⚡ 7/17 DELTA (FIRST DE-COMPRESSION OFF THE COMPLACENCY FLOOR — NOT YET A CRACK):** Every equity-vol gauge firmed today: **VIX 17.85** (off the ~18.6 AM high; vs 15.03 [7/10]), **VVIX 103.33 crossed the >100 watch line** (from 87.28 — biggest mover, <120 stress), VIX3M/VIX **1.129** (contango flattened from cycle-steepest 1.236), SKEW **145.72** back >145. **But these share ONE antecedent (SPX/VIX options surface) = one signal, not four.** The INDEPENDENT vectors are split: **MOVE ~68 [7/15-16, web] is flat-to-down, NOT re-escalating** toward the 70-72 GATE-VIO-116 re-open line (the cross-asset non-confirm); credit 🔴 Bin-A but **unchanged** (CCC 9.69/disp 8.07 [7/15], not a fresh escalation); **COT lev-money flipped net-long +5,112 [7/7], EXTREME_LONG** with the decisive 2nd read grading 3:30 today; JPY carry-vol dead calm. On a catalyst day (COT print, FOMC-8d, buyback blackout, SPX at the neg-gamma flip band) the mechanical explanation is fully available. **Ruling (KB-VIO-118): de-compression, catalyst-day-dominated; ONE genuine signal (VVIX>100 + contango flattening), crack unconfirmed until a second independent channel confirms.** No position.
 >
 > **⚡ 7/16-17 (jpy_vol canary LIVE + ratified):** `scripts/jpy_vol.py` built (PROME, Will-authorized) to my frozen scope, **RATIFIED as-built** (KB-VIO-117) — RV spine + FXY OI-wt IV confirm, ladder re-derived each run, future-bar guard adopted. Current: RV10 3.55% p7.1 CALM; **IV/RV 2.77× and *widening*** (2.03×→2.77× as RV collapsed faster than IV) — event premium NOT collapsing toward 1× into MOF Wed 7/22 (risk-passed signature absent). Promoted to CANARY_MAP Tier-1.
@@ -10,7 +12,7 @@
 >
 > *(7/9-7/11 lineage — MOVE reversal / KB-VIO-110 LAPSED / SKEW sustain broke 2/4 / Bin-A gate history — retained in STATUS + KB-VIO-113/114/116; compressed here per the upward-compression rule.)*
 
-**Status:** 🟡→🟠 v3.6 — **de-compression off the 7/10 complacency extreme, not a confirmed regime change.** Equity-vol surface firmed as ONE shared-antecedent signal; independent confirm is partial (credit unchanged-🔴, MOVE non-confirming-🟡, COT turned-🟠 w/ 2nd read pending, JPY calm-🟢). Only credit + COT sit on the stress side and credit isn't fresh — hence "de-compression not crack." No position; GATE-VIO-116 re-open (MOVE >70-72) is VIOLET's to watch, distance ~2-4 pts.
+**Status:** 🟠 v3.6 — **de-compression off the 7/10 complacency extreme, STRENGTHENING into the close, not yet a confirmed crack.** Equity-vol surface firmed into the close (VIX 18.7, VVIX 104.79 >100, contango 1.098 compressing toward 1.0); the **independent positioning channel now CONFIRMS (COT DEEPENING, lev-money pct3y 99.4)**. Credit unchanged-🔴, JPY calm-🟢, MOVE still non-confirming-🟡 (~68, flat). Two of the crack-conditions now lean confirm (positioning + surface-into-close); the price channels (MOVE re-escalation, term-structure <1.0) have NOT — hence "strengthening, not confirmed-crack." No position; GATE-VIO-116 re-open (MOVE >70-72) VIOLET's to watch, distance ~2-4 pts.
 
 **Domain:** VIX / vol term structure / SKEW / VVIX / credit-to-vol transmission timing; broadcasts vol-regime to HENRY/LIQUID/RED; receives from BROCK/HENRY/HAWK/LIQUID/SAM/BRENT.
 **Early-warning layer:** `AGENTS/VIOLET/CANARY_MAP.md` v1.1 (jpy_vol now Tier-1 LIVE; action-gates canonical in `PROME/GATES.tsv`).
@@ -41,7 +43,7 @@
 | To | Signal | Priority | Mechanism it triggers |
 |----|--------|----------|-----------------------|
 | **HENRY / RED / NEXUS** | **VVIX crossed 100 + contango flattening = first de-compression off the complacency floor** — but treat as ONE SPX/VIX-surface signal, not a multi-channel confirm, until MOVE/COT/credit independently move (KB-VIO-118). | 🟠 | HENRY: pairs with the neg-gamma flip-band amplification (SPX ~7,544 at 7,530-45). RED: adversarial check on "de-compression not crack." |
-| **PROME** | **VIX-COT 2nd read pre-registered (KB-VIO-119); grade at 3:30.** Persist/deepen = the VIX-complacency leg of "nothing has broken" gets an asterisk (demand-for-protection rising while price-of-vol stays low). | 🔴 | Feeds the fleet's day-3-reads synthesis; the positioning-side crack test. |
+| **PROME** | **VIX-COT 2nd read GRADED = DEEPENING (KB-VIO-121):** lev-money +10,189/pct3y 99.4 (3y extreme long). The VIX-complacency leg of "nothing has broken" now gets its asterisk — demand-for-protection at a 3y high while price-of-vol (VIX 18.7/SKEW 145) stays low. | 🔴 | Feeds the fleet's day-3-reads synthesis; the positioning-side crack test = confirmed. |
 | **SAM** | jpy_vol canary LIVE (KB-VIO-117): RV10 p7.1 CALM but **IV/RV 2.77× widening into MOF Wed 7/22** — event premium held, risk-passed signature absent. Your MOF substance + my transmission gauge reconcile here. | 🟠 | The Aug-2024-replay canary is now instrumented; WATCH p90 13.97 / FIRE p95 15.21. |
 | BOND / NEXUS | MOVE ~68 [7/15-16] — round-tripped the 7/13 F3 fire (77.77→68.48), NOT re-escalating; the rates-vol non-confirm of today's equity-vol pop. | 🟠 | Rates substance is yours; VIOLET owns only the vol-transmission read. |
 | **BRENT / HAWK** | **OVX canary FIRING (KB-VIO-120):** OVX/VIX ratio 3.38 (p96.8) = oil-vol→equity-vol transmission channel loaded at a full-history extreme; oil-vol (p93) has run hot while equity-vol only just de-compresses. | 🟠 | You own the oil substance behind the elevated OVX; VIOLET flags only that the transmission channel is loaded (context, not an action-gate). |
@@ -50,7 +52,7 @@
 
 | From | Input | Expected | Why it matters |
 |------|-------|----------|----------------|
-| CFTC (self-pull) | 7/14 COT lev-money print | ~3:30 today | Grades KB-VIO-119; the de-compression discriminator. |
+| CFTC (self-pull) | next COT (report-date 7/21) | Fri 7/24 3:30 | Does the DEEPENING (pct3y 99.4) persist, deepen further, or unwind? |
 | HENRY | GEX flip-band on decision days | rolling | F2-class dependency; ±err free-tracker accepted. |
 | VULCAN | S1 Path-B capex quantification | ahead of 7/22-7/29 megacap stack | Sets the NDX-SPX IV-dispersion canary line (Tier-2 hole). |
 
@@ -60,7 +62,7 @@
 
 | Date | Event | Threshold / Signal |
 |------|-------|---------------------|
-| 🔴 Jul 17 3:30 | CFTC COT (report-date 7/14) | Lev-money 2nd read — persist/deepen/reverse (KB-VIO-119) |
+| ✅ Jul 17 | CFTC COT (report-date 7/14) — GRADED DEEPENING (KB-VIO-121) | net +10,189/pct3y 99.4; next read 7/21-report → Fri 7/24 |
 | 🟠 Jul 22 ~7:50 PM ET | Japan MOF (SAM substance) | jpy_vol IV/RV — collapse toward 1× (risk passed) vs hold/widen |
 | 🟠 Jul 29 | FOMC (no SEP) | Hike optionality; 8d out, blackout-thinned tape |
 | 🟠 Jul 22-29 | Megacap earnings stack | Concentration/Path-B; VULCAN S1 seam |

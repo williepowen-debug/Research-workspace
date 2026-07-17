@@ -1,16 +1,17 @@
 # VIOLET SCRATCH — July 17, 2026 (PROME-spawned catalyst-day session)
 
-> **⚡ 7/17 ~13:20 ET — five-task session (COT grade pending 3:30).** Headline: **equity-vol is DE-COMPRESSING off the 7/10 complacency floor — VVIX 103.33 crossed the >100 watch line (from 87.28), VIX3M/VIX contango flattened to 1.129 (from 1.236), VIX 17.85, SKEW back >145 — but it's catalyst-day-mechanics-dominated, NOT a confirmed crack.** The load-bearing tell: **MOVE ~68 [7/15-16, web] is flat-to-down, NOT re-escalating** toward 70-72 even as equity-vol pops → no cross-asset confirm. Credit 🔴 Bin-A but unchanged; COT lev-money flipped net-long +5,112 [7/7] with the 2nd read grading 3:30 today; JPY carry-vol dead calm. **jpy_vol.py RATIFIED as-built** (canary now Tier-1 LIVE). Ruling KB-VIO-118; COT pre-reg KB-VIO-119.
+> **⚡ 7/17 CLOSE — full-day session complete (5 tasks + OVX build + COT graded + closeout).** Headline: **the day CLOSED FIRMING — de-compression off the 7/10 floor STRENGTHENED.** COT 2nd read **GRADED DEEPENING** (KB-VIO-121, report-date 7/14 verified): lev-money +10,189/pct3y 99.4 (3y extreme long, ~doubled from +5,112) → **positioning channel CONFIRMS** → crack thesis strengthens. EOD settle: VIX **18.71** (firmed into close), VVIX **104.79** (held >100), VIX3M/VIX **1.098** (contango compressed toward 1.0), SKEW 145.72. **Still not a full crack:** MOVE ~68 flat (rates-vol non-confirm), term-structure not inverted (1.098, approaching). Two canaries now LIVE: jpy_vol (CALM, IV/RV widening into MOF 7/22) + **OVX (built 7/17, FIRING p96.8 — oil-vol transmission loaded).** KB-VIO-117/118/119/120/121.
 
 ## NEXT SESSION (priority-ordered)
 
-1. **🔴 GRADE the 7/14 COT print** (if the 3:30 background timer already fired and I graded, this is DONE — check STATUS "COT VIX — TODAY'S GRADED READ" + KB-VIO-119 GRADE line). If not yet graded: run `.venv/bin/python3 AGENTS/VIOLET/scripts/cftc_cot.py --boot`, verify report-date = 2026-07-14 (NOT 7/07), grade vs the KB-VIO-119 branch map (persist ~+3-8k / deepen >+8-10k / reverse net-short), append grade to STATUS + KB-VIO-119, send follow-up to PROME.
-2. **🟠 GATE-VIO-116 re-open watch:** MOVE >70-72. Web-verify daily (Yahoo daily feed DEAD past 7/10; 1h-bar mislabels 1d late — use investing.com/CNBC/WebSearch). Distance ~2-4 pts as of 7/15-16.
-3. **🟠 jpy_vol IV/RV into MOF Wed 7/22:** watch whether IV/RV collapses toward 1× (risk passed) or holds/widens (event priced). Currently 2.77× and *widening* — risk-passed signature NOT yet appeared.
-4. **🟡 VVIX/contango follow-through:** does VVIX hold >100 and contango keep flattening (crack-building) or revert (catalyst-day mechanics confirmed)? This is the de-compression-vs-crack resolution.
-5. **🟡 Carried refreshes:** 20d SKEW avg recompute · M1:M2 detail · OVX resume-pull · broad equity put/call · HY/BB ladder · VIX9D (not in this run's threshold output).
-6. **⚪ PAT-032 note to DAEDALUS** (L4 packet all-6 applied 7/11) — cross-dir write, route via PROME. Still owed.
-7. **⚪ VULCAN S1** (Path-B capex) — fold in ahead of 7/22-7/29 megacap stack; sets the NDX-SPX IV-dispersion canary line.
+1. ✅ **COT 7/14 GRADED = DEEPENING** (KB-VIO-121, committed) — done this session. **Next COT read: report-date 7/21 → Fri 7/24 3:30.** Watch whether the pct3y-99.4 extreme-long PERSISTS / deepens further / unwinds.
+2. **🔴 VVIX/contango/COT follow-through (the crack-vs-strengthen resolution):** the de-compression STRENGTHENED into the 7/17 close (VIX 18.71, VVIX 104.79 >100, contango 1.098 toward 1.0) + positioning confirmed (COT DEEPENING). Monday: does the surface hold/extend (VVIX >100, contango → <1.0 = crack-building) or mean-revert (Friday-premium unwind = strengthen-was-overstated)? The still-missing crack legs are the PRICE channels: **MOVE >70-72** and **VIX3M/VIX <1.0**.
+3. **🟠 GATE-VIO-116 re-open watch:** MOVE >70-72. Web-verify daily (Yahoo daily feed DEAD past 7/10; 1h-bar mislabels 1d late — investing.com/CNBC/WebSearch). MOVE ~68 flat as of the 7/17 close; distance ~2-4 pts.
+4. **🟠 jpy_vol IV/RV into MOF Wed 7/22:** collapse toward 1× (risk passed) vs hold/widen (event priced). Currently 2.77× and *widening* — risk-passed signature NOT yet appeared.
+5. **🟠 OVX canary (NEW, FIRING):** ratio 3.38/p96.8 — oil-vol→equity-vol transmission channel loaded. Watch whether it stays FIRING or the ratio mean-reverts; route context to BRENT/HAWK.
+6. **🟡 Carried refreshes:** 20d SKEW avg recompute · M1:M2 detail · broad equity put/call · HY/BB ladder · VIX9D (not in this run's threshold output).
+7. **⚪ PAT-032 note to DAEDALUS** (L4 packet all-6 applied 7/11) — cross-dir write, route via PROME. Still owed.
+8. **⚪ VULCAN S1** (Path-B capex) — fold in ahead of 7/22-7/29 megacap stack; sets the NDX-SPX IV-dispersion canary line.
 
 ## WHAT I DID THIS SESSION
 
@@ -25,10 +26,10 @@
 
 ## CARRY-FORWARD
 
-- **Push state:** committed + safe-push at closeout (per protocol).
-- **Regime one-liner:** LOW_VOL de-compressing off the 7/10 floor; VVIX crossed 100, contango flattening; MOVE non-confirming, credit unchanged-Bin-A, COT turned (2nd read 3:30), JPY calm. De-compression not crack. No position.
-- **Biggest open loop:** the 3:30 COT grade (discriminator for the ruling).
-- **Data caveats:** equity-vol is 7/17 intraday TICK (not settle); MOVE is web ~68 [7/15-16] (Yahoo daily dead); COT still showing 7/7 in boot until the 3:30 release.
+- **Push state:** 4 commits pushed this session (4a216bb8 first batch · 7db16dae OVX build · 5ba847e3 COT prompt-grade · + this closeout). All on origin.
+- **Regime one-liner:** LOW_VOL de-compressing off the 7/10 floor, STRENGTHENING into the close (VIX 18.71, VVIX 104.79 >100, contango 1.098→1.0). Positioning CONFIRMED (COT DEEPENING, pct3y 99.4); OVX FIRING; credit unchanged-Bin-A; JPY calm; MOVE ~68 non-confirming. Strengthening candidate, NOT a confirmed crack (price channels MOVE/inversion unconfirmed). No position.
+- **Biggest open loop:** the crack-vs-strengthen resolution Monday — does the surface hold/extend + do the PRICE channels (MOVE >70-72, VIX3M/VIX <1.0) confirm, or does the Friday-premium unwind?
+- **Data caveats:** EOD settle levels are official (thresholds.py post-16:15, VX_DAILY superseded); MOVE ~68 [web, 7/15-16] — exact 7/17 close not cleanly indexed (Yahoo daily dead, feed caveat).
 
 ## OPEN HYPOTHESES (flagged, NOT actionable until backtested)
 
@@ -37,4 +38,4 @@
 
 ---
 
-*Last updated: 2026-07-17 ~13:20 ET. jpy_vol ratified (KB-VIO-117, Tier-1); vol-stack de-compression-not-crack (KB-VIO-118); COT 2nd-read pre-registered (KB-VIO-119, grade 3:30 via timer bkle6gfrd); canary menu + lane KEEP+AMEND in the outbox memo. Top next: grade the COT, watch MOVE >70-72 + jpy IV/RV into MOF 7/22.*
+*Last updated: 2026-07-17 ~16:20 ET (full closeout). Complete: jpy_vol ratified (KB-VIO-117, Tier-1); vol-stack de-compression-not-crack (KB-VIO-118); COT 2nd-read pre-registered (KB-VIO-119) then GRADED DEEPENING (KB-VIO-121); OVX canary built+FIRING (KB-VIO-120, Tier-1); canary menu + lane KEEP+AMEND (PROME landed the re-point); EOD closeout w/ COT verdict + settle stack in NEXUS_BRIEF per Will. Top next: crack-vs-strengthen resolution Monday (surface hold + MOVE >70-72 / VIX3M/VIX <1.0), next COT 7/24, jpy IV/RV into MOF 7/22.*
