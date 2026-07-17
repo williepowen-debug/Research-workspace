@@ -55,6 +55,16 @@ DISCRIMINATOR LOG (dated entries — record, don't re-derive ZONE 1)
 
 **Verdict: arm-#2 FIRED → card ARMED.** Registered consequence executed: arm packet → `AGENTS/TERRY/outbox/2026-07-16_to-PROME_try-fire-004-arm-packet.md` → Will [Approve] + live broker book. **Terry fill-verdict = CONDITIONAL** (armed as registered, not a chase-now rec): live option marks were unavailable at 09:32 ET (bid/ask 0.00, stale 7/15 last-trades, broken IV) → live re-pull required (rule #4); TLT is RED and at range lows → today's open is a rule-#6 chase, prefer a green-day/scaled fill. Context: June CPI 7/14 cool (−0.42% MoM headline) yet 10Y held the line = term-premium channel confirmed; MOVE round-tripped (spiked **77.77 Mon 7/13** — investing.com daily, same day as the 5-of-5 completion — → 75.03 [7/14] → 68.48 [7/15]); July CPI (mid-Aug) carries the Hormuz/Brent oil shock. **Latch:** arm-#2 is ARMED and latches until a <4.50 close disarms it (F6 precedence rule).
 
+**2026-07-16 grade, logged 2026-07-17 ~09:55 ET — ARM-#3 (May TIC) FIRED **WEAK** → DEEPEN-CONFIRM ONLY. NO NEW TRADE.** Grader: **PROME** (per the 7/16 session-end handoff — TERRY delegated this gate rather than leaving it un-owned; graded against `setups/ARM3-TIC-grading-template_2026-07-16.md` + BOND's CUT-A/CUT-B). Canonical: `PROME/research/2026-07-16_arm3-may-tic-grade.md` (CSLT-sourced, press-notice cross-checked). Routed to `inbox/2026-07-16_from-PROME_may-tic-arm3-grade.md`; consumed this boot.
+
+| Discriminator | State as of 7/17 | Arm threshold | Met? |
+|---|---|---|---|
+| #1 BND-11 acute (30Y reopen) | DEAD since 7/9. | — | **DEAD (unchanged)** |
+| #2 VX-BND-05 10Y-sustain | FIRED 7/13 (5-of-5), latched; no <4.50 close since. | 5 consecutive closes ≥4.50 | **ARMED (latched)** |
+| #3 Soft May TIC | May LT net **transactions** (CSLT): China **−$0.129B** · Japan **−$2.838B** — **both net sellers**, Apr→May. Graded on the card's F10 net-TRANSACTIONS wording, NOT the stale GATES "holdings-down" (reconciliation held). | China AND Japan both net sellers (transactions) | **YES — FIRED, but WEAK** |
+
+**Why WEAK, and why it changes nothing:** the sign test passes mechanically, but the **China leg is economically flat** — −$0.129B against a series that routinely swings ±$30B is noise wearing a minus sign. Thin confirmation depth; this is not a strong second arm and must not be cited as one. It **deepen-confirms an already-ARMED card** — it does **not** re-open Will's 7/16 NO-ADD, which stands. **Data-vintage correction:** the actual release was **7/14**, not the 7/16 the docket carried (PROME fixed the vintage). Note the pre-registered expectation was **likely NO-FIRE/UNDETERMINED** (China nowcast UP + Japan buying) — it fired against expectation, which is worth *less* comfort than it sounds precisely because the China leg is flat. **Card state unchanged: ARMED/HOT, $500 banked, no fresh capital.** All three arms now resolved (#1 DEAD · #2 ARMED-latched · #3 FIRED-weak) → card-level lapse (F5: requires all three individually dead) **cannot** fire while #2 latches.
+
 ══════════════════════════════════════════════════════════════
 ZONE 2 — LIVE MARKS (fill ONLY at actual fire — rule #4)
 ══════════════════════════════════════════════════════════════

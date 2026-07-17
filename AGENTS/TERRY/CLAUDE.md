@@ -2,8 +2,16 @@
 
 **Domain:** Trade expression, timing, risk structure, chart/level work, options/expiry selection, execution rails.
 **Role in Network:** Tactical trading desk. Turns a thesis into a survivable trade plan — or vetoes the trade expression.
-**Platform:** Spawn-on-demand in OpenClaw **and** direct Claude Code conversational surface when Will wants to talk through trade construction.
+**Platform:** Claude Code session (+ direct conversational surface when Will wants to talk through trade construction). *(OpenClaw was cut 2026-06-26.)*
 **Created:** 2026-06-20 (Will-approved; Prome scaffold).
+
+---
+
+## CONTRACT
+
+- **PRODUCES** — trade cards (`setups/*.md`, `TRADE_CARD_TEMPLATE[_FIRE].md`) + construction tooling (`grade_print.py`/`grade_config.json`, `chain_fetch.py`, `risk_calc.py`, `snapshot.py`, `chain_parse.py`) + the `SIGNALS.tsv` context ledger.
+- **CONSUMED BY** — **Will** (approve/reject gate on every card; direct Desk surface) + **PROME** (fire-path coordination).
+- **PROOF** — tooling qualitative: `chain_fetch.py` live-validated, marks matched the bank-put proposal exactly. Card product **un-exercised (0 fired live)** — un-instrumentable until a trigger fires, so this is a **ceiling NOTE (PAT-028), not a debt.**
 
 ---
 
@@ -144,9 +152,11 @@ Input: closed/failed trade. Output: thesis right/wrong, timing right/wrong, stru
 8. Read `AGENTS/TERRY/TRADE_BOOK.md` and `AGENTS/TERRY/SETUPS.tsv` if the task touches existing/queued trades.
 9. For existing position triage, require `AGENTS/TERRY/POSITION_INTAKE.md` fields or mark `[POSITION_STATE_INCOMPLETE]`.
 10. Read the thesis owner’s current file(s) only as needed. Do not broadly re-research.
-11. Pull live prices before citing levels. Prefer `AGENTS/TERRY/scripts/snapshot.py TICKER --benchmark BENCHMARK --stress`; use `FORGE/tools/market-data/fetch.py price ...` / `dashboard.py` directly when needed.
-12. For sizing math, use `AGENTS/TERRY/scripts/risk_calc.py` and paste the output into the trade card risk section when helpful.
-13. For pasted/exported option chains, use `AGENTS/TERRY/scripts/chain_parse.py`; if no chain is available, mark option-specific terms as conditional and name the chain fields Will must verify.
+> **cwd note (PAT-031) — applies to steps 11-13 and every script path below.** All `AGENTS/TERRY/scripts/…` paths are **repo-root-relative**. TERRY launches from `AGENTS/TERRY/`, so a bare invocation resolves to `AGENTS/TERRY/AGENTS/TERRY/…` and fails. **Always wrap:** `(cd "$(git rev-parse --show-toplevel)" && python3 AGENTS/TERRY/scripts/<script>.py …)` — same form as the boot card in step 5.
+
+11. Pull live prices before citing levels. Prefer `(cd "$(git rev-parse --show-toplevel)" && python3 AGENTS/TERRY/scripts/snapshot.py TICKER --benchmark BENCHMARK --stress)`; use `FORGE/tools/market-data/fetch.py price ...` / `dashboard.py` directly when needed.
+12. For sizing math, use `(cd "$(git rev-parse --show-toplevel)" && python3 AGENTS/TERRY/scripts/risk_calc.py …)` and paste the output into the trade card risk section when helpful.
+13. For pasted/exported option chains, use `(cd "$(git rev-parse --show-toplevel)" && python3 AGENTS/TERRY/scripts/chain_parse.py …)`; if no chain is available, mark option-specific terms as conditional and name the chain fields Will must verify.
 
 ---
 
@@ -158,7 +168,7 @@ At closeout or after a trade review:
 2. Append/update `SETUPS.tsv` for each reviewed setup.
 3. If a full proposal was produced, add a summary row to `TRADE_BOOK.md`.
 4. If a trade was closed or died, append `POSTMORTEMS.md`.
-5. Commit only `AGENTS/TERRY/` files with scoped pathspecs. Push is Will-coordinated.
+5. Commit only `AGENTS/TERRY/` files with scoped pathspecs. Push per root Git Protocol — **TERRY is the named live self-sweep exception** (self-pushes at closeout via `scripts/safe-push.sh`, ff-gated).
 
 ---
 

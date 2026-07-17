@@ -52,12 +52,18 @@ Before any actionable proposal, apply `RISK_SCORING.md`: define edge, max loss, 
 
 ## Scripts
 
+**Run from the repo root (PAT-031).** Paths are root-relative; TERRY launches from `AGENTS/TERRY/`, so a bare `python3 AGENTS/TERRY/scripts/…` resolves to `AGENTS/TERRY/AGENTS/TERRY/…` and fails. Either `cd "$(git rev-parse --show-toplevel)"` once per shell, or wrap each call as shown:
+
 ```bash
+cd "$(git rev-parse --show-toplevel)"   # do this once, then:
 python3 AGENTS/TERRY/scripts/boot.py --selftest
 python3 AGENTS/TERRY/scripts/boot.py --snapshot WAL KRE --benchmark KRE --stress
 python3 AGENTS/TERRY/scripts/snapshot.py WAL KRE --benchmark KRE --days 30 --stress
 python3 AGENTS/TERRY/scripts/risk_calc.py --premium 2.10 --max-loss 500
 python3 AGENTS/TERRY/scripts/chain_parse.py chain.csv --underlying WAL --type put
+
+# …or one-shot, cwd-independent:
+(cd "$(git rev-parse --show-toplevel)" && python3 AGENTS/TERRY/scripts/boot.py)
 ```
 
 Scripts are read-only helpers and never make execution decisions. `chain_parse.py` parses pasted/exported option-chain data; it does not fetch broker data.

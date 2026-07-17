@@ -51,7 +51,9 @@ def setups():
     errors = []
     with p.open(newline="") as f:
         rows = list(csv.DictReader(f, delimiter="\t"))
-    terminal = {"CLOSED", "EXPIRED", "SUPERSEDED", "CREATED", "N/A"}
+    # SHELVED/DEAD added 2026-07-17: a card killed by its own gate is terminal. Without these,
+    # TRY-FIRE-005 kept reporting as an open/actionable row after its DENY shelve (see POSTMORTEMS).
+    terminal = {"CLOSED", "EXPIRED", "SUPERSEDED", "CREATED", "N/A", "SHELVED", "DEAD"}
     openish = [r for r in rows if (r.get("status") or "").upper() not in terminal and (r.get("instrument") or "") != "TERRY"]
     # validate stable column count crudely
     lines = p.read_text().splitlines()

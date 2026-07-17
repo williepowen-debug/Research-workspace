@@ -17,12 +17,16 @@
 - Oct-16 expiry **CAPTURES the 7/23 Q2 print** with ~3 months of cushion — unlike the WAL/ZION 7/17 puts that died before their prints, **this position SURVIVES its next catalyst.**
 - But Oct-16 likely **expires just before the Q3 print** (~mid-late Oct) → this is a **Q2-print + interim CRE/regional-stress vehicle, not a Q3 play.** If the thesis is Q3-print-dependent, the tenor is wrong (would need Nov+).
 
-## Rationale
-**RATIONALE UNKNOWN — Will to state or make an exit-decision.** (Not invented per PROME guidance.) *Context only, not a reconstructed thesis:* HBAN is a regional bank; if this sits in the regional-bank/CRE-credit-stress basket alongside WAL/OZK/ZION, the live tell (per DEWEY via WALTER SIG-W-20260710-006) is **criticized/special-mention build, not headline Q2 NCO** — watch that in the 7/23 print. Whether THAT is the actual rationale is Will's to confirm.
+## Rationale — ✅ STATED BY WILL 2026-07-16 (stub RESOLVED; was UNKNOWN)
+> **"Stress lottery ticket — I was seeing unusual volume and attempted a play."** — Will, 7/16 in-session (routed via PROME, `inbox/PROME_ROUTING_2026-07-16_hban-rationale.md`).
+
+**Read:** an **opportunistic volume-signal play**, explicitly **NOT** part of a structured regional/CRE-stress basket thesis. This is Branch A of the thesis-or-exit ask: **position declared, rides through the 7/23 BMO Q2 print, resolves on its own.** No exit action, no restructure, no Q3-spanning re-tenor — the tenor mismatch flagged below is **moot** because there is no Q3-dependent thesis to span. ~$20 of mark value remaining; **no further governance owed beyond this log.**
+
+*Superseded speculation (kept for the record):* the earlier stub floated that IF this sat in the WAL/OZK/ZION CRE-credit basket, the live tell (DEWEY via WALTER `SIG-W-20260710-006`) would be **criticized/special-mention build, not headline Q2 NCO**. **Will's answer says it does not sit in that basket** — so that tell is not this position's discriminator. Do not retro-fit a thesis onto a lottery ticket.
 
 ## Governance flags
 1. Deep OTM (−13.2%) — low delta; a drift won't pay, needs a stress event.
 2. **DOCKET.tsv registration owed** for the 7/23 BMO print (flagged to PROME).
 3. Trimmed ×4→×2 already — Will has been managing it; not a forgotten position, just an ungoverned one until now.
 
-*No trade action off this stub. Will states the rationale / exit. TERRY never executes.*
+*No trade action off this stub. **Rationale stated 7/16 — governance loop CLOSED**; only the DOCKET registration (flag #2) remains, and that's PROME's. TERRY never executes.*

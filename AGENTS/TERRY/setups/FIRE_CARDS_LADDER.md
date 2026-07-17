@@ -1,6 +1,6 @@
 # FIRE CARDS — Ladder & Comparison
 
-**Updated:** 2026-07-10 ~11:15 ET (TRY-FIRE-005 built: carry-convexity FXY-call ENTRY card, pre-locked ahead of the 3:30 PM ET Jul-7-data COT covering-check) · **Owner:** TERRY · **Status:** all **PROPOSE-ONLY**, **$500 max-loss/card**, **0 fired live**.
+**Updated:** 2026-07-17 ~09:50 ET (**TRY-FIRE-005 SHELVED** — its 7/10 3:30 PM COT gate resolved DENY that day; logged here 7d late) · **Owner:** TERRY · **Status:** live cards **PROPOSE-ONLY**, **$500 max-loss/card**, **0 fired live**. **Live ladder = 001-004 · 005 = SHELVED/dead.**
 Living index of the staged fire cards. Standing rule (Will 6/26): fresh capital deploys ONLY on a fired trigger — never pre-position. Update this doc when a card is added/fired/invalidated.
 
 **The cards:**
@@ -8,7 +8,7 @@ Living index of the staged fire cards. Standing rule (Will 6/26): fresh capital 
 - `PRINT-TRIGGER_WAL-EGBN-build.md` — TRY-FIRE-002
 - `PRINT-TRIGGER_monoline-COF-SYF-ALLY.md` — TRY-FIRE-003
 - `FLOW-TRIGGER_duration-TLT-put.md` — TRY-FIRE-004 (duration/TLT puts, flow/velocity-discriminator-gated — spec routed by PROME 7/6, ID-corrected 7/8, card built + 7/9 arm-#1 DEAD recorded; 7/9 PM red-team patch re-scoped thesis + invalidations, card stays ALIVE)
-- `FLOW-TRIGGER_carry-convexity-FXY-call.md` — TRY-FIRE-005 (carry-convexity FXY calls, PRINT/CONFIRM-gated on today's 3:30 PM ET COT print — see § below)
+- ~~`FLOW-TRIGGER_carry-convexity-FXY-call.md` — TRY-FIRE-005~~ — 🔴 **SHELVED 2026-07-10 (DENY on the Jul-7 COT print; no entry made, $0 at risk).** Dead per its own kill rule; re-arm needs a fresh build, not a revival. See § below.
 
 ---
 
@@ -61,7 +61,9 @@ Arms on ANY ONE of 3 discriminators (BND-11 acute 7/9 reopen / VX-BND-05 10Y-sus
 
 ---
 
-## TRY-FIRE-005 (carry-convexity ENTRY — FXY calls)
+## TRY-FIRE-005 (carry-convexity ENTRY — FXY calls) — 🔴 SHELVED / DEAD
+
+**🔴 RESOLVED 2026-07-10 3:30 PM ET — DENY → SHELVED. NO ENTRY MADE, $0 AT RISK.** Jul-7-data COT **−123,778 / 68.8%** vs Jun-30's −155,092/86.2% = **+31,314 contracts covered (−17.4pp)**, clearing the ≥−140K DE-LOAD line by 16,222 — the largest one-week cover in SAM's series. SAM concurred same session (v1.6.5, SAM-36 FALSE/DE-LOAD; convexity-tail MED-HIGH→**MEDIUM**; amplifier +8-10pp→+5pp; "TRY-FIRE-005 entry NOT recommended"). Terminal per the card's own ZONE 1 kill rule — **the next weekly print does not revive it**; a re-arm needs a fresh build off SAM's current MEDIUM read. *(Logged 7d late on 7/17 — the pre-build state below is preserved as the historical record, not as current state.)*
 
 **Target:** FXY calls (2026-08-21 expiry, 58C+59C ladder) · **Trigger class:** **PRINT/CONFIRM** (today's 3:30 PM ET Jul-7-data CFTC COT print) · **Thesis owner:** SAM (THESIS.md v1.6.4, GATE-SAM-30 fired, MED-HIGH, net EV ~+1.3%) · **Confidence in structure:** MEDIUM (thesis MED-HIGH, taxed by IV-over-realized richness — see card).
 **Covering-check gate (exact):** Jul-7-data print ≤−153K → CONFIRM → Will [Approve]; ≥−140K → DENY → shelve; between → NOT-CONFIRMED → no entry today, gate stays live to next weekly print.

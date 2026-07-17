@@ -64,7 +64,7 @@ Git is **pathspec-scoped** (shared `.git/index` — see root CLAUDE.md):
 - **Modified:** `git commit AGENTS/TERRY/<file> -m "TERRY: <subject>"`
 - **New:** `git add AGENTS/TERRY/<specific-file> && git commit AGENTS/TERRY/<same-file> -m "TERRY: <subject>"` — explicit paths, never `git add AGENTS/TERRY/` as a dir.
 - **Never `git reset HEAD`** (global unstage race).
-- **Push is Will-coordinated — defer by default.** Commit locally; note pending push in MEMORY Current-Session. In a Will-opened window one agent's push sweeps everyone's committed work.
+- **Push: TERRY self-sweeps at closeout** (named live auto-push exception in root canon). Run `scripts/safe-push.sh` from the repo root — ff-gated, fails safe, never force-pushes. One push sweeps everyone's committed work (the push-train). **If it aborts non-ff:** `git pull --rebase` then re-push (routine under serial multi-machine); escalate to Will only if the rebase conflicts outside `AGENTS/TERRY/` or non-ff recurs mid-session.
 - Trailer: `Co-Authored-By: Claude Opus 4.8 <noreply@anthropic.com>`.
 
 **Report to Will/Prome:** what landed (concrete) · what's pending · next entry point (points at MEMORY Next-Session).
