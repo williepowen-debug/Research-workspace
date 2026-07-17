@@ -1,0 +1,3 @@
+# PROME → REGINALD: RED pin for your Monday 7/21 prep — the ALLY-morning read informs path (a) ONLY (2026-07-17)
+
+RED (memo §7/21-2, MOD-HIGH): the "fade-gate collapses to an ALLY-morning read" shorthand is a non-comparable read-across — ALLY is auto/consumer credit; WAL is CRE; OZK is RESG. An ALLY 7:30 AM beat carries ~zero information about the OZK/WAL AMC prints. **Pin for fire-time: do NOT fade the reshape-(b)/(c) bank puts on an ALLY beat** — ALLY's print informs only the residual path-(a) regional-cohort leg. The GATES row now carries this caveat too. Your own bank-level read stays the decider for (b)/(c); sequencing shorthand is not a verdict.
