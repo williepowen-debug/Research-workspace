@@ -50,30 +50,28 @@
 
 ## Session Notes
 
-### CHANGES SINCE LAST SESSION (2026-07-16 ~09:35 ET — PROME teams-spawn, post-CPI grade)
-*June CPI (released 7/14) resolved UNGRADED over the 7/13-7/15 fleet-offline gap; graded this session. **The load-bearing outcome is HEN-40, not HEN-38.***
-- **HEN-38 RESOLVED-DEMOTE clean.** June core −0.02% MoM (≤+0.2%), core YoY 2.6% (↓2.9%), headline −0.42% (energy −5.7% MoM the driver); supercore +3.1% (↓3.7%) = boundary cleared, NO hot-supercore ambiguity (core AND supercore both cooled). Overlays: 2Y-confirm went the DEMOTE way (DGS2 4.26 [7/13]→4.18 [7/14, −8bp]); SOFR-squeeze NOT FIRED (orderly, 10Y held ≥4.50, no overshoot — read the 2Y as the squeeze tell per LIQUID's front-end correction); blackout untested-downside (soft=risk-on, SPX rose).
-- **HEN-40 rates leg UPGRADED provisional→CONFIRMED; two-decoupled-channels CONFIRMED at the cleanest test.** A DEFLATIONARY CPI could NOT break the 10Y <4.50 (4.62→4.58). Decomp [FRED]: held by REAL yield (DFII10 2.36 [7/13] near cycle-high), NOT breakevens (T10YIE anchored 2.23-2.26 — deflation didn't pull it down, $86 oil didn't push it up). Arm-#2 5-of-5 official ≥4.50 completed 7/13, 6th 7/14. **Term-premium channel > data channel.** BOND parallel-decomposing for TERRY's TRY-FIRE-004 (expect convergence, no direct coordination per PROME).
-- **HEN-35 GRADED RESOLVED-MISS** (expires 7/17, outcome determined — VIX never near 23; mechanism → HEN-36). **HEN-41 REGISTERED** (July CPI ~8/13 = oil-shock test proper; DENY lean, breakevens ignoring the $86 oil).
-- **Gamma tripwire STOOD DOWN** — pre-CPI flip band 7,437-7,471 never tested; benign print. Flip migrated up to ~7,530-7,545, SPX 7,544 straddling = thin cushion into the 7/22-31 cluster. GAP: exact flip still paywalled (VIOLET's F2 gate depends on it — delivered as estimate only).
-- **3 routing packets drained** (7/11 ×2 + 7/12): VULCAN (~$25B MSFT capex = memory pass-through + AMZN FCF −95% → folds into HEN-36); WATT (PJM $574→$72 transient, no change); SAM (yen-carry de-loaded = one fewer absorption-thinner); VIOLET (SKEW mislabel resolved by the 7/6-line trim); LIQUID (SOFR front-end/STIR-led correction — converges with my 2Y instrument). All `git mv`'d to inbox/processed/.
-- **STATUS refreshed + held at 250** (7/16 block + all threshold/prediction tables; trimmed the 7/6 live-tape line + the 7/1 BOTTOM-LINE lineage).
-- **Hygiene:** firetime_check "dead pointers" = FALSE POSITIVES (all exist; relative paths that only resolve from HENRY's dir — firetime ran from repo root). 8/2 + 8/13 stamps forward-valid. No find-replace made.
+### CHANGES SINCE LAST SESSION (2026-07-17 ~21:05 ET — Will boot)
+*Boot only (no task assigned). The material finding: my 7/16 "thin cushion into the 7/22-31 cluster" call got its FIRST real test within one session.*
+- **GAMMA-FLIP TRIPWIRE TESTED.** SPX **−1.0% to 7,457** = ~75-90pts BELOW the ~7,530-7,545 flip (7/16 est), on **Brent $88 (+4.58%)** oil-shock risk-off (6th strike night). **VIX +12% to 18.77 / VVIX +7.8% to 105** = vol finally engaging (first real pop since the CPI grade); front-week vol re-steepened toward the tail (9D/VIX 0.79→0.90). This is the **SPX-under-the-flip → re-arm-NEGATIVE-gamma path (FLOW-013 likely-dormant→LIVE)** I published for VIOLET's Gate B. **BUT coil-TIGHTENING, not cascade:** (1) VIX still ~4 under >23 = vol-control step 1 NOT engaged; (2) **10Y EASED (4.54, mild FTQ)** → per GCVR this is an ON-AXIS level move (+GEX→−GEX flip mechanism), NOT the off-axis rate/correlation shock; (3) credit calm (HY 271, CCC−BB 5d gap −6). Catalyst = oil, transmitting via RATES (MIDAS gold-into-escalation read).
+- **⚠️ BINDING GAP: the flip is a 7/16 ESTIMATE (paywalled) — can't yet confirm SPX is genuinely through it.** The −1% + VIX/VVIX pop is the tell; the exact level is the confirmation still owed. Repull flashalpha/insiderfinance intraday next weekday session BEFORE treating −GEX as confirmed-armed. (VIOLET's F2 still needs it too.)
+- **WALTER lane drained — 11 signals (board_log + all `git mv`'d):** 2 `acted`, 9 `noted`. **BofA — hyperscaler 12m-fwd FCF NEGATIVE first time on record** ($175B debt = 6x avg) → frames HEN-36's 7/29-31 gate but does NOT move an ACTUALS gate (conf 0.65, single-sourced, don't build on the −$50bn trough). **DGS2 3-day move = free daily deposit-run discriminator** (DEWEY) → adds to my 2Y funding instrument. **GasBuddy $4-gas 7-10d** (a re-crossing) → HEN-41 gas-pump proxy, window 7/20-23. **ORCL cut to BBB-** naming OpenAI key-risk (dur mismatch) = HEN-36 AI-credit conduit at IG scale. VIX COT flipped net-long-vol; compute futures real (CME+ICE); PJM 6.8GW short at cap (WATT); 0.42-cash-ratio UNVERIFIED but Citadel 3.5x dip-buying REAL. **No thesis change — all corroborate existing gates.**
+- **STATUS refreshed to 7/17 + held at 248** (added 7/17 block; refreshed all thresholds + VOL REGIME to live; compressed the graded 7/8 block + removed the redundant 7/1-retired pointer). **boot.py predictions-due scan: none overdue.**
 
 ### NEXT SESSION
 **🔴 PRIORITY:**
-1. **Fri 7/17 CFTC** — grades whether the crowded ~$700B SOFR short actually covered (LIQUID's open question); the soft CPI's orderly 2Y move (−8bp, no squeeze) implies it didn't, but CFTC confirms.
-2. **Tue 7/22 GOOGL = first HEN-36 FCF tell** (a week ahead of the cluster). VULCAN's memory-pass-through ($25B of MSFT capex) + AMZN FCF −95% already lean CONFIRM; MSFT/META 7/29 = core gate. Packet-D consolidation to PROME.
-3. **Repull the EXACT gamma flip** on GOOGL/FOMC — VIOLET's F2 gate still needs a non-paywalled number (~7,530-7,545 estimate is the current best).
-4. **HEN-41 (July CPI ~8/13):** watch T10YIE for a break >2.30 (anchored ~2.24 now = DENY lean); interim gas-pump/breakeven proxy.
-5. **FOMC 7/28-29** (no dots) — story is pricing drift; a soft CPI + firm 10Y = the awkward hold.
-6. **DEWEY PROMPT-12** still overdue (was deliver-by 7/10) — escalate if still missing.
+1. **Repull the EXACT gamma flip** (flashalpha/insiderfinance) — THE live confirmation owed: is SPX genuinely through the flip (−GEX armed) or just below a 7/16 estimate? Feeds VIOLET's F2. Now urgent, not deferred.
+2. **Does the 7/17 risk-off EXTEND?** Follow-through under the flip + VIX toward 23 = cascade step 1 arming (the coil releasing); a bounce back over the flip = coil re-sets. Check KRE/APO/credit for whether risk-off BROADENS beyond the oil impulse.
+3. **Fri 7/17 CFTC** (may have printed) — grades the ~$700B SOFR-short cover (LIQUID's open Q); orderly 2Y on the CPI implied it didn't, CFTC confirms.
+4. **Tue 7/22 GOOGL = first HEN-36 FCF tell.** BofA fwd-FCF-negative + VULCAN memory-pass-through lean CONFIRM; MSFT/META 7/29 = core gate. Packet-D consolidation to PROME.
+5. **HEN-41 (July CPI ~8/13):** T10YIE break >2.30 watch (anchored ~2.24 = DENY lean) + GasBuddy $4-gas window 7/20-23 as gas-pump proxy.
+6. **FOMC 7/28-29** (no dots) — pricing drift; soft CPI + firm 10Y = the awkward hold.
+7. **DEWEY PROMPT-12** still overdue (was 7/10) — escalate if still missing.
 
-**Pending Will decisions:** exact gamma flip source (paywalled SpotGamma vs accept the free-tracker estimate) — feeds VIOLET's F2. PJM_API_KEY for WATT (FYI, not HENRY's ask).
+**Pending Will decisions:** exact gamma-flip source (paywalled SpotGamma vs accept the free-tracker estimate) — feeds VIOLET's F2, now the binding gap given the 7/17 flip test.
 
 ### GAPS — PERSISTENT
-- **Exact gamma flip PAYWALLED** — 7/14 repull delivered only ~7,530-7,545 estimate; VIOLET's F2 gate needs the precise number. **0DTE SPX share** still unsourced.
-- **Breakeven/TIPS interim-proxy cadence** not yet a formal HENRY line — now more relevant (HEN-41 registered = the oil-shock July-CPI test is a tracked row; T10YIE/T5YIFR/DFII10 the instruments).
+- **Exact gamma flip PAYWALLED** — the 7/17 tripwire test can't be confirmed without the precise level; VIOLET's F2 gate needs it. **0DTE SPX share** still unsourced.
+- **Breakeven/TIPS interim-proxy cadence** not yet a formal HENRY line — relevant to HEN-41 (T10YIE/T5YIFR/DFII10 the instruments).
 
 ### INFRASTRUCTURE NOTES
 - 7/10: **boot.py IS BOOT STEP 3c**, power_watch.py **MOVED to AGENTS/WATT/ (no longer HENRY's — consume, don't run)**. Due-scan requires PREDICTIONS.tsv status exactly ACTIVE/OPEN.
