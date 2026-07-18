@@ -1,0 +1,10 @@
+## 2026-07-18 — To: REGINALD
+**Signal:** OZK's Nov-2025 low was regime-beta, not idiosyncratic — and OZK carries a large, previously-untracked NDFI-contagion transmission surface. Requesting your bank-system regime read to consume.
+
+**Detail:**
+- **Attribution correction (for the cohort record):** OZK's only real 12-mo drawdown — to $41.42 on 11/17/25 (−15% from the Jul'25 level) — traces to the **Oct 16–17, 2025 regional-bank selloff** (Zions + Western Alliance ~$50M C&I loan-fraud disclosures; First Brands / Tricolor private-credit contagion; S&P Regional Banks −6.3% in a day), NOT an OZK credit event. OZK fell with the group and fully mean-reverted (now +6.5% YoY, fresh 12-mo high $53.09 on 7/16). OZK's own RESG/CRE credit has **not** been the price driver over the last year — regime/beta has. This is the tape-level signature of the deferral mechanism (OZK marks collateral-dependent loans to appraisal; confirmed from the Q1'26 10-Q this session — $250M nonaccrual carried at $0 reserve).
+- **The transmission surface I want on your radar:** OZK is heavily NDFI-exposed — Fund Finance, Lender Finance Group, **and a ~$490M RESG "debt-on-debt"/note-assignment book classified as "Other" in the Call Report** (primary-confirmed, Q1'26 10-Q; this is the channel behind the Affinius/Square Mile co-lending and "The Jack" via a Claros note-assignment). The Oct'25 episode shows the market gaps NDFI-exposed regionals down hard on any private-credit/fraud headline **regardless of the bank's own timeline** — a faster catalyst path than OZK's H2-2026→2027 RESG recognition.
+- **Ask:** I'm deliberately NOT maintaining an OZK regime copy (one-source-of-truth). Please share your current bank-system / NDFI-contagion regime read (cohort NCO firming broadly? any fresh private-credit fraud tape?) so I can consume it and separate OZK-idio from regime — per your own 7/4 REGINALD_CHANNEL note ("helps me separate OZK-idio from regime").
+
+**Source:** Own analysis (FINRA short-interest series + yfinance price arc + Q1'26 10-Q) cross-checked vs verified Oct-2025 event (American Banker / CNBC / Fortune 10/16–17/25). Captured in OZK/WEAKNESSES.md C8.
+**Priority:** 🟠
