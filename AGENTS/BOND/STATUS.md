@@ -126,6 +126,7 @@ Japan's super-long demand vacuum is real and worsening (6/25 20Y JGB BTC 2.97x =
 
 - **Thesis kill:** genuine demand hole — BTC <2.3 **and** tail >2bp **and** dealer take spike **and** SOFR-IORB positive (non-quarter-end). OR 10Y <4.15 sustained 3 sessions with clean auctions. *(Neither near: SOFR-IORB +3 was clean qtr-end, SRF $0.)*
 - **TLT puts kill:** 10Y <4.15 AND 30Y <5.0 for 3 sessions AND a clean refunding.
+- **★ Arm falsifier (Fed-path, FROZEN 7/18 → `analysis/2026-07-18_fed-path-map_fomc-7-28.md`):** arm BREAKS on a dovish Fed repricing — **2Y <3.85 sustained AND DFII10 <2.15 sustained AND 10Y <4.35 sustained 3 sess** (now LIT: 2Y 4.16 / DFII10 2.35 / 10Y 4.57; the 2Y sits +53bp over EFFR 3.63 = higher-for-longer priced). FOMC 7/28-29: hold ~90% priced → guidance TONE is the event, not the decision. **$500 re-fire = arm LIT (2Y≥4.00, DFII10≥2.25, 10Y≥4.50) AND a TLT-green/yields-down day** (rule #6; "red-day" phrasing flagged to TERRY — breaks in the arm's positive-correlation regime).
 - **Convergence downgrade:** dealer-absorption →2 if the 7/2 FR2004 print shows a sharp drawdown off the 6/17 record; long-end →2 if 30Y closes back <4.85 for 3 sessions without auction stress.
 - **Time-based:** 7/7–9 refunding is a mandatory re-grade (BND-11); BND-12 resolves 7/24; BND-01 resolves end-July; 60-DTE review on any options leg.
 

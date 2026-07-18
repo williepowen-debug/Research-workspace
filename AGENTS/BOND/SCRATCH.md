@@ -18,9 +18,9 @@
 4. Wrote outbox memo, created NEXUS_BRIEF, updated STATUS (dashboard + decomposition callout + EU line + BOTTOM LINE), THESIS v1.1.2 + CHANGELOG, KB-BND-080/081/082, VX-14/VX-19.
 
 ## NEXT SESSION (dated, future-verifiable)
-1. **Mon 7/22 20Y reopening (912810UV8) + 40Y JGB** · **Thu 7/23 10Y TIPS** — MECHANICAL grades vs pre-reg `setups/2026-07-16_prereg_7-22-20Y_7-23-10YTIPS.md`. TIPS at DFII10 ~2.35 series-high = real-money referendum on the (now-relabeled) real-policy-path leg. Both inside Fed blackout (clean).
+1. **Mon 7/22 20Y reopening (912810UV8) + 40Y JGB** · **Thu 7/23 10Y TIPS** — MECHANICAL grades vs FROZEN pre-regs: US 20Y/TIPS `setups/2026-07-16_prereg_7-22-20Y_7-23-10YTIPS.md`; **40Y JGB `setups/2026-07-18_prereg_7-22-40Y-JGB.md`** (baseline 5/27 BTC 2.70; grade FIRM≥2.50 / SOFT 2.30-2.50 / WEAK<2.30+tail — and it's a **30Y-LEVEL tell, NOT an arm move-driver**, grade into channel-6 not the arm scoreboard). TIPS at DFII10 ~2.35 series-high = real-money referendum on the real-policy-path leg. Both inside Fed blackout (clean).
 2. **DFII10 2.5 re-arm watch** — 2.35 [7/16], ~15bp from the real-yield-stress re-arm.
-3. **FOMC 7/28-29 (no SEP)** = the corrected falsifier's live test — hawkish-hold keeps the policy-path leg lit; a dovish pivot is the kill (NOT an oil retrace).
+3. **FOMC 7/28-29 (no SEP)** = the corrected falsifier's live test — grade the reaction vs FROZEN thresholds `analysis/2026-07-18_fed-path-map_fomc-7-28.md`: arm BREAKS on 2Y<3.85 + DFII10<2.15 + 10Y<4.35 sustained (dovish repricing). Hold ~90% priced → **guidance TONE is the event, not the decision.** $500 re-fire rule = arm LIT + TLT-green day (rule-#6 "red-day" phrasing flagged to TERRY — breaks in the positive-correlation regime).
 4. **DEFERRED (still owed): HENRY UST structural-demand corpus** refresh-or-retire (ML-HEN-114/115, FLOW-HEN-025; Mar-vintage) — the term-premium "why" under the LEVEL (now more clearly a level, not the move, story). Owner=BOND, dedicated session.
 5. **DEFERRED this session: domain-sweep lenses** (`PROME/packets/DOMAIN_SWEEP_LENSES.md`) — tasks 1-3 won on time; run next warm session, deliverable `reports/2026-07-18_domain-sweep.md`.
 6. ECB GovC 7/23-or-24 (date STILL unverified); BOJ 7/31.

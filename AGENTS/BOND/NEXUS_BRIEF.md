@@ -14,8 +14,16 @@ NEXUS §18 lists as an independent leg: *"the real-yield term-premium leg (held 
 - **MECHANISM label — CORRECTED.** It is **not** a "term-premium" leg. The move was a **belly-led bear-flattener** (5Y +16 > 10Y +14 > 30Y +11; 10Y−2Y +1bp; 30Y−10Y −3bp) — the long end LAGGED, which is the opposite of a term-premium expansion. It is a **real-policy-path reprice** (higher-for-longer real Fed rate; 2Y +13bp co-witness). Term premium is elevated in the *level* (ACM 10Y TP +0.73%, July 2026 — positive first time since 2023) but was flat over the window.
 - **NEXUS action:** relabel the leg "**independent real-*policy-path* leg**" (or "real-rate / higher-for-longer leg"), not "real-yield *term-premium* leg." The independence survives; the mechanism word changes.
 
-## Falsifier (corrected — feeds NEXUS's shared-falsifier discipline)
-Not "fast Hormuz de-escalation → Brent retrace." A policy-path leg falsifies on a **dovish Fed repricing** (front-end/belly real rates fall) or a real growth-scare. Already stress-tested: cool June CPI+PPI did NOT break it. The 7/28-29 FOMC (no SEP) is the live test — a hawkish-hold keeps the leg lit; a dovish pivot is the kill. **This decouples the rates leg from the oil de-escalation falsifier NEXUS shares across the oil-spine legs** — it is a separate, later, Fed-driven falsifier.
+## Falsifier — NOW QUANTIFIED (7/18 Fed-path map; feeds NEXUS's shared-falsifier discipline)
+Not "fast Hormuz de-escalation → Brent retrace." A policy-path leg falsifies on a **dovish Fed repricing** (front-end/belly real rates fall). **Pre-registered thresholds** (`analysis/2026-07-18_fed-path-map_fomc-7-28.md`, FROZEN 7/18):
+
+| State | 2Y | DFII10 | 10Y | Arm |
+|---|---|---|---|---|
+| LIT (now: 4.16 / 2.35 / 4.57) | 4.00-4.30 | 2.25-2.45 | 4.50-4.65 | CONFIRMED |
+| WATCH | 3.85-4.00 | 2.15-2.25 | 4.35-4.50 | softening |
+| **BREAKS (falsifier)** | **<3.85 sust.** | **<2.15 sust.** | **<4.35 sust. 3 sess** | **FALSIFIED** |
+
+**Key mechanism for NEXUS:** the 2Y at 4.16 sits **+53bp above the funds rate (EFFR 3.63)** — the front end is upward-sloping (3M 3.84→1Y 3.99→2Y 4.16), pricing higher-for-longer with hike risk, decisively NOT cuts. *That gap IS the arm.* Already stress-tested: cool June CPI+PPI did NOT break it. **The 7/28-29 FOMC is the live test — but the HOLD is ~90% priced (FedWatch 7/16), so the arm's fate rides on the GUIDANCE TONE, not the decision:** hawkish-hold = leg lit; dovish-hold (softens inflation language / opens door to cuts / dovish dissent) = the kill. **This decouples the rates leg from the oil de-escalation falsifier NEXUS shares across the oil-spine legs** — a separate, later, Fed-driven falsifier (July CPI 8/13 is post-FOMC → Fed sees the shock not the data → structurally favors the hawkish-hold).
 
 ## Live rates state [as-of, FRED]
 | Metric | Value | Obs date | Read |
