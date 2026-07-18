@@ -4,12 +4,13 @@
 
 ---
 
-### 2026-07-17 (~21:15 ET) — NEW `scripts/gamma_flip.py` — self-computed SPX gamma flip (resolves the SpotGamma paywall GAP)
+### 2026-07-17 (~21:15 ET) — NEW `scripts/gamma_flip.py` — self-computed FREE-TIER SPX gamma flip (removes the tracker dependency; does NOT close the paywall gap)
 - **Trigger:** Will "repull the live gamma flip level." The exact flip had been a persistent GAP (paywalled SpotGamma) + a pending Will decision (pay vs accept the free-tracker estimate). fetch.py has no options/gamma capability (price/FRED/EIA only).
+- **⚠️ Scope correction (Will pushback, same session):** first framed as "resolves the paywall GAP / decision MOOT" — OVERCLAIM. The script rebuilds the FREE trackers (naive long-call/short-put dealer assumption), not SpotGamma (which refines dealer positioning). It removes the external-tracker DEPENDENCY and confirms the SIGN by margin; it does NOT reproduce the precise/refined flip and is unvalidated vs ground truth. Gap DOWNGRADED, not closed; Will decision REDUCED, not moot. Lesson logged in LESSONS.md.
 - **What it does:** pulls the LIVE ^SPX options chain (yfinance — available in this venv, 52 expirations w/ OI+IV), computes BSM gamma per contract (r=4.5%, q=1.3%), sums net dealer GEX (long-call/short-put convention) across ≤35d strikes ±25% of spot, finds the zero-gamma flip by sign-change interpolation, plus call/put walls. ~6,200 usable contracts.
 - **First run (7/17 21:00):** flip **~7,522** · Net GEX **−$25.7B/1% (NEGATIVE)** · SPX 7,457.69 −65pts below = −GEX confirmed · put wall 7,500 (SPX through it) · call wall 7,600. Validated the 7/16 ~7,530-7,545 estimate.
 - **Caveat (documented in the script header + STATUS):** absolute $B depends on the dealer-positioning assumption; the FLIP LEVEL and SIGN are the robust reads. Greeks are BSM-from-IV, not vendor greeks.
-- **Consequence:** the "exact gamma flip PAYWALLED" GAP is resolved; the pending Will "pay for SpotGamma?" decision is MOOT. VIOLET's F2 gate can now be fed on demand.
+- **Consequence:** the external-free-tracker DEPENDENCY is removed (VIOLET's F2 can be fed a free-tier flip on demand); the exact/precise flip is NOT reproduced and validation vs SpotGamma/OCC is still owed. Will "pay for SpotGamma?" decision reduces to "is free-tier good enough for F2?"
 - **Files touched:** `scripts/gamma_flip.py` (new), `STATUS.md` (7/17 block + VOL REGIME + SPX threshold), `MEMORY.md` (gap resolved + infra note), `AGENTS/VIOLET/inbox/` (flip delivered), this entry.
 - **Boot-impact:** none (on-demand tool, run on catalyst days — GOOGL 7/22, FOMC 7/28-29 — not wired into boot).
 
