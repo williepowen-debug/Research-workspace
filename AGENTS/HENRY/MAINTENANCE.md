@@ -4,6 +4,14 @@
 
 ---
 
+### 2026-07-17 (~22:05 ET) — WIRED `gamma_flip.py` into `boot.py` as section (b) GAMMA
+- **Trigger:** Will "wire gamma_flip.py into boot.py" — make the gamma regime a standing boot read alongside tape/credit/predictions.
+- **What changed:** (1) `gamma_flip.py` refactored to expose `compute_gamma_flip(asof, horizon, band)` returning a dict (fail-safe: returns `{'error':...}`, never raises) — CLI `main()` now sources from it; **regression-checked, identical numbers** (flip 7,522 / GEX −25.7B / walls 7,600·7,500 at 35d). (2) `boot.py` gains section **(b) GAMMA** (imports the function in-process, 14d fast-pull — flip 7,521 vs 35d 7,522, ~4s), renumbered credit→(c) / predictions→(d). Runs by default; **`--quick` now skips gamma+credit** (the two slower external pulls). Degrades gracefully if yfinance/chain fails (prints ⚠️, boot continues).
+- **Timing:** full boot **9→11.7s** (gamma +~2.7s). Well under the ~15s budget.
+- **Eval note:** this is a **Tier-1 additive-display change** (a new read-only data section, no new reasoning instruction — unlike the 7/10 step-3c wiring which added the due-row disposition RULE). The eval's regression-guard role targets reasoning-surface changes; a display section doesn't alter it. Not re-running the 3-case suite for a display-only add; flagged here for the next eval cadence if a reviewer disagrees.
+- **Files touched:** `scripts/gamma_flip.py` (refactor), `scripts/boot.py` (section b + --quick + labels), `CLAUDE.md` (step 3c description), `MEMORY.md` (infra notes), this entry.
+- **Boot-impact:** gamma flip is now a standing boot read; no write-back obligation (display-only, like tape/credit). Repull 35d via the standalone script on trade/decision spawns.
+
 ### 2026-07-17 (~21:15 ET) — NEW `scripts/gamma_flip.py` — self-computed FREE-TIER SPX gamma flip (removes the tracker dependency; does NOT close the paywall gap)
 - **Trigger:** Will "repull the live gamma flip level." The exact flip had been a persistent GAP (paywalled SpotGamma) + a pending Will decision (pay vs accept the free-tracker estimate). fetch.py has no options/gamma capability (price/FRED/EIA only).
 - **⚠️ Scope correction (Will pushback, same session):** first framed as "resolves the paywall GAP / decision MOOT" — OVERCLAIM. The script rebuilds the FREE trackers (naive long-call/short-put dealer assumption), not SpotGamma (which refines dealer positioning). It removes the external-tracker DEPENDENCY and confirms the SIGN by margin; it does NOT reproduce the precise/refined flip and is unvalidated vs ground truth. Gap DOWNGRADED, not closed; Will decision REDUCED, not moot. Lesson logged in LESSONS.md.

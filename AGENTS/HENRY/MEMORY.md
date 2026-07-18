@@ -75,7 +75,8 @@
 - **Breakeven/TIPS interim-proxy cadence** not yet a formal HENRY line — relevant to HEN-41 (T10YIE/T5YIFR/DFII10 the instruments).
 
 ### INFRASTRUCTURE NOTES
-- 7/17: **`scripts/gamma_flip.py` NEW** — computes a FREE-TIER SPX gamma flip / net GEX / call+put walls from the LIVE ^SPX chain (yfinance) + BSM. **NOT a SpotGamma replacement** — assumes naive long-call/short-put dealer gamma (peer of the free trackers, not the paywalled refined number); SIGN robust, exact flip unvalidated near a crossing. Run `.venv/bin/python3 AGENTS/HENRY/scripts/gamma_flip.py [--asof YYYY-MM-DD]`.
+- 7/17: **`scripts/gamma_flip.py`** — FREE-TIER SPX gamma flip / net GEX / call+put walls from the LIVE ^SPX chain (yfinance) + BSM. **NOT SpotGamma-grade** (naive long-call/short-put dealer assumption; sign+flip robust, $B assumption-dependent). Validated 7/17 vs FlashAlpha/zerogex. **NOW WIRED into boot.py as section (b) GAMMA** (14d fast-pull, flip stable vs 35d) — runs every full boot; `--quick` skips it. Standalone `--days 35` = the definitive read for trade/decision spawns.
+- 7/17: **boot.py is now FOUR sections** — (a) tape (b) GAMMA (c) credit (d) predictions-due; full boot ~12s; `--quick` skips gamma+credit (the slow external pulls).
 - 7/10: **boot.py IS BOOT STEP 3c**, power_watch.py **MOVED to AGENTS/WATT/ (no longer HENRY's — consume, don't run)**. Due-scan requires PREDICTIONS.tsv status exactly ACTIVE/OPEN.
 - 7/10: **WATT/VULCAN/MIDAS spun out** as new agents (power-cost, semi/capex, metals respectively) — all three now feed HENRY inputs rather than HENRY owning those legs. See CLAUDE.md step 3b.
 - 6/15: **`refresh_status.py` RETIRED** → `archive/retired/` (stale writer — do NOT resurrect; MAINTENANCE.md).

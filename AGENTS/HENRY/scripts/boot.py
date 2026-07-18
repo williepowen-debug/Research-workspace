@@ -7,14 +7,15 @@ Read-only by design: it DISPLAYS live state, it does NOT write STATUS.md
 refresh_status.py was RETIRED 2026-06-15 to archive/retired/ (stale writer —
 hardcoded narrative; do not resurrect — see MAINTENANCE.md).
 
-Three components (all from existing materials):
+Four components (all from existing materials):
   (a) LIVE TAPE       — fetch.py real-time/last quotes (not a pre-open period=1d bar)
-  (b) CREDIT          — credit_monitor.py (HY/CCC/BB + CCC-BB bifurcation)
-  (c) PREDICTIONS-DUE — scan workbook/PREDICTIONS.tsv for OPEN/ACTIVE rows due ≤ today
+  (b) GAMMA           — gamma_flip.py free-tier SPX dealer-gamma flip / net GEX / walls (14d, fast)
+  (c) CREDIT          — credit_monitor.py (HY/CCC/BB + CCC-BB bifurcation)
+  (d) PREDICTIONS-DUE — scan workbook/PREDICTIONS.tsv for OPEN/ACTIVE rows due ≤ today
 
 Usage:
   .venv/bin/python3 AGENTS/HENRY/scripts/boot.py
-  .venv/bin/python3 AGENTS/HENRY/scripts/boot.py --quick     # skip credit (slower FRED pull)
+  .venv/bin/python3 AGENTS/HENRY/scripts/boot.py --quick     # skip credit + gamma (slower external pulls)
   .venv/bin/python3 AGENTS/HENRY/scripts/boot.py --verbose   # full credit_monitor output
   .venv/bin/python3 AGENTS/HENRY/scripts/boot.py --selftest  # assert the due-scan logic fires
 
@@ -99,9 +100,37 @@ def live_tape():
     print("\n  ⚠️  real-time/last quote — stamp THIS timestamp in STATUS, not 'close'.")
 
 
-# ------------------------------------------------------------------- (b) CREDIT
+# -------------------------------------------------------------------- (b) GAMMA
+def gamma(asof=None):
+    print(f"\n{'─'*64}\n  (b) GAMMA  ·  SPX dealer-gamma flip (gamma_flip.py, free-tier)\n{'─'*64}")
+    try:
+        if str(SCRIPTS_DIR) not in sys.path:
+            sys.path.insert(0, str(SCRIPTS_DIR))
+        from gamma_flip import compute_gamma_flip
+        r = compute_gamma_flip(asof=asof, horizon=14)  # boot-fast; flip stable vs 35d (7,521 vs 7,522)
+    except Exception as e:  # noqa: BLE001
+        print(f"  ⚠️  gamma_flip failed: {str(e)[:200]}")
+        return
+    if "error" in r:
+        print(f"  ⚠️  {r['error']}")
+        return
+    spot, flip, g0 = r["spot"], r["flip"], r["gex_at_spot"]
+    if flip:
+        rel = spot - flip
+        side = "BELOW → NEG-gamma, dealers AMPLIFY" if rel < 0 else "ABOVE → POS-gamma, dealers dampen"
+        print(f"  SPX {spot:,.2f} · flip ~{flip:,.0f} · spot {rel:+,.0f}pts {side}")
+    else:
+        print(f"  SPX {spot:,.2f} · no flip in ±10% band · regime {r['regime']}")
+    pw, cw = r["put_wall"], r["call_wall"]
+    pw_note = " (SPX THROUGH it)" if pw and spot < pw else ""
+    print(f"  Net GEX {g0/1e9:+.1f}B/1% · put wall {pw:,.0f}{pw_note} · call wall {cw:,.0f}"
+          f"   [{r['horizon']}d, {r['n_contracts']} contracts]")
+    print("  (free-tier: sign+flip robust, $B assumption-dependent · gamma_flip.py --days 35 for the definitive read)")
+
+
+# ------------------------------------------------------------------- (c) CREDIT
 def credit(verbose=False):
-    print(f"\n{'─'*64}\n  (b) CREDIT  ·  FRED bifurcation (credit_monitor.py)\n{'─'*64}")
+    print(f"\n{'─'*64}\n  (c) CREDIT  ·  FRED bifurcation (credit_monitor.py)\n{'─'*64}")
     if not CREDIT_MONITOR.exists():
         print("  ⚠️  credit_monitor.py not found")
         return
@@ -117,7 +146,7 @@ def credit(verbose=False):
                 print(f"  {line.strip()}")
 
 
-# ----------------------------------------------------- (c) PREDICTIONS-DUE SCAN
+# ----------------------------------------------------- (d) PREDICTIONS-DUE SCAN
 def _parse_deadline(resdate):
     """Return ('rolling'|date|None, raw). For a date range, deadline = end date."""
     low = resdate.lower()
@@ -163,7 +192,7 @@ def _read_rows():
 
 def predictions_due(today=None):
     today = today or date.today()
-    print(f"\n{'─'*64}\n  (c) PREDICTIONS-DUE SCAN  ·  as of {today}\n{'─'*64}")
+    print(f"\n{'─'*64}\n  (d) PREDICTIONS-DUE SCAN  ·  as of {today}\n{'─'*64}")
     rows = _read_rows()
     if rows is None:
         print("  ⚠️  PREDICTIONS.tsv not found")
@@ -219,12 +248,13 @@ def main():
     print(f"\n{'='*64}\n  HENRY BOOT KIT (v1)   ·   {now:%A, %B %d, %Y  %H:%M}\n{'='*64}")
     live_tape()
     if not quick:
+        gamma()
         credit(verbose=verbose)
     else:
-        print("\n  (b) CREDIT — skipped (--quick)")
+        print("\n  (b) GAMMA + (c) CREDIT — skipped (--quick)")
     predictions_due()
     print(f"\n{'='*64}\n  boot brief done in {time.time()-t0:.1f}s   "
-          f"(--verbose full credit · --quick skip credit · --selftest)\n{'='*64}\n")
+          f"(--verbose full credit · --quick skip gamma+credit · --selftest)\n{'='*64}\n")
     return 0
 
 

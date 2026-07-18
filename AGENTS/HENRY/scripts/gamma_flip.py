@@ -2,13 +2,16 @@
 """
 gamma_flip.py — compute the SPX dealer-gamma flip (zero-gamma level) from the
 LIVE ^SPX options chain via yfinance + Black-Scholes gamma. No paywalled
-provider (SpotGamma/FlashAlpha) required — resolves HENRY's persistent
-"exact flip paywalled" GAP.
+provider (SpotGamma/FlashAlpha) required — a FREE-TIER estimator (validated
+2026-07-17 vs FlashAlpha/zerogex: flip within 20-34pts, walls exact-match).
+
+boot.py imports compute_gamma_flip() for its (b) GAMMA section (14d horizon,
+fast); run this script standalone for the definitive 35d read.
 
 Method
 ------
 - Pull ^SPX option chains for all expirations <= HORIZON_DAYS (near-term gamma
-  dominates the flip); filter OI>0, sane IV (0.03-2.5), strikes within +/-25% of spot.
+  dominates the flip); filter OI>0, sane IV (0.03-2.5), strikes within band of spot.
 - BSM gamma per contract (r=4.5%, q=1.3% SPX div yield), gamma from yfinance IV.
 - Dealer convention (standard SpotGamma-style naive): dealers LONG call gamma (+),
   SHORT put gamma (-). Net GEX(S) = sum_calls - sum_puts, in $ per 1% move.
@@ -16,27 +19,23 @@ Method
 - Call/put walls = strikes with max gamma-weighted OI.
 
 CAVEAT (state when citing): the ABSOLUTE $B depends on the dealer-positioning
-assumption (real books differ; vendors apply proprietary adjustments). The FLIP
-LEVEL and the SIGN of net gamma are robust — they are where gamma-weighted OI
-balances. Greeks are BSM-from-IV, not vendor greeks.
+assumption (real books differ; vendors apply proprietary adjustments — this is a
+FREE-TIER proxy, NOT SpotGamma-grade). The FLIP LEVEL and the SIGN are the robust
+reads; don't trust the exact level within ~30-40pts of a crossing.
 
 Usage: .venv/bin/python3 AGENTS/HENRY/scripts/gamma_flip.py [--days N] [--asof YYYY-MM-DD]
 """
 import sys, math
 from datetime import date, datetime
-import yfinance as yf
 from collections import defaultdict
 
 R, Q = 0.045, 0.013
 HORIZON_DAYS = 35
 
-def _flag(name, default):
-    if name in sys.argv:
-        return sys.argv[sys.argv.index(name) + 1]
-    return default
 
 def npdf(x):
     return math.exp(-0.5 * x * x) / math.sqrt(2 * math.pi)
+
 
 def bsm_gamma(S, K, T, sig):
     if T <= 0 or sig <= 0 or S <= 0 or K <= 0:
@@ -44,29 +43,48 @@ def bsm_gamma(S, K, T, sig):
     d1 = (math.log(S / K) + (R - Q + 0.5 * sig * sig) * T) / (sig * math.sqrt(T))
     return math.exp(-Q * T) * npdf(d1) / (S * sig * math.sqrt(T))
 
-def main():
-    horizon = int(_flag("--days", HORIZON_DAYS))
-    asof = _flag("--asof", None)
-    today = datetime.strptime(asof, "%Y-%m-%d").date() if asof else date.today()
 
-    t = yf.Ticker("^SPX")
-    spot = t.fast_info["lastPrice"]
+def compute_gamma_flip(asof=None, horizon=HORIZON_DAYS, band=0.25):
+    """Compute the SPX dealer-gamma flip from the live ^SPX chain.
+
+    Returns a dict {spot, flip, flips, gex_at_spot, regime, call_wall, put_wall,
+    n_contracts, horizon, band, asof} — or {'error': msg} on any failure (never
+    raises, so boot.py can degrade gracefully).
+    """
+    try:
+        import yfinance as yf
+    except Exception as e:  # noqa: BLE001
+        return {"error": f"yfinance import failed: {e}"}
+    today = datetime.strptime(asof, "%Y-%m-%d").date() if asof else date.today()
+    try:
+        t = yf.Ticker("^SPX")
+        spot = t.fast_info["lastPrice"]
+        exps = t.options
+    except Exception as e:  # noqa: BLE001
+        return {"error": f"chain fetch failed: {e}"}
+    if not spot or not exps:
+        return {"error": "no spot/expirations from yfinance"}
 
     opts = []
-    for exp in t.options:
+    for exp in exps:
         y, m, d = map(int, exp.split("-"))
         T = (date(y, m, d) - today).days / 365.0
         if T <= 0 or T > horizon / 365.0:
             continue
-        ch = t.option_chain(exp)
+        try:
+            ch = t.option_chain(exp)
+        except Exception:  # noqa: BLE001
+            continue
         for df, typ in ((ch.calls, "C"), (ch.puts, "P")):
             for _, r in df.iterrows():
                 K = r["strike"]; oi = r["openInterest"] or 0; iv = r["impliedVolatility"] or 0
                 if oi <= 0 or not (0.03 < iv < 2.5):
                     continue
-                if not (0.75 * spot < K < 1.25 * spot):
+                if not ((1 - band) * spot < K < (1 + band) * spot):
                     continue
                 opts.append((K, T, iv, oi, typ))
+    if not opts:
+        return {"error": "no usable contracts after filtering"}
 
     def net_gex(S):
         g = 0.0
@@ -87,20 +105,51 @@ def main():
     for K, T, iv, oi, typ in opts:
         w = bsm_gamma(spot, K, T, iv) * oi
         (cg if typ == "C" else pg)[K] += w
-    callwall = max(cg, key=cg.get) if cg else float("nan")
-    putwall = max(pg, key=pg.get) if pg else float("nan")
 
-    print(f"===== SPX GAMMA FLIP  (asof {today}, <= {horizon}d, {len(opts)} contracts) =====")
+    return {
+        "spot": spot,
+        "flip": flips[0] if flips else None,
+        "flips": flips,
+        "gex_at_spot": g0,
+        "regime": "NEGATIVE" if g0 < 0 else "POSITIVE",
+        "call_wall": max(cg, key=cg.get) if cg else None,
+        "put_wall": max(pg, key=pg.get) if pg else None,
+        "n_contracts": len(opts),
+        "horizon": horizon,
+        "band": band,
+        "asof": today.isoformat(),
+    }
+
+
+def _flag(name, default):
+    if name in sys.argv:
+        return sys.argv[sys.argv.index(name) + 1]
+    return default
+
+
+def main():
+    horizon = int(_flag("--days", HORIZON_DAYS))
+    asof = _flag("--asof", None)
+    r = compute_gamma_flip(asof=asof, horizon=horizon)
+    if "error" in r:
+        print(f"gamma_flip: {r['error']}")
+        return 1
+
+    spot, flips = r["spot"], r["flips"]
+    print(f"===== SPX GAMMA FLIP  (asof {r['asof']}, <= {horizon}d, {r['n_contracts']} contracts) =====")
     print(f"  SPX spot        {spot:,.2f}")
-    print(f"  Net GEX @ spot  {g0/1e9:+.1f} $B/1%   -> {'POSITIVE (dealers dampen)' if g0 > 0 else 'NEGATIVE (dealers AMPLIFY)'}")
+    print(f"  Net GEX @ spot  {r['gex_at_spot']/1e9:+.1f} $B/1%   -> "
+          f"{'POSITIVE (dealers dampen)' if r['gex_at_spot'] > 0 else 'NEGATIVE (dealers AMPLIFY)'}")
     print(f"  Zero-gamma FLIP {'  '.join(f'~{f:,.0f}' for f in flips) if flips else 'none in +/-10% band'}")
     if flips:
-        f = flips[0]
-        rel = spot - f
+        rel = spot - flips[0]
         print(f"                  spot is {rel:+,.0f} pts {'BELOW (neg-gamma)' if rel < 0 else 'ABOVE (pos-gamma)'} the flip")
-    print(f"  Call wall       {callwall:,.0f}")
-    print(f"  Put wall        {putwall:,.0f}  {'<- SPX BELOW put wall (intensified downside feedback)' if spot < putwall else ''}")
-    print(f"  (caveat: absolute $B assumes long-call/short-put dealer gamma; FLIP + sign are the robust reads)")
+    cw, pw = r["call_wall"], r["put_wall"]
+    print(f"  Call wall       {cw:,.0f}")
+    print(f"  Put wall        {pw:,.0f}  {'<- SPX BELOW put wall (intensified downside feedback)' if pw and spot < pw else ''}")
+    print("  (FREE-TIER proxy: absolute $B assumes long-call/short-put dealer gamma; the FLIP + sign are the robust reads)")
+    return 0
+
 
 if __name__ == "__main__":
-    main()
+    sys.exit(main())
