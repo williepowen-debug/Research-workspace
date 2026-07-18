@@ -1,10 +1,13 @@
 # PRIVATE CREDIT STATUS
-**Updated:** 2026-07-06 (staleness stamp — analysis unchanged since 4/23; Bluerock TI+ node added to `COUNTERPARTY_WATCH.md` 7/4; Q1 10-Q now in hand, see Key Catalysts)
+**Updated:** 2026-07-18 (Q1'26 10-Q READ — debt-on-debt ~$490M primary-confirmed [KB-210]; The Jack = first debt-on-debt casualty; NDFI-contagion regime channel flagged to REGINALD+BROCK [C8/KB-215])
 
 ## Assessment: 🟠→🔴 PRE-STRESS — Components assembled, reflexive channel activating + Q1 competitive-displacement layer
 
 ## Current State
 - **$2.74B NDFI book is 50-75% CRE-correlated.** CEO (Gleason Q3 2025) admitted NDFI contains RESG loans to CRE debt funds. Structural exposure unchanged post-Q1.
+- **🆕 Q1'26 10-Q (primary) — the "debt-on-debt" channel sized: ~$490M** of RESG-originated NDFI loans "collateralized by an assignment of a promissory note," classified as **"Other"** in the Call Report [KB-210]. This is OZK buying senior/junior positions in *other lenders'* construction paper — named cases: **777 Industrial (SqMile/Affinius, $95M), Southline (SqMile junior), The Jack (ex-Claros Mortgage Trust, $25.9M).** Refines older KB-021 ($1.06B "Other," broader/older scope).
+- **🆕 The Jack = the FIRST identified debt-on-debt casualty:** disclosed in the 10-Q "Other" nonaccrual line ($25.9M, $0 ALL, 30-59 DPD) after a $27.7M Q1 charge-off — a leading tell on the ~$490M acquired-paper book [KB-207/210].
+- **🆕 NDFI-contagion REGIME channel (C8/KB-215):** the Oct'25 regional-bank selloff (Zions/WAL C&I fraud + First Brands/Tricolor) proved the market gaps NDFI-exposed regionals down hard/fast on any private-credit fraud headline. OZK's debt-on-debt concentration = a fast-transmission surface *ahead of* its own RESG timeline. Flagged REGINALD (regime) + BROCK (private credit).
 - **🆕 Q1 2026 — Jake Munn (CIB President) disclosed PULLBACK on 2 of 4 CIB sub-segments:**
   - Capital-call subscription facilities (touches PE Funds bucket $772M / RCONPV07) — "pushed down a little bit on pricing" by non-bank lenders + insurance companies
   - Lender Finance Group (touches Business Credit Intermediaries $1,201M / RCONPV06) — "pricing and structure compression"
@@ -18,7 +21,7 @@
 
 ## Four Transmission Channels
 1. **Direct** (construction defaults) — LIVE. Q1 26 confirms: past-due more than doubled $207M → $487.5M/1.48% QoQ [Call Report]; classified+criticized $984M → $1,215M.
-2. **Indirect/NDFI** (fund defaults on OZK lines) — PRE-STRESS. Binary risk. $2.7M noncurrent, structurally unchanged.
+2. **Indirect/NDFI** (fund defaults on OZK lines) — PRE-STRESS → **FIRST CASUALTY PRINTED.** The Jack (debt-on-debt "Other", ex-Claros) went nonaccrual w/ $27.7M Q1 charge-off — the ~$490M acquired-paper book is no longer at $2.7M noncurrent in the aggregate. Binary risk confirmed live on at least one node. Plus **NDFI-contagion regime beta** (Oct'25 Zions/WAL) = a faster, market-wide transmission path [C8/KB-215].
 3. **Reflexive** (takeout disappears → construction can't refi) — EARLY WARNING + 🆕 **COMPETITIVE DISPLACEMENT amplifier** post-Q1. Same non-bank/insurance cohort displacing OZK on Fund Finance origination today is the takeout ecosystem tomorrow. Stress hits both sides of OZK's position.
 4. **Collateral cascade** (JPM markdowns → margin calls → forced selling) — LATENT. Components present but hasn't fired.
 
@@ -31,7 +34,7 @@
 **Not a thesis invalidator.** Structural wrong-way-risk analysis intact ($2.74B still on book, still CRE-correlated, still subject to sub-variants A/B). Refines the narrative layer only.
 
 ## Key Catalysts
-- **Q1 2026 10-Q — ✅ IN HAND (retrieved 7/6 via FDIC securities-filings API → `../raw/Q1_2026_10Q.pdf`, filed May 6, UNREAD):** answers the open question "does written disclosure pick up the Fund Finance pullback, or does asymmetry persist?" Read queued pre-Jul-21 (TODO 🆕 item). Also: Bluerock **TI+ interval fund** node (entity corrected 7/4) → `COUNTERPARTY_WATCH.md` — next TI+ NAV mark leads OZK RaDD credit.
+- **Q1 2026 10-Q — ✅ READ 7/18** (`../raw/Q1_2026_10Q.pdf`): debt-on-debt sized (~$490M, KB-210); collateral-dependent marking methodology quantified (KB-211). *(Note: written Fund-Finance-pullback asymmetry question — the 10-Q MD&A NDFI/CIB narrative is high-level; the spoken-only pullback disclosure asymmetry appears to persist — worth a dedicated pass vs the MD&A if it matters.)* Bluerock **TI+ interval fund** node → `COUNTERPARTY_WATCH.md` — next TI+ NAV mark leads OZK RaDD credit.
 - Affinius $2.7B bond maturity: Oct 2026 — if missed, largest stressed counterparty defaults. **7/6: asset-level co-lending CONFIRMED** — OZK holds $95M of the Affinius/Square-Mile-originated 777 Industrial note (Square Mile rebranded → Affinius 2023; "Sm Tactical Finance III LLC"), as-market underwater per Atrium; plus SqMile ~$100M junior under OZK's $279.75M Southline senior [KB-203]. Corporate-level exposure still unverified. BROCK signaled 7/6.
 - Blue Owl bridge origination freeze — would directly accelerate maturity wall
 - Q2 26 repayment velocity — if drops materially vs Q1 26, reflexive channel is activating

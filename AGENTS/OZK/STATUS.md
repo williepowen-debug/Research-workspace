@@ -1,10 +1,17 @@
 # OZK — Dashboard
 
-**Updated:** 2026-07-06 (staleness sweep — see MAINTENANCE.md) | **Price:** $49.65 [7/6 live, −0.38%; 7/2 −5.70% drop resolved = positioning, AH bounce didn't hold] | **TBV:** $47.15 [Q1'26] | **P/TBV:** ~1.05×
-**Thesis:** RESERVOIR v1.4 (7/6 figure re-base — no direction change) | **Conviction:** 🔴🔴 HIGH | **KB:** 209 rows / 28 groups
-**Next hard catalyst:** OZK **Q2 earnings Tue Jul 21, 2026** (call Jul 22) → dress rehearsal for **IQHQ RaDD maturity Aug 2026** (weighted EL $140M on $555M funded)
+**Updated:** 2026-07-18 (10-Q read + D-severity re-derivation + price/SI/regime pull — see MEMORY LAST SESSION) | **Price:** $52.01 [7/17 close, −2.03%; **+4.75% since 7/6**, near 12-mo high $53.09 on 7/16] | **TBV:** $47.15 [Q1'26] | **P/TBV:** ~1.10×
+**Thesis:** RESERVOIR v1.5 (recognition-timing refinement — appraisal-gated deferral; no direction change) | **Conviction:** 🔴🔴 HIGH | **KB:** 215 rows / 28 groups
+**Short interest:** **14.7% of float** (14.91M sh, 6/30/26 FINRA), ~11.7 days-to-cover — structurally crowded (avg 15.1% / 12mo, peak 18.3%), re-building off a 4/30 low into the print. Squeeze risk if Jul-21 prints quiet. [standing field — refresh at settlement via Nasdaq API]
+**Next hard catalyst:** OZK **Q2 earnings Tue Jul 21, 2026** (call Jul 22) → dress rehearsal for **IQHQ RaDD maturity Aug 2026** (weighted EL $140M on $555M funded; recognition appraisal-gated/back-loaded — see §BOTTOM LINE)
 
 > **⚠️ REVIVAL NOTE (2026-07-04):** 71-day cold boot. STATUS re-baselined this session off: live price, PROME-verified Q1 Call Report figures, and a web sweep of all post-Apr developments (Q2 date, KBRA, capital returns, IQHQ/Bluerock/Aimco/WAL outcomes). Thesis docs (THESIS/IQHQ_PLAYBOOK/SEVEN_CREDIT) logic intact; IQHQ Aug-2026 maturity **re-confirmed from primary transcript this session**. Open verifications flagged in §Open Items.
+
+> **7/18 SESSION UPDATES (Q1'26 10-Q read + D-severity re-derivation + price/SI/regime pull):**
+> - **10-Q read (first-ever 10-Q primary):** past-due $465.0M/1.41% (10-Q basis; confirms the supplement-vs-Call-Report fork) · NCO **0.57%** MD&A (vs 0.56% CR; both >55bps kill) · nonaccrual $296.6M carried at collateral FV **$281.5M**, of which **$250.4M carries $0 ALL** (marks to appraisal, not market severity — the deferral engine) · **⭐ ~$490M RESG "debt-on-debt"/note-assignment book** ("Other" Call category — the Affinius/SqMile + Claros channel) · nonaccrual $181.1M migrated into 60-89d delinquent (was $5.6M) · sub-notes Tier-2 → **$280M** effective 10/1 confirmed exactly.
+> - **D-severity re-derived (IQHQ_PLAYBOOK §3):** band $275–360M HOLDS as a *terminal/disposition* loss (Horton $169/SF → RaDD ~$253M), but recognition is **appraisal-gated + back-loaded** (Q3/Q4→2027), not an Aug single-print. Drove OZK-09 re-mark 68%→52% (Will-approved).
+> - **#3 reconciled:** The Jack "conflict" = timing (a note-assignment credit); $128M Lincoln Yards LAND loan verified (distinct Sterling Bay credit, deed-in-lieu Mar'25, already resolved).
+> - **Price/SI/regime (WEAKNESSES C8):** OZK is a **beta/range name** ($41–53, +6.5% YoY, crowded short avg 15% float). Nov'25 low ($41.42) was **beta to the Oct'25 NDFI-contagion selloff** (Zions/WAL fraud), NOT idiosyncratic. NDFI-contagion regime risk flagged → REGINALD + BROCK (outbox).
 
 ---
 
@@ -66,7 +73,7 @@
 | IQHQ specific reserve | Not broken out Q1 | Any positive Q2 (Jul 21) | Scenario B firing early |
 | Sub notes reprice | Oct 1 2026 | Pre-reprice refi announcement | +$12.8M/yr · Tier 2 −20% |
 
-**⚑ Jul-21 reads pre-registered** (falsifiable, 2026-07-04) → `workbook/PREDICTIONS.tsv` OZK-05→09: NCO kill-line (05, 50%), past-due >$550M (06, 40%), **★classified-vs-RESG discriminator (07, 55% — conviction-governing)**, IQHQ Q2 pre-reserve (08, 28%), Aug terminal $140M+ event (09, 68%). *(OZK-01 also resolves Jul-21, tracking FALSE.)*
+**⚑ Jul-21 reads pre-registered** (falsifiable, 2026-07-04; **armed 7/18 off the Q1'26 10-Q**) → `workbook/PREDICTIONS.tsv` OZK-05→09: NCO kill-line (05, 50%), past-due >$550M (06, 40%), **★classified-vs-RESG discriminator (07, 55% — conviction-governing)**, IQHQ Q2 pre-reserve (08, 28%), Aug terminal $140M+ event (09, **68%→52%** re-marked 7/18 — 10-Q collateral-dependent methodology means a Scenario-B migration can book ~$0 reserve; P($140M+ *recognition*) ≠ P(B∪D); severity band unchanged). *(OZK-01 also resolves Jul-21, tracking FALSE.)*
 
 **Cross-feed (regime INVERTED since Apr — ref only, [[REGINALD]] owns):** KRE $75.02 [live 7/4] · HY OAS **278bps** [FRED 6/25, 2bp from 280 X1 trigger] · Brent **~$72** [live 7/4] — 🔴 **prior "stagflation re-heating / Brent $102" frame is DEAD.** New macro tailwind for banks: energy deflated, VIX 15.8, credit still tight-but-armed.
 
@@ -105,4 +112,4 @@
 
 ## BOTTOM LINE
 
-RESERVOIR v1.3 intact: RESG stress is accumulating into the **Aug 2026 IQHQ RaDD maturity** (weighted EL $140M, 68% prob of a $140M+ event) — maturity re-confirmed from primary. **The Q2 print (Jul 21) is the near-term tell:** watch RaDD specific-reserve build and the **classified-vs-RESG-balance discriminator** (classified rising while RESG shrinks = adverse-selection, thesis holds; both falling = the de-risking bull case gains, step conviction down). NCO 0.56% sits **1bp above the ≤55bps kill-line.** Chief bull risk: RESG-runoff "de-risking" narrative (Street low-60s, WEAKNESSES C7). **Conviction 🔴🔴 HIGH. Next hard read: Jul 21 earnings.**
+RESERVOIR v1.5 intact and directionally confirmed: RESG stress is accumulating into the **Aug 2026 IQHQ RaDD maturity** (weighted EL $140M as an *ultimate* loss). **Key 7/18 refinement — recognition is appraisal-gated and back-loaded:** the Q1'26 10-Q shows OZK marks collateral-dependent loans to appraisal ($250M nonaccrual at $0 reserve), so the big IQHQ loss grinds through OREO over Q3/Q4→2027, NOT as a single Aug print; a Scenario-B migration can book ~$0 initial reserve (OZK-09 re-marked 68%→52%). **The Q2 print (Jul 21) likely prints quiet** — the tell is the **classified-vs-RESG-balance discriminator** (OZK-07: classified rising while RESG shrinks = adverse-selection, thesis holds; both falling = de-risking bull case gains, step conviction down). NCO 0.57% [10-Q] sits **above the ≤55bps kill-line.** **Two live near-term cautions:** (1) chief bull risk = RESG-runoff "de-risking" (Street low-60s, C7); (2) OZK is a **beta/range name into a crowded short (14.7% float)** — a quiet Jul-21 risks a squeeze, and NDFI-contagion regime (Oct'25-style) can move the stock ahead of own-credit (C8). **This is an H2-2026→2027 recognition story — patience/duration over near-term downside. Conviction 🔴🔴 HIGH. Next hard read: Jul 21 earnings (expect quiet).**

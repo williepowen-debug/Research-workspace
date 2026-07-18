@@ -15,6 +15,24 @@ A new entry must describe:
 
 ---
 
+## v1.5 — 2026-07-18 (recognition-timing refinement: appraisal-gated deferral, from the Q1'26 10-Q primary; + C8 beta/regime weakness)
+
+### Summary
+No thesis-direction change; conviction stays 🔴🔴 HIGH. The first-ever 10-Q primary read (`raw/Q1_2026_10Q.pdf`) surfaced the **accounting mechanism** behind the reservoir and materially sharpened the *timing* of loss recognition. Plus a price/short-interest/regime pull added a real, previously-unweighted caution (C8).
+
+### Changes
+**1. Recognition-timing mechanism added (THESIS "Reservoir" intro + new inline block).** OZK marks collateral-dependent nonaccrual loans to **appraisal/DCF fair value, not market severity** — Q1'26 10-Q: $296.6M nonaccrual carried at FV $281.5M, **$250.4M with $0 ALL**, total specific-reserve alloc $15.2M; foreclosures transfer at ~carrying value ($95.1M in / $0.3M writedown). *Old view:* loss recognition implicitly treated as roughly coincident with migration/maturity. *New view:* recognition is **appraisal-gated and back-loaded** — a Scenario-B migration books little/no reserve until an appraisal breaks; realized loss grinds through OREO over quarters.
+
+**2. IQHQ D-severity re-derived (IQHQ_PLAYBOOK §3 + §4).** Band $275–360M **HOLDS as a terminal/disposition loss** (Horton $169/SF → RaDD ~$253M), but re-labeled multi-quarter, not an Aug single-print. The tree previously conflated "initial specific reserve" with "ultimate loss"; split explicitly.
+
+**3. OZK-09 re-marked 68% → 52% (Will-approved, logged in PREDICTIONS.tsv).** P($140M+ *recognition*) ≠ P(B∪D)=68%, because a Scenario-B migration can book ~$0 reserve (Atrium office $546M & as-market $1.06B both > funded $555M). Re-derived P = P(D)·0.9 + P(B)·0.6 ≈ 0.49–0.55. Severity unchanged. Original 68% preserved in-row.
+
+**4. New weakness C8 (WEAKNESSES.md).** Empirical: OZK is a **beta/range short** ($41–53, +6.5% YoY despite avg 15% float short); the Nov'25 low was **beta to the Oct'25 NDFI-contagion selloff** (Zions/WAL fraud), not idiosyncratic. Surfaces the NDFI-contagion regime channel (OZK's ~$490M debt-on-debt book, primary-confirmed in the 10-Q) as a second, faster catalyst path — flagged to REGINALD + BROCK.
+
+- **Position implication:** Sharpens *how* to hold, not *whether*. Patience/duration over near-term downside; short into the actual (back-loaded) recognition event, not the range; size to survive squeezes into a quiet Jul-21. Thesis size/direction unchanged.
+
+---
+
 ## v1.4 — 2026-07-06 (staleness sweep: figures re-based to Call Report primary; prediction cross-refs re-wired)
 
 ### Summary

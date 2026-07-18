@@ -41,8 +41,8 @@
 
 - [x] KB-201 leads verified (Portal 405 / 777 Industrial / Southline are real OZK credits w/ real figures) → promoted.
 - [x] KB-117 superseded (RaDD as-market $1.06B primary; old $320-490M mischaracterized).
-- [ ] SEVEN_CREDIT #3 The Jack: reconcile $25.9M roster figure vs $72.5M/$56M Atrium (+ Claros assignment) — next session.
-- [ ] Verify the 2024 $128M Lincoln Yards land-loan foreclosure independently (county records / Q-report scan).
+- [x] **SEVEN_CREDIT #3 The Jack RECONCILED (7/18):** not a conflict — timing. Atrium $56M deployed (Q4'25) → $25.9M (Q1'26 10-Q) after $27.7M charge-off + $2.6M paydown. Confirmed as a "Other"/debt-on-debt note-assignment credit (10-Q: $25.9M "Other" nonaccrual, $0 ALL). Claros-assignment framing operative. → SEVEN_CREDIT §1 row #3 + §2 #3 updated; KB-207.
+- [x] **$128M Lincoln Yards LAND loan VERIFIED (7/18, Bisnow/TRD/Crain's):** Sterling Bay, orig Dec 2019, ~27 acres (Finkl site), 6 mods, $38M writedown, deed-in-lieu **March 2025** (Atrium's "2024" = first writedown only), selling to JDL. Distinct from #10 Concord building; = the "$126M basis" already in #10 comp. Already-resolved, ~30% realized severity, NOT a live roster credit. → SEVEN_CREDIT §2 #10 + KB-208.
 - [ ] IQHQ_PLAYBOOK severity re-derivation against the valuation dispersion ladder (pre-Jul-21).
 - [ ] Bioterra $202M→$165M correction propagated (LIFE_SCI table fixed 7/6).
 

@@ -1,6 +1,6 @@
 # OZK CALENDAR
 
-**Last Updated:** 2026-07-04 (revival re-baseline — 7 passed catalysts logged, forward docket refreshed) | **View:** Forward-looking + recently-resolved. Past events pruned weekly.
+**Last Updated:** 2026-07-18 (Jul-21 reads armed off the Q1'26 10-Q; OZK-09 re-marked 68%→52%; short-interest 14.7% float into the print) | **View:** Forward-looking + recently-resolved. Past events pruned weekly.
 
 ---
 

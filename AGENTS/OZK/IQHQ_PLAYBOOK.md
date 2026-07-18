@@ -165,9 +165,28 @@ Hamblen's April 22 "better than December" language is **pipeline talk (tours/RFP
 - Campus at Horton precedent: 67% severity on senior debt
 - Downtown SD distressed band: 55-70%
 - Adjusting for RaDD's stronger physical product (Class A+, LEED Gold, waterfront): **50-65% severity range**
-- On $555M funded: **$275-360M loss**
+- On $555M funded: **$275-360M loss** — **RE-AFFIRMED as a *terminal/disposition-basis* loss (see re-derivation below), NOT a maturity-date single-print.**
 
-> **⚠️ 7/6 counter-datum — Atrium Q4'25 valuation ladder [KB-206] challenges this band.** Atrium's desktop as-market for RaDD is **$1.06B** ($72 rent/70% occ/7.25% cap) and even its office-conversion scenario is **$546M** — on $555M funded, the as-market implies **~0% severity** (funded covered ~1.9x) and the office scenario ~0-2%. A $275-360M loss on funded requires value **<~$280M**, i.e. ~47% below Atrium's worst scenario — closer to the Horton credit-bid dynamics (forced-sale, no-bid tape) than to any appraisal-style mark. The dispersion ($546M office / $1.06B as-market / $1.82B bank mark vs. Horton-implied ~$185-250M equivalent) IS the uncertainty: D-severity is a bet that a forced resolution prices at Horton's clearing level, not Atrium's model level. **Re-derivation queued pre-Jul-21 (TODO)** — pre-registered OZK-09 weights left unchanged pending that pass (no silent threshold moves).
+> **✅ RE-DERIVED 2026-07-18 (Q1'26 10-Q read + Atrium KB-206 ladder). Resolves the 7/6 queued footnote.**
+>
+> **The tension, stated precisely:** two valuation regimes are ~4x apart on the same asset.
+>
+> | Regime | RaDD value | Sev. on $555M funded | Loss $ |
+> |---|---|---|---|
+> | OZK bank mark (Q4'24 reappraisal) | $1.82B | 0% | $0 |
+> | Atrium as-market (income appr.; $72 rent/70% occ/7.25% cap) | $1.06B | 0% (covered 1.9×) | $0 |
+> | Atrium office-conversion | $546M | ~1.6% | ~$9M |
+> | **Horton per-SF transaction comp** ($130M bid ÷ 770K SF = **$169/SF** × RaDD 1.5M SF) | **~$253M** | **54%** | **~$302M** |
+>
+> **The decisive new input — OZK's OWN collateral-dependent marking methodology, quantified from the Q1'26 10-Q:** OZK carries its $296.6M nonaccrual book at collateral fair value **$281.5M** (Level 3 — third-party appraisal or DCF), of which **$250.4M carries ZERO ALL** (collateral value ≥ loan balance → no reserve); total ALL allocation across the entire nonaccrual book is only **$15.2M** (~5% blended). Confirmed corollary: the two RESG assets foreclosed in Q1 transferred to OREO at ~carrying value ($95.1M in, only $0.3M writedown). **OZK does NOT reserve to market-severity on collateral-dependent loans — it reserves to the shortfall of loan balance vs. the latest appraisal, which recognizes loss LATE.** (The one true realized downtown-lab OREO mark it does hold — 760 Aloha, −40% vs Nov'24 appraisal — shows the forced mark arrives only *after* the asset is in OREO, and grinds over quarters.)
+>
+> **Resolution — split "initial specific reserve" from "ultimate loss" (the tree previously conflated them):**
+> 1. **At migration (Scenario B, Q2 or Aug):** OZK marks to income-approach appraisal. Its Q4'24 mark ($1.82B) and even Atrium's office scenario ($546M) both **exceed** funded $555M → **an initial specific reserve could be $0–75M, materially below the tree's $140–195M.** A $140M+ *reserve at migration* requires a fresh appraisal to break below ~$415M ($555M − $140M) — a >70% collapse from the Q4'24 mark.
+> 2. **At disposition (Scenario D, forced sale — multi-quarter):** the **Horton per-SF comp ($169/SF → RaDD ~$253M) governs**, because a matured-defaulted, 3.3%-leased asset is marked to disposition value, not going-concern income. This **re-affirms the $275–360M band as a terminal loss** — but it realizes through OREO markdowns over 2–4 quarters, not as a single Aug print.
+>
+> **The income-vs-transaction gap IS the thesis bet:** the $1.06B "as-market" is itself a model (assumes 70% occ + $72 rent, neither of which exists at 3.3% leased / 94% submarket vacancy / $5.34 rents in 15 consecutive quarterly declines). A post-default appraisal on this asset should converge toward the Horton transaction, not the income model. **D-severity band HOLDS; what shifts is the recognition *cadence* (deferred, appraisal-gated) and the read on Scenario B (a "migration" can book near-$0 reserve).**
+>
+> **⚑ Calibration flag on OZK-09 (68%) — NOT silently moved (pre-registration discipline).** The 68% was built as P(B∪D)=68%, implicitly assuming *every* B and D yields $140M+ recognition. The 10-Q methodology breaks that for Scenario B: P($140M+ recognition) = P(D)·~0.9 + P(B)·~0.6 = 0.18·0.9 + 0.50·0.6 ≈ **0.49–0.55**, below the pre-registered 68%. The D *severity* is unchanged; the gap is the "B migrates but appraisal holds → sub-$140M reserve" branch, which is real given the office scenario already clears funded. **Recommend re-marking OZK-09 to ~50–55% with this rationale logged — Will's call (conviction-adjacent, pre-registered).** OZK-08 (Q2 pre-reserve, 28%) is *well*-calibrated by this same read: a pre-reserve requires an early appraisal break — genuinely low-prob.
 
 **Probability: ~18%** (higher than pre-Horton baseline — the Horton print demonstrates a market-clearing mechanism for downtown SD lab construction loans)
 
@@ -191,6 +210,8 @@ Hamblen's April 22 "better than December" language is **pipeline talk (tours/RFP
 | **Weighted EL** | **100%** | | **~$140M** |
 
 **Key observation:** Scenarios B + D combined probability = **68%** of a loss event of $140M+ at or before Aug 2026 maturity.
+
+> **⚑ Framing correction (2026-07-18 re-derivation, §3):** The $140M weighted figure is an **ultimate/lifetime EL**, and it stands. But P($140M+ *recognition*) ≠ P(B∪D)=68% — because OZK's collateral-dependent methodology (10-Q: nonaccrual held at appraisal FV, $250M with $0 reserve) means a Scenario-B *migration* can book a near-$0 initial reserve. Methodology-adjusted P($140M+ recognition) ≈ **49–55%**, with the balance of the ultimate loss deferred into post-disposition OREO quarters. Recognition is **appraisal-gated and back-loaded**, not maturity-dated. See the OZK-09 re-mark recommendation in §3.
 
 **Comparison:**
 - OZK total ACL: $628M

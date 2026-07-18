@@ -1,5 +1,5 @@
 # OZK Thesis — Weaknesses & Rebuttals
-**Created:** 2026-03-24 | **Last updated:** 2026-07-04 (added C7 — RESG-runoff/de-risking bull consensus) | **Status:** All thesis-breakers addressed; C5 retracted/corrected; C7 is the live 2026 bull case (meter quarterly)
+**Created:** 2026-03-24 | **Last updated:** 2026-07-18 (added C8 — beta/range behavior + NDFI-contagion regime risk) | **Status:** All thesis-breakers addressed; C5 retracted/corrected; C7 is the live 2026 bull case (meter quarterly); C8 is a timing/regime caution surfaced from the price/SI/regime pull
 
 ---
 
@@ -156,6 +156,22 @@ Detail → `IQHQ_PLAYBOOK.md`. Invalidation triggers for this channel listed in 
 **Discriminator to watch (Q2, Jul 21):** classified+criticized trajectory vs RESG balance. If **classified+criticized keeps rising while RESG balance falls**, that is the adverse-selection tell — a build on a shrinking base [[finding_composition_mask_unmask_discriminator]]. If both fall together, the bull case gains real ground and conviction should step down. The aggregate print, not the two-transaction anecdote, is what settles this.
 
 **Confidence: MEDIUM on the transaction anecdote (post-correction), MEDIUM-HIGH on the mechanism — this is the live bull case; meter it quarterly.**
+
+---
+
+## C8: OZK Is a Beta/Range Name — Own-Credit Hasn't Moved the Stock + NDFI-Contagion Regime Risk (added 2026-07-18)
+
+**The Weakness (empirical, from the tape — verified this session).** Over the 12 months to Jul 2026 OZK traded a **$41–53 range and is +6.5% net**, despite being a persistently crowded short (avg **15.1% of float**, peak 18.3% Jul'25; FINRA bi-monthly series). The one real drawdown — to **$41.42 (Nov 17, 2025)** — was **NOT OZK-idiosyncratic.** It was beta to the **Oct 16–17, 2025 regional-bank selloff**: Zions + Western Alliance disclosed ~$50M of **C&I loan fraud** (falsified title docs), on top of the **First Brands / Tricolor private-credit bankruptcies**; the S&P Regional Banks index fell **−6.3% in a day** on **NDFI-contagion** fear. OZK fell with the group and mean-reverted as the scare faded — no OZK credit event drove it down, none was needed to bring it back. Short interest actually **fell through the decline** (shorts covered into it, took profit) and ground to a 12-mo low by April. [americanbanker/CNBC/Fortune 10/16–17/25]
+
+**Implication:** OZK's own RESG/CRE credit **has not been the price driver — regime/beta has** — and the deferred-recognition mechanism (C-series + the Q1'26 10-Q appraisal-marking read, 7/18) means it likely won't be until an actual reserve/charge-off prints. **A naive standalone short has been a losing churn for a year.**
+
+**Our response — two parts.**
+1. **This is a timing/catalyst argument, not a thesis-breaker.** It sharpens *how* to hold the thesis — patience, duration, size into the recognition event; don't grind the range or press short-dated puts into a catalyst we expect to print quiet (Jul-21). The same conclusion the accounting-deferral read and the crowded-short/squeeze setup independently reach. The RESERVOIR loss is intact and large ($140M weighted EL on IQHQ alone); the tape just says the market won't price it until it's booked.
+2. **BUT it surfaces a genuine, previously-untracked vulnerability that cuts BOTH ways — the NDFI-contagion channel.** OZK is heavily NDFI-exposed: Fund Finance, Lender Finance Group, and the **~$490M "debt-on-debt"/note-assignment book confirmed in the Q1'26 10-Q** (The Jack came via a Claros note assignment; the Affinius/SqMile co-lending sits here too). Oct 2025 proved the market punishes NDFI-exposed regionals **hard and fast** on any private-credit/fraud headline, regardless of the bank's own timeline. That's a **second, faster catalyst path** for the short (a future First-Brands-style NDFI blowup could gap OZK down on beta *ahead* of our RESG recognition) — and simultaneously a **squeeze/beta risk** (benign NDFI regime + crowded short = the year-long grind higher). **OZK's near-term direction is regime-gated; own-credit recognition is the H2-2026→2027 driver.**
+
+**Cross-agent:** the NDFI/private-credit contagion regime is **REGINALD** (bank-system) + **BROCK** (private credit) scope — consume their regime read, cross-reference OZK's NDFI concentration as the transmission surface. Flagged to both 2026-07-18. Do NOT maintain an independent OZK regime copy (one-source-of-truth rule).
+
+**Confidence: HIGH on the empirical (tape + verified Oct-2025 event). The NDFI-contagion channel is a real, monitorable regime risk we were not previously tracking — this is the honest gap the price/SI/regime pull exposed.**
 
 ---
 

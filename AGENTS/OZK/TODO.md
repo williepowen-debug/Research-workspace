@@ -1,6 +1,6 @@
 # OZK — Research TODO / Backlog
 
-**Last updated:** 2026-07-06 (staleness sweep — H1 closed, P1/Thread-3 marked dead, archive pointers fixed; new item: read Q1 10-Q)
+**Last updated:** 2026-07-18 (10-Q read done + Atrium reconciliation queue all cleared + D-severity re-derived; new queue = Jul-21 scoring, $154M reconcile, NDFI regime monitor, SI standing field)
 **Source:** Follow-up threads identified during Threads 1 and 2 deep dives; plus subdir hygiene queue added Apr 23 (now cleared).
 
 **Strategic framing (updated 7/6):** Position book is stale/not-managed (May lines expired unlogged; Aug 21 lines unverified — per Will's 7/4 steer). Research focus until Jul 21 = Q2-print preparation: the pre-registered OZK-05→09 reads govern conviction (OZK-07 discriminator above all). Bluerock trade gate stays parked pending a fresh TI+ NAV mark.
@@ -8,14 +8,20 @@
 ### ✅ DONE (2026-07-06 PM): Atrium PDF obtained + fully extracted
 Will provided it same session → `raw/Atrium_Life_Science_Reckoning_OZK_2025Q4.pdf` (67pp, **~Q4'25 vintage** — the memo had mislabeled it 2026). Read visually (image-only), pp 10-16 + 27-62. KB-201 VERIFIED; KB-117 SUPERSEDED (it was the garbled one — real Atrium RaDD as-market = $1.06B); KB +7 (203-209). Extraction → `research/threads/ATRIUM_LIFESCI_ASSET_MAP.md`. Follow-ups below.
 
-### 🆕 Reconciliation queue from the Atrium extraction (2026-07-06 PM)
-1. **The Jack / SEVEN_CREDIT #3 conflict** — roster says $25.9M outstanding; Atrium says $72.5M commit / $56M deployed / $16.1M ACL reserve, originated by Claros Mortgage Trust → assigned to OZK [KB-207]. Rework the ID/figure. ~30 min.
-2. **IQHQ_PLAYBOOK D-severity re-derivation** vs the valuation-dispersion ladder [KB-206] — Horton 67% forced-sale clearing vs Atrium $546M-1.06B model values. **Do before Jul 21** (feeds OZK-09 interpretation; pre-registered weights unchanged until then). ~45 min.
-3. **Verify the 2024 $128M Lincoln Yards LAND-loan foreclosure** [KB-208, single-source] — Cook County records / OZK 2024 quarterly foreclosed-asset tables. ~20 min.
-4. **Note-assignment channel scan** — two acquired-paper cases surfaced (777 Industrial ex-Square Mile; The Jack ex-Claros): does OZK hold more purchased construction notes? Fold into the 10-Q read (purchased-loan disclosures).
+### ✅ Reconciliation queue from the Atrium extraction — ALL CLEARED 2026-07-18
+1. ✅ **The Jack / SEVEN_CREDIT #3 conflict — RESOLVED.** Not a conflict, a timing difference: Atrium $56M deployed (Q4'25) → $25.9M (Q1'26 10-Q) after $27.7M charge-off + $2.6M paydown. Confirmed as a note-assignment/debt-on-debt "Other"-category credit (10-Q match). #3 restored to HIGH. → SEVEN_CREDIT §1/§2 #3, KB-207.
+2. ✅ **IQHQ_PLAYBOOK D-severity re-derivation — DONE.** Band $275-360M HOLDS as terminal/disposition loss (Horton $169/SF → RaDD ~$253M); recognition appraisal-gated/back-loaded. Drove OZK-09 re-mark 68%→52% (Will-approved). → IQHQ_PLAYBOOK §3/§4, PREDICTIONS.tsv.
+3. ✅ **$128M Lincoln Yards LAND loan — VERIFIED (Bisnow/TRD/Crain's).** Distinct Sterling Bay credit (orig Dec 2019, ~27 acres Finkl site, 6 mods, $38M writedown, deed-in-lieu Mar 2025, selling to JDL). = the "$126M basis" already in SEVEN_CREDIT #10; already resolved, not a live roster credit. → SEVEN_CREDIT §2 #10, KB-208.
+4. ✅ **Note-assignment channel scan — DONE via 10-Q.** Primary-confirmed: ~$490M RESG "debt-on-debt" book classified as "Other" [KB-210]. Named cases: 777 Industrial (SqMile/Affinius), Southline (SqMile junior), The Jack (Claros).
 
-### 🆕 NEW (2026-07-06): Read the Q1 2026 Form 10-Q — `raw/Q1_2026_10Q.pdf` (60 pp, retrieved via FDIC securities-filings API)
-**Why it matters:** First-ever 10-Q primary in our tree (IR page 403s blocked it all year; the API bypasses that). Pre-Q2 read targets: ASC 326 modification/TDR footnotes (extend-and-pretend quantification vs D6), specific-reserve detail (any RaDD pre-positioning), interest-reserve disclosures, sub-notes reprice language, NDFI/Fund Finance exposure tables. Directly arms the Jul-21 OZK-05→09 scoring. **Effort:** ~45-60 min. **Priority: HIGH — do before Jul 21.**
+### ✅ Read the Q1 2026 Form 10-Q — DONE 2026-07-18
+First-ever 10-Q primary read. Findings → KB-210 (debt-on-debt), KB-211 (collateral-dependent marking), KB-212 (nonaccrual→60-89d migration + $465M past-due), KB-213 (Tier-2 $280M confirm). Armed OZK-05→09; drove v1.5 recognition-timing refinement. Full extract in scratchpad; key facts folded into STATUS/THESIS/IQHQ_PLAYBOOK.
+
+### 🆕 NEW (2026-07-18) — carried forward
+1. **★ Jul-21 Q2 earnings (Tue; call Wed 8:30 ET) — score OZK-01, 05→09.** Priority: OZK-07 discriminator → conviction (WEAKNESSES C7); NCO vs ≤55bps kill; IQHQ reserve (OZK-08); funded-balance creep; **Portal 405 / 777 Industrial appearing in the substandard table** [KB-201/204]; the 60-89d delinquent-nonaccrual ($181.1M) conversion to NCO [KB-212]; mods counter (624→?). Expect a QUIET print (deferral). Re-pull insiders post-print.
+2. **$154M classified reconciliation** — 10-Q sums special-mention+substandard = $1,060.7M vs STATUS/supplement $1,215M classified+criticized. Run down the definitional gap before citing either as "the" Q2 number. ~20 min.
+3. **NDFI-contagion regime monitor (standing)** — consume REGINALD/BROCK regime read (outbox flags sent 7/18); watch for fresh private-credit fraud tape that could hit OZK on beta ahead of RESG recognition. [C8]
+4. **Short-interest standing field** — refresh at each ~bi-monthly FINRA settlement via Nasdaq API (candidate `scripts/short_interest.py` for boot.py) [KB-214].
 
 ---
 

@@ -1,10 +1,12 @@
 # OZK — Full Bear Case
 
-**Version:** v1.4 (2026-07-06) — figures re-based to Call Report primary (past-due $487.5M/1.48%, NCO 0.56%); prediction cross-refs re-wired to OZK-xx rows | **Changelog:** `CHANGELOG.md`
+**Version:** v1.5 (2026-07-18) — recognition-timing refinement (appraisal-gated deferral, from Q1'26 10-Q primary); + C8 beta/regime weakness. Prior v1.4 (7/6) re-based figures to Call Report primary | **Changelog:** `CHANGELOG.md`
 
 ## THE RESERVOIR THESIS
 
-OZK is a slow-building reservoir of unrecognized CRE losses. Stress is accumulating in the loan book, masked by reserve cuts, extend-and-pretend, and classification management. The 2022 vintage maturity wall forces recognition Q1-Q3 2026.
+OZK is a slow-building reservoir of unrecognized CRE losses. Stress is accumulating in the loan book, masked by reserve cuts, extend-and-pretend, classification management, and **collateral-dependent appraisal marking** (v1.5). The 2022 vintage maturity wall forces recognition Q1-Q3 2026.
+
+> **⚑ Recognition-timing mechanism (v1.5, from the Q1'26 10-Q primary):** OZK carries collateral-dependent nonaccrual loans at **appraisal/DCF fair value, not market severity** — Q1'26: $296.6M nonaccrual held at FV $281.5M, of which **$250.4M carries $0 ALL** (appraised collateral ≥ loan balance), total specific-reserve allocation just $15.2M. Foreclosures transfer to OREO at ~carrying value (Q1: $95.1M in, $0.3M writedown). **Consequence:** losses are recognized **late and in sequence** — a migration to substandard books little/no reserve until an appraisal breaks; the realized loss grinds through OREO over multiple quarters (760 Aloha OREO held −40% vs appraisal shows the forced mark arrives *after* foreclosure). This is the accounting engine behind the reservoir, and it means the **IQHQ recognition is appraisal-gated and back-loaded (Q3/Q4'26→2027), not a maturity-date single-print** — see IQHQ_PLAYBOOK.md §3 re-derivation + OZK-09 (re-marked 68%→52% on this).
 
 **Three-wave catalyst structure:**
 1. ✅ **RESOLVED Apr 21 2026:** Q1 26 print confirmed slow-grind thesis. Past-due **more than doubled QoQ** ($207M → **$487.5M / 1.48%** [Call Report primary; supplement basis $465M/1.41% — definitional fork, adopted 7/4]). 3 new substandard credits (2 Seattle U District w/ signed LOI + 1 Boston Life Sci $169M, matured Dec 18). 2 new foreclosed assets (Chicago Life Sci $50M + Santa Monica Office $45M at **15% leased**). Near-zero LTVs: Boston Office 95%, Seattle Pioneer 100%, Wauwatosa Hotel 103%. NCO **0.56%** [Call Report] — 1bp above the ≤55bps kill line (Invalidation §2). Sterling Bay/Lincoln Yards seizure + SVP sale (KB-OZK-094/095) referenced and confirmed. Detail → `Q1_2026_ANALYSIS.md`.
@@ -172,14 +174,15 @@ Concentrated kill criteria. If any of these fire, the short's foundation is dama
 
 ---
 
-## SHORT INTEREST RISK
+## SHORT INTEREST + BETA/RANGE RISK (refreshed 2026-07-18 — FINRA series)
 
 | Metric | Value | Implication |
 |--------|-------|-------------|
-| Short % of float | 14-15% | Crowded — squeeze risk on any positive headline |
-| Days to cover | 12-18 | High — unwind takes weeks |
+| Short % of float | **14.7%** (6/30/26; avg 15.1% / peak 18.3% over 12mo) | Structurally crowded — squeeze risk on any positive headline |
+| Days to cover | ~11.7 (12–18 typical) | High — unwind takes weeks |
+| 12-mo price arc | $41–53 range, **+6.5% YoY**, 12-mo high $53.09 (7/16) | **OZK has been a mean-reverting RANGE short, not a trending one** |
 
-Size accordingly. Accept that green days will hurt. The thesis is about trajectory, not any single print.
+**The uncomfortable empirical (WEAKNESSES C8):** despite a year of heavy shorting, OZK is *up* 6.5% and just made a 12-mo high. Its only real drawdown — $41.42 (11/17/25) — was **beta to the Oct'25 NDFI-contagion selloff** (Zions/WAL C&I fraud + First Brands/Tricolor), NOT an OZK credit event, and it fully mean-reverted. Own-credit has not moved the stock; regime/beta has — the tape-level signature of the appraisal-gated deferral. Shorts *covered into* the Fall'25 dip (SI fell 16%→14%) and ground to a 12-mo low by April; the persistent short has been a losing churn. **Implication:** size to survive squeezes; this is a **catalyst/duration trade** (short into the actual recognition event, H2'26→2027), not a range grind. NDFI-contagion is a second, faster catalyst path (both directions). Full treatment → WEAKNESSES.md C8.
 
 ---
 
