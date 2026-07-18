@@ -26,6 +26,22 @@ A hot CPI 7/14 landing on a completed arm-#2 (10Y 5-of-5 ≥4.50 if Mon holds) h
 
 The directional/RV split of the short is **not knowable from free data** (CFTC doesn't tag strategy; per-expiry positioning unpublished — front-vs-deferred strip placement is a labeled unknowable). Observable structure leans **substantially directional** (build tracks the hike-repricing exactly; asset managers same-side short since 5/5; 185 traders = broad; press/analyst framing = higher-for-longer), with a **real but unsizable RV component** (dealer mirror-long = warehoused hedging flow; record SOFR-FF spread volumes). Consequences: (a) the squeeze mechanic runs on the *directional share only* — a soft CPI puts the short offside and the cover bid lands in the FRONT-END/STIR complex; transmission to the 10Y is indirect (steepener impulse), so "forced cover caps the 10Y" over-claims; (b) **at any W1 cover, check swap spreads / SOFR-FF spread concurrently: spreads stable while shorts cover = directional squeeze confirmed; spreads moving with the cover = RV unwind, less systemic.** Full evidence table → `research/2026-07-11_sofr-deep-dive.md` §3.
 
+## GRADED — Sat 2026-07-18 (post-CPI COT [as-of 7/14] + PD [as-of 7/8], primary files)
+
+**Verdict: CONJUNCTION NOT MET — 0-of-3 legs fired.** No joint PROME/NEXUS amplification write-up owed. The hot-print-into-loaded-book scenario did not materialize: CPI 7/14 printed COOL, so the loaded short was not squeezed and dealer capacity was never tested.
+
+| Leg | Grade | Data [as-of] | vs terms |
+|-----|-------|--------------|----------|
+| **W1 — SOFR-3M lev net** | **NOT FIRED** | **−2,786,954 ct [7/14]** (L 1,108,561 − S 3,895,515), an **85,452-ct COVER** off −2,872,406 [7/7]; ≈ **−$680B** (band $669B @$240K/ct → $697B @$250K) — still record-zone | (a) new record past −2,950,000? **NO** (less short than the −2,943,898 [6/30] peak). (b) cover >300,000? **NO** (85,452). Source: raw CFTC TFF `FinFutWk.txt` futures-only, released Fri 7/17 3:30 ET — **graded off the raw file, NOT Socrata** (which lags releases). Reconciled to prior via change columns (ΔLong +61,925 / ΔShort −23,527 = +85,452 net cover ✓) |
+| **W2 — dealer warehouse** | **NOT FIRED** | **G10 IG >10y −$9,589mm [7/8]** (vs −$9,402mm [7/1]; w/w −$187mm more short), ~$2.4B from the line. **G5L10 +$168mm [7/8]** (vs −$213mm [7/1], back positive) | G10 < −$12.0B? **NO** (−$9.6B; 2026 extreme was −$11,663 [6/10]). G5L10 < −$800mm ×2 consecutive weeks? **NO** — still oscillating (−825[6/17]→+365[6/24]→−213[7/1]→+168[7/8]). Source: NY Fed PD API `PDPOSCSBND-G10`/`-G5L10` |
+| **W3 — rates-vol** | **NOT FIRED** | **MOVE 68 / VIX 18.71 [7/17 close]** | MOVE >85 while VIX <20? **NO** (MOVE 17bp under the line). VIOLET-owned figure |
+
+**Directional-vs-RV read on the W1 cover (discriminator applied):** the 85,452-ct cover (3% of the position) landed into a COOL CPI 7/14 — a cool print puts the substantially-directional short modestly offside → a small front-end/STIR cover bid. This is the *expected directional signature* (cover tracks the disinflation surprise), **not** an RV unwind and not a systemic squeeze. The short remains **near-record** (−2.79M ≈ −$680B, ~5% off the −$736B/−2.94M [6/30] peak) — the pin is intact, marginally trimmed. No swap-spread cross-check needed for grading since W1 did not fire; had it fired on the cover, the check would be: swap spreads stable = directional squeeze, moving = RV unwind (§ Basis-vs-directional caveat).
+
+**WALTER structural-why caveat carried (alongside, not instead of, the mechanical verdict):** the leveraged short is a 28-yr record (first since 1998) warehoused ~1:1 by a dealer mirror-long — the sourced 'why' leans **structural** (hedging/warehouse flow + higher-for-longer repricing), NOT directional bear conviction. A near-record short that is structural is not itself a fresh bear signal; the conjunction gate is the discipline that keeps positioning magnitude from being over-read as transmission.
+
+**Next graded read:** CFTC TFF Fri 7/24 (as-of Tue 7/21); NY Fed PD ~Thu 7/23 (as-of 7/15). Rolling 2-week conjunction window resets — the 7/11-registration window closes with 0-of-3.
+
 ## Cadence + next prints
 
 - **CFTC TFF:** Fridays ~3:30 ET; next = 7/17 carrying **as-of Tue 7/14 = the post-CPI positioning read** (does the short cover into a hot print?).
