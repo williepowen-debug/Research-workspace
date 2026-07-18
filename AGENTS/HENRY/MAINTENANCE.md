@@ -4,6 +4,15 @@
 
 ---
 
+### 2026-07-17 (~21:15 ET) — NEW `scripts/gamma_flip.py` — self-computed SPX gamma flip (resolves the SpotGamma paywall GAP)
+- **Trigger:** Will "repull the live gamma flip level." The exact flip had been a persistent GAP (paywalled SpotGamma) + a pending Will decision (pay vs accept the free-tracker estimate). fetch.py has no options/gamma capability (price/FRED/EIA only).
+- **What it does:** pulls the LIVE ^SPX options chain (yfinance — available in this venv, 52 expirations w/ OI+IV), computes BSM gamma per contract (r=4.5%, q=1.3%), sums net dealer GEX (long-call/short-put convention) across ≤35d strikes ±25% of spot, finds the zero-gamma flip by sign-change interpolation, plus call/put walls. ~6,200 usable contracts.
+- **First run (7/17 21:00):** flip **~7,522** · Net GEX **−$25.7B/1% (NEGATIVE)** · SPX 7,457.69 −65pts below = −GEX confirmed · put wall 7,500 (SPX through it) · call wall 7,600. Validated the 7/16 ~7,530-7,545 estimate.
+- **Caveat (documented in the script header + STATUS):** absolute $B depends on the dealer-positioning assumption; the FLIP LEVEL and SIGN are the robust reads. Greeks are BSM-from-IV, not vendor greeks.
+- **Consequence:** the "exact gamma flip PAYWALLED" GAP is resolved; the pending Will "pay for SpotGamma?" decision is MOOT. VIOLET's F2 gate can now be fed on demand.
+- **Files touched:** `scripts/gamma_flip.py` (new), `STATUS.md` (7/17 block + VOL REGIME + SPX threshold), `MEMORY.md` (gap resolved + infra note), `AGENTS/VIOLET/inbox/` (flip delivered), this entry.
+- **Boot-impact:** none (on-demand tool, run on catalyst days — GOOGL 7/22, FOMC 7/28-29 — not wired into boot).
+
 ### 2026-07-10 (later, ~11:00 ET) — POST-WIRING EVAL RE-RUN (01+02) + CASE-03 FIRST BASELINE — 3/3 PASS (proxy-caveated)
 - **Trigger:** Will approved the owed eval work in-session (~10:45 ET, via PROME), as a continuation of the same spawn that applied PAT-040. Note: PROME's ask said "author case-03" — corrected premise: case 03 was AUTHORED 6/15 (INPUT+RUBRIC exist); what was missing was its baseline RUN.
 - **Results:** **case 01 (TARGET) PASS · case 02 (GUARDRAIL) PASS · case 03 (GUARDRAIL, first baseline) PASS** — all EXPECTED met, zero DO-NOTs, no contamination signatures. Promotion bar (TARGET holds + guardrails hold) met for the step-3c wiring. Rows in `evals/results.tsv`; full scoring + responses in `evals/baseline_artifacts/2026-07-10_postwire_responses.md`.

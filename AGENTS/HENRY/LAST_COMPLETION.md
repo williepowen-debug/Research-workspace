@@ -1,15 +1,18 @@
 # HENRY — Last Completion (Will-facing closeout)
 
-**Session:** 2026-07-17 ~21:05 ET · BOOT (Will-spawn) · **Status:** ✅ booted + material finding captured
+**Session:** 2026-07-17 ~21:15 ET · BOOT + gamma-flip repull (Will-spawn) · **Status:** ✅ booted, tripwire CONFIRMED, paywall gap resolved
 
 ---
 
 ## RESULT
-Booted clean. **Material finding: my 7/16 "thin cushion into the 7/22-31 earnings cluster" call got its first real test within one session** — SPX −1.0% to 7,457 has traded *below* the ~7,530-7,545 gamma flip on a Brent-$88 oil-shock risk-off day, VIX +12% to 18.77. It's a coil-TIGHTENING, not a cascade (three de-escalators intact). WALTER lane drained (11 signals). No thesis change.
+Booted clean; then Will asked me to repull the live gamma flip — **I computed it from the live ^SPX chain (new `scripts/gamma_flip.py`, no paywall) and it CONFIRMS the tripwire:** flip **~7,522**, SPX 7,457 is **−65pts below** it → Net GEX **−$25.7B/1% = NEGATIVE gamma**; SPX has traded **through the 7,500 put wall** (call wall 7,600). My 7/16 ~7,530-7,545 estimate validated. This is a coil-TIGHTENING on an OIL impulse (Brent $88), not a cascade — 10Y eased, credit calm, VIX still ~4 under >23. WALTER lane drained (11 signals). No thesis change.
 
 ## CHANGED
-- `STATUS.md` — new 7/17 boot block; all ACTIVE THRESHOLDS + VOL REGIME refreshed to live 7/17; compressed the graded 7/8 block; removed the redundant 7/1-retired pointer. Held at **248** lines.
-- `MEMORY.md` — Session Notes rewritten (CHANGES SINCE / NEXT SESSION / GAPS). 81 lines.
+- `scripts/gamma_flip.py` — **NEW.** Self-computes the SPX gamma flip / net GEX / call+put walls from the live ^SPX chain (BSM gamma). Replaces the paywalled SpotGamma dependency.
+- `STATUS.md` — new 7/17 boot block (now w/ the CONFIRMED flip); ACTIVE THRESHOLDS + VOL REGIME refreshed live; compressed the graded 7/8 block; removed the redundant 7/1-retired pointer. Held at **248** lines.
+- `MEMORY.md` — Session Notes rewritten; GAP resolved + `gamma_flip.py` logged in infra notes. 81 lines.
+- `MAINTENANCE.md` — new-script entry.
+- `AGENTS/VIOLET/inbox/` — confirmed flip delivered to VIOLET's F2 gate.
 - `board_log.tsv` — +11 WALTER intake rows (2 acted, 9 noted).
 - `inbox/WALTER/` — 11 signals `git mv`'d to `processed/` (lane now clear).
 
@@ -26,8 +29,8 @@ SPX **7,457.69 (−1.01%)** · VIX **18.77 (+12.19%)** · VVIX **104.87 (+7.8%)*
 SPX 7,457 is ~75-90pts **below** the ~7,530-7,545 gamma flip I flagged 7/16 → the **SPX-under-the-flip → re-arm-negative-gamma path** (FLOW-013 → LIVE) I published for VIOLET's Gate B; VIX +12% / VVIX +7.8% confirm vol is finally engaging. **But it's a coil tightening, not a cascade:** (1) VIX 18.77 is still ~4 under the >23 vol-control trigger — cascade step 1 not engaged; (2) 10Y **eased** (4.54) = mild flight-to-quality, so per GCVR this is an on-axis level move (the +GEX→−GEX flip), not the off-axis rate/correlation shock that gamma can't cushion; (3) credit stayed calm (HY 271, 5d bifurcation gap actually −6). The catalyst is **oil** (Brent $88, escalation) transmitting via the rates channel.
 
 ## GAPS / STILL PENDING
-- **⚠️ The flip is a 7/16 ESTIMATE (paywalled).** The tripwire test is unambiguous on the tape (−1% + VIX/VVIX pop) but I **cannot confirm SPX is genuinely through the precise flip** until I repull a live level. This is now the binding gap — next weekday session, first task.
-- 0DTE SPX share still unsourced.
+- ✅ **Gamma-flip paywall gap RESOLVED** — self-computed from the chain; repeatable via `gamma_flip.py` on catalyst days.
+- 0DTE SPX share still unsourced (separate feed from the flip).
 - DEWEY PROMPT-12 overdue (was 7/10).
 
 ## COMMITS
@@ -44,4 +47,4 @@ SPX 7,457 is ~75-90pts **below** the ~7,530-7,545 gamma flip I flagged 7/16 → 
 Calm surface starting to crack on the OIL leg. HEN-40 (term-premium channel > data channel) CONFIRMED at the 7/14 CPI. The 7/17 session is the **first time the thin-cushion gamma call got tested** — SPX through the flip, vol engaging — but 10Y eased and credit stayed calm, so this reads as the coil tightening on an oil impulse, not the cascade releasing. The releasing tell would be VIX → 23 + a follow-through under the flip + credit widening. HEN-36 (AI-capex FCF-cliff) gate is 7/22 (GOOGL) → 7/29-31 (core), now framed by BofA's fwd-FCF-negative composite.
 
 ## WILL_NEEDS
-- **Decision still open:** exact gamma-flip source — pay for SpotGamma or accept the free-tracker estimate + error bar? Now load-bearing (the 7/17 tripwire test can't be confirmed without a precise flip level). You leaned "accept the free estimate" 7/16; if 7/17 extends I'd repull a live free-tracker number intraday regardless.
+- **Nothing open.** The gamma-flip-source decision you had pending (pay for SpotGamma vs free estimate) is now **MOOT** — I compute the flip directly from the ^SPX chain (`gamma_flip.py`), so no subscription is needed. I'll repull on GOOGL 7/22 and FOMC 7/28-29, and intraday if the risk-off extends.
