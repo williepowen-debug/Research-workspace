@@ -39,7 +39,7 @@
 | To | Signal | Priority | Mechanism it triggers |
 |----|--------|----------|-----------------------|
 | NEXUS | **X1 CLOSED (HY 271<280); oil-beta path to 280 graded MISS (KB-071)** — do NOT model a HY-widening leg off an oil/geopol shock alone; it needs credit substance. | 🟠 | M-08/M-09 — removes the oil-beta un-mask candidate |
-| NEXUS | **GATE-LIQ-069 ARMED 1-of-2** (ORCL BBB−, ratings-led fallen-angel pipeline) — a 2nd leg re-runs the AI-HY discriminator + flags you. | 🟠 | M-08/M-09 — ratings-led, not spread-led, AI-credit path |
+| NEXUS | **GATE-LIQ-069 ARMED 1-of-2** (ORCL BBB−, ratings-led fallen-angel pipeline). **Fallen-angel map built (KB-082):** forced-sell ~$130-160B (~4x record, ~10% of HY index) fires only on **2-of-3 agencies at HY** (index middle/avg rule) — the 7/9 S&P cut is the pipeline tell, not the event; **R1 = Moody's Baa2→Baa3 (neg outlook, likeliest) = the 2nd leg** → discriminator re-run + flag. | 🟠 | M-08/M-09 — ratings-led AI-credit path; sizes the UNPRICED forced-sell tail |
 | NEXUS/BROCK | **KB-081 lagging-tell OPEN:** HY shrugged the formal Hormuz closure while TTF gas broke EUR50; base case shrug-CORRECT, first post-closure energy-HY read ~mid-Aug. | 🟡 | recognition-vs-beta discriminator on the credit tape |
 | NEXUS/BOND | **M-03 structural firm, price dormant:** reserves rebounded $3.14T (+$176B, drain was TGA lumps); funding clean (SOFR99−IORB +5bp, SRF $0). Structure firm, no acute long-end firing. RMPs buy BILLS → long-end absorption read unchanged. | 🟡 | M-03 term-premium channel — structural-not-price |
 | NEXUS/HENRY | **KB-076 nexus GRADED 0-of-3** — the hot-print-into-loaded-book amplification did NOT trigger (CPI cool, short not squeezed). SOFR-3M lev short near-record (−2.79M/−$680B) but structural/warehoused. | 🟡 | rates→equity amplification twin — no fire |
@@ -70,7 +70,7 @@
 |------|-------|---------------------|
 | Thu 7/23 | NY Fed PD (as-of 7/15) | G10 IG >10y vs −$12B (−$9.6B [7/8]); G5L10 vs −$800mm ×2wk |
 | Fri 7/24 | CFTC TFF (as-of 7/21) | SOFR-3M lev short vs −2.95M record / >300K cover (−2.79M [7/14]) |
-| ~7/25-28 | Q2 BDC marks (FSK/OBDC/ARCC) | NEXUS R3/M-08; wrapper-leads = X1 BROCK half |
+| ~7/25-28→early-Aug | Q2 BDC marks (ARCC/FSK/OBDC/BXSL/MAIN/GSBD) | **Pre-reg grading card built (KB-083):** CONFIRM = ≥2 names FV/Cost-down + NAV −>2% (marks catch down to price) → arms BROCK X1-half (needs HY>280 to fire); REFUTE = marks hold; MIXED = FSK/GSBD down while MAIN/ARCC hold (manager-quality K-split). Grade name-by-name on arrival |
 | 7/27 | Late-July 2Y/5Y/7Y auctions | 2Y indirect vs <55% (June 55.45%, closest approach) |
 | 7/29 | July FOMC | no-cuts pinned; higher-for-longer = PC-squeeze |
 | 7/31 | DISH index rebalance | mechanical CCC tightening — NOT credit healing (KB-068) |
