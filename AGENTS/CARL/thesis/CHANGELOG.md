@@ -8,6 +8,18 @@ Tracks all changes to THESIS.md and PREDICTIONS.tsv. Reverse chronological. Each
 
 ---
 
+## 2026-07-18 — CRL-22 RE-SPEC v2 (Will-approved) + CRL-06 Q2-actuals annotation + KB +10; no THESIS version bump, 51/70 holds
+
+### PREDICTIONS
+- **CRL-22 re-specified v2 (Will-approved), conf 60→55.** POLLY primary-verify (SV-POLLY-2026-07-18-01, EDGAR) found the v1 H2-weighted-avg legs (UNH ≥85.4% / ELV ≥88.3% over Q1+150bps) are **seasonality artifacts** — UNH's own FY26 guide (88.1%±25bps vs H1 avg ~85.3%) implies H2 ~90.9%, so the trigger fires mechanically in ANY year; simultaneously the FY guide IMPROVED 88.8→88.1 = stress mechanism NOT corroborated. Old: H2 weighted-avg level legs. New: **guide-revision-direction legs** (UNH RAISES FY26 MCR guide >88.1%±25 / ELV RAISES FY26 BCR guide >90.2%), V28 RAF AND-gate unchanged. v1 legs retired-not-failed (spec error, not a thesis event). Conf-trim reason: UNH guide-improvement is live counter-evidence. Baseline conflict resolved same pass: Q1 83.9% CORRECT; press "lowest MCR in 8 qtrs" refuted vs 8-K.
+- **CRL-06 (CONFIRMED 7/16) — Q2 actuals annotated:** ATTOM H1 (rel 7/16, HOMER primary-verified): Q2 clears 70K on starts (~82-88K) AND filings (115,714), NOT REO (~14K) = 2nd consec qtr on the defining metric. REO-conversion sub-watch RESOLVED same print: conversion ACCELERATING (timeline 563d lowest since 2013; June REO +23% YoY reaccel) — cure-and-delay hypothesis dropped.
+- **CRL-24/21/20/12/23 — pre-registered fire/hold lines staged** in `2026-07-18_q2-earnings-prep.md` for the 7/21 four-name cluster (SYF 6:00am / ALLY 7:30am / DHI pre-open / COF 4:05pm AMC; PHM 7/22; AXP 7/24 — dates IR-confirmed, docket corrected).
+- **CRL-26 (gas $4.00 by 7/20):** pending at $3.992 (7/18 boot); STATUS mirror row added (consistency_check.py Phase-1 first live catch).
+- **CRL-10 (62% unchanged):** DEWEY fork reconciled vs KB-333 — no collision; three-channel food decomposition canonized (KB-339). DTN 7/15 flip-check: no fertilizer re-arm at retail.
+
+### Session facts (KB-335..344) + hygiene
+ATTOM H1 · UNH Q2 · Beige Book July (bifurcation language retained, 2nd consec edition) · diesel weld decomposition (RED fix — Aug-Sept core feed rides structural/sticky legs, NOT Hormuz) · food three-channel reconcile · **June retail discriminator ✅ GRADED** (headline +0.2% vs control +0.5% = May gas-padding confirmed as pre-registered) · Fed G.19 May revolving −$5.3B/−4.71% SAAR · CRMT going-concern · BofA prime-card counter-tell · container freight (relay-tier, AEOLUS reconcile flagged). **BOARD 99-signal backlog cleared** (85 REFERRED / 9 INTEGRATED / 5 INFO_ONLY; 2 CARL overrides). SYF one-figure reconcile CLOSED w/ REGINALD (guide-cut = Apr-21 action; prior guide was 5.5-6.0% RANGE, "was 6.0%" corrected).
+
 ## 2026-07-10 PM — THESIS v2.6.1 → v2.6.2: Independence map (additive, no score move) + workbook dedup + CRL-08 two-series annotation
 
 ### THESIS — v2.6.2 (minor: additive structural handle; Fable orchestration session, DAEDALUS docket #2+#3)

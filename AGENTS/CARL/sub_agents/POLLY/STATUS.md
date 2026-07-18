@@ -1,5 +1,6 @@
 # POLLY STATUS
 **Last real data refresh:** 2026-04-29 | **Staleness sweep (no data):** 2026-07-10 | **Next:** final refresh at Q2 P&C prints ~late Jul (Will-approved refresh-then-demote)
+> 📌 **2026-07-18 targeted pass (no full refresh):** `state_vectors/SV-POLLY-2026-07-18-01.md` — CRL-22 verify (UNH Q1 83.9% row STANDS; press "lowest MCR in 8 qtrs" REFUTED vs 8-K; Q1 83.9% / Q2 86.7% / FY guide 88.1%±25bps → implied H2 ~90.9%, UNH leg fires BY GUIDANCE but seasonality-driven + V28 AND-gate unresolved) + ELV 7/22 watch card + ML-19 carry-check (intact).
 
 > ⚠️ **STALE-VINTAGE BANNER (2026-07-10 tag-don't-refresh honesty pass — NO data pulled).** Every value below is **Apr-2026 vintage unless explicitly marked otherwise** — do **NOT** cite as current. Parent **CARL STATUS.md** carries the live insurance rows (UNH/ELV/ALL Q1, CA FAIR 684K, Tenants CPI 7.4%). Dashboard rows carry `[STALE — <as-of>]`; where parent carries the live figure, `[SUPERSEDED — see parent STATUS]`. Prior status descriptor (Apr-29): 🔴 ELEVATED — CA FAIR Plan 684K; auto normalizing; UNH Q1 MCR 83.9% (no breach); ELV Q1 BCR 86.8% + $935M CMS accrual; MA cost trend ~10% confirmed elevated.
 >
