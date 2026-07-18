@@ -20,12 +20,18 @@
 - **$85 clock:** verified 7/17 settle via BZ=F = $88.10 (session 1); flagged PROME's $87.71 discrepancy (both >$85).
 - Logged **KB-FALCON-025/026**; refreshed **NEXUS_BRIEF**; targeted STATUS $85 + Kharg corrections (no re-mark).
 
+### WAVE 2 (Will-selected proposals #1 + #2; #3 FAL-01 scaffold DEFERRED to Monday)
+- **BUILT the bypass-integrity gauge** (`scripts/bypass_watch.py` + `domain/BYPASS_INTEGRITY_BASELINE.md`) — first quantitative measure of the shuttle-breakage tell. PortWatch `export_tanker` at Fujairah(port362)+Sohar(port988); trailing-14d **74,593 t/d vs 15,684 floor = HOLDING/HOT** (Fujairah ~2× base, Mar-Jul high). **Bypass ABSORBING, not breaking → premium-not-supply-loss now has a number.** Positive-control passed (hubs 18-26 nonzero days/mo). INVERTED alarm (rc1=collapse). Honest limits: STS-at-anchorage undercount, global-hub attribution → use via conjunction (collapse AND transits-collapsed).
+- **RE-SOURCED the Iraq/PMF discriminator** (`domain/IRAQ_PMF_DISCRIMINATOR_REVIEW.md`) — embassy feed confirmed a dead false-quiet channel (34d silent, ordered-departure). New primary = **CTP/ISW Iran Update (daily) + Shafaq**. [as-of CTP 7/15]: **genuinely unfired** — no new kinetic attacks despite six strike nights; militias conditional/deterred amid a US-Iraq disarmament standoff; no Basra threat. Embassy `baghdad_watch.py` demoted to positive-alert backstop.
+- Logged **KB-FALCON-027/028**; STATUS Next-Rung Tells #4/#6 + convergence bypass row + header updated; NEXUS_BRIEF refreshed (bypass = premium-vs-supply-loss discriminator for synthesis).
+
 ## NEXT SESSION (dated, future-verifiable)
 1. **PortWatch 7/13-15 prints** — STILL not published as of Sat 7/18 18:00 ET; re-check Sun 7/19 / next boot. Grade on prints only (<10 deepening · 7-14 bypass-carries · >18 leaking).
 2. **$85 clock:** check **Mon 7/20 + Tue 7/21 settles.** If both >$85 → 3-consecutive FIRES Tue 7/21 → oil vector 4→5, D-tell #3 fires. If either <$85 → clock resets. **Pin the canonical Brent settle source** (Yahoo $88.10 vs PROME $87.71).
 3. **GATE-TERRY-006:** confirm PROME registered the corroborator-anchored condition (PROPOSED→armable). If Kharg corroborator appears (declaration / Kpler-Vortexa read / Kharg war-risk notice), that's the fire — run `kharg_loadings_watch.py` as the veto cross-check.
 4. **FAL-01 window closes Jul 26** (8 days). Watch KHARG (the real tail) — power plants do NOT fire it (Trump forward-dated grid to 7/20-26). RE-DERIVE 70% at re-registration, don't inherit.
-5. **Baghdad watch possibly DEGRADED** (34d feed silence, ordered-departure artifact) — find 2nd sourcing route or downgrade the tell.
+5. **[DONE wave 2] Baghdad watch re-sourced** → CTP/ISW + Shafaq. **Monday boot item:** re-point boot step 5b so the Iraq/PMF discriminator reads off CTP Iran Update, not the dead embassy feed (deferred tonight). Add `bypass_watch.py` to boot as step 5b-3 (RED posture, weekly min).
+5b. **[DEFERRED to Monday, Will-directed] FAL-01 re-registration scaffold** (proposal #3) — pre-build the from-scratch 70% re-derivation ahead of the Jul 26 window-close. → `thesis/FAL-01_REREGISTRATION_SCAFFOLD.md`.
 6. **WSJ hull-count reconcile** (4→8 double-count risk) — resolve with BRENT.
 7. **Bab el-Mandeb conditional** — US grid strike → Iran's Houthi request; neither half fired.
 
@@ -34,7 +40,7 @@
 - 🔴 **FAL-01** (Jul 26) — unfired, base strengthened; Kharg is the tail
 - 🔴 **$85×3** — 1 of 3 banked (7/17); earliest fire Tue 7/21
 - 🔴 PortWatch 7/13-15 prints — overdue, not published
-- 🟠 Bab el-Mandeb conditional · Baghdad watch degraded? · WSJ hull double-count · shuttle/STS bypass integrity (no volume series exists)
+- 🟠 Bab el-Mandeb conditional · WSJ hull double-count · **shuttle/STS bypass integrity — NOW QUANTIFIED (`bypass_watch.py`, HOLDING/HOT)** · **Iraq/PMF re-sourced (CTP+Shafaq, genuinely unfired)**
 
 ## PREDICTIONS DUE / DECISIONS PENDING
 - **FAL-01 (Jul 26)** — only OPEN row; 70% frozen, re-derive at re-registration. Scoreboard **1C / 0F / 0P / 0V / 1 OPEN.**
@@ -42,7 +48,7 @@
 
 ## MAIL STATE (one line per surface)
 - Inbox (root): 4 PROME items — Sat packet consumed (executed); 3 prior (denominator ruling, seizure tripwire ask, loadings addendum) all folded into tonight's deliverable. `git mv` to processed at next full inbox pass (not blocking).
-- Outbox: **2 written** → to-PROME (source freeze + gate merge + transit + $85) and to-TERRY (merged-condition confirm).
+- Outbox: **2 written wave-1** (to-PROME source-freeze, to-TERRY merged-condition) + **wave-2 memo** appended/added (bypass gauge + Iraq re-sourcing).
 - WALTER lane / BOARD: none new this session.
 
 ## PENDING PUSH / GIT
