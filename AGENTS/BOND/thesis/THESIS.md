@@ -1,7 +1,7 @@
-# BOND THESIS — v1.1.1
+# BOND THESIS — v1.1.2
 
-**Version:** 1.1.1 (2026-07-06 — QT-framing reconciliation + reconciled BND-11 grade / JGB leading-indicator methodology; see CHANGELOG. Prior v1.1 2026-07-01.)
-**Last Updated:** 2026-07-06 by BOND
+**Version:** 1.1.2 (2026-07-18 — ★ term-premium label CORRECTED → real-rate/policy-path-led [RED's ask]; EU-sovereign reconcile w/ LIQUID; CARL weld folded; see CHANGELOG. Prior v1.1.1 2026-07-06.)
+**Last Updated:** 2026-07-18 by BOND
 **Status:** 🟡 WATCH, **escalating** — **"expensive, not broken"** still holds (6 straight benign auction tests through the 6/23–25 cluster), but the long end is **re-engaging**: 30Y **at the 5.00 threshold line** (intraday 7/6; a *poke* — BND-12 needs 5 sustained closes; live values → STATUS) in a *globally-synchronized* hawkish repricing — domestic data/Fed-path + a JGB super-long rout — into a July supply gauntlet (7/7–9 refunding, 20Y 7/22). Dealer long-end inventory is at a **fresh all-time record** (FR2004 6/17) and — post-QT (ended Dec-1-2025) — **there is no Fed coupon backstop** (RMPs buy T-bills, not coupons), so 7/9 30Y absorption is entirely private/foreign/dealer. Auctions still clear at price but the *composition* is rotating: foreign/custodial (indirect) bids faded hard at the June belly cluster, absorbed 1:1 by domestic directs. Macro credit calm (issuance boom); CCC tail bifurcating.
 **Conviction:** Duration-short (TLT puts) **HOLD, no add** — the add-gates are pre-registered and none has fired; but the tape has rotated from "wrong tape" (bear-flattener) toward the thesis tape (global steepening tilt). Short-credit **NOT supported** (primary market in boom). Composite 12/35 (live scores owned by STATUS convergence matrix).
 
@@ -31,7 +31,7 @@ BOND owns the **market-structure transmission layer** — how the bond market's 
 | 1 | **Auction health** | Demand hole → dealer warehousing → repo demand → funding stress | Below-median but **clearing at price** | → LIQUID, ZHAO |
 | 2 | **Credit issuance / HY function** | OAS blowout → issuance freeze → refi wall → forced selling | Macro calm; **bifurcation caveat** (lower-quality CCC/energy sit out the calm) | → HENRY, REGINALD, BROCK |
 | 3 | **Dealer capacity** | Record inventory → no backstop → forced de-risk in a selloff | Long-end inventory at record (FR2004 *stock*); auction *flow* benign | → LIQUID, ZHAO |
-| 4 | **Long-end / term premium** | Real-yield-led supply pressure → duration repricing | Elevated but not breaking; real-rate-led | → HENRY, LIQUID |
+| 4 | **Long-end / real-rate (higher-for-longer)** *(label corrected v1.1.2 — was "term premium")* | Real POLICY-PATH repricing → duration repricing. The arm move (7/6→7/13) was a belly-led bear-flattener (30Y LAGGED) = higher-for-longer real Fed path, NOT a term-premium expansion. Term premium elevated in the LEVEL (ACM +0.73%) but flat over the move. | Elevated but not breaking; policy-path-led, oil-independent | → HENRY, LIQUID, NEXUS |
 | 5 | **Credit-leads-equity (Hamilton ~3mo lead)** | HY OAS widens → precedes equity drawdown | **Inactive** — moves are equity-vol-led, not credit-led | → HENRY, VIOLET |
 | 6 | **Global long-end / JGB-FX transmission** *(added v1.1)* | JGB super-long demand vacuum → (a) global term-premium correlation, (b) yen collapse → MOF FX intervention → mechanical UST reserve selling | **Armed via the FX leg, not duration competition** — window evidence shows JGB↔UST duration decoupling; the binding link is intervention risk | ← SAM; → HENRY, LIQUID |
 

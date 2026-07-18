@@ -1,41 +1,41 @@
-# BOND SCRATCH — 2026-07-16 (Thu AM–midday, PROME-spawned teams-mode session)
+# BOND SCRATCH — 2026-07-18 (Sat eve, PROME-spawned teams-mode wave)
 
 **Purpose:** Ephemeral session handoff. Read at boot, rewritten at closeout. Learnings → `MEMORY.md`; thesis → `thesis/THESIS.md`; live state → `STATUS.md`.
 
 ---
 
-## CHANGES SINCE LAST SESSION (7/10 → 7/16; fleet was OFFLINE 7/13–7/15 usage limits)
-- **ARM-#2 (GATE-TERRY-ARM2) COMPLETED 5-of-5 Mon 7/13 → RESOLVED-ARMED 7/16.** Co-graded independent of PROME vs FRED DGS10: 7/7 4.55 · 7/8 4.56 · **7/9 4.54** · 7/10 4.56 · **7/13 4.62** (7/6 4.48 reset; 7/14 4.58 = 6 straight; live ^TNX 4.59 7/16). 7/9 official 4.54 (not 4.539 ^TNX prov) — no cross-line divergence, R3 clean, NO restatement. **Fill decision RESOLVED NO-ADD (Will 7/16 — TERRY book-aware rec accepted, $500 banked; nothing owed. ACTIVE_DECISIONS e396dddd, GATES b64e970e).** (KB-BND-076)
-- **Rates decomposition:** the 10Y holds ≥4.50 on an **86%-real-yield move** — +14bp (7/6→7/13) = +12bp DFII10 (2.24→2.36 series high) + 2bp T10YIE; 5Y5Y anchored 2.21. That's why cool June CPI (−0.42% MoM) didn't break it. Firm auctions (BND-11 NOT FIRED) rule out demand hole = real term premium. VX-BND-05 3→4, VX-BND-14 2→3.
-- **June PPI (7/15) COOL too** (−0.3% MoM, +5.5% YoY vs 6.2% cons, gasoline −12%) — 2nd cool June print; 10Y held ≥4.50 through both = external corroboration of the term-premium read (KB-BND-077). **FOMC 7/28–29 lean shifted ON-HOLD**; Fed **blackout 7/18–30**.
-- **Hormuz closed 7/11–12, Brent $86** — loads the JULY CPI hot (~+0.4–0.6pp headline MoM from gasoline alone; lands mid-Aug, AFTER FOMC), reinforces the same channel → **4.50-sustain through FOMC well-supported** (falsifier: fast Hormuz de-escalation).
-- **Inbox drained** (5 items): KB-BND-078 (LIQUID BND-11 corroboration), KB-BND-079 (JGB ALM-buyer/net-demand-positive, SAM v1.6.7 re-scope + WALTER SIG ack); STATUS Global Long-End panel re-scoped. MIDAS DFII10 seam reconciled (2.31 [7/9] exact).
+## CHANGES SINCE LAST SESSION (7/16 → 7/18; fleet Sat-eve wave, markets closed)
+- **★ TERM-PREMIUM LABEL CORRECTED (RED's owed ask).** The arm-completing +14bp 10Y move (7/6→7/13) is **real POLICY-PATH-led, NOT a term-premium expansion.** Decisive tell = **belly-led bear-flattener** (5Y +16 > 10Y +14 > 30Y +11; 30Y−10Y −3bp, long end LAGGED) — the *opposite* of a term-premium expansion. 86%-real correct but real≠term-premium (policy-path ~80-90%, term-premium ~0-7%, inflation-comp 14%). ACM 10Y TP +0.73% [Jul-2026] elevated in LEVEL, flat over MOVE. Corrected label = "**real-rate / higher-for-longer (policy-path-led) channel**." KB-BND-080; THESIS v1.1.2; route-out to PROME for HEARTBEAT amendment.
+- **EU-sovereign reconcile w/ LIQUID CLOSED.** Canonical spreads-to-Bund [7/17, TE 10Y]: **BTP-Bund 83 / Bono-Bund 47 / GGB-Bund 71 / OAT-Bund 79** — all benign. Owner split: BOND = sovereign-curve + ECB/TPI; LIQUID = EU-bank→US xccy transmission. ONE trigger: BTP-Bund >200bp. KB-BND-082; VX-19 updated.
+- **CARL diesel-weld folded (consume-only).** Aug-Sept core-CPI feed rides structural legs (Russia ban ~8/3, distillate base, sticky freight), NOT Hormuz → arm **doubly insulated from Mideast book**; TERRY §9 softened both ways. KB-BND-081.
+- **NEXUS_BRIEF.md CREATED** (didn't exist) — carries the corrected label; NEXUS "independent real-yield leg" claim: independence CONFIRMED (oil-independent), mechanism relabeled policy-path.
+- **Fresh FRED** (obs 7/16 rates / 7/17 BE): 10Y 4.57, 2Y 4.16, 30Y 5.09, DFII10 2.35, T10YIE 2.24, T5YIFR 2.21 — line held 6+ sessions ≥4.50.
 
 ## WHAT I DID THIS SESSION
-1. Co-graded ARM-#2 = COMPLETE 5-of-5 (independent FRED); outbox `2026-07-16_to-PROME-TERRY_arm2-cograde-and-rates-read.md`.
-2. Rates decomposition (real-yield-led) + Hormuz/July-CPI/FOMC read for TERRY's arm packet.
-3. ARM-#3: flagged GATES.tsv drift (holdings→net-transactions), staged grading template `setups/2026-07-16_ARM3-TIC-grading-template.md` (CUT-A holdings / CUT-B net transactions).
-4. Live news sweep (7/11→now): June PPI cool, FOMC on-hold lean, no new auctions since 7/11.
-5. Inbox hygiene: 5 items dispositioned + git mv'd to processed/ (4 actioned, 1 deferred, WALTER SIG ack'd).
-6. Pre-registered 7/22 20Y + 7/23 10Y TIPS grading lines `setups/2026-07-16_prereg_7-22-20Y_7-23-10YTIPS.md` (BND-11 pattern, own-range calibrated).
+1. Term-premium three-bucket decomposition (FRED primaries, curve-shape method + ACM level) → verdict MIXED/policy-path-led, not term-premium. Route-out wording for HEARTBEAT.
+2. EU-sovereign reconcile → ONE figure per sovereign (TE 7/17), owner split + single trigger with LIQUID.
+3. Consumed CARL weld into rates-arm stack; noted falsifier correction (dovish Fed, not oil-retrace).
+4. Wrote outbox memo, created NEXUS_BRIEF, updated STATUS (dashboard + decomposition callout + EU line + BOTTOM LINE), THESIS v1.1.2 + CHANGELOG, KB-BND-080/081/082, VX-14/VX-19.
 
 ## NEXT SESSION (dated, future-verifiable)
-1. **TIC (ARM-#3) 4PM ET 7/16 → PROME GRADES** (handed off, see STATUS TIC HANDOFF). Grade off CUT-B net transactions (China AND Japan both net sellers); China nowcast $659.3B UNVERIFIED — official file governs; transactions granularity missing → **UNDETERMINED, never arm on holdings.**
-2. **Mon 7/22 20Y reopening (912810UV8) + Thu 7/23 10Y TIPS** — MECHANICAL grades vs the pre-reg file (six frozen thresholds). TIPS at DFII10 2.36 series high = real-money referendum on arm-#2 (strong=confirm, weak=fragile). Both inside Fed blackout (clean).
-3. **DFII10 2.5 re-arm watch** — 2.36 [7/13] series high, ~14–17bp from the real-yield-stress re-arm; watch on any Hormuz/Brent July-CPI-load leg.
-4. **DEFERRED: HENRY UST structural-demand corpus** refresh-or-retire (ML-HEN-114/115 Japan withdrawal, FLOW-HEN-025 Gulf recycling; all Mar-vintage) — the term-premium "why," owner=BOND, dedicated session.
-5. FOMC 7/28–29 (on-hold lean; hawkish-hold + long-end break = regime re-read); ECB GovC 7/23-or-24 (date still unverified); BOJ 7/31.
+1. **Mon 7/22 20Y reopening (912810UV8) + 40Y JGB** · **Thu 7/23 10Y TIPS** — MECHANICAL grades vs pre-reg `setups/2026-07-16_prereg_7-22-20Y_7-23-10YTIPS.md`. TIPS at DFII10 ~2.35 series-high = real-money referendum on the (now-relabeled) real-policy-path leg. Both inside Fed blackout (clean).
+2. **DFII10 2.5 re-arm watch** — 2.35 [7/16], ~15bp from the real-yield-stress re-arm.
+3. **FOMC 7/28-29 (no SEP)** = the corrected falsifier's live test — hawkish-hold keeps the policy-path leg lit; a dovish pivot is the kill (NOT an oil retrace).
+4. **DEFERRED (still owed): HENRY UST structural-demand corpus** refresh-or-retire (ML-HEN-114/115, FLOW-HEN-025; Mar-vintage) — the term-premium "why" under the LEVEL (now more clearly a level, not the move, story). Owner=BOND, dedicated session.
+5. **DEFERRED this session: domain-sweep lenses** (`PROME/packets/DOMAIN_SWEEP_LENSES.md`) — tasks 1-3 won on time; run next warm session, deliverable `reports/2026-07-18_domain-sweep.md`.
+6. ECB GovC 7/23-or-24 (date STILL unverified); BOJ 7/31.
 
 ## OPEN THREADS / WATCHES
-- ✅ ARM-#2 RESOLVED-ARMED 7/16; Will decided NO-ADD ($500 banked). CLOSED — nothing owed.
-- 🟠 Steepener watch (on-hold front-end rally vs long-end term-premium hold); 🟠 DFII10→2.5; 🟠 MOF actual FX intervention (FL-BND-11); 🟡 EU xccy proxy build w/ LIQUID; 🟡 CCC non-retrace.
+- 🟠 Steepener watch (on-hold front-end vs long-end); 🟠 DFII10→2.5; 🟠 MOF actual FX intervention (FL-BND-11); 🟢 EU peripheral benign (BTP 83, trigger 200); 🟡 CCC non-retrace.
+- 🟡 PROME to carry HEARTBEAT label amendment to Will (route-out in outbox memo §1).
 
 ## POSITION DECISIONS
-- **TLT puts: HOLD** — arm-#2 RESOLVED-ARMED, Will decided NO-ADD 7/16 ($500 banked); no BOND trade recommendation this session (scoped). HYG puts stay closed.
+- **TLT puts: HOLD** — arm-#2 RESOLVED-ARMED, Will NO-ADD 7/16 ($500 banked). No new BOND trade rec (scoped). HYG puts stay closed. Label correction hardens the leg (sharper falsifier), does NOT change conviction — composite 12/35 unchanged.
 
 ## MAIL STATE
-- Inbox EMPTY (5 items drained to processed/ + WALTER/processed/ this session).
-- Outbox (new this session, PROME routes): `2026-07-16_to-PROME-TERRY_arm2-cograde-and-rates-read.md`. Setups: ARM3 template + 20Y/TIPS pre-reg.
+- Inbox: 4 consumed items → processed/ (RED label-check, LIQUID eu-reconcile, PROME eu-approved, CARL weld). Task packet + may-tic-arm3 (old, PROME-owned grade) left in place.
+- Outbox (new, PROME routes): `2026-07-18_to-PROME_label-check-eu-reconcile-weld.md`. NEXUS_BRIEF.md created.
 
 ## WORKBOOK / PUSH HEALTH
-- KB-BND-076..079 appended (schema-conformant, CRLF-preserved). VX-BND-05/14 updated. Commits path-scoped BOND-only across 4 commits (b93e5f6a, 2effbec4, inbox-drain, 9b9d7cdd). **Push DEFERRED — PROME owns the closeout push-train.**
+- KB-BND-080/081/082 appended (13-col, CRLF-preserved). VX-BND-14/19 updated. THESIS v1.1.2 + CHANGELOG.
+- Commits path-scoped BOND-only (4 agents + PROME concurrent tonight — never `git add -A`). Auto-push via safe-push.sh; non-ff → pull --rebase + re-push.

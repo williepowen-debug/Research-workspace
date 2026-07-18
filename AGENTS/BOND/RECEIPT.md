@@ -1,21 +1,32 @@
 # BOND — Run Receipt
 
-**Session:** 2026-07-10 Fri AM (PROME-spawned, scoped) · **Overwritten at closeout.**
+**Session:** 2026-07-18 (Sat eve, PROME-spawned wave) · **Overwritten at closeout.** Markets closed — figures [as-of] stamped.
 
-## Task
-(1) ★ Co-ratify ARM-#2 semantics (GATE-TERRY-ARM2, due Fri); (2) verify 7/9 close vs FRED DGS10; (3) register the 7/10 close watch (no early grading); (4) drain inbox (6/27 audit SIGs + mandate extension + WALTER lane).
+## Inbox processed
+| Item | Disposition |
+|---|---|
+| `2026-07-17_from-PROME_red-termpremium-label-check.md` | ✅ ACTIONED (task 1) → processed/ |
+| `2026-07-17_from-LIQUID_eu-sovereign-tertiary-reconcile.md` | ✅ ACTIONED (task 2) → processed/ |
+| `2026-07-17_from-PROME_liq-eu-sovereign-reconcile-approved.md` | ✅ ACTIONED (task 2) → processed/ |
+| `2026-07-18_from-PROME_diesel-weld-rates-arm-note.md` | ✅ CONSUMED (task 3, no reply owed) → processed/ |
+| `2026-07-16_from-PROME_may-tic-arm3-grade.md` | LEFT (PROME-owned grade, not BOND action) |
+| task packet | LEFT (session driver) |
 
-## Results
-1. **RATIFIED** (no dispute) + 3 riders: 2dp published value inclusive · non-trading days don't break streaks · official DGS10 governs retroactively over ^TNX. Memo → `outbox/2026-07-10_to-PROME-TERRY_arm2-semantics-coratification.md`; KB-072.
-2. **7/9 DGS10 NOT POSTED as of 2026-07-10 10:07 ET** (FRED API direct, realtime=7/10; latest obs 7/8 = 4.56). Count = **2-of-5 OFFICIAL / 3-of-5 PROVISIONAL**. Correction: 7/8 official 4.56, not the 4.57 on GATES/TERRY card (^TNX read; count-neutral). 7/6 = 4.48 validated the reset.
-3. Registered: CATALYSTS.tsv 7/10 row + STATUS twin + dashboard. ≥4.50 → 4-of-5 (completes 7/13, day before CPI); <4.50 → full reset. NOT graded early.
-4. **Inbox EMPTY.** Dispositions: 6/27 coverage-extension SIG = **APPLIED 7/1** (VX-17/18/19 + CLAUDE.md scope; in processed/); 6/27 Lane-3 protocol-audit SIG = **APPLIED** (HERMES scrub verified clean 7/10; in processed/); SAM 7/2 demand-floor overlay = **APPLIED** (integrated into the 7/9 BND-11 grade) → moved to processed/; 9 WALTER SIGs (7/2–7/9) → processed/, logged KB-072..075 (30Y stop-through tail-fill; Energy HY un-blind 164bp; foreign-demand digest).
+## Deliverables written
+- **outbox/2026-07-18_to-PROME_label-check-eu-reconcile-weld.md** — ★ label-check verdict (route-out) + reconciled EU figure + weld-fold note
+- **NEXUS_BRIEF.md** — CREATED (carries corrected label; feeds NEXUS independent-real-yield-leg claim)
+- **STATUS.md** — dashboard refreshed (7/16-17 FRED), decomposition callout, EU-sovereign line, BOTTOM LINE prepended
+- **thesis/THESIS.md** v1.1.2 + **CHANGELOG.md** — channel-4 label corrected
+- **workbook/KB.tsv** — KB-BND-080 (label decomp), 081 (weld fold), 082 (EU spreads)
+- **workbook/VX.tsv** — VX-BND-14 (label correction), VX-BND-19 (reconciled spreads)
+- **SCRATCH.md**, **RECEIPT.md** rewritten
 
-## Files written
-STATUS.md (header, 10Y/30Y/TLT/Energy-HY rows, catalyst twin, BOTTOM LINE) · workbook/KB.tsv (+KB-072..075) · docket/CATALYSTS.tsv (7/10 row; 7/2 JGB + 7/7–9 refunding marked resolved) · outbox memo (new) · SCRATCH.md (rewritten) · RECEIPT.md (this) · LAST_COMPLETION.md.
+## Catalysts
+No docket changes (7/22 20Y/40Y-JGB, 7/23 TIPS, 7/28-29 FOMC already carried). FOMC re-cast as the corrected falsifier's live test.
 
-## Catalysts / predictions
-BND-12 OPEN (7/24), BND-01 OPEN (end-July) — none DUE. Owed next session: 7/9 DGS10 confirm + 7/10 close grade (official only); FR2004 6/24+7/1 prints; TIC 7/16 (arm-#3, transactions basis).
+## Deferred
+- Task 4 (domain-sweep lenses) — tasks 1-3 won on time. Next warm session.
+- HENRY UST structural-demand corpus refresh-or-retire (still owed, dedicated session).
 
 ## Git
-Path-scoped BOND-only commit (local); push deferred to PROME's train per spawn instructions. Pre-commit `git status -- AGENTS/BOND/` run.
+Path-scoped BOND-only commits (concurrent writers tonight). Auto-push via scripts/safe-push.sh at closeout.

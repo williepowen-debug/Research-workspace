@@ -2,7 +2,7 @@
 
 **Agent:** BOND | **Domain:** US Bond Market Structure (+ MBS/FHLB + EU rates per 6/27 extension, integrated 7/1)
 **State:** 🟠 ELEVATED — **ARM-#2 (10Y-sustain) COMPLETED 5-of-5 Mon 7/13 → RESOLVED-ARMED 7/16; Will decided NO-ADD** (TERRY book-aware rec accepted, $500 banked — nothing owed; ACTIVE_DECISIONS commit e396dddd, GATES b64e970e). The 10Y holds ≥4.50 on a **real-yield/term-premium** move (86% of the +14bp 7/6→7/13 is DFII10; breakevens anchored) — which is why cool June CPI [−0.42% MoM] didn't break it. Hormuz closed 7/11–12 + Brent $86 loads the JULY CPI path hot; 4.50-sustain through FOMC 7/28–29 well-supported. ARM-#3 (May TIC) lands 4PM ET today.
-**Last Updated:** 2026-07-16 (Thu AM) by BOND (teams-mode, PROME-spawned) — ARM-#2 CO-GRADED COMPLETE (independent FRED: 7/7 4.55·7/8 4.56·7/9 **4.54**·7/10 4.56·**7/13 4.62**; 7/14 4.58 = 6 straight); rates decomposition (real-yield-led); ARM-#3 GATES-drift flagged (holdings→net-transactions) + grading template staged (`setups/2026-07-16_ARM3-TIC-grading-template.md`); MIDAS DFII10 seam reconciled (2.31 [7/9] exact match)
+**Last Updated:** 2026-07-18 (Sat eve) by BOND (teams-mode, PROME-spawned) — ★ **TERM-PREMIUM LABEL CORRECTED** (RED's ask): the arm move was **real-POLICY-PATH-led, NOT a term-premium expansion** — belly-led bear-flattener (5Y +16 > 10Y +14 > 30Y +11; 30Y LAGGED); 86%-real is right but real≠term-premium (policy-path ~80-90%, term-premium ~0-7%, inflation-comp 14%). Route-out to PROME for HEARTBEAT amendment. EU-sovereign reconcile w/ LIQUID → ONE figure (BTP-Bund 83 / Bono-Bund 47 / GGB-Bund 71 [7/17]). CARL weld folded (arm doubly-insulated from Mideast book). *(Prior 7/16: ARM-#2 CO-GRADED COMPLETE independent FRED; MIDAS DFII10 seam reconciled 2.31 [7/9].)*
 **Thesis:** durable thesis → `thesis/THESIS.md` (**v1.1**, bumped 7/1)
 
 ---
@@ -17,12 +17,13 @@ Phase-III long-end re-fire, **globally synchronized**: domestic hawkish-data rep
 
 | Metric | Current | Status | Source / Date | BOND Read |
 |---|---:|---|---|---|
-| 30Y yield | **5.08%** | 🟠 | [CONF DGS30, 7/14; live ^TYX ~5.10 7/16] | 30Y 5.10 (7/13) = series high; DGS30 5.05→5.10 (7/6→7/13), +oil/term-premium. 7/9 reopen cleared FIRM (5.058%, ~0.3bp stop-through, no tail — KB-073). Level is term-premium, not a demand break; global. |
-| 10Y yield | **4.59%** live / 4.58 [7/14] | 🔴 | [CONF ^TNX intraday 7/16 ~9:32 ET; DGS10 7/14] | **ARM-#2 COMPLETE 5-of-5 Mon 7/13** (DGS10: 7/7 4.55·7/8 4.56·7/9 **4.54**·7/10 4.56·**7/13 4.62**; 7/6 4.48 = reset). 7/14 4.58 = **6 straight**; live 4.59 = 9bp over the line. **RESOLVED-ARMED 7/16; Will NO-ADD** ($500 banked). 7/9 official = **4.54** (not the 4.539 ^TNX prov) — no divergence, R3 clean. |
-| 5Y / 2Y | 4.31 / 4.18 | 🟡 | [CONF DGS5 / DGS2, 7/14] | 2Y +13bp 7/6→7/13 (4.13→4.26) — **rose through a deflationary June print** = Fed-path priced hawkish-hold, not cuts-sooner. Real component intact. |
-| 10Y real (DFII10) | **2.33%** [7/14] / **2.36** high [7/13] | 🟠 | [CONF FRED, 7/14] | **+12bp 7/6→7/13 (2.24→2.36) = 86% of the 10Y move.** Series high; **~14–17bp from the 2.5 real-yield-stress re-arm.** This is the leg holding the line. MIDAS seam: 2.31 [7/9] exact match. |
-| 5Y5Y fwd (T5YIFR) | **2.21%** [7/14] | 🟢 | [CONF FRED, 7/14] | Dead flat (2.18–2.22) — long-run inflation **perfectly anchored** through the oil shock. Oil→BE re-arm bar HIGH (KB-064). |
-| 10Y BE (T10YIE) | **2.25%** [7/14] | 🟢 | [CONF FRED, 7/14] | Flat (2.23–2.26); +2bp = only 14% of the 10Y move. The hold is NOT an inflation-expectations story. |
+| 30Y yield | **5.09%** [7/16] | 🟠 | [CONF DGS30, 7/16] | 30Y 5.10 (7/13) = series high; DGS30 4.99→5.10 (7/6→7/13) = **+11bp, LAGGED the belly** (5Y +16 > 10Y +14 > 30Y +11) — the arm bear-FLATTENED, the term-premium-expansion signature is ABSENT. Level carries structural term premium (ACM +0.73); the *move* was policy-path. 7/9 reopen cleared FIRM (5.058%). |
+| 10Y yield | **4.57%** [7/16] | 🔴 | [CONF DGS10, 7/16] | **ARM-#2 COMPLETE 5-of-5 Mon 7/13** (DGS10 7/13 **4.62** peak); cooled to 4.55 [7/15] / 4.57 [7/16] — **6+ straight ≥4.50, line held.** **RESOLVED-ARMED 7/16; Will NO-ADD** ($500 banked). **Arm move = real-policy-path (see decomposition note below), NOT term-premium.** |
+| 5Y / 2Y | 4.28 / 4.16 | 🟡 | [CONF DGS5 / DGS2, 7/16] | **2Y +13bp 7/6→7/13 (4.13→4.26) through a deflationary June print = the policy-path co-witness** — hawkish-hold, higher-for-longer *real* Fed path. 5Y +16bp led the belly (arm was belly-led). |
+| 10Y real (DFII10) | **2.35%** [7/16] / **2.36** high [7/13] | 🟠 | [CONF FRED, 7/16] | **+12bp 7/6→7/13 (2.24→2.36) = 86% of the 10Y move — but ~80-90% of THAT is real POLICY-PATH, only ~0-7% real term premium** (DFII5 +12 = DFII10 +12, parallel; 30Y lagged). Series high; ~15bp from the 2.5 re-arm. The leg holding the line. |
+| ACM 10Y term premium | **+0.73%** | 🟠 | [CONF NY Fed, Jul-2026] | **Positive first time since 2023.** Elevated in the LEVEL (~16% of the 4.57 10Y — why it won't rally), but **FLAT over the 7/6→7/13 arm window** (30Y−10Y −3bp). Level≠driver: the arm was policy-path. |
+| 5Y5Y fwd (T5YIFR) | **2.21%** [7/17] | 🟢 | [CONF FRED, 7/17] | Dead flat (2.18–2.22) — long-run inflation **perfectly anchored** through the oil shock. Oil→BE re-arm bar HIGH (KB-064). |
+| 10Y BE (T10YIE) | **2.24%** [7/17] | 🟢 | [CONF FRED, 7/17] | Flat (2.22–2.26); +2bp = only 14% of the arm move. The hold is NOT an inflation-expectations story. |
 | HY OAS | **275bps** | 🟢 | [CONF FRED `BAMLH0A0HYM2`, 7/2] | 263 trough (6/17) → 283 peak (6/26) → 275, flat through the holiday. Below 300 watch line. Credit inert — not the story this week. |
 | CCC OAS | **971bps** | 🟡 | [CONF FRED, 7/2] | Still elevated, no retrace — default-cycle tail residue. Ratio ~3.5x. |
 | IG OAS | 75bps | 🟢 | [CONF FRED, 7/2] | Flat; RECORD June issuance ~$175–187B absorbed 3.9x oversubscribed. |
@@ -37,6 +38,18 @@ Phase-III long-end re-fire, **globally synchronized**: domestic hawkish-data rep
 | Fed b/s (WALCL) | $6.736T | 🟢 | [CONF FRED, 6/24] | **QT ENDED Dec-1-2025** (FOMC Oct-29). Fed now buys **T-BILLS** (RMPs + MBS-principal reinvestment) → **no coupon/long-end bid**. Active MBS sales deferred ("years, not months," Sintra 7/1). *Corrected 7/6 in `AUCTION_FRAMEWORK_from_LIQUID.md`.* |
 
 ---
+
+## ★ Term-premium label decomposition (7/18, RED's ask — CORRECTED CANON)
+
+**The arm-completing +14bp 10Y move (7/6→7/13) is REAL-POLICY-PATH-led, not a term-premium expansion.** Identity: Δ10Y +14 = ΔDFII10 +12 (real) + ΔT10YIE +2 (BE).
+
+| Bucket | Δ | % | Evidence |
+|---|---:|---:|---|
+| (c) Inflation compensation | +2bp | ~14% | T10YIE +2 [7/6→7/13]; T5YIFR flat |
+| (a) Expected real policy path | ~+11-13bp | ~80-90% | DGS2 +13 · DFII5 +12 = DFII10 +12 (parallel real); 10Y−2Y +1bp |
+| (b) Real term premium (marginal) | ~0 to +1bp | ~0-7% | 30Y−10Y **−3bp** (long end LAGGED); ACM TP flat over window |
+
+**Decisive tell:** belly-led bear-*flattener* (5Y +16 > 10Y +14 > 30Y +11) — a term-premium expansion produces the OPPOSITE (long-end-led steepening). **86%-real is correct; real ≠ term-premium.** LEVEL vs MOVE: ACM 10Y TP +0.73% [Jul-2026] elevated in the *level* (why the 10Y won't rally) but flat over the *move*. **Corrected label = "real-rate / higher-for-longer (policy-path-led) channel."** Falsifier shifts from oil-retrace → **dovish Fed repricing** (FOMC 7/28-29). Route-out to PROME for HEARTBEAT amendment (`outbox/2026-07-18_to-PROME_label-check-eu-reconcile-weld.md`). CARL weld (7/18) compounds: forward Aug-Sept core feed rides structural legs, not Hormuz → arm doubly-insulated from Mideast book (TERRY §9 softened).
 
 ## Auction Read — 6/23–25 cluster (RESOLVED, grade C+) + July gauntlet
 
@@ -82,7 +95,7 @@ Japan's super-long demand vacuum is real and worsening (6/25 20Y JGB BTC 2.97x =
 
 - **MBS/housing (VX-17, score 1):** primary spread ~200–205bp (at/below median — but *policy-compressed* by the Jan-26 GSE $200B purchase directive); CC spread ~100–110bp [EST]; Fed MBS $1.96T — **post-QT, principal paydowns are reinvested into T-bills** (balance sheet no longer shrinking; QT ended Dec-1-2025), not into coupons. Catalyst-monitored: Warsh active-sales (deferred to 2027 lane), GSE-release execution.
 - **FHLB advances (VX-18, score 1):** $734B (3/31/26), +8.4% Q/Q (driver unattributed — read Q1 CFR narrative), ~30% below the 2023 SVB peak. Coordinate with REGINALD.
-- **EU rates (VX-19, score 2):** **ECB is HIKING** — depo 2.25% (6/11, first since 2023, war-inflation), ≥1 more priced, full QT; bund 2.94%, 2s10s +42bp; **OAT-Bund 77bp** (+10 in June; France trades on top of Italy at 73bp). Next GovC 7/23-or-24 (**verify date**). Converge xccy-basis number with LIQUID (proxy build needed).
+- **EU rates (VX-19, score 2):** **ECB is HIKING** — depo 2.25% (6/11, first since 2023, war-inflation), ≥1 more priced, full QT. **Peripheral spreads-to-Bund [7/17, TE 10Y benchmark; Bund 3.14%]: BTP-Bund 83bp (Italy 3.97) · Bono-Bund 47bp (Spain 3.61) · GGB-Bund 71bp (Greece 3.85) · OAT-Bund 79bp (France 3.93).** All benign/convergence-tight (Italy≈France > Greece > Spain — Greece trades INSIDE the core-periphery). **LIQUID reconcile CLOSED 7/18:** BOND owns sovereign-curve spreads + ECB/TPI mechanics; LIQUID owns the EU-bank→US xccy-funding transmission (the contagion channel, NOT Bund-flight which is a haven/tightening effect). ONE trigger: **BTP-Bund >200bp sustained = benign→contagion-relevant** (ECB TPI caps blowout). Next GovC 7/23-or-24 (**verify date**).
 
 ---
 
@@ -140,6 +153,10 @@ Japan's super-long demand vacuum is real and worsening (6/25 20Y JGB BTC 2.97x =
 ---
 
 ## BOTTOM LINE
+
+**[7/18 Sat eve — label check + EU reconcile + weld, PROME-spawned]** **★ The "term-premium channel CONFIRMED" canon is a MISLABEL — corrected to "real-rate / higher-for-longer (policy-path-led) channel."** RED's flag was right: net of the 2Y policy component, the arm-completing +14bp 10Y move (7/6→7/13) was **real POLICY PATH, not a term-premium expansion.** The decisive tell is the curve shape — a **belly-led bear-flattener** (5Y +16 > 10Y +14 > **30Y +11**; the long end LAGGED, 30Y−10Y −3bp), which is the *opposite* of a term-premium expansion (that steepens, long-end-led). The "86%-real" fact is correct but "real ≠ term-premium": of the +14bp, ~14% is inflation-comp (T10YIE +2, 5Y5Y flat), and the ~86% real leg is ~80-90% policy-path / only ~0-7% term-premium. Term premium is elevated in the **level** (ACM 10Y TP +0.73%, positive first time since 2023 — why the 10Y won't rally) but was **flat over the move.** Operationally the falsifier sharpens: not "fast Hormuz de-escalation → Brent retrace" (that's a breakevens story, and breakevens were only 14%) but a **dovish Fed repricing** (FOMC 7/28-29) — already stress-tested, since cool June CPI+PPI did NOT break the line. **CARL's 7/18 weld compounds it:** the forward Aug-Sept core-CPI feed rides structural legs (Russia ban, distillate base, sticky freight), not Hormuz — so the arm is **doubly insulated from the Mideast book** (backward decomposition + forward inflation feed), softening TERRY's §9 concentration flag both ways. Route-out to PROME with the exact HEARTBEAT amendment wording. **EU-sovereign reconcile w/ LIQUID CLOSED:** BTP-Bund 83 / Bono-Bund 47 / GGB-Bund 71 [7/17] all benign; BOND owns the sovereign-curve, LIQUID owns the xccy transmission; ONE trigger BTP-Bund >200bp. Live rates: 10Y 4.57 [7/16] holding 6+ sessions ≥4.50, DFII10 2.35, ~15bp from the 2.5 re-arm. No new BOND trade rec (scoped); TLT puts HOLD, Will NO-ADD stands.
+
+---
 
 **[7/16 AM update — teams-mode, PROME-spawned]** **ARM-#2 (10Y five-close sustain) COMPLETED 5-of-5 Mon 7/13 → RESOLVED-ARMED 7/16.** Co-graded independently vs FRED DGS10 per my co-ratified semantics: 7/7 4.55 · 7/8 4.56 · 7/9 **4.54** · 7/10 4.56 · **7/13 4.62** (streak began after the 7/6 4.48 reset; 7/14 4.58 = 6 straight, live ^TNX 4.59 = 9bp over the line). The 7/9 official DGS10 (4.54) closed the one leg that was unposted at my 7/10 grade with **no cross-line divergence** — R3 clean, no restatement. **Fill decision RESOLVED NO-ADD (Will 7/16** — TERRY book-aware rec accepted, $500 banked; nothing owed. ACTIVE_DECISIONS commit e396dddd, GATE-TERRY-ARM2 RESOLVED-ARMED b64e970e). **The 10Y holds ≥4.50 on a REAL-YIELD / term-premium move, not inflation expectations** — 86% of the +14bp (7/6→7/13) is DFII10 (2.24→2.36, series high, ~14–17bp from the 2.5 re-arm); breakevens dead flat (T10YIE 2.25, 5Y5Y 2.21 anchored). That is *why* a deflationary June CPI (−0.42% MoM headline) didn't break the line — the line was never held by inflation expectations. Firm auctions (BND-11 NOT FIRED, indirect 77.7%) rule out a demand hole; this is real term premium / higher-for-longer real policy, with the 2Y up 13bp confirming a hawkish-hold Fed-path read. **Hormuz closed 7/11–12 + Brent $86 loads the JULY CPI path hot** (~+0.4–0.6pp headline MoM from gasoline alone; lands mid-Aug, after the FOMC) and reinforces the same term-premium channel — so the **4.50-line sustain through FOMC 7/28–29 is well-supported** (main falsifier: fast Hormuz de-escalation → Brent retrace → DFII10 eases). **ARM-#3 (May TIC, 4PM ET today): grade off NET TRANSACTIONS both net sellers, NOT holdings** — GATES.tsv condition text is stale (holdings), flagged to PROME; template staged. MIDAS DFII10 seam reconciled (2.31 [7/9] exact).
 

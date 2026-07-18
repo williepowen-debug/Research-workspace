@@ -4,6 +4,17 @@ Version history for `thesis/THESIS.md`. Newest first. Bump rules: **major (X.0)*
 
 ---
 
+## v1.1.2 — 2026-07-18 (term-premium label CORRECTED → real-policy-path; EU-sovereign reconcile)
+
+**Triggers:** RED's flag-to-verify (routed via PROME 7/17) — is "term-premium channel CONFIRMED" honest net of the 2Y/policy component? + LIQUID EU-sovereign reconcile (Will-approved 7/17) + CARL diesel-weld consume.
+
+**Refinement (no conviction change — TLT puts HOLD/no-add unchanged; composite 12/35 unchanged):**
+1. **★ Channel-4 label corrected: "term premium" → "real-rate / higher-for-longer (policy-path-led)."** Old view: the 10Y's hold ≥4.50 was a "term-premium channel." New view: the arm-completing +14bp move (7/6→7/13) was **real POLICY PATH, not a term-premium expansion** — decisive tell is the curve shape, a **belly-led bear-flattener** (5Y +16 > 10Y +14 > 30Y +11; 30Y−10Y −3bp, long end LAGGED) = the *opposite* of a term-premium expansion (which steepens, long-end-led). Three-bucket decomposition of the +14bp: inflation-comp +2bp (~14%, T10YIE), real policy path ~+11-13bp (~80-90%, DGS2 +13 · DFII5 +12 = DFII10 +12 parallel), real term premium ~0 to +1bp (~0-7%). **86%-real is correct but real ≠ term-premium.** LEVEL vs MOVE distinction: ACM 10Y TP +0.73% [Jul-2026, positive first time since 2023] elevated in the *level* but flat over the *move*. Falsifier sharpened: dovish Fed repricing (FOMC 7/28-29), not oil-retrace — already stress-tested (cool June CPI+PPI didn't break it). Route-out to PROME for HEARTBEAT amendment. KB-BND-080.
+2. **CARL diesel-weld folded (KB-CARL-338).** Forward Aug-Sept core-CPI feed rides structural legs (Russia ban ~8/3, distillate base, sticky freight), not Hormuz → arm **doubly insulated from the Mideast book** (backward decomposition + forward inflation feed); TERRY §9 concentration flag softened both ways. KB-BND-081.
+3. **EU-sovereign reconcile w/ LIQUID CLOSED.** Canonical peripheral spreads-to-Bund [7/17, TE 10Y]: BTP-Bund 83 / Bono-Bund 47 / GGB-Bund 71 / OAT-Bund 79 — all benign/convergence-tight. Owner split: BOND = sovereign-curve spreads + ECB/TPI mechanics; LIQUID = EU-bank→US xccy-funding transmission (the contagion channel; Bund-flight is a haven/tightening effect, not the vector). ONE pre-registered trigger: BTP-Bund >200bp sustained. VX-19. KB-BND-082.
+
+---
+
 ## v1.1.1 — 2026-07-06 (QT-framing reconciliation + reconciled BND-11 grade methodology)
 
 **Triggers:** PROME QT-framing fix-packet (Will-authorized); teams-session reconciliation of the 7/9 refunding grade with LIQUID (absorption) and SAM (JGB leading indicator).
