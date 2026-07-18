@@ -60,7 +60,7 @@
 
 ### NEXT SESSION
 **🔴 PRIORITY:**
-1. **Gamma flip repulled 7/17 (~7,522 free-tier, −GEX confirmed by margin).** Repull on catalyst days via `scripts/gamma_flip.py` (GOOGL 7/22, FOMC 7/28-29). **OWED: one validation run vs a SpotGamma/free-tracker number** (does the naive-dealer flip match?) before trusting it near a crossing. Watch for the flip MIGRATING up (a rally back over it re-cushions).
+1. **Gamma flip repulled + VALIDATED 7/17 (~7,522 free-tier, −GEX).** Cross-checked vs 2 free trackers: flip within 20-34pts (FlashAlpha 7,556 [7/16] / zerogex 7,542 [7/17]), call/put walls 7,600/7,500 EXACT-match FlashAlpha, all agree negative-gamma; Net GEX magnitude diverges (−25.7 vs −15B) = the assumption-dependent quantity, as flagged. Also sensitivity-stable (7,520-7,532 across 7-60d + ±10-40% band). **Validation of the FREE-TIER is done** — implementation faithfully reproduces the trackers; the SpotGamma/dealer-positioning-grade gap is separate + unchanged (don't over-read the exact flip near a crossing). Repull on catalyst days via `scripts/gamma_flip.py` (GOOGL 7/22, FOMC 7/28-29); watch the flip MIGRATING up (a rally back over it re-cushions).
 2. **Does the 7/17 risk-off EXTEND?** Follow-through under the flip + VIX toward 23 = cascade step 1 arming (the coil releasing); a bounce back over the flip = coil re-sets. Check KRE/APO/credit for whether risk-off BROADENS beyond the oil impulse.
 3. **Fri 7/17 CFTC** (may have printed) — grades the ~$700B SOFR-short cover (LIQUID's open Q); orderly 2Y on the CPI implied it didn't, CFTC confirms.
 4. **Tue 7/22 GOOGL = first HEN-36 FCF tell.** BofA fwd-FCF-negative + VULCAN memory-pass-through lean CONFIRM; MSFT/META 7/29 = core gate. Packet-D consolidation to PROME.
@@ -68,10 +68,10 @@
 6. **FOMC 7/28-29** (no dots) — pricing drift; soft CPI + firm 10Y = the awkward hold.
 7. **DEWEY PROMPT-12 — NOT missing; RE-ANCHORED v2 (PROME, Will-approved 7/16).** DEWEY parked v1 (its consumers died: HEN-35 MISS, gamma-flip Will-ruled); v2 = "mechanical cushion into 7/22-31: CTA levels, vol-control keying, levered-ETF quantum, **0DTE share**" — directly sources my 0DTE gap + sharpens cascade arithmetic. Status = awaiting DEWEY's v2 deliverable, not an escalation. (Stop calling it "overdue.")
 
-**Pending Will decisions:** **gamma-flip source — REDUCED, not moot.** `gamma_flip.py` self-generates a FREE-TIER flip (removes the tracker dependency), but it's not SpotGamma-grade or validated. Open call: is a naive free-tier flip good enough for VIOLET's F2 gate, or do we want dealer-positioning refinement (SpotGamma) / at least one validation run vs it?
+**Pending Will decisions:** **none open** — gamma-flip source resolved: Will ruled 7/16 to accept the free-tier + error bar, `gamma_flip.py` operationalizes that, and it's now VALIDATED vs 2 free trackers (7/17). SpotGamma-grade remains an accepted (unbought) limitation; revisit only if VIOLET's F2 must adjudicate a tight crossing.
 
 ### GAPS — PERSISTENT
-- **Gamma flip: exact/PRECISE level still not reproduced** (SpotGamma's dealer-positioning refinement). `gamma_flip.py` gives a free-tier estimate on demand + confirms the SIGN by margin, but validation vs a paywalled/OCC ground truth is still owed — do NOT treat the self-computed flip as precise near a crossing. **0DTE SPX share** still unsourced.
+- **Gamma flip: free-tier VALIDATED 7/17 (vs FlashAlpha/zerogex, flip within 20-34pts + walls exact); SpotGamma-grade NOT reproduced** (dealer-positioning refinement — an accepted limitation per Will's 7/16 ruling, not owed work). Still: don't treat the free-tier flip as precise within ~30-40pts of a crossing. **0DTE SPX share** still unsourced.
 - **Breakeven/TIPS interim-proxy cadence** not yet a formal HENRY line — relevant to HEN-41 (T10YIE/T5YIFR/DFII10 the instruments).
 
 ### INFRASTRUCTURE NOTES

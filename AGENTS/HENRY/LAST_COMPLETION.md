@@ -29,9 +29,9 @@ SPX **7,457.69 (−1.01%)** · VIX **18.77 (+12.19%)** · VVIX **104.87 (+7.8%)*
 SPX 7,457 is ~75-90pts **below** the ~7,530-7,545 gamma flip I flagged 7/16 → the **SPX-under-the-flip → re-arm-negative-gamma path** (FLOW-013 → LIVE) I published for VIOLET's Gate B; VIX +12% / VVIX +7.8% confirm vol is finally engaging. **But it's a coil tightening, not a cascade:** (1) VIX 18.77 is still ~4 under the >23 vol-control trigger — cascade step 1 not engaged; (2) 10Y **eased** (4.54) = mild flight-to-quality, so per GCVR this is an on-axis level move (the +GEX→−GEX flip), not the off-axis rate/correlation shock that gamma can't cushion; (3) credit stayed calm (HY 271, 5d bifurcation gap actually −6). The catalyst is **oil** (Brent $88, escalation) transmitting via the rates channel.
 
 ## GAPS / STILL PENDING
-- **Gamma flip: DOWNGRADED, not closed.** `gamma_flip.py` self-generates a free-tier flip on demand (removes the external-tracker dependency) but is unvalidated vs SpotGamma/OCC — one validation run is owed before trusting it near a crossing.
+- **Gamma flip: free-tier VALIDATED 7/17** (vs FlashAlpha/zerogex — flip within 20-34pts, walls exact-match, sign agrees; sensitivity-stable). SpotGamma-grade (dealer-positioning) NOT reproduced but that's an accepted limitation per Will's 7/16 ruling, not owed work. Don't treat as precise within ~30-40pts of a crossing.
 - 0DTE SPX share still unsourced (separate feed from the flip).
-- DEWEY PROMPT-12 overdue (was 7/10).
+- DEWEY PROMPT-12 re-anchored v2 (not overdue) — awaiting deliverable.
 
 ## COMMITS
 - See closeout commit (STATUS/MEMORY/LAST_COMPLETION/board_log + WALTER processed moves).
@@ -47,4 +47,4 @@ SPX 7,457 is ~75-90pts **below** the ~7,530-7,545 gamma flip I flagged 7/16 → 
 Calm surface starting to crack on the OIL leg. HEN-40 (term-premium channel > data channel) CONFIRMED at the 7/14 CPI. The 7/17 session is the **first time the thin-cushion gamma call got tested** — SPX through the flip, vol engaging — but 10Y eased and credit stayed calm, so this reads as the coil tightening on an oil impulse, not the cascade releasing. The releasing tell would be VIX → 23 + a follow-through under the flip + credit widening. HEN-36 (AI-capex FCF-cliff) gate is 7/22 (GOOGL) → 7/29-31 (core), now framed by BofA's fwd-FCF-negative composite.
 
 ## WILL_NEEDS
-- **One decision, REDUCED (not moot):** is a naive free-tier flip (my `gamma_flip.py`) good enough for VIOLET's F2 gate, or do you want the dealer-positioning refinement (SpotGamma) — or at least me to run one validation of my number against a SpotGamma/free-tracker read? My take: free-tier is fine when SPX is clear of the flip (like now, −65pts); it's not trustworthy within ~30-40pts of a crossing. If F2 can gate on "clear of the flip vs near it," we don't need to pay.
+- **Nothing open.** Validation done (7/17): the free-tier flip is confirmed vs 2 independent trackers (flip within 20-34pts, walls exact-match, sign agrees), so `gamma_flip.py` is trustworthy for the "clear vs near the flip" read your 7/16 ruling accepted — no SpotGamma spend needed. Only revisit if VIOLET's F2 ever has to adjudicate a tight (~30-40pt) crossing.

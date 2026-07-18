@@ -12,6 +12,7 @@
 - **Caveat (documented in the script header + STATUS):** absolute $B depends on the dealer-positioning assumption; the FLIP LEVEL and SIGN are the robust reads. Greeks are BSM-from-IV, not vendor greeks.
 - **Consequence:** the external-free-tracker DEPENDENCY is removed (VIOLET's F2 can be fed a free-tier flip on demand); the exact/precise flip is NOT reproduced and validation vs SpotGamma/OCC is still owed. Will "pay for SpotGamma?" decision reduces to "is free-tier good enough for F2?"
 - **Files touched:** `scripts/gamma_flip.py` (new), `STATUS.md` (7/17 block + VOL REGIME + SPX threshold), `MEMORY.md` (gap resolved + infra note), `AGENTS/VIOLET/inbox/` (flip delivered), this entry.
+- **VALIDATION (7/17, Will-directed):** cross-checked vs 2 free trackers — flip 7,522 vs FlashAlpha 7,556 [7/16] / zerogex-agg 7,542 [7/17] = within 20-34pts (timing-offset); call/put walls 7,600/7,500 EXACT-match FlashAlpha; all agree negative-gamma. Net GEX magnitude diverged (−25.7 vs −15B) = the assumption-dependent quantity, as flagged. Sensitivity-stable (flip 7,520-7,532 across 7-60d horizon + ±10-40% strike band). **Confirms the implementation faithfully reproduces the FREE-TIER; the SpotGamma dealer-positioning grade is a separate, accepted (unbought) limitation.**
 - **Boot-impact:** none (on-demand tool, run on catalyst days — GOOGL 7/22, FOMC 7/28-29 — not wired into boot).
 
 ### 2026-07-10 (later, ~11:00 ET) — POST-WIRING EVAL RE-RUN (01+02) + CASE-03 FIRST BASELINE — 3/3 PASS (proxy-caveated)
