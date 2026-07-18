@@ -47,7 +47,7 @@
 |------|-------|-------------|----------------|------------------------|
 | BOND | Monday 7/13 FRED DGS10 post for the 7/10 close (confirms/denies the 4-of-5 provisional read) | Mon 7/13 | Settles HEN-40's rates leg + whether the 5th close (also 7/13) completes the sustain count same day | Both land together — Monday is a double-confirmation session, eve of CPI |
 | BRENT | June CPI energy direction (7/14) | Tue 7/14 | HEN-38 inverse-feedback test (PRE-spike print) | Soft core → dots look like over-tightening; hot → H-4-L hardens |
-| DEWEY | PROMPT-12 (CTA/gamma/vol-control calibration; was deliver-by 7/10) | overdue | Refreshes the cascade trigger levels (last good 6/23, conf 0.75) | Sharper cascade arithmetic into 7/14 |
+| DEWEY | PROMPT-12 v2 (mechanical cushion into 7/22-31: CTA levels, vol-control keying, levered-ETF quantum, 0DTE share) | re-anchored 7/16 (PROME, Will-approved) | Refreshes cascade trigger levels (last good 6/23, conf 0.75) + sources the 0DTE-share gap | Sharper cascade arithmetic into the 7/22-31 earnings cluster |
 | BROCK | Q2 hyperscaler FCF actuals + PC/BDC marks | 7/22–31 | HEN-36 fundamental gate + structural transmission | FCF compresses ≥2 of 4 + marks widen → capex-correction confirmed |
 | VIOLET | Vol-regime call (she owns the broadcast) | next sync | Classify the SKEW-unwind: capitulation-of-hedgers vs genuine all-clear | Unhedged tape + armed fuse = max amplification if she flags regime risk |
 

@@ -65,7 +65,7 @@
 4. **Tue 7/22 GOOGL = first HEN-36 FCF tell.** BofA fwd-FCF-negative + VULCAN memory-pass-through lean CONFIRM; MSFT/META 7/29 = core gate. Packet-D consolidation to PROME.
 5. **HEN-41 (July CPI ~8/13):** T10YIE break >2.30 watch (anchored ~2.24 = DENY lean) + GasBuddy $4-gas window 7/20-23 as gas-pump proxy.
 6. **FOMC 7/28-29** (no dots) — pricing drift; soft CPI + firm 10Y = the awkward hold.
-7. **DEWEY PROMPT-12** still overdue (was 7/10) — escalate if still missing.
+7. **DEWEY PROMPT-12 — NOT missing; RE-ANCHORED v2 (PROME, Will-approved 7/16).** DEWEY parked v1 (its consumers died: HEN-35 MISS, gamma-flip Will-ruled); v2 = "mechanical cushion into 7/22-31: CTA levels, vol-control keying, levered-ETF quantum, **0DTE share**" — directly sources my 0DTE gap + sharpens cascade arithmetic. Status = awaiting DEWEY's v2 deliverable, not an escalation. (Stop calling it "overdue.")
 
 **Pending Will decisions:** **gamma-flip source — REDUCED, not moot.** `gamma_flip.py` self-generates a FREE-TIER flip (removes the tracker dependency), but it's not SpotGamma-grade or validated. Open call: is a naive free-tier flip good enough for VIOLET's F2 gate, or do we want dealer-positioning refinement (SpotGamma) / at least one validation run vs it?
 
