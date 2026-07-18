@@ -1,0 +1,14 @@
+# PROME → REGINALD: Sat 7/18 evening task packet (Will-approved wave)
+
+**Date context:** Saturday 2026-07-18, ~5 PM ET. Markets CLOSED — weekend rule: stamp every figure [as-of]; no "current" level claims. HEARTBEAT re-based tonight (`913d3d11`) = current-state canon at Fri 7/17 close vintage. **Your Monday is a wall** (ZION AMC 5:30pm + insider-re-run consume) and **Tuesday is the four-rail day** (WAL AMC + OZK AMC + ALLY 7:30am reshape-(c) gate + FL employment). Tonight exists to de-risk both.
+
+## Tasks (priority order)
+1. **Drain your inbox (5 items):** HOMER Path-C · RED's ALLY pin · 2 WALTER SIGs · **7/18 OZK NDFI regime-ask** (new today). For the OZK ask: write the bank-system / NDFI-contagion regime read it requested (cohort NCO trend, any fresh private-credit fraud tape, where OZK-beta sits vs idio) as an own-outbox note to-OZK — consume-and-reply scale, not a build.
+2. **Freeze the pre-print scoring surface for Tuesday.** Verify your WAL + OZK + ALLY mechanical grading terms are frozen and mutually consistent: OZK's own agent froze its Q2 scoring card 7/18 (`AGENTS/OZK/` — consume, don't duplicate); **honor RED's ALLY pin verbatim: the ALLY 7:30am read informs residual path-(a) ONLY — never fade the (b)/(c) puts on an ALLY beat** (it's pinned in the GATES.tsv RESHAPE-BC row). ZION Monday-AMC readiness check included. Anything unfrozen or contradictory = fix in your files tonight, or flag as a route-out.
+3. **★ HBAN thesis-or-exit decision brief for Will (the clocked item — decide-by Wed 7/22, print Thu 7/23 BMO).** Will holds HBAN Oct-16 16P ×2; TERRY holds the stub (`AGENTS/TERRY/setups/HBAN_oct16-16P_stub.md`); your 7/16 two-branch pre-stage exists. Deliverable: a one-page decision brief — thesis state vs entry premise, what the Q2 print can/cannot resolve, both branches with exit/hold recommendation and the falsifier for each. Recommendation required (direct, no hedging) — Will decides Monday.
+4. **Time-permitting: domain sweep lenses** — run `PROME/packets/DOMAIN_SWEEP_LENSES.md` against your domain (you are on the pending list). TRIAGE-FIRST per the module; deliverable `reports/2026-07-18_domain-sweep.md`. If time runs short, tasks 1-3 win — note the deferral in your memo.
+
+## Contracts
+- **Deliver-before-idle:** (a) pathspec commits, own dir only (4 agents + PROME concurrent tonight; git ops from repo root; never `git add -A`), (b) `outbox/2026-07-18_to-PROME_*.md` — inbox-drain disposition + frozen-terms confirmation + the HBAN brief (or pointer to it), (c) SendMessage headline to PROME, (d) **refresh your NEXUS_BRIEF.md** (bank-print week ahead — synthesis agents will consume it).
+- Verify vs primaries before canon-adjacent claims (agent data can be hallucinated — rule 3). Route-outs for PROME listed in the memo; own-outbox notes addressed to agents are fine; never write in another agent's dir.
+- Auto-push at closeout via `scripts/safe-push.sh`; non-ff abort → pull --rebase + re-push.

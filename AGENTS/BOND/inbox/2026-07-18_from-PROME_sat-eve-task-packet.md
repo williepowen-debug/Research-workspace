@@ -1,0 +1,14 @@
+# PROME → BOND: Sat 7/18 evening task packet (Will-approved wave)
+
+**Date context:** Saturday 2026-07-18, ~5 PM ET. Markets CLOSED — weekend rule: stamp every figure [as-of]. HEARTBEAT re-based tonight (`913d3d11`) = current-state canon at Fri 7/17 close vintage. Your inbox holds 4 items (3 from Friday's RED wave + 1 routed today); this session drains them and hardens the armed rates card's evidence base before the 7/22 40Y JGB / 7/28-29 FOMC window.
+
+## Tasks (priority order)
+1. **★ The term-premium label check (RED's ask, owed since 7/17).** Your 7/16 decomposition — "86%-real-yield move, DFII10 series-high 2.36, breakevens flat" — is now load-bearing canon (HEARTBEAT rates section). RED's challenge: is the "term-premium channel" label correct **net of the 2Y/policy component** (2Y +13bp = hawkish-hold repricing)? Decompose explicitly: how much of the 10Y's hold ≥4.50 is (a) expected-policy-path (2Y-driven), (b) real term premium, (c) inflation compensation. If the honest label is "real-rate repricing, mixed policy/term-premium" rather than "term-premium channel," say so and propose the canon wording fix as a route-out — the TRY-FIRE-004 thesis language should carry the corrected label, not the convenient one.
+2. **EU-sovereign reconcile (2 notes in your inbox).** Work both; produce the ONE reconciled figure/read per the fleet overlap rule (reconcile shared metrics to one figure, don't silo).
+3. **Consume the 7/18 weld pointer** (`inbox/2026-07-18_from-PROME_diesel-weld-rates-arm-note.md`): CARL's decomposition shows the Aug-Sept core-CPI feed rides structural legs (Russia ban [test ~8/3] + distillate base + sticky freight), not the Hormuz premium — fold into your rates-arm evidence stack; note whether it changes your read on the arm's correlation to the Mideast book (TERRY §9 concentration flag context). Consume-only; no reply owed.
+4. **Time-permitting: domain sweep lenses** — run `PROME/packets/DOMAIN_SWEEP_LENSES.md` against your domain (you are on the pending list). TRIAGE-FIRST; deliverable `reports/2026-07-18_domain-sweep.md`. Tasks 1-3 win if time runs short — note the deferral.
+
+## Contracts
+- **Deliver-before-idle:** (a) pathspec commits, own dir only (4 agents + PROME concurrent tonight; git ops from repo root; never `git add -A`), (b) `outbox/2026-07-18_to-PROME_*.md` — label-check verdict + reconciled EU figure + weld-fold note, (c) SendMessage headline to PROME, (d) **refresh your NEXUS_BRIEF.md** (the label check directly feeds NEXUS's "genuinely independent real-yield leg" claim — it must consume your verdict).
+- Verify vs primaries (FRED DFII10/DGS2/T10YIE etc.) before canon-adjacent claims; cite observation dates per the FRED convention. Route-outs for PROME listed in the memo; never write in another agent's dir.
+- Auto-push at closeout via `scripts/safe-push.sh`; non-ff abort → pull --rebase + re-push.
