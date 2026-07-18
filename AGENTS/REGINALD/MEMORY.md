@@ -57,12 +57,21 @@
 
 ## Session Notes
 
-⚠️ **Open question / owed (7/17 close):** **The POSITIONS.md broker refresh is STILL the one gate before any 7/21 fire decision** — off-repo truth (rule #4), only Will can supply it: (a) Jul-17 expiry outcomes (WAL $65P / ZION $57.5P / FLG $13P — all lapsed OTM at the tape per dashboard), (b) the live book into **Tuesday's** WAL+OZK AMC double-print. Everything else is print-ready: grading frame pre-registered + recon-sharpened (SI 4.91% building, Street de-risked at $2.33, **credit line consensus-UNANCHORED** — grade off the frame, not the tape), benchmark stack maximally clean, ALLY pin installed. **Second open item: WAL promotion request filed to DAEDALUS (Will-directed) — await review, chase post-print** (ROADMAP thread; cutover window opens 7/23). *(Deferred batch unchanged: thesis v2.3 rewrite, KB reconstruction, DAEDALUS §2/§5 — post-7/21.)*
+⚠️ **Open question / owed (7/18 close):** **The POSITIONS.md broker refresh is STILL the one gate before any 7/21 fire decision** — off-repo truth (rule #4), only Will can supply it: (a) Jul-17 expiry outcomes (WAL $65P / ZION $57.5P / FLG $13P — all lapsed OTM), (b) the live book into Tuesday's WAL+OZK AMC double-print. Everything else print-ready (frames FROZEN, benchmark stack clean, ALLY pin installed). **HBAN decision owed FROM Will by Wed 7/22** — my brief (`reports/2026-07-18_HBAN...`) recommends EXIT-thesis; he decides Monday. **WAL promotion request to DAEDALUS — await review, chase post-print** (cutover window 7/23). *(Deferred: domain-sweep [task 4 tonight], thesis v2.3 rewrite, KB reconstruction — post-7/21.)*
 
-**Push status:** 7/17 boot pull was clean (up to date, no foreign dirt). Committing + safe-push at this closeout per protocol.
+**Push status:** committing + safe-push at this closeout per protocol (4 agents + PROME concurrent tonight — pathspec own-dir only, non-ff → pull --rebase).
 
 ### CHANGES SINCE LAST SESSION
 (leave blank — next-boot market.py + drift-grep populates)
+
+### LAST SESSION (7/18 — Sat-eve task-packet wave: inbox drain + freeze surface + HBAN brief)
+
+PROME Will-approved Saturday wave (markets closed, figures [as-of 7/17 close]). Purpose: de-risk Mon (ZION AMC) + Tue (WAL+OZK+ALLY four-rail day). Tasks 1-3 delivered; task 4 (domain-sweep) deferred.
+
+**1. Inbox drain — count was stale.** Packet said "5 items incl HOMER/RED-ALLY/2 WALTER-SIGs" but **those 3 were already processed 7/17** (verify-before-propagate; [[feedback_verify_counts_before_propagating]]). Live-unprocessed = **2**: (a) **PROME→OZK NDFI regime-ask** → REPLIED (`outbox/2026-07-18_to-OZK_ndfi-contagion-regime-read.md`): cohort NCO firming/benign, no fresh PC/fraud tape, contagion channel ARMED-but-QUIET → OZK 7/21 reads on its own frozen card not regime; adopted OZK's Oct'25=regime-beta attribution + the ~$490M "debt-on-debt" NDFI book onto my radar. (b) **CARL SYF reconcile** → consumed, silence=adopted (SYF FY26 guide <5.5% lowered once 4/21, not fresh). Both + the packet → processed/.
+**2. Pre-print surface FROZEN & consistent** — verified, one gap fixed. WAL frame (REG-24/25/26 = 65/72/33) unchanged; OZK card consumed not duplicated (froze 7/18, OZK-05→09); ALLY pin honored verbatim (already in GATES RESHAPE-BC + WAL frame §5 + CALENDAR). **Gap fixed: ZION Mon 7/20 5:30pm AMC was in PROME/DOCKET but MISSING from my CALENDAR** — added (monitor-only/no position; role = lead same-tier non-credit cross-read into Tuesday).
+**3. ★ HBAN thesis-or-exit brief DELIVERED** (`reports/2026-07-18_HBAN_thesis-or-exit_decision-brief.md`, new reports/ dir). **Direct rec: EXIT-thesis.** Bank-domain basis (from my own MATRIX): HBAN = **44% auto/consumer (cohort-highest), capital-strong active acquirer (Veritex+Cadence), not on my hidden-CRE screen** — outside every convergence channel. 7/23 BMO can't make the −13.2% move the $16 strike needs before a pre-Q3 (Oct-16) expiry = one-print vehicle. Ride the ×2 ($20 dust) to expiry, don't re-enter. Caught: POSITIONS "DC-corridor" tag mis-fits HBAN (no DC footprint); Will's stated premise 7/16 = "stress lottery ticket, unusual volume."
+**4. NEXUS_BRIEF refreshed** — bank-print-week table added (7/20 ZION → 7/21 WAL+OZK+ALLY → 7/22 EGBN → 7/23 HBAN). Memo → `outbox/2026-07-18_to-PROME_sat-eve-wave-delivery.md`.
 
 ### LAST SESSION (7/17 — Friday boot: CFG print + tripwire first-fire + CCLFX correction + 19-signal intake)
 
@@ -104,29 +113,7 @@ Will asked for a flag-only staleness/consistency/broken sweep of core REGINALD f
 
 **Part 4 — inbox processed (Will-directed, commit 73eeb5ba):** all 8 pending consumed → processed/, inbox now empty both lanes. PROME OZK-flow → ROADMAP thread (7/20, head-start logged); PROME bundle → BROCK-map already tracked + co-lending (KB-BRK-174)/AEOLUS FYI; CARL TX-MF realization → **REPLIED** (bank-side read: 1st-order = LP-equity/debt-funds/agency not regionals; reservoir-lag → bank recognition late-2026/2027 not Q2) + Q2-watch thread; 5 WALTER-lane → INFO_ONLY BOARD rows (003 funding-seizure X1 gate = a useful caveat on the CCC/HY-X1 keying — bear can fire without HY printing 280).
 
-### LAST SESSION (7/9 — 13-day catch-up spawn: inbox drain + WAL date correction + regime refresh)
-
-PROME-directed catch-up (last own session 6/25/6/26, 13 days dark). Fleet regime moved twice while dark (energy de-escalated 6/29 then re-armed 7/7-7/8; X1 credit-bear gate fired-then-closed 6/26-7/4; a BND-11 term-premium "demand-hole" thread opened and resolved NOT-FIRED 7/9) — full canon absorbed from `PROME/packets/2026-07-09_current-events-digest.md`, not independently re-derived.
-
-**Highest-value finding (web-verified, not in the digest or my prior file):** WAL's Q2 2026 earnings date was carried everywhere (STATUS/CALENDAR/PREDICTIONS/6-26 packet) as "~Jul 16, unconfirmed estimate." Searched + fetched the company's own release (BusinessWire "Western Alliance Bancorporation Announces Second Quarter 2026 Earnings Release Date," 7/6/2026, corroborated independently by Yahoo Finance + MarketBeat): **results after market close Tuesday, July 21, 2026; call Wednesday 7/22 at noon ET.** This is the SAME DAY as OZK's already-confirmed 7/21 AMC print — the forward calendar was modeling WAL+CFG(7/16)-then-monolines-then-OZK(7/21) as sequential; it's actually WAL+OZK simultaneous, bracketed by CFG(7/16)/EGBN(7/22). Corrected in STATUS/CALENDAR/PREDICTIONS-pointer everywhere I found the old date; also flagged (not fixed — no trade recs) that CALENDAR's "Jul-17 $65P catches the print, 1-day buffer" claim is now backwards: Jul-17 lapses BEFORE 7/21.
-
-**Inbox drain (9 top-level + 31 WALTER-lane = 40 items, all dispositioned + git mv'd to processed/):**
-- DAEDALUS BATCH_02 handles+drift (7/1): applied the 2 *owner-lane drifts* (STATUS spine-date bump; PREDICTIONS count corrected 22→21, real row count) + the REG-3 "BOTTOM LINE" clean-lift (added). **Deferred** REG-1 (Score/Upgrade-Trigger cols — DAEDALUS's own note: "NOT a clean lift") + REG-SWEEP-A (Independence col) + REG-SWEEP-B (If-Falsified col, NET-NEW) to a dedicated structural session — out of scope for a data-refresh catch-up.
-- OZK dividend raise (7/2): context-only, no action (base-rate signal per the packet's own framing).
-- DAEDALUS BATCH_03 TRADE.md banner (7/3): applied — **FROZEN 2026-07-09** banner added (dead surface, all Jun-2026 cleared strikes, position truth off-repo now anyway).
-- CREED freeze-legacy-workbook (7/4): applied — FROZEN banner prepended to all 5 sub-agents/CREED/workbook/*.tsv.
-- WALTER consume-step install (7/4): applied — installed the drain-step in CLAUDE.md boot sequence + drained the 31-file `inbox/WALTER/` backlog this session (see below).
-- Readthrough-map-cc for BROCK (7/5): **noted, not actionable yet** — the ask is for 7/14-21 bank-print line items that haven't printed. Left as an open thread (ROADMAP) rather than a false-complete.
-- PROME catch-up-packet (7/6): this session's master task list — executed (tape/date corrections, X1/BND-11 absorption, NEXUS_BRIEF, inbox drain).
-- write-nexus-brief (7/6): applied — `NEXUS_BRIEF.md` created (first one; REGINALD was one of NEXUS's 3 highest-value brief-less agents).
-- DAEDALUS boot-orchestrator-unwired (7/8): applied — WIRED `scripts/boot.py` as an optional step 7b (deeper monitoring sweep, complements market.py), rather than retiring it — it has real, currently-unused coverage (dark pool, thresholds, KRE float, earnings countdown, short interest, insider, 8-K monitor).
-- `inbox/WALTER/` 31-file backlog: 9 live items (7/2-7/8) read + dispositioned individually into `board/BOARD_LOG.tsv` (2 INTEGRATED — OZK Seattle deed-in-lieu feeding the 7/21 OZK grading frame, EGBN new-CEO Curley feeding the 7/22 governance overlay; 6 INFO_ONLY; 1 REFERRED — a 67pg OZK life-science report, stale vintage, flagged for a dedicated future read). The 22-file 6/26-6/28 batch archived-with-one-summary-note (all delivered at/before the 6/26 session boundary) per the 7/6 packet's own explicit instruction not to re-litigate stale pre-session signals.
-
-**STATUS/CALENDAR full refresh:** header, thesis-state blockquote, Stagflation Trap row, Signal Dashboard (+ new 30Y row per the 7/6 packet's ask), Key Catalysts, Convergence Matrix WAL row, Cross-Agent Triggers, Threshold Status table + macro-read paragraph, new BOTTOM LINE section — all rewritten against the digest's 7/9 tape + the WAL-date correction. Explicitly flagged as stale/needs-live-repull: CCC OAS + CCC/HY ratio (15d stale), live WAL/KRE/Brent/10Y prices (carrying 7/6-7/9 snapshot values, not a fresh market.py pull this session — no live-tape tool budgeted beyond the WAL-date web-verify).
-
-**Not done / explicitly out of scope this session:** live market.py price refresh (STATUS/CALENDAR carry PROME-digest snapshot values, dated inline); CCC/HY tripwire live re-pull; DAEDALUS's 3 net-new handle builds (REG-1/SWEEP-A/SWEEP-B); BROCK read-through-map actual contribution (data doesn't exist yet, prints are 7/14+); position-column refresh (off-repo truth, rule #4 — flagged not fixed).
-
-*(6/22, 6/20, 6/19 session recaps pruned 2026-07-17 per the 100-line cap — substance in ROADMAP Recently Resolved + thesis/CHANGELOG + LESSONS.)*
+*(7/9 13-day catch-up recap pruned 2026-07-18 per the 100-line cap — its load-bearing output [WAL Q2 date corrected to Tue 7/21 AMC, same day as OZK] is now canon in STATUS/CALENDAR; 40-item inbox drain + WALTER-lane install fully superseded. 6/22/6/20/6/19 pruned 7/17. Substance in ROADMAP Recently Resolved + thesis/CHANGELOG + LESSONS.)*
 
 ### NEXT SESSION (print week — WAL+OZK print **TUESDAY 7/21 AMC**, ALLY 7/21 BMO; day-label corrected 7/17 audit, Jul 21 2026 is a Tuesday. A Monday 7/20 session = final pre-print prep, prints land the NEXT day)
 

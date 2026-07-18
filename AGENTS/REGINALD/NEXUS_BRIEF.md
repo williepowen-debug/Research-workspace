@@ -1,11 +1,22 @@
 # REGINALD — NEXUS Brief
 
-**Status:** 🟠 v2.2.1 — WAL bear idiosyncratic (Office/B1/MI3), tape says nothing (WAL $81.88, ~$3.88 above the $78 break), entire confirmation load sits on the **Tue Jul 21 AMC WAL+OZK double-print** (2 trading days out).
+**Status:** 🟠 v2.2.1 — WAL bear idiosyncratic (Office/B1/MI3), tape says nothing (WAL $81.88 [7/17 close], ~$3.88 above the $78 break), entire confirmation load sits on next week's bank-print cluster: **ZION Mon 7/20 → WAL+OZK+ALLY Tue 7/21 → EGBN 7/22 → HBAN 7/23.** All grading frames FROZEN pre-print.
 **Domain:** Regional banks (WAL/OZK/EGBN/CFG/ZION/SSB/VLY) — convergence terminus for CRE, NDFI, private-credit, labor, and stagflation channels; peer coordination with CREED/BROCK/CORAL/OZK (all top-level).
 **Thesis version:** v2.2.1 (WAL, 6/8) — Bear-medium 25, EV $68.93, PT $50-68. **REG-24 65% / REG-25 72% / REG-26 33%** (re-graded 7/16).
 **Recent thesis pivot:** "12/12 cohort fade" → **Hyp A genuine cohort improvement + WAL-idiosyncratic** (6/8); reinforced by the benign 7/14-16 print cohort (JPM/WFC/C/MTB/CFG).
 
-**As of:** 2026-07-17 ~5 PM ET (live market.py + FRED pull; full-dir audit sweep session — ~60 findings remediated)
+**As of:** 2026-07-18 (Sat eve, task-packet refresh — markets closed; tape figures [as-of Fri 7/17 close]). Prior: 7/17 full-dir audit sweep.
+
+**★ BANK-PRINT WEEK AHEAD (the whole confirmation load lands in ~72h):**
+| Date | Print | REGINALD role | Grade frame |
+|---|---|---|---|
+| **Mon 7/20 5:30pm** | **ZION Q2** | cross-read, **no position** | lead same-tier NON-CREDIT name (AOCI/NIM/muni) → informs Tue non-credit falsifier |
+| **Tue 7/21 AMC** | **WAL Q2** (primary) + **OZK Q2** (peer) — **same-day double-fire** | primary | `WAL/Q2_GRADING_FRAME_2026-07-21.md` (REG-24/25/26) + OZK frozen card `../OZK/workbook/Q2_2026_SCORING_CARD.md` (OZK-05→09) — **both FROZEN pre-print** |
+| **Tue 7/21 7:30am** | **ALLY** (monoline gate) | monitor | ⚑ **RED pin: ALLY informs path-(a) ONLY — do NOT fade (b)/(c) bank puts on an ALLY beat** (auto ≠ CRE/RESG) |
+| **Wed 7/22** | **EGBN Q2** | primary | CRE-nonaccrual creep + new-CEO overlay |
+| **Thu 7/23 BMO** | **HBAN Q2** | co-own | ⚡ **EXIT-thesis verdict issued 7/18** (`reports/2026-07-18_HBAN_thesis-or-exit_decision-brief.md`) — not a convergence name (44% auto, capital-strong acquirer) |
+
+Benchmark stack going in: JPM/WFC/C/MTB benign 7/14-15 + **CFG clean 7/16** (NCO 37bps 6th straight ↓, CRE-led nonaccrual decline) → any WAL/OZK criticized/NCO **rise** reads MORE idiosyncratic.
 
 ---
 
