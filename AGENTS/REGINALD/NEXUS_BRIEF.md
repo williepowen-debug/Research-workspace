@@ -7,16 +7,17 @@
 
 **As of:** 2026-07-18 (Sat eve, task-packet refresh — markets closed; tape figures [as-of Fri 7/17 close]). Prior: 7/17 full-dir audit sweep.
 
-**★ BANK-PRINT WEEK AHEAD (the whole confirmation load lands in ~72h):**
-| Date | Print | REGINALD role | Grade frame |
+**★ BANK-PRINT WEEK AHEAD (the confirmation load lands 7/20→7/28; all frames FROZEN pre-print 7/18):**
+| Date (verified) | Print | REGINALD role | Frozen frame |
 |---|---|---|---|
-| **Mon 7/20 5:30pm** | **ZION Q2** | cross-read, **no position** | lead same-tier NON-CREDIT name (AOCI/NIM/muni) → informs Tue non-credit falsifier |
-| **Tue 7/21 AMC** | **WAL Q2** (primary) + **OZK Q2** (peer) — **same-day double-fire** | primary | `WAL/Q2_GRADING_FRAME_2026-07-21.md` (REG-24/25/26) + OZK frozen card `../OZK/workbook/Q2_2026_SCORING_CARD.md` (OZK-05→09) — **both FROZEN pre-print** |
-| **Tue 7/21 7:30am** | **ALLY** (monoline gate) | monitor | ⚑ **RED pin: ALLY informs path-(a) ONLY — do NOT fade (b)/(c) bank puts on an ALLY beat** (auto ≠ CRE/RESG) |
-| **Wed 7/22** | **EGBN Q2** | primary | CRE-nonaccrual creep + new-CEO overlay |
-| **Thu 7/23 BMO** | **HBAN Q2** | co-own | ⚡ **EXIT-thesis verdict issued 7/18** (`reports/2026-07-18_HBAN_thesis-or-exit_decision-brief.md`) — not a convergence name (44% auto, capital-strong acquirer) |
+| **Mon 7/20 5:30pm** | **ZION Q2** | cross-read, no position | `reports/2026-07-18_ZION_monday_crossread_scaffold.md` — lead same-tier NON-CREDIT read (AOCI/NIM) → sharpens Tue's §4 falsifier; NOT a fade trigger |
+| **Tue 7/21 AMC** | **WAL Q2** (primary) + **OZK Q2** (peer) — **same-day double-fire** | primary | `WAL/Q2_GRADING_FRAME_2026-07-21.md` (REG-24/25/26) + OZK card `../OZK/workbook/Q2_2026_SCORING_CARD.md` (OZK-05→09) |
+| **Tue 7/21 7:30am** | **ALLY** (monoline gate) | monitor | ⚑ RED pin: informs path-(a) ONLY — do NOT fade (b)/(c) bank puts on an ALLY beat |
+| **Wed 7/22 AMC** (call 7/23) | **EGBN Q2** | primary | ★ `reports/2026-07-18_EGBN_Q2_grading_frame.md` — coverage 114%→? + office-migration convert + **Curley new-CEO reserve-philosophy overlay** |
+| **Wed 7/22 BMO → 7/28** | **small-tier FL CRE-DQ** (BKU 7/22 · SSB+AMTB 7/23 · SBCF 7/28) | primary (breadth) | `reports/2026-07-18_smalltier_FL_CRE-DQ_Q2_watchcard.md` — per-name BUILD-vs-REVERT; ≥2 BUILD = tier-creep firms, ≥3 REVERT = stays concentrated at OZK/EGBN |
+| **Thu 7/23 BMO** | **HBAN Q2** | co-own | ⚡ EXIT-thesis (Will ruled 7/18) — dust rides, no further effort |
 
-Benchmark stack going in: JPM/WFC/C/MTB benign 7/14-15 + **CFG clean 7/16** (NCO 37bps 6th straight ↓, CRE-led nonaccrual decline) → any WAL/OZK criticized/NCO **rise** reads MORE idiosyncratic.
+Benchmark stack going in: JPM/WFC/C/MTB benign 7/14-15 + **CFG clean 7/16** (NCO 37bps 6th straight ↓, CRE-led nonaccrual decline) → any WAL/OZK/EGBN criticized/NCO **rise** reads MORE idiosyncratic.
 
 ---
 
