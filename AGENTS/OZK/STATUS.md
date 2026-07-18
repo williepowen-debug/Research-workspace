@@ -1,7 +1,7 @@
 # OZK — Dashboard
 
 **Updated:** 2026-07-18 (10-Q read + D-severity re-derivation + price/SI/regime pull — see MEMORY LAST SESSION) | **Price:** $52.01 [7/17 close, −2.03%; **+4.75% since 7/6**, near 12-mo high $53.09 on 7/16] | **TBV:** $47.15 [Q1'26] | **P/TBV:** ~1.10×
-**Thesis:** RESERVOIR v1.5 (recognition-timing refinement — appraisal-gated deferral; no direction change) | **Conviction:** 🔴🔴 HIGH | **KB:** 215 rows / 28 groups
+**Thesis:** RESERVOIR v1.5 (recognition-timing refinement — appraisal-gated deferral; no direction change) | **Conviction:** 🔴🔴 HIGH | **KB:** 216 rows / 33 groups
 **Short interest:** **14.7% of float** (14.91M sh, 6/30/26 FINRA), ~11.7 days-to-cover — structurally crowded (avg 15.1% / 12mo, peak 18.3%), re-building off a 4/30 low into the print. Squeeze risk if Jul-21 prints quiet. [standing field — refresh at settlement via Nasdaq API]
 **Next hard catalyst:** OZK **Q2 earnings Tue Jul 21, 2026** (call Jul 22) → dress rehearsal for **IQHQ RaDD maturity Aug 2026** (weighted EL $140M on $555M funded; recognition appraisal-gated/back-loaded — see §BOTTOM LINE)
 
