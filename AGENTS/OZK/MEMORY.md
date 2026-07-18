@@ -63,7 +63,7 @@
 
 ### NEXT SESSION
 
-1. **★ Jul-21 Q2 earnings (Tue; call Wed 8:30 ET) — score OZK-01, 05→09.** OZK-07 discriminator = conviction governor (WEAKNESSES C7); NCO vs ≤55bps; IQHQ reserve (OZK-08, expect NONE); **60-89d delinquent-nonaccrual conversion** [KB-212]; **Portal 405 / 777 Industrial in substandard table** [KB-201/204]; mods 624→?. **Expect a QUIET print** (deferral) + squeeze risk into it. Re-pull insiders post-print (SELLING.md Pull Log).
+1. **★ Q2 EVAL — Will re-invokes Wed 7/22 after the 8:30am call (agreed 7/18).** Use the **FROZEN grader `workbook/Q2_2026_SCORING_CARD.md`** — fill RESULT + Brier for OZK-01/05/06/07/08 (score off Tue Supplement + Wed call). **OZK-09 does NOT resolve Tuesday** (Aug/Q3 terminal) — update its color only, keep OPEN. OZK-07 = conviction governor (WEAKNESSES C7; TRUE→hold 🔴🔴, both-legs-falling→step down). Consensus Q2 EPS ~$1.43 [KB-216] = miss/beat line. Watch-adds: NCO vs ≤55bps; IQHQ reserve (OZK-08, expect NONE); 60-89d delinquent-nonaccrual conversion [KB-212]; Portal 405/777 in substandard table [KB-201/204]; mods 624→?; funded-RaDD creep. **Expect a QUIET print** (deferral) + squeeze risk into it (C8). Re-pull insiders post-print (SELLING.md Pull Log).
 2. **$154M classified reconciliation** — 10-Q sums $1,060.7M vs supplement $1,215M; run down before citing either. ~20min.
 3. **Consume REGINALD/BROCK regime read** (NDFI-contagion channel, C8; outbox flags sent) — do NOT maintain an OZK regime copy. Re-pull short interest at next FINRA settlement [KB-214].
 4. **Position duration review** IF Will reconciles broker (the open question) — is the book duration'd for a back-loaded Q4'26→2027 recognition vs Aug-21 expiries?
