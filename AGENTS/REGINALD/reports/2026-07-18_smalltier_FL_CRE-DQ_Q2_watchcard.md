@@ -1,7 +1,7 @@
 # Small-Tier FL-Heavy CRE-DQ — Q2 2026 Pre-Registered Watch-Card (BKU / SSB / AMTB / SBCF)
 **Pre-registered:** 2026-07-18 (Sat, BEFORE any of the four print — per-name BUILD-vs-REVERT thresholds fixed now). **Owner:** REGINALD.
 **What it grades:** the live "do the Q1 CRE-30-89 leading ticks BUILD or REVERT" question from my 6/20 drill, turned into a mechanical per-name contract. **This is thesis-BREADTH calibration, not a trade signal** — REGINALD holds no positions on these names; the output tunes conviction on whether the CRE-DQ down-tier creep is tier-wide or stays concentrated at OZK/EGBN.
-**Q1 baseline source (primary):** `research/CRE_DQ_BY_TIER_2026-06-20.md` (10-Q age-analysis tables self-verified 6/20 PM). AMTB/SSB legs are **lower-grade** (DEWEY research-output 6/22 / relayed) — flagged inline; pull the actual 8-K/10-Q at print.
+**Q1 baseline source (primary):** BKU + SBCF from `research/CRE_DQ_BY_TIER_2026-06-20.md` (10-Q age-analysis tables self-verified 6/20 PM). **AMTB + SSB legs UPGRADED to primary 2026-07-18** (were relayed DEWEY research-output; pulled the actual Q1 8-K EX-99.1 + 10-Q, self-verified) — see the ★ notes in each section. **The AMTB pull caught a mislabel** (relayed "NPA 1.38→1.93 rising" was a YoY figure; QoQ was FLAT +2bps) — threshold re-anchored below.
 
 > **Macro overlay:** FL is now the **#1 state foreclosure rate nationally** (ATTOM H1, via HOMER: 0.27%, 5 of top-10 US metros FL, timelines shortening). All four names are FL-HQ'd / FL-heavy (BKU Miami Lakes · SSB Winter Haven · AMTB Miami · SBCF Stuart). The Tuesday **FL employment** print lands on exactly these books. Bank-exposure translation is mine; the raw FL housing figure is HOMER-owned.
 
@@ -48,16 +48,29 @@
 | CRE 30-89 falls back toward ~$5M **AND** 60-89 clears **AND/OR** the rise goes broad (C&I/resi rise too = macro, not CRE-specific) | **REVERT** | Villages acquired-pool migration lumpiness |
 | Split | **MIXED** | |
 
-### AMTB (~Miami FL) — ⚠️ lower-grade baseline (DEWEY 6/22 research-output, EDGAR was 403'd — pull the actual 8-K at print)
-**Q1 baseline (relayed):** NPA **1.38%→1.93%** (rising); criticized→NCO conversion is the SIG-008 watch.
-| Q2 reading | Class |
-|---|---|
-| NPA rises again (>1.93%) **OR** criticized converts to NCO/specific reserve **OR** CRE-specific deterioration | **BUILD** |
-| NPA stabilizes/falls, criticized flat, no CRE-specific move | **REVERT** |
-*First action at print: verify the Q1 1.93% NPA against the actual 8-K/10-Q (grade was research-output, not my own pull).*
+### AMTB (~$9.9B, Miami FL) — ★ PRIMARY-UPGRADED 7/18 — the relayed baseline was MISLABELED
+**Q1 baseline (primary — 8-K EX-99.1 acc 0001734342-26-000033 + 10-Q acc 0001734342-26-000037, self-verified):**
+- **NPA 1.93% (Q1) vs 1.91% (Q4) = +2bps, essentially FLAT QoQ.** ⚠️ **CORRECTION:** the relayed "1.38%→1.93% rising" was a **YoY mislabel** — 1.38% is the year-ago 1Q25 value, NOT Q4. NPA has been ~flat QoQ, not accelerating. (NPA$ $191.6M; NPL/loans 2.61%; ACL/NPL coverage thin at **45%**.)
+- **CRE non-owner-occ nonaccrual $11.2M vs $4.3M (+161% QoQ)** — a real CRE tell, but off a tiny base (~0.5% of the $2.27B CRE book); **zero CRE charge-offs**.
+- **CRE 30-89 leading bucket = de minimis** (~$0.6M, flat) — CRE stress went STRAIGHT to nonaccrual, skipping the accruing past-due buckets.
+- **The $66M spike in total 30-59 past-due is C&I-driven (+$46M), NOT CRE** — a fresh *non-CRE* early-delinquency signal; classify it correctly, it does NOT count as CRE creep.
+- Special Mention **UP** +$11.8M ($148.2M); Classified **DOWN** −$34.6M ($320.3M, on payoffs/sales); provision built $7.8M (+123%); EPS $0.44.
 
-### SSB (~$65B) — Q1 was a leading-LABEL move, NOT delinquency (the classified-vs-cashflow discriminator)
-**Q1 baseline (relayed):** classified **$2.5B (3.6% assets)** BUT **88% accrual / 99% current** — rate-shock reclassification; NCO 9bps. A criticized-label move, not cash-flow stress.
+| Q2 reading | Class | Discriminator (re-anchored to the corrected baseline) |
+|---|---|---|
+| CRE-NOO nonaccrual keeps rising (>~$11M, building on the +161%) **AND/OR** criticized converts to specific-reserve/NCO **AND/OR** the CRE 30-89 leading bucket finally builds | **BUILD** | The CRE-NOO nonaccrual trajectory is the real CRE tell — watch it season into loss |
+| CRE-NOO nonaccrual stabilizes/falls, SM/classified keep netting down, no CRE-specific move | **REVERT** | Q1's CRE-NOO uptick was a small-base blip |
+| Split, **or** the C&I 30-59 spike converts while CRE stays quiet | **MIXED** | ⚠️ C&I delinquency = NON-CRE, does NOT count toward CRE tier-creep |
+
+*Corrected read: AMTB is a **WEAKER** CRE-creep signal than the relayed version implied — flat NPA + tiny-base CRE-NOO uptick + a C&I (non-CRE) delinquency spike. Nudges AMTB's prior toward "not CRE-tier-creep."*
+
+### SSB (~$68B) — ★ PRIMARY-CONFIRMED 7/18 (relayed baseline held; one figure refined) — leading-LABEL move, NOT delinquency
+**Q1 baseline (primary — 10-Q acc 0001104659-26-053548 + 8-K EX-99.1 acc 0001104659-26-047690, self-verified):**
+- **Classified (Substandard+Doubtful) $2.30B = 3.39% of assets / 4.66% of loans** — ⚠️ refined DOWN from the relayed "$2.5B / 3.6%" (~9% high). Criticized (SM+Sub+Doubtful) $3.13B.
+- **~87.3% of the classified book is ACCRUING** (classified $2.30B vs total nonaccrual $293M); whole-book NPL only 0.61%; consumer 99.3% current → **"88% accrual / 99% current" CONFIRMED** — rate-shock reclassification, NOT cash-flow stress.
+- **NCO 9bps ($10.5M), flat QoQ — CONFIRMED verbatim.** Nonaccrual $293M (−1.3% QoQ); NPA 0.48%; ACL/NPL coverage ~194%.
+- **CRE-NOO substandard $1.46B = 64% of commercial classified** (the classified book is CRE-concentrated); Office nonaccrual only 0.72% — low nonaccrual vs a large criticized book confirms the label-character for CRE too.
+- ⚠️ Q4 classified $ NOT in these filings (10-Q risk-grade table is current-period only) → QoQ direction on classified $ arrives with the Q2 print; the accrual%/current%/NCO discriminators below don't need it.
 | Q2 reading | Class | Discriminator |
 |---|---|---|
 | Classified book starts showing delinquency/nonaccrual migration — **accrual % falls below ~95% OR current % below ~97% OR NCO rises above ~20bps** | **BUILD** | Label → cash-flow stress: the leading label finally converting |
@@ -71,4 +84,4 @@
 - **LUMPINESS CONFIRMED → bear stays concentrated.** Reinforces the current shape (WAL/OZK idiosyncratic, cohort benign per the 7/14-16 clean prints + CFG) — the diversified small-tier is clean, the loss-relevant risk is at the CRE-concentrated names only. This is the base case (base rate: aggregate leading ticks at 0.18–0.34% of book with flat criticized usually revert).
 - **Honest bar:** these are 0.1–0.8%-of-book leading moves — informative for breadth, NOT position-triggering on their own. No REGINALD position rides on them; a BUILD would feed the CRE-channel conviction that governs the WAL/OZK position, not open a new small-tier trade.
 
-*Watch-card pre-registered 2026-07-18. Post-print (7/22 BKU → 7/23 SSB/AMTB → 7/28 SBCF): fill each name's class against its threshold table, then apply the aggregate rule; update the STATUS "Bank CRE-DQ divergence" row + the ROADMAP CRE-DQ thread. Do NOT edit the thresholds after any print lands. [[finding_pre_registration_discipline_through_corroboration]] · [[finding_composition_mask_unmask_discriminator]]*
+*Watch-card pre-registered 2026-07-18; **all 4 Q1 baselines now primary-verified** (BKU/SBCF from the 6/20 drill; AMTB/SSB upgraded from relayed → primary 7/18, self-verified — AMTB threshold re-anchored on a caught mislabel, SSB confirmed). Post-print (7/22 BKU → 7/23 SSB/AMTB → 7/28 SBCF): fill each name's class against its threshold table, compare Q2 vs the primary baseline, then apply the aggregate rule; update the STATUS "Bank CRE-DQ divergence" row + the ROADMAP CRE-DQ thread. Do NOT edit the thresholds after any print lands (the AMTB re-anchor was a pre-print baseline correction, not a post-print rationalization). [[finding_pre_registration_discipline_through_corroboration]] · [[finding_composition_mask_unmask_discriminator]] · [[finding_verification_correction_downstream_propagation]]*
