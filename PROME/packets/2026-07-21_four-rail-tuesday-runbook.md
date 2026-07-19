@@ -1,0 +1,46 @@
+# Tuesday 2026-07-21 — Four-Rail Day Runbook (bank cluster + $85×3 + FL employment + post-LPR)
+**Built:** 2026-07-18 (Sat late — bank-sector lockdown session #2, Will-directed) · **Owner:** PROME · **Status:** DRAFT pending fire-drill findings (§5)
+**Rule of the day:** *grade mechanically, never narratively.* Every rail below has a pre-written tree — the runbook only sequences them and names the fire paths. No tree = no grade = observation only.
+
+---
+
+## 0. Standing gates going in
+- **Broker export (Will, rule #4)** — ★ THE gate on any fire decision. Ideal: before Mon evening's ZION print; hard-need: before any Tue fire. Doubles as the input the reshape harvest arithmetic rebuilds from (`PROME/proposals/2026-06-26_bank-put-reshape-roll.md` — 7/18 position-vintage warning: do NOT execute from its §A/§C tables).
+- **Monday carries in:** ZION axis-weight verdict (scaffold synthesis rule, Mon night) · LABOR insider re-run (WAL/ZION EDGAR + OZK FDIC vs the 7/9 baselines: WAL $3.78M June sells / OZK 🔴 Score-13) · TERRY rule-#6 day-color adjudication (rates re-fire, not bank-specific) · LPR result (Sun ~9:15 PM ET).
+- **Positions at stake (FORGE 7/16 + REGINALD POSITIONS 7/18):** WAL Sep-18 $70P ×1 + $67.5P ×1 · OZK Aug-21 $45P ×4 + $42.5P ×1 (peer book) · KRE $60P ×10 (tail) · HBAN dust (exit-thesis, ignore). No Jul-17 leg survives into the day.
+
+## 1. Timeline (ET)
+| Time | Rail | Owner | Tree / instrument | Fire path? |
+|---|---|---|---|---|
+| pre-open | Broker-export status check | PROME/Will | rule #4 | gates everything below |
+| **7:30a** | **ALLY Q2 (BMO;** call 9:00a) | CARL primary / REGINALD monitors | **RED/ALLY pin (3 surfaces): informs residual path-(a) ONLY.** Auto/consumer ≠ WAL CRE / OZK RESG — **never fade the (b)/(c) puts on an ALLY beat.** | no — read-only |
+| ~10:00a (est) | FL State Employment June (FL UR) | LABOR/CORAL | LABOR T-11: FL UR >5.0% or renewed rise (base 4.8%, 7 straight rises); CORAL joint pre-reg | no — feeds FL/CRE breadth context for the small-tier watch-card (7/22-28) |
+| in-day | Post-LPR read-through | ZHAO/MIDAS | MIDAS-05 rides (self-grades ~7/23) | no |
+| **~2:30p** | Brent settle → **$85×3 session-3?** (needs Mon AND Tue settles >$85; s1 = $88.10 [7/17]) | FALCON/BRENT | FALCON threshold row (HEARTBEAT Thresholds) | **no deploy** — premium-sustained *signal*, explicitly NOT supply-loss, NOT a trigger |
+| **AMC ~4:05p+** | **WAL Q2 release** | REGINALD/PROME | `WAL/Q2_GRADING_FRAME_2026-07-21.md` (REG-24/25/26 = 65/72/33) + ZION axis-weight | **GATE-RESHAPE-BC leg (c)** → §2 |
+| **AMC ~4:05p+** | **OZK Q2 release + Supplement + Mgmt Comments** | OZK agent/REGINALD cross-ref | `AGENTS/OZK/workbook/Q2_2026_SCORING_CARD.md` (OZK-01/05-09; OZK-07 conviction-governing) | no standalone gate; feeds the same cluster read |
+| eve | Grade log + Will synthesis | PROME | this runbook §4 | — |
+
+**Wednesday follow-through (not this runbook's scope, listed to prevent Tuesday-night over-reach):** OZK call 8:30a · WAL call noon · BKU BMO · EGBN AMC (its frame; call Thu) · 40Y JGB + GOOGL + EIA (other lanes). Call-dependent discriminators resolve Wednesday — see §5 two-stage rules.
+
+## 2. The one fire path (everything else is read-only)
+**GATE-RESHAPE-BC reshape-(c):** WAL print grades bear-side (frame §1 ladder — the *surprise* tier, not the priced 40-55bps tier) → TERRY constructs from the **live broker book** (fresh export, rule #4; rebuild harvest arithmetic — proposal tables are 6/26-vintage) → **Will [Approve]** ($500/card max-loss; rule #6 day-color noted at entry). HY>280 leg is machine-watched separately (intake lane). A clean-beat **pop is NOT thesis-invalidation** absent the full disconfirm stack (frame §6) — do not panic-close on tape.
+
+## 3. Tape discipline (pre-registered 7/17-18)
+- **WAL has NO published Street NCO/provision estimate** — the print-day tape reaction is framing-driven, not estimate-delta-driven. **The frame's ladder is the read; the tape is not.**
+- WAL short interest 4.91% float (+27.75% 6/15→6/30) = squeeze fuel on a clean beat; a miss is partly pre-positioned. Both directions: tape ≠ grade.
+- OZK 14.7%-float crowded short: a quiet print can rally regardless of the credit read (card discipline #6) — score fundamentals, read the stock reaction separately.
+- COT positioning-turned frame rides 4-day-stale data — Monday's tape re-tests it before Tuesday; don't import it into bank grades.
+
+## 4. Grade log contract (fill Tuesday night)
+One line per rail: instrument → reading → pre-committed grade → consequence (fired / not-fired / N-A). Grades write back to: REGINALD frames + PREDICTIONS.tsv (REG-24/25/26 first-chance), OZK card RESULT column + Briers, GATES.tsv (RESHAPE-BC), FALCON $85×3 count, LABOR T-11, MIDAS-05 color. **No narrative verdicts in the log — trees only.** Anything the release leaves unresolved goes to the §5 two-stage list, not to a judgment call.
+
+## 5. Fire-drill findings — COMPLETE (Sat night; canonical: `PROME/reports/2026-07-18_bank-frames-firedrill-findings.md`)
+**23 findings (13 WAL / 10 OZK), six load-bearing; every rule pins measurement/precedence/timing only — zero threshold changes. Owner adoption owed Monday (REGINALD: W-rules addendum to the WAL frame · OZK agent: Z-rules addendum + close TODO #2 line-set freeze). Tuesday grades cite frame + addendum together.**
+- **★ TWO-STAGE GRADE (W3, structural for both names):** Stage 1 Tue AMC = numeric bands only (REG-25 band · REG-26 numeric leg · REG-24 *slide-12 translated* band [W1: the anchored $476M CRE-NOO basis is a 10-Q figure, ~Aug — it will NOT print Tuesday] · OZK-05/06/07 · OZK-01 proxy). Stage 2 Wed post-call = $99M disposition letter · migration counts · §4 attribution · OZK-08 (FALSE stamps only after the 8:30a call ends, Z8). **No thesis grade quoted as final between stages — PENDING-CALL, never guessed.**
+- **Top WAL rules:** W2 ex-fraud fallback (no breakout → total-minus-explicitly-attributed, no inference) · W5 disposition letter governs the thesis grade on conflict with the NCO band · W4 classified graded on a plus-realized basis (charge-offs never read as DISCONFIRM) · W6 majority = >$49.5M · W7 half-open bands (40.0 = NEUTRAL, 55.0 = priced).
+- **Top OZK rules:** Z1 OZK-07 = strict conjunction, all other sign combos FALSE (both-rise logs "still building" outside the grade) · Z2 freeze the $1,215M Supplement line-set BEFORE the print (OZK's own open TODO — the $154M 10-Q/Supplement gap can flip the conviction-governing row) · Z3 OZK-08 fires on ≥2 RaDD anchors, naming not required, **Seattle/Chapter affirmatively excludes** · Z5 Chapter $15-30M fail-band watch-add (DOCKET-live, was missing from the card; not a graded row).
+- Data-note: WAL frame §6 "$81.88 [7/17]" → actual close **$82.30** (yfinance 7/18; context-only).
+
+---
+*Runbook = sequencing + fire-path index only. The frames stay canonical for every threshold. Levels cited above carry their observation dates — refresh live before citing Tuesday.*
