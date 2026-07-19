@@ -1,28 +1,100 @@
-# TERRY Paper-Book — DESIGN STUB (backlog, not built)
-**Status:** 💡 BACKLOG — Will's idea 2026-07-17, TERRY endorsed. **Not built. Do not act without Will's go.**
+# TERRY Paper-Book — BUILD-READY SPEC
+**Status:** 🟢 BUILD-READY (Will-reviewed 7/19 — 3 open questions resolved + 6 sharpenings folded in + Phase-1 build spec below). **Still gated on Will's explicit BUILD go — the spec is ready, the trigger is Will.** Originally 💡 Will's idea 2026-07-17, TERRY endorsed.
 **Problem it solves:** PAT-028 — 0 cards fired live → 0 track record → the card product is un-instrumentable. The only "product" so far is the *refusals* (005 gate, book-aware NO-ADD). A paper book manufactures a falsifiable track record without capital risk, and finally gives `RISK_SCORING.md` §5 (calibration/Brier) something to score. Measures **process calibration** (structure / timing / sizing / prioritization) — NOT behavioral/execution edge.
 
 ## The core insight — "salary" = opportunity cost
-A **fixed/salaried** bankroll (not unlimited paper money) is the key. Infinite paper money only tests per-trade accuracy ("how often right"); a **limited/salaried** book forces *choosing* which setups get paper capital → tests **prioritization judgment** (is 004 worth it over the builder card?), which is the more valuable feedback and mirrors the real tranche-by-tranche capital constraint.
+A **fixed/salaried** bankroll (not unlimited paper money) is the key. Infinite paper money only tests per-trade accuracy ("how often right"); a **limited/salaried** book forces *choosing* which setups get paper capital → tests **prioritization judgment** (is 004 worth it over the builder card?), which is the more valuable feedback and mirrors the real tranche-by-tranche capital constraint. *(NB — this insight powers Phase 2; Phase 1 is deliberately un-salaried, see the volume gate in §Sharpening 4.)*
 
 ## The 3 failure modes that would make the data LIE (design around all three)
-1. **Fill fidelity (THE make-or-break).** Paper fills at mid are fantasy — for a long-premium options book the bid/ask + slippage is a huge chunk of real P&L (DHI front-week spreads ran 50-200%). **RULE: fill buys at the ASK, sells at the BID** (or a penalized mid). Mid-fills systematically flatter and teach the wrong lessons.
-2. **Discipline decoupling.** Free paper-trading drifts into setups I'd never propose live → the record becomes a *looser* strategy than the real one, useless for transfer. **RULE: the paper book trades the SAME rules** — same triggers, same $500/card, same approval proxy.
+1. **Fill fidelity (THE make-or-break).** Paper fills at mid are fantasy — for a long-premium options book the bid/ask + slippage is a huge chunk of real P&L (DHI front-week spreads ran 50-200%). **RULE: fill buys at the ASK, sells at the BID** (never mid) — hardened further in Sharpening 3 (timestamp + slippage tooth).
+2. **Discipline decoupling.** Free paper-trading drifts into setups I'd never propose live → the record becomes a *looser* strategy than the real one, useless for transfer. **RULE: the paper book trades the SAME rules** — same triggers, same $500/card, same construction discipline.
 3. **Logging survivorship.** Losers get quietly forgotten → the record flatters itself. **RULE: every paper position logged with entry mark / thesis / invalidation + mark-to-market on a boot cadence** (same staleness discipline as the ledgers; a paper book that isn't marked rots).
 
-## Recommended shape (start narrow, expand only if it earns it)
-- **Phase 1 — SHADOW BOOK (the rigorous core).** Every card that reaches *would-fire* state (Will approves, OR it hits its trigger) gets a realistic paper fill and is tracked to close. Purest signal: it's the actual live strategy with paper money, adds no new decisions, can't corrupt the live discipline. Answers "do TERRY's proposed trades work?"
-- **Phase 2 — SALARIED DESK (optional).** Notional bankroll (e.g. $10k, or a monthly "salary" tranche), prioritization, running equity curve. More volume + tests prioritization, but clearly labeled SEPARATE and bound by the same-rules guardrail.
+---
 
-## Tooling (mostly exists)
-`PAPER_BOOK.tsv` (entry/mark/thesis/invalidation/close) + boot-time mark of open positions (like the ledger-staleness alerts) + monthly review. Reuse: `snapshot.py`/`chain_fetch.py` (marks), `csv_pnl.py` (P&L), the `SETUPS.tsv`/INDEX pattern.
+## ★ RESOLVED (Will-reviewed 2026-07-19)
+
+### The 3 open questions — answered
+| Open Q | Resolution | Why |
+|---|---|---|
+| Bankroll size / salary cadence | **N/A for Phase 1** — the shadow book needs no bankroll; it tracks would-fire cards to close. Bankroll is a Phase-2 concern. | Phase 1 measures card quality, not prioritization — no capital constraint needed yet. |
+| Shadow-only vs straight to salaried | **Shadow-only (Phase 1).** Salaried desk deferred behind a quantitative volume gate. | The prioritization test can't bind at ~2-3 cards/month (Sharpening 4). |
+| Auto-fill on trigger vs approved-only | **Auto-fill on trigger — regardless of Will's approval.** | The *only* version that generates a record: the whole problem is 0 approvals. Approved-only would inherit the same near-zero volume. Labeled "card-quality record, not a P&L Will endorsed." |
+
+### The 6 sharpenings (baked into the build spec below)
+1. **Auto-fill on trigger is THE design decision, not a detail.** Every card that reaches would-fire state fills the shadow book *independent of the approval gate* → measures card quality. This is what actually attacks PAT-028.
+2. **Capture the refusals — they're the best data.** The only product so far *is* the refusals. Every row carries a `will_decision` field (APPROVED / PASSED / NO-DECISION); the **PASSED subset is the counterfactual "ghost"** — at close it answers *did the discipline to say no save or cost money*. One table, a decision column (cleaner than a separate lane). Explicitly NOT a P&L that argues for looser deployment — it calibrates the pass decision.
+3. **Fill rule needs one more tooth.** Ask/bid still flatters at size and widens at the open. Add: (a) fill at the **trigger timestamp**, not close; (b) a **slippage penalty** for wide-spread names (bid/ask > 15% of mid → fill one tick worse than the posted side, or a fixed haircut); (c) record `entry_basis` (exact quote + timestamp) so every fill is auditable; (d) trigger while market closed → fill at next-open, never mid.
+4. **Defer Phase 2 behind a quantitative volume gate.** Prioritization is only testable when would-fire setups *exceed* bankroll capacity. Build the salaried desk ONLY once the trailing would-fire rate exceeds a plausible salary tranche — otherwise it's complexity measuring nothing.
+5. **Small-N honesty.** A clean shadow book gives *directional* feedback, not significance, for a long while. No calibration/Brier scoring and no decision acts on the record until **N ≥ 10 closed positions per lane**; until then rows carry `notes = "N-too-small"`. Guards against over-reading an early lucky/unlucky streak.
+6. **Marking cadence caveat.** TERRY is spawned on-demand, not continuous — a paper option can sit unmarked for days while it decays. Marks are **as-of-last-spawn**, stamped and staleness-flagged; the equity curve is lumpy by construction and must be labeled so, never pretended continuous.
+
+---
+
+## ★ PHASE-1 SHADOW BOOK — BUILD SPEC (build on Will's go)
+
+**Purpose:** auto-fill every card that reaches would-fire state at realistic marks, track to close, measure card quality; the PASSED subset doubles as the refusal-calibration counterfactual.
+
+### Data model — `PAPER_BOOK.tsv` (append-only rows; `mark`/`status`/close fields updated in place)
+| Column | Meaning |
+|---|---|
+| `paper_id` | PB-0001, sequential |
+| `card_id` | originating setup/fire card (e.g. TRY-FIRE-004-ZONE2/3, TRY-BUILDER-DHI-PHM) |
+| `opened` | ET date/time of the would-fire trigger |
+| `will_decision` | APPROVED / PASSED / NO-DECISION (the refusal-calibration key; PASSED = the ghost subset) |
+| `structure` | e.g. "TLT Sep-18 77P x1" |
+| `entry_fill` | paper fill price per the fill rule |
+| `entry_basis` | exact quote + side + timestamp + any slippage penalty applied (auditable) |
+| `risk_$` | defined-risk premium at stake, within $500/card |
+| `thesis` | one line |
+| `invalidation` | exit/invalidation condition (from the card) |
+| `mark` | latest mark-to-market |
+| `mark_asof` | timestamp of the latest mark (staleness stamp) |
+| `status` | OPEN / CLOSED |
+| `close_date` · `close_fill` · `pnl_$` · `pnl_pct` | fill-out at close |
+| `notes` | e.g. "N-too-small; not yet scored" |
+
+**INDEX discipline:** one row per paper position, marked-to-market in place; never delete a losing row (survivorship rule).
+
+### Fill rules (the fidelity teeth)
+1. **Buys fill at the ASK, sells at the BID** — at the **trigger timestamp**, from a live chain snapshot (`chain_fetch.py`). Never mid.
+2. **Wide-spread penalty:** if bid/ask > 15% of mid, fill one tick worse than the posted side (or a fixed % haircut) — you don't get the full posted quote at size.
+3. **Record `entry_basis`** = the exact quote + timestamp so the fill is reproducible/auditable.
+4. **Trigger while market closed → fill at next-open** quotes (note it). No mid-fills, ever.
+
+### Marking (boot cadence)
+- At each TERRY boot, mark every OPEN row via `chain_fetch.py`/`snapshot.py`; update `mark` + `mark_asof`.
+- If `mark_asof` > N business days → flag "STALE mark" (ledger-staleness discipline).
+- Equity curve is as-of-last-spawn — label it lumpy, not continuous.
+
+### Scoring gate
+- **No calibration/Brier scoring, and no decision (sizing / deployment / card-design) acts on the paper record, until N ≥ 10 closed positions per lane.** Until then: directional read only, `notes = "N-too-small"`.
+- Once N clears → feed `RISK_SCORING.md` §5 (Brier/calibration) · structure validation (did the crash-tail actually pay?) · entry-timing validation (does the green-day rule improve fills?) · post-print-vs-pre-print (builder card) · refusal calibration (PASSED subset P&L).
+
+### Tooling (mostly exists — keep new code minimal)
+- Reuse: `chain_fetch.py` (entry + mark quotes), `snapshot.py` (marks), `csv_pnl.py` (P&L), the `SETUPS.tsv`/INDEX pattern for the ledger.
+- New (small): a `paper_book_mark.py` helper (or fold into boot) that marks OPEN rows + flags staleness. Nothing heavier.
+
+### Boot / closeout wiring
+- **TERRY boot:** mark OPEN paper positions; surface any STALE. (Same shape as the ledger-staleness alert.)
+- **TERRY closeout:** log any new would-fire fills from the session + set `will_decision` for each; the fill rule + marking procedure get a one-line pointer in CLAUDE.md/CLOSEOUT.
+
+### Seed row (natural first entry)
+The **7/17 004 re-fire ZONE 2/3** (77P × 45ct = $495) is the natural seed: it reached would-fire (TLT green, rule-#6 clean, Approve-ready) and Will passed → row with `will_decision = PASSED`, which immediately seeds the refusal-calibration counterfactual. TERRY picks the exact seed at build time.
+
+### Definition of done (Phase 1)
+- `PAPER_BOOK.tsv` created with the schema above.
+- Fill rule + marking procedure documented (CLAUDE.md/CLOSEOUT pointer).
+- Boot-mark wired + staleness flag.
+- Seed row logged.
+- Guardrails restated in the ledger header.
+
+---
+
+## Phase 2 — SALARIED DESK (deferred behind the volume gate)
+Notional bankroll (e.g. $10k, or a monthly salary tranche), prioritization, running equity curve. **Build ONLY once the trailing would-fire rate exceeds the salary-tranche capacity** (Sharpening 4) — until prioritization actually binds, it measures nothing. Clearly labeled SEPARATE and bound by the same-rules guardrail.
 
 ## Standing guardrails
 - **Subordinate to the thesis work** (same rule as the day-trading loop) — never displaces core construction.
-- **Never an argument for looser real deployment** — it calibrates process, it is not a license to size up. Keep it clearly labeled PAPER.
-- Feeds: calibration/Brier rows · structure validation (spreads vs outrights; does the crash-tail actually pay?) · entry-timing validation (does the green-day rule improve fills?) · post-print-vs-pre-print (builder card) · partially lifts the PAT-028 no-track-record ceiling.
-
-## Open questions for Will (when we build it)
-- Bankroll size / salary cadence (lump $10k vs monthly tranche)?
-- Shadow-book only (phase 1) or straight to the salaried desk?
-- Auto-fill on trigger, or only on Will-approved cards (keeps it tied to the real approval gate)?
+- **Never an argument for looser real deployment** — it calibrates process; it is not a license to size up. Keep everything clearly labeled PAPER.
+- **Auto-fill measures card quality, not a P&L Will endorsed** — the shadow book fills trades independent of the approval gate; that is the point, and it must be labeled so no one mistakes shadow P&L for a real or approved return.
