@@ -1,0 +1,27 @@
+# TERRY PAPER_BOOK.tsv — PHASE-1 SHADOW BOOK (PAPER — NOT REAL, NOT AN ENDORSED P&L)
+# =====================================================================================
+# WHAT THIS IS: an auto-filled CARD-QUALITY track record. Every card that reaches
+#   would-fire state is paper-filled here at realistic marks (ask-for-buys / bid-for-
+#   sells at the trigger timestamp, NEVER mid) and tracked to close, INDEPENDENT of
+#   Will's approval gate. Purpose: manufacture a falsifiable record to attack PAT-028
+#   (0 cards fired live -> 0 track record). Measures PROCESS calibration (structure /
+#   timing / sizing / the pass decision) — NOT behavioral/execution edge.
+# GUARDRAILS (PAPER_BOOK_DESIGN.md 'Standing guardrails' — do not violate):
+#   1. PAPER. Every row is paper. This is NOT a real return and NOT a P&L Will approved.
+#   2. NEVER a license to size up live. It calibrates process; it is not an argument
+#      for looser real deployment. Auto-fill measures card quality, not an endorsed P&L.
+#   3. SAME RULES as the real book — same triggers, same $500/card cap, same discipline.
+#   4. SURVIVORSHIP: never delete a losing row; every fill is logged + marked in place.
+#   5. FILL FIDELITY: buys at ASK, sells at BID, at the trigger timestamp; wide-spread
+#      (bid/ask>15% of mid) penalty; entry_basis records the exact quote+timestamp
+#      (auditable). Trigger while market closed -> fill at next open. Never mid.
+#   6. SMALL-N: no Brier/calibration scoring + no decision acts on this record until
+#      N>=10 CLOSED positions per lane. Until then rows carry 'N-too-small'.
+#   7. MARKS are as-of-last-spawn (TERRY is on-demand, not continuous): lumpy, stamped,
+#      staleness-flagged. The equity curve is NOT continuous — never pretend it is.
+# will_decision key: APPROVED / PASSED / NO-DECISION. The PASSED subset = the refusal-
+#   calibration 'ghost' (did the discipline to say no save or cost money).
+# Marking: paper_book_mark.py marks OPEN rows at chain MID + flags STALE (>N business
+#   days). Fill rule reference + full spec: PAPER_BOOK_DESIGN.md.
+paper_id	card_id	opened	will_decision	structure	entry_fill	entry_basis	risk_$	thesis	invalidation	mark	mark_asof	status	close_date	close_fill	pnl_$	pnl_pct	notes
+PB-0001	TRY-FIRE-004-ZONE2/3	2026-07-17 16:00 ET	PASSED	TLT Sep-30 77P x45	0.11	77P ASK 0.11 @ 2026-07-17 16:00 ET (fetch.py+chain_fetch live pull; spread 9.5% <15% = no wide-spread penalty; TLT spot 84.52)	495	Cheap-vol duration crash-tail on the real-yield/term-premium channel; pays on a GAP (hot 8/13 CPI or a failed 7/22-28 auction), not a grind	arm-#2 disarm = any official 10Y DGS10 close <4.50; else expires worthless if TLT>76.89 (BE) at Sep-30 (grind path pays $0)	0.105	2026-07-16 14:59	OPEN					N-too-small; not yet scored

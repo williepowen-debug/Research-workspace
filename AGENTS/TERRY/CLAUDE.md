@@ -147,6 +147,7 @@ Input: closed/failed trade. Output: thesis right/wrong, timing right/wrong, stru
    (cd "$(git rev-parse --show-toplevel)" && python3 AGENTS/TERRY/scripts/boot.py)
    ```
    Use `--snapshot TICKER [TICKER...] --stress` when the task starts with specific instruments.
+5b. **Paper-book boot-mark** (Phase-1 shadow book — `PAPER_BOOK_DESIGN.md`): mark OPEN paper rows + surface any STALE via `(cd "$(git rev-parse --show-toplevel)" && python3 AGENTS/TERRY/scripts/paper_book_mark.py)` (needs the market-data venv, like `snapshot.py`; degrades to UNMARKED — never a fabricated mark — if the chain feed is down). Marks are as-of-last-spawn/lumpy by construction. The fill rule (ask-for-buys/bid-for-sells at the trigger timestamp, wide-spread penalty, auditable `entry_basis`, never mid) lives in `PAPER_BOOK_DESIGN.md` §Fill rules — pointer, not restated here.
 6. Read `AGENTS/TERRY/CHART_OPTIONS_WORKFLOW.md` for repeatable chart/options process.
 7. Read `AGENTS/TERRY/TRADE_CARD_TEMPLATE.md` before producing a full proposal.
 8. Read `AGENTS/TERRY/TRADE_BOOK.md` and `AGENTS/TERRY/SETUPS.tsv` if the task touches existing/queued trades.
@@ -196,6 +197,9 @@ At closeout or after a trade review:
 | `charts/` | Saved chart notes/screenshots if generated. |
 | `setups/INDEX.md` | **Master card registry** — every card, status, trigger class, owner, file. Start here for "where is everything." |
 | `setups/` | Full trade-card markdown files (live/staged). Dead cards → `setups/_archive/`. |
+| `PAPER_BOOK_DESIGN.md` | Paper/shadow-book spec (Phase-1 build spec + fill/marking rules + guardrails). Authority for the fill rule. |
+| `PAPER_BOOK.tsv` | Phase-1 SHADOW BOOK — auto-filled would-fire cards, marked to close. **PAPER, card-quality, not an endorsed P&L; never a license to size up.** Survivorship: never delete a losing row. |
+| `scripts/paper_book_mark.py` | Marks OPEN paper rows at chain MID + flags STALE (>N business days). Logs+marks only; no scoring until N≥10 closed/lane. |
 
 ---
 

@@ -47,6 +47,7 @@ what's BUILT, what's EXERCISED, what's PENDING, cards fired count, open Will-dec
 | `grade_config.json` | A Q1 baseline/threshold/trap changed | Surgical edit; re-run `grade_print.py --selftest` |
 | `scripts/*.py` | A script changed | Re-run its `--selftest`; note result in the commit |
 | `daytrading/*` | A day-trading session was reviewed | Per `daytrading/README.md` (its own loop) |
+| `PAPER_BOOK.tsv` | A card reached would-fire state this session (any card — auto-fill is independent of Will's approval) | Log the paper-fill row + set `will_decision` (APPROVED/PASSED/NO-DECISION). Fill = ask-for-buys/bid-for-sells at the trigger timestamp + wide-spread penalty + auditable `entry_basis`, **never mid** — full rule in `PAPER_BOOK_DESIGN.md` §Fill rules. PAPER only, survivorship rule (never delete a losing row). |
 
 **Don't auto-touch:** `archive/`, `charts/`, `RISK_*.md`, templates (revise only when the method changes).
 
