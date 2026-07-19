@@ -1,10 +1,12 @@
 {
- "built": "2026-07-17 16:04",
+ "built": "2026-07-18 20:20",
  "channels": {
   "Credit": "watch",
-  "Energy": "watch",
+  "Energy": "crit",
+  "Equity-vol": "elev",
   "Japan/carry": "watch",
-  "Rates": "elev"
+  "Kharg tail card": "none",
+  "Rates": "crit"
  },
  "docket": [
   "2026-07-15 Q2 monolines / Axis-A (SYF/ALLY/COF/AXP)",
@@ -70,6 +72,7 @@
   "GATE-LIQ-079": "live:LIVE",
   "GATE-RESHAPE-BC": "live:LIVE",
   "GATE-SAM-30": "resolved:RESOLVED",
+  "GATE-TERRY-006": "live:LIVE",
   "GATE-TERRY-ARM1": "resolved:RESOLVED",
   "GATE-TERRY-ARM2": "resolved:RESOLVED",
   "GATE-TERRY-ARM3": "resolved:RESOLVED",
@@ -77,25 +80,23 @@
   "GATE-VIO-116": "resolved:RESOLVED"
  },
  "levels": {
-  "10Y Yield": 4.57,
-  "Brent": 76.0,
-  "CCC OAS": 975.0,
-  "Cont Claims": 1814000.0,
-  "Cushing": 19.61,
-  "HY OAS": 270.0,
+  "10Y Yield": 4.55,
+  "Brent": 88.1,
+  "CCC OAS": 969.0,
+  "Cushing": 20.04,
+  "HY OAS": 271.0,
   "Init Claims": 215000.0,
-  "MOVE": 72.41,
-  "OZK": 49.37,
-  "SOFR-IORB": -0.03,
-  "USD/JPY": 161.8,
-  "VIX": 16.0,
+  "MOVE": 68.0,
+  "OZK": 53.09,
+  "USD/JPY": 162.4,
+  "VIX": 10.189,
   "WAL": 80.69
  },
- "one": "spark tested, spark faded, fuel got fatter.",
+ "one": "Spark lit, plumbing held, recognition deferred.",
  "pending": [
-  "** HBAN fall-thesis-or-exit pre-7/23 (clocked \u2014 decide by Wed)",
-  "DEWEY impact-capture\u2192WALTER routing OK"
+  "** DEWEY impact-capture\u2192WALTER routing OK",
+  "\u2605 fresh broker export pre-7/21 (rule #4 \u2014 the only gate on Tuesday fire-decisions)"
  ],
- "split": "Break 22 / Grind 37 / Unresolved 41",
+ "split": "Break 26 / Grind 33 / Unresolved 41",
  "v": 1
 }
