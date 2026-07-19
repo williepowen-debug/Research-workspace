@@ -600,6 +600,22 @@ the fleet (worst first). <b>Fire ledger</b> = the tripwires armed on your behalf
 one ends at your desk if it trips. <b>Catalyst runway</b> = what the calendar forces.
 <b>Fleet grid</b> = who's healthy, who's drifting. Everything else is context.</p></div>
 
+<div class="panel"><h3>"Gated" vs. a heat color — two different things</h3>
+<p>A <b>gate</b> is a specific, pre-registered tripwire: a <i>measured threshold</i> + a
+<i>fixed action</i> + a <i>state</i>. Example — <span class="chip watch">GATE-RESHAPE-BC</span>:
+condition "HY OAS &gt;280 sustained OR WAL prints 7/21 AMC" → action "the bank-put reshape
+proposal comes to you." It's written down <i>before</i> the fact so it can't be rationalized
+after.</p>
+<p>To call a risk <b>"gated"</b> means we've wired that plumbing — a defined trigger and a
+defined response — so a live event produces a clean proposal at your desk instead of a
+scramble. (Kharg was an <i>open hole</i> on Fri 7/18; <i>gated</i> by Sat — same risk, now with
+a tripwire and a fire path.)</p>
+<p>A <b>heat color</b> (green/yellow/orange/red) answers a different question: <i>how hot is
+this right now.</i> A risk can be red-hot with no gate, or calm-yellow with a gate armed
+underneath it. Gates <i>watch</i>; colors <i>describe</i>. And a gate firing <b>never</b>
+executes a trade — it hands you a proposal.</p>
+<p class="own">owner: PROME/GATES.tsv (the fire-ledger canon)</p></div>
+
 <div class="panel"><h3>The fire ledger &amp; gate states</h3>
 <p>A central register of every pre-registered <i>"if X happens, someone must DO
 something"</i> rule — not predictions that merely get graded, only rules that owe an
@@ -628,6 +644,23 @@ auction-stress test (resolved NOT-FIRED 7/9), #2 is five consecutive 10Y closes 
 the card → comes to you for [Approve] with the live broker book. "Armed" never means
 "traded" — capital moves only on your explicit approval.</p>
 <p class="own">owner: AGENTS/TERRY/setups/FLOW-TRIGGER_duration-TLT-put.md</p></div>
+
+<div class="panel"><h3>A card's lifecycle: ARMED &rarr; FIRED &rarr; FILLED</h3>
+<p>Three distinct stages — the words are not interchangeable, and only the last one moves
+capital.</p>
+<table>
+<tr><td><span class="chip watch">ARMED</span></td><td>setup conditions met + the trade fully
+<i>built</i> (strikes, ladder, $500 cap) — loaded, safety on. Never means "traded."</td></tr>
+<tr><td><span class="chip elev">FIRED</span></td><td>the trigger condition crossed — the card
+now owes you a proposal (TERRY live-re-marks the strikes against the current book)</td></tr>
+<tr><td><span class="chip crit">FILLED</span></td><td>you gave [Approve] against a live broker
+book and it executed. <b>You are the trigger, not the tape</b> — nothing reaches here on its
+own.</td></tr></table>
+<p>Live example: TRY-FIRE-004 is <b>ARMED</b>, but you chose <b>NO-ADD</b> — the book already
+owns the duration grind (~$1,150 across TBT + two TLT puts). The $500 is banked for a cleaner
+red-day re-entry; if that day comes, it returns as a one-click TERRY proposal, not an
+auto-fill.</p>
+<p class="own">owner: AGENTS/TERRY/setups/ (fire cards) · PROME/GATES.tsv (gate rows)</p></div>
 
 <div class="panel"><h3>Break / Grind / Unresolved</h3>
 <p><b>NEXUS's regime probability split</b> over the next 2–6 weeks — the one numeric
