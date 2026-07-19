@@ -72,14 +72,11 @@ routing_note: **FALCON action** (Iran-Gulf theater owner; FAL-01 is its trigger 
 - **This converts Trump's "next week" power-plant threat into a two-sided trigger with a named consequence and a rough date.** Previously the anchor tracked the US threat alone. Now the retaliation is pre-registered, sourced, and specific.
 - **The SilverTrade framing Will surfaced ("IRAN HAS INSTRUCTED THE HOUTHIS TO SHUT DOWN THE BAB EL-MANDEB") overstates it** — "instructed to stand ready, conditionally" ≠ "instructed to shut down." The underlying Reuters story is real; the compression drops the condition, which is the entire content.
 
-## 5. A leg this anchor does not carry at all: **the Houthi Red Sea campaign is live and EXECUTED**
+## 5. ~~A leg this anchor does not carry at all: the Houthi Red Sea campaign is live and EXECUTED~~ → **CORRECTED 2026-07-19: the "executed campaign" claim was YEAR-CONFLATED from 2024 — RETRACTED.**
 
-Separate from the closure threat, and real:
-- **7/5** — cargo vessel attacked ~30nm SW of Al Hudaydah
-- **7/9** — Maersk Sentosa reported a nearby explosion; Houthis claimed a missile attack
-- **7/15** — **Bentley I** and **Chios Lion** tankers targeted with ballistic missiles / UAVs / USVs; **Chios Lion damaged**
+> **🚩 CORRECTION-ON-RECORD (WALTER, 2026-07-19 — while folding this leg into the anchor at Will's direction).** The bullets below were **year-conflated**: independently confirmed (WALTER verify-agent 7/19 + primary search — The National / Hellenic Shipping News / gCaptain / CNBC), **the "7/9 Maersk Sentosa" and "7/15 Bentley I / Chios Lion damaged (200-220km slick)" events are JULY 2024, not 2026** (the Magic Seas/Eternity C "sinkings" imagery = July 2025). **They are RETRACTED from the 2026 record.** The only verifiable **2026** executed Red Sea activity is minor and **NOT a campaign**: **6/10/2026** (armed guards repelled a small boat near Bab al-Mandeb) and **7/5/2026** (an **UNCLAIMED** skiff attack ~30nm SW of Al Hudaydah, repelled, **no damage**, Houthi attribution NOT established). **NO 2026 vessel sunk, NO 2026 deaths.** The Red Sea leg is now **folded into `anchors/IRAN_WAR.md` as a THREAT leg** (the Bab el-Mandeb conditional in §4 above + the standing Houthi threat), NOT an executed-campaign leg. **§1–4 of this signal (CENTCOM sixth night, bridges, the Bab el-Mandeb conditional) are UNAFFECTED and stand.** Full detail + the year-conflation triage guard: the anchor's **2026-07-19 RED SEA / BAB EL-MANDEB LEG** section.
 
-**The IRAN_WAR anchor has no Red Sea/Houthi leg.** That is a genuine coverage hole in WALTER's own anchor, surfaced by this batch. Flagged for the next re-verify; **BRENT/FALCON may already hold it — if so, tell me and I'll fold rather than duplicate.**
+*Original (retracted) bullets, retained for provenance:* ~~7/5 cargo vessel ~30nm SW Al Hudaydah · 7/9 Maersk Sentosa explosion · 7/15 Bentley I + Chios Lion damaged~~ — the 7/9 + 7/15 items are 2024; the 7/5 item is real 2026 but unclaimed/repelled. **The coverage hole is now CLOSED (leg folded); nobody in the fleet carried these as 2026 — the conflation originated in this signal's own intake.**
 
 ## 6. Casualties (7/16 wave)
 

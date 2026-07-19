@@ -32,7 +32,7 @@
 ## GAPS
 
 - **`staleness_sweep` 17d OVERDUE** (doctor MED) — a real task, not a flag; stale-frame BOARD signals may sit untagged. Carried.
-- **The IRAN anchor's Red Sea / Houthi leg** — still not folded (live + executed: 7/15 Chios Lion damaged). **Mine.** Owed at the ~7/23 full re-verify: fold in or declare BRENT/FALCON-owned. (Tonight's fold was routing-guards, not the leg.)
+- ~~The IRAN anchor's Red Sea / Houthi leg~~ **✅ RESOLVED this session (Will-directed follow-on): leg FOLDED into the anchor + a year-conflation self-correction.** The "executed campaign" (7/9 Maersk Sentosa / 7/15 Chios Lion) was **2024-conflated → RETRACTED** (verify-agent + primary search); live element = the Bab el-Mandeb conditional (threat, not executed); no 2026 sinking/deaths. BOARD `SIG-W-20260717-004` §5 + INDEX corrected on record; NOTES to FALCON (clean, didn't inherit) + BRENT (received SIG-004). New Red Sea re-verify ladder + year-conflation triage guard added.
 - **DEWEY `2026-07-02_BATCH-2_MANIFEST.md` committed but NOT on origin** (doctor `written_but_undelivered`) — DEWEY's scoped-push, not mine.
 - **Agent-birth backfill** (2 instances 7/17) — onboarding gap, still unmechanized. Candidate: a birth-date-aware BOARD sweep at registration.
 - `delivered_but_unconsumed` — known-class, self-closes as agents boot.
@@ -45,11 +45,11 @@
 
 ## FOLLOW-UP (canonical running list — survives handoff via this file)
 
-**🟢 RESOLVED this session:** DEWEY backstop-A wired (boot-step + doctor #22 + BP + ack) · 4 FALCON guards + >$85 correction + transit-baseline resolution folded into the anchor · intake lane (0/1) · inbox drained (5 → processed/) · VULCAN AMZN-weld checked = clean negative.
+**🟢 RESOLVED this session:** DEWEY backstop-A wired (boot-step + doctor #22 + BP + ack) · 4 FALCON guards + >$85 correction + transit-baseline resolution folded into the anchor · **Red Sea / Bab el-Mandeb leg FOLDED + a 2024 year-conflation self-correction** (BOARD `SIG-W-20260717-004` §5 + INDEX corrected on record; create-only NOTES to FALCON [clean] + BRENT [received SIG-004]) · intake lane (0/1) · inbox drained (5 → processed/) · VULCAN AMZN-weld checked = clean negative.
 
 **🟠 Held / carried:**
 - **Iran 7d re-verify → ~7/23.** ⚠️ Live false-fire hazards, all still circulating: **Luni cause-unconfirmed · "Bandar Abbas refinery" April-vintage · "Iraq ended loadings" refuted (SOMO chief on record) · + NEW: power-plant strikes ≠ FAL-01** (grid campaign forward-dated 7/20-26 — expect "energy infra struck" headlines that must NOT fire FAL-01) · **"new Iran GL" ≠ relief**. All now in the anchor's 7/19 fold.
-- **The anchor's Red Sea leg** (GAPS) — mine, and the one I'd do first at ~7/23.
+- ~~The anchor's Red Sea leg~~ **✅ DONE (folded + year-conflation correction; see 🟢 RESOLVED).** New residual: watch the Red Sea re-verify ladder at ~7/23 (closure order / transit collapse / a CONFIRMED 2026 event — date-checked against the conflation guard).
 - **7/22-7/31 hyperscaler window** — VULCAN's useful-life trigger, still NOT lane-armed (`edgar_8k` is item-code-only). `SIG-W-20260717-017` GPU-hour forward curve = a market-priced alternative — **VULCAN owns whether it's real/liquid/usable; first check: have the CME/ICE contracts actually STARTED TRADING?**
 - **Testables:** MU FQ4 ~8/4 · first TrendForce hit · **De Haan $4 gas call resolves ~7/20-23** (AAA $3.94 [7/16]) · 7/30 lane-query redundancy review · HEN-36 FCF gate 7/29-31.
 - **Owed by others:** FALCON re-mark (3 inputs, 7/12 marks, 4 handoffs pending; FAL-02 confirmed / re-mark B5/C30/D65 per its 7/17 memo) · **BRENT+FALCON: reconcile the WSJ ~7/13 shuttle trio vs the anchor's 7/14 trio** (double-counting inflates the escalation ledger) · REGINALD "Trepp Feb 2026 (17.11%)" likely mislabeled (INDETERMINATE; its deck) · NEXUS PRED-27/PRED-45 · BROCK TRADE.md §9 · PROME `fred_pull.py` sweep-scope + `_fred()` retry patch (`7586af8d`) · AEOLUS+MARCO consume-step.
