@@ -1,5 +1,5 @@
 # TERRY Paper-Book — BUILD-READY SPEC
-**Status:** 🟢 BUILD-READY (Will-reviewed 7/19 — 3 open questions resolved + 6 sharpenings folded in + Phase-1 build spec below). **Still gated on Will's explicit BUILD go — the spec is ready, the trigger is Will.** Originally 💡 Will's idea 2026-07-17, TERRY endorsed.
+**Status:** ✅ PHASE-1 BUILT 2026-07-19 (Will greenlit; commit `ae739980` — `PAPER_BOOK.tsv` + `scripts/paper_book_mark.py` + boot step 5b / closeout wiring + seed `PB-0001`). Phase-2 salaried desk remains DEFERRED behind the volume gate (§Phase 2). Originally 💡 Will's idea 2026-07-17, TERRY endorsed; the BUILD-READY spec below was Will-reviewed 7/19.
 **Problem it solves:** PAT-028 — 0 cards fired live → 0 track record → the card product is un-instrumentable. The only "product" so far is the *refusals* (005 gate, book-aware NO-ADD). A paper book manufactures a falsifiable track record without capital risk, and finally gives `RISK_SCORING.md` §5 (calibration/Brier) something to score. Measures **process calibration** (structure / timing / sizing / prioritization) — NOT behavioral/execution edge.
 
 ## The core insight — "salary" = opportunity cost
