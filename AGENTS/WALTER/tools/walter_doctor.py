@@ -26,6 +26,7 @@ Checks:
   delivered_but_unconsumed  inbox/WALTER/ handoff delivered but not moved to processed/ (>N days)
   written_but_undelivered   inbox/WALTER/ handoff committed-local but not on origin (git-derived)
   deep_research_pending_overdue  DEEP_RESEARCH_FLAGGED_LOG row PENDING past its deadline (or stale open >30d)
+  dewey_handoff_liveness  DEWEY handoff sitting NEW in inbox/DEWEY/ >1d (backstop-A liveness alarm)
   staleness_sweep_overdue  last STALENESS_SWEEP_*.tsv vs 14d cadence (lifecycle-tagging lapse guard)
   dropzone_pending       unprocessed items in the inbox/WILL/ desktop drop-zone (backstops step 7f)
   boot_protocol_xref     every [→ BP §x] pointer resolves to a real BOOT_PROTOCOL section (and back)
@@ -1097,6 +1098,40 @@ def check_registered_but_unrouted():
     return out
 
 
+def check_dewey_handoff_liveness():
+    """DEWEY backstop-A liveness alarm (Will-approved 2026-07-19, PROME packet
+    2026-07-19_from-PROME_dewey-routing-backstop-A). Under constrained-B, the main
+    DEWEY session now delivers reports at write-time — create-only pointer stubs into
+    each named recipient's inbox — and WALTER shifts from primary router to
+    ledger/audit owner + backstop. WALTER's boot step 7d verifies each stub actually
+    landed (delivering any DEWEY missed) and closes the DEEP_RESEARCH_FLAGGED_LOG row.
+
+    This check is the liveness net (packet §3): a handoff sitting NEW in inbox/DEWEY/
+    beyond ~1 day means the boot-step backstop hasn't run — i.e. the very
+    latency/liveness gap the change exists to close is recurring. The per-recipient
+    stub verification is the LIVE boot-step's job (step 7d); this is the mechanized
+    alarm that a handoff went unprocessed. PROME's own boot scan of inbox/DEWEY/ is
+    the final net. Same family as delivered_but_unconsumed / deep_research_pending."""
+    d = WALTER / "inbox" / "DEWEY"
+    if not d.is_dir():
+        return [(INFO, "inbox/DEWEY/ absent — no DEWEY handoff lane")]
+    skip = {"processed", "README.md", ".gitkeep", ".gitignore", ".DS_Store"}
+    pending = [p for p in d.iterdir()
+               if p.is_file() and p.name not in skip and not p.name.startswith(".")]
+    if not pending:
+        return [(INFO, "inbox/DEWEY/ clear — no unprocessed DEWEY handoffs")]
+    out = []
+    for p in sorted(pending):
+        age = _age_days(dt.date.fromtimestamp(p.stat().st_mtime))
+        if age > 1:
+            out.append((MED, f"{p.name}: {age}d NEW — run boot step 7d: verify each "
+                            f"recipient stub landed (deliver any DEWEY missed) + close the "
+                            f"DEEP_RESEARCH_FLAGGED_LOG row + git-mv to processed/"))
+        else:
+            out.append((INFO, f"{p.name}: {age}d (fresh) — process at boot step 7d"))
+    return out
+
+
 CHECKS = [
     ("version_drift", check_version_drift),
     ("claude_md_version_drift", check_claude_md_version_drift),
@@ -1113,6 +1148,7 @@ CHECKS = [
     ("delivered_but_unconsumed", check_delivered_but_unconsumed),
     ("written_but_undelivered", check_written_but_undelivered),
     ("deep_research_pending_overdue", check_deep_research_pending_overdue),
+    ("dewey_handoff_liveness", check_dewey_handoff_liveness),
     ("staleness_sweep_overdue", check_staleness_sweep_overdue),
     ("dropzone_pending", check_dropzone_pending),
     ("boot_protocol_xref", check_boot_protocol_xref),
