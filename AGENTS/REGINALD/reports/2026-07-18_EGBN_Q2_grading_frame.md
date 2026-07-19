@@ -1,5 +1,5 @@
 # EGBN Q2 2026 — Pre-Registered Grading Frame
-**Print:** release **after close Tue July 22, 2026**; call **Wed 7/23 10:00am EDT** (CEO **Stephen Curley** — his FIRST call as CEO, eff. 7/6 — + CFO **Eric Newell**). Source: Eagle Bancorp GlobeNewswire/Nasdaq/StockTitan, release dated **2026-07-08** (primary company announcement).
+**Print:** release **after close Wed July 22, 2026**; call **Thu 7/23 10:00am EDT** (CEO **Stephen Curley** — his FIRST call as CEO, eff. 7/6 — + CFO **Eric Newell**). Source: Eagle Bancorp GlobeNewswire/Nasdaq/StockTitan, release dated **2026-07-08** (primary company announcement).
 **Pre-registered:** 2026-07-18 (Sat, 4 days out, BEFORE the print — thresholds fixed now so print-day is mechanical, not motivated). **Owner:** REGINALD (EGBN = REGINALD-primary, Tier-1 matrix score **20**, tied #1 with WAL). Companion to `WAL/Q2_GRADING_FRAME_2026-07-21.md` + OZK's frozen card `../OZK/workbook/Q2_2026_SCORING_CARD.md`.
 **Q1 baseline source (primary-verified):** `research/CRE_DQ_BY_TIER_2026-06-20.md` — EGBN Q1'26 10-Q, accession **0001050441-26-000066** (self-verified 6/20).
 
@@ -58,7 +58,7 @@ Curley's **first call as CEO** (planned succession, NOT distress). New CEOs freq
 | **No** reserve build **despite** rising nonaccrual + thinning coverage | **BEAR — under-provisioning** (the 114%→ thinning path continues; new CEO chose not to catch up). |
 **Rule:** the overlay resolves by pairing the provision move with the nonaccrual/criticized direction — a build alone is ambiguous; a build against improving credit = reset, a build against deteriorating credit = deterioration.
 
-## 6. Print-day read order (pull in this sequence, Tue 7/22 AMC release + Wed 7/23 call)
+## 6. Print-day read order (pull in this sequence, Wed 7/22 AMC release + Thu 7/23 call)
 1. **ACL/NPL coverage** (§1) — the headline conviction number vs 114%.
 2. **CRE/office nonaccrual $ + count of NEW named migrations** (§2/§4).
 3. **Disposition of the Q1 office relationship** (§3 A/B/C/D) — press + Mgmt narrative + Wed Q&A.

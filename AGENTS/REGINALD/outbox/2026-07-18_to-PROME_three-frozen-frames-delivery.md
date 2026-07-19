@@ -7,7 +7,7 @@
 |---|---|---|---|
 | ZION | **Mon 7/20 5:30pm AMC** | — | Zions release-dates (PROME-verified 7/9) |
 | WAL + OZK | Tue 7/21 AMC | 7/22 | (frozen frames exist) |
-| **EGBN** | **Tue 7/22 AMC** | **Wed 7/23 10am** (Curley+Newell) | GlobeNewswire 7/8 |
+| **EGBN** | **Wed 7/22 AMC** | **Thu 7/23 10am** (Curley+Newell) | GlobeNewswire 7/8 |
 | **BKU** | **Wed 7/22 BMO** 9am | 7/22 | BusinessWire/StockTitan 6/23 |
 | **SSB** | **Thu 7/23 AMC** | 7/24 | StockTitan/TradingView |
 | **AMTB** | **Thu 7/23 AMC** | 7/24 9am | BusinessWire 6/26 |
