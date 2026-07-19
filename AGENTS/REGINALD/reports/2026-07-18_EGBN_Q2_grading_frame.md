@@ -22,6 +22,30 @@
 
 ---
 
+## ★ 0b. ADDITIONAL Q1 2026 PRIMARY ANCHORS (added 2026-07-18; §0 covered the credit ratios, this fills the absolute $ + non-credit gaps)
+*Pulled from primary EDGAR so Wed's grade is mechanical. Sources: Q1 2026 8-K EX-99.1 (acc 0001050441-26-000062, 4/22) + Q1 2026 10-Q (acc 0001050441-26-000066). ACL/provision/NCO/NIM/AOCI/TBV self-curl-verified vs EX-99.1. Does NOT alter §1–§5 pre-commitments — it arms them.*
+
+| Item | **Q1 2026** | Q4 2025 | QoQ | Anchors which grade |
+|---|---|---|---|---|
+| **ACL absolute $** | **$147.2M** | $159.6M | **−$12.4M (drawn down)** | §1 coverage / §5 build-vs-release |
+| ACL / total loans HFI | 2.12% | 2.19% | −7bps | §1 |
+| **Provision for credit losses $** | **$13.4M** | $15.5M | −$2.1M (shrank) | §5 — **below** NCOs = net release |
+| **Net charge-offs $ (qtr)** | **$26.0M** | $12.3M | **+112% (>doubled)** | §3 — NCO already elevated (1.46% ann. vs 0.67%) |
+| **NIM** | **2.47%** | 2.38% | +9bps | non-credit / ZION cross-read |
+| Cost of interest-bearing deposits | 3.42% | 3.62% | −20bps (falling) | non-credit |
+| **AOCI balance** | **−$90.1M** | −$89.2M | −$0.9M (worsened) | non-credit / ZION AOCI cross-read |
+| AFS net unrealized loss (pre-tax) | −$78.5M | −$78.4M | ~flat | non-credit |
+| **TBVPS** | **$37.56** | $37.26 | +$0.30 | non-credit / capital |
+| TCE ratio | 11.51% | ~11.3% | +bps | capital cushion |
+| EPS diluted / Net income | **$0.48** / $14.7M | −$0.08 / −$2.4M | swung positive | context (Q4 had the office-overlay build) |
+| Total loans HFI / deposits | $6.94B / $8.59B | $7.28B / $9.13B | both shrinking | balance-sheet shrink drove the NIM gain |
+
+**🔑 The baseline reframe that ARMS §5 (do not miss Wed):** §0 framed the bear signal as "coverage thinned 149%→114% = reserves not keeping pace." The absolute figures show a **stronger** mechanism — EGBN **actively RELEASED reserves**: ACL fell $12.4M because provision ($13.4M) ran *below* NCOs ($26.0M), and the release was **explicitly the CRE-office qualitative overlay** (release verbatim: *"the decrease was primarily driven by a decrease in the qualitative office overlay"*), all while **NCOs more than doubled to 1.46% annualized.** So the Q1 baseline trajectory is *reserve release into rising charge-offs.* This inverts the §5 default prior: a **Curley Q2 reserve BUILD would be reversing his predecessor's release** → a *stronger* kitchen-sink signal than a build off a flat baseline; a **continued release + coverage <114%** → the §5-row-3 under-provisioning bear path, now evidenced as a *multi-quarter* release, not a one-off.
+
+**⚠️ Provenance flag on §0's "IPRE criticized $457.1M":** that figure is **deck/slide-sourced** (Q1 earnings deck), NOT in the EX-99.1 release or 10-Q credit tables — those disclose only *total* criticized (Special Mention $290.8M + Substandard $447.6M = $738.4M, all portfolios). The Q2 deck may not reprint the same IPRE-specific cut; if it doesn't, grade §6-item-5 off the **total SM + Substandard** direction instead, and note the IPRE-only number as deck-dependent.
+
+---
+
 ## 1. THE PRE-COMMITTED GRADE LADDER — coverage direction (conviction-governing, EGBN's analog to OZK's classified-vs-RESG)
 Q1 baseline **ACL/NPL 114%** (was 149%).
 | Q2 ACL/NPL coverage reading | Pre-committed grade | Why (fixed now — do NOT re-rationalize on the day) |
@@ -70,6 +94,7 @@ Curley's **first call as CEO** (planned succession, NOT distress). New CEOs freq
 ## 7. Cross-reads
 - **WAL/OZK (7/21, day BEFORE):** EGBN prints one day after the double-fire — read EGBN's office-migration/coverage against whatever WAL Office-classified (REG-24) and OZK RESG-classified (OZK-07) did Tuesday. Three concentrated CRE names in 48h; a **shared** office/CRE-nonaccrual rise across EGBN+WAL+OZK = concentration-cohort breaking (raises conviction on the whole CRE channel); EGBN clean while WAL/OZK creep = keeps it name-by-name.
 - **CFG benchmark (printed 7/16 clean, CRE-led nonaccrual DECLINE):** any EGBN CRE-nonaccrual RISE against CFG's clean CRE workout reads MORE idiosyncratic-to-EGBN's-DC-office concentration.
+- **ZION AOCI/NIM cross-read (printed Mon 7/20, 2 days before):** EGBN is same-tier Cat III/IV. Baseline non-credit anchors (§0b): EGBN AOCI −$90.1M, AFS unrealized loss −$78.5M (flat QoQ), NIM 2.47% (up on a shrinking book), TBVPS $37.56. Compare EGBN's Q2 AOCI/AFS-marks direction against ZION Monday's — a **shared** tier-wide AOCI widening corroborates the higher-for-longer capital drag; EGBN benign while ZION drags (or vice-versa) = idiosyncratic balance-sheet management. Low weight vs the credit axis, but it's the second independent tier data point on the AOCI leg.
 - **No REGINALD position on EGBN** (Jun-18 $25P cleared) — this frame governs the READ + Matrix/STATUS score, not a trade. A position decision would be a separate TERRY/Will call needing a live chain + broker book.
 
 ## 8. Pre-print probability summary (calibration honesty)
@@ -81,4 +106,4 @@ Curley's **first call as CEO** (planned succession, NOT distress). New CEOs freq
 | 2+ NEW office migrations (escalation) | ~20% | 7/22 |
 | Curley kitchen-sink reset (build against flat/down credit) | ~30% | 7/22-23 |
 
-*Grades pre-registered 2026-07-18. Post-print: fill RESULT against this frame verbatim; update the STATUS EGBN Matrix row + `BANK_EXPOSURE_MATRIX.md`. Do NOT edit the pre-registrations after the print — this is the honesty record. [[finding_pre_registration_discipline_through_corroboration]]*
+*Grades pre-registered 2026-07-18; **Q1 absolute-$ + non-credit baseline armed same day** (§0b, primary EDGAR, ACL/provision/NCO/NIM/AOCI/TBV self-verified). Post-print (Wed 7/22 AMC): fill RESULT against this frame verbatim, comparing Q2 vs the §0/§0b baselines; update the STATUS EGBN Matrix row + `BANK_EXPOSURE_MATRIX.md`. Do NOT edit the pre-registrations after the print — this is the honesty record. [[finding_pre_registration_discipline_through_corroboration]]*
