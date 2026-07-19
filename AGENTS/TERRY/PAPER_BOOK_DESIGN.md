@@ -91,6 +91,9 @@ The **7/17 004 re-fire ZONE 2/3** (77P × 45ct = $495) is the natural seed: it r
 
 ---
 
+## Post-build refinements (TERRY, next boot — non-blocking)
+Surfaced by the 7/19 build verification (PROME): (1) **live marks need `.venv/bin/python`** (yfinance), not bare `python3` — the mark helper degrades to UNMARKED under bare python; boot step 5b notes it, but confirm your boot invokes the venv. (2) **Seed PB-0001 `entry_basis` says "live pull"** for a 7/17 timestamp — tidy to "last-close pull" (the $0.11 value is the correct documented basis) and confirm the **Sep-30** expiry matches the ZONE 2/3 card (arm ladder was Sep-18; the 7/17 re-fire crash-tail may legitimately differ — just verify).
+
 ## Phase 2 — SALARIED DESK (deferred behind the volume gate)
 Notional bankroll (e.g. $10k, or a monthly salary tranche), prioritization, running equity curve. **Build ONLY once the trailing would-fire rate exceeds the salary-tranche capacity** (Sharpening 4) — until prioritization actually binds, it measures nothing. Clearly labeled SEPARATE and bound by the same-rules guardrail.
 
