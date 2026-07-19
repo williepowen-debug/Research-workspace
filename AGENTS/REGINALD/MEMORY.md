@@ -57,7 +57,7 @@
 
 ## Session Notes
 
-⚠️ **Open question / owed (7/18 close):** **The POSITIONS.md broker refresh is STILL the one gate before any 7/21 fire decision** — off-repo truth (rule #4), only Will can supply it: (a) Jul-17 expiry outcomes (WAL $65P / ZION $57.5P / FLG $13P — all lapsed OTM), (b) the live book into Tuesday's WAL+OZK AMC double-print. Everything else print-ready (frames FROZEN, benchmark stack clean, ALLY pin installed). **HBAN decision owed FROM Will by Wed 7/22** — my brief (`reports/2026-07-18_HBAN...`) recommends EXIT-thesis; he decides Monday. **WAL promotion request to DAEDALUS — await review, chase post-print** (cutover window 7/23). *(Deferred: domain-sweep [task 4 tonight], thesis v2.3 rewrite, KB reconstruction — post-7/21.)*
+⚠️ **Open question / owed (7/18 FINAL close):** **The POSITIONS.md broker refresh is the ONE remaining gate before any 7/21 fire** — off-repo truth (rule #4), only Will can supply: (a) Jul-17 expiry outcomes (WAL $65P / ZION $57.5P / FLG $13P — all lapsed OTM), (b) the live book into Tuesday's WAL+OZK double-print. Everything analytic is print-ready: **5 grading frames FROZEN** (WAL/OZK Tue + EGBN Wed + small-tier-FL 7/22-28 + ZION Mon), benchmark stack clean, ALLY pin installed. **HBAN RESOLVED** (Will ruled EXIT-thesis 7/18, DOCKET row updated — dust rides, zero further effort). **WAL promotion request to DAEDALUS — await review, chase post-print** (cutover 7/23). *(Deferred: domain-sweep, thesis v2.3 rewrite, KB reconstruction — post-7/21.)*
 
 **Push status:** committing + safe-push at this closeout per protocol (4 agents + PROME concurrent tonight — pathspec own-dir only, non-ff → pull --rebase).
 
