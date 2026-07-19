@@ -1,4 +1,6 @@
 ---
+status: SUPERSEDED
+status_ref: "Anchor-update re-stamping the canonical state to DE-ESCALATION (verified-as-of 2026-07-04). Superseded 5 days later by the truce collapse — SIG-W-20260709-004 (7/9 de-facto collapse re-stamp) — then definitively by SIG-W-20260716-002 (7/16 kinetic re-verify: enforcement crossed declaratory→PHYSICAL, MOU formally repudiated, oil decoupling broke) + the 7/17 addendum + 7/19 folds. anchors/IRAN_WAR.md is canonical; current state is active re-escalation, NOT de-escalation. Tagged 2026-07-19 staleness sweep (first post-7/16-re-stamp sweep)."
 signal_id: SIG-W-20260704-002
 dispatched: 2026-07-04T15:45:00Z
 origin: WALTER Iran-anchor re-verify + re-stamp (2026-07-04, Will-approved) — 2 independent verify-research sub-agents, converged HIGH
