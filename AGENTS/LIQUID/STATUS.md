@@ -101,7 +101,6 @@ Credit-bear thesis stays ARMED, not confirmed: HY OAS **271bps [7/15]** sits 9bp
 | `workbook/ORCL_FALLEN_ANGEL_MAP.md` | **ORCL fallen-angel trigger map (7/18, KB-082)** — cross-agency ladder (S&P BBB−/Moody's Baa2-neg/Fitch BBB), index middle/avg mechanics, ~$130-160B forced-sell sizing, GATE-069 2nd-leg fire condition (R1 = Moody's→Baa3) |
 | `workbook/AUCTION_FRAMEWORK.md` · `workbook/TIC_FRAMEWORK.md` | Foreign-demand / auction-bid reference |
 | `workbook/EXPECTED_SIGNALS_TRACKER.md` | Absence-is-data tracker (ES-LIQ-01..05: FHLB / sponsored-repo / MMF WAM / FTD / CCY-basis) — born 7/11, ask-8 closed |
-| `workbook/CPI_20260714_CREDIT_PREREG.md` | CPI 7/14 event-day hot/soft/in-line credit branches (pre-registered 7/11; DELETE-BY 7/17 post-grade) |
 | `workbook/DEALER_POSITIONING_NEXUS_WATCH.md` | 3-leg amplification conjunction (SOFR-short / dealer warehouse / MOVE) — ARMED-WATCH, 2-of-3 fire rule (KB-LIQ-076) |
 | `workbook/CONSUMER_CREDIT_MONOLINES_PREREG.md` | March consumer thread revived; confirm/refute lines vs SYF/ALLY/COF/AXP Q2 prints (KB-LIQ-077; DELETE-BY ~7/25) |
 | `scripts/hy_oas_watch.py` | Unattended HY OAS X1/kill watcher (systemd timer; alerts/ surface) |
