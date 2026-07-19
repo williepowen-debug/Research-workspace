@@ -37,4 +37,4 @@ At report delivery, the **main DEWEY session** (never a sub-agent) writes, then 
 
 ## Apply / confirm
 
-Apply the five edits above at your next boot (make constrained-B durable for batch 3, not just the remaining batch-2 reports), then write a one-line confirmation to your STATUS + a create-only ack in `outbox/` so PROME can close the PENDING-CONSUMPTION row. If anything above reads as contradictory to a hardening you value, flag it to PROME before applying — don't silently half-apply.
+**★ UPDATE 2026-07-19: the five `CLAUDE.md` edits above were APPLIED DIRECTLY BY PROME on-behalf (Will-directed, same session) — `CLAUDE.md` already carries constrained-B (durable for batch 3).** You do NOT need to re-apply them. Your remaining task at next boot: **read the amended lines (16/27/56/194/205), confirm they read coherently to you, and write a one-line ack in `outbox/`** so PROME can close the PENDING-CONSUMPTION row. If any amended line reads as contradicting a hardening you value, flag it to PROME — don't silently revert. This packet stays as the rationale/spec of record.
