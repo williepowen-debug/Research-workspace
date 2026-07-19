@@ -42,5 +42,15 @@ One line per rail: instrument → reading → pre-committed grade → consequenc
 - **Top OZK rules:** Z1 OZK-07 = strict conjunction, all other sign combos FALSE (both-rise logs "still building" outside the grade) · Z2 freeze the $1,215M Supplement line-set BEFORE the print (OZK's own open TODO — the $154M 10-Q/Supplement gap can flip the conviction-governing row) · Z3 OZK-08 fires on ≥2 RaDD anchors, naming not required, **Seattle/Chapter affirmatively excludes** · Z5 Chapter $15-30M fail-band watch-add (DOCKET-live, was missing from the card; not a graded row).
 - Data-note: WAL frame §6 "$81.88 [7/17]" → actual close **$82.30** (yfinance 7/18; context-only).
 
+## 6. SIDE-PRED-BANKS-0721 — squeeze-lean side-prediction (PROME; registered 2026-07-18 Sat night, Will-directed "capture, don't buy"; NO capital, NOT a trigger)
+**The claim being tested:** crowded shorts + de-risked Street → a clean print meets forced buying (OZK SI 14.7% float; WAL SI 4.91% +27.75% 6/15→6/30, zero PT raises since 7/1). Purpose = **calibration of the positioning-read logic only** — a graded lean informs future print-week reads + reshape entry timing; it never fires anything. Registered INSTEAD of a short-dated OZK call (Will's call 7/18: edge post-IV-crush too thin, fails the fired-trigger deploy rule).
+**Frozen terms (grade Wed 7/22 night off daily closes, yfinance; baselines: OZK $52.01 / WAL $82.30 [7/17 close]; reaction day = Wed 7/22, the first full session after both AMC prints):**
+| Leg | Prediction | P | Grades |
+|---|---|---|---|
+| A1 | OZK Wed 7/22 close > Tue 7/21 close (unconditional direction) | **60%** | Wed close |
+| A2 | **IF** Tuesday's card grades benign (OZK-05 FALSE **AND** OZK-07 FALSE) **THEN** OZK Wed close ≥ **+3.0%** vs Tue close (the squeeze-grade pop) | **65%** | Wed close; **VOID if the IF-branch fails** (bear-grade print = different experiment) |
+| B1 | **IF** WAL Stage-1 grades NEUTRAL or priced-band (REG-25 ≤55bps, no REG-26) **THEN** WAL Wed close > Tue close | **65%** | Wed close; VOID if the IF-branch fails |
+**Grading discipline:** mechanical off closes at printed precision; conditionals VOID (not FALSE) when their IF-branch fails; log Briers in the §4 grade log; one-line lesson either way (was the SI/de-risked-Street reaction function predictive?). Do NOT retro-fit magnitude bars after Tuesday's tape.
+
 ---
 *Runbook = sequencing + fire-path index only. The frames stay canonical for every threshold. Levels cited above carry their observation dates — refresh live before citing Tuesday.*
