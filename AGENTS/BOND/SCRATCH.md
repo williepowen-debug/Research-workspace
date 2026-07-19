@@ -36,6 +36,11 @@
 - Inbox: 4 consumed items → processed/ (RED label-check, LIQUID eu-reconcile, PROME eu-approved, CARL weld). Task packet + may-tic-arm3 (old, PROME-owned grade) left in place.
 - Outbox (new, PROME routes): `2026-07-18_to-PROME_label-check-eu-reconcile-weld.md`. NEXUS_BRIEF.md created.
 
+## CLOSEOUT (this pass — full BOND protocol steps 9-17)
+- **PREDICTIONS: BND-12 RESOLVED FALSE** (30Y closed >5.00 for 8 consecutive sessions 7/7→7/16; threshold FIRED but mechanism intact = "expensive intensified, still not broken", threshold_vs_mechanism). Only **BND-01 OPEN** (in-window till 7/31; HY 275 vs 350).
+- Mirror fixes: STATUS exit-rules + calendar, THESIS scoreboard (BND-11 TRUE / BND-12 FALSE, 7 straight benign). Docket: 40Y JGB added to 7/22, FOMC odds refreshed (29%→HOLD ~90%, guidance-tone framing).
+- **Auto-memory promoted:** `memory/auto/finding_curve_shape_policypath_vs_termpremium.md` (curve-shape discriminator). ⚠️ **PENDING: index line + commit of memory/auto/ flagged to PROME** (outside BOND dir, concurrently edited — not self-committed).
+
 ## WORKBOOK / PUSH HEALTH
-- KB-BND-080/081/082 appended (13-col, CRLF-preserved). VX-BND-14/19 updated. THESIS v1.1.2 + CHANGELOG.
-- Commits path-scoped BOND-only (4 agents + PROME concurrent tonight — never `git add -A`). Auto-push via safe-push.sh; non-ff → pull --rebase + re-push.
+- KB-BND-080/081/082 appended (13-col, CRLF-preserved). VX-BND-14/19 updated. THESIS v1.1.2 + CHANGELOG. PREDICTIONS BND-12 resolved.
+- 3 BOND commits this session (round1 6b0b1e48, round2 3cc23769, closeout pending). Path-scoped BOND-only (4 agents + PROME concurrent — never `git add -A`). Auto-push via safe-push.sh; non-ff → pull --rebase + re-push.
