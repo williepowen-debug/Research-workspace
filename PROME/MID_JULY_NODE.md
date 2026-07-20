@@ -3,6 +3,7 @@
 > **This is a VIEW, not canon.** Canonical dated rows = `PROME/DOCKET.tsv` (wins on any drift). This file is the at-a-glance node structure + live resolution log.
 > **⏳ RETIRE ~2026-08-01** — once the 7/28–29 knot resolves, fold outcomes into `memory/` + archive this file. Do not let it outlive the node.
 > **Owner:** PROME · **Synced from DOCKET:** 2026-07-09 eve (prior 7/6) · **Discoverable via:** SCRATCH entry-point 0.
+> **⚠️ STALE-VINTAGE WARNING (added 7/20 sweep):** everything below is **PRE-CLOSURE 7/9 vintage** — it predates the formal Hormuz closure (7/11-12), energy 🔴 re-arm (7/16), TRY-FIRE-004 arm+fill (7/13→7/20 — HOLD FLAT is superseded, first live deploy $330), HBAN EXIT-THESIS (7/18), and the verified 7/20→7/28 bank-print dates. **Do not read any state/regime token below as current** — DOCKET.tsv + HEARTBEAT govern. Re-sync-or-early-retire decision queued at PROME closeout 7/20.
 
 ## The story (one-liner)
 **Two independent stress axes test in one ~2-week window, hinged on June CPI (7/14).** A *credit-recognition* axis (correlated — one Q2 credit cycle, three at-bats), a *rates/Asia demand-hole* overlay, and a *vol amplifier* sitting on the hinge. **Base rate = passes benign (like the X1 gate did).** It only earns real bandwidth if the hinge breaks.
