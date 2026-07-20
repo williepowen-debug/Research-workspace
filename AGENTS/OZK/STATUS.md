@@ -1,6 +1,6 @@
 # OZK — Dashboard
 
-**Updated:** 2026-07-18 (10-Q read + D-severity re-derivation + price/SI/regime pull — see MEMORY LAST SESSION) | **Price:** $52.01 [7/17 close, −2.03%; **+4.75% since 7/6**, near 12-mo high $53.09 on 7/16] | **TBV:** $47.15 [Q1'26] | **P/TBV:** ~1.10×
+**Updated:** 2026-07-20 (pre-print readiness: firedrill Z1–Z10 adopted as scoring-card ADDENDUM A; ★Z2 $154M gap RESOLVED = foreclosed-assets line, classified line-set frozen; WALTER SIGs dispositioned INFO_ONLY. Prior 7/18: 10-Q read + D-severity re-derivation) | **Price:** $52.01 [7/17 close; last $52.01 pre-mkt 7/20 per PROME, off 7/16 $53.09 high] | **TBV:** $47.15 [Q1'26] | **P/TBV:** ~1.10×
 **Thesis:** RESERVOIR v1.5 (recognition-timing refinement — appraisal-gated deferral; no direction change) | **Conviction:** 🔴🔴 HIGH | **KB:** 216 rows / 33 groups
 **Short interest:** **14.7% of float** (14.91M sh, 6/30/26 FINRA), ~11.7 days-to-cover — structurally crowded (avg 15.1% / 12mo, peak 18.3%), re-building off a 4/30 low into the print. Squeeze risk if Jul-21 prints quiet. [standing field — refresh at settlement via Nasdaq API]
 **Next hard catalyst:** OZK **Q2 earnings Tue Jul 21, 2026** (call Jul 22) → dress rehearsal for **IQHQ RaDD maturity Aug 2026** (weighted EL $140M on $555M funded; recognition appraisal-gated/back-loaded — see §BOTTOM LINE)
@@ -74,7 +74,7 @@
 | IQHQ specific reserve | Not broken out Q1 | Any positive Q2 (Jul 21) | Scenario B firing early |
 | Sub notes reprice | Oct 1 2026 | Pre-reprice refi announcement | +$12.8M/yr · Tier 2 −20% |
 
-**⚑ Jul-21 reads pre-registered** (falsifiable, 2026-07-04; **armed 7/18 off the Q1'26 10-Q**) → `workbook/PREDICTIONS.tsv` OZK-05→09: NCO kill-line (05, 50%), past-due >$550M (06, 40%), **★classified-vs-RESG discriminator (07, 55% — conviction-governing)**, IQHQ Q2 pre-reserve (08, 28%), Aug terminal $140M+ event (09, **68%→52%** re-marked 7/18 — 10-Q collateral-dependent methodology means a Scenario-B migration can book ~$0 reserve; P($140M+ *recognition*) ≠ P(B∪D); severity band unchanged). *(OZK-01 also resolves Jul-21, tracking FALSE.)*
+**⚑ Jul-21 reads pre-registered** (falsifiable, 2026-07-04; **armed 7/18 off the Q1'26 10-Q**; **disambiguation ADDENDUM A adopted 7/20 — Z1–Z10 measurement/precedence/timing rules, zero thresholds moved**, incl. the ★Z2 frozen classified line-set) → `workbook/Q2_2026_SCORING_CARD.md` + `workbook/PREDICTIONS.tsv` OZK-05→09: NCO kill-line (05, 50%), past-due >$550M (06, 40%), **★classified-vs-RESG discriminator (07, 55% — conviction-governing)**, IQHQ Q2 pre-reserve (08, 28%), Aug terminal $140M+ event (09, **68%→52%** re-marked 7/18 — 10-Q collateral-dependent methodology means a Scenario-B migration can book ~$0 reserve; P($140M+ *recognition*) ≠ P(B∪D); severity band unchanged). *(OZK-01 also resolves Jul-21, tracking FALSE.)*
 
 **Cross-feed (regime INVERTED since Apr — ref only, [[REGINALD]] owns):** KRE $75.02 [live 7/4] · HY OAS **278bps** [FRED 6/25, 2bp from 280 X1 trigger] · Brent **~$72** [live 7/4] — 🔴 **prior "stagflation re-heating / Brent $102" frame is DEAD.** New macro tailwind for banks: energy deflated, VIX 15.8, credit still tight-but-armed.
 
