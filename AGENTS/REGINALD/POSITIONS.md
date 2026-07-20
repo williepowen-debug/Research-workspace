@@ -1,8 +1,8 @@
 # REGINALD — Thesis Positions
 
-**Updated:** 2026-07-18 (RECONCILED to the `FORGE/STATUS.md` 2026-07-16 ~10:09 ET broker reconcile — Will's Fidelity+Robinhood export; absorbed strikes/expiries/**quantities** that this file had never carried, cleared the Jun-30 cluster, moved the Jul-17 legs to LAPSED). Prior: 2026-06-19 (Jun 18 cluster cleared), 2026-05-21, 2026-05-08 from broker (typed list).
+**Updated:** 2026-07-20 (FOLDED the fresh `FORGE/STATUS.md` **7/20 broker export** — PROME reconcile 7/16→7/20, commit `b7c26f21`: added the NEW Robinhood **WAL $77.5P Aug-21 ×1** [nearest-money print exposure], confirmed the Jul-17 dust expired off + cash flat = NO-ADD held + core Fidelity book position-for-position unchanged). Prior: 2026-07-18 (reconciled to the 7/16 export — strikes/expiries/**quantities** absorbed, Jun-30 cluster cleared, Jul-17 legs → LAPSED); 2026-06-19, 2026-05-21, 2026-05-08.
 
-> ⚠️ **Broker-truth caveat (rule #4):** the structural data below (strikes/expiries/quantities) is now current to the **7/16 FORGE broker reconcile** — the last real broker export. Two things remain owed from Will before any 7/21 fire: (a) confirmation of the **7/17 expiry execution** (WAL $65P / ZION $57.5P / FLG $13P — all deep-OTM at 7/17 tape, presumed expired worthless, moved to LAPSED below); (b) a **fresh broker export** capturing any intra-week (7/16→7/21) change. Marks/P&L go stale immediately — do NOT cite from here; strikes/expiries/quantities are structural and hold until a trade fires.
+> ⚠️ **Broker-truth caveat (rule #4):** the structural data below (strikes/expiries/quantities) is now current to the **7/20 FORGE broker export** — the freshest real export, which resolves both items formerly owed: (a) the **7/17 expiry** dust confirmed expired off (Fidelity WAL $65P / ZION $57.5P / FLG ×3 + Robinhood WAL $75P etc.); (b) the **intra-week (7/16→7/20) delta** — one net change: RH WAL $77.5P Aug-21 ×1 added; cash ~flat (+$7.59) = no other fills; core book unchanged. Marks/P&L go stale immediately — do NOT cite from here; strikes/expiries/quantities are structural and hold until a trade fires.
 >
 > ✅ **Independently corroborated 2026-07-18 vs TERRY's position snapshot** (`AGENTS/TERRY/STATUS.md`, from Will's live broker screenshots **7/17 ~12:30 ET — one day newer** than the 7/16 FORGE reconcile): every REGINALD-scope leg matches on strike/expiry/qty — WAL Sep-18 70P×1 + 67.5P×1 · KRE 60P ×10 · HBAN 16P Oct-16 ×2 · APO 95P Dec-18 ×1 (peer OZK Aug-21 45P×4 + 42.5P×1 also confirmed). The Jul-17 thesis legs are absent from TERRY's main-book table (confirms LAPSED). Structural book verified; only the marks differ (TERRY carries live 7/17 marks, now stale).
 
@@ -10,7 +10,7 @@
 
 ⚠️ **THIS FILE IS CANONICAL for strikes/expiries.** STATUS.md / CALENDAR.md must POINT here, not re-list — re-listing is how the 6/19 desync happened (SSB $90P real-but-sold/unrecorded, IWM $250P/$257P strike+expiry error, 4 missing names; see LESSONS). Before any position task: **grep this file first**, never trust a dashboard cluster list.
 
-⚠️ **Contract quantities not in this rewrite** — broker list was strike/expiry rows only. Reference `FORGE/STATUS.md` for quantities (currently Mar 25 stale — FORGE refresh from this broker data recommended). **Cost-basis/P&L: confirm with Will, not from this file** (per [[feedback_position_cost_basis_not_authoritative]]).
+✅ **Contract quantities ARE now carried in this file** (absorbed at the 7/16 FORGE reconcile; re-confirmed against the 7/20 export — see below). *(This line replaced the obsolete "quantities not in this rewrite / FORGE Mar-25 stale" paragraph, which contradicted the rewrite — cleared 7/20 per PROME fire-drill nit.)* **Cost-basis/P&L: confirm with Will, not from this file** (per [[feedback_position_cost_basis_not_authoritative]]).
 
 ---
 
@@ -38,6 +38,7 @@ Will confirms 6/19: SSB $90P **was a real position, believed sold** (can't recal
 
 | Ticker | Strike | Expiry | Qty | Notes |
 |---|---|---|---|---|
+| WAL | $77.5P | Aug-21-2026 | 1 | **NEW (FORGE 7/20 export) — Robinhood, Will direct entry ~7/17-20. NEAREST-money WAL leg (~5.8% OTM at $82.30); post-print expiry → SURVIVES the 7/21 AMC print.** |
 | WAL | $67.5P | Sep-18-2026 | 1 | core REINFORCED-HOLD — **catches the 7/21 AMC Q2 print** |
 | WAL | $70P | Sep-18-2026 | 1 | core REINFORCED-HOLD — catches the 7/21 print |
 | KRE | $60P | Aug-21-2026 | 3 | tail-risk insurance (deep-OTM vs ~$77 tape) |
@@ -71,7 +72,7 @@ Prior ⚠️-flagged Jun-30 cluster now confirmed expired worthless (absent from
 
 ## Key Context
 
-- **WAL** — the live thesis core is **Sep-18 $67.5P ×1 + $70P ×1** (REINFORCED-HOLD per v2.2 deltas); these are the tenor that **catches the 7/21 AMC Q2 print**. The Jul-17 $65P (lapsed OTM 7/17) never caught the print — Jul-17 died 2 trading days before the AMC release. Jun-18 cluster (incl. $77.5P/$85P) cleared 6/18.
+- **WAL** — the live thesis core is **Sep-18 $67.5P ×1 + $70P ×1** (REINFORCED-HOLD per v2.2 deltas) **plus the NEW Robinhood $77.5P Aug-21 ×1** (Will direct entry ~7/17-20, folded from the FORGE 7/20 export). All three **catch the 7/21 AMC Q2 print**; the **$77.5P Aug-21 is now the nearest-money WAL leg** (~5.8% OTM at $82.30 vs the Sep-18s ~15-18% OTM) and expires post-print so it survives the release. The Jul-17 $65P (lapsed OTM 7/17) never caught the print — Jul-17 died 2 trading days before the AMC release. Jun-18 cluster (incl. an earlier $77.5P/$85P) cleared 6/18. **Any 7/21 fire-time reshape/harvest arithmetic rebuilds from the 7/20 export, not older tables** (rule #4).
 - **KRE** — live tail is **10× $60P** across 3 expiries (Aug-21 ×3 / Sep-30 ×2 / Dec-18 ×5); the Jun-30 $63/65/67P cluster expired worthless (confirmed off-book 7/16). Deep-OTM vs ~$77 tape — tail-risk insurance, not directional.
 - **HBAN** — $16P Oct-16 ×2 is **EXIT-thesis dust** (Will ruled 7/18; ride to expiry, no re-entry).
 - **No current EGBN / HYG / ARES / SSB / FITB positions.** EGBN/HYG/ARES cleared at Jun-18; SSB $90P was a real position sold/closed per Will 6/19 (unrecorded-exit propagation gap, see CLEARED section).

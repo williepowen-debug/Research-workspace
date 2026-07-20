@@ -83,7 +83,7 @@ If WAL **sells off on the print where NIM / deposit-cost / AOCI / guidance is th
 
 ## 6. Tape / beat context — the crowded-short-unwind guardrail
 
-WAL trades against **green complacency** (cohort risk-on, WAL $80.69 [7/10]; $81.88 [7/17]). Positioning is a crowded SHORT (DB Financials multi-year-low z-score vs +20-40% consensus earnings growth). **Pre-print recon 7/17 (`PREPRINT_RECON_2026-07-17.md`, spot-verified vs EDGAR) sharpens this two ways:** (1) **shorts BUILT into the print** — SI 3.8%→**4.91% float (+27.75%, FINRA 6/15→6/30 reports** [MarketBeat 6/30/26]) — more squeeze fuel on a clean beat, but a miss is partly pre-positioned; (2) **the Street walked IN de-risked, opposite of CFG's 5-PT-raise pattern** — zero WAL PT raises since 7/1, consensus EPS cut −3.16%/30d to **$2.33** (rev $973.85M, NIM 3.3% compression already priced [Zacks 7/16/26]), Zacks #4/ESP −2.98%. (3) **⚑ Most important: NO published Street NCO/provision estimate for Q2 exists** — the credit line (this frame's entire subject) is consensus-UNANCHORED, so the print-day tape reaction will be framing-driven, not estimate-delta-driven → grade off THIS frame's ladder, not the tape. No 8-K since 7/1 (no pre-announcement); the 7/17 Form 4 cluster is routine RSU-vest withholding (codes M→D @ $81.79, EDGAR-verified), NOT insider selling. **Pre-committed:** if WAL BEATS clean — NCO in-guide, the $99M in disposition (B) or (C), NIM holds — the crowded short unwinds into a **sharp pop**. A beat-driven pop is **NOT thesis-invalidation** unless it arrives with the full disconfirm stack: **(C) the $99M curing AND classified <$450M falling AND MI3 flat/down.** Do NOT panic-close on a tape pop alone (STATUS EXIT RULES: broad-tape moves are not the CRE-channel confirmation lane).
+WAL trades against **green complacency** (cohort risk-on, WAL $80.69 [7/10]; **$82.30 [7/17 close, yfinance-verified — was mislabeled $81.88, fixed 7/20 per fire-drill data-note]**; $82.30 [7/20 last close, pre-open Mon]). Positioning is a crowded SHORT (DB Financials multi-year-low z-score vs +20-40% consensus earnings growth). **Pre-print recon 7/17 (`PREPRINT_RECON_2026-07-17.md`, spot-verified vs EDGAR) sharpens this two ways:** (1) **shorts BUILT into the print** — SI 3.8%→**4.91% float (+27.75%, FINRA 6/15→6/30 reports** [MarketBeat 6/30/26]) — more squeeze fuel on a clean beat, but a miss is partly pre-positioned; (2) **the Street walked IN de-risked, opposite of CFG's 5-PT-raise pattern** — zero WAL PT raises since 7/1, consensus EPS cut −3.16%/30d to **$2.33** (rev $973.85M, NIM 3.3% compression already priced [Zacks 7/16/26]), Zacks #4/ESP −2.98%. (3) **⚑ Most important: NO published Street NCO/provision estimate for Q2 exists** — the credit line (this frame's entire subject) is consensus-UNANCHORED, so the print-day tape reaction will be framing-driven, not estimate-delta-driven → grade off THIS frame's ladder, not the tape. No 8-K since 7/1 (no pre-announcement); the 7/17 Form 4 cluster is routine RSU-vest withholding (codes M→D @ $81.79, EDGAR-verified), NOT insider selling. **Pre-committed:** if WAL BEATS clean — NCO in-guide, the $99M in disposition (B) or (C), NIM holds — the crowded short unwinds into a **sharp pop**. A beat-driven pop is **NOT thesis-invalidation** unless it arrives with the full disconfirm stack: **(C) the $99M curing AND classified <$450M falling AND MI3 flat/down.** Do NOT panic-close on a tape pop alone (STATUS EXIT RULES: broad-tape moves are not the CRE-channel confirmation lane).
 
 ---
 
@@ -92,7 +92,7 @@ WAL trades against **green complacency** (cohort risk-on, WAL $80.69 [7/10]; $81
 - **The grade is fixed NOW.** On 7/21: read the numbers → apply §1-§4 ladders → grade. Do not re-rationalize a >55bps print as "priced" or a <25bps print as "deferred."
 - **Separate the two questions, always:** (a) REG-25/24 *calibration-ledger* resolution vs (b) *bear-thesis-confirmation* (position-relevant). A 42bps print is CONFIRMED-for-the-ledger AND priced-not-surprising-for-the-thesis. Log both.
 - **Reserve build (B) ≠ realized loss (A).** Don't upgrade a reserve build to a "charge-off fired" read; don't dismiss it as nothing (it's balance-sheet transmission).
-- **Positions are TERRY/Will's call, not this frame's.** This governs the READ. Any 7/21 fire needs a **broker refresh of POSITIONS.md first** (rule #4, off-repo truth) — the Jul-17 $65P has already lapsed before the print; Sep-18 $67.5P/$70P are the print-catching tenor.
+- **Positions are TERRY/Will's call, not this frame's.** This governs the READ. Any 7/21 fire needs a **broker refresh of POSITIONS.md first** (rule #4, off-repo truth) — the Jul-17 $65P has already lapsed before the print; the print-catching tenor is **Sep-18 $67.5P/$70P ×1 each + NEW Robinhood $77.5P Aug-21 ×1** (Will direct entry ~7/17-20, folded from the FORGE 7/20 export — the **nearest-money** WAL leg, ~5.8% OTM at $82.30, post-print expiry so it survives the print). Reshape/harvest arithmetic on any fire rebuilds from the **7/20** export, not older tables. → `../POSITIONS.md` canonical.
 
 ---
 
@@ -108,3 +108,37 @@ WAL trades against **green complacency** (cohort risk-on, WAL $80.69 [7/10]; $81
 | Non-credit selloff dominates (falsifier) | low for WAL (NIM improving) — reversal-watch | Q2 |
 
 *Grades and probabilities pre-registered 2026-07-10. Post-print: score against this frame verbatim, then update REG-24/25 in PREDICTIONS.tsv + WAL/CHANGELOG. Do not edit this file's pre-registrations after the print — it is the honesty record.*
+
+---
+
+## ADDENDUM A — Fire-drill disambiguation rules (DATED PRE-PRINT, adopted 2026-07-20)
+
+> **Provenance:** PROME fire-drill (`PROME/reports/2026-07-18_bank-frames-firedrill-findings.md` §A; inbox note `2026-07-18_from-PROME_firedrill-13-rules-for-adoption.md`, consumed 7/20). Two adversarial sub-agents dry-ran this frame against simulated print-night scenarios; the frame held where it claims strength (clean-disconfirm graded with zero disagreement; priced-vs-surprise split, pop-guardrail, ledger/thesis separation all survived). 13 spots let two honest graders disagree. **Every rule below pins MEASUREMENT / PRECEDENCE / TIMING only — ZERO thresholds, probabilities, or priors move** (§1/§2/§8 numbers are untouched). Adoption as a dated append is consistent with the no-edit discipline (the binding pre-registrations §0–§8 above are unaltered; precedent = the 7/16 annotated re-grade). **On 7/21, cite the frame AND this addendum together.**
+
+### The load-bearing four (apply first)
+
+- **W1 ★ — REG-24 dual-basis, print-night band (the anchored $476M is a 10-Q figure, ~Aug — it will NOT print Tuesday):** For the **Stage-1 print-night** REG-24 read, use the **slide-12 Office-classified basis with delta-translated bands** (baseline $407M, same ±$24/−$26M deltas as §2):
+  | Print-night slide-12 Office classified | Grade |
+  |---|---|
+  | **> $431M** | **CONFIRM-track** (maps to §2 ">$500M-early" one Q ahead) |
+  | **$407–431M** | **ON-TRACK** |
+  | **$381–407M** | **AMBIGUOUS** |
+  | **< $381M** | **DISCONFIRM-lean** |
+  The canonical **>$500M** resolution stays the **10-Q CRE-NOO arithmetic at Q3** (§2 unchanged). Map any print figure to the right basis before grading — a raw number can hit opposite ends of the two ladders.
+- **W3 ★ — the two-stage grade (structural; the position lives overnight):** **Stage 1 (Tue AMC), ledger-final:** REG-25 band (§1) · REG-26 numeric leg · REG-24 slide-12 band (W1). **Stage 2 (Wed post-call ~noon), thesis-final:** $99M disposition letter A/B/C (§1 table) · NEW-migration count (§3) · §4 attribution. **Nothing thesis-level quoted as final between stages — unresolved items log PENDING-CALL, never guessed.**
+- **W2 ★ — ex-fraud fallback (the §1 ladder's denomination is a mgmt-adjusted figure WAL needn't break out):** If no ex-fraud table prints, **ex-fraud NCO = total NCO minus charge-offs *explicitly attributed* to LAM/Cantor or a newly-designated fraud item; none attributed → total NCO IS the ex-fraud figure. No inferred adjustments.**
+- **W5 ★ — band × letter conflict (e.g. NEUTRAL band + (B) letter):** On conflict, **the disposition letter (§1 A/B/C) GOVERNS the thesis grade**; the §1 bps band supplies the **REG-25 ledger entry only.** (The 5 bands × 3 letters matrix is left implicit; letter-governs is the rule.)
+
+### The edge-pins (W4, W6–W13)
+
+- **W4 — classified graded on a plus-realized basis:** in-quarter Office/CRE-NOO charge-offs mechanically shrink classified — **add gross in-quarter charge-offs back** before applying §2/W1. A charge-off-driven classified *decline* is **never DISCONFIRM** (it's the opposite — realization).
+- **W6 — "majority" of the $99M:** = cumulative Q2 charge-offs against the credit **> $49.5M (>50% UPB)**. 55% qualifies; drives the (A) letter + the §1 >55bps surprise.
+- **W7 — half-open bands + rounding:** **[25,40] NEUTRAL · (40,55] PRICED · (55,∞) SURPRISE** — so **40.0 = NEUTRAL, 55.0 = priced band.** Grade the company-reported annualized ratio at printed precision; only if unpublished: quarterly NCO$ ×4 ÷ reported avg HFI loans, 1dp.
+- **W8 — mixed >55bps drivers ($99M + a new credit):** row assignment by **largest single contributor** to the >55 excess; §3 escalation evaluated **independently/additively** (it keys on migration count, not the NCO driver).
+- **W9 — §3 escalation evidentiary standard:** count only credits **explicitly identified** (release/deck/call) as new-in-Q2 pass→classified/non-accrual. **Delta-inference never increments the count.**
+- **W10 — "ex-fraud" scope if a NEW fraud item surfaces:** ex-fraud matches management's guide basis — **exclude any item mgmt designates fraud-related (old or new).** A new fraud item logs as an **escalation datum and CANNOT confirm REG-25/26.**
+- **W11 — §4 fires mechanically (removes the judgment call):** §4 non-credit falsifier fires **iff the §1 grade is NEUTRAL/DISCONFIRM (<40bps) AND WAL ≤ −5% in the first post-print session.** At **≥40bps** the selloff **attributes to credit by default** and §4 logs **watch-only.**
+- **W12 — sub-majority charge-off + reserve:** partial (sub-majority, i.e. ≤ W6's $49.5M) charge-off = disposition **(B)**, with the charged dollars **still counting toward the §1 bps ladder.** (A) requires the W6 majority test.
+- **W13 — annualization/denominator:** covered operationally by W7 (the company-reported figure governs).
+
+*Addendum adopted 2026-07-20 (pre-print). Governs the 7/21 READ alongside §0–§8; adds no threshold. Post-print, this addendum is also part of the honesty record — do not edit after the print.*

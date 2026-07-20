@@ -57,9 +57,18 @@
 
 ## Session Notes
 
-⚠️ **Open question / owed (7/18-late close):** **The POSITIONS broker gate NARROWED this session** — POSITIONS.md is now reconciled to the real 7/16 FORGE broker export (was 6/19-vintage); the structural book (strikes/expiries/quantities) is current-to-7/16. What still needs Will (rule #4): (a) 7/17 expiry execution confirm (WAL $65P/ZION $57.5P/FLG $13P — all lapsed OTM, presumed worthless), (b) a fresh export if anything changed 7/16→7/21. Everything analytic remains print-ready: **5 grading frames FROZEN** (WAL/OZK Tue + EGBN Wed [weekday labels now fixed] + small-tier-FL 7/22-28 + ZION Mon), benchmark stack clean, ALLY pin installed. **HBAN RESOLVED** (EXIT-thesis 7/18; CALENDAR row now swept to match). **WAL promotion request to DAEDALUS — await review, chase post-print** (cutover 7/23). *(Deferred: domain-sweep, thesis v2.3 rewrite, KB reconstruction — post-7/21.)*
+⚠️ **Open question / owed (7/20 pre-market close):** **POSITIONS broker gate CLOSED** — POSITIONS.md folded to the fresh **7/20 FORGE export** (`b7c26f21`): both formerly-owed items resolved (Jul-17 dust confirmed expired off; +$7.59 cash = NO-ADD held; core book unchanged) and the one net delta absorbed — NEW **RH WAL $77.5P Aug-21 ×1** (nearest-money print-catcher). Everything print-ready for Tue 7/21: **WAL frame + ADDENDUM A (W1–W13) adopted**, 5 frozen frames, ALLY pin, ZION staged for tonight. **Owed into Tuesday:** (a) tonight's ZION 5:30p fill → non-credit axis-weight verdict (staging doc ready); (b) OZK-side Z2 line-set freeze looks UNADOPTED — flagged to PROME, NOT my work; (c) any 7/21 fire still needs Will [Approve] + the frame ladder (tape≠grade). *(Deferred post-7/21: domain-sweep, thesis v2.3 rewrite, KB reconstruction, WAL-promotion chase to DAEDALUS.)*
 
-**Push status:** committing + safe-push at this closeout per protocol (4 agents + PROME concurrent tonight — pathspec own-dir only, non-ff → pull --rebase).
+**Push status:** committing + safe-push at this closeout per protocol (PROME + concurrent agents — pathspec own-dir only, non-ff → pull --rebase).
+
+### LAST SESSION (7/20 Mon pre-market — PROME-spawned pre-print readiness)
+
+Booted (market.py = last close pre-open, no breach: WAL $82.30/OZK $52.01/KRE $76.69/ZION $72.27/EGBN $27.39/10Y 4.57/Brent $88.10/VIX 18.08). Five deliverables, all done:
+1. **Fire-drill 13-rule ADOPTION** — appended dated pre-print **ADDENDUM A** (W1–W13) to `WAL/Q2_GRADING_FRAME_2026-07-21.md`; measurement/precedence/timing only, **ZERO thresholds moved** (65/72/33 intact; precedent = 7/16 annotated re-grade). Load-bearing: W1 (REG-24 print-night slide-12 delta-bands, $476M/>$500M stays Q3 10-Q), W3 (two-stage Tue-AMC-band / Wed-call-thesis grade), W2 (ex-fraud fallback), W5 (letter-governs-on-conflict). **2 residual nits fixed:** POSITIONS stale "quantities not in this rewrite" para deleted; frame §6 $81.88→$82.30 (yfinance close).
+2. **Fresh broker fact FOLDED** (verified vs FORGE `b7c26f21`): RH WAL $77.5P Aug-21 ×1 → POSITIONS.md (7/20-dated header) + WAL frame §7 + STATUS Matrix row 2. Nearest-money leg, survives print.
+3. **ZION grade STAGED** (`reports/2026-07-20_ZION_Q2_grade_STAGING.md`) — verbatim tells, RESULT=⧗PENDING, source pinned, execute-only tonight. Did NOT grade (no grade before release).
+4. **Inbox drained:** firedrill→processed; 2 WALTER SIGs dispositioned (BOARD_LOG, both INFO_ONLY — ATTOM H1 foreclosure 227.5K/+21% cc-read [HOMER owns]; 4th-2026-bank-failure Small Business Bank KS $73M = cadence-texture, NO threshold); **LABOR insider re-run integrated** — no name strengthened, all 3 HOLD on stale selling, zero fresh sells/buys pre-print (softener on "bracing for a bad print"), rank OZK>WAL>ZION.
+5. **⚠️ FLAGGED to PROME:** OZK Z2 line-set freeze UNADOPTED (card mtime 7/18, OZK firedrill note still unprocessed) — did NOT do OZK's work. Outbox: `outbox/2026-07-20_to-PROME_preprint-monday-readiness.md`. **Readiness verdict: GO (REGINALD side).**
 
 ### CHANGES SINCE LAST SESSION
 (leave blank — next-boot market.py + drift-grep populates)
