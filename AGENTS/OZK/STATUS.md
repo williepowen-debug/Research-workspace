@@ -67,7 +67,7 @@
 
 | Signal | Current [date] | Watch Level | Fires |
 |---|---|---|---|
-| OZK price | $49.65 [7/6] | <$45 / <$40 | Thesis execution bands (no fire) |
+| OZK price | $52.01 [7/20 pre-mkt] | <$45 / <$40 | Thesis execution bands (no fire; off 7/16 $53.09 12-mo high) |
 | Past-due loans | $487.5M / 1.48% [Q1] | >$550M or >2.0% next Q | Recognition tempo accelerating |
 | NCO (ann.) | **0.56%** [Q1] | >80bps mid-year / **≤55bps kill** | 🔴 **1bp from Invalidation §2 kill line** |
 | RaDD leased % | ~3.3% (JCVI 50K SF) | Any signing >100K SF | Scenario A probability up |

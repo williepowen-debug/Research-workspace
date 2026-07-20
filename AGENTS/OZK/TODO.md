@@ -1,6 +1,6 @@
 # OZK — Research TODO / Backlog
 
-**Last updated:** 2026-07-18 (10-Q read done + Atrium reconciliation queue all cleared + D-severity re-derived; new queue = Jul-21 scoring, $154M reconcile, NDFI regime monitor, SI standing field)
+**Last updated:** 2026-07-20 (firedrill Z1–Z10 adopted as scoring-card ADDENDUM A; **$154M reconcile CLOSED** = foreclosed-assets line, Z2 freeze — see #2 below; remaining queue = Jul-21 scoring, NDFI regime monitor, SI standing field). Prior 7/18: 10-Q read + Atrium queue cleared + D-severity re-derived.
 **Source:** Follow-up threads identified during Threads 1 and 2 deep dives; plus subdir hygiene queue added Apr 23 (now cleared).
 
 **Strategic framing (updated 7/6):** Position book is stale/not-managed (May lines expired unlogged; Aug 21 lines unverified — per Will's 7/4 steer). Research focus until Jul 21 = Q2-print preparation: the pre-registered OZK-05→09 reads govern conviction (OZK-07 discriminator above all). Bluerock trade gate stays parked pending a fresh TI+ NAV mark.

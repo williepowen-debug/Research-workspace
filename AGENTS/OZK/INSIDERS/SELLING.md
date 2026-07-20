@@ -4,6 +4,7 @@
 **Sources:** FDIC securities-filings API (`securitiesfilings.fdicconnect.fdic.gov/api/instdiscl/cert/110` — old efr.fdic.gov URL redirects here; fully scriptable, incl. attachment PDFs. See MEMORY Findings 7/6), GuruFocus, INSIDER_ACTIVITY_COMPILED.md, INSIDER_SCAN_OZK.md
 **Data Gap Fixed:** OZK dissolved its holding company in 2017 and files Form 3/4/5 with the FDIC (cert #110), not SEC EDGAR. Standard insider tracking tools (OpenInsider, Fintel, etc.) miss OZK entirely. FDIC EFR is the authoritative source.
 **Score:** 🔴 FULL CONVERGENCE (Score 13) — All C-suite sells, zero buys; **pattern EXTENDED at 7/6 pull: CRO 2nd discretionary sale, Kenny 3rd-straight grant flip, zero buying continues.**
+**7/20 verification stamp (LABOR re-run, `AGENTS/LABOR/outbox/2026-07-20_to-PROME_insider-rerun.md`):** Score-13 pattern **INTACT but NOT further extended** — **0 new filings since 7/1**, zero buying. Pre-Q2 window closed ~7/7 (quiet, as expected). Next own-pull after the 7/21 print.
 
 ---
 
@@ -239,6 +240,7 @@
 ## Pull Log
 
 **2026-07-06 pull (API, cert #110):** 16 new Form 4s since Apr 12 — see 🆕 Q2 2026 UPDATE table above. Key: Majumdar 2nd sale (5/20), Kenny grant-flip #3 (5/22), Brown 401(k) transfer-out at $52.12 (6/12), East 1,000 (4/28), 12× routine annual grants (5/18). Zero buys. **Pre-Q2 insider window closes ~Jul 7** (14 days before Jul 21 earnings) — any late filings before the print would be notable.
+**2026-07-20 (LABOR re-run, no own-pull):** Score-13 INTACT, **not further extended** — 0 new Form 4s since 7/1, zero buying. Pre-Q2 window closed ~7/7 quiet. Source: `AGENTS/LABOR/outbox/2026-07-20_to-PROME_insider-rerun.md`.
 **Next:** Re-pull after Jul 21 earnings (one command: `curl -s -A "Mozilla/5.0" "https://securitiesfilings.fdicconnect.fdic.gov/api/instdiscl/cert/110"`).
 
 **2026-04-12 pull (FDIC EFR, cert #110).** Full Form 4 history reviewed. Results:

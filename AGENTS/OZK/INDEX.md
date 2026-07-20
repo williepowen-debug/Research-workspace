@@ -1,12 +1,12 @@
 # OZK — Agent Index
 **Start here on cold boot.**
 
-**Last updated:** 2026-07-06 (staleness sweep — snapshot re-based to Call Report figures, boot sequence aligned to CLAUDE.md/boot.py, threads + workbook rows refreshed)
+**Last updated:** 2026-07-20 (mirror-token refresh — thesis v1.3→v1.5, KB 200/28→216/33 synced to canonical STATUS; Q2 pre-print addendum noted). Prior full pass: 2026-07-06 (staleness sweep — snapshot re-based to Call Report figures, boot sequence aligned to CLAUDE.md/boot.py).
 
 **State snapshot:**
 - **Q1 2026 earnings ✅ RESOLVED Apr 21** — past-due more than doubled QoQ (**$207M → $487.5M / 1.48%** [Call Report basis; supplement showed $465M/1.41% — definitional fork, Call Report is primary]), 3 new substandard credits, 2 new foreclosed assets, **NCO 0.56% — 1bp ABOVE the ≤55bps kill line** (Invalidation §2, watching Q2). → `Q1_2026_ANALYSIS.md`
-- **Thesis v1.3** — RESERVOIR: stress accumulates until the IQHQ RaDD **Aug 2026 maturity** forces recognition. Conviction 🔴🔴 HIGH. Revival re-baseline 2026-07-04 (71-day gap): logic intact, maturity re-confirmed from Q1 transcript primary. → `THESIS.md`, `CHANGELOG.md`
-- **KB.tsv: 200 rows / 28 groups** (196-199 added 2026-07-04; 200 insider refresh 2026-07-06)
+- **Thesis v1.5** — RESERVOIR: stress accumulates until the IQHQ RaDD **Aug 2026 maturity** forces recognition; v1.5 recognition-timing refinement = appraisal-gated/back-loaded deferral (Q1'26 10-Q primary). Conviction 🔴🔴 HIGH. → `THESIS.md`, `CHANGELOG.md`
+- **KB.tsv: 216 rows / 33 groups** (as of 2026-07-18 reconcile)
 - **Positions: ⚠️ STALE / NOT MANAGED** — May lines expired unlogged; Aug 21 lines unverified. Do not cite as current. → `STATUS.md` positions banner, `POSITIONS.md`
 - **Next hard catalyst: Q2 earnings Tue Jul 21, 2026** (call Jul 22) — pre-registered reads OZK-05→09 in `workbook/PREDICTIONS.tsv`, conviction-governing discriminator = OZK-07 (classified rising vs RESG falling). Then **IQHQ RaDD Aug 2026 maturity** — weighted EL $140M on $555M funded. → `IQHQ_PLAYBOOK.md`
 
@@ -56,13 +56,13 @@ For deeper cold-boot orientation after that:
 | `CALENDAR.md` | Forward dates + thresholds (boot read) |
 | `MEMORY.md` | Session handoff + Feedback/Findings (boot read) |
 | `THESIS.md` | Master bear case (synthesis + pointers pattern) |
-| `CHANGELOG.md` | Thesis audit trail — v1.3 current, v1.0 pinned |
+| `CHANGELOG.md` | Thesis audit trail — v1.5 current, v1.0 pinned |
 | `MAINTENANCE.md` | Structural-change log (docs/folders/scripts) — read when investigating structure |
 | `Q1_2026_ANALYSIS.md` | Most recent earnings synthesis (Apr 21 actuals) |
 | `TODO.md` | Research queue + prioritization |
 | `POSITIONS.md` / `TRADE.md` | Option positions (⚠️ broker-stale) / trade ideas |
 | `scripts/boot.py` | Boot kit v0.1 — prices, catalysts, watch, inbox, staleness |
-| `workbook/KB.tsv` | Evidence database (200 rows / 28 groups as of 2026-07-06) |
+| `workbook/KB.tsv` | Evidence database (216 rows / 33 groups as of 2026-07-18) |
 | `workbook/KB_INDEX.md` | KB cluster navigator |
 | `workbook/PREDICTIONS.tsv` | Pre-registered falsifiable reads OZK-01→09 (05-09 resolve at Q2 Jul 21) |
 
@@ -142,8 +142,8 @@ For deeper cold-boot orientation after that:
 ### Workbook
 | File | Content |
 |------|---------|
-| `workbook/KB.tsv` | Evidence database — 200 rows / 28 groups (as of 2026-07-06; 088/091 schema-repaired, 055/138 REFUTED-demoted 7/6) |
-| `workbook/KB_INDEX.md` | Cluster navigator (rollup drift fixed 7/6 — all 28 groups indexed) |
+| `workbook/KB.tsv` | Evidence database — 216 rows / 33 groups (as of 2026-07-18; 088/091 schema-repaired, 055/138 REFUTED-demoted 7/6) |
+| `workbook/KB_INDEX.md` | Cluster navigator (all 33 groups indexed; reconciled 7/18) |
 | `workbook/KB_MIGRATION_LOG.md` | Audit trail (KB migration provenance) |
 | `workbook/PREDICTIONS.tsv` | Pre-registered falsifiable reads OZK-01→09 (05-09 + 01 resolve at Q2 print Jul 21) |
 
