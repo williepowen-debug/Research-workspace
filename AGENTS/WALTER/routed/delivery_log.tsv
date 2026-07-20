@@ -740,14 +740,14 @@ timestamp_routed	signal_id	recipient	role	recipient_platform	precedence	handoff_
 2026-07-17T07:20:00Z	SIG-W-20260717-019	LIQUID	info	CC	PRIORITY	AGENTS/LIQUID/inbox/WALTER/SIG-W-20260717-019.md	delivered	Will-Telegram batch 5
 2026-07-17T07:20:00Z	SIG-W-20260717-020	VIOLET	action	CC	PRIORITY	AGENTS/VIOLET/inbox/WALTER/SIG-W-20260717-020.md	delivered	Will-Telegram batch 5
 2026-07-17T07:20:00Z	SIG-W-20260717-020	HENRY	info	CC	PRIORITY	AGENTS/HENRY/inbox/WALTER/SIG-W-20260717-020.md	delivered	Will-Telegram batch 5
-2026-07-20T00:30:00Z	SIG-W-20260719-001	HOMER	action	CC	-	AGENTS/HOMER/inbox/WALTER/SIG-W-20260719-001.md	written_not_delivered_pending_push	Will-Telegram 8-img batch 7/19
-2026-07-20T00:30:00Z	SIG-W-20260719-001	REGINALD	info	CC	-	AGENTS/REGINALD/inbox/WALTER/SIG-W-20260719-001.md	written_not_delivered_pending_push	Will-Telegram 8-img batch 7/19
-2026-07-20T00:30:00Z	SIG-W-20260719-001	CORAL	info	CC	-	AGENTS/CORAL/inbox/WALTER/SIG-W-20260719-001.md	written_not_delivered_pending_push	Will-Telegram 8-img batch 7/19
-2026-07-20T00:30:00Z	SIG-W-20260719-002	BROCK	action	CC	-	AGENTS/BROCK/inbox/WALTER/SIG-W-20260719-002.md	written_not_delivered_pending_push	Will-Telegram 8-img batch 7/19
-2026-07-20T00:30:00Z	SIG-W-20260719-002	LIQUID	info	CC	-	AGENTS/LIQUID/inbox/WALTER/SIG-W-20260719-002.md	written_not_delivered_pending_push	Will-Telegram 8-img batch 7/19
-2026-07-20T00:30:00Z	SIG-W-20260719-003	FALCON	action	CC	-	AGENTS/FALCON/inbox/WALTER/SIG-W-20260719-003.md	written_not_delivered_pending_push	Will-Telegram 8-img batch 7/19
-2026-07-20T00:30:00Z	SIG-W-20260719-003	BRENT	info	CC	-	AGENTS/BRENT/inbox/WALTER/SIG-W-20260719-003.md	written_not_delivered_pending_push	Will-Telegram 8-img batch 7/19
-2026-07-20T00:30:00Z	SIG-W-20260719-003	HAWK	info	CC	-	AGENTS/HAWK/inbox/WALTER/SIG-W-20260719-003.md	written_not_delivered_pending_push	Will-Telegram 8-img batch 7/19
-2026-07-20T00:30:00Z	SIG-W-20260719-004	FALCON	action	CC	-	AGENTS/FALCON/inbox/WALTER/SIG-W-20260719-004.md	written_not_delivered_pending_push	Will-Telegram 8-img batch 7/19
-2026-07-20T00:30:00Z	SIG-W-20260719-004	HAWK	info	CC	-	AGENTS/HAWK/inbox/WALTER/SIG-W-20260719-004.md	written_not_delivered_pending_push	Will-Telegram 8-img batch 7/19
-2026-07-20T00:30:00Z	SIG-W-20260719-004	BRENT	info	CC	-	AGENTS/BRENT/inbox/WALTER/SIG-W-20260719-004.md	written_not_delivered_pending_push	Will-Telegram 8-img batch 7/19
+2026-07-20T00:30:00Z	SIG-W-20260719-001	HOMER	action	CC	-	AGENTS/HOMER/inbox/WALTER/SIG-W-20260719-001.md	delivered	Will-Telegram 8-img batch 7/19
+2026-07-20T00:30:00Z	SIG-W-20260719-001	REGINALD	info	CC	-	AGENTS/REGINALD/inbox/WALTER/SIG-W-20260719-001.md	delivered	Will-Telegram 8-img batch 7/19
+2026-07-20T00:30:00Z	SIG-W-20260719-001	CORAL	info	CC	-	AGENTS/CORAL/inbox/WALTER/SIG-W-20260719-001.md	delivered	Will-Telegram 8-img batch 7/19
+2026-07-20T00:30:00Z	SIG-W-20260719-002	BROCK	action	CC	-	AGENTS/BROCK/inbox/WALTER/SIG-W-20260719-002.md	delivered	Will-Telegram 8-img batch 7/19
+2026-07-20T00:30:00Z	SIG-W-20260719-002	LIQUID	info	CC	-	AGENTS/LIQUID/inbox/WALTER/SIG-W-20260719-002.md	delivered	Will-Telegram 8-img batch 7/19
+2026-07-20T00:30:00Z	SIG-W-20260719-003	FALCON	action	CC	-	AGENTS/FALCON/inbox/WALTER/SIG-W-20260719-003.md	delivered	Will-Telegram 8-img batch 7/19
+2026-07-20T00:30:00Z	SIG-W-20260719-003	BRENT	info	CC	-	AGENTS/BRENT/inbox/WALTER/SIG-W-20260719-003.md	delivered	Will-Telegram 8-img batch 7/19
+2026-07-20T00:30:00Z	SIG-W-20260719-003	HAWK	info	CC	-	AGENTS/HAWK/inbox/WALTER/SIG-W-20260719-003.md	delivered	Will-Telegram 8-img batch 7/19
+2026-07-20T00:30:00Z	SIG-W-20260719-004	FALCON	action	CC	-	AGENTS/FALCON/inbox/WALTER/SIG-W-20260719-004.md	delivered	Will-Telegram 8-img batch 7/19
+2026-07-20T00:30:00Z	SIG-W-20260719-004	HAWK	info	CC	-	AGENTS/HAWK/inbox/WALTER/SIG-W-20260719-004.md	delivered	Will-Telegram 8-img batch 7/19
+2026-07-20T00:30:00Z	SIG-W-20260719-004	BRENT	info	CC	-	AGENTS/BRENT/inbox/WALTER/SIG-W-20260719-004.md	delivered	Will-Telegram 8-img batch 7/19
