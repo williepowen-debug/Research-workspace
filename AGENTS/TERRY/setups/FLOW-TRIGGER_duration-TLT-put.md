@@ -118,6 +118,22 @@ ZONE 3 — TRIGGER CONFIRM + DECISION
 **TERRY structural synthesis w/ BOND:** the edge is *real but thin and conditional.* The "gap-not-grind" finding is actually a **clean structural fit, not a strike-off**: Will already owns the GRIND (85P/82P/TBT), so a pure GAP-tail is the exactly-complementary instrument — it pays where the grind holdings don't and doesn't compete with them. The right framing is **not** "hold a tail to Sep-30" but **"buy cheap vol (MOVE 68) ahead of the 7/22–28 auction gauntlet + 8/13 CPI gap catalysts"** — vol-timing supports entering while compressed. **Net: right instrument, right role, right day, mild positive edge — but a small conditional lottery, not a lean.** $495 defined risk is the correct size for exactly that.
 
 **Decision (WILL, 2026-07-17):**  [ ] APPROVE 77P × ~45 ct ($495)   [ ] APPROVE 77/76/75 ladder   [ ] HOLD — wait for a FRESH discriminator, not just a better entry   [ ] REJECT
+→ **HELD 7/17 (banked).** Re-fired and APPROVED 2026-07-20 — see below.
+
+### ★★ FILLED — 2026-07-20 ~09:50 ET — FIRST LIVE FIRE OF A TERRY CARD ★★
+- **APPROVED + FILLED (Will):** **TLT Sep-30-26 77 Put × 30 @ $0.11** (limit lifted the offer; ticket showed 0.10/0.11, filled at ask). **Premium at risk = $330** (+~$15 fees ≈ $345 order value). **Break-even TLT 76.89** (~76.885 incl. fees).
+- **Size note:** 30 ct (not the proposed 45) = **$330 of the $500 bank**; **~$170 left dry** to scale on a fresh discriminator. Deliberately conservative for a small conditional lottery — correct instinct, not a compromise.
+- **Entry gates (all green at fill):** arm-#2 LIT/latched (10Y ~4.57, no <4.50 close) · **rule-#6 CLEAN — TLT GREEN on the day** (proven by the chain: 77P & 75P marked *below* Friday close even as IV rose ~1pt → underlying up) · 77P ask $0.11 ≤ no-chase $0.12 · spread ~9.5%, OI 657, liquid.
+- **Live chain at fill (broker, ~09:50 ET):** 77P 0.10/0.11 mark 0.105 IV **13.67%** Δ−0.050 Γ0.020 Θ−0.0032 V0.0388 OI657 · 76P 0.08/0.09 IV14.55 · 75P 0.06/0.07 IV15.24. IV ~+1pt vs 7/17 (12.79) = market pricing more gap risk (consistent w/ WALTER SIG-009 dealer-gamma halved $16.2→6.2bn) — confirmatory for a gap-tail buyer; price did not chase.
+- **Position delta:** ~−150 TLT-share-equiv (0.05 × 30 × 100). Negligible vs book.
+- **★ MANAGEMENT (pre-registered):**
+  - **Defined risk, no stop** — max loss = $330 premium; the premium IS the stop.
+  - **Pays on a GAP, not a grind.** Catalyst cluster: 20Y auction + 40Y JGB **7/22** → month-end 2/5/7Y **7/27-28** → FOMC **7/28-29** → July CPI **~8/13**. A slow correct-direction drift expires it worthless (modal path).
+  - **Harvest rule:** on a FAST spike marking **≥3× (≥$0.33)** at ~$0 intrinsic, **take at least half** (a fast shock pays more than terminal intrinsic via IV expansion); if it goes **deep ITM (TLT<77)**, manage vs the stress table (TLT 75 ≈ +$5,670 net on 30ct / ~17×).
+  - **No roll planned** — a $330 tail isn't worth a rule-#7 duration roll (that rule is for conviction grinds; this is a lottery). Let it ride the catalyst cluster or expire.
+  - **Disarm:** an official DGS10 **close <4.50** kills arm-#2 → close for salvage if any value remains.
+- **§9 concentration (updated):** the 7/18 rates RELABEL (real-policy-path, not term-premium) + CARL weld decomposition make the rates arm **doubly Mideast-insulated** → this add is *less* concentration-additive than the 7/16 framing implied (PROME-relayed; not independently re-verified by TERRY).
+- **PAT-028 note:** the card product goes from **0 fired live → 1 fired live.** First live data point on TERRY card quality; still N=1, no track-record claim yet.
 
 ---
 
