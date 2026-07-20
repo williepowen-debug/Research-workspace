@@ -200,6 +200,7 @@ At closeout or after a trade review:
 | `PAPER_BOOK_DESIGN.md` | Paper/shadow-book spec (Phase-1 build spec + fill/marking rules + guardrails). Authority for the fill rule. |
 | `PAPER_BOOK.tsv` | Phase-1 SHADOW BOOK — auto-filled would-fire cards, marked to close. **PAPER, card-quality, not an endorsed P&L; never a license to size up.** Survivorship: never delete a losing row. |
 | `scripts/paper_book_mark.py` | Marks OPEN paper rows at chain MID + flags STALE (>N business days). Logs+marks only; no scoring until N≥10 closed/lane. |
+| `scripts/positions_from_forge.py` | Parses `FORGE/STATUS.md` (PROME-reconciled broker mirror) into normalized positions + computed DTE for the desk-dashboard Positions tab — no re-keying screenshots (PROME #6). `--json`/`--asof`/`--selftest`; fails loud (WARNINGS block), never fabricates. |
 
 ---
 
