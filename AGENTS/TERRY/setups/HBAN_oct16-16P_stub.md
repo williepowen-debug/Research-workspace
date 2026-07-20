@@ -1,5 +1,11 @@
+> # 🪦 RETIRED — DUST-RIDER (Will 2026-07-18: EXIT-THESIS)
+> **Decision (Will, 7/18 via PROME + REGINALD decision brief `AGENTS/REGINALD/reports/2026-07-18_HBAN_thesis-or-exit_decision-brief.md`):** **no bank-system thesis behind the name.** The Oct-16 $16P ×2 **rides to expiry as dust** (~$20 mark; commission ≈ proceeds → **do NOT pay to close**). **Zero further analytic effort. No re-entry as a stress vehicle.** DOCKET 7/23 row flipped MONITOR-ONLY.
+> **Status: CLOSED / dust-rider.** Dropped from live-monitoring lists (INDEX row banners this). Nothing below is actionable — kept for the record only. The 7/16 governance content is superseded by this exit decision.
+
+---
+
 # GOVERNANCE STUB — HBAN Oct-16 2026 $16 PUT (held position)
-**Built:** 2026-07-16 (TERRY, per PROME task 2026-07-09; position datum from 7/16 FORGE broker reconcile) · **Type:** governance stub, NOT a trade rec
+**Built:** 2026-07-16 (TERRY, per PROME task 2026-07-09; position datum from 7/16 FORGE broker reconcile) · **Type:** governance stub, NOT a trade rec · **~~ACTIVE~~ RETIRED 2026-07-18 (dust-rider, see banner).**
 **Purpose:** govern a previously-naked held put (no thesis file, earnings date untracked) — same failure mode as the ZION 7/20 print caught 7/9.
 
 ## Position (off-repo truth — Will/broker; `FORGE/STATUS.md` mirror)
