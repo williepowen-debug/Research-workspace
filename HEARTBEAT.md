@@ -9,6 +9,10 @@
 > 4. **★ HBAN RESOLVED — Will 7/18: EXIT-THESIS** (REGINALD brief: no bank-system thesis behind the name; ×2 Oct-16 16P rides to expiry as dust; zero further analytic effort; Near-Gates 7/23 row = monitor-only; TERRY retires the stub next session).
 > 5. Transit: no fresh PortWatch print (newest 7/12 = 10/88, inside normal 5-8d lag); published 7/6-12 series sits in FALCON's "flat 7-14 = bypass-carries" modal band. Weekend Kharg risk is now GATED (pt-3).
 
+> **AMENDMENT 2026-07-20 (Prome — Monday session, Will-approved in-session):**
+> 1. **★ TRY-FIRE-004 re-fire FILLED ~10:11 ET — FIRST LIVE TERRY CARD.** 30× TLT Sep-30 $77P @ $0.11 = **$330 at risk** (+~$15 fees; BE 76.89; Will sized 30 of the proposed 45 → **~$170 of the $500 bank stays DRY** for a fresh discriminator). Day-color rule now STANDING on the card (rule #6 applies to the UNDERLYING: clean TLT-put entry = TLT-GREEN day — BOND's inversion confirmed; satisfied at fill, no chase, ask held $0.11). Management pre-registered (ZONE-3): defined-risk/no-stop, pays on a GAP (7/22 20Y+40Y JGB → month-end → FOMC 7/28-29 → CPI ~8/13), harvest half ≥3×, disarm on DGS10 close <4.50. Paper-book PB-0002 logged. **Regime line updated: HOLD FLAT → FIRST LIVE DEPLOY $330; book otherwise unchanged — all other gates/fences intact** (Kharg $200 fence untouched · energy pass-on-chase stands · GATE-RESHAPE-BC unchanged). §2's "ARMED / NO-ADD" reads as superseded by this fill; the NO-ADD framing (size vs thesis total) survives as the sizing discipline that produced 30-not-45. Fill re-mark datum: put IV +~1pt (12.79→13.67) while TLT went green = gap risk being priced (coheres w/ WALTER dealer-gamma-halved SIG). Memo: `AGENTS/TERRY/outbox/2026-07-20_to-PROME_try-fire-004-refire-FILLED.md`; broker mirror + decisions index updated `67c3f885`.
+> 2. **Blocking-table rows 1-2 RESOLVED (fixed in place):** GATE-TERRY-006 armable-dependency was discharged 7/18 (amendment #1 pt-3) and TERRY confirmed the merged wording vs its card 7/20 (card ARMABLE; trigger inversion applied). REGINALD pre-print prep is COMPLETE 7/20 (fire-drill ADDENDUM A adopted zero-thresholds-moved · ZION grade staged execute-only · RH WAL 77.5P folded) + OZK Z2 line-set FROZEN ($1,215M foreclosed-inclusive Mgmt-Comments basis, both-rise cell adjudicated) — bank pre-print surface LOCKED; HBAN brief obligation closed by the 7/18 EXIT-THESIS.
+
 **Regime lineage (compressed — full narrative in the archive snapshots):** 6/25 base → 6/28 Iran kinetic re-escalation → 6/29 decoupling test HOLDS → fragile-watch → 7/7-7/8 truce COLLAPSE → re-arm ACTIVE → 7/10 sustain DENY → fragile-watch → **7/11-12 Iran FORMAL Hormuz closure (transits 11%) → 7/16 re-arm CONFIRMED → 🔴 ACTIVE** → 7/17 first-ever >$85 settle + the COT positioning turn. Rates: arm-#2 fired 5-of-5 [Mon 7/13] → TRY-FIRE-004 ARMED 7/16 → Will NO-ADD (book-aware). **Zero capital deployed through the entire cycle — HOLD FLAT.**
 
 ## Regime (current state as of Fri 7/17 close)
@@ -66,8 +70,8 @@ Approved Jun 4: **Prome owns this file.** Update after regime-level changes or w
 ## Blocking / Pending
 | Pri | Item | Ref |
 |---|---|---|
-| 🟠 | GATE-TERRY-006 not armable — FALCON owes the Kharg-loadings source freeze + ONE-condition merge (Monday); weekend = manual escalation path | GATES.tsv + FALCON inbox |
-| 🟠 | REGINALD pre-print prep Mon (5 inbox items incl. the 7/18 OZK NDFI ask) + HBAN decision brief for Will pre-7/23 | REGINALD inbox |
+| ✅ | ~~GATE-TERRY-006 not armable~~ RESOLVED (7/18 amendment #1 pt-3 + TERRY 7/20 card-wording confirm — card ARMABLE, veto-inverted) | 7/20 amendment pt-2 |
+| ✅ | ~~REGINALD pre-print prep + HBAN brief~~ RESOLVED 7/20 (ADDENDUM A adopted · ZION staged · OZK Z2 frozen — pre-print surface LOCKED; HBAN = EXIT-THESIS 7/18) | 7/20 amendment pt-2 |
 | 🟡 | LIQUID next boot: KB-076 leg-(a) grade on the 7/14 COT · NY-Fed G10 refresh · NEXUS_BRIEF 11d stale | LIQUID queue |
 | 🟡 | BROCK sign-off owed: GATE-LIQ-079 fire-without-HY>280 X1 semantics (+ 7/18 OZK debt-on-debt note to consume) | BROCK inbox |
 | 🟢 | NEXUS re-anchored 7/17 (26/33/41) — synthesis current | `AGENTS/NEXUS/STATUS.md` |
