@@ -61,7 +61,7 @@ Detection (HY-280 break, print alerts) is LIQUID/SENTRY; TERRY owns everything A
 - **Tenor diagnostic Part B** (`options/TENOR_DISCIPLINE_PARTB_2026-07-17.md`): reachability model → the real leak = grind thesis in crash instruments (see new Durable Finding). Wired to §3d note.
 - **WAL grind put-spread card formalized** (`setups/WAL_grind-putspread_2026-07-17.md`, CONDITIONAL): 77.5P/67.5P Jan-2027, ~$3.45 debit, ~1.9:1; the $500-cap-compliant version (outright breaches); flagged as ROLL TARGET for the dying Sep WAL puts, not additive. Thesis owner = REGINALD `[CONFIRM_NEEDED]`; not armed/fired. Logged TRADE_BOOK + SETUPS.tsv.
 
-**Status:** committed locally (**51c1abb6**) — **PUSH DEFERRED (pending).** safe-push aborted non-ff (origin has BRENT's 7/17 Friday-data commit 3699ccae); could NOT rebase because the working tree carries **other agents' uncommitted work** (CORAL staged renames + M files, MARCO, HOMER, memory/auto) — pulling/rebasing would risk their work (root protocol Option B). My commit is safe locally; it sweeps on the next clean push (next session or once the tree clears). **No position or thesis changed** — all construction context + one CONDITIONAL card awaiting thesis-owner + Will.
+**Status:** ✅ pushed since (commit `51c1abb6` swept on a later clean push; the 7/17 non-ff/deferred note is resolved — origin has carried it for days). *(Stale-note cleared 2026-07-20 sweep.)* Downstream: the WAL-GRIND REGINALD confirm was finally **routed 7/20** (into the 7/21 AMC print); DHI-PHM builder card **lapsed 7/20** (Will).
 
 ---
 

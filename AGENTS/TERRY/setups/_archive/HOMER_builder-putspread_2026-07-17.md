@@ -1,5 +1,9 @@
+> # 🔴 LAPSED — 2026-07-20 (Will: let it lapse; not armed, never fired, $0 at risk)
+> **Will 7/20:** do not chase this. The HOMER thesis confirm-ask (`outbox/2026-07-17_to-HOMER_builder-putspread-card-confirm-ask.md`) went **unanswered for 3 days**, and the card **deepens the same higher-for-longer book as the now-live TRY-FIRE-004** (concentration, not diversification) — not worth adding builder exposure right after firing 004. **Lapsed on TERRY's side.** Prints (DHI 7/21 BMO / PHM 7/22 BMO) will pass un-traded here.
+> **NOT dead-thesis:** Will is spawning HOMER separately; if HOMER brings a *direct, confirmed* thesis + per-name read, this can be **re-underwritten from scratch** (fresh chain, fresh entry logic — do not just un-lapse the stale 7/17 marks). Archived; revivable.
+
 # TRADE CARD — DHI / PHM (homebuilders) — Bear / put spread into earnings
-**Setup ID:** TRY-BUILDER-DHI-PHM · **Trigger class:** PRINT (earnings-catalyst)
+**Setup ID:** TRY-BUILDER-DHI-PHM · **Trigger class:** PRINT (earnings-catalyst) · **~~CONDITIONAL~~ LAPSED 2026-07-20 (see banner).**
 **Date:** 2026-07-17 (~17:35 ET)
 **Thesis owner:** **HOMER** (housing) — `[THESIS_OWNER_CONFIRM_NEEDED]`: this card is built off a TERRY fleet-scout relay of HOMER's STATUS (7/17), NOT a direct HOMER handoff. Confirm the thesis + the specific per-name read before arming.
 **Terry verdict:** **CONDITIONAL** — real thesis, but the front-week print is an IV-crush trap; the only defensible expressions are a **Sep put spread** or a **post-print continuation entry**. Front-week naked puts = **NO TRADE / BAD STRUCTURE**.

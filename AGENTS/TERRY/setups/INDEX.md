@@ -26,8 +26,7 @@
 | **TRY-FIRE-002** | STAGED | PRINT | WAL / EGBN puts, post-print Sep/Jan | WAL 7/21 AMC · EGBN 7/22 — path (a)/(c) grade | REGINALD / CARL | `PRINT-TRIGGER_WAL-EGBN-build.md` |
 | **TRY-FIRE-003** | STAGED | PRINT | COF / SYF / ALLY monoline puts | SYF/ALLY 7/21 · COF 7/21-23 — path (m) un-mask | CARL + REGINALD | `PRINT-TRIGGER_monoline-COF-SYF-ALLY.md` |
 | **TRY-FIRE-006** | PRE-BUILT / **ARMABLE** (GATE-TERRY-006 LIVE 7/18; dependency discharged; $200 tranche) | FLOW | USO OTM call spread, ~45-60 DTE | **Corroborator-anchored** (dark-fleet-capable, ≥2d, not vetoed) — PortWatch AIS loadings = refuting VETO only, NOT Hormuz transit | RED / BRENT / FALCON | `FLOW-TRIGGER_kharg-strand-USO-call.md` |
-| **TRY-WAL-GRIND** | CONDITIONAL (REGINALD confirm pending) | PRINT/roll | WAL 77.5/67.5P Jan-2027 put spread | post-7/21 green WAL day; roll target for dying Sep WAL puts | REGINALD `[confirm]` | `WAL_grind-putspread_2026-07-17.md` |
-| **TRY-BUILDER-DHI-PHM** | CONDITIONAL (HOMER confirm pending) | PRINT | DHI/PHM Sep put SPREAD (NOT front-week naked) | DHI 7/21 BMO · PHM 7/22 BMO | HOMER `[confirm]` | `HOMER_builder-putspread_2026-07-17.md` |
+| **TRY-WAL-GRIND** | CONDITIONAL (REGINALD confirm **ROUTED 7/20**, awaiting reply) | PRINT/roll | WAL 77.5/67.5P Jan-2027 put spread | post-7/21 green WAL day; roll target for dying Sep WAL puts | REGINALD `[confirm]` | `WAL_grind-putspread_2026-07-17.md` |
 | **HBAN stub** | 🪦 **RETIRED 7/18 — dust-rider** (Will EXIT-THESIS; rides to expiry as ~$20 dust, do not pay to close, no re-entry) | PRINT | HBAN Oct-16 16P ×2 (already owned) | ~~HBAN Q2 7/23~~ MONITOR-ONLY | Will (opportunistic) | `HBAN_oct16-16P_stub.md` |
 
 **Support docs in `setups/` (not cards):** `FIRE_CARDS_LADDER.md` (fire-card comparison) · `HBAN_oct16-16P_two-branch-decision-memo.md` (HBAN decision memo) · `INDEX.md` (this file).
@@ -40,6 +39,7 @@
 |---|---|---|
 | **TRY-FIRE-005** (FXY carry-convexity calls) | 🔴 DEAD — 7/10 COT print resolved DENY; never entered, $0 at risk; terminal per its own kill rule (needs a fresh build, not a revival). Postmortem in `POSTMORTEMS.md`. | `_archive/FLOW-TRIGGER_carry-convexity-FXY-call.md` |
 | **ARM3 TIC grading template** | Spent — the arm-#3 grade it served ran 7/16 (fired weak); one-time template, no further use | `_archive/ARM3-TIC-grading-template_2026-07-16.md` |
+| **TRY-BUILDER-DHI-PHM** (DHI/PHM Sep put spread) | 🔴 LAPSED 2026-07-20 (Will) — HOMER confirm unanswered 3d + deepens the now-live 004 book; never armed, $0 at risk. Revivable only on a direct confirmed HOMER thesis (re-underwrite fresh). | `_archive/HOMER_builder-putspread_2026-07-17.md` |
 
 ---
 
