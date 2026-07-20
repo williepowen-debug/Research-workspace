@@ -27,10 +27,11 @@ Current regime + scenario weights → `HEARTBEAT.md` (7/18 re-base + amendment #
 
 ## Fidelity — Thesis Puts
 
-### TLT — duration short (BOND/HENRY/TERRY) — ⚠️ overlaps armed TRY-FIRE-004 (NO-ADD stands; live entry read = TERRY 7/20)
+### TLT — duration short (BOND/HENRY/TERRY) — TRY-FIRE-004 RE-FIRE FILLED 7/20 (first live TERRY card)
 
 | Strike | Expiry | Qty | Cost | Mark | Value | P&L |
 |--------|--------|-----|------|------|-------|-----|
+| **$77P** | **Sep-30** | **30** | **$0.11** | $0.11 | $330 | **NEW — filled ~10:11 ET 7/20 (Will [Approve] via TERRY live read; $330 + ~$15 fees; BE 76.89; post-dates the 8:27 AM reconcile above, so cash/account-total figures are pre-fill)** |
 | $85P | Sep-30 | 2 | $2.52 | $1.78 | $356 | −29.3% (TLT $84.52 → strike slightly ITM) |
 | $82P | Oct-16 | 2 | $1.68 | $0.79 | $158 | −52.9% |
 
@@ -84,7 +85,7 @@ Current regime + scenario weights → `HEARTBEAT.md` (7/18 re-base + amendment #
 | Item | State | Owner |
 |---|---|---|
 | **QQQ $696P expires TODAY** | ITM pre-market (QQQ $695.33); sell-or-exercise-or-expire decision intraday | Will (day-trade class) |
-| **TRY-FIRE-004 TLT ladder — live go/no-go entry read** | Card ARMED / NO-ADD stands; $500 banked; TERRY packet live (rule-#6 day-color = arm-LIT + TLT-GREEN; TLT green pre-market 7/20) — now FILLABLE with this export | Will + TERRY |
+| **TRY-FIRE-004 re-fire** | ★ **FILLED 7/20 ~10:11 ET** — 30× TLT Sep-30 77P @ $0.11 ($330; ~$170 of the $500 bank stays dry); day-color qualified (TLT green); mgmt per card ZONE-3 (harvest half ≥3× · disarm DGS10 <4.50); PB-0002 | Will + TERRY |
 | **7/21 four-rail cluster (WAL+OZK AMC · ALLY 7:30a · $85×3 · FL emp)** | Live captures: WAL Sep-18 70/67.5P + **RH 77.5P Aug-21** · OZK Aug-21 45P ×4 + 42.5P — reshape arithmetic rebuilds from THIS export (position-vintage warning satisfied) | REGINALD/PROME/TERRY |
 | USO $128C 7/22 | Will-monitored (his Hormuz leg); 2 DTE, decays into the 7/22 EIA print | Will + BRENT |
 | Energy convex arm (BRENT card) | Pass-on-chase stands; re-entry ~$80-82 pullback; Will holds USO 20 sh + 128C | Will + BRENT |
