@@ -22,3 +22,15 @@ Added ~18 lines to CLAUDE.md (257 total) + one tight new file — every addition
 ### For your bless (structural-ish, applied per your explicit suggestion — say if you want them reshaped/moved)
 - The **SPAWNED-MODE card** (fix #5) and **BUILD_DEBT.md** (fix #4) are new surfaces. Both were your asks (#3/#4), applied rather than merely proposed since the shape was pre-blessed. Revert/relocate on request.
 - **BD-02** (automating the freshness gate in boot.py) is the one genuine follow-on *build* — deferred, not done, because STATUS-as-of parsing is fragile and a "low-risk fixes only" mandate shouldn't ship it blind. Registered in BUILD_DEBT for a dedicated pass.
+
+---
+
+### ADDENDUM 2026-07-20 ~11:50 ET — inbox clearance (your disk check, commit 722ef7c0)
+Your disk check was right — inbox was NOT clear (4 items), and 2 sat in the `inbox/WALTER/` subdir my **spawned-session** scans were skipping (the boot B5a WALTER-lane step only runs on a full boot; scoped spawns skipped it). Dispositioned all four + closed the blind spot:
+- **SIG-W-20260710-005** (DEWEY food-CPI fork) → `info-only` (supply-side/MARCO channel, no labor read-through) → board_log + `inbox/WALTER/processed/`.
+- **SIG-W-20260717-008** (banks cut >10K Q2 into record profits = AI-efficiency inoculation) → `acted` → **folded into STATUS vector 5** (sector-extend to financials + inoculation so the headline can't re-enter as *deterioration* evidence; **score unchanged 4**) → board_log + processed.
+- **daedalus-buildwave-fixes** (7/10) → routed its 3 live code items to **BUILD_DEBT BD-05** (form4 null-price sell-undercount **bug** — latent, didn't bite the 7/20 re-run, priority), **BD-06** (unsourced `DECEL_FLAG_PT`), **BD-07** (cwd-proof docstrings); item #1 (add 7/20 re-run to docket) is **moot** post-7/20. Not a silent carry — durable-registered per my own C1 rule → `inbox/processed/`.
+- **PROME_ROUTING_2026-07-16** (German-PMI) → already folded in the sweep (LAB-06) → `inbox/processed/`.
+- **Blind-spot fix:** SPAWNED-MODE card **step 1a** now names `inbox/` AND `inbox/WALTER/` explicitly (REGINALD shape) with the origin note — exactly the class B2a/C1 exist to prevent, now closed on the intake side too. **Inbox is CLEAN** (top-level + WALTER lane).
+- *(Recovered a botched board_log append mid-task — a `%`/`<` in a printf format corrupted a row; restored the file from HEAD and re-appended cleanly via Python. Verified one row per SIG, 5 cols each.)*
+- **Recurring-docket note (daedalus #1 lesson, PAT-041):** insider re-runs recur each quarter's bank prints; the "trigger lives in docket" fix should add the *next* concrete re-run date to `CATALYSTS.tsv` at the next grade session (not done now — no concrete next date while parked). Flagging, not carrying silently.
