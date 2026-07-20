@@ -32,6 +32,7 @@ cwd note (PAT-031): run from the repo root, e.g.
 from __future__ import annotations
 
 import argparse
+import os
 import re
 import sys
 from datetime import date, datetime, timedelta
@@ -41,6 +42,34 @@ SCRIPTS_DIR = Path(__file__).resolve().parent
 TERRY_DIR = SCRIPTS_DIR.parent
 PAPER_BOOK = TERRY_DIR / "PAPER_BOOK.tsv"
 DEFAULT_STALE_DAYS = 2  # business days
+
+
+def _ensure_deps_or_reexec() -> None:
+    """venv self-heal (PROME nit 'venv-for-live-marks', 2026-07-20).
+
+    chain_fetch -> yfinance lives in the repo market-data venv, not base
+    python, so a bare `python3 ... paper_book_mark.py` (e.g. boot step 5b)
+    degraded every OPEN row to UNMARKED. If the deps are missing AND the repo
+    venv exists, re-exec this same command under it so the mark 'just works'
+    regardless of how it was invoked. If the venv is absent (or we already
+    re-exec'd once), fall through untouched — the run then degrades to
+    UNMARKED exactly as before, NEVER a fabricated mark. --selftest is offline
+    and calls this before its own branch is reached, so it is not affected
+    (it never imports chain_fetch)."""
+    try:
+        import yfinance  # noqa: F401  # deps present -> nothing to do
+        return
+    except ModuleNotFoundError:
+        pass
+    if os.environ.get("_PBM_VENV_REEXEC"):
+        return  # already re-exec'd once (venv python also lacks deps) -> degrade
+    # NB: do NOT gate on sys.executable != venv_py — the venv's python3 is a
+    # symlink to the system python, so .resolve() collapses them and the guard
+    # would falsely block re-exec. The env flag above is the loop-breaker.
+    venv_py = SCRIPTS_DIR.parents[2] / ".venv" / "bin" / "python3"
+    if venv_py.exists():
+        os.environ["_PBM_VENV_REEXEC"] = "1"
+        os.execv(str(venv_py), [str(venv_py), *sys.argv])
 
 MONTHS = {m: i for i, m in enumerate(
     ["Jan", "Feb", "Mar", "Apr", "May", "Jun",
@@ -321,6 +350,7 @@ def main():
     args = ap.parse_args()
     if args.selftest:
         return selftest()
+    _ensure_deps_or_reexec()  # venv self-heal before any live chain fetch
     return run(args)
 
 
