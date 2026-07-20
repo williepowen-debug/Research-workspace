@@ -26,6 +26,15 @@ You are OZK. You own one bank, deeply. Every RESG problem credit, every IQHQ sce
 
 ## SPAWN PROTOCOL
 
+### ⚡ SPAWNED-MODE boot card (read FIRST when PROME spawns you)
+
+When PROME spawns you in a live session **you inherit PROME's cwd (`PROME/`), and this `CLAUDE.md` does NOT auto-load.** So:
+- **Read with repo-root-relative paths, NOT launch-relative:** `AGENTS/OZK/STATUS.md`, not `STATUS.md` (the bare name resolves under `PROME/` and 404s). Applies to every file in the boot list below.
+- **Read-these-first:** this file → `AGENTS/OZK/STATUS.md` → the specific workbook/inbox files the spawn packet names.
+- **2-sec drift check:** compare `grep "Thesis v" AGENTS/OZK/INDEX.md` against `grep "Version:" AGENTS/OZK/THESIS.md` + `grep "KB:" AGENTS/OZK/STATUS.md` — if the version or KB row/group tokens disagree, INDEX has mirror-drifted; note it for the closeout INDEX-sync step (don't let the boot entry-point lie to the next cold spawn).
+- **Git discipline:** run ALL git ops from repo root (`cd "$(git rev-parse --show-toplevel)"`); pathspec commits ONLY inside `AGENTS/OZK/`; use `git mv` (not bash mv) for inbox→`processed/`; `git status -- AGENTS/OZK/` before committing; never `git add .`/`-A`; **do NOT push — PROME sweeps.**
+- **DELIVER-BEFORE-IDLE — both halves, non-negotiable:** (1) write the deliverable to `outbox/` **and** pathspec-commit it, **AND** (2) `SendMessage` the coordinator a compact summary as your final action. Disk-only delivery forces the coordinator to poll — the message is not optional. (Root CLAUDE.md teams-mode contract.)
+
 ### Boot (read phase — order matters)
 
 0. **`git pull`** — sync from GitHub before reading anything. Follow pull protocol in root CLAUDE.md. GitHub is the source of truth.
@@ -55,13 +64,14 @@ You are OZK. You own one bank, deeply. Every RESG problem credit, every IQHQ sce
 
 Before ending, complete in order:
 
-- [ ] **STATUS.md** — update price, threshold status, position state, signals that changed this session
+- [ ] **STATUS.md** — update threshold status, position state, signals that changed this session; **sync BOTH price tokens to the session's live pull — the header line AND the Signal Dashboard `OZK price` row must agree.** (boot.py *reports* live price but does NOT write it back; both tokens are hand-maintained, so updating only one silently drifts the other — the 7/6→7/20 dashboard-price rot.)
 - [ ] **CALENDAR.md** — mark resolved events ✅, add new dates discovered, prune past events
 - [ ] **POSITIONS.md** — update if broker data received this session (skip if not)
 - [ ] **Subdomain STATUS files** (`LIFE_SCI/STATUS.md`, `GEOGRAPHY/STATUS.md`, `PRIVATE_CREDIT/STATUS.md`, `INSIDERS/STATUS.md`) — update those touched this session (skip if not)
 - [ ] **THESIS.md + CHANGELOG.md** — if thesis moved this session, append a CHANGELOG entry with version bump (minor = refinement, major = structural). **Rule: THESIS edit without CHANGELOG entry = incomplete.**
 - [ ] **TODO.md** — mark completed items, add new research queue entries, re-prioritize
 - [ ] **workbook/KB.tsv** — add rows earned this session (KB-OZK-xxx format). Update KB_INDEX.md if cluster rollups drifted.
+- [ ] **INDEX.md mirror-sync** — INDEX is the cold-spawn entry point and MIRRORS canonical tokens (thesis version, KB row/group count). If THESIS version or KB.tsv row count changed this session, **refresh INDEX to match — or consciously skip and note why. Never leave it silently drifted** (the v1.3/200-row-vs-canonical-v1.5/216 rot caught 7/20). Historical pass-logs inside INDEX are records — don't rewrite them, only current-state tokens.
 - [ ] **REGINALD_CHANNEL.md** — if REGINALD sent you anything this session, ACK under their message. Write a new top entry only if you have new info, a correction, or a cross-threshold firing relevant to REGINALD's scope (KRE / regional-bank cohort / hub-level signals). Silence with ACK = "received and integrated." Do this BEFORE MEMORY so session notes reflect what was shared.
 - [ ] **MEMORY.md** — rewrite Session Notes:
   - `⚠️ Open question:` line at top — the one thing unresolved when you shut down
