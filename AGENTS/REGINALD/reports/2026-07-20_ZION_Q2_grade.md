@@ -47,3 +47,16 @@ Item 1 (AFS unrealized) **CONTAINED/narrowed** + item 2 (NIM) **stable** → per
 ---
 
 *Executed 2026-07-20 from EX-99.1 (accession 0000109380-26-000103). All figures source: ZION Q2 2026 8-K EX-99.1 press release + EX-99.2 presentation, filed/accepted 2026-07-20 16:05:38 ET. Frozen tells unchanged from staging; RESULT columns are the only additions. Reaction data: Will tape screenshot 4:41pm ET.*
+
+---
+
+## ADDENDUM — earnings-call read (PROME-authored, Will-authorized 7/20 eve; NON-GRADED context, not a tell)
+
+**Source: Q2 2026 earnings call (5:30 PM ET 7/20), via Investing.com transcript article posted 6:55 PM ET ([93CH-4801779](https://www.investing.com/news/transcripts/earnings-call-transcript-zions-beats-q2-2026-eps-forecast-as-shares-fall-after-hours-93CH-4801779)). Secondary-source caveat: quotes below are as-published there, not from a verified official transcript. The 5-item grade above is unchanged — this section is call color only.**
+
+1. **★ Rate assumption (rates-thesis corroborator, candidate route → BOND):** NII "Moderately Increasing" guide embeds **ONE rate HIKE over the next 12 months** (fwd curve as of 6/30 — CFO Richards, clarified under repeated analyst pressing); two hikes "even more constructive"; without hikes still "moderately increasing" per sensitivity. CEO Harris Simmons on Chair Warsh: "focused first and foremost on inflation… closer to a Milton Friedman kind of a guy"; "as long as we have inflation that's kind of sticky… the pressure is going to be probably upward on rates." Bank C-suite independently pricing the higher-for-longer real-policy-path channel.
+2. **Credit Q&A — consistent with the grade:** criticized AND classified "both declined modestly" (Steward, CCO); ACL 1.13% / 227% non-accrual coverage, "very well reserved"; CRE $14.1B = ~22% of loans, granular, construction only 16% of CRE and rolling to term. No analyst landed a credit punch.
+3. **Wrinkle — funding competition creeping at the margin:** period-end SPOT CoD 1.49% (+~6bps seq) vs the flat 1.48% quarterly average; McLean: targeted deposit campaigns "approaching closer to wholesale rates in places"; LTD ratio 82% (+2pts, Truist flag). Not a fired tell; forward-watch on the item-2 axis.
+4. **Wrinkle — "Cantor Fund" legal issue:** +$4M loan-related legal costs, confirmed "a prominent component" (Richards); management DECLINED to elaborate on duration/outlook — the call's one evasive moment. Small dollars; record-noted.
+5. **AH selloff:** management never addressed it; published read = vague guide language + deposit competition + profit-taking near highs. NO credit- or AOCI-driven explanation surfaced → supports the tape/positioning caveat carried above.
+6. **Hedged-book confirm:** AOCI accretion "very predictable for multiple years," portfolio price sensitivity 3.6yrs inclusive of hedging, reinvestment still a quarter or two from full — direct support for the LOAD-BEARING caveat that ZION's benign AOCI read does NOT transfer to WAL/OZK.
