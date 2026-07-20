@@ -25,6 +25,8 @@
 | **4** | **Muni / securities book** ($5.93B total; loans $4.27B, all Pass) | **$5.93B** (Q4 $5.92B, flat) | ZION-specific → **LOW** WAL/OZK cross-read. Note a muni/HTM stress tell, don't over-weight. | ⧗ PENDING | ⧗ PENDING |
 | **5** | **Total NCO / CRE NCO** (secondary — ZION is the disconfirming name) | **0.03%** total; CRE **net recovery −$1M**; provision **−$7M** release; NPA 0.48%; classified $2,332M ↓ | ZION CRE **stays clean** = EXPECTED, do NOT read as WAL/OZK-bullish. CRE **deteriorates** (unexpected) = genuine cohort signal → RAISES the bar for "WAL/OZK idiosyncratic." | ⧗ PENDING | ⧗ PENDING |
 
+**Insider context (LABOR 7/20 — measurement only, NOT a graded item; do NOT over-weight tonight):** ZION's "14x FIRED" insider flag is **mechanically INFLATED** — the entire signal is **one EVP (Smith), ~$298K, early MAY, 10+ weeks stale, zero-buys-driven ratio**; no cluster, no C-suite, zero filings in the 7/9→7/20 window. It is the **weakest** of the three prints (rank OZK > WAL > ZION) and reads as "de-risking already done Q1/early-Q2," a mild softener on any "bracing for a bad Q2" read. This does NOT move the 5-item AOCI/NIM grade below (insider is not one of the tells) — logged so tonight's session weights it correctly and doesn't import an inflated flag into the cross-read.
+
 **🔑 AOCI nuance (governs item 1 — do not miss):** In Q1 the AOCI *balance* IMPROVED (+$6M) and TBV ROSE, but the **AFS gross unrealized loss WIDENED** ($1,168M→$1,211M) — the balance improvement came from HTM-transferred-layer amortization + retained earnings, NOT better AFS marks. So the higher-for-longer tell is **AFS unrealized-loss direction + TBVPS direction (items 1/1b), NOT the headline AOCI balance (1c).**
 
 ---
