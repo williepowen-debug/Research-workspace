@@ -15,6 +15,11 @@
 #   5. FILL FIDELITY: buys at ASK, sells at BID, at the trigger timestamp; wide-spread
 #      (bid/ask>15% of mid) penalty; entry_basis records the exact quote+timestamp
 #      (auditable). Trigger while market closed -> fill at next open. Never mid.
+#      entry_basis FORMAT (PROME spec ruled 2026-07-20): carry the FULL instrument id
+#      with expiry LABELED as `exp YYYY-MM-DD` --
+#      `<UNDERLYING> exp <YYYY-MM-DD> <STRIKE><C/P> <SIDE> <px> @ <ts ET> (<provenance>); spread <b/a>=<n>% <verdict>; <day-color>`
+#      Why: "77P" is ambiguous once >1 TLT 77P series exists; and labeling `exp` stops
+#      date-parsers (firetime_check) reading the expiry as a catalyst/docket date.
 #   6. SMALL-N: no Brier/calibration scoring + no decision acts on this record until
 #      N>=10 CLOSED positions per lane. Until then rows carry 'N-too-small'.
 #   7. MARKS are as-of-last-spawn (TERRY is on-demand, not continuous): lumpy, stamped,
@@ -24,5 +29,5 @@
 # Marking: paper_book_mark.py marks OPEN rows at chain MID + flags STALE (>N business
 #   days). Fill rule reference + full spec: PAPER_BOOK_DESIGN.md.
 paper_id	card_id	opened	will_decision	structure	entry_fill	entry_basis	risk_$	thesis	invalidation	mark	mark_asof	status	close_date	close_fill	pnl_$	pnl_pct	notes
-PB-0001	TRY-FIRE-004-ZONE2/3	2026-07-17 16:00 ET	PASSED	TLT Sep-30 77P x45	0.11	77P ASK 0.11 @ 2026-07-17 16:00 ET (fetch.py+chain_fetch live pull; spread 9.5% <15% = no wide-spread penalty; TLT spot 84.52)	495	Cheap-vol duration crash-tail on the real-yield/term-premium channel; pays on a GAP (hot 8/13 CPI or a failed 7/22-28 auction), not a grind	arm-#2 disarm = any official 10Y DGS10 close <4.50; else expires worthless if TLT>76.89 (BE) at Sep-30 (grind path pays $0)	0.115	2026-07-20 10:43 local	OPEN					N-too-small; not yet scored
-PB-0002	TRY-FIRE-004-ZONE3-FILL	2026-07-20 09:50 ET	APPROVED	TLT Sep-30 77P x30	0.11	77P ASK 0.11 @ 2026-07-20 ~09:50 ET (broker LIVE FILL — REAL trade, APPROVED subset overlaps the real book; spread 0.10/0.11 = 9.5% <15% no wide-spread penalty; TLT green on day)	330	Cheap-vol duration GAP-tail (real-policy-path/term-premium); pays on a GAP (7/22 20Y+40Y-JGB -> 7/27-28 month-end -> 7/28-29 FOMC -> ~8/13 CPI), grind pays $0	arm-#2 disarm = any official DGS10 close <4.50; else expires worthless if TLT>76.89 (BE) at Sep-30	0.115	2026-07-20 10:43 local	OPEN					REAL FILL (not paper-only) — first live TERRY card; N-too-small; not yet scored. Will sized 30 not 45 (~$170 bank dry).
+PB-0001	TRY-FIRE-004-ZONE2/3	2026-07-17 16:00 ET	PASSED	TLT Sep-30 77P x45	0.11	TLT exp 2026-09-30 77P ASK 0.11 @ 2026-07-17 16:00 ET (fetch.py+chain_fetch live pull); spread 9.5% <15% no penalty; TLT spot 84.52 green	495	Cheap-vol duration crash-tail on the real-yield/term-premium channel; pays on a GAP (hot 8/13 CPI or a failed 7/22-28 auction), not a grind	arm-#2 disarm = any official 10Y DGS10 close <4.50; else expires worthless if TLT>76.89 (BE) at Sep-30 (grind path pays $0)	0.115	2026-07-20 10:43 local	OPEN					N-too-small; not yet scored
+PB-0002	TRY-FIRE-004-ZONE3-FILL	2026-07-20 09:50 ET	APPROVED	TLT Sep-30 77P x30	0.11	TLT exp 2026-09-30 77P ASK 0.11 @ 2026-07-20 ~09:50 ET (broker LIVE FILL — REAL trade); spread 0.10/0.11 = 9.5% <15% no penalty; TLT green on day	330	Cheap-vol duration GAP-tail (real-policy-path/term-premium); pays on a GAP (7/22 20Y+40Y-JGB -> 7/27-28 month-end -> 7/28-29 FOMC -> ~8/13 CPI), grind pays $0	arm-#2 disarm = any official DGS10 close <4.50; else expires worthless if TLT>76.89 (BE) at Sep-30	0.115	2026-07-20 10:43 local	OPEN					REAL FILL (not paper-only) — first live TERRY card; N-too-small; not yet scored. Will sized 30 not 45 (~$170 bank dry).
