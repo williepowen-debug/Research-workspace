@@ -103,7 +103,16 @@ def get_form4_filings(cik, days=90):
     assets per FDIC BankFind, live-checked 2026-07-09) moving to FDIC substituted-compliance
     reporting under Exchange Act §12(i) rather than direct SEC/EDGAR reporting. Net: OZK's
     current insider transactions are NOT retrievable via SEC EDGAR by this tool — a real
-    coverage gap, not a bug, and not something to paper over with a silent zero."""
+    coverage gap, not a bug, and not something to paper over with a silent zero.
+
+    UPDATE 2026-07-20: the FDIC backend closes this gap. OZK files Form 3/4/5 with the FDIC
+    (cert #110) at securitiesfilings.fdicconnect.fdic.gov/api/instdiscl/cert/110 (browser UA
+    required, same trick as EDGAR) — live-proven this session (469 records; newest 6/15/2026).
+    The OZK agent's curated tracker `AGENTS/OZK/INSIDERS/SELLING.md` is the interpretation
+    layer. Per PROME's 7/10 spec this FDIC path should become a code fallback here (fall back
+    by cert# when insiderTransactionForIssuerExists=False); as of 7/20 that INTEGRATION IS
+    STILL OWED — the fallback was run manually, this tool still emits only the fail-loud
+    warning below for OZK-class FDIC-supervised issuers."""
     url = f"{DATA_BASE}/submissions/CIK{cik}.json"
     data = json.loads(_get(url))
     meta = {
