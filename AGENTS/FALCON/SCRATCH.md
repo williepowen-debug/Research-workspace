@@ -24,7 +24,7 @@
 - STATUS header + war-frame updated (marks unchanged, Monday reads folded); SCRATCH rewritten; NEXUS_BRIEF As-of refreshed.
 
 ## NEXT SESSION (dated, future-verifiable)
-1. **$85×3 SESSION-2 SETTLE (OWED):** at/after ~14:30 ET today record the **7/20 BZ=F daily close**. >$85 → session 2 banked, Tue 7/21 becomes the 3rd; both >$85 → **3-consec FIRES → oil vector 4→5, D-tell #3, earliest D-remark trigger.** <$85 → clock RESETS. **Pin canonical settle source** (Yahoo $88.10 vs PROME $87.71 for 7/17) before the clause completes.
+1. **$85×3 SESSION-2 SETTLE (OWED):** at/after ~14:30 ET today record the **7/20 BZ=F daily close** (pulled AFTER settle, never a pre-close quote). >$85 → session 2 banked, Tue 7/21 becomes the 3rd; both >$85 → **3-consec FIRES → oil vector 4→5, D-tell #3, earliest D-remark trigger.** <$85 → clock RESETS. **✅ CANONICAL SOURCE PINNED (PROME 7/20): BZ=F daily close is canon** — $88.10 [7/17, H 88.32] correct; the $87.71 was BRENT's ~3:50 PM pre-close live quote (HEARTBEAT 7/18 amend #2 fixed it; PROME cleared the last stale $87.71 on DOCKET.tsv). **PROME runs the mechanical count this afternoon if my session has closed — my pre-staged entry (KB-FALCON-031) IS the contract.**
 2. **Tue 7/21 settle** = potential 3rd consecutive. If both 7/20+7/21 >$85 → re-mark the oil vector and flag BRENT + D-tell #3.
 3. **PortWatch 7/13+ transit prints** — STILL overdue (newest 7/12, 8-10d across all 3 datasets). Re-check next boot; grade on prints only.
 4. **GATE-TERRY-006:** confirm PROME registered corroborator-anchored condition. No corroborator this weekend; PortWatch veto shows flow continuing. If a Kharg corroborator appears → run kharg VETO cross-check.
@@ -36,10 +36,10 @@
 ## OPEN THREADS / WATCHES
 - 🔴 **$85×3** — 1 of 3 banked (7/17); session 2 = today 7/20 (owed at settle); earliest fire Tue 7/21
 - 🔴 **FAL-01** (Jul 26, 6d) — unfired, base re-strengthened; Kharg is the tail; scaffold owed
-- 🟠→armable **GATE-TERRY-006 Kharg-strand** — corroborator-anchored; sweep negative; PortWatch = veto not trigger
+- ✅ **GATE-TERRY-006 Kharg-strand — REGISTERED LIVE 7/18** (PROME confirmed 7/20): corroborator-anchored merged condition present at boot; weekend sweep NEGATIVE + veto shows flow → correctly unfired, nothing owed. PortWatch/Kpler = refuting veto, ≥2 observed days, live-dated-primaries-only.
 - 🔴 PortWatch 7/13+ prints — overdue across all 3 datasets
 - 🟠 Bab el-Mandeb conditional (grid PARTIAL-START) · WSJ hull double-count · bypass HOLDING/HOT · Iraq/PMF genuinely unfired (CTP+Shafaq)
-- 🟡 canonical Brent settle source pin (Yahoo vs ICE/PROME)
+- ✅ canonical Brent settle source — **RESOLVED: BZ=F daily close is canon** (PROME 7/20)
 
 ## PREDICTIONS DUE / DECISIONS PENDING
 - **FAL-01 (Jul 26)** — only OPEN row; 70% frozen, re-derive at re-registration. Scoreboard **1C / 0F / 0P / 0V / 1 OPEN.**
