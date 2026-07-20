@@ -314,7 +314,7 @@ Every STATUS.md update must end with a `## BOTTOM LINE` section: 2-4 sentences. 
 | `templates/SCRATCH.template.md` | SCRATCH.md template. Copied verbatim from HAWK. |
 | `inbox/` | Inbound signals from other agents. `inbox/processed/`, `inbox/WALTER/processed/` — fresh, `.gitkeep` at spinout. |
 | `outbox/` | Outbound signals. `outbox/delivered/` — fresh, `.gitkeep` at spinout. |
-| `scripts/baghdad_watch.py` | Boot-time (step 5b) US Embassy Baghdad alert-feed monitor. **Arrives via `git mv` from `AGENTS/HAWK/scripts/` in WP-3** (not yet present at FALCON-scaffold time — see boot step 5b note). State: `scripts/baghdad_watch_state.json` (committed, cross-machine). |
+| `scripts/baghdad_watch.py` | Boot-time (step 5b) US Embassy Baghdad alert-feed monitor. **Present + live** (git-mv'd from HAWK at spinout). **[7/18] DEMOTED to a positive-alert backstop** — the embassy feed is a confirmed dead false-quiet channel; the PRIMARY Iraq/PMF read is `web_search` on CTP/ISW + Shafaq (boot step 5b note; `domain/IRAQ_PMF_DISCRIMINATOR_REVIEW.md`). State: `scripts/baghdad_watch_state.json` (committed, cross-machine). |
 | **REFERENCE — frozen under HAWK, not copied (pointers only):** | |
 | `AGENTS/HAWK/DECK_EVIDENCE.md` | 17KB Will-facing Iran/Gulf evidence deck (Mar 13 2026) — still-citable slide-ready sentences (Hormuz 97% traffic drop, Maersk suspension, 13Mbpd gap, Qatar LNG strike). Frozen per build spec §2; consult, don't restate. |
 | `AGENTS/HAWK/REMARK_20260628.md` | SUPERSEDED 6/28 Iran vertical-kinetic re-mark — historical calibration snapshot, frozen. |
