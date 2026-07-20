@@ -76,7 +76,7 @@
 
 **⚑ Jul-21 reads pre-registered** (falsifiable, 2026-07-04; **armed 7/18 off the Q1'26 10-Q**; **disambiguation ADDENDUM A adopted 7/20 — Z1–Z10 measurement/precedence/timing rules, zero thresholds moved**, incl. the ★Z2 frozen classified line-set) → `workbook/Q2_2026_SCORING_CARD.md` + `workbook/PREDICTIONS.tsv` OZK-05→09: NCO kill-line (05, 50%), past-due >$550M (06, 40%), **★classified-vs-RESG discriminator (07, 55% — conviction-governing)**, IQHQ Q2 pre-reserve (08, 28%), Aug terminal $140M+ event (09, **68%→52%** re-marked 7/18 — 10-Q collateral-dependent methodology means a Scenario-B migration can book ~$0 reserve; P($140M+ *recognition*) ≠ P(B∪D); severity band unchanged). *(OZK-01 also resolves Jul-21, tracking FALSE.)*
 
-**Cross-feed (regime INVERTED since Apr — ref only, [[REGINALD]] owns):** KRE $75.02 [live 7/4] · HY OAS **278bps** [FRED 6/25, 2bp from 280 X1 trigger] · Brent **~$72** [live 7/4] — 🔴 **prior "stagflation re-heating / Brent $102" frame is DEAD.** New macro tailwind for banks: energy deflated, VIX 15.8, credit still tight-but-armed.
+**Cross-feed (ref only, [[REGINALD]] owns — PROME-confirmed values 7/20):** KRE **$76.69** [7/20 pre-mkt live] · HY OAS **271bps** [FRED 7/16] · Brent **$88.10** [BZ=F 7/17 settle, first-ever >$85; ~$88.3 live 7/20 pre-mkt] — 🔴 **energy regime RE-INFLATED: formal Hormuz closure 7/11-12 killed the prior "energy deflated / bank macro-tailwind" read; the BZ=F settle series (cite w/ date) is fleet canon.** Credit still tight (OAS 271, modestly easing off 278); KRE firm near highs.
 
 ---
 
