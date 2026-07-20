@@ -34,3 +34,13 @@ Your disk check was right — inbox was NOT clear (4 items), and 2 sat in the `i
 - **Blind-spot fix:** SPAWNED-MODE card **step 1a** now names `inbox/` AND `inbox/WALTER/` explicitly (REGINALD shape) with the origin note — exactly the class B2a/C1 exist to prevent, now closed on the intake side too. **Inbox is CLEAN** (top-level + WALTER lane).
 - *(Recovered a botched board_log append mid-task — a `%`/`<` in a printf format corrupted a row; restored the file from HEAD and re-appended cleanly via Python. Verified one row per SIG, 5 cols each.)*
 - **Recurring-docket note (daedalus #1 lesson, PAT-041):** insider re-runs recur each quarter's bank prints; the "trigger lives in docket" fix should add the *next* concrete re-run date to `CATALYSTS.tsv` at the next grade session (not done now — no concrete next date while parked). Flagging, not carrying silently.
+
+---
+
+### ADDENDUM 2 · 2026-07-20 ~12:30 ET — BD-05 fix + tsv_append adoption (commit 98c6740c)
+Your two build items, both done, own-dir:
+- **BD-05 form4 null-price bug → FIXED + CLOSED.** Refactored the aggregation into a pure `aggregate_transactions()`. A code-S/P row with **shares but no price** now counts in share-count + filer set + cluster detection, is flagged `price_unknown`, and is **excluded from the $-total** — which is then printed with a **`≥` floor qualifier**. A code-S/P row with **no shares** is reported `unquantified` (fail-loud), tallied nowhere, not double-counted as a filer. Complete-data rows behave exactly as before.
+  - **Selftest added** (`form4_scanner.py selftest`) — **14/14 PASS**: synthetic price-unknown sell + unquantified sell + a clean-set no-flag regression case.
+  - **Verification contract MET:** WAL 90d (**$3,777,203**, other {M:78,D:78,F:1}) + ZION 90d (**$297,700**, other {F:2,M:2,A:3}) re-ran **byte-identical to the AM banked results** — no `≥`/flag lines emitted (today had no missing-price rows, so the no-flag path is provably unchanged; any diff would've been a regression). BD-05 → **CLOSED** in BUILD_DEBT.md with this evidence.
+- **`tsv_append.py` adopted.** CLAUDE.md **B5a** (board_log) + **C3** (KB.tsv) now mandate `scripts/tsv_append.py` (fields-as-argv) and explicitly forbid `printf`/`echo` TSV rows — my 7/20 board_log corruption was incident #2 of the class (`[[finding_printf_format_tsv_append_corruption]]`). Linted all 5 LABOR ledgers with `--check`: **all OK** (board_log 5c/6r, WARN_COHORT 10c/7r, CATALYSTS 8c/12r, KB 13c/117r, PREDICTIONS 9c/17r).
+- Remaining form4 build-debt: **BD-06** (unsourced `DECEL_FLAG_PT`), **BD-07** (cwd-proof docstrings) stay OPEN — low priority, next tool touch. **BD-01** (FDIC integration) stays deferred per your call.
