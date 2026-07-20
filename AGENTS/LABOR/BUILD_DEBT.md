@@ -1,0 +1,14 @@
+# LABOR — Build-Debt Register
+
+**Purpose:** Standing surface for deferred build/tooling work (code paths, script fixes, automations) so "owed code" doesn't live only in a docstring or a NEXT SESSION PICKUP line that scrolls off — and doesn't rely on a seeded sweep to rediscover it. Maintained at closeout (CLAUDE.md C5). One row per item.
+
+**Created:** 2026-07-20 (PROME-directed boot/closeout doc review — the FDIC-integration debt was living only in a `form4_scanner.py` docstring; this register makes it visible).
+
+| # | Debt item | Why deferred | Documented where | Trigger to do it | Status |
+|---|-----------|--------------|------------------|------------------|--------|
+| BD-01 | **FDIC backend code path in `form4_scanner.py`** — auto-fall back to `securitiesfilings.fdicconnect.fdic.gov/api/instdiscl/cert/{cert}` (14x framework on FDIC txn lines) when `insiderTransactionForIssuerExists=False` or a ticker is flagged FDIC-supervised. Small ticker→cert map (OZK=110). Per PROME 7/10 spec. | 7/20 insider re-run used the FDIC path **manually** (live-proven, 469 records); integrating it into the tool is a build, out of scope for a same-day pre-print deliverable. | `tools/form4_scanner.py` docstring (OZK block) + STATUS 7/20 pickup + PROME 7/10 inbox spec (`inbox/processed/`) | Next form4_scanner build session, or next time OZK insider data is needed before a print | OPEN |
+| BD-02 | **boot.py spine-freshness banner** — automate CLAUDE.md B2a: parse the as-of date STATUS carries for claims init/cont, compare vs newest FRED obs date, emit a `⚠️ STATUS spine stale: FRED newer than STATUS as-of` boot banner. | STATUS-as-of parsing is fragile (false-alarm risk under a "low-risk fixes only" mandate); shipped the manual B2a gate first. | CLAUDE.md B2a + this register | When a second spine-staleness miss occurs, or a low-risk parse approach is designed | OPEN |
+| BD-03 | **boot.py FRED-env loading** — boot.py's own env-var check false-flags "no key" because the FRED key lives in `FORGE/tools/market-data/.env`, not an exported shell var (labor_data.py works; the check is cosmetically wrong). | Cosmetic; noted 7/9, not blocking. | STATUS 7/9-AM pickup + this register | Next boot.py maintenance pass | OPEN |
+| BD-04 | **warn_texas.py weekly automation** — no live crontab found; if weekly WARN pulls are wanted, needs an actual cron install. | Machine-local infra decision (flagged to Will 7/10). | STATUS 7/10 pickup + this register | Will decides weekly automation is wanted | OPEN (Will call) |
+
+**Retire a row** when the build lands (mark ✅ + commit hash) or when it's explicitly dropped (mark ⛔ + reason). Don't let closed debt linger as OPEN.
