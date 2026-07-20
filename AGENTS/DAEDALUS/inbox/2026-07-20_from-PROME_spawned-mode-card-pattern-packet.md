@@ -22,6 +22,9 @@
 ## Pattern 2 — PRINT-DAY BOOT VARIANT (OZK proposal; REGINALD partial-parallel)
 On a PREDICTIONS resolve-date, boot = load frozen card + addenda + runbook, grade MECHANICALLY, explicit "don't re-derive" banner. OZK proposed it fleet-shaped; REGINALD independently folded a print-window check into its card. Shared structure: the two-stage Tue/Wed grade (OZK + REGINALD-WAL both carry it). Assess whether this is a blueprint variant (market-agent cohort) or stays per-agent.
 
+## Pattern 3 — ledger-append hardening (added later same day; 2-incident class)
+WALTER kill_log 7/19 + LABOR board_log 7/20 both corrupted TSV rows via shell-printf format-directive hazard (`%` in market text). PROME shipped `scripts/tsv_append.py` (`1a9c24e4`: fields-as-argv append + `--check` column-count lint). Blueprint candidates: (a) agents shell-append ledger rows ONLY via the tool or equivalent; (b) agent doctors run `--check` over their load-bearing TSVs. Auto-memory: `finding_printf_format_tsv_append_corruption`.
+
 ## Context artifacts
 Per-agent findings notes (all 7/20, in each agent's outbox): `boot-closeout-doc-review.md` under REGINALD (`597c848c`) / FALCON (`962d9ed2`) / OZK (`035a07df`) / LABOR (`4447c4a9`). Related same-day: the seeded self-sweep wave (5 surfaces, ~29 fixes, rot concentrated in state-change echoes on secondary surfaces) — closeout write-back-symmetry + state-token-sweep steps also landed in all four docs; fold into blueprint thinking as you see fit. LABOR additionally born a `BUILD_DEBT.md` register pattern (owed-code visibility) worth blueprint consideration.
 
