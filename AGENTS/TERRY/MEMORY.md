@@ -51,7 +51,15 @@ Detection (HY-280 break, print alerts) is LIQUID/SENTRY; TERRY owns everything A
 
 ---
 
-## Current Session (2026-07-20 Mon — ★ FIRST LIVE FIRE of a TERRY card)
+## Current Session (2026-07-21 Tue — four-print day graded, ZERO tells, no trade)
+
+**Delivered:** Boot consumed 3 inbox items (REGINALD WAL-grind CONFIRM · PROME VIO-116 re-open · DEWEY info) → **(1)** WAL-grind card upgraded: confirm folded in, Jan-27 tenor locked, **§2b PRINT GATE staged** (lapse/enter tells, credit-line-not-NIM read, 77.5-netting + 67.5-roll-leg execution flags). **(2)** **ALLY + SYF graded 0/4 un-mask tells each** (SEC 8-K primary for SYF) → **path (m) 0/2 NO FIRE**, TRY-FIRE-003 defers to COF 7/23 (strong-single ≥2 tells now required); SYF datum for CARL-side: masking lever (book shrinkage) REVERSING while credit improves = contrary evidence to the mechanism. **(3)** **WAL Q2 graded off the 8-K within the hour: enter-tells 0/3 → NO ENTRY**; SM −22% QoQ / NCO 37bps below band / $99M ABSENT (unresolved≠cured); **counter-grain nonaccrual +$70M + classified assets +$58M → improvement-vs-migration adjudication routed to REGINALD** (card = GATE-CLOSED/ADJUDICATION-PENDING, not lapsed); WAL grader MASTER=BUILD but collective-beta NON-COUNTING → path (a) no advance. **(4)** **VIO-116 write-back → PROME: 004 RIDES UNCHANGED** ($170 stays fenced; confirmation ≠ fresh discriminator). **(5)** OZK headline only (credit/RESG = call 7/22); after-hours WAL −0.75%/OZK −1.14% = no gap. **(6)** HY OAS re-stamped 269 [7/20], moved AWAY from 280. 004 marked $0.13 mid vs $0.11 fill; paper book marked live.
+
+**Next entry:** STATUS pickup item 0 — the **7/22 resolver slate** (WAL call noon $99M + REGINALD (a)/(b) adjudication · OZK credit grade · EGBN print · JGB auctions for 004). Standing Will Qs still open: risk unit ($/%/R), track-all-vs-approved.
+
+---
+
+## Prior Session (2026-07-20 Mon — ★ FIRST LIVE FIRE of a TERRY card)
 
 **Delivered:** **TRY-FIRE-004 re-fire FILLED — the desk's first live card** (30× TLT Sep-30 77P @ $0.11 = **$330 at risk**; Will sized 30 not 45 → ~$170 bank dry). Clean process end-to-end: ruled rule-#6 day-color definitively (→ new Durable Finding), verified arm-#2 LIT + green-TLT day **off the live option chain**, live-marked, Will approved. Recorded across card ZONE-3 / STATUS / SETUPS / TRADE_BOOK / PB-0002. Pays on a GAP (7/22→8/13 cluster); harvest ≥3×→half; disarm DGS10 close <4.50. Also this session: **HBAN retired** to dust-rider (Will EXIT-THESIS); **Kharg-006 trigger INVERTED** + wording confirmed (PortWatch AIS = dark-fleet-blind → refuting veto only; GATE-TERRY-006 LIVE, card ARMABLE); **`paper_book_mark` venv self-heal fixed** (gotcha: venv python is a symlink to system python → `sys.executable` compare falsely blocked re-exec; rely on env-flag loop-breaker); **desk dashboard artifact built** (refresh ON REQUEST — `[[reference_terry_desk_dashboard]]`); **full file sweep** → STATUS spine reconciled to post-fire (was still "0 fired"), **WAL-GRIND REGINALD confirm ROUTED** (never sent since 7/17 — closed that crack; awaiting reply into 7/21 AMC), **DHI-PHM LAPSED** (Will; archived). All committed + pushed.
 
@@ -74,7 +82,7 @@ Detection (HY-280 break, print alerts) is LIQUID/SENTRY; TERRY owns everything A
 
 ## Next Session
 
-1. **TRY-FIRE-004 re-fire** — the only live trade thread. $500 banked, card ARMED/HOT. Fire on: red-day/vol-cooldown TLT entry OR fresh discriminator (arm-#3 is spent). **Crash-ladder 77/76/75 = approved shape** (do NOT re-add 81/76 — redundant w/ Will's book). Rule #6: TLT at range lows → green-day/scaled fill.
+1. **TRY-FIRE-004 — LIVE POSITION (fired 7/20, 30× TLT Sep-30 77P, $330 at risk).** Monitor only: harvest ≥3× fast spike → half; disarm on DGS10 close <4.50; catalyst cluster 7/22 JGB → 7/27-28 month-end → FOMC → ~8/13 CPI. Scale the ~$170 ONLY on a fresh discriminator (VIO-116 re-open adjudicated NOT one, 7/21).
 2. **Un-owned-gate check before every closeout** (from the 005 postmortem, now standing): any resolver landing after session end gets a named grader or an explicit STATUS pickup line. 005 drifted 7d because nobody owned its gate.
 3. **HBAN 7/23 BMO print** — position rides through on its own (lottery ticket, resolved); no action owed unless Will re-engages.
 4. **OZK 7/21 print** — mild headwind flagged (div-hike + $200M buyback 7/1); tell = criticized/SM build not NCO (WALTER SIG-006) → watch the credit supplement.
