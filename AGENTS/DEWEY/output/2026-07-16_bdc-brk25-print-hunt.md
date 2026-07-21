@@ -2,6 +2,8 @@
 **Date:** 2026-07-16 | **Mode:** Thesis | **Confidence:** **High** (no-fire verdict; tender record; Apollo/MFIC resolution) / **Medium** (completeness of the rating-action sweep; the ARCC/OBDC negative)
 **Flag:** REQ-DEWEY-20260702-012 (Batch-2 #16) | **Window:** 2026-04-01 → 2026-07-16
 
+> 🔄 **REFRESHED 2026-07-20 (Will-directed, targeted 4-day update before the 7/25-28 Q2 marks — no re-run).** **Verdict UNCHANGED: BRK-25 still does NOT fire.** The refresh materially *improved sweep completeness* — it closed this report's biggest gap (Fitch) and found two in-window Fitch actions the original missed. Full update in the **REFRESH ADDENDUM at the end of this file.**
+
 ## Key Finding
 
 **BRK-25 does NOT fire. No arms-length sub-90¢ BDC/private-credit transaction printed in the window** — and the six-week-old watch that was supposed to fire it is **refuted at its root**: the "Apollo shopping captive BDC @ $0.85/NAV" figure was never a bid. It reproduces **MFIC's May trading price ÷ NAV** ($11.68/$13.82 = 0.845) — a market quote misread as a transaction price. No sale agreement exists.
@@ -247,3 +249,41 @@ Redemption demand ran **2–4× the caps**; **all filled at 100% of NAV** [all P
 **If I had more time/tools:** WSJ access (could overturn the $0.85 refutation); a JS-rendering fetch or Moody's API for the ratings pages; an official transcript source.
 
 **Suggestions:** (1) The **completeness-critic pass earned its keep** — enumerating the 8 sub-answers *before* seeing results caught the Fitch/S&P gap that the harness's synthesis silently omitted. Keep doing this *pre-registration-style*, not retrospectively. (2) **Both sub-agent guardrails (BUDGET + WRITE-SCOPE) held on all four spawns** — zero unprompted writes, zero commits, all returned data. The 7/16 WRITE-SCOPE encoding is working. (3) The four-traps section (§3) is the reusable artifact here — a keyword search for "≤90% of NAV" fires on all four.
+
+---
+
+# REFRESH ADDENDUM — 2026-07-20
+**Mode:** targeted 4-day incremental (Will-directed; NO fan-out — direct EDGAR + rating-action search + live price) | **New window:** 2026-07-16 → 2026-07-20 (+ backfill of Fitch, which was the original report's #1 gap) | **Verdict:** **UNCHANGED — BRK-25 does NOT fire.**
+
+## What this refresh was for
+The 7/16 verdict is 4 days old and the prompt's purpose is to adjudicate BRK-25 **before the 7/25-28 Q2 marks (ARCC 7/28)**. This checks: (a) any arms-length sub-90¢ *loan* print since 7/16; (b) any MFIC sale development; (c) any Q2 tender finals now filed; (d) the **Fitch/S&P gap** the 7/16 report flagged as its biggest completeness hole.
+
+## Bottom line (nothing that fires BRK-25)
+1. **No new arms-length sub-90¢ loan print 7/16→7/20.** The verdict holds on all four original evidence classes.
+2. **MFIC sale STILL unresolved.** EDGAR full-text 7/1→7/20 for "merger / strategic alternatives / agreement and plan" = **0 hits** [PRIMARY: EFTS, CIK 1278752]; **no filing since the 6/23 8-K** (the distribution cut). No 8-K Item 1.01, no 425, no merger agreement. Next on-record catalyst remains **MFIC Q2, 8/6**. Unchanged from 7/16.
+3. **No Q2 tender finals filed yet** — all still pending to August, as the 7/16 report predicted: **BCRED** no filing since 6/23; **ADS** 7/17 filings are offering docs (POS EX / 424B3 / N-2/A — a registration amendment), **0 tender/repurchase-results hits** [EFTS, CIK 1837532]; **OCIC** no SC TO-I/A since the 5/26 Q2 launch [CIK 1812554]. The Q2 repurchase-price-vs-NAV record — the leg most likely to surface a below-NAV print — **has not printed yet.**
+
+## The real value-add: the Fitch gap is now CLOSED (and it corroborates, doesn't fire)
+The 7/16 report's §Data-Gaps #1 was *"Fitch and S&P actions: NOT surfaced… 2 of 4 agencies effectively uncovered."* The refresh closes **Fitch** and surfaces **two in-window Fitch actions the original missed**:
+- **2026-04-09 — Fitch cut FS KKR (FSK) to junk (BB+)** citing weakening asset quality [NEWS: WHBL/Reuters relay, 2026-04-09] — **squarely in the original 4/1→7/16 window, missed by the Moody's-heavy sweep.**
+- **2026-07-13 — Fitch BDC peer review (13 issuers): NEGATIVE outlook on 3, STABLE on 10; affirmed 12 long-term IDRs + 1 "review — no action."** **FSK confirmed as one of the three negatives**; the **other two are not publicly named** in reachable coverage (honest gap — Fitch's own release is not free) [INSTITUTIONAL: Alternative Credit Investor, 2026-07-13]. Rationale: *"decline in asset quality metrics," "elevated redemption pressure for perpetually non-traded BDCs," "ongoing pressure on net investment income and dividend coverage," "limited M&A activity."*
+- Fitch sector context: US private-credit **default rate 5.8% TTM through Jan-2026 (highest since Fitch began tracking; privately-monitored component 9.4%)** [INSTITUTIONAL: Fitch via trade press].
+
+> ⚠️ **These are agency OPINIONS, not transaction prints — they cannot fire BRK-25** (scoped to an arms-length sub-90¢ *loan* transaction), exactly as the Moody's actions in §5. They **corroborate the stress cluster and strengthen the sweep**, moving rating-action completeness from Medium toward High: **Fitch now covered (in-window: FSK junk 4/9 + 3 negative outlooks 7/13); Moody's covered (§5); KBRA covered (pre-window §5). S&P remains the ONE uncovered agency** — the residual completeness gap.
+
+## MFIC discount keeps widening (still an equity quote, not a loan mark)
+| Date | MFIC price | ÷ NAV ($13.82) |
+|---|---|---|
+| Mid-May | $11.68 | 0.845 |
+| 2026-07-16 | $9.89 | 0.716 |
+| **2026-07-20** | **$9.60** (−1.84% on the day) | **0.695×** [FORGE `fetch.py price MFIC`] |
+
+The listed-wrapper discount has widened another ~2 points in 4 days. It remains **out of bounds for BRK-25 by spec** (equity quote on a listed BDC ≠ arms-length loan mark) — but it is a clean illustration of `[[finding_terms_volume_lead_price_private_structures]]`: **in a tape-less structure the terms/volume/opinion layer (redemptions 2-4× caps, the −10% BCRED distribution cut, Moody's+Fitch outlook downgrades, the widening listed discount) all deteriorate first, while the arms-length loan-mark print BRK-25 actually requires still hasn't happened.** A price-only trigger under-fires *by design* here; the stress is real and visible everywhere *except* the one place the trigger looks.
+
+## Refresh data gaps (honest)
+- **S&P Global** — still no BDC action surfaced. The one uncovered agency; a genuine residual gap, not a claim of no action.
+- **The other two Fitch-negative BDCs** — not publicly named (Fitch release paywalled/not free).
+- **Q2 tender finals** — not yet filed (BCRED final $ value publishes in August); the below-NAV-print test on Q2 repurchases is deferred, not answered.
+
+## Refresh process report
+Direct pulls only (no `/deep-research`): `edgar_fetch.py`/`edgar_doc.py search` (MFIC + BCRED/ADS/OCIC filings + EFTS sale-language), 3 WebSearch (Fitch/S&P/rating actions), `FORGE fetch.py price MFIC`. ~6 tool calls, ~10 min. **Engine sizing was right** — a full fan-out would have reproduced the 7/16 report; the targeted pull closed the Fitch gap and confirmed no new print for a fraction of the cost. Sole frustration: the Fitch primary release isn't free, so the 2 unnamed negative-outlook BDCs stay unnamed; `ratings.moodys.com` SPA wall unchanged (per BACKLOG — did not retry).
