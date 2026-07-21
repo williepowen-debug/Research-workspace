@@ -26,7 +26,7 @@
 6. **By ~2026-07-26:** slow-aggregate re-verify (floating storage, Urals discount) — 14-day trigger overdue.
 
 ## OPEN THREADS / WATCHES
-- 🟠 **CPC halt** — ACTIVE Channel-2 watch, base-case days; tail = weeks on confirmed buoy damage / insurer pullback (Nov-2025 SPM-2 → ~2mo + Tengiz FM precedent).
+- 🟠 **CPC halt** — ACTIVE Channel-2 watch, base-case days; tail = weeks on confirmed buoy damage / insurer pullback (Nov-2025 SPM-2 → ~2mo + Tengiz FM precedent). **Tripwire LIVE = `GATE-OSPREY-001`** (PROME/GATES.tsv commit 2d54ba96): fire legs (a) SPM buoy structural damage / (b) suspension ≥5 sessions OR Kpler CPC liftings drop / (c) Tengiz FM → I adjudicate + 🔴 BRENT via PROME. Check these each boot while halt is live.
 - 🟠 OSP-01 (Aug 1) — tanker campaign world-crude test, 65% attritional (Black Sea extension supports, unfired).
 - 🟠 OSP-03 (Aug 2) — independent >40%-offline; band DEFENDED at 25-35% this session.
 - 🟡 OSP-02 (Aug 3 / Jul 31) — diesel-export-ban extension.
