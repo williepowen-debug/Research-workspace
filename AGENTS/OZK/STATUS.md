@@ -1,7 +1,7 @@
 # OZK — Dashboard
 
-**Updated:** 2026-07-20 (pre-print readiness: firedrill Z1–Z10 adopted as scoring-card ADDENDUM A; ★Z2 $154M gap RESOLVED = foreclosed-assets line, classified line-set frozen; WALTER SIGs dispositioned INFO_ONLY. Prior 7/18: 10-Q read + D-severity re-derivation) | **Price:** $52.01 [7/17 close; last $52.01 pre-mkt 7/20 per PROME, off 7/16 $53.09 high] | **TBV:** $47.15 [Q1'26] | **P/TBV:** ~1.10×
-**Thesis:** RESERVOIR v1.5 (recognition-timing refinement — appraisal-gated deferral; no direction change) | **Conviction:** 🔴🔴 HIGH | **KB:** 216 rows / 33 groups
+**Updated:** 2026-07-21 (**Q2 2026 STAGE-1 GRADE** off FDIC 8-K bundle FLNG 11969: OZK-07★ TRUE + OZK-05 TRUE → conviction HELD 🔴🔴; OZK-06/01 FALSE; mean Brier 0.229. OZK-08 PENDING-CALL, OZK-09 OPEN → Stage-2 Wed 7/22. Prior 7/20: firedrill Z1–Z10 addendum) | **Price:** $52.01 [7/17 close — STALE, pre-print; AMC reaction not yet marked] | **TBV:** $47.15 [Q1'26] | **P/TBV:** ~1.10×
+**Thesis:** RESERVOIR v1.5 — **Q2 DIRECTIONALLY CONFIRMED** (adverse selection: classified $1,215M→$1,282M UP while RESG $27.8B→$25.7B DOWN; NCO 0.69% above kill; NPA 1.42%) | **Conviction:** 🔴🔴 HIGH | **KB:** 216 rows / 33 groups
 **Short interest:** **14.7% of float** (14.91M sh, 6/30/26 FINRA), ~11.7 days-to-cover — structurally crowded (avg 15.1% / 12mo, peak 18.3%), re-building off a 4/30 low into the print. Squeeze risk if Jul-21 prints quiet. [standing field — refresh at settlement via Nasdaq API]
 **Next hard catalyst:** OZK **Q2 earnings Tue Jul 21, 2026** (call Jul 22) → dress rehearsal for **IQHQ RaDD maturity Aug 2026** (weighted EL $140M on $555M funded; recognition appraisal-gated/back-loaded — see §BOTTOM LINE)
 
@@ -27,6 +27,24 @@
 | $45P   | Aug 21 | 4 | Same — **verify live** |
 
 ---
+
+## Q2 2026 Snapshot — STAGE-1 GRADED 2026-07-21
+
+*Reported Jul 21 AMC; call Jul 22 8:30a. Primary: FDIC 8-K bundle FLNG 11969 (`raw/Q2_2026_8K_bundle.pdf`, byte-exact). Grade detail → `workbook/Q2_2026_SCORING_CARD.md` §STAGE-1 GRADE. Aggregators discarded (Investing.com $1.58 = prior-year Q2'25).*
+
+| Metric | Q2 26 | vs Q1 | Read |
+|---|---|---|---|
+| EPS (diluted) | $1.49 | +$0.05 / beat ~$1.46 | Tape context only — NIM/fee-driven |
+| NIM | 4.24% | +4bps | — |
+| **Ann. NCO (qtr)** | **0.69%** | 🔴 vs 0.56% | **OZK-05 TRUE** — above 55bps kill (NCO $56.3M) |
+| **Past-due loans** | **$298M / 0.92%** | 🟢 vs $465M/1.41% | **OZK-06 FALSE** — improved |
+| **Classified+criticized** | **$1,282M** | 🔴 +$67M vs $1,215M | **OZK-07 leg1 UP** (SpecMention +$219M; Foreclosed +$139M) |
+| **RESG total commitments** | **$25.7B** | 🔴 −$2.1B vs $27.8B | **OZK-07 leg2 DOWN** → adverse-selection conjunction TRUE |
+| NPA | $593M (1.42%) | 🔴 vs $451M/1.08% | Nonaccrual $300M + OREO $293M |
+| Provision / ACL | $45.6M / $617.8M | ACL −$10.7M | c/o > provision |
+| RESG % of funded | 47.6% ($15.49B) | vs 52.1% | Runoff continuing, but classified rising alongside |
+
+**Verdict:** OZK-07★ TRUE (conviction-governing) + OZK-05 TRUE → **conviction HELD 🔴🔴**. Adverse-selection tell confirmed — RESERVOIR v1.5 directionally validated. Seattle U-District recognized as known workout (CREED S3 stays 2); debt-on-debt book quiet (BROCK 3/3 flip conditions NOT fired). **OZK-08 PENDING-CALL** (no IQHQ/San Diego/RaDD anchor Tuesday; $555M RaDD credit still pass-rated) — Stage-2 stamps Wed post-call.
 
 ## Q1 2026 Snapshot
 
@@ -67,14 +85,15 @@
 
 | Signal | Current [date] | Watch Level | Fires |
 |---|---|---|---|
-| OZK price | $52.01 [7/20 pre-mkt] | <$45 / <$40 | Thesis execution bands (no fire; off 7/16 $53.09 12-mo high) |
-| Past-due loans | $487.5M / 1.48% [Q1] | >$550M or >2.0% next Q | Recognition tempo accelerating |
-| NCO (ann.) | **0.56%** [Q1] | >80bps mid-year / **≤55bps kill** | 🔴 **1bp from Invalidation §2 kill line** |
+| OZK price | $52.01 [7/17 close — STALE, pre-print] | <$45 / <$40 | AMC reaction not yet marked; possible squeeze on beat (C8) |
+| Past-due loans | **$298M / 0.92%** [Q2] | >$550M or >2.0% | 🟢 OZK-06 FALSE — improved from $465M/1.41% |
+| NCO (ann.) | **0.69%** [Q2] | >80bps mid-year / **≤55bps kill** | 🔴 **OZK-05 TRUE — above kill-line** (was 0.56% Q1) |
+| Classified+criticized | **$1,282M** [Q2] | >$1.5B fires REGINALD/CREED | 🔴 rising ($1,215M→$1,282M); RESG $25.7B falling = adverse selection |
 | RaDD leased % | ~3.3% (JCVI 50K SF) | Any signing >100K SF | Scenario A probability up |
-| IQHQ specific reserve | Not broken out Q1 | Any positive Q2 (Jul 21) | Scenario B firing early |
+| IQHQ specific reserve | **None Q2** [pending Wed call] | Any positive disclosure | OZK-08 PENDING-CALL; $555M RaDD still pass-rated |
 | Sub notes reprice | Oct 1 2026 | Pre-reprice refi announcement | +$12.8M/yr · Tier 2 −20% |
 
-**⚑ Jul-21 reads pre-registered** (falsifiable, 2026-07-04; **armed 7/18 off the Q1'26 10-Q**; **disambiguation ADDENDUM A adopted 7/20 — Z1–Z10 measurement/precedence/timing rules, zero thresholds moved**, incl. the ★Z2 frozen classified line-set) → `workbook/Q2_2026_SCORING_CARD.md` + `workbook/PREDICTIONS.tsv` OZK-05→09: NCO kill-line (05, 50%), past-due >$550M (06, 40%), **★classified-vs-RESG discriminator (07, 55% — conviction-governing)**, IQHQ Q2 pre-reserve (08, 28%), Aug terminal $140M+ event (09, **68%→52%** re-marked 7/18 — 10-Q collateral-dependent methodology means a Scenario-B migration can book ~$0 reserve; P($140M+ *recognition*) ≠ P(B∪D); severity band unchanged). *(OZK-01 also resolves Jul-21, tracking FALSE.)*
+**⚑ Jul-21 reads — STAGE-1 GRADED 2026-07-21** (off FDIC 8-K bundle FLNG 11969) → `workbook/Q2_2026_SCORING_CARD.md` §STAGE-1 GRADE: **OZK-05 TRUE** (NCO 0.69%>55bps), **OZK-06 FALSE** (past-due $298M/0.92%), **OZK-07★ TRUE** (classified $1,282M UP + RESG $25.7B DOWN = adverse selection → conviction HELD 🔴🔴), **OZK-01 FALSE** (H1 NCO 0.63%). Mean Brier 0.229. **OZK-08 PENDING-CALL** (no IQHQ/San Diego/RaDD anchor Tuesday; Z8 stamps Wed) · **OZK-09 OPEN** (RaDD pass-rated; Z10 no early resolve).
 
 **Cross-feed (ref only, [[REGINALD]] owns — PROME-confirmed values 7/20):** KRE **$76.69** [7/20 pre-mkt live] · HY OAS **271bps** [FRED 7/16] · Brent **$88.10** [BZ=F 7/17 settle, first-ever >$85; ~$88.3 live 7/20 pre-mkt] — 🔴 **energy regime RE-INFLATED: formal Hormuz closure 7/11-12 killed the prior "energy deflated / bank macro-tailwind" read; the BZ=F settle series (cite w/ date) is fleet canon.** Credit still tight (OAS 271, modestly easing off 278); KRE firm near highs.
 
