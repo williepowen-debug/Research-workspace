@@ -14,13 +14,21 @@
 
 **Synchronization count as of 7/21 EOD: 0-of-≥2 deteriorating.** Same day, FL State Employment (June) also printed benign (UR 4.7%, first decline since 2024 — see STATUS 7/21 block) → **two independent FL surfaces (bank credit + labor) agreeing benign.** No rail move.
 
+**READ-SHAPE (identical in kind for every row — grade mechanically, do not invent new bars):** classify each FL-exposed print as **DETERIORATING** (feeds the ≥2 sync count) vs **BENIGN/ANTI-DATUM** on four axes — (a) **NCO** direction/level (benign ≈ low/mid-teens bps stable; deteriorating = materially rising); (b) **provision / specific reserve build** (benign = de minimis, no build; deteriorating = notable provision or named FL-RE specific reserve); (c) **allowance ratio** (benign = flat/±1bp; deteriorating = building); (d) **criticized/classified → nonaccrual/NPL migration** (benign = flat/down; deteriorating = rising, esp. CRE/condo vs C&I). A row counts toward synchronization ONLY if ≥3 of 4 axes read deteriorating in the FL-relevant book.
+
 | # | Date | Bank | Ticker | FL exposure | Q2 print | Rail read |
 |---|------|------|--------|-------------|----------|-----------|
 | 1 | **7/21 BMO** | **Capital City Bank Group** | **CCBG** | **~$4.4B assets, FL = 81% of revenue** (NEW small-tier name, not previously tracked) | **BENIGN** — EPS **$0.95** (vs $0.92 Q1, $0.88 yr-ago); NCOs **14bps** ann.; provision **+$0.2M**, allowance **1.24% (+1bp — NO build)**; ROA **1.48%** improving | **ANTI-DATUM** — opposite of deterioration; a small-tier FL bank printing clean. Count stays 0-of-≥2. |
+| 2 | **7/22 BMO** *(PRE-REGISTERED — grade as-written)* | **BankUnited** | **BKU** | **~$35B, Miami Lakes FL HQ; CRE ~30% of loans, office 16% of CRE** | **⏳ Q2 pending.** Q1 baseline: NPLs **−26% QoQ**, NCO **C&I-led** (not CRE), ACL/NPL **59%→76% (improving)**, CET1 12.2%, EPS soft. **Grade on the 4-axis read-shape:** (a) NCO direction + is it still C&I-led or turning CRE/office? (b) provision build vs Q1? (c) ACL ratio building or flat? (d) NPL QoQ — does the −26% reverse, and does criticized/classified CRE (esp. office) migrate up? | **PRE-REG — the 2nd FL-sync leg.** DETERIORATING (≥3/4 axes, FL-RE book) = sync count → **1-of-≥2** (with CCBG benign, still short of the ≥2 bar alone). BENIGN/continued-improvement = count stays **0-of-≥2**. |
+| — | **7/22 AMC** *(window context, NOT an FL-sync name)* | **Eagle Bancorp** | **EGBN** | **DC-corridor office CRE — NOT FL** (my CALENDAR tags it "DC corridor stress") | **⏳ AMC pending.** Read for national/DC **office-CRE tone** only (provision/office-criticized direction) as context for the CRE backdrop. | **EXCLUDED from the FL-sync count** — not FL-exposed. Rounds the small-tier *earnings window* temporally, does not feed the FL synchronization test. |
 
-**Forward (window rounds out 7/22):** **BKU (BankUnited, Miami Lakes FL) prints TOMORROW 7/22 BMO** = the second leg of the synchronization test becomes live-testable. **EGBN AMC 7/22** rounds the small-tier window. Live re-test of the ≥2-synchronized bar runs across the 7/21–28 prints (also SBCF/AMTB/USCB/VLY/SSB where dated).
+**⚠️ EXCLUSIONS (protect the sync count from contamination — a print can be bear-side WITHOUT being an FL-synchronization datum):**
+- **OZK (Bank OZK)** — printed **bear-side construction/CRE deterioration tonight 7/21 (OZK-07 conjunction TRUE)**, BUT OZK is **NOT an FL-synchronization name**: its stress is the **RESG national construction book** (idiosyncratic, non-FL-condo frame). **Do NOT add OZK to the FL sync count.** It corroborates the broad CRE-construction backdrop but is not evidence of the FL-condo/FL-CRE transmission the rail tests. *(Same exclusion logic as EGBN's DC office book.)*
+- General rule: a name counts only if the deterioration is in an **FL-exposed** book (FL CRE / FL condo-association / FL resi). National-construction (OZK-RESG), DC-office (EGBN), or pure-C&I deterioration does not feed the count.
 
-**Source:** CCBG Q2 8-K exhibit ex991 (SEC EDGAR, released 7/21 BMO) — PROME-verified vs the primary exhibit; ingested to CORAL 7/21. Mechanical entry, no rail move (consistent with CORAL's 7/21 employment grade).
+**Live window:** ≥2-synchronized bar re-tests across the 7/21–28 prints (BKU 7/22 the next live leg; also SBCF/AMTB/USCB/VLY/SSB where dated).
+
+**Source:** CCBG Q2 8-K exhibit ex991 (SEC EDGAR, released 7/21 BMO) — PROME-verified vs the primary exhibit; ingested to CORAL 7/21. BKU/EGBN rows pre-registered 7/21 EVE (PROME eve-pass); OZK exclusion per PROME (OZK-07 TRUE, non-FL frame). Mechanical entries, no rail move (consistent with CORAL's 7/21 employment grade).
 
 ---
 
