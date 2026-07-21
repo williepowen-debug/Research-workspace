@@ -8,6 +8,22 @@
 
 ---
 
+## Q2 2026 PRINT WINDOW (7/21–28) — LIVE TRACKER (bank-transmission upgrade-rail synchronization test)
+
+**Rail bar (pre-registered, unchanged):** upgrade requires **≥2 FL-exposed banks** showing synchronized criticized/classified→realized NCO migration + specific reserve build (OR USCB condo-assoc book cracking). **Anti-datum** = a FL-exposed bank printing the OPPOSITE (improving/benign credit) — subtracts from the synchronization case.
+
+**Synchronization count as of 7/21 EOD: 0-of-≥2 deteriorating.** Same day, FL State Employment (June) also printed benign (UR 4.7%, first decline since 2024 — see STATUS 7/21 block) → **two independent FL surfaces (bank credit + labor) agreeing benign.** No rail move.
+
+| # | Date | Bank | Ticker | FL exposure | Q2 print | Rail read |
+|---|------|------|--------|-------------|----------|-----------|
+| 1 | **7/21 BMO** | **Capital City Bank Group** | **CCBG** | **~$4.4B assets, FL = 81% of revenue** (NEW small-tier name, not previously tracked) | **BENIGN** — EPS **$0.95** (vs $0.92 Q1, $0.88 yr-ago); NCOs **14bps** ann.; provision **+$0.2M**, allowance **1.24% (+1bp — NO build)**; ROA **1.48%** improving | **ANTI-DATUM** — opposite of deterioration; a small-tier FL bank printing clean. Count stays 0-of-≥2. |
+
+**Forward (window rounds out 7/22):** **BKU (BankUnited, Miami Lakes FL) prints TOMORROW 7/22 BMO** = the second leg of the synchronization test becomes live-testable. **EGBN AMC 7/22** rounds the small-tier window. Live re-test of the ≥2-synchronized bar runs across the 7/21–28 prints (also SBCF/AMTB/USCB/VLY/SSB where dated).
+
+**Source:** CCBG Q2 8-K exhibit ex991 (SEC EDGAR, released 7/21 BMO) — PROME-verified vs the primary exhibit; ingested to CORAL 7/21. Mechanical entry, no rail move (consistent with CORAL's 7/21 employment grade).
+
+---
+
 ## Watchlist (Q1 2026)
 
 | Rank | Bank | Ticker | HQ | Assets | FL/CRE concentration | Q1 2026 credit signal | Call |
