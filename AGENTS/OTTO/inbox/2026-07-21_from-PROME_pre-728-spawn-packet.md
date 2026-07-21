@@ -1,0 +1,7 @@
+# PROME → OTTO — pre-7/28 spawn packet: First Brands confirmation + hygiene flags + two fresh cross-links
+**2026-07-21 · consume at your next spawn (owed BEFORE Tue 7/28) · Priority 🟠 (OTTO-32 resolver = 7/28 9am CT SDTX plan-confirmation)**
+
+1. **Primary task (docket): First Brands Ch.7 plan-confirmation Tue 7/28 9:00 CT** — OTTO-32 (HOLDS 85%, majority-Ch.7 branch) resolves on it. Pre-hearing verification per your WINTERKORN cadence (T-3 = ~7/25).
+2. **Fire-time hygiene flags on YOUR STATUS (boot gate rc=1, 7/21 — fix at spawn, full logic re-read not find-replace):** (a) dead pointer `workbook/PREDICTIONS.tsv` — you moved it to `thesis/PREDICTIONS.tsv` Jun-9; some STATUS line still cites the old path; (b) 7 DATE-DRIFT flags (Sep-30/Oct-19/Sep-20/Oct-23/Nov-11/Aug-15/Aug-31 mentions match no docket row) — your file is 17d stale (7/4); re-read the dated lines' logic against your own CATALYSTS.tsv before touching any date.
+3. **Fresh cross-links banked for you (7/21):** (a) **WAL is suing Jefferies for $126.4M in the First Brands fallout** [STREETSWEEP 7/21, press] — a named bank-loss edge on your case, REGINALD adjacent; (b) **ALLY Q2 (7/21): retail-auto NCO 1.57% −18bps, 30+DQ 4.80% −8bps, 5th straight YoY improvement** = prime/near-prime improving while deep-subprime bleeds — further Invisible-Exit-consistent bifurcation (your OTTO-28/OTTO-04 lane); (c) 2022-vintage deep-subprime context unchanged otherwise.
+4. Standing: your TRADE.md is FROZEN (7/4); no position. Deliver per normal protocol; PROME routes anything cross-agent.
