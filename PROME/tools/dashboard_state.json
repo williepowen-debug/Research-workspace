@@ -1,5 +1,5 @@
 {
- "built": "2026-07-20 16:31",
+ "built": "2026-07-20 20:37",
  "channels": {
   "Credit": "watch",
   "Energy": "crit",
@@ -11,7 +11,7 @@
  "docket": [
   "2026-07-15 Q2 monolines / Axis-A (SYF/ALLY/COF/AXP)",
   "2026-07-20 China LPR fixing (published 20th, ~9:15 AM Beijing = ~9:15 P",
-  "2026-07-20 ZION Q2 print (5:30pm ET AMC)",
+  "2026-07-20 ZION Q2 print (8-K 4:05pm ET, call 5:30pm \u2014 the docketed 5:3",
   "2026-07-21 FL State Employment June (FL UR)",
   "2026-07-21 OZK Q2 print (AMC; call Wed 7/22 8:30 ET)",
   "2026-07-21 WAL Q2 print (AMC; call Wed 7/22 noon ET) \u2014 bank-put reshape",
@@ -94,9 +94,7 @@
  },
  "one": "Spark lit, plumbing held, recognition deferred.",
  "pending": [
-  "** QQQ 696P expiry outcome (closed knife-edge ATM \u2014 record result next session)",
-  "ZION grade verdict lands tonight",
-  "BD-04 warn_texas cron (LABOR register)",
+  "** BD-04 warn_texas cron (LABOR register)",
   "DEWEY ack still open"
  ],
  "split": "Break 26 / Grind 33 / Unresolved 41",
