@@ -1,0 +1,66 @@
+# Mechanical-selling cushion into the 7/22–7/31 earnings cluster — CTA levels, levered-ETF quantum, 0DTE
+**Date:** 2026-07-20 | **Mode:** Thesis (M-09 AI/factor positioning unwind; consumers HENRY action [HEN-36] · VIOLET co-action [F2] · PROME/TERRY/WALTER info) | **Confidence:** Medium (the Korea complex + CTA-direction read) / **the two load-bearing quanta are DOCUMENTED-UNAVAILABLE from public data** | **Flag:** REQ-DEWEY-20260702-008 (v2, Batch-2 #12)
+
+## Key Finding
+**The mechanical cushion cannot be *quantified* from public data — and that null is the actionable result.** The two figures the prompt most needed — **(a) the specific SPX CTA first-trigger LEVEL below spot, and (b) the disputed US levered-ETF quantum (~$464bn vs Goldman's ~$84bn)** — are **not sourceable with fresh, citable data**: every specific number found was either stale spring-2026 vintage recycled under a July dateline or blog/aggregator-quality, and was refuted on adversarial verify (13 of 25 claims killed). What *is* sourceable: **(1)** CTAs were **net-long and still building** with triggers **"well above" the level that would force selling** as of early June — cushion **directionally intact but not precisely located**; **(2)** the **Korean 2x semiconductor ETF complex (~$9–10bn)** is real, now **~-60% from its June peak, FSS-restricted (mid-July), and demonstrably drove 62% of local institutional net selling on 7/13** — a live, primary-grade demonstration of exactly the mechanical-amplification the thesis posits; **(3)** intake re-anchor: **VIX is 18.65, not the prompt's "~16."** **Legs 3 (vol-control keying) and 5 (0DTE share) could not be pulled — session WebSearch budget exhausted (a documented constraint, not a null result).**
+
+> **Consumer translation (HEN-36 / VIOLET F2):** the precise mechanical quanta this prompt was built to source **do not exist in free/public form** — so **the free-tracker + broker-screenshot approach Will already adopted for the gamma flip (7/16) is the correct method for the CTA level too.** Do **not** put the **$464bn** figure into HEN-36's amplification term — it is **unverified and most likely a gross-AUM/notional number, not net delta-adjusted rebalance demand.** The honest amplification read is *directional*: cushion intact, CTAs not max-long, latent downside asymmetry large but its exact level unlocated.
+
+---
+
+## Intake re-anchor (DEWEY primary pull — queue-freshness; prompt premises are HENRY 7/16, ~4d stale)
+- **VIX 18.65** [FORGE `fetch.py`, 2026-07-20] — **up ~2.6 pts from the prompt's "~16" premise.** The "threshold moot at VIX ~16" framing (leg 3) is now VIX ~18.65 — still below classic vol-control de-lever zones but the premise moved. **QQQ 696.06** (+0.10%).
+- **SPX live index level not pullable** via FORGE `fetch.py` (`^GSPC`/`SPX`/`^SPX`/`ES=F` all error — index-ticker limitation → BACKLOG). Reference stays HENRY **~7,544 (7/16)**; re-anchor off a broker SPX-OI screenshot on decision day (the method Will already ruled for gamma).
+- CBOE daily stats [WebFetch, 7/20]: SPX+SPXW total volume **4,711,301 contracts, P/C 1.14** — but **no 0DTE segmentation** (leg 5 needs CBOE's 0DTE-specific page).
+
+## Leg 1 — CTA trigger levels & positioning
+**What survives verification (all Goldman, early-June vintage, correctly timestamped):**
+- **CTAs NET-LONG and still building** as of **2026-06-02**: ~**$93bn** global long equity (~**$34bn** SPX futures), +~$3bn the prior week [SECONDARY: Yahoo/Bloomberg republish 6/2/26; 3-0]. **Positioning = net-long, NOT max-long or neutral** → room to add *or* to sell.
+- **One-month asymmetry (GS estimate, 6/2):** **>$100bn SPX/equity SELLING on a sustained decline** vs ~$18bn buying if flat / >$37bn if rallying [3-0] — large *latent* sell capacity, not near-term pressure.
+- **Nearest sell-triggers sat "well above levels that would trigger widespread mechanical selling"** as of early June → triggers **meaningfully BELOW spot** [3-0]. Market rose into late July, so the below-spot cushion **persists** directionally.
+
+**What could NOT be sourced (the load-bearing gap):**
+- **NO verifiable current SPX first-trigger LEVEL below ~7,544.** The "~5,472 medium-term" figure is **arithmetically stale** (×1.03 → ~5,636 spot, ~25% below 7,544 = spring vintage under a July dateline; staleness 3-0). The specific **7446 / 7175 / 6745** SPX stack (and NDX 29265/19608) is **blog/aggregator-quality and refuted 0-3** (hyperdash, cryptobriefing, macrovisor).
+- **UBS, BofA, Deutsche Bank (Thatte) CTA estimates: NOT FOUND** in freshness-passing press — only Goldman surfaced citably; Nomura/McElligott figures were pre-June stale (refuted).
+- **The "where below 7,544 does the first trigger sit, and what sells there" question is UNANSWERED with citable data** — it needs a live desk pull or terminal. *(This validates Will's 7/16 gamma ruling as the right template: track the level off a broker/free-tracker screenshot on the day, don't expect a sourceable published level.)*
+
+## Leg 4 — levered/inverse-ETF quantum
+**Korea (well-corroborated, the strongest material in this report):**
+- **~$9–10bn 2x single-stock chip ETF complex:** 16 Samsung/SK-Hynix 2x ETFs launched **May 2026** at ~$3bn → **peaked >$10bn mid/late-June**; largest (**KODEX SK Hynix Single-Stock Leverage**) **$3.4bn AUM, now ~-45% from debut / >-60% from June peak** by mid-July; **>13tn won cumulative turnover** [PRIMARY-adjacent: Asiae 6/24, Yahoo/Bloomberg 7/14, Korea Times 7/20; 3-0]. *(13tn won = cumulative TURNOVER, not AUM/net exposure — activity, not rebalance quantum.)*
+- **Mechanical rebalancing CAN dominate the tape:** GS estimated levered/inverse-ETF deleveraging = **62% of local Korean institutional net selling on Mon 2026-07-13** (SK Hynix −15% that day) [3-0]. **This is the live proof-of-mechanism** for the M-09 amplification thesis — though the denominator is *local institutional* (excludes foreign/retail).
+- **Korea FSS/FSC tightened rules ~2026-07-16** [SECONDARY: Korea Times 7/20; 3-0]: deposit raised to **30M won** (from 10M), **100% cash funding**, **advertising banned**, **new launches halted**, min order **20 units**. Supersedes the 6/24 posture (FSS Governor "regret," no formal rule). *(Recommend upgrading to the primary FSS/FSC/KRX release if load-bearing; the KOSPI-8,200 re-contagion anchor is **not affirmable** from this — the complex is *de-risking under restriction*, not building.)*
+
+**US (the core dispute — UNRESOLVED):**
+- **The ~$464bn vs ~$84bn reconciliation could NOT be resolved.** The $464bn was **never independently confirmed**; the "$84bn = gross AUM across 573 levered US equity ETFs, doubled from $39bn" claim is **blog-sourced (1-2)**; the **daily $/1%-move rebalance flow** and the **gross-AUM-vs-net-delta distinction** have **no surviving confirmed claim**. **Do not cite either figure as a mechanical-selling quantum.**
+- **Taiwan AI/semi levered-ETF exposure: NOT established** (the only candidate — a blog bundling 11 Taiwan funds into $43.1bn gross — was refuted 0-3).
+
+## Legs 3 & 5 — vol-control keying + 0DTE share: NOT PULLED (session constraint)
+**These were scoped as DEWEY direct-search pulls; this session's WebSearch budget was exhausted (200/200) before they ran, and they were carved OUT of the fan-out.** Documented gaps, not null results:
+- **Leg 3 (vol-control keying — which variable de-leveraging keys off, VIX level vs 1m/3m realized):** not pulled. *Reproduction recipe:* the durable answer is that vol-control/target-vol funds key primarily off **trailing realized vol (blended 1m/3m)**, not the VIX level — search Fed/BIS vol-control-flow literature + a McElligott/GS note; the keying variable matters more than any threshold at VIX 18.65.
+- **Leg 5 (0DTE share):** not pulled. *Reproduction recipe:* CBOE's **0DTE-specific** insights page (the daily market-stats page does NOT segment it) — the recurring figure is ~50%+ of SPX options volume; confirm from CBOE primary in a fresh session.
+
+## Counter-Evidence / calibration
+1. **The cushion read is directionally reassuring but based on a ~7-week-stale snapshot** — GS's net-long/cushion-intact was true 6/2; positioning drifts fast, and the exact $93bn/$34bn/$100bn will have moved. Do not treat as current levels.
+2. **Korea proves the mechanism is real and can dominate a tape** (62% of selling 7/13) — so "no US quantum sourceable" is **not** "no mechanical risk." The mechanism is demonstrated; only the *US sizing* is unavailable.
+3. **VIX at 18.65 (not 16)** means the vol-control leg is closer to relevance than the premise assumed — but still below typical de-lever thresholds.
+4. **The $464bn figure's absence cuts both ways** — it may be a real gross-notional number that is simply not net-rebalance-demand; refuting it as a *quantum* is not refuting that levered-ETF flow exists (Korea shows it bites).
+
+## Source Quality Assessment
+- **Strongest:** the Korea complex + FSS tightening + the 7/13 62%-of-selling demonstration (multiple independent current outlets, 3-0). The intake re-anchor (FORGE live).
+- **Weakest / unavailable:** the entire evidence base is **SECONDARY [NEWS]** (Yahoo/Bloomberg republish, Korea Times, Asiae) — **no primary GS/Nomura/UBS/BofA/DB desk notes, no primary FSS/FSC/KRX release** obtained. The specific US CTA levels and $464bn/$84bn reconciliation are **documented-unavailable**.
+- **Discipline note:** 13 of 25 verified claims were **refuted** — the fan-out's adversarial layer did its job, killing stale-vintage-under-fresh-dateline and blog-quality levels that a naive pull would have reported as current. `[[finding_deep_research_stale_vintage_headline]]`
+
+## References
+- CTA (all early-June vintage): Yahoo/Bloomberg, "CTA Positioning Carries Lingering Selloff…," 2026-06-02.
+- Korea: Asiae (2026-06-24); Yahoo/Bloomberg, "SK Hynix Leveraged ETFs Sink…," 2026-07-14; Korea Times, "Backlash over leveraged chip ETFs persists despite tighter rules," 2026-07-20.
+- Intake: FORGE `fetch.py price ^VIX / QQQ` (2026-07-20, VIX 18.65 / QQQ 696.06); CBOE daily market statistics (2026-07-20).
+- **Refuted (do NOT cite):** hyperdash/cryptobriefing/macrovisor CTA levels (7446/7175/6745; 5,472); tradersagency $84bn/$43.1bn; biggo/McElligott $179bn/$187bn (pre-June stale).
+
+## Process Report
+**Engines:** `/deep-research` fan-out (104 agents, 4.34M tokens, ~9 min, 0 errors, 12/25 confirmed / **13 refuted**) scoped to legs 1+4 (the genuinely fan-out-shaped legs), + DEWEY intake re-anchor (FORGE live VIX/QQQ, CBOE WebFetch). **Engine sizing was right on 1+4** — the fan-out's adversarial verify is exactly what was needed to kill the stale/blog levels; a naive pull would have reported 7446/5,472/$464bn as current.
+**What worked:** the Korea leg came back clean and primary-adjacent; the adversarial layer correctly refuted the recycled-vintage US levels.
+**What didn't (session constraints, flag to Will/PROME):** **(1) WebSearch budget exhausted (200/200)** before legs 3+5 could be direct-pulled — this is my 4th research task of the session (3 fan-outs); the ~3-5-heavy-runs/session ceiling is real and I hit the *search* sub-limit first. **(2) SPX index level not pullable via FORGE `fetch.py`** (index tickers error) — BACKLOG. **(3)** No primary desk notes / FSS release reachable — the whole US-CTA-level and $464bn/$84bn ask is **structurally a terminal/desk-subscription question**, not a free-web one.
+**Data gaps:** SPX first-trigger level (needs terminal/desk); US $464bn/$84bn reconciliation (needs desk primary); Taiwan complex; legs 3+5 (WebSearch-blocked).
+**Confidence:** Medium (Korea + CTA-direction). The two load-bearing US quanta = documented-unavailable, not low-confidence — they're a *reachability* wall.
+**If I had more time/tools:** a Bloomberg/terminal pull is the only route to the SPX CTA levels + the levered-ETF net-rebalance quantum — this leg is inherently desk-subscription-shaped. A fresh session (WebSearch budget reset) closes legs 3+5 cheaply.
+**Suggestions (BACKLOG):** (1) **FORGE `fetch.py` can't pull index levels** (`^GSPC`/SPX) — recurring for any SPX-anchored positioning work; worth an index-alias fix. (2) The **"stale-vintage recycled under a fresh dateline"** trap hit hard here (5,472; 7446 stack) — the fan-out caught it via arithmetic cross-check; keep that as the standing defense. (3) Consider a **session-WebSearch-budget check at intake** for search-heavy prompts, so direct-pull legs get scheduled before the budget is spent.
