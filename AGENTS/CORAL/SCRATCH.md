@@ -1,3 +1,11 @@
+# CORAL SCRATCH — 2026-07-21 (FL State Employment June pre-reg grade, PROME-spawned rail-2)
+
+**THIS SESSION (7/21):** Graded my two pre-registered rows on the June FL employment print, mechanically, at printed precision. **BOTH → benign/divergence branch (BASE CASE):** (i) FL UR ≥4.9%? **FALSIFIED — June 4.7% SA, −0.1pp MoM, first decline since 2024** (BLS LAUS `laus.nr0.htm`, polled+captured 10:02 AM; co-primary FloridaCommerce 7/17). (ii) metro overlap Jax/Ocala? **Does not trigger** — Jax MSA 4.8% NSA ↑0.1 but labor-force/seasonal not job-loss; Ocala June pending BLS 7/29. → cost-stack/neg-equity driver **confirmed as CORAL's**, bank-NCO timeline slow (~2027), **NO LABOR cross-flag, NO rail move** (bank-transmission rail unchanged — employment print can't move it). UNGRADED: labor leg mildly softened (+11,100 jobs MoM, UR first decline since 2024) — flagged, not a rail move. Delivered: `outbox/2026-07-21_to-PROME_...md` + STATUS 7/21 block + Forward_Log 7/21 row (✅ GRADED) + KB ML-CORAL-030 + pillar-labor row updated. Did NOT edit LABOR's files. **NEXT: leisure/hospitality adding jobs → MARCO tourism reconcile next cycle (not a conflict).**
+
+**Open threads carried from 7/17 (unchanged):** WALTER-lane backlog 5 items (`inbox/WALTER/`: SIG-W-20260709-010/011/012, 20260710-006, 20260717-006) — process next normal session; Citizens depopulation scope (294,253 personal-lines vs AEOLUS ~395K) needs primary pull; Parcl MSI >6.0 tripwire live-check overdue; Q2 FL bank earnings (~7/21-28) = the live bank-rail re-test; Ocala/Jax grid data gaps.
+
+---
+
 # CORAL SCRATCH — 2026-07-17 (ATTOM H1-2026 foreclosure route, PROME-spawned, teams-mode w/ HOMER live)
 
 **Purpose:** Canonical ephemeral session handoff. Read at boot; rewrite at closeout. Durable findings → `MEMORY.md`/workbook; live state → `STATUS.md`.

@@ -6,6 +6,25 @@
 
 ---
 
+## 7/21 — FL STATE EMPLOYMENT (June) PRE-REG GRADE — READ FIRST
+
+**Route:** PROME-spawned Tuesday four-rail day, rail 2. Graded my two pre-registered rows mechanically on the BLS print; LABOR concurrently graded its own T-11 row (I did not touch LABOR's files). Full memo → `outbox/2026-07-21_to-PROME_fl-employment-prereg-grade.md`.
+
+**VERDICT: BOTH CORAL terms FAIL to the benign/divergence branch — pre-registered BASE CASE holds. No LABOR cross-flag, no rail move.**
+
+| Pre-reg term | Threshold | June print (primary) | Verdict |
+|---|---|---|---|
+| (i) FL statewide UR | **≥4.9% SA** (a rise off 4.8%) | **4.7% SA** — −0.1pp MoM (first decline since 2024); +0.9pp YoY (Jun-25 3.8%) | **FALSIFIED (opposite direction)** |
+| (ii) Metro-UR overlap Jax/Ocala | job-loss-driven UR deterioration at the new FC-entrant metros | Jax MSA **4.8% NSA** (↑0.1) but **labor-force/seasonal, not job-loss**; Ocala June pending BLS 7/29 | **Does not trigger (diffuse/seasonal)** |
+
+**Sources:** FL 4.7% SA = **BLS State Employment & Unemployment — June 2026** (`bls.gov/news.release/laus.nr0.htm`, 10:00 AM ET 2026-07-21, polled + captured on landing); base Apr/May 4.8% = BLS LAUS series LASST120000000000003; co-primary confirm FloridaCommerce 7/17 ("4.7%, reduction from 4.8% the prior two months"); Jax MSA metro = jaxdailyrecord 7/17 quoting FloridaCommerce (labor force +7,500; nonfarm payrolls +2,600 YoY = first 2026 gain after 5 monthly losses; "normal seasonal trend").
+
+**Consequence (pre-registered, applied mechanically):** cost-stack / negative-equity is confirmed as the driver of FL household distress (CORAL's mechanism), **not** employment — the base case LABOR handed off 7/9 leaning toward. The surprising/high-info branch (8th-straight-rise + Jax/Ocala UR overlapping their new foreclosure prints) **did NOT occur.** **Bank-NCO timeline stays slow (~2027 condo-recap track).** **Bank-transmission upgrade rail: does NOT move / does not arm** — an employment print isn't bank-credit data and this one is benign; needs ≥2 FL-exposed banks synchronized credit deterioration. Live re-test remains **Q2 FL bank earnings (~7/21–28).**
+
+**⚠️ UNGRADED observation (FL top-priority — separate from the mechanical grade):** June is mildly **labor-leg-SOFTENING** vs the prior 🟠 labor read — FL **+11,100 jobs MoM** (leisure/hospitality, health care, transport/warehousing), statewide UR's first decline since 2024, Jax's first YoY payroll gain in 2026. IF sustained, weakens the labor leg of the household-stress stack. Kept UNGRADED: one month; **525,000 unemployed, +107,000 YoY** (labor force still outgrowing jobs → what nudged metro URs up); UR still 4.7% = US +0.5pp. **Not a rail move.** Watch: leisure/hospitality *adding* jobs is mildly counter to a tourism-collapse read → **MARCO reconcile next cycle** (not a conflict today). *Pillar-labor row below updated to reflect the streak reversal.*
+
+---
+
 ## 7/17 — ATTOM H1-2026 FORECLOSURE (primary-verified) — READ FIRST
 
 **Route:** Will-directed, from today's RESEARCH-INTAKE lane run (housing query, press-tier). Pulled ATTOM primary; verified press against it. **Primary extract → `sources/ATTOM_H1_2026_foreclosure.md`. Per-metro convergence grid (multi-session open build, now BUILT) → `GRID_PER_METRO.md`.**
@@ -160,7 +179,7 @@ The dashboard above is pillars 1/3/5/10 (condo, insurance, climate). The rest of
 | **Tourism/snowbird (8)** | 2025 record 143.3M but Q1'26 **−1.0%**; **Canadian −12.1%** + airline capacity deleted (worst SW-FL); overseas **+8.5% record** + Epic Universe (Orlando TDT record $384.6M) offset. | 🟠 |
 | **Single-family (2)** | Median $420K (+1.8%), 4.7mo supply, but correction **Gulf-Coast-concentrated** (Cape Coral −10% "worst in US" and now **rolling to negative YoY** [Bilello, 7/6 via WALTER SIG-706-003]; % below-peak: Miami −3 / WPB −5 / Orlando −5 / PSL −6; North Port; Tampa +2.5%); 43% of listings cut; FL Realtors "inflection point." Fire-sale breadth: **~1-in-7 of all US listings FL-based, 12% statewide in fire-sale territory, Tampa/Ft Myers 30%+** (Parcl, consolidated 7/9 — see EVENING block #2). **SF still milder than condo/underwater leg** (see pillar 3 + neg-equity row). | 🟠 |
 | **CRE non-condo (4)** | **Condo/residential-specific, not commercial-wide:** Miami office 12.5% (tightest in US); retail/industrial mostly healthy. **New (7/9):** Blackstone $115M JPM refi on FLL W Hotel = trophy-hospitality window open (top-tier only); **MF rent concessions 16.9%** (highest since 2014) bifurcating within-state — Jax/Tampa oversupply-driven rises vs Miami tightening. | 🟢 |
-| **Labor (econ)** | Unemployment **4.8%, now above US**, 7 straight rises; 7/10 sectors negative YoY; construction in ICE labor squeeze (immigrants 37.9% of FL constr.; national construction-hiring rate series-record-low 3.5%, WALTER SIG-704-006); permits −6.1% (Lennar −53%). | 🟠 |
+| **Labor (econ)** | **June 4.7% SA (−0.1pp MoM, FIRST decline since 2024; +0.9pp YoY vs Jun-25 3.8%)** — the ~7-straight-rise streak REVERSED (BLS LAUS June 2026, 7/21); still US +0.5pp. FL **+11,100 jobs MoM** (leisure/hosp, health care, transport/warehousing). Construction in ICE labor squeeze (immigrants 37.9% of FL constr.; national construction-hiring rate series-record-low 3.5%, WALTER SIG-704-006); permits −6.1% (Lennar −53%). **Labor leg mildly softened this print — see 7/21 pre-reg block (UNGRADED texture, not a rail move).** | 🟠→🟡-leaning (one-month; 525K unemployed +107K YoY) |
 | **State fiscal (9)** | **🔴 Property-tax Amendment 3/HJR 1F CERTIFIED for Nov-3-2026 ballot** (verified primary, DEWEY 7/9 — see EVENING block #1): homestead $50K→$150K(2027)→$250K(2028), ~$8.4B is the FY28-29 terminal figure; non-homestead cap 10%→5% (CRE/rental easing); 5yr new-resident gate (anti-migration by design); **NEW: CRE/MF/business burden-shift headwind** (levy reallocated off homesteaders onto commercial/apartments); muni-fiscal tail (protection fund stripped, S&P warning); **poll 64%±3.8 vs 60% bar — tight.** Budget deficits FY28-29 −$8.1B; condo HB913 relief valves (loans/2yr pause) soften the assessment cascade. | 🟠 |
 
 **Convergence flags:** (a) SW-FL Gulf Coast = snowbird loss + SF correction + migration drop + recent-vintage negative equity stacking on the *same* metros; (b) household cost-stack (commercial/condo insurance + assessment + HOA + property tax) is both the out-migration *driver* and what the property-tax vote would *partially relieve*; (c) **USCB** is the cleanest condo→bank wire (direct condo-association lender). **Per-metro convergence grid → `GRID_PER_METRO.md` (BUILT 7/17 off the ATTOM H1 print — core SW/Central Gulf Coast hardened, FC channel broadened to NE-FL [Jax/Ocala] but no new multi-channel metro).**
