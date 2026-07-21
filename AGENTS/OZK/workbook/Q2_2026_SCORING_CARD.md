@@ -141,3 +141,41 @@ OZK-07 (conviction-governing) landed **TRUE**: classified+criticized rising ($1,
 - **New watch-adds observed:** $330M pending-sale credit migrated to substandard non-accrual (equity declined to extend); San Carlos CA life-sci $63.6M partial c/o; Baltimore Land $40M new to substandard NA (212 days past due).
 
 *Stage-1 graded 2026-07-21 off FDIC FLNG 11969 primary. Stage-2 (OZK-08 stamp + OZK-09 color) after the Wed 7/22 call.*
+
+---
+
+# STAGE-2 PRE-STAGE (execute Wed 7/22 after the 8:30a ET call — fresh spawn)
+
+**Pre-staged 2026-07-21 eve so tomorrow EXECUTES, not rebuilds.** Source for Stage-2 = the **earnings call transcript** (primary; pull post-call). Tuesday's release+Mgmt Comments already graded above — Stage-2 only stamps OZK-08 and updates OZK-09 color + re-checks the two open carry-in questions.
+
+## OZK-08 stamp (Z8 — resolves ONLY after the full call)
+**Frozen rule (Z3):** fires iff a disclosed credit-level specific reserve matches **≥2** of the 5 RaDD anchors {San Diego · life-science R&D district · Aug-2026 maturity · ~$555M funded · largest life-sci/RESG credit}. Naming NOT required. **Seattle / Chapter / U-District affirmatively EXCLUDE.**
+**Tuesday baseline (carry in): 0/5 anchors** — no San Diego/IQHQ/RaDD mention; the $555M RaDD credit is **NOT** in the substandard/foreclosed roster (still pass-rated). Life-sci names disclosed = Boston $169.3M, Chicago foreclosed $47.5M, San Carlos $63.6M c/o — none IQHQ.
+**LISTEN LIST (call Q&A):**
+- [ ] Any San Diego / IQHQ / RaDD / "our largest life-science credit" / Aug-2026-maturity reserve color → count anchors; **≥2 non-Seattle = OZK-08 TRUE**.
+- [ ] A generic/single-anchor "life-science reserve" or a **Seattle/Chapter** reserve → does NOT fire (Z3/Z5).
+- [ ] If the call ends with **no ≥2-anchor RaDD reserve → OZK-08 = FALSE** (Brier: prior 0.28 → (0.28)²=**0.0784** if FALSE). Stamp only after the call ends (Z8).
+
+## OZK-09 color (OPEN — does NOT resolve; Z10 needs executed+disclosed Aug resolution)
+- [ ] Extend-vs-reserve **intent** language on the RaDD credit ("we expect to extend" / "in discussions") → color only, never resolves (Z10).
+- [ ] Sponsor-support / recapitalization commentary on the $555M credit.
+- [ ] Any pull-forward of the Aug-2026 maturity into disclosed resolution → would resolve early (unlikely).
+
+## The night's LIVE question — Special Mention +$219M attribution (feeds BROCK class)
+Tuesday: classified rose to $1,282M with **Special Mention +$219M** ($397M→$616M) = fresh criticized inflow, graded **UNATTRIBUTED** (Weld-3; ACL fell $10.7M so not a reserve build). **Wed call test:**
+- [ ] If Q&A attributes the SpecMention build to **note-assignment / debt-on-debt / fund-adjacent (Claros/Affinius/SqMile) credits** → feeds **BROCK flip-(a) [2nd name to criticized/NA] and/or (b) [reserve-build-adjacent]** → route to BROCK.
+- [ ] If attributed to direct RESG office/life-sci or diversified new criticized → stays idiosyncratic, S3 unaffected.
+- [ ] If unattributed on the call → remains UNATTRIBUTED watch-add for CREED vs FDIC convergence.
+
+## BROCK flip-(c) re-check (Tuesday: NOT fired)
+- [ ] Listen for **Claros / Affinius / Square Mile** counterparty-stress commentary in Q&A. Any = BROCK flip-(c) fires. Absent = debt-on-debt book stays DORMANT-watch.
+
+## Also capture from the call (context, not graded)
+- [ ] RESG runoff pace guidance (commitments $25.7B → 2026-27 trajectory).
+- [ ] $330M pending-sale credit (migrated to substandard NA, equity declined to extend) — resolution color.
+- [ ] Deposit-cost spot-vs-average creep (ZION cohort watch — route to REGINALD hub if present).
+- [ ] Sub-notes Oct 1 reprice / capital commentary.
+
+**Delivery contract (Stage-2):** stamp OZK-08 + Brier into the card RESULT column; update OZK-09 color; outbox delta note to PROME + BROCK/CREED routes if fired; STATUS write-back; pathspec commit, no push.
+
+*Stage-2 pre-staged 2026-07-21 eve. Execute Wed 7/22 post-call off the transcript primary.*

@@ -1,6 +1,6 @@
 # OZK — Dashboard
 
-**Updated:** 2026-07-21 (**Q2 2026 STAGE-1 GRADE** off FDIC 8-K bundle FLNG 11969: OZK-07★ TRUE + OZK-05 TRUE → conviction HELD 🔴🔴; OZK-06/01 FALSE; mean Brier 0.229. OZK-08 PENDING-CALL, OZK-09 OPEN → Stage-2 Wed 7/22. Prior 7/20: firedrill Z1–Z10 addendum) | **Price:** $52.01 [7/17 close — STALE, pre-print; AMC reaction not yet marked] | **TBV:** $47.15 [Q1'26] | **P/TBV:** ~1.10×
+**Updated:** 2026-07-21 (**Q2 2026 STAGE-1 GRADE** off FDIC 8-K bundle FLNG 11969: OZK-07★ TRUE + OZK-05 TRUE → conviction HELD 🔴🔴; OZK-06/01 FALSE; mean Brier 0.229. OZK-08 PENDING-CALL, OZK-09 OPEN → Stage-2 Wed 7/22. Prior 7/20: firedrill Z1–Z10 addendum) | **Price:** $50.78 (−1.26%) [7/21 print-day close, live pull] | **TBV:** $47.15 [Q1'26] | **P/TBV:** ~1.08×
 **Thesis:** RESERVOIR v1.5 — **Q2 DIRECTIONALLY CONFIRMED** (adverse selection: classified $1,215M→$1,282M UP while RESG $27.8B→$25.7B DOWN; NCO 0.69% above kill; NPA 1.42%) | **Conviction:** 🔴🔴 HIGH | **KB:** 216 rows / 33 groups
 **Short interest:** **14.7% of float** (14.91M sh, 6/30/26 FINRA), ~11.7 days-to-cover — structurally crowded (avg 15.1% / 12mo, peak 18.3%), re-building off a 4/30 low into the print. Squeeze risk if Jul-21 prints quiet. [standing field — refresh at settlement via Nasdaq API]
 **Next hard catalyst:** OZK **Q2 earnings Tue Jul 21, 2026** (call Jul 22) → dress rehearsal for **IQHQ RaDD maturity Aug 2026** (weighted EL $140M on $555M funded; recognition appraisal-gated/back-loaded — see §BOTTOM LINE)
@@ -46,6 +46,8 @@
 
 **Verdict:** OZK-07★ TRUE (conviction-governing) + OZK-05 TRUE → **conviction HELD 🔴🔴**. Adverse-selection tell confirmed — RESERVOIR v1.5 directionally validated. Seattle U-District recognized as known workout (CREED S3 stays 2); debt-on-debt book quiet (BROCK 3/3 flip conditions NOT fired). **OZK-08 PENDING-CALL** (no IQHQ/San Diego/RaDD anchor Tuesday; $555M RaDD credit still pass-rated) — Stage-2 stamps Wed post-call.
 
+**Tape reaction (card discipline #6 — fundamentals scored above, stock read separately):** print-day reg close **$50.78 (−1.26%)** [live pull]. Modest fade despite the EPS beat + "record" headline — the crowded 14.7%-float short did **NOT** squeeze on the beat. Read: market saw through the NIM/fee beat to the credit deterioration (NPA 1.42%, NCO 0.69%, foreclosed near-doubling). **The squeeze/beta question is not resolved tonight — it resolves at TOMORROW's close (SIDE-PRED A1's test, PROME grades, not OZK).** Grade stands on the filing regardless of tape.
+
 ## Q1 2026 Snapshot
 
 *Reported Apr 21; call Apr 22. Full synthesis → `Q1_2026_ANALYSIS.md`. Figures below reconcile press/supplement with FDIC Call Report (REPDTE 20260331).*
@@ -85,7 +87,7 @@
 
 | Signal | Current [date] | Watch Level | Fires |
 |---|---|---|---|
-| OZK price | $52.01 [7/17 close — STALE, pre-print] | <$45 / <$40 | AMC reaction not yet marked; possible squeeze on beat (C8) |
+| OZK price | **$50.78 (−1.26%)** [7/21 print-day close] | <$45 / <$40 | Modest fade on quiet-credit-but-deteriorating print; NO squeeze on the beat yet — squeeze test = TMRW close (SIDE-PRED A1, PROME grades) |
 | Past-due loans | **$298M / 0.92%** [Q2] | >$550M or >2.0% | 🟢 OZK-06 FALSE — improved from $465M/1.41% |
 | NCO (ann.) | **0.69%** [Q2] | >80bps mid-year / **≤55bps kill** | 🔴 **OZK-05 TRUE — above kill-line** (was 0.56% Q1) |
 | Classified+criticized | **$1,282M** [Q2] | >$1.5B fires REGINALD/CREED | 🔴 rising ($1,215M→$1,282M); RESG $25.7B falling = adverse selection |
