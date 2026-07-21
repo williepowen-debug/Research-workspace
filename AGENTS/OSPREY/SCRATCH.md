@@ -1,65 +1,44 @@
-# OSPREY SCRATCH — 2026-07-12 PM
+# OSPREY SCRATCH — 2026-07-21 AM
 
-**Purpose:** Ephemeral session handoff — the canonical "where are we / what next" file. Read at boot (SPAWN PROTOCOL step 2), rewritten in full at closeout. Disposable: rewritten every session, not appended to. Persistent learnings live in `MEMORY.md`; the cross-agent twin is `NEXUS_BRIEF.md`; this file is the bridge between OSPREY sessions.
+**Purpose:** Ephemeral session handoff — canonical "where are we / what next." Read at boot (step 2), rewritten in full at closeout. Disposable. Learnings → `MEMORY.md`; cross-agent twin → `NEXUS_BRIEF.md`.
 
 ---
 
 ## CURRENT MARKS (one line)
-- Channel state: refineries/products **4 🔴 ESCALATED** (Omsk — Russia's largest refinery, first-ever strike) · crude-export terminals **3 🟠 UNCHANGED** (non-countable attribution holds) · shadow-fleet tankers **3 🟠 vessel-count RECONCILED** · Brent ref ~$76-79 [defer to BRENT, not re-verified this session]
+- Channels: refineries/products **4 🔴** (band 25-35% DEFENDED vs CARL's 42.7% GS-relay) · crude-export terminals **3 🟠 — ACTIVE WATCH: CPC Black Sea loading HALTED 7/21** (Upgrade Trigger NOT fired) · shadow-fleet tankers **3 🟠** (OSP-01 65%, unfired) · Brent ref [defer to BRENT, not re-verified].
 
-## CHANGES SINCE LAST SESSION
-- This IS the first live OSPREY session (prior "session" was DAEDALUS's build/spinout, not an OSPREY boot) — so "changes since" = everything found in the fresh sweep vs. the inherited 7/12 AM baseline.
-- 4 material strikes found missing from the inherited ledger despite its current-dated "swept-complete through 7/12" mark: Omsk (7/6, Russia's LARGEST refinery, first-ever hit, new drone-range record), Ufa re-strike (7/1), Saratov full-halt (7/8), Syzran re-strike (7/12).
-- Russia banned diesel-fuel EXPORTS entirely, 7/8 through 7/31 (Novak) — brand-new policy datum, not previously tracked anywhere in OSPREY.
-- Crude exports hit a fresh record: 4.22M bpd (4wk-avg to 7/5), highest since the 2022 invasion — supersedes the 3.83M bpd figure.
-- Diesel/gasoil loadings collapsed to 234kbpd (1-10 Jul) vs 817kbpd 2025-avg.
-- Shadow-fleet vessel-strike claim spread (21/35/42) reconciled — daily tallies sum consistently, not contradictory.
-- NO new crude-export-terminal strike found — Channel 2's non-countable attribution HOLDS, independently re-verified (not just inherited).
+## CHANGES SINCE LAST SESSION (7/12 PM → 7/21 AM)
+- **CPC Black Sea terminal loading HALTED 7/21** after 4 tanker drone strikes in 4 days (7/18-21). Real barrels-offline, but PRIMARILY KAZAKH crude (not Russian; not OSP-01), SPMs officially undamaged → base-case DAYS. Channel-2 first genuine barrels-offline suspension since 7/12; Upgrade Trigger NOT fired.
+- Vessel campaign extended Azov→Black Sea (Bloomberg 7/16, ~20 vessels incl 2 Russia-linked tankers 'hit' not sunk); stuck-at-sea/buyer-hesitancy mechanic (~135M bbl loaded-not-delivered) — SUPPORTS OSP-01, unfired.
+- CARL surfaced 42.7% refining-offline → verified = Ukraine-GS self-report (7/4, design-capacity-disabled), band DEFENDED at 25-35% (Reuters ~17% + Kpler ~3.8mb/d corroborate).
 
-## WHAT I DID THIS SESSION
-- Boot: read CLAUDE.md, STATUS, SCRATCH, THESIS, LESSONS, VX/FLOW/PREDICTIONS/KB, ANALYSIS, NEXUS_BRIEF, MEMORY, board_log, inbox (clean, nothing pending).
-- Inheritance verification: diffed all 32 STRIKES.tsv rows, VX-HAWK-UKR-01/SHADOW-01/SHADOW-02, FLOW-HAWK-07/08/20, and OSP-01(←HAW-17) against HAWK's pre-split frozen commit (`0b172009`). Result: CLEAN — zero content defects, only legitimate spinout annotations.
-- Fresh web sweep (day-by-day gap discipline, LESSONS.md item 2): found and backfilled 4 material strikes (Omsk/Ufa/Saratov/Syzran); found the diesel-export ban; refreshed crude-export and diesel-loading aggregates; reconciled the vessel-strike claim spread; flagged a 3-way non-convergence in the refining-offline aggregate.
-- STRIKES.tsv: 4 new rows appended, header revised (swept-complete mark corrected with a completeness caveat).
-- ANALYSIS_2026-07-12.md: regenerated with fresh aggregates, revised Watch table, updated Open-verify items.
-- KB.tsv: 8 new rows (KB-OSPREY-001..008).
-- VX.tsv: VX-HAWK-UKR-01 row updated with a [Jul 12 OSPREY FIRST LIVE SWEEP] entry.
-- PREDICTIONS.tsv: OSP-01 confidence nudged 60%→65%; two new predictions registered (OSP-02 — diesel-ban extension, by Aug 3; OSP-03 — independent >40%-offline confirmation, by Aug 2), per the GAPS lens.
-- LESSONS.md: new item added — "a swept-complete DATE is not proof of swept-complete CONTENT" (this session's own incident, distinct from the founding HAW-15 lesson).
-- MEMORY.md: short addendum pointing to the new LESSONS.md item.
-- Ran the 4-lens domain sweep (`PROME/packets/DOMAIN_SWEEP_LENSES.md`) across the whole corpus including inherited seed material — 12 items found, report at `reports/2026-07-12_domain-sweep.md`.
-- STATUS.md: fully rewritten to reflect the independently-verified state (was HAWK-inherited/unverified going into this session).
-- R1 committed as `945efa71`; route-outs DELIVERED by PROME (diesel ban→CARL, crude record→BRENT, Omsk→HAWK, steelman→RED — PROME commit 40357f1d).
-- **ROUND 2 (PROME-directed, same session):**
-  - EXIT RULES firmed to **v1.0** in CLAUDE.md: two-leg channel-kill rules with measurable resolvers + source tiers, thesis-kill incl. a model-falsification clause (world-crude event without Brent repricing = framework broken, escalate don't patch), prediction-retirement paths for OSP-01/02/03 (incl. VOID paths + the relay≠verification rule for OSP-03), 5-tier time-based review triggers.
-  - Ufa prior strikes VERIFIED + ROWED: 6/16 Bashneft-Novoil + 6/25 Ufaneftekhim/UNPZ (found 2 prior ops, not the 1 implied). Rows RU-20260616-UFA-NOVOIL, RU-20260625-UFA; 7/1 row Strike# 2→3. KB-OSPREY-009.
-  - Saratov 1st strike VERIFIED + ROWED: night of 3/21 (Meduza/news.az). Row RU-20260321-SARATOV; 5/31 row Strike# 1→2, 7/8 row 2→3. KB-OSPREY-010.
-  - Refining-offline aggregate BANDED canonically: **~30% offline, band 25-35%, early-July [EST]** — method (independent-figures-only, GS excluded), supersession rule, and expiry (8/2) registered in KB-OSPREY-011; ANALYSIS + STATUS now quote the band as THE number.
-  - STRIKES.tsv now 39 rows; ANALYSIS open-verify items marked resolved; STATUS/NEXUS_BRIEF refreshed.
+## WHAT I DID THIS SESSION (fan-out spawn, CPC-focused)
+- **Task 1:** verified + sized CPC halt (WALTER SIG-004). Memo → `outbox/2026-07-21_to-PROME_cpc-halt-sizing.md` + `domain/energy-strikes/CPC_HALT_2026-07-21.md`. STRIKES row RU-20260721-CPC-NOVOROSSIYSK; KB-OSPREY-012 (event) + 013 (Nov-2025 precedent). STATUS ACTIVE block + Channel-2 row updated. Proposed Channel-2 tripwire (for Will, not self-registered).
+- **Task 2:** cleared full inbox backlog (WALTER 012/012-corr/018/004; PROME notes ×3) → processed/. Replies → `outbox/2026-07-21_to-PROME_inbox-triage-replies.md`: lane-query ratified w/ amendment; band defended; OSP-04 queued. board_log ×3 rows; KB-OSPREY-014 (vessel extension) + 015 (band defense).
+- ⚠️ **NOT done:** full 7/12→7/21 strike-ledger gap-sweep — this was targeted CPC verification only. Swept-complete mark stays **7/12**.
 
 ## NEXT SESSION (dated, future-verifiable)
-1. **By 2026-07-19:** re-verify the refining-offline aggregate — has an independent outlet (Energy Intelligence, Kpler, Bloomberg, Reuters) published a fresh figure? It supersedes the KB-OSPREY-011 band outright; >40% = OSP-03 CONFIRMED + Channel-1 Upgrade Trigger fires. (Window closes Aug 2.)
-2. **By 2026-07-19:** damage-escalation re-check on Channel 2 (crude-export terminals) — still the single cleanest BRENT-facing tell; unfired through both rounds today.
-3. **By 2026-07-31 (grade by 8/3):** OSP-02 resolves — diesel-export ban extended or lifted; RF-government statement is the resolver; VOID if mooted (see EXIT RULES §4).
-4. **By 2026-07-26:** re-verify the two slow aggregates (floating storage ~120M bbl mid-June vintage; Urals discount ~25% May vintage) — 14-day trigger per EXIT RULES §5 puts these due.
-5. **Standing:** first-increment backlog (strike-feed automation, vol/credit FLOW rows, EU/Druzhba expansion) — unchanged, not blocking.
+1. **Full 7/12→7/21 strike-ledger gap-sweep** (owed; mark still 7/12 — do not trust as complete). Day-by-day, mechanism-level, per LESSONS.md.
+2. **CPC halt follow-through:** did SPM assessment confirm damage? Did suspension sustain ≥5 sessions / Kpler show a CPC liftings drop / Tengiz declare FM? Any = Channel-2 Upgrade Trigger fires → 🔴 BRENT.
+3. **Register OSP-04** (floating storage / Urals discount / tanker congestion — stale single-vintage inputs, PROME 7/12 queue-add).
+4. **By 2026-07-31 (grade 8/3):** OSP-02 resolves (diesel-ban extended/lifted).
+5. **By 2026-08-02:** OSP-03 — independent >40%-offline confirmation (band expires, re-derive).
+6. **By ~2026-07-26:** slow-aggregate re-verify (floating storage, Urals discount) — 14-day trigger overdue.
 
 ## OPEN THREADS / WATCHES
-- 🟠 Crude-export terminal damage-escalation watch — the standing BRENT-facing tell, re-checked this session, still unfired.
-- 🟠 OSP-01 (Aug 1) — tanker campaign world-crude-disruption test, confidence 65% attritional.
-- 🟠 OSP-03 (Aug 2) — independent >40%-refining-offline confirmation, gates the Channel-1 Upgrade Trigger.
-- 🟡 OSP-02 (Aug 3, effectively Jul 31) — diesel-export-ban extension test.
-- ~~Ufa/Saratov implied prior-strike dating gaps~~ — RESOLVED R2 (KB-OSPREY-009/010).
-- 🟡 First-increment backlog (EXIT RULES item now DONE R2; strike-feed automation, vol/credit FLOW rows, EU/Druzhba remain).
-- 🟡 FURTHER THREADS from the sweep report: target-selection intentionality question (Channel 1 heavy / Channel 2 light — deliberate or capacity-constrained?); whether Omsk's new range record puts other high-value facilities newly in reach.
+- 🟠 **CPC halt** — ACTIVE Channel-2 watch, base-case days; tail = weeks on confirmed buoy damage / insurer pullback (Nov-2025 SPM-2 → ~2mo + Tengiz FM precedent).
+- 🟠 OSP-01 (Aug 1) — tanker campaign world-crude test, 65% attritional (Black Sea extension supports, unfired).
+- 🟠 OSP-03 (Aug 2) — independent >40%-offline; band DEFENDED at 25-35% this session.
+- 🟡 OSP-02 (Aug 3 / Jul 31) — diesel-export-ban extension.
+- 🟡 Backlog: OSP-04 register, full gap-sweep, strike-feed automation, vol/credit FLOW rows, EU/Druzhba.
 
 ## PREDICTIONS DUE / DECISIONS PENDING
-- No predictions due for resolution this session (OSP-01/02/03 all have windows extending past today). No Will-decision pending — OSPREY holds no trade book.
+- None due today (OSP-01/02/03 windows all future). No Will-decision pending — OSPREY holds no trade book. One proposed tripwire (Channel-2) awaiting Will registration.
 
 ## MAIL STATE (one line per surface)
-- Inbox (root): clear — verified this session, nothing pending.
-- WALTER lane: clear — verified this session, nothing pending.
-- Outbox: clear — no 🔴 acute signals this session (all route-outs are 🟠/🟡, delivered via this session's report to PROME for routing, not via outbox files per the acute-only outbox discipline).
+- Inbox (root): CLEARED — 3 PROME notes → processed/.
+- WALTER lane: CLEARED — 4 signals → processed/.
+- Outbox: 2 notes to PROME this session (cpc-halt-sizing, inbox-triage-replies) — 🟠, awaiting PROME routing.
 
-## PENDING PUSH / GIT (if any)
-- R1 committed as `945efa71`; R2 commit is this session's final action (pathspec `AGENTS/OSPREY/`, from repo root). No push (PROME sweeps at closeout).
+## PENDING PUSH / GIT
+- This session's files committed pathspec `AGENTS/OSPREY/` from repo root. **No push** (PROME sweeps at closeout). Tree had another session's uncommitted memory files outside my dir → did NOT pull (per protocol).
