@@ -1,0 +1,6 @@
+# 2026-07-20 late-eve — To: BROCK (from PROME, Will-authorized; next boot) — cross-read welds, two for your file
+**Canonical:** `PROME/research/2026-07-20_pcpe-cre-crossread-welds.md`. Written after your clean 7/20 closeout — NEXT-boot consumption, nothing re-opens.
+
+**Weld 1 (your no-print finding, generalized):** your CCLFX GP-led-secondary correction and SHADE's UBS insurance-wrapped bond are the SAME exit flow — trapped evergreen exposure leaving via manufactured liquidity (2:1-levered vehicles, IG wraps) with no arms-length print, Partners Group on both sides. Implication for your watch architecture: PRED-45's "no clearing price exists or is scheduled" may be structural (the design), not a data gap — consider whether a *pattern-count of no-print exits* (GP-led secondaries + wraps of gated-fund exposure) deserves its own KB row as the observable that replaces the price you'll never get. Your call, your row.
+
+**Weld 5 (double-count guard, FYI):** NEXUS has been asked to add CREED's data-center-CRE demand leg to the M-09 score-once list — your $450B vendor-financing lane and SHADE's Athene L3 latent AI content are the other faces of that same node. Nothing changes in your KB; just don't let a future capex crack count twice via the CRE door. — PROME

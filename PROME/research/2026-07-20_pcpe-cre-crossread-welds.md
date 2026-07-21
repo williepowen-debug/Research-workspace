@@ -1,0 +1,26 @@
+# PC/PE ↔ CRE cross-read welds — CREED × BROCK × SHADE (PROME synthesis, 2026-07-20 late-eve)
+**Provenance:** Will-directed cross-read of the three agents' current STATUS surfaces (CREED 7/4 vintage · BROCK 7/20 · SHADE 7/20) at the close of the PC/PE pair session. Will approved routing 7/20. **These are PLUMBING/PATTERN findings, not triggers — every transmission door remains shut** (X1 not met, wrapper-leads lagging, zero wrapped-structure stress, REIT tape rallying, S3 at 2). Canonical copy = this file; inbox notes point here.
+
+## Weld 1 — The exit door: trapped evergreen exposure exits via manufactured liquidity, never via a clearing price
+- BROCK: Q2 gate cluster = ONE evergreen redemption wave (CCLFX/PG/BCRED/Monroe/ADS), compounding queue → Q3 overflow (BRK-30). CCLFX correction: the "$1B forced sale" = a **GP-led sell-down into a 2:1-levered buyer vehicle** (Evercore-advised; comps New Mountain ~$500M, Blue Owl $1.4B). His standing conclusion: *no arms-length clearing price exists or is scheduled* (PRED-45 not fireable).
+- SHADE: first live **insurance-wrapped PC bond** (UBS: 8 evergreen PC-fund stakes → ~$500M bond, $375M insured senior, Moody's A2, wrap reportedly Nationwide Mutual; fellow-travelers **Partners Group**, Cantor Fitzgerald).
+- **The weld:** the trapped wave's exit liquidity is being *manufactured* — levered secondaries + IG wraps — and every route avoids printing a price. **Partners Group sits on BOTH sides** (gated-fund sponsor AND wrapped-deal fellow-traveler). The no-print condition may be the design, not an accident: the overhang doesn't resolve, it **migrates fund-layer → insurer-layer, unmarked.**
+- Consequence for observables: if no-print is structural, price-triggered watches under-fire by construction; the discriminating class is **terms/volumes/flows** (see Weld 4).
+
+## Weld 2 — The insurer sink is TRIPLE-decker, not double
+- SHADE double-jeopardy: insurers HOLD fund stakes AND LEND to funds (MassMutual/Barings = joint lead arrangers on the Cliffwater facilities — first named insurer-lenders).
+- **Third deck, sitting un-cited in CREED's 7/4 file:** Q1 CRE financing flow — **CMBS/CDO/ABS book −$9.6B while life insurers +$3.3B** (banks +$17.5B, agency +$12.8B). Life balance sheets are the marginal absorber of the CRE paper the fast-recognizing channel is shedding.
+- Same balance-sheet class simultaneously absorbing: repackaged PC (the wrap) + fund-finance lending (Cliffwater) + shed CRE credit (the flow) — against Moody's $807B/20%-illiquid cohort baseline (Athene & GA each >15% PC).
+- **Open question with no owner: the COMBINED concentration.** SHADE's Schedule-BA lens is PC-scoped; CREED's flow datum is CRE-scoped. Ask: SHADE owns the combined-sink question (insurer side); CREED refreshes/re-stamps the flow series (7/4 vintage) next spawn.
+
+## Weld 3 — OZK 7/21 AMC: three frameworks, one P&L line (grading hygiene)
+Three agents watch three DIFFERENT OZK credit surfaces that all land in provisions: CREED Seattle U-District deed-in-lieu (~$126M, S3 provision-bump watch) · BROCK ~$490M RESG debt-on-debt book (The Jack at $0 reserve; KB-BRK-185 flip conditions) · REGINALD frozen Z2 foreclosed-inclusive line-set ($1,215M). **A single aggregate provision number can false-fire one framework or mask another → attribute provision/reserve changes to named credits BEFORE counting any tell fired.** (Routed to REGINALD + OZK pre-print, non-graded, zero thresholds moved.)
+
+## Weld 4 — The generalized tell: TERMS AND VOLUMES move before price, in all three domains
+Independently landed, never named: BROCK — CCLFX accommodation exhausted-then-WITHDRAWN while demand rose (liquidity-terms) · SHADE — Athene FABN issuance $13.4B→$2.0B collapse + 43-48bp peer penalty (funding-terms) · CREED — defeasance decade-low $5.2B, only trophy assets transact (volume). Meanwhile every PRICE surface is calm/rallying. The public tape structurally cannot see this cycle's stress because the stress is housed in structures WITHOUT a tape — tape-honoring (correct discipline) has a known blind side. **Early-warning class = terms/volume deterioration under calm prices.** Banked as auto-memory `finding_terms_volume_lead_price_private_structures`.
+
+## Weld 5 — Data-center is the FOURTH face of the M-09 score-once node
+M-09 discipline: APO/ARES equity + AI-HY credit = one node, score once. Missing from the list: **CREED's data-center-CRE demand watch** (currently his bifurcation's strength leg). A capex crack hits CREED's only strong segment + BROCK's $450B vendor-financing credit + SHADE's latent Athene L3 AI content (C4-invisible) in one move. Adjacent: Hut 8 $9.8B lease (SIG-720-006, VULCAN/WATT) · VULCAN 55GW-unfunded over-commitment angle. **Ask: NEXUS adds the data-center-CRE leg to the M-09 score-once list.**
+
+## Honest counters (carry with every citation)
+Tape counter-signals live everywhere: REIT equity rallied 5-15% (CREED S8 holds), wrappers green vs managers red (X1 pattern NOT firing), HY 271 calm. CREED is 16d stale (June special-servicing print unpulled — his refresh is follow-up ②). Zero wrapped-structure stress observed (WALTER deep-research pre-mortem). Nothing here is a vote; welds 1/2/4 are watch-architecture, weld 3 is grading hygiene, weld 5 is double-count prevention.
