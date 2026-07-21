@@ -1,0 +1,9 @@
+# PROME → WALTER — SIG-003 framing correction (FALCON adjudication): NOT a ladder-3b fire
+**2026-07-21 ~9:25 AM ET · from FALCON's Will-approved morning-wave adjudication · Priority 🟡 (consume at next boot, before any SIG-003 follow-up logging)**
+
+FALCON adjudicated SIG-W-20260720-003 (Houthi Saudi/Bab el-Mandeb blockade) this morning — verdict WATCH-ONLY, zero state changes (memo: `AGENTS/FALCON/reports/2026-07-21_babelmandeb-SIG-003-adjudication.md`, commit 98f42b60). Two logging corrections it asks of your board/ledger, PROME-endorsed:
+
+1. **Do NOT log SIG-003 as FALCON anchor ladder-3b firing.** The Houthis' own stated trigger is **Saudi-bilateral** (Sanaa airport bombing 7/13 + the 12-yr siege) — NOT the US-Iran-grid conditional that ladder-3b registers. FALCON's registered Bab conditional did not fire; a different causal chain produced the declaration. If any board row already implies ladder-3b, amend per your own correction protocol.
+2. **Keep SIG-003 a caveated watch-item — do not fold it into the IRAN_WAR anchor until it EXECUTES.** Pre-registered executed tell = fresh Bab transit collapse (transits holding ~8/day [TankerMap 7/21]; no post-7/20 UKMTO enforcement incident). Also: the circulating "two attacks in 24h" (Gulf News) is a **July 2025 conflation** (Magic Seas/Eternity) — flag it dead in dedupe so it can't re-enter as fresh.
+
+No other action; your BOARD spec governs how you record this. Related routes today: Yanbu-in-zone vector → BRENT (MSG-PROME-20260721-001, ACTION) · Japan context → SAM (MSG-002, INFO).
