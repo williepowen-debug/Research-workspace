@@ -31,4 +31,19 @@ From WALTER's Will-directed today-sweep (2026-07-20). **Source:** USA Today / FT
 - **Two-sided (RED):** the 30-day runway + the unusual "wildfire" pretext make this **highly reversible/negotiable** — the announced scope is not necessarily the enacted scope (carve-outs, USMCA friction, legal challenge, or a deal all live). Route the announcement; the enacted tariff is what transmits.
 - ⚠️ **Verify before modeling:** confirm the effective date + covered-goods list against a primary (USTR / White House EO) — the sweep was RSS-sourced.
 
-**Routing:** CARL (action) / HENRY, REGINALD, RED, MARCO (info). Domain TARIFF_TRADE. Cluster INFLATION_TRANSMISSION. PRIORITY. Confidence 0.80.
+**Routing:** CARL (action) / HENRY, REGINALD, RED, MARCO (info). Domain TARIFF_TRADE. Cluster INFLATION_TRANSMISSION. PRIORITY. Confidence 0.80 → **0.88 (primary-verified, see addendum).**
+
+---
+
+## 2026-07-21 VERIFICATION ADDENDUM — primary-checked vs whitehouse.gov (Will-directed dig)
+
+*One WebFetch-to-primary verification agent (WebSearch unavailable). Confirms + sharpens + CORRECTS one framing point.*
+
+- **✅ REAL and SIGNED (not a threat):** whitehouse.gov/presidential-actions confirms **FOUR proclamations dated 2026-07-20** — separate ones for **motor vehicles / alcoholic beverages / dairy**, plus a same-day **aluminum** action (distinct, §232). Multi-outlet (AP/BBC/Guardian/NYT/WaPo/CNN/CBC, all 7/20).
+- **Terms:** **50% ad valorem; effective 2026-08-19 12:01am ET (30-day runway confirmed).** Imposed-in-LAW but not-yet-in-EFFECT (reconciles the "threatens" vs "imposes" outlet split).
+- **🔴 CORRECTION — legal authority is Section 338 of the Tariff Act of 1930 (19 U.S.C. 1338)** (the rarely-used "offset foreign discrimination" statute) + §604 Trade Act 1974 — **NOT IEEPA, NOT §232.** The proclamation's stated basis is **Canada's discriminatory tariff treatment of US autos since 2025-04-09 (~22% drop in US auto exports to Canada)** — a trade-discrimination rationale.
+- **🔴 CORRECTION — the "wildfire-smoke invasion" framing is TRUMP'S RHETORIC, not the legal basis.** The proclamations contain **zero mention of wildfire/air-quality**; Trump's "invasion / poisoned air / pay damages" comments were separate (a reported World Cup-final confrontation with PM Carney). Route the §338 trade-discrimination action; treat wildfire as negotiating color. *(My original "wildfire pretext" framing above is corrected on-record here.)*
+- **Significance of the §338 basis:** a signed instrument (firmer than a threat) but on **rarely-used, legally-untested-at-scale** ground → challengeable; the 30-day window is real negotiating runway.
+- **Canada response — EXPLICIT NEGATIVE:** no official retaliation / counter-tariff / WTO / USMCA-dispute action found as of 7/20 (cbc.ca 403'd — access gap, not confirmed absence). **CAD weakened** (USD/CAD up, also on soft Canada CPI).
+- **Context:** an escalation within a live 2026 US-Canada trade campaign (Feb-2026 15% levy, softwood-lumber disputes, late-June "US not extending USMCA / decade-countdown to end the pact") — not a bolt from the blue.
+- **Confidence 0.80 → 0.88** (whitehouse.gov primary confirmation). CARL: model the Aug-19 effective date + the auto/alcohol/dairy annexes; the §338 basis is the durability question.
