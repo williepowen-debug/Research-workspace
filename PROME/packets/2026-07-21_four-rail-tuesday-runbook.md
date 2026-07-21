@@ -54,3 +54,16 @@ One line per rail: instrument → reading → pre-committed grade → consequenc
 
 ---
 *Runbook = sequencing + fire-path index only. The frames stay canonical for every threshold. Levels cited above carry their observation dates — refresh live before citing Tuesday.*
+
+---
+## §7 GRADE LOG (filled 2026-07-21 night, per the §4 contract — one line per rail, trees only)
+| Rail | Instrument → reading | Pre-committed grade | Consequence |
+|---|---|---|---|
+| ① ALLY 7:30a | 8-K EX-99.1: retail-auto NCO 1.57% (−18bps YoY) · 30+DQ 4.80% (−8bps, 5th straight improve) · provision +$46M = CECL-on-growth | read-only, no tree | Path-(a) residual: consumer-auto QUIET. Pin held — (b)/(c) puts not faded. |
+| ② FL Employment ~10:00a | BLS LAUS June: FL UR 4.7% (−0.1pp MoM, May 4.8 unrevised, +0.9pp YoY) | LABOR T-11: NOT FIRED (both legs away) · CORAL pre-reg: (i) ≥4.9% FALSIFIED (ii) metro-overlap NOT TRIGGERED → base case | No fire path. FL breadth context softened at the margin; bonus CCBG (81%-FL) benign → synchronization count 0-of-≥2; BKU 7/22 = leg 2. |
+| ③ Brent settle ~14:30 | $91.12 [7/21 BZ=F daily close, post-settle 15:03 pull; settle bar 90.85; H 91.97] | **$85×3 session-3 >85 → FIRED** (s1 88.10 · s2 89.42 · s3 91.12) | Oil vector 4→5 · convergence 41/50 ATH · D-tell #3 checked · **D HELD 65** (price gate ≠ physical gate). NOT a deploy; pass-on-chase stands. FALCON ingested 404ecb1e. |
+| ④a WAL AMC (16:16 accept) | ex-fraud NCO 37bps [W2] · $99M life-sci → nonaccrual $0 C/O · provision $80.4M vs NCO $55M · EPS $2.36 | REG-25 NEUTRAL [25,40) OPEN-Q3 · **REG-26 DISCONFIRMED** (W6 fail) · REG-24 disconfirm-lean OPEN-Q3 | **GATE-RESHAPE-BC leg-(c) NOT FIRED — WAL leg RESOLVED** (8f918ee2); HY>280 leg stays live. WAL-GRIND: no lapse, no fire, OPEN (reservoir-grind; Q3 = real test). Stage-2 Wed noon = PENDING-CALL items only. |
+| ④b OZK AMC (FDIC FLNG 11969) | classified+criticized 1,215→**1,282** ∧ RESG commit 27.8→**25.7B** · NCO ann 0.69% · NPA 593M/1.42% · foreclosed 293M · SpecMention +219M UNATTRIB w/ ACL −10.7M | **OZK-07★ TRUE (Z1 conjunction) · OZK-05 TRUE** · OZK-06 FALSE · OZK-01 FALSE · Brier 0.229 | Bear-side credit under the beat → conviction HELD 🔴🔴. No standalone gate. CREED S3 STAYS 2 (Weld-3 attribution held) · BROCK flips 0/3 · OZK-08 PENDING-CALL Wed 8:30 (IQHQ RaDD = 0/5 anchors, still pass-rated). |
+| (in-day) post-LPR | — | MIDAS-05 rides, self-grades ~7/23 | N/A tonight per docket. |
+| SIDE-PRED-BANKS-0721 | Baselines banked: OZK $50.78 · WAL $80.37 [7/21 closes] | **A2 VOID** (IF-branch failed: OZK graded bear, not benign) · A1 LIVE 60% (OZK Wed > 50.78) · B1 LIVE 65% (IF-branch MET: WAL Wed > 80.37) | Grades Wed close, Briers to this log. Context prior: ZION −3.95% day-1 = credit-clean-NIM-punished reaction function. |
+**Cluster verdict (one line):** seven credit surfaces printed today — cascade NOWHERE, concentrated construction/CRE deterioration EXACTLY at OZK (adverse-selection conjunction) with WAL reservoir-grinding = idiosyncratic-not-sector frame held; the 2027-grind thesis's best single-night evidence landed at OZK. Zero thresholds moved all day.
