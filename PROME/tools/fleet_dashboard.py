@@ -22,7 +22,9 @@ USAGE:
 ARTIFACT_URL: https://claude.ai/code/artifact/c884f088-4936-44a0-9232-30851b9427b6
   (minted 2026-07-11. Same-conversation republish of the same file path keeps this
    URL; from any OTHER session pass url="..." to the Artifact tool — else it mints
-   a new URL and orphans Will's tab. finding_artifact_redeploy_same_url.)
+   a new URL and orphans Will's tab. finding_artifact_redeploy_same_url.
+   FAVICON: 🎛️ — recorded 2026-07-20; keep identical on every republish, Will finds
+   the tab by its icon.)
 
 V2 (2026-07-16, Will-directed): + "Since last build" delta panel (diffs canon state vs
   the snapshot persisted at the previous build — PROME/tools/dashboard_state.json,
@@ -294,7 +296,7 @@ TICKER_TILE_MAP = [
     ("10Y", "10Y Yield"), ("MOVE", "MOVE"), ("VIX", "VIX"),
     ("USD/JPY", "USD/JPY"), ("Cushing", "Cushing"), ("WAL", "WAL"), ("OZK", "OZK"),
     ("Init claims", "Init Claims"), ("Cont claims", "Cont Claims"),
-    ("SOFR-IORB", "SOFR-IORB"),
+    ("SOFR99-IORB", "SOFR-IORB"), ("SOFR-IORB", "SOFR-IORB"),
 ]
 
 
@@ -334,21 +336,28 @@ def _fmt_rng(rng):
 
 
 def parse_tiles(hb):
-    """Distance tiles: HEARTBEAT ticker levels (as-of stamps kept) vs config bands."""
+    """Distance tiles: HEARTBEAT ticker levels (as-of stamps kept) vs config bands.
+    Guards (v2.1): word-boundary prefix match (VIX3M/VIX must not read as VIX) +
+    first-claim-wins per tile (the ticker's primary level precedes derived tokens
+    like 'VIX lev-money', which would otherwise overwrite it)."""
     bands = load_bands()
-    tiles = []
+    tiles, claimed = [], set()
     for tok in hb["ticker"]:
         for prefix, cname in TICKER_TILE_MAP:
             if not tok.startswith(prefix) or cname not in bands:
                 continue
+            if tok[len(prefix):len(prefix) + 1].isalnum() or cname in claimed:
+                break
             rest = tok[len(prefix):].replace(",", "").replace("−", "-")
             m = re.search(r"-?\d+(?:\.\d+)?", rest)
             if not m:
                 break
             val = float(m.group(0))
-            sfx = re.match(r"\s*([kKM])\b", rest[m.end():])
+            sfx = re.match(r"\s*([kKM]\b|bps?\b)", rest[m.end():])
             if sfx:
-                val *= 1e3 if sfx.group(1) in "kK" else 1e6
+                u = sfx.group(1)
+                # bp tokens vs percentage-point bands (SOFR99-IORB "+5bp" / red 0.25)
+                val *= 1e3 if u in "kK" else (1e6 if u == "M" else 1e-2)
             s = bands[cname]
             hw = s["direction"] == "higher_worse"
             red_line = s["red"][0] if hw else s["red"][1]
@@ -364,8 +373,9 @@ def parse_tiles(hb):
             gap = (red_line - val) if hw else (val - red_line)
             dist = (f"{_fmt(gap)} to red {_fmt(red_line)}" if gap > 0
                     else f"{_fmt(-gap)} PAST red {_fmt(red_line)}")
-            stamp_m = re.search(r"\[([^\]]{1,40})\]", tok)
-            stamp = stamp_m.group(1).split(";")[0].strip()[:14] if stamp_m else "?"
+            stamp_m = re.search(r"\[([^\]]{1,90})\]", tok)
+            stamp = re.split(r"[;—]", stamp_m.group(1))[0].strip()[:14] if stamp_m else "?"
+            claimed.add(cname)
             tiles.append({"name": cname, "val": val, "cls": _band_class(val, s),
                           "dist": dist, "dir": "↑ worse" if hw else "↓ worse",
                           "stamp": stamp, "yellow": s["yellow"], "red": s["red"]})

@@ -1,5 +1,5 @@
 {
- "built": "2026-07-20 20:37",
+ "built": "2026-07-20 21:05",
  "channels": {
   "Credit": "watch",
   "Energy": "crit",
@@ -88,8 +88,9 @@
   "Init Claims": 215000.0,
   "MOVE": 68.0,
   "OZK": 53.09,
+  "SOFR-IORB": 0.05,
   "USD/JPY": 162.4,
-  "VIX": 10.189,
+  "VIX": 18.71,
   "WAL": 80.69
  },
  "one": "Spark lit, plumbing held, recognition deferred.",
