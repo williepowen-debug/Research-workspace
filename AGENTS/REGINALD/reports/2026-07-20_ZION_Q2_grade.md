@@ -60,3 +60,20 @@ Item 1 (AFS unrealized) **CONTAINED/narrowed** + item 2 (NIM) **stable** → per
 4. **Wrinkle — "Cantor Fund" legal issue:** +$4M loan-related legal costs, confirmed "a prominent component" (Richards); management DECLINED to elaborate on duration/outlook — the call's one evasive moment. Small dollars; record-noted.
 5. **AH selloff:** management never addressed it; published read = vague guide language + deposit competition + profit-taking near highs. NO credit- or AOCI-driven explanation surfaced → supports the tape/positioning caveat carried above.
 6. **Hedged-book confirm:** AOCI accretion "very predictable for multiple years," portfolio price sensitivity 3.6yrs inclusive of hedging, reinvestment still a quarter or two from full — direct support for the LOAD-BEARING caveat that ZION's benign AOCI read does NOT transfer to WAL/OZK.
+
+---
+
+## ★ DESCRIPTOR ADJUDICATION — "$1.74 ex-notable = beat" (added 2026-07-21, REGINALD)
+
+**Trigger:** STREETSWEEP (7/21) flagged that our 7/20 record calls ZION's $1.74 ex-notable EPS a "beat," while ChartMill's ex-notable consensus was **$1.8453** → $1.74 = **MISS −5.7%**. This adjudicates the DESCRIPTOR only; **the 5-of-5 mechanical tells verdict above is UNAFFECTED** — it never rested on the EPS beat/miss (EPS is HEADLINE context, explicitly "none of these are the 5 graded tells," line 10).
+
+**Verdict: "beat" SURVIVES as the primary descriptor, but is comparable-basis-dependent — amended to carry the dissent.** Aggregators split on the operating/ex-notable consensus basis:
+
+| Source [dated] | Consensus basis | $1.74 vs consensus | Descriptor |
+|---|---|---|---|
+| **Zacks / Yahoo Finance / TradingView** [7/20–21] | **$1.57** operating EPS | **+$0.17 / +10.8%** | **BEAT** (multiple independent outlets headline "beat"/"impressive") |
+| **ChartMill** [7/21] | **$1.8453** ex-notable | **−$0.11 / −5.7%** | MISS (headlines "Misses Q2 2026 Estimates… Earnings and Revenue Shortfall") |
+
+**Adjudication rationale:** the $1.57 basis is the comparable-operating consensus (analysts can't forecast the one-time ~$1.12/sh Visa gain, so they estimate the clean number; $1.74 clean actual beats $1.57 clean estimate) and is corroborated by ≥3 independent outlets; ChartMill is a single dissenting aggregator on a higher ($1.8453) basis. Weight of evidence favors "beat," so the word stands — **but single-source caveat cuts both ways** and the ChartMill miss-read is now recorded, not suppressed. Net: **"beat vs $1.57 operating consensus (Zacks/Yahoo, 7/20), contested by ChartMill's $1.8453 ex-notable basis (−5.7%)."** Immaterial to the axis-weight verdict; logged for honest canon.
+
+*Sources: [ChartMill 7/21](https://www.chartmill.com/news/ZION/Chartmill-51219-Zions-Bancorp-NASDAQZION-Misses-Q2-2026-Estimates-Stock-Falls-on-Earnings-and-Revenue-Shortfall) · [Yahoo/Zacks "Zions Q2 Earnings Beat" 7/21](https://finance.yahoo.com/markets/stocks/articles/zions-q2-earnings-beat-revenues-144000840.html) · [TradingView "Impressive Q2 CY2026" 7/21](https://www.tradingview.com/news/stockstory:ceed7dcef094b:0-zions-bancorporation-nasdaq-zion-delivers-impressive-q2-cy2026/).*
