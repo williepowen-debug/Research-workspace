@@ -1,10 +1,16 @@
 # CORAL — NEXUS Brief
 
-**Status:** 🟠 ELEVATED — FL household/condo stress real; bank-loss transmission not yet in Q1 prints
+**Status:** 🟠 ELEVATED — FL household/condo stress real; bank-loss transmission not yet in prints. **7/21: FL June UR 4.7% (first decline since 2024) → labor leg mildly softened; employment-driven-default branch OFF, bank timeline stays slow ~2027.**
 **Domain:** Whole-Florida stress surface — condo/SF/CRE real estate, insurance, FL banks, migration/tourism, state fiscal/property-tax, labor/construction, coastal/climate
 **Thesis version:** Coral Bleaching v1.0 — installed rails at `thesis/THESIS.md`; changelog `thesis/CHANGELOG.md`
-**As of:** 2026-07-17 ~12:45 ET | STATUS commit: pending this session (ATTOM H1-2026 foreclosure route). Prior: 74ea5aa8 (7/9 Pass-2). See 7/17 UPDATE below.
+**As of:** 2026-07-21 ~10:05 ET | STATUS commit: ce89319f (7/21 FL-employment June pre-reg grade). Prior: 7/17 ATTOM H1 route. See 7/21 + 7/17 UPDATEs below.
 **Cluster:** FL regional-bank CRE/condo leg of the transmission-terminus cluster (REGINALD hub, CARL consumer). Leg grid → `CLUSTER_FL_BANK_LEG.md`.
+
+---
+
+## 7/21 UPDATE (FL State Employment June pre-reg grade — no thesis-level change, no rail move)
+
+Graded my two pre-registered rows mechanically on the BLS June print. **BOTH → benign/divergence branch (pre-registered BASE CASE):** (i) FL statewide UR ≥4.9%? **FALSIFIED — June 4.7% SA, −0.1pp MoM, first decline since 2024** (BLS LAUS `laus.nr0.htm` + FloridaCommerce 7/17 co-primary). (ii) metro-UR overlap the new foreclosure metros (Jax/Ocala)? **Does not trigger** — Jax MSA 4.8% NSA ↑0.1 but labor-force/seasonal not job-loss; Ocala June pending BLS metro release 7/29. **Consequence:** cost-stack/negative-equity is confirmed as CORAL's driver (not employment); **bank-NCO timeline stays slow ~2027**; the employment-driven-default cross-flag to LABOR does NOT fire; bank-transmission upgrade rail unchanged (an employment print isn't bank-credit data — live re-test = Q2 FL bank earnings ~7/21-28). **UNGRADED texture** (FL top-priority flag): mildly labor-leg-softening — FL +11,100 jobs MoM, UR first decline since 2024, Jax first YoY payroll gain in 2026 — flagged, not a rail move. **Cross-agent:** leisure/hospitality *adding* jobs is mildly counter to a tourism-collapse read → MARCO reconcile next cycle (state UR is CORAL/LABOR co-graded, not a MARCO/AEOLUS-shared metric — no number reconcile owed). LABOR graded its own T-11 row off the same print (shared datum 4.7% agrees); CORAL did not edit LABOR files.
 
 ---
 
