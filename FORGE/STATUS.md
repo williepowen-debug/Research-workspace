@@ -72,7 +72,7 @@ Current regime + scenario weights → `HEARTBEAT.md` (7/18 re-base + amendment #
 
 | Position | Expiry | Qty | P&L (RH display) | Note |
 |----------|--------|-----|------------------|------|
-| **QQQ $696P** | **7/20 (TODAY)** | 1 | +$74 / +16.0% | NEW — Will day-trade class; ITM at QQQ ~$695.3 pre-market — same-day decision |
+| ~~QQQ $696P~~ | 7/20 EXPIRED | 1 | **CLOSED ~−$455** | RESOLVED (Will-reported 7/20 PM): nearly expired worthless, recovered only ~$8 of premium — the 8:27 AM +$74 mark round-tripped as QQQ closed knife-edge ATM $696. Day-trade class, off-thesis |
 | **USO $128C** | 7/22 | 1 | −$2 / −1.1% | NEW — Hormuz leg re-entered (3.3% OTM at $123.96); expires EIA post-closure-print day |
 | **WAL $77.5P** | Aug-21 | 1 | $0.00 / 0.0% | NEW (~7/17-7/20 fill) — nearest-money WAL print exposure, survives the 7/21 AMC |
 | KRE $25P | 1/15/2027 | 1 | −$38 / −71.7% | deep-OTM lottery |
@@ -84,7 +84,7 @@ Current regime + scenario weights → `HEARTBEAT.md` (7/18 re-base + amendment #
 
 | Item | State | Owner |
 |---|---|---|
-| **QQQ $696P expires TODAY** | ITM pre-market (QQQ $695.33); sell-or-exercise-or-expire decision intraday | Will (day-trade class) |
+| ~~QQQ $696P expires TODAY~~ | ✅ RESOLVED 7/20: recovered ~$8, near-total loss (Will-reported PM; QQQ closed knife-edge ATM $696) | Will (day-trade class) |
 | **TRY-FIRE-004 re-fire** | ★ **FILLED 7/20 ~10:11 ET** — 30× TLT Sep-30 77P @ $0.11 ($330; ~$170 of the $500 bank stays dry); day-color qualified (TLT green); mgmt per card ZONE-3 (harvest half ≥3× · disarm DGS10 <4.50); PB-0002 | Will + TERRY |
 | **7/21 four-rail cluster (WAL+OZK AMC · ALLY 7:30a · $85×3 · FL emp)** | Live captures: WAL Sep-18 70/67.5P + **RH 77.5P Aug-21** · OZK Aug-21 45P ×4 + 42.5P — reshape arithmetic rebuilds from THIS export (position-vintage warning satisfied) | REGINALD/PROME/TERRY |
 | USO $128C 7/22 | Will-monitored (his Hormuz leg); 2 DTE, decays into the 7/22 EIA print | Will + BRENT |
