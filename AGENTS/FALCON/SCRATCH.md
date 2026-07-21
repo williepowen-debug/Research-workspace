@@ -22,7 +22,7 @@
 
 ## NEXT SESSION (dated, future-verifiable)
 1. **$85×3 SESSION-3 (7/21) — PROME OWNS the grade** (~14:30 ET BZ=F daily close, with 4-rail cluster). If **7/21 >$85 → 3-consec clause FIRES → oil vector 4→5 + D-tell #3** (premium-sustained, NOT supply-loss, NOT a deploy trigger); ingest the fire into STATUS/convergence next boot. **7/21 <$85 → clock RESETS.** Live BZ=F ~$90.86 [9:08 AM] was tracking >$85 but is context, not settle.
-2. **Bab el-Mandeb execution watch** — re-check on next boot: (a) TankerMap/Windward Bab transits for a FRESH step-down below ~8/day (≥2 print-days), (b) UKMTO/Ambrey for a post-7/20 Houthi enforcement attack on a Saudi/commercial hull. If either → executed tell fires → Bab conv vector 3→4 + D flip-up "Bab el-Mandeb closes" leg → flag WALTER for IRAN_WAR anchor fold. Check if PROME/Will registered the proposed tripwire.
+2. **Bab el-Mandeb execution watch = ✅ GATE-FALCON-001 (REGISTERED LIVE 7/21, Will-approved, PROME commit 2d54ba96).** Re-check on next boot: (a) TankerMap/Windward Bab transits for a FRESH step-down below ~8/day (≥2 print-days), (b) UKMTO/Ambrey for a post-7/20 Houthi enforcement attack on a Saudi/commercial hull, (c) Yanbu loadings collapse beyond −36%. If any → gate fires → Bab conv vector 3→4 + D flip-up "Bab el-Mandeb closes" leg → same-session adjudication + flag WALTER for IRAN_WAR anchor fold + PROME routing. Watch-only; declaration-alone never fires.
 3. **PortWatch 7/13+ Hormuz transit prints** — STILL overdue (newest 7/12=10/88, now ~9d old). Re-check; grade on prints only.
 4. **FAL-01 window closes Jul 26 (5 days).** Watch KHARG (real tail); power/water/grid do NOT fire it. **RE-DERIVE 70% at re-registration (don't inherit).**
 5. **[DEFERRED] FAL-01 re-registration scaffold** → `thesis/FAL-01_REREGISTRATION_SCAFFOLD.md` (pre-build the from-scratch 70% re-derivation ahead of Jul 26). NOT started.
@@ -31,7 +31,7 @@
 
 ## OPEN THREADS / WATCHES
 - 🔴 **$85×3** — 2 of 3 banked (7/17 $88.10 + 7/20 $89.42); session 3 = 7/21 (PROME grades); 7/21>85 → FIRES
-- 🟠 **Bab el-Mandeb blockade DECLARED 7/20 (not executed)** — watch-only; executed tell = fresh transit step-down OR post-7/20 enforcement attack; PROPOSED tripwire to PROME/Will; Yanbu-inside-zone = BRENT/SAM supply flag
+- 🟠 **Bab el-Mandeb blockade DECLARED 7/20 (not executed)** — watch-only; executed tell = **✅ GATE-FALCON-001 REGISTERED LIVE 7/21** (fresh transit step-down OR post-7/20 enforcement attack OR Yanbu collapse >−36%); Yanbu-inside-zone = BRENT/SAM supply flag
 - 🔴 **FAL-01** (Jul 26, 5d) — unfired, base strengthened; Kharg is the tail; scaffold owed
 - ✅ **GATE-TERRY-006 Kharg-strand — REGISTERED LIVE 7/18** (PROME+TERRY confirmed 7/20): corroborator-anchored; weekend sweep NEGATIVE → correctly unfired
 - 🔴 PortWatch 7/13+ Hormuz prints — overdue (~9d)
@@ -40,7 +40,7 @@
 
 ## PREDICTIONS DUE / DECISIONS PENDING
 - **FAL-01 (Jul 26)** — only OPEN row; 70% frozen, re-derive at re-registration. Scoreboard **1C / 0F / 0P / 0V / 1 OPEN.**
-- No Will-decision pending on FALCON's book (holds none). **PENDING for PROME/Will: register the proposed Bab-el-Mandeb execution tripwire (their call).**
+- No Will-decision pending on FALCON's book (holds none). **Bab-el-Mandeb execution tripwire — DONE: Will-approved + REGISTERED LIVE as GATE-FALCON-001 (7/21, PROME commit 2d54ba96).**
 
 ## MAIL STATE (one line per surface)
 - Inbox (root): PROME 85x3 session-2 grade CONSUMED + `git mv`→processed this session. (4 older PROME items from prior weeks still un-mv'd — next full inbox pass, not blocking.)
