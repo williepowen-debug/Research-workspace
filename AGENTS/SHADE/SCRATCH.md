@@ -1,48 +1,47 @@
 # SHADE SCRATCH.md — Ephemeral Session State
-**Rewritten:** 2026-07-09 ~21:00 ET (PROME LIGHT catch-up spawn — inbox drain + arming-road refresh + monoline forward-watch; no live pull needed, no new statutory dig)
+**Rewritten:** 2026-07-20 ~21:30 ET (PROME Monday-eve catch-up spawn — 11-day gap: BRK-24 vintage half + 5 WALTER inbox drain + first live insurance-wrapped PC bond integrated + 4 tripwires registered; no live pull [markets closed], no statutory dig, no threshold moves)
 
 ---
 
-## TOP VERDICT (7/9) — arming road QUIETER since 7/4, trigger unchanged: CLOSER, still HOLD
-Nothing SHADE owns moved to breach. The CoreWeave asset-side arming catalyst (flagged 7/4 as NEW/independent of the Q2 redemption wave) went quieter: LIQUID's AI-HY canary (KB-LIQ-069) **closed NOT-FIRED 7/6** — CoreWeave $8.5B DDTL upgraded to IG (A3/A-low), 5Y CDS −49%, cohort BB OAS tightened 164→157bp (re-risking, not stress). A fresh SpaceX BBB-at-junk-spread signal (KB-LIQ-072) was assessed **IDIOSYNCRATIC** by LIQUID, not a 2nd confirming instance. HY OAS 267 (13bp under 280, retreating) — X1 gate CLOSED both halves. Pre-registered wrapper-decoupling thresholds unchanged (HY>280 SUSTAINED AND wrapper-basket-leads-managers-down); watch that a beta-only HY re-approach to 280 off Friday's energy/rates gate (per LIQUID's KB-LIQ-071) would NOT satisfy the sign leg — do not pre-fire on the level alone. Athene L3 baseline unchanged ($154.9bn RS-seg, ~+42%/yr, ~35%-of-assets, AI-content still inference/C4-invisible). Forward: monolines 7/15-22 watch items + thresholds now detailed in STATUS §6.
+## TOP VERDICT (7/20) — wrapper thesis went CONCRETE but PRE-MORTEM; trigger set UNCHANGED
+The latent insurer-wrapper thesis got its **first live market instantiation** — UBS packaged 8 evergreen PC-fund stakes into a **~$500M bond, $375M insured senior tranche, Moody's A2 target, wrap reportedly Nationwide Mutual** (Bloomberg 7/19; WALTER SIG-720-001). This IS the rating-via-wrap = capital-relief mechanism (AMAPS/CFO arbitrage, STATUS §5) made concrete, now with an explicit 3rd-party WRAP. **But it's issuance, not distress** → does NOT arm the decoupling trigger. WALTER verdict = PRE-MORTEM (zero wrapped-structure stress; all 2026 stress is fund/BDC = BROCK). **4 wrapped-PC tripwires registered (§6/§10), NONE firing.** Arming road DOCUMENTED-UNCHANGED (no live tape; markets closed).
 
-## PRIOR VERDICT (7/4)
-Wrapper-decoupling trigger CLOSER, not firing — HY tagged 280 (not sustained), CoreWeave canary flagged as new independent arming catalyst, wrapper-led sign leg unconfirmed. Athene L3 primary-VERIFIED via PROME two-verifier converge.
+## PRIOR VERDICT (7/9)
+Arming road QUIETER since 7/4 — trigger CLOSER, still HOLD (HY 267, sign leg unconfirmed; CoreWeave canary closed NOT-FIRED 7/6).
 
-## CHANGES SINCE LAST SHADE SESSION (7/4 → 7/9)
-- **Regime (context only, not SHADE-owned):** US-Iran truce collapsed 7/7-7/8 → energy tail RE-ARMED; capital gated on Fri 7/10 Brent sustain verdict. BND-11 (30Y demand-hole) RESOLVED NOT-FIRED. CPI 7/14 = the hinge. None of this is an insurer-wrapper mechanism — flagged for awareness, not folded into SHADE scoring.
-- **AI-HY canary (KB-LIQ-069):** CLOSED NOT-FIRED 7/6 — cohort tightened, not widened. Removes near-term credibility from the collateral-mark-stress path SHADE's arming road needs.
-- **New signal, not corroborating:** SpaceX $25B BBB bond at wider-than-BB-junk spreads (KB-LIQ-072) — LIQUID verdict IDIOSYNCRATIC (private/inaugural-issue technicals, IG not HY-index, Musk-specific). Graduation criteria registered, none met.
-- **HY OAS:** 267 [7/7], retreating from 283(6/26)→280(6/29)→275(6/30)→267(7/7); X1 gate CLOSED both halves (LIQUID + BROCK).
+## CHANGES SINCE LAST SHADE SESSION (7/9 → 7/20)
+- **Insurance-wrapped PC bond (NEW, SIG-720-001):** first real wrap in market — Nationwide Mutual (a non-PE MUTUAL) providing it. Deal mechanics = Bloomberg-AI summary, reported-not-primary (wrap form/attachment/A2-path/size unconfirmed). DEWEY deep-pull available if worked.
+- **Insurer-as-lender NAMED (SIG-716-001):** MassMutual/Barings = joint lead arrangers on Cliffwater facilities = insurers in the lending seat (double-jeopardy §3). Bank direct PC = ~2bp GSIB CET1 (small). Apollo XPV A1 hold-vs-distribute still UNRESOLVED (needs Q2/Q3-26 10-Q, not filed).
+- **CoreWeave AI-credit map (SIG-709-001, DEWEY):** idiosyncratic not systemic; insurer angle narrows to Blackstone Credit & Insurance-anchored DDTL. Consistent w/ 7/9 quieter read.
+- **BRK-24 vintage SETTLED:** $155B/$2.88B/1.44%/54:1 = **FY2023** (Gober May-2024 Lockheed declaration; Eisman/Gober 3/2/26 recycled it). Substack "THE HOLE" 4/4/26 = **FY2025** (SNL YE2025) — THAT'S what genuinely satisfies BRK-24. Hannover 99:1 ($56.9B/$578M) = **separate carrier (Hannover Life Re America, 231 cedents), NOT Athene** — re-scoped, don't conflate. FY2025 Athene Iowa = BROCK primary $225.7B/~$4.1B/~1.5%/~55:1.
 
-## WHAT I DID (2026-07-09, LIGHT catch-up)
-1. **Boot:** SHADE CLAUDE.md, STATUS, PROME digest packet, inbox items. Confirmed `inbox/WALTER/` already clean (nothing new since 7/4).
-2. **Drained the 7/5 AI-capex-preload cc (PROME Packet D, Will-approved):** drafted the one-paragraph insurer AI-credit contribution for HENRY's HEN-36 (`outbox/2026-07-09_to-HENRY_ai-capex-insurer-contribution.md`) — initially not delivered (today's spawn scope confined SHADE to its own dir); **PROME delivered it to `AGENTS/HENRY/inbox/` the same evening (Will-authorized) — DELIVERED-7/9, closed.** Logged disposition `acted` in `board_log.tsv`; moved inbox file to `processed/`.
-3. **Arming-road refresh:** cross-checked LIQUID/HENRY/NEXUS/BROCK STATUS for what moved 7/4→7/9 on the CoreWeave/AI-credit channel. Net: quieter, not louder (see TOP VERDICT).
-4. **Monoline forward-watch:** wrote explicit SHADE-side watch items + thresholds ahead of the 7/15-22 prints into STATUS §6 (consumer-ABS read-through, wrapper-decoupling sign-leg check, FABN spread, AI-HY cohort graduation re-check).
-5. **STATUS.md:** added §0b (7/9 catch-up delta), updated §6 monolines row, updated BOTTOM LINE. No statutory dig opened (trigger not fired).
+## WHAT I DID (2026-07-20, catch-up)
+1. **BRK-24 vintage half** — read BROCK primary + WebSearch (Eisman/Gober) + WebFetch (Substack); settled vintage, re-scoped Hannover 99:1. Delivered `outbox/2026-07-20_to-BROCK-PROME_brk24-vintage-half.md` (commit 3ba76ced) + SendMessage BROCK (unblocks his finalization).
+2. **Drained 5 WALTER inbox items** → board_log + git mv to processed/ (720-001 acted, 716-001 acted, 709-001/709-013/717-005 noted). Clears WALTER doctor delivered-but-unconsumed flag (open since 7/17).
+3. **Integrated wrapped-PC deal** to STATUS §0c + new §3 dashboard row + §6 tripwire row + §10; registered 4 tripwires (none firing).
+4. **STATUS write-back** — §0c delta, header, BOTTOM LINE. Arming-road verdict = documented-unchanged.
 
-## NEXT SHADE SESSION
-1. **Boot:** STATUS → SCRATCH → MEMORY; check board_log + inbox/WALTER/; re-pull HY OAS/APO/wrapper-basket live marks before citing as current.
-2. **Trigger watch (deploy-on-trigger, STATUS §10 item 6):** still HY>280 SUSTAINED AND wrapper-basket-leads-managers-down. Watch the beta-vs-substance distinction into the Fri 7/10 Brent verdict + CPI 7/14 — a beta-driven HY re-approach to 280 does NOT arm.
-3. **Monolines 7/15-22:** run the 4 watch items in STATUS §6 against the actual SYF/ALLY/COF prints when they land.
-4. **HENRY delivery:** CLOSED — delivered 7/9 by PROME. No follow-up needed unless HENRY signals a gap ahead of ~7/25.
-5. **DO NOT** re-run NPORT crawl unless kill-path-1 nears a trade. **DO NOT** pre-fire the statutory dig on a beta-only HY re-approach.
+## NEXT SESSION
+1. **Boot:** STATUS → SCRATCH → MEMORY; check board_log + inbox/WALTER/; pull HY OAS/APO/wrapper-basket LIVE before citing (11-day-stale tape).
+2. **Wrapped-PC watch (NEW):** re-check the 4 tripwires; if worked, request DEWEY deep-pull on the UBS/Nationwide structure (wrap form, attachment, A2 path, size — all reported-not-primary now).
+3. **Trigger watch (deploy-on-trigger, §10 item 6):** unchanged — HY>280 SUSTAINED AND wrapper-basket-leads-managers-down. Issuance ≠ arming.
+4. **Monolines/BDC window (see forward line):** 7/25-28 BDC marks + ~8/7 GATE-BRK-C1 CCLFX filing — run insurer-side read-throughs.
+5. **DO NOT** re-run NPORT crawl unless kill-path-1 nears a trade. **DO NOT** cite $155B/$2.88B/1.44% as FY2025.
 
 ## OPEN THREADS
 | Item | Status |
 |---|---|
-| Wrapper-decoupling trigger | ⚠️ CLOSER, unchanged since 7/4 (HY 267, retreating; sign leg unconfirmed) |
-| CoreWeave/AI-HY arming road | 🟢 quieter since 7/4 (KB-LIQ-069 closed NOT-FIRED 7/6); SpaceX (KB-LIQ-072) idiosyncratic, not corroborating |
-| Insurer-lender double-jeopardy | 🟠 SHADE-OWNED; trigger-gated, unchanged |
-| AI-capex FCF-cliff HENRY contribution | ✅ delivered 7/9 (PROME, Will-authorized) |
-| Monolines 7/15-22 | 🟡 watch items + thresholds now written (STATUS §6); no data yet |
-| FABN peer-relative canary | 🟠 YELLOW; T+123 (+43-48bp), unchanged |
+| Live insurance-wrapped PC bond (UBS/Nationwide) | 🟠 NEW — pre-mortem; 4 tripwires registered, none firing; mechanics reported-not-primary |
+| Wrapper-decoupling trigger (asset-side) | ⚠️ DOCUMENTED-UNCHANGED (no live tape 7/20); still HY>280 SUSTAINED AND wrapper-led |
+| Insurer-lender double-jeopardy | 🟠 SHADE-OWNED; named lenders now MassMutual/Barings→Cliffwater |
+| BRK-24 vintage reconcile | ✅ delivered to BROCK+PROME (3ba76ced); awaiting BROCK KB-BRK-177 vintage-label correction |
+| Apollo XPV A1 hold-vs-distribute | 🟡 UNRESOLVED — needs Q2/Q3-26 10-Q (not filed) |
+| CoreWeave/AI-HY arming road | 🟢 quieter; idiosyncratic, Blackstone-anchored |
+| FABN peer-relative canary | 🟠 YELLOW; T+123 (+43-48bp), unchanged (no fresh pull) |
 | Egan-Jones Aug 12 | 🟢 calendar binary, unchanged |
-| NEXUS_BRIEF | 🟡 still not created; defer to architecture pass |
 
 ## MAIL STATE
-- `inbox/WALTER/`: CLEAN — confirmed nothing new since 7/4.
-- `inbox/` root: 1 item (AI-capex-preload cc) triaged this session → `processed/`. Now empty.
-- `outbox/`: `2026-07-09_to-HENRY_ai-capex-insurer-contribution.md` — DELIVERED-7/9 (PROME copied into `AGENTS/HENRY/inbox/`, Will-authorized); record kept here as SHADE's sent-copy.
-- No writes outside `AGENTS/SHADE/` this session (self-sweep pass: `NAIC_SPRING_MAR26.md` git mv'd research/→archive/, STATUS §9 dead-pointer fixed, §6 two overdue NAIC dates re-spec'd — see `MAINTENANCE.md`).
+- `inbox/WALTER/`: CLEAN — 5 items drained → `processed/`, board_log appended.
+- `inbox/` root: 1 stale item (`2026-07-09_from-PROME_brk24-vintage-reconcile-joint.md`) — the BRK-24 packet, now ACTIONED this session; leave or git mv to processed/ next boot (keeping in place as the task-of-record until BROCK closes his half).
+- `outbox/`: `2026-07-20_to-BROCK-PROME_brk24-vintage-half.md` (delivered, committed 3ba76ced) + `2026-07-20_to-PROME_insurer-catchup.md` (this session). Prior HENRY note retained as sent-copy.
+- No writes outside `AGENTS/SHADE/` this session.
