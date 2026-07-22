@@ -111,7 +111,7 @@
 
 ## POSITIONS → see `TRADE.md` (canonical trade surface)
 
-**Positions, the v5.0 convex-arm trade plan, triggers, and execution log live in `AGENTS/BRENT/TRADE.md`.** One-line state: **XLE $65C Sep-30 = LAPSE** (deep-OTM backstop); **no flat-price length either way**; forward expression = **defined-risk long-convexity, deploy-on-trigger** (ARMED, no capital today; Will [Approve] at fire). **Jul-1: today's data leaned AWAY from the arm** (deficit-closing print softens the up-tail) — no trigger fired; no action. _Skew flip, NOT a direction call._ Do NOT cite cost-basis from state files (`[[feedback_position_cost_basis_not_authoritative]]`).
+**One-line state (7/22 closeout):** token longs USO 2sh / STNG 2sh; XLE $65C Sep-30 = LAPSE. **Branch-2 TAIL-RIDER APPROVED — Option A selected (BUY 1 USO Sep-18 $175C, ~$330 max loss), PENDING FILL at the 7/22 open** (rule #6 break on record: gap insurance). Convex arm ARMED-and-HOT no capital (cooldown gate unmet); **off-ramp round-trip playbook RATIFIED** (trigger day = one-line approve). No cost-basis from state files (`[[feedback_position_cost_basis_not_authoritative]]`).
 
 ---
 

@@ -1,6 +1,6 @@
 # BRENT TRADE.md — domain trade surface
 
-**Updated:** 2026-07-21 Tue ~11:00 PM ET | **THESIS v5.1 (asymmetry UPSIDE-CONVEX — Phase-1 re-squeeze REALIZED)** | **LIVE surface** (not frozen — keep current at every closeout or it rots).
+**Updated:** 2026-07-22 Wed ~12:30 AM ET (closeout — tail-rider Option A SELECTED, pending fill) | **THESIS v5.1 (asymmetry UPSIDE-CONVEX — Phase-1 re-squeeze REALIZED)** | **LIVE surface** (not frozen — keep current at every closeout or it rots).
 
 > **🔴 7/21 TREE GRADED (pre-reg `outbox/2026-07-17_to-PROME_cot-grade-verdict.md`): tree row 1 = STAYS-HOT CONFIRMED, STILL PASS-ON-CHASE.** **$85×3 FIRED at earliest date** — settles 7/17 $88.10 · 7/20 $89.22 · 7/21 $92.15 [CONF Yahoo BZ=F], all >$85 = sustained PREMIUM, NOT supply loss, NOT a deploy trigger. No Kharg seizure (FAL-01 unfired); no Muscat breakthrough. **Cooldown gate moved FURTHER away: OVX 63.78 = NEW cycle high** (VIX 17.05, ratio 3.74 vs 3.27 on 7/17) — gate {ratio <2.89 AND OVX <44.2} decisively unmet → **no deploy, arm ARMED-and-HOT, no capital.** Branch-1 ($80-82 pullback) re-entry stays MODERATE; **Branch-2 gap paths now TWO** (Kharg seizure + Bab/Yanbu execution — see STATUS 7/21 Saudi dual-route-compression vector), both COT-invisible → **the far-OTM tail-rider question to Will is LIVE and slightly stronger than 7/17.** New physical axis: CPC Kazakh halt (~1.3-1.5M bpd, first actual barrels-offline event; leg-(b) fires ~7/24 if continuous) — a REAL-barrels catalyst class distinct from the premium cluster. GS 7/20 LONG-DIESEL escalation-hedge rec on record (OECD diesel 4th %ile) — expression = Will/TERRY decision, not auto-adopted.
 
@@ -91,12 +91,12 @@
 **Fill menu (marks = 7/21 close, USO $128.85, OVX 63.78 — re-quote live at the open, rule #4):**
 | Option | Structure | Cost (ask basis) | Pays |
 |---|---|---|---|
-| **A (recommended)** | **BUY 1 USO Sep-18 $175 Call**, limit ~$3.30 | **~$330 max loss** | Strike ≈ Brent ~$125 = the Scenario-C / GS-$120-upside zone; uncapped beyond; OI 1,452, tight market |
+| **A — ✅ SELECTED by Will 7/22 ("We will go with A")** | **BUY 1 USO Sep-18 $175 Call**, limit ~$3.30 | **~$330 max loss** | Strike ≈ Brent ~$125 = the Scenario-C / GS-$120-upside zone; uncapped beyond; OI 1,452, tight market |
 | B (budget-exact) | BUY 1 USO Sep-18 $200 Call, limit ~$2.00 | ~$200 max loss | +55% OTM — honest label: lottery, pays big only in a true super-spike; very liquid (OI 9,131) |
 | C (best $/payoff, capped) | BUY 1 USO Sep-18 $150/$165 call spread, ~$2.35 debit | ~$235 max loss | Max +$1,265 (≈5.4×) at USO ≥$165 (Brent ~$118); capped above |
 
 **Why over the ~$200 class on A:** OVX at a cycle high makes the honest-strike insurance cost ~$330 — the strike that fits $200 exactly (B) sits too far to insure the realistic gap zone. Vol-crush caveat owned: on a Muscat off-ramp these bleed hard and fast; that is the premium's cost, and the off-ramp playbook (below) is the other side of the book.
-**Execution:** Will places the order (live quote at open); on fill, log to EXECUTION LOG + FORGE flag.
+**Execution:** ✅ Option A SELECTED (Will, 7/22 12:30 AM). **Will places the order at the 7/22 open — re-quote live, limit off the fresh ask (~$3.30 basis 7/21 close), don't chase past ~$3.60 on a gap.** On fill report: log EXECUTION LOG + flag FORGE reconcile.
 
 ## DECISIONS ON RECORD
 
@@ -121,6 +121,7 @@
 
 | Date | Action | Detail |
 |------|--------|--------|
+| 2026-07-22 | **PENDING FILL — tail-rider Option A** | Will selected A (7/22 ~12:30 AM): BUY 1 USO Sep-18 $175C, limit ~$3.30, ~$330 max loss. Places at the 7/22 open w/ live quote. Log actual fill here + FORGE flag on report. |
 | 2026-06-18 | CF $130C expired worthless | Last fill this regime. |
 | — | (no convex-arm deployment yet) | Deploy-on-trigger; Will [Approve] at fire. |
 

@@ -1,4 +1,4 @@
-# BRENT SCRATCH — Tue Jul 21, 2026 (late PM — boot + full-surface refresh + staleness sweep + GAP-SWEEP EXECUTIONS)
+# BRENT SCRATCH — Wed Jul 22, 2026 ~12:30 AM (CLOSED OUT — marathon session: boot · refresh · sweep · gap executions · Will rulings ×4)
 
 **Purpose:** Ephemeral session handoff — canonical "where are we / what next". Read at boot (step 2), rewritten at closeout (step 11). *(Note: the 7/17 COT session updated STATUS but skipped this file — gap now closed; don't repeat.)*
 
@@ -27,6 +27,7 @@
 - Live pulls: settles/OVX/VIX/equities (Yahoo), transits (PortWatch script), rigs 452 (BH via web), GASREGW (FRED via boot.py).
 
 ## NEXT SESSION (dated, future-verifiable)
+0. 🔴 **Wed Jul 22 — CONFIRM TAIL-RIDER FILL** (Option A: 1 USO Sep-18 $175C, limit ~$3.30) — log fill to TRADE EXECUTION LOG + flag FORGE; if unfilled or ask gapped >~$3.60, bring Will a re-quote, don't chase silently.
 1. 🔴 **Wed Jul 22 — EIA WPSR wk-7/17 = FIRST post-closure inventory read.** Grade: Cushing >20M week 2 of 2 (Boundary #3 rescission — or failure), draw acceleration, gasoline YoY (BRT-29 premise context — but do NOT grade BRT-29 off July prints, LESSONS #9), SPR pace. **Read discipline: Brent is $6.9 OVER WTI — a Cushing draw could be EXPORT-PULL (arb pulling US barrels out), not domestic tightness; disentangle via the export line before grading.** Write synthesis to `demand_destruction/data/`.
 2. 🔴 **Wed Jul 22 — Japan June trade balance (SAM owns level)** — demand-side convergence input.
 3. 🔴 **~Thu Jul 24 — CPC leg-(b)**: 5th continuous suspended session fires GATE-OSPREY-001 leg-(b) (routes 🔴 to me). Check CPC loading status + Black Sea war-risk rate.
