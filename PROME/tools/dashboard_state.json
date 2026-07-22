@@ -1,5 +1,5 @@
 {
- "built": "2026-07-20 22:49",
+ "built": "2026-07-21 20:52",
  "channels": {
   "Credit": "watch",
   "Energy": "crit",
@@ -10,12 +10,8 @@
  },
  "docket": [
   "2026-07-15 Q2 monolines / Axis-A (SYF/ALLY/COF/AXP)",
-  "2026-07-20 China LPR fixing (published 20th, ~9:15 AM Beijing = ~9:15 P",
-  "2026-07-20 ZION Q2 print (8-K 4:05pm ET, call 5:30pm \u2014 the docketed 5:3",
-  "2026-07-21 FL State Employment June (FL UR)",
-  "2026-07-21 OZK Q2 print (AMC; call Wed 7/22 8:30 ET)",
-  "2026-07-21 WAL Q2 print (AMC; call Wed 7/22 noon ET) \u2014 bank-put reshape",
   "2026-07-22 40Y JGB auction + GOOGL earnings",
+  "2026-07-22 BKU Q2 (BMO) + EGBN Q2 (AMC; call Thu) \u2014 FL small-tier synch",
   "2026-07-22 Hyperscaler Q2 filings useful-life watch \u2014 VULCAN pre-regist",
   "2026-07-23 HBAN Q2 earnings (BMO)",
   "2026-07-23 LAB-17 claims window (w/e 7/18 + 7/25) + July flash PMI ~7/2",
@@ -65,11 +61,13 @@
  "gates": {
   "GATE-BRENT-SUSTAIN": "resolved:RESOLVED",
   "GATE-BRK-C1": "live:LIVE",
+  "GATE-FALCON-001": "live:LIVE",
   "GATE-HY-REKILL": "live:LIVE",
   "GATE-LIQ-069": "live:ARMED",
   "GATE-LIQ-072": "live:LIVE",
   "GATE-LIQ-076": "live:LIVE",
   "GATE-LIQ-079": "live:LIVE",
+  "GATE-OSPREY-001": "live:LIVE",
   "GATE-RESHAPE-BC": "live:LIVE",
   "GATE-SAM-30": "resolved:RESOLVED",
   "GATE-TERRY-006": "live:LIVE",
@@ -81,7 +79,7 @@
  },
  "levels": {
   "10Y Yield": 4.55,
-  "Brent": 88.1,
+  "Brent": 91.12,
   "CCC OAS": 969.0,
   "Cushing": 20.04,
   "HY OAS": 271.0,
@@ -95,8 +93,7 @@
  },
  "one": "Spark lit, plumbing held, recognition deferred.",
  "pending": [
-  "** BD-04 warn_texas cron (LABOR register)",
-  "CREED workbook \u00a710 decision card (5 items w/ CREED defaults, `AGENTS/CREED/outbox/2026-07-20_to-PROME_catchup"
+  "none"
  ],
  "split": "Break 26 / Grind 33 / Unresolved 41",
  "v": 1
