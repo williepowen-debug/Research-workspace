@@ -463,6 +463,74 @@ def cmd_movers(args):
               "--all drops the domain filter · --tracked includes watchlist markets.")
 
 
+# --- `coverage` sweep: the INVERSE of `movers`. movers ranks by price-CHANGE (blind to
+#     slow-repricing deep markets); coverage ranks the full active universe by DEPTH
+#     (liquidity/volume, movement-agnostic) and subtracts what we already track, to surface
+#     large real-money markets on themes we don't cover yet. Built 2026-07-22 after a $2.3M
+#     CLARITY-Act market drifted for weeks uncaught (see MAINTENANCE). Review-only: it
+#     NOMINATES themes for a human to confirm + route + pin — it never auto-pins (novelty
+#     markets are deep, so auto-pinning would bloat the watchlist). ---
+COVERAGE_EXCLUDE = (
+    "jesus", "christ", "second coming", "rapture", "the bible", "antichrist",
+    "alien", "ufo", "extraterrestrial", "bigfoot", "loch ness", "nessie", "ghost",
+    "champions photo", "wc champions", "person of the year", "time person",
+    "gta", "grand theft", "taylor swift", "kanye", "pregnant", "divorce", "engaged",
+)
+
+
+def cmd_coverage(args):
+    """Coverage sweep: surface the DEEPEST active markets we do NOT already track, ranked by
+    liquidity (movement-agnostic), so slow-repricing deep markets on un-tracked themes don't
+    stay invisible the way the CLARITY Act did. Excludes sports/novelty; review-only —
+    NOMINATE for a human to confirm relevance + pin, never auto-pin."""
+    known = {w["slug"] for w in _read_watchlist()}
+    seen, rows = set(), {}
+    for field in ("liquidityNum", "volumeNum"):
+        try:
+            d = _get("/markets", {"closed": "false", "active": "true",
+                                  "order": field, "ascending": "false", "limit": args.scan})
+        except Exception:  # noqa: BLE001
+            continue
+        for m in (d or []):
+            slug = m.get("slug") or ""
+            if not slug or slug in seen:
+                continue
+            if slug in known and not args.tracked:
+                continue
+            q = (m.get("question") or "").lower()
+            hay = q + " " + slug.lower().replace("-", " ")
+            if any(x.replace("-", " ") in hay for x in MOVERS_EXCLUDE + COVERAGE_EXCLUDE):
+                continue
+            # coverage deliberately does NOT apply MOVERS_INCLUDE by default — the whole point
+            # is to find themes OUTSIDE our known keyword set. --domain restricts to known ones.
+            if args.domain and not any(x in q for x in MOVERS_INCLUDE):
+                continue
+            pm = parse_market(m)
+            if pm["yes"] is None or pm["resolved"]:
+                continue
+            if (pm["liquidity"] or 0) < args.min_liq:
+                continue
+            seen.add(slug)
+            rows[slug] = pm
+    ranked = sorted(rows.values(), key=lambda p: -(p["liquidity"] or 0))
+    scope = "domain keywords only" if args.domain else "ALL themes (ex-sports/novelty)"
+    print(f"Polymarket COVERAGE sweep — un-tracked active markets, {scope}; liq≥${args.min_liq/1000:.0f}K"
+          + ("; incl. tracked" if args.tracked else "") + f"  [{len(ranked)} hits]\n")
+    print(f"{'liq':>8} {'vol':>9} {'YES':>6} {'Δ7d':>6}  {'ends':>10}  question  [slug]")
+    print("-" * 128)
+    for pm in ranked[:args.top]:
+        flag = ""
+        if pm.get("days_left") is not None and 0 <= pm["days_left"] <= 3:
+            flag = f" ⚙{pm['days_left']}d"   # near-resolve → mechanical, not a real coverage gap
+        print(f"{_money(pm['liquidity']):>8} {_money(pm['volume']):>9} {_pct(pm['yes'])} {_delta(pm['d7'])}  "
+              f"{(pm['end'] or '—'):>10}  {(pm['question'] or '')[:52]}{flag}  [{(pm['slug'] or '')[:36]}]")
+    if not ranked:
+        print("(nothing un-tracked cleared the liquidity floor — try --min-liq 10000)")
+    else:
+        print("\nReview-only: NOMINATE new themes → confirm relevance w/ the owning agent → pin. "
+              "Never auto-pin (novelty markets are deep). --domain restricts to known keywords · --tracked includes pinned.")
+
+
 def main():
     ap = argparse.ArgumentParser(description="ORACLE Polymarket fetcher")
     sub = ap.add_subparsers(dest="cmd", required=True)
@@ -480,6 +548,13 @@ def main():
     s.add_argument("--all", action="store_true", help="drop the domain filter (still skips sports/elections)")
     s.add_argument("--tracked", action="store_true", help="include markets already in watchlist")
     s.set_defaults(fn=cmd_movers)
+    s = sub.add_parser("coverage", help="INVERSE of movers: deepest UN-tracked markets by liquidity (find new themes)")
+    s.add_argument("--min-liq", type=float, default=25000.0, dest="min_liq", help="liquidity floor (default $25K)")
+    s.add_argument("--top", type=int, default=30, help="rows to show (default 30)")
+    s.add_argument("--scan", type=int, default=400, help="markets per Gamma query (default 400)")
+    s.add_argument("--domain", action="store_true", help="restrict to known domain keywords (default: ALL themes)")
+    s.add_argument("--tracked", action="store_true", help="include markets already in watchlist")
+    s.set_defaults(fn=cmd_coverage)
     args = ap.parse_args()
     args.fn(args)
 
