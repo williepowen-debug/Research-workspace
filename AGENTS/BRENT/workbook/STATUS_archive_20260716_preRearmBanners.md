@@ -68,3 +68,28 @@
 
 ---
 
+---
+
+# Archived 2026-07-21 (boot trim) — 7/10 COT double-grade section (superseded by the 7/17 COT grade = SQUEEZE IGNITING)
+
+## 🔴 7/10 — COT DOUBLE-GRADE (Jun-30 dropped obligation + Jul-7 truce-collapse print) — SPRING-FUEL CONFIRMED
+
+**Grading the 7/6 pre-registration (`2026-07-06_teams-session.md` §1: A=regime-liquidation, B=Path-B Trigger #3 [N/A on a falling tape], C=ICE-Brent gross shorts >~+5K = convex-tail tell). Both prints graded here — the Jun-30 grade never landed (7/8 truce-collapse, 7/9 spec addendum, 7/10 verdict crowded it out). Primaries: CFTC futures-only (NYMEX WTI-physical) + engine.online ICE-Brent commentary — NOT proxies.**
+
+| Print (as-of) | Venue | MM Long | MM Short | MM Net | ΔNet WoW | Gross-short move | Source |
+|---|---|---|---|---|---|---|---|
+| **Jun-30** (rel. 7/6) | **ICE Brent** | — | — | **~55K lots** | **−34K** (7th straight wk ↓) | gross-longs −12K vs net −34K ⇒ **gross shorts BUILT ~+22K** ("fresh shorts entering") | engine.online 7/7 (wk-end 6/30) |
+| Jun-30 (back-comp) | NYMEX WTI-phys | ~203.6K | ~122.3K | ~81.3K | ~−1.6K (vs 6/23 82.9K) | ~flat | CFTC (from 7/7 deltas) |
+| **Jul-7** (rel. 7/10) | **NYMEX WTI-phys** | **193,113** | **129,072** | **64,041** | **−17,241** | **shorts BUILT +6,753** into the +5% wk | CFTC as-of 7/7 [CONF] |
+| Jul-7 | NYMEX Brent-Last-Day | — | 744 | — | short −3,920 | (tiny contract, not the tell) | CFTC as-of 7/7 |
+
+*ICE Brent Jul-7 net not yet published at grading (ICE commentary lags) — **flagged pending**; CFTC WTI-physical (a pre-registered venue, "watch BOTH") carries the Jul-7 squeeze-fuel read.*
+
+**GRADE — both prints: (C) SPRING-FLAG FIRED → convex tail FATTENS (arm-LEAN, not fire).**
+- **(A) Regime:** net de-risking continued BOTH weeks (ICE Brent 7th straight ↓; WTI −17K into the crisis wk) — BUT **not clean long-liquidation.** Jun-30 was **short-build-led** (gross shorts +~22K vs longs −12K); Jul-7 was **both** (longs −10.5K AND shorts +6.75K). Shorts ADDED into a +5% week = crowded-short conviction, **not** capitulation.
+- **(B) Trigger #3 (BRT-21 leg):** **N/A both prints, as pre-registered** — Jun-30 wk fell (liquidation≠distribution), Jul-7 wk rose (+5-6%, not a distribution top). **Trigger #3 stays 1/2, not advanced.**
+- **(C) Squeeze-fuel (load-bearing):** **shorts BUILT into tank-bottoms (Jun-30, +~22K ICE) AND into the truce-collapse spike (Jul-7, +6.75K WTI)** — both ≫ the +5K threshold. RED's 6/26 crowded-short catch is **VINDICATED and standing.** Corroborated by BofA "biggest energy-fund outflow since Jul-2024" (SIG-W-20260706-015) — positioning washed out = dry tinder.
+
+**Reconciliation with tonight's DENY:** the fuel was real and the spark fired (7/8 +6%), but there was **no capitulation cascade** — Brent bled $79→$76 by 7/10 and the sustain gate DENIED on the legs. So: **convex-tail FUEL confirmed present (arm stays ARMED, marginally fatter), but no follow-through → no trigger, consistent with DENY.** The squeeze partially ignited then faded. Convex arm: still ARMED, no capital.
+
+---
