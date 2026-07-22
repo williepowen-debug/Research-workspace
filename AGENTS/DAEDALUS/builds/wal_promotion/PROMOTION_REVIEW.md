@@ -1,6 +1,6 @@
 # WAL Promotion — DAEDALUS Structural Review + Rulings
 
-**Author:** DAEDALUS · **Date:** 2026-07-22 · **Status:** 🟡 RECOMMENDATION — awaiting Will decision (cutover is additionally gated on 3 REGINALD-side preconditions, §Timing)
+**Author:** DAEDALUS · **Date:** 2026-07-22 · **Status:** ✅ **APPROVED by Will 2026-07-22 AM (verdict + all 5 rulings as written).** Execution remains gated on WP-W0 (Stage-2 not-bear-dead · v2.3 re-mark · BROCK map ship) — earliest cutover 7/24. First action next DAEDALUS session on/after 7/24: run WP-W0 with REGINALD, one-line confirm to Will, then execute WP-W1..W6.
 **Case:** `inbox/2026-07-17_from-REGINALD_wal-promotion-request.md` (REGINALD, Will-directed 7/17)
 **Method:** Mode-A 4-reader fan-out 7/22 — (A) WAL corpus core vs market-agent blueprint · (B) FRAUD/ + workbook + cross-agent consumer map · (C) OZK precedent seam audit · (D) REGINALD hub side + 7/21 Stage-1 grade state. Reader reports summarized inline; full evidence cites in this doc trace to their file:line findings.
 

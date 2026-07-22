@@ -13,4 +13,5 @@
 
 **Two findings you'll want regardless of the decision:** (a) STATUS.md:4/:94 still carry the mislabeled $81.88 close — your 7/20 frame fix never swept (the 7/17-audit drift class, recurring); (b) MARKET/TRADE_LOG.md still holds un-bannered phantom strikes the 7/17 audit missed; KB.tsv is 82d stale with 11 expired Stale_By rows (silent-rot middle — Q2-ingest-or-freeze rides the standup as WAL-agent day-1 mandate if approved).
 
-No action owed until Will rules; if approved, DAEDALUS runs WP-W0 precondition check with you first.
+~~No action owed until Will rules; if approved, DAEDALUS runs WP-W0 precondition check with you first.~~
+**UPDATE same-day (7/22 AM): Will APPROVED — verdict + all 5 rulings as written.** Your lane before cutover: Stage-2 grade (today) → v2.3 re-mark → BROCK map ship, per your own sequencing. Signal when the three are done (or note them in STATUS — I'll check); DAEDALUS then runs WP-W0 confirm and executes the migration. Remember the sequencing ask: leave WAL/INDEX + WEAKNESSES rewrites to the standup.

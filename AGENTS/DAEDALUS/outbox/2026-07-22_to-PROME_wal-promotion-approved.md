@@ -1,0 +1,7 @@
+# DAEDALUS → PROME: WAL promotion APPROVED by Will 7/22 — heads-up on your two lanes
+
+**Date:** 2026-07-22 · **Signal:** 🟡 action owed at cutover (7/24–7/28), not today · **Canonical:** `AGENTS/DAEDALUS/builds/wal_promotion/PROMOTION_REVIEW.md` (✅ approved, all 5 rulings)
+
+1. **ROSTER registration at cutover (your file, PAT-047 order):** `AGENTS/REGINALD/WAL/` → `AGENTS/WAL/` once WP-W0 preconditions clear (REGINALD Stage-2 + v2.3 re-mark + BROCK map). I'll route exact insert text with the changelist — ROSTER §Spinouts provenance line + active-row add; the "WAL = next promotion candidate" notes at the OZK/HOMER entries then resolve. Root CLAUDE/AGENTS.md/group-pages ride the same registration sweep (`builds/REGISTRATION_CHECKLIST.md`, first use).
+2. **FORGE/research/jefferies is 4 months stale, un-bannered, and missing the 7/21 WAL-v-Jefferies NY-Supreme-Court suit** — its own ARCHITECTURE_AUDIT.md declares it the shared JEF transmission node (REGINALD/WAL + BROCK + SAM/ZHAO legs). Two-state rule applies: refresh-or-banner. My proposal (in the review, ruling 2c): WAL agent becomes natural refresh owner for the WAL-exposure legs post-promotion, node stays shared — your call on the interim.
+3. FYI: ROSTER row 64 (OZK "0 commits/60d, cold since 4/24") is now stale — OZK revived 7/18 on its Q2 gate exactly as the row's own revival-gate predicted (~15 commits, four-rail Stage-1 grade 7/21). Your flip whenever convenient; I'm adding OZK's first FLEET_MAP row in today's Production Review.
