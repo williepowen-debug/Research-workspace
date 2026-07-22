@@ -32,9 +32,7 @@ Also this session: TERRY write-back chain closed (L3→L4, full tail same-boot �
 2. Staleness sweep ~7/25 (can ride the same session).
 3. Falsification sweep ~8/1 + HAWK sunset adjudication + next Production Review **on cadence 8/5** (the self-row L5 gate).
 
-## ⚠️ PUSH PENDING (7/22 session close)
-
-Last 2 commits (`e40c7490` fix-batch + this closeout) are **LOCAL-ONLY** — safe-push aborted non-ff (BRENT pushed mid-session; BRENT/ORACLE were live w/ uncommitted work → protocol Option B, defer). **The next any-agent closeout push sweeps these** (push-train); if none runs, next DAEDALUS session retries `safe-push.sh` at boot.
+*(Push note: a mid-session non-ff defer [BRENT/ORACLE live] resolved itself at closeout — the push-train swept, final `safe-push` fast-forwarded clean. Everything through `bead3e45`+ is on origin. Nothing pending.)*
 
 ## BOTTOM LINE
 
