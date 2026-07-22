@@ -68,7 +68,7 @@
 
 ## ⚑ PRE-REGISTERED — OFF-RAMP ROUND-TRIP PLAYBOOK (the down-tail; closure-regime rewrite of the dormant Phase-2 short, 2026-07-21)
 
-**Status: ⚪ ARMED-PASSIVE — pre-registered, NOT deployed; fires ONLY on a HARDENED off-ramp.** *(The old conditions — "reopening completes + P&I resumes + liners off Cape + locks toward STEO ~$79" — are RETIRED as written: unreachable from a formal-closure state. This section supersedes them so an off-ramp headline gets a fill proposal, not a scramble.)*
+**Status: ⚪ ARMED-PASSIVE — pre-registered, NOT deployed; fires ONLY on a HARDENED off-ramp. RATIFIED by Will 7/21 (structure + max-loss + authority) → trigger day = one-line [Approve/No].** *(The old conditions — "reopening completes + P&I resumes + liners off Cape + locks toward STEO ~$79" — are RETIRED as written: unreachable from a formal-closure state. This section supersedes them so an off-ramp headline gets a fill proposal, not a scramble.)*
 
 **Premise:** the $76→$92 move is ~100% reversible risk-premium — zero barrels destroyed (v5.1 discriminator). The Jun-17 MOU showed the shape: **−8%/wk on the announcement, curve flip, premium out before any barrel moves** (LESSONS #11/#16). From $92 the unwind target is ~**$75-78** (the structural-decoupling zone). Underneath, the flush setup is quietly rebuilding: rigs 452 → production lands Q4'26-Q1'27 (GS's de-escalation window), China imports −41.3% YoY, SPR exchange-returns due 2027.
 
@@ -84,8 +84,24 @@
 
 ---
 
+## ⚑ APPROVED 7/21 — BRANCH-2 TAIL-RIDER (gap insurance; fill proposal below, Will executes)
+
+**Will approved the rider 7/21 late ("yes"). Purpose:** defined-risk insurance against the two COT-invisible gap paths (Kharg seizure · Bab/Yanbu execution) — the book's only long exposure is token (2 USO + 2 STNG ≈ $420). **Rule #6 break noted on record:** buying calls into a green tape — accepted because gap insurance can't wait for a red day; that is its entire point.
+
+**Fill menu (marks = 7/21 close, USO $128.85, OVX 63.78 — re-quote live at the open, rule #4):**
+| Option | Structure | Cost (ask basis) | Pays |
+|---|---|---|---|
+| **A (recommended)** | **BUY 1 USO Sep-18 $175 Call**, limit ~$3.30 | **~$330 max loss** | Strike ≈ Brent ~$125 = the Scenario-C / GS-$120-upside zone; uncapped beyond; OI 1,452, tight market |
+| B (budget-exact) | BUY 1 USO Sep-18 $200 Call, limit ~$2.00 | ~$200 max loss | +55% OTM — honest label: lottery, pays big only in a true super-spike; very liquid (OI 9,131) |
+| C (best $/payoff, capped) | BUY 1 USO Sep-18 $150/$165 call spread, ~$2.35 debit | ~$235 max loss | Max +$1,265 (≈5.4×) at USO ≥$165 (Brent ~$118); capped above |
+
+**Why over the ~$200 class on A:** OVX at a cycle high makes the honest-strike insurance cost ~$330 — the strike that fits $200 exactly (B) sits too far to insure the realistic gap zone. Vol-crush caveat owned: on a Muscat off-ramp these bleed hard and fast; that is the premium's cost, and the off-ramp playbook (below) is the other side of the book.
+**Execution:** Will places the order (live quote at open); on fill, log to EXECUTION LOG + FORGE flag.
+
 ## DECISIONS ON RECORD
 
+- **APPROVED (Jul 21): Branch-2 tail-rider** — Will "yes"; fill menu above; rule #6 break noted (gap insurance ≠ chase).
+- **RATIFIED (Jul 21): the OFF-RAMP ROUND-TRIP PLAYBOOK template** (section above) — Will approved the structure + ~$500 max-loss + proposal-authority as written ("sure"), so a hardened off-ramp trigger day needs only a one-line [Approve/No] on the live fill. Positions-record correction same session: USO 2sh / STNG 2sh restored to the table (Will caught the omission).
 - **Considered & DECLINED (Jun 29): a small pre-trigger convex starter** (~$300 of cheap vol bought now while calm). Chose **deploy-on-trigger** instead — the near-term base case is still the calm hold (theta would bleed), and the XLE $65C stub just demonstrated a pre-emptive tail-buy decaying to ~$0. Re-open this only if Will wants to pre-buy cheap convexity.
 - **Authority = pre-negotiated proposal** (Will, Jun 29 — chosen over pre-authorize-to-cap). **Vehicle = USO** (over XLE). **Max-loss ~$500.**
 
