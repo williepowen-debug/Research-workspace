@@ -15,6 +15,10 @@ Will directed: "get all of CORAL's files updated to current/live information." R
 4. **Q2 bank map IR-confirmed:** BKU 7/22 BMO → **7/23 = VLY/SSB/AMTB/USCB cluster (GATE DAY)** → SBCF 7/28 AMC. CCBG benign anti-datum stands alone; sync count 0-of-≥2; USCB new CCO Garrido first print; prices flat into prints.
 5. **TS Bertha:** verified vs NHC adv 10A myself — 60mph, moving W toward MS/LA, weakening, **no FL landfall expected** (research agent's outlook-based read was wrong on intensity/track; advisory > outlook, LESSONS rule added). Sargassum 38M = record band crossed. Amendment 3 = framing-dependent (UNF 61/32 vs 45/47), lawsuit hearing 7/29. Biscayne 21 ruling FINAL + new economic-waste suit. GSE full-review eff 8/3.
 
+## AUDIT ROUND (same session, Will-directed second sweep)
+
+Re-tasked the 4 warm research agents as read-only auditors (domain slices + structural integrity); verified and applied their findings. **Score: 1 HIGH, ~8 MED, ~10 LOW; zero broken cross-references beyond 2 known-lost files.** Fixed: FLOW insurance doom-loop trigger re-signed DORMANT (Slide/Universal wrong-signed — they're now takeout carriers); VX Valuation-Benchmarks stale early-2025 demand-collapse rows superseded in place; FLOW "VLY is the target" retired-framing annotation; **KB.tsv ML-CORAL-024 row repaired** (printf-% weld, 13→9 cols, full-file validated 41/41 clean); SSB_THESIS.md hard RETIRED banner prepended; CLUSTER/watchlist date-freshness fixes; Forward_Log Sachs→UNF + in-flight→resolved + SSB added to print list; GRID 7/21 annotations (UR 4.7%, builder-vs-metro MSI basis); KB ML-013 superseded-in-part pointer; VX INS-03 +18.8% walk-back caveat; outbox root swept (2 stale → delivered/); `archive/` created (was referenced but missing); CLAUDE.md FILES table indexed 3 live-but-unlisted docs; 2 dead pointers annotated as known-lost (PROME synthesis brief, spinout record). **Deliberately NOT changed:** CCBG provision +$0.2M kept (PROME-verified primary chain) with press-render conflict ($0.9M) flagged for ex99.1 re-pull; proposals/ + CATCHUP_2026-07-09 orphans deferred (<60d rule); dated research snapshots left as records.
+
 ## WHAT I DID THIS SESSION
 
 - Boot per protocol (git sync clean; WALTER lane ×6 drained at boot, commit `7b47aca5` — ZHVI cycle-low acted, ATTOM-reconcile already-done, 4 noted/info).
@@ -29,7 +33,7 @@ Will directed: "get all of CORAL's files updated to current/live information." R
 2. **7/23: gate-day cluster grade** — VLY/SSB/AMTB/USCB per pre-registered spec (`FL_Forward_Log.md` + `CLUSTER_FL_BANK_LEG.md`). USCB condo-assoc book = the purest read.
 3. **7/28-29:** SBCF grade (nonaccrual 3rd-rise tell) · Ocala June UR (BLS 7/29) · Amendment-3 hearing outcome (framing → P(pass)).
 4. **Bertha:** confirm dissipation/no-FL-landfall; if track shifted E and it made FL landfall, the as-written 🔴 flip fires (annotate severity separately).
-5. Housekeeping when idle: CCBG ex99.1 re-pull via EDGAR headers (press-rendered figures currently); HO-premium level reconcile (3 divergent figures flagged in VX); MEMORY References section still lists dead spinout-record path.
+5. Housekeeping when idle: **CCBG ex99.1 re-pull via EDGAR headers — now carries a flagged $0.2M-vs-$0.9M provision conflict (watchlist row), resolve there**; HO-premium level reconcile (3 divergent figures flagged in VX); orphan-archive pass when `proposals/` + `CATCHUP_2026-07-09.md` cross the 60-day bar (~mid-Aug; `archive/` now exists); tonight's PROME memo still in outbox root (in-flight, move to delivered/ once acknowledged).
 
 ## OPEN THREADS
 

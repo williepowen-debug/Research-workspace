@@ -1,7 +1,11 @@
 # SSB Short Thesis: Complete Analysis
+
+> **⚠️ RETIRED / THESIS BROKEN — DO NOT TRADE OFF THIS FILE (banner added 2026-07-21 audit).**
+> The 2x $90P Jun-18-2026 expired WORTHLESS (SSB ~$93 at expiry; $102.28 on 7/21). Short thesis retired 2026-06-19 on Q1-2026 evidence: NCO 9bps, classified CRE = rate-shock reclass (56% LTV, 98% current, "little/no loss content"), PT $115 Buy reaffirmed. Kept as the failure-mode record — correct mechanism, premature bank-expression timing (see `thesis/THESIS.md` calibration warning). Everything below is Feb-2026 vintage.
+
 ## SouthState Corporation ($SSB) — Florida Single-Name Short
-### Position: 2x $90P Jun 18, 2026 @ $1.86 ($373 total risk)
-### Last Updated: 2026-02-11
+### Position: 2x $90P Jun 18, 2026 @ $1.86 ($373 total risk) — EXPIRED WORTHLESS 6/18
+### Last Updated: 2026-02-11 (content frozen)
 
 ---
 

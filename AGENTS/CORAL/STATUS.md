@@ -94,7 +94,7 @@ Durable mechanism, confirm/falsify rails, timing gates, and ownership rules now 
 
 ---
 
-## SIGNAL DASHBOARD (as of 2026-06-19)
+## SIGNAL DASHBOARD (rows individually dated; refreshed 2026-07-21 EVE)
 
 | Channel | Latest reading | Source / date | Status |
 |---------|----------------|---------------|--------|
@@ -105,7 +105,7 @@ Durable mechanism, confirm/falsify rails, timing gates, and ownership rules now 
 | SE FL vintage (30+yr) condo pending $/sf | **$313, −9%** (was $342 Apr 28) — re-confirmed 7/21, no fresher SE-FL-wide read; NEW Broward cut: vintage asking $246/sf vs **transaction $216/sf** (Jul 13) | Zalewski/Condo Vultures, Jun 16 + Jul 13 2026 | 🟠 |
 | Condo inventory (statewide) | **8.1 mo (June)** — 3rd straight tightening (Apr 8.9 → May 8.6 → Jun 8.1); MARCO MAR-08 (>9.0 = distress re-engage) decisively NOT met; absorption, not pile-up | FL Realtors June 2026 (pub 7/17); May via MARCO (owner) | 🟢 tightening |
 | Condo inventory (Miami-Dade / Broward / PB) | **12.9 / 11.0 / 8.2 mo** (all ↓ YoY) — ⚠️ STALE-marked: June metro breakout NOT FOUND 7/21; Apr figures stand as latest | By The Sea Realty, Apr 2026 | 🟠 |
-| DOM (Miami-Dade / Broward condos) | **95 / 102 days** (Broward +22 YoY) | Labros 2026 | 🟠 |
+| DOM (Miami-Dade / Broward condos) | **95 / 102 days** (Broward +22 YoY) — ⚠️ vintage untagged at source (~spring-26, via 6/19 refresh); monthly-moving metric, refresh due; MARCO May carries Miami-Dade days-to-sale 106 (different measure, do not merge) | Labros 2026 [STALE-ish, marked 7/21] | 🟠 |
 | Special assessments (reserve mandate) | **$25K–$100K/unit typical; up to $400K**; ~40% of owners w/in 3 yrs | Zalewski / LongYield 2026 | 🔴 (live since 1/1/26) |
 | Fannie/Freddie condo blacklist | **1,438 FL assoc. / 696 tri-county — STILL Apr-2025 vintage, no fresher public count (re-searched 7/21).** BUT policy tightens: **"limited review" ELIMINATED for most condo loans eff Aug 3 2026** (all full review) — widens blacklist-cascade intake without headcount growth | MPA/Kelley Grant, pulled 7/21; count Apr 2025 [STALE, marked] | 🟠 (tightening) |
 | Termination / receivership test | *Biscayne 21*: **100%-consent ruling STANDS (FL Sup Ct denied cert 10/14/25 — appellate path exhausted)**; Jan-26: ~$61M restoration order vs Two Roads; late-Jan: NEW **"economic waste" equitable-termination suit** = potential new exit avenue, unresolved. No other FL buildings found in termination/receivership (re-confirmed 7/21) | Bisnow/NBC Miami, pulled 7/21 | 🟡 watch (new suit = live variable) |
@@ -119,7 +119,7 @@ Durable mechanism, confirm/falsify rails, timing gates, and ownership rules now 
 
 ---
 
-## WHOLE-FLORIDA PILLARS (6/19 build-out — full detail in `COVERAGE.md` + `research/SWEEP_2026-06-19.md`)
+## WHOLE-FLORIDA PILLARS (built 6/19; rows refreshed 7/21 — full detail in `COVERAGE.md` + `research/SWEEP_2026-06-19.md`)
 
 The dashboard above is pillars 1/3/5/10 (condo, insurance, climate). The rest of the state:
 

@@ -117,6 +117,8 @@ PRIVATE INSURER FAILS
      at ASSOCIATION DEFAULT]
 ```
 
+**⚠️ TRIGGER RE-SIGNED (7/21/2026 audit fix — diagram kept as mechanism, trigger state corrected):** the insurer-failure trigger is **DORMANT / hurricane-gated**, not live. Verified 7/21: ZERO 2026 FL insolvencies (2021-23 wave over), 17+ new carriers since the reforms, capacity returning, personal rates being CUT. The named examples are **wrong-signed**: Slide and Universal-lineage (One Alliance FKA Universal North America) are now ACTIVE TAKEOUT carriers absorbing Citizens policies in the 6/16 + 8/18 depop rounds — growing, not failing. **What remains LIVE in this pathway:** the association-insolvency leg via *rising commercial/condo master-policy cost* (insurance 25-35% of association budgets, large-coastal $300K-$2M+/yr) — cost-squeeze, not carrier-failure. The full doom-loop re-arms only on a major FL landfall into the soft-priced market (AEOLUS asymmetry; reinsurance −15/−30%). KB ML-CORAL-035/-036.
+
 ---
 
 ## Tertiary Pathway: Blacklist Cascade
@@ -130,7 +132,7 @@ BUILDING FAILS STANDARDS
          ▼
 ┌─────────────────────────────────────┐
 │  FANNIE/FREDDIE BLACKLIST           │
-│  - 1,438 associations currently     │
+│  - 1,438 assoc (Apr-25 vintage)     │
 │  - No conventional mortgages        │
 │  - Cash-only buyers                 │
 └─────────────────────────────────────┘
@@ -307,8 +309,8 @@ PALM BEACH (150K units 30+ yrs)
 | **TRIGGER** | SIRS deadline passes | ✅ Complete (Dec 2025) |
 | **EARLY STRESS** | Blacklist growth, complaints | 🟠 1,438 blacklisted, +44% complaints |
 | **FIRST DEFAULTS** | Association bankruptcies | 🟡 1 (Palm Greens) |
-| **RECOGNITION** | Bank reserve builds | ⏳ Q1 earnings (April) |
-| **CASCADE** | Multiple associations fail, bank losses | ⏳ Q3-Q4 2026? |
+| **RECOGNITION** | Bank reserve builds | Q1 (Apr): CLEAN — no builds, rate-shock reclass only. ⏳ **Q2 window LIVE: BKU 7/22 → VLY/SSB/AMTB/USCB 7/23 → SBCF 7/28** (updated 7/21) |
+| **CASCADE** | Multiple associations fail, bank losses | ⏳ DEWEY timing chain: charge-offs concentrated **2027** (30-89d flickers H2-2026) |
 | **AMPLIFICATION** | Insurance failure or hurricane | ⏳ Unknown |
 
 ---
@@ -324,7 +326,7 @@ A building doesn't fail from ONE channel — it fails when MULTIPLE channels str
 - 2-3 channels together = association failure
 - Association failure = bank loss
 
-**This is why VLY is the target:** Multiple exposure paths to the same geographic risk.
+**⚠️ FRAMING RETIRED (7/21 audit fix):** this section originally concluded "this is why VLY is the target." That call is superseded — VLY is a multi-channel NJ/NY play (27% FL), not the pure FL expression (see VX superseded-pointer + FL_BANK_WATCHLIST). The multi-channel-stacking logic STANDS; the cleanest condo-wired expression of it today is **USCB** (condo-association vertical), with SBCF as the 100%-FL bellwether. Geographic cells above (VLY $3.33B/45% Miami) are Q4-2025 vintage — treat as baseline, not current.
 
 ---
 

@@ -1,7 +1,7 @@
 # CORAL — FL Regional-Bank Leg | Q2-Print Bank-Transmission Convergence Grid
 
 **For:** REGINALD (integration hub) · Transmission-Terminus Cluster (Prome synthesis seat)
-**Brief:** `PROME/synthesis/2026-06-25_transmission-terminus-cluster.md`
+**Brief:** `PROME/synthesis/2026-06-25_transmission-terminus-cluster.md [⚠️ dead pointer, noted 7/21 audit — target absent, likely 2026-06 public-prep cleanup; cluster context preserved in this file + STATUS spine]`
 **As of:** 2026-06-25 ~16:28 ET · **Prices:** live pull 6/25 post-close
 **Grade note:** Q2 timing read derived from DEWEY Phase-3 packet (SIG-W-20260622-001) — **research-output, NOT verified-primary** (EDGAR 403'd; bank financials are institutional-mirror). Mechanism/direction well-supported; precise timing + bank attribution inferred. Weight accordingly.
 
@@ -25,13 +25,13 @@ Chain, with measured lags:
 
 **Net:** cost-shock(now) + ~12mo + ~2-4Q ⇒ **early-delinquency H2-2026, NCO concentrated 2027.** My standing **~winter 2026-27 acute call is defensible for the charge-off stage, slightly conservative on the leading edge** (the 30-89d signal is a 2026 event, arguably already here).
 
-**"Blended index masks the tail" (the SIG-011 reconcile, resolved):** statewide blends look benign (SF +1.8%, statewide condo 8.9mo, personal-lines insurance easing −2.6%) → this is exactly the blended-index masking. Decompose: the **Miami-Dade condo sub-segment** (~13mo supply, ~−10% price, master-policy + SB-4-D shock) is the live stress vector and it *leads* bank losses by ~12mo. April price-easing (ResiClub) is **not** contradictory with June consumer-deterioration — the **freeze/lock-in IS the 🟠 containment**; it tips 🔴 only if assessment-default + negative-equity forced-sales override the lock-in.
+**"Blended index masks the tail" (the SIG-011 reconcile, resolved):** statewide blends look benign (SF +1.8%, statewide condo 8.9mo, personal-lines insurance easing [−2.6% early read; final −8.8% multiperil eff 7/1/26, corrected 7/21]) → this is exactly the blended-index masking. Decompose: the **Miami-Dade condo sub-segment** (~13mo supply, ~−10% price, master-policy + SB-4-D shock) is the live stress vector and it *leads* bank losses by ~12mo. April price-easing (ResiClub) is **not** contradictory with June consumer-deterioration — the **freeze/lock-in IS the 🟠 containment**; it tips 🔴 only if assessment-default + negative-equity forced-sales override the lock-in.
 
 ---
 
 ## FL-Bank Leg Grid (slots into REGINALD's master grid)
 
-Live px 6/25 post-close. Q2 print dates **~late Jul (exact TBC)**. Each bank's feeding legs scored independently; the diagnostic asks whether they synchronize.
+Live px 6/25 post-close (historical — 7/21 closes in STATUS). Q2 print dates **CONFIRMED 7/21 → `FL_BANK_WATCHLIST.md` live tracker: BKU 7/22 BMO · VLY 7/23 BMO · SSB/AMTB/USCB 7/23 AMC · SBCF 7/28 AMC** (the per-bank "~late Jul" cells below predate confirmation). Each bank's feeding legs scored independently; the diagnostic asks whether they synchronize.
 
 | Bank | Px 6/25 | Q2 print (~) | Feeding legs (owner) | Predicted Q2 signal (CORAL) | **FL single diagnostic** | Falsifier | Current read |
 |---|---|---|---|---|---|---|---|

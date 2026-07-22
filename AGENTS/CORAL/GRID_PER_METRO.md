@@ -8,9 +8,11 @@
 
 ---
 
-## The grid (as of 2026-07-17)
+## The grid (as of 2026-07-17; 7/21 annotations below — full rebuild due after the Q2 bank prints)
 
-| Metro | Region | FC rate H1'26 (ATTOM) | Neg-equity | SF price correction | Builder fire-sale/MSI | Condo stress | Migration / snowbird loss | Labor (FL UR 4.8%) | Insurance / assessment burden | **Channels lit** |
+> **7/21 partial-refresh annotations (audit fix):** (a) Labor column header basis is now **FL UR 4.7% SA (June, first decline since 2024)** — cells unchanged (all ◐, still valid). (b) MSI cells below are **BUILDER-specific** (DRH/Toll/Pulte/Century, late-Jun vintage); the fresher **metro-level** Parcl 7/8 basis reads Tampa 6.9 / Punta Gorda 6.9 / North Port 6.45 / Cape Coral 6.12 / Lakeland 6.09 — the ARMED tripwire runs on the metro basis (KB ML-CORAL-034); grid cells keep the builder basis until rebuild. (c) June condo/SF statewide refresh (condo +1.7%/8.1mo, SF $432K +4.9%) does not change any cell scoring.
+
+| Metro | Region | FC rate H1'26 (ATTOM) | Neg-equity | SF price correction | Builder fire-sale/MSI | Condo stress | Migration / snowbird loss | Labor (FL UR 4.7% Jun) | Insurance / assessment burden | **Channels lit** |
 |---|---|---|---|---|---|---|---|---|---|:---:|
 | **Punta Gorda** | SW Gulf | ● **0.50% — #1 in NATION** | ● (overlap, ML-021) | ● SW-FL correction | ◐ | ◐ | ● snowbird | ◐ | ● coastal cat | **6-7 ●** |
 | **Cape Coral–Ft Myers** | SW Gulf | ● **0.35%** (Q2 1 in 512) | ● **#1 US, 11.1%; '24-vintage 35.4%** | ● **−10% "worst in US", rolling neg YoY** | ● Ft Myers 30%+ cut | ◐ | ● **worst Canadian-snowbird loss** | ◐ | ● coastal cat | **7 ●** |

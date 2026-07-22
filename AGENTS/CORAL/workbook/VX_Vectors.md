@@ -34,13 +34,14 @@
 
 | Metric | Current | Prior | Δ | Context | Status |
 |--------|---------|-------|---|---------|--------|
-| Heron Pond $/unit | $67,434 | — | — | vs $180-210K market (60% discount) | 🔴 |
-| FL Condo Inventory | +56% YoY | — | — | Early 2025 | 🟠 |
-| Pending Sales | -21% YoY | — | — | Demand collapse | 🟠 |
-| Price Decline (highest tier) | -33% | — | — | From 2022 peak | 🔴 |
+| Heron Pond $/unit (founding distressed-sale benchmark, FROZEN early-2026 vintage) | $67,434 | — | — | vs $180-210K market (60% discount) — the receivership-discount datum; not a live series | 🔴 (benchmark) |
+| FL condo/TH median (statewide, blended) | **$305K, +1.7% YoY — first positive print** (Apr −6.1%, May −1%) | $315K flat (Apr) | flip | ⚠️ blended masks bifurcation: vintage SE-FL pending $313/sf −9% (Jun-16) | 🟡 blended / 🟠 vintage |
+| FL condo inventory (statewide) | **8.1mo (Jun)** — Apr 8.9 → May 8.6 → Jun 8.1, 3rd straight tightening | 9.1mo Mar peak | ↓ | supersedes the early-2025 "+56% YoY inventory" cell (demand-collapse frame CONTRADICTED by 2026 absorption) | 🟢 tightening |
+| Condo closed sales (statewide) | **+14% YoY (Jun)**; 10th straight month of statewide YoY gains | −21% YoY pending (early-2025) | flip | supersedes the "pending −21%" demand-collapse cell | 🟢 |
+| ZHVI FL statewide (stock index) | **$392,443 May = FIRST new cycle low, −3.0% YoY** | peak $418,317 (2024) | −6.2% off peak | index-vs-median divergence = mix shift; both carried, labeled | 🟠 |
 
-*Source: FL Realtors, auction data*
-*Last Updated: 2026-02-05*
+*Source: FL Realtors June 2026 (pub 7/17, PRIMARY); Zillow ZHVI (PRIMARY); Zalewski (specialist); Heron Pond = auction record, founding research.*
+*Last Updated: 2026-07-21 (audit fix — stale early-2025 rows superseded in place)*
 
 ---
 
@@ -263,8 +264,8 @@
 |--------|---------|-----------|--------|
 | Citizens Commercial Lines filed/approved | +10.4% capped, eff on/after 7/1/26 | 🟠 any double-digit increase | 🟠 |
 | Association burden context (7/21, press) | 91% of FL assocs report unexpected 2026 expense increases; insurance = 25-35% of operating budgets; master policies $15-50K/yr small-inland → $300K-$2M+/yr large-coastal; HOA fees +68%/5yr | directional (no clean YoY %) | 🟠 |
-| Uncapped actuarial indication | +18.8% | 🔴 >20% need | 🟠 |
-| Commercial multi-peril / wind-only | +9.6% capped / +21.3% uncapped; +10.9% capped / +17.2% uncapped | shows cap masks true need | 🟠 |
+| Uncapped actuarial indication | +18.8% — ⚠️ could NOT be re-confirmed (DEWEY 6/22, unparseable OIR PDF); walked back on all sibling surfaces — **lean on +10.4% capped only** | 🔴 >20% need | 🟡 (unverified) |
+| Commercial multi-peril / wind-only | +9.6% capped / +21.3% uncapped; +10.9% capped / +17.2% uncapped — ⚠️ uncapped figures same un-re-confirmed filing as the +18.8%; capped figures solid | shows cap masks true need (directionally) | 🟠 (capped) / 🟡 (uncapped) |
 
 *Source: Citizens rate filing via WALTER SIG-W-20260619-008, delivered 2026-06-19. Last updated: 2026-06-20.*
 

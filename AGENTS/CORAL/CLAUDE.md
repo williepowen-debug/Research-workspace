@@ -207,6 +207,9 @@ You own the full Florida stress surface. Coverage map + live state per pillar �
 | `SCRATCH.md` | Canonical ephemeral handoff — CHANGES SINCE / WHAT I DID / NEXT SESSION / OPEN THREADS / mail state. Rewrite at every closeout. |
 | `NEXUS_BRIEF.md` | Cross-agent synthesis brief for NEXUS. Refresh every closeout; update content on material changes. |
 | `board_log.tsv` | WALTER handoff consumption ledger for `inbox/WALTER/` deliveries. |
+| `FL_BANK_WATCHLIST.md` | Pillar-6 owner doc — FL-concentrated bank watchlist + live Q2 print-window tracker (sync count, read-shape, exclusions). *(Indexed 7/21 audit — was live-but-unlisted.)* |
+| `CLUSTER_FL_BANK_LEG.md` | FL-bank leg grid of the transmission-terminus cluster (for REGINALD) — per-bank diagnostics, pre-registered Q2 spec, DEWEY timing chain. *(Indexed 7/21 audit.)* |
+| `GRID_PER_METRO.md` | Per-metro convergence grid — channel-stacking scores by FL metro (built 7/17). *(Indexed 7/21 audit.)* |
 | `CALENDAR.md` | Forward-looking FL catalysts. Pure table. Prune regularly. |
 | `MEMORY.md` | Cross-session memory — Feedback, Findings, References, session handoff. |
 | `LESSONS.md` | Verified mistake patterns + prevention rules. |

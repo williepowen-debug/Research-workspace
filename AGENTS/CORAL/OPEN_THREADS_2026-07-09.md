@@ -21,7 +21,7 @@
 - **No interim USCB condo-association read between 10-Qs.** USCB is "the cleanest condo→bank canary" on the watchlist; CORAL only sees it quarterly, same cadence as everyone else — no early-warning channel.
 - **No FL-specific NFIP/flood-policy data source in `DATA_SOURCES.md`.** Tonight's flood-uninsured collateral thread (SIG-627-030) has no live FL instrument behind it.
 - **No recurring Ch.7 per-capita pull.** Bankruptcy tripwire (>230/100k) exists on paper; sourcing has been one-off AOUSC pulls, not a schedule.
-- **Sargassum (record-tier, ~28.9M MT) has no dollar linkage** to any FL bank or insurance metric — tracked as a "2nd-order overlay" and left there.
+- **Sargassum (record-tier, ~28.9M MT [superseded 7/21: July outlook ~38M MT, record band >37.5M crossed — KB ML-CORAL-039]) has no dollar linkage** to any FL bank or insurance metric — tracked as a "2nd-order overlay" and left there.
 
 ## 3. THREADS TO PULL — leads nobody has chased
 
