@@ -1,5 +1,7 @@
 # BRENT — Reference Tables
 
+> **⚠️ VINTAGE: March 2026 baseline reference** (stamped 2026-07-21). Structural constants (capacities, quotas, breakevens, spare-capacity adjudication) remain the reference; **dated operational snapshots below (storage runways "Mar 5/6", Jan-2026 production) are [STALE] — do not cite as current.** Live levels → `STATUS.md`; live catalysts → `docket/CATALYSTS.tsv`. Post-March deltas NOT reflected here: Hormuz formal closure 7/11-12, KOC platform hit 7/12 (RF-037), CPC halt 7/18-21 (RF-038), Yanbu bypass now carrying 5→>6 Mbpd [GS 7/20] and itself inside the declared Houthi zone (STATUS 7/21 vector).
+
 ## Hormuz Transit Volumes
 - ~20M bpd crude + condensate (20% of global supply)
 - ~25% of global LNG

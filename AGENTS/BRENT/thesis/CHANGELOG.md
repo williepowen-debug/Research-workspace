@@ -8,6 +8,26 @@ Tracks all changes to THESIS.md and TIMELINE.md. Reverse chronological. Each ent
 
 ---
 
+## 2026-07-21 Tue — v5.0 → v5.1 (minor): Phase-1 re-squeeze REALIZED — the pre-registered up-tail fired
+
+**Trigger:** Will-directed full-surface refresh at the 7/21 boot; THESIS was 7/6 vintage — 15 days behind the formal Hormuz closure. Live: Brent $92.15 settle (7/21), OVX 63.78 (new cycle high), transits 15/88 (7/19 print).
+
+**Old view (v5.0, 6/29-7/6):** the re-squeeze was the *convex tail we position for* — a medium-term ~coin-flip risk expressed via defined-risk convexity, deploy-on-trigger, while the near-term modal path stayed the calm sub-$75 hold (P 0.70).
+
+**New view (v5.1):** **the tail FIRED.** Sequence: 7/8 decoupling crack → 7/10 sustain DENY (1 leg short — the gate worked) → 7/11-12 **formal Hormuz closure** (Iran; US 3rd strike wave; Qatar suspension; transits → 10-17/88 sustained sub-18 [PortWatch]) → **7/16 re-arm CONFIRMED** (≥3 fresh legs + level, settlement basis) → 7/17 COT = **SQUEEZE IGNITING partial** (gross shorts −9,885 → 119,187; ~92% fuel remains) → **7/21 $85×3 FIRED** (settles $88.10/$89.22/$92.15). The thesis's job flips from predicting to **riding/managing**: deploy = pass-on-chase (vol-rich; cooldown gate OVX<44.2 + ratio<2.89 = the re-entry rule); Branch-1 pullback re-entry MODERATE; **two COT-invisible gap paths un-hedged** (Kharg seizure + Bab/Yanbu execution) → tail-rider decision with Will.
+
+**Load-bearing discriminator registered: PREMIUM vs SUPPLY-LOSS.** The whole $76→$92 move is risk-premium — zero confirmed barrels destroyed (FAL-01 unfired through 6+ strike nights; production sparing demonstrated under maximal opportunity [FALCON 7/17]; GS 7/20 concurs). Reversible in a way destroyed capacity is not → fast round-trip risk on any Muscat off-ramp. Phrasing discipline: "no destruction YET," never "zero lost supply."
+
+**New elements:** (1) **CPC Kazakh halt 7/18-21** (RF-038; ~1.3-1.5M bpd; first actual barrels-offline event of the regime; duration gated on insurers — Black Sea war-risk 0.6%→>1%; leg-(b) fires ~7/24 if continuous). (2) **Saudi dual-route compression vector** (Yanbu, now carrying the 5→>6 Mbpd bypass load [GS], sits inside the 7/20 declared Houthi zone; 7/21 coerced Suez reroutes = cost-premium with zero barrels = frame-CONFIRMING; execution = frame-breaker; STATUS 7/21). (3) Consumer leg re-armed: retail gas re-crossed $4.00 (GASREGW $4.001, 7/20). (4) BRT-26 near-failure flagged (rigs 452, 5 to 457).
+
+**Why minor, not major:** v5.0's structure — upside-convex skew, defined-risk convexity only, no flat-price length, deploy-on-trigger with Will's approval — predicted exactly this outcome and required no restructure. Realization of a pre-registered tail = confirmation. A MAJOR bump would need a phase transition (e.g., confirmed supply-LOSS conversion, or a durable off-ramp round-trip).
+
+**Predictions touched:** none resolved. BRT-26 note updated (breach imminent ~7/24); BRT-16 premise re-arming via the closure regime; BRT-07/17 timer receding; BRT-12/21 context refreshed.
+
+**Propagation:** THESIS header + v5.1 banner + KEY THRESHOLDS full refresh + RISK FACTORS re-squeeze row + predictions table + footer. STATUS (7/21 banner + Yanbu vector, committed `92ff03ae`). TRADE (7/21 banner + catalysts). PREDICTIONS.tsv (notes). TRACKER (7/21 banner). INCIDENTS (RF-037 KOC, RF-038 CPC). NEXUS_BRIEF + SCRATCH (this closeout). REFERENCE_TABLES vintage-stamped.
+
+---
+
 ## 2026-07-06 Mon — CALIBRATION note (NO version bump): RED thesis-integrity reconciliation + reopening-STALL rebalance
 
 **Trigger:** PROME teams-session — owed RED red-team follow-up + the 2nd-week decoupling test (COT tonight). Live: Brent $72.26 (+0.64%, green), WTI $68.96, STNG $75.36 (+3.22%), VIX 15.93. No new EIA weekly.

@@ -1,6 +1,8 @@
 # BRENT TRADE.md — domain trade surface
 
-**Updated:** 2026-07-16 Thu ~9:35 AM ET | **THESIS v5.0 (asymmetry UPSIDE-CONVEX)** | **LIVE surface** (not frozen — keep current at every closeout or it rots).
+**Updated:** 2026-07-21 Tue ~11:00 PM ET | **THESIS v5.1 (asymmetry UPSIDE-CONVEX — Phase-1 re-squeeze REALIZED)** | **LIVE surface** (not frozen — keep current at every closeout or it rots).
+
+> **🔴 7/21 TREE GRADED (pre-reg `outbox/2026-07-17_to-PROME_cot-grade-verdict.md`): tree row 1 = STAYS-HOT CONFIRMED, STILL PASS-ON-CHASE.** **$85×3 FIRED at earliest date** — settles 7/17 $88.10 · 7/20 $89.22 · 7/21 $92.15 [CONF Yahoo BZ=F], all >$85 = sustained PREMIUM, NOT supply loss, NOT a deploy trigger. No Kharg seizure (FAL-01 unfired); no Muscat breakthrough. **Cooldown gate moved FURTHER away: OVX 63.78 = NEW cycle high** (VIX 17.05, ratio 3.74 vs 3.27 on 7/17) — gate {ratio <2.89 AND OVX <44.2} decisively unmet → **no deploy, arm ARMED-and-HOT, no capital.** Branch-1 ($80-82 pullback) re-entry stays MODERATE; **Branch-2 gap paths now TWO** (Kharg seizure + Bab/Yanbu execution — see STATUS 7/21 Saudi dual-route-compression vector), both COT-invisible → **the far-OTM tail-rider question to Will is LIVE and slightly stronger than 7/17.** New physical axis: CPC Kazakh halt (~1.3-1.5M bpd, first actual barrels-offline event; leg-(b) fires ~7/24 if continuous) — a REAL-barrels catalyst class distinct from the premium cluster. GS 7/20 LONG-DIESEL escalation-hedge rec on record (OECD diesel 4th %ile) — expression = Will/TERRY decision, not auto-adopted.
 
 > **🔴🔴 7/16 RE-ARM CONFIRMED (read first):** The 7/10 DENY is OVERTAKEN. Iran FORMALLY closed Hormuz 7/11-12; the Tier-2 CONFIRM partition is **decisively met** — LEVEL: settles 7/13 $83.30 / 7/14 $84.73 / 7/15 $84.95 / 7/16 $84.23 / 7/17 $86.88 live (all >>$75; ⚠️ 7/13 "$78.85" was an intraday SPOT quote mislabeled as a settle — corrected 7/17; high-water settle $84.95, zero settles >$85); **≥3 FRESH countable legs** beyond the standing war-risk anchor {transit collapse to 10/88=11% [PortWatch 7/12] · renewed kinetic step [US 3rd wave + GFS Galaxy + KOC] · formal closure + Qatar suspension}; PLUS two standalone CONFIRM paths (durable ceasefire collapse + confirmed physical re-closure). **Energy tail 🟡 fragile-watch → 🔴 ACTIVE (Phase-1 re-squeeze).** ⚠️ **But: DEPLOY = PASS-ON-CHASE** — the cheap-convexity window was the 7/11-13 gap (offline 7/13-15, missed it); OVX ~61 (crisis-level) makes the arm vol-RICH now; +13% move already happened; today GREEN (rule #6). Arm = **ARMED-and-HOT, no capital**; deploy on a RED-day/vol-cooldown pullback OR a small further-OTM tranche only. Adjudication: `outbox/2026-07-16_to-PROME_rearm-adjudication.md`.
 
@@ -98,14 +100,13 @@
 
 | Date | Event | Bears on |
 |------|-------|----------|
-| ~~Jul 8~~ | ✅ EIA STEO (July) | first post-deal price path (fired amid the 7/8 crack) |
-| ~~Jul 10~~ | ✅ CFTC/ICE COT double-grade | **spring-fuel CONFIRMED** — shorts built not covered (both prints); convex tail fatter |
-| ~~Jul 10~~ | ✅ GATE-BRENT-SUSTAIN | **DENIED** — level held, <2 fresh legs; tail → fragile-watch |
-| **Sat Jul 11** | OPEC MOMR (July) | demand/supply-balance revision |
-| **Tue Jul 14** | US CPI (June) | BRT-16 inverse-feedback (does soft energy unwind hike-pricing?) |
-| **~Wed Jul 15** | EIA WPSR (next weekly) | did the crisis re-tighten Cushing/draws, or keep normalizing? |
+| ~~Jul 17~~ | ✅ COT (as-of 7/14) | **GRADED = SQUEEZE IGNITING (partial)** — Branch-1 re-entry HIGHEST→MODERATE |
+| ~~Jul 21~~ | ✅ $85×3 settle test | **FIRED** (settles $88.10/$89.22/$92.15) — sustained premium, NOT a deploy trigger |
+| **Wed Jul 22** | EIA WPSR (wk-7/17) | **first post-closure inventory read** — Cushing >20M wk 2/2? draws accelerate? |
+| **~Thu Jul 24** | CPC leg-(b) (5th continuous session) | first actual barrels-offline event goes durable → real-barrels catalyst class |
+| **Fri Jul 24** | CFTC COT (as-of 7/21) + Baker Hughes | squeeze progression from IGNITING (gross-short ladder from 119,187); rigs 452 → 457 breach watch |
 | **Tue Jul 28** | OPEC JMMC | policy behind the tape |
-| Rolling | **HAW-15** crude-export pivot / **2nd fresh Iran institutional leg** (transit ≤~18 · liner Cape re-route · JWC/P&I withdrawal) | **arm triggers — the re-arm needs leg #2** |
+| Rolling | **Deploy gate** (OVX/VIX <p90 2.89 AND OVX <p75 44.2 + stabilized pullback) · **Branch-2 gap tells** (Kharg loadings→0 · aggregate Bab transit collapse / Yanbu liftings stop) | **the entry gate + the two COT-invisible gap paths** |
 
 ---
 
