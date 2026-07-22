@@ -1,6 +1,6 @@
 # ORACLE STATUS
 
-**Updated:** 2026-07-22 (Wed ~11:41 ET, Will-directed boot) — live pull both platforms + derived spread. **The regime-flip tripwire pre-registered on 7/17 just tripped — the SIGNAL way.** The disruption-supply spread collapsed +40.5→+30.8pp *entirely via the supply leg rising*: WTI-$100 war-premium 7.5%→17.8%, crossing the >15% "crowd flips to supply-loss pricing" threshold. In parallel the Fed re-armed hawkish (July-hike 3.6%→21.1%, hike-2026 51.5%→64.5%). Complacency crack deepened (NEH −12/7d).
+**Updated:** 2026-07-22 (Wed, boot ~11:41 ET + **PM re-pull before closeout**) — **PM update: Fed-HIKE-2026 crossed the >66% re-break trigger intraday (64.5%→66.5%), same day flagged.** Boot story unchanged: **the regime-flip tripwire pre-registered on 7/17 tripped — the SIGNAL way** The disruption-supply spread collapsed +40.5→+30.8pp *entirely via the supply leg rising*: WTI-$100 war-premium 7.5%→17.8%, crossing the >15% "crowd flips to supply-loss pricing" threshold. In parallel the Fed re-armed hawkish (July-hike 3.6%→21.1%, hike-2026 51.5%→64.5%). Complacency crack deepened (NEH −12/7d).
 **Domain:** Prediction-market monitoring (Polymarket + Kalshi) — crowd-implied probabilities & crowd-vs-thesis divergence
 **Data:** live via `scripts/polymarket.py pull --log` + `scripts/kalshi.py pull --log`. Series → `workbook/ODDS_LOG.tsv` / `KALSHI_ODDS_LOG.tsv`. Derived → `workbook/DISRUPTION_SUPPLY_SPREAD.tsv` (v2, +30.8pp). Cross-agent surface → `NEXUS_BRIEF.md`. Metrics → `PREDICTION_MARKET_METRICS.md`.
 **State:** 🟠→🔴-adjacent — one week ago the crowd's read was "premium not shortage." It is now starting to doubt that: **supply-loss pricing (WTI-$100 up 10pp) and Fed-hike pricing (July-hike up 17pp) are stepping up together**, even though no actual barrel has been lost (Kalshi Iran crude production still 77% >2.0mbpd). This is the leading edge of the regime flip — routable, not yet confirmed.
@@ -11,7 +11,7 @@
 
 **🔴 REGIME-FLIP TRIPWIRE TRIPPED — supply-loss pricing overtaking premium.** The disruption-supply spread **collapsed +40.5pp → +30.8pp** in 5 days, and it collapsed the *signal* way: **entirely via the SUPPLY leg rising**, not disruption easing. **WTI-$100-war-premium 7.5% → 17.8%** (Δ1d +9.2, Δ7d +11.4, deep $672K vol / $64.2K liq — not thin), crossing the pre-registered **>15% "crowd flips to supply-loss pricing"** threshold. The disruption leg is dead flat (Hormuz-normal-Dec31 51.5% both dates → 48.5% disruption-persists). **The crowd is starting to price lost barrels, not just a risk premium.** ⚠️ But NO barrel actually lost yet — Kalshi **Iran crude production Jul >2.0mbpd still 77%** (sanctioned baseline, uncollapsed); the crowd is pricing supply *risk* ahead of realized loss. Corroborators: **WTI-$90-intraday 65.6%** (Δ7d +45.8, $1.5M deep), Kalshi **Brent >$85 @ Jul31 settle-ref 73%** (Δp +6), **gold hit $4,150**. → HAWK, BRENT, FALCON, PROME. (KB-ORC-042.)
 
-**🔴 FED RE-ARMED HAWKISH — tracking the oil premium.** July-meeting-hike **3.6% → 21.1%** (Δ1d +9.5, Δ7d +16.8, $17.4M vol; Kalshi corroborates hike-by-July **24%**, Δp +12) — meeting is **7/29** (7d out); still more-likely-hold than hike, but the tail fattened materially. **Fed-HIKE-2026 51.5% → 64.5%** (Δ7d +14.0) — **~1.5pp under the pre-set >66% re-arm trigger**; flag now, fires on the next uptick. No-cuts-2026 firmed 83.7%→**84.8%**. July-CPI-modal top +16/7d. The oil/energy premium is bleeding straight into rate-path pricing. → LIQUID, HENRY. (KB-ORC-043.)
+**🔴 FED RE-ARMED — >66% TRIGGER FIRED intraday (same day flagged).** **Fed-HIKE-2026 51.5% → 64.5% (AM) → 66.5% (PM)** (Δ1d +5.0, Δ7d +16.0, $4.4M deep) — **crossed the pre-set >66% re-break trigger the same day I flagged it "~1.5pp away, fires on the next uptick."** A 2026 hike is now the crowd's firm base case (2/3). July-meeting-hike **3.6% → 22.2%** (Δ1d +10.3, Δ7d +18.1, $17.4M vol; Kalshi hike-by-July **23%**, Δp +10) — meeting **7/29** (7d), still hold-leaning but the tail keeps fattening. No-cuts-2026 firmed to **84.8%**. The oil/energy premium is bleeding straight into rate-path pricing. NEXT rung: an actual hike prints OR the 7/29 meeting hikes. → LIQUID, HENRY. (KB-ORC-043/046.)
 
 **⚪ SPREAD READ — WIDE→NARROWING, correct-leg.** v2 = P(Hormuz-disruption-persists 48.5%) − P(WTI-$100 17.8%) = **+30.8pp** (was +40.5 on 7/17). The narrowing is the tell, and it's the tell we wanted to see fire: driven by the WTI leg, not by disruption easing. Closure proxy (5.7%, a context column) *fell* — no supply-event closure priced, so the supply-risk repricing is premium-channel (blockade friction / war tempo), not a modeled physical shutdown. Watch for the spread to keep narrowing on the WTI leg → deeper into supply-loss regime. (KB-ORC-042.)
 
@@ -29,8 +29,8 @@
 
 | Market | Tier | Prob | Δ1d | Δ7d | Vol | Liq | Read |
 |--------|:--:|--:|--:|--:|--:|--:|------|
-| **Fed: hike at July mtg** | T1 | **21.1%** | **+9.5** | **+16.8** | $17.4M | $303.1K | ⏳7d — tail fattened, still hold-likely |
-| **Fed: HIKE in 2026** | T1 | **64.5%** | +1.0 | **+14.0** | $4.4M | $145.0K | ~1.5pp under >66% re-arm trigger |
+| **Fed: hike at July mtg** | T1 | **22.2%** | **+10.3** | **+18.1** | $17.4M | $291.9K | ⏳7d — tail fattening, still hold-likely |
+| **Fed: HIKE in 2026** | T1 | **66.5%** | **+5.0** | **+16.0** | $4.4M | $153.4K | 🔴 >66% TRIGGER FIRED — 2026 hike now base case |
 | **Fed: NO cuts 2026** | T1 | **84.8%** | +0.1 | +4.0 | $6.4M | $146.4K | firming; dovish tell <70% firmly not fired |
 | Fed: 1 cut 2026 | T1 | 9.5% | −1.0 | −5.0 | $2.2M | $114.7K | fading |
 | Fed funds end-2026 (dist, top) | T1 | 31.0% | — | +0.9 | $529.8K | $11.8K | steady |
@@ -43,7 +43,7 @@
 | **Hormuz normal by Dec 31** | T1 | **51.5%** | −4.0 | −7.0 | $5.6M | $232.0K | disruption persists (=48.5% disr), flat vs 7/17 |
 | China invade Taiwan <2027 | T1 | 4.0% | −0.2 | +0.2 | $38.9M | $591.0K | deep, low |
 | China GDP 2026 (sub-5% top) | T1 | 87.5% | — | +3.0 | $207.4K | $40.8K | ⏮stale-date |
-| **WTI $100 (Jul) — war premium** | T2 | **17.8%** | **+9.2** | **+11.4** | $672.0K | $64.2K | 🔴 CROSSED >15% — supply-loss pricing starting |
+| **WTI $100 (Jul) — war premium** | T2 | **14.9%** | +5.1 | **+8.8** | $761.0K | $39.5K | crossed >15% AM (17.8%), eased to boundary PM on thinning liq |
 | **WTI $90 (Jul) — intraday high** | T2 | **65.6%** | +25.8 | **+45.8** | $1.5M | $107.3K | ⚠️INTRADAY not settle; premium stepping up |
 | US invade Iran <2027 | T2 | 28.5% | +2.0 | **+11.0** | $46.1M | $597.1K | deep, rising — escalate tail fattening |
 | US-Iran deal 2026 (top) | T2 | 34.5% | +3.0 | **+11.5** | $68.2K | $10.3K | resolve tail ALSO rising (bimodal) |
