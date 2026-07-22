@@ -1,12 +1,14 @@
 # DEMAND DESTRUCTION TRACKER
 
+**🔴 7/22 Wed — EIA wk-7/17: CUSHING −674K → ~19.37M (BACK BELOW 20M; ROUTING BOUNDARY #3 RE-ACTIVE → LIQUID/HENRY/RED); CRUDE BUILD +2.010M vs −2.0M expected (IMPORT-DRIVEN +485K bpd net); GAS STOCKS +765K vs −1.54M expected (DEMAND-SOFT; pump $4.001); SPR ~311.4M [EST; −5.1M draw]; gas product supplied YoY [PENDING CONF]. Cushing 2-of-2 above 20M FAILED — Boundary #3 NEVER RESCINDED. See `data/eia_2026-07-22.md`.**
+
 **🔴 7/21 Tue — RETAIL GAS RE-CROSSED $4.00: GASREGW $4.001 [CONF FRED 7/20]** (prior peak $4.55 on 5/21, trough ~$3.73 ~7/4; De Haan's 7/13 "7-10 day" re-cross call resolved TRUE in-window). The demand-destruction window is REOPENING on the closure regime — Brent settles $88.10/$89.22/$92.15 (7/17-21, $85×3 fired), pump pass-through lags 2-4 wks from here. Consumer end = CARL (routed via WALTER). COT 7/14 GRADED 7/17 = SQUEEZE IGNITING partial (MM gross shorts −9,885 → 119,187; de-grossing-led, net −2,067 — NOT a clean Trigger-#3 distribution read; tape rising = Trigger #3 structurally N/A in this regime). Rigs 452 (5 to 457; next BH 7/24 — breach watch). **First post-closure EIA demand read = TOMORROW 7/22 (wk-7/17): gasoline YoY (last −1.06%), Cushing >20M wk-2-of-2, draw acceleration.** China demand counterweight: June crude imports −41.3% YoY (7.12 mb/d, lowest since Oct-2016) [China customs 7/14; ZHAO/PROME-verified] — the main non-de-escalation path DOWN; attribution splits war-disruption/EV-structural/destocking, NOT clean cyclical destruction.
 
 **🔴 7/17 Fri (prior) — BAKER HUGHES RIG ALERT: 452 OIL RIGS = 5 FROM 457 SHALE THRESHOLD; BREACH IMMINENT ~JUL 24.** Permian +3 WoW driving. At +7/wk pace, shale response threshold fires next week. Bearish medium-term supply signal per thesis. | COT Jul 7 [CONF CFTC Jul 10]: 64,041 net long (−17,241 from 81,282; mild distribution character per Saxo analysis — WTI +4.1% during week while MM cut; BUT Jul 14 positions expected to show sharp REVERSAL from +9.4% WTI escalation spike → Trigger #3 clock likely resets). Jul 14 COT PENDING today 3:30pm ET. | Airlines: Virgin Atlantic Jul 15 (5 routes, −14% US), Aer Lingus Jul 16 (4 routes, 500 jobs, 6% cut, EXPLICITLY Iran-war cited). See `data/friday_2026-07-17.md`.
 
 **🔴 7/16 Thu — RE-ARM CONFIRMED → energy tail 🔴 ACTIVE (Phase-1 re-squeeze).** Iran formally closed Hormuz 7/11-12; graded vs the 7/10 DENY baseline = level >>$75 (settles $78.85→$84.95→~$86) + ≥3 fresh legs (transit collapse 10/88=11%, renewed kinetic step, formal closure+Qatar suspension). Deploy = **pass-on-chase** (OVX ~61 vol-rich, +13% happened, green day; Will confirmed) — re-entry watch ~$80-82. **Demand-side note:** wk-7/10 EIA below is PRE-closure vintage; the pump-price re-fire from the re-arm lags 2-4 wks (gas $3.855 now). Next EIA wk-7/17 (rel 7/22) = first post-closure demand read. _(Full adjudication → `outbox/2026-07-16_to-PROME_rearm-adjudication.md`.)_
 
-**🟠 Last Updated (prior):** 2026-07-15 Wed (EIA wk-7/10 pull — scheduled Wednesday run). **⚡ ENERGY TAIL RE-ARMED + CUSHING BACK ABOVE 20M (week 1 of 2).**
+**🔴 Last Updated:** 2026-07-22 Wed (EIA wk-7/17 pull — scheduled Wednesday run). **⚡ CUSHING BACK BELOW 20M (~19.37M) — ROUTING BOUNDARY #3 RE-ACTIVE. Prior: 2026-07-15 (CUSHING ABOVE 20M WK 1 OF 2; ENERGY TAIL RE-ARMED).**
 
 ---
 **[Jul-15 EIA wk-7/10 UPDATE]:** 🟢 **CUSHING +430K → 20.044M — FIRST CLOSE ABOVE 20M FLOOR SINCE JUN 12.** Crude −1.692M → 409.7M (drew after last week's surprise build). SPR −2.99M → **316.5M** (deeper 43yr low). Gasoline −1.664M → ~210.4M. Distillate +2.3M → ~105.9M. Gas pump $3.855/gal [CONF EIA Jul 14] — BELOW $4 threshold. Refinery util ~95–96% [EST]. Production ~13.86M bpd [EST]. Routing Boundary #3 EASING: **need 1 more consecutive week above 20M** (wk-7/17, released Jul 22) to fully rescind. ⚠️ This data ends Jul 10 — BEFORE Hormuz formal closure Jul 11-12 + Brent re-arm $78.85 Jul 13. Pre-escalation snapshot. See `data/eia_2026-07-15.md`.
@@ -20,24 +22,28 @@
 
 ---
 
-## 🟡 ACTIVE ALERTS — Jul 15 EIA (Week Ending Jul 10, 2026)
+## 🔴 ACTIVE ALERTS — Jul 22 EIA (Week Ending Jul 17, 2026)
 
-**🟢 ALERT #1: CUSHING EASING — WEEK 1 OF 2 ABOVE 20M FLOOR**
-Cushing **~20.044M bbl (+430K WoW)** [CONF investing.com Jul 15] — **FIRST CLOSE ABOVE 20M OPERATIONAL FLOOR SINCE JUN 12.** Pattern: −1.077M (Jun 19 breach) → +0.714M (Jun 26) → −0.052M (Jul 3) → **+0.430M (Jul 10)** — floor recovered. WTI dislocation risk SUBSTANTIALLY REDUCED. Routing Boundary #3 remains technically active for 1 more week.
-→ **Need 1 more consecutive close above 20M (wk-7/17, EIA Jul 22)** to fully rescind routing to LIQUID / HENRY / RED.
-→ ⚠️ Watch: Hormuz re-escalation (Jul 11-12 formal closure) may pressure Cushing NEXT week. Margin above floor is thin (+44K bbl only).
+**🔴 ALERT #1: CUSHING BACK BELOW 20M — ROUTING BOUNDARY #3 RE-ACTIVE**
+Cushing **~19.37M bbl (−674K WoW)** [CONF Investing.com Jul 22] — **FELL BELOW 20M OPERATIONAL FLOOR AGAIN; 2-of-2 ABOVE 20M CONDITION FAILED.** Trajectory: 18.957M (Jun 24 breach) → 19.619M (Jul 3) → **+430K → 20.044M (Jul 10, Week 1 of 2)** → **−674K → ~19.37M (Jul 17, FAILED WEEK 2)**.
+→ Routing Boundary #3 was NEVER rescinded — remains ACTIVE. Route: **LIQUID** (WTI dislocation), **HENRY** (inflation-pipeline), **RED** (systematic risk).
+→ With Brent at $88-92 and Hormuz formal closure persisting, Cushing draw likely continues.
+→ Next critical read: wk-7/24 EIA (Jul 29).
 
-**🟢 ALERT #2: CRUDE DRAW >5M/WEEK — CLEARED**
-Commercial crude **−1.692M → 409.7M bbl** [CONF investing.com Jul 15]. Manageable draw (well below 5M/wk threshold); confirms supply normalization not reversed in the wk-7/10 data. Alert cleared.
+**🟡 ALERT #2: CRUDE BUILD (+2.010M) — IMPORT-DRIVEN, DEMAND READ UNCERTAIN**
+Commercial crude **+2.010M → ~411.7M bbl** [CONF Investing.com Jul 22; vs −2.0M consensus — MASSIVE MISS]. Build driven by net crude import surge **+485K bpd WoW** [CONF TradingEconomics Jul 22]. This is NOT a demand destruction signal on crude; it reflects import routing dynamics. Draw threshold (>5M/wk) NOT triggered this week.
 
-**📉 SPR — 43-YEAR HISTORIC LOW, DEEPENING (MONITOR)**
-SPR **316.5M bbl (−2.99M WoW)** [CONF multiple sources Jul 15] — deepened below 319.5M Jul 8 low. LOWEST SINCE APRIL 1983. Draw pace decelerated from −6.2M to −2.99M — possible throttling or reporting variation. At −3M/wk → §6241 floor 252.4M in ~21 weeks; at prior −6M/wk pace → ~10-11 weeks. Monitor whether -2.99M represents genuine throttling.
+**🔴 ALERT #3: GASOLINE STOCKS BUILD — DEMAND-SOFT SIGNAL**
+Gasoline stocks **+765K → ~210.8M bbl** [CONF TradingEconomics Jul 22; vs −1.54M expected — major miss]. Stock build concurrent with pump price re-crossing $4.001 = early demand softening signal. Product supplied (actual demand proxy) YoY NOT YET INDEXED — check WGFUPUS2 when EIA publishes full tables. Prior confirmed read: ~−1.06% YoY wk-7/10.
+
+**📉 SPR — DEEPENING BELOW 43-YEAR LOW (MONITOR)**
+SPR **~311.4M bbl (est. −5.1M WoW)** [EST; OilPrice.com Jul 22; source conflict — "316.5M total" cited in one source appears erroneous (prior week was already 316.5M); −5.1M draw → ~311.4M is best estimate]. If confirmed, NEW historic low (below November 1981 level). At −5M/wk → §6241 floor 252.4M in ~12 weeks. Verify against EIA table when indexed.
 
 **✅ TRIGGER #2 / BRT-08 — RESOLVED Jul 1. Path B SUPERSEDED by Path A.**
-Peak: −2.58% YoY (wk-6/26). Never reached −5%. Window closed Jun-30. Gas pump now $3.855/gal [CONF EIA Jul 14] — BELOW $4 threshold. Demand destruction signal has substantially faded.
+Peak: −2.58% YoY (wk-6/26). Never reached −5%. Window closed Jun-30. Pump now $4.001 [CONF FRED Jul 20] — DEMAND DESTRUCTION WINDOW POTENTIALLY REOPENING with Brent re-arm regime + pump re-crossing $4. First post-closure demand read (wk-7/17) shows demand-soft signal in stocks; product supplied YoY PENDING.
 
-**⚠️ RE-ESCALATION WATCH (forward, post-cutoff):**
-Hormuz formal closure Jul 11-12 + Brent re-arm $78.85 Jul 13 occurred AFTER wk-7/10 EIA cutoff. If Brent sustains above $75, pump prices may approach $4 again in 2-4 weeks → demand destruction window could REOPEN. Next critical read: wk-7/17 EIA (Jul 22).
+**⚠️ DEMAND DESTRUCTION RE-OPENING WATCH:**
+Pump crossed $4.001 Jul 21 [CONF FRED Jul 20]; Brent $88-92 Jul 17-21 (FAL-02 $85×3 fired). Pass-through lag 2-4 weeks → pump stays $4+ through Aug. If pump sustained, next EIA demand reads (Aug) may show −2% to −4% YoY. Watch especially: wk-7/24 (Jul 29), wk-7/31 (Aug 5).
 
 ---
 
@@ -187,6 +193,8 @@ Record each week's key readings here. Update Wednesday (post-EIA) and Friday (po
 | **Jul 17** | ~$3.85–3.95 [EST; Brent re-arm $78.85 Jul 13 may press pump +2-4 wks; last CONF $3.855 EIA Jul 14] | PENDING (EIA wk-7/17, release Jul 22 — **first post-Hormuz-closure demand read; critical**) | ~$4–6 [EST; re-arming from contango; BH Friday] | **64,041 [CONF CFTC Jul 10; Jul-7 positions]**; Jul-14 PENDING (today 3:30pm ET — if <64K while Brent $78.85 rising = Trigger #3 Week 1; BUT expected reversal upward on Hormuz spike) | — | ~100.93 [EST per Jul 13] | 🔴 **452 oil [CONF BH Jul 17] (+7 WoW; Permian +3; total 588; 5 FROM 457 SHALE THRESHOLD)** | 🔴 **SHALE THRESHOLD IMMINENT: 452 oil rigs; 457 = +50 from 407 trough; breach likely ~Jul 24.** +7 WoW all oil-directed; Permian +3. Bearish medium-term supply signal. **COT: Jul 7 = 64,041 (−17,241); Saxo notes mild distribution (WTI +4.1% wk while MM cut); BUT WTI +9.4% spike pre-Jul-14 cutoff likely drives sharp reversal in today's 3:30pm release → Trigger #3 clock RESETS (not advances).** Airlines: Virgin Atlantic Jul 15 (5 routes, −14% US, −17% India); Aer Lingus Jul 16 (4 routes cancelled, 500 jobs, 6% capacity, EXPLICITLY Iran-war fuel cited); British Airways ME suspended →Oct 25; Air Astana UAE suspended Jul 13. No new US bankruptcies. See `data/friday_2026-07-17.md` |
 
 | **Jul 20** (Mon) | ~$3.94–4.00 [EST; AAA Jul 16 CONF $3.94; De Haan $4 re-crossing window ACTIVE today per Jul 13 forecast; next CONF EIA Jul 22] | **PENDING** (EIA wk-7/17, Jul 22 — **CRITICAL first post-Hormuz-closure demand read**; pump re-crossing $4 threshold expected this week) | ⚠️ **~+$3.5–4.5 [EST] — IN $5 ALERT ZONE; WIDENING** (M1-M6 CONF +$8.92 Jul 15 [TradingPedia]; contango→backwardation COMPLETE; Phase 1 re-squeeze reasserting, NOT Phase 2 approach; CONF M1-M3 at ICE open) | **~61,974 [CONF CFTC Jul 17; Jul-14 positions]** (L:181,161 / S:119,187; Δ −2,067 net; longs −11,952 > shorts covered −9,885 = de-grossing not clean cover; ICE-WTI DIVERGES +8,531 short; STATUS verdict: SQUEEZE IGNITING, partial) | — | **~100.7 [CONF Jul 18]** (4-wk DECLINING: 101.33 Jun-29 → 100.93 Jul-13 → ~100.7 Jul-18; −0.63 pts) | **452 oil [CONF BH Jul 17]; next BH Jul 24 — SHALE THRESHOLD BREACH EXPECTED (+5 from 457)** | 🔴 **BRENT $87.76 [CONF TradingEcon Jul-20 live] / $87.71 Jul-17 settle [CONF STATUS] — FIRST >$85 SETTLE CYCLE.** FAL-02 SESSION 2 PENDING (session 1=Jul 17 ✅, session 2=Jul 18 [EST ✅ ~$87-88 "one-month high"], session 3=Jul 21 Mon = earliest fire). WTI $82.49 [CONF Jul-18]; Brent-WTI ~$5.50. USO $119.30 [CONF Jul-18 close]. LNG ~$259 [CONF Jul-16; $248 alt source conflict]. EOG ~$141 [EST Jul-17]. Weekend: Araghchi in Muscat Jul-19 — NO breakthrough (toll sticking point); Iran hits Kuwait power/water ×2 (Jul 18-19, NOT oil); IRGC "2 tankers blown up" = CENTCOM-DENIED FALSE; UKMTO fire off Oman Jul-20 (cause unclear, no sinking); US strikes on Iran water infra (NOT oil). P&I NOT resumed ($3M–10M/hull). FAL-01 STILL UNFIRED. See `data/monday_2026-07-20.md` |
+
+| **Jul 17 (wk end)** | **$4.001** [CONF FRED Jul 20; pump re-crossed $4.00 Jul 21] | **PENDING** [gas stocks +765K vs −1.54M exp = demand-soft proxy; WGFUPUS2 not indexed at run time; last CONF ~−1.06% wk-7/10 est] | ~$4–6 [EST; re-arming; Brent $88-92 Jul 17-21; FAL-02 $85×3 fired] | ~61,974 [CONF CFTC Jul 17; Jul-14 positions]; Jul-21 PENDING | PENDING | ~100.7 [EST Jul 18] | 🔴 **452 [CONF BH Jul 17]; next BH Jul 24 — SHALE THRESHOLD 457 BREACH EXPECTED** | 🔴 **EIA Jul 22 (wk-7/17):** 🚨 **CUSHING −674K → ~19.37M — BACK BELOW 20M: ROUTING BOUNDARY #3 ACTIVE → LIQUID/HENRY/RED** (2-of-2 FAILED; prior wk 20.044M was week 1 only). CRUDE BUILD **+2.010M → ~411.7M** [CONF; vs −2.0M expected MASSIVE MISS; import-driven +485K bpd net imports WoW]. Gas stocks **+765K → ~210.8M** [CONF; vs −1.54M exp; demand-soft; pump $4.001]. Distillate +1.4–1.8M [CONF range; 2nd consecutive build]. SPR ~311.4M [EST; −5.1M; source conflict]. Util ~96.2% [EST]. Prod ~13.86M bpd [EST]. See `data/eia_2026-07-22.md`. |
 
 ---
 
