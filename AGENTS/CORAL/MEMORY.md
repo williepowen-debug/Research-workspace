@@ -21,7 +21,7 @@
 
 - Parent hub: `../REGINALD/STATUS.md` (convergence matrix, bank watchlist), `../REGINALD/SUB_AGENTS.md` (legacy sub-agent coordination doc)
 - FL population-driven twin: `../MARCO/STATUS.md` ("Florida Triple Exposure" block)
-- Spinout record: `archive/CORAL_SPINOUT_2026-06-19.md`
+- Spinout record: LOST (dead pointer confirmed 7/9 — see CLAUDE.md History note); no file to cite
 - SSB thesis: `research/SSB_THESIS.md`
 
 ---
@@ -39,25 +39,19 @@
 | 2026-06-20 | **Bankruptcy rank resolved: true but population-inflated.** WALTER SIG-008/AOUSC packet confirms M.D. Fla #2 and S.D. Fla #6 by volume (12mo ended 2026-03-31), but FL per-capita filing rate (~190/100k) is only modestly above national (~168-173) and far below bankruptcy-belt states. The real signal is +22.2% YoY, consumer-led acceleration; tripwire = Ch.7/capita >~230/100k. |
 | 2026-06-20 | **Insurance framing corrected to split read.** Personal/reinsurance easing remains true, but Citizens Commercial Lines +10.4% capped vs +18.8% uncapped means the condo-association/master-policy layer is still a live cost amplifier. Never summarize FL insurance as simply “easing” without layer. |
 | 2026-06-20 | **Thesis rails installed at `thesis/THESIS.md` + `thesis/CHANGELOG.md`.** Durable CORAL rule: household/condo stress is confirmed, but bank-loss transmission upgrades only on bank evidence — synchronized deterioration across ≥2 FL-exposed banks or explicit USCB condo-association loan deterioration with corroborating consumer/collateral data. |
+| 2026-07-21 | **Citizens policy-count scope trap (self-caught):** Citizens' book is ~98% personal, so a TOTAL mislabeled "personal-lines" survives every magnitude sanity check. The primary policies-in-force detail reports split personal/commercial — always pull those, never press paraphrases, for the count. Canonical vintage now Jun-30-26: 278,246 / 273,684 / 4,562. Full rule → LESSONS. |
+| 2026-07-21 | **`scripts/boot.py` price rail needs the repo venv** — fetch.py imports yfinance which lives in `.venv/`, not system python; boot.py now auto-selects `.venv/bin/python3`. If prices fail at boot again, check interpreter first. |
+| 2026-07-21 | **NHC product hierarchy:** the Tropical Weather Outlook (MIATWOAT) omits track/intensity — a named storm's disposition MUST come from the public advisory (MIATCPAT#). The outlook-based read on TS Bertha was materially wrong (45kt/no-track vs advisory 60mph/W-away-from-FL). Full rule → LESSONS. |
+| 2026-07-21 | **Parcl MSI granularity:** the public motivated-sellers map is METRO-level all-seller MSI; the builder-specific cells (DRH/Toll/Pulte/Century) that seeded the tripwire come from a different Parcl product surfaced via WALTER/press. Don't silently swap granularities when grading the tripwire — document the basis. |
 
 ## Session Notes
 
-⚠️ **Open question:** At Q2 2026 FL bank earnings (~late Jul), does the rate-shock classified CRE (esp. SSB's $2.5B, SBCF's 2 commercial credits) migrate to nonaccrual/charge-off, or cure? That single question decides whether the bank-loss leg ever arrives.
+⚠️ **Open question (unchanged, THE decision point):** At Q2 2026 FL bank earnings — now dated: BKU 7/22, VLY/SSB/AMTB/USCB 7/23 (gate day), SBCF 7/28 — does rate-shock classified CRE migrate to nonaccrual/charge-off, or cure? Pre-registered specs frozen in `workbook/FL_Forward_Log.md` + `FL_BANK_WATCHLIST.md`; grade as-written.
 
-**CHANGES SINCE:** WALTER inbox consumed 2026-06-20; thesis rails installed 2026-06-20; pending WALTER files now 0; legacy REGINALD BayFirst SBA signal remains out of scope.
+**CHANGES SINCE:** 7/21 EVE full live refresh (Will-directed) — all 10 pillars re-pulled; Citizens scope self-correction issued fleet-wide; Parcl MSI tripwire ARMED (sustain check ≥7/22); STATUS compacted 229→177 w/ archive. Prior: 7/21 AM employment pre-reg grade (benign branch); 7/17 ATTOM H1 + HOMER one-figure lock; 7/9 double catch-up.
 
-**LAST SESSION (2026-06-19 — promotion + data refresh + comprehensive build-out, 3 phases):**
-- **Phase 1 — Promotion:** CORAL → top-level peer agent (`AGENTS/CORAL/`), git mv + peer infra, parent refs updated.
-- **Phase 2 — Data refresh:** live pull + verification. STATUS 🔴→🟠 (thesis-split), `research/REFRESH_2026-06-19.md`, KB ML-CORAL-008..013, sargassum overlay (ML-014).
-- **Phase 3 — Comprehensive scope (Will: "Florida fully fleshed out, MARCO overlap fine"):** broadened to **10-pillar whole-Florida mandate** (CLAUDE.md rewrite + `COVERAGE.md`). Ran a 5-agent research sweep → `research/SWEEP_2026-06-19.md` (migration, tourism, state-fiscal, labor/CRE, single-family + expanded banks). New: `FL_BANK_WATCHLIST.md` (AMTB/BAFN/USCB added), KB ML-CORAL-015..020, STATUS "WHOLE-FLORIDA PILLARS" section.
-- **Key new findings:** demand engine failing (migration −93% + natural change negative + Canadian −12%); **property-tax amendment on Nov-3-2026 ballot** (two-sided); insurance easing decisively; SF correction Gulf-Coast-concentrated; banks not breaking (USCB = condo canary, AMTB ACL gap). Condo legislation resolved (HB913 relief valves).
-- Live levels: KRE $71.61 (6/18), SSB ~$93 (6/17), BKU $46.88 (6/17), VLY ~$14.34 (6/11). *(No venv/yfinance in cloud — prices via web.)*
+**LAST SESSION (2026-07-21 EVE):** see `SCRATCH.md` (canonical handoff — boot intake ×6, 4 research lanes, 14 surfaces refreshed, commits `7b47aca5`/`6e803162`+closeout).
 
-**NEXT SESSION:**
-1. **Per-metro convergence grid** — pull pillars 2/3/4/7/8 into a Miami/Tampa/Orlando/Jax/SW-FL grid and add negative-equity/bankruptcy overlap (SW-FL Gulf Coast is the clearest cluster). The headline build-out item.
-2. **Q2 2026 FL bank earnings (~late Jul)** — bank-leg re-test (see Open question): SSB classified, SBCF 2 credits, VLY criticized, AMTB ACL coverage, USCB condo-assoc book.
-3. **Give pillars 7/8/9 their own VX vectors** (currently in KB + SWEEP only).
-4. **Send the cross-agent signals** — REGINALD (FL banks stable, watchlist expanded, SSB retired), MARCO (tourism/migration convergence — already sent sargassum), CARL (assessment + insurance cost burden driving out-migration).
-5. **Nov 3 2026** — property-tax amendment vote (pillar 9) outcome + reaction.
+**NEXT SESSION:** graded prints week — 7/22 BKU + MSI sustain check; 7/23 gate-day cluster; 7/28-29 SBCF/Ocala/Amendment-3 hearing. Then: CCBG primary re-pull, HO-premium level reconcile.
 
-**Mail state:** WALTER inbox 0 pending after 2026-06-20 consumption pass. Legacy inbox: 1 pending stale REGINALD BayFirst SBA exit (2026-03-04), unprocessed/out of scope. Outbox: no new acute handoff; use NEXUS_BRIEF cross-domain.
+**Mail state:** root inbox 0; WALTER lane 0 (drained 7/21); outbox 2 delivered (MARCO/AEOLUS corrections).

@@ -1,57 +1,47 @@
-# CORAL SCRATCH — 2026-07-21 (FL State Employment June pre-reg grade, PROME-spawned rail-2)
-
-**THIS SESSION (7/21):** Graded my two pre-registered rows on the June FL employment print, mechanically, at printed precision. **BOTH → benign/divergence branch (BASE CASE):** (i) FL UR ≥4.9%? **FALSIFIED — June 4.7% SA, −0.1pp MoM, first decline since 2024** (BLS LAUS `laus.nr0.htm`, polled+captured 10:02 AM; co-primary FloridaCommerce 7/17). (ii) metro overlap Jax/Ocala? **Does not trigger** — Jax MSA 4.8% NSA ↑0.1 but labor-force/seasonal not job-loss; Ocala June pending BLS 7/29. → cost-stack/neg-equity driver **confirmed as CORAL's**, bank-NCO timeline slow (~2027), **NO LABOR cross-flag, NO rail move** (bank-transmission rail unchanged — employment print can't move it). UNGRADED: labor leg mildly softened (+11,100 jobs MoM, UR first decline since 2024) — flagged, not a rail move. Delivered: `outbox/2026-07-21_to-PROME_...md` + STATUS 7/21 block + Forward_Log 7/21 row (✅ GRADED) + KB ML-CORAL-030 + pillar-labor row updated. Did NOT edit LABOR's files. **NEXT: leisure/hospitality adding jobs → MARCO tourism reconcile next cycle (not a conflict).**
-
-**Open threads carried from 7/17 (unchanged):** WALTER-lane backlog 5 items (`inbox/WALTER/`: SIG-W-20260709-010/011/012, 20260710-006, 20260717-006) — process next normal session; Citizens depopulation scope (294,253 personal-lines vs AEOLUS ~395K) needs primary pull; Parcl MSI >6.0 tripwire live-check overdue; Q2 FL bank earnings (~7/21-28) = the live bank-rail re-test; Ocala/Jax grid data gaps.
-
----
-
-# CORAL SCRATCH — 2026-07-17 (ATTOM H1-2026 foreclosure route, PROME-spawned, teams-mode w/ HOMER live)
+# CORAL SCRATCH — 2026-07-21 EVE (FULL LIVE REFRESH, Will-directed)
 
 **Purpose:** Canonical ephemeral session handoff. Read at boot; rewrite at closeout. Durable findings → `MEMORY.md`/workbook; live state → `STATUS.md`.
 
 ---
 
-## CHANGES SINCE LAST SESSION
+## CHANGES SINCE LAST SESSION (7/21 morning pre-reg grade)
 
-Will-directed route from today's RESEARCH-INTAKE lane run: pull the ATTOM H1-2026 foreclosure primary, verify press claims, place in per-metro grid, run the bank-rail check, reconcile ONE figure with HOMER (live in parallel), pre-register the 7/21 joint read, and dispose the MARCO angle. **No thesis-level change, no rail move.** Material outputs:
+Will directed: "get all of CORAL's files updated to current/live information." Ran 4 parallel research lanes (housing/banks/insurance/context) + live price pull + primary verifications, then refreshed every CORAL surface. **No thesis-level change (split holds, widened); one tripwire ARMED; one self-correction issued fleet-wide.** STATUS commit `6e803162`.
 
-- **ATTOM H1-2026 primary VERIFIED** (`sources/ATTOM_H1_2026_foreclosure.md`) — all 4 press claims true, 2 nuanced. FL #1 state rate **0.27% (1 in 373 HU), 27,494 properties** — but +0.01pp over SC (Southeast cluster). FL holds nation's **#1 (Punta Gorda 0.50%) + #2 (Lakeland 0.48%)** metros; Cape Coral 0.35%; **Jax 0.31% + Ocala 0.31% NEW** (Tampa/Orlando rotated out). National 227,548 +21%; starts 164,566 +18%; REO 27,983 +33%.
-- **Per-metro convergence grid BUILT** (`GRID_PER_METRO.md`) — the multi-session open build item, now closed. Verdict 🟠 holds: core SW/Central Gulf Coast hardened, FC channel broadened NE but no new multi-channel metro.
-- **Bank-rail = CONTEXT-ONLY** (does not move, does not arm) — collateral-side; the pre-registered bridge (FC broadening into SE-FL condo collateral) is NOT met (epicenter is SW-FL single-family/neg-equity, not condo-tower). Re-test = Q2 bank earnings ~7/21-28.
-- **KB row ML-CORAL-029** added; **STATUS** 7/17 block + refreshed FC dashboard rows (window-tagged) + grid pointer; **FL_Forward_Log** 7/17 (done) + 7/21 (pre-registered) rows; **NEXUS_BRIEF** 7/17 update + WATCH refresh.
-- **Two load-bearing nuances:** (1) WINDOW — "1 in 373" H1-cumulative ≠ "1 in 2,110" May-monthly (consistent, no step-change); (2) RANK — FL rose #3(Q1)→#1(H1) = the real relative-deterioration signal.
+**The five material moves:**
+1. **Citizens scope RESOLVED w/ primary — my own label was wrong.** "294,253 personal-lines" was a mislabeled mid-May TOTAL. Canonical: **278,246 total / 273,684 personal / 4,562 commercial, Jun 30 2026.** Corrections delivered → AEOLUS + MARCO inboxes (committed, per 7/17 precedent). LESSONS rule added (scope-label verification). Rate cut eff 7/1 not 6/1.
+2. **Parcl MSI tripwire ARMED** (overdue live-check done): 5 metros >6.0 on 7/8 snapshot; sustain leg unconfirmed; granularity swap (metro vs builder) documented. **Fire condition: fresh pull ≥7/22 still shows ≥5 >6.0 → 🟠→🔴 supply-side leg.**
+3. **FL Realtors June:** condo $305K +1.7% YoY FLIP, 8.1mo (3rd straight tightening), sales +14%; SF $432K +4.9%, 4.5mo. Blended improving vs vintage $313/sf −9% + ZHVI first cycle low ($392,443, −3.0%) — bifurcation is the read.
+4. **Q2 bank map IR-confirmed:** BKU 7/22 BMO → **7/23 = VLY/SSB/AMTB/USCB cluster (GATE DAY)** → SBCF 7/28 AMC. CCBG benign anti-datum stands alone; sync count 0-of-≥2; USCB new CCO Garrido first print; prices flat into prints.
+5. **TS Bertha:** verified vs NHC adv 10A myself — 60mph, moving W toward MS/LA, weakening, **no FL landfall expected** (research agent's outlook-based read was wrong on intensity/track; advisory > outlook, LESSONS rule added). Sargassum 38M = record band crossed. Amendment 3 = framing-dependent (UNF 61/32 vs 45/47), lawsuit hearing 7/29. Biscayne 21 ruling FINAL + new economic-waste suit. GSE full-review eff 8/3.
 
 ## WHAT I DID THIS SESSION
 
-- Boot chain (date, CLAUDE.md, THESIS, STATUS, SCRATCH, inbox). Web tools loaded via ToolSearch.
-- Pulled ATTOM primary (2 fetches: PRNewswire 302827085 + attomdata.com) — got both metro lists (≥200K H1, ≥500K Q2).
-- Wrote primary extract, built grid, added KB row, updated STATUS/forward-log/NEXUS_BRIEF, wrote MARCO note, wrote PROME outbox memo.
-- **SendMessage HOMER ×2:** (1) foreclosure ONE-figure proposal; (2) condo-index + inventory-label reconcile confirm (closes the DAEDALUS 7/12 + PROME-routing 7/12 condo asks).
-- **Drained root inbox** (6 items → processed): today's ATTOM tasking, LAB-04 rehome (PROME) + handover detail (LABOR), DAEDALUS homer-condo-reconcile, PROME ratify-lane, PROME_ROUTING condo package.
-- **LAB-04 registered as CRL-FCL** (LABOR numbering retires); the ATTOM H1 print = first CRL-FCL datum. Employment-signature cross-flag rule baked into 7/21 pre-reg.
+- Boot per protocol (git sync clean; WALTER lane ×6 drained at boot, commit `7b47aca5` — ZHVI cycle-low acted, ATTOM-reconcile already-done, 4 noted/info).
+- Fixed `scripts/boot.py` price rail (venv interpreter — yfinance lives in `.venv`, not system python).
+- Spawned 4 web-research agents (housing/banks/insurance/context); integrated all 4; spot-verified the load-bearing Bertha claim against the NHC advisory (caught the outlook-vs-advisory gap).
+- **Files refreshed:** STATUS (rewritten sections + compacted 229→177; old blocks → `workbook/STATUS_archive_20260721.md`), CALENDAR (full rewrite, dated catalysts), COVERAGE (full rewrite, all-pillar as-ofs), VX_Vectors (foreclosure/insurance/sargassum/blacklist current; bank deep-dives FROZEN-pointered), FLOW (Biscayne-21 legal state + GSE full-review pathway notes), FL_Forward_Log (H1 archive + Jul rows), FL_BANK_WATCHLIST (cluster dates + Citizens token sweep), CLUSTER_FL_BANK_LEG + OPEN_THREADS (stale-token sweep), LESSONS (+2 rules), DATA_SOURCES (+4 source rows), NEXUS_BRIEF, KB ML-CORAL-032..041, board_log +6.
+- Commits: `7b47aca5` (boot intake) + `6e803162` (main refresh) + closeout commit (this trio). Safe-push at end.
 
-## NEXT SESSION
+## NEXT SESSION (mechanical, in order)
 
-1. ✅ **HOMER foreclosure figure LOCKED** — CORAL↔HOMER CONFIRMED 7/17. Both agents independently pulled the primary and converged on the IDENTICAL figure (0.27%/1-in-373/#1/27,494/ATTOM Mid-Year 2026) — zero divergence. Adopted his sharper trajectory read (flow-growth decelerating / conversion accelerating). Condo-inventory reconcile also CLOSED (he relabeled 12.9mo → Miami-Dade). *Nothing to do next session — done.*
-2. **7/21 (Tue) — grade the joint read MECHANICALLY** (FL State Employment June + ATTOM H1): FL UR ≥4.9%? metro-UR overlap w/ Jax/Ocala? Spec in `FL_Forward_Log.md`. Same day: OZK/WAL/ALLY triple + China LPR.
-3. **Q2 FL bank earnings (~7/21-28)** — the bank-transmission gate re-test (unchanged). Spec → `CLUSTER_FL_BANK_LEG.md`.
-4. **Fill grid data gaps:** Ocala (near-total gap, new FC entrant), Jacksonville (is the FC rise MF/labor/insurance-driven?), Punta Gorda metro-discrete neg-equity/condo.
-5. **WALTER-lane backlog: 5 items pending** (`inbox/WALTER/`: SIG-W-20260709-010/011/012, 20260710-006, 20260717-006) — NOT processed this session (narrow one-off, per boot rule #8). 7/17-006 = pending home sales −5.4% MoM June (national, INFO→CORAL; does NOT resolve FL — already absorbed as context). Process on next normal session.
-6. **Citizens depopulation scope** (294,253 personal-lines vs AEOLUS ~395K) — still open from 7/9, needs primary pull.
+1. **7/22: BKU Q2 grade** (4-axis read-shape in FL_BANK_WATCHLIST — grade as-written) + **Parcl MSI sustain check** (≥5 metros >6.0 → FIRE the 🟠→🔴 supply-side upgrade).
+2. **7/23: gate-day cluster grade** — VLY/SSB/AMTB/USCB per pre-registered spec (`FL_Forward_Log.md` + `CLUSTER_FL_BANK_LEG.md`). USCB condo-assoc book = the purest read.
+3. **7/28-29:** SBCF grade (nonaccrual 3rd-rise tell) · Ocala June UR (BLS 7/29) · Amendment-3 hearing outcome (framing → P(pass)).
+4. **Bertha:** confirm dissipation/no-FL-landfall; if track shifted E and it made FL landfall, the as-written 🔴 flip fires (annotate severity separately).
+5. Housekeeping when idle: CCBG ex99.1 re-pull via EDGAR headers (press-rendered figures currently); HO-premium level reconcile (3 divergent figures flagged in VX); MEMORY References section still lists dead spinout-record path.
 
 ## OPEN THREADS
 
-- ✅ **HOMER foreclosure figure: LOCKED** (CORAL↔HOMER CONFIRMED 7/17, independent convergence, identical figure). ONE figure = 0.27%/1-in-373/#1/27,494/ATTOM Mid-Year 2026.
-- ✅ **HOMER condo reconcile: CLOSED** — statewide price −6.1%/inventory 8.9mo = CORAL; county medians + FC pipeline = HOMER; 12.9mo = Miami-Dade (he relabeled all 3 surfaces).
-- **Bank-transmission gate:** unchanged, NOT met; foreclosure print is context-only. Q2 prints = live re-test.
-- **7/21 joint read:** pre-registered; base case (per LABOR's quiet-claims lean) = divergence branch (cost-stack driver = CORAL's, bank timeline slow). Joint-deterioration branch is the surprising/high-info outcome.
-- **RESEARCH-INTAKE lane query:** amended proposal sent to PROME (add "Florida foreclosure" OR "Florida property tax").
+- **Bank-transmission gate:** NOT met, 0-of-≥2; this week decides whether it stays that way. Pre-registrations frozen — do not re-fit.
+- **MSI tripwire:** ARMED (the one item that can move a leg to 🔴 tomorrow).
+- **HO premium level:** 3 divergent figures ($3,748 / $7.1K / $8,458) — OIR primary needed; trend (flattening) is agreed, level is not.
+- **Metro condo months-supply:** June metro breakout NOT FOUND — Apr figures stale-marked; check next FL Realtors detail or By The Sea refresh.
+- **Sep/Oct Citizens takeout dates:** not yet posted; check depop page ~Aug.
+- **RESEARCH-INTAKE lane query amendment** (add "Florida foreclosure"/"Florida property tax") — sent to PROME 7/17, no response logged.
 
 ## MAIL STATE
 
-- `inbox/` (root): **0 pending** — 6 items processed to `inbox/processed/` this session.
-- `inbox/WALTER/`: **5 pending** — NOT processed (narrow one-off; next normal session). See NEXT SESSION #5.
-- `outbox/`: 1 written — `2026-07-17_to-PROME_attom-h1-foreclosure-verified.md` (the deliverable memo). MARCO note written to `AGENTS/MARCO/inbox/`.
-- **SendMessage:** HOMER ×2 (foreclosure figure + condo reconcile); PROME summary = final closeout action.
-- **Pending push:** this session's commit + any prior local commits — auto-push at closeout via `scripts/safe-push.sh`.
+- `inbox/` (root): 0 pending. `inbox/WALTER/`: **0 pending** (6 drained at boot, logged in board_log, moved to processed).
+- `outbox/`: 2 delivered this session (MARCO + AEOLUS corrections — copies in `outbox/delivered/`, drops committed to their inboxes). Morning memo to PROME stands.
+- **Note:** SAM has uncommitted working-tree changes (live/parked session) — did NOT pull mid-session; boot pull was clean-tree. Safe-push sweeps committed work only.

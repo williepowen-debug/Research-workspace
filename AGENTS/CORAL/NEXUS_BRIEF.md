@@ -1,10 +1,23 @@
 # CORAL — NEXUS Brief
 
-**Status:** 🟠 ELEVATED — FL household/condo stress real; bank-loss transmission not yet in prints. **7/21: FL June UR 4.7% (first decline since 2024) → labor leg mildly softened; employment-driven-default branch OFF, bank timeline stays slow ~2027.**
+**Status:** 🟠 ELEVATED — thesis split holds and WIDENED 7/21: blended statewide thermometers improved (condo +1.7% YoY flip, 8.1mo; UR 4.7% first decline since 2024; CCBG benign) while concentrated-distress legs stay red/armed (FL #1 H1 foreclosure; vintage $313/sf −9%; **Parcl MSI tripwire ARMED**; ZHVI first cycle low). Bank-loss transmission not in prints; Q2 window LIVE this week.
 **Domain:** Whole-Florida stress surface — condo/SF/CRE real estate, insurance, FL banks, migration/tourism, state fiscal/property-tax, labor/construction, coastal/climate
 **Thesis version:** Coral Bleaching v1.0 — installed rails at `thesis/THESIS.md`; changelog `thesis/CHANGELOG.md`
-**As of:** 2026-07-21 ~10:05 ET | STATUS commit: ce89319f (7/21 FL-employment June pre-reg grade). Prior: 7/17 ATTOM H1 route. See 7/21 + 7/17 UPDATEs below.
+**As of:** 2026-07-21 ~23:15 ET | STATUS commit: 6e803162 (7/21 EVE full live refresh — all 10 pillars re-pulled, Will-directed). Prior same-day: FL-employment pre-reg grade (~10:05). See 7/21 EVE + 7/21 + 7/17 UPDATEs below.
 **Cluster:** FL regional-bank CRE/condo leg of the transmission-terminus cluster (REGINALD hub, CARL consumer). Leg grid → `CLUSTER_FL_BANK_LEG.md`.
+
+---
+
+## 7/21 EVE UPDATE (FULL LIVE REFRESH — no thesis-level change; one tripwire ARMED, one cross-agent correction issued)
+
+Will-directed full re-pull of all 10 pillars (4 research lanes + primaries + live prices). What other agents need:
+
+1. **Citizens correction (AEOLUS + MARCO actioned):** canonical = **278,246 total PIF Jun-30-26 (273,684 personal / 4,562 commercial)**, Citizens primary. CORAL's old "294,253 personal" was a mislabeled TOTAL; AEOLUS's ~395K was the stale Jan-31 total. The 7/9 scope question is CLOSED. Personal rate cut eff **7/1** (−8.8% multiperil / −5.5% wind); Citizens own reinsurance −29.2% YoY; next takeout round 8/18.
+2. **Parcl MSI tripwire ARMED, not fired:** 5 FL metros >6.0 (Tampa/Punta Gorda 6.9, North Port 6.45, Cape Coral 6.12, Lakeland 6.09) on the 7/8 snapshot — breadth met, sustain (2 wks) unconfirmed, metro-level basis documented. Fresh pull ≥7/22: still ≥5 → fire 🟠→🔴 supply-side price-discovery leg.
+3. **Housing split widened:** FL Realtors June blended IMPROVED (condo $305K +1.7% YoY flip, 8.1mo 3rd-straight tightening; SF $432K +4.9%) vs distress legs unchanged (ZHVI $392,443 first cycle low −3.0%; vintage $313/sf −9%). Read: correction concentrating (SW-FL SF + SE-FL vintage condo), not ending.
+4. **Q2 bank week (REGINALD-relevant):** BKU 7/22 BMO → **7/23 = VLY/SSB/AMTB/USCB cluster (gate day)** → SBCF 7/28. CCBG 7/21 benign anti-datum (weak condo proxy — panhandle). Sync count 0-of-≥2; prices flat into prints (SSB $102.28, KRE $75.98).
+5. **TS Bertha:** NE Gulf, 60mph, tracking W toward MS/LA, weakening — **no FL landfall expected** (NHC adv 10A verified). Insurance flip trigger armed, unlikely to fire from Bertha. Sargassum ~38M MT July = record band crossed (2nd-order overlay).
+6. **Amendment 3 passage now FRAMING-DEPENDENT:** UNF 7/20 — 61/32 neutral vs **45/47 with budget disclosure**; ballot-language lawsuit hearing **7/29**. Biggest forward FL political variable sharpened. Biscayne 21: 100%-consent FINAL (cert denied); new "economic waste" termination suit = live legal variable. GSE limited-review elimination eff **8/3** tightens condo finance.
 
 ---
 
@@ -20,17 +33,11 @@ Primary-verified the ATTOM Mid-Year 2026 report (`sources/ATTOM_H1_2026_foreclos
 
 ---
 
-## 7/9 UPDATE (since 6/25 — content refresh, no thesis-level change)
-
-Two 7/9 catch-up passes (14-day CORAL gap): drained 8-item + 18-item inbox/WALTER backlogs. Material moves: **property-tax amendment now verified-CERTIFIED** (Amendment 3/HJR 1F, was a vague ballot-watch placeholder) with a new CRE/MF/business burden-shift headwind; **hurricane forecast corrected** (CSU cut to 9/4/1, fewest since 2014 — was carrying a stale 14/7/3); neg-equity refresh (Cape Coral 11.1%, Lakeland 10.8% new); FL migration divergence vs BofA-internal reconciled to MARCO's canonical +22,517 (no number change); Citizens/depopulation scope question opened vs AEOLUS (294,253 personal-lines vs ~395K unscoped — unresolved, not urgent). No bank-transmission gate change; fleet's energy/rates macro sequence filed as non-FL context. Full detail → `STATUS.md` 7/9 blocks.
-
----
-
 ## VIEW
 
 - **The thesis split is the point:** Florida real-estate stress is confirming at the household/condo level, but Q1 2026 FL bank prints did **not** confirm loss crystallization. Do not collapse “FL housing stress” into “FL banks breaking” until Q2 evidence arrives.
 - **Household/condo leg is live:** FL #1 foreclosure, REOs +108% YoY, condo prices −6.1% YoY, 92% of condo markets declining, reserve assessments live since 1/1/26, and ~18-20% of 2024-vintage financed FL buyers underwater.
-- **Insurance amplifier is split:** Citizens personal/reinsurance is easing, but the commercial/condo-association layer is still rising (+10.4% capped / +18.8% uncapped), so association cash-flow stress remains live; hurricane landfall is the reversal risk.
+- **Insurance amplifier is split (both legs primary-verified 7/21):** personal/reinsurance easing hard (Citizens 278,246 PIF; −8.8% eff 7/1; reinsurance −15/−30%), but the commercial/condo-association layer still rises (+10.4% capped; master policies now 25-35% of association budgets) — association cash-flow stress remains live; hurricane landfall is the reversal risk (Bertha: no FL track).
 - **Demand engine failing unevenly:** migration −93% from peak and Canadian snowbird/tourism softness stack especially on SW-FL Gulf Coast, while Orlando/overseas tourism offsets some statewide read.
 - **Biggest forward political variable:** Nov 3 2026 property-tax amendment — household relief if passed, but local fiscal hole / service-pressure if implemented.
 
@@ -71,8 +78,8 @@ Two 7/9 catch-up passes (14-day CORAL gap): drained 8-item + 18-item inbox/WALTE
 
 ## NEXT DECISION POINT
 
-- **What:** Prepare Q2 bank-leg retest using the new upstream canaries: negative equity, bankruptcy acceleration, and commercial/condo insurance cost pressure.
-- **When:** Before late-Jul Q2 FL-bank earnings.
+- **What:** GRADE the Q2 bank prints as pre-registered (specs in `workbook/FL_Forward_Log.md` + `FL_BANK_WATCHLIST.md` 4-axis read-shape) + run the MSI sustain check.
+- **When:** 7/22 (BKU + MSI) → 7/23 (gate day) → 7/28 (SBCF).
 - **What would change my view:** Synchronized Q2 bank NCO/NPL/classified migration + specific-reserve build across >1 FL bank would upgrade bank transmission; continued curing keeps CORAL at 🟠 thesis split.
 
 ---
@@ -82,11 +89,12 @@ Two 7/9 catch-up passes (14-day CORAL gap): drained 8-item + 18-item inbox/WALTE
 | Date | Event | Threshold / Signal |
 |------|-------|---------------------|
 | ✅ 7/17 | Per-metro convergence grid — BUILT (`GRID_PER_METRO.md`) | Core SW/Central Gulf Coast hardened (holds nation's #1/#2 FC metros); FC channel broadened NE (Jax/Ocala) but no new multi-channel metro |
-| **Tue 7/21** | **FL State Employment (June) — joint read w/ ATTOM H1 foreclosure** | **FL UR ≥4.9% (8th rise) + foreclosure breadth beyond SW-FL vintage metros = employment-driven signature → cross-flag LABOR + accelerate bank-NCO timeline. Else = cost-stack driver = CORAL's, timeline slow. LABOR already leans not-employment-driven.** Same day: OZK/WAL/ALLY + China LPR (separate rails) |
-| Late Jun / Jul | Fresh FL housing / foreclosure / bankruptcy updates | SW-FL convergence cluster acceleration; bankruptcy court rank validation |
-| Late Jul 2026 | Q2 FL bank earnings | SSB classified CRE migration, SBCF two credits, VLY criticized, AMTB ACL/NPL, USCB condo-assoc canary |
-| Hurricane season through Nov 30 | FL landfall risk | CSU now 9/4/1 (fewest since 2014); soft-market asymmetry (AEOLUS) — reverses insurance-easing channel if loss event hits |
-| Nov 3 2026 | FL property-tax Amendment 3/HJR 1F (CERTIFIED, verified primary 7/9) | Household relief vs CRE/MF burden-shift + muni-fiscal stress; poll 64%±3.8 vs 60% bar — tight |
+| ✅ Tue 7/21 | FL State Employment (June) joint read | GRADED — benign/divergence branch; UR 4.7% first decline since 2024; no LABOR cross-flag |
+| **Wed 7/22** | **BKU Q2 BMO + Parcl MSI sustain re-check** | BKU = 2nd sync leg (4-axis read-shape); MSI ≥5 metros still >6.0 → FIRE 🟠→🔴 supply-side leg |
+| **Thu 7/23** | **Q2 4-bank FL cluster: VLY BMO + SSB/AMTB/USCB AMC — THE GATE DAY** | First day the ≥2-bank synchronization bar could fire; USCB = purest condo-assoc read (new CCO's first print) |
+| **Tue 7/28 / Wed 7/29** | SBCF Q2 AMC / Ocala BLS + Amendment-3 lawsuit hearing | SBCF nonaccrual 3rd-rise tell; Ocala completes pre-reg residual; hearing moves P(pass) framing |
+| Hurricane season through Nov 30 | FL landfall risk — TS Bertha live (W toward MS/LA, weakening, no FL track) | CSU 9/4/1; soft-market asymmetry (AEOLUS) — reverses insurance-easing channel if loss event hits; sargassum 38M record band (2nd-order) |
+| Nov 3 2026 | FL property-tax Amendment 3/HJR 1F (CERTIFIED) | Passage FRAMING-DEPENDENT: UNF 61/32 neutral vs 45/47 w/ budget disclosure; 7/29 hearing = rewrite risk |
 
 ---
 
