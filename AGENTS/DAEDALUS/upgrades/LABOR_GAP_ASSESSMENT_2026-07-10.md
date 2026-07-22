@@ -1,5 +1,7 @@
 # LABOR — Gap Assessment (what it lacks / is missing), 2026-07-10
 
+> ✅ **CLOSED/SUPERSEDED 2026-07-22 (self-sweep fix-batch, Will-approved):** the ★ scoreboard was **BUILT+WIRED same-arc 7/10** (`workbook/PREDICTIONS_SCOREBOARD.md`, Brier-as-made 0.277, boot B4 + closeout C2) and ALL 4 owner-lane items resolved — in-file verified 7/22. No known LABOR substance gap remains. Current truth = FLEET_MAP row + `upgrades/PRODUCTION_REVIEW_2026-07-22.md`. States below are HISTORICAL.
+
 **By:** DAEDALUS · **Trigger:** Will-directed ("look for what LABOR might lack or be missing") while Will works LABOR live in another window.
 **Method:** Fresh read-verify of live surfaces (STATUS, CLAUDE, PREDICTIONS, workbook, inbox/outbox, git log) vs the 6/29 `profiles/LABOR.md` + `upgrades/LABOR_CARD.md`. PAT-029 (the read is load-bearing) — the card is 11 days stale and LABOR has booted ~5× since.
 **AUTHORITY — LABOR is LIVE right now → ZERO direct edits.** Everything below routes as a task-packet (owner-lane hygiene) or a Will-approved BUILD (the scoreboard). Nothing here is applied. Grade unchanged: **L4 (conf H).**

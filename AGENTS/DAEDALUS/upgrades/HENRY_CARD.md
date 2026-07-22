@@ -1,4 +1,6 @@
 # HENRY — Upgrade Card (graded vs BLUEPRINTS/market-agent.md)
+
+> ✅ **CLOSED/SUPERSEDED 2026-07-22 (self-sweep fix-batch, Will-approved):** the urged pre-7/14 full boot **HAPPENED** (7/10-17 arc): NEXUS_BRIEF unstuck 7/16, backlog drained, HEN-40 graded, PAT-040 likely resolved (boot.py owner-run + gamma_flip built). Remaining = §2 handle. Current truth = FLEET_MAP row + `upgrades/PRODUCTION_REVIEW_2026-07-22.md`. States below are HISTORICAL.
 **Graded:** 2026-07-10 (first read — oldest grade on the map, surveyed 6/27 pre-blueprint) · **L4 Conf-H** (L3→L4) · Profile: `profiles/HENRY.md` · **Sequenced for the catalyst stack: 7/14 CPI → 7/22 GOOGL → 7/29 MSFT/META (HEN-36 gates).** All owner-lane; DAEDALUS edits only on approval + idle.
 
 | § | Grade | Gap | Type | Fix |

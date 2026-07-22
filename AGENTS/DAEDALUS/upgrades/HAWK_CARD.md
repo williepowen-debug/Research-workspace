@@ -1,6 +1,6 @@
 # Upgrade Card — HAWK (read-only assessment, no agent files touched)
 
-> ⚠️ **SUPERSEDED 2026-07-12** — HAWK split (OSPREY Russia/Ukraine + FALCON Iran/Gulf; HAWK re-cut to cross-war synthesis + dormant book, `builds/OSPREY_FALCON_BUILD.md`). The Iran-core queue below now = FALCON's domain; fresh cards owed for HAWK-residual/OSPREY/FALCON at the 7/18 production review.
+> ⚠️ **SUPERSEDED 2026-07-12** — HAWK split (OSPREY Russia/Ukraine + FALCON Iran/Gulf; HAWK re-cut to cross-war synthesis + dormant book, `builds/OSPREY_FALCON_BUILD.md`). The Iran-core queue below now = FALCON's domain; fresh cards for HAWK-residual/OSPREY/FALCON come at each agent's first firming touch (the 7/22 review graded OSPREY L2 / FALCON L3 / HAWK L4-prov-w/-sunset-~8/1 but deferred cards to confirm-reads).
 
 **By:** DAEDALUS · **Date:** 2026-06-29 · **Class:** Market (geopolitical & military risk → oil/vol/credit; energy-strikes DATA agent, **light-end SINGLE-CHANNEL**, holds NO trade book — oil ceded to BRENT Mar-6)
 **Method:** `UPGRADE_PROTOCOL.md` (one section at a time) · graded vs `BLUEPRINTS/market-agent.md` · comprehension in `profiles/HAWK.md`

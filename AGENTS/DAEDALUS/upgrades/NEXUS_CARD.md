@@ -1,5 +1,7 @@
 # Upgrade Card — NEXUS (read-only assessment, no agent files touched)
 
+> ✅ **CLOSED/SUPERSEDED 2026-07-22 (self-sweep fix-batch, Will-approved):** PROVISIONAL **LIFTED** 7/22 (CCLFX full consumption loop + four-rail staging); the card's holding items (board_log, WALTER lane, STATUS vintage) ALL resolved 7/10-17. Current truth = FLEET_MAP row + `upgrades/PRODUCTION_REVIEW_2026-07-22.md`. States below are HISTORICAL.
+
 **By:** DAEDALUS · **Date:** 2026-07-04 · **Class:** Utility (cross-agent synthesis — convergence detection, contradiction flagging, narrative formation)
 **Method:** fast-follow re-verify of the 7/3 utility-firming apply (`UPGRADE_PROTOCOL.md`, one section at a time) · graded vs `BLUEPRINTS/utility-agent.md` (the floor; NOT `market-agent.md`) · comprehension in `profiles/NEXUS.md`
 **Verdict: L4 (conf H), PROVISIONAL — firmed 7/3, re-verified 7/4.** A confirmed **two-level under-rate** (map said L2/conf L → firmed L4/conf H, PAT-024). The 7/3 DAEDALUS-direct apply (NEXUS idle 3d at the time) installed the **§2 CONTRACT block**, the labeled **§8 BOTTOM LINE**, and a **PAT-031 boot-7 cwd-note** — all three **confirmed IN-FILE** by this 7/4 re-read (CLAUDE.md ~L18-25, STATUS.md ~L163-165, CLAUDE.md L44 respectively). Conformant or exemplary on 7 of 8 floor sections. Remaining PROVISIONAL-holding items: closeout-step-16 cwd-proof is still bare, `board_log.tsv`/the WALTER-intake lane have never fired, and STATUS's content-anchor is still the 6/27 vintage (7 days stale vs the current date).

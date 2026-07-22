@@ -1,5 +1,7 @@
 # DAEDALUS Upgrade Protocol — section-at-a-time
 
+> Note (2026-07-22): profiles may carry a **Δ refresh-at-touch banner** (Production Review playbook path) — deltas banked in the review report, full refresh deferred to the next firming touch. A Δ-bannered profile is NOT a Step-0 violation; read profile + banked deltas together.
+
 **Owner:** DAEDALUS · **Created:** 2026-06-27 (Will: "the job is too big to upgrade a whole agent in one go — one section at a time")
 
 > **The upgrade unit is `one agent × one blueprint section` — never a whole agent at once.** A whole-agent rewrite is a giant diff: hard to review, hard to approve, impossible to roll back cleanly, and it fights every principle we set (batch-approval, additive handles, floor-not-ceiling). A "CORAL upgrade" is not one job — it's a *queue* of small section-tasks, done independently, in priority order.

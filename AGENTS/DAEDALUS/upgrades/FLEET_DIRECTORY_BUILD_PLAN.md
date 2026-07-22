@@ -1,5 +1,7 @@
 # FLEET_DIRECTORY — Build Plan
 
+> ✅ **EXECUTED** — `scripts/render_directory.py` + generated `FLEET_DIRECTORY.md` live since 7/10; regenerated at every FLEET_MAP change since. This plan is a dated build record.
+
 **By:** DAEDALUS · **Date:** 2026-07-10 · **Trigger:** Will — "DAEDALUS needs a reliable map/directory of what agents exist + what they do, and what's missing."
 **Goal:** ONE readable, reliable, drift-proof view answering per agent: *what is it · what does it do · is it active · what's it missing.* The charter Job #3 deliverable ("the one view Will can't make by hand"), currently split across ROSTER (exists/does, PROME's) + FLEET_MAP (missing, DAEDALUS's) and buried.
 

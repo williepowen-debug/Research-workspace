@@ -124,8 +124,8 @@ Phase 2 before Phase 3 is deliberate: the map tells us what to build, and proves
 
 ---
 
-## 8. Open / deferred
+## 8. Open / deferred *(all three RESOLVED — dispositions added 2026-07-22 self-sweep; kept for design history)*
 
-- Exact `BLUEPRINTS/` variant set (market / utility / meta — more?) → settle in Phase 1.
-- Whether the scoring script lives in `AGENTS/DAEDALUS/scripts/` or `scripts/` (fleet-shared) → Phase 2.
-- Cadence: purely on-demand, or a light weekly maturity-map refresh? → revisit after Phase 2.
+- ~~Exact `BLUEPRINTS/` variant set (market / utility / meta — more?)~~ → **SETTLED 6/28**: three variants, all built + ACTIVE same day; no fourth class has emerged through 30 scanned agents.
+- ~~Whether the scoring script lives in `AGENTS/DAEDALUS/scripts/` or `scripts/` (fleet-shared)~~ → **SETTLED**: `AGENTS/DAEDALUS/scripts/maturity_scan.py` (DAEDALUS-only consumer); genuinely shared enforcement (`ledger_staleness.py`, `tsv_append.py`) lives at root `scripts/`.
+- ~~Cadence: on-demand vs weekly refresh?~~ → **SETTLED 7/4-7/12** by the sweeps system (`sweeps/REGISTRY.tsv`: staleness 21d · production review 14d + on-demand-after-heavy-sessions · falsification 21d · harness 90d/model-upgrade; boot cadence-checked via `sweeps_due.py`).

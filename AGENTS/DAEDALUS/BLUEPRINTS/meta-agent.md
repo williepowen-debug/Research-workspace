@@ -35,9 +35,17 @@ Plus: own-dir = free edit; external send / wiring / retirement = ask first; `tra
 | `EVOLUTION.md` | Changelog + roadmap of its domain-of-responsibility | thesis/CHANGELOG |
 | `<MAP>.tsv` (e.g. `FLEET_MAP.tsv`) | Per-target state it tracks over time | per-agent memory |
 
+## Standing disciplines (added 2026-07-22 — the 7/22 self-sweep found this variant had missed every wave since 7/8)
+
+- **⚡ SPAWNED-MODE BOOT CARD** (top of CLAUDE.md, ~5 lines, shape per `market-agent.md §8`) — meta-agents are the MOST coordinator-spawned class; the card carries the PAT-046 deliver-both-halves clause (files written+committed AND coordinator notified).
+- **Registration/lifecycle via the canonical checklist** — every build/promotion/split/retirement sweeps ALL surfaces in `builds/REGISTRATION_CHECKLIST.md` (11 rows + the meta-agent's OWN script registries, row 12 — scanner SKIP/CLASS sets and renderer SPECIAL/DROP sets fail SILENT when a lifecycle change skips them), in PAT-047 co-registration order.
+- **Spawn-driver rule (PAT-051):** any standing role a restructure creates (esp. synthesis/coordinator roles with no event trigger) gets its spawn cadence REGISTERED in a durable home (docket row / sweeps registry) at creation — "both siblings moved" has no owner by default.
+- **Ledger-append hardening:** meta-agents append to load-bearing TSVs (PATTERNS/MAP/registry) every session — shell-appends only via `scripts/tsv_append.py` fields-as-argv or Python, never bare `printf`/`echo`; wrong-PATH writes are the sibling hazard (PAT-050's misfile instance 7/22: a pattern row written to a stray file = invisible at every boot; verify the target path on append).
+- **Self-inclusion (PAT-050):** the meta-agent's own surfaces are IN SCOPE of every sweep it runs; recurring self-sweeps are the mechanism, not discipline. Write-back TAIL rule: processing an inbound write-back (or marking a map row-gap RESOLVED at review time, PAT-058) closes the row AND the originating card/banner AND the outbox copy, same pass.
+
 ## Oversight
 
-Stated explicitly: a meta-agent appears in its own map/output like any target (no agent grades only itself); Will + PROME direct and examine it; YEYOU reviews its per-push conformance.
+Stated explicitly: a meta-agent appears in its own map/output like any target (no agent grades only itself); Will + PROME direct and examine it; YEYOU reviews its per-push conformance (waivable-when-dormant per SPEC §5, Will 7/22).
 
 ---
 

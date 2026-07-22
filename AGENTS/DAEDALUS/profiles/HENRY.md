@@ -1,4 +1,6 @@
 # HENRY — DAEDALUS Comprehension Profile
+
+> Δ **2026-07-22 — named trigger FIRED** (the PROME-scheduled full boot HAPPENED: 7/10 periphery drain → 7/17 boot arc; NEXUS_BRIEF unstuck, PAT-040 likely resolved, STATUS 249<250). Deltas banked in `upgrades/PRODUCTION_REVIEW_2026-07-22.md`; §2 handle = the one standing blocker. Body below pre-dates the boot — READ WITH THE DELTAS; full refresh at next firming touch.
 **Built:** 2026-07-10 (first full firming read — HENRY held the map's oldest grade: L3 surveyed 6/27, pre-blueprint, never profiled) · **Grade at build:** L4 Conf-H (L3→L4; 10th upward correction, PAT-024 — holds even on a survey-verified prior) · **Class:** Market (macro/velocity: rates, vol regime, credit-equity transmission, AI-capex FCF node; macro-focus-not-positions per Will 6/15) · **Staleness:** refresh after the PROME-scheduled full boot / 7/14-7/29 catalyst stack resolves or >45d
 
 ## Identity in one line

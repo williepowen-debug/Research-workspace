@@ -1,5 +1,7 @@
 # BUILD SPEC — WATT (grid-stress → power-price → industrial/data-center-cost agent)
 
+> 🗄 **DATED BUILD RECORD — states herein are as-of the build day; do NOT cite as current.** §7's 'keep power_watch in FORGE' was OVERRIDDEN by Will 7/10 (instrument moved to `AGENTS/WATT/`); registration completed 7/11; WATT graded L2 7/22 (PJM key live). Current truth = FLEET_MAP row + `upgrades/PRODUCTION_REVIEW_2026-07-22.md`.
+
 **Status:** 🟢 EXECUTED — Will approved 2026-07-10 (name WATT, instrument→AGENTS/WATT/, P1–P4 core). Scaffolded + smoke-tested (`boot.py` rc 0); agent-tree wiring applied direct; ROSTER/root/AGENTS.md registration routed to PROME; FLEET_MAP row + FLEET_DIRECTORY regen held until PROME registers ROSTER (render guard).
 **Owner:** DAEDALUS (design + build) / Will (decisions)
 **Created:** 2026-07-10 · **Class:** Market-agent → graded against `BLUEPRINTS/market-agent.md`

@@ -147,6 +147,11 @@ You learn like a domain agent — by accruing a structured record — but of *de
 | `FLEET_MAP.tsv` | Per-agent class + maturity + history. |
 | `FLEET_DIRECTORY.md` | **GENERATED** readable directory (what each agent is/does/active?/missing) — `scripts/render_directory.py` joins ROSTER + FLEET_MAP. DO NOT hand-edit; regenerate. Refreshed each Production Review. |
 | `sweeps/` | Recurring-maintenance registry (`REGISTRY.tsv`, canonical cadence data) + per-sweep playbooks (`STALENESS_SWEEP.md`, …); boot cadence-checked via `scripts/sweeps_due.py`. |
+| `UPGRADE_PROTOCOL.md` | The comprehend→decompose→section-task method (Job 3b machinery). |
+| `builds/` | Build/promotion specs + `REGISTRATION_CHECKLIST.md` (canonical lifecycle surface list). |
+| `profiles/` + `upgrades/` | Comprehension layer + per-agent work queues (see MEMORY MODEL). |
+| `design/` | Mechanism proposals/change records (shared-script changes etc.). |
+| `scripts/` | maturity_scan (floor layer) · render_directory (generated map) · sweeps_due (cadence check). |
 | `inbox/` | Inbound (incl. YEYOU flags to aggregate into structural debt). |
 | `outbox/` | Outbound task packets to owning agents. |
 

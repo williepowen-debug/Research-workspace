@@ -1,5 +1,7 @@
 # Upgrade Card — LABOR (read-only assessment, no agent files touched)
 
+> ⏩ **SUPERSEDED by `upgrades/LABOR_GAP_ASSESSMENT_2026-07-10.md`** (LABOR self-closed ~this entire card) **+ `upgrades/PRODUCTION_REVIEW_2026-07-22.md`** (all 4 remaining items resolved-verified 7/22; scoreboard built). Read those first.
+
 **By:** DAEDALUS · **Date:** 2026-06-29 · **Class:** Market (U.S. employment — layoffs/claims/NFP/JOLTS/WARN; **HEAD** of the LABOR→CARL→REGINALD→HENRY chain)
 **Method:** `UPGRADE_PROTOCOL.md` (one section at a time) · graded vs `BLUEPRINTS/market-agent.md` · comprehension in `profiles/LABOR.md`
 **Verdict: L4 (conf H), adversarially verified 6/28 (firm-next7).** Conformant or exemplary on **5 of 8 sections** (thesis, exit, routing, disciplines, BOTTOM LINE). Exemplary local feature = the CROSS-DOMAIN CONTEXT sign-check (MARCO supply-side ICE/H-2A held OUT of the 48/80; re-import = +9 phantom bearish points, L-05). Two **net-new** handle gaps (Independence column §2, If-Falsified ACTION column §5); one section gap (§3 thresholds) already routed in BATCH_02. Every proposal below is an *added handle* or a *staleness refresh*, never a rewrite (PAT-015 floor-not-ceiling). Nothing applied — this is the queue.

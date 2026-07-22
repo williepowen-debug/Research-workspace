@@ -1,5 +1,7 @@
 # BEST-PRACTICES HARVEST — best-of-breed patterns across the fleet
 
+> 🗄 **HARVEST SNAPSHOT (2026-06-27) — consumed by the Phase-3 blueprint builds 6/28; not maintained.** The live standards are `market-agent.md` / `utility-agent.md` / `meta-agent.md`; this documents where each section was sourced FROM.
+
 **Owner:** DAEDALUS · **Source:** full fleet structural survey, 2026-06-27 (5 parallel reads, 23 agents)
 **Purpose:** the pattern library the `market-agent` / `utility-agent` blueprints are assembled FROM. Best-of-breed per dimension — no single agent wins, so the standard is composed, not cloned.
 

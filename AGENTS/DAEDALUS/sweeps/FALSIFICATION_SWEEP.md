@@ -1,5 +1,7 @@
 # Falsification Freshness Sweep (recurring — sweep #3)
 
+> Sizing note (2026-07-22): the 8/1 first run inherits 8 live agents with NO profile (AEOLUS/WATT/VULCAN/MIDAS/OSPREY/FALCON/HOMER/OZK, +WAL post-cutover) and 13 Δ-bannered profiles — the surface-inventory step will be the bulk of the run; budget accordingly.
+
 **Purpose:** falsification surfaces rot silently while live theses re-scope — kill trees, validation docs, thesis tails, conviction marks, and *-consumed research headlines lag the thesis they're supposed to falsify, becoming decorative. The 2026-07-11 four-agent pilot found this in **4/4 agents** (HENRY: retired kill tree running unfrozen + HEN-35 at 2× live probability · VIOLET: thesis tail 3 version-bumps stale · LIQUID: conviction mark 16d/5-regime-facts stale, CHANGELOG pivot log stopped 5/19 · SAM: BOND-consumed doc leading with a twice-superseded mechanism). One sweep fixed instances; this sweep owns the decay *process*. Scoped by DAEDALUS 2026-07-12 per PROME ask (Will-approved 7/11).
 
 **Cadence:** 21d (canonical row in `REGISTRY.tsv` — cite, don't restate). Offset ~1wk from the Staleness Sweep so the two don't stack in one session.

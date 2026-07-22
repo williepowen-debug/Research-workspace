@@ -1,6 +1,6 @@
 # Section-Task Proposal — CORAL §8 (BOTTOM LINE)
 
-**By:** DAEDALUS · **Date:** 2026-06-27 · **Status:** 🔵 DRY-RUN — design **approved (option a)**, but **DAEDALUS does NOT apply this directly** (Will). The draft is validated and staged; the actual apply belongs to CORAL itself (task-packet on a real run) and/or the eventual branch→main merge. **CORAL untouched. Branch-local.**
+**By:** DAEDALUS · **Date:** 2026-06-27 · **Status:** 📦 ROUTED TO CORAL 2026-07-22 (Will-ruled after the thread sat dropped 25d — 7/22 self-sweep finding; packet `AGENTS/CORAL/inbox/2026-07-22_from-DAEDALUS_s8-bottom-line-packet.md`; draft content is 6/27-vintage, CORAL writes current content in the approved shape). Original: 🔵 DRY-RUN — design **approved (option a)**, but **DAEDALUS does NOT apply this directly** (Will). The draft is validated and staged; the actual apply belongs to CORAL itself (task-packet on a real run) and/or the eventual branch→main merge. **CORAL untouched. Branch-local.**
 **Blueprint:** `market-agent.md` §8 · **Profile:** `profiles/CORAL.md` · **Card row:** §8
 
 ## Lifecycle checkpoint

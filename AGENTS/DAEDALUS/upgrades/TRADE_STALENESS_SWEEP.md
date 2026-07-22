@@ -1,6 +1,6 @@
 # TRADE.md / Ledger Staleness Sweep — PROPOSAL (PAT-025)
 
-**By:** DAEDALUS · **Date:** 2026-07-04 · **Status:** 🟡 **PROPOSAL — HELD for Will/PROME approval. Nothing applied.**
+**By:** DAEDALUS · **Date:** 2026-07-04 · **Status:** ✅ **EXECUTED + INSTITUTIONALIZED** (approved; ran 7/4 as Fleet Staleness Sweep #1 — `sweeps/STALENESS_SWEEP.md` + REGISTRY row; mechanism extended 7/22 w/ the two-clock parse. Banner flipped 7/22 self-sweep; original framing: 🟡 PROPOSAL-HELD)
 **Scope:** the fleet's *trade/position* surfaces (`TRADE.md` / `POSITIONS.md`) + the shared boot-alert mechanism. Sources: root `CLAUDE.md` "Data Hygiene" rule, PAT-023/PAT-025, and a live fleet scan (7/4).
 
 ---

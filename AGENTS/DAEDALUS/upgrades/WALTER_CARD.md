@@ -1,5 +1,7 @@
 # Upgrade Card — WALTER (read-only assessment, no agent files touched)
 
+> ✅ **CLOSED/SUPERSEDED 2026-07-22 (self-sweep fix-batch, Will-approved):** Sweep A/B **APPLIED 7/11** and grep-verified in-file 7/22 (CONTRACT `CLAUDE.md:25`, BOTTOM LINE `STATUS.md:134`) — the header's 'STILL NOT APPLIED' framing is obsolete. New minor owner-lane item: stale embedded counters inside the BOTTOM LINE (PAT-055). Current truth = FLEET_MAP row + `upgrades/PRODUCTION_REVIEW_2026-07-22.md`. States below are HISTORICAL.
+
 **By:** DAEDALUS · **Date:** 2026-07-04 · **Class:** Utility (signal/news routing — the fleet's single entry point for external information)
 **Method:** graded vs `BLUEPRINTS/utility-agent.md` (the floor) · comprehension in `profiles/WALTER.md` · this is a **re-verification** of the 7/3 `UTILITY_FIRMING_2026-07-03.md` assessment against WALTER's CURRENT live files (WALTER ran 3 sessions today, 7/4, since that assessment)
 **Verdict: L4 (conf H), firmed 7/3, RE-CONFIRMED 7/4.** WALTER is the utility-cohort's named exemplar (delivery infra + telemetry) and the blueprint's own SOURCING line cites it. **Conformant or exemplary on 6 of 8 floor sections.** The two floor handle-gaps (§2 CONTRACT, §8 BOTTOM LINE) were routed to WALTER as a task-packet 7/3 with content pre-drafted — **confirmed STILL NOT APPLIED** as of this 7/4 read, despite WALTER running 3 further live sessions today. This is the headline drift vs the 7/3 assessment: not a new finding, but a **confirmed-still-open** one where the passage of 3 sessions might have resolved it and didn't.

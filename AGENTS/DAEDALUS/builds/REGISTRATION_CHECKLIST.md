@@ -12,10 +12,13 @@
 | 4 | `AGENTS/_INDEX.md` | shared (Will-authorized edit or PROME packet) | |
 | 5 | `AGENTS/_NETWORK.md` | shared | Transmission-chain wiring |
 | 6 | **Thematic group pages** — `AGENTS/_CREDIT.md` · `_ENERGY.md` · `_FUNDING_MACRO.md` · `_PRIVATE_CREDIT.md` · `_SYNTHESIS_OPS.md` (sweep ALL five; add any page created since) | shared | **The 7/12 miss.** Human-nav surfaces register in the SAME pass as canonical ones |
-| 7 | WALTER `ROUTING_TABLE` (+ `who_cares` / ticker routing where applicable) | WALTER-lane (route packet) | |
+| 7 | WALTER `ROUTING_TABLE` + `FORMAT_SPEC` routing fields (ticker/domain routing) | WALTER-lane (route packet) | *("who_cares" was folklore — grep 0-hit in WALTER files; corrected 7/22)* |
 | 8 | `FLEET_MAP.tsv` row | DAEDALUS | AFTER ROSTER lands (PAT-047) |
 | 9 | `FLEET_DIRECTORY.md` regen (`scripts/render_directory.py`) | DAEDALUS | Same pass as #8; never hand-edit |
 | 10 | Peer/parent surface updates (e.g. hub agent's peer list + boot step, sub-agent counts, matrix-row → pointer) | owning agent (packet if live, direct if idle+approved) | Split/promotion cases |
 | 11 | Inbox handoff notes to affected consumers | DAEDALUS | Per cross-agent delivery protocol |
+| 12 | **DAEDALUS's own script registries**: `maturity_scan.py` SKIP set (revivals REMOVE the name; retirements ADD it) + CLASS map (non-Market classes) · `render_directory.py` SPECIAL/DROP sets | DAEDALUS | **Renderer fails LOUD; scanner fails SILENT** — OZK/ZHAO sat in SKIP months post-revival (7/22 self-sweep H2) |
+
+**Deferred-surface note:** profiles/upgrade-cards for a new/promoted agent are deliberately deferred to first firming touch (not registration-day work). Memory touchpoints (fleet auto-memory `project_*`/agent-specific pointers, per-agent MEMORY refs) are swept at RETIREMENT (pointer rot) — not required at build.
 
 **Retirements:** same list, inverse — every surface above is un-wired or successor-pointed in one sweep; check dangling refs by grep across all 11 surface classes.

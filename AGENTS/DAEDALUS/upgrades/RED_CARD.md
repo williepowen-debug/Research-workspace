@@ -1,5 +1,7 @@
 # Upgrade Card — RED (read-only re-verification, no agent files touched)
 
+> ✅ **CLOSED/SUPERSEDED 2026-07-22 (self-sweep fix-batch, Will-approved):** the 97-item backlog DRAINED 7/10 (`a6d6b745`), NEXUS_BRIEF created, FLOW.tsv consciously FROZEN 7/5. Remaining = 2 optional labels. Current truth = FLEET_MAP row + `upgrades/PRODUCTION_REVIEW_2026-07-22.md`. States below are HISTORICAL.
+
 **By:** DAEDALUS · **Date:** 2026-07-04 · **Class:** Utility (adversarial analysis — thesis stress-testing, counter-evidence, confirmation-bias detection)
 **Method:** fast-follow promotion of `UTILITY_FIRMING_2026-07-03.md` into DAEDALUS's durable per-agent format, **re-verified live against RED's current files** (not just the firming doc) · graded vs `BLUEPRINTS/utility-agent.md` (the floor; NOT `market-agent.md`) · comprehension in `profiles/RED.md`
 **Verdict: L4 (conf H), firmed 7/3, RE-VERIFIED IN-FILE 7/4 — no regression.** RED is **conformant or exemplary on all 8 floor sections** post-bundle; its calibration loop (predictions + challenges ledger) is genuinely live, not named-but-unbuilt. The one open item is **operational, not structural**: the new §5.5 WALTER-intake handle is installed but has never run — a 97-file backlog (was ~71 at bundle time) sits unprocessed because RED hasn't booted since 7/3. Nothing new is proposed here beyond what 7/3 already queued; this pass **confirms the bundle landed** and **flags the growing backlog** as the thing to watch.

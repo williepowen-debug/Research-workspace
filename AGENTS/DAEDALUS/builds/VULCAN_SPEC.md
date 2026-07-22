@@ -1,5 +1,7 @@
 # BUILD SPEC — VULCAN (AI / semiconductor / memory agent)
 
+> 🗄 **DATED BUILD RECORD — states herein are as-of the build day; do NOT cite as current.** Registration completed 7/11; VULCAN graded L2 7/22 (cluster armed). Current truth = FLEET_MAP row + `upgrades/PRODUCTION_REVIEW_2026-07-22.md`.
+
 **Status:** 🟢 EXECUTED — Will approved 2026-07-10 (name VULCAN, S1–S4 core / S5 tier-2, Active/always-on, systemic-risk lens). Phase 2 of the 3-agent build queue (power → semis → metals).
 **Owner:** DAEDALUS (design + build) / Will (decisions) · **Class:** Market-agent → graded vs `BLUEPRINTS/market-agent.md`
 **Name:** **VULCAN** — Roman smith/forge god (fabrication, chip-making). Pantheon-consistent (DAEDALUS/PROME/AEOLUS), collision-free.

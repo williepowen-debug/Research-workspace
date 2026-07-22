@@ -1,5 +1,7 @@
 # OSPREY + FALCON Build — Execution Spec (HAWK split)
 
+> 🗄 **DATED BUILD RECORD — states herein are as-of the build day; do NOT cite as current.** First content-grades landed at the 7/22 review: OSPREY L2, FALCON L3 (skip-level); HAWK L4-prov w/ sunset ~8/1. Current truth = FLEET_MAP row + `upgrades/PRODUCTION_REVIEW_2026-07-22.md`.
+
 **Author:** DAEDALUS · **Date:** 2026-07-12 · **Status:** 🟢 EXECUTED 2026-07-12 (WP-1..5 complete; WP-4/5 run directly by DAEDALUS — verification in session record; registered + pushed same-day)
 **Source spec:** `AGENTS/HAWK/design/2026-07-12_war-agent-split-spec.md` (HAWK, Will-approved concept)
 **Comprehension base:** `builds/hawk_split/MANIFEST_A_core.md` (core state + 106-file inventory) · `MANIFEST_B_ledgers.md` (VX/FLOW/STRIKES/KB row-level) · `MANIFEST_C_thesis.md` (predictions/lessons/scripts) — editors read the manifests, not raw HAWK.

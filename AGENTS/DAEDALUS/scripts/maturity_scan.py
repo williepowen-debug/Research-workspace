@@ -32,13 +32,16 @@ AGENTS = os.path.join(REPO, "AGENTS")
 # Class map from PROME/ROSTER.md (active+tier2+dormant). Default = Market.
 # DAEDALUS references ROSTER for active/dormant; class here is design-class only.
 CLASS = {
-    "PROME": "Meta", "DAEDALUS": "Meta",
+    "DAEDALUS": "Meta",  # PROME lives at repo-root PROME/, outside agent_dirs()' walk
     "WALTER": "Utility", "NEXUS": "Utility", "TERRY": "Utility", "ORACLE": "Utility",
-    "RED": "Utility", "YEYOU": "Utility", "DEWEY": "Utility", "HERMES": "Utility",
-    # everything else market-domain
+    "RED": "Utility", "YEYOU": "Utility", "DEWEY": "Utility",
+    # everything else market-domain. HERMES removed 2026-07-22 (dir retired).
 }
 # Dirs that are not live agents (archives, sources, scaffolds).
-SKIP = {"ATHENA", "BARON", "CRUISE", "FERT", "REITS", "TRADES", "SENTRY", "OZK", "ZHAO"}
+# REGISTRATION RULE (self-sweep 7/22, H2): a REVIVAL must remove the name from this set
+# same-pass as the FLEET_MAP row — the renderer fails loud on mismatches, this fails SILENT
+# (OZK/ZHAO sat here months after reviving; see builds/REGISTRATION_CHECKLIST.md row 12).
+SKIP = {"ATHENA", "BARON", "CRUISE", "FERT", "REITS", "TRADES", "SENTRY"}
 
 # Subtrees that are NOT live artifacts — pruned from recursive artifact detection (PAT-020).
 EXCLUDE_DIRS = {"archive", "_archive", "sources", "processed", "delivered",

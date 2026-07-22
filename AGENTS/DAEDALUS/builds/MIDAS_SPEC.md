@@ -1,5 +1,7 @@
 # BUILD SPEC — MIDAS (precious + industrial metals agent)
 
+> 🗄 **DATED BUILD RECORD — states herein are as-of the build day; do NOT cite as current.** metals_watch.py was BUILT+WIRED day 1 (7/12); registration completed 7/11; MIDAS graded L3 7/22. Current truth = FLEET_MAP row + `upgrades/PRODUCTION_REVIEW_2026-07-22.md`.
+
 **Status:** 🟢 EXECUTED — Will approved 2026-07-11 (name MIDAS, 4 channels M1–I2, Active/always-on, dual-channel monetary+industrial). Phase 3 (final) of the 3-agent build queue (power → semis → **metals**).
 **Owner:** DAEDALUS (design + build) / Will (decisions) · **Class:** Market-agent → graded vs `BLUEPRINTS/market-agent.md`
 **Name:** **MIDAS** — the golden-touch king. On-the-nose for a metals (esp. gold) agent, pantheon-adjacent, collision-free.

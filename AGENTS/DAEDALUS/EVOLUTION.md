@@ -1,5 +1,18 @@
 # EVOLUTION — Architecture Changelog & Roadmap
 
+**Owner:** DAEDALUS · The standard's history (what changed in *how we build agents*, and why) + where it's heading.
+Newest first. Keep entries terse; archive build minutiae to `FLEET_MAP.tsv`.
+
+---
+
+## Changelog
+
+### 2026-07-22 (PM-2) — self-sweep + fix-batch (the FLOW fix) + orphan dispositions
+
+- **Self-sweep run 2** (`upgrades/DAEDALUS_SELF_SWEEP_2026-07-22.md`, 148 files, 3 auditors + mechanical): 3 HIGH — PAT-050 misfiled in a stray `BLUEPRINTS/PATTERNS.tsv` (re-homed to canonical, stray trashed), maturity_scan SKIP still excluding live OZK/ZHAO (pruned; registration rule now in-code + checklist row 12), TERRY profile missed in the same-day chain-close (bannered). Fix-batch executed same-session (Will-approved): ~34 banner/closure stamps across cards, batch docs, and build specs; STALENESS_SWEEP §3 autonomous path aligned to PAT-057 condition-cited wording BEFORE the 7/25 run; FLEET_MAP YEYOU-waiver wording on 4 rows.
+- **The FLOW fix (PAT-058):** the 7/12 fixbatch fixed the STOCK of record-lag; review-time resolutions re-seeded it. New Production Review step-3 rule: a row-gap marked RESOLVED also stamps the originating card, same pass.
+- **Orphan dispositions (from 7/7-7/8 "Next:" lines):** TIC scheduled-release freshness note → LANDED market §8 · R3 rewritten-not-prepended STATUS note → LANDED market §8 · harness-audit recurrence → **REGISTERED as sweep #4** (Will-ruled; 90d/model-upgrade, next ~10/5) · NEXUS live-concurrent incident root-promotion → STRUCK (covered by PAT-004 + teams-mode memory findings; no root change needed).
+- **CORAL §8 dropped thread** (approved 6/27, never applied): Will ruled ROUTE — staged packet delivered to CORAL inbox.
 
 ### 2026-07-22 (PM) — blueprint-maintenance block: PROME 7/20 packet dispositioned + ledger_staleness two-clock parse SHIPPED
 
@@ -17,13 +30,6 @@
 - **Production Review (period 7/4→7/22, 30+ shippers):** 7 level moves (WATT/VULCAN/OSPREY→L2, MIDAS/FALCON→L3 [skip-level], CORAL→L3, TERRY→L4) + OZK first-ever row (L4 first-scan) + NEXUS prov-lifted + BOND conf→H + 3 L5 promote-on-verify (BRENT/LABOR/VIOLET); 0 downgrades; HAWK sunset armed. Report: `upgrades/PRODUCTION_REVIEW_2026-07-22.md`.
 - **Standard deltas:** (1) `builds/REGISTRATION_CHECKLIST.md` created — canonical 11-surface registration list incl. the 5 thematic group pages (closes PROME's 7/12 PAT-050 packet); CLAUDE.md Build job cites it. (2) PAT-051..057 banked — headline: split-born synthesis roles need a registered spawn driver (051, HAWK); grading contracts must name the ledger write-back leg (053, OZK); freeze banners cite condition-not-lifecycle (057, my own 7/4 banners — STALENESS_SWEEP template amend owed at ~7/25 run). (3) Frozen-frame execute-only print grading recognized as emergent fleet standard (053) — blueprint §5 enrichment queued.
 - **Self-row:** L4 re-affirmed; 7/12 mechanisms passed first live test (TERRY tail closed same-boot), but the review ran +4d past cadence → L5 gate = first ON-CADENCE cycle w/ self-scope clean (next: 8/5).
-
-**Owner:** DAEDALUS · The standard's history (what changed in *how we build agents*, and why) + where it's heading.
-Newest first. Keep entries terse; archive build minutiae to `FLEET_MAP.tsv`.
-
----
-
-## Changelog
 
 ### 2026-07-12 — DUAL RESTRUCTURE: HAWK war-agent split (OSPREY + FALCON) + HOMER promotion — the standard gains a SPLIT/PROMOTION methodology
 - **HAWK split (builds 5-6):** OSPREY (Russia/Ukraine) + FALCON (Iran/Gulf) built + content-migrated; HAWK re-cut to cross-war synthesis + dormant book. First execution of an agent SPLIT (vs green-field build): the method that worked = **reader fan-out over the FULL tree → manifests as contracts → DAEDALUS-ratified build spec (closing the domain spec's gaps) → parallel Sonnet editor WPs → re-cut → verify → registration.** New rules minted: **PAT-049** (domain-authored split specs: analytical core reliable / operational periphery blind / "freeze" ambiguous — reader fan-out closes it; banner the ORIGINALS of copied files) and the freeze-disambiguation (freeze = no row surgery, NOT dead-ledger — the residual agent's KB/board_log/PREDICTIONS stay LIVE with split-notes). Prediction re-homing form: `FAL-01 ←HAW-16` / `OSP-01 ←HAW-17` with REHOMED status at the origin + re-totaled preamble + archive backfilled BEFORE banners.

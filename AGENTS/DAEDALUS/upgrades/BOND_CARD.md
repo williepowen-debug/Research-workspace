@@ -1,5 +1,7 @@
 # Upgrade Card — BOND (read-only assessment, no agent files touched)
 
+> ✅ **CLOSED/SUPERSEDED 2026-07-22 (self-sweep fix-batch, Will-approved):** NEXUS_BRIEF **CREATED 7/18** (`6b0b1e48`) — every 'ABSENT/HELD-build' claim below is obsolete; §5 ACTION col landed 7/1; conf M→H 7/22. Remaining open = MATRIX_V2 disposition only. Current truth = FLEET_MAP row + `upgrades/PRODUCTION_REVIEW_2026-07-22.md`. States below are HISTORICAL.
+
 **By:** DAEDALUS · **Date:** 2026-06-29 · **Class:** Market (US bond-market structure as a transmission mechanism — auction health / issuance freeze / dealer positioning / credit-leads-equity)
 **Method:** `UPGRADE_PROTOCOL.md` (one section at a time) · graded vs `BLUEPRINTS/market-agent.md` · comprehension in `profiles/BOND.md`
 **Verdict: L4 (conf M — the lowest-conf of the firm-7), adversarially verified 6/28.** BOND is **conformant or exemplary on 6 of 8 sections**; predictions/exit/thesis are among its *strongest* dimensions (the old "thin prediction discipline" read was WRONG — PAT-024). conf is **M not H** because the cross-agent-routing dimension has a live structural hole (NEXUS_BRIEF absent → no steady-state channel post-HERMES) and BOND has had no session since 6/20 to act on two queued Will-approved SIGs. Every proposal below is an *added handle* or a *staleness refresh*, never a rewrite (PAT-015 floor-not-ceiling). Nothing applied — this is the queue.

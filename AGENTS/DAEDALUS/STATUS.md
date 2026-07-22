@@ -15,7 +15,7 @@ Two major deliverables in one session:
 
 Also this session: TERRY write-back chain closed (L3→L4, full tail same-boot — the 7/12 mechanisms' first live test, PASSED) · `builds/REGISTRATION_CHECKLIST.md` created (closes PROME's 7/12 group-pages gap; first use = WAL cutover WP-W6) · outbox hygiene (2 consumed FYIs → delivered/).
 
-**Standing capability:** complete + ACTIVE blueprint variant set · 25 profiles (12 carry Δ-7/22 banners w/ deltas banked in the review report; AEOLUS profile owed; OZK profile owed) · `FLEET_MAP.tsv` 30 scanned agents (data) + generated `FLEET_DIRECTORY.md` · 3 registered sweeps · **57 banked design patterns**.
+**Standing capability:** complete + ACTIVE blueprint variant set · 24 agent profiles + template (13 carry Δ-7/22 banners w/ deltas banked in the review report; AEOLUS profile owed; OZK profile owed) · `FLEET_MAP.tsv` 30 scanned agents (data) + generated `FLEET_DIRECTORY.md` · 3 registered sweeps · **58 banked design patterns**.
 
 ## Open / structural debt
 
@@ -23,15 +23,14 @@ Also this session: TERRY write-back chain closed (L3→L4, full tail same-boot �
 - ~~PROME 7/20 pattern packet~~ + ~~two-clock parse proposal~~ → **BOTH CLOSED 7/22 PM** (blueprint-maintenance block, Will-directed): spawned-mode card shape → blueprints (rollout = seeded-owner-build, wave-1 seeded via VULCAN, presence graded 8/5) · print-grading contract → market §5 (PAT-053) · tsv_append hardening → both blueprints · **ledger_staleness two-clock parse SHIPPED + validated** (2 true positives first run; `design/2026-07-22_ledger_staleness_two_clock_parse.md`) · KOSPI residual routed (VULCAN S2 + VIOLET watch-line packets). PROME write-back in outbox.
 - **Profile-refresh debt (self-imposed, playbook-sanctioned):** 12 Δ-bannered profiles refresh at next firming touch, priority LABOR/REGINALD/BRENT/BOND; AEOLUS + OZK profiles to build at next firming.
 - **Sweeps:** Staleness due ~7/25 (amend banner template per PAT-057 when run) · Falsification ~8/1 (first registered run; OZK kill-§1 = a live specimen).
-- **Watch (others' lanes, review-flagged):** VULCAN spawn TODAY (GOOGL) · CARL POP demote 7/24 (standing plan: I execute if unscheduled) · HAWK sunset ~8/1 · OZK/BROCK packet uptake · YEYOU-clean L5 leg question with Will (blocks 4 candidates) · FALCON consumer-mutation rule (PAT-054, with PROME).
+- **Watch (others' lanes, review-flagged):** VULCAN spawn TODAY (GOOGL) · CARL POP demote 7/24 (standing plan: I execute if unscheduled) · HAWK sunset ~8/1 · OZK/BROCK packet uptake · ~~YEYOU L5 leg~~ RULED 7/22: waivable-when-dormant (SPEC §5) — 4 candidacies unblocked onto remaining criteria · FALCON consumer-mutation rule (PAT-054, with PROME).
 - **Confirm-reads owed** (list in review report §tail): FALCON EXIT_PROTOCOL full read · SHADE firming (L3 call) · newborn prediction grades 7/22–8/3 · BRENT fill-loop (L5) · REGINALD post-refresh (L5) · ZHAO LIQUID-absorb.
 
 ## Next actions
 
 1. **On/after 7/24: WAL cutover** (WP-W0 → W1..W6) — takes precedence per approved sequencing.
 2. Staleness sweep ~7/25 (can ride the same session).
-3. Blueprint-maintenance session: PROME 7/20 packet + two-clock parse proposal.
-4. Falsification sweep ~8/1 + HAWK sunset adjudication + next Production Review **on cadence 8/5** (the self-row L5 gate).
+3. Falsification sweep ~8/1 + HAWK sunset adjudication + next Production Review **on cadence 8/5** (the self-row L5 gate).
 
 ## BOTTOM LINE
 

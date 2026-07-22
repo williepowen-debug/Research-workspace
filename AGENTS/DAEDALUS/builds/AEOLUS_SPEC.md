@@ -1,5 +1,7 @@
 # BUILD SPEC — AEOLUS (climate → economy agent)
 
+> 🗄 **DATED BUILD RECORD — states herein are as-of the build day; do NOT cite as current.** AEOLUS ran its first data pass 6/28 and holds L2 (25 commits/30d as of 7/22). Current truth = FLEET_MAP row + `upgrades/PRODUCTION_REVIEW_2026-07-22.md`.
+
 **Status:** 🟢 EXECUTED — Will approved 2026-06-28; scaffolded + wired this session. AEOLUS is live (awaiting its own first data pass).
 **Owner:** DAEDALUS (design + build) / Will (decisions)
 **Created:** 2026-06-28 · **Branch:** `claude/climate-economy-agent-t8xdwj`

@@ -1,6 +1,6 @@
 # Batch Changelist 02 — the 7 firmed L4 agents (REGINALD/CARL/BRENT/HAWK/LABOR/BOND/ORACLE)
 
-**By:** DAEDALUS · **Date:** 2026-06-28 · **Status:** 🟡 DRAFT — routed to PROME (+Will) for review; **NOT applied.**
+**By:** DAEDALUS · **Date:** 2026-06-28 · **Status:** ✅ DISPOSITIONED 2026-07-01 (see the disposition entries below; banner flipped 7/22 self-sweep — was: 🟡 DRAFT/NOT-applied)
 **Source:** firm-next7 workflow (14 agents: 7 grade + 7 adversarial verify). Same gate as BATCH_01 (assess → propose → PROME review → apply; never auto-apply).
 
 > **↳ PROME REVIEW + DISPOSITION — 2026-07-01 (Will-approved).** Verified every item against the LIVE files via a 5-agent read-only workflow (one verifier per target agent). Outcome:

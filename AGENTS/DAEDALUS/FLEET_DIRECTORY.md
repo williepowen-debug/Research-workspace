@@ -9,15 +9,15 @@
 | Agent | Class | Lvl | What it does | Missing / next |
 |---|---|---|---|---|
 | PROME | — | — | Coordinator / chief of staff | — |
-| WALTER | Utility | L4 | Signal & news routing | verify YEYOU-clean for L5 (all firming handles landed) |
+| WALTER | Utility | L4 | Signal & news routing | L5 on remaining criteria (YEYOU leg WAIVED-while-dormant per Will 7/22… |
 | SAM | Market | L4 | Japan — BOJ / JGB / carry | BOTTOM LINE -> STATUS<250 -> 5-pt table (~8 rows) -> staleness lines =… |
 | LIQUID | Market | L4 | HY / credit spreads / liquidity | L4->L5: thin 5-pt overlay + Independence col — everything else cleared |
-| VIOLET | Market | L4 | VIX / vol term structure / vol-of-vol | L5: YEYOU-clean confirm-read |
+| VIOLET | Market | L4 | VIX / vol term structure / vol-of-vol | L5 (YEYOU leg WAIVED-while-dormant, Will 7/22): owner lands predictions… |
 | BRENT | Market | L4 | Oil — Brent / WTI | PROMOTE L4->L5 on verify: fill-confirm loop closed clean |
 | RED | Utility | L4 | Adversarial red-team | Optional label polish + YEYOU-clean -> L5 |
 | HENRY | Market | L4 | Macro velocity / market trends | §2 handle table (the single named blocker) |
 | CARL | Market | L4 | Consumer & credit-transmission macro | L5: consistency_check Phases B/C |
-| LABOR | Market | L4 | Labor market (claims / JOLTS / NFP) | L5 ratify: YEYOU-clean + clean-closeout confirm-read |
+| LABOR | Market | L4 | Labor market (claims / JOLTS / NFP) | L5 ratify (YEYOU leg WAIVED-while-dormant, Will 7/22): clean-closeout c… |
 | BROCK | Market | L4 | Private credit / BDC / non-traded credit | L4->L5: TRADE.md freeze-or-refresh (packet in BROCK inbox 7/22) |
 | HAWK | Market | L4 | Geopolitical synthesis (cross-war reconciliation, oil-decoupling thesis, war-risk/shipping) + dormant book (Taiwan/Venezuela/trade/chokepoints/defense/sanctions) — theaters split out 7/12††† | If no real synthesis pass by FAL-01/OSP-01 resolution week (~8/1) or ne… |
 | TERRY | Utility | L4 | Trade construction / risk scoring | L5: one full cycle w/ gate-grader discipline holding (no surface carrie… |
@@ -27,7 +27,7 @@
 | BOND | Market | L4 | US bond-market structure / auctions / rates | L4->L5: MATRIX_V2 disposition |
 | CORAL | Market | L3 | Florida (whole-state, 10 pillars) | Confirm-read on REGINALD/CARL consumption legs |
 | SHADE | Market | L2 | Insurer-lender / PE-insurance-captive | Firming read -> L3 (seed light PREDICTIONS.tsv from accrued dated binar… |
-| NEXUS | Utility | L4 | Cross-agent synthesis | L5 on YEYOU-clean + residual polish (closeout-16 cwd + AUTHORITY label) |
+| NEXUS | Utility | L4 | Cross-agent synthesis | L5 (YEYOU leg WAIVED-while-dormant, Will 7/22): residual polish (closeo… |
 | ZHAO | Market | L3 | China macro — UST demand / capital flows / Korea | L3->L4: consumption evidence (LIQUID absorb |
 | AEOLUS | Market | L2 | Climate → economy (macro; insurance/ag/energy-demand channels) | PROME spawn flag routed 7/22 |
 | WATT | Market | L2 | Power/grid — PJM stress → wholesale price → industrial/data-center cost | L3: grade WATT-05/04/06 as they land + verify inherited EEA2 pull |

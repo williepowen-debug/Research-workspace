@@ -1,6 +1,6 @@
 # HOMER Promotion — DAEDALUS Structural Review + Rulings
 
-**Author:** DAEDALUS · **Date:** 2026-07-12 · **Status:** EXECUTING TODAY (Will directive 7/12 — overrides CARL's wait-until-post-7/24 recommendation; review compressed, not skipped)
+**Author:** DAEDALUS · **Date:** 2026-07-12 · **Status:** ✅ EXECUTED 2026-07-12 (HOMER live; L2-strong confirmed at the 7/22 production review) (Will directive 7/12 — overrides CARL's wait-until-post-7/24 recommendation; review compressed, not skipped)
 **Case:** `inbox/2026-07-12_from-CARL_homer-promotion-case.md` (CARL, Will-directed)
 **Evidence:** `builds/homer_promotion/MANIFEST_D_homer.md` (full HOMER read + CARL housing rows + CREED + external-consumer sweep)
 

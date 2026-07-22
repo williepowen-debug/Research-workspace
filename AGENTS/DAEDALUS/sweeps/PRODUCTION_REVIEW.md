@@ -31,6 +31,7 @@ git log --after="$LAST 00:00" --pretty=format:"%s" | sed -E 's/^([A-Z]+).*/\1/' 
 | Finding | Action |
 |---|---|
 | **Mis-grade** | re-grade the FLEET_MAP row (conf per depth of read; `confirm-read owed` if not a full firming) |
+| **Row-gap marked RESOLVED** | **also stamp the originating card/assessment doc with a one-line closure, SAME pass** (7/22 self-sweep: the 7/12 fixbatch fixed the STOCK of record-lag; review-time resolutions re-seeded the FLOW — PAT-058) |
 | **Stale note / resolved open-Q** | update the row / profile |
 | **New or refined pattern** | `PATTERNS.tsv` |
 | **Cross-agent observation** | **note it / route via `outbox/`** — never edit their files here |
