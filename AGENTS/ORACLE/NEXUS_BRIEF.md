@@ -32,6 +32,7 @@
 | RED / VIOLET / HENRY | **Complacency crack deepened** — NEH 72.5→66.5% (−12/7d). Bimodal Iran: invade (+11) AND deal (+11.5) tails both fattened. Equity complacency intact (S&P best-asset 67.0%) despite rising tail-awareness — that gap is the tension. | 🟡 |
 | BRENT / HAWK | ⚠️ WTI-$90/$85-intraday (Polymarket) and Brent-settle-ref (Kalshi, single reading) are NOT FALCON's 3-consecutive-settle >$85 thesis. Premium tells on their own terms; do not cite as confirmation. | 🟡 |
 | REGINALD / CARL / LIQUID | Structural credit quiet: corporate-bankruptcy >750 83% steady; CRE-default/CC-delinquency/Fed-facility still zero-open (authoritative sweep). US-credit-downgrade ticker reads 4.0% today (verify vs 7/17's 16%). No fresh bank single-name signal. | ⚪ |
+| BROCK / RED | **CLARITY Act (crypto market-structure) repriced DOWN** — Polymarket "signed into law 2026" 37.0%, Δ1d −8 to −10.5, deep ($2.3M). Crowd marking down passage before the Aug-10 recess deadline (3 disputes open). Base case = not signed 2026. Newly pinned (was an untracked theme). Aug 10 = catalyst. | 🟠 |
 
 **WAITING FOR:**
 | From | Input | Why |
@@ -51,6 +52,7 @@
 | Jul 29 | Fed July meeting + BOJ July | July-hike tail fattened to 21% (Kalshi 24%); BOJ hold 98.6% |
 | Jul 31 | Iran July legs + Hormuz ladder + Brent settle-ref resolve | re-pin an Aug Hormuz ladder |
 | ⚠️ Aug 1 | WTI $100 supply-leg month-roll | re-pin next month's WTI-$100 or the spread's supply leg ages out (9 days) |
+| Aug 10 | CLARITY Act — Senate recess deadline | last window to pass before recess; failure → mid-Sept. Crowd 37% signed-2026 (BROCK/RED) |
 | Aug 12 | July CPI print | modal top firmed to 43.5%; surprise vs a firming top-bucket |
 
 ---

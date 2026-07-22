@@ -23,6 +23,8 @@
 
 **🟡 STRUCTURAL CREDIT — quiet, downgrade gauge eased slightly.** Kalshi US-credit-rating-downgrade-2026 **4.0%** (Δp −1.0 — note: reads lower than 7/17's 16% snapshot; verify the specific market/ticker on next pull, possible market/line shift); corporate-bankruptcy >750 **83%** steady. Specific gap-fills (CRE-default, CC-delinquency, mortgage-default, Fed-facility) still zero-open — re-check via the authoritative `/events?status=open` sweep, NOT `search` (KB-ORC-041). → REGINALD, CARL, LIQUID.
 
+**🟠 CLARITY ACT (crypto market-structure) REPRICED DOWN — newly pinned (Will-flagged).** Polymarket "Clarity Act signed into law in 2026?" **37.0%**, Δ1d **−8 to −10.5** on deep liquidity ($2.3M vol / $86.5K liq). The crowd is marking down the odds the bill clears the Senate before the **Aug 10 recess deadline** (3 disputes open: ethics rules, DeFi dev shields, stablecoin yield; failure → mid-Sept). Base case = NOT signed 2026 (63% no). Polymarket-only. **Was previously untracked** — surfaced by Will, not ORACLE's sweep (crypto-legislation was never a watchlist theme + `movers` is blind to moderate moves on deep-slow markets — see maintenance). Now pinned; Aug 10 = catalyst. → BROCK, RED. (KB-ORC-047.)
+
 ---
 
 ## Signal Dashboard (live 2026-07-22T15:42Z, Polymarket unless noted)
@@ -58,6 +60,7 @@
 | Russia-Ukraine ceasefire Dec31 | T2 | 35.5% | — | −3.0 | $2.0M | $112.5K | slipping (Russia advancing — Vasylivka 73.5% +61/1d) |
 | BOJ July decision (hold top) | T2 | 98.6% | −0.1 | −0.2 | $68.8K | $10.2K | hold near-certain |
 | AI bubble burst 2026 | T2 | 16.6% | — | −0.6 | $2.3M | $18.6K | steady |
+| **Clarity Act signed 2026** | T2 | **37.0%** | **−8.0** | −3.0 | $2.3M | $86.5K | NEW pin — crypto bill; Aug 10 recess deadline |
 | MicroStrategy bankruptcy <2027 | T2 | 3.9% | +0.1 | −0.2 | $187.8K | $14.1K | control |
 | US debt default <2027 | T2 | 4.9% | +0.1 | +1.5 | $16.0K | $3.5K | ⚠️thin, control |
 | Mamdani freezes NYC rents <2027 | T2 | 91.6% | — | −0.1 | $281.7K | $20.6K | steady, near-certain |

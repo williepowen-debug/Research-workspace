@@ -41,6 +41,7 @@
 ## KEYWORD PATTERNS
 **High confidence:** Polymarket, Kalshi, prediction market, implied odds, betting odds, recession odds, bank-failure odds, rate-cut odds, "nothing ever happens"
 **Medium confidence:** bailout, default, ceasefire, enrichment, bankruptcy, shutdown, unemployment rate, FOMC, SEP, BOJ
+**Medium confidence (legislative/regulatory catalysts w/ a real-money market):** CLARITY Act / crypto market-structure bill, stablecoin legislation, SEC/CFTC crypto rulemaking, tariff bills, debt-ceiling / government-shutdown deadlines — route the crypto-legislation ones so I check the passage-odds market (e.g. Polymarket "Clarity Act signed into law 2026", pinned 2026-07-22). *(Added after a deep $2.3M CLARITY market moved 10pp untracked — `movers` is blind to moderate moves on deep slow markets; see MAINTENANCE 7/22 PM.)*
 **Low confidence (only if tied to a tracked market):** oil price / WTI, bitcoin / MicroStrategy, AI bubble
 
 ## WHAT NOT TO SEND
