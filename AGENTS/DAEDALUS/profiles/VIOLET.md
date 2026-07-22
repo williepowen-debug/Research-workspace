@@ -1,6 +1,6 @@
 # Agent Profile — VIOLET
 
-> ⚠️ **STALE 2026-07-12** — 7/4 L4-firming packet ALL 6 items applied 7/11 (commit `fe966b48`); §4 debt list below obsolete; L5-candidacy read owed. Refresh at 7/18 review.
+> Δ **2026-07-22 PRODUCTION REVIEW — named trigger fired; REFRESH-AT-TOUCH.** Per-agent delta bullets + row re-grade banked in `upgrades/PRODUCTION_REVIEW_2026-07-22.md` (the delta store). Body below is prior-vintage — READ WITH THE DELTAS; full refresh executes at the next firming touch of this agent.
 
 **Built by:** DAEDALUS · **Date:** 2026-07-04 · **Comprehension method:** Mode-A 4-reader fan-out (identity/state/routing · thesis/thresholds/exit · predictions/trade/research · quant-engine) → synthesis. First full comprehension (was mechanical-only Conf-L before this).
 **Sources read:** CLAUDE.md, README.md, STATUS.md, NEXUS_BRIEF.md, SIGNAL_INTAKE.md, SCRATCH.md, MEMORY.md, MAINTENANCE.md, CALENDAR.md, TRADE.md, board_log.tsv, thesis/{VIX_THESIS.md,CHANGELOG.md}, workbook/{KB.tsv,SCHEMA.tsv,VX_DAILY,VIX_OPTIONS,COT_VIX,fred_cache/,CATALYSTS,FLOW}, scripts/ (all 10), research/ (45 files skim). **Staleness:** refresh when the L1–L4 signal-stack framing or the dual-channel (Path A/B) thesis materially re-marks, or > 45 days.

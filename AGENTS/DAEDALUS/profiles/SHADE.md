@@ -1,5 +1,7 @@
 # Agent Profile — SHADE
 
+> Δ **2026-07-22 PRODUCTION REVIEW — named trigger fired; LIGHT-AMEND-AT-TOUCH (trigger fired same-day-as-build; 45d clock to 8/12).** Per-agent delta bullets + row re-grade banked in `upgrades/PRODUCTION_REVIEW_2026-07-22.md` (the delta store). Body below is prior-vintage — READ WITH THE DELTAS; full refresh executes at the next firming touch of this agent.
+
 **Built by:** DAEDALUS · **Date:** 2026-06-28 · **Comprehension method:** 1-reader judgment-grade + 1 adversarial verifier (workflow `grade-shade-brock-creed`)
 **Sources read:** CLAUDE.md, STATUS.md, MEMORY.md, MAINTENANCE.md, SCRATCH.md, board_log.tsv, ARCH_REPORT_2026-06-26.md, domain/sources/01-08, research/{INSURER_LENDER_DOUBLE_JEOPARDY,ATHENE_FABN_MATURITY_LADDER} · **Staleness:** refresh when §3 dashboard gains a 5-pt handle or a PREDICTIONS ledger appears, or > 45 days.
 

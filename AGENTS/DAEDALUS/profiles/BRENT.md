@@ -1,5 +1,7 @@
 # Agent Profile — BRENT
 
+> Δ **2026-07-22 PRODUCTION REVIEW — named trigger fired; REFRESH-AT-TOUCH (PRIORITY #3 — all 3 trigger legs fired).** Per-agent delta bullets + row re-grade banked in `upgrades/PRODUCTION_REVIEW_2026-07-22.md` (the delta store). Body below is prior-vintage — READ WITH THE DELTAS; full refresh executes at the next firming touch of this agent.
+
 **Built by:** DAEDALUS · **Date:** 2026-06-29 · **Comprehension method:** 1-reader live comprehension (workflow `firm7-profiles-cards`; documents the 6/28 firm-next7 adversarially-confirmed L4)
 **Sources read:** CLAUDE.md, STATUS.md, TRADE.md, thesis/{THESIS.md, PREDICTIONS.tsv, PREDICTIONS_ARCHIVE.md (head), CHANGELOG.md (head)}, workbook/{KB.tsv (banner+head), VX.tsv (banner), FLOW.tsv (banner), SCHEMA.tsv}, NEXUS_BRIEF.md, SCRATCH.md, LESSONS.md (head), demand_destruction/TRACKER.md (head), docket/CATALYSTS.tsv (head), board ledgers (head) · **Staleness:** refresh when TRADE.md trade surface, the THESIS version (currently v5.0), or the STATUS convergence matrix materially changes, or > 45 days.
 

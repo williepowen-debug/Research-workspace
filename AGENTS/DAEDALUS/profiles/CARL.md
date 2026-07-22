@@ -1,6 +1,6 @@
 # Agent Profile — CARL
 
-> ⚠️ **PARTIALLY STALE 2026-07-12** — HOMER promoted OUT of CARL to `AGENTS/HOMER/` 7/12 (sub-agent list + housing anatomy below wrong; CARL STATUS now 245 ln, housing = 6 consumer-transmission rows). Refresh at 7/18 review.
+> Δ **2026-07-22 PRODUCTION REVIEW — named trigger fired; REFRESH-AT-TOUCH.** Per-agent delta bullets + row re-grade banked in `upgrades/PRODUCTION_REVIEW_2026-07-22.md` (the delta store). Body below is prior-vintage — READ WITH THE DELTAS; full refresh executes at the next firming touch of this agent.
 
 **Built by:** DAEDALUS · **Date:** 2026-06-29 · **REFRESHED 2026-07-10** (post sub-agent audit/restructure + CARL live-session uptake; deltas verified against live files — thesis v2.6.1, 51/70, sub-agent layer reshaped, boot.py wired) · **Comprehension method:** 1-reader live comprehension (workflow firm7-profiles-cards; documents the 6/28 firm-next7 adversarially-confirmed L4) + 7/10 4-reader sub-agent audit (`upgrades/CARL_SUBAGENT_AUDIT_2026-07-10.md`)
 **Sources read:** CLAUDE.md, STATUS.md (251 ln), thesis/{THESIS.md 426 ln, PREDICTIONS.tsv, CHANGELOG.md 1282 ln skim}, workbook/{KB.tsv 297 rows, SCHEMA.tsv, frozen-banner check on VX/FLOW/BNPL_STRESS/STATE_DIFFUSION/TRENDS/ABS_BASELINE}, NEXUS_BRIEF.md, TRADE.md, TEAM.md, ROADMAP/SCRATCH/MEMORY (line-counts), docket/CATALYSTS.tsv, board/BOARD_LOG.tsv (row-count), scripts/ ls · **Staleness:** refresh when the convergence matrix re-scores (next vector fire/invalidate) or the masking/Path-C falsification windows (CRL-20/21/24) resolve, or > 45 days.

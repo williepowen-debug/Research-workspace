@@ -1,45 +1,38 @@
 # DAEDALUS STATUS
 
-**Last Updated:** 2026-07-12 (rewritten-not-prepended per harness-audit R3 — self-sweep T3-5; prior accreted version archived verbatim → `reference/STATUS_archive_2026-07-12.md`; session-by-session history → `EVOLUTION.md` changelog + `FLEET_MAP.tsv` notes)
-**Class:** Meta-agent (fleet architect) · **Spawnable by:** PROME or Will · **Self-level:** L4 (re-scored 7/12 — was the fleet's last un-re-scored row; L5 explicitly blocked by own-sweep findings, verify at 7/18)
+**Last Updated:** 2026-07-22 (rewritten-not-prepended; prior version's history → `EVOLUTION.md` changelog + `FLEET_MAP.tsv` notes)
+**Class:** Meta-agent (fleet architect) · **Spawnable by:** PROME or Will · **Self-level:** L4 (re-scored 7/22 — L5 blocked by cadence not mechanisms: this Production Review ran +4d late; L5 at first ON-CADENCE cycle w/ self-scope clean)
 
 ---
 
-## Current state (as of 2026-07-12 close)
+## Current state (as of 2026-07-22 close)
 
-The fleet stands at **28 active agents** after the largest structural day to date: the **HAWK war-agent split** (OSPREY = Russia/Ukraine · FALCON = Iran/Gulf · HAWK re-cut to cross-war synthesis + dormant book — root fix for the HAW-15 structural-overload miss) and the **HOMER promotion** (housing out of CARL's sub-agent tree to a top-level domain agent, CARL shed to 6 consumer-transmission rows, Trepp CMBS-MF collapsed to one owner). Both executed, registered (root CLAUDE/ROSTER/AGENTS.md/_INDEX/_NETWORK/WALTER ROUTING_TABLE v0.17), committed, pushed same-day. Build/restructure count: **6 builds** (AEOLUS · WATT/VULCAN/MIDAS · OSPREY/FALCON) + **2 restructures** (split, promotion) — all clean.
+Two major deliverables in one session:
 
-Same-day: a Will-directed **self-sweep** (4-reader audit of DAEDALUS's own 132 files → `upgrades/DAEDALUS_SELF_SWEEP_2026-07-12.md`, 33 findings) found the architect's own tracking layer rotting in exactly the classes it polices (PAT-050). Then a Will-directed **CODEX cross-model review** (OpenAI Codex CLI, read-only, first cross-LLM audit — `upgrades/CODEX_CROSS_REVIEW_2026-07-12.md`): 8/8 findings verified TRUE, 6 fixed same-hour (incl. the ROSTER "(25)" heading the tree-scoped self-sweep couldn't see, and a new candidate failure-class: WP-sequencing skew), 2 owner-lane; split arithmetic + registration + re-home mechanics all independently PASSED. Repeat-trigger: after major structural sessions. **Fix-batch + mechanisms applied same-day (Will-approved):** BRENT's 13-day-stale `<$75` threshold inversion fixed direct; own FLEET_MAP row re-scored; stale card/batch banners closed; 7 past-due profiles interim-bannered; `outbox/delivered/` created + 11 dead files archived; **self-inclusion clauses in all 3 sweep playbooks; SPAWN-7 write-back tail rule; profile-trigger check in Production Review; PAT-044 two-clock baked into both blueprints.**
+**1. WAL promotion review → APPROVED.** Will-directed (via REGINALD 7/17), delivered + Will-approved same-day 7/22: verdict PROMOTE with all 5 ★ rulings as written (`builds/wal_promotion/PROMOTION_REVIEW.md` — REG-24/25 EXTRACT post-Stage-2; FRAUD/→WAL agent; print gate CLEARED dent-not-kill; `AGENTS/WAL/` w/ gitignore-negation same-changelist trap; BROCK map REGINALD-first). **Execution gated on WP-W0** (REGINALD: Stage-2 not-bear-dead · v2.3 re-mark · BROCK map ship) — **earliest cutover 7/24; first action next session on/after 7/24 = WP-W0 confirm with REGINALD, then WP-W1..W6.** REGINALD + PROME both notified.
 
-**Standing capability:** complete + ACTIVE blueprint variant set (market/utility/meta) · 24 agent profiles + upgrade cards (comprehension layer — 7 carry ⚠️ STALE interim banners pending 7/18 refresh) · `FLEET_MAP.tsv` (data) + generated `FLEET_DIRECTORY.md` (readable, 37 agents) · 3 registered recurring sweeps (`sweeps/REGISTRY.tsv`, boot cadence-checked) · 50 banked design patterns (`PATTERNS.tsv`).
+**2. Fleet Production Review (sweep #2, run 3) — the heaviest map correction since the firming passes.** 6-reader cohort fan-out over a 30-shipper period: **7 level moves** (WATT/VULCAN/OSPREY L1→L2 · MIDAS/FALCON L1→L3 [FALCON skip-level] · CORAL L2→L3 · TERRY L3→L4 at boot) + **OZK first-ever row (L4 on first scan — best-in-fleet print-grading contract)** + NEXUS PROVISIONAL lifted + BOND conf M→H + **3 L5 promote-on-verify staged (BRENT · LABOR · VIOLET)** · 0 downgrades · HAWK sunset armed (no synthesis pass by ~8/1 → L4→L3, PAT-051). PAT-051..057 banked. 12 profiles trigger-fired → bannered-with-deltas (playbook path), 4-priority refresh-at-touch queue (LABOR → REGINALD → BRENT → BOND). KOSPI gap dispositioned 3-way (VULCAN S2 / VIOLET watch / Korea-macro explicit-unowned). Full report: `upgrades/PRODUCTION_REVIEW_2026-07-22.md`.
 
-## Build/restructure record
+Also this session: TERRY write-back chain closed (L3→L4, full tail same-boot — the 7/12 mechanisms' first live test, PASSED) · `builds/REGISTRATION_CHECKLIST.md` created (closes PROME's 7/12 group-pages gap; first use = WAL cutover WP-W6) · outbox hygiene (2 consumed FYIs → delivered/).
 
-| # | What | Date | State |
-|---|---|---|---|
-| Phases 0–3 | Spec → skeleton → maturity engine → blueprint variant set | 6/27–6/28 | ✅ (history: EVOLUTION) |
-| Build 1 | AEOLUS (climate→economy) | 6/28 | ✅ live, L2 |
-| Firming pass | Every active agent read-verified + profiled (10 upward corrections / 1 hold / 0 downgrades) | 6/28–7/10 | ✅ complete |
-| Builds 2–4 | WATT / VULCAN / MIDAS (3-agent queue) | 7/10–11 | ✅ live, L1 — first content-grades owed |
-| Builds 5–6 + restructure | OSPREY / FALCON (HAWK split) + HAWK re-cut | 7/12 | ✅ live, L1-seeded / HAWK L4-provisional |
-| Restructure 2 | HOMER promotion (←CARL) + CARL shed | 7/12 | ✅ live, L2-at-entry |
-| Sweeps institutionalized | #1 Staleness (21d) · #2 Production Review (14d) · #3 Falsification Freshness (21d) | 7/4–7/12 | ✅ active, none due |
+**Standing capability:** complete + ACTIVE blueprint variant set · 25 profiles (12 carry Δ-7/22 banners w/ deltas banked in the review report; AEOLUS profile owed; OZK profile owed) · `FLEET_MAP.tsv` 30 scanned agents (data) + generated `FLEET_DIRECTORY.md` · 3 registered sweeps · **57 banked design patterns**.
 
 ## Open / structural debt
 
-- **7/18 Production Review = the loaded checkpoint:** first content-grades OSPREY/FALCON/HOMER · HAWK synthesis-role read (L4 provisional — validate spec-§6 reconcile-don't-re-narrate on a real pass) · refresh the 7 ⚠️-bannered profiles (WALTER/VIOLET/RED/NEXUS/LABOR/CARL/LIQUID) + first firing of the new profile-trigger check · stable-L4 cohort re-read (REGINALD/BROCK/BOND/BRENT/CORAL/SHADE/AEOLUS, not re-read since 6/28-29) · KOSPI-gap disposition (below) · verify L5-blocker fixes held (self-row).
-- **COVERAGE GAP (logged 7/12, PROME 7/11 input — NOT an agent-build ask):** KOSPI 8,200 / Korea 2× leveraged-ETF amplifier (~$9B, 30 sidecars 2026; VIOLET KB-VIO-105/106) has no owning agent. Candidates: ZHAO scope-extension (cheapest) / VIOLET watch line / explicit-unowned. Decide at 7/18.
-- **Open on OTHERS (watch, not my lane):** FALCON founding mandate = Gulf-Iran strike backfill · OSPREY first increment = Russia strike feed · HAWK first real synthesis pass + Taiwan/Venezuela dormant re-sweep + FLOW-18 disposition + HAW-14 deep post-mortem · CREED S5-demotion packet (next spawn) · REGINALD Trepp re-source to HOMER · CORAL FL-condo reconcile · CARL CRL-06 metric-clarification · HENRY full boot pre-7/14 (PROME-scheduled, flagged 7/10) · Will: PJM_API_KEY (~5 min, unlocks WATT LMP leg).
-- **Harness-audit residuals (7/7, Will/PROME lane):** R1 OTTO rewrite (routed) · R2 root git-protocol rewrite (readability-only, unblocked) · roadmap #1 calibration skill + #11 PreCompact hook. Sweep-#3 registration ✅ closed 7/12.
-- **ledger_staleness two-clock parse proposal** (PAT-039 fix, gated — shared script, 6+ callers): drafted-in-concept 7/10, not yet written. Mine to draft, route to PROME/Will.
+- **WAL cutover (7/24–7/28) = the loaded next session:** WP-W0 precondition check w/ REGINALD → execute WP-W1..W6 (`builds/wal_promotion/PROMOTION_REVIEW.md §Migration plan`). Registration via `builds/REGISTRATION_CHECKLIST.md` (first use). PROME owns the ROSTER row (heads-up delivered).
+- **PROME 7/20 pattern packet (inbox, no urgency):** spawned-mode boot-card SHAPE standardization + ~24-agent rollout assessment · print-day boot variant blueprint call · `tsv_append.py` hardening blueprint lines · LABOR BUILD_DEBT register consideration. Natural pairing with the ledger_staleness two-clock parse proposal (PAT-039, still unwritten) = one blueprint-maintenance session.
+- **Profile-refresh debt (self-imposed, playbook-sanctioned):** 12 Δ-bannered profiles refresh at next firming touch, priority LABOR/REGINALD/BRENT/BOND; AEOLUS + OZK profiles to build at next firming.
+- **Sweeps:** Staleness due ~7/25 (amend banner template per PAT-057 when run) · Falsification ~8/1 (first registered run; OZK kill-§1 = a live specimen).
+- **Watch (others' lanes, review-flagged):** VULCAN spawn TODAY (GOOGL) · CARL POP demote 7/24 (standing plan: I execute if unscheduled) · HAWK sunset ~8/1 · OZK/BROCK packet uptake · YEYOU-clean L5 leg question with Will (blocks 4 candidates) · FALCON consumer-mutation rule (PAT-054, with PROME).
+- **Confirm-reads owed** (list in review report §tail): FALCON EXIT_PROTOCOL full read · SHADE firming (L3 call) · newborn prediction grades 7/22–8/3 · BRENT fill-loop (L5) · REGINALD post-refresh (L5) · ZHAO LIQUID-absorb.
 
 ## Next actions
 
-1. **7/18 Production Review** (everything in the first debt bullet — the single biggest queued session).
-2. Staleness sweep ~7/25 · Falsification sweep ~8/1 (first registered run).
-3. Draft the ledger_staleness two-clock parse proposal (small, gated).
-4. On-demand: builds/retirements as Will/PROME direct.
+1. **On/after 7/24: WAL cutover** (WP-W0 → W1..W6) — takes precedence per approved sequencing.
+2. Staleness sweep ~7/25 (can ride the same session).
+3. Blueprint-maintenance session: PROME 7/20 packet + two-clock parse proposal.
+4. Falsification sweep ~8/1 + HAWK sunset adjudication + next Production Review **on cadence 8/5** (the self-row L5 gate).
 
 ## BOTTOM LINE
 
-**As of 7/12 close:** The fleet is 28 active agents and structurally healthy — today's split and promotion fixed the two known load-bearing misallocations (one agent carrying two wars; a domain outgrowing its sub-agent slot), and both executed same-day with full registration via the now-proven method: reader fan-out → manifest contracts → ratified build spec → Sonnet editor work packages → verification → batched registration. The self-sweep then turned the tooling inward and found the predictable thing (PAT-050): the architect's tracking layer rots in exactly the classes it polices — so self-inclusion, the write-back tail rule, and the profile-trigger check are now part of the standard, not discipline-dependent. Dominant debt is unchanged in kind: map-accuracy and record-currency, not architecture. The 7/18 Production Review is the loaded checkpoint — three newborn grades, HAWK's synthesis validation, seven profile refreshes, and the first test of whether today's mechanisms actually hold.
+**As of 7/22 close:** The fleet is 28+ active agents and the map just took its largest single-day correction — 7 upgrades, a first-scan L4 (OZK), zero downgrades — confirming PAT-024's standing lesson that this fleet under-reports itself and the map must chase production, not the calendar. The newborn cohort is outperforming its scaffolds (FALCON skip-leveled to L3 in 6 session-days), the 7/10-12 task-packet debt book cleared itself (PAT-056: route-not-edit is empirically dominant, not just safe), and three agents now sit one verify from L5. The two structural risks worth watching are both cadence-shaped, not competence-shaped: synthesis roles with no spawn driver (HAWK, sunset ~8/1) and corrections rotting in idle agents' inboxes (AEOLUS). Next loaded session: the approved WAL promotion executes on/after 7/24 once REGINALD's three preconditions clear.

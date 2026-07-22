@@ -3,7 +3,7 @@
 **Built by:** DAEDALUS · **Date:** 2026-06-28 · **Comprehension method:** 1-reader judgment-grade + 1 adversarial verifier (workflow `grade-shade-brock-creed`)
 **Sources read:** CLAUDE.md, STATUS.md, workbook/{KB,VX,FLOW,PREDICTIONS,PREDICTIONS_ARCHIVE,PREDICTIONS_SCOREBOARD,SCHEMA,BANK_BDC_MATRIX}, trade/{TRADE,NAMES,CROSS_ANALYSIS}, EXPECTED_SIGNALS.md, NEXUS_BRIEF.md, LESSONS.md, docket/CATALYSTS.tsv, domain/PRIVATE_CREDIT_CONTAGION_TRACKER.md · **Staleness:** refresh when TRADE.md position layer or the convergence matrix materially changes, or > 45 days.
 
-> Durable understanding — section-tasks read THIS, not the raw (heavy) agent. Re-read the actual file before applying any change (PAT-009).
+> Δ **2026-07-22 PRODUCTION REVIEW — trigger NOT fired (matrix 60/70 + book unchanged); profile CURRENT-ish, RE-BANNERED w/ checkpoint.** Checkpoint items (see `upgrades/PRODUCTION_REVIEW_2026-07-22.md`): X1 RESOLVED 7/4 both-halves-fail (profile's X1 framing now historical) · KB 173->188 · new OZK debt-on-debt watch axis w/ 3 pre-registered print tells · GATE-LIQ-079 rider role vs LIQUID · TRADE.md freeze-or-refresh packet routed 7/22. Next check: BDC marks-window aftermath (~7/28+).
 
 ---
 

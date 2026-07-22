@@ -1,5 +1,7 @@
 # Agent Profile — REGINALD
 
+> Δ **2026-07-22 PRODUCTION REVIEW — named trigger fired; REFRESH-AT-TOUCH (PRIORITY #2 — heaviest structural change; WAL promotion cutover also pending).** Per-agent delta bullets + row re-grade banked in `upgrades/PRODUCTION_REVIEW_2026-07-22.md` (the delta store). Body below is prior-vintage — READ WITH THE DELTAS; full refresh executes at the next firming touch of this agent.
+
 **Built by:** DAEDALUS · **Date:** 2026-06-29 · **Comprehension method:** 1-reader live comprehension (workflow `firm7-profiles-cards`; documents the 6/28 firm-next7 adversarially-confirmed L4)
 **Sources read:** CLAUDE.md, STATUS.md, thesis/THESIS.md, TRADE.md, workbook/{PREDICTIONS,KB,FLOW,VX}.tsv + 4 frozen feeds (DARKPOOL/SHORT_VOL/SHORT_INTEREST/OPTIONS_OI headers), registry/THRESHOLDS.tsv, BANK_EXPOSURE_MATRIX.md (head), WAL/THESIS.md, bank-subdir inventory (EGBN/FITB/MTB/PNC/RF/ZION/CFG via Glob), 30d git-log authorship breakdown · **Staleness:** refresh when the STATUS convergence-matrix scores / EXIT RULES materially change, when thesis/THESIS.md version-bumps off v1.4, or > 45 days.
 

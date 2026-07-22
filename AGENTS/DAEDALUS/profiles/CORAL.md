@@ -1,5 +1,7 @@
 # Agent Profile — CORAL
 
+> Δ **2026-07-22 PRODUCTION REVIEW — named trigger fired; REFRESH-AT-TOUCH (L2->L3 re-grade 7/22; §7 open-Q per-metro-handle RESOLVED: GRID_PER_METRO.md).** Per-agent delta bullets + row re-grade banked in `upgrades/PRODUCTION_REVIEW_2026-07-22.md` (the delta store). Body below is prior-vintage — READ WITH THE DELTAS; full refresh executes at the next firming touch of this agent.
+
 **Built by:** DAEDALUS · **Date:** 2026-06-27 · **Method:** 2-reader fan-out (analytical core + support/memory) → synthesis
 **Sources read:** STATUS, thesis/THESIS+CHANGELOG, COVERAGE, CLAUDE, LESSONS, MEMORY, FL_BANK_WATCHLIST, CLUSTER_FL_BANK_LEG, CALENDAR, NEXUS_BRIEF, workbook/* , board_log
 **Staleness:** refresh when THESIS version bumps or STATUS materially moves; or > 30 days.

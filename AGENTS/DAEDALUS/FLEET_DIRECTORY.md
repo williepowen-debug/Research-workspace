@@ -11,31 +11,31 @@
 | PROME | — | — | Coordinator / chief of staff | — |
 | WALTER | Utility | L4 | Signal & news routing | verify YEYOU-clean for L5 (all firming handles landed) |
 | SAM | Market | L4 | Japan — BOJ / JGB / carry | BOTTOM LINE -> STATUS<250 -> 5-pt table (~8 rows) -> staleness lines =… |
-| LIQUID | Market | L4 | HY / credit spreads / liquidity | L4->L5: 5-pt overlay + Independence col (alongside DORMANT->TRIGGERED)… |
-| VIOLET | Market | L4 | VIX / vol term structure / vol-of-vol | L5 candidacy read at next firming pass (verify the 6 applied handles in… |
-| BRENT | Market | L4 | Oil — Brent / WTI | L4->L5: closeout-hygiene sweep (TRADE.md PAT-023 RESOLVED 6/29 |
-| RED | Utility | L4 | Adversarial red-team | no-overlap-table + labeled read-only-boundary handles + RED resolves FL… |
-| HENRY | Market | L4 | Macro velocity / market trends | 🔴 PROME-scheduled FULL BOOT pre-7/14 (HEN-39/40 |
-| CARL | Market | L4 | Consumer & credit-transmission macro | L5: BOTTOM LINE handle + consistency_check.py |
-| LABOR | Market | L4 | Labor market (claims / JOLTS / NFP) | calibration scoreboard (Will-approved BUILD, LABOR's own) |
-| BROCK | Market | L4 | Private credit / BDC / non-traded credit | L4->L5: refresh TRADE.md position-truth to live book |
-| HAWK | Market | L4 | Geopolitical synthesis (cross-war reconciliation, oil-decoupling thesis, war-risk/shipping) + dormant book (Taiwan/Venezuela/trade/chokepoints/defense/sanctions) — theaters split out 7/12††† | post-split re-read at 7/18 production review: grade the SYNTHESIS role… |
+| LIQUID | Market | L4 | HY / credit spreads / liquidity | L4->L5: thin 5-pt overlay + Independence col — everything else cleared |
+| VIOLET | Market | L4 | VIX / vol term structure / vol-of-vol | L5: YEYOU-clean confirm-read |
+| BRENT | Market | L4 | Oil — Brent / WTI | PROMOTE L4->L5 on verify: fill-confirm loop closed clean |
+| RED | Utility | L4 | Adversarial red-team | Optional label polish + YEYOU-clean -> L5 |
+| HENRY | Market | L4 | Macro velocity / market trends | §2 handle table (the single named blocker) |
+| CARL | Market | L4 | Consumer & credit-transmission macro | L5: consistency_check Phases B/C |
+| LABOR | Market | L4 | Labor market (claims / JOLTS / NFP) | L5 ratify: YEYOU-clean + clean-closeout confirm-read |
+| BROCK | Market | L4 | Private credit / BDC / non-traded credit | L4->L5: TRADE.md freeze-or-refresh (packet in BROCK inbox 7/22) |
+| HAWK | Market | L4 | Geopolitical synthesis (cross-war reconciliation, oil-decoupling thesis, war-risk/shipping) + dormant book (Taiwan/Venezuela/trade/chokepoints/defense/sanctions) — theaters split out 7/12††† | If no real synthesis pass by FAL-01/OSP-01 resolution week (~8/1) or ne… |
 | TERRY | Utility | L4 | Trade construction / risk scoring | L5: one full cycle w/ gate-grader discipline holding (no surface carrie… |
-| REGINALD | Market | L4 | Regional banks | L4->L5: TRADE.md banner-or-refresh (PAT-023) |
+| REGINALD | Market | L4 | Regional banks | PROMOTE L4->L5 on verify: post-print THESIS refresh executed |
 | MARCO | Market | L4 | Florida migration / tourism (FL sub; reconcile w/ CORAL) | BOTTOM LINE (10min) -> 5-pt/Independence handle pass -> PREDICTIONS_ARC… |
 | ORACLE | Utility | L4 | Prediction-market diagnostics | L5: §2 CONTRACT block (cheap) |
-| BOND | Market | L4 | US bond-market structure / auctions / rates | build/wire NEXUS_BRIEF (Packet 7) + Independence col -> solidify L4/L5 |
-| CORAL | Market | L2 | Florida (whole-state, 10 pillars) | per-metro convergence grid (self-flagged); session counts → L3 |
-| SHADE | Market | L2 | Insurer-lender / PE-insurance-captive | HANDLES first (mostly missing-handle, not substance): 5-pt+independence… |
-| NEXUS | Utility | L4 | Cross-agent synthesis | consumption-read to lift PROVISIONAL + optional §7 label -> L5 |
+| BOND | Market | L4 | US bond-market structure / auctions / rates | L4->L5: MATRIX_V2 disposition |
+| CORAL | Market | L3 | Florida (whole-state, 10 pillars) | Confirm-read on REGINALD/CARL consumption legs |
+| SHADE | Market | L2 | Insurer-lender / PE-insurance-captive | Firming read -> L3 (seed light PREDICTIONS.tsv from accrued dated binar… |
+| NEXUS | Utility | L4 | Cross-agent synthesis | L5 on YEYOU-clean + residual polish (closeout-16 cwd + AUTHORITY label) |
 | ZHAO | Market | L3 | China macro — UST demand / capital flows / Korea | L3->L4: consumption evidence (LIQUID absorb |
-| AEOLUS | Market | L2 | Climate → economy (macro; insurance/ag/energy-demand channels) | sustain predictions resolving |
-| WATT | Market | L1 | Power/grid — PJM stress → wholesale price → industrial/data-center cost | L2: close P3/P4 first pulls |
-| VULCAN | Market | L1 | AI-capex / semiconductor / memory cycle → systemic risk (concentration, memory, power-demand, Taiwan chokepoint) | L2: quantify S1 (capex trajectory |
-| MIDAS | Market | L1 | Metals — monetary (gold/silver: debasement, real-rates) + industrial (copper/PGM: growth, China, supply) | L2: build metals_watch.py |
-| OSPREY | Market | L1 | Russia/Ukraine war theater — energy-strike campaign, crude-vs-products channel, shadow-fleet kinetic strikes, Baltic/Black-Sea ports | L2: first solo session (verify inherited reads |
-| FALCON | Market | L1 | US/Israel/Iran-Gulf war theater — A/B/C/D ladder, Hormuz, Gulf targeting, Bab-al-Mandab/Houthi, Baghdad watch | L2: Gulf-Iran backfill sweep |
-| HOMER | Market | L2 | Housing — asset market + housing credit structure (pipeline, GSE+CMBS multifamily, builders, HPI, mortgage-rate surface) | L3: ATTOM 7/16 refresh + open HOM predictions + convergence handles |
+| AEOLUS | Market | L2 | Climate → economy (macro; insurance/ag/energy-demand channels) | PROME spawn flag routed 7/22 |
+| WATT | Market | L2 | Power/grid — PJM stress → wholesale price → industrial/data-center cost | L3: grade WATT-05/04/06 as they land + verify inherited EEA2 pull |
+| VULCAN | Market | L2 | AI-capex / semiconductor / memory cycle → systemic risk (concentration, memory, power-demand, Taiwan chokepoint) | L3: grade the 7/22-31 cluster (VULCAN-03 GOOGL TODAY — DEWEY card pre-a… |
+| MIDAS | Market | L3 | Metals — monetary (gold/silver: debasement, real-rates) + industrial (copper/PGM: growth, China, supply) | Firm L3 conf M->H: MIDAS-05 grade ~7/23 |
+| OSPREY | Market | L2 | Russia/Ukraine war theater — energy-strike campaign, crude-vs-products channel, shadow-fleet kinetic strikes, Baltic/Black-Sea ports | L3: OSP-01/02/03 resolving (window Aug 1-3) |
+| FALCON | Market | L3 | US/Israel/Iran-Gulf war theater — A/B/C/D ladder, Hormuz, Gulf targeting, Bab-al-Mandab/Houthi, Baghdad watch | Firm L3->L4: confirm-read EXIT_PROTOCOL/THESIS |
+| HOMER | Market | L2 | Housing — asset market + housing credit structure (pipeline, GSE+CMBS multifamily, builders, HPI, mortgage-rate surface) | L3: convergence handles + HOM-01 resolving (~7/30) + start the scaffold… |
 
 ## 🟡 TIER-2 — spawned as needed
 
@@ -50,7 +50,7 @@
 
 | Agent | Class | Lvl | What it does | Missing / next |
 |---|---|---|---|---|
-| OZK | — | — | Bank OZK specialist | — |
+| OZK | Market | L4 | Bank OZK specialist | Post-Stage-2 write-back sweep (task packet routed 7/22): stamp PREDICTI… |
 | SENTRY | — | — | Cross-domain signal pipeline | — |
 | BARON | — | — | Trump financial-policy network | — |
 
@@ -58,7 +58,7 @@
 
 | Agent | Class | Lvl | What it does | Missing / next |
 |---|---|---|---|---|
-| DAEDALUS | Meta | L4 | Fleet architect — design / structure / maturity / lifecycle | L5 when EVOLUTION demonstrably current |
+| DAEDALUS | Meta | L4 | Fleet architect — design / structure / maturity / lifecycle | L5 at first ON-CADENCE review cycle w/ self-scope clean |
 | YEYOU | Utility | L2 | Repo-wide reviewer (manual / branch model) | CONTRACT block + clear OpenClaw/GLM + dangling-ref stale cluster (apply… |
 
 ---

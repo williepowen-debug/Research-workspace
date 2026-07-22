@@ -1,5 +1,13 @@
 # EVOLUTION — Architecture Changelog & Roadmap
 
+
+### 2026-07-22 — WAL promotion approved + Production Review run 3 (the heaviest map correction) + PAT-051..057
+
+- **WAL promotion (REGINALD spinout #4):** Will-directed review (4-reader Mode-A: corpus / fraud+consumers / OZK-precedent / hub-side) delivered + approved same-day — verdict PROMOTE, all 5 ★ rulings as written; cutover re-sequenced 7/24-7/28 behind REGINALD's own 3 preconditions. Notable rulings vs the request: REG-24/25 EXTRACT (resolve-in-place half-failed at the print — both OPEN to Q3) and FRAUD/→WAL (zero live cross-agent file deps found; the shared JEF rail already lives at FORGE). Standup will inherit **OZK's 7/20 CLAUDE.md shape** (spawned-mode card + drift checks), not the April vintage. Full doc: `builds/wal_promotion/PROMOTION_REVIEW.md`.
+- **Production Review (period 7/4→7/22, 30+ shippers):** 7 level moves (WATT/VULCAN/OSPREY→L2, MIDAS/FALCON→L3 [skip-level], CORAL→L3, TERRY→L4) + OZK first-ever row (L4 first-scan) + NEXUS prov-lifted + BOND conf→H + 3 L5 promote-on-verify (BRENT/LABOR/VIOLET); 0 downgrades; HAWK sunset armed. Report: `upgrades/PRODUCTION_REVIEW_2026-07-22.md`.
+- **Standard deltas:** (1) `builds/REGISTRATION_CHECKLIST.md` created — canonical 11-surface registration list incl. the 5 thematic group pages (closes PROME's 7/12 PAT-050 packet); CLAUDE.md Build job cites it. (2) PAT-051..057 banked — headline: split-born synthesis roles need a registered spawn driver (051, HAWK); grading contracts must name the ledger write-back leg (053, OZK); freeze banners cite condition-not-lifecycle (057, my own 7/4 banners — STALENESS_SWEEP template amend owed at ~7/25 run). (3) Frozen-frame execute-only print grading recognized as emergent fleet standard (053) — blueprint §5 enrichment queued.
+- **Self-row:** L4 re-affirmed; 7/12 mechanisms passed first live test (TERRY tail closed same-boot), but the review ran +4d past cadence → L5 gate = first ON-CADENCE cycle w/ self-scope clean (next: 8/5).
+
 **Owner:** DAEDALUS · The standard's history (what changed in *how we build agents*, and why) + where it's heading.
 Newest first. Keep entries terse; archive build minutiae to `FLEET_MAP.tsv`.
 
