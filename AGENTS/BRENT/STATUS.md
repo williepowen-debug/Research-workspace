@@ -15,13 +15,12 @@
 
 **🔴 7/9 ~3:50 PM ET — SUSTAIN-TEST SPEC RATIFIED + THURSDAY LEG GRADED.** Pre-registered spec-ratification (before Friday tape; $75/$74 lines UNCHANGED, nothing re-graded) closing RED's red-team holes: (1) round-trip <$74 = **ICE Brent front-month official SETTLEMENT basis only**, intraday wicks disregarded; (2) **DENY = complement of CONFIRM** — CONFIRMS = >$75 both sessions (settle) AND ≥2 FRESH legs; DENIES = anything else (no middle); (3) graded print = **ICE Brent Sep-2026 (LCOU26) official settle ~14:30 ET**, no roll before Fri; (4) leg-freshness rule — no fresh Fri print = NON-COUNTABLE; sanctions leg DOWN-WEIGHTED (near-auto pass, can't be one of the 2); transits fired = ≤~18/day or liner Cape re-route; "P&I in reverse" = club/JWC cover withdrawal/re-listing. **THURSDAY (7/9) LEG: ✅ PASS (thin)** — Brent **~$76** [FORGE BZ=F $76.07/−2.50%, ~3:50 PM ET; PROME $75.89 @15:30 ET], >$75 by ~$1, no round-trip <$74. Test ALIVE into Friday on level leg. Full addendum → `outbox/2026-07-08_to-PROME_decoupling-crack-adjudication.md` §2026-07-09. _(PROME owns GATES.tsv update; spec only, no deploy opinion.)_
 
-**🔴 Last Updated:** 2026-07-08 Wed ~9:30 PM ET (EVENING — DECOUPLING CRACK ADJUDICATION). **⚡ ENERGY TAIL RE-ARM: fragile-watch → ACTIVE.** **Brent $78.75 (+6.19%) · WTI $74.17 (+5.30%)** [CONF FORGE live ~9:30 PM ET]. The US–Iran truce buckled overnight 7/7→7/8 (3 tankers hit in Hormuz, US strikes, Iran claims retaliation on Kuwait/Bahrain bases, Trump declared ceasefire "over" + blockade threat, **Treasury REIMPOSED oil-export sanctions**, war-risk 0.125%→0.2-0.4%/transit, maritime threat "severe"). Brent gapped ~$4 above the $74-75 re-arm band → **my pre-registered BRENT-owned re-arm condition FIRED** — and unlike the Jun 27-28 kinetic test that FADED, today's crack is corroborated by verified INSTITUTIONAL legs (sanctions/war-risk/kinetic-on-tankers), not just price. **VERDICT: RE-ARM to ACTIVE; capital deployment GATED on a 2-session sustain test** (Brent >$75 through Fri Jul 10 close + ≥2 of 4 institutional legs stay fired — see 🔴 JUL 8 EVE section). Confidence: mechanism-crack HIGH ~0.75, durable-sustain MODERATE ~0.55. Verdict memo → `outbox/2026-07-08_to-PROME_decoupling-crack-adjudication.md`. _Jul-6 header preserved below._
+**🔴 Last Updated:** 2026-07-08 Wed ~9:30 PM ET (EVENING — DECOUPLING CRACK ADJUDICATION). **⚡ ENERGY TAIL RE-ARM: fragile-watch → ACTIVE.** **Brent $78.75 (+6.19%) · WTI $74.17 (+5.30%)** [CONF FORGE live ~9:30 PM ET]. The US–Iran truce buckled overnight 7/7→7/8 (3 tankers hit in Hormuz, US strikes, Iran claims retaliation on Kuwait/Bahrain bases, Trump declared ceasefire "over" + blockade threat, **Treasury REIMPOSED oil-export sanctions**, war-risk 0.125%→0.2-0.4%/transit, maritime threat "severe"). Brent gapped ~$4 above the $74-75 re-arm band → **my pre-registered BRENT-owned re-arm condition FIRED** — and unlike the Jun 27-28 kinetic test that FADED, today's crack is corroborated by verified INSTITUTIONAL legs (sanctions/war-risk/kinetic-on-tankers), not just price. **VERDICT: RE-ARM to ACTIVE; capital deployment GATED on a 2-session sustain test** (Brent >$75 through Fri Jul 10 close + ≥2 of 4 institutional legs stay fired — see 🔴 JUL 8 EVE section). Confidence: mechanism-crack HIGH ~0.75, durable-sustain MODERATE ~0.55. Verdict memo → `outbox/2026-07-08_to-PROME_decoupling-crack-adjudication.md`. _Jul-6 header archived 7/21 → `workbook/STATUS_archive_20260716_preRearmBanners.md`._
 
-**Last Updated (prior):** 2026-07-06 Mon ~11:45 AM ET (teams-session refresh). **THESIS v5.0 (asymmetry UPSIDE-CONVEX — unchanged).** Brent **$72.26 (+0.64%, ticked GREEN)** live · WTI **$68.96 (+0.39%)** · **STNG $75.36 (+3.22%)** · VIX 15.93. **CURRENT STATE: STRUCTURAL DECOUPLING HOLDING — now STALL-tested.** Price sits $71–72 (fresh green tick, still **$2.74 under $75**) through a genuine reopening-*stall* week: **Doha talks REGRESSED Jul 1-2** (reverted to already-"resolved" items), **ADNOC: full Hormuz flows NOT until 2027**, P&I still not resumed, transits ~23% of prewar, Iran **tolls threat** post-Aug-17. Physical still tight + reopening visibly stalling + price still ~$72 = **decoupling holding UNDER STRESS.** **The 7/1 "gentle-normalization" lean (single Cushing build) is REBALANCED by today's stall data** — the reopening is *not* delivering on schedule → "reopening-stalls-while-buffers-empty" = a Tier-1 convex-arm *condition* → **the up-tail is HELD / marginally fattened, NOT disarming.** **P(Brent holds <$75 over 1–2wk) = 0.70 (unch — stall is a medium-term fuse, not a 1-2wk trigger).** **Regime mark (RED response): ~0.70 LEAN (not "settled").** See JUL 6 section + `2026-07-06_teams-session.md`.
 
-**Overall Status:** 🟠 **PHASE 2 / PATH A — STRUCTURAL DECOUPLING (kinetic-tested Jun 27-28; STALL-tested Jul 1-6; HOLDING).** Two live tests now passed in the structural direction: (1) the Jun 27-28 two-sided kinetic exchange + VLCC Kiku hit → price FELL not snapped; (2) the Jul 1-6 reopening STALL (Doha regression / ADNOC-2027 / P&I unresumed) → price still ~$72, no snap. **P&I commercial insurance still NOT resumed = the last big Path-A leg — AND RED's untested snap-leg (CHG-041 stays open with my concurrence): on P&I resumption, does price snap or grind?** HAWK marks (Jun-28): **B20 / C44 / D36**. Re-escalation tail intact; bar = durable-collapse OR the reopening-reversal snap on P&I.
 
-**🟠 LIVE TODOs (as of 7/6 — SUPERSEDED by KEY OPEN ITEMS, refreshed 7/21):** 🔴 **TONIGHT Mon Jul 6 ~3:30 PM ET — CFTC COT (Jun-30 data)** — 2nd-week test; grade under 2 standards (regime-liquidation vs Path-B Trigger #3) + ICE Brent gross-shorts squeeze-fuel gauge (RED's tail). Pre-reg in `2026-07-06_teams-session.md` §1. 🔴 **Wed Jul 8 — EIA STEO (July)** first post-deal price path. 🟠 **Jul 11 OPEC MOMR · Jul 14 CPI** (BRT-16 inverse-feedback). 🟡 **P&I resumption** = the CHG-041 snap-leg discriminator + BRT-07 start-gun (liners off Cape cleanest tell). 🟡 CHASE HAWK on HAW-15 (crude-export pivot — Tier-1 convex-arm trigger). 🟡 Next EIA weekly (does Cushing build AGAIN, or did the stall stop the barrels landing?). 🟡 LIQUID HY-OAS pull (deferred).
+**Overall Status:** 🔴 **v5.1 — PHASE-1 RE-SQUEEZE REALIZED (premium regime; riding, not predicting).** Formal Hormuz closure 7/11-12 → re-arm CONFIRMED 7/16 → $85×3 FIRED 7/21 ($88.10/$89.22/$92.15). **Premium-vs-supply-loss = the governing discriminator** (zero barrels destroyed; FAL-01 unfired; fast round-trip on any off-ramp). Scenario marks: FALCON 7/17 **B5 / C30 / D65** (fresher than HAWK's Jun-28 B20/C44/D36; HAWK owns the canonical frame — refresh cite when HAWK re-marks). Arm ARMED-and-HOT, no capital; cooldown gate unmet.
+
 
 ---
 
@@ -71,36 +70,18 @@
 
 ---
 
-## 🟠 STATE — THE TIMED RACE (deficit-closing vs buffer-exhaustion — now with its first data point)
+## 🟠 STATE (v5.1, refreshed 7/21) — PREMIUM REGIME
 
-**⚑ The structural read is a TIMED RACE (full frame: `thesis/THESIS.md` v5.0).** Price has decoupled from a physical market that was still in deficit — the low price rested on a *temporary* buffer release (SPR) + the market *pricing* an expected reopening + real demand softness. It holds durably only IF the deficit closes (Gulf normalizes past 75% + replacement barrels land) BEFORE the buffers hit hard floors. **Jul-1 update: the deficit-closing side just printed its first concrete evidence** — Cushing BUILT (+0.71M) and all three crude draws decelerated. That is the reopening beginning to deliver. It leans the near-term toward gentle-normalization. **Counter-weights still live:** full Hormuz normalization is weeks-to-MONTHS (Pentagon demining ≤6mo; ~80 mines), recovery is spike-then-fade, VERIFIED institutional legs (P&I resumption, liners off Cape, JWC reclass) are still ~0-1/4, and two rising Russian bullish-crude fuses (HAW-15 export pivot, storage saturation) could re-tighten. **Net: the medium-term up-whipsaw (v5.0 upside-convex tail) SOFTENED at the margin today but is not gone; the near-term 0.70 hold is unchanged.** Decisive variable = rate-of-reopening vs rate-of-depletion; price is the lagging tell — watch the reopening 2nd-derivative (does Cushing keep building?), P&I resumption, floating-storage builds.
-
-**Macro (BRT-16):** premise "$90+ sustained through Q2" DECISIVELY FAILED on price ($71, Q2 closed Jun-30) → converting to consumer relief (retail gas $3.83, broke <$4). Inverse-feedback test = Jun CPI Jul 14.
-
-**Russian channel — PRODUCT story, crude LESS affected (HAWK ledger):** Ukraine's refinery campaign at record intensity (throughput 16-yr low; shortages 25+ regions) = bullish PRODUCTS/cracks but soft-to-BEARISH crude (refineries down frees crude for export; floating storage +25%). **Two rising bullish-crude fuses to watch:** (1) **HAW-15 crude-export pivot — CLEANLY UNFIRED.** Russian crude EXPORTS are at a **2026 HIGH ~3.83M bpd** [CONF HAWK KB-187] — the choke has NOT materialized (refinery strikes free crude for export). **Jul-1 correction (self-flag):** the Ukraine crude-export-PORT campaign (Ust-Luga/Primorsk/Novorossiysk) was **March-April**, not June — I initially misread a June-published Carnegie recap as June events. Those ports were hit hard (Ust-Luga 16/54 tanks) but **RECOVERED** (Ust-Luga crude loadings **+49% MoM in May**, CREA); now logged to `refinery_damage/INCIDENTS.tsv` **RF-011/035/036**. **June+ the campaign shifted to REFINERIES** (product/crack channel) — HAWK's Jun-20 "refineries-only June" framing was **CORRECT** (no discrepancy). HAW-15 fires only on a **RENEWED pivot back to crude-export infra**, which has NOT happened. Still the live Tier-1 convex-arm trigger. (2) storage/Urals saturation forcing wellhead shut-ins. Either firing REMOVES Russian crude → deficit harder to close (re-arms the up-tail).
-
----
-
-## 🔴 STORAGE — DRAWS DECELERATED; CUSHING BUILT (the 2nd-derivative turned)
-
-**[CONF EIA wk-6/26, live v2 API]:**
-- **SPR 325.7M (−5.54M) — draw decelerated, still 40-yr low.** Runway AUTHORIZATION-bound: 172M emergency release fully withdrawn ~early July [Semafor/Argus] → DOE re-auth decision (~Jul 3 gate). ~17.5M physically drawn of 172M authorized — "fully withdrawn early July" likely = first tranche.
-- **🟢→ Cushing 19.67M (+0.71M) — FIRST BUILD, sub-floor drain REVERSED.** Still under the 20M operational floor but direction flipped = reopening barrels / less pull. Boundary #3 (WTI dislocation) risk EASING at the margin.
-- **Commercial crude 408.4M (−3.77M)** — draw decelerated from −6.1M.
-- **Distillate 108.6M (+2.48M build)** — softness tell (demand). Refinery util 96.6% — margin-boom persists.
+- **The v5.0 timed race RESOLVED UP:** the reopening REVERSED into a formal closure before the buffers refilled — the up-whipsaw branch fired (full frame → `thesis/THESIS.md` v5.1). Price $76→$92 on **risk-premium alone; zero barrels destroyed** ("no destruction YET" — LESSONS-grade phrasing). Round-trip risk on any Muscat off-ramp is fast and violent; that is why deploy discipline stays tight while the thesis "wins."
+- **Path A is DEAD as written** — Iran formally REPUDIATED its MOU commitments 7/13 [SIG-W-20260716-002]; sanctions reimposed 7/8; blockade live. The old reopening-legs framework (P&I/liners/transits) is moot until a NEW off-ramp exists; BRT-07/17 timers colder than ever.
+- **Path B (demand) may REOPEN:** retail gas re-crossed $4.00 (7/20); a sustained organic demand-destruction leg would be a NEW prediction (BRT-21's simultaneity test stays contaminated/unreachable).
+- **Buffers (live levels → dashboard):** SPR 43-yr low vs §6241 floor 252.4M; Cushing barely back above the 20M floor on PRE-closure data; **first post-closure inventory read = 7/22 EIA.** Two physical stress axes now live: CPC Kazakh halt (RF-038) + the threatened Yanbu bypass (vector above).
 
 ---
 
-## 🟠 PATH A / PATH B
 
-**Path A (diplomatic): "signed," repriced the tape, operational gate STILL open — but physical flow now DELIVERING.** MOU signed Jun 17; the Cushing build + decelerating draws (Jul-1) are the first sign reopening barrels are landing. Formal completion still needs commercial P&I resumption + liners off Cape + sustained transits (~0-1/4 verified legs).
+---
 
-**Path B (demand destruction): triggers RESOLVED sub-threshold — the demand leg was pre-empted by Path A.**
-- **Trigger #1 (M1−M3 <$3 ×3): COMPLETED Jun 15** — but on the Path-A price crash, not organic demand destruction → contaminated (BRT-21 not marked resolved on it). Curve in contango.
-- **Trigger #2 (gasoline ≤−5% YoY ×3 wk): 0/3, window CLOSED Jun-30 → BRT-08 RESOLVED.** Peak destruction −2.58% (wk-6/26); never reached −5%. Demand softened but the −5% bar was pre-empted (Brent fell for SUPPLY reasons).
-- **Trigger #3 (CFTC MM declining 2 wk): 1/2** — Jul-3 COT (Jun-30 data) is the re-fire test (kinetic-week covering vs continued liquidation).
-- **Rigs (BRT-26): 440 (+7 WoW from 433)** [CONF Baker Hughes wk-6/26] — resumed climbing; 17 to the 457 (+50-from-407-trough) threshold; rigs lag price 4-8wk so the sub-$75 tape hasn't fed through.
-- **Cracks:** WIDENING not compressing (refiners +4.38% 1d on crude-down; BRT-12 signal absent).
 
 ---
 
@@ -119,11 +100,11 @@
 | **Refinery utilization** | **96.2%** — margin-boom / crack-squeeze territory | wk-7/10 EIA [CONF] |
 | **Gasoline 4-wk YoY** | **−1.06%** (eased from −2.58% peak; Trigger #2 resolved BRT-08, never −5%) | wk-7/10 EIA [CONF] |
 | **Spec positioning (COT)** | **🔴 7/14 GRADED = SQUEEZE IGNITING (partial):** MM gross shorts 129,072→**119,187 (ΔS −9,885**, in IGNITING band). Crowded short began covering into the closure spike — BUT de-grossing-led (net −2,067; longs −11,952 > shorts −9,885), ICE-WTI sibling shorts BUILT +8,531, ~92% fuel remains → igniting, NOT ignited. Raw `f_disagg.txt` (Socrata lagged); anchor reconciled exact. Prior: 7/10 spring-fuel CONFIRMED (shorts +6,753 into 7/7). | **7/14 [CONF CFTC raw]** |
-| **US oil rigs (Baker Hughes)** | **445 (+5); 12 to 457** — next BH ~Jul 17; closure may stall shale-response capex | wk-7/2 [CONF BH] |
-| **USO (convex-arm ref)** | **$121.25 (−0.10%)** — +17% off $103.82 (Jul-1); chain pulled LIVE at arm-time | Jul 16 live [CONF FORGE] |
-| **VLCC proxies** | Frontline $37.67 (−0.61%); DHT $17.98 (−0.17%) | Jul 16 live [CONF boot.py] |
+| **US oil rigs (Baker Hughes)** | **🔴 452 (+7); 5 to 457** — highest since May-2025, 12th rise in 13 wks; BRT-26 breach watch next print ~7/24 | wk-7/17 [CONF BH via Oil&Gas360/EnergyNow] |
+| **USO (convex-arm ref)** | **$128.85 (+2.66%)** — +24% off $103.82 (Jul-1); chain pulled LIVE at arm-time | Jul 21 [CONF Yahoo] |
+| **VLCC proxies** | Frontline $38.45 (+4.12%); DHT $18.47 (+3.24%); STNG $79.66 (+2.15%) | Jul 21 [CONF Yahoo] |
 | Retail gas (FRED GASREGW) | **🟠 $4.001 — RE-CROSSED $4.00** (prior peak $4.55 on 5/21; trough ~$3.73 ~7/4). De Haan 7/13 "7-10 day" re-cross call resolved TRUE; consumer end = CARL | Jul 20 [CONF FRED] |
-| VIX (equity) | 16.18 (+3.25%) — equity calm; the vol crisis is oil-SPECIFIC (OVX 61) | Jul 16 [CONF boot.py] |
+| VIX (equity) | 17.05 — equity calm; the vol crisis stays oil-SPECIFIC (OVX 63.78) | Jul 21 [CONF Yahoo] |
 
 ---
 
@@ -159,18 +140,15 @@
 
 ---
 
-## PREDICTIONS — Jul 1 status (full ledger: thesis/PREDICTIONS.tsv — 11 CONFIRMED / 4 RESOLVED-SPLIT / 3 FAILED / 6 OPEN)
+## PREDICTIONS (7/21 — canonical ledger: `thesis/PREDICTIONS.tsv` — 11 CONFIRMED / 4 RESOLVED-SPLIT / 3 FAILED / 2 NOT-FIRED-PRECONDITION / 1 PARTIAL / 1 RETIRED / 6 OPEN)
 
-| ID | Status | Note |
+| ID | Status (7/21) | Note |
 |----|--------|------|
-| **BRT-08** | **RESOLVED Jul 1** | Gasoline never hit −5% in-window (peak −2.58%) → DIR-CONFIRMED / THRESHOLD-UNREACHED; Path-A pre-empted the demand leg |
-| **BRT-09** | **RESOLVED Jul 1** | Q2 window closed; aviation-leads MECHANISM-CONFIRMED but full 4-8wk lead-lag INCOMPLETE (gasoline never confirmed −5%) |
-| **BRT-28** | **RESOLVED Jul 1** | HAW-10 (Bab-proper) expired unfired → MECHANISM-CONFIRMED (premium bled out) / THRESHOLD-MOOT (structural drove Brent to $71) |
-| BRT-21 | OPEN — Path-B pre-empted | #1 contaminated, #2 window-closed 0/3 (via BRT-08), #3 = Jul-3 COT. All-3-simultaneous now structurally unreachable on this path |
-| BRT-07/17 | OPEN — timer COLD | reopening delivering (Cushing build) but the operational START-GUN (P&I resumption) UNMET; $20-40 drop largely pre-empted (Brent already −39% from peak) |
-| BRT-12 | OPEN — compression ABSENT | cracks WIDENING (refiners +4.38% on crude-down); z ~+1.3σ exhausted. NOT DUE (Q3) |
-| BRT-16 | OPEN — premise FAILED | "$90+ sustained" dead at $71; consumer relief; inverse-feedback CPI Jul 14 |
-| BRT-26 | OPEN — advancing | **440 (+7); 17 to 457**; rigs lag price → deceleration test mid-Jul; conf ~50-55% |
+| **BRT-26** | OPEN — **BREACH IMMINENT** | rigs **452** (wk-7/17, +7); 5 to 457 — likely FAILS at the ~7/24 print (closure-regime prices overwhelming the shale-discipline premise); grade at the print |
+| BRT-16 | OPEN — premise re-arming | $92 Brent + $4.00 pump; July CPI (~Aug 12) carries the shock; H2-26–H1-27 window |
+| BRT-07 / 17 | OPEN — timer COLD, receding | reopening reversed into formal closure; P&I start-gun further than ever |
+| BRT-12 | OPEN — compression ABSENT | cracks record-WIDE (3-2-1 $64.58 7/8; diesel ~$80; OECD diesel 4th %ile); NOT DUE (Q3) |
+| BRT-21 | OPEN — structurally unreachable | #1 contaminated, #2 window-closed, #3 N/A on a rising tape |
 
 ---
 
