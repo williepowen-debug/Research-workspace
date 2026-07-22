@@ -22,3 +22,5 @@ date	agent	cause	note
 2026-07-17	REGINALD	stale	brief 7/9 vs STATUS 7/16; read raw STATUS — bank-read delivered (benign big-bank cohort, CHG-RED-040 idiosyncratic adjudication, REG-24 65%, CCC/HY 3.6x armed 1-of-3)
 2026-07-17	VULCAN	stale	brief 7/12 vs STATUS 7/17 (useful-life card session); 7/17 memo consumed via PROME packet + direct read
 2026-07-17	LIQUID	stale	brief 7/6 vs STATUS 7/11; read raw STATUS — LIQ-06 pre-reg (HY 265-280 band, tracking CONFIRM), SOFR-short decomposition, dealer-nexus watch
+2026-07-22	REGINALD	stale	brief 7/20 < STATUS 7/21 (WAL/OZK Stage-1 grades post-date brief); read raw STATUS
+2026-07-22	BROCK	stale	brief 7/9 < STATUS 7/20 (welds + marks-window prep + GATE-LIQ-079 all post-date brief); read raw STATUS
