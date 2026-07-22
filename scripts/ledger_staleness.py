@@ -26,12 +26,20 @@ Boot wiring (drop into an agent's boot sequence):
 and surface the one-line summary; decide freeze-vs-refresh at closeout.
 """
 import argparse
+import datetime
 import glob
 import os
+import re
 import subprocess
 import sys
 
 REPO = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+
+# PAT-044 two-clock header: "Last real data refresh: YYYY-MM-DD" in the header block.
+# The portable staleness signal — survives clone-flattened git history (cloud sessions)
+# and hygiene-edit git-time resets (banner/tag passes), both of which make time-based
+# grading go false-clean on genuinely stale data (PAT-039, 2 observed instances).
+CONTENT_DATE_RE = re.compile(r"last\s+real\s+data\s+refresh[:\s]+(\d{4}-\d{2}-\d{2})", re.IGNORECASE)
 
 # By-name non-live files: definitions/archives/backups/snapshots are SUPPOSED to
 # be static, so staleness is meaningless for them. Exempt from the alert (shown as
@@ -56,8 +64,27 @@ def git_time(path):
         return None
 
 
+def content_time(path):
+    """Two-clock header date (first ~8 lines), or None. Preferred over git time when
+    present: the DATA clock can't be laundered by a hygiene edit or a flattened clone."""
+    try:
+        with open(path, "r", encoding="utf-8", errors="replace") as f:
+            head = "".join(f.readline() for _ in range(8))
+        m = CONTENT_DATE_RE.search(head)
+        if m:
+            return int(datetime.datetime.strptime(m.group(1), "%Y-%m-%d").timestamp())
+    except (OSError, ValueError):
+        pass
+    return None
+
+
 def file_time(path):
-    """Prefer git-commit time (clone/checkout-stable); fall back to fs mtime."""
+    """Prefer the in-content two-clock date (PAT-044/PAT-039); then git-commit time
+    (clone/checkout-stable); then fs mtime. Files without the header behave exactly
+    as before this change (2026-07-22)."""
+    t = content_time(path)
+    if t is not None:
+        return t
     t = git_time(path)
     if t is not None:
         return t

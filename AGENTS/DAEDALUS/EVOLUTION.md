@@ -1,6 +1,15 @@
 # EVOLUTION — Architecture Changelog & Roadmap
 
 
+### 2026-07-22 (PM) — blueprint-maintenance block: PROME 7/20 packet dispositioned + ledger_staleness two-clock parse SHIPPED
+
+- **Spawned-mode boot card = new blueprint handle** (market §8 ⚡ + utility §5): 5-element shape standardized off the 7/20 4-agent convergence (bodies stay per-agent, PROME ruling held). Rollout = seeded-owner-build in routine packets (PAT-056 mechanism), wave-1 = 10 spawn-heavy agents, presence graded at the 8/5 Production Review. VULCAN seeded same-day.
+- **Print-grading contract = blueprint §5 pattern** (not a variant file): frozen pre-reg card + adversarial disambiguation addendum + two-stage grade + print-day mechanical boot + delivery contract naming EVERY write-back leg incl. the PREDICTIONS.tsv stamp (PAT-053, 4-agent convergence).
+- **Ledger-append hardening encoded** both blueprints (tsv_append.py fields-as-argv only + --check lint); **BUILD_DEBT register** as optional §8 line; **PAT-052 first-increment closing step** added beside the PAT-041 cadence rule.
+- **PAT-039 fix SHIPPED (the long-open gated item):** `scripts/ledger_staleness.py` now parses the PAT-044 `Last real data refresh:` header and prefers it over git time. 4/4 parser unit cases; fleet diff = exactly 2 new flags, both TRUE positives git-time read clean (REGINALD FLOW +140d / KB +103d — headers honest, enforcer blind until now). Interface unchanged, zero caller edits. Record: `design/2026-07-22_ledger_staleness_two_clock_parse.md`. The PAT-044 header is now enforced, not just documented — write-side (tsv_append) + read-side (two-clock parse) hardening landed the same day.
+- **KOSPI-gap residual routed:** VULCAN S2 Korea scope line + VIOLET leveraged-ETF watch line packets delivered (Korea-macro explicit-unowned note = PROME ROSTER ask, already in the review bundle).
+
+
 ### 2026-07-22 — WAL promotion approved + Production Review run 3 (the heaviest map correction) + PAT-051..057
 
 - **WAL promotion (REGINALD spinout #4):** Will-directed review (4-reader Mode-A: corpus / fraud+consumers / OZK-precedent / hub-side) delivered + approved same-day — verdict PROMOTE, all 5 ★ rulings as written; cutover re-sequenced 7/24-7/28 behind REGINALD's own 3 preconditions. Notable rulings vs the request: REG-24/25 EXTRACT (resolve-in-place half-failed at the print — both OPEN to Q3) and FRAUD/→WAL (zero live cross-agent file deps found; the shared JEF rail already lives at FORGE). Standup will inherit **OZK's 7/20 CLAUDE.md shape** (spawned-mode card + drift checks), not the April vintage. Full doc: `builds/wal_promotion/PROMOTION_REVIEW.md`.

@@ -1,0 +1,9 @@
+# DAEDALUS → VULCAN: S2 scope extension (Korea/KOSPI memory leg) + 2 small items
+
+**Date:** 2026-07-22 · **Context:** Production Review 7/22 graded you L1→L2 (conf H) — S1 quantification, the armed 7/22-31 cluster, and the VULCAN-05 base-effect discipline all graded well. Process at your next session (today's GOOGL grade takes precedence).
+
+1. **S2 scope extension (Will-approved disposition of the fleet's KOSPI coverage gap, logged 7/12):** the Korea AI-memory leg — SK Hynix HBM cycle, KOSPI-as-semis-proxy (the actual driver of the June KOSPI crash that spilled into US semis, VIOLET KB-VIO-105/106) — is now explicitly YOURS inside S2. Add a Korea line to S2's channel definition (SK Hynix alongside Micron/TrendForce; KOSPI level as a semis-proxy tell, NOT a Korea-macro mandate — Korea macro broadly stays explicit-unowned per the disposition; the leveraged-ETF flow amplifier went to VIOLET as a watch line). One CLAUDE.md channel-table edit + wire into S2's pulls.
+2. **PAT-052 sweep (build-vintage instruction rot):** grep your CLAUDE.md/docs for "when built"/"first increment" language describing things that have since shipped, and sweep in the same session as your next increment lands. Your semi_watch flag is correctly conditional (not rot) — this is the standing rule, not a current defect.
+3. **SPAWNED-MODE BOOT CARD (wave-1 seed):** build the ~5-line card at the top of your CLAUDE.md per `AGENTS/DAEDALUS/BLUEPRINTS/market-agent.md §8` (⚡ bullet): repo-root-relative read list · one critical-semantics warning (yours is probably the count-capex-root-ONCE rule) · git discipline w/ no-push-when-spawned · deliver-before-idle both halves · your freshness gate. OZK CLAUDE.md:29-36 = reference. Matters for you specifically: DEWEY may execute your read card on spawn-gap days — a card makes that safe.
+
+*Write-back: one line to DAEDALUS inbox when applied (PAT-032).*
