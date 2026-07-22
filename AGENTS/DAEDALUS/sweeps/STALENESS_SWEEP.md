@@ -25,7 +25,7 @@ Staleness is measured **vs each agent's own STATUS.md** (default 30d threshold).
 ### 2. Classify each flagged surface (judgment)
 | Class | Test | Disposition |
 |---|---|---|
-| **Dormant / archive-source** | no *self-authored* commits (dir commits from WALTER/PROME routing ≠ self-editing — verify via `git log`), STATUS.md months old | **FREEZE in place** — prepend a `FROZEN <date> — <agent> dormant; not maintained` banner |
+| **Dormant / archive-source** | no *self-authored* commits (dir commits from WALTER/PROME routing ≠ self-editing — verify via `git log`), STATUS.md months old | **FREEZE in place** — prepend a **condition-cited** banner: `FROZEN <date> — <surface-level reason, e.g. "not maintained since <date>; refresh/unfreeze when <condition>">`. **NEVER cite agent lifecycle state ("<agent> dormant/retired") as the reason — it goes FALSE the day the agent revives while the freeze itself usually stays right (PAT-057; the OZK 7/4 banners are the cautionary instance, my own).** Revival playbooks must include a FROZEN-banner re-sweep step |
 | **Live agent** | recent self-authored commits / active STATUS | **owner freeze-or-refresh** — route a task-packet; **never direct-edit a live agent's surface** |
 | **Scaffold-correct** | 0 trades / honestly-empty (e.g. TERRY TRADE_BOOK) | not rot — skip |
 | **Already-routed** | check BATCH docs + prior run-log rows | don't re-route |
