@@ -187,16 +187,7 @@ Mirror of boot — write back what you read:
 
 ## CONVERGENCE MATRIX
 
-| # | Market | Score | Status | Key Signal | Upgrade Trigger |
-|---|--------|-------|--------|------------|-----------------|
-| 1 | Bank failure Apr 30 | 3 | 🟠 | 19% Yes, $9K vol | >25% or vol >$50K |
-| 2 | Bailout before 2027 | 3 | 🟠 | 24% Yes, low vol | >35% or named institution |
-| 3 | Recession 2026 | — | — | Need current odds | >60% |
-| 4 | Fed cuts 2026 | — | — | Need current odds | Shift >15pp/week |
-| 5 | Iran ceasefire | — | — | Need current odds | >50% (challenge our thesis) |
-| 6 | Which banks fail Jun 30 | 2 | 🟡 | GS 2% top, $358K vol | Any name >10% |
-| 7 | AI bubble burst 2026 | 2 | 🟡 | 20%, $3M vol (deep) | >40% |
-| 8 | Nothing Ever Happens 2026 | 2 | 🟡 | 44%, $443K vol | <30% (tail risks pricing in) |
+**The live convergence matrix lives in `STATUS.md`** (rewritten every closeout with current scores/status/triggers) — this instructions file does not duplicate it, to avoid the stale-embedded-example rot a frozen copy invites (the old Apr/Jun-vintage table was removed in the 2026-07-22 file-sweep). Read `STATUS.md` § Convergence Matrix for the current state; the thresholds that drive it are the KEY THRESHOLDS table above.
 
 ---
 

@@ -7,13 +7,12 @@
 Recession 2026 (NBER)	market	KXRECSSNBER-26	T1	HENRY,LABOR,RED
 Fed hike by July (>3.75%)	market	KXFED-26JUL-T3.75	T1	LIQUID,HENRY
 Fed >4.00% after July	market	KXFED-26JUL-T4.00	T1	LIQUID,HENRY
-# Near-dated (resolve mid-July — roll after print):
-June CPI YoY >3.5%	market	KXCPIYOY-26JUN-T3.5	T1	HENRY
-June CPI YoY >3.6%	market	KXCPIYOY-26JUN-T3.6	T1	HENRY
-June CPI YoY >3.8%	market	KXCPIYOY-26JUN-T3.8	T1	HENRY
-# FINALIZED 2026-07-02 (fetcher self-flags [finalized] at pull; last prices >4.2%=82%, >4.3%=25%) — kept pinned: still returns clean data harmlessly, no roll needed until a July U3 event opens. NOTE: [finalized] is the fetcher's own tag, not an independently-verified binary settlement (82%/25% reads as last-trade, not confirmed 100/0) — do not cite these two rows as a confirmed TRUE/FALSE outcome; LABOR/HENRY own the actual BLS-print read.
-June U3 unemployment >4.2%	market	KXU3-26JUN-T4.2	T1	LABOR,HENRY
-June U3 unemployment >4.3%	market	KXU3-26JUN-T4.3	T1	LABOR,HENRY
+# ROLLED 2026-07-22 (sweep) — June CPI (printed 7/14) + June U3 (printed 7/2) both FINALIZED, pulling as [finalized] dead weight every session. Rolled to the OPEN July events: July CPI resolves 8/12, July U3 resolves 8/07. July CPI prices a disinflation step-down vs June's ~3.7%: >3.3% 70% / >3.4% 28% (near coin-flip, the informative rung) / >3.5% 10%. July U3: >4.2% 57% / >4.3% 13%.
+July CPI YoY >3.3%	market	KXCPIYOY-26JUL-T3.3	T1	HENRY
+July CPI YoY >3.4%	market	KXCPIYOY-26JUL-T3.4	T1	HENRY
+July CPI YoY >3.5%	market	KXCPIYOY-26JUL-T3.5	T1	HENRY
+July U3 unemployment >4.2%	market	KXU3-26JUL-T4.2	T1	LABOR,HENRY
+July U3 unemployment >4.3%	market	KXU3-26JUL-T4.3	T1	LABOR,HENRY
 #
 # ===== WATCH / DISCOVERY (series exist; no OPEN event as of 2026-06-27 — re-check & pin when listed) =====
 # These are the high-value GAP-FILLS Polymarket lacks — pin specific tickers once Kalshi opens the next event:
@@ -30,7 +29,7 @@ June U3 unemployment >4.3%	market	KXU3-26JUN-T4.3	T1	LABOR,HENRY
 # METHOD NOTE: the `kalshi.py search` command is UNRELIABLE for macro discovery — it scans /markets?status=open (sports-dominated slice), so "recession"/"oil"/"crude" all return 0 even though those markets exist & pull fine by ticker. AUTHORITATIVE discovery = /series?category=X then /events?series_ticker=X&status=open (used here). The 7/9 "comprehensive sweep = zero open" rests partly on the shaky search — re-run the authoritative sweep, not `search`.
 # STILL zero open events (7/17, authoritative): KXCREDEF/KXCREDEFMAX (CRE default), KXCCDELINQ (CC delinquency), KXMORTGAGEDEF (mortgage default), KXFEDFACILITY (Fed facility), KXCREDITCDEF (CC defaults), CREDITC (SOFR crunch), YINVERT (yield inversion). Those specific gap-fills DO still hold — re-check each session.
 # CORRECTION: broader structural-credit axis is NOT fully un-priced. These credit-stress gauges ARE open+liquid now:
-# CREDIT: US credit-rating-downgrade 2026 — DEEP ($67.6K vol / $34.0K OI), the standout systemic-credit gauge Polymarket lacks. 16% Yes.
+# CREDIT: US credit-rating-downgrade 2026 (KXCREDITRATING-26DEC31, resolves 2027-01-01) — DEEP ($71.0K vol / $32.7K OI), the standout systemic-credit gauge Polymarket lacks. ⚠️ 2026-07-22 sweep: reads 4.0% last-trade / bid-ask 4–9.5¢ (~6.75% mid) — the 16% figure logged 7/17 does NOT reproduce on the same ticker. Either a real fade (downgrade scare easing) or a 7/17 over-read; stop citing 16% as current — see KB-ORC-045.
 US credit rating downgrade 2026	market	KXCREDITRATING-26DEC31	T1	REGINALD,CARL,LIQUID
 # CREDIT: corporate bankruptcy count (yearly) — >750 companies 83% ($6.2K vol/$6.0K OI). Corporate-distress gauge. -> CARL,REGINALD
 Corporate bankruptcies 2026 >750	market	KXBANKRUPTCY-26-750	T2	CARL,REGINALD

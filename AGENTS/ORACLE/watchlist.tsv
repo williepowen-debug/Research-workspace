@@ -9,8 +9,8 @@ Fed: hike at July mtg	market	will-the-fed-increase-interest-rates-by-25-bps-afte
 Major bank bailout before 2027	market	major-us-bank-bailout-before-2027	T1	LIQUID,BROCK
 # ROLLED 2026-07-02 — "US bank failure by Jun 30" + "Which banks fail by Jun 30" event RESOLVED 6/30; kept EOY named-bank event (below). No July single-binary bank-failure market exists yet — keep re-searching.
 # FOUND 2026-07-09 (structural-credit sweep, Tier-3 open-threads item) — the July single-binary bank-failure market the 7/2 note said didn't exist yet now does. 18.0% Yes, $13.6K vol/$7.0K liq (thin, ⚠️re-check). Also pinned a companion Dec-31 binary (66.0%, $844 vol/$4.1K liq — very thin, NOTE: reads far above the "Which banks fail EOY" event's top named-bank leg (~2.6%) — different question scope (ANY bank vs a specific named list), not a contradiction, but worth a divergence note if it persists.
-US bank failure by Jul 31	market	us-bank-failure-by-july-31-20260630183502534	T1	REGINALD,CARL
-US bank failure by Dec 31 2026	market	us-bank-failure-by-december-31-2026-20260629191920016	T2	REGINALD,CARL
+# RETIRED 2026-07-22 (sweep) — both prior bank-failure binaries went "not found" (delisted): us-bank-failure-by-july-31 (resolved 7/31) + old Dec-31 slug ...0629191920016 (relisted). Replaced by the fresh Dec-31 binary below (relisted 7/20, 73.0% on $3.1K vol ⚠️thin — ANY-bank scope, reads far above the "Which banks fail EOY" named-bank leg; different question, not a contradiction).
+US bank failure by Dec 31 2026	market	us-bank-failure-by-december-31-2026-20260720194747677	T2	REGINALD,CARL
 US debt default by 2027	market	us-defaults-on-debt-by-2027	T2	BOND
 # ROLLED 2026-07-02 — "Iran ends enrichment by Jun 30" RESOLVED; Jul-31 + Dec-31 rows below carry it.
 AI bubble burst 2026	market	ai-industry-downturn-by-december-31-2026-857	T2	BROCK
@@ -31,18 +31,17 @@ Russia-Ukraine ceasefire by Dec 31	market	russia-x-ukraine-ceasefire-agreement-b
 China invade Taiwan before 2027	market	will-china-invade-taiwan-before-2027	T1	HAWK,PROME
 # China / Japan macro
 China annual GDP growth 2026	event	china-annual-gdp-growth-2026	T1	ZHAO
-China-Philippines clash before 2027	market	china-x-philippines-military-clash-before-2027	T2	ZHAO,HAWK
+# RETIRED 2026-07-22 (sweep) — "china-x-philippines-military-clash-before-2027" went "not found" (delisted). No clean replacement surfaced (search returned Bangsamoro-election + travel-tracker noise). COVERAGE GAP: China-Philippines/SCS clash tail now unpinned (ZHAO/HAWK); re-pin if a SCS/Philippines-clash market relists.
 BOJ July decision	event	bank-of-japan-decision-in-july-659	T2	SAM
 # Crypto / cross-asset risk appetite
-Bitcoin dip to $40K by Dec 31	market	will-bitcoin-dip-to-40000-by-december-31-2026-593-522-842-874-931-776-991-167	T2	RED,LIQUID,BROCK
+# RETIRED 2026-07-22 (sweep) — "will-bitcoin-dip-to-40000-by-december-31" went "not found" (delisted). Only live BTC markets are July UPSIDE-touch ladders (wrong signal — this was a DOWNSIDE crash tail). COVERAGE GAP: crypto downside-stress tail unpinned (RED/LIQUID/BROCK); re-pin if a Dec-31 downside-dip/crash market relists.
 Best asset 2026 (SP/Gold/BTC)	event	bitcoin-vs-gold-vs-sp-500-in-2026	T3	RED,HENRY
 
 # ===== ADDED 2026-06-22 (Will: July catalysts + FL season-watch) — NEAR-DATED, roll/drop after resolve =====
 # July prints (resolve mid-July) — front-run vs the actual release; the provision swing-rungs are the crowd's central estimate (thin per-rung, watch the drift not the level)
 # REPINNED 2026-07-17: June CPI RESOLVED (printed 7/15; Kalshi finalized >3.6% 99% / >3.8% 26% -> June landed ~3.7%). Rolled to the July event (created 7/14). As of 7/17 the modal ladder prices a NOTABLE DISINFLATION step-down vs June's ~3.7%: 3.3% 27.5% / 3.4% 31.0% (modal) / 3.5% 15.0% — i.e. the crowd expects CPI to FALL even with the oil/Hormuz premium repricing. That tension is HENRY's, flagged not resolved.
 July CPI print (modal)	event	july-inflation-us-annual-20260714150613267	T1	HENRY
-Citi Q2 cr-loss prov >$2.9B	market	will-citigroup-c-q2-provision-for-credit-losses-be-above-2pt9b	T1	REGINALD,CARL
-BAC Q2 cr-loss prov >$1.4B	market	will-bank-of-america-bac-q2-provision-for-credit-losses-be-above-1pt4b	T1	REGINALD,CARL
+# RETIRED 2026-07-22 (sweep) — Citi + BAC Q2 provision binaries both went "not found" (Q2 earnings reported mid-July → resolved/delisted). Re-pin Q3 provision markets when they open (~early Oct).
 # Florida hurricane season-watch (thin live depth, high lifetime vol — ≥3-day re-check, do not mark single prints)
 FL: Cat-4 hurricane by 2027	market	will-any-category-4-hurricane-make-landfall-in-the-us-in-before-2027	T3	CORAL,MARCO
 FL: Cat-5 hurricane by 2027	market	will-any-category-5-hurricane-make-landfall-in-the-us-in-before-2027	T3	CORAL,MARCO
@@ -52,15 +51,15 @@ FL: Cat-5 hurricane by 2027	market	will-any-category-5-hurricane-make-landfall-i
 Iran ends enrichment by Jul 31	market	iran-agrees-to-end-enrichment-of-uranium-by-july-31	T2	HAWK,BRENT
 Iran ends enrichment by Dec 31	market	iran-agrees-to-end-enrichment-of-uranium-by-december-31	T2	HAWK,BRENT
 US-Iran deal 2026 (components)	event	what-will-be-in-a-us-iran-deal-in-2026-20260624150226501	T2	HAWK,BRENT
-# Hormuz: near-term normalization re-clock (deep $4.5M) replaces the Jun-30 one
-Hormuz traffic normal by Jul 15	market	strait-of-hormuz-traffic-returns-to-normal-by-july-15	T2	HAWK,BRENT
+# RETIRED 2026-07-22 (sweep) — "strait-of-hormuz-traffic-returns-to-normal-by-july-15" RESOLVED (Jul 15 passed / not found). The Dec-31 Hormuz-normal market (above) carries the normalization read.
 # Banks: year-end named-bank event replaces the Jun-30 named-bank event (BAC 7.4%, GS 2.5% top). NOTE: no July single-binary bank-failure market exists yet — keep re-searching.
 Which banks fail by EOY 2026	event	which-banks-will-fail-by-end-of-2026	T1	REGINALD
 
 # ===== REPINNED/ADDED 2026-07-02 (roll-watch — 3 pins resolved: WTI-July-ladder + iran-targets-shipping-Jun27 + Jun WTI binaries) =====
 # Oil: the resolved June $100/$70 binaries + the stale "July ladder (HIGH)" event pin (returned 100% RESOLVED) replaced by two clean LIVE July legs. $100 = war-premium gauge (deepest, $126K liq); $80 = elevated-oil gauge. As of 7/2: $100 1.6%, $80 11.5% — oil calm, NO supply premium despite Hormuz disruption.
 WTI hits $100 (Jul) — war premium	market	will-wti-reach-100-in-july-2026-928	T2	BRENT,HAWK
-WTI hits $80 (Jul) — elevated	market	will-wti-reach-80-in-july-2026-791	T2	BRENT,HAWK
+# RETIRED 2026-07-22 (sweep) — "will-wti-reach-80-in-july-2026-791" went "not found" ($80 cleared intraday / resolved). Rolled UP to the $90 rung below (now the live war-premium gauge). ⚠️ Both $85 + $90 are INTRADAY-HIGH, month-stamped July (end 8/1) → re-pin Aug rungs on the 8/1 WTI roll alongside the $100 supply leg.
+WTI hits $90 (Jul) — intraday high	market	will-wti-reach-90-in-july-2026-334	T2	BRENT,HAWK
 # ===== RETIRED 2026-07-17 — RESOLVED YES, do not re-pin (kept as the provenance record) =====
 # US blockade on Iran (event us-announces-blockade-on-iran-byptptpt-20260622191049039) — **RESOLVED YES**. Trump announced the blockade Mon 7/13; USN enforcement in effect Tue 7/14 16:00 ET (CNN/Axios/NBC 7/13-7/14). All forward legs settled 100% ($1.9M vol on the Jul-31 leg, liq drained); the past-dated Jun-30 leg sits at 0% = true-resolution signature, NOT the ladder display quirk.
 # CALIBRATION RECORD (the reason this row stays): on 7/9 this market read 48.0% while HAWK's independent ladder D-rung read 46% (KL~0.001 bits) — logged then as an unusually clean real-money audit of HAWK's method. **That ~47% two-source consensus resolved YES within 4 days.** One event is not a track record, but it is a rare scored point FOR the ladder. See KB-ORC-033.
