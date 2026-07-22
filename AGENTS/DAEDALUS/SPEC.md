@@ -89,6 +89,8 @@ A single ladder mis-scores non-market agents — NEXUS/TERRY/ORACLE/YEYOU (and D
 
 L0–L2 = scripted (objective). L3–L5 = agent-judged (quality), against the class rubric. Map output per agent: `class + level + specific gap + next upgrade`.
 
+> **YEYOU-leg waiver (Will, 2026-07-22):** the "zero standing YEYOU flags" leg is **waivable-when-dormant** — if YEYOU (manual/branch, Will-spawned) has not run within the review period, the leg auto-waives and L5 grades on the remaining criteria; a later YEYOU run can retroactively flag (which then counts against the *next* cycle, not retro-demotes). Rationale: 4 otherwise-ready candidates (LABOR/BRENT/VIOLET/WALTER) were blocked on a reviewer that never reviews — a PAT-028-class gate defect (the gate penalized an un-exercisable external dependency, not the agent). The gate stays strict whenever YEYOU actually runs.
+
 ---
 
 ## 6. Lifecycle & permission flow
