@@ -46,6 +46,22 @@
 
 ---
 
+## Association-Lending Exposure Map (installed 7/21 — the condo-association LENDING channel, mostly OFF this watchlist)
+
+**Structural finding (7/21 research):** the channel is largely UNOBSERVABLE through public bank data — the biggest association books are not segment-disclosed, and the purest large FL book is private. **No lender publicly discloses association-loan delinquency/criticized trends**; the transmission will surface as generic CRE/consumer credit or call-transcript color, not a labeled line item. USCB's $126M is the only cleanly-disclosed FL association book — its canary status rests on OBSERVABILITY, not size.
+
+| Lender | Ticker | Association book | FL weight | Observability | Near-term window |
+|---|---|---|---|---|---|
+| First Citizens (ex-CIT CAB) | FCNCA | ~$5.5B HOA deposits (2021 vintage, at CIT sale) | national, FL n/d | not broken out | — |
+| Popular (Popular Assoc. Banking) | BPOP | "$6B+ loans" (marketing, undated; CORAL's $5B+ = same book older) | 30+ states, FL n/d | not segment-reported | **Q2 call Thu 7/23 BMO — transcript-mine for PAB color** |
+| City National Bank of FL | private (Bci) | 3,600+ associations, ~pure FL ($28.6B assets) | **purest large FL book** | **zero — private** | none |
+| Banc of California (ex-PacWest/MUFG HOA) | BANC | top-rank-era deposits (~$5.5B-class) | national, FL n/d | not broken out | — |
+| Western Alliance (Alliance Assoc. Bank) | WAL | top-tier US HOA banker, size n/d | national, FL n/d | not disclosed (Q2 7/21: no assoc. mention; deposits −$849M framed "optimization") | call 7/22 noon (REGINALD's name — CORAL wants any AAB/HOA color) |
+| Valley (Valley HOA) | VLY | AL/FL/NJ/NY, size n/d; not separated from CRE in 10-Q | 4-state incl FL | not disclosed | **Q2 call Thu 7/23 — mine for HOA/association color** |
+| USCB | USCB | **$126M / 470+ associations (Q1-26)** | pure FL | **CLEAN — the only disclosed book** | prints Thu 7/23 AMC |
+
+**Watchlist verdict:** do NOT add these as graded names (low marginal observability). Standing directive instead: **transcript-mine BPOP + VLY (7/23) and WAL (7/22) calls for association-banking color each quarter.** Underwriting benchmark worth keeping: banks commonly deny association loans at **unit-assessment delinquency >15%** (3% excellent / 6-10% poor) — if that threshold starts appearing in FL association credit color, it's the wire tripping. KB ML-CORAL-046.
+
 ## M&A / structural (2026)
 - **Hancock Whitney → One Florida Bank** ($2.1B Orlando bank; $377.6M all-cash; close ~Q3 2026). Out-of-state consolidator buying FL franchise.
 - **Seacoast (SBCF) → Villages Bancorporation** completed (+$4.4B → SBCF now $21.1B). Earlier: SBCF absorbed Professional Holding (PFHD).

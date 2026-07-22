@@ -244,6 +244,43 @@
 
 *Source: Parcl/Lewris + Cotality corroboration via WALTER SIG-W-20260619-002, delivered 2026-06-19. Last updated: 2026-06-20.*
 
+### VX-CORAL-BUYER-01 — Buyer Composition / Absorption Quality — NEW 7/21 (instrumented)
+
+*Discriminates capitulation-clearing (cash/investor absorption at cut prices → comps mark collateral down) from genuine stabilization (owner-occupier demand). Installed after the June absorption paradox (+14% condo sales into a broken demand engine). 7/21 verdict: absorption is cash-tilted in exactly the distressed segments; investor share FALLING in 5 of 6 FL metros (no institutional backstop); Miami the outlier (foreign/luxury cash).*
+
+| Metric | Current | Threshold | Status |
+|--------|---------|-----------|--------|
+| Miami-Dade condo cash share (monthly, Miami Realtors PRIMARY) | **48.5% (Jun-26)**; SF 27.6%; all-property 38.1% (~flat YoY vs 37.8%) | 🟠 ≥55% any month (financing-exit signature, esp. post-8/3) / 🟢 <40% falling = financed demand returning | 🟠 baseline |
+| FL metro investor share (Redfin, QUARTERLY) | Miami 33% (+10% YoY, OUTLIER); Orlando 21% (−25%); Tampa 19% (−17%); Jax 18% (−18%); WPB 20%; FLL 20% (Q1-26) | 🔴 broad re-acceleration (≥3 metros +10% YoY) = distressed-buyer wave / 🟢 continued retreat + prices stabilize = organic | 🟡 (retreating) |
+| Foreign-buyer FL share (NAR annual) + Canadian traffic (realtor.com qtrly) | FL 21% of US foreign purchases #1 (Apr-24→Mar-25, REBOUND +44% units); Canadian traffic share cooling 36.6→32.1% but still 61.4% Cape Coral / 58.8% North Port | Canadian traffic <50% share in SW-FL metros = the snowbird-buyer leg breaking (distinct from tourism arrivals) | 🟡 watch |
+| Vintage/blacklisted cash-only | No public series — proxy = metro condo cash share (blacklisted buildings are cash-only BY CONSTRUCTION) | — | proxy |
+
+*⚠️ Vintage discipline: NAR foreign data is Apr-24→Mar-25 (annual, lagged) — do NOT read it against Q1-26 tourism arrivals; purchases and arrivals are different series (flagged divergence: purchases rebounding while arrivals fall). Statewide FL Realtors cash split exists only in county detail PDFs (unpulled — build item). Source run: 7/21 research pull, KB ML-CORAL-044. Last Updated: 2026-07-21.*
+
+### VX-CORAL-TKOUT-01 — Citizens Takeout-Carrier Fragility (insurance re-arm path) — NEW 7/21 (instrumented)
+
+*The doom-loop re-arm path runs through the carriers that absorbed Citizens' book, not Citizens itself. 7/21 read: BIFURCATED — Slide (largest absorber) is over-covered and profitable; the thin reciprocals/startups are the tail. Base rate confirmed: FedNat/UPC held Demotech A months before failing → a current A is NOT protective on a 12-month horizon. Soft-market twist: new takeout programs got LESS reinsurer syndication (WaterStreet) — the thinnest carriers are both most likely to fail and least covered.*
+
+| Metric | Current | Threshold | Status |
+|--------|---------|-----------|--------|
+| Slide (SLDE, public — the anchor) | CR **55.5%**, NI $139.5M, PIF 508,928 (+46%), reinsurance tower **$5.463B** (+65%), retention ≤25% pre-tax earnings (Q1-26 + 6/1 8-K, PRIMARY) | 🟠 CR >100 or tower shrink at a 6/1 renewal | 🟢 strong |
+| Thin-tail carriers: Manatee / Mangrove / One Alliance / Apex | All Demotech **A "Exceptional"** where confirmed (Manatee affirmed 6/19/26, +KBRA BBB, $25M surplus notes, 2024 reciprocal; Mangrove new-co; **One Alliance current FSR NOT CONFIRMED — verify**; Apex entity-match unconfirmed); surplus figures largely NOT public | 🔴 ANY Demotech downgrade/withdrawal (the FedNat tell: A→S→insolvent inside ~6mo) | 🟡 opaque |
+| FIGA assessment state | **1% emergency assessment ENDS 9/30/26 — two years early** ("wave is over" read; ~$650M policyholder savings) | 🔴 any NEW assessment struck = a carrier failed; note claim caps $250-500K << condo master claims → excess bounces to Citizens | 🟡 (complacency setup) |
+| OIR Stability Unit / consent orders | none surfaced for takeout cohort (clean-or-unpublished) | 🟠 any takeout carrier added to enhanced monitoring | 🟢/opaque |
+
+*Monitoring: demotech.com FSR notifications (annual + event) · SLDE 10-Q/8-K (qtrly + 6/1) · figafacts.com/assessments · floir.gov monthly. Landfall = fires the whole chain. Source run: 7/21 research pull, KB ML-CORAL-045. Last Updated: 2026-07-21.*
+
+### VX-CORAL-CONSTR-01 — FL Construction Employment (housing-correction → labor transmission) — NEW 7/21
+
+*The lagging shoe: if builder capitulation (MSI) and permit decline persist, construction employment is where the housing correction becomes a labor event. Currently only narrative-tracked in the labor pillar; this gives it thresholds.*
+
+| Metric | Current | Threshold | Status |
+|--------|---------|-----------|--------|
+| FL construction employment YoY (BLS SM/CES via FloridaCommerce monthly) | baseline TBD next monthly print (pull with the FL employment release; June print carried transport/health/leisure gains, construction not flagged either way) | 🟡 flat YoY / 🟠 negative YoY 2+ months / 🔴 ≤−3% YoY or −15K jobs | ⏳ baseline |
+| Context inputs | Permits −6.1%; Lennar starts −53%; national construction hiring rate 3.5% series-low; immigrants 37.9% of FL construction workforce (ICE squeeze) | corroborating, not trigger | 🟠 backdrop |
+
+*Owner note: FL statewide UR is CORAL/LABOR co-graded; this vector is the FL construction SECTOR cut, CORAL-owned. Last Updated: 2026-07-21 (installed).*
+
 ### VX-CORAL-BKCY-01 — Bankruptcy Filing Channel
 
 *Bankruptcy is the household/business complement to foreclosure. Volume ranks are real but population-inflated; per-capita and acceleration carry the signal.*

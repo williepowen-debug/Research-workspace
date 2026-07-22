@@ -32,6 +32,7 @@
 | Source | Data | URL | Update Frequency |
 |--------|------|-----|------------------|
 | **DBPR (FL Dept of Business & Professional Regulation)** | Condo complaints, SIRS database, building reports | https://condos.myfloridalicense.com/ | Ongoing |
+| **Receivership-count build (GAP → instrument)** | # FL condo associations in active receivership/termination — CORAL's cleanest distress tell, currently sourced from nothing. Build: Miami-Dade/Broward Clerk civil-docket queries ("receiver" + condominium association), DBPR arbitration/receivership records, FL DFS receiver list (carriers ≠ associations — associations are in circuit court). Biscayne-21 economic-waste ruling would change this counter's meaning overnight. | county clerk portals + DBPR | Build target ~Aug 2026 |
 | **OIR (Office of Insurance Regulation)** | Insurer stability reports, market share, enhanced monitoring | https://floir.gov/ | Monthly |
 | **Citizens Property Insurance** | Policy counts, depopulation, market share reports. **⚠️ Scope rule (7/21): use the policies-in-force DETAIL reports (`citizensfla.com/policies-in-force`) which split personal vs commercial — press paraphrases mislabel totals as "personal" (KB ML-CORAL-035). Depop rounds → `/depopulation-resources`** | https://www.citizensfla.com/policies-in-force | ~Weekly/monthly |
 | **FHCF (FL Hurricane Catastrophe Fund)** | Fund balance, bonding capacity | https://fhcf.sbafla.com/ | Quarterly |

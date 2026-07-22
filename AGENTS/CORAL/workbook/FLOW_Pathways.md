@@ -117,7 +117,44 @@ PRIVATE INSURER FAILS
      at ASSOCIATION DEFAULT]
 ```
 
-**⚠️ TRIGGER RE-SIGNED (7/21/2026 audit fix — diagram kept as mechanism, trigger state corrected):** the insurer-failure trigger is **DORMANT / hurricane-gated**, not live. Verified 7/21: ZERO 2026 FL insolvencies (2021-23 wave over), 17+ new carriers since the reforms, capacity returning, personal rates being CUT. The named examples are **wrong-signed**: Slide and Universal-lineage (One Alliance FKA Universal North America) are now ACTIVE TAKEOUT carriers absorbing Citizens policies in the 6/16 + 8/18 depop rounds — growing, not failing. **What remains LIVE in this pathway:** the association-insolvency leg via *rising commercial/condo master-policy cost* (insurance 25-35% of association budgets, large-coastal $300K-$2M+/yr) — cost-squeeze, not carrier-failure. The full doom-loop re-arms only on a major FL landfall into the soft-priced market (AEOLUS asymmetry; reinsurance −15/−30%). KB ML-CORAL-035/-036.
+**⚠️ TRIGGER RE-SIGNED (7/21/2026 audit fix — diagram kept as mechanism, trigger state corrected):** the insurer-failure trigger is **DORMANT / hurricane-gated**, not live. Verified 7/21: ZERO 2026 FL insolvencies (2021-23 wave over), 17+ new carriers since the reforms, capacity returning, personal rates being CUT. The named examples are **wrong-signed**: Slide and Universal-lineage (One Alliance FKA Universal North America) are now ACTIVE TAKEOUT carriers absorbing Citizens policies in the 6/16 + 8/18 depop rounds — growing, not failing. **What remains LIVE in this pathway:** the association-insolvency leg via *rising commercial/condo master-policy cost* (insurance 25-35% of association budgets, large-coastal $300K-$2M+/yr) — cost-squeeze, not carrier-failure. The full doom-loop re-arms only on a major FL landfall into the soft-priced market (AEOLUS asymmetry; reinsurance −15/−30%). **Re-arm path SHARPENED (7/21 instrumentation, VX-CORAL-TKOUT-01):** the weak link on landfall is the THIN TAKEOUT CARRIERS (Manatee/Mangrove/One Alliance/Apex — young, opaque surplus, and new programs got LESS reinsurer syndication in the soft market), NOT Slide (over-covered, $5.46B tower) and not Citizens (shrunk to 278K). Chain: landfall → thin-carrier failure (base rate: FedNat/UPC held Demotech A pre-collapse) → FIGA re-strike needed just as its 1% assessment ENDS 9/30/26 → claims above $250-500K caps + bounced policies → Citizens re-inflates → depop reverses. KB ML-CORAL-035/-036/-045.
+
+---
+
+## Counter-Pathway: Personal-Insurance Easing → SF Stabilization (the bifurcation engine) — ADDED 7/21/2026
+
+*The easing side of the insurance split, previously undocumented here. This is the strongest live falsify-side force on the broad thesis — and simultaneously the engine of the SF-vs-condo bifurcation.*
+
+```
+2022-23 TORT REFORM + QUIET SEASONS + CAPACITY RETURN
+         │
+         ▼
+┌─────────────────────────────────────────────┐
+│  PERSONAL-LINES COST DECOMPRESSION           │
+│  - Citizens −8.8% multiperil eff 7/1/26      │
+│  - Carriers filing −5% to −15%               │
+│  - Reinsurance −15/−30% (Citizens −29% YoY)  │
+│  - Premium trend flattening statewide        │
+└─────────────────────────────────────────────┘
+         │                        ║  (condo associations get NONE of this:
+         ▼                        ║   commercial +10.4%, master policies
+┌─────────────────────────────┐   ║   25-35% of assoc budgets — the
+│  SF CARRYING COST STABILIZES │   ║   pressure pathway above continues)
+│  - largest cost line stops   │   ▼
+│    rising for SF owners      │  [CONDO STACK UNCHANGED]
+│  - out-migration driver eases│
+└─────────────────────────────┘
+         │
+         ▼
+┌─────────────────────────────────────────────┐
+│  SF MARKET STABILIZES WHILE CONDO REPRICES   │
+│  - Jun-26: SF $432K +4.9% vs vintage −9%     │
+│  - the PRICE bifurcation = the COST split,   │
+│    one level down                            │
+└─────────────────────────────────────────────┘
+```
+
+**Watch rule:** if the *commercial/condo-association* layer ever joins the easing (the THESIS falsify rail's "personal AND commercial ease materially"), the whole insurance amplifier retires. Conversely a landfall re-hardens BOTH legs at once (see re-arm note in the Amplification pathway above). **Transmission to banks:** SF-collateralized books benefit (SSB/CCBG-profile); condo-tower/association books do not (USCB/association lenders) — the split should eventually be visible INSIDE bank portfolios, not just between markets.
 
 ---
 

@@ -14,6 +14,7 @@
 | **Jul 21** | **CCBG Q2 (BMO)** | First small-tier FL bank datum of the Q2 window: **BENIGN anti-datum** (EPS $0.95, NCO 14bps, no reserve build; FL = 81% of revenue). Synchronization count 0-of-≥2. KB ML-CORAL-031. | ✅ **DONE** |
 | **7/22–7/28 (IR-confirmed 7/21)** | **Q2 2026 FL-bank prints — BKU 7/22 BMO · VLY 7/23 BMO · SSB/AMTB/USCB 7/23 AMC · SBCF 7/28 AMC** (SSB prints but is not a trigger-set name — trigger set = {AMTB, SBCF, USCB}) | **PRE-REGISTERED TRIGGER — grade as-written, do not re-fit.** CONFIRM transmission = ≥2 of {AMTB,SBCF,USCB} show, in the CLEAN resi/CRE-condo book (excl C&I + gov-insured): (i) nonaccrual+90+ rising QoQ AND (ii) reserve build OR positive NCO. Single sharpest tell: **SBCF nonaccrual 3rd consecutive rise >$95M + CRE-non-OO charge-off/reserve build.** FALSIFY (benign→2027) = ≥2 of 3 with 30-89 reverting + nonaccrual flat/down + no FL-RE reserve build. Full spec → `CLUSTER_FL_BANK_LEG.md` pre-registration block. | ⏳ **PRE-REGISTERED** |
 | Jul 29 | BLS metro-area employment (June) | Ocala June UR — completes the 7/21 pre-reg term (ii) residual (Ocala was pending at grade time; May NSA 5.5%) | ⏳ Pending |
+| **Jul 29** | **Amendment-3 ballot-language hearing — PRE-REGISTERED BRANCH READ (7/21, before the hearing; grade as-written)** | **Branch A — court orders title/summary REWRITE (fiscal disclosure injected):** mark pillar-9 amendment row "leaning FAIL" (UNF disclosed-framing 45/47 becomes the operative prior); consequence chain = household cost-stack relief OFF (carrying-cost out-migration/forced-sale driver persists — CORAL-bearish-households) BUT CRE/MF burden-shift + muni-fiscal tail OFF. **Branch B — challenges dismissed / summary stands:** P(pass) holds near neutral-framing 61/32; row stays "framing-dependent, two-sided." **Branch C — partial ruling / appeal / continuance:** carry both branches, no mark move; note next date. NOT a rail/thesis move in any branch — this only re-weights the Nov-3 prior. KB ML-CORAL-042. | ⏳ **PRE-REGISTERED** |
 
 ---
 
@@ -35,6 +36,24 @@
 | Oct-Nov | Bank Q3 Earnings | Reserve builds? Credit migration? | ⏳ Future |
 | **Nov 3** | **FL property-tax Amendment 3 / HJR 1F vote** | Homestead $50K→$150K(2027)→$250K(2028); CRE/MF burden-shift; muni-fiscal tail; **passage FRAMING-DEPENDENT (UNF 7/20: 61/32 neutral vs 45/47 w/ budget disclosure); lawsuit hearing 7/29** | ⏳ **KEY** |
 | Nov 30 | Hurricane Season Ends | Assessment of 2026 impact | ⏳ Future |
+
+---
+
+## Winter 2026-27 — COMPOSITE CONVERGENCE SPEC (pre-registered 2026-07-21, BEFORE the window; grade as-written Feb/Mar-2027)
+
+**The acute-stress window CORAL has pointed at since June, now given a mechanical definition.** The window (Dec-2026 → Feb-2027) is where four dated forces converge: snowbird season #2 post-Canadian-collapse, assessment-wave-2 bills, post-8/3 GSE full-review financing friction, and the Nov-3 property-tax outcome.
+
+**WINDOW CONFIRMS (broad leg 🟠→🔴 candidate) = ≥3 of 5 by 2027-02-28, each on its canonical series:**
+1. **Snowbird/demand leg:** Canadian air capacity to FL winter-26/27 down ≥10% YoY again (MARCO canonical), OR SW-FL tourism-$ / TDT-equivalent negative YoY any Dec-Feb month.
+2. **Vintage-condo price leg:** SE-FL 30+yr pending $/sf < **$300** (Zalewski series; 7/21 level $313), OR statewide condo median YoY back below **−5%**.
+3. **Financing-squeeze leg:** **Miami-Dade condo cash share ≥55% in any Dec-26–Feb-27 month** (Miami Realtors monthly, PRIMARY) — **bar LOCKED 7/21 same-session**: baseline = 48.5% Jun-26 (~flat YoY); +6.5pp = a material financing-exit step, clean of the ~48% structural base. (The 8/31 TBD clause is DISCHARGED — test stays ≥3 of 5.)
+4. **Bank leg:** ≥1 of {AMTB, SBCF, USCB} discloses FL-RE/association-book specific reserve build or criticized-association loans at Q3/Q4-2026 prints (this is 1-of-3 as a WINDOW component — the separate bank-transmission RAIL still requires its own ≥2-synchronized bar; the two are not the same test).
+5. **Absorption-reversal leg:** statewide condo inventory re-widens > **9.5mo** (vs 8.1 Jun), OR Parcl metro MSI ≥5 FL metros >6.0 still/again sustained in any Dec-Feb read.
+
+**WINDOW FALSIFIES (broad leg 🟠→🟡 downgrade) = ≤1 of 5** — demand-normalization confirmed as orderly; acute-winter thesis retired, 2027 bank timeline re-derived from scratch.
+**2 of 5 = HOLD 🟠**, name which legs fired in the grade.
+
+*Discipline: thresholds chosen 7/21 with no winter data in hand; do not re-fit mid-window. Leg-3 bar locked same-session (see leg 3). KB ML-CORAL-043/-044.*
 
 ---
 
