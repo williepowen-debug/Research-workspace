@@ -24,6 +24,8 @@
 
 | Position | Type | Status | Note |
 |----------|------|--------|------|
+| **USO** | Shares (2) | **HELD** | Token long (~$258 at 7/21 $128.85). *(Row restored 7/21 — Will caught the omission: the shares were in the domain-scope record but missing from this table. Broker book = position truth; FORGE mirror last reconciled 7/16.)* |
+| **STNG** | Shares (2) | **HELD** | Token long (~$159 at 7/21 $79.66). War-risk/ton-mile beneficiary; BRT-15 lesson — reopen is NOT uniformly tanker-bearish. |
 | **XLE $65C Sep 30** | Call (2) | **LAPSE** | Deep-OTM (~20% to strike), ~$0 salvage. Its narrow re-escalation-snap path fired Jun 27-28 (kinetic test) and did NOT pay. Now the deep-OTM **backstop** to the convex arm below — do NOT defend/add; re-arm only on a DURABLE ceasefire collapse. |
 | **CF $130C Jun 18** | Call (1) | **EXPIRED WORTHLESS (Jun 18)** | Closed; record only. |
 

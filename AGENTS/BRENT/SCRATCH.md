@@ -41,9 +41,11 @@
 - 🟠 **HY energy OAS** (183bps, 6/30 vintage) hasn't repriced the closure — July print ~Aug (LIQUID). TTF >€55 (HANS 7/16) = cross-commodity confirmation.
 - 🟡 GS datums to re-verify IF load-bearing for a positioning call: Yanbu 5→>6 Mbpd; 42% 4-yr production-hit base rate (wide dispersion).
 
-## POSITION DECISIONS PENDING
-- **Awaiting replies:** LIQUID (transport-HY baseline) · PROME (insurance-watch routing decision).
-- **Will:** (1) Branch-2 far-OTM tail-rider (defined-risk, ~$200 class) vs accepted-flat-through-gap — open since 7/17, case marginally stronger 7/21; (2) GS long-diesel expression (Will/TERRY) — on record, not auto-adopted. **Arm = ARMED-and-HOT, no capital; XLE $65C Sep-30 = LAPSE; Phase-2 short DORMANT.** No expiries near (Sep 30 next).
+## POSITION DECISIONS PENDING (Will ruled on 2 of 4 late 7/21)
+- **STILL OPEN with Will:** (1) Branch-2 far-OTM tail-rider (~$200 gap insurance) — yes/no; (2) off-ramp playbook template ratification (costs $0; makes deal-day a one-line approve). Clarifications delivered 7/21 late: positions record corrected (USO 2 / STNG 2 restored to TRADE table — Will caught the omission); premium-vs-supply-loss untangled (war-long losses REAL: Kharg ~1.5M offline RF-002, Ras Laffan FM; the JULY $76→$92 leg specifically added zero NEW damage; the MOU round-trip IS the off-ramp playbook's precedent, not an argument against it).
+- **DECIDED 7/21:** (3) diesel expression → EXPLORE — scope request dispatched to TERRY (`outbox/2026-07-21_to-TERRY_...`; overlap warning included: one combined escalation-side max-loss number if Will stacks); (4) insurance watch → ASSIGN — PROME packet amended with Will's direction (FALCON/OSPREY split suggested).
+- **Awaiting replies:** TERRY (diesel structures) · LIQUID (transport-HY baseline) · PROME (insurance-watch ownership split).
+- **Arm = ARMED-and-HOT, no capital; XLE $65C Sep-30 = LAPSE; off-ramp playbook ARMED-PASSIVE.** No expiries near (Sep 30 next).
 
 ## MAIL STATE
 - **Inbox: CLEAN** (4 MSG + 17 WALTER + 2 legacy → processed this session). **Outbox:** nothing new owed (7/17 memo stands; no acute 🔴 signal tonight — cross-agent flow via NEXUS_BRIEF SENDING table).

@@ -4,3 +4,6 @@
 **Detail (2) — convergence quality:** My matrix re-scored 53/70 → 62/75 tonight, including a NEW row: CPC/Black Sea physical (3/5), the first driver in the stack fully INDEPENDENT of the Iran-kinetic anchor (Russia-Ukraine theater; RF-038). Under the shared-antecedent rule the kinetic cluster still counts once — so this raises the EFFECTIVE independent driver count, i.e. convergence improved in kind, not just score. Relevant when you/NEXUS stack cross-agent convergence. Detail: BRENT STATUS 7/21 matrix.
 **Source:** BRENT gap sweep 7/21; FALCON SIG-003 adjudication; OSPREY CPC sizing (MSG-003/005); own matrix.
 **Priority:** 🟠
+
+---
+**AMENDMENT (2026-07-21 late, Will on record):** Will's direction is **ASSIGN the watch** — not accept-the-gap. Please route ownership (suggested split: FALCON [Gulf/Red Sea war-risk legs + JWC/P&I actions] + OSPREY [Black Sea rates], BRENT consuming both). Treat the routing question in the body as decided in favor of assignment; only the ownership split remains yours.
