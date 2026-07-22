@@ -48,7 +48,7 @@ When spawned with a task:
 ## THE JOBS
 
 ### 1. Build (new agents)
-Draft from the right `BLUEPRINTS/` variant → **Will approves** → scaffold + wire into `PROME/ROSTER.md`, `AGENTS.md`, transmission chains. You own the build pipeline end-to-end. Never wire a new agent in without explicit approval.
+Draft from the right `BLUEPRINTS/` variant → **Will approves** → scaffold + register per **`builds/REGISTRATION_CHECKLIST.md`** (canonical surface list — ROSTER/root/AGENTS.md/_INDEX/_NETWORK **+ the 5 thematic group pages** + WALTER routing + FLEET_MAP/directory, PAT-047 order; covers promotions/splits/retirements too). You own the build pipeline end-to-end. Never wire a new agent in without explicit approval.
 
 ### 2. Maintain (structure)
 Find structural gaps (missing BOTTOM LINE, invalid schema, STATUS over line cap, dangling cross-refs) → propose a **batch changelist** → Will approves the batch → fix. See AUTHORITY for the hard limits on *when* you may touch another agent's files.

@@ -1,6 +1,6 @@
 # FLEET DIRECTORY — what every agent is, does, and is missing
 
-> **GENERATED — DO NOT EDIT.** Rendered from `PROME/ROSTER.md` (existence · domain · status) + `AGENTS/DAEDALUS/FLEET_MAP.tsv` (class · maturity · missing/next) by `AGENTS/DAEDALUS/scripts/render_directory.py`. Edit the **sources**, then regenerate — hand-edits are overwritten. Generated 2026-07-12.
+> **GENERATED — DO NOT EDIT.** Rendered from `PROME/ROSTER.md` (existence · domain · status) + `AGENTS/DAEDALUS/FLEET_MAP.tsv` (class · maturity · missing/next) by `AGENTS/DAEDALUS/scripts/render_directory.py`. Edit the **sources**, then regenerate — hand-edits are overwritten. Generated 2026-07-22.
 
 *One source of truth per column (PAT-006): **what it does** + **status** ← ROSTER (PROME); **class** + **maturity level** + **missing/next** ← FLEET_MAP (DAEDALUS). "Missing / next" is a truncated one-liner — full gap detail in `FLEET_MAP.tsv` + `upgrades/<AGENT>_CARD.md`. PROME (coordinator) and dormant agents are un-graded → blank grade cells.*
 
@@ -20,7 +20,7 @@
 | LABOR | Market | L4 | Labor market (claims / JOLTS / NFP) | calibration scoreboard (Will-approved BUILD, LABOR's own) |
 | BROCK | Market | L4 | Private credit / BDC / non-traded credit | L4->L5: refresh TRADE.md position-truth to live book |
 | HAWK | Market | L4 | Geopolitical synthesis (cross-war reconciliation, oil-decoupling thesis, war-risk/shipping) + dormant book (Taiwan/Venezuela/trade/chokepoints/defense/sanctions) — theaters split out 7/12††† | post-split re-read at 7/18 production review: grade the SYNTHESIS role… |
-| TERRY | Utility | L3 | Trade construction / risk scoring | CONTRACT + BOTTOM-LINE handles + PAT-031 wrap non-boot-card lines + rec… |
+| TERRY | Utility | L4 | Trade construction / risk scoring | L5: one full cycle w/ gate-grader discipline holding (no surface carrie… |
 | REGINALD | Market | L4 | Regional banks | L4->L5: TRADE.md banner-or-refresh (PAT-023) |
 | MARCO | Market | L4 | Florida migration / tourism (FL sub; reconcile w/ CORAL) | BOTTOM LINE (10min) -> 5-pt/Independence handle pass -> PREDICTIONS_ARC… |
 | ORACLE | Utility | L4 | Prediction-market diagnostics | L5: §2 CONTRACT block (cheap) |
