@@ -1,86 +1,74 @@
 # ORACLE STATUS
 
-**Updated:** 2026-07-17 (Fri ~10:05 ET, Will-directed boot after a **7-day gap** [last session 7/9]) — live pull both platforms + roll-watch (4 resolved pins) + **the escalation tail FIRED** (US blockade on Iran resolved YES) + disruption-supply spread **rebuilt v2** (v1 leg resolved out from under it) + 4 new markets pinned (Iran-Gulf daily, WTI-$85, Bab-el-Mandeb, Houthi).
+**Updated:** 2026-07-22 (Wed ~11:41 ET, Will-directed boot) — live pull both platforms + derived spread. **The regime-flip tripwire pre-registered on 7/17 just tripped — the SIGNAL way.** The disruption-supply spread collapsed +40.5→+30.8pp *entirely via the supply leg rising*: WTI-$100 war-premium 7.5%→17.8%, crossing the >15% "crowd flips to supply-loss pricing" threshold. In parallel the Fed re-armed hawkish (July-hike 3.6%→21.1%, hike-2026 51.5%→64.5%). Complacency crack deepened (NEH −12/7d).
 **Domain:** Prediction-market monitoring (Polymarket + Kalshi) — crowd-implied probabilities & crowd-vs-thesis divergence
-**Data:** live via `scripts/polymarket.py pull --log` + `scripts/kalshi.py pull --log`. Series → `workbook/ODDS_LOG.tsv` / `KALSHI_ODDS_LOG.tsv`. Derived → `workbook/DISRUPTION_SUPPLY_SPREAD.tsv` (v2, +40.5pp). Cross-agent surface → `NEXUS_BRIEF.md`. Metrics → `PREDICTION_MARKET_METRICS.md`.
-**State:** 🟠 — **the escalation tail resolved YES: the US blockaded Iran (announced 7/13, enforced 7/14 16:00 ET).** The crowd repriced hard on disruption but only mildly on supply — WTI-$100 war-premium doubled (3.2%→7.5%) yet is still only ~8%, so this is still a **premium story, not a shortage story**, independently matching FALCON's read. Complacency finally cracked (Nothing-Ever-Happens −10/7d). July Fed meeting now priced a near-certain hold (July-hike 14.5%→3.6%).
+**Data:** live via `scripts/polymarket.py pull --log` + `scripts/kalshi.py pull --log`. Series → `workbook/ODDS_LOG.tsv` / `KALSHI_ODDS_LOG.tsv`. Derived → `workbook/DISRUPTION_SUPPLY_SPREAD.tsv` (v2, +30.8pp). Cross-agent surface → `NEXUS_BRIEF.md`. Metrics → `PREDICTION_MARKET_METRICS.md`.
+**State:** 🟠→🔴-adjacent — one week ago the crowd's read was "premium not shortage." It is now starting to doubt that: **supply-loss pricing (WTI-$100 up 10pp) and Fed-hike pricing (July-hike up 17pp) are stepping up together**, even though no actual barrel has been lost (Kalshi Iran crude production still 77% >2.0mbpd). This is the leading edge of the regime flip — routable, not yet confirmed.
 
 ---
 
 ## Alerts (read first)
 
-**🔴 ESCALATION TAIL FIRED — US blockade on Iran RESOLVED YES.** Announced Mon 7/13; USN enforcement in effect Tue 7/14 16:00 ET (CNN/Axios/NBC). Polymarket settled 100% across all forward legs ($1.9M vol Jul-31 leg, liq drained); past-dated Jun-30 leg at 0% = true-resolution signature, not the ladder display quirk. **CALIBRATION WIN for HAWK:** on 7/9 this market read 48.0% and HAWK's independent ladder D-rung read 46% (KL≈0.001 bits) — that ~47% two-source consensus **resolved YES within 4 days.** One event isn't a track record, but it's a rare scored point for the ladder method. FALCON's 7/17 note independently treats the blockade as live fact (US interdicted the *Belma* en route to Kharg). → HAWK, BRENT, FALCON, PROME. (KB-ORC-033; leg retired from watchlist + spread tool.)
+**🔴 REGIME-FLIP TRIPWIRE TRIPPED — supply-loss pricing overtaking premium.** The disruption-supply spread **collapsed +40.5pp → +30.8pp** in 5 days, and it collapsed the *signal* way: **entirely via the SUPPLY leg rising**, not disruption easing. **WTI-$100-war-premium 7.5% → 17.8%** (Δ1d +9.2, Δ7d +11.4, deep $672K vol / $64.2K liq — not thin), crossing the pre-registered **>15% "crowd flips to supply-loss pricing"** threshold. The disruption leg is dead flat (Hormuz-normal-Dec31 51.5% both dates → 48.5% disruption-persists). **The crowd is starting to price lost barrels, not just a risk premium.** ⚠️ But NO barrel actually lost yet — Kalshi **Iran crude production Jul >2.0mbpd still 77%** (sanctioned baseline, uncollapsed); the crowd is pricing supply *risk* ahead of realized loss. Corroborators: **WTI-$90-intraday 65.6%** (Δ7d +45.8, $1.5M deep), Kalshi **Brent >$85 @ Jul31 settle-ref 73%** (Δp +6), **gold hit $4,150**. → HAWK, BRENT, FALCON, PROME. (KB-ORC-042.)
 
-**🟠 DISRUPTION REPRICED HARD, SUPPLY ONLY MILDLY — still premium, not shortage.** Hormuz-normal-Dec31 61.5%→**51.5%** (Δ7d −11.0); 30-ships-transit-Jul31 **collapsed −66.2/7d**; every ladder rung fell (crowd expects less recovery). WTI-$100-war-premium **3.2%→7.5%** (Δ7d +5.0) — more than doubled but **still only ~8%**. The crowd reads this as premium/harassment, not barrels lost — independently reproducing FALCON's "the decoupling broke on RISK PREMIUM, not one lost barrel" (four supply *events* this week, zero lost supply). Crowd convergence with FALCON's official PortWatch data (five consecutive sub-18/day transit prints 7/8-7/12). **Reconciled to BRENT's canonical 88-ships/day baseline (denominator ruling, ~140 rejected as peak-day artifact): the ladder rungs = 30/40/50/60/80/100 ships = 34/45/57/68/91/114% of normal on any single day — crowd prices only 30.6% odds of even ONE day at 34% of normal by Jul31, corroborating BRENT/FALCON's live 10/88=11% print.** → HAWK, BRENT, FALCON. (KB-ORC-034, KB-ORC-038.)
+**🔴 FED RE-ARMED HAWKISH — tracking the oil premium.** July-meeting-hike **3.6% → 21.1%** (Δ1d +9.5, Δ7d +16.8, $17.4M vol; Kalshi corroborates hike-by-July **24%**, Δp +12) — meeting is **7/29** (7d out); still more-likely-hold than hike, but the tail fattened materially. **Fed-HIKE-2026 51.5% → 64.5%** (Δ7d +14.0) — **~1.5pp under the pre-set >66% re-arm trigger**; flag now, fires on the next uptick. No-cuts-2026 firmed 83.7%→**84.8%**. July-CPI-modal top +16/7d. The oil/energy premium is bleeding straight into rate-path pricing. → LIQUID, HENRY. (KB-ORC-043.)
 
-**⚪ SPREAD TOOL REBUILT v2 — was broken by its own success.** v1's disruption leg (P(US blockade)) resolved YES → pinned 100% forever → the tool crashed on the drained-liquidity null. v2 = **P(Hormuz transit disruption persists, =1−P(normal-Dec31)) − P(WTI $100 war premium)** = 48.5% − 7.5% = **+40.5pp** (2026-07-17). Closure proxy (16.5%) demoted to a context column (a full closure is a *supply* event — wrong side of the spread). Guards added: hard-exit on resolved/drained/thin leg + WTI-month drift. WIDE = premium not shortage; COLLAPSING (read *which* leg) = supply fear catching up = HAWK/BRENT/FALCON tripwire. (KB-ORC-035.)
+**⚪ SPREAD READ — WIDE→NARROWING, correct-leg.** v2 = P(Hormuz-disruption-persists 48.5%) − P(WTI-$100 17.8%) = **+30.8pp** (was +40.5 on 7/17). The narrowing is the tell, and it's the tell we wanted to see fire: driven by the WTI leg, not by disruption easing. Closure proxy (5.7%, a context column) *fell* — no supply-event closure priced, so the supply-risk repricing is premium-channel (blockade friction / war tempo), not a modeled physical shutdown. Watch for the spread to keep narrowing on the WTI leg → deeper into supply-loss regime. (KB-ORC-042.)
 
-**🟠 WAR-WIDENING TEMPO — two new daily-cadence markets pinned.** Iran-targets-shipping (on-date): **0% Jul 6-13, then FIRED Jul 14 (98%) + Jul 17 (82%)** — attacks resumed the *same day* the blockade took effect after ~a week quiet. Iran-military-action-vs-Gulf-State ($1.7M, previously untracked): Iran striking neighbours every ~2-3d (Jul 9/12/14/17 YES). This is the widening-of-the-war axis and the cleanest daily tempo gauge on the board. Corroborates FALCON's WSJ read (Iran attacking the bypass/shuttle runs). → HAWK, BRENT, FALCON. (KB-ORC-036.)
+**🟠 COMPLACENCY CRACK DEEPENED — bimodal Iran path.** Nothing-Ever-Happens **66.5%** (Δ7d −12.0, was 72.5% on 7/17) — one-way down since the truce collapse. **US-invade-Iran-<2027 28.5%** (Δ7d +11.0, $46M deep) AND **US-Iran-deal-2026 34.5%** (Δ7d +11.5) BOTH rose — the crowd fattened the escalate *and* resolve tails at once, thinning the muddle-through middle. Best-asset-S&P still elevated 67.0% — equity complacency intact even as tail-awareness rises; that gap is the tension. → RED, VIOLET, HENRY. (KB-ORC-044.)
 
-**🟡 OIL PREMIUM STEPPED UP A THRESHOLD — but mind the trap.** "WTI hits $85 (July)" **57.5% (Δ7d +42.0, $1.0M vol)** — pinned. **⚠️ This resolves on INTRADAY HIGH, not a settle. Do NOT read it as confirmation of FALCON's $85 thesis** — FALCON's bar is 3 consecutive *settles* >$85 (Brent), of which zero have printed (high settle $84.95). Different question; welding them is the fused-true-facts trap (fleet memory 7/16). Tracked as an oil-premium tell on its own terms only. → BRENT, HAWK.
+**🟡 OIL PREMIUM STEPPED UP HARD — mind the intraday-vs-settle trap.** WTI-$90-intraday **65.6%** (Δ7d +45.8) and WTI-$85-intraday elevated; Kalshi Brent >$85 settle-ref **73%** (Δp +6). **⚠️ The Polymarket WTI markets resolve on INTRADAY HIGH, not a settle — do NOT read them as confirmation of FALCON's 3-consecutive-settle >$85 (Brent) thesis.** Kalshi KXBRENTMON is the settle-reference instrument but resolves on a SINGLE month-end reading, still not FALCON's 3-settle bar. Cite precisely (fused-true-facts trap, fleet memory 7/16). → BRENT, HAWK.
 
-**🟡 NEW CHOKEPOINT COVERAGE — Bab el-Mandeb + Houthi pinned.** Bab-el-Mandeb-closed ($6.2M deep event): by-Dec31 **31.5% (Δ7d +10.5)**. Houthi-targets-shipping: by-Aug31 **57.0% (Δ7d +36.5)**. Both were untracked; they complete the shipping-disruption axis (Red Sea / Suez feed) alongside Hormuz. → HAWK, BRENT.
+**⚪ WAR TEMPO — mixed; shipping quiet on 7/21.** Iran-targets-shipping daily leg read **1.0% on Jul 21** (Δ1d −71.5) — the shipping-attack tempo *eased* on that specific day after the mid-July resumption. Iran-military-action-vs-Gulf-State daily event still live. Read recent legs via `event`; the daily events trip false ⛔RESOLVED on the fetcher (top-leg = old settled date) — events are LIVE.
 
-**🟢 ITEM-2 SOLVED — found the BRENT SETTLE-reference market FALCON/BRENT lacked.** Their durable-sustain thesis had no resolution-matched market (Polymarket only has intraday-HIGH oil). **Kalshi `KXBRENTMON-26JUL3117` = "Brent price @ Jul 31 5PM EDT" — a settle-reference ladder.** Live: **>$85 = 57%** (Δp +15, $4.4K vol/$4.2K OI), >$80.99 72% / >$82.99 62% / >$86.99 45%. **⚠️ Resolves on a SINGLE month-end reading, NOT FALCON's "3 consecutive settles >$85"** — right instrument family, different resolution; cite precisely (KB-ORC-040). Bonus: **Kalshi `KXIRANCRUDE` prices Iran's actual July production >2.0 mbpd at 77%** — roughly its *sanctioned baseline, not collapsed* — a barrel-level confirmation of "premium not shortage" (better than the WTI-$100 proxy). Both pinned. → BRENT, FALCON, HAWK.
-
-**🟡 STRUCTURAL CREDIT — 7/9 "genuinely un-priced" claim CORRECTED (partly wrong).** Via the *authoritative* Kalshi `/events?status=open` sweep (the 7/9 pass used the unreliable `search` — see maintenance): the **specific** gap-fills DO still hold zero-open (CRE-default KXCREDEF, CC-delinquency KXCCDELINQ, mortgage-default KXMORTGAGEDEF, Fed-facility KXFEDFACILITY, SOFR-crunch, yield-inversion). **BUT the broader axis is partly priced:** **US-credit-rating-downgrade-2026 16% — DEEP ($67.6K vol/$34.0K OI)**, the systemic-credit gauge Polymarket lacks; + corporate-bankruptcy-count >750 83%; + auto-loan-delinquency Q2. All pinned (KB-ORC-039). → REGINALD, CARL, LIQUID.
-
-**🟡 FED — July meeting now a near-certain HOLD; 2026-hike tail still live.** July-hike **14.5%→3.6%** (Δ7d −10.9, $14.6M vol) — the meeting is priced as a hold. But Fed-HIKE-2026 still **51.5%** and No-cuts-2026 firmed to **83.7%** (Δ7d +6.0) — dovish tell (<70%) firmly not fired; if anything the crowd got *less* dovish on the week. → LIQUID, HENRY.
-
-**🟡 CPI — July market prices a DISINFLATION step-down even as energy reprices.** July-CPI-modal (pinned, replaces resolved June event): modal **3.4% (31.0%)** / 3.3% (27.5%) / 3.5% (15.0%) — below June's ~3.7% print. Crowd expects CPI to *fall* while the oil/Hormuz premium reprices — a genuine tension, HENRY's to adjudicate. ⚠️thin ($6.1K liq). Kalshi June finalized: >3.6% 99% / >3.8% 26% (June ~3.7%). → HENRY, LABOR. (KB-ORC-037.)
-
-**⚪ SENTIMENT — complacency cracked for real this time.** Nothing-Ever-Happens **72.5% (Δ7d −10.0)** — down a full 10pp, the clearest tail-risk-awakening tell since the truce collapse (was only −4/7d on 7/9). Best-asset-S&P still elevated **68.5%**. → RED, VIOLET, HENRY.
+**🟡 STRUCTURAL CREDIT — quiet, downgrade gauge eased slightly.** Kalshi US-credit-rating-downgrade-2026 **4.0%** (Δp −1.0 — note: reads lower than 7/17's 16% snapshot; verify the specific market/ticker on next pull, possible market/line shift); corporate-bankruptcy >750 **83%** steady. Specific gap-fills (CRE-default, CC-delinquency, mortgage-default, Fed-facility) still zero-open — re-check via the authoritative `/events?status=open` sweep, NOT `search` (KB-ORC-041). → REGINALD, CARL, LIQUID.
 
 ---
 
-## Signal Dashboard (live 2026-07-17T14:10Z, Polymarket unless noted)
+## Signal Dashboard (live 2026-07-22T15:42Z, Polymarket unless noted)
 
 | Market | Tier | Prob | Δ1d | Δ7d | Vol | Liq | Read |
 |--------|:--:|--:|--:|--:|--:|--:|------|
-| **Fed: hike at July mtg** | T1 | **3.6%** | −0.2 | **−10.9** | $14.6M | $464.2K | July now priced a hold |
-| **Fed: HIKE in 2026** | T1 | **51.5%** | — | — | $4.2M | $121.4K | tail still live |
-| **Fed: NO cuts 2026** | T1 | **83.7%** | −0.1 | **+6.0** | $6.3M | $151.1K | dovish tell <70% firmly not fired |
-| Fed: 1 cut 2026 | T1 | 12.5% | — | −2.0 | $2.1M | $135.0K | fading |
-| Fed funds end-2026 (dist, top) | T1 | 30.9% | — | −1.1 | $529.7K | $12.5K | steady |
-| US inflation >5% 2026 | T1 | 12.5% | — | −1.0 | $282.4K | $24.6K | contained |
-| **July CPI modal (top, 3.4%)** | T1 | **31.0%** | −3.5 | — | $4.2K | $6.1K | ⚠️thin — disinflation step-down priced |
-| US recession 2026 | T1 | 11.5% | +1.5 | +1.5 | $1.7M | $16.5K | calm (Kalshi 12.0%) |
-| Major bank bailout <2027 | T1 | 11.5% | — | +0.5 | $3.8K | $1.4K | ⚠️thin, benign |
-| Which banks fail EOY (top) | T1 | 3.6% | — | −0.2 | $280 | $1.3K | ⚠️thin, no name priced |
-| US unemployment ladder (top) | T1 | 13.6% | −0.1 | +1.0 | $119.7K | $1.6K | ⚠️thin ⏮stale-date |
-| **Hormuz normal by Dec 31** | T1 | **51.5%** | −5.0 | **−11.0** | $5.3M | $258.5K | disruption persists (=48.5% disr) |
-| China invade Taiwan <2027 | T1 | 3.8% | — | −0.2 | $38.6M | $746.2K | deep, low |
-| China GDP 2026 (sub-5% top) | T1 | 85.5% | — | +5.5 | $198.1K | $45.4K | ⏮stale-date |
-| **US blockade on Iran** | T2 | **RESOLVED YES** | — | — | $1.9M | — | ⛔ FIRED 7/14 — see alert |
-| **Iran targets shipping (daily)** | T2 | Jul14 98%, Jul17 82% | — | — | $76.2K | — | ⛔display-quirk flag; event LIVE |
-| **Iran mil action vs Gulf St (daily)** | T2 | Jul17 94%, Jul18 61.5% | — | — | $126.1K | — | ⛔display-quirk flag; event LIVE — war widening |
-| **Hormuz ladder 30-ships/day Jul31** | T2 | **30.6%** | −1.8 | **−66.2** | $338.8K | $49.1K | =34% of 88-normal on any 1 day; recovery-doubt hardening |
-| Hormuz ladder 40-ships/day Jul31 | T2 | 11.5% | −2.0 | −59.5 | $78.2K | $37.1K | =45% of 88-normal; (80-rung=91% at 1.3%) |
-| **Hormuz 0-ships closure by Jul31** | T2 | **16.5%** | +9.8 | **+7.5** | $198.7K | $27.0K | closure tail rising, still low |
-| **WTI $100 (Jul) — war premium** | T2 | **7.5%** | +0.8 | **+5.0** | $406.1K | $84.4K | doubled but still ~8% — no shortage priced |
-| **WTI $85 (Jul) — intraday high** | T2 | **57.5%** | +3.0 | **+42.0** | $1.0M | $39.2K | ⚠️INTRADAY not settle — NOT FALCON's $85 |
-| **Bab el-Mandeb closed by Dec31** | T2 | **31.5%** | −0.5 | **+10.5** | $41.7K | $59.7K | NEW — Red Sea chokepoint |
-| **Houthi targets shipping by Aug31** | T2 | **57.0%** | +7.5 | **+36.5** | $33.7K | $11.6K | NEW — Red Sea leg |
-| US invade Iran <2027 | T2 | 22.5% | −1.0 | +6.0 | $43.7M | $686.9K | deep, rising |
-| US declares war on Iran <2027 | T2 | 4.5% | −0.5 | −1.0 | $660.6K | $87.4K | narrow mechanism, low |
-| Iran leadership change Dec31 | T2 | 19.5% | −1.0 | +2.5 | $3.3M | $69.9K | firming |
-| Iran ends enrichment by Dec 31 | T2 | 19.5% | −3.0 | −3.0 | $1.3M | $99.3K | fading |
-| US-Iran deal 2026 (top) | T2 | 28.0% | −1.0 | −7.5 | $64.8K | $13.9K | slipping (collapse repriced away deal hopes) |
-| Russia-Ukraine ceasefire Dec31 | T2 | 36.5% | −1.5 | −4.0 | $2.0M | $126.4K | slipping |
-| China-Philippines clash <2027 | T2 | 10.5% | — | −1.0 | $1.5M | $69.0K | easing |
-| BOJ July decision (hold top) | T2 | 98.7% | — | +0.1 | $63.0K | $9.9K | hold near-certain |
-| AI bubble burst 2026 | T2 | 16.7% | −0.5 | +1.5 | $2.3M | $25.0K | steady |
-| MicroStrategy bankruptcy <2027 | T2 | 4.1% | −0.1 | −0.1 | $186.7K | $15.7K | control |
-| US debt default <2027 | T2 | 3.9% | +0.1 | +0.4 | $15.9K | $4.8K | ⚠️thin, control |
-| **Mamdani freezes NYC rents <2027** | T2 | 91.8% | +0.1 | −0.1 | $276.7K | $31.2K | steady, near-certain |
-| **Nothing Ever Happens 2026** | T3 | **72.5%** | — | **−10.0** | $664.1K | $40.5K | complacency cracked |
-| Best asset 2026 (S&P top) | T3 | 68.5% | +1.0 | +2.0 | $180.7K | $19.7K | elevated |
-| FL: Cat-4 hurricane <2027 | T3 | 22.0% | — | — | $334.3K | $2.2K | ⚠️thin |
-| FL: Cat-5 hurricane <2027 | T3 | 12.5% | — | −4.0 | $137.8K | $1.6K | ⚠️thin |
+| **Fed: hike at July mtg** | T1 | **21.1%** | **+9.5** | **+16.8** | $17.4M | $303.1K | ⏳7d — tail fattened, still hold-likely |
+| **Fed: HIKE in 2026** | T1 | **64.5%** | +1.0 | **+14.0** | $4.4M | $145.0K | ~1.5pp under >66% re-arm trigger |
+| **Fed: NO cuts 2026** | T1 | **84.8%** | +0.1 | +4.0 | $6.4M | $146.4K | firming; dovish tell <70% firmly not fired |
+| Fed: 1 cut 2026 | T1 | 9.5% | −1.0 | −5.0 | $2.2M | $114.7K | fading |
+| Fed funds end-2026 (dist, top) | T1 | 31.0% | — | +0.9 | $529.8K | $11.8K | steady |
+| US inflation >5% 2026 | T1 | 14.0% | −0.5 | +1.0 | $283.8K | $12.7K | creeping |
+| **July CPI modal (top)** | T1 | **43.5%** | −2.5 | **+16.0** | $11.8K | $14.4K | top bucket firmed hard |
+| US recession 2026 | T1 | 11.5% | −0.5 | +1.5 | $1.7M | $21.5K | calm (Kalshi 13.0%) |
+| Major bank bailout <2027 | T1 | 12.0% | — | +0.5 | $3.8K | $1.4K | ⚠️thin, benign |
+| Which banks fail EOY (top) | T1 | 3.7% | — | +0.1 | $399 | $271 | ⚠️thin, no name priced |
+| US unemployment ladder (top) | T1 | 12.5% | +4.5 | +4.0 | $74.3K | $1.7K | ⚠️thin ⏮stale-date |
+| **Hormuz normal by Dec 31** | T1 | **51.5%** | −4.0 | −7.0 | $5.6M | $232.0K | disruption persists (=48.5% disr), flat vs 7/17 |
+| China invade Taiwan <2027 | T1 | 4.0% | −0.2 | +0.2 | $38.9M | $591.0K | deep, low |
+| China GDP 2026 (sub-5% top) | T1 | 87.5% | — | +3.0 | $207.4K | $40.8K | ⏮stale-date |
+| **WTI $100 (Jul) — war premium** | T2 | **17.8%** | **+9.2** | **+11.4** | $672.0K | $64.2K | 🔴 CROSSED >15% — supply-loss pricing starting |
+| **WTI $90 (Jul) — intraday high** | T2 | **65.6%** | +25.8 | **+45.8** | $1.5M | $107.3K | ⚠️INTRADAY not settle; premium stepping up |
+| US invade Iran <2027 | T2 | 28.5% | +2.0 | **+11.0** | $46.1M | $597.1K | deep, rising — escalate tail fattening |
+| US-Iran deal 2026 (top) | T2 | 34.5% | +3.0 | **+11.5** | $68.2K | $10.3K | resolve tail ALSO rising (bimodal) |
+| US declares war on Iran <2027 | T2 | 5.0% | +0.5 | — | $697.9K | $88.9K | narrow mechanism, low |
+| Iran leadership change / ends enrich Dec31 | T2 | 21.5% | — | −1.0 | $1.3M | $71.1K | ends-enrichment-Dec31 fading |
+| Iran ends enrichment by Jul 31 | T2 | 0.8% | −0.1 | −0.6 | $933.5K | $73.1K | ⏳ near-zero |
+| **Iran targets shipping (daily)** | T2 | Jul21 **1.0%** | −71.5 | — | $8.1K | — | tempo eased that day; ⛔display-quirk, event LIVE |
+| Iran mil action vs Gulf St (daily) | T2 | live | — | — | $967.8K | — | ⛔display-quirk flag; event LIVE — war-widening axis |
+| **Hormuz 0-ships closure by Jul31** | T2 | **5.7%** | −6.2 | −1.5 | $257.9K | $30.6K | closure tail FELL — no supply-shutdown priced |
+| Bab el-Mandeb closed by Dec31 | T2 | 33.0% | −0.5 | +5.5 | $104.3K | $59.6K | Red Sea chokepoint, firming |
+| Houthi targets shipping by Aug31 | T2 | 52.0% | −8.5 | +6.5 | $55.8K | $8.7K | Red Sea leg |
+| Russia-Ukraine ceasefire Dec31 | T2 | 35.5% | — | −3.0 | $2.0M | $112.5K | slipping (Russia advancing — Vasylivka 73.5% +61/1d) |
+| BOJ July decision (hold top) | T2 | 98.6% | −0.1 | −0.2 | $68.8K | $10.2K | hold near-certain |
+| AI bubble burst 2026 | T2 | 16.6% | — | −0.6 | $2.3M | $18.6K | steady |
+| MicroStrategy bankruptcy <2027 | T2 | 3.9% | +0.1 | −0.2 | $187.8K | $14.1K | control |
+| US debt default <2027 | T2 | 4.9% | +0.1 | +1.5 | $16.0K | $3.5K | ⚠️thin, control |
+| Mamdani freezes NYC rents <2027 | T2 | 91.6% | — | −0.1 | $281.7K | $20.6K | steady, near-certain |
+| **Nothing Ever Happens 2026** | T3 | **66.5%** | −4.5 | **−12.0** | $689.1K | $51.5K | complacency crack deepened |
+| Best asset 2026 (S&P top) | T3 | 67.0% | +1.5 | −0.5 | $180.9K | $18.1K | elevated — equity complacency intact |
+| FL: Cat-4 hurricane <2027 | T3 | 24.0% | +1.0 | +2.5 | $334.4K | $1.5K | ⚠️thin |
+| FL: Cat-5 hurricane <2027 | T3 | 11.5% | — | −1.0 | $137.8K | $1.4K | ⚠️thin |
 
-**Kalshi corroboration (2026-07-17T16:13Z):** recession 12.0% (Δp +2.0, 2.9M vol/807.5K OI); July-hike (>3.75%) 4.0% (Δp −3.0) — matches PM's July-hold read; >4.00% 1%; June CPI >3.6% 99% / >3.8% 26% [finalized ~3.7%]; June U3 >4.2% 82% [finalized]. **NEW pins:** US-credit-rating-downgrade-2026 **16%** ($67.6K vol); corporate-bankruptcy >750 **83%**; **Brent >$85 @ Jul31-5PM 57%** (settle-ref); Iran-crude-prod Jul >2.0mbpd **77%** (⚠️thin).
+**Kalshi corroboration (2026-07-22T15:42Z):** recession 13.0% (2.9M vol/805K OI); **Fed hike-by-July 24.0% (Δp +12)** — matches PM's July re-arm; >4.00%-after-July 2.0%; June CPI >3.8% 26% / U3 >4.2% 82% [finalized]; **Brent >$85 @ Jul31 settle-ref 73% (Δp +6)**; Iran-crude-prod Jul >2.0mbpd 77% (⚠️thin, uncollapsed); US-credit-downgrade-2026 4.0% (Δp −1, verify ticker vs 7/17's 16%); corporate-bankruptcy >750 83%.
 
-Δ in pp. ⚠️thin = liq < $5K (do not mark on one print; ≥3-day re-check). ⏮ = live market w/ stale endDate. ⛔ = display-quirk false-RESOLVED on daily/ladder events (event is live; read recent legs via `event` command).
+Δ in pp. ⚠️thin = liq < $5K (do not mark on one print; ≥3-day re-check). ⏮ = live market w/ stale endDate. ⛔ = display-quirk false-RESOLVED on daily/ladder events (event is live; read recent legs via `event`). ⏳ = near-dated resolution.
 
 ---
 
@@ -88,28 +76,27 @@
 
 | # | Market | Score | Status | Key Signal | Upgrade Trigger |
 |---|--------|:--:|:--:|------------|-----------------|
-| 1 | Iran escalation (blockade FIRED) | 4 | 🔴 | US blockade RESOLVED YES 7/14; shipping attacks resumed same day; Gulf-state strikes every 2-3d; disruption spread +40.5pp | WTI-$100 >15% (supply shock) OR Hormuz-closure >30% OR Bab-el-Mandeb closes |
-| 2 | Oil premium (rising, not shortage) | 2 | 🟠 | WTI-$100 doubled to 7.5% but still low; WTI-$85-intraday 57.5% | WTI-$100 >15% = crowd flips to supply-loss pricing |
-| 3 | Fed path (July hold, tail live) | 2 | 🟡 | July-hike 3.6% (hold priced); hike-2026 51.5%; no-cuts firmed 83.7% | hike-2026 >66% (re-arm) OR no-cuts <70% (dovish turn) |
-| 4 | Risk-on / complacency crack | 2 | 🟠 | NEH −10/7d (real crack); S&P best-asset still 68.5% | NEH <30% OR gold retakes best-asset lead |
-| 5 | Recession (converged, calm) | 1 | ⚪ | PM 11.5% / Kalshi 12.0% — fleet & crowd agree | market turns up OR fleet re-arms cyclical axis |
+| 1 | Iran → oil supply regime | 4 | 🔴 | Spread collapsed +40.5→+30.8pp VIA the WTI leg; WTI-$100 crossed >15% (17.8%); supply-loss pricing starting w/ no barrel lost | WTI-$100 >25% OR Hormuz-closure >30% OR Iran crude prod <2.0mbpd (real loss) |
+| 2 | Fed path (re-arming hawkish) | 3 | 🔴 | July-hike 3.6→21.1%; hike-2026 64.5% (1.5pp under trigger); CPI-modal +16/7d | hike-2026 >66% (fires the re-arm) OR July mtg hikes 7/29 |
+| 3 | Risk-on / complacency crack | 3 | 🟠 | NEH −12/7d; invade AND deal tails both +11/7d (bimodal) | NEH <30% OR gold takes best-asset lead |
+| 4 | Oil premium (intraday) | 2 | 🟠 | WTI-$90-intraday 65.6% (+45.8/7d); Brent settle-ref 73% | 3 consecutive Brent settles >$85 (FALCON's bar) |
+| 5 | Recession (converged, calm) | 1 | ⚪ | PM 11.5% / Kalshi 13.0% — fleet & crowd agree | market turns up OR fleet re-arms cyclical axis |
 
 ---
 
 ## Maintenance flags
 
-- **Roll-watch executed (7/17) — 4 resolved pins:** June CPI → July CPI event; Iran-targets-shipping (by-date) + US-blockade → **both resolved YES**, replaced by the daily-cadence on-date events (blockade retired outright, it's a one-time fire); Hormuz ladder Jul-31 top leg settled (event still live). **4 new adds:** Iran-Gulf-State daily, WTI-$85-intraday, Bab-el-Mandeb, Houthi.
-- **Display-quirk false-RESOLVED** on the two daily events (Iran-shipping, Iran-Gulf) + the Hormuz ladder — fetcher's top-leg = old settled daily date; events are LIVE. Annotated in watchlist; read recent legs via `event`. Do NOT re-pin on the flag.
-- **Spread tool v2 rebuilt** — WTI supply leg has a **manual month-roll** owed action (re-pin the new month's WTI $100 market when the front month turns; script hard-exits if legs drift >3d). Cadence + warnings now homed in `CLAUDE.md` (PROME/DAEDALUS PAT-041 finding, inbox 7/10 — closed).
-- **PROME inbox item (7/10) processed & closed:** DAEDALUS's two owner-lane durability flags on the spread tool (home the cadence durably + note the WTI month-roll) — both done in this session's CLAUDE.md edits.
-- **7/9→7/17 gap:** own inbox had one PROME durability note (processed); no domain-agent signal backlog.
-- **Kalshi creds present** (chmod 600, unchanged); lane LIVE. Structural-credit gap-fills (KXCREDEFMAX etc.) NOT re-checked this session — carried to next (was comprehensively zero-open 7/9).
-- **Stale-date markets** (China-GDP, unemployment ladder) shown ⏮ not RESOLVED — don't roll on the bogus endDate.
+- **🔴 Tripwire discipline validated:** the 7/17 pre-registered "spread collapse VIA the WTI leg = regime flip" tripwire fired exactly as specified — the WTI supply leg rose 10pp, disruption flat. This is the cleanest single-gauge call the tool was built for. Keep reading WHICH leg moves.
+- **⚠️ WTI $100 supply-leg MONTH-ROLL (owed, near):** the July WTI-$100 market ends **2026-08-01** (9 days). When August opens, re-pin the new month's WTI-$100 market or the spread's supply leg silently ages out (script hard-exits if legs drift >3d — fails loud, but the re-pin is manual). Same for WTI-$85/$90-intraday and the Jul-31 Hormuz ladder (re-pin an Aug ladder).
+- **Roll-watch — near-dated resolves:** Fed July mtg + BOJ (7/29); Iran July legs (enrichment/shipping) + Hormuz ladder + Brent settle-ref (7/31); July CPI (8/12). The Hormuz ladder + both Iran daily events show ⛔ false-RESOLVED (fetcher top-leg = old settled date) — events LIVE, read via `event`, do NOT re-pin on the flag.
+- **Kalshi US-credit-downgrade reads 4.0% today vs 16% on 7/17** — likely a different market line/ticker got pulled; verify the specific ticker next session before treating as a real −12pp move.
+- **Did NOT pull (git):** foreign uncommitted changes in DAEDALUS + FALCON dirs at session start — did NOT `git pull` (would risk their work) and DEFERRED push. Committed locally; push next clean session or when Will clears the tree.
+- **Kalshi creds present** (chmod 600, unchanged); lane LIVE.
 
 ---
 
 ## BOTTOM LINE
 
-The escalation tail HAWK and the crowd both priced at ~47% on 7/9 **resolved YES within four days**: the US announced a naval blockade of Iran on 7/13, enforced 7/14 at 16:00 ET. That's a rare scored point for HAWK's ladder method (KL≈0.001 bits at the 7/9 mark). But the crowd's read of the *consequence* is disciplined and matches FALCON exactly: it repriced disruption hard (Hormuz-normal −11/7d, transit ladder −66/7d) and supply only mildly (WTI-$100 doubled but sits at just 7.5%). **This is still a risk-premium story, not a lost-barrels story** — four "supply events" this week, zero lost supply. The disruption-supply spread, rebuilt to survive the blockade's resolution, reads +40.5pp — wide, i.e. premium without shortage; a *collapse* of that spread (specifically the WTI leg rising) is the regime-flip tripwire. The one genuinely new development is tempo: Iran resumed shipping attacks the same day the blockade hit, and is striking Gulf states every 2-3 days — the war is widening even as the oil market stays calm. Complacency finally registered it (Nothing-Ever-Happens −10/7d).
+One week ago the crowd's verdict was disciplined: "premium, not shortage." Today it is starting to *doubt its own verdict*. The disruption-supply spread I rebuilt to survive the blockade's resolution just did the one thing it was built to flag — it collapsed (+40.5→+30.8pp) **entirely because the supply leg rose**: WTI-$100 war-premium doubled again to 17.8%, crossing the >15% supply-loss-pricing threshold I pre-registered. In parallel the Fed re-armed hawkish (July-meeting-hike 3.6→21.1%, hike-2026 to 64.5%, ~1.5pp under the re-arm trigger) — the oil premium bleeding into the rate path. And yet **no barrel has actually been lost** (Kalshi Iran crude production still 77% at its sanctioned baseline): the crowd is pricing supply *risk* ahead of realized supply *loss*. That is precisely the leading-indicator posture — the gap between rising supply-risk pricing and flat physical supply is where the next move lives, and the WTI leg of the spread is the single number to watch. Complacency has stopped ignoring it (Nothing-Ever-Happens −12/7d, both Iran tails fattening). Routed to HAWK/BRENT/FALCON (regime-flip) and LIQUID/HENRY (Fed re-arm).
 
 *Re-pull: `python3 AGENTS/ORACLE/scripts/polymarket.py pull --log` + `python3 AGENTS/ORACLE/scripts/kalshi.py pull --log` + `python3 AGENTS/ORACLE/tools/disruption_supply_spread.py`*
