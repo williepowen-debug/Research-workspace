@@ -966,8 +966,19 @@ Context: Not a same-session verify (SAM had NOT run an inline pass first) — ef
 - **⚠️ ESCALATION (thesis-level, not a one-cell fix): Oil-in-yen Phase-1 now LIVE** (Brent $92.54 through $90, June TB deficit import-driven; oil/MOU carry route ~10-11%/60d per snapshot). Docs treat oil-in-yen as DORMANT + oil-MOU as an 8% *tail* (TRADE L22/L190/L212/L259; STRATEGY L259). Needs SAM reframe, not a mechanical edit. **Modal band ($55.3-57.7/159-166) is NOT breached this time** (163.16 inside it) — unlike the 7/2 escalation; only the "162.63 40-yr-low high" descriptor in the L285 derivation is stale.
 - **OK-AS-IS / money-field (unflagged):** FLAT banners everywhere; cost $58.32 / stop $55.50 / strikes $58,$60 / premiums / share-counts (13→6) = historical decision record, intentionally preserved; frozen v1.6 EV-gate anchor "83.4%/−150,132 Jun-16, zero cover" (date-stamped, per Run-10 frozen-anchor ruling — leave); modal FXY bands in TRADE L38 + STRATEGY L4 (7/10 re-derivation still canonical per snapshot); convexity-tail MEDIUM (matches); STRATEGY L255 "83.4% peak" Asymmetry row (mirrors THESIS route table — leave unless THESIS moved).
 - Known-carryover: the 4 fenced archive-compression bodies (Will-gated) still untouched; Run-10 TRIGGER-STATUS-DRIFT vintage rot (TRADE L44/L49/L50, STRATEGY L37/L41) NEVER APPLIED — re-surfaced this run, now compounded by 163.16/oil moves.
-- **SAM-applied:** [filled by SAM post-run]
+- **SAM-applied:** [filled by SAM post-run] — *(Run-11 VERIFY 2nd pass, ~22:40 ET: SAM applied ~all flags; strong pass. All 6 STALE-MARKET-MARK + 5 RESOLVED-EVENT + 3 DATE-DRIFT + 2 HEADER + the oil escalation LANDED-OK, arithmetic verified. Good money-field discipline: STRATEGY L81 added a note that the $55.50↔USDJPY≥162.5 equivalence drifted (now ≈165) as a Will/TERRY call rather than editing the stop. Residual sibling-misses found on verify — see below.)*
 - **SAM-declined:** [filled by SAM post-run]
+
+### Run-11 VERIFY (2nd pass, 2026-07-21 ~22:40 ET) — residuals after SAM's apply
+
+- **NEW-INCONSISTENCY (sibling misses introduced by partial application):**
+  1. **TRADE L212 EWJ oil anti-trigger** still "Oil shock resolves (Brent sub-$95…) BREACHED Jun-14 $87.33" — NOT updated; now directly contradicts the Phase-1-LIVE oil reframe at L22/L190/L259 (oil "resolves"/dormant here, "$92.54 escalating" three other places). Real contradiction. HIGH conf.
+  2. **"SAM-30 reclaim window-end" at TRADE L258 + STRATEGY L190** (Jul-31 rows) — SAM-30 RESOLVED 7/10, no Jul-31 window-end; L253/L185 correctly marked it resolved, these two are the un-updated siblings. HIGH conf.
+  3. **TRADE L44 Hard-Trigger caption** "status notes refreshed 7/2" + col "Status (7/2)" now contradicts L50 (updated to [7/21] 163.16/$92.54). MED conf.
+- **STILL-STALE (flags not fully applied):** version pointers v1.6/v1.6.3 → v1.6.9 in body (TRADE L22, STRATEGY L4/L19 — TRADE header claims the pointer rolled but body didn't); STRATEGY L177 "SAM-28..31" sibling → SAM-28/29/31. Both LOW.
+- **VERIFY (can't confirm from snapshot):** "US CPI June −0.42% MoM" in BOTH TRADE L257 + STRATEGY L189 — snapshot only says "cool"; a −0.42% headline MoM is a large deflation print. Internally consistent but confirm against the actual release (if wrong, wrong in both). LOW conf.
+- **83.4%/zero-cover frozen anchors** (TRADE L169/L273, STRATEGY L19/L255): VERIFIED consistent with THESIS v1.6.9 (grep — THESIS deliberately keeps 83.4%/Jun-16/zero-cover across L29/L37/L70/L88/L125/L152/L236). Correctly left. Minor: TRADE L169 is un-dated present-tense "zero cover" while THESIS + TRADE L273 date-stamp "(Jun-16 data)" — recommend adding the date-stamp to close the Run-10 "no-cover-silently-rots" monitor. LOW.
+- **BROKEN-POINTER:** none introduced; all file cross-refs intact.
 
 ## PENDING from Run 11 (2026-07-21)
 

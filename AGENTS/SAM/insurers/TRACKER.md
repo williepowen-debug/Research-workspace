@@ -1,11 +1,11 @@
 # Japanese Life Insurer Tracker
 
 **Last Updated:** 2026-07-02 (🔴 **Meiji Yasuda DOUBLES FY2026 super-long JGB plan to >¥2T at ~4% 30Y** — first Big-3 super-long re-entry of the cycle; SAM-32 resolved FALSE; the v1.4 "higher yields don't draw insurers back" inversion is now PARTIALLY falsified — see 2026-07-02 KEY INSIGHT below) | prior: 2026-06-10 (Norinchukin FY2025 pull — results were OUT May 21, surfaced Jun 10; CLO book record ¥10.1T, **reactivation gate (e) RESOLVED NOT REACTIVATED → 4-of-4 institutions against forced-selling direction**) | prior: 2026-05-27 (v1.5 sync — Big 3 ESR window closed 3-of-3)
-**Purpose:** Dashboard for tracking Big 10 insurer positioning, FY2025 ESR disclosures, and repatriation signals. **Mechanics map** for JGB-loss / ESR / lifer behavior — the cross-border forced-repatriation leg of Channel 1 is now demoted to multi-year structural backstop after 3-of-3 Big 3 mutual confirmation; J-ICS long-end abandonment (DOMESTIC mechanism) remains intact.
+**Purpose:** Dashboard for tracking Big 10 insurer positioning, FY2025 ESR disclosures, and repatriation signals. **Mechanics map** for JGB-loss / ESR / lifer behavior — the cross-border forced-repatriation leg of Channel 1 is now **RETIRED (v1.6, 2026-06-22 — supersedes the "DEFERRED STRUCTURAL BACKSTOP" framing throughout this doc; re-add ONLY on a direct foreign-SALES print across ≥2 windows at ≥2 of {Big-3 mutuals, Norinchukin}, JGB-30Y/ESR = accelerant only)** after 4-of-4 institutions grew US credit; J-ICS long-end abandonment (DOMESTIC mechanism) remains intact. *(Body sections below retain the dated DEFERRED-era evidence trail.)*
 
 ---
 
-## 🟡 CHANNEL 1 STATUS — DEFERRED STRUCTURAL BACKSTOP (post-May 26 Big 3 ESR, 3-of-3 confirmed)
+## 🔴 CHANNEL 1 STATUS — RETIRED (v1.6, 2026-06-22; 4-of-4 grew US credit) — *body below is the dated DEFERRED-era evidence trail*
 
 **Channel 1 cross-border forced-repatriation mechanism is demoted to deferred structural backstop (multi-year, not 2026).** All three Big 3 mutuals (Nippon, Meiji Yasuda, Sumitomo) printed FY2025 ESR on May 26 with the same pattern: ESR pressure absorbed via capital actions, equity rally, and hedge-cost relief — **NOT via foreign bond sales**. Foreign books were in unrealized GAIN at all three; Sumitomo's foreign allocation actually GREW +¥1.11T (+9.3% to 35.5% of GA). M&A direction is INTO US (Resolution Life, Allstate via Stancorp, Dearborn Life via Symetra). The "ESR cap → forced UST sale" transmission timing assumption is broken at the multi-year amplitude.
 
@@ -104,7 +104,7 @@ Reconciles why Feb TIC showed Japan UST holdings RISING (+$53.8B Dec→Feb) whil
 | Meiji Yasuda | 208% (-8pt) | Stable ops; JGB markdown absorbed by capital | +¥709B unrealized GAIN | Stancorp record earnings via Allstate |
 | Sumitomo Life | 197% (↑+19pt) | Stable ops + equity rally + Dearborn partial | +¥1.11T total foreign sec (+9.3%) — GROWING | Symetra in-force +23.7% YoY |
 
-**Next Channel 1 re-test window:** H2 FY2026 plans (Oct-Nov 2026) OR FY2026 ESR disclosures (May 2027). Mid-tier prints (T&D, Sony Life, Daido, Taiyo) in late June provide consistency check vs Big 3 pattern. ~~Norinchukin Jun FY2025 is independent (CLO mechanics)~~ — **resolved against Jun 10 (record ¥10.1T book); the independent CLO route is closed too. Post-BOJ agenda (Will, Jun 10): with 4-of-4 against, re-examine whether "deferred" should become "retired pending new mechanism."**
+**Next Channel 1 re-test window:** H2 FY2026 plans (Oct-Nov 2026) OR FY2026 ESR disclosures (May 2027). Mid-tier prints (T&D, Sony Life, Daido, Taiyo) in late June provide consistency check vs Big 3 pattern. ~~Norinchukin Jun FY2025 is independent (CLO mechanics)~~ — **resolved against Jun 10 (record ¥10.1T book); the independent CLO route is closed too. Post-BOJ agenda (Will, Jun 10): with 4-of-4 against, re-examine whether "deferred" should become "retired." ✅ RESOLVED RETIRED (v1.6, 2026-06-22) — see header banner.**
 
 ---
 

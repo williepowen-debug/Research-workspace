@@ -41,9 +41,9 @@
 | **Call payoff @ $60 (target lower)** | ~$160 = 4x | Triggers if BOJ hikes + small post-event move |
 | **Call payoff @ $62 (target upper)** | ~$360 = 9x | Triggers if BOJ + intervention #3 or partial unwind |
 
-### Tranche 2 Hard-Trigger Status — status notes refreshed 7/2 (live detail → STATUS)
+### Tranche 2 Hard-Trigger Status — status notes refreshed 7/21 (live detail → STATUS)
 
-| Hard Trigger | Status (7/2) |
+| Hard Trigger | Status (7/21) |
 |---|---|
 | BOJ hike at June meeting | ✅ FIRED (Jun 16 — hiked 25bp to 1.00%, 7-1, Asada dovish dissent; SAM-21 CONFIRMED). As-priced, no carry unwind (CH-004). Detail → STATUS § BOJ JUN 16 RESOLVED. |
 | **MOF intervenes at 160** | ✅ FIRED twice (~¥10T / $63.5B Apr 30 + May 6); **SAM-23 RESOLVED FALSE Jun-16** (pre-marked ~30% per CH-011 disorder-not-level — calibration win). MOF #3 DECAYING ~15-20%/30d; **🆕 AMBUSH regime (Reuters 7/2): next op unsignalled**; 7/2 candidate adjudicated NO-STRIKE (hard confirm MOF monthly ~7/31). Detail → STATUS § INTERVENTION. |
@@ -166,7 +166,7 @@ The v1.4 framing read *"MOF acts → unwind; MOF doesn't act → forced repat; e
 - *MOF acts:* CH-003 evidence (Apr 30 + May 6) — pure intervention drives 2-5y intraday spike that reclaims same-day. Unwind\|fires ~0.20 baseline, not the implicit ~0.50 the paradox assumed. Sustained-unwind requires breaking the same-day-reclaim pattern (upside tail, not base case).
 - *MOF doesn't act → forced repat:* Channel 1 **RETIRED under v1.6** (was "deferred" under v1.5; 4-of-4 institutions grew US credit) — 3-of-3 Big 3 mutual ESR window resolved without foreign bond sales; the discrete "forced" leg dissolved at the disclosure-window timescale. The slow-burn version of the mechanism (Pillar 3: hedge ratio at 14-yr low → mechanical selling sub-USDJPY 145) is intact but requires a sustained Fed-side compression, not a Jun-window force.
 
-**Honest framing now (v1.6):** the case for being long is **not** the paradox and **not** the structural-pillars-carry-the-direction frame — Pillar 1's vector inverted across Jun 16-17 and Channel 1 is RETIRED. It is a **positioning-convexity TAIL at MEDIUM**: the CFTC fuel (83.4% of peak, held *through* the spent catalyst with zero cover) pays asymmetrically only if a tail-route fires inside the LOCKED Sep-18 window — and MOF #3 is now a DECAYING ~15-20%/30d route, not a "near-term upside skew." Pillar 2 (J-ICS, DOMESTIC) is the only-pillar-still-firing. See the thesis line at top + `thesis/THESIS.md` v1.6.
+**Honest framing now (v1.6):** the case for being long is **not** the paradox and **not** the structural-pillars-carry-the-direction frame — Pillar 1's vector inverted across Jun 16-17 and Channel 1 is RETIRED. It is a **positioning-convexity TAIL at MEDIUM**: the CFTC fuel (83.4% of peak [Jun-16 data], held *through* the spent catalyst with zero cover — has since covered to 68.1% [Jul-14], live → STATUS) pays asymmetrically only if a tail-route fires inside the LOCKED Sep-18 window — and MOF #3 is now a DECAYING ~15-20%/30d route, not a "near-term upside skew." Pillar 2 (J-ICS, DOMESTIC) is the only-pillar-still-firing. See the thesis line at top + `thesis/THESIS.md` v1.6.9.
 
 ### "Bigger Hike" Possibility — ✅ RESOLVED Jun 16 (25bp not 50bp; SAM-24 CONFIRMED) *(historical — pre-event analysis below)*
 Mar 30 BOJ Summary of Opinions revealed board members debating not just WHEN to hike but HOW MUCH. Apr 28 produced 3 dissents (Takata, Tamura, Nakagawa) for 1.00% — that's where the dissenters wanted to go in April. SAM-24 @85% on 25bp (to 1.00%) rather than 50bp. 50bp would require either acute crisis (insurer ESR <150%) or full Takaichi-Ueda rupture — neither in v1.5 base case. Path-dependence favors 25bp.
@@ -209,7 +209,7 @@ Private credit cascade (APO, ARES — 9 funds gated; BCRED Q1 redemptions ~7.9%,
 **Anti-Triggers:**
 - ~~BOJ delays past June~~ — ✅ MOOT (BOJ hiked to 1.00% Jun 16). Remaining anti-trigger: BOJ pauses the *next* hike (Sato seat tilts board dovish from Jun 30) → mortgage-transmission stress delayed
 - Real wages sustain positive (Jan was +1.4% — first positive in 13 months)
-- Oil shock resolves (Brent sub-$95, MOU framework hardening) — **🟢 BREACHED Sun Jun 14 ($87.33, first sub-$90 close this cycle; cum ~−10% from $96.78 Jun-3 baseline) on 14-pt Pakistan-mediated draft + Bessent signing-weekend 80% — since **SIGNED Jun 17** (initial agreement; verification leg open)**
+- Oil shock resolves (Brent sub-$95, MOU framework hardening) — **⚠️ RE-INVERTED 7/21: anti-trigger currently UN-MET.** Brent **$92.54** (through $90) on the oil-escalation cluster (Bab el-Mandeb blockade declared / Kazakh CPC halt / Iran Gulf-ally strikes); oil-in-yen **Phase-1 LIVE** (June TB −¥406.9B deficit). The cluster is risk-premium not supply-loss (FAL-01 unfired → reversible; BRENT owns sustain), so it *may* resolve again — but "oil resolves" is NOT satisfied at $92.54. *(Was 🟢 BREACHED Jun-14 at $87.33 post Iran-deal SIGNED Jun 17; the formal Hormuz closure 7/11-12 + escalation cluster re-armed it.)*
 
 **Status:** ⏳ WATCHING — BOJ hike Jun 16 trigger ✅ FIRED (hiked 1.00%, SAM-21 CONFIRMED); remaining legs (Japan mortgage-transmission data) still watched.
 
@@ -255,7 +255,7 @@ Private credit cascade (APO, ARES — 9 funds gated; BCRED Q1 redemptions ~7.9%,
 | ✅ Jun 24 – Jul 2 | Resolved cluster: SoO (hawkish-of-priced) · Jun 23/25/30 auctions (no stress) · Tokyo CPI (sticky core-core) · Sato seated · Tankan +22 beat · Jul-2 10Y auction (3.13x/2.6bp softer-but-orderly) · NFP +57K miss · MOF-verify NO-STRIKE | Detail → STATUS 7/2 note + TIMELINE. |
 | ✅ Jul 7 / 🟠 Wed Jul 22 | JGB 30Y (✅ RESOLVED FIRM: BTC 4.55x/tail 0.3bp — ~4% floor confirmed REAL) / **40Y auction TOMORROW** | 40Y = **SAM-35** (50% firm-lean; BTC/tail vs May-27 baseline 2.702; 40Y now 3.852 [MOF 7/21]) — most stressed tenor, resolves 7/22. Also the CH-010 mid-cap bifurcation observable. |
 | ✅ Jul 14 / 🟠 Wed Jul 29 | US CPI (✅ RESOLVED cool, June −0.42% MoM) · FOMC (non-SEP, Warsh presser) | Route-4 (Fed-dot walk-back): cool June CPI a marginal positive but July carries the oil = inflationary offset → no walk-back yet; Jul-29 presser reads the Sep path. |
-| 🔴 Fri Jul 31 | **BOJ MPM (July)** + MOF monthly intervention data | Follow-on to the Jun-16 hike; pace assessment (SAM-34 hold 85%). SAM-30 reclaim window-end. MOF monthly = hard confirm of the 7/2 no-strike call. |
+| 🔴 Fri Jul 31 | **BOJ MPM (July)** + MOF monthly intervention data | Follow-on to the Jun-16 hike; pace assessment (SAM-34 hold @85%; FY2027 purchase-plan = JGB-supply read). MOF monthly = hard confirm of the 7/2 no-strike call. |
 | 🟠 ongoing | **Oil-escalation cluster** (Bab el-Mandeb blockade declared / Kazakh CPC halt / Iran Gulf-ally strikes; **oil-in-yen Phase-1 LIVE**) | Brent $92.54 through $90; June TB deficit = Phase-1 yen-NEGATIVE. Cluster is RISK-PREMIUM not supply-loss (FAL-01 unfired → reversible; BRENT owns sustain). Phase-2 yen-bid = tail route 5, ~10-11%/60d, un-fired. |
 
 ---

@@ -174,7 +174,7 @@ Three lenses on the same risk. Full technical detail: `research/outputs/VOL_OPTI
 
 **2. Timing — "Is the move imminent?"**
 - Vol signals are LEADING indicators. They move before spot.
-- ~~Critical check window: Jun 13-15 (pre-BOJ Jun 16)~~ *(RESOLVED — the Jun-16 binary is spent; no dated pre-event window is live. Next vol-read checkpoints: a fired entry-trigger (SAM-28..31) or the Jul 30-31 BOJ window.)*
+- ~~Critical check window: Jun 13-15 (pre-BOJ Jun 16)~~ *(RESOLVED — the Jun-16 binary is spent; no dated pre-event window is live. Next vol-read checkpoints: a fired entry-trigger (SAM-28/29/31) or the Jul 30-31 BOJ window.)*
 - If convergence is firing by then, the move is being front-run. Maximum confidence when trigger fires.
 
 **3. Exit — "Is the move done?"**
@@ -187,7 +187,7 @@ Three lenses on the same risk. Full technical detail: `research/outputs/VOL_OPTI
 - *(✅ Jun-24 SoO / Jun 23-30 auctions / Jun-26 Tokyo CPI / Jun-30 Sato / Jul-1 Tankan / Jul-2 10Y auction + NFP + MOF-verify — all resolved; detail → STATUS 7/2 note + TIMELINE.)*
 - **✅ Jul 7 (RESOLVED FIRM) / 🟠 Wed Jul 22 (TOMORROW):** JGB 30Y auction resolved **FIRM (BTC 4.55x/tail 0.3bp — ~4% Meiji-Yasuda floor CONFIRMED REAL)**; **40Y auction 7/22 = SAM-35** (50% firm-lean; BTC/tail vs May-27 baseline 2.702; 40Y 3.852 [MOF 7/21]) — most stressed tenor, + the CH-010 mid-cap bifurcation observable.
 - **✅ Jul 14 (RESOLVED cool):** US CPI June −0.42% MoM — route-4 walk-back a marginal positive but July oil is the inflationary offset → no walk-back priced yet.
-- **🔴 Fri Jul 31:** BOJ MPM (July) — follow-on to the Jun-16 hike; pace assessment (SAM-34 hold 85%); SAM-30 reclaim window-end. + MOF monthly data (hard confirm of the 7/2 no-strike call).
+- **🔴 Fri Jul 31:** BOJ MPM (July) — follow-on to the Jun-16 hike; pace assessment (SAM-34 hold @85%; FY2027 purchase-plan = JGB-supply read). + MOF monthly data (hard confirm of the 7/2 no-strike call).
 
 ---
 
