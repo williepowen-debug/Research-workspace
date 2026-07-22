@@ -161,6 +161,8 @@ BUILDING FAILS STANDARDS
 └─────────────────────────────────────┘
 ```
 
+**Pathway STRENGTHENS (added 7/21/2026):** Fannie/Freddie March-2026 standards update **eliminates "limited review" for most condo loans effective Aug 3 2026** — every condo loan goes through full project review. Mechanically widens this pathway's intake: marginal buildings that previously passed on limited review now face full reserve/insurance/structural scrutiny → more de-facto-ineligible buildings even without formal blacklist growth (count itself unchanged: 1,438 FL / 696 tri-county, still Apr-2025 vintage — no fresher public count as of 7/21/2026). Source: MPA/Kelley Grant (press), pulled 7/21/2026.
+
 ---
 
 ## Bridge Loan Pathway: Hidden Leverage
@@ -242,6 +244,8 @@ DISTRESSED ASSOCIATION
 ```
 
 **Implication:** Distressed buildings can't exit quickly. Banks hold impaired assets for extended periods. Workout timelines stretched.
+
+**2026 legal-state update (added 7/21/2026, web-verified):** (1) FL Supreme Court **denied Two Roads' petition Oct 14 2025** — the 3rd DCA "100% consent / each unit an effective veto" ruling **STANDS, appellate remedies exhausted**; Option A stays blocked where declarations require unanimity. (2) Jan 2026: Miami-Dade trial court ordered Two Roads to **restore the stripped building (~$61M)** — raises the cost of a failed termination attempt, further deterring Option B economics. (3) Late Jan 2026: Two Roads filed a **NEW suit seeking equitable termination on an "economic waste" theory** — a potential **Option D forming**: if courts accept economic-waste termination, it would partially unfreeze the exit path *without* unanimous consent. UNRESOLVED — watch; a win would shorten workout timelines (bank-positive for resolution speed, bank-negative for crystallizing losses sooner). Source: Bisnow/NBC Miami (press), pulled 7/21/2026.
 
 ---
 

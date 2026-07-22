@@ -11,12 +11,13 @@
 
 | Metric | Current | Prior | Δ | Threshold | Status |
 |--------|---------|-------|---|-----------|--------|
-| Fannie/Freddie Blacklist | 1,438 | — | — | 🟡 1,600 / 🟠 1,800 / 🔴 2,000 | 🟠 |
-| Miami/Palm Beach Concentration | 696 | — | — | ~50% of total | 🟠 |
-| Blacklist Growth Rate | TBD | — | — | >10%/quarter = acceleration | ⏳ |
+| Fannie/Freddie Blacklist | 1,438 (⚠️ Apr-2025 vintage — re-searched 7/21, NO fresher public count; list confidential) | — | — | 🟡 1,600 / 🟠 1,800 / 🔴 2,000 | 🟠 (stale count) |
+| Miami/Palm Beach Concentration | 696 tri-county (same vintage) | — | — | ~50% of total | 🟠 |
+| Blacklist Growth Rate | UNOBSERVABLE at current disclosure (counts surface via leaks) | — | — | >10%/quarter = acceleration | ⏳ |
+| **GSE review regime (policy overlay)** | **"Limited review" ELIMINATED for most condo loans eff Aug 3 2026** — all full review | limited review available | tightening | de-facto ineligibility can grow with NO headcount change — do not read the stale count as "stable" | 🟠 NEW 7/21 |
 
-*Source: TD Economics, media reports (list is confidential)*
-*Last Updated: 2026-02-05*
+*Source: count TD Economics/media (Apr 2025); GSE policy via MPA/Kelley Grant (Mar-2026 standards update), pulled 7/21*
+*Last Updated: 2026-07-21 (count itself unchanged/stale-marked)*
 
 ### Association Distress
 
@@ -49,25 +50,25 @@
 
 | Metric | Current | Prior | Δ | Threshold | Status |
 |--------|---------|-------|---|-----------|--------|
-| Citizens Policy Count | ~385-395K | 1.42M (peak) | -73% | Depopulation success | 🟢 |
-| Citizens TIV Market Share | ~7% | 15%+ (peak) | — | Target: insurer of last resort | 🟢 |
-| OIR Enhanced Monitoring | 14 companies | 17 (mid-2024) | -3 | 🟡 16 / 🟠 18 / 🔴 20 | 🟡 |
-| 2025 Insolvencies | 0 | 5+ (2022-23) | — | Watch for any | 🟢 |
+| Citizens TOTAL PIF (canonical, scope-resolved 7/21) | **278,246 (Jun 30 2026)** = 273,684 personal + 4,562 commercial; Jul-17 snapshot 278,219 (plateau) | 392,689 (Jan 31 2026); 1.42M (2023 peak) | −29% H1-26; −80% vs peak | Depopulation success; next assumption round 8/18 | 🟢 |
+| Citizens market position | No longer FL's largest property insurer (surpassed late 2025) | largest (peak era) | — | insurer-of-last-resort target | 🟢 |
+| OIR Enhanced Monitoring | 14 companies (Feb-2026, not re-pulled 7/21) | 17 (mid-2024) | −3 | 🟡 16 / 🟠 18 / 🔴 20 | 🟡 |
+| 2025-26 Insolvencies | 0 (re-confirmed 7/21: none found 2026; 2021-23 wave over) | 5+ (2022-23) | — | Watch for any | 🟢 |
 
-*Source: OIR, Citizens*
-*Last Updated: 2026-02-05*
+*Source: Citizens policies-in-force reports (PRIMARY, citizensfla.com); OIR. KB ML-CORAL-035.*
+*Last Updated: 2026-07-21*
 
 ### Pricing & Litigation
 
 | Metric | Current | Prior | Δ | Trend | Status |
 |--------|---------|-------|---|-------|--------|
-| Avg HO-3 Premium | $3,748 | — | +1.5% YTD | Stabilizing | 🟢 |
-| Citizens 2026 Rate Change | -2.6% | — | — | First cut since 2015 | 🟢 |
-| Litigation Volume (LSOP) | -26% YoY | — | — | SB 2-A working | 🟢 |
-| Reinsurance Cost (risk-adj) | -0.46% | +27% (2023) | — | Softening | 🟢 |
+| Avg HO premium level | ⚠️ UNRECONCILED: $3,748 (Feb VX) vs $7.1K (6/19 sweep) vs $8,458 (press 7/21) — different bases/vintages; pull OIR primary before citing ANY as canonical | — | — | Level disputed; TREND agreed: flattening (OIR 30-day avg requested change ~+0.8% vs +21.8% two yrs ago; carriers filing −5% to −15%) | 🟡 (level) / 🟢 (trend) |
+| Citizens 2026 personal rate change | **HO multiperil −8.8% avg / wind-only −5.5%, EFFECTIVE 7/1/26** (min −2% all personal lines) | −2.6% (early filing read) | deeper cut | First cuts since 2015 | 🟢 |
+| Litigation Volume (LSOP) | −26% YoY (Feb vintage; 7/21 press: litigation at new lows) | — | — | SB 2-A working | 🟢 |
+| Reinsurance Cost (risk-adj) | 6/1/26: −15-20% (GC); 7/1: global ROL −16% YTD; **Citizens own placement net ROL 8.46 vs 11.95 = −29.2% YoY** | +27% (2023) | — | Softening hard (soft-market asymmetry per AEOLUS) | 🟢 |
 
-*Source: OIR, Florida Realtors*
-*Last Updated: 2026-02-05*
+*Source: OIR/Citizens press releases (rate changes primary), Guy Carpenter/Artemis (reinsurance), pulled 7/21.*
+*Last Updated: 2026-07-21*
 
 ### FIGA Exposure
 
@@ -84,7 +85,9 @@
 
 ## Bank Exposure Metrics
 
-### VLY (Primary Target)
+> **⚠️ SUPERSEDED-POINTER (2026-07-21):** live bank credit state is owned by `STATUS.md` §FL BANK EXPOSURE + `FL_BANK_WATCHLIST.md` (Q1-2026 baseline + Q2 window tracker). The VLY/SBCF deep-dive tables below are **Q4-2025/Feb-2026 vintage** — kept as the founding-research baseline record; do NOT cite rows as current. Known drift examples: VLY NPL now 0.85% (Q1-26) vs 0.87% below; VLY CRE/RBC 329% vs 333%; "VLY = primary target" framing retired (multi-channel NJ/NY play, not pure FL).
+
+### VLY (founding-research baseline — FROZEN vintage, see pointer above)
 
 | Metric | Q4 2025 | Q3 2025 | Q2 2025 | Trend | Status |
 |--------|---------|---------|---------|-------|--------|
@@ -143,19 +146,19 @@
 
 ---
 
-## Foreclosure Metrics
+## Foreclosure Metrics — VX-CORAL-FCL-01
 
 | Metric | Current | Prior | Δ | Context | Status |
 |--------|---------|-------|---|---------|--------|
-| FL Foreclosure Rate | 1 in 230 | — | — | #1 nationally | 🔴 |
-| FL Foreclosure Starts (2025) | 34,336 | — | — | #2 nationally | 🔴 |
-| FL REO Completions | 2,869 | — | — | #4 nationally | 🟠 |
-| Avg Time to Foreclose | 592 days | — | — | Extended | 🟠 |
-| Loss Severity (Condo) | 45-55% | — | — | High | 🔴 |
-| Workout Timeline | 600+ days | — | — | Biscayne 21 effect | 🟠 |
+| FL Foreclosure Rate (H1-2026 cumulative) | **0.27% (1 in 373 HU), #1 of 50** | #3 rank Q1-2026 (1 in 750) | rank ↑2 | +0.01pp over SC #2 — Southeast cluster; window ≠ May-monthly 1-in-2,110 (consistent, ~0.047%/mo) | 🔴 |
+| FL properties w/ filing (H1) | 27,494 | — | — | ~12.1% of national 227,548 (+21% YoY) | 🔴 |
+| FL worst metros (rate, ≥200K) | Punta Gorda 0.50% (#1 US), Lakeland 0.48% (#2 US), Cape Coral 0.35%, Jax 0.31%, Ocala 0.31% | May top-5 had Tampa/Orlando | Jax/Ocala NEW | 5 of top-10 US metros; grid → `GRID_PER_METRO.md` | 🔴 |
+| FL REO completions (Q1-2026) | 1,014 (+108% YoY) | 487 | +108% | National H1 REO 27,983 +33% — conversion accelerating | 🟠 |
+| Avg time to foreclose (national) | 563 days (H1-26, lowest since 2013, −13% YoY) | 592d (2025) | ↓ | Conversion speeding up while flow-growth decelerates (Q1 +26% → H1 +21%) | 🟠 |
+| Loss Severity (Condo) | 45-55% (est., 2025 research vintage) | — | — | High; not refreshed since founding research | 🔴 |
 
-*Source: ATTOM*
-*Last Updated: 2026-02-05*
+*Source: ATTOM Mid-Year 2026 (primary, pulled 7/17 — `sources/ATTOM_H1_2026_foreclosure.md`); KB ML-CORAL-029. Trajectory read reconciled w/ HOMER (pipeline owner): LEVEL leader on a high plateau, not a fresh spike.*
+*Last Updated: 2026-07-21*
 
 ---
 
@@ -217,8 +220,8 @@
 
 | Metric | Current | Threshold | Status |
 |--------|---------|-----------|--------|
-| USF belt biomass (spring) | ~28.9M MT (May-31 2026) | 🟡 >30M spring / 🟠 >37.5M (record) / decline <25M = relief | 🟠 |
-| NOAA SIR — SE FL band | **High** (Jun 16 2026) | low → warning → medium → **high** | 🟠 |
+| USF belt biomass | **~38M MT (July 2026 outlook — RECORD BAND, >37.5M bar CROSSED)**; Jun 33.6M; May 28.9M; ≥2nd-largest year on record; SE-FL beaching "will continue and likely increase" | 🟡 >30M spring / 🟠 >37.5M (record) / decline <25M = relief | 🟠 RECORD BAND (7/21) |
+| NOAA SIR — SE FL band | **High** (Jun 16 2026 — not retrievable 7/21, stale-marked) | low → warning → medium → **high** | 🟠 |
 | Modeled direct FL east-coast impact | $2.7B/yr (Jin/Wang/Dalton 2025) | modeled annual-expected, NOT realized | — |
 | Visitor cancellation (perception) | ~1 in 10 (Keys, Monroe County eval) | tourism risk, not documented loss | 🟡 |
 
@@ -258,7 +261,8 @@
 
 | Metric | Current | Threshold | Status |
 |--------|---------|-----------|--------|
-| Citizens Commercial Lines filed/approved | +10.4% capped | 🟠 any double-digit increase | 🟠 |
+| Citizens Commercial Lines filed/approved | +10.4% capped, eff on/after 7/1/26 | 🟠 any double-digit increase | 🟠 |
+| Association burden context (7/21, press) | 91% of FL assocs report unexpected 2026 expense increases; insurance = 25-35% of operating budgets; master policies $15-50K/yr small-inland → $300K-$2M+/yr large-coastal; HOA fees +68%/5yr | directional (no clean YoY %) | 🟠 |
 | Uncapped actuarial indication | +18.8% | 🔴 >20% need | 🟠 |
 | Commercial multi-peril / wind-only | +9.6% capped / +21.3% uncapped; +10.9% capped / +17.2% uncapped | shows cap masks true need | 🟠 |
 

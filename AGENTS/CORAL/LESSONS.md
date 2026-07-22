@@ -34,6 +34,14 @@
 ### [Process] — STATUS.md Is a Dashboard, Not a Research Report
 **Rule:** STATUS.md is current state — signal status, thresholds, FL bank exposure. Research detail belongs in `sources/`, `research/`, or `workbook/`. Keep STATUS under 250 lines.
 
+### [Data] — A Scope Label Is a Claim Too: Verify Personal-vs-Total Before It Becomes Canon
+**Mistake (caught 2026-07-21):** CORAL carried "Citizens 294,253 **personal-lines** policies (May 15)" as a dashboard canonical for ~5 weeks. The number was real but the LABEL was wrong — Citizens' own policies-in-force reports show it was a mid-May **TOTAL** (true Apr-30 personal was 289,824). The mislabel then manufactured a phantom cross-agent divergence with AEOLUS (whose ~395K was simply a stale Jan-31 total), which cost an open reconcile item across three sessions — chasing a scope difference that didn't exist.
+**Rule:** when adopting any count/level from press, verify the SCOPE dimension (personal vs total, capped vs uncapped, SA vs NSA, monthly vs cumulative window) against the primary before writing the label into a dashboard row. A wrong label is worse than a wrong number: the magnitude looks plausible, so it survives sanity checks while corrupting every downstream comparison. Most treacherous exactly when scopes nearly coincide (Citizens is ~98% personal, so total ≈ personal and nothing looked off).
+
+### [Data] — In Season, Pull the Full NHC Advisory, Not the Outlook
+**Mistake pattern (near-miss 2026-07-21):** a research pull based on the NHC Tropical Weather Outlook (MIATWOAT) carried TS Bertha as "45 kt, S of Panama City" with no track — reading it alone would have left the FL-landfall trigger question open. The full public advisory (MIATCPAT2) showed 60 mph, moving W AWAY from FL toward MS/LA, weakening — trigger question closed in one fetch.
+**Rule:** any time a named storm exists, the advisory (position/intensity/track/watches) is the load-bearing document; the outlook is only a formation-odds product. Verify trigger-adjacent storm claims against the advisory before writing dispositions.
+
 ---
 
-*Last reviewed: 2026-06-19 (seeded during spinout from REGINALD/OZK LESSONS + CORAL-specific additions).*
+*Last reviewed: 2026-07-21 (added scope-label + NHC-advisory rules). Seeded 2026-06-19 during spinout from REGINALD/OZK LESSONS.*

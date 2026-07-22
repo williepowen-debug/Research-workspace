@@ -98,7 +98,11 @@ def run_prices() -> tuple[bool, str, float]:
     start = time.time()
     if not FETCH.exists():
         return False, f"fetch.py not found at {rel(FETCH)}", 0.0
-    cmd = [sys.executable, str(FETCH), "price"] + PRICE_TICKERS
+    # fetch.py needs yfinance, which lives in the repo venv — not the system python
+    # that typically runs boot.py (7/21 fix: price pull failed with ModuleNotFoundError).
+    venv_python = WORKSPACE / ".venv" / "bin" / "python3"
+    interpreter = str(venv_python) if venv_python.exists() else sys.executable
+    cmd = [interpreter, str(FETCH), "price"] + PRICE_TICKERS
     try:
         res = subprocess.run(cmd, cwd=str(WORKSPACE), capture_output=True, text=True, timeout=30)
         out = res.stdout.strip()

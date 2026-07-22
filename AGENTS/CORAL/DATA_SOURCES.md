@@ -33,7 +33,7 @@
 |--------|------|-----|------------------|
 | **DBPR (FL Dept of Business & Professional Regulation)** | Condo complaints, SIRS database, building reports | https://condos.myfloridalicense.com/ | Ongoing |
 | **OIR (Office of Insurance Regulation)** | Insurer stability reports, market share, enhanced monitoring | https://floir.gov/ | Monthly |
-| **Citizens Property Insurance** | Policy counts, depopulation, market share reports | https://www.citizensfla.com/ | Monthly |
+| **Citizens Property Insurance** | Policy counts, depopulation, market share reports. **⚠️ Scope rule (7/21): use the policies-in-force DETAIL reports (`citizensfla.com/policies-in-force`) which split personal vs commercial — press paraphrases mislabel totals as "personal" (KB ML-CORAL-035). Depop rounds → `/depopulation-resources`** | https://www.citizensfla.com/policies-in-force | ~Weekly/monthly |
 | **FHCF (FL Hurricane Catastrophe Fund)** | Fund balance, bonding capacity | https://fhcf.sbafla.com/ | Quarterly |
 | **FIGA (FL Insurance Guaranty Association)** | Assessments, companies in receivership | https://figafacts.com/ | As needed |
 | **FL DFS (Dept of Financial Services)** | Companies in receivership | https://myfloridacfo.com/division/receiver/companies | As needed |
@@ -42,7 +42,10 @@
 
 | Source | Data | URL | Update Frequency |
 |--------|------|-----|------------------|
-| **Florida Realtors** | Inventory, sales, pricing by county | https://www.floridarealtors.org/ | Monthly |
+| **Florida Realtors** | Inventory, sales, pricing by county (June release verified pub ~7/17 — ~3rd week for prior month) | https://www.floridarealtors.org/ | Monthly |
+| **Parcl Labs — Motivated Seller Index map** | Metro/county MSI, % price cuts, % below purchase (the MSI tripwire pull source; metro-level all-seller ≠ builder cells) | https://www.parcllabs.com/research/motivated-sellers/map | Daily map; pull dated snapshots |
+| **Zillow ZHVI — FL statewide** | Typical home value (repeat-value stock index; carries the cycle-low marker vs mix-sensitive medians) | https://www.zillow.com/home-values/14/fl/ | Monthly (~3rd week) |
+| **NHC advisories** | Active-storm truth: use the full public advisory (MIATCPAT#) not just the outlook (MIATWOAT) — the outlook omits track/intensity (7/21 Bertha lesson) | https://www.nhc.noaa.gov/ | Live in season |
 | **Miami Realtors** | Southeast FL specific data | https://www.miamirealtors.com/ | Monthly |
 | **ATTOM Data** | Foreclosure rates, REO, delinquencies | https://www.attomdata.com/ | Monthly |
 | **Cotality (fka CoreLogic)** | Delinquency trends | https://www.cotality.com/ | Monthly |

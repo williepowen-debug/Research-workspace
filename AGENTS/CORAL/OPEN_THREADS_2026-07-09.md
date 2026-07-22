@@ -6,7 +6,7 @@
 
 | # | Question | Why it matters | Status |
 |---|----------|-----------------|--------|
-| 1 | Citizens 294,253 (CORAL, personal-lines) vs ~395K (AEOLUS, scope unspecified) | Same rough vintage, real chance it's just a line-scope mismatch — but unverified either way | Parked per PROME instruction |
+| 1 | Citizens 294,253 (CORAL, personal-lines) vs ~395K (AEOLUS, scope unspecified) | ✅ **RESOLVED 7/21 (primary):** both were TOTALS at different dates (CORAL's label wrong; AEOLUS's Jan-31 vintage). Canonical: 278,246 total / 273,684 personal, Jun 30 2026. KB ML-CORAL-035 | Closed 7/21 |
 | 2 | Parcl builder-MSI tripwire (MSI >6.0 across ≥5 FL metros, 2+ wks) | Pre-registered 🟠→🔴 escalation trigger, **never checked against a live pull across 3 sessions now** | Hard deadline set: next CORAL session |
 | 3 | Lost `CORAL_SPINOUT_2026-06-19.md` | No record anywhere of the REGINALD→CORAL spinout rationale/scope decision survives | Confirmed lost, not recoverable from repo |
 | 4 | FL labor "2nd-worst YoY" rank claim | Never independently verified (PROME 6/26 flag); currently unused, but sitting in the wings | Unverified |
