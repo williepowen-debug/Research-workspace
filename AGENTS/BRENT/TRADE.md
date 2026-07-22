@@ -64,9 +64,21 @@
 
 ---
 
-## DORMANT / CONDITIONAL — Phase-2 short (the other branch)
+## ⚑ PRE-REGISTERED — OFF-RAMP ROUND-TRIP PLAYBOOK (the down-tail; closure-regime rewrite of the dormant Phase-2 short, 2026-07-21)
 
-**Status: ⚪ DORMANT — do NOT initiate.** The Phase-2 demand-destruction short is RETIRED as the forward bias (v5.0) but survives as a *conditional*: it fires ONLY if the reopening **fully completes** (P&I resumes + liners off Cape + sustained transits) AND price locks lower-for-longer toward STEO's ~$79. Vehicle then = **bear put spread** (NOT naked puts — vol crush, LESSONS #15), 60–90 DTE, 10–15% OTM, 3:1 R:R. A fresh short *now* fights BOTH the priced-in reopening AND the upside skew — stays dormant until the reopening verifiably completes. The down-tail beyond that (Brent <$70 on a confirmed **demand collapse**/recession) is the only other thing that revives a short. (Detail: THESIS SHORT PLAYBOOK.)
+**Status: ⚪ ARMED-PASSIVE — pre-registered, NOT deployed; fires ONLY on a HARDENED off-ramp.** *(The old conditions — "reopening completes + P&I resumes + liners off Cape + locks toward STEO ~$79" — are RETIRED as written: unreachable from a formal-closure state. This section supersedes them so an off-ramp headline gets a fill proposal, not a scramble.)*
+
+**Premise:** the $76→$92 move is ~100% reversible risk-premium — zero barrels destroyed (v5.1 discriminator). The Jun-17 MOU showed the shape: **−8%/wk on the announcement, curve flip, premium out before any barrel moves** (LESSONS #11/#16). From $92 the unwind target is ~**$75-78** (the structural-decoupling zone). Underneath, the flush setup is quietly rebuilding: rigs 452 → production lands Q4'26-Q1'27 (GS's de-escalation window), China imports −41.3% YoY, SPR exchange-returns due 2027.
+
+**Trigger (HARDENED — operational, not rhetorical; LESSONS #18):** a Muscat/Article-5-class breakthrough with **(i)** named-official + signature/sovereign-action class **AND (ii)** ≥1 verification leg within 3 trading days {aggregate Hormuz transits recovering >~35/day · war-risk premium halves · P&I resumption notice}; **OR** transit normalization >50% of pre-crisis sustained 5 sessions with no deal. **STNG sanity check mandatory (LESSONS #16/#18):** if tankers do NOT sell off on the announcement, the market isn't treating it as operational → do NOT fire. **Anti-triggers:** declaratory-only statements (the Apr-17 false dawn), single-minister claims, unverified "reopening" headlines — this news cycle's dominant error mode is real-event-inverted-direction.
+
+**Vehicle / structure:** **USO bear put spread** — NEVER outright puts (OVX 60+ = maximum vol-crush on the de-escalation day itself; LESSONS #15). 60-90 DTE; long ~5-10% OTM / short ~15% OTM; ~3:1 R:R; **defined risk ~$500 max-loss.** Execute within ~48h of the hardened trigger (LESSONS #15); strikes/premiums from a **live chain at fire** (`[[finding_option_marks_need_live_chain]]`).
+**Sizing modifier (COT-conditioned):** if the squeeze fuel is SPENT by then (cumulative MM gross-short cover ≥−25K off the 129,072 base) → the flush has less covering-bid cushion → fuller size within the cap; if fuel largely intact (~119K standing) → covering slows the flush → smaller/wider structure.
+
+**Interaction with the convex arm: mutually exclusive.** A hardened off-ramp IS the up-arm's disarm condition — it auto-disarms, this arms. The two are never live simultaneously.
+**Authority:** pre-negotiated PROPOSAL — on trigger I pull a live chain and bring Will a one-line fill for fast **[Approve/No]**. NOT auto-fire. Rule #6 note: the announcement day is a violent RED day for oil; if the gap consumes most of the move at the open, prefer the first stabilization bounce for the fill rather than chasing the hole.
+
+**The other down-tail (unchanged):** Brent **<$70 on confirmed DEMAND collapse** (recession) remains the only non-off-ramp short-revival. (Structural detail: THESIS SHORT PLAYBOOK.)
 
 ---
 

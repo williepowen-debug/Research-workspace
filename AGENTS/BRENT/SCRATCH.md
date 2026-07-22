@@ -1,4 +1,4 @@
-# BRENT SCRATCH — Tue Jul 21, 2026 (late PM — boot + Will-directed FULL-SURFACE LIVE-DATA REFRESH)
+# BRENT SCRATCH — Tue Jul 21, 2026 (late PM — boot + full-surface refresh + staleness sweep + GAP-SWEEP EXECUTIONS)
 
 **Purpose:** Ephemeral session handoff — canonical "where are we / what next". Read at boot (step 2), rewritten at closeout (step 11). *(Note: the 7/17 COT session updated STATUS but skipped this file — gap now closed; don't repeat.)*
 
@@ -11,6 +11,14 @@
 - **Houthi declared blockade of Bab + Saudi (7/20)** → Yanbu (the Hormuz bypass, now 5→>6 Mbpd per GS) inside the declared zone; 7/21 first teeth: 2 Saudi-crude hulls coerced to Suez (zero barrels lost). DECLARED-NOT-EXECUTED; Bab transits ~8/day holding.
 - **Retail gas RE-CROSSED $4.00** (GASREGW $4.001 [FRED 7/20]); De Haan call resolved TRUE. Rigs **452** (wk-7/17, +7) = 5 to the 457 threshold. Transits newest print 7/19 = 15/88 (sub-18 run unbroken since 7/8). GS oil desk 7/20 published LONG-DIESEL escalation hedge (ratifies the frame; OECD diesel 4th %ile / SPR 1st %ile).
 
+## GAP-SWEEP EXECUTIONS (late PM, Will-directed — the connections/chains/gaps pass)
+- **DOE/SPR dropped thread RESOLVED:** 172M = emergency EXCHANGES (returns + premium barrels due **2027** [DOE 4/9]; ~120d from Mar = early-July wind-down = draw decel). No re-auth cliff. **2027 return-flow = standing demand bid** — registered in STATUS/NEXUS_BRIEF. New watch: post-July tranche announcements [energy.gov].
+- **BRT-29 REGISTERED** (closure-regime demand destruction, aviation-led; premise-gated pump ≥$4 ×4-of-6 wks; threshold ≤−3.0% gasoline YoY by wk-9/25; conf 55%; pre-registered BEFORE the 7/22 print).
+- **Off-ramp round-trip playbook PRE-REGISTERED** (TRADE.md): hardened LESSONS-#18 trigger + STNG sanity check → USO bear put spread (LESSONS #15), COT-conditioned sizing, mutually exclusive with the convex arm, proposal-authority. The down-tail is no longer unstaged.
+- **Matrix re-scored 53/70 → 62/75** incl. NEW CPC row = first Iran-anchor-INDEPENDENT driver (convergence quality ↑ — flagged to PROME).
+- **Asks dispatched:** LIQUID (fuel-consumer HY = early credit tell; transport-HY baseline requested) + PROME (unowned cross-theater war-risk/insurance watch — routing decision requested). Copies in outbox/, delivered to both inboxes.
+- **Yen-Brent gauge added** (~¥15,014/bbl @ USDJPY 163.13) — SAM cross-feed, dashboard row.
+
 ## WHAT I DID THIS SESSION
 - **Boot + graded the pre-registered 7/21 tree** → row 1: stays-hot CONFIRMED, still PASS-ON-CHASE (no Kharg, no Muscat, gate unmet). STATUS 7/21 banner.
 - **MSG-001 (Yanbu) resolved:** REGISTERED the "Saudi dual-route compression" vector (dated STATUS section; watch-state, premium channel, zero threshold moves); receipt ACCEPTED→INTEGRATED; MSG-003/004/005 (INFO) folded. All 4 → `inbox/processed/`.
@@ -19,7 +27,7 @@
 - Live pulls: settles/OVX/VIX/equities (Yahoo), transits (PortWatch script), rigs 452 (BH via web), GASREGW (FRED via boot.py).
 
 ## NEXT SESSION (dated, future-verifiable)
-1. 🔴 **Wed Jul 22 — EIA WPSR wk-7/17 = FIRST post-closure inventory read.** Grade: Cushing >20M week 2 of 2 (Boundary #3 rescission — or failure), draw acceleration, gasoline YoY (window-reopen watch), SPR pace. Write synthesis to `demand_destruction/data/`.
+1. 🔴 **Wed Jul 22 — EIA WPSR wk-7/17 = FIRST post-closure inventory read.** Grade: Cushing >20M week 2 of 2 (Boundary #3 rescission — or failure), draw acceleration, gasoline YoY (BRT-29 premise context — but do NOT grade BRT-29 off July prints, LESSONS #9), SPR pace. **Read discipline: Brent is $6.9 OVER WTI — a Cushing draw could be EXPORT-PULL (arb pulling US barrels out), not domestic tightness; disentangle via the export line before grading.** Write synthesis to `demand_destruction/data/`.
 2. 🔴 **Wed Jul 22 — Japan June trade balance (SAM owns level)** — demand-side convergence input.
 3. 🔴 **~Thu Jul 24 — CPC leg-(b)**: 5th continuous suspended session fires GATE-OSPREY-001 leg-(b) (routes 🔴 to me). Check CPC loading status + Black Sea war-risk rate.
 4. 🔴 **Fri Jul 24 — CFTC COT (as-of 7/21)**: grade squeeze progression off the frozen ladder (base now 119,187; watch cumulative −25K off 129,072 = FUEL-SPENT); ICE-WTI sibling check. **+ Baker Hughes: 452 vs 457 — BRT-26 likely FAILS on a +5 print; grade honestly at the print, no pre-grade.**
@@ -34,6 +42,7 @@
 - 🟡 GS datums to re-verify IF load-bearing for a positioning call: Yanbu 5→>6 Mbpd; 42% 4-yr production-hit base rate (wide dispersion).
 
 ## POSITION DECISIONS PENDING
+- **Awaiting replies:** LIQUID (transport-HY baseline) · PROME (insurance-watch routing decision).
 - **Will:** (1) Branch-2 far-OTM tail-rider (defined-risk, ~$200 class) vs accepted-flat-through-gap — open since 7/17, case marginally stronger 7/21; (2) GS long-diesel expression (Will/TERRY) — on record, not auto-adopted. **Arm = ARMED-and-HOT, no capital; XLE $65C Sep-30 = LAPSE; Phase-2 short DORMANT.** No expiries near (Sep 30 next).
 
 ## MAIL STATE

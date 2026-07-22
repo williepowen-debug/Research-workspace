@@ -93,7 +93,7 @@
 | **WTI (CL=F)** | **$85.29 (+1.13%)** | Jul 21 [CONF boot.py] |
 | **OVX (oil vol)** | **63.78 — NEW cycle high** (> prior Jun-Jul high 63.7; ~p95 level); OVX/VIX ratio **3.74** (VIX 17.05) — cooldown gate {<2.89 ratio AND <44.2 level} decisively unmet | Jul 21 [CONF CBOE via Yahoo] |
 | **Curve structure** | **CONTANGO → BACKWARDATION FLIP [EST]** — M1−M3 back toward +$3-5 (was −$2 Jul-6); front-led surge on the closure = Phase-1 squeeze structure. Diesel premium ~$80 | 7/13 [EST] |
-| **SPR** | **316.5M (−2.99M) — DEEPER 43-yr low** (was 319.5M); pace decel'd −6.2M→−3M/wk (throttle? or artifact); §6241 floor 252.4M ~10-21 wks | wk-7/10 EIA [CONF] |
+| **SPR** | **316.5M (−2.99M) — 43-yr low.** Mechanism RESOLVED 7/21: the 172M program runs via **EMERGENCY EXCHANGES** (borrow + return WITH premium barrels by 2027 [CONF DOE 4/9: ~55M awarded + 30M W-Hackberry]; ~120d schedule from Mar = the early-July wind-down = the −6.2→−3M/wk decel). No hard re-auth cliff (exchange authority is DOE-discretionary); **returns due 2027 = a standing future demand bid.** §6241 floor 252.4M | wk-7/10 EIA [CONF] |
 | **Cushing** | **🟢 20.04M (+0.43M) — FIRST CLOSE >20M FLOOR since Jun 12** (week 1 of 2 for Boundary #3 rescission; +44K margin) | wk-7/10 EIA [CONF] |
 | **US commercial crude** | **~409.7M (−1.69M draw)** — resumed drawing after one-wk build | wk-7/10 EIA [CONF] |
 | **Distillate** | **~105.9M (+2.3M build)** — 2nd consecutive build; demand-softness tell | wk-7/10 EIA [CONF] |
@@ -103,6 +103,7 @@
 | **US oil rigs (Baker Hughes)** | **🔴 452 (+7); 5 to 457** — highest since May-2025, 12th rise in 13 wks; BRT-26 breach watch next print ~7/24 | wk-7/17 [CONF BH via Oil&Gas360/EnergyNow] |
 | **USO (convex-arm ref)** | **$128.85 (+2.66%)** — +24% off $103.82 (Jul-1); chain pulled LIVE at arm-time | Jul 21 [CONF Yahoo] |
 | **VLCC proxies** | Frontline $38.45 (+4.12%); DHT $18.47 (+3.24%); STNG $79.66 (+2.15%) | Jul 21 [CONF Yahoo] |
+| **Yen-Brent (terms-of-trade gauge)** | **~¥15,014/bbl** (BZ=F $92.04 × USDJPY 163.13) — Japan's import-cost squeeze compounds the USD move; SAM cross-feed | Jul 22 early [CONF Yahoo] |
 | Retail gas (FRED GASREGW) | **🟠 $4.001 — RE-CROSSED $4.00** (prior peak $4.55 on 5/21; trough ~$3.73 ~7/4). De Haan 7/13 "7-10 day" re-cross call resolved TRUE; consumer end = CARL | Jul 20 [CONF FRED] |
 | VIX (equity) | 17.05 — equity calm; the vol crisis stays oil-SPECIFIC (OVX 63.78) | Jul 21 [CONF Yahoo] |
 
@@ -114,7 +115,9 @@
 
 ---
 
-## CONVERGENCE MATRIX (RE-SCORED 7/16 — current through the formal-closure regime; **satisfies MSG-PROME-20260714-001#BRENT-01**)
+## CONVERGENCE MATRIX (RE-SCORED 7/21 — prior 7/16 score 53/70; *7/16 re-score satisfied MSG-PROME-20260714-001#BRENT-01*)
+
+**⚑ 7/21 re-score: 53/70 → 62/75.** Deltas: Bab 2→4 (declared blockade of Bab + Saudi 7/20, coercion-with-teeth 7/21 — not executed, so not 5) · US production 3→4 (rigs 452, 5 to 457) · Demand 3→4 (pump $4.00 re-cross + Iran-cited airline cuts + China −41.3%) · Refining 3→4 (record 3-2-1 $64.58, diesel ~$80, OECD diesel 4th %ile) · Macro 3→4 (July CPI loading the shock, FOMC ahead of the print). **NEW ROW: CPC/Black Sea physical 3/5 — the first driver fully INDEPENDENT of the Iran-kinetic anchor** (Russia-Ukraine theater; RF-038) → denominator 70→75 and the *effective independent driver count rises* — convergence improved in KIND, not just score (flagged to PROME for cross-agent stacking).
 
 **⚠️ Re-score basis (supersession, per PROME directive):** the message asked to re-score the *7/8-crack / 7/10-DENY* state — that state is now **OVERTAKEN** by the 7/11-12 formal Hormuz closure. Correct handling = re-score against the **CURRENT** regime, not the dead intermediate. **Total 44 (Jul-1) → 53/70 (7/16), +9.** The `Independence` column (DAEDALUS BATCH_03, 7/10) is preserved; only the numeric scores were lagging.
 
@@ -123,20 +126,21 @@
 | Vector | Score (Δ vs Jul-1) | Independence | State (7/16) |
 |--------|-------|--------------|-------|
 | Hormuz/chokepoint | 🔴 5 (↑2) | **Iran-kinetic ROOT (anchor)** — count once | **FORMAL CLOSURE 7/12; transits 10/88 = 11% of pre-crisis [CONF PortWatch 7/12]; Qatar blanket suspension.** Maxed. |
-| Bab al-Mandab | 🟡 2 (—) | independent chokepoint (Houthi/Red Sea) | BRT-28 resolved; separate chokepoint, no fresh strait-proper strike |
+| Bab al-Mandab | 🟠 4 (↑2, 7/21) | independent chokepoint (Houthi/Red Sea) | **Declared blockade of Bab + SAUDI 7/20; coercion-with-teeth 7/21** (2 hulls to Suez); transits ~8/day holding = NOT executed; Yanbu vector above |
 | Gulf production | 🔴 5 (↑1) | shared Iran-kinetic root → count once | **KOC offshore platform hit 7/12 (first production-CLASS asset in current cycle); closure chokes ~6.7 Mbpd GCC export-flow-at-risk** (net of bypass pipelines) |
 | Brent price | 🔴 5 (↑2) | **OUTPUT — excluded from driver count** | **~$85.6 live (+13% off the 7/10 ~$76 settle), >>$75** [CONF boot.py 7/16] |
-| US production response | 🟠 3 (—) | independent (shale economics) | **445 (+5); 12 to 457** [BH 7/2]; rigs lag price; closure may stall capex commitment |
-| Demand destruction (Path B) | 🟠 3 (—) | independent (demand-side) | Pre-empted by Path A; gas YoY −1.06%, pump $3.855 (<$4). Re-arm may RE-FIRE pump prices in 2-4 wks (watch) |
+| US production response | 🟠 4 (↑1, 7/21) | independent (shale economics) | **452 (+7); 5 to 457** [BH wk-7/17] — response materializing; BRT-26 breach watch ~7/24 |
+| Demand destruction (Path B) | 🟠 4 (↑1, 7/21) | independent (demand-side) | **Pump RE-CROSSED $4.00 (7/20)**; Iran-cited airline cuts (Virgin Atlantic/Aer Lingus); China imports −41.3% YoY; **BRT-29 pre-registered** |
 | Storage (global) | 🟠 4 (—) | semi-dependent (reopening barrels ← Hormuz) | **Cushing back >20M (20.04M wk-7/10, week 1 of 2 for Boundary #3 rescission); SPR 316.5M 43-yr low.** ⚠️ Data is PRE-closure vintage (wk ends 7/10) — next EIA (wk-7/17, rel 7/22) is the first post-closure read |
 | Tanker/shipping | 🔴 5 (↑2) | shared Iran-kinetic root → count once | **Transit collapse + Cape routing + war-risk ~5% surged + ton-mile maxed.** The structural asset-value leg now joined by acute-disruption leg |
-| Refining bottleneck | 🟠 3 (—) | independent (+ exogenous Russia-products shock) | Util 96.2% margin-boom; diesel premium ~$80 (cracks WIDENING); compression still absent |
+| Refining bottleneck | 🟠 4 (↑1, 7/21) | independent (+ exogenous Russia-products shock) | Record 3-2-1 $64.58 (7/8); diesel ~$80; OECD diesel **4th %ile** [GS 7/20]; util 96.2%; compression absent |
 | Energy credit | 🟡 2 (—) | independent (credit market) | **Energy-HY OAS re-derived 183bps [CONF Fidelity 931730 / ICE BofA HY Corp Sectors, as-of 6/30/26]** — up ~+19bp from the stale 164 [5/31] but STILL the tightest HY sector and *below* broad HY OAS 271bps [FRED 7/15]. ⚠️ **Credit has NOT repriced the Hormuz closure as solvency risk — the key LAGGING tell; >400 stress line remote.** (6/30 vintage predates the 7/11-12 closure; the July print [~Aug] is the first post-closure read — flagged to LIQUID.) |
 | OPEC+ policy | 🟠 3 (—) | independent (policy) | Paper behind the closure; JMMC Jul 28 |
 | Ceasefire stability | 🔴 5 (↑1) | shared Iran-kinetic root (the anchor itself) → count once | **FULL COLLAPSE — formal war footing; ceasefire dead, US blockade + 3rd strike wave.** Maxed |
 | Curve structure | 🔴 5 (↑1) | **OUTPUT — reflects the drivers** | **CONTANGO → BACKWARDATION FLIP** (M1-M3 back toward +$3-5 [EST] from −$2 Jul-6); front-led = Phase-1 squeeze structure |
-| Macro transmission | 🟠 3 (—) | independent (macro) | June CPI printed COOL (oil shock lands in JULY's print); re-firing risk ↑ |
-| **TOTAL** | **53/70** (↑ from 44 Jul-1, **+9**) | **~11 effective independent drivers** (kinetic cluster collapses 4→1, now MAXED; 2 outputs excluded) | Material ↑: Hormuz +2, Gulf-prod +1, Brent +2, Tanker +2, Ceasefire +1, Curve +1. **Consequence: re-arm CONFIRMED (Phase-1 re-squeeze); convex arm ARMED-and-hot; deploy = pass-on-chase (vol rich).** |
+| Macro transmission | 🟠 4 (↑1, 7/21) | independent (macro) | Pump >$4 + $92 crude; July CPI (~Aug 12) carries the shock; **FOMC 7/29 decides on stale (cool June) data — sequencing risk** |
+| **CPC / Black Sea physical** | 🟠 3 (NEW 7/21) | **fully INDEPENDENT of the Iran anchor** (Russia-Ukraine theater) | **First actual barrels-offline event** (RF-038, ~1.3-1.5M bpd Kazakh; state halt 7/21); insurer-gated duration; leg-(b) ~7/24 |
+| **TOTAL** | **62/75** (7/21; ↑ from 53/70 7/16) | **~12 effective independent drivers** (kinetic cluster still counts ONCE; CPC = a genuinely NEW independent driver; 2 outputs excluded) | 7/21 ↑: Bab +2, US-prod +1, Demand +1, Refining +1, Macro +1, +CPC row 3. **Consequence: convergence broadened beyond the Iran anchor — quality up, not just score. Stance unchanged: ARMED-and-HOT, pass-on-chase.** |
 
 ---
 
@@ -149,6 +153,7 @@
 | BRT-07 / 17 | OPEN — timer COLD, receding | reopening reversed into formal closure; P&I start-gun further than ever |
 | BRT-12 | OPEN — compression ABSENT | cracks record-WIDE (3-2-1 $64.58 7/8; diesel ~$80; OECD diesel 4th %ile); NOT DUE (Q3) |
 | BRT-21 | OPEN — structurally unreachable | #1 contaminated, #2 window-closed, #3 N/A on a rising tape |
+| **BRT-29** | **OPEN — NEW (registered 7/21)** | closure-regime demand destruction, aviation-led; premise = pump ≥$4 sustained (4 of 6 wks); threshold ≤−3.0% gasoline YoY by late-Sep; conf 55%; no grading off late-July prints (LESSONS #9) |
 
 ---
 
@@ -159,7 +164,10 @@
 3. 🔴 **Fri Jul 24 — CFTC COT (as-of 7/21)**: squeeze progression from the IGNITING notch — gross-short ladder from 119,187 (COILED ≥−7K unlikely now; watch FUEL-SPENT ≤−25K cumulative); ICE-WTI sibling divergence check.
 4. 🟠 **Bab/Yanbu execution watch** (vector above): aggregate Bab transits (~8/day baseline hold), Yanbu liftings, JWC/war-risk on Red Sea liftings. Execution = frame-breaker (premium → supply-loss on the bypass).
 5. 🟠 **Deploy gate** (unchanged): OVX/VIX ratio <p90 (2.89) AND OVX <p75 (44.2) + a stabilized pullback; at 3.74/63.78 we are FURTHER from entry than 7/17. Branch-2 tail-rider = Will's open decision.
-6. 🟡 **WSJ shuttle-fleet trio (~7/13) vs anchor 7/14 trio reconcile** — owed jointly w/ FALCON (double-count risk in the escalation ledger; SIG-W-20260717-013). 🟡 **GS Yanbu 5→>6 Mbpd + 42% base-rate re-verify** if either becomes load-bearing for a positioning call. 🟡 **Energy-HY OAS July print (~Aug)** = first post-closure credit read (LIQUID flagged).
+6. ✅ **DOE/SPR re-auth question RESOLVED 7/21** (dropped 🔴 from ~Jul 3, recovered by the gap sweep): mechanism = emergency EXCHANGES (returns + premium barrels due 2027), ~120d schedule from March → early-July wind-down explains the pace decel; no hard authorization cliff. **NEW WATCH: (a) any post-July exchange tranche announcement [energy.gov]; (b) the 2027 return-flow = structural 2027 demand bid** (bears on GS's 2027 $75-100 split).
+7. 🟠 **BRT-29 registered (7/21)** — closure-regime demand destruction, aviation-led, premise-gated on sustained $4 pump; do NOT grade off late-July EIA prints (LESSONS #9 stockpiling mask); first clean reads ~mid-Aug.
+8. ⚪ **Off-ramp round-trip playbook PRE-REGISTERED** (TRADE.md 7/21) — hardened-trigger bear-put-spread; mutually exclusive with the convex arm; fires only on operational (not rhetorical) de-escalation + STNG sanity check.
+9. 🟡 **WSJ shuttle-fleet trio (~7/13) vs anchor 7/14 trio reconcile** — owed jointly w/ FALCON (double-count risk in the escalation ledger; SIG-W-20260717-013). 🟡 **GS Yanbu 5→>6 Mbpd + 42% base-rate re-verify** if either becomes load-bearing for a positioning call. 🟡 **Energy-HY OAS July print (~Aug)** = first post-closure credit read (LIQUID flagged).
 
 ---
 

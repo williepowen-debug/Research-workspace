@@ -8,6 +8,12 @@ Tracks all changes to THESIS.md and TIMELINE.md. Reverse chronological. Each ent
 
 ---
 
+## 2026-07-21 Tue (late PM addendum) — gap-sweep executions: BRT-29 registered · off-ramp playbook pre-registered · DOE/SPR mechanism resolved (no version bump)
+
+Will-directed follow-through on the 7/21 connections/gaps assessment. **(1) BRT-29 REGISTERED** (PREDICTIONS.tsv): closure-regime demand destruction, aviation-led — premise-gated (pump ≥$4.00 in ≥4 of 6 weekly prints), mechanism (aviation leads: ≥3 more named carriers + jet<gasoline YoY) split from threshold (gasoline 4-wk YoY ≤−3.0% by wk-9/25), conf 55% per the consumer-transmission calibration anchor; pre-registered BEFORE the first post-closure EIA print (7/22). **(2) OFF-RAMP ROUND-TRIP PLAYBOOK pre-registered** (TRADE.md): the dormant Phase-2 short's conditions were unreachable from a formal-closure state — rewritten as a hardened-trigger (LESSONS #18 operational bar + STNG sanity check) USO bear-put-spread (LESSONS #15), COT-conditioned sizing, mutually exclusive with the convex arm, proposal-authority only. Old view: down-tail unstaged, off-ramp would be a scramble. New view: both tails now pre-registered symmetrically. **(3) DOE/SPR re-auth question RESOLVED** (dropped 🔴 from ~Jul 3, recovered): the 172M program runs via emergency EXCHANGES (borrow + return with premium barrels by 2027 [DOE 4/9]; ~120d schedule → early-July wind-down = the draw decel) — no hard re-auth cliff; **2027 return-flow registered as a standing future demand bid** (bears on 2027 balances). **(4) Matrix re-scored 53/70 → 62/75** — incl. a NEW CPC/Black Sea row, the first driver fully independent of the Iran-kinetic anchor (convergence quality ↑, flagged to PROME). Cross-agent asks dispatched: LIQUID (fuel-consumer HY = the early credit tell this regime; energy-HY fires late) + PROME (unowned cross-theater war-risk/insurance watch). Yen-Brent gauge added (~¥15,014/bbl).
+
+---
+
 ## 2026-07-21 Tue — v5.0 → v5.1 (minor): Phase-1 re-squeeze REALIZED — the pre-registered up-tail fired
 
 **Trigger:** Will-directed full-surface refresh at the 7/21 boot; THESIS was 7/6 vintage — 15 days behind the formal Hormuz closure. Live: Brent $92.15 settle (7/21), OVX 63.78 (new cycle high), transits 15/88 (7/19 print).
