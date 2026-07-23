@@ -91,7 +91,7 @@
 
 | Metric | Value | Updated |
 |--------|-------|---------|
-| **Brent (BZ=F)** | **🔴 $100.01–100.42 (+6.75% d/d) — TOPPED $100** (KEY THRESHOLD #1 / Scenario-C); +32% off the 7/10 $76.01 settle. Prior settles 7/17 $88.10 → 7/20 $89.22 → 7/21 $92.15 ($85×3 FIRED) | Jul 23 [CONF boot.py / Yahoo BZ=F] |
+| **Brent (BZ=F)** | **🔴 $100–101 (intraday high $101.13, +7%+ d/d) — TOPPED $100** (KEY THRESHOLD #1 / Scenario-C); +33% off the 7/10 $76.01 settle. Prior settles 7/17 $88.10 → 7/20 $89.22 → 7/21 $92.15 ($85×3 FIRED) | Jul 23 [CONF boot.py / Yahoo BZ=F] |
 | **WTI (CL=F)** | **$91.77 (+5.95%)** | Jul 23 [CONF boot.py / Yahoo] |
 | **OVX (oil vol)** | **🔴 70.27 — NEW cycle high** (>63.78 on 7/21); OVX/VIX ratio **3.57** (VIX 19.7) — cooldown gate {<2.89 ratio AND <44.2 level} decisively unmet, FURTHER away than ever | Jul 23 [CONF CBOE via Yahoo] |
 | **Curve structure** | **CONTANGO → BACKWARDATION FLIP [EST]** — M1−M3 back toward +$3-5 (was −$2 Jul-6); front-led surge on the closure = Phase-1 squeeze structure. Diesel premium ~$80 | 7/13 [EST] |
@@ -103,8 +103,8 @@
 | **Gasoline demand YoY** | **+1.45%** — POSITIVE (hoarding window / no destruction yet; BRT-29 premise context, do NOT grade off July prints per LESSONS #9) | wk-7/17 EIA [CONF] |
 | **Spec positioning (COT)** | **🔴 7/14 GRADED = SQUEEZE IGNITING (partial):** MM gross shorts 129,072→**119,187 (ΔS −9,885**, in IGNITING band). Crowded short began covering into the closure spike — BUT de-grossing-led (net −2,067; longs −11,952 > shorts −9,885), ICE-WTI sibling shorts BUILT +8,531, ~92% fuel remains → igniting, NOT ignited. Raw `f_disagg.txt` (Socrata lagged); anchor reconciled exact. Prior: 7/10 spring-fuel CONFIRMED (shorts +6,753 into 7/7). | **7/14 [CONF CFTC raw]** |
 | **US oil rigs (Baker Hughes)** | **🔴 452 (+7); 5 to 457** — highest since May-2025, 12th rise in 13 wks; BRT-26 breach watch next print ~7/24 | wk-7/17 [CONF BH via Oil&Gas360/EnergyNow] |
-| **USO (convex-arm ref)** | **$140.35** — +9% off 7/21 $128.85, +35% off $103.82 (Jul-1); tail-rider $175C now ~25% OTM; chain pulled LIVE at arm-time | Jul 23 [CONF Yahoo] |
-| **VLCC proxies** | Frontline $38.45 (+4.12%); DHT $18.47 (+3.24%); STNG $79.66 (+2.15%) — 7/21 marks, refresh next pull | Jul 21 [CONF Yahoo] |
+| **USO (convex-arm ref)** | **$141.82** — +10% off 7/21 $128.85, +37% off $103.82 (Jul-1); tail-rider pivoted to 150/165 spread (see TRADE) | Jul 23 [CONF Yahoo] |
+| **VLCC proxies** | Frontline $38.71; DHT $18.41; STNG $79.16 | Jul 23 [CONF Yahoo] |
 | **Yen-Brent (terms-of-trade gauge)** | **~¥15,014/bbl** (BZ=F $92.04 × USDJPY 163.13) — Japan's import-cost squeeze compounds the USD move; SAM cross-feed | Jul 22 early [CONF Yahoo] |
 | Retail gas (FRED GASREGW) | **🟠 $4.001 — RE-CROSSED $4.00** (prior peak $4.55 on 5/21; trough ~$3.73 ~7/4). De Haan 7/13 "7-10 day" re-cross call resolved TRUE; consumer end = CARL | Jul 20 [CONF FRED] |
 | VIX (equity) | **🟠 19.7 (+19.71%) — equity vol WAKING** ($100 print + Red Sea 2nd front transmitting to stocks/bonds/rates); the vol crisis is no longer purely oil-specific (OVX 70.27) | Jul 23 [CONF Yahoo] |

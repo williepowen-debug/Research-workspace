@@ -33,11 +33,11 @@ Cushing **~19.37M bbl (−674K WoW)** [CONF Investing.com Jul 22] — **FELL BEL
 **🟡 ALERT #2: CRUDE BUILD (+2.010M) — IMPORT-DRIVEN, DEMAND READ UNCERTAIN**
 Commercial crude **+2.010M → ~411.7M bbl** [CONF Investing.com Jul 22; vs −2.0M consensus — MASSIVE MISS]. Build driven by net crude import surge **+485K bpd WoW** [CONF TradingEconomics Jul 22]. This is NOT a demand destruction signal on crude; it reflects import routing dynamics. Draw threshold (>5M/wk) NOT triggered this week.
 
-**🔴 ALERT #3: GASOLINE STOCKS BUILD — DEMAND-SOFT SIGNAL**
-Gasoline stocks **+765K → ~210.8M bbl** [CONF TradingEconomics Jul 22; vs −1.54M expected — major miss]. Stock build concurrent with pump price re-crossing $4.001 = early demand softening signal. Product supplied (actual demand proxy) YoY NOT YET INDEXED — check WGFUPUS2 when EIA publishes full tables. Prior confirmed read: ~−1.06% YoY wk-7/10.
+**🟡 ALERT #3: GASOLINE STOCKS BUILD — but PRODUCT-SUPPLIED YoY went POSITIVE (hoarding, NOT destruction)**
+Gasoline stocks **+765K → ~210.8M bbl** [CONF TradingEconomics Jul 22; vs −1.54M expected — major miss]. **UPDATE 7/23 (EIA v2 API): gas product-supplied 4-wk YoY = +1.45% — POSITIVE** (flipped up from −1.06% wk-7/10), i.e. a hoarding/no-destruction print, NOT demand softening — consistent with LESSONS #9 (wholesale stockpiling masks early-shock demand reads; do NOT grade BRT-29 off late-July prints). The stock build + $4.001 pump is a mixed early tell; the product-supplied leg is the demand proxy and it is not-yet-softening.
 
-**📉 SPR — DEEPENING BELOW 43-YEAR LOW (MONITOR)**
-SPR **~311.4M bbl (est. −5.1M WoW)** [EST; OilPrice.com Jul 22; source conflict — "316.5M total" cited in one source appears erroneous (prior week was already 316.5M); −5.1M draw → ~311.4M is best estimate]. If confirmed, NEW historic low (below November 1981 level). At −5M/wk → §6241 floor 252.4M in ~12 weeks. Verify against EIA table when indexed.
+**📉 SPR — DEEPENING BELOW 43-YEAR LOW (CONFIRMED)**
+SPR **311.4M bbl (−5.06M WoW)** [CONF EIA v2 API 7/23 — upgraded from the 7/22 [EST]; the "316.5M" source-conflict resolved: 316.5M was the PRIOR week, −5.06M draw → 311.4M]. New historic low. At ~−5M/wk → §6241 floor 252.4M in ~12 weeks; draw RE-ACCELERATED vs −2.99M prior wk.
 
 **✅ TRIGGER #2 / BRT-08 — RESOLVED Jul 1. Path B SUPERSEDED by Path A.**
 Peak: −2.58% YoY (wk-6/26). Never reached −5%. Window closed Jun-30. Pump now $4.001 [CONF FRED Jul 20] — DEMAND DESTRUCTION WINDOW POTENTIALLY REOPENING with Brent re-arm regime + pump re-crossing $4. First post-closure demand read (wk-7/17) shows demand-soft signal in stocks; product supplied YoY PENDING.
