@@ -29,7 +29,7 @@
 | SHADE | Market | L2 | Insurer-lender / PE-insurance-captive | Firming read -> L3 (seed light PREDICTIONS.tsv from accrued dated binar… |
 | NEXUS | Utility | L4 | Cross-agent synthesis | L5 (YEYOU leg WAIVED-while-dormant, Will 7/22): residual polish (closeo… |
 | ZHAO | Market | L3 | China macro — UST demand / capital flows / Korea | L3->L4: consumption evidence (LIQUID absorb |
-| AEOLUS | Market | L2 | Climate → economy (macro; insurance/ag/energy-demand channels) | PROME spawn flag routed 7/22 |
+| AEOLUS | Market | L2 | Climate → economy (macro; insurance/ag/energy-demand channels) | PROME spawn flag routed 7/22 stands |
 | WATT | Market | L2 | Power/grid — PJM stress → wholesale price → industrial/data-center cost | L3: grade WATT-05/04/06 as they land + verify inherited EEA2 pull |
 | VULCAN | Market | L2 | AI-capex / semiconductor / memory cycle → systemic risk (concentration, memory, power-demand, Taiwan chokepoint) | L3: grade the 7/22-31 cluster (VULCAN-03 GOOGL TODAY — DEWEY card pre-a… |
 | MIDAS | Market | L3 | Metals — monetary (gold/silver: debasement, real-rates) + industrial (copper/PGM: growth, China, supply) | Firm L3 conf M->H: MIDAS-05 grade ~7/23 |
