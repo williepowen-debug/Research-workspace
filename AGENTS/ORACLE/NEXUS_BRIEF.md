@@ -33,6 +33,8 @@
 | BRENT / HAWK | ⚠️ WTI-$90/$85-intraday (Polymarket) and Brent-settle-ref (Kalshi, single reading) are NOT FALCON's 3-consecutive-settle >$85 thesis. Premium tells on their own terms; do not cite as confirmation. | 🟡 |
 | REGINALD / CARL / LIQUID | Structural credit quiet: corporate-bankruptcy >750 83% steady; CRE-default/CC-delinquency/Fed-facility still zero-open (authoritative sweep). US-credit-downgrade ticker reads 4.0% today (verify vs 7/17's 16%). No fresh bank single-name signal. | ⚪ |
 | BROCK / RED | **CLARITY Act (crypto market-structure) repriced DOWN** — Polymarket "signed into law 2026" 37.0%, Δ1d −8 to −10.5, deep ($2.3M). Crowd marking down passage before the Aug-10 recess deadline (3 disputes open). Base case = not signed 2026. Newly pinned (was an untracked theme). Aug 10 = catalyst. | 🟠 |
+| BRENT / HAWK | **Coverage-sweep pins (deep, steady — tracking not signal):** Iranian-regime-fall-2027 10.5% ($598.8K liq — harder-bar/deeper than the leadership-change pin; escalation but NOT collapse priced); Venezuela "Delcy out as leader Dec31" 9.5% (oil-relevant, sanctioned heavy-crude, was untracked). Routed. | 🟡 |
+| **Fleet (open owner)** | **Un-tracked tail flagged:** Hantavirus-pandemic-2026 3.6% (Δ7d +1.6, $335K deep) — a health/pandemic macro tail with no current fleet coverage or clear owner. Surfaced by the first coverage sweep. Low priority; flagging in case AEOLUS/HENRY want it. | ⚪ |
 
 **WAITING FOR:**
 | From | Input | Why |

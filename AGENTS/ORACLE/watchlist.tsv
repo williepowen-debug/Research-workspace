@@ -27,6 +27,10 @@ US unemployment ladder 2026	event	how-high-will-us-unemployment-go-in-2026	T1	LA
 Hormuz traffic normal by Dec 31	market	strait-of-hormuz-traffic-returns-to-normal-by-december-31	T1	HAWK,BRENT
 US invade Iran before 2027	market	will-the-us-invade-iran-before-2027	T2	HAWK,BRENT
 Iran leadership change by Dec 31	market	iran-leadership-change-by-december-31-974-976-658-482-568	T2	HAWK,BRENT
+# ADDED 2026-07-22 PM (first `coverage` sweep — Will-approved nomination). "Iranian regime fall before 2027" — VERY deep ($22.9M vol / $598.8K liq), 10.5% (Δ7d +1.0). Distinct from + harder-bar than the leadership-change pin above (regime COLLAPSE vs a change of leader) and far deeper-priced — the better-liquidity gauge for the Iran regime-stability tail. → HAWK,BRENT.
+Iranian regime fall before 2027	market	will-the-iranian-regime-fall-by-the-end-of-2026	T2	HAWK,BRENT
+# ADDED 2026-07-22 PM (first `coverage` sweep — Will-approved). Venezuela leadership/regime-stability = OIL-relevant (sanctioned heavy-crude; incumbent departure → sanctions/supply shift). "Delcy Rodríguez out as leader of Venezuela by Dec 31" 9.5% (Δ7d +0.5, $174.6K vol / $15.1K liq). Complement event "who will be leader of Venezuela end-2026" (Donovan/Grenell/Machado legs, deeper per-leg) tracks the replacement scenario. → BRENT,HAWK.
+Venezuela: Delcy out as leader by Dec 31	market	delcy-rodrguez-out-as-leader-of-venezuela-by-december-31-2026-148-853	T2	BRENT,HAWK
 Russia-Ukraine ceasefire by Dec 31	market	russia-x-ukraine-ceasefire-agreement-by-december-31-2026	T2	HAWK,BRENT
 China invade Taiwan before 2027	market	will-china-invade-taiwan-before-2027	T1	HAWK,PROME
 # China / Japan macro

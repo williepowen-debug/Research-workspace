@@ -51,6 +51,8 @@
 | US-Iran deal 2026 (top) | T2 | 34.5% | +3.0 | **+11.5** | $68.2K | $10.3K | resolve tail ALSO rising (bimodal) |
 | US declares war on Iran <2027 | T2 | 5.0% | +0.5 | — | $697.9K | $88.9K | narrow mechanism, low |
 | Iran leadership change / ends enrich Dec31 | T2 | 21.5% | — | −1.0 | $1.3M | $71.1K | ends-enrichment-Dec31 fading |
+| **Iranian regime FALL before 2027** | T2 | **10.5%** | — | +1.0 | $22.9M | $598.8K | NEW (coverage sweep) — deep regime-collapse gauge; escalation ≠ collapse priced |
+| **Venezuela: Delcy out as leader Dec31** | T2 | **9.5%** | — | +0.5 | $174.6K | $15.1K | NEW (coverage sweep) — oil-relevant regime-stability, was untracked |
 | Iran ends enrichment by Jul 31 | T2 | 0.8% | −0.1 | −0.6 | $933.5K | $73.1K | ⏳ near-zero |
 | **Iran targets shipping (daily)** | T2 | Jul21 **1.0%** | −71.5 | — | $8.1K | — | tempo eased that day; ⛔display-quirk, event LIVE |
 | Iran mil action vs Gulf St (daily) | T2 | live | — | — | $967.8K | — | ⛔display-quirk flag; event LIVE — war-widening axis |
@@ -89,6 +91,7 @@
 
 ## Maintenance flags
 
+- **🔭 `coverage` sweep built + first run (7/22 PM) — see MAINTENANCE.md.** New `polymarket.py coverage` (inverse of `movers` — ranks the full universe by liquidity, not movement, to catch deep un-tracked markets like the CLARITY Act). Weekly cadence, wired into closeout. First run → pinned Iranian-regime-fall + Venezuela-Delcy (both above, routed BRENT/HAWK); flagged Hantavirus-pandemic tail to the fleet (NEXUS_BRIEF); skipped Fed cut-legs (near-resolve). Next coverage sweep due ~7/29.
 - **🧹 Full file-sweep executed 7/22 (Will-directed) — see MAINTENANCE.md 7/22 entry.** Cleaned 8 dead watchlist pins (bank-failure/Hormuz-Jul15/Citi/BAC/WTI-$80 resolved; bitcoin-dip/china-Philippines/old-bank-Dec31 delisted → 2 coverage gaps logged), rolled 5 Kalshi June→July, refreshed VX.tsv (+2 owed threshold state-changes), corrected credit-downgrade level (KB-ORC-045: 4.0%/~6.75%-mid, not 7/17's 16%), refreshed TRADE.md, de-rotted CLAUDE.md's convergence matrix (→ pointer to this file), regen'd HISTORY.tsv. Both watchlists now pull with zero "not found."
 - **🔴 Tripwire discipline validated:** the 7/17 pre-registered "spread collapse VIA the WTI leg = regime flip" tripwire fired exactly as specified — the WTI supply leg rose 10pp, disruption flat. This is the cleanest single-gauge call the tool was built for. Keep reading WHICH leg moves.
 - **⚠️ WTI $100 supply-leg MONTH-ROLL (owed, near):** the July WTI-$100 market ends **2026-08-01** (9 days). When August opens, re-pin the new month's WTI-$100 market or the spread's supply leg silently ages out (script hard-exits if legs drift >3d — fails loud, but the re-pin is manual). Same for WTI-$85/$90-intraday and the Jul-31 Hormuz ladder (re-pin an Aug ladder).
