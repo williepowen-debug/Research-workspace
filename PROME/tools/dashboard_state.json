@@ -1,5 +1,5 @@
 {
- "built": "2026-07-22 22:33",
+ "built": "2026-07-23 16:24",
  "channels": {
   "Credit": "watch",
   "Energy": "crit",
@@ -9,8 +9,6 @@
   "Rates": "crit"
  },
  "docket": [
-  "2026-07-15 Q2 monolines / Axis-A (SYF/ALLY/COF/AXP)",
-  "2026-07-22 40Y JGB auction + GOOGL earnings",
   "2026-07-22 Hyperscaler Q2 filings useful-life watch \u2014 VULCAN pre-regist",
   "2026-07-23 HBAN Q2 earnings (BMO)",
   "2026-07-23 LAB-17 claims window (w/e 7/18 + 7/25) + July flash PMI ~7/2",
@@ -25,7 +23,8 @@
   "2026-08-04 MU FQ4 earnings (~8/4) \u2014 lane tripwire test #1",
   "2026-08-06 MFIC Q2 \u2014 first on-record management post-WSJ sale report",
   "2026-08-07 CCLFX N-23C3A Q3 repurchase-cap decision \u2014 GATE-BRK-C1 resol",
-  "2026-08-07 NFP July (Fri 8:30 ET)"
+  "2026-08-07 NFP July (Fri 8:30 ET)",
+  "2026-08-13 July CPI (~8/13) \u2014 HEN-41 oil-shock passthrough test proper"
  ],
  "fleet": {
   "AEOLUS": "ok",
@@ -37,7 +36,7 @@
   "FALCON": "ok",
   "HAWK": "ok",
   "HENRY": "ok",
-  "HOMER": "ok",
+  "HOMER": "watch",
   "LABOR": "ok",
   "LIQUID": "ok",
   "MARCO": "ok",
@@ -61,7 +60,7 @@
  "gates": {
   "GATE-BRENT-SUSTAIN": "resolved:RESOLVED",
   "GATE-BRK-C1": "live:LIVE",
-  "GATE-FALCON-001": "live:LIVE",
+  "GATE-FALCON-001": "live:\u2605",
   "GATE-HY-REKILL": "live:LIVE",
   "GATE-LIQ-069": "live:ARMED",
   "GATE-LIQ-072": "live:LIVE",
@@ -79,7 +78,7 @@
  },
  "levels": {
   "10Y Yield": 4.55,
-  "Brent": 91.12,
+  "Brent": 100.19,
   "CCC OAS": 969.0,
   "Cushing": 20.04,
   "HY OAS": 271.0,
@@ -93,8 +92,10 @@
  },
  "one": "Spark lit, plumbing held, recognition deferred.",
  "pending": [
-  "(1) KELYA DTE-30 write-off decision (at the 7/23 LABOR spawn)",
-  "(2) OZK-09 A/B/C/D re-mark discussion (OZK queued it; weights frozen till then)"
+  "** OZK-09 re-mark discussion",
+  "USO retry outcome (unknown to PROME \u2014 verify vs BRENT/broker)",
+  "KELYA DTE-30 (verify vs LABOR window)",
+  "weekend HEARTBEAT re-base (amendment count = 4, rule trips ~5)"
  ],
  "split": "Break 26 / Grind 33 / Unresolved 41",
  "v": 1
