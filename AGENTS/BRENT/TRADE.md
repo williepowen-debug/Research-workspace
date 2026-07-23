@@ -136,7 +136,7 @@
 
 | Date | Action | Detail |
 |------|--------|--------|
-| 2026-07-23 | ⏳ **STAGED / PENDING FILL — tail-rider = 150/165 call spread** | **BUY +1 USO Sep-18 $150C / SELL −1 Sep-18 $165C, net-debit limit ~$3.65, ~$365 max risk, ~$1,135 max profit, B/E USO ~$153.65 (Brent ~$110).** Will places per ticket. **On fill: replace this row with actual fill date/net-debit/legs + flag FORGE reconcile.** |
+| 2026-07-23 | ⏳ **PENDING — 150/165 spread NOT FILLED 7/23 (carry to 7/24)** | **BUY +1 USO Sep-18 $150C / SELL −1 Sep-18 $165C, net-debit ~$3.50-3.90 working, ~$350-390 risk, ~$1,150 max, B/E USO ~$153.5 (Brent ~$110).** Order not placed 7/23 (Will unavailable at close; USO opts shut 4:00 PM). Late-day re-quote: USO $139.49, spread mid $3.48 (bid 2.85/ask 4.10 — wide; work $3.70, bump ~$3.90). **CARRY TO 7/24 — ⚠️ re-quote fresh: 7/24 has 3 catalysts (CPC leg-(b) · CFTC COT · Baker Hughes) that can gap USO either way; insurance ideally ON before them.** On fill: replace row w/ actual fill + FORGE flag. |
 | 2026-07-22 | ❌ NOT FILLED — Option A ($175C) | Will selected A 7/22 12:30 AM (BUY 1 Sep-18 $175C ~$3.30); order did NOT fill 7/22 [PROME 7/22]. Superseded 7/23 by the spread (above) after re-quote. No position opened. |
 | 2026-06-18 | CF $130C expired worthless | Last fill this regime. |
 | — | (no convex-arm deployment yet) | Deploy-on-trigger; Will [Approve] at fire. |

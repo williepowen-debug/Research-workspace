@@ -20,7 +20,7 @@
 - **NEXUS_BRIEF** full write-back (Status/Position/As-of/VIEW/CALIBRATION/SENDING-HAWK/WAITING-FOR/NEXT-DECISION/CATALYSTS). **THESIS CHANGELOG** 7/23 entry (no version bump — v5.1 premium structure unchanged).
 
 ## NEXT SESSION (dated, future-verifiable)
-0. 🔴 **CONFIRM TAIL-RIDER FILL** — if Will placed the 150/165 spread (BUY +1 USO Sep-18 $150C / SELL −1 $165C, ~$3.65 debit), get the actual net-debit + fill date → **replace the PENDING EXECUTION LOG row** with the real fill + flag FORGE reconcile. If still unfilled, re-quote live (hold ~$3.65 debit discipline).
+0. 🔴 **TAIL-RIDER — NOT FILLED 7/23 (carry to 7/24).** Order not placed 7/23 (Will unavailable at close; USO opts shut 4pm; late-day USO $139.49, spread mid $3.48/wide). **7/24: re-quote FRESH at the open and place — ⚠️ 7/24 catalysts (CPC leg-(b) · COT · Baker Hughes) can gap USO either way, so the insurance ideally goes ON before them.** Structure unchanged (BUY +1 Sep-18 $150C / SELL −1 $165C, work ~$3.70 debit toward ~$3.90). On fill → replace the PENDING EXECUTION LOG row + FORGE flag.
 1. 🔴 **~Fri Jul 24 — CPC leg-(b)**: 5th continuous suspended session fires GATE-OSPREY-001 leg-(b) (routes 🔴 to me). Check CPC loading status + Black Sea war-risk rate.
 2. 🔴 **Fri Jul 24 — CFTC COT (as-of 7/21)**: grade squeeze progression off the frozen ladder (base 119,187; watch cumulative −25K off 129,072 = FUEL-SPENT); ICE-WTI sibling check. **+ Baker Hughes: 452 vs 457 — BRT-26 likely FAILS on a +5 print; grade honestly at the print, no pre-grade.**
 3. 🔴 **FALCON reply** — fresh post-strike aggregate Bab count + war-risk level = the open discriminator on whether the $100 move is tipping premium→supply-loss. Integrate when it lands.
