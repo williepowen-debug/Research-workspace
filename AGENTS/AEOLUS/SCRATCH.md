@@ -8,7 +8,7 @@
 
 7/22 full catch-up done (all channels refreshed live; inbox+WALTER lane drained). Composite 12/25, scores held; two read-quality corrections applied (ENSO level, C3 mechanism). Next session priorities:
 
-**⚡ FIRST THING NEXT SESSION — resolve the LIVE C3 event:** DOE EEA declared 7/22, PJM forecast peak **166,304 MW Thu 7/23** (would break 165,600 2006 record). Routed 🔴 to WATT (KB-AEO-029). **Did Thursday's peak realize at/above the record? What EEA tier? Did price fire as a COST event or retrace?** If realized → C3 3→4 (I held at 3, did NOT pre-bank the forecast). Check WATT's inbox reply first.
+**⚡ C3 status (RESOLVED 7/22):** my "live C3 record-peak Thu" flag was **RETRACTED** — WATT refuted it on 4 primaries (no 7/22 DOE order; PJM board quiet; EIA-930 36 GW below mid-July; record was 7/2-4 only). Over-fired on a single secondary; L-11. **The real C3 signal = P2/capacity: 2028/29 BRA cleared 7/14 at $325 cap + 6,831 MW short (KB-AEO-034, WATT canonical)** — cost mechanism confirming on annual cadence; acute leg cooled. Next session: check WATT's Thu-7/23 realized-peak backstop result — only upgrade C3→4 if a record + EEA2+/§202(c) genuinely printed.
 
 
 1. **ENSO next primary** — CPC monthly ONI + **13-Aug ENSO Discussion**. Current +1.2°C wkly / +0.98 ONI; does strengthening keep pace toward the 81% very-strong OND call? (KB-AEO-021 stale-by 8/15.) **Pull the CPC primary (ensodisc.pdf + oni.ascii.txt), NOT secondaries** — see L-09 (the +1.7 I banked 7/9 was never a real CPC value; +2.1 search figure was confabulated).

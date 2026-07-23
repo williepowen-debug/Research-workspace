@@ -1,6 +1,6 @@
 # AEOLUS STATUS
 
-**Last Updated:** 2026-07-22 ~22:10 ET (full catch-up + live-scan) · **Status:** 🟠 — **LIVE C3 grid emergency** (DOE EEA, forecast record PJM peak Thu 7/23); C5 (Rhine) lead climate read; El Niño moderate-now / very-strong-likely-Q4
+**Last Updated:** 2026-07-22 ~22:40 ET (catch-up + deep-scan + WATT C3 reconcile) · **Status:** 🟠 — C4 upgraded (wildfire/insurability); C5 (Rhine + Mississippi) lead climate read; **live-C3 flag RETRACTED** (WATT primaries non-corroborated); El Niño moderate-now / very-strong-likely-Q4
 **Class:** Market-agent (climate → economy) · **Self-level:** L2
 
 > Data is web-gathered, sourced + dated below. Per Critical Rule #3, verify against primary releases (CPC/NHC/CSU/USDA/Drewry/Artemis) before any trade use. No naked numbers.
@@ -17,11 +17,12 @@
 
 ---
 
-## 🔴 LIVE EVENT (7/22 eve scan) — C3 grid emergency, forecast record PJM peak
+## ⚠️ RETRACTED — the "live C3 grid emergency" (7/22 eve) did NOT corroborate
 
-**DOE declared an Energy Emergency Alert 7/22; Sec. Wright directed PJM against blackouts; §202(c) order curtailing data centers (w/ backup gen) + large non-emergency loads.** PJM peak-demand **FORECAST for Thu 7/23 = 166,304 MW — would break the 2006 all-time record (165,600 MW)**. Heat indices 110-113°F across the Mid-Atlantic/NE. This is the **3rd EEA-class event of the season** (after EEA2 7/1-3, EEA1 7/16) and the first *forecast* to break the record.
-- **This is my C3 3→4 upgrade trigger IF realized** — but I am **NOT pre-banking a Thursday forecast** (only the DOE EEA is a realized action). Routed 🔴 to **WATT** (canonical for PJM figures; reconcile 166,304 vs their 162,648 7/2 season peak) with 3 asks: is Thu's peak realized at/above record; what EEA tier; does the price leg fire as a *cost* event this time or retrace like 7/16. Upgrade on WATT's realized read. [ABC News 7/22; KB-AEO-029]
-- **Storm check (Will's 7/22 ask):** the Gulf system is **Bertha** — tracking as expected, weakening; **NHC 8PM 7/22 explicitly rules out any NEW Atlantic development for 7 days** ("formation not expected") — no second storm brewing. The louder live signal tonight is C3, not the tropics.
+**I over-fired.** My 7/22-eve live-scan surfaced (single secondary, ABC News via research agent) a claim of a **DOE EEA + §202(c) order + forecast record PJM peak 166,304 MW Thu 7/23**. **WATT checked 4 primaries the same night and found NO corroboration** (WATT 7/22 reply): (1) DOE §202(c) order index — latest PJM order is 202-26-35, **July 14**; no order ~7/22; (2) live PJM emergency board — quiet, no EEA/§202(c) posting; (3) EIA-930 — 7/22 peak **126,409 MW, 36 GW *below* mid-July**, no severe-heat signature; (4) PJM season summary — the record event was **7/2-4 only**.
+- **Diagnosis (WATT + my own KB):** true earlier-July facts (the record *was* broken 7/2 at 168,158 MW DR-adjusted; Manual 13 curtailment is real) **welded to a false 7/22 date** — `fused_true_facts_false_premise`. "First forecast to break the record" is internally inconsistent with my own KB-AEO-018. **No C3 upgrade. C3 stays 3 🟠.** Lesson L-11. WATT will run a Thu-7/23 realized-peak backstop; if a record + EEA2+/§202(c) genuinely prints, we both upgrade then.
+- **The REAL C3 move this week (WATT canonical):** not the acute leg — **P2/capacity hit max**: PJM's **2028/29 BRA cleared 7/14 at the $325 cap AND 6,831 MW short** (3rd straight at-cap, 2nd straight RTO-wide shortfall, $16.4B). That is the *cost* mechanism confirming on the annual-auction cadence (the thing that actually reprices), vs a heat-day spike that retraces. WATT's P1 (acute) has **eased to 3** as the season cooled.
+- **Storm check (Will's 7/22 ask) — stands:** the Gulf system is **Bertha**, weakening as expected; **NHC 8PM 7/22 rules out any NEW Atlantic development for 7 days** — no second storm brewing.
 
 ---
 
@@ -31,7 +32,7 @@
 |---|---|:--:|---|---|---|---|
 | C1 | Insurance / reinsurance | 2 🟡 | benign/soft — softening *further* | El Niño-driven (shared root); insurability hinge w/ C4 | July renewals: global cat ROL **−16%**, NA **−20/25%**; Citizens FL reins. **−29% YoY** | a peak-season major landfall reverses the ROL trend |
 | C2 | Agriculture / food | 2 🟡 | benign-improving | El Niño + drought root (shared w/ C5) | corn **67%** / soy **66%** G/E (flat); drought **46.5%** (↓ from 52%) | upper-Belt flash-drought verifies OR El Niño Q4 drought |
-| C3 | Energy demand | **3 🟠** (→4 pending) | mechanism confirmed; **LIVE 3rd event escalating** | El Niño root (shared w/ C1/C5) | **DOE EEA 7/22 + forecast record peak 166,304 MW Thu** (see LIVE block); 2nd event was EEA1 7/16 | **realized** record peak / sustained EEA2+ → 4 (holding pending WATT's realized read) |
+| C3 | Energy demand | **3 🟠** | mechanism confirmed; acute leg COOLED, **cost leg (P2) confirming** | El Niño root (shared w/ C1/C5) | **2028/29 BRA cleared 7/14 at $325 cap + 6,831 MW short** (WATT); 7/22 "live event" retracted | realized record peak w/ EEA2+ (WATT Thu backstop) OR Henry Hub break |
 | C4 | Property / physical | **3 🟠** ↑ | **UPGRADE — evidence building & buy-side pricing it** | partly independent of C1 (fire=drought not hurricane) | **NIFC PL5/5**; CA FAIR Plan 29.1% hike + first $1B assessment/30yr; buy-side pricing property→muni channel | carrier insolvency OR a >$10B single insured cat |
 | C5 | Supply chain / logistics | **3 🟠** | **lead channel — Rhine the live climate read** | drought root (shared w/ C2); El Niño Panama overhang | **Rhine Kaub Scale-4 surcharges active** (early); freight +61% YoY but *confounded* | Panama draft-trim binds transits OR Rhine below navigable minimum |
 
@@ -50,7 +51,8 @@
 | C1 | Reinsurance ROL (July renewal) | **Soft, softening further** — global cat **−16%** (steepest since late-90s), NA **−20/25%+**; capital ~$790B | July 2026 | 🟢 benign | Guy Carpenter/Gallagher Re via Artemis |
 | C2 | US corn / soy condition (G/E) | **67% / 66%** (~flat vs 68/66 on 6/21) | 20 Jul 2026 | 🟢 (>55%) | USDA NASS Crop Progress |
 | C2 | US drought (Lower 48) | **46.5%** (↓ from 52.3%); N.Plains heat dome peaked 12 Jul (115°F MT), broke 20-21 Jul | 14 Jul 2026 | 🟡 regional | US Drought Monitor |
-| C3 | PJM demand / grid (WATT canonical) | 159,046 MW (7/15 peak); **2nd EEA event 7/16** (EEA1, milder than 7/1-3 EEA2); LMP $410.55 spike retraced same-session | 16 Jul 2026 | 🟠 realized | WATT 7/16 adjudication (PJM/EIA-930) |
+| C3 | PJM acute (P1, WATT canonical) | season COOLED — 7/22 peak 126,409 MW (36 GW below mid-July); acute leg eased to 3 | 22 Jul 2026 | 🟠→easing | WATT (EIA-930) |
+| C3 | PJM capacity (P2, WATT canonical) | **2028/29 BRA cleared 7/14 at $325 CAP + 6,831 MW short** (3rd straight at-cap, 2nd RTO-wide shortfall, $16.4B) — the *cost* mechanism confirming | 14 Jul 2026 | 🟠 | WATT; PJM BRA |
 | C3 | Henry Hub / storage | $3.16/MMBtu; storage cushion intact (no fresher print) | 22 Jun 2026 | 🟢 | EIA |
 | C1/C4 | H1 2026 US insured nat-cat | **~$36B, ~25-28% below 10-yr avg, lowest H1 since 2018**; 5 straight qtrs no >$10B cat; SCS #1 but down from $40B+ | H1 2026 | 🟢 (soft) | Aon / Gallagher Re |
 | C4 | Wildfire / CA insurability | **NIFC PL5/5** (since 7/18); CA FAIR Plan 29.1% hike (eff Oct) + first $1B assessment/30yr (statewide contagion); buy-side pricing property→muni | 22 Jul 2026 | 🟠 | NIFC; CA DOI; Breckinridge/AB |
