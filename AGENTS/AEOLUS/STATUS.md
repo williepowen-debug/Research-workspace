@@ -1,6 +1,6 @@
 # AEOLUS STATUS
 
-**Last Updated:** 2026-07-22 ~22:00 ET (full catch-up, 13 days stale) · **Status:** 🟡 monitoring — regime forecast strengthened, current levels moderate; C5 (Rhine) lead climate read, C3 mechanism now confirmed
+**Last Updated:** 2026-07-22 ~22:10 ET (full catch-up + live-scan) · **Status:** 🟠 — **LIVE C3 grid emergency** (DOE EEA, forecast record PJM peak Thu 7/23); C5 (Rhine) lead climate read; El Niño moderate-now / very-strong-likely-Q4
 **Class:** Market-agent (climate → economy) · **Self-level:** L2
 
 > Data is web-gathered, sourced + dated below. Per Critical Rule #3, verify against primary releases (CPC/NHC/CSU/USDA/Drewry/Artemis) before any trade use. No naked numbers.
@@ -17,13 +17,21 @@
 
 ---
 
+## 🔴 LIVE EVENT (7/22 eve scan) — C3 grid emergency, forecast record PJM peak
+
+**DOE declared an Energy Emergency Alert 7/22; Sec. Wright directed PJM against blackouts; §202(c) order curtailing data centers (w/ backup gen) + large non-emergency loads.** PJM peak-demand **FORECAST for Thu 7/23 = 166,304 MW — would break the 2006 all-time record (165,600 MW)**. Heat indices 110-113°F across the Mid-Atlantic/NE. This is the **3rd EEA-class event of the season** (after EEA2 7/1-3, EEA1 7/16) and the first *forecast* to break the record.
+- **This is my C3 3→4 upgrade trigger IF realized** — but I am **NOT pre-banking a Thursday forecast** (only the DOE EEA is a realized action). Routed 🔴 to **WATT** (canonical for PJM figures; reconcile 166,304 vs their 162,648 7/2 season peak) with 3 asks: is Thu's peak realized at/above record; what EEA tier; does the price leg fire as a *cost* event this time or retrace like 7/16. Upgrade on WATT's realized read. [ABC News 7/22; KB-AEO-029]
+- **Storm check (Will's 7/22 ask):** the Gulf system is **Bertha** — tracking as expected, weakening; **NHC 8PM 7/22 explicitly rules out any NEW Atlantic development for 7 days** ("formation not expected") — no second storm brewing. The louder live signal tonight is C3, not the tropics.
+
+---
+
 ## CONVERGENCE MATRIX
 
 | # | Channel | Score (1–5) | Local state | Independence | Key Signal | Upgrade Trigger |
 |---|---|:--:|---|---|---|---|
 | C1 | Insurance / reinsurance | 2 🟡 | benign/soft — softening *further* | El Niño-driven (shared root); insurability hinge w/ C4 | July renewals: global cat ROL **−16%**, NA **−20/25%**; Citizens FL reins. **−29% YoY** | a peak-season major landfall reverses the ROL trend |
 | C2 | Agriculture / food | 2 🟡 | benign-improving | El Niño + drought root (shared w/ C5) | corn **67%** / soy **66%** G/E (flat); drought **46.5%** (↓ from 52%) | upper-Belt flash-drought verifies OR El Niño Q4 drought |
-| C3 | Energy demand | **3 🟠** | **mechanism CONFIRMED, not a cost event** | El Niño root (shared w/ C1/C5) | 2nd EEA event 7/16 (WATT priced live); §202(c) + Manual 13 = permanent curtailment tool | sustained multi-region EEA2+ OR Henry Hub/CDD breaks storage cushion |
+| C3 | Energy demand | **3 🟠** (→4 pending) | mechanism confirmed; **LIVE 3rd event escalating** | El Niño root (shared w/ C1/C5) | **DOE EEA 7/22 + forecast record peak 166,304 MW Thu** (see LIVE block); 2nd event was EEA1 7/16 | **realized** record peak / sustained EEA2+ → 4 (holding pending WATT's realized read) |
 | C4 | Property / physical | 2 🟡 | soft/stabilizing; new water-rights thread | insurability hinge w/ C1 | light cat losses; soft reins.; **San Carlos AZ <1%** (water-rights template) | CA non-renewals resume; water-rights repricing quantifies |
 | C5 | Supply chain / logistics | **3 🟠** | **lead channel — Rhine the live climate read** | drought root (shared w/ C2); El Niño Panama overhang | **Rhine Kaub Scale-4 surcharges active** (early); freight +61% YoY but *confounded* | Panama draft-trim binds transits OR Rhine below navigable minimum |
 
@@ -58,7 +66,8 @@
 
 ## HURRICANE-SEASON STATE (refresh 2026-07-22)
 
-**Basin:** one active system — **TS Bertha** (2nd named storm). Formed 7/19 NE Gulf, peaked ~60 mph; **landfall St. Bernard Parish LA ~2 pm CDT 7/22 at ~45 mph, weakening**, crawling W over New Orleans → Houston, dissipating by end of week. Impacts: 1-4″ rain (iso 6″), surge ≤3 ft. **Minimal FL threat.** Track crosses the LA/TX refining+LNG corridor but intensity is **well below any facility-shutdown threshold → negligible energy-infra impact; C3/BRENT does NOT fire.** [NHC via CBS/Fox/NPR, 7/22]
+**Basin:** one active system — **TS Bertha** (2nd named storm). Formed 7/19 NE Gulf, peaked ~60 mph; **landfall St. Bernard Parish LA ~2 pm CDT 7/22 at ~45 mph, weakening**, tracking W over TX, dissipating by Thu/Fri. Low-confidence tail: a Texas-coast reformation late 7/23 could clip Corpus Christi→Galveston as a low-end TS (Norcross/HAFS-A). Impacts: 1-4″ rain (iso 6″), surge ≤3 ft. **Minimal FL threat.** **NHC 8PM 7/22: no new Atlantic development expected for 7 days** (rules out a 2nd storm behind Bertha). [NHC/CBS/Fox/NPR, 7/22]
+- **Energy footprint — precautionary, not a supply event:** Chevron shut-in Petronius + evacuated Tubular Bells/Blind Faith; a Gulf refinery suspended some ops. BUT nat gas settled *flat* ($2.865/MMBtu, +0.2% — storm trimmed demand offsetting supply risk); LNG feedgas intact (Plaquemines rose to 3.8 Bcf/d). Routed 🟡 to BRENT — precautionary shut-ins occurred, do NOT carry Bertha as an energy-supply catalyst. [Baird/PGJ/Fox 7/20-22]
 
 **Season-to-date:** 2 named (Arthur 6/17, Bertha 7/19); **ACE ~2.0** — this is **near-climatology for the date** (almost no ACE accrues before August), *not* a below-normal signal yet. Don't read 2.0-vs-123 (123 = full-season normal).
 

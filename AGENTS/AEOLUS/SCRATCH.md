@@ -8,6 +8,9 @@
 
 7/22 full catch-up done (all channels refreshed live; inbox+WALTER lane drained). Composite 12/25, scores held; two read-quality corrections applied (ENSO level, C3 mechanism). Next session priorities:
 
+**⚡ FIRST THING NEXT SESSION — resolve the LIVE C3 event:** DOE EEA declared 7/22, PJM forecast peak **166,304 MW Thu 7/23** (would break 165,600 2006 record). Routed 🔴 to WATT (KB-AEO-029). **Did Thursday's peak realize at/above the record? What EEA tier? Did price fire as a COST event or retrace?** If realized → C3 3→4 (I held at 3, did NOT pre-bank the forecast). Check WATT's inbox reply first.
+
+
 1. **ENSO next primary** — CPC monthly ONI + **13-Aug ENSO Discussion**. Current +1.2°C wkly / +0.98 ONI; does strengthening keep pace toward the 81% very-strong OND call? (KB-AEO-021 stale-by 8/15.) **Pull the CPC primary (ensodisc.pdf + oni.ascii.txt), NOT secondaries** — see L-09 (the +1.7 I banked 7/9 was never a real CPC value; +2.1 search figure was confabulated).
 2. **C5 Rhine is the live escalation** — Kaub into Scale-4 surcharges *early* (~40-81cm, 15-20 Jul); re-pull the gauge (usually deepens Aug-Oct). Watch Panama's stepped draft cuts (14.94m 7/24, 14.78m ~8/15) for any transit bind (AEO-04 soft-HIT on draft leg, spirit not met).
 3. **NOAA August hurricane update (~early Aug)** — pre-registered upward-revision escalation line; CSU next update 8/5. Bertha (LA landfall 7/22, negligible energy impact) resolving.
