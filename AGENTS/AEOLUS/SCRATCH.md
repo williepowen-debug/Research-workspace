@@ -17,6 +17,7 @@
 4. **C3 recurrence** — 2 EEA events in 14d; watch for a 3rd or a Henry Hub/capacity (P2) break that moves it mechanism→cost. WATT canonical on power figures.
 5. **San Carlos / Western water-rights (FLOW-AEO-07, new)** — needs a $-loss or water-rights-pricing datum to become a C4 score-mover; macro read-through = Colorado Compact (~20x stakes).
 6. **Crops flash-drought watch** — upper-Corn-Belt drought expansion behind the 7/20 front is the only thing that could flip C2; not fired.
+7. **★ Will-endorsed 7/22 (routed to PROME):** (a) REGINALD/CREED prioritize the C4 down-stack thread → FAIR-Plan → muni/collateral name-level views; (b) AEO-03 soft-reinsurance = ripening **Q4** setup on TERRY's radar (peak hurricane Aug-Oct + Jan renewal; not a now-trade). #3 C3-capacity = WATT-owned (KB-034); #4 = the CPC-8/13 + NOAA-Aug anchors above. Follow up if REGINALD/TERRY don't pick up.
 
 Standing data sources: NOAA CPC **primary** (ENSO — ensodisc.pdf/oni.ascii.txt), NHC + CSU TCRAMS (hurricane), USDA NASS (crops), US Drought Monitor, EIA (gas/CDD/STEO), Guy Carpenter/Gallagher Re/Artemis (cat loss + ROL), Drewry (freight), Kaub gauge (Rhine), Panama Canal Authority. WATT canonical for PJM power.
 
