@@ -90,7 +90,7 @@
 | VLY Non-Accrual | 0.85% NPL (Q1-2026) | 1.0% | 1.25% | 1.5%+ |
 | OIR Enhanced Monitoring | 14 companies (Feb-2026) | 16 | 18 | 20+ |
 | FL Foreclosure Rate | #1 of 50, 0.27% H1-2026 (ATTOM Mid-Year) | — | — | Accelerating (currently: high plateau, flow-growth decelerating) |
-| Parcl MSI (metro-level) | **ARMED 7/21: 5 metros >6.0 on 7/8 snapshot** (Tampa 6.9/Punta Gorda 6.9/North Port 6.45/Cape Coral 6.12/Lakeland 6.09) | — | >6.0 in ≥5 FL metros 2+ wks → 🔴 (sustain check due ≥7/22; KB ML-CORAL-034) | — |
+| Parcl MSI (metro-level) | **🔴 FIRED 7/23 (Will-ratified): sustain MET — 5 metros still >6.0 on 7/23 pull** (Tampa 6.96/Punta Gorda 6.82/North Port 6.45/Cape Coral 6.2/Lakeland 6.09), ~15d after the 7/8 snapshot | — | ✅ TRIGGERED: >6.0 in ≥5 FL metros 2+ wks → 🔴 supply-side leg (metro-basis documented; KB ML-CORAL-034/-048; CHANGELOG 7/23) | FIRED |
 
 ---
 

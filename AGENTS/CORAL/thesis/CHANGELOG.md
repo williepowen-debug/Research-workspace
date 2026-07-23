@@ -78,6 +78,20 @@
 
 ---
 
+## 2026-07-23 — Supply-side price-discovery leg upgraded 🟠→🔴 (Will-ratified)
+
+**Move:** the **supply-side price-discovery leg** of the housing pillar upgraded 🟠→🔴. Scoped to this leg only — the **bank-transmission rail is untouched (stays 0-of-≥2)** and the overall CORAL state stays 🟠 thesis-split.
+
+**Trigger (pre-registered 6/26, armed 7/21, sustain-confirmed + ratified 7/23):** Parcl Motivated-Seller Index ≥5 FL metros >6.0 sustained ≥2 weeks. Fired on the 7/23 fresh pull — Tampa 6.96 / Punta Gorda 6.82 / North Port 6.45 / Cape Coral 6.2 / Lakeland 6.09, still ≥5 >6.0 ~15 days after the 7/8 snapshot (values drifted vs 7/8 = fresh read). **Documented substitution:** metro-level all-seller MSI, not the builder-cell basis the tripwire was seeded on (noted, not silent). Will ratified in-session 7/23 ~1:35 PM ET.
+
+**Why it matters (LTV-transmission link — the durable point):** the buyer-composition read (VX-CORAL-BUYER-01) shows the absorption mechanism is **cash end-user / foreign capitulation-clearing** (cash share rising, investor share falling) — i.e., distressed inventory is clearing at **cut prices via real money**, not investor knife-catching. Cash transactions **set appraisal comps**, so capitulation-clearing **marks collateral values DOWN** → erodes LTV on the SW-FL collateral behind the FL-bank books. This is the **collateral-repricing leg upstream of the bank-loss bridge** — it lowers the cushion that has kept the bank leg curing (rate-shock reclass with intact LTVs).
+
+**Boundary (unchanged):** this is collateral-side, NOT bank-P&L evidence. It does not upgrade the bank-transmission rail by itself — it lowers the collateral cushion that would absorb a future migration. Bank leg still upgrades only on ≥2 synchronized FL-bank credit deteriorations or USCB condo-assoc cracking.
+
+**Implication:** the winter-26/27 composite gains a confirmed 🔴 leg; the price-discovery-at-lower-clearing-levels dynamic is now the live SW-FL collateral markdown feeding (eventually) into bank LTV.
+
+---
+
 ## Pending / next changelog entries to resolve
 
 - Whether Q2 2026 FL bank prints confirm or falsify bank transmission.

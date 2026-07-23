@@ -2,7 +2,7 @@
 
 **Version:** v1.0  
 **Installed:** 2026-06-20  
-**State:** 🟠 ELEVATED / thesis split — household + condo stress confirmed; bank-loss transmission not confirmed.  
+**State:** 🟠 ELEVATED / thesis split — household + condo stress confirmed; bank-loss transmission not confirmed. **Supply-side price-discovery leg 🔴 (Will-ratified 7/23) — collateral repricing via cash capitulation-clearing; scoped to that leg, bank-transmission rail untouched (0-of-≥2).**  
 **Changelog:** `thesis/CHANGELOG.md`
 
 ---
@@ -48,6 +48,7 @@ Keep exact live values in `STATUS.md`, `workbook/KB.tsv`, `workbook/VX_Vectors.m
 |---|---|---|
 | **Condo assessments** | Reserve mandate is live; special assessments are the primary forcing function. | Converts deferred maintenance into immediate household cash need. |
 | **Negative equity** | Recent-vintage FL buyers are an upstream collateral canary, especially SW-FL. | Reduces willingness/ability to fund assessments or hold through downturn. |
+| **Supply-side price discovery (MSI leg 🔴, 7/23)** | Sustained seller distress (≥5 SW/Central-FL metros MSI >6.0) is clearing via **cash end-user/foreign capitulation** (VX-CORAL-BUYER-01: cash share rising, investor share falling). | **Cash comps mark collateral DOWN → erodes LTV cushion** on the SW-FL collateral behind FL bank books — the collateral-repricing leg *upstream* of the bank bridge. Collateral-side, NOT bank-P&L; does not alone upgrade the bank rail. |
 | **Bankruptcy / consumer stress** | Filing acceleration is a consumer canary; volume ranks need per-capita validation. | Complements foreclosure; tests household cost-stack stress. |
 | **Insurance split** | Personal/reinsurance easing does **not** equal commercial/condo master-policy easing. | Master-policy costs remain an association cash-flow amplifier. |
 | **Migration / tourism** | Demand engine is weaker and geographically uneven. | Stacks with housing stress, especially SW-FL; coordinate values with MARCO. |

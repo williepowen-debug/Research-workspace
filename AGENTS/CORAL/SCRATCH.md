@@ -14,7 +14,7 @@ PROME-spawned FL GATE-DAY grade. **Two headline outcomes:**
    - (a) NCO ~17bps (vs ~14 Q1, ~30 2Q25) = BENIGN · (b) provision $29.2M vs $21.2M Q1 (+37% QoQ) w/ "higher specific reserves on collateral-dependent loans" (NOT FL-named) = DETERIORATING (mechanical) · (c) ACL 1.18%→1.16% (−2bps, declining) = BENIGN · (d) criticized/classified 8.1%→7.3% DOWN (mgmt-guided) vs 3 CRE loans →non-accrual ($49.6M, no allocated reserves) = BENIGN (mixed).
    - 8-state book, no FL cut → excluded from FL count on independent grounds. Tape −2.4% intraday = EPS miss (adj $0.30 vs $0.31 cons), not credit. **No HOA/condo/assoc color in release.**
 
-3. **🔴 PARCL MSI SUSTAIN CHECK — MET.** 5 FL metros still >6.0 ~15d after 7/8 (Tampa 6.96/Punta Gorda 6.82/North Port 6.45/Cape Coral 6.2/Lakeland 6.09; values drifted vs 7/8 = fresh). Per OQ#0 reg, the 🟠→🔴 supply-side-leg trigger FIRES (metro-basis, documented). **Escalated 🔴 to PROME — did NOT flip global thesis state unilaterally (scoped-spawn rail discipline).**
+3. **🔴 PARCL MSI SUPPLY-SIDE LEG — FIRED, WILL-RATIFIED 7/23 ~1:35PM.** 5 FL metros still >6.0 ~15d after 7/8 (Tampa 6.96/Punta Gorda 6.82/North Port 6.45/Cape Coral 6.2/Lakeland 6.09). Escalated → Will ratified → **applied the 🟠→🔴 supply-side price-discovery leg flip, SCOPED to that leg** (bank rail untouched 0-of-≥2; overall state 🟠). Absorption = cash capitulation-clearing → collateral markdown → SW-FL LTV erosion (VX-CORAL-BUYER-01). Swept ALL surfaces: STATUS (header/7-23 block/OQ#0), THESIS (State + evidence row w/ LTV link), CHANGELOG (2026-07-23 entry), VX-BUYER-01, FL_Forward_Log (row FIRED), CALENDAR (✅FIRED), COVERAGE (pillar-2 + SW-FL epicenter), NEXUS_BRIEF (status + REGINALD/MARCO read).
 
 ## WHAT I DID THIS SESSION
 
@@ -28,14 +28,14 @@ PROME-spawned FL GATE-DAY grade. **Two headline outcomes:**
 ## NEXT SESSION (mechanical, in order)
 
 1. **RE-RUN GATE DAY (tonight AMC / tomorrow calls):** grade SSB + AMTB + USCB off their Q2 8-K ex-99.1 (EDGAR, once filed). USCB = closest read (condo-assoc $126M/470+; new CCO Garrido first print). Transcript-mine USCB/SSB/AMTB + VLY(7/23)/BPOP calls for HOA/association color (ML-CORAL-046). Sync bar still ≥2 among SSB/AMTB/USCB/SBCF.
-2. **MSI 🟠→🔴 fire — awaiting PROME/Will ratification** (escalated; not flipped).
+2. ✅ **MSI 🟠→🔴 fire — WILL-RATIFIED + APPLIED 7/23** (all surfaces swept; see CHANGES #3). Leg is now 🔴; bank rail stays 0-of-≥2.
 3. **7/28:** SBCF grade (nonaccrual 3rd-rise tell); Ocala June UR (BLS 7/29); Amendment-3 hearing 7/29 (pre-reg ML-CORAL-042).
 4. Carried unchanged: BKU 10-Q "higher specific reserves" segment check; Bertha dissipation; SIRS 12/31/26 statute verify; CCBG $0.2M-vs-$0.9M provision conflict; HO-premium reconcile; FL Realtors county cash-share build.
 
 ## OPEN THREADS
 
 - **Bank-transmission gate: NOT met, 0-of-≥2** — gate day incomplete (3 AMC names pending). Pre-registrations frozen, do not re-fit.
-- **MSI tripwire: SUSTAIN MET → trigger fired, escalated for ratification** (was ARMED).
+- **MSI supply-side leg: 🔴 FIRED + Will-ratified 7/23** (was ARMED → now the flip is applied across all surfaces).
 - HO premium level / metro condo months-supply / Sep-Oct Citizens takeout dates — carried.
 
 ## MAIL STATE
