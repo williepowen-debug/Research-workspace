@@ -1,5 +1,35 @@
 # WATT — SCRATCH (next-session pickup)
 
+**2026-07-22 EVE — FOURTH SESSION (Will-directed, 6-day catch-up). Thesis RECOMPOSED acute→structural.**
+
+The heat broke and the two channels moved in opposite directions — that's the whole session:
+- **P2 4→5 🔴🔴 — the 28/29 BRA cleared** (my own upgrade trigger, ~5mo early). $325/MW-day = at cap (97.5%), **6,831 MW short**, $16.4B, 3rd straight at-cap / 2nd straight RTO-wide shortfall. VERIFIED vs PJM Inside Lines + RTO Insider + Talen PR (WALTER SIG-009). **Resolves WATT-01 HIT.** KB-WATT-032.
+- **P1 4→3 🟠 — acute episode over.** 6 days no emergency-class since 7/15-16 EEA-1; demand 116,586 MW = 92.2% of a much lower 126,409 MW peak (−36 GW off mid-July's 159–162 GW); proxy normalized ($72/MWh, no Orange since deliv 7/2). KB-WATT-038.
+- **Composite flat 13/20 but recomposed** — weight off thermometer (P1) onto mechanism (P2). Status stays 🟠 (auction print ≠ live acute firing). **No deploy change.**
+- **WATT-05 HIT** — PJM filed the FERC 30-day large-load informational report by 7/20. Registered **WATT-07** (substantive reform response, 8/17). KB-WATT-033.
+- **7/3 EEA2 gap CLOSED** — PROME's 7/16 memo primary-verified it (DOE 202-26-32/33, Manual 13, params verbatim). The last load-bearing "don't carry a trade" caveat is gone. KB-WATT-034.
+- **boot.py FIXED** — routed leg-4 through `.venv`; `python3 boot.py` no longer false-fetch-fails on this box. L-13.
+- **Integrated 5 WALTER signals + 4 top-level inbox items; lane query ratified to PROME** (added "reserve margin" + "data center power").
+
+**⚠️ NEW GAP (Will-flagged): `PJM_API_KEY` is NOT on this laptop** (machine switch). Leg-5 official intraday DM2 LMP is DARK. Harmless this calm week; **restore before the next heat episode** (STATUS OPEN #1; apiportal.pjm.com or copy the other box's `.env`).
+
+**⚠️ MID-SESSION 🔴 ADJUDICATED — AEOLUS live-C3 flag NOT corroborated.** A 🔴 AEOLUS note (`inbox/processed/2026-07-22_from-AEOLUS_live-c3-doe-eea-record-peak-thu.md`) landed mid-session alleging a DOE §202(c) order issued 7/22 eve + a 166,304 MW record PJM peak forecast for Thu 7/23. Verified against 4 primaries: **DOE 202(c) index shows NO 7/22 order** (latest PJM = 202-26-35, 7/14); live board quiet; demand 36 GW off peak; PJM primary says record was 7/2-4 only. → resurfacing of earlier-July events, false 7/22 date. P1 NOT inflated (KB-WATT-039, L-15); replied to AEOLUS/inbox refuting.
+
+**▶ PICK UP HERE (next session, priority order):**
+1. **🔴-BACKSTOP: run a Thursday-7/23 REALIZED-peak check FIRST** (EIA-930 PJM 7/23 daytime peak + live board). This closes the AEOLUS flag definitively: if 7/23 genuinely printed a record (≥165,600) with an EEA2+/§202(c), the flag was real after all → confirm to AEOLUS same-day + re-escalate P1. If 7/23 was mild (expected), the refutation holds → note it closed. Cheap, decisive, do it before anything else.
+2. **WATT-04 resolves at the 7/23 EIA EPM release** — industrial retail ≥ 8.66¢/kWh? Resolve HIT/MISS.
+2. **Restore PJM_API_KEY** if Will has switched back to the desktop or dropped it on the laptop — re-run boot to confirm leg-5 live.
+3. **VULCAN-06 (7/22–7/31 megacap cluster)** — the 32-vs-55 GW P3 discriminator. Watch VULCAN's read; reconcile-to-one, price whatever MW lands. Don't front-run.
+4. **Two ex-PJM MW verifications** (web, no key): Hut8 Beacon Point campus MW, TSMC-AZ fab-start timing (KB-WATT-035). Low urgency (breadth, not PJM scorers).
+5. **Read the full WSJ Trump/utilities residential-bill-cap text** (KB-WATT-037, FL-WATT-05) before pricing the cost-reallocation mechanism.
+6. **WATT-06 (8/15) + WATT-03 (8/2) + WATT-02 (9/7)** — all P1, all trending toward no-recurrence as the season cools. Resolve as dates pass; don't leave OPEN-but-stale.
+7. **WATT-07 (8/17)** — PJM's substantive FERC reform response. Routes to HENRY/CARL on outcome.
+8. **Still open, low urgency:** full EIA-923 PJM-fleet heat-rate derivation; reconcile the "1-year-early" finding vs PJM's published 2026 summer peak (~Jan-2027).
+
+**⚠️ RATE LIMIT (standing, when key present):** PJM non-member = 6 calls/min; `power_watch.py` spends 1/run. Never loop; no ad hoc DM2 pulls.
+
+---
+
 **2026-07-16 — THIRD SESSION (PROME-spawned, Will-directed): EEA-1 ESCALATION ADJUDICATED.**
 
 The thing WATT was built to catch fired, and the answer was **🟠 HOLDS, not 🔴**.

@@ -31,11 +31,19 @@ POWER_WATCH = HERE / "power_watch.py"
 STALENESS = ROOT / "scripts" / "ledger_staleness.py"
 PREDICTIONS = HERE / "workbook" / "PREDICTIONS.tsv"
 
+# power_watch leg-4 (EIA wholesale) needs openpyxl, which lives in the repo .venv,
+# NOT necessarily in the system python that the canonical `python3 boot.py` uses.
+# Route child processes through the .venv interpreter when present so leg-4 doesn't
+# false-fetch-fail on a box whose system python lacks openpyxl (memory:
+# finding_market_data_venv_invocation). Falls back to sys.executable if no .venv.
+_VENV_PY = ROOT / ".venv" / "bin" / "python3"
+PYTHON = str(_VENV_PY) if _VENV_PY.exists() else sys.executable
+
 
 def run(cmd):
     """Run a subprocess, stream its output, return its rc (or 2 on launch failure)."""
     try:
-        r = subprocess.run([sys.executable, *cmd], cwd=str(ROOT))
+        r = subprocess.run([PYTHON, *cmd], cwd=str(ROOT))
         return r.returncode
     except Exception as e:  # noqa: BLE001
         print(f"  boot.py: FAILED to launch {cmd[0]}: {e}", file=sys.stderr)
