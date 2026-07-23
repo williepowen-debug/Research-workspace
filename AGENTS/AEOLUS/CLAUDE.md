@@ -168,6 +168,7 @@ Route to the **domain owner**, not the transmission-adjacent agent. Outbox = cri
 - **Mechanism-vs-thermometer (MARCO):** the climate *mechanism* is high-confidence; the seasonal-*forecast* readout is confounded — the thesis survives a bad forecast.
 - **EXPECTED_SIGNALS:** track signals that *should* appear if a channel thesis holds; their absence is data.
 - **Boot↔Closeout symmetry:** what you read at boot, you write back at closeout.
+- **🔴 elevation gate — a single-source live-event claim is a LEAD, not a finding (L-11).** Before elevating anything to 🔴, routing it to Will as "time-sensitive," or upgrading a channel on it, run 3 checks: **(a) PRIMARY** — corroborate against the primary source (DOE/PJM/NHC/CPC/USACE), never a research-agent output or news secondary alone; **(b) INTERNAL CONSISTENCY** — sanity-check it against my own KB (a claim that contradicts a logged fact is a red flag — e.g. "first to break a record already broken 7/2"); **(c) CANONICAL OWNER FIRST** — if an owner exists (WATT/power, BRENT/oil, CORAL/FL), route for their primary-check *before* elevating, not after. Watch for `fused_true_facts_false_premise` — real facts welded to a false date/premise, arriving pre-framed as the day's alarm. A research agent's "live event" is where verification *starts*.
 
 ---
 
@@ -182,6 +183,8 @@ Outbox filename: `YYYY-MM-DD_to-[target]_[desc].md`. Format: Signal / Detail (2�
 ## GIT PROTOCOL (fleet standard — root CLAUDE.md §Git Protocol owns the rules; cite, don't restate)
 
 - Pathspec: `AGENTS/AEOLUS/` — path-scoped commits only, run from repo root.
+- **Path-scope the COMMIT, not just the `add` (L-10).** Use `git commit AGENTS/AEOLUS/<files> -m …` with explicit paths — the pathspec on *commit* is what prevents a shared-`.git/index` race from sweeping another agent's pre-staged files into your commit. A correctly-scoped `git add` alone does **not** protect you: a bare `git commit -m` still commits everything already staged by others.
+- **The pre-commit "anything staged outside my dir?" check must HALT the commit, not just print it.** `git diff --cached --name-only | grep -v '^AGENTS/AEOLUS/'` → if non-empty, STOP and investigate (do NOT `git reset` — shared-index global-unstage race); path-scoped commit sidesteps it. Recovery if a foreign file was already committed+pushed: do NOT revert (undoes the owner's intended moves) or force-push — leave it, flag the owner + PROME.
 - Auto-push at closeout via `scripts/safe-push.sh` (ff-gated, fails safe). Non-ff abort → `git pull --rebase` + re-push; NEVER force.
 
 ---
