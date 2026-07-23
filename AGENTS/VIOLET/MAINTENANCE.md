@@ -10,6 +10,14 @@ Log material structural changes only — not routine content edits. Template ado
 
 ---
 
+## 2026-07-23 — Cheap-tail window alert built (operator-decision surface) + boot-wired
+
+- **Trigger:** Will-directed, after the 7/10→7/23 post-mortem. The episode exposed a gap: VIOLET's framework had only a *confirmation* gate (KB-VIO-123, fires late by design on independent channels) and **no instrument flagging the cheap-tail window** — the complacency floor where convex tails are cheapest. On 7/10 that window was open (VIX 15.03/VVIX 87.28/SKEW 144.27, CPI 4d out) and nothing surfaced it as an operator decision.
+- **What changed:** built **`scripts/cheap_tail.py`** (KB-VIO-124) — an operator-decision SETUP alert, NOT a gate and NOT auto-executing. Fires 4/4 on L1 VVIX≤90 · L2 VIX≤16 · L3 SKEW≥140 · L4 nearest HIGH/MED catalyst ≤21d (event-boxes the tail). 4/4=OPEN (surfaces vehicle menu), 3/4=ARMING, ≤2=DORMANT; scorecard always printed. `--backtest` proves rarity (4.04% of history 2007-, 31 episodes, ~2/yr = not a bleed machine). New ledger `workbook/CHEAP_TAIL.tsv` (one row/day, idempotent).
+- **Files touched:** `scripts/cheap_tail.py` (new) · `scripts/boot.py` (BOOT_SEQUENCE + KEY_MARKERS) · `workbook/CHEAP_TAIL.tsv` (new) · KB-VIO-124 · CANARY_MAP.md (Tier-1 row).
+- **Boot-impact:** boot.py now runs cheap_tail.py --boot (slow, ~1.8s) between OVX and catalyst countdown; appends a daily CHEAP_TAIL.tsv row. Boot read-set unchanged.
+- **Lessons:** (1) two pandas reserved-attr bugs at build — `last.skew`/`df.skew` hit the `.skew()` method; bracket-index (`df["skew"]`) any column whose name collides with a DataFrame method. (2) `met = sum(... if ok)` — the counter first shipped without the `if ok` and reported 4/4 always; a validate-against-a-known-case pass (today should be DORMANT, 7/10 should fire) caught it immediately. (3) the design guard against the setup-mandate premium-donation trap is the *catalyst leg* — it event-boxes the tail so the alert can't fire into open-ended theta; the backtest exists to prove that rarity numerically before trusting it.
+
 ## 2026-07-11 (late eve) — CANARY_MAP.md v1.0 created (fleet early-warning layer)
 
 **Trigger:** Will approved the round-3 threads-sweep TOP-1 (PROME round-5 spawn): the "which instrument sees each domain's stress first" chain existed only as scattered registered thresholds + three ad-hoc worked instances; nothing routed it.

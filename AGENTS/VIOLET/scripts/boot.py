@@ -36,6 +36,7 @@ BOOT_SEQUENCE = [
     ("CFTC COT VIX positioning",    "cftc_cot.py", ["--boot"], False),
     ("JPY carry-vol canary (scope 7/11; built 7/16)", "jpy_vol.py", ["--boot"], True),
     ("OVX oil-vol→equity-vol transmission canary (built 7/17)", "ovx.py", ["--boot"], True),
+    ("Cheap-tail window alert (operator decision surface; built 7/23)", "cheap_tail.py", ["--boot"], True),
     ("Catalyst countdown",          "catalyst_countdown.py", [], False),
 ]
 
@@ -53,6 +54,8 @@ KEY_MARKERS = (
     "CREDIT GATE", "VERDICT", "CCC", "Bin-A", "🟢",  # fred credit-gate summary (🟢 = block-lifted verdict)
     "JPY VOL", "FXY confirm",  # jpy_vol carry canary (RV spine + IV leg)
     "OVX", "oil-vol", "transmission channel", "CO-MOVE",  # ovx oil-vol→equity-vol canary
+    "CHEAP-TAIL", "🟣", "ARMING", "VVIX cheap", "VIX complacency", "SKEW divergence",  # cheap-tail window alert
+    "event-boxed", "OPERATOR DECISION", "Vehicle discipline", "SPREADS", "Rates-vol", "EVENT-BOXED", "Route: PROME",
     "⚠️",
     "✓ appended", "already has a row",
 )

@@ -9,7 +9,8 @@
 3. **🟠 Web-verify MOVE** — ~74.67 [7/21] is the latest posted; the 7/23 print wasn't up yet (Yahoo/CNBC ~1-session lag). Re-check; re-open stays FIRED unless MOVE reverses toward N1 <66 (far off).
 4. **🟠 Term-structure + VIX>20 watch** — the two missing legs; both within a hair. An inversion (<1.0) OR a VIX>20 settle would flip "strengthening-candidate" toward "confirmed crack."
 5. **🟠 jpy_vol IV/RV post-MOF** — MOF 7/22 passed clean; now watch whether IV/RV (2.75×) collapses toward 1× (risk-passed, event behind) or holds (residual carry risk into FOMC/BOJ).
-6. **🟡 Carried refreshes:** 20d SKEW avg recompute · M1:M2 detail · broad equity put/call · HY/BB ladder · VIX9D (not in this run's threshold output).
+6. **🟣 cheap_tail.py now live in boot** — watch it flip DORMANT→ARMING→OPEN if vol re-compresses to the floor (VVIX≤90 + VIX≤16 both needed). Currently 2/4 DORMANT (SKEW+catalyst met; the two cheap legs not). If it goes OPEN, surface the vehicle menu to Will as a decision.
+7. **🟡 Carried refreshes:** 20d SKEW avg recompute · M1:M2 detail · broad equity put/call · HY/BB ladder · VIX9D (not in this run's threshold output).
 7. **🟡 VULCAN S1** (Path-B capex) — now has SIG-002 ($1.65T off-B/S hyperscaler debt) + SIG-008 (SMCI Q4 prelim) feeding it; fold in ahead of the 7/29-8/1 megacap stack. Sets NDX-SPX IV-dispersion canary line.
 8. **⚪ PAT-032 note to DAEDALUS** (L4 packet all-6 applied 7/11) — cross-dir write, route via PROME. Still owed.
 
@@ -19,7 +20,9 @@
 2. **Web-verified MOVE** — ~74.67 latest (Yahoo/CNBC), which is the 7/21 close; 7/23 not yet posted. Re-open stays FIRED.
 3. **Delivered the sit-rep to Will** — the 7/21 divergence resolved UP; front-end rejoined the independent stress; strengthening-candidate not confirmed crack (inversion + VIX>20 legs unmet); FOMC 7/29 catalyst path.
 4. **Processed WALTER inbox** (boot step 5a): SIG-002 ($1.65T off-B/S hyperscaler AI-infra debt) + SIG-008 (SMCI Q4 FY26 prelim) — both AI-capex INFO, action=VULCAN → info-only, board_log +2, files → processed/. Folded into the concentration/Path-B fragility stack (with SOX-bear SIG-007 + dealer-gamma-halved SIG-009).
-5. **Write-backs:** STATUS full 7/23 refresh; KB-VIO-122 (front-end re-firm); CATALYSTS.tsv pruned (fired 7/2-7/16 + MOF 7/22 removed, FOMC 7/29 gains crack-leg watch) + CALENDAR twin synced; this SCRATCH; NEXUS_BRIEF refresh.
+5. **Registered KB-VIO-123** — crack-vs-fade pre-registration (locked confirm/fade tree before COT 7/24 + FOMC 7/29). Routed HENRY GEX (short-gamma into FOMC?) + LIQUID credit-freshness asks via outbox→PROME (FLOW.tsv logged).
+6. **BUILT cheap_tail.py (KB-VIO-124)** — Will-directed after the 7/10 post-mortem. Operator-decision SETUP alert (NOT a gate, NOT auto-execute): fires 4/4 on VVIX≤90 · VIX≤16 · SKEW≥140 · HIGH/MED catalyst ≤21d = the cheap-tail window (complacency floor). Backtest 4.04% of history (31 episodes 2007-) = rare, not a bleed machine. Validated: 7/6-7/10 fires (the miss it prevents), today DORMANT 2/4. Boot-wired; new CHEAP_TAIL.tsv ledger; CANARY_MAP Tier-1; MAINTENANCE entry.
+7. **Write-backs:** STATUS full 7/23 refresh; KB-VIO-122 (front-end re-firm); CATALYSTS.tsv pruned (fired 7/2-7/16 + MOF 7/22 removed, FOMC 7/29 gains crack-leg watch) + CALENDAR twin synced; this SCRATCH; NEXUS_BRIEF refresh.
 
 ## CARRY-FORWARD
 

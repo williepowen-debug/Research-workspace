@@ -101,6 +101,7 @@
 | 🟠 | **jpy_vol IV/RV post-MOF** — MOF 7/22 passed clean; watch whether IV/RV collapses toward 1× now the event is behind (risk-passed) or holds (residual carry risk). | Carried. |
 | 🟡 | **20d SKEW avg recompute · M1:M2 detail · broad equity put/call · HY/BB ladder · VIX9D** — not refreshed this session (sit-rep boot). | Carried. |
 | 🟡 | **VULCAN S1 (Path-B capex mechanism)** — fold in ahead of the 7/29-8/1 megacap stack; sets NDX-SPX IV-dispersion canary line. Now has SIG-002/008 data feeding it. | Carried. |
+| ✅ | **Cheap-tail window alert** — BUILT 7/23 (`scripts/cheap_tail.py`, KB-VIO-124), Will-directed. Operator-decision SETUP surface flagging the complacency floor (VVIX≤90·VIX≤16·SKEW≥140·catalyst≤21d); boot-wired, CANARY_MAP Tier-1. Today DORMANT 2/4; would have fired 7/10. | DONE 7/23. |
 | ⚪ | **PAT-032 disposition note to DAEDALUS** — cross-dir write, route via PROME. | Owed. |
 
 ---
