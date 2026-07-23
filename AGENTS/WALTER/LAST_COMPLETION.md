@@ -51,6 +51,7 @@
 
 ## GAPS
 
+- **🔴 PENDING TELEGRAM REPLY TO WILL (7/23 session, Rule 12):** the Telegram MCP channel disconnected mid-session after the boot report was sent (msg 3560 delivered). QUEUED: the Iran 7/23 re-stamp summary (KPC Mangaf FAL-01 ambiguity / Brent $100 premium / Bab kinetic + sustain rule / 2018 trap pre-kill) + the 5-dispatch session summary. Send on next inbound Will message or channel reconnection.
 - **registry_lag broad refresh DEFERRED** — ~16 MED benign date-drift on daily-committing agents; only WALTER's own row refreshed this closeout. No materially-wrong rows found. Refresh at a design-session closeout.
 - **$VIX ticker fetch errored** in tonight's 6c scan (float() argument must be a str). Baseline held at Mon-close 18.65; re-pull at boot; if recurs, investigate fetch.py $VIX handling.
 - **Comerica/Fifth-Third merger** — still flagged from last session as possibly-stale cache; unverified. If true, changes KRE-constituent watchlist.
