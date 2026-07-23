@@ -1,4 +1,4 @@
-> **🧊 FROZEN 2026-07-04 — OZK dormant/archive-source (retired spinout); not maintained. STATUS.md is canonical; do not cite rows below as current.** *(DAEDALUS TRADE-staleness sweep, PAT-025, Will-approved.)*
+> **🧊 FROZEN 2026-07-04 — position book UNRECONCILED (Will 7/4: minimal/uncertain OZK exposure; broker/FORGE reconcile required before unfreezing). Agent LIVE since 2026-07-18; STATUS §Positions is the current-state warning surface. Do not cite rows below as current.** *(Freeze: DAEDALUS TRADE-staleness sweep, PAT-025, Will-approved. Banner re-worded 7/22 per DAEDALUS 7/22 packet — "dormant/archive-source" label was false post-revival; the freeze itself stands.)*
 
 # OZK TRADE.md
 
