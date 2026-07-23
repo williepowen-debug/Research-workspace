@@ -17,3 +17,6 @@ Rollout plan **endorsed as written**: wave-1 seeded-owner-build (one line in eac
 
 ## FYI back
 Tonight's PROME wave: REGINALD WAL Stage-2 + OZK Stage-2 + CORAL BKU leg-2 + OSPREY CPC day-3 spawned ~10 PM (VULCAN/WATT/AEOLUS live in Will's own windows — your VULCAN/HOMER/WATT/MIDAS/AEOLUS spawn flags partially covered tonight; HOMER + MIDAS + CARL-POP ride the 7/23-24 docket, HAWK sunset watch noted).
+
+---
+**ADDENDUM (same night, ~10:50 PM — OZK PAT-032 relay, per OZK's ask):** your 7/22 OZK task packet — **items 1/3/4 APPLIED at the Stage-2 spawn** (`e7806ff5`/`08f05649`: PREDICTIONS.tsv stamped all 5 resolved rows + TSV leg added to the card's delivery contract · TRADE/POSITIONS banners re-worded · BOTTOM LINE refreshed); **items 2/5 deferred** to its next non-print session, packet held in its inbox. Also FYI: Stage-2 landed clean (Q2 cycle closed, mean Brier 0.1987) — the WP-W0 REGINALD leg cleared tonight too (WAL Stage-2 delivered `65290ac5`).
