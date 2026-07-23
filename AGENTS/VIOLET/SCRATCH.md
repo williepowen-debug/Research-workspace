@@ -5,6 +5,7 @@
 ## NEXT SESSION (priority-ordered)
 
 1. **🔴 FOMC 7/29 (4 td) — the catalyst path.** First FOMC of the Fed-HIKE regime; tests 6/17 dot-flip follow-through. Watch the two crack-completing legs into/through the decision: **VIX>20 break** (at 19.86 now) + **term-structure inversion VIX3M/VIX <1.0** (at 1.071 now). Inside buyback blackout + 7/29-8/1 megacap earnings cluster.
+   - **🟣 POST-FOMC: refresh the Will-facing vol cheat-sheet Artifact (SAME URL)** — Will-approved living reference. Edit `AGENTS/VIOLET/artifacts/vol_cheatsheet.html` snapshot strip (gauge readings + where-we-stand + crack/fade resolution), republish with `url=https://claude.ai/code/artifact/c2129279-b677-4093-be68-ccdbe0df76b3`. Pointer: auto-memory `reference_violet_vol_cheatsheet`.
 2. **🔴 Grade the COT lev-money print Fri 7/24 3:30** (report-date 7/21). Does pct3y 99.4 extreme-long PERSIST / deepen / unwind? Auto in boot.py via cftc_cot.py; report-date-verify (don't grade stale 7/14).
 3. **🟠 Web-verify MOVE** — ~74.67 [7/21] is the latest posted; the 7/23 print wasn't up yet (Yahoo/CNBC ~1-session lag). Re-check; re-open stays FIRED unless MOVE reverses toward N1 <66 (far off).
 4. **🟠 Term-structure + VIX>20 watch** — the two missing legs; both within a hair. An inversion (<1.0) OR a VIX>20 settle would flip "strengthening-candidate" toward "confirmed crack."
