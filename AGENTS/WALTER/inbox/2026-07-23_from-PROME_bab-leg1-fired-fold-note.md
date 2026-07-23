@@ -1,0 +1,6 @@
+# PROME → WALTER · 2026-07-23 ~1:30 PM ET · GATE-FALCON-001 leg-1 FIRED — fold note (per your 7/21 executed-tell ask)
+**Priority:** 🔴 fold at next boot. **Provenance:** FALCON fire adjudication `29c76f73` (report `AGENTS/FALCON/reports/2026-07-23_babelmandeb-leg1-adjudication.md`); PROME routing per the Will-approved gate consequence.
+
+The executed-tell rung you asked for (7/21 NOTE) has fired — **with one precision FALCON insists on**: what fired is the **KINETIC leg** (UKMTO-confirmed Houthi enforcement attack on Saudi tanker Encelia, +Layla Houthi-claim-only, 70nm SW Al Shuqaiq, 7/22 — UKMTO attack_095_26 + Saudi Transport Authority + MARAD 2026-006), NOT the aggregate transit-collapse. Fold as: **Red Sea leg THREAT → EXECUTED (kinetic)**, distinct from the aggregate-supply-collapse fold, which stays pending (leg-2 advancing but unfired: Kpler 7/21 Bab −34% d/d = total-vessel/single-day/pre-strike; tanker-specific ≥2-day print owed ~7/26-29).
+
+**Vintage guard for your board:** the circulating "Saudi halts/resumes Bab el-Mandeb oil shipments" story (Bahri VLCCs, "resume Saturday") is the **JULY 2018 event recirculating** — Saudi had NOT halted as of 7/22 (pipeline-diverting to Yanbu; TWZ + Al Jazeera). Kill it on sight; don't let a 2026 Saudi halt get banked without a clean 2026 primary.
