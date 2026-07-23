@@ -1,5 +1,24 @@
 # MIDAS — SCRATCH (next-session pickup)
 
+**2026-07-24 MIDAS-05 GRADE SESSION (PROME-spawned, ~00:30 ET).** Graded the owed LPR prediction, reconciled the date-fork, refreshed all marks to 7/23 close.
+
+**MIDAS-05 = NO-FIRE (correct null; KB-027, PREDICTIONS resolved).** China LPR **HELD** 7/20 Beijing (1Y 3.00%/5Y 3.50%, 14th consecutive month, fully expected — Reuters poll 23/23 hold; PBoC via CNBC/People's Daily 7/20) yet copper **RALLIED +4%** over the 2 sessions post-fixing (HG=F $6.299 [7/20] → $6.511 [7/21 endpoint] vs the $6.26 anchor; actual 7/17 settle $6.22 → +4.7%), eased to $6.3435 [7/23]. I1 yellow (HOLD+copper−5%) did NOT fire; no ZHAO/HENRY flag. **Discrimination (mirror of MIDAS-04):** copper rallied THROUGH a no-stimulus hold = structural/AI-grid demand, NOT China policy/cyclical. Brier-equiv ~0.02 (P(fire)~0.15 pre-reg, outcome 0).
+
+**Date-fork status:** ✅ my ledger internally CONSISTENT + CORRECT — fixing 7/20 Beijing (~9:15pm ET Sun 7/19), verified vs the actual print (announced Mon 7/20). **ZHAO-side reconcile REMAINS:** PROME already sent ZHAO a 7/17 date-fix (`ZHAO/inbox/2026-07-17_from-PROME_lpr-date-fix-and-midas-seams.md`, "MIDAS caught the fork") but ZHAO's own files STILL carry 7/21 un-reconciled — STATUS.md:187/212, NEXUS_BRIEF.md:72, PREDICTIONS.tsv ZHA-14. ZHA-14 is now gradable too (=hold; the 30% cut call missed direction, correctly low-conf). **Flagged to PROME for routing — did NOT edit ZHAO's files.**
+
+**Marks refreshed 7/23 close (venv yfinance):** gold **$4,050.80**, silver **$57.96**, copper **$6.3435**, Pt **$1,605.60**, Pd **$1,262.50**; GSR **69.89** (benign); DFII10 **2.37 [7/21] = NEW series high**; LME Cu **284,175t [7/22]** (+16% vs 2yr-med, benign, −29% off peak). MIDAS-01 cushion ~9.4% above the $3,702.33 falsify line (recovered from ~8.6%). **NASCENT M1 WATCH (not fired):** gold +0.7% while DFII10 hit a new high 2.37 = mild gold-through-rising-yields (v2-kill-cond-#3-shaped) but only ~4 days, FAR short of the 3+wk sustain → WATCH, not the DIVERGE alarm.
+
+**⚠️ boot.py leg-0 failed under system python3** (`No module named 'yfinance'`) — the metals_watch spot/GSR legs need the repo venv (`.venv/bin/python`). FRED + LME legs ran fine (urllib). Boot instruction / venv-invocation is the fix (auto-mem `finding_market_data_venv_invocation`); flag for a boot.py shebang/venv fix if it recurs. rc=2 was the yfinance fail, NOT a real leg failure.
+
+**▶ PICK UP HERE (7/24):**
+1. **ZHAO-side LPR date-fork reconcile** — flagged to PROME; watch for ZHAO to process PROME's 7/17 fix + grade ZHA-14. Not MIDAS's to edit.
+2. **WGC Q2 GDT (~late July)** = v2 kill-cond #2 (<100t). Excel 403-walled (L-09); WGC web pages carry figures.
+3. **Nascent M1 divergence** — gold holding through a rising-yield tape; if it sustains 3+wk it trips v2 kill-cond #3 (escalate BOND/LIQUID). ~4 days so far, WATCH only.
+4. **boot.py venv fix** — if leg-0 fails again, wire `.venv/bin/python` into the boot invocation.
+5. Carryover: China Cu imports −41.3% YoY base-effect (ZHAO's series); COT weekly-cadence leg; WPIC Pt-deficit PROV.
+
+---
+
 **✅ POLARITY FLIPPED 2026-07-17 (was FROZEN):** both catalyst tests resolved this week and **M1 v2 SURVIVED** — MIDAS-03 (CPI 7/14) = HIT/v2-consistent, MIDAS-04 (China GDP 7/15) = NO-FIRE. Per the PROME-round-3/Will-approved conditional, `metals_watch.py`'s M1 classifier is now **INVERTED**: CONVERGE (gold re-coupled) = quiet (rc=0); **DIVERGE (gold rising THROUGH rising real yields = premium reassertion) = the REVIEW trigger (rc=1)**. Header + verdict-block + this banner updated; verified current CONVERGE state returns rc=0. Flagged to PROME (pre-authorized, not a new decision).
 
 ---
