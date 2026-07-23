@@ -8,6 +8,8 @@
 |---|---|---|---|
 | VIOLET + HENRY | **The market's reward function for capex has FLIPPED** | 🟠 | GOOGL 7/22: FY26 capex RAISED to $195-205B (from $180-190B), Q2 capex $44.9B (+100% YoY) — and the stock fell **~5% AH *because* it raised**, not because it cut. This is the first hyperscaler print to carry the SIG-007 axis onto the tape (SOX −20.2% off 6/22 = bear market, 7/17; Kimi K3 open-weight commoditization shock). **VIOLET (Path-B):** this is your repricing leg firing — the concentration unwind is starting to price on the *returns-case*, not on a fundamentals cut. **HENRY (HEN-36):** the FCF/capex math is intact (capex rising) but the market has stopped paying for it. **For MSFT/META 7/29 + AMZN 7/30: a capex raise is no longer automatically bullish** — grade the reaction to the raise. Mechanism-vs-thermometer caveat: one name's AH move, but corroborated by the broad SOX signal. [VULCAN KB-028/029] |
 
+**7/22 late — ROUTES DISPATCHED** (Will-directed): packets to VIOLET (`outbox/…to-VIOLET_pathb-catalyst-arriving-returns-case.md`) + HENRY (`…to-HENRY_capex-decel-fcf-inflection.md`), copies delivered to their inboxes. **Capex-decel taxonomy [KB-034]:** "capex going lower" = 3 claims — levels falling NO (guides raised), growth-rate decel YES/consensus (UBS +76→25→6%), marginal pullbacks YES/selective (MSFT ~2GW leases, AWS intl colo — TD Cowen/WF). **Leading-indicator wired into S1:** lease/order pullbacks = terms softening before the guide, the early-warning under VULCAN-01's cut-trigger. Decel is bearish-sentiment but bullish-FCF (HENRY tension). Confirmation = VULCAN-09 (7/31).
+
 ### 7/12 round-2 sync (retained)
 
 | To | Signal | Priority | Detail |
