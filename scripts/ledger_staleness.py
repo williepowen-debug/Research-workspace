@@ -102,17 +102,36 @@ def file_time(path):
 # (not bare "stale"/"vintage") to avoid exempting a genuinely-rotten file.
 STATIC_BANNER_MARKERS = ["FROZEN", "RETIRED", "NOT CURRENT", "DO NOT CITE", "NOT MAINTAINED", "ARCHIVED"]
 
+# Recognizer hardening 2026-07-22 (DAEDALUS AEOLUS QC, Will-approved — PAT-035
+# sub-case: rule-CITATION prose is not a banner). Two guards:
+#  1. An explicit "Status: LIVE" declaration in the header overrides any marker —
+#     a live surface QUOTING the hygiene rule ("refresh-or-FROZEN, never
+#     silent-rot") was being classified FROZEN, permanently silencing enforcement
+#     on exactly the surface the rule targets (AEOLUS TRADE.md, live since 7/9).
+#  2. Markers glued into a hyphenated compound ("refresh-or-FROZEN") don't count;
+#     real banners lead with the bare marker ("FROZEN 2026-07-04 — ...").
+# Validated 2026-07-22: fleet --all/--trade --all output identical except TWO
+# false-FROZENs flip to tracked — AEOLUS TRADE.md (rule-citation prose) and
+# REGINALD PREDICTIONS.tsv (a row's "FROZEN-PENDING" status value in the first
+# 6 lines was read as a file banner; hyphen-guard now rejects it).
+LIVE_DECL_RE = re.compile(r"STATUS\s*:?\s*\**\s*LIVE\b", re.IGNORECASE)
+MARKER_RES = [re.compile(r"(?<![\w-])" + re.escape(k) + r"(?![\w-])") for k in STATIC_BANNER_MARKERS]
+
 # Trade/position surfaces scanned under --trade (default glob stays workbook/*.tsv).
 TRADE_GLOBS = ["TRADE.md", "trade/TRADE.md", "TRADE_BOOK.md", "POSITIONS.md"]
 
 
 def is_frozen(path):
     """True if the header (first ~6 lines) declares the surface intentionally static.
-    Named is_frozen for call-site compatibility; recognizes the whole dead-banner set."""
+    Named is_frozen for call-site compatibility; recognizes the whole dead-banner set.
+    A "Status: LIVE" declaration wins over any marker; hyphen-glued marker mentions
+    (rule citations) don't count (2026-07-22 hardening, see MARKER_RES comment)."""
     try:
         with open(path, "r", encoding="utf-8", errors="replace") as f:
             head = "".join(f.readline() for _ in range(6)).upper()
-        return any(k in head for k in STATIC_BANNER_MARKERS)
+        if LIVE_DECL_RE.search(head):
+            return False
+        return any(rx.search(head) for rx in MARKER_RES)
     except OSError:
         return False
 
