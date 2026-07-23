@@ -1,6 +1,6 @@
 # BRENT TRADE.md — domain trade surface
 
-**Updated:** 2026-07-22 Wed ~12:30 AM ET (closeout — tail-rider Option A SELECTED, pending fill) | **THESIS v5.1 (asymmetry UPSIDE-CONVEX — Phase-1 re-squeeze REALIZED)** | **LIVE surface** (not frozen — keep current at every closeout or it rots).
+**Updated:** 2026-07-23 Thu ~12:30 PM ET (tail-rider pivoted Option A→150/165 call spread after 7/23 re-quote; order ticket staged, pending fill) | **THESIS v5.1 (asymmetry UPSIDE-CONVEX — Phase-1 re-squeeze REALIZED; Brent >$100 7/23)** | **LIVE surface** (not frozen — keep current at every closeout or it rots).
 
 > **🔴 7/21 TREE GRADED (pre-reg `outbox/2026-07-17_to-PROME_cot-grade-verdict.md`): tree row 1 = STAYS-HOT CONFIRMED, STILL PASS-ON-CHASE.** **$85×3 FIRED at earliest date** — settles 7/17 $88.10 · 7/20 $89.22 · 7/21 $92.15 [CONF Yahoo BZ=F], all >$85 = sustained PREMIUM, NOT supply loss, NOT a deploy trigger. No Kharg seizure (FAL-01 unfired); no Muscat breakthrough. **Cooldown gate moved FURTHER away: OVX 63.78 = NEW cycle high** (VIX 17.05, ratio 3.74 vs 3.27 on 7/17) — gate {ratio <2.89 AND OVX <44.2} decisively unmet → **no deploy, arm ARMED-and-HOT, no capital.** Branch-1 ($80-82 pullback) re-entry stays MODERATE; **Branch-2 gap paths now TWO** (Kharg seizure + Bab/Yanbu execution — see STATUS 7/21 Saudi dual-route-compression vector), both COT-invisible → **the far-OTM tail-rider question to Will is LIVE and slightly stronger than 7/17.** New physical axis: CPC Kazakh halt (~1.3-1.5M bpd, first actual barrels-offline event; leg-(b) fires ~7/24 if continuous) — a REAL-barrels catalyst class distinct from the premium cluster. GS 7/20 LONG-DIESEL escalation-hedge rec on record (OECD diesel 4th %ile) — expression = Will/TERRY decision, not auto-adopted.
 
@@ -86,7 +86,21 @@
 
 ## ⚑ APPROVED 7/21 — BRANCH-2 TAIL-RIDER (gap insurance; fill proposal below, Will executes)
 
+> **🔄 7/23 PIVOT — Option A ($175C) SUPERSEDED by the 150/165 call spread (Will-directed after fresh re-quote).** Option A did NOT fill 7/22 [PROME 7/22]. On the 7/23 re-quote (USO $140.69, Brent $100.74, OVX 70 = cycle high), the insurance surface had repriced ~2× ($175C $3.30→~$6). Fresh P(ITM)/break-even math reframed the choice: **naked $175C break-even = Brent ~$130; $200C = Brent ~$146 at only 10% P(ITM) — both DEEPER than our own escalation thesis (Scenario-C / GS target ~$115-120).** The **150/165 call spread break-evens at Brent ~$110 and maxes at Brent ~$118** — the exact realistic gap-path zone — for the same ~$365 risk. Selected the spread as the most thesis-aligned expression; gives up only the uncapped super-spike above ~$118 (a scenario beyond our forecast). **ORDER TICKET + staged EXECUTION LOG below.**
+
 **Will approved the rider 7/21 late ("yes"). Purpose:** defined-risk insurance against the two COT-invisible gap paths (Kharg seizure · Bab/Yanbu execution) — the book's only long exposure is token (2 USO + 2 STNG ≈ $420). **Rule #6 break noted on record:** buying calls into a green tape — accepted because gap insurance can't wait for a red day; that is its entire point.
+
+**🎟️ ORDER TICKET (7/23, USO $140.69 · Brent $100.74 · OVX ~70):**
+| Field | Spec |
+|---|---|
+| **Action** | **BUY +1 USO Sep-18 2026 $150 Call / SELL −1 USO Sep-18 2026 $165 Call** (one 1-lot vertical debit spread) |
+| **Order type** | Net-DEBIT combo/spread order, **limit ~$3.65** (work $3.50–$3.80; the $3.00/$4.30 shown is the wide leg bid/ask, not the real market — a mid-limit should fill) |
+| **Duration** | Day (re-quote if it doesn't fill; do NOT lift to market) |
+| **Max risk** | **~$365** (net debit × 100) — the entire loss if USO <$150 at 9/18 expiry |
+| **Max profit** | **~$1,135** (≈3.1×) at USO ≥$165 (≈ Brent ~$118) at expiry |
+| **Break-even** | USO ~$153.65 at expiry (≈ Brent ~$110); gains value before expiry on any move toward the strikes |
+| **Rule #4 note** | Marks are live 7/23 midday — **re-quote at placement**; if USO has run further, hold the ~$3.65 debit discipline, don't chase the debit up |
+| **Rule #6 note** | Buying into a green tape — accepted (gap insurance can't wait for a red day; that is its point) |
 
 **Fill menu (marks = 7/21 close, USO $128.85, OVX 63.78 — re-quote live at the open, rule #4):**
 | Option | Structure | Cost (ask basis) | Pays |
@@ -96,11 +110,12 @@
 | C (best $/payoff, capped) | BUY 1 USO Sep-18 $150/$165 call spread, ~$2.35 debit | ~$235 max loss | Max +$1,265 (≈5.4×) at USO ≥$165 (Brent ~$118); capped above |
 
 **Why over the ~$200 class on A:** OVX at a cycle high makes the honest-strike insurance cost ~$330 — the strike that fits $200 exactly (B) sits too far to insure the realistic gap zone. Vol-crush caveat owned: on a Muscat off-ramp these bleed hard and fast; that is the premium's cost, and the off-ramp playbook (below) is the other side of the book.
-**Execution:** ✅ Option A SELECTED (Will, 7/22 12:30 AM). **Will places the order at the 7/22 open — re-quote live, limit off the fresh ask (~$3.30 basis 7/21 close), don't chase past ~$3.60 on a gap.** On fill report: log EXECUTION LOG + flag FORGE reconcile.
+**Execution:** ⏳ **150/165 call spread SELECTED 7/23 (superseding Option A — see pivot note above).** Will places the order per the ticket above (net-debit limit ~$3.65). On fill report → log EXECUTION LOG + flag FORGE reconcile. *(7/22 history: Option A $175C selected 7/22 12:30 AM, did NOT fill; 7/23 re-quote pivoted to the spread.)*
 
 ## DECISIONS ON RECORD
 
 - **APPROVED (Jul 21): Branch-2 tail-rider** — Will "yes"; fill menu above; rule #6 break noted (gap insurance ≠ chase).
+- **PIVOTED (Jul 23): structure Option A ($175C) → 150/165 call spread** — after Option A failed to fill 7/22 and the 7/23 re-quote showed the insurance surface repriced ~2× (OVX 70), fresh P(ITM)/break-even math showed both naked calls break even *beyond* our own escalation thesis ($130/$146 vs Scenario-C target ~$115-120). The spread break-evens at Brent ~$110 and maxes at ~$118 for the same ~$365 risk = the most thesis-aligned expression. Order ticket staged; pending fill.
 - **RATIFIED (Jul 21): the OFF-RAMP ROUND-TRIP PLAYBOOK template** (section above) — Will approved the structure + ~$500 max-loss + proposal-authority as written ("sure"), so a hardened off-ramp trigger day needs only a one-line [Approve/No] on the live fill. Positions-record correction same session: USO 2sh / STNG 2sh restored to the table (Will caught the omission).
 - **Considered & DECLINED (Jun 29): a small pre-trigger convex starter** (~$300 of cheap vol bought now while calm). Chose **deploy-on-trigger** instead — the near-term base case is still the calm hold (theta would bleed), and the XLE $65C stub just demonstrated a pre-emptive tail-buy decaying to ~$0. Re-open this only if Will wants to pre-buy cheap convexity.
 - **Authority = pre-negotiated proposal** (Will, Jun 29 — chosen over pre-authorize-to-cap). **Vehicle = USO** (over XLE). **Max-loss ~$500.**
@@ -121,7 +136,8 @@
 
 | Date | Action | Detail |
 |------|--------|--------|
-| 2026-07-22 | **PENDING FILL — tail-rider Option A** | Will selected A (7/22 ~12:30 AM): BUY 1 USO Sep-18 $175C, limit ~$3.30, ~$330 max loss. Places at the 7/22 open w/ live quote. Log actual fill here + FORGE flag on report. |
+| 2026-07-23 | ⏳ **STAGED / PENDING FILL — tail-rider = 150/165 call spread** | **BUY +1 USO Sep-18 $150C / SELL −1 Sep-18 $165C, net-debit limit ~$3.65, ~$365 max risk, ~$1,135 max profit, B/E USO ~$153.65 (Brent ~$110).** Will places per ticket. **On fill: replace this row with actual fill date/net-debit/legs + flag FORGE reconcile.** |
+| 2026-07-22 | ❌ NOT FILLED — Option A ($175C) | Will selected A 7/22 12:30 AM (BUY 1 Sep-18 $175C ~$3.30); order did NOT fill 7/22 [PROME 7/22]. Superseded 7/23 by the spread (above) after re-quote. No position opened. |
 | 2026-06-18 | CF $130C expired worthless | Last fill this regime. |
 | — | (no convex-arm deployment yet) | Deploy-on-trigger; Will [Approve] at fire. |
 
