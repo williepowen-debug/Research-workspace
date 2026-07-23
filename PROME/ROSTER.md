@@ -1,5 +1,5 @@
 # PROME/ROSTER.md — Verified Agent Roster
-**Owner:** Prome · **Last verified:** 2026-06-27 (commit-activity + STATUS-recency pass) · folder-existence reconciled 2026-06-30 · **ZHAO reactivated dormant→active 2026-07-05** (8 commits 7/4, Will-approved) · **counts refreshed 2026-07-10** (PROME commit-activity re-run — classification UNCHANGED; no active/tier-2/dormant flips)
+**Owner:** Prome · **Last verified:** 2026-06-27 (commit-activity + STATUS-recency pass) · folder-existence reconciled 2026-06-30 · **ZHAO reactivated dormant→active 2026-07-05** (8 commits 7/4, Will-approved) · **counts refreshed 2026-07-10** (PROME commit-activity re-run — classification UNCHANGED; no active/tier-2/dormant flips) · **OZK flipped dormant→active 2026-07-22** (revived 7/18 exactly on its revival gate — Q2 print 7/21; ~15 commits incl. the four-rail Stage-1 grade; DAEDALUS added its first FLEET_MAP row L4 same day)
 
 **Method:** classification by **30/60-day git-commit activity** (the "is it actually running" signal) + STATUS mtime + self-declared domain — *not* a prose guess. Re-verify by re-running the activity map (`git log --since=<60d> --pretty=%s | grep -cE '^NAME'` per agent) and diffing against this table.
 
@@ -7,7 +7,7 @@
 
 ---
 
-## ACTIVE — persistent domain owners (28)
+## ACTIVE — persistent domain owners (29)
 Verified by recent commit cadence; each runs as its own Claude Code session.
 
 > **The count column is a vintage snapshot (as-of the header date), NOT live** — it rots within days (re-run the Method command to refresh). **Classification is the signal, not the raw count.** *(Vintage-stamp added 2026-07-10 — same "hardcoded-Current value silently rots" defect DAEDALUS fixed in CARL's sub-agent CLAUDE.md files the same day.)*
@@ -42,6 +42,7 @@ Verified by recent commit cadence; each runs as its own Claude Code session.
 | OSPREY | Russia/Ukraine war theater — energy-strike campaign, crude-vs-products channel, shadow-fleet kinetic strikes, Baltic/Black-Sea ports | new††† |
 | FALCON | US/Israel/Iran-Gulf war theater — A/B/C/D ladder, Hormuz, Gulf targeting, Bab-al-Mandab/Houthi, Baghdad watch | new††† |
 | HOMER | Housing — asset market + housing credit structure (pipeline, GSE+CMBS multifamily, builders, HPI, mortgage-rate surface) | new††† |
+| OZK | Bank OZK specialist (RESG construction / classified-migration watch) | revived†††† |
 
 > **AEOLUS** built + wired by DAEDALUS 2026-06-28 (spec: `AGENTS/DAEDALUS/builds/AEOLUS_SPEC.md`). *(Stale "no commit history yet" note removed 7/9 — self-commits exist 6/28 + 7/9 catch-up `564d689d`; row reconciled.)* Macro climate owner; CORAL keeps Florida (boundary handshake RESOLVED 7/9: AEOLUS global/macro, CORAL FL-canonical, reconcile-to-one-number).
 > **† ZHAO** reactivated 2026-07-05 (Will-approved) after ~2.5mo dormancy — the "13" = the 7/4 reactivation burst (8: STATUS rewrite, KB-076…087, VX/FLOW/PREDICTIONS refresh, `boot.py`, `NEXUS_BRIEF.md`) + the 7/9 catch-up (~5), not yet steady multi-week cadence — recount next pass. Domain is load-bearing: China genuine UST exit ($651.1B, 18yr low) feeds the long-end flow question *(demand-hole refuted at flow level 7/9 — live thread = who-is-the-transient-bid, ZHA-11, TIC 7/16 arbiter)*; Korea (KRW ~1,530) feeds SAM. Ran 7/9 catch-up (China-leg pre-reg, activity current). DAEDALUS maturity-profile + NEXUS BRIEFS_MAP add routed 2026-07-05.
@@ -58,14 +59,15 @@ Verified by recent commit cadence; each runs as its own Claude Code session.
 | HANS | Europe macro (PMI→ISM lead, ECB/Fed divergence, EU UST custody) — US-market lens | ~4 commits/30d; label fixed 7/10 (was "Geopolitics (energy-geo)" — PAT-042, DAEDALUS catch vs `AGENTS/HANS/CLAUDE.md`; military ceded to HAWK) |
 | OTTO | Auto-industry fraud & stress | 13/30d; STATUS 6/09 |
 
-## DORMANT — revive only on explicit need (3)
+## DORMANT — revive only on explicit need (2)
 | Agent | Domain | Why dormant |
 |---|---|---|
-| OZK | Bank OZK specialist | 0 commits/60d, cold since 4/24; revival-gated on Q2 print **Jul-21** (confirmed 6/30; was mis-docketed ~Jul-16) + live broker book |
 | SENTRY | Cross-domain signal pipeline | CI pipeline live but human-idle since 6/02; STATUS frozen 5/09 (Will → dormant 6/27) |
 | BARON | Trump financial-policy network | dormant since 5/08 |
 
-*(ZHAO moved dormant→ACTIVE 2026-07-05 — reactivated 7/4, Will-approved; see ACTIVE table.)*
+*(ZHAO moved dormant→ACTIVE 2026-07-05 — reactivated 7/4, Will-approved; see ACTIVE table. OZK moved dormant→ACTIVE 2026-07-22 — revived 7/18 on its own revival gate exactly as the old row predicted; see ACTIVE table + †††† note.)*
+
+> **†††† OZK** — flipped dormant→active 2026-07-22 (PROME, per DAEDALUS Production-Review ask): revived **7/18** on its registered revival gate (Q2 print 7/21), ran the staleness sweep + pre-print freeze + four-rail Stage-1 grade (~15 commits 7/18-7/21) + Stage-2 spawned 7/22 eve. First FLEET_MAP row added by DAEDALUS 7/22 at **L4** (first-scan). Recount at the next activity pass (PAT-019).
 
 ## RETIRED — moved out of the live tree
 **In `AGENTS/_archive/`** (archived 2026-06-27): **BUFFER** (shock-absorber / containment), **DOC** (system-health monitor), **EARNINGS** (corporate-earnings monitor), **FOREX** (FX monitor) — scaffolded but never launched (skeleton + empty workbooks, no STATUS, zero session commits); **DARWIN** (archived earlier). **Folders removed entirely** (2026-06 public-prep prune; recoverable from git history): **HERMES** (mail-carrier, deprecated by the messaging overhaul `[[project_messaging_overhaul]]`), **REITS** (REIT tape → absorbed into CREED), **TRADES** (trade scratchpad → superseded by TERRY).
@@ -88,6 +90,9 @@ REGINALD sub-scopes promoted to peer agents (each ran as a REGINALD sub before g
 - **HOMER** ← CARL, **2026-07-12** (`AGENTS/CARL/sub_agents/HOMER/` → `AGENTS/HOMER/`, git-mv history preserved). Housing as top-level domain. Jumped the WAL queue by Will's call 7/12 — **WAL remains next promotion candidate.**
 
 ---
+
+## Coverage notes — explicit-unowned gaps (on record, not silently orphaned)
+- **Korea macro (broad)** — UNOWNED as of 2026-07-22 (KOSPI coverage-gap disposition, DAEDALUS 7/22 Production Review, closes the 7/11 thread). The owned slivers: SK-Hynix/HBM/KOSPI-as-semis-proxy → **VULCAN S2** scope line; Korean leveraged-ETF amplifier → **VIOLET** watch line; KRW + BoK-as-BOJ-tell → **ZHAO/SAM** (existing). Everything else Korea (fiscal, politics, housing, broad KOSPI) has NO owner — a Korea-macro event routes to PROME for ad hoc disposition until Will assigns one. *(DEWEY 7/20: the KOSPI-8,200 re-contagion anchor is NOT affirmable — 2x chip-ETF complex de-risking under FSS restriction, launches halted 7/16.)*
 
 ## Transmission chain (reference)
 LABOR → CARL → REGINALD → market repricing. HENRY (velocity), LIQUID (amplification), SAM (Japan, parallel trigger). {OSPREY (Russia/Ukraine), FALCON (Iran/Gulf)} → HAWK (geopol synthesis) → BRENT (oil/energy); acute theater signals OSPREY/FALCON → BRENT direct, HAWK cc'd. HOMER → {CARL (consumer transmission), REGINALD (Path C bank collateral)} + HENRY (wealth effect). VIOLET (vol regime), BOND (rates/auctions), BROCK → SHADE (private credit → insurer-lender double-jeopardy), CORAL / MARCO (Florida). AEOLUS → {BRENT (energy demand), CORAL (FL insurance/property), MARCO (food-CPI/migration)} (climate → economy). AEOLUS C3 → WATT → {HENRY (FCF), CARL (retail)}; BRENT → WATT (gas→power). VULCAN → {VIOLET (concentration-unwind mechanism), HENRY (HEN-36 FCF), WATT (compute→power demand)}; {ZHAO, HAWK} → VULCAN (China/Taiwan supply). {BOND (gold↔real-rates), ZHAO (copper↔China)} ↔ MIDAS → {LIQUID (safe-haven), HENRY (growth tell)}; HAWK → MIDAS (PGM supply).
