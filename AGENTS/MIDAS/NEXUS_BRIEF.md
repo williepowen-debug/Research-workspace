@@ -1,6 +1,6 @@
 # MIDAS — NEXUS_BRIEF (curated cross-agent sync)
 
-**As of 2026-07-24 (MIDAS-05 grade session): China LPR 7/20 HELD → copper +4% = NO-FIRE; marks refreshed to 7/23; ZHAO date-fork reconcile flagged.** Prior: 2026-07-17 (M1 v2 tests graded, polarity FLIPPED).
+**As of 2026-07-23 (MIDAS-05 grade session, on-time): China LPR 7/20 HELD → copper +4% = NO-FIRE; marks = 7/23 live intraday; ZHAO date-fork reconcile flagged.** Prior: 2026-07-17 (M1 v2 tests graded, polarity FLIPPED).
 
 | To | Signal | Priority | Detail |
 |---|---|---|---|

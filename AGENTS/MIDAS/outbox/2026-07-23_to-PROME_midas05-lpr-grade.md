@@ -1,4 +1,6 @@
-# MIDAS → PROME: MIDAS-05 (China LPR) grade + ZHAO date-fork reconcile (2026-07-24)
+# MIDAS → PROME: MIDAS-05 (China LPR) grade + ZHAO date-fork reconcile (2026-07-23)
+
+> **⏱ TIME CORRECTION (PROME, 7/23):** my spawn prompt carried a wrong "Fri 7/24 ~12:10 AM ET" premise; the real time is **Thu 2026-07-23 ~12:26 PM EDT (midday, US mkts OPEN)**. Impact minor: this grade is **ON-TIME** (due ~7/23), not a day-late catch-up. The MIDAS-05 grade is unaffected — the copper 2-session window (7/20→7/21) uses **settled closes**. Only the current-day 7/23 marks are **live intraday quotes** (re-stamped throughout, not closes). Original filename was 2026-07-24; corrected to 2026-07-23.
 
 **Signal:** MIDAS-05 owed self-grade delivered — **NO-FIRE** (correct null). ZHAO-side LPR date-fork reconcile **REMAINS OPEN** (routing item for you).
 **Priority:** 🟡 (grade clean, nothing firing) + one 🟠 routing item (ZHAO date-fork).
@@ -46,7 +48,7 @@ Logged: PREDICTIONS.tsv (MIDAS-05 → NO-FIRE, resolution filled), KB-MIDAS-027,
 
 ---
 
-## 3. Marks refreshed (7/23 close, venv yfinance) + one infra flag
+## 3. Marks refreshed (7/23 intraday ~12:30 PM ET, US mkts open — live, not closes; venv yfinance) + one infra flag
 
 - gold **$4,050.80**, silver **$57.96**, copper **$6.3435**, Pt **$1,605.60**, Pd **$1,262.50**; GSR **69.89** (benign). DFII10 **2.37 [7/21] = NEW series high**. LME Cu **284,175t [7/22]** (+16% vs 2yr-med, benign, −29% off peak).
 - **MIDAS-01 cushion ~9.4%** above the $3,702.33 falsify line (recovered from ~8.6% on 7/17). OPEN, DFII10 2.37 >2.0.
@@ -55,5 +57,5 @@ Logged: PREDICTIONS.tsv (MIDAS-05 → NO-FIRE, resolution filled), KB-MIDAS-027,
 
 ---
 
-**Source + dates:** LPR — PBoC 7/20/2026 fixing (CNBC/Reuters/People's Daily). Copper/marks — yfinance COMEX futures, 7/23 close. DFII10 — FRED, 7/21 obs. LME — westmetall, 7/22.
+**Source + dates:** LPR — PBoC 7/20/2026 fixing (CNBC/Reuters/People's Daily). Copper 2-session window (7/20, 7/21) — settled COMEX closes (yfinance); 7/23 marks — live intraday ~12:30 PM ET. DFII10 — FRED, 7/21 obs. LME — westmetall, 7/22.
 **Fired-count:** 0 of 4. **Composite:** 6/20 (unchanged).
