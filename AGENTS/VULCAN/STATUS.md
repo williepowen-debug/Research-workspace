@@ -1,8 +1,10 @@
 # VULCAN — STATUS
 
-**Last Updated:** 2026-07-17 (useful-life read card BUILT + 7/16 instance reconciled + VULCAN-05 resolved HIT) · **Status:** 🟠 elevated (all 4 channels live; capex still being RAISED not cut — NOT-FIRED; first hard gate 7/22, now 5 days out)
-**Class:** Market-agent (AI-capex/semi/memory → systemic risk) · **Spawnable by:** PROME or Will · **Maturity:** L2 (all 4 core channels live)
+**Last Updated:** 2026-07-22 (VULCAN-03 GOOGL gate RESOLVED HIT — capex raised; the finding is the reward-function flip, not the grade) · **Status:** 🟠 elevated (all 4 channels live; capex still RAISED not cut — S1 NOT-FIRED; but market now punishing the raise — SIG-007 returns-case axis firing on the tape)
+**Class:** Market-agent (AI-capex/semi/memory → systemic risk) · **Spawnable by:** PROME or Will · **Maturity:** L2 (all 4 core channels live; DAEDALUS graded L1→L2 conf-H 7/22)
 
+> **2026-07-22 (Will-directed boot, GOOGL gate).** **VULCAN-03 = HIT (confirm side).** GOOGL FY26 capex guide **RAISED to $195-205B** (from $180-190B at Q1; CFO cited *acceleration of capacity delivery*, guided higher 2027 spend); Q2 capex **$44.9B (+100% YoY)**; rev $119.8B (+24%, beat), Cloud $24.77B (+82%, beat). If-falsified did NOT trigger → **no VIOLET/HENRY same-day fire**. ⚠️ **THE FINDING IS THE REWARD-FUNCTION FLIP, NOT THE GRADE:** GOOGL fell **~5% AH *because* it raised capex**, not because it cut — first hyperscaler print to manifest the SIG-007 axis (SOX −20.2% off 6/22 = bear market, 7/17; Kimi K3 open-weight commoditization shock; TSMC +$100B AZ → $265B same week). S1 *mechanism* stays NOT-FIRED (capex rising); the market is now pricing the *returns/commoditization* question — a threat DISTINCT from the obsolescence sub-read, and it attacks S1's **repricing** leg. Reframes MSFT/META 7/29 + AMZN 7/30: **a capex raise is no longer automatically bullish.** [KB-028/029] Aggregate now ~$15B ABOVE the $710-725B baseline (VULCAN-01 open, 7/31). Register a returns-case S1 sub-read next session. GOOGL 10-Q 7/23 = VULCAN-07 read (expected NO, Jan-cadence).
+>
 > **2026-07-17 (PROME-directed full session).** Product: **the 7/22-7/31 hyperscaler useful-life read card is BUILT and is executable by a non-VULCAN reader (DEWEY fallback authorized)** → `reports/2026-07-17_useful-life-read-card.md`. Everything in it is primary-verified. **It overturned 7 items of VULCAN's own canon — 5 of which originated in VULCAN's own files** (see ⚠️ below). **VULCAN-05 resolved HIT** (TSMC June +67.9% YoY — but that headline is a BASE EFFECT; the trend measure is H1 +35.6%, KB-020). The 7/16 read-only instance's 8-item recommendation ledger is now **adjudicated** (R-01..R-08 dispositioned below); its `cluster_secondary` **190 signals / 192 tag instances** figure is **ratified as canonical**. Sourcing → `workbook/KB.tsv` (KB-VULCAN-020..027).
 >
 > ### ⚠️ CANON CORRECTIONS — 7/17, primary-verified. Cite these, not the prior versions.
@@ -53,7 +55,7 @@
 
 | Channel | Standing rule | Current state @ level | FIRED? |
 |---|---|---|---|
-| S1 | Mag-7 ≥40% weight AND breadth collapse, OR hyperscaler capex cut YoY | concentration 🔴 (VIOLET); Mag-7 32.5%; capex still growing (agg guide ≈$710-725B, all 4 names raised) | NOT-FIRED — quantified, armed for the 7/22-7/31 cluster |
+| S1 | Mag-7 ≥40% weight AND breadth collapse, OR hyperscaler capex cut YoY | concentration 🔴 (VIOLET); Mag-7 32.5%; capex still growing (GOOGL 7/22 RAISED to $195-205B, agg now ~$15B above $710-725B baseline) | NOT-FIRED on the *cut* rule — BUT 7/22 GOOGL: market punished the RAISE (~5% AH), the repricing leg is now firing on the returns-case axis (SIG-007) though the mechanism rule is not met |
 | S2 | DRAM/NAND contract −25% QoQ sustained | opposite extreme: DRAM +58-63%/NAND +70-75% QoQ (2Q26 TrendForce) | NOT-FIRED — first pull done, no roll signal |
 | S3 | datacenter compute→MW demand outstrips grid (w/ WATT) | demand leg sized (~14-37 GW PJM band); WATT's supply leg (P2 BRA at cap, 6,623 MW short) already FIRED on its side — imbalance confirmed structural, not yet at VULCAN's own queue >2× trigger | NOT-FIRED (armed; VULCAN-06 7/31) |
 | S4 | equipment ban / fab-level cutoff OR Taiwan kinetic | US eased (H200-China); Taiwan tightening (7/1 first criminal detention, legislation undated); **TSMC June rev +6.2% MoM / H1 +35.6% YoY — no stress (VULCAN-05 HIT 7/17)** | NOT-FIRED — two-sided read established; revenue line clean |
@@ -61,7 +63,7 @@
 
 **Fired-count: 0 of 4** (all 4 channels carry VULCAN-owned live reads; none at trigger). **Standing counter-evidence: the disconfirming trio above** — S1's mechanism survives it, S1's *repricing* leg does not go unchallenged. **Thesis-kill vs channel-kill:** a strong memory quarter kills S2's bearish read — NOT the concentration thesis, which migrates to S1/S3. Thesis dies only if AI-capex re-accelerates AND concentration unwinds cleanly AND memory stays healthy — multi-quarter, testable at each earnings stack. *(This session found the OPPOSITE of a memory-cycle kill: memory is the tightest it's been, and is itself now feeding S1's capex-guide raises via cost pass-through.)*
 
-**Cleanest bidirectional flip (BRENT discipline):** the 7/22–7/29 megacap earnings — capex guides raised + FCF holding → concentration thesis intact/extends; capex cut + FCF pressure → S1/S5 fire (the systemic unwind VIOLET is positioned for). **Operationalized 2026-07-12:** GOOGL 7/22 is the first test (VULCAN-03: guide held ≥$180B + Q2 capex ≥$40B = confirms; guide cut below $180B = fires). Full cluster resolves 7/31 against the $710-725B baseline (VULCAN-01/04).
+**Cleanest bidirectional flip (BRENT discipline):** the 7/22–7/29 megacap earnings — capex guides raised + FCF holding → concentration thesis intact/extends; capex cut + FCF pressure → S1/S5 fire (the systemic unwind VIOLET is positioned for). **Operationalized 2026-07-12:** GOOGL 7/22 is the first test (VULCAN-03: guide held ≥$180B + Q2 capex ≥$40B = confirms; guide cut below $180B = fires). Full cluster resolves 7/31 against the $710-725B baseline (VULCAN-01/04). **⚠️ 7/22 UPDATE — the flip was UNDER-SPECIFIED.** GOOGL confirmed (raised to $195-205B) yet fell ~5% AH. The registered flip had two states (cut→fire / raise→intact); the tape showed a **third: raise→market-punishes.** The bull leg of the flip ("raise + FCF holding → thesis intact/extends") no longer holds automatically — in a returns-case regime (SIG-007), a raise can itself be the bearish datum. **Re-register for MSFT/META 7/29 + AMZN 7/30:** grade the *stock/vol reaction to a raise*, not just the capex direction. [KB-029]
 
 ---
 
@@ -92,6 +94,12 @@
 ---
 
 ## BOTTOM LINE
+
+**As of 2026-07-22 (GOOGL gate): the mechanism held, the market didn't.** VULCAN-03 resolved **HIT** — GOOGL raised FY26 capex to $195-205B and printed $44.9B Q2 capex (+100% YoY), so S1's "capex still rising, NOT-FIRED-on-the-cut" read stands and no VIOLET/HENRY alert fired. **But the stock fell ~5% after-hours *because* it raised** — the first hyperscaler print to carry the SIG-007 returns-case/commoditization axis (SOX −20% bear market, Kimi K3 open-weight shock) onto the tape. The single most important reading: **the reward function for capex has flipped, and my registered bidirectional flip was under-specified** — it had no state for "raise → market punishes." That attacks S1's repricing leg (where its whole value lives), not its mechanism. **What's next:** GOOGL 10-Q 7/23 (VULCAN-07 useful-life read, expected NO); SK Hynix 7/23 (VULCAN-04, S2); then MSFT/META 7/29 + AMZN 7/30 — where the new discipline is to grade the *reaction to a raise*, not just the capex number, and to instrument a returns-case S1 sub-read distinct from obsolescence.
+
+---
+
+### (7/17 record — retained)
 
 **As of 2026-07-17, the state of the thesis is unchanged and the state of the EVIDENCE is materially better.** All four channels carry live reads; S1 remains **quantified and NOT-FIRED** — aggregate hyperscaler capex is still being *raised* (FY26 guide ≈$710-725B, +77% YoY), Mag-7 at 32.5%, with universal same-quarter FCF compression as the load-bearing fact VIOLET's Path-B and HENRY's HEN-36 didn't have. S4 resolved clean (TSMC June, VULCAN-05 HIT — though **on the trend measure, +35.6% H1, not the +67.9% headline, which is a base effect off a June-2025 trough**). S3's verdict holds (guided capex funds PJM's 32GW, not WoodMac's 55GW) with a framing fix: **curtailable datacenter load is nameplate, not firm — VULCAN-06 must not compare incommensurable quantities.**
 

@@ -1,5 +1,15 @@
 # VULCAN — SCRATCH (next-session pickup)
 
+> ## ▶ 2026-07-22 (Will-directed boot) — VULCAN-03 GOOGL gate RESOLVED HIT. The finding is the reward-function flip, not the grade.
+> **What happened:** GOOGL raised FY26 capex to $195-205B (from $180-190B), Q2 capex $44.9B (+100% YoY) → VULCAN-03 HIT confirm-side; if-falsified did not trigger, no VIOLET/HENRY fire. **BUT the stock fell ~5% AH *because* it raised** — first hyperscaler print to carry the SIG-007 returns-case axis (SOX −20% bear market / Kimi K3 commoditization shock). Logged KB-028/029; STATUS + NEXUS + PREDICTIONS updated; VIOLET/HENRY flagged in NEXUS_BRIEF (not a crisis outbox — measured, one-name thermometer + broad SOX corroboration).
+>
+> ### THE 5 THINGS FOR NEXT SESSION (priority):
+> 1. **SK Hynix 7/23 (VULCAN-04, S2)** + **GOOGL 10-Q 7/23 (VULCAN-07 useful-life change-sentence read — expected NO, Jan-cadence name; log the NO as explicitly as a YES per KB-026).** Both resolve tomorrow.
+> 2. **Register a returns-case / commoditization S1 sub-read** — distinct from the obsolescence sub-read. Tonight's flip lives on S1's *repricing* leg (the disconfirming trio), not the mechanism. This is the genuinely new axis (Kimi K3 open-weight undercuts the pricing that justifies capex). [KB-029]
+> 3. **Re-specify the bidirectional flip for MSFT/META 7/29 + AMZN 7/30:** grade the *stock/vol reaction to a raise*, not just capex direction. A raise is no longer automatically bullish. (STATUS "cleanest bidirectional flip" already carries the ⚠️.)
+> 4. **DAEDALUS asks — NOT done tonight (Will scoped this session to the grade), still in inbox:** (a) S2 Korea/KOSPI scope extension = Will-approved, needs a CLAUDE.md channel-table edit (SK Hynix + KOSPI-as-semis-proxy into S2); (b) spawned-mode boot card at top of CLAUDE.md (OZK:29-36 reference — matters because DEWEY may run the read card on gap days); (c) PAT-052 build-vintage rot grep. Write one line back to DAEDALUS inbox when applied (PAT-032).
+> 5. **WALTER signals consumed 7/22:** SIG-007 (Kimi/SOX/TSMC — the frame for tonight's finding), SIG-002 ($1.65T off-BS debt — trace Nikkei primaries if canonizing), SIG-008 (SMCI $60B orders, Aug-11 call = backlog-conversion read), SIG-006 (Hut8 lease — WATT co-action), SIG-011 (WATT-owned, info), SIG-012 (SHADE/VULCAN OpenAI-HF breach, sandbox context), softbank NOTE (leverage aggregate). Moved to processed. **SMCI Aug-11 + MU FQ4 ~8/4 = the two lane-armed S2 gates that arrive by themselves.**
+
 > ## ✅ 2026-07-17 — LIVE SESSION (PROME-directed). The 7/16 read-only instance's ledger is ADJUDICATED; its banner is retired.
 > **Composite 11/20 (S1 3 / S2 2 / S3 3 / S4 3) — unchanged, correctly: nothing fired.** Full adjudication table (R-01..R-08, all ✅) → `STATUS.md`. Full record → `reports/2026-07-16_walter-axis-check-findings.md` (its ⚠️ provenance banner still applies to *that* file; its recommendations are now dispositioned in STATUS, so read STATUS first).
 >
