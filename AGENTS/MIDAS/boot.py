@@ -30,11 +30,19 @@ STALENESS = ROOT / "scripts" / "ledger_staleness.py"
 PREDICTIONS = HERE / "workbook" / "PREDICTIONS.tsv"
 METALS_WATCH = HERE / "metals_watch.py"
 
+# Prefer the repo venv interpreter for child scripts: metals_watch needs
+# yfinance, which lives in .venv/ (not system python). Without this, launching
+# boot.py with system `python3` makes leg 0 die with "No module named
+# 'yfinance'". Falls back to the launching interpreter if .venv is absent.
+# (MIDAS 2026-07-23 hygiene fix; the venv wall was documented in SOURCES.md L13.)
+_VENV_PY = ROOT / ".venv" / "bin" / "python"
+PYTHON = str(_VENV_PY) if _VENV_PY.exists() else sys.executable
+
 
 def run(cmd):
     sys.stdout.flush()  # avoid interleaving with the child's unbuffered stdout
     try:
-        return subprocess.run([sys.executable, *cmd], cwd=str(ROOT)).returncode
+        return subprocess.run([PYTHON, *cmd], cwd=str(ROOT)).returncode
     except Exception as e:  # noqa: BLE001
         print(f"  boot.py: FAILED to launch {cmd[0]}: {e}", file=sys.stderr)
         return 2
