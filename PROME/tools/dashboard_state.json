@@ -1,5 +1,5 @@
 {
- "built": "2026-07-21 20:52",
+ "built": "2026-07-22 22:33",
  "channels": {
   "Credit": "watch",
   "Energy": "crit",
@@ -11,7 +11,6 @@
  "docket": [
   "2026-07-15 Q2 monolines / Axis-A (SYF/ALLY/COF/AXP)",
   "2026-07-22 40Y JGB auction + GOOGL earnings",
-  "2026-07-22 BKU Q2 (BMO) + EGBN Q2 (AMC; call Thu) \u2014 FL small-tier synch",
   "2026-07-22 Hyperscaler Q2 filings useful-life watch \u2014 VULCAN pre-regist",
   "2026-07-23 HBAN Q2 earnings (BMO)",
   "2026-07-23 LAB-17 claims window (w/e 7/18 + 7/25) + July flash PMI ~7/2",
@@ -46,6 +45,7 @@
   "NEXUS": "ok",
   "ORACLE": "ok",
   "OSPREY": "ok",
+  "OZK": "ok",
   "PROME": "ok",
   "RED": "ok",
   "REGINALD": "ok",
@@ -93,7 +93,8 @@
  },
  "one": "Spark lit, plumbing held, recognition deferred.",
  "pending": [
-  "none"
+  "(1) KELYA DTE-30 write-off decision (at the 7/23 LABOR spawn)",
+  "(2) OZK-09 A/B/C/D re-mark discussion (OZK queued it; weights frozen till then)"
  ],
  "split": "Break 26 / Grind 33 / Unresolved 41",
  "v": 1
