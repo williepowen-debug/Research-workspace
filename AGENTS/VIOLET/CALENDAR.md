@@ -51,13 +51,11 @@ VIX futures and options expire on the **Wednesday 30 days prior to the third Fri
 
 | Date | Event | VIX Implication | VIOLET Checkpoint |
 |------|-------|-----------------|-------------------|
-| **Jul 2, ~11:30 ET** | **Post-DISH CCC print** (7/1 data, FRED T+1; next print may slip past the 7/3 holiday) | First print with the DISH prepack cleared: persistence = Bin-A upgrade; retrace = composition-artifact | 🔴 **Gate A adjudicates TODAY** (KB-VIO-110); pairs LIQUID breadth (Gate C). |
-| ~Jul 10 | SK Hynix ADR Nasdaq listing (single-source — verify) | Semis capital-rotation event (MU + SK Hynix both >$1T) | 🟡 Watch. |
-| **Jul 14** | **June CPI** | Energy-collapse pass-through test; **HENRY flip-tripwire catalyst** (thin cushion to the 7,437-7,471 flip) under a hawkish Fed | 🟠 Next macro vol-gate after today. HENRY/CARL own substance. |
-| Jul 15 | VIX July expiration | Standard monthly; Q2 earnings season opens same week | ⚪ Low. |
-| **Jul 16** | **Japan double-discriminator: May TIC (4PM ET Thu) + MOF ITS wk-7/5-7/11 (~7:50PM ET Wed 7/15) + BoK** | Carry→vol transmission channel (VIOLET-chartered read; SAM owns substance). SAM resolver: ≥+¥500B durable / <¥0 transient-confirmed | 🟠 **Added 7/11 (Will-approved wave).** VIOLET watch: USDJPY 10d RV 5.62% [7/10] vs 3y p50 8.35 (near-floor calm) + FXY ATM IV ~11.4% [7/10] ≈ 2× RV (event premium priced). JPY-vol instrument scoped, not built — `research/2026-07-11_jpy-vol-instrument-scope.md`. |
-| Jul 29 | FOMC (no SEP, Warsh) | Tests 6/17 dot-flip follow-through; hike optionality live post-Sintra (~70% Sep odds priced) | 🟠 First gate of the Fed-HIKE regime. |
+| **Jul 29** | **FOMC (no SEP, Warsh)** | Tests 6/17 dot-flip follow-through; hike optionality live (~70% Sep odds priced) | 🔴 **First gate of the Fed-HIKE regime; 4 td out.** VIOLET watch: the two crack-completing legs — VIX>20 break + term-structure inversion (VIX3M/VIX <1.0) into/through the decision (KB-VIO-122). Inside buyback blackout + 7/29-8/1 megacap earnings cluster. |
+| Aug 19 | VIX August expiration | Standard monthly | ⚪ Low. |
 | Sep 16 | FOMC + SEP + VIX Sep quarterly expiry | Quarterly dot-plot convergence; ~1 hike priced by Sep | 🟠 Next major gate. |
+
+**Resolved (7/2–7/22):** June jobs 7/2 (Gate B NO-FIRE, KB-VIO-111) · post-DISH CCC 7/2 · SK Hynix ADR ~7/10 · June CPI 7/14 · VIX July expiry 7/15 · Japan TIC/MOF/BoK 7/16 · **MOF ITS 7/22 — passed clean (USDJPY 163.82 weakened, no carry unwind; jpy_vol canary CALM).**
 
 **Note:** the Path-B unwind is **unresolved and broadened** (KB-VIO-106) — bear case now oversupply-2028 + demand-destruction + antitrust, with a standing offshore mechanical amplifier (KOSPI 2x single-stock ETFs, ~$9B, jawboning-only response). Undated watch lines: KOSPI 8,200 (crash close — break re-opens contagion) · Korea FSS leveraged-ETF ruling (vol-suppressing if it lands) · SKEW >150 sustain count (1/4 td toward prediction-#6 re-arm).
 
@@ -114,4 +112,4 @@ VIX futures and options expire on the **Wednesday 30 days prior to the third Fri
 ---
 
 *Created: 2026-04-12*
-*Last Updated: 2026-07-01 (boot after 5-market-day gap: MU/PCE/quarter-end moved to Resolved with outcomes; new forward set — June jobs ~7/2 (🔴, verify timing vs 7/3 holiday), post-DISH CCC prints 7/2-3 (🔴), SK Hynix ADR ~7/10, undated watch lines (KOSPI 8,200 / FSS ETF ruling / SKEW sustain 1/4); Data Refresh re-stamped to 7/1 — Bin-A gate state, VX_DAILY 6/29-30 gap, COT holiday-slip note. Twin: CATALYSTS.tsv same-session. Prior: 6/23 nine-day-dark rebuild.)*
+*Last Updated: 2026-07-23 (sit-rep boot: pruned fired July catalysts [7/2–7/16 + MOF 7/22] to Resolved; forward set now FOMC 7/29 (🔴, 4 td) → Aug expiry → Sep FOMC+SEP+quarterly. FOMC row gains the VIOLET crack-leg watch (VIX>20 + inversion <1.0, KB-VIO-122). Twin: CATALYSTS.tsv same-session. Prior: 7/01 five-day-gap boot.)*
