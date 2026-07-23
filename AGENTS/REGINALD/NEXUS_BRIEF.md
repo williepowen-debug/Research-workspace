@@ -1,11 +1,11 @@
 # REGINALD — NEXUS Brief
 
-**Status:** 🟠 v2.2.1 — WAL bear idiosyncratic (Office/B1/MI3), tape says nothing (WAL **$82.30 [7/17 close]**, ~$4.30 above the $78 break; $82.30 [7/20 last close, pre-open Mon]), entire confirmation load sits on this week's bank-print cluster: **ZION Mon 7/20 → WAL+OZK+ALLY Tue 7/21 → EGBN Wed 7/22.** *(HBAN Thu 7/23 = EXIT-thesis dust per Will 7/18, NOT a thesis catalyst.)* All grading frames FROZEN pre-print.
+**Status:** 🟠 v2.2.1 — WAL bear idiosyncratic (Office/B1/MI3). **WAL Q2 RESOLVED NOT-surprise-tier (Stage-1 7/21 + Stage-2 7/22): REG-26 DISCONFIRMED, W5 letter (B) FINAL** ($99M in nonaccrual $0 charged off, brought CURRENT end-June, **appraisal pending = the dated Q3 catalyst**), 0 new office migrations, office-classified $316M visual-confirmed falling — **grind INTACT-but-NARROWED, no fire.** Tape: WAL **$83.41 [7/22 close, +3.61% on the call]** — buyback/NII-guide pop into a crowded short; pre-registered pop-discipline: disconfirm stack incomplete → NOT thesis-invalidation. Residual confirmation load: EGBN call 7/23 + small-tier FL watch (7/22-28) + **Q3 10-Q (REG-24/25 resolution)**.
 **Domain:** Regional banks (WAL/OZK/EGBN/CFG/ZION/SSB/VLY) — convergence terminus for CRE, NDFI, private-credit, labor, and stagflation channels; peer coordination with CREED/BROCK/CORAL/OZK (all top-level).
-**Thesis version:** v2.2.1 (WAL, 6/8) — Bear-medium 25, EV $68.93, PT $50-68. **REG-24 65% / REG-25 72% / REG-26 33%** (re-graded 7/16).
+**Thesis version:** v2.2.1 (WAL, 6/8) — Bear-medium 25, EV $68.93, PT $50-68. **REG-24 25% / REG-25 50% / REG-26 RESOLVED-DISCONFIRMED** (Stage-2 re-grade 7/22 post-call; v2.3 re-mark = next scheduled pass).
 **Recent thesis pivot:** "12/12 cohort fade" → **Hyp A genuine cohort improvement + WAL-idiosyncratic** (6/8); reinforced by the benign 7/14-16 print cohort (JPM/WFC/C/MTB/CFG).
 
-**As of:** 2026-07-20 (Mon pre-market self-sweep — WAL price $82.30 [7/17 close, was mislabeled $81.88], Brent $88.10 [7/17 settle], HBAN de-listed as catalyst, broker-refresh row resolved to the 7/20 export). Prior: 7/18 task-packet refresh; 7/17 full-dir audit sweep.
+**As of:** 2026-07-22 (Wed eve Stage-2 closeout sweep — WAL Q2 both stages graded, REG rows re-set 25/50, forward-catalyst table updated). Prior: 7/20 Mon pre-market self-sweep; 7/18 task-packet refresh; 7/17 full-dir audit sweep.
 
 **★ BANK-PRINT WEEK AHEAD (the confirmation load lands 7/20→7/28; all frames FROZEN pre-print 7/18):**
 | Date (verified) | Print | REGINALD role | Frozen frame |
@@ -64,7 +64,7 @@ Benchmark stack going in: JPM/WFC/C/MTB benign 7/14-15 + **CFG clean 7/16** (NCO
 
 | Date | Event | Threshold / Signal |
 |------|-------|---------------------|
-| 🔴 **Tue Jul 21 AMC** | **WAL + OZK Q2 double-print** | REG-24/25/26 (65/72/33) vs grading frame; OZK $15-30M fail-band |
+| ~~Jul 21-22~~ ✅ | **WAL Q2 RESOLVED both stages — NOT-surprise-tier, no fire; REG-24/25 → 25/50** | Residual: pending $99M appraisal + Q3 10-Q; OZK print = peer-owned read |
 | 🟠 Jul 21-24 | Monoline gate (ALLY 7/21 BMO / SYF / COF) | Axis-A test; ALLY informs path-(a) ONLY (RED pin) |
 | 🟠 Jul 22 | EGBN Q2 print | Office-migration → NCO conversion; coverage 114%→?; new-CEO overlay |
 | ⚡ Thu 7/23 BMO | HBAN Q2 print — **EXIT-thesis dust (Will 7/18)**, monitor-only | NOT a live catalyst; ×2 $16P Oct-16 rides to expiry, no re-entry |

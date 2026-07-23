@@ -8,6 +8,18 @@ Tracks all changes to `WAL/THESIS.md`. Reverse chronological. Mirrors format of 
 
 ---
 
+## 2026-07-22 — Q2 STAGE-2 (post-call): scheduled REG-24/25 re-grades — 65→25% / 72→50%; no version bump
+
+**What changed (probability re-grade only — structural vectors untouched, zero grading thresholds moved):**
+- **REG-24 65%→25%** — office-classified $316M (28% of $1,128M classified assets, slide-12 VISUAL confirm off EX-99.2 images; Q1↔Q2 mix-label ambiguity resolved — Q2's 38% segment is C&I) and FALLING from the $407M baseline; zero new office migrations on the 7/22 call (§3 not triggered); office criticized in TOTAL is $485M < the $500M line; H2 six-loan NPL-resolution path reduces the stock. Residual = pending $99M appraisal + $946M 2026 office maturity wall + 37%-criticized CLD/lease-up slice.
+- **REG-25 72%→50%** — Q2 window spent NEUTRAL (37bps, Stage-1 7/21); FY 25–35bps guide reaffirmed with H2 "a little above midpoint"; mgmt declared charge-off dollars+rate "peaked." Held at coin-flip (not lower) because Q1 39/Q2 37 run just under the 40 line and Q3 contains live realization events (the pending $99M appraisal; 3–4 of the six NPL resolutions closing in Q3).
+- **W5 disposition letter FINAL: (B)** — $99M life-sci loan in nonaccrual, $0 charged off; thesis grade AMBIGUOUS-lean-BEAR stands. New call color softens within-band: borrower brought the loan CURRENT end-June + prospective tenant; appraisal still pending (the live Q3 mark risk); NOT one of the Investor-Day six; ACL/nonaccrual coverage dipped to 96%.
+- Record: `../reports/2026-07-22_WAL_Q2_stage2_grade.md`. This session ran the drift-grep at close (lesson from the 7/16→7/17 fossilization).
+
+**Old view → new view:** REG-24/25 at 65/72 → **25/50**; REG-26 stays RESOLVED/DISCONFIRMED (7/21); Bear-med 25 / EV $68.93 / PT $50-68 / v2.2.1 UNCHANGED — **v2.3 re-mark is the next scheduled pass** (pre-cutover lane per DAEDALUS 7/22, deliberately not done at Stage-2).
+
+---
+
 ## 2026-07-17 — RETRO-ENTRY (audit catch): 7/16 REG-24/25 re-grade + 7/10 date-fix, logged late
 
 **What changed (no version bump — probability re-grade + hygiene, structural vectors untouched):**

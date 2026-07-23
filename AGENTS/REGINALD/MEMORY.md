@@ -57,7 +57,22 @@
 
 ## Session Notes
 
-⚠️ **Open question / owed (7/20 pre-market close):** **POSITIONS broker gate CLOSED** — POSITIONS.md folded to the fresh **7/20 FORGE export** (`b7c26f21`): both formerly-owed items resolved (Jul-17 dust confirmed expired off; +$7.59 cash = NO-ADD held; core book unchanged) and the one net delta absorbed — NEW **RH WAL $77.5P Aug-21 ×1** (nearest-money print-catcher). Everything print-ready for Tue 7/21: **WAL frame + ADDENDUM A (W1–W13) adopted**, 5 frozen frames, ALLY pin, ZION staged for tonight. **Owed into Tuesday:** (a) tonight's ZION 5:30p fill → non-credit axis-weight verdict (staging doc ready); (b) OZK-side Z2 line-set freeze looks UNADOPTED — flagged to PROME, NOT my work; (c) any 7/21 fire still needs Will [Approve] + the frame ladder (tape≠grade). *(Deferred post-7/21: domain-sweep, thesis v2.3 rewrite, KB reconstruction, WAL-promotion chase to DAEDALUS.)*
+⚠️ **Open question (7/22 Stage-2 close):** the **pending $99M appraisal** — Vecchione: "we haven't got the appraisal in" — is the single unresolved datum that could re-mark the (B) letter's Q3 path (a low mark forces a charge-down onto the REG-25 >40bps path); no public date for it. Watch for it via any WAL 8-K/10-Q language + the Q3 print. Secondary: MI3/FFIEC PDD still hasn't run (V1 falsifier), and the Cantor 3-figure tie-out formally closes at the Q3 10-Q footnote.
+
+### LAST SESSION (7/22 Wed eve — PROME-spawned, WAL Q2 STAGE-2 grade, execute-only)
+
+Executed the frozen 7/21 scaffold off the noon call (Alphastreet transcript 7/22 + EX-99.2 slide images 12/13/24 pulled from SEC — Quartr MCP blocked, no Pro sub; Alphastreet WebFetch 403'd but curl+browser-UA worked). **Stage-1 verdict STANDS — no surprise-class fact, NO FIRE.** All 5 items: W5 letter **(B) FINAL** ($0 C/O; borrower brought it CURRENT end-June + prospective tenant; appraisal pending; NOT in the Investor-Day six; ACL/NPL coverage 96%) · §3 = 0 new migrations · office-$ **visual-confirmed $316M/28%** (mix-label resolved: Q2's 38% = C&I) · Cantor ZERO call mentions (distinct-bases reconcile stands; grep note: "lien" false-positives on "client"/"resilient") · spot-CoD BENIGN (June exit 1-2bps below the 1.78% avg). §4 closed: Wed +3.61% to $83.41 < ±5%, WAL-specific (KRE −0.50%); pop-discipline stack NOT complete → not invalidation. **Scheduled re-grades: REG-24 65→25% / REG-25 72→50%** (PREDICTIONS.tsv + WAL/CHANGELOG + drift-grep run at close — no fossilization this time). Files: `reports/2026-07-22_WAL_Q2_stage2_grade.md`, `outbox/2026-07-22_to-PROME_WAL_stage2_grade.md`, STATUS/WAL-STATUS/CALENDAR swept. DAEDALUS 7/22 inbox note read (NOT processed as a task): WAL promotion APPROVED by Will, cutover 7/24-28 gated on my lane — **Stage-2 ✅ → v2.3 re-mark → BROCK map ship**; WAL/INDEX + WEAKNESSES rewrites reserved for the standup.
+
+### NEXT SESSION
+1. **v2.3 re-mark** (SCENARIOS EV off live spot $83.41 + Q2 actuals; CHANGELOG entry; drift-grep) — first item of the pre-cutover lane.
+2. **BROCK map ship** (the WAL↔BROCK exposure map DAEDALUS endorsed me shipping first).
+3. Then signal DAEDALUS (or note in STATUS) that the three pre-cutover items are done → WP-W0.
+4. EGBN call 7/23 10am (frozen frame `reports/2026-07-18_EGBN_Q2_grading_frame.md`) + small-tier FL watch-card fills (BKU printed 7/22 BMO — not yet read; SSB/AMTB 7/23 AMC).
+5. KB.tsv Q2-ingest-or-freeze (DAEDALUS: 82d stale, 11 expired Stale_By rows) — rides the standup if cutover executes.
+
+⚠️ **Prior open item (7/20, still live):** any fire still needs Will [Approve]; OZK Z2 freeze was OZK-side, not mine. **RESOLVED since:** ZION graded 7/20 · WAL Stage-1 7/21 + Stage-2 7/22 · broker gate closed 7/20.
+
+### PRIOR (7/20 pre-market close): **POSITIONS broker gate CLOSED** — POSITIONS.md folded to the fresh **7/20 FORGE export** (`b7c26f21`): both formerly-owed items resolved (Jul-17 dust confirmed expired off; +$7.59 cash = NO-ADD held; core book unchanged) and the one net delta absorbed — NEW **RH WAL $77.5P Aug-21 ×1** (nearest-money print-catcher). Everything print-ready for Tue 7/21: **WAL frame + ADDENDUM A (W1–W13) adopted**, 5 frozen frames, ALLY pin, ZION staged for tonight. **Owed into Tuesday:** (a) tonight's ZION 5:30p fill → non-credit axis-weight verdict (staging doc ready); (b) OZK-side Z2 line-set freeze looks UNADOPTED — flagged to PROME, NOT my work; (c) any 7/21 fire still needs Will [Approve] + the frame ladder (tape≠grade). *(Deferred post-7/21: domain-sweep, thesis v2.3 rewrite, KB reconstruction, WAL-promotion chase to DAEDALUS.)*
 
 **Push status:** committing + safe-push at this closeout per protocol (PROME + concurrent agents — pathspec own-dir only, non-ff → pull --rebase).
 
