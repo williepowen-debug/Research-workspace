@@ -1,10 +1,20 @@
 # CORAL — NEXUS Brief
 
-**Status:** 🟠 ELEVATED — thesis split holds and WIDENED 7/21: blended statewide thermometers improved (condo +1.7% YoY flip, 8.1mo; UR 4.7% first decline since 2024; CCBG benign) while concentrated-distress legs stay red/armed (FL #1 H1 foreclosure; vintage $313/sf −9%; **Parcl MSI tripwire ARMED**; ZHVI first cycle low). Bank-loss transmission not in prints; Q2 window LIVE this week.
+**Status:** 🟠 ELEVATED — thesis split holds: blended statewide thermometers improved (condo +1.7% YoY flip, 8.1mo; UR 4.7% first decline since 2024; CCBG/BKU/VLY bank credit all benign) while concentrated-distress legs stay red/armed (FL #1 H1 foreclosure; vintage $313/sf −9%; **Parcl MSI SUSTAIN MET 7/23 → 🟠→🔴 supply-side-leg trigger fired, escalated to PROME for ratification**; ZHVI first cycle low). Bank-loss transmission still not in prints; **Q2 gate day only ¼ resolved (VLY graded benign; SSB/AMTB/USCB report AMC 7/23).**
 **Domain:** Whole-Florida stress surface — condo/SF/CRE real estate, insurance, FL banks, migration/tourism, state fiscal/property-tax, labor/construction, coastal/climate
 **Thesis version:** Coral Bleaching v1.0 — installed rails at `thesis/THESIS.md`; changelog `thesis/CHANGELOG.md`
-**As of:** 2026-07-22 ~22:45 ET | STATUS commit: 48cb7d34 (7/22 EVE BKU Q2 pre-reg grade). Prior: 6e803162 (7/21 EVE full live refresh). See 7/22 + 7/21 EVE UPDATEs below.
+**As of:** 2026-07-23 ~12:15PM ET | STATUS commit: <this-session> (7/23 gate-day partial + MSI sustain). Prior: 48cb7d34 (7/22 BKU grade); 6e803162 (7/21 EVE refresh). See 7/23 + 7/22 UPDATEs below.
 **Cluster:** FL regional-bank CRE/condo leg of the transmission-terminus cluster (REGINALD hub, CARL consumer). Leg grid → `CLUSTER_FL_BANK_LEG.md`.
+
+---
+
+## 7/23 UPDATE (FL gate-day grade — PARTIAL, VLY only; + MSI sustain MET)
+
+**⚠️ Gate day is only ¼ resolved.** Timing verified: it is Thu 7/23 ~12:15PM ET (not Fri 7/24 as spawned) — **only VLY (BMO) has printed**; SSB + AMTB + USCB all report **AMC 7/23 (~4PM+; calls 7/24)** and cannot be graded yet (EDGAR shows no 8-K filed; grading them = fabrication). Re-run owed tonight.
+
+**VLY Q2 — BENIGN / does-not-count (1-of-4 axes; no FL attribution). Sync stays 0-of-≥2.** Primary: 8-K ex-99.1, EDGAR acc. 0000714310-26-000036. (a) NCO ~17bps (vs ~14 Q1) BENIGN · (b) provision $29.2M vs $21.2M Q1 +37%, "higher specific reserves on collateral-dependent loans" (NOT FL-named) = DETERIORATING (mechanical) · (c) ACL 1.18%→1.16% (−2bps, declining) BENIGN · (d) **criticized/classified 8.1%→7.3% DOWN** (mgmt-guided) vs 3 CRE loans →non-accrual ($49.6M, no allocated reserves) BENIGN(mixed). **For REGINALD:** 8-state book, no FL cut, criticized/classified *fell* → non-FL CRE softening, excluded from FL count; tape −2.4% = EPS miss (adj $0.30 vs $0.31 cons), not credit; no HOA/condo/assoc color in release. Fourth consecutive benign FL/near-FL bank surface (CCBG+BKU+VLY+June-labor).
+
+**🔴 Parcl MSI SUSTAIN CHECK — MET (carried item closed):** 5 FL metros still >6.0 ~15d after 7/8 (Tampa 6.96, Punta Gorda 6.82, North Port 6.45, Cape Coral 6.2, Lakeland 6.09; drift vs 7/8 = fresh read). Per registration, the 🟠→🔴 supply-side price-discovery leg fires (metro-basis, documented). **Escalated to PROME — global thesis state NOT flipped unilaterally (scoped-spawn rail discipline).** Two-sided with FL Realtors June absorption (MSI = seller distress; sales = absorption at cut prices).
 
 ---
 
