@@ -1,54 +1,52 @@
-# FALCON SCRATCH — 2026-07-21 Tue (PROME fan-out spawn: SIG-003 Bab el-Mandeb adjudication + $85×3 session-2 consume)
+# FALCON SCRATCH — 2026-07-23 Thu (PROME spawn: GATE-FALCON-001 leg-1 fire adjudication + BRENT fresh-Bab ask)
 
 **Purpose:** Ephemeral session handoff — read at boot (step 2), rewritten at closeout (step 13). Durable learnings → `MEMORY.md`; cross-agent twin → `NEXUS_BRIEF.md`.
 
 ---
 
 ## CURRENT MARKS (one line)
-- Scenario **B 5 / C 30 / D 65 (BASE)** — **UNCHANGED** (SIG-003 declared-not-executed; $85×3 fired but premium-not-physical → NO D→75; zero scenario re-marks) · Convergence **41/50 🔴 new ATH** (oil vector 4→5 on $85×3 fire; Bab held 3) · Kinetic 🔴 · **$85×3 CLAUSE FIRED: 7/17 $88.10 · 7/20 $89.42 · 7/21 $91.12 (all >$85, PROME graded). Consequence = oil vector→5 + D-tell #3, premium-sustained NOT supply-loss NOT deploy.**
+- Scenario **B 5 / C 30 / D 65 (BASE)** — **UNCHANGED** (zero unilateral moves per spawn instruction) · Convergence **41/50 🔴** live (PROPOSED →42/50 on leg-1 fire, held pending Will) · Kinetic 🔴 · **🔴 GATE-FALCON-001 FIRED on LEG-1 (7/23): Houthi kinetic enforcement attack on Saudi tanker Encelia, UKMTO-confirmed — Bab blockade EXECUTED. Consequence PROPOSED not applied.**
 
 ## CHANGES SINCE LAST SESSION
-- **[7/21 eve pass] leg-2 candidate watch checked → NO day-1 stamp** (UKMTO Update 073 no attacks; TankerMap 6 transits latest complete day, +20% vs trend, incomplete UTC day = not a collapse). Monitoring note (AIS leading / PortWatch lagging) ADOPTED by PROME onto the GATES row + mirrored to KB/STATUS (KB-036). Inbox swept — clean, nothing landed since last delivery.
-- **[7/21 close, 3rd ingest] $85×3 CLAUSE FIRED** — session-3 settle $91.12 (PROME graded); s1 $88.10/s2 $89.42/s3 $91.12 all >$85. Consequence executed: oil/energy convergence vector **4→5**, convergence **40→41/50 new ATH**, D-tell #3 checked. **D held 65 — premium threshold, NOT a physical gate; my cap is capacity-destruction-based, and zero barrels lost → NO D→75.** KB-035. Vendor-drift note (4th instance): yfinance re-marks 7/20 $89.22 vs banked $89.42; canon = banked, count insensitive.
-- **[7/21 PM, 2nd adjudication] GATE-FALCON-001 tested by first live datum → NOT FIRED (0/3 legs).** 2 Saudi-crude VLCCs (Xin Long Yang/Rodos) U-turned to Suez after a Houthi HOCC email — coerced VOLUNTARY reroute (premium/cost, NOT supply-loss, NOT enforcement). NO leg-2 day-1 stamp on 2-hull anecdote (data-anchored; PortWatch lags). Zero mark changes (D65/conv3/FAL-01). Ladder now explicit: declaration→coercion-with-teeth(here)→execution=fire. KB-034; memo `reports/2026-07-21_babelmandeb-coerced-reroute-GATE-FALCON-001-adjudication.md`; outbox to PROME.
-- **SIG-003 (Houthi Saudi/Bab el-Mandeb blockade) ADJUDICATED = WATCH-ONLY, ZERO FALCON state changes.** Declared 7/20, REAL+NEW+multi-source (8 wires, Saree, Saudi-scoped, distinct from 6/8 ban) but **DECLARED-NOT-EXECUTED**. Executed tell (transit collapse) ABSENT: Bab transits HOLDING ~8/day (7d-avg 5.0, −3% w/w, latest day +20%; TankerMap 7/21), no 7/20-21 UKMTO incident. **Trigger = Saudi-bilateral (Sanaa airport bombing 7/13 + 12yr siege), NOT the US-grid conditional — my ladder-3b did NOT fire.** Memo: `reports/2026-07-21_babelmandeb-SIG-003-adjudication.md`.
-- **Year-conflation catch:** the Gulf News "two Red Sea attacks in 24h by Houthis" = **JULY 2025** (Magic Seas/Eternity), NOT fresh enforcement. Flagged so it isn't banked fleet-wide.
-- **$85×3 session-2 BANKED** = 7/20 BZ=F daily close **$89.42** [PROME pull 15:22 ET] — 2nd consecutive record settle. Count: s1 $88.10 [7/17] + s2 $89.42 [7/20]. **Session 3 = today 7/21, PROME grades with the 4-rail cluster.**
-- STATUS (header + Bab conv vector + oil vector + Next-Rung Tell #3/#5 + BOTTOM LINE), NEXUS_BRIEF (As-of, Bab row, $85 row), KB-FALCON-032/033 written. 2 inbox items `git mv`→processed.
+- **🔴 [7/23] GATE-FALCON-001 FIRED — LEG-1.** UKMTO WARNING **attack_095_26** + Saudi Transport Authority/SPA confirm the Saudi tanker **Encelia** struck (unknown projectile, fire at bow, crew safe) **70nm SW Al Shuqaiq, 7/22/2026**; Houthi spox Saree claimed it (+*Layla*, claim-only) w/ ballistic/cruise missiles+drones **"for violation of the blockade decision"** — post-7/20 enforcement. All four leg-1 conditions met (live-dated / Saudi hull / inside declared Red Sea zone / Houthi enforcement attribution), corroborator-anchored (JMIC + MARAD 2026-006). NOT a 2025/2018 recirculation (Encelia/Layla = new hulls). Ladder: declaration(7/20)→coercion(7/21)→**KINETIC EXECUTION(7/22)**. KB-037; memo `reports/2026-07-23_babelmandeb-leg1-adjudication.md`; outbox 🔴 to PROME; BRENT inbox reply.
+- **LEG-2 NOT FIRED (advancing).** Freshest aggregate = Kpler 7/21 Bab **−34% d/d to 29 TOTAL vessels** + Lloyd's 7/21 **39/wk (−54% WoW)** — first hard aggregate step-down but **total-vessel/single-day/PRE-strike**; my leg-2 = tanker transits ≥2 print-days sub-~8/day attributable to coercion → **provisional day-1 leading edge in hand, day-2 + tanker-specific owed** (PortWatch surfaces post-strike ~7/26-29). **LEG-3 NOT FIRED** — Saudi *increasing* pipeline flow to Yanbu (loadings continuing, June Yanbu-Bab exports 3.5M bpd); stress = export ROUTE = premium (LOADING≠LIFTING). KB-037.
+- **Consequence PROPOSED (Will decides), NOT applied:** Bab conv vector 3→4, convergence 41→42/50; **D lean-HOLD 65** (premium/reroute-dominant: fires-not-sinkings, no vessel sunk, no capacity destroyed, no terminal hit) but **D→75 ARMED & PROXIMATE** (trips on a sinking / confirmed-sustained 2026 Saudi Red Sea halt / leg-2 aggregate ≥2-day collapse). FAL-01 unchanged/unfired (a sinking would fire the vessel-sunk leg). Do NOT edit GATES.tsv (PROME owns).
+- **VINTAGE CATCH:** "Saudi halts/resumes Bab el-Mandeb oil shipments" (Bahri VLCCs 2M bbl, "resume Saturday", Saudi National Shipping Co) = **JULY 2018** — TWZ+AJ 7/22 say Saudi did NOT halt as of 7/22 (pipeline-diverting to Yanbu). Flagged BRENT; don't bank a 2026 halt w/o a clean primary. KB-038.
+- **INSURANCE WATCH established (Will-assigned 7/22 lane) as named surface** (STATUS §War-Risk Insurance Watch + KB-039): Red Sea war-risk **+150% to ~0.75%/hull** (from ~0.3% Fri 7/17), Bab AWRP **~0.5%/hull**, JWC listed-area (Saudi vessels HIGH RISK), full closure ~7% global supply. Market-wide → routed BRENT+PROME cc HAWK.
+- **3 PortWatch scripts refreshed** (BRENT ask): hormuz newest 7/19 = 15/88 (17%, tankers 4); **bypass now current through 7/17 = HOLDING** (69,793 t/d vs 16,224 floor — resolves BRENT's "state stale 7/10"); kharg 0 = uninformative dark-fleet baseline.
 
 ## WHAT I DID THIS SESSION
-- Verified SIG-003 against WALTER's 3 guards (declared≠executed ✅, single-source→now multi-source ✅, 6/8 re-declaration→confirmed NEW ✅) + web-pulled TankerMap/UKMTO/Al Jazeera/NBC/TWZ.
-- Adjudicated against frozen anchors: FAL-01 unfired, marks unchanged, Bab conv vector held 3 (move-on-behavior).
-- **PROPOSED (not self-registered) a Bab-el-Mandeb execution tripwire** to PROME/Will (3 corroborator-anchored triggers; GATE-TERRY-006 construction).
-- Consumed PROME 7/20 session-2 grade → folded into $85×3 ledger.
-- Wrote memo + outbox `2026-07-21_to-PROME_babelmandeb-adjudication.md` (verdict in first 3 lines).
+- Verified leg-1 against 4 conditions with primary maritime corroborators (UKMTO attack_095_26, SPA/Saudi Transport Authority, JMIC, MARAD 2026-006); rejected the 2018 Saudi-halt conflation and confirmed Encelia/Layla are fresh 2026 hulls.
+- Ran/refreshed 3 PortWatch scripts; answered BRENT's 🔴 fresh-Bab ask directly (its inbox, authorized) with transit + insurance primitives + premium-vs-supply-loss read.
+- Adjudicated all three legs; held all marks (zero unilateral moves) and PROPOSED the pre-registered consequence for Will/PROME.
+- Established the Will-assigned war-risk insurance watch as a named STATUS surface.
+- Wrote memo + outbox 🔴 to PROME + STATUS/NEXUS/SCRATCH/KB writebacks.
 
 ## NEXT SESSION (dated, future-verifiable)
-1. **$85×3 — ✅ FIRED & INGESTED 7/21** (s3 $91.12; oil vector→5, conv→41/50, D-tell #3 checked, D held 65). Clock CLOSED. **Fleet propagation (NEXUS/BRENT/HEARTBEAT fold) = PROME's, Will-gated tonight — not mine.** Next-boot: confirm PROME's fold landed; no further FALCON action owed on the $85×3 clause. Note the vendor-drift discipline (banked post-settle figures are canon; don't let a later yfinance re-mark rewrite $89.42→$89.22).
-2. **Bab el-Mandeb execution watch = GATE-FALCON-001 (REGISTERED 7/21) — leg-2 candidate watch OPEN; [7/21 EVE CHECK done → NO day-1 stamp].** Eve check: UKMTO Update 073 (7/19) no attacks (leg-1 unfired); TankerMap latest complete day 6 transits (+20% vs prior 7d-avg, current UTC day incomplete = not a collapse) — reroutes not yet in aggregate; gate remains 0/3. **Monitoring note ADOPTED (PROME 7/21, on GATES row): real-time AIS (Windward/TankerTrackers/TankerMap) = LEADING read, PortWatch aggregate (~5-8d lag) = LAGGING confirm; threshold unchanged (≥2 print-days sub-~8/day attributable to coercion).** Re-check next boot: (a) real-time AIS FIRST for a fresh sub-~8/day aggregate step-down (today's reroutes surface in PortWatch ~7/26-29), (b) UKMTO/Ambrey post-7/20 enforcement ATTACK on a Saudi/commercial hull, (c) Yanbu **loadings** (not route) collapse beyond −36%. Any leg ≥2 print-days → gate fires → Bab conv 3→4 + D flip-up + same-session adjudication + WALTER anchor fold + PROME routing. **NO stamp on anecdote/single incomplete day — data-anchored.**
-3. **PortWatch 7/13+ Hormuz transit prints** — STILL overdue (newest 7/12=10/88, now ~9d old). Re-check; grade on prints only.
-4. **FAL-01 window closes Jul 26 (5 days).** Watch KHARG (real tail); power/water/grid do NOT fire it. **RE-DERIVE 70% at re-registration (don't inherit).**
-5. **[DEFERRED] FAL-01 re-registration scaffold** → `thesis/FAL-01_REREGISTRATION_SCAFFOLD.md` (pre-build the from-scratch 70% re-derivation ahead of Jul 26). NOT started.
-6. **GATE-TERRY-006:** corroborator-anchored, armable. No corroborator; kharg VETO shows flow continuing. If a Kharg corroborator appears → run kharg VETO cross-check.
-7. **WSJ hull-count reconcile** (4→8 double-count risk) — resolve with BRENT.
+1. **GATE-FALCON-001 leg-2 confirmation watch — post-strike aggregate Bab tanker transits.** Real-time AIS FIRST (Windward/TankerTrackers/TankerMap) for a fresh sub-~8/day tanker aggregate ≥2 print-days attributable to the coercion; PortWatch lagging confirm surfaces the 7/22-strike aggregates **~7/26-29**. Provisional day-1 leading edge (Kpler 7/21 −34% total-vessels) in hand; day-2 + tanker-specific owed. If confirmed → leg-2 also fires (gate already fired on leg-1).
+2. **FAL-01 window closes Jul 26 (3d).** ⚠️ **Encelia/Layla sinking watch** — both on fire, afloat, crew safe as of 7/22; a hostile-action SINKING fires FAL-01's vessel-sunk leg (and would join the D→75 physical-gate case). Watch KHARG (the production tail) too. RE-DERIVE 70% at re-registration (don't inherit); scaffold still owed (`thesis/FAL-01_REREGISTRATION_SCAFFOLD.md`, NOT started).
+3. **D→75 trip-condition watch** (armed & proximate): a sinking / a **confirmed-sustained 2026** Saudi Red Sea route halt (needs a clean 2026 primary — the "halt" going around is 2018) / leg-2 aggregate ≥2-day collapse.
+4. **Confirm PROME's disposition** of the leg-1 fire: did Will apply Bab 3→4 / conv 42/50? did PROME route WALTER the executed-tell (kinetic) fold + BRENT/SAM/HENRY/CARL? Reconcile my STATUS marks to whatever Will decides.
+5. **Insurance watch refresh** — re-pull Red Sea/Bab/Gulf war-risk rates + any P&I club withdrawal/capital action; route market-wide moves BRENT+PROME cc HAWK.
+6. **PortWatch Hormuz** — newest 7/19 = 15/88; re-check for 7/20+ prints; grade on prints only.
 
 ## OPEN THREADS / WATCHES
-- ✅ **$85×3 — FIRED & INGESTED 7/21** (s1 $88.10/s2 $89.42/s3 $91.12); oil vector→5, conv→41/50 ATH, D-tell #3 checked, D held 65 (premium-not-physical). Clock CLOSED; PROME owns fleet fold
-- 🟠 **Bab el-Mandeb blockade DECLARED 7/20, coercive teeth 7/21 (still not executed)** — GATE-FALCON-001 tested by 2 VLCC U-turns (Xin Long Yang/Rodos) → **NOT FIRED (0/3 legs)**: coerced voluntary reroute = premium/cost not supply-loss. **leg-2 candidate watch OPEN** (clock started 7/20-21; day-1 = first aggregate sub-~8/day print attributable to coercion; lean real-time AIS given PortWatch ~week lag). Yanbu-inside-zone = BRENT/CARL/SAM supply flag
-- 🔴 **FAL-01** (Jul 26, 5d) — unfired, base strengthened; Kharg is the tail; scaffold owed
-- ✅ **GATE-TERRY-006 Kharg-strand — REGISTERED LIVE 7/18** (PROME+TERRY confirmed 7/20): corroborator-anchored; weekend sweep NEGATIVE → correctly unfired
-- 🔴 PortWatch 7/13+ Hormuz prints — overdue (~9d)
-- 🟠 WSJ hull double-count · bypass HOLDING/HOT · Iraq/PMF genuinely unfired (CTP+Shafaq)
-- ✅ canonical Brent settle source — RESOLVED: BZ=F daily close is canon (PROME 7/20)
+- 🔴 **GATE-FALCON-001 FIRED (leg-1, 7/23)** — Bab blockade EXECUTED (kinetic); consequence PROPOSED not applied (Bab 3→4, conv 42/50, D lean-hold 65 / D→75 armed). Leg-2 candidate watch still open (day-2 owed); leg-3 unfired.
+- 🔴 **FAL-01** (Jul 26, 3d) — unfired; NEW sinking watch on Encelia/Layla; Kharg = production tail
+- 🟠 **War-risk insurance watch (Will-assigned)** — Red Sea +150%/0.75%, Bab AWRP 0.5%; watch P&I club actions; market-wide → BRENT+PROME cc HAWK
+- 🟠 **Saudi Red Sea halt** — UNCONFIRMED for 2026 (2018-conflation-risk); confirmed posture = pipeline-diversion to Yanbu (premium). BRENT owns supply-loss call
+- 🟠 bypass HOLDING (69.8k t/d vs 16.2k floor, thru 7/17) · Hormuz 15/88 thru 7/19 · Iraq/PMF genuinely unfired (CTP+Shafaq) · WSJ hull double-count still unresolved
+- ✅ **$85×3 FIRED & INGESTED 7/21** — clock CLOSED; PROME owns fleet fold
+- ✅ **GATE-TERRY-006 Kharg-strand — REGISTERED LIVE 7/18**; corroborator-anchored, kharg VETO shows flow continuing
 
 ## PREDICTIONS DUE / DECISIONS PENDING
-- **FAL-01 (Jul 26)** — only OPEN row; 70% frozen, re-derive at re-registration. Scoreboard **1C / 0F / 0P / 0V / 1 OPEN.**
-- No Will-decision pending on FALCON's book (holds none). **Bab-el-Mandeb execution tripwire — DONE: Will-approved + REGISTERED LIVE as GATE-FALCON-001 (7/21, PROME commit 2d54ba96).**
+- **FAL-01 (Jul 26, 3d)** — only OPEN row; 70% frozen, re-derive at re-registration. Scoreboard **1C / 0F / 0P / 0V / 1 OPEN.** Sinking watch is the live tail.
+- **Will decision pending:** apply/adjust the PROPOSED leg-1 consequence (Bab 3→4, conv 42/50, D-mark). FALCON holds no book.
 
 ## MAIL STATE (one line per surface)
-- Inbox (root): CLEAN — no loose items; PROME grade notes consumed + processed. Swept again at 7/21 eve pass, nothing new landed.
-- WALTER lane: CLEAN — SIG-W-20260720-003 consumed + processed; no new items at eve.
-- Outbox: `2026-07-21_to-PROME_babelmandeb-adjudication.md` written (this session); prior 7/18/7/20 notes staged (PROME/TERRY consume live).
+- Inbox (root): BRENT fresh-Bab ask (7/23) CONSUMED + answered (reply to BRENT inbox) → move to processed. PROME war-risk assignment (7/22) CONSUMED (watch established) → move to processed.
+- WALTER lane: 2 items (SIG-W-20260721-003 iran-wave corrected-framing; NOTE bab-8-tanker-count) — both pre-dated/consumed context; logged board_log + move to processed.
+- Outbox: `2026-07-23_to-PROME_bab-leg1-adjudication.md` written (🔴). BRENT reply filed to `AGENTS/BRENT/inbox/` (authorized direct-drop).
 
 ## PENDING PUSH / GIT
-- Committing pathspec `AGENTS/FALCON/` (STATUS, SCRATCH, NEXUS_BRIEF, KB, reports/, outbox/, inbox processed-moves). **Do NOT push** (spawned mid-session in a fan-out wave — other agents concurrent; PROME's closeout sweeps). Strict own-dir pathspec, never `git add -A`.
+- Committing pathspec `AGENTS/FALCON/` (STATUS, SCRATCH, NEXUS_BRIEF, KB, board_log, reports/, outbox/, inbox processed-moves) + the single authorized BRENT inbox reply (`AGENTS/BRENT/inbox/2026-07-23_from-FALCON_...`). **Attempt safe-push; if non-ff abort or foreign-dirty tree, DEFER** (concurrent live sessions: BRENT/SAM/VIOLET/LABOR + warm CORAL) — note it, never rebase/force mid-fan-out. Strict own-dir pathspec, never `git add -A`.
