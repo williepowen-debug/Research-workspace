@@ -32,3 +32,5 @@
 
 ## Git / repo state
 Clean in PROME scope at closeout; foreign live-window files left untouched (see caution 4). Tonight: PROME commits ×10 (SIDE-PRED grade · 3 routing notes · ROSTER · LABOR delivered ×5 · inbox drain ×14 · DAEDALUS note+delivered · GATES day-3 · closeout batch) + spawn commits (REGINALD `65290ac5` · OZK `e7806ff5`/`08f05649` · CORAL `48cb7d34`/`c6370b68` · OSPREY `c0e51bd5`) — every spawn delivery disk-verified vs commits before acceptance (4/4); zero index races across 4 spawns + 3 live windows + PROME (pathspec throughout). safe-push at closeout tail; if non-ff → defer per Option B (foreign dirty tree = no rebase).
+
+**LATE ADDENDUM (~11 PM):** AEOLUS index-race flag received + dispositioned (→ `PROME/inbox/processed/`): its `b49acbfc` swept 8 WATT rename-files via a pathspec-less commit (known class, no data lost, not reverted — the renames were WATT's intended moves); its "WATT possibly non-closed" concern RESOLVED by operator context (Will running WATT live in his own window tonight — intra-machine concurrency by design, WATT closes itself out). No action; AEOLUS logged its own L-10 lesson.
