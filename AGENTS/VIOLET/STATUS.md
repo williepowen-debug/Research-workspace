@@ -18,7 +18,7 @@
 | VIX6M | **22.88** (21.66 [7/21]) | 7/23 TICK | 🟡 | [CONF] boot.py |
 | **VIX3M/VIX** | **1.071** (1.149 [7/21], 1.098 [7/17]) | 7/23 TICK | 🟡 | [CONF] calc — **RE-COMPRESSED toward the 1.0 inversion line** (from 1.149); Monday's re-steepening reversed. Front-end catching up to the belly = complacency draining again. Not inverted (needs <1.0). |
 | **VVIX** | **105.29** (96.34 [7/21], 104.79 [7/17]) | 7/23 TICK | 🟠 | [CONF] boot.py — **RE-CROSSED the >100 watch line** (from 96.34); the 7/21 retreat under 100 reversed. Vol-of-vol back on the stress side. |
-| **SKEW** | **150.19** (151.66 [7/21], 145.72 [7/17]) | 7/23 TICK | 🔴 | [CONF] boot.py — holding >150; tail bid elevated through the front-end round-trip. |
+| **SKEW** | **150.19** · 20d-avg **146.68** · p97 | 7/22 CBOE close [T+1 lag] | 🔴 | [CONF] yfinance recompute 7/23 — top-decile tail bid; 20d-avg well above the 140 regime line. **>150 sustain 2/4 td** (7/21 151.66, 7/22 150.19) toward prediction #6 re-arm — NOT yet meaningful (7/1 arm broke 2/4, 6/5 arm broke 1/4; filter has refused both). 5d-chg +1.68 = firming WITH the front-end (confirming, not diverging). |
 | M1:M2 contango (adj) | **+5.89%** | 7/22 settle [T-1] | 🟡 | [CONF] boot thresholds (VX/Q6/VX/U6) — NORMAL_TO_ELEVATED. |
 | VIX options C/P OI | **3.13** (Vol 1.80) | 7/23 ~12:10 ET | 🟡 | [CONF] boot vix_options — call/protection-heavy; fwd call OI 5.86M vs put 1.87M. 8/5 40C +101%, 8/19 65C +227% top adds. |
 | **MOVE (rates vol)** | **~74.67** [7/21, latest web] | 7/21 close | 🔴 | [CONF Yahoo/CNBC 7/21] — re-open stays FIRED, well above the 70-72 band + 72.41 F1. Trajectory 68.48→70.88→72.66→**74.67**. **7/23 print not yet posted** (web ~1-session lag) — re-verify next boot. N1 <66 stand-down far off. |
@@ -48,7 +48,7 @@
 | Spot VIX elevation | 🟠 | SHARED (SPX options surface) | 19.86 [7/23 TICK] — RE-FIRMED +2.81 from 7/21, back at the 20 boundary. | 2026-07-23 |
 | Term structure inversion | 🟡 | SHARED (SPX options surface) | VIX3M/VIX 1.071 [7/23] — RE-COMPRESSED toward 1.0 (from 1.149); Monday's re-steepening reversed. Not inverted (needs <1.0). | 2026-07-23 |
 | VVIX stress | 🟠 | SHARED (SPX/VIX options surface) | 105.29 [7/23] — RE-CROSSED the >100 watch line (from 96.34). | 2026-07-23 |
-| Skew elevation | 🔴 | SHARED-partial (tail moneyness) | 150.19 [7/23] — holding >150 through the front-end round-trip; tail bid intact. | 2026-07-23 |
+| Skew elevation | 🔴 | SHARED-partial (tail moneyness) | 150.19 [7/22 close] · 20d-avg 146.68 · p97 — top-decile; >150 sustain 2/4 (not yet meaningful); firming WITH the front-end = confirming, not diverging. | 2026-07-23 |
 | Front-curve complacency-extreme | 🟡 | SHARED (VX futures curve) | M1:M2 adj +5.89% [7/22 settle] — NORMAL_TO_ELEVATED. | 2026-07-23 |
 | **Credit-to-vol transmission** | 🔴🔴 | **INDEPENDENT** (FRED credit chain) | 🔴 BIN-A holds (CCC 9.77 / disp 8.17 [7/20]). | 2026-07-23 |
 | **MOVE / rates vol** | 🔴 | **INDEPENDENT** (OTC rates-options complex) | **~74.67 [7/21, latest web] — re-open FIRED and EXTENDED (68.48→70.88→72.66→74.67); 7/23 print pending web post.** | 2026-07-23 |
@@ -99,7 +99,7 @@
 | 🟠 | **Web-verify MOVE daily** (Yahoo daily dead; Yahoo/CNBC/investing.com quote). ~74.67 [7/21] latest; 7/23 print not yet posted. | Standing. |
 | 🟠 | **Term-structure inversion + VIX>20 watch** — the two missing crack legs; both close (1.071 / 19.86). | NEW 7/23. |
 | 🟠 | **jpy_vol IV/RV post-MOF** — MOF 7/22 passed clean; watch whether IV/RV collapses toward 1× now the event is behind (risk-passed) or holds (residual carry risk). | Carried. |
-| 🟡 | **20d SKEW avg recompute · M1:M2 detail · broad equity put/call · HY/BB ladder · VIX9D** — not refreshed this session (sit-rep boot). | Carried. |
+| 🟡 | **M1:M2 detail · broad equity put/call · HY/BB ladder · VIX9D** — not refreshed this session. *(20d SKEW avg recomputed 7/23 → 146.68, logged to SKEW row.)* | Carried. |
 | 🟡 | **VULCAN S1 (Path-B capex mechanism)** — fold in ahead of the 7/29-8/1 megacap stack; sets NDX-SPX IV-dispersion canary line. Now has SIG-002/008 data feeding it. | Carried. |
 | ✅ | **Cheap-tail window alert** — BUILT 7/23 (`scripts/cheap_tail.py`, KB-VIO-124), Will-directed. Operator-decision SETUP surface flagging the complacency floor (VVIX≤90·VIX≤16·SKEW≥140·catalyst≤21d); boot-wired, CANARY_MAP Tier-1. Today DORMANT 2/4; would have fired 7/10. | DONE 7/23. |
 | ⚪ | **PAT-032 disposition note to DAEDALUS** — cross-dir write, route via PROME. | Owed. |
