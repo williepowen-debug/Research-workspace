@@ -2,7 +2,7 @@
 
 **Owner:** AEOLUS · "What trades does climate→economy support, and why?" AEOLUS surfaces domain trade ideas; PROME synthesizes cross-agent. Conviction is **domain-only**.
 
-> **Status: LIVE, refreshed 2026-07-09** (prior grade 2026-06-28, 11d gap — fleet ledger-staleness rule: refresh-or-FROZEN, never silent-rot). Ideas below are **domain-surfaced, not yet RED-verified** — directionally actionable, not position-sizeable until the data is cross-checked against primary sources (Critical Rule #3). **No trade recommendations issued this session** (catch-up-spawn rule) — table refreshed for data currency only, not a new call.
+> **Status: LIVE, refreshed 2026-07-09** (prior grade 2026-06-28, 11d gap — fleet ledger-staleness rule: refresh-or-freeze, never silent-rot). Ideas below are **domain-surfaced, not yet RED-verified** — directionally actionable, not position-sizeable until the data is cross-checked against primary sources (Critical Rule #3). **No trade recommendations issued this session** (catch-up-spawn rule) — table refreshed for data currency only, not a new call.
 
 ## Active Recommendations
 

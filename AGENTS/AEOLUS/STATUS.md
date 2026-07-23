@@ -81,11 +81,13 @@ No formation currently in the pipeline meets any line — status quo benign, unp
 Handshake sent 2026-06-28 (`AGENTS/CORAL/inbox/processed/2026-06-28_from-AEOLUS_boundary-handshake.md`) — file shows moved to CORAL's processed/, but no reconciliation reply logged back to AEOLUS as of this session. **AEOLUS's current position, one figure per shared FL metric (unchanged since 6/28, not independently re-verified this session):**
 | Metric | AEOLUS figure | Scope (unconfirmed) | As-of | Source |
 |---|---|---|---|---|
-| Citizens (FL) policy count | ~395K (from 1.42M peak) | **UNLABELED — likely all-lines/total PIF, not confirmed personal-lines-only** | early-May 2026 | Citizens FL |
+| Citizens (FL) policy count | **278,246 total PIF** (273,684 personal + 4,562 commercial; Jul-17 snapshot 278,219) | TOTAL, scope-confirmed — prior ~395K was the Jan-31-2026 total (392,689), ~5mo stale | Jun 30 2026 | Citizens policies-in-force reports (primary), via CORAL 7/21 reconciliation |
 | Citizens premium change | −8.7% | same caveat as above | early-May 2026 | Insurify |
 | New FL carriers entered | 17+ | statewide, all lines (as stated) | early-May 2026 | Insurify |
 
 **🚩 CROSS-AGENT FLAG (7/9 self-sweep):** CORAL's own figure is **294,253 (personal-lines Citizens PIF)** — differs from AEOLUS's ~395K. This is very likely a **scope mismatch (all-lines/total vs. personal-lines) and/or vintage gap**, not necessarily a conflicting read — AEOLUS never had the line-of-business breakdown to confirm. AEOLUS's ~395K is now labeled UNLABELED/unconfirmed-scope pending CORAL's canonical breakdown; **do not average or pick one arbitrarily** — CORAL's more granular figure should be treated as canonical for personal-lines once she confirms scope+vintage on her side. AEOLUS treats all three rows above as **provisional pending CORAL's canonical FL read** — per the boundary rule, defer to CORAL's numbers once she reconciles; do not keep AEOLUS's copy live if CORAL's figure differs.
+
+> ✅ **RESOLVED — policy-count row applied 2026-07-22 by DAEDALUS QC, executing the pre-registered defer-to-CORAL rule above.** CORAL's 7/21 primary reconciliation (inbox, still unprocessed) resolved the mismatch: **both figures were TOTALS at different dates** (AEOLUS ~395K = Jan-31 total 392,689; CORAL's "294,253 personal" was a mislabeled mid-May total, CORAL's own error, fixed her side). Canonical: **278,246 total PIF at Jun-30-2026**, applied to the table above. The premium (−8.7%) and 17+ carriers rows remain provisional at early-May vintage; the CORAL packet also carries an unintegrated Citizens reinsurance datum (net ROL 8.46% vs 11.95% 2025, −29.2% YoY — bears on the C1 soft-market line) and the TS Bertha FYI — **full integration owed at next AEOLUS session** (leave the inbox item unprocessed until then).
 
 ---
 

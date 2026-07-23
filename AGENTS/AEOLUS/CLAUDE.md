@@ -27,9 +27,25 @@ Each channel is a standing causal line, not a topic. If a channel has no current
 2. **Read `SCRATCH.md`** — where you left off; the single most important "pick up here."
 3. **Read `STATUS.md`** — convergence matrix, live channel reads, exit triad, BOTTOM LINE.
 4. **Resolve predictions** — scan `workbook/PREDICTIONS.tsv` for past-trigger rows → mark HIT / MISS / FALSIFIED; log resolution to KB.tsv; never leave OPEN-but-stale (PREDICTIONS section).
-5. **Process `inbox/`** — integrate each signal, log a KB.tsv row, move to `inbox/processed/`.
+5. **Process `inbox/`** — integrate each signal, log a KB.tsv row, move to `inbox/processed/`. WALTER-lane handoffs (`inbox/WALTER/`) drain per the block below.
 6. **Channel-liveness check** — for each of C1–C5, is there a *current, dated* live read? Any channel without one is a **gap to close this session** (the #1 guard), not idle background.
 7. **Execute the task.**
+
+### WALTER signal intake  (inbox/WALTER delivery lane)
+
+*(Installed 2026-07-22 by DAEDALUS per WALTER's 7/11 Will-directed ask — canonical §8.1 template.)*
+
+At boot, after STATUS / MEMORY / LAST_COMPLETION:
+
+1. List AGENTS/AEOLUS/inbox/WALTER/*.md not yet in your board_log.tsv.
+   (If board_log.tsv does not exist, create it with the v0.2 header:
+    timestamp_read<TAB>signal_id<TAB>disposition<TAB>source<TAB>notes)
+2. For each: read it, decide disposition (acted/noted/deferred/info-only/skipped),
+   append a row to board_log.tsv with source=INBOX_WALTER,
+   then `git mv` the file to inbox/WALTER/processed/.
+3. Let `acted` items inform this session.
+
+(`git mv`, not bash `mv` — bash mv leaves the deletion unstaged.)
 
 ## CLOSEOUT PROTOCOL (before idle)
 
@@ -185,7 +201,8 @@ Outbox filename: `YYYY-MM-DD_to-[target]_[desc].md`. Format: Signal / Detail (2�
 | `workbook/VX.tsv` | Vectors — channel risk indicators + state. |
 | `workbook/FLOW.tsv` | Transmission pathways. |
 | `workbook/PREDICTIONS.tsv` | Falsifiable forecasts (AEO-NN) + resolution tracking. |
-| `inbox/` `outbox/` | Cross-agent messaging. |
+| `inbox/` `outbox/` | Cross-agent messaging. `inbox/WALTER/` = WALTER-routed signal lane (drain per boot block). |
+| `OPEN_THREADS_2026-07-09.md` | Dated self-sweep artifact — open questions / gaps / threads-to-pull. Fold into STATUS/SCRATCH or archive once integrated. |
 | `sources/` | Research corpus, briefings, archived data. |
 
 ---
