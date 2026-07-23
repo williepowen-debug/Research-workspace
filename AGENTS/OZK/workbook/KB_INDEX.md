@@ -1,6 +1,6 @@
 # KB.tsv — Group Index
 
-**Updated:** 2026-07-18 (+210–216 from the Q1'26 10-Q read / price-SI-regime pull / TD Cowen inbox; 207–208 RESOLVED; 5 new groups) | **Total rows:** 216 | **Groups:** 33 *(prior: 7/6 PM Atrium +203–209, 117 SUPERSEDED, 201 verified, 088/091 schema, 055/138 REFUTED)*
+**Updated:** 2026-07-22 (+217: IQHQ RaDD extension/recap negotiation + mezz-lender + interest-reserve datum from the Q2 call → EXTEND_PRETEND) | **Total rows:** 217 | **Groups:** 33 *(prior: 7/18 +210–216 from the Q1'26 10-Q read / price-SI-regime pull / TD Cowen inbox)* *(prior: 7/6 PM Atrium +203–209, 117 SUPERSEDED, 201 verified, 088/091 schema, 055/138 REFUTED)*
 
 Navigate the KB by investigation cluster. Each group maps to a folder or research file where the full synthesis lives.
 
@@ -19,7 +19,7 @@ Navigate the KB by investigation cluster. Each group maps to a folder or researc
 
 | Group | Rows | Count | Folder / File | What It Covers |
 |-------|------|-------|---------------|----------------|
-| **EXTEND_PRETEND** | 096–097, 099–104, 176, 202 | 10 | **research/D6_EXTEND_AND_PRETEND.md** | 590 mods (→ **624 through Q1'26, +34/qtr** [202]), 98% classification gap, 59% re-default, NPL forensics, Schaffer's Mill workout-tempo evidence. (098 cross-listed → MGMT_CREDIBILITY) |
+| **EXTEND_PRETEND** | 096–097, 099–104, 176, 202, 217 | 11 | **research/D6_EXTEND_AND_PRETEND.md** | 590 mods (→ **624 through Q1'26, +34/qtr** [202]), 98% classification gap, 59% re-default, NPL forensics, Schaffer's Mill workout-tempo evidence; **217 = IQHQ RaDD multi-year extension/recap negotiation on the Q2 call (mezz lender engaged, interest-reserve funded, "92 days")**. (098 cross-listed → MGMT_CREDIBILITY) |
 | **DISTRESSED_LOANS** | 028–036, 207–208 | 11 | THESIS.md (evidence) | Named problem loans: IQHQ RaDD, Sterling Bay, Boston, Seattle, Santa Monica. 760 Aloha OREO 40%-below-appraisal + **The Jack [207 — RESOLVED 7/18: not a conflict, a timing diff; a note-assignment/"Other" credit, $25.9M Q1'26 after $27.7M charge-off]**; **$128M Lincoln Yards LAND loan [208 — VERIFIED 7/18: distinct Sterling Bay credit, orig Dec'19, deed-in-lieu Mar'25, selling to JDL; already resolved]** |
 | **LIFE_SCI** | 094–095, 117 (SUPERSEDED), 137–141, 147–159, 189–191, 194–195, 199, 201, 204–206, 209 | 32 | **LIFE_SCI/FINDINGS.md** + research/threads/ATRIUM_LIFESCI_ASSET_MAP.md | $3.2B life sci, RaDD 3.3% leased + $1.23B total debt (15% PIK mezz accruing $76M), national bottoming 23.0%, SD rents 14th decline, Sorrento 38.2%, Boston ATH 28-34%, Bay Area first recovery, VC→AI crowding, Pacific Center sold, Temple 8 short, M&A $240B driving sublease, Boston 16.5M SF pipeline. Q1 26 adds: Boston Life Sci $169M substandard (sponsor confirmed), Seattle U Dist $127M, Chicago Life Sci $50M foreclosed, Ten Prospect sponsor correction. 7/4 add: 199 Sterling Bay resolution pattern (Lincoln Yards 320K foreclosure = loss; Pacific Center SVP sale = **par exit, corrected 7/6**). 7/6 adds: 201 Peninsula asset leads (Portal 405 / 777 Industrial / Southline — Atrium 2026, unverified). ⚠️ 138 REFUTED 7/6 (Aug-2028 extension claim — maturity is Aug 2026). |
 | **MGMT_CREDIBILITY** | 037–041, 069, 085, 093, 098 | 9 | THESIS.md (narrative) | "No concessions" contradiction, CFO selling, buyback non-use |

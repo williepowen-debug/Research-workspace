@@ -16,8 +16,8 @@
 | **OZK-05** | 50% | Jul-21 | Q2 **reported/annualized NCO** (press + Supplement) | Q2 NCO **>55bps** (stays above kill-line) | Q2 NCO **≤55bps** (retreats to ~50bps guide) | **TRUE** — Q2 ann NCO **0.69%** [Mgmt Comments, quarter just ended] >55bps kill-line (Z6; NCO $56.3M, 4 RESG office/life-sci partial c/o $49.3M). Brier (0.50−1)²=**0.25** |
 | **OZK-06** | 40% | Jul-21 | Q2 **past-due loans** (Supplement basis; Q1 was $465M/1.41%) | **>$550M OR >2.00%** | **≤$550M AND <2.0%** | **FALSE** — Past-due **$298M / 0.92%** [Fig 22] <$550M AND <2.00% (Z4; Q1 $465M/1.41% reproduced exactly ✓). Past-due IMPROVED. Brier (0.40)²=**0.16** |
 | **OZK-07 ★** | 55% | Jul-21 | Q2 **classified+criticized** (Supplement p.4; Q1 $1,215M) **AND** RESG total commitments (Mgmt Comments; Q1 $27.8B) | classified+criticized **RISES QoQ** WHILE RESG commitments **FALL QoQ** (adverse selection) | classified+criticized **flat or falls** (esp. both legs falling = healthy de-risking) | **TRUE** — Classified+criticized **$1,282M** >$1,215M (UP, Fig 22) AND RESG total commitments **$25.7B** <$27.8B (DOWN, Mgmt Comments; −$2.1B QoQ). Z1 strict conjunction MET → adverse selection CONFIRMED → hold 🔴🔴. Brier (0.55−1)²=**0.2025** |
-| **OZK-08** | 28% | Jul-21 (+Wed call) | Any disclosed **IQHQ/RaDD-specific reserve** (press / Mgmt Comments / call Q&A) | **Any positive** IQHQ-specific reserve disclosed | **No** IQHQ-specific reserve disclosed | ⬜ **PENDING-CALL (Stage-2, Wed 7/22)** — Tuesday release+Mgmt Comments disclose **NO** San Diego / IQHQ / RaDD anchor (Z3: 0 of 5 anchors; the $555M RaDD credit is NOT in the substandard/foreclosed roster — still pass-rated). Life-sci reserves disclosed are Boston $169.3M, Chicago foreclosed $47.5M, San Carlos c/o — none are IQHQ. FALSE-stamps only after the call (Z8). |
-| **OZK-09** | 52% | **Aug maturity / Q3 (Oct)** — **NOT Jul-21** | IQHQ RaDD Aug-2026 resolution → $140M+ loss recognition | Resolves via B/D with ≥$140M recognition | Resolves via A-extend or C-takeout with <$140M | ⬜ **OPEN** — color only: IQHQ RaDD credit still pass-rated/not-classified at 6/30, consistent with appraisal-gated/back-loaded recognition (v1.5). No Aug resolution executed-and-disclosed (Z10) → no early resolve. |
+| **OZK-08** | 28% | Jul-21 (+Wed call) | Any disclosed **IQHQ/RaDD-specific reserve** (press / Mgmt Comments / call Q&A) | **Any positive** IQHQ-specific reserve disclosed | **No** IQHQ-specific reserve disclosed | **FALSE** — Stage-2 stamped 2026-07-22 post-call (Z8). Tuesday: 0/5 anchors. Wed call: IQHQ/RaDD raised BY NAME in Q&A (Piper Sandler, UBS) — mgmt answered **extension/recap negotiation, "will remain a pass-rated credit"** — intent language, **NO specific reserve** → Z3 not met. Brier (0.28)²=**0.0784**. Detail → §STAGE-2 GRADE. |
+| **OZK-09** | 52% | **Aug maturity / Q3 (Oct)** — **NOT Jul-21** | IQHQ RaDD Aug-2026 resolution → $140M+ loss recognition | Resolves via B/D with ≥$140M recognition | Resolves via A-extend or C-takeout with <$140M | ⬜ **OPEN** — color only (updated Stage-2 7/22): pass-rated at 6/30; on-call = **multi-year extension + recap in negotiation** (sponsor + mezz lender engaged, terms not final), interest paid from pre-established interest reserves, "~92 days" to more disclosure (→ Q3 call). Intent never resolves (Z10). Scenario-A color strengthened; **weights NOT moved.** |
 
 ---
 
@@ -176,6 +176,78 @@ Tuesday: classified rose to $1,282M with **Special Mention +$219M** ($397M→$61
 - [ ] Deposit-cost spot-vs-average creep (ZION cohort watch — route to REGINALD hub if present).
 - [ ] Sub-notes Oct 1 reprice / capital commentary.
 
-**Delivery contract (Stage-2):** stamp OZK-08 + Brier into the card RESULT column; update OZK-09 color; outbox delta note to PROME + BROCK/CREED routes if fired; STATUS write-back; pathspec commit, no push.
+**Delivery contract (Stage-2):** stamp OZK-08 + Brier into the card RESULT column **AND `workbook/PREDICTIONS.tsv` (Status/Date_Resolved/Outcome/Brier-in-Notes) — the ledger is a named delivery leg, same standing as the card** *(added 7/22 per DAEDALUS PAT-053: the missing-named-leg failure mode — the 7/21 Stage-1 grade left the TSV rows OPEN because this contract didn't name them)*; update OZK-09 color (card + TSV Notes); outbox delta note to PROME + BROCK/CREED routes if fired; STATUS write-back; pathspec commit, no push.
 
 *Stage-2 pre-staged 2026-07-21 eve. Execute Wed 7/22 post-call off the transcript primary.*
+
+---
+
+# STAGE-2 GRADE — RESULTS (2026-07-22, post-8:30a ET call)
+
+**Graded 2026-07-22 eve off the earnings-call transcript.** Call confirmed held Wed Jul 22, 2026, 12:30 GMT / 8:30a ET. **Sources (no single-source figures):** Investing.com call transcript (93CH-4806146) + Benzinga transcript (60607302), pulled 7/22 eve, **cross-checked verbatim against each other** — key exchanges agree word-for-word modulo transcription-name noise ("Brannon Hamblen" ✓actual President vs "Brandon Hamblin"; UBS analyst = Timur Braziler ✓). Quartr unavailable (no subscription). GuruFocus + SeekingAlpha + Yahoo paywalled/403. Aggregator-skepticism carried from Stage-1: only quotes corroborated across BOTH transcripts are graded on.
+
+## OZK-08 = FALSE (stamped per Z8, after the full call) — Brier 0.0784
+
+**Mechanical application of frozen Z3:** fires iff a disclosed **credit-level specific reserve** matches ≥2 RaDD anchors. The call produced the OPPOSITE of a reserve disclosure:
+
+- **The RaDD anchors WERE on the table — analysts raised them by name** (so absence-of-topic is not doing the work): Piper Sandler (Skouton): *"as we obviously continue to move towards August on that IQHQ property… any color in terms of what you might expect next quarter… upon that maturity."* UBS (Braziler) follow-up: *"maybe one more on RaDD in San Diego."*
+- **Management's answer — extension intent, explicitly pass-rated, NO reserve:** Hamblen (President): *"we do have a maturity upcoming actually next month. We are engaged in conversations around the multi-year extension and recapitalization of that project with both the sponsor and the mezz lender engaged on that. Terms haven't been fully developed but we're pleased with the constructive nature of the conversations… hopefully in around 92 days we'll have more to report."* Gleason (CEO): *"cautiously optimistic about the outcome… every expectation that that will be a successful outcome and that will remain a pass-rated credit."*
+- Zero specific-reserve disclosure on any ≥2-anchor credit anywhere in the call. **OZK-08 = FALSE.** Brier (0.28)² = **0.0784** — the low prior was right: catalyst-vs-consequence separation held (pre-reserve ≪ Aug-resolution probability).
+
+## Brier scoreboard — FINAL (5 resolved)
+
+| Pred | Prob | Outcome | Brier |
+|---|---|---|---|
+| OZK-01 | 0.55 | FALSE | 0.3025 |
+| OZK-05 | 0.50 | TRUE | 0.2500 |
+| OZK-06 | 0.40 | FALSE | 0.1600 |
+| OZK-07★ | 0.55 | TRUE | 0.2025 |
+| OZK-08 | 0.28 | FALSE | 0.0784 |
+| **Mean (5 resolved)** | | | **0.1987** |
+
+*OZK-09 stays OPEN (Z10). OZK-02/03/04 unaffected (Q4'26/FY26 horizons).*
+
+## OZK-09 color (OPEN — Z10: intent language never resolves)
+
+- **Path signaled = Scenario-A-extend variant:** multi-year extension + **recapitalization**, sponsor AND **mezz lender** both engaged, terms NOT final. "Cautiously optimistic," expects pass-rated outcome.
+- **"~92 days we'll have more to report"** (Hamblen) → resolution disclosure expected at the **Q3 call (~late Oct)** — i.e., the Aug maturity itself will likely pass without a public resolution print. Consistent with v1.5 appraisal-gated/back-loaded recognition.
+- **Interest is being paid from pre-established interest reserves** (Gleason: *"interest on that credit… is being paid from reserves that were established for that purpose"*) — standard construction-loan mechanics, but at a maturity-extension juncture it means **no demonstrated sponsor cash service**; watch reserve exhaustion as the recap negotiates.
+- **Mezz-lender engagement is new public color** — the mezz position in the RaDD stack negotiating alongside sponsor equity (BROCK-relevant context; identity not disclosed on call).
+- **ZERO threshold moves tonight:** A/B/C/D weights (20/50/12/18) and OZK-09 prior 52% untouched. The extend-color argues A↑ — queue a Will-approved re-mark discussion for the next non-print session, per the same discipline as the 7/18 68%→52% re-mark.
+
+## THE PRE-REGISTERED QUESTION — SpecMention +$219M attribution: ANSWERED (generic churn claim; NOT fund-adjacent)
+
+**Gleason, both transcripts verbatim-consistent:** *"We did have an increase in our volume of special mention loans, [but] I wouldn't read too much into that. Loans come into special mention. Some of them become more severely rated and move into classified asset category. [But] a lot of loans come into special mention, extensions, recapitalizations get accomplished in the ordinary course of business, and they move back to pass rated credit."* Plus: *"Several of those loans that are in special mention were in really good discussions… that would result in those loans moving back to a pass status."*
+
+**Adjudication vs the frozen fork:**
+- **NOT attributed to note-assignment / debt-on-debt / fund-adjacent credits** → **BROCK flip-(a) and flip-(b) do NOT fire.** No route to BROCK.
+- Not attributed to any specific direct credit either → the +$219M **remains UNATTRIBUTED at the data level**; what changed is management overlaid a benign-churn CLAIM on it (base-rate argument, zero credit-level detail).
+- **Effect on the adverse-selection read (the Stage-2 question): LEAVES IT INTACT — arguably firms it at the margin.** The OZK-07 grade was mechanical off Figure 22 and stands. Management offered no data that breaks the conjunction (no "these are X credits that already resolved" specifics), only a downplay — and the downplay's own mechanism ("extensions, recapitalizations… move back to pass") is EXACTLY the deferral engine v1.5 describes: criticized inflow managed back to pass via extension rather than resolved via loss recognition. A benign claim we can test: **watch-add — SpecMention $616M reversal rate at Q3.** If mgmt's churn claim is right, a material chunk migrates back to pass by the Oct print; if it sits or migrates INTO classified, the adverse-selection read hardens.
+- Stays a **CREED-vs-FDIC convergence watch item** (unattributed criticized inflow at 1.9% of loans while ACL fell).
+
+## BROCK flip re-check — ALL 3 REMAIN NOT FIRED (Stage-1 + Stage-2 complete)
+
+| Flip | Tuesday (Stage-1) | Wed call (Stage-2) | Verdict |
+|---|---|---|---|
+| (a) 2nd note-assignment name → criticized/NA | not fired (4 c/o = direct RESG) | SpecMention build NOT attributed to note-assignment book | **NOT FIRED** |
+| (b) reserve build on debt-on-debt book | not fired (ACL fell $10.7M) | no reserve disclosure; provision guided DOWN | **NOT FIRED** |
+| (c) Claros / Affinius / SqMile commentary | absent | **absent — checked both transcripts explicitly: zero mention** of Claros, Affinius, Square Mile, note assignment, lender finance, debt-on-debt | **NOT FIRED** |
+
+**Debt-on-debt book stays idiosyncratic / DORMANT-watch.** No BROCK route note drafted (fire conditions not met). Nuance for BROCK's awareness (context, not a flip): the RaDD **mezz lender** is now actively negotiating the recap — first public confirmation the mezz layer is at the table.
+
+## RESG runoff guidance — CAPTURED
+
+- **Trailing:** *"$9.95 billion, almost $10 billion of that portfolio pay off over the last four quarters"* (Gleason).
+- **Forward:** RESG *"going to continue to shrink for the remainder of this year and into next year"*; repayments stay **elevated** through 2026 into 2027, tapering. **CIB (~$7B+) and RESG (~$15B+ funded) to equalize/cross "at some point" next year/2027** (Investing.com renders "next year," Benzinga "at some point in 2027" — same claim from a 2026 speaker; treat as **2027 crossover guidance**).
+- Thesis relevance: extends the OZK-07 denominator leg (RESG-down ~0.9 structural) through 2027 → the adverse-selection discriminator stays live at every remaining print; also mechanically supports OZK-04's ratio path (denominator shrink guided).
+
+## Also captured (context, not graded)
+
+- **Provision/NCO outlook (bull guidance, on record for Q3 accountability):** Hicks: provision *"less than what the consensus number was… you'll probably see that continue to drift down."* Gleason: *"cautiously optimistic about our ability to get back under the industry number for the year"* on NCO. Q2 NCO 0.69% is ABOVE the kill-line; mgmt is now on record guiding H2 down — direct testable tension with OZK-03 (FY26 ≥60bps, 55%).
+- **Seattle mechanics confirmed** (Hicks): prior-quarter ACL build on the two Seattle buildings → OREO this quarter with $22M office + $3.7M life-sci charge-offs; *"far along with resolution liquidation plans"* on OREO. Explains part of the ACL release optics (reserves consumed by transfer). CREED S3 stays 2 — unchanged from Stage-1.
+- **Deposit costs:** Gleason — CD specials ~10bps off the low; Q2 interest-bearing deposit cost *"probably an inflection point, and we go higher from there,"* modest increases forward. (ZION-cohort deposit watch → note to REGINALD hub in outbox line, INFO only.)
+- **Buyback:** ~$175M of the prior $200M authorization used; **new $200M authorization live for next four quarters**, usage *"dependent on our stock price"* (Hicks). [Sub-notes Oct-1 reprice: NOT discussed on call — either transcript.]
+- **$330M pending-sale substandard-NA credit: no call color** (checked both transcripts — NOT PRESENT). Carries as open watch-add.
+- **Tape context (NOT graded on):** OZK closed **$50.97 +0.37%** on call day 7/22 [PROME-provided]; PROME graded SIDE-PRED A1 CORRECT (their grade, not ours).
+
+*Stage-2 graded 2026-07-22 eve off cross-checked call transcripts. Q2 2026 print cycle CLOSED for grading: 5 resolved (mean Brier 0.1987), OZK-09 OPEN to Aug/Q3, OZK-02/03/04 riding. Next grading event: Q2 Call Report (~Aug 1-10, log-only, never re-grades per Z6) → Aug RaDD maturity window → Q3 print (~Oct).*

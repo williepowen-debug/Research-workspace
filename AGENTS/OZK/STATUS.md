@@ -1,7 +1,7 @@
 # OZK — Dashboard
 
-**Updated:** 2026-07-21 (**Q2 2026 STAGE-1 GRADE** off FDIC 8-K bundle FLNG 11969: OZK-07★ TRUE + OZK-05 TRUE → conviction HELD 🔴🔴; OZK-06/01 FALSE; mean Brier 0.229. OZK-08 PENDING-CALL, OZK-09 OPEN → Stage-2 Wed 7/22. Prior 7/20: firedrill Z1–Z10 addendum) | **Price:** $50.78 (−1.26%) [7/21 print-day close, live pull] | **TBV:** $47.15 [Q1'26] | **P/TBV:** ~1.08×
-**Thesis:** RESERVOIR v1.5 — **Q2 DIRECTIONALLY CONFIRMED** (adverse selection: classified $1,215M→$1,282M UP while RESG $27.8B→$25.7B DOWN; NCO 0.69% above kill; NPA 1.42%) | **Conviction:** 🔴🔴 HIGH | **KB:** 216 rows / 33 groups
+**Updated:** 2026-07-22 (**Q2 STAGE-2 GRADE** off cross-checked call transcripts: **OZK-08 FALSE** (no RaDD reserve; extend/recap negotiation, "remain pass-rated") → **Q2 cycle CLOSED, 5 resolved, mean Brier 0.1987**; OZK-09 OPEN w/ strong A-extend color ("~92 days" → Q3 call); SpecMention +$219M = generic-churn claim, BROCK 3/3 flips NOT fired. Prior 7/21: Stage-1 grade off FDIC FLNG 11969) | **Price:** $50.97 (+0.37%) [7/22 call-day close, PROME-provided] | **TBV:** $47.15 [Q1'26] | **P/TBV:** ~1.08×
+**Thesis:** RESERVOIR v1.5 — **Q2 DIRECTIONALLY CONFIRMED** (adverse selection: classified $1,215M→$1,282M UP while RESG $27.8B→$25.7B DOWN; NCO 0.69% above kill; NPA 1.42%) | **Conviction:** 🔴🔴 HIGH | **KB:** 217 rows / 33 groups
 **Short interest:** **14.7% of float** (14.91M sh, 6/30/26 FINRA), ~11.7 days-to-cover — structurally crowded (avg 15.1% / 12mo, peak 18.3%), re-building off a 4/30 low into the print. Squeeze risk if Jul-21 prints quiet. [standing field — refresh at settlement via Nasdaq API]
 **Next hard catalyst:** OZK **Q2 earnings Tue Jul 21, 2026** (call Jul 22) → dress rehearsal for **IQHQ RaDD maturity Aug 2026** (weighted EL $140M on $555M funded; recognition appraisal-gated/back-loaded — see §BOTTOM LINE)
 
@@ -28,9 +28,9 @@
 
 ---
 
-## Q2 2026 Snapshot — STAGE-1 GRADED 2026-07-21
+## Q2 2026 Snapshot — FULLY GRADED (Stage-1 7/21 filing + Stage-2 7/22 call)
 
-*Reported Jul 21 AMC; call Jul 22 8:30a. Primary: FDIC 8-K bundle FLNG 11969 (`raw/Q2_2026_8K_bundle.pdf`, byte-exact). Grade detail → `workbook/Q2_2026_SCORING_CARD.md` §STAGE-1 GRADE. Aggregators discarded (Investing.com $1.58 = prior-year Q2'25).*
+*Reported Jul 21 AMC (primary: FDIC 8-K bundle FLNG 11969, `raw/Q2_2026_8K_bundle.pdf`, byte-exact); call graded Jul 22 off cross-checked transcripts (Investing.com + Benzinga). Grade detail → `workbook/Q2_2026_SCORING_CARD.md` §STAGE-1/§STAGE-2 GRADE. Aggregators discarded at Stage-1 (Investing.com $1.58 = prior-year Q2'25).*
 
 | Metric | Q2 26 | vs Q1 | Read |
 |---|---|---|---|
@@ -44,7 +44,8 @@
 | Provision / ACL | $45.6M / $617.8M | ACL −$10.7M | c/o > provision |
 | RESG % of funded | 47.6% ($15.49B) | vs 52.1% | Runoff continuing, but classified rising alongside |
 
-**Verdict:** OZK-07★ TRUE (conviction-governing) + OZK-05 TRUE → **conviction HELD 🔴🔴**. Adverse-selection tell confirmed — RESERVOIR v1.5 directionally validated. Seattle U-District recognized as known workout (CREED S3 stays 2); debt-on-debt book quiet (BROCK 3/3 flip conditions NOT fired). **OZK-08 PENDING-CALL** (no IQHQ/San Diego/RaDD anchor Tuesday; $555M RaDD credit still pass-rated) — Stage-2 stamps Wed post-call.
+**Verdict:** OZK-07★ TRUE (conviction-governing) + OZK-05 TRUE → **conviction HELD 🔴🔴**. Adverse-selection tell confirmed — RESERVOIR v1.5 directionally validated. Seattle U-District recognized as known workout (CREED S3 stays 2); debt-on-debt book quiet (**BROCK 3/3 flips NOT fired — re-confirmed on the call**).
+**Stage-2 (7/22 call):** **OZK-08 FALSE** (Z8) — analysts raised IQHQ/RaDD BY NAME; mgmt: **multi-year extension + recap in negotiation, sponsor + mezz lender engaged, "will remain a pass-rated credit," "~92 days" to more disclosure (→ Q3 call)**; interest paid from pre-established interest reserves. **SpecMention +$219M:** Gleason downplayed as ordinary-course churn ("wouldn't read too much into that… extensions, recapitalizations… move back to pass") — NOT attributed to note-assignment/fund-adjacent → adverse-selection read INTACT (the downplay's mechanism IS the v1.5 deferral engine); watch-add = SpecMention $616M reversal rate at Q3. **RESG guidance:** ~$9.95B paid off trailing 4 qtrs; shrink continues through 2026-27; CIB/RESG crossover guided 2027. **NCO guidance (bull, on record):** "back under the industry number for the year"; provision to "drift down."
 
 **Tape reaction (card discipline #6 — fundamentals scored above, stock read separately):** print-day reg close **$50.78 (−1.26%)** [live pull]. Modest fade despite the EPS beat + "record" headline — the crowded 14.7%-float short did **NOT** squeeze on the beat. Read: market saw through the NIM/fee beat to the credit deterioration (NPA 1.42%, NCO 0.69%, foreclosed near-doubling). **The squeeze/beta question is not resolved tonight — it resolves at TOMORROW's close (SIDE-PRED A1's test, PROME grades, not OZK).** Grade stands on the filing regardless of tape.
 
@@ -87,15 +88,15 @@
 
 | Signal | Current [date] | Watch Level | Fires |
 |---|---|---|---|
-| OZK price | **$50.78 (−1.26%)** [7/21 print-day close] | <$45 / <$40 | Modest fade on quiet-credit-but-deteriorating print; NO squeeze on the beat yet — squeeze test = TMRW close (SIDE-PRED A1, PROME grades) |
+| OZK price | **$50.97 (+0.37%)** [7/22 call-day close, PROME-provided] | <$45 / <$40 | Flat through print+call — no squeeze, no break; PROME graded SIDE-PRED A1 CORRECT (their grade) |
 | Past-due loans | **$298M / 0.92%** [Q2] | >$550M or >2.0% | 🟢 OZK-06 FALSE — improved from $465M/1.41% |
 | NCO (ann.) | **0.69%** [Q2] | >80bps mid-year / **≤55bps kill** | 🔴 **OZK-05 TRUE — above kill-line** (was 0.56% Q1) |
 | Classified+criticized | **$1,282M** [Q2] | >$1.5B fires REGINALD/CREED | 🔴 rising ($1,215M→$1,282M); RESG $25.7B falling = adverse selection |
 | RaDD leased % | ~3.3% (JCVI 50K SF) | Any signing >100K SF | Scenario A probability up |
-| IQHQ specific reserve | **None Q2** [pending Wed call] | Any positive disclosure | OZK-08 PENDING-CALL; $555M RaDD still pass-rated |
+| IQHQ specific reserve | **None Q2 — OZK-08 FALSE** [7/22 call graded] | Any positive disclosure | Mgmt on-call: extend/recap in negotiation (sponsor + mezz lender), "remain pass-rated"; interest from interest reserves; "~92d" → Q3-call disclosure |
 | Sub notes reprice | Oct 1 2026 | Pre-reprice refi announcement | +$12.8M/yr · Tier 2 −20% |
 
-**⚑ Jul-21 reads — STAGE-1 GRADED 2026-07-21** (off FDIC 8-K bundle FLNG 11969) → `workbook/Q2_2026_SCORING_CARD.md` §STAGE-1 GRADE: **OZK-05 TRUE** (NCO 0.69%>55bps), **OZK-06 FALSE** (past-due $298M/0.92%), **OZK-07★ TRUE** (classified $1,282M UP + RESG $25.7B DOWN = adverse selection → conviction HELD 🔴🔴), **OZK-01 FALSE** (H1 NCO 0.63%). Mean Brier 0.229. **OZK-08 PENDING-CALL** (no IQHQ/San Diego/RaDD anchor Tuesday; Z8 stamps Wed) · **OZK-09 OPEN** (RaDD pass-rated; Z10 no early resolve).
+**⚑ Q2 print cycle FULLY GRADED** (Stage-1 7/21 off FDIC FLNG 11969; Stage-2 7/22 off cross-checked call transcripts) → `workbook/Q2_2026_SCORING_CARD.md`: **OZK-05 TRUE** (NCO 0.69%>55bps) · **OZK-06 FALSE** ($298M/0.92%) · **OZK-07★ TRUE** (adverse selection → conviction HELD 🔴🔴) · **OZK-01 FALSE** (H1 0.63%) · **OZK-08 FALSE** (no RaDD reserve; Z8 stamped post-call). **Mean Brier 0.1987 (5 resolved).** **OZK-09 OPEN** (Z10) — A-extend color strengthened (recap negotiation, mezz lender engaged), weights NOT moved; re-mark discussion queued for next non-print session (Will).
 
 **Cross-feed (ref only, [[REGINALD]] owns — PROME-confirmed values 7/20):** KRE **$76.69** [7/20 pre-mkt live] · HY OAS **271bps** [FRED 7/16] · Brent **$88.10** [BZ=F 7/17 settle, first-ever >$85; ~$88.3 live 7/20 pre-mkt] — 🔴 **energy regime RE-INFLATED: formal Hormuz closure 7/11-12 killed the prior "energy deflated / bank macro-tailwind" read; the BZ=F settle series (cite w/ date) is fleet canon.** Credit still tight (OAS 271, modestly easing off 278); KRE firm near highs.
 
@@ -105,9 +106,10 @@
 
 | Date | Event | Thesis Impact |
 |---|---|---|
-| **★ Tue Jul 21, 2026** | **OZK Q2 2026 earnings** (call Jul 22 8:30am ET) | Dress rehearsal for Aug IQHQ. Watch: Q2 specific reserve on RaDD >$100M = Scenario B early; RESG classified trajectory; sponsor-support language |
 | **Late Jul** | Campus at Horton post-foreclosure leasing | Downtown-SD lab comp — still-empty = RaDD severity 65-70% holds |
-| **Aug 2026** | **IQHQ RaDD maturity** ⚠️ (Aug 2026 **re-confirmed from Q1 transcript primary 7/4**) | 4-scenario tree — A-extend 20% / **B-migration 50%** / C-takeout 12% / **D-foreclosure 18%**. `IQHQ_PLAYBOOK.md` |
+| **~Aug 1-10** | Q2 Call Report (FFIEC) | Log-only vs supplement basis (Z6 — never re-grades); CRE-specific NCO for OZK-01 archive note |
+| **Aug 2026** | **IQHQ RaDD maturity** ⚠️ — mgmt 7/22 call: **multi-year extension + recap in negotiation** (sponsor + mezz lender), terms not final; expects pass-rated outcome; **"~92 days" → resolution disclosure at Q3 call, likely no Aug print** | 4-scenario tree — A-extend 20% / **B-migration 50%** / C-takeout 12% / **D-foreclosure 18%** (weights unchanged 7/22; A-color up, re-mark queued w/ Will). `IQHQ_PLAYBOOK.md` |
+| **~Oct 2026** | **Q3 earnings + call** — mgmt's self-set "92-day" RaDD report-back; SpecMention $616M reversal-rate test; NCO "back under industry" guidance test | Next grading window |
 | **Oct 1, 2026** | $350M sub notes reprice (2.75% → SOFR+209) | +$12.8M/yr interest · Tier 2 −20% for 12mo · ~$0.09 EPS drag |
 | **Oct 2026** | Affinius Capital $2.7B bond maturity | Corporate exposure still unverified, **but asset-level co-lending CONFIRMED 7/6**: OZK holds $95M of the Affinius/Square-Mile-originated 777 Industrial note (as-market underwater per Atrium) + SqMile junior under OZK's Southline senior [KB-203]. `PRIVATE_CREDIT/` |
 
@@ -134,4 +136,4 @@
 
 ## BOTTOM LINE
 
-RESERVOIR v1.5 intact and directionally confirmed: RESG stress is accumulating into the **Aug 2026 IQHQ RaDD maturity** (weighted EL $140M as an *ultimate* loss). **Key 7/18 refinement — recognition is appraisal-gated and back-loaded:** the Q1'26 10-Q shows OZK marks collateral-dependent loans to appraisal ($250M nonaccrual at $0 reserve), so the big IQHQ loss grinds through OREO over Q3/Q4→2027, NOT as a single Aug print; a Scenario-B migration can book ~$0 initial reserve (OZK-09 re-marked 68%→52%). **The Q2 print (Jul 21) likely prints quiet** — the tell is the **classified-vs-RESG-balance discriminator** (OZK-07: classified rising while RESG shrinks = adverse-selection, thesis holds; both falling = de-risking bull case gains, step conviction down). NCO 0.57% [10-Q] sits **above the ≤55bps kill-line.** **Two live near-term cautions:** (1) chief bull risk = RESG-runoff "de-risking" (Street low-60s, C7); (2) OZK is a **beta/range name into a crowded short (14.7% float)** — a quiet Jul-21 risks a squeeze, and NDFI-contagion regime (Oct'25-style) can move the stock ahead of own-credit (C8). **This is an H2-2026→2027 recognition story — patience/duration over near-term downside. Conviction 🔴🔴 HIGH. Next hard read: Jul 21 earnings (expect quiet).**
+RESERVOIR v1.5 intact and **Q2-VALIDATED (both stages graded 7/21-22, mean Brier 0.1987):** the adverse-selection tell fired exactly as pre-registered — classified+criticized UP $1,215M→$1,282M while RESG shrank $27.8B→$25.7B, NCO 0.69% above the ≤55bps kill-line, NPA 1.42%, foreclosed $293M. The EPS beat was NIM/fee-driven; the credit reservoir filled underneath. **The call (7/22) confirmed the deferral engine live:** RaDD gets a **multi-year extension + recap** (in negotiation, mezz lender engaged, "remain pass-rated"), interest paid from interest reserves, resolution disclosure pushed to the Q3 call ("~92 days") — i.e., **Aug will likely pass without a recognition print**, exactly the appraisal-gated/back-loaded path v1.5 predicts. SpecMention +$219M downplayed as churn ("extensions, recapitalizations… move back to pass") — that mechanism IS the deferral engine; Q3 tests the claim (reversal rate). **Cautions:** (1) mgmt is now on record guiding NCO "back under industry" for FY26 + provision drift-down — if H2 NCO retreats ≤55bps the kill-line question re-opens honestly; (2) A-extend color strengthened → OZK-09 (52%) re-mark discussion queued with Will; (3) still a **beta/range name into a 14.7%-float crowded short** (C8) — tape stayed flat through print+call. **H2-2026→2027 recognition story — patience/duration. Conviction 🔴🔴 HIGH. Next reads: Q2 Call Report (~Aug, log-only) → Aug maturity window → Q3 print/call (~Oct, the self-set "92-day" report-back).**
