@@ -3,8 +3,14 @@
 **Status:** 🟠 ELEVATED — thesis split holds and WIDENED 7/21: blended statewide thermometers improved (condo +1.7% YoY flip, 8.1mo; UR 4.7% first decline since 2024; CCBG benign) while concentrated-distress legs stay red/armed (FL #1 H1 foreclosure; vintage $313/sf −9%; **Parcl MSI tripwire ARMED**; ZHVI first cycle low). Bank-loss transmission not in prints; Q2 window LIVE this week.
 **Domain:** Whole-Florida stress surface — condo/SF/CRE real estate, insurance, FL banks, migration/tourism, state fiscal/property-tax, labor/construction, coastal/climate
 **Thesis version:** Coral Bleaching v1.0 — installed rails at `thesis/THESIS.md`; changelog `thesis/CHANGELOG.md`
-**As of:** 2026-07-21 ~23:15 ET | STATUS commit: 6e803162 (7/21 EVE full live refresh — all 10 pillars re-pulled, Will-directed). Prior same-day: FL-employment pre-reg grade (~10:05). See 7/21 EVE + 7/21 + 7/17 UPDATEs below.
+**As of:** 2026-07-22 ~22:45 ET | STATUS commit: 48cb7d34 (7/22 EVE BKU Q2 pre-reg grade). Prior: 6e803162 (7/21 EVE full live refresh). See 7/22 + 7/21 EVE UPDATEs below.
 **Cluster:** FL regional-bank CRE/condo leg of the transmission-terminus cluster (REGINALD hub, CARL consumer). Leg grid → `CLUSTER_FL_BANK_LEG.md`.
+
+---
+
+## 7/22 UPDATE (BKU Q2 pre-reg grade — no thesis-level change, no rail move)
+
+Graded BKU Q2 (leg 2 of the FL-bank synchronization test) on the frozen 7/21 4-axis frame. **BENIGN — 1-of-4 axes deteriorating (bar ≥3): NCO 11bps ann. vs 61bps Q1; provision $15.1M vs $25.1M Q1, no named FL-RE reserve; ACL 0.87%→0.91% (+4bps = the one mechanical deteriorating axis, but built INTO improving asset quality — ACL/NPL 75.9%→97.1%); NPLs −19% QoQ/−40% YoY with criticized/classified CRE −14% QoQ.** Primary: 8-K ex-99.1, EDGAR acc. 0001504008-26-000076. **Sync count stays 0-of-≥2** — BKU is the second anti-datum (with CCBG); three independent FL surfaces benign in 48h (CCBG credit + June labor + BKU credit). **For REGINALD:** the −4.43% tape ($45.94) was the earnings line (EPS $0.97 vs ~$1.00–1.03 cons, revenue miss, expense creep), NOT credit — do not read the BKU sell-off as an FL-credit signal. No condo-association disclosure; no FL-RE thesis touch. **Gate day 7/23 next** (VLY BMO; SSB/AMTB/USCB AMC): the ≥2 bar now needs ≥2 deteriorating among the remaining 5 names (incl. SBCF 7/28). Rail unchanged; no state change without PROME/Will.
 
 ---
 
