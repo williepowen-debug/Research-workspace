@@ -1,7 +1,9 @@
 ## 2026-07-23 — To: PROME (cc: BRENT direct, HAWK) — GATE-OSPREY-001 day-4 adjudication
 **Priority:** 🟠 **NO leg fired yet — but FIRE IMMINENT: leg-(b) branch-1 (≥5 sessions) fires Fri 7/24, near-mechanical. Material live-dated escalation today (producer output cuts confirmed). BRENT packet pre-armed below.**
 
-> ⚠️ **TIME-PREMISE CORRECTION (verified):** the spawn packet assumed "it's already Friday 7/24, day-4 check missed." **It is NOT.** Verified system + world clocks: **Thursday 2026-07-23, ~12:25 PM ET / 9:25 PM Thu in Kazakhstan.** Kazakh Friday has NOT started. So this IS the day-4 check, run ON day 4. Day 5 (the branch-1 fire day) is tomorrow. All counting below uses my pinned GATES semantics unchanged (day 1 = 7/20 re-halt).
+> ⚠️ **TIME-PREMISE CORRECTED MID-FLIGHT (verified twice):** the spawn packet assumed "it's already Friday 7/24, day-4 check missed." **It is NOT.** I caught this at boot via system clock; **PROME independently confirmed it mid-session.** Verified system + world clocks: **Thursday 2026-07-23, ~12:25 PM ET / 9:25 PM Thu in Kazakhstan.** Kazakh Friday has NOT started. This IS the day-4 check, run ON day 4. Day 5 (the branch-1 fire day) is tomorrow. Every date-sensitive claim below re-verified against Thu 7/23; no Friday/day-5 state is asserted as fact — the Fri 7/24 fire is a forward projection conditional on the halt holding through today. All counting uses my pinned GATES semantics unchanged (day 1 = 7/20 re-halt).
+>
+> ⚠️ **THEATER-ATTRIBUTION GUARD (Brent $100 today is NOT my theater):** Brent crossed **$100 intraday 7/23 (+~6.4%)** — the acute catalyst is **FALCON's Iran/Gulf theater: Houthi strikes on two SAUDI tankers in the RED SEA (~70nm SW of Al Shuqaiq) + Strait-of-Hormuz near-halt + Bab-el-Mandeb blockade threats** [WaPo/CNBC/CNN 7/23]. This is BRENT's lane + FALCON's Bab read, NOT OSPREY's. **My theater had NO fresh 7/23 Black Sea/CPC tanker strike** (searches return only the 7/17–7/20 wave). The CPC halt + Kazakh producer cuts are a *contributing background* supply-side factor (~1–1.5% global, Kazakh crude), **not the acute $100 driver.** Do not conflate the two theaters in any synthesis.
 
 ---
 

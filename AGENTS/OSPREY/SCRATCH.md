@@ -5,7 +5,10 @@
 ---
 
 ## ⚠️ TIME NOTE (verify next boot too)
-Spawn packet assumed "Fri 7/24, day-4 check missed." **FALSE** — verified clocks: **Thu 2026-07-23, ~12:25 PM ET / 9:25 PM Thu Kazakhstan.** This WAS the day-4 check, run ON day 4. Day 5 (branch-1 fire day) = Fri 7/24. Always `date` at boot.
+Spawn packet assumed "Fri 7/24, day-4 check missed." **FALSE** — verified clocks: **Thu 2026-07-23, ~12:25 PM ET / 9:25 PM Thu Kazakhstan.** Caught at boot; **PROME independently confirmed mid-session** (correction acknowledged in outbox). This WAS the day-4 check, run ON day 4. Day 5 (branch-1 fire day) = Fri 7/24 (forward projection, not asserted as fact). Always `date` at boot.
+
+## ⚠️ THEATER-ATTRIBUTION (7/23) — Brent $100 is NOT ours
+Brent crossed $100 intraday 7/23 (+~6.4%) — acute catalyst = **FALCON's theater** (Houthi strikes on Saudi tankers in RED SEA + Hormuz near-halt + Bab-el-Mandeb threats [WaPo/CNBC/CNN 7/23]). BRENT asked FALCON for a fresh Bab read. **No fresh 7/23 Black Sea/CPC strike in my lane** (only 7/17-20 wave). CPC halt + producer cuts = contributing background (~1-1.5% global, Kazakh), NOT the acute driver. Don't conflate theaters; oil price = BRENT's lane.
 
 ## CURRENT MARKS (one line)
 - Channels: refineries/products **4 🔴** (band 25-35%) · crude-export terminals **3 🟠 — GATE-OSPREY-001 DAY 4-of-5, NO leg fired, branch-1 fires Fri 7/24 near-mechanical** · shadow-fleet tankers **3 🟠** (OSP-01 65%, unfired) · Brent ref [defer to BRENT].
