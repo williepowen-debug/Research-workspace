@@ -1,4 +1,4 @@
-# BRENT SCRATCH — Thu Jul 23, 2026 ~12:45 PM ET (CLOSED OUT — boot · $100 sit-rep · STATUS/TRADE/NEXUS write-back · tail-rider pivot · FALCON ask)
+# BRENT SCRATCH — Thu Jul 23, 2026 ~4:30 PM ET (CLOSED OUT EOD — boot · $100 sit-rep · full write-back · freshness audit · tail-rider pivot→NOT filled, carry to 7/24 · FALCON ask)
 
 **Purpose:** Ephemeral session handoff — canonical "where are we / what next". Read at boot (step 2), rewritten at closeout (step 11).
 
