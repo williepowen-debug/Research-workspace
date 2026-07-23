@@ -30,3 +30,5 @@
 
 ## Git / repo state
 Clean + synced 0/0 at closeout start; PROME commits today: GATES day-4 + fire updates, BRENT/ZHAO/WALTER/SAM/HENRY/CARL/HAWK routing notes, HEARTBEAT amendment #4 + banked settle (Will-approved), closeout batch. All spawn deliveries disk-verified vs commits before acceptance (CORAL ×5 · OSPREY ×3 · MIDAS ×3 · FALCON ×3). Pathspec throughout; zero index races across up to 9 concurrent writers. safe-push at closeout tail.
+
+**LATE ADDENDUM (~EOD, Will pre-departure):** firetime now rc=1 with **11 flags = the 8 known OTTO** (unchanged; pre-7/28 spawn packet in its inbox remediates) **+ 3 NEW on `AGENTS/LABOR/NEXUS_BRIEF.md`** (9/4, 9/5, 9/10 — appeared with today's LABOR-window re-pin; likely real Sept events needing DOCKET rows [9/4 = Aug-NFP Fri, 9/10 = claims Thu] rather than errors, but rule holds: **full logic re-read of the brief at next boot, never find-replace**; LABOR owns the file, PROME owns any docket adds). Dashboard CRIT chip = these, fail-loud by design; no ≤7d gate logic rests on the drifted dates. Dashboard republished post-BRENT-EOD; USO tail-rider NOT FILLED per BRENT EOD commit (pending item closed).
