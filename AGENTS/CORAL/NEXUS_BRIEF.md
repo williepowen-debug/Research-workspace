@@ -3,7 +3,7 @@
 **Status:** 🟠 ELEVATED — thesis split holds: blended statewide thermometers improved (condo +1.7% YoY flip, 8.1mo; UR 4.7% first decline since 2024; CCBG/BKU/VLY bank credit all benign) while concentrated-distress legs stay red/armed (FL #1 H1 foreclosure; vintage $313/sf −9%; **🔴 Parcl MSI supply-side price-discovery leg FIRED (Will-ratified 7/23) — cash capitulation-clearing marking SW-FL collateral down; SCOPED to that leg, bank rail untouched**; ZHVI first cycle low). Bank-loss transmission still not in prints; **Q2 gate day only ¼ resolved (VLY graded benign; SSB/AMTB/USCB report AMC 7/23); sync 0-of-≥2.**
 **Domain:** Whole-Florida stress surface — condo/SF/CRE real estate, insurance, FL banks, migration/tourism, state fiscal/property-tax, labor/construction, coastal/climate
 **Thesis version:** Coral Bleaching v1.0 — installed rails at `thesis/THESIS.md`; changelog `thesis/CHANGELOG.md`
-**As of:** 2026-07-23 ~1:40PM ET | STATUS commit: 13768ce9 (🔴 MSI supply-side leg RATIFIED-FIRED + gate-day partial + pre-AMC window). Prior: 48cb7d34 (7/22 BKU grade); 6e803162 (7/21 EVE refresh). See 7/23 + 7/22 UPDATEs below.
+**As of:** 2026-07-23 ~2:00PM ET | STATUS commit: 4d0c46bd (🔴 MSI supply-side leg RATIFIED-FIRED + gate-day partial + pre-AMC window + BOTTOM LINE + data-hygiene sweep). Prior: 48cb7d34 (7/22 BKU grade); 6e803162 (7/21 EVE refresh). See 7/23 + 7/22 UPDATEs below.
 **Cluster:** FL regional-bank CRE/condo leg of the transmission-terminus cluster (REGINALD hub, CARL consumer). Leg grid → `CLUSTER_FL_BANK_LEG.md`.
 
 ---
