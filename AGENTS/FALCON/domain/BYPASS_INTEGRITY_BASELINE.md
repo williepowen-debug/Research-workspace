@@ -50,12 +50,15 @@ Monthly `export_tanker` (t/day avg), Mar→Jul 2026:
 
 **Read:** the bypass is **absorbing diverted Gulf crude, not breaking** — a direct quantitative confirmation of the "premium, not supply-loss" thesis and of the Bloomberg 7/16 / Vortexa "restoring existing Gulf flows" language, now with a number instead of a quote. **Zero evidence of the shuttle-trade breakage that would flip D toward 75.**
 
+> ### 🔄 2026-07-23 REFRESH (hygiene sweep; newest data 7/17) — verdict UNCHANGED (HOLDING)
+> Re-run `bypass_watch.py` 2026-07-23 (newest PortWatch print 7/17, 6d old): **PRIMARY combined (Fujairah+Sohar) trailing-14d = 69,793 t/day vs a 16,224 t/day collapse floor → HOLDING.** Breakdown: **Fujairah 44,493 t/d vs 28,061 60d-base (≈1.6×, cooled from the ~2× early-July HOT read but still above base, floor 8,418); Sohar 25,300 t/d vs 26,018 base (floor 7,805); Sharjah 934 (context).** No approach to floor; bypass still absorbing. *(Prior 7/18 read, newest-data-7/10, was combined 74,593 vs floor 15,684 — the ~7% dip is normal lumpiness, not a break. Threshold METHOD unchanged: 30% of trailing-60d mean; the floor drifts with the rolling base.)*
+
 ---
 
 ## 4. Threshold (FLAG-NOT-FIRE, disposition is FALCON's)
 
 - **Metric:** combined PRIMARY (Fujairah+Sohar) trailing-14d mean t/day.
-- **Collapse floor:** **30% of the trailing-60d daily mean** (currently ≈15,684 t/day combined). Below floor = `rc 1` REVIEW.
+- **Collapse floor:** **30% of the trailing-60d daily mean** (rolling; ≈15,684 t/day combined as-of 7/10-data, ≈16,224 as-of 7/17-data — see §3 refresh). Below floor = `rc 1` REVIEW.
 - **Why a trailing window, not daily:** `export_tanker` is lumpy per-departure (median 0 even at busy terminals) — a daily-zero test is noise. The 14d sum smooths it.
 - **Why 30%:** deliberately conservative — a *genuine* bypass break (STS shut down / hubs interdicted) would drive throughput toward zero, not to 40–60% of normal. A shallow dip is ops/weather noise, not a supply event. Tune with more history; flagged as FALCON's disposition, not an auto-fire.
 - **The DECISIVE conjunction (this is the actual signal, not the raw number):** `bypass COLLAPSED` **AND** `Hormuz transits still collapsed` (`hormuz_transit_watch.py` sub-18) = barrels genuinely not moving = **premium→supply-loss transmission → D toward 75, and FAL-01's "zero lost barrels" anchor breaks.** Either alone is not the signal (a bypass dip with transits recovering = flow just re-routing back through the strait).

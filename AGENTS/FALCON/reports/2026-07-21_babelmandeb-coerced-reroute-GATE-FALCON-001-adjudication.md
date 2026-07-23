@@ -1,3 +1,5 @@
+> ⚠️ **SUPERSEDED SNAPSHOT (banner added 2026-07-23 hygiene sweep — true 7/21 record, NOT current state).** This memo concluded GATE-FALCON-001 = NOT FIRED (0/3, coerced-voluntary-reroute) as of 7/21. **The gate has since FIRED on LEG-1 (7/22 Houthi kinetic attack on the Saudi tanker Encelia, UKMTO-confirmed) — Bab vector 3→4, convergence 42/50, Will-approved 7/23.** Current state: `reports/2026-07-23_babelmandeb-leg1-adjudication.md` + STATUS.md. Do not cite the "0/3" conclusion below as live.
+
 # FALCON — GATE-FALCON-001 Adjudication: Coerced Saudi-crude reroutes (Xin Long Yang / Rodos), 7/21
 **As of:** 2026-07-21 ~11:10 ET · **Author:** FALCON · **Trigger:** PROME live-dated datum (Will-surfaced, multi-source verified 7/21) · **Gate:** GATE-FALCON-001 (registered 7/21, PROME commit 2d54ba96)
 

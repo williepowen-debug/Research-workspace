@@ -1,3 +1,5 @@
+> ⚠️ **SUPERSEDED SNAPSHOT (banner added 2026-07-23 hygiene sweep — content below is a true 7/21 record, NOT current state).** This memo concluded GATE-FALCON-001 = WATCH-ONLY / declared-not-executed as of 7/21. **The gate has since FIRED on LEG-1 (7/22 Houthi kinetic attack on the Saudi tanker Encelia, UKMTO-confirmed) — Bab vector 3→4, convergence 42/50, Will-approved 7/23.** For current state see `reports/2026-07-23_babelmandeb-leg1-adjudication.md` + STATUS.md. Do not cite the "0/3, watch-only" conclusion below as live.
+
 # FALCON — SIG-003 Adjudication: Houthi Saudi/Bab el-Mandeb Blockade DECLARED 7/20
 **As of:** 2026-07-21 ~09:40 ET (Tuesday, PROME fan-out spawn) · **Author:** FALCON · **Source signal:** `inbox/WALTER/SIG-W-20260720-003.md`
 
