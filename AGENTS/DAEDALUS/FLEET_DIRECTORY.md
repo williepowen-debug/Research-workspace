@@ -17,7 +17,7 @@
 | RED | Utility | L4 | Adversarial red-team | Optional label polish + YEYOU-clean -> L5 |
 | HENRY | Market | L4 | Macro velocity / market trends | §2 handle table (the single named blocker) |
 | CARL | Market | L4 | Consumer & credit-transmission macro | L5: consistency_check Phases B/C |
-| LABOR | Market | L4 | Labor market (claims / JOLTS / NFP) | L5 ratify (YEYOU leg WAIVED-while-dormant, Will 7/22): clean-closeout c… |
+| LABOR | Market | L4 | Labor market (claims / JOLTS / NFP) | PROMOTE-ON-VERIFY L4->L5, single condition: NEXUS_BRIEF re-pinned at ne… |
 | BROCK | Market | L4 | Private credit / BDC / non-traded credit | L4->L5: TRADE.md freeze-or-refresh (packet in BROCK inbox 7/22) |
 | HAWK | Market | L4 | Geopolitical synthesis (cross-war reconciliation, oil-decoupling thesis, war-risk/shipping) + dormant book (Taiwan/Venezuela/trade/chokepoints/defense/sanctions) — theaters split out 7/12††† | If no real synthesis pass by FAL-01/OSP-01 resolution week (~8/1) or ne… |
 | TERRY | Utility | L4 | Trade construction / risk scoring | L5: one full cycle w/ gate-grader discipline holding (no surface carrie… |
