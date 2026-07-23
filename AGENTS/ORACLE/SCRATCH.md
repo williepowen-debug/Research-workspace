@@ -1,7 +1,12 @@
 # ORACLE — SCRATCH (canonical session handoff)
 
-**Session arc:** 2026-07-22 (Wed ~11:41 ET) — Will-directed boot. Live pull both platforms + derived spread → **the regime-flip tripwire pre-registered 7/17 TRIPPED (the signal way)**: disruption-supply spread collapsed +40.5→+30.8pp entirely via the WTI supply leg rising; WTI-$100 crossed the >15% supply-loss threshold. Fed re-armed hawkish in parallel. Full STATUS/NEXUS_BRIEF/KB rewrite + 2 🔴 outbox routes → pushed (push-train swept 5 commits after Will cleared the BRENT-commit concern). **THEN Will-directed FULL FILE-SWEEP** (batch A–E): cleaned 8 dead watchlist pins, rolled 5 Kalshi June→July, refreshed VX.tsv + owed threshold state-changes, corrected credit-downgrade level (KB-ORC-045), refreshed TRADE.md, de-rotted CLAUDE.md matrix, regen'd HISTORY.tsv, archived 2 stale outbox signals. See MAINTENANCE.md 7/22 entry.
-**Last updated:** 2026-07-22 (session-end, post-sweep)
+**Session arc:** 2026-07-22 (Wed, ~11:41 ET → PM) — a long multi-phase Will-directed session:
+1. **Boot + regime-flip:** live pull both platforms → the 7/17 pre-registered tripwire TRIPPED (disruption-supply spread +40.5→+30.8pp via the WTI leg; WTI-$100 crossed >15%); Fed re-armed hawkish. STATUS/NEXUS/KB + 2 🔴 routes → pushed (push-train swept 5 commits).
+2. **Full file-sweep (A–E):** 8 dead watchlist pins cleaned, 5 Kalshi June→July rolls, VX refresh + owed threshold state-changes, credit-downgrade correction (KB-ORC-045), TRADE.md refresh, CLAUDE.md matrix de-rot, HISTORY.tsv regen, 2 stale outbox archived.
+3. **Fed >66% trigger FIRED intraday** (64.5→66.5%, same day flagged) — documented VX-ORC-08 + KB-ORC-046 + STATUS/NEXUS + LIQUID/HENRY route follow-up.
+4. **CLARITY Act** (Will-flagged) — crypto market-structure bill, pinned (37%, −10pp, →BROCK) + KB-ORC-047; root-caused why it was missed.
+5. **Built `coverage` subcommand** (inverse of `movers` — the discovery-blind-spot fix) + first run + Will-approved pins (Iranian-regime-fall, Venezuela-Delcy →BRENT/HAWK) + KB-ORC-048; memory promoted (finding_magnitude_ranked_discovery_blind_to_deep_slow).
+**Last updated:** 2026-07-22 (session-end, full closeout)
 
 ## CHANGES SINCE (what moved, 7/17 → 7/22)
 - **🔴 REGIME-FLIP TRIPWIRE TRIPPED.** Disruption-supply spread **+40.5pp → +30.8pp** — collapsed *entirely via the SUPPLY leg*: WTI-$100-war-premium **7.5%→17.8%** (Δ1d +9.2, Δ7d +11.4, deep $672K vol), crossing the pre-set >15% "crowd flips to supply-loss pricing" line. Disruption leg dead flat (Hormuz-normal 51.5% both dates = 48.5% disr). Crowd pricing lost barrels, not just premium (KB-ORC-042).
@@ -35,7 +40,7 @@
 10. **Coverage pins added 7/22 (Will-approved):** Iranian-regime-fall-2027 (10.5%, deep) + Venezuela-Delcy-out-Dec31 (9.5%, oil-relevant) — both routed BRENT/HAWK (`outbox/...coverage-sweep-iran-venezuela.md`); watch for BRENT's reply on whether a better Venezuela market fits their basis.
 
 ## CARRY-FORWARD
-- **Push state: DEFERRED.** Committed local this session; did NOT push and did NOT pull — foreign uncommitted changes in DAEDALUS + FALCON dirs at session start (protecting their work per root "Before pulling"). Push next clean session or when Will clears the tree. Unpushed hashes: *(see git log after commit)*.
+- **Push state: ALL PUSHED (clean).** The morning's deferral was resolved once Will cleared the BRENT-commit concern; everything since pushed at each phase via safe-push (ff). Session commits landed: regime-flip → file-sweep (ed584f36) → Fed-trigger (56f00f3c) → CLARITY (9bc564bf) → coverage-build (031b0524) → coverage-pins (a24adc71). Only foreign `FALCON/hormuz_transit_watch_state.json` remains uncommitted in the tree (theirs, untouched throughout).
 - **Watchlists:** Polymarket ~36 live rows (unchanged from 7/17 net; some daily events show ⛔ false-resolved — LIVE, don't re-pin); Kalshi 12 unchanged. Kalshi creds present, unchanged.
 - **Files this session:** `workbook/KB.tsv` (+3, KB-ORC-042..044), `STATUS.md` (rewrite), `NEXUS_BRIEF.md` (rewrite), `workbook/ODDS_LOG.tsv` (+36), `workbook/KALSHI_ODDS_LOG.tsv` (+12), `workbook/DISRUPTION_SUPPLY_SPREAD.tsv` (+1 row, +30.8pp), `outbox/` (+2 new), `SCRATCH.md` (this).
 - **Did NOT touch:** VX.tsv (no clean threshold state-change beyond STATUS alerts — WTI-$100 >15% and hike-2026-near-66% are candidates; deferred, log next session if they hold), MAINTENANCE.md (no structural change this session — pure data), TRADE.md, MEMORY.md, HISTORY.tsv (trajectory didn't need a rewrite; consider `history --write` next session given the WTI move).
