@@ -27,7 +27,7 @@ PROME-spawned FL GATE-DAY grade. **Two headline outcomes:**
 
 ## NEXT SESSION (mechanical, in order)
 
-1. **RE-RUN GATE DAY (tonight AMC / tomorrow calls):** grade SSB + AMTB + USCB off their Q2 8-K ex-99.1 (EDGAR, once filed). USCB = closest read (condo-assoc $126M/470+; new CCO Garrido first print). Transcript-mine USCB/SSB/AMTB + VLY(7/23)/BPOP calls for HOA/association color (ML-CORAL-046). Sync bar still ≥2 among SSB/AMTB/USCB/SBCF.
+1. ✅ **GATE DAY RE-RUN DONE 7/23 4:15PM — BENIGN.** AMTB (1-of-4) + USCB (0-of-4) both graded BENIGN off primary ex-99.1 (accs 0001734342-26-000071 / 0001562762-26-000082). USCB condo-assoc wire CLEAN (Garrido 1st print, zero assoc disclosure); AMTB thin-coverage IMPROVED ~45%→~50%. **Sync stays 0-of-≥2; ≥2 bar did NOT fire** (now needs BOTH {SSB, SBCF-7/28}). KB ML-CORAL-051; outbox amc-gateday-grade. ⏳ **SSB STILL PENDING** — not on EDGAR by 4:15PM (latest 8-K 7/13 officer-change); grade when Q2 8-K files (watch item 2.02). Transcript-mine USCB/SSB/AMTB + VLY/BPOP calls for HOA color 7/24 post-9AM-calls (ML-CORAL-046).
 2. ✅ **MSI 🟠→🔴 fire — WILL-RATIFIED + APPLIED 7/23** (all surfaces swept; see CHANGES #3). Leg is now 🔴; bank rail stays 0-of-≥2.
 3. **7/28:** SBCF grade (nonaccrual 3rd-rise tell); Ocala June UR (BLS 7/29); Amendment-3 hearing 7/29 (pre-reg ML-CORAL-042).
 4. Carried unchanged: BKU 10-Q "higher specific reserves" segment check; Bertha dissipation; SIRS 12/31/26 statute verify; CCBG $0.2M-vs-$0.9M provision conflict; HO-premium reconcile; FL Realtors county cash-share build.
