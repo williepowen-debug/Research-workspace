@@ -102,20 +102,35 @@ def file_time(path):
 # (not bare "stale"/"vintage") to avoid exempting a genuinely-rotten file.
 STATIC_BANNER_MARKERS = ["FROZEN", "RETIRED", "NOT CURRENT", "DO NOT CITE", "NOT MAINTAINED", "ARCHIVED"]
 
-# Recognizer hardening 2026-07-22 (DAEDALUS AEOLUS QC, Will-approved — PAT-035
-# sub-case: rule-CITATION prose is not a banner). Two guards:
-#  1. An explicit "Status: LIVE" declaration in the header overrides any marker —
-#     a live surface QUOTING the hygiene rule ("refresh-or-FROZEN, never
-#     silent-rot") was being classified FROZEN, permanently silencing enforcement
-#     on exactly the surface the rule targets (AEOLUS TRADE.md, live since 7/9).
-#  2. Markers glued into a hyphenated compound ("refresh-or-FROZEN") don't count;
-#     real banners lead with the bare marker ("FROZEN 2026-07-04 — ...").
-# Validated 2026-07-22: fleet --all/--trade --all output identical except TWO
-# false-FROZENs flip to tracked — AEOLUS TRADE.md (rule-citation prose) and
-# REGINALD PREDICTIONS.tsv (a row's "FROZEN-PENDING" status value in the first
-# 6 lines was read as a file banner; hyphen-guard now rejects it).
+# Recognizer hardening 2026-07-22 (DAEDALUS AEOLUS+LABOR QCs, Will-approved —
+# PAT-035/PAT-059: a dead-banner is a FORM, not a keyword). Ground truth from a
+# fleet-wide header survey of every marker hit (34 files): every GENUINE banner
+# front-loads its marker at column ≤31 of its line ("# FROZEN 2026-07-01 — …",
+# "⛔ RETIRED", "⚠️ FEB-VINTAGE … NOT CURRENT" col 31); every FALSE positive sits
+# at column 63+ — prose mentions ("Position frozen: 13 shares" col 2747, SAM),
+# revival-history notes ("GAP: frozen 6/26→7/10" col 281, LABOR KB), successor
+# pointers ("full ledger frozen at AGENTS/HAWK/…" col 120+, FALCON×3/OSPREY×2),
+# partial-row warnings (REGINALD VX col 278), and data-row text (CRUISE/CARL).
+# Guards, in order:
+#  1. "Status: LIVE" declaration anywhere in the header overrides all markers
+#     (AEOLUS TRADE.md rule-citation case).
+#  2. Marker must start within MARKER_COL_CAP chars of its own line — banners
+#     front-load; prose buries. (Survey: genuine max col 31; false min col 63.)
+#  3. FROZEN preceded by "NOT " doesn't count (HAWK KB "…continues under HAWK
+#     (not frozen)" — a LIVE declaration, col 63).
+#  4. Markers glued by hyphen OR slash don't count ("refresh-or-FROZEN",
+#     "FROZEN-PENDING", "a FROZEN/NOT-CURRENT banner" — VULCAN/WATT §8 citation).
+# NOTE: no line-leading-LIVE override — tried and REVERTED same-day: it wrongly
+# un-froze BRENT FLOW/VX via their "# LIVE HOMES/# LIVE SUCCESSOR" pointer lines.
+# Validated 2026-07-22: fleet diff = false-FROZENs flip to tracked (list in
+# AGENTS/DAEDALUS/upgrades/LABOR_QC_2026-07-22.md); zero genuine banners lost.
 LIVE_DECL_RE = re.compile(r"STATUS\s*:?\s*\**\s*LIVE\b", re.IGNORECASE)
-MARKER_RES = [re.compile(r"(?<![\w-])" + re.escape(k) + r"(?![\w-])") for k in STATIC_BANNER_MARKERS]
+MARKER_COL_CAP = 100
+MARKER_RES = [
+    re.compile(r"(?<!NOT )(?<![\w/-])" + re.escape(k) + r"(?![\w/-])") if k == "FROZEN"
+    else re.compile(r"(?<![\w/-])" + re.escape(k) + r"(?![\w/-])")
+    for k in STATIC_BANNER_MARKERS
+]
 
 # Trade/position surfaces scanned under --trade (default glob stays workbook/*.tsv).
 TRADE_GLOBS = ["TRADE.md", "trade/TRADE.md", "TRADE_BOOK.md", "POSITIONS.md"]
@@ -124,14 +139,22 @@ TRADE_GLOBS = ["TRADE.md", "trade/TRADE.md", "TRADE_BOOK.md", "POSITIONS.md"]
 def is_frozen(path):
     """True if the header (first ~6 lines) declares the surface intentionally static.
     Named is_frozen for call-site compatibility; recognizes the whole dead-banner set.
-    A "Status: LIVE" declaration wins over any marker; hyphen-glued marker mentions
-    (rule citations) don't count (2026-07-22 hardening, see MARKER_RES comment)."""
+    Banner-FORM rules (2026-07-22 hardening, see MARKER_RES comment): "Status: LIVE"
+    wins; marker must start within MARKER_COL_CAP of its line; negated/glued
+    mentions don't count."""
     try:
         with open(path, "r", encoding="utf-8", errors="replace") as f:
-            head = "".join(f.readline() for _ in range(6)).upper()
+            lines = [f.readline() for _ in range(6)]
+        head = "".join(lines).upper()
         if LIVE_DECL_RE.search(head):
             return False
-        return any(rx.search(head) for rx in MARKER_RES)
+        for line in lines:
+            u = line.upper()
+            for rx in MARKER_RES:
+                m = rx.search(u)
+                if m and m.start() < MARKER_COL_CAP:
+                    return True
+        return False
     except OSError:
         return False
 
