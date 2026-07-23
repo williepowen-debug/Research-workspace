@@ -225,7 +225,7 @@ Structural levels that gate thesis paths. *Current values + breach status live i
 
 ## PREDICTIONS
 
-*Canonical source: [`PREDICTIONS.tsv`](PREDICTIONS.tsv) — **6 OPEN as of 2026-07-21** (SAM-28/29/31 convexity-tail tripwires; SAM-33 BOJ let-run; SAM-34 Jul-31 hold; SAM-35 40Y-auction bid-real [resolves 7/22]). Scoreboard **11 CONFIRMED / 12 FAILED / 1 special**. Recently closed: SAM-30 CONFIRMED 7/10 (−153K/85% reclaim); SAM-36 FALSE/DE-LOAD 7/10 (Jul-7 cover); SAM-37 CONFIRMED 7/17 (Jul-14 STALL); SAM-32 FALSE 7/2 (Meiji Yasuda super-long re-build; `PREDICTIONS_ARCHIVE.md#sam-32`). Calibration scoreboard + failure-pattern synthesis (political-ceiling, stock-vs-flow **+ rotation-sell-leg-vs-abandonment**, threshold-vs-mechanism, mechanism-direction, premise-dependence) is the working warning before writing any new prediction.*
+*Canonical source: [`PREDICTIONS.tsv`](PREDICTIONS.tsv) — **5 OPEN as of 2026-07-23** (SAM-28/29/31 convexity-tail tripwires; SAM-33 BOJ let-run; SAM-34 Jul-31 hold). Scoreboard **12 CONFIRMED / 12 FAILED / 1 special**. Recently closed: SAM-35 CONFIRMED 7/22 (40Y auction firm-lean marginal, BTC 2.83x; tail unverifiable); SAM-30 CONFIRMED 7/10 (−153K/85% reclaim); SAM-36 FALSE/DE-LOAD 7/10 (Jul-7 cover); SAM-37 CONFIRMED 7/17 (Jul-14 STALL); SAM-32 FALSE 7/2 (Meiji Yasuda super-long re-build; `PREDICTIONS_ARCHIVE.md#sam-32`). Calibration scoreboard + failure-pattern synthesis (political-ceiling, stock-vs-flow **+ rotation-sell-leg-vs-abandonment**, threshold-vs-mechanism, mechanism-direction, premise-dependence) is the working warning before writing any new prediction.*
 
 ---
 

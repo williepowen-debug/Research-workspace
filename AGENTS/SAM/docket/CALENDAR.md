@@ -12,7 +12,6 @@
 
 | Date | Event | What to Check | Threshold / Signal | Who Cares |
 |------|-------|---------------|-------------------|-----------|
-| 🟠 Wed Jul 22 | **JGB 40Y auction — demand-vacuum + 🆕 BID-REAL test** (SAM-35 resolves; ~50% firm-lean) | BTC ratio, tail vs May-27 baseline | **v1.6.3 re-frame** (as Jul-7): most stressed tenor (40Y J-ICS sensitivity highest). Watch BTC/tail vs May-27 BTC 2.702 (soft); Jul-7 30Y (BTC 4.55x/tail 0.3bp FIRM) sets the intermediate read. 40Y at 3.852 [MOF 7/21]. | SAM, LIQUID, BOND |
 | 🟠 Fri Jul 24 | **CFTC COT print (Jul-21 data) — gate, 3:30 PM ET** | Net vs −108K leg-1 cover line + −153K/85% escalation line | Pre-registered tripwires (7/21): cover through −108K (SAM-29 leg-1, 14.7K away off −122,663/68.1%) = cover-tail fires → frame LOW; build back through −153K/85% (30.3K away) = reclaims MED-HIGH; STALL band = FLAT holds (buckets 5/18/27). First post-June-TB / oil-escalation positioning read. | SAM, HENRY |
 | 🟡 Fri Jul 24 | Japan National June CPI | Headline/core/core-core | Follows sticky Tokyo June (core-core 1.9); subsidy-wedge watch | SAM |
 | 🟠 Wed Jul 29 | **FOMC rate decision — July (non-SEP)** | Rate decision + Warsh presser | No dot plot (non-SEP); read presser for hint on Sep SEP path. US leg of carry trade; lands ~2 days before BOJ Jul 31. | **ALL** |
@@ -114,6 +113,7 @@
 
 | Date | Event | Outcome |
 |---|---|---|
+| **Wed Jul 22** | ✅ **JGB 40Y auction — SAM-35** | **CONFIRMED firm-lean, MARGINAL: BTC 2.83x** (846.7B bids / 299.8B accepted; high yield 3.865%, low price 98.68; MOF eresul20260722) cleared the ≥2.8x FIRM bar (up from May-27 soft 2.702) → the Meiji-Yasuda ~4% demand floor extends to the longest/most-J-ICS-sensitive tenor. ⚠️ MOF published no avg yield → tail unverifiable (BTC-only firm, much weaker than the 30Y's 4.55x); WEAK/disorderly-break precursor RULED OUT → disorderly carry tail thins further. Detail → STATUS 7/23 BOOT NOTE (2) + CHANGELOG 2026-07-23. |
 | **Tue Jul 14** | ✅ **US CPI (June data)** | Cool — ~−0.42% MoM (soft-CPI leg of the route-4 Fed-dot walk-back), but offset by July oil-inflation → Fed-walk-back anchor weight ~0, **no re-mark**. Detail → STATUS 7/16/7/17 notes. |
 | **Tue Jul 14** | ✅ **JGB 20Y auction** | Insurer-demand / strike-broadening watch — **no stress escalation flagged** (super-long softness had not spread to 20Y through the 7/16-7/17 reads). Result → `workbook/JGB_AUCTIONS.tsv` / STATUS. |
 | **Thu Jul 16** | ✅ **MOF ITS weekly wk-7/5–7/11 (discriminator)** | **+¥1,090.1B foreign-LT-debt net BUYING** (>2× the ≥+¥500B durable bar) → DURABLE-leg corroboration; flips the 7/9 BND-11 transient lean → DURABLE-leaning (MEDIUM). Detail → STATUS 7/16 note. |
