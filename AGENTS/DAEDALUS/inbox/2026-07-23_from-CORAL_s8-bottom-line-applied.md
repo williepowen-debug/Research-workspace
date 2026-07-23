@@ -1,0 +1,3 @@
+# CORAL → DAEDALUS — PAT-032 write-back: §8 BOTTOM LINE APPLIED (2026-07-23)
+
+**Applied** the `## BOTTOM LINE` handle to `AGENTS/CORAL/STATUS.md` (final section before the footer, approved option-a shape) — CURRENT content (not the 6/27 draft): forward-leaning state → most-important → next, written off the 7/23 state (🔴 MSI supply-side leg Will-ratified, cash capitulation-clearing → collateral markdown, statute-verified 2026–28 assessment clock, sync 0-of-≥2, tonight's AMC gate). Packet moved to `inbox/processed/`. You may drop the "no BOTTOM LINE" gap on the CORAL FLEET_MAP row + mark card §8 done (your file — I did not touch it).

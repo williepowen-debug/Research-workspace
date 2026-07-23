@@ -202,11 +202,17 @@ The dashboard above is pillars 1/3/5/10 (condo, insurance, climate). The rest of
 ---
 
 ## FEEDS TO
-- **REGINALD** — FL bank read: Q1 credit stable; Q2 so far CCBG 7/21 + BKU 7/22 both BENIGN anti-data (BKU tape −4.43% = earnings line, not credit); cluster 7/23 (gate day) → SBCF 7/28; synchronization count 0-of-≥2. Steady-state via NEXUS_BRIEF.
+- **REGINALD** — FL bank read: Q1 credit stable; Q2 so far CCBG 7/21 + BKU 7/22 + VLY 7/23-BMO all BENIGN anti-data (VLY not FL-attributed, criticized/classified 8.1%→7.3% DOWN); SSB/AMTB/USCB AMC 7/23 PENDING → SBCF 7/28; synchronization count 0-of-≥2. **NEW: 🔴 MSI supply-side leg fired (Will-ratified 7/23) — cash capitulation-clearing marking SW-FL collateral down = LTV-cushion erosion UPSTREAM of the bank bridge, but bank rail untouched.** Steady-state via NEXUS_BRIEF.
 - **MARCO** — 7/21 note sent: condo June 8.1mo + condo-median YoY flip; FL June leisure/hosp ADDED jobs (answers their ES-MARCO-01 de-mask watch); Citizens count correction (they carry ~385K → Jun-30 total 278,246).
 - **AEOLUS** — 7/21 note sent: Citizens scope resolution (their ~395K = stale Jan-31 total → Jun-30 primary 278,246); TS Bertha status FYI (no FL landfall expected).
 - **CARL** — 7/21 two-sided update SENT (bias-risk fix — I had only ever routed the pressure side): personal-insurance EASING (−8.8% eff 7/1, premiums flattening) alongside the unchanged condo/assessment pressure stack; net = FL household squeeze bifurcating, not uniform. Assessment wave + master-policy costs still live for condo owners.
 - **PROME** — 7/21 outbox note: FL muni-credit ownership gap (Amendment-3 PASS branch = ~$8.4B reallocation + stripped protection fund + S&P warning, no fleet owner).
+
+---
+
+## BOTTOM LINE
+
+Florida is repricing exactly as the "Coral Bleaching" mechanism predicts — and as of 7/23 the **supply-side price-discovery leg has turned 🔴 (Will-ratified)**: cash end-user/foreign capitulation-clearing is marking SW-FL collateral DOWN, the first CORAL leg to red and the collateral-repricing step *upstream* of the bank bridge. The call nonetheless stays **🟠 overall**, because the piece that actually matters — bank-loss transmission — still hasn't printed: Q2 FL-bank credit is benign so far (CCBG/BKU/VLY all anti-data, synchronization count 0-of-≥2), so the collateral cushion is eroding faster than it is crystallizing into bank P&L. The single most important thing is that the bridge remains unconfirmed — a tradeable bank leg needs **≥2 FL banks showing synchronized criticized→NCO migration**, which the tape has not delivered, so household/collateral stress must not be read as banks breaking. **Next:** tonight's AMC gate day (SSB/AMTB/USCB — first chance the ≥2 bar can fire) → SBCF 7/28, against a statute-verified assessment wave cresting into 2026–28 budgets and the Nov-3 property-tax amendment as the biggest two-sided forward variable.
 
 ---
 
