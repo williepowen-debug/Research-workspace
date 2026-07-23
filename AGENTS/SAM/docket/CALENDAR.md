@@ -46,8 +46,8 @@
 | Trigger | Action Expected | Notes |
 |------|---------|-----------|
 | **USDJPY disorderly break >163 (toward 165)** | Intervention #3 possible — but only on a *disorderly* spike, not the grind | 🟠 Level has advanced THROUGH the 162–163 zone into fresh 40-yr-low territory, **but the move is a grind, not a velocity spike (orderly, normal daily range) → strike-watch ARMED not FIRED**. **165 is now the next threshold.** MOF silent **35d** at 160+ with NO strike (7/2 candidate adjudicated **NO-STRIKE**; hard confirm = MOF monthly ~7/31 row) — CH-011 disorder-not-level empirically confirmed. **MOF #3 DECAYING ~15-20%/30d** (SAM-23 resolved FALSE, pre-marked). Market re-anchored the line **160 → 162** (ING, Jun-26). **AMBUSH regime (Reuters 7/2, unchanged): next op arrives unsignalled — rate-check ABSENCE is no longer evidence a strike isn't imminent** (playbook S1-A). Actionable = disorderly >1.5–2%/day spike / accelerating fresh-lows. |
-| Brent through $115 | Phase 1 reasserts; USDJPY upside → intervention | Phase 1 oil pressure DORMANT (Iran deal + IEA glut; Hormuz reopening process begun Jun-18 — verification leg open); far below $115. Live Brent → STATUS. |
-| ✅ Iran/US deal SIGNED Wed Jun 17 — signing-binary resolved; verification leg OPEN | (resolved trigger — retained as pointer) | Full terms + verification-leg watch → GEOPOLITICAL WATCH (Jun-17 + Ongoing rows) + TIMELINE Jun-17 block. Oil-in-yen channel near-term dormant pending implementation. |
+| Brent through $115 | Phase 1 reasserts; USDJPY upside → intervention | 🟠 **Phase-1 oil pressure LIVE (since 7/21) — Brent $100.43 [7/23], NEARING $115** on actual tanker strikes (Houthi drones on 2 Saudi tankers / Kazakh CPC halt / US-Iran strikes; Hormuz formally closed 7/11-12). Phase-1 = yen-NEGATIVE (June TB deficit confirms); Phase-2 yen-bid = the 60d tail, unfired. FAL-01/sustain = BRENT/FALCON. Live Brent → STATUS. |
+| ⚠️ Iran/US deal REPUDIATED — re-escalation LIVE (Hormuz formally closed 7/11-12; US re-striking Iran) | (re-escalation live — oil-in-yen Phase-1 back online) | The Jun-17 deal's verification leg FAILED: MOU repudiated ~7/13, Hormuz closed, tanker strikes 7/22. Oil-in-yen Phase-1 LIVE (yen-neg). → TIMELINE Jul 11-23 block + GEOPOLITICAL WATCH. |
 | Bessent / Katayama statement | Channel 3 augmentation if explicit | Standing jawbone tier: Katayama 7/1 "respond appropriately at any time" + Kihara readiness + Mimura "prior op effective, US supportive"; US-Japan coordination stepped up (Katayama-Bessent "bold steps if needed," Jun-22). No escalation to rate-checks — but under the ambush regime the ladder informs only when it escalates. Next BOJ pre-meeting blackout ~Jul 29 (T-2 of the Jul 30-31 MPM). |
 
 ---
@@ -68,16 +68,16 @@
 
 ---
 
-## PHASE 2 WATCH (v1.6 finalized Jun-22: oil-in-yen DORMANT; Phase 2 inception NOT triggered — Jun-22 decoupling test resolved SHRUG)
+## PHASE 2 WATCH (🆕 7/21+: oil-in-yen PHASE-1 LIVE but yen-NEGATIVE [Brent $100+, June TB deficit]; Phase-2 risk-off yen-BID = the 60d tail, UNFIRED [yen weakening]. Prior Jun-22 decoupling SHRUG superseded by the formal Hormuz closure 7/11-12 + $100 escalation)
 
 *Live levels (Brent, USDJPY, CFTC net) live in STATUS — this table holds thresholds + significance only.*
 
 | Indicator | Threshold | Significance |
 |---|---|---|
-| Brent | <$90 = "headwind resolved" | 🟢 **BREACHED Sun Jun 14 ($87.33 first sub-$90 close this cycle)** and deeply below since (live → STATUS). Durable bearish-oil regime: Iran deal + IEA glut (+8 mbpd by 2027 vs +2 demand); Hormuz reopening process begun Jun-18 (verification leg open). Phase 1 oil pressure dormant. |
+| Brent | <$90 = "headwind resolved" | 🔴 **RE-BREACHED UPWARD — Brent $100.43 [7/23], through $90/$100** on the Iran re-escalation (Hormuz closed 7/11-12, tanker strikes). The durable-bearish-oil regime is broken; Phase-1 oil pressure LIVE (yen-negative). Live → STATUS. |
 | Iran/Hormuz MOU framework | Signed text by both sides + verification | ✅ **SIGNED Wed Jun 17 (initial agreement; verification leg OPEN** — demining/insurance/traffic normalization/Oman fee-administration after the 60-day toll-free window closes ~Aug 16/HEU dilution/sanctions waivers). **Jun-20 declaratory Hormuz re-closure = first verification-leg stress point → Mon Jun-22 Brent decoupling test resolved SHRUG** (no spike; oil-in-yen stays dormant; thesis holds on that leg). Full narrative → GEOPOLITICAL WATCH + TIMELINE Jun-17/Jun-20 blocks. |
 | USDJPY 3-session sub-155 test | hard trigger condition | Not met — direction moved AWAY (160+ for 16d; 40-yr-low zone); diplomacy-track doesn't accelerate this branch directly (USD-side drivers dominate USDJPY direction). |
-| CFTC short positioning | -75K cover line; -108K = 60% cycle-peak amplifier line; -140K = DE-LOAD line; -153K = 85% escalation | 🟠 Amplifier +5pp ON (reverted from +8-10pp). Jun-30 print CROSSED −153K/85% (86.2%, SAM-30 CONFIRMED) → Jul-7 print COVERED to −123,778/68.8%, past the −140K DE-LOAD line (SAM-36 FALSE/DE-LOAD, 7/10 PM) — the single-print reclaim unwound within days. Live net → STATUS. cftc_jpy.py auto-pulls weekly; **✅ next print reconciled 7/16 (MSG-002#SAM-02): Fri Jul 17, 3:30 PM ET (Jul-14 data) — the earlier "Mon Jul 13" was an error (Jul-14 data cannot release Jul-13); post-CPI COT.** |
+| CFTC short positioning | -75K cover line; -108K = 60% cycle-peak amplifier line; -140K = DE-LOAD line; -153K = 85% escalation | 🟠 Amplifier +5pp ON (reverted from +8-10pp). Jun-30 print CROSSED −153K/85% (86.2%, SAM-30 CONFIRMED) → Jul-7 print COVERED to −123,778/68.8%, past the −140K DE-LOAD line (SAM-36 FALSE/DE-LOAD, 7/10 PM) — the single-print reclaim unwound within days. Live net → STATUS. cftc_jpy.py auto-pulls weekly; **Jul-14 print RESOLVED STALL (−122,663/68.1%, SAM-37 CONFIRMED 7/17 — positioning sticky ~68% post-flush). Next print: Jul-21 data, Fri Jul-24 3:30 PM ET.** |
 
 ---
 

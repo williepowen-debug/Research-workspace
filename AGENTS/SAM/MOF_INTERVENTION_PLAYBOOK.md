@@ -11,7 +11,7 @@
 
 ### 1. Escalation ladder — verbal tiers × USD/JPY zone
 
-The MOF/FX-diplomat verbal sequence is a graduated ladder; each tier raises the conditional probability of a physical strike. As of 2026-06-25 we sit **pre-T1** (MOF silent 9+ days at 161+).
+The MOF/FX-diplomat verbal sequence is a graduated ladder; each tier raises the conditional probability of a physical strike. **Live ladder state → STATUS § INTERVENTION** (do not hard-code a snapshot here). Illustrative (7/23): **pre-T1** — standing jawbone only (Katayama "bold action at any time," blaming ME/oil = lower urgency), MOF silent ~37d at 160+, USD/JPY 163.83 through the zone but ORDERLY → ARMED not FIRED.
 
 | Tier | Language | Typical USD/JPY zone | Read |
 |---|---|---|---|
