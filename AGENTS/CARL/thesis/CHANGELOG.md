@@ -8,6 +8,29 @@ Tracks all changes to THESIS.md and PREDICTIONS.tsv. Reverse chronological. Each
 
 ---
 
+## 2026-07-24 (THIRD PASS, Will-approved) — **THESIS v2.6.3: V2 downgrade trigger RE-SPECCED seasonality-matched.** No score change; 51/70 holds
+
+### The change
+| | |
+|---|---|
+| **Old (retired)** | Fitch ATR drops below **6.5% for 2 consecutive months** OR cure mechanism reverses across 3 trusts |
+| **New (v3)** | Fitch ATR **same-month YoY ≤0bps for 2 consecutive months** *(seasonality-matched)* **OR** **TTM average <6.0%** *(currently 6.25%, rising)* **OR** cure reverses across 3 trusts |
+
+Upgrade-to-5 condition unchanged (all relevant trusts terminal). **V2 stays at 4.**
+
+### Why — retired as a SPEC ERROR, not a threshold miss
+The ATR series carries a **known annual March-April tax-refund dip that Fitch names explicitly** ("seasonal tax refunds supported a temporary improvement", and calls it "short lived"). A raw-level `<6.5% ×2 months` rule therefore fires **most springs on seasonality rather than mechanism** — and it demonstrably did this year: **Mar-26 printed 6.11%, below the old line, while the seasonally-matched read (Jan-26 6.90% vs Jan-25 6.45% = +45bps YoY) said the mechanism was still deteriorating.** Firing V2 4→3 off that would have been a downgrade caused by tax refunds.
+
+This is the **4th instance in 8 days** of the spec-failure class (`finding_threshold_spec_fails_before_world`) and **the first on a VECTOR trigger** rather than a prediction — same seasonality limb that killed CRL-22 v1 and forced the RED diesel-crack falsifier rewrite (crack vs 5-yr seasonal norm, not absolute level).
+
+### How it surfaced
+The 7/24 Fitch refresh — run because the Phase-4 instrument work exposed that **V2's score had been resting on a ~6-month-stale January print.** Recovering the series (Dec-25 6.74 → Jan 6.90 → Feb 6.80 → **Mar 6.11**) is what revealed both the staleness *and* the seasonal defect. KB-CARL-359. **Apr-Jun still owed from the Fitch primary** (subscription; secondary stops at March) — docket 8/10; leg (a) needs two matched months, leg (b) a current TTM.
+
+### Surfaces synced
+THESIS (matrix row 2, version header, in-file changelog) · STATUS (matrix mirror cell, subprime-auto row, thesis-version refs, BOTTOM LINE) · NEXUS_BRIEF (version + recent-pivot, flagged fleet-relevant: **any agent with a raw-level threshold on a seasonal series has this exposure**). `consistency_check.py` A/B/D/E: **0 hard** — Check B confirmed the 14-vector matrix, mirror, histogram and 3 current-score assertion sites all still agree at 51/70 through a thesis-version bump.
+
+---
+
 ## 2026-07-24 (SECOND PASS, Will-directed) — HHDC card FROZEN · CRL-22 **v3** (the causal inversion) · scoped FOMC leg · POP demoted; **two coherence bugs found by writing things down early**
 
 Will directed four items after the catch-up pass. All four done. **The two most valuable outputs were errors caught by the act of pre-registering**, not by new data.
