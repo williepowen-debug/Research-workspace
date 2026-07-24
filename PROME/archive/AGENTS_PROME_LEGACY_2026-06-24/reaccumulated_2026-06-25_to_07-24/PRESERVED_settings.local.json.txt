@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git -C /home/willi/Research-workspace status --short)",
+      "Bash(git -C /home/willi/Research-workspace log --oneline -5)",
+      "Bash(git *)"
+    ]
+  }
+}
