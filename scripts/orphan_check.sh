@@ -14,11 +14,25 @@
 # (root protocol routes out-of-dir commits to PROME) but it is DETECTION-
 # DEPENDENT — it needs someone to notice. This is the missing detector.
 #
-# USAGE:  bash AGENTS/HENRY/scripts/orphan_check.sh <AGENT_NAME>
+# USAGE:  bash scripts/orphan_check.sh <AGENT_NAME>
 # Exit 0 always (advisory, never blocks a closeout). Read-only: no writes,
 # no staging, no commits — it only looks and reports.
 #
-# Proposed for promotion to fleet scripts/ — see HENRY outbox 2026-07-23.
+# ADOPTED fleet-wide 2026-07-23 (Will-approved; PROME review + 4-case test):
+# root CLAUDE.md Git Protocol carve-out ratified same session — self-authored
+# packets in a recipient's inbox are the sender's to commit. Built by HENRY
+# (origin memo: AGENTS/HENRY/outbox/2026-07-23_to-PROME_cross-agent-packet-
+# orphaning-protocol-gap.md). Wired into root CLAUDE.md "At session end" 1b.
+#
+# KNOWN HEURISTIC EDGES (both fail in the SAFE direction — the file is still
+# surfaced and routed to PROME either way):
+# - Router-authored relays ("from-X-via-PROME") classify [not yours] for the
+#   router (PROME); the fallback instruction is flag-to-PROME = the router.
+# - Paths containing spaces mangle in the awk $NF split; fleet packet
+#   filenames never contain spaces.
+# - PROME's home dir is PROME/ (not AGENTS/PROME/), so a PROME run lists
+#   PROME's own in-flight files as [not yours]; PROME is also the flag-to
+#   target, so it reads its own report. Domain agents are unaffected.
 # ---------------------------------------------------------------------------
 set -euo pipefail
 
