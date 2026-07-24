@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 r"""
-CARL Consistency Checker — Checks A + B + D + E + F
+CARL Consistency Checker — Checks A + B + D + E + F + G
 
 Mechanizes the "value-mirror-drift" class: catches when a canonical value and
 its STATUS.md mirror silently disagree. The manual closeout step-15 check only
@@ -219,6 +219,8 @@ def parse_tsv(path):
             "raw_tf": raw_tf,
             "instrument": raw_inst,
             "has_inst_col": "Instrument" in col,
+            "prediction": get("Prediction") if "Prediction" in col else "",
+            "notes": get("Notes") if "Notes" in col else "",
         }
     return rows
 
@@ -345,6 +347,174 @@ def check_a(tsv, status_open, status_resolved):
                     f"STATUS='{o['timeframe']}'"))
 
     return findings
+
+
+# --------------------------------------------------------------------------
+# Check G — registration-time failure-shape lint
+# --------------------------------------------------------------------------
+# WHY THIS EXISTS. The 2026-07-24 Brier audit found CARL's documented failure
+# taxonomy did NOT reduce CARL's failure rate: boot step 7c forces reading the
+# MISSED notes every session, and CRL-24 was still registered 2026-06-25 as a
+# CONJUNCTION at 60% -- AFTER CRL-01 and CRL-09 were already logged as that exact
+# family. **Reading a taxonomy at boot is not applying it at registration.**
+# Check G moves the check to the moment the prediction is WRITTEN.
+#
+# Shapes, each sourced from an actual CARL failure:
+#   G1 CONJUNCTION            CRL-24: "NCO >5.5% AND coverage down" at 60%,
+#                             when P(A and B) <= min(P(A),P(B))
+#   G2 REVISION-PRONE SERIES  CRL-09 (JOLTS ratio), CRL-11 (hires rate revised away)
+#   G3 CONFIDENCE >= 75%      the 75-85% band went 0-for-2 ex-ante
+#   G4 SEASONAL SERIES, RAW-LEVEL THRESHOLD   CRL-22 v1 (insurer MCR H1->H2),
+#                             V2/Fitch ATR (tax-refund dip), RED's diesel-crack falsifier
+#   G5 NO NUMERIC BAR         CRL-07: "triggers a DQ spike" -- unfalsifiable by vagueness
+#
+# ⚠️ RULES ARE TIERED BY MEASURED PRECISION, NOT BY HOW GOOD THEY SOUNDED.
+# Validated against CARL's own resolved record (N=10) by asking: does the rule fire
+# on the predictions that MISSED, and not on the ones that HIT?
+#
+#   TIER 1 — G1 (1/1 misses) and G2 (2/2 misses): 100% precision, and independently
+#            grounded (conjunction arithmetic; revision is a documented mechanism).
+#            These GATE: HARD on a newly-registered prediction.
+#   TIER 2 — G3 (2/4), G4 (1/2), G5 (1/2): ~50% precision — they fire on hits as
+#            often as misses, so they DO NOT discriminate. **ADVISORY ONLY, never
+#            HARD**, and the message says so. They are kept because they encode real
+#            lessons, not because they predict outcomes.
+#
+# Small-N honesty: tier-1 precision rests on N=1 and N=2. The theoretical grounding is
+# doing more work than the sample. Re-validate at N~20.
+#
+# SEVERITY: tier 1 is HARD on NEWLY-REGISTERED predictions (absent from the previous
+# commit) -- that is the registration gate -- and SOFT on pre-existing rows, so the
+# check gates new work without spamming a standing inventory. Tier 2 is always SOFT.
+#
+# ESCAPE HATCHES are deliberate and must be written down, not silent: put
+# [LEVEL-CONTINUATION] or [MECHANICAL] in Notes to justify G3; [SEASONALITY-MATCHED]
+# to clear G4; [CONJUNCTION-PRICED] to clear G1. The point is to force an explicit
+# claim at registration, not to forbid the shape.
+REVISION_PRONE = ("jolts", "hires rate", "nonfarm", "payroll", "nfp", "quits",
+                  "job openings", "lfpr", "labor force participation")
+SEASONAL_SERIES = ("delinquency rate", "medical care ratio", "benefit expense ratio",
+                   "mcr", "bcr", "crack", "retail sales", "foreclosure")
+SEASON_OK = ("yoy", "same-month", "same month", "seasonal", "ttm", "trailing")
+# NB: no trailing \b after the unit — '%' is a non-word char, so \b would require a
+# word character immediately after it and "13.74% (GFC peak)" would read as NO BAR.
+# That bug false-positived 10 of 16 rows on the first run.
+NUMERIC_BAR = re.compile(
+    r"[<>]=?\s*[-+]?[\d,.]+"                 # >13.74 / <=6.5 / >= 1,500,000
+    r"|[-+]?\d[\d,]*(?:\.\d+)?\s*(?:%|bps|bp\b|pp\b)"   # 13.74% / +30bps / 2.2pp
+    r"|\$\s?\d[\d,]*(?:\.\d+)?\s*[KMBT]?"                # $4.00 / $100B / $1,500
+    r"|\b\d[\d,]{2,}(?:\.\d+)?\s*(?:K|M|B|per|/)"        # 70K/qtr / 2,600,000
+)
+
+
+def _prior_pred_ids(tsv_path):
+    """Pred_IDs present in the previous commit. Separate from _prior_confidences:
+    a row whose Confidence does not parse (e.g. 'N/A (BROCK's count)') still EXISTS,
+    and inferring newness from the confidence map made such rows look newly
+    registered on every run."""
+    import subprocess
+    try:
+        root = Path(subprocess.check_output(["git", "rev-parse", "--show-toplevel"],
+                                            cwd=str(tsv_path.parent), text=True).strip())
+        rel = tsv_path.resolve().relative_to(root)
+        out = subprocess.check_output(["git", "show", f"HEAD:{rel}"],
+                                      cwd=str(tsv_path.parent), text=True,
+                                      stderr=subprocess.DEVNULL)
+    except Exception:                                  # noqa: BLE001
+        return None
+    return {ln.split("\t")[0].strip() for ln in out.splitlines()
+            if PRED_ID_RE.match(ln.split("\t")[0].strip())}
+
+
+def check_g(tsv, tsv_path):
+    """Registration-time lint for known failure shapes."""
+    findings, HARD, SOFT = [], "HARD", "SOFT"
+    known = _prior_pred_ids(tsv_path)
+
+    counts = {"new": 0, "scanned": 0, "flagged": set()}
+    for pid in sorted(tsv, key=lambda x: int(x.split("-")[1])):
+        v = tsv[pid]
+        if v["status"] != "OPEN":
+            continue
+        counts["scanned"] += 1
+        is_new = (known is not None) and (pid not in known)
+        if is_new:
+            counts["new"] += 1
+        sev = HARD if is_new else SOFT          # tier 1 only
+        adv = SOFT                               # tier 2 never gates
+        tag = " [NEWLY REGISTERED]" if is_new else ""
+        ADVISORY = " [ADVISORY — this rule measured ~50% precision on CARL's own " \
+                   "resolved record; it fires on hits as often as misses]"
+        text = (v.get("prediction") or "")
+        notes = (v.get("notes") or "")
+        inst = (v.get("instrument") or "")
+        blob = f"{text} {inst}".lower()
+        conf = v["confidence"]
+
+        # G1 — conjunction
+        if " AND " in text and len(NUMERIC_BAR.findall(text)) >= 2 \
+                and "[conjunction-priced]" not in notes.lower():
+            findings.append((sev, pid,
+                f"G1 CONJUNCTION{tag}: two+ thresholds joined by AND. P(A∧B) ≤ min(P(A),P(B)) — "
+                f"price it as a conjunction or split it. This is the CRL-24 shape "
+                f"(registered at 60%, MISSED). [TIER 1 — 1/1 precision on the resolved record]"))
+            counts["flagged"].add(pid)
+
+        # G2 — revision-prone series
+        hit = next((k for k in REVISION_PRONE if k in blob), None)
+        if hit:
+            findings.append((sev, pid,
+                f"G2 REVISION-PRONE SERIES{tag}: names '{hit}'. Prints get revised away — "
+                f"CRL-11 missed exactly this way (hires 3.2% revised to 3.3%), CRL-09 on the "
+                f"denominator. Register at ≤40% or not at all. "
+                f"[TIER 1 — 2/2 precision on the resolved record]"))
+            counts["flagged"].add(pid)
+
+        # G3 — high confidence without a written justification
+        if conf is not None and conf >= 75 \
+                and not any(k in notes.lower() for k in ("[level-continuation]", "[mechanical]")):
+            findings.append((adv, pid,
+                f"G3 CONFIDENCE {conf}% ≥75% with no justification token. The 75-85% band "
+                f"went 0-for-2 ex-ante (Brier audit) — but note CRL-04 at 98% HIT, which is why "
+                f"this is advisory. Add [LEVEL-CONTINUATION] or [MECHANICAL] to Notes, or cut it."
+                + ADVISORY))
+            counts["flagged"].add(pid)
+
+        # G4 — seasonal series measured at a raw level
+        s_hit = next((k for k in SEASONAL_SERIES if k in blob), None)
+        if s_hit and not any(k in blob for k in SEASON_OK) \
+                and "[seasonality-matched]" not in notes.lower():
+            findings.append((adv, pid,
+                f"G4 SEASONAL SERIES, RAW LEVEL: '{s_hit}' with no YoY/same-month/TTM framing. "
+                f"Four instances in 8 days fired on seasonality not mechanism (CRL-22 v1, the "
+                f"Fitch ATR trigger, the diesel-crack falsifier). Prefer a seasonality-matched spec."
+                + ADVISORY))
+            counts["flagged"].add(pid)
+
+        # G5 — no numeric bar at all
+        if not NUMERIC_BAR.search(text):
+            findings.append((adv, pid,
+                f"G5 NO NUMERIC BAR: prediction states no threshold — unfalsifiable by "
+                f"vagueness. This is the CRL-07 shape (cut 85→40 by the Brier audit)."
+                + ADVISORY))
+            counts["flagged"].add(pid)
+
+    counts["flagged"] = len(counts["flagged"])
+    counts["prior_available"] = known is not None
+    return findings, counts
+
+
+def _print_g_coverage(s):
+    if not s:
+        return
+    if not s.get("prior_available"):
+        print(f"       ⚠️  previous commit unavailable — every row treated as PRE-EXISTING "
+              f"(all findings SOFT); a genuinely new registration would not be gated this run")
+    print(f"       scanned {s['scanned']} OPEN predictions · {s['new']} newly registered · "
+          f"{s['flagged']} carrying at least one failure shape")
+    print(f"       tiering (validated on CARL's N=10 resolved record): "
+          f"G1 conjunction 1/1 · G2 revision-prone 2/2 = TIER 1, gate on new registrations · "
+          f"G3/G4/G5 ~50% = ADVISORY, they do not discriminate")
 
 
 # --------------------------------------------------------------------------
@@ -993,7 +1163,7 @@ def _fmt_conf(c):
 # Reporting
 # --------------------------------------------------------------------------
 def print_report(groups, tsv, status_open, n_entries, e_stats=None, b_stats=None,
-                 f_stats=None, quiet=False):
+                 f_stats=None, g_stats=None, quiet=False):
     """groups: ordered list of (label, findings)."""
     all_f = [f for _, fs in groups for f in fs]
     hard = [f for f in all_f if f[0] == "HARD"]
@@ -1001,7 +1171,7 @@ def print_report(groups, tsv, status_open, n_entries, e_stats=None, b_stats=None
 
     if not quiet:
         print(f"\n{'=' * 78}")
-        print(f"  CARL CONSISTENCY CHECK — A mirror · B score · D instrument · E monotonicity · F bias")
+        print(f"  CARL CONSISTENCY CHECK — A mirror · B score · D instrument · E monotonicity · F bias · G failure-shape")
         print(f"{'=' * 78}")
         print(f"  Canonical : thesis/PREDICTIONS.tsv "
               f"({sum(1 for v in tsv.values() if v['status'] == 'OPEN')} OPEN "
@@ -1022,6 +1192,8 @@ def print_report(groups, tsv, status_open, n_entries, e_stats=None, b_stats=None
                 _print_e_coverage(e_stats)
             if f_stats is not None and label.startswith("CHECK F"):
                 _print_f_coverage(f_stats)
+            if g_stats is not None and label.startswith("CHECK G"):
+                _print_g_coverage(g_stats)
             if b_stats and label.startswith("CHECK B"):
                 print(f"       verified: {b_stats['thesis_vectors']} THESIS vectors vs "
                       f"{b_stats['status_vectors']} STATUS mirror rows vs "
@@ -1039,6 +1211,8 @@ def print_report(groups, tsv, status_open, n_entries, e_stats=None, b_stats=None
             _print_e_coverage(e_stats)
         if f_stats is not None and label.startswith("CHECK F"):
             _print_f_coverage(f_stats)
+        if g_stats is not None and label.startswith("CHECK G"):
+            _print_g_coverage(g_stats)
         if b_stats and label.startswith("CHECK B"):
             print(f"       verified: {b_stats['thesis_vectors']} THESIS vectors vs "
                   f"{b_stats['status_vectors']} STATUS mirror rows vs "
@@ -1057,7 +1231,7 @@ def print_report(groups, tsv, status_open, n_entries, e_stats=None, b_stats=None
 
 # --------------------------------------------------------------------------
 def main():
-    ap = argparse.ArgumentParser(description="CARL consistency checker — Checks A, B, D, E, F.")
+    ap = argparse.ArgumentParser(description="CARL consistency checker — Checks A, B, D, E, F, G.")
     ap.add_argument("--quiet", action="store_true", help="summary + findings only")
     ap.add_argument("--warn-only", action="store_true",
                     help="always exit 0 (findings still print). Used by boot.py so a "
@@ -1083,6 +1257,7 @@ def main():
     fb, b_stats = check_b(Path(args.thesis), status_path)
     fd = check_d(tsv)
     ff, f_stats = check_f(tsv, tsv_path)
+    fg, g_stats = check_g(tsv, tsv_path)
     entries, gaps = collect_ledgers(tsv_path, tsv)
     fe, e_stats = check_e(entries, gaps)
 
@@ -1092,9 +1267,10 @@ def main():
         ("CHECK D — instrument declaration (does each OPEN row name what resolves it?)", fd),
         ("CHECK E — cross-ledger threshold monotonicity (parent + sub-agents)", fe),
         ("CHECK F — bias tripwire (position-linked confidence behaviour)", ff),
+        ("CHECK G — registration-time failure-shape lint", fg),
     ]
     print_report(groups, tsv, status_open, len(entries), e_stats=e_stats,
-                 b_stats=b_stats, f_stats=f_stats, quiet=args.quiet)
+                 b_stats=b_stats, f_stats=f_stats, g_stats=g_stats, quiet=args.quiet)
 
     hard = [f for _, fs in groups for f in fs if f[0] == "HARD"]
     if hard and args.warn_only:

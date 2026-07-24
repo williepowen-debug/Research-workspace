@@ -308,3 +308,44 @@ F5 immediately flagged that **all five sleeve legs had never been marked** — t
 
 ## Coverage honesty (same principle as Checks B and E)
 F4 reports **`all positions sit on ONE prediction — the comparison is DEGENERATE and proves nothing yet`**. With 5 legs all on CRL-27 there is no unpositioned contrast group. **The check is armed but not yet informative, and it says so rather than returning a green tick that implies otherwise.** It becomes informative once positions span ≥2 predictions.
+
+---
+
+# CHECK G — REGISTRATION-TIME FAILURE-SHAPE LINT (2026-07-24)
+
+**Status: BUILT, validated against CARL's own resolved record, acceptance-tested, wired into `boot.py`.**
+
+## Why it exists
+The Brier audit's structural finding: **CARL's documented failure taxonomy did not reduce CARL's failure rate.** Boot step 7c forces reading the MISSED notes every session — and **CRL-24 was still registered 2026-06-25 as a conjunction at 60%, after CRL-01 and CRL-09 were already logged as that family.** Reading a taxonomy at boot is not applying it at registration. G moves the check to the moment the prediction is written.
+
+## ⚠️ Rules are tiered by MEASURED precision, not by how good they sounded
+
+I wrote five rules, then validated each against the resolved record (N=10) by asking: *does it fire on the predictions that MISSED and not on the ones that HIT?* **Three of the five turned out to be noise.**
+
+| Rule | fired | on misses | on hits | precision | disposition |
+|---|---|---|---|---|---|
+| **G1 conjunction** | 1 | 1 | 0 | **100%** | **TIER 1 — gates** |
+| **G2 revision-prone series** | 2 | 2 | 0 | **100%** | **TIER 1 — gates** |
+| G3 confidence ≥75% | 4 | 2 | 2 | 50% | **advisory only** |
+| G4 seasonal series, raw level | 2 | 1 | 1 | 50% | **advisory only** |
+| G5 no numeric bar | 2 | 1 | 1 | 50% | **advisory only** |
+
+**Tier 1 is HARD on a newly-registered prediction** (absent from the previous commit) — that is the registration gate — and SOFT on pre-existing rows, so it gates new work without spamming a standing inventory.
+**Tier 2 is always SOFT, and every tier-2 message carries `[ADVISORY — this rule measured ~50% precision on CARL's own resolved record; it fires on hits as often as misses]`.** They are kept because they encode real lessons, **not because they predict outcomes** — and the output says which is which so a G5 finding is never read as equivalent to a G1.
+
+**Small-N honesty:** tier-1 precision rests on N=1 and N=2. **The theoretical grounding (conjunction arithmetic; revision is a documented mechanism) is doing more work than the sample.** Re-validate at N≈20.
+
+**Escape hatches are deliberate and must be written down:** `[CONJUNCTION-PRICED]` clears G1, `[LEVEL-CONTINUATION]`/`[MECHANICAL]` clear G3, `[SEASONALITY-MATCHED]` clears G4. The point is to force an explicit claim at registration, not to forbid the shape.
+
+## Two bugs found in G during its own development, both fixed
+1. **`NUMERIC_BAR` had a trailing `\b` after the unit.** `%` is a non-word character, so `\b` required a word character immediately after it — meaning `"13.74% (GFC peak)"` read as **NO BAR**. **10 of 16 rows false-positived on the first run**, including CRL-05, which obviously has a bar. Regex rewritten and extended to currency (`$4.00`, `$100B`) and count (`70K/qtr`) forms.
+2. **"Newly registered" was inferred from the prior *confidence* map**, so any row whose confidence doesn't parse (CRL-25: `"N/A (BROCK's count)"`) looked **newly registered on every run**. Split out `_prior_pred_ids()`, independent of confidence parsing.
+
+**That is the fourth and fifth time in one session a checker's own defect produced a misleading result** (after B5 flagging legitimate history, and the mirror-parser ID-cell trap). Same principle applied throughout: **a checker that produces false positives gets ignored, and an ignored checker is worse than none.**
+
+## Acceptance test (2026-07-24, PASSED, reverted)
+Seeded a new `CRL-99`: *"JOLTS hires rate falls below 3.0% **AND** quits rate falls below 1.8%"* at 80% — deliberately carrying a tier-1 conjunction, a tier-1 revision-prone series, and a tier-2 high-confidence flag.
+- **G1 → HARD [NEWLY REGISTERED]** ✅ gated
+- **G2 → HARD [NEWLY REGISTERED]** ✅ gated
+- **G3 → SOFT [ADVISORY]** ✅ did *not* gate
+- (Check A independently caught it as unmirrored.)
