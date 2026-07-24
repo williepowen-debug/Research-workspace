@@ -1,4 +1,25 @@
-# BOND SCRATCH — 2026-07-23 (Thu mid-day, Will-tasked: process general inbox)
+# BOND SCRATCH — 2026-07-23 (Thu, multi-pass: boot → general inbox → auction cluster grade)
+
+## ★ AUCTION CLUSTER GRADED 7/23 EVE (Will-tasked) — 3/3 NO-MARKER
+
+Written up in full: `analysis/2026-07-23_grade_7-22-20Y_7-22-40Y-JGB_7-23-TIPS.md`; KB-BND-087.
+
+| Auction | Print | Grade vs FROZEN pre-reg |
+|---|---|---|
+| **7/22 US 20Y-R** (912810UV8, TD R_20260722_2) | BTC 2.64 · indirect 69.12% · dealer 14.67% · HY 5.163% | **HOLDING** (dealer 14.67 in 12-15 softening band = flag; indirect 69% firmly HOLDING — rules out foreign-exit; +23.6bp above 6/16 = term-premium priced, not buyer-strike) |
+| **7/22 40Y JGB** (MOF eresul20260722 via SAM) | BTC 2.83 · HY 3.865% · coupon 3.8% · tail unpublished | **FIRM** (BOND ≥2.50 bar; SAM concurs firm-marginal on their tighter ≥2.8 bar). **Channel-6 transmission NONE** — per pre-reg §4 LEVEL-vs-MOVE guard: 40Y JGB is a 30Y-LEVEL tell, NOT an arm-driver. Enters VX-05, not VX-14. |
+| **7/23 10Y TIPS** (91282CRE3, TD R_20260723_3, new issue) | BTC 2.30 · indirect 65.16% · dealer 9.86% · real HY 2.438% | **HOLDING (composition-strong, BTC-borderline)** — cleared +26.9bp above 5/21 (2.169%) with indirect/dealer ratio **6.6x vs 5/21's 5.5x**. Real-money buying at higher yield with LESS dealer help = **arm-#2 REAL-MONEY CORROBORATED**, DFII10 2.39 level NOT dealer-inventory / NOT fragile. |
+
+**Combined read:** three prints, one story — the higher-for-longer regime is clearing supply at price with the foreign/real-money bid intact. No composition break (all 3 long-end indirects >>50%: 20Y 69, TIPS 65, plus 7/9 30Y 77.7). No cross-channel term-premium blow-out (40Y JGB firm = no export to US 30Y). **Composite unchanged 12/35** — VX-05 stays 4, VX-14 stays 3, both corroborated in-band without upgrade. TIPS is the cleanest arm-#2 real-money corroboration available.
+
+**Tail flag (per BND-08 discipline):** WI-tails unpinnable in-env on both US auctions; MOF publishes no avg yield → 40Y tail unpinnable too. Flagged, immaterial (gating legs already clear).
+
+**Position:** TLT puts HOLD, Will NO-ADD 7/16 stands. No new pre-registered add-gate. Live re-arm candidates unchanged: DFII10 >2.5 sustained (11bp away), FOMC 7/28-29 hawkish guidance-tone, weak coupon in 7/27-28 cluster.
+
+**Escalation:** NONE. No 🔴 route-out.
+
+---
+
 
 **Purpose:** Ephemeral session handoff. Read at boot, rewritten at closeout. Learnings → `MEMORY.md`; thesis → `thesis/THESIS.md`; live state → `STATUS.md`.
 

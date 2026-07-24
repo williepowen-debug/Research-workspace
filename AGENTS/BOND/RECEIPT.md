@@ -1,6 +1,23 @@
 # BOND — Run Receipt
 
-**Session:** 2026-07-23 (general-inbox processing — Will-tasked mid-day) · **Overwritten at closeout.** Live market open.
+**Session:** 2026-07-23 (Thu — boot → general inbox → **auction cluster grade** [Will-tasked, this pass]) · **Overwritten at closeout.**
+
+## ★ Auction cluster (this pass — 3 prints graded vs FROZEN pre-regs)
+
+| Auction | Primary source | BTC | Ind | Dealer | Grade |
+|---|---|---:|---:|---:|---|
+| 7/22 US 20Y-R (912810UV8) | TD R_20260722_2 | 2.64 | 69.12% | 14.67% | HOLDING (dealer softening flag) |
+| 7/22 40Y JGB | MOF eresul20260722 via SAM | 2.83 | — | — | FIRM (BTC-only; tail unpub) |
+| 7/23 10Y TIPS (91282CRE3) | TD R_20260723_3 | 2.30 | 65.16% | 9.86% | HOLDING (composition-strong, BTC-borderline; real HY 2.438 = +26.9bp vs 5/21) |
+
+**Full write-up:** `analysis/2026-07-23_grade_7-22-20Y_7-22-40Y-JGB_7-23-TIPS.md`
+**KB:** KB-BND-087 (13-col, CRLF via Python)
+**VX:** VX-BND-08 refreshed (long-end indirects firm); VX-BND-14 refreshed (TIPS = arm-#2 real-money corroboration)
+**STATUS:** state banner + catalyst row updated (both mark 3/3 no-marker)
+**Outbox:** none (no 🔴 escalation, no route-out)
+
+---
+
 
 ## Inbox processed (4 consumed → processed/, all classifications integrated)
 
