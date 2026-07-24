@@ -64,3 +64,94 @@ Setting this expectation explicitly so a clean run is not mistaken for "everythi
 
 ## Technical risk
 Main risk = markdown-table parsing of hand-maintained STATUS tables (irregular whitespace, `**bold**`, annotations). Mitigate: tolerant parser (split on `|`, strip markdown, skip separator rows), and prefer the most-structured surface (histogram over prose matrix; TSV over markdown where a pair exists).
+
+---
+
+# PHASE 4 — AS BUILT (2026-07-24, Will-directed)
+
+**Status: BUILT, acceptance-tested, wired into `boot.py`.** Note this is *not* the
+Phase 4 the original plan described (that was "wire boot.py + closeout step 15").
+Boot wiring is included here, but the substance is two **new checks** that the
+original 6-phase plan did not anticipate, because the failure class they cover had
+not been observed yet.
+
+## Why Phase 4 exists
+
+Two coherence bugs on 2026-07-24, **neither catchable by any single-file review**:
+
+**Bug 1 — instrument mismatch.** A vector downgrade was armed against an instrument
+that does not publish the series the vector's own trigger names. V2 (Subprime Auto
+60+) resolves on the **Fitch ATR** monthly index; it was armed against the **NY Fed
+HHDC**, which publishes only a *blended* auto series and no subprime series at all.
+The vector definition lived in `THESIS.md`; the arming happened in `STATUS.md`.
+Neither file was internally wrong.
+
+**Bug 2 — cross-ledger monotonicity.** `POP-P06` (SBA 7(a) default **>5%** by
+Q4-2026) sat at **50%** while `CRL-15` (**>6.5%**, same series, same date) sat at
+**65%**. Impossible: >5% is strictly implied by >6.5%, so P(>5%) ≥ P(>6.5%). Each
+ledger was internally consistent; the violation exists only in the *pair*, and the
+parent/sub-agent split guarantees nobody reads both at once.
+
+## Schema change
+
+`thesis/PREDICTIONS.tsv` gains an 11th column, **`Instrument`** (and sub-agent
+ledgers may adopt it):
+
+    <source> :: <series> :: <op><value>
+    e.g.  SBA :: 7(a) default rate :: >6.5%
+
+`qualitative` is accepted as the threshold clause where no numeric bar exists.
+Documented in `workbook/SCHEMA.tsv`.
+
+## Check D — instrument declaration
+- **HARD** — `Status=OPEN` with a blank `Instrument`. The prediction does not
+  record what would resolve it. This is the bug-1 class.
+- **SOFT** — malformed (not 3 `::` parts), or a threshold clause that won't parse
+  as `<op><value>` (Check E will skip it).
+- Resolved rows are exempt from the HARD rule; declaring them is audit hygiene.
+
+## Check E — cross-ledger threshold monotonicity
+Groups CARL's ledger **and every `sub_agents/*/workbook/PREDICTIONS.tsv` carrying
+an `Instrument` column** by `(source, series)`. Within a group, for rows with the
+same operator direction:
+- `>` / `>=` — a **higher** threshold is stricter → its confidence must be **≤**
+  that of any lower threshold.
+- `<` / `<=` — a **lower** threshold is stricter → same rule inverted.
+
+**HARD** when the two rows share a normalized timeframe; **SOFT** when timeframes
+differ (the implication may not hold across horizons — a human decides).
+
+**Coverage gaps are reported, not skipped.** A sub-agent ledger without an
+`Instrument` column emits a SOFT finding naming it. *An unscanned ledger must never
+read as a clean one* — that is the same silence that produced both bugs.
+
+## Acceptance test (run 2026-07-24, PASSED)
+Reseeded the real bug — `CRL-15` back to 65%, `POP-P06` back to 50% — and Check E
+produced:
+
+    🔴 HARD CARL/CRL-15  MONOTONICITY: CARL/CRL-15 (>6.5) at 65% EXCEEDS
+                         POP/POP-P06 (>5) at 50% on 'sba :: 7(a) default rate'
+                         — the stricter threshold cannot be more likely (same timeframe)
+
+Check A independently caught the same seed as confidence drift against the STATUS
+mirror. Reverted; suite returns to 0 hard.
+
+## Boot wiring + the `--warn-only` contract
+`boot.py` runs it last, with `--quiet --warn-only`.
+
+`--warn-only` forces **exit 0** while still printing every finding, plus a
+🔴-prefixed summary line (🔴 is in boot's `KEY_MARKERS`, so it survives collapsed
+mode). Rationale: boot renders a non-zero exit as **FAIL**, and *"the checker found
+drift"* and *"the checker crashed"* must not look identical in the boot summary —
+the first is information, the second is breakage. **Closeout runs it WITHOUT
+`--warn-only`**, where exit 1 is the gate before commit.
+
+## Known gaps (honest)
+- 4 sub-agent ledgers (DOC, GIG, PHAN, POLLY) have no `Instrument` column yet →
+  currently reported as SOFT coverage gaps. Adding the column to each is cheap and
+  is the obvious next increment.
+- Check E compares thresholds only within a `(source, series)` string match; two
+  rows describing the same series with different wording will not group. The
+  `Instrument` strings are therefore a small controlled vocabulary in practice —
+  worth a periodic eyeball.
+- Checks B (THESIS↔STATUS score) and C (CATALYSTS↔CALENDAR) remain unbuilt.

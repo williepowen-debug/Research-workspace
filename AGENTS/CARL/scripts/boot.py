@@ -37,6 +37,13 @@ BOOT_SEQUENCE = [
     ("Housing Pulse (FRED)",      "housing_pulse.py",     [], "HOUSING PULSE",   False),
     ("Docket Countdown",          "docket_countdown.py",  [], "CATALYSTS",       False),
     ("ABS Trust Monitor (EDGAR)", "abs_monitor.py",       [], "ABS FILINGS",     True),
+    # Phase-4 wiring (2026-07-24): surfaces mirror drift, undeclared instruments,
+    # and cross-ledger monotonicity violations at BOOT rather than at closeout —
+    # the 7/24 bugs were both live for hours before anything looked at them.
+    # Warn-and-surface (--warn-only): a finding prints loudly but does NOT render
+    # as a script FAILURE — "drift found" != "script crashed". Closeout still
+    # runs it without --warn-only, where exit 1 is the gate before commit.
+    ("Consistency Check (A/D/E)", "consistency_check.py", ["--quiet", "--warn-only"], "CONSISTENCY", False),
 ]
 
 # Key markers to show in collapsed mode
