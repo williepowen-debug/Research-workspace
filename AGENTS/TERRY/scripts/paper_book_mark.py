@@ -35,13 +35,15 @@ import argparse
 import os
 import re
 import sys
+import time
 from datetime import date, datetime, timedelta
 from pathlib import Path
 
 SCRIPTS_DIR = Path(__file__).resolve().parent
 TERRY_DIR = SCRIPTS_DIR.parent
 PAPER_BOOK = TERRY_DIR / "PAPER_BOOK.tsv"
-DEFAULT_STALE_DAYS = 2  # business days
+DEFAULT_STALE_DAYS = 2   # business days
+PHASE2_GATE_COUNT = 6    # trailing-90d would-fire count that opens Phase 2 (PAPER_BOOK_DESIGN.md §Phase 2, pinned 2026-07-24)
 
 
 def _ensure_deps_or_reexec() -> None:
@@ -182,6 +184,48 @@ def _fetch_chain(ticker, expiry, opt_type):
     return chain_fetch.fetch_chain(ticker, expiry, opt_type)
 
 
+def _make_run_fetch(base_fetch=_fetch_chain, retries=1, sleep_s=0.5):
+    """Per-run chain fetch: dedupe identical (ticker,expiry,type) pulls within one
+    run (twin rows on the same series pull ONCE and mark identically) and retry
+    once on a transient fetch error (yfinance JSONDecodeError / rate-limit flake)
+    so a random hiccup does not leave one row UNMARKED while its twin marks fine
+    (the 2026-07-24 PB-0001 case). Only SUCCESSFUL pulls are cached; a hard
+    failure after all retries propagates so mark_row degrades to UNMARKED — never
+    a fabricated mark."""
+    cache = {}
+
+    def fetch(ticker, expiry, opt_type):
+        key = (ticker, expiry, opt_type)
+        if key in cache:
+            return cache[key]
+        last_exc = None
+        for attempt in range(retries + 1):
+            try:
+                result = base_fetch(ticker, expiry, opt_type)
+                cache[key] = result
+                return result
+            except Exception as e:  # transient — retry, then propagate
+                last_exc = e
+                if attempt < retries and sleep_s:
+                    time.sleep(sleep_s)
+        raise last_exc
+
+    return fetch
+
+
+def would_fire_90d(rows, today):
+    """Trailing-90-day would-fire count = the Phase-2 volume-gate metric
+    (PAPER_BOOK_DESIGN.md §Phase 2; gate opens at PHASE2_GATE_COUNT). Counts every
+    row (OPEN or CLOSED — a card that fired and closed still fired) whose `opened`
+    date falls in the trailing 90 days."""
+    n = 0
+    for r in rows:
+        d = _asof_date(r.get("opened"))
+        if d is not None and 0 <= (today - d).days <= 90:
+            n += 1
+    return n
+
+
 def compute_mark(match, today, now_str):
     """Given a matched chain row dict, return (mark, mark_asof, note) or
     (None, None, reason). MID when NBBO live; last-trade when stale; never faked."""
@@ -234,9 +278,10 @@ def run(args):
     print(f"PAPER — card-quality shadow book, NOT an endorsed P&L. {PAPER_BOOK.name}")
     print(f"OPEN rows: {len(open_rows)} of {len(rows)} | stale-bar: {args.stale_days} business days\n")
 
+    run_fetch = _make_run_fetch()  # dedupe identical series + retry-once on transient flake
     stale, marked, problems = [], 0, []
     for r in open_rows:
-        new_mark, new_asof, note = mark_row(r, today, now_str)
+        new_mark, new_asof, note = mark_row(r, today, now_str, fetch=run_fetch)
         pid = r.get("paper_id", "?")
         struct = r.get("structure", "?")
         if new_mark is None:
@@ -261,6 +306,13 @@ def run(args):
         print(f"  ⚠ STALE  {pid} {struct} — mark_asof {asof} ({age} business days)")
     for pid, struct, note in problems:
         print(f"  ⚠ UNMARKED {pid} {struct} — {note} (prior mark kept, not fabricated)")
+
+    gate = would_fire_90d(rows, today)
+    if gate >= PHASE2_GATE_COUNT:
+        gate_msg = "— ★ GATE TRIPPED: Phase-2 salaried-desk trigger met (PAPER_BOOK_DESIGN.md §Phase 2 — confirm salary tranche w/ Will)"
+    else:
+        gate_msg = "(un-tripped; Phase 1 shadow-only)"
+    print(f"\nPhase-2 volume gate: would-fire (90d) {gate}/{PHASE2_GATE_COUNT} {gate_msg}")
 
     if args.dry_run:
         print("\n--dry-run: no write.")
@@ -336,6 +388,43 @@ def selftest():
         save_tsv(tp, b, h, rws)
         b2, h2, rws2 = load_tsv(tp)
         assert b2 == b and rws2[0]["mark"] == "0.10"
+
+    # _make_run_fetch: dedupe (base called once for same key) + retry-once
+    calls = {"n": 0}
+
+    def flaky_once(ticker, expiry, opt_type):
+        calls["n"] += 1
+        if calls["n"] == 1:
+            raise ValueError("simulated JSONDecodeError")  # first attempt flakes
+        return ([{"strike": 77.0, "type": "P"}], {})
+    rf = _make_run_fetch(base_fetch=flaky_once, retries=1, sleep_s=0)
+    r1 = rf("TLT", "2026-09-30", "put")            # attempt1 fails -> retry succeeds
+    assert r1[0][0]["strike"] == 77.0 and calls["n"] == 2, calls
+    r2 = rf("TLT", "2026-09-30", "put")            # cache hit -> base NOT called again
+    assert r2 is r1 and calls["n"] == 2, calls
+    # distinct key -> fresh pull
+    rf("WAL", "2026-09-18", "put")
+    assert calls["n"] == 3, calls
+
+    # hard failure after retries -> propagates (row degrades to UNMARKED, never faked)
+    def always_fails(ticker, expiry, opt_type):
+        raise RuntimeError("dead feed")
+    rf2 = _make_run_fetch(base_fetch=always_fails, retries=1, sleep_s=0)
+    try:
+        rf2("TLT", "2026-09-30", "put")
+        assert False, "expected propagation"
+    except RuntimeError:
+        pass
+
+    # would_fire_90d: counts opened-in-window rows (OPEN or CLOSED), ignores old/blank
+    tref = date(2026, 7, 24)
+    wf_rows = [
+        {"opened": "2026-07-17 16:00 ET", "status": "OPEN"},    # 7d ago -> in
+        {"opened": "2026-07-20 09:50 ET", "status": "CLOSED"},  # 4d ago, closed -> in
+        {"opened": "2026-04-01 10:00 ET", "status": "CLOSED"},  # 114d ago -> out
+        {"opened": "", "status": "OPEN"},                        # blank -> out
+    ]
+    assert would_fire_90d(wf_rows, tref) == 2, would_fire_90d(wf_rows, tref)
 
     print("paper_book_mark.py SELFTEST: PASS")
     return 0

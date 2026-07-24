@@ -17,7 +17,7 @@ A **fixed/salaried** bankroll (not unlimited paper money) is the key. Infinite p
 ### The 3 open questions — answered
 | Open Q | Resolution | Why |
 |---|---|---|
-| Bankroll size / salary cadence | **N/A for Phase 1** — the shadow book needs no bankroll; it tracks would-fire cards to close. Bankroll is a Phase-2 concern. | Phase 1 measures card quality, not prioritization — no capital constraint needed yet. |
+| Bankroll size / salary cadence | **N/A for Phase 1** — the shadow book needs no bankroll; it tracks would-fire cards to close. Bankroll is a Phase-2 concern. **Phase-2 gate now quantitatively pinned (2026-07-24, Will-approved) — see §Phase 2 / Sharpening 4; no live salary set until volume nears the gate.** | Phase 1 measures card quality, not prioritization — no capital constraint needed yet. |
 | Shadow-only vs straight to salaried | **Shadow-only (Phase 1).** Salaried desk deferred behind a quantitative volume gate. | The prioritization test can't bind at ~2-3 cards/month (Sharpening 4). |
 | Auto-fill on trigger vs approved-only | **Auto-fill on trigger — regardless of Will's approval.** | The *only* version that generates a record: the whole problem is 0 approvals. Approved-only would inherit the same near-zero volume. Labeled "card-quality record, not a P&L Will endorsed." |
 
@@ -25,7 +25,7 @@ A **fixed/salaried** bankroll (not unlimited paper money) is the key. Infinite p
 1. **Auto-fill on trigger is THE design decision, not a detail.** Every card that reaches would-fire state fills the shadow book *independent of the approval gate* → measures card quality. This is what actually attacks PAT-028.
 2. **Capture the refusals — they're the best data.** The only product so far *is* the refusals. Every row carries a `will_decision` field (APPROVED / PASSED / NO-DECISION); the **PASSED subset is the counterfactual "ghost"** — at close it answers *did the discipline to say no save or cost money*. One table, a decision column (cleaner than a separate lane). Explicitly NOT a P&L that argues for looser deployment — it calibrates the pass decision.
 3. **Fill rule needs one more tooth.** Ask/bid still flatters at size and widens at the open. Add: (a) fill at the **trigger timestamp**, not close; (b) a **slippage penalty** for wide-spread names (bid/ask > 15% of mid → fill one tick worse than the posted side, or a fixed haircut); (c) record `entry_basis` (exact quote + timestamp) so every fill is auditable; (d) trigger while market closed → fill at next-open, never mid.
-4. **Defer Phase 2 behind a quantitative volume gate.** Prioritization is only testable when would-fire setups *exceed* bankroll capacity. Build the salaried desk ONLY once the trailing would-fire rate exceeds a plausible salary tranche — otherwise it's complexity measuring nothing.
+4. **Defer Phase 2 behind a quantitative volume gate.** Prioritization is only testable when would-fire setups *exceed* bankroll capacity. Build the salaried desk ONLY once the trailing would-fire rate exceeds a plausible salary tranche — otherwise it's complexity measuring nothing. **★ Gate pinned 2026-07-24 (Will-approved "pin the # / defer live salary"):** Phase 2 opens when **trailing-90-day would-fire count ≥ 6 cards** (≈ ≥2 would-fire/month sustained a full quarter — the point where a monthly tranche can no longer fund them all and *choosing* becomes a real judgment test). Measured from `PAPER_BOOK.tsv` `opened` timestamps; `paper_book_mark.py` surfaces the running `would-fire (90d): N/6` count at boot as an early-warning. **No live salary is set now** (at N=2 it would measure nothing) — only the trigger is armed.
 5. **Small-N honesty.** A clean shadow book gives *directional* feedback, not significance, for a long while. No calibration/Brier scoring and no decision acts on the record until **N ≥ 10 closed positions per lane**; until then rows carry `notes = "N-too-small"`. Guards against over-reading an early lucky/unlucky streak.
 6. **Marking cadence caveat.** TERRY is spawned on-demand, not continuous — a paper option can sit unmarked for days while it decays. Marks are **as-of-last-spawn**, stamped and staleness-flagged; the equity curve is lumpy by construction and must be labeled so, never pretended continuous.
 
@@ -42,6 +42,7 @@ A **fixed/salaried** bankroll (not unlimited paper money) is the key. Infinite p
 | `card_id` | originating setup/fire card (e.g. TRY-FIRE-004-ZONE2/3, TRY-BUILDER-DHI-PHM) |
 | `opened` | ET date/time of the would-fire trigger |
 | `will_decision` | APPROVED / PASSED / NO-DECISION (the refusal-calibration key; PASSED = the ghost subset) |
+| `lane` | `paper` / `real` (added 2026-07-24). A would-fire card that Will ALSO filled live gets `real`; auto-filled cards he didn't execute are `paper`. Keeps the card-quality record from being blended with a live P&L at scoring — split by lane once N≥10. |
 | `structure` | e.g. "TLT Sep-18 77P x1" |
 | `entry_fill` | paper fill price per the fill rule |
 | `entry_basis` | exact quote + side + timestamp + any slippage penalty applied (auditable) |
@@ -94,8 +95,13 @@ The **7/17 004 re-fire ZONE 2/3** (77P × 45ct = $495) is the natural seed: it r
 ## Post-build refinements (TERRY, next boot — non-blocking)
 Surfaced by the 7/19 build verification (PROME): (1) **live marks need `.venv/bin/python`** (yfinance), not bare `python3` — the mark helper degrades to UNMARKED under bare python; boot step 5b notes it, but confirm your boot invokes the venv. (2) **Seed PB-0001 `entry_basis` says "live pull"** for a 7/17 timestamp — tidy to "last-close pull" (the $0.11 value is the correct documented basis) and confirm the **Sep-30** expiry matches the ZONE 2/3 card (arm ladder was Sep-18; the 7/17 re-fire crash-tail may legitimately differ — just verify).
 
-## Phase 2 — SALARIED DESK (deferred behind the volume gate)
-Notional bankroll (e.g. $10k, or a monthly salary tranche), prioritization, running equity curve. **Build ONLY once the trailing would-fire rate exceeds the salary-tranche capacity** (Sharpening 4) — until prioritization actually binds, it measures nothing. Clearly labeled SEPARATE and bound by the same-rules guardrail.
+## Phase 2 — SALARIED DESK (deferred behind the volume gate — trigger now pinned)
+Notional bankroll (monthly salary tranche), prioritization, running equity curve. **Build ONLY once the volume gate trips** (Sharpening 4) — until prioritization actually binds, it measures nothing. Clearly labeled SEPARATE and bound by the same-rules guardrail.
+
+**Pinned gate (2026-07-24, Will-approved):**
+- **Volume trigger:** trailing-90-day would-fire count **≥ 6 cards** (from `PAPER_BOOK.tsv` `opened`). Below it, prioritization can't bind; at/above it, choosing which cards get tranche capital is a real test. `paper_book_mark.py` prints `would-fire (90d): N/6` each boot.
+- **Placeholder salary tranche: ~$1,500/month notional** (= 3 cards at the $500/card cap) — **deliberately set BELOW the would-fire $-demand at the gate so prioritization actually binds.** *(The old "$10k" example was too loose: at $500/card it funds 20 cards/month and would never bind at any realistic desk volume.)* **Placeholder only — Will confirms the exact figure when volume nears the gate** (that's the "defer live salary" half of the 7/24 decision).
+- **Cadence:** monthly tranche, top-up on the 1st; unspent capital does NOT roll (a salary is use-it-or-lose-it opportunity cost, which is the whole point of the test).
 
 ## Standing guardrails
 - **Subordinate to the thesis work** (same rule as the day-trading loop) — never displaces core construction.
