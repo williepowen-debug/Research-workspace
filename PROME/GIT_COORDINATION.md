@@ -16,7 +16,7 @@ This doc is the live coordination surface (vs the archived `AGENTS/PROME/` tree)
 - Never use broad index operations: no `git add .`, no `git add -A`, no `git reset HEAD`, no force-push, no broad checkout.
 - Dirty tree means inspect and triage. Do not stash, reset, or pull to make the dirt disappear.
 - Use explicit pathspecs for adds and commits.
-- Local scoped commits use explicit pathspecs; **push is automated at closeout via `scripts/safe-push.sh`** (ff-gated, fails safe; serial multi-machine predicate). YEYOU stays manual/branch (see Push Discipline).
+- Local scoped commits use explicit pathspecs; **push is automated at closeout via `scripts/safe-push.sh`** (ff-gated, fails safe; serial multi-machine predicate). **Auto-push exceptions (full list, root canon):** YEYOU manual/branch · TERRY self-sweeps · WALTER architectural per `BOARD_CONSUMPTION_SPEC` §7 (see Push Discipline).
 - No trade execution or external/public sends are authorized by this document.
 
 ## Ownership
@@ -32,6 +32,10 @@ Prome may write:
 - Explicitly scoped integration/archive paths approved by Will.
 
 Prome must not treat archived `AGENTS/PROME/` files as live instructions.
+
+**Cross-dir carve-out (root canon, ratified 2026-07-23, Will-approved — HENRY orphan-gap memo):** a packet **PROME authored** into another agent's `inbox/` is PROME's to commit, **and PROME must** — an uncommitted packet never reaches the recipient (~12% of packets orphaned this way pre-detector). Commit it explicitly-pathed with the recipient named in the subject (`PROME -> <RECIPIENT>: <what>`). Someone else's work outside `PROME/` remains strictly off-limits.
+
+**Session-end orphan check (root canon step 1b, adopted 2026-07-23):** before the closeout commit batch, run `bash scripts/orphan_check.sh PROME` — read-only advisory (~5s, exit 0 always). `[likely YOURS]` = packets PROME authored → commit under the carve-out above; `[not yours]` = someone else's work → flag, never sweep.
 
 Example:
 
