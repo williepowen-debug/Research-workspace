@@ -51,7 +51,15 @@ Detection (HY-280 break, print alerts) is LIQUID/SENTRY; TERRY owns everything A
 
 ---
 
-## Current Session (2026-07-21 Tue — four-print day graded, ZERO tells, no trade)
+## Current Session (2026-07-24 Fri — boot + 3d catch-up + position refresh + shadow-book build-out; no capital moved)
+
+**Delivered:** Booted 3 days dark → caught up 7/22 slate + 7/23 prints. **(1) Resolvers, all clean/no-trade:** WAL-GRIND **HELD DORMANT** (REGINALD Stage-1+2: narrow-middle — (b)-migration on known $99M life-sci + (a)-no new credits; no lapse/no entry; Sep puts→Q3); **monoline TRY-FIRE-003 graded NO-FIRE** (COF printed 7/21 beat/provisions-DROPPED = counter-evidence; ALLY+SYF 0/4 each → path (m) 0-fired all 3 → consumer leg defers to Q3; card grade logged; un-owned-gate closed); WALTER reconfirmed squeeze-risk signal 7/23. **(2) Position truth REFRESHED to live 7/24 marks** (STATUS snapshot rebuilt: $39,527/61% cash/−9.98% [improved from −16.6%]; 004 = +12.4%/$390 into FOMC week; day-trade QQQ 690C 0DTE ITM auto-exercise flagged to Will). **(3) Shadow-book build-out (Will-approved):** Phase-2 salary **SET $1,500/mo paper** + gate pinned ≥6/90d (now 2/6); mark-helper dedupe+retry+gate-line; `lane` column; **`Decision Logic` rulebook codified** (open/prioritize/close, 4 rulings A–D, card-is-the-algorithm). 5 commits (4 TERRY + swept HEARTBEAT), all on origin.
+
+**Next entry:** 004 monitor into FOMC 7/28-29 (harvest ≥3×→half; disarm DGS10 close<4.50; gap cluster month-end→FOMC→~8/13 CPI). Consumer/monoline + WAL roll-vs-salvage → Q3 prints. Standing Will Qs still open: risk unit ($/%/R), track-all-vs-approved.
+
+---
+
+## Prior Session (2026-07-21 Tue — four-print day graded, ZERO tells, no trade)
 
 **Delivered:** Boot consumed 3 inbox items (REGINALD WAL-grind CONFIRM · PROME VIO-116 re-open · DEWEY info) → **(1)** WAL-grind card upgraded: confirm folded in, Jan-27 tenor locked, **§2b PRINT GATE staged** (lapse/enter tells, credit-line-not-NIM read, 77.5-netting + 67.5-roll-leg execution flags). **(2)** **ALLY + SYF graded 0/4 un-mask tells each** (SEC 8-K primary for SYF) → **path (m) 0/2 NO FIRE**, TRY-FIRE-003 defers to COF 7/23 (strong-single ≥2 tells now required); SYF datum for CARL-side: masking lever (book shrinkage) REVERSING while credit improves = contrary evidence to the mechanism. **(3)** **WAL Q2 graded off the 8-K within the hour: enter-tells 0/3 → NO ENTRY**; SM −22% QoQ / NCO 37bps below band / $99M ABSENT (unresolved≠cured); **counter-grain nonaccrual +$70M + classified assets +$58M → improvement-vs-migration adjudication routed to REGINALD** (card = GATE-CLOSED/ADJUDICATION-PENDING, not lapsed); WAL grader MASTER=BUILD but collective-beta NON-COUNTING → path (a) no advance. **(4)** **VIO-116 write-back → PROME: 004 RIDES UNCHANGED** ($170 stays fenced; confirmation ≠ fresh discriminator). **(5)** OZK headline only (credit/RESG = call 7/22); after-hours WAL −0.75%/OZK −1.14% = no gap. **(6)** HY OAS re-stamped 269 [7/20], moved AWAY from 280. 004 marked $0.13 mid vs $0.11 fill; paper book marked live.
 
@@ -84,9 +92,7 @@ Detection (HY-280 break, print alerts) is LIQUID/SENTRY; TERRY owns everything A
 
 1. **TRY-FIRE-004 — LIVE POSITION (fired 7/20, 30× TLT Sep-30 77P, $330 at risk).** Monitor only: harvest ≥3× fast spike → half; disarm on DGS10 close <4.50; catalyst cluster 7/22 JGB → 7/27-28 month-end → FOMC → ~8/13 CPI. Scale the ~$170 ONLY on a fresh discriminator (VIO-116 re-open adjudicated NOT one, 7/21).
 2. **Un-owned-gate check before every closeout** (from the 005 postmortem, now standing): any resolver landing after session end gets a named grader or an explicit STATUS pickup line. 005 drifted 7d because nobody owned its gate.
-3. **HBAN 7/23 BMO print** — position rides through on its own (lottery ticket, resolved); no action owed unless Will re-engages.
-4. **OZK 7/21 print** — mild headwind flagged (div-hike + $200M buyback 7/1); tell = criticized/SM build not NCO (WALTER SIG-006) → watch the credit supplement.
-5. **WALTER signal decay** — 4 of 6 rows >21d; squeeze-risk row 63d and load-bearing for sizing any short. Reconfirm-or-retire before citing.
-6. **WAL grind put-spread card** (`setups/WAL_grind-putspread_2026-07-17.md`, CONDITIONAL) — becomes actionable only on: REGINALD confirms WAL grind thesis + AFTER 7/21 print + WAL still 78–85 + live debit ≤~$3.75. **Preferred as the ROLL TARGET for the dying Sep WAL puts, not additive.** Needs thesis-owner confirm — TERRY has not consumed REGINALD's current WAL read.
+3. ✅ **DONE (7/24 catch-up):** HBAN 7/23 print (rode through, lottery dust), OZK 7/21 (graded — headwind), WALTER decay (squeeze-risk row RECONFIRMED as-of 7/23), monoline 003 (NO-FIRE, defers Q3). All cleared from the pickup.
+4. **WAL grind put-spread card** (`setups/WAL_grind-putspread_2026-07-17.md`) — **REGINALD adjudicated it HELD DORMANT (7/22): no lapse, no entry.** Sep WAL puts (70P/67.5P, ~$95 mkt, −92/−95%) roll-vs-salvage defers to Q3; preferred as ROLL TARGET not additive (rule #7). Don't let them silently expire in Sept without a roll decision.
 7. **Options diagnostic follow-ups:** Part C (historical IV-crush) is BLOCKED on paid IV-surface data (named, not attempted). The grind-vs-crash §3d note is a candidate to promote to a numbered rule after a bank card actually fires. Consider the same reachability check on the KRE/OZK basket if Will wants those re-expressed too (KRE 60 is the worst-positioned — 0% empirical reach).
 8. **Carries:** Will's risk-UNIT question ($/%/R); day-trade timestamped order export. **Options open items** (RESEARCH.md): deep-OTM/rates VRP gaps = acknowledged, NOT tracked (recognize-if-encountered).

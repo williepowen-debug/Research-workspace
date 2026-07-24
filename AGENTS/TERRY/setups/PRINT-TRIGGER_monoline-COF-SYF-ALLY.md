@@ -3,6 +3,8 @@
 **Thesis owner:** CARL (consumer-credit cohort — owns SYF/ALLY/COF) + REGINALD Q2 grid (monoline LEAD block, "prints first, un-maskable unsecured") + grading instrument. NEXUS regime = backdrop. · **Card pre-built:** 2026-06-27 · **Fired:** ____
 **Status:** PROPOSE-ONLY — Will [Approve] required (rule #5). The earliest Q2 tell; precedes the regional cards (TRY-FIRE-002).
 
+> **★ 2026-07-24 GRADE — Q2 monoline slate: NO FIRE (path (m) 0-fired). Consumer leg DEFERS to Q3 (Sep/Oct prints).** COF printed **7/21** (not the 7/23 the ZONE-1 window guessed): **beat, loan-loss provisions DROPPED, biggest card lender releasing reserves = counter-evidence class** — exactly the masked-clean headline ZONE 1 says is the *expected* non-signal. **ALLY + SYF both 0/4 un-mask tells (7/21)** — SYF a net reserve RELEASE, book growing while credit improves (contrary to the masking mechanism). → **0 un-mask tells across all three names**, neither the ≥2-on-one-name nor the synced-across-≥2 confirm line met → **NO ENTRY, card stays PROPOSE-ONLY/dormant.** Deep-subprime tail-canary (CRMT near-demise, $300M Silver Point rescue defaulted, 7/21) is a bifurcation datum for CARL/BROCK, NOT a monoline-put tell here. Re-test = Q3 monoline prints. *(Un-owned-gate now closed per the 005 lesson.)*
+
 ══════════════════════════════════════════════════════════════
 ZONE 1 — PRE-LOCKED (do NOT re-derive at fire)
 ══════════════════════════════════════════════════════════════
