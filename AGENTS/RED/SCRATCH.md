@@ -26,11 +26,12 @@
 5. **Re-mark: War 6→11 / Managed 36→32 / Rescue 3→2; net-bear 57→62; conf 69 held.** (ML-RED-104; CHANGELOG entry)
 6. **Ledger sweep:** 9 docket rows resolved + 7 new rows (7/26 sinking watch · 7/28 BDC-2/SBCF · 7/28-29 FOMC · 8/3 Russia ban · 8/4 KFRC · 8/13 July CPI · ~8/15 FFIEC MI3); KB-062..069; ML-101..105; VX-RED-025 WEAKENED→CONFIRMED-FIRED (35/65, VX_HISTORY logged); STATUS full rewrite; CALENDAR S22→24 resolved-table added.
 7. Outbox memo to PROME (re-mark + grades). Inbox: 3 packets processed (CARL-weld closure, PROME 7/21 cc, DEWEY FHA/VA info); **OSPREY steelman ask kept live (owed).**
+8. **★ CHG-RED-043 premium-as-breadth red-team EXECUTED (2nd block, Will-sequenced):** verdict MODERATE — FALCON's scenario layer VINDICATED (D capped through both fires, zero capital moved = behavioral proof); challenge lands on (A) scalar concavity (42/50 has ~14.5 risk-response pts = ONE repricing on 4 quote surfaces; only +8 range left for real destruction → P/R split-scalar rec) and (B) no route-count rule at synthesis (week = 3 independent classes; ≥5 surfaces reuse the insurance datum, my CHG-042-C included/disclosed). Report `challenges/FLEET_PREMIUM_BREADTH_REDTEAM_2026-07-24.md`; memo routed PROME; ML-106. 3 falsifiers pre-registered (de-escalation joint-decay / Bab-through-deal / 2-mo stickiness).
 
 ## NEXT SESSION (dated, priority-ordered)
 1. **🔴 Sat-Mon 7/25-28 — BDC marks (FSK/OBDC/OCSL/MFIC 7/25 → ARCC 7/28) + SBCF** = the structural-narrowing test. Benign → CHG-027 capitulation REVIEW (write it honestly); NAV cuts → non-bank migration vindicated.
 2. **🔴 FOMC 7/28-29 pre-write BEFORE Tuesday** — first Warsh meeting post-$100; hike-2026 already base case (71.5%). Separate substance/reaction axes (ML-RED-085). The DOVISH branch is the rates-arm killer (KB-067) and the market isn't positioned for it; TRY-FIRE-004 rides through.
-3. **🟠 Premium-double-counting red-team** (PROME's invited angle 7/21): 4 premium legs (Hormuz/Bab/Suez-reroute/CPC) → 42/50 ATH convergence — premium counted as breadth? Next creative deliverable; NEXUS has same inputs.
+3. ~~Premium-double-counting red-team~~ **DONE S24 (CHG-RED-043)** — watch for FALCON/NEXUS fold of the two recommendations; falsifiers live.
 4. **🟠 OSPREY steelman ask (owed since 7/12)** — crude-infra-spared: choice / capability / reporting-bias; weight 3 non-converging refining figures.
 5. **🟡 Verify:** EGBN Q2 grade (unlocated at S24) · sinking-watch 7/26 outcome · June MF-starts print · KFRC date (~8/4).
 6. **Daily:** HY >280 re-cross (3bps) · CCC >1000 (9bps; DISH 7/31 mechanical-tightening trap) · SKEW vs 140 · Brent vs $85 book levels.

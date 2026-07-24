@@ -73,6 +73,7 @@
 
 | Challenge | Target | Strength | Status |
 |---|---|---|---|
+| **CHG-RED-043** (NEW) | FALCON/NEXUS/fleet (scalar + leg-counting) | MODERATE | **Premium-as-breadth red-team (PROME-invited).** FALCON's scenario layer VINDICATED (D capped through both fires; zero capital moved). Lands on: (A) the 42/50 scalar is concave in severity — ~14.5 pts are ONE risk-repricing quoted on 4 surfaces; only +8 headroom left for real capacity destruction → recommend P/R split-scalar; (B) no route-count rule at synthesis — this week = 3 independent classes; ≥5 surfaces carry the same insurance datum (incl. my CHG-042-C, disclosed). 3 falsifiers pre-registered. `challenges/FLEET_PREMIUM_BREADTH_REDTEAM_2026-07-24.md` |
 | **CHG-RED-042** | FALCON/BRENT/NEXUS/fleet | MOD-STRONG | **INTERIM: 3 of 4 axes CONFIRMED** vs the week — (A) strand-scenario realized (no pullback came; zero capital through first-ever $100), (C) insurance/freight stickiness went market-wide (CARL weld decomposition ratified my leg), (B) half (Gulf zero-loss held; cross-theater barrels materialized). Capacity-claim caveat intact. Residual test = de-escalation decay-split. ML-RED-103. |
 | **CHG-RED-027** | Self (bifurcation) | LIVE | **Eval run at the cluster: ~1.5 of 4 — highest yet, below the 2-of-4 capitulation line.** (c) FIRED on the letter (3+ regionals backed off). Structural leg narrows to OZK + non-bank. Capitulation review if BDC marks + SBCF/EGBN also print benign. ML-RED-102. |
 | **CHG-RED-028** | Self (stagflation-realization) | LIVE | Re-dated falsifier = **July CPI 8/13** (the $100-oil shock lands there, post-FOMC). Pre-write the tree by 8/6. |
@@ -85,7 +86,7 @@
 
 1. **FOMC 7/28-29 pre-write** — first Warsh meeting post-$100 Brent, with hike-2026 already the base case (71.5%). Separate SUBSTANCE from REACTION axes (ML-RED-085); the dovish branch is the rates-arm killer and the market is NOT positioned for it. TRY-FIRE-004 (30× TLT Sep $77P) rides through it.
 2. **BDC marks 7/25-28 + SBCF** — the structural-narrowing test. If the non-bank leg also prints benign, CHG-027 goes to capitulation review; if NAV cuts land, the bear's migration to non-bank surfaces is vindicated.
-3. **Premium-double-counting red-team** (PROME's invited angle, 7/21 cc): four premium-mechanism legs (Hormuz, Bab, Suez-reroute, CPC) feed a 42/50 ATH convergence score — is premium counted as breadth? Queued as the next creative deliverable; NEXUS has the same inputs.
+3. ~~Premium-double-counting red-team~~ **DONE same session (CHG-RED-043)** — verdict MODERATE, FALCON's marks vindicated, two recommendations routed (FALCON P/R split-scalar; NEXUS route-count line). Watch for the fold; falsifiers live.
 4. **Daily:** HY 280 re-cross (3bps) · CCC 1000 (9bps) · sinking watch closes 7/26 · SKEW vs 140.
 5. **OSPREY steelman ask (owed since 7/12):** crude-infra-spared = choice, capability, or reporting bias; weight the 3 non-converging refining-offline figures.
 6. **July CPI 8/13 decision tree by 8/6** (CHG-028; oil lands in this print).
