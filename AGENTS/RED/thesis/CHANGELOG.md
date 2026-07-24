@@ -4,6 +4,20 @@
 
 ---
 
+## 2026-07-24 ~12:45 ET — S24 catch-up + loop-closure: War 6%→11% (+5, reopen condition met severalfold), Managed −4, Rescue −1; net-bear 57→62. CHG-027(c) FIRED on the letter — logged against myself the same session
+
+**Confidence 69% (=). Net-bear 57%→62% (+5).**
+
+**What happened (7/17→7/24, RED dark):** Brent **first-ever >$100 settle** 7/23 ($100.19, H $102.01; 5 straight >$85). **GATE-FALCON-001 FIRED leg-1** (Bab ladder completed: declaration→coercion→kinetic execution — Houthi attack on tanker *Encelia* 7/22; fires-not-sinkings, zero capacity destroyed, sinking watch closes 7/26). **GATE-OSPREY-001 FIRED leg-(b)** 7/24 (CPC halt 5 straight sessions = first actual barrels offline, ~7.5-9M bbl deferred, Kazakh output −21%; independent theater, non-conflated). War-risk insurance **market-wide both theaters** (Red Sea +150% w/w). Meanwhile the 7/21-22 bank cluster printed **benign across 7 credit surfaces** (WAL not-surprise-tier, leading ticks REVERTED; only OZK bear-side — adverse-selection conjunction TRUE under an EPS beat, NCO 0.69% second breach); claims 187K = lowest since Sep-1969; rates channel relabeled **policy-path/real-rate — my S23 flag upheld** (HEARTBEAT 7/18 #1); TRY-FIRE-004 filled (30× TLT Sep $77P, first live TERRY card).
+
+**War 6→11 (+5):** my 7/10 reopen condition ("2nd independent fresh Iran leg: transit ≤~18/day, JWC re-list, or 4th+ tanker hit") was met severalfold — formal Hormuz closure holding at 11% transits, kinetic tanker attack, JWC HIGH-RISK listings, first $100 settle, plus a second-theater supply leg. Holding 6 would have been the mirror image of the CHG-041 over-sizing error: last time I sized the tail too big before it fired; refusing to re-mark after it realizes is the same calibration failure reversed. Capped at 11 (not higher) because: zero capacity destroyed, FALCON D held 65 pending a physical gate, and Brent gave back 4.5% today. **Funded: Managed 36→32** (first-ever $100 settle + CCC 991 + DFII10 series-highs strain muddle-through; cohort-benign keeps it a strong #2) **+ Rescue 3→2** (ORACLE: Fed-hike-2026 71.5% = base case; rescue path deader than any prior mark). Stag 38 HELD sole-modal — the oil-into-core test is the *July* CPI (8/13); don't bank an unpassed print. Acute 13 held (CCC 9bps from 1000, MOVE re-open vs SKEW fading toward the 140 kill). Soft 4 held (187K claims + canaries recovering vs $100 oil cap).
+
+**Loop-closure (the other direction, same session):** **CHG-027 2-of-4 eval ran at ~1.5 of 4 — highest ever** — with sub-trigger **(c) FIRED on the letter** (3+ regionals backed off: ZION classified down, WAL SpecMention −22%/criticized −$32M, ALLY/CCBG/VLY benign). Framework survives (below the 2-of-4 line) but the structural leg **narrows to OZK + non-bank surfaces**; capitulation review if BDC marks 7/25-28 + SBCF/EGBN also print benign. **CHG-040 RESOLVED PARTIALLY CONFIRMED** at its discriminator: OZK name-story confirmed, sector-story closed against RED. **CHG-042 interim: 3 of 4 axes confirmed** (strand-scenario realized — the pass-on-chase pullback never came until after $100; insurance stickiness went market-wide; capacity-claim caveat intact). **RED-05 RESOLVED CORRECT** (modal — RHI Q2 not positive; canaries re-arm forward at KFRC ~8/4). Scorecard 8W/10C/1A.
+
+**Old view → new view:** "War 6%, energy tail fragile-watch, bear edge = names while the index sleeps" → "War 11%, energy 🔴 realized ($100 regime, two theaters), bear thesis internally bifurcated: macro legs (oil/real-rates/Fed-locked/CCC-tail) realizing hard while the original regional-bank credit leg backed off to one name." Binding: BDC 7/25-28 → FOMC 7/28-29 (dovish = rates-arm kill) → July CPI 8/13.
+
+---
+
 ## 2026-07-10 ~22:00 ET — CHG-041 FINAL GRADE: PARTIALLY CONFIRMED, mechanism vindicated / sustain denied. War 7%→6% (−1, partial not full reversal — deviates from my own 7/8 pre-registration)
 
 **Confidence 69% (=). Net-bear 58%→57% (−1).**
