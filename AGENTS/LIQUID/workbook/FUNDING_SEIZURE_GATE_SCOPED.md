@@ -1,5 +1,5 @@
 # Funding-Seizure X1 Pre-emption Gate — SCOPED + CALIBRATED
-**Registered:** 2026-07-17 (LIQUID) · **KB:** KB-LIQ-079 (supersedes KB-LIQ-074 CANDIDATE) · **Status:** REGISTERED — LIQUID-owned funding-seizure watch; **the X1-modification semantics (bear can fire without HY>280) still need BROCK sign-off** (X1 is shared canon — the wrapper-leads half is BROCK's).
+**Registered:** 2026-07-17 (LIQUID) · **KB:** KB-LIQ-079 (supersedes KB-LIQ-074 CANDIDATE) · **Status:** ✅ **SIGNED OFF WITH RIDERS — BROCK 2026-07-20** (`inbox/processed/2026-07-20_from-BROCK_gate-liq-079-x1-signoff.md`). X1-semantics interface CLOSED; riders R1–R4 folded into §Interface below and binding on this spec. Also retires the KB-LIQ-074 sign-off chase. **Not armed** at sign-off (SOFR99−IORB +5bp [7/16], 25bp under the +30 line) — definitional, not live.
 **Input:** DEWEY 07b calibration `AGENTS/DEWEY/output/2026-07-16_funding-gate-calibration.md` (closes the 7/09 parent's two declared gaps: episode generalization + false-positive rate) + parent `2026-07-09_funding-seizure-x1-gate.md`.
 
 ---
@@ -31,6 +31,21 @@ DEWEY 07b's finding: **the gate does NOT generalize.** It is scoped to **funding
 4. **Dispersion leg:** SOFR 1st–99th spread widening / SRF>0 / **GCF−TriParty premium widening** (dealer-side, earliest tell — `ofr_stfm.py`) / named AI-HY basket dispersion (CRWV/APLD, KB-LIQ-073).
 
 **Fire consequence (ACTION):** LIQUID funding-seizure pre-emption memo → **PROME + NEXUS + BROCK + HENRY**, same session. Re-run KB-LIQ-062 (beta-vs-substance) on any concurrent HY move. → **GATES.tsv row proposed to PROME (GATE-LIQ-079).**
+
+## ★ Interface with X1 — BROCK riders R1–R4 (BINDING, signed off 2026-07-20)
+
+BROCK owns the wrapper-leads half of X1, so the X1-semantics interface is theirs to adjudicate. Verdict: **sign off with riders.** All four are interface-scoped and bind this spec. BROCK explicitly did **not** re-derive the funding mechanics or the FP census — those stay LIQUID/DEWEY's, and the sign-off confers no validation of them.
+
+| # | Rider | What it forbids / requires |
+|---|---|---|
+| **R1** | **Separate root, NOT an X1 satisfaction** | A funding-origin seizure is a *plumbing* event, not credit-recognition. **X1 semantics are UNCHANGED: X1 still requires BOTH the wrapper-leads half AND HY OAS >280 sustained.** Any 079 fire is memo'd as a **funding-seizure pre-emption** — never as "X1 MET" or "wrapper-leads fired." Two triggers, two names. |
+| **R2** | **Does NOT auto-open the X1 sizing gate** | X1's sizing gate governs *private-credit-as-an-independent-bear-root*. A funding seizure hits everything and validates nothing about PC specifically. 079 may arm a **funding/liquidity** posture; **PC sizing stays gated on X1** (or on marks-window substance). Different bear, different sizing rail. |
+| **R3** | **A 079 fire SUSPENDS the wrapper-leads read** | During a live funding-origin seizure BROCK's observable is **contaminated, not readable** — wrappers and managers both gap on forced deleveraging (Mar-2020 fire-sale pattern), which is not credit recognition. BROCK re-adjudicates on a **clean leg after the plumbing event clears.** Corollary to the shock-archetype row above ("credit LEADS ~17bd"), wrapper-specific. |
+| **R4** | **Regime caveat carried, non-blocking** | My own declared weak point #1 (FP census is regime-dependent; **RRP is now ~$0.9B — the buffer the census was built under is GONE**) means a real fire may need recalibration. That is a **LIQUID call at fire-time**; logged here so the interface record carries it. |
+
+**Consequence requested (PROME registers, not BROCK):** GATES.tsv `GATE-LIQ-079` = **ARMED-scoped**, with **R1/R2 baked into the row semantics** (separate root; does not open the X1 sizing gate); fire-consequence memo → PROME + NEXUS + BROCK + HENRY.
+
+⚠️ **Open, and now the binding constraint on this gate:** the **false-positive backtest** (Rank-3, deferred 7/18) was supposed to run *before* the sign-off ask went out — the sign-off arrived first. R4 is therefore live: the "+30bp non-calendar" arm line still rests on a census built in an RRP-buffered regime that no longer exists. **Do not treat sign-off as calibration.** The FP rate is the next owed piece of work on this file.
 
 ## False-positive calibration (the second gap DEWEY closed)
 

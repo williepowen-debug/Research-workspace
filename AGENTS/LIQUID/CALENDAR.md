@@ -1,16 +1,16 @@
 # LIQUID — Calendar & Data Releases
 
-**Last Updated:** 2026-07-17 Fri (twin-sync w/ CATALYSTS.tsv: CPI 7/14 + PPI 7/15 + TIC 7/16 + H.4.1 7/9 → Resolved; forward set = 7/25 BDC / 7/27 auctions / 7/28-29 FOMC / 7/31 tenders / 8/14 10-Q / YE Warsh; Fed blackout 7/18-30)
+**Last Updated:** 2026-07-23 Thu (twin-sync w/ CATALYSTS.tsv — **2 events ADDED**: 7/30 CRWV $2.6B DDTL commitments + YE-2026 NAIC CLO RBC bite. Forward set = 7/25 BDC / 7/27 auctions / **7/30 CRWV DDTL** / 7/28-29 FOMC / 7/31 tenders / 8/14 10-Q / **YE NAIC RBC** / YE Warsh; Fed blackout 7/18-30) | prior: 2026-07-17 Fri
 
 > **Source-of-truth pairing:** `workbook/CATALYSTS.tsv` is the machine-readable forward-event docket (dated rows, consumed by the boot countdown). **This human calendar is its twin — they must not diverge in the *event set*.** When you add or resolve a dated catalyst, update both. Rolling daily watches (HY-OAS direction, 30Y <4.90 unwind, USD/JPY, SOFR-IORB) are NOT dated catalysts — they live in STATUS danger windows + `scripts/boot.py`, not CATALYSTS.tsv.
 
 ---
 
-## This Week (Jul 13–17, 2026) — Fed blackout begins 7/18 (July FOMC 7/28-29)
+## This Week (Jul 20–24, 2026) — Fed blackout through 7/30 (July FOMC 7/28-29)
 
-**No LIQUID-owned forward dated catalyst this week** — June CPI (7/14) + PPI (7/15) printed COOL, June TIC (7/16) benign (all in Resolved below). **Next dated catalyst = ~7/25 Q2 BDC marks.** Per the pairing note above, rolling daily watches (HY-OAS band, 30Y/10Y, USD/JPY, SOFR-IORB, the funding-seizure acute leg) live in `scripts/boot.py` + STATUS danger windows, NOT here.
+**Densest forward window of the quarter — five dated catalysts inside seven sessions:** 7/25 Q2 BDC marks → 7/27 2Y/5Y auctions → 7/28 7Y + FOMC day 1 → 7/29 FOMC → 7/30 CRWV DDTL commitments → 7/31 Q2 tender pubs. Per the pairing note above, rolling daily watches (HY-OAS band, 30Y/10Y, USD/JPY, SOFR-IORB, the funding-seizure acute leg) live in `scripts/boot.py` + STATUS danger windows, NOT here.
 
-**Live state 7/17 (pointer, not canonical — boot.py governs):** HY OAS 271 [7/15], X1 gate CLOSED; **GATE-LIQ-069 ARMED** (S&P ORCL BBB- 7/9); KB-071 oil-beta path graded MISS; funding clean (SOFR99-IORB +5bp, GCF-Tri +2bp, RRP $0.125B, **reserves rebounded $3.143T**); APO $120.6 (<$130); USD/JPY 162.5 (>160, SAM); MOVE 68 / VIX 18.
+**Live state 7/23 (pointer, not canonical — boot.py governs):** HY OAS **268** [7/22], X1 gate CLOSED (12bp under 280); **CCC 981 / BB 157 — dirty leg widening while clean leg tightens** (KB-LIQ-084 composition drift); **DURATION REGIME RE-ESTABLISHED BOTH LEGS — DGS30 5.15 (6-of-6 >5.00), DGS10 4.67 (6-of-6 >4.50), 2Y 4.31; front-led bear flattener = policy-path, NOT term-premium** (KB-LIQ-086); funding clean (SOFR−IORB −3bp, 99th tail +8, SRF $0.01B, RRP $0.90B, reserves $3.062T / $262B cushion); lone amber SOFR75−IORB +2bp (single print, needs 3 non-Q-end days); APO $119 (<$130); USD/JPY 163.86 (>160, SAM). **GATE-LIQ-079 SIGNED OFF w/ riders (BROCK 7/20)**, not armed (+5bp vs +30 line).
 
 ## Later (2026)
 
@@ -20,7 +20,9 @@
 | **~Jul 27 (modeled)** | **Late-July Treasury auctions** (2Y/5Y/7Y) | **2Y indirect is the watch** — June cycle: 2Y 55.45% (0.45pp above the <55% line, closest approach), 5Y 61.6%, 7Y 57.6%; all cleared, directs absorbed the step-down. Sustained <55% = FOI demand-hole confirm | LIQUID, BOND |
 | **Jul 28-29 (CONFIRMED)** | **July FOMC — hike watch** | July-hike only ~23% (the ~75% was P(hold), transposed — ORACLE 6/22); hike seen landing Q4 (Oct-modal ~53%, hike-by-YE ~61%), consistent with 9/18 dots. Retests KB-LIQ-060 | LIQUID, HENRY, ALL |
 | **~Jul 31** | **Q2 PE/PC tender publications** (retroactive 2nd-gate resolver) | Ares PMF Q2 results (expired 6/29) · Partners Group US ~$16B fund confirm (~6% vs 5% cap — same manager, not a 2nd-manager fire) · Blue Owl OCIC/OTIC Q2 · BCRED final proration. A 2nd-MANAGER gate here = contagion confirm 🟠 | BROCK, LIQUID, REGINALD |
+| **Jul 30 (CONFIRMED, noon ET)** | **CoreWeave $2.6B DDTL commitments due** | **First dated test of the KB-LIQ-085 AI-credit bid-thinning read.** Loan at SOFR+425-450; CRWV −37.7%/30d, >$20B raised YTD. **Pulled or repriced materially wider = marginal AI borrower losing funding access** (supports deterioration); **clean fill at talk = supports RED's supply-indigestion steelman.** Source conf 0.70 mirror-sourced — re-pull primaries before load-bearing use | LIQUID, VULCAN, BROCK, RED |
 | Late Jul / Aug (~8/14) | Q2 10-Q cycle (broader BDC marks) | NA reversal vs compounding; div-cut cascade | BROCK, LIQUID |
+| **~YE2026** | **NAIC CLO RBC charges BITE** (insurer capital treatment) | Does the new CLO risk-based-capital treatment force insurer reallocation out of CLO tranches — watch **BSL vs MM/PC AAA separation** (my LIQ-04 benchmark arm) and Q4/Q1 insurer-driven mezz selling. ⚠️ Insurer forced reallocation would widen tranches **independent of credit fundamentals = TECHNICAL, must not be scored as credit-substance recognition** (KB-LIQ-062). Companion dates: SVO 3-notch tool live since 2026-01-01; collateral-loan RBC YE-2027. From DEWEY 7/20 (UBS/Nationwide CFO wrap: $500M wrapping $375M to A2 → insurers hold at **<1% RBC vs ~30% direct**; wrapped-level stress NOT yet observed) | LIQUID, BROCK, SHADE, REGINALD |
 | **~YE2026** | **Warsh Balance-Sheet Policy review outcome** | post-QT framework (RMP pace / SRF / RRP / long-run SOMA) "back in play" — Leg A future buffers (thinner). *(QT runoff ended Dec-2025 — KB-LIQ-070.)* Standing multi-quarter monitor | LIQUID, REGINALD, ALL |
 
 ---
