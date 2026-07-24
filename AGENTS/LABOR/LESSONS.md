@@ -1,7 +1,7 @@
 # LABOR — LESSONS
 
 LABOR-specific mistake-patterns to avoid. Read at boot (B3); written at closeout (C5).
-**Scope:** durable LABOR-domain learnings that are NOT transferable to other agents (those go to auto-memory). One lesson per entry. Newest at top.
+**Scope:** durable LABOR-domain learnings — including LABOR-specific applications of general patterns that live in auto-memory (each such row cites the auto-memory slug it partners with). One lesson per entry. Newest at top.
 
 ---
 
@@ -12,7 +12,7 @@ LABOR-specific mistake-patterns to avoid. Read at boot (B3); written at closeout
 
 ## L-07 — Book the announcement TYPE (voluntary offer vs involuntary RIF); verify WARN filings exist before attributing a WARN surge to a company
 **Pattern:** LABOR carried "MSFT 8,750 (Jun 6)" in the priced-cuts list and attributed part of the mid-June WARN surge to "MSFT WARNs landing." The Jul-2 sweep found: (a) the 8,750 was a **voluntary-retirement OFFER program** (Rule of 70; offers Apr 23-26, window closed ~Jun 6; acceptances never public) — VR acceptances mostly do NOT file UI claims, so booking it as layoffs overstates the claims pipeline; (b) **Microsoft has zero 2026 WARN filings** — the surge attribution had a phantom leg, which propagated into a pre-registered prediction's mechanism text (LAB-17) within hours of writing it.
-**Fix:** (1) Every entry in an announcement ledger carries its TYPE: VR-offer / involuntary RIF / closure / contract-churn — they have different claims-flow signatures (offers ≈ 0 claims; contractor-swap WARNs can convert to ~0, e.g. Fortrex TX 85→0; remote-heavy cuts skip WARN entirely, e.g. Rackspace 750). (2) Before naming a company as a WARN-surge driver, confirm its filings exist in a tracker/state primary. (3) When a correction lands, grep ALL derivative surfaces same-day (auto-memory `[[finding_verification_correction_downstream_propagation]]`).
+**Fix:** (1) Every entry in an announcement ledger carries its TYPE: VR-offer / involuntary RIF / closure / contract-churn — they have different claims-flow signatures (offers ≈ 0 claims; contractor-swap WARNs can convert to ~0, e.g. Fortrex TX 85→0; remote-heavy cuts skip WARN entirely, e.g. Rackspace 750). (2) Before naming a company as a WARN-surge driver, confirm its filings exist in a tracker/state primary. (3) When a correction lands, grep ALL derivative surfaces same-day (auto-memory `[[finding_verification_correction_downstream_propagation]]`). **Promoted to auto-memory `[[finding_announcement_type_and_filing_precheck]]` 2026-07-24** (transferable to any agent aggregating announcements — BROCK, CARL, REGINALD, CORAL).
 **First seen:** Jul 2 2026 PM sweep (MSFT VR correction; LAB-17 mechanism re-worded same-day).
 
 ## L-06 — Ratio-gauge thresholds (U-3) can be silently defeated by the DENOMINATOR; playbook grids need a supply-artifact branch
@@ -27,7 +27,7 @@ LABOR-specific mistake-patterns to avoid. Read at boot (B3); written at closeout
 
 ## L-04 — Structured ledgers (VX/KB/FLOW) drift months behind the narrative STATUS
 **Pattern:** STATUS.md gets refreshed every session, but the C3 workbook sync keeps getting deferred — so on Jun 14 the VX claims rows were still dated **Mar 9** (213K initial / 1.868M CC with dead DHS-shutdown caveats), and FLOW still read "Claims 209K / NFP +50K (Dec)." A query against the ledger returns confidently-wrong stale values with **no staleness signal** — the row just shows an old "Last Updated" date a reader may not check. Orc's framing: "this is how a ledger gap silently distorts a trajectory read later."
-**Fix:** (1) When deferring full C3, still refresh the **load-bearing rows** (claims/NFP/U-3) — they're cheap and most-queried. (2) Do **not** blanket-stamp a too-recent `[STALE date]` — the rows carry *their own* (often much older) dates; a generous stamp overstates freshness. (3) Treat a 2+-cycle C3 deferral as a real debt, not a footnote. Transferable to any agent with a STATUS+workbook split (CARL/REGINALD/BROCK/HENRY) — candidate for auto-memory promotion.
+**Fix:** (1) When deferring full C3, still refresh the **load-bearing rows** (claims/NFP/U-3) — they're cheap and most-queried. (2) Do **not** blanket-stamp a too-recent `[STALE date]` — the rows carry *their own* (often much older) dates; a generous stamp overstates freshness. (3) Treat a 2+-cycle C3 deferral as a real debt, not a footnote. Promoted to auto-memory `[[finding_ledger_drift_behind_narrative]]` (transferable to any agent with a STATUS+workbook split — CARL/REGINALD/BROCK/HENRY).
 **First seen:** Jun 14 2026 (Orc-flagged; partial fix = 2 claims rows refreshed, rest still owed).
 
 ## L-03 — DOGE/government YoY comps are base-effect-poisoned
