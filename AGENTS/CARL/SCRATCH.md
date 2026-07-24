@@ -1,85 +1,94 @@
 # CARL SCRATCH
-**Last session:** 2026-07-18 ~11:20–15:30 ET (Sat — Fable-orchestration session, Will co-piloting; 4-agent Opus wave)
-**Type:** Quick-fix drain + 3 reconciles (RED weld / SYF / DEWEY) + docket integrate-and-prune + Opus wave (earnings-prep, POLLY verify, BOARD-99 clear, consistency_check build) + CRL-22 re-spec v2 (Will-approved). **No score change — 51/70 holds; THESIS v2.6.2.**
+**Last session:** 2026-07-24 ~14:00–17:00 ET (Fri — 6-day-gap catch-up, Will co-piloting)
+**Type:** Full catch-up: energy regime re-mark + Q2 earnings cluster graded + 8 inbox drained + 46 BOARD signals dispositioned + full write-back. **CRL-26 ✅ CONFIRMED, CRL-24 ❌ MISSED, 6 confidence cuts, 1 re-arm. No score move — 51/70 holds, two opposite-signed candidates opened.**
 
-**PRIORITY-1:** **CRL-26 GAS CARD GRADES BY SUN 7/20 CLOSE** — $3.992 at 7/18 boot, $0.008 from the line. ≥$4.00 → CONFIRMED per card §3 (STATUS/KB/NEXUS write-backs + cross-flag HENRY/BRENT); <$3.85 first → MISS. **Sustained cross ≥~2wk → V5 3→4 = WILL DECISION (do not auto-bump).** Then **Tue 7/21 = 4-NAME EARNINGS CLUSTER** (SYF 6:00am · ALLY 7:30am · DHI pre-open · COF 4:05pm AMC) — grade against `2026-07-18_q2-earnings-prep.md` pre-registered fire/hold lines.
+**PRIORITY-1:** **PRE-REGISTER A READ FOR FOMC 7/28-29 BEFORE THE MEETING** (Tue-Wed, 4-5 days out). V12 anchor at 5; un-fire is a dovish pivot across 2 consecutive meetings. **The pricing baseline moved and must be beaten, not restated: Sept-hike odds >80%** (from 52% a week ago; July itself ~83% HOLD), 10Y 4.707%, 30Y in its longest >5% run since 2007 [BOARD SIG-W-20260723-012]. **The live question is whether Warsh's June "look through energy" line survives a $4 pump and a $100 Brent** — that line was delivered into a *falling* pump. Warsh's 7/20 Senate testimony already read hawkish ("no tolerance for inflation"). The Jun-17 pre-registered modal was a clean hit; use the same packet pattern.
+
+**⚠️ CARRY THIS FORWARD — I corrected myself mid-session and the correction is easy to lose:** **JULY GASOLINE CPI (8/13) WILL PRINT NEGATIVE MoM despite the pump above $4 and rising.** CPI is a **monthly average**; June averaged **$4.050** (the month ran DOWN, $4.305→$3.831) vs July **~$3.95** → **~−2.6% MoM.** My 7/16 line "July energy flips sharply positive → headline deflationary→hot" was a level-vs-average error and I repeated it in this morning's draft before checking. **A soft 8/13 print is arithmetic, NOT a mechanism failure — do not let it be graded as falsification (mine or RED's). The real oil-passthrough test is AUGUST CPI ~9/10.** Both dates are now on the docket. KB-CARL-357.
 
 ---
 
-## CHANGES SINCE LAST SESSION (7/16 → 7/18)
-- **Gas $3.943 → $3.992** (AAA, 7/18) — crossing imminent; diesel $5.005 → **$5.088**; Brent $85.63 → **$88.10**.
-- **ATTOM H1 landed** (rel 7/16, HOMER memo 7/17): FL #1 state 0.27%; conversion accelerating (563d timeline). **UNH Q2** (rel 7/16) + **Beige Book July** (rel 7/15) + **June retail** (rel 7/16) all printed in the gap — ALL integrated this session.
-- **BOARD INDEX moved 7/17** → backlog hit 99 — CLEARED this session.
-- Inbox 7/17 arrivals (PROME weld ask, REGINALD SYF ask, PROME DEWEY routing, WALTER note) — ALL processed.
+## CHANGES SINCE LAST SESSION (7/18 → 7/24)
+- **GAS CROSSED $4.00 on 7/20** — FRED GASREGW $4.001 (w/e 7/20, +14.6¢ WoW), GasBuddy daily touched $4.00 same day, **AAA $4.09 by 7/23 → $4.105 on 7/24**. CRL-26 graded CONFIRMED.
+- **BRENT SETTLED $100.19 on 7/23** (from $88.10 at my last session) after the **7/22 UKMTO-confirmed Houthi attack on the Saudi tanker *Encelia*** + Red Sea declared zone → **GATE-FALCON-001 leg-1 FIRED**. $96.21 on 7/24 (−4.45%). Diesel $5.088 → **$5.240**. War-risk **+150%** vs 7/17.
+- **The 4-name earnings cluster fired 7/21 and resolved AGAINST the framework** (SYF/ALLY/DHI/COF), PHM 7/22, AXP 7/24. **ELV turned out to have reported 7/15, not 7/22 — the docket date was wrong.**
+- **USTR MISSED its 7/20 Sec-301 deadline**; **Sec-122 expired 7/24** with the Federal Circuit appeal live under a 6/11 stay.
+- **Initial claims w/e 7/18 = 187K, lowest since Sep-1969** (LABOR via PROME).
+- BOARD INDEX moved 7/23 → backlog hit **46** (cleared this session). 8 inbox items arrived.
 
 ## WHAT HAPPENED (this session)
-1. Boot clean (boot.py --quick; origin tip; OZK 5 uncommitted files flagged, untouched).
-2. **Quick fixes:** KB-296 savings 2.6→3.0 (WALTER note); docket 4 past-due integrated & pruned (ATTOM H1 → KB-335 + CRL-06 Q2-actuals annotation; UNH Q2 → KB-336; Beige Book July → KB-337; Treasury-7/15 phantom date → ~8/5 verify row). CRL-06 STATUS mirror drift fixed.
-3. **RED weld decomposition delivered** (owed): diesel $5.088 = Russia-structural (~+$0.15 + crack) / Hormuz-reversible (~$0.08-0.10 visible, ~$0.30 still loading) / sticky insurance-freight. **Aug-Sept core feed rides structural+sticky legs, NOT Hormuz.** KB-338; outbox → PROME.
-4. **SYF reconcile CLOSED w/ REGINALD** (pre-print): guide-cut = Apr-21 action (5.5-6.0% RANGE → <5.5%; May 8-K reiterates); NEXUS "lowered guidance" = stale-as-news. Canonical pairing = LEVEL (May 5.5% at ceiling) + GUIDE (<5.5% unchanged). Reply in REGINALD inbox.
-5. **DEWEY food-fork reconciled:** no collision — three-channel decomposition (proteins persistent = live CRL-10 mechanism / F&V fading base-effect / fertilizer disinflationary; DTN 7/15 flip-check: no retail re-arm). KB-339; outbox → PROME.
-6. **Opus wave (4 agents, all delivered):** (a) EARNINGS-PREP — packet + IR-confirmed dates (Tue 7/21 4-name cluster; docket corrected); (b) POLLY — UNH Q1 83.9% VERIFIED correct vs EDGAR, press "lowest-in-8-qtrs" refuted → **CRL-22 RE-SPEC v2 Will-approved (60→55): v1 H2-level legs = seasonality artifacts → FY-guide-revision-direction legs** (SV-POLLY-2026-07-18-01); (c) BOARD-CLERK — 99 proposals, CARL ratified w/ 2 overrides (ATTOM-Q1 owner-ahead; NAR-EHS→HOMER), appended + reconciled (0 undisp/0 dupes); (d) BUILDER — consistency_check.py Phase 1 built, acceptance-tested, **first live catch = CRL-26 unmirrored** (fixed).
-7. **BOARD integrations:** June retail discriminator ✅ GRADED (headline +0.9→+0.2 vs control +0.5 = May gas-padding confirmed); G.19 May revolving −$5.3B/−4.71% SAAR (KB-341, single-month flag); CRMT going-concern (KB-342); BofA prime-card counter (KB-343); container freight relay (KB-344, AEOLUS reconcile flagged); Kraft-Heinz CEO + phosphate-duty-free folded as row notes.
-8. Write-back full: STATUS header/rows/BOTTOM, CHANGELOG 7/18 entry, ROADMAP (3 threads resolved + RECENTLY RESOLVED row), TEAM (POLLY SV pass note), MEMORY (+seasonal-artifact-threshold finding), 6 zero-ref ABS docs retired to archive/abs_docs/.
+1. Boot clean (origin in sync; boot.py full + --quick). PROME had uncommitted files — flagged, untouched.
+2. **CRL-26 → ✅ CONFIRMED** at 70%. Logged the base-rate break (first year ever with two $4 surges) as the datum that matters more than the level. **V5 3→4 NOT auto-bumped** — sustained-cross window closes ~8/3, Will decision per the 7/16 card.
+3. **CRL-08 → re-armed 28→45%**, timeframe extended Jun-Jul → Aug-Sep *with a stated reason* rather than left stale-OPEN. Gap to $4.50 now ~41¢ (was 66¢).
+4. **Q2 cluster graded against the 7/18 prep packet — 0 of 4 confirming.** CRL-24 MISSED (SYF NCO 5.43%); ALLY −40bps QoQ; COF −39bps + **$662M allowance RELEASE**; AXP billings +9%, write-offs flat. Builders beat their margin guides on **construction-cost deflation**.
+5. **Six confidence cuts + the honest reasoning written down:** CRL-20 75→45, CRL-21 60→25, CRL-12 55→20, CRL-23 70→45, CRL-22 55→45, CRL-16 60→35.
+6. **Held the score deliberately and armed a named downgrade instead** — V2 4→3 resolving on the ~8/15 NY Fed Q2 HHDC (bureau-wide, un-masked), so "masking" can't function as an unfalsifiable escape.
+7. **RED S24 lag-poke ADOPTED in full** (6 items), incl. the falsifier rewrite (crack vs 5-yr seasonal norm) and a **pre-registered 8/3-8/17 diesel natural experiment, peak ~8/10** that CARL owns. Replied to RED with one correction back (the window is contaminated by the insurance step-up, so I won't claim a clean pass-through coefficient).
+8. 9 inbox drained (incl. one that arrived mid-session); 46 BOARD signals dispositioned (6/8/32), 0 undispositioned, 0 dupes; 5 docket rows integrated & pruned, 5 added; STATUS trimmed to the 250 cap (10 superseded rows retired); KB-345..357.
+9. `consistency_check.py` **caught CRL-24 left stale-open in the STATUS mirror** (2nd live catch). NEXUS_BRIEF header read-through **caught my own edit overwriting the `**Position:**` line** — exactly the garble class step 14b exists for.
 
 ## STATUS CHANGES
 | Item | Change |
 |------|--------|
-| Convergence | **51/70 HOLDS** (no vector moves; CRL-22 is a prediction re-spec, not a score event) |
-| CRL-22 | v1 → **v2 re-spec (Will-approved), conf 60→55**; legs now FY-guide-revision direction |
-| CRL-06 | Q2 actuals annotated (clears starts+filings, not REO); REO sub-watch RESOLVED (conversion accelerating) |
-| Gas row | $3.943 → $3.992 (CRL-26 pending) |
-| Diesel row | $5.005 → $5.088 + three-leg decomposition (weld fixed) |
-| FL Foreclosures | Q1 REO framing → **H1 #1-state 0.27% / 1-in-373** + conversion-acceleration read |
-| Retail Sales | June print + discriminator ✅ grade |
-| UNH row | Q2 integrated; baseline conflict resolved (press refuted) |
-| KB.tsv | 331 → **341 rows** (KB-335..344) |
-| BOARD_LOG | 423 → **522 rows** (99 cleared, 0 backlog) |
+| Convergence | **51/70 HOLDS** — but **two opposite-signed candidates now open**: V5 3→4 UP (~8/3, Will) and **V2 4→3 DOWN (ARMED, ~8/15 HHDC)** |
+| CRL-26 | OPEN → **✅ CONFIRMED** |
+| CRL-24 | OPEN → **❌ MISSED** |
+| CRL-08 | 28% → **45%**, timeframe Jun-Jul → **Aug-Sep** |
+| CRL-20 / 21 / 12 / 23 / 22 / 16 | 75→45 · 60→25 · 55→20 · 70→45 · 55→45 · 60→35 |
+| Gas | $3.992 → **$4.001 (FRED 7/20) → $4.105 (AAA 7/24)** |
+| **July CPI framing** | **CORRECTED** — "July flips sharply positive" (7/16) → **July gasoline CPI prints NEGATIVE ~−2.6% MoM; real test is Aug CPI ~9/10** |
+| Brent / Diesel | $88.10 → **$100.19 settle 7/23** ($96.21 7/24) · $5.088 → **$5.240** |
+| STATUS.md | **250 lines — AT cap** (12 superseded/duplicated rows retired to hold it) |
+| KB.tsv | 341 → **354 rows** (345-357; 332/338/350 amended) |
+| BOARD_LOG | 522 → **568 rows** (46 cleared, **0 backlog**) |
+| CATALYSTS.tsv | 17 → **18 rows** (5 pruned, 7 added, 0 past-due) |
 
 ---
 
 ## NEXT SESSION SHOULD
 
-### IMMEDIATE (24hrs — Sun 7/19-20)
-1. **CRL-26 gas card** — check AAA (gas_tracker.py); grade per card §3/§5. Sustained-cross → surface V5 3→4 to Will (don't auto-bump).
-2. **USTR Sec-301 decision Mon 7/20** (+ Sec-122 CIT-appeal watch) — tariff-transition read; POP co-owner.
+### IMMEDIATE (before Tue 7/28)
+1. **Pre-register the FOMC read** (see PRIORITY-1). Beat the >80% Sept-hike pricing, don't restate it.
+2. **Do NOT re-introduce the "July energy flips positive" framing** — it is corrected in STATUS/KB-357/NEXUS_BRIEF. 8/13 is pre-registered soft.
+3. **Answer the two Will decisions** if Will hasn't: **V5 3→4** (~8/3 test) and **CRL-21's position-action commitment** (my recommendation: wait for the ~Oct vintage leg — surfaced in `outbox/2026-07-24_to-PROME_two-will-decisions-plus-adverse-cycle.md`).
 
-### UPCOMING (this week)
-3. **Tue 7/21 — 4-name cluster:** grade SYF (CRL-24: NCO >5.5% AND ACL coverage <10.42% = FIRE; discriminator = coverage direction) · ALLY (CRL-21 leg-1: NCO ≥2.27%; reserve build-flip = confirm) · DHI (CRL-23 baseline: GM vs 19.7-20.2% guide) · COF after close (card NCO >5.5% + 30+ DQ ≥+25bps). Use the prep packet.
-4. **Wed 7/22 — ELV** (CRL-22 v2 first read: FY BCR guide direction — raise = mechanism corroborated) + **PHM** (GM vs 24.1% floor).
-5. **Fri 7/24 — AXP** (K-shape-top monitor) + **Sub-V sunset → POP refresh-then-demote fires** (refresh brief in ROADMAP remaining-lanes thread).
-6. **FOMC 7/28-29 — PRE-REGISTER a read before the meeting** (V12 anchor; no SEP; un-fire = dovish pivot 2 consec meetings).
-
-### UPCOMING (2+ wks)
-7. ~Aug 5 Treasury Phase 1 verification (STUE) · ~Aug 7 July NFP (V16 re-arm resolver) · ~Aug 15 NY Fed Q2 HHDC (CRL-05 breach window + auto-90+ verify) · Aug 21 Iran waiver expiry (CRL-08 tail).
+### UPCOMING (next 2 weeks)
+4. **~Aug 3 — V5 sustained-cross window closes.** Day count today: 4 days above $4.00 and rising. Track daily; this is the one that could move the score up.
+5. **Aug 3 → Aug 17 — diesel-lag natural experiment, peak arrival ~8/10.** CARL owns the measurement. Grade against the **12-24d band**, not 17-18d. ⚠️ Magnitude read is contaminated by the war-risk insurance step — report timing, not a clean pass-through coefficient.
+6. **~Aug 5** Treasury Phase 1 verification (STUE) · **~Aug 7 July NFP** (V16 re-arm resolver).
+7. **~Aug 15 — NY FED Q2 HHDC. THE most load-bearing print on the board.** CRL-05 direct (13.1% vs GFC 13.74%) **+ the V2 4→3 candidate + the auto 90+ ~5.6% verify**. If bureau data corroborates the clean issuer prints, V2 comes down and the masking read takes real damage. If it diverges, survivor-pool is confirmed.
+8. **~Aug 15** Russia ban lapse-or-extend — test the crack **vs its 5-yr seasonal norm**, not an absolute level. **Aug 21** Iran waiver expiry (CRL-08 live tail, not latent any more).
 
 ### BACKLOG
-8. consistency_check Phase 2 (Check B THESIS↔STATUS score) · STATUS trim if >250 · OSPREY 42.7%-refining verdict still pending (inbox watch) · container-freight AEOLUS reconcile (KB-344) · archive/-vs-prune PROME reconcile (ROADMAP open question) · KB Notes-blob trim (investigations backlog).
+9. **POP refresh-then-demote — its gate FIRED 7/24 and did not run** (recorded as an open ROADMAP thread, not silently pruned). Feeds CRL-15/16/17; **CRL-16's window closes 8/31 and I committed to forcing a call rather than letting it sit stale-OPEN.**
+10. **CRL-22 re-spec v3** — draft against metrics the issuers actually publish (FY adj-EPS guide direction / same-quarter-YoY BCR / Medicaid margin guide); route via POLLY's refresh (gate = Q2 P&C, ~now).
+11. Verify whether the **50% Canada tariff reaches building materials** (lumber) — logged as an explicit verify item in KB-356, deliberately NOT claimed in the CRL-23 confidence.
+12. consistency_check Phase 2 (Check B THESIS↔STATUS score) · container-freight AEOLUS reconcile (KB-344) · KB Notes-blob trim · archive-vs-prune PROME reconcile.
 
 ---
 
-## OUTBOX (3 new this session)
+## OUTBOX (1 new)
 | File | To | Summary |
 |------|----|---------|
-| outbox/2026-07-18_to-PROME_diesel-weld-decomposition.md | PROME | RED weld #4 decomposed; Aug-Sept core feed = structural+sticky legs, not Hormuz |
-| outbox/2026-07-18_to-PROME_dewey-food-fork-reconcile.md | PROME | Three-channel food decomposition; no divergence; CRL-10 62% holds; MARCO-relevant note |
-| (direct) AGENTS/REGINALD/inbox/2026-07-18_from-CARL_syf-one-figure-reconcile-CONFIRMED.md | REGINALD | SYF canonical pairing (level + guide direction); April guide-cut pinned |
+| outbox/2026-07-24_to-PROME_two-will-decisions-plus-adverse-cycle.md | PROME | Two Will decisions (V5 3→4; CRL-21 position-action) + the honest adverse-cycle report + 2 corrections to propagate (ELV date; CRL-22 unfireable) |
+| (direct) AGENTS/RED/inbox/2026-07-24_from-CARL_lag-poke-ADOPTED-all-six.md | RED | All 6 poke items adopted + one correction back (8/3-8/17 window is contaminated by the insurance step) + invited RED to attack "holding the score" |
 
-## INBOX (0 unprocessed) — 4 items drained to processed/ this session; WALTER note to inbox/WALTER/processed/.
+## INBOX (0 unprocessed) — 7 top-level + 2 WALTER drained to processed/ this session.
+> ⚠️ **A 9th item (NEXUS dark-window deltas) arrived MID-SESSION and I swept it to `processed/` unread** — caught only by the pre-commit `git status` review. **It contained the July-CPI correction above.** Lesson: re-`ls inbox/` before the closeout sweep; a session long enough to matter is long enough for new mail.
 
 ---
 
 ## WORKBOOK HEALTH
 | TSV / file | Rows/Lines | Note |
 |------------|------------|------|
-| STATUS.md | ~250 | AT cap after session adds — trim next mechanical session |
-| NEXUS_BRIEF.md | ~86 | re-stamped 7/18 |
-| KB.tsv | 341 | +10 (335-344), all 15-field clean |
-| PREDICTIONS.tsv | 26 | CRL-22 re-spec v2; 17 OPEN (incl CRL-26 pending) |
-| CATALYSTS.tsv | 17 | 0 past-due; dates IR-corrected |
-| BOARD_LOG.tsv | 522 | **0 backlog** (99 cleared 7/18) |
+| STATUS.md | **250** | AT cap — 12 superseded/duplicated rows retired this session to get here |
+| NEXUS_BRIEF.md | 91 | re-stamped 7/24; 6 new VIEW bullets; tensions line now **ONE ACTIVE** (was "none") |
+| KB.tsv | **354** | +13 net (345-357), all 15-field clean |
+| PREDICTIONS.tsv | 26 | **15 OPEN** (CRL-24→MISSED, CRL-26→CONFIRMED) |
+| CATALYSTS.tsv | 18 | 0 past-due; CALENDAR.md synced |
+| BOARD_LOG.tsv | **568** | **0 backlog** (46 cleared 7/24) |
 
 ## URGENT
-- **CRL-26 grades by Sun 7/20 close** — gas $3.992, one print away.
-- **Tue 7/21 4-name cluster** — prep packet ready; be at desk from 6:00am release.
-- **OZK has 5 uncommitted files** in shared tree (flagged at boot, not mine) — if a pull is ever blocked, that's why.
+- **FOMC 7/28-29 needs a pre-registered read and the window is 4 days.**
+- **~8/15 NY Fed Q2 HHDC is the arbiter for the whole masking framework.** Don't let it slip — it decides V2 and it decides whether "survivor bias" was analysis or excuse.
+- **Two Will decisions are open** and one of them (CRL-21) is a standing position commitment Will made in advance.
