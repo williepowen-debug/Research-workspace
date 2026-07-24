@@ -49,7 +49,7 @@
 | **WTI $100 (Jul) — war premium** | T2 | **22.9%** | −21.8 | **+15.2** | $932.4K | $27.7K | 🔴 supply leg; through >15%, nearing >25%. Intraday spike-retrace — read 7d-trend, liq thinning |
 | US invade Iran <2027 | T2 | 29.5% | — | **+7.0** | $46.8M | $687.4K | deep, escalate tail still fattening |
 | US-Iran deal 2026 (top) | T2 | 31.0% | +1.0 | **+8.0** | $79.8K | $7.2K | resolve tail ALSO rising (bimodal) |
-| **Iran mil-action vs Gulf State (daily)** | T2 | 7/24 **47.5%** | — | **+13 to +29** | $19-30K/leg | real | 🔴 war-widening; ~50%/day sustained thru 7/31, 7/19+20 YES (via `event`; ⛔dash-quirk) |
+| **Iran mil-action vs Gulf State (daily)** | T2 | 7/24 **46.5%** | — | **+13 to +29** | $11-51K/leg | mix | 🔴 war-widening; ~50%/day sustained thru 7/31 (real VOL every leg; resting book mixed $1-30K, deep on 4/9), 7/19+20 YES (via `event`; ⛔dash-quirk) |
 | Iran targets shipping (daily) | T2 | 7/24 32.5% | — | — | thin | $41-200 | ⚠️thin forward legs ~50% but low-liq; 7/23 2.1% mixed (via `event`) |
 | US declares war on Iran <2027 | T2 | 5.0% | +0.5 | +0.5 | $700.3K | $85.2K | narrow mechanism, low |
 | Iran ends enrichment by Dec 31 | T2 | 22.5% | +0.5 | +3.0 | $1.4M | $69.8K | firming |
