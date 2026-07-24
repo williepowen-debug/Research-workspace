@@ -226,6 +226,13 @@ def _finish(spot, opts, used, horizon, band, today):
         "regime": "NEGATIVE" if g0 < 0 else "POSITIVE",
         "call_wall": max(cg, key=cg.get) if cg else None,
         "put_wall": max(pg, key=pg.get) if pg else None,
+        # Near-tie guard (7/23): gamma-weighted walls are often a statistical
+        # coin-flip between adjacent round strikes — on 7/23 the 35d put wall was
+        # 7,500 (117.6) vs 7,300 (114.3), a 3% gap that max() broke arbitrarily and
+        # that I published as fact. Independent trackers all read 7,300-7,400.
+        # Expose the runners-up so a near-tie is visible rather than hidden.
+        "call_wall_top3": sorted(cg, key=cg.get, reverse=True)[:3] if cg else [],
+        "put_wall_top3": sorted(pg, key=pg.get, reverse=True)[:3] if pg else [],
         "n_contracts": len(opts),
         "source": used,
         "horizon": horizon,
