@@ -8,6 +8,43 @@ Tracks all changes to THESIS.md and PREDICTIONS.tsv. Reverse chronological. Each
 
 ---
 
+## 2026-07-24 (FIFTH PASS, Will-directed) — **BRIER AUDIT RUN. The record is bad: Brier 0.300/0.340, NEGATIVE skill, +28.9pp overconfident.** One surgical cut (CRL-07 85→40); no score change
+
+**Deferred since v2.5.1 (2026-05-01). Now run, and re-runnable:** `scripts/brier_audit.py` · full report `thesis/BRIER_AUDIT_2026-07-24.md` · KB-CARL-361.
+
+### The number, unsoftened
+| | As-recorded | Ex-ante (best recoverable) |
+|---|---|---|
+| Brier | **0.300** | **0.340** |
+| Climatology (always say 45%) | 0.223 | 0.223 |
+| **Skill** | **−0.349** | **−0.527** |
+| Mean forecast vs actual | 73.9% vs **45.0%** | 75.2% vs 45.0% |
+
+**Both worse than 0.25 — the score for saying "50%" to everything. Skill is NEGATIVE on both bases: the forecasts were worse than knowing only the base rate.** And the as-recorded number is *flattered*, because Confidence is stored at resolution and CARL trims losers before they resolve (CRL-03 ran 90→72, CRL-11 85→83). **Basis A is a ceiling on true skill.**
+
+Murphy: Reliability **0.109** (should be ~0), Resolution **0.037** (barely discriminating).
+
+### Confidence made calibration WORSE
+55-65% +10pp · **65-75% +34pp** · **75-85% +45pp** · 85-100% −2pp. Ex-ante, the 75-85% band went **0-for-2** and 85-100% went 1-for-3. **That is the inverse of a useful forecaster.**
+
+### The content pattern
+**Hits are "established trend reaches a level"** (CRL-04, CRL-06, CRL-18, CRL-26). **Misses are "series turns or crosses a threshold by a date"** (CRL-01, CRL-09, CRL-11, CRL-03) — four of five in the documented direction-right/magnitude-or-timing-wrong family, plus CRL-24, a **conjunction** priced at 60% when P(A∧B) ≤ min(P(A),P(B)).
+
+### The uncomfortable structural finding
+**CARL's documented failure taxonomy did not reduce CARL's failure rate.** Boot step 7c exists precisely to force reading the MISSED notes before writing a new prediction — and **CRL-24 was registered 2026-06-25, after CRL-01 and CRL-09 were already logged as misses, as a conjunction: the most predictable failure shape available.** Reading a taxonomy at boot is not applying it at registration. **Prescription: move the check from boot to registration**, candidate mechanical form in `consistency_check.py`.
+
+### What the audit does NOT license — and the action taken instead
+**A blanket −29pp haircut would be wrong.** The bias belongs to the **Mar-May vintage** (resolved-set mean 73.9%); the **current open book averages 51.8%**. Three months of trimming — including six cuts earlier today — already moved it most of the way. A wholesale haircut would push CRL-12/CRL-21 to ~5%.
+
+**So the action was surgical.** Only two open rows still carry the failed vintage's signature (≥75%):
+- **CRL-07 → CUT 85 to 40, and forced to resolve by 8/31.** It fits the *failure* shape: no numeric bar (flagged the same day as unfalsifiable-by-vagueness), magnitude already caveated (FL ~8% recipiency), window nearly closed.
+- **CRL-05 → HELD at 85.** It fits the *hit* shape: level-continuation on an established trend (12.70→13.1, climbing), the same shape as CRL-04/06/26.
+
+### Caveats
+N=10 — exactly at TERRY's N≥10 scoring floor. **Directional, not significant.** MIXED=0.5 by convention. Legacy pre-TSV "confirmed" bullets excluded: no ex-ante probability was recorded, so including them would be pure survivorship. **Re-run at N≈20** to test whether the vintage improvement is real or the current book is merely younger.
+
+---
+
 ## 2026-07-24 (FOURTH PASS, Will-directed) — **CRL-27 REGISTERED** (equity leads credit) + **CARL consumer-book design v0.1 proposed**. No score change; 51/70 holds
 
 ### CRL-27 — new prediction, 55%, resolves Q1-2027
