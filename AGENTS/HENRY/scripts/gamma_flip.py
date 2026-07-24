@@ -29,6 +29,18 @@ import sys, math
 from datetime import date, datetime
 from collections import defaultdict
 
+# A healthy <=35d ^SPX pull is thousands of contracts (6,206 on 7/17, 4,900 at 14d).
+# Below this the chain is too degraded to locate a flip — see the thin-chain guard.
+MIN_CONTRACTS = 400
+
+
+def _isnan(x):
+    """True for NaN. Note `x or 0` does NOT catch NaN (NaN is truthy) — the 7/23 bug."""
+    try:
+        return math.isnan(float(x))
+    except (TypeError, ValueError):
+        return True
+
 R, Q = 0.045, 0.013
 HORIZON_DAYS = 35
 
@@ -78,6 +90,14 @@ def compute_gamma_flip(asof=None, horizon=HORIZON_DAYS, band=0.25):
         for df, typ in ((ch.calls, "C"), (ch.puts, "P")):
             for _, r in df.iterrows():
                 K = r["strike"]; oi = r["openInterest"] or 0; iv = r["impliedVolatility"] or 0
+                # NaN guard (7/23 bug): `x or 0` does NOT catch NaN — NaN is truthy, and
+                # `NaN <= 0` is False, so NaN OI used to survive this filter and poison the
+                # GEX sum. A NaN g0 then read as POSITIVE in boot.py (`g0 < 0`) and NEGATIVE
+                # in the CLI (`g0 > 0`) — same number, opposite labels — while max() over an
+                # all-NaN wall dict returned an arbitrary strike (put wall above call wall).
+                # Fail loud on missing data; never emit a confident number built on NaN.
+                if _isnan(K) or _isnan(oi) or _isnan(iv):
+                    continue
                 if oi <= 0 or not (0.03 < iv < 2.5):
                     continue
                 if not ((1 - band) * spot < K < (1 + band) * spot):
@@ -85,6 +105,14 @@ def compute_gamma_flip(asof=None, horizon=HORIZON_DAYS, band=0.25):
                 opts.append((K, T, iv, oi, typ))
     if not opts:
         return {"error": "no usable contracts after filtering"}
+    # Thin-chain guard (7/23): a healthy <=35d pull is thousands of contracts (6,206 on
+    # 7/17). yfinance intermittently returns NaN IV for most of the chain, which the IV
+    # filter correctly drops — leaving a residue too thin to locate a flip. Refuse to
+    # emit rather than publish a number off a degraded feed.
+    if len(opts) < MIN_CONTRACTS:
+        return {"error": f"chain too thin: {len(opts)} usable contracts "
+                         f"(< {MIN_CONTRACTS}); yfinance IV/OI feed degraded — "
+                         f"no gamma read this run"}
 
     def net_gex(S):
         g = 0.0
@@ -94,6 +122,8 @@ def compute_gamma_flip(asof=None, horizon=HORIZON_DAYS, band=0.25):
         return g
 
     g0 = net_gex(spot)
+    if _isnan(g0):
+        return {"error": "net GEX computed as NaN — refusing to emit a regime call"}
     lo, hi = int(spot * 0.90), int(spot * 1.10)
     vals = [(S, net_gex(S)) for S in range(lo, hi, 5)]
     flips = []
