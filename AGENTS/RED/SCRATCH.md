@@ -26,21 +26,22 @@
 5. **Re-mark: War 6→11 / Managed 36→32 / Rescue 3→2; net-bear 57→62; conf 69 held.** (ML-RED-104; CHANGELOG entry)
 6. **Ledger sweep:** 9 docket rows resolved + 7 new rows (7/26 sinking watch · 7/28 BDC-2/SBCF · 7/28-29 FOMC · 8/3 Russia ban · 8/4 KFRC · 8/13 July CPI · ~8/15 FFIEC MI3); KB-062..069; ML-101..105; VX-RED-025 WEAKENED→CONFIRMED-FIRED (35/65, VX_HISTORY logged); STATUS full rewrite; CALENDAR S22→24 resolved-table added.
 7. Outbox memo to PROME (re-mark + grades). Inbox: 3 packets processed (CARL-weld closure, PROME 7/21 cc, DEWEY FHA/VA info); **OSPREY steelman ask kept live (owed).**
-8. **★ CHG-RED-043 premium-as-breadth red-team EXECUTED (2nd block, Will-sequenced):** verdict MODERATE — FALCON's scenario layer VINDICATED (D capped through both fires, zero capital moved = behavioral proof); challenge lands on (A) scalar concavity (42/50 has ~14.5 risk-response pts = ONE repricing on 4 quote surfaces; only +8 range left for real destruction → P/R split-scalar rec) and (B) no route-count rule at synthesis (week = 3 independent classes; ≥5 surfaces reuse the insurance datum, my CHG-042-C included/disclosed). Report `challenges/FLEET_PREMIUM_BREADTH_REDTEAM_2026-07-24.md`; memo routed PROME; ML-106. 3 falsifiers pre-registered (de-escalation joint-decay / Bab-through-deal / 2-mo stickiness).
+8. **Block-4: OSPREY steelman ANSWERED** (55 deliberate / 35 damage-class-capability / 10 reporting-bias; strong-form "crude spared" retired; rotation test 2-of-3 by ~8/24 pre-registered; cross-theater incentive coupling flagged; delivered via carve-out; ML-108). **Block-5: CARL lag poke DELIVERED** (survives-as-estimate; 4 refinements — band 12-24d, product-vs-crude-led shock-layer split, feathers helps CARL's de-escalation branch, seasonal-norm falsifier fix; ★ natural experiment: the +$12/bbl 7/17-23 pulse should print in EIA weekly diesel ~8/3-8/17 peak ~8/10; leg-1 figure re-stamped to OSPREY band; ML-109; carve-out to CARL inbox).
+9. **★ CHG-RED-043 premium-as-breadth red-team EXECUTED (2nd block, Will-sequenced):** verdict MODERATE — FALCON's scenario layer VINDICATED (D capped through both fires, zero capital moved = behavioral proof); challenge lands on (A) scalar concavity (42/50 has ~14.5 risk-response pts = ONE repricing on 4 quote surfaces; only +8 range left for real destruction → P/R split-scalar rec) and (B) no route-count rule at synthesis (week = 3 independent classes; ≥5 surfaces reuse the insurance datum, my CHG-042-C included/disclosed). Report `challenges/FLEET_PREMIUM_BREADTH_REDTEAM_2026-07-24.md`; memo routed PROME; ML-106. 3 falsifiers pre-registered (de-escalation joint-decay / Bab-through-deal / 2-mo stickiness).
 
 ## NEXT SESSION (dated, priority-ordered)
 1. **🔴 Sat-Mon 7/25-28 — BDC marks (FSK/OBDC/OCSL/MFIC 7/25 → ARCC 7/28) + SBCF** = the structural-narrowing test. Benign → CHG-027 capitulation REVIEW (write it honestly); NAV cuts → non-bank migration vindicated.
 2. ~~FOMC pre-write~~ **DONE S24 (T-4):** `research/FOMC_FRAMEWORK_JUL28-29_2026.md` + RED-20 (S1 52/S2 16/S3 7/S4 23/S5 2; reaction axis separate; per-cell bounded moves; 5 guards). **On the night: execute the tree, record the oil-language tell at the presser, grade both axes at 7/29 close + next-day confirm.**
 3. ~~Premium-double-counting red-team~~ **DONE S24 (CHG-RED-043)** — watch for FALCON/NEXUS fold of the two recommendations; falsifiers live.
 4. ~~OSPREY steelman ask~~ **ANSWERED S24** (55/35/10; rotation test 2-of-3 by ~8/24 pre-registered; delivered to OSPREY inbox via carve-out; ML-108). **Grade own 55/35/10 at ~8/24; watch whether OSPREY adopts the OSP-0x rotation row.**
-5. **🟡 Verify:** EGBN Q2 grade (unlocated at S24) · sinking-watch 7/26 outcome · June MF-starts print · KFRC date (~8/4).
+5. **🟡 Verify:** EGBN Q2 grade (unlocated at S24) · sinking-watch 7/26 outcome · June MF-starts print · KFRC date (~8/4) · EIA weekly diesel prints from ~8/3 (CARL lag natural-experiment) · OSPREY rotation-test signals (window to ~8/24) · whether FALCON/NEXUS fold the CHG-043 recommendations.
 6. **Daily:** HY >280 re-cross (3bps) · CCC >1000 (9bps; DISH 7/31 mechanical-tightening trap) · SKEW vs 140 · Brent vs $85 book levels.
 7. **July CPI 8/13 tree by 8/6** (CHG-028 falsifier; oil lands in that print).
 
 ## OPEN THREADS
 - **CHG-042 residual** = de-escalation decay-split test (crude premium fast vs freight/insurance sticky). Muscat/Oman Article-5 vehicle unexercised.
 - **CHG-027 capitulation-review condition armed** (BDC + SBCF/EGBN benign) — do not soften it if it fires.
-- **CARL lag-attribution poke** (~17-18d wholesale→retail measured on gasoline, applied to diesel as ESTIMATE) — optional, PROME flagged it as the one thing to poke.
+- ~~CARL lag poke~~ **DELIVERED S24** — watch CARL's adoption, esp. the EIA natural-experiment (prints start ~8/3; if the lag measurement lands, leg-2's "still loading" forecast gets a real error bar).
 - **PC-redemption-gate channel** ownership still open fleet-wide (carried since S22; BROCK has CCLFX only).
 - Q2 FFIEC MI3 leg carried to ~mid-Aug row (confirm cadence before pre-registering).
 
