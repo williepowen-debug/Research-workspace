@@ -10,6 +10,14 @@ Log material structural changes only — not routine content edits. Template ado
 
 ---
 
+## 2026-07-23 — `artifacts/` directory created — two Will-facing living Artifacts + a standing refresh obligation
+
+- **Trigger:** Will asked for (a) a plain-English explainer of the vol gauges, then (b) a view to "read and understand the agent and what is going on." Both approved as **living** references.
+- **What changed:** new **`AGENTS/VIOLET/artifacts/`** holding the publishable HTML sources — `vol_cheatsheet.html` (gauge *concepts*: the insurance-market framing, surface-vs-independent-rooms, the two tools) and `violet_operating_picture.html` (live agent state on top + how-to-read-the-agent below: signal-flow routing, the **instrument taxonomy** gate/canary/alert/pre-reg, file map, standing no-execution-without-Will rule). Sources live in-repo **specifically so any future session can refresh them** — the publish scratchpad is session-only.
+- **Files touched:** `artifacts/vol_cheatsheet.html` · `artifacts/violet_operating_picture.html` (both new) · STATUS research queue · SCRATCH NEXT SESSION · auto-memory `reference_violet_vol_cheatsheet` + `reference_violet_operating_picture` (URLs + repo paths + cadence).
+- **Boot-impact:** none at boot. **Adds a closeout-adjacent obligation:** on material vol-regime change (next scheduled: post-FOMC 7/29) refresh BOTH artifacts **in place** — republish passing `url=` so the URL is preserved (auto-memory `finding_artifact_redeploy_same_url`); a session that didn't publish them otherwise mints a new URL and the operator's bookmark silently rots.
+- **Lessons:** (1) a published artifact is a *surface with an owner* — same rot risk as any ledger, so it needs a named source-of-truth path, a refresh trigger, and a durable pointer, or it becomes a confidently-stale page. (2) Keep the split clean: the cheat-sheet teaches *concepts* (durable), the operating picture shows *state* (dated) — mixing them would force full rewrites on every refresh. (3) One cascade bug caught pre-publish: four competing `.rail-core` colour rules across the theme paths; fixed by promoting it to an `--on-accent` token defined once per theme — theme-dependent colours belong in the token layer, never in per-component overrides.
+
 ## 2026-07-23 — Cheap-tail window alert built (operator-decision surface) + boot-wired
 
 - **Trigger:** Will-directed, after the 7/10→7/23 post-mortem. The episode exposed a gap: VIOLET's framework had only a *confirmation* gate (KB-VIO-123, fires late by design on independent channels) and **no instrument flagging the cheap-tail window** — the complacency floor where convex tails are cheapest. On 7/10 that window was open (VIX 15.03/VVIX 87.28/SKEW 144.27, CPI 4d out) and nothing surfaced it as an operator decision.
