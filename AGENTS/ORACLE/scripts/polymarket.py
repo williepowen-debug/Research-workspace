@@ -16,7 +16,7 @@ Design notes:
   - `pull --log` appends a timestamped row per market to workbook/ODDS_LOG.tsv (the
     machine-readable time series). KB.tsv stays the 13-col knowledge base for claims.
 """
-import sys, os, json, argparse, datetime
+import sys, os, json, argparse, datetime, re
 import requests
 
 GAMMA = "https://gamma-api.polymarket.com"
@@ -331,6 +331,45 @@ def _read_watchlist():
     return rows
 
 
+_ONDATE_RE = re.compile(
+    r"\bon\s+(?:jan|feb|mar|apr|may|jun|jul|aug|sep|oct|nov|dec)[a-z]*\s+\d{1,2}\b", re.I)
+
+
+def _is_daily_ondate(mkts):
+    """True for a genuine daily 'on <Month> <day>?' event series (Iran-shipping,
+    Gulf-state), where each leg is an INDEPENDENT single-day question. Distinguishes
+    them from by-date CUMULATIVE ladders ('...by July 31?') and distribution/component
+    events (CPI/unemployment rungs), which must keep the modal-leg behavior."""
+    return sum(1 for m in mkts
+               if m.get("question") and _ONDATE_RE.search(m["question"])) >= 3
+
+
+def _select_event_leg(mkts):
+    """Pick the representative leg for an event-type watchlist entry.
+
+    - Daily on-date series -> the CURRENT (today, else nearest-upcoming, else
+      nearest-past) UNRESOLVED leg. Fixes the display quirk where an old settled
+      100%-YES leg was chosen by max-probability, hiding the live daily tempo
+      (surfaced 2026-07-24: Iran-vs-Gulf-State read ⛔RESOLVED while today's leg
+      was live at ~47%). Returns suffix ' (current)'.
+    - Everything else (by-date cumulative, distribution/component, undated) ->
+      the modal (max-probability) leg, ' (top)'. Unchanged behavior.
+
+    Returns (market_or_None, label_suffix)."""
+    if not mkts:
+        return None, ""
+    if _is_daily_ondate(mkts):
+        live = [m for m in mkts
+                if not m.get("resolved") and m.get("days_left") is not None]
+        if live:
+            pick = min(live, key=lambda m: (0 if m["days_left"] >= 0 else 1,
+                                            abs(m["days_left"])))
+            pick["_daily"] = True  # suppress the always-expiring maintenance flag
+            return pick, " (current)"
+        # all legs resolved -> fall through so the RESOLVED maintenance flag fires
+    return max(mkts, key=lambda x: (x["yes"] or 0)), " (top)"
+
+
 def cmd_pull(args):
     wl = _read_watchlist()
     if not wl:
@@ -342,9 +381,9 @@ def cmd_pull(args):
             if w["type"] == "event":
                 e = event_by_slug(w["slug"])
                 mkts = e["markets"] if e else []
-                top = sorted(mkts, key=lambda x: (x["yes"] or 0), reverse=True)[:1]
-                for m in top:
-                    out.append((w["label"] + " (top)", m, w["tier"]))
+                m, suf = _select_event_leg(mkts)
+                if m:
+                    out.append((w["label"] + suf, m, w["tier"]))
                     logrows.append((ts, w["slug"], w["label"], w["tier"], m))
             else:
                 m = market_by_slug(w["slug"])
@@ -359,7 +398,8 @@ def cmd_pull(args):
         print(f"\nORACLE pull @ {ts}\n" + "-" * 118)
         for l, m, t in sorted(out, key=lambda r: r[2]):
             print(fmt_row(l, m, t))
-        exp = [(l, m) for l, m, _ in out if m.get("resolved") or m.get("expiring")]
+        exp = [(l, m) for l, m, _ in out
+               if (m.get("resolved") or m.get("expiring")) and not m.get("_daily")]
         if exp:
             print("\n⚠ watchlist maintenance — re-search replacements (see MAINTENANCE.md):")
             for l, m in exp:
