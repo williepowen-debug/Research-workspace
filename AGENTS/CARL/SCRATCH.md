@@ -74,6 +74,10 @@
 7. **~Aug 15 — NY FED Q2 HHDC. THE most load-bearing print on the board.** CRL-05 direct (13.1% vs GFC 13.74%) **+ the V2 4→3 candidate + the auto 90+ ~5.6% verify**. If bureau data corroborates the clean issuer prints, V2 comes down and the masking read takes real damage. If it diverges, survivor-pool is confirmed.
 8. **~Aug 15** Russia ban lapse-or-extend — test the crack **vs its 5-yr seasonal norm**, not an absolute level. **Aug 21** Iran waiver expiry (CRL-08 live tail, not latent any more).
 
+### SLEEVE MAINTENANCE (new, every boot)
+0. **Mark the 5 OPEN paper-sleeve rows** (`book/PAPER_SLEEVE.tsv`) via `fetch.py`; stamp `mark_asof`; flag >5 business days STALE. **Not automated — `sleeve_mark.py` is the obvious next build, deferred until the sleeve proves it gets maintained.** **Never delete a losing row.** No scoring until N≥10 CLOSED.
+0b. **PS-0005 (long AZO) is the diagnostic row** — invalidation is written against the CHARACTERIZATION (AZO domestic SSS <+1.0% = demand not margin = CARL wrong), not the price. Graduation criterion #2 rides on it.
+
 ### BACKLOG
 ~~9. POP refresh-then-demote~~ **✅ DONE pass 2 — demoted.** Owed ad-hoc: P04 QSR pull · IEEPA rate tags · ML field drift.
 9b. ~~gate fired and did not run~~ (recorded as an open ROADMAP thread, not silently pruned). Feeds CRL-15/16/17; **CRL-16's window closes 8/31 and I committed to forcing a call rather than letting it sit stale-OPEN.**
@@ -107,6 +111,6 @@
 ## URGENT
 - **FOMC 7/28-29 needs a pre-registered read and the window is 4 days.**
 - **~8/15 NY Fed Q2 HHDC is the arbiter for the whole masking framework.** Don't let it slip — it decides V2 and it decides whether "survivor bias" was analysis or excuse.
-- **Will decisions open: (a) V5 3→4** (~8/3 sustained-cross); **(b) CARL consumer book — 4 questions in `thesis/CARL_BOOK_DESIGN.md` §8** (paper sleeve? SYF/COF/ALLY split w/ REGINALD? Brier audit first? tripwire mechanical?). **CRL-21's position action is MOOT** — the legs it governed expired 7/17; only a single KRE $25P Jan-27 "deep-OTM lottery" survives.
+- **Will decisions open: (a) V5 3→4** (~8/3 sustained-cross); **(b) CARL consumer book — paper sleeve ✅ APPROVED + LIVE 7/24** (`book/PAPER_SLEEVE.tsv`, 5 legs, no capital). **3 questions still open in `thesis/CARL_BOOK_DESIGN.md` §8:** SYF/COF/ALLY split w/ REGINALD (blocks the purest CRL-27 expression) · Brier audit before or parallel · tripwire mechanical or discipline note. **CRL-21's position action is MOOT** — the legs it governed expired 7/17; only a single KRE $25P Jan-27 "deep-OTM lottery" survives.
 - ~~One Will decision still open: V5 3→4~~ **(a) above.** Original note: V5 3→4 (~8/3 sustained-cross). **CRL-21's position-action commitment also still open** — my recommendation stands (wait for the ~Oct vintage leg).
 - ~~New standing check to wire into closeout~~ **✅ BUILT pass 3.** `consistency_check.py` now runs **A + D + E**; acceptance test reproduced the real CRL-15/POP-P06 bug exactly. **Closeout step 15 is now MANDATORY and strict (exit 1 = don't commit)** — boot runs it `--warn-only`. **Coverage CLOSED same session:** DOC/GIG/PHAN/POLLY all declared — **66 rows across 6 ledgers, zero gaps.** A positive control then caught that Check E was comparing only **1 pair** across 51 series, so the report now prints coverage evidence every run (+ an explicit ⚠️ when nothing groups). **Residual: Check E is thin by construction — 1 pair. It catches the class and will catch the next pair automatically, but it isn't auditing much yet.** **Check B BUILT same session** (5 acceptance tests passed; B5 narrowed after a false positive). **Check C DECLINED** — reasoning recorded in the spec. **A + B + D + E all live at boot.**

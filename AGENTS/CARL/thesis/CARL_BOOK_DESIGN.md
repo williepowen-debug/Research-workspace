@@ -1,6 +1,10 @@
-# CARL CONSUMER BOOK — DESIGN v0.1 (PROPOSAL, not approved)
+# CARL CONSUMER BOOK — DESIGN v0.1
 
-**Status:** PROPOSAL. Nothing here is live. Written 2026-07-24 at Will's direction after he proposed a CARL book scoped to **consumer-focused equities, explicitly NOT regional banks**.
+**Status:** ✅ **PHASE 1 (paper sleeve) APPROVED by Will 2026-07-24 and LIVE — NO CAPITAL.** Ledger `book/PAPER_SLEEVE.tsv`, conventions `book/README.md`. Phases beyond 1 remain proposal-only.
+
+> ⚠️ **Architecture change on build:** §6 proposed a sleeve *inside* TERRY's `PAPER_BOOK.tsv`. Reading TERRY's spec showed that's the wrong shape — that book measures **card quality** (options fire-cards, defined-risk premium, refusal calibration); this measures **thesis-expression quality** (unlevered equity relative-value). Blending corrupts both, and TERRY's own spec splits lanes to prevent exactly that. **Built adjacent, on TERRY's rules, with TERRY as rules authority and a merge path preserved at scoring time.** TERRY notified and asked to object if the split is wrong.
+
+**Original proposal status line:** PROPOSAL. Nothing here is live. Written 2026-07-24 at Will's direction after he proposed a CARL book scoped to **consumer-focused equities, explicitly NOT regional banks**.
 **Decision owner:** Will. **Construction owner if approved:** TERRY. **Position surface:** FORGE.
 
 > **I argued against a CARL book earlier the same day and then changed my mind on evidence.** That reversal is recorded in §2 rather than buried, because the evidence that changed it is also the evidence this design rests on — and if the evidence is wrong, so is the design.
@@ -41,7 +45,9 @@ A 21-name breadth test on mega-cap-uncontaminated consumer names confirms the we
 - **Auto aftermarket — the classic defensive trade-down winner — is down hardest:** AZO **−44pp**, ORLY **−30pp**, AAP **−23pp**. CARL's own STATUS carries AZO domestic SSS +4.1% as a *defensive counter-channel*. The tape says the opposite, hard.
 - **Premium/aspirational is UP:** YETI **+28.6pp**, WSM **+5.8pp**.
 
-**So the honest reading is: consumer equities are genuinely weak, and CARL cannot yet explain the dispersion with its own framework.** A book opened today would be trading a signal CARL has not correctly characterized. **That is the single strongest argument for Phase 1 being paper.**
+**So the honest reading is: consumer equities are genuinely weak, and CARL cannot yet explain the *cross-section* with its own framework.** A book opened today would be trading a signal CARL has not fully characterized. **That is the single strongest argument for Phase 1 being paper.**
+
+> **Partial correction to my own claim, found on build.** I initially wrote that CARL "cannot explain the dispersion." **That overstates it — CARL has a logged, testable explanation for the biggest anomaly.** STATUS L74 and the May-26 CHANGELOG entry characterize AZO's decline as **margin/LIFO-driven, NOT US-demand**, with domestic SSS **+4.1%** as a defensive counter-channel ("CORRECTED-FRAMING"). So the framework *does* make a falsifiable claim about AZO — it just never got connected to the tape. **That claim is now the sleeve's diagnostic position (PS-0005, long AZO against the tape), with invalidation written against the characterization (domestic SSS <+1.0% ⇒ demand not margin ⇒ CARL wrong), not the price.** What remains genuinely unexplained is ORLY/AAP and the premium-up leg (YETI/WSM).
 
 ### 2c. Caveats on the evidence itself
 One window · one benchmark · back-of-envelope look-back, **not a backtest** · tickers chosen by me (though the set is not obviously cherry-picked — XRT +3.3% and WMT +12.9% cut against the bear case) · no entry/exit timing modelled, which is precisely the untested variable.
@@ -76,14 +82,19 @@ One window · one benchmark · back-of-envelope look-back, **not a backtest** ·
 
 ## 4. Entry gate
 
-**No expression may open unless all four hold:**
+> ⚠️ **Corrected 2026-07-24 on build.** As originally written, all four gates applied to *any* expression — which would have prohibited the paper sleeve Will had just approved, since paper legs are opened by CARL without per-trade TERRY construction or per-trade Will approval. **The gates split by lane:**
 
+**PAPER lane (`lane=paper`) — gates 1 and 2 only:**
 1. It ties to a **registered, dated prediction** in `thesis/PREDICTIONS.tsv` with a **declared `Instrument`** — `consistency_check.py` Check D already enforces the declaration half mechanically.
 2. The prediction is **OPEN and reachable** — a leg that has become arithmetically unreachable (the CRL-21 failure) disqualifies it.
+
+*Rationale for the lighter gate: paper risks no capital, and per-trade approval would reproduce exactly the near-zero-volume problem TERRY's `PAPER_BOOK_DESIGN.md` identifies as PAT-028. Sizing is fixed by convention ($3,000/position) so CARL is not exercising sizing judgement either way.*
+
+**REAL lane (`lane=real`) — all four, non-negotiable:**
 3. **TERRY constructs it.** CARL never sizes, never picks strikes, never sets stops. Rules #6/#7 are TERRY's.
 4. **Will approves.** Unchanged by anything in this document.
 
-**Thesis-vibes trades are prohibited by construction:** if CARL cannot point at the prediction ID and its instrument, there is no trade.
+**Thesis-vibes trades are prohibited in BOTH lanes by construction:** if CARL cannot point at the prediction ID and its instrument, there is no position — paper or real.
 
 ---
 
@@ -125,7 +136,7 @@ The strongest objection to a CARL book is **not** instrument overlap. It is that
 ---
 
 ## 8. Open questions for Will
-1. **Approve the paper sleeve?** (Phase 1 only — no capital.)
+1. ~~**Approve the paper sleeve?**~~ ✅ **APPROVED 2026-07-24, LIVE.** 5 legs open, all `pred_id=CRL-27`.
 2. **The SYF/COF/ALLY split with REGINALD** — accept §3's proposal, or keep all three with REGINALD?
 3. **Should the Brier audit be a prerequisite** to Phase 1, or run in parallel?
 4. **Does the bias tripwire go in `consistency_check.py`** as a mechanical Phase 5 check, or stay a discipline note?
