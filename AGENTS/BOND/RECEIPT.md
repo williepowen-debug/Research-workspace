@@ -1,40 +1,46 @@
 # BOND — Run Receipt
 
-**Session:** 2026-07-18 (Sat eve, PROME-spawned wave — label check → EU reconcile → weld → proposal round → Will-picked exec set → FULL CLOSEOUT) · **Overwritten at closeout.** Markets closed — figures [as-of] stamped.
+**Session:** 2026-07-23 (general-inbox processing — Will-tasked mid-day) · **Overwritten at closeout.** Live market open.
 
-## Inbox processed (4 consumed → processed/)
-RED label-check · LIQUID eu-sovereign-reconcile · PROME eu-approved · CARL diesel-weld. (may-tic-arm3 + task packet left in place.)
+## Inbox processed (4 consumed → processed/, all classifications integrated)
 
-## Deliverables written (across the session)
-**Round 1 (label + reconcile + weld):**
-- outbox `2026-07-18_to-PROME_label-check-eu-reconcile-weld.md`
-- NEXUS_BRIEF.md CREATED
-- STATUS (dashboard 7/16-17 FRED, decomposition callout, EU line, BOTTOM LINE), THESIS v1.1.2 + CHANGELOG, KB-BND-080/081/082, VX-14/19
+| File | Action | Why | Workbook rows | STATUS change | Outbox |
+|---|---|---|---|---|---|
+| `2026-07-16_from-PROME_may-tic-arm3-grade.md` | INTEGRATE | ARM-#3 grade w/ key composition datum (Japan bills real selling) | KB-BND-084; VX-BND-13 note | Catalyst row updated to GRADED FIRED-WEAK; state banner reflects | None (consume-only) |
+| `2026-07-18_from-PROME_sat-eve-task-packet.md` | LOG_ONLY | All 4 tasks completed in 7/18 session (SCRATCH confirms: label check, EU reconcile, weld fold, domain-sweep deferred) | None — retrospective | None | None |
+| `2026-07-20_from-PROME_zion-call-rate-hike-corroborator.md` | INTEGRATE-light | C-suite corroborator of the real-policy-path label; secondary source, incentive-flagged (asset-sensitive) | KB-BND-085; VX-BND-14 note | Referenced in state banner + VX-14 | None (consume-only per sender) |
+| `2026-07-21_from-PROME_rates-vol-channel-confirm.md` | INTEGRATE-light | MOVE re-open 72.66 [7/20] via GATE-VIO-116; adjudicated by VIOLET to fold-into-TRY-FIRE-004, no standalone BOND trade | Folded into KB-BND-083 (7/23 boot) + KB-BND-086 (state refresh) | Dashboard MOVE row updated to 80 [7/23]: 68→72.66→80 trajectory noted | None |
 
-**Round 2 (Will-picked exec set):**
-- analysis `2026-07-18_fed-path-map_fomc-7-28.md` — arm falsifier quantified + $500 re-fire two-gate rule (rule-#6 red-day flag → TERRY)
-- setups `2026-07-18_prereg_7-22-40Y-JGB.md` — grade lines frozen + channel-6 LEVEL-vs-MOVE reconciliation
-- outbox `2026-07-18_to-PROME_fed-path-map-40Y-JGB-prereg.md`
-- NEXUS_BRIEF falsifier surface + STATUS exit rules updated
+## KB rows appended (this session)
+- **KB-BND-084** — May TIC ARM-#3 grade + Japan bills real-selling datum
+- **KB-BND-085** — ZION Q2 call policy-path corroborator (with 3 caveats: secondary source, asset-sensitive incentive, verify vs official replay)
+- **KB-BND-086** — State refresh 7/17→7/22: 5-day 10Y move decomposition (real 67% / BE 33%), curve still belly-led bear-flattener = SAME regime as KB-BND-080
 
-**Closeout (this pass):**
-- **PREDICTIONS: BND-12 RESOLVED FALSE** (30Y closed >5.00 for 8 consecutive sessions 7/7→7/16; threshold fired, mechanism intact). Only BND-01 remains OPEN (in-window till 7/31).
-- Mirror fixes: STATUS exit-rules + THESIS scoreboard (BND-11 TRUE / BND-12 FALSE; 7 straight benign)
-- Docket: 40Y JGB added to 7/22; FOMC hike-odds refreshed (stale 29% → HOLD ~90%, guidance-tone framing); STATUS calendar twin synced
-- Auto-memory promoted: curve-shape discriminator (policy-path vs term-premium)
-- SCRATCH, RECEIPT rewritten
+## VX updated
+- **VX-BND-05** (Long-End Duration): fresh readings 10Y 4.67 / 30Y 5.15 / DFII10 2.39; "arm DEEPENED" language; live gates to score 5 enumerated
+- **VX-BND-13** (FOI Demand Hole): May TIC composition folded in; mixed-picture read (country-fade REAL, aggregate ABSORBED)
+- **VX-BND-14** (Long-end Decomposition): 5-day refresh (real 67% / BE 33%, share down from 86% arm-completing); ZION + Warsh corroborators noted
+
+## STATUS changes
+- State banner rewritten (ARM-#2 DEEPENED, fresh dashboard values, ZION + Warsh + Sept-hike 80% context)
+- Dashboard rows refreshed: 30Y, 10Y, 2Y, DFII10, ACM TP, T5YIFR, T10YIE, TLT, MOVE
+- Catalyst row for 7/16 TIC = ✅ GRADED FIRED-WEAK with datum
+- Last-Updated line advanced to 7/23
 
 ## Predictions resolved this session
-| ID | Resolution | Note |
-|---|---|---|
-| BND-12 | **FALSE** (7/18) | 30Y >5.00 × 8 consec; threshold fired / mechanism intact (expensive intensified, not broken) |
+None. BND-01 (HY 350 by end-Jul) remains only OPEN row; in-window till 7/31, currently HY 275 → will NOT resolve TRUE, likely FAILED at 7/31 closeout.
 
-## Catalysts
-40Y JGB (7/22) added; FOMC (7/28-29) re-cast as the arm falsifier's live test (guidance tone). No fired rows to prune.
+## Deliverables written
+- `workbook/KB.tsv` +3 rows (084/085/086)
+- `workbook/VX.tsv` — 3 rows edited (05/13/14)
+- `STATUS.md` — state banner + 9 dashboard rows + 1 catalyst row
+- `SCRATCH.md` — session handoff (this pass)
+- `RECEIPT.md` — this file
+- 4 inbox files → `processed/` via `git mv`
 
-## Deferred (per Will / next session)
-- #3 UST structural-demand corpus refresh-or-retire (Mar-vintage; grounds the ACM +0.73% level) — quiet-day session.
-- Rule-#6 "red-day entry" adjudication → TERRY, Monday.
+## Deferred (unchanged from 7/18 SCRATCH)
+- HENRY UST structural-demand corpus refresh-or-retire (Mar-vintage; grounds ACM +0.73%) — quiet-day dedicated session
+- `PROME/packets/DOMAIN_SWEEP_LENSES.md` sweep — task-3 from 7/18 packet, deferred, still owed
 
 ## Git
-Two exec commits pushed live this session (see SCRATCH); this closeout = 3rd BOND-only pathspec commit + safe-push. No foreign files swept (FALCON/LIQUID/REGINALD concurrent).
+Session commit will be BOND-only pathspec (`AGENTS/BOND/`), root-cwd, auto-push via `scripts/safe-push.sh`. No writes outside `AGENTS/BOND/`. No outbox routes needed.
