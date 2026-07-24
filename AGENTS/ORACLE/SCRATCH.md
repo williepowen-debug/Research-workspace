@@ -34,7 +34,7 @@
 8. **🟡 Kalshi gap-fills** — CRE-default/CC-delinquency/Fed-facility still zero-open; re-check via authoritative `/events?status=open` sweep, NOT `search` (KB-ORC-041). Pin the moment any opens.
 
 ## CARRY-FORWARD
-- **Push state: pending this session's commit + safe-push (see below).** Prior session (7/22) confirmed ALL ORACLE COMMITS PUSHED clean. This session's commit is the only unpushed one at closeout.
+- **Push state: ALL ORACLE COMMITS PUSHED (clean).** Session pushed in phases via safe-push (ff): boot+closeout `09452c2d` → war-tempo correction `a7823536` → tooling fix `5d874142` → auto-memory `55710e7b` → BRENT/FALCON ask `74e2af0b`. (One later local-unpushed commit `fa61f311` is TERRY's, not ORACLE's — goes up via TERRY self-sweep.)
 - **Watchlists:** Polymarket 40 rows pulled (some daily events show ⛔ false-resolved — LIVE, don't re-pin; re-pin owed per NEXT #5). Kalshi 12 unchanged. Kalshi creds present (chmod 600), unchanged.
 - **Files this session:** `workbook/KB.tsv` (+2, KB-ORC-049/050), `workbook/VX.tsv` (4 rows updated), `STATUS.md` (rewrite), `NEXUS_BRIEF.md` (rewrite), `workbook/ODDS_LOG.tsv` (+40), `workbook/KALSHI_ODDS_LOG.tsv` (+12), `workbook/DISRUPTION_SUPPLY_SPREAD.tsv` (+1 row, +25.6pp), `outbox/` (+2 new), `SCRATCH.md` (this).
 - **Did NOT touch:** MAINTENANCE.md (no structural change this session — pure data + routing), TRADE.md, MEMORY.md, HISTORY.tsv (trajectory didn't need a rewrite; consider `history --write` next session if the WTI leg keeps moving into its roll).
