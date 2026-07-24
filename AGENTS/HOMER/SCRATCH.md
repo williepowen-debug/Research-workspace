@@ -15,6 +15,7 @@ First boot after a 7-day dark window (last session 7/17). Will-directed: full si
 - **REGINALD consumed both packets** (7/12 Trepp-ownership + 7/17 Path-C note → its processed/). CREED's 7/12 packet still unconsumed (Tier-2, expected).
 - **PROME lane-query ask ANSWERED** — `outbox/2026-07-24_to-PROME_lane-query-amended.md` (AMEND: added multifamily/CMBS + delinquency + builder-inventory terms; REGISTRY-row delta sentence included).
 - **HOM-01 grading sheet prepped ahead of the ~7/30 print** — `reports/2026-07-24_HOM-01-grading-sheet.md` (decision table incl. as-published revision discipline + early-kill arming; closes the PROME 7/12 prep ask).
+- **Late-session mail (post-closeout sweep):** DEWEY STR/rental vendor-catalog pointer (INFO, no action) → banked the three durable methodological findings as KB-HOMER-006 (scraped-RevPAR denominator trap — never a stress input; national STR = normalization; STR-revenue-leads-prices refuted) and filed to processed/. Full report: `AGENTS/DEWEY/output/2026-07-24_str-rental-data-vendor-metrics-catalog.md`.
 - **Hygiene:** KB_LIVE.tsv SEEDED (KB-HOMER-001..005 — first rows since promotion); board_log.tsv LIVE (6 sigs logged, 3 retroactive for the 7/17 first-use gap); all 6 WALTER sigs + 3 PROME items git-mv'd to processed/; 7/17 outbox memo → delivered/. STATUS trimmed to 134 lines (dropped rotated 7/12 bottom-line paragraph).
 
 ## NEXT SESSION (the wall is dense — Mon-Fri 7/27-7/31)
