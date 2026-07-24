@@ -91,9 +91,10 @@ Touch only the rows below that this session actually changed.
 
 If a 🔴 or 🟠 cross-agent threshold breached this session (per CLAUDE.md CROSS-AGENT SIGNALS table):
 
-1. **Write outbox file:** `outbox/YYYY-MM-DD_to-[target]_[short_description].md` using the standard format (headline / detail / source / priority).
-2. **Append to `AGENTS/SIGNALS.md`:** `| DATE | LIQUID | TARGET | 🔴/🟠 | Description |` row.
-3. HERMES sweeps outboxes and delivers. **Never write directly to another agent's inbox** (per "Cross-Agent Inbox Writes Exception-Only" memory rule).
+1. **Write the packet** using the standard format (headline / detail / source / priority), filename `YYYY-MM-DD_to-[target]_[short_description].md`.
+2. **Deliver it to the target agent's `inbox/` directly.** ⚠️ **Corrected 2026-07-23** — this step previously read *"HERMES sweeps outboxes and delivers; never write directly to another agent's inbox."* **HERMES is retired** and root+local `CLAUDE.md` now specify direct inbox delivery; the old wording contradicted them and would strand every cross-agent signal in `outbox/`. **`outbox/` is reserved for PROME-action requests.**
+3. **Do NOT commit files outside `AGENTS/LIQUID/`** (root CLAUDE.md git scope) — write the file, then flag it in the PROME packet for sweep.
+4. **Append to `AGENTS/SIGNALS.md`:** `| DATE | LIQUID | TARGET | 🔴/🟠 | Description |` row.
 
 If no threshold fired this session: skip entirely.
 
