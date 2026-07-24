@@ -1,3 +1,13 @@
+# HEARTBEAT REBASE DRAFT — 2026-07-24
+**Purpose:** Rewrite `HEARTBEAT.md` current-state-only per the Cadence rule (5-amendment trip hit 7/24). Present to Will for approval; on [Approve], overwrite `HEARTBEAT.md` + commit (shared-doc Will-gate). Pre-rebase snapshot archived verbatim → `PROME/archive/HEARTBEAT_PREREBASE_SNAPSHOT_2026-07-24.md`.
+
+**Carried-claim re-verification pass:** all six numbered regime sections re-checked against owner STATUS files (BRENT 7/23 EOD close + 7/24 tail-rider spawn in-flight, VIOLET 7/23 intraday, LIQUID 7/23 Heavy closeout, HENRY 7/23 eve session (8 commits), SAM 7/23 boot, FALCON post-leg-1-fire, OSPREY post-day-5-fire, CORAL SSB verdict 7/24, NEXUS 7/22 30/30/40 re-mark, BOND 7/23 belly-led real-curve reframe, CARL 7/18 weld decomposition + gas $4). Spine-audit 7/24 identified 4 HEARTBEAT blocking + 5 minor; all folded structurally here.
+
+---
+
+# HEARTBEAT.md (proposed rewrite)
+
+```markdown
 # HEARTBEAT.md
 **Base:** 2026-07-24 (Fri intra-day — Prome, **RE-BASED at 5 amendments** per the Cadence rule; Will-approved in-session 7/24 [~11 AM ET request after every message referenced weekend rebase as the deferral basket → "kill it now"]. The prior 7/18 base + its full 5-amendment chain preserved **verbatim** → `PROME/archive/HEARTBEAT_PREREBASE_SNAPSHOT_2026-07-24.md`. Carried claims re-verified against owner STATUS files (BRENT/VIOLET/LIQUID/HENRY/SAM/FALCON/OSPREY/CORAL/NEXUS/BOND/CARL); spine-audit 7/24 four HEARTBEAT-blocking + five minor findings folded structurally into this rewrite (TERRY-006 stale locations, VIO-116 stale threshold, Near-Gates rotation, LIQ-076-graded, Blocking-Pending reduction, Rates-ARMED→FILLED supersession, $85×3-fired supersession, ZION-call-time nit). Levels carry [as-of] stamps — intra-day base, most levels Fri 7/24 AM-live or 7/23 close vintage; refresh dashboard/FRED before citing as current.)
 **Amendments append below this line; re-base per the Cadence rule.**
@@ -83,3 +93,30 @@ Approved Jun 4: **Prome owns this file.** Update after regime-level changes or w
 
 ## Skip
 Late night (11pm–8am ET): urgent only. Weekend: light monitoring.
+```
+
+---
+
+## Diff summary vs pre-rebase (structural changes)
+
+1. **§1 Energy** — merged in OSPREY-001 fire (leg-b branch-1, 5-session halt) + FALCON-001 leg-1 fire (Bab kinetic) + $100 settle + today's -4.7% pullback + tail-rider re-quote flag. Both fires stamped as duration/persistence-not-severity per their spec.
+2. **§2 Rates** — TRY-FIRE-004 stated as FILLED not ARMED (fixes spine-audit minor); BOND belly-led real-curve reframe folded (was outbox 7/23 amendment-candidate, now baseline); LIQUID KB-086 duration regime re-establishment folded; HENRY HEN-42 registered + HEN-41 base-effect split (8/13 protected, real test = 9/10).
+3. **§3 Credit** — LIQUID KB-084 composition-mask + KB-085 AI-credit-price-leg **fully reframes the "why HY hasn't repriced" answer** (was "recognition absent" → is now "recognition instrumented sub-load-bearing"). GATE-LIQ-079 refresh + KB-082 ORCL→We-Energies $7B cash call new. CORAL SSB verdict + FL sync bar CLOSED mathematically for Q2.
+4. **§4 Japan/carry** — SAM-35 CONFIRMED (40Y JGB firm), Bloomberg BOJ-open-to-faster-pace input, SAM v1.6.9 stands.
+5. **§5 Equity-vol** — VIOLET 7/21-divergence-resolved-bearish read; HENRY CBOE gamma retract + 4th retraction-culture datum this week; today's cross-asset red-day (VIX cooling with oil).
+6. **§6 Kharg** — GATE-TERRY-006 upgraded to LIVE + card ARMABLE (fixes spine-audit blocking 1+2); weekend hole CLOSED language kept.
+7. **Convergence discipline** — NEXUS 30/30/40 re-mark folded (was still citing 26/33/41 in §Regime one-liner); LIQUID KB-084/085 folded as the recognition-instrumented reframe of KB-081.
+8. **Stress dashboard** — all levels re-stamped current; MOVE 74.67 [7/21] (fixes MOVE-verify blocking); Cushing 19.37M re-fire; HY 268 with composition drift annotation.
+9. **Thresholds** — VIO-116 shown as FIRED (fixes spine-audit blocking 3); $85×3 shown as FIRED-BANKED; FALCON-001 leg-1 + OSPREY-001 leg-b shown as FIRED; GATE-TERRY-006 shown as LIVE (fixes blocking 1+2 second location).
+10. **Near-Gates table** — rotated forward-only (fixes spine-audit blocking 4); 7/19-7/23 past-events dropped; added HEN-42 discriminator + Aug-CPI HEN-41-real-test + SK Hynix corrected date + CRWV DDTL + SBCF-single-name.
+11. **Blocking/Pending** — reduced (LIQ-076/NEXUS-brief items removed per spine minor); replaced with today's actual pending (BRENT tail-rider Will-approved-in-principle awaiting TERRY re-mark + final [Approve], LIQUID KB-085 primaries, BROCK KB-082, DEWEY Batch-3 P2/P3 PROME-action-owed, DEWEY reconcile, WALTER supersession, ORACLE forward-research ASK to BRENT/FALCON).
+12. **§Convergence discipline** — folded RED S24 (7/24) loop-closure catch-up: net-bear 57→62 conf 69, war leg 6→11, CHG-042 3-of-4 confirmed, CHG-040 PARTIALLY-CONFIRMED, CHG-RED-043 = FALCON scenario layer VINDICATED w/ scalar-concavity + route-count challenges routed.
+13. **§2 Rates** — folded TERRY 7/24 broker refresh: 004 marked +12.4% / $390 (first live gain on the card, up from $330 fill); book position-truth −9.98% improved from −16.6%.
+14. **Near Gates 7/28-29 FOMC row** — folded RED-20 pre-catalyst framework: modal S-axis split S1 52 / S2 16 / S3 7 / S4 23, scored separately from R-axis reaction; first Warsh meeting post-$100 Brent; S3×R-D cell = rates-arm-kill (TRY-FIRE-004 dies defined).
+15. **§1 Energy cooldown gate** — folded BRENT's 7/24 CBOE direct pull (OVX 65.75 / ratio 3.70 p98.2 = FURTHER from met than 7/23) + VIOLET ovx.py canary FIRE + BRENT tail-rider verdict (FILL 150/165 Sep-18, Will [Approve in principle] 7/24 ~1:38 PM, TERRY re-mark in flight).
+
+## Meta
+
+- **Amendment count:** the new base will have **0 amendments** (clean).
+- **BRENT tail-rider outcome:** if BRENT lands FILL/PIVOT before commit, I fold as an EOD paragraph in §1 (not a formal amendment on a fresh base). If HOLD/CARRY, no change needed.
+- **Commit path:** on Will [Approve], overwrite `HEARTBEAT.md` with the block above (line-for-line) + commit with a Will-gated message noting the rebase execution, spine-audit fold, and archive pointer.
