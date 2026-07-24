@@ -72,7 +72,7 @@ Approved Jun 4: **Prome owns this file.** Update after regime-level changes or w
 | 🟠 | BRENT tail-rider FILL — Will [Approve in principle] 7/24 ~1:38 PM; TERRY live-broker re-mark in flight; one-line ticket returns for final Will [Approve] before 3:30 PM COT / 4:00 PM options close | AGENTS/BRENT/outbox/2026-07-24_to-PROME_uso-tail-rider-requote-adjudication.md + AGENTS/TERRY/inbox/2026-07-24_from-BRENT-via-PROME_uso-tail-rider-shape-ask.md |
 | 🟡 | LIQUID KB-085 primaries re-pull (Meta 2056 / SpaceX 30yr — currently conf 0.70 mirror-sourced, NOT load-bearing until re-pulled) | LIQUID next boot |
 | 🟡 | BROCK KB-082 consume (ORCL → We Energies $7B LC cash call class-propagation watch) | BROCK inbox |
-| 🟡 | DEWEY China-strategic-exhaustion Batch-3 P2+P3 WILL-APPROVED 7/24 — PROME action owed on owner-map / priority / teams-mode (deferred to fresh session per DEWEY 7/24 heavy-run ceiling) | AGENTS/DEWEY/outbox/2026-07-24_to-PROME_batch3-p2p3-scoping.md (approx path — see 81417f95 / 6619bccf) |
+| 🟡 | DEWEY China-strategic-exhaustion Batch-3 P2+P3 WILL-APPROVED 7/24 — PROME action owed on owner-map / priority / teams-mode (deferred to fresh session per DEWEY 7/24 heavy-run ceiling) | AGENTS/DEWEY/outbox/2026-07-24_to-PROME_china-exhaustion-batch3.md (+ 81417f95 / 6619bccf commits) |
 | 🟢 | DEWEY reconcile 26-vs-48 GATE-LIQ-079 raw fire-days (from PROME 7/24 route) | DEWEY next spawn |
 | 🟢 | WALTER supersession-flag BOARD SIG-W-20260716-004 for refuted "~20%" figure | WALTER next boot |
 | 🟢 | ORACLE ASK forward research: P(WTI $100 by YE 2026) fundamentals — no longer-dated $100 market tradeable (PM July-only, Kalshi WTIMAX zero-open); crowd's front-month = 22.9% | BRENT/FALCON inboxes (routed by ORACLE 7/24) |
