@@ -42,7 +42,7 @@
 - **CHG-042 residual** = de-escalation decay-split test (crude premium fast vs freight/insurance sticky). Muscat/Oman Article-5 vehicle unexercised.
 - **CHG-027 capitulation-review condition armed** (BDC + SBCF/EGBN benign) — do not soften it if it fires.
 - ~~CARL lag poke~~ **DELIVERED S24** — watch CARL's adoption, esp. the EIA natural-experiment (prints start ~8/3; if the lag measurement lands, leg-2's "still loading" forecast gets a real error bar).
-- **PC-redemption-gate channel** ownership still open fleet-wide (carried since S22; BROCK has CCLFX only).
+- **PC-redemption-gate channel:** ownership rec ROUTED to PROME (S24 block-6, Will-prompted) — **BROCK** (charter-verbatim redemption/NAV layer; standing-register ask: BCRED/MS/Apollo/Blue Owl/interval cohort, redemption-vs-cap + gates + NAV, escalation line pre-drafted), SHADE keeps the insurance-wrapper edge, CREED consumer-only; seed on 7/25-28 BDC marks. `outbox/2026-07-24_to-PROME_pc-gate-channel-ownership-rec.md`. **Pending PROME/Will assignment — verify next boot; offer to red-team BROCK's register design once it exists.**
 - Q2 FFIEC MI3 leg carried to ~mid-Aug row (confirm cadence before pre-registering).
 
 ## PENDING WILL-DECISIONS
