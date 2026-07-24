@@ -1,4 +1,6 @@
-# HOMER SCRATCH — 2026-07-24 (builder pair + rate-wall catch-up session, Will-directed boot)
+# HOMER SCRATCH — 2026-07-24 (builder pair + rate-wall catch-up session, Will-directed boot; closed out ~6 PM ET)
+
+**Closeout note:** third DEWEY STR pointer (oversupply catalog) arrived at closeout — consumed into KB-HOMER-006 update (directional-only ranking; FL cut: Destin/30A −19.9% RevPAR worst-in-US, Gulf names on decline list, Kissimmee absorbing) + filed. Concurrent CARL/DEWEY sessions ran all day in other windows — expect their pushes to interleave; my surfaces are self-contained.
 
 **Purpose:** Canonical ephemeral session handoff. Read at boot; rewrite at closeout. Durable findings → `MEMORY.md`/workbook; live state → `STATUS.md`.
 
