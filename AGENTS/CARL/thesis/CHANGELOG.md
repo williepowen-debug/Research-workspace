@@ -8,6 +8,53 @@ Tracks all changes to THESIS.md and PREDICTIONS.tsv. Reverse chronological. Each
 
 ---
 
+## 2026-07-24 (SECOND PASS, Will-directed) — HHDC card FROZEN · CRL-22 **v3** (the causal inversion) · scoped FOMC leg · POP demoted; **two coherence bugs found by writing things down early**
+
+Will directed four items after the catch-up pass. All four done. **The two most valuable outputs were errors caught by the act of pre-registering**, not by new data.
+
+### 1. NY Fed Q2 HHDC grading card — **FROZEN 22 days early** (`thesis/HHDC_Q2_2026_GRADING_CARD.md`)
+Will insisted on this one, and it earned its keep immediately. The card locks Q1 baselines, CRL-05 outcome cells, a **4-cell survivor-pool-vs-healing discriminator** with pre-committed consequences (cells **C and D pre-commit to "masking losing" and "masking refuted"**), seven named guards against my own failure modes, and a grading protocol. Freeze rule: no edits, only dated addenda.
+
+**⚠️ COHERENCE BUG #1 — I had armed the downgrade candidate against the wrong instrument.** On the first pass I wrote that a **V2 (Subprime Auto 60+) 4→3** candidate "resolves on the ~8/15 HHDC."
+- **V2's own registered trigger is Fitch ATR <6.5% for 2 consecutive months** — a monthly ABS index, not the HHDC.
+- **The HHDC publishes no subprime auto series at all**, only blended. A blended series cannot resolve a subprime-specific vector — *the same composition error the masking framework itself rests on.*
+- V1 (CC 90+) is what the HHDC bears on, and its trigger is **<12.0% for 2 consecutive quarters**. Q1 is 13.1%.
+- **Therefore: no vector can be downgraded on the 8/15 print alone under existing triggers.** Stated in the card in advance, so a same-print score move would require Will to authorize a *new* trigger rather than one being invented after the data.
+- **Exposed gap:** the V2 score rests on a **January 2026** Fitch ATR reading (6.90%), now ~6 months stale — the weakest link in the whole matrix, and invisible while I was pointing at the wrong instrument. **Docket row added 8/10 to refresh it before the HHDC.**
+
+Third instance in eight days of a threshold failing on its **specification** rather than on the world (`finding_threshold_spec_fails_before_world`).
+
+### 2. CRL-22 → **v3** (Will delegated the authorization) — the defect was deeper than v1 or v2
+Drafting v3 required a UNH baseline, and pulling it broke the whole design: **UNH Q2-2026 MCR 86.7% vs Q2-2025 89.4% = −270bps YoY IMPROVEMENT**, which UNH attributes to *"benefit design and pricing discipline, member mix"* and explicitly to **"planned exits from unprofitable ACA individual and Medicare Advantage markets."**
+
+**The culling mechanism CAUSES the margin improvement.** The harder insurers shed unprofitable ACA/MA/Medicaid members, the better the MCR prints. So **any threshold specified on insurer margin deterioration is structurally anti-correlated with the K-shape Selection mechanism it was built to detect.** v1 (seasonality artifact) and v2 (a guide ELV does not publish) were each independently mis-specified — but **both inherited this deeper error: they measured the counterparty's P&L instead of the consumer outcome CARL actually claims.**
+
+**v3 measures the consumer side.** Fires if **A** and (**B** or **C**): **A** — combined UNH+ELV membership −≥1.5M FY25-end→FY26-end in ACA/Medicaid/MA (running start: ~1.0M in Q2 alone); **B** — CMS 2027 effectuated enrollment −≥8% YoY *or* uninsured rate +≥1.0pp; **C** — same-quarter YoY MCR/BCR ≥+100bps at either issuer in 2 of Q3-26/Q4-26/Q1-27. Resolves **Q1 2027**. **Confidence 60% — set for the new claim, NOT inherited from v2's 45.**
+- **V28 RAF AND-gate retired** — an AND-gate on an item with unpublished timing is exactly what made v2 unfireable.
+- **Attribution caveat pre-registered:** Leg B can fire on the ACA subsidy cliff rather than insurer culling. If it does while A is weak, grade **CONFIRMED-BUT-MIS-ATTRIBUTED** and say so.
+- **Reachability discipline (the CRL-21 lesson):** Leg C is 2-of-3 — re-check after every quarterly print whether the remainder can still satisfy it. KB-CARL-358.
+
+### 3. FOMC 7/28-29 — scoped leg only (`thesis/FOMC_JUL28-29_CARL_CONSUMER_LEG.md`)
+Per Will: write the consumer/CPI language leg, **consume** RED-20 / BOND's falsifier map / VIOLET's crack-vs-fade tree, do not build a fourth rates tree. Contributions:
+- **A correction to a shared fleet premise.** RED-20 states the meeting *"defers everything to the July CPI (8/13), where the $100 oil actually lands."* It doesn't — July gasoline CPI prints **~−2.6% MoM** (June avg $4.050 running downhill vs July ~$3.95). The oil lands in **August CPI, ~9/10**. That makes the S1 deferral **four weeks longer** than the tree assumes, and simultaneously strengthens the S4 hike-now case. **RED's CHG-028 (8/13 decision tree, due 8/6) needs re-scoping.** Routed 7/24.
+- **A third language cell** RED's oil binary collapses: **L2 "look-through"** (the 6/17 framing) is neither "upside inflation risk" nor "growth tax" — it is a deliberate *exclusion* of energy from the reaction function, **V12-confirming but not hawkish-escalating**. Modal at 40%. The live question: that line was delivered into a *falling* pump and has never been tested against a rising one.
+- **L4 cohort listen** — does Warsh bring distributional language into the presser himself? The Beige Book has said "increasingly bifurcated" twice; the Chair has not. Would be the highest-information sentence of the meeting for this thesis. **Bias guard pre-registered** (it's the outcome I want, so the qualifying conditions are written down now).
+- **Pre-registered priors as a falsifiable object:** L2 40 / L1 35 / L3 10 / mixed 12; L4 15% scored independently. **§3 concedes the aggregate data does not force my preferred framing** — which is why L3 sits at 10%.
+
+### 4. POP — refresh-then-demote EXECUTED, then demoted (`sub_agents/POP/state_vectors/SV-POP-2026-07-24-01.md`)
+Gate (Jul-24 Sub-V sunset) fired; ran at parent level (POP not spawned; rule #10 write-down).
+- **POP-P01 ❌ MISSED** — commercial Ch-11 H1-2026 **4,589 vs 3,595 = +28%** (June +29%) against a **>40% sustained** bar. Direction right, magnitude wrong.
+- **POP-P02 ❌ MISSED at 80%** — **NFIB Optimism June 97.4, +2.1, "nearing its 52-year average of 98.0."** The Apr-17 upgrade 65→80 was taken off a single March 95.8 print: **upgrading into the reversal.** Most expensive miss in the set.
+- **POP-P03 70→15%** — Sub-V H1 +50% but monthly **decelerating** (Feb +91% → Q1 +67% → May +36% → June +28%); >+80% by Q3 needs a sharp reacceleration.
+- **⚠️ COHERENCE BUG #2 — a monotonicity violation across the parent and sub-agent ledgers.** POP-P06 (SBA 7(a) default **>5%** by Q4-26) sat at **50%** while CARL's CRL-15 (**>6.5%**, same series, same date) sat at **65%**. Impossible: >5% is strictly implied by >6.5%, so P(>5%) ≥ P(>6.5%). Neither ledger was wrong on its own terms — **nobody was reading them together.** Fixed both: **POP-P06 → 55, CRL-15 → 35.**
+- **CRL-17 55→40** — the small-business surface is a genuine counter-signal: level high, **rate-of-change easing**. Reported as such rather than buried.
+- POP **DEMOTED to dossier-mode**; owed ad-hoc items carried (P04 QSR pull, IEEPA rate tags, ML field drift).
+
+### Net
+**No score change — 51/70 still holds.** Nothing this pass was new market data; it was specification, coherence, and pre-registration. Confidence changes: **CRL-22 45→60 (re-spec, new claim)**, **CRL-15 65→35**, **CRL-17 55→40**. KB-345..358. STATUS held at the 250 cap (15 superseded/stale rows retired across both passes). `consistency_check.py`: 0 hard drift.
+
+---
+
 ## 2026-07-24 — Q2 EARNINGS CLUSTER GRADED: CRL-26 ✅ CONFIRMED / CRL-24 ❌ MISSED; 6 confidence cuts + 1 re-arm; KB +10; **no THESIS version bump, 51/70 holds** (two opposite-signed vector candidates opened)
 
 **Session shape:** 6-day gap (7/18 → 7/24). Five past-due docket rows integrated & pruned. The week split the thesis: the **energy/cost-squeeze leg fired**, the **credit-conversion leg resolved against the framework**. Score held deliberately — see "Why no score move" below.

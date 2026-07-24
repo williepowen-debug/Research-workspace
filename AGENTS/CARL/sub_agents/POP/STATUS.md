@@ -1,5 +1,13 @@
 # POP STATUS
-**Last real data refresh:** 2026-04-17 | **Staleness sweep (no data):** 2026-07-10 | **Next:** final refresh at Jul-24 Sub-V Sec-122 cliff (Will-approved refresh-then-demote)
+**Last real data refresh:** 2026-04-17 | **Staleness sweep (no data):** 2026-07-10 | **FINAL REFRESH: 2026-07-24 (gate fired) → DEMOTED TO DOSSIER-MODE.**
+
+> ### ⛔ DEMOTED 2026-07-24 — dossier-mode, no standing refresh
+> The Jul-24 Subchapter V debt-eligibility sunset (POP's Will-approved demote gate) fired and the final refresh ran at CARL parent level (POP not spawned; SPAWN_PROTOCOL rule #10 write-down). Full pass: **`state_vectors/SV-POP-2026-07-24-01.md`**.
+> **Dispositioned:** P01 ❌ MISSED (commercial Ch-11 H1 +28% vs a >40% bar) · P02 ❌ MISSED at 80% (NFIB June **97.4, +2.1, nearing its 52-yr average** — the sub-95 call was upgraded into the reversal) · P03 70→**15%** (Sub-V decelerating: Feb +91% → June +28%, H1 level still +50%) · P06 50→**55%** (monotonicity fix).
+> **⚠️ Coherence bug found:** P06 (>5% SBA default) at 50% vs CARL's CRL-15 (>6.5%, same series/date) at 65% — impossible. Both fixed (P06→55, CRL-15→35). Nested thresholds must be checked for monotonicity **across** parent and sub-agent ledgers.
+> **Headline for the parent: the small-business surface is a genuine counter-signal — level high, rate-of-change easing.** Parent trims applied: CRL-15 65→35, CRL-17 55→40, CRL-16 60→35.
+> **Still owed as ad-hoc dossier items** (not blocking the demote): P04 QSR-closure data pull · the 9 tagged IEEPA occurrences (~20% effective, not 125-145%) · ML-POP-17..23 field drift.
+> **Rows below are 2026-04-17 vintage — do not cite as current.** Spawn trigger from here: Sub-V/SBA/NFIB shock, or the Q3 Epiq release (~Oct) for P03.
 
 > ⚠️ **STALE-VINTAGE BANNER (2026-07-10 honesty pass):** All values below are **Apr-17-vintage unless individually marked**. Do **not** cite any dashboard row as current. This was a tag-only sweep — no web pulls, no value updates, no prediction resolution. Rows contradicted by parent CARL facts carry `[SUPERSEDED ...]`; the China IEEPA 125-145% figure carries `[FLAGGED WRONG ...]`; past-dated catalysts still listed as upcoming carry `[PASSED]`. Real refresh + P01-P08 resolution happen at the Jul-24 spawn.
 
