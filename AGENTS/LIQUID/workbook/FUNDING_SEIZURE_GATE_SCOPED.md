@@ -22,7 +22,9 @@ DEWEY 07b's finding: **the gate does NOT generalize.** It is scoped to **funding
 
 ## The scoped fire spec (funding-origin ONLY)
 
-**ARMS (watch, not fire):** acute leg alone — **SOFR99−IORB ≥ +30bps AND non-calendar** (±2 business days of quarter-end / month-end / Apr-15 excluded). *Acute-alone fired late-and-uselessly in Mar-2020 (by the +190bp print, HY had already run 66% of its eventual +725bp move) → arm, don't fire.*
+**ARMS (watch, not fire):** acute leg alone — **SOFR99−IORB ≥ +30bps AND non-calendar (±2 business days of quarter-end / month-end / Apr-15 excluded) AND ≥2 CONSECUTIVE such days.** *Acute-alone fired late-and-uselessly in Mar-2020 (by the +190bp print, HY had already run 66% of its eventual +725bp move) → arm, don't fire.*
+
+> **⚠️ The persistence leg (≥2 consecutive days) was ADDED 2026-07-23** by my own FP backtest (§LIQUID INDEPENDENT FP BACKTEST below, KB-LIQ-087). It cuts episode-level FP **62% → 25%** while leaving the Sep-2019 true positive **completely intact**. **Do NOT instead widen the calendar filter** — tested and rejected: adding tax dates erases the 690bp Sep-2019 peak, because that seizure was *caused* by a corporate-tax-date reserve drain. **Calendar width is capped at the registered ±2bd; persistence is the correct discriminator.** This is a LIQUID-domain change to the funding mechanics — BROCK's 7/20 sign-off explicitly did not cover the FP census, so it needs no re-sign-off, but BROCK is notified because it changes *when* the gate they signed off on arms.
 
 **FIRES (funding-seizure pre-emption memo):** the **conjunction** —
 1. **Archetype = funding-origin** (discriminator above; NOT deposit-run, NOT shock), AND
@@ -59,9 +61,72 @@ Census 2018-04-03 → 2026-07-15 (SOFR's true start; IORB spliced to IOER at the
 
 **Mechanical firing is defensible at +30bps AND non-calendar — *with the discriminator upstream.*** Without it, the gate sits silent through a Mar-2020 or Mar-2023 while the repricing happens elsewhere.
 
+---
+
+## ★★ LIQUID INDEPENDENT FP BACKTEST — 2026-07-23 (KB-LIQ-087, closes the R4 / Rank-3 owed item)
+
+**Script:** `scripts/fp_backtest_079.py` (reproducible, FRED primary: SOFR99, IORB spliced to IOER at the 2021-07-28/29 seam, RRPONTSYD; 2,071 obs 2018-04-03 → 2026-07-22). Run independently — **not** inherited from DEWEY.
+
+### ⚠️ Finding 1 — DEWEY's ~20% FP does NOT reproduce. The honest number is worse.
+
+| | DEWEY 07b | **LIQUID backtest** |
+|---|---|---|
+| +30bps raw fire-**days** | 26 | **48** |
+| non-calendar fire-days | — | **21** |
+| non-calendar **episodes** | — | **8** |
+| **FP rate (episode-level)** | ~20% | **62% (5 of 8)** |
+
+I cannot reconcile 26 vs 48 without DEWEY's working. **Do not cite the ~20% figure.** Two things drive the gap: (a) an unreconciled census difference, and (b) **day-weighting flatters the gate** — Sep-2019 alone contributes 8 of the 21 non-calendar fire-days, so a per-day FP rate buries the fact that there is only **one** true event. *Episode-level is the decision-relevant unit: you decide once per episode, not once per day.* Same bias DEWEY correctly flagged at +10bps ("a 214-day single event swallows Sep-2019 whole") — it is still present at +30, just smaller.
+
+### The 8 non-calendar episodes, classified
+
+| Episode | Days | Peak | Classification |
+|---|---|---|---|
+| 2018-12-06 | 1 | 50bp | FP — Dec-18 reserve-scarcity prelude |
+| 2019-01-03 | 1 | 49bp | FP — year-end turn leaking past ±2bd |
+| 2019-07-03→05 | 2 | 41bp | FP — Q-end + Jul-4 holiday leakage |
+| **2019-09-13→25** | **8** | **690bp** | ★ **TRUE POSITIVE — the Sep-2019 repo seizure** |
+| 2019-10-15→17 | 3 | 60bp | TP-continuation (post-Sep-19 + Oct-15 tax date) |
+| 2020-03-12→18 | 4 | 190bp | **SCOPE-EXCLUDED** — COVID = shock archetype, discriminator vetoes |
+| 2024-09-19 | 1 | 44bp | FP — mid-Sep corporate tax date |
+| 2024-12-26 | 1 | 40bp | FP — year-end turn leakage |
+
+### ★ Finding 2 — DO NOT widen the calendar filter. It would ERASE the true positive.
+
+The obvious "fix" for those FPs is a wider filter (tax dates, wider year-end). **I tested it and it is actively dangerous.** Adding quarterly corporate tax dates cuts Sep-2019 from **8 days / 690bp peak → 3 days / 70bp peak**, because **Sep-15 IS a corporate tax date and the Sep-2019 seizure was *caused* by exactly that** — corporate tax payments plus a large UST settlement draining reserves on 9/16. Daily prints: 9/16 **+250bp**, 9/17 **+690bp**, 9/18 **+290bp** — all three removed by a tax-date filter.
+
+> **The durable lesson: funding seizures happen ON calendar dates, because calendar dates are precisely when reserve scarcity bites.** "Calendar artifact" reasoning, pushed one step too far, filters away the event class the gate exists to detect. The registered ±2bd month/quarter-end + Apr-15 filter is at about the maximum defensible width.
+
+### ✅ Finding 3 — ADD A PERSISTENCE LEG instead (adopted; see revised ARMS spec above)
+
+**Require ≥2 consecutive non-calendar days at ≥+30bps.** Tested:
+
+- Removes **4 of 5 FPs** (all four are 1-day turn-noise prints: 2018-12-06, 2019-01-03, 2024-09-19, 2024-12-26)
+- **Retains the true positive completely intact** — 8 days, 690bp peak, untouched
+- Episode-level FP **62% → 25%**
+
+This is preferable to a wider filter because it is **mechanistically motivated, not merely curve-fitted**: turn/tax noise is a *one-day settlement artifact* that reverses next session, whereas a genuine seizure is a *persistent* collateral-financing failure. That distinction is the reason to trust it at n=1 (below).
+
+### Finding 4 — the +30 line is regime-appropriate, and today is quiet *by drained-regime standards*
+
+| Regime (RRP<$50B = drained) | n | mean | p50 | p90 | p95 | days ≥+30 | +30 sits at |
+|---|---|---|---|---|---|---|---|
+| **DRAINED** | 970 | +13.7bp | +9 | +21 | +25 | 37 | **96.2nd pctile** |
+| BUFFERED | 1,099 | +2.7bp | +2 | +7 | +9 | 10 | 99.1st pctile |
+
+In today's drained regime **+30 ≈ p96** → expect ~4% of days to tag spuriously; that is a real calibration statement replacing "illustrative." **Today's +5bp [7/22] sits at the 7th percentile of the drained distribution** (drained mean +13.7, median +9) — so the correct reading is not merely "25bp below the line" but **"running below its own regime baseline."**
+
+### ★ Finding 5 — R4 ANSWERED: my weak point #1 was OVERSTATED. Restating it.
+
+**The RRP-drained regime is NOT unprecedented in-sample — it is the majority of the *informative* sample.** Contiguous drained spans: **2018-01-11→2020-03-24 (542 obs)**, 2020-04-09→2021-04-16 (252), **2025-08-14→2026-07-23 (230, current)**. And **19 of the 21 non-calendar fire-days sit in the DRAINED regime** — the census's entire information content comes from a regime structurally comparable to today's. The 2020-08→2023-03 dead zone is the *unrepresentative* part, not today.
+
+**But the weak point survives in a sharper and more useful form:** *RRP level is the wrong regime variable.* 2018-20 drained meant **reserve scarcity**; today drained means **RRP≈0 with reserves ~$3.06T (still ample)**. Those are different states that the RRP<$50B cut conflates. → **Monitor the reserve-demand-curve slope / reserves-to-GDP, not the RRP level**, when judging whether this calibration still applies. That is now the live regime question, replacing "the buffer is gone."
+
 ## ⚠️ Honest weak points (do not launder these away)
 
-1. **The FP census is REGIME-DEPENDENT and the current regime is UNPRECEDENTED IN-SAMPLE.** 2020-08→2023-03 is a total dead zone (zero fires, ZIRP + ~$2T RRP buffer). **RRP is now $0.125B [7/16] — the buffer the census was built under is GONE.** The next funding event may look nothing like the 2018-19 reserve-scarcity regime → **thresholds may need recalibration when a real event arrives.**
+1. ~~**The FP census is REGIME-DEPENDENT and the current regime is UNPRECEDENTED IN-SAMPLE.**~~ **REVISED 2026-07-23 by my own backtest (KB-LIQ-087) — the original claim was OVERSTATED.** The drained regime is *the majority of the informative sample* (2018-01→2020-03 = 542 obs drained; 19 of 21 non-calendar fire-days sit there), so the census is built on a regime structurally comparable to today's, not an alien one. **Sharper surviving form: RRP level is the WRONG REGIME VARIABLE.** 2018-20 "drained" meant *reserve scarcity*; today "drained" means *RRP≈0 with reserves ~$3.06T, still ample* — the RRP<$50B cut conflates two different states. → **judge continued applicability off the reserve-demand-curve slope / reserves-to-GDP, not the RRP level.**
+
+1b. **★ NEW, and now the binding statistical weakness: n=1.** There is exactly **ONE** true positive in the entire constructible sample (Sep-2019). Every FP rate quoted anywhere in this file — DEWEY's or mine — is computed against a single positive event, so none of them is a *statistical* estimate; they are descriptions of one episode's neighbourhood. **The persistence leg is defensible at n=1 only because it is mechanistically motivated** (turn/tax noise is a one-day settlement artifact that reverses; a seizure is a persistent collateral-financing failure) **rather than fitted to the data.** Treat any tuning that *lacks* such a mechanism as overfitting. This supersedes the old weak point #1 as the honest headline limitation.
 2. **The archetype taxonomy is DEWEY's construct** (n=4, 3 archetypes) — thin; a future episode may not fit.
 3. **DGS2 (the deposit-run discriminator) is n=1 and NOT FP-calibrated** — a large 2Y move has many benign causes (CPI, FOMC).
 4. **Pre-2018 is unconstructible** (SOFR starts 2018-04-03) — "since 2015" is scoped, not answered.
