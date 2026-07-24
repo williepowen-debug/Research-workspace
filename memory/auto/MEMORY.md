@@ -24,3 +24,4 @@
 - **User (Will) preferences:** user_cruise_interest · feedback_dont_grade_solely_by_tradeable — six non-trade value tracks are real deliverables; report which tracks a research wave advanced
 - finding_terms_volume_lead_price_private_structures — terms/volume deteriorate before price in tape-less structures; price-only watches under-fire by design
 - finding_relabeled_number_viral_stat — viral stats re-label a REAL number's unit/role (buffer→floor, $-level→%); refutation often printed on the artifact itself; INOCULATE don't KILL when it'll recirculate
+- finding_credit_absorbed_vs_liquidity_transmission — a wrapped/insured asset can be credit-loss-absorbed (dead to banks) yet live on the servicer-liquidity/advance-drain axis; classify BOTH before killing the channel
