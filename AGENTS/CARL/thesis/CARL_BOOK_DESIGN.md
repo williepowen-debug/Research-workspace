@@ -1,0 +1,133 @@
+# CARL CONSUMER BOOK — DESIGN v0.1 (PROPOSAL, not approved)
+
+**Status:** PROPOSAL. Nothing here is live. Written 2026-07-24 at Will's direction after he proposed a CARL book scoped to **consumer-focused equities, explicitly NOT regional banks**.
+**Decision owner:** Will. **Construction owner if approved:** TERRY. **Position surface:** FORGE.
+
+> **I argued against a CARL book earlier the same day and then changed my mind on evidence.** That reversal is recorded in §2 rather than buried, because the evidence that changed it is also the evidence this design rests on — and if the evidence is wrong, so is the design.
+
+---
+
+## 1. The problem this solves
+
+**CARL generates consumer-specific evidence that has no expression path.** Today alone: gas crossing $4.00 with a first-ever two-surge base-rate break · Edmunds negative-equity payment records ($944, $6,884) · CRMT's rescue financing defaulting with 40% of stores closed · FHA total DQ 11.88% · FL cost-stack bifurcation. None of it is expressible through REGINALD's book (banks), HENRY's (macro/vol), or BRENT's (energy).
+
+**And the one position commitment CARL did write was unexecutable.** CRL-21's clause — *"trim short positions 25% + extend duration to Q2 2027+"* — named no surface and no legs. When it came time to surface it, the positions it was written against had already expired (WAL/ZION/OZK, Jul-17); the sole survivor is one KRE $25P Jan-2027 that FORGE labels a "deep-OTM lottery." **A research agent wrote a trading commitment it could neither see nor execute.**
+
+---
+
+## 2. The evidence — including the part that cuts against the design
+
+### 2a. What changed my mind
+
+One-year total return to 2026-07-24, vs S&P **+14.7%**:
+
+| | 1y | vs SPX | |
+|---|---|---|---|
+| XLY | −5.6% | **−20.3pp** | broad discretionary |
+| COF | −10.7% | **−25.5pp** | *released $662M of reserves, NCO −39bps* |
+| SYF | −4.5% | **−19.2pp** | *NCO 5.43%, under its guide ceiling* |
+| AXP | −1.5% | **−16.3pp** | *billings +9%, write-offs flat, guide raised* |
+| CRMT | −93.2% | **−107.9pp** | CARL-flagged on going-concern |
+| DLTR / WMT / DG | +10.3 / +12.9 / +7.8% | −4.4 / −1.9 / −6.9pp | trade-down cohort |
+
+**The equity expression worked in exactly the places the credit expression failed — and that is the masking framework's own logic.** If issuer credit metrics are survivor-biased and lag, then equity (forward-discounting on the same cohort) should lead credit *by approximately the masking lag*. **CARL had never drawn that inference from its own thesis.**
+
+### 2b. The complication that survives, and it is serious
+
+A 21-name breadth test on mega-cap-uncontaminated consumer names confirms the weakness is **real and mostly absolute** (~12 names down 19–47pp relative; BBWI −31.9%, AZO −29.6%, CMG −24.6%, RH −22.7% *in absolute terms*) — so it is not merely an artifact of an AI-led index melt-up.
+
+**But the cross-section does not sort on the K-shape axis:**
+
+- **Auto aftermarket — the classic defensive trade-down winner — is down hardest:** AZO **−44pp**, ORLY **−30pp**, AAP **−23pp**. CARL's own STATUS carries AZO domestic SSS +4.1% as a *defensive counter-channel*. The tape says the opposite, hard.
+- **Premium/aspirational is UP:** YETI **+28.6pp**, WSM **+5.8pp**.
+
+**So the honest reading is: consumer equities are genuinely weak, and CARL cannot yet explain the dispersion with its own framework.** A book opened today would be trading a signal CARL has not correctly characterized. **That is the single strongest argument for Phase 1 being paper.**
+
+### 2c. Caveats on the evidence itself
+One window · one benchmark · back-of-envelope look-back, **not a backtest** · tickers chosen by me (though the set is not obviously cherry-picked — XRT +3.3% and WMT +12.9% cut against the bear case) · no entry/exit timing modelled, which is precisely the untested variable.
+
+---
+
+## 3. Scope
+
+### IN — consumer names where CARL owns the evidence and no other agent does
+| Sleeve | Names | CARL evidence base |
+|---|---|---|
+| Broad discretionary | XLY, XRT | K-shape aggregate, retail control, Beige Book bifurcation |
+| Trade-down | DG, DLTR, WMT, TGT | survival-spending / downtrade reads (KB-280s) |
+| Deep-subprime retail | CRMT-class | going-concern + survivor-pool mechanism (KB-355) |
+| Restaurants / discretionary services | Black Box names, CMG/DRI-class | traffic −3.5%, discretionary capitulation |
+| Gig platforms | UBER, LYFT, DASH | GIG sub-agent: oversupply, per-trip compression |
+| BNPL / phantom debt | AFRM | PHAN dossier |
+| Top-cohort barometer | AXP | the K-shape *top* leg (V8/V14) |
+| Builders | DHI, PHM, LEN, KBH | CRL-23 (CARL-owned prediction; HOMER = data owner) |
+
+### OUT — other agents' domains, non-negotiable
+**KRE / WAL / OZK / ZION / regional banks → REGINALD** · **rates / vol / TLT / SPX → HENRY, BOND, VIOLET** · **USO / energy → BRENT** · **metals → MIDAS** · **Japan/FX → SAM**
+
+### CONTESTED — needs an explicit split with REGINALD before anything opens
+**SYF, COF, ALLY.** CARL's `CLAUDE.md` currently assigns *"ALLY/COF underwriting standards"* to REGINALD. Proposed split:
+
+- **CARL takes the consumer-cohort EQUITY read** — multiple, cohort composition, spend/burden.
+- **REGINALD keeps bank-credit and underwriting** — provisions, ACL, capital, and any credit-instrument expression.
+- **Neither opens a position in these three without notifying the other in-session.** If REGINALD objects, the name is OUT until Will adjudicates.
+
+---
+
+## 4. Entry gate
+
+**No expression may open unless all four hold:**
+
+1. It ties to a **registered, dated prediction** in `thesis/PREDICTIONS.tsv` with a **declared `Instrument`** — `consistency_check.py` Check D already enforces the declaration half mechanically.
+2. The prediction is **OPEN and reachable** — a leg that has become arithmetically unreachable (the CRL-21 failure) disqualifies it.
+3. **TERRY constructs it.** CARL never sizes, never picks strikes, never sets stops. Rules #6/#7 are TERRY's.
+4. **Will approves.** Unchanged by anything in this document.
+
+**Thesis-vibes trades are prohibited by construction:** if CARL cannot point at the prediction ID and its instrument, there is no trade.
+
+---
+
+## 5. Controls — the bias problem, addressed directly
+
+The strongest objection to a CARL book is **not** instrument overlap. It is that **CARL's job is to say "my thesis just took damage," and a book makes that harder.** On 2026-07-24 CARL graded CRL-24 a clean MISS and cut six confidences on a 0-of-4 adverse cycle. That behaviour is the asset; a book puts it at risk.
+
+| Control | Mechanism |
+|---|---|
+| **Bias tripwire** | Any session where CARL holds a live position **and** adverse data lands **and** no confidence moves is a **reportable event** — logged to SCRATCH and routed to PROME. Candidate mechanical check (Phase 5). |
+| **RED standing challenge** | RED may challenge any CARL position as thesis-motivated at any time, and CARL must answer in writing. |
+| **Pre-registration is the gate** | §4.1 — the prediction must exist *before* the position, so the position cannot retro-justify the view. |
+| **Separation of powers** | TERRY constructs, Will approves, FORGE marks, CARL only proposes. CARL gains **no decision rights**. |
+| **Public scoreboard** | Every sleeve position carries its prediction ID; the Brier audit (§7) scores prediction and expression together. |
+
+---
+
+## 6. Phase 1 — paper sleeve in TERRY's existing book
+
+**Do not open with capital.** `AGENTS/TERRY/PAPER_BOOK_DESIGN.md` already exists and was built for the analogous problem (*"0 cards fired live → 0 track record → the card product is un-instrumentable"*). CARL needs **a sleeve, not a new book.**
+
+**What Phase 1 tests — and note it is NOT direction:** §2a already suggests the direction has been right. The untested variables are **entry timing, exit discipline, and whether CARL can characterise the dispersion** (§2b) well enough to pick the right names rather than the right theme.
+
+**Graduation criteria to capital — proposed, all four required over ≥2 quarters:**
+1. Paper sleeve beats a naive short-XLY benchmark on a risk-adjusted basis (the theme is free; the selection has to add something).
+2. **CARL correctly called ≥1 name against its own prior** — e.g. explained or predicted the AZO/ORLY anomaly. Without this, CARL is trading a theme it cannot explain.
+3. **Zero bias-tripwire events.**
+4. Brier score on the governing predictions has improved or held.
+
+**Kill criteria:** any bias-tripwire event that survives RED challenge, or a REGINALD boundary dispute Will has to adjudicate twice.
+
+---
+
+## 7. Related open work
+- **CRL-27 registered 2026-07-24** — the equity-leads-credit prediction. **This design's central premise is CRL-27's subject.** If CRL-27 fails (credit stays clean through Q1-2027 while equity weakness persists), §2a's reading was wrong and this document should be revisited, not defended.
+- **Brier audit deferred since v2.5.1 (May 1)** — 26 predictions, 12 resolved, never scored. Should run *before* capital, not after.
+- **CARL is tape-blind.** Twice today the tape corrected a read formed from fundamentals (AXP; the whole trade-down leg). That gap is real whether or not this book is approved, and arguably a price/market-data cadence is the cheaper fix.
+
+---
+
+## 8. Open questions for Will
+1. **Approve the paper sleeve?** (Phase 1 only — no capital.)
+2. **The SYF/COF/ALLY split with REGINALD** — accept §3's proposal, or keep all three with REGINALD?
+3. **Should the Brier audit be a prerequisite** to Phase 1, or run in parallel?
+4. **Does the bias tripwire go in `consistency_check.py`** as a mechanical Phase 5 check, or stay a discipline note?
+
+*Nothing in this document is live. No position exists. Approval gates every element.*
