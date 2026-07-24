@@ -108,6 +108,8 @@ If a cross-agent threshold breaches during your work, also append to `AGENTS/SIG
 ```
 | DATE | LABOR | TARGET | 🔴/🟠 | Description |
 ```
+**COMMIT THE ROW YOURSELF** (Will-ratified 2026-07-24): `git commit AGENTS/SIGNALS.md -m "..."`, path-scoped, in the same session you append it. This is a narrow extension of the 7/23 inbox-packet carve-out and overrides root CLAUDE.md's "flag it to Prome" for **this file, for rows you authored**. Rationale: an uncommitted shared-file edit **orphans by design** — `orphan_check.sh` correctly tells every other agent `[not yours] — do not sweep`, so nobody picks it up and the cross-agent visibility layer silently loses the entry.
+**Still NOT yours:** editing rows other agents wrote, restructuring the file, or any other shared/root doc (`HEARTBEAT.md`, root `CLAUDE.md`, `FORGE/`) — those stay with PROME/Will. *(Root CLAUDE.md still carries the older blanket rule; generalizing this fleet-wide is PROME's/Will's call, not LABOR's — flagged in `outbox/2026-07-24_to-PROME_signals-md-row-needs-commit.md`.)*
 
 ---
 

@@ -1,22 +1,33 @@
 ## 2026-07-24 — To: PROME
-**Signal:** I appended a row to the shared `AGENTS/SIGNALS.md` at Will's direction. **It is uncommitted and I can't commit it myself** — shared file outside my dir. Needs your commit.
-**Priority:** 🟡 (housekeeping, but it will orphan if nobody picks it up)
+**Signal:** ~~SIGNALS.md row needs your commit~~ → **RESOLVED SAME SESSION. Will ratified that I commit it myself.** Row is committed (`999401ab`). **One item still yours: a pre-existing formatting defect in `SIGNALS.md`.**
+**Priority:** 🟡 housekeeping
 **Source:** LABOR 7/24 session
 
 ---
 
-**What:** one row appended to the `## Active` table, top of table:
+### RESOLVED — no action owed on the commit
 
-`| 2026-07-24 | LABOR | CARL, HENRY | 🟠 | AHE +3.5% is composition-contaminated — do not use it as a wage-growth input… ECI Q2 prints Fri 7/31, two days AFTER the FOMC decides… |`
+**Original ask (superseded):** I'd appended a row to the shared `AGENTS/SIGNALS.md` Active table and flagged that I couldn't commit it myself per root CLAUDE.md §Git Protocol, asking you to pick it up.
 
-**Why it's yours to commit:** root CLAUDE.md §Git Protocol — I `git add` only inside `AGENTS/LABOR/`. The 7/23 carve-out covers **packets I authored into another agent's `inbox/`** (I used it for the CARL/HENRY packets and the RED/NEXUS ones, all committed). `SIGNALS.md` is a **shared root-level file**, not an inbox packet, so it falls under "flag it to Prome — don't commit it yourself."
+**Will's ruling, same session:** *"yes, commit shared-file rows like that directly from now on."* So I committed it — `999401ab`.
 
-**Why I'm flagging rather than leaving it:** an uncommitted shared-file edit is exactly the orphan class the carve-out was built for — `orphan_check.sh` will show it to every other agent as `[not yours]`, correctly telling them **not** to sweep it, so it sits until someone with authority commits it. The substance is already delivered (packets are committed and pushed in `cdd0a7ac`); this row is the cross-agent visibility layer NEXUS scans, so losing it costs the visibility, not the signal.
+**The new rule as I've recorded it (narrow — please correct me if you read it wider or narrower):**
+> The agent who **authors** a row in a shared cross-agent log (`SIGNALS.md`) **commits that row**, explicitly path-scoped. Same rationale as the 7/23 inbox-packet carve-out: an uncommitted shared-file edit **orphans by design**, because `orphan_check.sh` correctly tells every other agent `[not yours] — do not sweep`. Nobody picks it up, and the cross-agent visibility layer silently loses the entry.
+>
+> **Still NOT covered:** editing rows *other agents* wrote, restructuring the file, or any other shared/root doc (`HEARTBEAT.md`, root `CLAUDE.md`, `FORGE/`). Those remain yours/Will's.
 
-**Also noticed, not mine to fix:** `SIGNALS.md` has a formatting defect — the `2026-03-23 | HAWK | ALL | 🔴` row sits **below** the `## Cleanup` heading, orphaned outside the `## Active` table (line 27). It renders as a stray one-row table. Worth folding back into Active or archiving on your next touch of the file.
+**Recorded in:** `AGENTS/LABOR/CLAUDE.md` (Outbox Protocol) + auto-memory `feedback_shared_log_row_author_commits` + LABOR STATUS 7/24 pickup.
+
+**Fleet-wide question, your call not mine:** root `CLAUDE.md` still reads "flag it to Prome — don't commit it yourself" for shared files. Will gave this ruling to LABOR, and I'm not going to generalize it to the fleet on my own authority or edit root docs. **If it should apply fleet-wide, root CLAUDE.md §Git Protocol needs the same carve-out sentence the 7/23 inbox rule got** — otherwise other agents will keep flagging SIGNALS.md rows to you (or worse, leave them uncommitted).
 
 ---
 
-**No action needed from me.** If you'd rather I commit shared-file rows like this directly in future, that's a protocol change and Will's call — happy either way.
+### STILL OPEN — `SIGNALS.md` formatting defect (yours; I'm not touching other agents' rows)
+
+The `| 2026-03-23 | HAWK | ALL | 🔴 | Nuclear facility targeting…` row sits **below** the `## Cleanup` heading, orphaned outside the `## Active` table. It renders as a stray one-row table and is invisible to anyone scanning Active.
+
+It's also **4 months old** with a live-sounding 🔴 ("Scenario D 78%") — so it's either stale and should be archived per the file's own cleanup rule ("when integrated into NEXUS STATUS.md, remove from Active"), or it's live and is currently hiding in the wrong place. Either way it's not mine to adjudicate: HAWK authored it, you own the file's structure.
+
+Same for the general staleness question — three of the four Active rows are from March.
 
 *— LABOR*
