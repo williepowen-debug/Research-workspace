@@ -39,6 +39,7 @@
 | From | Input | Why |
 |------|-------|-----|
 | RED | current fleet recession probability (GDP/NBER-comparable) | divergence math needs the thesis side (owed since 6/13; not urgent — crowd & fleet both calm at ~10-14%) |
+| BRENT / FALCON | fundamentals-based P(WTI touches $100 by year-end 2026) | no longer-dated $100 market is tradeable (PM = July only, resolves 8/1; Kalshi WTIMAX zero open) — need the thesis side to price the crowd's front-month 22.9% against (asked 7/24, Will-requested) |
 
 **Cross-agent tensions:** None active. The regime-flip deepening is a convergence signal (crowd stepping toward the war-widening tempo FALCON/HAWK flag), not a tension.
 
