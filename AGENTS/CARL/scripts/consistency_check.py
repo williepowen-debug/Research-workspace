@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 r"""
-CARL Consistency Checker — Checks A + B + D + E
+CARL Consistency Checker — Checks A + B + D + E + F
 
 Mechanizes the "value-mirror-drift" class: catches when a canonical value and
 its STATUS.md mirror silently disagree. The manual closeout step-15 check only
@@ -345,6 +345,181 @@ def check_a(tsv, status_open, status_resolved):
                     f"STATUS='{o['timeframe']}'"))
 
     return findings
+
+
+# --------------------------------------------------------------------------
+# Check F — bias tripwire (position-linked confidence behaviour)
+# --------------------------------------------------------------------------
+# ⚠️ HONEST SCOPE. The tripwire in CARL_BOOK_DESIGN.md §5 reads: "any session
+# where CARL holds a live position AND adverse data lands AND no confidence
+# moves." **"Adverse data lands" is NOT mechanically detectable** — no file
+# records whether a print was adverse to the thesis. So this check does NOT
+# implement the tripwire as written. It implements the parts that ARE
+# measurable, which are arguably sharper because they look at BEHAVIOUR rather
+# than at a judgement call:
+#
+#   F1  a position is open against a prediction that is no longer OPEN
+#       (holding an expression on a dead thesis — the CRL-21 class, mechanised)
+#   F2  a position is open against a pred_id that does not exist (entry-gate breach)
+#   F3  THE ASYMMETRY SIGNATURE: versus the previous commit, a POSITIONED
+#       prediction was RAISED in the same change-set where an UNPOSITIONED one
+#       was CUT. That is what motivated reasoning looks like in the ledger.
+#   F4  the bias STATISTIC: mean confidence delta, positioned vs unpositioned.
+#   F5  marking discipline: open positions with a stale or absent mark.
+#
+# What remains human judgement: deciding that a given print was adverse. F3/F4
+# substitute a comparison that needs no such call — if positioned predictions
+# systematically fare better than unpositioned ones, the bias is visible in the
+# deltas whether or not anyone labelled the data adverse.
+SLEEVE = CARL_DIR / "book" / "PAPER_SLEEVE.tsv"
+STALE_MARK_DAYS = 5
+
+
+def _read_sleeve(path):
+    """Return list of open position dicts, or None if the sleeve does not exist."""
+    if not path.exists():
+        return None
+    rows, hdr = [], None
+    for line in path.read_text(encoding="utf-8").splitlines():
+        if not line.strip() or line.lstrip().startswith("#"):
+            continue
+        f = line.split("\t")
+        if hdr is None:
+            hdr = {n.strip(): i for i, n in enumerate(f)}
+            continue
+        def g(k):
+            i = hdr.get(k, -1)
+            return f[i].strip() if 0 <= i < len(f) else ""
+        if g("status").upper() != "OPEN":
+            continue
+        rows.append({"paper_id": g("paper_id"), "pred_id": g("pred_id"),
+                     "ticker": g("ticker"), "mark_asof": g("mark_asof"),
+                     "opened": g("opened")})
+    return rows
+
+
+def _prior_confidences(tsv_path):
+    """Confidences from the previous commit of the TSV, or None if unavailable."""
+    import subprocess
+    try:
+        rel = tsv_path.resolve().relative_to(
+            Path(subprocess.check_output(["git", "rev-parse", "--show-toplevel"],
+                                         cwd=str(tsv_path.parent), text=True).strip()))
+        out = subprocess.check_output(["git", "show", f"HEAD:{rel}"],
+                                      cwd=str(tsv_path.parent), text=True,
+                                      stderr=subprocess.DEVNULL)
+    except Exception:                                  # noqa: BLE001
+        return None
+    conf, hdr = {}, None
+    for line in out.splitlines():
+        if not line.strip() or line.lstrip().startswith("#"):
+            continue
+        f = line.split("\t")
+        if hdr is None:
+            hdr = {n.strip(): i for i, n in enumerate(f)}
+            continue
+        pid = f[0].strip()
+        if not PRED_ID_RE.match(pid):
+            continue
+        i = hdr.get("Confidence", -1)
+        if 0 <= i < len(f):
+            c = extract_confidence(f[i])
+            if c is not None:
+                conf[pid] = c
+    return conf
+
+
+def check_f(tsv, tsv_path, today=None):
+    """Bias tripwire — see the honest-scope note above."""
+    findings, HARD, SOFT = [], "HARD", "SOFT"
+    sleeve = _read_sleeve(SLEEVE)
+    if sleeve is None:
+        return [(SOFT, "-", "no paper sleeve at book/PAPER_SLEEVE.tsv — Check F inapplicable "
+                            "(no positions ⇒ no position-linked bias to detect)")], None
+    if not sleeve:
+        return [(SOFT, "-", "paper sleeve exists but holds no OPEN positions — "
+                            "Check F asserted nothing this run")], None
+
+    positioned = {r["pred_id"] for r in sleeve if r["pred_id"]}
+
+    # F1 / F2 — position against a dead or non-existent prediction
+    for r in sleeve:
+        pid = r["pred_id"]
+        if not pid:
+            findings.append((HARD, r["paper_id"],
+                "ENTRY-GATE BREACH: open position carries no pred_id"))
+            continue
+        t = tsv.get(pid)
+        if t is None:
+            findings.append((HARD, r["paper_id"],
+                f"ENTRY-GATE BREACH: pred_id {pid} does not exist in PREDICTIONS.tsv"))
+        elif t["status"] != "OPEN":
+            findings.append((HARD, r["paper_id"],
+                f"DEAD-THESIS POSITION: {r['ticker']} is open against {pid}, which is "
+                f"{t['status']} — holding an expression on a resolved thesis (the CRL-21 class)"))
+
+    # F5 — marking discipline
+    for r in sleeve:
+        if not r["mark_asof"]:
+            findings.append((SOFT, r["paper_id"],
+                f"{r['ticker']} has NEVER been marked (mark_asof empty) — "
+                f"a paper book that isn't marked rots (TERRY failure-mode 3)"))
+
+    # F3 / F4 — confidence-trajectory asymmetry vs the previous commit
+    prior = _prior_confidences(tsv_path)
+    stats = {"positions": len(sleeve), "positioned_preds": sorted(positioned),
+             "prior_available": prior is not None}
+    if prior is None:
+        findings.append((SOFT, "-", "previous commit of PREDICTIONS.tsv unavailable — "
+                                    "F3/F4 (confidence-trajectory asymmetry) could not run"))
+        return findings, stats
+
+    deltas = {}
+    for pid, cur in tsv.items():
+        if cur["confidence"] is None or pid not in prior:
+            continue
+        d = cur["confidence"] - prior[pid]
+        if d != 0:
+            deltas[pid] = d
+    pos_up = {p: d for p, d in deltas.items() if p in positioned and d > 0}
+    unpos_dn = {p: d for p, d in deltas.items() if p not in positioned and d < 0}
+    if pos_up and unpos_dn:
+        findings.append((HARD, "bias",
+            f"ASYMMETRY SIGNATURE: positioned prediction(s) RAISED "
+            f"({', '.join(f'{p} {d:+d}pp' for p, d in sorted(pos_up.items()))}) in the same "
+            f"change-set where unpositioned prediction(s) were CUT "
+            f"({', '.join(f'{p} {d:+d}pp' for p, d in sorted(unpos_dn.items()))}) — "
+            f"this is what motivated reasoning looks like in the ledger. Justify or reverse."))
+
+    pos_d = [d for p, d in deltas.items() if p in positioned]
+    unpos_d = [d for p, d in deltas.items() if p not in positioned]
+    stats.update({
+        "changed": len(deltas),
+        "pos_mean": (sum(pos_d) / len(pos_d)) if pos_d else None,
+        "unpos_mean": (sum(unpos_d) / len(unpos_d)) if unpos_d else None,
+        "pos_n": len(pos_d), "unpos_n": len(unpos_d),
+        "degenerate": len(positioned) < 2,
+    })
+    return findings, stats
+
+
+def _print_f_coverage(s):
+    if not s:
+        return
+    print(f"       positions: {s['positions']} open across "
+          f"{len(s['positioned_preds'])} prediction(s) ({', '.join(s['positioned_preds'])})")
+    if not s.get("prior_available"):
+        return
+    pm, um = s.get("pos_mean"), s.get("unpos_mean")
+    if s.get("changed", 0) == 0:
+        print(f"       no confidence changed vs the previous commit — F3/F4 asserted nothing")
+    else:
+        f = lambda v, n: f"{v:+.1f}pp (n={n})" if v is not None else "none changed"
+        print(f"       confidence delta since last commit — positioned {f(pm, s['pos_n'])} · "
+              f"unpositioned {f(um, s['unpos_n'])}")
+    if s.get("degenerate"):
+        print(f"       \u26a0\ufe0f  all positions sit on ONE prediction — the positioned-vs-"
+              f"unpositioned comparison is DEGENERATE and proves nothing yet")
 
 
 # --------------------------------------------------------------------------
@@ -818,7 +993,7 @@ def _fmt_conf(c):
 # Reporting
 # --------------------------------------------------------------------------
 def print_report(groups, tsv, status_open, n_entries, e_stats=None, b_stats=None,
-                 quiet=False):
+                 f_stats=None, quiet=False):
     """groups: ordered list of (label, findings)."""
     all_f = [f for _, fs in groups for f in fs]
     hard = [f for f in all_f if f[0] == "HARD"]
@@ -826,7 +1001,7 @@ def print_report(groups, tsv, status_open, n_entries, e_stats=None, b_stats=None
 
     if not quiet:
         print(f"\n{'=' * 78}")
-        print(f"  CARL CONSISTENCY CHECK — A (mirror) · B (score) · D (instrument) · E (monotonicity)")
+        print(f"  CARL CONSISTENCY CHECK — A mirror · B score · D instrument · E monotonicity · F bias")
         print(f"{'=' * 78}")
         print(f"  Canonical : thesis/PREDICTIONS.tsv "
               f"({sum(1 for v in tsv.values() if v['status'] == 'OPEN')} OPEN "
@@ -845,6 +1020,8 @@ def print_report(groups, tsv, status_open, n_entries, e_stats=None, b_stats=None
             print(f"\n  ✅ {label} — clean.")
             if e_stats and label.startswith("CHECK E"):
                 _print_e_coverage(e_stats)
+            if f_stats is not None and label.startswith("CHECK F"):
+                _print_f_coverage(f_stats)
             if b_stats and label.startswith("CHECK B"):
                 print(f"       verified: {b_stats['thesis_vectors']} THESIS vectors vs "
                       f"{b_stats['status_vectors']} STATUS mirror rows vs "
@@ -860,6 +1037,8 @@ def print_report(groups, tsv, status_open, n_entries, e_stats=None, b_stats=None
             print(f"  {mark} {sev:<4} {pid:<16} {msg}")
         if e_stats and label.startswith("CHECK E"):
             _print_e_coverage(e_stats)
+        if f_stats is not None and label.startswith("CHECK F"):
+            _print_f_coverage(f_stats)
         if b_stats and label.startswith("CHECK B"):
             print(f"       verified: {b_stats['thesis_vectors']} THESIS vectors vs "
                   f"{b_stats['status_vectors']} STATUS mirror rows vs "
@@ -878,7 +1057,7 @@ def print_report(groups, tsv, status_open, n_entries, e_stats=None, b_stats=None
 
 # --------------------------------------------------------------------------
 def main():
-    ap = argparse.ArgumentParser(description="CARL consistency checker — Checks A, B, D, E.")
+    ap = argparse.ArgumentParser(description="CARL consistency checker — Checks A, B, D, E, F.")
     ap.add_argument("--quiet", action="store_true", help="summary + findings only")
     ap.add_argument("--warn-only", action="store_true",
                     help="always exit 0 (findings still print). Used by boot.py so a "
@@ -903,6 +1082,7 @@ def main():
     fa = check_a(tsv, status_open, status_resolved)
     fb, b_stats = check_b(Path(args.thesis), status_path)
     fd = check_d(tsv)
+    ff, f_stats = check_f(tsv, tsv_path)
     entries, gaps = collect_ledgers(tsv_path, tsv)
     fe, e_stats = check_e(entries, gaps)
 
@@ -911,9 +1091,10 @@ def main():
         ("CHECK B — convergence score (THESIS matrix ↔ STATUS mirror ↔ histogram)", fb),
         ("CHECK D — instrument declaration (does each OPEN row name what resolves it?)", fd),
         ("CHECK E — cross-ledger threshold monotonicity (parent + sub-agents)", fe),
+        ("CHECK F — bias tripwire (position-linked confidence behaviour)", ff),
     ]
     print_report(groups, tsv, status_open, len(entries), e_stats=e_stats,
-                 b_stats=b_stats, quiet=args.quiet)
+                 b_stats=b_stats, f_stats=f_stats, quiet=args.quiet)
 
     hard = [f for _, fs in groups for f in fs if f[0] == "HARD"]
     if hard and args.warn_only:

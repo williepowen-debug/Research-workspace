@@ -43,7 +43,7 @@ BOOT_SEQUENCE = [
     # Warn-and-surface (--warn-only): a finding prints loudly but does NOT render
     # as a script FAILURE — "drift found" != "script crashed". Closeout still
     # runs it without --warn-only, where exit 1 is the gate before commit.
-    ("Consistency Check (A/B/D/E)", "consistency_check.py", ["--quiet", "--warn-only"], "CONSISTENCY", False),
+    ("Consistency Check (A/B/D/E/F)", "consistency_check.py", ["--quiet", "--warn-only"], "CONSISTENCY", False),
 ]
 
 # Key markers to show in collapsed mode

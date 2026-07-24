@@ -109,7 +109,7 @@ The strongest objection to a CARL book is **not** instrument overlap. It is that
 
 | Control | Mechanism |
 |---|---|
-| **Bias tripwire** | Any session where CARL holds a live position **and** adverse data lands **and** no confidence moves is a **reportable event** — logged to SCRATCH and routed to PROME. Candidate mechanical check (Phase 5). |
+| **Bias tripwire** | ✅ **MECHANISED 2026-07-24 — `consistency_check.py` Check F.** ⚠️ **Not as originally written:** *"adverse data lands"* is not mechanically detectable, so F substitutes what is — **F1** position against a no-longer-OPEN prediction (dead-thesis, the CRL-21 class) · **F2** entry-gate breach · **F3** the **asymmetry signature** (a positioned prediction RAISED in the same change-set where an unpositioned one was CUT — motivated reasoning visible in the deltas, needing no view on whether data was adverse) · **F4** the bias statistic · **F5** marking discipline. 3 acceptance tests passed. **Currently DEGENERATE and says so** — all 5 legs sit on CRL-27, so there is no unpositioned contrast group yet. |
 | **RED standing challenge** | RED may challenge any CARL position as thesis-motivated at any time, and CARL must answer in writing. |
 | **Pre-registration is the gate** | §4.1 — the prediction must exist *before* the position, so the position cannot retro-justify the view. |
 | **Separation of powers** | TERRY constructs, Will approves, FORGE marks, CARL only proposes. CARL gains **no decision rights**. |
@@ -144,6 +144,6 @@ The strongest objection to a CARL book is **not** instrument overlap. It is that
 1. ~~**Approve the paper sleeve?**~~ ✅ **APPROVED 2026-07-24, LIVE.** 5 legs open, all `pred_id=CRL-27`.
 2. ~~**The SYF/COF/ALLY split with REGINALD**~~ — **ROUTED to REGINALD 2026-07-24.** Only escalates to Will if CARL and REGINALD can't land it between them. Note the finding: the conflict was one-sided and in CARL's file; REGINALD's own scope already routes consumer credit to CARL.
 3. **Should the Brier audit be a prerequisite** to Phase 1, or run in parallel?
-4. **Does the bias tripwire go in `consistency_check.py`** as a mechanical Phase 5 check, or stay a discipline note?
+4. ~~**Does the bias tripwire go in `consistency_check.py`?**~~ ✅ **MECHANISED 2026-07-24 as Check F** — see §5. **All four §8 questions are now closed.**
 
 *Nothing in this document is live. No position exists. Approval gates every element.*

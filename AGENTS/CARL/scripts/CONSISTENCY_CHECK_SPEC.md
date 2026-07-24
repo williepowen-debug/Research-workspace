@@ -273,3 +273,38 @@ Arguably correct — they *are* different measures — but the monotonicity rela
 **2. A false-positive trap in the mirror parser, found and fixed.** Writing the STATUS mirror row as `| **CRL-27** *(NEW 7/24)* |` made the row read as **UNMIRRORED** — the ID cell was matched strictly (`^CRL-\d+$`) and the annotation broke it. The row was present, just decorated. **Fixed with a tolerant leading-ID match for MIRROR tables only** (`^(CRL-\d+)\b`); the canonical TSV stays strict. Regression-tested: an annotated ID cell now parses.
 
 This is the second time in one session that a checker's own usability defect produced a misleading result (the first was B5 flagging legitimate history). **Both were fixed rather than tolerated, on the same principle: a checker that produces false positives gets ignored, and an ignored checker is worse than none.**
+
+---
+
+# CHECK F — BIAS TRIPWIRE (2026-07-24, Will-directed)
+
+**Status: BUILT, 3 acceptance tests passed, wired into `boot.py`.** Closes the last open question in `CARL_BOOK_DESIGN.md` §8.
+
+## ⚠️ What it does NOT do, said first
+
+The tripwire as written in the design doc is: *"any session where CARL holds a live position **and adverse data lands** and no confidence moves."* **"Adverse data lands" is not mechanically detectable** — no file records whether a print was adverse to the thesis, and inferring it would need exactly the judgement the tripwire is meant to police.
+
+**So Check F does not implement the tripwire as written.** It implements the parts that are measurable — and they're arguably sharper, because they look at **behaviour in the ledger** rather than at a judgement call.
+
+## What it checks
+
+| # | Rule | Sev |
+|---|---|---|
+| **F1** | Position open against a prediction that is no longer `OPEN` — **holding an expression on a dead thesis. The CRL-21 class, mechanised.** | HARD |
+| **F2** | Position open against a `pred_id` that doesn't exist, or none at all — entry-gate breach | HARD |
+| **F3** | **THE ASYMMETRY SIGNATURE:** vs the previous commit, a **positioned** prediction was RAISED in the same change-set where an **unpositioned** one was CUT | HARD |
+| **F4** | The bias **statistic**: mean confidence delta, positioned vs unpositioned | reported |
+| **F5** | Marking discipline: open positions never marked / stale `mark_asof` | SOFT |
+
+**F3 is the core.** It needs no view on whether data was adverse: if positioned predictions systematically fare better than unpositioned ones in the same change-set, motivated reasoning is visible in the deltas regardless of what anyone labelled the data. Prior confidences come from `git show HEAD:` on the TSV; if unavailable, F3/F4 report that they could not run rather than passing silently.
+
+## Acceptance tests (2026-07-24, all PASSED, all reverted)
+1. **F1** — pointed PS-0005 at CRL-24 (MISSED) → *"DEAD-THESIS POSITION: AZO is open against CRL-24, which is MISSED"*.
+2. **F2** — pointed it at a non-existent CRL-99 → *"ENTRY-GATE BREACH"*.
+3. **F3** — raised CRL-27 (positioned) 55→65 while cutting CRL-05 (unpositioned) 85→75 → *"ASYMMETRY SIGNATURE: … RAISED (CRL-27 +10pp) … CUT (CRL-05 −10pp) … Justify or reverse."*
+
+## It caught a real lapse on its first run
+F5 immediately flagged that **all five sleeve legs had never been marked** — the marking discipline written into `book/README.md` an hour earlier and not followed. Marked; finding cleared.
+
+## Coverage honesty (same principle as Checks B and E)
+F4 reports **`all positions sit on ONE prediction — the comparison is DEGENERATE and proves nothing yet`**. With 5 legs all on CRL-27 there is no unpositioned contrast group. **The check is armed but not yet informative, and it says so rather than returning a green tick that implies otherwise.** It becomes informative once positions span ≥2 predictions.
