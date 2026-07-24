@@ -43,6 +43,7 @@ A **fixed/salaried** bankroll (not unlimited paper money) is the key. Infinite p
 | `opened` | ET date/time of the would-fire trigger |
 | `will_decision` | APPROVED / PASSED / NO-DECISION (the refusal-calibration key; PASSED = the ghost subset) |
 | `lane` | `paper` / `real` (added 2026-07-24). A would-fire card that Will ALSO filled live gets `real`; auto-filled cards he didn't execute are `paper`. Keeps the card-quality record from being blended with a live P&L at scoring — split by lane once N≥10. |
+| `funding_status` | **(Phase-2 column — add when the desk activates)** FUNDED / UNFUNDED-deprioritized / UNFUNDED-displacement-miss / NO-FILL-underspecified. Records how a would-fire card fared against the $1,500 salary cap (see §Decision Logic). |
 | `structure` | e.g. "TLT Sep-18 77P x1" |
 | `entry_fill` | paper fill price per the fill rule |
 | `entry_basis` | exact quote + side + timestamp + any slippage penalty applied (auditable) |
@@ -89,6 +90,70 @@ The **7/17 004 re-fire ZONE 2/3** (77P × 45ct = $495) is the natural seed: it r
 - Boot-mark wired + staleness flag.
 - Seed row logged.
 - Guardrails restated in the ledger header.
+
+---
+
+## Decision Logic — open / prioritize / close (Phase-2 rulebook)
+*Added 2026-07-24 (Will-approved, rulings A–D below). The **open** and **close** logic governs Phase 1 too; the **prioritize** block is Phase-2-only (it needs the salary cap to bind). This is the rulebook the closeout log-step + `paper_book_mark.py` execute against — it removes discretion so the paper record measures the SAME strategy as the real cards (design failure-mode #2, discipline decoupling).*
+
+### 0. Governing principle
+**The card is the algorithm; the book executes it.** Entry and exit are inherited mechanically from card fields — TERRY makes no discretionary buy/sell call on a paper position.
+- **Corollary — NO-FILL on an underspecified card:** a would-fire card missing any required field (entry trigger / invalidation / target / time stop — HARD BOUNDARY #5) **cannot enter the book.** Log `NO-FILL-underspecified`, never guess. (Doubles as a card-quality gate.)
+
+### 1. OPEN (entry)
+- **Trigger = would-fire state** = all *objective* ZONE-3 gates would pass: the card's entry trigger fired · an under-reaction still exists (not chasing a completed gap) · liquidity OK · no-chase level respected. The **`Will approves` and `position truth` gates are set aside** — auto-fill is independent of approval (the PAT-028 point; that's what generates a record at all).
+- **Fill:** buy at the **ASK** at the **trigger timestamp**; wide-spread penalty (bid/ask >15% of mid → one tick worse than posted); `entry_basis` records the exact quote+timestamp. Market closed at trigger → next-open ask. **Never mid.**
+- **Late detection** (TERRY on-demand, asleep at the trigger): fill at the trigger-timestamp quote if reconstructable, else the next-open TERRY-observed ask, **flagged** in `entry_basis` (lumpy-by-construction, Sharpening 6).
+
+### 2. ADD (scale into an existing paper position)
+- **Default: NO adds.** The real book is deploy-once-on-trigger; so is the paper book.
+- **Exception:** the card pre-registered a scale rule (e.g. 004's *"scale the remaining ~$170 only on a FRESH discriminator"*) → follow it mechanically. An add is a fresh OPEN drawing fresh tranche → it competes in the same priority pool (§3).
+- **Banned:** discretionary averaging-down / adding to a loser with no card rule (the day-trade-leak behavior).
+
+### 3. PRIORITIZE (the $1,500 salary cap — Phase-2 only)
+Phase 1 auto-fills every would-fire card (no cap). Phase 2's tranche forces a choice when **would-fire outlay demand > available tranche** that month.
+- **Salary unit:** each fill is charged at its **premium / net-debit outlay = the `risk_$` field** (for defined-risk longs, outlay = max loss).
+- **Ranking (RULING A):** sort by the card's **qualitative edge bucket** (Strong / Moderate / Small — RISK_SCORING §2) FIRST; within a bucket, tiebreak on **edge_score = expected_return / max_loss**. *No invented precise expected-return — the scoring doc forbids fake p_model precision on convex tails; the bucket is the honest unit.*
+- **Independence tiebreak:** a card that **deepens an existing paper exposure** (shared falsifier / same driver — e.g. the 004 Hormuz-concentration flag) ranks **below** an independent one, all else equal.
+- **Capital timing (RULING B): first-come, no reserve.** Fund any card clearing the edge bar the moment it fires; if a higher-edge card arrives after the tranche is spent, log it `UNFUNDED-displacement-miss`. Holding capital for a maybe-better setup is not allowed — the misses ARE the lesson.
+- **Rejected cards** get a `funding_status`: `UNFUNDED-deprioritized` (lost the edge rank) or `UNFUNDED-displacement-miss` (tranche gone). **This is the whole point of the salary** — at close it answers *did the deprioritized cards underperform the funded ones?* (prioritization calibration).
+- **Real fills (RULING C):** the paper desk runs its own priority over **ALL** would-fire cards regardless of your approval; `lane=real` just tags the ones you also executed live. The signal to watch is **divergence** — a `lane=real` card the model would have deprioritized (you funded something it wouldn't), or a deprioritized card you also skipped live (agreement).
+
+### 4. CLOSE (exit)
+Exits are **rule-driven from the card, never P&L-driven.** Close when the card's pre-registered exit fires:
+
+| Close trigger | Source | Fill |
+|---|---|---|
+| **Target / partial** | card §6 (e.g. 004 *"harvest ≥3× fast spike → take half"*) | sell at **BID**, trigger timestamp |
+| **Invalidation / kill** | card §5 (e.g. 004 *DGS10 close <4.50 → disarm*) | sell at **BID**, trigger timestamp |
+| **Time stop** | card §6 (catalyst-miss date) | sell at **BID** |
+| **Roll** | card roll rule, pre-registered only (rule #7) | **close old @ BID + open new @ ASK — two fills, both pay the spread**; new leg draws fresh tranche |
+| **Expiry** | option expiry date | **auto-close at intrinsic** (0 if OTM); no fill/spread — it just expires |
+
+- **Partial exits (RULING D):** a partial splits the row into a closed child + an open child (`PB-0002a` closed / `PB-0002b` open) — keeps P&L clean and survivorship intact; `notes` cross-links the pair.
+- **Marks ≠ exits.** `paper_book_mark.py` marks OPEN rows to MID on boot cadence; a mark moving closes nothing.
+- **NOT an exit trigger:** "it's up/down a lot" with no card rule behind it. Banned.
+
+### 5. Disposition taxonomy (how a row is fully labeled)
+- **`will_decision`** — APPROVED / PASSED / NO-DECISION (your call; PASSED = the refusal ghost)
+- **`lane`** — paper / real
+- **`funding_status`** (Phase-2) — FUNDED / UNFUNDED-deprioritized / UNFUNDED-displacement-miss / NO-FILL-underspecified
+- **close-reason tag** — target / invalidation / timestop / roll / expiry (feeds the RISK_SCORING §6 postmortem)
+
+### 6. What TERRY must NOT do (guardrail restatement)
+- No discretionary P&L exits — only card rules close a row.
+- No averaging-down / adds without a card scale-rule.
+- No re-entry after a rule-based stop unless the card **re-triggers fresh** (a stopped card is done; a new would-fire is a new row).
+- No mid fills, ever (ask-buy / bid-sell).
+- No holding tranche in reserve for a hypothetical better card (Ruling B).
+
+### 7. Worked example — TRY-FIRE-004 through the logic
+1. **Open:** 7/20 arm-#2 latched + green-TLT day + ask $0.11 ≤ no-chase $0.12 + liquid → would-fire → auto-open, buy @ ASK $0.11, `entry_basis` stamped (PB-0002). *(Phase 1: no cap. Phase 2: had it competed for tranche that week, 004 is a Small/convex-tail bucket → a Moderate credit-transmission card would outrank it.)*
+2. **Hold:** marked to MID each boot ($0.135 as-of 7/23); marks don't close it.
+3. **Close — whichever fires first:**
+   - *Harvest:* TLT gaps and 77P ≥ 3× ($0.33+) → sell HALF @ BID → split `PB-0002a` (closed) / `PB-0002b` (open).
+   - *Disarm:* official DGS10 close <4.50 → close full @ BID (invalidation).
+   - *Expiry:* neither fires by Sep-30 → auto-close at intrinsic (0 if TLT>77) — the grind path pays $0.
 
 ---
 
