@@ -32,7 +32,7 @@
 1. **🔴 Sat-Mon 7/25-28 — BDC marks (FSK/OBDC/OCSL/MFIC 7/25 → ARCC 7/28) + SBCF** = the structural-narrowing test. Benign → CHG-027 capitulation REVIEW (write it honestly); NAV cuts → non-bank migration vindicated.
 2. ~~FOMC pre-write~~ **DONE S24 (T-4):** `research/FOMC_FRAMEWORK_JUL28-29_2026.md` + RED-20 (S1 52/S2 16/S3 7/S4 23/S5 2; reaction axis separate; per-cell bounded moves; 5 guards). **On the night: execute the tree, record the oil-language tell at the presser, grade both axes at 7/29 close + next-day confirm.**
 3. ~~Premium-double-counting red-team~~ **DONE S24 (CHG-RED-043)** — watch for FALCON/NEXUS fold of the two recommendations; falsifiers live.
-4. **🟠 OSPREY steelman ask (owed since 7/12)** — crude-infra-spared: choice / capability / reporting-bias; weight 3 non-converging refining figures.
+4. ~~OSPREY steelman ask~~ **ANSWERED S24** (55/35/10; rotation test 2-of-3 by ~8/24 pre-registered; delivered to OSPREY inbox via carve-out; ML-108). **Grade own 55/35/10 at ~8/24; watch whether OSPREY adopts the OSP-0x rotation row.**
 5. **🟡 Verify:** EGBN Q2 grade (unlocated at S24) · sinking-watch 7/26 outcome · June MF-starts print · KFRC date (~8/4).
 6. **Daily:** HY >280 re-cross (3bps) · CCC >1000 (9bps; DISH 7/31 mechanical-tightening trap) · SKEW vs 140 · Brent vs $85 book levels.
 7. **July CPI 8/13 tree by 8/6** (CHG-028 falsifier; oil lands in that print).

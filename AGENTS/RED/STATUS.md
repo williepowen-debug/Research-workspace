@@ -88,7 +88,7 @@
 2. **BDC marks 7/25-28 + SBCF** — the structural-narrowing test. If the non-bank leg also prints benign, CHG-027 goes to capitulation review; if NAV cuts land, the bear's migration to non-bank surfaces is vindicated.
 3. ~~Premium-double-counting red-team~~ **DONE same session (CHG-RED-043)** — verdict MODERATE, FALCON's marks vindicated, two recommendations routed (FALCON P/R split-scalar; NEXUS route-count line). Watch for the fold; falsifiers live.
 4. **Daily:** HY 280 re-cross (3bps) · CCC 1000 (9bps) · sinking watch closes 7/26 · SKEW vs 140.
-5. **OSPREY steelman ask (owed since 7/12):** crude-infra-spared = choice, capability, or reporting bias; weight the 3 non-converging refining-offline figures.
+5. ~~OSPREY steelman ask~~ **ANSWERED S24 (ML-RED-108):** 55% deliberate-products-first / 35% damage-class-capability (range limit refuted) / 10% reporting-bias (killed by the Kpler outcome series). Strong-form "crude spared" retired. **Rotation test pre-registered: 2-of-3 (fixed-infra strike / >2wk crude interdiction / shipments <3.8M bpd) by ~8/24 = rotation confirmed → crude-event risk flips.** Grade own 55/35/10 at window close.
 6. **July CPI 8/13 decision tree by 8/6** (CHG-028; oil lands in this print).
 
 ---
