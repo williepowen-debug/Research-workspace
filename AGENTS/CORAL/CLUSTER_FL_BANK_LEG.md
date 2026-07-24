@@ -58,6 +58,8 @@ CORAL owns the bank-LEVEL FL read; REGINALD integrates fleet-wide. To avoid two 
 
 **Net:** for both shared names CORAL's FL-specific incremental loss number is **≈ $0 / not-isolable** — REGINALD's fleet read IS the number; CORAL does not carry a divergent FL figure. (Where CORAL's distinct FL signal lives is the canaries below, not SSB/VLY.)
 
+**Q2 2026 update (7/24):** both names reconfirmed BENIGN off primary Q2 prints (VLY 7/23, SSB 7/23-AMC/graded 7/24) — the ≈$0/not-isolable FL read holds, no change to this section's conclusion.
+
 ### (2) FL-canary 30-89d leading-bucket rows — VERIFIED Q1'26 10-Q aging (the diagnostic-enabling data)
 
 Total-bank 30-89d past-due, $000s, read off the SEC EDGAR XBRL aging-detail exhibits (curl w/ declared UA; WebFetch 403'd as expected). **VERIFIED**, as-of 3-31-2026.
@@ -108,6 +110,8 @@ Total-bank 30-89d past-due, $000s, read off the SEC EDGAR XBRL aging-detail exhi
 ## The cross-bank diagnostic (the cluster's "it's landing" bar)
 
 > **Synchronized criticized/classified → realized NCO + specific reserve build across ≥2 FL banks in the same quarter.** One ticking = idiosyncratic; ≥2 synchronized = transmission.
+
+**Status updated 2026-07-24 — Q2 print window CLOSED, gate NOT met, and mathematically cannot be met this quarter.** Six of seven FL/near-FL Q2 surfaces graded BENIGN on the pre-registered 4-axis frame (`FL_BANK_WATCHLIST.md`): CCBG (7/21), BKU (7/22, 1-of-4), VLY (7/23, 1-of-4, no FL attribution), USCB (7/23, 0-of-4, condo-assoc wire clean), AMTB (7/23, 1-of-4, thin-coverage stress point improved not cracked), **SSB (7/23-AMC/graded 7/24, 0-of-4** — SouthState Corp NYSE:SSB, entity-disambiguated from Seacoast/SBCF; primary 8-K acc. 0001104659-26-086278; NCO 6bps declining, ACL 1.15% declining, NPA/classified/special-mention all down QoQ, provision rise growth-funded not specific-reserve). Only **SBCF (7/28 AMC)** remains. **The ≥2-synchronized diagnostic can no longer fire this quarter under any SBCF outcome** — one name, however severe, is only 1-of-≥2. SBCF 7/28 is downgraded from gate-decider to single-name confirm/disconfirm of the pre-registered mechanism (nonaccrual 3rd-rise + CRE-non-OO reserve build), feeding next quarter's baseline rather than this quarter's synchronization test. Consistent with DEWEY's 2027 synchronized-NCO timing call — Q2 was never expected to fire the bar, and it hasn't, cleanly across the whole cohort.
 
 **Status at Q1 2026: NOT met** (refined by the verified 30-89d pull above). No synchronized FL-RE realized NCO. The cleanest precursor is a **YoY** rise in the leading 30-89 bucket at **USCB (+43%) + SBCF (+65%)** — a ≥2-bank YoY flicker — **but** it is not realized NCO, the QoQ momentum is mixed (SBCF cooling off a Q4 peak; USCB tiny-base), AMTB's apparent spike is lumpy commercial-timing (+6% YoY, suspect), and BKU is benign ex-gov (−3% YoY). The sharpest *fresh-quarter* signal is **SBCF nonaccrual $72→95M**, not the leading bucket. The one bank with elevated realized loss (BKU $36M) is **C&I, not FL-RE** → the visible stress is *not yet the thesis mechanism*.
 
