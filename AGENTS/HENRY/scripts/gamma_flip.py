@@ -25,7 +25,7 @@ reads; don't trust the exact level within ~30-40pts of a crossing.
 
 Usage: .venv/bin/python3 AGENTS/HENRY/scripts/gamma_flip.py [--days N] [--asof YYYY-MM-DD]
 """
-import sys, math
+import sys, math, json, re, urllib.request
 from datetime import date, datetime
 from collections import defaultdict
 
@@ -56,26 +56,105 @@ def bsm_gamma(S, K, T, sig):
     return math.exp(-Q * T) * npdf(d1) / (S * sig * math.sqrt(T))
 
 
-def compute_gamma_flip(asof=None, horizon=HORIZON_DAYS, band=0.25):
-    """Compute the SPX dealer-gamma flip from the live ^SPX chain.
+CBOE_URL = "https://cdn.cboe.com/api/global/delayed_quotes/options/_SPX.json"
+_OCC_RE = re.compile(r"^SPX[W]?(\d{2})(\d{2})(\d{2})([CP])(\d{8})$")
+
+
+def _fetch_cboe(today, horizon, band):
+    """PRIMARY source: CBOE delayed-quote chain (the exchange itself).
+
+    Added 7/23 after yfinance's `openInterest` field went to ZERO for ~97% of the
+    ^SPX chain (7,278 of 7,514 rows) while volume and IV stayed populated — a
+    field-level provider outage, NOT the "degraded IV feed" first diagnosed.
+    CBOE carries real OI (21.1K rows, ~21.7M contracts) and is exchange-primary,
+    so it is now preferred over yfinance rather than merely a fallback.
+
+    NOTE: volume is NOT a substitute for open interest. GEX weights by the STOCK
+    of outstanding contracts dealers must hedge; volume is one session's FLOW
+    (heavily 0DTE churn). Weighting by volume yields a number shaped like a GEX
+    that is not one — do not add that as a fallback.
+
+    Returns (spot, opts, err).
+    """
+    try:
+        req = urllib.request.Request(CBOE_URL, headers={"User-Agent": "Mozilla/5.0 (research)"})
+        payload = json.load(urllib.request.urlopen(req, timeout=90))["data"]
+    except Exception as e:  # noqa: BLE001
+        return None, None, f"cboe fetch failed: {e}"
+    spot = float(payload.get("current_price") or payload.get("close") or 0)
+    if not spot:
+        return None, None, "cboe returned no underlying price"
+    opts = []
+    for o in payload.get("options", []):
+        m = _OCC_RE.match(o.get("option", ""))
+        if not m:
+            continue
+        yy, mm, dd, cp, k = m.groups()
+        T = (date(2000 + int(yy), int(mm), int(dd)) - today).days / 365.0
+        if T <= 0 or T > horizon / 365.0:
+            continue
+        oi = o.get("open_interest") or 0
+        iv = o.get("iv") or 0
+        K = int(k) / 1000.0
+        if _isnan(K) or _isnan(oi) or _isnan(iv):
+            continue
+        if oi <= 0 or not (0.03 < iv < 2.5):
+            continue
+        if not ((1 - band) * spot < K < (1 + band) * spot):
+            continue
+        opts.append((K, T, iv, oi, cp))
+    return spot, opts, None
+
+
+def compute_gamma_flip(asof=None, horizon=HORIZON_DAYS, band=0.25, source="auto"):
+    """Compute the SPX dealer-gamma flip from the live SPX chain.
+
+    source: "auto" (CBOE first, yfinance fallback) | "cboe" | "yfinance".
 
     Returns a dict {spot, flip, flips, gex_at_spot, regime, call_wall, put_wall,
-    n_contracts, horizon, band, asof} — or {'error': msg} on any failure (never
-    raises, so boot.py can degrade gracefully).
+    n_contracts, source, horizon, band, asof} — or {'error': msg} on any failure
+    (never raises, so boot.py can degrade gracefully).
     """
+    today = datetime.strptime(asof, "%Y-%m-%d").date() if asof else date.today()
+    used = None
+    opts = []
+    spot = None
+    errs = []
+
+    if source in ("auto", "cboe"):
+        spot, opts, err = _fetch_cboe(today, horizon, band)
+        if err:
+            errs.append(err)
+        elif len(opts) >= MIN_CONTRACTS:
+            used = "cboe"
+        else:
+            errs.append(f"cboe chain thin: {len(opts)} usable")
+    if used is None and source in ("auto", "yfinance"):
+        spot_y, opts_y, err = _fetch_yfinance(today, horizon, band)
+        if err:
+            errs.append(err)
+        else:
+            spot, opts, used = spot_y, opts_y, "yfinance"
+    if used is None:
+        return {"error": "; ".join(errs) or "no usable source"}
+
+    return _finish(spot, opts, used, horizon, band, today)
+
+
+def _fetch_yfinance(today, horizon, band):
+    """Fallback source. Returns (spot, opts, err)."""
     try:
         import yfinance as yf
     except Exception as e:  # noqa: BLE001
-        return {"error": f"yfinance import failed: {e}"}
-    today = datetime.strptime(asof, "%Y-%m-%d").date() if asof else date.today()
+        return None, None, f"yfinance import failed: {e}"
     try:
         t = yf.Ticker("^SPX")
         spot = t.fast_info["lastPrice"]
         exps = t.options
     except Exception as e:  # noqa: BLE001
-        return {"error": f"chain fetch failed: {e}"}
+        return None, None, f"chain fetch failed: {e}"
     if not spot or not exps:
-        return {"error": "no spot/expirations from yfinance"}
+        return None, None, "no spot/expirations from yfinance"
 
     opts = []
     for exp in exps:
@@ -103,16 +182,19 @@ def compute_gamma_flip(asof=None, horizon=HORIZON_DAYS, band=0.25):
                 if not ((1 - band) * spot < K < (1 + band) * spot):
                     continue
                 opts.append((K, T, iv, oi, typ))
+    return spot, opts, None
+
+
+def _finish(spot, opts, used, horizon, band, today):
+    """Shared math: net GEX, zero-gamma flip, call/put walls."""
     if not opts:
         return {"error": "no usable contracts after filtering"}
-    # Thin-chain guard (7/23): a healthy <=35d pull is thousands of contracts (6,206 on
-    # 7/17). yfinance intermittently returns NaN IV for most of the chain, which the IV
-    # filter correctly drops — leaving a residue too thin to locate a flip. Refuse to
-    # emit rather than publish a number off a degraded feed.
+    # Thin-chain guard (7/23): a healthy <=35d pull is thousands of contracts
+    # (6,967 via CBOE on 7/23; 6,206 via yfinance on 7/17). Refuse to emit rather
+    # than publish a flip located off a residue.
     if len(opts) < MIN_CONTRACTS:
         return {"error": f"chain too thin: {len(opts)} usable contracts "
-                         f"(< {MIN_CONTRACTS}); yfinance IV/OI feed degraded — "
-                         f"no gamma read this run"}
+                         f"(< {MIN_CONTRACTS}) from {used} — no gamma read this run"}
 
     def net_gex(S):
         g = 0.0
@@ -145,6 +227,7 @@ def compute_gamma_flip(asof=None, horizon=HORIZON_DAYS, band=0.25):
         "call_wall": max(cg, key=cg.get) if cg else None,
         "put_wall": max(pg, key=pg.get) if pg else None,
         "n_contracts": len(opts),
+        "source": used,
         "horizon": horizon,
         "band": band,
         "asof": today.isoformat(),
@@ -166,7 +249,8 @@ def main():
         return 1
 
     spot, flips = r["spot"], r["flips"]
-    print(f"===== SPX GAMMA FLIP  (asof {r['asof']}, <= {horizon}d, {r['n_contracts']} contracts) =====")
+    print(f"===== SPX GAMMA FLIP  (asof {r['asof']}, <= {horizon}d, "
+          f"{r['n_contracts']:,} contracts, src={r.get('source','?')}) =====")
     print(f"  SPX spot        {spot:,.2f}")
     print(f"  Net GEX @ spot  {r['gex_at_spot']/1e9:+.1f} $B/1%   -> "
           f"{'POSITIVE (dealers dampen)' if r['gex_at_spot'] > 0 else 'NEGATIVE (dealers AMPLIFY)'}")
