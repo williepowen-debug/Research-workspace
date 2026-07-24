@@ -495,7 +495,14 @@ def parse_sub_tsv(path):
 
 
 def check_e(entries, gaps):
-    """Nested thresholds on one series must carry monotone confidence."""
+    """
+    Nested thresholds on one series must carry monotone confidence.
+
+    Returns (findings, stats).  stats exists so a CLEAN result carries its own
+    coverage evidence: a check that compared nothing must not read the same as a
+    check that compared everything and found no violation.  (False-zero guard —
+    a tool scanning the wrong slice manufactures a clean bill of health.)
+    """
     findings = []
     HARD, SOFT = "HARD", "SOFT"
 
@@ -503,12 +510,29 @@ def check_e(entries, gaps):
         findings.append((SOFT, name, f"coverage gap: {reason}"))
 
     groups = {}
+    skipped_qual = skipped_noconf = 0
     for e in entries:
         if e["inst"]["qualitative"] or e["inst"]["value"] is None:
+            skipped_qual += 1
             continue
         if e["confidence"] is None:
+            skipped_noconf += 1
             continue
         groups.setdefault(_series_key(e["inst"]), []).append(e)
+
+    multi = {k: v for k, v in groups.items() if len(v) > 1}
+    stats = {
+        "entries": len(entries),
+        "comparable": sum(len(v) for v in groups.values()),
+        "skipped_qualitative": skipped_qual,
+        "skipped_no_conf": skipped_noconf,
+        "series": len(groups),
+        "compared_groups": len(multi),
+        "compared_pairs": sum(len(v) * (len(v) - 1) // 2 for v in multi.values()),
+        "group_names": sorted(f"{k[0]} :: {k[1]} ({len(v)})" for k, v in multi.items()),
+        "ledgers_scanned": sorted({e["ledger"] for e in entries}),
+        "gaps": [g[0] for g in gaps],
+    }
 
     for key, rows in sorted(groups.items()):
         if len(rows) < 2:
@@ -546,7 +570,22 @@ def check_e(entries, gaps):
                         f"({loose['inst']['op']}{_short(loose['inst']['value'])}) "
                         f"at {loose['confidence']}% on '{key[0]} :: {key[1]}' — "
                         f"the stricter threshold cannot be more likely ({tf_note})"))
-    return findings
+    return findings, stats
+
+
+def _print_e_coverage(s):
+    """Coverage evidence for Check E — so 'clean' is never mistaken for 'thorough'."""
+    print(f"       coverage: {s['comparable']}/{s['entries']} rows comparable "
+          f"({s['skipped_qualitative']} qualitative, {s['skipped_no_conf']} no-confidence) "
+          f"across {s['series']} distinct series")
+    if s["compared_groups"] == 0:
+        print(f"       \u26a0\ufe0f  {s['compared_pairs']} pairs actually compared — "
+              f"NO series has 2+ numeric thresholds, so Check E asserted nothing this run. "
+              f"'Clean' here means 'nothing to compare', not 'verified consistent'.")
+    else:
+        print(f"       {s['compared_pairs']} pair(s) compared across "
+              f"{s['compared_groups']} multi-threshold series: "
+              f"{'; '.join(s['group_names'])}")
 
 
 def _short(v):
@@ -568,7 +607,7 @@ def _fmt_conf(c):
 # --------------------------------------------------------------------------
 # Reporting
 # --------------------------------------------------------------------------
-def print_report(groups, tsv, status_open, n_entries, quiet=False):
+def print_report(groups, tsv, status_open, n_entries, e_stats=None, quiet=False):
     """groups: ordered list of (label, findings)."""
     all_f = [f for _, fs in groups for f in fs]
     hard = [f for f in all_f if f[0] == "HARD"]
@@ -585,10 +624,16 @@ def print_report(groups, tsv, status_open, n_entries, quiet=False):
               f"({len(status_open)} rows)")
         print(f"  Ledgers   : {n_entries} instrument-declared rows across "
               f"CARL + sub-agents")
+        if e_stats:
+            print(f"              scanned: {', '.join(e_stats['ledgers_scanned'])}"
+                  + (f"  |  NOT scanned: {', '.join(e_stats['gaps'])}"
+                     if e_stats["gaps"] else ""))
 
     for label, fs in groups:
         if not fs:
             print(f"\n  ✅ {label} — clean.")
+            if e_stats and label.startswith("CHECK E"):
+                _print_e_coverage(e_stats)
             continue
         print(f"\n  {label}")
         print(f"  {'SEV':<5} {'ROW':<16} FINDING")
@@ -596,6 +641,8 @@ def print_report(groups, tsv, status_open, n_entries, quiet=False):
         for sev, pid, msg in fs:
             mark = "\U0001f534" if sev == "HARD" else "⚠️ "
             print(f"  {mark} {sev:<4} {pid:<16} {msg}")
+        if e_stats and label.startswith("CHECK E"):
+            _print_e_coverage(e_stats)
 
     print(f"\n  SUMMARY: {len(hard)} hard, {len(soft)} soft")
     if hard:
@@ -632,14 +679,15 @@ def main():
     fa = check_a(tsv, status_open, status_resolved)
     fd = check_d(tsv)
     entries, gaps = collect_ledgers(tsv_path, tsv)
-    fe = check_e(entries, gaps)
+    fe, e_stats = check_e(entries, gaps)
 
     groups = [
         ("CHECK A — predictions mirror (PREDICTIONS.tsv ↔ STATUS.md)", fa),
         ("CHECK D — instrument declaration (does each OPEN row name what resolves it?)", fd),
         ("CHECK E — cross-ledger threshold monotonicity (parent + sub-agents)", fe),
     ]
-    print_report(groups, tsv, status_open, len(entries), quiet=args.quiet)
+    print_report(groups, tsv, status_open, len(entries), e_stats=e_stats,
+                 quiet=args.quiet)
 
     hard = [f for _, fs in groups for f in fs if f[0] == "HARD"]
     if hard and args.warn_only:

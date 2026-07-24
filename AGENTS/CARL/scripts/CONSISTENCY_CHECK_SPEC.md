@@ -146,10 +146,43 @@ drift"* and *"the checker crashed"* must not look identical in the boot summary 
 the first is information, the second is breakage. **Closeout runs it WITHOUT
 `--warn-only`**, where exit 1 is the gate before commit.
 
+## Coverage closure + coverage evidence (same day, Will-directed)
+
+**All four remaining sub-agent ledgers now carry `Instrument`.** DOC (10), GIG (8),
+PHAN (7), POLLY (8) declared — **66 instrument-declared rows across 6 ledgers, zero
+coverage gaps.**
+
+One declaration is worth calling out as a discipline point: **GIG-P08 ("gas $4+
+triggers visible driver-count decline QoQ") declares the driver-count series, not
+the gas series.** The gas level is the *condition*; the *resolving* series is driver
+count. Declaring gas there would have created a spurious Check E group against
+CRL-08/CRL-26 and compared two things that are not nested thresholds on one measure.
+**Instrument = what resolves the prediction, not what appears in its sentence.**
+
+**Coverage evidence added to the report.** A positive control after the closure found
+52 comparable rows across 51 distinct series but **only 1 multi-threshold group** —
+i.e. a "clean" Check E was asserting almost nothing, and nothing in the output said
+so. `check_e` now returns `stats` and the report prints:
+
+    coverage: 52/66 rows comparable (12 qualitative, 2 no-confidence) across 51 distinct series
+    1 pair(s) compared across 1 multi-threshold series: sba :: 7(a) default rate (2)
+
+and, when nothing groups at all:
+
+    ⚠️  0 pairs actually compared — NO series has 2+ numeric thresholds, so Check E
+        asserted nothing this run. 'Clean' here means 'nothing to compare', not
+        'verified consistent'.
+
+Both branches tested. This is the false-zero guard: *a check that compared nothing
+must not read the same as a check that compared everything and found no violation.*
+The acceptance test was re-run after the refactor and still reproduces the original
+bug.
+
 ## Known gaps (honest)
-- 4 sub-agent ledgers (DOC, GIG, PHAN, POLLY) have no `Instrument` column yet →
-  currently reported as SOFT coverage gaps. Adding the column to each is cheap and
-  is the obvious next increment.
+- **Check E is thin by construction right now: 1 comparison pair.** It catches the
+  class, and it will catch the *next* pair automatically — but it is not currently
+  auditing much, and the coverage line says so on every run rather than letting a
+  green tick imply breadth.
 - Check E compares thresholds only within a `(source, series)` string match; two
   rows describing the same series with different wording will not group. The
   `Instrument` strings are therefore a small controlled vocabulary in practice —
