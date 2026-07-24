@@ -3,6 +3,8 @@
 **Date:** 2026-04-22 (Apr 23 update) | **Thread:** REGINALD deep-dive #2 | **Credit:** Bank OZK's single-largest loan
 **Facts:** $915M commitment / $555M funded / $360M unfunded ("good news funding") / **matures August 2026** / collateral: 1.5M SF lab+office+retail campus in downtown San Diego / **3.3% leased** (JCVI 50K SF only)
 
+> **⚖️ 2026-07-23 — REWEIGHT + OZK-09 RE-MARK (Will-approved in-session).** Scenario weights A20→**30** / B50→**45** / C12→**8** / D18→**17**; OZK-09 re-marked 52%→**45%**; weighted EL ~$140M→**~$129M**. Trigger = Q2 print (7/21) + call (7/22) evidence: extension+recap in live negotiation w/ sponsor AND mezz engaged ("~92 days" → Q3 call), back-loading now mgmt-stated plan. **Recognition-window RULING frozen same session (Option-2 event-anchored)** — see §4. Full evidence table + falsifiers: `outbox/2026-07-23_to-PROME_ozk09-remark-proposal.md`. Sections below updated in place with [REVISED 7/23] tags; pre-7/23 narrative text (e.g., TL;DR "no capital path") reflects the 4/22 vintage where not tagged.
+
 > **2026-04-23 — Sole-exposure confirmed.** Apr 22 IQHQ secondary-exposure investigation (`IQHQ_SECONDARY_EXPOSURE.md`) closes the "any other project with IQHQ" ambiguity from Gleason's Q1 26 call (line 213). OZK CCO Michelle Rossow on-record to Bisnow Mar 19 2026: *"We have one credit with IQHQ, which is the senior secured loan on their San Diego RaDD project."* Disconfirmation map for sister projects: Fenway → JPM $165M, Arbor/Elco → KKR $581M, Spur SSF → Apollo $275M, 155 N Beacon → Citizens $486.5M, 109 Brookline → mortgage assumed from EQC 2020, Boynton Yards → Leggat McCall (NOT IQHQ). RaDD is OZK's sole IQHQ exposure. **Weighted EL math ($140M on $555M funded) stands unchanged.** See KB-OZK-178, KB-OZK-179.
 
 ---
@@ -16,7 +18,7 @@
 
 2. **Campus at Horton is the comp.** AllianceBernstein took back the $399M construction loan via **$130M credit bid** Sep 2025 = **67% severity**. Same submarket (downtown SD), same problem (zero tenants), same asset profile. This is the single most important data point in this playbook because it converts a theoretical tail scenario into a printed precedent.
 
-3. **Weighted expected loss on the $555M funded tranche: ~$142M** (see §4). This is **22.6% of OZK's entire ACL ($628M) on one credit**. Scenario B (substandard migration + specific reserve build) is the 50% most-likely outcome and would trigger the **single largest specific reserve in OZK history** ($140-195M).
+3. **Weighted expected loss on the $555M funded tranche: ~$129M** [REVISED 7/23 reweight; was ~$142M] (see §4). This is **~21% of OZK's Q2'26 ACL ($617.8M) on one credit** [was 22.6% of Q1 ACL $628M]. Scenario B (substandard migration + specific reserve build) is the **45%** most-likely outcome [was 50%] and would trigger the **single largest specific reserve in OZK history** ($140-195M) *if* the appraisal breaks — per the §3 re-derivation, initial reserve at migration can be $0–75M.
 
 4. **Position read: $42.5P Aug 21 is correctly-duration'd for this thesis.** It captures (a) Scenario B specific-reserve book at maturity resolution, (b) Scenario D distressed resolution, and (c) the indirect cues — OZK Q2 earnings call (late Jul), Q2 Call Report (~Aug 1), and Bluerock/Aimco legal developments between now and Aug. The $45P May 15 does not capture this — far too tight.
 
@@ -118,7 +120,7 @@ Hamblen's April 22 "better than December" language is **pipeline talk (tours/RFP
 - Bluerock/IIP already at distress pricing
 - Only path = more Bluerock PIK (above $246M) or IIP follow-on (above $270M) — both already deeply in-the-money
 
-**Probability: ~20%** (materially lower than pre-Aimco baseline)
+**Probability: ~30%** [REVISED 2026-07-23, Will-approved; was ~20%] — **the "no capital path" precondition above broke on the 7/22 call:** multi-year extension + recapitalization in live negotiation with sponsor AND mezz lender engaged, self-set "~92 days" timeline (→ Q3 call), interest current via pre-established interest reserves. A mezz-funded recap-extension counts as A for OZK-09 purposes (invalidation clause: any executed extension with <$140M recognition = FALSE regardless of funding source). Capped at 30, not higher: terms NOT final, Aimco overhang, 59% re-default base rate on mods, sponsor cash service unproven.
 
 **OZK impact:**
 - $0 specific reserve change
@@ -134,7 +136,7 @@ Hamblen's April 22 "better than December" language is **pipeline talk (tours/RFP
 - Downtown SD distressed severity band: 55-70%
 - But Scenario B is a specific reserve (not yet charge-off) — so OZK typically reserves 25-35% initially, reflecting their view of probable sale price
 
-**Probability: ~50%** (base case)
+**Probability: ~45%** [REVISED 2026-07-23, Will-approved; was ~50%] (still the modal non-extension path if the negotiation stalls; adverse selection OZK-07★ TRUE + $49.3M RESG office/life-sci partial c/o in Q2 keep it heavy)
 
 **OZK impact:**
 - **Specific reserve: $140-195M** (25-35% of $555M funded)
@@ -150,7 +152,7 @@ Hamblen's April 22 "better than December" language is **pipeline talk (tours/RFP
 
 **Required precondition:** Third-party willing to underwrite RaDD at 3.3% leased in a 94%-vacancy submarket. Possible but historically rare at this leasing level. Requires institutional buyer to believe downtown SD lab eventually recovers.
 
-**Probability: ~12%**
+**Probability: ~8%** [REVISED 2026-07-23, Will-approved; was ~12%] — zero takeout signal on the 7/22 call; the recap in negotiation is inside-stack (mezz), not third-party; difference folded into A.
 
 **OZK impact:**
 - $0 loss, credit cures
@@ -186,9 +188,9 @@ Hamblen's April 22 "better than December" language is **pipeline talk (tours/RFP
 >
 > **The income-vs-transaction gap IS the thesis bet:** the $1.06B "as-market" is itself a model (assumes 70% occ + $72 rent, neither of which exists at 3.3% leased / 94% submarket vacancy / $5.34 rents in 15 consecutive quarterly declines). A post-default appraisal on this asset should converge toward the Horton transaction, not the income model. **D-severity band HOLDS; what shifts is the recognition *cadence* (deferred, appraisal-gated) and the read on Scenario B (a "migration" can book near-$0 reserve).**
 >
-> **⚑ Calibration flag on OZK-09 (68%) — NOT silently moved (pre-registration discipline).** The 68% was built as P(B∪D)=68%, implicitly assuming *every* B and D yields $140M+ recognition. The 10-Q methodology breaks that for Scenario B: P($140M+ recognition) = P(D)·~0.9 + P(B)·~0.6 = 0.18·0.9 + 0.50·0.6 ≈ **0.49–0.55**, below the pre-registered 68%. The D *severity* is unchanged; the gap is the "B migrates but appraisal holds → sub-$140M reserve" branch, which is real given the office scenario already clears funded. **Recommend re-marking OZK-09 to ~50–55% with this rationale logged — Will's call (conviction-adjacent, pre-registered).** OZK-08 (Q2 pre-reserve, 28%) is *well*-calibrated by this same read: a pre-reserve requires an early appraisal break — genuinely low-prob.
+> **⚑ Calibration flag on OZK-09 (68%) — NOT silently moved (pre-registration discipline).** The 68% was built as P(B∪D)=68%, implicitly assuming *every* B and D yields $140M+ recognition. The 10-Q methodology breaks that for Scenario B: P($140M+ recognition) = P(D)·~0.9 + P(B)·~0.6 = 0.18·0.9 + 0.50·0.6 ≈ **0.49–0.55**, below the pre-registered 68%. The D *severity* is unchanged; the gap is the "B migrates but appraisal holds → sub-$140M reserve" branch, which is real given the office scenario already clears funded. **Recommend re-marking OZK-09 to ~50–55% with this rationale logged — Will's call (conviction-adjacent, pre-registered).** OZK-08 (Q2 pre-reserve, 28%) is *well*-calibrated by this same read: a pre-reserve requires an early appraisal break — genuinely low-prob. *[EXECUTED: 68→52 on 7/18 (Will-approved) → 52→**45** on 7/23 (Will-approved, post-Q2/call reweight A30/B45/C8/D17 + Option-2 window ruling — see §4 and the 7/23 header banner). OZK-08 resolved FALSE 7/22, Brier 0.0784 — the low-prob read verified.]*
 
-**Probability: ~18%** (higher than pre-Horton baseline — the Horton print demonstrates a market-clearing mechanism for downtown SD lab construction loans)
+**Probability: ~17%** [REVISED 2026-07-23, Will-approved; was ~18%] (Horton clearing-mechanism precedent stands; fires on negotiation collapse — the mezz walking from the recap table = the trigger to watch)
 
 **OZK impact:**
 - **Realized loss: $275-360M** on one credit
@@ -201,23 +203,27 @@ Hamblen's April 22 "better than December" language is **pipeline talk (tours/RFP
 
 ## 4. WEIGHTED EXPECTED LOSS
 
+*[REWEIGHTED 2026-07-23, Will-approved — prior row values shown in brackets for audit.]*
+
 | Scenario | Probability | Loss (mid) | Contribution |
 |---|---|---|---|
-| A. Sponsor extends | 20% | $0 | $0 |
-| B. Substandard migration + reserve | 50% | $165M | **$82.5M** |
-| C. Third-party takeout | 12% | $0 | $0 |
-| D. Forced note sale / foreclosure | 18% | $320M | **$57.6M** |
-| **Weighted EL** | **100%** | | **~$140M** |
+| A. Sponsor extends (incl. mezz-funded recap-extension) | **30%** [was 20%] | $0 | $0 |
+| B. Substandard migration + reserve | **45%** [was 50%] | $165M | **$74.3M** [was $82.5M] |
+| C. Third-party takeout | **8%** [was 12%] | $0 | $0 |
+| D. Forced note sale / foreclosure | **17%** [was 18%] | $320M | **$54.4M** [was $57.6M] |
+| **Weighted EL** | **100%** | | **~$129M** [was ~$140M] |
 
-**Key observation:** Scenarios B + D combined probability = **68%** of a loss event of $140M+ at or before Aug 2026 maturity.
+**Key observation:** Scenarios B + D combined probability = **62%** [was 68%] of an ultimate B/D loss path — but P($140M+ *recognition in-window*) is lower (see framing correction below): OZK-09 marked **45%** (7/23, Will-approved; derivation 0.17·0.9 + 0.45·0.6 = 42.3%, marked top-of-band on the FOR-column offsets).
 
-> **⚑ Framing correction (2026-07-18 re-derivation, §3):** The $140M weighted figure is an **ultimate/lifetime EL**, and it stands. But P($140M+ *recognition*) ≠ P(B∪D)=68% — because OZK's collateral-dependent methodology (10-Q: nonaccrual held at appraisal FV, $250M with $0 reserve) means a Scenario-B *migration* can book a near-$0 initial reserve. Methodology-adjusted P($140M+ recognition) ≈ **49–55%**, with the balance of the ultimate loss deferred into post-disposition OREO quarters. Recognition is **appraisal-gated and back-loaded**, not maturity-dated. See the OZK-09 re-mark recommendation in §3.
+> **⚖️ RECOGNITION-WINDOW RULING (2026-07-23, Will-approved in-session, FROZEN):** Option-2 **event-anchored**. If the Aug-2026 maturity resolves WITHOUT an executed extension/takeout (B/D path), cumulative RaDD-attributable recognition counts toward OZK-09's $140M+ threshold **through the Q4'26 print (late Jan '27)**. An executed A/C extension/takeout with <$140M recognition resolves OZK-09 FALSE immediately per its invalidation clause. Z10 unchanged: intent never resolves — executed-and-disclosed only. (Frozen now, before Q3 data arrives, so neither ruling can be chosen self-servingly later.)
+
+> **⚑ Framing correction (2026-07-18 re-derivation, §3):** The weighted EL figure is an **ultimate/lifetime EL**, and it stands (now ~$129M post-reweight; was ~$140M). But P($140M+ *recognition*) ≠ P(B∪D) — because OZK's collateral-dependent methodology (10-Q: nonaccrual held at appraisal FV, $250M with $0 reserve) means a Scenario-B *migration* can book a near-$0 initial reserve. Methodology-adjusted P($140M+ recognition) at the 7/18 weights ≈ 49–55% (marked 52); **at the 7/23 weights = 0.17·0.9 + 0.45·0.6 = 42.3%, band ~40–47, marked 45** (Will-approved). Balance of the ultimate loss defers into post-disposition OREO quarters. Recognition is **appraisal-gated and back-loaded**, not maturity-dated — scored under the Option-2 window ruling above.
 
 **Comparison:**
-- OZK total ACL: $628M
-- Weighted RaDD EL: $140M = **22% of current ACL on one credit**
-- If Scenario B fires (50% weight), specific reserve alone consumes 22-31% of ACL
-- If Scenario D fires (18% weight), realized loss consumes 44-57% of ACL
+- OZK total ACL: $617.8M [Q2'26; was $628M Q1]
+- Weighted RaDD EL: ~$129M = **~21% of current ACL on one credit** [7/23 reweight; was $140M/22%]
+- If Scenario B fires (45% weight), specific reserve alone consumes 22-31% of ACL *when the appraisal breaks*
+- If Scenario D fires (17% weight), realized loss consumes 44-58% of ACL
 
 ---
 
@@ -248,11 +254,11 @@ Hamblen's April 22 "better than December" language is **pipeline talk (tours/RFP
 
 **$42.5P Aug 21:** **Correct duration for this thesis.**
 - Aug 21 expiry captures maturity resolution + Q2 earnings (mid-Jul) + Bluerock Q1 NAV marks (May-Jun) + Aimco motion-to-dismiss (early Jun)
-- Scenario B (50% prob) would book around or before Aug maturity → Aug puts capture
-- Scenario D (18% prob) timing uncertain — could be pre-maturity (if OZK forecloses early) or post-maturity (charge-off flow through Q3/Q4)
-- Scenario A (20% prob) — negative for put position (stock rallies on overhang removal)
-- Scenario C (12% prob) — most negative for put position (stock rallies sharply)
-- **Blended payoff: positive expected value given weighted EL $140M translates to material OZK stock move in 68% of outcomes**
+- Scenario B (45% prob [7/23]) would book around or before Aug maturity → Aug puts capture — *but per §3 re-derivation + 7/22 call, recognition likely defers to the Q3 call ("~92 days"); Aug expiry likely passes without a print*
+- Scenario D (17% prob [7/23]) timing uncertain — could be pre-maturity (if OZK forecloses early) or post-maturity (charge-off flow through Q3/Q4)
+- Scenario A (30% prob [7/23]) — negative for put position (stock rallies on overhang removal)
+- Scenario C (8% prob [7/23]) — most negative for put position (stock rallies sharply)
+- **Blended payoff: weighted EL ~$129M translates to a material OZK stock move in 62% of outcomes [7/23 reweight] — but recognition timing (back-loaded, Q3/Q4→2027) now governs expiry selection more than scenario mix**
 
 **$45P Aug 21:** Same duration logic, deeper OTM. Cost was $4.05 — lower breakeven requires deeper move, but captures the same catalysts.
 
@@ -281,7 +287,7 @@ Hamblen's April 22 "better than December" language is **pipeline talk (tours/RFP
 IQHQ thread doesn't intersect consumer credit channel. Standby.
 
 ### 🟡 To FORGE — Position read (summary in §6)
-Aug 21 expiry remains the right duration. May 15 needs to roll. Sep 2026 merits analysis as deeper-duration option. **Do NOT close Aug positions on Scenario A narrative (20% weight). The base case is Scenario B, not A.**
+Aug 21 expiry remains the right duration. May 15 needs to roll. Sep 2026 merits analysis as deeper-duration option. **Do NOT close Aug positions on Scenario A narrative (30% weight as of 7/23 — up, but still minority). The base case remains Scenario B (45%), not A.**
 
 ---
 

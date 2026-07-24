@@ -15,6 +15,31 @@ A new entry must describe:
 
 ---
 
+## 2026-07-23 — OZK-09 re-mark 52%→45% + IQHQ scenario reweight + recognition-window ruling (sub-doc level; NO THESIS version bump — v1.5 stands)
+
+### Summary
+Will-approved in-session (~11:00 PM ET, relayed via PROME), executing the 7/23 proposal memo (`outbox/2026-07-23_to-PROME_ozk09-remark-proposal.md`). Prediction-and-playbook-level change only; thesis direction and conviction (🔴🔴 HIGH) unchanged; THESIS.md not edited.
+
+### Changes
+**1. OZK-09 re-marked 52% [7/18, Will-approved] → 45% [7/23, Will-approved].** Stamped in `workbook/PREDICTIONS.tsv` (confidence + dated REVISED note; original prediction wording unaltered). *Drivers (per the proposal memo):* (a) the A-extend path now has a staffed process it lacked on 7/18 — sponsor AND mezz lender engaged on a multi-year extension + recap, self-set "~92 days" timeline, interest current via reserves [7/22 call], breaking the Playbook's "no capital path" A-precondition; (b) back-loading moved from our hypothesis to mgmt's stated plan (Aug passes without a print; even a B-migration books $0–75M initially per the 10-Q marking methodology); (c) offsets capped the move at 45 — appraisals breaking in-class ($49.3M RESG office/life-sci partial c/o Q2), OZK-07★ adverse selection TRUE, SpecMention +$219M unreserved w/ ACL −$10.7M, sponsor cash unproven.
+
+**2. Recognition-window RULING frozen same session (Option-2 event-anchored, Will-approved).** If the Aug-2026 maturity resolves WITHOUT an executed extension/takeout (B/D path), cumulative RaDD-attributable recognition counts toward the $140M+ threshold **through the Q4'26 print (late Jan '27)**; an executed A/C resolution with <$140M recognition = FALSE immediately per the invalidation clause. Z10 unchanged (intent never resolves). Frozen pre-Q3 so neither reading can be chosen self-servingly later. Stamped in PREDICTIONS.tsv notes + IQHQ_PLAYBOOK §4.
+
+**3. IQHQ_PLAYBOOK scenario weights A20→30 / B50→45 / C12→8 / D18→17.** Weighted EL ~$140M→**~$129M** (~21% of Q2'26 ACL $617.8M); B+D 68%→62%. Mark derivation: P($140M+ recognition) = 0.17·0.9 + 0.45·0.6 = 42.3%, band ~40–47, marked 45 (top-of-band on the FOR-column offsets). §§TL;DR/3/4/6/7 updated in place with [REVISED 7/23] tags + dated header banner.
+
+**4. Falsifiers pre-registered (memo §4, mirrored in TSV notes).** UP to ≥52: negotiation-collapse signal pre-Q3 call · fresh RaDD appraisal <$555M or Bluerock TI+ IQHQ markdown ≥15% · interest-reserve exhaustion · SpecMention $616M reversal test FAILS at Q3. DOWN to ≤25: executed extension with disclosed new capital · RaDD lease >100K SF.
+
+### Old view vs new view
+- *Old:* OZK-09 52%; tree A20/B50/C12/D18; weighted EL ~$140M; recognition window ambiguous (unstated).
+- *New:* OZK-09 45%; tree A30/B45/C8/D17; weighted EL ~$129M; window pinned Option-2 event-anchored (Q4'26-print cutoff on B/D path).
+
+### Known mirror drift (documented, NOT fixed tonight — out of the sanctioned edit scope)
+`THESIS.md` §wave-3 line ("Scenario tree (50% substandard migration / 18% foreclosure / 20% extend / 12% takeout)... Weighted expected loss $140M = 22% of OZK ACL") and `CLAUDE.md` core-thesis line (extend 20/migration 50/takeout 12/foreclosure 18, EL $140M) now carry stale weight/EL tokens. **Sweep next session** with a THESIS minor-version bump; Playbook §4 + PREDICTIONS.tsv are canonical until then.
+
+- **Position implication:** Direction unchanged (short thesis intact, B still base case at 45%). Timing emphasis sharpened: recognition back-loading now governs expiry selection more than scenario mix — Aug-dated exposure likely expires before the recognition print (Q3 call ~Oct is the disclosure event; window runs to the Q4'26 print).
+
+---
+
 ## v1.5 — 2026-07-18 (recognition-timing refinement: appraisal-gated deferral, from the Q1'26 10-Q primary; + C8 beta/regime weakness)
 
 ### Summary
