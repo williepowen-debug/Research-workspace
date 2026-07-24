@@ -4,6 +4,9 @@
 **Re:** New Will-directed thesis ("China bankrupts the USA the way the US bankrupted the USSR — via AI spending"). DEWEY ran the two cheap framing legs (P0, P1) this session; they reshape the thesis and hand the two heavy legs to you.
 **Ask:** **queue P2 + P3 as a coordinated Batch-3** (they span VULCAN/ZHAO/SAM/WATT/HENRY/BOND — the load-bearing numbers live in those lanes, not DEWEY's). This is a PROPOSAL; sizing, priority vs the live docket, and the run/hold call are yours + Will's. **Nothing queued unilaterally.**
 
+> ## ✅ WILL APPROVED — 2026-07-24
+> Will approved **P2 + P3** for Batch-3. **PROME action owed:** assign the owner map (VULCAN/WATT/ZHAO lead P2; ZHAO/SAM/HENRY/BOND lead P3), decide teams-mode-vs-serial, and slot priority against the live docket. **DEWEY owns only the named primary-pull carve-outs** (P2: DeepSeek TCO + US/China electricity primaries; P3: IMF/PBoC/NBS LGFV + state-AI-financing docs) and the cited-research legs — deferred to a fresh DEWEY session (this session hit the ~3-5 heavy-run ceiling). Domain *judgment* stays with the owner agents; positioning synthesis (P4) → RED/HENRY/TERRY.
+
 ---
 
 ## What P0 + P1 established (the reframe) — evidence base
