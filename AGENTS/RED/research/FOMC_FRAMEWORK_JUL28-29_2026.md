@@ -2,11 +2,11 @@
 
 **Written:** 2026-07-24 (S24), **T-4** before the decision. Pre-registered BEFORE data per charter rule ("don't improvise on catalyst days") and ML-RED-085 (June FOMC scored HYBRID because my tree bundled the substance and reaction axes — this tree keeps them separate and scores each independently).
 
-**v1.1 — amended 2026-07-24 (S25), still T-4, still BEFORE the print.** Three changes, all logged rather than silently rewritten (amending pre-registration before data is legitimate; amending after is not): **(1) the "$100 oil lands in the July CPI" premise is FALSE and is corrected below (§0)** — CARL packet 7/24, verified independently by RED off a different series; **(2) S-axis re-weighted S1 52→54 / S4 23→21** on the sequencing consequence, reason stated in §0; **(3) two language sub-axes added** (§L oil-language third cell per CARL; §LAB labor-language leg per LABOR, previously fleet-unowned), plus Guard 6 and the ECI-7/31 post-meeting falsifier.
+**v1.1 — amended 2026-07-24 (S25), still T-4, still BEFORE the print.** Three changes, all logged rather than silently rewritten (amending pre-registration before data is legitimate; amending after is not): **(1) the "$100 oil lands in the July CPI" premise is FALSE and is corrected below (§0)** — CARL packet 7/24, verified independently by RED off a different series; **(2) S-axis re-weighted S1 52→54 / S4 23→21** on the sequencing consequence, reason stated in §0; **(3) two language sub-axes added** (§L oil-language third cell per CARL; §LAB labor-language leg per LABOR, previously fleet-unowned), plus Guard 6 and the ECI-7/31 post-meeting falsifier. **v1.1a (same evening, Will-directed): every date in this document verified against primaries — 3 of my 4 CPI estimates were wrong, incl. the July print the whole fleet carries as 8/13 (it is Wed 8/12). Verification also surfaced two facts that independently strengthen S1; noted, deliberately NOT re-marked. Table in §0.**
 
 ---
 
-## §0 — CORRECTION: the oil does NOT land in the July CPI. It lands in August (~9/10). *(added v1.1)*
+## §0 — CORRECTION: the oil does NOT land in the July CPI. It lands in August (**Fri 9/11**). *(added v1.1; dates verified v1.1a)*
 
 My original framing (lines below, struck) rested on a **level-vs-monthly-average error**. CPI measures the *monthly average*, not the month-end level. Two independent series say the same thing:
 
@@ -23,29 +23,46 @@ My original framing (lines below, struck) rested on a **level-vs-monthly-average
 
 **Sequencing consequence — and this is where I part company with CARL.** CARL argued the correction cuts toward S4 ("a hike-now Warsh has a better case for moving Tuesday, since the next print he sees will understate the pressure"). **I think that inference is wrong on sequencing.** The operative print is not the next one he sees — it is *the last one before the next decision*. That ladder is:
 
-**8/13 July CPI (soft, by arithmetic) → ~9/10 August CPI (hot; August opens at ~$98 Brent / $4.10+ pump against a ~$85 / ~$3.95 base → +3.5% to +15% MoM crude) → ~9/15-16 September FOMC [date EST, verify].**
+**Wed 8/12 July CPI (soft, by arithmetic) → Fri 9/11 August CPI (hot; August opens at ~$98 Brent / $4.10+ pump against a ~$85 / ~$3.95 base → +3.5% to +15% MoM crude) → Tue-Wed 9/15-16 September FOMC.**
 
-The hot print arrives **~5-6 days before the September meeting**. Waiting is therefore *cheap* and the information arrives *in time* with perfect cover. That argues the correction **raises S1 (hold, point specifically at September) and lowers S4 (less reason to pre-empt when your own preferred evidence lands exactly on schedule)**. Net move kept small (±2) because the base effect is public, computable by anyone, and the Committee's staff forecast already carries it — I am fading a $18.2M-deep market by 2pts on a stated sequencing argument, not on an information edge.
+**⚠️ ALL DATES VERIFIED 2026-07-24 (v1.1a) — and three of my four estimates were wrong, including one the whole fleet carries:**
 
-**★ The asymmetry worth pre-registering now:** because retail falls slower than crude (rockets-and-feathers — my own S24 point to CARL, which he adopted), **the August CPI energy line prints hot in BOTH the escalation branch AND the near-term-de-escalation branch.** A near-certain-hot print is a *weak discriminator*. This is why CHG-028 cannot live at 8/13 **or** at 9/10 — see §0b.
+| Item | What I/the fleet carried | **Verified** | Source |
+|---|---|---|---|
+| **July CPI** | **8/13** *(RED, CARL, HENRY, PROME, BROCK surfaces)* | **Wed 8/12**, 08:30 ET | OMB PFEI CY2026 schedule + usinflationcalculator — 2 independent agreeing |
+| August CPI | ~9/10 | **Fri 9/11** | same |
+| September CPI | ~10/13 | **Wed 10/14** | same |
+| October CPI | ~11/10 | **Tue 11/10** ✅ *(my estimate was right)* | same |
+| September FOMC | ~9/15-16 [EST] | **Tue-Wed 9/15-16** ✅ **and it CARRIES AN SEP / dot plot** | federalreserve.gov FOMC calendar |
+| ECI Q2 | Fri 7/31 *(LABOR)* | **Fri 7/31** ✅ *(LABOR was right)* | OMB PFEI CY2026 |
+
+The hot print arrives **Fri 9/11 → decision Wed 9/16 = 5 days**. Waiting is therefore *cheap* and the information arrives *in time* with perfect cover.
+
+**Two things the verification ADDED that strengthen S1 beyond what I claimed:**
+1. **September carries an SEP and a dot plot; July does not.** So the "point at September" path isn't just a data-timing convenience — it's the meeting where the Committee can re-draw the whole projection path. Guiding at a no-SEP meeting is strictly harder. This is an *independent* reason to prefer hold-and-signal, and I did not have it when I set S1 54.
+2. **The August CPI lands INSIDE the Fed's blackout.** Blackout convention = begins the second Saturday preceding the meeting (Sat 9/5 for a 9/15-16 meeting) [convention stated, not separately verified]. So the Committee receives the decisive print with **no ability to guide the market on it** before the decision — which loads more repricing risk onto the September meeting itself. Relevant to sizing R-axis expectations *for September*, not for Tuesday.
+
+**Net of all that**, the correction **raises S1 (hold, point specifically at September) and lowers S4 (less reason to pre-empt when your own preferred evidence lands exactly on schedule, at a meeting that also gets fresh dots)**. Move kept small (±2) because the base effect is public, computable by anyone, and the Committee's staff forecast already carries it — I am fading an $18.2M-deep market by 2pts on a stated sequencing argument, not on an information edge. **Note the honest asymmetry: verification produced two *further* reasons to prefer S1 (SEP + blackout) that I did not have when I set 54, so if anything 54 is now conservative. I am NOT re-raising it — the amendment was already made pre-data and re-marking twice in one evening on no new market evidence is exactly the drift this framework exists to prevent.**
+
+**★ The asymmetry worth pre-registering now:** because retail falls slower than crude (rockets-and-feathers — my own S24 point to CARL, which he adopted), **the August CPI energy line prints hot in BOTH the escalation branch AND the near-term-de-escalation branch.** A near-certain-hot print is a *weak discriminator*. This is why CHG-028 cannot live at 8/12 **or** at 9/11 — see §0b.
 
 ### §0b — CHG-028 was re-dated wrong TWICE, and the second error is mine alone
 
-CHG-028 is a **core/services** stagflation-realization falsifier ("does core/services stagflation survive the energy move?"). I re-dated it to 8/13 in S24 on the premise that "the oil spike lands there."
+CHG-028 is a **core/services** stagflation-realization falsifier ("does core/services stagflation survive the energy move?"). I re-dated it to 8/13 in S24 on the premise that "the oil spike lands there." *(That date was itself wrong — the July print is Wed 8/12 — which is a third, independent defect in the same re-dating: bad premise, bad channel, bad date.)*
 
 1. **Wrong arithmetic** — the oil doesn't land there (CARL's catch, verified above).
-2. **Wrong channel — my error, which CARL did not catch.** Even at 9/10, the August print tests the **headline-energy** line. Oil→core transmission (airfares, freight-embedded goods, services ex-shelter) is a 2-6 month channel. A core-transmission falsifier cannot resolve on the first headline-energy print *regardless of which month it lands in*. I re-anchored the date and left the channel mismatch in place.
+2. **Wrong channel — my error, which CARL did not catch.** Even at 9/11, the August print tests the **headline-energy** line. Oil→core transmission (airfares, freight-embedded goods, services ex-shelter) is a 2-6 month channel. A core-transmission falsifier cannot resolve on the first headline-energy print *regardless of which month it lands in*. I re-anchored the date and left the channel mismatch in place.
 
-**Re-spec — a three-rung ladder, replacing the single 8/13 anchor:**
+**Re-spec — a four-rung ladder, replacing the single 8/13 anchor (all CPI dates verified 7/24):**
 
 | Date | Print | CHG-028 role | Pre-registered guard |
 |---|---|---|---|
-| **8/13** | July CPI | **NO INFORMATION.** Pre-registered soft on energy by arithmetic. | **Do NOT score a soft July energy line as mechanism-broken.** This is the base-effect-as-mechanism trap, pre-labelled. |
+| **Wed 8/12** *(verified; fleet carried 8/13)* | July CPI | **NO INFORMATION.** Pre-registered soft on energy by arithmetic. | **Do NOT score a soft July energy line as mechanism-broken.** This is the base-effect-as-mechanism trap, pre-labelled. |
 | **8/3-8/17** | EIA weekly on-highway diesel (peak read ~8/10) | Intermediate — CARL owns the measurement; magnitude contaminated by the insurance step-change (his own caveat), **timing read still valid**. | Grade timing, not the pass-through coefficient. |
-| **~9/10** | August CPI | **Headline-energy passthrough test only.** Near-certain hot (see asymmetry above) → **weak discriminator, low information for CHG-028.** | Do not bank a hot August energy print as stagflation-confirmation. It is the null. |
-| **~10/13 + ~11/10** | Sept + Oct CPI *(dates EST, verify)* | **← CHG-028's ACTUAL resolution window.** Core/services ex-shelter, core goods, airfares. | Two consecutive prints required; single-month subcomponent moves don't resolve it. |
+| **Fri 9/11** *(verified; was ~9/10)* | August CPI | **Headline-energy passthrough test only.** Near-certain hot (see asymmetry above) → **weak discriminator, low information for CHG-028.** | Do not bank a hot August energy print as stagflation-confirmation. It is the null. |
+| **Wed 10/14 + Tue 11/10** *(verified)* | Sept + Oct CPI | **← CHG-028's ACTUAL resolution window.** Core/services ex-shelter, core goods, airfares. | Two consecutive prints required; single-month subcomponent moves don't resolve it. |
 
-**CHG-028 status: re-anchored to the Sept/Oct core prints. The 8/13 and 9/10 rows become pre-registered non-events for this challenge.**
+**CHG-028 status: re-anchored to the Sept (Wed 10/14) + Oct (Tue 11/10) core prints — dates VERIFIED 7/24, so the re-anchor is genuinely pre-registered rather than resting on modelled dates. The Wed 8/12 and Fri 9/11 rows are pre-registered non-events for this challenge.**
 
 ---
 
@@ -132,4 +149,4 @@ Source: `AGENTS/LABOR/docket/FOMC_LABOR_LANGUAGE_20260729.md`. **Priors are LABO
 6. **⚠️ LEVEL-vs-MONTHLY-AVERAGE guard *(v1.1, general form of the §0 error)*:** any claim of the form "*X lands in the <month> print*" must be computed on the **monthly average**, against the **prior month's average**, before it is written down — never off the month-end level or a peak-to-trough level move. This error appeared **twice in v1.0 of this document**, and independently in CARL's 7/16 framing and HENRY's pre-7/23 framing. It is a three-agent error class, not a slip. **Applies live on the night:** if Warsh cites a *level* ("oil near $100") as an inflation input, that is rhetoric; the reaction function runs on averages, and his staff forecast knows it.
 7. **Post-meeting falsifier — ECI Q2, Fri 7/31 08:30 ET *(v1.1, LABOR's docket-gap catch)*:** the Committee acts **7/29 without a current read of its own preferred wage gauge** (the June minutes leaned on ECI 3.4% for the "labor not a source of inflationary pressure" line). AHE is composition-contaminated — a labor force shrinking 720K concentrated in lower-wage cohorts mechanically lifts the *average* with nobody getting a raise; ECI controls for composition. **Pre-registered:** if the Fed leans hawkish-on-wages Wednesday **AND** ECI prints ~3.4% flat Friday, the stated hawkish rationale is **composition-contaminated inside 48 hours** — a dated credibility datum, logged as such and NOT laundered into an FOMC cell (two events, two entries, per Guard 3). ECI ≥3.6% → wage pressure is real, demand-pull gains, and LABOR has pre-committed to saying so.
 
-**Bottom line *(v1.1)*:** modal path is **S1×R-A** — a third hawkish-absorbed print that changes little and defers to a **September** decision armed by the **August** CPI (~9/10), **not** to the July print (8/13), which is base-effect-protected and pre-registered as a non-event. The asymmetries worth pre-positioning attention on: the **3bps to HY-280** (smallest trigger distance on the board into a catalyst); **S3×R-D** — a 7%-probability branch that would break the fleet's hardest-confirmed channel (policy-path rates) while everyone, including the market at 71.5% hike-2026, leans the other way; and now **L2×hold**, a 30%-probability language cell that my own v1.0 tree would have mis-scored as hawkish while the market read it soft. The adversary's job Tuesday night is to have already written down what dovish looks like, because nobody else will want to see it — and, per §0, to have already written down which soft prints are *arithmetic* so that nobody, including me, scores one as evidence.
+**Bottom line *(v1.1)*:** modal path is **S1×R-A** — a third hawkish-absorbed print that changes little and defers to a **September** decision armed by the **August** CPI (Fri 9/11) at a meeting that **carries an SEP**, **not** to the July print (Wed 8/12), which is base-effect-protected and pre-registered as a non-event. The asymmetries worth pre-positioning attention on: the **3bps to HY-280** (smallest trigger distance on the board into a catalyst); **S3×R-D** — a 7%-probability branch that would break the fleet's hardest-confirmed channel (policy-path rates) while everyone, including the market at 71.5% hike-2026, leans the other way; and now **L2×hold**, a 30%-probability language cell that my own v1.0 tree would have mis-scored as hawkish while the market read it soft. The adversary's job Tuesday night is to have already written down what dovish looks like, because nobody else will want to see it — and, per §0, to have already written down which soft prints are *arithmetic* so that nobody, including me, scores one as evidence.
