@@ -1,6 +1,6 @@
 # PROME CLOSEOUT
 
-**Created:** 2026-05-18 · **Updated:** 2026-07-17 (spine-audit #4 stamp-bump: the 7/11 body edits [Chunk-3 de-conflict note · SCRATCH format contract · dashboard symmetry row] never bumped this line — content itself re-verified accurate). Prior 2026-07-10 (doc-audit fixes: GATES.tsv write-back contract added [symmetry + Write-Back + File-ownership rows] · DOCKET.tsv File-ownership row · FLEET_SCAN row retired-pointer · Updated-stamp convention adopted — bump this line on material edits)
+**Created:** 2026-05-18 · **Updated:** 2026-07-24 (mirror-sweep for the orphan-detector adoption: Skip-rules `AGENTS/<other>/` line now carries the root-canon self-authored-packet carve-out + step-1b pointer). Prior 2026-07-17 (spine-audit #4 stamp-bump: the 7/11 body edits [Chunk-3 de-conflict note · SCRATCH format contract · dashboard symmetry row] never bumped this line — content itself re-verified accurate). Prior 2026-07-10 (doc-audit fixes: GATES.tsv write-back contract added [symmetry + Write-Back + File-ownership rows] · DOCKET.tsv File-ownership row · FLEET_SCAN row retired-pointer · Updated-stamp convention adopted — bump this line on material edits)
 **Owner:** Prome
 **Purpose:** Repeatable session-end procedure to keep Prome's state files consistent across sessions. Run before `/clear`, `/new`, or session handoff.
 
@@ -214,7 +214,7 @@ One short message:
 
 - **Operator card (date/catalysts/near-gates)** — now part of `PROME/SCRATCH.md`'s full rewrite; the standalone `TODAY.md` was retired 2026-07-01 (it held no unique state — ~95% duplicated SCRATCH/STATUS/ACTIVE_DECISIONS and rotted daily on its date title).
 - **`PROME/HANDOFF.md`** — cross-runtime Prome continuity. Update only when the session changes future Prome state; keep it concise and rotate/archive older entries.
-- **`AGENTS/<other>/` files** — **default: never** (other agents own their state; route via inbox, only with explicit per-instance authorization). **Bounded exception:** PROME may commit another agent's files ONLY as a **Will-approved, per-instance apply-on-behalf action** — e.g. applying a DAEDALUS batch while that agent is offline, or a Will-scoped fleet sweep — touching only the specific approved files and naming the authorization in the commit body. Absent explicit Will approval, never.
+- **`AGENTS/<other>/` files** — **default: never** (other agents own their state). **Carve-out (root canon, ratified 2026-07-23):** a packet **PROME authored** into another agent's `inbox/` is PROME's to commit — and must be (recipient named in subject; `scripts/orphan_check.sh` at step 1b catches forgotten ones). **Bounded exception beyond that:** PROME may commit another agent's OWN files ONLY as a **Will-approved, per-instance apply-on-behalf action** — e.g. applying a DAEDALUS batch while that agent is offline, or a Will-scoped fleet sweep — touching only the specific approved files and naming the authorization in the commit body. Absent explicit Will approval, never.
 - **Root `CLAUDE.md` / shared files** — flag to Will, don't auto-edit. Will-approval gates the change.
 
 ---
