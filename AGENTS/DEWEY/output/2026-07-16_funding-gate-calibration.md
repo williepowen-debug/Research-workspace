@@ -111,6 +111,8 @@ IG OAS peaked **164bps (Mar 15)** — modest. **Both are true: IG barely moved; 
 
 ## 3. Gap (2) — the false-positive rate, and why the SVB "miss" is not a miss
 
+> ⚠️ **CORRECTED 2026-07-24 — the fire-COUNT column below and the "~20% FP" are WRONG; see the [Correction addendum](#correction-addendum-2026-07-24--fp-census-fire-counts) at the end. The mechanism verdict (funding-scoped gate; Mar-2020/Mar-2023 fail the conjunction) is UNAFFECTED — only this FP census is.** Short version: the raw fire-DAY counts are **532 / 133 / 48** (+10/+20/+30), not 83/52/26 (DEWEY re-pulled 7/24; matches LIQUID's `fp_backtest_079.py` exactly); and the "~20% FP" was **day-weighted** — the honest episode-level FP is **~62%** (calendar filter alone) → **~25%** only with LIQUID's persistence leg (KB-LIQ-087).
+
 **Census, 2018-04-03 → 2026-07-15** (SOFR's true start; DEWEY-constructed from FRED, IORB spliced to IOER at the **2021-07-28/29 seam**, level continuous at 0.15%):
 
 | Threshold | Fires | TP | FP | **FP rate** | FP calendar-flagged | FP non-calendar |
@@ -233,3 +235,32 @@ IG OAS peaked **164bps (Mar 15)** — modest. **Both are true: IG barely moved; 
 3. **Auto-memory candidates (promotion scan):** (a) *an IG proxy masks an HY move* — the Baa−Aaa/HY divergence nearly produced a wrong verdict; (b) *don't close a data wall without an archive-endpoint check* — strengthen the existing `[[finding_declared_data_wall_needs_fleet_memory_check]]` with the Wayback recipe; (c) *verify a fix against a series that can demonstrate it*.
 4. **BACKLOG build-pass:** ≥3 candidates now sit past the gate (`ofr_stfm.py` **2nd-hit**, `fred_pull.py` Wayback fallback **solution-in-hand**, `ffiec_callreport.py`/`disaster_shocks.py` high-recurrence). **Surfacing a build-pass suggestion to Will per closeout step 11.**
 </content>
+
+---
+
+## Correction addendum (2026-07-24) — FP-census fire-counts
+
+**Trigger:** LIQUID's independent FP backtest (`AGENTS/LIQUID/scripts/fp_backtest_079.py`, KB-LIQ-087) did not reconcile to this report — LIQUID counted **48** raw +30bp fire-days vs this report's **26**, and an episode-level FP of **62%** vs the propagated "~20%." PROME routed the reconcile (`inbox/2026-07-24_from-PROME_gate079-fp-backtest-reconcile-request.md`). **DEWEY re-derived independently from raw FRED (own code path, not LIQUID's) and CONFIRMS LIQUID. This report's §3 census was wrong.**
+
+### What was wrong
+1. **The entire "Fires" column is a bad tally.** DEWEY's independent re-pull (SOFR99 − spliced IORB/IOER ceiling, ×100, rounded 1dp, same 2018-04-03→2026-07-15 window) gives raw fire-**DAYS**:
+
+   | Threshold | This report said | **Correct (fire-days)** | non-cal days | cal-artifact days | raw episodes | non-cal episodes |
+   |---|---|---|---|---|---|---|
+   | +10 bps | 83 | **532** | 362 | 170 | 52 | 56 |
+   | +20 bps | 52 | **133** | 69 | 64 | 38 | 23 |
+   | **+30 bps** | **26** | **48** | **21** | **27** | **22** | **8** |
+
+   The re-pull matched LIQUID's script to the day. The original 83/52/26 is **not reproducible** by any construction tried (strict `>30` = 42; median-SOFR−ceiling = 10; unrounded = 45) — it was an un-reproducible census error, likely a sub-agent intermediate mis-transcribed into the table (the "8 TP / 2 non-cal" cells appear to have mislabeled what are actually the **8 non-calendar episodes**, of which 2 are TP).
+
+2. **The "~20% FP" was DAY-WEIGHTED and too optimistic.** At +30bp there are **8 non-calendar episodes**: 2 true positives (Sep-2019 repo, peak 690bp; Mar-2020, peak 190bp) and ~5–6 false positives (isolated quarter-turn/1-day spikes: 2018-12-06, 2019-01-03, 2019-07-03→05, 2019-10-15→17, 2024-09-19, 2024-12-26). **Episode-level FP ≈ 62–75%** (LIQUID: 5 of 8 = 62%), not ~20%. The "~20%" was flattered because Sep-2019 — a *single* true event — supplies ~8–9 of the 21 non-calendar fire-DAYS, so day-weighting drowns the isolated FP spikes.
+
+3. **The fix is the persistence leg, and this reconciliation VALIDATES it as necessary (not optional).** LIQUID's ≥2-consecutive-non-calendar-day requirement (added to GATES.tsv 2026-07-23, KB-LIQ-087) removes the four 1-day FP spikes (2018-12-06, 2019-01-03, 2024-09-19, 2024-12-26), cutting episode-FP to **~25%** while leaving both TPs (Sep-2019, Mar-2020 are multi-day) fully intact. **The usable mechanical spec is +30bp AND non-calendar AND ≥2 consecutive days** — the persistence leg is load-bearing, which this report's day-weighted "~20%" had obscured.
+
+### What still stands (unaffected by the count error)
+- **The mechanism verdict is intact:** the gate is SCOPED to funding-origin seizures; Mar-2020 and Mar-2023 both fail the conjunction (Mar-2020: slow leg never fired + 66% of the HY move already done; Mar-2023: repo calm, causal arrow backwards). None of that depends on the fire-day tally.
+- **SVB is still correctly a non-fire** (peak ~10bp, never reached +20). Striking it from the TP list stands.
+- **The archetype discriminator (§4) and the dealer-side corroboration (GCF +9bp) stand.**
+
+### Discipline note
+This is a DEWEY census error that propagated a too-favorable FP number into a live gate calibration — caught only because LIQUID independently rebuilt it. The number was **not reproducible**, which is the tell: a load-bearing count that can't be regenerated from a stated recipe should never have shipped without a re-run. `[[finding_verification_correction_downstream_propagation]]`, `[[finding_asymmetric_rigor_counterparty_claims]]` (LIQUID was right; deference-plus-verification both applied — I re-derived rather than just accepting, and the re-derivation confirmed them). Reconciliation delivered to LIQUID; GATES.tsv already carries the corrected 62%/25% (LIQUID, 7/23) — no GATES edit owed from DEWEY.
