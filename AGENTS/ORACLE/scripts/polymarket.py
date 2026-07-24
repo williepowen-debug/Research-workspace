@@ -370,12 +370,38 @@ def _select_event_leg(mkts):
     return max(mkts, key=lambda x: (x["yes"] or 0)), " (top)"
 
 
+def _recent_logged_slugs(minutes):
+    """Slugs whose most-recent ODDS_LOG entry is within `minutes` of now — used by
+    the pull double-log guard (#2, 2026-07-24). Returns a set; empty on any parse
+    trouble (fail-open: never block logging on a bad row)."""
+    if not os.path.exists(ODDS_LOG):
+        return set()
+    now = datetime.datetime.utcnow()
+    recent = set()
+    try:
+        with open(ODDS_LOG) as fh:
+            next(fh, None)  # header
+            for line in fh:
+                parts = line.rstrip("\n").split("\t")
+                if len(parts) < 2:
+                    continue
+                try:
+                    t = datetime.datetime.strptime(parts[0], "%Y-%m-%dT%H:%MZ")
+                except ValueError:
+                    continue
+                if (now - t).total_seconds() <= minutes * 60:
+                    recent.add(parts[1])
+    except OSError:
+        return set()
+    return recent
+
+
 def cmd_pull(args):
     wl = _read_watchlist()
     if not wl:
         print(f"watchlist empty/missing: {WATCHLIST}"); return
     ts = datetime.datetime.utcnow().strftime("%Y-%m-%dT%H:%MZ")
-    logrows, out = [], []
+    logrows, out, notfound = [], [], []
     for w in wl:
         try:
             if w["type"] == "event":
@@ -385,13 +411,18 @@ def cmd_pull(args):
                 if m:
                     out.append((w["label"] + suf, m, w["tier"]))
                     logrows.append((ts, w["slug"], w["label"], w["tier"], m))
+                else:
+                    notfound.append((w["label"], w["slug"]))  # delisted/empty event
             else:
                 m = market_by_slug(w["slug"])
                 if m:
                     out.append((w["label"], m, w["tier"]))
                     logrows.append((ts, w["slug"], w["label"], w["tier"], m))
+                else:
+                    notfound.append((w["label"], w["slug"]))  # slug returned nothing
         except Exception as e:  # noqa: BLE001
             print(f"  ! {w['label']}: {e}")
+            notfound.append((w["label"], w["slug"] + f"  [error: {e}]"))
     if args.json:
         print(json.dumps([{"label": l, **m} for l, m, _ in out], indent=2));
     else:
@@ -405,17 +436,34 @@ def cmd_pull(args):
             for l, m in exp:
                 state = "RESOLVED — replace now" if m.get("resolved") else f"resolves in {m['days_left']}d"
                 print(f"   - {l}: {state} (end {m['end']})")
+        # #1 (2026-07-24): loudly surface PINNED-BUT-NOT-FOUND slugs. A delisted pin
+        # used to be SILENTLY skipped (identical to a healthy pin) — root cause of the
+        # 7/22 8-pin silent-rot lapse. Now it shouts. Also de-risks the WTI month-roll.
+        if notfound:
+            print("\n⛔ PINNED BUT NOT FOUND — re-pin or retire (silent-rot guard):")
+            for l, slug in notfound:
+                print(f"   - {l}  [{slug}]")
     if args.log:
+        # #2 (2026-07-24): double-log guard. Re-running `pull --log` within the same
+        # session (e.g. after a fix) used to append a duplicate snapshot. Skip slugs
+        # logged <RELOG_MIN min ago unless --force. Keeps the time series clean.
+        RELOG_MIN = 10
+        recent = _recent_logged_slugs(RELOG_MIN) if not getattr(args, "force", False) else set()
+        keep = [r for r in logrows if r[1] not in recent]
+        skipped = len(logrows) - len(keep)
         new = not os.path.exists(ODDS_LOG)
         os.makedirs(os.path.dirname(ODDS_LOG), exist_ok=True)
         with open(ODDS_LOG, "a") as fh:
             if new:
                 fh.write("ts\tslug\tlabel\ttier\tyes_prob\tvolume\tliquidity\td1\td7\tend\tthin\n")
-            for ts_, slug, label, tier, m in logrows:
+            for ts_, slug, label, tier, m in keep:
                 fh.write("\t".join(str(x) for x in [
                     ts_, slug, label, tier, m["yes"], m["volume"], m["liquidity"],
                     m["d1"], m["d7"], m["end"], m["thin"]]) + "\n")
-        print(f"\nlogged {len(logrows)} rows → {ODDS_LOG}")
+        msg = f"\nlogged {len(keep)} rows → {ODDS_LOG}"
+        if skipped:
+            msg += f"  ({skipped} skipped — logged <{RELOG_MIN}min ago; --force to append anyway)"
+        print(msg)
 
 
 # --- `movers` discovery: macro/finance/geopolitics filter; skip sports/elections noise ---
@@ -577,7 +625,7 @@ def main():
     s = sub.add_parser("search"); s.add_argument("query"); s.add_argument("-n", type=int, default=6); s.set_defaults(fn=cmd_search)
     s = sub.add_parser("market"); s.add_argument("slug"); s.add_argument("--json", action="store_true"); s.set_defaults(fn=cmd_market)
     s = sub.add_parser("event"); s.add_argument("slug"); s.set_defaults(fn=cmd_event)
-    s = sub.add_parser("pull"); s.add_argument("--log", action="store_true"); s.add_argument("--json", action="store_true"); s.set_defaults(fn=cmd_pull)
+    s = sub.add_parser("pull"); s.add_argument("--log", action="store_true"); s.add_argument("--json", action="store_true"); s.add_argument("--force", action="store_true", help="append to ODDS_LOG even if the slug was logged <10min ago (bypass double-log guard)"); s.set_defaults(fn=cmd_pull)
     s = sub.add_parser("history"); s.add_argument("--write", action="store_true"); s.set_defaults(fn=cmd_history)
     s = sub.add_parser("movers")
     s.add_argument("--min", type=float, default=5.0, help="min 1d|7d move in pp (default 5)")

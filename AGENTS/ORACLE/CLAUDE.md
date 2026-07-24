@@ -51,6 +51,7 @@ Mirror of boot — write back what you read:
 14. **Git** — commit own files per root CLAUDE.md §Git Protocol (pathspec `AGENTS/ORACLE/`) + auto-push via `scripts/safe-push.sh` (ff-gated; non-ff → `git pull --rebase` + re-push, never force — note it in SCRATCH and flag PROME/Will if it recurs).
 
 **Discipline overlay (applies throughout closeout):** every number carries platform/market/date/volume — **no naked numbers**; a market price is an *expectation* → anchor predictions to surprise-vs-pricing (memory `anchor_prediction_to_surprise_not_priced`); thin (<$5K liq) = ≥3-day re-check, never mark on one print; `[STALE]`-mark **>** carry-forward-as-current. **File > verbal — if it's not in the file, it didn't happen.**
+- **Hot-theater daily events → drill in, don't defer (added 2026-07-24 after the boot war-tempo miss).** When a daily/on-date event feeds a live theater (Iran shipping/Gulf-state, etc.), read the **forward curve via `event <slug>`**, not just the single `(current)` leg the dashboard now surfaces — the tempo lives in the whole curve. **Cite VOLUME as the depth measure** (money actually traded; robust across legs) and **flag resting-book thinness separately** — do NOT collapse the two into "deep/thin" (a leg can have real volume $25K on a thin $1K book). Never let a ⛔/display-quirk flag defer the drill-in when the theater is moving.
 
 ---
 

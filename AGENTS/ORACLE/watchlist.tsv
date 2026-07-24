@@ -26,7 +26,7 @@ US unemployment ladder 2026	event	how-high-will-us-unemployment-go-in-2026	T1	LA
 # Geopolitics / oil transmission
 Hormuz traffic normal by Dec 31	market	strait-of-hormuz-traffic-returns-to-normal-by-december-31	T1	HAWK,BRENT
 US invade Iran before 2027	market	will-the-us-invade-iran-before-2027	T2	HAWK,BRENT
-Iran leadership change by Dec 31	market	iran-leadership-change-by-december-31-974-976-658-482-568	T2	HAWK,BRENT
+# RETIRED 2026-07-24 (caught by new PINNED-BUT-NOT-FOUND guard): "iran-leadership-change-by-december-31-974-976-658-482-568" returns nothing (slug drifted/delisted). Coverage retained by "Iranian regime fall before 2027" (deep, pinned 7/22) + "Iran ends enrichment by Dec 31". Re-pin a live leadership-change market if one relists.
 # ADDED 2026-07-22 PM (first `coverage` sweep — Will-approved nomination). "Iranian regime fall before 2027" — VERY deep ($22.9M vol / $598.8K liq), 10.5% (Δ7d +1.0). Distinct from + harder-bar than the leadership-change pin above (regime COLLAPSE vs a change of leader) and far deeper-priced — the better-liquidity gauge for the Iran regime-stability tail. → HAWK,BRENT.
 Iranian regime fall before 2027	market	will-the-iranian-regime-fall-by-the-end-of-2026	T2	HAWK,BRENT
 # ADDED 2026-07-22 PM (first `coverage` sweep — Will-approved). Venezuela leadership/regime-stability = OIL-relevant (sanctioned heavy-crude; incumbent departure → sanctions/supply shift). "Delcy Rodríguez out as leader of Venezuela by Dec 31" 9.5% (Δ7d +0.5, $174.6K vol / $15.1K liq). Complement event "who will be leader of Venezuela end-2026" (Donovan/Grenell/Machado legs, deeper per-leg) tracks the replacement scenario. → BRENT,HAWK.
@@ -65,7 +65,7 @@ Which banks fail by EOY 2026	event	which-banks-will-fail-by-end-of-2026	T1	REGIN
 # Oil: the resolved June $100/$70 binaries + the stale "July ladder (HIGH)" event pin (returned 100% RESOLVED) replaced by two clean LIVE July legs. $100 = war-premium gauge (deepest, $126K liq); $80 = elevated-oil gauge. As of 7/2: $100 1.6%, $80 11.5% — oil calm, NO supply premium despite Hormuz disruption.
 WTI hits $100 (Jul) — war premium	market	will-wti-reach-100-in-july-2026-928	T2	BRENT,HAWK
 # RETIRED 2026-07-22 (sweep) — "will-wti-reach-80-in-july-2026-791" went "not found" ($80 cleared intraday / resolved). Rolled UP to the $90 rung below (now the live war-premium gauge). ⚠️ Both $85 + $90 are INTRADAY-HIGH, month-stamped July (end 8/1) → re-pin Aug rungs on the 8/1 WTI roll alongside the $100 supply leg.
-WTI hits $90 (Jul) — intraday high	market	will-wti-reach-90-in-july-2026-334	T2	BRENT,HAWK
+# RETIRED 2026-07-24 (caught by new PINNED-BUT-NOT-FOUND guard): "will-wti-reach-90-in-july-2026-334" resolved YES (WTI touched $90 intraday in July) — market_by_slug returns nothing. Purpose served. Re-pin an Aug $90 rung at the WTI month-roll (~Aug 1).
 # ===== RETIRED 2026-07-17 — RESOLVED YES, do not re-pin (kept as the provenance record) =====
 # US blockade on Iran (event us-announces-blockade-on-iran-byptptpt-20260622191049039) — **RESOLVED YES**. Trump announced the blockade Mon 7/13; USN enforcement in effect Tue 7/14 16:00 ET (CNN/Axios/NBC 7/13-7/14). All forward legs settled 100% ($1.9M vol on the Jul-31 leg, liq drained); the past-dated Jun-30 leg sits at 0% = true-resolution signature, NOT the ladder display quirk.
 # CALIBRATION RECORD (the reason this row stays): on 7/9 this market read 48.0% while HAWK's independent ladder D-rung read 46% (KL~0.001 bits) — logged then as an unusually clean real-money audit of HAWK's method. **That ~47% two-source consensus resolved YES within 4 days.** One event is not a track record, but it is a rare scored point FOR the ladder. See KB-ORC-033.
@@ -85,7 +85,7 @@ US declares war on Iran by Dec 31	market	will-the-us-officially-declare-war-on-i
 
 # ===== ADDED 2026-07-17 (truce-collapse follow-through: oil premium + adjacent chokepoints) =====
 # WTI $85 July — the war-premium gauge stepped UP a threshold. 66.0% (Δ1d +16.0, Δ7d +51.5, $1.0M vol). !! RESOLUTION = INTRADAY HIGH (does WTI TOUCH $85 in July), NOT a settle. **DO NOT read this as confirmation of FALCON's $85 thesis — FALCON's bar is 3 consecutive SETTLES >$85 (Brent), zero of which have printed (high settle $84.95). Different question; welding them is the fused-true-facts trap (fleet memory 7/16).** Track on its own terms as an oil-premium tell only.
-WTI hits $85 (Jul) — intraday high	market	will-wti-reach-85-in-july-2026	T2	BRENT,HAWK
+# RETIRED 2026-07-24 (caught by new PINNED-BUT-NOT-FOUND guard): "will-wti-reach-85-in-july-2026" resolved YES (WTI touched $85 intraday in July) — market_by_slug returns nothing. Purpose served. Re-pin an Aug $85 rung at the WTI month-roll (~Aug 1).
 # Bab el-Mandeb closure — the OTHER chokepoint (Red Sea / Suez feed), $6.2M deep event. by-Sep30 21.5% / by-Dec31 31.5%. Untracked until now; pairs with Hormuz as the second Iran/Houthi-axis strait. Houthi tie-in below.
 Bab el-Mandeb closed (by-date)	event	bab-el-mandeb-strait-effectively-closed-by	T2	HAWK,BRENT
 # Houthi shipping attacks — the Red Sea leg of the shipping-disruption axis ($188.7K event). by-Jul31 43.5% / by-Aug31 58.0%. Distinct actor from Iran-direct; complements the Iran-shipping daily above for full chokepoint coverage.

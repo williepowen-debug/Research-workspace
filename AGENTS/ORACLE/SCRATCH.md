@@ -20,7 +20,8 @@
 5. **VX.tsv** — updated VX-ORC-04 (regime deepening, spread +25.6), -05 (NEH 65.5%), -07 (WTI intraday spike-retrace + Fed +20/7d + Bibi), -08 (Fed-hike EXTENDED to 71.5%).
 6. **STATUS.md full rewrite** (7/24 state, both extended-trigger alerts to top, dashboard 40 rows, convergence matrix, maintenance).
 7. **NEXUS_BRIEF.md full rewrite** (supersedes 7/22; VIEW/CALIBRATION/cross-domain/catalysts all to 7/24).
-8. **Outbox:** 🔴 `2026-07-24_to-liquid-henry_fed-rearm-extended.md` + 🔴 `2026-07-24_to-hawk-brent-falcon_regime-deepening-bibi-catalyst.md`.
+8. **Outbox:** 🔴 `2026-07-24_to-liquid-henry_fed-rearm-extended.md` + 🔴 `2026-07-24_to-hawk-brent-falcon_regime-deepening-bibi-catalyst.md` + 🟡 `2026-07-24_to-brent-falcon_wti-100-annual-probability-ask.md`.
+9. **Will-directed DEBRIEF + fixes (session tail):** analyzed workflow → corrected STATUS gulf-state vol/liq cell; moved 3 week-old outbox → delivered/. Then BUILT **#1** `pull` PINNED-BUT-NOT-FOUND guard (caught+retired 3 dead pins: iran-leadership-change slug + WTI-$85/$90-July both resolved-YES), **#2** `pull --log` double-log guard (skip <10min re-logs, `--force` bypass), **#4** boot-discipline rule in CLAUDE.md (hot-theater daily events → drill in via `event`, cite VOLUME + flag book-thinness separately), **#5** regen HISTORY.tsv. **#3 HELD** (forward-curve depth on daily rows — v2 candidate). See MAINTENANCE 7/24 debrief entry.
 
 ## NEXT SESSION (priority order)
 1. **⚠️ WTI $100 supply-leg MONTH-ROLL — DUE ~Aug 1 (8 days).** July WTI-$100 (`will-wti-reach-100-in-july-2026-928`) ends 2026-08-01. When August opens, **re-pin the new month's WTI-$100 market** in `watchlist.tsv` or the spread's supply leg silently ages out (script hard-exits if legs drift >3d — fails loud, but the re-pin is manual). Same for the Jul-31 Hormuz ladder (re-pin an Aug ladder) + Iran July legs.
