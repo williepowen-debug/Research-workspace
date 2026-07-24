@@ -188,3 +188,76 @@ bug.
   `Instrument` strings are therefore a small controlled vocabulary in practice —
   worth a periodic eyeball.
 - Checks B (THESIS↔STATUS score) and C (CATALYSTS↔CALENDAR) remain unbuilt.
+
+---
+
+# CHECK B — AS BUILT (2026-07-24, Will-directed)
+
+**Status: BUILT, five acceptance tests passed, wired into `boot.py`.** Built ahead of
+need on purpose: **three vector candidates are armed and all resolve within three
+weeks** (V5 3→4 ~8/3, V1/V2 ~8/15, V12 un-fire at FOMC 7/28-29). The next score move
+mutates the THESIS matrix, the STATUS mirror, the histogram, the Overall line and the
+BOTTOM LINE at once. A score check has to exist *before* that, not after.
+
+## What it verifies
+
+| # | Rule | Sev |
+|---|---|---|
+| **B1** | Per-vector score agrees THESIS matrix ↔ STATUS mirror (canonical = THESIS) | HARD |
+| **B2** | No vector present in one matrix and missing from the other | HARD |
+| **B3** | Histogram bucket membership matches the STATUS matrix score; no vector in two buckets | HARD |
+| **B4** | Histogram arithmetic: `count == len(vectors)`, `sum == score × count`, bucket sums == stated total, denominator == `vectors × 5` | HARD |
+| **B5** | Current-score **assertion sites** agree with the histogram total | HARD |
+
+**Section bounding matters.** The matrix is located by its header (`| # | Vector |`),
+not by row shape — `THESIS.md` contains other tables whose rows share the
+`| <int> | …` form, and a naive row grep silently mixes them in.
+
+## B5 and the false-positive that shaped it
+
+The first implementation compared **every** `\d\d/70` in STATUS against the histogram
+total, and immediately produced a false positive: STATUS legitimately carries prior
+scores as history (`Net 52→51`, `recalibrated 58/60 → 53/70`, `52/70 held`).
+
+**That was fixed rather than suppressed, because a checker that cries wolf gets
+ignored — which is worse than no checker.** B5 now matches only the phrasings that
+*assert* the live score:
+
+    Convergence\s+\**(\d+)/70      -> Overall line + BOTTOM LINE
+    Total:\s*\**(\d+)/70           -> the total line under the histogram
+
+3 assertion sites currently agree. History mentions are ignored by construction, and
+the report states how many sites were actually compared (same coverage-evidence
+principle as Check E).
+
+## Acceptance tests (all run 2026-07-24, all PASSED)
+
+Each failure mode seeded into a live copy, caught, then reverted:
+
+1. **B1** — set V5 to 4 in the STATUS mirror only (*the exact move armed for ~8/3*) →
+   caught the THESIS↔STATUS drift **and** the resulting histogram mismatch.
+2. **B3** — removed V5 from its histogram bucket → caught the absent vector, the
+   count mismatch, the wrong total, **and** the now-wrong denominator.
+3. **B4** — changed a bucket sum 28 → 29 → `sum says 29 but 7 vectors x 4 = 28`.
+4. **B5** — set the Overall line to 52/70 → current-score drift caught, history
+   mentions correctly ignored.
+5. **B2** — deleted V7 from the STATUS mirror → caught as missing from the mirror and
+   as present-in-histogram-but-absent-from-matrix.
+
+Files verified byte-identical to their backups afterward.
+
+## Check C — NOT built, and the reasoning
+
+`CATALYSTS.tsv` ↔ `CALENDAR.md` event-set comparison was **declined** on
+cost/value grounds, recorded here so the decision isn't silently revisited:
+
+- **Low value.** `docket_countdown.py` reads the **TSV**, and that is what boot
+  surfaces. CALENDAR drifting degrades a *human-readable twin* — a documentation
+  problem, not a decision problem. Neither the ELV-date error nor any other docket
+  failure this cycle would have been caught by C (that was wrong *content*, correctly
+  mirrored).
+- **Higher build cost than it looks.** The TSV holds ISO dates; CALENDAR holds prose
+  (`~Aug 3`, `**Jul 28-29**`). Matching them means date-prose normalization, which is
+  fiddly and fragile — a flaky check on a low-value surface is a net negative.
+
+**Revisit if CALENDAR drift ever actually bites.**

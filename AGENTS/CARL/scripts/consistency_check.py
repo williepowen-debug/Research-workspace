@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 r"""
-CARL Consistency Checker — Checks A + D + E
+CARL Consistency Checker — Checks A + B + D + E
 
 Mechanizes the "value-mirror-drift" class: catches when a canonical value and
 its STATUS.md mirror silently disagree. The manual closeout step-15 check only
@@ -126,6 +126,7 @@ SCRIPTS_DIR = Path(__file__).resolve().parent
 CARL_DIR = SCRIPTS_DIR.parent
 DEFAULT_TSV = CARL_DIR / "thesis" / "PREDICTIONS.tsv"
 DEFAULT_STATUS = CARL_DIR / "STATUS.md"
+DEFAULT_THESIS = CARL_DIR / "thesis" / "THESIS.md"
 
 PRED_ID_RE = re.compile(r"^CRL-\d+$")
 PCT_RE = re.compile(r"(\d+)\s*%")
@@ -338,6 +339,209 @@ def check_a(tsv, status_open, status_resolved):
                     f"STATUS='{o['timeframe']}'"))
 
     return findings
+
+
+# --------------------------------------------------------------------------
+# Check B — convergence-score cross-surface (THESIS ↔ STATUS ↔ histogram)
+# --------------------------------------------------------------------------
+SCORE_RE = re.compile(r"\b([1-5])\b")
+VEC_RE = re.compile(r"V(\d+)")
+
+
+def _find_matrix(lines):
+    """
+    Locate the convergence matrix by its HEADER ('# | Vector'), then take the
+    contiguous pipe-table beneath it.  Bounding by header is required: THESIS.md
+    contains other tables whose rows share the '| <int> | ...' shape, and a naive
+    row-pattern grep silently mixes them in.
+    """
+    start = None
+    for i, line in enumerate(lines):
+        s = line.strip()
+        if s.startswith("|") and "vector" in s.lower() and re.search(r"\|\s*#\s*\|", s):
+            start = i
+            break
+    if start is None:
+        return {}
+    scores = {}
+    for line in lines[start + 1:]:
+        s = line.strip()
+        if not s.startswith("|"):
+            if s == "":
+                continue
+            break
+        cells = _split_md_row(line)
+        if len(cells) < 4:
+            continue
+        num = strip_markdown(cells[0])
+        if not num.isdigit():
+            continue  # separator row
+        m = SCORE_RE.search(strip_markdown(cells[3]))
+        if m:
+            scores[int(num)] = int(m.group(1))
+    return scores
+
+
+def _find_histogram(lines):
+    """Parse STATUS '### Score histogram' -> (buckets, total_count, total_sum, raw_total)."""
+    start = None
+    for i, line in enumerate(lines):
+        if line.strip().lower().startswith("### score histogram"):
+            start = i
+            break
+    if start is None:
+        return None
+    buckets, total_count, total_sum, raw_total = {}, None, None, None
+    for line in lines[start + 1:]:
+        s = line.strip()
+        if not s.startswith("|"):
+            if s == "" or s.startswith("|---"):
+                continue
+            if buckets:
+                break
+            continue
+        cells = _split_md_row(line)
+        if len(cells) < 4:
+            continue
+        label = strip_markdown(cells[0])
+        if label.lower() == "total":
+            m = re.search(r"(\d+)", strip_markdown(cells[2]))
+            total_count = int(m.group(1)) if m else None
+            raw_total = strip_markdown(cells[3])
+            m2 = re.search(r"(\d+)\s*/\s*(\d+)", raw_total)
+            total_sum = (int(m2.group(1)), int(m2.group(2))) if m2 else None
+            break
+        if not label.isdigit():
+            continue
+        score = int(label)
+        vecs = [int(v) for v in VEC_RE.findall(cells[1])]
+        cm = re.search(r"(\d+)", strip_markdown(cells[2]))
+        sm = re.search(r"(\d+)", strip_markdown(cells[3]))
+        buckets[score] = {
+            "vectors": vecs,
+            "count": int(cm.group(1)) if cm else None,
+            "sum": int(sm.group(1)) if sm else None,
+        }
+    return buckets, total_count, total_sum, raw_total
+
+
+def check_b(thesis_path, status_path):
+    """Convergence score must agree across THESIS matrix, STATUS mirror, and histogram."""
+    findings = []
+    HARD, SOFT = "HARD", "SOFT"
+
+    if not thesis_path.exists():
+        return [(SOFT, "-", f"THESIS not found ({thesis_path}) — Check B skipped")], None
+
+    tl = thesis_path.read_text(encoding="utf-8").splitlines()
+    sl = status_path.read_text(encoding="utf-8").splitlines()
+    th = _find_matrix(tl)
+    st = _find_matrix(sl)
+
+    if not th:
+        findings.append((SOFT, "-", "THESIS convergence matrix not found — B1 skipped"))
+    if not st:
+        findings.append((SOFT, "-", "STATUS convergence matrix mirror not found — B1 skipped"))
+
+    # --- B1/B2: per-vector agreement ---
+    if th and st:
+        for v in sorted(set(th) | set(st)):
+            a, b = th.get(v), st.get(v)
+            if a is None:
+                findings.append((HARD, f"V{v}", "in STATUS matrix but MISSING from THESIS matrix"))
+            elif b is None:
+                findings.append((HARD, f"V{v}", "in THESIS matrix but MISSING from STATUS mirror"))
+            elif a != b:
+                findings.append((HARD, f"V{v}",
+                    f"SCORE DRIFT: THESIS={a} vs STATUS mirror={b} (canonical is THESIS)"))
+
+    # --- histogram ---
+    hist = _find_histogram(sl)
+    if hist is None:
+        findings.append((SOFT, "-", "STATUS '### Score histogram' not found — B3/B4 skipped"))
+        return findings, None
+    buckets, total_count, total_sum, raw_total = hist
+
+    stats = {"thesis_vectors": len(th), "status_vectors": len(st),
+             "buckets": len(buckets), "total": raw_total}
+
+    # --- B3: histogram membership vs STATUS matrix ---
+    if st:
+        hist_map = {}
+        for score, b in buckets.items():
+            for v in b["vectors"]:
+                if v in hist_map:
+                    findings.append((HARD, f"V{v}",
+                        f"listed in MORE THAN ONE histogram bucket ({hist_map[v]} and {score})"))
+                hist_map[v] = score
+        for v in sorted(set(st) | set(hist_map)):
+            m, h = st.get(v), hist_map.get(v)
+            if h is None:
+                findings.append((HARD, f"V{v}",
+                    f"scored {m} in STATUS matrix but ABSENT from the histogram"))
+            elif m is None:
+                findings.append((HARD, f"V{v}",
+                    f"in histogram bucket {h} but ABSENT from the STATUS matrix"))
+            elif m != h:
+                findings.append((HARD, f"V{v}",
+                    f"HISTOGRAM MISMATCH: STATUS matrix says {m}, histogram puts it in bucket {h}"))
+
+    # --- B4: histogram arithmetic (self-consistency, no external input needed) ---
+    calc_count = calc_sum = 0
+    for score in sorted(buckets, reverse=True):
+        b = buckets[score]
+        n = len(b["vectors"])
+        if b["count"] is not None and b["count"] != n:
+            findings.append((HARD, f"hist[{score}]",
+                f"count says {b['count']} but {n} vectors are listed"))
+        if b["sum"] is not None and b["sum"] != score * n:
+            findings.append((HARD, f"hist[{score}]",
+                f"sum says {b['sum']} but {n} vectors x {score} = {score * n}"))
+        calc_count += n
+        calc_sum += score * n
+    if total_count is not None and total_count != calc_count:
+        findings.append((HARD, "hist[total]",
+            f"total count says {total_count} but buckets hold {calc_count} vectors"))
+    if total_sum is not None:
+        stated, denom = total_sum
+        if stated != calc_sum:
+            findings.append((HARD, "hist[total]",
+                f"TOTAL SCORE WRONG: stated {stated} but buckets sum to {calc_sum}"))
+        expected_denom = calc_count * 5
+        if denom != expected_denom:
+            findings.append((HARD, "hist[total]",
+                f"denominator {denom} != {calc_count} vectors x 5 = {expected_denom}"))
+
+    # --- B5: CURRENT-score ASSERTION sites must agree ---
+    #
+    # Deliberately NOT "every \d\d/70 in the file".  STATUS legitimately carries
+    # prior scores as history ("Net 52->51", "recalibrated 58/60 -> 53/70",
+    # "52/70 held"), and flagging those produces false positives — which is worse
+    # than no check at all, because a checker that cries wolf gets ignored.
+    # So B5 matches only the phrasings that ASSERT the live score.
+    ASSERTION_PATTERNS = (
+        r"Convergence\s+\**(\d+)\s*/\s*70",     # Overall line + BOTTOM LINE
+        r"Total:\s*\**(\d+)\s*/\s*70",          # the total line under the histogram
+    )
+    if total_sum:
+        stated, denom = total_sum
+        want = f"{stated}/{denom}"
+        body = "\n".join(sl)
+        sites = []
+        for pat in ASSERTION_PATTERNS:
+            sites.extend(re.findall(pat, body))
+        bad = sorted({s for s in sites if int(s) != stated})
+        if bad:
+            findings.append((HARD, "score",
+                f"CURRENT-SCORE DRIFT: histogram totals {want}, but a current-score "
+                f"assertion in STATUS reads {', '.join(b + '/70' for b in bad)} "
+                f"(history mentions are ignored; these are live assertions)"))
+        stats["assertion_sites"] = len(sites)
+        if not sites:
+            findings.append((SOFT, "score",
+                "no current-score assertion site found in STATUS ('Convergence N/70' "
+                "or 'Total: N/70') — B5 asserted nothing this run"))
+    return findings, stats
 
 
 # --------------------------------------------------------------------------
@@ -607,7 +811,8 @@ def _fmt_conf(c):
 # --------------------------------------------------------------------------
 # Reporting
 # --------------------------------------------------------------------------
-def print_report(groups, tsv, status_open, n_entries, e_stats=None, quiet=False):
+def print_report(groups, tsv, status_open, n_entries, e_stats=None, b_stats=None,
+                 quiet=False):
     """groups: ordered list of (label, findings)."""
     all_f = [f for _, fs in groups for f in fs]
     hard = [f for f in all_f if f[0] == "HARD"]
@@ -615,7 +820,7 @@ def print_report(groups, tsv, status_open, n_entries, e_stats=None, quiet=False)
 
     if not quiet:
         print(f"\n{'=' * 78}")
-        print(f"  CARL CONSISTENCY CHECK — A (mirror) · D (instrument) · E (monotonicity)")
+        print(f"  CARL CONSISTENCY CHECK — A (mirror) · B (score) · D (instrument) · E (monotonicity)")
         print(f"{'=' * 78}")
         print(f"  Canonical : thesis/PREDICTIONS.tsv "
               f"({sum(1 for v in tsv.values() if v['status'] == 'OPEN')} OPEN "
@@ -634,6 +839,12 @@ def print_report(groups, tsv, status_open, n_entries, e_stats=None, quiet=False)
             print(f"\n  ✅ {label} — clean.")
             if e_stats and label.startswith("CHECK E"):
                 _print_e_coverage(e_stats)
+            if b_stats and label.startswith("CHECK B"):
+                print(f"       verified: {b_stats['thesis_vectors']} THESIS vectors vs "
+                      f"{b_stats['status_vectors']} STATUS mirror rows vs "
+                      f"{b_stats['buckets']} histogram buckets; total {b_stats['total']}"
+                      + (f"; {b_stats['assertion_sites']} current-score assertion site(s) agree"
+                         if b_stats.get('assertion_sites') else ""))
             continue
         print(f"\n  {label}")
         print(f"  {'SEV':<5} {'ROW':<16} FINDING")
@@ -643,6 +854,12 @@ def print_report(groups, tsv, status_open, n_entries, e_stats=None, quiet=False)
             print(f"  {mark} {sev:<4} {pid:<16} {msg}")
         if e_stats and label.startswith("CHECK E"):
             _print_e_coverage(e_stats)
+        if b_stats and label.startswith("CHECK B"):
+            print(f"       verified: {b_stats['thesis_vectors']} THESIS vectors vs "
+                  f"{b_stats['status_vectors']} STATUS mirror rows vs "
+                  f"{b_stats['buckets']} histogram buckets; total {b_stats['total']}"
+                  + (f"; {b_stats['assertion_sites']} current-score assertion site(s)"
+                     if b_stats.get('assertion_sites') else ""))
 
     print(f"\n  SUMMARY: {len(hard)} hard, {len(soft)} soft")
     if hard:
@@ -655,7 +872,7 @@ def print_report(groups, tsv, status_open, n_entries, e_stats=None, quiet=False)
 
 # --------------------------------------------------------------------------
 def main():
-    ap = argparse.ArgumentParser(description="CARL consistency checker — Checks A, D, E.")
+    ap = argparse.ArgumentParser(description="CARL consistency checker — Checks A, B, D, E.")
     ap.add_argument("--quiet", action="store_true", help="summary + findings only")
     ap.add_argument("--warn-only", action="store_true",
                     help="always exit 0 (findings still print). Used by boot.py so a "
@@ -664,6 +881,7 @@ def main():
                          "different things and must not look the same in the boot summary.")
     ap.add_argument("--tsv", default=str(DEFAULT_TSV), help="override PREDICTIONS.tsv path")
     ap.add_argument("--status", default=str(DEFAULT_STATUS), help="override STATUS.md path")
+    ap.add_argument("--thesis", default=str(DEFAULT_THESIS), help="override THESIS.md path")
     args = ap.parse_args()
 
     tsv_path = Path(args.tsv)
@@ -677,17 +895,19 @@ def main():
     status_open, status_resolved = parse_status(status_path)
 
     fa = check_a(tsv, status_open, status_resolved)
+    fb, b_stats = check_b(Path(args.thesis), status_path)
     fd = check_d(tsv)
     entries, gaps = collect_ledgers(tsv_path, tsv)
     fe, e_stats = check_e(entries, gaps)
 
     groups = [
         ("CHECK A — predictions mirror (PREDICTIONS.tsv ↔ STATUS.md)", fa),
+        ("CHECK B — convergence score (THESIS matrix ↔ STATUS mirror ↔ histogram)", fb),
         ("CHECK D — instrument declaration (does each OPEN row name what resolves it?)", fd),
         ("CHECK E — cross-ledger threshold monotonicity (parent + sub-agents)", fe),
     ]
     print_report(groups, tsv, status_open, len(entries), e_stats=e_stats,
-                 quiet=args.quiet)
+                 b_stats=b_stats, quiet=args.quiet)
 
     hard = [f for _, fs in groups for f in fs if f[0] == "HARD"]
     if hard and args.warn_only:
