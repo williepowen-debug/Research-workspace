@@ -66,3 +66,30 @@ Not reached: **Mississippi Gulf Coast** (Biloxi/Gulfport), **Jersey Shore**, **C
 **What worked:** the regional sweep surfaced ~60 metros across all tiers; the self-correcting-vs-worsening cut is the most decision-useful output; the verifier correctly flagged the revenue-per-listing survivorship trap.
 **Data gaps / frustrations:** the whole exercise is scraper-bound — no primary STR data exists; cross-checks 403/404/429'd; session WebSearch cap (200/200) hit before ~8 named markets. AirDNA 403-on-WebFetch is a recurring blocker (→ BACKLOG).
 **Confidence:** Medium on tier placement by occupancy/trend; Low on dollar magnitudes. **This is a directional map, not a precise ranking** — the one thing that would settle it (metro YoY occupancy + cohort-controlled same-store revenue) requires a paywalled listing-level panel (AirDNA/Key Data/AllTheRooms).
+
+---
+
+## GAP-FILL ADDENDUM (2026-07-24, later same day)
+Covers the markets the first sweep missed. **Limitation stated up front:** the shared-session WebSearch budget was exhausted before these legs ran, so for most gap markets only AirROI *current* TTM levels were reachable — **no YoY, so oversupply DIRECTION is UNKNOWN** for the FL secondaries + SE remainder. Where real YoY *was* obtained (Hawaii via DBEDT primary, Chicago, CO/UT ski, NJ shore, LA), it's marked. The verifier REFUTED confident severity calls for the direction-less markets.
+
+**Newly covered — weak on current LEVELS (low occupancy; candidate oversupply, direction unconfirmed):**
+- **Daytona Beach, FL** — 33% occ, $20.7k rev/listing (softest FL secondary on both axes)
+- **Fort Walton Beach/Okaloosa FL** ($29.8k), **Pensacola/Perdido Key FL** ($28.9k) — Panhandle value markets, lowest rev/listing
+- **Destin/Sandestin FL** — 37% occ on the highest supply in the set (4,223 listings)
+- **Hilton Head SC** (36.5% occ), **Gulf Shores/Orange Beach AL** (34–37% occ) — low occ, decent rate
+
+**Newly covered — with REAL YoY direction:**
+- **CO/UT ski — self-correcting, SNOW-driven not oversupply:** Park City UT (occ 31%, rev/listing **−7.3%**, worst), Vail (−3.5%), Telluride (−1.8%); Aspen/Breckenridge flat-to-positive. Weakness is mostly the 2025/26 **snow drought (a demand shock)**, not oversupply.
+- **Jersey Shore — supply growing but SEASONAL:** Cape May (+37.8% supply), Ocean City (+23.8%) look moderate-worsening, but these are peak-summer markets (occ ~63% July vs ~37% annual) — annual occ understates them. Atlantic City normalizing (+5% supply).
+- **Los Angeles, CA** — 43% occ, +7% supply, rev/listing −1.4% → mild/self-correcting.
+
+**Newly covered — confirmed NOT oversupplied / recovering (real direction):**
+- **Hawaii — recovering, not oversupplied** (DBEDT *primary* data): Maui occ +2pp (post-Lahaina-fire recovery, Lahaina rev +19%), **Oahu occ +8pp with supply −20%**, Kauai occ +4pp (resolves the prior 46%/82% conflict → ~52–54%), Big Island stable. Confounded by Maui's STR-phaseout law, but operating metrics improving.
+- **Chicago, IL** — 45.6% occ (highest of the gap set, year-round urban), +19% supply absorbed; **license cap constrains supply** → not classically oversupplied.
+- **Sonoma CA** (rev/listing mostly positive), **Charleston SC** (51% occ, $67k rev/listing), **Sarasota/Bradenton/St. Augustine FL** (42–44% occ), **FL Keys** (Key West $91k/45% occ, Marathon, Siesta Key — Monroe County regulatory supply caps make oversupply structurally unlikely).
+
+**Still genuinely unreachable:**
+- **Mississippi Gulf Coast (Biloxi/Gulfport/Bay St. Louis)** — no data sourced at all; the one named market I still can't fill.
+- **YoY direction for the FL secondaries + SE remainder** — AirROI's free tier is levels-only; a proper oversupply-*direction* read needs paid data (AirDNA/Key Data) or a fresh-session WebSearch budget. → BACKLOG.
+
+*Engine: gap-fill fan-out 5 agents / ~363K tok / 0 err. WebSearch budget exhausted upstream → levels-heavy, direction-light; the Hawaii DBEDT primary API was the one clean YoY win. NOTE: the session's shared WebSearch quota (200/200) is spent — further web-heavy runs this session will be starved; the remaining gaps need a fresh session or paid data.*
