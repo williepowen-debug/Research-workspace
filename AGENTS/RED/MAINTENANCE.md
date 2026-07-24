@@ -11,7 +11,15 @@ Reverse-chronological log of **structural** changes to RED's docs, folders, sche
 
 ---
 
-## 2026-07-10 — RED added to WALTER §3.5 pull-complete exemption (boot step 5.5 → no-op)
+## 2026-07-24 — NEXUS_BRIEF refresh hardened into W8 (was un-listed in the write-back sequence; sat one session stale)
+
+**Trigger:** Will asked at S24 close whether RED's `NEXUS_BRIEF.md` had been updated today — it hadn't (stamped 7/17/S23), despite its own footer promising per-closeout freshness. Root cause: the brief was stood up 7/6 (PROME/NEXUS ask, `inbox/processed/2026-07-06_from-PROME_via-NEXUS_write-nexus-brief.md`) but was never added to the SPAWN PROTOCOL's W1-W10 write-back list, so the S24 closeout — which ran every listed W-step — skipped it cleanly. A checklist can only protect what's on it.
+
+**What changed:** `CLAUDE.md` W8 now includes "Refresh `NEXUS_BRIEF.md` whenever state moved this session"; also folded the root-canon self-authored-packet carve-out (ratified 7/23) into W8's "never write into another agent's directory" line, which had gone stale against root CLAUDE.md. Brief itself rewritten to vS24 in the same pass.
+
+**Files touched:** `CLAUDE.md` (W8), `NEXUS_BRIEF.md` (vS23→vS24), this file.
+
+**Boot-impact:** none at boot; write-back gains one conditional step. Skip-condition is explicit: a session that moved NO state (pure read/verify session) may leave the brief untouched — the footer stamp then honestly shows the last state-moving session.
 
 **Trigger:** WALTER notice `inbox/2026-07-09_from-WALTER_pull-complete-exemption.md` (Will-approved design-walkthrough 7/9) — RED added to BOARD_CONSUMPTION_SPEC §3.5 v0.8 alongside CARL: boot step 1.5's whole-INDEX BOARD scan already IS RED's complete pull (auto-cc INFO-only, never ACTION owner on a WALTER dispatch → zero ACTION-miss risk from dropping the per-signal handoff lane, which was 24% of delivery-lane volume and the largest unconsumed-INFO pile).
 
