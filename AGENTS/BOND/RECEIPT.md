@@ -1,6 +1,6 @@
 # BOND — Run Receipt
 
-**Session:** 2026-07-23 (Thu — multi-pass: boot → WALTER lane → general inbox → auction grade → HEN-42 v1 → HEN-42 v2 research-verified → CLOSEOUT) · **Overwritten at closeout.**
+**Session:** 2026-07-23 (Thu — multi-pass: boot → WALTER lane → general inbox → auction grade → HEN-42 v1 → HEN-42 v2 research-verified → CLOSEOUT → NEXUS_BRIEF refresh → PROME route → FINAL CLOSEOUT ADDENDUM) · **Overwritten at closeout.**
 
 ## Session summary
 
@@ -33,8 +33,12 @@ Multi-pass Will-directed session across the full BOND day: 4 WALTER-lane items c
 **Analysis:**
 - `analysis/2026-07-23_grade_7-22-20Y_7-22-40Y-JGB_7-23-TIPS.md` — full 3-auction grade write-up
 
-**Outbox:**
+**Outbox (2):**
 - `outbox/2026-07-23_to-HENRY_HEN-42-confirm-with-caveat.md` — v2 data-verified (v1 preserved in git 44726880). Verdict: HEN-42 CONFIRM (~90-95% policy-path); independence-test revision (3-way → 2-way).
+- `outbox/2026-07-23_to-PROME_nexus-brief-refresh-hardened-label.md` — 🟡 steady-state route flagging the NEXUS_BRIEF refresh (5 deltas mapped), HEARTBEAT amendment #2 candidate, and the independence-test discipline for NEXUS synthesis (BOND+HENRY+LIQUID = 2 routes + 1 shared-antecedent reading).
+
+**NEXUS_BRIEF.md:**
+- Refreshed at close (commit `b1e521e7`) — headline hardened (label now data-verified), new independence-test §, auction 3/3 corroboration table, falsifier state DEEP-LIT, live rates 7/22-23, cross-domain owner-attributed (SAM USDJPY / BRENT).
 
 **Workbook:**
 - `KB.tsv` +6 rows: KB-BND-083 (boot state), 084 (May TIC), 085 (ZION), 086 (5-day state refresh), 087 (auction grades), 088 (full-curve research)
@@ -74,7 +78,10 @@ None. **BND-01** (HY 350 by end-Jul) remains OPEN, in-window till 7/31; currentl
 - `10ddecd6` — general-inbox drain (4 items) + boot WALTER lane already logged
 - `44726880` — auction grades + HEN-42 v1 reply + inbox move
 - `5f30b542` — HEN-42 v2 research-verified rewrite + KB-BND-088 + VX-14 refresh
-- **This closeout commit** — SCRATCH/RECEIPT/STATUS/CATALYSTS pruning
+- `c0511e6c` — initial closeout: STATUS calendar prune + CATALYSTS.tsv prune + SCRATCH/RECEIPT rewritten
+- `b1e521e7` — NEXUS_BRIEF refresh (5 deltas vs 7/18 version)
+- `83ffbe29` — PROME route flagging the NEXUS_BRIEF refresh + HEARTBEAT amendment #2 candidate
+- **This final-closeout-addendum commit** — SCRATCH + RECEIPT synced to match the 2 post-closeout deliverables
 
 All BOND-only pathspec (`AGENTS/BOND/`). safe-push ff-gated, non-ff → pull --rebase. Fast-forwarded behind concurrent LIQUID commits twice — routine multi-agent behavior.
 

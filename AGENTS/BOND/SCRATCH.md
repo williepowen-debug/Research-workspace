@@ -2,7 +2,7 @@
 
 **Purpose:** Ephemeral session handoff. Read at boot, rewritten at closeout. Learnings → `MEMORY.md`; thesis → `thesis/THESIS.md`; live state → `STATUS.md`.
 
-**Session shape:** boot → WALTER lane → Will-tasked general inbox → Will-tasked auction grade → Will-tasked research-verified HEN-42 reply v2 → CLOSEOUT.
+**Session shape:** boot → WALTER lane → Will-tasked general inbox → Will-tasked auction grade → Will-tasked research-verified HEN-42 reply v2 → CLOSEOUT → Will-tasked NEXUS_BRIEF refresh → Will-tasked PROME route → FINAL CLOSEOUT ADDENDUM (this).
 
 ---
 
@@ -76,7 +76,7 @@
 4. **BOJ 7/31** — FL-BND-11 FX leg; SAM owns primary.
 5. **BND-01 end-of-window resolution** (7/31) — HY OAS 275 vs 350. Currently far from arming; will resolve FAILED.
 6. **DEFERRED (still owed):** FR2004 as-of 6/24/7/1/7/8/7/15 prints (NY Fed API caps pre-2026 in-env — needs a workaround or Will/PROME flag); HENRY UST structural-demand corpus refresh (Mar-vintage); `PROME/packets/DOMAIN_SWEEP_LENSES.md` sweep.
-7. **NEXUS_BRIEF light refresh** — carry the KB-BND-088 curve-shape data-verified verdict (v2 HEN-42 reply hardening); values-only, framing unchanged.
+7. ~~NEXUS_BRIEF light refresh~~ — ✅ DONE this session (commit `b1e521e7`); PROME routed (`83ffbe29`, outbox `2026-07-23_to-PROME_nexus-brief-refresh-hardened-label.md`). HEARTBEAT amendment #2 candidate flagged to PROME (label wording now empirically data-verified).
 
 ## OPEN THREADS / WATCHES
 
@@ -99,8 +99,8 @@
 
 - **Inbox (general):** EMPTY (5 total consumed this session → `processed/`: 4 PROME items in pass 2, 1 HENRY item in pass 3).
 - **Inbox WALTER:** EMPTY (4 consumed at boot → `WALTER/processed/`).
-- **Outbox:** 1 new — `2026-07-23_to-HENRY_HEN-42-confirm-with-caveat.md` (v2 data-verified; v1 preserved in git 44726880).
-- **NEXUS_BRIEF.md:** light-refresh owed next session (KB-BND-088 hardens the label correction).
+- **Outbox:** 2 new this session — `2026-07-23_to-HENRY_HEN-42-confirm-with-caveat.md` (v2 data-verified; v1 preserved in git 44726880); `2026-07-23_to-PROME_nexus-brief-refresh-hardened-label.md` (🟡 steady-state, flags HEARTBEAT amendment #2 + independence-test discipline for NEXUS synthesis).
+- **NEXUS_BRIEF.md:** ✅ REFRESHED this session (commit `b1e521e7`) — 5 deltas vs 7/18: data-verified label, auction 3/3 corroboration, independence-test §, falsifier state DEEP-LIT, live rates + cross-domain owner-attributed.
 
 ## CLOSEOUT (this pass — full BOND protocol steps 9-17)
 
@@ -118,5 +118,5 @@
 
 - KB.tsv: 6 rows appended session-total (083-088), CRLF preserved via Python append. Confirmed via `tail | cut -f1`.
 - VX.tsv: 4 rows edited (05/08/13/14) with Last_Updated = 2026-07-23.
-- **Commits this session:** `10ddecd6` (inbox drain), `44726880` (auction grades + HEN-42 v1), `5f30b542` (HEN-42 v2 + full-curve research), + this closeout commit. All BOND-only pathspec. Bad first commit swept HENRY files → soft-reset + re-committed clean (single incident, caught + fixed same turn).
-- safe-push ff-gated, non-ff → pull --rebase (already fast-forwarded twice this session behind concurrent LIQUID commits).
+- **Commits this session (6 total, all BOND-only pathspec, all pushed):** `10ddecd6` (inbox drain), `44726880` (auction grades + HEN-42 v1), `5f30b542` (HEN-42 v2 + full-curve research), `c0511e6c` (initial closeout: STATUS calendar prune + SCRATCH/RECEIPT), `b1e521e7` (NEXUS_BRIEF refresh), `83ffbe29` (PROME route) + this final-closeout addendum. Bad initial commit swept HENRY files → soft-reset + re-committed clean (single incident, caught + fixed same turn).
+- safe-push ff-gated, non-ff → pull --rebase (fast-forwarded multiple times behind concurrent LIQUID commits).
