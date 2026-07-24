@@ -169,6 +169,16 @@ NEXUS is the fleet's biggest consumer of *relayed* premises — claims that arri
 - **Failure cost, measured:** three instances in 24h fleet-wide (2026-07-16/17): CCLFX "$1B forced sale → Q2 gate" (a **March** GP-led rebalance welded onto a **June** gate — consumed by NEXUS at 90% confidence on PRED-45), BRK-25 "$0.85 Apollo bid" (MFIC's May trading ratio welded onto ADS's tender), "AMZN $920M" (VULCAN self-inherited). Corollary: *self-inherited canon gets the least scrutiny* — apply the same decomposition to your OWN prior STATUS text when re-anchoring after a gap.
 - Applies at intake (BOOT steps 4-7), not just integration — the cheapest place to kill a weld is before it enters the file. (`[[finding_fused_true_facts_false_premise]]` — provenance; rule text lives here per spec-text rule.)
 
+### H. Route-count line (surface-reuse guard — adopted 2026-07-24, RED CHG-043-B, Will-fleet precedent BOND 7/23 3-routes→2 self-catch)
+
+Disc-D's citation-count check catches the same *observation* cited N times; Disc-F catches shared *antecedents*. This closes the remaining hole: the same **decision or repricing event** propagating through N agents' surfaces and getting counted as N pieces of evidence.
+
+- **Rule:** before marking odds (prob-split, Conf %, convergence votes) off multi-agent convergence, write the **explicit route count**: how many independent EVIDENCE CLASSES does this cluster actually contain? A class = a distinct causal origin (a belligerent act, a market repricing, a physical flow change, a filing), NOT a distinct surface. One underwriter's war-risk repricing quoted on futures, insurance, reroutes, and transit-avoidance — and cited by 5+ agents — is ONE class. Three agents reading the same FRED curve with the same discriminator is ONE route read three times (BOND's 7/23 self-catch: "3-way convergence" → 2 routes; the third route is the not-yet-run discriminator, e.g. an auction).
+- **Where it binds:** matrix `Independence` column entries, the prob-split rationale, and any "N agents converge" alert to PROME must state the class count when it differs from the agent count.
+- **Falsifier lens (from CHG-043):** if the multi-counted datum was measuring real transmission, its decay will be JOINT (all surfaces fade together on the de-escalation); if surfaces decay independently, they were separate evidence after all — grade this when the falsifier fires, don't assume either way.
+- **Companion caveat (CHG-043-A, FALCON-side):** composite scalars can be concave in severity — a scalar near its ceiling under-prints a bigger real event. When consuming another agent's composite (FALCON 42/50, BRENT matrices), check how much headroom remains for the *physical* event class before treating a small further move as "already priced."
+- (`RED CHG-043-B` — provenance; rule text lives here per spec-text rule. Disc-D citation-guard and Disc-F root-map remain in force; H is the surface-reuse third leg.)
+
 ---
 
 ## WHAT YOU READ

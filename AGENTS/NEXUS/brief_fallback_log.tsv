@@ -24,3 +24,7 @@ date	agent	cause	note
 2026-07-17	LIQUID	stale	brief 7/6 vs STATUS 7/11; read raw STATUS — LIQ-06 pre-reg (HY 265-280 band, tracking CONFIRM), SOFR-short decomposition, dealer-nexus watch
 2026-07-22	REGINALD	stale	brief 7/20 < STATUS 7/21 (WAL/OZK Stage-1 grades post-date brief); read raw STATUS
 2026-07-22	BROCK	stale	brief 7/9 < STATUS 7/20 (welds + marks-window prep + GATE-LIQ-079 all post-date brief); read raw STATUS
+2026-07-24	BRENT	stale	brief 7/23 16:37 < STATUS 7/24 13:05 (USO re-quote + pullback adjudication) — read raw STATUS
+2026-07-24	OSPREY	stale	brief 7/23 12:35 < STATUS 7/24 10:54 (GATE-OSPREY-001 day-5 fire) — read raw STATUS
+2026-07-24	LIQUID	stale	brief 7/18 < STATUS 7/23 21:10 (KB-084/085/086 + 079 backtest) — read raw STATUS
+2026-07-24	CORAL	stale	brief 7/23 13:55 < STATUS 7/24 12:13 (SSB grade + sync-gate closure) — read raw STATUS
