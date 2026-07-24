@@ -22,6 +22,7 @@ Usage: python3 scripts/env_doctor.py [--quiet] [--env-file PATH]
 Exit: 0 = required keys present; 1 = a required key/file is missing.
 """
 import re
+import shutil
 import socket
 import sys
 from pathlib import Path
@@ -29,6 +30,13 @@ from pathlib import Path
 REPO = Path(__file__).resolve().parent.parent
 DEFAULT_ENV_FILE = REPO / "FORGE" / "tools" / "market-data" / ".env"
 REQUIRED_KEYS = ["FRED_API_KEY", "EIA_API_KEY", "PJM_API_KEY"]  # expected on EVERY box
+
+# CLI tools expected on EVERY box. Non-fatal (warn only): their absence breaks
+# a fleet rule, not a data pull, so it must not trip the FRED-citation gate.
+# (name, why, fallback-hint)
+EXPECTED_CLIS = [
+    ("trash", "rule #11 trash > rm (package: trash-cli)", "use `gio trash <file>` until installed — NEVER rm"),
+]
 
 # Hostname-keyed expectations for machine-local extras. Only list items whose
 # ABSENCE on that box is a problem; boxes intentionally without an item (per
@@ -90,6 +98,12 @@ def main() -> int:
             notes.append(f"✓ {label}")
         else:
             print(f"ENV-DOCTOR ⚠ [{host}] expected machine-local item ABSENT: {label} ({p})")
+
+    for cli, why, hint in EXPECTED_CLIS:
+        if shutil.which(cli):
+            notes.append(f"✓ `{cli}` on PATH")
+        else:
+            print(f"ENV-DOCTOR ⚠ `{cli}` not on PATH — {why}; {hint}")
 
     if not quiet:
         for n in notes:
