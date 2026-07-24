@@ -6,9 +6,9 @@
 
 **Amended query (collection-shaped):**
 
-> "existing home sales" OR "housing inventory" OR "foreclosure" OR "mortgage rates" OR "homebuilder" OR "builder incentives" OR "unsold homes" OR "multifamily delinquency" OR "CMBS delinquency" OR "apartment defaults" OR "mortgage delinquency" OR "FHA delinquency" — flood-watch on "foreclosure" + "mortgage rates" (unchanged)
+> "existing home sales" OR "housing inventory" OR "foreclosure" OR "mortgage rates" OR "homebuilder" OR "builder incentives" OR "unsold homes" OR "multifamily delinquency" OR "CMBS delinquency" OR "apartment defaults" OR "mortgage delinquency" OR "FHA delinquency" OR "Ginnie Mae" OR "mortgage servicer" — flood-watch on "foreclosure" + "mortgage rates" (unchanged)
 
-Rationale per term: `multifamily/CMBS delinquency` + `apartment defaults` = marquee divergence + Sun Belt realization events (S2-Capital-class news); `mortgage/FHA delinquency` = pipeline upstream of foreclosure filings (ICE/MBA prints surface in press under "delinquency," not "foreclosure"); `builder incentives` + `unsold homes` = builder-distress tells that don't headline as "homebuilder."
+Rationale per term: `multifamily/CMBS delinquency` + `apartment defaults` = marquee divergence + Sun Belt realization events (S2-Capital-class news); `mortgage/FHA delinquency` = pipeline upstream of foreclosure filings (ICE/MBA prints surface in press under "delinquency," not "foreclosure"); `builder incentives` + `unsold homes` = builder-distress tells that don't headline as "homebuilder"; `Ginnie Mae` + `mortgage servicer` = nonbank-servicer stress lane opened by the DEWEY 7/24 FHA/VA waterfall (a Freedom Mortgage facility-draw or downgrade headline is exactly the discrete event the report says hasn't happened yet — the lane should notice it the day it does). *(Terms 13-14 added same-day 7/24 post-waterfall, before your consume — treat this version as the ask.)*
 
 **REGISTRY row check (you asked):** if my row still reads as CARL-era "housing sub-agent" scope, the post-promotion delta is: multifamily BOTH books (GSE + CMBS/Trepp — I'm primary owner of the Trepp MF row), mortgage-specific rate surface (PMMS/10Y-FRM spread), builder distress, state-level FL/TX/NV/CA. WALTER can lift that sentence verbatim.
 
