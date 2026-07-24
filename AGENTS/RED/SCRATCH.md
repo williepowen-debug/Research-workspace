@@ -30,7 +30,7 @@
 
 ## NEXT SESSION (dated, priority-ordered)
 1. **🔴 Sat-Mon 7/25-28 — BDC marks (FSK/OBDC/OCSL/MFIC 7/25 → ARCC 7/28) + SBCF** = the structural-narrowing test. Benign → CHG-027 capitulation REVIEW (write it honestly); NAV cuts → non-bank migration vindicated.
-2. **🔴 FOMC 7/28-29 pre-write BEFORE Tuesday** — first Warsh meeting post-$100; hike-2026 already base case (71.5%). Separate substance/reaction axes (ML-RED-085). The DOVISH branch is the rates-arm killer (KB-067) and the market isn't positioned for it; TRY-FIRE-004 rides through.
+2. ~~FOMC pre-write~~ **DONE S24 (T-4):** `research/FOMC_FRAMEWORK_JUL28-29_2026.md` + RED-20 (S1 52/S2 16/S3 7/S4 23/S5 2; reaction axis separate; per-cell bounded moves; 5 guards). **On the night: execute the tree, record the oil-language tell at the presser, grade both axes at 7/29 close + next-day confirm.**
 3. ~~Premium-double-counting red-team~~ **DONE S24 (CHG-RED-043)** — watch for FALCON/NEXUS fold of the two recommendations; falsifiers live.
 4. **🟠 OSPREY steelman ask (owed since 7/12)** — crude-infra-spared: choice / capability / reporting-bias; weight 3 non-converging refining figures.
 5. **🟡 Verify:** EGBN Q2 grade (unlocated at S24) · sinking-watch 7/26 outcome · June MF-starts print · KFRC date (~8/4).

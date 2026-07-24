@@ -84,7 +84,7 @@
 
 ## TOP ADVERSARIAL PRIORITIES (7/24)
 
-1. **FOMC 7/28-29 pre-write** — first Warsh meeting post-$100 Brent, with hike-2026 already the base case (71.5%). Separate SUBSTANCE from REACTION axes (ML-RED-085); the dovish branch is the rates-arm killer and the market is NOT positioned for it. TRY-FIRE-004 (30× TLT Sep $77P) rides through it.
+1. **FOMC 7/28-29 — pre-write DONE (S24, T-4):** `research/FOMC_FRAMEWORK_JUL28-29_2026.md` + RED-20 registered (S1 hawkish-hold 52 / S4 hike 23 not-faded / S3 dovish 7 = the rates-arm-kill cell). Substance/reaction axes separated, per-cell weight moves bounded, guards pre-registered (HY-280 attribution, DISH trap, sinking-watch overlap). Execute the tree on the night — do not improvise.
 2. **BDC marks 7/25-28 + SBCF** — the structural-narrowing test. If the non-bank leg also prints benign, CHG-027 goes to capitulation review; if NAV cuts land, the bear's migration to non-bank surfaces is vindicated.
 3. ~~Premium-double-counting red-team~~ **DONE same session (CHG-RED-043)** — verdict MODERATE, FALCON's marks vindicated, two recommendations routed (FALCON P/R split-scalar; NEXUS route-count line). Watch for the fold; falsifiers live.
 4. **Daily:** HY 280 re-cross (3bps) · CCC 1000 (9bps) · sinking watch closes 7/26 · SKEW vs 140.
@@ -99,9 +99,9 @@
 |---|---|---|
 | **WRONG (8)** | 02·03·06·08·09·15·18·19 | unchanged |
 | **CORRECT (10)** | 01·07·10·11·12·13·14·16·17·**05** | RED-05 NEW: RHI Q2 rev −2%/EPS −37% YoY = canaries NOT positive in Q2; modal 65% landed. Forward caveat: both canaries now guide UP — the signal re-arms at KFRC ~8/4. |
-| **ACTIVE (1)** | 04 (rescue Q2-Q3 — hike-is-base-case makes non-occurrence modal; resolves 9/30) | |
+| **ACTIVE (2)** | 04 (rescue Q2-Q3 — hike-is-base-case makes non-occurrence modal; resolves 9/30) · **20 NEW** (FOMC 7/28-29 substance S1 modal 52%; graded at the print) | |
 
-**TALLY: 8 WRONG / 10 CORRECT / 1 ACTIVE.**
+**TALLY: 8 WRONG / 10 CORRECT / 2 ACTIVE.**
 
 ---
 
