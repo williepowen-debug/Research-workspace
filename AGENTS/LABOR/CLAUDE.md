@@ -70,7 +70,7 @@ C2. **Resolve predictions + sync catalysts.** Resolve every prediction flagged a
 C3. **Workbook write-back — TWO live ledgers only** (VX.tsv + FLOW.tsv are FROZEN 2026-06-26, superseded by the STATUS Convergence Matrix — do NOT write to them): (a) Log new atomic evidence/claims → `workbook/KB.tsv` (REVIVED to LIVE 2026-07-10, state (b): append-only, 13-col schema per `SCHEMA.tsv`, next ID continues the KB-LAB-NNN sequence; boot.py surfaces a >21d staleness alert). **Append TSV rows via `scripts/tsv_append.py <file> <fields…>`, never `printf`/`echo` (format-string corruption class — see B5a).** (b) Predictions handled at C2 → `workbook/PREDICTIONS.tsv`. **One source of truth per metric** — STATUS owns live indicator LEVELS; KB owns the sourced evidence trail — don't duplicate a value, own it in one and reference from the other. **Stale-marked > carried-forward-as-current** — if you couldn't refresh a value, mark it `[STALE YYYY-MM-DD]` rather than presenting it as live.
 C4. **Research detail → `domain/sources/`** — STATUS.md gets a summary row, not the full report.
 C5. **Promotion scan.** Transferable cross-agent lesson → auto-memory (`~/.claude/projects/-home-willi-Research-workspace/memory/` + one-line index in its `MEMORY.md`); LABOR-specific durable learning → `LESSONS.md` (read back at B3); cross-agent signal → `outbox/` per the Outbox Protocol below. *(Mirror of B3.)*
-   **Research retirement checklist (added Jun 26):** For each file in `research/` and `domain/`: if (a) last modified >60 days ago AND (b) not boot-read AND (c) not referenced in a live document → `git mv` to `archive/`. Run this check every closeout. Prevents March-era graveyard recurrence.
+   **Research retirement checklist (added Jun 26; scope narrowed 2026-07-24 — `research/` retired empty, dir removed):** For each file in `domain/`: if (a) last modified >60 days ago AND (b) not boot-read AND (c) not referenced in a live document → `git mv` to `archive/`. Run this check every closeout. Prevents March-era graveyard recurrence.
    **Build-debt register (added 7/20):** any deferred build/tooling work you surfaced this session (a tool that needs a code path, a script fix, an automation) → log it in **`BUILD_DEBT.md`** (standing register), not just a docstring or a NEXT SESSION PICKUP line that scrolls off. This is where "owed code" lives so it doesn't rely on a seeded-sweep to rediscover it (origin: the FDIC-backend integration flagged 7/20 lived only in a docstring). One line per item: what · why-deferred · where-documented · trigger-to-do-it.
 C6. **Git:** commit own files per root CLAUDE.md §Git Protocol (pathspec `AGENTS/LABOR/`, run from repo root) + auto-push via `scripts/safe-push.sh` (ff-gated; non-ff → `git pull --rebase`, never force).
 
@@ -247,11 +247,16 @@ When analyzing a new layoff event, apply these frameworks rather than reasoning 
 | `BUILD_DEBT.md` | Standing register of deferred build/tooling work (owed code). Maintained at closeout (C5). |
 | `board_log.tsv` | WALTER-signal disposition log (v0.2 header). Appended at B5a via `tsv_append.py`. |
 | `docket/WARN_COHORT.tsv` | Rolling WARN filing→effective→claims-week tracker (feeds LAB-17-class tests). Boot >30d staleness alert. |
+| `docket/GRADING_CARD_YYYYMMDD.md` | **Frozen** pre-registered grading card for a triple/multi-loaded print (7 outcome bands + committed assignments). Written BEFORE the release; consumed at grade time. Example: `GRADING_CARD_20260730.md`. |
+| `docket/FOMC_LABOR_LANGUAGE_YYYYMMDD.md` | Pre-registered FOMC labor-language leg (branches + verbatim baseline to diff). LABOR's seat in the fleet's FOMC stack. Example: `FOMC_LABOR_LANGUAGE_20260729.md`. |
 | `workbook/PREDICTIONS_SCOREBOARD.md` | Calibration record + §C pre-write gates (loaded at B4; §A/§D updated at C2). |
+| `workbook/SCHEMA.tsv` | 13-col schema for `workbook/KB.tsv`. Static; referenced from C3. |
 | `TRADE.md` | Position ideas (KELYA puts) |
 | `inbox/` | Inbound signals from other agents. Process when spawned for it. |
 | `outbox/` | PROME-action requests only. Signals to other agents → write directly to their `inbox/`. |
-| `domain/sources/` | Research archives, deep dives |
+| `sources/` | **Stable framework / reference docs** — the 10 frameworks cited in RESEARCH TOOLKIT (LAYOFF_EVENT_STUDY, INSIDER_SELLING_PRELAYOFF, WARN_ACT_LEADING_INDICATOR, …) + vintage analyst notes. Read-mostly; distinct from `domain/sources/` (session pack-outs). |
+| `domain/sources/` | Research archives, deep dives, dated STATUS/TRADE snapshots, retired one-off docs. |
+| `archive/` | Retired March-era artifacts (pre-freeze STATUS/framework docs, superseded KB_old_11col.tsv). Read-only; C5 retirement checklist targets this dir. |
 | `scripts/boot.py` | **Boot orchestrator** — runs the three sweeps below in ~5s. Step B2. |
 | `scripts/labor_data.py` | Live FRED domain sweep (claims, NFP, U-3/6, JOLTS, temp) + threshold flags |
 | `scripts/catalyst_countdown.py` | Trading-day countdown over `docket/CATALYSTS.tsv` |

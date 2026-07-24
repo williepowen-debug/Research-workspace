@@ -353,6 +353,6 @@ FL UI Wave 1 FIRED Mar 24. Primorsk + Ust-Luga offline (Russia Baltic). Apollo g
 | U-3 >5.0% | HENRY | Structural bid break |
 | Claims >250K sustained | CARL | Consumer conversion accelerates |
 
-*Prior: `domain/sources/STATUS_archive_*`. UI exhaustion timeline and frameworks archived to `workbook/STATUS_archive_20260325.md`*
+*Prior: `domain/sources/STATUS_archive_*`. UI exhaustion timeline and frameworks archived to `domain/sources/STATUS_archive_20260325.md` (rehomed 2026-07-24 from workbook/).*
 
 *Next: Mar 31 JOLTS | Apr 1 ADP | Apr 3 claims (FL Wave 1 first capture) | Apr 3 NFP (Good Friday — gap risk Apr 6) | Apr 26 FL Wave 2 | Aug CA/NY exhaustion*
