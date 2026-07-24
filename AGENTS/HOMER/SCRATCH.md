@@ -1,4 +1,4 @@
-# HOMER SCRATCH — 2026-07-17 (ATTOM H1 foreclosure session, PROME-directed / Will-routed)
+# HOMER SCRATCH — 2026-07-24 (builder pair + rate-wall catch-up session, Will-directed boot)
 
 **Purpose:** Canonical ephemeral session handoff. Read at boot; rewrite at closeout. Durable findings → `MEMORY.md`/workbook; live state → `STATUS.md`.
 
@@ -6,33 +6,31 @@
 
 ## CHANGES THIS SESSION
 
-PROME-directed, Will-routed task from the 7/17 RESEARCH-INTAKE lane run: pull the ATTOM H1-2026 foreclosure print PRIMARY, grade vs my rows, reconcile the FL figure with CORAL (live in parallel), flag REGINALD Path-C.
+First boot after a 7-day dark window (last session 7/17). Will-directed: full sitrep + run the catch-up plan.
 
-- **ATTOM 2026 Mid-Year report pulled + primary-verified** (attomdata.com report page + PRNewswire, both rel 7/16). Press claims graded: national 227,548 filings / +21% YoY = CONFIRMED exact; FL #1 state by rate (0.27%/1-in-373/27,494) = CONFIRMED; **press "Jacksonville worst" = IMPRECISE** — actual FL-worst metros Punta Gorda 0.50% (#1 US), Lakeland 0.48% (#2 US); Jacksonville 0.31% is #4 among FL metros. 5 of top-10 US metros are FL.
-- **Grade verdict: consistent + sharpened, NOT a fresh flow-acceleration.** Flow-rate YoY COOLING (Q1 +26% → H1 +21%; Q2 filings 115,714 < Q1 118,727); CONVERSION accelerating (timeline 563d, lowest since 2013, −13% YoY; REO +33% H1). Q1↔Q2 reconcile: 6,893 dual-quarter overlap (ATTOM dedup) — no contradiction. **Resolved the open "watch-June-REO" thread: June REO reaccel +23% YoY (4,773) after May's −20% MoM dip — conversion trend intact.**
-- **FHA/VA thin-equity corroboration: MEDIUM-HIGH, indirect.** ATTOM is filings-based (no loan-type split), but the state/metro geography (FL/SC/IN + Punta Gorda/Lakeland/Cape Coral/Jacksonville/Ocala) IS the Sun Belt 2020-22 FHA/thin-equity map → corroborates DEWEY 6/27 prior at metro level.
-- **Rate surface (mine):** PMMS 6.55% [7/16], +6bps WoW, 2nd straight rise off Jul-2 7-wk low, at/near 2026 highs (WSJ daily 6.62 [7/17]). Rate-high × foreclosure-surge = no refi cure → pipeline drains to REO. Demand side: NAR Pending Home Sales June −5.4% (4.9pp miss, all 4 regions, NAR blames rates+price); Census June starts +19% MoM is a COMPOSITION MASK (all MF; SF flat −0.2%, SF permits −2.4%).
-- **CORAL reconcile (live, parallel):** SendMessage sent with proposed ONE canonical FL figure (27,494 / 0.27% / 1-in-373 / #1 / ATTOM Mid-Year 2026). Same primary → fork unlikely. My STATE_HSG FL row flagged "PROPOSED CANONICAL — CORAL confirm pending" (her task #8 open). Also re-raised the still-open 7/12 FL-condo inventory reconcile.
-- **REGINALD Path-C note WRITTEN** — `AGENTS/REGINALD/inbox/2026-07-17_from-HOMER_fl-foreclosure-collateral-context.md` (FL foreclosure geography as collateral context for the 7/21 triple-print prep).
-- **Workbook:** PIPELINE.tsv (+7 national H1 rows), STATE_HSG.tsv (+FL H1 state + FL metro rows), BUILDER.tsv (+PMMS 7/16, Pending Home Sales June, Census June starts). All two-clock headers updated to 7/17.
-- **STATUS/NEXUS_BRIEF:** refreshed — header stamp, Foreclosure Pipeline table (H1 row), State-Level table (FL H1 + metro rows), Mortgage Rates table (3 new rows), Bottom Line; NEXUS VIEW/CALIBRATION/SENDING/WAITING-FOR.
-- **WALTER inbox drained:** SIG-W-20260717-006 (Pending Home Sales — actioned into BUILDER row + rate paragraph), SIG-W-20260716-006 (retail-sales/rate delta — rate noted, consumer grade is CARL's), SIG-W-20260716-001 (bank-PC exposure / WAL warehouse — INFO, REGINALD-adjacent). Move to processed/ next boot (left in place this session; see below).
+- **DHI FQ3 (rel 7/21) + PHM Q2 (rel 7/22) pair-graded, web-verified vs primaries** (WALTER SIG-W-20260723-006/-014 figures all exact). Finding: **margin defense is the constant, the lever differs** — DHI margin-over-volume (GM 20.7% +60bps QoQ/−110bps YoY; 7,600 completed unsold, 600 aged >6mo) vs PHM price-and-pace (GM 25.0% +60bps seq on ASP −3%, orders +6%, FY guide reaffirmed). Kills "uniform capitulation"; margin crush is COHORT-SPECIFIC (KBH/LEN = the crushed entry-level end). → BUILDER.tsv (10 rows), KB-HOMER-003, STATUS builder table + pair-read row.
+- **CRL-23 data-owner read: both prints move AWAY from the triggers** (DHI 20.7% vs ≤17.5%; PHM 25.0% vs ≤22.0%) — no FY27 tariff early-confirm. Routed to CARL via NEXUS_BRIEF; next checkpoints PHM Q3 (~Oct)/DHI FQ4 (~Nov).
+- **Rate wall refreshed to current:** PMMS 6.58 (7/23, THIRD straight rise, 2026 highs); MBA conforming 6.69 (wk 7/17, highest since Aug-2025); **UST leg finally refreshed (was Jun-22 vintage): 10Y ~4.71 [7/24], 30Y 5.17 [7/23, sustained >5.00]** → 10Y-FRM spread COMPRESSED to ~187bps = PMMS lagging the selloff, follow-through risk ~6.7%+. **MBA purchase-apps stale leg closed** (wk 7/17: +6% WoW SA, +0.2% YoY — one resilient week). NAHB HMI July pulled: 34, 15th mo <40 (longest since 2012), price-cutters 37% third straight rise.
+- **CRL-06 loop CLOSED (discovered at boot):** CARL resolved CONFIRMED 2026-07-16, metric ruled = STARTS, on my data package. First full data-owner→resolution-owner loop of the promotion. KB-HOMER-005; all my surfaces swept to CONFIRMED (STATUS Open Items/Predictions/Catalysts, docket).
+- **REGINALD consumed both packets** (7/12 Trepp-ownership + 7/17 Path-C note → its processed/). CREED's 7/12 packet still unconsumed (Tier-2, expected).
+- **PROME lane-query ask ANSWERED** — `outbox/2026-07-24_to-PROME_lane-query-amended.md` (AMEND: added multifamily/CMBS + delinquency + builder-inventory terms; REGISTRY-row delta sentence included).
+- **HOM-01 grading sheet prepped ahead of the ~7/30 print** — `reports/2026-07-24_HOM-01-grading-sheet.md` (decision table incl. as-published revision discipline + early-kill arming; closes the PROME 7/12 prep ask).
+- **Hygiene:** KB_LIVE.tsv SEEDED (KB-HOMER-001..005 — first rows since promotion); board_log.tsv LIVE (6 sigs logged, 3 retroactive for the 7/17 first-use gap); all 6 WALTER sigs + 3 PROME items git-mv'd to processed/; 7/17 outbox memo → delivered/. STATUS trimmed to 134 lines (dropped rotated 7/12 bottom-line paragraph).
 
-## BYPRODUCT ROUTED
-- **CARL (CRL-06, CARL-owned):** Q2 actuals now in — Q2 clears 70K on filings (115,714) + starts (~82-88K) but NOT REO (~13,963). Flagged in memo + NEXUS_BRIEF; CARL owns resolution.
+## NEXT SESSION (the wall is dense — Mon-Fri 7/27-7/31)
 
-## CORAL RECONCILE — BOTH CLOSED THIS SESSION (7/17)
-- **FL foreclosure figure CONFIRMED.** Both agents converged INDEPENDENTLY on the identical figure (0.27% / 1-in-373 / 27,494 / #1 / ATTOM Mid-Year 2026). CORAL-canonical (FL state-rate headline), HOMER cites + owns pipeline mechanics. STATE_HSG + STATUS rows flipped proposed→CONFIRMED. Adopted CORAL's two disambiguation flags: window-labeling (H1-cumulative "1-in-373" ≠ May-monthly "1-in-2,110") + FL "barely #1" (SC 0.26% behind, SE cluster).
-- **7/12 FL-condo inventory reconcile CLOSED.** CORAL countersigned; relabeled my "12.9mo" → **Miami-Dade** on all 3 surfaces (STATUS, MULTIFAMILY.tsv, STATE_HSG.tsv); statewide = CORAL's 8.9mo. Ownership split countersigned (statewide price/inventory = CORAL; county medians + foreclosure pipeline = HOMER).
-
-## NEXT SESSION
-1. **Move WALTER sigs to `inbox/WALTER/processed/`** (SIG-006/006/001) — actioned this session, not yet filed.
-3. **HOM-01 first resolver ~Jul 30** (FMHPI June data): Leg-1 read + early-kill arm. Boot resolution scan applies.
-4. **DHI FQ3 (7/21) + PHM Q2 (7/22)** — CRL-23 read; NAHB HMI July pull (rel 7/16, not yet pulled); UST 10Y/30Y + MBA weekly still owed (lower priority).
-5. **Verify REGINALD consumed the Path-C note** + whether CARL moved on CRL-06 Q2 actuals.
+1. **Case-Shiller May (Tue 7/28)** — nominal/real divergence; context pre-read for HOM-01 (NOT a resolver).
+2. **FMHPI June data (~Thu 7/30)** — **HOM-01 Leg-1 first read. Use the grading sheet** (`reports/2026-07-24_HOM-01-grading-sheet.md`); resolve on as-published numbers only.
+3. **Fannie June MF DQ + Trepp July (~7/31)** — marquee GSE-vs-CMBS co-read; route Trepp read to REGINALD (collateral) on pull.
+4. **PMMS Thu 7/30** — does the 187bps spread compression pull PMMS toward 6.7%?
+5. Threshold-band revisit still queued (FL YoY bands under-read a LEVEL story — STATUS Open Item #7).
+6. Drop STATUS Open Items #2 (CORAL provenance hold) at next closeout.
 
 ## OPEN THREADS
-- FL foreclosure figure + FL-condo reconcile — BOTH CLOSED with CORAL 7/17 (see above). No open CORAL items.
-- GSE-vs-CMBS MF divergence — next Fannie + Trepp prints ~late-Jul co-determine.
-- HOM-01 OPEN — FMHPI nominal-rollover, first resolver ~Jul 30.
-- STATUS threshold-table note: "FL Foreclosures YoY" bands (+75/150/200) now under-read FL stress — FL shifted from rate-of-change story to LEVEL story. Consider a durable-band revisit (not done this session; flagged in PIPELINE row + memo).
+
+- **HOM-01 OPEN** — first resolver ~7/30; DHI spec-hoard headwind vs NAHB price-cut-breadth tailwind logged in KB-HOMER-003; triggers unchanged (resolve on numbers, not narrative).
+- **GSE-vs-CMBS divergence** — co-read ~7/31.
+- **CRL-23** — open at CARL; my 7/24 read = moving away from triggers; next data Oct/Nov.
+- **CREED S5-demotion packet** — unconsumed, non-blocking.
+- **Watch (new, from SIG-006):** DHI FQ4 — does volume discipline hold, or does the 600-aged-spec tail force clearing? (Would flip the HOM-01 headwind.)
+- **Note for PROME (flagged in 7/24 sitrep, not mine to commit):** uncommitted fleet auto-memory files sitting in `memory/auto/` at boot.

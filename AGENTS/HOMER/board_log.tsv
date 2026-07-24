@@ -1,1 +1,7 @@
 timestamp_read	signal_id	disposition	source	notes
+2026-07-17	SIG-W-20260716-001	INFO-LOGGED	WALTER	Bank-PC exposure / WAL warehouse — REGINALD-adjacent, no HOMER row. Logged retroactively 7/24 (board_log not yet in use on 7/17 — first-use gap).
+2026-07-17	SIG-W-20260716-006	INFO-LOGGED	WALTER	Retail-sales/rate delta — rate leg noted in rate surface; consumer grade is CARL's. Logged retroactively 7/24.
+2026-07-17	SIG-W-20260717-006	ACTIONED	WALTER	NAR Pending Home Sales June -5.4% → BUILDER.tsv row + STATUS Mortgage Rates/Demand table + 7/17 outbox memo §4. Logged retroactively 7/24.
+2026-07-24	SIG-W-20260719-001	ACTIONED-PRIOR	WALTER	ATTOM H1 midyear — primary already pulled + verified 7/17 BEFORE dispatch (sig dated 7/19). No new data vs my rows; deceleration-vs-base-effect call already graded (flow cooling, conversion accelerating).
+2026-07-24	SIG-W-20260723-006	ACTIONED	WALTER	DHI FQ3 margin-over-volume — web-verified vs businesswire release (figures exact); BUILDER.tsv 2 rows + pair-read row + KB-HOMER-003 + STATUS/NEXUS CRL-23 no-early-confirm read.
+2026-07-24	SIG-W-20260723-014	ACTIONED	WALTER	PHM Q2 price-and-pace counterpart — web-verified (figures exact); BUILDER.tsv 2 rows + pair-read row + KB-HOMER-003. Pair-frame adopted.
