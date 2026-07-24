@@ -1,63 +1,83 @@
 # BOND — Run Receipt
 
-**Session:** 2026-07-23 (Thu — boot → general inbox → **auction cluster grade** [Will-tasked, this pass]) · **Overwritten at closeout.**
+**Session:** 2026-07-23 (Thu — multi-pass: boot → WALTER lane → general inbox → auction grade → HEN-42 v1 → HEN-42 v2 research-verified → CLOSEOUT) · **Overwritten at closeout.**
 
-## ★ Auction cluster (this pass — 3 prints graded vs FROZEN pre-regs)
+## Session summary
 
-| Auction | Primary source | BTC | Ind | Dealer | Grade |
+Multi-pass Will-directed session across the full BOND day: 4 WALTER-lane items consumed at boot, 4 general-inbox items drained mid-day, 3 auctions (7/22 US 20Y-R + 40Y JGB + 7/23 10Y TIPS) graded 3/3 NO-MARKER, HENRY HEN-42 inquiry received + replied v1 → **rewrote v2 with data-verified full-curve research** after Will pushed for depth. Composite unchanged 12/35; arm-#2 DEEPENED (10Y 4.67, DFII10 series high 2.39, 11bp from re-arm gate); no fresh add-gate fired.
+
+## Inbox processed (5 general items + 4 WALTER = 9 total, all → processed/)
+
+| File | Class | KB row | Outbox reply |
+|---|---|---|---|
+| WALTER SIG-W-717-011 (gold sub-$4000) | INFO — folded into boot KB | KB-BND-083 | — |
+| WALTER SIG-W-720-005 (Warsh hawkish) | INFO — confirms real-policy-path | KB-BND-083 | — |
+| WALTER SIG-W-721-009 (Japan Jun trade) | INFO — SAM lane, folded | KB-BND-083 | — |
+| WALTER SIG-W-723-012 (rates repricing) | ACTION — my domain, folded | KB-BND-083 | — |
+| PROME 7/16 may-tic-arm3-grade | INTEGRATE | KB-BND-084 | — (consume-only) |
+| PROME 7/18 sat-eve-task-packet | LOG_ONLY (retrospective; all 4 tasks done 7/18) | — | — |
+| PROME 7/20 zion-call-rate-hike-corroborator | INTEGRATE-light w/ 3 caveats | KB-BND-085 | — (consume-only) |
+| PROME 7/21 rates-vol-channel-confirm | INTEGRATE-light (superseded by 7/23 state) | folded KB-BND-083 | — |
+| HENRY 7/23 HEN-42-policy-path-rotation-your-auctions-are-the-discriminator | INTEGRATE + REPLY | KB-BND-088 | **2 replies: v1 `44726880`, v2 data-verified rewrite `5f30b542`** |
+
+## Auctions graded (3/3 NO-MARKER; full write-up `analysis/2026-07-23_grade_...`; KB-BND-087)
+
+| Auction | Primary source | BTC | Indirect | Dealer | Grade |
 |---|---|---:|---:|---:|---|
-| 7/22 US 20Y-R (912810UV8) | TD R_20260722_2 | 2.64 | 69.12% | 14.67% | HOLDING (dealer softening flag) |
-| 7/22 40Y JGB | MOF eresul20260722 via SAM | 2.83 | — | — | FIRM (BTC-only; tail unpub) |
-| 7/23 10Y TIPS (91282CRE3) | TD R_20260723_3 | 2.30 | 65.16% | 9.86% | HOLDING (composition-strong, BTC-borderline; real HY 2.438 = +26.9bp vs 5/21) |
+| 7/22 US 20Y-R (912810UV8) | TD R_20260722_2 | 2.64 | 69.12% | 14.67% | HOLDING (dealer softening flag; indirect firm rules out foreign-exit) |
+| 7/22 40Y JGB | MOF eresul20260722 via SAM | 2.83 | — | — | FIRM (BTC-only per pre-reg discipline; SAM concurs firm-marginal) |
+| 7/23 10Y TIPS (91282CRE3) | TD R_20260723_3 | 2.30 | 65.16% | 9.86% | HOLDING composition-strong; real HY 2.438% = +26.9bp above 5/21; ind/dlr 6.6x vs 5.5x = **arm-#2 REAL-MONEY CONFIRMED** |
 
-**Full write-up:** `analysis/2026-07-23_grade_7-22-20Y_7-22-40Y-JGB_7-23-TIPS.md`
-**KB:** KB-BND-087 (13-col, CRLF via Python)
-**VX:** VX-BND-08 refreshed (long-end indirects firm); VX-BND-14 refreshed (TIPS = arm-#2 real-money corroboration)
-**STATUS:** state banner + catalyst row updated (both mark 3/3 no-marker)
-**Outbox:** none (no 🔴 escalation, no route-out)
+## Deliverables written (session-total)
 
----
+**Analysis:**
+- `analysis/2026-07-23_grade_7-22-20Y_7-22-40Y-JGB_7-23-TIPS.md` — full 3-auction grade write-up
 
+**Outbox:**
+- `outbox/2026-07-23_to-HENRY_HEN-42-confirm-with-caveat.md` — v2 data-verified (v1 preserved in git 44726880). Verdict: HEN-42 CONFIRM (~90-95% policy-path); independence-test revision (3-way → 2-way).
 
-## Inbox processed (4 consumed → processed/, all classifications integrated)
+**Workbook:**
+- `KB.tsv` +6 rows: KB-BND-083 (boot state), 084 (May TIC), 085 (ZION), 086 (5-day state refresh), 087 (auction grades), 088 (full-curve research)
+- `VX.tsv` 4 rows edited: VX-BND-05, -08, -13, -14 (all with Last_Updated 2026-07-23)
 
-| File | Action | Why | Workbook rows | STATUS change | Outbox |
-|---|---|---|---|---|---|
-| `2026-07-16_from-PROME_may-tic-arm3-grade.md` | INTEGRATE | ARM-#3 grade w/ key composition datum (Japan bills real selling) | KB-BND-084; VX-BND-13 note | Catalyst row updated to GRADED FIRED-WEAK; state banner reflects | None (consume-only) |
-| `2026-07-18_from-PROME_sat-eve-task-packet.md` | LOG_ONLY | All 4 tasks completed in 7/18 session (SCRATCH confirms: label check, EU reconcile, weld fold, domain-sweep deferred) | None — retrospective | None | None |
-| `2026-07-20_from-PROME_zion-call-rate-hike-corroborator.md` | INTEGRATE-light | C-suite corroborator of the real-policy-path label; secondary source, incentive-flagged (asset-sensitive) | KB-BND-085; VX-BND-14 note | Referenced in state banner + VX-14 | None (consume-only per sender) |
-| `2026-07-21_from-PROME_rates-vol-channel-confirm.md` | INTEGRATE-light | MOVE re-open 72.66 [7/20] via GATE-VIO-116; adjudicated by VIOLET to fold-into-TRY-FIRE-004, no standalone BOND trade | Folded into KB-BND-083 (7/23 boot) + KB-BND-086 (state refresh) | Dashboard MOVE row updated to 80 [7/23]: 68→72.66→80 trajectory noted | None |
+**STATUS:**
+- Banner rewritten twice (inbox pass + auction pass; final at close)
+- Dashboard: 9 rows refreshed (10Y/30Y/2Y/DFII10/T10YIE/T5YIFR/TLT/MOVE + JGB30Y/USDJPY/Brent from SAM/BRENT authoritative)
+- Catalyst rows: 3/3 auctions + May TIC marked resolved; 8 old fired rows pruned
+- SCRATCH addendum tracking multi-pass
 
-## KB rows appended (this session)
-- **KB-BND-084** — May TIC ARM-#3 grade + Japan bills real-selling datum
-- **KB-BND-085** — ZION Q2 call policy-path corroborator (with 3 caveats: secondary source, asset-sensitive incentive, verify vs official replay)
-- **KB-BND-086** — State refresh 7/17→7/22: 5-day 10Y move decomposition (real 67% / BE 33%), curve still belly-led bear-flattener = SAME regime as KB-BND-080
-
-## VX updated
-- **VX-BND-05** (Long-End Duration): fresh readings 10Y 4.67 / 30Y 5.15 / DFII10 2.39; "arm DEEPENED" language; live gates to score 5 enumerated
-- **VX-BND-13** (FOI Demand Hole): May TIC composition folded in; mixed-picture read (country-fade REAL, aggregate ABSORBED)
-- **VX-BND-14** (Long-end Decomposition): 5-day refresh (real 67% / BE 33%, share down from 86% arm-completing); ZION + Warsh corroborators noted
-
-## STATUS changes
-- State banner rewritten (ARM-#2 DEEPENED, fresh dashboard values, ZION + Warsh + Sept-hike 80% context)
-- Dashboard rows refreshed: 30Y, 10Y, 2Y, DFII10, ACM TP, T5YIFR, T10YIE, TLT, MOVE
-- Catalyst row for 7/16 TIC = ✅ GRADED FIRED-WEAK with datum
-- Last-Updated line advanced to 7/23
+**Docket:**
+- `docket/CATALYSTS.tsv` pruned (removed 8 fired rows; kept 7/2 FR2004 as PENDING-pull tracker + 7/22-23 as resolved-marker)
 
 ## Predictions resolved this session
-None. BND-01 (HY 350 by end-Jul) remains only OPEN row; in-window till 7/31, currently HY 275 → will NOT resolve TRUE, likely FAILED at 7/31 closeout.
 
-## Deliverables written
-- `workbook/KB.tsv` +3 rows (084/085/086)
-- `workbook/VX.tsv` — 3 rows edited (05/13/14)
-- `STATUS.md` — state banner + 9 dashboard rows + 1 catalyst row
-- `SCRATCH.md` — session handoff (this pass)
-- `RECEIPT.md` — this file
-- 4 inbox files → `processed/` via `git mv`
+None. **BND-01** (HY 350 by end-Jul) remains OPEN, in-window till 7/31; currently HY 275 → will resolve FAILED at 7/31.
 
-## Deferred (unchanged from 7/18 SCRATCH)
-- HENRY UST structural-demand corpus refresh-or-retire (Mar-vintage; grounds ACM +0.73%) — quiet-day dedicated session
-- `PROME/packets/DOMAIN_SWEEP_LENSES.md` sweep — task-3 from 7/18 packet, deferred, still owed
+## Position
+
+**TLT puts: HOLD** — Will NO-ADD 7/16 stands. Arm-#2 DEEPENED not just held (10Y 4.67 = 20bp above 4.50 line; DFII10 series-high 2.39 = 11bp from re-arm gate) but **no new pre-registered add-gate has fired.** Live re-arm candidates: DFII10 >2.5 sustained, FOMC 7/28-29 hawkish guidance TONE, weak coupon in 7/27-28 cluster.
+
+## Deferred (unchanged from 7/18 SCRATCH + 1 new)
+
+- HENRY UST structural-demand corpus refresh-or-retire (Mar-vintage)
+- `PROME/packets/DOMAIN_SWEEP_LENSES.md` sweep
+- **NEW:** FR2004 as-of 6/24/7/1/7/8/7/15 prints (4 owed; NY Fed API caps pre-2026 in-env — needs workaround or Will/PROME data-source flag)
+- NEXUS_BRIEF light refresh (carry KB-BND-088 into the label-correction wording)
+
+## Process incidents
+
+1. **Concurrent-commit-index-race caught + fixed** (inbox pass): bare `git add`/`git commit` swept HENRY's pre-staged files. Soft-reset → pathspec re-commit clean. Textbook `finding_concurrent_commit_index_race`; the very next `AGENTS/BOND/` pathspec commit worked correctly. All subsequent commits used pathspec form.
+2. **v1→v2 HEN-42 reply rewrite:** Will flagged that v1 was inference not research. I pulled the full DFII/DGS curve, cross-checked LIQUID's route for independence, verified the auto-memory I was citing. v2 rewrote in place (same filename, same URL — v1 preserved in git 44726880). Lesson: when replying to a cross-agent ask with quantitative claims, pull the full data BEFORE drafting, not after.
+
+## Commits this session
+
+- `10ddecd6` — general-inbox drain (4 items) + boot WALTER lane already logged
+- `44726880` — auction grades + HEN-42 v1 reply + inbox move
+- `5f30b542` — HEN-42 v2 research-verified rewrite + KB-BND-088 + VX-14 refresh
+- **This closeout commit** — SCRATCH/RECEIPT/STATUS/CATALYSTS pruning
+
+All BOND-only pathspec (`AGENTS/BOND/`). safe-push ff-gated, non-ff → pull --rebase. Fast-forwarded behind concurrent LIQUID commits twice — routine multi-agent behavior.
 
 ## Git
-Session commit will be BOND-only pathspec (`AGENTS/BOND/`), root-cwd, auto-push via `scripts/safe-push.sh`. No writes outside `AGENTS/BOND/`. No outbox routes needed.
+
+Session commit will be BOND-only pathspec (`AGENTS/BOND/`), root-cwd, auto-push via `scripts/safe-push.sh`. No writes outside `AGENTS/BOND/`.
