@@ -156,11 +156,7 @@
 | LAB-13 | Healthcare net-negative by July NFP | **15%** (was 30) | July (Aug 7 print) | June +21.5K, hospitals +9K — slowing (vs +38K avg) but well above zero. |
 | LAB-17 | **WARN-cohort claims test:** 4-wk MA ≥235K on any print by Aug 6 | **5%** (from 35) | Aug 6 | **7/23: window OPENED with 187K / MA 207,500 — sharp COUNTER.** LinkedIn cohort (606 eff 7/13) invisible as pre-flagged (small vs base) but the print *fell 22K* to a 57-yr low. MA math now needs w/e Jul 25 ≥**327K** (T-02-scale single) or two prints avg ≥272K by Aug 6 = tail only. Meta ~4,665 eff 7/22 hits w/e Jul 25 (print 7/30, window close). Kept OPEN per pre-reg (level-driven, resolve Aug 6); retooling-wk caveat logged (NSA −11% YoY = genuinely low). |
 
-**Rehomed / cross-tracked (not LABOR-active):**
-
-| ID | Prediction | Conf | Due | Status |
-|---|---|---|---|---|
-| LAB-04 | FL foreclosures +75%+ YoY | 75% | REHOMED→CORAL | **7/9: Will re-homed to CORAL** (CARL pickup limbo since Jun16 closed — CORAL's mandate already covers FL foreclosure-by-metro). Not resolved — CORAL's clock now runs; register under CORAL's own IDs. Employment-signature cross-flag to LABOR preserved. LABOR-side accelerant at hand-off: WEAKENED (FL claims quiet, not top-10 IUR). Handover packet delivered to CORAL 7/9 (consumed). |
+> **Rehomed / cross-tracked (not LABOR-active):** **LAB-04** FL foreclosures +75%+ YoY, 75% conf, **REHOMED→CORAL 7/9** (CARL pickup limbo closed; CORAL's mandate already covers FL foreclosure-by-metro). Not resolved — CORAL owns the clock now, register under CORAL's own IDs. Employment-signature cross-flag preserved. LABOR-side accelerant WEAKENED at hand-off (FL claims quiet, not top-10 IUR). Handover packet delivered to CORAL 7/9 (consumed).
 
 **Resolved this session:**
 
