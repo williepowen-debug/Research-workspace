@@ -106,14 +106,21 @@ Insert after Phase 2.7 (composite-bifurcation), before Phase 3 OUTPUT. Bump head
 WALTER-owned, append-only, tab-separated. Same family as `FALSIFICATION_FIRED_LOG.tsv` / `REG_THRESHOLDS_FIRED_LOG.tsv`. Header row:
 
 ```
-flagged_date	signal_id	trigger	clusters	decision_question	what_changes	prompt_ref	deadline	disposition	outcome	notes
+flagged_date	signal_id	trigger	clusters	decision_question	what_changes	prompt_ref	deadline	disposition	outcome	executor	notes	impact
 ```
+
+*(Schema history: 11-col v1 → **12-col** 2026-06-20 [`executor` added, DEWEY revival Phase 2] → **13-col** 2026-07-24 [`impact` added — DEWEY ask 7/10, re-raised 7/24, PROME-endorsed on the 2nd raise; WALTER schema call]. Column adds are backfill-safe: existing rows get an empty cell, new rows populate at consumption. `walter_doctor` reads by column NAME (`DictReader`), so a width change does not break the `deep_research_pending_overdue` check.)*
 
 - `trigger` — one of T1–T5 (comma-joined if multiple)
 - `prompt_ref` — **path to where the ready-to-run prompt lives** (per PROME: don't let the suggestion vanish into Telegram scroll). For v1 (dispatched-signals-only) this is the BOARD signal file, which carries the prompt in its `## 🔬 Deep-research prompt (candidate)` body section. *Why `prompt_ref` not an inline `prompt` column: a TSV can't safely hold a multi-line prompt (embedded newlines/tabs break row/column parsing). Embedding in the immutable BOARD body + referencing it is TSV-safe and persistent. If standalone flags arrive later (v2, see §8.3), they'd write a dedicated prompt file and point `prompt_ref` at it.*
 - `deadline` — ISO date or named event by which the research is decision-useful (e.g. `2026-06-24 / next EIA WPSR`), or `open` if not time-sensitive
 - `disposition` — `PENDING` / `RAN` / `SKIPPED` / `DEFERRED` (Will's action; WALTER backfills at next boot — §8.2)
 - `outcome` — `PENDING` / `CHANGED-POSITION` / `CHANGED-THESIS` / `EXPANDED-COVERAGE` / `CONFIRMED-NO-CHANGE` (filled retro)
+- `executor` — who ran it (`DEWEY` by default since 2026-06-20; `WILL` for pre-revival rows)
+- **`impact` — FREE TEXT (WALTER's schema call; PROME's stated preference, and it matches the low-friction spirit of the ask). One line capturing what the consuming agent actually DID with the report: gate armed / gate killed / not-fired / calibrated / no-op-yet / thesis re-weighted. Added 2026-07-24.**
+  - **Who writes it:** the **domain agent that consumes the report** writes it themselves when the report is load-bearing for a state change (fastest path — closest to the actual consumption event). **PROME picks up the misses at its closeout**, reviewing that session's consumed DEWEY reports. WALTER owns the ledger but is NOT the impact-capture bottleneck.
+  - **Why it exists:** DEWEY delivered 3 reports on 2026-07-24 with **zero structured path for their impact to return.** Even at a low hit-rate this gives DEWEY the "what kinds of prompts actually pay off" signal to self-tune its slate. This is a column addition, **not** a new mechanism and **not** a DEWEY-run readback loop.
+  - **Honest limit:** rows with no ledger entry (Will-directed carve-outs, agent-originated slates like CARL's) never reach this ledger at all, so `impact` measures the flagged-prompt lane only — not DEWEY's total output.
 
 This is the piece WALTER's first-pass design was missing: "tag the BOARD signal" isn't queryable. The ledger makes the 1-2/week target empirical and closes the proposal loop (root Critical Rule #10).
 
@@ -144,8 +151,22 @@ The skill asks clarifying questions if the prompt is underspecified, so WALTER p
 Scope: <in / out of bounds>.
 Timeframe: <period>. Region/entities: <...>.
 This informs: <the decision it feeds>.
+kill_condition: <moot if X has already happened / after date Y; re-verify Z at intake>.
 Prioritize primary sources; flag where evidence is thin or contested.
 ```
+
+#### `kill_condition:` — REQUIRED on every new prompt (added 2026-07-24)
+
+**The failure mode it closes:** a prompt whose entire timing rationale has rotted still *runs* — silently, at full cost, producing an answer to a question that no longer decides anything. **PROMPT-15 (fha-va-loss-waterfall, run 7/24)** had its `deliver_by` pass **10 days prior** with the gating catalyst already fired; **DEWEY caught it by discipline, not by mechanism.** Prior instance: **prompt 12 (7/16)** was parked because 2 of its 3 decision-feeds resolved before the run. Two instances = the bar for a structural template change.
+
+- **Field name:** `kill_condition:` (chosen over `moot_if:` — it names an *operational* condition the runner acts on, not just a logical caveat).
+- **Required** for new prompts; **optional** on revisions to existing ones (backward-compatible — no retro-fill of the processed prompt corpus).
+- **Content — freeform, any combination of:** (a) an **event-based** kill trigger ("moot if the FOMC has already cut"), (b) a **date-based** expiry ("moot after 2026-08-15"), (c) a **re-verify-at-intake** instruction ("confirm the Q2 print hasn't landed before running").
+- **Runner-side enforcement is DEWEY's, self-enforced:** DEWEY's `/deep-research` intake discipline reads the field and **refuses to run if the kill_condition is satisfied at intake**, returning the prompt with the reason instead of a report. **No new WALTER-side machinery** — WALTER authors the field, DEWEY honors it.
+- **Authoring note:** a kill_condition that can only be evaluated by doing the research is not a kill_condition. It must be checkable in seconds at intake (a date, a calendar event, a published print).
+- **Cost:** ~one line per prompt. It converts a silent-failure mode into a loud one at ~zero authoring cost — which is the whole argument.
+
+*Provenance: DEWEY process-v2 memo `AGENTS/DEWEY/outbox/2026-07-24_to-PROME_research-process-improvements-v2.md` item 2 → PROME endorsed + granted implementation authority (`AGENTS/WALTER/inbox/2026-07-24_from-PROME_dewey-process-v2-template-changes-kill-condition-and-impact-readback.md`); Will-endorsed in-session 7/24. Template edits are WALTER's call within the existing prompt-flow architecture — no Will gate.*
 
 Worked example (the FL bankruptcy case):
 

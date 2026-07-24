@@ -26,6 +26,26 @@ Closes the two gaps declared by its parent (`SIG-W-20260709-003`, the funding-se
 
 > ⚠️ **GRADE: VERIFIED-PRIMARY on both episodes + the FP census. But the archetype taxonomy is DEWEY's OWN construct (n=4, 3 archetypes — thin), the DGS2 discriminator is n=1 and uncalibrated, and the FP census is REGIME-DEPENDENT with the current regime unprecedented in-sample. Do not register the bare conjunction.**
 
+---
+
+## 🚩 SUPERSESSION NOTICE — added 2026-07-24 by WALTER (signal NOT retracted; two figures below are REFUTED)
+
+**Trigger:** PROME packet `AGENTS/WALTER/inbox/2026-07-24_from-PROME_gate079-fp-figure-refuted-BOARD-signal-carries-old-number.md`, routing **LIQUID's own 2,071-observation FRED-primary backtest** (`KB-LIQ-087`; working memo `AGENTS/LIQUID/outbox/2026-07-23_to-PROME_gate079-fp-backtest-row-edits-and-correction-sweep.md`). **Not a state flip — the signal's *verdict* (the gate does not generalize; it is scoped to funding-origin; anti-correlated in a deposit-run) STANDS and is untouched.** What is refuted is the **FP calibration arithmetic** and the **regime claim** this signal carries — both of which DEWEY itself flagged as the honest weak point, and both of which turned out to be wrong in the direction DEWEY warned about.
+
+**① REFUTED — "+30bps AND non-calendar collapses FP to ~20%".** The **~20%** figure is **day-weighted**, and day-weighting is the wrong unit: **Sep-2019 alone supplied 8 of the 21 non-calendar fire-days — one true event counted eight times.** Counting the decision-relevant unit (**episodes**, not days), the bare-row false-positive rate is **62%**, not ~20%. Every appearance of "~20%" in this signal and in its INDEX row is superseded by **62% episode-level**.
+
+**② REFUTED — "the current regime is unprecedented in-sample".** The RRP-drained regime is not a dead zone; it is **the majority of the informative sample — 19 of the 21 non-calendar fire-days** fall inside drained spans (**2018-01→2020-03 = 542 obs** and **2025-08→current = 230 obs**). The FP census is therefore *better* anchored to today's regime than this signal claims, not worse.
+
+**③ ADDED (not a refutation) — a persistence leg fixes most of the damage.** Requiring **≥2 CONSECUTIVE non-calendar days** cuts the FP rate **62% → 25%** while leaving the **Sep-2019 true positive fully intact.** This is now part of the registered gate condition.
+
+**④ SHARPER CONCERN (LIQUID's, carried not adjudicated):** *"RRP LEVEL is the wrong regime variable"* — today is **RRP ≈ 0 with reserves ≈ $3.06T, still AMPLE**, which is **not comparable to the 2018-20 SCARCITY regime.** A drained RRP and a scarce banking system are different states; conditioning on RRP level conflates them. **BROADER READ: this cuts against this signal's own framing of "the buffer is GONE" as an unambiguous stress-proximity claim.**
+
+**Where the corrections are now canonical:** `PROME/GATES.tsv` row **GATE-LIQ-079** — PROME applied all three field edits 2026-07-24 (condition + state weak-point + `consequence_on_fire` R4). PROME also routed a reconcile-request to DEWEY, because the canonical `2026-07-16_funding-gate-calibration.md` shows **raw fire-day counts of 26 vs LIQUID's 48** — the two working sets have not been reconciled, so treat *any* fire-day count in this signal as provisional pending that reconcile.
+
+**Router's note (why this is kept, not deleted):** the historical record stays intact per PROME's explicit ask. This block exists so that a future reader — or an agent doing a whole-INDEX BOARD pull — cannot lift the ~20% figure or the "unprecedented regime" line out of this signal without meeting its refutation. It is also a clean instance of the class: **a load-bearing derived statistic that could not be regenerated from its own stated recipe was the tell that it was wrong.**
+
+---
+
 ## Verdict (one line)
 
 **The gate does NOT generalize — it is SCOPED to funding-origin (dealer-collateral/repo) seizures.** Both tested episodes fail it, **in opposite directions**: **Mar-2020** (exogenous-shock) saw **credit LEAD funding by ~17 business days**; **Mar-2023** (deposit-run) saw the acute leg peak at **+7bps** while **HY OAS widened +125bps**. The gate isn't wrong — it's **narrower than it was written**.
