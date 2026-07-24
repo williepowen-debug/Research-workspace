@@ -129,6 +129,11 @@ DEFAULT_STATUS = CARL_DIR / "STATUS.md"
 DEFAULT_THESIS = CARL_DIR / "thesis" / "THESIS.md"
 
 PRED_ID_RE = re.compile(r"^CRL-\d+$")
+# Tolerant form for MIRROR tables: the STATUS ID cell sometimes carries an
+# annotation ("**CRL-27** *(NEW 7/24)*").  Matching strictly there makes the row
+# read as UNMIRRORED, which is a confusing false positive — the row is present,
+# just decorated.  The canonical TSV stays strict.
+PRED_ID_LEAD_RE = re.compile(r"^(CRL-\d+)\b")
 PCT_RE = re.compile(r"(\d+)\s*%")
 
 
@@ -263,9 +268,10 @@ def parse_status(path):
         cells = _split_md_row(line)
         if not cells:
             continue
-        pid = strip_markdown(cells[0])
-        if not PRED_ID_RE.match(pid):
+        m_pid = PRED_ID_LEAD_RE.match(strip_markdown(cells[0]))
+        if not m_pid:
             continue  # skips header ("ID") + separator ("----") rows
+        pid = m_pid.group(1)
         if subsection == "open":
             raw_conf = cells[2] if len(cells) > 2 else ""
             raw_tf = cells[3] if len(cells) > 3 else ""

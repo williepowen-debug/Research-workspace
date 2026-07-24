@@ -8,6 +8,37 @@ Tracks all changes to THESIS.md and PREDICTIONS.tsv. Reverse chronological. Each
 
 ---
 
+## 2026-07-24 (FOURTH PASS, Will-directed) — **CRL-27 REGISTERED** (equity leads credit) + **CARL consumer-book design v0.1 proposed**. No score change; 51/70 holds
+
+### CRL-27 — new prediction, 55%, resolves Q1-2027
+**EQUITY LEADS CREDIT:** the consumer-discretionary equity weakness is a *leading* indicator of consumer-credit deterioration, not a de-rating driven by something else.
+**Confirms** by Q1-2027 if CC 90+ breaches 13.74% **OR** ≥2 of {ALLY, COF, SYF} accelerate ≥+25bps QoQ for 2 consecutive quarters.
+**Fails** if credit stays clean while the equity weakness persists — the equities were pricing something else and the lead reading is **dead, not early**.
+**VOID** if the equity weakness reverses first (no information about leading — explicitly *not* claimable as a win).
+
+**Registered rather than adopted as a framing, and the reason matters:** Will observed that consumer stocks may break first. As a *framing* that would rescue CARL from every credit miss — the exact move refused on the morning of the same day, when CRL-24 was graded a clean MISS on a 0-of-4 cycle. **A claim that would excuse the thesis has to be dated and falsifiable or it is not a claim.**
+
+**Pinned baseline** (1y to 7/24 vs SPX +14.7%): XLY −20.3pp · COF −25.5pp · SYF −19.2pp · AXP −16.3pp · CRMT −107.9pp — **while credit printed clean** (CC 90+ 13.1%, COF NCO −39bps *with a $662M release*, SYF under ceiling, ALLY −40bps, AXP flat, retail control +0.5% 6th gain). That divergence *is* the prediction.
+
+**Theoretical coherence, previously undrawn:** the masking framework asserts issuer credit is survivor-biased and LAGS. If true, equity — forward-discounting on the same cohort — should LEAD credit by roughly the masking lag. **CARL had never derived that from its own thesis.**
+
+**⚠️ Pre-registered complication so it cannot be quietly dropped:** a 21-name breadth test (mega-cap-uncontaminated) confirms the weakness is real and mostly **absolute**, not an AI-rotation artifact — **but the cross-section does NOT sort on the K-shape axis.** Auto aftermarket, the classic *defensive* trade-down winner, is down hardest (**AZO −44pp, ORLY −30pp, AAP −23pp**) while premium/aspirational is UP (**YETI +28.6pp, WSM +5.8pp**). CARL's own STATUS carries AZO domestic SSS +4.1% as a defensive counter-channel; the tape says the opposite. **So it may be a broad consumer de-rating rather than cohort stress — which is exactly what leg (b) failing would establish.** KB-CARL-360.
+
+**Monotonicity, deliberate:** CRL-27's credit leg (≥2 of 3) is strictly weaker than CRL-20 (≥3 of 4, same date, 45%), so ≥45% is required; 55% set accordingly.
+
+### CARL consumer book — design v0.1 PROPOSED (`thesis/CARL_BOOK_DESIGN.md`)
+**Nothing live; approval gates every element.** Scoped to consumer equities where CARL owns the evidence — explicitly **NOT** regional banks. Contains: the evidence *and* the complication that cuts against it (§2b); scope in/out; the **SYF/COF/ALLY split needing REGINALD's agreement**; a four-condition entry gate (registered prediction + declared instrument + reachable + TERRY constructs + Will approves); bias controls including a **tripwire** (holding a position + adverse data + no confidence move = reportable event); and **Phase 1 as a paper sleeve in TERRY's existing `PAPER_BOOK_DESIGN.md`**, with graduation criteria that require CARL to explain the AZO/ORLY anomaly before capital.
+
+**Recorded honestly in the doc:** CARL argued *against* a book earlier the same day and reversed on evidence. The reversal is in §2, not buried — if the evidence is wrong, so is the design.
+
+### Tooling — two live defects in the day-old checks, both fixed not tolerated
+1. **Check E's `(source, series)` string-match gap is not theoretical.** CRL-27 vs CRL-20 is exactly the pair E exists for, and E **did not group them** because the source strings differ on constituent list (3 names vs 4). Set-valued thresholds are outside its reach; handled manually and recorded.
+2. **Mirror-parser false positive:** writing the STATUS ID cell as `| **CRL-27** *(NEW 7/24)* |` made the row read as UNMIRRORED. **Fixed** with a tolerant leading-ID match for mirror tables only (canonical TSV stays strict); regression-tested.
+
+Second and third instances in one session of a checker's own usability defect producing a misleading result (after B5 flagging legitimate history). Same principle applied each time: **a checker that produces false positives gets ignored, and an ignored checker is worse than none.**
+
+---
+
 ## 2026-07-24 (THIRD PASS, Will-approved) — **THESIS v2.6.3: V2 downgrade trigger RE-SPECCED seasonality-matched.** No score change; 51/70 holds
 
 ### The change

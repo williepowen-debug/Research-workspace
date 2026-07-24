@@ -261,3 +261,15 @@ cost/value grounds, recorded here so the decision isn't silently revisited:
   fiddly and fragile — a flaky check on a low-value surface is a net negative.
 
 **Revisit if CALENDAR drift ever actually bites.**
+
+---
+
+## Two live instances found within an hour of shipping (2026-07-24)
+
+**1. The `(source, series)` string-match gap is NOT theoretical.** Registering **CRL-27** produced exactly the pair Check E exists for — its credit leg (`>=2 of {ALLY,COF,SYF}`) is **strictly weaker** than CRL-20 (`>=3 of {ALLY,COF,SYF,RITM}`, same date), so P(CRL-27) must be >= P(CRL-20)=45%. **Check E did not group them**, because the source strings differ on the constituent list (3 names vs 4).
+
+Arguably correct — they *are* different measures — but the monotonicity relation is real (if 3 of those 4 accelerate, at least 2 of the 3 must), and the tool cannot see it. **Set-valued thresholds are outside Check E's reach.** Handled by recording the reasoning in CRL-27's Notes and setting 55% manually. Enhancing E for subset relations is possible but was judged over-engineering for a single pair.
+
+**2. A false-positive trap in the mirror parser, found and fixed.** Writing the STATUS mirror row as `| **CRL-27** *(NEW 7/24)* |` made the row read as **UNMIRRORED** — the ID cell was matched strictly (`^CRL-\d+$`) and the annotation broke it. The row was present, just decorated. **Fixed with a tolerant leading-ID match for MIRROR tables only** (`^(CRL-\d+)\b`); the canonical TSV stays strict. Regression-tested: an annotated ID cell now parses.
+
+This is the second time in one session that a checker's own usability defect produced a misleading result (the first was B5 flagging legitimate history). **Both were fixed rather than tolerated, on the same principle: a checker that produces false positives gets ignored, and an ignored checker is worse than none.**
