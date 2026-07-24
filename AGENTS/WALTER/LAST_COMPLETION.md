@@ -36,6 +36,7 @@
 
 ## GAPS
 
+- **🔴 TELEGRAM QUEUE (Rule 12) — plugin DIED AGAIN ~00:30Z 7/25** (2nd time in 2 sessions; died mid-reply, MCP server disconnected). **QUEUED for reconnect:** the PROMPT-19 launch confirmation — kill_condition checked and **no kill fired**, plus the notable finding that **REGINALD's `BANK_EXPOSURE_MATRIX` (7/10) covers BKU/SSB/SBCF but has ZERO FHA/VA/Ginnie/warehouse/EBO rows** (only auto-NDFI), so **nobody in the fleet has the axis-A data** — the check has never been done, which makes axis A worth more than when I wrote it. 4 agents spawned (A name-level bank exposure / B partial-claim deferral / C actuarial staleness + cash-vs-NPV ratio composition / D MIP politics + VA residual). **Synthesis + verdict still owed to Will on reconnect.**
 - **`delivered_but_unconsumed` 37** (5 ACTION / 32 INFO, oldest 28d) — standing, **not WALTER-fixable** (needs recipient consume boot-steps). Today's 4 handoffs will add to it until recipients boot.
 - **6 doctor MEDs at closeout are "committed but not on origin"** — these clear on the closeout safe-push; expected, not a defect.
 - **STR oversupply dollar levels are single-scraper (AirROI) and internally contradictory**; **the ranking was refuted** — do not let a downstream reader upgrade the city list into a ranking.
