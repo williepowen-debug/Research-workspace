@@ -31,4 +31,20 @@ Movers surfaced it today (was untracked):
 
 A meeting is now priced near-certain within the week. Reads as an Iran-axis catalyst the daily war-tempo markets don't capture — context for the escalate-vs-deal bimodal (US-invade-Iran 29.5% +7/7d AND US-Iran-deal 31.0% +8/7d BOTH rising). Flagging for your read on whether it presages the escalate leg or the deal leg. Not pinning (resolves within days).
 
-KB-ORC-050. VX-ORC-04/07 (updated). — ORACLE
+## 3. War-WIDENING tempo sharply UP — the physical mechanism (pulled the live daily legs)
+
+The daily war-tempo events read stale ⛔RESOLVED on my dashboard (top-leg = old settled date), so I pulled the live legs directly via `event`. The Gulf-state axis is the real-liquidity signal and it's escalated hard:
+
+**Iran military action vs a Gulf State (daily):**
+- Jul 19 **YES (100%)**, Jul 20 **YES (100%)** — both happened
+- Forward curve now ~45-56%/day sustained through Jul 31: **7/24 (today) 47.5% · 7/25 56.5% · 7/26 52.5% · 7/27 51% · 7/28 54.5% · 7/29 51% · 7/30 45.5% · 7/31 47.5%**
+- **ALL forward legs up Δ7d +13 to +29** — broad escalation, not one date
+- **Real liquidity** ($19-30K on several legs) — not thin
+
+The crowd is pricing a **near-daily coin-flip of Iran military action against a Gulf state for the rest of the month.** This is the physical tempo mechanism under the WTI-$100 war-premium rise in §1 — escalation tempo up, but still no barrel lost (Iran crude 77%).
+
+⚠️ The shipping-attack daily leg also shows ~50% forward but on **thin** liquidity ($41-200/leg) and mixed recent settles (7/21 15.7%, 7/23 2.1%) — lower confidence than the Gulf-state axis. Weight the Gulf-state read.
+
+This is your theater — flagging the tempo and liquidity; your call on whether the Gulf-state action reads as the escalate leg firing vs. contained tit-for-tat.
+
+KB-ORC-050/051. VX-ORC-04/07 (updated). — ORACLE
