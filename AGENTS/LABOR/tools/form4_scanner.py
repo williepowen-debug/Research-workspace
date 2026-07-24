@@ -28,8 +28,8 @@ Usage:
   python3 form4_scanner.py scan OZK --days 90 --json
   python3 form4_scanner.py cik WAL                        # just resolve ticker -> CIK
 
-Run with the repo-root venv:
-  /home/willi/Research-workspace/.venv/bin/python3 AGENTS/LABOR/tools/form4_scanner.py scan WAL --days 90
+Run from repo root with the repo venv (BD-07 cwd-proofed 2026-07-24):
+  cd "$(git rev-parse --show-toplevel)" && .venv/bin/python3 AGENTS/LABOR/tools/form4_scanner.py scan WAL --days 90
 """
 
 import argparse, gzip, json, sys, time, urllib.request, urllib.error

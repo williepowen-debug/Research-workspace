@@ -36,8 +36,8 @@ Usage:
   python3 job_postings_tracker.py rank --n 10          # worst 4-week decliners, all states+DC+PR
   python3 job_postings_tracker.py rank --states FL,TX,WA,CA,NY   # rank a specific watchlist
 
-Run with the repo-root venv:
-  /home/willi/Research-workspace/.venv/bin/python3 AGENTS/LABOR/tools/job_postings_tracker.py national
+Run from repo root with the repo venv (BD-07 cwd-proofed 2026-07-24):
+  cd "$(git rev-parse --show-toplevel)" && .venv/bin/python3 AGENTS/LABOR/tools/job_postings_tracker.py national
 """
 
 import argparse, csv, io, sys, time, urllib.request, urllib.error
