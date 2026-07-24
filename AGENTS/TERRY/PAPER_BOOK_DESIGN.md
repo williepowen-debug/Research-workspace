@@ -17,7 +17,7 @@ A **fixed/salaried** bankroll (not unlimited paper money) is the key. Infinite p
 ### The 3 open questions — answered
 | Open Q | Resolution | Why |
 |---|---|---|
-| Bankroll size / salary cadence | **N/A for Phase 1** — the shadow book needs no bankroll; it tracks would-fire cards to close. Bankroll is a Phase-2 concern. **Phase-2 gate now quantitatively pinned (2026-07-24, Will-approved) — see §Phase 2 / Sharpening 4; no live salary set until volume nears the gate.** | Phase 1 measures card quality, not prioritization — no capital constraint needed yet. |
+| Bankroll size / salary cadence | **N/A for Phase 1** — the shadow book needs no bankroll; it tracks would-fire cards to close. Bankroll is a Phase-2 concern. **Phase-2 gate pinned + salary SET 2026-07-24 (Will): gate = trailing-90d would-fire ≥6 cards; tranche = $1,500/mo paper (see §Phase 2). Desk activates when the gate trips.** | Phase 1 measures card quality, not prioritization — no capital constraint needed yet. |
 | Shadow-only vs straight to salaried | **Shadow-only (Phase 1).** Salaried desk deferred behind a quantitative volume gate. | The prioritization test can't bind at ~2-3 cards/month (Sharpening 4). |
 | Auto-fill on trigger vs approved-only | **Auto-fill on trigger — regardless of Will's approval.** | The *only* version that generates a record: the whole problem is 0 approvals. Approved-only would inherit the same near-zero volume. Labeled "card-quality record, not a P&L Will endorsed." |
 
@@ -100,7 +100,7 @@ Notional bankroll (monthly salary tranche), prioritization, running equity curve
 
 **Pinned gate (2026-07-24, Will-approved):**
 - **Volume trigger:** trailing-90-day would-fire count **≥ 6 cards** (from `PAPER_BOOK.tsv` `opened`). Below it, prioritization can't bind; at/above it, choosing which cards get tranche capital is a real test. `paper_book_mark.py` prints `would-fire (90d): N/6` each boot.
-- **Placeholder salary tranche: ~$1,500/month notional** (= 3 cards at the $500/card cap) — **deliberately set BELOW the would-fire $-demand at the gate so prioritization actually binds.** *(The old "$10k" example was too loose: at $500/card it funds 20 cards/month and would never bind at any realistic desk volume.)* **Placeholder only — Will confirms the exact figure when volume nears the gate** (that's the "defer live salary" half of the 7/24 decision).
+- **Salary tranche: $1,500/month notional — SET by Will 2026-07-24** (= 3 cards at the $500/card cap). Binds once would-fire runs **≥4 cards/month** — modestly above the 6-card/90d gate, so a normal month can fund two independent setups while a busy month still forces a rejection. *(For contrast: the rejected "$10k" example funds 20 cards/month and never binds; a $1,000 tranche would bind exactly at the gate. Will chose $1,500 for the extra headroom.)* Still **paper** — no real capital; the desk activates only when the volume gate trips (currently 2/6).
 - **Cadence:** monthly tranche, top-up on the 1st; unspent capital does NOT roll (a salary is use-it-or-lose-it opportunity cost, which is the whole point of the test).
 
 ## Standing guardrails
