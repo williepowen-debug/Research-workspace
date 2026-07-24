@@ -11,6 +11,27 @@ Reverse-chronological log of **structural** changes to RED's docs, folders, sche
 
 ---
 
+## 2026-07-24 (S25, evening) — FOMC framework versioned to v1.1; docket re-anchored ±2 months; KB.tsv stray blank line removed
+
+**Trigger:** CARL inbox packet falsifying a load-bearing premise in `research/FOMC_FRAMEWORK_JUL28-29_2026.md` (shipped ~6h earlier in S24) + LABOR packet correcting a docket date + adding a fleet-unowned FOMC leg.
+
+**What changed (structural only — analytical content in `thesis/CHANGELOG.md` 2026-07-24 S25):**
+
+| File | Change | Boot-impact |
+|---|---|---|
+| `research/FOMC_FRAMEWORK_JUL28-29_2026.md` | **Versioned v1.0 → v1.1.** Added §0 (correction + evidence table), §0b (CHG-028 three-rung re-spec), §L (oil-language sub-axis), §LAB (labor-language sub-axis), Guards 6-7. **Corrections are struck-and-marked in place, not silently rewritten** — v1.0's priors remain readable so the amendment can be graded separately. | None (research/, not boot-read). Execute on 7/28-29. |
+| `docket/CATALYSTS.tsv` | KFRC row re-dated **8/04 → 7/27**; July-CPI row re-specced to a pre-registered non-event (priority 🔴→🟠); **5 rows added** — Aug CPI ~9/10, Sept CPI ~10/13, Oct CPI ~11/10, ECI 7/31, Sept FOMC ~9/15. | boot.py catalyst countdown now surfaces KFRC at T-3 instead of missing it; ≤14d window gains ECI. |
+| `STATUS.md` | CHG-028 row rewritten; priorities 1/6 rewritten, 7-8 added; scorecard 2→3 ACTIVE; missing-data gains a date-verification block. | Still <200 lines. |
+| `workbook/` | ML-RED-110…115 (6); KB-RED-070…076 (7); PREDICTIONS RED-21; CHALLENGES CHG-028 row updated in place (Status → `LIVE-RE-ANCHORED`). | — |
+| `workbook/KB.tsv` | **Hygiene: removed a stray mid-file blank line (old line 55, between KB-054 and KB-055).** Pre-existing and committed — confirmed via `git show HEAD:` before touching, so it was not introduced this session. A 0-field row breaks naive TSV parsers. | Removes a silent-fail risk in any future KB reader. |
+| `board_log.tsv` | 5 dispositions logged; 5 packets `git mv`'d to `inbox/processed/`. | Inbox empty again. |
+
+**⚠️ Follow-up owed before the re-anchor counts as pre-registered:** the new Aug/Sept/Oct CPI rows and the Sept FOMC row carry **`[DATE EST — verify]`**. CHG-028's resolution now *depends* on the Sept/Oct CPI dates, so they must be checked against the published BLS schedule at next boot. This is the exact failure mode of ML-RED-064 (MI3 pre-registered against an assumed FFIEC bulk window that never printed) — flagged here so it can't be forgotten in the analytical layer.
+
+**Not changed:** no hypothesis weights, no confidence, no VX vectors (checked — none of this session's data touches a vector's `Flip_If`). `CLAUDE.md` unchanged (no new boot step; the framework was already a `research/` artifact).
+
+---
+
 ## 2026-07-24 — NEXUS_BRIEF refresh hardened into W8 (was un-listed in the write-back sequence; sat one session stale)
 
 **Trigger:** Will asked at S24 close whether RED's `NEXUS_BRIEF.md` had been updated today — it hadn't (stamped 7/17/S23), despite its own footer promising per-closeout freshness. Root cause: the brief was stood up 7/6 (PROME/NEXUS ask, `inbox/processed/2026-07-06_from-PROME_via-NEXUS_write-nexus-brief.md`) but was never added to the SPAWN PROTOCOL's W1-W10 write-back list, so the S24 closeout — which ran every listed W-step — skipped it cleanly. A checklist can only protect what's on it.
