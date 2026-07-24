@@ -71,12 +71,17 @@ One window · one benchmark · back-of-envelope look-back, **not a backtest** ·
 ### OUT — other agents' domains, non-negotiable
 **KRE / WAL / OZK / ZION / regional banks → REGINALD** · **rates / vol / TLT / SPX → HENRY, BOND, VIOLET** · **USO / energy → BRENT** · **metals → MIDAS** · **Japan/FX → SAM**
 
-### CONTESTED — needs an explicit split with REGINALD before anything opens
-**SYF, COF, ALLY.** CARL's `CLAUDE.md` currently assigns *"ALLY/COF underwriting standards"* to REGINALD. Proposed split:
+### CONTESTED — routed to REGINALD 2026-07-24; **the conflict appears to be one-sided and in CARL's own file**
+**SYF, COF, ALLY.** ⚠️ **Corrected on routing:** I labelled these "contested" on the strength of my own doc without reading REGINALD's. **REGINALD's `CLAUDE.md` DOMAIN SCOPE says verbatim: *"You do NOT own: … Consumer credit → CARL (but delinquencies flow to your NCO estimates)"* — and SYF/COF/ALLY appear ZERO times in it** (their named universe is OZK ×17, WAL ×11, KRE ×5, ZION, EGBN, HBAN, CFG). **The only text assigning these to REGINALD is a parenthetical in CARL's own `CLAUDE.md`** (*"ALLY/COF underwriting standards"*). I asserted a boundary dispute against a file I hadn't checked.
+
+**Also corrected: a ticker split was the wrong frame.** All three are *both* bank holding companies *and* consumer lenders, so ticker-level ownership forces a false choice. REGINALD's own wording implies the right cut — "delinquencies flow to your NCO estimates" means REGINALD **consumes** CARL's consumer read as an input to a bank-level output. **The split is by SURFACE:**
 
 - **CARL takes the consumer-cohort EQUITY read** — multiple, cohort composition, spend/burden.
 - **REGINALD keeps bank-credit and underwriting** — provisions, ACL, capital, and any credit-instrument expression.
+- **Equity expression on these three → CARL**, on the consumer-cohort thesis. **Credit-instrument expression → REGINALD.**
 - **Neither opens a position in these three without notifying the other in-session.** If REGINALD objects, the name is OUT until Will adjudicates.
+- ⚠️ **ALLY is the genuinely dual-surface name and CARL defers hardest there** — REGINALD's STATUS tracks it inside the bank-print week (7/21 WAL+OZK+ALLY), so they have live coverage regardless of the CLAUDE.md text. **If REGINALD wants ALLY out, it's out.**
+- **Routed 2026-07-24** → `AGENTS/REGINALD/inbox/2026-07-24_from-CARL_syf-cof-ally-boundary-i-may-have-invented-this-conflict.md`. Three-way ruling requested (agree / agree-except-ALLY / disagree); silence past REGINALD's next session reads as agree, per the reply-only-if convention. **Until ruled, the names stay BLOCKED in the sleeve.**
 
 ---
 
@@ -137,7 +142,7 @@ The strongest objection to a CARL book is **not** instrument overlap. It is that
 
 ## 8. Open questions for Will
 1. ~~**Approve the paper sleeve?**~~ ✅ **APPROVED 2026-07-24, LIVE.** 5 legs open, all `pred_id=CRL-27`.
-2. **The SYF/COF/ALLY split with REGINALD** — accept §3's proposal, or keep all three with REGINALD?
+2. ~~**The SYF/COF/ALLY split with REGINALD**~~ — **ROUTED to REGINALD 2026-07-24.** Only escalates to Will if CARL and REGINALD can't land it between them. Note the finding: the conflict was one-sided and in CARL's file; REGINALD's own scope already routes consumer credit to CARL.
 3. **Should the Brier audit be a prerequisite** to Phase 1, or run in parallel?
 4. **Does the bias tripwire go in `consistency_check.py`** as a mechanical Phase 5 check, or stay a discipline note?
 
