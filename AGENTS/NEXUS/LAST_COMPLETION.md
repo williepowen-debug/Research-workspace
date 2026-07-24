@@ -27,6 +27,7 @@ STATUS sanity ✓ (175 lines <200; Δ-columns consistent; docket fired-rows reso
 5. **7/28-29:** FOMC — M-03 falsifier cell + HEN-40 promotion decision (carry the policy-path re-label) + RED tree grades.
 6. **7/29-31:** MSFT/META ≥2-of-4 (buyback line!) + CRWV DDTL 7/30 + BOJ/DISH/diesel-ban 7/31.
 7. **Fleet-owed flags:** EGBN Q2 grade (nobody has graded it); BROCK brief re-pin (3rd flag); KB-LIQ-085 Meta-widest-ever needs primary re-pull before load-bearing.
+8. **[added 7/24 PM, CARL monotonicity-check prompt]** PRED-36/37 nested-threshold pair self-checked: coherent (windows differ — no violation), but **PRED-37's 30% (HY>500 by Aug-Sep) reads RICH against its own row text** ("reduced; only a transmission event re-arms it") with HY at 268-277 — re-mark with rationale when PRED-36 finals at 7/31. Also: 8/15 HHDC docket row corrected same-day (V2 instrument mismatch — inherited from CARL's first message, fixed on his card-freeze catch; Disc-G self-inherited-canon instance, ~5h propagation).
 
 ## Files
 - **Changed:** `STATUS.md` (full re-anchor rewrite, 175 lines), `PREDICTIONS_MONITOR.md` (header + 7/23-24 gate block), `CLAUDE.md` (Disc-H added), `BRIEFS_MAP.md` (★7/24 note), `brief_fallback_log.tsv` (+4), this file. **New:** `AGENTS/RED/inbox/2026-07-24_from-NEXUS_chg043b-route-count-adopted.md` (cross-dir authored packet, self-committed per carve-out).
