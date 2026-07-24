@@ -3,6 +3,7 @@
     "fred:UMCSENT:red": "2026-07-02T23:30:01Z",
     "fred:PSAVERT:orange": "2026-07-02T23:30:01Z",
     "fred:MORTGAGE30US:orange": "2026-07-17T01:56:58Z",
+    "fred:BAMLH0A0HYM2:orange": "2026-07-24T23:07:20Z",
     "eia:cushing_mbbl:red": "2026-07-23T22:47:38Z",
     "cftc:cftc_cot_VIX_lev_money_net_10189_orange_:orange": "2026-07-23T22:47:38Z",
     "edgar:WAL_2026_07_21_2_02_9_01_": "2026-07-23T22:47:38Z",
@@ -10,8 +11,7 @@
     "edgar:ZION_2026_07_20_2_02_9_01_": "2026-07-23T22:47:38Z",
     "edgar:VLY_2026_07_23_2_02_9_01_": "2026-07-23T22:47:38Z",
     "edgar:GOOGL_2026_07_22_2_02_9_01_": "2026-07-23T22:47:38Z",
-    "news:NEW_ALERT:data/2026-07-23/news.json": "2026-07-23T22:47:38Z",
-    "news:NEW_WATCH:data/2026-07-23/news.json": "2026-07-23T22:47:38Z"
+    "news:NEW_WATCH:data/2026-07-24/news.json": "2026-07-24T23:07:20Z"
   },
-  "updated": "2026-07-23T22:47:38Z"
+  "updated": "2026-07-24T23:07:20Z"
 }
