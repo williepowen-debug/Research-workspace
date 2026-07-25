@@ -26,7 +26,9 @@ Grouped directory views live in `AGENTS/_INDEX.md`; the canonical topology map l
 | LABOR | Employment, claims | Credit |
 | CARL | Consumer credit (housing asset-market → HOMER 7/12; CARL keeps consumer-transmission reads) | Credit |
 | **HOMER** | **Housing — pipeline, GSE+CMBS multifamily, builders, HPI, mortgage-rate surface** | **Housing → {CARL, REGINALD, HENRY}** |
-| REGINALD | Regional banks (OZK, WAL) | Credit |
+| REGINALD | Regional banks — cohort + non-spun names (ZION/CFG/EGBN/BKU/SSB/AMTB/SBCF); **no longer owns the OZK or WAL single-name books** — both promoted out | Credit |
+| **OZK** | **Bank OZK single-name specialist (RESG construction, classified-migration watch)** — promoted out of REGINALD 2026-04-24 | **Credit (→ REGINALD cohort, BROCK NDFI seam)** |
+| **WAL** | **Western Alliance single-name specialist (Office/B1-migration/MI3 idiosyncratic bear; thesis-of-record v2.3, FRAUD/litigation arc)** — promoted out of REGINALD 2026-07-25 | **Credit (→ REGINALD cohort, TERRY construction)** |
 | CORAL | Florida real estate, insurance, FL banks, migration/tourism | Credit (geo convergence) |
 | CREED | National CRE / CMBS + public REIT equity tape | Credit (CRE→bank bridge) |
 | HENRY | Market structure, econ data | Credit (velocity) |
