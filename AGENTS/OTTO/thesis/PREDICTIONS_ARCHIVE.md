@@ -9,12 +9,20 @@ Post-mortems for resolved rows in [`PREDICTIONS.tsv`](PREDICTIONS.tsv). The TSV 
 | Status | Count | Notes |
 |--------|-------|-------|
 | **CONFIRMED (substance + window)** | 4 | OTTO-01, OTTO-08, OTTO-09, OTTO-27 |
-| **CONFIRMED (substance, missed window)** | 1 | OTTO-26 — right on the PSEC dividend cut, missed the date by 2.5 months |
+| **CONFIRMED (substance, missed window/metric)** | 2 | OTTO-26 (right on the PSEC cut, date off 2.5mo); **OTTO-04** (deep-subprime substance confirmed, blended-index metric missed *and* unobtainable) |
 | **FALSIFIED outright** | 2 | **OTTO-05** (subprime BBB spread went the *opposite* way), **OTTO-28** (falsified-on-window) |
 | **OPEN** | 11 | See TSV — incl. OTTO-30 at 12% and OTTO-31 at 12%, both near-falsified |
 
-**Hit rate (substance):** **5/7 = 71%.** *(Was reported as 5/5 = 100% — that scoreboard was stale at Jun-9 and had not absorbed the two Jul-4 falsifications. Corrected 2026-07-25; the 100% figure was never right after Jul 4 and should not be cited from any prior copy.)*
-**Hit rate (substance + window):** **4/7 = 57%.**
+**Hit rate (substance):** **6/8 = 75%** — *but see the credit note below; OTTO-04 should arguably not be counted at all.* *(Was reported as 5/5 = 100% — that scoreboard was stale at Jun-9 and had not absorbed the two Jul-4 falsifications. Corrected 2026-07-25; the 100% figure was never right after Jul 4 and should not be cited from any prior copy.)*
+**Hit rate (substance + window):** **4/8 = 50%.**
+
+### ⚠ OTTO-04 credit note (2026-07-25) — read before citing the hit rate
+
+**OTTO-04 is counted above as substance-confirmed, and that is generous.** Will directed re-basing it onto the deep-subprime 10-D tranche. The *metric* re-base is right and is now OTTO's canonical measure. But the prediction was made **2026-02-23**, and on the re-based metric **EART 2022-3 was already 25.90%** (10-D filed 2026-01-28) with 2022-2 crossing days later — **the re-based claim was true-at-creation and has zero forecasting content.**
+
+Scoring it CONFIRMED would launder a likely-miss into a hit — the OTTO-30 known-unknown trap, inverted. **No calibration credit was taken.** The genuinely forward replacement is **OTTO-34** (EART 2022-3 ≥29.0% on the Dec-2026 filing, 60%, deliberately near-coin-flip).
+
+**The transferable rule: when you re-base an open prediction's metric, check whether the new metric was already satisfied at the original Made_Date. If it was, the prediction is not re-based — it is retired, and a fresh forward claim replaces it.**
 
 ### ⚠ The dominant failure mode is measure-design, not directional error
 
@@ -24,15 +32,15 @@ Counting only "was OTTO right about the world" flatters the book. Sorted by *why
 |---|---|---|
 | OTTO-26 | ✅ yes (PSEC cut) | **date specificity** |
 | OTTO-29 | ✅ yes (recovery ~3%) | **window** — $113M dispute pushes resolution past Sep 30 |
-| OTTO-04 | ✅ yes on deep-subprime (EART 26-27.6% >25%) | **metric** — resolves on a blended index anchored down by Santander; *and* the index is now unobtainable (see 2026-09-01 decision row) |
+| OTTO-04 | ✅ yes on deep-subprime (EART 26-27.6% >25%) | **metric** — resolved on a blended index anchored down by Santander *and* now unobtainable. Re-based 2026-07-25; retired rather than re-scored because the new metric was true-at-creation |
 | OTTO-30 | ❓ unknown | **instrument** — measured OTTO's own discovery latency; press-sampling missed TFIN 10mo, OBK 7mo |
 | OTTO-07 | ❓ unknown | **instrument** — nominal ledger is a stub emitting `shelf_halts=0` by default; cannot falsify a "something halts" claim |
 | OTTO-05 | ❌ **no** — spreads *tightened* | genuinely wrong. The one clean directional miss, and the most valuable row here |
 | OTTO-28 | ✅ yes (bifurcation) | **window** — Ally Q2 postdates the resolve date |
 
-**Five of seven problem rows failed on how the claim was written, not on what happened.** That is a fixable process defect, and it is more actionable than the headline hit rate. Corrective adopted 2026-07-25: **a claim must name its instrument in-row and carry a pre-registered re-check** — see `[[finding_discovery_instrument_defines_the_claim]]`. First application: **OTTO-33**.
+**Five of the seven problem rows failed on how the claim was written, not on what happened.** That is a fixable process defect, and it is more actionable than the headline hit rate. Corrective adopted 2026-07-25: **a claim must name its instrument in-row and carry a pre-registered re-check** — see `[[finding_discovery_instrument_defines_the_claim]]`. First application: **OTTO-33**.
 
-**Do not read the 71% as "OTTO is well-calibrated on direction."** OTTO-05 is the only row where the world was cleanly tested and OTTO was wrong — the rest were never given a fair test.
+**Do not read the 75% as "OTTO is well-calibrated on direction."** OTTO-05 is the only row where the world was cleanly tested and OTTO was wrong — the rest were never given a fair test.
 
 ---
 

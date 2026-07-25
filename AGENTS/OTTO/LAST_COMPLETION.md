@@ -25,7 +25,7 @@
 ## GAPS
 - ~~2018-2021 vintage thread~~ ✅ **WORKED AND RETIRED (RP-OTT-1.6, same session).** My framing was overstated: Tricolor securitized only **2** deals in 2018-2021 vs **9** in 2022-2025. The 2022-centric focus was correct. Corrected in STATUS/CHANGELOG/NEXUS_BRIEF (the last had already shipped with the bad gloss).
 - **`thesis/THESIS.md` still v1.1** — owes a v1.2 for the Secondary-conviction upgrade (MED-HIGH → HIGH on mechanism) **and the RP-OTT-1.6 diligence finding**. STATUS mirror carries both; canonical does not. **Do NOT carry the retracted 2018-2021 vintage widening into v1.2.**
-- **Fitch has produced no new data since March** — OTTO-04's key input is 4 months stale by data-month; summer re-deterioration remains unobserved. Not fixable from OTTO's sources.
+- ✅ **Fitch dependency BROKEN (Will-directed re-base, same session).** OTTO-04's canonical measure moved to the deep-subprime 10-D tranche (EART 2022-2/-3). Fitch is still unobtainable but **no longer load-bearing**. **OTTO-04 itself was RETIRED rather than re-scored** — on the new metric it was true-at-creation (made 2026-02-23; EART 2022-3 already 25.90% on the 10-D filed 2026-01-28), so re-scoring it would have laundered a likely-miss into a hit. No credit taken; forward replacement **OTTO-34** opened.
 - **Jul 20 FB vote outcome not public** (Jul 27 ballot cert) and **Jul 24 FB status conference outcome unknown** (single-source row).
 - Two executive names from the examiner report **failed corroboration and were deliberately not propagated.**
 - ✅ **Closed in the peer-suggestion pass:** PREDICTIONS_ARCHIVE scoreboard backfilled (5/5 → **5/7**, + OTTO-05/-28 post-mortems + a failure-mode table); **4** ledgers frozen (KB / CROSS_AGENT_LOG / EXTENSION_PROXY / **ABS_ISSUANCE** — the last was *inverted*, not merely stale, and its defect surfaced OTTO-07's instrument problem); RESEARCH_STATUS ACTIVE MONITORING deleted; EDGAR_8K_MONITOR repurposed as the instrument registry.
@@ -40,7 +40,7 @@
 ## FOLLOW-UP (priority queue)
 **P1 — clocked:** Sweep the **Jul 27-29 cluster** (ballot cert → FB trial opens → Castel + CVNA Q2). **Do not score OTTO-32 off a Jul 28 headline** — multiday contested trial. Pull the **TBK syndicate roster** (~$38M unnamed participants) — drives OTTO-33.
 **P2:** **Tier 2 forensic screen — run the 45-min feasibility gate first** ([`research/TIER2_FORENSIC_SCREEN_SPEC.md`](research/TIER2_FORENSIC_SCREEN_SPEC.md)); recommended fallback is the Tier 1 ABS-15G diagnostic sweep across CPS/Lendbuzz/GLS/ACA/Bridgecrest. Bump `thesis/THESIS.md` → v1.2 (**exclude the retracted 2018-2021 widening**).
-**P3:** Aug 15 pre-registered OTTO-30 re-check. **2026-09-01 OTTO-04 metric decision** (dated CATALYSTS row). August BDC Q2 10-Qs → $237M refresh → BROCK. Re-run `shelf_halt_monitor.py` monthly.
+**P3:** Aug 15 pre-registered OTTO-30 re-check. ~~2026-09-01 OTTO-04 metric decision~~ ✅ **closed early Jul 25.** Track **OTTO-34** monthly off the EART 2022-3 10-D. August BDC Q2 10-Qs → $237M refresh → BROCK. Re-run `shelf_halt_monitor.py` monthly.
 
 ---
 

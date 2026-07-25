@@ -20,6 +20,26 @@ docs/predictions moved).
 
 ---
 
+### 2026-07-25 (session 016, Will-directed) — OTTO-04 metric re-based to the deep-subprime 10-D tranche; the prediction was RETIRED rather than re-scored
+
+**Was → Is:** OTTO-04 ("2022 vintage CNL >25% by Sep 30") resolved on the **Fitch blended subprime index** — a convention Will ratified 2026-07-04 when the only known problem was composition bias. **Is:** the canonical 2022-vintage measure is now the **deep-subprime 10-D tranche** — `Cumulative net loss ratio` for **EART 2022-2 / 2022-3**, pulled directly from SEC EDGAR.
+
+**Trigger:** new information since the July ratification — the blended index is not merely biased, it is **unobtainable**. OTTO has no Fitch-direct access; the Auto Remarketing/AFN free mirror has decayed to where its newest indexed piece still covers the *January* index. Latest usable data: **March 2026**. Two consecutive WINTERKORN runs failed to verify a release.
+
+**The metric change is right, and it is not the interesting part.** The deep-subprime tranche is what the thesis actually cares about, it is primary-source, and it is retrievable on demand. Full series now on file `[CONF SEC 10-D]`: **EART 2022-3** 25.21 → 25.53 → 25.90 → 26.27 → 26.60 → 26.95 → 27.28 → **27.58%** across the Dec-2025 → Jun-2026 filings, monthly deltas **decelerating .37 → .30pp**; **EART 2022-2** 24.23 → **26.34%**, .33 → .26pp.
+
+**The interesting part: the prediction could not follow the metric.** OTTO-04 was made **2026-02-23**. On the re-based measure, **EART 2022-3 was already at 25.90%** (10-D filed 2026-01-28) and 2022-2 crossed 25% within days (25.22%, filed 2026-03-03). **The re-based claim was true-at-creation — zero forecasting content.** Scoring it CONFIRMED would have converted a likely-miss into a hit; it is the OTTO-30 known-unknown trap running in reverse.
+
+**Disposition:** OTTO-04 **RESOLVED EARLY (2026-07-25)** as **FALSIFIED-on-metric / CONFIRMED-on-substance** (the OTTO-29 convention Will ratified Jul 4), with **no calibration credit taken**. Resolving early is correct because both metrics now have determinate answers — nothing is learned by holding it to Sep 30. Forward replacement opened: **OTTO-34** — *EART 2022-3 CNL ≥29.0% on the 10-D filed December 2026*, 60%, deliberately near-coin-flip, instrument and parse-recipe named in-row.
+
+**The rule this establishes, which generalises past OTTO:** *when you re-base an open prediction's metric, test whether the new metric was already satisfied at the original Made_Date. If it was, the prediction is not re-based — it is retired, and a fresh forward claim replaces it.* Recorded in `PREDICTIONS_ARCHIVE.md` § credit note.
+
+**What is genuinely still open:** OTTO-04's substance was never in doubt after s015. What has never been tested is **where deep-subprime 2022 terminates** — a ~29-30% grind versus a ~28.5% plateau. That is what OTTO-34 measures, and the observed deceleration (.37 → .30pp/mo) is what makes it a real question.
+
+**Touches:** `thesis/PREDICTIONS.tsv` (OTTO-04 resolved + OTTO-34 created), `thesis/PREDICTIONS_ARCHIVE.md` (scoreboard 5/7 → 6/8 + credit note + the transferable rule), STATUS (§ PREDICTIONS, dashboard CNL row re-based, timeline), `docket/CATALYSTS.tsv` (2026-09-01 decision row closed ~5 weeks early).
+
+---
+
 ### 2026-07-25 (session 016, RP-OTT-1.6) — "The books looked clean" stops being an inference and becomes a documented mechanism
 
 **Was → Is:** The Invisible Exit's central claim is that a fraud lender's book *looks clean until the moment it collapses*. Until now OTTO supported that with outcome evidence — 30K missing vehicles, ~3% recovery, a Vervent mod program — i.e. **inference from how it ended**. **Is:** the mechanism is now documented at the point of control. All **eleven** Tricolor securitizations (2018-2025) carry a third-party agreed-upon-procedures report, and those procedures compare the securitization data tape **to Tricolor's own servicing and origination systems** — the systems the superseding indictment alleges were falsified. *"We compared Characteristics 8. through 12. to … the Servicing System Screen Shots"* (Deloitte). **A tape derived from a doctored source agrees with it by construction.**
