@@ -36,7 +36,7 @@
 
 ## ★ NEXT SESSION entry points
 
-**Pending Will:** BRENT tail-rider FILL final [Approve] (Will→TERRY→broker chain in-flight at closeout; TERRY producing one-line ticket at live marks; PROME will fold outcome as HEARTBEAT amendment #1 on the fresh base + record in FORGE/DOCKET/SCRATCH once outcome known) · DEWEY item 1 data-source entitlements Tier 1/2/3/none spend decision (non-urgent).
+**Pending Will:** ~~BRENT tail-rider FILL~~ → **★ RESOLVED FILLED 7/24, recorded 7/25 Sat boot** (net debit ~$300 Will-verbal; HEARTBEAT amendment #1 folded + Blocking row cleared + FORGE row + DOCKET 2026-09-18 row + TERRY/BRENT fill-outcome packets routed; exact debit/qty/account TBC at next broker export) · DEWEY item 1 data-source entitlements Tier 1/2/3/none spend decision (non-urgent).
 
 **Flagged for next-session pickup (Will-approved deferrals, non-urgent):**
 1. **HOA transcript-mine follow-up (CORAL)** — 3-of-4 pending (USCB/AMTB/SSB Q2 transcripts posting later today or Sat; VLY already done, zero mentions). Spawn CORAL when transcripts are up to complete ML-CORAL-046.
