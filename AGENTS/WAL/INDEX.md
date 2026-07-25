@@ -2,7 +2,7 @@
 **Start here on cold boot.** Standalone agent since **2026-07-25** (promoted from `AGENTS/REGINALD/WAL/`, Will-approved 7/22; review → `../DAEDALUS/builds/wal_promotion/PROMOTION_REVIEW.md`). Boot protocol → `CLAUDE.md` (auto-loads when launched from this dir).
 
 **Canonical tokens (MIRROR — sync at closeout, never originate here):**
-**Thesis v2.3** (2026-07-25, post-Q2 re-mark) · Bear-fast 10% / Bear-medium 16% / Base 40% / Bull 27% / Tail 7% · **EV $73.92** · **PT $52-74** ([Bear-fast low, EV], pinned) · **WAL-01 25% / WAL-02 50%** (formerly REG-24/25, OPEN to Q3 — WAL-02's Q2 window SPENT at 37bps) · KB **127 rows / 16 groups** (Q2 cycle INGESTED 7/25, data clock 0d) · Positions → `POSITIONS.md` (Sep-18 $67.5P + $70P core) · **Next event: Q2 10-Q ~Aug 7-10**, then FFIEC Q2 PDD ~Aug
+**Thesis v2.3** (2026-07-25, post-Q2 re-mark) · Bear-fast 10% / Bear-medium 16% / Base 40% / Bull 27% / Tail 7% · **EV $73.92** · **PT $52-74** ([Bear-fast low, EV], pinned) · **WAL-01 25% / WAL-02 50%** (formerly REG-24/25, OPEN to Q3 — WAL-02's Q2 window SPENT at 37bps) · KB **133 rows / 16 groups** (Q2 cycle + insider sweep INGESTED 7/25, data clock 0d) · Positions → `POSITIONS.md` (Sep-18 $67.5P + $70P core) · **Next event: Q2 10-Q ~Aug 7-10**, then FFIEC Q2 PDD ~Aug
 
 ---
 
@@ -44,7 +44,7 @@
 | 2 | `THESIS.md` **v2.3** + top `CHANGELOG.md` entry | Current framework + what last moved and why |
 | 3 | `MEMORY.md` | Session handoff + first-boot mandates |
 | 4 | `SCENARIOS.md` v2.3 | Ranges (⚠️ strike-by-strike sections May-vintage — rebuild owed) |
-| 5 | `workbook/KB.tsv` + `KB_INDEX.md` | 127-row evidence base, 16 groups (Q2 rows 106-127) |
+| 5 | `workbook/KB.tsv` + `KB_INDEX.md` | 133-row evidence base, 16 groups (Q2 rows 106-127; insider sweep 128-133) |
 
 ## File Map
 
@@ -97,7 +97,7 @@
 4. **Cantor residual quarterly tracking** — three-figure reconcile RESOLVED at Q2 (KB-WAL-123: $98.6M revolver / ~$70M residual / $64M protective liens = distinct bases). **Ledger tie-out still owed at the Q3 10-Q footnote.**
 5. **Lender-finance quality-of-names** (2,000 obligors) — V3 residual, unresolved since Q1. *Lower priority post-Q2: V3 re-scored 2→1, the book is contracting by management choice (KB-WAL-121).*
 6. **MI3/FFIEC PDD integration** — ~2.5mo overdue; V1a falsifier has never run. ⏱ **Now time-boxed** — if the ~Aug window passes too, a bear-fast disposition call is forced (STATUS EXIT RULES).
-7. **Form 4 post-print insider sweep** — ⬅ **NEW.** Overdue since April; V4's 3/5 score is provisional on an unverified "zero insider buying" leg. Cheap; close before Q3.
+7. ~~**Form 4 post-print insider sweep**~~ — ✅ **CLOSED 7/25.** Complete EDGAR Form 4/144 scan 3/1-7/25 → `sources/INSIDER_SCAN_WAL_2026-07-25.md`, KB-WAL-128..133. Zero buying confirmed; V4 ratified 3/5. **Converted to a standing monthly watch — and Form 144 must be pulled with Form 4** (a departing officer's liquidation is invisible to Form 4 alone).
 8. **EPS basis tie-out** — ⬅ **NEW.** The $2.36/$2.33 Q2 EPS pair is sourced only to the CHANGELOG v2.3 entry, appears in neither grade report, and its GAAP-vs-adjusted basis is unpinned (KB-WAL-115). Tie out to EX-99.1 at the Q2 10-Q pass.
 9. **WAL-02 invalidation-clause defect** — ⬅ **NEW, awaiting Will's call.** The stated invalidation ("≤35bps in BOTH Q2 and Q3") became unreachable when Q2 printed 37bps. Row otherwise fine at 50%. Not edited unilaterally — it is a graded row.
 10. ~~Synthesis-files gitignore decision~~ — RESOLVED: all `.md` synthesis tracked; ignore semantics carried to `AGENTS/WAL/` at promotion (WP-W1, 7/25).

@@ -1,5 +1,5 @@
 # WAL KB Index — Group Navigator
-**127 rows | 16 groups | Seeded 2026-03-25 | Last refresh 2026-07-25 (Q2 print cycle — rows 106-127, first WAL-owned ingest)**
+**133 rows | 16 groups | Seeded 2026-03-25 | Last refresh 2026-07-25 (Q2 print cycle rows 106-127 + Form 4/144 insider sweep rows 128-133 — first WAL-owned ingest)**
 
 ---
 
@@ -10,7 +10,7 @@
 | 1 | HIDDEN_CRE | 19 | 001-007, 090-091, 098-099, **108-114, 127** | V1 | MI3 24.2% pre-print (**never re-tested — 127**) + Office classified **$407M→$316M Q2** + $946M Office matures 2026 + CRE-NOO charge **$32.0M new 5Q high** + **$99M life-sci letter (B), appraisal pending** + **ACL/NPL 96%** + **0 new migrations (N=1 holds)** | `research/HIDDEN_CRE/`, `sources/q1_2026/Deck Synthesis` |
 | 2 | SSFA | 11 | 008-013, 092-095, **121** | V3 | Pre-print: $17.2B SSFA / $1.1B savings / $10.8B "Other OBS." Q1: NDFI cohort median (Slide 24); $7.155B warehouse (30x peer); CLN pool $8.5B→$7.9B; Lender Finance structurally protected. **Q2: warehouse/NDFI book SHRINKING by mgmt choice** | `research/SSFA/`, `sources/q1_2026/Deck Synthesis` |
 | 3 | CANTOR_FRAUD | 13 | 014-022, 081-083, **123** | V2 | Pre-print: $98M / $30M reserved vs ZION 83%. Q1: $26.1M charged (89% of $29.6M reserve). **Q2: ZERO call mentions; no new charge; three-figure reconcile RESOLVED ($98.6M revolver / ~$70M residual / $64M protective liens)** | `research/` (RQ-REG-A01), `FRAUD/` |
-| 4 | INSIDER | 7 | 023-029 | ALL | CFO swap (JPM FIG crisis banker), board risk additions, zero buying | `sources/INSIDER_SCAN_WAL.md` |
+| 4 | INSIDER | 13 | 023-029, **128-133** | ALL | CFO swap (JPM FIG crisis banker), board risk additions, zero buying. **Q2 sweep: zero buying CONFIRMED across a complete 53-filing scan · 402/408 lines are mechanical monthly cash-settled-RSU vesting (9 of 11 execs perfectly flat) · Gibbons −40,000sh/−13% and Mucha −5,946sh/−63%, neither on a 10b5-1 plan · ★ Curley post-departure Form 144 $878K with NO Form 4** | `sources/INSIDER_SCAN_WAL.md` (Feb-vintage) + **`sources/INSIDER_SCAN_WAL_2026-07-25.md`** |
 | 5 | GEOGRAPHIC | 6 | 030-035 | ALL | SF NCO highest (1.13%), pipeline lowest (0.26%), fast-transmission thesis | `sources/FDIC_QBP...` |
 | 6 | JEFFERIES | 11 | 036-040, 060, 066, 084-086, **124** | V2 | Pre-print: SMFG 20%, Convergence Day, JEF Q1 confirmed $17M FB/MFS. Q1: **LAM $126.4M charge**. **Q2: fully Q1-realized, no residual — V2 P&L arc CLOSED; forward V2 = litigation/recovery upside only** | `research/JEFFERIES/`, `FRAUD/` |
 | 7 | NEVADA_GAMING | 5 | 041-045 | — | 18-22% NV exposure, Circa $420M, consumer crossover (CARL) | `sources/RENO_WAL...` |
@@ -50,7 +50,7 @@
 | **Capital-Relief Fragility (V3)** | SSFA, CAPITAL | Aggregate NDFI at cohort median (disconfirmed at top); $7.155B warehouse = narrowed concern | **FURTHER WEAKENED (121).** The lone confirming sub-vector is shrinking by management choice |
 | **Capital Return** *(new layer, Q2)* | CAPITAL, EARNINGS | — | **$150M H2 buyback funded by a deliberate loan-guide cut (119) + NII floor raised into an assumed Sept hike (117).** The bull leg that moved Bull 21→27 |
 | **Auditor Failure (V5 Demoted)** | FRAUD_AUDITOR | Cantor charge directionally validated ZION 83% but mgmt asserted reserve "validated by appraisals" — RSM thesis demoted to tertiary | Untouched at Q2 (no auditor datum) |
-| **Insider Signal** | INSIDER | Coordinated repositioning (CFO swap, board, zero buying) | Untouched at Q2 — **Form 4 sweep post-print still owed** |
+| **Insider Signal** | INSIDER | Coordinated repositioning (CFO swap, board, zero buying) | **SWEPT 7/25 (128-133).** Zero buying CONFIRMED against a company buyback — the firm is buying, no insider is. Two discretionary sellers, both non-10b5-1, both *below* today's price ahead of a benign print (two-way, 133). **Curley's post-departure $878K Form 144 with no Form 4 (132) is the new on-thesis item — and the method finding: Form 4 alone under-covers departing officers.** V4 held 3/5, PROVISIONAL removed |
 | **Transmission Speed** | GEOGRAPHIC | SF fast-transmission pattern — Cantor/LAM proved the mechanism in print | Untouched at Q2 |
 | **Market Pricing** | MARKET_SIGNAL, ANALYST_SIGNALS | Convergence Day -10.6%, Madison "bankruptcy risk," Apr 22 -2% on Q1 print | **Q2 repriced UP on the call (125): +3.61% WAL-specific vs KRE −0.50%.** Pop-discipline held — disconfirm stack incomplete, so not invalidation |
 
@@ -88,9 +88,9 @@
 | 2026-04-30 (PASSED) | 001-003, 006-012, 014, 016, 018-020, 022, 027, 041, 046-053, 062-065 | Mostly superseded by Q1/Q2 print rows or pending Call Report |
 | 2026-06-30 (PASSED) | 005, 030-033, 037, 060, 067, 069, 070, 071 | FDIC QBP Q1 + H.8 refresh — **now also overdue; sweep with the Q3 cycle** |
 | 2026-07-31 (imminent) | 081-083, 086, 088-090, 092-093, 095-098, 100-105 | Q1-cycle rows — **superseded in substance by the Q2 ingest (106-127) where a `DerivedFrom` link exists**; the rest lapse at 7/31 with no Q2 successor and should be re-checked or retired at the Q3 pass |
-| **2026-10-31** | **106-109, 111-113, 115-123, 126-127** | **Q2-cycle rows — Q3 print / Q3 10-Q refresh** |
+| **2026-10-31** | **106-109, 111-113, 115-123, 126-128, 130-133** | **Q2-cycle + insider-sweep rows — Q3 print / Q3 10-Q refresh** |
 | 2026-12-31 | 091, 094, 099, **110** | Year-end refresh (structural CRE/Hotel/Lender Finance/Office-book structure) |
-| No expiry | 004, 017, 021, 023-026, 028-029, 034-036, 038-039, 042-045, 054-061, 066, 072-080, 084, 085, 087, **114, 124, 125** | Structural/historical facts and one-time disclosures |
+| No expiry | 004, 017, 021, 023-026, 028-029, 034-036, 038-039, 042-045, 054-061, 066, 072-080, 084, 085, 087, **114, 124, 125, 129** | Structural/historical facts and one-time disclosures (129 = the standing comp-structure mechanic) |
 
 ---
 
