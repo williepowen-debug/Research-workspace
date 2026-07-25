@@ -1,6 +1,6 @@
 # BOARD Delivery + Consumption Spec
 
-**Version:** v0.10
+**Version:** v0.11
 **Created:** 2026-04-20 (v0.1 consumption-only) · **Extended:** 2026-06-17 (v0.2 delivery layer) · **Clarified:** 2026-06-18 (v0.3–v0.5 Quick-WALTER tightening) · **Collapsed:** 2026-06-26 (v0.6 single-machine platform-collapse — OpenClaw cut)
 **Owner:** WALTER
 **Status:** **Single-machine (desktop CC) since 2026-06-26 — OpenClaw cut; `delivered` is uniform (committed + on-origin); Quick-WALTER retired.** Delivery layer SHIPPED; consumption = Phase 2 self-apply (see §8). Approved-in-principle by Will + PROME + ORC (2026-06-17); v0.6 collapse Will-ratified 2026-06-26 (`design/OPENCLAW_CUTOVER_PLAN.md`).
@@ -127,6 +127,35 @@ A recipient that runs a **complete** `/BOARD/` diff-scan at boot — one that di
 **Author discipline:** a note to a pull-complete recipient **must state, in the note itself, why it is arriving in an inbox the recipient's §3.5 exemption would normally make redundant** — otherwise the recipient may reasonably read a stray inbox file as an exemption violation or a stale artifact and archive it unread. (Both worked examples above carry that line.)
 
 **This is a clarification of §3.5's scope, not a change to it.** No agent moves in or out of `PULL_COMPLETE`; the doctor's set is untouched; every dispatch-path rule above is unchanged.
+
+---
+
+#### 3.5.3 🔴 THE ACTIONABILITY TEST — notes are NON-ACTIONABLE CONTEXT ONLY; anything actionable is DISPATCHED (added v0.11, 2026-07-25, **Will-directed**)
+
+**Rule, and it is a hard one:**
+
+> **If the content could change what the recipient DOES — a position, a watch, a threshold, a grade, a state, a calendar item — it is a SIGNAL and gets DISPATCHED, with the full BOARD + `route_log` + delivery-handoff + `delivery_log` treatment. NOTES are for NON-ACTIONABLE CONTEXT ONLY.**
+
+**Apply the test by asking one question, and answer it pessimistically:** *"if the recipient never opens this, could they later take a decision they would have taken differently?"* **If yes — or if you are unsure — DISPATCH.** The asymmetry is the whole point: an over-dispatched context item costs one BOARD row and a little noise; an under-dispatched actionable item is invisible, untracked, and discovered only when the decision has already gone the other way.
+
+**What remains a legitimate NOTE (non-actionable context):**
+- A mechanism, precedent or cross-reference that **enriches** an owner's existing read without changing any call (the 7/11 CREED 1740-Broadway ratings-lag precedent).
+- A **pointer to an unverified lead** — a headline-only item with no body reached, explicitly labelled as a pointer (the 7/24 LIQUID Goldman AI-junk-bond and VULCAN depreciation pointers).
+- A **courtesy cross-reference** to work an owner already holds, sent so they know WALTER saw it.
+- An **internal-inconsistency breadcrumb** where the owner holds both facts and the delta is only that they disagree (the 7/16 CARL retail/savings breadcrumb).
+
+**What is now a DISPATCH even if it fails the Novelty gate as news:**
+- **Any CORRECTION to a previously dispatched signal** whose consequence changes an action. *(Worked example: the 7/24 "the FHA/VA KILL rests on sector averages" caveat went out as a note. It was decision-changing — REGINALD was re-pointing a live watch on four banks — and it was re-issued as `SIG-W-20260724-007` at Will's direction. Under this rule it would have been dispatched at the outset.)*
+- **Anything touching a registered threshold, falsification trigger, gate, or pre-registered prediction** — including proximity, exit-proximity, and suppression state.
+- **Anything that switches a watch ON or OFF**, or re-points one.
+- **A dated catalyst** the recipient does not already carry.
+- **A refutation of a figure the recipient is using**, whether or not the underlying event is novel.
+
+**Provenance (the evidence bar this cleared):** three instances inside ten days, two of them from recipients rather than from WALTER's own review. **VULCAN twice stated it would prefer notes arrive as dispatched signals** (7/19, after its axis-check note sat unread ~19h; reiterated in the 7/24 depreciation-pointer exchange). **Will directed the third** — first ordering the BKU re-point dispatched-not-noted (7/25), then ratifying the general narrowing. The recurring failure mode is identical each time: **actionable content routed down the one lane with zero delivery telemetry.**
+
+**Effect on the §3.5.1 telemetry gap:** this **shrinks the exposure rather than instrumenting it.** Notes remain un-instrumented — but by construction they now carry nothing whose loss changes a decision, so the un-instrumented lane stops being a risk surface and becomes what it was always described as: courtesy context. **The `note_log.tsv` escalation trigger in §3.5.1 stays armed and unchanged**, but its expected trigger rate should fall, because the actionable traffic that was driving note volume now leaves through the dispatch path. **If note volume does NOT fall after this change, that is evidence the test is being applied too loosely — re-read §3.5.3 before adding a ledger.**
+
+**This DOES change behaviour** (unlike §3.5.1, which was a clarification). It does not move any agent in or out of `PULL_COMPLETE`, and it does not alter the dispatch mechanics themselves — it changes **which lane content enters**, and it strictly increases the share of decision-relevant traffic that carries delivery telemetry.
 
 ---
 
