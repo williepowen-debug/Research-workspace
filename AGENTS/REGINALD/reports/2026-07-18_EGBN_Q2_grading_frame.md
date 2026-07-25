@@ -107,3 +107,23 @@ Curley's **first call as CEO** (planned succession, NOT distress). New CEOs freq
 | Curley kitchen-sink reset (build against flat/down credit) | ~30% | 7/22-23 |
 
 *Grades pre-registered 2026-07-18; **Q1 absolute-$ + non-credit baseline armed same day** (§0b, primary EDGAR, ACL/provision/NCO/NIM/AOCI/TBV self-verified). Post-print (Wed 7/22 AMC): fill RESULT against this frame verbatim, comparing Q2 vs the §0/§0b baselines; update the STATUS EGBN Matrix row + `BANK_EXPOSURE_MATRIX.md`. Do NOT edit the pre-registrations after the print — this is the honesty record. [[finding_pre_registration_discipline_through_corroboration]]*
+
+---
+
+# ✅ RESULT — GRADED 2026-07-25 (appended; NO pre-registration above was edited)
+
+**Full grade → `reports/2026-07-25_EGBN_Q2_grade_plus_FL_smalltier_watchcard_fill.md` (Part 1).** Source: 8-K acc **0001050441-26-000088** (7/22).
+
+| § | Pre-registered test | Q2 result | Grade |
+|---|---|---|---|
+| §1 | ACL/NPL vs 114% | **109.01%** (ACL ≈$121.2M, −$26.0M) | **NEUTRAL/tracking** (105–130% band; did NOT breach <105% bear) |
+| §2 | CRE nonaccrual vs $104.7M | Total NPL **$111.1M (−13.7%)**; CRE-split **PENDING-10-Q** | **RESERVOIR-LAG HOLDING**, resolving-lean |
+| §3 | Office relationship disposition | NCO **$47.9M / 2.78% ann.**, *"disposition activities related to classified assets"* | **(A) CHARGED OFF — BEAR-confirm on the letter**; character = disposition |
+| §4 | 2+ NEW migrations | none disclosed | **NOT TRIGGERED** |
+| §5 | Curley overlay | provision ↑$8.1M + credit ↓ + coverage still thinned; Curley endorses predecessor, no reset | **★ FOURTH pattern — ACCELERATED DISPOSITION** (see below) |
+| §6-5 | Criticized direction | SM+Sub **$734.0M vs $738.4M (−0.6%)**; SM −$16.6M / Substandard +$12.2M | FLAT with internal downward migration — two-sided |
+| §6-6 | NPA vs 1.31% | **1.17%** | **RESOLVING** |
+
+**★ FRAME AMENDMENT (for the NEXT cycle — does not alter this grade):** §5 paired provision-direction × credit-direction and treated "build against improving credit" as a new-CEO reset. It missed a fourth cell. **Coverage thinning has two opposite-meaning causes: ACL not keeping pace with INCOMING problem credits (bear, under-provisioning) vs ACL CONSUMED by OUTGOING realized losses (de-risking).** Q1 looked like the first; Q2 is unambiguously the second. Add that discriminator before the Q3 frame.
+
+**Net verdict: DE-RISKING THROUGH REALIZED LOSS, not deterioration.** CRE concentration **295.1%→267.6%** (below the 300% supervisory line), ADC 75.7%→66.2%, CET1 13.80%→**14.58%**, NIM 2.47%→**2.52%**. ⚠️ Composition trap caught: 30-89 past due "+145%" ($18.0M→$44.1M) is one **$35.4M loan already paid off in full** — ex-item **−52%**. ⚠️ Matrix "CRE 547%" cannot be reconciled to EGBN's stated 267.6% — flagged for the re-score, not overwritten.

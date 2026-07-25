@@ -85,3 +85,27 @@
 - **Honest bar:** these are 0.1–0.8%-of-book leading moves — informative for breadth, NOT position-triggering on their own. No REGINALD position rides on them; a BUILD would feed the CRE-channel conviction that governs the WAL/OZK position, not open a new small-tier trade.
 
 *Watch-card pre-registered 2026-07-18; **all 4 Q1 baselines now primary-verified** (BKU/SBCF from the 6/20 drill; AMTB/SSB upgraded from relayed → primary 7/18, self-verified — AMTB threshold re-anchored on a caught mislabel, SSB confirmed). Post-print (7/22 BKU → 7/23 SSB/AMTB → 7/28 SBCF): fill each name's class against its threshold table, compare Q2 vs the primary baseline, then apply the aggregate rule; update the STATUS "Bank CRE-DQ divergence" row + the ROADMAP CRE-DQ thread. Do NOT edit the thresholds after any print lands (the AMTB re-anchor was a pre-print baseline correction, not a post-print rationalization). [[finding_pre_registration_discipline_through_corroboration]] · [[finding_composition_mask_unmask_discriminator]] · [[finding_verification_correction_downstream_propagation]]*
+
+---
+
+# ✅ RESULT — FILLED 2026-07-25 (appended; NO threshold above was edited)
+
+**Full fill → `reports/2026-07-25_EGBN_Q2_grade_plus_FL_smalltier_watchcard_fill.md` (Part 2).**
+
+> **⚠️ SPEC FAILURE DISCLOSED:** this card's PRIMARY metric (CRE 30-89 accruing, a **10-Q age-analysis** table) was **unavailable at the graded date** — EDGAR-verified: no Q2 10-Q filed by BKU, SSB or SBCF (they land ~August). The metric was pre-registered against *print* dates that precede the 10-Q by ~2 weeks. Lagging buckets were **not** substituted for it (that is the 6/20 error). Unscoreable legs are marked PENDING-10-Q. **Next cycle: pre-register the metric against the filing that CARRIES it.** [[finding_threshold_spec_fails_before_world]]
+
+| Name | Class | Scored on | PENDING-10-Q |
+|---|---|---|---|
+| **BKU** | **REVERT** | CRE criticized **−14.2%** ($560.9→$481.3M), CRE substd-nonaccruing −51.4%, NPL −19%, NPA 0.79%→0.66%, NCO **0.61%→0.11%**, coverage 75.9%→97.1% | CRE 30-89 |
+| **AMTB** | **REVERT** (fully scored — 8-K carries the by-class table) | CRE-NOO nonaccrual **$11.17→$9.39M, −16.0%**, classified −14.7%, SM −25.9% | none |
+| **SSB** | **REVERT / HOLD** | **NCO 6bps** (from 9bps), nonaccrual −3.3% QoQ, 90+ accruing −57% | accrual% / current% (the label-conversion test) |
+| **SBCF** | *not printed* | — | prints **Tue 7/28 AMC** |
+
+## Aggregate: **LUMPINESS CONFIRMED (PROVISIONAL)** — ≥3-of-4 REVERT rule MET on landed names
+**→ Pre-committed translation applies: severity STAYS CONCENTRATED at OZK/EGBN; the CRE-channel bear does NOT broaden tier-wide.** 4th independent confirmation of the idiosyncratic frame.
+**PROVISIONAL because:** (a) SBCF unprinted, (b) leading-bucket leg unread for BKU/SSB. Nothing on current evidence reverses at the 10-Q.
+
+**Three catches worth carrying:**
+1. **BKU headline inverts the detail** — *"Criticized and Classified Loans: Increased $7 million"* while **CRE criticized FELL $79.6M**; the rise is ≈$86.6M of **C&I**.
+2. **BKU's clean NPA is partly DEFINITIONAL** — verbatim: government-insured residential 90+DPD-still-accruing are *"excluded from non-performing loans."* The ~$197M buyout paper is invisible in the 0.66% NPA by construction. Primary confirmation of WALTER's 7/25 point. Warehouse basis reconcile: WALTER's +40% YoY is **period-end**, BKU's +19% YoY is **average** — both true, don't mix bases.
+3. **AMTB resi is a denominator artifact** — SFR nonaccrual +320% YoY in dollars, but the **RATE fell 1.72%→1.63%→1.60%** as the book grew +29%/6mo by acquisition. No rate-level deterioration. WALTER's disclosure-gap watch survives on **composition** grounds only (is any of it government-insured?) — trigger Q2 10-Q ~Aug.
