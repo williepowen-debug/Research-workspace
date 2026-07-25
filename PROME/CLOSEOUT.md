@@ -21,7 +21,7 @@ Skip for casual one-off exchanges with no artifacts.
 ## Pre-closeout (~1 min)
 
 1. `git status --short` — review what's changed
-2. **Foreign uncommitted work is fine and does NOT block closeout** — pathspec commits + `safe-push.sh` never touch another agent's tree (see Chunk 4). The real pre-commit check is that you are about to commit only your own `PROME/` scope (+ any Will-approved per-instance paths, e.g. `memory/`) — *not* that the tree is otherwise clean. The old `AGENTS/PROME/` tree is not a Prome WORK surface — but its `inbox/` still receives occasional deliveries (spine-audit finding 7/1); the boot scan covers it, closeout doesn't.
+2. **Foreign uncommitted work is fine and does NOT block closeout** — pathspec commits + `safe-push.sh` never touch another agent's tree (see Chunk 4). The real pre-commit check is that you are about to commit only your own `PROME/` scope (+ any Will-approved per-instance paths, e.g. `memory/`) — *not* that the tree is otherwise clean. The former `AGENTS/PROME/` tree was removed 2026-07-24 (Will-ruled; `PROME/inbox/` is the sole delivery surface) — if it reappears, that's a sender-routing regression: migrate contents to `PROME/inbox/`, flag the sender (see BOOT.md step 6).
 3. Mentally list this session's artifacts: proposals decided, files written, prototypes run, decisions made
 4. Check transcript hygiene: if the session produced huge tool dumps, preserve the durable result in files/memory and avoid restating raw output. Prefer compact summaries unless full output matters.
 5. Decide closeout scope:
