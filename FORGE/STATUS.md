@@ -74,6 +74,7 @@ Current regime + scenario weights → `HEARTBEAT.md` (7/18 re-base + amendment #
 |----------|--------|-----|------------------|------|
 | ~~QQQ $696P~~ | 7/20 EXPIRED | 1 | **CLOSED ~−$455** | RESOLVED (Will-reported 7/20 PM): nearly expired worthless, recovered only ~$8 of premium — the 8:27 AM +$74 mark round-tripped as QQQ closed knife-edge ATM $696. Day-trade class, off-thesis |
 | **USO $128C** | 7/22 | 1 | −$2 / −1.1% | NEW — Hormuz leg re-entered (3.3% OTM at $123.96); expires EIA post-closure-print day |
+| **USO $150/$165 call spread** | Sep-18 | ~1 | — | **NEW — FILLED 7/24 (post-dates the 7/20 reconcile above): BRENT tail-rider card, Will-driven w/ TERRY live re-quote; net debit ~$300 [Will verbal 7/25; TERRY mid was $2.98] — exact debit/qty/account TBC at next broker export. BE USO ~$153 · max profit ~$1,200 (~4:1) · defined-risk. Rule-#6-clean red-day entry; mgmt = BRENT card frozen terms** |
 | **WAL $77.5P** | Aug-21 | 1 | $0.00 / 0.0% | NEW (~7/17-7/20 fill) — nearest-money WAL print exposure, survives the 7/21 AMC |
 | KRE $25P | 1/15/2027 | 1 | −$38 / −71.7% | deep-OTM lottery |
 | T | stock | 1 | +$1.18 / +5.7% | |
