@@ -1,5 +1,5 @@
 # WAL KB Index — Group Navigator
-**139 rows | 16 groups | Seeded 2026-03-25 | Last refresh 2026-07-25 (Q2 print cycle 106-127 + Form 4/144 insider sweep 128-133 + news/coverage sweep 134-139 — first WAL-owned ingest)**
+**145 rows | 16 groups | Seeded 2026-03-25 | Last refresh 2026-07-25 (Q2 print cycle 106-127 · Form 4/144 insider sweep 128-133 · news/coverage sweep 134-139 · **Q1 10-Q primary pull 140-145** — first WAL-owned ingest)**
 
 ---
 
@@ -7,12 +7,12 @@
 
 | # | Group | Rows | IDs | Vector | Key Fact | Research Folder |
 |---|-------|------|-----|--------|----------|----------------|
-| 1 | HIDDEN_CRE | 19 | 001-007, 090-091, 098-099, **108-114, 127** | V1 | MI3 24.2% pre-print (**never re-tested — 127**) + Office classified **$407M→$316M Q2** + $946M Office matures 2026 + CRE-NOO charge **$32.0M new 5Q high** + **$99M life-sci letter (B), appraisal pending** + **ACL/NPL 96%** + **0 new migrations (N=1 holds)** | `research/HIDDEN_CRE/`, `sources/q1_2026/Deck Synthesis` |
+| 1 | HIDDEN_CRE | 23 | 001-007, 090-091, 098-099, **108-114, 127, 140-142, 145** | V1 | MI3 24.2% pre-print (**never re-tested — 127**) + Office classified **$407M→$316M Q2** + $946M Office matures 2026 + CRE-NOO charge **$32.0M new 5Q high** + **$99M life-sci letter (B), appraisal pending** + **ACL/NPL 96%** + **0 new migrations (N=1 holds)** | `research/HIDDEN_CRE/`, `sources/q1_2026/Deck Synthesis` |
 | 2 | SSFA | 11 | 008-013, 092-095, **121** | V3 | Pre-print: $17.2B SSFA / $1.1B savings / $10.8B "Other OBS." Q1: NDFI cohort median (Slide 24); $7.155B warehouse (30x peer); CLN pool $8.5B→$7.9B; Lender Finance structurally protected. **Q2: warehouse/NDFI book SHRINKING by mgmt choice** | `research/SSFA/`, `sources/q1_2026/Deck Synthesis` |
-| 3 | CANTOR_FRAUD | 14 | 014-022, 081-083, **123, 137** | V2 | Pre-print: $98M / $30M reserved vs ZION 83%. Q1: $26.1M charged (89% of $29.6M reserve). **Q2: ZERO call mentions; no new charge; three-figure reconcile RESOLVED ($98.6M revolver / ~$70M residual / $64M protective liens)** | `research/` (RQ-REG-A01), `FRAUD/` |
+| 3 | CANTOR_FRAUD | 15 | 014-022, 081-083, **123, 137, 143** | V2 | Pre-print: $98M / $30M reserved vs ZION 83%. Q1: $26.1M charged (89% of $29.6M reserve). **Q2: ZERO call mentions; no new charge; three-figure reconcile RESOLVED ($98.6M revolver / ~$70M residual / $64M protective liens)** | `research/` (RQ-REG-A01), `FRAUD/` |
 | 4 | INSIDER | 14 | 023-029, **128-134** | ALL | CFO swap (JPM FIG crisis banker), board risk additions, zero buying. **Q2 sweep: zero buying CONFIRMED across a complete 53-filing scan · 402/408 lines are mechanical monthly cash-settled-RSU vesting (9 of 11 execs perfectly flat) · Gibbons −40,000sh/−13% and Mucha −5,946sh/−63%, neither on a 10b5-1 plan · ★ Curley post-departure Form 144 $878K with NO Form 4** | `sources/INSIDER_SCAN_WAL.md` (Feb-vintage) + **`sources/INSIDER_SCAN_WAL_2026-07-25.md`** |
 | 5 | GEOGRAPHIC | 6 | 030-035 | ALL | SF NCO highest (1.13%), pipeline lowest (0.26%), fast-transmission thesis | `sources/FDIC_QBP...` |
-| 6 | JEFFERIES | 13 | 036-040, 060, 066, 084-086, **124, 135-136** | V2 | Pre-print: SMFG 20%, Convergence Day, JEF Q1 confirmed $17M FB/MFS. Q1: **LAM $126.4M charge**. **Q2: fully Q1-realized, no residual — V2 P&L arc CLOSED; forward V2 = litigation/recovery upside only** | `research/JEFFERIES/`, `FRAUD/` |
+| 6 | JEFFERIES | 14 | 036-040, 060, 066, 084-086, **124, 135-136, 144** | V2 | Pre-print: SMFG 20%, Convergence Day, JEF Q1 confirmed $17M FB/MFS. Q1: **LAM $126.4M charge**. **Q2: fully Q1-realized, no residual — V2 P&L arc CLOSED; forward V2 = litigation/recovery upside only** | `research/JEFFERIES/`, `FRAUD/` |
 | 7 | NEVADA_GAMING | 5 | 041-045 | — | 18-22% NV exposure, Circa $420M, consumer crossover (CARL) | `sources/RENO_WAL...` |
 | 8 | CAPITAL | 7 | 046-049, 103, **119-120** | V3 | CET1 11.0% steady; $50M Q1 buyback at $71.61 (underwater); 74% pledged. **Q2: $150M H2 buyback + loan guide cut to fund it; AOCI −$451M IMPROVED +$5M QoQ** | — |
 | 9 | EARNINGS | 15 | 050-053, 100-102, 104-105, **115-118, 122, 139** | — | Q1 26: GAAP miss $1.65 / adj beat $2.22. **Q2 26: EPS $2.36 vs $2.33 (basis unpinned — see 115); NIM 3.53% flat; ex-fraud NCO 37bps NEUTRAL; NII floor RAISED into an assumed Sept hike; "charge-offs have peaked"; deposit spot < average** | — |

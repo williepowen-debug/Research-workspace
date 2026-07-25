@@ -87,7 +87,7 @@ Ranked by **leverage on an open thesis question**, not by ease.
 
 | # | Source | What it resolves | Why it's a gap |
 |---|---|---|---|
-| **1** | **FFIEC Call Report, pulled DIRECTLY** (CDR Public Data Distribution — free bulk download, per-bank per-quarter) | **The V1a MI3 falsifier — never run in 4 months** | We have been waiting on a *fleet-level "PDD integration"* that is ~2.5 months overdue. **We do not need it.** WAL's own Call Report is directly downloadable. This is the single highest-leverage gap on the board: it would resolve bear-fast (10% weight) either direction, and the time-box I armed 7/25 exists only because we treated an unavailable integration as the only route. **Also available: the UBPR**, which gives peer-percentile context free |
+| **1** | **FFIEC Call Report, pulled DIRECTLY** (CDR Public Data Distribution — free bulk download, per-bank per-quarter) | **The V1a MI3 falsifier — never run in 4 months** | We have been waiting on a *fleet-level "PDD integration"* that is ~2.5 months overdue. **We do not need it.** WAL's own Call Report is directly downloadable. This is the single highest-leverage gap on the board: it would resolve bear-fast (10% weight) either direction, and the time-box I armed 7/25 exists only because we treated an unavailable integration as the only route. **Also available: the UBPR**, which gives peer-percentile context free. ⚠️ **CORRECTED IN PART 3 — do not read this row alone:** the data is free and public but programmatic access needs a **free one-time CDR account**; "directly downloadable" was too strong |
 | **2** | **Court dockets — all three live matters** | Forward V2 in its entirety | We track **zero** of them by docket. **(a)** WAL v. Jefferies/LAM, NY Supreme — **NYSCEF** is free public e-filing. **(b)** Jefferies v. WAL, NY state, filed ~7/1 — *we didn't know it existed until today*. **(c)** WAL v. Cantor Group V, **LA Superior 25STCV24263**. For a thesis whose forward V2 is "litigation/recovery," running blind on dockets is the clearest structural hole. Docket entries also **lead** the 10-Q footnote by weeks |
 | **3** | **County property records for the $99M life-science asset** (recorder/assessor: deed transfers, notices of default, new lease memoranda) | **The $99M appraisal — our single most-dated catalyst, which has NO carrying instrument** | STATUS now says outright: *"no known carrying filing — watch 8-K / Q3 call / Q3 10-Q, whichever first."* That is an admission we are waiting passively. If the property can be identified, a recorded NOD, deed, or lease memo would fire **before** any filing — and mgmt told us a *prospective tenant* is evaluating a sizable piece, which would leave a recorded lease trail |
 
@@ -118,11 +118,64 @@ Ranked by **leverage on an open thesis question**, not by ease.
 
 ---
 
+## PART 3 — PULL ATTEMPT RESULTS (appended same session, Will-directed: "pull these 3 sources")
+
+### 1. FFIEC Call Report / MI3 — ⛔ BLOCKED on a free one-time registration. **I overstated this in Part 2 and am correcting it.**
+
+| Step | Result |
+|---|---|
+| Identify the bank | ✅ **Western Alliance Bank — FDIC CERT 57512, FED_RSSD 3138146**, Phoenix AZ, assets $98.77B |
+| FDIC BankFind API (free, no auth) | ✅ **Works** — note the host moved to `api.fdic.gov/banks/…`. Returns Call-Report-derived aggregates: at 3/31/26 LNCI $11,399M, LNRENRES $11,097M, LNRECONS $3,972M, LNLSNET $62,798M, LNATRES $461M |
+| MI3 (Sched. RC-C Memo 3, **RCON2746**) via FDIC | ❌ **Not exposed.** The field is silently ignored; FDIC's risview does not carry Call Report memo items |
+| FFIEC CDR public web service | ❌ **`Server.WSSecurityRequired` — "This service requires WS-Security authentication with exactly one UsernameToken."** Confirmed by an actual unauthenticated SOAP call |
+| FFIEC CDR bulk-download / facsimile pages | ❌ ASP.NET WebForms with JS-rendered controls; not drivable headlessly |
+
+**Correction to Part 2.** I wrote that the Call Report is "directly downloadable" and that we may have been "waiting on nothing." That was **too strong**. Accurate position: the data is **free and public, not paywalled or unavailable** — but programmatic access needs a **free CDR PDD account (username + security token)**, a one-time human registration I cannot perform.
+
+**The finding survives the correction, though, and is still worth acting on:**
+- **Q2 2026 Call Report data does not exist yet regardless** — FDIC carries WAL only through **3/31/2026**, and Q2 reports are due ~July 30. So the ~Aug window is genuinely still ahead and nothing was missed there.
+- **But Q1 2026 MI3 should be obtainable right now with an account** — and Q1 is precisely the window that "passed without integration" back in May.
+- So the blocker is **one 5-minute registration**, not an indefinite wait on a fleet integration. That is a much smaller obstacle than four months of deferral implied.
+
+### 2. Court dockets — ⛔ blocked to automation, ✅ but the primary substitute delivered more than the dockets would have
+
+| Target | Result |
+|---|---|
+| NYSCEF (`iapps.courts.state.ny.us`) | ❌ **403** to automated access |
+| Trellis (LA Superior 25STCV24263) | ❌ **403** / subscription |
+| LASC Media Portal | ❌ reachable but JS-only, not readable headlessly |
+| **Q1 10-Q Legal Proceedings + credit footnotes** | ✅ **Pulled direct from EDGAR — and it is richer than any secondary account we had** |
+
+→ **KB-WAL-143** (Cantor primary) and **KB-WAL-144** (Jefferies/LAM primary chronology). Highlights:
+- **★ Corrects KB-WAL-136:** the **$42.1M was the payment WAL RECEIVED on 2026-01-15**, *not* a missed installment due 2/27. The secondary source conflated them. This is exactly why A2 rows carry tie-out instructions.
+- **★ New and load-bearing:** the loan defaulted "following the identification of **servicing failures, including lapses in UCC filings**" — i.e. **collateral perfection failed.** That is the substantive core of the fraudulent-inducement claim, and it cuts against Jefferies' clean non-recourse story since servicing/perfection duties sit with the servicer.
+- Cantor pinned to primary: facility **$98.5M** (not $98.6M), **$3.5M specific allowance still remaining**, residual carrying **$72.4M**, the $13M Q1 senior-lien purchase was explicitly the start of a stated program, and WAL holds **a limited and a full guaranty from two UHNW individuals** (ties to Marcil/Stupin).
+- "Point Bonita" appears **zero** times in WAL's own 10-Q — that name is Jefferies'/press, not WAL's disclosure.
+
+### 3. $99M property / county records — ⚠️ not identified, but I extracted the fingerprint (and found two things we weren't looking for)
+
+The 10-Q describes the collateral precisely (**KB-WAL-140**): *"a **6-story** newly constructed, **LEED Silver-certified**, Class-A life-science laboratory/office building with a **7-story parking structure**, located on a **6.0-acre site** in a **gateway life-science market**."*
+
+A generic web search on that description **did not resolve to a specific building**. The real route is the **USGBC LEED project directory** filtered to Silver / lab / recent certification, cross-referenced against gateway-market CRE press — a targeted next task, not a dead end. Without an address there is no county-records lookup, so **source #3 remains open**.
+
+**Two things the attempt surfaced that we were not looking for:**
+
+- **★★ A possible WAL-01 specification problem (KB-WAL-141).** The Q1 10-Q breaks out **"Life sciences" as its own CRE-NOO category for the first time — $481M, LTV 52.5%** — carved out of "Other" ($721M → $209M) **in the very quarter the life-science problem emerged**. Office is a *separate* $2,160M line. **WAL-01 tests "OFFICE classified >$500M"** — but if the $99M credit sits in the life-sciences bucket, the prediction's headline credit may never flow into the metric that is supposed to measure it. Also: $99M against a $481M life-science book is **~20.6% of that entire sub-portfolio**, far more concentrated than the "office" framing conveys. **Verify the bucket at the Q2 10-Q before re-grading WAL-01.**
+- **A second large problem credit we had never logged (KB-WAL-142):** an unrelated loan, substandard and non-accrual at 3/31/26, **carrying value $60M**, with an early-May **letter of intent to purchase the collateral at approximately carrying value**. Net benign for that credit, but it means the non-accrual book holds more than one large CRE name — context the "idiosyncratic, N=1" framing understates.
+
+Plus **KB-WAL-145**: the full CRE-NOO property-type table with LTVs (Hotel $4,684M/45.3% is the largest slice; Office LTV improved 60.1%→58.9%; Medical carries the highest LTV at 61.7%). Use this, not the deck donut, as the Q3 comparison base.
+
+---
+
 ## Proposed next actions (owner's call)
 
-1. **Pull WAL's Q1 + Q2 FFIEC Call Report directly** and finally run MI3. Highest leverage on the board; would retire or confirm a 10% weight and pre-empt the armed time-box.
-2. **Stand up docket monitoring** for the three cases (NYSCEF ×2 + LA Superior 25STCV24263).
-3. **Read the 2026 DEF 14A** — already-open agenda item, document already filed.
-4. **Attempt to identify the $99M property** and check county records — the only route to a pre-filing read on the appraisal.
+*(revised after the Part 3 pull attempts)*
+
+1. **★ Register a free FFIEC CDR PDD account** (username + security token) — the ONLY thing standing between us and MI3. Then pull **Q1 2026** immediately (available now) and **Q2** when it lands ~Aug. Retires or confirms a 10% weight and pre-empts the armed ~Sep 1 time-box. *Requires Will — I cannot register.*
+2. **★ Verify which CRE-NOO bucket the $99M sits in** (Office vs the new Life-sciences line) at the Q2 10-Q — **WAL-01 may be measuring a bucket its own headline credit isn't in** (KB-WAL-141). A prediction-specification question, not a data question.
+3. **Identify the $99M building** via the USGBC LEED project directory (Silver / laboratory / recent) cross-referenced with gateway-market CRE press → then county records. Fingerprint in KB-WAL-140.
+4. **Docket monitoring stays owed but is lower-yield than assumed** — NYSCEF/Trellis/LASC all block automation and the 10-Q legal footnote proved richer. Practical substitute: read the legal-proceedings footnote every 10-Q; treat dockets as a Will-side browser task if a matter turns.
+5. **Read the 2026 DEF 14A** — already-open agenda item, filed 4/22, still unread.
+6. **Track the second $60M credit** (KB-WAL-142) — did the LOI sale close? Plausibly one of management's "six" resolutions.
 
 *Sources: SEC EDGAR submissions index (CIK 0001212545, retrieved 2026-07-25); Bloomberg via TipRanks/Briefs 2026-07-02; Banking Dive 2026-03-09; BusinessWire/Nasdaq 2026-06-15; Trellis (LA Superior 25STCV24263); Reuters via US News 2025-10-20; StockStory / Investing.com / AlphaStreet Q2-2026 coverage.*

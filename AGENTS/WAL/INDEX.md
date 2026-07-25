@@ -2,7 +2,7 @@
 **Start here on cold boot.** Standalone agent since **2026-07-25** (promoted from `AGENTS/REGINALD/WAL/`, Will-approved 7/22; review → `../DAEDALUS/builds/wal_promotion/PROMOTION_REVIEW.md`). Boot protocol → `CLAUDE.md` (auto-loads when launched from this dir).
 
 **Canonical tokens (MIRROR — sync at closeout, never originate here):**
-**Thesis v2.3** (2026-07-25, post-Q2 re-mark) · Bear-fast 10% / Bear-medium 16% / Base 40% / Bull 27% / Tail 7% · **EV $73.92** · **PT $52-74** ([Bear-fast low, EV], pinned) · **WAL-01 25% / WAL-02 50%** (formerly REG-24/25, OPEN to Q3 — WAL-02's Q2 window SPENT at 37bps) · KB **139 rows / 16 groups** (Q2 cycle + insider sweep + news sweep INGESTED 7/25, data clock 0d) · Positions → `POSITIONS.md` (Sep-18 $67.5P + $70P core) · **Next event: Q2 10-Q ~Aug 7-10**, then FFIEC Q2 PDD ~Aug
+**Thesis v2.3** (2026-07-25, post-Q2 re-mark) · Bear-fast 10% / Bear-medium 16% / Base 40% / Bull 27% / Tail 7% · **EV $73.92** · **PT $52-74** ([Bear-fast low, EV], pinned) · **WAL-01 25% / WAL-02 50%** (formerly REG-24/25, OPEN to Q3 — WAL-02's Q2 window SPENT at 37bps) · KB **145 rows / 16 groups** (Q2 cycle + insider sweep + news sweep + Q1 10-Q primary pull, all 7/25; data clock 0d) · Positions → `POSITIONS.md` (Sep-18 $67.5P + $70P core) · **Next event: Q2 10-Q ~Aug 7-10**, then FFIEC Q2 PDD ~Aug
 
 ---
 
@@ -44,7 +44,7 @@
 | 2 | `THESIS.md` **v2.3** + top `CHANGELOG.md` entry | Current framework + what last moved and why |
 | 3 | `MEMORY.md` | Session handoff + first-boot mandates |
 | 4 | `SCENARIOS.md` v2.3 | Ranges (⚠️ strike-by-strike sections May-vintage — rebuild owed) |
-| 5 | `workbook/KB.tsv` + `KB_INDEX.md` | 139-row evidence base, 16 groups (Q2 106-127; insider sweep 128-133; news sweep 134-139) |
+| 5 | `workbook/KB.tsv` + `KB_INDEX.md` | 145-row evidence base, 16 groups (Q2 106-127; insider 128-133; news 134-139; 10-Q primary 140-145) |
 
 ## File Map
 
