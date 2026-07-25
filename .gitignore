@@ -49,6 +49,11 @@ AGENTS/REGINALD/*/sources/*.pdf
 AGENTS/REGINALD/*/sources/10k_*/
 AGENTS/REGINALD/*/sources/q[1-4]_*/*
 !AGENTS/REGINALD/*/sources/q[1-4]_*/*.md
+# WAL promoted out of REGINALD 2026-07-25 (Will-approved 7/22, ruling 4: same-changelist as the git mv) — same semantics at the new path
+AGENTS/WAL/sources/*.pdf
+AGENTS/WAL/sources/10k_*/
+AGENTS/WAL/sources/q[1-4]_*/*
+!AGENTS/WAL/sources/q[1-4]_*/*.md
 
 # Local large/source artifacts — keep raw statutory PDFs out of Git
 AGENTS/SHADE/sources/athene_statutory_2026-06-15/*.pdf
