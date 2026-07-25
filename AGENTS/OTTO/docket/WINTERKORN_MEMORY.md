@@ -197,6 +197,25 @@ You escalated this after two consecutive runs of unverifiable Fitch rows. **Answ
 
 **Why this matters beyond docket hygiene, so the next run understands the stakes:** the Fitch blended index is the **resolution metric for OTTO-04** (2022-vintage CNL >25% by Sep 30) and the primary instrument for the summer-re-deterioration watch. Latest available data is **March 2026** — meaning OTTO enters the Sep 30 resolve with an input that is **four months stale by data-month** and a re-deterioration thesis that is **unobserved, not disconfirmed**. This is a structural single-source dependency on a paywalled series reached through a decaying free mirror. **Flagged to OTTO's own follow-up queue** as a measure-design problem of the same family as OTTO-30 (see CHANGELOG 2026-07-25) — the thesis leans on a number OTTO cannot reliably obtain.
 
+### 📋 TESTED 2026-07-25 — free-source alternatives to Fitch: S&P DEAD, KBRA PARTIAL (do not re-run these checks)
+
+Will asked whether the Fitch gap could be closed from another source. All candidates tested the same day; **record kept so nobody re-litigates it.**
+
+| Source | Verdict | Detail |
+|---|---|---|
+| **S&P Global — U.S. Auto Loan ABS Tracker** | ❌ **DEAD** | Monthly, published through May-2026, but the article URL returns **HTTP 403 Forbidden**. Authentication required. |
+| **KBRA — U.S. Auto Loan ABS Indices spreadsheet** | ❌ **PAID** | The `/indices` hub links a full data spreadsheet (maintained — stamped 15 Jul 2026), but it returns a gate: *"This report requires an ABS Premium Subscription"* (`userHasABSAccess: false`). |
+| **KBRA — monthly publication free preview** | ⚠️ **PARTIAL — genuinely useful** | Free text carries **MoM changes in bps**, **separated prime vs non-prime**, at a **~2.5-week lag** (May-2026 data published Jun 17). Absolute levels appear only occasionally (Jan-2026 non-prime ANL **10.9%**). |
+| **Fitch via Auto Remarketing / AFN mirror** | ❌ **DECAYED** | Newest indexed piece 2026-05-21, still covering the *January* index. |
+
+**Two things KBRA gives that Fitch never did:** it is **~2 months fresher** (May vs March data), and it is **tier-separated** — prime and non-prime as distinct indices, rather than the single blend whose composition bias broke OTTO-04.
+
+**Use it as a directional supplement, with two hard rules:**
+1. **NEVER splice KBRA's non-prime index onto Fitch's subprime index.** Differently constructed universes. Splicing them is precisely the composition error that broke OTTO-04 — a level shift would read as a market move.
+2. **Chained levels are fragile.** An anchor (Jan-2026 non-prime ANL 10.9%) plus MoM deltas reconstructs a series, but error accumulates, deltas may be quoted against revised bases, and the **April-2026 report did not surface** — so the chain already has a hole. Report chained values as `[EST]`, never `[CONF]`, and re-anchor whenever a free preview happens to state a level.
+
+**Conclusion: the paid aggregators are closed, so the fix is to own the instrument.** Build the 10-D panel — same underlying data the agencies use, free, primary-source, tier-separable by construction. Scoped in MEMORY § NEXT SESSION.
+
 ### Calibration notes
 
 - **Inaugural calibration (Jun 9 2026):** 5 baseline-audit proposals → 4 accepted, 1 deferred-not-declined. WINTERKORN's instinct on per-case docket vs recurring-release scope was sound. The one defer was on a class where OTTO already has a working mirror (Auto Finance News for rating-agency surveillance); reflects "don't duplicate an existing pipeline" lens.
