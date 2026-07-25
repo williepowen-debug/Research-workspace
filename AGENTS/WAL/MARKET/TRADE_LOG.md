@@ -1,4 +1,5 @@
 # WAL Trade Log
+> 🧊 **FROZEN 2026-07-25 — un-purged phantom-strike residue (missed by the 7/17 fleet-wide purge). Do NOT cite rows below as position truth** — the log predates the phantom-"Sep $77.5P" correction class; canonical strikes/expiries → `../POSITIONS.md`. Unfreeze condition: row-by-row reconcile vs broker exports (owner-lane, low priority — historical log, not a live surface).
 
 | Date | Action | Strike | Expiry | Qty | Price | Notes |
 |------|--------|--------|--------|-----|-------|-------|

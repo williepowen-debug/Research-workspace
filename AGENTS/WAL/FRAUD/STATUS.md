@@ -1,4 +1,5 @@
 # WAL Fraud Exposure — Status Overview
+> 📼 **Q1-CYCLE RECORD (bannered 2026-07-25 at promotion — ruling 2 rider). Accurate as of 5/1; do NOT update in place.** The open-thread tests below resolved in parent surfaces ≥2mo ago: V2 → live litigation arc (WAL v. Jefferies, NY Sup. Ct. Mar-26, $126.4M + ~$46M Cantor residual — zero Q2 call mentions, tie-out Q3 10-Q); First Brands docket → OTTO. New fraud-state changes get NEW dated sections/files. Live state → `../STATUS.md` + `../THESIS.md` v2.3.
 **Last Updated:** 2026-05-01 | **Status:** V2 RESOLVED IN PUBLIC 8-K (Apr 21) — LAM full charge-off + Cantor partial; First Brands & Tricolor SILENT in print
 
 ---

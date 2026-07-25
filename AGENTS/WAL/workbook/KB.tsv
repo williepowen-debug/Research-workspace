@@ -1,3 +1,4 @@
+# Last real data refresh: 2026-05-01 (rows through KB-WAL-105 — Q1 cycle) | Staleness sweep (no data): 2026-07-25 (promotion standup, banner only, zero rows changed) | Next: Q2 INGESTION OR FREEZE CALL = first-boot mandate (MEMORY #2; Q2 evidence = 8-K acc 0001628280-26-049001 + EX-99.2 + 7/22 call)
 ID	Date	Group	Entity	Fact	Source	Conf	Epistemic	Status	Stale_By	DerivedFrom	Vectors	Notes
 KB-WAL-001	2026-03-25	HIDDEN_CRE	MI3_Ratio	MI3/C&I ratio is 24.2%, GROWING from 15.5%. Only bank with increasing hidden CRE ratio.	FFIEC Call Report RC-C	A1	EMPIRICAL	ACTIVE	2026-04-30		→V1	Trend is the tell — not just level
 KB-WAL-002	2026-03-25	HIDDEN_CRE	MI3_Amount	Hidden CRE amount = $2.73B ("Loans to finance CRE not secured by RE").	FFIEC Call Report RC-C	A1	EMPIRICAL	ACTIVE	2026-04-30		→V1	

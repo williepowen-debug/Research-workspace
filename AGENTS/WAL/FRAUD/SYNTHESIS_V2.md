@@ -1,4 +1,5 @@
 # WAL Fraud Synthesis V2 — Post-Print (V2 Resolved)
+> 📼 **Q1-CYCLE RECORD (bannered 2026-07-25 at promotion — ruling 2 rider). Post-print synthesis frozen at 5/1 vintage; do NOT update in place.** Forward fraud thread = the litigation arc (see FRAUD/STATUS banner). Shared Jefferies rail → `FORGE/research/jefferies/` (flagged 4mo stale at promotion; WAL = natural refresh owner for WAL-exposure legs).
 **Last Updated:** 2026-05-01 | **Original (pre-print Apr 21):** 2026-03-27 | **Status:** V2 RESOLVED IN PUBLIC 8-K | **Author:** REGINALD
 
 ---
