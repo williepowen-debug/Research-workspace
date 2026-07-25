@@ -17,7 +17,7 @@
 
 **Also verified this boot:** CARL self-executed the POP demote on-gate 7/24 (`262ea22c` — my execute-if-unscheduled backstop not needed).
 
-**Standing capability:** complete + ACTIVE blueprint variant set · 24 agent profiles + template (12 Δ-7/22 banners, refresh-at-touch priority REGINALD→BRENT→BOND after LABOR's 7/22 rewrite; AEOLUS built 7/22; OZK profile owed) · `FLEET_MAP.tsv` 31 scanned agents · generated `FLEET_DIRECTORY.md` · 4 registered sweeps · **61 banked design patterns** (PAT-060 default-zero instrument [OTTO ABS_ISSUANCE find] + PAT-061 analysis-crowds-out-maintenance [REGINALD self-audit + PROME 4-agent corroboration]; PAT-054 carries the PROME ruling). Blueprint-maintenance queue: PAT-060 run-stamp line + PAT-061 build-session rule + frame-spec §5 (pre-register against the CARRYING filing).
+**Standing capability:** complete + ACTIVE blueprint variant set · 24 agent profiles + template (12 Δ-7/22 banners, refresh-at-touch priority REGINALD→BRENT→BOND after LABOR's 7/22 rewrite; AEOLUS built 7/22; OZK profile owed) · `FLEET_MAP.tsv` 32 scanned agents (WAL entry row added at cutover) · generated `FLEET_DIRECTORY.md` (38 listed) · 4 registered sweeps · **61 banked design patterns** (PAT-060 default-zero instrument [OTTO ABS_ISSUANCE find] + PAT-061 analysis-crowds-out-maintenance [REGINALD self-audit + PROME 4-agent corroboration]; PAT-054 carries the PROME ruling). Blueprint-maintenance queue: PAT-060 run-stamp line + PAT-061 build-session rule + frame-spec §5 (pre-register against the CARRYING filing).
 
 ## Open / structural debt
 
@@ -29,9 +29,9 @@
 
 ## Next actions
 
-1. **WP-W0 confirm → WAL cutover WP-W1..W6** (blocked on the REGINALD session; PROME docket ask routed).
+1. ~~WAL cutover~~ **DONE 7/25** — remaining tail = AGENTS.md row (PROME) + WAL first-solo L3 gate + profile at first firming.
 2. Falsification sweep ~8/1 + HAWK sunset adjudication.
-3. Production Review **on cadence 8/5** — the self-row L5 gate (staleness leg already demonstrated on-cadence 7/25).
+3. Production Review **on cadence 8/5** — the self-row L5 gate (staleness leg demonstrated on-cadence 7/25); grades WAL's first-solo mandates + spawned-mode card wave-1 presence.
 
 ## BOTTOM LINE
 
