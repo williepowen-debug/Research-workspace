@@ -183,9 +183,10 @@ $12B debt. DOJ indicted Patrick James (9 counts). Asset recovery <2%. **Jun 12 h
 | **Jul 29** | **CVNA Q2 2026 earnings — after close, call 5:30pm ET** | 🟠 **NEWLY DOCKETED Jul 25** `[CONF Businesswire]` — was absent from the docket. Consensus ~$0.42 EPS / ~$6.9B rev. **Short-seller window open** (Gotham's Jan 28 report landed ON earnings day); T-7 protocol sweep was missed |
 | **Nov 11** | Tricolor §341 (continued) — next-canonical observation point after Jun 17 continuance | 🟠 [CONF Verita Jun 9 via WINTERKORN] — next forward-window check on distribution-plan / $113M dispute |
 | ~~Oct 19~~ → **Jan 25 2027** | Tricolor executive trial — **Chu only** (Goodgame pleaded guilty + cooperating). Judge **Castel**, SDNY, 10am | 🟠 **RE-DATED Jul 7 (swept Jul 25)** — Feb 1 2027 reserved as alternative; Jul 29 = confirmation node. **Fraud-surface catalyst has left 2026 entirely** |
-| **Aug 15** | NY Fed Q2 2026 Household Debt & Credit | 🟠 `modeled` — aggregate-auto read; Invisible-Exit divergence check (Q1: $1.685T, transition 2.97% flat) |
+| **~Aug 6** | NY Fed Q2 2026 Household Debt & Credit | 🟠 `modeled` — **RE-DATED Jul 25 (PROME catch): the fleet's "~8/15" is a SATURDAY**; unannounced, cadence window **8/4-8/11**. Pin when the advisory posts. Aggregate-auto / Invisible-Exit divergence check (Q1: $1.685T, transition 2.97% flat) |
+| **Sep 1** | **DECISION OWED — OTTO-04 resolution metric** | 🔴 source Fitch direct / **re-base on the `[CONF SEC 10-D]` deep-subprime tranche** / resolve unobservable. Latest Fitch data = **March**; do not let this drift to Sep 30 |
 | **~Aug 17** | **EART 2026-4 (Exeter) ABS new-issue FWP / pricing window** | 🟡 `modeled` — NEW row. Exeter cadence ~2mo (2026-3 priced ~Jun 24) puts it **mid-late Aug, earlier than the "typically Sep" standing note**. EDGAR shows 0 filings as of Jul 25 (positive-controlled) |
-| **Aug 31** | **OTTO-30 resolve** | 🟠 — pre-registered falsification re-check (identical EDGAR FTS query) runs Aug 15 first |
+| **Aug 31** | **OTTO-30 resolve** | 🟠 — pre-registered falsification re-check (identical EDGAR FTS query) runs **Aug 15**, after small-bank Q2 10-Qs close ~Aug 14 |
 | **Sep 30** | **OTTO-04 / OTTO-29 / OTTO-32 resolve (triple)** | 🔴 |
 | **Dec 9** | Tricolor criminal Final Pre-Trial Conference (Castel, 2pm) | 🟡 newly docketed (WINTERKORN) |
 | **Dec 31** | OTTO-07 / OTTO-11 / OTTO-12 / OTTO-31 / **OTTO-33** resolve (year-end cluster) | 🟠 |
@@ -230,7 +231,7 @@ $12B debt. DOJ indicted Patrick James (9 counts). Asset recovery <2%. **Jun 12 h
 - research/outputs/ — RP-OTT-1.1–4.1 (15 reports)
 
 *Mar 20 check-ins (FOMC, CVNA, fraud, ABS, CFPB) and prior condensed check-ins archived to `workbook/STATUS_archive_20260325.md`*
-*Next triggers: **Jul 28 First Brands plan-confirmation trial opens (OTTO-32 resolver — multiday, expect process not verdict)**; **Jul 29 double — Tricolor trial-scheduling (Castel: Oct 19 vs Feb 2027) + CVNA Q2 after close (short-seller window open)**; ~Aug 14 small-bank Q2 10-Q window closes → **Aug 15 pre-registered OTTO-30 falsification re-check (identical EDGAR FTS query)**; Aug 15 NY Fed Q2 HDC; Aug (TBD) BDC Q2 10-Qs → $237M First Brands refresh becomes possible; Aug 31 OTTO-30 resolve; Sep 30 OTTO-04/29/32 resolve; Oct 19 Tricolor criminal trial (Castel); Nov 11 Tricolor §341 (continued)*
+*Next triggers: **Jul 28 First Brands plan-confirmation trial opens (OTTO-32 resolver — multiday, expect process not verdict)**; **Jul 29 double — Tricolor trial-scheduling (Castel: Oct 19 vs Feb 2027) + CVNA Q2 after close (short-seller window open)**; ~Aug 14 small-bank Q2 10-Q window closes → **Aug 15 pre-registered OTTO-30 falsification re-check (identical EDGAR FTS query)**; **~Aug 6** NY Fed Q2 HDC (re-dated; 8/15 was a Saturday); **Sep 1 OTTO-04 metric decision owed**; Aug (TBD) BDC Q2 10-Qs → $237M First Brands refresh becomes possible; Aug 31 OTTO-30 resolve; Sep 30 OTTO-04/29/32 resolve; Oct 19 Tricolor criminal trial (Castel); Nov 11 Tricolor §341 (continued)*
 
 ---
 

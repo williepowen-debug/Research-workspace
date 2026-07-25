@@ -4,7 +4,7 @@
 ✅ **21-day-dark catch-up + T-3 pre-7/28 sweep, all five Will-directed tasks complete.** The session's value was not where it was scoped: the assigned work (docket verify, $237M refresh, catalyst sweep, CVNA, boot fixes) all landed, but the material finding came from a channel OTTO wasn't watching at all — **the Tricolor criminal docket, where DOJ has now criminally charged both of OTTO's thesis mechanisms.** Full closeout run. All work committed local + auto-pushed.
 
 ## CHANGED
-- **🔴🔴 THESIS-LEVEL — DOJ charged both OTTO mechanisms.** Superseding 8-count indictment vs Chu (unsealed **Jun 24**) alleges executives *"manipulated delinquent loan data to make non-performing loans appear current"* (= **Invisible Exit / DQ-chain bypass**, previously OTTO's own inference) **and** *"pledged the same collateral to multiple lenders simultaneously"* (= **double-pledging**). DOJ invoked **18 U.S.C. §225 "financial kingpin"** — 10yr-life mandatory minimum, dormant over a decade. Alleges a **continuing enterprise from at least 2018** → **2018-2021 vintages implicated**, widening OTTO's 2022-centric frame. Ex-COO **Goodgame pleaded guilty Jun 24 and is cooperating** (flip from Jan not-guilty) → fires OTTO's standing 🟠 cooperating-witness trigger. Secondary-thesis conviction **MED-HIGH → HIGH on mechanism**.
+- **🔴🔴 THESIS-LEVEL — DOJ charged both OTTO mechanisms.** Superseding 8-count indictment vs Chu (unsealed **Jun 24**) alleges executives *"manipulated delinquent loan data to make non-performing loans appear current"* (= **Invisible Exit / DQ-chain bypass**, previously OTTO's own inference) **and** *"pledged the same collateral to multiple lenders simultaneously"* (= **double-pledging**). DOJ invoked **18 U.S.C. §225 "financial kingpin"** — 10yr-life mandatory minimum, dormant over a decade. Alleges a **continuing enterprise from at least 2018** → *originations* tainted from 2018. *(My same-session gloss that this implicated 2018-2021 **vintages** was overstated and is retracted — see RP-OTT-1.6 below.)* Ex-COO **Goodgame pleaded guilty Jun 24 and is cooperating** (flip from Jan not-guilty) → fires OTTO's standing 🟠 cooperating-witness trigger. Secondary-thesis conviction **MED-HIGH → HIGH on mechanism**.
 - **🔴 New exposure — TFIN/TBK Bank** `[CONF SEC 10-Q 7/21]`: agent on a **$60.5M Tricolor floorplan facility, ~$22.5M held, UNRESERVED** 9.5 months post-Ch.7, on a first-priority inventory claim that other creditors contest. **Double-pledge mechanic in a third collateral class.** ~$38M with unnamed syndicate participants = open discovery channel. 7th named Tricolor-exposed US bank.
 - **Predictions:** OTTO-30 **45→12%** (complete EDGAR FTS: zero new bank names in-window; TFIN disclosed Sep 2025 = OBK trap #2). OTTO-31 **30→12%** (MTB Q2 record EPS $5.32, no wind-down language, custody franchise actively promoted). OTTO-32 **held 85%, mechanics reframed** (Jul 28 = multiday contested trial, not a verdict). **OTTO-33 created** (60%, new counterparty implicated by Dec 31) — the book had zero criminal-track exposure.
 - **Calendar:** Tricolor trial **Oct 19 2026 → Jan 25 2027** (Castel; Feb 1 reserved) — fraud-surface catalyst leaves 2026. **CVNA Q2 = Jul 29 after close**, was absent from the docket entirely. +Jul 24 FB status conference, Jul 27 ballot cert, Aug 17 EART 2026-4, Dec 9 Tricolor FPTC. Apr 27 De Luca **examiner interim report** integrated (3-month-old unintegrated primary; investigation **paused, $7M budget exhausted**).
@@ -18,23 +18,42 @@
 
 **Second theme: OTTO's dominant failure mode is measure-design.** Four claims (26, 29, 04, 30) have failed or are failing on *how they were measured* rather than on the world. OTTO-30 measured OTTO's own discovery latency — press-sampling missed TFIN for ten months and OBK for seven, and one EDGAR full-text query found both. OTTO-33 is the first prediction written with its instrument named in-row and a pre-registered re-check.
 
+**Late addition — RP-OTT-1.6 (Will-commissioned Tier 1).** Pulled all 11 Tricolor ABS-15G filings + 12 agreed-upon-procedures exhibits. Two results: (a) the 2018-2021 vintage lead is **retired** — only 2 of 11 deals sit there, and my headline was overstated; (b) **the diligence was structurally incapable of catching either alleged fraud** — the AUPs reconcile the data tape to *Tricolor's own servicing system*, the system the indictment says was falsified, so a doctored source and its tape agree by construction. Seven years, three firms, zero material exceptions. This converts the Invisible Exit's weakest link ("why did nobody notice?") from a plausibility argument into a structural one.
+
 **Net directional change is small; net epistemic change is large.** The two-leg split (fraud 🔴🔴 / systemic 🟠 disconfirmed) widened on both sides — Ally's 5th straight improving quarter and zero new bank names on one side, a third collateral class and a federal indictment on the other.
 
 ## GAPS
-- **2018-2021 vintage thread NOT worked** — the "at least 2018" allegation says OTTO's 2022-vintage decomposition is too narrow by four years. Highest-value unworked lead.
-- **`thesis/THESIS.md` still v1.1** — owes a v1.2 for the Secondary-conviction upgrade + vintage widening. STATUS mirror carries it; canonical does not.
+- ~~2018-2021 vintage thread~~ ✅ **WORKED AND RETIRED (RP-OTT-1.6, same session).** My framing was overstated: Tricolor securitized only **2** deals in 2018-2021 vs **9** in 2022-2025. The 2022-centric focus was correct. Corrected in STATUS/CHANGELOG/NEXUS_BRIEF (the last had already shipped with the bad gloss).
+- **`thesis/THESIS.md` still v1.1** — owes a v1.2 for the Secondary-conviction upgrade (MED-HIGH → HIGH on mechanism) **and the RP-OTT-1.6 diligence finding**. STATUS mirror carries both; canonical does not. **Do NOT carry the retracted 2018-2021 vintage widening into v1.2.**
 - **Fitch has produced no new data since March** — OTTO-04's key input is 4 months stale by data-month; summer re-deterioration remains unobserved. Not fixable from OTTO's sources.
 - **Jul 20 FB vote outcome not public** (Jul 27 ballot cert) and **Jul 24 FB status conference outcome unknown** (single-source row).
 - Two executive names from the examiner report **failed corroboration and were deliberately not propagated.**
-- Carried: PREDICTIONS_ARCHIVE scoreboard stale (5/5 vs actual 5/7; OTTO-05/-28 post-mortems missing); 3 workbook ledgers stale (+80/+80/+101d) — freeze-or-refresh; DQ-series reconciliation; Jun-16 Carvana Chancery dismissal identity.
+- ✅ **Closed in the peer-suggestion pass:** PREDICTIONS_ARCHIVE scoreboard backfilled (5/5 → **5/7**, + OTTO-05/-28 post-mortems + a failure-mode table); **4** ledgers frozen (KB / CROSS_AGENT_LOG / EXTENSION_PROXY / **ABS_ISSUANCE** — the last was *inverted*, not merely stale, and its defect surfaced OTTO-07's instrument problem); RESEARCH_STATUS ACTIVE MONITORING deleted; EDGAR_8K_MONITOR repurposed as the instrument registry.
+- Still carried: DQ-series reconciliation; Jun-16 Carvana Chancery dismissal identity; `shelf_halt_monitor.py` has only one run (re-run monthly).
 
 ## WILL_NEEDS
 - **Nothing blocking.** No position (TRADE.md FROZEN), so none of this is trade-actionable today.
 - **Jul 29 is the day to care about:** CVNA Q2 after close, with the stock −14.4% off its Jul 16 high, an active Gotham short thesis that last dropped **on earnings day**, and OTTO's T-7 short-seller protocol unrun. Watch-only unless re-entry is contemplated — in which case, not in the 48h prior.
 - **Jul 28 will not deliver a verdict.** If anyone in the fleet is expecting OTTO-32 to resolve that day, it won't — multiday contested trial.
-- Corrections sent to PROME: WAL/Jefferies is a **Mar 6** item not 7/21; the STATUS boot-gate produced 7 date-drift flags of which **5 were false positives and 2 were historical citations**.
+- Corrections sent to PROME: WAL/Jefferies is a **Mar 6** item, not 7/21. **⚠ And one correction OF MINE was itself retracted:** I claimed 5 of 7 boot-gate date flags were false positives from a matcher bug — wrong. Firetime compares against **PROME's DOCKET**, not OTTO's docket, so the flags were correct. I audited a peer's gate against my own data and called their system broken. Retraction packet sent.
 
 ## FOLLOW-UP (priority queue)
-**P1:** Work the **2018-2021 vintage** implication of the "since 2018" enterprise allegation. Pull the **TBK syndicate roster** (~$38M unnamed participants) — drives OTTO-33.
-**P2:** Sweep the Jul 27-29 cluster outcomes (ballot cert → FB trial → Castel + CVNA). Bump `thesis/THESIS.md` → v1.2.
-**P3:** Aug 15 pre-registered OTTO-30 re-check. August BDC Q2 10-Qs → $237M refresh → route to BROCK. PREDICTIONS_ARCHIVE backfill. Freeze-or-refresh the 3 stale ledgers.
+**P1 — clocked:** Sweep the **Jul 27-29 cluster** (ballot cert → FB trial opens → Castel + CVNA Q2). **Do not score OTTO-32 off a Jul 28 headline** — multiday contested trial. Pull the **TBK syndicate roster** (~$38M unnamed participants) — drives OTTO-33.
+**P2:** **Tier 2 forensic screen — run the 45-min feasibility gate first** ([`research/TIER2_FORENSIC_SCREEN_SPEC.md`](research/TIER2_FORENSIC_SCREEN_SPEC.md)); recommended fallback is the Tier 1 ABS-15G diagnostic sweep across CPS/Lendbuzz/GLS/ACA/Bridgecrest. Bump `thesis/THESIS.md` → v1.2 (**exclude the retracted 2018-2021 widening**).
+**P3:** Aug 15 pre-registered OTTO-30 re-check. **2026-09-01 OTTO-04 metric decision** (dated CATALYSTS row). August BDC Q2 10-Qs → $237M refresh → BROCK. Re-run `shelf_halt_monitor.py` monthly.
+
+---
+
+## TIER 2 HANDOFF (Will-requested, 2026-07-25)
+
+**Status: spec written, work NOT started.** Full brief: [`research/TIER2_FORENSIC_SCREEN_SPEC.md`](research/TIER2_FORENSIC_SCREEN_SPEC.md).
+
+**The idea:** if Tricolor's alleged manipulation of delinquency data leaves a statistical signature in reported ABS pool performance, screen other subprime shelves for it — turning the Cockroach thesis from reactive (wait for a collapse) into a **detection instrument**.
+
+**The structural problem, stated so nobody rediscovers it at hour two:** Tier 1 established Tricolor's deals were **144A private placements with no public performance data**. **The one confirmed fraud pool cannot be used to build or validate the signature.** No training example, no calibrated threshold, no measurable false-negative rate. Every output is a *lead*, never a finding.
+
+**Gate before building (~45 min):** can the primary metric — **DQ-to-CNL divergence** (a pool reporting low delinquency but realizing high cumulative losses is arithmetically suspicious) — separate **EART 2022-2/-3 (CNL 26.3%/27.6%)** from **SDART 2022-6 (12.1%)**? Those differ 2.3× on known ground truth. **If the metric can't see that, it cannot see a subtler fraud signature — kill it and publish the negative result.**
+
+**Recommended fallback, and honestly the better bet:** run **Tier 1's diagnostic set** across CPS / Lendbuzz / GLS / ACA / **Bridgecrest** — *what is the tape compared against; who chose the sample; sample % of pool; has the provider rotated.* Requires no statistics, has no base-rate false-positive problem, works on 144A shelves via ABS-15G, and Tier 1 already proved it produces real findings.
+
+**Why the caution is load-bearing:** this session found **three** measure-design defects (OTTO-30's instrument, OTTO-04's metric, OTTO-07's default-zero ledger). Building a fourth instrument with no validation case is precisely how a fourth defect gets created. The gate exists to make failure cheap.
