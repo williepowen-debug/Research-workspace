@@ -1,6 +1,6 @@
 # WAL THESIS — CHANGELOG
 
-Tracks all changes to `WAL/THESIS.md`. Reverse chronological. Mirrors format of master `../thesis/CHANGELOG.md`.
+Tracks all changes to `WAL/THESIS.md`. Reverse chronological. Mirrors format of master `../REGINALD/thesis/CHANGELOG.md`.
 
 **Versioning convention:**
 - `vX.Y` — major (X) = structural thesis change (vector resolved / disconfirmed / added, framing change, conviction reversal). Minor (Y) = refinement (updated probability, new evidence for existing view, threshold adjustment).
@@ -10,7 +10,7 @@ Tracks all changes to `WAL/THESIS.md`. Reverse chronological. Mirrors format of 
 
 ## v2.3 — 2026-07-25 — **POST-Q2 SECOND-DATA-POINT RE-MARK. The bear WEAKENED and the margin of safety COMPRESSED.**
 
-**Trigger:** WAL Q2 2026 print (8-K acc **0001628280-26-049001**, AMC 7/21; call 7/22 noon ET), graded in two stages against a frame frozen 7/10-7/20 → `../reports/2026-07-21_WAL_Q2_grade.md`, `../reports/2026-07-22_WAL_Q2_stage2_grade.md`. **Verdict: NOT the surprise tier, NO FIRE.** This entry is the deferred re-mark those grades scheduled.
+**Trigger:** WAL Q2 2026 print (8-K acc **0001628280-26-049001**, AMC 7/21; call 7/22 noon ET), graded in two stages against a frame frozen 7/10-7/20 → `../REGINALD/reports/2026-07-21_WAL_Q2_grade.md`, `../REGINALD/reports/2026-07-22_WAL_Q2_stage2_grade.md`. **Verdict: NOT the surprise tier, NO FIRE.** This entry is the deferred re-mark those grades scheduled.
 
 ### Old view → new view
 
@@ -71,7 +71,7 @@ v2.3 covers **THESIS.md · SCENARIOS.md · PREDICTIONS.tsv re-grades · this CHA
 - **REG-24 65%→25%** — office-classified $316M (28% of $1,128M classified assets, slide-12 VISUAL confirm off EX-99.2 images; Q1↔Q2 mix-label ambiguity resolved — Q2's 38% segment is C&I) and FALLING from the $407M baseline; zero new office migrations on the 7/22 call (§3 not triggered); office criticized in TOTAL is $485M < the $500M line; H2 six-loan NPL-resolution path reduces the stock. Residual = pending $99M appraisal + $946M 2026 office maturity wall + 37%-criticized CLD/lease-up slice.
 - **REG-25 72%→50%** — Q2 window spent NEUTRAL (37bps, Stage-1 7/21); FY 25–35bps guide reaffirmed with H2 "a little above midpoint"; mgmt declared charge-off dollars+rate "peaked." Held at coin-flip (not lower) because Q1 39/Q2 37 run just under the 40 line and Q3 contains live realization events (the pending $99M appraisal; 3–4 of the six NPL resolutions closing in Q3).
 - **W5 disposition letter FINAL: (B)** — $99M life-sci loan in nonaccrual, $0 charged off; thesis grade AMBIGUOUS-lean-BEAR stands. New call color softens within-band: borrower brought the loan CURRENT end-June + prospective tenant; appraisal still pending (the live Q3 mark risk); NOT one of the Investor-Day six; ACL/nonaccrual coverage dipped to 96%.
-- Record: `../reports/2026-07-22_WAL_Q2_stage2_grade.md`. This session ran the drift-grep at close (lesson from the 7/16→7/17 fossilization).
+- Record: `../REGINALD/reports/2026-07-22_WAL_Q2_stage2_grade.md`. This session ran the drift-grep at close (lesson from the 7/16→7/17 fossilization).
 
 **Old view → new view:** REG-24/25 at 65/72 → **25/50**; REG-26 stays RESOLVED/DISCONFIRMED (7/21); Bear-med 25 / EV $68.93 / PT $50-68 / v2.2.1 UNCHANGED — **v2.3 re-mark is the next scheduled pass** (pre-cutover lane per DAEDALUS 7/22, deliberately not done at Stage-2).
 
@@ -82,7 +82,7 @@ v2.3 covers **THESIS.md · SCENARIOS.md · PREDICTIONS.tsv re-grades · this CHA
 **What changed (no version bump — probability re-grade + hygiene, structural vectors untouched):**
 - **7/16 (teams-spawn): REG-24 70→65%** (DEWEY prompt-13 un-blind: classified FLAT $947M, SM +24% to $403M but no conversion; office not separately tagged; base rate on aggregate criticized surges reverts; benign 7/14-16 cohort) and **REG-25 75→72%** (NCOs lag + cohort NCO decelerating hard [MTB 0.23%/WFC 0.34%]; held high by the two-window Q2-OR-Q3 structure + the $99M idiosyncratic leg). Written to PREDICTIONS.tsv same-day but **the closeout drift-grep was skipped**, leaving 70/75 fossilized in 8+ display surfaces (this file's tracked THESIS.md included) until the 7/17 audit swept them. REG-26 (33%, the >55bps+charge-off surprise) was registered 7/10.
 - **7/10:** print-date corrections (Jul-30/late-Jul → confirmed Tue Jul 21 AMC) touched THESIS/SCENARIOS without entries — logged here retroactively.
-- **7/17 audit:** phantom "Sep $77.5P" corrected across THESIS/SCENARIOS/STATUS (canonical Sep core = $67.5P+$70P per ../POSITIONS.md); SCENARIOS EV-spot staleness bannered ($80.15 [6/5] → $81.88 [7/17], overvaluation 16.3%→~18.8% at live spot, EV re-marks at the print).
+- **7/17 audit:** phantom "Sep $77.5P" corrected across THESIS/SCENARIOS/STATUS (canonical Sep core = $67.5P+$70P per POSITIONS.md); SCENARIOS EV-spot staleness bannered ($80.15 [6/5] → $81.88 [7/17], overvaluation 16.3%→~18.8% at live spot, EV re-marks at the print).
 
 **Old view → new view:** REG-24/25 at 70/75 → **65/72**; everything else unchanged (Bear-med 25, EV $68.93, PT $50-68, v2.2.1).
 **Lesson:** probability changes REQUIRE the drift-grep + a changelog entry at the changing session, not at the next audit (repeat of the 6/2 propagation finding).
@@ -400,7 +400,7 @@ V2.1 is the **second time in 24 hours** that external grep/audit caught a wrong 
 - Slide 24: WAL at **7% Ex-Mtg Credit** (vs peer median 6%, average 8%). **At cohort center, not outlier.** Original NDFI-opacity thesis disconfirmed at sizing level.
 - Slide 20: Lender Finance ($2.3B) is **structurally protected** — ~2,000 obligors / 50+ facilities / no single >$30M / 53% effective advance rate / 1.9-yr duration.
 - CLN reference pool **shrinking**: $8.5B (Mar-25) → $8.1B (Dec-25) → $7.9B (Mar-26). Down $600M YoY. CLN-arbitrage sub-vector disconfirmed.
-- $7.155B Mortgage Warehouse & MSR (12% of loans, 30x peer median) is the **lone confirming sub-vector** — sits in C&I, not NDFI (Call Report mechanics), and warehouse-counterparty work (`../domain/WAREHOUSE_EXPOSURE.md`) shows transmission lands at Apollo Atlas SP, not WAL.
+- $7.155B Mortgage Warehouse & MSR (12% of loans, 30x peer median) is the **lone confirming sub-vector** — sits in C&I, not NDFI (Call Report mechanics), and warehouse-counterparty work (`../REGINALD/domain/WAREHOUSE_EXPOSURE.md`) shows transmission lands at Apollo Atlas SP, not WAL.
 - V3 reduced from "major thesis pillar" to "quality-of-names question on the 2,000 underlying lender-finance obligors."
 
 **Mgmt outlook tension (Slide 17):**
@@ -462,4 +462,4 @@ V2.1 is the **second time in 24 hours** that external grep/audit caught a wrong 
 ---
 
 *Thesis → `THESIS.md`*
-*Master thesis changelog → `../thesis/CHANGELOG.md`*
+*Master thesis changelog → `../REGINALD/thesis/CHANGELOG.md`*

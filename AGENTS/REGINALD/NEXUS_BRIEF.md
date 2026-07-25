@@ -13,7 +13,7 @@
 | Date (verified) | Print | REGINALD role | Frozen frame |
 |---|---|---|---|
 | **Mon 7/20 5:30pm** | **ZION Q2** | cross-read, no position | `reports/2026-07-18_ZION_monday_crossread_scaffold.md` — lead same-tier NON-CREDIT read (AOCI/NIM) → sharpens Tue's §4 falsifier; NOT a fade trigger |
-| **Tue 7/21 AMC** | **WAL Q2** (primary) + **OZK Q2** (peer) — **same-day double-fire** | primary | `WAL/Q2_GRADING_FRAME_2026-07-21.md` (REG-24/25/26) + OZK card `../OZK/workbook/Q2_2026_SCORING_CARD.md` (OZK-05→09) |
+| **Tue 7/21 AMC** | **WAL Q2** (primary) + **OZK Q2** (peer) — **same-day double-fire** | primary | `../WAL/Q2_GRADING_FRAME_2026-07-21.md` (REG-24/25/26) + OZK card `../OZK/workbook/Q2_2026_SCORING_CARD.md` (OZK-05→09) |
 | **Tue 7/21 7:30am** | **ALLY** (monoline gate) | monitor | ⚑ RED pin: informs path-(a) ONLY — do NOT fade (b)/(c) bank puts on an ALLY beat |
 | ~~Wed 7/22 AMC~~ **✅ GRADED 7/25** | **EGBN Q2** | primary | **DE-RISKING THROUGH REALIZED LOSS, not deterioration; escalation NOT triggered.** Coverage **109.01%** (NEUTRAL band) · §3=(A) charged off, NCO 2.78% ann. on disposition · §5 = a **4th pattern the frame missed** (see discriminator above) · ⚠️ 30-89 "+145%" is ONE **$35.4M loan already paid off in full**, ex-item −52%. Grade → `reports/2026-07-25_EGBN_Q2_grade_plus_FL_smalltier_watchcard_fill.md` |
 | **7/22→7/28** — 3 of 4 **✅ GRADED 7/25** | **small-tier FL CRE-DQ** (BKU ✅ · SSB ✅ · AMTB ✅ · **SBCF 7/28 STILL LIVE**) | primary (breadth) | **3-of-3 REVERT → LUMPINESS CONFIRMED (provisional): creep does NOT broaden, severity stays concentrated at OZK/EGBN.** ⚠️ **SPEC FAILURE disclosed: the card's primary metric (CRE 30-89 accruing) is a 10-Q table and no Q2 10-Q was filed — legs marked PENDING-10-Q, lagging buckets NOT substituted.** ⚠️ 2 composition traps + 1 denominator catch (BKU headline inverts CRE detail; AMTB SFR **rate** fell 1.72→1.60% while dollars rose +320% YoY) |
@@ -58,7 +58,7 @@ Benchmark stack going in: JPM/WFC/C/MTB benign 7/14-15 + **CFG clean 7/16** (NCO
 
 ## NEXT DECISION POINT
 
-- **What:** Grade the WAL Q2 print against `WAL/Q2_GRADING_FRAME_2026-07-21.md` **verbatim** (ladder: 40-55bps PRICED / >55bps + $99M charge-off = REG-26 surprise; $99M disposition A/B/C = conviction discriminator; 2+ new Office walks = v2.5/v3 escalation) and OZK against its $15-30M fail-band. Then update PREDICTIONS.tsv + WAL/CHANGELOG same-session (the 7/16 re-grade propagation failure is the cautionary tale — see 7/17 audit).
+- **What:** Grade the WAL Q2 print against `../WAL/Q2_GRADING_FRAME_2026-07-21.md` **verbatim** (ladder: 40-55bps PRICED / >55bps + $99M charge-off = REG-26 surprise; $99M disposition A/B/C = conviction discriminator; 2+ new Office walks = v2.5/v3 escalation) and OZK against its $15-30M fail-band. Then update PREDICTIONS.tsv + ../WAL/CHANGELOG same-session (the 7/16 re-grade propagation failure is the cautionary tale — see 7/17 audit).
 - **When:** Tue Jul 21 AMC / Wed 7/22 call.
 - **Falsifier:** REG-24 AND REG-25 both fail + $99M in disposition (C) cure = bear thesis disconfirmed at source (pre-registered exit anchor).
 

@@ -1,7 +1,7 @@
 # WAL — Scenario Analysis & Target Prices
 > **✅ v2.3 RE-MARK LANDED 2026-07-25 — the Q2 second-data-point test is now IN the numbers.** EV **$68.93 → $73.92**; overvaluation **12.4%** at spot $83.11 [7/24 close, market.py]; PT **$52-74**. See §EV SUMMARY (v2.3) immediately below — the v2.2.1 table is preserved beneath it as the audit trail. **The bear weakened: EV rose $4.99 while price rose only $1.23, so the margin of safety COMPRESSED ~6.4pp.**
 > **⚠️ RESIDUAL CORRECTION (2026-07-17 audit — still applies):**
-> **POSITION TRUTH:** every "$77.5P **Sep**" reference below is a PHANTOM — per canonical `../POSITIONS.md` (5/8 broker refresh + 6/19 reconcile), the $77.5P was **Jun-18 tenor, cleared 6/18**; the live Sep core is **$67.5P + $70P** (plus RH $77.5P **Aug-21**, folded 7/20). The strike-by-strike sections were built in May on the mis-recorded book and are **NOT rebuilt in v2.3** — position-architecture rebuild is reserved for the `AGENTS/WAL/` standup (PROME WP-W2). Grep `../POSITIONS.md` before ANY position use — never this file.
+> **POSITION TRUTH:** every "$77.5P **Sep**" reference below is a PHANTOM — per canonical `POSITIONS.md` (5/8 broker refresh + 6/19 reconcile), the $77.5P was **Jun-18 tenor, cleared 6/18**; the live Sep core is **$67.5P + $70P** (plus RH $77.5P **Aug-21**, folded 7/20). The strike-by-strike sections were built in May on the mis-recorded book and are **NOT rebuilt in v2.3** — position-architecture rebuild is reserved for the `AGENTS/WAL/` standup (PROME WP-W2). Grep `POSITIONS.md` before ANY position use — never this file.
 
 **Created:** 2026-03-25 (v1.0) | **Last Updated:** **2026-07-25 (v2.3 — Q2 print re-mark: probabilities + ranges + EV off Q2 actuals)**; prior 2026-06-08 PM (v2.2.1 — macro-NIM tailwind softening + cohort RESOLVED → Hyp A); date-fix 7/10; audit banner 7/17
 **Current Price:** **$83.11** [7/24 close, market.py] | **TBV:** $61.14 [Q1 — Q2 TBV not re-pulled] | **CET1:** 11.0% [Q2 confirmed]
@@ -18,7 +18,7 @@
 
 ## EXPECTED VALUE SUMMARY (v2.3 — post-Q2, multi-quarter unconditional) ★ CURRENT
 
-**Trigger:** the WAL Q2 print (7/21 AMC + 7/22 call), graded in two stages → `../reports/2026-07-21_WAL_Q2_grade.md` + `../reports/2026-07-22_WAL_Q2_stage2_grade.md`. **Verdict was NOT-surprise-tier / NO FIRE**, so this re-mark moves weight OFF the bear and ONTO base/bull. Direction is bear-unfavourable and stated as such.
+**Trigger:** the WAL Q2 print (7/21 AMC + 7/22 call), graded in two stages → `../REGINALD/reports/2026-07-21_WAL_Q2_grade.md` + `../REGINALD/reports/2026-07-22_WAL_Q2_stage2_grade.md`. **Verdict was NOT-surprise-tier / NO FIRE**, so this re-mark moves weight OFF the bear and ONTO base/bull. Direction is bear-unfavourable and stated as such.
 
 | Scenario | v2.2.1 Prob | **v2.3 Prob** | Δ | v2.2.1 Range | **v2.3 Range** | Midpoint | Weighted |
 |----------|------------|--------------|----|-------------|---------------|----------|----------|
@@ -52,7 +52,7 @@ Ranges were held flat from v2.1→v2.2.1 on the principle "no structural vector 
 **PT $52-74** (was $50-68). **Convention, now explicit: PT = [Bear-fast range low, EV].** Prior versions drifted because the convention was never written down ($52-70 → $50-68 with no stated rule). Bear-fast low $52 · EV $73.92 → **$52-74**.
 
 ### What v2.3 does NOT do
-- **Does NOT rebuild the strike-by-strike position architecture.** Reserved for the `AGENTS/WAL/` standup (PROME WP-W2). Position truth stays `../POSITIONS.md`.
+- **Does NOT rebuild the strike-by-strike position architecture.** Reserved for the `AGENTS/WAL/` standup (PROME WP-W2). Position truth stays `POSITIONS.md`.
 - **Does NOT touch `INDEX.md` or `WEAKNESSES.md`** — both fold into the WP-W2 standup by explicit sequencing instruction (Will/PROME 7/25, DAEDALUS 7/22 ruling #5). **They therefore still carry v2.2.1 / EV $68.93 / PT $50-68 — a KNOWN, DOCUMENTED divergence, not silent rot.** See CHANGELOG for the handoff list.
 - **Does NOT re-open the cohort question.** Hyp A (genuine cohort improvement) stands and was **re-confirmed twice more** since: WALTER's SIG-723-016 Q2 mosaic (cohort improving with fat idiosyncratic tails) and my own 7/25 FL small-tier watch-card fill (3-of-3 REVERT → creep does not broaden).
 - **Does NOT change position posture.** No trade recommendation here; any action needs TERRY + Will [Approve] + a live chain (rule #4/#5).
@@ -84,9 +84,9 @@ Ranges were held flat from v2.1→v2.2.1 on the principle "no structural vector 
 
 ### What v2.2.1 does NOT do
 
-- Does NOT reweight on cohort framing. **Cohort NCO decomposition RESOLVED 6/8 PM → Hypothesis A (genuine cohort improvement)** — ZION/CFG/MTB GENUINE, FITB confounded-excluded, EGBN cosmetic-outlier (see THESIS COHORT CONTEXT + `../research/COHORT_NCO_DECOMP_2026-06-08.md`). Bear-medium **stays 25, NO revert toward 30** (the revert was the Hyp B path, now closed); WAL bear narrows to idiosyncratic, "sharpen to WAL-specific" framing EARNED. Re-openable at Q2 (maturity wall).
-- Does NOT change REG-24 or REG-25 confidence — single-credit mechanical math doesn't depend on NIM. *(Confidences at this writing 70/75; re-graded **65/72** on 7/16 — canonical `../workbook/PREDICTIONS.tsv`.)*
-- Does NOT change position posture. Sep core (**$67.5P / $70P** per `../POSITIONS.md` — the "$77.5P Sep" originally written here was the mis-recorded Jun-18 position, see 7/17 banner) still positioned for Q2 print. Jun 18 cluster still requires its own decision (decision window ~6/11 — substance owed to PROME reply rests on this v2.2.1 framing).
+- Does NOT reweight on cohort framing. **Cohort NCO decomposition RESOLVED 6/8 PM → Hypothesis A (genuine cohort improvement)** — ZION/CFG/MTB GENUINE, FITB confounded-excluded, EGBN cosmetic-outlier (see THESIS COHORT CONTEXT + `../REGINALD/research/COHORT_NCO_DECOMP_2026-06-08.md`). Bear-medium **stays 25, NO revert toward 30** (the revert was the Hyp B path, now closed); WAL bear narrows to idiosyncratic, "sharpen to WAL-specific" framing EARNED. Re-openable at Q2 (maturity wall).
+- Does NOT change REG-24 or REG-25 confidence — single-credit mechanical math doesn't depend on NIM. *(Confidences at this writing 70/75; re-graded **65/72** on 7/16 — canonical `workbook/PREDICTIONS.tsv`.)*
+- Does NOT change position posture. Sep core (**$67.5P / $70P** per `POSITIONS.md` — the "$77.5P Sep" originally written here was the mis-recorded Jun-18 position, see 7/17 banner) still positioned for Q2 print. Jun 18 cluster still requires its own decision (decision window ~6/11 — substance owed to PROME reply rests on this v2.2.1 framing).
 
 ### v2.2 unconditional table preserved as reference
 
@@ -475,4 +475,4 @@ The remaining mispricing is **structural CRE tail-risk concentration**, not **fa
 
 ---
 
-*KB evidence: 105 rows | Master thesis: `THESIS.md` v2.2.1 | Changelog: `CHANGELOG.md` | Weaknesses: `WEAKNESSES.md` | Q1 analysis: `Q1_2026_ANALYSIS.md` | Round 2 deck/press detail: `sources/q1_2026/` | 10-Q drill: `../research/WAL_10Q_DRILL_2026-05-21.md`*
+*KB evidence: 105 rows | Master thesis: `THESIS.md` v2.2.1 | Changelog: `CHANGELOG.md` | Weaknesses: `WEAKNESSES.md` | Q1 analysis: `Q1_2026_ANALYSIS.md` | Round 2 deck/press detail: `sources/q1_2026/` | 10-Q drill: `../REGINALD/research/WAL_10Q_DRILL_2026-05-21.md`*

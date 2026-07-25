@@ -18,13 +18,13 @@ WAL Q2 2026 (8-K acc 0001628280-26-049001, AMC 7/21; call 7/22 noon) was graded 
 
 **Why v2.3 and not v2.2.2:** this is the pre-designated second-data-point re-mark. It changes probabilities, **ranges** (first range edit since v2.1), EV, PT, *and* the PT convention — and it resolves B1's disposition and REG-26. That is more than a refinement.
 
-**Scope boundary (explicit):** v2.3 covers THESIS + SCENARIOS + the re-grades + CHANGELOG. It deliberately does **NOT** touch `INDEX.md` or `WEAKNESSES.md`, which fold into the `AGENTS/WAL/` standup (PROME WP-W2) by sequencing instruction — **they still carry v2.2.1 / EV $68.93 / PT $50-68 as a KNOWN, DOCUMENTED divergence.** Position architecture also stays for the standup; position truth is `../POSITIONS.md` (rule #4).
+**Scope boundary (explicit):** v2.3 covers THESIS + SCENARIOS + the re-grades + CHANGELOG. It deliberately does **NOT** touch `INDEX.md` or `WEAKNESSES.md`, which fold into the `AGENTS/WAL/` standup (PROME WP-W2) by sequencing instruction — **they still carry v2.2.1 / EV $68.93 / PT $50-68 as a KNOWN, DOCUMENTED divergence.** Position architecture also stays for the standup; position truth is `POSITIONS.md` (rule #4).
 
 ---
 
 ## CORE THESIS (v2.2.1 — SUPERSEDED 2026-07-25, preserved for reference)
 
-v2.2 structural vectors UNCHANGED. v2.2.1 adds **macro-tailwind context** (NIM-compression mechanism softened by 5/20 20Y auction clean print + 5/22 Waller easing-bias-removal pivot) and **cohort-signal context** (SIG-030 NPA improvement at 5/10 names — **NCO decomposition done 6/8 PM → Hypothesis A: genuine cohort improvement; "sharpen to WAL-specific" framing now EARNED by data, no weight change**). Bear-medium probability trimmed 30% → 25% on **loss-absorption channel only** (terminal effect: higher PPE buffer absorbs same credit losses without stock-breaking event). Recognition-delay (timing) channel handled by existing Sep tenor — NOT included in weight cut, to avoid double-counting. Base 33% → 35%, Bull 18% → 21%. EV $67.98 → $68.93. **Overvaluation (÷EV convention pinned 6/8): 16.3% — WIDENED ~2pp from v2.2's 14.2%** (price rose $2.52 vs EV $0.95; directionally bear-supportive). PT range $50-68 UNCHANGED. REG-24/REG-25 confidence UNCHANGED at v2.2.1 *(since re-graded to 65/72 on 7/16 — see predictions table)*. Position implications: UNCHANGED — Sep core (**$67.5P + $70P** per `../POSITIONS.md`; the "$77.5P Sep" originally written here was the mis-recorded Jun-18 position, fixed 7/17) still positioned for the Q2 print (confirmed Tue Jul 21 AMC).
+v2.2 structural vectors UNCHANGED. v2.2.1 adds **macro-tailwind context** (NIM-compression mechanism softened by 5/20 20Y auction clean print + 5/22 Waller easing-bias-removal pivot) and **cohort-signal context** (SIG-030 NPA improvement at 5/10 names — **NCO decomposition done 6/8 PM → Hypothesis A: genuine cohort improvement; "sharpen to WAL-specific" framing now EARNED by data, no weight change**). Bear-medium probability trimmed 30% → 25% on **loss-absorption channel only** (terminal effect: higher PPE buffer absorbs same credit losses without stock-breaking event). Recognition-delay (timing) channel handled by existing Sep tenor — NOT included in weight cut, to avoid double-counting. Base 33% → 35%, Bull 18% → 21%. EV $67.98 → $68.93. **Overvaluation (÷EV convention pinned 6/8): 16.3% — WIDENED ~2pp from v2.2's 14.2%** (price rose $2.52 vs EV $0.95; directionally bear-supportive). PT range $50-68 UNCHANGED. REG-24/REG-25 confidence UNCHANGED at v2.2.1 *(since re-graded to 65/72 on 7/16 — see predictions table)*. Position implications: UNCHANGED — Sep core (**$67.5P + $70P** per `POSITIONS.md`; the "$77.5P Sep" originally written here was the mis-recorded Jun-18 position, fixed 7/17) still positioned for the Q2 print (confirmed Tue Jul 21 AMC).
 
 **Why v2.2.1 not v2.3:** refinement only. NO structural vector change. B1 fire / V4 Curley / V1 MI3 pending / leading-bucket migration / V2 inventory CLEAN / V3 cohort-median CONFIRMED — all stand.
 
@@ -71,7 +71,7 @@ The 5pp Bear-medium cut (30% → 25%) is justified by the **terminal effect**, n
 
 - **Loss-absorption channel (TERMINAL — included in weight cut):** Higher pre-provision earnings from NII tailwind (no-cut + steady NIM on variable-rate book) increases WAL's capacity to absorb the same B1-class credit losses without producing a stock-breaking event. The Bear-medium scenario range $58-66 is conditional on a stock-breaking recognition event during Q2-Q3; a stronger loss-absorption buffer raises the credit-event magnitude required to cross that range. **Legitimately trims bear-medium weight.**
 
-- **Recognition-delay channel (TIMING — NOT included in weight cut):** Cheaper funding → easier extend-and-pretend → credit event lands later. This is a tenor effect, already handled by existing Sep-dated positions (Sep **$67.5P + $70P** per `../POSITIONS.md` — strike list corrected 7/17) which span the Jul-21 Q2 print. Including timing in WEIGHT when it's already handled by TENOR would **double-count the delay** against positions already paid for the window.
+- **Recognition-delay channel (TIMING — NOT included in weight cut):** Cheaper funding → easier extend-and-pretend → credit event lands later. This is a tenor effect, already handled by existing Sep-dated positions (Sep **$67.5P + $70P** per `POSITIONS.md` — strike list corrected 7/17) which span the Jul-21 Q2 print. Including timing in WEIGHT when it's already handled by TENOR would **double-count the delay** against positions already paid for the window.
 
 **Structural vectors UNCHANGED by macro tailwind softening:**
 - B1 fire ($99M life-sci pass-grade walk-away) — still loaded for Q2 print
@@ -268,7 +268,7 @@ The original V3 thesis ($17.2B SSFA at 20% RW = $1.1B capital savings; "Other On
 
 ### Net V3 read
 
-V3 is now a **quality-of-names question on the 2,000 underlying lender-finance obligors**, not a sizing question. The headline NDFI exposure is at cohort center. The remaining concentration story is the $7.15B Mortgage Warehouse — but that book classifies as C&I (Call Report mechanics) and warehouse-counterparty work (`../domain/WAREHOUSE_EXPOSURE.md`) shows transmission lands at **Apollo Atlas SP**, not WAL — Atlas SP is the dominant warehouse provider to FHA-stressed non-bank servicers ($6.9B at PFSI = 78% concentration). WAL holds warehouse books to different counterparties.
+V3 is now a **quality-of-names question on the 2,000 underlying lender-finance obligors**, not a sizing question. The headline NDFI exposure is at cohort center. The remaining concentration story is the $7.15B Mortgage Warehouse — but that book classifies as C&I (Call Report mechanics) and warehouse-counterparty work (`../REGINALD/domain/WAREHOUSE_EXPOSURE.md`) shows transmission lands at **Apollo Atlas SP**, not WAL — Atlas SP is the dominant warehouse provider to FHA-stressed non-bank servicers ($6.9B at PFSI = 78% concentration). WAL holds warehouse books to different counterparties.
 
 ---
 
@@ -346,7 +346,7 @@ CFO swap remains the tell. Vishal Idnani (JPM FIG, 20yr MD, advised 50+ regional
 
 ## POSITIONS
 
-Current positions: **grep `../POSITIONS.md` (canonical) — do not trust any strike list in this file.** *(The "$85P/$77.5P/$70P/$65P Jun/Sep" list formerly here was May-vintage; Jun-18 + Jul-17 tenors have since cleared — live Sep core is $67.5P+$70P per POSITIONS 6/19.)* Strike-by-strike thesis → `SCENARIOS.md` (see its 7/17 position-truth banner).
+Current positions: **grep `POSITIONS.md` (canonical) — do not trust any strike list in this file.** *(The "$85P/$77.5P/$70P/$65P Jun/Sep" list formerly here was May-vintage; Jun-18 + Jul-17 tenors have since cleared — live Sep core is $67.5P+$70P per POSITIONS 6/19.)* Strike-by-strike thesis → `SCENARIOS.md` (see its 7/17 position-truth banner).
 
 **Note:** SCENARIOS.md still reflects pre-Q1 probability weights — needs refresh in Wave 1 chunk 2 (V2 resolved → reduces "raise/regulatory" branch; V3 disconfirmed → reduces "NDFI shock" branch; V1 sharpened to Office → tightens path-1 narrative).
 
@@ -361,7 +361,7 @@ Current positions: **grep `../POSITIONS.md` (canonical) — do not trust any str
 | `sources/q1_2026/WAL Q1 2026 - Deck Synthesis.md` | Round 2 deck deep-mine — Slide 12 Classified mix, Slide 17 outlook, Slide 23 maturity wall, Slide 24 NDFI cohort |
 | `sources/q1_2026/WAL Earnings Call.md` | Q1 transcript |
 | `FRAUD/` | V2 chain documentation — refresh pending Wave 1 chunk 2 (`FRAUD/SYNTHESIS_V2.md`) |
-| `../domain/WAREHOUSE_EXPOSURE.md` | Mortgage warehouse counterparty mapping (Atlas SP = Apollo, not WAL) |
+| `../REGINALD/domain/WAREHOUSE_EXPOSURE.md` | Mortgage warehouse counterparty mapping (Atlas SP = Apollo, not WAL) |
 | `LEADERSHIP.md` | Insider activity + CFO swap (Idnani from JPM FIG) |
 | `EARNINGS_PREP.md` | Pre-print framework (now historic) |
 | `CHANGELOG.md` | Thesis change history (this directory) |
@@ -383,4 +383,4 @@ Current positions: **grep `../POSITIONS.md` (canonical) — do not trust any str
 
 *v2.2.1 (Jun 8, 2026) — SUPERSEDED. Was a refinement of v2.2 — NO structural vector change. Added MACRO-NIM TAILWIND SOFTENING (loss-absorption channel only) + COHORT CONTEXT (RESOLVED 6/8 PM → Hyp A genuine cohort improvement; "sharpen to WAL-specific" earned, no weight change) + Life-Sci Sector Signal N=1 distinction. Probability reweight Bear-medium 30→25, Base 33→35, Bull 18→21. EV $67.98 → $68.93. Overvaluation 14.2% → 16.3% (÷EV convention pinned). PT range $50-68 UNCHANGED.*
 
-*v2.2 supersedes v2.1 (May 11, 2026) following 10-Q drill (May 21). B1 fired via $99M life-science subsequent event + Curley resignation + market reaction. Detailed findings in `research/WAL_10Q_DRILL_2026-05-21.md`. Change rationale and old-vs-new view documented in `CHANGELOG.md` (this directory) and `../thesis/CHANGELOG.md`.*
+*v2.2 supersedes v2.1 (May 11, 2026) following 10-Q drill (May 21). B1 fired via $99M life-science subsequent event + Curley resignation + market reaction. Detailed findings in `research/WAL_10Q_DRILL_2026-05-21.md`. Change rationale and old-vs-new view documented in `CHANGELOG.md` (this directory) and `../REGINALD/thesis/CHANGELOG.md`.*
