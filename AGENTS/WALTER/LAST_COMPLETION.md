@@ -6,9 +6,9 @@
 
 ## STATUS
 
-**2026-07-24 (Fri ~6:51 PM → ~8:15 PM ET / 00:15Z 7/25; US markets closed. Will-Telegram boot → "yes go ahead and start working through these" → full queue clear — Tier-2 FULL closeout.)** Clean boot (**0 HIGH throughout**) → **6 DISPATCH / 0 KILL / 4 handoffs / 2 create-only NOTES / 0 sub-agents.** BOARD 560→566. **board_reconcile ✓ 566, log_reconcile ✓, version_drift ✓ 6/6.** Telegram plugin **recovered** after dying mid-session 7/23. 4 commits, safe-pushed.
+**2026-07-24 (Fri ~6:51 PM ET → ~00:5xZ 7/25; US markets closed all session. Will-Telegram boot → "work through these" → PROMPT-19 authored/run/closed → 2 spec bumps — Tier-2 FULL closeout, RE-RUN at Will's request to capture the second half.)** Clean boot (**0 HIGH throughout**) → **7 DISPATCH / 0 KILL / 8 handoffs / 2 create-only NOTES / 5 research agents.** BOARD 560→**567**. **board_reconcile ✓ 567, log_reconcile ✓, version_drift ✓ 6/6, claude_md_version_drift ✓.** Telegram plugin recovered at boot, then **died again ~00:30Z mid-reply (2nd session running)** — synthesis QUEUED per Rule 12. **11 commits, all safe-pushed clean-ff.**
 
-**This was a maintenance/spec session, not a routing session** — the bulk was the 7-handoff DEWEY sweep, a spec bump, and a supersession.
+**Two distinct halves.** First: a maintenance/spec session — the 7-handoff DEWEY sweep, CHECKLIST v0.27, a supersession, a 12-row registry refresh. Second (Will-directed): **PROMPT-19 authored, RUN and CLOSED same session** + **BOARD_CONSUMPTION_SPEC v0.11 §3.5.3 (THE ACTIONABILITY TEST)** + **CHECKLIST v0.28**, closing a standing open design decision. Full second-half detail in the ADDENDUM below.
 
 ## CHANGED (this session)
 
