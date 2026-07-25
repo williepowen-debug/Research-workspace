@@ -20,7 +20,7 @@ LABOR vector → threshold → target agent(s) → priority. Thresholds referenc
 |---|---|---|---|---|
 | T-01 | Initial claims | >250K sustained (4+ wk MA) | CARL, REGINALD | 🔴 |
 | T-02 | Initial claims | >300K single print | REGINALD (all ORANGE banks → RED), HENRY | 🔴 |
-| T-03 | U-3 | ≥4.7% Q2 | CARL, HENRY | 🟠 |
+| T-03 | U-3 | ≥4.7% (grade JOINTLY with LFPR — participation-driven moves don't count, L-06) | CARL, HENRY | 🟠 |
 | T-04 | U-3 | ≥5.0% | HENRY (structural bid break), REGINALD | 🔴 |
 | T-05 | NFP | ≥+200K ×3 consecutive (revised series) | FORGE — **Kill A** trigger for bearish labor theses | 🔴 |
 | T-06 | NFP | <100K single print + ≥0.2pp U-3 jump | CARL, REGINALD, HENRY | 🟠 |
@@ -34,6 +34,8 @@ LABOR vector → threshold → target agent(s) → priority. Thresholds referenc
 | T-14 | Hormuz hiring freeze (BRENT cross-check) | direct labor-transmission verified | CARL, HENRY | 🟠 |
 
 *(No standing broadcast queue — the Transmission Index above fires fresh outbox signals on trigger, e.g. Jun 18 >250K → T-01; Jul 2 NFP → T-05/T-06.)*
+
+> **State notes (2026-07-24 audit):** T-05 Kill-A is **DORMANT** — RESET 7/2 (revised run 214/148/129/57 = zero-of-3; standing rule kept, upward-revision threat is dead per STATUS §EXIT RULES). T-12 mechanistic trigger lives in STATUS Vector 14 If-Falsified column, not §KEY THRESHOLDS. T-14 re-arms only on BRENT demand-destruction Path B per Vector 15 (price re-arm alone ≠ labor transmission).
 
 ---
 
@@ -86,22 +88,13 @@ LABOR vector → threshold → target agent(s) → priority. Thresholds referenc
 
 For each forward catalyst, the LABOR thesis implication + KELYA position implication + which cross-agent signals fire. Source of truth: `docket/CATALYSTS.tsv` — keep this section synced with the docket at every catalyst closeout.
 
-### Jun 11 (Thu) — Initial Claims w/e Jun 6
+### ✅ Jun 11 — Initial Claims w/e Jun 6 (RESOLVED, collapsed 7/24 audit)
 
-| Print | LABOR thesis read | KELYA implication | Cross-agent signal |
-|---|---|---|---|
-| <215K | Drift stalled; realization-weak leg further weakens | Position confirmed dead — manage to expiry | None |
-| 215-230K | Drift continuing per recent pattern; no new info | No change | None |
-| 230-250K | Drift accelerating; upgrade Claims/shadow vector | Marginal — needs companion U-3 catalyst | Watch list to CARL/REGINALD |
-| **>250K** | **T-01 fires.** Sustained-breach watch begins. | First KELYA re-arm signal | 🔴 CARL, REGINALD |
+Landed in drift band (~213K); T-01 not fired; KELYA no move. Grid retired — the claims cadence is now covered by the 7/30 GRADING_CARD block below.
 
-### Jun 23 (Tue) — BLS State Employment May (FL focus)
+### ✅ Jun 23 → Jul 21 grade — BLS State Employment (RESOLVED, collapsed 7/24 audit)
 
-| Print | LABOR thesis read | KELYA implication | Cross-agent signal |
-|---|---|---|---|
-| FL <4.8% | State divergence stalls; bear leg weakens | No change | None |
-| FL 4.8-5.0% | 5th consecutive ↑ if 4.9%; trajectory intact | No direct (FL exposure mid for KELYA) | Watch CARL |
-| **FL ≥5.0%** | **T-11 fires.** FL UI cliff thesis activates | Indirect — small/mid staffing FL exposure | 🟠 CARL, REGINALD |
+FL UR **Jun 4.7%** (BLS LAUS 7/21) — −0.1pp MoM from May 4.8%, +0.9pp YoY. **T-11 NOT FIRED** (level 4.7<5.0; the 4-mo rise streak reset in May and June declined outright — first sequential decline in the FL UR uptrend). Read-only; marginal counter to FL-employment-stress leg. See STATUS calendar row Jul 21 for detail.
 
 ### Jun 30 (Tue) — JOLTS May
 
@@ -125,6 +118,7 @@ LAB-02 effective resolution. Kill A check #2 (Mar revised 214K = #1).
 | NFP 150-200K + U-3 flat | Hard-data strength continues | Position confirmed dead | None |
 | **NFP ≥200K** | **Kill A trigger #2** (Mar = #1). Bearish realization-weak thesis on the rocks. | Position confirmed dead. | 🔴 PROME, FORGE — Kill A countdown |
 | U-3 ≥4.7% regardless of NFP | LAB-02 ✅ confirmed | Supports KELYA but NFP dominates tape reaction | Watch HENRY |
+| **NFP <100K + U-3 ↓ + LFPR ↓** *(branch L-06 added post-7/2; this file 7/24)* | **Supply-shrink artifact** (immigration-signature) — U-3 fell mechanically on labor-force contraction; grade on claims/hires, NOT U-3 | Position confirmed dead — the demand read KELYA thesis needs is unavailable through U-3 in this regime | 🟠 CARL/HENRY (denominator-artifact flag, not a U-3 threshold fire) |
 
 > **✅ RESOLVED Jul 2:** printed **off-grid** — NFP **+57K** (<100K) but **U-3 4.2% DOWN** (participation −0.3pp = supply artifact; the grid's <100K row assumed U-3 ≥4.5%). T-06 did NOT fire (needs a U-3 *jump*). Revisions net **−74K** → **Kill A RESET** (revised run 148/129/57 — zero of three; the Mar-214K "count #1" no longer heads a live streak). LAB-02 ❌ formally. Claims same-morning 215K = no realization confirmation. KELYA $13.00 shrug → §2 verdict stands. Missing-branch gap → L-06.
 
@@ -145,6 +139,21 @@ Mechanical close-out. Decision tree:
 - Spot >$8.50: expires worthless, position closed.
 - Spot $7.50-8.50: marginal ITM/ATM, evaluate close-vs-let-expire for capital efficiency.
 - Spot <$7.50: ITM, exercise/close per FORGE rules.
+
+---
+
+### 🔴 Mon Jul 27 → Fri Jul 31 — 4-in-4 gauntlet (KELYA-neutral, thesis-live)
+
+KELYA is functionally dead at 29→25 DTE (§2 write-off stands); scenarios here are for the LABOR thesis, not the position. Frozen cards / pre-registrations are the graded contracts — entries below are pointers, not new committed conditions.
+
+| Date | Event | Pointer / committed contract | Cross-agent signal |
+|---|---|---|---|
+| Mon 7/27 AMC | KFRC Q2 (canary triple completes) | Guide-down → T-12 re-opens; recovery-guide → Vector 14 drop-to-1. Bar: rev $344-352M / EPS $0.67-0.75, mid-single-digit YoY. | 🟠 PROME (T-12); RED (RED-05 keys here) |
+| Wed 7/29 | FOMC statement 2:00 / presser 2:30 (no SEP) | Pre-reg: `docket/FOMC_LABOR_LANGUAGE_20260729.md` — 3 branches (70/25/5). Diff against June's "payroll gains had strengthened" (already superseded by −74K revisions). | 🟠 RED (labor-language seat) |
+| Thu 7/30 | Claims w/e Jul 25 (LAB-17 close + retooling confirm + Kill-B leg 1) | **🔒 frozen card: `docket/GRADING_CARD_20260730.md`** — 7 outcome bands committed. Meta cohort ~4,665 pre-committed invisible. ≥327K needed for LAB-17 = tail; 301-326K seam fires T-02 but does NOT confirm LAB-17. | 🔴 CARL/REGINALD (T-01/T-02); PROME (Kill-B watch if ≤185K) |
+| Fri 7/31 | ECI Q2 8:30 ET | ≥3.6% = wage pressure real, supply-artifact framing weakens. ~3.4% flat while AHE went 3.4→3.5% = the AHE move was **composition** → hawkish wage premise undercut. Lands 2d AFTER Fed decides. | 🟠 HENRY/CARL (composition-flag routed 7/24) |
+
+**KELYA implication (all four):** none. The 29→25 DTE window + $7.73-OTM spot ($15.23 vs $7.50 strike) makes a re-arm operationally implausible. A ≥327K claims print on 7/30 (T-02 scale) is the only trigger that could theoretically pull the position back to $9-10 within 21 DTE — the tail. Otherwise: hold to Aug 21 expiry.
 
 ---
 
