@@ -4,17 +4,65 @@ Post-mortems for resolved rows in [`PREDICTIONS.tsv`](PREDICTIONS.tsv). The TSV 
 
 ---
 
-## Calibration Scoreboard (as of 2026-06-09)
+## Calibration Scoreboard (as of 2026-07-25, session 016)
 
 | Status | Count | Notes |
 |--------|-------|-------|
 | **CONFIRMED (substance + window)** | 4 | OTTO-01, OTTO-08, OTTO-09, OTTO-27 |
-| **CONFIRMED (substance, missed window)** | 1 | OTTO-26 — directionally correct on PSEC dividend cut, missed the date by 2.5 months |
-| **FALSIFIED outright** | 0 | — |
-| **OPEN** | 12 | See TSV |
+| **CONFIRMED (substance, missed window)** | 1 | OTTO-26 — right on the PSEC dividend cut, missed the date by 2.5 months |
+| **FALSIFIED outright** | 2 | **OTTO-05** (subprime BBB spread went the *opposite* way), **OTTO-28** (falsified-on-window) |
+| **OPEN** | 11 | See TSV — incl. OTTO-30 at 12% and OTTO-31 at 12%, both near-falsified |
 
-**Hit rate (substance):** 5/5 = 100% directionally correct on resolved rows.
-**Hit rate (substance + window):** 4/5 = 80% — date-specificity at low confidence is the weakest link.
+**Hit rate (substance):** **5/7 = 71%.** *(Was reported as 5/5 = 100% — that scoreboard was stale at Jun-9 and had not absorbed the two Jul-4 falsifications. Corrected 2026-07-25; the 100% figure was never right after Jul 4 and should not be cited from any prior copy.)*
+**Hit rate (substance + window):** **4/7 = 57%.**
+
+### ⚠ The dominant failure mode is measure-design, not directional error
+
+Counting only "was OTTO right about the world" flatters the book. Sorted by *why* a claim failed:
+
+| Claim | World moved as expected? | Failed on |
+|---|---|---|
+| OTTO-26 | ✅ yes (PSEC cut) | **date specificity** |
+| OTTO-29 | ✅ yes (recovery ~3%) | **window** — $113M dispute pushes resolution past Sep 30 |
+| OTTO-04 | ✅ yes on deep-subprime (EART 26-27.6% >25%) | **metric** — resolves on a blended index anchored down by Santander; *and* the index is now unobtainable (see 2026-09-01 decision row) |
+| OTTO-30 | ❓ unknown | **instrument** — measured OTTO's own discovery latency; press-sampling missed TFIN 10mo, OBK 7mo |
+| OTTO-07 | ❓ unknown | **instrument** — nominal ledger is a stub emitting `shelf_halts=0` by default; cannot falsify a "something halts" claim |
+| OTTO-05 | ❌ **no** — spreads *tightened* | genuinely wrong. The one clean directional miss, and the most valuable row here |
+| OTTO-28 | ✅ yes (bifurcation) | **window** — Ally Q2 postdates the resolve date |
+
+**Five of seven problem rows failed on how the claim was written, not on what happened.** That is a fixable process defect, and it is more actionable than the headline hit rate. Corrective adopted 2026-07-25: **a claim must name its instrument in-row and carry a pre-registered re-check** — see `[[finding_discovery_instrument_defines_the_claim]]`. First application: **OTTO-33**.
+
+**Do not read the 71% as "OTTO is well-calibrated on direction."** OTTO-05 is the only row where the world was cleanly tested and OTTO was wrong — the rest were never given a fair test.
+
+---
+
+## OTTO-05 — Subprime BBB ABS spread >250bps by Jun 30 ❌ FALSIFIED (substance AND window)
+
+**Resolved:** 2026-07-04 (s014 catch-up sweep). **Confidence at close:** had been carried at 70%.
+
+**What happened:** the spread moved **the opposite way**. EART 2026-3 Class D (BBB/Baa3) settled ~Jun 24 at **+140bps** `[CONF SEC FWP/IFR]`, versus +190bps in March — a 50bp *tightening* against a predicted blowout to +250. The deal was **upsized to $1.2bn** and Exeter earned its **first-ever AAA** from S&P/Moody's.
+
+**Why it was wrong:** OTTO bundled two separate claims into one conviction — *fraud is being discovered across the auto ecosystem* (true, still compounding) and *therefore subprime ABS funding will seize* (false). The primary market never stopped functioning; the fraud cases were idiosyncratic collapses, not a repricing of the asset class. Investor demand for subprime paper strengthened throughout the period OTTO expected it to break.
+
+**Calibration lesson:** **this is the model row for the two-leg discipline.** Idiosyncratic fraud discovery and systemic funding transmission are separate bets with separate evidence and must be metered separately — see `[[finding_decouple_idiosyncratic_from_systemic_leg]]`. Banked as honest disconfirming evidence: the systemic-funding leg is **DISCONFIRMED**, and OTTO says so in STATUS rather than quietly re-dating the claim. It has stayed disconfirmed through every subsequent check (Jul 25: zero new bank names in a complete EDGAR sweep; Ally's 5th straight improving quarter).
+
+**Worth preserving:** the *fraud* leg kept producing during the same window that the *systemic* leg died — a third collateral class (TFIN floorplan) and a federal indictment charging both OTTO mechanisms. Being wrong about transmission did not make OTTO wrong about the fraud.
+
+---
+
+## OTTO-28 — Ally discloses Carvana-specific DQ/NCO by Jun 30 ❌ FALSIFIED on window (substance ✅ directionally)
+
+**Resolved:** 2026-07-04. **Confidence at close:** 55%.
+
+**What happened:** the resolve date was set to **Jun 30**, but Ally's Q2 earnings did not print until **Jul 21** — the disclosure OTTO was predicting could not physically occur inside the window. Q1 (the only print inside the window) contained no Carvana-specific break-out.
+
+**Why it was wrong:** a **calendar error at creation**, not an analytical one. The claim was written without checking when the disclosing event would actually happen. Ally has never broken out Carvana-sourced loans separately in any quarter, so the substance was likely false too — but the window guaranteed failure before the substance was ever tested.
+
+**What the data showed instead — and it mattered more than the prediction:** Ally's credit is *improving*, and has kept improving. Q1: retail NCO 1.97% (−15bps YoY), 30+ DQ 4.60% (−17bps YoY, 4th straight quarter). Q2 (Jul 21): NCO **1.57%** (−18bps), 30+ DQ **4.80%** (−8bps), **5th straight**. Prime/near-prime improving while deep-subprime bleeds is exactly the bifurcation the Invisible Exit predicts.
+
+**Calibration lesson:** **verify the disclosing event's date before setting the resolve date.** A prediction about a company disclosure inherits that company's reporting calendar; setting a resolve date earlier than the next scheduled print is an automatic loss. Pairs with the OTTO-26 date-specificity lesson — two of OTTO's seven resolved rows failed on calendar mechanics that a 30-second check would have caught. Note the asymmetry: the *falsified* prediction produced OTTO's most durable supporting evidence for the Secondary thesis.
+
+---
 
 ---
 

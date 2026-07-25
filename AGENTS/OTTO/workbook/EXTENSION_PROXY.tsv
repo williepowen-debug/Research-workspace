@@ -1,2 +1,3 @@
+FROZEN 2026-07-25 — not maintained; STATUS.md is canonical, do not cite rows as current. Last row 2026-05-06 (+80d at freeze). Fed by scripts/extension_proxy.py, which is a MANUAL-CHECK STUB, not a live feed — the series was never self-updating. Do not read its trend as data. Un-freeze only if the stub is replaced with a real feed.
 date	composite_score	risk_level	repo_score	warehouse_score	ev_score	registration_score	notes
 2026-04-14	35.0	🟡 MODERATE	0	30	20	0	Warehouse: JPM/FITB Tricolor losses signal tightening; EV: Immigration enforcement active

@@ -1,3 +1,4 @@
+FROZEN 2026-07-25 — not maintained; STATUS.md is canonical, do not cite rows as current. Last substantive update 2026-04-15 (+101d at freeze). Structured KB facts carry their own STALE_BY column; treat any row past its STALE_BY as dead. Retained as the in-house precedent for the evidence-grade tagging convention (see CLAUDE.md § Evidence & Hygiene Conventions), not as a live fact source.
 DATE	GROUP	ENTITY	FACT	SOURCE	EPISTEMIC	CONFIDENCE	STALE_BY	NOTES
 2026-02-24	FRAUD_CHAIN	FIRST_BRANDS	Multiple buyers "suddenly & unexpectedly" withdrew or narrowed bids to interest-only; company in liquidity vacuum	WSJ/DiMartino Booth	EMPIRICAL	HIGH	2026-04-30	De Luca examiner report expected ~Feb 25
 2026-02-24	CONSUMER_DQ	SUBPRIME_AUTO	60+ DQ hit 6.6% (Feb 24 read) — record since 1991 tracking began	Auto Loan DQ Index	EMPIRICAL	HIGH	2026-03-31	Preceded 7.1% RED threshold breach

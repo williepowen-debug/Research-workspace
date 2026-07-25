@@ -1,6 +1,6 @@
 # OTTO Research Status
 
-**Last Updated:** 2026-02-14
+**Last Updated:** 2026-07-25 *(Feb-14 content below is the COMPLETED-RESEARCH index and is still valid as history — it records what was researched and when, which does not expire. The rotted ACTIVE MONITORING table was deleted, see below.)*
 
 ---
 
@@ -23,18 +23,19 @@
 
 ---
 
-## ACTIVE MONITORING
+## ACTIVE MONITORING — ❌ DELETED 2026-07-25 (duplicated STATUS; had rotted into active misinformation)
 
-| Target | Catalyst | Status | Next Update |
-|--------|----------|--------|-------------|
-| **First Brands** | **Ch. 7 conversion risk** | 🔴 CRITICAL | Daily |
-| **Carvana (CVNA)** | Feb 18 earnings | 🔴 CRITICAL | Post-earnings |
-| **PrimaLend** | Plan confirmation THIS WEEK | 🔴 CRITICAL | Feb 17 |
-| First Brands | Examiner report ~Feb 25 | 🟠 ELEVATED | Feb 25 (if not Ch. 7) |
-| Flagship Credit | InterVest closing | 🟡 WATCHING | Ongoing (DOWNGRADED from CRITICAL) |
-| Tricolor | Chu trial Aug 2026 | 🟡 WATCHING | Aug |
-| Lendbuzz/SAFCO | S&P CreditWatch | 🟡 WATCHING | Rating action |
-| Exeter Finance | ABS surveillance | 🟡 WATCHING | Quarterly |
+**This table is gone on purpose. Do not restore it.** It was last true on **2026-02-14** and by Jul 2026 was asserting, in the present tense:
+*"Carvana — Feb 18 earnings — 🔴 CRITICAL"* (the live CVNA event is **Q2 earnings Jul 29 2026**), *"PrimaLend — Plan confirmation THIS WEEK"*
+(confirmed Feb 2026), *"First Brands — Examiner report ~Feb 25"* (the interim report landed **Apr 27** and the investigation is **paused, budget exhausted**),
+and *"Tricolor — Chu trial **Aug 2026**"* (trial is **Jan 25 2027**; it was never August).
+
+**Root cause — doc-ownership violation, not neglect.** Live monitoring state has exactly one canonical home: **`STATUS.md` § CRITICAL TIMELINE**, mirrored from
+**`docket/CATALYSTS.tsv`**. This table was a second copy with no update path, so it decayed silently while the canonical pair stayed current. Deleting it is the
+fix; refreshing it would just restart the same decay. *(Per CLAUDE.md § Doc Ownership: RESEARCH_STATUS owns the completed-research index and the exhausted-sources
+list — it does **not** own live monitoring snapshots.)*
+
+→ **Live catalysts: [`docket/CATALYSTS.tsv`](docket/CATALYSTS.tsv) · [`STATUS.md`](STATUS.md) § CRITICAL TIMELINE.**
 
 ---
 

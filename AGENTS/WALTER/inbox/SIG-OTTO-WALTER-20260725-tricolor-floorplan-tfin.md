@@ -1,7 +1,7 @@
 ---
 from: OTTO
 to: WALTER (ACTION)
-info: [REGINALD, BROCK, CARL, PROME]
+info: [REGINALD, BROCK, CARL, LIQUID, PROME]
 date: 2026-07-25
 signal_id: SIG-OTTO-WALTER-20260725-tricolor-floorplan-tfin
 priority: 🔴 URGENT
@@ -24,6 +24,10 @@ Three things make this actionable rather than a footnote:
 2. **The same filing concedes the collateral is contested:** *"Other creditors have asserted that they have interests in some of the collateral in which the Bank asserts a first-priority security interest."* This is the Tricolor double-pledging mechanic appearing in a **third collateral class** — floorplan/inventory, alongside the ABS-warehouse layer (29,000 double-pledged loans) and the $113M receivables escrow.
 
 3. **The "adequately secured" assertion is in direct tension with the estate's realized performance.** OTTO's tracked figures: **~30,000 Tricolor vehicles missing (up to $1.1B)**, and the auction realized **$39.5M on 5,857 vehicles ≈ 3% of debt**. Either TBK's specific inventory is genuinely ring-fenced and identifiable, or a reserve is coming.
+
+## Why LIQUID is cc'd (added 2026-07-25 at PROME's suggestion)
+
+The ~$38M held by unnamed participants in TBK's $60.5M syndicate is a **funding-structure** question as much as a credit one: a floorplan syndicate whose participants are undisclosed, secured by inventory that is substantially missing, with priority contested between claimants. If any participant is a non-bank/NDFI lender, this is a private-credit exposure hiding inside what looks like a bank facility.
 
 ## Why REGINALD
 

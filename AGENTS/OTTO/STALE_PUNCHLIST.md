@@ -1,5 +1,25 @@
 # OTTO — Stale-Intel Punch-List
 
+> **📌 s016 dispositions (2026-07-25) — 6 items closed, 3 explicitly DEFERRED (not silently dropped).**
+> **CLOSED:** ① `KB.tsv` / `CROSS_AGENT_LOG.tsv` / `EXTENSION_PROXY.tsv` → **FROZEN** with banners (were re-flagging every fleet sweep).
+> ② `ABS_ISSUANCE.tsv` → **FROZEN with an inversion warning** — it read `0 deals / shelf_halts 0` for a period STATUS documents as robust
+> issuance, because its feeder script is a manual-check stub that emits zeros when unfilled. **This surfaced a live prediction defect: OTTO-07's
+> instrument cannot falsify OTTO-07.** Flagged on the row; re-instrumenting owed before Dec 31.
+> ③ `RESEARCH_STATUS.md` → **ACTIVE MONITORING table DELETED** (doc-ownership violation; it duplicated STATUS and had rotted into present-tense
+> misinformation — "Carvana Feb 18 earnings 🔴 CRITICAL", "Tricolor Chu trial Aug 2026"). Completed-research index kept; it doesn't expire.
+> ④ `EDGAR_8K_MONITOR.md` → **REPURPOSED, not retired** — reversing this punchlist's own "retire or hand to REGINALD". The bank-watchlist half is
+> frozen (REGINALD's lane); the EDGAR full-text-search *method* is promoted to the top as OTTO's canonical instrument registry, because it is what
+> found TFIN and what OTTO-30/-33/-07 now depend on.
+> ⑤ `thesis/PREDICTIONS_ARCHIVE.md` scoreboard → **backfilled** (was stale at 5/5; actual **5/7**) + OTTO-05/-28 post-mortems written.
+> ⑥ Stale `TRADE.md` "rehab-pending" pointers → **FROZEN 2026-07-04**.
+>
+> **DEFERRED — tracked, not dropped** (recorded here so they are not silently lost, per DAEDALUS 7/25):
+> **(a)** §2 universal 5-pt handle overlay + Independence column over SIGNAL DASHBOARD (additive; DAEDALUS card priority 2).
+> **(b)** Delete the dead `AGENTS/SIGNALS.md` append instruction in `CLAUDE.md` §313-18 — contradicts OTTO's actual WALTER routing.
+> **(c)** `CLAUDE.md` version-stamp 3-way drift (v2.5 header / v2.7 footer / unversioned 7/4 edit); research-corpus retirement pass (~17 spent
+> prompts >60d). **Reason for deferral:** all three are `CLAUDE.md`/corpus edits with no clock, and this session's remaining budget was spent on
+> the 7/28-clocked work and on defects that mislead readers *now*. Next spawn.
+
 **Produced:** 2026-06-02 (Phase-3b cross-doc audit) | **Re-audited:** 2026-06-08
 **Status:** discovery + light remediation. STATUS.md was line-capped/archived Jun 8 (no longer a rot item).
 Everything below is still OPEN unless marked ✅. Resolve at a dedicated content-refresh; mark

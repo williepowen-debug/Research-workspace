@@ -1,3 +1,4 @@
+FROZEN 2026-07-25 — not maintained; STATUS.md is canonical, do not cite rows as current. Last row 2026-05-06 (+80d at freeze). Superseded in practice by WALTER-routed signals (AGENTS/WALTER/inbox/SIG-OTTO-WALTER-*), which are the real outbound record and are committed by OTTO at closeout. This file logged only a subset and drifted silently.
 Date	From	To	Type	Summary	Priority	Status
 2026-02-16	OTTO	REGINALD	Briefing	Fraud-bank connection map: RF $68M Tricolor, HBAN 44% consumer fraud surface, CFG BDC contagion, WAL 10.5% NDFI	🔴 CRITICAL	Delivered
 2026-02-16	REGINALD	OTTO	Brief-Request	Convergence thesis: 8 stress channels, auto fraud as fast transmission, bank NDFI exposure $1.2T	🔴 CRITICAL	Received
