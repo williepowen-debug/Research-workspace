@@ -51,6 +51,8 @@ Active + Tier-2 domain owners and meta-agents with live folders. Full verified c
 | TERRY | [`TERRY/`](./TERRY/) | Synthesis / Ops |
 | VIOLET | [`VIOLET/`](./VIOLET/) | Synthesis / Ops |
 | VULCAN | [`VULCAN/`](./VULCAN/) | Funding / Macro (AI-capex concentration / market structure; systemic) |
+| WAL | [`WAL/`](./WAL/) | Credit (Western Alliance single-name specialist — thesis v2.3, frozen-frame print grading, FRAUD/ litigation arc; promoted from REGINALD 2026-07-25) |
+| OZK | [`OZK/`](./OZK/) | Credit (Bank OZK single-name specialist — revived 2026-07-18 on its Q2 gate exactly as pre-registered; ROSTER flipped 7/22; this row moved from Dormant 7/25 registration sweep) |
 | WALTER | [`WALTER/`](./WALTER/) | Synthesis / Ops |
 | WATT | [`WATT/`](./WATT/) | Energy / Commodities (power/grid: PJM stress → price → cost) |
 | YEYOU | [`YEYOU/`](./YEYOU/) | Meta — repo-wide reviewer (manual/branch) |
@@ -62,7 +64,6 @@ Active + Tier-2 domain owners and meta-agents with live folders. Full verified c
 
 | Folder | Tier | Note |
 |---|---|---|
-| [`OZK/`](./OZK/) | dormant | Bank-OZK specialist; revive on Q2 print (Jul-21 AMC, confirmed) + live broker book |
 | [`SENTRY/`](./SENTRY/) | dormant | Cross-domain signal pipeline; human-idle since 6/02 |
 | [`BARON/`](./BARON/) | dormant | Trump financial-policy network; dormant since 5/08 |
 | [`FERT/`](./FERT/) | archive-source | Fertilizer / food security — do not launch |

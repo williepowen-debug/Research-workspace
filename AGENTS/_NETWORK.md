@@ -24,6 +24,7 @@ flowchart LR
         OTTO[OTTO<br/>Auto / consumer DQ]
         REGINALD[REGINALD<br/>Regional banks]
         OZK[OZK<br/>Bank OZK]
+        WAL[WAL<br/>Western Alliance]
         CORAL[CORAL<br/>Florida convergence]
         CREED[CREED<br/>National CRE / CMBS / REIT tape]
         HOMER[HOMER<br/>Housing asset market]
@@ -70,6 +71,7 @@ flowchart LR
     CREED -->|Trepp CMBS-MF row, one-owner handoff 7/12| HOMER
     CREED -->|Florida overlap only| CORAL
     OZK -. peer bank surface .- REGINALD
+    WAL -. peer bank surface .- REGINALD
 
     BROCK -->|private-credit vehicle stress| SHADE
     SHADE -->|insurer/funding wrapper stress| LIQUID

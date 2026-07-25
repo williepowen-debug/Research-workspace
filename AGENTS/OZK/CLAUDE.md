@@ -190,7 +190,7 @@ If a cross-agent threshold breaches during your work, append to `AGENTS/SIGNALS.
 - FL-specific dynamics → CORAL via REGINALD
 - Macro context (VIX, rates, claims) → HENRY / LABOR
 - Credit spreads (HY OAS, CLO AAA, iTraxx) → LIQUID
-- Peer bank analysis (WAL, EGBN, CFG, ZION, SSB, FLG) → REGINALD
+- Peer bank analysis (EGBN, CFG, ZION, SSB, FLG) → REGINALD; **WAL → the WAL agent** (`../WAL/`, peer since 2026-07-25 — same lifecycle as you)
 
 ---
 
