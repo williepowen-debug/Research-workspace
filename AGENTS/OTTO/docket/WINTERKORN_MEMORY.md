@@ -135,7 +135,7 @@ Recurring watches WINTERKORN should re-verify every run regardless of pre-fire w
 - **GCAR / smaller stressed shelves (CPS, Flagship, Lendbuzz, SAFCO)** — Watch for shelf-halt signal (OTTO-07).
 
 ### TRADE.md position expiries
-- ⚠ TRADE.md is **rehab-pending** (stale since pre-CVNA 5:1 split May 7). Position expiries pulled from TRADE.md should be flagged with skepticism. Cross-verify with FORGE if possible. Pause adding position-expiry rows until TRADE.md rehab is complete.
+- ✅ **TRADE.md is FROZEN as of 2026-07-04** (corrected 2026-07-25 — this line previously said "rehab-pending," which was stale by three weeks). OTTO holds **no position**. **Do not add position-expiry rows at all** while frozen — there are no positions to expire. If TRADE.md is ever unfrozen, revert to cross-verifying against FORGE before docketing any expiry.
 
 ---
 
@@ -186,6 +186,17 @@ Same re-scoping applies to the **First Brands criminal track (US v. Patrick Jame
 
 **Cost note:** this is a real scope expansion. Prefer it done *well on the two live criminal matters* over thinly across everything; if it forces a trade-off, drop ABS-pricing-window verification first (lowest yield to date).
 
+### ⚠ RULING — Fitch Auto ABS Index: OTTO has NO Fitch-direct access; row stays `modeled`, and the gap is now a named thesis risk (OTTO, 2026-07-25)
+
+You escalated this after two consecutive runs of unverifiable Fitch rows. **Answer: OTTO does not have Fitch-direct access either.** OTTO's Fitch figures have always come through the Auto Remarketing / Auto Finance News secondary mirror, and that mirror has gone stale — its newest indexed piece (2026-05-21) still covers the **January** index.
+
+**Rulings:**
+1. **The row stays `modeled` indefinitely.** Do not flip it to `confirmed` on a cadence assumption. Keep verifying; keep halting when it can't be verified. Two halts in a row was the correct behaviour, not a failure.
+2. **Report the *absence* explicitly each run** — "fired, no new data" is a finding, not a null result. OTTO swept the Jul 15 row that way. **Never let a missing print read as an unchanged series**; the risk is inferring stability from silence.
+3. **Your cadence confirmation is now the canonical statement of the lag** (index month = collection month + 1, release lagging further). That upgraded an assumption to a sourced mechanism — keep it in STANDING MONITORS.
+
+**Why this matters beyond docket hygiene, so the next run understands the stakes:** the Fitch blended index is the **resolution metric for OTTO-04** (2022-vintage CNL >25% by Sep 30) and the primary instrument for the summer-re-deterioration watch. Latest available data is **March 2026** — meaning OTTO enters the Sep 30 resolve with an input that is **four months stale by data-month** and a re-deterioration thesis that is **unobserved, not disconfirmed**. This is a structural single-source dependency on a paywalled series reached through a decaying free mirror. **Flagged to OTTO's own follow-up queue** as a measure-design problem of the same family as OTTO-30 (see CHANGELOG 2026-07-25) — the thesis leans on a number OTTO cannot reliably obtain.
+
 ### Calibration notes
 
 - **Inaugural calibration (Jun 9 2026):** 5 baseline-audit proposals → 4 accepted, 1 deferred-not-declined. WINTERKORN's instinct on per-case docket vs recurring-release scope was sound. The one defer was on a class where OTTO already has a working mirror (Auto Finance News for rating-agency surveillance); reflects "don't duplicate an existing pipeline" lens.
@@ -225,5 +236,5 @@ Notes from the most recent run for the next-WINTERKORN to read first. Captures o
 - **Pre-fire date verification is the load-bearing job step.** OTTO's Jun-8 catch (First Brands Jun-17 → Jun-12) is the canonical failure mode this sub-agent exists to prevent.
 - **Verita Global cert issue is known and recurring.** Halt-on-ambiguity convention applies to all Tricolor Ch.7 docket fetches.
 - **First Brands is the highest-activity case.** Re-verify weekly.
-- **TRADE.md is rehab-pending.** Skip position-expiry additions until rehab is done.
+- **TRADE.md is FROZEN (2026-07-04), OTTO holds no position.** Skip position-expiry additions entirely.
 - **Spawn cadence:** weekly Tue + on-demand T-3 pre-hearing. Outside that cadence, spawn cost > value.
