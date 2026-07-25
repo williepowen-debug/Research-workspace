@@ -8,6 +8,63 @@ Tracks all changes to `WAL/THESIS.md`. Reverse chronological. Mirrors format of 
 
 ---
 
+## v2.3 — 2026-07-25 — **POST-Q2 SECOND-DATA-POINT RE-MARK. The bear WEAKENED and the margin of safety COMPRESSED.**
+
+**Trigger:** WAL Q2 2026 print (8-K acc **0001628280-26-049001**, AMC 7/21; call 7/22 noon ET), graded in two stages against a frame frozen 7/10-7/20 → `../reports/2026-07-21_WAL_Q2_grade.md`, `../reports/2026-07-22_WAL_Q2_stage2_grade.md`. **Verdict: NOT the surprise tier, NO FIRE.** This entry is the deferred re-mark those grades scheduled.
+
+### Old view → new view
+
+| | v2.2.1 (6/8) | **v2.3 (7/25)** |
+|---|---|---|
+| Bear-fast (V1 MI3) | 12% | **10%** |
+| Bear-medium (V1 Office migration) | 25% | **16%** |
+| Base | 35% | **40%** |
+| Bull | 21% | **27%** |
+| Tail | 7% | **7%** |
+| Base range | $70-77 | **$74-82** |
+| Bull range | $82-90 | **$86-94** |
+| **EV** | **$68.93** | **$73.92** |
+| **Overvaluation (÷EV)** | 18.8% *(at 7/17 spot $81.88)* | **12.4%** *(at 7/24 spot $83.11)* |
+| **PT range** | $50-68 | **$52-74** |
+| PT convention | *unwritten (had drifted $52-70 → $50-68)* | **PINNED: [Bear-fast range low, EV]** |
+| B1 ($99M life-sci) | FIRED, disposition unknown | **Disposition (B) — nonaccrual, $0 C/O, brought CURRENT end-June** |
+| Pass-grade-walk pattern | N=1, watching for #2 | **still N=1 — 0 new office migrations in Q2** |
+| REG-26 | 33% OPEN | **RESOLVED — DISCONFIRMED** |
+| REG-24 / REG-25 | 65% / 72% | **25% / 50%** (both OPEN to Q3 10-Q) |
+
+### Why — each weight change tied to a graded Q2 fact
+- **Bear-medium 25→16 (the load-bearing cut).** The *broadening* mechanism took the most direct hit available: REG-26 disconfirmed; the $99M loan went to nonaccrual with **$0 charged off** and was **brought current end-June** (prospective tenant for a sizable piece; NOT one of the Investor-Day six); **0 new office migrations**; office classified **$316M** vs the $407M baseline (visual-confirmed, EX-99.2 slide 12); SM **−$87M / −22%** to $316M. **Not cut to zero** because the *magnitude* mechanism is deferred, not dead — see "what keeps it alive."
+- **Bear-fast 12→10.** No new evidence: **MI3/FFIEC PDD still has not run** (~2.5 months overdue; DEWEY 7/16 established MI3 is not a 10-Q line, so only FFIEC resolves it). The 2pp trim rests only on two consecutive quarters of a **shrinking** office/CRE book with no confirmation — weak evidence, small move. Mechanism untouched.
+- **Base 35→40.** Print landed base-case: EPS **$2.36** beat ($2.33 cons), NIM **3.53% flat**, ex-fraud NCO **37bps** (inside the 25-40 NEUTRAL band), AOCI −$451M **improved +$5M QoQ**, CET1 11.0%.
+- **Bull 21→27.** Capital-return pivot ($5B loan guide cut *"to prioritize share repurchases"* + **$150M H2 buyback**), NII floor raised to **12-14% while absorbing an assumed Sept 25bp HIKE**, "C/O peaked" + H2 NPL-decline path (3-4 of the six resolving Q3), deposit cost inflecting (Q2 avg 1.78% −3bps, June exit 1-2bps below avg).
+- **Tail 7 flat.** Cantor drew **zero** call mentions and no new Q2 charge-off; LAM/Jefferies is live litigation with no Q2 datum.
+
+### ★ First range edit since v2.1 — and why it is NOT spot-chasing
+Ranges were deliberately frozen v2.1→v2.2.1 on the rule "no structural vector change drives range edits." Q2 supplied two genuine **earnings-base** changes (NII floor raise *inclusive of a hike assumption*; buyback funded by a loan-guide cut = fewer shares + a stated per-share-over-growth priority), so Base/Bull lift. **Deliberately not lifted to spot:** at $83.11 the stock trades **above** the new Base top of $82, so my base case still implies a decline. Offsets explicitly carried, not ignored: fee guide **cut** 20-25%→13-17%, deposit guide **cut** $8B→$6B, ACL/NPL **<100% (96%)**. Bear and Tail ranges unchanged — only their probabilities moved.
+
+### ★ The honest headline
+**Overvaluation went 18.8% → 12.4%.** That narrowing is **not** the tape: **EV rose $4.99 (+7.2%) while price rose $1.23 (+1.5%).** It compressed because I re-weighted against a non-confirming print, which is the correct direction. WAL is still overvalued against my EV — by materially less — and the Sep $67.5P/$70P core now sits further from an EV-justified strike than it did pre-print. **No position action taken or recommended here** (rule #4/#5 — TERRY + Will [Approve] + live chain).
+
+### What keeps the bear alive at 16%
+The **$99M appraisal is still not in** (Vecchione verbatim: *"we haven't got the appraisal in"*) and a low mark forces a charge-down onto the REG-25 >40bps path · **ACL/NPL coverage 96%**, below 100% · **CRE-NOO gross charge-offs at a 5-quarter high $32.0M** (channel active but diluted in a $58.7B book — reservoir-grind signature) · **V1 MI3 never tested**. Resolution moves to the **Q3 10-Q + the appraisal**. Grind **INTACT-but-NARROWED** to the residual office tail.
+
+### Cohort context — Hyp A re-confirmed twice more since 6/8
+Hyp A (genuine cohort improvement) **stands** and is now corroborated by two further independent reads: WALTER **SIG-723-016** Q2 regionals mosaic (cohort improving with fat idiosyncratic tails — EFSC/MCB blowups vs TCBI/RF/HBAN/SYF improving) and my own **7/25 FL small-tier watch-card fill** (BKU/AMTB/SSB **3-of-3 REVERT** → the CRE-DQ creep does **not** broaden tier-wide). The WAL bear remains **idiosyncratic**, which v2.3's shape reflects.
+
+### ⚠️ SCOPE BOUNDARY — documented divergence, NOT silent rot
+v2.3 covers **THESIS.md · SCENARIOS.md · PREDICTIONS.tsv re-grades · this CHANGELOG** and the live consumer surfaces (STATUS, WAL/STATUS, NEXUS_BRIEF, thesis/THESIS).
+**It deliberately does NOT touch `INDEX.md` or `WEAKNESSES.md`** — both fold into the `AGENTS/WAL/` standup (PROME **WP-W2**) by explicit sequencing instruction (Will 7/25; DAEDALUS 7/22 ruling #5) so they are not rewritten twice days apart.
+**→ Handoff list for WP-W2 — these files still carry v2.2.1 values and MUST be swept there:**
+| File | Carries (stale) | Should become |
+|---|---|---|
+| `WAL/INDEX.md` | v2.2.1 · EV $68.93 · PT $50-68 · Bear-med 25 | v2.3 · EV $73.92 · PT $52-74 · Bear-med 16 |
+| `WAL/WEAKNESSES.md` | v2.2.1 references | v2.3 (+ V1 MI3 still-unrun status) |
+*Also still owed at the standup: strike-by-strike position architecture rebuild (SCENARIOS' May-vintage sections), `MARKET/TRADE_LOG.md` phantom-strike banner, KB.tsv Q2-ingest.*
+
+---
+
+---
+
 ## 2026-07-22 — Q2 STAGE-2 (post-call): scheduled REG-24/25 re-grades — 65→25% / 72→50%; no version bump
 
 **What changed (probability re-grade only — structural vectors untouched, zero grading thresholds moved):**

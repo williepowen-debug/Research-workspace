@@ -1,10 +1,28 @@
 # WAL — Concentrated CRE Tail Risk Actualizing on Q2 Timeline
 
-**Last Updated:** 2026-06-08 | **Version:** v2.2.1 | **Prior:** v2.2 (May 21) | v2.1 (May 11) | v2.0 (May 1) | v1.0 (Mar 25)
+**Last Updated:** **2026-07-25** | **Version:** **v2.3** | **Prior:** v2.2.1 (Jun 8) | v2.2 (May 21) | v2.1 (May 11) | v2.0 (May 1) | v1.0 (Mar 25)
 
 ---
 
-## CORE THESIS (v2.2.1 — refinement)
+## CORE THESIS (v2.3 — post-Q2 second-data-point test) ★ CURRENT
+
+**The Q2 print was the test v2.2 named, and the thesis did not pass it — it survived it, narrower.**
+
+WAL Q2 2026 (8-K acc 0001628280-26-049001, AMC 7/21; call 7/22 noon) was graded in two stages against a frame frozen 7/10-7/20. **Verdict: NOT the surprise tier, NO FIRE.** The single credit the whole bear keyed on — the **$99M life-science office sponsor walk-away (B1)** — resolved to disposition **(B)**: migrated to **nonaccrual with $0 charged off**, and the borrower **brought it CURRENT at end-June** with a prospective tenant for a sizable piece. **Zero new office migrations** (the pass-grade-walk pattern stays **N=1**). Office classified is **$316M**, visually confirmed off EX-99.2 slide 12, **below** the $407M baseline. Special Mention **fell $87M (−22%) to $316M**. Ex-fraud NCO printed **37bps** — inside the pre-registered 25-40bps NEUTRAL band, so **REG-26 RESOLVED-DISCONFIRMED**.
+
+**What that does to the structure:** the bear's *broadening* mechanism is disconfirmed for Q2; its *magnitude* mechanism is deferred, not dead. **Bear-medium 25% → 16%**, Bear-fast 12% → 10%, Base 35% → 40%, Bull 21% → 27%, Tail 7% unchanged. **EV $68.93 → $73.92.** Base and Bull *ranges* lift for the first time since v2.1 (Base $70-77 → **$74-82**, Bull $82-90 → **$86-94**) on two genuine earnings-base changes — the NII guide floor raised to 12-14% *while absorbing an assumed Sept 25bp hike*, and a **$150M H2 buyback** funded by cutting the $5B loan guide "to prioritize share repurchases" — net of the offsets I am not ignoring (fee guide cut 20-25%→13-17%, deposit guide cut $8B→$6B, ACL/NPL coverage **<100% at 96%**). **PT $50-68 → $52-74**, convention now pinned as **[Bear-fast range low, EV]**.
+
+**★ The honest consequence: overvaluation 18.8% → 12.4%. The margin of safety COMPRESSED ~6.4pp**, and it compressed because *my EV rose $4.99 while price rose only $1.23* — i.e. by my own re-weight in response to a non-confirming print, not by the tape. Full math + per-line rationale → `SCENARIOS.md` §EV SUMMARY (v2.3).
+
+**What KEEPS the bear alive (why 16%, not 0%):** the **$99M appraisal is still not in** — Vecchione, verbatim: *"we haven't got the appraisal in"* — and a low mark forces a charge-down onto the REG-25 >40bps path; **ACL/NPL coverage 96%** is below 100%; **CRE-NOO gross charge-offs hit a 5-quarter high $32.0M** (the office/CRE channel is active, just diluted in a $58.7B book — the reservoir-grind signature); **V1 MI3 has never been tested** (FFIEC PDD ~2.5 months overdue, and it is not a 10-Q line). Resolution moves to the **Q3 10-Q + the appraisal**. Grind **INTACT-but-NARROWED** to the residual office tail.
+
+**Why v2.3 and not v2.2.2:** this is the pre-designated second-data-point re-mark. It changes probabilities, **ranges** (first range edit since v2.1), EV, PT, *and* the PT convention — and it resolves B1's disposition and REG-26. That is more than a refinement.
+
+**Scope boundary (explicit):** v2.3 covers THESIS + SCENARIOS + the re-grades + CHANGELOG. It deliberately does **NOT** touch `INDEX.md` or `WEAKNESSES.md`, which fold into the `AGENTS/WAL/` standup (PROME WP-W2) by sequencing instruction — **they still carry v2.2.1 / EV $68.93 / PT $50-68 as a KNOWN, DOCUMENTED divergence.** Position architecture also stays for the standup; position truth is `../POSITIONS.md` (rule #4).
+
+---
+
+## CORE THESIS (v2.2.1 — SUPERSEDED 2026-07-25, preserved for reference)
 
 v2.2 structural vectors UNCHANGED. v2.2.1 adds **macro-tailwind context** (NIM-compression mechanism softened by 5/20 20Y auction clean print + 5/22 Waller easing-bias-removal pivot) and **cohort-signal context** (SIG-030 NPA improvement at 5/10 names — **NCO decomposition done 6/8 PM → Hypothesis A: genuine cohort improvement; "sharpen to WAL-specific" framing now EARNED by data, no weight change**). Bear-medium probability trimmed 30% → 25% on **loss-absorption channel only** (terminal effect: higher PPE buffer absorbs same credit losses without stock-breaking event). Recognition-delay (timing) channel handled by existing Sep tenor — NOT included in weight cut, to avoid double-counting. Base 33% → 35%, Bull 18% → 21%. EV $67.98 → $68.93. **Overvaluation (÷EV convention pinned 6/8): 16.3% — WIDENED ~2pp from v2.2's 14.2%** (price rose $2.52 vs EV $0.95; directionally bear-supportive). PT range $50-68 UNCHANGED. REG-24/REG-25 confidence UNCHANGED at v2.2.1 *(since re-graded to 65/72 on 7/16 — see predictions table)*. Position implications: UNCHANGED — Sep core (**$67.5P + $70P** per `../POSITIONS.md`; the "$77.5P Sep" originally written here was the mis-recorded Jun-18 position, fixed 7/17) still positioned for the Q2 print (confirmed Tue Jul 21 AMC).
 
@@ -84,7 +102,7 @@ Honest tally: **3 informative names genuine (ZION/CFG/MTB) + 1 confounded (FITB)
 ### Implications (no weight change — framing resolution only)
 
 - **The "sharpen to WAL-specific" framing is now EARNED by data** (was held-open / unforced in v2.2.1). With regionals genuinely de-stressing on the loss line, the WAL bear loses its broad-cohort tailwind and must stand on idiosyncratic legs: Office 38% / $407M / 18.5% stress, $99M life-sci pass-grade walk (B1), hidden CRE (MI3 24.2% growing), V4 Curley.
-- **Bear-medium stays at 25 — NO revert toward 30.** The revert was the *Hyp B* path; Hyp A confirms the v2.2.1 trim. EV $68.93 / PT $50-68 / REG-24/25 all UNCHANGED. No reweight, positions untouched. (Intra-v2.2.1 evidence resolution — see CHANGELOG 6/8 PM; not a version bump.)
+- **Bear-medium stays at 25 — NO revert toward 30.** The revert was the *Hyp B* path; Hyp A confirms the v2.2.1 trim. EV $68.93 / PT $50-68 / REG-24/25 all UNCHANGED. No reweight, positions untouched. (Intra-v2.2.1 evidence resolution — see CHANGELOG 6/8 PM; not a version bump.) **⟵ AS-OF 6/8 (v2.2.1). SUPERSEDED by v2.3 7/25: Bear-medium is now 16, EV $73.92, PT $52-74. Hyp A itself STANDS and has since been re-confirmed twice (WALTER SIG-723-016 Q2 mosaic; my 7/25 FL small-tier fill, 3-of-3 REVERT).**
 - **"Cohort fade 12/12 intact" is RETIRED** — now contradicted on the NCO line, not merely qualified.
 
 ### Steelman / limits (do not drop)
@@ -361,6 +379,8 @@ Current positions: **grep `../POSITIONS.md` (canonical) — do not trust any str
 
 ---
 
-*v2.2.1 (Jun 8, 2026) is a refinement of v2.2 — NO structural vector change. Adds MACRO-NIM TAILWIND SOFTENING (loss-absorption channel only) + COHORT CONTEXT (RESOLVED 6/8 PM → Hyp A genuine cohort improvement; "sharpen to WAL-specific" earned, no weight change) + Life-Sci Sector Signal N=1 distinction. Probability reweight Bear-medium 30→25, Base 33→35, Bull 18→21. EV $67.98 → $68.93. Overvaluation 14.2% → 16.3% (÷EV convention pinned). PT range $50-68 UNCHANGED. Change rationale in `CHANGELOG.md`.*
+*★ **v2.3 (Jul 25, 2026) is CURRENT** — the post-Q2 second-data-point re-mark. B1 disposition resolved **(B)** (nonaccrual, $0 C/O, brought current end-June); **REG-26 RESOLVED-DISCONFIRMED**; 0 new office migrations (pattern stays N=1); office classified $316M < $407M baseline; SM −22%. Reweight **Bear-medium 25→16, Bear-fast 12→10, Base 35→40, Bull 21→27, Tail 7 flat**. **EV $68.93 → $73.92.** First range edit since v2.1: Base $70-77→**$74-82**, Bull $82-90→**$86-94** (NII floor raise absorbing a Sept hike + $150M H2 buyback; net of fee-guide and deposit-guide cuts and 96% ACL/NPL). **PT $50-68 → $52-74**, convention pinned **[Bear-fast low, EV]**. **Overvaluation 18.8% → 12.4% — margin of safety COMPRESSED ~6.4pp.** Bear kept alive by the pending $99M appraisal + 96% coverage + 5-qtr-high CRE-NOO C/O $32.0M + untested V1 MI3. Does NOT touch INDEX/WEAKNESSES (PROME WP-W2 standup; documented divergence). Rationale in `CHANGELOG.md`.*
+
+*v2.2.1 (Jun 8, 2026) — SUPERSEDED. Was a refinement of v2.2 — NO structural vector change. Added MACRO-NIM TAILWIND SOFTENING (loss-absorption channel only) + COHORT CONTEXT (RESOLVED 6/8 PM → Hyp A genuine cohort improvement; "sharpen to WAL-specific" earned, no weight change) + Life-Sci Sector Signal N=1 distinction. Probability reweight Bear-medium 30→25, Base 33→35, Bull 18→21. EV $67.98 → $68.93. Overvaluation 14.2% → 16.3% (÷EV convention pinned). PT range $50-68 UNCHANGED.*
 
 *v2.2 supersedes v2.1 (May 11, 2026) following 10-Q drill (May 21). B1 fired via $99M life-science subsequent event + Curley resignation + market reaction. Detailed findings in `research/WAL_10Q_DRILL_2026-05-21.md`. Change rationale and old-vs-new view documented in `CHANGELOG.md` (this directory) and `../thesis/CHANGELOG.md`.*

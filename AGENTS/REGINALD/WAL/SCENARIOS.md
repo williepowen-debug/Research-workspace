@@ -1,10 +1,10 @@
 # WAL — Scenario Analysis & Target Prices
-> **⚠️ TWO CORRECTIONS (2026-07-17 audit — read before using this file):**
-> **(1) POSITION TRUTH:** every "$77.5P **Sep**" reference below is a PHANTOM — per canonical `../POSITIONS.md` (5/8 broker refresh + 6/19 reconcile), the $77.5P was **Jun-18 tenor, cleared 6/18**; the live Sep core is **$67.5P + $70P**. The strike-by-strike sections were built in May on the mis-recorded book and are NOT rebuilt here (position-architecture rebuild = post-7/21 v2.3 rewrite). Grep `../POSITIONS.md` before ANY position use — never this file.
-> **(2) EV SPOT ANCHOR [STALE]:** the "Current Price $80.15 (6/5)" below is ~6 weeks old. Spot **$81.88 [7/17 live]** → overvaluation on the pinned ÷EV convention = **(81.88−68.93)/68.93 ≈ 18.8%**, not the 16.3% shown. EV/probabilities themselves are v2.2.1 (6/8) and re-mark at the Jul-21 print — deliberately not recomputed pre-print.
+> **✅ v2.3 RE-MARK LANDED 2026-07-25 — the Q2 second-data-point test is now IN the numbers.** EV **$68.93 → $73.92**; overvaluation **12.4%** at spot $83.11 [7/24 close, market.py]; PT **$52-74**. See §EV SUMMARY (v2.3) immediately below — the v2.2.1 table is preserved beneath it as the audit trail. **The bear weakened: EV rose $4.99 while price rose only $1.23, so the margin of safety COMPRESSED ~6.4pp.**
+> **⚠️ RESIDUAL CORRECTION (2026-07-17 audit — still applies):**
+> **POSITION TRUTH:** every "$77.5P **Sep**" reference below is a PHANTOM — per canonical `../POSITIONS.md` (5/8 broker refresh + 6/19 reconcile), the $77.5P was **Jun-18 tenor, cleared 6/18**; the live Sep core is **$67.5P + $70P** (plus RH $77.5P **Aug-21**, folded 7/20). The strike-by-strike sections were built in May on the mis-recorded book and are **NOT rebuilt in v2.3** — position-architecture rebuild is reserved for the `AGENTS/WAL/` standup (PROME WP-W2). Grep `../POSITIONS.md` before ANY position use — never this file.
 
-**Created:** 2026-03-25 (v1.0) | **Last Updated:** 2026-06-08 PM (v2.2.1 — macro-NIM tailwind softening + cohort context RESOLVED → Hyp A genuine improvement); date-fix 7/10; audit banner 7/17
-**Current Price:** **$80.15** [STALE — Fri 6/5 close; live 7/17 = $81.88, see banner] | **TBV:** $61.14 | **P/TBV:** 1.31x | **CET1:** 11.0%
+**Created:** 2026-03-25 (v1.0) | **Last Updated:** **2026-07-25 (v2.3 — Q2 print re-mark: probabilities + ranges + EV off Q2 actuals)**; prior 2026-06-08 PM (v2.2.1 — macro-NIM tailwind softening + cohort RESOLVED → Hyp A); date-fix 7/10; audit banner 7/17
+**Current Price:** **$83.11** [7/24 close, market.py] | **TBV:** $61.14 [Q1 — Q2 TBV not re-pulled] | **CET1:** 11.0% [Q2 confirmed]
 **Short Interest:** 3.54% float / 2.71 days (Mar 25 — REFRESH PENDING)
 **Q1 2026 EPS:** $1.65 GAAP / $2.22 adjusted | **FY2025 NI:** $991M
 
@@ -16,7 +16,50 @@
 
 ---
 
-## EXPECTED VALUE SUMMARY (v2.2.1 — multi-quarter unconditional)
+## EXPECTED VALUE SUMMARY (v2.3 — post-Q2, multi-quarter unconditional) ★ CURRENT
+
+**Trigger:** the WAL Q2 print (7/21 AMC + 7/22 call), graded in two stages → `../reports/2026-07-21_WAL_Q2_grade.md` + `../reports/2026-07-22_WAL_Q2_stage2_grade.md`. **Verdict was NOT-surprise-tier / NO FIRE**, so this re-mark moves weight OFF the bear and ONTO base/bull. Direction is bear-unfavourable and stated as such.
+
+| Scenario | v2.2.1 Prob | **v2.3 Prob** | Δ | v2.2.1 Range | **v2.3 Range** | Midpoint | Weighted |
+|----------|------------|--------------|----|-------------|---------------|----------|----------|
+| Bear-fast (V1 MI3 ≥25 trigger) | 12% | **10%** | −2 | $52-62 | $52-62 *(unch)* | $57.00 | $5.70 |
+| Bear-medium (V1 Office migration) | 25% | **16%** | **−9** | $58-66 | $58-66 *(unch)* | $62.00 | $9.92 |
+| Base | 35% | **40%** | +5 | $70-77 | **$74-82** | $78.00 | $31.20 |
+| Bull | 21% | **27%** | +6 | $82-90 | **$86-94** | $90.00 | $24.30 |
+| Tail | 7% | **7%** | 0 | $35-45 | $35-45 *(unch)* | $40.00 | $2.80 |
+| **Expected Value** | **$68.93** | **100%** | | | | | **$73.92** |
+
+**Overvaluation (÷EV convention, pinned):** (83.11 − 73.92) / 73.92 = **12.4%**.
+**★ The honest read — the margin of safety COMPRESSED.** At 7/17 spot $81.88 vs EV $68.93 the gap was **18.8%**; it is now **12.4%**. That is not price action — **EV rose $4.99 (+7.2%) while price rose only $1.23 (+1.5%)**. The narrowing is driven by my own re-weight in response to a non-confirming print, which is the correct direction. WAL remains overvalued against my EV, but by materially less, and the Sep $67.5P/$70P core is now further from an EV-justified strike than it was pre-print.
+
+### Re-weight rationale (v2.2.1 → v2.3) — each line tied to a graded Q2 fact
+
+| Shift | Driver (all from the two graded stages) |
+|---|---|
+| **Bear-medium 25% → 16%** (the big cut) | The migration-broadening mechanism took the most direct hit available: **REG-26 RESOLVED-DISCONFIRMED**; the $99M life-sci loan went to **nonaccrual with $0 charged off** and the borrower **brought it CURRENT end-June** with a prospective tenant; **0 new office migrations** (§3, N stays 1); **office classified $316M vs the $407M baseline**, visual-confirmed off EX-99.2 slide-12; **SM −$87M (−22%) to $316M**. REG-24 65→25%, REG-25 72→50%. **NOT cut to zero** — the appraisal is still not in (the dated Q3 catalyst that could force a charge-down), ACL/NPL coverage sits at **96%** (<100%), and CRE-NOO gross C/O hit a 5-quarter high $32.0M. Grind INTACT-but-NARROWED. |
+| Bear-fast 12% → 10% | No new information — **MI3/FFIEC PDD still has not run** (~2.5 months overdue; DEWEY 7/16 confirmed MI3 is not a 10-Q line, so only FFIEC resolves it). Trimmed 2pp not on evidence but on **two consecutive quarters of a SHRINKING office/CRE book with no confirmation** — time without confirmation is weak evidence against a scale story. Mechanism itself untouched. |
+| Base 35% → 40% | The print landed base-case: EPS **$2.36** beat ($2.33 cons), **NIM 3.53% flat**, credit in-guide (ex-fraud NCO **37bps**, inside the 25-40 NEUTRAL band), AOCI −$451M **improved +$5M QoQ**, CET1 11.0%. |
+| Bull 21% → 27% | Genuine bull strengthening, not tape: **capital-return pivot** ($5B loan guide CUT explicitly "to prioritize share repurchases" + **$150M H2 buyback**), **NII floor RAISED to 12-14% while absorbing an assumed Sept 25bp HIKE** (my own higher-for-longer leg is now inside WAL's guide), management "C/O peaked" + an H2 NPL-decline path with 3-4 of the Investor-Day six resolving in Q3, and spot deposit-cost **inflecting down** (Q2 avg 1.78%, −3bps; June exit 1-2bps BELOW avg). |
+| Tail 7% → 7% | Untouched. Cantor drew **zero call mentions** and produced no new Q2 charge-off; the LAM/Jefferies rail is live litigation but produced no Q2 datum. |
+
+### ★ Range edits — the justification is fundamental, NOT spot-chasing (stated explicitly because the temptation is obvious)
+Ranges were held flat from v2.1→v2.2.1 on the principle "no structural vector change drives range edits." **Q2 supplied two genuine earnings-base changes**, so Base and Bull lift — but deliberately **not all the way to spot** ($83.11 sits above the new Base range top of $82, i.e. my base case still implies a decline):
+- **Up:** NII guide floor raised to 12-14% growth *while absorbing a Sept hike* (higher earnings base, not a one-off) + $150M H2 buyback with the loan guide cut to fund it (fewer shares, and a stated per-share-over-growth priority).
+- **Down (the offsets I am NOT ignoring):** fee guide **CUT** 20-25% → 13-17%; deposit guide **CUT** $8B → $6B; ACL/NPL coverage **<100%**.
+- Net: Base midpoint $73.50 → $78.00 (+6.1%); Bull midpoint $86.00 → $90.00 (+4.7%). **Bear and Tail ranges unchanged** — their mechanisms are untouched, only their probabilities moved.
+
+### PT range — convention PINNED to stop the drift
+**PT $52-74** (was $50-68). **Convention, now explicit: PT = [Bear-fast range low, EV].** Prior versions drifted because the convention was never written down ($52-70 → $50-68 with no stated rule). Bear-fast low $52 · EV $73.92 → **$52-74**.
+
+### What v2.3 does NOT do
+- **Does NOT rebuild the strike-by-strike position architecture.** Reserved for the `AGENTS/WAL/` standup (PROME WP-W2). Position truth stays `../POSITIONS.md`.
+- **Does NOT touch `INDEX.md` or `WEAKNESSES.md`** — both fold into the WP-W2 standup by explicit sequencing instruction (Will/PROME 7/25, DAEDALUS 7/22 ruling #5). **They therefore still carry v2.2.1 / EV $68.93 / PT $50-68 — a KNOWN, DOCUMENTED divergence, not silent rot.** See CHANGELOG for the handoff list.
+- **Does NOT re-open the cohort question.** Hyp A (genuine cohort improvement) stands and was **re-confirmed twice more** since: WALTER's SIG-723-016 Q2 mosaic (cohort improving with fat idiosyncratic tails) and my own 7/25 FL small-tier watch-card fill (3-of-3 REVERT → creep does not broaden).
+- **Does NOT change position posture.** No trade recommendation here; any action needs TERRY + Will [Approve] + a live chain (rule #4/#5).
+
+---
+
+## EXPECTED VALUE SUMMARY (v2.2.1 — SUPERSEDED 2026-07-25, preserved as audit trail)
 
 | Scenario | v2.1 Prob | v2.2 Prob | **v2.2.1 Prob** | v2.2 Range | **v2.2.1 Range** | Midpoint | Weighted |
 |----------|-----------|-----------|------------------|------------|------------------|----------|----------|
