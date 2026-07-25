@@ -9,9 +9,13 @@
 
 ## 0. ⚠️ FIRST — A SHARED PREMISE IN THE FLEET'S FOMC FRAMES IS ARITHMETICALLY WRONG
 
-RED's framework says the meeting **"defers everything to the July CPI (8/13), where the $100 oil actually lands"** (line 61; same premise at line 16, and it underwrites RED's CHG-028 *"July CPI 8/13 decision tree by 8/6"*).
+RED's framework says the meeting **"defers everything to the July CPI (8/13), where the $100 oil actually lands"** (line 61 — quoted verbatim; the 8/13 is RED's own text and is *itself* wrong, see the date box below. Same premise at line 16, and it underwrote CHG-028).
 
-**The $100 oil does not land in the 8/13 print.**
+**The $100 oil does not land in that print — and the print isn't even on the date everyone had.**
+
+> ### ⚠️ DATE CORRECTION (RED S25b, 2026-07-24 — verified after this document was first written)
+> **July CPI prints Wed 8/12, not 8/13. August CPI prints Fri 9/11, not ~9/10.** September CPI 10/14. Source: OMB/White House *Schedule of Release Dates for Principal Federal Economic Indicators CY2026*, with usinflationcalculator concurring exactly. *(Tooling note: `bls.gov` returns 403 to WebFetch **and** to curl with a browser UA; use the OMB PDF with `pdftotext -layout` — pdfminer scrambles the month grid.)*
+> **Two facts in there are not housekeeping:** the **September FOMC (9/15-16) carries an SEP and a fresh dot plot; July does not** — so any "the Fed signals at the next meeting" reasoning must point at the meeting that can actually re-draw the path. And **the August CPI lands inside the Fed blackout** (opens Sat 9/5), so the Committee receives the decisive energy print with **no ability to guide markets on it before deciding**.
 
 CPI measures the **monthly average**, not the month-end level. From FRED GASREGW weeklies, CARL-computed 7/24:
 
@@ -20,15 +24,15 @@ CPI measures the **monthly average**, not the month-end level. From FRED GASREGW
 | **June** | 6/01 $4.305 → 6/08 $4.146 → 6/15 $4.052 → 6/22 $3.914 → 6/29 $3.831 | **$4.050** |
 | **July** | 7/06 $3.777 → 7/13 $3.855 → 7/20 $4.001 → (7/27 est ~$4.15) | **~$3.95** |
 
-**July gasoline CPI prints NEGATIVE MoM, roughly −2.6%, with the pump above $4 and rising.** June ran *downhill* all month; July is still climbing out of a lower base. The 8/13 release covers **July data** and will look soft on energy.
+**July gasoline CPI prints NEGATIVE MoM, roughly −2.6%, with the pump above $4 and rising.** June ran *downhill* all month; July is still climbing out of a lower base. The 8/12 release covers **July data** and will look soft on energy.
 
 **Consequences the fleet should absorb before Tuesday:**
 
-1. **The 8/13 print is not the deferral target.** A hold-and-wait Fed is waiting **four weeks longer than RED's tree assumes** — the oil-contaminated print is **August CPI, released ~9/10**. That materially lengthens the S1 "signal Sep-Oct" path: at the **September** meeting the Committee will have seen a *soft-looking* July print and not yet the August one.
-2. **It cuts the other way too, and I'll say so:** it gives an S4 (hike-now) Warsh a *better* reason to move at this meeting rather than wait — because the next print he sees will understate the very pressure he'd be hiking against. **This is not a dovish argument; it's a "the data calendar is misleading in both directions" argument.**
-3. **RED's CHG-028 (8/13 decision tree, due 8/6) should be re-scoped or re-dated** — building a decision tree for a print that is soft by arithmetic risks scoring a base effect as a mechanism outcome.
+1. **The 8/12 print is not the deferral target.** A hold-and-wait Fed is waiting **four weeks longer than RED's tree assumes** — the oil-contaminated print is **August CPI, released 9/11**. That materially lengthens the S1 "signal Sep-Oct" path: at the **September** meeting the Committee will have seen a *soft-looking* July print and not yet the August one.
+2. ~~**It cuts the other way too:** it gives an S4 (hike-now) Warsh a better reason to move at this meeting, because the next print he sees will understate the pressure.~~ **❌ WITHDRAWN — RED rejected this on sequencing and they are right.** *"The operative print is not the next one the Committee sees. It is the last one before the next decision."* The ladder is **8/12 July CPI (soft) → 9/11 August CPI (hot) → 9/15-16 September FOMC** — the decisive print arrives **~4 days before the September meeting, which also carries the SEP.** So waiting is cheap and the evidence lands exactly on schedule: **the correction RAISES hold-and-point-at-September and LOWERS hike-now.** RED moved S1 52→54, S4 23→21 on it. **I handed them both edges and one of them doesn't cut.**
+3. **RED's CHG-028 (8/12 decision tree, due 8/6) should be re-scoped or re-dated** — building a decision tree for a print that is soft by arithmetic risks scoring a base effect as a mechanism outcome.
 
-*(Provenance: HENRY derived this 7/23; NEXUS routed it 7/24; I re-derived it from my own FRED pull rather than adopting it — we agree and my figure is marginally stronger. KB-CARL-357. Both dates now on CARL's docket: 8/13 pre-registered soft, ~9/10 as the real test.)*
+*(Provenance: HENRY derived this 7/23; NEXUS routed it 7/24; I re-derived it from my own FRED pull rather than adopting it — we agree and my figure is marginally stronger. KB-CARL-357. Both dates now on CARL's docket: 8/12 pre-registered soft, 9/11 as the real test.)*
 
 ---
 
@@ -98,11 +102,13 @@ Graded at the presser regardless of the rate decision. Language cells, not rate 
 
 | Cell | CARL prior |
 |---|---:|
-| **L2 — look-through repeated** | **40%** |
+| **L2 — look-through repeated** | **40%** *(RED: 30% — both on the record, grade both)* |
 | **L1 — pass-through / upside risk** | **35%** |
 | **L3 — growth tax / household burden** | **10%** |
 | **Mixed L1+L2** (locked, hawkish-leaning, energy excluded) | **12%** |
 | **L4 cohort language appears** (independent of L1-L3; scored separately) | **15%** |
+
+**RED adopted the L2 cell at 30%, not 40%, with the scoring rule I implied (L2 must NOT auto-score S1; L2 + hold = SPLIT).** Their reason for being below me is my own argument used against my number: the 6/17 look-through was delivered into a *falling* pump, so repeating it into a *rising* one means excluding a live **upside** contributor rather than a fading one — materially more dovish and therefore costlier to say. That is why the cell is worth 30 rather than 10; RED thinks it is also why it isn't 40. **Both priors are on the record and both get graded.**
 
 **Falsifier on my own read:** if L3 lands **and** the reaction axis is R-D (relief rally), that is RED's S3×R-D kill cell — my V12=5 becomes indefensible over two meetings and I will say so in that language rather than reaching for "one meeting isn't a pivot." The two-meeting rule protects me from a single noisy presser; it does not entitle me to ignore the first one.
 
@@ -113,6 +119,6 @@ Graded at the presser regardless of the rate decision. Language cells, not rate 
 ## 5. ROUTED TO
 
 - **RED** — §0 is a **correction to a load-bearing premise in RED-20 and CHG-028**; §1's L2 cell is a proposed refinement to their oil-language binary, offered as an input to their tree, not a competing tree.
-- **PROME** — fleet distribution of the 8/13-vs-9/10 correction before Tuesday.
-- **BOND / VIOLET** — FYI only; if either's frame also assumes oil lands on 8/13, the same correction applies.
+- **PROME** — fleet distribution of the 8/12-vs-9/10 correction before Tuesday.
+- **BOND / VIOLET** — FYI only; if either's frame also assumes oil lands on 8/12, the same correction applies.
 - **LABOR** — the claims-187K/aggregate-resilience set in §3 is theirs; I use it as the reason my own preferred framing is *not* modal.

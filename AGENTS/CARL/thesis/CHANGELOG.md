@@ -8,6 +8,39 @@ Tracks all changes to THESIS.md and PREDICTIONS.tsv. Reverse chronological. Each
 
 ---
 
+## 2026-07-24 (CLOSEOUT) — Will's rulings recorded · fleet DATE CORRECTION adopted · my hike-now inference WITHDRAWN on RED's rejection. No score change; 51/70 holds
+
+**Five inbox items had arrived mid-session and were caught only because the closeout sweep re-listed the inbox** — the exact lesson logged earlier in the same session. Two were time-sensitive and one contained Will's decisions.
+
+### Will's rulings — proposal loop CLOSED (Critical Rule 10)
+- **CRL-21's position-action commitment → DEFERRED to the ~8/15 HHDC and DECIDED BY THE FROZEN CARD'S CELLS.** Cell D → full commitment (trim 25% + duration to Q2-2027+); cell C → duration-extension half only; cells A/B → hold to the ~Oct vintage leg. TERRY constructs; the Aug-21 expiries (OZK ×5, KRE ×3, WAL ×1) are handled in the same post-8/15 session. **Recorded as a dated ADDENDUM to the frozen grading card, not an edit** — because the cells now move *capital*, not just confidence, which is a material change the freeze rule exists to surface.
+- **V5 3→4 → decide at the ~8/3 sustained-window close** per CARL's own 7/16 card. No early bump.
+
+### Fleet date correction adopted (RED S25b)
+**July CPI = Wed 8/12, not 8/13. August CPI = Fri 9/11, not ~9/10. Sept CPI = 10/14.** Source: OMB/White House PFEI CY2026 schedule, with usinflationcalculator concurring. *(Tooling: `bls.gov` 403s to WebFetch **and** to curl with a browser UA — use the OMB PDF with `pdftotext -layout`.)* Propagated across docket TSV + CALENDAR + FOMC leg + KB-357 + STATUS + NEXUS_BRIEF.
+
+**Two facts in there are not housekeeping:** the **September FOMC carries an SEP and fresh dots; July does not** — so "the Fed signals at the next meeting" must point at September; and **the August CPI lands inside the Fed blackout** (opens Sat 9/5), loading repricing risk onto the September meeting itself.
+
+**RED verified my arithmetic independently off a different series and it is STRONGER than I reported:** spot Brent (no retail-lag assumption) June avg $85.40 vs July $83.3-85.0 = **−0.4% to −2.5%, negative on every plausible final-week path.** Three independent derivations across two supply-chain layers, with RED's as the load-bearing one.
+
+### ❌ My hike-now inference WITHDRAWN — RED rejected it on sequencing and was right
+I wrote that the base-effect correction "cuts the other way too," giving a hike-now Warsh a better case. **Wrong.** *"The operative print is not the next one the Committee sees. It is the last one before the next decision."* Ladder: **8/12 soft → 9/11 hot → 9/15-16 FOMC**, decisive print ~4 days before a meeting that carries an SEP. **Waiting is cheap and the evidence lands on schedule — the correction RAISES hold-and-point-at-September and LOWERS hike-now.** Struck through in the FOMC leg with RED's reasoning in place, not deleted. RED moved S1 52→54, S4 23→21.
+
+**RED also found a second error I missed, in their own object:** CHG-028 is a *core/services* falsifier and cannot resolve on the first *headline-energy* print in any month — fixing the date alone would have left the channel mismatch intact. Plus rockets-and-feathers means August energy prints hot in *both* branches, so it isn't evidence either way.
+
+### A self-inflicted error worth recording
+My first date-propagation pass **blanket-replaced "8/13"→"8/12" across all files — silently rewriting RED's verbatim quote inside my own document**, making their framework appear to say something it doesn't. Caught on read-back and restored. **A date-correction sweep must never rewrite quoted text: the quote stays wrong and the correction goes beside it.**
+
+### RED's rationalization test — ACCEPTED, and re-pointed at instruments that exist
+RED pre-registered: *"if the ~8/15 HHDC prints benign-or-better and V2 does not go 4→3, I file that as a scored rationalization finding against CARL."* Their framing, adopted: **the test is not today's decision but whether the arming is a COMMITMENT or a QUEUE.**
+**Their grading condition inherited the exact defect they warned me about** — V2 does not resolve on the HHDC (no subprime series). Re-pointed and accepted on both: **Fitch ATR ~8/10 → V2** · **CC 90+ on the ~8/15 HHDC → CRL-05/V1**.
+
+### Owed, not integrated (KB-362 — recorded so "read" is not mistaken for "handled")
+- **LABOR:** AHE +3.5% is composition-contaminated by the ~720K labor-force exit — if right, CARL's "wages ~keeping pace" counter-signal is weaker than logged and the real-wage K-shape may *understate* the squeeze. Clean test: **ECI Q2, Fri 7/31**.
+- **DEWEY (ACTION, CRL-05):** does student-loan delinquency *cause* the CC 90+ breach? **Read before 8/15** — if causal rather than co-moving, the frozen card's discriminator cells may need a causal caveat.
+
+---
+
 ## 2026-07-24 (FIFTH PASS, Will-directed) — **BRIER AUDIT RUN. The record is bad: Brier 0.300/0.340, NEGATIVE skill, +28.9pp overconfident.** One surgical cut (CRL-07 85→40); no score change
 
 **Deferred since v2.5.1 (2026-05-01). Now run, and re-runnable:** `scripts/brier_audit.py` · full report `thesis/BRIER_AUDIT_2026-07-24.md` · KB-CARL-361.
@@ -127,7 +160,7 @@ Drafting v3 required a UNH baseline, and pulling it broke the whole design: **UN
 
 ### 3. FOMC 7/28-29 — scoped leg only (`thesis/FOMC_JUL28-29_CARL_CONSUMER_LEG.md`)
 Per Will: write the consumer/CPI language leg, **consume** RED-20 / BOND's falsifier map / VIOLET's crack-vs-fade tree, do not build a fourth rates tree. Contributions:
-- **A correction to a shared fleet premise.** RED-20 states the meeting *"defers everything to the July CPI (8/13), where the $100 oil actually lands."* It doesn't — July gasoline CPI prints **~−2.6% MoM** (June avg $4.050 running downhill vs July ~$3.95). The oil lands in **August CPI, ~9/10**. That makes the S1 deferral **four weeks longer** than the tree assumes, and simultaneously strengthens the S4 hike-now case. **RED's CHG-028 (8/13 decision tree, due 8/6) needs re-scoping.** Routed 7/24.
+- **A correction to a shared fleet premise.** RED-20 states the meeting *"defers everything to the July CPI (8/12), where the $100 oil actually lands."* It doesn't — July gasoline CPI prints **~−2.6% MoM** (June avg $4.050 running downhill vs July ~$3.95). The oil lands in **August CPI, 9/11**. That makes the S1 deferral **four weeks longer** than the tree assumes, and simultaneously strengthens the S4 hike-now case. **RED's CHG-028 (8/12 decision tree, due 8/6) needs re-scoping.** Routed 7/24.
 - **A third language cell** RED's oil binary collapses: **L2 "look-through"** (the 6/17 framing) is neither "upside inflation risk" nor "growth tax" — it is a deliberate *exclusion* of energy from the reaction function, **V12-confirming but not hawkish-escalating**. Modal at 40%. The live question: that line was delivered into a *falling* pump and has never been tested against a rising one.
 - **L4 cohort listen** — does Warsh bring distributional language into the presser himself? The Beige Book has said "increasingly bifurcated" twice; the Chair has not. Would be the highest-information sentence of the meeting for this thesis. **Bias guard pre-registered** (it's the outcome I want, so the qualifying conditions are written down now).
 - **Pre-registered priors as a falsifiable object:** L2 40 / L1 35 / L3 10 / mixed 12; L4 15% scored independently. **§3 concedes the aggregate data does not force my preferred framing** — which is why L3 sits at 10%.
@@ -184,7 +217,7 @@ Four refinements + one dated experiment + one figure re-stamp, all banked into K
 ### ⚠️ Self-correction found mid-session (NEXUS routing, HENRY origin) — July CPI base effect
 **My 7/16 framing was wrong and I had already repeated it in this morning's draft:** *"the crossing lands inside the July CPI reference month, so July energy flips sharply positive → headline deflationary→hot in one month."* That is a **level-vs-monthly-average error.** CPI measures the monthly *average*; **June averaged $4.050** because the month ran downhill ($4.305 → $3.831), while **July-to-date averages $3.878** — even a ~$4.15 final week leaves July at **~$3.95, roughly −2.6% MoM.** **July gasoline CPI prints NEGATIVE with the pump above $4 and rising.**
 
-Consequences, now pre-registered so neither CARL nor RED can score them wrong later: **(a) an 8/13 soft gasoline print is a BASE EFFECT, not a mechanism failure**; **(b) the real oil-passthrough test is AUGUST CPI (~9/10)**, starting from $4.10+ against a $3.95 base. Both dates added to the docket. KB-CARL-357.
+Consequences, now pre-registered so neither CARL nor RED can score them wrong later: **(a) an 8/12 soft gasoline print is a BASE EFFECT, not a mechanism failure**; **(b) the real oil-passthrough test is AUGUST CPI (9/11)**, starting from $4.10+ against a $3.95 base. Both dates added to the docket. KB-CARL-357.
 
 **Provenance worth noting:** HENRY derived this 7/23; NEXUS routed it into my inbox *during* this session (a packet I had already swept to `processed/` before reading — caught by the pre-commit `git status` check). **I recomputed it from my own FRED GASREGW weeklies rather than adopting it** — the two agree, and mine is marginally stronger. This is the second time this session that a mechanical check caught something a read-through missed (the first: `consistency_check.py` on the stale-open CRL-24 mirror row).
 
@@ -264,7 +297,7 @@ Added `2026-07-14 June CPI` to `docket/CATALYSTS.tsv` + `docket/CALENDAR.md` (bo
 - **CRL-14: SPLIT (mechanism live / threshold STUCK).** MAJOR CORRECTION — ED paused ALL involuntary collections (AWG + Treasury Offset) Jan 16 2026 INDEFINITELY; the "Jul 15 collections restart" catalyst is contradicted (NY Fed May 12 + CBS Jul 2 confirm on-hold). Default-accrual mechanism firing (9.16M Apr). Treasury Phase 1 (~500K) is servicing custody, not enforcement.
 - **CRL-13: timeframe refined** — SAVE→RAP notices began on schedule Jul 1 but are staggered in waves through Mar 2027 (non-selectors auto-enroll ~90d after each individual notice); Oct 1 = first-tranche read, not final N.
 
-**Files:** THESIS.md (version stamp + score header + What's-Forecast Fannie line + V3/V16 matrix cells + histogram + commentary + upgrade-path + Thesis-Evolution entry), PREDICTIONS.tsv (CRL-03/11 MISSED + CRL-08/13/14 re-marks), this CHANGELOG, STATUS.md (top-line + Overall + Fannie MF/HPI/labor/UMich/gas/HY-OAS rows + matrix mirror + histogram + DANGER-WINDOW NOW + predictions table + BOTTOM LINE), KB.tsv (+ new rows), board/BOARD_LOG.tsv (+40 dispositions), docket (prune 6 fired + collections-restart STUCK + Aug-21 waiver-expiry), ROADMAP.md, NEXUS_BRIEF.md (re-pin), SCRATCH.md (rewrite). **Data caveat:** BLS/FRED primary returned 403 (sandbox network block) — labor/sentiment figures secondary-corroborated (multi-source); Fannie MF + gas were primary-verified.
+**Files:** THESIS.md (version stamp + score header + What's-Forecast Fannie line + V3/V16 matrix cells + histogram + commentary + upgrade-path + Thesis-Evolution entry), PREDICTIONS.tsv (CRL-03/11 MISSED + CRL-08/12/14 re-marks), this CHANGELOG, STATUS.md (top-line + Overall + Fannie MF/HPI/labor/UMich/gas/HY-OAS rows + matrix mirror + histogram + DANGER-WINDOW NOW + predictions table + BOTTOM LINE), KB.tsv (+ new rows), board/BOARD_LOG.tsv (+40 dispositions), docket (prune 6 fired + collections-restart STUCK + Aug-21 waiver-expiry), ROADMAP.md, NEXUS_BRIEF.md (re-pin), SCRATCH.md (rewrite). **Data caveat:** BLS/FRED primary returned 403 (sandbox network block) — labor/sentiment figures secondary-corroborated (multi-source); Fannie MF + gas were primary-verified.
 
 ---
 

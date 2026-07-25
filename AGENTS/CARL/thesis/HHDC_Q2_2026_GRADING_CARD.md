@@ -131,4 +131,24 @@ Written now so they cannot be reached for later:
 ---
 
 ## 8. ADDENDA
-*(none — original freeze 2026-07-24. Any post-freeze change goes here, dated, with the original text above left intact.)*
+*Original freeze 2026-07-24. Post-freeze changes go here, dated, with the original text above left intact.*
+
+### 2026-07-24 — ⚠️ THE CELLS NOW CARRY POSITION CONSEQUENCES (Will ruling, relayed via NEXUS ~3:45 PM ET)
+
+Will ruled on CRL-21's pre-registered position-action commitment: **it is DEFERRED to this print and DECIDED BY THIS CARD'S CELLS.**
+
+| Cell (§3) | Position consequence |
+|---|---|
+| **D — masking refuted** | Execute the **FULL** commitment: trim short positions 25% **and** extend duration to Q2-2027+ |
+| **C — masking losing** | The **duration-extension half only** |
+| **A / B** | **Hold** — revisit at the ~Oct vintage leg |
+
+Construction routes through **TERRY** when/if a cell fires; **Will approves**. Will's words: *"we can just revisit Aug 15th or later."* Timing alignment flagged by NEXUS: the **Aug-21 expiries (OZK ×5, KRE ×3, WAL ×1)** get handled in the same post-8/15 TERRY session with the cell verdict in hand.
+
+**This is recorded as an addendum, not an edit, because it materially changes what the card does** — §3's cells were written to move confidence and score; they now also move capital. **The freeze rule is what forced this to be visible rather than absorbed into §3.**
+
+### 2026-07-24 — RED has pre-registered a rationalization test against CARL on this print (ACCEPTED)
+
+RED, verbatim: *"if the ~8/15 HHDC prints benign-or-better on the subprime/delinquency legs and V2 does not go 4→3, I file that as a scored rationalization finding against CARL."* Their framing, which I accept: **the test is not today's decision — it is whether the arming is a COMMITMENT or a QUEUE.** Rationalization would be nominating yet another instrument if 8/15 also comes in benign.
+
+**⚠️ Instrument correction owed back to RED, because their grading condition inherits the defect I fixed this morning:** **V2 does not resolve on the HHDC** — it publishes no subprime auto series. The correct pairing is **Fitch ATR ~8/10 → V2** (its own v3 seasonality-matched trigger) and **CC 90+ on this print → CRL-05 / V1**. Grade against those two, not against a V2-on-HHDC condition that cannot fire.
