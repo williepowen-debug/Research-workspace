@@ -7,15 +7,79 @@ pruning would otherwise destroy (per auto-memory `[[finding_pov_changelog_patter
 **Scope:** analytical/thesis changes only — conviction shifts, mechanism reframes,
 prediction-confidence moves of note, new transmission rows, case-status escalations.
 NOT routine dashboard refreshes (those live in STATUS) and NOT structural doc/folder
-changes (no separate MAINTENANCE log yet — candidate if structural churn grows).
+changes (those live in `MAINTENANCE.md`).
 
-**Versioning:** OTTO's live thesis currently lives in `STATUS.md` (§ THESIS), not a
-versioned `thesis/THESIS.md`. Until that graduates, this log is dated-entry only — no
-version tags. When/if the thesis moves to its own folder, this file moves with it.
+**Versioning:** OTTO's canonical thesis is `thesis/THESIS.md` (v1.1 as of 2026-07-04);
+`STATUS.md` § THESIS is a live-state mirror. Entries here are dated and may cite the
+thesis version they moved. *(Preamble corrected 2026-07-25 — it had described the
+pre-Jun-9 layout, in which neither `thesis/THESIS.md` nor `MAINTENANCE.md` existed.)*
 
 **Format:** reverse-chronological. Each entry: `### YYYY-MM-DD — headline`, then
 **Was → Is**, then **Trigger** (what evidence forced it), then **Touches** (which
 docs/predictions moved).
+
+---
+
+### 2026-07-25 (session 016) — 🔴 DOJ has criminally charged BOTH of OTTO's thesis mechanisms; Invisible Exit escalates from inference to indictment
+
+**Was → Is:** The Primary (Cockroach/double-pledging) thesis rested on bankruptcy-estate evidence and the Dec-2025 indictment's *bank-fraud* framing. The Secondary (Invisible Exit) thesis — that the immigrant subprime cohort skip-defaults in a way that **bypasses the 30→60→90 DQ chain**, which is why fraud-lender books look clean until collapse — was OTTO's own **inference from data**, explicitly the weaker leg (MEDIUM-HIGH, "structurally validated" only by the Tricolor 30K-missing-vehicles / Vervent Fresh Start evidence).
+
+**Is:** a **superseding 8-count indictment** unsealed **2026-06-24** against founder Daniel Chu charges, as criminal conduct, that Tricolor executives *"manipulated delinquent loan data to make non-performing loans appear current"* **and** *"pledged the same collateral to multiple lenders simultaneously"*, plus fictitious payment records and falsified borrowing-base reports. **Both legs of OTTO's thesis are now federal criminal allegations, not OTTO inferences.**
+
+**Trigger:** `[CONF DOJ/SDNY via Reuters, Bloomberg, NatLawReview, Barnes & Thornburg]` — surfaced 2026-07-25 during the 21-day catch-up sweep. **It happened Jun 24, ten days before OTTO's Jul 4 session, and was missed then too.**
+
+**Three escalations, in order of importance:**
+1. **The Invisible Exit mechanism is charged.** "Making non-performing loans appear current" is precisely the DQ-chain bypass OTTO modelled. This is the strongest available validation short of conviction, and it should move the Secondary thesis's conviction up — it is no longer OTTO's private read of anomalous data.
+2. **"Continuing financial crimes enterprise from at least 2018."** The alleged fraud ran **seven years** before collapse. OTTO's vintage work has centred on 2022; the indictment implicates **2018-2021 vintages** as well, widening the impaired-collateral window materially. *This is an open analytical thread, not yet worked.*
+3. **The statute is the tell on DOJ's own conviction.** DOJ invoked **18 U.S.C. § 225 (CFCE, the "financial kingpin" statute)** — mandatory minimum **10 years to life**, used a handful of times since the S&L crisis and not at all in over a decade. Prosecutors do not revive a dormant mandatory-minimum statute for a marginal case. Charges roughly doubled vs. the December original. Chu pleaded **not guilty 2026-06-30**.
+
+**Fourth, separately dated:** former COO **David Goodgame pleaded GUILTY 2026-06-24** to six counts (bank/wire/securities fraud, conspiracy, false statements) and is **cooperating** against Chu — a flip from his Jan-2026 not-guilty plea. **This fires OTTO's standing outbound trigger** ("cooperating witness reveals new fraud/participants" → CARL, REGINALD, 🟠 ELEVATED). A cooperating COO is the highest-value fraud-surface-expansion vector available; expect new counterparties to surface through his proffer.
+
+**Calibration note — this is a coverage failure, not a lucky find.** Four Tricolor criminal-track developments (Jun 24 superseding indictment, Jun 24 Goodgame plea, Jun 30 arraignment, Jul 7 trial re-date) all landed in a window OTTO was nominally awake for on Jul 4, and none were caught. The Jul 4 session swept *bankruptcy* dockets and *ABS* data but did not sweep the **criminal** track — which WINTERKORN's spec explicitly scopes as "selective: trial date + cooperator motions only." That scoping was too narrow: it treated the criminal case as a date-keeping problem when it is a *fraud-surface-discovery* channel.
+
+**Touches:** STATUS (THESIS mirror, dashboard, ACTIVE VECTORS, CRITICAL TIMELINE), `workbook/ML.tsv` ML-191/-192/-193/-194, `thesis/THESIS.md` (conviction on Secondary — **owed, see LAST_COMPLETION gaps**), WINTERKORN spec scope (**owed**), cross-agent trigger to CARL/REGINALD.
+
+---
+
+### 2026-07-25 (session 016) — Double-pledge mechanic confirmed in a THIRD collateral class (floorplan/inventory)
+
+**Was → Is:** OTTO tracked Tricolor's double-pledging across two collateral layers — the ABS warehouse (29,000 double-pledged loans) and the receivables layer ($113M disputed-ownership escrow). **Is:** a third layer is now primary-sourced — **floorplan/vehicle inventory**. TBK Bank (Triumph Financial) is agent on a $60.5M Tricolor floorplan facility holding ~$22.5M on a claimed *first-priority* interest in vehicle inventory, while its own 10-Q concedes "other creditors have asserted that they have interests in some of the collateral."
+
+**Trigger:** `[CONF SEC 10-Q, TFIN CIK 0001539638, filed 2026-07-21]`, found via complete EDGAR full-text scan.
+
+**Why it's thesis-level, not a dashboard row:** the Cockroach thesis claims fraud, once found, is broader than first disclosed. Each additional *collateral class* touched by the same mechanic is independent confirmation that Tricolor's double-pledging was systemic to the business model rather than confined to the securitization channel. It also opens a new discovery surface: **~$38M of the syndicate is held by unnamed participants.**
+
+**Second-order:** TBK carries the $22.5M **unreserved** 9.5 months post-Ch.7 on an "adequately secures" assertion, against inventory where OTTO's own data shows ~30,000 vehicles missing and ~3% realized recovery. Loss-recognition lag is itself now a tracked mechanic (same shape as the $113M escrow: *banks cannot book losses cleanly even when substance is clear*).
+
+**Touches:** STATUS (new ACTIVE VECTOR + 3 dashboard rows + timeline), `workbook/ML.tsv` ML-184, NEXUS_BRIEF (new REGINALD send-row), WALTER signal `SIG-OTTO-WALTER-20260725-tricolor-floorplan-tfin`. No prediction moved — this is new surface, not a resolution.
+
+---
+
+### 2026-07-25 (session 016) — Two predictions downgraded hard on primary evidence; the failure mode is measure-design, not luck
+
+**Was → Is:** OTTO-30 **45% → 12%**; OTTO-31 **30% → 12%**.
+
+**Trigger — OTTO-30:** a *complete* EDGAR full-text scan (all operating-company forms mentioning "Tricolor", 2026-04-15 → 07-25) returned **zero new US bank names**. Every in-window filer disclosed before the window opened. **Trigger — OTTO-31:** MTB Q2 (Jul 15) posted record EPS $5.32 vs $4.66 est with no wind-down language and active promotion of Wilmington's custody franchise — a second corporate-side disconfirmation.
+
+**The pattern worth naming.** With OTTO-26 (right direction, wrong date), OTTO-29 (confirmed-on-substance, falsified-on-window), OTTO-04 (deep-subprime substance confirmed, blended-index metric may miss) and now OTTO-30, **four of OTTO's claims have failed or are failing on how the claim was *measured* rather than on whether the world moved as expected.** OTTO-30 is the cleanest case: it asked "does a 6th bank *disclose*" — but a bank that disclosed in Sept 2025 and was never *found* is indistinguishable, from OTTO's side, from one that never disclosed. The prediction measured OTTO's own discovery latency, not the world. **Both times OTTO's named-bank list was found incomplete (OBK, now TFIN), the cause was press-sampling rather than complete scan.**
+
+**Corrective adopted:** discovery-type claims must specify the *instrument* (complete EDGAR FTS, not press monitoring) and a pre-registered re-check. OTTO-30 now carries one: re-run the identical query 2026-08-15; still zero → FALSIFIED.
+
+**Touches:** `thesis/PREDICTIONS.tsv` (OTTO-30/-31 confidence + notes), STATUS § PREDICTIONS, MEMORY (finding), auto-memory candidate.
+
+---
+
+### 2026-07-25 (session 016) — OTTO-32 resolution mechanics reframed (confidence held at 85%)
+
+**Was → Is:** Jul 28 was carried as a same-day resolver ("plan confirmed = OTTO-32 CONFIRMED early"). **Is:** Jul 28 is the **opening of a multiday contested confirmation trial** — creditors sought further production on the litigation claims at the plan's core, the court is weighing privilege issues pre-trial, and every plan revision has drawn "a wall of objections" including the UST `[PRESS Law360/Octus/TT]`.
+
+**Trigger:** T-3 pre-hearing verification pass.
+
+**Why it matters even though confidence didn't move:** the *substance* (111/112 debtors → Ch.7) is unchanged and the Sep 30 window stays comfortable — but anything scoring OTTO-32 off a Jul 28 headline would misread a process readout as a verdict. **Catalyst-date ≠ resolution-date** (auto-memory `[[finding_catalyst_vs_consequence_conflation]]`).
+
+**Also newly surfaced:** debtor suits vs Patrick James + Onset Financial seek **>$2.7B** and are **stayed** pending the criminal case; Lopez ordered a criminal-proceedings status update by **Jul 13** — a dated node that was never on OTTO's docket.
+
+**Touches:** `thesis/PREDICTIONS.tsv` OTTO-32 notes, STATUS (§ PREDICTIONS, CRITICAL TIMELINE, BOTTOM LINE), `docket/CATALYSTS.tsv`.
 
 ---
 

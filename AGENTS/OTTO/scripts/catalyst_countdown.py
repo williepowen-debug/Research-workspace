@@ -21,9 +21,31 @@ from pathlib import Path
 
 OTTO_DIR = Path(__file__).resolve().parent.parent
 CATALYSTS_TSV = OTTO_DIR / "docket" / "CATALYSTS.tsv"
+STATUS_MD = OTTO_DIR / "STATUS.md"
 
-DEFAULT_HORIZON = 150  # days to look ahead (sparse, long-dated docket)
-PAST_RETENTION = 10    # days of recently-fired catalysts to still surface
+DEFAULT_HORIZON = 150      # days to look ahead (sparse, long-dated docket)
+PAST_RETENTION_MIN = 10    # floor — daily-cadence operation
+PAST_RETENTION_MAX = 120   # ceiling — past this, the docket is the record, not the boot
+
+
+def past_retention_days():
+    """Look-back window for the fired-catalyst sweep, sized to how long OTTO has been dark.
+
+    A FIXED window is wrong for this agent. OTTO is Tier-2 / spawn-gated and routinely
+    goes dark longer than 10 days (21 days, 2026-07-04 -> 2026-07-25), which silently
+    ages fired catalysts out of the past-due-catch before they were ever swept — the
+    Jul 14 Q2-bank row, an OTTO-30 input, aged out exactly this way.
+
+    STATUS.md's mtime is OTTO's last closeout, so this window tracks "everything that
+    fired since I last wrote back." Deliberately asymmetric: re-showing an
+    already-swept row costs one line of noise; hiding an unswept one costs a catalyst.
+    """
+    try:
+        last_close = datetime.fromtimestamp(STATUS_MD.stat().st_mtime).date()
+    except OSError:
+        return PAST_RETENTION_MIN
+    dark_days = (datetime.now().date() - last_close).days + 3  # +3 grace
+    return max(PAST_RETENTION_MIN, min(dark_days, PAST_RETENTION_MAX))
 
 
 def load_catalysts():
@@ -79,7 +101,8 @@ def main():
     upcoming = []
     recent_past = []
     horizon_cutoff = today + timedelta(days=horizon)
-    past_cutoff = today - timedelta(days=PAST_RETENTION)
+    past_retention = past_retention_days()
+    past_cutoff = today - timedelta(days=past_retention)
 
     for c in catalysts:
         try:
@@ -95,7 +118,7 @@ def main():
     # Past-due-catch: recently fired, surface for sweep
     if recent_past:
         recent_past.sort(key=lambda x: x[0])
-        print(f"\n  ⚠️  RECENTLY FIRED (last {PAST_RETENTION} days — sweep at closeout)")
+        print(f"\n  ⚠️  RECENTLY FIRED (last {past_retention} days = since last closeout — sweep now)")
         print(f"  {'-'*68}")
         for edate, c in recent_past:
             days_since = (today - edate).days

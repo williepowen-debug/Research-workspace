@@ -49,23 +49,31 @@
 
 ## Session Notes
 
-### CHANGES SINCE LAST SESSION (Jul 4 s014 catch-up → Jul 4 s015, same-day follow-on)
-- Same-day second session, no external time-gap. Session 014 (25-day catch-up sweep) ran earlier today; session 015 = Will-directed P2 primary-source pass. **WINTERKORN confirmed spawned in s014** (its LAST RUN log), so the boot "spawn WINTERKORN overdue" flag was WRONG — it's current (next weekly-Tue Jul 7 / T-3 pre-Jul-28 ~Jul 24-25).
+### CHANGES SINCE LAST SESSION (Jul 4 s015 → Jul 25 s016 — 21 days dark)
+- Five docketed catalysts fired unswept (Jul 14 banks, Jul 15 Fitch, Jul 15 MTB, Jul 20 FB vote, Jul 21 Ally) — all swept this session. **Plus four undocketed events found**: Jun 24 superseding indictment + Goodgame guilty plea, Jun 30 arraignment, Jul 7 trial re-date, Jul 24 FB status conference, and (older) the Apr 27 examiner interim report.
+- **Three of those predate the Jul 4 session.** OTTO was awake and still missed them — the criminal track was never being swept.
 
-### LAST SESSION (Jul 4 s015 — P2 primary-source pass; OTTO-04 reframed 68→62%)
-- **2022-vintage 10-D pull `[CONF SEC 10-D]`:** bifurcation by tier — deep-subprime Exeter EART 2022-3 27.58% / 2022-2 26.34% (>25%, ~28-29% terminal) vs broad-subprime Santander SDART 2022-6 12.08%; both decelerating into summer, no May re-acceleration. Fitch blended index composition-anchored-down by Santander → **OTTO-04 68→62%**; deep-subprime magnitude leg CONFIRMED, blended-index metric may falsify-on-technicality. CHANGELOG + MAINTENANCE s015 entries logged.
-- **Fitch "May print" = March data** (2mo lag): DQ 6.11% / ANL 8.80% / recovery 37.48% — confirms prior `[PRESS]`, NO new data, no summer re-deterioration in Fitch yet (next print ~Apr-data mid-Jul). 3 stale-vintage articles (May-2024 / Aug-2023 / Jun-2025) avoided by year-verification. STATUS DQ/ANL/recovery rows re-stamped with data-month.
-- **ML.tsv CRLF-merge corruption REPAIRED** (structural): 11 spurious-int rows + 1 merged mega-row (ML-171) + stray blank → 182 clean contiguous rows, all 8 fields, validate-before-write. + ML-182/-183 appended. EDGAR primary pull now via curl/urllib + compliant UA.
+### LAST SESSION (Jul 25 s016 — catch-up + T-3 pre-7/28; the criminal track broke open)
+- **🔴 DOJ charged BOTH OTTO thesis mechanisms** (superseding 8-count indictment vs Chu, unsealed Jun 24; §225 "financial kingpin", 10yr-life min, dormant a decade): *"manipulated delinquent loan data to make non-performing loans appear current"* = Invisible Exit; *"pledged the same collateral to multiple lenders simultaneously"* = double-pledging. **"Continuing enterprise from at least 2018" → 2018-2021 vintages implicated (open thread, unworked).** Ex-COO **Goodgame pleaded guilty Jun 24 + cooperating** → fired OTTO's standing 🟠 trigger. Secondary-thesis conviction MED-HIGH → HIGH on mechanism.
+- **🔴 TFIN/TBK Bank: $60.5M Tricolor floorplan, $22.5M held, UNRESERVED** `[CONF SEC 10-Q 7/21]` — 7th named bank, double-pledge mechanic in a **third collateral class**, ~$38M with unnamed syndicate participants.
+- **OTTO-30 45→12%** (complete EDGAR FTS: zero new bank names in-window; TFIN predates it — OBK trap #2). **OTTO-31 30→12%** (MTB Q2 record EPS $5.32, no wind-down, custody franchise promoted). **OTTO-32 held 85% but mechanics reframed** — Jul 28 is a multiday contested trial, not a verdict. **OTTO-33 created** (criminal-track exposure; instrument named in-row).
+- **Tricolor trial Oct 19 2026 → Jan 25 2027** (Castel; Feb 1 reserved). Fraud-surface catalyst leaves 2026.
+- **CVNA Q2 = Jul 29 after close** — was absent from the docket; stock −14.4% off its Jul 16 high into it; T-7 short-seller protocol went unrun.
+- **Boot kit: 2 defects fixed** (priority-filter dropped fired rows; fixed 10-day look-back now auto-sizes to time-since-closeout). **PROME's 7 date-drift flags: 5 false positives + 2 historical; 1 real fix.** **WAL/Jefferies is a Mar 6 item, not 7/21** — corrected back to PROME.
+- **$237M/15-BDC figure:** refresh **impossible before 7/28** (BDC Q2 10-Qs file in August — verified, not assumed). Re-stamped `[PRESS][STALE 2026-02-04]`, attribution fixed to OTTO. Substantive catch: it's a **par figure already marked down 80-99% per OTTO-09** — using it as fresh markdown capacity double-counts.
+- **WINTERKORN T-3 run: strong.** All 4 PENDING blocks cleared same-session; all 5 added rows accepted; spec re-scoped on criminal track. One claim not propagated — two executive names from the examiner report failed independent corroboration.
 
 ### NEXT SESSION
-1. ✅ **thesis/THESIS.md → v1.1 (Jul 4)** — both Jul-4 pivots encoded; OTTO-04 measure question RESOLVED (stays blended index; miss = falsified-on-window/confirmed-on-substance, OTTO-29 convention). No carry-forward.
-2. **WINTERKORN T-3 pre-Jul-28 (~Jul 24-25)** — re-verify FB confirmation cluster (Jul 20 vote → Jul 27 ballot-cert → Jul 28 hearing). Weekly-Tue Jul 7 optional.
-3. **Jul 28 First Brands confirmation = live OTTO-32 resolver (85%).** Jul 14 Q2 banks (OTTO-30 last shot); ~Jul 15 Fitch Apr-data print (OTTO-04 summer tell); Jul 15 MTB (OTTO-31); Jul 21 Ally (OTTO-28 postscript).
-4. **Route BDC/private-credit dashboard refresh to BROCK** (not OTTO domain — reference, don't re-maintain). DQ-series reconciliation (7.1% vs Fitch 6.90%/6.11% vs VX) still open. Verify Jun-16 Carvana Chancery dismissal identity.
-5. **Freeze-or-refresh CROSS_AGENT_LOG / EXTENSION_PROXY / KB** (boot workbook-staleness +80/+80/+101d). DAEDALUS maturity read still pending (inbox drop s014).
+1. **🔴 Jul 27-29 cluster.** Jul 27 ballot certification (vote tallies go public). Jul 28 FB confirmation trial opens — **expect process, not verdict**. Jul 29 triple: Castel date-confirmation + **CVNA Q2 after close** + FB day 2.
+2. **Work the 2018-2021 vintage thread** — the "at least 2018" enterprise allegation says OTTO's 2022-vintage focus is too narrow. Nothing done yet. Highest-value unworked analytical lead.
+3. **Pull the TBK syndicate roster** (~$38M unnamed participants) via Verita docket / UCC filings — best remaining lead for a genuinely new name, and the live driver of OTTO-33.
+4. **Aug 15: pre-registered OTTO-30 falsification re-check** — re-run the identical EDGAR FTS query; still zero → FALSIFIED.
+5. **August: BDC Q2 10-Qs unblock the $237M refresh.** Route to BROCK.
+6. Carried: `thesis/THESIS.md` v1.1 → v1.2 owed (Secondary-thesis conviction upgrade + 2018-2021 vintage widening). PREDICTIONS_ARCHIVE scoreboard stale at 5/5 (actual 5/7; OTTO-05/-28 post-mortems never landed). 3 workbook ledgers still stale (CROSS_AGENT_LOG +80d, EXTENSION_PROXY +80d, KB +101d) — freeze-or-refresh. DQ-series reconciliation. Jun-16 Carvana Chancery dismissal identity unverified.
 
 ### PENDING PUSH
-- **Only Jul 4 s015 (`cbba743e`) is unpushed** (verified `origin/master..HEAD` = 1). The carried-forward "Jun 2/8/9 + s014 pending" was STALE — those already rode a prior push-train to origin. OTTO CLAUDE.md = commit-local, push Will-coordinated. *(Lesson: verify `origin/master..HEAD` before carrying a pending-push claim forward — [[finding_verify_counts_before_propagating]].)*
+- s016 committed local; auto-push via `scripts/safe-push.sh` at closeout. Local was **15 commits ahead of origin** at boot (other agents' push-train backlog) — safe-push sweeps them all if ff-clean.
 
 ### FLEET-FLAG (surface to Will/PROME)
-- **Auto-memory index ~195 lines** (approaching ~200 read-limit). Fleet-owner (PROME/Will) compaction call — retiring ~55 cross-agent pointers is judgment, not a silent OTTO prune. (Carried from s014.)
+- **Auto-memory index ~197 lines** (approaching ~200 read-limit) — 2 added this session. Fleet-owner compaction call, not a silent OTTO prune. (Carried from s014/s015.)
+- **PROME's STATUS boot-gate is miscalibrated** — 7 date-drift flags, 5 of which had matching docket rows and 2 of which were historical citations. Format-matching bug + no past-date exclusion. Detail in the reply packet.

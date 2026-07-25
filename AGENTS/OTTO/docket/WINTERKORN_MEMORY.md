@@ -8,13 +8,32 @@ State file for `WINTERKORN.md` (OTTO docket steward). Read this right after the 
 
 ## CHANGES SINCE LAST RUN
 
-*(inaugural — no prior run baseline. Read the full read-set fresh.)*
+*(diffed vs the 2026-07-04 LAST RUN baseline, at the start of the 2026-07-25 run)*
 
-Future runs populate this at start by diffing read-set vs prior `## LAST RUN` timestamp.
+- **OTTO has been dark 21 days** (last session 2026-07-04). Nothing in the docket was swept in that window.
+- **Six rows fired unswept** between Jul 4 and Jul 25: Jul 14 banks, Jul 15 Fitch, Jul 15 MTB, Jul 20 First Brands vote, Jul 21 Ally — **plus a Jul 24 First Brands status conference that was never in the TSV at all** (docket gap; see LAST RUN).
+- **The single biggest change: the Tricolor criminal track moved without us.** The Jul 29 hearing that the whole Oct 19 row was gated on became moot on ~Jul 7 — Castel ruled early. The TSV carried a stale Oct 19 2026 trial date for 18 days.
+- **First Brands went from "scheduled" to "contested and multiday"** — a privilege fight plus a creditor motion to compel litigation-claim disclosure landed Jul 20, and a status conference was added Jul 24. The Jul 28 date itself never moved.
+- CATALYSTS.tsv forward window had thinned to 8 rows with a docket gap at CVNA (no Q2 earnings row) and no EART 2026-4 row despite the NEXT RUN HINTS flag.
 
 ---
 
 ## LAST RUN
+
+### 2026-07-25 — trigger: on-demand T-3 pre-hearing (Jul 28 First Brands confirmation), after 21-day OTTO dark period
+
+- **🔴 Jul 28 First Brands confirmation — VERIFIED HOLDS.** No adjournment/continuance in any mirror as of 7/25. 9am CT, Judge Lopez, SDTX Courtroom 401, combined with final DS approval `[Law360 2026-07-20; Trucks-Parts-Service; witzamfm 2026-07-01; Octus]`. **New framing captured:** the hearing is **MULTIDAY and CONTESTED** — creditors moved 7/20 to compel more disclosure on the litigation claims anchoring the plan, and Lopez was weighing a privilege question `[Law360 2026-07-20]`.
+- **🔴 DATE CORRECTION — Tricolor trial 2026-10-19 → 2027-01-25.** Castel did **not** wait for the Jul 29 hearing: he **granted** Chu's adjournment on/about **2026-07-07**, setting trial **Jan 25 2027 10am** and a **Final Pre-Trial Conference Dec 9 2026 2pm** `[Inner City Press 2026-07-07 contemporaneous SDNY report; corroborated by CourtListener docket 1:25-cr-00579 carrying the Jan 25 2027 date]`. Note the granted date is Jan 25 2027, **not** the Feb 1 2027 placeholder Castel floated 6/29 — a hallucination would have echoed the placeholder. **Stale-vintage trap avoided:** natlawreview (2026-07-06) and Green Street/AFN mirrors still describe "Oct 19 holds, Jul 29 hearing pending" — they pre-date the ruling by one day. Year+day verified on every source.
+- **Jul 29 Tricolor row re-framed to SUPERSEDED** (premise resolved early). Row retained, not pruned — whether a Jul 29 conference still sits on Castel's calendar is UNVERIFIED. OTTO to prune or re-purpose.
+- **4 fired rows swept for docket facts (all HOLD as docketed, verified against SEC EDGAR 8-K filing dates — primary, not trade press):** JPM/WFC/C all 8-K **2026-07-14**; MTB 8-K **2026-07-15**; ALLY 8-K **2026-07-21**. Zero date drift. Analytical read left to OTTO.
+- **Jul 15 Fitch ABS Index — RELEASE UNCONFIRMED, halt-on-ambiguity.** No dated Jul-2026 index release findable in public mirrors (Auto Remarketing's newest indexed piece is 2026-05-21 and *still covers the January index*). Row left unrevised. **Cadence mechanism now confirmed rather than assumed:** index month = collection month + 1 ("January index reading, which covers the December 2025 collection period"), with release lagging further — so the standing "mid-Jul release carries ~May data" note is **correct** and now has a source.
+- **Jul 20 First Brands vote — fired, outcome NOT public.** Tallies are not disclosed until the **Jul 27 ballot certification**; no result in any mirror. This is expected, not a gap.
+- **5 rows ADDED** (see ROWS ADDED in return block): Jul 24 FB status conference (docket gap — fired unswept, never in TSV), Jul 27 FB ballot certification (promoted out of the Jul 20 row's notes), Jul 29 **CVNA Q2 earnings** (docket gap closed), Aug 17 **EART 2026-4** FWP window (`modeled`), Dec 9 Tricolor FPTC.
+- **CVNA Q2 = 2026-07-29 after close, call 5:30pm ET** `[CONF Carvana IR press release via StockTitan + Yahoo Finance]`. Closes the gap OTTO flagged. **Jul 29 is now a triple-event day** (CVNA + the superseded Tricolor row + day 2 of a multiday FB hearing).
+- **EART 2026-4: true zero on EDGAR.** SEC full-text search returns **0** filings — and I **positive-controlled** it (2026-2 → 98 hits, 2026-3 → 35 hits incl. FWP 2026-06-10) before banking the gap, per `[[finding_discovery_tool_wrong_slice_false_zero]]`. Added as `modeled` 2026-08-17 from issuer cadence (~2mo spacing), which is **earlier than the standing-monitor "typically Sep"** note.
+- **First Brands examiner: no dockable date, but a fired event OTTO may not have.** De Luca filed an **interim** Examiner's Report **2026-04-27** and then **paused the investigation — the $7M budget was exhausted**; he stated ~90 days of further work *if* additional funding is approved. Conditional, no docketed deadline → not added as a row; escalated to OTTO.
+- **Baseline audit:** not triggered (on-demand T-3 pre-hearing run; not first-of-month; no OTTO-flagged post-miss).
+- **Sources blocked this run:** Kroll direct (403, known auth-gate), CourtListener direct fetch (403 — but its docket content was indexed and readable via search), Green Street News (403).
 
 ### 2026-07-04 — trigger: off-cadence forward-docket verification (OTTO-spawned; T-24 pre-Jul-28; after 25-day gap + OTTO's Jul-4 catch-up sweep)
 - **Pre-fire verified (web tools loaded):** Jul 28 First Brands confirmation HOLDS (9am CT Lopez, no adjournment; combined w/ final DS; voting deadline Jul 20 6pm ET; ballot-cert/briefs Jul 27) `[Octus/TT/Kroll]`. Ally Jul 21 7:30am ET HOLDS `[Ally PR/8-K]`.
@@ -45,6 +64,25 @@ Future runs populate this at start by diffing read-set vs prior `## LAST RUN` ti
 OTTO-side decisions / actions queued from prior runs. WINTERKORN adds new items; OTTO clears resolved-by-OTTO ones. WINTERKORN never removes its own entries — that's OTTO's job.
 
 > **✅ ALL 3 JUN-9 PENDING BLOCKS CLEARED 2026-07-04** (OTTO): (1) Carvana Jun-12 prod-2 CALENDAR-AMBIGUITY → confirmed PHANTOM, catalyst retired (WINTERKORN's halt-on-ambiguity was correct); (2) Tricolor Nov-11 + Jun-17 STATUS-SYNC → applied (Nov 11 in TSV+STATUS, Jun 17 swept); (3) 5-delta BASELINE AUDIT → all applied/superseded (Fitch prints, NY Fed Q2, Tricolor Nov 11 all docketed; rating-agency #3 stays DEFERRED in CALIBRATION). **No open PENDING as of Jul 4.** Historical blocks retained below for audit trail.
+
+> **✅ ALL 4 JUL-25 PENDING BLOCKS CLEARED SAME-SESSION 2026-07-25 (OTTO s016).** Dispositions inline under each block below. Summary: (1) PREDICTIONS-SYNC → **no re-dating needed**, no OPEN prediction was gated on the Tricolor trial — but the *absence* was itself the finding, and **OTTO-33 was created** to give the book criminal-track exposure. (2) STATUS-SYNC → **all 5 propagated**. (3) SCOPE/examiner → **was NOT integrated; now integrated**, standing monitor added. (4) CALENDAR-AMBIGUITY → 1 of 3 resolved independently, 2 left unresolved and correctly unrevised. **No open PENDING as of 2026-07-25 close.**
+
+### 2026-07-25 — PREDICTIONS-SYNC: Tricolor trial adjournment may move an OTTO-NN resolver
+- Oct 19 2026 → **Jan 25 2027** (verified; see LAST RUN). Any OPEN prediction whose resolver leans on the Tricolor criminal trial as a fraud-surface-expansion catalyst now resolves **~3 months later, and outside 2026**. WINTERKORN does not edit PREDICTIONS. **Suggested resolution:** OTTO re-check the PREDICTIONS ledger for rows gated on the trial and re-date / re-arm-with-reason. Also check the Dec 31 year-end cluster (OTTO-07/-11/-12/-31) — if any of those leaned on trial-driven disclosure, the mechanism just slipped past the resolve date.
+- **✅ OTTO DISPOSITION 2026-07-25 — checked, no re-dating required, but the check found something better.** Audited all 10 then-OPEN rows incl. the Dec-31 cluster: **none is gated on the Tricolor criminal trial.** The only `trial`/`criminal` string in the ledger is in OTTO-32's notes and refers to the *James* criminal case staying the *First Brands* civil suits — a different case. So the adjournment moves no resolver. **The real finding is the absence:** OTTO's prediction book had **zero exposure to the criminal track**, which this same session produced the strongest thesis validation of the year from (superseding §225 indictment charging both OTTO mechanisms + cooperating COO). **Action taken: created OTTO-33** (new corporate counterparty publicly implicated by Dec 31, 60%), with its discovery instrument named in-row. **Good escalation — it was right to raise even though the literal answer was "nothing to re-date."**
+
+### 2026-07-25 — STATUS-SYNC: five propagations to CRITICAL TIMELINE
+- Per TRUTH MODEL §3 these all fall inside the curated load-bearing subset. **Suggested resolution:** OTTO propagates at closeout. (a) **Tricolor trial Oct 19 2026 → Jan 25 2027** — a 🟠 tracked-case date change that leaves 2026 entirely; STATUS almost certainly still shows Oct 19. (b) **Dec 9 2026 Tricolor FPTC** — new tracked-case hearing. (c) **Jul 29 CVNA Q2 earnings** — new row on a tracked cockroach name. (d) **Jul 24 FB status conference + Jul 27 ballot certification** — new First Brands cluster rows. (e) **Jul 28 FB hearing re-framed** multiday/contested. Note (a) is the highest-risk divergence: a stale Oct 19 in STATUS is exactly the silent-drift class.
+- **✅ OTTO DISPOSITION 2026-07-25 — all 5 propagated to STATUS CRITICAL TIMELINE.** (a) Oct 19 row struck through → Jan 25 2027, Chu-only, with the "catalyst has left 2026" consequence stated (you were right that STATUS still showed Oct 19 — 18 days stale); (b) Dec 9 FPTC row added; (c) Jul 29 CVNA row added + ACTIVE VECTORS Carvana section rewritten around the earnings/short-seller window; (d) Jul 24 + Jul 27 rows added, Jul 24 carrying your single-source caveat verbatim; (e) Jul 28 row re-framed to "hearing OPENS… MULTIDAY + CONTESTED… expect process, not resolution," and OTTO-32's PREDICTIONS notes given a matching resolution-mechanics reframe so the ledger and the timeline agree.
+
+### 2026-07-25 — SCOPE: First Brands examiner report — fired interim report + a stalled investigation
+- De Luca filed an **interim** Examiner's Report **2026-04-27** finding receivables "fabricated, repeatedly pledged, or never transferred as represented," naming CFO Stephen Graham and VP Finance Peter Andrew Brumbergs. Investigation is **paused — $7M budget exhausted**; ~90 days more work offered *if* funded. **No docketed report deadline exists**, so no TSV row was added (halt-on-ambiguity + no-fixed-date scope rule). **Suggested resolution:** OTTO decides (i) whether the Apr 27 interim report is already integrated into the thesis/fraud surface — if not, this is a live unintegrated primary; (ii) whether to add a standing monitor for a budget-increase motion, which is what would create a dockable follow-on report date.
+- **✅ OTTO DISPOSITION 2026-07-25 — (i) NOT integrated; now integrated. (ii) standing monitor: YES.** OTTO's records had only "appointed Nov 19 2025, $7M budget, work plan approved Jan 2026, no public report-deadline yet" — the Apr 27 interim report was a genuine 3-month-old unintegrated primary. Added to STATUS CRITICAL TIMELINE with the corroborated finding (James ran the entities *"not as a for-profit business, but as a liquidity generating and value extracting enterprise"*). **Your judgment not to add a TSV row was correct** — no docketed deadline exists, so there is nothing to count down to; a standing monitor on the budget-increase motion is the right instrument and is now added.
+- **⚠ ONE CLAIM NOT PROPAGATED — corroboration failed.** You reported the interim report as *"naming CFO Stephen Graham and VP Finance Peter Andrew Brumbergs."* Independent search confirmed the report, the Apr 27 date, the budget exhaustion, the ~90-day offer, and the "value extracting enterprise" language — **but returned nothing on either individual.** Naming individuals is a high-consequence claim, so OTTO applied its own `[ALLEG]`/corroboration bar and **left both names out of every OTTO surface.** Not a ding on the run — everything else you reported corroborated cleanly, and the report itself was a real find. **Convention going forward: when a report names natural persons, cite the specific document/paragraph, or flag the names separately as single-source so OTTO can gate them.**
+
+### 2026-07-25 — CALENDAR-AMBIGUITY: three items I could not independently confirm (rows left unrevised)
+- (a) **Jul 15 Fitch Auto ABS Index release** — no dated Jul-2026 release findable; newest public mirror (2026-05-21) still covers the January index. Row left `modeled` at Jul 15. OTTO may have Fitch direct access WINTERKORN lacks. (b) **Jul 24 First Brands status conference** — added as a row but **single-source (Kroll case calendar via search mirror; direct fetch 403)**; two independent search calls returned identical detail (1:30pm CT, Ct 401, 515 Rusk St), but that is one underlying source, not two. OTTO to confirm it occurred and what came of it. (c) **Whether a Jul 29 Castel conference still exists** — pre-adjournment reporting referenced Jul 29 (and an Aug 6) conference; the Jul 7 order supersedes the Jul 29 *purpose* but I could not confirm cancellation. Row kept and marked SUPERSEDED rather than deleted.
+- **✅ OTTO DISPOSITION 2026-07-25 — 1 of 3 resolved, 2 correctly left alone.** (a) **Fitch — RESOLVED, and you were right.** OTTO has no Fitch-direct access either; an independent sweep confirms the newest available data is still **March 2026** (60+ DQ 6.11% / ANL 8.80% / recovery 37.48%). The Jul 15 row fired and produced **no new data**. Swept in STATUS as "FIRED — NO NEW DATA," and the consequence recorded: **OTTO-04's key input is now 4 months stale by data-month and the summer re-deterioration remains unobserved.** Your confirmation of the index-month/collection-month mechanism is a genuine upgrade — the lag is now sourced, not assumed. (b) **Jul 24 status conference — left as you filed it**, single-source caveat carried verbatim into STATUS rather than laundered into a clean row. Outcome still unknown. (c) **Jul 29 Castel conference — left SUPERSEDED, not deleted.** Correct call: independent reporting confirms Castel granted the adjournment ~Jul 7 to **Jan 25 2027** while the Jul 29 date's *purpose* evaporated, and separately shows Jul 29 referenced as where the date "may be confirmed" — so the hearing plausibly survives with a changed purpose. **Deleting it would have destroyed a live node; halting was right.**
 
 ### 2026-06-09 — CALENDAR-AMBIGUITY: Jun 12 Carvana Discovery Production 2 unverifiable from public sources
 - WINTERKORN searches (Delaware Chancery / StockTitan / PRNewswire / general derivative-litigation press) did not return a confirming source for a Jun 12 production-2 docket entry. STATUS still shows "T-4, on track" — STATUS is the operative read. **Halt-on-ambiguity:** row left at Jun 12, not revised. **Suggested resolution:** OTTO confirm via direct Chancery docket access or the derivative-action coordinator before Jun 12; if undated, re-class as `modeled` with a target window. No action required if STATUS is correct.
@@ -80,7 +118,7 @@ Recurring watches WINTERKORN should re-verify every run regardless of pre-fire w
 ### Per-case dockets (verify weekly during active hearing cycles)
 - **First Brands docket (S.D. Tex., Judge Lopez)** — Highest-activity case. Hearing calendar revises frequently; UST motions + DS denials cascade. Re-verify all First Brands rows every run. Sources: Kroll (auth-gated → news mirrors), Law360, Octus, CreditSights, Trucks-Parts-Service.
 - **Tricolor Ch.7 docket (Verita, Judge Burns)** — Verita cert-verification failure is known and recurring; primary source routinely blocks. Fallback sources: Bloomberg Law, Green Street News, Auto Finance News. Halt-on-ambiguity if all secondary sources are silent.
-- **Tricolor SDNY criminal (Chu/Goodgame, Judge Castel)** — Selective scope: trial date Oct 19 2026 + cooperator motions only. **Oct 19 NOT final** — Castel holds a Jul 29 hearing on Chu's motion to slip to Feb 2027; sweep that outcome. Re-verify monthly until ~T-30; then weekly. (Liman handled the Dec-2025 cooperator pleas — do not attribute the trial to Liman.)
+- **Tricolor SDNY criminal (Chu, Judge Castel)** — Selective scope: trial date + cooperator motions only. **Trial is now 2027-01-25 10am** (adjourned from Oct 19 2026 by Castel's ~2026-07-07 order); **Final Pre-Trial Conference 2026-12-09 2pm**. Co-defendant **Goodgame pleaded guilty 2026-06-24** — the trial track is now Chu-centric. Re-verify monthly until ~T-30 of the FPTC, then weekly. (Liman handled the Dec-2025 cooperator pleas — do not attribute the trial to Liman.) **Best source by far: Inner City Press** (`innercitypress.com`, contemporaneous SDNY reporting) — it carried the adjournment a day before the trade press, which was still printing "Oct 19 holds." CourtListener docket **1:25-cr-00579** is the corroborating primary (403s on direct fetch; readable via search index).
 - **Carvana derivative / discovery (DE Chancery)** — Verify production milestone dates from StockTitan / PRNewswire / direct Chancery filings.
 
 ### Recurring releases (monthly cadence; verify forward two)
@@ -92,7 +130,7 @@ Recurring watches WINTERKORN should re-verify every run regardless of pre-fire w
 - Q2 2026 earnings cycle opens ~Jul 15 (JPM, WFC, C lead). Named-banks: **JPM, 5-3, BCS, Regions, MTB, OBK**. Source: SEC EDGAR + IR calendars.
 
 ### ABS pricing windows (modeled rows)
-- **EART Q3 2026** — Exeter Q3 issuance typically Sep. Modeled date; revise within 7d via SEC EDGAR FWP.
+- **EART 2026-4** — **"typically Sep" is wrong for this cycle.** Verified cadence 2026-07-25: 2026-1 FWP Jan 21 → 2026-2 (8-K Mar 24) → 2026-3 FWP Jun 10, priced ~Jun 24. ~2-month spacing puts 2026-4 in **mid-to-late Aug**. TSV carries a `modeled` 2026-08-17 row. EDGAR full-text search showed **0 EART 2026-4 filings as of 7/25** (positive-controlled). Revise the row the moment an FWP appears. Query recipe: `efts.sec.gov/LATEST/search-index?q="Exeter Automobile Receivables Trust 2026-4"` with a UA header.
 - **Bridgecrest** — Carvana-related; quarterly. Watch for related-party pricing dynamics.
 - **GCAR / smaller stressed shelves (CPS, Flagship, Lendbuzz, SAFCO)** — Watch for shelf-halt signal (OTTO-07).
 
@@ -118,6 +156,36 @@ Recurring watches WINTERKORN should re-verify every run regardless of pre-fire w
 - **NY Fed Quarterly HDC** (proposal #4) — ACCEPTED with `modeled` date_class. Canonical aggregate-auto read; missing it would silently drop a quarterly check on the Invisible Exit divergence (consumer-flow vs ABS-stress). Pattern: keep proposing each quarter ~14 days out from expected release (Feb/May/Aug/Nov).
 - **Tricolor §341 Nov 11 2026 continuance** (proposal #5) — ACCEPTED with `confirmed` date_class (Verita-noticed). Pattern: when WINTERKORN finds a docket-noticed continuance during pre-fire verification, propose adding the continuance date directly — it's a verified-source-of-truth gain.
 
+### Accepted (Jul 25 run — all 5 added rows ACCEPTED as filed)
+
+- **Jul 24 FB status conference / Jul 27 ballot certification / Jul 29 CVNA Q2 / Aug 17 EART 2026-4 (`modeled`) / Dec 9 Tricolor FPTC** — all five accepted, none revised. Two patterns to keep repeating: **(a) promoting a sub-deadline out of another row's notes into its own row** (Jul 27 ballot cert was buried in the Jul 20 row and is the node where the vote tallies actually become public); **(b) positive-controlling a zero before banking it** — the EART 2026-4 "0 EDGAR hits" was checked against 2026-2 (98 hits) and 2026-3 (35 hits) first. That is exactly right and should be the standing habit for every negative.
+
+### ⚠ SCOPE CHANGE — criminal track is a DISCOVERY channel, not a date-keeping row (OTTO ruling, 2026-07-25)
+
+**This is the most important calibration entry to date. Read it before any run.**
+
+The spec scoped the Tricolor SDNY criminal case as *"Selective scope: trial date Oct 19 2026 + cooperator motions only… re-verify monthly until ~T-30, then weekly."* Under that scoping, **four material events were missed for up to a month**, and OTTO missed them too:
+
+| Date | Event | Why the narrow scope missed it |
+|---|---|---|
+| Jun 24 | **Superseding 8-count indictment** vs Chu invoking §225 "financial kingpin" (10yr-life min) | Not a trial date, not a cooperator motion |
+| Jun 24 | **COO Goodgame pleads GUILTY + cooperates** (flip from Jan not-guilty) | Arguably in scope, but framed as "motions," not pleas |
+| Jun 30 | Chu arraigned, pleads not guilty | Not a trial date |
+| Jul 7 | Trial adjourned Oct 19 → **Jan 25 2027** | ✅ *This* one was in scope and you caught it |
+
+The narrow scope caught **1 of 4** — and the three it missed included **the strongest thesis validation OTTO has ever received**: the indictment charges *"manipulated delinquent loan data to make non-performing loans appear current"* (OTTO's Invisible Exit) **and** *"pledged the same collateral to multiple lenders simultaneously"* (OTTO's Cockroach). OTTO had been treating both as its own inferences.
+
+**Ruling — the criminal docket is re-scoped from date-keeping to full fraud-surface discovery.** Every run, report:
+1. **Charging documents** — new/superseding indictments, statutes invoked, count changes. *Statute choice is signal*: a dormant mandatory-minimum statute is a revealed read on evidence strength.
+2. **Pleas and cooperation** — any defendant flipping. Cooperators expand named participants; this fires an OTTO standing outbound trigger (→ CARL, REGINALD).
+3. **Newly named entities or individuals** — flag them, and **flag them as single-source if that's what they are** (see the examiner-names disposition above).
+4. **Alleged-conduct language**, quoted. The specific phrasing is what maps to OTTO's mechanisms; a summary ("fraud charges") destroys exactly the information OTTO needs.
+5. **Scope-of-period allegations** — "continuing enterprise from at least 2018" widened OTTO's impaired-vintage window by four years in one clause.
+
+Same re-scoping applies to the **First Brands criminal track (US v. Patrick James)** and to **examiner/trustee reports in both cases** — the Apr 27 examiner interim report sat unintegrated for three months under the old scoping.
+
+**Cost note:** this is a real scope expansion. Prefer it done *well on the two live criminal matters* over thinly across everything; if it forces a trade-off, drop ABS-pricing-window verification first (lowest yield to date).
+
 ### Calibration notes
 
 - **Inaugural calibration (Jun 9 2026):** 5 baseline-audit proposals → 4 accepted, 1 deferred-not-declined. WINTERKORN's instinct on per-case docket vs recurring-release scope was sound. The one defer was on a class where OTTO already has a working mirror (Auto Finance News for rating-agency surveillance); reflects "don't duplicate an existing pipeline" lens.
@@ -130,21 +198,27 @@ Recurring watches WINTERKORN should re-verify every run regardless of pre-fire w
 
 Notes from the most recent run for the next-WINTERKORN to read first. Captures one-off context that doesn't fit in STANDING MONITORS but matters for the next sync.
 
-### Hints for next run (carried from 2026-07-04)
+### Hints for next run (carried from 2026-07-25)
 
-**🔴 T-3 pre-Jul-28: re-verify the First Brands confirmation cluster.** Jul 28 9am CT confirmation (combined w/ final DS) is the operative OTTO-32 resolver. Chain of dated dependencies to sweep in order: **Jul 20** creditor-vote deadline (class rejection → Jul 28 cramdown fight) → **Jul 27** ballot-cert + confirmation-brief/replies → **Jul 28** hearing. Re-verify no adjournment via Kroll/Octus/Law360/Bloomberg Law. If confirmed, OTTO-32 resolves CONFIRMED (well inside Sep 30).
+**🔴 Sweep the Jul 28 First Brands confirmation outcome first — it is the operative OTTO-32 resolver.** Verified HOLDS as of 7/25 with no adjournment. But it is **multiday and contested**, so "what happened on the 28th" may not be the whole answer — check whether the hearing ran into Jul 29/30 and whether Lopez ruled from the bench or took it under advisement. Sequence to read in order: **Jul 27 ballot certification** (first public read on the Jul 20 vote — impaired-class rejection ⇒ cramdown fight) → **Jul 28+ hearing**. Plan confirmed = OTTO-32 CONFIRMED well inside Sep 30. Sources: Law360, Octus, Trucks-Parts-Service, Kroll-via-mirror.
 
-**🔴 Jul 29 Tricolor trial-scheduling hearing — sweep the outcome.** Castel rules whether Oct 19 trial holds or slips to **Feb 2027** (Chu delay motion, Inner City Press Jun 29). If slipped, revise the Oct 19 TSV row date_class + STATUS; the Oct 19 fraud-surface-expansion catalyst moves to 2027. This gates a 🟠 row — verify before T-30.
+**🔴 Do NOT re-verify the Tricolor Jul 29 hearing as a decision gate — it is dead.** Castel granted the adjournment ~Jul 7. Trial is **2027-01-25**, FPTC **2026-12-09**. The Jul 29 TSV row is marked SUPERSEDED and is awaiting OTTO's prune-or-repurpose call — **if OTTO hasn't cleared it, propose deleting it.** Next real Tricolor criminal checkpoint is the Dec 9 FPTC; re-verify monthly, weekly from ~Nov 9.
 
-**Jul 14 (banks) / Jul 15 (Fitch, MTB) / Jul 21 (Ally) earnings — OTTO-30/-31/-04/-28 inputs.** Confirm no date drift. Watch for a 6th NEW Tricolor-exposed bank name (OTTO-30, last forward-discovery shot before Aug 31) and Wilmington/MTB custodial-exit language (OTTO-31).
+**🟠 Jul 29 CVNA Q2 earnings — the first sweep target of the next run.** After close, call 5:30pm ET. **Short-seller protocol is live** (root CLAUDE.md § Short-Seller Report Monitoring): Gotham has covered CVNA before and dropped its report *on earnings day* — the Feb 18 2026 lesson. If OTTO has any CVNA position, the T-7 scan was due 7/22 and is now late.
 
-**EART 2026-4 (next Exeter ABS) — watch for the FWP.** Exeter's cadence is fast (3 deals by June; 2026-3 priced ~Jun 24). Next deal likely **~Aug, earlier than the "typically Sep" standing-monitor note.** Below T-30 now — pick up the FWP via SEC EDGAR next run; a subordinate-tranche print feeds the (now-disconfirmed) systemic-ABS-spread thread.
+**Jul 24 First Brands status conference — outcome unknown.** Added as a row from a single Kroll-mirror source; confirm it occurred and what came of the privilege/discovery fight.
 
-**First Brands examiner (Martin De Luca, Boies Schiller)** — appointed Nov 19 2025, $7M budget, work plan approved Jan 2026. No public **report-deadline date** yet. Potential fraud-surface catalyst if findings land — monitor for a report date to dock.
+**Fitch Auto ABS Index — the public mirror has gone stale and this is now a recurring problem.** Auto Remarketing's newest indexed piece (2026-05-21) still covers the *January* index. Two runs in a row the Fitch row has been unverifiable from public sources. **Consider escalating to OTTO whether this row should be `modeled` indefinitely or whether OTTO has Fitch-direct access.** Cadence confirmed and unchanged: index month = collection month + 1, release lags further ⇒ a mid-month release carries ~2-month-old data. Don't over-read print freshness.
 
-**Fitch ABS Index cadence caveat** — index runs ~2mo data lag; a mid-Jul release likely carries ~May data. Don't over-read "Jun print" freshness.
+**EART 2026-4 — check EDGAR first thing.** `modeled` at 2026-08-17; zero filings as of 7/25 (positive-controlled). Cadence says mid-to-late Aug, **earlier than the old "typically Sep" note** — that note is now corrected in STANDING MONITORS. Revise the row on FWP appearance.
 
-**No open PENDING carry-forward** — all 3 Jun-9 blocks cleared Jul 4 (see PENDING banner). Read CALIBRATION before any baseline audit: rating-agency direct surveillance stays DEFERRED (Auto Finance News mirror covers).
+**First Brands examiner — the interesting thread is the *budget*, not a report date.** De Luca's interim report landed 2026-04-27; investigation then **paused for lack of funds**. There is no deadline to dock. What *would* create one is a motion to increase the $7M budget — watch for that, and it produces a ~90-day report clock if granted.
+
+**Baseline audit is DUE next run if it's the first run of August.** Read CALIBRATION first: rating-agency direct surveillance stays DEFERRED (Auto Finance News mirror covers it). NY Fed Q2 HDC (Aug 12-15) is already docketed.
+
+**4 open PENDING blocks from this run** (PREDICTIONS-SYNC on the trial re-date, STATUS-SYNC ×5 propagations, SCOPE on the examiner, CALENDAR-AMBIGUITY ×3). Do not remove them — OTTO clears.
+
+**Method note worth keeping: primary beat trade press by a full news cycle twice this run.** SEC EDGAR 8-K filing dates settled all four earnings rows instantly and unambiguously; Inner City Press carried the Tricolor adjournment while natlawreview (Jul 6) and the Green Street/AFN mirrors were still printing "Oct 19 holds, Jul 29 hearing pending." When a trade-press date and a docket/filing date disagree, the filing wins — and check the *year and day* on the article before believing it.
 
 ### Standing context (durable)
 

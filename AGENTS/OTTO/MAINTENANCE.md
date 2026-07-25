@@ -14,6 +14,28 @@ routine content edits. Archive to `archive/` if it grows past ~300 lines (SAM ca
 
 ---
 
+## 2026-07-25 (session 016) — Boot past-due-catch was silently priority-filtering fired catalysts; look-back window now auto-sizes
+
+**Trigger:** Boot on 2026-07-25 after a 21-day dark period reported **one** recently-fired catalyst. Running `catalyst_countdown.py` directly showed **four**. A fifth (Jul 14 Q2 banks, an OTTO-30 input) had already aged out of the window entirely. Two independent defects in the same safety net.
+
+**What changed:**
+1. **`scripts/boot.py` — section-sticky rendering for RECENTLY FIRED.** The non-verbose path filtered sub-script output by keyword (`🔴 🟠 ⚠️ OVERDUE …`). Fired rows carrying a **🟡** priority matched nothing and were dropped — including the **First Brands creditor-vote deadline**, a direct dependency of the OTTO-32 resolver. Now: once the RECENTLY FIRED header is seen, every date-bearing row prints regardless of glyph, until the next section header. Added `DATE_ROW` regex + `re` import.
+2. **`scripts/catalyst_countdown.py` — `PAST_RETENTION` 10 days (fixed) → adaptive.** New `past_retention_days()` sizes the look-back from `STATUS.md`'s mtime (= last closeout) + 3 days grace, floored at 10 and capped at 120. OTTO is Tier-2/spawn-gated and routinely goes dark longer than 10 days; a fixed window ages unswept catalysts out before they are ever seen. Header now reads "last N days = since last closeout".
+
+**Files touched:** `scripts/boot.py`, `scripts/catalyst_countdown.py`.
+
+**Boot-impact:** verified same-session — window auto-widened to **23 days** and all **5** fired rows surfaced, including the three 🟡 rows and the Jul 14 row that had aged out. No change to the imminent/upcoming sections.
+
+**Lessons:**
+- **A filter added for readability silently became a filter on correctness.** The keyword list was written for the *forward* sections, where priority glyphs are always present, then applied to the *past-due* section, where they gate whether a fired catalyst is ever swept. The past-due-catch is a safety net; nothing in it should be conditional on severity.
+- **Asymmetric costs deserve asymmetric defaults.** Re-showing an already-swept row costs one line of noise. Hiding an unswept one costs a catalyst. The retention window is now deliberately generous and documented as such in the docstring.
+- **A fixed constant encoded an assumption about cadence that this agent does not satisfy.** Deriving it from `STATUS.md` mtime makes it self-correcting: the longer OTTO is dark, the further back it looks.
+- This is the same failure class WINTERKORN exists to prevent (the Jun-17 → Jun-12 date-keeping miss), re-introduced one layer up in the wrapper. Sub-agent coverage does not protect against the orchestrator dropping its output.
+
+**Also this session (doc-truth, non-structural but logged for the audit trail):** `thesis/CHANGELOG.md` preamble corrected — it still asserted that `thesis/THESIS.md` did not exist and that there was no MAINTENANCE log, both untrue since Jun 9. STATUS § PREDICTIONS header re-pointed from the dead `PREDICTIONS.tsv` to `thesis/PREDICTIONS.tsv` (PROME boot-gate flag; the *other* `workbook/PREDICTIONS.tsv` mention is correct as Jun-9 history and was deliberately left alone).
+
+---
+
 ## 2026-07-04 (session 015) — ML.tsv CRLF-merge corruption repaired + EDGAR-via-UA method established
 
 **Trigger:** LAST_COMPLETION-flagged GAP — `workbook/ML.tsv` carried pre-existing CRLF-merge corruption (append-only ledger, not boot-read, so it rotted unfixed across sessions). Repaired as a P2 hygiene item.

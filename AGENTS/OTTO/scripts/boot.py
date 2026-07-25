@@ -22,11 +22,14 @@ Usage:
   .venv/bin/python3 AGENTS/OTTO/scripts/boot.py --no-price   # skip network price call
 """
 
+import re
 import subprocess
 import sys
 import time
 from datetime import datetime
 from pathlib import Path
+
+DATE_ROW = re.compile(r"\d{4}-\d{2}-\d{2}")  # identifies catalyst data rows in sub-script output
 
 SCRIPTS_DIR = Path(__file__).resolve().parent
 OTTO_DIR = SCRIPTS_DIR.parent
@@ -103,8 +106,24 @@ def main():
         else:
             key = ("🔴", "🟠", "⚠️", "OVERDUE", "IMMINENT", "HIGH PRIORITY",
                    "RECENTLY FIRED", "due soon", "overdue", "OPEN |")
+            # Section-sticky pass for RECENTLY FIRED: every fired row must surface
+            # regardless of its priority glyph. A 🟡 fired catalyst is still an UNSWEPT
+            # catalyst, and filtering the past-due-catch by priority silently re-creates
+            # the exact miss the countdown exists to prevent. (2026-07-25: 3 of 4 fired
+            # rows were hidden at boot — incl. the First Brands creditor-vote deadline,
+            # a direct dependency of the OTTO-32 resolver.)
+            section_end = ("IMMINENT", "UPCOMING", "HIGH PRIORITY in horizon")
+            in_fired = False
             shown = False
             for ln in out.splitlines():
+                if "RECENTLY FIRED" in ln:
+                    in_fired = True
+                elif in_fired and any(k in ln for k in section_end):
+                    in_fired = False
+                if in_fired and DATE_ROW.search(ln):
+                    print(f"    {ln}")
+                    shown = True
+                    continue
                 if any(k in ln for k in key):
                     print(f"    {ln}")
                     shown = True
