@@ -9,7 +9,7 @@
 
 | § | Blueprint section | CORAL current state | Applies? | Gap type | Proposed minimal handle | Priority |
 |---|---|---|---|---|---|---|
-| 8 | **BOTTOM LINE** | absent (0 in STATUS) | ✅ APPLIES | missing handle | Add a 2–4 sentence BOTTOM LINE at STATUS end. Draft from existing "READ FIRST" blocks. | **1 — quick win** |
+| 8 | **BOTTOM LINE** | ✅ **APPLIED 2026-07-23 by CORAL** (STATUS:234, current 7/23 content, option-a shape; write-back processed 7/25) | ✅ APPLIES | missing handle — **CLOSED** | ~~Add a 2–4 sentence BOTTOM LINE at STATUS end.~~ **DONE** | **1 — quick win — DONE** |
 | 4 | **Invalidation / exit** ⚑ | confirm/falsify rails in `thesis/THESIS.md`; **evidence-gated by design (NOT time-gated)** | ✅ APPLIES (adapted) | missing handle only | **CORRECTED:** do NOT force session counts — evidence-gating is arguably better (floor-not-ceiling). Only add a one-line STATUS **pointer** ("Falsification → thesis/THESIS.md"). | **1 — quick win** |
 | 2 | **Convergence handle** ⚑ | SIGNAL DASHBOARD = per-channel emoji; **NO composite**. Geographic-convergence read is **prose only** — yet it's CORAL's *stated edge + own backlog* ("per-metro convergence view = next build") | ✅ APPLIES (high value) | real DEBT | **ELEVATED:** add a **geographic/per-metro convergence handle** with a 5-pt score so NEXUS can stack it — aligns with CORAL's own next build, not an imposition. Keep 10-pillar richness. | **2 — highest real value** |
 | 1 | **Thesis structure** | "Coral Bleaching" chain + 10 pillars — already strong | ✅ APPLIES (light) | conformant-ish | Optional: render the bleaching chain as an OTTO-style **transmission-stage table**. Pure upside, low urgency. | 3 — build |

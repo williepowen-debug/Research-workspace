@@ -1,6 +1,6 @@
 # FLEET DIRECTORY — what every agent is, does, and is missing
 
-> **GENERATED — DO NOT EDIT.** Rendered from `PROME/ROSTER.md` (existence · domain · status) + `AGENTS/DAEDALUS/FLEET_MAP.tsv` (class · maturity · missing/next) by `AGENTS/DAEDALUS/scripts/render_directory.py`. Edit the **sources**, then regenerate — hand-edits are overwritten. Generated 2026-07-22.
+> **GENERATED — DO NOT EDIT.** Rendered from `PROME/ROSTER.md` (existence · domain · status) + `AGENTS/DAEDALUS/FLEET_MAP.tsv` (class · maturity · missing/next) by `AGENTS/DAEDALUS/scripts/render_directory.py`. Edit the **sources**, then regenerate — hand-edits are overwritten. Generated 2026-07-25.
 
 *One source of truth per column (PAT-006): **what it does** + **status** ← ROSTER (PROME); **class** + **maturity level** + **missing/next** ← FLEET_MAP (DAEDALUS). "Missing / next" is a truncated one-liner — full gap detail in `FLEET_MAP.tsv` + `upgrades/<AGENT>_CARD.md`. PROME (coordinator) and dormant agents are un-graded → blank grade cells.*
 
@@ -17,7 +17,7 @@
 | RED | Utility | L4 | Adversarial red-team | Optional label polish + YEYOU-clean -> L5 |
 | HENRY | Market | L4 | Macro velocity / market trends | §2 handle table (the single named blocker) |
 | CARL | Market | L4 | Consumer & credit-transmission macro | L5: consistency_check Phases B/C |
-| LABOR | Market | L4 | Labor market (claims / JOLTS / NFP) | PROMOTE-ON-VERIFY L4->L5, single condition: NEXUS_BRIEF re-pinned at ne… |
+| LABOR | Market | L5 | Labor market (claims / JOLTS / NFP) | HOLD L5 (FIRST MARKET L5, ratified 7/25) — sustain: clean closeouts |
 | BROCK | Market | L4 | Private credit / BDC / non-traded credit | L4->L5: TRADE.md freeze-or-refresh (packet in BROCK inbox 7/22) |
 | HAWK | Market | L4 | Geopolitical synthesis (cross-war reconciliation, oil-decoupling thesis, war-risk/shipping) + dormant book (Taiwan/Venezuela/trade/chokepoints/defense/sanctions) — theaters split out 7/12††† | If no real synthesis pass by FAL-01/OSP-01 resolution week (~8/1) or ne… |
 | TERRY | Utility | L4 | Trade construction / risk scoring | L5: one full cycle w/ gate-grader discipline holding (no surface carrie… |
@@ -36,6 +36,7 @@
 | OSPREY | Market | L2 | Russia/Ukraine war theater — energy-strike campaign, crude-vs-products channel, shadow-fleet kinetic strikes, Baltic/Black-Sea ports | L3: OSP-01/02/03 resolving (window Aug 1-3) |
 | FALCON | Market | L3 | US/Israel/Iran-Gulf war theater — A/B/C/D ladder, Hormuz, Gulf targeting, Bab-al-Mandab/Houthi, Baghdad watch | Firm L3->L4: confirm-read EXIT_PROTOCOL/THESIS |
 | HOMER | Market | L2 | Housing — asset market + housing credit structure (pipeline, GSE+CMBS multifamily, builders, HPI, mortgage-rate surface) | L3: convergence handles + HOM-01 resolving (~7/30) + start the scaffold… |
+| OZK | Market | L4 | Bank OZK specialist (RESG construction / classified-migration watch) | Verify deferred packet items land at next non-print session |
 
 ## 🟡 TIER-2 — spawned as needed
 
@@ -50,7 +51,6 @@
 
 | Agent | Class | Lvl | What it does | Missing / next |
 |---|---|---|---|---|
-| OZK | Market | L4 | Bank OZK specialist | Post-Stage-2 write-back sweep (task packet routed 7/22): stamp PREDICTI… |
 | SENTRY | — | — | Cross-domain signal pipeline | — |
 | BARON | — | — | Trump financial-policy network | — |
 
@@ -62,4 +62,4 @@
 | YEYOU | Utility | L2 | Repo-wide reviewer (manual / branch model) | CONTRACT block + clear OpenClaw/GLM + dangling-ref stale cluster (apply… |
 
 ---
-*28 active · 4 tier-2 · 3 dormant · 2 special. Dropped (retired): HERMES. Regenerated each Production Review — `sweeps/PRODUCTION_REVIEW.md`.*
+*29 active · 4 tier-2 · 2 dormant · 2 special. Dropped (retired): HERMES. Regenerated each Production Review — `sweeps/PRODUCTION_REVIEW.md`.*
