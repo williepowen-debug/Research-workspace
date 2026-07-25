@@ -75,6 +75,31 @@ Swept Freedom, loanDepot, Lakeview/Bayview, Carrington, Onity, PFSI, Rocket (202
 
 ---
 
+### 🔬 AXIS A WAS INDEPENDENTLY REPLICATED — and the two runs CONVERGE
+
+Axis A was accidentally run **twice**: the original agent went silent, a disk check confirmed no output, and a replacement was spawned — which had already produced its own report before the stop order reached it. **Two agents, separate sessions, no shared working state, same question.** The second report is preserved at `AGENTS/DEWEY/output/2026-07-25_axisA_fha-va-bank-name-level-exposure.md`.
+
+**They agree on every load-bearing point**, independently sourced:
+- **Verdict identical: SURVIVES-WITH-CAVEAT.**
+- **BKU is the exception; SSB / AMTB / SBCF are clean.**
+- **~58% of equity combined** at BKU (run 1: 28.3% + 29.2%; run 2: 29.3% + 29.2%) — the small delta is 3/31 vs 6/30 equity denominators, not a disagreement.
+- **BKU ≈ 4.5× the Wintrust datapoint**, both runs, independently derived.
+- **The zero-ACL corroboration** — both runs independently identified that BKU reserving $0 against defaulted FHA/VA paper *confirms* the absorption conclusion while falsifying the evidence. Run 2 phrases it well: *"a bank willingly holds $883M of 22%-90-days-delinquent paper at zero reserve precisely because the sovereign eats the credit."*
+- **Counterparty search: zero hits, both runs, both directions.** Neither found any of the five named ex-VASP nonbanks in any of the four banks' filings.
+
+**Where they COMPLEMENT rather than repeat — each closes a gap the other left open:**
+| | Run 1 (original) | Run 2 (replacement) |
+|---|---|---|
+| **FFIEC Call Report** | ✅ **Queried via the FDIC JSON API**, and the NDFI series **cross-validates each bank's own disclosure** (AMTB to the dollar; BKU/SSB to <0.2%) | ❌ Not queried — CDR bulk download is registration-gated; **flagged as its single largest open gap** |
+| **AMTB forward risk** | Scored de minimis (5.9% of equity), no forward flag | ⚠️ **NEW: AMTB's single-family residential book grew $1,515M → $1,954M = +29% in six months** against $914M equity, with **no government-insured breakout**. De minimis today, but *"if FHA/VA-adjacent paper entered the book it would not be separately visible at current disclosure granularity."* **Check the Q2-2026 10-Q loan-composition note.** |
+| **BKU deterioration** | 90+ DPD still accruing $159M → $197M, **+24% QoQ** | **22.3% of the book is 90-days-delinquent**; warehouse **+49.7% since 12/31/24** |
+
+**Net effect: run 1 closes the exact gap run 2 flagged as its weakest point (bank-level Call Report data), and run 2 adds a forward monitoring item run 1 missed (the AMTB disclosure-granularity gap).** Confidence in the decisive finding is materially higher than a single agent's report would warrant — this is the one conclusion in the study that changes what a domain agent does, and it now rests on two independent primary-sourced derivations rather than one.
+
+**⚠️ One methodological caution carried from run 2, against itself:** its "no discrete nonbank-servicer stress event" negative was **web-search only** — *"treat as 'no evidence of,' not 'confirmed absence of.'"* Run 1's sweep was broader (it caught and excluded two recirculation traps run 2 did not surface), so the kill-condition negative rests primarily on run 1.
+
+---
+
 ## AXIS C — actuarial staleness (findings preserved; not written to disk by the agent)
 
 **Method:** 6 PDFs downloaded and locally extracted (annual report 327K chars, actuarial review 389K chars), tables re-extracted with `pdftotext -layout` and **foot-checked**.
