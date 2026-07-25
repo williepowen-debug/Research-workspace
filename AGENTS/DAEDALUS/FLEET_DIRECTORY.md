@@ -37,6 +37,7 @@
 | FALCON | Market | L3 | US/Israel/Iran-Gulf war theater — A/B/C/D ladder, Hormuz, Gulf targeting, Bab-al-Mandab/Houthi, Baghdad watch | Firm L3->L4: confirm-read EXIT_PROTOCOL/THESIS |
 | HOMER | Market | L2 | Housing — asset market + housing credit structure (pipeline, GSE+CMBS multifamily, builders, HPI, mortgage-rate surface) | L3: convergence handles + HOM-01 resolving (~7/30) + start the scaffold… |
 | OZK | Market | L4 | Bank OZK specialist (RESG construction / classified-migration watch) | Verify deferred packet items land at next non-print session |
+| WAL | Market | L2 | Western Alliance Bancorp specialist (Office/B1-migration/MI3 idiosyncratic bear; thesis-of-record v2.3) | L3: first solo session executes MEMORY first-boot mandates 1-6 |
 
 ## 🟡 TIER-2 — spawned as needed
 
@@ -62,4 +63,4 @@
 | YEYOU | Utility | L2 | Repo-wide reviewer (manual / branch model) | CONTRACT block + clear OpenClaw/GLM + dangling-ref stale cluster (apply… |
 
 ---
-*29 active · 4 tier-2 · 2 dormant · 2 special. Dropped (retired): HERMES. Regenerated each Production Review — `sweeps/PRODUCTION_REVIEW.md`.*
+*30 active · 4 tier-2 · 2 dormant · 2 special. Dropped (retired): HERMES. Regenerated each Production Review — `sweeps/PRODUCTION_REVIEW.md`.*
