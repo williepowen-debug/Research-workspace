@@ -14,6 +14,34 @@ routine content edits. Archive to `archive/` if it grows past ~300 lines (SAM ca
 
 ---
 
+## 2026-07-25 (session 016, follow-on) — OTTO-07 re-instrumented: `shelf_halt_monitor.py` replaces a default-zero stub
+
+**Trigger:** freezing the stale ledgers surfaced `workbook/ABS_ISSUANCE.tsv` as not merely stale but **inverted** — `0 deals / shelf_halts 0` during a period STATUS documents as robust issuance. Its feeder (`abs_issuance_tracker.py`) was a manual-check stub emitting zeros when unrun, and that ledger was **OTTO-07's nominal instrument**. DAEDALUS graded the class PAT-060 and endorsed rebuilding warm rather than deferring to a Dec-31 backlog line (OTTO is Tier-2; next spawn may be weeks out).
+
+**What changed:** new `scripts/shelf_halt_monitor.py` + `workbook/SHELF_ACTIVITY.tsv`. Probes whether each tracked subprime shelf filed a current-year vintage on EDGAR full-text search. `ABS_ISSUANCE.tsv` + `abs_issuance_tracker.py` remain FROZEN as the cautionary record.
+
+**Design — fail-loud, per DAEDALUS's spec requirement:**
+- Every row carries a **run stamp** (timestamp + probe year + per-issuer vintages). A zero is only meaningful attached to a run that provably executed. **No code path writes a bare 0 without one** — if the script never runs, the ledger gains no rows, so "nobody looked" stays visibly distinct from "nothing happened."
+- **Per-issuer positive control:** each shelf must show a prior-year vintage before a current-year zero is believed. A stem that resolves in neither year is `INVALID` (config error), **never** "quiet."
+- Three statuses: `OK` / `INVALID` (control failed — counts meaningless) / `ERROR` (run failed — no counts written). Network failures **raise**; they never degrade to False.
+
+**Four defects the build itself caught — each one a false-quiet the old design would have shipped:**
+1. `forms=FWP,424B5,...` returned 0 for every ABS entity → the global positive control failed and the run self-marked `INVALID` rather than reporting a market-wide halt. **The fail-loud path worked on its first execution.**
+2. Relevance-ranked sampling manufactured a false zero for CPS → replaced with deterministic per-vintage existence probes.
+3. EDGAR rate-limiting produced errors on CPS/Flagship → reported as `ERR`, explicitly *not counted as quiet*; added pacing (0.15s) + 3× backoff retry.
+4. **Shelves use two vintage conventions** — numeric (Exeter 2026-3) and letter (CPS 2026-A). Probing one manufactured a false `INVALID`. Now detects convention once per shelf against the control year.
+
+**Result — first valid run (2026-07-25T13:36:42): NO HALT, 8/8 validated shelves issuing in 2026.** OTTO-07 **55% → 15%**. And a near-miss worth preserving: Flagship Credit Auto Trust showed a textbook halt shape (4 deals 2022 → 3 → 2 → **zero** in 2025 and 2026), but verification found Flagship Credit Acceptance was **acquired by InterVest in Nov 2025** and rebranded — corporate action, not a funding halt. **The instrument surfaced the candidate; the verify-before-resolving rule rejected it.** Flagship retired from the probe set with that rationale inline.
+
+**Boot-impact:** none (not wired into `boot.py` — it is a monthly/on-demand check, ~90s of paced EDGAR calls; wiring it into boot would add latency to every session for a slow-moving signal).
+
+**Lessons:**
+- **The instrument found its own defects only because it was built to fail loud.** Four separate false-quiet conditions surfaced during one build; a silent-zero design would have reported "no halt" for all four and been believed.
+- **Ask of every falsifier: what does the feed read when nobody runs it?** If that equals the on-track reading, the falsifier is theater (DAEDALUS PAT-060).
+- **A halt-shaped gap is not a halt.** The single most halt-like signal in the data was a corporate action. Build the verification step into the instrument's own output, not into the analyst's memory.
+
+---
+
 ## 2026-07-25 (session 016) — Boot past-due-catch was silently priority-filtering fired catalysts; look-back window now auto-sizes
 
 **Trigger:** Boot on 2026-07-25 after a 21-day dark period reported **one** recently-fired catalyst. Running `catalyst_countdown.py` directly showed **four**. A fifth (Jul 14 Q2 banks, an OTTO-30 input) had already aged out of the window entirely. Two independent defects in the same safety net.
