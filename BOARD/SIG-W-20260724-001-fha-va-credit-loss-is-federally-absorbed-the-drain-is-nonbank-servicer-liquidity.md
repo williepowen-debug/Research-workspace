@@ -25,6 +25,28 @@ dispatch_note: The prompt's `deliver_by` (7/14, ahead of the 7/16 bank prints) h
 
 **WALTER routes + extracts the per-recipient delta — this is NOT WALTER re-analysis.**
 
+## 🚩 STRESS-TEST RESULT — added 2026-07-25 (WALTER, PROMPT-19, 4-axis adversarial re-test). **VERDICT SURVIVES AND IS HARDENED. SUPPORTING EVIDENCE FALSIFIED IN 3 PLACES.**
+
+Commissioned by Will as a direct follow-up to this signal. Full record: `AGENTS/DEWEY/output/2026-07-25_PROMPT-19_fha-va-kill-stress-test-SYNTHESIS.md` (ledger `REQ-DEWEY-20260724-019`).
+
+**✅ WHAT SURVIVES — and is now stronger than when dispatched.** The federal-absorption verdict holds, and is corroborated at NAME level by a party with money at stake: **BankUnited holds $851M of BOUGHT-OUT DEFAULTED FHA/VA paper and reserves ZERO against it** — *"the ACL is zero for these loans"* *(BKU FY2025 10-K, on the government guarantee)*. That is better evidence than anything in the original dispatch.
+
+**❌ FALSIFIED #1 — "documented current bank EBO balances are immaterial (Wintrust $187.8M)".** FALSE as a general claim. **BKU: $851M = 28% of equity, plus $877M mortgage warehouse growing 40% YoY = ~58% of equity combined** — 4.5x Wintrust in dollars, ~20x relative to equity. The sector statistics (~5% of Ginnie originations bank-originated; 83-96% nonbank servicing) could not refute an idiosyncratic concentration. **The other three FL names ARE clean, with figures: SouthState 0.8% / Amerant 5.9% / Seacoast <=2.7% of equity, ZERO FHA/VA at all three, ZERO servicing-advance facilities at all four.**
+
+**❌ FALSIFIED #2 — the Urban Institute ">5x foreclosure rates" cushion citation. STRIKE IT.** July-2025 brief whose own text cites **FY2024** (FY2024 and FY2025 are BOTH 11.47% — a coincidence that hid the vintage error), so it rests on **Sept-30-2024 data, ~22 months stale**. It is not a model but a two-step multiplication, and it commits a **flow-vs-stock error**: "2.5% annual losses well below the buffer" holds for ONE year; sustained five (GFC duration) it is 12.5% and EXCEEDS the buffer. It also asserts capital resources are delinquency-insensitive, which is false. **Replace with FHA's own Exhibit II-27 sensitivity ladder + the ">6.07% cash-alone" floor.**
+
+**❌ FALSIFIED #3 — "record 11.47%" should NOT be cited as a clean cash cushion.** **~47% of it is not cash**: 2.99pp NPV projection + ~2.41pp partial-claim receivables/REO, the latter sitting behind a **~58-60% one-year re-default rate** (rising; 2009-2019 avg 46%), with **~40% of Sept-2025 loss-mit recipients on their THIRD option in five years**. The actuarial review mentions "redefault" **once in 381,721 characters** and never models it; the actuary explicitly declines the cost-benefit question. **BUT the magnitude does not threaten the verdict: zero the ENTIRE receivable and 11.47% -> 9.78%, still 4.9x the floor; cash alone is >6.07% of IIF, >3x the floor and growing.**
+
+**🔎 WHAT THE ORIGINAL MISSED ENTIRELY — a richer surface.** FHA publishes a **QUARTERLY Report to Congress (12 U.S.C. 1708(a)(5))** with a statutorily-compelled predicted-vs-actual table. FY2026-Q1: **claim counts -57.4% vs forecast, claim dollars -50.8%, net loss on claims +7.75pp (+30.9%)** — volume deferred, severity deteriorating. **Q2 edition ~3 months OVERDUE.** Also new: **ROAD to Housing Act Sec. 702 (Pub. L. 119-101, law 2026-07-11)** mandates MONTHLY capital-ratio reporting — legally the full actuarial ratio (12 U.S.C. 1711(f)(4)(C)), though with no funding (Sec. 1202), no methodology and no monthly NPV input it will likely arrive as a cash update in the ratio's name. Verified at two primaries incl. the enrolled bill.
+
+**🔻 REFUTED HYPOTHESES (WALTER's own, recorded as refuted):** MIP political self-erosion — **premise wrong**, 2 of 3 historical cuts came AT OR BELOW the statutory floor (2015 at 0.41%), so the ratio does not drive the policy; nothing proposed/enacted for FY2026-27. Post-VASP counterparty growth — **mechanism confirmed, magnitude REFUTED**: BKU's book, the one measurable instance, **SHRANK 19%** across VASP termination.
+
+**⚠️ CORRECTIONS TO THIS SIGNAL'S OWN CITATIONS:** VASP termination instrument is **Circular 26-25-2 (issued 2025-04-23, eff. 2025-05-01)**, not "announced 4/3/25 / Circular 26-23-25". **ML 2025-06 was superseded by ML 2025-12.** The VA advocacy figures carried as leads survive **as counts but NOT as causal evidence** — ~80,000 VA loans were already seriously delinquent **seven weeks BEFORE** VASP terminated, so the gap-attributable increment is ~10,000, not 90,000.
+
+**➡️ ROUTING CONSEQUENCE (delivered to REGINALD 2026-07-25):** switch off **SSB / AMTB / SBCF** with confidence; **DO NOT switch off BKU — re-point it.** Its watch is no longer FHA/VA credit loss (ACL is zero) but (i) warehouse growth + undisclosed counterparty identity, (ii) the 90+ delinquent share inside the buyout book (**+24% QoQ** against a shrinking stock), (iii) resolution-timeline risk that HUD's new waterfall lengthens. **BKU is the fleet's one direct wire between a watched regional bank and the nonbank-servicer credit this signal says to trade instead.**
+
+---
+
 ## Verdict (one line)
 
 **SPLIT.** The **credit** loss on FHA/VA is absorbed by federal insurance before it can reach a bank balance sheet — so **REGINALD's "regional bank eats the FHA/VA loan loss" channel is KILLED.** What survives is a **liquidity/servicing-advance drain on nonbank Ginnie Mae servicers**, which reaches banks only second-order as warehouse/EBO financiers — and which points at **Freedom Mortgage and Apollo/Atlas SP**, *not* at the FL-heavy regionals REGINALD actually grades.
