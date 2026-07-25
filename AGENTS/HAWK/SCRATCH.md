@@ -1,41 +1,66 @@
-# HAWK SCRATCH — 2026-07-12 (split/re-cut day)
+# HAWK SCRATCH — 2026-07-25 (Sat, catch-up + first independent synthesis session)
 
-**Purpose:** Ephemeral session handoff — the canonical "where are we / what next" file. Read at boot (SPAWN PROTOCOL step 2), rewritten in full at closeout (step 14). Disposable: rewritten every session. Persistent learnings → `MEMORY.md`; cross-agent twin → `NEXUS_BRIEF.md`.
+**Purpose:** Ephemeral session handoff — the canonical "where are we / what next" file. Read at boot (SPAWN PROTOCOL step 2), rewritten in full at closeout (step 14). Disposable. Persistent learnings → `MEMORY.md` / `LESSONS.md`; cross-agent twin → `NEXUS_BRIEF.md`.
 
 ---
 
-## SPLIT-COMPLETION NOTE
+## CHANGES SINCE LAST SESSION (7/12 → 7/25, 13-day dark window)
 
-**HAWK's war-agent split (Will-approved concept, DAEDALUS-built) executed 2026-07-12.** OSPREY (Russia/Ukraine, `AGENTS/OSPREY/`) and FALCON (Iran/Gulf, `AGENTS/FALCON/`) are scaffolded, seeded, and content-migrated per `design/2026-07-12_war-agent-split-spec.md` + `AGENTS/DAEDALUS/builds/OSPREY_FALCON_BUILD.md`. HAWK re-cut to synthesis + dormant book (this session, WP-3): CLAUDE.md rewritten (identity/boot/closeout/domain-scope/cross-agent-signals/FILES), STATUS.md re-cut to a ≤120-line cross-war reconciliation dashboard, VX.tsv/FLOW.tsv reduced to the 8/6 dormant+synthesis rows, KB.tsv/board_log.tsv/PREDICTIONS.tsv kept LIVE (not frozen) with split-notes and re-totaled preambles, PREDICTIONS_ARCHIVE.md backfilled (5 owed post-mortems: HAW-10/12/13/14/15), STRIKES.tsv+SUMMARY.md FROZEN with a new thin CROSS_WAR_SUMMARY.md, SOURCES.md/LESSONS.md/OPEN_THREADS.md updated. **HAWK has not yet run an independently-verified synthesis session** — everything above is the mechanical re-cut, seeded from HAWK's own pre-split content. Full detail: `AGENTS/DAEDALUS/builds/hawk_split/WP3_REPORT.md`.
-
-## CURRENT MARKS (one line)
-- Role: cross-war reconciliation + dormant book (no scenario ladder of HAWK's own — that's FALCON's). Cross-war read: both theaters kinetic-high, Brent decoupled (~$76-79) on both. Kill-switches to watch: FAL-01 (Jul 26), OSP-01 (Aug 1). No HAWK-native predictions open (next = HAW-18).
+- **Both theaters' gates FIRED, 24h apart.** GATE-FALCON-001 leg-1 **7/23** (Encelia struck 7/22, UKMTO-confirmed) · GATE-OSPREY-001 leg-(b) **7/24** (CPC halt continuous ≥5 sessions 7/20-24). **Both on their NON-severity legs.**
+- **Brent broke ~$85 on 7/16, printed its first-ever >$100 settle 7/23, settled $96.78 Fri 7/24** [BRENT-owned]. My STATUS said "$76-79 decoupled" the whole time.
+- FALCON: **D 65 HOLD**, D→75 armed/proximate, convergence **42/50 ATH**. OSPREY: Ch.1 4🔴 (all ~11 major Russian refiners now hit), Ch.2 4🔴, Ch.3 3🟠; strike ledger 32→49 rows, swept-mark 7/12→7/23.
+- War-risk repriced **market-wide in both theaters simultaneously** — a first.
 
 ## WHAT I DID THIS SESSION
-- Executed WP-3 (HAWK re-cut) per DAEDALUS build spec: rewrote CLAUDE.md, STATUS.md; reduced VX.tsv (18→8 rows) and FLOW.tsv (20→6 rows) to verbatim HAWK-owned rows with split-note headers; prepended a split-note to KB.tsv (kept LIVE); re-totaled PREDICTIONS.tsv preamble (5C/8F/1P/1V/0 OPEN) and marked HAW-16/17 REHOMED with pointer notes; backfilled PREDICTIONS_ARCHIVE.md (HAW-10/12/13/14/15, verbatim + backfill stamps); FROZE STRIKES.tsv + SUMMARY.md, built new CROSS_WAR_SUMMARY.md (thin/derived, pointer table to OSPREY's + FALCON's own ledgers); appended a split-marker to board_log.tsv (continues, not reset); trimmed SOURCES.md to generic + China/Taiwan + Venezuela/LatAm; added a split note to LESSONS.md; SUPERSEDED-banner'd OPEN_THREADS_2026-07-09.md.
-- Did NOT touch AGENTS/OSPREY/ or AGENTS/FALCON/ (read-only reference for seeding this STATUS/NEXUS_BRIEF).
+
+1. **Pinged FALCON on FAL-01/Mangaf** (window closed 7/26) — WALTER's 7/23 IMMEDIATE ask was **unprocessed in FALCON's inbox**. Sent a correction: WALTER framed FAL-01 as direction-blind, but the registered row reads *"Gulf-ally OR Iranian"* — the real test is the **CLASS** qualifier, which Mangaf fails on the letter. Concur NO-FIRE, different basis; no gate re-spec warranted.
+2. **Re-cut `FLOW-HAWK-19`** — the row wasn't merely stale, its **pathway was falsified**: it encoded a binary (damage transmits / no-damage decouples) and explicitly predicted *no transmission* in the no-damage state. July transmitted hard through exactly that state. Added **branch (c): premium-without-damage** + reversibility caveat.
+3. **Registered HAW-18** (first HAWK-native post-split prediction) — then **corrected it 60%→55% in the same session** on a base-rate defect I found in FALCON's own 7/12 analysis (below).
+4. **Dormant book re-swept vs external primaries** (first since June): Taiwan escalated, Venezuela 🟡→🟢 normalised to a net supply contributor, US-China truce cracked selectively.
+5. **Cleared the entire mail backlog** — 17 WALTER-lane + 7 root-inbox signals dispositioned into `board_log.tsv` (12 acted / 9 noted), all `git mv`'d to `processed/`.
+6. **Routed:** BRENT (double-count asymmetry + Venezuela offset) · PROME (SIGNALS row ruling + 2 questions back) · MIDAS (13-day-old PGM ask, answered) · FALCON (above).
+7. **Regenerated `CROSS_WAR_SUMMARY.md`** (13 days stale, understated FALCON by 23 rows) and wrote **2 new LESSONS**.
+
+## ⚠️ SELF-CORRECTIONS BANKED THIS SESSION (3)
+
+1. **Primary-lane rot.** "Brent decoupled ~$76-79" sat wrong on STATUS **and NEXUS_BRIEF** for 13 days — and NEXUS boot-reads that brief, so it was actively propagating. Logged in STATUS + LESSONS.
+2. **The correction was already in my inbox.** `SIG-W-20260716-002` (dispatched **7/16**) headline: *"oil decoupling BROKE on RISK-PREMIUM, not one lost barrel"* — the exact discriminator I re-derived from scratch this session. It sat unprocessed 9 days. → LESSONS: **inbound lanes are the falsification channel, not hygiene.**
+3. **HAW-18 registered on a wrong reference class.** I wrote that both sides "have structural incentives to spare production infra" as if sparing were war-long. FALCON's 7/12 backfill shows **production-class assets WERE hit Feb 28–Apr 9** (Khurais/Manifa −300kbpd each, South Pars ~14% offline, Ras Laffan+Pearl GTL ~17% of Qatar capacity 3-5yr repair, Ju'aymah −700kbpd). Sparing is a **~4-week-old regime, not a constant.** Corrected 60%→55% with the amendment logged in-row.
 
 ## NEXT SESSION (dated, future-verifiable)
-1. **First genuinely independent HAWK synthesis pass** — boot-read OSPREY's and FALCON's freshly-updated (not spinout-seeded) NEXUS_BRIEFs and produce a real reconciliation delta, validating SYNTHESIS DISCIPLINE (spec §6) in practice rather than as a design intent. This STATUS is still a seeded cut, not a verified session.
-2. **Taiwan/Venezuela dormant re-sweep (OVERDUE)** — flagged repeatedly since pre-split `OPEN_THREADS_2026-07-09.md`, never actioned. Clock isn't past the 45-day cadence yet (22d as of split) but the content re-sweep against external primaries is separately owed regardless — don't wait for the clock.
-3. **FLOW-HAWK-18 disposition question** — China commercial-reserve-drawdown → SPR-crack row carries an open owner-lane question (retire, or route to ZHAO/BRENT) per the build spec's ruling — not resolved at split, needs a decision.
-4. **HAW-14 deeper post-mortem** — PREDICTIONS_ARCHIVE.md#hawk-14 has the mechanical backfill (verbatim + stamp) but the fuller analytical post-mortem (locus-vs-mechanism wording failure, cross-referenced against HAW-10's same-class wedge) is still HAWK-owner-lane, not yet written up as a standalone lesson synthesis.
-5. Check whether OSPREY's or FALCON's swept-through marks have gone stale (CROSS_WAR_SUMMARY.md) — FALCON's is already known-stale (2026-03-19, backfill owed on their end, not HAWK's to fix, but worth a nudge if still stale next session).
+
+1. **Check FAL-01's resolution (was due Jul 26)** — did FALCON resolve it, and did they adjudicate Mangaf? If they resolved CONFIRMED without addressing the class question, the cluster finding (KOC 7/12 · Kuwait power/desal 7/18-19 · Mangaf 7/18) still needs a home in FAL-01's successor.
+2. **Watch the CPC halt's RESOLUTION MECHANISM (~Aug 1)** — this is the cleanest natural experiment for the migration thesis. **Owner return with SPMs intact = strong confirm. A late SPM-damage or FM disclosure = the fire was severity all along and I mis-attributed it.** Do not let this resolve unwatched.
+3. **HAW-18 is live to Sep 1** — grade legs off the siblings' ledgers plus an independent check, never off my own carry-forward (HAW-03 discipline).
+4. **Cross-war insurance cc rule sunsets ~8/1** — needs Will/PROME's keep-or-lapse ruling; I argued keep. Chase if unanswered by 7/31.
+5. **Taiwan: corroborate the 7/22 helicopter median-line crossing** (currently single-source, Taipei Times). Corroboration or any median-line action touching Strait shipping flips my hold-dormant recommendation.
+6. **Nudge FALCON's swept-through mark** if still 7/12 at next pass — their theater had the more eventful fortnight.
+7. **Remaining dormant rows** (TRADE-02, SULPHUR-01, FININFRA-01, IRAQ-01) hit their 45-day clock **2026-08-04** — re-sweep then.
 
 ## OPEN THREADS / WATCHES
-- 🔴 FAL-01 (Jul 26) — Gulf-ally/Iranian oil-production hit or vessel sunk; owned by FALCON, watched here for cross-war reconciliation
-- 🔴 OSP-01 (Aug 1) — Russia tanker campaign becomes a world-crude event; owned by OSPREY, watched here
-- 🟠 Taiwan/Venezuela dormant re-sweep — overdue, see NEXT SESSION #2
-- 🟡 FLOW-HAWK-18 disposition (retire vs. route to ZHAO/BRENT)
-- 🟡 FALCON's Gulf-Iran strike-ledger backfill (their founding mandate, not HAWK's — watch only)
+
+- 🔴 **HAW-18** → Sep 1 (55%) — five physical-gate legs across both theaters; falsifier for the FLOW-19 re-cut
+- 🔴 **FAL-01** resolution + Mangaf class ruling (FALCON-owned, was due 7/26)
+- 🟠 **CPC resolution mechanism** ~Aug 1 — willingness vs severity (the natural experiment)
+- 🟠 **OSP-01** Aug 1 · **OSP-03** Aug 2 · **OSP-02** Jul 31 (OSPREY-owned, watched here)
+- 🟠 **Insurance cc sunset ~8/1** — decision pending at Will/PROME
+- 🟡 **TWN-01 graduation question** — flagged to Will/PROME, recommendation = hold dormant
+- 🟡 **RED steelman wanted:** *"is 'willingness' just the premium channel relabelled?"* — my weakest joint, resolves inside HAW-18's window
+- 🟡 **Nov 10 2026** — US-China truce expiry (dated tripwire, selective-targeting precedent already set 6/22)
 
 ## PREDICTIONS DUE / DECISIONS PENDING
-- None open at HAWK (HAW-01..17 frozen/rehomed; next HAWK-native prediction is HAW-18, not yet registered). No Will-decision pending.
+
+- **HAW-18 OPEN** (registered + corrected 7/25, → Sep 1). Nothing due before then at HAWK.
+- **Pending at Will/PROME (2):** TWN-01 graduation question · insurance-cc keep-or-lapse.
+- Nothing pending at Will on trade construction — HAWK holds no book.
 
 ## MAIL STATE (one line per surface)
-- Inbox (root): clear
-- WALTER lane: clear
-- Outbox: prior 7/12 packets (pre-split) still present, PROME-scanned; no new outbox this session (mechanical re-cut, not a signal-worthy event)
 
-## PENDING PUSH / GIT (if any)
-- Commit `AGENTS/HAWK/` via pathspec from repo root per CLAUDE.md Git section; auto-push via `scripts/safe-push.sh` (ff-gated). No cross-agent files touched (OSPREY/FALCON untouched this session, per hard constraint).
+- **Inbox (root): CLEAR** — 7 items dispositioned + `git mv`'d to `processed/` this session.
+- **WALTER lane: CLEAR** — all 17 dispositioned + moved. *(Was a 9-day backlog; see self-correction #2.)*
+- **Outbox:** unchanged (8 pre-split/7-12 packets, PROME-scanned). This session's 4 packets were **direct-dropped** to FALCON/BRENT/PROME/MIDAS inboxes under Will's authorization and committed per carve-out ①.
+
+## PENDING PUSH / GIT
+
+- Commits this session: `fdac0ecc` (FALCON ping) · `a552c04b` (STATUS + ledgers + HAW-18) · `538b8327` (BRENT + PROME packets) · closeout commit + MIDAS packet. Auto-push via `scripts/safe-push.sh` at closeout.
+- **Not mine, flagged not touched:** 5 untracked `AGENTS/DEWEY/scratch_*.js` files in the tree.
