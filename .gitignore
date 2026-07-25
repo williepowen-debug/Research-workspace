@@ -1,9 +1,23 @@
-# Sensitive files
+# Sensitive files — credential-SHAPED filenames only (narrowed 2026-07-25, Will-approved).
+# The old bare substring globs *secret*/*token* silently swallowed legitimate research/memory
+# files that merely DISCUSS tokens/secrets (state tokens, secret scanning, …) — repo-wide, and
+# silently when a tool writes to disk without staging. See
+# PROME/inbox/2026-07-25_from-WALTER_gitignore-sensitive-glob-silently-orphans-a-fleet-memory.md.
+# After editing this block, re-audit: git ls-files --others --ignored --exclude-standard | grep -iv .venv
 *.key
 *.pem
-*secret*
-*token*
+*.token
+*.secret
+token.json
+tokens.json
+secrets.json
+secrets.yaml
+secrets.yml
+client_secret*
+*_token.json
+*_secret.json
 .env
+.env.*
 
 # OS files
 .DS_Store
