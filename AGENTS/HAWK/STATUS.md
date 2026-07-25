@@ -34,9 +34,21 @@
 
 ---
 
-## 3 · WAR-RISK / SHIPPING-INSURANCE AGGREGATE (HAWK-owned)
+## 3 · WAR-RISK / SHIPPING-INSURANCE AGGREGATE — ✅ **STANDING LANE (Will-approved 7/25, sunset cancelled)**
 
-**First time both theaters carry elevated insurer channels simultaneously** — and it is now the *primary* transmission route, not a side-effect. Live prints: **Red Sea ~0.75%/hull (+150% w/w)**, **Bab AWRP ~0.5%** [FALCON KB-039, 7/23]; **Black Sea >1%, one broker ~1.5%**, from ~0.6% [The Insurer 7/21 — *no fresh 7/22-24 print; OSPREY carries absence rows*]. Ownership per the 7/22 Will-directed split: **FALCON** = Gulf/Red Sea + JWC/P&I · **OSPREY** = Black Sea rate series · **BRENT** consumes · **HAWK** synthesises market-wide. Standing cc rule has a **~8/1 sunset** — flagged in §6.
+**Named surface: `domain/war-risk/CROSS_THEATER_WAR_RISK.md`** — refreshed every closeout (CLAUDE.md step 13a), staleness bar 10d/leg. Ownership unchanged: **FALCON** = Gulf/Hormuz/Red Sea/Bab + JWC/P&I · **OSPREY** = Black Sea · **BRENT** consumes · **HAWK** owns the cross-leg comparison and stale-carry catches — no competing copies.
+
+| Leg | Current | As of | Owner |
+|---|---:|---|---|
+| **Hormuz** (hull) | **7.5 – 10%** | 7/22 | FALCON |
+| Southern Red Sea | **>1%** (0.3% → 0.75% → >1%) | 7/23 | FALCON |
+| Bab al-Mandab AWRP | ~0.5% | 7/23 | FALCON |
+| **West Coast Saudi — no chokepoint transit** | **0.1%** | 7/23 | FALCON |
+| Black Sea (hull) | >1% (one broker ~1.5%) | 7/21 ⚠️ | OSPREY |
+
+**🔴 First output of the standing lane — a stale-carry catch:** FALCON's canonical Hormuz figure is **~5%** (KB-FALCON-004, 7/10-11). The live print is **7.5-10%** [Marcus Baker, Marsh global head of marine → Platts, **7/22**] — **~12 days stale and roughly half the current level.** Their Red Sea carry (~0.75%) is likewise the 7/21 figure, superseded 7/23. This matters beyond bookkeeping: FALCON's "premium, not supply-loss" framing is *priced off premium levels*, so understating the premium leg by ~2× understates how much is already in the tape. Routed as a correction, not a disagreement.
+
+**🎯 The decomposition — HAWK's own read, and the strongest quantitative evidence yet for the migration thesis.** Same war, same belligerents, same region, priced two orders of magnitude apart: **0.1%** for a Saudi call that never transits a chokepoint → **0.5%** Bab → **>1%** southern Red Sea → **7.5-10%** Hormuz. **A 75-100× spread attributable purely to which water the hull crosses.** What the market prices is **transit risk — willingness to move a hull** — not production risk, not country risk, not lost barrels. It also explains *why* branch (c) is reversible: transit risk reprices the moment transit is judged safe; destroyed capacity does not come back on a broker's revised rate. **And Hormuz is 7-10× the Black Sea leg** — "both theaters carry war-risk pressure" is symmetric-sounding and wrong by an order of magnitude (insurer-side analogue of §2's barrels asymmetry). → `KB-HAWK-231/232/233`.
 
 ---
 
@@ -51,7 +63,7 @@
 | **TRADE-01** | US-China trade war | 🟡 YELLOW | 7/25 | Truce **holds to Nov 10 2026** — but **selective escalation inside it**: MOFCOM added **10 US firms 6/22**, incl. **MP Materials + USA Rare Earth**, the two US-funded domestic-REE champions. Occurred 2 days after the prior update = net-new to my book. |
 | TRADE-02 · SULPHUR-01 · FININFRA-01 · IRAQ-01 · CEASEFIRE-01 | — | unchanged | clock 8/4 | Not re-swept this session; no content flag against them. IRAQ-01/SULPHUR-01 remain BRENT-deferred; CEASEFIRE-01 is a historical anchor. |
 
-**Graduation question → Will/PROME (flagged, NOT silently promoted per closeout step 12):** TWN-01's registered re-fire condition is *"Gulf LNG re-disruption **or PLA posture change**."* The posture leg has arguably met it. My own read is **calibrated no**: drills-after-a-Lai-speech is an established Beijing playbook, and the only genuinely novel element is the 7/22 helicopter precedent, which is **single-source** (Taipei Times). Recommendation: **hold dormant-armed, raise the watch, do not promote on this evidence.** Corroboration of the helicopter crossing, or any median-line action affecting Strait shipping, flips that.
+**✅ Graduation question RULED — Will, 2026-07-25: HOLD TWN-01 DORMANT.** Graduation out of the dormant book declined; watch raised. My recommendation (calibrated no — drills-after-a-Lai-speech is an established Beijing playbook, and the only genuinely novel element, the 7/22 helicopter precedent, is **single-source**) was accepted. **Promotion now requires EITHER corroboration of the helicopter median-line crossing OR any median-line action touching Strait shipping** — recorded in the VX row so it isn't re-litigated next session.
 
 ---
 
@@ -68,8 +80,9 @@
 ## 6 · ACTIVE THREADS / DECISIONS
 
 - 🔴 **FAL-01 closes tomorrow with an unadjudicated ambiguity.** WALTER's **SIG-W-20260723-005** (IMMEDIATE, action→FALCON) asked FALCON to rule on **KPC Mangaf 7/18**; as of my boot it was **unprocessed in FALCON's inbox and absent from their STATUS**. Pinged FALCON 7/25. **My read: WALTER framed FAL-01 as direction-blind ("watches only Iranian/Kharg"), but the registered row reads "Gulf-ally OR Iranian" — the real test is the CLASS qualifier, which Mangaf fails on the letter** (function unnamed, no bpd offline, no FM). Concur NO-FIRE, different basis; **no gate re-spec warranted.** Cluster worth carrying: **three borderline-class events in two weeks** (KOC 7/12, Kuwait power/desal 7/18-19, Mangaf 7/18).
-- 🟠 **Cross-war insurance cc rule sunsets ~8/1** — decide before then whether HAWK formalises the market-wide war-risk aggregate as a standing surface or lets it lapse to the two theater owners.
-- 🟡 **TWN-01 graduation question** → Will/PROME (§4).
+- ✅ **Cross-war insurance lane KEPT — Will 7/25, ~8/1 sunset CANCELLED.** Formalised as `domain/war-risk/CROSS_THEATER_WAR_RISK.md` + mechanized into closeout step 13a (so it can't rot on a remembered ritual). First refresh already produced a stale-carry catch on FALCON's Hormuz figure — §3.
+- ✅ **TWN-01 HELD DORMANT — Will 7/25** (§4). Re-fire bar recorded in the VX row.
+- 🟠 **FALCON has no named war-risk surface** — the theater with the highest and fastest-moving premiums (Hormuz 7.5-10%) carries them only in KB/STATUS, which is how the ~5% carry went 12 days stale. Nudge candidate, not HAWK's to build.
 - ✅ **FLOW-HAWK-18 disposition CLOSED** (open since the 7/12 split): **routed to ZHAO** (primary) / BRENT (consumer), not retired — it is China-macro, not cross-war, and its Apr-20 figures should be re-derived by ZHAO, not inherited.
 - ✅ **PROME's 7/25 ask answered:** my stranded 3/23 SIGNALS.md row — **archive stands** (§ reply sent; D 78 is superseded by the Will-approved D 65).
 

@@ -20,6 +20,8 @@
 5. **Cleared the entire mail backlog** — 17 WALTER-lane + 7 root-inbox signals dispositioned into `board_log.tsv` (12 acted / 9 noted), all `git mv`'d to `processed/`.
 6. **Routed:** BRENT (double-count asymmetry + Venezuela offset) · PROME (SIGNALS row ruling + 2 questions back) · MIDAS (13-day-old PGM ask, answered) · FALCON (above).
 7. **Regenerated `CROSS_WAR_SUMMARY.md`** (13 days stale, understated FALCON by 23 rows) and wrote **2 new LESSONS**.
+8. **[post-ruling] Will ruled both open questions — applied both.** TWN-01 **held dormant** (promotion bar written into the VX row). Insurance lane **kept, ~8/1 sunset cancelled** → stood up `domain/war-risk/CROSS_THEATER_WAR_RISK.md` (derived, 10d/leg staleness bar) and **mechanized it as closeout step 13a** in CLAUDE.md so it can't rot on a remembered ritual.
+9. **First war-risk refresh immediately caught a stale carry:** FALCON's canonical Hormuz figure **~5%** (7/10-11) vs live **7.5-10%** [Marsh's global head of marine → Platts, **7/22**] — ~12d stale, ~half the level. Routed to FALCON (correction), BRENT (consumer), PROME (nudge ask: FALCON has no named war-risk surface, which is *why* it went stale).
 
 ## ⚠️ SELF-CORRECTIONS BANKED THIS SESSION (3)
 
@@ -32,7 +34,7 @@
 1. **Check FAL-01's resolution (was due Jul 26)** — did FALCON resolve it, and did they adjudicate Mangaf? If they resolved CONFIRMED without addressing the class question, the cluster finding (KOC 7/12 · Kuwait power/desal 7/18-19 · Mangaf 7/18) still needs a home in FAL-01's successor.
 2. **Watch the CPC halt's RESOLUTION MECHANISM (~Aug 1)** — this is the cleanest natural experiment for the migration thesis. **Owner return with SPMs intact = strong confirm. A late SPM-damage or FM disclosure = the fire was severity all along and I mis-attributed it.** Do not let this resolve unwatched.
 3. **HAW-18 is live to Sep 1** — grade legs off the siblings' ledgers plus an independent check, never off my own carry-forward (HAW-03 discipline).
-4. **Cross-war insurance cc rule sunsets ~8/1** — needs Will/PROME's keep-or-lapse ruling; I argued keep. Chase if unanswered by 7/31.
+4. **Refresh `domain/war-risk/CROSS_THEATER_WAR_RISK.md` (now closeout step 13a, every session).** Re-stamp `Refreshed:` even on a no-change pass. Flag any leg >10d — **OSPREY's Black Sea print is 7/21; nudge them if it passes 7/31 without a fresh one.** Check whether FALCON re-marked Hormuz off my correction; if so, re-point to their number and drop mine.
 5. **Taiwan: corroborate the 7/22 helicopter median-line crossing** (currently single-source, Taipei Times). Corroboration or any median-line action touching Strait shipping flips my hold-dormant recommendation.
 6. **Nudge FALCON's swept-through mark** if still 7/12 at next pass — their theater had the more eventful fortnight.
 7. **Remaining dormant rows** (TRADE-02, SULPHUR-01, FININFRA-01, IRAQ-01) hit their 45-day clock **2026-08-04** — re-sweep then.
@@ -43,15 +45,18 @@
 - 🔴 **FAL-01** resolution + Mangaf class ruling (FALCON-owned, was due 7/26)
 - 🟠 **CPC resolution mechanism** ~Aug 1 — willingness vs severity (the natural experiment)
 - 🟠 **OSP-01** Aug 1 · **OSP-03** Aug 2 · **OSP-02** Jul 31 (OSPREY-owned, watched here)
-- 🟠 **Insurance cc sunset ~8/1** — decision pending at Will/PROME
-- 🟡 **TWN-01 graduation question** — flagged to Will/PROME, recommendation = hold dormant
+- 🟠 **West Coast Saudi 0.1%** — the cheapest falsifier I own. It is the price of the same war with the transit removed; **if it rises materially, risk has migrated transit → origin and the whole decomposition (and the migration read) is dead.** Watch weekly.
+- 🟠 **FALCON has no named war-risk surface** — nudge ask sitting with PROME; not mine to build
+- ✅ ~~Insurance cc sunset~~ — **KEPT, Will 7/25**, sunset cancelled, lane now standing + mechanized (step 13a)
+- ✅ ~~TWN-01 graduation~~ — **HELD DORMANT, Will 7/25**; promotion bar recorded in the VX row
 - 🟡 **RED steelman wanted:** *"is 'willingness' just the premium channel relabelled?"* — my weakest joint, resolves inside HAW-18's window
 - 🟡 **Nov 10 2026** — US-China truce expiry (dated tripwire, selective-targeting precedent already set 6/22)
 
 ## PREDICTIONS DUE / DECISIONS PENDING
 
 - **HAW-18 OPEN** (registered + corrected 7/25, → Sep 1). Nothing due before then at HAWK.
-- **Pending at Will/PROME (2):** TWN-01 graduation question · insurance-cc keep-or-lapse.
+- **Nothing pending at Will.** Both open questions ruled 7/25 (TWN-01 hold dormant · insurance lane keep) and both applied this session.
+- One ask sits with **PROME**: the FALCON named-war-risk-surface nudge (§ their assignment lane, not mine).
 - Nothing pending at Will on trade construction — HAWK holds no book.
 
 ## MAIL STATE (one line per surface)
