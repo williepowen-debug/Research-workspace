@@ -41,9 +41,9 @@
 
 ## PREDICTION CHECKPOINTS
 
-> **Single source of truth: `workbook/PREDICTIONS.tsv`** (REG-01 through **REG-26**, 22 rows — count fixed 7/17).
+> **Single source of truth: `workbook/PREDICTIONS.tsv`** (REG-01 through **REG-26**, **20 rows** — count fixed 7/25: REG-24/25 extracted to WAL at promotion).
 > Display copy removed 2026-06-26 — read the TSV for confidence and resolve dates.
-> Active Q2-Q3 2026: **REG-24** (WAL Office classified >$500M, **RE-GRADED 70→65% on 7/16** — DEWEY un-blind: classified flat, SM built, base-rate reverts, benign Q2 cohort) | **REG-25** (WAL NCO >40bps, **72%**, trimmed from 75%) | **REG-26** (>55bps + $99M charge-off, 33%) — all first-chance resolve **Jul 21 AMC** WAL Q2 print.
+> Active Q2-Q3 2026: **WAL-01/02 (formerly REG-24/25) now graded at the WAL agent** → `../WAL/workbook/PREDICTIONS.tsv` (25%/50% post-Stage-2, OPEN to Q3 10-Q) | **REG-26** RESOLVED-DISCONFIRMED 7/21 (history, this ledger).
 
 ---
 

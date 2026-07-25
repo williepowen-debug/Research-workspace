@@ -198,9 +198,9 @@ Three life-science CRE distress events across cohorts in 6 months:
 
 ## PREDICTIONS
 
-> **Single source of truth: `workbook/PREDICTIONS.tsv`** (REG-01 through **REG-26**, **22 rows** — REG-26 added 7/10; IDs REG-16/21/22/23 extracted to OZK 4/24).
+> **Single source of truth: `workbook/PREDICTIONS.tsv`** (REG-01 through **REG-26**, **20 rows** — REG-26 added 7/10; IDs REG-16/21/22/23 extracted to OZK 4/24; **REG-24/25 extracted to WAL 7/25** at promotion → `../WAL/workbook/PREDICTIONS.tsv` as WAL-01/02).
 > Display copy removed 2026-06-26 — read the TSV for current confidence, status, and resolve dates.
-> Active WAL predictions **[7/21 STAGE-1 resolved]**: **REG-24** (Office classified >$500M by Q3) — Stage-1 **DISCONFIRM-lean/AMBIGUOUS**, OPEN for Q3 10-Q | **REG-25** (NCO >40bps Q2 or Q3) — Q2 first-chance **NEUTRAL 37bps** (<40), OPEN for Q3 | **REG-26** (>55bps + $99M charge-off surprise) — **RESOLVED DISCONFIRMED 7/21** (37bps + $99M to nonaccrual not charged-off). Frozen pre-print confidences were 65/72/33 (re-graded 7/16). Grade → `reports/2026-07-21_WAL_Q2_grade.md`.
+> **WAL predictions now live at the WAL agent** (promoted 7/25): WAL-01 [formerly REG-24, 25%] + WAL-02 [formerly REG-25, 50%], both OPEN to Q3 10-Q → `../WAL/workbook/PREDICTIONS.tsv`. **REG-26** (>55bps + $99M charge-off surprise) RESOLVED-DISCONFIRMED 7/21 — stays here as calibration history.
 
 ---
 

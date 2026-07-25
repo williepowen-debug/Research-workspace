@@ -6,7 +6,7 @@
 >
 > ✅ **Independently corroborated 2026-07-18 vs TERRY's position snapshot** (`AGENTS/TERRY/STATUS.md`, from Will's live broker screenshots **7/17 ~12:30 ET — one day newer** than the 7/16 FORGE reconcile): every REGINALD-scope leg matches on strike/expiry/qty — WAL Sep-18 70P×1 + 67.5P×1 · KRE 60P ×10 · HBAN 16P Oct-16 ×2 · APO 95P Dec-18 ×1 (peer OZK Aug-21 45P×4 + 42.5P×1 also confirmed). The Jul-17 thesis legs are absent from TERRY's main-book table (confirms LAPSED). Structural book verified; only the marks differ (TERRY carries live 7/17 marks, now stale).
 
-**Scope:** Thesis-relevant only — bank puts + credit/convergence. OZK lives in `../OZK/POSITIONS.md` (peer agent). Stocks, macro options (TLT/VIX/USO/XLE), and non-thesis (AAPL/APD/AAL/CCL/CF/DIS/KELYA/FXY/SLV/TBT) live in `FORGE/STATUS.md`.
+**Scope:** Thesis-relevant only — bank puts + credit/convergence. OZK lives in `../OZK/POSITIONS.md` (peer agent). **WAL lives in `../WAL/POSITIONS.md` (peer agent since 7/25 — REGINALD no longer owns WAL puts; the 3 legs [$77.5P Aug-21, $67.5P + $70P Sep-18] moved at the split).** Stocks, macro options (TLT/VIX/USO/XLE), and non-thesis (AAPL/APD/AAL/CCL/CF/DIS/KELYA/FXY/SLV/TBT) live in `FORGE/STATUS.md`.
 
 ⚠️ **THIS FILE IS CANONICAL for strikes/expiries.** STATUS.md / CALENDAR.md must POINT here, not re-list — re-listing is how the 6/19 desync happened (SSB $90P real-but-sold/unrecorded, IWM $250P/$257P strike+expiry error, 4 missing names; see LESSONS). Before any position task: **grep this file first**, never trust a dashboard cluster list.
 
@@ -38,9 +38,6 @@ Will confirms 6/19: SSB $90P **was a real position, believed sold** (can't recal
 
 | Ticker | Strike | Expiry | Qty | Notes |
 |---|---|---|---|---|
-| WAL | $77.5P | Aug-21-2026 | 1 | **NEW (FORGE 7/20 export) — Robinhood, Will direct entry ~7/17-20. NEAREST-money WAL leg (~5.8% OTM at $82.30); post-print expiry → SURVIVES the 7/21 AMC print.** |
-| WAL | $67.5P | Sep-18-2026 | 1 | core REINFORCED-HOLD — **catches the 7/21 AMC Q2 print** |
-| WAL | $70P | Sep-18-2026 | 1 | core REINFORCED-HOLD — catches the 7/21 print |
 | KRE | $60P | Aug-21-2026 | 3 | tail-risk insurance (deep-OTM vs ~$77 tape) |
 | KRE | $60P | Sep-30-2026 | 2 | |
 | KRE | $60P | Dec-18-2026 | 5 | (2 + 3 margin) — Dec-18 trimmed 7→5 per 7/16 reconcile |
@@ -72,10 +69,10 @@ Prior ⚠️-flagged Jun-30 cluster now confirmed expired worthless (absent from
 
 ## Key Context
 
-- **WAL** — the live thesis core is **Sep-18 $67.5P ×1 + $70P ×1** (REINFORCED-HOLD per v2.2 deltas) **plus the NEW Robinhood $77.5P Aug-21 ×1** (Will direct entry ~7/17-20, folded from the FORGE 7/20 export). All three **catch the 7/21 AMC Q2 print**; the **$77.5P Aug-21 is now the nearest-money WAL leg** (~5.8% OTM at $82.30 vs the Sep-18s ~15-18% OTM) and expires post-print so it survives the release. The Jul-17 $65P (lapsed OTM 7/17) never caught the print — Jul-17 died 2 trading days before the AMC release. Jun-18 cluster (incl. an earlier $77.5P/$85P) cleared 6/18. **Any 7/21 fire-time reshape/harvest arithmetic rebuilds from the 7/20 export, not older tables** (rule #4).
+- **WAL** — **legs moved to `../WAL/POSITIONS.md` at the 7/25 promotion split (canonical there; REGINALD no longer owns WAL puts).** At split time: Sep-18 $67.5P ×1 + $70P ×1 core + Robinhood $77.5P Aug-21 ×1 — pointer-only here, last verified 2026-07-25; do not re-list figures (seam rule).
 - **KRE** — live tail is **10× $60P** across 3 expiries (Aug-21 ×3 / Sep-30 ×2 / Dec-18 ×5); the Jun-30 $63/65/67P cluster expired worthless (confirmed off-book 7/16). Deep-OTM vs ~$77 tape — tail-risk insurance, not directional.
 - **HBAN** — $16P Oct-16 ×2 is **EXIT-thesis dust** (Will ruled 7/18; ride to expiry, no re-entry).
 - **No current EGBN / HYG / ARES / SSB / FITB positions.** EGBN/HYG/ARES cleared at Jun-18; SSB $90P was a real position sold/closed per Will 6/19 (unrecorded-exit propagation gap, see CLEARED section).
-- **Next mechanical pile: the 7/21 WAL+OZK double-print** — no Jul-17 leg survives into it; the print-catchers are the WAL Sep-18s (+ peer OZK Aug-21s). Any fire-time reshape arithmetic rebuilds from a fresh broker export (rule #4) — the frozen grading frames govern the READ regardless.
-- **OZK positions are in `../OZK/POSITIONS.md`** (peer agent); macro/non-thesis options in `FORGE/STATUS.md`.
+- **The 7/21 WAL+OZK double-print RESOLVED** (both graded off frozen frames; WAL NOT-surprise-tier). WAL position management now rides with the WAL agent + TERRY; REGINALD's next mechanical pile = KRE Aug-21 ×3 + peer-print season.
+- **OZK positions → `../OZK/POSITIONS.md`; WAL positions → `../WAL/POSITIONS.md`** (peer agents); macro/non-thesis options in `FORGE/STATUS.md`.
 - **FORGE/STATUS.md** — reconciled 7/16 (this file now mirrors it); prior "Mar 25 stale" note retired.
