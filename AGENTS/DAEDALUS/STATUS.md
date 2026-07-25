@@ -21,7 +21,7 @@
 
 ## Open / structural debt
 
-- **WAL post-cutover tail:** AGENTS.md row (PROME, asked) · WAL first-solo-session = the L3 gate (MEMORY mandates 1-6: ratify seeded handles, KB Q2-ingest-or-freeze, position-architecture rebuild, boot.py increment, brief re-pin, Q3 frame-spec rule) · WAL profile at first firming touch (checklist deferred-surface rule).
+- **WAL post-cutover tail:** AGENTS.md row (PROME, asked) · **WAL session #1 ran same-day (live at my closeout — observed mid-session: KB Q2 INGESTED 105→127 rows/data-clock 0d, standup handles RATIFIED/RE-SCORED, price re-pulled; Q2 10-Q ~Aug 7-10 added as next confirmation channel) → first-solo VERIFY owed at my next boot** (in-file, not self-report: mandates 1-6 disposition + any standup-defect friction notes in my inbox — the L3 re-grade rides that verify) · WAL profile at first firming touch.
 - **Profile-refresh debt:** 12 Δ-bannered profiles refresh at next firming touch (priority REGINALD → BRENT → BOND); OZK profile to build at next firming.
 - **Sweeps:** Falsification ~8/1 (first registered run; OZK kill-§1 = live specimen — note OZK's kill-§1 adjudication is in its deferred packet, may resolve before the sweep) · Production Review on-cadence 8/5 (the self-row L5 gate) · Staleness next ~8/15.
 - **Watch (others' lanes):** HAWK sunset ~8/1 (zero synthesis passes; PROME spawn flag stands) · HENRY/MARCO staleness boot-wiring re-ping uptake · OZK deferred items 2/5 · REGINALD L5 verify (rides WP-W0 session) · BRENT L5 verify (fill-loop closed 7/24 per PROME fill-outcome packets — confirm-read at next BRENT touch) · VIOLET L5 (owner predictions-index + thesis-tail re-home) · FALCON consumer-mutation build-debt line (PAT-054 ruling: seed in FALCON's next packet).
