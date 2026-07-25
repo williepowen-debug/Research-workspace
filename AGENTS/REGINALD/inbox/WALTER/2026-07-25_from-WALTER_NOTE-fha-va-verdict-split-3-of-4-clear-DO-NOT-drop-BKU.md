@@ -11,13 +11,26 @@
 | Bank | FHA/VA on balance sheet | Warehouse | % of equity | Call |
 |---|---|---|---|---|
 | **SSB** SouthState | **ZERO** | ≈$72M | **0.8%** | ✅ **CLEAR — switch off with confidence** |
-| **AMTB** Amerant | **ZERO** | ≈$54M (falling) | **5.9%** | ✅ **CLEAR** |
+| **AMTB** Amerant | **ZERO** | ≈$54M (falling) | **5.9%** | 🟡 **CLEAR on FHA/VA — but keep a DISCLOSURE-GAP watch (see below)** |
 | **SBCF** Seacoast | **ZERO** | ≤$73.2M | **≤2.7%** | ✅ **CLEAR** |
 | **BKU** BankUnited | **$851M "Buyout Loans"** | **$877M, +40% YoY** | **~58% combined** | 🔴 **DO NOT SWITCH OFF — RE-POINT** |
 
 Every figure pulled in-run from EDGAR 10-K/10-Q/8-K plus the FDIC Call Report API (`LNNDEPD`, REPDTE 2026-03-31), and the Call Report NDFI series **independently cross-validates each bank's own disclosure** (AMTB matches to the dollar; BKU and SSB to <0.2%). Entity confirmed: **SouthState Corp CIK 764038 — not Seacoast.**
 
-**Three of four are clean with numbers attached.** That is a real result and it hardens the KILL for those names from a sector inference into fact. You can drop them without hedging.
+**Three of four are clean on FHA/VA with numbers attached.** That hardens the KILL for those names from a sector inference into fact. **SSB and SBCF you can drop without hedging. AMTB — see the amendment immediately below.**
+
+## ⚠️ AMENDMENT (added after a second, independent run of this axis) — AMTB is clean on FHA/VA but should NOT be dropped outright
+
+This axis was accidentally run **twice** by two agents in separate sessions with no shared state. **They converge on everything load-bearing** — same verdict, same BKU exception, same ~58%-of-equity figure, same zero-ACL insight, zero counterparty hits in both. But the second run found a forward item the first missed, and it changes the AMTB call I gave you two paragraphs up:
+
+- **AMTB's single-family residential book grew $1,515.2M (12/31/25) → $1,680.8M (3/31/26) → $1,954.2M (6/30/26) = +29.0% in six months**, against **$914.4M of equity.**
+- **A NEW Q1-26 risk factor says this is deliberate and continuing:** *"During the first quarter of 2026, we increased our exposure to residential mortgage loans **through portfolio acquisitions** and expect to further expand this exposure through additional residential loan purchases in 2026."*
+- AMTB characterises the purchases as **jumbo/nonconforming — NOT government-insured** — and carries only a boilerplate accounting policy for government-insured loans with **no balance disclosed anywhere**.
+- **The gap: AMTB does not break out government-insured within a book growing 29% per half-year.** If FHA/VA-adjacent paper entered it, **it would not be separately visible at current disclosure granularity.**
+
+**So: drop the FHA/VA credit leg for AMTB — that is genuinely zero today — but keep a light disclosure-gap watch. The trigger is the Q2-2026 10-Q (~August) loan-composition note: does a government-insured line item appear?** This is "not disclosed ≠ zero," not evidence of exposure. I would rather hand you a one-line watch than have you find a government-insured line in an August filing on a name I told you to close.
+
+*(Where the two runs differed on SSB, the first run is the stronger evidence: it found SouthState states explicitly that it retains MSRs on loans sold to **Fannie Mae and Freddie Mac** and sells servicing-released to other investors — i.e. a GSE channel — which closes the second run's "servicing investor mix undisclosed" concern. SSB stays a clean drop.)*
 
 ## BKU — and the reason it is subtler than "the KILL was wrong"
 
