@@ -14,6 +14,33 @@ routine content edits. Archive to `archive/` if it grows past ~300 lines (SAM ca
 
 ---
 
+## 2026-07-25 (session 016, Will-directed) — 10-D performance panel built; Fitch dependency retired
+
+**Trigger:** Fitch's index reached OTTO only through a trade-press mirror that decayed to March-2026 data. Free alternatives were tested the same day and are closed — **S&P's tracker returns HTTP 403; KBRA's full indices spreadsheet requires an ABS Premium subscription** (KBRA's free preview gives tier-separated MoM deltas at a ~2.5-week lag, useful but no levels). Will directed building the panel.
+
+**What changed:** new `scripts/panel_10d.py` + `workbook/PANEL_10D.tsv`. A **fixed panel of 7 named deals** across two tiers — DEEP (EART 2022-2/2022-3/2023-1/2024-1) and BROAD (SDART 2022-6/2023-1/2024-1) — parsed from SEC 10-D Exhibit 99.1. Emits **60+ DQ, CNL, annualized net loss, recovery rate, extension rate** per deal per filing. Supersedes the Fitch dependency and the frozen `EXTENSION_PROXY.tsv` stub.
+
+**Explicitly NOT an index.** A basket whose composition drifts month to month moves for compositional reasons — the exact bias that broke OTTO-04. Deals are fixed and named, seasoning is recorded, tiers never blend. Panel *levels* are also **not comparable to Fitch levels** (different universe and definitions) and must never be spliced onto that series.
+
+**Four defects caught during the build — every one would have shipped plausible-but-wrong numbers:**
+1. **Footnote markers contain digits.** `{93}` sits between label and value; a gap written `[^\d]{0,30}` stops at the brace and matches the wrong field. **Produced an ANL of 111,600%** — caught only because it was absurd. A subtler mismatch would have passed.
+2. **Nested capture groups.** `m.group(m.lastindex)` returned the wrong group; replaced with a single named group.
+3. **`_source.ciks[0]` is the DEPOSITOR, not the trust.** All Santander trusts share CIK 1383094, so every SDART deal resolved to the *same* filing list and returned **identical metrics for three different vintages**. The per-trust CIK must be parsed out of the matching `display_name`. **This one looked exactly like valid data** — the only tell was that three vintages had identical numbers.
+4. **ANL denominator inconsistency.** Exeter states a beginning-of-period balance; Santander states only initial pool + pool factor. Using the initial pool understated seasoned-deal ANL by the amortisation factor (~6×). Now reconstructed as `initial × pool factor`.
+
+**Fail-loud contract (inherited from `shelf_halt_monitor.py`):** every row run-stamped; unparsed fields written EMPTY with the miss named, never 0; positive control (EART 2022-3 CNL must equal 27.58%) gates the whole run; unsupported issuers reported UNSUPPORTED; network/parse errors raise. **New in this tool: a DUPLICATE-METRIC DETECTOR** — if two different deals return identical values, the run is marked INVALID. That is a permanent net for defect 3, kept precisely because that failure mode is indistinguishable from real data by eye.
+
+**Validation:** SDART 2022-6 parsed to **CNL 12.08%** and EART 2022-2 to **26.34%** — both independently reproducing the s015 hand-pull.
+
+**Boot-impact:** none — monthly/on-demand, ~28 EDGAR fetches per 4-filing run. Not wired into `boot.py`.
+
+**Lessons:**
+- **The missing instrument was one parser away, inside documents OTTO was already reading** for OTTO-04. Before accepting a data wall, check whether the primary documents in hand already contain the field.
+- **Three of the four defects produced plausible output.** Only the 111,600% ANL announced itself. Absurdity is a lucky detector; controls and cross-deal duplicate checks are the reliable ones.
+- **Building the instrument produced the finding.** The panel's first real run resolved the summer-re-deterioration watch OTTO had carried unanswered all session (→ CHANGELOG).
+
+---
+
 ## 2026-07-25 (session 016, follow-on) — OTTO-07 re-instrumented: `shelf_halt_monitor.py` replaces a default-zero stub
 
 **Trigger:** freezing the stale ledgers surfaced `workbook/ABS_ISSUANCE.tsv` as not merely stale but **inverted** — `0 deals / shelf_halts 0` during a period STATUS documents as robust issuance. Its feeder (`abs_issuance_tracker.py`) was a manual-check stub emitting zeros when unrun, and that ledger was **OTTO-07's nominal instrument**. DAEDALUS graded the class PAT-060 and endorsed rebuilding warm rather than deferring to a Dec-31 backlog line (OTTO is Tier-2; next spawn may be weeks out).

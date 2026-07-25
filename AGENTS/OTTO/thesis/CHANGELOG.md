@@ -20,6 +20,36 @@ docs/predictions moved).
 
 ---
 
+### 2026-07-25 (session 016, Will-directed) — Summer re-deterioration CONFIRMED on an instrument OTTO built itself; the "deep bleeds, broad is fine" framing weakens
+
+**Was → Is:** the summer re-deterioration in subprime auto credit was OTTO's **expectation, untested**. Fitch's obtainable data stopped at **March 2026** (a seasonal tax-refund low), so every read since has been "unobserved, not disconfirmed" — a phrase this session used repeatedly and correctly. **Is: observed and confirmed.**
+
+**Trigger:** Will asked whether the Fitch gap could be fixed. S&P and KBRA were tested and found closed (403 / paid). So OTTO built a **fixed panel of 7 named deals** parsed from SEC 10-D Exhibit 99.1 — the same primary documents the rating agencies aggregate.
+
+**The result, from the first real run:**
+
+| | trough → latest 60+ DQ | off trough |
+|---|---|---|
+| EART 2022-2 (DEEP) | 13.23 → **14.79%** | +1.56pp |
+| EART 2022-3 (DEEP) | 12.27 → **13.59%** | +1.32pp |
+| EART 2023-1 (DEEP) | 10.71 → **11.97%** | +1.26pp |
+| EART 2024-1 (DEEP) | 9.37 → **10.26%** | +0.89pp |
+| SDART 2022-6 (BROAD) | 8.88 → **10.45%** | +1.57pp |
+| SDART 2023-1 (BROAD) | 8.62 → **9.96%** | +1.34pp |
+| SDART 2024-1 (BROAD) | 7.78 → **9.19%** | +1.41pp |
+
+**7 of 7 deals, both tiers, four vintages — troughed in spring, risen every month since, all now above their first observation.**
+
+**The thesis-level wrinkle, and it cuts against OTTO.** Since s015 OTTO has framed the subprime picture as *deep-subprime bleeds while broad subprime holds up* — supported by Ally's five straight improving quarters and the 2.3× CNL tier split. The panel confirms the **level** gap (ANL 18.85% DEEP vs 6.41% BROAD, ~2.9×) but shows the **broad tier deteriorating as fast as or faster than deep off the trough** (+1.34 to +1.57pp vs +0.89 to +1.56pp). Level bifurcation is intact; **rate-of-change bifurcation is not.** That is a genuine qualification of OTTO's own framing and should temper any "it's contained to deep subprime" read.
+
+**Second-order:** the DQ gap between tiers (1.3×) is far narrower than the loss gap (2.9×) — deep subprime converts delinquency into loss much faster, consistent with recoveries of 21.8-30.9% and falling on the 2022 vintages (EART 2022-3: 28.89 → 21.83% across Mar-Jun filings).
+
+**Method note worth keeping:** the missing instrument turned out to be one parser away, inside documents OTTO was already reading for OTTO-04. The lesson generalises past this metric — **before accepting a data wall, check whether the primary documents already in hand contain the field.**
+
+**Touches:** `scripts/panel_10d.py` + `workbook/PANEL_10D.tsv` (new), STATUS (3 new dashboard rows, boot-pointer, BOTTOM LINE), `workbook/ML.tsv` ML-201/-202/-203/-204, MAINTENANCE (instrument build + 4 parser defects).
+
+---
+
 ### 2026-07-25 (session 016, Will-directed) — OTTO-04 metric re-based to the deep-subprime 10-D tranche; the prediction was RETIRED rather than re-scored
 
 **Was → Is:** OTTO-04 ("2022 vintage CNL >25% by Sep 30") resolved on the **Fitch blended subprime index** — a convention Will ratified 2026-07-04 when the only known problem was composition bias. **Is:** the canonical 2022-vintage measure is now the **deep-subprime 10-D tranche** — `Cumulative net loss ratio` for **EART 2022-2 / 2022-3**, pulled directly from SEC EDGAR.

@@ -1,0 +1,335 @@
+#!/usr/bin/env python3
+"""
+OTTO — Subprime auto ABS performance panel, built from SEC 10-D trustee reports.
+
+WHY THIS EXISTS
+  OTTO's subprime performance read came from the Fitch Auto ABS Index, reached only
+  through a free trade-press mirror. That mirror decayed (2026: latest obtainable data
+  was MARCH), and the paid alternatives were tested 2026-07-25 and are closed —
+  S&P's tracker returns HTTP 403, KBRA's full indices spreadsheet requires an ABS
+  Premium subscription. Rather than depend on a republication of someone else's index,
+  this builds the series from the same primary documents the agencies use.
+
+  Second reason, and the better one: the Fitch index is a BLEND whose composition is
+  dominated by Santander's very large, much cleaner deals. That composition bias is
+  what broke OTTO-04 — deep-subprime 2022 collateral was >25% CNL while the blended
+  index tracked toward ~24.3%. A self-built panel keeps the tiers SEPARATE by
+  construction, which is what the thesis actually asks about.
+
+  Third: 10-Ds disclose an EXTENSION RATE (Exeter and peers) that Fitch never
+  published. Extensions are the mechanical lever for making a delinquent loan appear
+  current — the conduct the Tricolor superseding indictment describes. That field also
+  replaces workbook/EXTENSION_PROXY.tsv, frozen 2026-07-25 as a dead manual stub.
+
+WHAT IT IS NOT
+  NOT an index. It is a FIXED PANEL of named deals. Do not average across deals of
+  different seasoning and call it a market rate — a basket whose composition drifts
+  month to month moves for compositional reasons, which is precisely the error this
+  panel exists to avoid. Compare like-vintage to like-vintage, or read deals singly.
+  Coverage is ~8 deals, not the ~$100B+ universe Fitch tracks; it is a consistent
+  probe, not a market aggregate.
+
+FAIL-LOUD (same contract as scripts/shelf_halt_monitor.py)
+  - Every row is RUN-STAMPED. A number without a run stamp is not data.
+  - A field that does not parse is written EMPTY with the miss named in `parse_misses`
+    — never 0, never carried forward. A missing extension rate means "this issuer does
+    not disclose it," not "extensions were zero."
+  - POSITIVE CONTROL: a known deal/field/value must reproduce before any run is
+    trusted. Control failure marks the whole run INVALID.
+  - Unsupported issuers are reported UNSUPPORTED, never silently skipped.
+  - Network/parse errors RAISE. They never degrade into a benign-looking number.
+
+Usage:
+  .venv/bin/python3 AGENTS/OTTO/scripts/panel_10d.py                 # latest filing per deal
+  .venv/bin/python3 AGENTS/OTTO/scripts/panel_10d.py --history 6     # last 6 filings per deal
+  .venv/bin/python3 AGENTS/OTTO/scripts/panel_10d.py --dry-run
+"""
+
+import json
+import re
+import sys
+import time
+import urllib.parse
+import urllib.request
+from datetime import datetime
+from pathlib import Path
+
+OTTO_DIR = Path(__file__).resolve().parent.parent
+LEDGER = OTTO_DIR / "workbook" / "PANEL_10D.tsv"
+FTS = "https://efts.sec.gov/LATEST/search-index?"
+UA = {"User-Agent": "OTTO Research willi.research@gmail.com"}
+DELAY, RETRIES = 0.15, 3
+
+# ── Panel ────────────────────────────────────────────────────────────────────
+# tier is the analytical point: keep DEEP and BROAD separate, never blended.
+PANEL = [
+    ("EART 2022-2", "Exeter Automobile Receivables Trust 2022-2", "DEEP",  "exeter"),
+    ("EART 2022-3", "Exeter Automobile Receivables Trust 2022-3", "DEEP",  "exeter"),
+    ("EART 2023-1", "Exeter Automobile Receivables Trust 2023-1", "DEEP",  "exeter"),
+    ("EART 2024-1", "Exeter Automobile Receivables Trust 2024-1", "DEEP",  "exeter"),
+    ("SDART 2022-6", "Santander Drive Auto Receivables Trust 2022-6", "BROAD", "santander"),
+    ("SDART 2023-1", "Santander Drive Auto Receivables Trust 2023-1", "BROAD", "santander"),
+    ("SDART 2024-1", "Santander Drive Auto Receivables Trust 2024-1", "BROAD", "santander"),
+]
+
+# Positive control — must reproduce exactly or the run is INVALID.
+CONTROL = ("EART 2022-3", "cnl_pct", 27.58, "10-D filed 2026-06-30")
+
+# ── Pattern primitives ───────────────────────────────────────────────────────
+# TWO traps live in these documents, both found by getting them wrong first:
+#  1. Footnote markers like `{95}` sit between a label and its value — and they
+#     CONTAIN DIGITS, so a naive "skip to the first number" grabs 95. SKIP therefore
+#     consumes brace-tokens explicitly.
+#  2. A gap written `[^\d]{0,30}` stops dead at that same `{93}` and silently matches
+#     the wrong field — which is how the first run reported an ANL of 111,600%.
+# Empty cells are EM-DASHES (—), not zeros, so numeric cells cannot be assumed present.
+SKIP = r"(?:\{\d+\}|[^\d{])*"                    # footnotes + non-numeric filler
+NUMV = r"(?P<v>[\d,]+\.\d{1,4}|[\d,]+)"          # the value we want
+PCT  = r"[\s\S]{0,140}?(?P<v>[\d,]+\.\d{1,2})\s*%"   # first N.NN% after a label
+
+SPECS = {
+    "exeter": {
+        "dq_61_90":   r"61-90 days" + PCT,
+        "dq_91_120":  r"91-120 days" + PCT,
+        "dq_120plus": r"over 120 days" + PCT,
+        "cnl_pct":    r"Cumulative\s+net\s+loss\s+ratio" + PCT,
+        "ext_rate":   r"Extension Rate" + PCT,
+        "net_loss_period": r"Net losses during period" + SKIP + NUMV,
+        "beg_balance":     r"Beginning of Period Aggregate Principal Balance" + SKIP + NUMV,
+        "liquidated":      r"becoming Liquidated Receivables during period" + SKIP + NUMV,
+        "liq_proceeds":    r"Net Liquidation Proceeds collected during period" + SKIP + NUMV,
+    },
+    "santander": {
+        "dq_61_90":   r"61-90 days" + PCT,
+        "dq_91_120":  r"91-120 days" + PCT,
+        "dq_120plus": r"121 \+ days delinquent" + PCT,
+        "cum_loss_dollars": r"Cumulative Net losses since Cut-off Date" + SKIP + NUMV,
+        "net_loss_period":  r"Net losses during period" + SKIP + NUMV,
+        # Initial Purchase row: units, cut-off date, closing date, THEN the balance.
+        "initial_pool":     r"Initial Purchase\s+[\d,]+\s+[\d/]+\s+[\d/]+\s+" + NUMV,
+        # Pool FACTOR (current balance / original). Needed because Santander does not
+        # state a beginning-of-period balance; without it, ANL computed off the INITIAL
+        # pool understates a seasoned deal by the amortisation factor — ~6x here.
+        "pool_factor":      r"Pool Balance\)" + SKIP + NUMV,
+        # ext_rate deliberately ABSENT — Santander does not disclose it. Absence is
+        # recorded as not-disclosed, never as zero.
+    },
+}
+
+COLUMNS = ["run_ts", "deal", "tier", "issuer", "filing_date", "months_seasoned",
+           "dq_60plus_pct", "cnl_pct", "anl_pct", "recovery_pct", "ext_rate_pct",
+           "status", "parse_misses", "source_url"]
+
+
+def _num(s):
+    return float(s.replace(",", "")) if s else None
+
+
+def fetch(url, timeout=45):
+    last = None
+    for a in range(RETRIES):
+        try:
+            time.sleep(DELAY)
+            with urllib.request.urlopen(urllib.request.Request(url, headers=UA), timeout=timeout) as r:
+                return r.read().decode("utf-8", "ignore")
+        except Exception as e:
+            last = e
+            time.sleep(1.5 * (a + 1))
+    raise last
+
+
+def flatten(raw):
+    import html as _h
+    return _h.unescape(re.sub(r"\s+", " ", re.sub(r"<[^>]+>", " ", raw)))
+
+
+def resolve_trust_cik(hits, phrase):
+    """Resolve the CIK of the TRUST named `phrase` — not the depositor.
+
+    `_source.ciks[0]` is the DEPOSITOR, which is shared across every trust a shelf has
+    ever issued (all Santander trusts share CIK 1383094). Taking ciks[0] silently
+    returns the same filing list for every deal on a shelf, producing *identical
+    metrics for different vintages* — plausible-looking and completely wrong. The
+    per-trust CIK is embedded in the matching display_name instead.
+    Returns None when no display_name matches, which callers must treat as INVALID.
+    """
+    for h in hits:
+        for n in h["_source"].get("display_names", []):
+            if phrase.lower() in n.lower():
+                m = re.search(r"CIK\s*(\d{6,10})", n)
+                if m:
+                    return m.group(1).lstrip("0")
+    return None
+
+
+def deal_filings(phrase, want):
+    """Return [(filing_date, cik, accession)] newest-first for this deal's 10-Ds."""
+    r = json.loads(fetch(FTS + urllib.parse.urlencode({"q": f'"{phrase}"', "forms": "10-D"}), 30))
+    hits = r.get("hits", {}).get("hits", [])
+    if not hits:
+        return []
+    cik = resolve_trust_cik(hits, phrase)
+    if not cik:
+        raise RuntimeError(f"could not resolve a trust CIK whose display_name matches {phrase!r}")
+    sub = json.loads(fetch(f"https://data.sec.gov/submissions/CIK{int(cik):010d}.json", 30))
+    rec = sub["filings"]["recent"]
+    out = [(rec["filingDate"][i], cik, rec["accessionNumber"][i])
+           for i in range(len(rec["form"])) if rec["form"][i] == "10-D"]
+    out.sort(reverse=True)
+    return out[:want], (out[-1][0] if out else None)
+
+
+def exhibit_text(cik, accession):
+    acc = accession.replace("-", "")
+    idx = json.loads(fetch(f"https://www.sec.gov/Archives/edgar/data/{cik}/{acc}/index.json", 30))
+    names = [i["name"] for i in idx["directory"]["item"]]
+    # exhibit 99.1 carries the servicer report; filename conventions differ by filer agent
+    cands = [n for n in names if re.search(r"(ex.?99|exhibit.?99)", n, re.I) and n.endswith((".htm", ".txt"))]
+    if not cands:
+        cands = [n for n in names if n.endswith(".htm") and "index" not in n]
+    if not cands:
+        raise RuntimeError("no candidate exhibit in accession")
+    url = f"https://www.sec.gov/Archives/edgar/data/{cik}/{acc}/{cands[0]}"
+    return flatten(fetch(url)), url
+
+
+def parse(txt, issuer):
+    spec = SPECS[issuer]
+    vals, misses = {}, []
+    for field, pat in spec.items():
+        m = re.search(pat, txt, re.I)
+        if not m:
+            misses.append(field)
+            vals[field] = None
+            continue
+        vals[field] = _num(m.group("v"))
+    return vals, misses
+
+
+def derive(v, issuer):
+    """Compute the four comparable metrics. Any input missing -> output None, never 0."""
+    out = {}
+    dq = [v.get("dq_61_90"), v.get("dq_91_120"), v.get("dq_120plus")]
+    out["dq_60plus_pct"] = round(sum(dq), 2) if all(x is not None for x in dq) else None
+
+    if issuer == "exeter":
+        out["cnl_pct"] = v.get("cnl_pct")
+        nl, bb = v.get("net_loss_period"), v.get("beg_balance")
+        out["anl_pct"] = round(nl / bb * 12 * 100, 2) if nl and bb else None
+        liq, pr = v.get("liquidated"), v.get("liq_proceeds")
+        out["recovery_pct"] = round(pr / liq * 100, 2) if liq and pr else None
+        out["ext_rate_pct"] = v.get("ext_rate")
+    else:  # santander: cumulative losses are dollars -> derive ratio off initial pool
+        cl, ip = v.get("cum_loss_dollars"), v.get("initial_pool")
+        out["cnl_pct"] = round(cl / ip * 100, 2) if cl and ip else None
+        # ANL must be measured against the CURRENT balance, as Exeter's is. Santander
+        # states only the initial balance + a pool factor, so reconstruct:
+        #   current balance = initial pool x pool factor
+        # NOTE: Santander's own stated definition uses the AVERAGE portfolio balance for
+        # the period ((beginning + end)/2); this uses the point-in-time balance, so the
+        # figure is a close approximation, not the issuer's own published ratio.
+        nl, pf = v.get("net_loss_period"), v.get("pool_factor")
+        cur = ip * pf if (ip and pf) else None
+        out["anl_pct"] = round(nl / cur * 12 * 100, 2) if (nl and cur) else None
+        out["recovery_pct"] = None      # gross liquidation balance not disclosed in this format
+        out["ext_rate_pct"] = None      # NOT DISCLOSED by this issuer — not zero
+    return out
+
+
+def months_between(a, b):
+    da, db = datetime.strptime(a, "%Y-%m-%d"), datetime.strptime(b, "%Y-%m-%d")
+    return (db.year - da.year) * 12 + (db.month - da.month)
+
+
+def main():
+    want = 1
+    if "--history" in sys.argv:
+        want = int(sys.argv[sys.argv.index("--history") + 1])
+    dry = "--dry-run" in sys.argv
+    run_ts = datetime.now().strftime("%Y-%m-%dT%H:%M:%S")
+
+    print(f"\n{'='*104}\n  OTTO 10-D Performance Panel — {run_ts}   ({want} filing(s)/deal)")
+    print(f"  FIXED PANEL of named deals — NOT an index. Tiers stay separate by design.\n{'='*104}")
+
+    rows, control_ok = [], None
+    for deal, phrase, tier, issuer in PANEL:
+        if issuer not in SPECS:
+            rows.append(dict(run_ts=run_ts, deal=deal, tier=tier, issuer=issuer, status="UNSUPPORTED",
+                             parse_misses="no field spec for issuer", filing_date="", months_seasoned="",
+                             dq_60plus_pct="", cnl_pct="", anl_pct="", recovery_pct="", ext_rate_pct="", source_url=""))
+            print(f"  {deal:14s} UNSUPPORTED — no field spec"); continue
+        try:
+            filings, first_date = deal_filings(phrase, want)
+        except Exception as e:
+            print(f"  {deal:14s} ERROR resolving filings: {type(e).__name__}"); continue
+        if not filings:
+            rows.append(dict(run_ts=run_ts, deal=deal, tier=tier, issuer=issuer, status="INVALID",
+                             parse_misses="deal phrase matched no 10-D — check the name stem",
+                             filing_date="", months_seasoned="", dq_60plus_pct="", cnl_pct="",
+                             anl_pct="", recovery_pct="", ext_rate_pct="", source_url=""))
+            print(f"  {deal:14s} INVALID — phrase matched no 10-D (name stem wrong?)"); continue
+
+        for fdate, cik, acc in filings:
+            try:
+                txt, url = exhibit_text(cik, acc)
+            except Exception as e:
+                print(f"  {deal:14s} {fdate}  ERROR fetching exhibit: {type(e).__name__}"); continue
+            v, misses = parse(txt, issuer)
+            d = derive(v, issuer)
+            status = "OK" if not misses else "OK-PARTIAL"
+            rows.append(dict(run_ts=run_ts, deal=deal, tier=tier, issuer=issuer, filing_date=fdate,
+                             months_seasoned=months_between(first_date, fdate) if first_date else "",
+                             status=status, parse_misses=";".join(misses), source_url=url,
+                             **{k: ("" if d[k] is None else d[k]) for k in
+                                ("dq_60plus_pct","cnl_pct","anl_pct","recovery_pct","ext_rate_pct")}))
+            if deal == CONTROL[0] and d.get(CONTROL[1]) is not None and control_ok is None:
+                control_ok = abs(d[CONTROL[1]] - CONTROL[2]) < 0.01
+            f = lambda k: f"{d[k]:6.2f}" if d[k] is not None else "   n/d"
+            print(f"  {deal:14s} {tier:5s} {fdate}  60+DQ {f('dq_60plus_pct')}  CNL {f('cnl_pct')}"
+                  f"  ANL {f('anl_pct')}  REC {f('recovery_pct')}  EXT {f('ext_rate_pct')}"
+                  + (f"   ⚠ missed: {','.join(misses)}" if misses else ""))
+
+    # ── Safety net: identical metric tuples across DIFFERENT deals ──────────────
+    # Distinct vintages cannot legitimately produce identical performance. When they
+    # do, it means every deal resolved to the same filings — the depositor-CIK bug
+    # (fixed 2026-07-25, kept as a detector because the failure LOOKS like valid data).
+    seen = {}
+    for r in rows:
+        if r.get("status", "").startswith("OK") and r.get("cnl_pct") != "":
+            key = (r["cnl_pct"], r["dq_60plus_pct"], r["anl_pct"], r["filing_date"])
+            seen.setdefault(key, []).append(r["deal"])
+    dupes = {k: v for k, v in seen.items() if len(set(v)) > 1}
+    if dupes:
+        print("\n  ⚠️  DUPLICATE-METRIC DETECTOR TRIPPED — different deals returned identical values:")
+        for k, v in dupes.items():
+            print(f"       {', '.join(sorted(set(v)))}  ->  cnl={k[0]} dq={k[1]} anl={k[2]}")
+        print("       This means deals resolved to the SAME filings. Run marked INVALID.")
+        for r in rows:
+            if r["deal"] in {d for v in dupes.values() for d in v}:
+                r["status"] = "INVALID"
+                r["parse_misses"] = (r.get("parse_misses", "") + ";duplicate-metrics-across-deals").strip(";")
+
+    print(f"\n  POSITIVE CONTROL — {CONTROL[0]} {CONTROL[1]} must equal {CONTROL[2]} ({CONTROL[3]}): ", end="")
+    if control_ok is None:
+        print("NOT EVALUATED (control deal absent from this run) → run marked INVALID")
+        for r in rows: r["status"] = "INVALID"
+    elif control_ok:
+        print("PASS ✓")
+    else:
+        print("**FAIL** → every value in this run is untrustworthy; run marked INVALID")
+        for r in rows: r["status"] = "INVALID"
+
+    if dry:
+        print("\n  [--dry-run] nothing written\n"); return 0
+    new = not LEDGER.exists()
+    with LEDGER.open("a") as fh:
+        if new:
+            fh.write("\t".join(COLUMNS) + "\n")
+        for r in rows:
+            fh.write("\t".join(str(r.get(c, "")) for c in COLUMNS) + "\n")
+    print(f"\n  Appended {len(rows)} row(s) to {LEDGER.name}\n")
+    return 0
+
+
+if __name__ == "__main__":
+    sys.exit(main())
