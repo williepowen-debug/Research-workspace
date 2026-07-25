@@ -20,6 +20,22 @@ docs/predictions moved).
 
 ---
 
+### 2026-07-25 (session 016, RP-OTT-1.6) — "The books looked clean" stops being an inference and becomes a documented mechanism
+
+**Was → Is:** The Invisible Exit's central claim is that a fraud lender's book *looks clean until the moment it collapses*. Until now OTTO supported that with outcome evidence — 30K missing vehicles, ~3% recovery, a Vervent mod program — i.e. **inference from how it ended**. **Is:** the mechanism is now documented at the point of control. All **eleven** Tricolor securitizations (2018-2025) carry a third-party agreed-upon-procedures report, and those procedures compare the securitization data tape **to Tricolor's own servicing and origination systems** — the systems the superseding indictment alleges were falsified. *"We compared Characteristics 8. through 12. to … the Servicing System Screen Shots"* (Deloitte). **A tape derived from a doctored source agrees with it by construction.**
+
+**Trigger:** `[CONF SEC EDGAR]` — all 11 Form ABS-15G filings + 12 Exhibit 99.x AUP reports, depositor CIK 0001757871. Commissioned by Will as Tier 1 of the 2018-2021 vintage thread.
+
+**Why it's thesis-level:** it converts the Secondary thesis's weakest link — *why did nobody notice for seven years?* — from a plausibility argument into a structural one. An AUP is a **reconciliation, not an audit**; it is not designed to test whether the originator's records are true. Three major firms (Crowe → Deloitte → Grant Thornton) each produced accurate reports that were, against this fraud, uninformative. Double-pledging is likewise outside scope: lien documents are checked, but on **150 of ~10,000 loans (1.5%)**, and confirming Tricolor's own lien is not a search for competing pledges. **No procedure inspects a vehicle.**
+
+**Also retires a lead — my own, from earlier the same session.** I had headlined "2018-2021 vintages implicated." Tricolor securitized **two** deals in that window (TAST 2018-2, 2021-1) with a **32-month gap**; **nine of eleven** are 2022-2025. The 2022-centric frame was right. Corrected in STATUS, CHANGELOG, and NEXUS_BRIEF — the last of which had already gone out with the wrong gloss.
+
+**Reusable output:** a 144A subprime shelf's ABS-15G/Exhibit 99.1 is its one public trace. Four cheap diagnostics now defined — *what is the tape compared against; who chose the sample; how large relative to the pool; has the provider rotated* — applicable to CPS, Flagship, Lendbuzz, SAFCO, GCAR.
+
+**Touches:** `research/outputs/RP-OTT-1.6_Tricolor_ABS15G_Diligence_Forensics.md` (new), `workbook/ML.tsv` ML-195/-196/-197/-198, STATUS (BOTTOM LINE + criminal-track vector + 2018-2021 correction), NEXUS_BRIEF (retraction + new mechanism line), RESEARCH_STATUS index. No prediction moved.
+
+---
+
 ### 2026-07-25 (session 016) — 🔴 DOJ has criminally charged BOTH of OTTO's thesis mechanisms; Invisible Exit escalates from inference to indictment
 
 **Was → Is:** The Primary (Cockroach/double-pledging) thesis rested on bankruptcy-estate evidence and the Dec-2025 indictment's *bank-fraud* framing. The Secondary (Invisible Exit) thesis — that the immigrant subprime cohort skip-defaults in a way that **bypasses the 30→60→90 DQ chain**, which is why fraud-lender books look clean until collapse — was OTTO's own **inference from data**, explicitly the weaker leg (MEDIUM-HIGH, "structurally validated" only by the Tricolor 30K-missing-vehicles / Vervent Fresh Start evidence).
@@ -30,7 +46,7 @@ docs/predictions moved).
 
 **Three escalations, in order of importance:**
 1. **The Invisible Exit mechanism is charged.** "Making non-performing loans appear current" is precisely the DQ-chain bypass OTTO modelled. This is the strongest available validation short of conviction, and it should move the Secondary thesis's conviction up — it is no longer OTTO's private read of anomalous data.
-2. **"Continuing financial crimes enterprise from at least 2018."** The alleged fraud ran **seven years** before collapse. OTTO's vintage work has centred on 2022; the indictment implicates **2018-2021 vintages** as well, widening the impaired-collateral window materially. *This is an open analytical thread, not yet worked.*
+2. **"Continuing financial crimes enterprise from at least 2018."** The alleged fraud ran **seven years** before collapse, so **originations** were tainted from 2018. ~~The indictment implicates 2018-2021 vintages, widening the impaired-collateral window materially.~~ **⚠ CORRECTED same day by RP-OTT-1.6:** that was overstated. Tricolor securitized only **two** deals in 2018-2021 (TAST 2018-2, 2021-1, with a 32-month gap); **nine of eleven** deals are 2022-2025. The securitized-collateral window did **not** widen materially, and the phrasing could have been read as *industry-wide* 2018-2021 vintage impairment, which does not follow from the indictment at all. **Lead retired; the wording was the error, not the indictment.**
 3. **The statute is the tell on DOJ's own conviction.** DOJ invoked **18 U.S.C. § 225 (CFCE, the "financial kingpin" statute)** — mandatory minimum **10 years to life**, used a handful of times since the S&L crisis and not at all in over a decade. Prosecutors do not revive a dormant mandatory-minimum statute for a marginal case. Charges roughly doubled vs. the December original. Chu pleaded **not guilty 2026-06-30**.
 
 **Fourth, separately dated:** former COO **David Goodgame pleaded GUILTY 2026-06-24** to six counts (bank/wire/securities fraud, conspiracy, false statements) and is **cooperating** against Chu — a flip from his Jan-2026 not-guilty plea. **This fires OTTO's standing outbound trigger** ("cooperating witness reveals new fraud/participants" → CARL, REGINALD, 🟠 ELEVATED). A cooperating COO is the highest-value fraud-surface-expansion vector available; expect new counterparties to surface through his proffer.

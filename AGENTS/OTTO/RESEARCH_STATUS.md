@@ -8,6 +8,7 @@
 
 | ID | Topic | Date | Finding | Location |
 |----|-------|------|---------|----------|
+| **RP-OTT-1.6** | **Tricolor ABS-15G diligence forensics** | **2026-07-25** | 144A shelf (no 10-Ds); 11-deal inventory recovered; only 2 deals in 2018-2021 (lead retired); AUPs reconcile tape to the originator's own servicing system = structurally blind to the alleged fraud | ML-OTTO-195 to 198 |
 | RP-OTT-1.1 | Lender Risk Assessment | 2026-02-03 | Flagged Flagship, Exeter, CPS, ACA, Westlake | ML-OTTO-009 to 012 |
 | RP-OTT-1.2 | Warehouse Response | 2026-02-03 | "Verify and Control" model; advance rates down 10-15pp | ML-OTTO-013, 020 |
 | RP-OTT-1.3 | First Brands Update | 2026-02-03 | James brothers arrested; $9.3B; examiner report Feb 25 | ML-OTTO-016, 017 |
