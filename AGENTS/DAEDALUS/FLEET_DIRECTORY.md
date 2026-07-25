@@ -45,7 +45,7 @@
 | CREED | Market | L2 | National CRE / CMBS | BUILD the workbook from workbook/WORKBOOK_DESIGN.md (Will-queued — the… |
 | DEWEY | Utility | L4 | Deep on-demand research | CONTRACT block → L5 candidate |
 | HANS | Market | L3 | Europe macro (PMI→ISM lead, ECB/Fed divergence, EU UST custody) — US-market lens | next spawn: FLOW reconcile-or-freeze changelist |
-| OTTO | Market | L4 | Auto-industry fraud & stress | L4->L5: §2 handle overlay |
+| OTTO | Market | L4 | Auto-industry fraud & stress | L4->L5: §2 handle overlay (no clock) |
 
 ## ⚪ DORMANT — revive only on explicit need
 

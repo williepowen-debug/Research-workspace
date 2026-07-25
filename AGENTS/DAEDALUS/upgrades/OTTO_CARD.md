@@ -43,3 +43,21 @@
 6. **#5 research retirement** — one archive pass; flag WAL/ folder disposition to PROME (spinout-incubation, not OTTO debt).
 
 > **Application note:** OTTO is Tier-2 spawn-on-need (idle since 7/4) — everything above is owner-lane via task-packet on next spawn; nothing warrants a DAEDALUS direct-edit. **DO-NOT-TOUCH (profile §5):** boot.py keyword-filter contract, predictions_due rc=1 semantics, FROZEN banner positions (first-lines window; VX partial-freeze nuance), WINTERKORN ownership boundaries, OTTO-04 Will-ratified metric convention, CRLF TSVs, 🔴🔴 severity extension, the deliberate boot↔closeout cross.
+
+---
+
+## 2026-07-25 write-back — peer-suggestion pass dispositions (OTTO live session via Will relay; verified in-file, commit `161fb974`)
+
+| Card item | Outcome |
+|---|---|
+| §5 hygiene (ARCHIVE backfill) | ✅ **DONE** — scoreboard 5/5 → **5/7 (71%)** w/ explicit retraction note ("the 100% figure was never right after Jul 4"); OTTO-05/-28 post-mortems written |
+| #1 RESEARCH_STATUS | ✅ **DISPOSITIONED — better than the card**: rotted ACTIVE-MONITORING table **DELETED** (duplicated STATUS, no update path — refresh would restart decay, PAT-058); completed-research index kept as valid history |
+| #2 EDGAR_8K_MONITOR | ✅ **REVERSED-with-reason — judgment UPHELD** (PAT-029): punchlist's "retire or hand to REGINALD" predated the EDGAR FTS method becoming load-bearing (found TFIN; OTTO-30/-33/-07 depend on it). Watchlist half frozen (REGINALD lane); method half promoted to **canonical instrument registry** w/ ⚖️ DECISION banner |
+| #3 push-policy | ✅ was already fixed 7/8 (DAEDALUS S2 strike, `bc1d70f9`) |
+| #4 version stamps · #5 research retirement | ⏸ **DEFERRED-with-reason** in STALE_PUNCHLIST (no clock; budget spent on 7/28 work + reader-misleading defects) — tracked, not silent |
+| #8 workbook tail | ✅ 3 sweep-flagged ledgers FROZEN (KB/CROSS_AGENT_LOG/EXTENSION_PROXY) — **and the freeze unmasked ABS_ISSUANCE as INVERTED, not stale → PAT-060** (default-zero instrument false-confirms OTTO-07's null). Re-instrument on EDGAR FTS owed before **Dec 31** |
+| §2 handle overlay · §6 SIGNALS.md vestige | ⏸ deferred-with-reason — remaining L5 handles |
+| PAT-041 (OTTO-04 durable home) | ✅ Fitch decision → dated **2026-09-01 CATALYSTS row** |
+| Inbox | ✅ drained to processed/ incl. the DAEDALUS 7/7 packet |
+
+**New find flagged back to PROME (OTTO-side):** step-7b canonical-vs-mirror check compares event *sets* (dates+IDs); prose residue is invisible to it — the Oct-19 dead line survived a clean mirror-check. Same blind spot exists in PROME's gate.
