@@ -147,4 +147,46 @@ Cat III/IV mandatory unrealized AFS loss recognition phasing in. Same AOCI dynam
 
 ---
 
-*Thesis (**v2.3**) → `THESIS.md` | Changelog → `CHANGELOG.md` | Round 2 deep-mine → `sources/q1_2026/` | Fraud detail → `FRAUD/` | Evidence → `workbook/KB.tsv` | Scenarios → `SCENARIOS.md` (**v2.3**, 7/25 re-mark) | Insiders → `LEADERSHIP.md` | Pre-print prep → `EARNINGS_PREP.md` (historic) | Print-day frame → `Q2_GRADING_FRAME_2026-07-21.md`* *(Wave-1 chunk 3/4/5 refreshes completed May 1 — stale "pending" notes removed 7/17.)*
+## CONVERGENCE MATRIX (universal 5-pt triage overlay — routes to THESIS v2.3, the canonical probability surface)
+
+*Standup-seeded 2026-07-25 (DAEDALUS, from v2.3 graded facts) — owner ratifies/rescores at first boot. Score 1=disconfirmed, 3=mixed/untested, 5=confirmed.*
+
+| Vector | Score | Independence | State | Basis (all v2.3-graded) |
+|---|---|---|---|---|
+| V1a — MI3 hidden-CRE (bear-fast) | 3/5 | Independent root (call-report classification) | **UNTESTED** | Falsifier has never run; FFIEC PDD ~2.5mo overdue; 2 consecutive shrinking-book quarters = weak counter only |
+| V1b — Office migration (bear-medium) | 2/5 | Independent root (office credit) | **NARROWED** | REG-26 DISCONFIRMED; office classified $316M falling vs $407M; 0 new migrations; alive via $99M appraisal + $946M 2026 wall + ACL/NPL 96% |
+| V2 — Fraud/Jefferies | 5/5 (historical) | Independent root (C&I fraud) | **RESOLVED-CONFIRMED → litigation arc** | $152.5M Q1 charge-off mgmt-labeled fraud; forward = WAL v. Jefferies + ~$46M Cantor residual |
+| V3 — NDFI/warehouse | 2/5 | Partial overlap w/ V1 (CRE-adjacent collateral) | **DISCONFIRMED at aggregate** | Cohort-median 7% Ex-Mtg; lone confirming sub-vector = warehouse $7.155B (30x peer median) |
+| V4 — Leadership/insider | 3/5 | Independent root (behavioral) | FIRED (B3) | Curley resignation same week as $99M disclosure; zero insider buying |
+
+**Composite: ~15/25 — bear idiosyncratic + narrowed** (matches v2.3's Bear-total 26% + Tail 7%). Not additive with THESIS weights — this is the lossy cross-agent comparison handle.
+
+## EXIT RULES (CRE-channel-native — FIRED-state tracked; standup-seeded 7/25, owner ratifies)
+
+| Rule | Condition | State |
+|---|---|---|
+| **Bear-medium KILL** | Q3 10-Q: 0 new office migrations (pass-grade-walk stays N=1 at 3rd data point) AND $99M appraisal benign (no charge-down) | ⬜ NOT FIRED — resolves ~late Oct |
+| **Bear-fast KILL** | MI3 <25% when FFIEC PDD finally runs | ⬜ UNRUN (the falsifier itself is overdue) |
+| **Bear CONFIRM** | WAL-01 (office-classified path, 25%) or WAL-02 (NCO ex-fraud >40bps FY, 50%) resolves TRUE | ⬜ OPEN to Q3 10-Q |
+| **Thesis RETIRE** | Broadening disconfirmed at N=3 AND coverage rebuilt >100% AND appraisal benign → fold WAL back to REGINALD row | ⬜ |
+| **Price discipline** | Close <$78 = threshold breach → signal REGINALD/PROME; pops are NOT invalidation unless the pre-registered disconfirm stack is COMPLETE (7/22: (C) ✗ → pop ≠ kill) | 🟢 $83.41, buffer +$5.41 |
+
+## EXPECTED SIGNALS (absence-is-data)
+
+| Waiting for | Expected by | Tests |
+|---|---|---|
+| $99M life-sci appraisal | Q3 (mgmt: "haven't got the appraisal in") | WAL-02 charge-down path — the dated catalyst |
+| Q3 10-Q | ~late Oct 2026 | WAL-01/02 resolution; migration N=2?; Cantor tie-out |
+| FFIEC Q2 Call Report PDD | ~Aug window (Q1 window passed unrun) | V1 MI3 first-ever test |
+| Sep-18 expiry ($67.5P + $70P core) | 2026-09-18 | Position management (TERRY lane) |
+| H2 $150M buyback execution | H2 2026 | Bull-leg confirmation vs guide |
+| Capital-rules final (AOCI Cat III/IV) | pending | Second capital-drain leg |
+| OZK Aug IQHQ resolution (peer) | Aug 2026 | Strategic-default mechanic read-across |
+
+## BOTTOM LINE
+
+The Q2 second-data-point test came back **non-confirming and was honestly marked**: broadening is disconfirmed, the bear is idiosyncratic and narrowed to the residual office tail, and the margin of safety compressed to 12.4% because EV rose faster than price. Everything now funnels to two dated events — the **$99M appraisal** (Q3, charge-down or cure) and the **Q3 10-Q** (WAL-01/02 resolution, migration N=2 test) — with the never-run **MI3/FFIEC falsifier** as the standing embarrassment both directions. Spot $83.41 sits above the new Base top ($82), so the base case still implies a decline; the Sep put core is a TERRY/Will lane, not this file's.
+
+---
+
+*Thesis (**v2.3**) → `THESIS.md` | Changelog → `CHANGELOG.md` | Round 2 deep-mine → `sources/q1_2026/` | Fraud detail → `FRAUD/` | Evidence → `workbook/KB.tsv` | Scenarios → `SCENARIOS.md` (**v2.3**, 7/25 re-mark) | Insiders → `LEADERSHIP.md` | Pre-print prep → `EARNINGS_PREP.md` (historic) | Print-day frame → `Q2_GRADING_FRAME_2026-07-21.md`* *(Wave-1 chunk 3/4/5 refreshes completed May 1 — stale "pending" notes removed 7/17. Standup sections — matrix/exit-rules/expected-signals/BOTTOM LINE — added 2026-07-25 at promotion, DAEDALUS WP-W2.)*
