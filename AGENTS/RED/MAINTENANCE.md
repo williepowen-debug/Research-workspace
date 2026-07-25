@@ -38,6 +38,31 @@ Reverse-chronological log of **structural** changes to RED's docs, folders, sche
 
 ---
 
+## 2026-07-24 (S25, late) — ⚠️ CROSS-DIR: `AGENTS/PROME/` migrated and removed on Will's explicit instruction
+
+**Logged here even though it is outside RED's tree**, because a future RED reading `git log` will find RED commits touching `PROME/`, `AGENTS/WALTER/` and `AGENTS/DEWEY/` and needs to know why that was authorized.
+
+**Trigger:** RED's S25 hygiene flag (PROME had two live inbox paths receiving traffic from different agents the same day) → Will ruled in-session: *"PROME uses PROME/inbox — kill the AGENTS/PROME one"*, then *"tell PROME to fix BOOT.md step 6."*
+
+**Authority:** Will, explicit, per-instance. **This is not a precedent** — root CLAUDE.md's "never write outside your own dir" stands; the carve-out here was a direct operator instruction, and the self-authored-packet carve-out covered the notices.
+
+**What was actually there — the reason this wasn't a one-line delete:** **55 files**, including **5 live unprocessed packets** (2× DEWEY 7/24, 1× WALTER 7/24, 1× RED, + WALTER signal `SIG-W-20260724-006` written 2026-07-24T23:55Z, still `written_not_delivered_pending` in WALTER's own delivery log).
+
+| Content | Destination | Commit |
+|---|---|---|
+| 5 live unprocessed | `PROME/inbox/` (flat, top level — unmissable at boot) | `46d79cd8` |
+| 16 `inbox/processed` + 33 `WALTER/processed` | `PROME/archive/AGENTS_PROME_LEGACY_2026-06-24/reaccumulated_2026-06-25_to_07-24/` + README | `46d79cd8` |
+| `.claude/settings.local.json` — **gitignored**, so git history would NOT have preserved it | copied to that archive as `PRESERVED_settings.local.json.txt`, then `gio trash` (no `trash`/`trash-put` binary on this box — root rule 11 honoured via the available tool) | `46d79cd8` |
+| Notices to WALTER / DEWEY / PROME | their `inbox/` dirs, per the self-authored-packet carve-out | `46d79cd8`, `8a84190a` |
+
+**★ The finding worth keeping, not the deletion:** `AGENTS/PROME/` **had already been archived on 2026-06-24 — and regrew to 55 files in one month**, because ~30 rows of WALTER's `routed/delivery_log.tsv`, DEWEY's routing, and **PROME's own `BOOT.md` step 6** all still pointed at it. *Deleting a dead shared path does nothing; the writers are the root cause.* RED flagged all three owners and edited none of their files. **Promoted to auto-memory** (`finding_dead_path_regrows_unless_senders_repointed`).
+
+**Also flagged, not fixed (owners' calls):** `PROME/CLOSEOUT.md:24` carries the same stale claim as BOOT step 6; `PROME/GIT_COORDINATION.md` lines 34/131/142 read *more* correctly post-deletion and must **not** be swept by a find-and-replace; the preserved settings file granted a bare `Bash(git *)` that PROME's live settings lacks.
+
+**Boot-impact on RED:** none. Watch item added to SCRATCH OPEN THREADS: **if `AGENTS/PROME/` reappears, that is the sender-routing regression, not a delivery surface.**
+
+---
+
 ## 2026-07-24 — NEXUS_BRIEF refresh hardened into W8 (was un-listed in the write-back sequence; sat one session stale)
 
 **Trigger:** Will asked at S24 close whether RED's `NEXUS_BRIEF.md` had been updated today — it hadn't (stamped 7/17/S23), despite its own footer promising per-closeout freshness. Root cause: the brief was stood up 7/6 (PROME/NEXUS ask, `inbox/processed/2026-07-06_from-PROME_via-NEXUS_write-nexus-brief.md`) but was never added to the SPAWN PROTOCOL's W1-W10 write-back list, so the S24 closeout — which ran every listed W-step — skipped it cleanly. A checklist can only protect what's on it.

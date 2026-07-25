@@ -26,7 +26,7 @@
 
 1. **The bank-credit transmission the bear needs went the WRONG way at Q2.** Seven credit surfaces printed benign in one day (ZION/ALLY/CCBG/VLY/BKU + WAL leading ticks REVERTED: SpecMention −22%, criticized −$32M). REG-26 disconfirmed — the $99M life-sci loan migrated with **$0 charged off** and the borrower brought it current. CHG-027(c) fired on the letter: 3+ regionals backed off.
 2. **Labor is inert at record strength.** Claims 187K = lowest single print since Sep-1969 (NSA −11% YoY, genuine). Staffing canaries bottoming→recovering (RHI Q3 up-guide, MAN +8%).
-3. **Oil at $100 with zero capacity destroyed.** Fires-not-sinkings; CPC is a duration halt with SPMs intact; premium unwinds fast on a de-escalation vehicle that exists (Muscat/Oman Article-5). Today's −4.5% to $96 is the reversibility case making its own argument.
+3. **Oil at $100 with zero capacity destroyed.** Fires-not-sinkings; CPC is a duration halt with SPMs intact; premium unwinds fast on a de-escalation vehicle that exists (Muscat/Oman Article-5). Today's pullback is the reversibility case making its own argument — **though it halved into the close (98.38, −2.29%), which weakens the bull's own best datum of the day.**
 4. **HY refuses to reprice** — 277 through a $24 oil spike. Two years of "transmission next quarter" and the index still won't confirm.
 5. **The tape absorbed everything**: VIX 17.65 (−5.6% today), SPY green, banks green post-print, OZK's 14.7%-float short didn't even get squeezed on a beat.
 
@@ -40,11 +40,11 @@
 |---|---|---|---|:--:|:--:|
 | **HY OAS 277** (FRED 7/23) | recent 268/269/277; FT-01 still firing | un-repriced through $100 oil = no transmission | +9 on the week; WL-03 >280 re-cross 3bps away | **55/45 bull** | drifting bear-ward |
 | **CCC OAS 991** (FRED 7/23) | tier beta; DISH 7/31 will mechanically tighten it | **WL-05 firing; 9bps from the 1000 analog line**; CCC 87.8 pctile vs BB 5.7 | **45/55 bear** | upgraded |
-| **Brent 96.11 (−4.5%)** / first $100.19 settle 7/23 | pullback = reversibility argument live | 5 straight >$85 settles; two supply legs firing; insurance sticky both theaters | **35/65 bear** | War +5 input |
+| **Brent 98.38 (−2.29%)** [18:00 ET] / first $100.19 settle 7/23 | pullback = reversibility argument live | **the pullback HALVED into the close (S24 logged 96.11 midday) — the reversibility datum is weaker than the midday mark**; 5 straight >$85 settles; two supply legs firing; insurance sticky both theaters | **35/65 bear** | War +5 input |
 | **WAL 82.94 / OZK 50.27 / KRE 75.94** | cohort benign ×7 surfaces; WAL leading ticks fell | OZK adverse-selection TRUE under a beat; NCO 0.69% 2nd-qtr breach | **cohort 70/30 bull · OZK bear** | split hardened |
 | **Claims 187K** (w/e 7/18) | lowest since 1969 — labor transmission dead | shadow-series caveats; stagflation needs prices not layoffs | **75/25 bull** | strongest bull datum |
 | **10Y 4.66 / DFII10 2.37-2.39 series high** | contained <5.0 (30Y ~5.05) | policy-path/real-rate leg CONFIRMED (relabel upheld); survived soft June CPI | **40/60 bear** | RED flag vindicated |
-| **VIX 17.65 / SKEW ~146 / MOVE 72.66** | equity vol absorbed everything; SKEW fading toward the 140 kill | MOVE re-opened VIO-116 — rates-vol confirms positioning stress | **VIX 60/40 bull · MOVE 45/55 bear** | Acute mixed |
+| **VIX 18.58** [18:00 ET] **/ SKEW ~146 / MOVE 72.66** | equity vol absorbed everything; SKEW fading toward the 140 kill | MOVE re-opened VIO-116 — rates-vol confirms positioning stress | **VIX 60/40 bull · MOVE 45/55 bear** | Acute mixed |
 | **USDJPY 163.71** | orderly 40-yr low, SAM ARMED-not-FIRED; MOF quiet | WL-07 firing; disorderly break = the un-modeled tail | **55/45 bull** | watch |
 
 **Balance:** the bank/labor pile got MORE bull; the oil/rates/tail pile got MORE bear. The bifurcation is no longer paper-vs-structural only — it's now leg-vs-leg inside the bear thesis itself.
