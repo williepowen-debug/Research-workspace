@@ -1,6 +1,8 @@
 # VIOLET — NEXUS Brief
 
-**As of:** 2026-07-25 ~15:25 ET (Saturday boot — interim tree grade, gamma gate met) | **STATUS commit:** see STATUS.md footer.
+**As of:** 2026-07-25 ~16:40 ET (Saturday boot + closeout — interim tree grade, gamma gate met, **Will approved BUILD**) | **STATUS commit:** see STATUS.md footer.
+
+> **⚡ 7/25 CLOSEOUT ADDENDUM:** Will ruled on the surfaced decision — **"ok build."** Construction request delivered to **TERRY** (cc PROME): defined-risk pre-FOMC VIX call spread, entry window **Mon 7/27–Tue 7/28 with VIX<20 ONLY** (expires at the 7/29 decision), long ~20-22/short 26-30 off the KB-VIO-099 ladder, 8/19-expiry lean for liquidity, event-boxed with mandatory 7/30 review + monetize-into-strength (≥23 touch / inversion = peak-marker). **Two-stage: TERRY card + live Monday quotes → Will final [Approve] before execution.** Framework pointer: `TRADE.md` § Pre-FOMC Defined-Risk VIX Call Spread. Packet: `AGENTS/TERRY/inbox/2026-07-25_from-VIOLET_CONSTRUCTION-REQ-...`.
 
 > **⚡ 7/25 (INTERIM GRADE KB-VIO-125 — data through 7/24 close):** Settle-path correction first: the true closes ran 18.65 [7/20] → 17.05 [7/21] → **16.64 [7/22, local LOW]** → **18.70 [7/23]** — a spike day whose high **20.31 broke the VIX>20 crack leg INTRADAY and was REJECTED into the close** (vol sold into the spike; HENRY reconcile) — → **18.58 [7/24]**. **The shared surface faded into the weekend while the INDEPENDENT channels made new highs:** **CCC 9.91 / disp 8.25 [7/23] = FRESH episode highs** (confirm-1 substantially met — answers the freshness question), **MOVE 80.08 [7/24, web-verified] = new re-escalation high** (confirm-3 MET; 68.48→70.88→72.66→74.67→80.08), **OVX 3.66/p98.1 FIRE deepened**; **COT 7/21 report PARTIALLY UNWOUND** (lev-money net +10,189→+3,098, pct3y 99.4→92.9 — confirm-2 FAILED; the one independent softener); JPY CALM but IV/RV widened to 3.04× into BOJ. **HENRY delivered the gate answer: dealers SHORT-GAMMA into FOMC, corroborated 5-of-6 trackers** (flip ~7,496 PINNED two weeks — spot fell away from it; net GEX ~−$45B/1%; SPX 7,408 = −88pts below; put wall 7,300-7,400 just BELOW spot, NOT breached; one dated dissent: SpotGamma morning note, pre-selloff). **Net: crack-candidate ALIVE into FOMC 7/29 (2 td), unconfirmed (no inversion — 1.104; no >20 SETTLE; COT softened). The registered gate on a non-duplicative pre-FOMC vol expression is MET → surfaced as a LIVE operator decision** (counterweight: cheap_tail DORMANT 2/4 = mid-range tail prices, not the floor). KB-VIO-125/126/127 filed.
 
@@ -49,7 +51,7 @@
 
 | From | Input | Expected | Why it matters |
 |------|-------|----------|----------------|
-| Will | Decision on the surfaced pre-FOMC expression question | before Wed 7/29 | The window is event-boxed; after FOMC the registered entry logic (pre-confirm, VIX<20) expires. |
+| **TERRY** | Trade card + live quotes for the Will-approved pre-FOMC spread (construction request in TERRY's inbox 7/25) | **Mon 7/27 — time-critical** (window dies at the 7/29 decision) | ~~Will decision~~ **RESOLVED 7/25: "ok build."** Final Will [Approve] rides on TERRY's live-quote card. If TERRY isn't spawned by Mon midday, PROME relay requested (cc packet). |
 | CFTC (self-pull) | COT report-date 7/28 | Fri 7/31 3:30 | Did the lev-money unwind continue through FOMC? Third read of the positioning channel. |
 | VULCAN | VULCAN-09 verdict (≥2 of MSFT/META/AMZN fall on raises?) | 7/29-30 | Confirms returns-case repricing as the live Path-B driver; feeds the vol read on the earnings cluster. |
 
