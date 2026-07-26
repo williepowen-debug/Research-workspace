@@ -64,16 +64,16 @@ STUE is a subordinate agent. Primary function is to:
 
 ## Key Thresholds
 
-| Metric | Current (build-vintage snapshot) | Yellow | Orange | Red | Source |
-|--------|---------|--------|--------|-----|--------|
-| 90+ DQ Rate | 9.6% | >6% | >8% | >10% | NY Fed |
-| 30+ DQ Rate | 16.3% | >12% | >15% | >18% | NY Fed |
-| Borrowers in Default | 7.7M | >5M | >8M | >10M | FSA |
-| Active Repayment DQ (by $) | 18.6% | >10% | >15% | >20% | FSA |
-| SAVE Non-Selection Rate | TBD | >20% | >35% | >50% | ED/FSA |
-| Servicer Bill Failure Rate | 2.5M/800K DQ | >500K | >1M | >2M | DOE/MOHELA |
+| Metric | Last-known value | **As of** | Yellow | Orange | Red | Source |
+|--------|---------|---------|--------|--------|-----|--------|
+| 90+ DQ Rate | **10.3%** 🔴 RED breached | **Q1 2026** (rel 5/12) | >6% | >8% | >10% | NY Fed |
+| 30+ DQ Rate | 16.3% | Q4 2025 *(not restated in Q1 release)* | >12% | >15% | >18% | NY Fed |
+| Borrowers in Default | **~9.0M / $220B** 🔴 ORANGE | **Mar 31 2026** (FSA GENERAL-26-38) | >5M | >8M | >10M | FSA |
+| Active Repayment DQ (by $) | 18.6% **[STALE]** | Dec 2025 | >10% | >15% | >20% | FSA |
+| SAVE Non-Selection Rate | TBD — first read ~Oct 1 2026 (first tranche only) | — | >20% | >35% | >50% | ED/FSA |
+| Servicer Bill Failure Rate | 2.5M missed / 800K DQ | 2025 cumulative | >500K | >1M | >2M | DOE/MOHELA |
 
-> Live values live in STATUS.md's dashboard — this table defines thresholds/bands; the snapshot column is NOT current (as-of ~build date, see file history).
+> **Bands are canonical here; values are a convenience mirror — `STATUS.md` is the live dashboard.** Each value now carries its own as-of date (added 2026-07-25): a single blanket "build-vintage" caveat hid that some rows were 12 months staler than others, and that the 90+ rate had already breached its own RED band.
 
 ## Key Data Sources
 
