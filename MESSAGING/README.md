@@ -1,6 +1,6 @@
 # Direct Agent Messaging v1 — Design Package
 
-**Status:** DEFAULTS RATIFIED FOR IMPLEMENTATION — NOT YET LIVE  
+**Status:** LIVE — FIRST COHORT (activated 2026-07-14, Will-approved): PROME → BRENT and PROME → SAM only; all other routes fail closed (`config.yaml` `write_mode: cohort`). Fleet-wide expansion remains gated on clean first-cohort exception reporting. *(Header reconciled 2026-07-25 — the pre-activation wording had outlived the activation; flagged by the external system report §3.2, see `AUDITS/2026-07-25_system_report_CONSUMPTION.md`.)*  
 **Prepared:** 2026-07-13  
 **Scope:** Direct agent-to-agent inbox traffic. WALTER's external-signal lane remains native.
 
@@ -15,9 +15,9 @@ This package translates the one-week compatibility baseline into a concrete dire
 - `IMPLEMENTATION_STATUS.md` — completed code, locked safety boundary, and remaining activation gates.
 - `RATIFICATION.md` — Will's approved defaults and the remaining activation gate.
 - `schemas/` — machine-readable v1 front-matter contracts.
-- `tools/validate.py` — read-only validator; sending remains inactive.
-- `tools/msg.py` — preview and temporary-repository authoring/receipt engine; live writes are feature-locked.
-- `config.yaml` — committed activation gate (`write_mode: disabled`).
+- `tools/validate.py` — read-only validator.
+- `tools/msg.py` — authoring/receipt engine; live writes allowlisted to the first cohort only (all other sender/recipient pairs fail closed).
+- `config.yaml` — committed activation gate (`write_mode: cohort` — PROME → BRENT/SAM only since 2026-07-14).
 - `tests/` — validator and compatibility fixtures.
 
 ## Supersession note
@@ -30,4 +30,4 @@ This package translates the one-week compatibility baseline into a concrete dire
 
 ## Ratification boundary
 
-Will ratified the recommended defaults in `DIRECT_MESSAGING_V1_SPEC.md` §16 on 2026-07-13. See `RATIFICATION.md`. Live activation still requires root-rule reconciliation and a passing implementation acceptance review.
+Will ratified the recommended defaults in `DIRECT_MESSAGING_V1_SPEC.md` §16 on 2026-07-13 (see `RATIFICATION.md`). **First-cohort activation followed 2026-07-14** (Will-approved; root `CLAUDE.md` §Data Hygiene carries the fleet-facing canon). Both live routes completed full accept → integrate → receipt cycles on the 7/14 activation messages (BRENT and SAM). Expansion beyond the first cohort remains gated: clean exception reporting on the cohort, then Will approval per route.
