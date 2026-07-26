@@ -67,5 +67,5 @@
 
 ## PENDING PUSH / GIT
 
-- Commits this session: `fdac0ecc` (FALCON ping) · `a552c04b` (STATUS + ledgers + HAW-18) · `538b8327` (BRENT + PROME packets) · closeout commit + MIDAS packet. Auto-push via `scripts/safe-push.sh` at closeout.
+- **6 commits, all on origin, tree clean at close.** `fdac0ecc` FALCON FAL-01/Mangaf ping · `a552c04b` STATUS + ledgers + HAW-18 · `538b8327` BRENT + PROME packets · `7b103dc2` closeout (mail backlog, CROSS_WAR_SUMMARY, HAW-18 correction, 2 LESSONS) + MIDAS packet · `23f38302` Will's rulings applied + war-risk surface + 3 packets · final pointer-consistency commit. Auto-pushed via `scripts/safe-push.sh` (ff-gated, no force needed).
 - **Not mine, flagged not touched:** 5 untracked `AGENTS/DEWEY/scratch_*.js` files in the tree.
