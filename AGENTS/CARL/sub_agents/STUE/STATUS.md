@@ -159,7 +159,7 @@ What this session changes is **not the mechanism but the enforcement and attribu
 
 | Item | Ask | Status |
 |---|---|---|
-| **CRL-14 re-mark 65% → 10%** *(Will-directed 7/25)* | Three-leg failure: **timing** (default = 270-day event, DRG transfer 360d ⇒ a Jul-1-transition-caused default cannot exist before ~**Jul 2027**, 3 quarters past the row's Q3-Q4 2026 window) · **instrument** (no published series attributes defaults to a servicer; the litigation that would have is **stayed**) · **evidence** (no wave-1 complaint spike). **Mechanism INTACT** — threshold unmeasurable and out of window. | 📤 packet sent |
+| **CRL-14: 65% → 55% + Status OPEN → STUCK** *(Will-approved 7/25; supersedes a withdrawn 10% proposal)* | Confidence cut is **only the ~10pt genuine update** (wave-1 no-spike + the ~1.3M/qtr cure channel). The **window** defect (default = 270-day event, DRG transfer 360d ⇒ a Jul-1-transition-caused default cannot exist before ~**Jul 2027**, 3 quarters past the row's window) and the **instrument** defect (no published series attributes defaults to a servicer; the litigation that would have is **stayed**) are booked as **STUCK, not as confidence**. **Mechanism INTACT.** | 📤 packet sent (corrected) |
 | CRL-14 — retract "May 28 conf" clause | No May 28 entry exists on the docket; also fix CARL STATUS L24 "absence of news is non-information" | 📤 sent |
 | Cascade attribution narrowing | Must land **before 8/15** or CRL-05's grade is contaminated | 📤 sent |
 | CRL-13 timing | Notices complete **Dec 31 2026** (not Mar 2027); Oct-1 first-tranche framing unchanged | 📤 sent |
