@@ -2,6 +2,24 @@
 
 ## Session Notes
 
+## ⛔ RAISE WITH WILL AT BOOT — 3 items, all Will-gated, all blocking real work
+
+**Say these out loud at the top of the session. Do not bury them in a status recap.**
+
+**1. ★ THE FFIEC CDR REGISTRATION — Will asked to be reminded of this specifically (7/25).**
+- **The ask:** register a free **FFIEC CDR Public Data Distribution account** at `https://cdr.ffiec.gov/public/` (there is a "Public Login" / registration path). The web service needs a **username + security token** for WS-Security.
+- **Verified 7/25:** an unauthenticated SOAP call to `cdr.ffiec.gov/Public/PWS/WebServices/RetrievalService.asmx` returns `Server.WSSecurityRequired — "requires WS-Security authentication with exactly one UsernameToken."` **I have NOT walked the signup flow** — I can't create an account — so treat the exact registration steps as unconfirmed; the auth requirement itself is confirmed.
+- **Why it matters:** it is the ONLY thing blocking **MI3**, the V1a primary falsifier that **has never run in 4+ months**. Bear-fast carries **10% weight on zero confirmations AND zero disconfirmations**. Resolving it moves weight in *either* direction.
+- **Why now:** **Q1-2026 MI3 is available today** (FDIC confirms Call Report data through 3/31/26). Q2 lands after the ~7/30 filing deadline. And the **bear-fast time-box trips ~Sep 1** — registering pre-empts a forced disposition call made on no data.
+- **Cost:** ~5 minutes, one time, free. Highest leverage per unit of effort anywhere on this board.
+- Once the account exists, WAL can pull it unattended thereafter. *(Related: WAL Bank = FDIC CERT **57512**, RSSD **3138146**. MI3 = Schedule RC-C Memo item 3, **RCON2746** — FDIC's free API does NOT carry memo items, which is why CDR is required.)*
+
+**2. The two prediction-spec defects** — WAL-02's unreachable invalidation clause (detail below) and WAL-01's possible bucket mismatch (KB-WAL-141). Both are graded rows; both should be fixed in one pass **before** anything grades against them.
+
+**3. The proposed v2.3.1 re-mark trigger** sitting UNRATIFIED in STATUS expected-signals — ratify or reject.
+
+---
+
 **⚠️ Open question:** **WAL-02's invalidation clause is unreachable and needs Will's call.** The row reads *"exceeds 40bps in at least one of Q2 or Q3"* with invalidation *"stays at or below 35bps in BOTH Q2 and Q3."* Q2 printed **37bps** — above 35, below 40 — so the invalidation path can no longer be satisfied and a Q3 print in the 35-40 band leaves the row with no defined outcome. The 50% mark itself is sound (Stage-2 set it 7/22 *after* the 37bps print, so it is already a Q3-only mark); the stale text is the **Invalidation column only**. Proposed fix, NOT applied — it is a graded row: rewrite invalidation to *"Q3 2026 ex-fraud NCO ≤40bps"* + note Q2 resolved 37bps NEUTRAL. Confidence unchanged.
 
 **LAST SESSION (2026-07-25 — WAL session #1, first solo session ever; mandates #2 and #1 executed):**

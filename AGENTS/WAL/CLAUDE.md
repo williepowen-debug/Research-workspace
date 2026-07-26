@@ -43,6 +43,7 @@ You inherit the spawner's cwd and this CLAUDE.md does NOT auto-load. So:
 1. **Read `STATUS.md`** — price, thesis state, convergence matrix, exit rules, catalysts, expected signals.
 2. **Read `THESIS.md` header + calibration tables** and the top `CHANGELOG.md` entry — current version and what last moved.
 3. **Read `MEMORY.md`** — ends on session handoff: NEXT SESSION mandates (the first-boot list lives here).
+   - **⛔ WILL-GATED BLOCKERS ARE A SPEAKING OBLIGATION, not a reading one.** Both `STATUS.md` and `MEMORY.md` open with a `⛔ RAISE WITH WILL AT BOOT` block. **Surface every item in it in your FIRST reply of the session, before any status recap and before starting the task** — with the ask, why it's blocking, and what it costs Will. A blocker that only Will can clear is worth nothing sitting in a file he isn't reading; the whole point is that it reaches him. Carry items forward verbatim until he answers or explicitly drops them, and **strike an item the moment it's resolved** so the block never rots into background noise. *(Instituted 7/25 at Will's request — he asked to be reminded about the FFIEC CDR registration at next boot.)*
 4. **Staleness check** (cwd-proof, read-only):
    ```
    (cd "$(git rev-parse --show-toplevel)" && .venv/bin/python3 scripts/ledger_staleness.py WAL --quiet)
