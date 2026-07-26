@@ -85,10 +85,12 @@ What this session changes is **not the mechanism but the enforcement and attribu
 | MOHELA call wait | **Longest of major federal servicers — ~13 min avg, ~14% abandon rate** [FSA servicer data, cited in 2026 filings] | 🔴 |
 | **CFPB complaints — MOHELA (primary API pull)** | **H1'25 6,376 → H2'25 4,020 → H1'26 4,935.** 2026 monthly: Jan 917 · Feb 682 · Mar 909 · Apr 915 · May 703 · Jun 809 | 🟠 re-accelerating vs H2'25, below H1'25 peak |
 | **Wave-1 complaint tell (Jul 1–19)** | **539 ≈ 28.4/day vs June 27.0/day — NO SPIKE.** ⚠️ ~5–6d publication lag; partial read | 🟢/🟡 early |
-| **AFT v. MOHELA** | **D.D.C. 1:24-cv-02460 (Chutkan) — STAYED. Discovery frozen since 10/27/2025.** Last filing: status report **Jul 17 2026 (#54)** | 🔴 **GATED** |
-| — Gating question | SCOTUS *Galette / Colt* — **decided Mar 4 2026, unanimous: NJ Transit NOT an arm of the state** (structure + fiscal independence dominate) | 🟠 **adverse to MOHELA's "creature of Missouri" defense** |
-| — Post-decision posture | **Mar 20 2026 Order Staying Case** (basis PACER-gated, text not public); status-report cadence Mar 16 → May 18 → Jul 17 | 🟠 holding pattern |
-| — Class certification | **NOT FILED** — no class-cert motion or ruling on the docket | 🟠 |
+| **AFT v. MOHELA** | **D.D.C. 1:24-cv-02460 (Chutkan) — STAYED, and now in SETTLEMENT NEGOTIATION.** Discovery frozen since 10/27/2025. Last filing **Jul 17 2026 (#54)** | 🔴 **SETTLEMENT-GATED** |
+| — Stay #1 (procedural) | 10/27/2025 minute order: response deadline + discovery stayed pending SCOTUS *Colt/Galette* — **decided Mar 4 2026, unanimous: NJ Transit NOT an arm of the state** | 🟠 **adverse to MOHELA's "creature of Missouri" defense** |
+| — **Stay #2 (settlement) — the operative one** | **Mar 20 2026 minute order stayed proceedings "to allow the parties time to explore a negotiated resolution"; parties "engaged in good-faith discussions"; stay extended 60d by JOINT request** [Doc **52**, Joint Status Report 5/18/26 — **free in RECAP**, pulled 7/25] | 🔴 **NEW** |
+| — Next step | **Doc 54 filed 7/17/26** = the joint report proposing a schedule. **PACER-only (~$0.30, ~3pp)** — says either *another extension* (talks live) or *merits schedule* (talks failed). **Only remaining unknown on this docket.** | 🟠 **buy** |
+| — Class certification | **NEVER FILED** — no class-cert motion or ruling has ever appeared on the docket | 🟠 |
+| — ⚠️ Implication for attribution | A settlement typically means **no admission of liability, no public discovery record, no class cert** ⇒ the likeliest path **forecloses** the servicer-attributed default evidence CRL-14's instrument needs. Measurability gets *worse*, not better. | 🔴 |
 | Maldonado v. MOHELA | Mar 2026 — violated CA Student Borrower BoR + UCL | 🔴🔴 precedent stands |
 | Settlement | NONE | — |
 
@@ -171,7 +173,8 @@ What this session changes is **not the mechanism but the enforcement and attribu
 
 ## OPEN QUESTIONS
 
-1. **What is the basis of the Mar 20 2026 Order Staying Case?** *Galette* (Mar 4) resolved the stated gating question, yet a further stay issued 16 days later and the case has sat on a status-report cadence since. Order text is **PACER-gated** (not on CourtListener). *Resolution: $0.30 PACER purchase, or SBPC/AFT press.*
+1. ✅ **RESOLVED 2026-07-25 (same session) — and it was free.** *Basis of the Mar 20 2026 stay:* **settlement negotiation.** Doc 52 (Joint Status Report 5/18/26, free in RECAP): the Court stayed proceedings *"to allow the parties time to explore a negotiated resolution"*; parties *"engaged in good-faith discussions"*; stay extended 60d by joint request. **I had wrongly called this PACER-gated** — I declared the path closed without checking RECAP's free-document list, the same error as the 46-day docket-number miss ([[finding_audit_resolution_path_before_reattempt]]). **Successor question → #8.**
+1b. **#8 (NEW): does MOHELA settle?** **Doc 54 (filed 7/17/26) is the discriminator** — the 60-day clock from Doc 52 expired on it, so it is either another extension (talks live) or a merits schedule (talks failed). **PACER-only, ~$0.30, ~3pp.** Everything else on this docket is now recovered free. *Bears on CRL-14: a settlement forecloses the public attribution evidence the row depends on.*
 2. **Does the 10.3% 90+ DQ 2nd print sustain?** → NY Fed Q2, **8/15**.
 3. **Is the ~1.3M/quarter cure channel durable or a one-off?** Newly quantified this session; if borrowers are exiting default nearly as fast as entering, the 13M EOY projection is too high. → FSA Q2 (~Sep).
 4. **Reconcile 9.0M/$220B (FSA Mar 31 primary) vs 9.5M/$233.3B (press, Jul 21).** → FSA Q2.
