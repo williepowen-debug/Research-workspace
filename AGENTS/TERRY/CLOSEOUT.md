@@ -67,7 +67,9 @@ Git is **pathspec-scoped** (shared `.git/index` — see root CLAUDE.md):
 - **Never `git reset HEAD`** (global unstage race).
 - **Push: TERRY self-sweeps at closeout** (named live auto-push exception in root canon). Run `scripts/safe-push.sh` from the repo root — ff-gated, fails safe, never force-pushes. One push sweeps everyone's committed work (the push-train).
 - **✅ Push-success check (mandatory):** after safe-push, confirm `git rev-list --left-right --count origin/master...HEAD` = `0 0`. **If it's not 0/0, the push did NOT land — you're in the non-ff branch below. Do not report "pushed" until you've seen 0/0.**
-- Trailer: `Co-Authored-By: Claude Opus 4.8 <noreply@anthropic.com>`.
+- Trailer: use the model the harness names in-session (currently `Co-Authored-By: Claude Opus 5 (1M context) <noreply@anthropic.com>`). *(Corrected 2026-07-26 — this line was pinned to Opus 4.8 and had gone stale; behaviour-language over version-pinning per `feedback_behavior_language_over_hash_pinning`.)*
+- **⚠️ Single-quote the `-m` message.** Backticked identifiers inside a double-quoted commit message are **command-substituted and silently deleted** — the commit still succeeds. Watch for `command not found` above the success line. **Never repair it by amending a pushed commit** (force-push is forbidden). See `finding_backtick_command_substitution_in_commit_message`.
+- **⚠️ A rename needs BOTH paths in the pathspec.** `git mv a → b` then committing only `b` lands the add and leaves the delete staged — the file then exists at **both** paths in HEAD. See `finding_pathspec_rename_needs_both_paths`.
 
 ### If safe-push aborts non-ff — pick the branch by the state of the tree (validated 2026-07-17)
 The old "just `git pull --rebase`" advice **fails when other agents have uncommitted work**, because rebase refuses on a dirty index/tree and a pull can clobber their changes. Branch first:

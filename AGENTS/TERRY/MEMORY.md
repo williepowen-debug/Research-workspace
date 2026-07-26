@@ -60,6 +60,24 @@ Detection (HY-280 break, print alerts) is LIQUID/SENTRY; TERRY owns everything A
 
 **+ Late (~14:15 ET) — USO tail-rider construction (BRENT's card):** consumed 2 new inbox items (PROME coord + BRENT/PROME tail-rider shape-ask); confirmed BRENT's **150/165 USO Sep-18 call debit spread** on the live chain (pullback = cheaper not broken; debit-spread caps OVX-66 vega; red-day clean). Broker mid $2.98 → max loss ~$300/BE ~$153/~4:1. Flagged buying-power constraint ($241.72 = wrong/small account?). **Will PLACED $150/165 @ $2.41 day-limit (PENDING — below mid, may sit); will raise toward mid after selling QQQ 690C (0DTE ITM, dual-purpose). ⏳ OWED: report fill/no-fill → BRENT+PROME.**
 
+---
+
+## Current Session — 2026-07-26 (Sun), Heavy closeout
+
+**Delivered (no capital moved, nothing armed, no numbered rule touched):**
+1. **`TRY-VIOLET-VIXCS` built** — VIX 8/5 20C/25C, ~$405, 3 spreads (~$360, **below** the $500 cap). Two departures from VIOLET's request, both written back: **8/5 over her 8/19 liquidity lean** (institutional-scale OI argument doesn't bind a 3–5 lot; near-dated VX forward has the spike-beta — left mechanical at a $0.25 threshold) and **🚫 rejected the 7/29 expiry** (VIX settles on the **SOQ at the 7/29 open**, ~4.5h *before* the 14:00 FOMC statement). **Key disclosure: the ~4:1 the width advertises is unreachable under the card's own 7/30 exit rule — realistic modal payoff +50–120%.**
+2. **`TRY-BRENT-DIESEL` scope delivered** (3 ranked, #1 VLO Jan-15-2027 360/380 ~$405) — **"not at Monday's price."** Thesis confirmed live (diesel crack **$82.70** > BRENT's ~$80; the 3-2-1's shortfall is **all gasoline**) but their exhaustion flag **accelerated** — VLO+MPC at 1-yr highs, IV 46–48%, refiners +30–51%/3mo *while crude fell 6.8%*. Menu closed: **UHN delisted**, HO options ~$172k notional, CRAK/DINO/PBF fail. Tenor moved to **Jan** because the thesis is a *winter* squeeze and **Dec-18 expires before the seasonal peak**.
+3. **★ EFFECTIVE-N adopted + wired to 5 surfaces**; **SC-05 "empirical Kelly" rejected at the rail** (looser than our 0.25× cap). New `research/` lane created (SC-01…07).
+4. **Paper-book scoring bug found + fixed** — PB-0001/PB-0002 are the same trade; gate is now **N≥10 closed AND ≥5 distinct antecedents per lane**.
+5. **Inbox 8 + 3 WALTER → ZERO.** HOMER (bond quotes: price leg walled, but the listed peer set is at 2–8% of range = the reachable signal), CARL (split ratified, keep the gate, fix the pred_id concentration), DEWEY, DAEDALUS (WAL owner repoint), BRENT, VIOLET ×2, PROME ×2.
+6. **Delivery defect caught at filing** — DEWEY arrived twice; WALTER's backstop dropped `(KB-VIO-110 superseded)`, which **upgraded counter-case #8 on the live VIX card** → sizing leans low. Routed to DEWEY + VIOLET.
+
+**Two self-inflicted git errors, both caught by the mandatory pre-commit check, both logged to auto-memory:** a pathspec rename that committed only the add-half (files existed at both paths in HEAD), and backticks in a `-m` message that got command-substituted (message text only; **not** amended — force-push is forbidden).
+
+**Status:** all work committed + pushed, origin verified. 004 rides untouched.
+
+---
+
 **Next entry:** **(a) ✅ USO tail-rider fill outcome — CLOSED 7/26** (PROME packet 7/25: FILLED 7/24 at ~$300, Will-verbal, exact debit TBC at next broker export; PROME already recorded HEARTBEAT #1 / FORGE / DOCKET / BRENT — no duplicate writes owed). **(b)** 004 monitor into FOMC 7/28-29 (harvest ≥3×→half; disarm DGS10 close<4.50; gap cluster month-end→FOMC→**8/12** CPI [date-corrected; base-effect-PROTECTED, a soft print is NOT the mechanism failing] → **9/11** Aug CPI = the real passthrough test, inside 004's life). **(c)** Consumer/monoline + WAL roll-vs-salvage → Q3 prints. **(d)** BRENT diesel-length scope still OWED (2-3 ranked defined-risk structures — deferred from 7/21, weekday build; **the 7/25 Jazan refinery strike makes this the *correctly-signed* Jazan expression — refinery outage is crude-bearish/product-bullish, so cracks/diesel is the clean read, not flat-price crude**). Standing Will Qs still open: risk unit ($/%/R), track-all-vs-approved.
 
 ---
