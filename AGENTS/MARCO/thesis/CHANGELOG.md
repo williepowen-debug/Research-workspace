@@ -4,6 +4,41 @@ Version-transition log. Newest first. Each entry: old view → new view, trigger
 
 ---
 
+## v2.7 → v2.8 (2026-07-25, session 18b) — MINOR — **SAME-SESSION SELF-CORRECTION: the v2.7 wage instrument is FALSIFIED**
+
+**Trigger:** the FL/TX/CA/AZ state-CES panel that v2.7 named as "the confirmation step" was built the same session — as the first item of a stale-vector sweep, because `VX-MARCO-2.05` (Agricultural Wage Growth) and `2.06` (Construction Wage Differential, High-Immigrant) turned out to *already exist* at 184 days stale. Refreshing them ran the test early.
+
+**Old view (v2.7, hours old):** produce CPI demoted; **wage divergence promoted to primary Channel-1 instrument** at MEDIUM-HIGH on FL leisure & hospitality +8.75% YoY vs national +3.87%, three consecutive months.
+
+**New view (v2.8): falsified as specified.** June 2026 YoY gap vs national (pp):
+
+| | Leisure & Hosp | Construction | Total Private |
+|---|---|---|---|
+| **FL** | **+4.88** | +1.02 | +0.76 |
+| **TX** | **−6.45** (−2.58% YoY, falling) | −3.22 | −0.74 |
+| **CA** | −1.94 | +3.96 | −0.80 |
+| **AZ** | −1.05 | −0.36 | −0.35 |
+
+**Two of eight state-sector cells positive.** If immigrant-supply withdrawal drove hospitality wages, **TX should show it most** — largest immigrant workforce exposure, most aggressive enforcement environment — and TX hospitality wages are **falling outright**.
+
+**The FL cell has a mundane and sufficient cause: Amendment 2.** FL is mid-ramp $13 (Sep'24) → **$14 (Sep 30 2025)** → $15 (Sep 30 2026). The June-2026 YoY window spans that step = a **7.7% statutory increase in the wage floor**, in the sector most exposed to the floor. FL printed +8.75%. **TX — $7.25, unchanged since 2009, no floor push — went negative.** The co-driver v2.7 named as "undecomposed" accounts for essentially the whole divergence.
+
+**Why MINOR despite being a reversal:** no channel added or removed, and the Channel-1 **quantity** evidence is untouched. But this is a **genuine downgrade, not a re-framing** — see below.
+
+**Conviction deltas:**
+- Channel-1 **mechanism / quantity**: HIGH → **HIGH** (unchanged — LF −700K YoY, LFPR 61.5%, H-2A ~455-465K pace all stand)
+- Channel-1 **wage instrument**: MED-HIGH → **FALSIFIED**, removed
+- Channel-1 **transmission to prices/costs**: **NO WORKING INSTRUMENT.** Produce demoted in the morning, wages falsified in the afternoon — both pre-registered, both MARCO's own, both against the thesis.
+- Net: MARCO can assert the labor shock **happened and is large**; MARCO **cannot currently demonstrate it is transmitting** to food prices, service costs, or regional cost-of-living. That is the part downstream agents consume.
+
+**Open path (a question, not a finding):** a valid test must control for statutory wage floors — immigrant-heavy vs immigrant-light sectors *within* a state, or states with no minimum-wage step. **TX is the clean laboratory and TX says no**, which is an informative null pointing *against* transmission rather than merely absent evidence.
+
+**Retractions issued same day:** 🔴 full retraction → LABOR (which had been asked to re-anchor its supply-adjusted U-3 work on the wage figure); 🔴 partial → CARL (§2 retracted, §1 produce demotion stands; the cost-push point survives on *statutory* grounds with a dated Q4 2026 impulse as the floor steps $14→$15); 🟡 minor → CORAL (one interpretive line).
+
+**Process note — the failure was sequencing, not specification.** The falsifier and the co-driver decomposition were both correctly written down *at promotion time*. They simply weren't run before promoting. Promoting an instrument on three months of a single state-sector while naming an unrun decomposition is MARCO's characteristic error (single-mechanism over-attribution) committed on the way *in* to a new instrument — which the v2.7 text explicitly warned against and then did anyway. **Rule adopted: a pre-registered falsifier that can be run today gets run BEFORE promotion, not after.**
+
+---
+
 ## v2.6 → v2.7 (2026-07-25, session 18) — MINOR — Channel-1 RE-INSTRUMENTATION (produce thermometer demoted a 2nd time; wage divergence promoted)
 
 **Trigger:** (1) **ES-MARCO-08 resolved** at the June CPI print (BLS public API, primary) — MARCO's own pre-registered labor-vs-freight discriminator. (2) A live VX refresh, prompted by Will catching an unverified universal claim ("every FL metric I own is improving"), which surfaced that the FL hospitality-wage vector was 6 months stale and pointing the **wrong way**.
