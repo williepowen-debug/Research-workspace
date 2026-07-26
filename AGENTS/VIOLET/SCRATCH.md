@@ -14,6 +14,7 @@
    1. Cheat-sheet → `url=https://claude.ai/code/artifact/c2129279-b677-4093-be68-ccdbe0df76b3` (snapshot strip only).
    2. Operating Picture → `url=https://claude.ai/code/artifact/8eb52313-be4e-49a3-8555-e5cc23b44c60` (LIVE STATE band only).
 7. **🟡 Carried:** VIX9D (still not separately pulled) · broad equity put/call · HY/BB ladder · VIX6M settle backfill for 7/23-7/24 rows (blank — yfinance ^VIX6M daily lag; fill when the history catches up).
+8. **🟡 Conditional candidate (flagged to Will 7/25, he liked the menu):** post-FOMC event-premium calendar (short front hump) becomes constructible ONLY if BOTH: FOMC resolves benign (absorption #6) AND credit un-trips Bin-A (KB-VIO-096 block lifts — CCC back <9.65 or the tree re-marks clean). Re-quote M1:M2 live then; +3.92% [7/24] has no hump worth selling today. Do NOT construct while Bin-A stands.
 
 ## WHAT I DID THIS SESSION
 
