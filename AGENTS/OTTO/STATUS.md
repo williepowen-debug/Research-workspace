@@ -88,14 +88,12 @@
 
 ## ACTIVE VECTORS
 
-### Wilmington Trust Resignation — 🟠 REFRAMED May 22 PM
-Gave 30-day notice Sep 20 2025 to resign as Tricolor ABS indenture trustee/custodian (7 trusts 2018-2025 / $1.8B+) — **narrow, Tricolor-only**. Successor-trustee role being shunned by other major trustees (Auto Finance News). The broader "shutting down entire non-mortgage ABS custodial business" framing came from Jan 14 plaintiff complaint and is **denied corporate-side** (American Banker Feb 19-20, M&T anonymous source: unit "is accepting new clients"). Active-business evidence (Wilmington #2 US ABS/MBS trustee 1H 2025; Outlook 2026 thought-leadership; no non-Tricolor substitutions) cuts against franchise exit. Cockroach #1 mechanic intact; systemic-transmission magnitude smaller than May 21 framing implied.
+### Wilmington Trust + successor-trustee vacuum — 🟠 low-activity, OTTO-31 at 12%
+Sep 20 2025 30-day notice to resign as Tricolor ABS indenture trustee/custodian (7 trusts 2018-2025 / $1.8B+) — **narrow, Tricolor-only and corporate-confirmed**. The broader "exiting all non-mortgage ABS custody" framing came from the Jan 14 plaintiff complaint and is **denied corporate-side** (American Banker Feb 19-20); MTB's Q2 (Jul 15) record results with the custody franchise actively promoted is the second disconfirmation → **OTTO-31 30→12%**. Structural residue worth keeping: **major trustees are reportedly shunning the Tricolor successor role** (Auto Finance News) — the indenture-trustee market can't clear on fraud-tainted post-default ABS. Watch for trustee-substitution filings on the 7 trusts.
 
-### Tricolor Successor-Trustee Vacuum — 🟠 NEW (carved out from Wilmington exit framing May 22 PM)
-Major trustees reportedly shunning the successor role on Tricolor ABS deals (Auto Finance News). This is a real structural signal even after the broader Wilmington-exit framing collapsed: the cost/risk of taking over fraud-tainted post-default ABS is high enough that the indenture-trustee market can't clear. Watch ABS surveillance for trustee-substitution filings on Tricolor's 7 trusts.
-
-### Tricolor Distribution Gridlock — 🔴 NEW May 21
-$113M of receivables held up in disputed-ownership escrow. Wilmington Trust + JPM + Fifth Third + bankruptcy trustee all contesting. Vervent BLOCKED from initial servicer report. Banks can't book losses cleanly; resolution on Jun 17 timeline at risk.
+### Tricolor distribution gridlock + MFS (Cockroach #4) — 🔴 stable, no movement
+**$113M receivables frozen** in disputed-ownership escrow (Wilmington Trust + JPM + Fifth Third + trustee all contesting); Vervent blocked from the initial servicer report. Mechanic: **banks can't book losses cleanly even when the substance is clear** — deferred loss realization. §341 continued to **Nov 11**; OTTO-29 resolution-slip past Sep 30 is concrete.
+**MFS (UK), CONFIRMED Feb 26:** mortgage-finance, Barclays + Atlas SP (Apollo) £2B+, shortfall £1.3B ($1.7-1.8B). **Same double-pledging mechanism as Tricolor** — the reason the Cockroach count is 4. Bloomberg: "regulatory black hole." No movement since.
 
 ### Tricolor Criminal Track — 🔴🔴 ESCALATED Jun 24 (surfaced Jul 25; previously unswept)
 **Superseding 8-count indictment vs Daniel Chu, unsealed 2026-06-24** — charges roughly doubled from the Dec-2025 original. Prosecutors invoke **18 U.S.C. §225 (CFCE, the "financial kingpin" statute)**: mandatory minimum **10 years to life**, used only a handful of times since the S&L crisis and dormant for over a decade. DOJ does not revive a dormant mandatory-minimum statute for a marginal case — **the charging decision is itself a signal about the strength of the evidence.** Chu pleaded not guilty Jun 30.
@@ -118,13 +116,26 @@ UK mortgage-finance. Barclays + Atlas SP (Apollo) = £2B+. Shortfall £1.3B ($1.
 ### Private Credit — 🔴🔴 SYSTEMIC
 9+ funds gating/restricting. BCRED, MS North Haven, BlackRock HPS, Cliffwater, Blue Owl. Fortune: "$265B meltdown." El-Erian: "2007-like." Economist: Dimon "cockroach" metaphor. Alt managers ~40% AUM from retail — retail wants out, can't get it.
 
+### Carvana — 🔴 UPGRADED Jul 25: first primary-source collateral read, and it's worse than deep subprime
+**`[CONF SEC 10-D]` Bridgecrest — Carvana/DriveTime's securitization shelf — added to the 10-D panel.** Until now the Carvana sub-thesis was allegation-only (Gotham Jan 28) with no OTTO primary evidence. It now has some.
+
+| Same vintage | pool factor | 60+ DQ | CNL | ANL | EXT |
+|---|---|---|---|---|---|
+| EART 2024-1 *(deep subprime)* | 41.80% | 10.26% | 16.70% | 15.92% | 5.71% |
+| **BLAST 2024-1 *(Carvana)*** | 37.36% | **15.57%** | **24.67%** | **17.35%** | 3.84% |
+| EART 2023-1 *(deep subprime)* | 24.80% | 11.97% | 22.05% | 18.53% | 4.94% |
+| **BLAST 2023-1 *(Carvana)*** | 33.51% | **15.20%** | **25.12%** | **19.30%** | 3.66% |
+
+**Seasoning-controlled both ways.** 2024: Carvana's CNL is **1.48×** Exeter's on a pool factor only 4.4pp lower — seasoning cannot produce an 8pp cumulative-loss gap. 2023: Carvana is **less** seasoned (factor 33.51 vs 24.80) and still loses more — the control works *against* the comparison and strengthens it.
+**And Bridgecrest shows the sharpest recent break in the whole panel:** 60+ DQ was flat through spring (13.85 → 13.85 → 13.77) then jumped to **15.57% — +1.80pp in one month**; BLAST 2023-1 the same, +1.85pp. Elsewhere in the panel single-month moves run +0.4 to +0.9pp.
+**⚠ Counter-evidence, recorded because it cuts against OTTO:** Bridgecrest **extension rates are LOWER than Exeter's** (3.3-3.9% vs 4.1-5.7%). If the allegation implies Carvana masks delinquency by extending, the primary data does **not** support it. The collateral is worse; it is not being made to *look* better. **Worse underwriting/borrower mix ≠ reporting manipulation — do not conflate.** This raises conviction on *collateral quality*, not on the related-party claim.
+
 ### Carvana — 🟠 T-4 to earnings, short-seller window OPEN (Jul 25)
 **Q2 earnings Wed Jul 29, after close, call 5:30pm ET** `[CONF Businesswire/investors.carvana.com]` — consensus ~$0.42 EPS / ~$6.88-6.97B revenue. **This date was missing from OTTO's docket entirely** (now added). Price **$60.46** (Jul 24) after a 6-session slide from **$70.66** (Jul 16) = **−14.4%**; no company-specific catalyst identified — sell-side PT trims (Jefferies $95→$90 Jul 14; RBC $92→$85) plus rate-sensitivity/risk-off. YTD ≈ −24%.
 **The live risk is timing, not direction.** OTTO's own CLAUDE.md short-seller protocol calls for a T-7 sweep; T-7 was Jul 22 and it was not run (OTTO was dark). Gotham's Jan 28 report — the related-party/DriveTime thesis that *is* OTTO's Carvana sub-thesis — landed **on earnings day**, and the Feb 18 CVNA lesson is explicitly that short-report timing was not factored into an exit. A weak tape into a binary event with an active, previously-published short thesis is the exact setup that rule exists for. **No position (TRADE.md FROZEN), so this is a watch, not an exposure** — but if a re-entry is ever contemplated, it does not happen in the 48h before Jul 29.
 *(Prior Jul 4 read below — superseded on price/positioning, intact on substance.)*
 
-### Carvana — 🟡 thesis patience (Jul 4, superseded)
-Q4 EBITDA miss, GPU -$255 QoQ. **Stock $68.60 (Jul 4) — +7% off the $64 Jun 5 low** despite continued CFO insider selling (Form 144 Jun 1: Jenkins ~$19.5M/3mo, zero buys); William Blair had *added* CVNA to June conviction list. **No new short-seller report through Jul 4** (Gotham's forensic report was Jan 28; Hindenburg/MW silent). GCR: DriveTime 20x-40x leverage, 73% adj EBITDA = related-party. **The "Jun 12 Discovery Production 2" catalyst was a phantom** — never independently confirmed from public sources (WINTERKORN correctly halted; catch-up searches found no such docket event). Separate DE Chancery Jun 16 dismissal was the *old 2020 direct-offering* case (SLC/Zapata), NOT the related-party/Bridgecrest thread `[PRESS, needs verify]`. Price strength + short-seller silence = re-entry NOT triggered; stay patient.
+*Jul 4 "thesis patience" Carvana block (pre-collateral-read, pre-slide) archived to [`workbook/STATUS_archive_20260725.md`](workbook/STATUS_archive_20260725.md).*
 
 ### First Brands — Jun 12 DS approved → Jul 28 confirmation
 $12B debt. DOJ indicted Patrick James (9 counts). Asset recovery <2%. **Jun 12 hearing: UST convert-to-Ch.7 motion NOT granted** — debtors filed reformulated Joint Liquidating Plan paying admin claims IN FULL (addressed admin-insolvency basis), "won second chance." **DS conditionally approved Jun 12; voting record date Jun 15; confirmation hearing JUL 28 2026 9am CT (Lopez, SDTX Ct 401).** Plan still routes majority (111/112) debtors → Ch.7 + PMG litigation trust — OTTO-32 majority-Ch.7 branch on track inside Sep 30 `[CONF Bloomberg Law/TT/Octus]`.
@@ -146,27 +157,11 @@ $12B debt. DOJ indicted Patrick James (9 counts). Asset recovery <2%. **Jun 12 h
 
 | Date | Event | Status |
 |------|-------|--------|
-| **Mar 31** | Tricolor vehicle-sale deadline (ORIGINAL — operative) | ✅ Auctions ran; 5,857 sold / $39.5M net (data emerged ~May 14) |
-| **Mar 31** | First Brands asset sales (Walbro $50M pending) | ✅ $25M 12-brand sale confirmed |
-| **Apr 9** | First Brands: **4 Evolution SPV debtors converted to Ch.7** (Lopez order) — first concrete partial conversion | ✅ `[CONF]` (swept Jun 2) |
-| **May 15/18** | First Brands: PMG single-debtor Ch.11 liquidating plan filed (May 15) + Disclosure Statement (May 18); Global Settlement → Litigation Trust; all other debtors → Ch.7 after effective date | ✅ `[CONF]` (operative DS; supersedes earlier "Apr 28 PMG" draft ref) |
-| **May 13** | First Brands: US Trustee motion to dismiss-or-convert all FBG cases to Ch.7 | 🔴 PENDING — contested into Jun 17 hearing `[CONF]` |
-| **May 20** | First Brands: Disclosure statement conditional-approval hearing | ✅ **DENIED** by Judge Lopez — creditor-rights + admin-insolvency grounds (UST argument landed); ordered parties to keep negotiating `[CONF]` (swept Jun 2) |
-| **May 22/25/29** | First Brands: litigation-trust bid deadline / omnibus / debtor-requested combined confirmation hearing | ✅ Superseded — May 20 denial reset timeline; no confirmation occurred; re-targeted to Jun 17 `[CONF]` (swept Jun 2) |
-| **Apr 24** | Trustee Rule 2004 motion vs Tricolor affiliates + Fifth Third supplemental motion (contents opaque) | 🟠 |
-| **May 5** | CVNA stockholder vote: split PASSED (5-for-1, eff. May 7-8); chairman separation FAILED 96%; GT ratified | ✅ |
-| **May 7** | PSEC declares $0.035 monthly div (down from $0.045) — Q3 FY26 earnings | ✅ |
-| **May 12** | NY Fed Q1 2026 HDC published — auto $1.685T, transition 2.97% flat | ✅ |
-| **May 14** | Trustee Rule 2004 motion vs ACV Capital LLC | 🟠 fraud surface expansion |
-| **Jun 12** | Carvana discovery production 2 | ✅ **PHANTOM** — no such docket event independently confirmed (swept Jul 4); catalyst retired |
-| **Jun 12** | First Brands: UST convert-or-dismiss hearing (Judge Lopez, §1112(b)) — was OTTO-32 resolver | ✅ **RESOLVED (swept Jul 4)**: UST conversion NOT granted; reformulated plan pays admin claims in full; **DS conditionally approved**; confirmation → **Jul 28**. Pre-registered "deny+reset → confirmation survives" branch fired `[CONF Bloomberg Law/TT/Octus]` |
-| **Jun 17** | Tricolor §341 creditor meeting (continued) — trustee distribution-plan watch | ✅ **held + continued to Nov 11** (swept Jul 4); no distribution plan filed; $113M gridlock unresolved. OTTO-29 resolution-slip past Sep 30 confirmed |
-| **Jun 17** | First Brands: plan-confirmation hearing (contingent) | ✅ **SUPERSEDED → Jul 28** (swept Jul 4) — Jun 12 DS approval reset the confirmation to Jul 28 |
-| **Jun 30** | OTTO-05 + OTTO-28 prediction resolve | ✅ **BOTH FALSIFIED (swept Jul 4)** — OTTO-05: BBB spread tightened to +140bps (not >250); OTTO-28: Ally Q2 postdates resolve + no break-out |
+| *Mar-Jun* | *20 resolved rows archived (Tricolor auctions, First Brands Apr-9 conversions / May-20 DS denial / Jun-12 DS approval, CVNA May-5 vote, NY Fed Q1, Jun-17 §341, OTTO-05/-28 resolves)* | ✅ → [`workbook/STATUS_archive_20260725.md`](workbook/STATUS_archive_20260725.md) |
+| **Apr 27** | **First Brands: examiner (De Luca) files INTERIM report — then PAUSES, $7M budget exhausted** | 🔴 **NEWLY DISCOVERED (swept Jul 25)** — unintegrated primary. Finds James ran a web of entities "not as a for-profit business, but as **a liquidity generating and value extracting enterprise**"; ~90 days' further work offered *if* funded. **No docketed report deadline exists** `[PRESS Bloomberg Law/TT/TPS]` |
 | **Jun 24** | **Tricolor: superseding 8-count indictment vs Chu unsealed (§225 "financial kingpin", 10yr-life min) + COO Goodgame pleads GUILTY & cooperates** | 🔴🔴 **NEWLY DISCOVERED (swept Jul 25)** — happened 10 days before the Jul 4 session and was missed then; criminal track was unswept `[CONF DOJ via Reuters/Bloomberg/NatLawReview]` |
 | **Jun 30** | Tricolor: Chu arraigned on superseding indictment — pleads NOT GUILTY | ✅ **NEWLY DISCOVERED (swept Jul 25)** |
 | **Jul 7** | Tricolor: Castel re-dates executive trial **Oct 19 2026 → Jan 25 2027** (Feb 1 2027 reserved as alternative) | ✅ **NEWLY DISCOVERED (swept Jul 25)** `[Inner City Press Jul 7]` — Oct-19 catalyst exits 2026 |
-| **Apr 27** | **First Brands: examiner (De Luca) files INTERIM report — then PAUSES, $7M budget exhausted** | 🔴 **NEWLY DISCOVERED (swept Jul 25)** — unintegrated primary. Finds James ran a web of entities "not as a for-profit business, but as **a liquidity generating and value extracting enterprise**"; ~90 days' further work offered *if* funded. **No docketed report deadline exists** `[PRESS Bloomberg Law/TT/TPS]` |
 | **Jul 13** | First Brands: parties ordered to update Lopez on the James criminal proceedings (stay-modification consideration; debtor suits vs James + Onset seek **>$2.7B**, currently stayed) | 🟠 **NEWLY DISCOVERED (swept Jul 25)** — was never on OTTO's docket; outcome not yet public `[PRESS Law360/Octus]` |
 | **Jul 14** | Q2 bank earnings open (JPM/WFC/C) — OTTO-30 forward-discovery | ✅ **SWEPT Jul 25 — NO new Tricolor-exposed US bank.** Complete EDGAR FTS scan of window returns zero new names → OTTO-30 45→12% |
 | **Jul 15** | Fitch Auto ABS Index ("Jun print") | ✅ **SWEPT — NO NEW DATA.** Latest available remains **March** data (DQ 6.11% / ANL 8.80% / recovery 37.48%). Summer re-deterioration still unobserved; OTTO-04 input 4 months stale by data-month |

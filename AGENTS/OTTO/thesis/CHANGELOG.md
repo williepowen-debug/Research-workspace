@@ -20,6 +20,33 @@ docs/predictions moved).
 
 ---
 
+### 2026-07-25 (session 016, Will-directed) — Carvana sub-thesis gets its first primary-source evidence, two days before earnings — and one piece of it cuts against OTTO
+
+**Was → Is:** the Carvana sub-thesis has been **allegation-only** since it was carved out on Jun 9 — Gotham's Jan 28 report, GT retained, no DOJ action, and **no OTTO primary evidence of its own**. Carried at LOWER conviction for exactly that reason. **Is:** Bridgecrest — Carvana/DriveTime's securitization shelf — is now in the 10-D panel, so OTTO can read Carvana-originated collateral performance directly from trustee reports.
+
+**The finding, seasoning-controlled in both directions:**
+
+| Same vintage | pool factor | 60+ DQ | CNL | ANL |
+|---|---|---|---|---|
+| EART 2024-1 *(deep subprime)* | 41.80% | 10.26% | 16.70% | 15.92% |
+| **BLAST 2024-1 *(Carvana)*** | 37.36% | **15.57%** | **24.67%** | **17.35%** |
+| EART 2023-1 *(deep subprime)* | 24.80% | 11.97% | 22.05% | 18.53% |
+| **BLAST 2023-1 *(Carvana)*** | 33.51% | **15.20%** | **25.12%** | **19.30%** |
+
+**Carvana's collateral is performing worse than Exeter's deep subprime, same vintage.** 2024: CNL **1.48×** on a pool factor only 4.4pp lower — seasoning cannot produce an 8pp cumulative-loss gap. 2023: Carvana is **less** seasoned and still loses more, so the control works *against* the comparison and strengthens it.
+
+**And Bridgecrest shows the sharpest recent break in the entire panel** — 60+ DQ flat through spring (13.85 → 13.85 → 13.77) then **15.57%, +1.80pp in a single month**; BLAST 2023-1 the same at +1.85pp. Elsewhere single-month moves run +0.4 to +0.9pp.
+
+**⚠ The counter-evidence, recorded because it cuts against OTTO's own thesis.** Bridgecrest **extension rates are LOWER than Exeter's** (3.3-3.9% vs 4.1-5.7%). If the related-party allegation implies Carvana masks delinquency by extending loans — the mechanism the Tricolor indictment describes — **the primary data does not support it.** Carvana extends *less* than a comparable deep-subprime servicer.
+
+**So what moved, precisely:** conviction rises on **collateral quality** — Carvana's book is worse than the market has been told to expect. Conviction does **not** rise on the related-party/reporting-manipulation claim; on the extension channel it arguably falls. **Worse underwriting or borrower mix is not reporting fraud, and OTTO should not let a real finding on the first question be read as support for the second.**
+
+**Timing:** CVNA reports Q2 **Wed Jul 29 after close**, with the stock −14.4% off its Jul 16 high and Gotham's precedent of dropping reports on earnings day. TRADE.md remains FROZEN — this is a watch, not a position.
+
+**Touches:** `scripts/panel_10d.py` (3rd issuer spec — Bridgecrest uses paren footnotes, dollar-only DQ buckets, a stated 60+ figure at line 55, CNL derived off line 14), `workbook/PANEL_10D.tsv` (64 rows), STATUS (new Carvana vector, timeline archive pass), `workbook/ML.tsv` ML-205/-206/-207.
+
+---
+
 ### 2026-07-25 (session 016, Will-directed) — Summer re-deterioration CONFIRMED on an instrument OTTO built itself; the "deep bleeds, broad is fine" framing weakens
 
 **Was → Is:** the summer re-deterioration in subprime auto credit was OTTO's **expectation, untested**. Fitch's obtainable data stopped at **March 2026** (a seasonal tax-refund low), so every read since has been "unobserved, not disconfirmed" — a phrase this session used repeatedly and correctly. **Is: observed and confirmed.**

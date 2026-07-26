@@ -70,6 +70,9 @@ PANEL = [
     ("SDART 2022-6", "Santander Drive Auto Receivables Trust 2022-6", "BROAD", "santander"),
     ("SDART 2023-1", "Santander Drive Auto Receivables Trust 2023-1", "BROAD", "santander"),
     ("SDART 2024-1", "Santander Drive Auto Receivables Trust 2024-1", "BROAD", "santander"),
+    # Carvana/DriveTime shelf — the Carvana sub-thesis's only primary-source collateral read.
+    ("BLAST 2024-1", "Bridgecrest Lending Auto Securitization Trust 2024-1", "CARVANA", "bridgecrest"),
+    ("BLAST 2023-1", "Bridgecrest Lending Auto Securitization Trust 2023-1", "CARVANA", "bridgecrest"),
 ]
 
 # Positive control — must reproduce exactly or the run is INVALID.
@@ -86,6 +89,15 @@ CONTROL = ("EART 2022-3", "cnl_pct", 27.58, "10-D filed 2026-06-30")
 SKIP = r"(?:\{\d+\}|[^\d{])*"                    # footnotes + non-numeric filler
 NUMV = r"(?P<v>[\d,]+\.\d{1,4}|[\d,]+)"          # the value we want
 PCT  = r"[\s\S]{0,140}?(?P<v>[\d,]+\.\d{1,2})\s*%"   # first N.NN% after a label
+
+# Bridgecrest (Carvana/DriveTime shelf) uses a THIRD schema:
+#   - line references are PARENTHESISED `(51 )`, not braced `{51}` — so the brace-aware
+#     SKIP does not apply and would capture the reference number as the value;
+#   - some labels carry a brace FORMULA containing digits, e.g. `{(42)-(sum of (45)...)}`;
+#   - delinquency buckets are dollars only, with NO percentage column — but the filing
+#     states a ready-made 60+ figure at line (55), which is what OTTO wants anyway;
+#   - CNL must be derived against the Original Pool Balance at line (14).
+BSKIP = r"(?:\([^)]*\)|\{[^}]*\}|[^\d({])*"   # paren refs AND letter tags like "(B)"
 
 SPECS = {
     "exeter": {
@@ -113,6 +125,16 @@ SPECS = {
         "pool_factor":      r"Pool Balance\)" + SKIP + NUMV,
         # ext_rate deliberately ABSENT — Santander does not disclose it. Absence is
         # recorded as not-disclosed, never as zero.
+    },
+    "bridgecrest": {
+        "dq_60plus_direct": r"Receivables greater than 60 days delinquent at end of Collection Period" + PCT,
+        "cum_loss_dollars": r"aggregate amount of Net Charged-Off Receivables losses as of the last day of the current Collection Period" + BSKIP + NUMV,
+        "original_pool":    r"Original Pool Balance as of Cutoff Date" + BSKIP + NUMV,
+        "net_loss_period":  r"Net Charged-Off Receivables losses occurring in current Collection Period" + BSKIP + NUMV,
+        # "Pool Balance of the Collection Period (1 ) 14,479 $ 271,583,183.15"
+        # -> skip the receivable COUNT, take the dollar balance.
+        "pool_balance":     r"Pool Balance of the Collection Period" + BSKIP + r"[\d,]+" + BSKIP + NUMV,
+        "ext_balance":      r"Principal Balance of receivables extended in Collection Period" + BSKIP + NUMV,
     },
 }
 
@@ -209,8 +231,9 @@ def parse(txt, issuer):
 def derive(v, issuer):
     """Compute the four comparable metrics. Any input missing -> output None, never 0."""
     out = {}
-    dq = [v.get("dq_61_90"), v.get("dq_91_120"), v.get("dq_120plus")]
-    out["dq_60plus_pct"] = round(sum(dq), 2) if all(x is not None for x in dq) else None
+    if issuer != "bridgecrest":
+        dq = [v.get("dq_61_90"), v.get("dq_91_120"), v.get("dq_120plus")]
+        out["dq_60plus_pct"] = round(sum(dq), 2) if all(x is not None for x in dq) else None
 
     if issuer == "exeter":
         out["cnl_pct"] = v.get("cnl_pct")
@@ -219,6 +242,15 @@ def derive(v, issuer):
         liq, pr = v.get("liquidated"), v.get("liq_proceeds")
         out["recovery_pct"] = round(pr / liq * 100, 2) if liq and pr else None
         out["ext_rate_pct"] = v.get("ext_rate")
+    elif issuer == "bridgecrest":
+        out["dq_60plus_pct"] = v.get("dq_60plus_direct")   # stated at line (55)
+        cl, op = v.get("cum_loss_dollars"), v.get("original_pool")
+        out["cnl_pct"] = round(cl / op * 100, 2) if (cl and op) else None
+        nl, pb = v.get("net_loss_period"), v.get("pool_balance")
+        out["anl_pct"] = round(nl / pb * 12 * 100, 2) if (nl and pb) else None
+        out["recovery_pct"] = None      # gross liquidation balance not separably stated
+        eb = v.get("ext_balance")
+        out["ext_rate_pct"] = round(eb / pb * 100, 2) if (eb and pb) else None
     else:  # santander: cumulative losses are dollars -> derive ratio off initial pool
         cl, ip = v.get("cum_loss_dollars"), v.get("initial_pool")
         out["cnl_pct"] = round(cl / ip * 100, 2) if cl and ip else None
