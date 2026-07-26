@@ -1,9 +1,10 @@
-# OTTO THESIS — v1.0
+# OTTO THESIS
 
-**Version:** 1.1
-**Updated:** 2026-07-04
+**Version:** 1.2
+**Updated:** 2026-07-25 *(v1.2 — Secondary thesis criminally charged; diligence mechanism documented; broad-tier qualification; OTTO-04 re-based. Header said "v1.0" while the stamp said 1.1 — fixed.)*
 **Conviction (decomposed):**
 - **Pattern / direction: HIGH** — 4 confirmed cockroaches in 8 months, recurring mechanism, no falsifying counter-evidence. The cockroach pattern is mechanistically over-determined.
+- **Secondary-thesis MECHANISM: MEDIUM-HIGH → HIGH (2026-07-25)** — the DQ-chain bypass is no longer OTTO's inference. The **superseding 8-count indictment** vs Chu (unsealed 2026-06-24) charges that Tricolor executives *"manipulated delinquent loan data to make non-performing loans appear current"* **and** *"pledged the same collateral to multiple lenders simultaneously"* — both OTTO mechanisms, as federal criminal allegations, backed by **18 U.S.C. §225** (10-yr-to-life mandatory minimum, dormant a decade) and a **cooperating ex-COO**. Conviction on *transmission* is unchanged; this raises conviction on *mechanism*.
 - **Fraud-recovery magnitude (idiosyncratic): HIGH** — Tricolor ~3% vehicle recovery, ABS notes <10¢, First Brands debt 0.4¢ second-lien. Deep-subprime 2022 impairment now **primary-source confirmed >25%** (Exeter EART 2022-3 CNL 27.58%, `[CONF SEC 10-D]` Jul 4).
 - **Systemic-funding-transmission magnitude: LOW / DISCONFIRMED (Jul 4)** — the expectation that fraud-discovery transmits into a broad subprime-ABS funding freeze / repricing is **falsified**: subprime BBB spreads TIGHTENED to +140bps (EART 2026-3, vs +190 Mar), issuance is robust and upsized ($1.2bn), Exeter earned its 1st-ever AAA, and Ally near-prime credit is *improving*. **Fraud-discovery is idiosyncratic, NOT broad-market repricing — meter the two magnitude legs separately.** (OTTO-05 FALSIFIED; OTTO-28 FALSIFIED-on-window.)
 - **Near-term timing of specific tests: VARIABLE** — First Brands Ch.7 confirmation (Jul 28, 85%); 2022-vintage CNL >25% **bifurcated by tier** (Sep 30, OTTO-04 62% — deep-subprime already >25% but the blended-index metric is anchored down by broad-subprime; see Secondary Thesis § validation); Wilmington Trust franchise exit corporate-denied (Dec 31, 30%).
@@ -73,10 +74,22 @@ A material fraction of subprime auto loans, concentrated in immigrant borrower c
 - **Vervent launched bilingual "Fresh Start" loan-modification program** for 30K+ delinquent borrowers (half >4 months DQ) — institutional concession that this cohort cannot be pursued via standard recovery.
 - **Recovery rate 32.64% YE2025** vs pre-pandemic 43.73% (industry-wide, not Tricolor-only) — suppressed recoveries across the industry are consistent with rising skip prevalence, not just collateral deflation.
 - **2022 vintage CNL bifurcated by tier `[CONF SEC 10-D]` (Jul 4):** deep-subprime (Exeter EART 2022-3 **27.58%** / 2022-2 26.34%) already >25% and grinding to ~28-29% terminal; broad-subprime (Santander SDART 2022-6 **12.08%**) far below. The blended Fitch subprime *index* (22.42%@31mo `[PRESS]`) is a composition average anchored down by Santander's dominant $2B+ deals → projects ~24.3-24.5% Sep 30 (OTTO-04 **62%**). The deep-subprime skip/impairment substance is confirmed; the blended-index metric may not cross 25% for composition reasons.
-  - **✅ Resolution convention (Will-ratified Jul 4):** OTTO-04 stays on the blended index (no mid-flight goalpost move), but a Sep-30 blended-index miss resolves **falsified-on-window / confirmed-on-substance** — the deep-subprime tranche is already >25%, so the mechanism/magnitude leg is banked regardless of the composition technicality. Same convention as OTTO-29.
+  - **⚠ SUPERSEDED 2026-07-25 — OTTO-04 RE-BASED and RESOLVED (Will-directed).** The blended Fitch index turned out to be not merely composition-biased but **unobtainable** (no Fitch-direct access; the free mirror decayed to March data; S&P returns 403 and KBRA's full data is paid). Canonical measure is now the **deep-subprime 10-D tranche** — `Cumulative net loss ratio`, EART 2022-2/2022-3. **The prediction did not move with the metric:** OTTO-04 was made 2026-02-23 and EART 2022-3 was already 25.90% on the 10-D filed 2026-01-28, so the re-based claim was **true-at-creation**. Resolved falsified-on-metric / confirmed-on-substance, **no calibration credit taken**; forward replacement is **OTTO-34**. *(Prior Jul-4 convention, now superseded:* stays on the blended index, miss resolves falsified-on-substance** — the deep-subprime tranche is already >25%, so the mechanism/magnitude leg is banked regardless of the composition technicality. Same convention as OTTO-29.
+
+### ⭐ Why the book looked clean for seven years — the mechanism, documented (2026-07-25, RP-OTT-1.6)
+The Secondary thesis's weakest link was always *why did nobody notice?* That was a plausibility argument. It is now structural.
+
+All **eleven** Tricolor securitizations (2018-2025) carry a third-party **agreed-upon-procedures** report — Crowe, then Deloitte, then Grant Thornton. Those procedures compare the securitization data tape **to Tricolor's own servicing and origination systems**: *"We compared Characteristics 8. through 12. to … the Servicing System Screen Shots"* (Deloitte). **The indictment alleges those systems were falsified. A tape derived from a doctored source agrees with it by construction.** Double-pledging is equally out of scope — lien documents are checked, but on ~150 of ~10,000 loans (1.5%), and confirming Tricolor's *own* lien is not a search for *competing* pledges. No procedure inspects a vehicle.
+
+**An agreed-upon-procedures engagement is a reconciliation, not an audit.** Every one of those eleven reports can be simultaneously accurate and uninformative against this fraud. That is the documented answer to "the book looked clean," and it generalises: **ABS-15G/Exhibit 99.1 diligence on any 144A shelf provides far less assurance than its existence implies.**
+*(Scope correction in the same package: OTTO briefly claimed the "enterprise since at least 2018" allegation implicated 2018-2021 **vintages**. It does not — Tricolor securitized only **2** deals in that window vs **9** in 2022-2025. Originations were tainted from 2018; securitized exposure concentrates where OTTO already looks. Retracted.)*
 
 ### Why this matters for the Primary Thesis
 The Invisible Exit is what makes a fraud lender's book *look clean* until forced disclosure. A lender concentrating originations in skip-prone cohorts can post benign DQ statistics for 12-24 months while ultimate losses build toward 90%+. This connects the two theses: the cockroaches surface in the cohorts where the Invisible Exit is densest, because that's where fraud is hardest to detect via standard credit metrics. **Tricolor is both a cockroach and the industrial proof of the Invisible Exit. That's not a coincidence — it's the explanatory link.**
+
+### ⚠ Qualification — broad subprime is not insulated (2026-07-25)
+OTTO has framed the picture since s015 as *deep-subprime bleeds while broad subprime holds up*. The 10-D panel qualifies that. **Level bifurcation holds** — annualized net loss **18.85% DEEP vs 6.41% BROAD** (~2.9×). **Rate-of-change bifurcation does not:** off the spring trough, broad has risen *slightly faster* (mean +1.44 vs +1.26pp), while month-over-month deep is marginally faster (+0.61 vs +0.46pp). **Comparable, not contained.**
+**And the seasonal trough is over.** All 7 panel deals, both tiers, four vintages, troughed in the spring tax-refund window and have risen every month since — the summer re-deterioration this thesis predicted, now observed on primary source rather than inferred. Note the population distinction the fleet has been blurring: **prime/near-prime (Ally, improving) ≠ broad subprime (deteriorating) ≠ deep subprime (deteriorating from far worse levels).**
 
 ### What would falsify the Secondary Thesis?
 - **Recovery ratio rebounds above 40%** sustained for 2+ quarters — would suggest skip prevalence is normalizing.
@@ -89,6 +102,15 @@ The Invisible Exit is what makes a fraud lender's book *look clean* until forced
 
 ### Claim
 Carvana's related-party servicing complex (Bridgecrest, DriveTime, GarciaCo) is being used to manipulate reported margin and credit performance: Bridgecrest services $26B at 0.117% (below-market) so DriveTime can absorb the loss while Carvana posts inflated gain-on-sale on loan portfolios sold to DriveTime. Discovery is the legal vector that would surface the mechanism — but the anticipated "Jun 12 production 2" milestone was a **phantom** (never confirmed from public dockets, retired Jul 4), so the near-term legal catalyst is weaker than the sub-thesis originally assumed.
+
+### ⭐ First primary-source evidence (2026-07-25) — and it splits the claim in two
+Bridgecrest — Carvana/DriveTime's securitization shelf — is now in OTTO's 10-D panel, so Carvana-originated collateral can be read directly from trustee reports rather than through allegation.
+
+**Collateral quality: WORSE than deep subprime, seasoning-controlled both ways.** BLAST 2024-1 60+DQ **15.57%** / CNL **24.67%** vs EART 2024-1 (deep subprime) 10.26% / 16.70% — CNL **1.48×** on a pool factor only 4.4pp lower. BLAST 2023-1 25.12% CNL vs EART 2023-1 22.05% while being *less* seasoned (factor 33.51 vs 24.80), so the control works against the comparison and strengthens it. Bridgecrest also showed the **sharpest single-month break in the whole panel** (+1.80 / +1.85pp).
+
+**⚠ Reporting manipulation: EVIDENCE AGAINST, from two independent tests.** (a) Bridgecrest **extension rates are LOWER than Exeter's** (3.3-3.9% vs 4.1-5.7%) — if the allegation implies Carvana masks delinquency by extending, the data does not support it. (b) Its **CNL/DQ divergence ratio (1.58-1.65) sits BELOW deep subprime's range** (1.63-2.03) despite higher absolute losses — **losses track reported delinquency; there is no divergence signature.**
+
+**So the sub-thesis splits.** Conviction rises materially on **collateral quality** — Carvana's book is worse than represented. Conviction does **not** rise on **related-party/reporting manipulation**, and on the extension and divergence channels it falls. **Worse underwriting is not reporting fraud, and OTTO must not let evidence for the first be read as support for the second.**
 
 ### Why lower conviction
 - **Allegation, not conviction.** No DOJ indictment, no SEC enforcement action, no auditor resignation.

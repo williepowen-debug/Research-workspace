@@ -9,7 +9,7 @@ prediction-confidence moves of note, new transmission rows, case-status escalati
 NOT routine dashboard refreshes (those live in STATUS) and NOT structural doc/folder
 changes (those live in `MAINTENANCE.md`).
 
-**Versioning:** OTTO's canonical thesis is `thesis/THESIS.md` (v1.1 as of 2026-07-04);
+**Versioning:** OTTO's canonical thesis is `thesis/THESIS.md` (**v1.2 as of 2026-07-25** — absorbed the four s016 thesis-level moves: Secondary-mechanism conviction upgrade, the RP-OTT-1.6 diligence mechanism, the broad-tier qualification, and the OTTO-04 re-base + Carvana split);
 `STATUS.md` § THESIS is a live-state mirror. Entries here are dated and may cite the
 thesis version they moved. *(Preamble corrected 2026-07-25 — it had described the
 pre-Jun-9 layout, in which neither `thesis/THESIS.md` nor `MAINTENANCE.md` existed.)*
@@ -67,7 +67,7 @@ docs/predictions moved).
 
 **7 of 7 deals, both tiers, four vintages — troughed in spring, risen every month since, all now above their first observation.**
 
-**The thesis-level wrinkle, and it cuts against OTTO.** Since s015 OTTO has framed the subprime picture as *deep-subprime bleeds while broad subprime holds up* — supported by Ally's five straight improving quarters and the 2.3× CNL tier split. The panel confirms the **level** gap (ANL 18.85% DEEP vs 6.41% BROAD, ~2.9×) but shows the **broad tier deteriorating as fast as or faster than deep off the trough** (+1.34 to +1.57pp vs +0.89 to +1.56pp). Level bifurcation is intact; **rate-of-change bifurcation is not.** That is a genuine qualification of OTTO's own framing and should temper any "it's contained to deep subprime" read.
+**The thesis-level wrinkle, and it cuts against OTTO.** Since s015 OTTO has framed the subprime picture as *deep-subprime bleeds while broad subprime holds up* — supported by Ally's five straight improving quarters and the 2.3× CNL tier split. The panel confirms the **level** gap (ANL 18.85% DEEP vs 6.41% BROAD, ~2.9×) but shows **broad subprime is not insulated**: off-trough it has risen slightly *faster* than deep (mean +1.44 vs +1.26pp; BROAD's slowest deal, +1.34pp, still beats DEEP's mean), while in the latest month deep is marginally faster (+0.61 vs +0.46pp). **Level bifurcation is intact; rate-of-change bifurcation is not — the tiers are deteriorating at comparable speed.** *(Refined 2026-07-25 after deduping the ledger; the first pass read off-trough only and stated the case one-sidedly.)* That is a genuine qualification of OTTO's own framing and should temper any "it's contained to deep subprime" read.
 
 **Second-order:** the DQ gap between tiers (1.3×) is far narrower than the loss gap (2.9×) — deep subprime converts delinquency into loss much faster, consistent with recoveries of 21.8-30.9% and falling on the 2022 vintages (EART 2022-3: 28.89 → 21.83% across Mar-Jun filings).
 

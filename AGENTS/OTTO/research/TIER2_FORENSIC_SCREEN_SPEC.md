@@ -1,6 +1,6 @@
 # Tier 2 — Forensic signature screen: design brief and feasibility gate
 
-**Status:** NOT STARTED · **Written:** 2026-07-25 (session 016) · **Owner:** OTTO
+**Status:** ✅ **FEASIBILITY GATE RUN AND PASSED 2026-07-25** — build authorised, with the scope correction below · **Written:** 2026-07-25 (session 016) · **Owner:** OTTO
 **Prerequisite:** [`research/outputs/RP-OTT-1.6_Tricolor_ABS15G_Diligence_Forensics.md`](outputs/RP-OTT-1.6_Tricolor_ABS15G_Diligence_Forensics.md) (Tier 1, complete)
 **Estimated:** 3-4 hours **if the feasibility gate passes.** Gate itself is ~45 min and may kill the project — that is a success, not a failure.
 
@@ -32,7 +32,32 @@ The signature must therefore be constructed **a priori from the mechanism descri
 
 ---
 
-## The feasibility gate (do this first — ~45 min)
+## ✅ GATE RESULT (run 2026-07-25 off `workbook/PANEL_10D.tsv` — took minutes, not 45, because the panel already extracts both fields)
+
+**Metric:** `CNL / 60+DQ` — realised loss per unit of reported delinquency. A pool reporting low delinquency while realising high losses is arithmetically suspicious: the losses had to transit *some* state.
+
+| Tier | n | mean | range |
+|---|---|---|---|
+| BROAD (SDART) | 3 | **1.06** | 1.01 – 1.16 |
+| DEEP (EART) | 4 | **1.82** | 1.63 – 2.03 |
+
+**PASS — clean separation, no overlap between tier ranges, 1.71× apart.** The metric is demonstrably sensitive to real credit-quality differences on pools where ground truth is known.
+
+### ⚠ But the gate proved less than it looks like it proved — read this before building
+
+The gate asked *"can this metric separate two pools known to differ in credit quality?"* It can. That is **not** the same as *"can it detect fraud."* The metric separates on **credit tier**, which is exactly what it should do on healthy pools. A fraudulent pool would have to be an **outlier relative to its own tier** — and there is still **no confirmed-fraud pool to calibrate that against**, because Tricolor's 144A deals leave no public performance data. The structural weakness above is unchanged by this pass.
+
+**So the build is authorised with a narrowed claim:** Tier 2 produces a **ranked within-tier anomaly list**, not a fraud detector. Every output remains a lead. With n=3–4 per tier the within-tier variance estimate is thin, and **widening the panel per tier is a prerequisite** to any anomaly ranking being meaningful.
+
+### Out-of-sample read the gate produced for free — Carvana
+
+**BLAST (Bridgecrest/Carvana): 1.58 – 1.65, mean 1.62.** That sits *below* DEEP's range despite Carvana carrying **higher** CNL than deep subprime — because its reported delinquency is proportionately higher too.
+
+**Carvana is not a divergence outlier. Its losses track its reported delinquency.** That is a meaningful negative result on the "hidden/deferred losses" version of the Carvana allegation, and it converges with the independent extension-rate finding (Bridgecrest extends *less* than Exeter). Two different tests, same direction: **the collateral is worse, but it is not being made to look better.**
+
+---
+
+## The feasibility gate (superseded by the result above — retained for method)
 
 **Do not build the screen until this passes.**
 
