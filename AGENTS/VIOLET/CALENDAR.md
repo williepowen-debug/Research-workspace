@@ -43,7 +43,7 @@ VIX futures and options expire on the **Wednesday 30 days prior to the third Fri
 | Q3 2026 | Oct 15-Nov 1 | — |
 | Q4 2026 | Jan 15-Feb 1 | — |
 
-**Pattern:** Earnings season = vol supply as single-stock vol gets realized. **Concentration watch:** with record AI/semi concentration (47%) + record levered-ETF exposure ($464bn), a single AI-name earnings gap is the most likely Path-B vol trigger this cycle.
+**Pattern:** Earnings season = vol supply as single-stock vol gets realized. **Concentration watch:** with record AI/semi concentration (47%) + the leveraged-ETF amplifier complex (US aggregate figure UNVERIFIED — the $464bn number is do-not-propagate per DEWEY 7/20, likely gross-AUM not net rebalance-demand; the demonstrated vehicle-scale case is Korea's ~$9-10bn 2× chip-ETF complex), a single AI-name earnings gap is the most likely Path-B vol trigger this cycle. Semis carry the 2nd-highest constituent-level IV on record into 7/29-8/1 (KB-VIO-126).
 
 ---
 

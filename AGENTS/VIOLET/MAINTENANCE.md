@@ -10,6 +10,14 @@ Log material structural changes only — not routine content edits. Template ado
 
 ---
 
+## 2026-07-25 — backfill.py holiday guard relaxed (was silently eating REAL trading days) + CANARY_MAP KOSPI row promoted Tier-3→Tier-2
+
+- **Trigger:** boot's STALE-TICK warning led to a `backfill.py --spot-only` repair run that claimed "touched 95 rows" yet left 7/20/7/22/7/24 absent and the 7/23 TICK row unfixed. Diagnosis: Yahoo's **^VIX3M daily-history endpoint ran 7/18-7/23 behind** (NaN for current days) while ^VIX/^VVIX/^SKEW were current — and the holiday guard (`df = df[df["vix3m"].notna()]`, built 6/1 for the Memorial-Day phantom-row class) dropped every real day ^VIX3M lacked. The guard designed to drop phantom rows was deleting real ones — a false-clean, the worst failure shape (KB-VIO-076 gap-check family).
+- **What changed:** guard relaxed to **any-companion**: keep a date if ANY of ^VIX3M/^VVIX/^SKEW is non-NaN (on a true US holiday ALL companions skip, so phantom protection is preserved). VX_DAILY then repaired: 7/20 + 7/22 + 7/24 rows added, 7/23 superseded TICK→SETTLE (18.70/20.60/1.1016 — the TICK row had overstated VIX3M and understated the ratio), 7/24 completed by hand from boot fast_info settle-quality values (VIX3M 20.51 derived from the 1.1039 ratio; vix6m left blank pending Yahoo catch-up). Separately: **CANARY_MAP v1.2** — Korea 2×-leveraged-ETF amplifier promoted Tier-3 ("no watcher") → **Tier-2 VIOLET-owned** per DAEDALUS 7/22 disposition (Will-approved); write-back sent to DAEDALUS inbox (PAT-032 closed).
+- **Files touched:** `scripts/backfill.py` (guard) · `workbook/VX_DAILY.tsv` (5 rows) · `CANARY_MAP.md` (Tier-2 row + Tier-3 tombstone + stamp) · `AGENTS/DAEDALUS/inbox/2026-07-25_from-VIOLET_...` (carve-out send) · `workbook/FLOW.tsv` (send row).
+- **Boot-impact:** none structural; backfill repairs now survive Yahoo companion-index lag. The settle repair CORRECTED the session narrative (7/22 was a 16.64 low; 7/23 a 20.31 break-and-reject) — see KB-VIO-125.
+- **Lessons:** (1) **a guard built against one failure mode becomes a failure mode when its witness series rots** — corroboration requirements need an any-of witness set, not a single named witness; (2) a repair tool reporting success ("touched 95") while the target gap persists = verify the *specific rows you came for*, not the exit status (finding_verify_fix_against_capable_case family).
+
 ## 2026-07-23 — `artifacts/` directory created — two Will-facing living Artifacts + a standing refresh obligation
 
 - **Trigger:** Will asked for (a) a plain-English explainer of the vol gauges, then (b) a view to "read and understand the agent and what is going on." Both approved as **living** references.

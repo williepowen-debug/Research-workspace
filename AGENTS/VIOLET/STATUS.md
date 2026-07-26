@@ -1,10 +1,10 @@
 # VIOLET STATUS
 
-**Signal Status:** 🟠 **7/23 INTRADAY (~12:10 ET boot, Will-directed sit-rep) — THE 7/21 DIVERGENCE RESOLVED THE BEARISH WAY: the equity-vol FRONT-END re-firmed UP to rejoin the elevated tails/cross-asset. Vol did not fade down to meet calm — calm caught up to the stress.** Over 7/22-7/23 the front end that faded toward complacency Monday reversed: **VIX ~19.86** (+2.81 from 17.05 [7/21]; back at the 20 line), **VVIX 105.29 RE-CROSSED the >100 watch line** (from 96.34 — was back under Monday), **VIX3M/VIX 1.071 RE-COMPRESSED toward the 1.0 inversion line** (from 1.149 — Monday's re-steepening reversed). Tails/cross-asset held elevated: **SKEW 150.19 🔴**, **MOVE ~74.67** [7/21, latest on web — 7/23 print not yet posted, ~1-session lag], **credit Bin-A** (CCC 9.77 / disp 8.17 [7/20]), **OVX/VIX 3.55 p97.6 FIRE**. **Read: as of today MORE independent channels sit on the stress side simultaneously than at any point in this de-compression — front-end (VIX ~20 + VVIX>100), term-structure (re-compressing toward inversion), tail (SKEW 150), rates-vol (MOVE ~75), credit (Bin-A), oil-vol (OVX FIRE), positioning (COT extreme-long). Two things still NOT confirmed — term structure hasn't actually INVERTED (1.071, not <1.0) and VIX hasn't broken >20 into RISING_VOL — so this is a strengthening-candidate, not a confirmed regime break. The coiled setup is loading directly into FOMC in 4 trading days (7/29).** ⚠️ All surface values are intraday TICK (pre-16:15 settle); SKEW/credit are T-1 lagged; COT is 7/14 positioning. *(7/21 close divergence read retained in KB-VIO-122 / NEXUS trail.)*
+**Signal Status:** 🟠 **7/25 SATURDAY BOOT (data through Fri 7/24 close) — THE SHARED SURFACE FADED INTO THE WEEKEND WHILE THE INDEPENDENT CHANNELS ESCALATED, AND THE GAMMA GATE IS NOW MET.** Settle-path correction first (the 7/23 intraday session overstated the "re-firm"): true closes ran 18.65 [7/20] → 17.05 [7/21] → **16.64 [7/22, the local LOW]** → **18.70 [7/23]** (a +12.4% spike day whose high **20.31 BROKE the >20 crack leg INTRADAY and was REJECTED into the close** — vol was SOLD into the spike, per HENRY's post-close reconcile) → **18.58 [7/24]**. Meanwhile: **CCC 9.91 / disp 8.25 [7/23 FRED] = FRESH credit escalation to new episode highs** (confirm-1 substantially met), **MOVE 80.08 [7/24, web-verified] = new re-escalation high** (confirm-3 MET; 68.48→70.88→72.66→74.67→80.08), **COT 7/21 report PARTIALLY UNWOUND** (net +10,189→+3,098, pct3y 99.4→92.9 — confirm-2 FAILS, fade line also unmet), **OVX FIRE deepened (ratio 3.66, p98.1)**, JPY CALM. **HENRY delivered the registered gate answer: dealers SHORT-GAMMA into FOMC, corroborated 5-of-6 trackers** (flip ~7,496 pinned two weeks — spot fell away; net GEX ~−$45B/1%; SPX −88pts below; put wall 7,300-7,400 just BELOW spot, not breached). **KB-VIO-125 interim grade: crack-candidate ALIVE into FOMC 7/29 (2 td); the non-duplicative-expression question is now a LIVE OPERATOR DECISION** (gate met, window = pre-FOMC VIX<20 per KB-VIO-123 registration). ⚠️ Weekend: all values are 7/24 settles; credit T-1 [7/23]; COT is 7/21 positioning.
 
 ## BOTTOM LINE
 
-**The de-compression that started 7/17 has now pulled the front-end back up with it.** On 7/21 the story looked like a *divergence* — front-end fading to complacency (VIX 17.05, VVIX <100) while tails/rates/credit firmed. Two sessions later that split closed the wrong way: VIX is back near 20, VVIX re-crossed 100, and the term-structure re-compressed toward inversion — the equity-vol surface **rejoined** the stress rather than the stress fading. The independent stress vectors that were the real signal all remain firing (MOVE re-open FIRED, credit Bin-A, OVX FIRE, COT 3y-extreme-long). What keeps this short of a confirmed crack: no actual term-structure inversion (1.071) and no VIX break >20. **Net: strengthening-candidate with the front-end now joined; the two missing legs are both close; FOMC 7/29 is the obvious catalyst path.** No position. GATE-VIO-116 re-open FIRED (consequence = fold-into-004, no new trade).
+**The tree's core discriminator says Friday's calm is shared-surface-alone behavior — the independent stress didn't fade, it made new highs.** VIX tested 20 Thursday (20.31, episode high), got sold back to 18.58; term structure re-steepened to 1.104; SKEW eased off 150. But credit widened FRESH (CCC 9.91, at the ~9.9-10.0 confirm line), MOVE printed a new high at 80.08, and OVX deepened at p98.1. COT is the one independent softener: leveraged money took most of its extreme long off (+10.2K→+3.1K) into the 7/21 fade. Against KB-VIO-123: confirm-1 substantially met + confirm-3 met (both INDEPENDENT), confirm-2 failed, shared legs fade-side but above every registered fade line. **HENRY's 5-of-6-corroborated short-gamma read satisfies the registered gate for a non-duplicative equity-vol expression — amplifier is on, and the registered entry window (pre-FOMC, VIX<20) is exactly where we sit. Tension the operator must weigh: cheap_tail says DORMANT 2/4 (VIX 18.58 / VVIX 100.73 both above the cheap lines) — the tail is NOT at the complacency floor; these are mid-range prices.** Routes PROME → TERRY → Will [Approve]. No position currently. GATE-VIO-116 re-open stands FIRED (fold-into-004).
 
 ---
 
@@ -12,22 +12,21 @@
 
 | Metric | Value | As Of | Status | Source |
 |--------|-------|-------|--------|--------|
-| VIX Spot | **19.86** (17.05 [7/21], 18.71 [7/17]) | 7/23 ~12:10 TICK | 🟠 | [CONF] boot.py — **RE-FIRMED +2.81 from 7/21**, back at the 20 line. LOW_VOL (<20) but at the RISING_VOL boundary. |
-| VIX9D | **[not separately pulled]** | — | ⚪ | boot pulled VIX/3M/6M; VIX9D not in this run. |
-| VIX3M | **21.25** (19.59 [7/21]) | 7/23 TICK | 🟡 | [CONF] boot.py |
-| VIX6M | **22.88** (21.66 [7/21]) | 7/23 TICK | 🟡 | [CONF] boot.py |
-| **VIX3M/VIX** | **1.071** (1.149 [7/21], 1.098 [7/17]) | 7/23 TICK | 🟡 | [CONF] calc — **RE-COMPRESSED toward the 1.0 inversion line** (from 1.149); Monday's re-steepening reversed. Front-end catching up to the belly = complacency draining again. Not inverted (needs <1.0). |
-| **VVIX** | **105.29** (96.34 [7/21], 104.79 [7/17]) | 7/23 TICK | 🟠 | [CONF] boot.py — **RE-CROSSED the >100 watch line** (from 96.34); the 7/21 retreat under 100 reversed. Vol-of-vol back on the stress side. |
-| **SKEW** | **150.19** · 20d-avg **146.68** · p97 | 7/22 CBOE close [T+1 lag] | 🔴 | [CONF] yfinance recompute 7/23 — top-decile tail bid; 20d-avg well above the 140 regime line. **>150 sustain 2/4 td** (7/21 151.66, 7/22 150.19) toward prediction #6 re-arm — NOT yet meaningful (7/1 arm broke 2/4, 6/5 arm broke 1/4; filter has refused both). 5d-chg +1.68 = firming WITH the front-end (confirming, not diverging). |
-| M1:M2 contango (adj) | **+5.89%** | 7/22 settle [T-1] | 🟡 | [CONF] boot thresholds (VX/Q6/VX/U6) — NORMAL_TO_ELEVATED. |
-| VIX options C/P OI | **3.13** (Vol 1.80) | 7/23 ~12:10 ET | 🟡 | [CONF] boot vix_options — call/protection-heavy; fwd call OI 5.86M vs put 1.87M. 8/5 40C +101%, 8/19 65C +227% top adds. |
-| **MOVE (rates vol)** | **~74.67** [7/21, latest web] | 7/21 close | 🔴 | [CONF Yahoo/CNBC 7/21] — re-open stays FIRED, well above the 70-72 band + 72.41 F1. Trajectory 68.48→70.88→72.66→**74.67**. **7/23 print not yet posted** (web ~1-session lag) — re-verify next boot. N1 <66 stand-down far off. |
-| **CCC OAS** | **9.77** (9.69 [7/15]) | 7/20 [FRED] | 🔴 | [CONF] boot credit gate — **🔴 BIN-A** (CCC ≥9.65); holding wide. |
-| **CCC−BB dispersion** | **8.17** (8.07 [7/15]) | 7/20 [FRED] | 🔴 | [CONF] boot — disp ≥8.00 leg holds. Bin-A tree state unchanged (escalation, not fresh trip). |
-| **COT Lev Money NET** | **+10,189 / pct3y 99.4 EXTREME_LONG** | 7/14 report | 🔴 | [CONF] cftc_cot.py — 3y extreme long (KB-VIO-121), unchanged (no new release). **Next read: report-date 7/21 → Fri 7/24 3:30.** Mirror: Asset Mgr −43,329 / pct3y 3.8. |
-| **JPY vol (canary, LIVE)** | RV10 **3.95%** p9.8 CALM · IV/RV **2.75×** | 7/23 ~12:10 ET | 🟢 | [CONF] jpy_vol.py boot — RV near-floor; **MOF 7/22 PASSED CLEAN** (USDJPY 163.82 weakened, no carry unwind). IV/RV event premium not yet collapsed. FXY Sep-18 57DTE OI-wt call IV 10.8%. |
-| **OVX oil-vol (canary, LIVE)** | ratio **3.55 (p97.6) — FIRE** · OVX 70.36 (p95.5) | 7/23 ~12:10 ET | 🔴 | [CONF] ovx.py (KB-VIO-120) — oil-vol→equity-vol transmission channel LOADED at a near-full-history extreme; held FIRE through the equity-vol re-firm. Context canary → BRENT/HAWK + NEXUS, NOT an action-gate. |
-| SPX (ref, HENRY-owned) | ~7,544, near 7,530-45 flip band | 7/16 [HENRY] | 🟡 | [CONF HENRY 7/16 — STALE 5d] — flip ~7,530-45 (free-tracker ±err). Refresh from HENRY; neg-gamma amplification live if still at band. |
+| VIX Spot | **18.58** (18.70 [7/23], 16.64 [7/22], 17.05 [7/21]) | 7/24 close | 🟡 | [CONF] boot.py/yfinance — LOW_VOL. 7/23 high **20.31** broke the crack leg INTRADAY, rejected (close 18.70). No >20 SETTLE yet. |
+| VIX3M | **20.51** (20.60 [7/23]) | 7/24 close | 🟡 | [CONF] boot.py (fast_info settle-quality); 7/23 from HENRY OHLC |
+| **VIX3M/VIX** | **1.104** (1.102 [7/23], 1.071 [7/23 TICK]) | 7/24 close | 🟡 | [CONF] calc — re-steepened off the inversion approach; inversion leg (<1.0) receded. |
+| **VVIX** | **100.73** (102.17 [7/23], 95.55 [7/22]) | 7/24 close | 🟠 | [CONF] boot.py — holding just above the >100 watch line; the durable half of the 7/23 re-cross (fade line <100 not met). |
+| **SKEW** | **147.28** · path 151.66 [7/21] → 150.19 → 145.95 → 147.28 | 7/24 CBOE close | 🟠 | [CONF] yfinance — off the 150 line; >150 sustain BROKE at 2/4 (prediction-#6 filter refuses a third arm). 7/23 fade WITH the VIX spike = tails monetized/rolled toward ATM (HENRY reconcile), not extended. |
+| M1:M2 contango (adj) | **+3.92%** (+5.89% [7/22]) | 7/24 settle | 🟡 | [CONF] boot thresholds (VX/Q6/VX/U6) — BELOW_AVG, curve flattening toward the event. |
+| VIX options C/P OI | **3.08** (Vol 1.86) | 7/25 pull (7/24 OI) | 🟡 | [CONF] boot vix_options — call-heavy; 7/29-expiry C/P 1.54; 8/19 40C +115%, 9/16 65C +250% top adds = far-wing tail buying persists. |
+| **MOVE (rates vol)** | **80.08** (74.67 [7/21], 72.66 [7/20]) | 7/24 close | 🔴 | [CONF Yahoo web-verify 7/25; BOND cited ~80 for 7/23] — NEW re-escalation high, well through the 70-72 band + F1 72.41. Confirm-3 MET. N1 <66 stand-down far off. |
+| **CCC OAS** | **9.91** (9.77 [7/20], 9.70 [7/1]) | 7/23 [FRED] | 🔴 | [CONF] boot credit gate — 🔴 BIN-A, **FRESH widening to new episode highs** (not stuck-wide) — at the ~9.9-10.0 confirm-1 line. |
+| **CCC−BB dispersion** | **8.25** (8.17 [7/20]) | 7/23 [FRED] | 🔴 | [CONF] boot — disp ≥8.00 leg holds and extends; 0.05 short of the 8.3 confirm-1 line. |
+| **COT Lev Money NET** | **+3,098 / pct3y 92.9** (was +10,189 / 99.4 [7/14]) | 7/21 report [rel 7/24] | 🟠 | [CONF] cftc_cot.py — **PARTIAL UNWIND**: ~70% of the net long taken off into the 7/21 fade-day snap. Still EXTREME_LONG flag (>90) but confirm-2 FAILED (needed ≥95 + holding); fade line (<90) also unmet. Mirror: Asset Mgr −41,539 / pct3y 5.1. Next report-date 7/28, rel Fri 7/31. |
+| **JPY vol (canary, LIVE)** | RV10 **4.01%** p10.0 CALM · IV/RV **3.04×** | 7/24 | 🟢 | [CONF] jpy_vol.py — RV near-floor; IV/RV event premium WIDENED (2.75→3.04×) into **BOJ 7/30-31**; USDJPY 163.79. Carry crowding context: strongest carry year since 2005 (SIG-014) = crowded short-FX-vol behind the calm. |
+| **OVX oil-vol (canary, LIVE)** | ratio **3.66 (p98.1) — FIRE** · OVX 68.0 (p94.8) | 7/24 | 🔴 | [CONF] ovx.py — DEEPENED through the equity-vol fade (3.55→3.66); channel loaded at near-full-history extreme. Context canary → BRENT/HAWK, not an action-gate. Brent >$100 on actual tanker strikes + Jazan refinery hit [BOND/WALTER 7/23-25]. |
+| **Cheap-tail window** | **DORMANT 2/4** (L3 SKEW✅ + L4 catalyst✅; VIX 18.58 > 16, VVIX 100.73 > 90) | 7/24 settle | ⚪ | [CONF] cheap_tail.py — NOT at the complacency floor; tail prices mid-range. |
+| SPX (ref, HENRY-owned) | **7,408**, −88pts BELOW flip ~7,496 | 7/23 [HENRY] | 🔴 | [CONF HENRY 7/23 CBOE + 5-of-6 tracker sweep] — put wall 7,300-7,400 just below; net GEX ~−$45B/1%. |
 
 ---
 
@@ -35,9 +34,11 @@
 
 | Gate | State | Line | Distance / note |
 |------|-------|------|-----------------|
-| **GATE-VIO-116 (rates-vol shape)** | **RE-OPEN FIRED (7/21) — consequence = fold-into-004 (no new trade)** | Re-open = **MOVE re-escalation >70-72** | Re-open FIRED: MOVE 72.66 [7/20] / ~74.67 [7/21] > 72 band + 72.41 F1. Consequence: fold-into-TRY-FIRE-004 (FILLED, 30× TLT Sep-30 77P live) — long TLT puts already express long rates-vol/convexity → standalone MOVE-vol double-counts. Confirmation/state event, NOT new-trade trigger. Routes PROME→TERRY (shape)→Will [Approve]. Adjudication: `research/2026-07-21_vio116-reopen-adjudication.md`. |
-| **KB-VIO-110 tail-hedge** | **LAPSED (Will 7/9)** — vehicle spec retired | — | Successor = GATE-VIO-116's registered conditions. Fire-ledger: `PROME/GATES.tsv`. |
-| **F/N conditions (KB-VIO-116)** | **F1 FIRED · N2 tripped-but-premise-falsified** | F1 MOVE>72.41 · N1 MOVE<66 · N2 SKEW>148 | MOVE ~74.67 > 72.41 → **F1 fires** (N1 far off). SKEW 150.19 > 148 → **N2 technically trips BUT its "complacency unwinds WITHOUT stress" premise is FALSIFIED** by concurrent MOVE + credit Bin-A + OVX FIRE — SKEW here = tail-CONFIRMATION of stress, not benign stand-down. Net stress-side; re-open stands (flag only, no threshold moved). |
+| **KB-VIO-123 crack-vs-fade tree** | **INTERIM GRADE FILED (KB-VIO-125)** — crack-candidate ALIVE, not confirmed | Confirm: ①credit fresh ②COT ≥95 ③MOVE >75-76 ④VVIX 120 ⑤inversion settle ⑥VIX>20 settle | ① substantially met (CCC 9.91/disp 8.25) · ② FAILED (92.9, net −70%) · ③ MET (80.08) · ④ no (100.73) · ⑤ no (1.104) · ⑥ intraday-only (20.31 rejected). Final grade post-FOMC (Stale_By 7/30). |
+| **HENRY gamma gate (on any non-duplicative vol expression)** | **MET (7/23)** | Dealers short-gamma into FOMC | Confirmed 5-of-6 trackers; flip ~7,496 PINNED (spot fell away — do NOT say "doubled"); put wall 7,300-7,400 below spot (NOT breached); one dated dissent (SpotGamma morning note, pre-selloff). → **LIVE operator decision**, routes PROME→TERRY→Will [Approve]. |
+| **GATE-VIO-116 (rates-vol shape)** | **RE-OPEN FIRED — consequence = fold-into-004 (no new trade)** | Re-open = MOVE >70-72 | MOVE 80.08 extends the fire. 004 (30× TLT Sep-30 77P) already expresses long rates-vol; standalone add double-counts. Adjudication: `research/2026-07-21_vio116-reopen-adjudication.md`. |
+| **F/N conditions (KB-VIO-116)** | **F1 FIRED · N2 premise-falsified** | F1 MOVE>72.41 · N1 <66 · N2 SKEW>148 | MOVE 80.08 ≫ F1. SKEW 147.28 now BELOW 148 — N2 un-tripped (moot; its premise was falsified anyway). |
+| **KB-VIO-127 Karsan scored call** | **REGISTERED, resolves 7/31** | HIT = VIX ≥23 touch OR >20 settle-and-hold by 7/31 | External dated call (secondhand, C1); scores against the same FOMC tape. Base case (mine + WALTER's): miss. |
 
 ---
 
@@ -45,48 +46,47 @@
 
 | Vector | Score | Independence | Evidence | Last Updated |
 |--------|-------|--------------|----------|--------------|
-| Spot VIX elevation | 🟠 | SHARED (SPX options surface) | 19.86 [7/23 TICK] — RE-FIRMED +2.81 from 7/21, back at the 20 boundary. | 2026-07-23 |
-| Term structure inversion | 🟡 | SHARED (SPX options surface) | VIX3M/VIX 1.071 [7/23] — RE-COMPRESSED toward 1.0 (from 1.149); Monday's re-steepening reversed. Not inverted (needs <1.0). | 2026-07-23 |
-| VVIX stress | 🟠 | SHARED (SPX/VIX options surface) | 105.29 [7/23] — RE-CROSSED the >100 watch line (from 96.34). | 2026-07-23 |
-| Skew elevation | 🔴 | SHARED-partial (tail moneyness) | 150.19 [7/22 close] · 20d-avg 146.68 · p97 — top-decile; >150 sustain 2/4 (not yet meaningful); firming WITH the front-end = confirming, not diverging. | 2026-07-23 |
-| Front-curve complacency-extreme | 🟡 | SHARED (VX futures curve) | M1:M2 adj +5.89% [7/22 settle] — NORMAL_TO_ELEVATED. | 2026-07-23 |
-| **Credit-to-vol transmission** | 🔴🔴 | **INDEPENDENT** (FRED credit chain) | 🔴 BIN-A holds (CCC 9.77 / disp 8.17 [7/20]). | 2026-07-23 |
-| **MOVE / rates vol** | 🔴 | **INDEPENDENT** (OTC rates-options complex) | **~74.67 [7/21, latest web] — re-open FIRED and EXTENDED (68.48→70.88→72.66→74.67); 7/23 print pending web post.** | 2026-07-23 |
-| **COT positioning / vol-supply** | 🔴 | **INDEPENDENT** (CFTC TFF) | **[7/14]: lev-money +10,189, pct3y 99.4 (3y extreme long); Asset Mgr −43,329, pct3y 3.8.** Unchanged; next read Fri 7/24. | 2026-07-23 |
-| GEX / dealer positioning (ref, HENRY) | 🟡 | SHARED (SPX options positioning) | Flip ~7,530-45 [HENRY 7/16, ±err, STALE 5d] — refresh from HENRY. | 2026-07-16 (HENRY) |
-| Index concentration / leverage (Path-B) | 🔴 | Semi-INDEPENDENT (VULCAN owns capex mechanism) | WALTER SIG-020 flow layer + SOX bear-market (SIG-007) + dealer long-gamma halved (SIG-009) + $1.65T off-B/S hyperscaler debt (SIG-002) + SMCI Q4 prelim (SIG-008) = concentration-fragility stack into 7/29-8/1 megacap earnings. | 2026-07-23 |
-| JPY carry→vol (canary) | 🟢 | INDEPENDENT (FX RV + FXY IV) | RV10 3.95% p9.8 CALM; MOF 7/22 passed clean (USDJPY 163.82, no unwind); IV/RV 2.75×. LIVE canary. | 2026-07-23 |
-| Oil/geopolitical→vol (canary) | 🔴 | INDEPENDENT (oil complex; VIOLET owns transmission read) | OVX/VIX ratio 3.55 (p97.6 FIRE), OVX 70.36 (p95.5) — transmission channel LOADED, held FIRE through the equity-vol re-firm. Context signal (KB-VIO-120), not a trade gate. | 2026-07-23 |
+| Spot VIX elevation | 🟡 | SHARED (SPX options surface) | 18.58 [7/24]; 7/23 high 20.31 REJECTED (vol sold into the spike). | 2026-07-25 |
+| Term structure inversion | 🟡 | SHARED | 1.104 [7/24] — re-steepened; inversion leg receded. | 2026-07-25 |
+| VVIX stress | 🟠 | SHARED | 100.73 [7/24] — holding just above the >100 line. | 2026-07-25 |
+| Skew elevation | 🟠 | SHARED-partial | 147.28 [7/24]; >150 sustain broke 2/4; 7/23 tail-monetization texture. | 2026-07-25 |
+| Front-curve complacency-extreme | 🟡 | SHARED (VX curve) | M1:M2 adj +3.92% [7/24] — flattening toward the event. | 2026-07-25 |
+| **Credit-to-vol transmission** | 🔴🔴 | **INDEPENDENT** (FRED credit chain) | Bin-A + **FRESH widening**: CCC 9.91 / disp 8.25 [7/23] = new episode highs — confirm-1 substantially met. | 2026-07-25 |
+| **MOVE / rates vol** | 🔴 | **INDEPENDENT** (OTC rates-options) | **80.08 [7/24, verified] — new high; confirm-3 MET.** 68.48→70.88→72.66→74.67→80.08. | 2026-07-25 |
+| **COT positioning / vol-supply** | 🟡 | **INDEPENDENT** (CFTC TFF) | **PARTIAL UNWIND** [7/21]: +3,098 / pct3y 92.9 (from +10,189 / 99.4). Confirm-2 failed; the one independent softener. | 2026-07-25 |
+| GEX / dealer positioning (ref, HENRY) | 🔴 | SHARED (SPX options positioning) | **Short-gamma 5-of-6 confirmed**; SPX −88pts below flip ~7,496; put wall just below. Amplifier ON, igniter (VIX>23) never touched. | 2026-07-23 (HENRY) |
+| Index concentration / leverage (Path-B) | 🔴 | Semi-INDEPENDENT (VULCAN mechanism) | **Trigger reshaped (VULCAN 7/22): returns-case repricing LIVE NOW** — GOOGL −5% on a capex RAISE; VULCAN-09 confirm = ≥2 of MSFT/META/AMZN also fall on raises 7/29-30. + **KB-VIO-126: record-low correlations suppress index vol (index 16.6 vs single-stock 50.2 [7/22]); semis 2nd-highest constituent IV on record into earnings.** | 2026-07-25 |
+| JPY carry→vol (canary) | 🟢 | INDEPENDENT (FX RV + FXY IV) | CALM (RV p10.0) but IV/RV widened to 3.04× into BOJ 7/30-31; carry crowding = crowded short-FX-vol (SIG-014). | 2026-07-25 |
+| Oil/geopolitical→vol (canary) | 🔴 | INDEPENDENT (oil complex) | OVX/VIX 3.66 (p98.1) FIRE — deepened through the equity fade; Brent >$100 on kinetic strikes. | 2026-07-25 |
 
-*Independence structure (DAEDALUS L4 #2): the equity-vol vectors share ONE antecedent (SPX/VIX options surface) — VVIX/term-structure/SKEW/VIX moving together is ONE signal, not four. Genuine multi-channel confirm comes from the INDEPENDENT vectors. Today: credit 🔴, MOVE 🔴, COT 🔴, OVX 🔴 all firing; JPY 🟢 calm. **Four of five independent vectors on the stress side simultaneously — the strongest independent-confirm alignment of this de-compression.** The equity-vol re-firm rejoins that stress rather than diverging from it.*
-
-**Convergence Score:** not mechanically re-scored (convergence_score.py not re-run this session). Qualitative: front-end re-firm rejoined the elevated independent stress vectors; only the two missing legs (actual inversion <1.0, VIX >20 break) separate this from a confirmed crack.
+*Independence read: credit 🔴 (fresh) + MOVE 🔴 (new high) + OVX 🔴 (deepened) still firing; COT downgraded to 🟡 (partial unwind); JPY 🟢. **Three of five independent vectors on the stress side, one softened, one calm** — vs four-of-five on 7/23. The shared surface faded Friday, but per the KB-VIO-123 discriminator that's the fade-prone signal class; the independent set made new highs.*
 
 ---
 
 ## REGIME STATUS
 
-**LOW_VOL at the RISING_VOL boundary (VIX ~19.86), with the 7/21 front-end/tail divergence resolved to the upside — the front-end rejoined the stress.** The equity-vol surface re-firmed over 7/22-7/23 (VIX 17.05→19.86, VVIX 96.34→105.29 back >100, VIX3M/VIX 1.149→1.071 re-compressing toward inversion) after Monday's brief fade toward complacency. The INDEPENDENT stress vectors that were the real signal all remain firing: **MOVE re-open FIRED (~74.67)**, credit 🔴 Bin-A, **OVX FIRE (ratio p97.6)**, **COT 3y-extreme-long (pct3y 99.4)**; JPY carry calm (MOF 7/22 passed clean). **Honest read: strengthening-candidate — the front-end has now joined the independent stress, four of five independent vectors are firing, but the two confirming legs (term-structure inversion <1.0, VIX break >20) are NOT yet met. FOMC 7/29 (4 td) inside a buyback blackout + the 7/29-8/1 megacap earnings cluster = the obvious catalyst path the coiled setup is pricing.**
+**LOW_VOL (VIX 18.58), post-rejection: the >20 crack leg fired INTRADAY 7/23 (20.31, episode high) and was sold back — a failed breakout two trading days before FOMC.** The equity-vol surface enters the event off the boil (ts 1.104, SKEW 147, VVIX ~101) while the independent stress made new highs (CCC 9.91 fresh, MOVE 80.08, OVX p98.1) and dealers sit SHORT gamma (5-of-6 confirmed) with SPX just above put-wall support. Two mechanical suppressors are flattening the headline VIX print (KB-VIO-108 hedge-composition rotation; KB-VIO-126 record-low correlations — index vol 16.6 vs single-stock 50.2). **Honest read: crack-candidate ALIVE but unconfirmed — COT positioning partially de-risked, no inversion, no >20 settle. FOMC 7/29 (2 td) + BOJ 7/30-31 + MSFT/META 7/29 / AMZN 7/30 inside a buyback blackout is the densest catalyst window of the episode, with the amplifier (short gamma) on and the igniter (VIX>23, HENRY's vol-control line) never yet touched.**
 
-**VIOLET posture:** NO position (unchanged). GATE-VIO-116 re-open (MOVE >70-72) FIRED; consequence = fold-into-004 (live), no new standalone trade. Any escalation routes PROME → TERRY (rates-vol/duration), Will [Approve]. jpy_vol + OVX canaries LIVE (JPY CALM, OVX FIRE).
+**VIOLET posture:** NO position. **LIVE operator decision surfaced (KB-VIO-125): the registered gate for a non-duplicative equity-vol expression is MET, and the registered window (pre-FOMC, VIX<20) is now.** Counterweights: cheap_tail DORMANT 2/4 (not floor prices); GEX-absorption base rate has eaten every catalyst this cycle (though each prior one was absorbed by LONG-gamma dealers — that mechanism is now inverted). Vehicle discipline if pursued: defined-risk VIX call SPREADS or nothing (004 already carries the rates-vol leg); event-boxed; PROME→TERRY→Will [Approve].
 
-*Full framework: `thesis/VIX_THESIS.md` (v3.6 — not bumped; surface read, not a thesis event). Trade framework: `TRADE.md`.*
+*Full framework: `thesis/VIX_THESIS.md` v3.6 (not bumped — grading + surface session, no thesis event). Trade framework: `TRADE.md`.*
 
 ---
 
 ## POSITION SNAPSHOT
 
-**No open positions.** Unchanged. KB-VIO-099 ladder + falsification architecture unchanged (KB-VIO-107 for full text).
+**No open positions.** Unchanged. Fleet-adjacent: TRY-FIRE-004 (30× TLT Sep-30 77P) is the live rates-vol/convexity expression GATE-VIO-116 folds into.
 
 ---
 
 ## CROSS-AGENT SIGNALS
 
-- **Inbox consumed (7/23):** WALTER SIG-002 ($1.65T off-B/S hyperscaler AI-infra debt — Meta $420B + Oracle $273B confirmed; action=VULCAN, VIOLET INFO) + SIG-008 (SMCI Q4 FY26 prelim: low-end revs, margin beat, >$60B orders; action=VULCAN, VIOLET INFO). Both → concentration/Path-B fragility stack; no discrete VIOLET action. board_log +2 (info-only), files → processed/.
-- **VIOLET → HENRY / RED / NEXUS (7/23):** the 7/21 front-end/tail divergence resolved UP — VIX ~20 + VVIX re-crossed 100 + term-structure re-compressing toward inversion = the equity-vol surface rejoined the independent stress (MOVE/credit/OVX/COT). Strengthening-candidate; missing legs = actual inversion + VIX>20 break.
-- **VIOLET → BOND / NEXUS (7/23):** MOVE re-open stays FIRED (~74.67 [7/21]); 7/23 print pending web post. Rates substance BOND's; VIOLET owns the transmission read + gate.
-- **VIOLET → BRENT / HAWK (7/23):** OVX canary held FIRE through the equity-vol re-firm (ratio 3.55/p97.6). Oil substance yours; VIOLET flags the transmission channel loaded (context, not action-gate).
-- **VIOLET → SAM (7/23):** jpy_vol MOF 7/22 passed clean (USDJPY 163.82, no carry unwind); IV/RV 2.75× event premium not yet fully collapsed. Your MOF substance + VIOLET transmission gauge reconcile.
+- **Consumed (7/25):** HENRY 3-packet gamma chain + vol-surface reconcile [7/23] — gate answer delivered (short-gamma 5-of-6; two retractions honored: no "doubled", no "through both walls"; SpotGamma dissent date-stamped). WALTER SIG-004 (COT de-risk read — superseded by live 7/21 print), SIG-006 (Karsan call → KB-VIO-127 scored test), SIG-014 (carry crowding → jpy_vol context), SIG-015 (correlation suppression → KB-VIO-126). VULCAN 7/22 (Path-B trigger reshaped: returns-case repricing; VULCAN-09 = ≥2 of MSFT/META/AMZN fall on raises 7/29-30). DEWEY 7/20 (CTA cushion directional-yes/level-no; $464bn figure do-not-propagate — CALENDAR corrected). DAEDALUS 7/22 (KOSPI amplifier → CANARY_MAP Tier-2, VIOLET-owned; write-back sent, PAT-032 closed).
+- **VIOLET → HENRY / RED / NEXUS:** interim grade KB-VIO-125 — Friday fade is shared-surface-alone; independent channels made new highs; your short-gamma read is now load-bearing in a live operator decision. Igniter line respected: VIX>23 never touched (episode high 20.31).
+- **VIOLET → LIQUID:** your freshness question answered from FRED directly — CCC 9.91/disp 8.25 [7/23] is FRESH widening to new episode highs, not stuck-wide (confirm-1 substantially met). Breadth decomposition still yours if Bin-A escalates further.
+- **VIOLET → BOND / NEXUS:** MOVE 80.08 [7/24 verified] — new re-escalation high; your 7/23 ~80 and my web print reconcile. GATE-VIO-116 consequence unchanged (fold-into-004).
+- **VIOLET → SAM:** jpy_vol IV/RV WIDENED to 3.04× into BOJ 7/30-31 (not collapsing post-MOF) — event premium re-loading, coheres with SIG-014 carry-crowding. Your yen call; my transmission gauge.
+- **VIOLET → BRENT / HAWK:** OVX canary deepened to 3.66/p98.1 FIRE through the equity-vol fade; Jazan strike + Brent >$100 on your side of the seam.
 
 ---
 
@@ -94,25 +94,24 @@
 
 | Priority | Topic | Status |
 |----------|-------|--------|
-| 🔴 | **FOMC 7/29 (4 td)** — first FOMC of the Fed-HIKE regime; tests the 6/17 dot-flip follow-through. Watch VIX>20 break + term-structure inversion into/through the decision. | LIVE — nearest catalyst. |
-| 🔴 | **Grade the report-date-7/21 COT lev-money print at 3:30 Fri 7/24** — does the pct3y-99.4 extreme-long PERSIST / deepen / unwind? | Standing (weekly). |
-| 🟠 | **Web-verify MOVE daily** (Yahoo daily dead; Yahoo/CNBC/investing.com quote). ~74.67 [7/21] latest; 7/23 print not yet posted. | Standing. |
-| 🟠 | **Term-structure inversion + VIX>20 watch** — the two missing crack legs; both close (1.071 / 19.86). | NEW 7/23. |
-| 🟠 | **jpy_vol IV/RV post-MOF** — MOF 7/22 passed clean; watch whether IV/RV collapses toward 1× now the event is behind (risk-passed) or holds (residual carry risk). | Carried. |
-| 🟡 | **M1:M2 detail · broad equity put/call · HY/BB ladder · VIX9D** — not refreshed this session. *(20d SKEW avg recomputed 7/23 → 146.68, logged to SKEW row.)* | Carried. |
-| 🟡 | **VULCAN S1 (Path-B capex mechanism)** — fold in ahead of the 7/29-8/1 megacap stack; sets NDX-SPX IV-dispersion canary line. Now has SIG-002/008 data feeding it. | Carried. |
-| ✅ | **Cheap-tail window alert** — BUILT 7/23 (`scripts/cheap_tail.py`, KB-VIO-124), Will-directed. Operator-decision SETUP surface flagging the complacency floor (VVIX≤90·VIX≤16·SKEW≥140·catalyst≤21d); boot-wired, CANARY_MAP Tier-1. Today DORMANT 2/4; would have fired 7/10. | DONE 7/23. |
-| 🟣 | **Refresh BOTH Will-facing Artifacts after FOMC 7/29** (living references, same URLs) — `artifacts/vol_cheatsheet.html` (gauges explainer) + `artifacts/violet_operating_picture.html` (live agent state + how-to-read). Pointers: auto-memory `reference_violet_vol_cheatsheet` · `reference_violet_operating_picture`. | Standing (post-FOMC). |
-| ⚪ | **PAT-032 disposition note to DAEDALUS** — cross-dir write, route via PROME. | Owed. |
+| 🔴 | **FOMC 7/29 (2 td) — final KB-VIO-123 grade (Stale_By 7/30).** Watch: VIX>20 SETTLE + inversion <1.0 settle + whether the short-gamma amplifier meets a catalyst. BOJ 7/30-31 + MSFT/META 7/29 + AMZN 7/30 stack the window. | LIVE. |
+| 🔴 | **Operator decision pending: non-duplicative pre-FOMC expression** (gate met; window open; cheap_tail says mid-range prices). Routes PROME→TERRY→Will [Approve]. | SURFACED 7/25. |
+| 🟠 | **KB-VIO-127 Karsan call — score by 7/31** (HIT = VIX≥23 touch or >20 settle-and-hold). | Registered. |
+| 🟠 | **KB-VIO-126 falsification hook — grade after earnings week:** correlations up + single-stock vol down = benign base case wins. | Registered. |
+| 🟠 | **VULCAN-09 watch:** do ≥2 of MSFT/META/AMZN fall on capex raises 7/29-30? Confirms returns-case repricing as the live Path-B driver. VULCAN owns; VIOLET consumes for the vol read. | NEW 7/25. |
+| 🟡 | **COT next report-date 7/28, release Fri 7/31** — did the unwind continue through FOMC? | Standing (weekly). |
+| 🟡 | **VIX9D · broad equity put/call · HY/BB ladder** — not refreshed this session. | Carried. |
+| 🟣 | **Refresh BOTH Will-facing Artifacts after FOMC 7/29** (same URLs) — `artifacts/vol_cheatsheet.html` + `artifacts/violet_operating_picture.html`. Pointers: auto-memory `reference_violet_vol_cheatsheet` · `reference_violet_operating_picture`. | Standing (post-FOMC). |
+| ✅ | ~~PAT-032 DAEDALUS write-back~~ — sent 7/25 (KOSPI watch line placed + L4 disposition). | DONE. |
 
 ---
 
 ## THESIS CONNECTION
 
-**v3.6 (unchanged).** This session: surface read + inbox processing. The 7/21→7/23 move is within the existing frame — the shared-antecedent equity-vol surface re-firmed to rejoin the independent stress vectors; no new transmission channel, conviction shift, or phase transition. Standing frame holds: equity-vol is one shared antecedent, genuine confirms come from the independent vectors (credit/MOVE/COT/OVX/JPY) — today four of five are on the stress side, the strongest alignment of this de-compression, but the two crack-completing legs (inversion <1.0, VIX>20) are not yet met.
+**v3.6 (unchanged).** Grading session, not a thesis event. The frame performed: the locked KB-VIO-123 tree absorbed a messy week (intraday break-and-reject, COT unwind, fresh credit) without re-derivation, and the shared-vs-independent discriminator is doing exactly the work it was registered to do. One structural note for the next thesis pass: TWO mechanical index-vol suppressors are now named (KB-VIO-108 composition, KB-VIO-126 correlation) — "low VIX" increasingly needs decomposition before it carries evidentiary weight in either direction.
 
 *Core hypothesis: `thesis/VIX_THESIS.md` v3.6. POV log: `thesis/CHANGELOG.md`.*
 
 ---
 
-*Last updated: 2026-07-23 ~12:15 ET (Will-directed sit-rep boot + full write-back). **7/23 INTRADAY — 7/21 DIVERGENCE RESOLVED UP:** front-end re-firmed (VIX 17.05→19.86, VVIX 96.34→105.29 back >100, VIX3M/VIX 1.149→1.071 re-compressing toward inversion) to rejoin the elevated independent stress (MOVE ~74.67 re-open FIRED, credit Bin-A CCC 9.77/disp 8.17, OVX ratio 3.55/p97.6 FIRE, COT 7/14 pct3y 99.4 extreme-long; JPY CALM, MOF 7/22 passed clean). Four of five independent vectors on the stress side — strongest alignment of this de-compression — but the two crack legs (inversion <1.0, VIX>20 break) NOT yet met = strengthening-candidate, not confirmed crack. FOMC 7/29 (4 td) = catalyst path. Values are intraday TICK; SKEW/credit T-1; COT 7/14 (next read Fri 7/24). Inbox: 2 WALTER AI-capex INFO signals consumed → processed/, board_log +2. GATE-VIO-116 re-open stays FIRED (fold-into-004, no new trade). No position. KB-VIO-122 filed. Prior stamp: 2026-07-21 ~19:20 ET (PROME eve — divergence sharpened, front-end faded while tails firmed).*
+*Last updated: 2026-07-25 ~15:15 ET (Saturday boot, Will-directed sit-rep + full write-back). Data through 7/24 close (credit 7/23 T-1, COT 7/21 report). Settle-path correction applied (7/22 low 16.64; 7/23 spike-reject 20.31→18.70). KB-VIO-125 (interim tree grade), -126 (correlation suppression), -127 (Karsan scored call) filed. HENRY gamma chain consumed (gate MET). Inbox cleared (4 WALTER + 4 HENRY + VULCAN + DEWEY + DAEDALUS → processed). CANARY_MAP: KOSPI amplifier Tier-2 VIOLET-owned. backfill.py holiday guard relaxed (was eating real days on Yahoo ^VIX3M lag); VX_DAILY repaired 7/20-7/24. Prior stamp: 2026-07-23 ~12:15 ET.*

@@ -108,10 +108,14 @@ def backfill_spot(days: int, rows: dict[str, dict]) -> int:
     # Combine into aligned date index
     df = pd.concat(hist, axis=1).dropna(how="all")
     # Holiday guard: yfinance ^VIX sometimes carries forward on US market holidays
-    # (e.g. Memorial Day) while companion tickers correctly skip. Require ^VIX3M
-    # corroboration; an orphan ^VIX row is treated as a phantom and dropped.
-    if "vix3m" in df.columns:
-        df = df[df["vix3m"].notna()]
+    # (e.g. Memorial Day) while companion tickers correctly skip. Require at least
+    # ONE companion index (^VIX3M/^VVIX/^SKEW) — on a true holiday ALL of them skip.
+    # (Was ^VIX3M-only, which silently dropped real trading days whenever Yahoo's
+    # ^VIX3M daily history lagged — it ran 7/18-7/23/2026 behind while ^VVIX/^SKEW
+    # were current, eating the 7/20-7/24 rows. Relaxed 2026-07-25.)
+    companions = [c for c in ("vix3m", "vvix", "skew") if c in df.columns]
+    if companions:
+        df = df[df[companions].notna().any(axis=1)]
 
     touched = 0
     for d, series in df.iterrows():
