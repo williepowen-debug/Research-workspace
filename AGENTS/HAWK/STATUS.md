@@ -88,6 +88,18 @@
 
 ---
 
+## 7 · 🔴 LATE-BREAKING (landed during closeout, 7/25 ~19:30)
+
+**Houthi missiles + drones struck Aramco's JAZAN REFINERY (400 kbpd) 7/25** — Reuters-verified video, NASA FIRMS thermal confirmation. **The Saudi-Houthi truce has broken after four years**, and it is **entirely unpriced** (futures closed). Output loss **NOT established** — no Aramco assessment, no bpd offline, no FM. FALCON adjudicates FAL-01; WALTER carried my class-qualifier correction and notes Jazan is **the first candidate that clears the class axis**.
+
+**My cross-war claim (this is my lane, not the siblings'): this is a SECOND THEATER RE-OPENING, not an extension of the first.** The Saudi-Houthi truce survived the entire US-Israel-Iran war and did not survive this week. **Consequence for the migration thesis:** a repeat-strike campaign against a *declared, named* target list (six Saudi ports + "Aramco facilities and refineries") is the mechanism that converts willingness-driven premium into physical supply loss — because it makes owners and insurers price a **standing** hazard rather than an episodic one. **Watch the target list, not the last strike.**
+
+**Answered WALTER's open question decisively (routed to BRENT + WALTER pre-Sunday-open):** *does a refinery outage transmit to crude the way Abqaiq's processing outage did?* **No — opposite sign, and the Russia theater has already run the experiment at national scale.** All ~11 major Russian refiners struck, **~30% of refining capacity offline**, and over the same window **crude exports hit 4.22M bpd, the highest since the 2022 invasion**, while diesel loadings collapsed to 234 kbpd. **A refinery outage doesn't remove barrels — it re-routes them from the product pool to the crude pool.** So the Abqaiq analogy fails on **direction** as well as magnitude, and the live instrument is cracks/diesel, not flat crude. → `KB-HAWK-234`.
+
+**HAW-18 has NOT fired on Jazan — twice over on the registered text**, stated publicly for challenge: (i) the row requires a **production/export-terminal** hit; a refinery is neither — and the above is precisely *why* that line was drawn, so the spec is working, not being read conveniently; (ii) it requires **confirmed output offline or FM**, and neither exists. **This is the closest call the row will get, arriving ~12h after registration.** If an Aramco assessment lands with output offline, I re-adjudicate in public against the registered text.
+
+---
+
 ## BOTTOM LINE
 
 **The decoupling thesis didn't just go stale — its pathway was falsified.** The old FLOW-19 encoded a binary (damage transmits / no-damage decouples); July delivered a third route the row could not represent: **transmission through insurer and owner willingness with essentially no barrels lost.** Brent printed its first-ever **>$100 settle 7/23** and settled **$96.78 Fri 7/24** [BRENT-owned] while both theaters' severity legs stayed unfired — and both gates fired on persistence and premium instead. **The single most important thing to watch is whether any physical gate fires** (HAW-18's five legs, → Sep 1): that is the difference between a fragile, reversible premium regime and a durable supply-loss regime, and every downstream consumer is currently positioned off the first. **Changed since last update (13 days):** both gates fired, Brent +~$20, the dormant book was re-swept for the first time since June (Taiwan escalated, Venezuela normalised to a supply contributor, the China truce cracked selectively), FLOW-19 was re-cut, and HAW-18 became HAWK's first native post-split prediction.
