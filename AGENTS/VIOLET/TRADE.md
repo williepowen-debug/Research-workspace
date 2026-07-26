@@ -62,6 +62,14 @@ VIX-linked positions and trade framework.
 
 ---
 
+## LIVE DECISION FRAMEWORK — Pre-FOMC Defined-Risk VIX Call Spread (Will: "ok build," 2026-07-25) — **IN CONSTRUCTION (TERRY)**
+
+**Stage:** Will approved **BUILD in principle** 7/25 (live session) off the KB-VIO-125 surfaced decision — the registered KB-VIO-123 gate (dealers short-gamma into FOMC) was MET 7/23 (HENRY, 5-of-6 corroborated). **Construction request delivered to TERRY** (`AGENTS/TERRY/inbox/2026-07-25_from-VIOLET_CONSTRUCTION-REQ-prefomc-vix-call-spread-will-approved-build.md`, cc PROME) — that packet is canonical for constraints/structure inputs/exit discipline; this section is the position-side pointer, not a duplicate.
+
+**Frame (one paragraph):** equity-vol expression ONLY (TRY-FIRE-004's 30× TLT Sep-30 77P owns the rates-vol leg — no MOVE-linked double-count); defined-risk call spread, never outright calls; entry window **Mon 7/27–Tue 7/28 pre-FOMC with VIX <20** — expires at the 7/29 decision; do-not-chase = VIX ≥20 settle or inversion <1.0 pre-fill (peak-marker, KB-VIO-034); strike zone from the KB-VIO-099 sub-20 ladder (long ~20-22 / short 26-30; 23-touch modal, don't pay for the ≥+50% tail at 56-60%); event-boxed with MANDATORY post-FOMC review 7/30, monetize into a ≥23 touch or inversion, no roll without fresh approval. Counter-case on the card: 0/5 absorption base rate, 7/23's sold 20.31 break, COT cushion partially rebuilt, cheap_tail DORMANT 2/4 (mid-range prices). **Final gate: TERRY card + live Monday quotes → Will [Approve] before execution.**
+
+---
+
 ## LIVE DECISION FRAMEWORK — Gated Tail-Hedge Packet (Will-approved gate, 2026-07-01 ~11:30 PM ET, flat) — **ARMED**
 
 **Authorization scope (exact):** Will approved the GATE on 7/1 ("Approved on the gate — build the packet if it fires"). That authorizes VIOLET to **build and deliver the hedge packet same-session when any gate fires**. It does NOT pre-authorize execution — the packet still goes to Will for [Approve] per standing rule.
@@ -214,4 +222,4 @@ Inversion (VIX > VIX3M) **marks vol peaks, not onsets** (KB-VIO-034: 553 events,
 ---
 
 *Created: 2026-04-12*
-*Last Updated: 2026-07-02 (body content — Gate B NO-FIRE adjudication et al.; footer date corrected 2026-07-11 per DAEDALUS L4 packet #6, no substantive body change today). **⚠️ Staleness pointer (2026-07-11):** the KB-VIO-110 tail-hedge gate and its VIX-calls 30-60 DTE vehicle spec in the body were ruled **LAPSED by Will 2026-07-09** — the vehicle spec is RETIRED; any re-opened hedge is rates-vol/duration-shaped (TERRY lane). See STATUS.md GATE TRACKER + KB-VIO-113 + `research/2026-07-11_move-led-vol-hedge-fresh-look.md` (registered fire/no-fire conditions). Body gate-sections not yet rewritten — proposed follow-up. Prior entries: 2026-07-01 Reversion Fade CLOSED — FALSIFIED by first-ever Bin-A fire, KB-VIO-107 — no fade/short-vol constructible while Bin-A stands; 2026-06-23 PM Reversion Fade pre-registration.)*
+*Last Updated: 2026-07-25 (NEW live framework: Pre-FOMC Defined-Risk VIX Call Spread — Will-approved build-in-principle, TERRY constructing, final [Approve] on live Monday quotes; canonical packet in TERRY's inbox. Prior: 2026-07-02 body content — Gate B NO-FIRE adjudication et al.; footer date corrected 2026-07-11 per DAEDALUS L4 packet #6, no substantive body change today). **⚠️ Staleness pointer (2026-07-11):** the KB-VIO-110 tail-hedge gate and its VIX-calls 30-60 DTE vehicle spec in the body were ruled **LAPSED by Will 2026-07-09** — the vehicle spec is RETIRED; any re-opened hedge is rates-vol/duration-shaped (TERRY lane). See STATUS.md GATE TRACKER + KB-VIO-113 + `research/2026-07-11_move-led-vol-hedge-fresh-look.md` (registered fire/no-fire conditions). Body gate-sections not yet rewritten — proposed follow-up. Prior entries: 2026-07-01 Reversion Fade CLOSED — FALSIFIED by first-ever Bin-A fire, KB-VIO-107 — no fade/short-vol constructible while Bin-A stands; 2026-06-23 PM Reversion Fade pre-registration.)*

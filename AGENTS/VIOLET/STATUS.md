@@ -95,7 +95,7 @@
 | Priority | Topic | Status |
 |----------|-------|--------|
 | 🔴 | **FOMC 7/29 (2 td) — final KB-VIO-123 grade (Stale_By 7/30).** Watch: VIX>20 SETTLE + inversion <1.0 settle + whether the short-gamma amplifier meets a catalyst. BOJ 7/30-31 + MSFT/META 7/29 + AMZN 7/30 stack the window. | LIVE. |
-| 🔴 | **Operator decision pending: non-duplicative pre-FOMC expression** (gate met; window open; cheap_tail says mid-range prices). Routes PROME→TERRY→Will [Approve]. | SURFACED 7/25. |
+| 🔴 | **Pre-FOMC expression: Will said "ok build" (7/25)** — construction request in TERRY's inbox (cc PROME); entry window Mon 7/27–Tue 7/28 only; final Will [Approve] on live Monday quotes. TRADE.md carries the framework pointer. | **IN CONSTRUCTION (TERRY).** |
 | 🟠 | **KB-VIO-127 Karsan call — score by 7/31** (HIT = VIX≥23 touch or >20 settle-and-hold). | Registered. |
 | 🟠 | **KB-VIO-126 falsification hook — grade after earnings week:** correlations up + single-stock vol down = benign base case wins. | Registered. |
 | 🟠 | **VULCAN-09 watch:** do ≥2 of MSFT/META/AMZN fall on capex raises 7/29-30? Confirms returns-case repricing as the live Path-B driver. VULCAN owns; VIOLET consumes for the vol read. | NEW 7/25. |
