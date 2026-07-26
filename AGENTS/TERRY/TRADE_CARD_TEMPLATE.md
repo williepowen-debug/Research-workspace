@@ -53,10 +53,25 @@ Copy this into `setups/YYYY-MM-DD_<ticker>_<structure>.md` for every actionable 
 - **Why this expression:** [risk/reward/timing/liquidity]
 
 ## 6. Risk / scoring
+
+### 6a. EFFECTIVE-N — independence audit (MANDATORY; complete before sizing)
+> *Size to what is genuinely independent, not to how many reasons you can list. Adopted 2026-07-26 (Will-approved) — see `research/SIGNAL_COMBINATION_2026-07-26.md` SC-03.*
+
+| Field | Entry |
+|---|---|
+| **Claimed corroborating legs (N_claimed)** | [how many separate reasons/positions support this] |
+| **Shared antecedent(s)** | [the ONE event/fact that would kill more than one leg at once — name it, or write "none found"] |
+| **EFFECTIVE N (N_eff)** | [the honest independent count + one line of reasoning] |
+| **Sizing reference** | **size to N_eff, never to N_claimed** |
+
+- If **N_eff = 1**, say so plainly and size as a single view — however many legs are listed.
+- If `N_claimed > N_eff` and the sizing does not reflect the gap, **that is the finding** — flag it before Will sees the card.
+- Applies to *book* independence too: does this card share a falsifier with a position already on?
+
 - **Risk unit / max loss budget:** [$ / % / R]
 - **Edge estimate:** [qualitative or quantified; if probability-style, p_model vs p_market]
-- **Kelly reference:** [if applicable; fractional/capped only, never full Kelly]
-- **Sizing proposal:** [contracts/shares/notional; conditional if portfolio unknown]
+- **Kelly reference:** [if applicable; **0.25× cap or lower, never full Kelly** — and never the `f×(1−CV)` variant, which is looser (SC-05, REJECTED)]
+- **Sizing proposal:** [contracts/shares/notional; conditional if portfolio unknown] — **must be consistent with N_eff above**
 - **Invalidation:** [price / thesis / time]
 - **Stop / hedge / exit rule:** [mechanical rule]
 - **Gap/event risk:** [known failure mode]

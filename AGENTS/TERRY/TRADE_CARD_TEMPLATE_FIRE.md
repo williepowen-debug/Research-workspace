@@ -26,6 +26,11 @@ ZONE 1 — PRE-LOCKED (written in advance; do NOT re-derive at fire)
 - **Why this expression:** [duration/convexity/liquidity rationale]
 - **Alternatives rejected:** [one line — e.g. "equity put bleeds theta; spread caps convexity"]
 - **Max-loss budget:** $500 per card (set by Will 2026-06-26)
+- **★ EFFECTIVE-N (pre-derivable — write it at build, not at fire):**
+  - `N_claimed` = ____ (separate reasons/legs supporting this)
+  - `shared antecedent` = ____ (the ONE event that kills more than one — or "none found")
+  - **`N_eff` = ____** — *size to this, never to N_claimed*
+  - *Book check:* does this share a falsifier with a position already on? ____
 - **Invalidation (thesis/price/time):** [what proves it wrong]
 - **Kill line:** [the level/event that says STOP]
 - **Confirm line:** [the corroborator that says GO bigger / hold]
@@ -52,6 +57,7 @@ ZONE 3 — TRIGGER CONFIRM + DECISION
 - [ ] Live marks pulled (prices + chain, < 15 min old)
 - [ ] Green/red rule satisfied or break justified
 - [ ] Liquidity acceptable
+- [ ] **EFFECTIVE-N stated and sizing is consistent with `N_eff` (not `N_claimed`)**
 - [ ] Max loss ≤ budget; sizing computed
 - [ ] Position truth known (or flagged unknown)
 

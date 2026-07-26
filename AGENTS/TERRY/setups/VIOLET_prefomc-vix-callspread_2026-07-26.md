@@ -100,6 +100,20 @@ Registered ladder KB-VIO-099 (sub-20-entry episode economics): **23-touch is mod
 
 **Book concentration — this one is genuinely additive.** Unlike the DHI/PHM card that got lapsed for deepening the same higher-for-longer book, this is **equity-vol**, a different axis from every live leg: 004 (rates-vol), the USO Sep call spread + XLE (oil-long), the regional-bank put basket (credit). VIOLET's constraint #1 enforces exactly that separation. **It is a diversifier, not a stack.**
 
+### ★ EFFECTIVE-N — independence audit
+*First card to carry this field (adopted 2026-07-26, Will-approved — `RISK_SCORING.md` §2b, source grade SC-03).*
+
+| Field | Entry |
+|---|---|
+| **N_claimed** | **3** — (i) dealers short-gamma into FOMC, (ii) independent vol channels at episode highs (CCC 9.91 / disp 8.25 / MOVE 80.08 / OVX ratio p98.1), (iii) a dense 3-session catalyst stack in buyback blackout |
+| **Shared antecedent** | 🔴 **The gamma sign flip.** VIOLET states it herself: *"The entire differential vs those five absorptions is the gamma sign flip — if you don't believe HENRY's 5-of-6 read, don't build."* Legs (ii) and (iii) were **also present in the five prior absorptions**, all of which were absorbed. They are the *setting*, not independent votes — only (i) distinguishes this instance from the 0-for-5 record. |
+| **EFFECTIVE N** | **N_eff = 1** — one inference deep, and it is a single-source read (HENRY's gamma chain, corroborated 5-of-6 trackers). |
+| **Sizing reference** | **Sized to N_eff = 1: $300–400, below the $500 cap.** Sizing to N_claimed = 3 would have argued for the full cap or more. |
+
+**Book-level check:** shares **no** falsifier with any live position — 004 dies on a rates rally, USO/XLE on Hormuz de-escalation, the bank basket on regional credit staying clean. **A VIX spike is orthogonal to all three.** This is one of the few genuinely independent adds available to this book.
+
+> **This is the field doing its job on its first outing.** The prose in §7 already said "one inference deep," and I had already sized below the cap — but the *reason* was buried in a counter-case paragraph. Stated as `N_eff = 1` against `N_claimed = 3`, the sizing gap is visible on the page instead of implicit in a judgement call.
+
 ---
 
 ## 6. Target / management

@@ -26,6 +26,7 @@ Before a trade card can be marked `PROPOSED`, answer these:
 | Catalyst | What forces repricing before time stop? | date/event/threshold |
 | Entry | Where is entry acceptable? | trigger + no-chase level |
 | Structure | Why this instrument/expiry/strike/spread? | structure beats alternatives |
+| **Independence** | **How many of the supporting legs are genuinely independent?** | **`N_eff` stated, with the shared antecedent named — see §2b** |
 | Max loss | What is the maximum acceptable loss? | $ / % portfolio / R unit |
 | Invalidation | What proves the trade wrong? | price, thesis, time, or event |
 | Liquidity | Can we enter/exit without stupid spread cost? | bid/ask, OI/volume, or [CHAIN_NEEDED] |
@@ -70,6 +71,36 @@ Never invent a precise p_model. If probability is subjective, label it subjectiv
 
 ---
 
+## 2b. EFFECTIVE-N — the independence discount
+
+**Adopted 2026-07-26, Will-approved.** Source grade: `research/SIGNAL_COMBINATION_2026-07-26.md` **SC-03**. Fleet sibling: **NEXUS's Discipline F** (same insight, reached independently).
+
+**The rule:**
+
+> **Size to the number of *independent* views, never to the number of reasons you can list.**
+
+Every actionable card states three things before sizing:
+
+```text
+N_claimed          = how many separate legs/reasons support this
+shared antecedent  = the ONE event or fact that kills more than one at once
+N_eff              = the honest independent count (+ one line of reasoning)
+```
+
+**Why it binds.** The Fundamental Law of Active Management gives combined risk-adjusted edge as `IR = IC × √N` — but **N is the *effective independent* count, not the signal count.** Legs that die to the same falsifier are one view wearing several hats. Sizing as though they were several is the specific mechanism behind *"I was right about the direction and still lost badly."*
+
+**The worked example is our own book, not a textbook.** The regional-bank put basket — KRE ≈ −$2,225, OZK ≈ −$1,641, WAL ≈ −$1,425, **≈ −$5,291 total** — is three legs sharing **one** falsifier (regional-bank credit doesn't crack). `N_claimed = 3`, `N_eff ≈ 1.2`, sized as 3.
+
+**Two honest limits on the rule, so it isn't over-applied:**
+1. **Multi-leg expression of one thesis can be legitimate** — it diversifies idiosyncratic timing and single-name defense. The error is not owning three legs; it is **sizing three legs as three views.**
+2. **This is not the only mechanism.** That same basket's loss came primarily from the 7/17 tenor/depth diagnosis (a slow-grind thesis in deep-OTM crash instruments). **Correlation set the size; tenor set the decay.** Both were live. Do not let `N_eff` become the single explanation for every loss.
+
+**Applies to the book, not just the card:** before sizing, ask whether this card shares a falsifier with a position already on. If it does, the *combined* exposure is the number that matters — state it as one number, not as separate trades.
+
+**Practical consequence for this desk:** we are **low-breadth by design** (~10–15 independent decisions a year). The Law says our IR is structurally capped by breadth regardless of process quality — so **our edge must come from payoff asymmetry (cheap convexity on dated catalysts), not from stacking more signals.** Adding correlated inputs raises `N_claimed` while leaving `N_eff` flat. **The productive direction is auditing independence, not manufacturing signals.**
+
+---
+
 ## 3. Fractional Kelly Reference
 
 Kelly is a sizing reference, not an instruction.
@@ -88,6 +119,7 @@ TERRY policy:
 
 - never recommend full Kelly.
 - default cap: **0.25x Kelly or lower**.
+- 🔴 **REJECTED variant — do not adopt `f = f_kelly × (1 − CV_edge)`** ("empirical Kelly", graded **SC-05** 2026-07-26). Its shrinkage *direction* is right and already ours, but its *level* is looser than our cap: at a plausible `CV_edge = 0.5` it yields **0.5× Kelly = twice our ceiling**, and it only becomes more conservative than 0.25× above `CV_edge > 0.75`. **Monte-Carlo framing makes a more aggressive rule read as a more rigorous one.** The 0.25× cap stands and takes precedence over any externally-sourced Kelly adjustment.
 - final size is the smaller of:
   1. fractional Kelly estimate,
   2. max loss budget,

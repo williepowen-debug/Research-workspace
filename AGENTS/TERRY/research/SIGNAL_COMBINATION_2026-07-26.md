@@ -74,7 +74,19 @@ Sizing reference:            size to N_eff, never to N_claimed
 
 **Live test — today's VIX card already passes.** Its §5 states the position is genuinely additive (equity-vol axis vs 004 rates-vol / USO-XLE oil / bank-credit), and §7 concludes *"the entire differential is one inference deep — HENRY's gamma read."* **That is `N_eff = 1` stated in prose, and it is exactly why I sized it at $300–400 instead of the $500 cap.** The field would have made that arithmetic explicit rather than implicit. **The discipline is already working; it is just not written down as a number.**
 
-**Status: PROPOSED, not adopted. Requires Will's sign-off** (it touches card structure and the sizing rail). Not promoted to `RISK_RULES.md` as a numbered rule — the numbered rules are a stable API cited by fire cards and must not churn. If Will approves, it goes in as a **§9 field + one line in `RISK_SCORING.md` §1** (Pre-Trade Risk Checklist gains an "Independence" row), leaving rules #1–#8 untouched.
+**Status: ✅ ADOPTED 2026-07-26 (Will: "wire in the EFFECTIVE-N field"). WIRED — 5 surfaces:**
+
+| Surface | What landed |
+|---|---|
+| `TRADE_CARD_TEMPLATE.md` | new **§6a EFFECTIVE-N** block, *mandatory before sizing* (placed in the risk section, where it binds) |
+| `TRADE_CARD_TEMPLATE_FIRE.md` | **ZONE 1** field (pre-derivable at build, not at fire) + **ZONE 3** checklist line |
+| `RISK_SCORING.md` §1 | Pre-Trade Risk Checklist gains an **Independence** row |
+| `RISK_SCORING.md` **§2b** | the rule itself + the worked example + **two limits on over-application** |
+| `RISK_SCORING.md` §3 | 🔴 **SC-05 explicitly rejected at the rail** — the 0.25× Kelly cap takes precedence over any external Kelly adjustment |
+
+**Numbered rules #1–#8 deliberately untouched** — they are a stable API cited by fire cards ("rule #6") and must not churn.
+
+**First live application: the VIOLET VIX card** (`setups/VIOLET_prefomc-vix-callspread_2026-07-26.md` §5). Result on debut — `N_claimed = 3`, **shared antecedent = the gamma sign flip**, **`N_eff = 1`**. Legs (ii) vol-channels-at-highs and (iii) catalyst-stack **were also present in all five prior absorptions**, so they are the *setting*, not independent votes. Sizing to `N_eff = 1` justified the $300–400 (below the $500 cap) that I had already chosen on instinct — **the field converted a buried judgement call into a visible number.** That is the whole point of it.
 
 ---
 
