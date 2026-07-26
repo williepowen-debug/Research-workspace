@@ -1,8 +1,17 @@
 # TRADE CARD — WAL — Long Put Spread (grind expression)
-**Date:** 2026-07-17 · **Updated:** 2026-07-21 (REGINALD confirm consumed; print gate staged)
-**Thesis owner:** REGINALD (regional-bank credit transmission) / Will — **NOT TERRY.** ✅ **Thesis CONFIRMED 2026-07-20** (`AGENTS/REGINALD/outbox/2026-07-20_to-TERRY_wal-grind-thesis-confirm.md`, v2.2.1: bear-medium 25, EV $68.93, PT $50–68; REG-26 crash tell only 33% → **grind is the base case by construction**; Jan-2027 tenor ruled CORRECT, NOT the Dec-2027 LEAP — meaningful re-rating window is Q2-26→~Q1-27 ≈ 2–3 quarters).
+**Date:** 2026-07-17 · **Updated:** 2026-07-26 (**owner repointed to the WAL agent** — DAEDALUS 7/25, WP-W4) · *prior update 2026-07-21 (REGINALD confirm consumed; print gate staged)*
+
+> ### 🔄 OWNER CHANGE — 2026-07-26 (ACK to DAEDALUS 7/25)
+> **WAL was promoted out of REGINALD** (`AGENTS/REGINALD/WAL/` → `AGENTS/WAL/`, Will-approved 7/22, cutover 7/25 — review: `AGENTS/DAEDALUS/builds/wal_promotion/PROMOTION_REVIEW.md`).
+> - **Adjudication owner for this card is now the WAL agent** (`AGENTS/WAL/`). Grind-intact-vs-broken calls route there; its thesis **v2.3 (grind INTACT-but-NARROWED**, per the Q2 Stage-2 grade) is the adjudication basis.
+> - **REGINALD remains the cohort/KRE context source — NOT the WAL-grind adjudicator.**
+> - **Position canon moved:** `AGENTS/WAL/POSITIONS.md` is now canonical for WAL strikes/expiries (7/20-export-current: 77.5P Aug-21 ×1 + 67.5P/70P Sep-18 core). **Use it, not the §7 snapshot below, at fire-time** — with a fresh broker export (rules #4/#6).
+> - Sep-18 core expiry sits on WAL's STATUS §EXPECTED SIGNALS; fire-time reshapes still run TERRY rules #4/#5/#6/#7.
+> - **No economics change.** Everything below is unchanged; only the routing pointer moved. **REGINALD attributions in the historical blocks stay as-written** (delivered-record canon) — they are an accurate record of who ruled what, when.
+
+**Thesis owner:** **WAL agent** (`AGENTS/WAL/`, thesis v2.3) — regional-bank credit transmission / Will — **NOT TERRY.** ✅ **Thesis CONFIRMED 2026-07-20 by REGINALD when it still owned the queue** (`AGENTS/REGINALD/outbox/2026-07-20_to-TERRY_wal-grind-thesis-confirm.md`, v2.2.1: bear-medium 25, EV $68.93, PT $50–68; REG-26 crash tell only 33% → **grind is the base case by construction**; Jan-2027 tenor ruled CORRECT, NOT the Dec-2027 LEAP — meaningful re-rating window is Q2-26→~Q1-27 ≈ 2–3 quarters). **That confirm carries forward; re-confirmation is not owed — but any FRESH adjudication goes to WAL.**
 **Terry verdict:** **CONDITIONAL** (structure + thesis both confirmed; gated on the §2b PRINT GATE + first green WAL day + live marks)
-**Confidence in trade STRUCTURE:** High · **Confidence in thesis:** REGINALD's grade, consumed not re-underwritten
+**Confidence in trade STRUCTURE:** High · **Confidence in thesis:** consumed not re-underwritten (REGINALD's 7/20 grade, now carried by the WAL agent at v2.3)
 **Status:** NOT armed, NOT fired. Entry decision node = the 7/21 AMC print (gate below).
 
 ## 1. One-line setup
@@ -60,7 +69,19 @@ Express a **slow** WAL bear/grind thesis (credit transmission re-rates the name 
 - **Time stop:** if by **~mid-Nov 2026** (roughly half the tenor) WAL has not begun grinding lower AND the thesis has stalled → reassess/exit. Spread theta is slower than an outright, so this is forgiving by design.
 
 ## 7. Why not / counter-trade
-1. **Concentration:** Will **already holds WAL 70P/67.5P Sep-18** (~$165, −87/91%) plus a broad regional-bank put basket. This card should be a **re-expression to roll the dying Sep deep puts INTO** — not additive WAL exposure stacked on top. Adding fresh WAL on top of the basket concentrates a single-name and the shared bank-de-stress falsifier. **⚠️ NEW (PROME 7/20): Will also holds a day-trade RH WAL 77.5P Aug-21 — the SAME strike as this spread's long leg.** Sizing must net against that existing 77.5 line (don't double the strike); factor it into the confirm/sizing when REGINALD's thesis lands.
+1. **Concentration:** Will **already holds WAL 70P/67.5P Sep-18** (~$95 mkt as of the 7/24 refresh, −92/−95%) plus a broad regional-bank put basket. This card should be a **re-expression to roll the dying Sep deep puts INTO** — not additive WAL exposure stacked on top. Adding fresh WAL on top of the basket concentrates a single-name and the shared bank-de-stress falsifier. **⚠️ (PROME 7/20): Will also holds a day-trade RH WAL 77.5P Aug-21 — the SAME strike as this spread's long leg.** Sizing must net against that existing 77.5 line (don't double the strike). *(Thesis has since landed — REGINALD confirmed 7/20, adjudication now carried by the WAL agent at v2.3. **Position truth at fire-time comes from `AGENTS/WAL/POSITIONS.md` + a fresh broker export**, not from the figures in this line.)*
+
+### ★ EFFECTIVE-N — independence audit
+*Added 2026-07-26 for compliance with `RISK_SCORING.md` §2b (adopted today). This card predates the field; the concentration paragraph above was already an informal version of it.*
+
+| Field | Entry |
+|---|---|
+| **N_claimed** | **4+** — WAL Sep 70P · WAL Sep 67.5P · RH WAL Aug-21 77.5P · this spread · (+ the wider KRE/OZK basket behind it) |
+| **Shared antecedent** | 🔴 **Regional-bank credit failing to crack.** Every WAL line *and* the whole KRE/OZK basket die to the same fact. The 77.5 strike is additionally **duplicated** between this card's long leg and the existing RH Aug-21 line. |
+| **EFFECTIVE N** | **N_eff = 1** — one thesis, one falsifier, expressed four-plus ways on one ticker inside a basket that already expresses it. |
+| **Sizing reference** | **Confirms the card's existing ROLL-NOT-ADD ruling, and now with a number behind it.** This must be a *re-expression* of dying exposure, never an addition. Any version of this that raises net WAL exposure is sized to `N_claimed`, not `N_eff`. |
+
+> **This card is the closest thing the desk has to a worked example of why the field exists.** The KRE/OZK/WAL basket is ≈**−$5,291** across three names sharing one falsifier (`RISK_SCORING.md` §2b) — WAL alone is ≈−$1,425 of it. The roll-not-add discipline was already the right call on structural grounds; `N_eff = 1` is why.
 2. **Structure supplies no edge** (options ~fairly priced for single names, Part A/RESEARCH): 100% of EV must come from REGINALD's thesis being right on direction AND rough timing. If the thesis is only "banks feel weak," that is not enough.
 3. **Slow thesis risk:** transmission could take longer than Jan-2027 — the reason to consider the LEAP, and the reason this is a spread (cheaper to roll) not an outright.
 4. **Best reason to pass:** banks (WAL included) have been resilient; a shallow reachable strike still needs the grind to actually start, and it hasn't.
