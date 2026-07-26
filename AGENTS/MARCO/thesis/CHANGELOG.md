@@ -4,6 +4,34 @@ Version-transition log. Newest first. Each entry: old view → new view, trigger
 
 ---
 
+## v2.6 → v2.7 (2026-07-25, session 18) — MINOR — Channel-1 RE-INSTRUMENTATION (produce thermometer demoted a 2nd time; wage divergence promoted)
+
+**Trigger:** (1) **ES-MARCO-08 resolved** at the June CPI print (BLS public API, primary) — MARCO's own pre-registered labor-vs-freight discriminator. (2) A live VX refresh, prompted by Will catching an unverified universal claim ("every FL metric I own is improving"), which surfaced that the FL hospitality-wage vector was 6 months stale and pointing the **wrong way**.
+
+**Old view (v2.1–v2.6):** Channel 1 = labor-supply shock measured through **produce prices**. The mechanism was HIGH-conviction; the produce CPI thermometer was "confounded, MEDIUM" after v2.1 but still the named readout, and ES-MARCO-08 was the test that would re-weight labor back *up* if F&V held while pump prices fell.
+
+**New view (v2.7):** **The test fired clean and went the other way.** The 7/9 contamination risk did not materialize — despite the Iran-truce collapse and the Russian diesel-export ban, June gasoline fell **−9.68% MoM** (energy −5.7% MoM, largest since April 2020), so the pump-relief premise held. And fresh F&V (`SAF1131`) fell *with* it: **+6.74% → +5.71% YoY, −1.05% MoM**. Per the pre-registered spec, **freight carried more of the spike than labor did.**
+
+So produce CPI is demoted a second time, on independent grounds: **confounded (v2.1) → weak corroboration only (v2.7).** Two failures as a readout is enough — MARCO stops citing F&V prints as Channel-1 evidence in either direction.
+
+**The replacement — measure the shock at the INPUT price, not the output price.** FL leisure & hospitality average hourly earnings **$23.99 (Jun'26) vs US $23.62**: FL is now **+1.6% above** national, against a carried (Jan-vintage) row that said 11% *below*. **FL +8.75% YoY vs national +3.87%, three consecutive months at >2x national.** No freeze, no tariff, no diesel pulse can enter a wage series — the exact confounders that killed the produce thermometer are structurally absent. Wages sit one step from the mechanism; produce prices sit at the far end of a multi-causal chain.
+
+**Why MINOR not MAJOR:** no channel added or removed, and **conviction on the Channel-1 mechanism is unchanged at HIGH** (H-2A ~455-465K pace, LFPR 61.5%, foreign-born LF −700K YoY, less-than-HS LFPR 43.1% all intact). This is a **measurement** change, not a direction change — the same class as v2.1, applied a second time to the same channel. The thesis got *better instrumented*, not weaker.
+
+**Conviction deltas:**
+- Channel-1 **mechanism**: HIGH → **HIGH** (unchanged)
+- Channel-1 **produce thermometer**: MEDIUM → **LOW** (demoted; corroboration only)
+- Channel-1 **wage instrument**: *(new)* → **MEDIUM-HIGH**, provisional pending the 4-state panel
+- Channel-2 (Canadian): MEDIUM-HIGH → **MEDIUM-HIGH** (unchanged; see mixed evidence below)
+
+**Channel-2 evidence this session (no version impact, both directions):** June StatCan — total return trips 1.7M **+3.2% YoY** (3rd consecutive gain) but 2-yr stack **−28.7%**, so TOUR-01 holds; **the air stack narrowed −28.4% → −25.0%** and is now sitting *on* the threshold line, which is the FL-snowbird-relevant leg thawing. Against that: **Trump's 7/20 50% Section 338 tariff** on broad Canadian goods is a fresh sentiment re-escalation arriving into the thaw, and reporting notes the boycott has shifted "from emotional protest into logistical habit" (habit being stickier than anger). Net: unchanged conviction, higher variance, watch the air stack.
+
+**Explicit non-finding (logged so it is not mistaken for confirmation later):** FLL May printed **−10.7% YoY / −26.1% 2-yr stack** with international **−27.5% / −48.7%**. This is **not** Channel-2 evidence. Spirit Airlines liquidated 5/2/26 holding **31.4% of FLL** and was its primary Central/South America link; JetBlue backfilled **+75% daily departures** (share 22%→37%). A supply shock that gets substantially backfilled is weak evidence *against* a demand collapse. MAR-24 raised 45%→60% **with a TRUE-in-letter/FALSE-in-spirit caveat attached** ([[finding_threshold_vs_mechanism]]).
+
+**Also this session:** ES-MARCO-01 resolved **DID_NOT_APPEAR** at the FL-state leg (FL L&H *added* jobs in June; FL UR 4.7%, first decline since 2024) — and the wage data re-reads that as labor scarcity rather than the demand weakness the signal was built to detect. ES-MARCO-05 → RECEDING. MAR-14 74%→45% (and a 74-vs-55 STATUS/TSV drift reconciled to one number), MAR-12 60%→35%. VX household-insurance-cost vector (3.01) stale-flagged with **no figure adopted** — secondary aggregators span $3,815–$8,458; needs an FL OIR primary.
+
+---
+
 ## v2.5 → v2.6 (2026-07-02, session 16) — MINOR — Channel-1 magnitude/provenance RE-MARK (2.2M "CBO" → ~1.0M realized LF) + June-jobs aggregate corroboration
 **Trigger:** (1) PROME Tier-2 verification (Workflow `wzlhvzlcb`, vs CBO / NFAP-BLS-CPS / KC-Fed primaries; `../inbox/2026-06-26_from-PROME_immigration-magnitude.md`) — resolves the long-open MAINTENANCE T1-B / NOTES.md flag that the "2.2M" spine sat un-cross-referenced. (2) June 2026 jobs report (released 7/2).
 

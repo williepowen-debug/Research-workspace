@@ -1,6 +1,6 @@
 # MARCO CALENDAR
 
-**Last Updated:** 2026-07-09 (session 17 — ES-MARCO-08 row RE-SPEC'd for the energy re-arm contamination watch, see below; no other catalyst-date changes this session). PRIOR: 2026-07-02 (session 16 — June-jobs catch-up + SDL magnitude re-mark; re-synced to CATALYSTS.tsv after the 17-day drift) | **View:** Forward-looking only. Past events pruned to `thesis/TIMELINE.md`. Countdown anchored to 2026-07-02.
+**Last Updated:** 2026-07-25 (session 18 — **July fork RESOLVED**: ES-MARCO-08 fired clean and went against labor; FL Realtors June landed at 8.1mo. Both July rows moved to RECENTLY RESOLVED. August rows re-scoped: the state-CES wage print is now a Channel-1 *instrument* read, not context.)
 
 **Machine feed:** `docket/CATALYSTS.tsv` (this is its prose/countdown twin). When they disagree, the TSV is source-of-truth for fields; this file owns grouping + narrative.
 
@@ -16,14 +16,16 @@
 
 ---
 
-## JULY — THE PRODUCE FORK + FL ABSORPTION
+## JULY — RESOLVED (both forks landed)
 
-| Δ | Date | Event | Threshold / Signal | Who |
-|---|------|-------|--------------------|-----|
-| 🔴 | ~Jul 15 | **BLS June CPI — fresh F&V** | **ES-MARCO-08 — RE-SPEC 7/9, CONTAMINATION WATCH.** Test premise (pump-relief window held through the print) is now in question: US-Iran truce collapsed 7/7-7/8 (Brent re-armed, $76.01 settle 7/9) + Russia diesel-export ban 7/9. If pump reverses before this print, the fork can't cleanly discriminate labor vs freight — check EIA weekly retail-gas trend before citing either outcome. See `EXPECTED_SIGNALS.md` ES-MARCO-08. Shared print with BRENT. | MARCO, CARL, BRENT |
-| 🟡 | ~Jul 17 | FL Realtors June condo | <8.5mo = absorption confirmed (May 8.6, inventory −13.4% YoY — trajectory there); >9.0 = distress re-engages (MAR-08). | MARCO, REGINALD |
-| 🟠 | ~late Jul | FL-state June hospitality employment | de-masks ES-MARCO-01 (national L&H already −61K in June, mask inverted) — does FL-specific confirm? State release lags. | MARCO, LABOR |
-| 🟡 | ~Jul | MCO April pax via BTS T-100 | closes the airport thread (FLL done 6/15). ~3mo lag → April now available. | MARCO |
+*July's two catalysts both resolved on 7/25. Detail → `thesis/CHANGELOG.md` v2.7 + `EXPECTED_SIGNALS.md`.*
+
+| Δ | Date | Event | Outcome |
+|---|------|-------|---------|
+| ✅ | Jul 15 | **BLS June CPI — fresh F&V (ES-MARCO-08)** | **RESOLVED AGAINST LABOR.** Contamination did NOT materialize — gasoline **−9.68% MoM**, energy **−5.7% MoM** (largest since Apr'20), so the pump-relief premise held and the fork fired as designed. Fresh F&V **+6.74%→+5.71% YoY, −1.05% MoM** = fell *with* the pump = **freight branch**. Produce thermometer demoted to corroboration-only (v2.7); **wage divergence promoted** in its place. MAR-14 74%→45%, ES-05 → RECEDING. |
+| ✅ | Jul 17 | FL Realtors June condo | **8.1mo** (8.9 Apr → 8.6 May → 8.1 Jun); median $305K **+1.7% YoY = first positive**; sales +14%. **MAR-08 (>9.0) decisively DEAD** — absorption, not distress. Via CORAL 7/21. |
+| ✅ | Jul 21 | FL-state June hospitality employment | **ES-MARCO-01 resolved DID_NOT_APPEAR** at the FL leg — FL L&H **added** jobs, UR 4.7% (first decline since 2024). The wage data re-reads it as **labor scarcity, not demand weakness**. |
+| ⏳ | — | MCO April pax via BTS T-100 | **STILL OPEN, carried s16→s18.** flymco/GOAA re-verified JS-blocked 7/25 (no PDF assets in DOM). **MAR-24 and MAR-22 now both hinge entirely on this.** Top data-gap. |
 
 ---
 
@@ -33,9 +35,12 @@
 |---|------|-------|--------------------|-----|
 | 🟠 | ~Aug 1 | Banxico June remittances | count YoY = cleanest SDL-01 readout (May count −1.7%). | MARCO, CARL |
 | 🟡 | ~Aug 1 | OFLC H-2A Q3 FY26 disclosure | on-pace for >425K CERTIFIED = MAR-11 on track (FY25 certified 398,059). Was Jun-30, ~quarterly lag — check early Aug. | MARCO, LABOR |
-| 🟠 | ~Aug 8 | BLS July NFP | does L&H stay negative once WC rolls off (post-Jul-19)? further LFPR / LF-YoY contraction = SDL-01 aggregate visibility deepens. | MARCO, LABOR |
+| 🔴 | ~Aug 8 | **BLS July NFP + STATE CES WAGES** | **The state-CES wage print is now a Channel-1 INSTRUMENT read (v2.7), not context.** Check FL/TX/CA/AZ leisure-hosp AHE vs national: gap holds **>2pp** = promoted instrument confirms; gap closes **<2pp two months running** while H-2A/LFPR stay impaired = instrument falsified (it was measuring general tightness). Also: does national L&H stay negative once the WC rolls off (post-Jul-19)? | MARCO, LABOR, CARL |
 | 🟠 | ~Aug 15 | **NTTO June arrivals** (1st World-Cup month) | The WC-reversal read. **PASS/weakens if Jun+Jul combined overseas ≥5.5M AND ≥−10% vs 2019; FAIL/hardens if ≥−20% vs 2019 despite WC → ES-MARCO-09 fires** (KB-WC-05). Advance signals lean FAIL (AHLA: 80% host-city hoteliers below forecast). July data ~mid-Sep. | MARCO, REGINALD |
 | 🟡 | ~Aug 15 | Banxico Q1/H1 state-of-origin map (DEFERRED from Jun-30) | Concentrated drop in high-ICE states = SDL-01 spatial confirmation. Cross-check vs the ~1.0M LF re-mark pattern. banxico_reverse.py. | MARCO |
+| 🟠 | ~Aug 12 | BLS July CPI — fresh F&V | **ES-MARCO-05 close-out read.** 3rd consecutive sub-6% print → resolve **DID_NOT_APPEAR**, do not push a 4th time. Produce is corroboration-only post-v2.7 — this closes ES-05, it does not re-open the channel. | MARCO |
+| 🟠 | ~Sep 15 | StatCan Aug travel + **FL winter 26-27 schedule filings** | **Air stack is now ON the −25% line** (Jun −25.0%, from −28.4%). Back above −25% = FL snowbird thaw confirms; winter FL seat count still deleted = capacity thesis holds regardless of demand. The capacity tell for the 2026-27 FL-$ hole. | MARCO, REGINALD |
+| 🟠 | Nov 3 | **FL property-tax Amendment 3 / HJR 1F** | Caps new-resident (post-12/31/26) homestead exemption at **$50K for 5yr** vs existing residents' $150K→$250K. **Anti-migration BY DESIGN** (FL Phoenix). Poll 64%±3.8 vs a **60% bar** — tight. Passage reinforces rather than reverses the migration-collapse thesis. | MARCO, CORAL, REGINALD |
 | 🟡 | ~Aug 28 | StatCan Q2 2026 BOP | Canadian-corridor cross-check of the Mexico count-decline pattern. | MARCO |
 
 ---
