@@ -155,6 +155,20 @@ What this session changes is **not the mechanism but the enforcement and attribu
 
 ---
 
+## ROUTED TO PARENT — awaiting CARL action
+
+| Item | Ask | Status |
+|---|---|---|
+| **CRL-14 re-mark 65% → 10%** *(Will-directed 7/25)* | Three-leg failure: **timing** (default = 270-day event, DRG transfer 360d ⇒ a Jul-1-transition-caused default cannot exist before ~**Jul 2027**, 3 quarters past the row's Q3-Q4 2026 window) · **instrument** (no published series attributes defaults to a servicer; the litigation that would have is **stayed**) · **evidence** (no wave-1 complaint spike). **Mechanism INTACT** — threshold unmeasurable and out of window. | 📤 packet sent |
+| CRL-14 — retract "May 28 conf" clause | No May 28 entry exists on the docket; also fix CARL STATUS L24 "absence of news is non-information" | 📤 sent |
+| Cascade attribution narrowing | Must land **before 8/15** or CRL-05's grade is contaminated | 📤 sent |
+| CRL-13 timing | Notices complete **Dec 31 2026** (not Mar 2027); Oct-1 first-tranche framing unchanged | 📤 sent |
+| `TEAM.md` L15 restamp | STUE refresh gate fired 7/15, discharged this session — parent-owned file | 📤 sent |
+
+> **STUE holds no predictions ledger** — CRL-04/05/13/14 are CARL's rows and CARL is system of record. STUE proposes with worked reasoning; the parent applies. Do not mirror a CRL confidence here.
+
+---
+
 ## OPEN QUESTIONS
 
 1. **What is the basis of the Mar 20 2026 Order Staying Case?** *Galette* (Mar 4) resolved the stated gating question, yet a further stay issued 16 days later and the case has sat on a status-report cadence since. Order text is **PACER-gated** (not on CourtListener). *Resolution: $0.30 PACER purchase, or SBPC/AFT press.*
