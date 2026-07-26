@@ -1,5 +1,5 @@
 # TERRY CARD INDEX — the master registry of every trade card
-**Updated:** 2026-07-20 ~10:05 ET · **Owner:** TERRY · **Purpose:** the single "where is everything / what's live" view. Update this whenever a card is added, changes status, fires, or is archived.
+**Updated:** 2026-07-26 ~13:10 ET · **Owner:** TERRY · **Purpose:** the single "where is everything / what's live" view. Update this whenever a card is added, changes status, fires, or is archived.
 
 > **Standing rules:** all cards are **PROPOSE-ONLY** — Will approves/rejects, TERRY never executes. Max loss **$500/card** (TRY-FIRE-006 = a separate **$200** Tier-2 tranche). **★ 1 card fired live** as of 2026-07-20 — TRY-FIRE-004 (30× TLT Sep-30 77P @ $0.11, $330 at risk). Was 0 for the first month; the refusals were the product until now.
 
@@ -26,7 +26,8 @@
 | **TRY-FIRE-002** | STAGED | PRINT | WAL / EGBN puts, post-print Sep/Jan | WAL 7/21 AMC · EGBN 7/22 — path (a)/(c) grade | REGINALD / CARL | `PRINT-TRIGGER_WAL-EGBN-build.md` |
 | **TRY-FIRE-003** | STAGED | PRINT | COF / SYF / ALLY monoline puts | SYF/ALLY 7/21 · COF 7/21-23 — path (m) un-mask | CARL + REGINALD | `PRINT-TRIGGER_monoline-COF-SYF-ALLY.md` |
 | **TRY-FIRE-006** | PRE-BUILT / **ARMABLE** (GATE-TERRY-006 LIVE 7/18; dependency discharged; $200 tranche) | FLOW | USO OTM call spread, ~45-60 DTE | **Corroborator-anchored** (dark-fleet-capable, ≥2d, not vetoed) — PortWatch AIS loadings = refuting VETO only, NOT Hormuz transit | RED / BRENT / FALCON | `FLOW-TRIGGER_kharg-strand-USO-call.md` |
-| **TRY-WAL-GRIND** | CONDITIONAL (REGINALD confirm **ROUTED 7/20**, awaiting reply) | PRINT/roll | WAL 77.5/67.5P Jan-2027 put spread | post-7/21 green WAL day; roll target for dying Sep WAL puts | REGINALD `[confirm]` | `WAL_grind-putspread_2026-07-17.md` |
+| **TRY-VIOLET-VIXCS** | 🟡 **CONDITIONAL — AWAITING LIVE QUOTES** (built 7/26; Will approved BUILD IN PRINCIPLE 7/25) | EVENT-BOX | VIX **8/5 call debit spread**, long 20C / short 25C (5-wide); alt 21C/26C | **Window Mon 7/27–Tue 7/28 ONLY**, VIX <20, net debit ≤$1.20. Exit 7/30 boot regardless of P/L | VIOLET (KB-VIO-125) | `VIOLET_prefomc-vix-callspread_2026-07-26.md` |
+| **TRY-WAL-GRIND** | CONDITIONAL / HELD DORMANT — adjudication owner is now the **WAL agent** (DAEDALUS 7/25, WP-W4) | PRINT/roll | WAL 77.5/67.5P Jan-2027 put spread | post-7/21 green WAL day; roll target for dying Sep WAL puts | **WAL** (was REGINALD) | `WAL_grind-putspread_2026-07-17.md` |
 | **HBAN stub** | 🪦 **RETIRED 7/18 — dust-rider** (Will EXIT-THESIS; rides to expiry as ~$20 dust, do not pay to close, no re-entry) | PRINT | HBAN Oct-16 16P ×2 (already owned) | ~~HBAN Q2 7/23~~ MONITOR-ONLY | Will (opportunistic) | `HBAN_oct16-16P_stub.md` |
 
 **Support docs in `setups/` (not cards):** `FIRE_CARDS_LADDER.md` (fire-card comparison) · `HBAN_oct16-16P_two-branch-decision-memo.md` (HBAN decision memo) · `INDEX.md` (this file).
