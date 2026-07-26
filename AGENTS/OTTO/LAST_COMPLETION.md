@@ -1,5 +1,7 @@
 # OTTO COMPLETION — 2026-07-25 (session 016)
 
+> **⚠ This session ran long and in four distinct phases.** (1) 21-day catch-up + T-3 pre-7/28 sweep; (2) peer-suggestion pass (PROME + DAEDALUS); (3) Will-directed research — RP-OTT-1.6 diligence forensics, OTTO-04 re-base, the 10-D panel build; (4) cross-agent routing + THESIS v1.2. **The headline finding (DOJ charged both OTTO thesis mechanisms) came from phase 1; the most durable output (OTTO's own performance instrument) came from phase 3.**
+
 ## STATUS
 ✅ **21-day-dark catch-up + T-3 pre-7/28 sweep, all five Will-directed tasks complete.** The session's value was not where it was scoped: the assigned work (docket verify, $237M refresh, catalyst sweep, CVNA, boot fixes) all landed, but the material finding came from a channel OTTO wasn't watching at all — **the Tricolor criminal docket, where DOJ has now criminally charged both of OTTO's thesis mechanisms.** Full closeout run. All work committed local + auto-pushed.
 
@@ -37,9 +39,21 @@
 - **Jul 28 will not deliver a verdict.** If anyone in the fleet is expecting OTTO-32 to resolve that day, it won't — multiday contested trial.
 - Corrections sent to PROME: WAL/Jefferies is a **Mar 6** item, not 7/21. **⚠ And one correction OF MINE was itself retracted:** I claimed 5 of 7 boot-gate date flags were false positives from a matcher bug — wrong. Firetime compares against **PROME's DOCKET**, not OTTO's docket, so the flags were correct. I audited a peer's gate against my own data and called their system broken. Retraction packet sent.
 
+## PHASE 3-4 ADDENDUM (Will-directed research + routing)
+
+- **🔴 `scripts/panel_10d.py` + `workbook/PANEL_10D.tsv` — OTTO now owns its performance instrument.** Fixed panel, 9 deals, 3 tiers (DEEP/BROAD/CARVANA), parsed from SEC 10-D Exhibit 99.1: 60+ DQ, CNL, ANL, recovery, extension rate. Built after **S&P (403) and KBRA (paid) were tested and found closed**. Replaces the decayed Fitch dependency *and* the frozen EXTENSION_PROXY stub.
+- **🔴 SUMMER RE-DETERIORATION CONFIRMED — the watch OTTO carried unanswered all session.** 7 of 7 deals, both tiers, four vintages: 60+ DQ troughed in the spring refund window and has risen every month since; all now above first observation. **The instrument answered it within hours of existing.**
+- **⚠ Broad subprime is NOT insulated** — off-trough BROAD +1.44 vs DEEP +1.26pp; latest MoM DEEP +0.61 vs BROAD +0.46pp. **Comparable, not contained.** *(I softened this from "as fast as or faster" after re-deriving — the first read used off-trough only.)* Routed to CARL/REGINALD/NEXUS.
+- **🔴 Carvana sub-thesis gets its first primary evidence — and it SPLITS.** Bridgecrest CNL **24.67%** vs Exeter deep-subprime **16.70%**, same vintage, **seasoning-controlled both ways**; sharpest single-month DQ break in the panel (+1.80pp). **But two independent tests say Carvana is not masking:** extensions *lower* than Exeter (3.3-3.9% vs 4.1-5.7%), and CNL/DQ ratio (1.58-1.65) *below* deep's range. **Conviction UP on collateral quality, DOWN on reporting manipulation.**
+- **RP-OTT-1.6 — the diligence mechanism.** All 11 Tricolor ABS-15G filings + 12 AUP exhibits. Agreed-upon procedures reconcile the data tape to **Tricolor's own servicing system** — the system the indictment says was falsified. "The book looked clean" is now structural, not a plausibility argument. Retired my own overstated 2018-2021 vintage claim in the same package.
+- **OTTO-04 re-based AND retired.** Metric moved to the deep-subprime tranche; the prediction could not follow it (true-at-creation on the new measure), so it was resolved with **no calibration credit** and replaced by forward **OTTO-34**.
+- **Tier 2 gate PASSED** (BROAD 1.06 vs DEEP 1.82, no overlap) with scope **narrowed** to a within-tier anomaly list — it separates on credit tier, not fraud.
+- **THESIS v1.1 → v1.2**, absorbing all four owed moves.
+- **TBK syndicate route CLOSED** (non-filers) — but found **ACV Auctions provisioned its Tricolor floorplan in FULL in Q3-2025** vs TBK carrying $22.5M unreserved 9.5 months later. Same collateral class, opposite accounting. Routed to REGINALD.
+
 ## FOLLOW-UP (priority queue)
 **P1 — clocked:** Sweep the **Jul 27-29 cluster** (ballot cert → FB trial opens → Castel + CVNA Q2). **Do not score OTTO-32 off a Jul 28 headline** — multiday contested trial. Pull the **TBK syndicate roster** (~$38M unnamed participants) — drives OTTO-33.
-**P2:** **Tier 2 forensic screen — run the 45-min feasibility gate first** ([`research/TIER2_FORENSIC_SCREEN_SPEC.md`](research/TIER2_FORENSIC_SCREEN_SPEC.md)); recommended fallback is the Tier 1 ABS-15G diagnostic sweep across CPS/Lendbuzz/GLS/ACA/Bridgecrest. Bump `thesis/THESIS.md` → v1.2 (**exclude the retracted 2018-2021 widening**).
+**P2:** ~~Tier 2 feasibility gate~~ ✅ **PASSED Jul 25** — build the narrowed within-tier version, widening n per tier first. ~~Bump THESIS → v1.2~~ ✅ **done.** *(prior text:)* **Tier 2 forensic screen — run the 45-min feasibility gate first** ([`research/TIER2_FORENSIC_SCREEN_SPEC.md`](research/TIER2_FORENSIC_SCREEN_SPEC.md)); recommended fallback is the Tier 1 ABS-15G diagnostic sweep across CPS/Lendbuzz/GLS/ACA/Bridgecrest. Bump `thesis/THESIS.md` → v1.2 (**exclude the retracted 2018-2021 widening**).
 **P3:** Aug 15 pre-registered OTTO-30 re-check. ~~2026-09-01 OTTO-04 metric decision~~ ✅ **closed early Jul 25.** Track **OTTO-34** monthly off the EART 2022-3 10-D. August BDC Q2 10-Qs → $237M refresh → BROCK. Re-run `shelf_halt_monitor.py` monthly.
 
 ---
