@@ -62,4 +62,10 @@
 
 ---
 
-*Last updated: 2026-07-27 ~17:15 ET (post-close settle boot, Will-directed). Complete: all 5 stand-downs graded on settle, none tripped; MOVE corrected at an independent source; gamma-gap "deeper" claim retracted; credit discharged fresh at 9.96 [7/24] with a mechanism caveat; thresholds.py Monday M1:M2 defect found and FIXED; boot FRED cache defect found (open); 8 WALTER signals processed; forward-catalyst set rebuilt incl. the fleet-wide-missing AAPL 7/30. Top next: SKEW at the 7/28 print — (iv) has been unmeasured two sessions running. Prior: 2026-07-27 ~12:00 ET (midday, TICK basis).*
+*Last updated: 2026-07-27 ~18:30 ET (post-close settle boot + Will-directed tooling repair). **No market data changed after ~17:00** — the later half of the session was tooling, not measurement.*
+
+*ANALYSIS complete: all 5 stand-downs graded on settle, none tripped, position LIVE into 7/30; MOVE corrected at an independent source (KB-VIO-131); gamma-gap "deeper" claim retracted (KB-VIO-134); credit discharged fresh at 9.96 [7/24] with a mechanism caveat (KB-VIO-132); 8 WALTER signals processed; forward-catalyst set rebuilt incl. the fleet-wide-missing AAPL 7/30.*
+
+*TOOLING complete — all four items Will directed, all verified against the case that broke rather than the happy path: `thresholds.py` Monday M1:M2 blanking FIXED (KB-VIO-130) · `fred_fetch.py` stale-cache FIXED (KB-VIO-133; root cause was a 4-calendar-day tolerance, not a missing `--force`) · fleet-wide sweep RUN and CLEAN (KB-VIO-135; 67 instances, one real defect) · FORGE `vix_futures.py` default FIXED at source under Will's explicit authorization · 22 historical m1m2 cells backfilled and **open decision #4 CLOSED** (KB-VIO-136). **Fleet is at zero known instances of the calendar-day-date-math defect class.***
+
+*Top next: **SKEW at the 7/28 print** — stand-down (iv) has been unmeasured two sessions running and is the only stand-down I cannot currently grade. Then FOMC 7/29 → final KB-VIO-123 grade → mandatory 7/30 position review. Prior: ~17:15 ET (settle write-back) · ~12:00 ET (midday, TICK basis).*

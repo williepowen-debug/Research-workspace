@@ -1,6 +1,6 @@
 # VIOLET — NEXUS Brief
 
-**As of:** 2026-07-27 ~17:15 ET (Monday **POST-CLOSE, SETTLE basis** — Will-directed grading boot) | **STATUS commit:** see STATUS.md footer.
+**As of:** 2026-07-27 ~18:30 ET (Monday **POST-CLOSE, SETTLE basis** — Will-directed grading boot + tooling repair; **no market data changed after ~17:00**, the later work was tooling) | **STATUS commit:** see STATUS.md footer.
 
 > **🟠 7/27 SETTLE — THE DAY ROUND-TRIPPED. NO STAND-DOWN TRIPPED; POSITION LIVE AND UNCHANGED.** `TRY-VIOLET-VIXCS` (4× VIXW Aug-05 20C/25C, $287.70, MAIN) survives to the mandatory **7/30** review. VIX settled **18.67** after gapping down to 17.53 and grinding to **19.93** — 0.07 from the line — then giving it all back.
 > **① The FOMC event hump DEFLATED two days before FOMC.** VIX9D printed **20.32** intraday and settled **18.13**; 9D/VIX **0.9711** after inverting to 1.012 at ~10:55. The fastest tenor gave back the most. **VIX3M/VIX RE-STEEPENED to 1.0819** from 1.062 at midday — the ratio moved *away* from the inversion line into the close.
@@ -68,7 +68,7 @@
 
 | Date | Event | Threshold / Signal |
 |------|-------|---------------------|
-| 🔴 Jul 29 | **FOMC 2:00 ET + Warsh presser 2:30** (no SEP) + MSFT/META AH | Live hike odds **~34.3%** (KB-VIO-128), guidance withdrawn. Final KB-VIO-123 grade on **SETTLE**: VIX>20 · inversion <1.0 · credit past CCC 10.0/disp 8.3 · VVIX→120. **First catalyst under short gamma.** |
+| 🔴 Jul 29 | **FOMC 2:00 ET + Warsh presser 2:30** (no SEP) + **MSFT/META AH + SK hynix** | Live hike odds **~34.3%** (KB-VIO-128), guidance withdrawn. Final KB-VIO-123 grade on **SETTLE**: VIX>20 · inversion <1.0 · credit past CCC 10.0/disp 8.3 · VVIX→120. **First catalyst under short gamma.** SK hynix added late (WALTER SIG-027): ADRs at a **new low below their record IPO price** on a flat-to-up tape = sector-specific de-rate into the print, coherent with semis at 2nd-highest constituent IV on record (KB-VIO-126). |
 | 🔴 Jul 30 | **AMZN AH + AAPL AH 5:00 ET (Cook's final call)** | Highest-density single night; CEO-transition print for the largest constituent. |
 | 🟠 Jul 30-31 | **BOJ MPM (decision 7/31)** + month-end | jpy_vol IV/RV 3.24× re-loaded vs RV at p7.7. |
 | 🟠 Jul 31 | COT (report-date 7/28) · **KB-VIO-127 Karsan call resolves** | Karsan HIT = VIX≥23 touch or >20 settle-and-hold — **base case MISS**. |
@@ -79,4 +79,4 @@
 
 ---
 
-*Brief format: NEXUS_BRIEF schema (R3 + amendment 7). VIOLET is a MEDIUM cross-domain agent. This refresh (7/27 post-close, full settle rebuild): all 5 stand-downs graded on settle, none tripped; **two self-corrections broadcast** (MOVE mis-dated → KB-VIO-131; gamma-gap "deeper" retracted → KB-VIO-134); credit discharged fresh at 9.96 [7/24] with a mechanism caveat (KB-VIO-132); boot defects KB-VIO-130 + KB-VIO-133 BOTH FIXED (same bug, two files: calendar-day date math on market data, failing only on Mondays); 8 WALTER signals processed, lane clear; forward-catalyst set rebuilt incl. fleet-wide-missing AAPL 7/30. Convergence 33/60 (was 36/60). Cross-agent tensions: None active this cycle.*
+*Brief format: NEXUS_BRIEF schema (R3 + amendment 7). VIOLET is a MEDIUM cross-domain agent. This refresh (7/27 post-close, full settle rebuild): all 5 stand-downs graded on settle, none tripped; **two self-corrections broadcast** (MOVE mis-dated → KB-VIO-131; gamma-gap "deeper" retracted → KB-VIO-134); credit discharged fresh at 9.96 [7/24] with a mechanism caveat (KB-VIO-132); boot defects KB-VIO-130 + KB-VIO-133 BOTH FIXED (same bug, two files: calendar-day date math on market data, failing only on Mondays); 8 WALTER signals processed, lane clear; forward-catalyst set rebuilt incl. fleet-wide-missing AAPL 7/30. Convergence 33/60 (was 36/60). Tooling, all Will-directed and all verified against the failing case: thresholds.py + fred_fetch.py + FORGE vix_futures.py repaired, fleet sweep run and CLEAN (KB-VIO-135), 22 historical m1m2 cells backfilled and open decision #4 CLOSED (KB-VIO-136 — VX_DAILY is now self-describing; **consumers must group by `m1m2_settle_date`, never by `date`**). Cross-agent tensions: None active this cycle.*
