@@ -56,10 +56,12 @@ Standing rule: route to the **domain owner**, one signal at a time, transmission
 
 ## Canonical Boot Order
 
+0. **Read `AGENTS/CREED/SCRATCH.md` FIRST** — the handoff surface: what the last session was mid-way through, next-boot first moves, open threads, and the standing traps. **Ephemeral and lowest-authority: if SCRATCH disagrees with STATUS, STATUS is right.** *(Created 2026-07-27 after an unclean shutdown left CREED with no surface describing its own in-flight work.)*
 1. Read this file.
 2. Read `AGENTS/CREED/STATUS.md`.
 3. Read `AGENTS/CREED/README.md`.
 4. Read `AGENTS/CREED/REVIVAL_PLAN.md`.
+4b. **Scan `workbook/PREDICTIONS.tsv` resolve dates now, at boot — not at closeout.** An overdue prediction is information this session needs *before* it does its work. Grade against `workbook/PREDICTIONS_SCOREBOARD.md`.
 5. Treat legacy CREED material under `AGENTS/REGINALD/sub-agents/CREED/` as **source archive**, not current truth.
 6. Before making market claims, read the current rails in this order:
    1. `AGENTS/CREED/research/REFRESH_2026-07-27.md` (current source pack — CRE lender leg, June SS resolution, life-science bifurcation; `REFRESH_2026-07-04.md` retained as the June-Trepp / recognition-cluster source-trail, `REFRESH_2026-06-21.md` as the FDIC-Q1 / maturity-wall source-trail)
@@ -104,9 +106,13 @@ If anything prints, surface: **"⚠️ VX stale Nd — refresh the latest monthl
 1. Update `Last_Updated` on every VX vector you refreshed **and** `Last_Refreshed` on KB rows you re-verified.
 2. Append `VX_HISTORY.tsv` rows for any new monthly print — **one row per vector per print.** A level is not a trend.
 3. Log session findings to `KB.tsv` with an **Admiralty score** and the **source-remove** marked (`PRIMARY-READ` / `PRIMARY-CITED` / `SECONDARY`).
-4. Update `PREDICTIONS.tsv` `Status`/`Outcome` on any resolution. **A prediction that cannot resolve (instrument unavailable, metric unpublished) is `STUCK` — a Status change, never a confidence cut.**
+4. Update `PREDICTIONS.tsv` `Status`/`Outcome` on any resolution **AND `workbook/PREDICTIONS_SCOREBOARD.md` in the same session — both writes, or neither counts.** A narrative grade in STATUS prose is **not** a substitute for the ledger row *(BROCK's `BRK-29` sat `Status=OPEN` for 5 days past its own resolve date on exactly this gap)*. **A prediction that cannot resolve (instrument unavailable, metric unpublished) is `STUCK` — a Status change, never a confidence cut.**
 5. Route only on **signal FIRE** per the Route Matrix. The workbook does not change routing.
-6. Git per root `CLAUDE.md` §Git Protocol — pathspec commits only.
+6. **Log every mail item you read to `board_log.tsv` — one row each, at READ time, not at closeout.** An unlogged consume is indistinguishable from a never-seen. Record *why* on kills: a cheap, well-reasoned kill is a deliverable.
+7. **Rewrite `SCRATCH.md`** — it is overwritten, not appended. If the session changed CREED's *structure* (a doc/folder created/retired/moved, a schema or protocol amendment, an ownership boundary shift), add an entry to `MAINTENANCE.md`. **`MAINTENANCE.md` is consult-on-structural-work, NOT a per-session ritual** — CREED is Tier-2 and process weight is what makes a spawn-on-need agent expensive to wake.
+8. **STATUS soft target ~300 lines; split trigger at 320.** It grows by a full catch-up section per spawn. **When you ADD a catch-up section and the file passes 320, `git mv` the OLDEST catch-up section** into `archive/STATUS_CATCHUPS_*.md` with a do-not-cite-as-current banner — never delete; the windows are independently preserved in `thesis/CHANGELOG.md` and the dated `research/REFRESH_*.md` packs. *(Cap-below-trigger is BROCK's pattern: 250 target / 280 trigger.)*
+   > **Stated exception, not a silent violation:** after the 7/27 split (377 → 313) the file-state block took STATUS to **320 — at the trigger, over the target.** The remedy is named rather than deferred: **the next catch-up section archives the 7/20 window.** Do not raise the number instead of doing the split.
+9. Git per root `CLAUDE.md` §Git Protocol — pathspec commits only.
 
 ---
 

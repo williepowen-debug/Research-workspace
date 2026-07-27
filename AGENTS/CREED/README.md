@@ -6,9 +6,19 @@
 
 Read these first:
 
+0. `AGENTS/CREED/SCRATCH.md` — **read first.** Ephemeral session handoff: what the last session was mid-way through, next-boot first moves, open threads, standing traps. **Lowest authority — if it disagrees with STATUS, STATUS is right.**
 1. `AGENTS/CREED/CLAUDE.md` — canonical boot order and guardrails
 2. `AGENTS/CREED/STATUS.md` — current status, thesis state, and first-work priority
 3. `AGENTS/CREED/REVIVAL_PLAN.md` — revival phases and legacy inventory
+
+## Operating ledgers and logs *(added 2026-07-27 — fleet-parity pass against SHADE/BROCK)*
+
+| File | Role |
+|---|---|
+| `board_log.tsv` | **Every mail item CREED has read, with its reasoned disposition.** Logged at READ time. An unlogged consume is indistinguishable from a never-seen. ⚠️ Pre-2026-07-11 lane history is **prose-sourced, deliberately not retrofitted** — see the `[PRE-LEDGER-BACKFILL]` row. |
+| `SCRATCH.md` | Ephemeral session handoff (overwritten each closeout). Created after an unclean shutdown left CREED with no in-flight-work surface. |
+| `MAINTENANCE.md` | **Structural** change log — why CREED is organized this way. **Consult-on-structural-work, NOT a per-session ritual.** Analytical pivots go in `thesis/CHANGELOG.md` instead. |
+| `LAST_COMPLETION.md` | Closeout stamp. ⚠️ **It skipped the 7/20 and 7/27 closeouts and went stale enough to propagate a wrong claim three hops.** If `STATUS.md` is materially newer than this file, **a closeout was skipped — treat its claims as UNKNOWN, not current.** |
 
 ## Live metric layer — the workbook (built 2026-07-27)
 
@@ -19,7 +29,8 @@ Read these first:
 | `VX.tsv` | **31-vector dashboard** across 10 categories, mapped to the Expected Signals. The heart. |
 | `FLOW.tsv` | 8 CRE transmission chains (legacy 6 refreshed + FLOW-07 lender withdrawal, FLOW-08 fast→slow holder migration) |
 | `KB.tsv` | 16 Admiralty-scored research rows, seeded fresh (legacy 40KB KB deliberately not imported) |
-| `PREDICTIONS.tsv` | 9 open forecasts, CREED-set confidences, each naming its resolving instrument |
+| `PREDICTIONS.tsv` | **10** open forecasts, CREED-set confidences, each naming its resolving instrument |
+| `PREDICTIONS_SCOREBOARD.md` | Calibration surface + resolution protocol. **Currently n=0** — created before the first resolution on purpose. **Update it in the same session as the ledger row: both writes, or neither counts.** |
 | `VX_HISTORY.tsv` | monthly series for the load-bearing vectors — a level is not a trend |
 | `SCHEMA.tsv` | 14-column controlled vocabulary governing `KB.tsv` |
 | `WORKBOOK_DESIGN.md` | design rationale + build record + the five Will-approved §10 decisions |
