@@ -1,0 +1,51 @@
+---
+signal_id: SIG-W-20260727-007
+date: 2026-07-27
+time_dispatched: 2026-07-27T13:30:00Z
+origin: Will-Telegram image batch 2026-07-27 ~12:16Z (10 images) — verified by WALTER at intake, no sub-agent (session constraint)
+domain: GEOPOL_ENERGY
+cluster: MISC
+precedence: PRIORITY
+action: [OSPREY]
+info: [FALCON, BRENT, HAWK, CARL, MARCO, RED, PROME]
+confidence: 0.88
+verdict: CONFIRMED-MULTIWIRE (the sinking, the deaths, the vessel name, both dates) / CROSS-THEATER FALSE-FIRE GUARD (the gate)
+---
+
+# 🔴 CONFIRMED SINKING: the grain ship **GOLDEN LEO** sank off Odesa 7/26 after being struck by THREE Russian cruise missiles on 7/19 — **10 DEAD**, incl. 4 Indian sailors. 🚨 **AND THE ROUTING POINT IS THE GUARD: this is the SECOND sinking-class claim this session and a confirmed sinking is a named FALCON flip-up trigger — but that trigger is HORMUZ-scoped. A Black Sea sinking must NOT fire a Hormuz gate.**
+
+## 1. The event — verified, and bigger than the inbound framing
+
+**The GOLDEN LEO** — **Guinea-Bissau flagged, Turkish-owned, carrying GRAIN, leaving Ukraine's maritime corridor** — was struck by **three Russian Kh-59/Kh-69 cruise missiles on 19 July 2026**, sustained hull and superstructure damage, lost seaworthiness, **capsized and SANK in the Gulf of Odesa on 26 July 2026.**
+
+**Casualties: 10 KILLED** (including **4 Indian sailors** and a **Ukrainian pilot**); **8 evacuated** to hospitals in Odesa.
+
+**Corroboration:** Kyiv Independent · US News (7/26) · Kyiv Post · UA.News · liga.net · Global Banking & Finance. **Ukrainian officials on the record.** Vessel named, both dates fixed, casualty count consistent.
+
+**Inbound was @RWApodcast ("Russians With Attitude"), 4:00, video watermarked to a Telegram channel — an openly pro-Russian account, and the post said only "a vessel… is sinking off the port of Odessa."** ⚠️ **Incentive-flagged and it matters in an unexpected direction: the pro-Russian account UNDERSTATED it** — no vessel name, no missile attribution, no death toll, no mention that it was a grain ship in the humanitarian corridor. **The framing minimised Russian agency by presenting a sinking as an event without a cause.** *(Worth recording: an incentive flag predicts DISTORTION, not necessarily inflation. Here the distortion was omission.)*
+
+## 2. 🚨 THE GUARD — this is why it is PRIORITY and why FALCON is cc'd
+
+**A CONFIRMED VESSEL SINKING is one of FALCON's named flip-up triggers, and GATE 2 of the Iran anchor is *"confirmed mine detonation or hostile sinking."* Both are scoped to the HORMUZ / Iran theater.**
+
+**This session produced TWO sinking-class items, and they are a maximal false-fire configuration:**
+
+| | Theater | Confirmed? | Fires FALCON's gate? |
+|---|---|---|---|
+| **Tasnim Hormuz "mine strike"** (`SIG-W-20260727-001` §7) | **RIGHT theater** (Hormuz) | ❌ **Claim-only** — IRGC-linked, vessel unnamed, zero neutral confirmation | **NO** |
+| **Golden Leo** (this signal) | ❌ **WRONG theater** (Black Sea) | ✅ **CONFIRMED** — named, dated, 10 dead, multi-wire | **NO** |
+
+> **🔴 MERGE THEM AND YOU GET "A CONFIRMED VESSEL SUNK IN THE STRAIT" — WHICH IS FALSE ON BOTH COUNTS.** One is right-theater-unconfirmed; the other is confirmed-wrong-theater. **Neither fires GATE 2 and the combination fires it hardest of all.** Standing guard, added to the Iran anchor: **"vessel sunk" claims must be theater-checked BEFORE gate-checked** — and this session is the demonstration, not a hypothetical. *(Sits with the 7/19 Chios Lion / Magic Seas year-conflation retraction, which was the same class one axis over: that one confused the DATE, this one would confuse the SEA.)*
+
+## 3. The real transmission channel — grain, not oil
+
+**This is a GRAIN corridor event, not a hydrocarbon one** (hence cluster MISC, not HYDROCARBON_INFRA — the taxonomy's hydrocarbon bucket is explicitly oil/petrochem).
+
+- **OSPREY (action)** — your theater. **Three cruise missiles at a grain vessel LEAVING the corridor, with 10 dead including foreign nationals, is a corridor-VIABILITY event, not a single-hull event.** The forward question is whether Turkish owners and their underwriters keep sailing; **Black Sea war-risk premia and corridor transit counts are the observables.**
+- **CARL / MARCO (info)** — food/grain price channel. Lands on **`SIG-W-20260710-005`** (food-supply CPI fork, which had the input path turning DISINFLATIONARY with live upside tails). **A corridor-viability shock is one of those tails.** CARL is §3.5 pull-complete → BOARD + route_log only.
+- **BRENT / HAWK (info)** — HAWK for cross-war synthesis: a second theater's maritime escalation the same week the Gulf theater's US-Iran leg de-escalated.
+- **FALCON (info, gate guard ONLY)** — nothing here touches FAL-01 or GATE 2. Named so you see the guard, not because you owe an adjudication.
+
+## 4. 📋 TAXONOMY NOTE (WALTER's own)
+
+Filed **MISC** under the honest reading of the taxonomy (*singletons + no coherent cluster home*). **But this is now the SECOND Russia-Ukraine MARITIME signal** after `SIG-W-20260721-001` (Kazakhstan/CPC halt after drone strikes on tankers at Novorossiysk). **CLUSTER_TAXONOMY spawns a new cluster at ≥3 signals in a coherent theme — so a Black Sea / Russia-Ukraine maritime cluster is ONE signal away.** Flagged now so it is a decision later rather than a MISC pile-up nobody notices.
