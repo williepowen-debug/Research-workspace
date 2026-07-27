@@ -6,7 +6,11 @@
 **Current owner:** CREED  
 **Status:** module / tracker design (durable methodology below — trigger designs, tracker panels, guardrails).
 
-> **Latest tape snapshot: 2026-07-02 close** — lives in `research/REFRESH_2026-07-04.md` §7. Headline: **office REITs + brokers rallied 5–15%** off the 6/18 baseline (SLG +5.7% / BXP +7.1% / VNO +7.3% / HPP +15.7% / JLL +10.1%); **VNQ −2.9pp vs SPY over 3mo** (far from the −10pp trigger), **+6.3pp over 1mo** (REITs outperforming). **Signal 8 read (THESIS): the public equity tape is a COUNTER-SIGNAL** — not confirming the private/CMBS recognition deterioration. Lone dissent: **OZK −5.7% on 7/2** (Seattle deed-in-lieu). This snapshot updates the design doc below; the methodology/trigger designs are unchanged.
+> **Latest tape snapshot: 2026-07-27 INTRADAY (~14:05 ET)** — lives in `research/REFRESH_2026-07-27.md` §8. **VNQ vs SPY +2.04pp/3mo — the relative has FLIPPED POSITIVE** (was −1.6pp on 7/20, −2.9pp on 7/2), **+2.86pp/1mo**; the −10pp trigger is now **12pp away and receding**. Office REITs **+14% to +77%/3mo** (VNO +35.1, SLG +27.4, HPP +76.8, CUZ +28.4, KRC +23.0); malls up (SPG +14.4, MAC +22.5). **Signal 8a read: the CRE equity tape is a COUNTER-SIGNAL and it has STRENGTHENED** — honor it.
+>
+> ⚠️ **THIS MODULE COVERS ONLY THE EQUITY LEG — and that was a blind spot until 2026-07-27.** THESIS Signal 8 has been **split into 8a (CRE equity) and 8b (CRE credit / commercial mortgage REITs)** because the two legs diverged hard: over the same 3mo window **7 of 11 CRE mortgage REITs were NEGATIVE** (median ≈ −9%) while equity REITs rallied, with **ARI winding down** (~$9B book sold to Athene at 99.7%) and **KREF cutting its dividend 60%** on risk-rated-5 office/multifamily/life-science reserves. **The mREIT row in the trigger table below ("route to LIQUID first; CREED only as adjacent tape") UNDERSTATED this leg — 8b is now a scored CREED vector set (`VX-CREED-10.01`–`10.05`), not adjacent tape.** Standing discipline: **never cite a CRE mREIT price move without checking corporate actions** (ARI's −37%/1mo was a $3.75 return-of-capital going ex).
+>
+> *Prior snapshots for the trail: 7/20 (VNQ −1.6pp/3mo; data-center DLR −13.4%/3mo, since unwound to −3.0%) · 7/2 (VNQ −2.9pp/3mo; office REITs +5–15% off the 6/18 baseline; OZK −5.7% lone dissent) — both in their dated packs.* The methodology and trigger designs below are unchanged except as noted above.
 
 ---
 

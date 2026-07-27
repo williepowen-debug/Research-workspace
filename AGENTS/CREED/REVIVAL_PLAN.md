@@ -33,7 +33,7 @@ Top-level `AGENTS/CREED/` is now current as the national CRE / CMBS source-pack 
 - Phase 4 inbox triage: `AGENTS/CREED/research/INBOX_TRIAGE_2026-06-21.md`
 - Phase 6-lite legacy pull-forward: `AGENTS/CREED/archive/LEGACY_PULL_FORWARD_2026-06-21.md`
 - canonical topology/roster integration completed in `AGENTS.md`, `AGENTS_DIRECTORY.md`, `AGENTS/_CREDIT.md`, `AGENTS/_NETWORK.md`, and dashboard mirror
-- no live workbook/dashboard yet
+- ✅ **live workbook BUILT 2026-07-27** — `AGENTS/CREED/workbook/` (6 TSVs: SCHEMA/VX/FLOW/KB/PREDICTIONS/VX_HISTORY; 31 vectors, 8 flow chains, boot staleness check wired into `CLAUDE.md`). *This line read "no live workbook/dashboard yet" until 7/27 — corrected in the 7/27 audit sweep.*
 
 The real legacy CREED body lives under REGINALD:
 - `AGENTS/REGINALD/sub-agents/CREED/STATUS.md`
