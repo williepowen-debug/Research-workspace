@@ -49,7 +49,7 @@
 - **`-010` Lake Powell was NOT primary-verified** (no USBR pull); AEOLUS asked to date-check "lowest ever" against the 2022-23 lows.
 - **`-005`'s breadth chart is proprietary and untestable on a flat pre-market tape** — routed as a question, deliberately not banked.
 - **~64 handoffs sit `delivered_but_unconsumed`** until recipients boot (self-closing, not WALTER-fixable). Standing backlog was 45 at boot.
-- **MEMORY at 111 vs a 100 cap** — 9 pruned + 2 promoted this session; five new findings added. Further cuts would start removing live findings.
+- **MEMORY at 116 vs a 100 cap** — **12 pruned + 3 promoted to auto-memory** this session against **9 new findings added**, so the file is materially healthier even though it is longer. Further cuts would start removing live findings; flagged rather than forced.
 - `trash` still not on PATH on this box (carried; needs Will at keyboard).
 - **The Agent tool was barred again** — two consecutive sessions without verify-spawn capability.
 
@@ -73,7 +73,7 @@
 
 ## OPEN DESIGN DECISIONS (need Will) — condensed
 
-**🔴 ACTIVE:** **(A) RESEARCH-INTAKE scope addition — the n=3 collection defect** · **(B) fleet-wide cap policy — retire numeric caps for the review trigger** · VULCAN's 5-axis re-cut (recorded, **not** adopted; needs Will + the live VULCAN) · LOOPS.md ownership (at PROME) · B5 scheduled-scan (double-blocked) · DEWEY delivery-reliability mechanization (n=2, inconclusive).
+**🔴 ACTIVE:** ~~(A) RESEARCH-INTAKE scope addition~~ **RESOLVED 7/27 — and the diagnosis was CORRECTED first (triage, not collection). ① entity-class tagging + ④ memory-pricing feed specced to PROME · ② the megacap-2.02 rule SHIPPED as boot-step 7e(d.1) · ③ EX-99.1 extraction HELD by Will.** · **(B) fleet-wide cap policy — retire numeric caps for the review trigger — STILL OPEN, and it is now the only ACTIVE Will-decision on this list** · VULCAN's 5-axis re-cut (recorded, **not** adopted; needs Will + the live VULCAN) · LOOPS.md ownership (at PROME) · B5 scheduled-scan (double-blocked) · DEWEY delivery-reliability mechanization (n=2, inconclusive).
 
 **🟠 DEFERRED:** CLIMATE_MACRO sustain-vs-fold (**now 5 live test cases** — Spain, PNW, NOAA El Niño, + `-010` Lake Powell) · RESEARCH-INTAKE v2 dedupe-by-story (**the lane counts OUTLETS not SOURCES**) · I4 CROSS_REFS cache.
 
