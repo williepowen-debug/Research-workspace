@@ -1,7 +1,16 @@
 # SHADE SCRATCH.md — Ephemeral Session State
 **Rewritten:** 2026-07-27 ~14:15 ET (Will catch-up boot, Monday — 7-day gap: 15-item mail drain [both lanes CLEAN] + Delaware Life restatement pulled to PRIMARY + vector #1 moved to FIRING + live tape refreshed + one negative result that keeps the Athene wall standing)
+**Amended:** 2026-07-27 ~19:45 ET — **post-crash re-boot. NOTHING WAS LOST.**
 
 ---
+
+## 🔧 CRASH RECOVERY NOTE (2026-07-27 ~19:45, read this first)
+
+The 14:00 session ended in an unclean shutdown right after commit `771f4094` (14:26). **Verified state at re-boot: working tree CLEAN, `origin/master` in sync 0/0, and all three outbound packets delivered AND committed** — BROCK (`c88796b5`, since **consumed** into `AGENTS/BROCK/inbox/processed/`), PROME (`PROME/inbox/2026-07-27_from-SHADE_vector1-FIRING-delaware-life-primary.md`), CREED (`771f4094`). No re-send needed, no orphaned packets.
+
+**The only real gap:** **two inbox packets landed AFTER the mail drain** (BROCK 14:21, CREED ADDENDUM 14:24) and were never logged. **Both drained on the re-boot** — `board_log.tsv` rows + `git mv` to `processed/`. Both lanes CLEAN again.
+
+⚠️ **Correction to the 14:15 mail-state line below:** it lists two 7/27 files as sitting in `outbox/`. **They were never in `outbox/`** — they were written **directly into the recipients' `inbox/` dirs** under root-CLAUDE.md carve-out ①, which is the correct route. `outbox/` still holds only 7/09 and 7/20 files. Corrected in MAIL STATE at the bottom.
 
 ## TOP VERDICT (7/27) — a SHADE vector is FIRING for the first time, and it is NOT the flagged one
 
@@ -44,7 +53,7 @@ Wrapper thesis went CONCRETE but PRE-MORTEM (UBS/Nationwide wrapped-PC bond); tr
 2. **Delaware Life follow-through (top of queue):** remediation-plan size/timetable; **impaired vs mis-labelled**; the **Barbco "former affiliate"** de-affiliation + new **Nautilus (Barbados)** modco cession. **[Clear Spring statutory financials ATTEMPTED 7/27 — NOT publicly obtainable; see below. Do not re-attempt via EDGAR.]**
 2b. **Test the accrued-interest anomaly:** DLIC's FY2025 purchases from CSLAC carry **~9.8% accrued-interest-to-book** vs ~1.0% (2024) / ~0.9% (2023). A ~10× YoY jump on inter-affiliate purchases is the profile of deferred/non-current-pay credit — **but accrued interest depends on coupon and payment timing, so this is an anomaly to test, not a PIK finding.** Needs CUSIP-level detail.
 3. **Cohort read-across:** is the SSAP-25 self-set threshold understating related-party lines cohort-wide? **No EDGAR screen exists** — needs FY2026 enhanced statutory disclosure / NAIC InsData / state-DOI.
-4. **PROME Weld 2 (accepted, not started):** combined insurer-sink triple-decker. **Blocked on CREED re-stamping his 7/4-vintage CRE flow series.**
+4. ⭐ **PROME Weld 2 — NOW THE TOP SUBSTANTIVE ITEM (unblocked 7/27, nothing owed to anyone):** build the combined insurer-sink **triple-decker** — the same balance-sheet class simultaneously absorbing **repackaged PC** + **fund-finance lending** + **shed CRE credit**, against the Moody's **$807B / 20%-illiquid** baseline. CRE leg is primary-stamped and on the shelf (MBA Q1-26: life insurers **+$3.3B** → $775B stock of a $5.02T market, vs CMBS/CDO/ABS **−$9.6B**). Extend `research/INSURER_LENDER_DOUBLE_JEOPARDY_2026-06-26.md`. ⚠️ Carry the **fast-vs-slow recognition** framing (securitized sheds, insurance absorbs) and the **anti-fusion discriminator** — absorption is not by itself the finding; **unmeasured** absorption is.
 5. **Granato & Drall:** read the paper; test the premium-tax-credit claim against an actual state guaranty statute.
 6. **Trigger watch:** unchanged — **HY >280 SUSTAINED (5+ sessions) AND wrapper-basket leads managers DOWN.** Level leg is 1bp away; **sign leg currently inverted.** Issuance ≠ arming; a beta-driven re-approach to 280 does NOT satisfy the sign leg.
 7. **DO NOT** re-run the NPORT crawl unless kill-path-1 nears a trade. **DO NOT** cite $155B/$2.88B/1.44% as FY2025.
@@ -53,6 +62,8 @@ Wrapper thesis went CONCRETE but PRE-MORTEM (UBS/Nationwide wrapped-PC bond); tr
 | Item | Status |
 |---|---|
 | Delaware Life / Clear Spring related-party restatement | 🔴 **FIRING** — primary-verified; DOJ+SEC live, no charges; S&P negative outlook; impaired-vs-mislabelled OPEN |
+| **Vector-#1 scoring rule (NEW, post-crash drain)** | ✅ **ADOPTED** — the discriminator is **disclosure quality + price discovery, NOT affiliation**. Affiliation is normal in this structure; *unmeasured* affiliation is the problem. **ARI→Athene is the BENCHMARK, not corroboration** — a well-governed affiliated transfer does NOT add to the firing vector. Score named transfers on 4 axes (mechanism / size / disclosure / price discovery); the **divergence** from the benchmark is the finding. |
+| **ARI→Athene $9B, Athene-side** | 🟠 **SHADE-OWNED residual** — capital treatment, RBC, L3, concentration, and the **ALM question** (floating 7.0% CRE first mortgages vs fixed annuity liabilities; no hedging disclosure pulled). ⚠️ **Not in any current Athene figure** — close 4/24/26 postdates the 3/31/26 balance-sheet date. Q2-26 filings = first observable. Falsifier: **MBA Q2 CM/MF print ~mid-Sept.** |
 | Related-party classification integrity (SSAP-25 self-set test) | 🟠 **NEW, SHADE-OWNED** — measurement-integrity finding; degrades SHADE Key Ratios #1/#3 |
 | Cohort read-across (is Delaware Life idiosyncratic?) | ⚠️ **NO SCREEN AVAILABLE** — EDGAR proven to be the wrong slice |
 | Clear Spring Life statutory financials | ❌ **NOT PUBLICLY OBTAINABLE** — no EDGAR registration, no N-VPFS (fixed/FIA only, so no variable-product filing to bundle into). Delaware DOI publishes exams, not annual statements. **Gated paths only: NAIC InsData / state-DOI request / AM Best–S&P CapIQ statutory data.** |
@@ -61,14 +72,22 @@ Wrapper thesis went CONCRETE but PRE-MORTEM (UBS/Nationwide wrapped-PC bond); tr
 | Wrapper-decoupling trigger | ⚠️ NOT ARMED — HY 279 (1bp under), sign leg INVERTED 7/27 |
 | Wrapped-PC (UBS/Nationwide) tripwires | 🟠 PRE-MORTEM — 0 of 4 firing; unchanged |
 | Insurer-lender double-jeopardy | 🟡 **DOWNGRADED to not-publicly-confirmable** — lender leg refuted; mechanism retained |
-| Combined insurer-sink (Weld 2) | 🟡 ACCEPTED, not started — blocked on CREED re-stamp |
+| Combined insurer-sink (Weld 2) | ⭐ **UNBLOCKED 7/27 — READY TO BUILD, top of queue.** CREED's CRE leg was re-stamped to MBA primary on 7/20 (Q1-26 release 6/18); he never signalled it, so the "blocked" mark was stale, not real. Nothing owed back to CREED. |
+| **Athene Q2-26 mortgage-loan line** | 🟡 **PRE-REGISTERED as CREED `PRED-CREED-010` (70%)**, resolving on Athene Holding 10-Q Q2-26 (~Aug), cross-checked vs Apollo 10-Q RS segment. **All 3 branches pre-committed** (both move / only Athene moves = bad instrument / neither moves = re-derive). ⚠️ **SHADE-relevant caveat:** the risk is **classification, not the transaction** — ACRA co-invest vehicles mean the book can land in a sidecar, a securitization, or "investment funds" instead of "mortgage loans", so a flat line is **ambiguous, not refuting.** Same Schedule-BA/ACRA opacity SHADE already owns. |
+| **ARI post-sale size** | ✅ **RECONCILED to one number** — **$2.2B total assets / BVPS $12.05** (at-close, 4/24 press release). ⚠️ **Do NOT cite ~$1.3B as post-sale cash** — it was a Q1 (3/31/26) **pre-close cash component**, mislabelled; CREED took the error and corrected 4 surfaces. |
 | Granato/Drall guaranty-fund → premium-tax | 🟡 registered as tail-severity modifier; paper unread |
 | FABN peer-relative canary | 🟠 YELLOW; T+123 (+43-48bp), no fresh pull this session |
 | Egan-Jones Aug 12 | 🟢 calendar binary, unchanged (16 days out) |
 | Apollo XPV A1 hold-vs-distribute | 🟡 UNRESOLVED — needs Q2/Q3-26 10-Q |
 
-## MAIL STATE
+## MAIL STATE *(corrected at the 19:45 re-boot)*
 - `inbox/WALTER/`: **CLEAN** — 10 items drained → `processed/`, all logged.
-- `inbox/` root: **CLEAN** — 5 items drained → `processed/`, all logged.
-- `outbox/`: `2026-07-27_to-BROCK_delaware-life-related-party-primary.md` (action) + `2026-07-27_to-PROME-NEXUS_vector1-firing.md`.
-- No writes outside `AGENTS/SHADE/` except the two self-authored inbox packets above (root CLAUDE.md carve-out ①).
+- `inbox/` root: **CLEAN** — 7 items drained → `processed/`, all logged *(5 in the 14:15 drain + BROCK and the CREED ADDENDUM, which landed after it and were drained post-crash)*.
+- `outbox/`: **unchanged since 7/20** — holds only the 7/09 and 7/20 files. The 7/27 packets did **not** go here.
+- **Outbound 7/27, all DELIVERED + COMMITTED + verified on disk** (carve-out ①, written straight to recipient inboxes):
+  | To | File | Commit | State |
+  |---|---|---|---|
+  | BROCK | `AGENTS/BROCK/inbox/…_from-SHADE_delaware-life-related-party-PRIMARY-verified.md` | `c88796b5` | ✅ **consumed** (in BROCK's `processed/`) |
+  | PROME | `PROME/inbox/2026-07-27_from-SHADE_vector1-FIRING-delaware-life-primary.md` | `c88796b5` | ✅ delivered |
+  | CREED | `AGENTS/CREED/inbox/…_from-SHADE_ARI-athene-verified-to-primary-affiliated-transfer-leg.md` | `771f4094` | ✅ delivered |
+- No writes outside `AGENTS/SHADE/` except those three self-authored inbox packets (root CLAUDE.md carve-out ①).
