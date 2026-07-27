@@ -48,7 +48,7 @@
 
 ## WILL_NEEDS
 
-1. **🚩 AI_INFRA_CAPEX 39/40 — ONE from the soft cap.** Split-vs-keep is yours and is now effectively overdue; a breach re-opens the taxonomy tree.
+1. ~~**🚩 AI_INFRA_CAPEX 39/40 — split-vs-keep is yours and overdue.**~~ **❌ FALSE ITEM — CORRECTED 2026-07-27. This decision was RESOLVED on 2026-07-16: KEEP, cap 15 → 40, Will-approved by Telegram, VULCAN-ratified, written into `CLUSTER_TAXONOMY` v0.5/v0.6.** It was carried as an ACTIVE open decision for 11 days and re-presented to Will at the 7/27 boot as "overdue" — a live instance of the 7/04 finding *your own summary docs can lag git ground-truth.* **What is actually due at the breach is the v0.6 bidirectional revisit trigger** (a: angle count >5 · b: any original angle <2 signals in 60d), evaluated **at** the breach, **WALTER-owned, no Will gate.** *The genuinely open item is the recorded counter — whether cap policy deserves a fleet-wide basis; WALTER's 7/27 recommendation to Will: retire per-cluster numeric caps in favour of the review trigger, since a row-count measures the taxonomy and not the domain (VULCAN proved this — the memory/input-cost signals were filed under `ASIA_CHINA` all along).*
 2. Optional, both carried: the **Bloomberg "Goldman AI junk bonds"** body and the **"semi-liquid"** full text — each would upgrade a marker to data.
 
 ## FOLLOW-UP (canonical running list — survives handoff via this file)
@@ -66,7 +66,7 @@
 
 ## OPEN DESIGN DECISIONS (need Will) — condensed
 
-**🔴 ACTIVE:** **AI_INFRA_CAPEX split-vs-keep (39/40 — ONE away, overdue)** · fleet-wide cluster-cap policy · VULCAN 5-axis re-cut (recorded, not adopted) · LOOPS.md ownership (at PROME) · B5 scheduled-scan (double-blocked) · DEWEY delivery-reliability mechanization (n=2, inconclusive).
+**🔴 ACTIVE:** ~~AI_INFRA_CAPEX split-vs-keep~~ **RESOLVED 7/16 (KEEP, cap 40) — false carry, struck 7/27; see WILL_NEEDS #1** · **fleet-wide cluster-cap policy (this is the REAL open question the false item was masking; WALTER recommends retiring numeric caps for the review trigger)** · VULCAN 5-axis re-cut (recorded, not adopted) · LOOPS.md ownership (at PROME) · B5 scheduled-scan (double-blocked) · DEWEY delivery-reliability mechanization (n=2, inconclusive).
 
 **🟠 DEFERRED:** CLIMATE_MACRO sustain-vs-fold — **now with THREE live test cases in 24h** (Spain `-005`, PNW `-011`, NOAA El Niño `-012`), which is the strongest argument yet for taking the decision · RESEARCH-INTAKE v2 (dedupe-by-story; the lane counts OUTLETS not SOURCES) · I4 CROSS_REFS cache.
 

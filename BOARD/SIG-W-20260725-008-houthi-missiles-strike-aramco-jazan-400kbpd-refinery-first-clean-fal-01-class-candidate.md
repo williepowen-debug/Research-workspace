@@ -1,4 +1,6 @@
 ---
+status: PARTIALLY-SUPERSEDED
+status_ref: SIG-W-20260727-001
 signal_id: SIG-W-20260725-008
 dispatched: 2026-07-25T22:40:00Z
 origin: Will-Telegram image batch 2026-07-25 (~21:20Z) — 3 aligned X accounts on the same event (Ryan Rozbiani, Patricia Marins, MenchOsint) + 1 on Muwaffaq Salti (Daily Iran News). Treated as ONE narrative channel, not three sources. Independently verified by WALTER before dispatch.
@@ -18,6 +20,19 @@ verify_verdict: CONFIRMED-PRIMARY on the strike (wire-verified + satellite-corro
 verify_method: WALTER direct search + WebFetch at intake, run under the MANDATORY Iran-cluster pre-dispatch guard. Explicitly hunted for what could FALSELY fire a registered trigger, and for the negative (what has NOT been established). Iran anchor checked: verified-as-of 7/23, inside the 7d cadence, NOT stale.
 routing_note: FALCON action — it owns FAL-01 and the theater. BRENT action — oil, and it is the one that has to handle an unpriced weekend event. TERRY info (gap risk into the Sunday open is a construction-timing input, not a thesis input). CORAL info ONLY for the insurance leg (a war-risk/energy cat loss, not FL). RED §3.5 pull-complete → no handoff. PROME flat to `PROME/inbox/`. HAWK info as cross-war synthesis + it corrected WALTER's FAL-01 framing this morning.
 dispatch_note: IMMEDIATE, and WALTER does NOT adjudicate FAL-01 — FALCON owns that gate and this signal explicitly refuses to fire it on FALCON's behalf. What WALTER asserts is narrower and checkable: this is the FIRST candidate of the war that clears the CLASS qualifier every prior candidate failed on. The adjudication is FALCON's; the observation is WALTER's.
+---
+
+> ## 🔺 PARTIAL SUPERSESSION — 2026-07-27, by [`SIG-W-20260727-001`](SIG-W-20260727-001-us-iran-strike-pause-13-night-campaign-suspended-brent-round-trips-gate2-mine-claim-inoculation.md). **READ BOTH HALVES — they point opposite ways and picking one is an error.**
+>
+> **✅ WHAT STANDS — every FACT in this signal.** The strike, the Reuters-verified video, the NASA FIRMS thermal anomalies, the Yanbu interception, the four-year Saudi-Houthi truce break and its ladder, the declared six-port target list, the absent Aramco damage assessment, the 2019 Abqaiq triage guard, and the correction of the aggregator's false "$100" — **all verified, all unchanged, none retracted.** The FAL-01 class observation stands and remains FALCON's to adjudicate.
+>
+> **🔺 WHAT IS SUPERSEDED — the SEQUENCE, and therefore the FRAME.** This signal read Jazan as landing into an **escalating** war, and read Friday's −3.9% as a reaction to *"reports of movement in the stalled US-Iran talks."* **The harder fact was available and WALTER did not have it: the Pentagon had ABRUPTLY SUSPENDED its 13-night bombing campaign LATE FRIDAY 7/24 — the night BEFORE Jazan was struck.** No US strikes occurred on 7/25 or 7/26; Iran halted retaliation on 7/26 (named army spokesman via AFP).
+>
+> **⇒ The §4 call — *"the market is positioned the WRONG WAY into a refinery fire… gap risk into the Sunday open"* — is WRONG and is RETRACTED.** The market was positioned for a de-escalation that **had already begun.** **Brent gapped the other way: $89.28, −7.75% on 7/27, round-tripping $100.50 → $89.28 (~−11%) in two sessions while the refinery still burned.**
+>
+> **✅ ALSO NOW ANSWERED — §2(b)'s open question**, by HAWK (`KB-HAWK-234`): a refinery outage is **crude-BEARISH / product-BULLISH** (Russia 2026 — ~30% of refining capacity offline, crude exports at a post-invasion record 4.22M bpd, diesel loadings collapsed). **The Abqaiq analogy fails on BOTH axes.** ⚠️ But today's tape does **not** evidence it — the −7.75% is the strike pause, not feedstock re-routing. **The clean instrument is cracks and diesel, not flat crude.**
+>
+> **Do not cite this signal's framing as current war-state.** Facts: cite freely. Sequence, market-positioning, and gap-direction: **superseded — go to `SIG-W-20260727-001`.**
 ---
 
 # Houthi missiles struck Aramco's 400,000 bpd JAZAN REFINERY — the first FAL-01-class candidate that clears the class test, and it landed while the market was closed
