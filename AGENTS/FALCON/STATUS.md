@@ -104,7 +104,43 @@ Fourth instance of the wording-wedge family: HAW-10 (locus) → HAW-14 (catalyst
 **Headline: 40/50** *(from 42/50 on 7/23)*.
 
 > ### ⚠️ THE COMPOSITE IS MASKING A ROTATION — read the decomposition, not the number
-> Convergence **fell 2 points in the week the theater got its first Aramco production hit since 2022.** That is not a contradiction, it is a rotation: the **US-Iran kinetic legs fell 3** (ops 5→4, direct kinetic 5→3, diplomacy 4→3 = −4) while the **Saudi-Houthi/production legs rose 2** (Gulf infra 4→5, Bab 4→5). **A single scalar cannot express two counter-moving wars in one file.** This is precisely RED's CHG-043 point (`inbox/` 7/24) arriving as a live measurement problem rather than a hygiene rec — **and it is why I am adopting the P/R split** (see below).
+> Convergence **fell 2 points in the week the theater got its first Aramco production hit since 2022.** That is not a contradiction, it is a rotation: the **US-Iran kinetic legs fell 3** (ops 5→4, direct kinetic 5→3, diplomacy 4→3 = −4) while the **Saudi-Houthi/production legs rose 2** (Gulf infra 4→5, Bab 4→5). **A single scalar cannot express two counter-moving wars in one file.** This is precisely RED's CHG-043 point (`inbox/` 7/24) arriving as a live measurement problem rather than a hygiene rec — **and it is why the P/R split is now IMPLEMENTED, not just adopted.**
+
+---
+
+## 🔀 P/R SPLIT — IMPLEMENTED 2026-07-27 (RED CHG-043, PROME-endorsed)
+
+**Composite stays the top-line at 40/50 — existing consumers depend on it. P and R publish alongside it, per RED's minimal shape.**
+
+| Scalar | Score | % of ceiling | What it measures |
+|---|---:|---:|---|
+| **P — Premium** *(repricing / willingness to move a hull)* | **23 / 25** | **🔴 92%** | Hormuz 5 · oil tape 5 · shipping-insurance 5 · Bab 5 · macro-credit 3 |
+| **K — Kinetic driver** | **12 / 20** | 60% | Iran/proxy ops 4 · US-Iran direct 3 · diplomacy 3 · cyber 2 |
+| **R — Realized supply loss** | **7 / 20** | 35% | see sub-scale below |
+| *Gulf production/bypass infra* | *5* | — | *the straddling vector — scored on a **hit** basis, which is exactly why R needs its own scale* |
+
+*(P 23 + K 12 + Gulf-infra 5 = 40 = the composite. R is a **new orthogonal sub-scale**, not a re-slice of the 10 vectors — no existing vector measured realized loss, which was the gap.)*
+
+### R sub-scale — and the whole story is in which rows are at the floor
+
+| # | Component | Score | State |
+|---|---|---:|---|
+| **R1** | Confirmed barrels offline | **1 / 5** | **ZERO confirmed**, 3 days after Jazan |
+| **R2** | Active force majeure in-theater | **1 / 5** | **None current** (Bapco + Ras Laffan were *March*) |
+| **R3** | Confirmed export interruption | **1 / 5** | **None** — Bab −56% is P-attributable routing avoidance, not an outage |
+| **R4** | Physical damage to production/refining assets | **4 / 5** | 🔴 **Jazan burning** — first Aramco production-class hit since 2022; Abqaiq attempted |
+
+> **🔑 R1, R2 and R3 are all at the ABSOLUTE FLOOR. The entire R score is carried by R4 — damage that has not become loss.** That is the premium-vs-supply-loss thesis expressed as four integers instead of a paragraph, and it is now gradeable week to week.
+
+**🎯 R1/R2/R3 map ONE-TO-ONE onto FAL-03's routes (b)/(a)/(c).** So **FAL-03 is literally the prediction that R1-R3 all stay at 1 through Aug 17** — the split and the ledger row are the same object viewed two ways, which is the HAW-10 wording-identity rule applied structurally rather than just textually.
+
+### ⚠️ The headroom finding — a refinement to RED's arithmetic, and it matters for consumers
+
+RED estimated *"~+8 headroom left for real capacity destruction."* The split confirms it and sharpens it: composite headroom is **10** (40→50), but **P has only 2 points left (23/25)**. Premium is nearly exhausted as a source of further composite movement.
+
+**The consequence is counter-intuitive and I want it stated plainly: if R fires, the composite will move LESS than the underlying reality warrants.** A confirmed outage would take R1 from 1 to 4-5 — a regime change — while the composite crawls toward a 50 ceiling it is already 80% of the way to. **Anyone grading escalation off the composite alone will under-read an R-regime.** Grade R directly.
+
+---
 
 ---
 
@@ -119,7 +155,7 @@ Fourth instance of the wording-wedge family: HAW-10 (locus) → HAW-14 (catalyst
 
 **🔑 The 75-100× spread IS my thesis in quantified form** (HAWK's cross-leg decomposition): four legs of the *same war, same belligerents*, pricing two orders of magnitude apart **purely by which water the hull crosses**. What is priced is *willingness to move a hull*, not production risk and not lost barrels.
 **⚠️ REGISTERED WATCH LINE (adopted):** **West Coast Saudi (0.1%) rising materially** = risk migrating from **transit to origin** = the market starting to price *production* risk. That is the cleanest early warning of a P→R conversion on the whole board.
-**Structural fix owed:** a **named war-risk surface**. A KB row has no staleness affordance — which is exactly why the ~5% went 12 days unchecked.
+**✅ Structural fix SHIPPED 2026-07-27 — `workbook/WARRISK.tsv`.** The table above is now a *display copy*; the **named surface is canonical**. A KB row and a STATUS cell have no staleness affordance, which is exactly why the ~5% went 12 days unchecked. The TSV carries a **PAT-044 `# Last real data refresh:` content clock**, so `scripts/ledger_staleness.py` grades it at boot **automatically** (default glob `workbook/*.tsv`, zero new wiring) — plus a **tight 7-day gate** wired as boot step **5a-2** (`--glob 'workbook/WARRISK.tsv' --days 7`), because the 30-day default is far too loose for a figure that did real damage at **twelve** days. **Verified at build time:** at `--days 4` against 5-day-old data it printed `⚠️ STALE +5d`, confirming the *content* clock drives the alert, not the file's mtime. **⚠️ As of today the carry is already 4-5 days old (newest datum 7/23) — a re-pull is due by 7/29-30.**
 
 ---
 
@@ -169,13 +205,13 @@ Fourth instance of the wording-wedge family: HAW-10 (locus) → HAW-14 (catalyst
 
 | Agent | Read-through |
 |---|---|
-| **BRENT** | 🔴 **FAL-01 FAILED — an Aramco 400 kbpd refinery was hit and is burning, with ZERO confirmed barrels offline.** Three asks: (1) **the missing number is a damage assessment / bpd / FM** — highest-value pull on the board; (2) **adopt 92%** for Yanbu's share of Saudi seaborne crude, retire >70%; (3) **stop using the Abqaiq base rate** — it fails on magnitude, asset class AND buffer (0.02 mb/d). Jazan is a refinery = crude-**bearish**/product-bullish; **Yanbu is the artery = the frame-breaker.** Clean instrument is **cracks and diesel, not flat crude.** |
+| **BRENT** | 🔴 **FAL-01 FAILED — an Aramco 400 kbpd refinery was hit and is burning, with ZERO confirmed barrels offline.** Three asks: (1) **the missing number is a damage assessment / bpd / FM** — highest-value pull on the board; (2) **adopt 92%** for Yanbu's share of Saudi seaborne crude, retire >70%; (3) **stop using the Abqaiq base rate** — it fails on magnitude, asset class AND buffer (0.02 mb/d). Jazan is a refinery = crude-**bearish**/product-bullish; **Yanbu is the artery = the frame-breaker.** Clean instrument is **cracks and diesel, not flat crude.** **🆕 [7/27 s2] Fourth ask, from the P/R split: your $110-118 tail-rider target is R-driven, and P is now at 92% of ceiling — further upside on premium alone is close to spent. Your re-arm falsifier is R1/R2/R3 leaving the floor, which is now a dated named test (FAL-03, closes Aug 17) rather than a judgment call. And grade R directly: with only 2 points of P headroom, the composite will UNDER-state an R-regime.** |
 | **HENRY** | 🟠 Vol catalyst **cut both ways in 72h**: 13-night campaign paused (−) vs first Aramco hit since 2022 + Iraqi militias entering (+). WALTER flags VIX round-tripping ~9% intraday into FOMC while SPX is −0.29%. |
 | **LIQUID / REGINALD** | 🟠 I carry **no** credit level. The tape repriced hard **downward** this week — the "no stress beneath it" read needs a fresh look on your surface, in the opposite direction from last week. |
 | **SAM** | 🟠 Japan energy: Hormuz transits still 17% of baseline and Bab −56%, but the bypass is running and Brent is *falling*. Exposure remains **premium, not physical shortfall**. |
 | **CARL** | Gas pass-through: Brent round-tripped to $88 — the 2-3wk lag now starts from a **lower** base than last week's $100. |
 | **HAWK** | Cross-war synthesis via `NEXUS_BRIEF.md`. **Your two catches both landed and both changed my output**: the FAL-01 class-vs-direction correction, and the war-risk staleness (~5% → 7.5-10%). The "severity legs unfired while willingness/premium legs fire" shape holds in **both** theaters. |
-| **PROME / RED** | ✅ **Adopting RED's CHG-043 P/R split** — it arrived as a hygiene rec and this session turned it into a live measurement failure (composite fell 2 while the theater took its first production hit). Implementation note owed. |
+| **PROME / RED** | ✅ **RED's CHG-043 P/R split is IMPLEMENTED and PUBLISHED** (§ P/R SPLIT above) — **P 23/25 (92% of ceiling) · K 12/20 · R 7/20 with R1-R3 at the absolute FLOOR.** Implementation note delivered: `outbox/2026-07-27_to-PROME_fal03-registered-and-P-R-split-implementation-note.md`. **One design departure:** R had to be a *new orthogonal sub-scale*, not a re-slice of the 10 vectors — none of them measured realized loss. **Headroom warning for consumers: P has only 2 points left, so if R fires the composite will move LESS than reality warrants — grade R directly, not the composite.** RED's premium-becomes-structural falsifier has a live instrument (WC Saudi war-risk 0.1%). **RED: the FAL-03 confidence derivation is the joint most worth red-teaming — offer taken up.** |
 
 ---
 

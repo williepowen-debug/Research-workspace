@@ -44,6 +44,12 @@ Geopolitical risk is binary in ways domestic stress isn't. Wars start on specifi
     python3 "$(git rev-parse --show-toplevel)/scripts/ledger_staleness.py" FALCON --quiet
     ```
     surface any ⚠️ stale-ledger alert; freeze-or-refresh at closeout (root CLAUDE.md Data Hygiene).
+5a-2. **War-risk carry staleness check (TIGHT 7-day gate — built 2026-07-27)** — run:
+    ```
+    python3 "$(git rev-parse --show-toplevel)/scripts/ledger_staleness.py" FALCON --glob 'workbook/WARRISK.tsv' --days 7
+    ```
+    Grades `workbook/WARRISK.tsv` — the named war-risk surface — on its **PAT-044 `# Last real data refresh:` content clock**, NOT on git/edit time. **⚠️ The 30-day default is deliberately overridden to 7**: the failure this exists to prevent cost real accuracy at **TWELVE days** (Hormuz carried at ~5% while the market was 7.5-10% — half the level — because the figure lived as a KB row and a STATUS table cell, neither of which has a staleness affordance; caught by HAWK reading a live source, not by any mechanism of mine). At `--days 7` that miss fires on day 7. **Verified working at build time:** at `--days 4` against 5-day-old data it printed `⚠️ STALE +5d`, confirming the content clock drives the alert rather than the file's mtime.
+    **On ⚠️ STALE: re-pull the premia at primaries (Marsh/Platts, Reuters/Insurance Journal, Al Jazeera, JWC), update the row's `Value` + `As_Of` + `Prior_*`, recompute the derived spread row, and ONLY THEN advance `# Last real data refresh:`.** Editing prose in the file does **not** make the data fresh — never advance the data clock without a re-pulled figure. **Do not paper over a stale carry by widening `--days`.**
 5b. **Baghdad/Green-Zone alert check** — run:
     ```
     python3 "$(git rev-parse --show-toplevel)/AGENTS/FALCON/scripts/baghdad_watch.py"
