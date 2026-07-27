@@ -1,7 +1,8 @@
 # SHADE SCRATCH.md — Ephemeral Session State
 **Rewritten:** 2026-07-27 ~14:15 ET (Will catch-up boot, Monday — 7-day gap: 15-item mail drain [both lanes CLEAN] + Delaware Life restatement pulled to PRIMARY + vector #1 moved to FIRING + live tape refreshed + one negative result that keeps the Athene wall standing)
 **Amended:** 2026-07-27 ~19:45 ET — **post-crash re-boot. NOTHING WAS LOST.**
-**CLOSED OUT:** 2026-07-27 ~22:45 ET — Will-directed (final; a first closeout at ~22:10 was reopened for the FABN canary rebuild). Session 2 delivered **Weld 2** (built, corrected, closed), the **ARCC pre-registration**, the **accrued-interest test**, and a **live tape refresh**. **Both mail lanes CLEAN; 6 packets processed; 5 outbound.**
+**CLOSED OUT:** 2026-07-27 ~23:10 ET — Will-directed (final). *(Two earlier closeouts at ~22:10 and ~22:45 were reopened — the first for the FABN canary rebuild, the second for 3 packets that landed after the commit. Both lanes clean at final.)*
+**⭐ NEXT SESSION — DAEDALUS asks (SHADE promoted L2→L3, Conf H):** ① **seed `PREDICTIONS.tsv` with confidences AT REGISTRATION** — the dated binaries already exist but cannot SCORE without them; this is the **L4-path item**. ② **standing FIRED-triad table** (leg | rule | state@level | FIRED count). ③ STATUS compress — **partly done (363→304→319 after adding §10b)**; next candidate is **§2, 72 lines, June-vintage — read before cutting.** Standing rule now installed: **retire the oldest §0 delta at every closeout.** Session 2 delivered **Weld 2** (built, corrected, closed), the **ARCC pre-registration**, the **accrued-interest test**, and a **live tape refresh**. **Both mail lanes CLEAN; 6 packets processed; 5 outbound.**
 
 ## 🔴 SESSION-2 HEADLINE — FIVE of my own claims were retired by evidence, and one framing I adopted from CREED was retired too
 
