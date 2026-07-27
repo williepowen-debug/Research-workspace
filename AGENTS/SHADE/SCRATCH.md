@@ -41,7 +41,8 @@ Wrapper thesis went CONCRETE but PRE-MORTEM (UBS/Nationwide wrapped-PC bond); tr
 
 ## NEXT SESSION
 1. **Boot:** STATUS → SCRATCH → MEMORY; check `inbox/WALTER/` + `board_log.tsv`; **pull HY/wrapper basket live before citing.**
-2. **Delaware Life follow-through (top of queue):** Clear Spring Life's own statutory financials + restatement; remediation-plan size/timetable; **impaired vs mis-labelled**; the **Barbco "former affiliate"** de-affiliation + new **Nautilus (Barbados)** modco cession.
+2. **Delaware Life follow-through (top of queue):** remediation-plan size/timetable; **impaired vs mis-labelled**; the **Barbco "former affiliate"** de-affiliation + new **Nautilus (Barbados)** modco cession. **[Clear Spring statutory financials ATTEMPTED 7/27 — NOT publicly obtainable; see below. Do not re-attempt via EDGAR.]**
+2b. **Test the accrued-interest anomaly:** DLIC's FY2025 purchases from CSLAC carry **~9.8% accrued-interest-to-book** vs ~1.0% (2024) / ~0.9% (2023). A ~10× YoY jump on inter-affiliate purchases is the profile of deferred/non-current-pay credit — **but accrued interest depends on coupon and payment timing, so this is an anomaly to test, not a PIK finding.** Needs CUSIP-level detail.
 3. **Cohort read-across:** is the SSAP-25 self-set threshold understating related-party lines cohort-wide? **No EDGAR screen exists** — needs FY2026 enhanced statutory disclosure / NAIC InsData / state-DOI.
 4. **PROME Weld 2 (accepted, not started):** combined insurer-sink triple-decker. **Blocked on CREED re-stamping his 7/4-vintage CRE flow series.**
 5. **Granato & Drall:** read the paper; test the premium-tax-credit claim against an actual state guaranty statute.
@@ -54,6 +55,8 @@ Wrapper thesis went CONCRETE but PRE-MORTEM (UBS/Nationwide wrapped-PC bond); tr
 | Delaware Life / Clear Spring related-party restatement | 🔴 **FIRING** — primary-verified; DOJ+SEC live, no charges; S&P negative outlook; impaired-vs-mislabelled OPEN |
 | Related-party classification integrity (SSAP-25 self-set test) | 🟠 **NEW, SHADE-OWNED** — measurement-integrity finding; degrades SHADE Key Ratios #1/#3 |
 | Cohort read-across (is Delaware Life idiosyncratic?) | ⚠️ **NO SCREEN AVAILABLE** — EDGAR proven to be the wrong slice |
+| Clear Spring Life statutory financials | ❌ **NOT PUBLICLY OBTAINABLE** — no EDGAR registration, no N-VPFS (fixed/FIA only, so no variable-product filing to bundle into). Delaware DOI publishes exams, not annual statements. **Gated paths only: NAIC InsData / state-DOI request / AM Best–S&P CapIQ statutory data.** |
+| Supervision as forcing function | ⚠️ **WEAKENED (NEW 7/27)** — DE DOI multi-state exam adopted 6/23/25 found "no significant findings, no recommendations"; AM Best went POSITIVE 10/10/25; the restatement came from a **Feb-2026 grand jury**, not from either. Bears on kill-path #2. |
 | Athene statutory / Schedule-BA wall | ❌ **STANDS** — N-VPFS route does not reach Athene (tested + refuted this session) |
 | Wrapper-decoupling trigger | ⚠️ NOT ARMED — HY 279 (1bp under), sign leg INVERTED 7/27 |
 | Wrapped-PC (UBS/Nationwide) tripwires | 🟠 PRE-MORTEM — 0 of 4 firing; unchanged |

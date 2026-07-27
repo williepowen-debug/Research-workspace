@@ -177,9 +177,95 @@ Having found statutory related-party notes on EDGAR, SHADE tested whether the ro
 
 ---
 
+---
+
+# ADDENDUM (same session) — Clear Spring Life: the restatement is NOT publicly available, but the regulator's "before" picture is
+
+**Ask:** pull Clear Spring Life's statutory financials too.
+**Answer: its FY2025 statutory financials with the restatement are NOT obtainable from free public sources — and that itself is a finding.** What *is* obtainable is the Delaware regulator's own full statutory examination of the company, which turns out to be more useful than expected.
+
+## A1. Why CSLAC's own numbers are not reachable
+
+| Channel | Result |
+|---|---|
+| EDGAR company registration | **None.** No CIK for "Clear Spring Life"; nothing under its former name either. |
+| N-VPFS (the route that worked for Delaware Life) | **Unavailable — CSLAC has no registered separate accounts.** It writes **fixed and fixed-index** annuities, so no variable-product SEC filings exist to bundle statutory financials into. |
+| EDGAR full-text mentions | 25 hits, **all third-party** (Delaware Life / Keyport / EquiTrust filings referencing CSLAC), none carrying CSLAC's own statements. |
+| Delaware DOI | Publishes **examination reports**, not annual statements. Latest available is **as of 12/31/2023**. |
+| Company / Group 1001 site | No statutory statements published. |
+
+**⚠️ This is a structural asymmetry worth naming:** Delaware Life's restatement is public **only because it sells variable products**, which forced its statutory financials into an SEC filing. **Clear Spring sells fixed/FIA — so the same restatement, at the same parent, under the same subpoena, is invisible.** *The disclosure depended on product mix, not on materiality.* Same family as `finding_private_by_construction_unverifiable`.
+
+**Paths that would close it (all gated):** NAIC InsData / state-DOI filing request; AM Best or S&P Capital IQ statutory data; a future Delaware DOI examination covering FY2025-26.
+
+## A2. What the Delaware DOI examination gives us — the "before" picture
+
+**Source:** *Examination Report of Clear Spring Life and Annuity Company as of December 31, 2023*, Delaware Department of Insurance, report letter **2025-05-29**, **adopted by Commissioner Trinidad Navarro 2025-06-23** (Exam Certification 24.029). Multi-state coordinated exam.
+
+### 🔑 A2a. The single most important line in the document
+
+> **"There were no significant findings or material changes in financial statements as a result of this examination."**
+> **"There were no recommendations as a result of this examination."**
+
+**A full multi-state statutory examination of this exact company — covering the period in which the related-party classification was allegedly wrong — found nothing, and was adopted by the Commissioner in June 2025.** Eight months later a federal grand jury subpoena forced the re-look that produced the restatement.
+
+**This is a regulatory-efficacy finding, and it cuts at a load-bearing assumption in SHADE's own thesis.** SHADE's kill-path #2 (AG 55 forced disclosure) and the general framing of NAIC/state supervision as the mechanism that eventually surfaces affiliated-asset problems both assume the examination process is the backstop. **Here it was not. A prosecutor was.**
+
+### A2b. The timeline, which is the argument
+
+| Date | Event |
+|---|---|
+| 2009-12-17 | **GPIM** (Guggenheim Partners Investment Management) becomes CSLAC's investment manager — still in force at 12/31/2023 |
+| 2024-03-07 | Delaware DOI issues Exam Certification 24.029 |
+| 2025-06-23 | **Exam ADOPTED — "no significant findings," "no recommendations"** |
+| **2025-10-10** | **AM Best revises outlook to POSITIVE from Stable, A- affirmed — on all three Group 1001 life carriers** (Delaware Life, Clear Spring Life, Gainbridge Life) |
+| 2026-02 | **Federal grand jury subpoenas (USAO SDNY) + parallel SEC investigation** |
+| 2026-06-26/29 | Statutory filings disclose the subpoenas **and the restatement** |
+| ~2026-07-21 | Wires break the story; **S&P outlook → NEGATIVE** (A- affirmed) |
+
+**In ~16 months these entities went from a clean state examination and a rating-outlook *upgrade* to a federal criminal probe and a 5.1× related-party restatement.** ⚠️ **The AM Best positive outlook is PRE-subpoena and therefore stale, NOT a live contradiction of S&P** — do not report it as a rating-agency disagreement. *(No post-disclosure AM Best action was located; not exhaustively verified.)*
+
+### A2c. GPIM is almost certainly the "affiliate" in the subpoena language
+The investigation concerns *"private credit investments **introduced to the Company and CSLAC by an affiliate**."* The exam confirms **GPIM is CSLAC's investment manager under a 2009 agreement**, and Delaware Life's own filing separately discloses **GPIM manages $2.57B of DLIC's investments** under an amended and restated IMA. **A single Guggenheim-affiliated manager sits on the asset side of both subpoenaed insurers.** *(Inference from two primary documents — the filings do not name GPIM as the "affiliate.")*
+
+### A2d. Intra-group lending web at 12/31/2023 (primary)
+| Counterparty | Instrument | Terms |
+|---|---|---|
+| **Delaware Life Insurance Company** | **$200M Bilateral Loan Agreement** (6/1/2022, A&R 6/11/2023) | **SOFR + 1.21%** |
+| CSLAC Investment Holdings LLC (wholly-owned) | $100M Bilateral Loan | SOFR + 1.21% |
+| **Clear Spring Health Insurance Company** | **$100M Demand Promissory Note** (11/22/2023) | — |
+| Gainbridge Life Insurance Company (**"GLIC"**) | $5M Bilateral Loan | SOFR + 1.21% |
+
+**The two subpoenaed insurers are direct bilateral lenders to each other at $200M.** Also resolves an ambiguity in the Delaware Life filing: **GLIC = Gainbridge Life Insurance Company**, *not* a Guggenheim entity — it is a third Group 1001 carrier trading securities with DLIC.
+
+### A2e. Capital leakage upstream (SHADE Key Ratio #3) — subsequent-events section
+- CSLAC paid **ordinary dividends totaling $150M** to CSLIC Holdings for FY2024.
+- CSLAC paid a further **$55M ordinary dividend** on 2026-02-24 → **$205M upstreamed across FY2024–Feb 2025**.
+- CSLAC recorded a **$15M capital contribution payable to Gainbridge Life** at 12/31/2024 (paid 2/13/2025).
+
+### A2f. Other structural facts
+- **CSLAC = formerly Guggenheim Life and Annuity Company (GLAC)**, renamed 2022-05-31; Delaware-domiciled since 2010; admin offices Zionsville, Indiana. Acquired by Group 1001 / CSLIC Holdings 2021-11-12.
+- **CSLAC issues funding agreements to the FHLB of Indianapolis** — a funding-agreement/FHLB channel in the same family SHADE tracks at Athene ($28.2B advances). **Size not disclosed in the exam report.**
+- The holding-company chart includes a **Bermuda** entity (name not captured in extraction).
+- Legacy: GLAC assumed 100% of **Standard Life Insurance Company of Indiana**'s annuity business out of *rehabilitation* (2011) — this book has an insolvency-resolution origin.
+- **Sammons Enterprises (SEI)** is noted as *"and remains a related party of the Company given Mark R. Walter's relationship with SEI through his affiliation with Guggenheim Partners, LLC."*
+
+## A3. What this does and does not change
+
+**Does NOT change:** the vector-#1 firing call, the adjudication that `SIG-720-001` stays pre-mortem, or any threshold. No CSLAC restatement figures were obtained.
+
+**Does add — a second, independent structural finding:**
+> **The supervisory layer SHADE treats as the eventual forcing function did not force anything here.** A clean multi-state exam (adopted 6/2025) and a rating-outlook upgrade (10/2025) both preceded the restatement, and neither produced it. **Where an insurer's related-party classification is wrong, the realistic discovery channels are prosecutorial or product-mix-accidental — not examination and not ratings.**
+
+**New open item:** Delaware Life's disclosed FY2025 purchases from CSLAC carry **$33,559K accrued interest on $343,412K book value (~9.8%)**, versus **~1.0% in 2024 ($2,390K on $232,753K)** and **~0.9% in 2023**. ⚠️ **Accrued interest is a function of coupon and time-since-last-payment, so a high ratio has innocent explanations** (high-coupon paper bought just before a payment date). But a **~10× year-over-year jump in the accrued-to-book ratio on inter-affiliate purchases** is the profile of deferred/non-current-pay credit and is worth a targeted look. **Flagged as an anomaly to test, NOT as a PIK finding.**
+
+---
+
 ## 10. Sources
 - **PRIMARY:** Delaware Life Insurance Company statutory financial statements, SEC Form N-VPFS filed 2026-06-29, accession `0001193125-26-286687` (KPMG LLP; Delaware Dept. of Insurance basis).
 - EDGAR full-text search + submissions API (crawled 2026-07-27 with UA header).
 - WALTER `SIG-W-20260727-004` (routing + media aggregation).
 - Media: Bloomberg Law (original), Insurance Journal 7/21, Claims Journal 7/22, AM Best 7/21 (paywalled — headline confirmed only), ThinkAdvisor 7/22, Insurance Business.
 - S&P Global Ratings art. id 3594422 (**not read directly** — outlook action is media-relayed).
+- **PRIMARY (addendum):** *Examination Report of Clear Spring Life and Annuity Company as of December 31, 2023*, Delaware Department of Insurance (report letter 2025-05-29; adopted 2025-06-23; Exam Certification 24.029) — `insurance.delaware.gov/wp-content/uploads/sites/15/2025/06/ClearSpringLifeandAnnuityCo2023web.pdf`.
+- AM Best rating action 2025-10-10 (via group1001.com news) — outlook → Positive, A- affirmed, all three Group 1001 life carriers. **Pre-subpoena; stale, not contradictory.**
