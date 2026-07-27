@@ -11,11 +11,35 @@ action: [FALCON, BRENT]
 info: [HAWK, OSPREY, SAM, RED, TERRY, PROME]
 signal_type: correction
 confidence: 0.88
-verdict: THE "ABQAIQ HALTED / 7 mb/d OFFLINE" CLAIM IS REFUTED -- Saudi MoD says INTERCEPTED. The REAL event is an attempted drone attack on Abqaiq FROM IRAQI TERRITORY. GATE 1 STILL NOT FIRED.
+verdict: PARTIALLY SELF-CORRECTED 22:0xZ -- the "7 mb/d HALTED" claim stays REFUTED, but "attempted/intercepted" was TOO STRONG: a drone strike and a real fire at Abqaiq are CONFIRMED on NASA FIRMS primary data. See the SELF-CORRECTION block below, which supersedes the framing of §2/§4.
+status: PARTIALLY-CORRECTED
 narrative_channel: houthi
 ---
 
+> # ⚠️⚠️ SELF-CORRECTION — 2026-07-27 ~22:0xZ, ~40 MINUTES AFTER DISPATCH. **READ THIS BEFORE §1.**
+>
+> **Will supplied a NASA FIRMS screenshot — primary data — and it moves me. This signal was RIGHT on the halt claim and TOO STRONG on the event.**
+>
+> **WHAT THE PRIMARY DATA ESTABLISHES (not disputable):** MODIS/Aqua, **six hotspots at 25.92373–25.93767 N / 49.6717–49.70587 E — that is ABQAIQ exactly.** **FRP 299.26 · 154.82 · 130.48 · 48.84 · 40.4 · 19.87 MW**, **confidence 100 on five of six**, **DAYNIGHT = N** (night, so not solar glint), acquired **2026-07-26 20:52 EDT = 2026-07-27 00:52 UTC = 03:52 Saudi.**
+>
+> **⇒ A DRONE ATTACK ON ABQAIQ DID OCCUR AND DID START A FIRE. The §2/§4 framing of "ATTEMPTED… INTERCEPTED" was too strong and a reader could have taken away "nothing happened at Abqaiq." That was never a defensible read and this signal enabled it. CORRECTED.** Saudi Arabia's own conduct corroborates the event: it **blamed Iraq-based groups, BEGAN EMERGENCY FLARING at multiple production sites, and reserved the right to respond.**
+>
+> **🔑 BUT THE DECOMPOSITION IS IN THE REPORTING AND IT IS THE WHOLE BALL GAME:** ***"VIIRS data from the 27th pass over Abqaiq refinery put it at a 70MW FIRE, and 100MW+ FLARING occurred at multiple sites."*** **Fire and flaring are measured SEPARATELY and the FLARING is the larger number.** **Emergency flaring is a DELIBERATE, CONTROLLED safety response to an emergency shutdown — not burning wreckage.** The "massive conflagration" framing **bundles the two**, and the eye-catching 299 MW is the bundled peak.
+>
+> **⚠️ WHERE THE ACCOMPANYING AI ANALYSIS GOES WRONG (it was in the same batch and will circulate):** it argues 299 MW proves *"uncontrolled burning of crude oil, storage tanks and processing infrastructure damaged in the strike"* because **routine** flaring runs *"in the tens of MW."* **ROUTINE FLARING IS THE WRONG BASELINE. An emergency depressurisation flare at a plant handling ~7 mb/d is enormous BY DESIGN**, and the 27th-pass split (70 MW fire vs 100MW+ flaring) is exactly that. **Its premise is right; its inference is over-strong.**
+> **⚠️ It also dates the event "July 26." The FIRMS panel has "Local Time GMT-0400 (EDT)" SELECTED — so it is 00:52 UTC on 7/27, i.e. 03:52 Saudi on the 27th. The same UTC-vs-LOCAL clock collision resolved against a FALCON packet this morning; second instance in one day** (→ the anchor's addendum-#2 clock guard).
+>
+> **WHAT STILL STANDS, UNCHANGED:** *"Aramco fully halted, ~7 mb/d offline"* is **STILL UNCONFIRMED** — **no Aramco statement, no force majeure, no tier-1 wire, and Brent still −9.40% at $87.68 through the settle and after hours. A 70 MW fire at one plant is not 7 mb/d gone.** The search-layer "WTI $110" fabrication, the `kingdomexploration` self-contradicting date, and the Wikipedia **Ras Tanura** merge all stand.
+>
+> **🔧 RECONCILED — and this is my actual error:** the Saudi MoD's *"intercepted drones from Iraqi territory"* statement and a real fire are **NOT contradictory.** Air defence can stop some drones while others get through, and a stabilization plant shuts down and flares either way. **I over-read one interception statement as covering the WHOLE event.** *(Instance of taking a single authority statement as dispositive of more than it addressed — the mirror image of the error this signal was written to catch.)*
+>
+> **⇒ REVISED NET: a REAL disruption event at the highest-consequence node in world oil — strike, fire, emergency shutdown, multi-site emergency flaring — but NOT yet a SUPPLY event, and the 299 MW is NOT a damage measurement. GATE 1 (FAL-01) STILL NOT FIRED: no confirmed capacity loss.** **Resolvers: an Aramco statement · force majeure · a throughput figure · or crude gapping overnight.**
+
+---
+
 # 🔴 **"ABQAIQ IS HALTED, 7 mb/d OFFLINE" IS FALSE.** The Saudi Ministry of Defence says the drones were **INTERCEPTED** — and the tape agrees. **But something real did happen, and it is a NEW LAUNCH VECTOR against the crown jewel.**
+
+**⚠️ THE "INTERCEPTED" FRAMING BELOW IS SUPERSEDED BY THE SELF-CORRECTION BLOCK ABOVE — a strike and fire ARE confirmed on FIRMS primary data. The HALT/7-mb/d refutation below stands in full.**
 
 **Kill the halt claim on sight. Then read §4, because the real event is more interesting than the false one and nobody should let the refutation bury it.**
 
