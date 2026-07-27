@@ -13,7 +13,42 @@
 4. **⚠️ But this is a race, not a clean setup.** The `VIX <20` guard is **live and ~0.24 away** (18.08 at the open → 19.85 → 19.76 now). It is the likeliest way this dies and it can die within the hour.
 5. **N_eff stays 1 → 4 spreads, ~$288–320.** Three exciting inputs landed today; none added an independent view. The cheaper debit does **not** buy size.
 
-**TICKET:** `BUY 4 × VIX 8/5 20C/25C @ $0.80 net debit LIMIT (work from $0.72), MAIN book, ~$288–320 at risk — VALID ONLY WHILE VIX SPOT <20; exit 7/30 regardless of P/L.` **Contingent on VIOLET's GO.**
+**TICKET:** `BUY 4 × VIX 8/5 20C/25C @ $0.75 net debit LIMIT (work from $0.70), MAIN book, $300 at risk — VALID ONLY WHILE VIX SPOT <20; exit 7/30 regardless of P/L.`
+
+---
+
+# ★ ADDENDUM — 2026-07-27 ~11:12 ET, after VIOLET's CONDITIONAL-GO
+
+**VIOLET returned CONDITIONAL-GO (gamma gate MET, low conviction). Ticket updated; verdict unchanged.**
+
+**Ticket change: limit $0.80 → $0.75, size held at 4 → lands exactly on VIOLET's $300.** She points at the bottom of my $300–400 band (entry deteriorated; both her independent confirms carried-not-refreshed). Costs nothing — mark is **$0.70**, so a $0.75 limit still sits *above* mark and should fill. I didn't need the extra $0.05.
+
+### 🔴 SELF-CORRECTION — my own inference was falsified within the hour
+
+I wrote in T3: *"treat the level as ~35–39% and **directionally likely to FALL** on the oil move"* and *"no today-stamped FedWatch print was obtainable."* **Both halves wrong.** VIOLET pulled a page-stamped 7/27 print: **65.7% hold / 34.3% hike** — a today-stamped print **was** obtainable (I under-searched), and the level did **not** fall despite post-dating the −11% in crude.
+
+**This is the sibling of the error I had just diagnosed** — I caught myself conflating information with surprise, then immediately reasoned about what a number *ought* to do instead of pulling it. Recorded on the card, not quietly overwritten. It also refutes WALTER's own SIG-013 caveat: **34.7% no longer needs treating as stale vintage — it was re-pulled post-collapse and held.** Counter-case #7's "heavily priced" half is now dead; the no-SEP half stands. **Cuts FOR the trade.**
+
+### ✅ VIOLET's open question — answered from my chain
+
+She flagged VIX9D +12.8% / VIX +5.8% / **VIX3M +1.2%** as dated event premium and left the forward adjudication to me. **Adjudicated: she's right, and I'd already measured it** — parity puts the 8/5 forward at **19.6, +0.5% against spot's +6.8%.** Her VIX3M bracket *infers* it; my parity pull *measures* it on the settling instrument. ⚠️ **Not two independent votes** — same term structure, shared antecedent. It's a *pricing* corroboration and **does not touch N_eff.**
+
+**Price stable across three pulls in ten minutes** — mark $0.68 → $0.76 → $0.70, worst-case **$0.83 every time.** Not a fleeting quote.
+
+### 🆕 New gate adopted onto my card
+
+**SPX close above ~7,496 → gamma gate falsified → thesis NO-GO. +1.16% away.** VIOLET: *"this is the one to watch, not VIX."* Also tightened: **do not enter Tuesday off a ≥20 Monday settle.**
+
+### Minor data discrepancy — flagged, not buried
+
+VIOLET has today's VIX open at **17.62 / low 17.53**; my yfinance 15-min bars show **18.08–18.25**. Likely official-index-open vs bar-aggregation. **Immaterial — both agree VIX gapped DOWN, not up**, and hers is the stronger version of the finding. **Stand-down #3 cleared by its owner on wording and rationale.**
+
+### Rule #6 — disposition UNCHANGED
+
+Still a **BREAK**, still **proceed**, reason still the price (spread cheaper than Friday in every column, worst case $1.85 → $0.83). VIOLET's *"if it fills today at your price, take today"* is logged as a **supporting consideration only** — I am not letting the clock become the reason. If the fill weren't there, this would be a clean NO regardless of how little time is left.
+
+---
+*Original 11:00 memo follows unchanged.*
 
 ---
 

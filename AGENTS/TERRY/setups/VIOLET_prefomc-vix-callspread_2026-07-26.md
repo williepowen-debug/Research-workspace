@@ -161,7 +161,16 @@ VIOLET supplied most of this and it is unusually strong for a packet arguing *fo
    | Forward guidance | (not considered) | **WITHDRAWN.** Warsh has dismantled forward guidance; coverage calls the pre-decision ambiguity "virtually unprecedented in modern central banking" |
    | No SEP / no dots | true | **still true** — this part of my claim stands |
 
-   ⚠️ *WALTER's own caveat honored: the 34.7% figure is 7/22 vintage and pre-dates the oil collapse. I re-pulled rather than quoting it. The 7/25 reading is **higher** (38.7%), and today's ~7% oil collapse — which guts the hawkish case's main input — post-dates even that. **No today-stamped FedWatch print was obtainable; treat the level as ~35–39% and DIRECTIONALLY LIKELY TO FALL on the oil move.** The level is not what carries the re-grade; the two structural facts below are.*
+   ⚠️ *WALTER's own caveat honored: the 34.7% figure is 7/22 vintage and pre-dates the oil collapse. I re-pulled rather than quoting it. The 7/25 reading is **higher** (38.7%).*
+
+   > ### 🔴 SELF-CORRECTION — my own inference here was FALSIFIED within the hour (2026-07-27 ~11:10 ET)
+   > I originally wrote: *"No today-stamped FedWatch print was obtainable; treat the level as ~35–39% and **directionally likely to FALL** on the oil move."*
+   >
+   > **Both halves were wrong.** VIOLET pulled a live, page-stamped 7/27 print (growbeansprout.com/tools/fedwatch): **65.7% HOLD / ~34.3% hike.** So (a) a today-stamped print **was** obtainable and I under-searched, and (b) the level did **not** fall — the 7/27 read **post-dates the −11% in crude and came in unchanged-to-higher.**
+   >
+   > **This is the same error class I had just diagnosed one paragraph above** — reasoning about what a number *ought* to do instead of pulling it. I caught the conflation of information-vs-surprise and then immediately committed the sibling mistake on the level. Recorded rather than quietly overwritten.
+   >
+   > **It also refutes WALTER's own caveat in SIG-013**, which expected the 34.7% to decay once crude collapsed. It did not. **The 34.7% no longer needs to be treated as stale vintage — it has been re-pulled post-collapse and it held.** A one-in-three hike two days out with guidance withdrawn is not a low-information meeting. **This cuts FOR the trade**, and it is the single biggest change since the card was built.
 
    **The error in my reasoning — I conflated INFORMATION with SURPRISE.** "No SEP" correctly means the meeting is **low-information**. I then inferred "therefore a weak catalyst," and *that inference is wrong for a long-vol trade.* **An event box is paid by surprise, not by information.** A meeting with (a) no dots, (b) **no forward guidance**, and (c) a genuinely two-way ~62/38 split is a **high-surprise** event *precisely because there is no channel through which the outcome could have been pre-signalled.* Warsh's no-guidance regime converts the absence of an SEP from a reason the meeting is quiet into a reason it is **loud**. And at ~35–39%, roughly a third of the distribution sits on an outcome that would genuinely shock a market positioned for a hold.
 
@@ -235,6 +244,16 @@ My own card says the forward "is THE number that prices this, not spot." So here
 1. ✅ **Moneyness is BETTER than the card assumed.** Against forward 19.6, the 20 strike is **+2.0% OTM** — essentially at-the-money on the instrument that settles it. §4 estimated +4%.
 2. ✅ **We are not the late money.** The confirm has *not* arrived on the thing we would own. A spot bid the futures curve refuses to ratify is the opposite of a repricing that ran away from us.
 3. 🔴 **Today's realized forward beta (~0.28) is far below what §4's spike-capture argument assumes.** I will not over-claim here: 0.28 is measured on a *grind, on a flat tape, that the market disbelieves* — genuine SPX-selloff spikes historically run 0.7–0.9 front-future beta, and this is a different regime. But it is a live datapoint against the premise, and it belongs on the card rather than in my head.
+
+### ✅ ANSWERING VIOLET's open question — she flagged the bracket, I measured it
+
+VIOLET (11:10 ET) flagged that VIX9D +12.8% / VIX +5.8% / **VIX3M only +1.2%** is monotonic tenor decay = *dated event premium, not a regime shift* — and that therefore "spot's +5.8% likely overstates the damage to the forwards," explicitly leaving the adjudication to my chain.
+
+**Adjudicated: she is right, and I had already measured it independently.** Put-call parity on the 8/5 chain puts the forward at **19.6 against spot 19.85 — it moved +0.5% while spot moved +6.8%.** Her VIX3M bracket *inferred* the forwards were barely bid; my parity pull *measures* it directly on the settling instrument. **The entry is far less damaged than the tape reads.**
+
+> ⚠️ **Not two independent votes.** Both readings interrogate the same VIX term structure — hers via the 3-month index, mine via the 8/5 future implied by the option chain. Different instruments, **shared antecedent.** It is genuine corroboration of a *pricing* fact and it does **not** touch N_eff (which is a thesis field, not a pricing one).
+
+**Third confirmation — the price has been stable across three pulls in ten minutes**, which is what actually matters for a working limit order: mark **$0.68 → $0.76 → $0.70**, worst-case **$0.83 every time.** This is not a fleeting quote.
 
 **Payoff re-estimate, anchored in today's own chain rather than an assumed beta.** A spot 23-touch carrying the 8/5 forward to ~20.5–21.0 leaves the 20/25 roughly 0.75–1.0 ITM. The structurally analogous spread on today's surface (19/24, ≈0.9 ITM on a 19.6 forward) marks **$0.99**. From $0.72: **≈ +40%**. With the IV lift a real spike brings, the honest range is **+45% to +120%, centred ~+75%** — the **low end** of §6's stated "+50% to +120%," because the lower debit is partly offset by the lower forward beta. On $288–320 that is roughly **+$130 to +$380**.
 
@@ -353,19 +372,30 @@ cd "$(git rev-parse --show-toplevel)"
 
 I am not going to dress this up. **The price is excellent and the clock is terrible.** VIX went 18.08 → 19.85 in 90 minutes and the guard sits at 20. VIX3M/VIX has compressed 1.104 → 1.062 → **1.051** in a single session. The single best argument that we are still *inside* the window rather than late to it is that **the 8/5 forward is 19.6 and refused to follow spot** — the futures market is not ratifying this move, so on the instrument we would actually own, the confirm has not arrived. That argument is genuine and it is why I proceed. It is also the *only* thing standing between this trade and stand-down #3, and if the forward starts tracking spot, that changes.
 
-### The four ways this is still a clean NO
-1. ~~Debit >$1.20~~ → **PASSED at $0.68.**
-2. **VIX spot ≥20 before fill** → 🔴 **LIVE RISK, 0.15 away** → pull the order, window expired.
-3. **VIX3M/VIX <1.0** → holding at 1.051, but compressing fast → watch.
-4. **VIOLET returns NO-GO** on the gamma gate → stand down regardless of price.
+### ✅ VIOLET returned **CONDITIONAL-GO** (11:10 ET) — thesis gate MET, low conviction
+
+Gamma gate met: SPX 7,410.38 vs flip ~7,496 = **−85.6pts** (registration −88pts, essentially unchanged geometry); session low **7,388.33 entered the 7,300–7,400 put wall for the first time and rejected.** **She explicitly endorses N_eff = 1** — "nothing today made it multi-source." **Stand-down #3 cleared by its owner**, on wording *and* rationale.
+
+**Her stand-downs, adopted onto this card:**
+
+| # | Gate | Status |
+|---|---|---|
+| 1 | ~~Debit >$1.20~~ | ✅ **PASSED at $0.70** — never in play |
+| 2 | **VIX spot ≥20 before fill** | 🔴 **LIVE, 0.50 away** (19.50 now; session high 19.71) → pull the order |
+| 3 | **VIX ≥20 SETTLE tonight** | → window EXPIRED; VIOLET withdraws the GO. **Do not enter Tuesday off a ≥20 Monday settle** |
+| 4 | **VIX3M/VIX <1.0 on a settle** | 1.061 now (Fri 1.104) — compressing, but she is **not** moving this guard despite the compression being event-driven |
+| 5 | 🆕 **SPX closes above ~7,496** | gamma gate falsified → thesis **NO-GO**. **+1.16% away — VIOLET says this is the one to watch, not VIX** |
+
+*Minor unreconciled data point, flagged not buried:* VIOLET has today's VIX open at **17.62 / low 17.53**; my yfinance 15-min bars show the early session at **18.08–18.25**. Likely official-index-open vs bar-aggregation. **Immaterial to the conclusion — both readings agree VIX gapped DOWN, not up**, and hers is the stronger version of the same finding.
 
 ### ▶ ONE-LINE TICKET (two-stage pattern — Will's final [Approve])
 
-> **BUY 4 × VIX 8/5 20C/25C call debit spread @ $0.80 net debit LIMIT (work from $0.72), MAIN book, ~$288–320 at risk — VALID ONLY WHILE VIX SPOT <20; pull the order if spot prints ≥20; exit at the 7/30 boot regardless of P/L.**
+> **BUY 4 × VIX 8/5 20C/25C call debit spread @ $0.75 net debit LIMIT (work from $0.70), MAIN book, $300 at risk — VALID ONLY WHILE VIX SPOT <20; pull the order if spot prints ≥20; exit at the 7/30 boot regardless of P/L.**
+
+**Limit tightened $0.80 → $0.75 and size held at 4, to land exactly on VIOLET's $300.** She points at the bottom of my $300–400 band (the entry deteriorated and both her independent confirms are stale in the same direction). That costs nothing: mark is **$0.70**, so a $0.75 limit still sits *above* mark and should fill. I did not need the extra $0.05.
 
 - Spread order only — **never leg it, never market-order.** Max loss = the debit, in full.
-- Contingent on **VIOLET's GO**. If she returns NO-GO, this ticket is void.
-- 5 spreads (~$360–400) is cap-compliant if you want the top of the band; **4 is my recommendation** (counter-case #8).
+- **Timing (VIOLET's guidance, and I agree):** prefer Tuesday *only* if Tuesday is VIX-soft — that would repair the rule #6 break. But **if it fills today at this price, take today**; another VIX-up grind tomorrow compounds the break, and the box may be dead at tonight's settle. *Noted as a supporting consideration only — **the reason I proceed is the price**, not the clock.*
 - **Mandatory 7/30 exit/review regardless of P/L** — including a NO-FILL, which closes the box as NO-TRADE (registered on PROME/DOCKET).
 
 - [ ] **APPROVE — fill as ticketed**
