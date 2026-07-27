@@ -186,4 +186,35 @@ Template:
 
 ---
 
+## 2026-07-27 — THESIS v2.0 REWRITE + TIMELINE extended to War Day 149 (**the rewrite-to-current-regime backlog is CLOSED**)
+
+**Author:** FALCON (first FALCON-authored thesis; every prior entry above is HAWK's)
+**Action:** Full rewrite of `THESIS.md` (v1.2 → **v2.0**) and `TIMELINE.md`. Closes the rewrite-to-current-regime backlog item that had been open and banner-flagged since the 2026-07-12 spinout — and, before that, carried by HAWK since **Apr 20**. Both files had been unactionable for **98 days**.
+
+**Why v2.0 is a MAJOR version, not a refinement:** v1.2 was a **deadline thesis** — it modelled the Apr 21 ceasefire-expiry clock, priced three branches off that single binary, and used a **4-tier A/B/C/D ladder**. The deadline passed without producing its base case (an MOU-era lull held instead), so the document's entire spine was not merely stale but *answering a question the war stopped asking*. v2.0 is built on a different question: **not "does the war escalate?" but "does the war's damage ever become lost barrels?"**
+
+**THESIS.md v1.2 → v2.0:**
+- **Core thesis REPLACED.** Old: *"ceasefire is a 14-day clock with hours left; deadline passage = D confirmation and Brent $120-150."* New: **"the war reprices freight, not barrels"** — risk-**premium** regime, not supply-**loss** regime, plus **two counter-moving wars in one theater** (US-Iran de-escalating, Saudi-Houthi escalating, Iraqi militias newly active).
+- **All three transmission channels REPLACED.** Old: deadline-outcome → oil; infrastructure damage → duration; ship-on-ship → accidental escalation. New: **⓵ LIVE premium channel** (willingness-to-move-a-hull → freight/insurance/routing → price; **P 23/25, 92% of ceiling**) · **⓶ DORMANT supply-loss channel** (**R 7/20 with R1-R3 at the absolute floor**) · **⓷ ACTOR PROLIFERATION** — a channel v1.2 did not have, promoted to first-class because it is what killed FAL-01.
+- **Scenario ladder RETIRED and replaced: 4-tier A/B/C/D → 3-tier B/C/D**, with **D as a re-escalation *ceiling*, not a discrete collapse/nuclear tier.** Old marks B 5 / C 20 / D 75 (Apr 20) → **B 10 / C 40 / D 50**. Convergence rebased 41/45 → **40/50** on the current 10-vector set. *(This ladder mismatch was the concrete risk: any reader or spawned agent hitting THESIS.md first got a framework FALCON no longer uses.)*
+- **Key thresholds table REPLACED** — Apr-21-deadline / Brent-$130 rows out; **FAL-03's three operational routes**, the Jazan damage assessment, the **WC Saudi 0.1% transit→origin falsifier**, and the bypass floor in.
+- **Thesis-break condition is now a REGISTERED, DATED PREDICTION** rather than prose: **FAL-03** (58%, Jul 27 – Aug 17). v1.2's break condition was *"extension announced pre-8pm ET Apr 21"* — an event that can no longer occur.
+- **Conviction re-stated honestly:** MEDIUM-HIGH on the regime call, **MEDIUM on the marks**, with the weakest joint named in the document (a 15-point D cut resting on three quiet nights caused by an ammunition shortage).
+- **Exit protocol DE-DUPLICATED** — v1.2 maintained its own 7-criteria copy; v2.0 summarises and points to `workbook/EXIT_PROTOCOL.md` as canonical. Still **0/7**, but for the opposite reason: then the war was escalating *into* a deadline; now criteria fail because **a pause is not a resolution**.
+
+**TIMELINE.md:**
+- **Feb 28 – Apr 20 PRESERVED substantially verbatim** — accurate resolved history, not rewritten. Explicit marker added where the inherited record stops (War Day 51).
+- **Three new FALCON-authored phases added:** *THE LULL* (Apr 21 – Jun 26), *THE JULY WAR* (Jun 27 – Jul 27), and a rebuilt war-day table through **War Day 149** (computed via `date`, not asserted — per `[[finding_weekday_assumed_never_evaluated]]`).
+- **Forward branch-points table REPLACED ENTIRELY** — the Apr-20 table was stale on *every* row (May 12 30-day hold, mine clearance, QatarEnergy restart, Houthi compliance…). New table is 9 live triggers with bull/bear forks and current status.
+- **⚠️ INTAKE CAVEAT written into the Apr-Jun section:** that window is FALCON's thinnest coverage (ledger: May 1 event, June 0). Flagged as intake-limited, **not an exhaustively swept negative** — it must not be cited as proof of quiet.
+- **Corrected dates carried in:** Mombasa B + Al Bahyah **7/13** (UKMTO 086-26/087-26), Stolt Magnesium **7/14** — per the same-day hull reconcile (`KB-FALCON-057`).
+
+**Old view → New view (one line):** *"The ceasefire is failing inside its own window and the Apr 21 deadline converts that failure from probability to reality"* → **"The war has struck the asset class five times since April and taken ZERO barrels off the market; the question is no longer whether it escalates but whether damage ever becomes loss — and FAL-03 is the dated test."**
+
+**Source material:** `STATUS.md` (2026-07-27), `thesis/FAL-01_REREGISTRATION_SCAFFOLD.md`, `domain/energy-strikes/ANALYSIS_2026-07-27.md` + `STRIKES.tsv` (30 rows), `domain/FRESH_LEG_BASELINE.md`, `workbook/KB.tsv` KB-FALCON-042/048/050/055/057, `workbook/WARRISK.tsv`.
+
+**Next rewrite trigger (registered):** FAL-03 resolving either way · a **fifth** belligerent axis · or a dated Oman framework. Routine mark moves belong in `STATUS.md`, **not** here — that discipline is what let v1.2 rot for 98 days while STATUS stayed current.
+
+---
+
 *This changelog is the audit trail for HAWK/FALCON thesis evolution. Keep it current.*
