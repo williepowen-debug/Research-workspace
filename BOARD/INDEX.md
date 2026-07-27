@@ -47,7 +47,7 @@ Sorted by signal count descending. Cluster definitions in [`AGENTS/WALTER/design
 | [ASIA_CHINA](#asia_china-29) | 29 | 2026-07-24 · SIG-W-20260724-004 | China / HK / EM-Asia contagion — trade dynamics / export controls / property collapse / peg fragility / state-level demand destruction / RMB internationalization / Japan BOJ dynamics |
 | [INFLATION_TRANSMISSION](#inflation_transmission-9) | 9 | 2026-07-20 · SIG-W-20260720-002 | Forward goods-CPI / supply-chain cost-push transmission — freight indices, port congestion, pump-pass-through, tariff front-loading, supply-chain disruption with 3-6 month CPI lag |
 | [AI_INFRA_CAPEX](#ai_infra_capex-41) | 41 | 2026-07-27 · SIG-W-20260727-018 | AI infrastructure capex sustainability / hyperscaler guidance / leveraged equity collateral on AI names |
-| **TOTAL** | **606** | | |
+| **TOTAL** | **607** | | |
 
 ---
 
