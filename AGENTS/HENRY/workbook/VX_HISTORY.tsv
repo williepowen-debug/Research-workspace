@@ -1,3 +1,4 @@
+# FROZEN 2026-07-27 — not maintained; STATUS.md is canonical, do not cite rows as current. (archived slow-moving vectors; last touched 2026-03-17) Banner added per root CLAUDE.md §Data Hygiene, accepting DAEDALUS staleness-sweep #2.
 ID	Date	Vector_ID	Value	Percentile	Notes
 VXH-001	2026-01-26	VX-HEN-1.01	38.22%	>99	Top 10 concentration at all-time high
 VXH-002	2026-01-26	VX-HEN-1.02	58.25%	P55	Market breadth healthy

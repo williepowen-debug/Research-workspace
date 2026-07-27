@@ -25,6 +25,7 @@ mislabeled a session-boundary stale snapshot, and (2) the predictions-due scan.
 """
 
 import json
+import os
 import re
 import subprocess
 import sys
@@ -215,6 +216,58 @@ def predictions_due(today=None):
               + ", ".join(f"{p}[{r}]" for p, r in unparseable))
 
 
+# ── (e) LEDGER STALENESS ──────────────────────────────────────────────
+# Added 2026-07-27 (HENRY, accepting DAEDALUS staleness-sweep #2 finding).
+# The gap it caught: boot covered tape/gamma/credit/predictions but had NO
+# ledger leg, so FLOW/KB/MARKET_DATA silently drifted 33d+ unnoticed — the
+# TRUE SILENT-ROT class. Root CLAUDE.md §Data Hygiene requires a live ledger
+# to carry a BOOT-TIME mtime alert (not a closeout ritual), or be FROZEN.
+# FROZEN files are skipped here by design — they are declared dead, not rotten.
+LEDGERS = [
+    "workbook/PREDICTIONS.tsv",
+    "workbook/VX.tsv",
+    "workbook/KB.tsv",
+    "workbook/FLOW.tsv",
+    "workbook/MARKET_DATA.tsv",
+    "board_log.tsv",
+]
+STALE_YELLOW, STALE_ORANGE = 14, 30
+
+
+def ledger_staleness(today=None):
+    today = today or date.today()
+    print(f"\n{'─'*64}\n  (e) LEDGER STALENESS  ·  mtime vs {today}\n{'─'*64}")
+    base = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+    rows, worst = [], 0
+    for rel in LEDGERS:
+        p = os.path.join(base, rel)
+        if not os.path.exists(p):
+            rows.append(("  ⚠️ ", rel, "MISSING", -1))
+            continue
+        # FROZEN ledgers are declared dead — skip, don't nag.
+        try:
+            with open(p, encoding="utf-8", errors="replace") as fh:
+                if fh.readline().lstrip().startswith("# FROZEN"):
+                    rows.append(("  ❄️ ", rel, "FROZEN (not maintained)", -1))
+                    continue
+        except OSError:
+            pass
+        age = (today - date.fromtimestamp(os.path.getmtime(p))).days
+        worst = max(worst, age)
+        flag = "  🔴" if age >= STALE_ORANGE else ("  🟠" if age >= STALE_YELLOW else "  ✓ ")
+        rows.append((flag, rel, f"{date.fromtimestamp(os.path.getmtime(p))}", age))
+    for flag, rel, stamp, age in rows:
+        agestr = "" if age < 0 else f"  ({age}d)"
+        print(f"{flag} {rel:<28} {stamp}{agestr}")
+    if worst >= STALE_ORANGE:
+        print(f"\n  🔴 STALE — a live ledger is {worst}d old. STATUS is canonical; either "
+              f"refresh it this session or FROZEN-banner it (root §Data Hygiene).")
+    elif worst >= STALE_YELLOW:
+        print(f"\n  🟠 drifting — oldest live ledger {worst}d. Refresh at write-back.")
+    else:
+        print("\n  ✓ all live ledgers fresh (<14d).")
+
+
 def selftest():
     """Assert the due-scan fires on a row like HEN-32 (resolve 6/10, ACTIVE)."""
     today = date(2026, 6, 15)
@@ -253,6 +306,7 @@ def main():
     else:
         print("\n  (b) GAMMA + (c) CREDIT — skipped (--quick)")
     predictions_due()
+    ledger_staleness()
     print(f"\n{'='*64}\n  boot brief done in {time.time()-t0:.1f}s   "
           f"(--verbose full credit · --quick skip gamma+credit · --selftest)\n{'='*64}\n")
     return 0
