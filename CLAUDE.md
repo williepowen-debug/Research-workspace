@@ -44,6 +44,10 @@ Agent state lives at `AGENTS/<NAME>/STATUS.md`. Position truth is **off-repo** (
 11. **trash > rm.** Always use trash for deletions.
 
 > *Rules **6–7** are **trade-construction** rules — canonical owner is **TERRY** (`AGENTS/TERRY/RISK_RULES.md`), applied by TERRY and by PROME when building proposals; domain-data agents (LABOR, SAM, AEOLUS, …) can skip them. **The numbers are a stable API — TERRY fire-cards cite "rule #6" by number, so do not renumber or delete these.***
+>
+> ⚠️ ***NUMBERING COLLISION — say which list you mean.*** *There are **two independent numbered lists** in this repo and **both are cited by number**: these **root Critical Rules**, and **TERRY's `RISK_RULES.md` "Non-Negotiables."** They do **not** line up — **root #6 = "puts on green days, calls on red days"; Non-Negotiable #6 = "no roll-by-hope."* **Anyone grepping "rule #6" can land on the wrong one.** Neither list can be renumbered (both are stable APIs cited by live cards), so the fix is **citation discipline, not renumbering**: write **"root rule #6"** or **"Non-Negotiable #6"**, never a bare "rule #6." Found by TERRY 2026-07-27 while promoting the break test; flagged to Will same session. Applies to cards, packets, memos and commit messages.*
+>
+> *Breaking **root rule #6** has a ratified adjudication test (Will, 2026-07-27): a break is legitimate **only** if you can show the **direct measurement that refutes the day-colour proxy**, written on the card in figures **before** the fill, with **no hard guard relaxed** to make it fit. **"The window is closing" is a chase, not a break.** Full test + worked example → `AGENTS/TERRY/RISK_RULES.md` § "Breaking root rule #6."*
 
 ## Output Canon (fleet-wide — single home; agent files cite, don't restate)
 

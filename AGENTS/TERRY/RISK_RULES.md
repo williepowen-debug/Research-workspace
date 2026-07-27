@@ -58,7 +58,9 @@ Day colour is a cheap, fast stand-in for that question. It is not the question i
 
 **Corollary — the failure mode this prevents.** Every bad break sounds like a good one at the time, because urgency and opportunity feel identical from the inside. The test works precisely because *"show me the number that refutes the proxy"* is something a chase **cannot** produce. If no such number exists, the honest answer is a clean NO — and a clean NO is a good outcome, not a failure to find a way.
 
-🟡 **Status: TERRY-adopted, flagged to Will for ratification.** TERRY is canonical owner of root rules #6/#7 and this is additive, but it will govern every future break, so Will should see it. Applies fleet-wide to anyone building on rule #6 (PROME when constructing proposals).
+✅ **Status: RATIFIED BY WILL 2026-07-27** (in-session, same day it was adopted). **This test now GOVERNS every future break of root rule #6, fleet-wide** — TERRY when constructing, PROME when building proposals, and any agent proposing a break in a packet. A break offered without the refuting measurement is not a break to be argued about; it is a chase to be declined.
+
+*Ratification recorded by PROME on Will's instruction. TERRY remains canonical owner of the rule and of this section — the substance, wording and worked examples above are TERRY's and were ratified as written; PROME changed only this status line. Additive to the numbered list, which is unchanged (stable API preserved).*
 
 ---
 
