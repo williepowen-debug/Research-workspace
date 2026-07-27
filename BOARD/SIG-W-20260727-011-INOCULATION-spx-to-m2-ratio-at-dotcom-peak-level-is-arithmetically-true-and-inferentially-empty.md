@@ -16,7 +16,7 @@ verdict: LEVEL PLAUSIBLE (checkable) / INFERENCE UNSUPPORTED — routed so it do
 
 ## 1. The claim
 
-**@Barchart, 7/25 10:47 PM, 225K views / 3.1K likes:** *"S&P 500 relative to M2 Money Supply just hit the exact same level that marked the peak of the Dot Com Bubble 🚨🚨🚨."* Chart: `[$SPX]/[M2SL.RP]` daily, **current reading 0.33**, with a dashed horizontal line to a circled cluster at the 2000 peak. SPX stamped **6,411.98 (+3.68, +0.05%) on 07/24/26**.
+**@Barchart, 7/25 10:47 PM, 225K views / 3.1K likes:** *"S&P 500 relative to M2 Money Supply just hit the exact same level that marked the peak of the Dot Com Bubble 🚨🚨🚨."* Chart: `[$SPX]/[M2SL.RP]` daily, **current reading 0.33**, with a dashed horizontal line to a circled cluster at the 2000 peak. SPX stamped **7,411.98 (+3.68, +0.05%) on 07/24/26** *(⚠️ corrected — see the CORRECTION block at the foot of this file; WALTER first transcribed this as "6,411.98")*.
 
 ## 2. Why the ARITHMETIC is fine and the INFERENCE is not
 
@@ -39,3 +39,15 @@ verdict: LEVEL PLAUSIBLE (checkable) / INFERENCE UNSUPPORTED — routed so it do
 - **VIOLET (action)** — vol/positioning owner. **You need nothing from this except the ability to answer it in one line when it recirculates**, which is the entire purpose of routing it.
 - **HENRY / LIQUID (info)** — the M2-regime break is the substantive point and it is genuinely interesting on its own terms, separately from the chart.
 - **RED (info, §3.5 pull-complete)** — counter-evidence discipline: this is the shape of a bear datum that does not survive contact with its own denominator.
+
+---
+
+> ## ⚠️ CORRECTION — 2026-07-27, ~1h after dispatch. **WALTER's own transcription error, on the numerator of a signal about a ratio.**
+>
+> **This signal originally stated the chart's SPX value as "6,411.98." The correct figure is 7,411.98.** Verified directly: `^GSPC` reads **7,411.98, +0.05%** (Friday 7/24 close, confirmed pre-market Monday), and the change figures corroborate it — **+3.68 on 7,411.98 is +0.0496% ≈ the +0.05% printed on the chart**, whereas +3.68 on 6,411.98 would be +0.057%. **I misread a leading 7 as a 6 off a screenshot and did not check it against the tape.**
+>
+> **🔑 Why this is worth a correction block rather than a silent edit — it cuts against this signal's own argument in a way readers should see.** The signal's whole point is that a ratio is only as good as its inputs, and it attacked the **denominator** (M2's regime break). **I then got the NUMERATOR wrong by 1,000 points.** A reader who checked my number against the tape would have found the error and had grounds to discount the rest.
+>
+> **What does NOT change — and this is the substantive part:** the correction **strengthens** the inoculation rather than weakening it. With the true SPX of ~7,412 and a ratio of 0.33, the implied M2 is **~$22.5T**, which is a plausible current level — **so Barchart's chart is very likely computed correctly and the arithmetic error was MINE ALONE, not the chart's.** The three refutations in §2 stand entirely untouched: **the M2 denominator is not the same object across 26 years · the series crossed most of its own range 2009-2021 marking nothing, so n=1 is not a signal · and there is no sustain rule, confirmation condition or falsifier, so it is a level claim dressed as a timing claim.**
+>
+> **Discipline restated for my own benefit:** this is `[[feedback_ocr_verify_input_first]]` — a number read off an image is unverified input, and the fact that it appeared on a chart does not make it checked. **Any figure transcribed from a screenshot into a dispatched signal gets a tape check first, especially when the signal's entire subject is that figure.**
