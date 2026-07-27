@@ -101,6 +101,11 @@ You maintain:
    - **Sanity:** pre-commit `git diff --stat <pathspecs>`; **never unilaterally `git restore --staged`/`git reset`** (both touch the shared index) — flag foreign pre-staged work to Will rather than auto-clearing.
    - **Trailer:** HEREDOC + `Co-Authored-By: Claude Opus 4.8 (1M context) <noreply@anthropic.com>`.
    - **Push:** closeout auto-push via `scripts/safe-push.sh` per root CLAUDE.md §Git Protocol (ff-gated, fails safe; **non-ff abort → `git pull --rebase` + re-push, NEVER force** — routine under serial multi-machine; escalate to Will only per the root tripwire). Defer push entirely if you observed concurrent uncommitted foreign work (commit local; the next clean-tree session pushes the train). If push fails for a non-divergence reason (auth/network), note the pending push in `LAST_COMPLETION` GAPS + retry next session. [→ BP §16]
+   - **🆕 AFTER a successful push — reconcile `delivery_log.written_state` (one command, deterministic, safe):**
+     ```sh
+     (cd "$(git rev-parse --show-toplevel)" && .venv/bin/python3 AGENTS/WALTER/tools/reconcile_delivery_log.py --apply)
+     ```
+     **Must run AFTER the push** — `delivered` is defined as *committed AND on origin*, so the script reads `origin/master`. **Dry-run by default; `--apply` writes.** It only ever flips `written_not_delivered_pending_push` → `delivered` for paths git can verify (present in `origin/master`, **or** ever-tracked = consumed-by-delete), **never the reverse**, and it **refuses to write** if the TSV field count is not uniform before *and* after. **Real orphans (a path git has NEVER seen) are reported and LEFT ALONE — investigate those, never sweep them.** Commit the resulting one-column diff with the push-state commit. *(Why this is mechanized rather than remembered: the column was only ever swept for the current session's rows, and by 2026-07-27 **774 rows read `pending` while all 774 paths were in git** — decorative, and systematically understating delivery. `[[finding_mechanize_the_cap_not_the_ritual]]`. **The column is NOT droppable — `walter_doctor` `delivery_claim_vs_git` (#23) consumes it, and it is genuinely load-bearing between write and push.**)*
 
 ---
 
