@@ -16,7 +16,7 @@
 
 **This is a war that has comprehensively failed to take barrels off the market, and the market has correctly noticed.**
 
-Since **April 10**, the theater has been struck at least five times on production/refining/export assets — VTTI Fujairah (5/4), the KOC platform (7/12), Mangaf (7/18), **Aramco's 400 kbpd Jazan refinery (7/25)** and Abqaiq (7/27, attempted) — and produced **ZERO confirmed operational losses**. Not one force majeure, not one disclosed bpd figure, not one confirmed export interruption. Over the same window the acute phase's record was **10 operational-class events in 41 days**.
+Since **April 10**, the theater has been struck at least five times on production/refining/export assets — VTTI Fujairah (5/4), the KOC platform (7/12), Mangaf (7/18), **Aramco's 400 kbpd Jazan refinery (7/25)** and Abqaiq (7/27, attempted) — and produced **ZERO confirmed operational losses**. Not one force majeure, not one disclosed bpd figure, not one confirmed export interruption. Over the same window the acute phase's record was **11 operational-class events in 41 days**.
 
 What *is* priced is **willingness to move a hull**. War-risk premia across four legs of the *same war, same belligerents* span **75-100×** — 7.5-10% of hull value through Hormuz, >1% southern Red Sea, ~0.5% Bab, **0.1% West Coast Saudi** — differing purely by which water the hull crosses. That is a **transit-risk market**, not a production-risk market.
 

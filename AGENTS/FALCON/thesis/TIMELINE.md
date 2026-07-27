@@ -212,7 +212,7 @@ Ceasefire holding at Day 8. No mine clearance, no insurance reinstatement, no re
 
 1. **The war's most formal escalation act moved price the WRONG way.** Iran's **Jun 11 declared closure** of the Strait fired a Tier-1 watch item and **Brent fell**. Every subsequent read should be built on that, not on escalation→price intuition.
 
-2. **The theater is BIMODAL: 10 operational-class losses in the 41 days to Apr 9, then ZERO across the 109 days to Jul 27** — despite five logged strikes in that window, Jazan included. It keeps reaching the asset class and keeps failing to take barrels off the market.
+2. **The theater is BIMODAL: 11 operational-class losses in the 41 days to Apr 9, then ZERO across the 109 days to Jul 27** — despite five logged strikes in that window, Jazan included. It keeps reaching the asset class and keeps failing to take barrels off the market.
 
 3. **Restraint belongs to belligerents, not theaters.** US-Iran spared the energy complex through 13 strike nights and then stopped the war. What broke was a truce between a *different* pair. **This killed FAL-01 and is now a first-class transmission channel.**
 

@@ -58,7 +58,7 @@ Derived from `domain/energy-strikes/STRIKES.tsv` by classifying the `Status` col
 
 | Regime | Window | Days | Operational-class events | Rate |
 |---|---|---:|---:|---|
-| **Acute / damage regime** | Feb 28 – Apr 9 2026 | ~41 | **10** | ~5.1 per 3wk |
+| **Acute / damage regime** | Feb 28 – Apr 9 2026 | ~41 | **11** | ~5.6 per 3wk |
 | **Premium regime** | Apr 10 – Jul 27 2026 | **109** | **0** | **0 per 3wk** |
 
 **The theater is bimodal, and the split is sharp.** In the premium regime there were still five logged strikes — VTTI Fujairah (5/4), KOC platform (7/12), Mangaf (7/18), **Jazan (7/25)**, Abqaiq (7/27) — and **not one** produced a confirmed loss. The war has been reaching the asset class routinely for 15 weeks without taking barrels off the market.
