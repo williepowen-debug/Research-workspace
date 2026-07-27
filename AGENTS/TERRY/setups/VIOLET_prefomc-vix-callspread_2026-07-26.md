@@ -5,8 +5,8 @@
 **Request:** `inbox/2026-07-25_from-VIOLET_CONSTRUCTION-REQ-prefomc-vix-call-spread-will-approved-build.md`
 **Stage:** Will approved **BUILD IN PRINCIPLE** 7/25 → this card + **live Monday quotes** → Will **final [Approve]** (two-stage fill pattern)
 
-**Terry verdict:** 🟡 **CONDITIONAL** — structure is sound and the expression is correct; the trade **cannot be priced today** and has two named pre-entry kill conditions.
-**Confidence in trade structure:** Medium-High · **Confidence in the entry economics:** LOW until Monday's pull.
+**Terry verdict:** 🟢 **CLEAN ON TERRY'S AXIS** *(moved from 🟡 CONDITIONAL — 2026-07-27 11:00 ET, ZONE 2 filled)* — the pricing condition that made it conditional is **discharged**: net debit **$0.68** vs a $1.20 no-pay line, quotes tightened from 85–160% to <20%. **Still gated on (1) VIOLET's thesis GO/NO-GO and (2) the live `VIX <20` guard, now 0.15 away and closing.** Rule #6 broken deliberately, reason written in §8.
+**Confidence in trade structure:** Medium-High · **Confidence in the entry economics:** ~~LOW until Monday's pull~~ → **HIGH** (live chain, tight, priced well inside the line).
 
 ---
 
@@ -149,7 +149,23 @@ VIOLET supplied most of this and it is unusually strong for a packet arguing *fo
 
 **Added by TERRY:**
 
-7. 🔴 **This FOMC carries NO SEP / no dot-plot** (PROME DOCKET row 37), with a hold already **~70–81% priced**. It is the *low-information* meeting of the pair — the September meeting (9/15–16) is the one with an SEP. Buying event-vol into a meeting with no dots and a heavily-priced outcome is buying the **weaker** of the two available catalysts. The offsetting point is fair: the catalyst is the *stack* (FOMC + MSFT/META 7/29 + AMZN 7/30 + BOJ 7/30–31 + month-end, in buyback blackout), not the FOMC alone.
+7. ~~🔴~~ **🟡 DOWNGRADED 2026-07-27 — this was my weakest counter-case and the evidence cuts against it. Re-graded honestly.**
+
+   *Original wording:* **This FOMC carries NO SEP / no dot-plot** (PROME DOCKET row 37), with a hold already **~70–81% priced**. It is the *low-information* meeting of the pair — the September meeting (9/15–16) is the one with an SEP. Buying event-vol into a meeting with no dots and a heavily-priced outcome is buying the **weaker** of the two available catalysts. The offsetting point is fair: the catalyst is the *stack* (FOMC + MSFT/META 7/29 + AMZN 7/30 + BOJ 7/30–31 + month-end, in buyback blackout), not the FOMC alone.
+
+   **What I got wrong, on two counts (TERRY-verified live 7/27, WALTER `SIG-W-20260727-013` relay independently checked — I did not fill from the relay):**
+
+   | Claim | My card said | Verified |
+   |---|---|---|
+   | Hold priced at | **~70–81%** | **~61–65%** — hike odds 10.7% (7/15) → 34.7% (7/22) → **38.7% (7/25)** ✅ WALTER's tripling claim confirmed, **and the figure moved UP, not down** |
+   | Forward guidance | (not considered) | **WITHDRAWN.** Warsh has dismantled forward guidance; coverage calls the pre-decision ambiguity "virtually unprecedented in modern central banking" |
+   | No SEP / no dots | true | **still true** — this part of my claim stands |
+
+   ⚠️ *WALTER's own caveat honored: the 34.7% figure is 7/22 vintage and pre-dates the oil collapse. I re-pulled rather than quoting it. The 7/25 reading is **higher** (38.7%), and today's ~7% oil collapse — which guts the hawkish case's main input — post-dates even that. **No today-stamped FedWatch print was obtainable; treat the level as ~35–39% and DIRECTIONALLY LIKELY TO FALL on the oil move.** The level is not what carries the re-grade; the two structural facts below are.*
+
+   **The error in my reasoning — I conflated INFORMATION with SURPRISE.** "No SEP" correctly means the meeting is **low-information**. I then inferred "therefore a weak catalyst," and *that inference is wrong for a long-vol trade.* **An event box is paid by surprise, not by information.** A meeting with (a) no dots, (b) **no forward guidance**, and (c) a genuinely two-way ~62/38 split is a **high-surprise** event *precisely because there is no channel through which the outcome could have been pre-signalled.* Warsh's no-guidance regime converts the absence of an SEP from a reason the meeting is quiet into a reason it is **loud**. And at ~35–39%, roughly a third of the distribution sits on an outcome that would genuinely shock a market positioned for a hold.
+
+   **Net: 🔴 → 🟡.** Downgraded, not deleted — the September meeting still carries the SEP, and "low-information" remains literally true. But it no longer argues that this is the *weaker* catalyst of the pair, and it is no longer a material weight against the trade.
 
 8. 🔴 **The fleet's standing view is that VIX calls are the WRONG vehicle for this family of exposure.** DEWEY, 7/20 (`mechanical-selling-stack`, to me): *"the mechanical-cushion hedge is **rates-vol-shaped, NOT VIX calls** — VIX-call structures **overpay** for the amplification you'd be hedging."* That was written about mechanical-selling cushion, not about short-gamma-into-FOMC, so it is **adjacent, not a direct refutation** — but it is a live fleet finding pointing at this exact instrument and it belongs on the card.
 
@@ -165,32 +181,116 @@ VIOLET supplied most of this and it is unusually strong for a packet arguing *fo
 
 ---
 
-## 8. ⬜ ZONE 2 — LIVE MARKS (fill Monday 7/27 before presenting for [Approve])
+## 8. ✅ ZONE 2 — LIVE MARKS — **FILLED 2026-07-27 10:54–10:59 ET**
 
-> **Everything below is EMPTY BY DESIGN.** The quotes in §9 are Friday-close / weekend-degraded and **must not be used to fill** (rule #4, `finding_option_marks_need_live_chain`).
+> Pulled live per rule #4. §9 weekend quotes were **not** used. Two pulls 4 min apart are recorded because **the tape moved materially between them** — that movement is itself a finding (below).
 
 ```
-Timestamp (ET):            ____
-VIX spot:                  ____   (need <20)
-VIX3M/VIX ratio:           ____   (need >1.0 — inversion = stand down)
-★ VX FORWARD for chosen expiry: ____   ← THE number that prices this, not spot
-Day color (rule #6):       VIX soft/green? [Y/N] — if N, state the break + why
-Jazan/oil spillover check: VIX gapped up? [Y/N] — if Y, STAND DOWN
-Chosen expiry:             8/5  /  8/19   (per §4 decision rule)
-Long  __C  bid/ask: ____ / ____   OI ____
-Short __C  bid/ask: ____ / ____   OI ____
-NET DEBIT (limit):         ____   (must be ≤ $1.20; target ≤ $1.00)
-Contracts:                 ____   = floor(budget ÷ (debit×100)), max 5
-Total at risk:             $____  (≤$500 cap; $300-400 recommended)
-Account:                   MAIN book (confirm BP — not the $241 satellite)
+Timestamp (ET):            2026-07-27 10:54  →  re-stamped 10:58
+VIX spot:                  19.49 (+4.90%)    →  19.85 (+6.84%)   ⚠️ guard <20 — 0.15 away, CLOSING
+VIX3M:                     20.69             →  20.87
+VIX3M/VIX ratio:           1.062             →  1.051   (>1.0 OK; Fri 1.104 → compressing FAST)
+★ VX FORWARD (8/5, by put-call parity): 19.5 →  19.6    ← THE number that prices this
+   └ forward beta to spot on today's move = ~0.28. Spot +0.36, forward +0.10.
+   └ forward 19.6 < spot 19.85 = FRONT IS BACKWARDATED TO SPOT.
+Day color (rule #6):       ❌ BREAK — VIX +6.8%, SPY +0.02% (FLAT, not green). Reason written below.
+Jazan/oil spillover check: NO GAP. Opened 18.25, session LOW 18.08 (below Fri 18.58 close), then GROUND up.
+                           Stated cause REFUTED: Brent −6.8%, oil is DOWN hard.
+Chosen expiry:             8/5   (§4 decision rule applied mechanically — worked below)
+Long  20C  bid/ask: 1.10 / 1.30   mark 1.20   OI 1,689   IV 94.1
+Short 25C  bid/ask: 0.47 / 0.57   mark 0.52   OI 13,113  IV 148.1
+NET DEBIT: mark $0.68 · worst-case $0.83 · best $0.53   ✅✅ vs $1.20 line / $1.00 target
+LIMIT (recommended):       $0.80 max — work it from $0.72 up. Never market, never leg.
+Contracts:                 4        (5 available and cap-compliant; 4 = low end per counter-case #8)
+Total at risk:             ~$288–320  (≤$500 cap ✅; $300-400 band ✅ low end)
+Account:                   MAIN book (cash ~$24.1k as-of 7/24) — NOT the $241 satellite
 ```
 
-**Monday runbook (3 commands):**
+### §4 decision rule — RUN, and the weekend brokenness is GONE
+
+The 8/19 chain that was unusable Sunday (0.00 bids, an impossible $0.18 5-wide) **re-pulled clean and tight**. Both chains are now genuinely comparable:
+
+| Structure | Long leg | Short leg | Net @ mark | Net worst-case | Leg spread widths |
+|---|---|---|---|---|---|
+| **8/5 20/25** | 1.20 | 0.52 | **$0.68** | $0.83 | 16.7% / 19.2% |
+| 8/19 20/25 | 1.71 | 0.98 | **$0.73** | $0.76 | 1.8% / 5.1% |
+
+**8/5 is $0.05 CHEAPER at mark** — not worse at all, let alone "more than $0.25 worse." **Rule resolves to 8/5.** It resolved on the merits, not on a tiebreak.
+
+*(Why the longer-dated spread isn't cheaper: 8/19's short 25C carries far more time value (0.98 vs 0.52), which nets the spread down. That is precisely the flattened-payoff / damped-spike-beta profile §4 rejected. 8/19's quotes are much tighter — 1.8% vs 16.7% — which is a real edge at size, but on a 4-lot the $0.05 price advantage and the spike-beta both point the same way.)*
+
+**Strike check — 20/25 beats the named 21/26 alternative.** The §4 fallback said take 21/26 "if the 20C is bid rich." It is **not**: 20C IV 94.1 sits *below* 21C's 109.6 (normal VIX upside skew), so the 20C is the cheap end of the curve, not the rich end. 21/26 would cost less ($1.00−0.48 = $0.52) but buys a strictly worse structure — and its legs quote 18.0%/35.8% wide vs 16.7%/19.2%. **Take 20/25.**
+
+### ★ The finding that matters most: the forward is not following spot
+
+My own card says the forward "is THE number that prices this, not spot." So here is what it did:
+
+- **10:54** — spot 19.49, forward ≈19.5 (parity across K=18/19/20/21, tight cluster)
+- **10:58** — spot 19.85, forward ≈19.6
+
+**Spot +6.8% on the day; the 8/5 forward moved ~+0.5%.** The 20C actually *fell* (1.25 → 1.20) while spot rose. The front VX future has gone **backwardated to spot** (19.6 vs 19.85) and the futures market is plainly **not validating** today's spot move.
+
+**Three consequences, and they do not all point the same way:**
+
+1. ✅ **Moneyness is BETTER than the card assumed.** Against forward 19.6, the 20 strike is **+2.0% OTM** — essentially at-the-money on the instrument that settles it. §4 estimated +4%.
+2. ✅ **We are not the late money.** The confirm has *not* arrived on the thing we would own. A spot bid the futures curve refuses to ratify is the opposite of a repricing that ran away from us.
+3. 🔴 **Today's realized forward beta (~0.28) is far below what §4's spike-capture argument assumes.** I will not over-claim here: 0.28 is measured on a *grind, on a flat tape, that the market disbelieves* — genuine SPX-selloff spikes historically run 0.7–0.9 front-future beta, and this is a different regime. But it is a live datapoint against the premise, and it belongs on the card rather than in my head.
+
+**Payoff re-estimate, anchored in today's own chain rather than an assumed beta.** A spot 23-touch carrying the 8/5 forward to ~20.5–21.0 leaves the 20/25 roughly 0.75–1.0 ITM. The structurally analogous spread on today's surface (19/24, ≈0.9 ITM on a 19.6 forward) marks **$0.99**. From $0.72: **≈ +40%**. With the IV lift a real spike brings, the honest range is **+45% to +120%, centred ~+75%** — the **low end** of §6's stated "+50% to +120%," because the lower debit is partly offset by the lower forward beta. On $288–320 that is roughly **+$130 to +$380**.
+
+### ⚖️ Rule #6 adjudication — **BREAK AND PROCEED**, reason written as required
+
+**The break is real and I am not softening it:** the card requires a **VIX-soft / equity-green** day. Today is VIX **+6.8%** on a **flat** tape. That is a rule #6 break.
+
+**Why I proceed anyway — the proxy is refuted by the direct measurement it exists to approximate.**
+
+Rule #6 is a *proxy* for one question: *am I paying up for convexity?* Today I don't need the proxy, because I have the answer directly:
+
+| | Friday / weekend | **Live now** |
+|---|---|---|
+| 20/25 at mark | $0.84 | **$0.68** |
+| Worst-case fill | **$1.85** | **$0.83** |
+| Leg spread widths | **85–160%** | **16.7% / 19.2%** |
+
+**The spread is cheaper than Friday in every column, and the worst case improved by more than a dollar** because market makers came back and quotes collapsed from 85–160% wide to sub-20%. Friday's "cheap" $0.84 mark was *fictional* — unfillable. Today's $0.68 is real. **The day-colour proxy says "expensive"; the tape says the opposite, and the tape is measuring the actual thing.** When the proxy and the direct measurement disagree, the direct measurement wins.
+
+**Three supporting facts, none of which is the main reason:**
+- **No gap.** VIX opened 18.25 and printed a session low of **18.08 — below Friday's 18.58 close** — then ground up over 90 minutes. Stand-down #3's mechanism did not occur, and its stated cause (Jazan/oil spillover) is **refuted**: Brent −6.8%, oil collapsed.
+- **Equity is flat (+0.02%), not red.** The vol bid is hedging demand into the event, not realized selling. A VIX bid on a −2% tape would be the actual late-money case; this isn't that.
+- **The window is 48 hours and non-extendable.** Rule #6 optimizes entry price inside a *flexible* window; it was never written to veto a hard-dated event box. The card's own wording anticipated this — "a rule break that must be written on the card with a reason," not "prohibited."
+
+**What the break does NOT buy.** It does not relax a single hard guard. Specifically:
+
+> 🔒 **The order is live ONLY while VIX spot <20.** If spot prints ≥20 before the fill, **PULL THE ORDER.** The card's guard applies continuously to the working order, not just at the instant of the decision.
+
+### ⚠️ Guard-spec flag — NOT exploited, routed to the owner
+
+The `VIX <20` guard is written on **spot**. We own the **forward**, which is at **19.6** and comfortably inside the line while spot sits at 19.85 and threatens to breach it. So the card's own guard may kill this trade on a reading of an instrument we do not hold.
+
+**I am not reinterpreting it.** The guard is VIOLET's, registered under KB-VIO-034, and loosening a guard mid-trade — on the trade I have just argued *for* — is precisely the motivated-reasoning failure the guard exists to prevent. **It binds as written: spot ≥20 = pull.** Flagged to VIOLET/PROME as a genuine spec defect to fix on the *next* iteration, not this one.
+
+### Sizing — ★ EFFECTIVE-N re-checked: **N_eff stays 1**
+
+Three pieces of genuinely exciting news landed today. **None of them raised N_eff, and that is the field working:**
+
+| Today's input | Does it add an independent view? |
+|---|---|
+| Counter-case #7 weakened (no forward guidance, hold only ~61–65%) | ❌ **No.** Removing an objection is not adding a vote. |
+| Mag7 capex/FCF shock, ~$787B erased (SIG-012) | ❌ **No** — and counting it would invert my own counter-case #5. Single-name earnings chaos is exactly what record-low correlation *suppresses* at the index level. It was present in all five prior absorptions. It is the setting, not a vote. |
+| Oil collapse / strike-campaign suspension (SIG-001) | ❌ **No.** Orthogonal axis; it is the *oil* thesis's event. |
+| VIX +6.8% on the day | ❌ **No.** That is price, not a view — and reading your own entry-day tape as confirmation is the exact relaxation this field exists to stop. |
+
+**N_eff = 1 unchanged → dollar budget unchanged at $300–400, leaning LOW per counter-case #8 → 4 spreads, ~$288–320.**
+
+The debit came in *far* cheaper than modelled ($0.68 vs a $1.20 line). **That does not buy size.** A better fill improves the payoff *ratio*; it does not add an independent view, and the dollar budget is set by N_eff, not by how good the price looks. (5 spreads at $0.72–0.80 = $360–400 is available and cap-compliant if Will wants the top of the band; **my recommendation is 4.**)
+
+**Monday runbook (as run):**
 ```bash
 cd "$(git rev-parse --show-toplevel)"
 .venv/bin/python FORGE/tools/market-data/fetch.py price "^VIX" "^VIX3M"
 .venv/bin/python AGENTS/TERRY/scripts/chain_fetch.py "^VIX" 2026-08-05 --type call --window 1.2 --no-cache
 .venv/bin/python AGENTS/TERRY/scripts/chain_fetch.py "^VIX" 2026-08-19 --type call --window 1.2 --no-cache
+# + put chains at both expiries to derive the forward by put-call parity (NOT in the original runbook — add it)
 ```
 
 ---
@@ -229,24 +329,53 @@ cd "$(git rev-parse --show-toplevel)"
 
 ---
 
-## Decision
+## Decision — ★ UPDATED 2026-07-27 11:00 ET (ZONE 2 filled)
 
-**Terry verdict: CONDITIONAL.** The expression is right: VIOLET's constraints produce a correct structure, the thesis gate is met on her side, it is genuinely additive to the book rather than a re-stack, and max loss is small and hard-defined. I have moved the expiry to **8/5** on spike-capture grounds and rejected **7/29** outright as a settlement trap.
+### Verdict moves: 🟡 CONDITIONAL → 🟢 **CLEAN ON TERRY'S AXIS** (structure · price · liquidity · sizing)
 
-**What makes it conditional, in one line:** at 85–160% bid/ask widths, *the fill decides this trade, not the thesis* — and the fill cannot be known until Monday.
+**The card was CONDITIONAL for exactly one stated reason, and that reason is now discharged.** §Decision said it in one line: *"at 85–160% bid/ask widths, the fill decides this trade, not the thesis — and the fill cannot be known until Monday."* The fill is now known, and it resolved **favourably and decisively**:
 
-**Three ways this becomes a clean NO before any money moves:**
-1. Monday's live market won't come to **≤$1.20** net debit → **no trade.**
-2. **VIX ≥20** or **VIX3M/VIX <1.0** at the fill → window expired, **stand down.**
-3. **VIX gaps up Monday** on Jazan/oil spillover → we are the late money, **stand down.**
+| Condition | Line | Live | |
+|---|---|---|---|
+| Net debit | ≤$1.20 hard / ≤$1.00 target | **$0.68 mark, $0.83 worst-case** | ✅ passes both, with room |
+| Quote quality | was 85–160% wide | **16.7% / 19.2%** | ✅ transformed |
+| 8/19 comparison | was unusable | **re-pulled clean, 8/5 wins on merit** | ✅ rule ran |
+| Expiry choice | §4 mechanical rule | **8/5, $0.05 cheaper than 8/19** | ✅ |
 
-**Recommended if it clears:** 8/5 **20C/25C**, **3 spreads at ≤$1.20** (~$360 at risk), main book, limit order on the spread, exit at the 7/30 boot regardless of P/L.
+**This is a real verdict change, not a rounding.** On the weekend this structure priced anywhere from $0.60 to $1.85 — a 2.2× band straddling the no-pay line, which is why I refused to grade it. It now prices in a $0.53–0.83 band **entirely below the target.** Counter-case #7 also downgraded 🔴→🟡 on verified evidence. Nothing in the counter-case got *worse*.
 
-- [ ] **APPROVE in principle** (unblocks the Monday live pull; final fill still comes back to you)
-- [ ] **REJECT**
+**What CLEAN does and does not mean — read this carefully.** It means *TERRY's* objections are resolved: the expression is correct, the price is good, the liquidity is real, the size is disciplined. **It does NOT clear the trade.** Two gates remain open and **neither is mine**:
+
+1. 🔒 **VIOLET's thesis GO/NO-GO** on the gamma gate (running in parallel). I have **not** re-underwritten the vol call and do not own it. **Her NO-GO overrides this CLEAN entirely.**
+2. 🔒 **The `VIX <20` guard**, which is **live, spot-measured, and 0.15 away and closing** (19.85 at 10:58, from 18.08 at the open). This is the likeliest way the trade dies, and it can die within the hour.
+
+### ⚠️ Honest framing: this is a race, not a clean setup
+
+I am not going to dress this up. **The price is excellent and the clock is terrible.** VIX went 18.08 → 19.85 in 90 minutes and the guard sits at 20. VIX3M/VIX has compressed 1.104 → 1.062 → **1.051** in a single session. The single best argument that we are still *inside* the window rather than late to it is that **the 8/5 forward is 19.6 and refused to follow spot** — the futures market is not ratifying this move, so on the instrument we would actually own, the confirm has not arrived. That argument is genuine and it is why I proceed. It is also the *only* thing standing between this trade and stand-down #3, and if the forward starts tracking spot, that changes.
+
+### The four ways this is still a clean NO
+1. ~~Debit >$1.20~~ → **PASSED at $0.68.**
+2. **VIX spot ≥20 before fill** → 🔴 **LIVE RISK, 0.15 away** → pull the order, window expired.
+3. **VIX3M/VIX <1.0** → holding at 1.051, but compressing fast → watch.
+4. **VIOLET returns NO-GO** on the gamma gate → stand down regardless of price.
+
+### ▶ ONE-LINE TICKET (two-stage pattern — Will's final [Approve])
+
+> **BUY 4 × VIX 8/5 20C/25C call debit spread @ $0.80 net debit LIMIT (work from $0.72), MAIN book, ~$288–320 at risk — VALID ONLY WHILE VIX SPOT <20; pull the order if spot prints ≥20; exit at the 7/30 boot regardless of P/L.**
+
+- Spread order only — **never leg it, never market-order.** Max loss = the debit, in full.
+- Contingent on **VIOLET's GO**. If she returns NO-GO, this ticket is void.
+- 5 spreads (~$360–400) is cap-compliant if you want the top of the band; **4 is my recommendation** (counter-case #8).
+- **Mandatory 7/30 exit/review regardless of P/L** — including a NO-FILL, which closes the box as NO-TRADE (registered on PROME/DOCKET).
+
+- [ ] **APPROVE — fill as ticketed**
+- [ ] **APPROVE at 5 spreads** (top of band)
+- [ ] **REJECT / stand down**
 - [ ] **REWORK:** ______
 
 **APPROVAL REQUIRED — Will must approve/reject before execution. Terry never executes.**
+
+*Rule #6 was broken deliberately and the reason is written in §8 as the card required. Every hard guard remains armed; none was relaxed to make this fit.*
 
 ---
 *Thesis owner VIOLET — TERRY does not own the vol call and has not re-underwritten it. Structure, expiry, strikes, sizing, entry discipline and the counter-case additions (§7 items 7–10) are TERRY's. Quotes in §9 are weekend-stale by construction and are barred from use at fill.*
