@@ -1,3 +1,27 @@
+# PHONE→FLEET SIGNAL INGESTION — canonical spec
+
+**Version:** v1.1 · **Status:** **PART B SHIPPED 2026-07-27** (`tools/phone_scan.py`, wired at boot step **7e(f)**). **PART A (Will's PAT + iOS Shortcut) still to enact — it is the remaining critical path.**
+**Promoted from `inbox/` → `design/` on 2026-07-27** per PROME's instruction in the original packet ("once you've built Part B, promote this doc into `AGENTS/WALTER/design/` as the canonical spec"). Original packet text preserved verbatim below.
+
+---
+
+## ⚠️ v1.1 CHANGE LOG — one deliberate deviation from §4 (Will-approved 2026-07-27)
+
+**§4 said:** archive consumed signals to `phone_inbox/processed/`.
+**SHIPPED INSTEAD:** consumed signals are recorded in **`registry/phone_seen.json` on WALTER's side**; nothing is ever written to RESEARCH-INTAKE.
+
+**Why:** moving files into `phone_inbox/processed/` requires **write access to RESEARCH-INTAKE**, which **boot step 7e(a) forbids** — that repo is read-only to WALTER (`pull --ff-only`, never push) — and it would have required a **second PAT** on top of Will's phone token. The seen-file approach mirrors the existing `intake_seen.json` model **this same doc points at in §4's last bullet**, so the two halves of §4 were in tension; this resolves it in the direction that adds no permissions and less code. **The lane stays append-only from the phone and read-only to WALTER.**
+
+**Also fixed in implementation, beyond the spec:**
+- **Dedup key = filename + content SHA**, not filename alone. The Shortcut derives the filename from a timestamp, so two signals inside the same second would collide — and an **edited** signal correctly re-fires instead of being swallowed.
+- **Nothing is ever silently dropped.** Malformed frontmatter · unknown/missing priority · empty body · invalid UTF-8 · oversize · stray non-`signal_*.md` files are all **surfaced loudly and still handed to the operator.** A durability mechanism that quietly discards the thing it exists to guarantee would be worse than no mechanism. *(This is the inverse of the normal filter posture and is deliberate.)*
+- **A corrupt `phone_seen.json` fails LOUD** rather than silently re-firing everything or swallowing everything; the error names deletion as the safe direction (deleting re-surfaces all signals).
+- **`phone_inbox/` not existing is reported as a clean status, not an error** — it is the expected state until Part A is enacted, and the sweep self-arms for the first signal.
+
+**Tested before shipping** against fixtures for all of the above (happy path · no priority · no frontmatter · empty body · wrong `source:` + bad priority · invalid UTF-8 · stray file · same-second collision · re-fire after edit · corrupt seen-file), plus a dedup round-trip. **Nothing was written to RESEARCH-INTAKE at any point** — the test harness reads a scratch dir via `WALTER_PHONE_DIR`.
+
+---
+
 # 2026-07-05 — To: WALTER (build owner) + Will (operator) — Phone→Fleet Signal Ingestion: design & enactment plan
 
 **From:** PROME · **Priority:** 🟡 (build when convenient; Will's half is enactable next session with zero fleet-side dependency) · **Will-approved** 7/5.
