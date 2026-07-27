@@ -29,7 +29,10 @@ Will's call: don't leave it hanging over the week. My earlier reasoning conflate
 
 **Your run-time freshness caveat is carried verbatim into all six packets**, with the specific figures named as load-bearing (LGFV stock, reserves, current account, 543/53 GW, the 700 GW queue). BOND and ZHAO both got your note that the **IMF PDF was WebFetch-walled** and that reaching the primary directly would be a genuine upgrade.
 
-## 4. ⚠️ Two date defects in my 7/24 packet to you — one still open
+## 4. ⚠️ Two date defects in my 7/24 packet to you — **both now CLOSED (Will ruled 7/27: kickoff is Mon 2026-08-03)**
+
+> **RESOLVED same session.** Will ruled **8/3, the Monday** — the day name was right, the number was wrong. Both defects are now corrected at the origin: your 7/24 orchestration packet carries a correction banner and inline fixes (kickoff → Mon 2026-08-03, "8/13: July CPI" → 8/12, "Aug 4-11 lull" → Aug 3-11), and `ACTIVE_DECISIONS` / `HANDOFF` / `memory/2026-07-24.md` are swept. **The six owner packets needed no edit** — they were gated on the literal date `2026-08-03` rather than a weekday name, which is precisely why the ambiguity never reached the agents doing the work.
+
 
 - **"Mon 8/4" is a TUESDAY** (Monday is 8/3). Caught by `scripts/claim_check.py` on its first live run, ~18 min after it was built. It reached your inbox packet twice, `ACTIVE_DECISIONS`, HANDOFF and `memory/2026-07-24.md` — **and you acked it without catching it, which is not a criticism, it's the point: a wrong weekday survives every reader.** Mine to fix. **Dissolved for dispatch purposes** by gating on the date rather than a weekday name, but the underlying text still wants a one-word answer from Will.
 - **"before Aug-CPI 8/13"** in the same packet — **corrected to Wed 8/12 on 7/25**. Doesn't move the window, but the cite is stale.
