@@ -11,6 +11,36 @@ Reverse-chronological log of **structural** changes to CREED's docs, folders, sc
 
 ---
 
+## 2026-07-27 (fourth sitting) — LIQUID/CORAL survey: the coverage map, and a closed episode doc found sitting in CREED's own boot order
+
+**Trigger:** Will directed the same structure survey against **LIQUID** (funding/plumbing; `alerts/` state machine, `CATCHUP_PUNCHLIST.md`, 16 workbook files, dated `archive/workbook_resolved_*` sets) and **CORAL** (Florida; a 10-pillar `COVERAGE.md`, `GRID_PER_METRO.md`, `DATA_SOURCES.md`). Both clean/not-live at survey time.
+
+**Adopted (2):**
+
+| Change | Why |
+|---|---|
+| **`COVERAGE.md`** (new) — from `CORAL/COVERAGE.md` | **The single most valuable artifact of the four surveys.** 12 lanes: scope · vectors/owner docs · **data vintage** · maturity (🟢🟡🔴) · plus a **blind-spot register that records WHO FOUND each gap** and a build-out backlog. **The gap it exists to prevent is documented: CREED's life-science hole was found by WALTER**, because CREED had no map of its own territory. **Two things it does that `VX.tsv` cannot:** (a) `Last_Updated` is a **touch date, not a data vintage** — all 31 vectors read `2026-07-27` while the underlying prints run from FDIC Q1 to intraday 7/27 tape; (b) it makes *thinness* visible — lane 12 (office pricing/vacancy) is 🔴 with one hard GAP vector and one Q1-stale vector, **sitting underneath the entire valuation argument**, and lane 5 (modifications) is 🔴 with one vector and the registry's only purely-qualitative trigger. |
+| **`REVIVAL_PLAN.md` FROZEN + removed from the boot order** — the episode-doc discipline from `LIQUID/CATCHUP_PUNCHLIST.md` | **The survey's finding about CREED itself.** LIQUID froze its punchlist at ~85% and **forked the 2 genuinely-live items UP to live surfaces so they weren't buried in a closed episode.** CREED's `REVIVAL_PLAN.md` is the same species — **and it was still at boot-order step 4**, 165 lines read every wake, describing how to revive an agent that has been operational for four sessions. Frozen with a do-not-cite banner, kept **unedited**, and its two live items forked up: *full legacy migration stays deferred* → `CLAUDE.md` §Guardrails; *the legacy inventory* → already in `CLAUDE.md` §Source Archive + `STATUS.md`. **`COVERAGE.md` takes the vacated boot slot** — a strictly better use of the same read. |
+
+**Declined (4):**
+- **LIQUID `alerts/`** (JSON state file + escalation log + watch log, daily poll) — **wrong cadence.** CREED's triggers are **monthly-print** based; a daily poller on a monthly series logs ~30 `ok` lines per data point. **The transferable idea is band TRANSITIONS rather than levels** (LIQUID logs 🟢→🟡→🔴 crossings, not readings) — CREED's `VX_HISTORY.tsv` records levels and my own closeout rule already says *a level is not a trend*. **Noted as a candidate `VX_HISTORY` column, not a subsystem.**
+- **LIQUID `IDENTITY.md` / `USER.md` / `STRATEGY.md`** — a trade-facing strategy surface. **CREED's mandate explicitly excludes trade construction** (TERRY owns it).
+- **CORAL `GRID_PER_METRO.md`** — a per-metro convergence grid is CORAL's geography-specific edge. **CREED is national**; its metro dimension is the property/metro stress map routed to REGINALD on fire.
+- **CORAL `proposals/`** — CREED proposes via packets; a directory for it is overhead at CREED's volume.
+
+**⭐ Cross-agent findings, routed to CORAL:**
+1. **CORAL's pillar 4 (Commercial real estate) names `CREED natl` as an owner doc, is marked 🟢, and is its self-declared lowest-priority lane** — live read **7/9**, explicitly skipped in the 7/21 full refresh. **And CREED has no standing feed to CORAL**: the Route Matrix entry is **fire-gated**, nothing has fired, so nothing has been routed since 7/4. **A lane that reads better-covered than it is — the exact failure CORAL's own maturity legend exists to prevent.** Offered a standing monthly FL slice off CREED's whole-Trepp pull (the FL rows arrive free in a document CREED already opens for S1), independent of fire-gating.
+2. **An MF figure that changed hands without its consumers being told.** CORAL's pillar 4 carries **"MF concessions 16.9%"** — CREED's 7/4 figure. CREED ceded MF **scoring** to HOMER on 7/27 and **notified HOMER but not the downstream consumers of MF figures already in circulation.** Scope flagged honestly: the ruling named *three* MF things HOMER gains, and concessions is a leasing metric that arguably isn't one — **but the ruling said what HOMER gains and never said what happens to the previous owner's circulating figures.** Same class as the HOMER citation loop found in the third sitting.
+
+**Files touched:** `COVERAGE.md` (new), `REVIVAL_PLAN.md` (frozen banner), `CLAUDE.md` (boot order step 4 + §Guardrails fork-up), `README.md`, `STATUS.md`, `MAINTENANCE.md`, `SCRATCH.md`, `board_log.tsv`, 1 outbound packet (CORAL).
+
+**Lessons:**
+1. **An episode doc left in the boot order is a permanent tax on a spawn-on-need agent.** `REVIVAL_PLAN.md` cost every CREED wake for four sessions after its job was done. **The fix isn't deletion — it's freeze + fork the live items UP**, which is LIQUID's pattern and preserves the trail.
+2. **A touch date is not a data vintage, and a dashboard that only carries the former will read as fresher than it is.** This is the same failure as `LAST_COMPLETION.md` skipping closeouts, one layer down.
+3. **Fire-gated routing creates silent dependencies.** CORAL cites CREED as an owner doc for a lane CREED never pushes to, because nothing has fired. **Fire-gating is right for signals and wrong for context** — hence the standing-feed offer.
+
+---
+
 ## 2026-07-27 (third sitting) — REGINALD/HOMER survey: 2 surfaces adopted, and the survey found two cross-agent defects worth more than the files
 
 **Trigger:** Will directed the same structure survey against **REGINALD** (the fleet's most mature agent — per-entity trees for CFG/EGBN/FITB/MTB/PNC/RF/ZION, 11 scripts, 19 workbook files) and **HOMER** (the newest, DAEDALUS-built 7/12). Both clean/not-live at survey time.

@@ -9,7 +9,7 @@ Read these first:
 0. `AGENTS/CREED/SCRATCH.md` — **read first.** Ephemeral session handoff: what the last session was mid-way through, next-boot first moves, open threads, standing traps. **Lowest authority — if it disagrees with STATUS, STATUS is right.**
 1. `AGENTS/CREED/CLAUDE.md` — canonical boot order and guardrails
 2. `AGENTS/CREED/STATUS.md` — current status, thesis state, and first-work priority
-3. `AGENTS/CREED/REVIVAL_PLAN.md` — revival phases and legacy inventory
+3. `AGENTS/CREED/COVERAGE.md` — **the map of the territory**: 12 lanes, each with its **data vintage** (not its touch date), a maturity grade, and the **blind-spot register with the finder recorded**. *(Took this boot slot 2026-07-27 from `REVIVAL_PLAN.md`, now FROZEN — a closed episode doc that was still being read at every wake.)*
 
 ## Operating ledgers and logs *(added 2026-07-27 — fleet-parity pass against SHADE/BROCK)*
 
@@ -18,6 +18,8 @@ Read these first:
 | `board_log.tsv` | **Every mail item CREED has read, with its reasoned disposition.** Logged at READ time. An unlogged consume is indistinguishable from a never-seen. ⚠️ Pre-2026-07-11 lane history is **prose-sourced, deliberately not retrofitted** — see the `[PRE-LEDGER-BACKFILL]` row. |
 | `SCRATCH.md` | Ephemeral session handoff (overwritten each closeout). Created after an unclean shutdown left CREED with no in-flight-work surface. |
 | `MAINTENANCE.md` | **Structural** change log — why CREED is organized this way. **Consult-on-structural-work, NOT a per-session ritual.** Analytical pivots go in `thesis/CHANGELOG.md` instead. |
+| `COVERAGE.md` | Lane-by-lane coverage map keyed to **data vintage**, with maturity grades and the blind-spot register. Adopted from `CORAL/COVERAGE.md`. |
+| ~~`REVIVAL_PLAN.md`~~ | ⛔ **FROZEN 2026-07-27** — closed episode doc, out of the boot order. Live items forked up to `CLAUDE.md` §Guardrails. Do not cite as current. |
 | `LAST_COMPLETION.md` | Closeout stamp. ⚠️ **It skipped the 7/20 and 7/27 closeouts and went stale enough to propagate a wrong claim three hops.** If `STATUS.md` is materially newer than this file, **a closeout was skipped — treat its claims as UNKNOWN, not current.** |
 
 ## Live metric layer — the workbook (built 2026-07-27)

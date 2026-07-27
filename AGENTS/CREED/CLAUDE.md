@@ -60,7 +60,7 @@ Standing rule: route to the **domain owner**, one signal at a time, transmission
 1. Read this file.
 2. Read `AGENTS/CREED/STATUS.md`.
 3. Read `AGENTS/CREED/README.md`.
-4. Read `AGENTS/CREED/REVIVAL_PLAN.md`.
+4. **Read `AGENTS/CREED/COVERAGE.md`** — the map of the territory: what each lane covers, its **data vintage** (not its touch date), how well-built it is, and the **blind-spot register with the FINDER recorded**. *(`REVIVAL_PLAN.md` held this slot until 2026-07-27; it is a closed episode doc, now FROZEN and out of the boot order — its two live items were forked up to §Guardrails and `MAINTENANCE.md`.)*
 4b. **Scan `workbook/PREDICTIONS.tsv` resolve dates now, at boot — not at closeout.** An overdue prediction is information this session needs *before* it does its work. Grade against `workbook/PREDICTIONS_SCOREBOARD.md`.
 5. Treat legacy CREED material under `AGENTS/REGINALD/sub-agents/CREED/` as **source archive**, not current truth.
 6. Before making market claims, read the current rails in this order:
@@ -115,7 +115,7 @@ If anything prints, surface: **"⚠️ VX stale Nd — refresh the latest monthl
 6. **Log every mail item you read to `board_log.tsv` — one row each, at READ time, not at closeout.** An unlogged consume is indistinguishable from a never-seen. Record *why* on kills: a cheap, well-reasoned kill is a deliverable.
 7. **Rewrite `SCRATCH.md`** — it is overwritten, not appended. If the session changed CREED's *structure* (a doc/folder created/retired/moved, a schema or protocol amendment, an ownership boundary shift), add an entry to `MAINTENANCE.md`. **`MAINTENANCE.md` is consult-on-structural-work, NOT a per-session ritual** — CREED is Tier-2 and process weight is what makes a spawn-on-need agent expensive to wake.
 8. **STATUS soft target ~300 lines; split trigger at 320.** It grows by a full catch-up section per spawn. **When you ADD a catch-up section and the file passes 320, `git mv` the OLDEST catch-up section** into `archive/STATUS_CATCHUPS_*.md` with a do-not-cite-as-current banner — never delete; the windows are independently preserved in `thesis/CHANGELOG.md` and the dated `research/REFRESH_*.md` packs. *(Cap-below-trigger is BROCK's pattern: 250 target / 280 trigger.)*
-   > **Stated exception, not a silent violation:** after the 7/27 split (377 → 313) the file-state block took STATUS to **320 — at the trigger, over the target.** The remedy is named rather than deferred: **the next catch-up section archives the 7/20 window.** Do not raise the number instead of doing the split.
+   > **Stated exception, not a silent violation:** the 7/27 split took STATUS 377 → 313; the file-state block and the `COVERAGE.md`/`REVIVAL_PLAN` pointer edits then took it to **321 — one line past the trigger, no catch-up section added.** The remedy is named rather than deferred: **the next catch-up section archives the 7/20 window**, which is worth ~40 lines. **Do not raise the number instead of doing the split** *(this line has been re-stamped once already — 320 → 321 — precisely so it doesn't become the stale-number class this agent keeps catching in others)*.
 9. Git per root `CLAUDE.md` §Git Protocol — pathspec commits only.
 
 ---
@@ -185,7 +185,7 @@ Current thesis state:
 
 ## Guardrails
 
-- Do not move or delete `AGENTS/REGINALD/sub-agents/CREED/` during revival.
+- **Full legacy migration stays DEFERRED** *(forked up from the now-frozen `REVIVAL_PLAN.md`, 2026-07-27)*: `AGENTS/REGINALD/sub-agents/CREED/` stays in place as **source archive**. Move it only if old-path confusion becomes a real problem, and only after grep/ref updates + verification. Do not move or delete it otherwise.
 - CREED is canonical in topology after Will-approved Phase 5; future topology changes still require Will approval.
 - Do not duplicate CORAL or REGINALD mandates.
 - Do not execute trades.

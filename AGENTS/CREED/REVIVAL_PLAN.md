@@ -1,3 +1,16 @@
+> # ⛔ FROZEN 2026-07-27 — THE REVIVAL IS DONE. This is a closed EPISODE doc, not a live surface.
+>
+> **Removed from the boot order the same day.** CREED has been operational for four sessions (6/28, 7/4, 7/20, 7/27); Phase 5 topology is installed, the workbook is built, and the mandate is live in `CLAUDE.md`. **Reading 165 lines at every boot about how to revive an already-revived agent is a recurring cost for a Tier-2 spawn-on-need agent** — which is the specific thing CREED cannot afford.
+>
+> **Do not cite rows below as current.** Canonical: `STATUS.md` > `thesis/THESIS.md` > `research/REFRESH_*.md` > `workbook/`. Kept **unedited** for the source trail.
+>
+> **The two genuinely-live items were FORKED UP to live surfaces so they are not buried in a closed episode** *(the discipline is LIQUID's — see `CATCHUP_PUNCHLIST.md`, which froze at ~85% and forked its 2 remaining items up rather than letting them die with the doc)*:
+>
+> 1. **Full legacy migration remains DEFERRED** — `AGENTS/REGINALD/sub-agents/CREED/` stays in place as source archive, moved only if old-path confusion becomes a real problem, and only with grep/ref updates first. → now carried in **`CLAUDE.md` §Guardrails** and **`MAINTENANCE.md`**.
+> 2. **The legacy-file inventory** (source-archive paths) → already duplicated in **`CLAUDE.md` §Source Archive** and **`STATUS.md` §Current File State**; this file is no longer the home for it.
+>
+> *Found in the Will-directed LIQUID/CORAL structure survey, 2026-07-27: an episode doc still sitting at boot-order step 4.*
+
 # CREED REVIVAL PLAN
 
 **Created:** 2026-06-21

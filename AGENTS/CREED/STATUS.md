@@ -210,7 +210,8 @@ Top-level CREED files:
 - `AGENTS/CREED/CLAUDE.md` — canonical boot instructions
 - `AGENTS/CREED/README.md` — current-vs-archive file index
 - `AGENTS/CREED/STATUS.md` — this file
-- `AGENTS/CREED/REVIVAL_PLAN.md` — phase plan / inventory
+- `AGENTS/CREED/COVERAGE.md` — **NEW 7/27.** The map of the territory: 12 lanes by **data vintage**, maturity grades, blind-spot register (**4 of 5 gaps were found by other agents**). Boot step 4.
+- ~~`AGENTS/CREED/REVIVAL_PLAN.md`~~ — ⛔ **FROZEN 7/27**, out of the boot order. A closed episode doc still being read at every wake; live items forked up to `CLAUDE.md` §Guardrails.
 - `AGENTS/CREED/SCRATCH.md` — **NEW 7/27.** Ephemeral session handoff, read first at boot, overwritten each closeout. **Lowest authority in the truth order.**
 - `AGENTS/CREED/board_log.tsv` — **NEW 7/27.** Every mail item read, with reasoned disposition, logged at READ time.
 - `AGENTS/CREED/MAINTENANCE.md` — **NEW 7/27.** Structural change log. Consult-on-structural-work, **not** a per-session ritual.
