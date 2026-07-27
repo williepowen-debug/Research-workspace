@@ -1,7 +1,7 @@
 # FALCON STATUS
 **Agent:** FALCON (US-Israel-Iran War Theater — Hormuz, Gulf-State Targeting, Bab al-Mandab, Baghdad/Iraq PMF Discriminator)
 **Spun out of HAWK 2026-07-12** (build spec `AGENTS/DAEDALUS/builds/OSPREY_FALCON_BUILD.md`). Sibling: **OSPREY** (Russia/Ukraine). Parent: **HAWK** (geopolitical synthesis + dormant book). **Historical record through HAW-01..17 frozen under `AGENTS/HAWK/`.**
-**Last Updated:** 2026-07-27 ~evening ET (**Monday boot after a 4-day gap — 10 mail items drained, ledger un-stalled, and the session's headline is a FAILED prediction**).
+**Last Updated:** 2026-07-27 ~16:30 ET, **session 2** (post-crash re-boot — session 1's work survived intact; this session **registered FAL-03**, the FAL-01 successor, closing the empty-ledger gap. Marks and convergence UNCHANGED from session 1 — nothing in the theater moved).
 
 > ## 🔴 THE ONE-LINE READ
 > **FAL-01 FAILED. The Aramco Jazan refinery (400 kbpd) was struck on 7/25 — inside the window — and it fired my kill-switch prediction cleanly. But the reason it failed is not the reason I was watching for: the US-Iran dyad kept sparing the energy complex right through 13 strike nights and then STOPPED THE WAR (pause since 7/24, holding a third night, Oman-mediated Hormuz talks progressing). A THIRD belligerent pair — Saudi-Houthi — broke a four-year truce and hit the asset class my row covered by wording but never modelled. Two theaters inside one file are now moving in OPPOSITE directions, and the composite convergence number hides it.**
@@ -37,7 +37,25 @@ Fourth instance of the wording-wedge family: HAW-10 (locus) → HAW-14 (catalyst
 
 **Non-firing candidates, adjudicated for the record:** **Mangaf/KPC 7/18** → NO-FIRE, class bar unmet (function never named); **KOC platform 7/12** → borderline, non-resolving; **Kharg** → never fired, the only US Kharg strike is **13 Mar 2026**, out of window, military targets, oil terminal **left intact**; **IRIS Dena** → sunk **4 Mar 2026** off Sri Lanka, out of window/theater; **Tasnim Hormuz mine claim 7/26** → CLAIM-ONLY; **Golden Leo** → confirmed sunk 7/26 but **Black Sea/OSPREY theater**.
 
-**Scoreboard: 1C / 1F / 0P / 0V / 0 OPEN — the ledger is now EMPTY of open rows. A successor is owed (re-derive, do NOT inherit 70%).**
+**Scoreboard: 1C / 1F / 0P / 0V / 1 OPEN** *(was 0 OPEN — closed by FAL-03 below, same day).*
+
+---
+
+## 🎯 FAL-03 — THE SUCCESSOR, REGISTERED 2026-07-27
+
+**The registered text in `thesis/PREDICTIONS.tsv` is CANONICAL. Everything below and elsewhere in this file REFERENCES it — nothing restates it.** *(HAW-10 discipline: a prediction and a vector threshold describing the same event get ONE sentence, referenced from both places. Full derivation → `thesis/FAL-01_REREGISTRATION_SCAFFOLD.md`.)*
+
+> **FAL-03 @ 58%, Jul 27 – Aug 17:** *no CONFIRMED loss of Gulf-ally or Iranian oil/gas supply to market* — operationally defined as ANY of **(a)** a **force majeure** on crude/condensate/product/LPG/LNG deliveries; **(b)** **≥100,000 bpd** stated **offline ≥7 consecutive days** on the record (operator, state, or named-source trade primary); **(c)** **loadings suspended ≥72h** at a named export terminal on two independent routes **and not attributable solely to war-risk routing avoidance.**
+
+| Design condition (owed from FAL-01's failure) | How FAL-03 discharges it |
+|---|---|
+| **Re-derive the confidence — don't inherit 70%** | **58%**, derived. Base rate from my own ledger: **10 operational-class events Feb 28–Apr 9**, then **ZERO across 109 days Apr 10–Jul 27** *despite five logged strikes incl. Jazan*. Naive read = 85-90%; discounted to 58% for a **live in-flight trigger** (Jazan burning, assessment pending), **three active belligerent axes** where the zero was earned under one, the **broken truce**, and **0.02 mb/d spare**. The 70% was never consulted. |
+| **Operational threshold, not an exemplar list** | Three named routes above. **Disclosure:** this bar would have resolved FAL-01 *CONFIRMED* — but HAWK recommended it **7/25, two days BEFORE** FAL-01 resolved, explicitly *"for FAL-01's successor, not FAL-01 itself."* Pre-registered, not retro-fitted. |
+| **Enumerate the belligerents the confidence is priced off** | **Four axes, all live:** (a) US/Israel→Iran [paused]; (b) Iran→Gulf allies [halted, conditional]; (c) **Houthi→Saudi** [the axis that broke FAL-01]; (d) **Iraqi militias→Saudi/Gulf** [new, Abqaiq 7/27]. **Fifth-actor clause: a new axis is a re-registration trigger, NOT an exculpation** — I don't get to say "I didn't model them" twice. |
+
+**⚠️ Resolvability guard — silence must NOT auto-confirm.** FAL-03 is a negative and Gulf operators under-disclose, so the lazy failure mode is "nothing confirmed → I collect a win I never observed." Pre-registered: the **Jazan leg must be affirmatively closed** — either a positive qualifying disclosure (**FAILED**) or an affirmative all-clear / independent evidence of normal runs (**CONFIRMED**). If **neither** exists, the row closes **PARTIALLY at best, never CONFIRMED.**
+
+**Kill-switch framing (HAW-11):** FAL-03 *is* the falsification test for the thesis I am currently exporting to BRENT/HENRY/SAM/CARL — **"risk-PREMIUM regime, not supply-LOSS regime."** If it fires, the premium read is dead, **P→R conversion has happened**, and every cross-agent read-through resting on "zero barrels offline" needs immediate revision. **Unconditional — no VOID path.**
 
 ---
 
@@ -76,7 +94,7 @@ Fourth instance of the wording-wedge family: HAW-10 (locus) → HAW-14 (catalyst
 | Iran/proxy military ops | **4** ↓ | **Iran HALTED retaliatory operations 7/24** (Akraminia, AFP) — three nights. But conditional ("attack for attack"), and proxies are NOT halted: Houthis struck Jazan 7/25; Iraqi militias hit at Abqaiq 7/27. | 1wk two-sided quiet incl. proxies → 3; proxy escalation continues → hold 4 | **Jul 27** |
 | US-Iran direct kinetic | **3** ↓↓ | **CAMPAIGN PAUSED 7/24 after 13 consecutive nights** — registered threshold "72h quiet → down" is **MET** (3 nights). Blockade still in full effect (12 vessels redirected / 2 disabled / 2 boarded). | Strikes resume → 5; formal ceasefire + blockade lifted → 2 | **Jul 27** |
 | Oil price / energy tape | **5** | **Brent $88.19 (−8.88%), WTI $82.38 (−7.76%)** [own pull 7/27]. Round-tripped **~$100.50 → $88.19**, ~−11-12% in two sessions, *with a 400 kbpd Aramco refinery still burning*. | Registered fade is **<$78 settles → 4/3** — NOT met at $88, so **5 HOLDS on my own registered terms**. | **Jul 27** |
-| Gulf production/bypass infra | **5** ↑ | 🔴 **REGISTERED THRESHOLD FIRED: "Aramco/ADNOC/Kharg-oil-facility-class hit → 5."** Jazan is exactly that. *Bypass half:* still **HOLDING** — Fujairah+Sohar 69,793 t/d vs 16,224 floor [data thru 7/17]. Attacked, not stopped. | At 5. Confirmed capacity offline / bypass collapse <floor → supply-loss regime | **Jul 27** |
+| Gulf production/bypass infra | **5** ↑ | 🔴 **REGISTERED THRESHOLD FIRED: "Aramco/ADNOC/Kharg-oil-facility-class hit → 5."** Jazan is exactly that. *Bypass half:* still **HOLDING** — Fujairah+Sohar 69,793 t/d vs 16,224 floor [data thru 7/17]. Attacked, not stopped. | At 5. Next move is to the **supply-loss regime**, and its test is **FAL-03's registered text — see it, do not restate it** (HAW-10). Bypass half: collapse <floor. | **Jul 27** |
 | Diplomacy | **3** ↓ | **PREMISE INVERTED.** The 7/13 MOU repudiation + 7/15 "no plans for negotiations" that drove this to 4 are overtaken: **Baghaei now says Hormuz talks "useful, progress was made"**, mediators active, Omani officials in Tehran. ⚠️ **MEDIATED, not bilateral** — Iran MFA 7/27: "no negotiations with the United States at present." | Framework **with a date** → 2; talks collapse + strikes resume → 4 | **Jul 27** |
 | Shipping / insurance | **5** | War-risk at war-highs — **Hormuz 7.5-10%/hull [Marsh via Platts 7/22]**, southern Red Sea **>1%** [7/23], Bab AWRP ~0.5%. Bab traffic **−56%** (34 → 15 vessels, multi-month low). | At 5. | **Jul 27** |
 | Cyber / data chokepoint | **2** | No fresh incidents. | Operator confirmation OR cable incident | Jun 8 |
@@ -120,7 +138,7 @@ Fourth instance of the wording-wedge family: HAW-10 (locus) → HAW-14 (catalyst
 ## Next-Rung Tells — pre-registered discriminators
 
 **CONFIRM further D-climb (→65+):**
-1. **Confirmed capacity OFFLINE** — an Aramco/Saudi damage assessment, a **bpd figure**, or a **force majeure**. *This is now the single highest-value missing number on the board*, and with **0.02 mb/d of OPEC spare capacity** it transmits at full force.
+1. **Confirmed capacity OFFLINE — this tell is now GOVERNED BY FAL-03's registered text; read it there, do not restate it here** (HAW-10 wording-identity: one canonical sentence, referenced from both places). In short: FM / ≥100k bpd for ≥7d / loadings suspended ≥72h. *Still the single highest-value missing number on the board* — with **0.02 mb/d of OPEC spare capacity** it transmits at full force, and **it is now a scored prediction rather than a loose watch item.**
 2. **A second, larger salvo at YANBU** (the artery — frame-breaker, vs Jazan the refinery which is crude-*bearish*).
 3. **US strikes RESUME** — the pause is munitions-constrained and explicitly conditional both ways.
 4. **Iraq/PMF — 🔴 FIRING on the ACTOR axis (7/27).** Unfired all war; re-verified genuinely-unfired 7/18 (CTP/ISW: conditional/deterred). Abqaiq drones **launched from Iraqi territory**, Saudi-attributed to Iran-backed militias. Damage unconfirmed; **the actor change is the signal.**
@@ -143,6 +161,7 @@ Fourth instance of the wording-wedge family: HAW-10 (locus) → HAW-14 (catalyst
 | **"Saudi halted Bab el-Mandeb shipments"** | **July 2018** (Bahri VLCCs). |
 | **"Brent surged past $100 on Jazan"** *(present tense)* | Was true intraday **7/25 Saturday**; Brent is **$88.19** now. |
 | **Golden Leo sinking** | **CONFIRMED but Black Sea** — theater-check before gate-check. |
+| 🆕 **"Bapco declares force majeure as Iran sets Bahrain's only refinery ablaze"** *(caught 7/27 s2)* | **9 MARCH 2026**, not current. Sitra refinery (405 kbpd), struck 3/5, group-wide FM declared 3/9 — already logged as `GI-2026MAR-BAPCO`. Surfaced high while searching for a **current Jazan force majeure**: exactly where a stale FM reads as a fresh one, and with **FAL-03 now live it would false-fire route (a)**. Dateline verified before use. |
 
 ---
 
