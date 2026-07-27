@@ -10,7 +10,17 @@ action: [SHADE, BROCK]
 info: [LIQUID, REGINALD, NEXUS, RED, PROME, HENRY]
 confidence: 0.88
 verdict: CONFIRMED-MULTIWIRE (Bloomberg Law original) / NO CHARGES FILED / ⚠️ 5-MONTH-OLD SUBPOENAS THE FLEET NEVER SAW
+status: PARTIALLY-CORRECTED
+status_ref: SIG-W-20260727-021
 ---
+
+> # ⚠️⚠️ CORRECTED 2026-07-27 — TWO RETRACTIONS. See [`SIG-W-20260727-021`](SIG-W-20260727-021-CORRECTION-delaware-life-12x-retracted-5.1x-on-the-filing-and-the-transmission-mechanism-claim-withdrawn.md).
+>
+> **① THE "~12×" / "$1.4B (3%) → $17B (39%)" HEADLINE DOES NOT RECONCILE TO THE FILING.** SHADE pulled the primary — **Form N-VPFS, filed 2026-06-29, accession `0001193125-26-286687`** (KPMG-audited statutory financials). The filed figures are **$2,261,658K → $11,558,601K = 5.1×** on the FY2024 correction-of-errors note, and **$17.24B = 37.6% of $45.90B GA assets** restated FY2025. **The $1.4B does not appear in the filing.** ⇒ **§1 below and the §-heading are media-vintage on the multiple — cite 5.1× or the $17.24B / 37.6% level instead. The END POINT survives; the MULTIPLE does not.**
+>
+> **② THE "CONFIRMED TRANSMISSION MECHANISM" CLAIM IS WITHDRAWN (§3 below).** SHADE dissents and BROCK adopts it: **`SIG-W-20260720-001` is a THIRD-PARTY WRAP mechanism; this is a DIRECT AFFILIATE HOLDING plus a classification failure.** Same domain, **different mechanisms.** ⇒ **🔴 the wrapped-PC tripwires stay 0-of-4 and `SIG-720-001` STAYS PRE-MORTEM.** §3 must not be cited as moving it off pre-mortem.
+>
+> **③ WHAT IS UNAFFECTED AND STILL STANDS:** §1's subpoenas + parallel SEC probe · §2's "no charges filed" · §4's five-month intake failure · the ~$9B mis-statement itself, which is now **primary-verified rather than media-relayed.** **Also carry forward two guards from the filing: no write-down was taken and surplus was NOT restated (a DISCLOSURE correction, not a credit-loss event — must not enter any default/mark series), and the statutory audit opinion is UNMODIFIED (the "Adverse Opinion on U.S. GAAP" inside it is boilerplate in every statutory-basis insurance audit).**
 
 # 🔴 FEDERAL GRAND JURY SUBPOENAS + a parallel SEC probe into TWO Mark Walter insurers over UNDISCLOSED RELATED-PARTY private credit — and the internal review restated affiliate-linked holdings from $1.4B (3% of invested assets) to at least $17B (39%). **This is the confirmed transmission mechanism `SIG-W-20260720-001` said did not yet exist.**
 
@@ -22,7 +32,8 @@ verdict: CONFIRMED-MULTIWIRE (Bloomberg Law original) / NO CHARGES FILED / ⚠�
 
 **🔑 THE NUMBER THAT MATTERS — and it is the insurers' own restatement, not an allegation:** after the subpoenas, both companies ran internal reviews, **found "errors" in financial reporting**, and disclosed they were **far more intertwined with other Walter businesses than previously known.** **Delaware Life alone disclosed an ADDITIONAL $16B of private-credit assets linked to affiliates.** The restatement took total related-party investments as of Dec 31 **from $1.4B (3% of total invested assets) to at least $17B (39%).**
 
-**A 3% → 39% related-party restatement is a ~12× revision on the single disclosure that tells a regulator, a policyholder, or a counterparty how independent an insurer's asset side actually is.**
+~~**A 3% → 39% related-party restatement is a ~12× revision on the single disclosure that tells a regulator, a policyholder, or a counterparty how independent an insurer's asset side actually is.**~~
+> ⚠️ **STRUCK 7/27 (`SIG-W-20260727-021`)** — the $1.4B / 3% starting point is not in the filing, so the multiple is unreconciled. **The filed figures are 5.1× (FY2024 correction-of-errors note) and $17.24B = 37.6% of GA assets (FY2025 restated).** The point the sentence was making survives on the *level*; only the *multiple* is retracted.
 
 **Sources:** Bloomberg Law (original, ~7/21-22) · Insurance Journal 7/21 · Claims Journal 7/22 · Insurance Business · Life Insurance International · Yahoo Finance · beinsure · ZeroHedge. Surfaced to WALTER via @agranato42 (Andrew Granato, 7/25) — **the same author as `SIG-W-20260725-004`** (guaranty-fund assessments → state tax revenue).
 
@@ -32,7 +43,9 @@ verdict: CONFIRMED-MULTIWIRE (Bloomberg Law original) / NO CHARGES FILED / ⚠�
 
 **The restatement, however, is NOT an allegation — it is the companies' own disclosure, and it stands independently of whether any charge is ever brought.** That separation is the whole value of this signal: **you can discount the criminal outcome entirely and the 3%→39% number is still true.**
 
-## 3. 🔑 WHY THIS IS THE SIGNAL — it moves a live thesis off pre-mortem
+## 3. ~~🔑 WHY THIS IS THE SIGNAL — it moves a live thesis off pre-mortem~~ ⚠️ **SECTION RETRACTED 7/27**
+
+> 🔴 **THIS SECTION'S CENTRAL CLAIM IS WITHDRAWN (`SIG-W-20260727-021`).** SHADE's mechanism distinction, adopted by BROCK and accepted by WALTER: **`SIG-720-001` is a THIRD-PARTY WRAP mechanism (external structure, rating-via-wrap); this is a DIRECT AFFILIATE HOLDING plus a classification failure.** Same domain, **different mechanisms** — a named instance of one does not confirm the other. **⇒ the wrapped-PC tripwires stay 0-of-4 and `SIG-720-001` STAYS PRE-MORTEM. Do not cite this section as moving it.** *(The SHADE↔VULCAN-join observation in the last paragraph is unaffected — a $17B affiliate-linked private-credit book inside a $69B life insurer still sits on that seam.)*
 
 **`SIG-W-20260720-001`** (UBS/Nationwide insurance-wrapped private credit → SHADE+BROCK dual-action) was graded, after a Will-approved 103-agent deep-research run, as: *"novel + real wave, but a **pre-mortem** — **no confirmed transmission mechanism**, zero wrapped-structure stress yet."*
 
