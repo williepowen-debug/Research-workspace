@@ -1,0 +1,30 @@
+---
+name: finding_threshold_level_is_a_measurement_not_a_constant
+description: "A threshold written as a NUMBER but defined against a MOVING quantity (a gamma flip, a fair-value line, a rolling percentile) silently decays into a stale reference — and comparing today's spot to yesterday's level manufactures a false sense of margin. Re-measure the anchor before grading distance-to-trigger, and state on the threshold whether the number is FROZEN or TRACKED."
+metadata:
+  node_type: memory
+  type: finding
+---
+
+**2026-07-27.** VIOLET registered a stand-down on a live VIX position: *"SPX closes above ~7,496 → gamma gate falsified → NO-GO."* The **7,496** was the measured gamma-flip level on 7/23, and the flip had been pinned in a 7,473–7,516 band for two weeks — which is exactly why it felt like a constant.
+
+PROME and VIOLET both then reported SPX as **−102pts below the flip, "deeper than the −88 at registration"**, and I relayed that to the operator as reassurance that the gate was holding comfortably.
+
+**It was a stale-flip artifact.** HENRY re-measured at PROME's request: the flip had **migrated DOWN ~45pts** (independent median 7,498 → 7,453) and the two-week pin had **broken to the downside**. Spot had barely moved (−11pts); the *anchor* came to spot. True gap: **−79pts (HENRY) / −56pts (independent median) — SHALLOWER than at registration, not deeper.** The margin was about a third smaller than reported, in the direction that flattered the position.
+
+**Why it was load-bearing, not pedantry:** the estimator was **sign-only robust** — the sign is trustworthy *because* the margin exceeds the estimator's uncertainty, and near the anchor it cannot adjudicate at all. That margin fell ~90 → ~56pts, putting the anchor inside a single event-day range of spot. A "comfortable" reading and a "one bad session away" reading differed entirely on which anchor you used.
+
+**The general shape.** Thresholds come in two kinds and they look identical on the page:
+- **FROZEN** — the number *is* the threshold (`$500 max loss`, `HY OAS >280`, `5 consecutive closes ≥4.50`). Never move it; that is the whole discipline.
+- **TRACKED** — the number is a *measurement* of something that moves (gamma flip, fair-value spread, rolling percentile, forward level, put wall). Carrying it forward without re-measuring is not discipline, it is a stale instrument.
+
+Treating a TRACKED threshold as FROZEN produces confident, precise, wrong distance-to-trigger numbers — and it fails **silently**, because nothing looks broken.
+
+**Same session, same class, different surface:** a cooldown gate whose ratio-p90 was **re-derived live** had drifted 2.89 → 3.32 as three weeks of crisis readings entered its 3-year sample. There the correct answer was the opposite — **use the frozen number, the live percentile FALSE-FIRES**. Two thresholds, two opposite correct treatments, and only reading the spec tells you which is which.
+
+**How to apply:**
+1. **State the kind on the threshold itself.** Write `FROZEN` or `TRACKED (last measured <date>)` next to it. A bare "~7,496" with a tilde signals estimate to its author and reads as a constant to everyone else.
+2. **Re-measure the anchor before grading distance-to-trigger**, not just spot. "Spot vs last-known-anchor" is a comparison across two dates pretending to be one.
+3. **Refreshing a TRACKED anchor is not moving a goalpost** — but say so explicitly, and note the direction. Here the refresh made the kill *easier* to trigger (conservative).
+4. **Don't refresh someone else's live threshold while they're offline.** Annotate the reviewing surface with the fresh measurement instead, and leave the threshold to its owner — that keeps both the frozen-terms discipline and the fresh data.
+5. Sibling of `[[finding_threshold_spec_fails_before_world]]` and of the same-session instrument-basis defect (a guard written on SPOT while the position settles on the FORWARD): **thresholds fail on their SPEC — which quantity, which instrument, frozen or tracked — long before they fail on the world.**
