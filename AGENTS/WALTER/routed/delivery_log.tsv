@@ -981,12 +981,12 @@ timestamp_routed	signal_id	recipient	role	recipient_platform	precedence	handoff_
 2026-07-27T12:05:00Z	SIG-W-20260727-001	LIQUID	info	CC	IMMEDIATE	AGENTS/LIQUID/inbox/WALTER/SIG-W-20260727-001.md	delivered	Iran anchor re-stamp 7/27; RED pull-complete skipped per 3.5
 2026-07-27T12:05:00Z	SIG-W-20260727-001	TERRY	info	CC	IMMEDIATE	AGENTS/TERRY/inbox/WALTER/SIG-W-20260727-001.md	delivered	Iran anchor re-stamp 7/27; RED pull-complete skipped per 3.5
 2026-07-27T12:05:00Z	SIG-W-20260727-001	PROME	info	CC	IMMEDIATE	PROME/inbox/2026-07-27_from-WALTER_SIG-W-20260727-001.md	delivered	Iran anchor re-stamp 7/27; RED pull-complete skipped per 3.5
-2026-07-27T12:40:00Z	SIG-W-20260727-002	REGINALD	action	CC	PRIORITY	AGENTS/REGINALD/inbox/WALTER/SIG-W-20260727-002.md	written_not_delivered_pending_push	OTTO packet routed; CARL pull-complete skipped per 3.5
-2026-07-27T12:40:00Z	SIG-W-20260727-002	LIQUID	info	CC	PRIORITY	AGENTS/LIQUID/inbox/WALTER/SIG-W-20260727-002.md	written_not_delivered_pending_push	OTTO packet routed; CARL pull-complete skipped per 3.5
-2026-07-27T12:40:00Z	SIG-W-20260727-002	BROCK	info	CC	PRIORITY	AGENTS/BROCK/inbox/WALTER/SIG-W-20260727-002.md	written_not_delivered_pending_push	OTTO packet routed; CARL pull-complete skipped per 3.5
-2026-07-27T12:40:00Z	SIG-W-20260727-002	PROME	info	CC	PRIORITY	PROME/inbox/2026-07-27_from-WALTER_SIG-W-20260727-002.md	written_not_delivered_pending_push	OTTO packet routed; CARL pull-complete skipped per 3.5
-2026-07-27T12:40:00Z	SIG-W-20260727-003	REGINALD	info	CC	PRIORITY	AGENTS/REGINALD/inbox/WALTER/SIG-W-20260727-003.md	written_not_delivered_pending_push	OTTO packet routed; CARL pull-complete skipped per 3.5
-2026-07-27T12:40:00Z	SIG-W-20260727-003	NEXUS	info	CC	PRIORITY	AGENTS/NEXUS/inbox/WALTER/SIG-W-20260727-003.md	written_not_delivered_pending_push	OTTO packet routed; CARL pull-complete skipped per 3.5
-2026-07-27T12:40:00Z	SIG-W-20260727-003	BROCK	info	CC	PRIORITY	AGENTS/BROCK/inbox/WALTER/SIG-W-20260727-003.md	written_not_delivered_pending_push	OTTO packet routed; CARL pull-complete skipped per 3.5
-2026-07-27T12:40:00Z	SIG-W-20260727-003	HENRY	info	CC	PRIORITY	AGENTS/HENRY/inbox/WALTER/SIG-W-20260727-003.md	written_not_delivered_pending_push	OTTO packet routed; CARL pull-complete skipped per 3.5
-2026-07-27T12:40:00Z	SIG-W-20260727-003	PROME	info	CC	PRIORITY	PROME/inbox/2026-07-27_from-WALTER_SIG-W-20260727-003.md	written_not_delivered_pending_push	OTTO packet routed; CARL pull-complete skipped per 3.5
+2026-07-27T12:40:00Z	SIG-W-20260727-002	REGINALD	action	CC	PRIORITY	AGENTS/REGINALD/inbox/WALTER/SIG-W-20260727-002.md	delivered	OTTO packet routed; CARL pull-complete skipped per 3.5
+2026-07-27T12:40:00Z	SIG-W-20260727-002	LIQUID	info	CC	PRIORITY	AGENTS/LIQUID/inbox/WALTER/SIG-W-20260727-002.md	delivered	OTTO packet routed; CARL pull-complete skipped per 3.5
+2026-07-27T12:40:00Z	SIG-W-20260727-002	BROCK	info	CC	PRIORITY	AGENTS/BROCK/inbox/WALTER/SIG-W-20260727-002.md	delivered	OTTO packet routed; CARL pull-complete skipped per 3.5
+2026-07-27T12:40:00Z	SIG-W-20260727-002	PROME	info	CC	PRIORITY	PROME/inbox/2026-07-27_from-WALTER_SIG-W-20260727-002.md	delivered	OTTO packet routed; CARL pull-complete skipped per 3.5
+2026-07-27T12:40:00Z	SIG-W-20260727-003	REGINALD	info	CC	PRIORITY	AGENTS/REGINALD/inbox/WALTER/SIG-W-20260727-003.md	delivered	OTTO packet routed; CARL pull-complete skipped per 3.5
+2026-07-27T12:40:00Z	SIG-W-20260727-003	NEXUS	info	CC	PRIORITY	AGENTS/NEXUS/inbox/WALTER/SIG-W-20260727-003.md	delivered	OTTO packet routed; CARL pull-complete skipped per 3.5
+2026-07-27T12:40:00Z	SIG-W-20260727-003	BROCK	info	CC	PRIORITY	AGENTS/BROCK/inbox/WALTER/SIG-W-20260727-003.md	delivered	OTTO packet routed; CARL pull-complete skipped per 3.5
+2026-07-27T12:40:00Z	SIG-W-20260727-003	HENRY	info	CC	PRIORITY	AGENTS/HENRY/inbox/WALTER/SIG-W-20260727-003.md	delivered	OTTO packet routed; CARL pull-complete skipped per 3.5
+2026-07-27T12:40:00Z	SIG-W-20260727-003	PROME	info	CC	PRIORITY	PROME/inbox/2026-07-27_from-WALTER_SIG-W-20260727-003.md	delivered	OTTO packet routed; CARL pull-complete skipped per 3.5
