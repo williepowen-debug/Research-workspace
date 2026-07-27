@@ -69,6 +69,27 @@ This deepens the **one-Mideast-bet**. The shared falsifier is a **Hormuz de-esca
 - **Survives de-escalation:** TRY-FIRE-004's **real-yield / term-premium leg** — NEXUS/RED grade it independent of oil (10Y held ≥4.50 *through* a deflationary June print). So the ~$1,150 duration grind is only **partially** shared.
 - **Aggregate Mideast-de-escalation-falsifiable oil cluster = USO shares + this $200 tail** (small, defined-risk). Total thesis-adjacent exposure with the rates grind ≈ **$1,350**, but do not double-count 004's surviving real-yield leg as "shared." **This card is the smallest, most defined-risk leg of the cluster and the only one built to pay off ON the strand path the others miss.**
 
+> ### 🔒 ANTECEDENT GATE — the shared falsifier CANNOT grade as fired on price action alone
+> **Added 2026-07-27 (BRENT recommendation, PROME endorsed) after the book came within one relay of walking into exactly this trap.**
+>
+> **The defect:** the falsifier's **antecedent** is *"fast Hormuz de-escalation."* Its **observable legs** are *"oil retraces AND bonds rally."* Anyone grading off the **legs** without first establishing the **antecedent** reads an ordinary premium unwind as a fired falsifier — and de-risks the whole book on it.
+>
+> **This is not hypothetical. It nearly happened on 2026-07-27:** Brent fell **−6.8%** and TLT rallied on a *two-night pause* in the US-Iran strike campaign. Both legs "fired." The coordinator relayed it to Will as *"splitting, oil leg firing."* **BRENT ruled that categorically wrong — the antecedent never happened:** Hormuz still closed, transits still down ~17%, naval blockade still in effect, no deal, no signature. A suspension is not a de-escalation.
+>
+> **The gate, binding on this card and on every leg of the shared-falsifier cluster:**
+>
+> > **The Hormuz-de-escalation falsifier may NOT be graded as fired unless ≥1 PHYSICAL de-escalation leg confirms FIRST:**
+> > 1. **Transits sustained >~35/day** (not a single print — sustained)
+> > 2. **War-risk premium halves**
+> > 3. **P&I / war-risk resumption notice** issued
+> > 4. **Signature or sovereign action** (Muscat/Article-5 mechanism actually executes)
+> >
+> > **Price action alone must NEVER trigger it.** Oil down + bonds up, with no physical leg confirmed, is a **premium unwind** — which is *reversible* and is precisely what this card is built to survive. Grading it as the falsifier inverts the card into selling the strand path at its cheapest.
+>
+> **Why this belongs on the CARD and not just in a memo:** the falsifier is what a future session grades *under time pressure*, often without re-reading the thesis. The legs are the observable part, so the legs are what get graded. Naming the antecedent as a **hard precondition** is the only form that survives a fast read. *(Full reasoning: `AGENTS/BRENT/outbox/2026-07-27_to-PROME_oil-collapse-adjudication.md`.)*
+>
+> **Scope:** this gate governs the *de-escalation* falsifier only. The card's own **kill line** (confirmed resumption of Kharg loadings to normal) is a **physical** observable and is unaffected — it was already correctly specified.
+
 ### Alternatives rejected (named once)
 Naked calls (vol tax) · shares (no convexity, already held) · long-dated calls (wrong tenor) · Hormuz-transit-anchored trigger (86.6% base rate, transit≠volume) · pre-buy now (Will chose pre-build; the $87/OVX-61 tape is a chase per BRENT's valid vol-rich argument).
 
