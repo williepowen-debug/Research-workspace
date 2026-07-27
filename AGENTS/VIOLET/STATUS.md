@@ -22,7 +22,7 @@
 
 **(iv) is NOT MEASURED, and I verified that at three paths rather than assuming it.** yfinance daily bar returns `nan` for ^SKEW on 7/27; the batch download shows last value 7/24; and **CBOE's own delayed-quote feed returns `last_trade_time 2026-07-24T17:00:44`** while ^VIX on the same call returns a 7/27 timestamp. **This is a genuine T+1 publication lag, not a tooling failure** — it should print tomorrow. Report it as *not measured*, never as "not tripped."
 
-**(v) is DISCHARGED — and boot.py would have answered it wrong.** boot's credit gate served a **cached** FRED vintage at [7/23]; `--force` immediately returned [7/24] for all 11 series. Grading off boot alone would have re-reported 9.91 and retired the carry-forward on stale data (KB-VIO-133). **Independently corroborated to the basis point by WALTER's own FRED primary pull** (SIG-016: HY 279 / CCC 996 / BB 168 / B 296).
+**(v) is DISCHARGED — and boot.py would have answered it wrong, until it was fixed.** boot's credit gate served a **cached** FRED vintage at [7/23]; `--force` immediately returned [7/24] for all 11 series. Grading off boot alone would have re-reported 9.91 and retired the carry-forward on stale data (KB-VIO-133). **Independently corroborated to the basis point by WALTER's own FRED primary pull** (SIG-016: HY 279 / CCC 996 / BB 168 / B 296). **✅ Defect FIXED same session** — the freshness test now targets the previous US *business* day instead of a flat 4-calendar-day window; boot reports **9.96 [7/24]** unforced. **boot's credit line is trustworthy again.**
 
 **(iii) remains the primary thesis-kill.** It is the *entire* differential vs the 0-for-5 absorption record — every prior absorption happened under **LONG**-gamma dealers. SPX has not closed above the flip since 7/22 (7,498.96). But note the direction honestly: the gap narrowed from −102.9pts at midday to −82.8pts at the close, i.e. **inside the −88pts at registration.**
 
@@ -142,7 +142,7 @@
 |----------|-------|--------|
 | 🔴 | **FOMC 7/29 2:00 PM ET + Warsh presser 2:30 — final KB-VIO-123 grade (Stale_By 7/30), SETTLE basis.** Must state **which reading of confirm-1** the grade rests on (level vs mechanism, KB-VIO-132). **Mandatory 7/30 position review regardless of P/L.** | LIVE. |
 | 🔴 | **Pull SKEW at the first 7/27 print (should land 7/28 AM)** — stand-down (iv) has now been ungradeable for two consecutive sessions. | CARRIED, verified-blocked. |
-| 🟠 | **Fix KB-VIO-133** — boot.py credit gate must `--force` or age-check the FRED cache. Until then boot's credit line is ADVISORY only. | NEW 7/27, open. |
+| ✅ | ~~**Fix KB-VIO-133** — boot's credit gate served a stale FRED vintage~~ — **FIXED 7/27 same session.** Root cause was not a missing `--force`: the freshness check used a flat 4-**calendar**-day tolerance, which on a Monday reaches back to Thursday. Replaced with the previous US **business** day (`CustomBusinessDay` + federal holiday calendar). boot now prints **CCC 9.96 [7/24]** unforced. | DONE. |
 | 🟠 | **Backfill the 7 historical Monday M1:M2 gaps** (6/8, 6/15, 6/22, 6/29, 7/6, 7/13, 7/20) via `backfill.py` — the KB-VIO-130 fix is forward-only. | NEW 7/27, open. |
 | 🟠 | **KB-VIO-127 Karsan call — score by Fri 7/31** (HIT = VIX≥23 touch or >20 settle-and-hold). Base case: miss; episode high 20.31. | Registered. |
 | 🟠 | **VULCAN-09:** do ≥2 of MSFT/META/AMZN fall on capex raises 7/29-30? **The reaction function is now demonstrated** (GOOGL/TSLA 7/23, Mag-7 −4.8%) — the test is whether it repeats. | Sharpened 7/27. |

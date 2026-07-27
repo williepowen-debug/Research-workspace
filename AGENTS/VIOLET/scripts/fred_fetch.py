@@ -19,12 +19,43 @@ from pathlib import Path
 
 import pandas as pd
 import requests
+from pandas.tseries.holiday import USFederalHolidayCalendar
+from pandas.tseries.offsets import CustomBusinessDay
 
 CACHE_DIR = Path(__file__).resolve().parent.parent / "workbook" / "fred_cache"
 
-# Freshness tolerance: cache is "fresh enough" if its last row is within this
-# many calendar days of the requested end (covers weekends + FRED's T+1 lag).
-FRESH_TOLERANCE_DAYS = 4
+# Freshness is a BUSINESS-DAY question, not a calendar-day one (KB-VIO-133).
+#
+# The old rule was a flat `FRESH_TOLERANCE_DAYS = 4` calendar-day window, which
+# failed in exactly the case that matters most: on Monday 2026-07-27 it computed
+# fresh_through = 07-23, and the cache's newest row was *exactly* 07-23 — so it
+# passed the test and served stale data while Friday 07-24 sat unfetched at FRED
+# for all 11 series. boot.py then printed a Bin-A credit verdict stamped [07-23]
+# and the whole session's top carry-forward ("re-pull the credit gate live")
+# would have been discharged against a value one full session out of date.
+#
+# The correct question is: what is the newest observation that COULD exist right
+# now? ICE BofA OAS series publish at T+1, so it is the previous US business day.
+# Deriving that from a business-day calendar handles weekends and holidays by
+# construction instead of approximating them with a fudge constant.
+_US_BDAY = CustomBusinessDay(calendar=USFederalHolidayCalendar())
+
+# Deliberately NO refetch throttle. The obvious guard — "skip if the cache file
+# was written < N minutes ago" — trusts FILE MTIME as a proxy for "we already
+# tried", and in this repo that proxy lies: fred_cache/*.csv are committed and
+# git-synced across two machines, so a `git pull` stamps a STALE file with a
+# CURRENT mtime. On a desktop→laptop switch the throttle would then suppress the
+# refetch of genuinely out-of-date data — reintroducing KB-VIO-133 by a new
+# route. It is the same disease as the original bug: trusting a proxy instead of
+# the quantity you actually care about.
+# The throttle also guarded a problem that does not exist here: boot.py invokes
+# this once per session (11 series, ~0.4s), not on a timer, so there is no loop
+# to amplify. Correctness beats a saved HTTP call.
+
+
+def _expected_latest_obs(end: str | date) -> pd.Timestamp:
+    """Newest observation FRED could hold as of `end`, given the T+1 lag."""
+    return (pd.Timestamp(end) - _US_BDAY).normalize()
 
 
 def _cache_path(series_id: str, start: str) -> Path:
@@ -48,14 +79,15 @@ def fetch_series(
     if cache_file.exists() and not force:
         cached = pd.read_csv(cache_file, parse_dates=["DATE"], index_col="DATE")
         if not cached.empty:
-            fresh_through = pd.Timestamp(end) - pd.Timedelta(days=FRESH_TOLERANCE_DAYS)
-            if cached.index.max() >= fresh_through:
+            expected = _expected_latest_obs(end)
+            if cached.index.max() >= expected:
                 print(f"[FRED] {series_id}: {len(cached)} rows (cached, "
                       f"latest {cached.index.max().date()})")
                 return cached
+
             # stale → fall through and re-fetch, then merge
             print(f"[FRED] {series_id}: cache stale "
-                  f"(latest {cached.index.max().date()} < {fresh_through.date()}), refetching")
+                  f"(latest {cached.index.max().date()} < expected {expected.date()}), refetching")
 
     url = (
         f"https://fred.stlouisfed.org/graph/fredgraph.csv"
