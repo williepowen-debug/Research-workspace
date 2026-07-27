@@ -1,0 +1,29 @@
+---
+name: finding_standing_guard_is_a_false_negative_risk
+description: "A standing guard against a known false-positive is itself a false-NEGATIVE risk — resolve on independent evidence, not on the guard; and grade the load-bearing claim separately from the event."
+metadata: 
+  node_type: memory
+  type: feedback
+  originSessionId: 3c210a4b-b04e-49b8-a5fd-862bfb269f64
+  modified: 2026-07-27T23:20:55.301Z
+---
+
+**A standing guard against a specific false positive is EXACTLY what will wave away the real event when it finally happens. Resolve on INDEPENDENT evidence — live tape, an official statement, a primary instrument — never on the guard.**
+
+**The instance (WALTER, 2026-07-27).** The Iran anchor carried a standing guard for weeks: *"the 2019 Abqaiq/Khurais trap is the highest false-magnitude risk in circulation"* — because any search for "Houthi hits Aramco" surfaces the Sept-2019 attack (5.7 mb/d offline, the largest supply disruption in history) with a catastrophic number attached.
+
+Then an *"Abqaiq struck, four of six spheroids destroyed, Aramco fully halted, **7 mb/d offline**"* claim went wide on OSINT with **zero tier-1 wire coverage** — and one commentator explicitly called it *"a near perfect reenactment of the 2019 attack"* while posting an image stamped **15 Sep 19**. **Every instinct the guard had trained said "this is the trap."**
+
+It was resolved instead on evidence independent of anything previously written: the **live tape** (Brent −9.40% through the settle; in 2019 the same facility gapped Brent ~15-20% in one session) and an **official Saudi MoD statement**. **That was the right method — and the guard, followed on its own, would have produced a confident dismissal.**
+
+**🔑 THE SECOND HALF, which is where the actual error was.** The refutation was **right on the load-bearing claim** ("7 mb/d halted" — still unconfirmed, no Aramco statement, no force majeure, no wire) and **too strong on the event.** Forty minutes later a **NASA FIRMS primary pull** (six MODIS hotspots at Abqaiq's exact coordinates, FRP to 299 MW, confidence 100, night pass) confirmed **a real strike and a real fire.**
+
+**The specific mistake: over-reading ONE authority statement as dispositive of MORE THAN IT ADDRESSED.** "Air defence intercepted drones" does **not** mean *no* drone got through, and a stabilization plant shuts down and flares either way — **the interception statement and a real fire were never contradictory, and they had been treated as such.**
+
+**⇒ TWO RULES:**
+1. **When you hold a guard against a specific false positive, resolve the live case on independent evidence, not on the guard.** The guard tells you *what to check*, never *what is true*.
+2. **Grade the LOAD-BEARING CLAIM and the EVENT SEPARATELY, and say so explicitly.** *"The halt claim is false"* and *"nothing happened"* are different sentences, and a reader will take the second from the first unless you forbid it in writing.
+
+**Corollary on instruments:** a thermal signature is not a damage measurement. The resolution was in the reporting all along — *"VIIRS from the 27th pass put it at a **70MW fire**, and **100MW+ flaring** at multiple sites"* — fire and flaring measured separately, flaring larger, and the operator had **deliberately begun** emergency flaring. **At any plant that flares, the biggest number on the screen may be the safety system working.** Compare against the *emergency* baseline, not the *routine* one.
+
+Related: [[finding_theater_check_before_gate_check]] · [[finding_analogue_asset_class_must_match]] · [[feedback_single_source_liveevent_is_a_lead]] · [[finding_relayed_level_predates_the_event]]
