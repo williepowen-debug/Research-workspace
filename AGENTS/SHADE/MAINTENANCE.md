@@ -60,3 +60,14 @@ Structural-change log for SHADE architecture: docs/scripts/protocol/schema chang
 - **Files touched:** `STATUS.md`, `archive/STATUS_2026-03-26_pre_refresh.md`, `research/STATUS_REFRESH_PHASE1_MAP_2026-06-15.md`, `research/STATUS_DRAFT_2026-06-15.md`, `research/STATUS_REFRESH_PHASE3_SOURCES_2026-06-15.md`, `SCRATCH.md`, `MEMORY.md`, `memory/2026-06-15.md`.
 - **Key architecture result:** SHADE now separates BROCK-owned fund stress, LIQUID-owned broad credit/funding confirmation, REGINALD-owned bank/NDFI transmission, and SHADE-owned insurer-wrapper mechanisms.
 - **New audit target:** AMAPS/MAPS-type structured-credit wrappers became the named watch item after Apollo/Athene source refresh.
+
+## 2026-07-27 (session 2 — post-crash re-boot + Weld 2 build)
+
+- **CREATED** `research/COMBINED_INSURER_SINK_WELD2_2026-07-27.md` — PROME cross-read Weld 2 deliverable (combined insurer-sink). Verdict: not a triple-decker; sink cannot be sized. Closes the Weld-2 ask; STATUS §8 Q9 re-marked BUILT/CLOSED.
+- **STATUS §6** — two new dated-falsifier rows (Athene Q2-26 mortgage-loan line ~Aug; MBA Q2-26 CM/MF print ~mid-Sept, carrying the `PRED-006` spec problem). Replaces the single provisional MBA row added earlier the same day.
+- **STATUS §8** — numbering collision fixed: the Weld-2 item briefly produced two `10.` entries; superseded original folded into item 9.
+- **STATUS §0d** — added the vector-#1 scoring rule (disclosure quality + price discovery, not affiliation) and the BROCK crossed-in-flight convergences.
+- **MEMORY.md** — 3 new forensic-discipline lessons (§2.8 landing-entity gap; allocation discretion as the unifying mechanism; insurer-flow seasonality).
+- **Auto-memory** — new `finding_seasonal_trough_baseline_resolves_true_on_normal` + index line. Index compacted 21.6KB → 16.9KB at hook request (truncated annotation fragments stripped; **all 304 pre-existing entries verified preserved** by slug-set assertion).
+- **Mail** — 3 packets that landed after the 14:15 drain logged + `git mv`'d to `processed/`; both lanes clean.
+- **Outbound** — 2 self-authored packets (CREED `PRED-006` re-spec, time-sensitive; PROME Weld-2 delivery) under root CLAUDE.md carve-out ①.
