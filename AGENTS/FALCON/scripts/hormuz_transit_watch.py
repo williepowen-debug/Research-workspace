@@ -40,7 +40,22 @@ from pathlib import Path
 BASE = ("https://services9.arcgis.com/weJ1QsnbMYJlCHdG/ArcGIS/rest/services/"
         "Daily_Chokepoints_Data/FeatureServer/0/query")
 CHOKEPOINT = "chokepoint6"          # Strait of Hormuz
-BASELINE = 88                        # PortWatch pre-crisis transits/day
+# BASELINE provenance PINNED 2026-07-27 (closes KB-FALCON-019, resolution KB-FALCON-055).
+# 88 = the TRAILING-12-MONTH PRE-WAR *MEDIAN* of this very series: window 2025-02-28..2026-02-27,
+# n=365, mean 90.7 / median 88.0 total vessels/day. Computed from this same FeatureServer
+# (2757 daily rows 2019-01-01..2026-07-19; NOTE the server caps at 1000 rows — paginate with
+# resultOffset or you silently get 2019-2021 only). Corroborated at CRS/Britannica/Statista:
+# "peacetime throughput averaged roughly 88 commercial vessels per day, per IMF PortWatch";
+# "over 30,000 vessels/year" = 82/day. Annual means for context: 2019 74.3 · 2021 90.8 ·
+# 2023 97.8 · 2024 96.1 · 2025 91.5 · 2026 pre-war 80.5.
+# ⚠️ THE TWO RIVAL BASELINES ARE RECONCILED, NOT REJECTED:
+#   97/day (Hormuz Strait Monitor) ≈ the CY2023 MEAN of THIS SAME SERIES (97.8) — a VINTAGE
+#     difference, not a methodology one; traffic genuinely ran ~10% higher in 2023.
+#   ~130-140/day = the UPPER END OF THE DAILY RANGE, *NOT* a mean. No annual mean in 7.5 years
+#     approaches 140 (max annual mean = 97.8) though single days reach 152-157. Quoting 130-140
+#     as "the baseline" is a range-max-as-average error — it is what made a 17% print look like 11%.
+# DISCIPLINE (unchanged, now better founded): cite "15/88" inline, never a bare %, never blend series.
+BASELINE = 88                        # TTM pre-war median, PortWatch — see provenance block above
 FRESH_LEG_BAR = 18                   # <=18/day = countable fresh leg (row 2)
 STALE_DAYS = 10                      # dataset lag alarm (normal lag ~5-8d)
 STATE_PATH = Path(__file__).resolve().parent / "hormuz_transit_watch_state.json"

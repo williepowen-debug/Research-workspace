@@ -36,7 +36,9 @@
 7. **Yanbu second-salvo watch** — the test the 7/25 intercept predicts is a *larger* attempt; its defence is consumable.
 8. ~~Outbox memo to PROME on FAL-03~~ **✅ DONE 7/27 s2** — delivered, and it also carries the CHG-043 implementation note + the war-risk surface.
 9. **🆕 RE-PULL THE WAR-RISK CARRY BY 7/29-30** — `workbook/WARRISK.tsv` self-reports its newest datum as **7/23**. Re-pull at primaries (Marsh/Platts, Reuters/Insurance Journal, Al Jazeera, JWC), update `Value` + `As_Of` + `Prior_*`, recompute the derived spread, **then** advance `# Last real data refresh:`. **Never advance the data clock without a re-pulled figure, and don't widen `--days` to silence it.**
-10. **🆕 RED red-team invited on FAL-03's confidence derivation** — I asked for it explicitly in the memo (the hindsight-fitting joint + the leg-A/leg-B decomposition). Expect a response; treat it as a real test, not a formality.
+10. ✅ **DONE 7/27 s2c — HORMUZ BASELINE PINNED** (closed `KB-FALCON-019`, which was 3 days overdue on its own `Stale_By`). **88/day = the TTM pre-war MEDIAN** of my own PortWatch series (2025-02-28…2026-02-27, n=365, mean 90.7/median 88.0), computed from the primary and corroborated at CRS/Britannica/Statista. **97/day = the CY2023 mean of the SAME series** (vintage, not methodology). **~130-140/day = the upper end of the DAILY RANGE, not a mean** — no annual mean in 7.5 years exceeds 97.8. **The 88 stands; no published FALCON percentage needed restating.** Provenance pinned in `hormuz_transit_watch.py`, `FRESH_LEG_BASELINE.md`, `KB-FALCON-055`.
+11. ✅ **DONE 7/27 s2c — ANALYSIS LAYER REGENERATED** → `ANALYSIS_2026-07-27.md` (was 3 rows behind at 27 vs 30). 7/12 file banner-marked SUPERSEDED. ⚠️ **Structural gap logged: nothing watches the ANALYSIS file's staleness** — boot 5c grades `STRIKES.tsv` only. Regenerate whenever a sweep adds rows.
+12. **🆕 RED red-team invited on FAL-03's confidence derivation** — I asked for it explicitly in the memo (the hindsight-fitting joint + the leg-A/leg-B decomposition). Expect a response; treat it as a real test, not a formality.
 
 ## OPEN THREADS / WATCHES
 - 🔴 **Jazan damage assessment absent 3 days** — now FAL-03's leg A; premium-vs-supply-loss hinges on it
@@ -45,7 +47,10 @@
 - 🟠 **Yanbu** = 92% of Saudi seaborne crude, fired on once, saved by a consumable interceptor
 - 🟠 **Iraq/PMF discriminator firing on the ACTOR axis** (Abqaiq 7/27) — watch for a *damaging* follow-on; it is now FAL-03's axis (d)
 - 🟠 **WC Saudi war-risk 0.1%** — the transit→origin falsifier; cheapest early warning of P→R conversion
-- 🟠 bypass HOLDING (69.8k t/d vs 16.2k floor, thru 7/17) · Hormuz 15/88 thru 7/19 · WSJ hull double-count STILL unresolved
+- 🟠 bypass HOLDING (69.8k t/d vs 16.2k floor, thru 7/17) · Hormuz 15/88 thru 7/19 · **WSJ hull double-count STILL unresolved (open since 7/17, 10 days)** — WSJ's ~7/13 "3 crude supertankers, two of them shuttle fleet" never reconciled against my own hull ledger (`KB-FALCON-021` vs `-023`)
+- 🟡 **4 logged-but-unresolved ledger data conflicts** (6 date-UNRESOLVED `GI-2026MAR-` rows · Ras Tanura restart partial-vs-full · Ruwais date, possibly two events · Mina al-Ahmadi capacity 466 vs ~730 kbpd) — all honestly flagged, none load-bearing for a live prediction, queued not blocking
+- 🟡 **`thesis/THESIS.md` + `TIMELINE.md` are Apr-20 vintage and carry the OLD 4-tier A/B/C/D ladder** while live STATUS runs B/C/D. Both carry SUPERSEDED banners so nobody is actively misled, but a new reader or spawned agent hitting THESIS.md first gets the wrong scenario framework. Rewrite-to-current-regime backlog.
+- 🟡 **HAWK legacy scripts** (`war_monitor.py`, `thresholds.py`, `oil_infrastructure.py`, …) frozen under HAWK, deliberately not ported — "refresh-and-pull-forward" is an owner-lane increment, still untaken
 - ✅ **FAL-01 CLOSED (FAILED)** · ✅ **FAL-03 OPEN** · ✅ **$85×3 closed 7/21** · ✅ **GATE-TERRY-006** live 7/18, kharg veto shows flow continuing
 
 ## PREDICTIONS DUE / DECISIONS PENDING
