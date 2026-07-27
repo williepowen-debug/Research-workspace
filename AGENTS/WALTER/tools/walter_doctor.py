@@ -25,6 +25,7 @@ Checks:
   liaison_enum           LIAISON files on disk (informational)
   delivered_but_unconsumed  inbox/WALTER/ handoff delivered but not moved to processed/ (>N days)
   written_but_undelivered   inbox/WALTER/ handoff committed-local but not on origin (git-derived)
+  delivery_claim_vs_git    delivery_log says 'delivered' but git says untracked/gone (2026-07-27 orphan class)
   deep_research_pending_overdue  DEEP_RESEARCH_FLAGGED_LOG row PENDING past its deadline (or stale open >30d)
   dewey_handoff_liveness  DEWEY handoff sitting NEW in inbox/DEWEY/ >1d (backstop-A liveness alarm)
   staleness_sweep_overdue  last STALENESS_SWEEP_*.tsv vs 14d cadence (lifecycle-tagging lapse guard)
@@ -410,6 +411,21 @@ def check_liaison_enum():
 
 
 # ── delivery layer: handoff discovery + git-derived sync state ──────────────
+def _ever_in_git(relpath: str) -> bool:
+    """Did this path EVER exist in git history (any branch)? The discriminator that
+    separates 'consumed / cleaned up after delivery' from 'never delivered at all'.
+    A recipient may consume by moving to processed/ OR by DELETING outright (BOND
+    drains that way), and a whole inbox dir can be legitimately retired (AGENTS/PROME/
+    was declared dead 2026-07-24). In all those cases the file is gone from disk but
+    WAS delivered. Only a path git has never seen is a real orphan."""
+    try:
+        r = subprocess.run(["git", "-C", str(REPO), "log", "--all", "--oneline", "-1",
+                            "--", relpath], capture_output=True, text=True, timeout=10)
+        return bool(r.stdout.strip())
+    except (OSError, subprocess.SubprocessError):
+        return True   # fail SAFE: unknown -> assume delivered, never cry wolf
+
+
 def _handoff_files():
     """Non-processed WALTER delivery handoffs: (path, recipient, relpath).
     Globs AGENTS/*/inbox/WALTER/*.md, excluding anything under processed/.
@@ -570,6 +586,111 @@ def check_written_but_undelivered():
         return [(INFO, "all WALTER handoffs delivered (on origin)")]
     return out
 
+
+# ── delivery_log CLAIM vs git REALITY (the 2026-07-27 orphan class) ───────────
+def check_delivery_claim_vs_git():
+    """`delivery_log.written_state` says 'delivered' — does git agree?
+
+    WHY THIS EXISTS (2026-07-27): 21 of 25 handoffs for SIG-W-20260727-017..020
+    were written to disk, logged `delivered`, and never committed. A computed
+    pathspec (`AGENTS/*/inbox/WALTER/`) matched NOTHING — a git pathspec that
+    contains a wildcard AND ends at a directory matches no files, and because it
+    was piped through `git status` into a shell variable rather than handed to
+    `git add`, the one error git would have raised never fired. Every step
+    returned success.
+
+    `written_but_undelivered` DID see all 21 — and graded them LOW with the label
+    "(mid-session)", i.e. it saw the state and called it normal. That is correct
+    for a handoff not yet logged; it is wrong once the LOG ALREADY CLAIMS
+    DELIVERED. Nothing compared the two surfaces, so the log and the doctor
+    asserted contradictory things about the same files and neither noticed.
+
+    THIS CHECK IS THE COMPARISON. Same family as version_drift / restated_set_drift:
+    a claim in one surface tested against the artifact it describes.
+
+    Consumption is SUCCESS, not a miss: a recipient moving the handoff to
+    `processed/` legitimately empties the logged path, so a missing file is only a
+    failure when no tracked `processed/` twin exists (that is the BROCK case from
+    the same session — it consumed two files that were never committed, and they
+    survived only because BROCK committed them itself).
+
+    Age-scoped to avoid firing on a statement that is always true: writing a row
+    and its file together, then committing minutes later, is the normal flow. A
+    row that has crossed a SESSION BOUNDARY still untracked is a different animal.
+    """
+    log = WALTER / "routed" / "delivery_log.tsv"
+    if not log.exists():
+        return [(INFO, "no delivery_log.tsv")]
+    origin = _origin_ref()
+    today_untracked, prior_untracked, lost, stale_path, ahead = [], [], [], [], 0
+    seen = set()
+    try:
+        with log.open(errors="replace") as f:
+            for row in csv.DictReader(f, delimiter="\t"):
+                state = (row.get("written_state") or "").strip()
+                rel = (row.get("handoff_path") or "").strip()
+                sig = (row.get("signal_id") or "?").strip()
+                rcp = (row.get("recipient") or "?").strip()
+                ts = (row.get("timestamp_routed") or "").strip()
+                if not rel or state != "delivered" or (sig, rcp) in seen:
+                    continue
+                seen.add((sig, rcp))
+                path = REPO / rel
+                if path.exists():
+                    sync = _sync_state(rel, origin)
+                    if sync == "on_origin":
+                        continue
+                    if sync == "ahead":
+                        ahead += 1
+                        continue
+                    if sync == "uncommitted":
+                        (today_untracked if ts[:10] == TODAY.isoformat()
+                         else prior_untracked).append(f"{sig}->{rcp}")
+                    continue
+                # Gone from the logged path. That is USUALLY success, not failure:
+                #   - recipient moved it to processed/       (the common convention)
+                #   - recipient consumed by DELETING it      (BOND drains this way)
+                #   - the whole inbox dir was retired        (AGENTS/PROME/, dead 7/24)
+                # The only real orphan is a path git has NEVER SEEN. Verified 2026-07-27:
+                # a processed/-twin-only test produced 17 false HIGHs on its first run
+                # (14 dead-PROME-dir + 3 BOND drains) - every one of which WAS delivered.
+                twin = path.parent / "processed" / path.name
+                if twin.exists():
+                    continue
+                if _ever_in_git(rel):
+                    stale_path.append(f"{sig}->{rcp}")
+                    continue
+                lost.append(f"{sig}->{rcp} ({rel})")
+    except (OSError, csv.Error) as e:
+        return [(LOW, f"delivery_log unreadable for claim-vs-git check: {e}")]
+
+    out = []
+    if prior_untracked:
+        out.append((HIGH, f"{len(prior_untracked)} delivery_log row(s) claim 'delivered' but "
+                          f"the file is UNTRACKED and the row PRE-DATES today — the log has "
+                          f"been false across a session boundary: "
+                          f"{', '.join(prior_untracked[:6])}"
+                          f"{' …' if len(prior_untracked) > 6 else ''} — commit by EXPLICIT PATH"))
+    if today_untracked:
+        out.append((MED, f"{len(today_untracked)} delivery_log row(s) written today claim "
+                         f"'delivered' but the file is UNTRACKED — normal mid-dispatch, MUST "
+                         f"be committed before closeout: {', '.join(today_untracked[:6])}"
+                         f"{' …' if len(today_untracked) > 6 else ''}"))
+    if lost:
+        out.append((HIGH, f"{len(lost)} delivery_log row(s) claim 'delivered' but the file is "
+                          f"GONE with no processed/ twin — content may be lost: "
+                          f"{', '.join(lost[:4])}{' …' if len(lost) > 4 else ''}"))
+    if ahead:
+        out.append((INFO, f"{ahead} handoff(s) committed but not yet on origin — "
+                          f"written_but_undelivered owns those"))
+    if stale_path:
+        out.append((INFO, f"{len(stale_path)} row(s) point at a path that no longer exists "
+                          f"but WAS in git (consumed-by-delete, or a retired inbox dir) — "
+                          f"delivery confirmed, path stale; log hygiene, not a gap"))
+    if not out:
+        return [(INFO, "every 'delivered' delivery_log row is backed by a tracked file "
+                       "(or a consumed processed/ twin)")]
+    return out
 
 # ── deep-research candidate flag overdue (CHECKLIST Phase 2.8 / proposal §5i) ─
 def check_deep_research_pending_overdue():
@@ -1202,6 +1323,7 @@ CHECKS = [
     ("liaison_enum", check_liaison_enum),
     ("delivered_but_unconsumed", check_delivered_but_unconsumed),
     ("written_but_undelivered", check_written_but_undelivered),
+    ("delivery_claim_vs_git", check_delivery_claim_vs_git),
     ("deep_research_pending_overdue", check_deep_research_pending_overdue),
     ("dewey_handoff_liveness", check_dewey_handoff_liveness),
     ("staleness_sweep_overdue", check_staleness_sweep_overdue),

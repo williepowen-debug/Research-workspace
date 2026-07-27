@@ -164,3 +164,34 @@ The lane's `fred` feed labels **three sibling series identically as "OAS bps"**,
 *(Worth naming: this signal corrected `-005` for over-reaching and then over-reached in the opposite direction inside the same section. The discipline that would have caught it is the one §3 already contained — **if the limits say you have not measured something, the conclusion may not assume it.**)*
 
 **5. PROME also asks that `SIG-W-20260724-006` carry the correction so its original "near-perfectly parallel" framing does not propagate from the BOARD copy. Done — see that file's correction block, same timestamp. WALTER owns BOARD writes; PROME correctly did not edit it.**
+
+---
+
+## 🔴 ADDENDUM #2 — 2026-07-27 ~20:4xZ: **BROCK MEASURED A WIDER WINDOW AND FOUND THE EVIDENCE THAT CUTS AGAINST THIS SIGNAL'S CONCLUSION. IT WAS SITTING ONE WEEK OUTSIDE THE WINDOW I CHOSE.**
+
+*Source: BROCK's own FRED tranche pull, commit `291613f7` + `domain/sources/X1_RETEST_ADJUDICATION_JUL27.md`. **This is the THIRD independent derivation of the same data today** (WALTER, PROME, BROCK) — and the first one that looked further back.*
+
+**1. ✅ THE CONVERGENCE IS EXACT.** BROCK's proportional figures for **7/22→7/24: BB +7.01% vs CCC +1.53%, a 4.6× ratio.** This signal's §3 table: **BB +7.0% vs CCC +1.5%.** **Three agents, three independent pulls, identical numbers.** BROCK adds a cleaner normalisation still — **`CCC/BB` COMPRESSED 6.25× → 5.93× across exactly the two sessions that produced the whole move, and quality recognition EXPANDS that ratio.**
+
+**2. 🔴 THE LIMITATION THIS SIGNAL DID NOT STATE — MY WINDOW EXCLUDED THE DISCONFIRMING EVIDENCE.**
+This signal measured **7/22 → 7/24**, chosen because that is where the nine-session flat range broke. **BROCK measured 7/15 → 7/24.** In the **QUIET stretch 7/15 → 7/22 — before my window opens —**
+
+> **CCC widened +12bp while HY, BB and B all TIGHTENED.**
+
+**That IS quality-sorted. It is the one bear fragment in the whole period, and it is invisible in the window this signal chose.**
+
+**⇒ §3's conclusion — *"a broad, quality-INDISCRIMINATE repricing"* — is TRUE OF ITS OWN WINDOW AND INCOMPLETE AS A STATEMENT ABOUT THE MOVE.** I selected the window where the move was, and the evidence against my reading was in the quiet part I skipped. **The conclusion is not retracted; its SCOPE is now stated: it describes 7/22→7/24 and does not describe 7/15→7/22.**
+
+**3. 🔑 BROCK'S META-FINDING IS SHARPER THAN ANYTHING IN THIS SIGNAL — the two standard normalisations DISAGREE, and that disagreement is itself the result.**
+Net **7/15 → 7/24**: the **GAP** widened **807 → 828 (bear)** while the **RATIO** went **5.98 → 5.93 (not bear).**
+> **BROCK: *"That disagreement IS the finding — a real recognition leg registers on both."***
+
+**Adopt this as the test.** It is a better instrument than either this signal's relative-percentage table or PROME's single ratio, because **it specifies what a genuine credit-recognition leg must do (register on both normalisations) rather than what this one happens to look like.**
+
+**4. BROCK's ADJUDICATION, recorded not adjudicated here:** **X1 NOT MET on both halves — 2nd independent confirmation. LIQUID's credit-bear sizing gate STAYS CLOSED.** Half A failed symmetrically: **managers led the recovery UP (APO +4.6%, ARES +8.5%) while wrappers lagged (ARCC +0.9%, FSK +3.7%, OBDC +1.0%, BIZD −0.2%) ⇒ wrappers now lag in BOTH directions = beta-insensitivity**, which BROCK flagged as **a possible RESOLVABILITY defect in its own test** and deliberately did NOT re-spec before 8/4-8/6. *(That restraint is the right call and is noted: re-speccing a test that just failed, before its scheduled window, is how a gate gets fitted to the data.)*
+
+**5. 🔑 AND BROCK NAMES THE CHANNEL THIS SIGNAL DID NOT LOOK AT: *"the open channel is DURATION, not credit."*** 10Y **4.71 [7/23], +22bp, 4bp from BROCK's 4.75 line — the only threshold within reach.** **This signal spent its length on the credit decomposition and the answer may not be in credit at all.** BROCK owns it; **vehicle TERRY, sizing Will.**
+
+**⇒ NET EFFECT ON THIS SIGNAL: §1 (the print, the velocity) and §2 (FT-01 exit proximity) are UNCHANGED. §3's conclusion is SCOPE-LIMITED to 7/22→7/24. §3's instrument is SUPERSEDED by BROCK's two-normalisation test. §5's coincident-timing observation is unaffected. The `-005` reconciliation verdict is unchanged and now has a third independent confirmation.**
+
+*(Method note worth keeping: **I chose a window by where the move was, which is the same act as choosing a window by where the answer is.** The flat range looked like a natural boundary and it was also, unexamined, the boundary that excluded the counter-evidence. **State the window, and check what is immediately outside it, before concluding about "the move."**)*

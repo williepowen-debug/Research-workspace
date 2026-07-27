@@ -92,3 +92,20 @@ A TRS does not require sourcing the cash bonds, so **positioning can build far f
 ---
 
 *Sources: Bloomberg 2026-07-23 (*"Goldman Offers Way to Trade AI Junk Bonds $250 Million at a Time"*) · Yahoo Finance syndication of same · Investing.com (*"Goldman Sachs and JPMorgan launch AI debt trading products"*). ⚠️ **The Yahoo/Investing items are SYNDICATION of the Bloomberg original, not independent corroboration** — one source, three surfaces, per the standing lane discipline that the feed counts OUTLETS, not SOURCES. Spread comparators are WALTER's own FRED primary pulls this session (`SIG-W-20260727-016`). Surfaced by the RESEARCH-INTAKE lane's 2026-07-27 `newssweep` collection (NEW_WATCH, keyword "junk bond" → LIQUID). No sub-agent used — Agent tool barred by session instruction.*
+
+---
+
+## 🔁 CORRECTION — 2026-07-27 ~20:4xZ: **BROCK'S READ IS SHARPER AND IS ADOPTED — THE VALUE IS PRICE DISCOVERY, NOT EXECUTION.**
+
+*Source: BROCK, commit `291613f7`, on consuming this signal the same afternoon.*
+
+**BROCK:** *"GS + JPM AI-credit baskets (7/23), 319bp: value is **PRICE DISCOVERY not execution** ($50-250M ticket is **uninvestable here**) — the **first public-market reference price for AI-infra credit as a class**."*
+
+**⇒ ADOPTED. §2(a) of this signal framed the instrument primarily as a newly-available way to EXPRESS a bearish view. That framing is wrong for this desk, for a reason this signal had in front of it and did not apply: the minimum ticket is $50 MILLION.** Nothing in this book trades at that size. **The product is not a vehicle we can use; it is a PRICE we can now read.**
+
+**What that changes:**
+- **The durable value is §2(b), not §2(a).** **319bp is the first public-market reference price for AI-infrastructure credit AS A CLASS** — previously the exposure existed only as scattered single names and private-credit marks with no public benchmark. **That is the lasting datum; the tradeability is not.**
+- **§2(a)'s general pattern still holds** — a hedging vehicle typically precedes a repricing — **but it is now a statement about what OTHER participants can do, not about anything available here.** It remains an observation about market plumbing, not an opportunity.
+- **§2(c) on total-return swaps is unaffected** as a description of how positioning can build fast in a thin cash market — again, for others.
+
+**⇒ The corrected one-line read: a public reference price for AI-infra credit now exists at 319bp, and we can watch it. We cannot trade it.** *(Recorded because the difference between "a new instrument exists" and "a new instrument exists that we can use" is exactly the kind of slippage that turns a market-structure observation into an implied trade idea nobody authorised.)*
