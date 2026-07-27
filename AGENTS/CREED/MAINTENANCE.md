@@ -11,6 +11,37 @@ Reverse-chronological log of **structural** changes to CREED's docs, folders, sc
 
 ---
 
+## 2026-07-27 (third sitting) — REGINALD/HOMER survey: 2 surfaces adopted, and the survey found two cross-agent defects worth more than the files
+
+**Trigger:** Will directed the same structure survey against **REGINALD** (the fleet's most mature agent — per-entity trees for CFG/EGBN/FITB/MTB/PNC/RF/ZION, 11 scripts, 19 workbook files) and **HOMER** (the newest, DAEDALUS-built 7/12). Both clean/not-live at survey time.
+
+**Adopted (2):**
+
+| New file | Why |
+|---|---|
+| **`registry/THRESHOLDS.tsv`** | From `REGINALD/registry/THRESHOLDS.tsv`. 11 rows transcribing CREED's **existing FROZEN bands** with trigger IDs, sustain windows, recipient chains and source-of-truth refs. **It moves nothing** — bands stay Will-gated. **It found a live cross-agent collision within minutes of existing**, which is the whole argument for it. |
+| **`scripts/boot.py`** | From REGINALD's boot orchestrator, **scoped down hard**. Checks mechanics only: workbook staleness, prediction resolve-dates, the **closeout-skip detector** (STATUS vs LAST_COMPLETION mtime — the 7/27 failure, now mechanized), mail lanes, STATUS line cap, git dirt. **Deliberately pulls NO market data** — prices must be live at the moment of use (root rule 4); baking a price into a boot script invites citing a cached level. **Caught an unprocessed inbox item on its first run.** |
+
+**Declined (3), with reasons that are about CREED specifically:**
+- **HOMER's `state_vectors/`** — a genuinely excellent pattern (stable citable IDs; a `corrected/` lane preserving superseded versions **unedited** under a banner naming the superseder). **Declined as a tree** because CREED's corrections are already annotated-in-place with git holding the prior text, and a second artifact class for ~4 corrections/session is overhead. **Credited to HOMER and named as the pattern to move toward** if CREED's correction volume rises.
+- **HOMER's `docket/CATALYSTS.tsv`** — declined again (as with BROCK's), but the reasoning improved: the value isn't the row count, it's the `what_to_check` + `threshold_signal` columns. **CREED already carries that information per-prediction in `PREDICTIONS.tsv` (`Resolves_On`) and in `SCRATCH.md` §OPEN THREADS.** A third copy would be a drift surface.
+- **REGINALD's per-entity trees / `CONVERGENCE_RESCALE.md`** — the entity trees serve a 7-bank coverage universe CREED doesn't have. `CONVERGENCE_RESCALE.md` is itself **FROZEN/superseded** in REGINALD. *(But its concept is pointed: a scoring-scale change written as a reviewed PROPOSAL doc before being pasted into STATUS. CREED changed its own denominator 40→45 inline on 7/27. Worth remembering if CREED rescales again.)*
+
+**⭐ The survey's real output was two cross-agent defects, both routed:**
+
+1. **`REG-T-07` fires on CREED's series, and CREED isn't on its chain.** REGINALD's registry has `OFFICE-CMBS-DQ > 15, sustain 3 → CRE-ACCELERATE`, chain *"REGINALD action / BROCK SHADE info."* CREED's `CREED-T-01a` is the **same series at > 12, sustain 2**. Divergent levels may be deliberate (transmission gate vs recognition gate) — **nobody recorded that they were compared.** Worse: REGINALD's dashboard row *labelled* "Office CMBS DQ" carries **Fitch overall 3.31%**, while CREED's canon is **Trepp office 11.57%**. **Distance-to-fire is 11.7pp or 3.4pp depending which series the trigger is read against.** Not a wrong threshold — **a wrong denominator under the right label.**
+
+2. **⚠️ A citation loop CREED closed itself, the same day it created it.** CREED's 7/27 S5 demotion wrote *"cite `AGENTS/HOMER/STATUS.md` for the MF figure."* **HOMER's STATUS attributes that figure to "(CREED 7/4 pull)"** — in both its dashboard row and its marquee section. **CREED cites HOMER → HOMER cites CREED.** Anyone reading S5 as HOMER-corroborated is reading CREED corroborating CREED. **Fixed in `CLAUDE.md` by separating what the DAEDALUS ruling did not: HOMER owns the SCORING; ownership of the DATA PULL is a distinct assignment that must be stated.** Otherwise the literal rule ("don't publish a second Trepp-MF citation") reads as *CREED stops pulling* — and a handoff ends with neither party pulling. Routed to HOMER with an (a)/(b) choice.
+
+**Files touched:** `registry/THRESHOLDS.tsv` (new), `scripts/boot.py` (new), `CLAUDE.md` (S5 sourcing caveat + route-matrix row), `MAINTENANCE.md`, `board_log.tsv`, `SCRATCH.md`, `workbook/PREDICTIONS.tsv` + `PREDICTIONS_SCOREBOARD.md` (the `PRED-006` re-spec, below), 3 outbound packets (SHADE, HOMER, REGINALD).
+
+**Lessons:**
+1. **A structure survey's best output may not be a file.** Two of the three most valuable findings were *interface* defects between agents, visible only because the survey read both sides. Copying `THRESHOLDS.tsv` mattered mainly because **having the registry made the collision expressible.**
+2. **Check the other side's sourcing before writing a citation rule.** CREED moved S5 ownership to HOMER without reading where HOMER's number came from — and it came from CREED. **Ownership rulings assign judgment; they do not automatically transfer the data pull.**
+3. **Declining is a real output.** Three of five surveyed surfaces were declined, each for a CREED-specific reason. For a Tier-2 spawn-on-need agent an unread file is a recurring boot cost, not a neutral.
+
+---
+
 ## 2026-07-27 (second sitting) — Fleet-parity surfaces adopted after a crash exposed the gaps
 
 **Trigger:** Will directed a survey of SHADE's and BROCK's live file structures for anything CREED should integrate. The survey ran immediately after an unclean shutdown in which **CREED had no surface describing what it was mid-way through** — so the gaps were not theoretical, they had just cost something.

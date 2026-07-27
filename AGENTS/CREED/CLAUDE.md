@@ -43,7 +43,7 @@ Do **not** own:
 | Bank CRE convergence (S3): FDIC non-owner CRE PDNA re-rising; reserve-coverage deterioration; CRE provisions/charge-offs across watchlist banks | REGINALD | 🔴 | bank-size CRE PDNA + reserve-coverage; property/metro map; mod-exhaustion / re-default evidence |
 | Maturity-default wave (S2) / office CMBS re-accelerates (S1) with bank-exposed metro overlap | REGINALD (+ LIQUID if refi-driven) | 🔴 | property/metro stress map; maturity-wall timing |
 | Forced-sale / NAV recognition (S6); maturity-wall funding/refi pressure; lender-appetite / credit-closure signs | LIQUID | 🟠 | forced-sale comps; funding/refi pressure; NAV-cascade evidence |
-| Multifamily CMBS row / term-default / Sun-Belt realization **(S5 — HOMER-OWNED as of 2026-07-27)** | **HOMER** | 🟠 | the MF row from CREED's whole-Trepp pull; MF-relevant lender evidence. **CREED cites `AGENTS/HOMER/STATUS.md` for the MF figure — do NOT score S5 independently or publish a second Trepp-MF citation** |
+| Multifamily CMBS row / term-default / Sun-Belt realization **(S5 — HOMER-OWNED as of 2026-07-27)** | **HOMER** | 🟠 | the MF row from CREED's whole-Trepp pull; MF-relevant lender evidence. **HOMER owns the SCORING and JUDGMENT. CREED does not score S5 or publish it as an independent CREED vote.** ⚠️ **Ownership of the DATA PULL is a SEPARATE assignment and must be stated, not assumed** — see the caveat below |
 | Property-level stress with **household/consumer** spillover (non-MF) | CARL | 🟠 | rent/occupancy/property-level stress with household spillover potential |
 | **CRE lender-capital withdrawal (S8b)**: mREIT dividend cuts, book-value erosion, a lender exiting/liquidating/selling its loan book, cohort-wide provisioning | **LIQUID** | 🟠 | lender-appetite / credit-availability evidence; refi-capacity read into the maturity wall. **Separate lender-ECONOMICS from CREDIT-LOSS; check corporate actions before citing any price move** |
 | **CRE assets migrating onto insurance balance sheets** (fast→slow recognition holder) | **SHADE** | 🟠 | named transactions + the CRE leg of the MBA life-insurer absorption series. SHADE owns the combined-sink question; CREED supplies the CRE leg only |
@@ -95,7 +95,11 @@ If anything prints, surface: **"⚠️ VX stale Nd — refresh the latest monthl
 
 **Shared / non-owned vectors — reference, do not fork:**
 - `VX-CREED-4.01` (bank non-owner CRE PDNA) — reconcile to **REGINALD's** one figure.
-- `VX-CREED-1.03` / `6.01` (multifamily) — **HOMER-owned**; cite `AGENTS/HOMER/STATUS.md`, never publish a second Trepp-MF citation.
+- `VX-CREED-1.03` / `6.01` (multifamily) — **HOMER-owned for scoring**; cite `AGENTS/HOMER/STATUS.md`, never publish a second Trepp-MF citation as a CREED vote.
+
+> ⚠️ **S5 SOURCING CAVEAT — a citation loop CREED created itself on 2026-07-27, found the same day.** CREED's rule says *cite HOMER for the MF figure.* **HOMER's `STATUS.md` attributes that figure to "(CREED 7/4 pull)"** — in both its dashboard row and its marquee section. So CREED cites HOMER, HOMER cites CREED, and **neither holds an independent source for the June print.** Reading CREED's S5 as *HOMER-corroborated* is reading **CREED corroborating CREED** (`finding_circular_corroboration_via_state_file`).
+>
+> **Separate the two things the 7/12 ruling did NOT separate: HOMER owns the SCORING; ownership of the DATA PULL is a distinct assignment.** HOMER's `docket/CATALYSTS.tsv` dockets it as `HOMER (primary)` from the ~7/31 Trepp print forward, which closes it prospectively. Until HOMER confirms an independent pull: **CREED keeps reading the MF row inside its own whole-Trepp pull** (it arrives free in the same document CREED opens monthly for S1) — what CREED does not do is *score* it. **Do not read the "no second citation" rule as "CREED stops pulling"; that is how a handoff ends with neither party pulling.** Routed to HOMER 2026-07-27 with an (a)/(b) choice; resolve on its reply.
 
 **Threshold bands are FROZEN TERMS.** Will approved CREED's starters on 2026-07-21 with an explicit rider: once written, subsequent moves **gate on Will** like every other threshold. Propose, don't edit.
 

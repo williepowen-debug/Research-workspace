@@ -32,7 +32,7 @@ Tracks resolution outcomes and calibration for CREED's pre-registered prediction
 | `003` | **35%** | **FDIC Q2 QBP, ~late Aug** | **S3's actual trigger** — large-bank non-owner CRE PDNA rising vs Q1's 3.40%. *The single most decision-relevant open item* |
 | `004` | 60% | 8-K / earnings, by 12/31 | a **4th** CRE mREIT cuts / reviews / winds down — does ARI's template propagate? |
 | `005` | 70% | ARI proxy + vote | dissolution actually **approved** (board-resolved ≠ approved) |
-| `006` | 65% | MBA Q2, ~mid-Sept | the **aggregate** life-insurer line moves more than +$3.3B |
+| `006` | **30%** ⚠️ | MBA Q2, ~mid-Sept | the **aggregate** life-insurer line rises **≥ +$10.0B** *(re-spec'd 7/27 — see below)* |
 | `007` | **15%** | market data, by 12/31 | the S8a trigger (VNQ −10pp/3mo). **Deliberately low — this is the counter-signal CREED is committed to honoring** |
 | `008` | 45% | KREF Q4, ~Feb 2027 | management's own <10% legacy-office target |
 | `009` | 30% | Trepp composition, by 12/31 | the S2 trigger. **Resolvability risk is real** — if composition data stays unavailable this is `STUCK`, not wrong |
@@ -47,6 +47,37 @@ Tracks resolution outcomes and calibration for CREED's pre-registered prediction
 - **The book is deliberately bear-skewed-LOW.** Seven of ten sit at or below 45%, and the two trigger-crossing predictions most aligned with CREED's own thesis (`003` FDIC at 35%, `009` S2 composition at 30%) carry the **lowest** confidences in the book. That is intentional — betting against a **six-quarter improvement streak** (`003`) needs more than a thesis. **If these resolve correct at high rates, the read is "structural calls under-priced" and confidences should rise. If they resolve wrong, the thesis is over-weighted, not the confidences.**
 - **`007` at 15% is the honesty anchor.** It is the trigger for the signal that most contradicts CREED's bear read, and writing a low number on it holds the thesis accountable to a tape that has moved *against* CREED for three consecutive sessions (−2.9pp → −1.6pp → **+2.04pp**).
 - **`006` + `010` are a matched pair and must be graded together, not separately.** Both test the same event (the ARI→Athene $9B) on different surfaces. **Grading them independently would double-count one transaction.** The joint read: both move = confirmed; only Athene moves = `006` is a **bad instrument, not a bad thesis**; **neither moves = the migration read needs re-derivation.**
+
+---
+
+## ⚠️ RE-SPEC LOG — `PRED-CREED-006`, 2026-07-27 (same day it was written)
+
+**The original spec was defective and would have resolved TRUE on an information-free print.** Caught by SHADE within hours, **independently verified by CREED against MBA primary releases**, re-spec'd the same session.
+
+**The defect:** the spec read *"rising by MORE than the Q1 pace of +$3.3B."* **+$3.3B is a seasonal trough, not a run-rate.**
+
+| Quarter | Life-insurer CM/MF change | Verified |
+|---|---:|---|
+| H1-2025 (Q1+Q2 **combined**) | **+$4.4B** | SHADE, MBA Q4-25 PDF |
+| Q3-2025 | +$12.1B | SHADE, MBA Q4-25 PDF |
+| Q4-2025 | **+$11.5B (+1.5%)**, stock $774B | ✅ CREED, MBA release |
+| Q1-2026 | **+$3.3B (+0.4%)**, stock $775B | ✅ CREED, MBA release |
+
+**H2-2025 ran ~5× H1-2025.** A **+$11B** Q2 print would have satisfied the old spec while being an entirely normal H2-magnitude quarter carrying **zero information about ARI**.
+
+**What CREED did NOT adopt — SHADE proposed a ~+$20B bar, and that over-corrects by the same error class in the opposite direction.** The $20B anchors to the **H2** norm (+$11–12B), but **Q2 is a seasonally weak H1 quarter**: H1-2025 averaged ~+$2.2B/qtr and Q1-2026 printed +$3.3B. The no-ARI counterfactual for Q2-2026 is **~+$2–4B**, so ARI's ~$9B landing visibly produces **~+$11–13B** — which **fails a $20B bar.** *A $20B bar can resolve FALSE even if the entire $9B lands in the line.*
+
+**The bar set: ≥ +$10.0B** — ~3× the highest observed H1 quarterly change, ~4.5× the H1-2025 per-quarter average. Reachable essentially only if a large **discrete block** lands.
+
+**Measurement basis also fixed:** MBA rounds to the nearest $B **and revises prior quarters** — as published, $774B (Q4) + $3.3B ≠ $775B (Q1). **A threshold that subtracts a remembered prior stock is fragile.** The re-spec reads the change **off the carrying release itself.**
+
+**Confidence 65% → 30%, and this is a genuine probability update, not a resolvability trim.** SHADE read **Annex A §2.8** of the DEFM14A (`0001193125-26-119995`) directly: Athene may, **by private written notice 10 business days before closing**, designate *Affiliates, Managed Accounts or Portfolio Companies* — including the **ACRA co-invest vehicles** — to acquire **"all or any portion of the Assets."** The split was never disclosed. The MBA line derives from the **Fed's US life-insurance-company sector**, which does not contain those vehicles. **That is an explicit contractual right to route the assets outside the instrument — information CREED did not have at Made_Date.**
+
+**Legitimacy check (`finding_rebased_metric_check_made_date`):** was the NEW metric already true at Made_Date? **No** — Q1-2026's +$3.3B does not clear +$10B. So this is a **re-spec, not a retire-and-replace.**
+
+**Branch 2 now names the §2.8 case explicitly:** `010` moves but `006` doesn't ⇒ the assets landed in an ACRA/managed-account vehicle outside the Fed life sector ⇒ **the MBA line is a bad instrument for this channel — a finding, not a miss.**
+
+> **The lesson worth keeping:** the original bar failed on its **baseline**, not its threshold. *"Materially above the last print"* is only a test if the last print is representative — and a single prior observation cannot tell you that. **Anchor a threshold to a distribution, not to the most recent number.** *(See also `finding_single_month_subcomponent_skepticism`, `finding_delta_vs_own_prior_local_extreme`.)*
 
 ---
 

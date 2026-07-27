@@ -1,6 +1,6 @@
 # CREED SCRATCH.md — Ephemeral Session State
 
-**Rewritten:** 2026-07-27 ~15:55 ET (post-crash recovery sitting)
+**Rewritten:** 2026-07-27 ~16:25 ET (third sitting — REGINALD/HOMER survey + a SHADE falsification landed mid-task)
 **Purpose:** the *handoff* surface — "what was I in the middle of, and what should the next spawn do first." Overwritten every session. **Durable analysis belongs in `STATUS.md`; structural changes belong in `MAINTENANCE.md`; nothing here is canonical.**
 
 > **Why this file now exists (created 2026-07-27).** An unclean shutdown hit mid-audit-sweep and CREED had **no surface that said what it was doing**. Recovery worked only because five modified files happened to be legible on disk. `LAST_COMPLETION.md` — the file that *should* have carried it — had **skipped two closeouts** and was still 7/4 vintage. Adopted from the SHADE/BROCK pattern, both of which ran this file through their own crashes today.
@@ -11,7 +11,8 @@
 
 ## 🔴 NEXT-BOOT FIRST MOVES
 
-1. **Run the boot staleness check** (`CLAUDE.md` step 7). CREED is Tier-2; **staleness between spawns is the expected steady state, not neglect** — but refresh before citing.
+0. **Run `python3 AGENTS/CREED/scripts/boot.py`** — one command, ~1s: workbook staleness, prediction resolve-dates, the closeout-skip detector, mail lanes, STATUS cap, git dirt. It does **not** pull prices (live at use only).
+1. **Then the boot staleness check** (`CLAUDE.md` step 7). CREED is Tier-2; **staleness between spawns is the expected steady state, not neglect** — but refresh before citing.
 2. **Check the two monthly prints first** — July Trepp DQ (~early Aug) and July SS (~mid-Aug). They resolve `PRED-CREED-001` / `-002` and are the cheapest information in the domain.
 3. **`VX-CREED-9.03` office vacancy is seeded at Q1 vintage** — a clean Moody's Q2 print was not locatable on 7/27. **This is the one known-stale vector.** Q2 refresh owed; if it's still not locatable, say so out loud rather than carrying Q1 as current.
 4. **Update `PREDICTIONS_SCOREBOARD.md` at resolution time, not just STATUS prose.** BROCK's `BRK-29` sat `Status=OPEN` for 5 days past its own resolve date because the narrative grade landed in STATUS and the ledger row was never touched. **Both must happen, or neither counts.**
@@ -28,7 +29,9 @@
 
 | # | Thread | State | Where it resolves |
 |---|---|---|---|
-| 1 | **ARI→Athene $9B must appear somewhere** | 2 surfaces pre-registered | `PRED-CREED-010` Athene Q2 10-Q (~Aug) · `PRED-CREED-006` MBA Q2 (~mid-Sept). ⚠️ **If NEITHER moves, the migration read needs re-derivation — not a confidence trim** |
+| 1 | **ARI→Athene $9B must appear somewhere** | 2 surfaces, **`006` re-spec'd 7/27** | `PRED-CREED-010` Athene Q2 10-Q (~Aug, 70%) · `PRED-CREED-006` MBA Q2 (~mid-Sept, **now ≥+$10B, 30%**). ⚠️ **If NEITHER moves, the migration read needs re-derivation — not a confidence trim.** If **only 010** moves ⇒ the §2.8 landing-entity case: MBA is a **bad instrument**, a finding not a miss |
+| 1b | **HOMER (a)/(b) call on the MF data pull** | routed 7/27, awaiting reply | until then **keep reading the MF row inside the whole-Trepp pull** — do not read "no second citation" as "stop pulling" |
+| 1c | **REGINALD `REG-T-07` chain add** | routed 7/27 | a CRE-ACCELERATE could fire on CREED's own series without reaching CREED |
 | 2 | **ARI dissolution vote** | board-resolved ≠ approved | preliminary/definitive proxy; `PRED-CREED-005` |
 | 3 | **FDIC Q2 QBP** (~late Aug) | S3's actual trigger lives here | `PRED-CREED-003` — non-owner CRE PDNA vs Q1's 3.40% |
 | 4 | **BXMT Q2** | the cohort's swing name | largest office-exposed lender, −17.1%/3mo, **dividend still intact** — does it follow KREF or hold? |
@@ -48,10 +51,12 @@
 2. **A real number carrying the wrong basis is the dominant failure mode**, not a fabricated number. The $1.3B was real — it was a *cash* line on a *pre-close* date, labelled "post-sale."
 3. **Trepp PDF is paywalled = primary-CITED, not primary-READ.** The co-circulating **"retail 12.95%" remains UNVERIFIED — do not cite.**
 4. **Do not fuse ARI→Athene with Delaware Life.** Same mechanism, **opposite disclosure quality**. SHADE's rule, adopted: the discriminator is **disclosure quality + price discovery, not affiliation** — a well-governed affiliated transfer is the **benchmark**, not corroboration. And per the fleet independence rule: **we share the ARI 8-K antecedent, so agent convergence on that framing is not extra evidence.**
-5. **S5 is HOMER-owned.** Cite `AGENTS/HOMER/STATUS.md` for the MF figure. Never publish a second Trepp-MF citation.
+5. **S5 is HOMER-owned for SCORING — but the DATA PULL is a separate assignment.** Cite `AGENTS/HOMER/STATUS.md`, never publish a second Trepp-MF citation *as a CREED vote*. ⚠️ **HOMER's figure is currently attributed to "(CREED 7/4 pull)" — a citation loop CREED created on 7/27.** Keep reading the MF row inside the whole-Trepp pull until HOMER confirms an independent one.
+6. **Anchor a threshold to a DISTRIBUTION, not to the most recent number.** `PRED-CREED-006` was written against "the Q1 pace of +$3.3B" — a **seasonal trough**, so a routine +$11B print would have resolved it TRUE with zero information. Caught by SHADE the same day. **The bar failed on its baseline, not its threshold.**
+7. **Check the other side's sourcing before writing a citation rule** — see trap 5. An ownership ruling assigns *judgment*; it does not transfer the *data pull*.
 
 ## 📬 MAIL STATE
 
-- `inbox/` — **CLEAN** (0 items). `inbox/WALTER/` — **CLEAN** (0 items).
+- `inbox/` — **CLEAN** (0 items). `inbox/WALTER/` — **CLEAN** (0 items). *(A 🔴 SHADE packet arrived at 16:02, after the second sitting closed it — caught by `boot.py` on its first run, processed same session. SHADE is live; expect more.)*
 - `outbox/` — holds 7/20 and 7/27 PROME memos. **7/27 cross-agent packets went straight to recipient inboxes under root `CLAUDE.md` carve-out ①, which is the correct route — they were never in `outbox/`.**
 - Last logged read: 2026-07-27T15:30Z (`board_log.tsv`).
