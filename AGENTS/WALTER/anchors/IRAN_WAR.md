@@ -105,7 +105,28 @@
 
 ---
 
-**Next re-verify:** **any Aramco/Saudi statement on the ABQAIQ or PETROLINE claims (addenda #3-#4 — the newest open items)** · **whether crude GAPS overnight — the tape is the fastest available resolver on both** · **any resumption of US strikes or Iranian retaliation** · **a SECOND attempt on Yanbu** (the §5 test, now re-pointed per addendum #3 §4 — watch the PIPELINE as well as the port) · **a neutral-authority confirmation + vessel name on the mine** (→ GATE 2) · **an Aramco/Saudi damage assessment or force majeure** (→ GATE 1) · **a 2nd executed strike from the Houthi declared port list** · a formal ceasefire signature (distinguished from the mid-June interim agreement) · otherwise **~7/30 as scheduled.**
+---
+
+**🎯 PRE-REGISTERED OVERNIGHT RESOLUTION TEST — ABQAIQ (written 2026-07-27 ~22:1xZ, BEFORE the Sunday-equivalent futures reopen, so it cannot be fitted to the outcome).**
+
+**The question:** was there a material, sustained loss of Abqaiq throughput, or a strike + fire + emergency shutdown that Aramco absorbed?
+
+**The instrument: the front-month Brent (BZ=F) open, versus tonight's $87.68 close.** The tape is the fastest available resolver and it prices while every other source is silent.
+
+| Brent at reopen | Read | Consequence |
+|---|---|---|
+| **> ~$95 (+8% or more)** | **The halt claim was substantially RIGHT.** A market that sat through 7 hours of OSINT and then gapped on confirmation | **FAL-01 likely fires — FALCON adjudicates. My "not a supply event" call is WRONG and must be retracted at every surface.** |
+| **~$90–95** | Partial/ambiguous — real disruption being priced, magnitude contested | Stay CLAIM-ONLY on the halt; escalate to a fresh re-verify; **FALCON adjudicates on the throughput figure, not the tape** |
+| **~$87–90 (flat to +2%)** | **The halt claim was WRONG and the market has now had ~14 hours to price it** | **The refutation is CONFIRMED. The OSINT layer failed a large, dated, public test — record it in the source-credibility map** |
+| **< $87** | Halt claim wrong AND the pause is still dominating | As above, plus the de-escalation leg strengthens |
+
+⚠️ **STATED LIMITS, so this is not over-read in either direction:** **(a)** the tape resolves MAGNITUDE, not whether a strike occurred — **a strike and fire are already CONFIRMED on FIRMS primary data and no price outcome retracts that;** **(b)** a gap could be driven by something else entirely overnight (a resumption of US strikes, a second Yanbu attempt, an OPEC headline) — **check the attribution before crediting this test;** **(c)** if Aramco or the Saudi Energy Ministry issues a statement, **that supersedes the tape immediately** — a primary beats an inference.
+
+**Whoever boots first tomorrow runs this table before anything else. It costs one `fetch.py` call.**
+
+---
+
+**Next re-verify:** **the §PRE-REGISTERED OVERNIGHT TEST above — FIRST ACTION at the next boot** · **any Aramco/Saudi statement on the ABQAIQ or PETROLINE claims (addenda #3-#4 — the newest open items; a primary SUPERSEDES the tape)** · **any resumption of US strikes or Iranian retaliation** · **a SECOND attempt on Yanbu** (the §5 test, now re-pointed per addendum #3 §4 — watch the PIPELINE as well as the port) · **a neutral-authority confirmation + vessel name on the mine** (→ GATE 2) · **an Aramco/Saudi damage assessment or force majeure** (→ GATE 1) · **a 2nd executed strike from the Houthi declared port list** · a formal ceasefire signature (distinguished from the mid-June interim agreement) · otherwise **~7/30 as scheduled.**
 
 ---
 
