@@ -1,5 +1,11 @@
 > **Inherited from HAWK 2026-07-12** (spinout, build spec `AGENTS/DAEDALUS/builds/OSPREY_FALCON_BUILD.md` §5) — Iran-coded content, this is FALCON's live falsification rail going forward. Original file created by HAWK Mar 20 from its then-STATUS.md.
 
+> ## ⚠️ LADDER RECONCILIATION — read before using any section below (added 2026-07-27, caught during a closeout falsification check)
+> **This file still references a "Scenario A" and a "Scenario B → A Downgrade". THERE IS NO SCENARIO A in the live ladder.** FALCON runs **3-tier B/C/D**, with **D as a re-escalation *ceiling*, not a discrete collapse/nuclear tier** — see `thesis/THESIS.md` v2.0 (rewritten 2026-07-27) and `STATUS.md` (canonical for marks).
+> **How to read the A-referencing sections until they are rewritten:** treat *"Scenario A"* as **the pre-2026-07 4-tier framework's most-benign tier**, i.e. roughly today's **B (Deal / Verified Reopen)**; and read *"B → A downgrade"* as **"further de-escalation beyond B."** The **thesis-kill conditions and the C→B downgrade triggers below are unaffected and remain live** — only the A-labelled tiers are orphaned.
+> **Why this is flagged rather than rewritten:** a mis-numbered ladder in a falsification rail is exactly the kind of thing that bites at fire time, and the same 4-tier residue was cleared out of `THESIS.md` the same day. **A full rewrite of this file is a dated next-session item, not a banner to re-stamp** (`[[finding_banner_is_a_warning_not_a_fix]]` — this note names *what* is wrong and what replaced it, which "SUPERSEDED" alone would not).
+> **Falsification status as of 2026-07-27 closeout: NOTHING FIRED.** Thesis-kill is **0/7** (a *pause* is not a ceasefire; mines present with no detonation on a hull; insurance moving the *opposite* way at 7.5-10%/hull; Brent **$88.19**, not <$80). No BTFP-2.0-class facility. C→B "Hormuz traffic recovers >50% in 10 days" is **unmet** at 15/88 = 17%.
+
 # FALCON — Exit Protocol & Falsification Criteria | Created Mar 20 2026 (as HAWK), inherited by FALCON Jul 12 2026
 
 ## EXIT RULES (FALSIFICATION) — UPDATED MAR 17
