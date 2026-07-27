@@ -188,23 +188,39 @@ def compute_m1m2(contracts: list[dict], as_of: date) -> tuple[float | None, floa
     if dte < ROLL_WINDOW and len(live) >= 3:
         m3 = live[2]
         adj = (m3["price"] - m2["price"]) / m2["price"] * 100
-        return round(strict, 4), round(adj, 4), m2["symbol"], m3["symbol"]
-    return round(strict, 4), round(strict, 4), m1["symbol"], m2["symbol"]
+        return round(strict, 3), round(adj, 3), m2["symbol"], m3["symbol"]
+    return round(strict, 3), round(strict, 3), m1["symbol"], m2["symbol"]
+    # 3dp, matching FORGE vix_futures.compute_steepness (which thresholds.py writes
+    # through). Was 4dp — the two agreed on the number but disagreed on precision,
+    # so a naive equality check between a backfilled cell and a thresholds-written
+    # one reported a MISMATCH that did not exist (7.4965 vs 7.497). Uniform
+    # precision removes a false-difference trap from the column. 0.001% is far
+    # finer than the KB-VIO-025 bands (5.6 / 8.99).
 
 
 def backfill_m1m2(days: int, rows: dict[str, dict], pause_s: float = 0.5, allow: bool = False) -> int:
-    # HARD GATE — refuses unless explicitly allowed (VIOLET 6/14, Orc verification:
-    # the prior version warned-then-proceeded, so a default run still filled the
-    # ~79 blank cells with same-day/unstamped values; the docstring said BLOCKED
-    # but the code did not enforce it). The convention is unresolved; this path
-    # writes SAME-DAY/unstamped m1m2, inconsistent with thresholds.py's T-1 series.
-    print("  ⚠️  M1:M2 CONVENTION HAZARD: this path writes SAME-DAY/unstamped m1m2,")
-    print("      inconsistent with thresholds.py's T-1 series — convention UNRESOLVED")
-    print("      (VIOLET 6/13). See MAINTENANCE.md (#4 convention decision).")
-    if not allow:
-        print("  ⛔ REFUSING m1m2 backfill — pass --allow-m1m2 to override (only after")
-        print("     the convention is resolved). Skipping m1m2 path; spot data unaffected.")
-        return 0
+    # GATE LIFTED 2026-07-27 — open decision #4 is CLOSED. History, so nobody has
+    # to re-derive this: the 6/14 hard gate existed because this path wrote
+    # SAME-DAY *and UNSTAMPED* m1m2 while thresholds.py wrote T-1, so the two tools
+    # silently disagreed about one column and a reader had to guess which
+    # convention a cell followed.
+    #
+    # Both halves are now gone. (a) This path stamps `m1m2_settle_date` (above), so
+    # every cell it writes SAYS which settlement it is. (b) thresholds.py no longer
+    # has a fixed T-1 convention to disagree with — post-settle runs now resolve
+    # SAME-DAY (KB-VIO-130 fix), so the series is legitimately mixed and always has
+    # been going to be.
+    #
+    # The resolution is therefore option (a) from decision #4, in its strongest
+    # form: THE SERIES IS SELF-DESCRIBING. The convention is not "T-1" or
+    # "same-day" — it is "read `m1m2_settle_date`", which is KB-VIO-092-proof
+    # because no reader ever has to assume. `--allow-m1m2` is still ACCEPTED so
+    # existing invocations keep working, but it is now a no-op.
+    if allow:
+        print("  ℹ️  --allow-m1m2 is a no-op since 2026-07-27 (decision #4 closed); "
+              "the gate it overrode is gone.")
+    print("  ℹ️  m1m2 backfill writes SAME-DAY values, each STAMPED with its own")
+    print("      m1m2_settle_date. Legacy pre-2026-06-10 cells remain unstamped.")
     today = date.today()
     touched = 0
     requested = 0
@@ -234,6 +250,12 @@ def backfill_m1m2(days: int, rows: dict[str, dict], pause_s: float = 0.5, allow:
         row["m1m2_adj_pct"] = adj
         row["m1_symbol"] = m1s
         row["m2_symbol"] = m2s
+        # STAMP THE SETTLEMENT'S OWN DATE (added 2026-07-27 — this is what closed
+        # open decision #4). The value above is fetched FOR date `d` and computed
+        # with as_of=`d`, so it is genuinely SAME-DAY; the defect was never the
+        # number, it was that the row did not SAY so. An unstamped cell forces the
+        # reader to assume a convention, which is the KB-VIO-092 failure class.
+        row["m1m2_settle_date"] = d_str
         rows[d_str] = row
         touched += 1
         time.sleep(pause_s)
