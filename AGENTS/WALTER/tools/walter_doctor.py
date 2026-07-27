@@ -32,7 +32,7 @@ Checks:
   boot_protocol_xref     every [→ BP §x] pointer resolves to a real BOOT_PROTOCOL section (and back)
   status_spine_overflow  STATUS.md dated-lead count vs the ~5 cap (protocol §12 spine-trim guard)
   restated_set_drift     prose restatements of a SET/COUNT vs canonical source (3 seeds; see docstring)
-  cluster_softcap_breach cluster size vs its CLUSTER_TAXONOMY soft cap (split-vs-keep prompt)
+  cluster_review_overdue  days since each large cluster's last coherence review (cadence prompt)
   registered_but_unrouted agent has a REGISTRY row but zero ROUTING_TABLE presence
 
 The two delivery checks mechanize BOARD_CONSUMPTION_SPEC v0.2 §6 (the anti-rot
@@ -985,51 +985,106 @@ def check_restated_set_drift():
     return out
 
 
-def check_cluster_softcap_breach():
-    """A cluster's soft cap (CLUSTER_TAXONOMY `Soft cap` column) is the size at which
-    its split-vs-keep decision re-opens. NOT a restatement check — a THRESHOLD check,
-    same shape as status_spine_overflow, which is why it lives on its own rather than
-    inside restated_set_drift.
+def check_cluster_review_overdue():
+    """Has each large cluster been COHERENCE-REVIEWED lately — i.e. when did we last ask
+    whether it is still answering one question?
 
-    Why it exists: the cap was un-evaluable from the doc that defined it. Through v0.3
-    the taxonomy carried a rotting `Current count` column (a v0.1-era snapshot), so
-    AI_INFRA_CAPEX read **3** against its cap of **15** while BOARD actually held **23**
-    — a governance rule breached by 8 with nothing surfacing it, for ~6 weeks. v0.4
-    (2026-07-16, Will-approved) swapped the derived-and-rotting count column for the
-    stable cap column and pointed counts at the live INDEX ToC; this check closes the
-    loop by evaluating the cap against that live count.
+    REPLACES `cluster_softcap_breach` (retired 2026-07-27, Will-approved). What changed
+    and why, because the predecessor was not wrong so much as pointed at the wrong thing:
 
-    A breach is a PROMPT, not a rule: it re-opens the split-vs-keep question (taxonomy
-    MISC-vs-new-cluster tree). It does NOT auto-split, auto-raise the cap, or block
-    dispatch — **Will signs off** on any split. MED so it's visible without pretending
-    to be blocking."""
-    tax = _read(WALTER / "design/CLUSTER_TAXONOMY.md")
+    The old check compared a cluster's live row-count against a `Soft cap` integer. It
+    was built to fix a real failure — through v0.3 the taxonomy carried a rotting
+    `Current count` column, so AI_INFRA_CAPEX read **3** against a cap of **15** while
+    BOARD actually held **23**: a governance rule breached by 8, with nothing surfacing
+    it, for ~6 weeks. **That lesson stands and is why this check is still MECHANIZED
+    rather than becoming a remembered ritual** (`finding_mechanize_the_cap_not_the_ritual`).
+
+    But the cap fired on the wrong measurement, and on 2026-07-27 that cost us. At 40/40
+    the mandated v0.6 evaluation ran and limb (b) FIRED — two of four original angles had
+    <2 signals in 60d — which reads at face value as "this cluster is decaying, split it."
+    The angles were empty because **WALTER had never collected them** (TrendForce: 0 hits
+    across 764 archive rows; Micron's beat never entered intake at all), and the filter
+    had been audited clean. **A row count measures your own taxonomy and intake, never the
+    domain** (`finding_count_measures_intake_not_domain`) — so the cap was capable of
+    recommending a split of a healthy cluster on the strength of a collection gap.
+
+    Two further problems with an absolute threshold: AI_INFRA_CAPEX was the ONLY capped
+    cluster while IRAN_HORMUZ ran to 95, CONSUMER_STAGFLATION 103 and BANK_COLLATERAL 94
+    uncapped and unremarked; and once size >= cap, EVERY subsequent dispatch re-fires the
+    same prompt — noise on a live cluster during an active thesis.
+
+    So this check asks a question that is always TRUE and always ACTIONABLE — *when did we
+    last look?* — instead of one that makes a claim about the cluster. It cannot
+    misdiagnose, because it does not diagnose; it just says "go evaluate."
+
+    Grading is deliberately asymmetric:
+      * MED  — a cluster WAS reviewed and the review has gone stale past REVIEW_DAYS. We
+               know the question matters here and we let it rot: that is the real alarm.
+      * INFO — large clusters never reviewed at all. Listed compactly, not alarmed, because
+               8 simultaneous LOWs on day one is exactly the noise this replaces.
+
+    A prompt, never a rule: it does NOT auto-split, auto-recut or block dispatch. Will
+    signs off on any taxonomy change. Reviews live at `design/*AXIS_CHECK*<YYYY-MM-DD>.md`
+    and are matched to clusters by CONTENT, not filename — the 7/16 and 7/27 reviews are
+    named `AI_CAPEX_AXIS_CHECK_*` while the cluster is `AI_INFRA_CAPEX`, so filename
+    matching would silently find nothing."""
+    REVIEW_SIZE = 25      # below this, a cluster is too small to warrant periodic review
+    REVIEW_DAYS = 30      # a coherence review older than this is stale
     idx = _read(BOARD / "INDEX.md")
-    if tax is None or idx is None:
-        return [(LOW, "CLUSTER_TAXONOMY.md or BOARD/INDEX.md unreadable — soft caps unchecked")]
-    caps = {}
-    for name, cell in re.findall(r"^\|\s*\d+\s*\|\s*\*\*([A-Z][A-Z_]+)\*\*\s*\|[^|]*\|([^|]*)\|",
-                                 tax, re.M):
-        m = re.search(r"\d+", cell)
-        if m:
-            caps[name] = int(m.group(0))
-    if not caps:
-        return [(INFO, "no cluster soft caps set (taxonomy `Soft cap` column all '—')")]
+    if idx is None:
+        return [(LOW, "BOARD/INDEX.md unreadable — cluster review cadence unchecked")]
     live = {n: int(c) for n, c in re.findall(r"^## ([A-Z][A-Z_]+) \((\d+)\)$", idx, re.M)}
-    out = []
-    for name, cap in sorted(caps.items()):
-        n = live.get(name)
-        if n is None:
-            out.append((LOW, f"soft cap set for {name} (cap {cap}) but no BOARD INDEX section — "
-                             f"cluster renamed or not yet used?"))
-        elif n > cap:
-            out.append((MED, f"{name} is {n} vs soft cap {cap} (+{n - cap}) — BREACHED: re-open "
-                             f"split-vs-keep (taxonomy MISC-vs-new-cluster tree). A prompt, not a "
-                             f"rule — Will signs off on any split; do NOT auto-split or re-cap."))
+    if not live:
+        return [(LOW, "no cluster sections parsed from BOARD/INDEX.md")]
+
+    newest = {}   # cluster -> (date, filename)
+    for f in sorted((WALTER / "design").glob("*AXIS_CHECK*.md")):
+        m = re.search(r"(\d{4}-\d{2}-\d{2})", f.name)
+        if not m:
+            continue
+        try:
+            d = dt.date.fromisoformat(m.group(1))
+        except ValueError:
+            continue
+        body = _read(f) or ""
+        # A review must DECLARE its subject. Matching on any mention is a false-positive
+        # factory: the 2026-07-27 review name-checks IRAN_HORMUZ / CONSUMER_STAGFLATION /
+        # BANK_COLLATERAL / POSITIONING_VALUATION purely as peer-size comparisons, which
+        # on a naive "name appears in body" match reported all four as freshly reviewed.
+        # Caught in test before shipping. Explicit declaration beats inference.
+        declared = re.findall(r"^reviews_cluster:\s*([A-Z][A-Z_]+)\s*$", body, re.M)
+        if not declared:                                  # fallback: the H1 title only
+            h1 = re.search(r"^#\s+(.+)$", body, re.M)
+            declared = re.findall(r"[A-Z][A-Z_]{3,}", h1.group(1)) if h1 else []
+        for name in declared:
+            if name in live and (name not in newest or d > newest[name][0]):
+                newest[name] = (d, f.name)
+
+    today = dt.date.today()
+    big = {n: c for n, c in live.items() if c >= REVIEW_SIZE}
+    out, never = [], []
+    for name, count in sorted(big.items()):
+        if name not in newest:
+            never.append(f"{name} {count}")
+            continue
+        d, fn = newest[name]
+        age = (today - d).days
+        if age > REVIEW_DAYS:
+            out.append((MED, f"{name} ({count} signals): last coherence review was {age}d ago "
+                             f"({fn}) — past the {REVIEW_DAYS}d window. Re-run the "
+                             f"CLUSTER_TAXONOMY revisit test (bidirectional: angle count >5, "
+                             f"or any original angle <2 signals in 60d). A PROMPT, not a rule "
+                             f"— and check whether an empty angle is empty in the DOMAIN or "
+                             f"empty in INTAKE before concluding anything."))
+        else:
+            out.append((INFO, f"{name} ({count}) reviewed {age}d ago ({fn}) — within the "
+                              f"{REVIEW_DAYS}d window"))
+    if never:
+        out.append((INFO, f"large clusters never coherence-reviewed ({len(never)}, >={REVIEW_SIZE} "
+                          f"signals): " + " · ".join(sorted(never, key=lambda x: -int(x.split()[-1])))
+                          + " — informational, not a backlog; review is cheap and on-demand"))
     if not out:
-        out.append((INFO, "all cluster soft caps within limit ("
-                          + ", ".join(f"{n} {live.get(n, '?')}/{c}" for n, c in sorted(caps.items()))
-                          + ")"))
+        out.append((INFO, f"no clusters at or above the {REVIEW_SIZE}-signal review floor"))
     return out
 
 
@@ -1153,7 +1208,7 @@ CHECKS = [
     ("dropzone_pending", check_dropzone_pending),
     ("boot_protocol_xref", check_boot_protocol_xref),
     ("status_spine_overflow", check_status_spine_overflow),
-    ("cluster_softcap_breach", check_cluster_softcap_breach),
+    ("cluster_review_overdue", check_cluster_review_overdue),
     ("registered_but_unrouted", check_registered_but_unrouted),
 ]
 

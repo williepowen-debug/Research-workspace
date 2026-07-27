@@ -1,5 +1,7 @@
 # AI_INFRA_CAPEX axis check + VULCAN filter adjudication — 2026-07-16
 
+reviews_cluster: AI_INFRA_CAPEX
+
 **Status:** COMPLETE. Verdict delivered, WALTER-verified. **✅ ALL 4 FIXES LANDED same-day** — see §5.
 > **✅ CLOSED 2026-07-16 ~21:00Z.** **Fixes 1+2 (intake) landed by PROME** in RESEARCH-INTAKE `faddb1e` — *WALTER independently re-verified in the live lane, not taken on report:* **MU CIK `723125` in `fetch_edgar_8k.py` TARGETS ✓** · **`memory-cycle` (TrendForce/DRAM/NAND/HBM) + `ai-capex` queries in `newsweep_config.py`, both tagged `VULCAN` ✓** (VULCAN is now the **first agent added to the lane's coverage since April** — agent set 9 → 10) · **the `fred` retry patch is live ✓** (PROME mock-tested 504→retry→success + 403 fail-fast, then live-tested all 4 dropped series; **MORTGAGE30US 6.55 confirms the lost-alert case**). **Fixes 3+4 (WALTER's) landed in CLUSTER_TAXONOMY v0.6** — `cluster_secondary` **forward-only + grandfathered** (Will's call) and the **bidirectional revisit trigger**.
 > **Registered testable checkpoints (both sides):** **MU FQ4 ~2026-08-04 must surface in the lane** · **the first TrendForce hit ends the 0-in-764 streak.** If either fails, the fix failed — flag PROME.

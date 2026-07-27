@@ -1,5 +1,7 @@
 # AI_INFRA_CAPEX — REVISIT-TRIGGER EVALUATION AT THE 40/40 CAP
 
+reviews_cluster: AI_INFRA_CAPEX
+
 **Date:** 2026-07-27 · **Run by:** WALTER · **Trigger:** `SIG-W-20260727-012` took the cluster to **40/40**, AT the soft cap set by `CLUSTER_TAXONOMY` v0.5 (Will-approved 7/16, raised 15→40 with the KEEP verdict).
 **Authority:** `CLUSTER_TAXONOMY` v0.6 — *"Evaluate at a cap breach or a review, **not continuously**"*; the evaluation is **WALTER-owned, no Will gate.** Changing the cap is **Will's** (spec Rule 8: structural change → proposal first).
 **Precedent:** [`AI_CAPEX_AXIS_CHECK_2026-07-16.md`](AI_CAPEX_AXIS_CHECK_2026-07-16.md) (the v0.5/v0.6 check).
