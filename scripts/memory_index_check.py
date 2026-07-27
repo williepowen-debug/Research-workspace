@@ -29,7 +29,9 @@ USAGE
   python3 scripts/memory_index_check.py              # forward check (all slugs)
   python3 scripts/memory_index_check.py --refs SLUG  # reverse check, pre-rename
   python3 scripts/memory_index_check.py --quiet      # only problems
-  python3 scripts/memory_index_check.py --strict     # EXIT 1 on a sync-breaking pointer
+  python3 scripts/memory_index_check.py --strict     # EXIT 1 on ANY sync-breaking pointer (fleet/CI gate)
+  python3 scripts/memory_index_check.py --strict --slug NAME [--slug NAME ...]
+                                                     # EXIT 1 only for the named memories (agent closeout gate)
 
 CONTRACT: advisory, read-only, <5s, no network. Never stages, writes or commits.
 Exit 0 ALWAYS **unless --strict is passed** — the default is unchanged and still
@@ -50,6 +52,19 @@ closeout protocols (BROCK wired it into AGENTS/BROCK/CLAUDE.md §12 the same day
 MISSING stays advisory even under --strict, deliberately: the original design
 notes that a forward-reference to a memory you intend to write later is
 legitimate, and that judgement is preserved.
+
+⚠️ USE --slug FOR AN AGENT CLOSEOUT GATE. Bare --strict fails on the WHOLE index,
+which is right for a fleet/CI gate and WRONG for one agent's closeout: root
+CLAUDE.md carve-out ③ lets you commit only memories YOU authored, so a bare
+--strict can block your closeout on another agent's orphan that you are
+forbidden to fix. Found the hard way within an hour of shipping --strict — five
+orphans from two other live sessions failed BROCK's own closeout, on files
+carve-out ③ explicitly excluded it from touching. A gate that fails on something
+the runner cannot fix trains people to bypass the gate, which is exactly the
+inertia that let the always-exit-0 version rot unused. Scope it to what you wrote:
+  --strict --slug finding_your_memory_name
+The full index picture is still PRINTED either way; --slug only narrows what is
+allowed to FAIL the run.
 
 HOMED FLEET-LEVEL, NOT IN walter_doctor, deliberately: `memory/auto/` is
 fleet-shared, so the check must be runnable at ANY agent's session, not only
@@ -123,11 +138,16 @@ def index_slugs():
     return ordered
 
 
-def forward_check(quiet=False):
+def forward_check(quiet=False, scope=None):
     """Returns the count of SYNC-BREAKING pointers (gitignored + uncommitted).
 
     MISSING is intentionally excluded from the count: a forward-reference to a
     memory you intend to write later is legitimate (original design note).
+
+    `scope` — an iterable of slugs. When given, the full index is still REPORTED
+    but only these slugs may contribute to the returned failure count. This is
+    what makes the gate usable at an individual agent's closeout, where carve-out
+    ③ permits committing only memories that agent authored.
     """
     slugs = index_slugs()
     if slugs is None:
@@ -149,6 +169,13 @@ def forward_check(quiet=False):
             missing.append(slug)
 
     ok = len(slugs) - len(gitignored) - len(uncommitted) - len(missing)
+
+    if scope is not None:
+        scope = {s.removesuffix(".md") for s in scope}
+        unknown = scope - set(slugs)
+        blocking = [s for s in (gitignored + uncommitted) if s in scope]
+    else:
+        unknown, blocking = set(), gitignored + uncommitted
 
     print("memory_index_check — forward (index → committed file)")
     print("=" * 68)
@@ -181,7 +208,17 @@ def forward_check(quiet=False):
     elif not quiet:
         print("\n  Nothing was changed (read-only). Pass --strict to make this exit 1.")
 
-    return len(gitignored) + len(uncommitted)
+    if scope is not None:
+        others = (len(gitignored) + len(uncommitted)) - len(blocking)
+        print(f"\n  [SCOPED] gate limited to {len(scope)} named slug(s): {len(blocking)} blocking"
+              + (f"; {others} other orphan(s) reported but NOT failing (not yours to commit —"
+                 " root CLAUDE.md carve-out ③)." if others else "."))
+        if unknown:
+            print(f"  [SCOPED] ⚠ {len(unknown)} --slug name(s) are not referenced in MEMORY.md at all: "
+                  + ", ".join(sorted(unknown)))
+            print("           A memory with no index row is invisible at boot — add its one-line entry.")
+
+    return len(blocking) + len(unknown)
 
 
 def refs_check(slug):
@@ -236,7 +273,8 @@ def main():
         refs_check(args[i + 1].strip().removesuffix(".md"))
         return 0
 
-    broken = forward_check(quiet="--quiet" in args)
+    scope = [args[i + 1] for i, a in enumerate(args) if a == "--slug" and i + 1 < len(args)]
+    broken = forward_check(quiet="--quiet" in args, scope=scope or None)
     if "--strict" in args and broken:
         print(f"\n❌ FAIL (--strict): {broken} index pointer(s) name a memory git will not ship.")
         print("   MEMORY.md loads at every agent boot, so on another machine these rows")

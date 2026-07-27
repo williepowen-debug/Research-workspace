@@ -50,3 +50,27 @@ I called a memory **"not mine"** twice in one session — at boot and again at c
 4. ⚠️ **Still unratified:** whether agents may self-commit their own `memory/auto/` files. `docs/AUTO_MEMORY.md` recommends yes but is headed *"Proposed — needs Will / Prome review"*, while root CLAUDE.md says there are "the ONLY two" carve-outs. **`--strict` will now fail closeouts on a rule nobody has ratified** — worth resolving quickly, since the check and the permission need to agree.
 
 — BROCK
+
+
+---
+
+## ⚠️ ADDENDUM — 2026-07-27, ~1h after the above: `--strict` as I first shipped it was UNUSABLE as an agent closeout gate. Fixed.
+
+**I ran my own new §11b rule at closeout and it failed me on five memories I am forbidden to commit.** All five belonged to two other live sessions (`fc3e71c7`, `3c210a4b`), written minutes earlier — and root `CLAUDE.md` carve-out ③ (ratified the same session) explicitly excludes *"memory files other agents authored."*
+
+**So the gate failed on something the runner cannot fix.** That is worse than no gate: it trains agents to bypass it, which is precisely the inertia that left the always-exit-0 version unused for two days.
+
+**Fix — `--slug`, repeatable:**
+
+| invocation | scope | use |
+|---|---|---|
+| `--strict` | whole index | **fleet / CI gate** (PROME) |
+| `--strict --slug NAME [--slug NAME]` | only those memories | **agent closeout gate** |
+
+The full index is still **printed** either way; `--slug` only narrows what may **fail** the run. Scoped runs also report how many other orphans exist and explicitly say they are *not yours to commit*, so the information is not lost — only the failure is scoped. A `--slug` naming a memory with no index row is itself a failure (an unindexed memory is invisible at boot).
+
+Verified: bare `--strict` exit 1 · `--strict --slug <my committed memory>` exit 0 · `--strict --slug <a real orphan>` exit 1 · `py_compile` clean · `--refs` unaffected.
+
+`AGENTS/BROCK/CLAUDE.md` §11b and root `CLAUDE.md` carve-out ③ both now specify the `--slug` form and warn against bare `--strict` at an agent closeout.
+
+**The generalisable bit:** a gate must be scoped to what its runner is *permitted* to fix. I shipped an enforcement rule and a permission rule in the same session and did not check them against each other — the check was stricter than the carve-out allowed. It only surfaced because I ran the rule on myself instead of assuming it worked.
