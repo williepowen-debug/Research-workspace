@@ -1,6 +1,6 @@
 # FLEET DIRECTORY — what every agent is, does, and is missing
 
-> **GENERATED — DO NOT EDIT.** Rendered from `PROME/ROSTER.md` (existence · domain · status) + `AGENTS/DAEDALUS/FLEET_MAP.tsv` (class · maturity · missing/next) by `AGENTS/DAEDALUS/scripts/render_directory.py`. Edit the **sources**, then regenerate — hand-edits are overwritten. Generated 2026-07-25.
+> **GENERATED — DO NOT EDIT.** Rendered from `PROME/ROSTER.md` (existence · domain · status) + `AGENTS/DAEDALUS/FLEET_MAP.tsv` (class · maturity · missing/next) by `AGENTS/DAEDALUS/scripts/render_directory.py`. Edit the **sources**, then regenerate — hand-edits are overwritten. Generated 2026-07-27.
 
 *One source of truth per column (PAT-006): **what it does** + **status** ← ROSTER (PROME); **class** + **maturity level** + **missing/next** ← FLEET_MAP (DAEDALUS). "Missing / next" is a truncated one-liner — full gap detail in `FLEET_MAP.tsv` + `upgrades/<AGENT>_CARD.md`. PROME (coordinator) and dormant agents are un-graded → blank grade cells.*
 
@@ -18,7 +18,7 @@
 | HENRY | Market | L4 | Macro velocity / market trends | §2 handle table (the single named blocker) |
 | CARL | Market | L4 | Consumer & credit-transmission macro | L5: consistency_check Phases B/C |
 | LABOR | Market | L5 | Labor market (claims / JOLTS / NFP) | HOLD L5 (FIRST MARKET L5, ratified 7/25) — sustain: clean closeouts |
-| BROCK | Market | L4 | Private credit / BDC / non-traded credit | L4->L5: TRADE.md freeze-or-refresh (packet in BROCK inbox 7/22) |
+| BROCK | Market | L4 | Private credit / BDC / non-traded credit | L4->L5: YEYOU leg only — agent-side blockers ALL clear 7/27 |
 | HAWK | Market | L4 | Geopolitical synthesis (cross-war reconciliation, oil-decoupling thesis, war-risk/shipping) + dormant book (Taiwan/Venezuela/trade/chokepoints/defense/sanctions) — theaters split out 7/12††† | If no real synthesis pass by FAL-01/OSP-01 resolution week (~8/1) or ne… |
 | TERRY | Utility | L4 | Trade construction / risk scoring | L5: one full cycle w/ gate-grader discipline holding (no surface carrie… |
 | REGINALD | Market | L4 | Regional banks | PROMOTE L4->L5 on verify: post-print THESIS refresh executed |
