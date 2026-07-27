@@ -116,7 +116,7 @@ Fourth instance of the wording-wedge family: HAW-10 (locus) → HAW-14 (catalyst
 |---|---:|---:|---|
 | **P — Premium** *(repricing / willingness to move a hull)* | **23 / 25** | **🔴 92%** | Hormuz 5 · oil tape 5 · shipping-insurance 5 · Bab 5 · macro-credit 3 |
 | **K — Kinetic driver** | **12 / 20** | 60% | Iran/proxy ops 4 · US-Iran direct 3 · diplomacy 3 · cyber 2 |
-| **R — Realized supply loss** | **7 / 20** | 35% | see sub-scale below |
+| **R — Realized supply loss** | **8 / 20** ↑ | 40% | see sub-scale below — **R1-R3 still at the FLOOR; the entire increase is R4** |
 | *Gulf production/bypass infra* | *5* | — | *the straddling vector — scored on a **hit** basis, which is exactly why R needs its own scale* |
 
 *(P 23 + K 12 + Gulf-infra 5 = 40 = the composite. R is a **new orthogonal sub-scale**, not a re-slice of the 10 vectors — no existing vector measured realized loss, which was the gap.)*
@@ -128,9 +128,9 @@ Fourth instance of the wording-wedge family: HAW-10 (locus) → HAW-14 (catalyst
 | **R1** | Confirmed barrels offline | **1 / 5** | **ZERO confirmed**, 3 days after Jazan |
 | **R2** | Active force majeure in-theater | **1 / 5** | **None current** (Bapco + Ras Laffan were *March*) |
 | **R3** | Confirmed export interruption | **1 / 5** | **None** — Bab −56% is P-attributable routing avoidance, not an outage |
-| **R4** | Physical damage to production/refining assets | **4 / 5** | 🔴 **Jazan burning** — first Aramco production-class hit since 2022; Abqaiq attempted |
+| **R4** | Physical damage to production/refining assets | **5 / 5** ↑ | 🔴 **Jazan burning** (still, on two claimant-independent satellites as of 7/26-27) **AND Abqaiq confirmed burning** (NASA FIRMS, six hotspots, FRP to 299 MW) — the world's highest-value crude node, upgraded from "attempted" at the 7/27 closeout |
 
-> **🔑 R1, R2 and R3 are all at the ABSOLUTE FLOOR. The entire R score is carried by R4 — damage that has not become loss.** That is the premium-vs-supply-loss thesis expressed as four integers instead of a paragraph, and it is now gradeable week to week.
+> **🔑 R1, R2 and R3 are all at the ABSOLUTE FLOOR. The entire R score is carried by R4 — damage that has not become loss.** ⚠️ **R4 went 4→5 at the 7/27 closeout on the confirmed Abqaiq fire, and R1-R3 did NOT move. That is the thesis surviving a real test:** the theater put fires on its two highest-value crude nodes in 72 hours and **still produced zero confirmed barrels offline.** That is the premium-vs-supply-loss thesis expressed as four integers instead of a paragraph, and it is now gradeable week to week.
 
 **🎯 R1/R2/R3 map ONE-TO-ONE onto FAL-03's routes (b)/(a)/(c).** So **FAL-03 is literally the prediction that R1-R3 all stay at 1 through Aug 17** — the split and the ledger row are the same object viewed two ways, which is the HAW-10 wording-identity rule applied structurally rather than just textually.
 
@@ -189,7 +189,8 @@ RED estimated *"~+8 headroom left for real capacity destruction."* The split con
 
 | Trap | Reality |
 |---|---|
-| **"Abqaiq halted, 7 mb/d off the market" / "WTI $110"** | **FALSE.** Saudi MoD says **intercepted**. 7 mb/d is **nameplate re-labelled** as realised loss. **Own live pull: Brent $88.19, WTI $82.38.** A real 7 mb/d outage cannot trade −9%. |
+| **"Abqaiq halted, 7 mb/d off the market" / "WTI $110"** | **STILL FALSE** — no Aramco statement, no bpd offline, no FM. 7 mb/d is **nameplate re-labelled** as realised loss. Brent **closed −9.35% at $87.73, at the lows**; 2019's 5.7 mb/d loss gapped Brent **+15-20% in one session**. ⚠️ **BUT MY OWN "intercepted ⇒ nothing happened" READ WAS TOO STRONG AND IS CORRECTED — see below.** |
+| ⚠️ **My own over-correction: "Abqaiq was merely ATTEMPTED"** *(corrected 7/27 closeout)* | **A drone attack on Abqaiq DID occur and DID start a fire.** NASA FIRMS MODIS/Aqua: **six hotspots at 25.92373-25.93767 N / 49.6717-49.70587 E — Abqaiq exactly**; FRP up to **299 MW**; **confidence 100 on five of six**; **DAYNIGHT=N** (night, so not solar glint). **Interception and fire are not mutually exclusive** — the MoD statement is *incomplete*, not refuted. **A guard against a false positive is itself a false-negative risk.** |
 | **Wikipedia "2026 Aramco refinery attack"** | Is the **March 2 Ras Tanura** event, **not** Jazan. Title collision. |
 | **"US struck Kharg Island"** | **13 March 2026**, military/mine-storage targets, **oil terminal left intact**. |
 | **2019 Abqaiq (5.7 mb/d)** | Most-indexed "Houthi hits Aramco" story; outranks Jazan. **Jazan is 400 kbpd with zero confirmed loss.** |

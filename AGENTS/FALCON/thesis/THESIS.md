@@ -4,7 +4,7 @@
 **Last Updated:** 2026-07-27
 **Status:** 🔴 ACTIVE WAR — but the regime is **risk-premium, not supply-loss**, and the theater now contains **two counter-moving wars**
 **Conviction:** MEDIUM-HIGH on the regime call · MEDIUM on the marks
-**Scenario ladder:** **B 10 / C 40 / D 50** · **Convergence 40/50** · **P 23/25 · K 12/20 · R 7/20**
+**Scenario ladder:** **B 10 / C 40 / D 50** · **Convergence 40/50** · **P 23/25 · K 12/20 · R 8/20** *(R4 4→5 on the confirmed Abqaiq fire, 7/27 closeout; **R1-R3 unmoved at the floor**)*
 
 > **⚠️ WHY v2.0 IS A MAJOR VERSION.** v1.2 was a *deadline* thesis — it modelled the Apr 21 ceasefire-expiry clock, used a 4-tier A/B/C/D ladder, and priced everything off one binary event. All of that is dead. This document is built on a different question entirely: **not "does the war escalate?" but "does the war's damage ever become lost barrels?"** Every number below is live as of 2026-07-27 and reconciled against `STATUS.md`.
 >
@@ -52,7 +52,7 @@ As of 7/24-27 the theater is no longer one conflict:
 
 **The channel v1.2 assumed was primary. It has not fired since April 9.** Mechanism: facility destruction → capacity offline → FM/export interruption → structural repricing. Route: `FLOW-HAWK-06` (Gulf production shutdown → global supply).
 
-**Status: R = 7/20, and R1/R2/R3 are all at the absolute floor** (confirmed barrels offline `1/5` · active FM `1/5` · export interruption `1/5`). **The entire R score is R4 — physical damage that has not become loss.** Jazan is a refinery *on fire* with zero confirmed outage.
+**Status: R = 8/20, and R1/R2/R3 are all at the absolute floor** (confirmed barrels offline `1/5` · active FM `1/5` · export interruption `1/5`). **The entire R score is R4 — physical damage that has not become loss.** Jazan is a refinery *on fire* with zero confirmed outage.
 
 **⚠️ Dormant ≠ safe. Two things make this channel violent if it activates:**
 1. **OPEC spare capacity is 0.02 mb/d, Middle East 0.00** — there is no buffer under the next event.

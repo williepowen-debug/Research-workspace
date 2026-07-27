@@ -114,9 +114,10 @@ Ceasefire holding at Day 8. No mine clearance, no insurance reinstatement, no re
 - **7/11** — Cyprus container ship hit
 - **7/12** — **3rd US strike round (~140 targets)**; **KOC offshore platform hit** — first production-*class* asset of the cycle, adjudicated **BORDERLINE, non-resolving** (single rig, not the Aramco/ADNOC/Kharg class)
 
-### Jul 13-14 — The hull cluster ⚠️ *dates corrected 7/27*
-- **7/13** — **Mombasa B** (VLCC, UKMTO 086-26) and **Al Bahyah** (VLCC, UKMTO 087-26) struck by cruise missiles ~13nm SE of Limah, Oman. **1 Indian sailor killed, 8 injured.** Both **shuttle-fleet** hulls.
-- **7/14** — **Stolt Magnesium** (27,600 dwt **chemical** tanker) struck 40nm NE of Qalhat, no injuries
+### Jul 14 (local) — The hull cluster ⚠️ *my "7/13" re-dating was REFUTED by WALTER 7/27 — it was a clock collision*
+- **7/14 local, early hours (= late 7/13 UTC)** — **Mombasa B** and **Al Bahyah** (both VLCCs) struck by cruise missiles ~13nm SE of Limah, Oman. **1 Indian sailor killed, 8 injured.** Both **shuttle-fleet** hulls.
+- **7/14 local, ~00:40** — **Stolt Magnesium** (27,600 dwt **chemical** tanker) struck 40nm NE of Qalhat, no injuries
+- 🕐 **THE LESSON: a "date correction" that moves an event back exactly ONE DAY is a CLOCK COLLISION until proven otherwise.** I re-dated the two VLCCs to 7/13 off **UKMTO's UTC** stamps while dating Stolt Magnesium off **local** time — **my own three-row table mixed two clocks.** **ADNOC L&S, owner/operator of both hulls and therefore primary on its own ships, says "early hours of Tuesday 14 July."** And my "independent corroboration" cut the other way: Maritime Executive's 22:12 UTC 7/13 stamp **is 02:12 local 7/14** — the same moment, fitting the operator rather than refuting it. **Standing convention (WALTER, adopted): date kinetic maritime events in LOCAL THEATER TIME (Gulf, UTC+4); UKMTO/JMIC advisories are UTC and read one calendar day EARLIER in the ~20:00-24:00 UTC window. Cite the clock whenever a maritime date is load-bearing.**
 - **7/14** — **US naval blockade** goes live
 - **🔑 WSJ's reframe, integrated:** *Iran is not hitting random hulls — it is attacking **THE BYPASS***. Two of the three were shuttle-fleet VLCCs. *(Double-count risk reconciled and refuted 7/27 — `KB-FALCON-057`.)*
 
@@ -141,7 +142,8 @@ Ceasefire holding at Day 8. No mine clearance, no insurance reinstatement, no re
 - **🔑 The restraint that held was US-Iran's, and it never lapsed.** What arrived was an actor never modelled.
 
 ### Jul 27 — 🔴 THE FOURTH AXIS
-- **Abqaiq + East-West pumping station attacked by drones launched from IRAQI TERRITORY**, Saudi-attributed to Iran-backed militias. **Damage NOT established** — Saudi MoD says intercepted. *(The circulating "7 mb/d halted / WTI $110" claim is nameplate re-labelled and refuted by the tape.)*
+- **Abqaiq + East-West pumping station attacked by drones launched from IRAQI TERRITORY**, Saudi-attributed to Iran-backed militias (the Islamic Resistance in Iraq **denied** it — carry both). Saudi MoD says **intercepted**.
+- ⚠️ **CORRECTED at the 7/27 closeout: a fire DID occur.** NASA FIRMS MODIS/Aqua — **six hotspots at Abqaiq's exact coordinates**, FRP to **299 MW**, **confidence 100 on five of six**, **night acquisition** (not solar glint). **Interception and fire are not mutually exclusive; the MoD statement was incomplete, not wrong.** **Still NOT established: any bpd offline, FM, or export interruption** — the "7 mb/d halted / WTI $110" claim remains false and Brent **closed −9.35% at $87.73**. **Abqaiq is R4 (physical damage), not R1/R2/R3 — a hit is not a loss, and that rule applies to my own reading of it.**
 - **Discriminator #4 fires on the ACTOR axis** after being genuinely unfired all war.
 - **Brent $88.19 (−8.88%) / WTI $82.38** — round-tripped from ~$100.50 **with a 400 kbpd Aramco refinery still burning.**
 - **FAL-03 registered** (58%, Jul 27 – Aug 17) as the falsification test for the premium regime.
