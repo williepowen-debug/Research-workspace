@@ -51,9 +51,13 @@ VIX futures and options expire on the **Wednesday 30 days prior to the third Fri
 
 | Date | Event | VIX Implication | VIOLET Checkpoint |
 |------|-------|-----------------|-------------------|
-| **Jul 29** | **FOMC (no SEP, Warsh)** | Tests 6/17 dot-flip follow-through; hike optionality live (~70% Sep odds priced) | 🔴 **First gate of the Fed-HIKE regime; 4 td out.** VIOLET watch: the two crack-completing legs — VIX>20 break + term-structure inversion (VIX3M/VIX <1.0) into/through the decision (KB-VIO-122). Inside buyback blackout + 7/29-8/1 megacap earnings cluster. |
+| **Jul 29** | **FOMC 2:00 PM ET (no SEP) + Warsh presser 2:30** | Tests 6/17 dot-flip follow-through. **Live hike odds ~34.3% for THIS meeting** (65.7% hold, own pull 7/27, KB-VIO-128) — the board had been pointed at September (82%) instead. Forward guidance **withdrawn** ⇒ wider two-sided distribution with no channel to narrow it. | 🔴 **First gate of the Fed-HIKE regime; 2 td out.** Crack-completing legs on **SETTLE** basis: VIX>20 · inversion VIX3M/VIX <1.0 (KB-VIO-122). Inside buyback blackout. **Final KB-VIO-123 grade due Stale_By 7/30.** |
+| **Jul 29** | **MSFT + META Q2 (AH)** | Same-day as FOMC | 🟠 **VULCAN-09 test.** Reaction function already demonstrated: GOOGL capex raise to $195-205B + TSLA +142%, both negative FCF → Mag-7 −4.8% / ~$787B on 7/23. Semis at 2nd-highest constituent IV on record (KB-VIO-126). |
+| **Jul 30** | **AMZN Q2 (AH) + 🆕 AAPL Q3 FY26 (AH, 5:00 PM ET)** | **Apple was missing from the fleet calendar entirely** — flagged by WALTER SIG-013, date verified by own pull 7/27 | 🔴 **Highest-density single night.** AAPL is **Tim Cook's FINAL earnings call as CEO** (→ John Ternus) — a CEO-transition print for the largest index constituent, stacked on AMZN and the BOJ window. Consensus ~$108.9B rev / ~$1.89 EPS. |
+| **Jul 30-31** | **BOJ MPM (decision 7/31)** | Carry→vol transmission | 🟠 jpy_vol **IV/RV 3.24×** [7/27] re-loaded against RV10 at **p7.7** — event premium widening on a floor-level realized leg, into carry's strongest year since 2005 (crowded short-FX-vol). **SAM owns the yen call; VIOLET owns the transmission read only.** |
+| **Jul 31** | COT release (report-date 7/28) · **KB-VIO-127 Karsan call resolves** | Positioning + scored prediction | 🟡 Did the lev-money unwind continue through FOMC? Karsan HIT = VIX ≥23 touch or >20 settle-and-hold — **base case MISS** (episode high 20.31, rejected). |
 | Aug 19 | VIX August expiration | Standard monthly | ⚪ Low. |
-| Sep 16 | FOMC + SEP + VIX Sep quarterly expiry | Quarterly dot-plot convergence; ~1 hike priced by Sep | 🟠 Next major gate. |
+| Sep 16 | FOMC + SEP + VIX Sep quarterly expiry | Quarterly dot-plot convergence | 🟠 Next major gate. |
 
 **Resolved (7/2–7/22):** June jobs 7/2 (Gate B NO-FIRE, KB-VIO-111) · post-DISH CCC 7/2 · SK Hynix ADR ~7/10 · June CPI 7/14 · VIX July expiry 7/15 · Japan TIC/MOF/BoK 7/16 · **MOF ITS 7/22 — passed clean (USDJPY 163.82 weakened, no carry unwind; jpy_vol canary CALM).**
 
@@ -112,4 +116,5 @@ VIX futures and options expire on the **Wednesday 30 days prior to the third Fri
 ---
 
 *Created: 2026-04-12*
-*Last Updated: 2026-07-23 (sit-rep boot: pruned fired July catalysts [7/2–7/16 + MOF 7/22] to Resolved; forward set now FOMC 7/29 (🔴, 4 td) → Aug expiry → Sep FOMC+SEP+quarterly. FOMC row gains the VIOLET crack-leg watch (VIX>20 + inversion <1.0, KB-VIO-122). Twin: CATALYSTS.tsv same-session. Prior: 7/01 five-day-gap boot.)*
+*Last Updated: 2026-07-27 (post-close settle boot: forward-catalyst set REBUILT — CATALYSTS.tsv carried only 3 forward rows while STATUS treated BOJ + the megacap cluster as live, a twin-divergence the protocol forbids. Added MSFT/META 7/29, **AMZN + AAPL 7/30** (Apple was absent fleet-wide; date verified by own web pull, and it is Cook's final call), BOJ 7/31, COT 7/31, KB-VIO-127 resolution 7/31. FOMC row updated with the live 34.3% July-hike odds per KB-VIO-128. Twin verified via catalyst_countdown.py same session. Prior: 7/23.)*
+*Superseded stamp: 2026-07-23 (sit-rep boot: pruned fired July catalysts [7/2–7/16 + MOF 7/22] to Resolved; forward set now FOMC 7/29 (🔴, 4 td) → Aug expiry → Sep FOMC+SEP+quarterly. FOMC row gains the VIOLET crack-leg watch (VIX>20 + inversion <1.0, KB-VIO-122). Twin: CATALYSTS.tsv same-session. Prior: 7/01 five-day-gap boot.)*

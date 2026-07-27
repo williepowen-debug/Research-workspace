@@ -18,7 +18,7 @@ import argparse
 import json
 import subprocess
 import sys
-from datetime import datetime, timezone
+from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
 from zoneinfo import ZoneInfo
 
@@ -81,18 +81,42 @@ def fetch_spot() -> dict:
     return out
 
 
-def fetch_m1m2() -> dict:
-    """Invoke vix_futures.py --json, return its dict (or {} on failure)."""
-    try:
-        result = subprocess.run(
-            [str(VENV_PY), str(VIX_FUTURES_CLI), "--json"],
-            capture_output=True, text=True, timeout=30, cwd=str(WORKSPACE),
-        )
-        if result.returncode != 0:
-            return {"_error": result.stderr[:200]}
-        return json.loads(result.stdout)
-    except Exception as e:
-        return {"_error": str(e)}
+def fetch_m1m2(start: date | None = None, max_lookback: int = 5) -> dict:
+    """Invoke vix_futures.py --json, return its dict (or {"_error": ...}).
+
+    The CLI defaults to today-minus-one-CALENDAR-day, which lands on a day with
+    no VX settlements every Monday (Sunday) and after every holiday. That
+    silently blanked the m1m2 columns on 8 of 12 Mondays since 2026-05-01 (vs
+    2 of 11 Fridays) — the last 8 consecutive Mondays were empty, so the
+    front-curve vector went dark on exactly the session that digests the
+    weekend's news flow (KB-VIO-130, found 7/27).
+
+    Fix: walk backwards from `start` (ET today) to the most recent date that
+    actually HAS settlements. An intraday run before the ~16:15 ET settle post
+    simply fails on today and falls through to the prior business day, which is
+    the correct answer for a TICK-basis row. The settlement's own date still
+    rides out via `as_of`, so the row stays honestly stamped (KB-VIO-092).
+    """
+    if start is None:
+        start = datetime.now(ET).date()
+    last_err = "no settlement found in lookback window"
+    for back in range(max_lookback + 1):
+        query = start - timedelta(days=back)
+        try:
+            result = subprocess.run(
+                [str(VENV_PY), str(VIX_FUTURES_CLI), "--json", "--date", query.isoformat()],
+                capture_output=True, text=True, timeout=30, cwd=str(WORKSPACE),
+            )
+            if result.returncode != 0:
+                last_err = result.stderr[:200]
+                continue
+            payload = json.loads(result.stdout)
+            if payload and "_error" not in payload:
+                return payload
+            last_err = str(payload.get("_error", last_err))[:200]
+        except Exception as e:
+            last_err = str(e)
+    return {"_error": last_err}
 
 
 def determine_regime(vix: float | None) -> str:
@@ -209,10 +233,11 @@ def build_report(supersede: bool = False) -> dict:
         m1m2_adj = m1m2["adjusted"]["steepness_pct"]
         m1_sym = m1m2["adjusted"]["front"]["symbol"]
         m2_sym = m1m2["adjusted"]["back"]["symbol"]
-        # vix_futures.py defaults to YESTERDAY's official settlement — the
-        # m1m2 columns are T-1 vs the row date by construction. Carry the
-        # settlement's own date so no reader mistakes it for a same-day value
-        # (CHG-RED-037b; the 6/10 "+7.98% re-armed" misread was this class).
+        # The m1m2 columns may be T-1 (or older, after a weekend/holiday) vs
+        # the row date — fetch_m1m2 walks back to the most recent settlement.
+        # Carry the settlement's own date so no reader mistakes it for a
+        # same-day value (CHG-RED-037b; the 6/10 "+7.98% re-armed" misread was
+        # this class). Post-16:15 ET this now resolves to the SAME day.
         m1m2_settle_date = m1m2.get("as_of", "")
 
     et_now = now.astimezone(ET)
@@ -277,8 +302,18 @@ def print_report(rep: dict):
     if row['m1m2_adj_pct'] != "":
         adj = rep['m1m2_raw']['adjusted']
         strict = rep['m1m2_raw']['strict']
-        settle_note = f"settle {row['m1m2_settle_date']}" if row.get('m1m2_settle_date') else "settle date unknown"
-        print(f"  {cls['m1m2_adj']} M1:M2 adj  {row['m1m2_adj_pct']:>+7.2f}%  ({row['m1_symbol']}/{row['m2_symbol']})  [{adj['classification']}]  [{settle_note} — T-1 vs row date]")
+        # State the ACTUAL lag, don't assert a fixed "T-1" — post-settle runs
+        # now resolve same-day, and a hardcoded staleness label is exactly the
+        # kind of false provenance the settle_date column exists to prevent.
+        sd = row.get('m1m2_settle_date') or ""
+        if sd:
+            lag = (date.fromisoformat(row['date']) - date.fromisoformat(sd)).days
+            settle_note = f"settle {sd} — " + (
+                "SAME DAY as row" if lag == 0 else f"T-{lag} vs row date"
+            )
+        else:
+            settle_note = "settle date unknown"
+        print(f"  {cls['m1m2_adj']} M1:M2 adj  {row['m1m2_adj_pct']:>+7.2f}%  ({row['m1_symbol']}/{row['m2_symbol']})  [{adj['classification']}]  [{settle_note}]")
         if strict['steepness_pct'] != adj['steepness_pct']:
             print(f"     M1:M2 strict {strict['steepness_pct']:+.2f}%  ({strict['m1_days_to_expiry']}d to M1 expiry, roll-contaminated)")
     else:
