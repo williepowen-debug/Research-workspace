@@ -11,7 +11,8 @@
 
 ## 🔴 NEXT-BOOT FIRST MOVES
 
-0. **Run `python3 AGENTS/CREED/scripts/boot.py`** — one command, ~1s: workbook staleness, prediction resolve-dates, the closeout-skip detector, mail lanes, STATUS cap, git dirt. It does **not** pull prices (live at use only).
+0. ⭐ **FIRST MOVE — run the eval baseline, skip-boot.** `evals/` is UNRUN and **DAEDALUS named this an L3 gate leg and called it "next spawn's first move, skip-boot — cheap."** Paste `case_01` and `case_02` INPUTs into fresh skip-boot sessions, score against the RUBRICs (**never paste a RUBRIC**), write rows to `evals/results.tsv`. **`case_02` is a TARGET — a FAIL is the expected baseline, not an alarm.**
+0b. **Run `python3 AGENTS/CREED/scripts/boot.py`** — one command, ~1s: workbook staleness, prediction resolve-dates, the closeout-skip detector, mail lanes, STATUS cap, git dirt. It does **not** pull prices (live at use only).
 1. **Then the boot staleness check** (`CLAUDE.md` step 7). CREED is Tier-2; **staleness between spawns is the expected steady state, not neglect** — but refresh before citing.
 2. **Check the two monthly prints first** — July Trepp DQ (~early Aug) and July SS (~mid-Aug). They resolve `PRED-CREED-001` / `-002` and are the cheapest information in the domain.
 3. **`VX-CREED-9.03` office vacancy is seeded at Q1 vintage** — a clean Moody's Q2 print was not locatable on 7/27. **This is the one known-stale vector.** Q2 refresh owed; if it's still not locatable, say so out loud rather than carrying Q1 as current.
@@ -23,7 +24,7 @@
 - **Convergence 23/45** (was 20/40 on the retired 8-vector basis). **Proportionally flat: 50.0% → 51.1%.** ⚠️ Do NOT "simplify" the composite by dropping S5 — it yields 20/40, numerically identical to the pre-7/27 figure **by coincidence**, and would read as "nothing changed."
 - **Nothing FIRED.** No signal crossed a hard trigger 7/20→7/27.
 - **Mail: both lanes CLEAN.** `inbox/` and `inbox/WALTER/` empty. All dispositions now in `board_log.tsv`.
-- **Workbook: BUILT and fresh** (6 TSVs, 31 vectors, 10 predictions). Threshold bands are **FROZEN TERMS** — propose to Will, never edit.
+- **Workbook: BUILT and fresh** (6 TSVs, 31 vectors, **10 predictions — 0 resolved, n=0 calibration**; `evals/` UNRUN). Threshold bands are **FROZEN TERMS** — propose to Will, never edit.
 
 ## 🔵 OPEN THREADS (carry forward)
 
@@ -36,7 +37,7 @@
 | 3 | **FDIC Q2 QBP** (~late Aug) | S3's actual trigger lives here | `PRED-CREED-003` — non-owner CRE PDNA vs Q1's 3.40% |
 | 4 | **BXMT Q2** | the cohort's swing name | largest office-exposed lender, −17.1%/3mo, **dividend still intact** — does it follow KREF or hold? |
 | 5 | **KREF Q2 10-Q** | currently **secondary-sourced** | verify-if-load-bearing; the whole 8b credit-loss leg rests on it |
-| 5b | **DAEDALUS firming read + harvest** | replied 7/27, read is DAEDALUS's to run | argued the grade DOWN (n=0 resolutions, evals unrun, lane 12 🔴). **If the L3 gate is predictions resolving, CREED does not clear it.** 4 harvest candidates handed over with build warnings |
+| 5b | **DAEDALUS: L2 HOLD (firm), L3-ARMED** | ✅ **CLOSED 7/27** — grade-down args adopted verbatim; all 4 harvest candidates taken | **L3 gate = clock + execution, not structure.** Two legs: ① a prediction **graded onto the scoreboard** (PRED-001, ~early Aug) ② **the eval baseline run** (first move above). L3 read ~mid-Aug. Lane 12/5 🔴 = **data-acquisition debt, not gate items** |
 | 6 | **SHADE Weld-2 / the 3-figure insurer aggregate** | **ball is SHADE's**; 2 corrections sent 7/27 | the **$775B is whole-loans-ONLY** (a floor, not a perimeter) and **99.7% cannot carry "absorbing at par"** — see traps 8–9 |
 
 ## ⚪ VERIFY-IF-LOAD-BEARING (do not spend on these unless they become pivotal)

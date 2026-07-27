@@ -134,6 +134,8 @@ Columns: `Vector_ID, Date, Value, Status, Notes`. Seed the two load-bearing seri
 
 ## Build record (2026-07-27)
 
+> **⚠️ This is an AS-BUILT record, frozen at the 14:2x build. It is deliberately NOT maintained.** The counts below are the build-time state; **live counts are in `README.md` and `STATUS.md`.** By the same evening the workbook had moved on — **KB 16→17** (`KB-CREED-017`, the MBA note-holder finding) and **predictions 9→10** (`PRED-CREED-010`, the Athene-Q2 surface). *Left as-built on purpose: a build record that silently tracks the live state stops being a build record. Flagged rather than edited, after the same count-drift bit CREED three times on 7/27.*
+
 **Built:** `SCHEMA.tsv` (14 cols) · `VX.tsv` (31 vectors, 10 categories) · `FLOW.tsv` (8 chains — legacy 6 refreshed + 2 new) · `KB.tsv` (16 Admiralty-scored rows, seeded fresh) · `PREDICTIONS.tsv` (9 open + 1 retrospective) · `VX_HISTORY.tsv` (~40 rows across 15 series).
 
 **Wired:** boot step 7 + a 14-day mtime staleness check + a closeout protocol, both in `AGENTS/CREED/CLAUDE.md`.

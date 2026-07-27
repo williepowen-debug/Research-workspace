@@ -1,10 +1,10 @@
 # CREED STATUS
 
-**Updated:** 2026-07-27 (Will-directed file catch-up + full inbox processing, markets OPEN; prior 2026-07-20)
+**Updated:** 2026-07-27 **eve** (catch-up + workbook build, then a crash, then 4 peer-structure surveys + 4 self-corrections; prior 2026-07-20)
 **Status:** 🟡 MONITORING — base case *selective CRE recognition accelerating*, **HOLDS**; no CREED trigger (S1–S8) fired 7/20→7/27; convergence **20/40 → 23/45** (proportionally flat, 50.0%→51.1%) after two disclosed structural changes
 **Tier:** 2 (spawned-as-needed). This is a **catch-up, not a standing daily.** Do not spawn without explicit Will permission.
 **Owner:** CREED after boot; Prome owns future topology/migration decisions only with Will approval.
-**▶ WORKBOOK: ✅ BUILT 2026-07-27** (Will-directed, same session) — six TSVs live in `workbook/`, seeded from the 7/27 pack rather than the stale 7/4 spec values. All 5 §10 decisions executed as Will approved them 7/21. **31 vectors** (21 spec-seeded + 10 forced by the lender-leg finding the spec predates), **10 categories**, **8 transmission chains**, **16 Admiralty-scored KB rows**, **10 open predictions with CREED-set confidences and named resolving instruments** (9 at build + `PRED-CREED-010`, the Athene-Q2 confirmation surface SHADE raised), **~40 history rows**. Boot step 7 + a 14-day staleness check + a closeout protocol are wired into `CLAUDE.md`. ⚠️ **Threshold bands are now FROZEN TERMS** — Will's 7/21 rider; propose, don't edit. Legacy workbook stays frozen archive — **freeze banner CLOSED: REGINALD applied it 2026-07-09 (commit `da82a095`) to all six legacy files + the sibling `sub-agents/BELT/` dir. CREED's records carried a stale "pending" for 18 days; corrected 7/27.**
+**▶ WORKBOOK: ✅ BUILT 2026-07-27** (Will-directed, same session) — six TSVs live in `workbook/`, seeded from the 7/27 pack rather than the stale 7/4 spec values. All 5 §10 decisions executed as Will approved them 7/21. **31 vectors** (21 spec-seeded + 10 forced by the lender-leg finding the spec predates), **10 categories**, **8 transmission chains**, **17 Admiralty-scored KB rows** *(16 at build + `KB-CREED-017`)*, **10 open predictions with CREED-set confidences and named resolving instruments** (9 at build + `PRED-CREED-010`, the Athene-Q2 confirmation surface SHADE raised), **~40 history rows**. Boot step 7 + a 14-day staleness check + a closeout protocol are wired into `CLAUDE.md`. ⚠️ **Threshold bands are now FROZEN TERMS** — Will's 7/21 rider; propose, don't edit. Legacy workbook stays frozen archive — **freeze banner CLOSED: REGINALD applied it 2026-07-09 (commit `da82a095`) to all six legacy files + the sibling `sub-agents/BELT/` dir. CREED's records carried a stale "pending" for 18 days; corrected 7/27.**
 **▶ NEXT SESSION:** monthly-print refresh (July Trepp DQ ~early Aug, July SS ~mid-Aug), then FDIC Q2 QBP ~late Aug. **Open GAP: `VX-CREED-9.03` office vacancy is seeded at Q1 vintage — a clean Moody's Q2 print was not locatable; Q2 refresh owed.**
 
 ---
@@ -126,6 +126,34 @@ Downtown Seattle **~37% vacancy / ~20M sf empty**; developer Ray Connell says mo
 
 ---
 
+## 2026-07-27 EVENING — post-crash sittings: 4 peer surveys, 10 surfaces adopted, and **every analytical change was DOWNWARD on a CREED claim**
+
+**Nothing fired. No score moved. Convergence holds 23/45.** The window's output was **structure + self-correction**, not thesis movement.
+
+### Analytical deltas — all four weaken a CREED claim *(detail → `thesis/CHANGELOG.md`)*
+| # | Change | Why |
+|---|---|---|
+| 1 | **`FLOW-CREED-08` → real-but-UNESTABLISHED** | Written this morning as *"the thesis-critical chain."* **Two** defects: **one quarter** (Q4-2025 CMBS/CDO/ABS was **+$3.6B, positive**) and **legal form** (MBA attributes to the **note-holder**, so an insurer buying a CMBS bond **prints as CMBS** — part of the −$9.6B "shedding" may itself be insurer-held). ⚠️ CREED's own "two consecutive quarters" fix repairs **only the first** |
+| 2 | **`VX-9.01` confidence 82% → 60%**; COVERAGE lane 11 🟢→🟡 | Bands untouched (FROZEN). **The level is primary-verified and unchanged; what fell is the interpretation it supports** |
+| 3 | **MBA $775B is WHOLE-LOANS-ONLY** — a **floor**, not a measure | `KB-CREED-017` (A2). Makes the fleet aggregate's *"probably mostly distinct"* a **checkable yes/no**, and **the prior should be overlap** |
+| 4 | **`PRED-CREED-006` ≥ +$10.0B, 65% → 30%** | Baseline was a **seasonal trough**. **Did NOT adopt SHADE's +$20B** — it resolves FALSE even if the entire $9B lands |
+
+**Two CREED figures corrected:** ARI post-sale = **$2.2B assets / BVPS $12.05 at the 4/24 close** (the ~$1.3B was a *pre-close cash* line); and **99.7% cannot carry *"the sink absorbs at par"*** — n=1, performing paper, par is the null hypothesis, and CREED logged it as a **counter**-datum (the reason S6 was held at 3).
+
+### Structure adopted (10 surfaces / 16 declined, across 4 peer surveys — reasoning → `MAINTENANCE.md`)
+`SCRATCH.md` · `COVERAGE.md` *(boot step 4)* · `MAINTENANCE.md` · `board_log.tsv` · `registry/THRESHOLDS.tsv` · `scripts/boot.py` · `workbook/PREDICTIONS_SCOREBOARD.md` · `evals/` · **`CLAUDE.md` ALWAYS-LOADED traps block** · **`REVIVAL_PLAN.md` FROZEN + out of the boot order.** **Net boot path is 75 lines SHORTER per wake.**
+
+### Cross-agent defects found by surveying peers — the surveys' real output
+**REGINALD** `REG-T-07` fires on CREED's series at >15/sustain-3 vs CREED's >12/sustain-2, **CREED not on its chain**, and its dashboard row labelled "Office CMBS DQ" carries **Fitch overall 3.31%** vs CREED's **Trepp office 11.57%** (distance-to-fire 11.7pp or 3.4pp depending which series it's read against) · **HOMER** citation loop — CREED cites HOMER, HOMER cites *"(CREED 7/4 pull)"*, **the data pull owned by nobody** · **CORAL** pillar 4 names CREED as an owner doc, is 🟢, is its stalest lane, and **CREED's route to it is fire-gated so nothing has been sent** · **CARL + CREED's own Mission/mandate** still routed **multifamily** to CARL 15 days after it moved to HOMER. **One ownership change applied to one surface left four consumers pointing at the old owner.**
+
+### ⚠️ Honest state of the new structure — argued to DAEDALUS against a favourable grade
+**`PREDICTIONS_SCOREBOARD` is n=0 gradeable** (the one resolved row is *excluded* — no confidence was recorded). **`evals/` is UNRUN, 0 rows.** **`COVERAGE.md` lane 12 (office pricing/vacancy) is 🔴** — one hard GAP vector + one Q1-stale vector, **under the entire valuation argument.** **If the L3 gate is predictions resolving, CREED does not clear it.** Structure is ahead of track record and should be graded that way.
+
+### Two count-drifts CREED introduced today and caught by auditing, not remembering
+`README.md` said **16** KB rows after `KB-017` landed (→17); `COVERAGE.md`'s blind-spot intro said **three** of five gaps were found by others when its own table showed **four**. **Both are the exact class CREED spent the day cataloguing in four other agents.** Fixed with the drift disclosed in-cell rather than silently.
+
+---
+
 ## Thesis
 
 CREED is revived as the **national CRE / CMBS market-stress source pack and thesis-rails agent** and is integrated into the canonical roster/topology as a Claude Code roster agent. Do not spawn CREED without explicit Will permission.
@@ -136,51 +164,11 @@ Current thesis:
 
 ---
 
-## 2026-07-20 Catch-Up + OZK Pre-Position — Tier-2 spawn (Mon eve, US markets CLOSED; NOT a standing daily)
-
-**Context:** PROME spawned CREED (Will-authorized 7/20) for a 16-day refresh (last session 7/4) ahead of three events landing within 8 days. Tue 7/21 = fleet four-rail day; **OZK Q2 prints AMC** (REGINALD grades; CREED pre-positions). All Mon 7/20 prices carry [as-of 7/20 close] stamps — none presented live. **Thesis-state UNCHANGED** (base case *selective CRE recognition accelerating*, pre-bank-transmission); **no CREED trigger (S1–S8) fired**; convergence holds **20/40**, with S1/S2 modestly firmer (June SS resumed rising) and one new observation (data-center tape softness).
-
-### ① June CMBS special-servicing print — NOW PUBLISHED (owed since 7/4). S1 verdict: **NO FIRE, firming.**
-- **Overall SS ROSE to 11.2% in June** (+34bps from May 10.86%), reversing May's cure-driven dip; volume +1.72% to **$66.76B of the $595.84B universe**. [Comm. Real Estate Direct, "CMBS Special Servicing Increases 1.72% in June," **2026-07-15** (primary); corroborated by Connect CRE / MBA Newslink]
-- **Office SS: elevated ~17% area, BELOW the 18% S1 trigger — did NOT cross.** ⚠️ **Exact June office figure CONTESTED across secondary summaries — 17.11% (+36bps) vs 16.75% (flat vs May)** — and **17.11% is ALSO the January-2026 office figure** (rose 47bps to 17.11% in Jan), so the +36bps read carries a real vintage-conflation risk (classic stale-recirculation trap — failing loud on the precise number rather than banking a possibly-conflated one). **Both candidates sit below 18%, so the S1-SS verdict (no-fire, elevated-and-rising) is robust either way.** Clean Trepp-primary office confirmation owed next spawn.
-- **July delinquency print NOT yet out** — June (7.35% headline / 9.53% maturity-adjusted multi-yr high / office 11.57% / MF 7.23%) remains the latest delinquency print; nothing new to ingest. **S2 holds 3** (maturity-adjusted DQ still the multi-year high).
-- **Read:** the May SS decline was cure/mod-driven (two big NY office loans extended); June's resumption of the SS uptrend (+34bps overall) firms — but does not fire — S1/S2. Extend-and-pretend still absorbing at the aggregate; SS grinding back up underneath.
-
-### ② REIT equity tape (S8) — Mon 7/20 closes + 1mo/3mo relative. Verdict: **counter-signal HOLDS, S8 = 2.**
-- **VNQ −1.6pp vs SPY / 3mo** (VNQ +2.90% vs SPY +4.50%) — *tighter* than 7/4's −2.9pp, **far from the −10pp trigger**; **VNQ +3.9pp / 1mo** (VNQ +4.05% vs SPY +0.15% — REITs still OUTPERFORMING). [fetch.py + Yahoo chart, as-of 7/20 close]
-- **Office-REIT rally EXTENDED, not cracked:** on 3mo — SLG **+17.4%**, BXP **+17.0%**, VNO **+35.7%**, HPP **+95.6%** (low-priced high-beta); brokers mixed (JLL +9.3%/1mo but −5.9%/3mo; CBRE +6.0%/1mo, −8.5%/3mo). Mon 7/20 was a broad down-day (SLG −1.4%, BXP −2.8%, VNO −1.5%, HPP −6.2%, JLL −1.4%, CBRE −1.7%) — **single-session noise against a large 3mo rally.** The public tape still is NOT confirming the private/CMBS recognition deterioration.
-- **NEW — data-center is the tape's WEAK segment (M-09 / Weld 5):** **DLR −13.4% / 3mo, −5.8% / 1mo; EQIX −6.6% / 3mo, −6.5% / 1mo** [as-of 7/20] — the only CRE segment printing tape weakness, even as hyperscaler capex stays *raised*. First tape softness in CREED's "strength leg." **Not a trigger, and price-only** — but this is the exact leg that shares the M-09 AI-unwind node (see Weld-5 note below). Watch, do not score as stress yet (capex fundamentals intact).
-
-### ③ Cross-read welds consumed (`PROME/research/2026-07-20_pcpe-cre-crossread-welds.md`) — 3 items owned by CREED
-- **Weld 2 — Q1 CRE financing-flow series RE-STAMPED (confirmed vs MBA primary):** **Source = MBA Commercial/Multifamily Mortgage Debt Outstanding, Q1 2026, released 2026-06-18.** Q1 holdings changes (EXACT match): **Banks +$17.5B · Agency/GSE +$12.8B · Life insurers +$3.3B · CMBS/CDO/ABS −$9.6B (−1.5%).** **Life-insurer absorption leg (named datum for SHADE):** life insurers ADDED +$3.3B, holdings now **$775B** of the $5.02T CM/MF market — the marginal absorber of the CRE paper the fast-recognizing CMBS channel (−$9.6B) is shedding. **Q2-2026 print expected ~mid-Sept 2026** (MBA quarterly cadence: Q4'25→3/26, Q1'26→6/18). *SHADE owns the combined-sink question (insurer side); this is CREED's CRE leg of that sink.*
-- **Weld 5 — data-center-CRE = 4th face of the M-09 score-once node:** CREED's data-center-CRE demand watch shares the AI-unwind node with APO/ARES equity + AI-HY credit + Athene L3 AI content. **NEVER count the data-center leg as an independent convergence vote** — a capex crack hits it, the alt-mgr vendor-financing book, and the insurer L3 content in one move. (NEXUS adding it to the M-09 score-once list.) The 7/20 DLR/EQIX tape softness above is the first observable on this leg — still price-only, capex intact.
-- **Weld 3 — OZK provision-attribution hygiene:** CREED's Seattle U-District deed-in-lieu is **framework 1 of 3** watching OZK's single provision line (BROCK ~$490M RESG debt-on-debt book; REGINALD frozen Z2 $1,215M line-set). A single aggregate provision number can false-fire one framework or mask another → **attribute provision/reserve changes to named credits BEFORE counting any tell fired.** REGINALD grades; CREED does not.
-
-### ④ OZK S3 pre-position (Q2 prints AMC Tue 7/21 — REGINALD grades, CREED pre-positions)
-For **CREED's S3 (bank-CRE convergence)** to move on tomorrow's print: a provision/OREO movement **attributable to the Seattle U-District deed-in-lieu = known-workout recognition → S3 STAYS AT 2** (a single named credit already in the thesis is not convergence; it's the recognition base case printing as expected). What would actually move S3 toward firing is **FDIC-level convergence signals** (non-owner CRE PDNA re-rising + reserve-coverage deterioration — a Q2 QBP question, not an OZK question) **OR a NAMED-credit-driven reserve build BEYOND known workouts** (new watchlist names / RESG book-wide provisioning, not the Seattle/Chapter-Buildings credit alone). Per the Weld-3 attribution rule: **attribute the provision number to named credits before reading any S3 tell as fired** — an aggregate bump absorbed by Seattle ≠ convergence. OZK closed **$51.43 (−1.12%) [as-of 7/20]**; WAL **$80.97 (−1.62%)** context.
-
-### Signal state (7/20) — no re-score; document-unchanged is the honest outcome
-- **S1 = 3** (firmer): June SS resumed rising (overall +34bps to 11.2%), office SS elevated ~17% but below 18% trigger. **No fire.**
-- **S2 = 3**: maturity-adjusted DQ 9.53% still the multi-year high (no new delinq print). **No fire.**
-- **S3 = 2**: pre-position only; OZK Q2 tomorrow (REGINALD-graded); attribution rule governs. **No fire.**
-- **S5 = 3, S6 = 3** (held from 7/4): no new MF/forced-sale aggregate this window.
-- **S8 = 2** (counter-signal firm): VNQ −1.6pp/3mo, office rally extended; data-center the lone weak leg (price-only, M-09 node). **No fire.**
-- Convergence **20/40** unchanged — honor the tape; the read is *recognition-acceleration base case getting louder, still pre-bank-transmission.*
-
-### Owed next spawn
-1. Clean **Trepp-primary June office SS** figure (resolve the 17.11% vs 16.75% contest; both <18%).
-2. **July delinquency** + July SS prints when published.
-3. **OZK Q2 actuals** (REGINALD-led) — did the provision attribute to Seattle (S3 stays 2) or beyond-known-workout names (S3 watch)?
-4. **MBA Q2 flow print** (~mid-Sept) — does the life-insurer absorption leg extend? (SHADE combined-sink input.)
-5. **Workbook build** once Will answers the §10 decision card (in this session's outbox memo).
-
----
-
 ## Archived Catch-Up Sections
 
-The **2026-07-04** and **2026-06-28** catch-up sections were split out on 2026-07-27 (STATUS had reached 377 lines) →
-**`archive/STATUS_CATCHUPS_2026-06-28_to_2026-07-04.md`**. Both windows are fully superseded and independently preserved
-in `thesis/CHANGELOG.md` + their dated `research/REFRESH_*.md` packs. **Nothing deleted.** Do not cite them as current.
+The **2026-07-20**, **2026-07-04** and **2026-06-28** catch-up sections are split out →
+**`archive/STATUS_CATCHUPS_2026-06-28_to_2026-07-04.md`**. All three windows are fully superseded and independently preserved
+in `thesis/CHANGELOG.md` + their dated `research/REFRESH_*.md` packs. **Nothing deleted.** Do not cite them as current. *(7/20 archived at the 7/27 evening closeout — **applying CREED's own 320-line split trigger to itself** rather than taking an exemption. That rule was written this afternoon; this is its first enforcement.)*
 
 ## Mandate
 

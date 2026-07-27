@@ -1,5 +1,24 @@
 # CREED Thesis Changelog
 
+## 2026-07-27 (evening — post-crash sittings) · analytical deltas, all of them DOWNWARD on CREED's own claims
+
+**No signal fired, no score moved, base case unchanged.** Four changes, every one a **weakening of a CREED claim**, three of them found by SHADE and accepted:
+
+**1. `FLOW-CREED-08` (fast-to-slow holder migration) DEMOTED to real-but-UNESTABLISHED.** It was written 7/27 morning as *"the thesis-critical chain."* Two independent defects:
+- **One quarter.** Q4-2025 CMBS/CDO/ABS was **+$3.6B — positive** — and flipped to −$9.6B only in Q1-2026, *the same quarter* the life-insurer line decelerated from +$11.5B to +$3.3B. **Both series were positive the quarter before.** A sample-size defect with a known remedy.
+- **Legal form.** MBA attributes to the **note-holder**, so the two buckets are *"note held by an insurer"* vs *"note held by a trust"* — **not** *"insurance channel vs securitized channel."* **An insurer buying a CMBS bond prints as CMBS**, so part of the −$9.6B "shedding" may itself be insurer-held. An **identification** defect with **no remedy from this series.**
+- ⚠️ **CREED's own proposed fix — "two consecutive quarters in opposite directions is the confirmation" — repairs the first defect only.** Resolution of the second needs a source splitting CMBS holdings **by holder type**, which MBA does not publish. Two different defects; one was being treated as a cure for both.
+
+**2. `VX-CREED-9.01` confidence 82% → 60%.** Not a threshold move (bands untouched — FROZEN TERMS) and not a resolvability trim: **the level is primary-verified and unchanged; what fell is the interpretation it supports.** `COVERAGE.md` lane 11 moved 🟢 → 🟡 for the same reason.
+
+**3. The MBA $775B life-insurer line is WHOLE-LOANS-ONLY** — a **floor** on insurer CRE exposure, not a measure of it. Insurer-held CMBS prints in the separate ~$637B bucket. Consequence for the fleet's three-figure insurer aggregate: *"probably mostly distinct"* is **not a probability but a checkable yes/no**, and **the prior should be overlap.** `KB-CREED-017` (A2, PRIMARY-CITED). SHADE adopted and withdrew its distinctness claim.
+
+**4. `PRED-CREED-006` re-spec'd: ≥ +$10.0B, confidence 65% → 30%.** The original baseline (+$3.3B) was a **seasonal trough** — a routine +$11B print would have resolved it TRUE carrying zero information. **CREED did not adopt SHADE's proposed ~+$20B**, which over-corrected by anchoring to H2 quarters when Q2 is seasonally weak; that bar resolves FALSE even if the entire $9B lands. Branch 2 now reads *"wholly or largely outside the Fed US life sector"* (§2.8 permits *"any portion,"* so a partial landing is modal and indistinguishable from full exclusion at this bar). **Level deliberately not tuned to an unobservable split; the residual is recorded instead.**
+
+**One correction of CREED's own figure:** ARI post-sale size is **$2.2B total assets / BVPS $12.05 at the 4/24/26 close.** The ~$1.3B previously carried as "post-sale cash" is a **Q1 (3/31) cash line — a component, pre-close.**
+
+**Also on the record:** CREED's **99.7%** cannot support *"the sink is absorbing at par"* — **n=1, on performing paper, where par is the null hypothesis**, and CREED logged it as a **counter**-datum (the reason S6 was held at 3). SHADE withdrew the claim and adopted the price-free version: *the risk is not the price paid; it is that performing paper enters a book that will not be re-marked on a schedule.*
+
 ## 2026-07-27 — CRE lender leg discovered; S8 split; S5 demoted to HOMER; mall-cadence signal killed (Tier-2 catch-up, markets OPEN)
 
 Will-directed file catch-up + full inbox processing covering 7/20→7/27. Base case **UNCHANGED** (*selective CRE recognition accelerating*, still pre-bank-transmission). Convergence **20/40 → 23/45** — proportionally flat (50.0% → 51.1%). **No signal FIRED.** The window's value is **resolution, not escalation**.
