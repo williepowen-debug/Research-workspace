@@ -497,7 +497,7 @@ def _delivery_roles():
 # delivery to them (BOARD_CONSUMPTION_SPEC §3.5, v0.7, verified 2026-07-04). Any handoff
 # in their inbox is a to-ARCHIVE residue, NOT a consume-gap. Verify "complete" (not
 # tiered/selective) empirically before adding an agent. REGINALD/SAM are NOT complete.
-PULL_COMPLETE = {"CARL", "RED"}
+PULL_COMPLETE = {"CARL", "RED", "PROME"}
 
 
 def check_delivered_but_unconsumed():
