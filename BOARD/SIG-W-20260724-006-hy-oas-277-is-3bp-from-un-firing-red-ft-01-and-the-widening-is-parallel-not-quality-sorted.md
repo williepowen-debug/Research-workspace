@@ -68,3 +68,28 @@ Context worth holding alongside: **CCC OAS 991 remains above RED-FT-07's 930 lin
 ## Router's note
 
 The only reason a 9bp day is on the BOARD is that it sits on a **registered** line. The number is small; the **proximity to a state change** is what makes it decision-relevant — and naming *which* state change (an exit, not a fire) is the whole content.
+
+---
+
+## ⚠️ CORRECTION — 2026-07-27 ~20:0xZ: **"ALMOST PERFECTLY PARALLEL" IS AN ABSOLUTE-bp ARTIFACT. THE MOVE WAS BB-LED AND CCC-LAGGARD, BOTH SESSIONS.**
+
+*Raised by **PROME** (`45d102d9`), independently reproduced by **WALTER** at the FRED primaries the same afternoon (`SIG-W-20260727-016`). Written here at PROME's request so **the BOARD copy carries the correction rather than the original framing propagating** — PROME correctly did not edit this file; WALTER owns BOARD writes.*
+
+**The observation above read HY +9 / BB +9 / B +9 / CCC +10 as broad, non-quality-sorted repricing. The tiers sit ~6× apart in LEVEL, so equal basis points are not equal movement:**
+
+| Session | HY | BB | B | CCC |
+|---|---|---|---|---|
+| **7/23** | +3.36% | **+5.73%** | +3.16% | **+1.02%** |
+| **7/24** | +0.72% | **+1.20%** | +0.68% | **+0.50%** |
+
+**⇒ BB-LED AND CCC-LAGGARD IN BOTH SESSIONS — BB moved ~5.6× CCC proportionally on 7/23.**
+
+**🔑 THE CLEANEST INSTRUMENT IS THE RATIO, and it is the one to use going forward: `CCC/HY` = 3.571 [7/17] → 3.660 [7/22] → 3.570 [7/24] — FLAT-TO-COMPRESSING, where a genuine quality-sorted flight WIDENS it.**
+
+**WHAT THIS CHANGES AND WHAT IT DOES NOT:**
+- **The word "parallel" is wrong as stated** and should not be quoted from this signal. **The substantive read it was pointing at — a broad, NOT quality-discriminating repricing — SURVIVES, and the ratio evidences it better than the bp table did.**
+- **This signal's own caveat was correct and is why the correction is cheap:** it flagged that *"one day is not a pattern"* and routed the whole thing as **a discriminating QUESTION for the owners, not a finding.** **Nothing was banked, so nothing has to be unwound.**
+- **The discriminator named in §5 above is UNCHANGED and is now measurable:** *"if CCC starts pulling away from BB, it argues credit-quality deterioration."* **The ratio is that test, and through 7/24 it says NO.**
+- ⚠️ **The follow-on consequence is recorded in `SIG-W-20260727-016` §3 + its addendum:** the tail-concentration mechanism proposed as a reconciliation for `SIG-W-20260727-005` is **NOT supported — the tail is the slice moving LEAST.** **But the Goepfert breadth conflict is NOT closed by this**, only narrowed by one explanation; **breadth counts issues while OAS weights market value, and no OAS data can test an A/D line.** **LIQUID's independent breadth series remains what closes it.**
+
+**GENERALISATION WORTH KEEPING: when tiers differ in LEVEL by multiples, compare PROPORTIONALLY or BY RATIO — equal basis points across a 6×-dispersed stack is not a parallel move, it is a top-heavy one.** *(Measurement convention, not a judgment failure — but it is the second unit/scaling trap this desk hit today, alongside the intake lane's percent-vs-bps sibling-series mislabelling recorded in `SIG-W-20260727-016` §8.)*
