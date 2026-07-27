@@ -25,6 +25,14 @@ Current regime + scenario weights → `HEARTBEAT.md` (7/18 re-base + amendment #
 | TBT | Stock | 14 | $34.63 | $36.33 | $508.62 | **+4.9%** | 2× UST short — live duration-short leg (BOND/TERRY) |
 | XLE | $65C Sep-30 | 2 | $2.28 | $0.70 | $140 | −69.3% | energy calls (BRENT); recovering w/ the closure rally |
 
+## Fidelity — Event boxes (dated, mandatory-exit — NOT thesis positions)
+
+> Distinct class: these carry a **pre-registered exit DATE** and die on the clock, not on a thesis. They must not be read as part of the standing book.
+
+| Position | Expiry | Qty | Cost | Note |
+|----------|--------|-----|------|------|
+| **VIX $20C/$25C call debit spread** (`VIXW`) | Aug-05-2026 | **4** | **$0.70 net debit** | **NEW — FILLED 7/27 ~11:35 ET (post-dates the 7/20 reconcile above): `TRY-VIOLET-VIXCS`, VIOLET thesis / TERRY construction, Will [Approve]. Legs: long 20C $1.23 · short 25C $0.53. **$287.70 all-in** ($280.00 premium + $7.70 fees), MAIN book — under TERRY's $300 rec and the $500 standing cap; sized on `EFFECTIVE-N = 1`. Pre-FOMC short-gamma box. **★ MANDATORY EXIT 7/30 regardless of P/L — no expiry drift, NO pre-registered roll** (any roll = fresh Will approval from scratch; `PROME/DOCKET.tsv` 2026-07-30 row is the backstop). Mgmt: VIX ≥23 touch → sell ≥half · term-structure inversion → sell rest · SKEW crashing during a spike = the top. **Base path is a 100% loss, sized as one; realistic payoff ~+$130-380, NOT the at-expiry max.** Rule #6 BROKEN deliberately (VIX +4-6% day) — TERRY's written reason is the PRICE, not the clock** |
+
 ## Fidelity — Thesis Puts
 
 ### TLT — duration short (BOND/HENRY/TERRY) — TRY-FIRE-004 RE-FIRE FILLED 7/20 (first live TERRY card)
