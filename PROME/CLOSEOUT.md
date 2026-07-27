@@ -170,6 +170,18 @@ If none triggered, skip.
 
 ## Chunk 4 — Git + report (Standard / Heavy; Light optional; Bounce skips)
 
+### Claim check (advisory, ~2s — run BEFORE the git sequence)
+
+```
+cd "$(git rev-parse --show-toplevel)" && python3 scripts/claim_check.py
+```
+
+Mechanical checks for the error classes that **memory demonstrably does not catch**: a **weekday** asserted against a date that isn't that weekday · a **git hash** cited as provenance that no reader can reach · an instrument quoted at its **ETF's magnitude** instead of its own · a **dead repo path** in backticks. Born 2026-07-27 (Will-directed) after a measurement pass showed the fleet's mechanical detectors fire reliably while auto-memory lessons don't — *two* errors shipped that session were in classes already sitting in PROME's own index.
+
+**rc=1 means LOOK, not find-replace.** Its own first live run proves why: it flagged DOCKET's `Q2-2024 precedent = Tue 8/6`, which is **correct** — 2024-08-06 *was* a Tuesday and the checker had assumed the current year. Reading before editing is what stopped a right answer being "fixed." (That case is now handled — bare `M/D` inherits the nearest 4-digit year on the line — but the discipline stands for the next class it gets wrong.)
+
+Known limits, so a flag is weighed not obeyed: it cannot tell **mention from use** (quoting a bad hash while *explaining* it is bad still flags); cross-repo hashes (RESEARCH-INTAKE) read as `missing`; deliberate placeholders (`..._2026-07-2X.md`) flag as dead pointers.
+
 ### Git sequence
 
 ```
