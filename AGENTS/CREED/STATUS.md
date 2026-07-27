@@ -1,10 +1,120 @@
 # CREED STATUS
 
-**Updated:** 2026-07-20 (Tier-2 catch-up + OZK-pre-position spawn, markets closed; prior 2026-07-04)
-**Status:** 🟡 MONITORING — base case *selective CRE recognition accelerating*, **FIRMED** (June SS print now out, resumed rising; still pre-bank-transmission); no CREED trigger (S1–S8) fired 7/4→7/20; convergence holds **20/40 (moderate)**
+**Updated:** 2026-07-27 (Will-directed file catch-up + full inbox processing, markets OPEN; prior 2026-07-20)
+**Status:** 🟡 MONITORING — base case *selective CRE recognition accelerating*, **HOLDS**; no CREED trigger (S1–S8) fired 7/20→7/27; convergence **20/40 → 23/45** (proportionally flat, 50.0%→51.1%) after two disclosed structural changes
 **Tier:** 2 (spawned-as-needed). This is a **catch-up, not a standing daily.** Do not spawn without explicit Will permission.
 **Owner:** CREED after boot; Prome owns future topology/migration decisions only with Will approval.
-**▶ NEXT SESSION (Will-queued):** **BUILD the CREED workbook** from the ready spec `workbook/WORKBOOK_DESIGN.md` — §10's 5 open decisions were packaged as a decision card in the 7/20 outbox memo (`outbox/2026-07-20_to-PROME_catchup.md`) for Will to answer async. Once he answers, transcribe the 6-file TSV set (seed values in the spec) + wire boot/closeout staleness alert. Legacy workbook stays frozen archive (freeze-banner flagged to REGINALD, pending).
+**▶ NEXT SESSION (Will-queued, still open):** **BUILD the CREED workbook** from `workbook/WORKBOOK_DESIGN.md` — **all 5 of §10's open decisions were APPROVED by Will 7/21** (PROME packet, consumed this session): add `Last_Refreshed`; CREED sets prediction confidences; starter threshold bands stand (revisit after month 1, then Will-gated); pull vacancy 9.03 from web, leave CPPI 9.02 as GAP; keep all 21 vectors. **Build is authorized and unblocked** — transcribe the 6-file TSV set + wire the boot/closeout staleness alert. ⚠️ **Seed VX from the 7/27 pack, not the 7/4 spec values** — the spec's seeds are now stale (office SS 16.75%→**17.11%**, S5 is HOMER-fed, S8 is split 8a/8b, and a lender-leg vector is missing entirely). Legacy workbook stays frozen archive (freeze-banner flagged to REGINALD 7/4, **still pending**).
+
+---
+
+## 2026-07-27 Catch-Up — Will-directed file catch-up + inbox clear (Mon, US markets OPEN)
+
+**Context:** Will directed a file catch-up plus full inbox processing. CREED had been dark 7 days with **9 unprocessed inbox items**, two of which carried live state the canonical surfaces did not reflect. Equity levels below are **INTRADAY ~14:05 ET**, not closes — do not re-cite as closes. **Base case UNCHANGED; nothing FIRED.** The window's value is **resolution, not escalation.**
+
+### ⭐ ① The primary finding: a CRE lender leg my rails were structurally blind to
+
+Over 3 months, **office equity REITs are +14% to +77%** while **7 of 11 CRE mortgage REITs are negative** (median ≈ −9%). S8 could not see this — it was keyed to VNQ-vs-SPY and office-REIT *equity*. Two named actions inside that window, and **they are different mechanisms that must not be fused:**
+
+- **ARI = lender-ECONOMICS exit.** Apollo Commercial Real Estate Finance sold its **~$9B CRE loan book to Athene** (closed **4/24/26**) at **99.7% of total loan commitments**; on **6/15/26 its board determined that dissolution, liquidation and wind-down are "advisable and in the best interest" of stockholders**; a **$3.75/sh predominantly-return-of-capital** distribution went ex 7/16. **[SEC Form 8-K, CIK 0001467760, acc. 0001193125-26-271542 — PRIMARY, read directly.]**
+  - ⚠️ **Two separate votes — do not conflate.** The **portfolio sale WAS stockholder-approved** (special meeting **4/21/26**, majority of outstanding shares). The **dissolution is NOT** — ARI's 7/13 8-K (Item 5.07) covers the **7/9 annual meeting**, which was directors/auditor/say-on-pay only. **The dissolution was not on that ballot;** preliminary proxy still pending, and the board may amend or pursue a merger **without** stockholder approval. Correct phrasing: *"the board has resolved to liquidate, subject to a vote not yet held."*
+  - ⭐ **It was a RELATED-PARTY transaction.** ARI is **externally managed by ACREFI Management, LLC, an indirect Apollo Global Management subsidiary**; **Athene is Apollo's retirement-services arm.** ~$9B of CRE loans moved **from an Apollo-managed public vehicle onto an Apollo-owned insurance balance sheet.** **Nothing suggests impropriety — and the contrast is the useful part:** this transfer was 8-K-disclosed, put to a stockholder vote, and priced at **99.7%**. Compare this week's PC signal (`SIG-W-20260727-004`): **Delaware Life ($69B) + Clear Spring ($16B), Group 1001, restated affiliate-linked holdings from $1.4B (3%) to at least $17B (39%)** on their own review, under grand-jury subpoena + SEC probe (**no charges filed**). **Same mechanism — assets migrating onto affiliated insurance balance sheets — opposite disclosure quality.** The narrow conclusion: **insurer absorption of CRE credit is not inherently opaque.** Do not let the two fuse into "insurers are quietly warehousing CRE risk" — one is fully observable, and welding them would invert the read. **→ SHADE owns the insurer judgment; CREED supplies the CRE leg and this distinction.**
+- **KREF = CREDIT-LOSS recognition.** Dividend **−60%** ($0.25→$0.10); Q2 GAAP **−$121.8M (−$1.95/sh)**; distributable loss $36M; 6-mo credit-loss provision **$148.6M**; ACL **$293.1M**; book **$10.24** (stock $7.37 = 0.72×); reserves attributed to **risk-rated-5 loans in office, multifamily and life science**; legacy office 21%→**18%**, targeting **<10% by YE26**. *(Secondary-sourced — 10-Q not read.)*
+
+**Why the distinction is load-bearing:** ARI's book cleared at **99.7% of commitments** — the marks were *good*. It exited because the business stopped earning its cost of capital, **not** because its collateral was impaired. That is simultaneously **bear evidence** (a major CRE lender withdrawing capital → refi-capacity headwind feeding S2) and **the strongest counter-datum in my rails** (a $9B clean mark-validation against the "CRE marks are fictional" leg). Both are reported; neither is banked.
+
+**The thesis refinement this forces:** *recognition speed is a property of the **holder**, not just the wrapper.* The fast channel is every publicly-marked, quarterly-reporting CRE holder — **including mortgage REITs**. The slow channel includes **insurance balance sheets**. The ARI→Athene $9B is that mechanism printing as **one named, dated, primary-verifiable transaction**: the loans did not disappear, they **migrated from a fast-recognition holder to a slow-recognition one.** → **SHADE** — this is the named instance beneath the aggregate Weld-2 life-insurer leg (+$3.3B Q1 → $775B of the $5.02T market).
+
+**Is it a cohort? No — selective, exactly like the base case.** 8 of 11 CRE mREITs **held dividends flat**; 3 have cut or are liquidating (ARI wind-down, KREF −60%, RC −92% back in late 2025). **KREF is +22.6%/3mo *after* its cut.** BXMT is the one to watch: −17.1%/3mo, dividend intact, largest office-exposed lender in the cohort.
+
+### ② A trap caught before it entered the rails
+
+**ARI printed −37%/1mo and −39%/3mo on raw close.** That is **almost entirely the $3.75 return-of-capital going ex on 7/16** — a −33.4% single-session print in which the stock, on a total-return basis, **rose slightly**. Checking the dividend record before writing the number down prevented a fabricated "CRE mortgage REIT collapse" from entering the thesis. Now a standing discipline in S8b: **never cite a CRE mREIT price move without checking corporate actions first.**
+
+### ③ Two structural changes to the convergence matrix — both disclosed on both bases
+
+- **S5 DEMOTED to a HOMER-fed cross-reference**, applying the 7/12 DAEDALUS ruling (Will-approved) **15 days late because CREED had not spawned.** HOMER primary-owns the Trepp CMBS-MF row, GSE-vs-CMBS divergence, and Sun-Belt-MF realization. **Not retired** (per the ruling — retiring mid-cycle shrinks the denominator with bad timing): kept in the matrix, score shown for continuity, **removed from CREED's independent-root count**, MF figure now **cited from `AGENTS/HOMER/STATUS.md`**. Fixes a live double-count against HOMER's SV-HOMER-2026-07-10-02.
+- **S8 SPLIT into 8a / 8b.** One score was a blended vector masking a bifurcation. **8a (CRE equity tape) = 2**, counter-signal, *strengthened*. **8b (CRE credit/lender tape) = 3**, a genuinely **new independent root** — lender-capital withdrawal is not a re-read of property fundamentals. Signal numbering 1–8 unchanged so existing citations still resolve.
+
+**Convergence 20/40 → 23/45.** Proportionally **flat: 50.0% → 51.1%.** Reported on both bases deliberately — the denominator moved, and the honest headline is that this window **resolved a blended vector rather than escalating the thesis.**
+
+### ④ Signal state (7/27)
+
+| # | Signal | Score | Move |
+|---|---|:--:|---|
+| S1 | Office CMBS stress | 3 | hold — **SS resolved at 17.11% (+36bps)**, DQ 11.57%; both below trigger. **No fire.** |
+| S2 | Maturity-default wave | 3 | hold, reinforced — all three July mall SS transfers were **maturity/extension failures, not NOI stress** |
+| S3 | Bank CRE convergence | 2 | hold — OZK graded as pre-registered. **Watch-add: Special Mention +$219M fresh/unattributed while ACL RELEASED $10.7M** |
+| S4 | Modification exhaustion | 2 | hold, firmer at asset level — Sangertown = a **3rd extension refused on a DSCR hurdle** after rolling twice |
+| S5 | Multifamily term-default | *(3)* | **→ HOMER-fed cross-ref; no longer a CREED vote** |
+| S6 | Forced-sale / NAV | 3 | **held, NOT raised** — because ARI's $9B cleared at **99.7%** = material counter-datum |
+| S7 | Office-demand structural | 2 | hold — life-science leg added: **bifurcated, not collapsing**; data-center softness unwound |
+| **S8a** | CRE **equity** tape | 2 | **counter-signal STRENGTHENED** — VNQ vs SPY **flipped positive, +2.04pp/3mo** |
+| **S8b** | CRE **credit/lender** tape | **3 ★NEW** | ARI wind-down + KREF cut/provisions + 7-of-11 negative |
+
+### ⑤ June office special servicing — my own 7/20 flag RETRACTED as a false alarm
+
+I flagged the June office SS figure as contested (17.11% vs 16.75%) with a **vintage-conflation risk** because 17.11% is *also* the January figure. **That risk did not materialize.** WALTER ran its own recirculation hypothesis and **refuted it**: 17.11% is an authentic office figure in **both** January and June — a coincidence of level, not a recirculated number. **June office SS = 17.11% (+36bps), below the 18% trigger, S1 no-fire stands.** [`SIG-W-20260717-005`, unread in my inbox since 7/16.] ⚠️ Standing caveat: Trepp PDF paywalled = **primary-CITED, not primary-READ**; the co-circulating "retail 12.95%" remains **UNVERIFIED — do not cite.**
+
+**The durable mechanism:** DQ **falling** while SS **rises** is the extend-and-pretend signature. Office SS runs **~5.5pp above** office DQ because SS fires **pre-delinquency** on maturity/covenant events — a loan can sit in special servicing while current on interest.
+
+### ⑥ Two claims routed to me, tested, and NOT carried
+
+**REGINALD's 3-mall-transfers-in-3-days cadence → NOT ANOMALOUS.** REGINALD explicitly asked for this to be *"killed cheaply rather than carried loosely."* It doesn't survive. Trepp/crenews detail is paywalled so no clean run-rate exists, but a **floor** is derivable: in **June alone**, of **$2.64B** newly delinquent, the **top 5 ($998.9M) included two malls**. Large-mall distress therefore runs at **≥2/month counting only the five largest new delinquencies** — a severely truncated tail excluding every smaller transfer. Three in eight days (~11-12/mo annualized) is plausibly inside that. **Do not carry "3-in-3-days" as a signal.** *(New datum: crenews carries **Sangertown at $49.33M, dated 7/27** — a size REGINALD's packet lacked, and formal SS-transfer confirmation of what was a 7/21 social post.)*
+
+**The class-A broadening read → NOT SUPPORTABLE.** Meadows' occupancy/DSCR/appraisal are paywalled and unverified, and a **more mundane explanation must be excluded first**: Meadows sits in **JPMBB 2013-C14 / 2014-C18** — a 2013/14-vintage conduit loan hitting **scheduled maturity** after 12-13 years. That is the maturity wall doing exactly what it does; it does not require a "class-A can't clear a refi" story. **Hold as hypothesis, not finding.** Corroborating: mall REIT *equity* is up (SPG +14.4%, MAC +22.5%/3mo) — the market is not pricing a mall crisis.
+
+**What IS durable** is REGINALD's mechanism point, which I agree with — but it is **my S2, not a new finding**: all three transfers are maturity/extension failures, and Sangertown (rolled twice, couldn't stretch a third) is the cleanest specimen of extend-and-pretend **ending on schedule**.
+
+### ⑦ Maturity-wall figure reconciliation — a misattribution corrected
+
+REGINALD's packet said *"you own the $875B 2026 maturity number."* **I don't — it's REGINALD's own.** The figures nest rather than compete:
+
+| Figure | Scope | Owner |
+|---|---|---|
+| **$875B** | ALL CRE maturing 2026, all lender channels (MBA) | **REGINALD** (`thesis/THESIS.md:51`) |
+| **>$100B** | **CMBS only**, >50% expected not to repay (Morningstar DBRS) | **CREED** |
+| **$76.6B** | **CMBS hard** maturities, 39% Q4, 36% at DY≤8% (Trepp) | **CREED** |
+| $160B+ | **Multifamily** 2026, +50% YoY | **HOMER** |
+
+Score securitized-mall transfers against the **CMBS** figures, not $875B.
+
+### ⑧ Coverage gap closed: life science
+
+WALTER flagged that a CREED+REGINALD grep returned **zero life-science hits** — a real gap, given OZK's Seattle credit is office/**life-science** and KREF is now reserving on life-science risk-5 loans. **Savills Q2-26: bifurcated, not collapsing.** The over-built distressed markets are **past peak and absorbing** (Chicago **37.6%**, improved from 39.2%; Denver-Boulder **23.8%** from 27.0%; Raleigh-Durham 23.1% improving) while **Boston-Cambridge 26.4% (+610bps)** and **SF Bay 26.2%** worsen because **inventory GREW (~2.5M sf of new lab deliveries), not because tenants left.** A "national life-science vacancy near records" line fuses two opposite mechanisms and destroys the read. **CBRE's national 23.2–23.3% is a different provider/methodology — do not stack.** Consequence: **KREF's life-science reserves should be read as name/vintage-specific, not sector-wide.**
+
+### ⑨ Office→residential conversion: the assumed exit gets attacked (mechanism noted, number not adopted)
+
+Downtown Seattle **~37% vacancy / ~20M sf empty**; developer Ray Connell says most of it is *"so challenging to do a conversion in that it's not worth even looking at"* — *"turning a boat into a car."* **Why it matters:** "convert it to residential" is the **standing assumed exit** for obsolete office and puts an unexamined floor under assets with no office-income case left. ⚠️ **Three constraints, all load-bearing:** (1) **PHYSICAL** constraints (floorplates/cores/risers) **travel**; **REGULATORY/FISCAL** ones (Seattle MHA fees, $40k→millions; Holland paid $5M) are **Seattle-specific** — several metros actively *subsidise* conversion (NYC 467-m), so **generalising the fee leg nationally would be a real error**; (2) the **37% figure is unverified** vs CoStar/JLL/Cushman and vacancy definitions differ materially (direct vs total-incl-sublease); (3) Connell is a **developer arguing that developer fees are too high**. **Carried as: physical mechanism noted, number NOT adopted as CREED-held.**
+
+### ⑩ Inbox — all 9 processed → `processed/`
+
+| Item | Disposition |
+|---|---|
+| DAEDALUS 7/12 — HOMER promotion / S5 demotion | **APPLIED** (§3) |
+| PROME 7/21 — workbook §10 card, all 5 APPROVED | **Consumed** — build authorized, unblocked, next session |
+| PROME 7/21 — OZK S3 held + watch-add | **Consumed** → S3 hold + Special Mention watch-add |
+| REGINALD 7/25 — mall SS cadence | **Answered** (§6, §7) — cadence killed, class-A not supportable, figures reconciled |
+| AEOLUS 7/22 — CA FAIR Plan (cc) | **No CREED claim taken.** AEOLUS owns C4, REGINALD owns the muni/bank translation. CREED's only leg is the national insurance-cost→NOI/DSCR amplifier — noted, not scored, not routed (would be duplicating two owners) |
+| WALTER `SIG-W-20260717-005` | **Consumed** → §5, SS resolution + my retraction |
+| WALTER `SIG-W-20260717-014` (ACTION) | **Consumed** → §8, life-science gap closed |
+| WALTER `SIG-W-20260725-017` (ACTION) | **Consumed** → §9, conversion mechanism |
+| WALTER `SIG-W-20260721-007` (INFO) | **Consumed** → §6, Yorktown into the mall set |
+
+*(Also folded: WALTER's 7/11 1740 Broadway NOTE — ratings-lag mechanism, 17+ month S&P/DBRS downgrade lag on the first AAA-CMBS loss since 2008, stalled by failed sale + delayed appraisal + servicer transfer. Captured as the canonical AAA-level precedent for recognition lag; belongs in KB at workbook build.)*
+
+### Routing (7/27) — 4 packets
+
+**LIQUID** (lender-capital withdrawal — Route-Matrix condition), **SHADE** (the Athene absorption instance, combined-sink input), **REGINALD** (three asks answered + figure reconciliation), **HOMER** (S5 demotion executed, MF ownership confirmed). PROME gets the session memo. *(BROCK, SHADE, PROME and WALTER were live in their own sessions — routed by packet, no files touched outside `AGENTS/CREED/`.)*
+
+### Owed next spawn
+1. **Workbook build** — authorized and unblocked; **seed from the 7/27 pack, not the stale 7/4 spec values**.
+2. **July Trepp delinquency** (~early Aug) + **July SS** (~mid-Aug).
+3. **FDIC Q2 QBP** (~late Aug) — where S3's actual trigger lives.
+4. **ARI preliminary proxy** + shareholder vote — until then, board-resolved ≠ approved.
+5. **KREF Q3** (office run-off to <10%? reserves extend or stabilize?) and **BXMT Q2** (does the largest office-exposed lender follow KREF or hold?).
+6. **MBA Q2 CM/MF flow print** (~mid-Sept) — does the life-insurer leg extend, and does the ARI/Athene $9B appear in it? (SHADE input.)
+7. **Verify-if-load-bearing:** KREF Q2 10-Q primary; Meadows occupancy/DSCR; Seattle 37% vs CoStar/JLL.
 
 ---
 
@@ -187,7 +297,7 @@ Use this as mechanism map only. Refresh all levels and dates before quoting.
 
 ## Current Rails
 
-- Source pack: `AGENTS/CREED/research/REFRESH_2026-07-04.md` (current; supersedes 6/21, which is retained as FDIC-Q1 / maturity-wall source-trail)
+- Source pack: `AGENTS/CREED/research/REFRESH_2026-07-27.md` (**current**; supersedes 7/04, retained as the June-Trepp / recognition-cluster source-trail; 6/21 retained as FDIC-Q1 / maturity-wall source-trail)
 - Thesis rails: `AGENTS/CREED/thesis/THESIS.md`
 - Thesis changelog: `AGENTS/CREED/thesis/CHANGELOG.md`
 - Inbox triage: `AGENTS/CREED/research/INBOX_TRIAGE_2026-06-21.md`
@@ -239,6 +349,20 @@ Do not start by copying the legacy CREED or REITS workbooks wholesale. Seed trac
 
 ## BOTTOM LINE
 
-**Base case (*selective CRE recognition accelerating*) holds and FIRMED; still no CREED trigger (S1–S8) fired 7/4→7/20.** Convergence holds **20/40 (moderate)** — no re-score this window (document-unchanged is the honest outcome), with S1/S2 modestly firmer and one new observation. **The owed June special-servicing print is now OUT: overall SS ROSE to 11.2% (+34bps from May 10.86%), reversing May's cure-dip** [CRE Direct 2026-07-15, primary — $66.76B/$595.84B, vol +1.72%]. **Office SS is elevated ~17% but stayed BELOW the 18% S1 trigger — S1 does NOT fire.** ⚠️ The exact June office figure is contested (17.11% vs 16.75%), and **17.11% is also the January figure** (conflation risk) — failing loud, banking neither; both are <18% so the no-fire verdict is robust. July delinquency not yet out (June's 9.53% maturity-adjusted = still the multi-year high; S2 holds 3). **Counter-signal (honor it) EXTENDED:** the REIT equity tape rally held/widened — **VNQ −1.6pp vs SPY/3mo (tighter than 7/4's −2.9pp, far from −10 trigger), +3.9pp/1mo**; office REITs up double-digits on 3mo (VNO +35.7%, HPP +95.6%); Mon 7/20's broad −1-to-6% dip is single-session noise. **S8 = 2, counter-signal firm.** **NEW: data-center is the tape's lone weak leg** — DLR −13.4%/EQIX −6.6% on 3mo [as-of 7/20], the M-09 score-once node's CRE face (Weld 5) showing first tape softness even as capex stays raised — price-only, not scored as stress. **Q1 CRE financing-flow series re-stamped vs MBA primary** (released 6/18): CMBS/CDO/ABS −$9.6B vs banks +$17.5B / agency +$12.8B / **life insurers +$3.3B → $775B** (the CRE-sink leg SHADE consumes; Q2 print ~mid-Sept). **OZK Q2 AMC 7/21 (REGINALD grades):** S3 stays 2 unless a reserve build lands BEYOND known workouts — a Seattle-attributable bump = recognition base case, not convergence (Weld-3 attribution rule). Still **pre-bank-transmission.** §10 workbook decisions packaged as a decision card in the 7/20 outbox memo for Will.
+**Base case (*selective CRE recognition accelerating*) HOLDS; no CREED trigger (S1–S8) fired 7/20→7/27.** Convergence **20/40 → 23/45** — proportionally **flat (50.0% → 51.1%)**. This window **resolved a blended vector; it did not escalate the thesis.**
+
+**⭐ The finding: a CRE *lender* leg my rails were structurally blind to.** Office equity REITs are **+14% to +77%/3mo** while **7 of 11 CRE mortgage REITs are negative** (median ≈ −9%) — S8 couldn't see it because it was keyed to VNQ-vs-SPY and office-REIT *equity*. Two named actions, **two different mechanisms that must not be fused: (a) ARI = lender-ECONOMICS exit** — sold its **~$9B CRE loan book to Athene** (closed 4/24/26) at **99.7% of total loan commitments**, then on 6/15/26 its **board resolved that dissolution/liquidation/wind-down is "advisable"** [SEC 8-K, **primary, read directly**; ⚠️ **stockholder-UNAPPROVED** — the 7/9 annual meeting was directors/auditor/say-on-pay only, preliminary proxy pending]; **(b) KREF = CREDIT-LOSS recognition** — dividend **−60%**, Q2 GAAP **−$121.8M**, 6-mo provision **$148.6M**, ACL **$293.1M**, reserves on **risk-5 office/multifamily/life-science**, office 21%→18% targeting **<10%**. **8 of 11 mREITs held dividends flat — selective, not a cascade.**
+
+**The thesis refinement:** *recognition speed is a property of the **holder**, not just the wrapper.* The ARI→Athene $9B is CREED's core mechanism printing as **one named, dated, primary-verifiable transaction** — the loans didn't disappear, they **migrated from a fast-recognition holder to a slow-recognition one.** → **SHADE** (named instance under the aggregate Weld-2 life-insurer leg, +$3.3B Q1 → $775B).
+
+**The strongest evidence cuts BOTH ways and both are reported.** ARI's book clearing at **99.7% of commitments** is the largest clean mark-validation in my rails and **direct evidence against the "CRE marks are fictional" leg** — which is why **S6 was held at 3, not raised**. And **the equity counter-signal STRENGTHENED: VNQ vs SPY flipped POSITIVE, +2.04pp/3mo** (from −1.6pp on 7/20, −2.9pp on 7/4), trigger now 12pp away and receding. **Honor it.** The 7/20 data-center "lone weak leg" **unwound** (DLR −13.4%→−3.0%/3mo) — correctly not scored as stress then.
+
+**Two structural changes, disclosed on both bases:** **S5 demoted** to a HOMER-fed cross-reference (7/12 DAEDALUS ruling, applied 15 days late because CREED hadn't spawned — fixes a live double-count; MF figure now cited from HOMER); **S8 split into 8a (equity, 2, counter-signal) / 8b (credit-lender, 3, new independent root)**. Numbering 1–8 unchanged so existing citations resolve.
+
+**Three corrections, one of them mine.** **(i) My own 7/20 conflation flag was a FALSE ALARM** — June office SS is settled at **17.11% (+36bps)**, authentic in both January and June; below the 18% trigger, **S1 no-fire stands**. **(ii) REGINALD's 3-mall-transfers-in-3-days cadence is NOT ANOMALOUS** — a ≥2/month floor is derivable from June's top-5 new delinquencies (two of five were malls), so 3-in-8-days sits inside the run-rate; **killed, as REGINALD asked**. The class-A broadening read is **not supportable** (Meadows is a 2013/14-vintage conduit loan at scheduled maturity — the mundane explanation must be excluded first). **(iii) The $875B maturity figure is REGINALD's, not mine** — CREED owns the CMBS slice (**>$100B** total, **$76.6B** hard, 39% Q4); HOMER owns MF ($160B+). They nest.
+
+**A trap caught before it entered the rails:** ARI's **−37%/1mo** raw-price print is **almost entirely the $3.75 return-of-capital going ex on 7/16** (−33.4% in one session; total-return *positive*). Never cite a CRE mREIT price move without checking corporate actions — now standing discipline in S8b.
+
+**Coverage gap closed:** life science is **BIFURCATED, not collapsing** — distressed markets *healing* (Chicago 37.6% from 39.2%), Boston/SF worsening on **new supply, not tenant loss**; don't stack CBRE's national figure on Savills. Still **pre-bank-transmission**; S3 held at 2 with a live watch-add (**OZK Special Mention +$219M fresh/unattributed while ACL RELEASED $10.7M**). **Workbook build is authorized and unblocked** (all 5 §10 decisions Will-approved 7/21) — but **seed it from the 7/27 pack, not the stale 7/4 spec values.**
 
 *(Tier-2 spawn-on-need — updated when spawned. BOTTOM LINE handle relocated 2026-06-28 — DAEDALUS BATCH_01; the near-top "Bottom Line" was renamed "Thesis".)*

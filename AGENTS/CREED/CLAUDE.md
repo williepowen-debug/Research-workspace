@@ -43,7 +43,10 @@ Do **not** own:
 | Bank CRE convergence (S3): FDIC non-owner CRE PDNA re-rising; reserve-coverage deterioration; CRE provisions/charge-offs across watchlist banks | REGINALD | 🔴 | bank-size CRE PDNA + reserve-coverage; property/metro map; mod-exhaustion / re-default evidence |
 | Maturity-default wave (S2) / office CMBS re-accelerates (S1) with bank-exposed metro overlap | REGINALD (+ LIQUID if refi-driven) | 🔴 | property/metro stress map; maturity-wall timing |
 | Forced-sale / NAV recognition (S6); maturity-wall funding/refi pressure; lender-appetite / credit-closure signs | LIQUID | 🟠 | forced-sale comps; funding/refi pressure; NAV-cascade evidence |
-| Multifamily term-default broadening (S5); property-level stress with household spillover | CARL | 🟠 | multifamily term-default evidence; rent/occupancy/property-level stress |
+| Multifamily CMBS row / term-default / Sun-Belt realization **(S5 — HOMER-OWNED as of 2026-07-27)** | **HOMER** | 🟠 | the MF row from CREED's whole-Trepp pull; MF-relevant lender evidence. **CREED cites `AGENTS/HOMER/STATUS.md` for the MF figure — do NOT score S5 independently or publish a second Trepp-MF citation** |
+| Property-level stress with **household/consumer** spillover (non-MF) | CARL | 🟠 | rent/occupancy/property-level stress with household spillover potential |
+| **CRE lender-capital withdrawal (S8b)**: mREIT dividend cuts, book-value erosion, a lender exiting/liquidating/selling its loan book, cohort-wide provisioning | **LIQUID** | 🟠 | lender-appetite / credit-availability evidence; refi-capacity read into the maturity wall. **Separate lender-ECONOMICS from CREDIT-LOSS; check corporate actions before citing any price move** |
+| **CRE assets migrating onto insurance balance sheets** (fast→slow recognition holder) | **SHADE** | 🟠 | named transactions + the CRE leg of the MBA life-insurer absorption series. SHADE owns the combined-sink question; CREED supplies the CRE leg only |
 | Florida-specific CMBS / hotel / multifamily / condo stress | CORAL | 🟠 | FL-specific stress only (reconcile to one number; CORAL owns whole-FL) |
 | Forced-sale LGD comp (e.g. Galveston) | REGINALD | 🟡 | recovery-rate / LGD input for office-workout modeling |
 
@@ -59,7 +62,7 @@ Standing rule: route to the **domain owner**, one signal at a time, transmission
 4. Read `AGENTS/CREED/REVIVAL_PLAN.md`.
 5. Treat legacy CREED material under `AGENTS/REGINALD/sub-agents/CREED/` as **source archive**, not current truth.
 6. Before making market claims, read the current rails in this order:
-   1. `AGENTS/CREED/research/REFRESH_2026-07-04.md` (current source pack; `REFRESH_2026-06-21.md` retained only for the FDIC-Q1 / maturity-wall source-trail it carries forward)
+   1. `AGENTS/CREED/research/REFRESH_2026-07-27.md` (current source pack — CRE lender leg, June SS resolution, life-science bifurcation; `REFRESH_2026-07-04.md` retained as the June-Trepp / recognition-cluster source-trail, `REFRESH_2026-06-21.md` as the FDIC-Q1 / maturity-wall source-trail)
    2. `AGENTS/CREED/thesis/THESIS.md`
    3. `AGENTS/CREED/thesis/CHANGELOG.md`
    4. `AGENTS/CREED/research/INBOX_TRIAGE_2026-06-21.md`
@@ -109,7 +112,7 @@ Use current rails for the June 2026 thesis state. Fresh data is still required b
 
 Current source pack and thesis rails. These are mandatory before CREED makes current analytical claims:
 
-- `AGENTS/CREED/research/REFRESH_2026-07-04.md` (current source pack; `REFRESH_2026-06-21.md` = FDIC-Q1 / maturity-wall source-trail)
+- `AGENTS/CREED/research/REFRESH_2026-07-27.md` (**current** source pack; `REFRESH_2026-07-04.md` = June-Trepp / recognition-cluster source-trail; `REFRESH_2026-06-21.md` = FDIC-Q1 / maturity-wall source-trail)
 - `AGENTS/CREED/thesis/THESIS.md`
 - `AGENTS/CREED/thesis/CHANGELOG.md`
 - `AGENTS/CREED/research/INBOX_TRIAGE_2026-06-21.md`

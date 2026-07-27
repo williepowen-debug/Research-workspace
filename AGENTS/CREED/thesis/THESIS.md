@@ -1,7 +1,7 @@
 # CREED Thesis Rails
 
 **Created:** 2026-06-21 15:10 ET  
-**Status:** Current rails — Phase 3 base (6/21), updated 6/28 + **7/4** (June Trepp + realized-recognition cluster + 7/2 REIT tape; convergence 20/40). See CHANGELOG.  
+**Status:** Current rails — Phase 3 base (6/21), updated 6/28 + 7/4 + **7/27** (CRE lender leg discovered; S8 split into equity/credit legs; S5 demoted to HOMER-fed cross-ref; convergence 20/40 → **23/45**). See CHANGELOG.  
 **Scope:** National CRE / CMBS market-stress synthesis. Not a trade recommendation.
 
 ---
@@ -13,6 +13,8 @@ CREED's current base case is **selective CRE recognition accelerating**, not bro
 The clean story:
 
 > CMBS is already showing the pain because securitized loans force recognition faster. Banks are still absorbing/deferring through modifications, reserves, concentration management, and liquidity. The next edge is not “CRE bad”; it is identifying when maturity-default and special-servicing stress crosses into bank provisions, reserve coverage deterioration, forced sales, or funding pressure.
+
+**Refinement added 7/27 — recognition speed is a property of the *holder*, not just the *wrapper*.** The fast-recognition channel is not only "CMBS"; it is every **publicly-marked, quarterly-reporting** CRE holder — which includes the **commercial mortgage REITs**. The slow-recognition channel is not only "banks"; it includes **insurance balance sheets**. The 7/27 session found this printing as a single named transaction: **ARI sold ~$9B of CRE loans to Athene (closed 4/24/26) and its board then resolved to dissolve** — the loans did not go away, they **moved from a fast-recognition holder to a slow-recognition one**. Track the *migration*, not just the delinquency rate.
 
 ---
 
@@ -27,12 +29,15 @@ The clean story:
 Current evidence:
 - **Trepp June 2026 CMBS delinquency (latest): 7.35% overall (−20bps MoM, held down by a large lodging cure); office 11.57% (+4bps, ticked back UP); multifamily 7.23% (+28bps — RESUMED rising after the May cure); retail 6.91% (+30bps); lodging 5.22% (−79bps); industrial 1.20% (−11bps).** June newly-delinquent $2.64B; top-5 = $998.9M (SoCal super-regional mall, NH regional mall, NY office complex, Minneapolis mixed-use tower, Manhattan multifamily). **Tell: including past-maturity loans still current on interest, the adjusted rate would be 9.53% — a new multi-year high** — the 7.35% headline understates the maturity-default overhang. [connectcre / Yield PRO / Trepp, Jun 2026 print, ~7/2/26]
 - Prior print for reference: Trepp May 2026 delinquency 7.55% overall / office 11.53% / MF 6.95%.
-- Trepp **May 2026** special servicing: **10.86%** overall; office **16.75%**. *(⚠️ June SS print not yet published/indexed as of 7/4 — owed; do not advance the office-SS>18% trigger read off May.)*
+- **Trepp June 2026 special servicing (latest): overall 11.2% (+34bps); office 17.11% (+36bps); lodging 8.89% (+44bps); industrial 1.37%.** Below the >18% office S1 trigger — **S1 does not fire.** *(The 7/20 "contested 17.11% vs 16.75% / possible January-conflation" flag was a **false alarm** — WALTER refuted its own recirculation hypothesis: 17.11% is an authentic office figure in both January and June, a coincidence of level. `SIG-W-20260717-005`.)* ⚠️ Trepp PDF paywalled = **primary-CITED, not primary-READ**; the "retail 12.95%" circulating alongside is **UNVERIFIED — do not cite.**
+- **The DQ↓/SS↑ divergence is the extend-and-pretend signature.** Office SS (17.11%) runs **~5.5pp above** office DQ (11.57%) because special servicing fires **pre-delinquency** on maturity/covenant events — a loan can sit in SS while current on interest. Servicers state the mechanism: lenders unwilling to seize, resolutions via extension/forbearance/new equity.
+- **⭐ NEW 7/27 — the CRE lender leg is recognizing while the CRE equity leg rallies.** Over 3mo, office equity REITs are **+14% to +77%** while **7 of 11 CRE mortgage REITs are negative** (median ≈ −9%). Two named actions inside that window, and **they are different mechanisms that must not be fused**: **(a) ARI — lender-economics exit**, ~$9B book sold to Athene at **99.7% of total loan commitments** (closed 4/24/26), board resolved 6/15/26 that dissolution/liquidation/wind-down is "advisable" [SEC 8-K, primary; **stockholder-UNAPPROVED**, preliminary proxy pending]; the clean 99.7% clearing is evidence **against** the "CRE marks are fictional" leg. **(b) KREF — credit-loss recognition**, dividend **−60%** ($0.25→$0.10), Q2 GAAP **−$121.8M (−$1.95/sh)**, 6-mo provision **$148.6M**, ACL **$293.1M**, book $10.24, reserves attributed to **risk-rated 5 loans in office, multifamily and life science**; legacy office 21%→**18%**, targeting **<10% by YE26**. **8 of 11 held dividends flat — this is selective, not a cohort cascade.**
+- **Life science is BIFURCATED, not collapsing** [Savills Q2-26]: the over-built distressed markets are **past peak and absorbing** (Chicago 37.6%, improved from 39.2%; Denver-Boulder 23.8% from 27.0%) while Boston-Cambridge (26.4%, **+610bps**) and SF Bay (26.2%) worsen because **inventory grew, not because tenants left** (~2.5M sf new lab deliveries in Boston). A "national life-science vacancy near records" line fuses two opposite mechanisms and destroys the read. CBRE's national 23.2–23.3% is a **different provider/methodology — do not stack.** *(Closes a coverage gap WALTER named: CREED+REGINALD grep = zero life-science hits, on the exact asset class in OZK's Seattle credit and KREF's risk-5 reserves.)*
 - 2026 maturity wall remains live: Morningstar DBRS / accessible corroboration points to **>$100B** CMBS maturities and more than half expected not to repay at maturity; Trepp hard maturities **$76.6B**, **39%** in Q4.
 - FDIC Q1 2026 bank PDNA: **1.53%** overall; non-owner CRE and multifamily elevated, but large-bank non-owner CRE PDNA improved to **3.40%**. *(Q2 QBP not yet out.)*
 - **Realized-recognition comp cluster (Jun–Jul 2026 — the recognition now printing as REALIZED losses, not just marks; mostly single-source/WALTER-routed unless noted):** 205 W Randolph Chicago office liquidated at a **72% haircut = $12.2M realized CMBS loss** (COMM 2015-CR22; single-source, unverified vs remit); Aon Center Chicago **−58% appraisal** ($780M→$330.5M) with 601W seeking another extension; Bank OZK **deed-in-lieu** on the Seattle U-District "Chapter Buildings" (~394K SF office/life-science, ~$126M current OZK exposure; the LOI-for-recap FAILED — **CONFIRMED 0.85**); Galveston vacant office **$8.79/SF, 0% occ**; **S2 Capital $400M multifamily Fund I dissolved, "no return of capital"** to LPs + $311M North Texas MF at foreclosure this month (**CONFIRMED 0.88** vs The Real Deal primary); 75 West N.Dallas ($90M, Ares 2022 lender) + Austin 526-unit MF ($61.1M-2024 → $9.5M opening bid) forced-sale comps; MF rent concessions **16.9%** (12-yr high, Class-C 21.5% / Sunbelt-led).
 
-Primary source pack: `AGENTS/CREED/research/REFRESH_2026-07-04.md` (current — June Trepp + realized-recognition cluster + 7/2 REIT tape; supersedes `REFRESH_2026-06-21.md`, retained for FDIC-Q1 / maturity-wall source-trail).
+Primary source pack: `AGENTS/CREED/research/REFRESH_2026-07-27.md` (current — CRE lender leg, June SS resolution, life-science bifurcation, mall-cadence kill, 7/27 intraday tape). Supersedes `REFRESH_2026-07-04.md` (retained for the June Trepp print + realized-recognition cluster source-trail) and `REFRESH_2026-06-21.md` (FDIC-Q1 / maturity-wall source-trail).
 
 ---
 
@@ -138,7 +143,9 @@ Response:
 - classify extend-and-pretend as failing in affected segment
 - update thesis state toward broad transmission if bank evidence confirms
 
-### 🟠 Signal 5: Multifamily term-default broadening
+### 🟠 Signal 5: Multifamily term-default broadening — **HOMER-FED CROSS-REFERENCE (demoted 2026-07-27)**
+
+> **Ownership ruling applied 7/27** (DAEDALUS packet 2026-07-12, Will-approved HOMER promotion). **HOMER is the primary owner of the Trepp CMBS-multifamily row, the GSE-vs-CMBS divergence, and Sun-Belt-MF realization tracking.** CREED no longer scores S5 as an independent vote — it is carried as a **cited cross-reference to `AGENTS/HOMER/STATUS.md`**. CREED continues to pull the *whole* Trepp print for office/retail/industrial/lodging; the MF row routes to HOMER rather than being independently parsed. **S5 is NOT retired** — it stays in the matrix with its score visible for continuity, but it is excluded from CREED's independent-root count. This fixes a live double-count: HOMER's SV-HOMER-2026-07-10-02 and CREED's S5/S6 were independently tracking the same Sun-Belt 2022-vintage foreclosure cluster as separate findings.
 
 Trigger examples:
 - multifamily CMBS delinquency/special servicing resumes uptrend after May cure
@@ -169,13 +176,29 @@ Trigger examples:
 Response:
 - treat AI as accelerator/narrative until supported by vacancy/leasing/default data
 
-### 🟡 Signal 8: Public REIT equity tape confirms CRE recognition
+### 🟡 Signal 8: Public-market tape confirms CRE recognition — **SPLIT INTO TWO LEGS (2026-07-27)**
+
+> **Why the split.** Through 7/20 this signal was scored off VNQ-vs-SPY and office-REIT *equity*, and it read as a clean counter-signal. The 7/27 pull showed that framing was **a blended vector masking a bifurcation**: the public market has two CRE legs and they are telling **opposite stories** — equity REITs +14-77%/3mo while 7 of 11 CRE mortgage REITs are negative, with one lender liquidating and another cutting its dividend 60%. Scoring them as one number destroys the information. **Signal numbering is unchanged (1–8) so existing citations still resolve; S8 now carries legs 8a and 8b.**
+
+#### Signal 8a — CRE **equity** tape (office/retail/diversified REITs)
 
 Trigger examples:
 - VNQ underperforms SPY by >10% over 3 months while rates/refi stress or property fundamentals worsen
 - office REIT NAV discounts exceed 50% with confirming vacancy/leasing/default evidence
 - major office/retail/residential REIT cuts dividend because NOI/refi stress is impairing cash flow
-- mREIT book-value/dividend shock points to spread/funding stress relevant to LIQUID
+
+#### Signal 8b — CRE **credit / lender** tape (commercial mortgage REITs) — *new leg*
+
+Trigger examples:
+- CRE mREIT book-value/dividend shock: dividend cuts or realized book-value erosion **across multiple names** (not one)
+- a CRE lender **exits, liquidates, or sells its loan book** rather than redeploying capital — lender-appetite/credit-availability withdrawal
+- credit-loss provisions or realized write-offs rising **across** the CRE-lender cohort, especially on risk-rated-5 credits
+- CRE lenders trading persistently below book while dividends are cut → refi-capacity headwind feeding the maturity wall (S2)
+
+**Discipline on 8b — three traps, all live:**
+1. **Separate lender-ECONOMICS from CREDIT-LOSS.** A lender exiting because the business no longer earns its cost of capital (ARI: book cleared at **99.7% of commitments**) is *not* the same event as a lender reserving against impaired credits (KREF: risk-5 write-offs). ARI's clean clearing is evidence **against** the "marks are fictional" bear leg even as its exit is evidence **for** credit withdrawal. Do not fuse them.
+2. **Check corporate actions before reading a price.** ARI printed **−33.4% in one session** on 7/16 — that was a **$3.75/sh return-of-capital going ex**, not a crash; on a total-return basis it rose. Never cite a CRE mREIT price move without checking the dividend record.
+3. **Count the cohort, not the headline.** 8 of 11 CRE mREITs held dividends flat. Selective ≠ cascade.
 
 Response:
 - update `AGENTS/CREED/research/REIT_EQUITY_TAPE_MODULE_2026-06-21.md` or monthly tracker
@@ -192,16 +215,23 @@ Response:
 
 | # | Vector (Expected Signal) | Score | Local state / current read [as-of] | Independence | Upgrade trigger |
 |---|---|---:|---|---|---|
-| 1 | Office CMBS stress re-accelerates | 3 | delinq **11.57% (+4bps, ticked back up)** [Trepp Jun] / SS 16.75% [May; Jun owed] — elevated, near the >12%/>18% trigger, not fired | ⟂ shares maturity-wall/refi-gap root w/ #2 | delinq >12% & holds OR SS >18% |
-| 2 | Maturity-default wave confirms | 3 | **maturity-adjusted DQ 9.53% = new multi-year high** [Trepp Jun] — headline 7.35% masks the past-maturity-still-paying overhang; wall live (>$100B, >50% exp. non-repay; $76.6B hard, 39% Q4) — firmer, not yet majority of new delinq confirmed 2 consec mo | ⟂ shares maturity-wall root w/ #1 | matured-balloon = majority of new delinq 2 consec mo |
-| 3 | Bank CRE convergence | 2 | FDIC Q1 large-bank non-owner CRE PDNA **improved** to 3.40% — still counter-direction; **BUT Bank OZK deed-in-lieu on the Seattle U-District credits = a realized bank-CRE REO on a watched name** (single credit; OZK Q2 earnings mid-late-July = provision-bump watch) | ⟂ DOWNSTREAM of #1/#2 (transmission, not an independent root) | FDIC PDNA re-rising + reserve-coverage deterioration |
-| 4 | Modification exhaustion / re-default | 2 | no clean aggregate evidence — June headline decline was lodging cures + mods (extend-and-pretend still WORKING at the aggregate), yet Aon + Seattle recaps FAILED (mods failing at the asset level) | Independent (mod mechanism) | re-default / 2nd-mod rates rise |
-| 5 | Multifamily term-default broadening | **3 ↑** | **MF delinq RESUMED rising to 7.23% (+28bps)** [Trepp Jun — reverses the May cure] + **Sun Belt 2022-vintage foreclosure cluster** (S2 Capital $400M fund dissolved + $311M N.Texas; 75 West N.Dallas $90M; Austin 526-unit) + concessions **16.9%** Class-C/Sunbelt — building; cluster still TX-concentrated, not yet dominating *outside* NY/NJ/Houston | Independent (property-level) — but MF legs share the Sun-Belt-cluster antecedent w/ #6 | term-defaults dominate outside NY/NJ/Houston |
-| 6 | Forced-sale / private-NAV recognition | **3 ↑** | **now a CLUSTER of realized comps >30% below basis** (205 W Randolph **−72% realized** CMBS loss; Aon **−58%** mark; Galveston $8.79/SF; Austin MF; S2 Capital "no return of capital"; Seattle OZK deed-in-lieu) — no longer the single Galveston instance | Independent (LGD/recognition) — MF legs share the Sun-Belt-cluster antecedent w/ #5 | sale >30% below basis as a CLUSTER (now met, single-source); open-end fund gates (not yet) |
-| 7 | Office-demand structural hit (tape-confirmed) | 2 | AI-narrative only; data-center demand is a STRENGTH counter-signal (capex rising) | ⟂ shares office-demand root w/ #8 | REIT selloff + direct tenant-demand impairment |
-| 8 | Public REIT equity tape confirms | 2 | **COUNTER-SIGNAL [7/2 close]** — VNQ −2.9pp vs SPY/3mo (far from −10 trigger), +6.3pp/1mo; office REITs rallied 5–15%; NOT confirming stress (OZK −5.7% lone dissent) | ⟂ equity-tape read of #7's fundamental | VNQ −10% vs SPY/3mo + confirming fundamentals |
+| 1 | Office CMBS stress re-accelerates | 3 | delinq **11.57%** [Trepp Jun] / **SS 17.11% (+36bps)** [Trepp Jun — figure RESOLVED 7/27, the Jan-conflation flag was a false alarm] — elevated, **below** the >12%/>18% triggers, not fired. DQ↓/SS↑ gap ~5.5pp = extend-and-pretend signature | ⟂ shares maturity-wall/refi-gap root w/ #2 | delinq >12% & holds OR SS >18% |
+| 2 | Maturity-default wave confirms | 3 | **maturity-adjusted DQ 9.53% = multi-year high** [Trepp Jun] — headline 7.35% masks the past-maturity-still-paying overhang; wall live (>$100B CMBS, >50% exp. non-repay; $76.6B hard, 39% Q4). **Reinforced 7/27:** all three July mall SS transfers were **maturity/extension failures, not NOI stress** (Sangertown = a 3rd extension refused on a DSCR hurdle after rolling twice — extend-and-pretend ending on schedule). Still not confirmed as majority of new delinq 2 consec mo | ⟂ shares maturity-wall root w/ #1 | matured-balloon = majority of new delinq 2 consec mo |
+| 3 | Bank CRE convergence | 2 | FDIC Q1 large-bank non-owner CRE PDNA **improved** to 3.40% — still counter-direction; FDIC Q2 QBP ~late Aug. **OZK Q2 graded 7/21 exactly per the CREED pre-position: Seattle charge-offs = KNOWN-workout recognition → S3 held.** ⚠️ **Watch-add: Special Mention +$219M fresh and UNATTRIBUTED while ACL was RELEASED $10.7M** — a reserve release into a classified build is the opposite of convergence, which is itself the tell | ⟂ DOWNSTREAM of #1/#2 (transmission, not an independent root) | FDIC PDNA re-rising + reserve-coverage deterioration |
+| 4 | Modification exhaustion / re-default | 2 | no clean aggregate evidence — extend-and-pretend still WORKING at the aggregate (servicers unwilling to seize; resolutions via extension/forbearance). **Firmer at the asset level 7/27:** Aon + Seattle recaps FAILED, and Sangertown is a **3rd extension refused on a DSCR hurdle** — mods exhausting one credit at a time, not yet in the aggregate | Independent (mod mechanism) | re-default / 2nd-mod rates rise |
+| 5 | Multifamily term-default broadening | *(3)* | **⟵ HOMER-FED CROSS-REF as of 7/27, not independently scored by CREED** (DAEDALUS ruling 7/12). HOMER carries the Trepp MF row: MF DQ **7.23%** June (+28bps), maturity-adj 9.53%, GSE-vs-CMBS divergence **WIDENING**, Sun Belt 2022-vintage cluster. **Cite `AGENTS/HOMER/STATUS.md`.** Score shown for continuity only — **excluded from CREED's independent-root count** | **NOT an independent CREED vote** — HOMER-owned; previously shared the Sun-Belt-cluster antecedent w/ #6 | *(HOMER's call)* |
+| 6 | Forced-sale / private-NAV recognition | 3 | **CLUSTER of realized comps >30% below basis** holds (205 W Randolph −72% realized CMBS loss; Aon −58% mark; Galveston $8.79/SF; Seattle OZK deed-in-lieu). ⚠️ **Material COUNTER-datum added 7/27: ARI's ~$9B CRE loan book cleared at 99.7% of total loan commitments** — the largest clean mark-validation in the pack, and direct evidence *against* the "CRE marks are fictional" leg. **Held at 3, not raised** | Independent (LGD/recognition) | open-end fund gates (not yet); a >30%-below-basis cluster in *performing* collateral |
+| 7 | Office-demand structural hit (tape-confirmed) | 2 | AI-narrative only; data-center demand still a STRENGTH counter-signal (capex raised; the 7/20 DLR/EQIX softness **largely unwound** — DLR −13.4%→−3.0%/3mo). **Life-science leg added 7/27: BIFURCATED, not collapsing** — distressed markets absorbing (Chicago 37.6% improving), Boston/SF worsening on **new supply, not tenant loss** | ⟂ shares office-demand root w/ #8a | REIT selloff + direct tenant-demand impairment |
+| 8a | CRE **equity** tape confirms | 2 | **COUNTER-SIGNAL, STRENGTHENED [intraday 7/27]** — VNQ vs SPY **+2.04pp/3mo (FLIPPED POSITIVE**; was −1.6pp 7/20, −2.9pp 7/4), **+2.86pp/1mo**. Trigger now **12pp away and receding.** Office REITs +14→+77%/3mo (VNO +35.1, SLG +27.4, HPP +76.8); malls up too (SPG +14.4, MAC +22.5). **Honor it** | ⟂ equity-tape read of #7's fundamental | VNQ −10% vs SPY/3mo + confirming fundamentals |
+| 8b | CRE **credit / lender** tape | **3 ★NEW** | **⭐ the leg S8 was structurally blind to.** 7 of 11 CRE mREITs negative/3mo (median ≈ −9%) while equity REITs rallied. **ARI: ~$9B book → Athene at 99.7%, board resolved to dissolve** (8-K primary; stockholder-UNAPPROVED). **KREF: dividend −60%, Q2 GAAP −$121.8M, 6-mo provision $148.6M, ACL $293.1M, risk-5 reserves in office/MF/life-science, office 21%→18% targeting <10%.** BXMT −17.1%/3mo w/ dividend held. **8 of 11 held dividends — selective, not a cascade** | **Independent** (lender-capital/credit channel — a NEW root, not a re-read of #7) | multi-name dividend cuts + realized book erosion **across** the cohort |
 
-**Composite: 20/40 (moderate; was 18/40 on 6/28).** Base case *selective recognition accelerating* holds and **FIRMED** — recognition is now printing as **realized losses** (205 W Randolph −72% closed CMBS loss; Seattle OZK deed-in-lieu) and **broadening into multifamily** (June MF delinq +28bps + Sun Belt 2022-vintage foreclosure cluster). Two upgrades this window: **S5 Multifamily 2→3, S6 Forced-sale 2→3.** Still **nothing FIRED** — no signal crossed a hard trigger. **Counting once for shared antecedents** — maturity-wall root (S1+S2); office-demand root (S7+S8); Sun-Belt-MF-cluster root shared across S5+S6's MF legs; S3 downstream — = **~4–5 independent roots elevated, not 8.** Do not read 20/40 as broad confirmation; read it as *the recognition-acceleration base case getting louder, still pre-bank-transmission.* ⚠️ Most individual comps are single-source/WALTER-routed (SKIP-VERIFY 0.6–0.82); the two 7/4 items (Seattle OZK, S2 Capital) are WALTER-CONFIRMED (0.85–0.88), and the June aggregate MF/office prints are the load-bearing verified inputs — the anecdotes corroborate the aggregate rather than carrying the read alone.
+**Composite: 23/45 (moderate).** On the prior 8-vector basis this was **20/40** — the proportional read is **essentially flat (50.0% → 51.1%)**, and that is the honest headline: **this window resolved a blended vector; it did not escalate the thesis.** Base case *selective CRE recognition accelerating* **holds**. **Nothing FIRED** — no signal crossed a hard trigger.
+
+**Two structural changes, both applied 7/27** (denominator moved 40→45; both directions disclosed so nothing is silently lost): **(i) S5 demoted** to a HOMER-fed cross-reference per the Will-approved DAEDALUS ruling — kept in the matrix, removed from CREED's independent-root count, MF figure now cited from HOMER; **(ii) S8 split into 8a/8b** because the equity and credit legs of the public CRE tape diverged hard enough that one score destroyed the information. Signal numbering 1–8 is unchanged so existing citations still resolve.
+
+**Counting once for shared antecedents:** maturity-wall root (S1+S2); office-demand root (S7+S8a); S3 downstream of S1/S2; S5 no longer a CREED vote. **S8b is a genuinely new independent root** (lender-capital withdrawal is not a re-read of property fundamentals). = **~4–5 independent roots elevated, not 8.** Do not read 23/45 as broad confirmation; read it as *the recognition-acceleration base case now visible in a second channel, still pre-bank-transmission.*
+
+⚠️ **Evidence quality this window is BETTER than usual, and the direction of the strongest evidence is mixed.** The ARI wind-down is **SEC-primary, read directly** — the highest-grade single item in CREED's rails — and it carries a **counter**-datum (99.7% clearing) alongside its bear datum (lender exit). KREF is secondary-sourced (10-Q not read). The June SS resolution is primary-*cited*, paywalled, not primary-*read*. The mall-cadence "signal" was **tested and killed** (§9 of the 7/27 pack): 3-in-3-days is **not established as anomalous** against a ≥2/month floor derivable from June's top-5 new delinquencies. Anecdotes corroborate aggregates here; they do not carry the read.
 
 ---
 
@@ -214,6 +244,14 @@ Signals that weaken CREED bear intensity:
 - FDIC bank CRE PDNA continues improving while reserve coverage stabilizes.
 - transaction volume and price discovery improve without forced-sale discounts.
 - funding/rates ease enough to refinance low-debt-yield cohorts.
+
+**Live counter-signals as of 2026-07-27 — actively weighing against the bear read:**
+- **ARI's ~$9B CRE loan portfolio cleared at 99.7% of total loan commitments** (closed 4/24/26). A book that size clearing essentially at par is the strongest available evidence that CRE marks in the performing bank/lender channel are **not** fictional. This is the single most important counter-datum CREED holds.
+- **The CRE equity tape counter-signal STRENGTHENED and flipped positive** — VNQ +2.04pp vs SPY/3mo, +2.86pp/1mo; office REITs +14→+77%/3mo; mall REITs up (SPG +14.4%, MAC +22.5%). The public equity market is pricing CRE *better*, not worse.
+- **8 of 11 CRE mortgage REITs held their dividend flat**; KREF is **+22.6%/3mo *after* a 60% cut.** The lender leg is selective, not cascading.
+- **Life science is bifurcating with the worst markets HEALING** (Chicago 37.6% from 39.2%; Denver-Boulder 23.8% from 27.0%) — the deterioration that exists is a **supply** event, not a demand collapse.
+- **Data-center softness did not persist** — the 7/20 "lone weak leg" (DLR −13.4%/3mo) unwound to −3.0%/3mo by 7/27. Correctly not scored as stress at the time.
+- **REGINALD's mall-cadence signal was tested and did not survive** — 3-in-3-days is not established as anomalous against the observable run-rate.
 
 ---
 
@@ -248,8 +286,29 @@ CREED sends:
 ### CARL
 
 CREED sends:
-- multifamily term-default evidence
 - rent/occupancy/property-level stress with household spillover potential
+
+*(Multifamily term-default evidence now routes via **HOMER**, not CREED — see below.)*
+
+### HOMER *(added 2026-07-27)*
+
+**HOMER owns** the Trepp CMBS-multifamily row, the GSE-vs-CMBS divergence, and Sun-Belt-MF realization tracking (DAEDALUS ruling 7/12, Will-approved). CREED **cites** `AGENTS/HOMER/STATUS.md` for the MF figure rather than pulling it independently.
+
+CREED sends:
+- the multifamily row from its whole-Trepp-print pull (one pull, one MF owner, no duplicate parse)
+- MF-relevant lender evidence surfacing in CREED's channels (e.g. KREF's risk-rated-5 **multifamily** reserve build)
+
+CREED does not send:
+- an independent MF term-default score or a second Trepp-MF citation
+
+### SHADE *(added 2026-07-27)*
+
+CREED sends:
+- **CRE-asset migration into insurance balance sheets** — the slow-recognition sink. Named instance: **~$9B of ARI's CRE loans sold to Athene, closed 2026-04-24 at 99.7% of commitments**, ahead of ARI's board resolving to dissolve.
+- the CRE leg of the aggregate absorption series: MBA CM/MF life-insurer holdings **+$3.3B in Q1 → $775B** of the $5.02T market (Q2 print ~mid-Sept).
+
+CREED does not own:
+- the combined-sink question or any insurer-side credit judgment — SHADE owns both. CREED supplies the CRE leg only.
 
 ---
 
@@ -258,8 +317,11 @@ CREED sends:
 1. Is Q4 2026 the real maturity-wall pain point, or will borrowers pull forward recognition into Q2/Q3?
 2. Are May office/multifamily improvements real cures or large-loan/denominator noise?
 3. Which regional/community banks have deteriorating reserve coverage plus high CRE concentration?
-4. Does multifamily stress remain metro-specific, or does it broaden into a national property-level problem?
+4. ~~Does multifamily stress remain metro-specific…~~ **→ HOMER's question as of 7/27.**
 5. Does AI office-demand risk become visible in leasing/vacancy/default data, or remain mostly equity narrative?
+6. **⭐ How much CRE credit is migrating from fast-recognition holders (mortgage REITs, CMBS) to slow-recognition holders (insurers, banks), and does that migration *defer* recognition or merely *relocate* it?** The ARI→Athene $9B is one named instance; the MBA quarterly flow series is the aggregate. If the fast channel keeps shedding at par into balance-sheet buyers, headline CMBS/mREIT stress metrics will **understate** system CRE risk by construction — the stress leaves the measured population. *(SHADE owns the insurer side.)*
+7. **Why did the CRE equity and CRE credit tapes diverge this hard?** Equity REITs +14-77%/3mo against a lender cohort 7-of-11 negative is a large, systematic split. Candidate reads: (a) equity is pricing rate relief and credit is pricing spread/funding; (b) equity is pricing *asset* recovery while credit prices *lender-economics* (cost of capital, not collateral); (c) one of the two is wrong. **This is the highest-value open question in the rails** — it determines whether S8a's counter-signal or S8b's build is the leading indicator.
+8. **Is ARI idiosyncratic or the first of several?** A public CRE lender concluding the business no longer earns its cost of capital and handing capital back is a strategic verdict on CRE lending economics, not on CRE credit. Watch whether other sub-scale mREITs follow (BXMT is the name to watch — largest office-exposed, −17.1%/3mo, dividend still intact).
 
 ---
 
