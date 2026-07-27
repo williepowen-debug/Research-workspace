@@ -1,0 +1,20 @@
+# CREED workbook schema — governs KB.tsv columns + controlled vocabulary. Built 2026-07-27 from the fleet-canonical 13-col KB schema (BOND/CARL model) + Last_Refreshed (Will-approved 2026-07-21, §10 decision 1). No Delegated_To column — CREED has no sub-agents.
+variable_name	data_type	allowed_values	missing_code	required	default	description
+ID	String	KB-CREED-NNN (sequential)		Yes		Unique identifier for each knowledge base entry
+Date	Date	YYYY-MM-DD		Yes		Date the claim was logged
+Group	String	CMBS / SPECIAL_SERVICING / MATURITY_WALL / BANK_TRANSMISSION / FORCED_SALE / MULTIFAMILY / OFFICE_DEMAND / MODIFICATIONS / CRE_LENDER / MECHANISM		Yes		Thematic bucket; aligns to VX Category
+Entity	String	free text (issuer, trust, agency, index, metro)	NA	Yes		Named subject of the claim
+Fact	String	free text	NA	Yes		The claim itself, with figures and units
+Source	String	free text (publisher + date; mark PRIMARY-READ vs PRIMARY-CITED vs SECONDARY)	NA	Yes		Where it came from and at what remove
+Conf	String	Admiralty digraph A1-F6 (letter = source reliability, number = info credibility)	NA	Yes		A=completely reliable ... F=cannot judge; 1=confirmed ... 6=cannot judge
+Epistemic	String	EMPIRICAL / ESTIMATE / ASSUMPTION		Yes	EMPIRICAL	Nature of the claim
+Status	String	ACTIVE / CONFIRMED / STALE / SUPERSEDED / CORRECTED / RETRACTED		Yes	ACTIVE	Lifecycle state
+Stale_By	Date	YYYY-MM-DD	NA	No		Date after which the row must be re-verified before citing
+DerivedFrom	String	comma-separated KB-CREED-NNN or external IDs	NA	No		Provenance chain
+Vectors	String	comma-separated VX-CREED-N.NN	NA	No		VX rows this claim feeds
+Last_Refreshed	Date	YYYY-MM-DD	NA	No		Last time the value was re-verified against source (spawn-on-need staleness aid)
+Notes	String	free text	NA	No		Caveats, contested figures, do-not-stack warnings, counter-evidence
+# --- CONTROLLED VOCAB NOTES ---
+# Conf: WALTER SKIP-VERIFY scores map roughly -> 0.85-0.90 CONFIRMED = B2; 0.60-0.82 single-source = C3/D3; SEC primary read directly = A1.
+# Status RETRACTED: added 2026-07-27 — CREED retracted its own 7/20 office-SS conflation flag; the schema must be able to record a self-correction, not just a supersession.
+# Source discipline: distinguish PRIMARY-READ (filing/PDF actually opened) from PRIMARY-CITED (paywalled, quoted via secondary) from SECONDARY. The June Trepp SS figure is PRIMARY-CITED, not PRIMARY-READ.

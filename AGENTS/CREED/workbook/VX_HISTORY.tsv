@@ -1,0 +1,39 @@
+# CREED VX_HISTORY — monthly time series for the load-bearing vectors. BUILT 2026-07-27. Append one row per vector per new monthly print at closeout.
+# PURPOSE: a level is not a trend. VX.tsv carries the current value; this file carries the path, so "elevated" can be distinguished from "accelerating" and cure-flattered reversals can be seen for what they are.
+Vector_ID	Date	Value	Status	Notes
+VX-CREED-1.01	2026-01	12.34	RED	Office CMBS DQ — the January ATH for the series
+VX-CREED-1.01	2026-02	11.40	ORANGE	Fell on loan modifications
+VX-CREED-1.01	2026-04	11.69	ORANGE	March not captured in the inherited series
+VX-CREED-1.01	2026-05	11.53	ORANGE	—
+VX-CREED-1.01	2026-06	11.57	ORANGE	+4bps, ticked back UP. Range-bound ~11.4-11.7 for five months after the January spike.
+VX-CREED-1.02	2026-05	7.55	ORANGE	Overall CMBS DQ, headline
+VX-CREED-1.02	2026-06	7.35	ORANGE	-20bps but CURE-FLATTERED — a large lodging cure (-79bps) masked office and MF both rising
+VX-CREED-1.03	2026-03	7.15	ORANGE	MF CMBS DQ — HOMER-owned as of 2026-07-27; series retained for the CREED dashboard path only
+VX-CREED-1.03	2026-04	7.71	RED	All-time high for the series
+VX-CREED-1.03	2026-05	6.95	ORANGE	Large-loan cure
+VX-CREED-1.03	2026-06	7.23	ORANGE	+28bps, RESUMED rising — reversed the May cure
+VX-CREED-1.04	2026-06	6.91	YELLOW	Retail CMBS DQ, +30bps
+VX-CREED-1.05	2026-06	5.22	GREEN	Lodging CMBS DQ, -79bps — the cure that pulled the June headline down
+VX-CREED-1.06	2026-06	1.20	GREEN	Industrial CMBS DQ, -11bps
+VX-CREED-2.01	2026-01	17.11	ORANGE	Office special servicing — rose 47bps to 17.11% in January. *** THE JANUARY AND JUNE VALUES ARE IDENTICAL AND BOTH AUTHENTIC — a coincidence of level, NOT a recirculated figure. This identity is exactly what triggered CREED's 7/20 conflation flag, which was subsequently RETRACTED (KB-CREED-011). Preserved here so the coincidence is visible in the series rather than rediscovered as a suspected error. ***
+VX-CREED-2.01	2026-05	16.75	ORANGE	Fell 91bps on a large office loan returning to master servicer + denominator effects — illustrates why SS is the noisier series
+VX-CREED-2.01	2026-06	17.11	ORANGE	+36bps. 89bps below the >18 S1 trigger. NOT fired.
+VX-CREED-2.02	2026-05	10.86	ORANGE	Overall SS — the cure-driven dip
+VX-CREED-2.02	2026-06	11.20	ORANGE	+34bps, resumed rising. $66.76B of a $595.84B universe; volume +1.72%.
+VX-CREED-2.03	2026-05	5.22	YELLOW	Office SS minus office DQ (16.75 - 11.53) — derived
+VX-CREED-2.03	2026-06	5.54	YELLOW	(17.11 - 11.57). WIDENED +32bps = extensions/forbearance still absorbing; servicers taking loans in on maturity events without letting them go delinquent.
+VX-CREED-3.01	2026-06	9.53	ORANGE	CMBS maturity-adjusted DQ — a NEW MULTI-YEAR HIGH. The honest read; the 7.35% headline understates the overhang.
+VX-CREED-4.01	2026-Q1	3.40	ORANGE	Bank non-owner CRE PDNA (>$250B) — 6th consecutive quarterly improvement, down from the Q3-2024 peak of 4.99%. Pre-pandemic 0.58%. COUNTER-DIRECTION.
+VX-CREED-4.02	2026-Q1	146.6	ORANGE	Community-bank reserve coverage. Industry overall 166.8%.
+VX-CREED-4.03	2026-Q1	1.53	GREEN	Overall bank PDNA
+VX-CREED-7.01	2026-07-04	-2.90	GREEN	VNQ vs SPY, 3mo relative (pp). Counter-signal.
+VX-CREED-7.01	2026-07-20	-1.60	GREEN	Tightened toward zero
+VX-CREED-7.01	2026-07-27	2.04	GREEN	*** FLIPPED POSITIVE — REITs now OUTPERFORMING on 3mo. Counter-signal STRENGTHENED across three consecutive CREED sessions; trigger (-10pp) now 12pp away and receding. ***
+VX-CREED-7.02	2026-07-20	-13.40	—	DLR 3mo % — the "data-center lone weak leg" observed 7/20, deliberately NOT scored as stress (price-only, capex intact)
+VX-CREED-7.02	2026-07-27	-3.00	—	DLR 3mo %. *** THE 7/20 SOFTNESS UNWOUND. Correctly not scored. Logged as a calibration record: an unscored single-window observation that reverted. ***
+VX-CREED-9.01	2026-Q1	-9.6	ORANGE	CMBS/CDO/ABS book flow, $B. Context: banks +$17.5B, agency +$12.8B, life insurers +$3.3B. MBA, released 2026-06-18.
+VX-CREED-9.03	2026-Q1	21.0	ORANGE	US office vacancy, Moody's Analytics, 79 markets, record high. *** PROVIDER SPREAD IS LARGE: CBRE reported 18.6% for the SAME quarter. Do not blend. Q2 refresh owed. ***
+VX-CREED-10.01	2026-07-27	3	ORANGE	CRE mREIT cohort: count of 11 that have cut or are liquidating (ARI, KREF, RC). 8 of 11 HELD flat.
+VX-CREED-10.02	2026-07-27	-9	ORANGE	CRE mREIT median 3mo price %, vs office equity REITs +14 to +77% over the same window. The divergence that exposed the S8 blind spot.
+VX-CREED-10.05	2026-Q1	3.3	ORANGE	Life-insurer CM/MF holdings change, $B (stock $775B of a $5.02T market). MBA Q1, released 2026-06-18.
+VX-CREED-10.05	2026-Q2	PENDING	—	*** ARI->Athene ~$9B closed 2026-04-24, INSIDE Q2. PRED-CREED-006 tests whether this line moves by more than the +$3.3B Q1 pace. MBA Q2 print ~mid-Sept 2026. ***

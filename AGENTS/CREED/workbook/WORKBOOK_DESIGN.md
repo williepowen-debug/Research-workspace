@@ -1,7 +1,14 @@
 # CREED Workbook — Design Spec (build-ready)
 
 **Created:** 2026-07-04
-**Status:** DESIGN — awaiting Will review, then build (Will chose "design doc first, build next session").
+**Status:** ✅ **BUILT 2026-07-27.** This document is now the **design rationale / provenance record**, not a to-do. The live workbook is the six TSVs alongside it. §10's five open decisions were **all approved by Will 2026-07-21** and are recorded in §10 below.
+
+> ⚠️ **The seed VALUES in §4/§5/§7/§8 below are the 7/4 vintage and were STALE by build time.** The build deliberately seeded from `research/REFRESH_2026-07-27.md` instead. Four material divergences, kept visible here rather than silently overwritten:
+> 1. **Office SS 16.75% [May] → 17.11% [Jun]** — the June print landed, and the "contested figure / January-conflation" flag raised on 7/20 was **retracted as a false alarm** (KB-CREED-011).
+> 2. **S5 (multifamily) is now HOMER-owned** — vectors 1.03 / 6.01 are cited, not independently scored (DAEDALUS ruling 7/12, applied 7/27).
+> 3. **S8 was split into 8a (equity) / 8b (credit-lender)** — the single vector was masking a bifurcation.
+> 4. **The spec contained NO lender-leg vector at all.** Category `10-CRE_Lender` and vectors 10.01–10.05 are post-spec additions forced by the 7/27 finding; 2.03, 5.02, 4.04, 1.06 and 7.03 were also added. **21 seed vectors → 31 built.** Will's §10 decision 5 was "keep all 21" — all 21 were kept; ten were added on top.
+
 **Author:** CREED (Tier-2). Modeled on the fleet-standard workbook after a 7/4 survey of 46 workbook dirs (REGINALD `VX.tsv` = primary model; canonical `SCHEMA.tsv` from BOND/CARL; legacy CREED `FLOW.tsv` pulled forward).
 
 ---
@@ -113,14 +120,29 @@ Columns: `Vector_ID, Date, Value, Status, Notes`. Seed the two load-bearing seri
 - **Closeout** — update `Last_Updated` on refreshed vectors; append `VX_HISTORY` rows for new monthly prints; log session findings to `KB.tsv`; update `PREDICTIONS` status on resolution.
 - **Cross-links** — REGINALD (4.01 shared, reconcile-not-fork), CARL (1.03/6.01), LIQUID (3.x/9.01), CORAL (FLOW-04 FL). Route only on signal FIRE per the Route Matrix; the workbook doesn't change routing.
 
-## 10. Open decisions for Will (confirm at build)
+## 10. Open decisions for Will — ✅ **ALL FIVE APPROVED 2026-07-21**, executed 2026-07-27
 
-1. **`Last_Refreshed` column** in SCHEMA — add it (recommend yes)?
-2. **Prediction confidences** (§7) — set them, or leave OPEN-unscored until I have conviction?
-3. **Threshold bands** on the softer vectors (1.02 overall DQ, 2.02 overall SS, 9.x mechanism) — my starters, or want to set them together?
-4. **GAP vectors** (office vacancy 9.03, Green St CPPI 9.02) — pull fresh at build (office vacancy is web-available; Green St CPPI may be paywalled → proxy or leave GAP)?
-5. Anything to **add/drop** from the 21-vector seed list.
+| # | Decision | Will's answer (7/21) | How it was executed |
+|---|---|---|---|
+| 1 | `Last_Refreshed` column in SCHEMA | **YES, add** | Added as col 13 of 14 in `SCHEMA.tsv`; populated on every KB row |
+| 2 | Prediction confidences | **YES, you set them** — "your conviction, your numbers" | 9 predictions seeded with CREED confidences, each naming its **resolving instrument**. Four are **below 50%** (001, 003, 007, 009) — deliberately, incl. **PRED-007 at 15%**, which is the counter-signal holding the bear read accountable |
+| 3 | Threshold bands on soft vectors (1.02 / 2.02 / 9.x) | **Your starters stand; revisit after month 1** | Written as specified. **Standing rider recorded in `VX.tsv` header and CLAUDE.md: once written they are FROZEN TERMS — subsequent moves gate on Will** |
+| 4 | GAP vectors | **Pull vacancy (9.03) from web; leave CPPI (9.02) as GAP** (paywalled) | 9.02 left GAP as instructed. **9.03 pulled but seeded at Q1 VINTAGE** — a clean Moody's Q2-2026 print was not locatable, so it carries ~21.0% [Moody's Q1, 79 mkts] with a **Q2-refresh-owed** flag and an explicit **provider-divergence warning** (CBRE 18.6% same quarter — a ~2.4pp methodology spread). Seeding a fabricated Q2 number would have been worse than a dated one |
+| 5 | Add/drop from the 21-vector seed | **Keep all 21** | **All 21 kept.** Ten added on top (1.06, 2.03, 4.04, 5.02, 7.03, 10.01–10.05) — forced by the 7/27 lender-leg finding, which the spec predates. **21 → 31.** |
 
 ---
 
-*Build = transcription of this spec + the GAP-vector pulls + confirming §10. Estimated one focused session. Legacy workbook remains frozen archive; this becomes CREED's live dashboard.*
+## Build record (2026-07-27)
+
+**Built:** `SCHEMA.tsv` (14 cols) · `VX.tsv` (31 vectors, 10 categories) · `FLOW.tsv` (8 chains — legacy 6 refreshed + 2 new) · `KB.tsv` (16 Admiralty-scored rows, seeded fresh) · `PREDICTIONS.tsv` (9 open + 1 retrospective) · `VX_HISTORY.tsv` (~40 rows across 15 series).
+
+**Wired:** boot step 7 + a 14-day mtime staleness check + a closeout protocol, both in `AGENTS/CREED/CLAUDE.md`.
+
+**Deliberate build choices worth recording:**
+- **Legacy KB (40KB, Jan–Mar 2026) NOT imported** — seeded fresh per §6. Mechanisms were pulled forward; stale values were not.
+- **`RETRACTED` added to the SCHEMA `Status` vocabulary** — CREED needed to record a *self*-correction (its own 7/20 office-SS conflation flag), which "SUPERSEDED" does not express.
+- **`VX-CREED-5.02` is deliberately inverted** (low = bad): it carries the ARI book's **99.7% clearing price** as CREED's strongest *counter*-vector. A workbook that can only record evidence in one direction is a scoreboard, not an instrument.
+- **`VX_HISTORY` preserves the Jan/Jun 17.11% identity** with a note, so the coincidence is visible in the series rather than being rediscovered as a suspected error by a future session.
+- **`PRED-CREED-002a` is logged but excluded from any hit-rate** — it resolved correct *before* the workbook existed and carried no recorded confidence, so it is provenance, not calibration.
+
+*Legacy workbook (`AGENTS/REGINALD/sub-agents/CREED/workbook/`) remains frozen archive. This is CREED's live dashboard.*

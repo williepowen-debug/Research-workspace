@@ -10,6 +10,22 @@ Read these first:
 2. `AGENTS/CREED/STATUS.md` — current status, thesis state, and first-work priority
 3. `AGENTS/CREED/REVIVAL_PLAN.md` — revival phases and legacy inventory
 
+## Live metric layer — the workbook (built 2026-07-27)
+
+`AGENTS/CREED/workbook/` — the quantitative spine under the prose rails. **Read `VX.tsv` at boot and run the 14-day staleness check** (recipe in `CLAUDE.md`).
+
+| File | Role |
+|---|---|
+| `VX.tsv` | **31-vector dashboard** across 10 categories, mapped to the Expected Signals. The heart. |
+| `FLOW.tsv` | 8 CRE transmission chains (legacy 6 refreshed + FLOW-07 lender withdrawal, FLOW-08 fast→slow holder migration) |
+| `KB.tsv` | 16 Admiralty-scored research rows, seeded fresh (legacy 40KB KB deliberately not imported) |
+| `PREDICTIONS.tsv` | 9 open forecasts, CREED-set confidences, each naming its resolving instrument |
+| `VX_HISTORY.tsv` | monthly series for the load-bearing vectors — a level is not a trend |
+| `SCHEMA.tsv` | 14-column controlled vocabulary governing `KB.tsv` |
+| `WORKBOOK_DESIGN.md` | design rationale + build record + the five Will-approved §10 decisions |
+
+**Canonical-truth order:** `STATUS.md` > `thesis/THESIS.md` > `research/REFRESH_*.md` > `workbook/`. If the workbook disagrees with STATUS, **STATUS is right and the workbook is stale.** Threshold bands are **frozen terms** (Will, 7/21) — propose, don't edit. Vectors `4.01` (REGINALD) and `1.03`/`6.01` (HOMER) are **shared — reference, don't fork.**
+
 ## Current analytical rails
 
 Use these before making current CRE / CMBS claims:

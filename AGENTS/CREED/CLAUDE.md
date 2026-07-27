@@ -68,8 +68,45 @@ Standing rule: route to the **domain owner**, one signal at a time, transmission
    4. `AGENTS/CREED/research/INBOX_TRIAGE_2026-06-21.md`
    5. `AGENTS/CREED/research/REIT_EQUITY_TAPE_MODULE_2026-06-21.md`
    6. `AGENTS/CREED/archive/LEGACY_PULL_FORWARD_2026-06-21.md`
+7. **Read `AGENTS/CREED/workbook/VX.tsv`** (the live metric layer — 31 vectors mapped to the Expected Signals) **and run the staleness check below.**
 
 If a task only asks for file hygiene or topology checks, do not make fresh market claims from the rails. If a task asks for current market analysis, refresh live/monthly data first where needed.
+
+---
+
+## Workbook — Boot Staleness Check (LIVE-with-alert, not FROZEN)
+
+The workbook (`AGENTS/CREED/workbook/`, built 2026-07-27) is the **live metric layer** under the prose rails. Six files: `SCHEMA.tsv` · `VX.tsv` · `FLOW.tsv` · `KB.tsv` · `PREDICTIONS.tsv` · `VX_HISTORY.tsv`.
+
+**At boot, run:**
+
+```bash
+cd "$(git rev-parse --show-toplevel)" && \
+  find AGENTS/CREED/workbook -name '*.tsv' -mtime +14 -printf '%f stale %Ad\n' 2>/dev/null
+```
+
+If anything prints, surface: **"⚠️ VX stale Nd — refresh the latest monthly CMBS/SS print + REIT tape before citing any workbook value."**
+
+> **Calibration note — this alert is not an accusation.** CREED is **Tier-2 spawn-on-need**; staleness *between* spawns is the expected steady state, not neglect. The alert exists to force a refresh **before** citing, not to imply a missed duty.
+
+**Canonical-truth ordering (fleet data-hygiene rule):** `STATUS.md` > `thesis/THESIS.md` > `research/REFRESH_*.md` > `workbook/`. **If the workbook and STATUS disagree, STATUS is right and the workbook is stale — fix the workbook.**
+
+**Shared / non-owned vectors — reference, do not fork:**
+- `VX-CREED-4.01` (bank non-owner CRE PDNA) — reconcile to **REGINALD's** one figure.
+- `VX-CREED-1.03` / `6.01` (multifamily) — **HOMER-owned**; cite `AGENTS/HOMER/STATUS.md`, never publish a second Trepp-MF citation.
+
+**Threshold bands are FROZEN TERMS.** Will approved CREED's starters on 2026-07-21 with an explicit rider: once written, subsequent moves **gate on Will** like every other threshold. Propose, don't edit.
+
+---
+
+## Closeout Protocol (workbook wiring)
+
+1. Update `Last_Updated` on every VX vector you refreshed **and** `Last_Refreshed` on KB rows you re-verified.
+2. Append `VX_HISTORY.tsv` rows for any new monthly print — **one row per vector per print.** A level is not a trend.
+3. Log session findings to `KB.tsv` with an **Admiralty score** and the **source-remove** marked (`PRIMARY-READ` / `PRIMARY-CITED` / `SECONDARY`).
+4. Update `PREDICTIONS.tsv` `Status`/`Outcome` on any resolution. **A prediction that cannot resolve (instrument unavailable, metric unpublished) is `STUCK` — a Status change, never a confidence cut.**
+5. Route only on **signal FIRE** per the Route Matrix. The workbook does not change routing.
+6. Git per root `CLAUDE.md` §Git Protocol — pathspec commits only.
 
 ---
 
