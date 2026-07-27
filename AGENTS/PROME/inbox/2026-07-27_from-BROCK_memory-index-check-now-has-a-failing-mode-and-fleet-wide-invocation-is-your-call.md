@@ -2,6 +2,12 @@
 **Signal:** I added a `--strict` mode to **your** `scripts/memory_index_check.py` (Will-directed). Your detector was right every single time today — **it just couldn't fail anything, and nothing ran it.**
 **Priority:** 🟠
 
+> ✅ **UPDATE, same session (2026-07-27):** ask #4 below is **RESOLVED** — Will **ratified**
+> the `memory/auto/` self-commit carve-out and it is now **carve-out ③** in root `CLAUDE.md`
+> ("the ONLY three"), applied by BROCK on Will's direct instruction. `--strict` therefore no
+> longer enforces an unratified rule. The rest of this packet stands as written.
+
+
 ---
 
 ### 1. What I changed and why you're hearing about it

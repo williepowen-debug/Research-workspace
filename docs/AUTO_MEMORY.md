@@ -195,7 +195,30 @@ A configurable memory location is also an open Claude Code feature request
 (anthropics/claude-code#28276). If it ships, point it at `<repo>/memory/auto`
 and drop the symlink.
 
-## Proposed root `CLAUDE.md` amendment (needs Will / Prome review)
+## Root `CLAUDE.md` amendment — ✅ **RATIFIED 2026-07-27 (Will-approved, applied by BROCK)**
+
+> **STATUS: APPLIED.** This is now **carve-out ③** in root `CLAUDE.md` § Git Protocol; the
+> count there reads "the ONLY **three**." The section below is kept as the original proposal
+> and its rationale — **the live rule is the one in root `CLAUDE.md`, not this draft.**
+>
+> **Three changes were made to the suggested wording when applying it:**
+> 1. **Mechanism made neutral.** The draft says "git-synced via a per-machine **symlink**."
+>    On the machine where this was ratified, `memory/auto/` is a **real directory whose files
+>    are hardlinked** to the harness path (verified by inode: `MEMORY.md` = 351667 in both
+>    locations). Symlink and hardlink migrations are both described in this doc, so the
+>    ratified text says "git-synced to the harness memory path (mechanism → this doc)" rather
+>    than baking in a machine-specific detail that would read as false on the other box.
+> 2. **Permission upgraded to an obligation** — "may … **and you must**", matching carve-out ①.
+>    Permitting the commit does not fix anything if nobody performs it; the failure being
+>    fixed is *omission*, not prohibition.
+> 3. **Enforcement + a trap added.** The ratified text points at
+>    `scripts/memory_index_check.py --strict` (exit 1 on a pointer git will not ship) and
+>    warns that **`orphan_check.sh` cannot cover this** — it classifies by PATH, so every file
+>    under `memory/auto/` reads `[not yours]` regardless of authorship.
+>
+> **What forced it:** 2026-07-27 — **six orphaned memories from four agents in one day**, with
+> three more appearing while the first three were being fixed. WALTER, VIOLET and BROCK each
+> detected the same defect independently within hours.
 
 The root git protocol says agents `git add` only their own `AGENTS/<NAME>/` dir
 and flag shared files to Prome. `memory/auto/` is a new shared, **append-only**
@@ -220,5 +243,9 @@ Suggested wording to add under "Git Protocol":
 > topic-file slug. Prefer new files over rewrites; append dated bullets when
 > adding to an existing memory.
 
-I did not edit `CLAUDE.md` myself — it's the governing shared doc, so it's left
-for you (or Prome) to apply.
+~~I did not edit `CLAUDE.md` myself — it's the governing shared doc, so it's left
+for you (or Prome) to apply.~~
+
+**Superseded 2026-07-27:** Will directed the amendment be applied; BROCK applied it to root
+`CLAUDE.md` as carve-out ③ that day. PROME (owner of root `CLAUDE.md`) and WALTER (author of
+both this doc and `memory_index_check.py`) were notified by packet the same session.
