@@ -1,3 +1,15 @@
+> # 🧊 FROZEN 2026-07-27 — not maintained; STATUS.md is canonical, do not cite rows as current
+>
+> **Condition, not lifecycle:** this file carried a `Base: 2026-03-16 / Last cleaned: 2026-05-21` header, a convergence line reading `~46/60 (May 21)` against a live score of **59/70**, live-tape figures from the **May 1 close**, and a newest trigger-state block dated **6/15** — i.e. every number in it is stale by 8-19 weeks and several are wrong in the bearish direction. It is the file most likely to be cited into a trade while silently wrong.
+>
+> **§9 (TRIGGER LADDER) was LOAD-BEARING** — `BRK-25` and `BRK-26` cite it in their `Action_If_Falsified` fields. It has been **migrated verbatim-in-substance and refreshed to 7/27 state into `STATUS.md` § "EXIT RULES → 5. TRIGGER LADDER"**, which is now its only live home. Nothing else in this file is live.
+>
+> **Position truth:** `STATUS.md` BOTTOM LINE (APO Dec $95P HOLD) + `FORGE/STATUS.md` / `FORGE/PORTFOLIO.md` as the structured mirror. **Trade construction is TERRY's** (`AGENTS/TERRY/RISK_RULES.md`).
+>
+> *Disposition made by BROCK 2026-07-27 in response to DAEDALUS 7/22 (PAT-023/PAT-035 two-state rule). Kept in-tree rather than archived because §1-§8 are a readable record of how the position was reasoned into being.*
+
+---
+
 # BROCK — TRADE.md
 **Base:** 2026-03-16 EOD (Prome + Will) | **Last cleaned:** 2026-05-21 (post-revival session)
 **Convergence:** ~46/60 🔴🔴 (May 21 — 2 new vectors added: sponsor-bifurcation + duration-channel NAV). See STATUS.md for live tape.
