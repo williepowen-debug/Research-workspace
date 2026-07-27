@@ -34,9 +34,14 @@
 - finding_credit_absorbed_vs_liquidity_transmission
 - finding_audit_the_founding_metaphor_first
 - finding_loadbearing_number_must_be_reproducible
+- [Perturb a base rate's inputs to test it](finding_perturb_inputs_to_test_base_rate.md) — reproducing it only proves the arithmetic; correct its INPUTS at source and see if the conclusion survives
+- [A stale executable exits clean](finding_stale_executable_exits_clean.md) — frozen scripts with hardcoded constants print stale values at rc=0 and defeat the caller's success check; RUN legacy tooling before judging it
+- [A banner is a warning, not a fix](finding_banner_is_a_warning_not_a_fix.md) — SUPERSEDED stamps make rot feel handled (98 days); pair every banner with a dated rewrite trigger
 - finding_single_witness_guard_deletes_real_data
 - finding_audit_resolution_path_before_reattempt — a question open for many sessions is usually blocked by the PATH (wrong ID, stale venue, unverified premise), not missing data; audit the path before the Nth re-attempt
 - finding_resolvability_defect_is_status_not_confidence — a prediction that cannot resolve (broken window/instrument) is a Status change (STUCK), never a Confidence cut; ask "what goes from X% to Y%?"
+- finding_standing_guard_is_a_false_negative_risk — a standing guard against a known false-positive is EXACTLY what waves away the real event; resolve on independent evidence (tape/official statement/primary), not on the guard — and grade the LOAD-BEARING CLAIM separately from the EVENT, or a reader takes "nothing happened" from "the claim is false"
+- finding_reconcile_match_on_key_not_substring — match a sweep on the KEY (id+path), never a substring that can appear in free-text notes; the failure returns SUCCESS and can be right by luck (8 rows flipped when 6 were written). Underneath it: a status column updated only by a remembered ritual WILL rot — mechanize it, and check what CONSUMES it before dropping it
 - finding_canonical_surfaces_stale_inbox_carries_live_state — every canonical surface can be internally consistent yet superseded; the live fact rides the unprocessed INBOX — state cards/projections need a pending-inputs section (benchmark 7/25)
 - finding_delivery_check_is_not_a_knowledge_check — checking a recipient's INBOX answers "did it arrive?", never "do they already know?"; grep the owner's KB before sending a "you may be missing X" packet — VIOLET had both halves two days early and the false owner-gap reached two live surfaces
 - finding_mtime_is_corrupted_by_git_sync — mtime records when a file LANDED on this disk, not when its contents were refreshed; a pull restamps it, so mtime staleness alerts (prescribed in root canon) fail in the FALSE-NEGATIVE direction — derive vintage from content
