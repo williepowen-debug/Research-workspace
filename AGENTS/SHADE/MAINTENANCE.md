@@ -71,3 +71,5 @@ Structural-change log for SHADE architecture: docs/scripts/protocol/schema chang
 - **Auto-memory** — new `finding_seasonal_trough_baseline_resolves_true_on_normal` + index line. Index compacted 21.6KB → 16.9KB at hook request (truncated annotation fragments stripped; **all 304 pre-existing entries verified preserved** by slug-set assertion).
 - **Mail** — 3 packets that landed after the 14:15 drain logged + `git mv`'d to `processed/`; both lanes clean.
 - **Outbound** — 2 self-authored packets (CREED `PRED-006` re-spec, time-sensitive; PROME Weld-2 delivery) under root CLAUDE.md carve-out ①.
+- **CREATED** `research/ARCC_Q2_2026_PREREGISTRATION_2026-07-27.md` — pre-registered movers/non-movers/beta-trap for the ARCC Q2 print, written before the numbers exist. Baselines pulled from ARCC 10-Q `0001628280-26-027688`. **STATUS §6 date corrected 7/28 → 7/29** (carried unverified since 6/28). SCRATCH gains a NEXT-SESSION item 0: grade it Wednesday either way.
+- **STATUS §0d tape** — refreshed intraday → 7/27 close; trigger legs restated (both fail).
