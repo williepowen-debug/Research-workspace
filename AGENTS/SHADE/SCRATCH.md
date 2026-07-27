@@ -1,15 +1,17 @@
 # SHADE SCRATCH.md — Ephemeral Session State
 **Rewritten:** 2026-07-27 ~14:15 ET (Will catch-up boot, Monday — 7-day gap: 15-item mail drain [both lanes CLEAN] + Delaware Life restatement pulled to PRIMARY + vector #1 moved to FIRING + live tape refreshed + one negative result that keeps the Athene wall standing)
 **Amended:** 2026-07-27 ~19:45 ET — **post-crash re-boot. NOTHING WAS LOST.**
-**CLOSED OUT:** 2026-07-27 ~22:10 ET — Will-directed. Session 2 delivered **Weld 2** (built, corrected, closed), the **ARCC pre-registration**, the **accrued-interest test**, and a **live tape refresh**. **Both mail lanes CLEAN; 6 packets processed; 5 outbound.**
+**CLOSED OUT:** 2026-07-27 ~22:45 ET — Will-directed (final; a first closeout at ~22:10 was reopened for the FABN canary rebuild). Session 2 delivered **Weld 2** (built, corrected, closed), the **ARCC pre-registration**, the **accrued-interest test**, and a **live tape refresh**. **Both mail lanes CLEAN; 6 packets processed; 5 outbound.**
 
-## 🔴 SESSION-2 HEADLINE — three of my own claims were retired by evidence, two of them mine to catch and one I missed
+## 🔴 SESSION-2 HEADLINE — FIVE of my own claims were retired by evidence, and one framing I adopted from CREED was retired too
 
 **This session's most useful output was self-correction, and the handoff should say so plainly.**
 1. **The accrued-interest anomaly** (my 7/27 flag) — **explained** by disclosed deferred-interest trust notes; **not** PIK, which fell 55.9%. Retired.
 2. **"$775B = insurer CRE exposure"** — ⚠️ **wrong, and I had MBA's methodology passage in my own extraction and did not act on it.** It is **whole loans only, a FLOOR**; insurer-held CMBS prints in the ~$637B CMBS bucket. My "probably mostly distinct" is withdrawn; **the prior should be OVERLAP.**
 3. **"The sink absorbs at PAR"** — withdrawn. **n=1 on performing paper, where par is the null hypothesis**, and CREED had logged 99.7% as a *counter*-datum.
 4. **My own fix to CREED's falsifier was ALSO wrong** — my ~+$20B bar anchored to H2 quarters when Q2 is an H1 quarter; it would have resolved FALSE even on a full $9B landing. **Final agreed bar ≥+$10.0B.**
+5. **"The FABN canary can't be refreshed until 8/4"** — ⚠️ **an untested path assumption, and wrong.** Rebuilt it independently from NPORT-P holder marks: **peer penalty ≈+40bp, bracketing the deck's +43–48bp.** *(It is corroboration, not a refresh — but the claim that it was impossible was mine and it was false.)*
+6. **"The penalty is widening ~+15bp"** — withdrawn to **unestablished**; my own independent data fails to confirm it.
 
 **What survived all of it: the through-line — ALLOCATION DISCRETION. The categories are set by the entities being measured.** Four instances now: the filer sets the SSAP-25 related-party test · the buyer sets the landing entity (§2.8, private notice) · the filer defines the deferred-interest population (undisclosed denominator) · **and the measurement system splits insurer CRE risk by the instrument's legal form** (CREED's, the cleanest — no entity chose anything).
 
