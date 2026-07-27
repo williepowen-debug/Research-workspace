@@ -1,7 +1,19 @@
-# VIOLET → PROME — fleet sweep for calendar-day date math: **clean, except one line in shared FORGE tooling**
+# VIOLET → PROME — fleet sweep for calendar-day date math: **clean, and the one item is now FIXED**
 
-**Dispatched:** 2026-07-27 ~17:45 ET · **Priority:** 🟠 ROUTINE-ACTION (one-line fix in a dir I cannot edit)
+**Dispatched:** 2026-07-27 ~17:45 ET · **AMENDED ~18:05 ET** · **Priority:** 🟢 **INFO — NO ACTION REQUIRED**
 **Trigger:** Will asked me to run fleet-wide the grep I recommended after fixing two VIOLET defects (KB-VIO-130, KB-VIO-133).
+
+> ## ⚠️ AMENDMENT — DO NOT ACTION THE FORGE ASK BELOW; IT IS DONE
+>
+> **This packet originally asked you to own a fix in `FORGE/tools/market-data/vix_futures.py`. Will then directed me to make it myself, and it shipped ~18:00 ET.** The root protocol requires Will's OK before an agent touches FORGE; that OK was given explicitly, and I am naming it here rather than leaving an unexplained shared-dir commit in the log.
+>
+> **What changed:** the no-`--date` default no longer computes `date.today() - timedelta(days=1)`. It calls a new `resolve_latest_settlement()`, which probes backwards up to 7 days and returns the first date that **actually has settlements**. `--date` behaviour is deliberately **unchanged** — honoured exactly, fails loudly, never silently substituting a neighbouring session.
+>
+> **Verified:** bare invocation on Monday 7/27 returns settlement `2026-07-27` (+3.60%) where it previously exited 1 · `--date 2026-07-24` exact · `--date 2026-07-26` (Sunday) still exits 1 loudly · `--json` shape and `as_of` unchanged · VIOLET `thresholds.py` and full `boot.py` regression-clean.
+>
+> **Net: the sweep now ends with ZERO known instances of this defect class fleet-wide.** Everything below is retained as the record of what was checked — the *cleared* inventory is the part still worth keeping, so a future audit can skip it.
+>
+> **Still open, and genuinely yours if anyone wants it:** the 7 historical Monday gaps in VIOLET's `VX_DAILY.tsv` (6/8 → 7/20) are **not** backfilled — the fix is forward-only. Low value; I am not asking for it.
 
 ---
 
@@ -28,9 +40,9 @@ On a **Monday** this resolves to **Sunday**, which has no VX settlements, so the
 - **Blast radius is small and I verified it:** the only *code* consumer fleet-wide is VIOLET's `scripts/thresholds.py`, which I hardened this session (it now walks back to the most recent real settlement). Every other grep hit for `vix_futures` is VIOLET documentation referencing the incident.
 - **But the CLI itself is still a trap**, for two reasons: (a) **manual use fails on Mondays** — that is exactly how I hit it interactively today; (b) any *future* consumer inherits the bug, and my fix lives in the caller, not the tool.
 
-**Suggested fix (FORGE owner's call, not mine):** default to the most recent date that actually has settlements — walk back from today until `fetch_settlement()` returns non-empty (cap ~5 days) — rather than a fixed calendar offset. That also makes post-settle runs resolve **same-day** instead of always T-1. I have a working implementation of exactly this pattern in `AGENTS/VIOLET/scripts/thresholds.py::fetch_m1m2()` if it's useful to copy.
+**~~Suggested fix (FORGE owner's call, not mine)~~ — SHIPPED, see amendment at top.** Default now probes backwards for a real settlement (cap 7 days) instead of using a fixed calendar offset; post-settle runs resolve **same-day** rather than always T-1.
 
-**I did not touch FORGE** — root CLAUDE.md, shared file, flag rather than commit.
+**Why probing rather than a business-day calendar** (I used a calendar for the FRED fix, so the inconsistency is deliberate and worth stating): for FRED there is no cheap way to ask "does this observation exist?" without fetching the series, so the *expected* latest observation has to be derived — hence `CustomBusinessDay` + a holiday calendar. Here the CBOE endpoint answers the question directly and cheaply, so **the presence of data is the test** — and no calendar can be wrong about a settlement that exists. Probing beats deriving whenever the source will tell you.
 
 ## What I checked and cleared (so nobody re-runs this)
 

@@ -17,6 +17,12 @@ and understates M1/M2 dispersion. The tool reports both:
 
 CLI:
     python3 vix_futures.py [--date YYYY-MM-DD]
+
+With no --date, resolves to the most recent session that actually HAS settlements
+(probes backwards up to MAX_SETTLEMENT_LOOKBACK_DAYS), so Mondays and post-holiday
+sessions work. An explicit --date is honoured exactly and fails loudly. Either way
+the returned `as_of` is the settlement's OWN date — always read it rather than
+assuming today or T-1.
 """
 from __future__ import annotations
 
@@ -33,6 +39,10 @@ CBOE_SETTLEMENT_URL = "https://www.cboe.com/us/futures/market_statistics/settlem
 AVG_STEEPNESS = 5.6
 COMPLACENCY_THRESHOLD = 8.99
 ROLL_WINDOW_DAYS = 5
+
+# How far back the no-`--date` default will probe for a real settlement.
+# 7 covers a three-day weekend plus an adjacent holiday.
+MAX_SETTLEMENT_LOOKBACK_DAYS = 7
 
 
 def _is_standard_monthly(symbol: str) -> bool:
@@ -69,6 +79,36 @@ def fetch_settlement(query_date: date) -> list[dict]:
         )
     rows.sort(key=lambda r: r["expiration"])
     return rows
+
+
+def resolve_latest_settlement(
+    start: date, max_lookback: int = MAX_SETTLEMENT_LOOKBACK_DAYS
+) -> tuple[date | None, list[dict]]:
+    """Walk back from `start` to the most recent date that actually HAS settlements.
+
+    Replaces a fixed `date.today() - timedelta(days=1)` default — one CALENDAR day —
+    which landed on SUNDAY every Monday and on a holiday after every long weekend,
+    making the tool exit 1 with "No VX standard monthly settlements". That is how
+    VIOLET's M1:M2 front-curve column went blank on 8 of the last 12 Mondays
+    (KB-VIO-130): the caller saw the failure and wrote an empty cell, silently, for
+    two months. A calendar-day offset cannot express "the last trading session".
+
+    Probing is the honest form of the question. It handles weekends AND market
+    holidays without needing a holiday calendar, because **the presence of data is
+    the test** — no calendar can be wrong about a settlement that exists. It also
+    means a post-settle run resolves SAME-DAY instead of always being T-1.
+
+    Returns (settlement_date, contracts), or (None, []) if nothing in the window.
+    """
+    for back in range(max_lookback + 1):
+        d = start - timedelta(days=back)
+        try:
+            contracts = fetch_settlement(d)
+        except requests.RequestException:
+            continue  # transient/404 for that day — keep walking, don't abort
+        if contracts:
+            return d, contracts
+    return None, []
 
 
 def compute_steepness(contracts: list[dict], as_of: date) -> dict:
@@ -144,17 +184,31 @@ def _serialize(result: dict) -> dict:
 
 def main(argv=None):
     parser = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
-    parser.add_argument("--date", help="Settlement date YYYY-MM-DD (default: yesterday)")
+    parser.add_argument(
+        "--date",
+        help="Settlement date YYYY-MM-DD (default: most recent session that has settlements)",
+    )
     parser.add_argument("--json", action="store_true", help="Emit JSON instead of human summary")
     args = parser.parse_args(argv)
 
-    query_date = (
-        datetime.strptime(args.date, "%Y-%m-%d").date() if args.date else date.today() - timedelta(days=1)
-    )
+    if args.date:
+        # An explicit date is a PRECISE request — honour it exactly and fail loudly
+        # if that session has no settlements. Never silently substitute a
+        # neighbouring day: a caller naming a date is usually reconciling a record
+        # against it, and a quietly-shifted as_of is the bug class this tool already
+        # caused once (KB-VIO-092, the T-1-stamped-as-same-day misread).
+        query_date = datetime.strptime(args.date, "%Y-%m-%d").date()
+        contracts = fetch_settlement(query_date)
+    else:
+        query_date, contracts = resolve_latest_settlement(date.today())
 
-    contracts = fetch_settlement(query_date)
     if not contracts:
-        print(f"No VX standard monthly settlements for {query_date}", file=sys.stderr)
+        target = (
+            args.date
+            if args.date
+            else f"any of the {MAX_SETTLEMENT_LOOKBACK_DAYS} days to {date.today()}"
+        )
+        print(f"No VX standard monthly settlements for {target}", file=sys.stderr)
         return 1
 
     result = compute_steepness(contracts, as_of=query_date)
