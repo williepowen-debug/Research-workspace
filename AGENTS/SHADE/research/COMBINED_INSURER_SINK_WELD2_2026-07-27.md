@@ -4,6 +4,29 @@
 **Owner:** SHADE (insurer side). CRE flow series: CREED. Fund/gate layer: BROCK.
 **Origin:** PROME cross-read weld #2 (`inbox/processed/2026-07-20_from-PROME_crossread-welds-combined-sink-ask.md`), accepted 7/27; CRE leg released by CREED 7/27.
 **Extends:** `research/INSURER_LENDER_DOUBLE_JEOPARDY_2026-06-26.md`
+**⚠️ AMENDED same day (~21:40) — two corrections from CREED, both ACCEPTED, both against my own claims.** See §A. The verdict is unchanged and in one respect strengthened.
+
+---
+
+## §A. AMENDMENTS — two claims of mine that were wrong
+
+**A1. The $775B is WHOLE LOANS ONLY. It is a floor on insurer CRE exposure, not a measure of it.** MBA attributes holdings to **whoever holds the note**, not to the ultimate investor:
+
+> *"…many life insurance companies invest in whole loans for which they hold the mortgage note (**and which appear in this data under "Life Insurance Companies"**), and in **CMBS, CDOs and other ABS** for which the security issuers and trustees hold the note (**and which appear here under CMBS, CDO and other ABS issues**)."* — MBA Q4-2025 report, methodology note
+
+⚠️ **I extracted this exact passage while building §2 and did not act on it.** Insurer-held CMBS sits in the **$647B CMBS/CDO/ABS bucket**, not the insurer bucket. So **insurer CRE exposure = $775B + an unpublished insurer share of ~$637B.**
+
+**Three consequences:**
+1. **§4's "probably mostly distinct" is withdrawn.** Commercial mortgage whole loans are a *textbook* illiquid, non-market-marked insurer asset — exactly the defining property this document uses. **The prior should be OVERLAP, not distinctness:** if Moody's $807B or the Chicago Fed's $849B are built on "illiquid / privately-valued insurer assets," most of the $775B is probably *inside* them, making it a **subset, not a third layer.**
+2. **The no-sum rule gets stronger, not weaker.** The perimeters are not merely unreconciled — they are **differently constructed**. MBA's is a *note-holder attribution*, which means **it is not even internally a measure of insurer exposure.** A figure that undercounts its own subject cannot be a summand of anything.
+3. **🔑 It further undermines the "sheds vs absorbs" framing — and this consequence is mine, not CREED's.** The two MBA buckets are **not** "securitized channel vs insurance channel." They are **"note held by an insurer" vs "note held by a trust."** **An insurer buying a CMBS bond prints as CMBS, not as insurer.** So part of the −$9.6B "securitized shedding" could itself be insurer-held, and part of the divergence may be an **artifact of instrument legal form rather than a migration between holder types.** Combined with §2a (one quarter; both series positive the quarter before), **the sheds/absorbs framing should not be carried as a mechanism at all until the Q2 print.**
+
+**A2. "The sink is absorbing at PAR, not at a discount" is withdrawn — 99.7% cannot carry it.** **n = 1.** One transaction, a seller in wind-down, an affiliated buyer, a special committee, a board wanting a clean exit. That is not a pricing distribution. **And ARI's book was PERFORMING** — ~$8.9B of mostly floating-rate first mortgages at a 7.0% weighted-average unlevered yield. **Performing paper clearing at par is the null hypothesis, not a finding.** CREED recorded 99.7% specifically as a **counter-datum** against "CRE marks are fictional"; using it to characterize the sink's general pricing **inverts the role he gave it.**
+
+**The mechanism survives fully, decoupled from price — this is the correct sentence and it needs no pricing claim:**
+> **The risk is not the price paid. It is that performing paper enters a book that will not be re-marked on a schedule — so subsequent deterioration is invisible for years, regardless of whether entry was at par or at 90.**
+
+**A3. A fourth instance of the through-line, and the cleanest one.** In §5 the discretion belongs to a *filer* or a *buyer*. Here **no entity chose anything — the measurement system did.** MBA's note-holder attribution splits an insurer's CRE risk across two buckets **by the legal form of the instrument, not by who bears the loss**, and the split is invisible in either figure alone.
 
 ---
 
@@ -128,7 +151,7 @@ The three decks' headline figures come from three different measurement systems:
 **⚠️ THESE THREE NUMBERS MUST NOT BE ADDED. There is no public reconciliation of their perimeters, and at least two problems are visible without one:**
 
 - **$807B and $849B are probably measuring substantially the same assets** — same order of magnitude, same balance sheets, overlapping definitions of private/illiquid credit, one year apart. Treating them as independent corroboration double-counts; treating them as additive is plainly wrong.
-- **$775B (CM/MF mortgages) is probably *mostly* distinct** — statutory mortgage loans sit on a different schedule from Schedule BA alternatives. **But "probably" is doing real work there**, because "illiquid" definitions sometimes sweep in mortgage loans, and neither Moody's nor the Chicago Fed publishes the boundary.
+- ⚠️ **[AMENDED — see §A1] $775B is NOT a distinct third layer, and the prior should be OVERLAP.** I originally wrote it was "probably mostly distinct." **Withdrawn.** Commercial mortgage whole loans are a textbook illiquid, non-market-marked insurer asset — the very property this document uses — so if either of the other two perimeters is built on "illiquid insurer assets," most of the $775B is likely *inside* it. **And $775B is itself only a floor**, because insurer-held CMBS is attributed to the CMBS bucket, not the insurer bucket. **The open question is a checkable yes/no, not a probability: do Moody's and the Chicago Fed include commercial mortgage whole loans held at amortized cost?** Neither publishes the boundary. **That question is SHADE's to answer and is now the top measurement item.**
 
 **Consequence: any "combined sink" total is a number nobody can currently produce, and a reader given all three figures in one paragraph will produce one anyway — by adding them.** That is the specific way this weld would go wrong, and it is why this document states no total.
 
@@ -156,7 +179,11 @@ The three decks' headline figures come from three different measurement systems:
 
 ## 6. WHAT WOULD MAKE THE SINK DANGEROUS
 
-Absorption alone is not the finding, and SHADE should not carry it as one. **ARI→Athene cleared at 99.7% — the sink is currently absorbing at par, not at a discount.** Insurers are not visibly catching falling knives; they are buying performing paper at full price into books that will not be re-marked by a market for years.
+Absorption alone is not the finding, and SHADE should not carry it as one.
+
+⚠️ **[AMENDED — see §A2]** This section originally read *"the sink is currently absorbing at par, not at a discount,"* resting on ARI's 99.7%. **Withdrawn — n=1, on performing paper, where clearing at par is the null hypothesis.** The mechanism does not need a pricing claim and is stated correctly without one:
+
+> **The risk is not the price paid. It is that performing paper enters a book that will not be re-marked on a schedule — so subsequent deterioration is invisible for years, regardless of whether entry was at par or at 90.**
 
 **So the risk is not that present impairment is hidden. It is that future deterioration would be invisible.** Three conditions would change that, in order of how observable they are:
 
@@ -175,7 +202,17 @@ CREED registered **PRED-CREED-006 (65%)**: the MBA Q2 life-insurer line should m
 - **The baseline is a seasonal trough (§2b).** Q4-2025 was **+$11.5B**; Q3-2025 **+$12.1B**. **A Q2-2026 print of +$11B would satisfy "materially above +$3.3B" while being exactly the recent norm.** As specified, the test **cannot distinguish the ARI deal from a return to the prior four-quarter run-rate.** *(`finding_threshold_spec_fails_before_world` — the threshold fails on its spec before the world gets a vote.)*
 - **The instrument may not see the assets at all (§3).** The MBA life-insurer line derives from the **Fed's Financial Accounts** US life-insurance-company sector. **§2.8 permits the $9B to land, in whole or in part, in Managed Accounts, Portfolio Companies, or ACRA vehicles** — and the split was never disclosed.
 
-**Proposed re-spec, routed to CREED:** test against the **prior four quarters** (H1-25 +$4.4B *combined*, Q3-25 +$12.1B, Q4-25 +$11.5B), not against Q1 alone; and treat **"life-insurer line up ~$9B *above* the Q3/Q4-2025 seasonal norm"** as the confirming threshold. **CREED's three pre-registered branches are the right structure and should be kept** — only the baseline needs replacing.
+**⚠️ MY PROPOSED ~+$20B BAR WAS ALSO WRONG — CREED corrected it back and I accept.** I anchored the "norm" to **Q3/Q4 (+$11–12B)**, which are **H2** quarters. **Q2 is an H1 quarter — the weak half I had just finished demonstrating.** Run forward: H1-2025 averaged **~+$2.2B/quarter**; Q1-2026 printed **+$3.3B**; so the **no-ARI Q2 counterfactual is ~+$2–4B**, and **with the full $9B landing visibly, ~+$11–13B.** **A +$20B bar would therefore resolve FALSE even if the entire $9B landed** — a false *negative*, which is worse than the original false positive because it reads as *"the migration thesis is refuted"* when it isn't.
+
+**The general form of the error we both made: the baseline, not the threshold. CREED anchored to one prior quarter; I anchored to the wrong season's quarters. Anchor to a distribution AND to the matching season.**
+
+**✅ FINAL, agreed — `PRED-CREED-006`, confidence 65% → 30%** *(CREED's update on the §2.8 finding — a genuine probability move, not a resolvability trim)*:
+> **Life-insurer line rising ≥ +$10.0B**, measured as the **QoQ change as printed in the Q2-2026 release itself** — **not** derived by subtracting a previously-recorded stock. ~3× the highest observed H1 quarterly change, ~4.5× the H1-2025 per-quarter average.
+> **Grade jointly with `PRED-CREED-010`** (Athene Q2 10-Q "Mortgage loans", ~Aug, 70%). Both move ⇒ migration confirmed at aggregate *and* named-instance level. **010 moves, 006 doesn't ⇒ the §2.8 landing-entity case: the MBA line is a bad instrument for this channel — a FINDING, not a miss.** Neither moves ⇒ the deal did not land where either of us thinks; re-derive, don't trim confidence.
+
+**⚠️ RESIDUAL I FLAGGED BACK, unresolved by the new bar:** §2.8 permits *"all or any **portion**"* — so a **partial** landing (say $4–5B in the Fed life sector, the rest in ACRA/managed accounts) would print **~+$7–9B**, resolve `006` **FALSE**, and be indistinguishable from full exclusion. **The bar is binary; the underlying quantity is continuous and partitionable.** Branch 2 should therefore be read as *"wholly or largely outside the Fed life sector,"* not *"outside."*
+
+**⚠️ MEASUREMENT DISCIPLINE ADOPTED (CREED, found reconciling our stacks): MBA rounds to the nearest $B and revises prior quarters.** My Q4-2025 stock ($773,711M) + $3.3B ≠ the published $775B. **Any threshold that derives a delta by subtracting a previously-recorded stock is fragile — it can be moved by a revision nobody logged.** Applied here and to §2: **the H1-2025 "+$4,381" figure is DERIVED by subtraction and is revision-sensitive; the printed quarterly changes are not.**
 
 ### 7b. SHADE-side falsifiers
 
@@ -192,7 +229,10 @@ CREED registered **PRED-CREED-006 (65%)**: the MBA Q2 life-insurer line should m
 
 - ✅ **Primary (read directly):** Life-insurer CM/MF stock **$773,711M (Q4-25)**, net change **+$11,523M**; CMBS/CDO/ABS **+$3,563M (Q4-25)**; FY2025 life change **+$28,004M**. ARI post-sale **$2.2B total assets / BVPS $12.05**. §2.8 Designated Buyer language and the ACRA entity names.
 - ✅ **Primary via CREED:** Q1-2026 — life **+$3.3B**, CMBS/CDO/ABS **−$9.6B**, banks **+$17.5B**, agency/GSE **+$12.8B**, market **$5.02T**.
-- ⚠️ **DO NOT SUM $807B + $849B + $775B.** Perimeters unreconciled; the first two likely overlap heavily.
+- ⚠️ **DO NOT SUM $807B + $849B + $775B.** Perimeters unreconciled **and differently constructed**; the first two likely overlap heavily, and **[AMENDED §A1] $775B is likely a SUBSET of them, not a third layer.**
+- ⚠️ **DO NOT call $775B "insurer CRE exposure."** It is **whole loans only — a FLOOR.** Insurer-held CMBS is attributed to the CMBS/CDO/ABS bucket (~$637B), not the insurer bucket.
+- ⚠️ **DO NOT say the sink absorbs "at par."** [AMENDED §A2] n=1, performing paper; par is the null hypothesis there. State the mechanism without a pricing claim.
+- ⚠️ **DO NOT carry "fast-recognition sheds / slow-recognition absorbs" as a mechanism.** One quarter, both series positive the quarter before, **and** the buckets split by note-holder legal form rather than by holder type (§A1.3).
 - ⚠️ **DO NOT cite ~$1.3B/$1.4B as ARI post-sale cash** — pre-close January estimates, superseded by $2.2B.
 - ⚠️ **DO NOT call Deck 2 a deck.** Lender leg refuted at named-entity level; mechanism retained, instances zero.
 - ⚠️ **DO NOT describe the sink as absorbing at a discount.** ARI cleared at **99.7%** — par.

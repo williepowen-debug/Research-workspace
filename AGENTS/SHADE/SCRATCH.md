@@ -1,6 +1,17 @@
 # SHADE SCRATCH.md — Ephemeral Session State
 **Rewritten:** 2026-07-27 ~14:15 ET (Will catch-up boot, Monday — 7-day gap: 15-item mail drain [both lanes CLEAN] + Delaware Life restatement pulled to PRIMARY + vector #1 moved to FIRING + live tape refreshed + one negative result that keeps the Athene wall standing)
 **Amended:** 2026-07-27 ~19:45 ET — **post-crash re-boot. NOTHING WAS LOST.**
+**CLOSED OUT:** 2026-07-27 ~22:10 ET — Will-directed. Session 2 delivered **Weld 2** (built, corrected, closed), the **ARCC pre-registration**, the **accrued-interest test**, and a **live tape refresh**. **Both mail lanes CLEAN; 6 packets processed; 5 outbound.**
+
+## 🔴 SESSION-2 HEADLINE — three of my own claims were retired by evidence, two of them mine to catch and one I missed
+
+**This session's most useful output was self-correction, and the handoff should say so plainly.**
+1. **The accrued-interest anomaly** (my 7/27 flag) — **explained** by disclosed deferred-interest trust notes; **not** PIK, which fell 55.9%. Retired.
+2. **"$775B = insurer CRE exposure"** — ⚠️ **wrong, and I had MBA's methodology passage in my own extraction and did not act on it.** It is **whole loans only, a FLOOR**; insurer-held CMBS prints in the ~$637B CMBS bucket. My "probably mostly distinct" is withdrawn; **the prior should be OVERLAP.**
+3. **"The sink absorbs at PAR"** — withdrawn. **n=1 on performing paper, where par is the null hypothesis**, and CREED had logged 99.7% as a *counter*-datum.
+4. **My own fix to CREED's falsifier was ALSO wrong** — my ~+$20B bar anchored to H2 quarters when Q2 is an H1 quarter; it would have resolved FALSE even on a full $9B landing. **Final agreed bar ≥+$10.0B.**
+
+**What survived all of it: the through-line — ALLOCATION DISCRETION. The categories are set by the entities being measured.** Four instances now: the filer sets the SSAP-25 related-party test · the buyer sets the landing entity (§2.8, private notice) · the filer defines the deferred-interest population (undisclosed denominator) · **and the measurement system splits insurer CRE risk by the instrument's legal form** (CREED's, the cleanest — no entity chose anything).
 
 ---
 
@@ -86,7 +97,13 @@ Wrapper thesis went CONCRETE but PRE-MORTEM (UBS/Nationwide wrapped-PC bond); tr
 | Egan-Jones Aug 12 | 🟢 calendar binary, unchanged (16 days out) |
 | Apollo XPV A1 hold-vs-distribute | 🟡 UNRESOLVED — needs Q2/Q3-26 10-Q |
 
-## MAIL STATE *(corrected at the 19:45 re-boot)*
+## MAIL STATE *(final, 22:10 closeout)*
+- **`inbox/` root: CLEAN · `inbox/WALTER/`: CLEAN.** **6 packets processed this session** — 3 late arrivals from the crash window (BROCK, CREED ADDENDUM, CREED Weld-2 unblock) + 3 that landed mid-session (CREED $775B correction, CREED `PRED-006` counter-correction, WALTER `SIG-W-20260727-021`). All logged to `board_log.tsv` and `git mv`'d to `processed/`.
+- **5 outbound packets, all self-authored under carve-out ①:** CREED ×3 (ARI primary verification · `PRED-006` re-spec · $10B accepted + corrections adopted) · PROME ×2 (Weld-2 delivery · **correction notice**, since PROME holds the uncorrected version) · WALTER ×1 (`SIG-021` both questions answered).
+- ⚠️ **Open ask, the only thing owed to me:** CREED yes/no on phrasing `PRED-006` branch 2 as *"wholly or largely outside the Fed life sector"* rather than *"outside"* — so a **partial** §2.8 landing isn't recorded as a clean instrument failure.
+- **Retirement scan:** `research/tmp_aaia_extract/` → `archive/`. No other file is >60d **and** unreferenced.
+
+## MAIL STATE *(as corrected at the 19:45 re-boot — superseded by the block above)*
 - `inbox/WALTER/`: **CLEAN** — 10 items drained → `processed/`, all logged.
 - `inbox/` root: **CLEAN** — 7 items drained → `processed/`, all logged *(5 in the 14:15 drain + BROCK and the CREED ADDENDUM, which landed after it and were drained post-crash)*.
 - `outbox/`: **unchanged since 7/20** — holds only the 7/09 and 7/20 files. The 7/27 packets did **not** go here.
