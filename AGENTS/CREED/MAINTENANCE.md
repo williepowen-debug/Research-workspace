@@ -11,6 +11,46 @@ Reverse-chronological log of **structural** changes to CREED's docs, folders, sc
 
 ---
 
+## 2026-07-27 (fifth sitting) — HENRY/CARL survey: the eval suite, and the discovery that CREED's newest disciplines were in the WRONG SURFACE
+
+**Trigger:** Will directed the same survey against **HENRY** (macro/wealth-effect; `evals/`, `BOOT_AUDIT.md`, `MODERNIZATION_PLAN.md`, clustered `research/prompts`+`outputs`) and **CARL** (consumer credit; **7 sub-agents** each with `state_vectors/`+`workbook/`, `SIGNAL_INTAKE.md`, `SPAWN_PROTOCOL.md`, `templates/`, 13 scripts). Both clean/not-live.
+
+**⭐ The finding was about CREED, and reading HENRY's suite is what produced it.**
+
+HENRY's `evals/README.md` draws a distinction no other agent states: **a principle expressed as a BOOT STEP is not in the always-loaded surface.** The always-loaded surface is `CLAUDE.md` body + auto-memory. Everything else — `STATUS.md`, `SCRATCH.md`, `COVERAGE.md`, the workbook — loads *only if boot runs and is read closely*.
+
+**Applied to CREED, that is uncomfortable: every trap CREED learned the hard way on 7/27 had been written into `SCRATCH.md` — a boot step.** The corporate-action rule, the wrong-basis rule, the Trepp paywall marking, the distribution-anchoring rule, the whole-loans-only rule. **All of them fire while WRITING A NUMBER, not at boot** — so a session that skimmed boot would lose precisely the five things that cost CREED most today, and none of them would be eval-testable.
+
+**Fix: `CLAUDE.md` gained an ALWAYS-LOADED standing-traps block** (5 traps, full versions still in `SCRATCH.md`). **This is the single highest-leverage change of the five surveys** — it moves the load-bearing disciplines from a conditionally-read surface to an unconditionally-read one.
+
+**Adopted (2):**
+
+| Change | Why |
+|---|---|
+| **`CLAUDE.md` §Standing traps — ALWAYS-LOADED** | Above. Derived from HENRY's skip-boot analysis, not copied from a file. |
+| **`evals/`** (new) — from `HENRY/evals/`, itself from `SAM/evals/` | Two-file INPUT/RUBRIC split · **TARGET vs GUARDRAIL roles** (a TARGET is *expected* to fail at baseline — the change is meant to fix it) · promotion rule = *TARGET improves AND every GUARDRAIL holds*, not flat no-regression · `lesson-absent` verdict (principle not in a loaded surface ⇒ **fix the surface, not the reasoning**) · contamination→VOID. **Both cases are drawn from real CREED failures of 2026-07-27**, not invented scenarios: case 01 = the ARI corporate-action near-miss (GUARDRAIL); case 02 = the `PRED-CREED-006` seasonal-trough baseline (TARGET), which also scores SHADE's proposed over-correction as a FAIL. ⚠️ **SHIPPED UNRUN** — establishing a baseline needs a fresh skip-boot session this session could not run for itself. `results.tsv` says so explicitly; **a blank table is not a pass.** **Trigger is CHANGE, not cadence** — CREED made 5 prompt-surface changes on 7/27 alone. |
+
+**Declined (4):**
+- **CARL's `sub_agents/` fleet** (7 sub-agents, each with `state_vectors/`+`workbook/`) — CREED **was** a sub-agent until 6/21 and has one domain, not seven. Sub-agents are a mandate-decomposition tool; CREED's mandate is already the decomposition of REGINALD's.
+- **CARL `templates/`** — CREED's packets are argument-shaped, not form-shaped; the reusable part is the disciplines block, which now lives in `CLAUDE.md`.
+- **CARL `SIGNAL_INTAKE.md`** — CREED's intake is one WALTER lane plus direct packets; `board_log.tsv` already records disposition, and the Route Matrix already records criteria.
+- **HENRY `MODERNIZATION_PLAN.md` / `BOOT_AUDIT.md`** — `MAINTENANCE.md` (this file) already carries the structural log + backlog; a third planning surface is drift.
+
+**⭐ Cross-agent finding — the S5 demotion hit a FOURTH surface, and it was CREED's own:**
+
+**`CLAUDE.md:26` still read *"`CARL` — multifamily / housing-consumer spillovers"* — contradicting the Route Matrix 21 lines below it, which already read `(non-MF)`.** `STATUS.md:201` carried the same stale line. **CREED's boot doc disagreed with itself for the entire 7/27 session.** *(`REVIVAL_PLAN.md:30` had it too — harmless, because freezing it properly on the fourth sitting put a do-not-cite banner over exactly this class. That is the freeze paying for itself within hours.)*
+
+**Running tally of one ownership change applied to one surface:** HOMER's sourcing loop · REGINALD's stale Apr Trepp-MF row · CORAL's 16.9% concessions · **CREED's own Mission + mandate**. **Four consumers left pointing at the old owner.** Routed to CARL with the generalisation: *an ownership ruling tells you what the new owner gains; it does not say what happens to the figures the old owner already put into circulation, and it does not notify the holders. The sweep is the mover's job.*
+
+**Files touched:** `evals/` (5 new files), `CLAUDE.md` (always-loaded traps block + Mission fix), `STATUS.md` (mandate fix), `MAINTENANCE.md`, `board_log.tsv`, `SCRATCH.md`, 1 outbound packet (CARL).
+
+**Lessons:**
+1. **Surface placement is a correctness property, not a filing decision.** A discipline in a boot-step file fires conditionally; the same words in `CLAUDE.md` body fire always. **CREED had the right lessons in the wrong surface for a full session.**
+2. **Write eval cases from real failures, not hypotheticals.** Both v1 cases have a known-correct answer discovered the hard way — the grader can check the rubric against what actually happened.
+3. **Diminishing returns are real and worth stating.** Five surveys in, the *file* yield is falling (2 adopts here vs 4 in the first). **The cross-agent-defect yield has not fallen** — every survey has found at least one live interface defect, and this one found a defect inside CREED itself. **The value is in reading OTHER agents' surfaces against your own, not in the file list.**
+
+---
+
 ## 2026-07-27 (fourth sitting) — LIQUID/CORAL survey: the coverage map, and a closed episode doc found sitting in CREED's own boot order
 
 **Trigger:** Will directed the same structure survey against **LIQUID** (funding/plumbing; `alerts/` state machine, `CATCHUP_PUNCHLIST.md`, 16 workbook files, dated `archive/workbook_resolved_*` sets) and **CORAL** (Florida; a 10-pillar `COVERAGE.md`, `GRID_PER_METRO.md`, `DATA_SOURCES.md`). Both clean/not-live at survey time.

@@ -198,7 +198,7 @@ CREED feeds:
 - `REGINALD` — bank-level exposure, provisions, loss recognition, trade relevance
 - `CORAL` — Florida overlap only
 - `LIQUID` — refi/funding/channel stress
-- `CARL` — multifamily and housing-consumer spillovers
+- `CARL` — **housing-consumer spillovers (non-MF)** ⚠️ *(multifamily moved to HOMER 2026-07-27; this line was corrected 7/27 — it had survived the S5 demotion unchanged)*
 
 CREED does **not** own bank-level trade recommendations, Florida whole-state synthesis, or position decisions.
 

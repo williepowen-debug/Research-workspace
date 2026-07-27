@@ -23,7 +23,7 @@ Feed:
 - `REGINALD` — bank-level exposure, provisions, loss recognition, trade relevance
 - `CORAL` — Florida-specific overlap only
 - `LIQUID` — refi/funding/channel stress
-- `CARL` — multifamily / housing-consumer spillovers
+- `CARL` — **housing-consumer spillovers (non-MF)**. ⚠️ **Multifamily moved to HOMER 2026-07-27** — this line said *"multifamily / housing-consumer"* until the 7/27 LIQUID/CORAL/HENRY-CARL survey caught it **contradicting CREED's own Route Matrix below**, which already read *(non-MF)*. Fourth surface hit by the same one-surface S5 edit.
 
 Do **not** own:
 - bank-level trade construction or bank thesis — REGINALD owns
@@ -51,6 +51,18 @@ Do **not** own:
 | Forced-sale LGD comp (e.g. Galveston) | REGINALD | 🟡 | recovery-rate / LGD input for office-workout modeling |
 
 Standing rule: route to the **domain owner**, one signal at a time, transmission-relevant only. CREED reports inbox dispositions; PROME `git mv`s. No outbox spam.
+
+---
+
+## ⚫ Standing traps — ALWAYS-LOADED (this block is the point)
+
+> **Why these are duplicated here instead of only in `SCRATCH.md`.** HENRY's eval suite makes the distinction sharp: **a principle expressed as a BOOT STEP is not in the always-loaded surface.** `SCRATCH.md`, `STATUS.md` and `COVERAGE.md` are boot *steps* — they load if boot runs and is read closely. **The always-loaded surface is this file's body plus auto-memory.** Every trap below fires **while writing a number**, not at boot — so a session that skims boot would lose exactly the ones that cost CREED most. Full versions stay in `SCRATCH.md`; **these five are load-bearing enough to live here.**
+
+1. **Never cite a CRE mREIT price move without checking corporate actions first.** ARI printed **−33.4% in a single session** on a total-return-*positive* day — the $3.75 return-of-capital going ex 7/16. The tell is not "mREIT"; it is **any vehicle that returns capital** (liquidating trusts, wind-downs, special dividends, spin-offs). PROME logged **five instances of this class fleet-wide on 2026-07-27 alone.**
+2. **A real number carrying the WRONG BASIS is the dominant failure mode — not a fabricated number.** ARI's ~$1.3B was real: a *cash* line on a *pre-close* date, labelled "post-sale." **CREED-held post-sale size is $2.2B total assets / BVPS $12.05 at the 4/24/26 close.**
+3. **Trepp PDFs are paywalled ⇒ PRIMARY-CITED, not PRIMARY-READ.** Mark it every time. The co-circulating **"retail 12.95%" is UNVERIFIED — do not cite.**
+4. **Anchor a threshold to a DISTRIBUTION, not to the most recent number.** `PRED-CREED-006` was written against "the Q1 pace of +$3.3B" — a **seasonal trough** — so a routine +$11B print would have resolved it TRUE carrying zero information. **The bar failed on its baseline, not its threshold.** One prior observation cannot tell you whether it is representative.
+5. **The MBA $775B life-insurer line is WHOLE-LOANS-ONLY.** MBA attributes to the **note-holder**, so insurer-held CMBS sits in the separate CMBS/CDO/ABS bucket (~$637B). **It is a FLOOR on insurer CRE exposure, not a measure of it** — never present it as "what insurers hold in CRE," and never let it be summed against a differently-constructed perimeter. `KB-CREED-017`.
 
 ---
 

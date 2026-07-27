@@ -1,0 +1,4 @@
+run_date	surface_sha	case_id	role	verdict	contamination	notes
+#	NO RUNS YET. Suite created 2026-07-27, UNRUN -- a blank table is NOT a pass.
+#	Baseline is established by the first run, triggered by the next non-trivial prompt-surface change.
+#	case_02 is a TARGET: a FAIL at a pre-2026-07-27 baseline is the EXPECTED result, not an alarm.

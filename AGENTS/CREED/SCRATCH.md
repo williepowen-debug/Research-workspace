@@ -47,6 +47,8 @@
 
 ## ⚫ STANDING TRAPS — re-read these before writing any number down
 
+> ⚠️ **Traps 1, 2, 3, 6 and 8 are ALSO in `CLAUDE.md` §Standing traps — ALWAYS-LOADED, and that copy is the one that matters.** `SCRATCH.md` is a **boot step**: it fires only if boot runs and is read closely. Those five fire **while writing a number**, so they were promoted to the always-loaded surface on 2026-07-27 (HENRY's skip-boot insight). **If you edit one here, edit it there too — and `CLAUDE.md` wins.**
+
 1. **Never cite a CRE mREIT price move without checking corporate actions first.** ARI printed **−33.4% in one session** on a total-return-*positive* day: the $3.75 return-of-capital going ex 7/16. PROME reports **five instances of this class fleet-wide on 7/27 alone.** The tell isn't "mREIT" — it's **any vehicle that returns capital** (liquidating trusts, wind-downs, special dividends, spin-offs).
 2. **A real number carrying the wrong basis is the dominant failure mode**, not a fabricated number. The $1.3B was real — it was a *cash* line on a *pre-close* date, labelled "post-sale."
 3. **Trepp PDF is paywalled = primary-CITED, not primary-READ.** The co-circulating **"retail 12.95%" remains UNVERIFIED — do not cite.**
