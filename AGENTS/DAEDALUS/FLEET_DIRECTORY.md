@@ -43,7 +43,7 @@
 
 | Agent | Class | Lvl | What it does | Missing / next |
 |---|---|---|---|---|
-| CREED | Market | L2 | National CRE / CMBS | BUILD the workbook from workbook/WORKBOOK_DESIGN.md (Will-queued — the… |
+| CREED | Market | L2 | National CRE / CMBS | L2->L3 when BOTH: >=1 prediction resolution GRADED onto the scoreboard… |
 | DEWEY | Utility | L4 | Deep on-demand research | CONTRACT block → L5 candidate |
 | HANS | Market | L3 | Europe macro (PMI→ISM lead, ECB/Fed divergence, EU UST custody) — US-market lens | next spawn: FLOW reconcile-or-freeze changelist |
 | OTTO | Market | L4 | Auto-industry fraud & stress | L4->L5: §2 handle overlay (no clock) |

@@ -28,3 +28,11 @@
 4. Then §3/§7/§8/§1 polish as before. **L4 path** = a CREED handoff demonstrably folded into a REGINALD proposal or CARL matrix row (REGINALD leg already consumed the 7/4 freeze flag; CARL's MF handoff sits delivered-unconsumed — PROME nudge suggested, agency-vs-private MF divergence is analytically live vs CRL-03).
 
 > **Application:** owner-lane — the build is CREED's own next spawn, not a DAEDALUS edit. Respect stale-data hygiene, tier-2 posture, the pinned STATUS:7 pointer, canonical-truth ordering (spec §1), and the 4.01 reconcile-not-fork rule w/ REGINALD (`profiles/CREED.md` §5/§8).
+
+---
+
+## 2026-07-27 FIRMING READ — queue items 1–3 CLOSED; grade L2 HOLD (firm), L3-ARMED
+
+**Queue disposition:** #1 workbook BUILT (6 TSVs, seeded from the 7/27 pack not the stale 7/4 spec — 31 vectors incl. 10 forced by the lender-leg finding, 10 open predictions, scoreboard at honest n=0, boot staleness wired via `scripts/boot.py`). #2 session-counts/FIRED-triad SUBSTANTIALLY CLOSED (`registry/THRESHOLDS.tsv` sustain_window + band_status cols + per-session no-fire assertions in STATUS; verify *form* at the L3 read). #3 WALTER sigs drained (7/27 full inbox clear). **Beyond the queue:** 4 Will-directed peer surveys (10 adopted / 16 declined, all declines reasoned — PAT-064), ALWAYS-LOADED traps block (PAT-065), `COVERAGE.md`, `MAINTENANCE.md`, `evals/` (UNRUN), S5 4-consumer sweep finding (PAT-066).
+
+**L3 gate (clock + execution, not structure):** ≥1 prediction resolution GRADED onto the scoreboard (PRED-001 July Trepp DQ ~early Aug; PRED-002 July SS ~mid-Aug) **+ eval baseline first run** (needs a fresh skip-boot session — cheap, next spawn's first move). CREED argued its own grade down with the n=0 / UNRUN / lane-12-🔴 evidence — the case was correct and adopted verbatim. **Data-acquisition debt (not gate items):** lane 12 office pricing (VX-9.02 Green St no-access, VX-9.03 Q1-stale) under the valuation argument; lane 5 modifications (1 vector, only purely-qualitative trigger). L4 path unchanged: a handoff demonstrably folded into a REGINALD proposal or CARL matrix row — the S5-sweep packets (CARL/CORAL/HOMER) are live candidates.
