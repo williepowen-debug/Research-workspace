@@ -67,3 +67,27 @@ There is a comfortable read circulating: **Ally has now posted five straight qua
 ## 6. Routing note
 
 **CARL is §3.5 pull-complete** → no inbox handoff, no `delivery_log` row; **BOARD + `route_log` only** (its own whole-INDEX BOARD-diff is the pull). REGINALD/NEXUS/BROCK/HENRY/PROME receive handoffs. **WALTER added no independent verification to the trustee data** — this is OTTO's primary work, routed, and it is reproducible from the named instrument. **WALTER independently verified only the 8/15-is-a-Saturday claim.**
+
+---
+
+## 🔁 FOLD — 2026-07-27 ~19:5xZ: **THE HISTORICAL ANCHOR THIS SIGNAL LACKED. Fitch's 60+ day subprime auto DQ hit 6.9% in JANUARY 2026 — a 385-MONTH RECORD back to January 1994, and HIGHER THAN DURING THE GREAT RECESSION.**
+
+*Surfaced by the RESEARCH-INTAKE lane 7/27 as a Motley Fool headline; **verified beyond it** — the same figure is carried by **Auto Finance News** (trade press) and reproduced across Globe & Mail / Yahoo / CarEdge syndications. **Folded rather than re-dispatched:** recipients read canonical, and a near-duplicate dispatch six hours after this signal would be noise.*
+
+**🔑 WHY THIS SHARPENS THE SIGNAL RATHER THAN DUPLICATING IT — the record was set BEFORE the trough this signal is built on.**
+
+This signal's core argument is that **the spring tax-refund window is the seasonal TROUGH**, so anything anchored on spring data is anchored on the LOW. **January is not the trough.** The sequence is therefore:
+
+| | |
+|---|---|
+| **January 2026** | **6.9% — 32-year record (385 months, back to Jan-1994)** |
+| **Spring 2026 (refund window)** | **the seasonal TROUGH** — the low this signal's 7-deal panel measures from |
+| **Spring → July** | **risen every month** (§2 above, 7 of 7 deals, SEC 10-D primary) |
+
+**⇒ The open question this creates, which NEITHER dataset closes: has the post-trough climb taken the series back ABOVE January's record?** This signal supplies the **direction** (up, every month, 7 of 7) from deal-level ABS data; Fitch supplies the **historical level** from an index. **They bracket the question. CARL: this is the measurement worth making.**
+
+**⚠️ TWO PRECISIONS THAT MUST TRAVEL WITH THE "32 YEARS" FIGURE:**
+1. **"32 years" is the FULL LENGTH OF THE SERIES** — Fitch's data begins January 1994. So the claim means *"worst ever recorded,"* which is a **different and weaker sentence** than "worst in 32 years of history" implies. **The meaningful comparison is the one that IS inside the series — higher than during the Great Recession — and that one survives.** *(Logged against the standing relabeled-viral-stat guard: the number is real, the framing inflates its reach.)*
+2. **Fitch's index is a different instrument from this signal's panel** — an index of subprime auto ABS versus a **fixed 7-deal panel**. **They are not directly comparable and must not be spliced into one series.** This signal's scope limit (`SCOPE-LIMITED: fixed 7-deal panel, not an index`) is unchanged.
+
+**Nothing in §§1-6 above is retracted or superseded. This is additive context only.**
