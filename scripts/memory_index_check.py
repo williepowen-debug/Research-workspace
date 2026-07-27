@@ -29,9 +29,27 @@ USAGE
   python3 scripts/memory_index_check.py              # forward check (all slugs)
   python3 scripts/memory_index_check.py --refs SLUG  # reverse check, pre-rename
   python3 scripts/memory_index_check.py --quiet      # only problems
+  python3 scripts/memory_index_check.py --strict     # EXIT 1 on a sync-breaking pointer
 
-CONTRACT: advisory, read-only, ALWAYS exit 0, <5s, no network. Never stages,
-writes or commits. Same contract as scripts/orphan_check.sh.
+CONTRACT: advisory, read-only, <5s, no network. Never stages, writes or commits.
+Exit 0 ALWAYS **unless --strict is passed** — the default is unchanged and still
+matches scripts/orphan_check.sh.
+
+WHY --strict EXISTS (added 2026-07-27 by BROCK, Will-directed). Detection was
+never the problem: on 2026-07-27 this script correctly found SIX distinct
+orphaned memories across the day, from four different agents. It caught every
+one and nothing happened, for two compounding reasons:
+  (1) it always exited 0, so no closeout, hook or CI could ever be failed by it;
+  (2) NOTHING INVOKED IT. A repo-wide grep that day returned only prose mentions
+      in STATUS/handoff/log files — no protocol, hook or script called it.
+A detector that cannot fail and is never run is documentation. `--strict` closes
+half of that; the other half is invocation, which belongs in the callers' own
+closeout protocols (BROCK wired it into AGENTS/BROCK/CLAUDE.md §12 the same day).
+
+--strict fails ONLY on the sync-breaking classes (GITIGNORED, UNCOMMITTED).
+MISSING stays advisory even under --strict, deliberately: the original design
+notes that a forward-reference to a memory you intend to write later is
+legitimate, and that judgement is preserved.
 
 HOMED FLEET-LEVEL, NOT IN walter_doctor, deliberately: `memory/auto/` is
 fleet-shared, so the check must be runnable at ANY agent's session, not only
@@ -106,10 +124,15 @@ def index_slugs():
 
 
 def forward_check(quiet=False):
+    """Returns the count of SYNC-BREAKING pointers (gitignored + uncommitted).
+
+    MISSING is intentionally excluded from the count: a forward-reference to a
+    memory you intend to write later is legitimate (original design note).
+    """
     slugs = index_slugs()
     if slugs is None:
         print(f"memory_index_check: no index at {INDEX} — nothing to check.")
-        return
+        return 0
 
     tracked = tracked_files()
     on_disk = set(os.listdir(MEM_DIR)) if os.path.isdir(MEM_DIR) else set()
@@ -156,7 +179,9 @@ def forward_check(quiet=False):
     if not (gitignored or uncommitted or missing):
         print("\n  ✓ every index pointer resolves to a committed file.")
     elif not quiet:
-        print("\n  Advisory only — nothing was changed. Exit 0 regardless.")
+        print("\n  Nothing was changed (read-only). Pass --strict to make this exit 1.")
+
+    return len(gitignored) + len(uncommitted)
 
 
 def refs_check(slug):
@@ -201,20 +226,32 @@ def refs_check(slug):
 
 
 def main():
+    """Returns the process exit code."""
     args = sys.argv[1:]
     if "--refs" in args:
         i = args.index("--refs")
         if i + 1 >= len(args):
             print("usage: memory_index_check.py --refs <slug>")
-            return
+            return 0
         refs_check(args[i + 1].strip().removesuffix(".md"))
-    else:
-        forward_check(quiet="--quiet" in args)
+        return 0
+
+    broken = forward_check(quiet="--quiet" in args)
+    if "--strict" in args and broken:
+        print(f"\n❌ FAIL (--strict): {broken} index pointer(s) name a memory git will not ship.")
+        print("   MEMORY.md loads at every agent boot, so on another machine these rows")
+        print("   advertise memories whose files are absent. Commit them (or fix the")
+        print("   ignore rule for the GITIGNORED class) and re-run.")
+        return 1
+    return 0
 
 
 if __name__ == "__main__":
     try:
-        main()
-    except Exception as e:  # advisory tool: never fail a closeout
+        code = main()
+    except Exception as e:  # a broken detector must never fail a closeout by accident
         print(f"memory_index_check: non-fatal error ({e.__class__.__name__}: {e})")
-    sys.exit(0)  # ALWAYS 0 — orphan_check.sh contract
+        code = 0
+    # Default stays exit 0 (orphan_check.sh contract). Only --strict can return 1,
+    # and only for sync-breaking pointers — never for an internal error.
+    sys.exit(code)
