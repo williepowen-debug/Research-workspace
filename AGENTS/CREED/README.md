@@ -30,7 +30,7 @@ Read these first:
 |---|---|
 | `VX.tsv` | **31-vector dashboard** across 10 categories, mapped to the Expected Signals. The heart. |
 | `FLOW.tsv` | 8 CRE transmission chains (legacy 6 refreshed + FLOW-07 lender withdrawal, FLOW-08 fast→slow holder migration) |
-| `KB.tsv` | 16 Admiralty-scored research rows, seeded fresh (legacy 40KB KB deliberately not imported) |
+| `KB.tsv` | **17** Admiralty-scored research rows, seeded fresh (legacy 40KB KB deliberately not imported). *(16 at build + `KB-CREED-017`, the MBA note-holder-attribution finding. This line read "16" for ~3 hours after 017 landed — caught in the 7/27 consolidation audit, which is exactly the drift class CREED spent the day catching in other agents.)*|
 | `PREDICTIONS.tsv` | **10** open forecasts, CREED-set confidences, each naming its resolving instrument |
 | `PREDICTIONS_SCOREBOARD.md` | Calibration surface + resolution protocol. **Currently n=0** — created before the first resolution on purpose. **Update it in the same session as the ledger row: both writes, or neither counts.** |
 | `VX_HISTORY.tsv` | monthly series for the load-bearing vectors — a level is not a trend |

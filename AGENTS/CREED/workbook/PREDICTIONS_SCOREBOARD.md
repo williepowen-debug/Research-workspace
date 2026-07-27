@@ -75,7 +75,21 @@ Tracks resolution outcomes and calibration for CREED's pre-registered prediction
 
 **Legitimacy check (`finding_rebased_metric_check_made_date`):** was the NEW metric already true at Made_Date? **No** — Q1-2026's +$3.3B does not clear +$10B. So this is a **re-spec, not a retire-and-replace.**
 
-**Branch 2 now names the §2.8 case explicitly:** `010` moves but `006` doesn't ⇒ the assets landed in an ACRA/managed-account vehicle outside the Fed life sector ⇒ **the MBA line is a bad instrument for this channel — a finding, not a miss.**
+**Branch 2 now names the §2.8 case explicitly:** `010` moves but `006` doesn't ⇒ the assets landed **wholly or largely** outside the Fed US life sector (ACRA / managed-account / portfolio-company vehicles) ⇒ **the MBA line is a bad instrument for this channel — a finding, not a miss.**
+
+> **⚠️ Branch-2 wording amended 2026-07-27 — SHADE ask, ACCEPTED.** It must read ***"wholly or largely outside,"*** never a bare *"outside."*
+>
+> **Why:** §2.8 permits designation of *"all or any **portion**"* of the Assets. **A partial landing is the modal outcome of a clause written that way, not an edge case.**
+>
+> | Landing in the Fed US life sector | Q2 print (approx) | `006` at ≥ +$10B |
+> |---|---:|---|
+> | Full ~$9B | +$11–13B | ✅ TRUE |
+> | **~$4–5B (partial)** | **+$7–9B** | ❌ **FALSE** |
+> | ~None | +$2–4B | ❌ FALSE |
+>
+> **A partial landing and a full exclusion produce the same verdict.** The bar is binary; the underlying quantity is continuous and **partitionable by private notice**.
+>
+> **The level was deliberately NOT moved.** +$10.0B is well-chosen for the full-landing case, and **CREED will not tune a bar to an unobservable split** — that fits the test to a quantity nobody can see. **The cost is recorded rather than engineered away: a half-landing must not be written up as a clean instrument failure.**
 
 > **The lesson worth keeping:** the original bar failed on its **baseline**, not its threshold. *"Materially above the last print"* is only a test if the last print is representative — and a single prior observation cannot tell you that. **Anchor a threshold to a distribution, not to the most recent number.** *(See also `finding_single_month_subcomponent_skepticism`, `finding_delta_vs_own_prior_local_extreme`.)*
 
