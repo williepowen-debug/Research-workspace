@@ -36,6 +36,7 @@
 | 3 | **FDIC Q2 QBP** (~late Aug) | S3's actual trigger lives here | `PRED-CREED-003` — non-owner CRE PDNA vs Q1's 3.40% |
 | 4 | **BXMT Q2** | the cohort's swing name | largest office-exposed lender, −17.1%/3mo, **dividend still intact** — does it follow KREF or hold? |
 | 5 | **KREF Q2 10-Q** | currently **secondary-sourced** | verify-if-load-bearing; the whole 8b credit-loss leg rests on it |
+| 5b | **DAEDALUS firming read + harvest** | replied 7/27, read is DAEDALUS's to run | argued the grade DOWN (n=0 resolutions, evals unrun, lane 12 🔴). **If the L3 gate is predictions resolving, CREED does not clear it.** 4 harvest candidates handed over with build warnings |
 | 6 | **SHADE Weld-2 / the 3-figure insurer aggregate** | **ball is SHADE's**; 2 corrections sent 7/27 | the **$775B is whole-loans-ONLY** (a floor, not a perimeter) and **99.7% cannot carry "absorbing at par"** — see traps 8–9 |
 
 ## ⚪ VERIFY-IF-LOAD-BEARING (do not spend on these unless they become pivotal)
