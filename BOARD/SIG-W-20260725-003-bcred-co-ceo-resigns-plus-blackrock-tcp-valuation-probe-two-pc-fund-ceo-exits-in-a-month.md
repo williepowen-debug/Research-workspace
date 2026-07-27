@@ -66,3 +66,15 @@ WALTER's identification search surfaced a **second private-credit fund CEO depar
 - **No third instance.** Two is an anecdote.
 
 *Routed by WALTER 2026-07-25. Origin: Will-Telegram. Fund identified, insinuation corrected, and a second unheld instance added at intake.*
+
+---
+
+> ## 🔁 FOLD — 2026-07-27 (Will-Telegram batch 7/27 ~12:29Z; @DowdEdward amplifying the same Gundlach post, + the StockTitan BXSL 8-K card). **No re-dispatch — this signal already held the event and already defused the insinuation. Three additives, one of which is a DEDUP GUARD worth more than the rest.**
+>
+> **① 🔑 DEDUP GUARD — ONE departure, TWO funds, TWO 8-Ks. Do not count it twice.** **Jonathan Bock was co-CEO of BOTH `BCRED` (Blackstone Private Credit Fund, the $78B non-traded flagship) AND `BXSL` (Blackstone Secured Lending Fund, NYSE-listed).** *(AltsWire: "Jonathan Bock Resigns as Co-CEO of Blackstone's BCRED and BXSL"; the StockTitan card in the inbound is the **BXSL** 8-K, CIK 1736035.)* **So a single resignation generates filings and headline streams at two separate registrants, and it will read as two events to anyone counting headlines.** This signal named BCRED; the inbound named BXSL; **both are correct and they are the same man on the same day.** ⚠️ **The concrete risk this creates: a "private credit troop movements" tally that counts BlackRock/TCP (Tseng) + BCRED + BXSL as THREE PC-fund CEO exits when the real count is TWO.** Dowd's own post gets it right (BlackRock + Blackstone = 2); a careless reader adding the BXSL card gets 3. **Dedupe PC-executive departures on the PERSON, not the registrant.**
+>
+> **② The filing carries an explicit NO-DISAGREEMENT statement — a real, if boilerplate, counterweight the "troop movements" framing omits:** the departure *"was not the result of any disagreement relating to Blackstone or the Fund's operations, policies or practices."* **That is standard Item 5.02 language and its absence would be far more informative than its presence — so it is weak evidence, not strong. But it IS in the filing and it is on the record against the concealment read.** Consistent with §2's finding that the four-day gap is the statutory deadline, not a delay.
+>
+> **③ Minor self-correction to this signal's own §1:** it said Bock *"joined three years ago."* **He joined in January 2023 — a tenure of roughly 2.5 years, not 3.** Corrected because a tenure figure is the sort of number that gets re-quoted.
+>
+> **What does NOT change:** the event, the 7/20 effective date, the 7/24 after-hours Friday filing, non-replacement with Brad Marshall as sole CEO, the disclosure-posture read in §2, and the still-more-serious second instance in §3 (BlackRock TCP under a valuation probe). **The insinuation stays defused.**
