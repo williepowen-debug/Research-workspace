@@ -1,6 +1,8 @@
 # Agent Profile — SHADE
 
 > Δ **2026-07-22 PRODUCTION REVIEW — named trigger fired; LIGHT-AMEND-AT-TOUCH (trigger fired same-day-as-build; 45d clock to 8/12).** Per-agent delta bullets + row re-grade banked in `upgrades/PRODUCTION_REVIEW_2026-07-22.md` (the delta store). Body below is prior-vintage — READ WITH THE DELTAS; full refresh executes at the next firming touch of this agent.
+>
+> Δ **2026-07-27 CONFIRM-READ → PROMOTED L2→L3** (grade logic in `FLEET_MAP.tsv` row; read record in `upgrades/SHADE_CARD.md` §7/27). New since body vintage: vector #1 FIRING (Delaware Life, primary N-VPFS route — recorded in SHADE's MEMORY with its boundary), composite 19→20/30, `MAINTENANCE.md` structural log active, 5 new `research/` artifacts 7/27 (Weld 2, ARCC pre-reg, accrued-interest test, FABN canary + script/json, Delaware Life restatement), `inbox/processed/` root lane created. **The profile's own staleness trigger ("refresh when... a PREDICTIONS ledger appears") has NOT fired** — the ledger is still the owed handle; full refresh when it lands or at the L4 assessment.
 
 **Built by:** DAEDALUS · **Date:** 2026-06-28 · **Comprehension method:** 1-reader judgment-grade + 1 adversarial verifier (workflow `grade-shade-brock-creed`)
 **Sources read:** CLAUDE.md, STATUS.md, MEMORY.md, MAINTENANCE.md, SCRATCH.md, board_log.tsv, ARCH_REPORT_2026-06-26.md, domain/sources/01-08, research/{INSURER_LENDER_DOUBLE_JEOPARDY,ATHENE_FABN_MATURITY_LADDER} · **Staleness:** refresh when §3 dashboard gains a 5-pt handle or a PREDICTIONS ledger appears, or > 45 days.

@@ -26,7 +26,7 @@
 | ORACLE | Utility | L4 | Prediction-market diagnostics | L5: §2 CONTRACT block (cheap) |
 | BOND | Market | L4 | US bond-market structure / auctions / rates | L4->L5: MATRIX_V2 disposition |
 | CORAL | Market | L3 | Florida (whole-state, 10 pillars) | Confirm-read on REGINALD/CARL consumption legs |
-| SHADE | Market | L2 | Insurer-lender / PE-insurance-captive | Firming read -> L3 (seed light PREDICTIONS.tsv from accrued dated binar… |
+| SHADE | Market | L3 | Insurer-lender / PE-insurance-captive | L3->L4 path: (a) seed light PREDICTIONS.tsv w/ confidences from the acc… |
 | NEXUS | Utility | L4 | Cross-agent synthesis | L5 (YEYOU leg WAIVED-while-dormant, Will 7/22): residual polish (closeo… |
 | ZHAO | Market | L3 | China macro — UST demand / capital flows / Korea | L3->L4: consumption evidence (LIQUID absorb |
 | AEOLUS | Market | L2 | Climate → economy (macro; insurance/ag/energy-demand channels) | PROME spawn flag routed 7/22 stands |

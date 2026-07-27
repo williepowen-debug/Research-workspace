@@ -30,3 +30,18 @@
 §1 (quick win + §2 + a light §5) closes the highest-value gaps and SHADE crosses cleanly into L3 — the FLEET_MAP next_upgrade.
 
 > **Application:** SHADE is idle (last touched 6/28 via PROME catch-up). Handle-adds are idle-applicable with **permission + fresh idle-check** (these touch SHADE's files). Do NOT flatten the §0 RETRACT discipline, peer-relative canary, or the trigger-gated dig lane (see `profiles/SHADE.md` §5).
+
+---
+
+## 2026-07-27 CONFIRM-READ — **PROMOTED L2→L3**; queue re-cut
+
+**Queue disposition:** #1 BOTTOM LINE + #2 5-pt/Independence = DONE 6/28 (BATCH_01, verified in-file `STATUS:217-231`, honest exclusion discipline on shared/dependency vectors). #4 PREDICTIONS.tsv = **still the owed handle, but no longer the L3 gate** — the read found the predictions leg met **in behavior**: pre-registered rating-action line CROSSED (Delaware Life) and graded honestly (incl. "crossed at a non-primary-target" note), accrued-interest anomaly tested against 4 controls and RETIRED, 3 own claims retired-by-evidence in one session with corrections in place, ARCC Q2 pre-registered before the 7/29 print, 4 wrapped-PC tripwires standing 0-of-4, FABN peer canary rebuilt + corroborated. #3 handle-batch partially open (standing FIRED-triad table absent; per-session prose carries the substance).
+
+**Grade logic (the CREED symmetry):** CREED = ledger without resolution behavior → HELD L2. SHADE = resolution behavior without ledger → PROMOTED L3. The ladder grades behavior; handles accrue calibration, which is the *next* rung's requirement.
+
+**Re-cut queue (owner-lane, packet routed 7/27 — SHADE live):**
+1. **Seed light `PREDICTIONS.tsv` with confidences** from the accrued dated binaries (tripwires ×4, ARCC pre-reg, FABN canary threshold, arming-road legs). Without confidences, calibration cannot accrue — this is now the L4-path blocker, not the L3 gate.
+2. **Standing FIRED-triad table** (leg | rule | state@level | FIRED count) — substance exists per-session; the table makes it survivable across sessions.
+3. **STATUS compress 363→<250** (PAT-055, worsening 295→363) — the §0a-0e catch-up-delta accretion pattern; candidate fix: retire graded deltas to `archive/` per closeout, keep only the latest two.
+
+**L4 assessment at next review:** consumption leg already strong (canonical insurer-exposure owner, Will-approved 6/26 BROCK-ceded; welds/adjudications consumed by PROME/CREED/BROCK same-day; no TRADE.md by design — CARL/LIQUID routing precedent). Gate: ledger accruing 2-3 graded rows.
