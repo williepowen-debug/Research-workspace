@@ -17,7 +17,7 @@ This sweep keeps:
 4. **Format-consumer check on any HEARTBEAT/BOARD re-base since last run** (PAT-069) — if a parsed surface was re-based, verify its named consumers re-ran clean.
 5. **Disposition write-back spot-check** (PAT-032 class) — sample proposals/packets closed since last run for missing terminal banners.
 
-**Bridge clause:** until `prome_gate.py` ships, each run ALSO executes the mechanical core (the four check families above it). Drop them from scope the run after the gate script is live — verify the gate covers them before dropping.
+**Bridge clause: CLOSED 2026-07-28, same day it was written** — `prome_gate.py` shipped that night (Will pulled the schedule in) and DAEDALUS verified in-file that the gate carries all four mechanical families (dashboard-state emptiness/vintage · GATES token-vocabulary/fired/ages · DOCKET overdue · symmetry diff; BOOT:55 + CLOSEOUT:42 wiring). Scope is FINAL at judgment-tail-only from run #1 onward.
 
 ## Method
 

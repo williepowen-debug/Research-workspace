@@ -51,11 +51,11 @@
 
 ## Next actions
 
-1. **DRAFT THE T2-c CHECK for PROME — owed before the 8/6 second wave** (PROME's disposition: "yes, draft it" — a BOOT-read-list vs CLOSEOUT-symmetry-table diff; read both docs' actual formats first, verify-before-build; deliver to PROME inbox; standalone until prome_gate exists, then runs inside it).
+1. ~~Draft T2-c check~~ **CONVERTED TO REVIEW + DELIVERED 7/28 eve** (Will pulled the schedule in; PROME shipped T2-b gate + all four fold-ins same night — verified in-file. My review ruling: the 4 reference-doc flags = mechanism working → DECLARE in CLOSEOUT one-way section, never regex-suppress [PAT-035]; TODAY.md = real parser defect, anchor to structured read-list not prose mentions; scope list lives in CLOSEOUT parsed at runtime, never in-script [symmetric w/ the mirror_walk amendment]).
 2. Falsification sweep ~8/1 + HAWK sunset adjudication.
 3. Production Review **on cadence 8/5** — the self-row L5 gate; grades WAL's first-solo mandates + spawned-mode card wave-1 presence + PROME's batch execution (7/31-8/2).
-4. **PROME second wave 8/6-8/9 watch:** T2-b gate script first (spec constraints Will-approved: advisory-vs-blocking PRESERVED, thin wrapper w/ per-check owner-doc pointers) → T2-a prune + T1-a census (axis: declared-view-with-canonical-wins = keep · SILENT DUPLICATE = the hunt). **Acceptance test I grade at wave close: net hand-maintained protocol lines DOWN, same-or-more enforcement** — PROME explicitly asked to be held to it.
-5. PROME sweep run #1 due ~8/18 (bridge clause: includes mechanical core unless prome_gate shipped — verify gate coverage before dropping).
+4. **PROME second wave 8/6-8/9 = DELETION WORK ONLY now** (T2-b landed early 7/28 eve): T2-a spine prune + T1-a mirror census (axis: declared-view-with-canonical-wins = keep · SILENT DUPLICATE = the hunt). **Acceptance test I grade at wave close: net hand-maintained protocol lines DOWN, same-or-more enforcement** — gate mass must be more than paid for by the prune. **7/31-8/2 batch first-graded item: S3 fix (cursor-after-disposition) — the warning FIRED LIVE 7/28 eve** (cursor past SIG-W-20260728-007 HY-281 before rc read; recovered) — plus the 0-of-605 re-verify riding with it.
+5. PROME sweep run #1 due ~8/18 — scope FINAL: judgment tail only (bridge clause closed same-day; gate coverage verified in-file).
 
 ## BOTTOM LINE
 
