@@ -69,6 +69,10 @@
 
 ## NEXT SESSION (priority-ordered)
 
+> **⏱️ TIME-CRITICAL BLOCK — everything in 1–4 is dated inside the next 72 hours. Do these before any building.**
+>
+> **🧱 THE UNBUILT BLOCK (items 11–15) is the session's real debt.** Six defects were found today and **all six were fixed as CONTENT; ZERO as MECHANISM.** Every preventive check below is written down and none of them runs. That is `finding_banner_is_a_warning_not_a_fix` six times over. **If there is time for exactly one, build #11** — it is the only one guarding money, it is ~20 lines, and it needs no new data pull.
+
 1. **🔴 FOMC Wed 7/29 2:00 PM ET + Warsh presser 2:30 — final KB-VIO-123 grade, Stale_By 7/30, SETTLE basis.** Must state **WHICH reading of confirm-1** it rests on (level vs mechanism, KB-VIO-132). **Mandatory 7/30 position review regardless of P/L (TERRY card §6).**
 2. **🔴 GRADE (iii) AT EVERY SETTLE AGAINST THE NEW BAND — 7,455 warn / 7,491 falsified.** ⚠️ **This is now a plausible Wednesday outcome, not a tail.** Warn line is 0.56% away.
 3. **🔴 HENRY routes page-stamped FedWatch pulls Wed ~9-10 AM and ~1:30 PM.** Consume both. **No July-hike number gets published without a stamp** — circulating figures span 10.7 / 31.5 / 34.7 / ~38 / 34.3 / 46.5. My 7/27 65.7/34.3 pull **survives HENRY's retraction** (HENRY retracted its own *inference*, measured against a pre-collapse 7/22 baseline, not my datum).
@@ -78,7 +82,24 @@
 7. **🟡 COT report-date 7/28, release Fri 7/31 3:30.** · **🟡 Reconcile GOOGL drawdown** (my −5% [VULCAN 7/22] vs WALTER −7.1% [7/23]).
 8. **🟡 Good Friday residual in the FRED freshness fix** — deferred at PROME's request, **zero 2026 exposure**, next occurrence 2027-04-05, fails safe.
 9. **🟡 MAINTENANCE.md hit its ~300-line cap (307).** Next **structural** session must archive oldest entries to `archive/` **before** appending. Durable fix is a boot-time line-count check, not a remembered ritual (`finding_mechanize_the_cap_not_the_ritual`) — **queued, not built**; pre-FOMC obligations outranked it.
-10. **🟣 POST-FOMC: refresh BOTH Will-facing Artifacts (SAME URLs)** — cheat-sheet `…c2129279-b677-4093-be68-ccdbe0df76b3`; Operating Picture `…8eb52313-be4e-49a3-8555-e5cc23b44c60`. **Both still need a POSITION row.**
+10. **🟣 POST-FOMC: refresh BOTH Will-facing Artifacts (SAME URLs)** — cheat-sheet `…c2129279-b677-4093-be68-ccdbe0df76b3`; Operating Picture `…8eb52313-be4e-49a3-8555-e5cc23b44c60`. **Both still need a POSITION row.** Republish passing `url=` or the bookmark rots (`finding_artifact_redeploy_same_url`).
+
+### 🧱 UNBUILT — every preventive mechanism from today (content fixed, mechanism not)
+
+11. **🔴 BUILD FIRST — the positive position check (KB-VIO-142).** *If `STATUS.md` shows a LIVE position, `TRADE.md` must name the same identifier — else boot fails loud.* Boot already reads both files; **no new data pull.** This is the one that guards real money, and it is the direct fix for `TRADE.md` having said `ACTIVE POSITIONS: None.` for 17 hours. ⚠️ **Do not implement it as a staleness check** — `ledger_staleness.py --trade` already passed that file `ok +2d`. **Age is not agreement.**
+12. **🟠 CANARY_MAP staleness contract — enforce it (v1.0 debt).** The file's own line *"extend `ledger_staleness.py` to this file's Tier-1/2 pull dates = a future small ask"* has never been built, and the map breached its own DARK contract on 5 rows by up to 21 days. **The data already exists** — every Tier-1 instrument writes a dated row (`VX_DAILY`, `JPY_VOL`, `COT_VIX`, `CHEAP_TAIL`). Compare each row's asserted as-of date to the max date in its own ledger.
+13. **🟠 VX_DAILY TICK-row spot stamping (KB-VIO-139).** `basis=TICK` labels the ROW while only `vix` is a tick; `vix3m/vvix/skew` are prior settles and `vix3m_vix_ratio` is computed across them. **Preferred fix: refuse the ratio when its inputs resolve to different dates and leave the cell BLANK** — a blank is visible, a plausible wrong ratio is not. Futures leg already self-describes via `m1m2_settle_date`; give the spot columns the same.
+14. **🟠 Column-level dashboard citations (KB-VIO-141).** Cite the ledger **column**, not the script: `IV/RV 3.07 [JPY_VOL.iv_rv10, 7/27]`, not `[CONF] jpy_vol.py`. Column citations are mechanically checkable; script citations are not. This is what would have caught the OVX-ratio-as-JPY-IV/RV error on day one instead of day four.
+15. **🟠 Mechanize the outbox check (KB-VIO-140).** I adopted *"verify your own outbox at closeout"* in prose at 03:57 and then **repeated the error twice more the same session** — it never ran. Make it a closeout step that greps the write-back for second-person sentences addressed to a named agent and asserts a matching file in `outbox/`. **A mitigation nothing executes is a banner.**
+
+### 📋 SURFACES STILL UN-AUDITED (I did 2 of 5)
+
+16. **🟡 `SIGNAL_INTAKE.md` (last touched 7/17) and `README.md` (7/12) have never had a provenance pass.** SIGNAL_INTAKE carries **durable threshold lines** — the highest-risk of the two, since a stale threshold there is what WALTER routes against. `MEMORY.md` and `thesis/VIX_THESIS.md` were only **spot-edited** at the lines I touched today, not read end-to-end.
+17. **🟡 Provenance-audit cadence:** the natural trigger is **"a surface that was just heavily rewritten"** — that is exactly when hand-assembled values enter. Today's three worst defects were all in freshly-rewritten text.
+
+### 📨 OWED **TO** ME — chase at boot if absent
+
+18. **PROME** — `FORGE/PORTFOLIO.md` carries **zero** mentions of the live position (shared file, theirs); and DOCKET row 61's *"migrated DOWN ~45pts"* needs re-wording to *change of basis*. **TERRY** — restore counter-case #8 to "adjacent, not refuting" (KB-VIO-110 was already dead 7/09). **WALTER** — `REGISTRY.tsv` line 16 refresh (`7,496 = −102.9pts`, both retracted). **SAM** — ack the IV/RV correction before BOJ 7/30-31. **HENRY** — two stamped FedWatch pulls Wed, **plus** the matched-time independent gamma read I asked for (the chain-vs-cluster gap is currently measured across a ~14h offset; if it closes, the warn line moves **up** and I should know before grading a settle against it).
 
 ## WHAT I DID THIS SESSION
 
