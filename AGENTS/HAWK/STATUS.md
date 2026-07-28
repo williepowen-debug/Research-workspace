@@ -92,9 +92,37 @@
 
 **Rest of the book unchanged; 45-day cadence still 8/4.** VEN-01 🟢 (net supply contributor, 1.2M bpd Jun) · TRADE-01 🟡 (**re-checked 7/28: truce and rare-earth suspensions hold through late 2026; the MOFCOM 6/22 action is already in-book — no content flag**) · TRADE-02 · SULPHUR-01 · FININFRA-01 · IRAQ-01 · CEASEFIRE-01 unchanged.
 
-**🔴 BUT A CONTENT FLAG LANDED ON THE DORMANT *FLOW* ROWS, AND THE CLOCK SAYS 8/4 — THIS IS THE EXACT LESSONS-#3 SHAPE THAT BIT ME ON 7/25 (clock not due, content overdue).** `FLOW-HAWK-13` (Hormuz → Taiwan LNG crisis) and `FLOW-HAWK-16` (Ras Laffan → helium → semiconductor rationing) are both marked **MUTED (dormant-armed)** carrying **[STALE Apr-20 figures]**, and both are premised on Ras Laffan being offline. **Ras Laffan is still offline and the force majeure is EXTENDING into month four** (§1) — so the *premise* of those rows is not merely alive, it is lengthening, while their downstream figures are three months stale.
+## 6b · ✅ THE LNG/HELIUM CHAINS — RE-DERIVED 7/28 (executed, not deferred). One was FALSE, not stale.
 
-**Scoped honestly: I am NOT re-deriving those chains this session** — the helium-buffer and Taiwan-power consequences need a full external re-sweep and would be a session of their own. **Flagged as a content-triggered re-sweep due NOW rather than 8/4**, and it is the first item in NEXT SESSION. Recording the gap rather than carrying the rows silently is the whole lesson from HAW-03.
+Flagged this morning as a content trigger ahead of the 8/4 clock, then executed. Both rows had made **dated, falsifiable** claims with ~3.5 months to resolve — so the question was never "are the numbers stale," it was **"did the chain fire?"** They resolved in **opposite directions.**
+
+**🔴 `FLOW-HAWK-13` (Hormuz → Taiwan LNG crisis) — FALSIFIED AT THE PREMISE.**
+
+| | HAWK carried (Apr-20) | Actual |
+|---|---|---|
+| Taiwan LNG from Qatar/UAE | **85%** | **Qatar ≈ one-third** (Qatar and Australia each ~⅓ of 2025 imports) |
+| LNG share of power | 40% | **>50%** — understated, opposite direction |
+| Days of reserve | 11 *(unverified since April)* | **12** |
+| Fallback generation | *absent from the model* | **40-day coal reserve** (+140 days crude) |
+
+[CSIS 2026-05-14, fetched; Taipei Times 3/10.] **The dependency number was wrong by ~2.5× and the model had no fallback in it.** At 85% a Qatar crash is existential; at ~33% with 40 days of coal it is absorbable by spot procurement — **which is what happened.** Taiwan was *"not facing an imminent power shortage,"* **20 of 22 cargoes** already secured, and **no Taipower rationing — the row's own registered trigger — ever occurred.** The row wasn't stale; **its premise was false, and it sat "dormant-armed" for three months projecting a scarier picture than reality.** → `KB-HAWK-247`.
+
+**🟠 `FLOW-HAWK-16` (Ras Laffan → helium → semis) — MECHANISM FIRED, CONSEQUENCE ABSORBED. Scored PARTIAL.** Ras Laffan is ~⅓ of global helium; **27-30% of world supply removed**; spot **+40-100%** [BofA]; no substitution (fabs need **6N/99.9999%**). But fabs absorbed it on inventory, diversification and allocation — **SK hynix says it secured sufficient supply. No rationing.** CONFIRMED would overstate a consequence that didn't happen; FAILED would discard a mechanism that genuinely fired. **The absorber is inventory, which depletes — a buffer, not immunity**, so the row stays live. 🆕 **Repair up to FIVE YEARS, gated by a global TURBINE shortage — not funding, not damage.** → `KB-HAWK-248`.
+
+**⇒ `VX-HAWK-TWN-01` downgraded 🔴 RED → 🟠 ORANGE.** The Red band ("Qatar >90% crash verified") is still factually triggered and the outage is *lengthening* — but carrying RED on a chain that demonstrably did not transmit overstates the risk to every consumer.
+
+**🎯 AND IT HANDED ME THE MATCHED CONTROL FOR TODAY'S THESIS.** Two supply losses, same war, differing on exactly one variable — **was capacity destroyed?**
+
+| | CPC / Novorossiysk | Ras Laffan |
+|---|---|---|
+| Destroyed? | **No** | **Yes** |
+| Duration | **7 days** | **Month 4, five-year repair** |
+| Restored by | An owner's decision | A turbine supply chain |
+| Premium | Unwound in days | **Still +40-100% months later** |
+
+**Ras Laffan removed a *smaller* share of world oil than CPC did and is incomparably more durable.** Magnitude doesn't separate them; destruction does. It also answers RED's steelman a second way: if "willingness" were just the premium channel relabelled, both premia would behave alike. They don't. → `KB-HAWK-249`.
+
+**Routed, not guessed at:** the consequence legs aren't mine — the row's own scope note says *energy = SAM/BRENT*. Packet to **SAM** (procurement under a lengthening FM), **VULCAN** (**the open question nobody owns: do fab helium inventories outlast a five-year repair?**), **BRENT** (volumes). I re-derived my chokepoint leg and said so.
 
 ---
 
