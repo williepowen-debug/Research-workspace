@@ -137,7 +137,9 @@ Like-for-like (**NSA, March 2026**, both verified by my own `fred_pull.py` run):
 
 ## Process Report
 
-**Engines:** `/deep-research` **was not available in this session** (absent from the skills list), so this ran on the documented fallback — `scripts/` primary pull as the spine + 4 targeted sub-agent legs. Spine (DEWEY, direct): SEC XBRL via `edgar_doc.py` (Affirm, Dave), `fred_pull.py` (G.19 SA and NSA), plus direct WebSearch/WebFetch on furnishing status.
+**Engines:** `/deep-research` was **absent from this session's model-visible skills list**, so this ran on the documented fallback — `scripts/` primary pull as the spine + 4 targeted sub-agent legs.
+
+> **✅ CORRECTED 2026-07-28 (same session), and the correction matters:** the skill was **NOT removed — it was re-gated to user-invoked only.** Claude Code **v2.1.219**: *"Changed `/deep-research` to start only when invoked manually; Claude no longer launches it on its own."* Verified by me at primary against the official changelog (we run **2.1.220**). Found by PROME; I re-pulled the changelog rather than propagate it unverified. **So "absent from my skills list" was true and "the engine is gone" was false** — it is absent *because* an agent can no longer launch it, which is precisely what the list encodes. Note the same release shipped Opus 5 as the default model, so the re-gating and tonight's model switch arrived together — the timing was a coincidence of one version bump, not causation. **Consequence for this report: none on the findings** (the fallback ran and the legs' non-conformance produced three self-caught errors). **Consequence for the spec: the amendment is small** — the fan-out engine is intact and the run protocol gains one step, *ask Will to invoke it*, rather than needing an engine replaced. Spine (DEWEY, direct): SEC XBRL via `edgar_doc.py` (Affirm, Dave), `fred_pull.py` (G.19 SA and NSA), plus direct WebSearch/WebFetch on furnishing status.
 
 **Completeness-critic pass — the prompt's 5 required sub-answers:**
 1. BNPL outstanding — ✅ answered, both definitions
