@@ -101,6 +101,34 @@ This is the same diagnosis that produced root canon step 1d ("detection was neve
 
 PROME's rules are almost never wrong — they were unexecuted. That's the signature of an architecture whose judgment outruns its bandwidth, and the correct response is the one already underway: mechanize invocation (scripts, ledgers, checklists, generated rows), shrink what must be hand-maintained (fewer mirrors, leaner protocol), and add the one thing PROME cannot give itself — an outside reader on a cadence.
 
+## 7b. PROPOSED MECHANISMS FOR THE THREE TENSIONS (added 7/28 eve, Will's ask — proposals, not executed; lanes marked)
+
+### T1 — Mirror-heavy × high change-rate → *shrink, generate, mechanize the walk*
+
+| # | Proposal | What / Why | Effort | Lane |
+|---|---|---|---|---|
+| T1-a | **Mirror census & demotion pass** | Walk SYSTEM.md's Mirror Map + the mirrors this audit surfaced; classify each: KEEP-MIRROR (operationally necessary at read-time) / DEMOTE-TO-POINTER (exists for reading convenience) / GENERATE (machine-derivable). Target: halve the hand-maintained set. Candidates already identified: PROME/CLAUDE.md git ¶ → pointer-to-root + one-line delta; SYSTEM position lines → pointer to the root canon line; STATUS HEARTBEAT row → generated or countless pointer. | ~1 session, batched approval | PROME executes; fold into the 7/31-8/2 batch |
+| T1-b | **`mirror_walk` as a mechanism, not a memory** | On any canon/threshold change: grep the OLD token across the Mirror-Map file list + PROME's own surfaces and print hits — i.e., `consumer_check.py` pointed at a self-inclusive enumeration (the accepted S5/PAT-068 fix, made concrete: a `--surfaces mirror_map` mode or a PUBLISHED.tsv-style ledger of PROME's mirrored facts). The 7/28 PORTFOLIO miss becomes impossible: the old token was greppable. | Small — reuses consumer_check | PROME (script is shared; patch gated per PAT-036) |
+| T1-c | **Generate-don't-hand-mirror, triggered at n≥3** | Standing rule: any row that has rotted 3× gets generated from its source or reduced to a countless pointer — starting with the HEARTBEAT amendment count (derivable from `## AMENDMENT #N` headers in ~5 lines). Hand-mirroring has empirically failed for that row class; stop re-committing to it. | Trivial per row | PROME |
+
+### T2 — Protocol mass > session capacity → *prune, script, gate registration*
+
+| # | Proposal | What / Why | Effort | Lane |
+|---|---|---|---|---|
+| T2-a | **Run the 7/7 harness-audit deletion criterion over PROME's own spine** | The criterion already exists and is fleet-ratified (keep a step only if: ACTION/behavior-gating + not mechanizable + not owned elsewhere — WALTER's 113→61 precedent). Apply to CLOSEOUT (260 ln) + BOOT (96) + the step-doc periphery. Expected: CLOSEOUT ~260→~150 with zero lost enforcement, because most candidates are mechanizable (see T2-b). | 1 focused session, Will-approved batch | PROME proposes, Will approves |
+| T2-b | **Collapse the check-stack into one gate script** | PROME already owns 6+ boot/closeout checks (claim_check, firetime_check, position_agreement_check, env_doctor, board_scan, memory_index_check, ledger_staleness…). Wrap: `prome_gate.py boot\|closeout` runs all, prints one PASS/FAIL block, rc≠0 on any gate. Doc steps collapse to "run the gate, then judgment steps." Precedent: HENRY/LABOR boot.py — the fleet's proven pattern for exactly this. Also closes the missed-1c/1d class permanently: new fleet-wide checks get ADDED TO THE SCRIPT, not to prose. | ~1 session build + wire same session (PAT-041) | PROME builds |
+| T2-c | **Symmetry table = registration gate for new boot surfaces** | Rule + tiny check: a boot-read surface isn't "wired" until its CLOSEOUT symmetry row exists (paired-write or explicitly one-way). Mechanizable: diff BOOT.md's read-list against the table; run it inside T2-b's gate. Same move as my builds REGISTRATION_CHECKLIST — growth registers at the slow surface, not just the fast one. | Small | PROME; DAEDALUS can draft the check |
+
+### T3 — No second reader → *make the outside reader structural*
+
+| # | Proposal | What / Why | Effort | Lane |
+|---|---|---|---|---|
+| T3-a | **Register a recurring DAEDALUS sweep: "PROME Spine & Will-Facing Surfaces," ~21d, read-only** | Mechanical core (scriptable from today's reader checks): dashboard_state emptiness/vintage + GATES/DOCKET token-vocabulary + last_checked ages + overdue-unresolved rows + spine_audit run externally; judgment tail: skim Will-facing surfaces for silent-blank. Today's audit found a 4-day-degraded Will-facing artifact on the FIRST external read — this makes that read structural. Rides my existing `sweeps/REGISTRY.tsv` + cadence check. | ~½ session to register + playbook; ~1 session per run | **DAEDALUS — ready on your green light** |
+| T3-b | **Grade PROME into FLEET_MAP + build `profiles/PROME.md`** | Puts PROME inside the Production Review cycle (the 14d pulse IS a recurring second reader) and closes the no-agent-grades-only-itself asymmetry. This audit = most of the first read; marginal cost is small now, larger later. | ~½ session now | **Will's word (Q1, still open)** |
+| T3-c | **Nonempty-assertion rule for every generated Will-facing surface** | Generalize the dashboard's new "N panels EMPTY" chip: any tool that renders a Will-facing surface asserts parsed-sections ≥ threshold and fails loud (PAT-069's blueprint line). Silent-blank is the one failure class an inside reader can never see. | Trivial per tool | PROME (dashboard done); DAEDALUS encodes in blueprints |
+
+**Sequencing recommendation:** T3-b (one word) and T3-a (my registration) now · T1-b/T1-c + T2-c + T3-c fold into PROME's existing 7/31-8/2 batch (they're small and adjacent to accepted items) · T1-a and T2-a/T2-b as the batch's second wave or the following week — they're the two real sessions of work, and T2-b should land before T2-a (prune against the gate script, not before it).
+
 ## 7. DISPOSITION TRAIL
 
 - Findings packet → `PROME/inbox/2026-07-28_from-DAEDALUS_full-directory-audit-findings.md` (urgent block U1–U5 first), self-committed per carve-out ①.
