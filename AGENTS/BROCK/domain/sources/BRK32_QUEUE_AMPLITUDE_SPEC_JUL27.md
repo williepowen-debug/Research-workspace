@@ -69,18 +69,43 @@ Per `[[finding_normalization_choice_picks_opposite_winners]]` — absolute and p
 | Lens | Definition | **Q2-2026 baseline (FROZEN)** |
 |---|---|---|
 | **L1 — Unweighted** | arithmetic mean of demand-as-%-of-shares across the 5 funds (one fund, one vote) | **12.92%** |
-| **L2 — NAV-weighted** | Σ(demandᵢ × NAVᵢ) ÷ Σ(NAVᵢ) | **12.56%** *(was 12.58% — ADS weight corrected 7/28, see below)* |
+| **L2 — NAV-weighted** | Σ(demandᵢ × NAVᵢ) ÷ Σ(NAVᵢ) | **13.39%** ⚠️ *(re-measured 7/28 — was 12.58%; the BCRED weight was the wrong CONCEPT, see § 4b)* |
 
-*L1 inputs:* BCRED 10.0 · CCLFX 17.0 · ADS 17.0 · Monroe 9.0 · MS PIF 11.6 *(unchanged — L1 is demand-only, no weights)*
-*L2 weights (frozen, $B):* BCRED 78.0 · CCLFX 32.0 · **ADS 14.44** · MS PIF 7.0 — **Monroe EXCLUDED from L2, NAV undisclosed (named exclusion, never imputed)**
+*L1 inputs:* BCRED 10.0 · CCLFX 17.0 · ADS 17.0 · Monroe 9.0 · MS PIF 11.6 *(unchanged — L1 is demand-only, carries no weights and is unaffected by the correction)*
+*L2 weights (**NET ASSETS**, $B, all @3/31/26 for vintage consistency):* **BCRED 45.04** · **CCLFX 31.26** · **ADS 14.44** · MS PIF 7.0 `[UNVERIFIED]` — **Monroe EXCLUDED from L2, NAV undisclosed (named exclusion, never imputed)**
 
-> ⚠️ **BCRED is 59.0% of the L2 weight.** A large move at BCRED alone swings L2 while barely touching L1. **This is not a flaw — it is the specific thing the two-lens rule exists to catch**, and it is the live case: Gray reports Q3 requests "down materially" *at BCRED*. If BCRED recedes and the other four do not, **L1 and L2 will disagree and BRK-32 returns NO-CALL rather than a false clearing signal.**
+*Weight shares:* BCRED **46.1%** · CCLFX 32.0% · ADS 14.8% · MS PIF 7.2%
+
+> ⚠️ **BCRED is 46.1% of the L2 weight** *(corrected 7/28 from a stated 59.0%)*. A large move at BCRED alone still swings L2 more than L1 — **but it is no longer a majority of the weight, so the swing is materially weaker than the spec originally claimed.** The two-lens rule still does its job on the live case (Gray reports Q3 requests "down materially" *at BCRED*): if BCRED recedes and the other four do not, **L1 and L2 disagree and BRK-32 returns NO-CALL rather than a false clearing signal.** The mechanism is unchanged; its stated force was overstated by the bad weight.
 
 > ✅ **RESOLVED 2026-07-28 BY PRIMARY — and it was never a contradiction, it was a labelling error.** The ADS "two sizes on one date" defect flagged at registration is closed off SEC XBRL (CIK 1837532): **net assets $14.77B @12/31/25 · $14.44B @3/31/26** vs **total assets $25.90B @12/31/25 · $26.93B @3/31/26**. So the "$25B fund" was **total assets, leverage-inclusive**, mislabelled as fund size, and the "$15.1B NAV" was ~2-4% high. Independent cross-check from the 3/23/26 letter itself: 5% of shares ≈ $730M ⇒ implied NAV ≈ $14.6B. **L2 now uses $14.44B** (the vintage nearest the Q2 baseline). ⚠️ **Weights remain frozen as-of their stated dates — usable for *weighting*, never citable as current NAV.**
 >
-> 🔑 **Effect on the instrument, measured rather than assumed: L2 baseline 12.58% → 12.56% (−0.02pp). Both thresholds (persist ≥11.0%, clearing ≤7.8%) are untouched and no call flips.** The defect was real and worth fixing; it was **not load-bearing**. Note that only *perturbing* the input established that — re-deriving 12.58% from the same inputs would have proved nothing (`[[finding_perturb_inputs_to_test_base_rate]]`).
+> 🔑 **Effect of the ADS fix alone: L2 12.58% → 12.56% (−0.02pp).** Not load-bearing.
 >
-> ⚠️ **Scope of this fix, stated so it is not over-read:** only the figure I had flagged was verified. **BCRED $78.0B and CCLFX $32.0B remain UNVERIFIED press-derived weights, and BCRED is 59% of L2** — so the far larger weight sensitivity is the one still unaudited. Fixing the small named defect does not make the weight vector clean.
+> ⚠️ **BUT THE SCOPE CAVEAT I WROTE HERE WAS THE REAL FINDING — see § 4b immediately below. I audited the remaining weights the same session and BCRED was wrong by the same MECHANISM, on the heaviest weight.**
+
+---
+
+### § 4b — ⛔ FULL WEIGHT AUDIT, 2026-07-28: **the BCRED weight was the wrong CONCEPT, and it moved the baseline**
+
+Prompted by NEXUS after the ADS fix: *"the ADS 'weight' turned out to be leverage-inclusive mislabelling — BCRED and CCLFX are unaudited and BCRED alone is 59% of L2."* Correct instinct. Result, all from primary:
+
+| Fund | Weight I had | **NET ASSETS (correct concept)** | Total assets (the trap) | Verdict |
+|---|---|---|---|---|
+| **BCRED** | **$78.0B** | **$45.04B** @3/31/26 *(47.61B @12/31/25)* | **$84.83B** @3/31/26 | ⛔ **WRONG CONCEPT — off by ~73%.** $78B is an AUM/leverage-inclusive-scale figure, not NAV. Same error class as ADS, on the largest weight |
+| **CCLFX** | $32.0B | **$31.26B** @3/31/26 (NAV/sh $10.52) | $41.26B | ✅ **Right concept**, 2.4% high — no material issue |
+| **ADS** | $15.1B → 14.44B | **$14.44B** @3/31/26 | $26.93B | ✅ fixed earlier this session |
+| **MS North Haven PIF** | $7.0B | — | — | ⚠️ **`[UNVERIFIED]`** — private fund, no public NAV filing found. Only **7.2%** of weight; named, not imputed |
+
+*Sources: BCRED SEC XBRL CIK 1803498 (`StockholdersEquity`, `Assets`) · CCLFX N-CSR FYE 3/31/26, acc 0001213900-26-066324 · ADS XBRL CIK 1837532.*
+
+**Effect: L2 baseline 12.58% → 13.39% (+0.81pp), and BCRED's weight share 59.0% → 46.1%.**
+
+> 🔑 **AND THE THRESHOLDS HAD TO MOVE WITH IT — here is why that is a correction and not goalpost-moving.** The branches were written as absolute numbers (**≥11.0% / ≤7.8%**) whose stated derivation was **"≈86% / ≈61% of baseline."** The baseline was mis-measured, so the numbers derived from it inherited the error. **Freezing 11.0/7.8 against a 13.39% baseline would have made PERSISTS *easier* to fire (needs an 17.8% decline to escape, vs 12.6% as specced) and CLEARING *harder* — i.e. it would have tilted the instrument toward my own bear thesis.** That is the third instance of the same "too-easy-to-fire, same direction" tilt I logged on 7/27 (LESSONS #23), so accepting it silently was not available.
+>
+> **Two guards that make this checkable rather than convenient: (1) NO Q3 DATA EXISTS YET** — Q3 tenders have not been disclosed by any of the five funds, so this correction cannot be outcome-motivated, and that is verifiable from the carrying-filing calendar in § 6. **(2) The RULE is unchanged (86% / 61%); only the mis-measured input moved.**
+>
+> **Structural fix so this class cannot recur: the branches below are now expressed as PERCENTAGES OF EACH LENS'S OWN BASELINE, not as absolute numbers** (`[[finding_threshold_level_is_a_measurement_not_a_constant]]`). A threshold written as a number, anchored to a measured quantity, decays silently the moment the measurement is corrected. A threshold written as a rule does not.
 
 ### Leg B — ACCOMMODATION (manager policy, carried separately, never blended into Leg A)
 Offer % vs the 5% design cap at each fund: flexed **up** (BCRED Q1 7%→7.9%), held at 5%, top-up **withdrawn** (CCLFX Q2), or **suspended**.
@@ -97,8 +122,8 @@ Measured on **Q3-2026 tenders**:
 
 | Branch | Condition | Read |
 |---|---|---|
-| 🔴 **PERSISTS** | demand **≥11.0%** on **BOTH** L1 and L2 (≈86% of baseline) | queue not draining — compounding mechanic intact |
-| 🟢 **CLEARING** | demand **≤7.8%** on **BOTH** lenses (≈61% of baseline) **AND** ≥3 of 5 funds satisfy ≥80% | wave receding |
+| 🔴 **PERSISTS** | demand **≥86% of that lens's own frozen baseline** on **BOTH** lenses → **L1 ≥11.1% · L2 ≥11.5%** | queue not draining — compounding mechanic intact |
+| 🟢 **CLEARING** | demand **≤61% of that lens's own frozen baseline** on **BOTH** lenses → **L1 ≤7.9% · L2 ≤8.2%** — **AND** ≥3 of 5 funds satisfy ≥80% | wave receding |
 | ⚪ **NO-CALL** | anything between, **or the two lenses disagree** | explicitly unresolved → re-measure at Q4. **Recorded as a no-call, not massaged into a verdict.** |
 
 **Calibration honesty:** even the 🟢 CLEARING branch does **not** mean "no gates." At ≤7.8% aggregate, most funds are still above the 5% cap and still prorating. It means the *amplitude* is receding. **That distinction is exactly what BRK-30's letter cannot make** — which is the entire reason this instrument exists.
@@ -135,7 +160,7 @@ Both run. They are not redundant — **they disagree on purpose, and the disagre
 **The 20-point spread between them IS the spec-vs-spirit gap, quantified.** Same world, same evidence: the letter is very likely to fire (65%) while the thesis it was priced against is closer to a coin-flip after the BX call (45%). If BRK-30 resolves CONFIRMED and BRK-32 returns CLEARING or NO-CALL, **that combination is not a contradiction — it is the diagnosis**, and it should be read as "the trigger fired but the thesis did not advance."
 
 **Full three-way distribution at registration:** PERSISTS **45%** · NO-CALL **35%** · CLEARING **20%**.
-The NO-CALL mass is deliberately large: BCRED at 59% of L2 weight, moving in the direction Gray describes while the other four are unreported, is *the* most likely single configuration — and it produces lens disagreement by construction.
+The NO-CALL mass is deliberately large: BCRED at **46.1%** of L2 weight *(corrected 7/28 from 59%)*, moving in the direction Gray describes while the other four are unreported, is *the* most likely single configuration — and it produces lens disagreement by construction.
 
 ---
 
