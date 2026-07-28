@@ -15,6 +15,19 @@ Version history for `thesis/THESIS.md`. Newest first. Bump rules: **major (X.0)*
 > **(b) The replacement is itself defective, and I found out from my own backtest.** `proposals/MATRIX_V2_DRAFT_prome-spawned.md` — APPROVED DESIGN, May-2026, never implemented — rests on a **323-coupon-auction backtest (2023-01 → 2026-05, TLT 5d outcomes)** and says: **`dealer >12%` is wrong-signed as a bearish trigger** (dealer>20% median TLT 5d **+1.45%**, contrarian-bullish), and **indirect is the single best signal, sufficient ALONE, at the 15th per-tenor percentile.** The v1.1.3 gates use **dealer >13.2% as a bearish leg**, make **indirect conjunctive**, and set indirect at the trailing-12 **minimum** — **all three push the gate toward NOT firing.**
 >
 > **So v1.1.3 traded an *unfireable* apparatus for a *hard-to-fire* one.** The direction of the residual bias is toward confirming the policy-path call BOND already holds, which is the worst possible direction for it to run in. **The 7/28 7Y pre-registration is NOT being edited** (registered as `BND-13`, routed to HENRY/NEXUS); the challenge is logged pre-print in `analysis/2026-07-28_grade_…` §4b with the resolution rule fixed in advance. **v1.1.4 will adopt the 15th-percentile indirect rule with `I'` sufficient alone and drop dealer as a bearish criterion — after the 7Y grades, so the change cannot be accused of being fitted to the print.**
+>
+> ### 📉 (c) SAME-DAY ADDENDUM (~06:00 ET) — a core structural leg was retired, and it cuts against this thesis
+>
+> **The FR2004 data gap was closed and it was self-inflicted** — a stale API series break returning HTTP 200 with data ending 2024-07-02, not an access limit (KB-BND-096). Four of five owed prints recovered, and they retire a premise this document has carried since June.
+>
+> **Old view:** "the dealer backstop is **record-thin** — FR2004 long-end inventory at fresh all-time highs, →4 trigger armed," listed as leg 1 of the three things keeping this a WATCH.
+> **New view:** the record **unwound** — 11-21Y **−17.4%** off its 6/24 peak (77.4 → 63.9 as-of 7/15), long-end total **−9.0%** across four consecutive accelerating weekly declines — and it unwound **benignly**, into exceptional indirect demand with SOFR-IORB negative. **Benign distribution, not forced de-risking.** Vector 3 → 2 on the pre-registered condition; "→4 ARMED" disarmed; composite 14 → **13/35**.
+>
+> **Why this is a thesis-level entry and not just a score change:** "record dealer stock + no Fed coupon backstop" was the pairing that made the long end look structurally fragile. **The Fed half is still true; the dealer half is not.** The demand-hole scenario is **less pre-positioned than every BOND surface asserted for six weeks**, and the correction arrived only because a self-inflicted data gap was finally audited rather than escalated again.
+>
+> Also corrected: the 6/17 $74.6B this thesis called "the fresh all-time record" was **one week early** — 6/24 at $77.4B was the true peak, never observed because the series was unreadable at the time.
+>
+> **No version bump for this** — v1.1.4 is reserved for the post-7Y falsifier adoption and will carry both changes together, so the exit apparatus and the structural read move in one reviewable step rather than two partial ones. *(Deliberate: v1.1.3 was itself a bump that described intent ahead of the artifact — see (a). Not repeating that.)*
 
 **Refinement (no conviction change — TLT puts HOLD/no-add unchanged; composite 12/35 → 14/35):**
 

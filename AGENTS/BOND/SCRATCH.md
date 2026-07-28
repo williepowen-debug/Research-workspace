@@ -64,6 +64,32 @@
 5. **Mon 8/03 — P3 Batch-3 START GATE** (docketed). Two questions: reserve composition/mobility (reconcile to ONE figure with SAM) + where the **edge** of reserve-currency privilege is.
 6. **DEFERRED / OWED:** **FR2004 now 5 prints owed** (6/24, 7/1, 7/8, 7/15, 7/22) — carried 4 weeks, NY Fed API caps pre-2026 in-env; **stop silently rolling this, flag Will/PROME**. · ECB GovC calendar verify from primary. · HENRY UST structural-demand corpus (Mar-vintage).
 
+## 🔴 ★★ THE SESSION'S BIGGEST FINDING — FR2004 GAP CLOSED, AND IT RETIRED A LEG OF OUR OWN BEAR CASE
+
+**Read this before touching the dealer-absorption vector or citing "record dealer stock" anywhere.**
+
+The FR2004 "env-blocked data gap" carried for **6 weeks** (5 prints owed, 3 re-attempts, escalated to Will) **was a self-inflicted query bug.** The NY Fed primary-dealer API partitions by **series break**; the query was pinned to `SBN2022`, which **returns HTTP 200 with real data ending 2024-07-02** — reading exactly as *"the API caps pre-2026."* Live break is `SBN2024`. Second trap: the keyid is `PDPOSGSC-G7L11`, **not** zero-padded `G07L11` (which returns 200 with an *empty* series).
+
+**→ Use `monitors/fr2004_fetch.py` (resolves the break at runtime, fails loud). Never hand-query this API.**
+
+**What the recovered data says — and it cuts AGAINST the standing thesis:**
+
+| as-of | 11-21Y | long-end | w/w |
+|---|---:|---:|---:|
+| 6/17 | 74.6 | 174.5 | +13.3 |
+| 6/24 | **77.4** ← *true peak* | **175.0** | +0.5 |
+| 7/01 | 73.3 | 170.9 | −4.2 |
+| 7/08 | 71.7 | 166.9 | −4.0 |
+| 7/15 | **63.9** | **159.2** | −7.6 |
+
+**11-21Y −17.4% off peak; long-end −9.0% over four consecutive accelerating weeks.** Fires the pre-registered downgrade → **VX-04 3→2**, **"→4 ARMED" DISARMED**, **composite 14 → 13/35**. Read = **BENIGN DISTRIBUTION** (fell into exceptional indirect demand — 30Y 77.7% / 20Y-R 69.1% / TIPS 65.2% — with SOFR-IORB negative), *not* forced de-risking.
+
+**"Record dealer stock" is REMOVED from the demand-hole configuration.** The bear case is **less pre-positioned than every BOND surface claimed for six weeks.** Also: the 6/17 74.6 we called "the record" was **one week early** — 6/24 was the true peak, never observed because the series was unreadable.
+
+**Two things still owed on this:** (1) **LIQUID owes a refuse-or-confirm** — if there is repo/funding evidence of stress over 7/01→7/15, the read flips to forced de-risking and becomes *more* bearish. (2) The **7/22 as-of is not yet published**, so the latest observation **predates the 7/27 cluster and today's 7Y** — it describes capacity going *into* this week, not now.
+
+---
+
 ## ★ WILL-TASKED FILE-BY-FILE REVIEW (7/28 ~04:00–05:30, after the mail drain)
 
 Will asked whether the stale files were *actually* updated. They were not — I had edited **sections** and reported that as files being clean. A full end-to-end read of 14 files/groups found **~40 defects**, and the review is **not finished** (queue at the bottom).
@@ -85,7 +111,7 @@ Will asked whether the stale files were *actually* updated. They were not — I 
 - 🟠 HY 279 → 300 watch (21bp) · 🟠 CCC 996 → 1000 (4bp) · 🟠 30Y 29-day run >5%
 - 🟡 **Basis-trade hypothesis (KB-092)** — testable at the 7Y: if it's the driver, cover stays thin **with composition intact** and does **not** resolve post-FOMC. LIQUID owns the call.
 - 🟡 Auction *tail* is **unscoreable from primaries by construction** (no when-issued published) — every future auction leg must be composition-keyed.
-- 🔴 **FR2004 escalated from "pending pull" to a STANDING GAP needing a Will/PROME decision** — 5 prints owed, stock vector, 6-week-old observation carrying both a 🟠 score and an ARMED trigger. Options: alternate NY Fed endpoint · FRED mirror · formally mark the vector `[STALE — frozen at 6/17]` everywhere it is cited.
+- ✅ **FR2004 — RESOLVED this session** (was escalated as a standing gap hours earlier; the escalation was unnecessary). See the block at the top. Now a weekly `recurring-Wed` item via `monitors/fr2004_fetch.py`. **Next as-of to watch: 7/22, not yet published.**
 - 🟡 **REVIEW QUEUE — files still NOT read end-to-end:** `RECEIPT.md` · `BND11_REFUNDING_PREREG` · `workbook/FLOW.tsv` (FL-09/10 are 6/20–7/01 vintage WATCH rows) · `workbook/SCHEMA.tsv` · `domain/sources/` (13 files) · `analysis/CROSS_TENOR_BASE_RATES` · `data/` (3 files + the refresh script) · `research/` (2 files) · older `outbox/` + `inbox/processed/`. **None are load-bearing for today's 7Y or tomorrow's FOMC** — but "spot-checked" is exactly what this review proved is not the same as read.
 - 🟢 EU peripheral benign (BTP-Bund 83 [7/17], trigger 200) — but the ECB row is a logged owned miss.
 

@@ -1,73 +1,63 @@
 # BOND — Run Receipt
 
-**Session:** 2026-07-28 (Tue, ~03:00–04:30 ET) — 5-day-dark boot into a live cluster (7Y auction 1PM today, FOMC decision 2PM tomorrow) → live-event override → Will-tasked **full mail drain, 12 items**. · **Overwritten at closeout.**
+**Session:** 2026-07-28 (Tue, ~02:50 → 06:00 ET) — 5-day-dark boot → live-event override → Will-tasked 12-item mail drain → Will-tasked **file-by-file document review** → FR2004 root-cause fix. · **Overwritten at closeout.**
 
-**Mail state at close:** general inbox **EMPTY** · WALTER lane **EMPTY** · outbox 2 new.
+**Mail state at close:** general inbox **EMPTY** · WALTER lane **EMPTY** · outbox **4 new** (HENRY, NEXUS, HENRY+NEXUS+PROME, LIQUID+PROME).
+**Repo:** BOND working tree clean, 0/0 with origin, ~20 commits, all pushed.
+
+---
 
 ## Session summary
 
-Booted 5 days dark (last session 7/23) and found **two state changes my own surfaces were blind to** and **one owed deliverable**. Wrote the time-critical artifact first — the 7/27 auction grade off TreasuryDirect primaries plus a **FROZEN 7Y pre-registration**, on disk ~10h before the print — then drained all 12 mail items. Net: **composite 12 → 14/35**, two vector upgrades, a ~25pp correction to the FOMC framing, a 26-day-stale credit row caught, and a specification error conceded as its author.
+Booted 5 days dark into a live cluster (7Y today 1PM, FOMC tomorrow 2PM). Wrote the time-critical artifact first — the 7/27 auction grade plus a **frozen** 7Y pre-registration, on disk ~10h before the print — then drained all 12 mail items. Will then asked whether the stale files had *actually* been updated; they had not, and a file-by-file read of 17 files/groups found **~40 defects**. The session's largest finding came last: the FR2004 "data gap" was a **self-inflicted query bug**, and closing it **retired a leg of BOND's own bear thesis**.
 
----
+## Deliverables
 
-## General inbox (7 → all processed)
-
-| File | Action | Why | Workbook | STATUS change | Outbox |
-|---|---|---|---|---|---|
-| `2026-07-23_from-HENRY_HEN-42-correction-adopted-joint-falsifier-registered` | **LOG_ONLY / SUPERSEDED** | Close-the-loop; registered my falsifier as JOINT on HEN-42. **Superseded within the week by its own subject** — that falsifier is now adjudicated MIS-SPECIFIED. | KB-089 | — | folded into HENRY reply |
-| `2026-07-24_from-DEWEY_p3-china-external-financing-axis` | **LOG_ONLY / DEFER** | Correct and stands; scope set by PROME's 7/27 packet. Date-gated. | — | — | — |
-| `2026-07-25_from-PROME_framespec-latent-bug-check` | **INTEGRATE (acted on same session)** | "Pre-register against the source that CARRIES the metric, not the event date." **Applied immediately** — the 7Y pre-reg is tail-free *because* TD publishes no when-issued. Also surfaced a live instance of the bug in my own docket. | VX-BND-09 | ECB row re-marked as an owned miss | — |
-| `2026-07-27_from-PROME_batch3-dispatch-P3-reserve-currency` | **DEFER (hard gate)** | Start gate = first boot **on or after 2026-08-03**. Not started; docketed as a literal date. | — | CATALYSTS row | — |
-| `2026-07-27_from-PROME_fedwatch-repulled-post-collapse` | **INTEGRATE + UPGRADE** | Conclusion right, reasoning fragile (rests on contested scrapes). Re-derived the same conclusion on FRED primaries. | **KB-091** | FOMC row corrected | → HENRY |
-| `2026-07-28_from-HENRY_hen42-falsifier-misspecified-5y-tail` | **INTEGRATE + ROUTE_OUT** | 3 asks answered; conceded the spec defect as author; found an over-retraction on his side. | **KB-089/091/092** | matrix + catalysts | → HENRY |
-| `2026-07-28_from-NEXUS_727-auction-split-raw-your-grade-owed` | **INTEGRATE + ROUTE_OUT** | Owed grade delivered off primaries; 3 relayed figures corrected. | **KB-089** | auction rows, VX-01 2→3 | → NEXUS |
-
-## WALTER lane (6 → all processed)
-
-| File | Action | Why |
+| # | Artifact | Note |
 |---|---|---|
-| `SIG-W-20260725-013` basis trade $1.3T→$1.0T | **INTEGRATE — highest-value item in the lane** | Yields a **third hypothesis** for thin-cover-with-intact-composition, orthogonal to both sides of HEN-42. **KB-092** (logged ESTIMATE; LIQUID owns the call). |
-| `SIG-W-20260725-016` CPI component vol ~1.45 | **LOG_ONLY** | Dispersion, not level. CARL owns. **Not carried as load-bearing** — per WALTER's own caveat it should be rebuilt from BLS, not cited. **KB-093** |
-| `SIG-W-20260727-008` Fed T-bill RMP inoculation | **INTEGRATE-light** | The refutation *is* my surface (30Y >5% throughout the buying). Confirms standing canon: post-QT the Fed buys **bills** ⇒ no coupon/long-end bid. Malpass "IORB 5.4%" flagged stale (IORB 3.65). **KB-093** |
-| `SIG-W-20260727-013` July hike is the live risk | **INTEGRATE — load-bearing correction** | Forced the ~25pp FOMC correction. **KB-091** |
-| `SIG-W-20260727-016` HY OAS 279 + tranche pull | **INTEGRATE — load-bearing correction** | Forced the credit-staleness catch. **KB-090** |
-| `SIG-W-20260727-018` GS/JPM AI-credit baskets 319bp | **INTEGRATE** | Credit market structure (my lane): synthetic/TRS execution ⇒ positioning builds faster than the cash float allows, either direction. **KB-093** |
+| 1 | `analysis/2026-07-28_grade_7-27-2Y-5Y_prereg_7-28-7Y.md` | 7/27 grade off TD primaries (n=250) + **FROZEN, tail-free, composition-keyed 7Y pre-reg**, on disk ~10h pre-print. §4b later added the pre-print challenge to itself. |
+| 2 | `monitors/fr2004_fetch.py` | **NEW.** Resolves the NY Fed series break at runtime; fails loud on empty series and >28d staleness. Closes a 6-week gap. |
+| 3 | `thesis/PREDICTIONS.tsv` **BND-13** | The 7Y registered at 85% — the session's most falsifiable claim, which had been living only in an analysis file. |
+| 4 | 4 outbox packets | HENRY (falsifier adjudication) · NEXUS (owed grade) · HENRY+NEXUS+PROME (pre-reg challenged, then **amended after reading the backtest at source**) · LIQUID+PROME (FR2004). All verified **at the recipients' inboxes**, not at my record of sending. |
 
----
+## Workbook
 
-## Files written
+- **KB.tsv:** +8 rows (**KB-BND-089…096**). CRLF preserved, 13-col validated after every append.
+- **VX.tsv:** 13 row-updates. **Score moves: VX-01 2→3** (5Y BTC trigger) · **VX-02 1→2** (credit widening) · **VX-04 3→2** (FR2004 gap closed, record unwound).
+- **FLOW.tsv:** +2 (**FL-BND-12** oil→breakevens CONFIRMED · **FL-BND-13** basis-trade→thin-cover WATCH).
+- **PREDICTIONS.tsv:** BND-13 registered; BND-01 notes refreshed (was 81 days stale) with the resolution instruction that matters — *grade the mechanism separately from the level*.
+- **Composite: 12 → 14 → 13/35**, re-verified against VX.tsv.
 
-- **`analysis/2026-07-28_grade_7-27-2Y-5Y_prereg_7-28-7Y.md`** — NEW. 7/27 grade off TD primaries (n=250) + claim audit + falsifier adjudication + **FROZEN 7Y pre-reg**. Committed `7a18ec13` at ~03:00 ET, **~10h before the 1PM print**.
-- **`workbook/KB.tsv`** — +5 rows (**KB-BND-089…093**). CRLF preserved; all rows 13-column-validated post-write.
-- **`workbook/VX.tsv`** — 10 rows updated. **Score changes: VX-BND-01 2→3** (auction health, on the pre-registered `BTC<2.3` leg) · **VX-BND-02 1→2** (HY spread, on velocity).
-- **`STATUS.md`** — state line, 11 dashboard rows, convergence matrix (**composite 12 → 14/35**), catalyst table, new BOTTOM LINE.
-- **`docket/CATALYSTS.tsv`** — 7/27 resolved with the grade; 7/28 7Y added with frozen branches; **FOMC corrected and re-dated to 7/29 alone** (the old `7/28..29` span invited grading on day 1); 8/03 P3 start-gate row; credit recurring row 🟠→🔴; ECB row marked an owned miss.
-- **`outbox/2026-07-28_to-HENRY_falsifier-was-mine-and-misspecified-plus-you-over-retracted.md`** — NEW.
-- **`outbox/2026-07-28_to-NEXUS_727-grade-delivered-holding-with-a-marker.md`** — NEW.
+## The four findings that changed something
 
-## Corrections issued this session
+1. **FR2004 was never blocked.** A stale API series break (`SBN2022`) returned **HTTP 200 with data ending 2024-07-02** — reading exactly as "the API caps pre-2026." Three re-attempts and an escalation to Will, none of which audited the path. Recovered data shows the dealer record **unwound −17.4%**, firing my own pre-registered downgrade and **removing "record dealer stock" from the demand-hole configuration.** Cuts against the standing thesis.
+2. **A 323-auction backtest in `proposals/` — a directory never opened — challenges the falsifier frozen the same morning.** Then, reading the backtest *at source* rather than MATRIX_V2's summary, **I had to weaken my own challenge** (regime non-stationarity, N=11, a denominator mismatch). Both versions routed; spec not edited.
+3. **THESIS was bumped to v1.1.3 claiming a re-specification that had not happened** — three tail-keyed gates still live in the body (thesis kill, TLT re-arm, KEY THRESHOLDS).
+4. **TRADE's two tables disagreed on whether an add-gate had fired** — the standalone version fired 7/16, the day Will decided NO-ADD.
 
-| To | Claim | Correction |
-|---|---|---|
-| **Self** | HY OAS 275 `[CONF FRED, 7/2]` | **279 [7/24]** — carried 26 days. *Plausible-stale*: survived because the value sat between the 263 trough and the truth. |
-| **Self** | FOMC "HOLD ~90% priced" (7/16 vintage) | **~65% hold / ~34% hike** — ~25pp error; at that level the *decision* is the event, not the guidance tone. |
-| **Self** | Joint HEN-42 falsifier | **Mis-specified by me as its author** — DENY branch anchored on a 2Y tail a term-premium story structurally cannot produce. Non-firing ≠ pass. |
-| **Self** | "FRED DGS 7/27 missing = tool artifact" | **Wrong** — verified against the CSV endpoint; FRED genuinely lacks 7/27 DGS/DFII while publishing the derived T10YIE. `fetch.py` was not stale. |
-| HENRY | 5Y BTC "lowest in nearly five years" | **~3y10m** (Sept-2022); margin 0.01 |
-| HENRY | FedWatch leg retracted entirely | **Over-retracted** — the instrument died, the claim didn't. Re-derived on FRED primaries. |
-| NEXUS | "worst BTC since ~Sept 2022 (~5-year low)" | Date right, **label wrong** (~3y10m) |
-| NEXUS | "14th consecutive tail" | **Unverifiable by construction** — TD publishes no when-issued. Not carried. |
-| NEXUS | MOVE re-mark "names you" | **Not mine** — BOND's row already read 80.08 **[7/23]**, correctly dated. |
+## Corrections issued (self, unless noted)
+
+| Claim | Correction |
+|---|---|
+| HY OAS 275 `[7/2]` | **279 [7/24]** — 26 days stale; survived because it was *plausible* |
+| FOMC "HOLD ~90% priced" | **~65/34** — ~25pp, and it survived in a **4th location** after I'd fixed three |
+| Joint HEN-42 falsifier | **Mis-specified by me as author** — anchored on a 2Y tail a term-premium story cannot produce |
+| Brent "$100.43 🔴 THROUGH $100" | **~$90.57** — STATUS contradicted its own analysis for 5 days |
+| "Thu 7/31" | **Friday** — verified with `date`, not assumed |
+| FR2004 "env-blocked" | **Self-inflicted query bug** |
+| My own 04:45 backtest challenge | **Overstated** — corrected in place before consumption |
+| HENRY: 5Y BTC "nearly five years" | **~3y10m** |
+| HENRY: FedWatch leg retracted | **Over-retracted** — instrument died, claim didn't |
+| NEXUS: "14th consecutive tail" | **Unverifiable by construction** — not carried |
 
 ## Git
 
-Commit `7a18ec13` (analysis + frozen pre-reg, pre-print). Closeout commit follows: KB/VX/STATUS/CATALYSTS/RECEIPT/SCRATCH + 2 outbox + 12 `git mv`s — all BOND-pathspec from root cwd. Auto-push via `scripts/safe-push.sh`.
+~20 commits, all BOND-pathspec from root cwd, plus 3 carve-out ① packet deliveries and 1 carve-out ③ auto-memory. Auto-push via `safe-push.sh` throughout; final state 0/0 with origin.
 
-## Owed / not done
+## Owed / next session
 
-- **7Y grade** — pre-reg frozen; **print lands 1PM ET today**, grade owed after.
-- **BND-01** resolves 7/31 (HY 350 vs 279) → will resolve **FAILED**.
-- **FR2004** — now **5 prints owed** (6/24, 7/1, 7/8, 7/15, 7/22); NY Fed API caps pre-2026 in-env. Carried 4 weeks — needs a workaround or a Will/PROME flag rather than another silent roll.
-- **P3 Batch-3** — gated to 2026-08-03, docketed.
-- **ECB GovC calendar** — verify from the ECB primary before re-docketing.
-- **HENRY UST structural-demand corpus** (Mar-vintage) — still deferred.
+- **🔴 7Y grades at 1PM ET (~8h).** Procedure in SCRATCH item 1 — grade the frozen branches, **then** report the indirect leg standalone, and **report any disagreement rather than averaging it.**
+- **🔴 FOMC Wed 7/29 2PM** — ~34% hike, no forward guidance, two-sided.
+- **v1.1.4** after the 7Y: adopt the 15th-percentile indirect rule + drop dealer-as-bearish + fold in the dealer downgrade. **Reconcile the denominator first** (of-offering vs of-competitive-accepted).
+- **LIQUID owes a refusal-or-confirm** on the benign-distribution read of the dealer drawdown.
+- **Review queue** (files still not read end-to-end) listed in SCRATCH.
