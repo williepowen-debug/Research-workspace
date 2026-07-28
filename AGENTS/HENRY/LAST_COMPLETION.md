@@ -1,7 +1,7 @@
 # HENRY — Last Completion (Will-facing closeout)
 
-**Session:** 2026-07-28 (Tue) ~02:30–04:30 ET — **BOOT** (Will-spawn) **+ PROME-directed inbox override** (second half). Markets closed; tape is Monday's settle.
-**Status:** ✅ **Complete** — boot protocol end-to-end, 27-signal WALTER lane drained, **all 7 inbox packets processed**, 3 packets routed, one script defect found and fixed.
+**Session:** 2026-07-28 (Tue) ~02:30–06:00 ET — **BOOT** (Will-spawn) → **PROME inbox override** → **VIOLET retraction** → **Will-approved tooling build**. Markets closed; tape is Monday's settle.
+**Status:** ✅ **Complete** — boot end-to-end, 27 WALTER signals + all 8 inbox packets processed, **5 packets routed**, **1 false claim of mine retracted**, **2 script defects fixed + 2 new tools built and regression-tested**.
 
 ## RESULT
 **Two things, and the second one PROME was right to force.** (1) The war premium came out of the tape as fast as it went in — I retracted a claim I published five days ago, and found my headline credit metric is structurally blind to the move credit actually made this week. (2) **On the inbox override: VIOLET's thesis-kill line was anchored to my stalest and highest gamma flip — her real headroom is ~40–52pts, not the ~83pts her board shows, two days before a mandatory review.**
@@ -97,6 +97,30 @@ PROME's orphan-detector packet closed: **both my recommendations were adopted fl
 
 ---
 
+## 9. Will-approved build: both process fixes shipped and tested
+
+**① `scripts/consumer_check.py`** (fleet-generic) — *"who still cites a number I superseded?"* Classifies: new-value-adjacent → handled (a re-base table) · marker → handled · inbox/outbox → mail · else → 🔴 stale on a live surface. **Ambiguous resolves to STALE**, because a false 🟢 costs exactly the failure it prevents.
+
+**② `workbook/PUBLISHED.tsv`** — `gamma_flip.py` records its own output every run; boot **(g)** runs the check with **zero arguments**. Tier ① alone would have rotted inside a month because it depended on me *remembering* to run it.
+
+**③ boot (f) INBOX TRIAGE** — filenames only. `--selftest` replays this morning's exact 7-packet inbox and asserts LABOR's `eci-7-31` surfaces **while the deferrable ones stay quiet**. `CLAUDE.md` MAIL rule updated: processing still needs its own spawn; triage is at boot.
+
+**Testing the tool against its own case found four bugs — one in the expensive direction:**
+- Bare `7496` matched **174960**, an OZK share count *(VIOLET's catch)*.
+- First run: **19 hits**, mostly re-base tables holding the old value *because they map it to the new one*.
+- **🔴 The one that mattered — a FALSE NEGATIVE:** `WALTER/REGISTRY.tsv:16`, the single genuine stale consumer, scored 🟢 **handled** because *neighbouring rows belonging to other agents* contained "refresh"/"corrected". In a TSV each line is an independent record — row-oriented files now get zero context.
+- Self-inflicted: a base64 filter gated on `len>400` dropped that same 591-char row. **Measure the longest unbroken token, not the line.**
+
+**The triage regression then caught the identical class of bug:** `mississippi` contains `ppi`, flagging an AEOLUS river-levels packet as a macro release. **Two tools, same defect, one session — substring matching is the recurring failure on this desk.**
+
+## 10. 🔴 BOND warned pre-print that his own gate is biased toward confirming me
+
+Before today's 1PM 7Y, BOND flagged that his §4 spec's bearish `dealer >13.2%` leg is **wrong-signed** on a 323-auction backtest, and that indirect — the strongest signal — was made conjunctive with it so it **cannot fire alone**. He refused to edit a registered pre-registration hours before the print. Correct call, and he walked his own challenge back within 30 minutes after reading the primary.
+
+**What he was too self-critical to see, and it's my mark not his: that is the SECOND consecutive auction spec on this rail mis-specified in the direction that protects HEN-42.** The 7/27 falsifier required a 2Y tail a term-premium story never produces; today's gate is hard to fire for an unrelated reason. **Two independent specs, same directional bias, both favouring the conclusion I hold.** ⇒ **If today prints "no fire," I discount it rather than bank it**, and weight the indirect-standalone read. Replied; folded into STATUS.
+
+---
+
 ## GAPS / Still pending
 - **No current July-hike probability** — deliberate (§1). **I owe two page-stamped pulls Wednesday (~9-10 AM and ~1:30 PM pre-decision)**; that pinned pair becomes NEXUS T-16's baseline.
 - **VIOLET's (iii) re-base is UNCONFIRMED** — I supplied the basis; she grades it. Worth checking she accepted before her 7/30 review.
@@ -130,7 +154,8 @@ PROME's orphan-detector packet closed: **both my recommendations were adopted fl
 **Net: two of my three axes are resting on less than they were on 7/23.** HEN-36 is unchanged on primaries and resolves in 3 days — and the tape is already moving its way, which is exactly when a desk banks a confirmation it has not earned.
 
 ## WILL_NEEDS
-1. **Nothing blocking.**
+1. **Nothing blocking.** Everything below is FYI or a standing item.
+1b. **🔴 The one live thing today: BOND's 7Y gate prints at 1PM and it is biased toward confirming my own call.** I've pre-committed in writing to discounting a "no fire." If you see anyone treat today's auction as clean confirmation of the policy-path read, that's the error to catch.
 2. **Before Wednesday:** if you see a *"34% chance of a July hike"* figure anywhere, **check its date.** The widely-circulated one is **7/22 vintage and pre-dates the oil collapse**; I retracted my own use of it. The only valid post-collapse datum right now is VIOLET's page-stamped 7/27 **65.7 hold / 34.3 hike**. I own fresh stamped pulls Wednesday morning and pre-decision.
 3. **The one you may want to look at:** VIOLET has live capital on a position whose thesis-kill is measured against **my five-day-old gamma flip**, and on the independent numbers she has roughly **half the headroom her dashboard shows** — with a mandatory review Thursday. I've routed the re-based band; **the grade is hers**, so if you want it settled before Wednesday's close it's worth a nudge rather than waiting on the packet.
 4. **My inbox default was wrong for this week and PROME was right to override it** — worth making that standing rather than per-session: *during a live-position or dated-catalyst week, process the inbox at boot.* I'd rather change the rule than rely on being overruled each time. Your call whether that goes in my CLAUDE.md.
