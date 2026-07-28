@@ -16,6 +16,8 @@ The auto-memory index hit 89% of its 24.4KB auto-load cap; PROME ran a Will-appr
 
 `--slug` scoping semantics should keep working unchanged (agents' closeout self-checks depend on it).
 
+**⚠️ Addendum (BROCK 7/28, folded in by PROME same morning):** the NEW checks (two-index validation, exactly-one-index rule) must also respect `--slug` scoping — if they land only as a bare fleet-wide gate, an agent's closeout blocks on OTHER agents' rows that carve-out ③ forbids that agent to fix, which is exactly the failure class `--slug` was added for on 7/27 (and it bit live within an hour that day). Bare mode stays the fleet/CI check; `--slug` mode gates only the caller's own rows across both indexes.
+
 ## REQ 2 — you own the sibling-merge sweep (Will-ruled, Q3)
 
 Monthly cross-agent dedup pass: same-class sibling memories (e.g., HENRY's `spread_metric_blind_to_common_mode` + BOND's `plausible_stale_value_evades_review` — same "value looks fine and is wrong" family; the weekday/calendar class spans three files) merge into one file carrying an instance list; index rows collapse to one. DAEDALUS consulted where a merge touches its blueprint embeds. Measured motivation: accrual ran ~30 memories in 2 days this week vs 15-35/week steady state, and duplicate-class creation across ~30 agents is the correctable share (~30-40% by PROME's estimate). Cadence/mechanics are yours to spec; first run after the 8/1-8/2 migration settles.
