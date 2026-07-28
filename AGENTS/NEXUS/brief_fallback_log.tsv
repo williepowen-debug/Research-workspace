@@ -28,3 +28,6 @@ date	agent	cause	note
 2026-07-24	OSPREY	stale	brief 7/23 12:35 < STATUS 7/24 10:54 (GATE-OSPREY-001 day-5 fire) — read raw STATUS
 2026-07-24	LIQUID	stale	brief 7/18 < STATUS 7/23 21:10 (KB-084/085/086 + 079 backtest) — read raw STATUS
 2026-07-24	CORAL	stale	brief 7/23 13:55 < STATUS 7/24 12:13 (SSB grade + sync-gate closure) — read raw STATUS
+2026-07-28	HENRY	stale	brief 7/23 < STATUS 7/27 (gamma refresh + CPI-date fixes) — read raw
+2026-07-28	BROCK	stale	brief 7/9 vs STATUS 7/27 = 5th consecutive stalest-active flag; read raw (X1 re-test, BRK-32, calendar re-base)
+2026-07-28	SHADE	stale	brief-less by design; read raw for M-11 (Delaware Life primary + weld-2 + FABN canary)
