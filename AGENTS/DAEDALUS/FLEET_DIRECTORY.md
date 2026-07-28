@@ -2,13 +2,13 @@
 
 > **GENERATED — DO NOT EDIT.** Rendered from `PROME/ROSTER.md` (existence · domain · status) + `AGENTS/DAEDALUS/FLEET_MAP.tsv` (class · maturity · missing/next) by `AGENTS/DAEDALUS/scripts/render_directory.py`. Edit the **sources**, then regenerate — hand-edits are overwritten. Generated 2026-07-28.
 
-*One source of truth per column (PAT-006): **what it does** + **status** ← ROSTER (PROME); **class** + **maturity level** + **missing/next** ← FLEET_MAP (DAEDALUS). "Missing / next" is a truncated one-liner — full gap detail in `FLEET_MAP.tsv` + `upgrades/<AGENT>_CARD.md`. PROME (coordinator) and dormant agents are un-graded → blank grade cells.*
+*One source of truth per column (PAT-006): **what it does** + **status** ← ROSTER (PROME); **class** + **maturity level** + **missing/next** ← FLEET_MAP (DAEDALUS). "Missing / next" is a truncated one-liner — full gap detail in `FLEET_MAP.tsv` + `upgrades/<AGENT>_CARD.md`. Dormant agents are un-graded → blank grade cells. PROME graded 2026-07-28 (Will-ratified, judgment-read only — the scripted floor cannot see a root-level agent).*
 
 ## 🟢 ACTIVE — persistent domain owners
 
 | Agent | Class | Lvl | What it does | Missing / next |
 |---|---|---|---|---|
-| PROME | — | — | Coordinator / chief of staff | — |
+| PROME | Meta | L4 | Coordinator / chief of staff | L5 on: 7/31-8/2 batch executed |
 | WALTER | Utility | L4 | Signal & news routing | L5 on remaining criteria (YEYOU leg WAIVED-while-dormant per Will 7/22… |
 | SAM | Market | L4 | Japan — BOJ / JGB / carry | BOTTOM LINE -> STATUS<250 -> 5-pt table (~8 rows) -> staleness lines =… |
 | LIQUID | Market | L4 | HY / credit spreads / liquidity | L4->L5: thin 5-pt overlay + Independence col — everything else cleared |

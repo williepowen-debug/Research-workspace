@@ -136,7 +136,8 @@ def main():
     L.append("*One source of truth per column (PAT-006): **what it does** + **status** ← ROSTER (PROME); "
              "**class** + **maturity level** + **missing/next** ← FLEET_MAP (DAEDALUS). \"Missing / next\" is a "
              "truncated one-liner — full gap detail in `FLEET_MAP.tsv` + `upgrades/<AGENT>_CARD.md`. "
-             "PROME (coordinator) and dormant agents are un-graded → blank grade cells.*")
+             "Dormant agents are un-graded → blank grade cells. PROME graded 2026-07-28 (Will-ratified, "
+             "judgment-read only — the scripted floor cannot see a root-level agent).*")
     L.append("")
 
     counts = {}
@@ -153,7 +154,7 @@ def main():
             if a in fleet:
                 klass, lvl, nxt = fleet[a]
                 L.append(row(a, klass, lvl, does, truncate(nxt)))
-            else:                                  # ROSTER-only: PROME (coordinator) or dormant — blank grade
+            else:                                  # ROSTER-only (dormant / not-yet-graded) — blank grade
                 L.append(row(a, "—", "—", does, "—"))
         L.append("")
 
