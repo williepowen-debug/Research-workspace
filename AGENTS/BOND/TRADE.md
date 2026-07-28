@@ -1,7 +1,9 @@
 # BOND — Trade Recommendations
 
 **Last Updated:** 2026-07-28 by BOND (27-day refresh — this file had gone stale at 7/01 and still named the 7/9 refunding as "the live gate" 19 days after it resolved)
-**Regime:** 🟡 WATCH escalating. **All live levels/scores → `STATUS.md`; this file carries posture and gates, not marks.**
+**Regime:** 🟡 WATCH escalating (thesis-level) · STATUS carries **🟠 ELEVATED** (current-state). *Documented, not a drift: THESIS grades the durable thesis, STATUS grades today's tape — they are different scales and are allowed to differ. If they ever move in opposite directions, that is the signal to reconcile.*
+**All live levels/scores → `STATUS.md`; this file carries posture and gates, not marks.**
+**Registered prediction covering today's gate: `BND-13` (7Y clears without a composition failure, 85%) — `thesis/PREDICTIONS.tsv`.**
 
 ---
 
@@ -25,7 +27,7 @@
 | 2 | Credit-equity lead | **Inactive watch** | 1/5 | HY ~+16bp off the 263 trough with VIX ~18.7 — the +11bp two-session move is real velocity but the **level** is nowhere near the arm, and the widening is quality-indiscriminate rather than credit-led. | **Reactivate:** HY OAS +75–100bp from trough (**≈338–363**) while VIX <20; strongest if the fast layer leads cash (true divergence — sign-check rule in `monitors/CDX_CASH_BASIS.md`). **Not close.** |
 | 3 | Short AI-credit (basket) | **NOT proposed — noted for structure** | 1/5 | GS **and** JPM launched tradeable/shortable 18-name AI-credit baskets the same week (7/23), avg spread **319bp** ≈ 40bp wide of the HY index, executable as cash **or TRS**. A bearish AI-debt expression did not exist a week ago. | **No BOND trade.** Recorded because TRS execution means positioning can build faster than the cash float allows, **in either direction** — a crowding-formation mechanism, not a signal. Basket is the **neocloud/compute** tier, not hyperscalers. VULCAN owns the thesis; **do not read the 319bp as a tradeable differential** (equal- vs value-weighted, point-in-time, no history). |
 
-*Positioning-crowding note (carried):* consensus remains heavily short-duration — a crowded expression with short-covering-rally risk on any dovish surprise. Sizing discipline on TLT puts accordingly; the 6/26–29 rally to a 7-week 10Y low is exactly what that risk looks like.
+> ⚠️ **Positioning-crowding note — this is LIVE in the next 24 hours, not a carried caveat.** Consensus is heavily short-duration; the expression is crowded; the short-covering-rally risk fires on a **dovish surprise**. Tomorrow is a **two-sided FOMC (~34% hike) with forward guidance removed**, i.e. the widest outcome distribution of the cycle with no channel to narrow it — and TLT is already bid into it. The 6/26–29 rally to a 7-week 10Y low is what that risk looks like when it materialises. **Practical consequence: this argues against adding into the meeting even if a gate fires on the 7Y this afternoon** — a fired gate plus a crowded book plus an untelegraphed two-sided event is exactly the setup where being right on direction and wrong on timing is expensive. Any add that fires today should be surfaced to Will with this note attached rather than sized mechanically.
 
 ---
 
@@ -42,13 +44,13 @@
 | Signal | BOND Interpretation | Trade Implication |
 |---|---|---|
 | **Composition failure at any coupon auction** — indirect <56.4% **AND** dealer >13.2% *(replaces the resolved BND-11 7/7–9 row)* | End-demand weakness meeting record dealer stock = demand-hole configuration. **Note: cover alone does NOT qualify** — the 7/27 5Y printed the lowest BTC since Sept-2022 and did *not* fire this, because indirect rose and dealers didn't absorb. | **Primary TLT-put add re-arm**; signal LIQUID immediately. |
-| 30Y >5.0 held 5 sessions (BND-12 FALSE) | Sustained regime break, not an episode | TLT add re-arms (pair with nearest auction evidence); long-end →4. |
+| ⚠️ **30Y >5.0 held 5 sessions — THIS LEG HAS FIRED** (8 consecutive closes 7/7→7/16; BND-12 resolved FALSE) | Sustained *level* break. **But BND-12 resolved FALSE with the mechanism INTACT** — "expensive intensified, still not broken." | ⚠️ **DOES NOT RE-ARM AN ADD ON ITS OWN.** *(This row previously read "TLT add re-arms (pair with nearest auction evidence)" — under-specified, and read alone it would have called an add on 7/16, the day Will explicitly decided NO-ADD. The controlling gate is the **conjunctive** one in Active Recommendations 1(b): the level breach **AND a weak auction**. The level leg is met and has been for weeks; **the auction leg is what is missing**, and the 7/27 5Y gave a cover marker without a composition failure.)* Long-end →4 still requires DFII10 >2.5 or a composition failure. |
 | **DFII10 >2.5% sustained** | Real-yield stress regime | **TLT-put add re-arm — the NEAREST live gate.** *(This row read "currently 2.20 and retraced" for 27 days; DFII10 is now at a series high a handful of bp away — live level → STATUS.)* |
 | **MOF actual FX intervention** (verbal stage; USDJPY through the 40-yr low, 165 = next threshold — **SAM owns the level**) | Mechanical UST reserve selling from $1T+ holdings (FL-BND-11) | Long-end supply shock — TLT downside accelerant; coordinate SAM/LIQUID. |
 | HY OAS >300 ×3 sessions | Credit watch reopens | Price HYG/JNK downside, no blind entry. |
-| HY >350 + pulled deals | Issuance freeze | HYG/JNK downside proposable to Will. *(Mechanism currently running in REVERSE — boom.)* |
-| Fast layer breaks while cash stays TIGHT (true divergence) | Synthetic leading cash | Early short-credit re-entry support. *(6/24–26 breach failed the sign-check — co-move.)* |
-| SOFR-IORB positive after weak auction (non-quarter-end) | Auction stress funding through repo | Systemic confirmation; escalate LIQUID/PROME. *(+3bp on 6/30 = clean qtr-end, SRF $0.)* |
+| HY >350 + pulled deals | Issuance freeze | HYG/JNK downside proposable to Will. *(Mechanism still not engaged: primary open, zero pulled deals, record June IG absorbed 3.9x. But "running in REVERSE — boom" is retired as of 7/23 — spreads have re-activated even though access has not closed.)* |
+| Fast layer breaks while cash stays TIGHT (true divergence) | Synthetic leading cash | Early short-credit re-entry support. *(**Re-run 7/28: NO divergence.** Cash HY widened +11bp while HYG/IEF stayed RICH — z20 −0.08, 79th pctile — so the fast layer did NOT confirm; that is a repricing, not credit stress. ⚠️ The quieter signal: **LQD/IEF z20 negative every session for two weeks**, IG credit-excess softer and more persistent than HY.)* |
+| SOFR-IORB positive after weak auction (non-quarter-end) | Auction stress funding through repo | Systemic confirmation; escalate LIQUID/PROME. *(**−1bp [7/24]** — normalized and negative; the 6/30 +3bp was quarter-end and did resolve. Funding leg decisively unlit into FOMC.)* |
 | Treasury buyback long-end accept-cap lifted | YCC-lite / stealth suppression | Direct TLT-puts event. *($2B cap held.)* |
 
 ---
