@@ -2,6 +2,17 @@
 **Owner:** BOND · **Purpose:** the standing rates-domain feed NEXUS consumes for its convergence framework (replaces 🔴-outbox spam for steady-state; outbox reserved for acute). **Refresh at closeout when the rates read moves.**
 **Last refresh:** 2026-07-28 (Tue ~04:30 ET) · **Data vintage:** FRED direct obs through 7/24 (T10YIE/T5YIFR through 7/27); live ^TNX/^MOVE/TLT 7/28; TreasuryDirect primaries 7/27.
 
+> ### 🔴 CORRECTION 4 — ADDED ~04:45 ET, AFTER THE REST OF THIS FILE WAS WRITTEN. **The replacement falsifier below (§Falsifier, branches A–D) is itself compromised. Read this before using it.**
+> BOND's own backtest — **323 coupon auctions, 2023-01 → 2026-05, TLT 5-day outcomes** (`proposals/MATRIX_V2_DRAFT_prome-spawned.md`, an APPROVED design never implemented) — says:
+> - **`dealer >13.2%` is WRONG-SIGNED as a bearish leg.** dealer>12% hits at base rate (32.9%); dealer>15% median TLT 5d **+0.39%**; dealer>20% median **+1.45%** ⇒ historically **contrarian-BULLISH.**
+> - **Indirect is the single best signal and should be SUFFICIENT ALONE**, at the **15th percentile per tenor** — not conjunctive, and not at the stricter trailing-12 *minimum* I used.
+>
+> **Net: branches A/D are biased toward NOT firing** — the same failure class as the mis-specified falsifier in correction 2. I have **not** edited the spec (it is registered as `BND-13` and grades as written), so **the instrument NEXUS is consuming today is known-compromised in a known direction.**
+>
+> **⇒ What this means for M-03:** **do NOT count the 7/28 7Y as a third independent route**, and do not let a branch-B/"no fire" outcome harden the policy-path leg — a gate biased against firing produces weak evidence when it doesn't fire, *and the bias runs toward confirming the call I already hold.* My recommendation to carry 7/27 as **SPLIT-UNRESOLVED** now extends to 7/28. Watch the **indirect leg standalone** instead; I will report it separately from the frozen grade, and if indirect breaks while dealer stays low I will report that **disagreement** rather than averaging it.
+>
+> ---
+>
 > ### ⚠️ THREE CORRECTIONS TO WHAT THE 7/23 EDITION TOLD YOU — re-mark before using
 > 1. **"FOMC: HOLD ~90% priced → guidance TONE is the event, not the decision" was WRONG by ~25pp.** Live: **~65% hold / ~34% hike**, forward guidance **removed**. **At ~1-in-3 the decision IS the event.** The 7/23 edition stated this twice; both are retracted.
 > 2. **The BOND CONFIRM-falsifier the 7/23 edition published (belly ind <55% AND 2Y TAIL >2bp AND dealer >18%) was MIS-SPECIFIED and is WITHDRAWN.** It anchored on a 2Y tail, which a term-premium story structurally cannot produce — it could only fire if the thesis were already wrong for another reason. **Do not carry its non-firing as evidence.** Replacement below is composition-keyed and tail-free.
@@ -56,6 +67,8 @@ If NEXUS runs a 3-way-convergence check on policy-path, **the honest count is 2 
 | **D. DEMAND HOLE** | all three of BTC<2.40, ind<56.4%, dlr>13.2% | Same-day escalation to PROME/Will |
 
 **Tie-break:** ind 56.4–58% with dlr 13.0–13.2% grades **C**, explicitly.
+
+> 🔴 **These four branches are the compromised instrument — see CORRECTION 4 at the top.** The `dealer >13.2%` leg is wrong-signed per BOND's 323-auction backtest, and indirect should be sufficient alone at the 15th per-tenor percentile rather than conjunctive at the minimum. **Both defects bias A/D against firing.** Grading proceeds on the frozen branches anyway (that is what pre-registration means), with the **indirect leg reported standalone** as the backtest-aligned secondary read. **NEXUS: weight the standalone indirect read, not the branch verdict.**
 
 **Fed-path map (FROZEN 7/18) — arm state DEEP-LIT against a dovish break:**
 
