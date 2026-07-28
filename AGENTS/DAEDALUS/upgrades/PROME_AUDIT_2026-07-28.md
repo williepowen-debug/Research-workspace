@@ -68,6 +68,39 @@ This is the same diagnosis that produced root canon step 1d ("detection was neve
 1. **Should PROME be graded into FLEET_MAP** (Meta class, judgment-read, same treatment DAEDALUS gets) — or formally exempted with the exemption recorded in SPEC/EVOLUTION so the blank cells have provenance? My recommendation: **grade it.** This audit is 80% of the first read already, and "no agent grades only itself" should cut both ways.
 2. The **FLEET_SCAN rebuild objection** (§5) — ratify the pointer rewrite so the duplicate-surface re-entry path closes?
 
+## 7a. ARCHITECTURE ASSESSMENT (added 7/28 eve, Will's ask — the design-level view, distinct from the findings)
+
+### What is genuinely well-designed (do not change)
+
+| Element | Why it's right |
+|---|---|
+| **Boot/closeout as separate docs with an explicit symmetry table** | Only agent in the fleet that formally pairs every boot-read surface with its closeout-write. The table lagging is an execution problem; the table existing is the right design. |
+| **Mirror Map (SYSTEM.md:52-55)** | Explicitly enumerating where facts are mirrored is rare and correct — it's what made today's audit cheap. |
+| **Self-audit tooling (`spine_audit.workflow.js`)** | PROME is the only agent that audits its own spine on a cadence. Extend its net (S4), don't rethink it. |
+| **Ledger-first drift rule** (DOCKET canonical over prose; decisions on ledgers — applied again today for the structural batch) | The single best anti-rot decision in PROME's design. |
+| **AUTONOMY.md tiering** | An explicit, versioned delegation contract with Will. No other agent has one; it's why PROME can act fast without scope anxiety. |
+| **Root-level placement** | PROME genuinely is different (Will-scoped shared-doc steward, no market book). Forcing it into `AGENTS/` shape would be false symmetry. The scanner should learn to *see* it (Q1); PROME shouldn't move. |
+| **Incident response culture** | Today: verify-live → fix → adopt fail-loud guards → republish in ~20 min, plus an unprompted self-found fix in the same window. The org works. |
+
+### The three structural tensions (design-level, not point defects)
+
+**T1 — Highest change-rate agent × most mirror-heavy architecture.** PROME mirrors root canon, HEARTBEAT, position truth, agent states, roster facts. Mirror rot rate ∝ change-rate × mirror-count, and PROME maximizes both — which is why every 🔴 today was a mirror, and why the STATUS amendment-count row beat hand-mirroring three times in a row. The Mirror Map treats walking as discipline; at PROME's change-rate it must be mechanism (S1, accepted). The deeper move: **shrink the mirror surface itself** — audit each Mirror-Map row with "could this be a pointer?" Every mirror that exists for reading convenience rather than operational necessity is standing debt. Pointer > mirror wherever load-bearing.
+
+**T2 — Protocol mass exceeds single-session execution capacity.** ~1,200 lines of protocol spine across 12 docs (fleet norm: 100-300). The evidence it's past the edge: root steps 1c/1d never landed, stamp-lag recurred in the doc that documents stamp-lag, HANDOFF violates its own one-line-referent rule every entry. A protocol longer than what a session actually executes is aspiration, not architecture. Two remedies, both already in PROME's own toolkit: (a) the harness-audit deletion criterion (WALTER's 113→61 boot split — prune steps that are mechanizable or not behavior-gating); (b) keep converting discipline to scripts (claim_check, firetime_check, position_agreement_check, env_doctor is the right trend — scripts are crystallized discipline that doesn't consume session attention). The fast/slow asymmetry (BOOT absorbed 4 gates in 48h; CLOSEOUT's symmetry table knows none of them) suggests making the symmetry table the *registration point*: a boot gate isn't wired until its symmetry row exists — same move as my REGISTRATION_CHECKLIST for builds.
+
+**T3 — No second reader on the fleet's most load-bearing outputs.** PROME is coordinator, dashboard publisher, canon steward, rails owner, and Will-interface at once. WALTER has a spec, YEYOU reviews pushes, every domain agent has PROME above it — but nobody routinely reads PROME's Will-facing surfaces, and today's first-ever external full read found a 4-day-degraded Will-facing artifact. This isn't a competence gap (the failure was silent-blank, invisible from inside); it's a structural blind spot: **the publisher can't see its own blank panels.** Fix-shape: (a) grade PROME into FLEET_MAP (Q1); (b) register a light recurring external check — PROME spine + Will-facing surfaces, read-only, ~21d, riding my existing sweep registry. Cheap insurance against exactly today's class.
+
+### Smaller design thoughts
+
+- **HANDOFF_2026Q2.md** is one file doing two jobs — append-only session log AND boot-read live surface — living in `archive/`, which lies about both. Split the roles: rotate the log (it's a Q2 file accruing in Q3), keep boot-reads out of archive/, and give archive/ a live index.
+- **HEARTBEAT re-base is a schema-migration event without a migration checklist.** Three consumer classes broke across two re-bases (parsers, drafts, the STATUS count row). The accepted fix (re-base checklist: stamp consumed draft, run the dashboard build-assert, walk the named mirror stops) is the right shape — rituals that mutate load-bearing surfaces get checklists, not memory.
+- **Intake is three paths, one mechanized** (BOARD cursor mechanized; inbox conditional; Will relay ad hoc). The "sole delivery surface" deserves the same treatment as BOARD: an unconditional one-line count in the boot gate.
+- **codex lane**: keep as dormant capability — its problem is a missing trigger, not existence. One line on the gate-arming path fixes it.
+
+### Bottom line
+
+PROME's rules are almost never wrong — they were unexecuted. That's the signature of an architecture whose judgment outruns its bandwidth, and the correct response is the one already underway: mechanize invocation (scripts, ledgers, checklists, generated rows), shrink what must be hand-maintained (fewer mirrors, leaner protocol), and add the one thing PROME cannot give itself — an outside reader on a cadence.
+
 ## 7. DISPOSITION TRAIL
 
 - Findings packet → `PROME/inbox/2026-07-28_from-DAEDALUS_full-directory-audit-findings.md` (urgent block U1–U5 first), self-committed per carve-out ①.
