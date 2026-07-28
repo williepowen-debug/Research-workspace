@@ -170,7 +170,14 @@ def surface_of(relpath: str) -> str:
     return "LIVE"
 
 
-def iter_files(workspace: Path, own_dir: Path | None):
+def iter_files(workspace: Path, own_dir: Path | None, restrict: set | None = None):
+    if restrict is not None:
+        # --mirror-map mode: scan exactly the enumerated set (self-INCLUSIVE —
+        # the 7/28 PORTFOLIO miss was the publisher checking consumers, not itself)
+        for path in sorted(restrict):
+            if path.is_file():
+                yield path
+        return
     for root in SEARCH_ROOTS:
         base = workspace / root
         if not base.exists():
@@ -185,16 +192,71 @@ def iter_files(workspace: Path, own_dir: Path | None):
             yield path
 
 
-def scan(workspace: Path, needles, own_dir: Path | None, current=None):
-    """-> (stale_live, mail, handled). Classification order matters."""
+# --------------------------------------------------------- mirror-map mode (T1-b)
+
+MIRROR_MAP_DOC = "PROME/SYSTEM.md"
+MIRROR_MAP_HEADING = "### Canonical → Mirrors map"
+PATH_IN_BACKTICKS = re.compile(r"`([^`]+?\.(?:md|tsv|csv|py|txt))`")
+
+
+def mirror_map_files(workspace: Path) -> set:
+    """Parse the Mirror Map TABLE out of PROME/SYSTEM.md at runtime + add PROME's
+    own live surfaces. DESIGN CONSTRAINT (Will-approved 2026-07-28, DAEDALUS T1-b
+    amendment): this tool must NOT carry its own copy of the mirror list — a list
+    inside the script would be one more mirror that rots. The Mirror Map table is
+    the single source; if it moves or the heading changes, fail LOUD below rather
+    than silently scanning nothing."""
+    doc = workspace / MIRROR_MAP_DOC
+    text = doc.read_text(errors="ignore")
+    if MIRROR_MAP_HEADING not in text:
+        raise SystemExit(f"  ✗ mirror-map: heading {MIRROR_MAP_HEADING!r} not found in "
+                         f"{MIRROR_MAP_DOC} — the table moved; fix the tool's anchor, "
+                         f"do not fall back to a hardcoded list.")
+    section = text.split(MIRROR_MAP_HEADING, 1)[1]
+    # table ends at the next heading or ruler
+    for stop in ("\n## ", "\n---"):
+        if stop in section:
+            section = section.split(stop, 1)[0]
+    files = set()
+    for m in PATH_IN_BACKTICKS.finditer(section):
+        rel = m.group(1).strip()
+        p = (workspace / rel)
+        if p.is_file():
+            files.add(p)
+    # self-inclusive: PROME's own live surfaces + the root docs PROME stewards
+    prome = workspace / "PROME"
+    for p in prome.rglob("*"):
+        if (p.is_file() and p.suffix.lower() in SEARCH_EXTS
+                and not (EXCLUDE_PARTS & set(q.lower() for q in p.parts))):
+            files.add(p)
+    for rel in ("CLAUDE.md", "HEARTBEAT.md", "AGENTS.md"):
+        p = workspace / rel
+        if p.is_file():
+            files.add(p)
+    if len(files) < 10:
+        raise SystemExit("  ✗ mirror-map: parsed <10 files — the table parse is "
+                         "broken; fix the anchor rather than trusting a near-empty scan.")
+    return files
+
+
+def scan(workspace: Path, needles, own_dir: Path | None, current=None,
+         restrict: set | None = None):
+    """-> (stale_live, mail, handled). Classification order matters.
+
+    Needles that are purely numeric use whole-value token matching (the VIOLET
+    substring lesson). Non-numeric needles (mirror-map mode: retired path
+    pairings, renamed sections, dead tokens like 'FORGE/PORTFOLIO.md') match as
+    literal substrings — canon changes are textual at least as often as numeric."""
     stale, mail, handled = [], [], []
-    wanted = {normalize(str(n)) for n in needles}
-    for path in iter_files(workspace, own_dir):
+    num_wanted = {normalize(str(n)) for n in needles if NUM_RE.fullmatch(str(n).strip())}
+    txt_wanted = {str(n) for n in needles if not NUM_RE.fullmatch(str(n).strip())}
+    for path in iter_files(workspace, own_dir, restrict):
         try:
             text = path.read_text(errors="ignore")
         except OSError:
             continue
-        if not any(n in text.replace(",", "") for n in wanted):
+        if not (any(n in text.replace(",", "") for n in num_wanted)
+                or any(n in text for n in txt_wanted)):
             continue  # cheap prefilter before the per-line pass
         lines = text.split("\n")
         rel = str(path.relative_to(workspace))
@@ -202,7 +264,7 @@ def scan(workspace: Path, needles, own_dir: Path | None, current=None):
         for i, line in enumerate(lines):
             if is_blob(line):
                 continue
-            hits = wanted & line_values(line)
+            hits = (num_wanted & line_values(line)) | {n for n in txt_wanted if n in line}
             if not hits:
                 continue
             rec = (rel, i + 1, sorted(hits), line.strip()[:140])
@@ -271,6 +333,12 @@ def main():
     ap.add_argument("--new", default="?", help="the current value")
     ap.add_argument("--from-ledger", metavar="PATH", nargs="?", const="AUTO",
                     help="read metrics from a PUBLISHED.tsv instead of --old/--new")
+    ap.add_argument("--mirror-map", action="store_true",
+                    help="T1-b mirror walk (2026-07-28): scan ONLY the files enumerated "
+                         "in PROME/SYSTEM.md's Canonical→Mirrors table (parsed at "
+                         "runtime) + PROME's own surfaces, self-INCLUSIVE (no --agent "
+                         "exclusion). Non-numeric --old values match as literal text. "
+                         "Run on any canon/threshold change with the OLD token.")
     ap.add_argument("--strict", action="store_true", help="exit 1 if any STALE consumer found")
     args = ap.parse_args()
 
@@ -312,9 +380,16 @@ def main():
             ap.error("need --old (repeatable) or --from-ledger")
         jobs.append((args.label, args.new, args.old))
 
+    restrict = None
+    if args.mirror_map:
+        restrict = mirror_map_files(workspace)
+        own_dir = None  # self-INCLUSIVE by definition — never exclude the caller
+        print(f"  mirror-map mode: {len(restrict)} files (SYSTEM.md table, parsed at "
+              f"runtime, + PROME surfaces + stewarded root docs; self-inclusive)")
+
     total_stale = 0
     for label, current, olds in jobs:
-        stale, mail, handled = scan(workspace, olds, own_dir, current)
+        stale, mail, handled = scan(workspace, olds, own_dir, current, restrict)
         report(label, current, olds, stale, mail, handled)
         total_stale += len(stale)
 

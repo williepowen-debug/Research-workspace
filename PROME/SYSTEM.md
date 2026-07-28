@@ -47,6 +47,10 @@ Core rule:
 
 *(Added 2026-07-01, seeded from the 24-file audit. When a **canonical** doc changes, walk its row and verify each mirror before commit — CLOSEOUT Chunk-3 trigger. Canonical wins on drift (`[[finding_doc_mirror_consistency_check]]`). The weekly spine audit (`PROME/tools/spine_audit.workflow.js`) checks the same rows as the catch-all.)*
 
+> **Generate-at-n≥3 rule (adopted 2026-07-28, Will-approved — DAEDALUS T1-c):** any hand-maintained mirror row that has rotted **3×** gets **generated from its source or reduced to a countless pointer** — hand-mirroring has empirically failed for that row class; stop re-committing to it. First application: the STATUS.md HEARTBEAT base/amendment-count rows (rotted at 3 consecutive re-bases → countless pointers, 7/28).
+> **Mechanized walk:** `python3 scripts/consumer_check.py --mirror-map --old <OLD-TOKEN>` greps the retired token across every file named in **this table** (parsed at runtime — the tool carries no copy of the list) **plus PROME's own surfaces**. Run it on any canon/threshold change *(adopted 2026-07-28, Will-approved — DAEDALUS T1-b; born from the 7/28 PORTFOLIO miss, where the publisher checked its consumers and not itself).*
+> **Census axis (for the 8/6-8/9 pass):** classify each mirror **declared-view-with-canonical-wins-rule** (SCRATCH operator card, HEARTBEAT Near-Gates — correct design, keep) vs **silent duplicate** (the debt class — every rot incident of 2026-07 was one). The census hunts the second class.
+
 | Canonical fact | Canonical home | Known mirrors (verify on canon change) |
 |---|---|---|
 | Git/push protocol (pathspec, auto-push, non-ff=routine, repo-root cwd) | root `CLAUDE.md` Git Protocol | `PROME/CLAUDE.md` (git-default ¶) · `PROME/BOOT.md` (non-negotiables) · `PROME/GIT_COORDINATION.md` (cookbook + Push Discipline) · `PROME/CLOSEOUT.md` (Chunk 4) · `PROME/AUTONOMY.md` (header note) · auto-memory `feedback_defer_push_coordinate` |

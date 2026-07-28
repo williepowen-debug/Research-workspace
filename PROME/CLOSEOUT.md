@@ -39,6 +39,8 @@ End-of-day always runs at least Standard so the audit trail catches up. 10 Bounc
 
 ---
 
+> **⚡ Mechanical tail in one shot (adopted 2026-07-28, Will-approved — DAEDALUS T2-b):** `cd "$(git rev-parse --show-toplevel)" && python3 PROME/tools/prome_gate.py closeout` — position-agreement · GATES fired/vocabulary · DOCKET overdue · dashboard-state · orphan_check, plus printed reminders for the two MANUAL root steps (1c consumer_check w/ `--mirror-map` on canon changes · 1d memory_index_check `--slug`). rc=1 only on BLOCKING failures. The judgment writes (HANDOFF/SCRATCH/memory) remain below — the gate replaces none of them. New mechanical checks go in the SCRIPT, not this prose.
+
 ## Boot↔Closeout symmetry
 
 Closeout is the **write-back tail** of boot (auto-memory `[[finding_closeout_as_writeback_tail]]`). What `BOOT.md` reads, this procedure writes back. Each pairing should round-trip on a Standard closeout; a boot-read surface with no closeout write goes stale silently.
