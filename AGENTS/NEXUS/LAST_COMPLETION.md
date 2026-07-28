@@ -39,3 +39,5 @@ STATUS sanity ✓ (174 lines; Δ-columns consistent; docket re-based 7/28→9/11
 ## Files
 - **Changed:** `STATUS.md` (full re-anchor, 174 lines) · `PREDICTIONS_MONITOR.md` (header, PRED-44, 7/25-27 gate block) · `CLAUDE.md` (Disc-F fleet-effective-N) · `BRIEFS_MAP.md` (★7/28) · `board_log.tsv` (+5) · `brief_fallback_log.tsv` (+3) · this file. **Moved:** 10 inbox → processed, 5 WALTER-lane → processed.
 - **New (cross-dir, carve-out ①):** PROME/TERRY/BOND/LABOR inbox packets (4).
+
+**Unit 2d: BROCK BCRED-weight correction folded** — L2 baseline 12.58→13.39 (BCRED $78B was leverage-inclusive; net $45.04B; share 59→46.1%), branch thresholds re-stated as RULES (86%/61% of own baseline) not numbers, correction moved the instrument AGAINST the owner's thesis and was taken anyway (LESSONS-#23 class refused a 3rd time); T-15 row updated; MS-PIF 7.2% weight residual [UNVERIFIED]. BROCK dark until ARCC pre-open.
