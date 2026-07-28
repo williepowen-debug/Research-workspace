@@ -17,6 +17,32 @@ verify_verdict: CONFIRMED-EXECUTED — dispatched as a threat, upgraded on WALTE
 verify_method: WebSearch multi-source; threat card checked forward to execution, then the Greenstream/Wafa/Mellitah structural link verified independently, 2026-07-28
 ---
 
+> # ⚠️⚠️ **CORRECTION — 2026-07-28 ~15:3xZ, ~20 MINUTES AFTER DISPATCH. READ BEFORE §1. THE EMPHASIS OF THIS SIGNAL WAS WRONG AND WILL CAUGHT IT.**
+>
+> **Will's challenge:** *"The Libyan protest has to deal with oil no? It seemed like they were protesting by shutting off the oil?"*
+>
+> **He is right, and correcting it changes what this signal is about.**
+>
+> **🔴 WHAT I GOT WRONG: §2 says *"NOT ROUTED ON THE BARRELS (85 kb/d is small) BUT ON WHICH FACILITIES,"* and led on the Greenstream/Italian-gas exposure. That subordinates the actual mechanism. SHUTTING OFF OIL IS NOT A TACTIC THIS PROTEST HAPPENS TO USE — IT IS THE ENTIRE THEORY OF THE CAMPAIGN.**
+>
+> **THE BASE RATE I SHOULD HAVE PULLED BEFORE DISPATCHING, and it cuts against my framing hard:**
+> - **Oil revenues ≈ 98% of total Libyan government revenue** (2021). A group whose stated aim is *"overthrowing the government"* shutting oil is **attacking the state's entire income**, not making a gesture.
+> - **2020 blockade: production 1.2 mb/d → ~320 kb/d**, force majeure on **five terminals**.
+> - **Dec 2021: ~400 kb/d shut in by armed militants.**
+> - **🔑 April–July 2022 — THE CLOSEST ANALOGUE, AND IT WAS PROTESTERS, NOT THE ARMY: blockades of major ports and fields took national output from ~1.2 mb/d to ~500 kb/d — roughly HALVED. It ended when NOC chairman Sanallah was replaced by a Haftar ally. THE OIL SHUTDOWN ACHIEVED THE POLITICAL OBJECTIVE.**
+>
+> **⇒ CORRECTED READ: the datum is NOT today's 85 kb/d. It is THAT A REVENUE-DENIAL CAMPAIGN HAS OPENED, in a country where that instrument has repeatedly scaled from a field or two to HALF of national output, and has twice succeeded.**
+>
+> **⇒ THE RESOLVING QUESTION CHANGES. It is NOT Greenstream throughput. It is WHETHER THIS SPREADS TO THE EXPORT TERMINALS** — Es Sider, Ras Lanuf, Zueitina, Brega, Hariga. **That is the step that converts 85 kb/d into 500–900 kb/d, and it is the step both prior episodes took.** Terminal-level force majeure by the NOC is the tell.
+>
+> **✅ WHAT STANDS:** every fact in the signal below; the Greenstream/Mellitah/Wafa structural link (verified, and Wafa genuinely is a Greenstream supply field); the absence of any confirmed gas-flow impact; and the base-rate caveat that these usually resolve in days to weeks. **The European-gas exposure is REAL and remains a live secondary channel — the convergence noted in `-004` and `-005` is not retracted. It is DEMOTED from the lead.**
+>
+> **🔑 AND THE REASON I DRIFTED IS WORTH RECORDING, because it is a repeat of a failure I logged yesterday: I had just built a "three independent European gas channels" convergence across `-004` and `-005`. Libya's gas leg made it THREE instead of two. I chose the frame by where my answer already was — the same act as choosing a measurement window by where the move was (`SIG-W-20260727-016`, corrected by BROCK). A convergence story exerts pull on the next item you classify, and I did not notice it happening.**
+>
+> *(Correction provenance: **externally-caught, by Will**, ~20 minutes after dispatch, on a question rather than a counter-claim. Corrected at BOARD body + INDEX row + create-only CORRECTION handoffs to all six non-exempt recipients, since delivered handoffs cannot be edited.)*
+
+---
+
 # 🛢️ **A LIBYAN SHUTDOWN THREAT WITH A SELF-IMPOSED "WITHIN HOURS" CLOCK WAS POSTED LAST NIGHT — AND IT EXECUTED THIS MORNING. Protesters are inside the MELLITAH complex, EL FEEL is stopped and WAFA is partially halted.** **🔑 AND MELLITAH IS THE ITALIAN END OF LIBYA'S GAS EXPORT CHAIN — WHICH MAKES THIS THE THIRD INDEPENDENT EUROPEAN GAS CHANNEL TO DEGRADE IN A SINGLE DAY.**
 
 ---
