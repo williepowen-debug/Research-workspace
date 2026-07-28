@@ -1,105 +1,134 @@
 # HAWK STATUS
 **Agent:** HAWK — cross-war geopolitical synthesis + dormant book (theaters → **OSPREY** [Russia/Ukraine] / **FALCON** [Iran/Gulf])
-**Last Updated:** 2026-07-25 (Sat) — **first genuinely independent post-split synthesis session.** The 7/12 cut was a seeded re-cut, never verified; it then sat 13 days while both theaters' gates fired. This one is boot-read off both siblings' live briefs + a fresh external-primary dormant re-sweep.
+**Last Updated:** 2026-07-28 (Tue) ~10:30 ET — 3-day pass off both siblings' live briefs + external primaries on the CPC resolution.
 **Role:** reconcile OSPREY's + FALCON's independent reads into one picture (no double-counting), own the cross-war transmission thesis + global war-risk/shipping synthesis, keep the dormant book on a 45-day re-sweep cadence. HAWK holds no trade book.
 
-> **⚠️ SELF-CORRECTION (7/25).** This STATUS previously read *"both theaters kinetic-high, Brent decoupled ~$76-79."* That was **wrong from ~7/17 onward and stayed on the surface for 13 days**, including on `NEXUS_BRIEF.md`, which NEXUS consumes at its own boot. The decoupling thesis is HAWK's own canonical property (FLOW-HAWK-19) and it broke while the surface owning it sat still. This is the HAW-03/Venezuela rot pattern landing on the **primary** lane, not a dormant one. Logged, not buried.
-
 ---
 
-## 1 · CROSS-WAR RECONCILIATION — the finding
+## 1 · CROSS-WAR RECONCILIATION — the theaters have DECOUPLED FROM EACH OTHER
 
-**Both theaters' registered gates fired within 24 hours of each other, and both fired on their NON-severity legs.**
+**My 7/25 headline ("both theaters' gates fired within 24h, both on their non-severity legs") is superseded.** It described a moment, not a regime. As of today there are **three counter-moving belligerent legs across two agent-theaters**:
 
-| | FALCON (Iran/Gulf) | OSPREY (Russia/Ukraine) |
+| Leg | Direction | Evidence |
 |---|---|---|
-| Gate | **GATE-FALCON-001 leg-1 FIRED 7/23** | **GATE-OSPREY-001 leg-(b) FIRED 7/24** |
-| Event | Houthi kinetic enforcement — Saudi tanker *Encelia* struck 7/22 [UKMTO-confirmed] | CPC Black Sea loading halt continuous 7/20→7/24, ≥5 sessions |
-| Fired on | Premium-dominant kinetic execution | **Duration/persistence — explicitly not severity** |
-| Legs still UNFIRED | leg-2 transit collapse · leg-3 loadings collapse | leg-(a) SPM structural damage · leg-(c) Tengiz FM |
-| Physical supply lost | **Zero barrels** | Real but modest — Kazakh output −21%, Tengiz −56%, ~1–1.5% of global |
-| Theater marks | D **65 HOLD**, D→75 armed/proximate; convergence **42/50 ATH** | Channel 1 **4🔴** · Channel 2 **4🔴** · Channel 3 **3🟠** |
+| **US–Iran** | ↓ **DE-ESCALATING** | 13-night campaign paused 7/24, holding 3+ nights; Iran on record halting retaliation; Oman-mediated Hormuz channel active. ⚠️ Cause is a **munitions / exhausted-target-list constraint** (Adm. Cooper, Gen. Caine) — durable short-horizon, **silent on intent**, and implies the next escalation is a *step change*, not a resumed tempo |
+| **Saudi–Houthi** | ↑ **ESCALATING** | Four-year truce broken; Jazan (400 kbpd) struck 7/25, still burning 7/26-27 on two claimant-independent satellite constellations; Yanbu fired on and **intercepted** 7/25; Petroline claimed 7/27 (claim-only) |
+| **Russia–Ukraine** | → **CONTINUING** | Tyumen refinery hit ~2,000 km deep 7/25; Golden Leo sunk 7/26; **CPC resumed 7/27** |
 
-**ASSESSMENT — the binding constraint has migrated from physical destruction to insurer/owner willingness, in both theaters simultaneously.** Read the fire mechanisms, not the headlines: OSPREY's gate held with **SPMs officially intact** — what kept the terminal shut was **ExxonMobil and Chevron refusing to call** [OilPrice 7/23]. FALCON's gate fired with **no hull sunk and no capacity destroyed** — what moved was **war-risk premium** (Red Sea ~0.75%/hull, **+150% w/w**; Bab AWRP ~0.5%). Pair datum: **two Saudi-crude VLCCs U-turned to Suez on a threat email** [7/21], no attack executed. Black Sea war-risk **~0.6% → >1%**, one broker ~1.5% [The Insurer 7/21]. PROME offered this as a hypothesis 7/21; it is now **validated independently by the fire mechanism of both gates**. → `KB-HAWK-228/229`, `FLOW-HAWK-19` (re-cut).
+**ASSESSMENT — the methodological consequence is the important part, and it is HAWK's own version of the problem FALCON just solved.** FALCON's single file now contains **two counter-moving wars**: its convergence composite *fell* 2 points in the week its theater took its first Aramco production-class hit since 2022 (they adopted RED's P/R split in response). **The same masking applies one level up: reconciling BY AGENT-THEATER is now the wrong cut.** The correct cut for cross-war synthesis is **by belligerent dyad**, not by which sibling owns the file. Adopting that cut here from this session forward. → `KB-HAWK-238`.
 
-**⚠️ Reversibility caveat every consumer should carry:** premium unwinds fast; destroyed capacity does not. A premium-driven repricing is **more fragile in both directions** than an equivalent move backed by capacity loss.
+**⚠️ SELF-CORRECTION TO MY OWN LOAD-BEARING PHRASE (7/28).** I have been writing **"zero confirmed barrels offline in either theater."** That is true of **crude** and it invites a false generalisation, which matters because it is the phrase BRENT/HENRY/LIQUID/SAM/FALCON are all consuming. **The war's ONE confirmed, sustained, quantified energy supply loss exists — in LNG.** Iranian strikes hit two Ras Laffan trains mid-March; **~12.8 Mtpa ≈ 17% of Qatar's LNG exports; force majeure declared 2026-03-24; extended 7/28 to European *and* Asian buyers — a fourth month, lengthening rather than healing** [Bloomberg 7/22 + 7/28, AGBI, Edison confirmation, via WALTER SIG-W-20260728-004]. It has the damage assessment, the volume, and the FM that the crude thesis keeps looking for. **Correct phrasing from here: zero confirmed CRUDE barrels offline.** *(It does **not** fire HAW-18 — the strike and FM predate the Jul 25–Sep 1 window by four months and already sit in the base rate that forced my 60%→55% correction.)* → `KB-HAWK-242`.
 
----
-
-## 2 · DOUBLE-COUNT CHECK — holds, with one asymmetry to route
-
-**Siblings self-policed cleanly; no correction owed to either.** OSPREY posted an explicit **theater-attribution guard** (Brent's 7/23 >$100 print = FALCON's Red Sea/Hormuz theater, *not* Black Sea; no fresh 7/23 CPC strike) and its BRENT fire-alert packet explicitly non-conflates with FALCON's driver. Streams remain non-overlapping: Urals/CPC-Kazakh vs Gulf/Iranian; Baltic/Black Sea vs Hormuz/Bab. **Additive, not double-counted.**
-
-**HAWK's added delta:** "both gates fired" is circulating as *two supply shocks*. It is **one premium event with zero barrels (FALCON) + one modest real-barrels event (OSPREY, Kazakh not Russian, ~1–1.5% global)**, mediated by the same insurer/owner channel. Summing them additively overstates the physical leg. Routed to BRENT 7/25. → `KB-HAWK-230`.
+**Still load-bearing: zero confirmed CRUDE barrels offline in either theater**, against **OPEC spare capacity of 0.02 mb/d (Middle East 0.00)** [EIA July-2026 STEO, WALTER-verified at the primary]. The frame holds *and* has no buffer under it.
 
 ---
 
-## 3 · WAR-RISK / SHIPPING-INSURANCE AGGREGATE — ✅ **STANDING LANE (Will-approved 7/25, sunset cancelled)**
+## 2 · 🎯 THE CPC RESOLUTION — my registered natural experiment resolved, and it confirms the migration thesis
 
-**Named surface: `domain/war-risk/CROSS_THEATER_WAR_RISK.md`** — refreshed every closeout (CLAUDE.md step 13a), staleness bar 10d/leg. Ownership unchanged: **FALCON** = Gulf/Hormuz/Red Sea/Bab + JWC/P&I · **OSPREY** = Black Sea · **BRENT** consumes · **HAWK** owns the cross-leg comparison and stale-carry catches — no competing copies.
+**Pre-registered 7/25:** *"Owner return with SPMs intact = strong confirm. A late SPM-damage or FM disclosure = the fire was severity all along and I mis-attributed it."*
 
-| Leg | Current | As of | Owner |
-|---|---:|---|---|
-| **Hormuz** (hull) | **7.5 – 10%** | 7/22 | FALCON |
-| Southern Red Sea | **>1%** (0.3% → 0.75% → >1%) | 7/23 | FALCON |
-| Bab al-Mandab AWRP | ~0.5% | 7/23 | FALCON |
-| **West Coast Saudi — no chokepoint transit** | **0.1%** | 7/23 | FALCON |
-| Black Sea (hull) | >1% (one broker ~1.5%) | 7/21 ⚠️ | OSPREY |
+**Outcome [Astana Times 7/27, primary; Bloomberg/Rigzone 7/27]:** CPC resumed after ~1 week at **two SPMs — no structural damage, no repair, no new force majeure** — with the operator conditioning continuation on *"ongoing assessments of the **security** situation."* The returning tankers (SEAMAJESTY, MILOS) were chartered by **Tengizchevroil**, i.e. **the same Chevron whose refusal to call defined the willingness leg on 7/23.** → `KB-HAWK-235`.
 
-**🔴 First output of the standing lane — a stale-carry catch:** FALCON's canonical Hormuz figure is **~5%** (KB-FALCON-004, 7/10-11). The live print is **7.5-10%** [Marcus Baker, Marsh global head of marine → Platts, **7/22**] — **~12 days stale and roughly half the current level.** Their Red Sea carry (~0.75%) is likewise the 7/21 figure, superseded 7/23. This matters beyond bookkeeping: FALCON's "premium, not supply-loss" framing is *priced off premium levels*, so understating the premium leg by ~2× understates how much is already in the tape. Routed as a correction, not a disagreement.
+**🔴 THE REFINEMENT, and it is this session's headline: MAGNITUDE NO LONGER DISCRIMINATES A PREMIUM EVENT FROM A PHYSICAL ONE — ONLY REVERSIBILITY DOES.** During the halt ~**440 kbpd** of Kazakh output was offline (2.07 → 1.63 M bpd, −21%; Tengiz 925 → 406 kbpd, −56%). That is **production-class magnitude with zero capacity destroyed**, and it reversed on a *decision* rather than a repair.
 
-**🎯 The decomposition — HAWK's own read, and the strongest quantitative evidence yet for the migration thesis.** Same war, same belligerents, same region, priced two orders of magnitude apart: **0.1%** for a Saudi call that never transits a chokepoint → **0.5%** Bab → **>1%** southern Red Sea → **7.5-10%** Hormuz. **A 75-100× spread attributable purely to which water the hull crosses.** What the market prices is **transit risk — willingness to move a hull** — not production risk, not country risk, not lost barrels. It also explains *why* branch (c) is reversible: transit risk reprices the moment transit is judged safe; destroyed capacity does not come back on a broker's revised rate. **And Hormuz is 7-10× the Black Sea leg** — "both theaters carry war-risk pressure" is symmetric-sounding and wrong by an order of magnitude (insurer-side analogue of §2's barrels asymmetry). → `KB-HAWK-231/232/233`.
+**⇒ Consumer consequence (routed to BRENT): you can no longer infer "real supply event" from the size of the barrel loss.** The discriminating question is **was capacity destroyed**, not how many barrels moved. → `KB-HAWK-236`, `FLOW-HAWK-19` (refined, not re-cut — the three branches stand).
+
+⚠️ **Two vintage traps caught while resolving this, either of which would have falsely fired HAW-18:** a Baird Maritime *"CPC returns to full loading capacity after mooring point repaired"* headline is **25 Jan 2026** (SPM-3, damaged Nov 2025); every *"Tengiz force majeure"* headline in circulation is the **Jan 2026** GTES-4 power-station arc. OSPREY had independently date-verified both — the guard held on both sides.
 
 ---
 
-## 4 · DORMANT BOOK — re-swept 2026-07-25 vs external primaries
+## 3 · 🆕 THE WILLINGNESS CHANNEL IS GOING STRUCTURAL — and it answers RED's steelman against me
 
-*Executed, not carried forward (LESSONS #3 / HAW-03 discipline). Clock was not yet due (45d from 6/20 = 8/4); the **content** flag was ~6 weeks overdue.*
+**MRPL (India, state-owned ONGC subsidiary) is the first Indian refiner ever to write "avoid the Red Sea *or* the Strait of Hormuz" into a spot crude tender** — up to 1M bbl, delivery 25 Aug–6 Sep, and **the clause stays in future tenders if conditions don't improve** [Reuters, tender document seen, 7/27].
 
-| VX ID | Vector | Status | Re-swept | Finding |
-|---|---|---|---|---|
-| **TWN-01** | Taiwan (military/chokepoint) | 🔴 **RED — partial re-fire** | 7/25 | **PLA posture escalated inside my dark window.** Live-fire drills in the Strait **7/23-24** after Lai's "not subordinate to the PRC" speech; **7/24: 19 PLA aircraft + PLAN vessels, 12 median-line crossings**; **first-ever PLA helicopter median-line crossing into the restricted zone east of it, 7/22** — new gray-zone precedent. ⚠️ **No chokepoint disruption**: drills hugged the Fujian coast, MSA closure zone was off Zhejiang >500km away. |
-| **VEN-01** | Venezuela | 🟢 **GREEN** (was 🟡) | 7/25 | Normalization **confirmed + quantified**: exports **1.2M bpd Jun** (1.24M May, 1.23M Apr = 7-yr high). Chevron ~293kbpd; Vitol/Trafigura ~775kbpd; US 630kbpd, India 277kbpd. Sanctions architecture intact; Shell/BP seeking licences. **Now a net supply contributor, not a risk vector.** |
-| **TRADE-01** | US-China trade war | 🟡 YELLOW | 7/25 | Truce **holds to Nov 10 2026** — but **selective escalation inside it**: MOFCOM added **10 US firms 6/22**, incl. **MP Materials + USA Rare Earth**, the two US-funded domestic-REE champions. Occurred 2 days after the prior update = net-new to my book. |
-| TRADE-02 · SULPHUR-01 · FININFRA-01 · IRAQ-01 · CEASEFIRE-01 | — | unchanged | clock 8/4 | Not re-swept this session; no content flag against them. IRAQ-01/SULPHUR-01 remain BRENT-deferred; CEASEFIRE-01 is a historical anchor. |
+**RED's standing steelman was *"is 'willingness' just the premium channel relabelled?"* — my weakest joint. This is the first datum that separates them.** A premium is a **price** that unwinds the moment transit is judged safe. A tender clause is a **quantity** decision that is forward-dated, contractual, sticky by its own terms, and precedent-setting in the world's **#3 crude importer**. It persists *after* the premium normalises — which is exactly the property "relabelled premium" cannot have.
 
-**✅ Graduation question RULED — Will, 2026-07-25: HOLD TWN-01 DORMANT.** Graduation out of the dormant book declined; watch raised. My recommendation (calibrated no — drills-after-a-Lai-speech is an established Beijing playbook, and the only genuinely novel element, the 7/22 helicopter precedent, is **single-source**) was accepted. **Promotion now requires EITHER corroboration of the helicopter median-line crossing OR any median-line action touching Strait shipping** — recorded in the VX row so it isn't re-litigated next session.
+⚠️ **Do not size it off volume** — 1M bbl is noise for a ~300 kb/d refinery. The datum is the precedent and the contract language. ⚠️ **The buyer bars BOTH chokepoints** — it treats the Red Sea *bypass* as compromised too, a live input to my West Coast Saudi falsifier. **Adopted test (WALTER's pre-registration): ≥2 further Indian refiners by ~8/24 = durable re-contracting; zero = one cautious buyer.** → `KB-HAWK-237`.
 
 ---
 
-## 5 · PREDICTIONS
+## 3b · 🆕 LIBYA OPENS A **THIRD** SUPPLY-REMOVAL INSTRUMENT — and it generalises the thesis
+
+**7/28: a Libyan revenue-denial campaign executed.** The "Sons of Souq al-Jum'ah Movement" — stated aim **overthrowing the government** — entered the **Mellitah** oil-and-gas complex; **El Feel stopped (80-90 kb/d)**, **Wafa partially halted**. No FM, no confirmed gas-flow impact. [WALTER SIG-W-20260728-006 + its same-day correction, Will-caught.]
+
+**The datum is not the 85 kb/d.** Oil revenue is **~98% of Libyan government revenue**, so shutting oil *is* the campaign's theory, not a tactic it happens to use. Precedent: **Apr–Jul 2022, protesters (not the army) halved national output ~1.2 mb/d → ~500 kb/d, and it ended when the political objective was met.** **Resolving question: does it spread to the export terminals** (Es Sider, Ras Lanuf, Zueitina, Brega, Hariga)? — **NOC terminal-level FM is the tell**, and that is the step that converts 85 kb/d into 500-900 kb/d.
+
+**🎯 WHY IT MATTERS BEYOND LIBYA.** Neither sibling's theater, and **neither kinetic nor insurance-mediated** — output removed by **domestic political leverage**. Set beside CPC it forces a generalisation: **the discriminating property is REVERSIBILITY / NON-DESTRUCTION, not who makes the decision.** Insurer/owner willingness and political revenue-denial are two *instances* of one class. **⇒ "Willingness" was slightly the wrong name for my own thesis** — it names an actor class for a property that is really about the **asset**. Widens the read rather than weakening it, and predicts future reversible-loss events need not come through the insurance channel at all. → `KB-HAWK-240/241`.
+
+⚠️ **Do not net Libya against the Gulf legs as "more escalation."** The mechanism differs in kind, and the base rate cuts both ways: these usually resolve in days-to-weeks — and when they don't, they get much bigger.
+
+---
+
+## 4 · DOUBLE-COUNT CHECK — holds; one framing correction owed to the fleet
+
+**Siblings remain clean.** FALCON theater-checked Golden Leo and Tyumen out of its gate set and routed them to OSPREY; OSPREY's attribution guard (Kazakh ≠ Russian) holds. Streams non-overlapping. **Additive, not double-counted.**
+
+**HAWK's added delta this pass:** "three counter-moving legs" is already circulating as *"the war is de-escalating"* (the pause headline) **and** as *"escalation confirmed"* (the Jazan headline). **Both are single-leg reads of a three-leg picture.** The pause is US–Iran only; the blockade remains in full effect and is not covered by it; and the Saudi–Houthi leg escalated *after* the pause began. Anyone netting these to one direction is wrong regardless of which direction they pick.
+
+---
+
+## 5 · WAR-RISK / SHIPPING AGGREGATE — ✅ standing lane, refreshed 7/28
+
+**Surface: `domain/war-risk/CROSS_THEATER_WAR_RISK.md`** (closeout step 13a, 10d/leg bar) — full table and decomposition live there. Legs unchanged this pass: **Hormuz 7.5-10%** [7/22] · **S. Red Sea >1%** [7/23] · **Bab ~0.5%** [7/23] · **West Coast Saudi 0.1%** [7/23] · **Black Sea >1%** [7/21].
+
+- ✅ **Catch #1 CLOSED.** FALCON **adopted my Hormuz correction in full** (~5% → 7.5-10%) and **named a war-risk surface** (`workbook/WARRISK.tsv`), scoped to avoid colliding with this lane. Per convention I re-point to their number and drop my copy. **The 🟠 PROME nudge is closed.**
+- ⚠️ **Catch #2 OPEN — the Black Sea leg is content-stale before it is clock-stale.** Print is 7/21 (7d, bar 10d) — but **CPC reopened 7/27 and there is no post-resumption print.** Compounding: **OSPREY's STATUS (7/24) still reads "still HALTED."** Routed as a correction.
+- **The transit decomposition stands and remains my strongest quantitative evidence:** 0.1% (no transit) → 7.5-10% (Hormuz), **a 75-100× spread on which water the hull crosses alone**; Hormuz is **7-10× the Black Sea leg**, so "both theaters carry war-risk pressure" is wrong by an order of magnitude.
+
+---
+
+## 6 · DORMANT BOOK — no re-sweep due (clock **2026-08-04**)
+
+Re-swept 7/25 against external primaries; 45-day cadence next fires 8/4. **No content flag against any VX row this pass.** TWN-01 🔴 held dormant (Will 7/25; promotion bar recorded in the VX row: corroboration of the 7/22 helicopter median-line crossing **or** any median-line action touching Strait shipping) · VEN-01 🟢 (net supply contributor, 1.2M bpd Jun) · TRADE-01 🟡 (truce to Nov 10 2026, selective escalation inside it) · TRADE-02 · SULPHUR-01 · FININFRA-01 · IRAQ-01 · CEASEFIRE-01 unchanged.
+
+**🔴 BUT A CONTENT FLAG LANDED ON THE DORMANT *FLOW* ROWS, AND THE CLOCK SAYS 8/4 — THIS IS THE EXACT LESSONS-#3 SHAPE THAT BIT ME ON 7/25 (clock not due, content overdue).** `FLOW-HAWK-13` (Hormuz → Taiwan LNG crisis) and `FLOW-HAWK-16` (Ras Laffan → helium → semiconductor rationing) are both marked **MUTED (dormant-armed)** carrying **[STALE Apr-20 figures]**, and both are premised on Ras Laffan being offline. **Ras Laffan is still offline and the force majeure is EXTENDING into month four** (§1) — so the *premise* of those rows is not merely alive, it is lengthening, while their downstream figures are three months stale.
+
+**Scoped honestly: I am NOT re-deriving those chains this session** — the helium-buffer and Taiwan-power consequences need a full external re-sweep and would be a session of their own. **Flagged as a content-triggered re-sweep due NOW rather than 8/4**, and it is the first item in NEXT SESSION. Recording the gap rather than carrying the rows silently is the whole lesson from HAW-03.
+
+---
+
+## 7 · PREDICTIONS
 
 **Scoreboard: 5 CONFIRMED / 8 FAILED / 1 PARTIALLY / 1 VOIDED / 2 REHOMED / 1 OPEN.**
 
-**🆕 HAW-18 registered 7/25 (60%, → Sep 1) — first HAWK-native prediction post-split.** *Through Sep 1, NEITHER theater produces a production-class physical supply loss; the premium/willingness channel stays the sole transmission route.* Fails on any of: Gulf-ally/Iranian production-or-export-terminal hit with output offline or FM · vessel sunk · CPC SPM structural damage · Tengiz FM · named Russian crude berth destroyed. **Pre-registered non-fires** (blocking the known false-marks): grid/power-plant campaign · oil-sector site with function unnamed and no output loss (Mangaf class) · tanker struck-but-not-sunk (Encelia class) · loadings halt without damage or FM (CPC class). This row is the **falsifier for the FLOW-19 re-cut** — if a physical gate fires, the migration read is wrong.
+**HAW-18 (55%, → Sep 1) — OPEN, ALL FIVE LEGS UNFIRED, graded off external primaries + the siblings' ledgers:**
 
-**Watched at the siblings (theirs to resolve, not mine):** **FAL-01 → Jul 26 (tomorrow, unfired)** · **OSP-01 → Aug 1** · **OSP-03 → Aug 2** · **OSP-02 → Jul 31**.
+| Leg | Theater | Status | Basis |
+|---|---|---|---|
+| (a) production/export-terminal hit **with output offline or FM** | FALCON | **unfired** | Jazan, Abqaiq, Yanbu, Petroline — **no damage assessment, no bpd offline, no FM anywhere**, 3 days on |
+| (b) vessel confirmed **SUNK** by hostile action | FALCON | **unfired** | Golden Leo sunk 7/26 — **grain ship, Black Sea**. Two independent grounds; see defect below |
+| (c) CPC **SPM structural damage** | OSPREY | **unfired** | Resumed 7/27, SPMs intact, no repair. "Mooring repaired" headline = **Jan 2026** vintage |
+| (d) **Tengiz FM** | OSPREY | **unfired** | Only FM extant is **Jan 2026** (GTES-4 blaze). July cuts framed "technical," not FM |
+| (e) named Russian crude-export **berth destroyed** | OSPREY | **unfired** | Tyumen is a *refinery* (~151 kbpd, hydrotreater, fire out) — not a berth, not crude-export |
+
+**✅ The pre-registered non-fire clause was vindicated, not lucky.** HAW-18 explicitly stated on 7/25 that *"a loadings HALT without confirmed structural damage or FM does NOT fire it (the CPC 7/20-24 class)."* Written before the resolution; the 7/27 reopening proved the carve-out correct.
+
+**🔴 BUT THE SPEC HAS A DEFECT, DECLARED IN PUBLIC RATHER THAN QUIETLY NOTED.** I wrote FALCON's legs as **operational thresholds** ("output offline OR FM") and OSPREY's as **named exemplars**. Two consequences: **(i)** leg (b) is bracketed `[FALCON theater]`, so a **crude tanker** sunk in the Black Sea would read "no fire" while the thesis was being falsified — what saved it this week was the *cargo class*, not the bracket; **(ii)** ~440 kbpd offline for a week is **invisible** to the OSPREY legs, because I gave that theater only damage/FM proxies and no direct output test. Fifth in the wording-wedge family (HAW-10 locus → HAW-14 catalyst → HAW-15 mechanism → FAL-01 actor → **HAW-18 theater-scope**).
+
+**Two further instances arrived the same session, and the third is the worst of them:**
+
+- **(iii) SCOPE, not a leg — the row says "NEITHER theater" as though the world had two.** All five legs are bracketed `[FALCON theater]` / `[OSPREY theater]`. **Libya is neither** — so a revenue-denial campaign taking 500-900 kb/d offline **cannot fire HAW-18 on the letter at all.** HAWK is *the* cross-cutting agent (my own domain scope names general chokepoints, Venezuela, Taiwan, sanctions-regime), and I wrote my flagship prediction as if only my two siblings' theaters could remove oil from the world. That is a defect in the **premise**, not the wording.
+- **(iv) MOLECULE.** The row is scoped to oil, so the war's one confirmed, FM-backed, four-month supply loss — **Ras Laffan LNG** — sits entirely outside it while my summary phrase implied nothing had been lost anywhere (§1 self-correction).
+
+**The non-obvious half of the fix:** simply adding an output-offline test to the OSPREY side would have fired HAW-18 **FAILED on the CPC episode — i.e. killed the thesis on evidence that confirms it.** The correct successor leg is **output offline CONDITIONED ON DESTROYED CAPACITY**, per `KB-HAWK-236/241` — and it must be written **theater-agnostic and molecule-explicit**. **HAW-18 is NOT amended** (evidence is in-window; pre-registration governs) — the fix is registered in the successor row at resolution, as FALCON did with FAL-01→FAL-03.
+
+⚠️ **Honest read on what this does to the row's confidence:** three of the four defects make HAW-18 **easier to confirm than the thesis it stands for deserves.** The row can survive on a technicality while the underlying claim ("premium/willingness is the sole route") takes real damage. **I am not re-pricing it mid-window** — that is exactly the drift pre-registration forbids — but any consumer should treat a HAW-18 CONFIRMED on Sep 1 as **weaker evidence for the thesis than the row's 55% implies.** Stated now, before resolution, so it cannot be claimed retroactively.
+
+**At the siblings:** **FAL-01 RESOLVED FAILED 7/27** (Jazan; FALCON marked it clean rather than rescuing it, and adopted *my* class-vs-direction basis over WALTER's) · **FAL-03** registered 58%, → Aug 17 · **OSP-02** → Jul 31 · **OSP-01** → Aug 1 · **OSP-03** → Aug 2.
 
 ---
 
-## 6 · ACTIVE THREADS / DECISIONS
+## 8 · ACTIVE THREADS / DECISIONS
 
-- 🔴 **FAL-01 closes tomorrow with an unadjudicated ambiguity.** WALTER's **SIG-W-20260723-005** (IMMEDIATE, action→FALCON) asked FALCON to rule on **KPC Mangaf 7/18**; as of my boot it was **unprocessed in FALCON's inbox and absent from their STATUS**. Pinged FALCON 7/25. **My read: WALTER framed FAL-01 as direction-blind ("watches only Iranian/Kharg"), but the registered row reads "Gulf-ally OR Iranian" — the real test is the CLASS qualifier, which Mangaf fails on the letter** (function unnamed, no bpd offline, no FM). Concur NO-FIRE, different basis; **no gate re-spec warranted.** Cluster worth carrying: **three borderline-class events in two weeks** (KOC 7/12, Kuwait power/desal 7/18-19, Mangaf 7/18).
-- ✅ **Cross-war insurance lane KEPT — Will 7/25, ~8/1 sunset CANCELLED.** Formalised as `domain/war-risk/CROSS_THEATER_WAR_RISK.md` + mechanized into closeout step 13a (so it can't rot on a remembered ritual). First refresh already produced a stale-carry catch on FALCON's Hormuz figure — §3.
-- ✅ **TWN-01 HELD DORMANT — Will 7/25** (§4). Re-fire bar recorded in the VX row.
-- 🟠 **FALCON has no named war-risk surface** — the theater with the highest and fastest-moving premiums (Hormuz 7.5-10%) carries them only in KB/STATUS, which is how the ~5% carry went 12 days stale. Nudge candidate, not HAWK's to build.
-- ✅ **FLOW-HAWK-18 disposition CLOSED** (open since the 7/12 split): **routed to ZHAO** (primary) / BRENT (consumer), not retired — it is China-macro, not cross-war, and its Apr-20 figures should be re-derived by ZHAO, not inherited.
-- ✅ **PROME's 7/25 ask answered:** my stranded 3/23 SIGNALS.md row — **archive stands** (§ reply sent; D 78 is superseded by the Will-approved D 65).
-
----
-
-## 7 · 🔴 LATE-BREAKING (landed during closeout, 7/25 ~19:30)
-
-**Houthi missiles + drones struck Aramco's JAZAN REFINERY (400 kbpd) 7/25** — Reuters-verified video, NASA FIRMS thermal confirmation. **The Saudi-Houthi truce has broken after four years**, and it is **entirely unpriced** (futures closed). Output loss **NOT established** — no Aramco assessment, no bpd offline, no FM. FALCON adjudicates FAL-01; WALTER carried my class-qualifier correction and notes Jazan is **the first candidate that clears the class axis**.
-
-**My cross-war claim (this is my lane, not the siblings'): this is a SECOND THEATER RE-OPENING, not an extension of the first.** The Saudi-Houthi truce survived the entire US-Israel-Iran war and did not survive this week. **Consequence for the migration thesis:** a repeat-strike campaign against a *declared, named* target list (six Saudi ports + "Aramco facilities and refineries") is the mechanism that converts willingness-driven premium into physical supply loss — because it makes owners and insurers price a **standing** hazard rather than an episodic one. **Watch the target list, not the last strike.**
-
-**Answered WALTER's open question decisively (routed to BRENT + WALTER pre-Sunday-open):** *does a refinery outage transmit to crude the way Abqaiq's processing outage did?* **No — opposite sign, and the Russia theater has already run the experiment at national scale.** All ~11 major Russian refiners struck, **~30% of refining capacity offline**, and over the same window **crude exports hit 4.22M bpd, the highest since the 2022 invasion**, while diesel loadings collapsed to 234 kbpd. **A refinery outage doesn't remove barrels — it re-routes them from the product pool to the crude pool.** So the Abqaiq analogy fails on **direction** as well as magnitude, and the live instrument is cracks/diesel, not flat crude. → `KB-HAWK-234`.
-
-**HAW-18 has NOT fired on Jazan — twice over on the registered text**, stated publicly for challenge: (i) the row requires a **production/export-terminal** hit; a refinery is neither — and the above is precisely *why* that line was drawn, so the spec is working, not being read conveniently; (ii) it requires **confirmed output offline or FM**, and neither exists. **This is the closest call the row will get, arriving ~12h after registration.** If an Aramco assessment lands with output offline, I re-adjudicate in public against the registered text.
+- ⚠️ **OSPREY is 4 days dark and its canonical surface is wrong.** STATUS (7/24) reads CPC "still HALTED"; it reopened 7/27. Ledger swept-through 7/23 with Tyumen (7/25) and Golden Leo (7/26) un-rowed; Black Sea war-risk print 7/21. **Routed 7/28** — this is the rot pattern that bit me on 7/25, arriving at a sibling.
+- ✅ **FALCON's legacy-scripts packet — premise refuted, no change made.** They report *"your boot runs five scripts"* printing D 82% / "Yanbu OPERATIONAL." **`scripts/boot.py` carries its own banner at line 4: "FROZEN 2026-07-09 — NOT wired into the boot protocol,"** and my CLAUDE.md boot never invokes it. They read `mtime 2026-07-09` as "so live" — **that mtime *is* the freeze commit.** Their underlying finding (all five print stale values at rc=0) is correct and their **option 3 is a real point I accept: the sanctions / shadow-fleet-enforcement lane is genuinely HAWK's** and is currently unbuilt. Reply sent.
+- 🟡 **Shadow-fleet enforcement lane is a hole in my own scope.** `sanctions_tracker.py` renders hardcoded `BASELINE_METRICS` as live readings. The lane is mine per CLAUDE.md; the instrument is dead. **Not rebuilding it this session — flagged as the highest-value HAWK build candidate.**
+- 🟠 **CPC re-halt risk is the live tail** — resumption is conditioned on *"ongoing assessments of the security situation,"* i.e. the same willingness variable, not a repaired asset.
+- 🟠 **Consumer check (step 1c) found my ambiguous phrase propagating fleet-wide** — `NEXUS/STATUS.md`, `WALTER/STATUS.md`, `FALCON/NEXUS_BRIEF.md` + two FALCON thesis docs all carry "zero barrels offline" without the crude qualifier. Packets sent; **their files are theirs to edit, not mine.**
+- 🟡 **RED steelman** half-answered by §3 (MRPL). Remaining half: does a contract clause survive premium normalisation? · 🟡 **Nov 10 2026** — US-China truce expiry.
 
 ---
 
 ## BOTTOM LINE
 
-**The decoupling thesis didn't just go stale — its pathway was falsified.** The old FLOW-19 encoded a binary (damage transmits / no-damage decouples); July delivered a third route the row could not represent: **transmission through insurer and owner willingness with essentially no barrels lost.** Brent printed its first-ever **>$100 settle 7/23** and settled **$96.78 Fri 7/24** [BRENT-owned] while both theaters' severity legs stayed unfired — and both gates fired on persistence and premium instead. **The single most important thing to watch is whether any physical gate fires** (HAW-18's five legs, → Sep 1): that is the difference between a fragile, reversible premium regime and a durable supply-loss regime, and every downstream consumer is currently positioned off the first. **Changed since last update (13 days):** both gates fired, Brent +~$20, the dormant book was re-swept for the first time since June (Taiwan escalated, Venezuela normalised to a supply contributor, the China truce cracked selectively), FLOW-19 was re-cut, and HAW-18 became HAWK's first native post-split prediction.
+**The migration thesis just passed its cleanest test and got sharper in passing.** CPC took ~440 kbpd offline for a week and gave them all back with **nothing destroyed and nothing repaired** — the barrels moved on a *decision*, which means **magnitude no longer separates a premium event from a physical one; only reversibility does.** Every consumer still sizing "is this real?" off barrel count is using a broken instrument. **The single most important thing to watch is whether any physical gate fires** (HAW-18's five legs, → Sep 1, all unfired) — that is the line between a fragile reversible regime and a durable supply-loss one, and with **OPEC spare at 0.02 mb/d** there is no buffer under the first confirmed barrel. **Changed since 7/25:** the two theaters decoupled into three counter-moving legs (so agent-theater is the wrong reconciliation cut — belligerent dyad is), FAL-01 failed, Brent round-tripped ~−11-13% with a refinery still burning (validating my reversibility caveat), the willingness channel showed its first *structural* expression in an Indian tender clause, and I found and declared a theater-asymmetry defect in HAW-18's own spec.
