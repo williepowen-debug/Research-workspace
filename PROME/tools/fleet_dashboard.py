@@ -233,24 +233,37 @@ def parse_docket(today, horizon=21):
 def parse_heartbeat():
     text = read("HEARTBEAT.md")
     one = ""
-    m = re.search(r"^\*\*One-liner.*$", text, re.M)
+    m = re.search(r"^\*\*One-liner:?\*\*:?\s*(.*)$", text, re.M)
     if m:
-        q = re.search(r'[“"]([^”"]+)[”"]', m.group(0))
-        one = q.group(1) if q else ""
+        # prefer a quoted phrase; a re-based HEARTBEAT may drop the quote marks
+        # entirely (7/24 regression class) — fall back to the unquoted remainder
+        q = re.search(r'[“"]([^”"]+)[”"]', m.group(1))
+        one = q.group(1) if q else md_clean(m.group(1))
     split = ""
     m = re.search(r"Break \d+ / Grind \d+ / Unresolved \d+", text)
     if m:
         split = m.group(0)
     channels = []
-    for m in re.finditer(r"^\d+\.\s+\*\*(.+?)\*\*(.*)$", text, re.M):
+    # tolerate the number inside OR outside the bold ("1. **X**" and "**1. X**"):
+    # a HEARTBEAT re-base is a breaking format change to this parser (PAT-069)
+    for m in re.finditer(r"^\*{0,2}\d+\.\s*\*{0,2}(.+?)\*\*(.*)$", text, re.M):
         head = m.group(1)
         name = md_clean(head.split("—")[0])
         cls = status_class(head, "none")
         headline = trunc(md_clean(head.split("—", 1)[1] if "—" in head else head), 64)
-        body = trunc(md_clean(m.group(2)), 230)
+        body = m.group(2)
+        if not body.strip():
+            # whole-line-bold heading: body starts on the next line
+            after = text[m.end():].lstrip("\n").split("\n", 1)[0]
+            if not re.match(r"^\*{0,2}\d+\.\s*\*{0,2}|^#|^>", after):
+                body = after
+        body = trunc(md_clean(body), 230)
         channels.append({"name": name, "cls": cls, "headline": headline, "body": body})
     ticker = []
-    m = re.search(r"## Stress dashboard.*?\n\n(.+?)\n\n", text, re.S)
+    # anchor on the first Brent-carrying line within 8 lines of the heading —
+    # never require a blank line after it (the old \n\n anchor overshot the
+    # whole section when the re-base removed the blank line)
+    m = re.search(r"^## Stress dashboard.*$((?:\n.*){1,8})", text, re.M)
     if m:
         line = next((l for l in m.group(1).splitlines() if "Brent" in l), "")
         ticker = [md_clean(t) for t in line.split(" · ") if t.strip()]
@@ -878,6 +891,8 @@ def build(today, now_iso):
         return cards or '<div class="parsefail">⚠ no channels parsed — read HEARTBEAT.md</div>'
 
     def render_ticker():
+        if not hb["ticker"]:
+            return '<div class="parsefail">⚠ no ticker parsed — read HEARTBEAT.md stress dashboard</div>'
         return "".join(f'<span><b>{esc(t.split(" ")[0])}</b> {esc(" ".join(t.split(" ")[1:]))}</span>'
                        for t in hb["ticker"])
 
@@ -981,6 +996,12 @@ def build(today, now_iso):
 
     spine_chip = (chip("ok", f"spine audit {spine_age}d") if spine_age is not None and spine_age <= 7
                   else chip("elev", f"spine audit {spine_age}d" if spine_age is not None else "spine audit ?"))
+    # empty-panel tripwire (DAEDALUS 7/28 audit): a parser regression must show as
+    # a header chip, never as a quiet page — finding_silent_blank_evades_review
+    empty_panels = [n for n, v in (("one-liner", hb["one"]), ("channels", hb["channels"]),
+                                   ("ticker", hb["ticker"]), ("tiles", tiles)) if not v]
+    panels_chip = (chip("crit", f'{len(empty_panels)} panel(s) EMPTY: {", ".join(empty_panels)}')
+                   if empty_panels else "")
     tier2_names = " · ".join(n for n, _ in tier2)
     dormant_names = " · ".join(n for n, _ in dormant)
 
@@ -994,6 +1015,7 @@ def build(today, now_iso):
     {chip("ok" if env_rc == 0 else "crit", "env " + ("✓" if env_rc == 0 else "✗"))}
     {chip("ok" if fire_rc == 0 else "crit", "firetime " + ("✓" if fire_rc == 0 else "✗"))}
     {spine_chip}
+    {panels_chip}
   </div>
 </div>
 
@@ -1004,7 +1026,7 @@ def build(today, now_iso):
 
 <div id="view-ops" role="tabpanel" aria-label="Operations">
 <section class="regime">
-  <div class="oneliner">“{esc(hb["one"])}”<span class="split">{esc(hb["split"])}</span></div>
+  <div class="oneliner">{f'“{esc(hb["one"])}”' if hb["one"] else '<span class="parsefail">⚠ one-liner not parsed — read HEARTBEAT.md</span>'}<span class="split">{esc(hb["split"])}</span></div>
   <div class="cards">{panel_guard("regime", "HEARTBEAT.md", render_channels)}</div>
   <div class="ticker">{panel_guard("ticker", "HEARTBEAT.md", render_ticker)}</div>
 </section>
