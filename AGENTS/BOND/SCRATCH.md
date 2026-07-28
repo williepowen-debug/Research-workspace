@@ -1,122 +1,92 @@
-# BOND SCRATCH — 2026-07-23 (Thu, multi-pass session — CLOSED OUT)
+# BOND SCRATCH — 2026-07-28 (Tue, ~03:00–04:30 ET — boot + full mail drain, CLOSED OUT)
 
-**Purpose:** Ephemeral session handoff. Read at boot, rewritten at closeout. Learnings → `MEMORY.md`; thesis → `thesis/THESIS.md`; live state → `STATUS.md`.
+**Purpose:** Ephemeral session handoff. Read at boot, rewritten at closeout. Learnings → `MEMORY.md` / auto-memory; thesis → `thesis/THESIS.md`; live state → `STATUS.md`.
 
-**Session shape:** boot → WALTER lane → Will-tasked general inbox → Will-tasked auction grade → Will-tasked research-verified HEN-42 reply v2 → CLOSEOUT → Will-tasked NEXUS_BRIEF refresh → Will-tasked PROME route → FINAL CLOSEOUT ADDENDUM (this).
-
----
-
-## CHANGES SINCE LAST SESSION (7/18 Sat eve → 7/23 Thu closeout)
-
-**Market state (fresh FRED + yfinance 7/22-7/23):**
-- 10Y: 4.57 → **4.67** [7/22] / live **4.70** [7/23] — **20bp above the 4.50 arm line**
-- 30Y: 5.09 → **5.15** [7/22] — 27-day run above 5.0 = longest since 2007
-- 2Y: 4.16 → **4.31** [7/22] — biggest curve mover = policy-path lead
-- **Full real curve 7/17→7/22 belly-led on its own:** DFII5 +10 > DFII7 +9 > DFII10 +8 > DFII20 +6 = DFII30 +6 → **direct evidence AGAINST term-premium expansion** (KB-BND-088)
-- Full nominal curve 7/17→7/22: DGS2 +13 = DGS5 +13 = DGS7 +13 > DGS10 +12 > DGS20 +10 > DGS30 +9 = textbook belly-led bear-flattener
-- Breakevens moved parallel +3-4bp across curve = ambient shift, no term-structure signal
-- DFII10: 2.35 → **2.39** SERIES HIGH — **11bp from the 2.5 re-arm gate** (LIVE watch)
-- T5YIFR: 2.21 → **2.27** [7/23], drifting toward 2.25 band top; well below 2.50 red
-- ^MOVE: 68 → 72.66 [7/20] → **80** [7/23] (+18% two weeks)
-- TLT: $83.85 → **$83.17** [7/23]
-- CME Sept-hike odds: 52% → **80%** in one week (WALTER SIG-723-012)
-- USDJPY: **163.83** [7/23 SAM] fresh 40-yr low, ORDERLY (SAM ARMED-not-FIRED); Brent **$100.43** through the line (BRENT owns)
-
-**Regime read (hardened from 7/18):** SAME regime — real-rate / higher-for-longer POLICY-PATH-LED. Real-curve belly-led on its own → the label correction (KB-BND-080) is now empirically verified by full-curve real-yield data, not just inferred from nominal shape. Real contribution by tenor: 5Y 77% / 10Y 67% / 20Y 60% / 30Y 67% — real dominant everywhere AND belly-led = ~90-95% policy-path with the ~5-10% margin auction-idiosyncratic (20Y-R dealer 14.67%), NOT systemic term-premium.
+**Session shape:** boot (5 days dark) → live-event override (grade + FROZEN 7Y pre-reg before the print) → Will-tasked **full mail drain, 12 items** → CLOSEOUT.
 
 ---
 
-## WHAT I DID THIS SESSION (multi-pass)
+## CHANGES SINCE LAST SESSION (7/23 Thu eve → 7/28 Tue)
 
-**Pass 1 — Boot (per BOND CLAUDE.md steps 0-7):**
-- git pull, STATUS/SCRATCH/MEMORY reads, PREDICTIONS DUE-scan (only BND-01 open, in-window till 7/31), CATALYSTS scan, SCHEMA/VOCABULARIES pre-KB.
-- **WALTER lane (4 items):** SIG-W-717-011 (gold sub-$4000 mid-escalation, INFO), SIG-W-720-005 (Warsh testimony hawkish, INFO — confirms my read), SIG-W-721-009 (Japan Jun trade miss, INFO — SAM lane), SIG-W-723-012 (rates repricing, ACTION — my domain). Consolidated boot-integration row **KB-BND-083**, all 4 moved to `WALTER/processed/`.
-- Boot report to Will with state-delta table.
+**Rates (FRED direct, `fredgraph.csv` — 7/24 is the last full curve print; 7/27 exists only for T10YIE/T5YIFR):**
+- 10Y: 4.67 [7/22] → **4.71 [7/23] peak** → 4.69 [7/24]; live ^TNX **4.64** [7/28] on a pre-FOMC bid
+- 2Y: 4.31 → **4.37 [7/23]** → 4.33 — **+19bp on the 7/17→7/23 bear leg, biggest on the curve**, then only −4bp back on the crude collapse
+- 30Y: 5.15 → 5.16; **29-day run above 5%** (~19% of all 2026 sessions vs 50 days in 2007)
+- **DFII10: 2.39 → 2.43 SERIES HIGH — now 7bp from the 2.5 re-arm** (was 11bp)
+- **T10YIE: 2.28 → 2.26 → 2.21 [7/27] = −7bp** · T5YIFR 2.27 → 2.24 (band-top drift **reversed**)
+- ^MOVE 80.08 [7/23 peak] → 76.82 [7/24] → **77.21** [7/28] · TLT **$83.75** [7/28]
 
-**Pass 2 — Will-tasked: general-inbox processing (4 items):**
-- `2026-07-16 may-tic-arm3-grade` → INTEGRATE → **KB-BND-084** + VX-BND-13 note. Key datum: Japan T-bills −$59.8B REAL selling (~94% of Japan holdings drop), aggregate foreign LT UST +$53.6B (masked-hole flow-level analog of KB-060).
-- `2026-07-18 sat-eve-task-packet` → LOG_ONLY (all 4 tasks completed in 7/18 session).
-- `2026-07-20 zion-call-rate-hike-corroborator` → INTEGRATE-light → **KB-BND-085** + VX-BND-14 note (3 caveats: secondary source, ZION asset-sensitive incentive, verify vs official replay).
-- `2026-07-21 rates-vol-channel-confirm` → INTEGRATE-light (folded into KB-BND-083; superseded by ^MOVE 80 [7/23]).
-- Fresh FRED pull → **KB-BND-086** state-refresh with 5-day decomposition (real 67% / BE 33%).
-- STATUS dashboard refresh (9 rows + TIC catalyst).
-- **Process incident (self-caught, fixed):** initial commit swept in HENRY's pre-staged files (concurrent-commit-index-race per `finding_concurrent_commit_index_race`). Soft-reset undid it; pathspec-recommit was clean BOND-only (commit `10ddecd6`); HENRY's staged renames stayed untouched.
+**Credit — the thing I was blind to:**
+- **HY OAS 268 [7/22] → 277 [7/23] → 279 [7/24] = +11bp in TWO sessions** out of a nine-session range that never moved >5bp
+- CCC 981 → **996** (4bp from 1000) · IG 78 → **80**
+- Tranche pull (WALTER -016): BB 157→168, single-B 285→296, index 268→279 — **absolute-parallel, proportionally largest at the TOP** (BB +7.0% > CCC +1.5%) ⇒ broad repricing, NOT quality-sorted
+- *My dashboard carried **275 [CONF FRED, 7/2]** for 26 days.*
 
-**Pass 3 — Will-tasked: auction cluster grade (7/22-23):**
-- Pulled TreasuryDirect TA_WS API for **7/22 US 20Y-R** (R_20260722_2) + **7/23 10Y TIPS** (R_20260723_3).
-- **40Y JGB via SAM** (MOF eresul20260722 in SAM STATUS 7/23 boot note; my in-env MOF fetch 404'd on EN calendar URL).
-- Graded all 3 vs FROZEN pre-regs → **3/3 NO-MARKER** (full write-up `analysis/2026-07-23_grade_7-22-20Y_7-22-40Y-JGB_7-23-TIPS.md`; **KB-BND-087**).
-- STATUS + VX-BND-05/08/14 refreshed.
-- **HENRY inbox item landed mid-session** (`from-HENRY_HEN-42-policy-path-rotation-your-auctions-are-the-discriminator`) → wrote initial reply v1 → committed `44726880`.
+**Regime read: UNCHANGED and now out-of-sample tested.** Across the ~11% two-session crude collapse (Brent ~$100.50 [7/23] → ~$90.57 [7/27]), **DFII10 held 2.43 → 2.43 (zero) while T10YIE fell −7bp.** The entire rates response ran through inflation compensation; the real/policy leg did not move. Oil shock = breakeven event, not policy-path event — exactly what KB-BND-080/088 predict.
 
-**Pass 4 — Will-tasked: research then reply to HENRY (v2):**
-- Pulled full FRED curve 7/17→7/22 across DFII5/7/10/20/30 + DGS2/5/7/10/20/30.
-- Cross-checked LIQUID KB-LIQ-086 for independence-test.
-- Verified fleet auto-memory `finding_curve_shape_policypath_vs_termpremium` says what I attributed.
-- **Rewrote outbox v2 in place** (same filename per artifact-redeploy discipline; v1 preserved in git `44726880`).
-- **KB-BND-088** documenting the research findings; VX-BND-14 refreshed with full-curve evidence.
-- Two verdict revisions: (a) 85/15 → ~90-95% policy-path (real curve itself belly-led = direct evidence, not inference); (b) "3-way convergence" → really 2-way (LIQUID uses SAME FRED curve + SAME discriminator = NOT orthogonal to HENRY; honest count is 2 routes + 1 shared-antecedent reading).
+---
 
-**Pass 5 — Closeout (this pass):**
-- CATALYSTS.tsv pruned (8 fired rows removed from STATUS table + TSV cleaned; kept 7/2 FR2004 as PENDING-pull tracker + 7/22-23 as freshly-resolved).
-- STATUS refreshed for stale JGB/USDJPY/Brent rows (cited SAM + BRENT with domain-owner attribution per fleet convention).
-- SCRATCH (this file) + RECEIPT rewritten.
+## WHAT I DID THIS SESSION
+
+**Pass 1 — Boot + live-event override.** Repo already in sync (0/0). Pulled FRED direct + TreasuryDirect. Found the 7Y prices **today 1PM** and FOMC decides **tomorrow 2PM** → wrote and committed (`7a18ec13`, ~03:00 ET, **~10h pre-print**) `analysis/2026-07-28_grade_7-27-2Y-5Y_prereg_7-28-7Y.md`:
+- **7/27 grade off TD primaries** (n=250; 50×5Y, 50×2Y, 49×7Y back to Jun-2022) → **HOLDING-with-a-marker**
+- **Claim audit** of the NEXUS/HENRY packets (see corrections below)
+- **FROZEN 7Y pre-reg**, keyed on **composition**, **tail-free by construction**, 4 branches + explicit tie-break
+
+**Pass 2 — Will-tasked full mail drain (12 items → all `processed/`).** 6 general + 6 WALTER. Full disposition table in `RECEIPT.md`. Three items carried enough weight for their own KB rows (FOMC odds, HY OAS, basis trade); the rest consolidated.
+
+**Pass 3 — Closeout.** 5 KB rows (089–093), 10 VX rows, STATUS (state line + 11 dashboard rows + matrix + catalysts + BOTTOM LINE), CATALYSTS.tsv, RECEIPT, this file, 2 auto-memories promoted.
+
+---
+
+## THE THREE THINGS THAT MATTER
+
+1. **🔴 FOMC is two-sided and I had it wrong by ~25pp.** My surfaces said "HOLD ~90% priced (FedWatch 7/16) → guidance TONE is the event." Live: **~65% hold / ~34% hike** (10.7% [7/15] → 34.7% [7/22] → 34.3% [7/27]), **forward guidance REMOVED** by Warsh. **At ~1-in-3 the decision is itself the event.** Decision **Wed 7/29 2:00PM ET**, presser 2:30. The 5Y auction priced 48h into this.
+2. **🟠 Credit stopped being inert, and my row was plausible-stale.** 275 [7/2] sat between the 263 trough and the real 279, so it read as current every session for 26 days. HY market function **1 → 2**.
+3. **🟠 First real cover marker of the cycle — and I conceded a spec error.** 5Y BTC **2.28**, lowest since Sept-2022 (by 0.01). Fired my own pre-registered `BTC<2.3` trigger → **VX-01 2 → 3**, despite having a benign story. **But composition HELD: indirect ROSE with duration (2Y 56.59% → 5Y 59.24%), dealers not stuffed (13.53%, +0.64pp).** Cover thinned, mechanism intact.
+
+**Composite 12 → 14/35.**
 
 ---
 
 ## NEXT SESSION (dated, future-verifiable)
 
-1. **Mon 7/27 2Y+5Y (same day) + Tue 7/28 7Y** — THE most consequential upcoming test. Both HENRY's HEN-42 discriminator AND BOND's own falsifier gate for the CONFIRM I just delivered:
-   - **HEN-42 CONFIRM if:** clean stops with front-end still leading (belly indirect stays firm, no 2Y outright tail)
-   - **HEN-42 DENY if:** tail at the belly, esp. w/ indirect fade extending the June-cluster (VX-13 → 4 candidate)
-   - **BOND's falsifier for CONFIRM:** belly ind <55% AND 2Y outright TAIL >2bp AND dealer >18% → re-open term-premium tilt
-   - Pre-pull 7/26 (Sun eve) if PROME hasn't already loaded the pre-reg
-2. **FOMC 7/28-29** — arm-#2 falsifier live test. Hold ~90% priced; **guidance TONE is the event.** Frozen thresholds `analysis/2026-07-18_fed-path-map_fomc-7-28.md`: arm BREAKS on 2Y<3.85 + DFII10<2.15 + 10Y<4.35 sustained.
-3. **DFII10 2.5 re-arm watch** — 2.39 [7/22], **11bp away**. Live gate to VX-BND-05 → 5.
-4. **BOJ 7/31** — FL-BND-11 FX leg; SAM owns primary.
-5. **BND-01 end-of-window resolution** (7/31) — HY OAS 275 vs 350. Currently far from arming; will resolve FAILED.
-6. **DEFERRED (still owed):** FR2004 as-of 6/24/7/1/7/8/7/15 prints (NY Fed API caps pre-2026 in-env — needs a workaround or Will/PROME flag); HENRY UST structural-demand corpus refresh (Mar-vintage); `PROME/packets/DOMAIN_SWEEP_LENSES.md` sweep.
-7. ~~NEXUS_BRIEF light refresh~~ — ✅ DONE this session (commit `b1e521e7`); PROME routed (`83ffbe29`, outbox `2026-07-23_to-PROME_nexus-brief-refresh-hardened-label.md`). HEARTBEAT amendment #2 candidate flagged to PROME (label wording now empirically data-verified).
+1. **🔴 TODAY 7/28 1PM ET — grade the 7Y against the FROZEN pre-reg.** Branches A/B/C/D + tie-break in `analysis/2026-07-28_grade_...`. **Do not re-derive the thresholds** — they are frozen. Pull TD `/securities/Note`, compute % of **competitive accepted**. Route the verdict to HENRY + NEXUS (both are waiting on it).
+2. **🔴 WED 7/29 2PM — FOMC.** Arm-#2 falsifier live test, frozen at `analysis/2026-07-18_fed-path-map_fomc-7-28.md`: arm BREAKS on 2Y<3.85 **AND** DFII10<2.15 **AND** 10Y<4.35 sustained 3 sessions. **DEEP-LIT against dovish** (2Y 4.33 / DFII10 2.43 / 10Y 4.69). A *hike* is the live tail, not just tone.
+3. **🔴 DFII10 → 2.5 re-arm watch — 7bp away.** The nearest live TLT-puts add-gate.
+4. **Fri 7/31 — BND-01 resolves FAILED** (HY 350 vs 279). Resolve at closeout on/after 7/31, don't leave OPEN-but-stale. Also BOJ 7/31 (SAM owns primary; FL-BND-11 FX leg).
+5. **Mon 8/03 — P3 Batch-3 START GATE** (docketed). Two questions: reserve composition/mobility (reconcile to ONE figure with SAM) + where the **edge** of reserve-currency privilege is.
+6. **DEFERRED / OWED:** **FR2004 now 5 prints owed** (6/24, 7/1, 7/8, 7/15, 7/22) — carried 4 weeks, NY Fed API caps pre-2026 in-env; **stop silently rolling this, flag Will/PROME**. · ECB GovC calendar verify from primary. · HENRY UST structural-demand corpus (Mar-vintage).
 
 ## OPEN THREADS / WATCHES
 
-- 🔴 DFII10 → 2.5 (11bp away, LIVE) · 🔴 FOMC 7/28-29 guidance TONE · 🔴 7/27-28 auction cluster (HEN-42 + BOND falsifier)
-- 🟠 30Y sustain-above-5 (27d and counting) · 🟠 T5YIFR drift 2.21→2.27 (through 2.25 band top) · 🟠 MOF actual FX intervention (USDJPY 163.83, 165 = next MOF line)
-- 🟢 EU peripheral benign (BTP 83, trigger 200) · 🟡 CCC non-retrace (970)
-- 🟡 Verify ZION quotes vs official replay before making load-bearing (KB-BND-085 caveat)
-- 🟡 FR2004 in-env access — 4 prints owed, primary API not reaching 2026 data
+- 🔴 7Y today (tiebreaker) · 🔴 FOMC 7/29 two-sided · 🔴 DFII10 7bp from 2.5
+- 🟠 HY 279 → 300 watch (21bp) · 🟠 CCC 996 → 1000 (4bp) · 🟠 30Y 29-day run >5%
+- 🟡 **Basis-trade hypothesis (KB-092)** — testable at the 7Y: if it's the driver, cover stays thin **with composition intact** and does **not** resolve post-FOMC. LIQUID owns the call.
+- 🟡 Auction *tail* is **unscoreable from primaries by construction** (no when-issued published) — every future auction leg must be composition-keyed.
+- 🟢 EU peripheral benign (BTP-Bund 83 [7/17], trigger 200) — but the ECB row is a logged owned miss.
 
 ## POSITION DECISIONS
 
-- **TLT puts: HOLD** — arm-#2 RESOLVED-ARMED (Will NO-ADD 7/16 stands; $500 banked). Arm has DEEPENED (10Y +12bp/wk to 4.67; DFII10 series high) BUT no new pre-registered add-gate has fired. Live re-arm candidates:
-  - (a) DFII10 >2.5 sustained (11bp away)
-  - (b) FOMC 7/28-29 hawkish repricing on guidance TONE
-  - (c) Weak coupon in 7/27-28 cluster (2Y+5Y+7Y)
-- HYG puts: stay closed. HY 275 flat.
+- **TLT puts: HOLD, no add.** Will NO-ADD 7/16 stands. **No pre-registered add-gate has fired** — DFII10 2.43 is 7bp short of 2.5. Live re-arm candidates unchanged: (a) DFII10 >2.5 sustained; (b) hawkish FOMC repricing 7/29; (c) a composition-failing 7Y (branch A or D).
+- **HYG puts: stay closed** — but credit is no longer inert; reopen only on HY >300 with velocity.
 - No new BOND trade rec (scoped).
 
 ## MAIL STATE
 
-- **Inbox (general):** EMPTY (5 total consumed this session → `processed/`: 4 PROME items in pass 2, 1 HENRY item in pass 3).
-- **Inbox WALTER:** EMPTY (4 consumed at boot → `WALTER/processed/`).
-- **Outbox:** 2 new this session — `2026-07-23_to-HENRY_HEN-42-confirm-with-caveat.md` (v2 data-verified; v1 preserved in git 44726880); `2026-07-23_to-PROME_nexus-brief-refresh-hardened-label.md` (🟡 steady-state, flags HEARTBEAT amendment #2 + independence-test discipline for NEXUS synthesis).
-- **NEXUS_BRIEF.md:** ✅ REFRESHED this session (commit `b1e521e7`) — 5 deltas vs 7/18: data-verified label, auction 3/3 corroboration, independence-test §, falsifier state DEEP-LIT, live rates + cross-domain owner-attributed.
+- **Inbox (general): EMPTY** — 7 consumed → `processed/`.
+- **Inbox WALTER: EMPTY** — 6 consumed → `WALTER/processed/`.
+- **Outbox:** 2 new — `2026-07-28_to-HENRY_falsifier-was-mine-and-misspecified-plus-you-over-retracted.md` (3 asks answered + over-retraction finding), `2026-07-28_to-NEXUS_727-grade-delivered-holding-with-a-marker.md` (owed grade + 3 corrections).
+- **NEXUS_BRIEF.md:** NOT refreshed this session (last 7/23). Stale on the FOMC framing, the credit move and the 7/27 grade — **refresh next session.**
 
-## CLOSEOUT (this pass — full BOND protocol steps 9-17)
+## CLOSEOUT (BOND protocol steps 9–17)
 
-- **9 STATUS:** refreshed (banner + 9 dashboard rows + TIC/auction catalyst rows + calendar pruned + 3 stale rows domain-owner-attribution refreshed). Composite unchanged at **12/35** (VX-05 stays 4, VX-14 stays 3, both corroborated in-band).
-- **10 Workbook + PREDICTIONS:** 6 KB rows appended this session (083 boot / 084 TIC / 085 ZION / 086 state-refresh / 087 auction grades / 088 full-curve research); CRLF-preserved via Python (no shell-printf `%` corruption). VX-05/08/13/14 updated (4 rows). PREDICTIONS DUE-scan clean at close (BND-01 in-window till 7/31; will resolve FAILED at 7/31 close).
-- **11 Thesis:** no version bump — this session is evidence ACCUMULATION under v1.1.2 (7/18 label correction). The full-curve real-yield-belly-led evidence (KB-BND-088) hardens v1.1.2 empirically; a v1.1.3 doc-update to CHANGELOG on next session would be appropriate but not urgent.
-- **12 Forward state:** CATALYSTS.tsv pruned (removed 8 fired rows: 7/2 sizes announcement, 7/5 OPEC+, 7/7-9 refunding, 7/8 minutes, 7/10 ARM-#2 leg, 7/13 ARM-#2 close, 7/14 CPI, 7/15 PPI); kept 7/22-23 with resolution marker (prune ~7/30); 7/2 FR2004 kept as PENDING-pull tracker. STATUS calendar mirrored.
-- **13 SCRATCH:** rewritten (this file).
-- **14 RECEIPT:** overwritten.
-- **15 Promotion scan:** no new auto-memory promotion — the independence-test lesson from pass 4 is exactly what `finding_shared_antecedent_independence_test` already covers (cited in v2 reply); the full-curve real-yield-belly-led evidence is a specific instance of `finding_curve_shape_policypath_vs_termpremium` (also cited).
-- **16 Mirror-consistency check:** THESIS ↔ STATUS dashboard/matrix consistent (composite 12/35, all vectors reconciled to KB rows). PREDICTIONS ↔ STATUS scoreboard: BND-11 TRUE, BND-12 FALSE, BND-01 OPEN (all mirror-clean). Full-curve KB-BND-088 findings mirrored into VX-BND-14 notes.
-- **17 Git:** BOND-only pathspec commits this closeout, root-cwd, auto-push via `scripts/safe-push.sh`.
-
-## WORKBOOK / PUSH HEALTH
-
-- KB.tsv: 6 rows appended session-total (083-088), CRLF preserved via Python append. Confirmed via `tail | cut -f1`.
-- VX.tsv: 4 rows edited (05/08/13/14) with Last_Updated = 2026-07-23.
-- **Commits this session (6 total, all BOND-only pathspec, all pushed):** `10ddecd6` (inbox drain), `44726880` (auction grades + HEN-42 v1), `5f30b542` (HEN-42 v2 + full-curve research), `c0511e6c` (initial closeout: STATUS calendar prune + SCRATCH/RECEIPT), `b1e521e7` (NEXUS_BRIEF refresh), `83ffbe29` (PROME route) + this final-closeout addendum. Bad initial commit swept HENRY files → soft-reset + re-committed clean (single incident, caught + fixed same turn).
-- safe-push ff-gated, non-ff → pull --rebase (fast-forwarded multiple times behind concurrent LIQUID commits).
+- **9 STATUS:** state line, 11 dashboard rows, matrix (**composite re-summed 14/35**, verified against VX.tsv), catalyst table, new BOTTOM LINE.
+- **10 Workbook + PREDICTIONS:** KB-BND-089…093 (+5, CRLF preserved, 13-col validated). VX ×10 (**01 2→3, 02 1→2**). PREDICTIONS DUE-scan: **BND-01 still in-window until 7/31** — nothing DUE this session, nothing left OPEN-but-stale.
+- **11 Thesis:** no version bump — evidence accumulation under v1.1.2. The out-of-sample oil→breakeven test (KB-091) *hardens* the 7/18 relabel; the falsifier mis-specification is a **method** defect, not a thesis change.
+- **12 Forward state:** CATALYSTS.tsv is source-of-truth and STATUS mirrors the same event SET (7/27 resolved · 7/28 7Y · **7/29 FOMC re-dated off the old 7/28..29 span** · 7/31 BND-01 · 8/03 P3 gate).
+- **13 SCRATCH:** this file.
+- **14 RECEIPT:** overwritten with the full 12-item disposition + corrections table.
+- **15 Promotion scan:** **2 auto-memories promoted** — `finding_claim_outlives_its_discredited_instrument`, `finding_plausible_stale_value_evades_review`. Both fleet-transferable, neither BOND-specific, so neither duplicated into local `MEMORY.md`.
+- **16 Mirror-consistency:** STATUS matrix ↔ VX.tsv scores reconciled row-by-row; STATUS catalyst table ↔ CATALYSTS.tsv same event set; PREDICTIONS ↔ STATUS scoreboard (BND-01 OPEN, in-window). Durable docs carry no live values.
+- **17 Git:** BOND-only pathspec commits, root cwd; `7a18ec13` pre-print + closeout commit; auto-push via `scripts/safe-push.sh`.
