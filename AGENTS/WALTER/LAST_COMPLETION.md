@@ -6,7 +6,7 @@
 
 ## STATUS
 
-**2026-07-28 (Tue ~9:35 AM ET boot → ~14:3xZ; US markets OPEN. Will-Telegram. Tier-2 FULL — routing AND architecture, triggers on two counts.)** Clean boot, **doctor 0 HIGH throughout** → **6 DISPATCH (1 FLASH) / 2 KILL / 37 handoffs / 0 sub-agents.** BOARD **613 → 619**. `board_reconcile` ✓ 619 (ToC = sections = files = TOTAL), `log_reconcile` ✓ 619, `delivery_claim_vs_git` ✓, `orphan_check` clean. **5 commits; safe-push swept a 16-commit fleet train clean-ff; `reconcile_delivery_log --apply` → 37 rows delivered, 0 orphans.**
+**2026-07-28 (Tue ~9:35 AM ET boot → ~18:3xZ; US markets OPEN. Will-Telegram, closed on his "lets close out here". Tier-2 FULL — routing AND architecture, triggers on two counts. Includes a POST-CLOSEOUT TAIL: two Will challenges, one correcting my own dispatch, then a new lane wired.)** Clean boot, **doctor 0 HIGH throughout** → **6 DISPATCH (1 FLASH) / 2 KILL / 37 handoffs / 0 sub-agents.** BOARD **613 → 619**. `board_reconcile` ✓ 619 (ToC = sections = files = TOTAL), `log_reconcile` ✓ 619, `delivery_claim_vs_git` ✓, `orphan_check` clean. **5 commits; safe-push swept a 16-commit fleet train clean-ff; `reconcile_delivery_log --apply` → 37 rows delivered, 0 orphans.**
 
 ⚠️ **The Agent tool was not used — SIXTH consecutive session.** Every verification was WALTER's own `WebSearch` / `WebFetch` / `fetch.py` / SEC submissions API.
 
@@ -24,19 +24,27 @@
 - **REGISTRY** — 5 rows refreshed; **VIOLET's row carried two retracted figures** and advertised ~1.4% headroom to its thesis-kill when the live figure is **0.56%**, the day before FOMC.
 - **🛠️ `memory_index_check` v2 SHIPPED** — 4 extensions + BROCK's `--slug` addendum, **with one deliberate deviation** (no rc on the byte warning; a failing rc *is* an instruction, contradicting the ruling it encodes).
 
+### POST-CLOSEOUT TAIL (~15:2x → 18:3xZ)
+
+- **🔴 `SIG-W-20260728-006` SELF-CORRECTED — Will caught the emphasis on a QUESTION, not a counter-claim.** *"The Libyan protest has to deal with oil no?"* My signal said *"85 kb/d is noise; the gas leg is the only interesting part."* **Base rate I should have pulled first: oil ≈ 98% of Libyan government revenue · 2020 blockade 1.2 mb/d → ~320 kb/d · April–July 2022, PROTESTERS, output roughly HALVED and the NOC chairman forced out.** Resolving question moved from Greenstream throughput to **whether it spreads to the export terminals.** Corrected at BOARD body + INDEX row + 6 create-only handoffs; **my assumption to BRENT withdrawn on the record.**
+- **📕 `finding_scope_negative_needs_the_counterparty_standard`** promoted to auto-memory — **both halves happened the same day** (I verified BROCK's negative at EDGAR, then made two of my own).
+- **💧 US WATER SCARCITY WIRED → AEOLUS** (Will-approved, condition checked not assumed): **ROUTING_TABLE v0.21 → v0.22**, REGISTRY scope, STATE.md swept, `version_drift_check` 6/6. **The kill_log made the gap auditable: the OGALLALA item was killed at 0.85 with the reason *"no agent actively on it"* — two days before AEOLUS existed.** **A stale kill exemplar (*"AI-data-center-water"*) struck.** **C6 promotion left to AEOLUS with room to decline.**
+- **📅 POST-2026 COLORADO RIVER assigned to AEOLUS + calendared** — dates pulled and confidence stated per-date; **the Final EIS date named as an unknown rather than inferred into a ledger.** DOCKET row proposed to PROME (their file, not mine).
+
 ## RESULT
 
 **6 dispatched / 2 killed, BOARD 613 → 619.** **Craft notes:** (a) **three of the four batch items were UNDERSTATED or MISFRAMED by the post that carried them, all in the direction of less severity** — the Oracle CDS ("since the GFC" when both vendors say *record*), the Rhine ("lowest since 2018" when July is running below where 2018/2022 sat months later), and the PJM event (mechanism inverted); (b) **I checked a threat forward and it had executed** — one search converted a single-source relayed claim into a confirmed event; (c) **I wrote the falsifier into the FLASH** and routed the branch that wins if I'm wrong to a different agent; (d) **I verified BROCK's load-bearing NEGATIVE rather than relaying it**, and the filing structure corroborated positively; (e) **I declined an offered exit code because taking it would have contradicted the ruling it encoded**; (f) **`-019`'s own pre-registered artifact falsified `-019`'s own claim** — the Item 2.04 it predicted does not exist.
 
 ## GAPS
 
-- **🟢 PUSH CLEAN.** 16-commit fleet train swept; origin current; zero unpushed. Delivery log reconciled, **0 orphans**.
+- **🟢 PUSH CLEAN.** origin current; zero unpushed; **10 commits this session**, fleet trains swept clean-ff throughout. Delivery log reconciled twice, **0 orphans both times**. `orphan_check` clean (the only foreign file is PROME's in-flight `HEARTBEAT.md`, correctly flagged `[not yours]` and left alone).
 - **🔴🔴 I REPEATED A MISTAKE I HAD WRITTEN DOWN THE DAY BEFORE.** First commit of `-003..-006` reported **"4 files changed"** against ~30 files of work: a **brace cross-product** pathspec matched nothing, `git add` aborts entirely if any pathspec misses, **and I suppressed the error with `2>/dev/null`** — leaving **28 files untracked while `delivery_log` claimed them written.** 7/27's instance was a *different* glob with the *same* stderr suppression. **The durable rule is not about glob syntax: never suppress `git add`'s stderr, never build a commit set from a pattern.** Caught by the commit summary line; recovered by explicit path, verified by count. **Auto-memory generalised to n=2 rather than duplicated.**
 - **⚠️ FRED 403s on ALL THREE paths today** (urllib, curl+UA, WebFetch) having answered first-try yesterday. **HY stuck at the 7/24 print (279).** Not blocking — FT-01's exit needs three consecutive ≥280. **The UA fix that solves the EDGAR-403 class does not work here** (same as ukmto.org). Re-pull next session; do not re-debug.
 - **MEMORY.md (fleet auto-memory) at 78% of the auto-load cap — 565 bytes below the warn line**, and it grew today. **Will trip before PROME's 8/1-8/2 migration. Flagged to PROME; not mine to action.**
 - `delivered_but_unconsumed` = the known PAT-028 ceiling note (unchanged, not WALTER-fixable).
 - `trash` still not on PATH on this box (carried; needs Will at keyboard).
-- **Correction ledger this session: mechanism-caught 1** (the commit summary line) · **self-caught 2** (the CARL pull-complete handoffs, removed pre-commit; the v2 `README` false positive) · **externally-caught 2** (BROCK on CRMT framing; VIOLET on the registry row) · **propagated-uncorrected 0.**
+- **🔴 THE PATTERN WORTH CARRYING, and it is about me rather than any one error: THREE of my claims were softened by someone else today, and all three were SCOPE-NEGATIVES I had not checked** — *"85 kb/d is noise"* (Will), *"exit semantics undefined across all 15"* (PROME), and the CRMT *"default"* framing (BROCK). **Each check cost under a minute.** Promoted as `finding_scope_negative_needs_the_counterparty_standard`; **the sharp version is that I applied the correct standard to BROCK's negative the same morning I failed to apply it to my own.**
+- **Correction ledger this session: mechanism-caught 1** (the commit summary line) · **self-caught 3** (the CARL pull-complete handoffs, removed pre-commit; the v2 `README` false positive; the partial-commit on the correction's remaining surfaces) · **externally-caught 3** (BROCK on CRMT framing; VIOLET on the registry row; **Will on `-006`'s emphasis**) · **propagated-uncorrected 0.**
 
 ## WILL_NEEDS
 
@@ -47,9 +55,10 @@
 **🟢 RESOLVED this session:** the pre-registered Abqaiq test (refutation CONFIRMED, bottom band) · the CRMT "default" framing (corrected, primary-verified) · `-019`'s self-flagged lane-triage suspicion (answered: **coverage gap, not triage failure**) · VIOLET's stale registry row · `memory_index_check` v2 (shipped, tested, PROME notified) · BROCK's 7/27 step-1c proposal (**already adopted** — the wiring landed inside carve-out ③; step 1c itself went to `consumer_check`) · both DEWEY handoffs (stubs verified landed).
 
 **🔴 FIRST ACTIONS NEXT BOOT:**
-1. **Re-pull HY OAS** — FRED 403'd all session; 279 [7/24] is stale. **Re-pull, do NOT re-debug.** FT-01's exit needs three consecutive ≥280.
-2. **Check the `-002` discriminator:** did **ORCL CDS + the `-018` AI-credit basket** keep widening with the equity leg? **If spreads stayed put while only equities fell, my credit framing is WRONG and the competition (DUV lithography) explanation wins** — retract at every surface and hand it to ZHAO.
-3. **FOMC 7/29 2:00 + Warsh presser**, into everything below.
+1. **🔴 CHECK THE `-002` DISCRIMINATOR — IT IS NOW GENUINELY LIVE AND UNRESOLVED.** The equity leg **partially round-tripped intraday**: ^NDX −2.08% → **−0.97%**, ^GSPC −0.34% → **+0.21% (green)**, and **ORCL reversed from −4.09% to +0.43%.** That does **not** refute the signal — SK hynix's −15% and the KOSPI halt are done facts, and **the CDS is the instrument, not the equity** — but the question is now open. **Did ORCL CDS and the `-018` basket keep widening while equities bounced? If spreads TIGHTENED with the bounce, my credit framing is WRONG, the competition/DUV read wins, and it belongs to ZHAO — retract at every surface.**
+2. **Re-pull HY OAS** — FRED 403'd all session; 279 [7/24] is stale. **Re-pull, do NOT re-debug.** FT-01's exit needs three consecutive ≥280.
+3. **FOMC 7/29 2:00 + Warsh presser**, into SK hynix + MSFT + META + AAPL the same day.
+4. **Did AEOLUS take C6, or decline it?** Either answer is fine and both need recording. **And did PROME land the Colorado River DOCKET rows** — including whether it kept or dropped the inferred Final-EIS window?
 
 **🟠 Held / carried:**
 - **🔴 FALCON owes THREE FAL-01 adjudications — Mangaf (7/23), Jazan (7/25), Abqaiq (7/27).** Unchanged. **Highest-value fleet item.** `-004` adds a fourth question it does *not* answer: the war's one confirmed FM-backed supply loss is in LNG, outside the gate's asset class.
