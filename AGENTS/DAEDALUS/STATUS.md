@@ -1,9 +1,14 @@
 # DAEDALUS STATUS
 
-**Last Updated:** 2026-07-27 (inbox pass: 4 items verified in-file + chains closed; PAT-062/063 banked; checklist row 13; session focus = SHADE/BROCK/CREED reads)
+**Last Updated:** 2026-07-28 AM (boot: WAL first-solo verify → L2→L3 PROMOTED; PAT-067 banked; mtime canon question RULED → PROME)
 **Class:** Meta-agent (fleet architect) · **Spawnable by:** PROME or Will · **Self-level:** L4 (L5 blocked by cadence not mechanisms; **Staleness Sweep #2 ran ON-CADENCE 7/25** — one of the two L5 legs now demonstrated; remaining leg = Production Review on-cadence 8/5 w/ self-scope clean)
 
 ---
+
+## 2026-07-28 AM boot — two owed items closed
+
+1. **WAL FIRST-SOLO VERIFY → L2→L3 PROMOTED (Conf H), in-file per the 7/25 condition.** Gate legs (a)+(b) decisive: standup handles RATIFIED WITH RE-SCORES (V1b split broadening-2/5-disconfirmed vs magnitude-4/5-active; V3 2→1; V2 excluded; V4 provisional; composite honestly DOWN 15/25→13/25) + KB Q2 ingest 105→127, data clock 82d→0d. Leg (c) exercised-in-behavior (Q2 graded NEUTRAL into WAL-02; both spec defects escalated to Will, not self-edited). Leg (d) boot.py carried honestly. Mandates #1+#2 executed, #6 correctly sequenced, rest ranked-carried. **Seed defect found in MY OWN V1b handle → PAT-067** (seeded composite collapsed opposite-signed sub-mechanisms; seed at mechanism grain; ratification = re-derivation — the gate design validated by catching it). Blueprint queue += market §2 standup-seeding note. FLEET_MAP row updated + FLEET_DIRECTORY regenerated (38 agents). **Will-side 5-min blocker outstanding: FFIEC CDR account registration (unblocks WAL MI3; WAL wired a boot reminder d083f31f).**
+2. **PROME mtime canon question RULED, 6d ahead of window** (reply packet in PROME inbox, carve-out ①): the canon LINE lags the shipped mechanism — `ledger_staleness.py` has preferred the PAT-044 two-clock content header over git-time/mtime since 7/22, so doctrine is already correct; proposed a one-line root CLAUDE.md §Data-Hygiene (b)-clause rewrite (PROME routes to Will). Sweep #2 does NOT inherit the defect (verified in-code; residual = header-less surfaces → git-time, already PAT-039). Q3 = yes, a general class ("proxy corrupted by the sync protocol"), 3 known instances all banked; class rule already enforced by mechanism + sweep (PAT-065 placement).
 
 ## 2026-07-27 — inbox pass (4 items, all verified in-file, chains closed)
 
@@ -32,7 +37,7 @@
 
 ## Open / structural debt
 
-- **WAL post-cutover tail:** AGENTS.md row (PROME, asked) · **WAL session #1 ran same-day (live at my closeout — observed mid-session: KB Q2 INGESTED 105→127 rows/data-clock 0d, standup handles RATIFIED/RE-SCORED, price re-pulled; Q2 10-Q ~Aug 7-10 added as next confirmation channel) → first-solo VERIFY owed at my next boot** (in-file, not self-report: mandates 1-6 disposition + any standup-defect friction notes in my inbox — the L3 re-grade rides that verify) · WAL profile at first firming touch.
+- **WAL post-cutover tail:** AGENTS.md row (PROME, asked) · ~~first-solo verify~~ **DONE 7/28 → L3** · WAL profile at first firming touch · L4 watch legs: 10-Q pre-reg frame BEFORE ~Aug 7-10 + reader-side consumption confirm + Sep-18 rebuild · **Will 5-min item: FFIEC CDR registration.**
 - **Profile-refresh debt:** 12 Δ-bannered profiles refresh at next firming touch (priority REGINALD → BRENT → BOND); OZK profile to build at next firming.
 - **Sweeps:** Falsification ~8/1 (first registered run; OZK kill-§1 = live specimen — note OZK's kill-§1 adjudication is in its deferred packet, may resolve before the sweep) · Production Review on-cadence 8/5 (the self-row L5 gate) · Staleness next ~8/15.
 - **Watch (others' lanes):** REG-T-02/REG-T-07 recipient-chain fixes (REGINALD/WAL/CREED-lane, packets delivered both sides — PAT-063; verify at next REGINALD touch) · P2/P3/P4 System-Report rows await Will ruling · HAWK sunset ~8/1 (7/25 session ran — adjudicate spec-§6 off HAWK's own files) · HENRY/MARCO staleness boot-wiring re-ping uptake · OZK deferred items 2/5 · REGINALD L5 verify (rides WP-W0 session) · BRENT L5 verify (fill-loop closed 7/24 per PROME fill-outcome packets — confirm-read at next BRENT touch) · VIOLET L5 (owner predictions-index + thesis-tail re-home) · FALCON consumer-mutation build-debt line (PAT-054 ruling: seed in FALCON's next packet).
@@ -46,4 +51,5 @@
 
 ## BOTTOM LINE
 
-**As of 7/27 eve:** The focus session delivered all three reads with one grading principle — **behavior over shelves, in both directions**: SHADE PROMOTED L3 (resolution behavior without a ledger), CREED HELD L2/L3-ARMED (a ledger without resolution behavior — and it argued its own case down), BROCK now L5-blocked only on the external YEYOU question after an exemplary freeze. Five patterns banked in one day (PAT-062 directionally-flattering rot · PAT-063 metric-owner-off-chain, two routes in one week · PAT-064 surveys-as-audit-not-acquisition · PAT-065 always-loaded placement, ranked first for blueprint · PAT-066 circulating-figure sweep is the mover's job) — the blueprint-maintenance block is now the heaviest queued item and should ride the 8/1 Falsification Sweep + 8/5 Production Review window. My own miss owned in-file: the CREED sitting undercount (scrape vs read). Next: Falsification Sweep + HAWK sunset ~8/1, Production Review 8/5 (self-row L5 gate), SHADE/CREED L3-L4 clocks land ~early-mid Aug.
+**As of 7/28 AM boot:** Both owed items closed clean — WAL promoted L2→L3 on a first solo session that exceeded the gate (ratify-by-re-derivation caught a defect in my own seeded V1b handle → PAT-067, the gate design validated), and PROME's mtime canon question ruled 6 days early because PAT-039/044 had already done the work: the mechanism is right, only the root canon line lags it (one-line amendment routed via PROME to Will). 67 patterns banked. Next milestones unchanged: Falsification Sweep + HAWK sunset ~8/1, Production Review 8/5 (my own L5 gate), SHADE/CREED/WAL L3-L4 clocks land early-mid Aug. One Will-side 5-minute unblock outstanding: FFIEC CDR account registration for WAL's MI3.
+
