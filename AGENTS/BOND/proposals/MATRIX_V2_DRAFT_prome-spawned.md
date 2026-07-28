@@ -3,7 +3,23 @@
 ## PROVENANCE
 
 - **Author:** BOND, respawned 2026-05-20 PM ET at Prome's request.
-- **Status:** APPROVED DESIGN — design decisions resolved 2026-05-20/21 (see §8); IMPLEMENTATION PENDING (Packet 9 paused). Live `monitors/AUCTION_HEALTH.md` still runs v1 thresholds until ported. NOT a live draft awaiting review (relabeled 2026-06-20 audit).
+- **Status:** APPROVED DESIGN — design decisions resolved 2026-05-20/21 (see §8). **PARTIALLY IMPLEMENTED 2026-07-28 (see banner).** *(Prior status line — "IMPLEMENTATION PENDING (Packet 9 paused); live `monitors/AUCTION_HEALTH.md` still runs v1 thresholds until ported" — was true from May until 7/28.)*
+
+> ## 🔴 STATUS CORRECTION 2026-07-28 — this file was right, unread, and unimplemented for ~10 weeks
+>
+> **What happened:** on 7/28 I re-specified BOND's auction gates from tail-keyed to **composition-keyed, per-tenor, trailing-12-benchmarked** — deriving it from scratch off the TreasuryDirect series, **without having read this file.** It independently reproduces this document's core design (§2 rule (c)). That convergence is real corroboration of the design.
+>
+> **But I also reproduced two things this file explicitly warns against**, because I didn't read it:
+> 1. **I used `dealer >13.2%` as a BEARISH leg** — §2 says drop dealer as bearish, it is **wrong-signed at every threshold above noise** (dealer>20% median TLT 5d **+1.45%**, contrarian-bullish).
+> 2. **I made indirect CONJUNCTIVE and set it at the trailing-12 minimum** — §1 locks indirect to the **15th percentile per tenor** and makes **`I'` sufficient ALONE**, because it is the single best signal in a 323-auction backtest.
+>
+> Both mistakes make the new gate **harder to fire than the evidence supports** — the same failure class as the tail defect it replaced. The frozen 7/28 7Y pre-registration is **not being edited** (it grades as written), but the challenge is logged pre-print in `analysis/2026-07-28_grade_7-27-2Y-5Y_prereg_7-28-7Y.md` §4b and in `thesis/PREDICTIONS.tsv` BND-13.
+>
+> **Now ported (7/28):** composition-over-cover, per-tenor trailing-12 normalization, and the retirement of absolute-tail triggers — though for a **stronger reason than §2 gives**: §2 proposed *reformulating* tail to a per-tenor 75th percentile, but a tail **cannot be computed from TreasuryDirect at all** (no when-issued published), so the `T'` component is **not re-calibratable — it is unscoreable and is dropped outright.** That supersedes §2's tail row.
+>
+> **Still NOT ported — the live gap:** the **15th-percentile indirect rule with `I'` sufficient alone**, and the **removal of dealer as a bearish criterion**. These are the two changes the backtest most supports and they remain unimplemented. **Next pre-registration adopts them.**
+>
+> **⚠️ For PROME/Will:** the live `monitors/AUCTION_HEALTH.md` matrix ran **backtested anti-signal** v1 thresholds (fires under-performing base rate by 16.5pp) from May until 7/28 because an approved design sat behind a paused packet. **An approved-but-unimplemented design is not a neutral state — the old logic keeps firing.** Worth a fleet-level check for other approved-and-parked packets.
 - **Inputs:**
   - `AGENTS/BOND/analysis/ESCALATION_MATRIX_BACKTEST_prome-spawned.md` (323 coupon auctions, 2023-01 → 2026-05, TLT 5d outcomes)
   - `AGENTS/BOND/analysis/CROSS_TENOR_BASE_RATES_prome-spawned.md` (444 same-week auction pairs)
