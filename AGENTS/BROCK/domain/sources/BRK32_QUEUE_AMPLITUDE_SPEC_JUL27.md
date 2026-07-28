@@ -69,14 +69,18 @@ Per `[[finding_normalization_choice_picks_opposite_winners]]` — absolute and p
 | Lens | Definition | **Q2-2026 baseline (FROZEN)** |
 |---|---|---|
 | **L1 — Unweighted** | arithmetic mean of demand-as-%-of-shares across the 5 funds (one fund, one vote) | **12.92%** |
-| **L2 — NAV-weighted** | Σ(demandᵢ × NAVᵢ) ÷ Σ(NAVᵢ) | **12.58%** |
+| **L2 — NAV-weighted** | Σ(demandᵢ × NAVᵢ) ÷ Σ(NAVᵢ) | **12.56%** *(was 12.58% — ADS weight corrected 7/28, see below)* |
 
-*L1 inputs:* BCRED 10.0 · CCLFX 17.0 · ADS 17.0 · Monroe 9.0 · MS PIF 11.6
-*L2 weights (frozen, $B):* BCRED 78.0 · CCLFX 32.0 · ADS 15.1 · MS PIF 7.0 — **Monroe EXCLUDED from L2, NAV undisclosed (named exclusion, never imputed)**
+*L1 inputs:* BCRED 10.0 · CCLFX 17.0 · ADS 17.0 · Monroe 9.0 · MS PIF 11.6 *(unchanged — L1 is demand-only, no weights)*
+*L2 weights (frozen, $B):* BCRED 78.0 · CCLFX 32.0 · **ADS 14.44** · MS PIF 7.0 — **Monroe EXCLUDED from L2, NAV undisclosed (named exclusion, never imputed)**
 
 > ⚠️ **BCRED is 59.0% of the L2 weight.** A large move at BCRED alone swings L2 while barely touching L1. **This is not a flaw — it is the specific thing the two-lens rule exists to catch**, and it is the live case: Gray reports Q3 requests "down materially" *at BCRED*. If BCRED recedes and the other four do not, **L1 and L2 will disagree and BRK-32 returns NO-CALL rather than a false clearing signal.**
 
-> ⚠️ **Known data defect, named not papered over:** my own KB carries **two different ADS sizes on the same date** — $15.1B "NAV" (KB-BRK-061) and $25B "fund" (KB-BRK-103), both 3/23/26. L2 uses **$15.1B** because NAV is the correct denominator concept; the $25B is likely gross/AUM. Weights are frozen as-of their stated dates and are **stale by ~4 months** — acceptable for *weighting*, not citable as current NAV.
+> ✅ **RESOLVED 2026-07-28 BY PRIMARY — and it was never a contradiction, it was a labelling error.** The ADS "two sizes on one date" defect flagged at registration is closed off SEC XBRL (CIK 1837532): **net assets $14.77B @12/31/25 · $14.44B @3/31/26** vs **total assets $25.90B @12/31/25 · $26.93B @3/31/26**. So the "$25B fund" was **total assets, leverage-inclusive**, mislabelled as fund size, and the "$15.1B NAV" was ~2-4% high. Independent cross-check from the 3/23/26 letter itself: 5% of shares ≈ $730M ⇒ implied NAV ≈ $14.6B. **L2 now uses $14.44B** (the vintage nearest the Q2 baseline). ⚠️ **Weights remain frozen as-of their stated dates — usable for *weighting*, never citable as current NAV.**
+>
+> 🔑 **Effect on the instrument, measured rather than assumed: L2 baseline 12.58% → 12.56% (−0.02pp). Both thresholds (persist ≥11.0%, clearing ≤7.8%) are untouched and no call flips.** The defect was real and worth fixing; it was **not load-bearing**. Note that only *perturbing* the input established that — re-deriving 12.58% from the same inputs would have proved nothing (`[[finding_perturb_inputs_to_test_base_rate]]`).
+>
+> ⚠️ **Scope of this fix, stated so it is not over-read:** only the figure I had flagged was verified. **BCRED $78.0B and CCLFX $32.0B remain UNVERIFIED press-derived weights, and BCRED is 59% of L2** — so the far larger weight sensitivity is the one still unaudited. Fixing the small named defect does not make the weight vector clean.
 
 ### Leg B — ACCOMMODATION (manager policy, carried separately, never blended into Leg A)
 Offer % vs the 5% design cap at each fund: flexed **up** (BCRED Q1 7%→7.9%), held at 5%, top-up **withdrawn** (CCLFX Q2), or **suspended**.

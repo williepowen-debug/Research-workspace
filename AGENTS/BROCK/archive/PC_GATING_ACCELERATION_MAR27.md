@@ -1,6 +1,16 @@
 # PC GATING ACCELERATION — MARCH 27, 2026
-**BROCK Research Brief | Generated:** 2026-03-27 20:25 UTC
-**Distribution:** Will (internal only)
+
+> # ⛔ CORRECTED AND RETIRED 2026-07-28 — DO NOT CITE THE APOLLO ADS "45¢" LINES FROM THIS FILE.
+>
+> **The error:** this brief reads Apollo ADS's **pro-rata fill rate** as a **recovery price**. The 3/23/26 8-K (Item 7.01) says verbatim that *"each redeeming investor will be returned approximately 45% of their **requested capital**"* — that is **5% offer ÷ 11.2% demand = 44.6% of the AMOUNT REQUESTED, redeemed AT NAV.** It is a satisfaction ratio, **not a price, not a haircut, and not a recovery.** The same letter reports **NAV/share −1.2%** over three months and **net total return +1.0%**.
+>
+> **Four lines in this file are therefore false and are struck** (kept visible rather than deleted so the error stays auditable): the *"returning 45¢ on the dollar"* table cell and its *"55-cent haircut = mark-to-market reality breaking through"* gloss (§ WHAT CHANGED); *"45-cent dollar… forced liquidation pricing bleeding into redemption honoring. Stage 3 in a single data point"*; *"45¢ recovery at Apollo ADS sets precedent for what ARES assets are worth when forced to sell"*; and *"11.2% gating at ADS + 45¢ dollar = marks-are-wrong thesis in the filing data now."* **No 45¢ print ever existed.**
+>
+> **Also corrected:** "Apollo ADS (**$25B fund**)" is **total assets** (leverage-inclusive), not fund size. **NAV was $14.77B @12/31/25 / $14.44B @3/31/26** (SEC XBRL).
+>
+> **Reach, traced:** this file is referenced by **no live document**, and the 45¢ reading **never reached STATUS, the convergence matrix, or BRK-25** (the canonical Stage-3 sub-90¢ trigger — checked directly; had it fired there, BRK-25 would have resolved TRUE on a number that does not exist).
+>
+> Corrections → `workbook/KB.tsv` **KB-BRK-203 / KB-BRK-204**; the original row **KB-BRK-103** is marked `REFUTED-BY-PRIMARY` in place. **The rest of this brief (gate counts, cap changes, dates) is not re-verified — treat the whole file as archived March-vintage narrative.**
 
 ---
 
