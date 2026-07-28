@@ -6,6 +6,32 @@ Trigger to log here: any closeout that updates `thesis/VIX_THESIS.md`.
 
 ---
 
+## v3.7 — 2026-07-28 (a threshold names its ESTIMATOR: stand-down (iii) re-based from a stale point estimate to a sourced band)
+
+- **Bumped from:** v3.6 (2026-07-01). **Trigger:** formal-trigger calibration update on a registered stand-down governing live capital, two days before the catalyst it was written for.
+- **What changed — the number.** `TRY-VIOLET-VIXCS` stand-down **(iii)**, the position's primary thesis-kill, read *"SPX closes above ~7,496 → gamma gate falsified → thesis NO-GO."* That figure was HENRY's **7/23** chain. HENRY's unprompted 7/28 03:45 ET packet established it is simultaneously the **stalest (5 days)** and the **highest** estimate in the available set:
+
+  | Basis | Flip | Headroom from SPX 7,413.18 | Vintage |
+  |---|---|---|---|
+  | ~~retired anchor~~ | ~~7,496~~ | ~~+82.8 / +1.12%~~ | HENRY 7/23 |
+  | HENRY fresh 35d chain | **7,491** | +77.8 / +1.05% | 7/28 02:35 CBOE |
+  | ZeroGEX | 7,453.69 | +40.5 / +0.55% | 7/27 |
+  | core-brief | ~7,465 | +51.8 / +0.70% | 7/27 |
+  | Modigin / InsiderFinance | 7,452 / 7,431 | +38.8 / +17.8 | 7/27 |
+
+  **New spec:** ⚠️ **WARN / gate-at-risk — SPX close above ~7,455** (independent cluster; the gate is falsified on every basis except HENRY's own, which is known-biased high, and the thesis stops being differentiated from the 0-for-5 absorption record) · 🔴 **CONFIRMED FALSIFIED — SPX close above ~7,491** (every basis agrees dealers are long gamma). **7,496 retired.**
+- **Old view:** the gamma gate is MET with **~83pts / 1.12%** of headroom, single-source at `N_eff = 1`, and the position's central assumption degrades gracefully as the chain ages.
+- **New view:** the gamma **sign** is well-corroborated (`N_eff ≥ 4` — 5-of-5 on 7/27 plus net GEX −$34.3B FlashAlpha vs −$34.4B HENRY chain) while the **level** is the weakly-sourced leg and has been reading **~26–38pts high on two consecutive sessions** — systematic bias, not noise. Real headroom is **~42pts / 0.56%**. **The live way this position dies is an ordinary post-FOMC RELIEF rally on Wednesday afternoon, not a crash.**
+- **Why this is a framework bump and not a number edit.** A threshold must name the **estimator** it reads on and inherit that estimator's stated limits. HENRY published *"the sign is trustworthy **because** the margin exceeds the estimator's uncertainty"* in every gamma delivery since 7/17; converting the number into a kill-line used it for precisely the purpose that caveat excludes. **Sign and level of one estimate can carry different N_eff** — and my own STATUS note (*"N_eff = 1 stands, unreduced"*) was correct for the sign's provenance and backwards for a level gate. **Corollary adopted: a kill line trips on the earliest credible falsification, not the last.**
+- **Third instance of one family in three sessions**, which is what promotes it from a KB row into the thesis: **KB-VIO-129** (name the **instrument** — the guard says spot, the position settles on the forward) · **KB-VIO-131** (name the **mechanism** — MOVE's confirm survived on level while its direction reversed) · **KB-VIO-138** (name the **estimator**). Registered lines decay through their **specification**, not only through their data.
+- **Measurement hygiene folded in (KB-VIO-137):** the "CBOE SKEW T+1 publication lag" is **retracted** — SKEW publishes **same-day at ~17:00 ET** (`last_trade_time 2026-07-27T17:00:19` for the 146.60 close). Three "independent" verification paths that all ran before 17:00 share one failure mode and constitute **n=1**. Stand-down **(iv)** was gradeable on both sessions it was reported unmeasurable, and is now **GRADED: NOT TRIPPED** (SKEW −0.68pt on a +0.48% VIX day against a >5pt-drop line). The false caveat had been mis-teaching `MEMORY.md` at every boot; corrected.
+- **Predictions touched:** none resolved. KB-VIO-127 (Karsan) unchanged, resolves 7/31, base case MISS. KB-VIO-123 final grade still due post-FOMC, Stale_By 7/30, and must state which reading of confirm-1 it rests on.
+- **Unchanged:** transmission paths A/B · L1 canonical base-rate table · KB-VIO-090 credit tree · KB-VIO-123 crack-vs-fade tree · regime definitions · the GEX-suppression **mechanism** itself. Only the level at which its release is graded moved.
+- **Recorded next to the kill line, unresolved:** SpotGamma's 7/23 dissent (light **POSITIVE** gamma down to 7,300). No page-stamped read obtainable since. **If it is right, (iii) is already falsified.** HENRY declined to manufacture a 6-of-6 and logged the dissent rather than dropping it.
+- **Forward gates:** FOMC 7/29 2:00 ET + Warsh presser · MSFT/META/SK hynix 7/29 · AMZN + AAPL 7/30 · BOJ 7/30-31 · mandatory VIXCS review 7/30 · COT + Karsan resolution 7/31 · Sep FOMC+SEP 9/16.
+
+---
+
 ## v3.6 — 2026-07-01 (tail rotation + Fed-HIKE context formalized; first-ever Bin-A fire; wings-rotation VIX-suppression mechanism)
 
 - **Bumped from:** v3.5 (2026-06-06) + the intra-v3.5 6/23 POV pivot below (whose v3.6 candidacy this bump resolves YES).

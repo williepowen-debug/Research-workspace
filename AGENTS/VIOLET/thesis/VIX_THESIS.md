@@ -1,4 +1,4 @@
-# VIX THESIS (v3.6 — tail rotation + Fed-HIKE context; first Bin-A fire; wings-rotation suppression, 2026-07-01)
+# VIX THESIS (v3.7 — a threshold names its estimator: stand-down (iii) re-based to a sourced band, 2026-07-28)
 
 VIOLET's core framework: Credit-vol relationship is **regime-dependent, crisis-type-dependent, and directionally asymmetric**. Operational signal stack runs L1 (population framework, real-money) over L2-L4 calibration filters. Two transmission paths now formal: standard credit-led, and concentration-unwind parallel.
 
@@ -9,6 +9,14 @@ VIOLET's core framework: Credit-vol relationship is **regime-dependent, crisis-t
 ## CHANGELOG
 
 > Canonical "old view → new view" per-bump log lives in `thesis/CHANGELOG.md`. This section is the in-body version history.
+
+**v3.7 (2026-07-28) — A threshold names its ESTIMATOR: stand-down (iii) re-based from a point estimate to a sourced band (full entry: CHANGELOG.md)**
+- **Registered-trigger calibration, not a mechanism change.** The primary thesis-kill on `TRY-VIOLET-VIXCS` read *"SPX closes above ~7,496"* — HENRY's 7/23 chain, which turned out to be both the **oldest and the highest** gamma-flip estimate available. Re-based to a two-line band: **⚠️ warn 7,455** (independent cluster ZeroGEX / core-brief / Modigin / InsiderFinance, 7/27) · **🔴 falsified 7,491** (HENRY fresh 7/28 chain). Headroom from the 7/27 close falls from **+82.8pts (1.12%) to +41.8pts (0.56%)**. KB-VIO-138.
+- **The generalizable rule, and it is the reason this is a version bump rather than a number edit:** a threshold must name the **estimator** it reads on and **inherit that estimator's stated limits**. HENRY's standing caveat — *"the sign is trustworthy **because** the margin exceeds the estimator's uncertainty"* — protects the **sign** and explicitly not the **level**; converting that number into a kill-line used it for the one purpose the caveat excluded. **Sign and level of the same estimate can carry different N_eff** (here: sign N_eff ≥ 4 corroborated 5-of-5 plus two-source net GEX; level single-source and biased high on two consecutive sessions).
+- **Third instance of one family in three sessions**, which is what promotes it into the framework: KB-VIO-129 (a threshold must name its **instrument** — spot vs forward), KB-VIO-131 (a confirm must name its **mechanism** — level vs direction), and now KB-VIO-138 (a threshold must name its **estimator**). Registered lines decay through their *specification*, not only through their data.
+- **Corollary adopted:** a kill line trips on the **earliest credible falsification**, not the last. Grading a thesis-kill against the highest estimate in a set is the least conservative choice available and inverts what a stand-down is for.
+- **Measurement hygiene, same session:** the "CBOE SKEW T+1 publication lag" is **retracted** — SKEW publishes same-day ~17:00 ET, and three "independent" verification paths that all ran before 17:00 constitute n=1 (KB-VIO-137). Stand-down (iv) was gradeable on both sessions it was reported unmeasurable.
+- **No change to:** transmission paths A/B, the L1 canonical base-rate table, the KB-VIO-090 credit tree, the KB-VIO-123 crack-vs-fade tree, or regime definitions. The **gamma-suppression mechanism is unchanged** — only the level at which its release is graded.
 
 **v3.6 (2026-07-01) — Tail rotation + Fed-HIKE context formalized; first Bin-A fire; wings-rotation suppression (full entry: CHANGELOG.md)**
 - **6/23 v3.6 candidacy resolved YES:** external-catalyst tails at floor (Iran/oil formally closed 6/29; yen-carry defused-but-stretched — yen 40-yr low, no haven bid) while the internal Path-B coiled-spring is the dominant fragility, inside the Fed-HIKE (Warsh) regime — first regime tape: Sintra hawkish whipsaw, ~70% Sep-hike odds.
