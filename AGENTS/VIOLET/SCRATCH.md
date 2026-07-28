@@ -51,6 +51,22 @@
 
 **The honest summary of three consecutive sessions:** *the errors are not the problem — the corrections are.* Every one landed on the surface I was looking at and not on its neighbours, and each was caught only when something external forced a full read. **A periodic full-file provenance audit catches a class no incremental check does, and its natural trigger is "a surface that was just heavily rewritten"** — because that is exactly when hand-assembled values enter.
 
+## 🔴 ADDENDUM 3 ~04:40 ET — TRADE.md SAID I HAD NO POSITIONS (KB-VIO-142)
+
+**Provenance audit of the two never-audited surfaces. `TRADE.md` — my designated position file — read `ACTIVE POSITIONS: **None.**` for 17 hours while `TRY-VIOLET-VIXCS` carried $287.70 into FOMC with a mandatory 7/30 review.** Same file, same non-update: the Pre-FOMC framework still said **"IN CONSTRUCTION (TERRY)"** after the fill; the **TRADE LOG had no row**; the credit-vol lag trade carried **HY 2.75 (6/8)**, seven weeks stale. All fixed.
+
+> **🔑 THE SYMMETRY IS ON THE SAME LINE I HAD TO OVERWRITE.** It read: *"this file had carried the position as OPEN for 3 weeks after expiry — caught by orchestrator review."* **So TRADE.md has now failed in BOTH directions** — dead-shown-as-open (caught 6/9), live-shown-as-none (caught 7/28). **A surface that fails both ways isn't drifting, it's unmaintained by construction:** my write-back steps 7–14 name STATUS, workbook, thesis, CATALYSTS, SCRATCH, NEXUS_BRIEF, MAINTENANCE, git. **TRADE.md is in the FILES table with the trigger "when positions change" — a condition to remember, not a numbered step — and it is the only position-bearing surface in that category.**
+
+**And the guard passed it.** `ledger_staleness.py VIOLET --trade` returned **`ok +2d`**. It compares **mtime to STATUS.md** — **age, not agreement.** A file can be two minutes old and assert the opposite of the truth. **Nothing in my boot compares TRADE.md's CONTENT to STATUS's position state.**
+
+**Blast radius verified and small:** STATUS (5 mentions), FORGE/STATUS (1), PROME/ACTIVE_DECISIONS (1) all carried it correctly; TERRY's card is canonical for management. **No decision was made off the wrong surface.** ⚠️ **`FORGE/PORTFOLIO.md` carries ZERO mentions — not my file, flag to PROME.** The cost was **latent, not realised**: TRADE.md is what a future session or spawned sub-agent reads to answer *"what does VIOLET own?"*, and until 04:30 the answer was *"nothing."*
+
+**`CANARY_MAP.md` — declared a staleness contract and was breaching it on FIVE rows:** COT **21d** (still asking a question answered twice since), JPY **11d** (pointing at the passed MOF 7/22), OVX **11d** (overstating a channel that had unloaded), cheap-tail **6d**, and 🔴 **Tier-3 GEX band 18d** — *"EXPIRED per HENRY 7/10, repull due 7/14"* — **through three HENRY refreshes and through a live position being opened on that exact gate.** That row's own text says *"its staleness is VIOLET's problem too."* It was right and I ignored it. Title also still said **v1.1** while CLAUDE.md/STATUS/NEXUS_BRIEF all cite **v1.2**.
+
+> **Root cause, and it's mechanizable:** the contract's own line — *"extend `ledger_staleness.py` to this file's Tier-1/2 pull dates = **a future small ask**"* — has sat there since v1.0 and **was never built**. **The data already exists**: every Tier-1 instrument writes a dated row to a workbook ledger (`VX_DAILY`, `JPY_VOL`, `COT_VIX`, `CHEAP_TAIL`). The check is comparing each row's asserted as-of date to the **max date in its own ledger** — ~20 lines on the existing boot pass, **no new data pull.** *(`finding_mechanize_the_cap_not_the_ritual`.)*
+
+**THE THREE AUDITS NOW AGREE ON ONE SENTENCE — this is the session's actual output:** KB-VIO-139 (per-column beats per-row labels) · KB-VIO-141 (provenance beats freshness) · KB-VIO-142 (agreement beats age). **Every check I run tests AGE or INTERNAL CONSISTENCY. Nothing tests AGREEMENT WITH AN EXTERNAL SOURCE OF TRUTH — and all three of this session's worst defects live in exactly that gap.**
+
 ## NEXT SESSION (priority-ordered)
 
 1. **🔴 FOMC Wed 7/29 2:00 PM ET + Warsh presser 2:30 — final KB-VIO-123 grade, Stale_By 7/30, SETTLE basis.** Must state **WHICH reading of confirm-1** it rests on (level vs mechanism, KB-VIO-132). **Mandatory 7/30 position review regardless of P/L (TERRY card §6).**

@@ -6,7 +6,23 @@ VIX-linked positions and trade framework.
 
 ## ACTIVE POSITIONS
 
-**None.** Episode-17 (VIX May 19 25C) expired worthless 2026-05-19 — closed out below. *(Closeout recorded 6/9; this file had carried the position as OPEN for 3 weeks after expiry — caught by orchestrator review.)*
+### 🔴 LIVE — `TRY-VIOLET-VIXCS` (VIOLET thesis · TERRY structure · Will [Approve] 2026-07-27)
+
+| Field | Value |
+|---|---|
+| **Structure** | **4× VIXW Aug-05 20C / 25C** call debit spread (5-wide, defined risk) |
+| **Fill** | **2026-07-27 ~11:35 ET** — long 20C $1.23 / short 25C $0.53 = net debit **$0.70** |
+| **At risk** | **$287.70 all-in** (max loss = the debit, in full) · **MAIN** book |
+| **What we own** | the **8/5 VIX forward** (~18.9 [EST] at the 7/27 settle vs ~19.6 at fill) — *not* spot; see KB-VIO-129 |
+| **Thesis gate** | HENRY short-gamma — **sign MET (N_eff ≥ 4)**; level **re-based 7/28** to ⚠️ 7,455 warn / 🔴 7,491 falsified (KB-VIO-138) |
+| **Management (TERRY card §6)** | VIX ≥23 touch → monetize half · inversion → sell rest · **MANDATORY 7/30 review regardless of P/L** · **no roll pre-registered** |
+| **Realistic payoff** | **~+50% to +120% on the debit** on a 23-touch — *not* the headline 4:1, which the 7/30 exit forbids collecting (TERRY 7/26) |
+| **Base case** | **100% loss.** Absorption is **0-for-5** against this trade class this cycle. |
+| **Live risk controls** | the five stand-downs — canonical in `STATUS.md § LIVE RISK CONTROLS`, **all graded 7/28, none tripped** |
+
+> ⚠️ **THIS SECTION READ "None." WHILE THE POSITION WAS LIVE — 2026-07-27 11:35 ET to 2026-07-28 ~04:30 ET (KB-VIO-142).** Caught by a provenance audit, not by any guard. **The boot staleness check passed this file `ok +2d`** because it compares *mtime to STATUS.md* — it measures **age, not agreement**, and cannot detect a fresh file that contradicts the truth. Note the symmetry with the failure recorded immediately below: this file previously carried a **dead** position as OPEN for three weeks, and has now carried a **live** position as None. **Both directions have now happened; the file is not self-correcting and needs a positive check, not a staleness check.**
+
+**Closed:** Episode-17 (VIX May 19 25C) expired worthless 2026-05-19 — recorded below. *(Closeout recorded 6/9; this file had carried the position as OPEN for 3 weeks after expiry — caught by orchestrator review.)*
 
 **Post-Path-B Reversion Fade: CLOSED — FALSIFIED 7/1, never entered** (see the framework section below for the adjudication). Its PRIMARY falsifier — the KB-VIO-090 credit tree — fired **BIN-A** on 6/25 data (KB-VIO-107), which per pre-registration is "Path A confirming, FALSIFIED, full stop." Honest calibration record: the fade's *directional* thesis paid in full (VIX 19.49 → 16.59, inside the 16–17 target zone, on exactly the reversion path predicted) — the credit switch killed a winning trade. That asymmetry is the design (credit tree outranks a paying tape); the cost is now a logged datum on the tree, pending the DISH-decomposition/LIQUID-breadth adjudication. **No new fade/short-vol framework may be constructed while Bin-A stands** (KB-VIO-096 entry asymmetry).
 
@@ -62,11 +78,19 @@ VIX-linked positions and trade framework.
 
 ---
 
-## LIVE DECISION FRAMEWORK — Pre-FOMC Defined-Risk VIX Call Spread (Will: "ok build," 2026-07-25) — **IN CONSTRUCTION (TERRY)**
+## LIVE DECISION FRAMEWORK — Pre-FOMC Defined-Risk VIX Call Spread — ✅ **RESOLVED: FILLED 2026-07-27, POSITION LIVE**
 
-**Stage:** Will approved **BUILD in principle** 7/25 (live session) off the KB-VIO-125 surfaced decision — the registered KB-VIO-123 gate (dealers short-gamma into FOMC) was MET 7/23 (HENRY, 5-of-6 corroborated). **Construction request delivered to TERRY** (`AGENTS/TERRY/inbox/2026-07-25_from-VIOLET_CONSTRUCTION-REQ-prefomc-vix-call-spread-will-approved-build.md`, cc PROME) — that packet is canonical for constraints/structure inputs/exit discipline; this section is the position-side pointer, not a duplicate.
+> **STAGE CORRECTED 7/28 (KB-VIO-142).** This section read **"IN CONSTRUCTION (TERRY)"** with stage *"Will approved BUILD in principle 7/25"* for **17 hours after the trade actually filled.** Will **[Approve]'d** and TERRY executed **7/27 ~11:35 ET at $287.70**. Position details → **ACTIVE POSITIONS** at the top of this file; risk controls → `STATUS.md`. The framework below is retained as the **registration record** of what was pre-committed before the fill.
 
-**Frame (one paragraph):** equity-vol expression ONLY (TRY-FIRE-004's 30× TLT Sep-30 77P owns the rates-vol leg — no MOVE-linked double-count); defined-risk call spread, never outright calls; entry window **Mon 7/27–Tue 7/28 pre-FOMC with VIX <20** — expires at the 7/29 decision; do-not-chase = VIX ≥20 settle or inversion <1.0 pre-fill (peak-marker, KB-VIO-034); strike zone from the KB-VIO-099 sub-20 ladder (long ~20-22 / short 26-30; 23-touch modal, don't pay for the ≥+50% tail at 56-60%); event-boxed with MANDATORY post-FOMC review 7/30, monetize into a ≥23 touch or inversion, no roll without fresh approval. Counter-case on the card: 0/5 absorption base rate, 7/23's sold 20.31 break, COT cushion partially rebuilt, cheap_tail DORMANT 2/4 (mid-range prices). **Final gate: TERRY card + live Monday quotes → Will [Approve] before execution.**
+**Registration record (pre-fill, unaltered).** Equity-vol expression ONLY (TRY-FIRE-004's 30× TLT Sep-30 77P owns the rates-vol leg — no MOVE-linked double-count); defined-risk call spread, never outright calls; entry window **Mon 7/27–Tue 7/28 pre-FOMC with VIX <20**; do-not-chase = VIX ≥20 settle or inversion <1.0 pre-fill (peak-marker, KB-VIO-034); strike zone from the KB-VIO-099 sub-20 ladder (long ~20-22 / short 26-30; 23-touch modal, don't pay for the ≥+50% tail at 56-60%); event-boxed with MANDATORY post-FOMC review 7/30, monetize into a ≥23 touch or inversion, no roll without fresh approval. Counter-case on the card: 0/5 absorption base rate, 7/23's sold 20.31 break, COT cushion partially rebuilt, cheap_tail DORMANT 2/4. Construction packet (canonical for constraints/exit discipline): `AGENTS/TERRY/inbox/processed/2026-07-25_from-VIOLET_CONSTRUCTION-REQ-prefomc-vix-call-spread-will-approved-build.md`.
+
+**How it resolved against its own registration — every pre-committed condition held:**
+- **Entry window:** filled 7/27, inside Mon–Tue. ✅
+- **VIX <20 at fill:** 19.06–19.27 on PROME's live pulls 11:31–11:38. ✅
+- **Do-not-chase:** no ≥20 settle, no inversion pre-fill (ratio ~1.07). ✅
+- **Structure:** 20C/25C spread, never outright. ✅ **Strikes inside the registered zone** (long 20–22 ✅; short 25 vs the registered 26–30 — **TERRY tightened it one strike lower**, which *reduces* the paid-for tail consistent with the 23-touch-modal instruction).
+- **Tenor:** 8/5 over my 8/19 lean — **TERRY's departure, argued on spike-capture and accepted.**
+- ⚠️ **Rule #6 was broken and logged** — VIX calls bought on a VIX-up day. Recorded at the time; the honest epilogue is that the day **settled +0.48%**, not the +4.6% the fill-time tick showed, so **the break was measured against a tick that did not survive the close.**
 
 ---
 
@@ -184,7 +208,7 @@ VIX-linked positions and trade framework.
 **Target:** VIX catches up to credit-implied level (HY OAS × 7.6 + 158 = implied VIX)
 **Stop:** HY OAS reverses >50bps, VIX >30, or curve inverts
 **Sizing:** 1% (medium) / 2% (all 5 checks)
-**Status:** DORMANT — HY 2.75 (6/8), nowhere near trigger.
+**Status:** DORMANT — **HY 2.79 [7/24 FRED]**, nowhere near the +100bps trigger. *(Was "HY 2.75 (6/8)" — a 7-week-stale naked number, refreshed in the 7/28 audit.)*
 
 ### DIET / STRICT Coiled-Spring Trade (L1 population signal)
 
@@ -204,8 +228,9 @@ Inversion (VIX > VIX3M) **marks vol peaks, not onsets** (KB-VIO-034: 553 events,
 | 2026-04-16 | VIX May 19 25C | BUY | — | — | — | — | SKEW divergence Episode-17. 33 DTE. Central case VIX 25-30. |
 | 2026-05-03 | VIX May 19 25C | HOLD | — | — | — | — | Trade-thesis invalidated (4-td rule hit Apr 23-28); HOLD per Will = tail lottery. |
 | 2026-05-19 | VIX May 19 25C | **EXPIRED WORTHLESS** | — | — | 0 | −100% of premium | VIX 18.06 vs strike 25. Post-mortem: `research/2026-06-01_episode17_postmortem.md`. *(Log row added 6/9 — was missing.)* |
+| **2026-07-27** | **VIXW Aug-05 20C/25C spread** | **BUY (open)** | **4 spreads** | **$0.70 debit** (20C 1.23 / 25C 0.53) | — | **OPEN** | `TRY-VIOLET-VIXCS`. $287.70 all-in, MAIN. Will [Approve] ~11:35 ET. Thesis gate = HENRY short-gamma. **Mandatory review 7/30.** Rule #6 break logged (calls on an up-VIX day). *(Log row added 7/28 — **was missing for 17 hours**, KB-VIO-142.)* |
 
-*P/L figures are placeholders — cost basis per Will, not authoritative from state files.*
+*P/L figures are placeholders — cost basis per Will, not authoritative from state files. **Open-position marks are TERRY's**; this log records the fill, not the mark.*
 
 ---
 
@@ -222,4 +247,6 @@ Inversion (VIX > VIX3M) **marks vol peaks, not onsets** (KB-VIO-034: 553 events,
 ---
 
 *Created: 2026-04-12*
-*Last Updated: 2026-07-25 (NEW live framework: Pre-FOMC Defined-Risk VIX Call Spread — Will-approved build-in-principle, TERRY constructing, final [Approve] on live Monday quotes; canonical packet in TERRY's inbox. Prior: 2026-07-02 body content — Gate B NO-FIRE adjudication et al.; footer date corrected 2026-07-11 per DAEDALUS L4 packet #6, no substantive body change today). **⚠️ Staleness pointer (2026-07-11):** the KB-VIO-110 tail-hedge gate and its VIX-calls 30-60 DTE vehicle spec in the body were ruled **LAPSED by Will 2026-07-09** — the vehicle spec is RETIRED; any re-opened hedge is rates-vol/duration-shaped (TERRY lane). See STATUS.md GATE TRACKER + KB-VIO-113 + `research/2026-07-11_move-led-vol-hedge-fresh-look.md` (registered fire/no-fire conditions). Body gate-sections not yet rewritten — proposed follow-up. Prior entries: 2026-07-01 Reversion Fade CLOSED — FALSIFIED by first-ever Bin-A fire, KB-VIO-107 — no fade/short-vol constructible while Bin-A stands; 2026-06-23 PM Reversion Fade pre-registration.)*
+*Last Updated: **2026-07-28 ~04:35 ET — PROVENANCE AUDIT (Will-directed), and this file was the worst surface in the domain.** 🔴 **`ACTIVE POSITIONS` read "None." for 17 hours while `TRY-VIOLET-VIXCS` was live with $287.70 at risk and a mandatory review 2 days out** (KB-VIO-142). Also fixed: the Pre-FOMC framework still said **"IN CONSTRUCTION (TERRY)"** after the fill; the **TRADE LOG had no row** for the position; the credit-vol lag trade carried **HY 2.75 (6/8)**, seven weeks stale. **The boot staleness guard passed this file `ok +2d`** — it compares mtime to STATUS.md, so it measures **age, not agreement**, and is structurally blind to a fresh file that contradicts the truth. **A position surface needs a positive check** ("if STATUS shows a LIVE position, TRADE.md must name it") **— queued, not built.** Note the symmetry: this file previously carried a **dead** position as OPEN for 3 weeks, and has now carried a **live** position as **None** — both failure directions have occurred, so it does not self-correct.*
+
+*Prior: 2026-07-25 (NEW live framework: Pre-FOMC Defined-Risk VIX Call Spread — Will-approved build-in-principle, TERRY constructing, final [Approve] on live Monday quotes; canonical packet in TERRY's inbox. Prior: 2026-07-02 body content — Gate B NO-FIRE adjudication et al.; footer date corrected 2026-07-11 per DAEDALUS L4 packet #6, no substantive body change today). **⚠️ Staleness pointer (2026-07-11):** the KB-VIO-110 tail-hedge gate and its VIX-calls 30-60 DTE vehicle spec in the body were ruled **LAPSED by Will 2026-07-09** — the vehicle spec is RETIRED; any re-opened hedge is rates-vol/duration-shaped (TERRY lane). See STATUS.md GATE TRACKER + KB-VIO-113 + `research/2026-07-11_move-led-vol-hedge-fresh-look.md` (registered fire/no-fire conditions). Body gate-sections not yet rewritten — proposed follow-up. Prior entries: 2026-07-01 Reversion Fade CLOSED — FALSIFIED by first-ever Bin-A fire, KB-VIO-107 — no fade/short-vol constructible while Bin-A stands; 2026-06-23 PM Reversion Fade pre-registration.)*
