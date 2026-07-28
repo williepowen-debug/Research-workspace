@@ -8,7 +8,7 @@
 **Default:** <hold / trim / roll / let expire / cancel / ask Will>
 **Source:** `<pre-build / domain source path>`
 **Freshness:** dates/pointers verified vs `PROME/DOCKET.tsv` on <date> (`python3 scripts/firetime_check.py <this file>`) — re-verify before fire
-**Position:** off-repo broker truth (Will/broker direct — pull the live book at fire-time, rule #4); structured mirror = `FORGE/STATUS.md` + `FORGE/PORTFOLIO.md`
+**Position:** off-repo broker truth (Will/broker direct — pull the live book at fire-time, rule #4); structured mirror = `FORGE/STATUS.md` **only** (`PORTFOLIO.md` = frozen Feb-2026 snapshot, historical — pairing retired 7/28)
 **Spec:** State vocabulary is inline above (same set as `PROME/ACTIVE_DECISIONS.md` rules); full rails spec archived → `PROME/archive/EXECUTION_RAILS.md` + `PROME/archive/DECISION_FLOW.md` *(pointers repointed 7/1 after the 6/30 public-prep prune)*
 
 ---

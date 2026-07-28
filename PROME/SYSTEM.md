@@ -39,7 +39,7 @@ Core rule:
 | `PROME/SCRATCH.md` | Full rewrite each closeout | Ephemeral session state + next-session entry point + **operator card** (date, catalysts, near-gates — absorbed `TODAY.md` 2026-07-01). |
 | `PROME/STATUS.md` | Surgical at closeout | Operational status, work queue, agent/system health. |
 | `PROME/ACTIVE_DECISIONS.md` | Surgical when a decision moves | Non-terminal decision safety index. |
-| `PROME/FLEET_SCAN.md` | On-demand | Fleet/agent stale-state scan and ranked candidate moves. |
+| `PROME/FLEET_SCAN.md` | **Superseded snapshot — do not rebuild** | Historical only (its own banner). Fleet stale-state/maturity is **DAEDALUS territory**: `PROME/ROSTER.md` (classification) + `AGENTS/DAEDALUS/FLEET_MAP.tsv` (maturity/state). *(Rebuild advertisement retired 7/28 — DAEDALUS objection, PROME-ratified: a vestigial design doc is the re-entry path for a duplicate surface.)* |
 | `KERNELS.md` | On-demand reference | Thesis-spine: compressed transmission map + durable system lessons (renamed from root `MEMORY.md` 6/30; not injected). |
 | `memory/YYYY-MM-DD.md` | On-demand (daily log) | Daily session activity detail; not root-memory insight. |
 
@@ -142,7 +142,7 @@ Historical example of the ownership split (FSK May-11 event; card archived):
 | `PROME/COMPLETION_SPEC.md` | Required sub-agent completion format. | Use for spawns. |
 | `PROME/ORCHESTRAL_LAYER_DESIGN.md` | Fleet scan, ranking rubric, orchestration design. | Use when triaging many tasks. |
 | `PROME/ACTIVE_DECISIONS.md` | Open non-terminal decisions / Will blockers. | Check before proposing new decisions. |
-| `PROME/FLEET_SCAN.md` | On-demand stale-state scan and ranked candidate moves. | Rebuild when Will asks for fleet/agent audit. |
+| `PROME/FLEET_SCAN.md` | Superseded historical snapshot — never rebuild. | Fleet/agent audit → `PROME/ROSTER.md` + `AGENTS/DAEDALUS/FLEET_MAP.tsv` (DAEDALUS-owned). |
 | `PROME/archive/TOSCANINI_2026-03/` | Retired Toscanini queue/protocol archive. | Historical only; do not treat as live ops. |
 
 ---
@@ -159,7 +159,7 @@ Historical example of the ownership split (FSK May-11 event; card archived):
 
 Known current caveat:
 
-- `FORGE/STATUS.md` (+`PORTFOLIO.md`) is the broker-export-refreshed structured position mirror — last reconciled **2026-07-16** (Will screenshots; prior 5/21) and **stales between exports** (its own banner governs); position truth is off-repo (Will/broker direct). Never cite its marks as current.
+- `FORGE/STATUS.md` **alone** is the broker-export-refreshed structured position mirror — last reconciled **2026-07-20** (broker export; prior 7/16) and **stales between exports** (its own banner governs); position truth is off-repo (Will/broker direct). Never cite its marks as current. *(`FORGE/PORTFOLIO.md` = **FROZEN Feb-2026 snapshot, historical only, never half the live mirror** — pairing retired here 2026-07-28 per the Will-approved root `CLAUDE.md` correction; the stale pairing was the cause of VIOLET's position-missing symptom.)*
 
 ---
 
@@ -182,7 +182,7 @@ Trust each file's own `Updated:` stamp over any table here (behavior-language be
 
 - **Live market levels:** always re-run `FORGE/tools/market-data/dashboard.py` / `fetch.py` before citing — never quote levels from state files.
 - **Position / execution truth:** Will/broker direct (**off-repo**), not these docs — FORGE is only the stale structured mirror. The legacy `POSITIONS.md`/`TRADE_DECISIONS.md` decision-support docs were retired 2026-06-30 (POSITIONS deleted — held a broker balance; TRADE_DECISIONS → `PROME/archive/`), superseded by FORGE + **TERRY** (trade construction / risk). `FORGE/STATUS.md` refresh before use.
-- **On-demand:** `PROME/FLEET_SCAN.md` — rebuild for the current question before trusting.
+- **Fleet state:** `PROME/ROSTER.md` (classification) + `AGENTS/DAEDALUS/FLEET_MAP.tsv` (maturity, DAEDALUS-owned) — `FLEET_SCAN.md` is a superseded snapshot, never rebuild it.
 
 ---
 
@@ -192,7 +192,7 @@ Trust each file's own `Updated:` stamp over any table here (behavior-language be
 
 2. **File-based messaging is in use but being replaced.** Don't patch inbox/outbox hygiene gaps — flag and let them ride ([[project_messaging_overhaul]]). *(7/14 delta: Direct Messaging v1 first cohort is LIVE — PROME→BRENT + PROME→SAM `MSG-*` routes under `MESSAGING/`, both proven 7/16; HERMES's folder was removed entirely in the 6/30 prune. All other routes: still let-ride.)*
 
-3. **Execution truth lives outside these docs.** Position truth is **off-repo** (Will/broker direct); `FORGE/STATUS.md`+`PORTFOLIO.md` is only the broker-export structured mirror (last reconcile 7/16; stales between exports) — never cite its marks as current. Retired Toscanini refs → `PROME/archive/TOSCANINI_2026-03/` (historical only).
+3. **Execution truth lives outside these docs.** Position truth is **off-repo** (Will/broker direct); `FORGE/STATUS.md` alone is the broker-export structured mirror (last reconcile 7/20; stales between exports) — never cite its marks as current. *(`PORTFOLIO.md` = frozen Feb-2026 snapshot, historical only — pairing retired 7/28.)* Retired Toscanini refs → `PROME/archive/TOSCANINI_2026-03/` (historical only).
 
 4. **Always-on collection now lives in the RESEARCH-INTAKE repo (2026-06-29).** Built as **GitHub Actions in a dedicated private repo, NOT a VPS** — collectors write only there, agents read read-only (no working-branch divergence by construction). 6 feeds weekday-daily; replaces the dead `/home/moltbot` VPS crons (news-sweep / dashboard). Consumer wiring DONE (WALTER 7/2, proven live 7/4); lane-side coverage doctor added 7/17 (`scripts/lane_coverage_check.py`, INFO-severity). [[project_research_intake_collection_lane]].
 
