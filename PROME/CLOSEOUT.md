@@ -1,6 +1,6 @@
 # PROME CLOSEOUT
 
-**Created:** 2026-05-18 · **Updated:** 2026-07-24 (mirror-sweep for the orphan-detector adoption: Skip-rules `AGENTS/<other>/` line now carries the root-canon self-authored-packet carve-out + step-1b pointer). Prior 2026-07-17 (spine-audit #4 stamp-bump: the 7/11 body edits [Chunk-3 de-conflict note · SCRATCH format contract · dashboard symmetry row] never bumped this line — content itself re-verified accurate). Prior 2026-07-10 (doc-audit fixes: GATES.tsv write-back contract added [symmetry + Write-Back + File-ownership rows] · DOCKET.tsv File-ownership row · FLEET_SCAN row retired-pointer · Updated-stamp convention adopted — bump this line on material edits)
+**Created:** 2026-05-18 · **Updated:** 2026-07-28 (spine-audit #6 minors: stamp re-synced [the 7/27 claim-check section rode in under the 7/24 stamp — this line's own convention violated]; Chunk-4 sequence now names root steps 1c consumer-check + 1d memory-index-check; Skip-rules carve-out list completed to the root ONLY-three [② shared-log rows + ③ mandatory memory/auto self-commit were absent]). Prior 2026-07-24 (mirror-sweep for the orphan-detector adoption: Skip-rules `AGENTS/<other>/` line now carries the root-canon self-authored-packet carve-out + step-1b pointer). Prior 2026-07-17 (spine-audit #4 stamp-bump: the 7/11 body edits [Chunk-3 de-conflict note · SCRATCH format contract · dashboard symmetry row] never bumped this line — content itself re-verified accurate). Prior 2026-07-10 (doc-audit fixes: GATES.tsv write-back contract added [symmetry + Write-Back + File-ownership rows] · DOCKET.tsv File-ownership row · FLEET_SCAN row retired-pointer · Updated-stamp convention adopted — bump this line on material edits)
 **Owner:** Prome
 **Purpose:** Repeatable session-end procedure to keep Prome's state files consistent across sessions. Run before `/clear`, `/new`, or session handoff.
 
@@ -176,6 +176,12 @@ If none triggered, skip.
 cd "$(git rev-parse --show-toplevel)" && python3 scripts/claim_check.py
 ```
 
+### Root session-end steps 1b–1d (run with the git sequence — root `CLAUDE.md` owns the full text)
+
+- **1b orphan check:** `bash scripts/orphan_check.sh PROME` — `[likely YOURS]` → commit per carve-out ①; `[not yours]` → flag (⚠️ except `memory/auto/` files PROME wrote — path-classified `[not yours]` but carve-out ③ makes committing them MANDATORY).
+- **1c consumer check (if a published number was superseded this session):** `python3 scripts/consumer_check.py --agent PROME --old <old> --new <new>` → packet each 🔴 STALE owner, never edit their files.
+- **1d memory-index check (if any auto-memory was written/edited):** `python3 scripts/memory_index_check.py --strict --slug <slug>` per memory — the `--slug` form, never bare `--strict` at closeout.
+
 Mechanical checks for the error classes that **memory demonstrably does not catch**: a **weekday** asserted against a date that isn't that weekday · a **git hash** cited as provenance that no reader can reach · an instrument quoted at its **ETF's magnitude** instead of its own · a **dead repo path** in backticks. Born 2026-07-27 (Will-directed) after a measurement pass showed the fleet's mechanical detectors fire reliably while auto-memory lessons don't — *two* errors shipped that session were in classes already sitting in PROME's own index.
 
 **rc=1 means LOOK, not find-replace.** Its own first live run proves why: it flagged DOCKET's `Q2-2024 precedent = Tue 8/6`, which is **correct** — 2024-08-06 *was* a Tuesday and the checker had assumed the current year. Reading before editing is what stopped a right answer being "fixed." (That case is now handled — bare `M/D` inherits the nearest 4-digit year on the line — but the discipline stands for the next class it gets wrong.)
@@ -226,7 +232,7 @@ One short message:
 
 - **Operator card (date/catalysts/near-gates)** — now part of `PROME/SCRATCH.md`'s full rewrite; the standalone `TODAY.md` was retired 2026-07-01 (it held no unique state — ~95% duplicated SCRATCH/STATUS/ACTIVE_DECISIONS and rotted daily on its date title).
 - **`PROME/HANDOFF.md`** — cross-runtime Prome continuity. Update only when the session changes future Prome state; keep it concise and rotate/archive older entries.
-- **`AGENTS/<other>/` files** — **default: never** (other agents own their state). **Carve-out (root canon, ratified 2026-07-23):** a packet **PROME authored** into another agent's `inbox/` is PROME's to commit — and must be (recipient named in subject; `scripts/orphan_check.sh` at step 1b catches forgotten ones). **Bounded exception beyond that:** PROME may commit another agent's OWN files ONLY as a **Will-approved, per-instance apply-on-behalf action** — e.g. applying a DAEDALUS batch while that agent is offline, or a Will-scoped fleet sweep — touching only the specific approved files and naming the authorization in the commit body. Absent explicit Will approval, never.
+- **`AGENTS/<other>/` files** — **default: never** (other agents own their state). **Root canon "the ONLY three" carve-outs (full text in root `CLAUDE.md` Git Protocol; ① 2026-07-23 · ② 2026-07-25 · ③ 2026-07-27):** ① a packet **PROME authored** into another agent's `inbox/` is PROME's to commit — and must be (recipient named in subject; step 1b catches forgotten ones); ② a **shared-log row PROME authored** (`AGENTS/SIGNALS.md` class) is PROME's to commit, path-scoped; ③ **auto-memory files PROME authored/appended (`memory/auto/`) MUST be self-committed** + verified via step 1d (`--slug` form). **Bounded exception beyond those:** PROME may commit another agent's OWN files ONLY as a **Will-approved, per-instance apply-on-behalf action** — touching only the specific approved files and naming the authorization in the commit body. Absent explicit Will approval, never.
 - **Root `CLAUDE.md` / shared files** — flag to Will, don't auto-edit. Will-approval gates the change.
 
 ---
