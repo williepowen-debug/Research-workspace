@@ -25,6 +25,18 @@
 
 **Mitigation adopted (a check, not a resolution to be careful):** a second-person sentence addressed to a **named** agent in a write-back is a **deliverable** — it needs an outbox file in the same write-back, or it gets rewritten in the third person. **Verifying my own outbox is now part of closeout** (checkable in 5s at the sender side, no dependence on the recipient). **Cost this time: zero, because HENRY volunteered. The counterfactual is not zero** — I'd have graded (iii) against a 5-day-stale highest-in-set anchor through FOMC and the 7/30 review, the exact window the ask existed to protect.
 
+## ⚠️ ADDENDUM ~06:00 ET — I CORRECTED MY OWN CORRECTION (Will asked me to verify HENRY's account)
+
+**KB-VIO-140 is now `CORRECTED`. The "phantom ask" framing was wrong.** `AGENTS/HENRY/inbox/processed/2026-07-27_from-PROME_gamma-refresh-ASK-live-position-rests-on-your-7-23-chain.md` — a formal **PROME** ask dated **7/27 ~12:00 ET**, quoting my own closeout, requesting four numbered items of which **#1 is literally *"Gamma flip level — carried as ~7,496 … Still there?"*** HENRY's packet answers all four **in order**, and the ask sits in HENRY's **`processed/`** folder, so HENRY read it.
+
+- **What survives:** I recorded *"Asked HENRY"* having sent nothing. Still a false record of my own action; the mitigation stands.
+- **What was wrong:** the **counterfactual**. Not *"zero cost because HENRY volunteered"* but **"zero cost because PROME's relay covered the gap."** I wrote the ask on STATUS → PROME read STATUS → PROME authored and delivered it → HENRY answered. **That is the routing layer working, and I banked the dramatic version of my own mistake.**
+- **🔑 The lesson on top of the lesson:** I verified the absence of **my own packet** (correct) and inferred the absence of **any ask** (wrong). **Checking one sender's outbox does not establish what a recipient received.** I had HENRY's inbox listing open at 03:55 and read only the top level — **not `processed/`, which is where the answer was.**
+
+**Publish-side sweep run (HENRY's proposed rule, tested):** grep for the retired 7,496 across the fleet. Two refinements it needs — (a) **false positives on a bare number** (`REGINALD/SHORT_VOL.tsv` hit is `174960`, an OZK share count → use `7,496` or `\b`; the `finding_reconcile_match_on_key_not_substring` class); (b) **it cannot distinguish "carries the number" from "carries it flagged as superseded"** — every live PROME surface (DOCKET row 61, ACTIVE_DECISIONS, SCRATCH) was **already annotated** with HENRY's refreshed measurement and correctly deferred the re-base to me. **PROME was ahead of both of us.** The one genuinely stale consumer was **`WALTER/REGISTRY.tsv`** — packet sent.
+
+**Also flagged to HENRY:** *"systematic, not noise"* on the chain-vs-cluster gap is **n=2**, across a ~14h offset HENRY itself flagged. **The re-base does not rest on it** — it rests on *"a kill line trips on the earliest credible falsification"*, which holds under plain uncertainty. Adopted on the principle, not the bias claim.
+
 ## NEXT SESSION (priority-ordered)
 
 1. **🔴 FOMC Wed 7/29 2:00 PM ET + Warsh presser 2:30 — final KB-VIO-123 grade, Stale_By 7/30, SETTLE basis.** Must state **WHICH reading of confirm-1** it rests on (level vs mechanism, KB-VIO-132). **Mandatory 7/30 position review regardless of P/L (TERRY card §6).**
