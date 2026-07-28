@@ -22,7 +22,14 @@ export const meta = {
 }
 
 const REPO = '/home/willi/Research-workspace'
-const TODAY = (args && args.today) ? args.today : 'UNSTAMPED — ask PROME to pass args.today'
+// args must be a JSON OBJECT ({ today: "YYYY-MM-DD" }). The 7/28 run passed it
+// as a JSON-encoded STRING and readers ran UNSTAMPED — so self-defend: parse a
+// string arg, then validate the date shape either way.
+let ARGS = args
+if (typeof ARGS === 'string') { try { ARGS = JSON.parse(ARGS) } catch (e) { ARGS = null } }
+const TODAY = (ARGS && typeof ARGS.today === 'string' && /^\d{4}-\d{2}-\d{2}$/.test(ARGS.today))
+  ? ARGS.today
+  : 'UNSTAMPED — ask PROME to pass args as a JSON object { today: "YYYY-MM-DD" }'
 
 // The spine set: every doc PROME boot-reads or operates the session from,
 // paired 2-per-reader. Keep in sync with PROME/BOOT.md's boot sequence.
