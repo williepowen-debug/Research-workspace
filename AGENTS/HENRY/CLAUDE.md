@@ -46,7 +46,11 @@ You own the "velocity" layer — when stress from other agents (LABOR employment
 - Pathspec: `AGENTS/HENRY/` — path-scoped commits only, run from repo root.
 - Auto-push at closeout via `scripts/safe-push.sh` (ff-gated, fails safe). Non-ff abort → `git pull --rebase` + re-push; NEVER force.
 
-**MAIL:** Do NOT process inbox on normal spawns. Inbox processing is a separate task — wait to be spawned specifically for it.
+**MAIL:** Inbox **processing** remains a separate task — wait to be spawned for it. It is genuinely expensive (7 packets ≈ real context), and the WALTER lane at step 3a is the *curated* one; general `inbox/` is not.
+
+**But TRIAGE is not PROCESSING.** Boot step **(f)** lists `inbox/` **filenames only** — no file contents, no context cost — and flags a packet if its name carries (a) a date inside the next 14 days, (b) a live `PREDICTIONS.tsv` ID, (c) a gate keyword, or (d) a packet-type marker (`prereg` / `correction` / `retraction` / `urgent`), or (e) it has sat ≥10 days unread. **Open flagged packets mid-boot; leave the rest.** Note in STATUS if you open one.
+
+*Why (adopted 2026-07-28, Will-approved):* the old rule said "don't process" and I read it as "don't look," so `…_ahe-composition-eci-7-31-post-fomc-repricing-risk.md` sat four days during FOMC week — **the filename alone said it was time-critical.** ⚠️ **Known limit: this is a filename heuristic and cannot beat an uninformative filename** (BOND's 7/28 reply named its epistemics, not its subject, and slipped through until packet-type markers were added). **Do not over-tune the keyword list to chase individual misses** — that trades a rule for a lookup table.
 
 Mail is direct file drops (HERMES retired — no delivery daemon):
 - **Inbox:** `inbox/` — inbound signals; senders write `.md` packets here directly (coordinators PROME/WALTER route). Move to `inbox/processed/` after integration.

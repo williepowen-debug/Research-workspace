@@ -1,0 +1,7 @@
+metric	value	asof	note
+gamma_flip_35d	7496	2026-07-23	CBOE 6,909 contracts; carried by VIOLET as the (iii) thesis-kill line for 5 days
+gamma_flip_35d	7479	2026-07-27	CBOE 7,850 contracts; PROME gamma-refresh ASK
+net_gex_35d_Bn	-45.2	2026-07-23	$B per 1%
+net_gex_35d_Bn	-38.4	2026-07-27	$B per 1%
+gamma_flip_35d	7472	2026-07-28	cboe 7864 contracts
+net_gex_35d_Bn	-30.8	2026-07-28	$B per 1%

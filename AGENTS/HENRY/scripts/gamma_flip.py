@@ -27,6 +27,7 @@ Usage: .venv/bin/python3 AGENTS/HENRY/scripts/gamma_flip.py [--days N] [--asof Y
 """
 import sys, math, json, re, urllib.request
 from datetime import date, datetime
+from pathlib import Path
 from collections import defaultdict
 
 # A healthy <=35d ^SPX pull is thousands of contracts (6,206 on 7/17, 4,900 at 14d).
@@ -308,7 +309,48 @@ def main():
         print("  ⚠️⚠️ PUT WALL == CALL WALL — structurally impossible as stated;"
               " treat the put side as UNRESOLVED at this horizon (see LESSONS 7/23).")
     print("  (FREE-TIER proxy: absolute $B assumes long-call/short-put dealer gamma; the FLIP + sign are the robust reads)")
+    _publish(r, horizon)
     return 0
+
+
+# ── PUBLISHED.tsv ledger (7/28) ───────────────────────────────────────
+# Numbers this desk publishes get wired into OTHER agents' gates. VIOLET
+# carried the 7/23 flip as a live thesis-kill for five days while this script
+# refreshed it twice. The consumer check that finds those stale copies is
+# cheap; what was missing was any record of WHAT was superseded and WHEN.
+# So the estimator records its own output, and boot.py runs the check off
+# this ledger automatically — a boot check, not a remembered ritual
+# ([[finding_mechanize_the_cap_not_the_ritual]]).
+# One row per (metric, day): re-running intraday updates the day's row rather
+# than appending noise.
+PUBLISHED_TSV = Path(__file__).resolve().parent.parent / "workbook" / "PUBLISHED.tsv"
+PUBLISH_HEADER = "metric\tvalue\tasof\tnote"
+
+
+def _publish(r, horizon):
+    """Record today's flip + net GEX. Never raises — telemetry must not break a read."""
+    try:
+        if not r or r.get("error") or not r.get("flip"):
+            return
+        today = str(r.get("asof") or date.today())
+        rows = [
+            (f"gamma_flip_{horizon}d", f"{r['flip']:.0f}",
+             f"{r.get('source','?')} {r.get('n_contracts','?')} contracts"),
+            (f"net_gex_{horizon}d_Bn", f"{r['gex_at_spot']/1e9:.1f}", "$B per 1%"),
+        ]
+        existing = []
+        if PUBLISHED_TSV.exists():
+            existing = [l for l in PUBLISHED_TSV.read_text().strip().split("\n") if l.strip()]
+        header = existing[0] if existing else PUBLISH_HEADER
+        body = [l for l in existing[1:]]
+        for metric, value, note in rows:
+            body = [l for l in body
+                    if not (l.startswith(f"{metric}\t") and f"\t{today}\t" in l)]
+            body.append(f"{metric}\t{value}\t{today}\t{note}")
+        PUBLISHED_TSV.parent.mkdir(parents=True, exist_ok=True)
+        PUBLISHED_TSV.write_text("\n".join([header] + body) + "\n")
+    except Exception:
+        pass
 
 
 if __name__ == "__main__":

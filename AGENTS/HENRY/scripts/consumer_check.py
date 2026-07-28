@@ -1,0 +1,323 @@
+#!/usr/bin/env python3
+"""
+consumer_check.py — who is still carrying a number you have superseded?
+
+WHY THIS EXISTS (HENRY, 2026-07-28)
+-----------------------------------
+Agents publish numbers that OTHER agents wire into live gates, and nobody
+tracks the consumers. VIOLET carried HENRY's 2026-07-23 gamma flip (~7,496)
+as the thesis-kill line for a live position for five days. HENRY refreshed
+that number twice (7/27 → ~7,479, 7/28 → ~7,491) and never once asked who
+was still holding the old one. On the eve of an FOMC, the stale copy read
+~1.4% of headroom to the kill when the live figure was ~0.56%.
+
+The check itself is one grep. The failure was that nobody ran it.
+
+Fleet-generic on purpose — every agent publishes numbers others consume.
+Same shape as scripts/orphan_check.sh (which began as a HENRY-local tool and
+was adopted fleet-wide 2026-07-23).
+
+TWO DESIGN POINTS, both from VIOLET's review of the first draft:
+
+  1. MATCH ON NUMERIC TOKENS, NOT SUBSTRINGS. A naive grep for "7496" hits
+     REGINALD/workbook/SHORT_VOL.tsv:396 — that is 174960, an OZK share
+     count. We tokenize each line into number-like spans, strip separators,
+     and compare whole values. No substring can survive that.
+
+  2. DISTINGUISH "CARRIES IT" FROM "CARRIES IT FLAGGED SUPERSEDED." PROME's
+     DOCKET.tsv and SCRATCH.md both held 7,496 — correctly marked stale, with
+     the refreshed gap already computed. Scoring those as stale consumers
+     overstates the problem in the tool-owner's favour. We look for a
+     supersession marker on the hit line or within +/-CONTEXT lines.
+
+DELIBERATE ASYMMETRY: when classification is ambiguous, we report STALE, not
+FLAGGED. A false STALE costs a glance. A false FLAGGED costs exactly the
+failure this tool exists to prevent.
+
+USAGE
+  python3 consumer_check.py --agent HENRY --label "gamma flip" \
+      --old 7496 --old 7479 --new 7491
+
+  # from a ledger (see workbook/PUBLISHED.tsv) — checks every superseded
+  # value of every metric automatically:
+  python3 consumer_check.py --agent HENRY --from-ledger
+
+Exit 0 always (advisory) unless --strict, which exits 1 if any STALE consumer
+is found. Read-only: never writes, never commits, never edits another agent's
+files. Surfacing is the whole job; sending the packet is yours.
+"""
+
+import argparse
+import os
+import re
+import sys
+from pathlib import Path
+
+# --------------------------------------------------------------- configuration
+
+SEARCH_ROOTS = ["AGENTS", "PROME", "FORGE", "BOARD"]
+SEARCH_EXTS = {".md", ".tsv", ".csv", ".txt"}
+
+# Historical by design — a superseded value SHOULD appear here.
+EXCLUDE_PARTS = {
+    ".git", "processed", "archive", "_archive", "archived",
+    "node_modules", ".venv", "retired", "history",
+}
+
+# A hit line (or its neighbourhood) carrying one of these is already handled.
+SUPERSESSION_MARKERS = [
+    "stale", "superseded", "supersede", "retired", "retire",
+    "refreshed", "refresh", "retracted", "retract", "obsolete",
+    "outdated", "no longer", "do not cite", "don't cite", "do not use",
+    "historical", "deprecated", "corrected", "correction", "was ",
+    "prior read", "prior:", "old flip", "supersedes",
+]
+
+CONTEXT = 2  # lines either side of a hit to scan for a marker
+
+# number-like span: 1,234.56 / 7496 / 7,496 / 0.02
+NUM_RE = re.compile(r"\d[\d,_]*(?:\.\d+)?")
+
+
+def normalize(tok: str) -> str:
+    """'7,496' -> '7496'; '7496.0' -> '7496'. Used on BOTH needle and haystack."""
+    t = tok.replace(",", "").replace("_", "")
+    if "." in t:
+        t = t.rstrip("0").rstrip(".")
+    return t
+
+
+def line_values(line: str):
+    """Every whole numeric value on a line, normalized. Substrings cannot match."""
+    return {normalize(m.group(0)) for m in NUM_RE.finditer(line)}
+
+
+def _context(lines, idx, row_oriented=False):
+    """Neighbourhood of a hit — but ROW-ORIENTED FILES GET NO NEIGHBOURHOOD.
+
+    ⚠️ Caught by testing this tool against the very case it was built for.
+    In a .tsv each line is an INDEPENDENT RECORD. WALTER/REGISTRY.tsv:16 carries
+    the superseded flip; the rows above and below are other agents' entries whose
+    notes columns happen to contain words like "refresh" and "corrected". With a
+    +/-2 window those markers bled across record boundaries and the genuinely
+    stale row was scored 🟢 HANDLED — a FALSE NEGATIVE, i.e. precisely the
+    expensive direction this tool's asymmetry is supposed to forbid.
+
+    A marker only clears a row if it is IN that row. Same lesson as
+    [[finding_reconcile_match_on_key_not_substring]]: match on the record, not
+    on text that merely sits near it.
+    """
+    if row_oriented:
+        return [lines[idx]]
+    lo = max(0, idx - CONTEXT)
+    hi = min(len(lines), idx + CONTEXT + 1)
+    return lines[lo:hi]
+
+
+def is_row_oriented(relpath: str) -> bool:
+    return Path(relpath).suffix.lower() in {".tsv", ".csv"}
+
+
+def is_blob(line: str) -> bool:
+    """Embedded base64/data-URI payloads are not prose; their digits are noise.
+
+    ⚠️ Do NOT gate this on LINE LENGTH. The first cut used len>400 and silently
+    dropped WALTER/REGISTRY.tsv:16 (591 chars) — a legitimate registry row, and
+    the single genuine stale consumer this tool was written to find. Ledger and
+    registry rows are routinely that long.
+
+    The real discriminator is an UNBROKEN TOKEN: a base64 payload is one
+    enormous run with no whitespace (46,386 chars in the case at hand), while a
+    591-char TSV row is a dozen short tab-separated fields. Measure the token,
+    not the line.
+    """
+    if "base64" in line or "data:image" in line:
+        return True
+    return any(len(tok) > 200 for tok in line.split())
+
+
+def has_marker(lines, idx, row_oriented=False) -> bool:
+    blob = " ".join(_context(lines, idx, row_oriented)).lower()
+    return any(m in blob for m in SUPERSESSION_MARKERS)
+
+
+def has_current(lines, idx, current, row_oriented=False) -> bool:
+    """Is the CURRENT value sitting right next to the old one?
+
+    This turned out to be a far better discriminator than keyword markers.
+    A line like
+
+        | (iii) line | SPX close > ~7,496 | ⚠️ warn 7,455 · 🔴 falsified 7,491 |
+
+    is a RE-BASE TABLE — the superseded value appears precisely because it is
+    being mapped to the new one. Scoring that as a stale consumer buries the
+    genuinely stale rows underneath the paperwork of fixing them. (First run of
+    this tool returned 19 hits, most of them exactly this shape.)
+    """
+    if current in (None, "?", ""):
+        return False
+    want = normalize(str(current))
+    return any(want in line_values(l) for l in _context(lines, idx, row_oriented))
+
+
+def surface_of(relpath: str) -> str:
+    """Live state vs point-in-time mail. Both matter; only one needs a packet."""
+    parts = {p.lower() for p in Path(relpath).parts}
+    if parts & {"inbox", "outbox"}:
+        return "MAIL"
+    return "LIVE"
+
+
+def iter_files(workspace: Path, own_dir: Path | None):
+    for root in SEARCH_ROOTS:
+        base = workspace / root
+        if not base.exists():
+            continue
+        for path in base.rglob("*"):
+            if not path.is_file() or path.suffix.lower() not in SEARCH_EXTS:
+                continue
+            if EXCLUDE_PARTS & set(p.lower() for p in path.parts):
+                continue
+            if own_dir and own_dir in path.parents:
+                continue
+            yield path
+
+
+def scan(workspace: Path, needles, own_dir: Path | None, current=None):
+    """-> (stale_live, mail, handled). Classification order matters."""
+    stale, mail, handled = [], [], []
+    wanted = {normalize(str(n)) for n in needles}
+    for path in iter_files(workspace, own_dir):
+        try:
+            text = path.read_text(errors="ignore")
+        except OSError:
+            continue
+        if not any(n in text.replace(",", "") for n in wanted):
+            continue  # cheap prefilter before the per-line pass
+        lines = text.split("\n")
+        rel = str(path.relative_to(workspace))
+        rowish = is_row_oriented(rel)
+        for i, line in enumerate(lines):
+            if is_blob(line):
+                continue
+            hits = wanted & line_values(line)
+            if not hits:
+                continue
+            rec = (rel, i + 1, sorted(hits), line.strip()[:140])
+            # 1. the new value is right here -> this IS the re-base, not a stale copy
+            if has_current(lines, i, current, rowish):
+                handled.append(rec)
+            # 2. explicitly marked stale/superseded/retracted
+            elif has_marker(lines, i, rowish):
+                handled.append(rec)
+            # 3. sent/received mail is point-in-time; correcting it helps nobody
+            elif surface_of(rel) == "MAIL":
+                mail.append(rec)
+            # 4. a live surface carrying it unqualified -> this is the real find
+            else:
+                stale.append(rec)
+    return stale, mail, handled
+
+
+def read_ledger(ledger: Path):
+    """PUBLISHED.tsv -> {metric: (current_value, [superseded values])}."""
+    if not ledger.exists():
+        return {}
+    rows = [l.split("\t") for l in ledger.read_text().strip().split("\n")[1:] if l.strip()]
+    by_metric = {}
+    for r in rows:
+        if len(r) >= 3:
+            by_metric.setdefault(r[0], []).append((r[2], r[1]))  # (asof, value)
+    out = {}
+    for metric, entries in by_metric.items():
+        entries.sort()                      # by asof
+        current = entries[-1][1]
+        superseded = [v for _, v in entries[:-1] if normalize(v) != normalize(current)]
+        # de-dup, keep the most recent few — old values stop being cited
+        seen, keep = set(), []
+        for v in reversed(superseded):
+            if normalize(v) not in seen:
+                seen.add(normalize(v))
+                keep.append(v)
+        out[metric] = (current, keep[:5])
+    return out
+
+
+def report(label, current, olds, stale, mail, handled):
+    print(f"\n  ── {label} · superseded {', '.join(map(str, olds))} → current {current}")
+    if stale:
+        print(f"     🔴 STALE ON A LIVE SURFACE — send the owner a packet ({len(stale)})")
+        for p, ln, hits, txt in stale:
+            print(f"        {p}:{ln}  [{', '.join(hits)}]")
+            print(f"           {txt}")
+    if mail:
+        owners = sorted({p.split('/')[1] for p, *_ in mail if '/' in p})
+        print(f"     🟡 in MAIL, point-in-time — usually no action ({len(mail)}"
+              f"{': ' + ', '.join(owners) if owners else ''})")
+    if handled:
+        print(f"     🟢 already flagged superseded / shown next to the new value ({len(handled)})")
+    if not (stale or mail or handled):
+        print("     ✓ no consumer carries a superseded value.")
+
+
+def main():
+    ap = argparse.ArgumentParser(description=__doc__,
+                                 formatter_class=argparse.RawDescriptionHelpFormatter)
+    ap.add_argument("--agent", help="your agent name — excludes AGENTS/<NAME>/ from the scan")
+    ap.add_argument("--label", default="value", help="what the number is, for the report")
+    ap.add_argument("--old", action="append", default=[], help="superseded value (repeatable)")
+    ap.add_argument("--new", default="?", help="the current value")
+    ap.add_argument("--from-ledger", metavar="PATH", nargs="?", const="AUTO",
+                    help="read metrics from a PUBLISHED.tsv instead of --old/--new")
+    ap.add_argument("--strict", action="store_true", help="exit 1 if any STALE consumer found")
+    args = ap.parse_args()
+
+    here = Path(__file__).resolve()
+    workspace = here.parents[3]                       # AGENTS/<X>/scripts/ -> repo root
+    own_dir = (workspace / "AGENTS" / args.agent) if args.agent else None
+    if own_dir and not own_dir.exists():
+        print(f"  ⚠️  --agent {args.agent}: {own_dir} not found; scanning everything.")
+        own_dir = None
+
+    print(f"\n{'='*66}\n  CONSUMER CHECK  ·  who still carries a number you superseded?\n{'='*66}")
+    if own_dir:
+        print(f"  own dir excluded: AGENTS/{args.agent}/   "
+              f"(processed/ + archive/ excluded everywhere — historical by design)")
+
+    jobs = []
+    if args.from_ledger:
+        led = (here.parents[1] / "workbook" / "PUBLISHED.tsv"
+               if args.from_ledger == "AUTO" else Path(args.from_ledger))
+        ledger = read_ledger(led)
+        if not ledger:
+            print(f"  ⚠️  no ledger rows at {led}")
+            return 0
+        for metric, (current, olds) in ledger.items():
+            if olds:
+                jobs.append((metric, current, olds))
+        if not jobs:
+            print("  ✓ ledger has no superseded values to check.")
+            return 0
+    else:
+        if not args.old:
+            ap.error("need --old (repeatable) or --from-ledger")
+        jobs.append((args.label, args.new, args.old))
+
+    total_stale = 0
+    for label, current, olds in jobs:
+        stale, mail, handled = scan(workspace, olds, own_dir, current)
+        report(label, current, olds, stale, mail, handled)
+        total_stale += len(stale)
+
+    print()
+    if total_stale:
+        print(f"  🔴 {total_stale} stale consumer reference(s). Send each owner a packet "
+              f"with the refreshed value — do NOT edit their files.")
+    else:
+        print("  ✓ clean — every consumer is current or has it flagged superseded.")
+    print(f"{'='*66}\n")
+    return 1 if (args.strict and total_stale) else 0
+
+
+if __name__ == "__main__":
+    sys.exit(main())

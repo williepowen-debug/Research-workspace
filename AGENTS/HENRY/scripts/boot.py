@@ -12,6 +12,9 @@ Four components (all from existing materials):
   (b) GAMMA           — gamma_flip.py free-tier SPX dealer-gamma flip / net GEX / walls (14d, fast)
   (c) CREDIT          — credit_monitor.py (HY/CCC/BB + CCC-BB bifurcation)
   (d) PREDICTIONS-DUE — scan workbook/PREDICTIONS.tsv for OPEN/ACTIVE rows due ≤ today
+  (e) LEDGER STALENESS— mtime alert on live workbook ledgers
+  (f) INBOX TRIAGE    — filenames only; flags date/gate hits. NOT processing.
+  (g) STALE CONSUMERS — consumer_check.py off workbook/PUBLISHED.tsv
 
 Usage:
   .venv/bin/python3 AGENTS/HENRY/scripts/boot.py
@@ -268,6 +271,157 @@ def ledger_staleness(today=None):
         print("\n  ✓ all live ledgers fresh (<14d).")
 
 
+# ── (f) INBOX TRIAGE ──────────────────────────────────────────────────
+# Added 2026-07-28. The MAIL rule says inbox PROCESSING is a separate task —
+# correct, it is expensive (7 packets cost real context). But I read "don't
+# process" as "don't look", so a file named
+#   2026-07-24_from-LABOR_ahe-composition-eci-7-31-post-fomc-repricing-risk.md
+# sat unopened for four days during FOMC week. The filename alone said it was
+# time-critical. TRIAGE IS NOT PROCESSING: filenames only, no file contents,
+# no context cost. Flag; do not open. Opening remains the analyst's call.
+INBOX_WINDOW_DAYS = 14      # a date in a filename this close = flag it
+INBOX_STALE_DAYS = 10       # unread this long = flag regardless (rot backstop)
+GATE_KEYWORDS = [
+    # subject matter I hold gates on
+    "gamma", "flip", "gex", "cpi", "ppi", "pce", "fomc", "eci", "nfp",
+    "vix", "auction", "credit", "capex", "fcf",
+    # PACKET-TYPE markers — time-critical by CLASS, whatever the subject.
+    # Added after BOND's 2026-07-28 reply slipped through: its filename
+    # ("prereg-challenged-by-my-own-backtest-pre-print") named the EPISTEMICS,
+    # not the subject, so no subject keyword could catch it. A correction or a
+    # pre-registration is urgent regardless of what it is about.
+    "prereg", "retraction", "retracted", "correction", "corrects",
+    "supersedes", "urgent",
+]
+# ⚠️ KNOWN LIMIT: this is a FILENAME heuristic and cannot beat an uninformative
+# filename. It depends on senders naming packets by subject or type. Do not
+# over-tune the keyword list to chase individual misses — that trades a rule
+# for a lookup table. When it misses, the fix is a fleet filename convention.
+# M-D inside a filename (7-31, 8-12) — the leading YYYY-MM-DD prefix is
+# stripped first so the packet's OWN date is never mistaken for a catalyst.
+MD_RE = re.compile(r"(?<![\d])(1[0-2]|[1-9])-(3[01]|[12]\d|[1-9])(?![\d])")
+
+
+def _live_prediction_ids():
+    rows = _read_rows() or []
+    return [pid.lower() for pid, status, _ in rows if status.strip().upper() in OPEN_STATUSES]
+
+
+def triage_names(names, today, live_ids):
+    """Pure decision layer — filenames in, (flagged, quiet) out. Testable."""
+    flagged, quiet = [], []
+    for name in names:
+        stem = re.sub(r"^\d{4}-\d{2}-\d{2}[a-z]?_", "", name)  # strip own date
+        low = stem.lower()
+        reasons = []
+        m = re.match(r"^(\d{4})-(\d{2})-(\d{2})", name)
+        age = (today - date(int(m[1]), int(m[2]), int(m[3]))).days if m else None
+        for mo, dy in MD_RE.findall(stem):
+            try:
+                d = date(today.year, int(mo), int(dy))
+            except ValueError:
+                continue
+            delta = (d - today).days
+            if 0 <= delta <= INBOX_WINDOW_DAYS:
+                reasons.append(f"date-in-window {mo}/{dy} ({delta}d out)")
+        for pid in live_ids:
+            if pid and pid in low:
+                reasons.append(f"live gate {pid.upper()}")
+        # ⚠️ TOKEN match, not substring — "mississippi" contains "ppi", and the
+        # first cut duly flagged an AEOLUS river-levels packet as a macro-data
+        # release. Same failure class as the 174960/7496 substring hit in
+        # consumer_check.py: match whole tokens, never fragments.
+        toks = set(re.split(r"[^a-z0-9]+", low))
+        hits = [k for k in GATE_KEYWORDS if k in toks]
+        if hits and not reasons:
+            reasons.append(f"gate keyword: {', '.join(hits[:3])}")
+        if age is not None and age >= INBOX_STALE_DAYS and not reasons:
+            reasons.append(f"unread {age}d")
+        (flagged if reasons else quiet).append((name, age, reasons))
+    return flagged, quiet
+
+
+def inbox_triage(today=None, names=None):
+    today = today or date.today()
+    print(f"\n{'─'*64}\n  (f) INBOX TRIAGE  ·  filenames only — this is NOT processing\n{'─'*64}")
+    if names is None:
+        inbox = HENRY_DIR / "inbox"
+        names = sorted(p.name for p in inbox.glob("*.md")) if inbox.exists() else []
+    if not names:
+        print("  ✓ inbox clear.")
+        return [], []
+    flagged, quiet = triage_names(names, today, _live_prediction_ids())
+    for name, age, reasons in flagged:
+        print(f"  🔴 {name}")
+        print(f"       {' · '.join(reasons)}" + (f" · {age}d unread" if age is not None else ""))
+    if quiet:
+        print(f"  ⚪ no hit ({len(quiet)}): " + ", ".join(
+            re.sub(r"^\d{4}-\d{2}-\d{2}[a-z]?_", "", n)[:38] for n, _, _ in quiet))
+    print(f"\n  → {len(flagged)} of {len(names)} flagged. Open flagged ONLY; "
+          f"the rest wait for a processing spawn.")
+    return flagged, quiet
+
+
+# ── (g) STALE-CONSUMER CHECK ──────────────────────────────────────────
+# Added 2026-07-28. Runs consumer_check.py off workbook/PUBLISHED.tsv, which
+# gamma_flip.py writes on every run. Answers the question nobody was asking:
+# "who is still grading a gate against a number I have already superseded?"
+CONSUMER_CHECK = SCRIPTS_DIR / "consumer_check.py"
+PUBLISHED_TSV = HENRY_DIR / "workbook" / "PUBLISHED.tsv"
+
+
+def stale_consumers():
+    print(f"\n{'─'*64}\n  (g) STALE-CONSUMER CHECK  ·  who still cites a number I superseded?\n{'─'*64}")
+    if not (CONSUMER_CHECK.exists() and PUBLISHED_TSV.exists()):
+        print("  ⚠️  consumer_check.py or workbook/PUBLISHED.tsv missing — skipped.")
+        return
+    code, out, err = run([_py(), str(CONSUMER_CHECK), "--agent", "HENRY",
+                          "--from-ledger"], timeout=180)
+    if not out:
+        print(f"  ⚠️  consumer_check produced no output: {(err or '')[:200]}")
+        return
+    keep = [l for l in out.split("\n")
+            if l.strip() and not l.startswith("=") and "own dir excluded" not in l
+            and "CONSUMER CHECK" not in l]
+    print("\n".join(keep[:26]) if keep else "  (no output)")
+
+
+def selftest_triage():
+    """REGRESSION: replay the exact 7-packet inbox of 2026-07-28.
+
+    That morning the MAIL rule ("don't process on normal spawns") was read as
+    "don't look", and LABOR's packet — with `eci-7-31` in the filename, during
+    FOMC week — sat unopened for four days. This asserts the triage would have
+    surfaced it, and equally that it stays QUIET on the five that were correctly
+    deferrable. A triage that flags everything is the same as no rule at all.
+    """
+    today = date(2026, 7, 28)
+    names = [
+        "2026-07-22_from-AEOLUS_c5-mississippi-lowwater.md",
+        "2026-07-22_to-HENRY_capex-decel-fcf-inflection.md",
+        "2026-07-23_from-PROME_orphan-detector-ADOPTED.md",
+        "2026-07-24_from-DEWEY_p2-sterile-capex-crossref.md",
+        "2026-07-24_from-DEWEY_p3-china-fisc-comparative.md",
+        "2026-07-24_from-LABOR_ahe-composition-eci-7-31-post-fomc-repricing-risk.md",
+        "2026-07-27_from-PROME_batch3-dispatch-P2-and-P3.md",
+    ]
+    flagged, quiet = triage_names(names, today, ["hen-36", "hen-41", "hen-42"])
+    fnames = {n for n, _, _ in flagged}
+    must_flag = "2026-07-24_from-LABOR_ahe-composition-eci-7-31-post-fomc-repricing-risk.md"
+    must_stay_quiet = {
+        "2026-07-24_from-DEWEY_p3-china-fisc-comparative.md",
+        "2026-07-22_from-AEOLUS_c5-mississippi-lowwater.md",
+    }
+    ok = must_flag in fnames and not (must_stay_quiet & fnames)
+    print(f"  triage selftest: flagged {len(flagged)}/7 → "
+          f"{sorted(re.sub(r'^.*?_from-|^.*?_to-', '', n)[:22] for n in fnames)}")
+    print("  ✅ PASS — LABOR/eci-7-31 surfaced; deferrable packets stayed quiet."
+          if ok else
+          f"  ❌ FAIL — LABOR flagged={must_flag in fnames}, "
+          f"false positives={sorted(must_stay_quiet & fnames)}")
+    return 0 if ok else 1
+
+
 def selftest():
     """Assert the due-scan fires on a row like HEN-32 (resolve 6/10, ACTIVE)."""
     today = date(2026, 6, 15)
@@ -293,7 +447,7 @@ def selftest():
 
 def main():
     if "--selftest" in sys.argv:
-        return selftest()
+        return selftest() or selftest_triage()
     quick = "--quick" in sys.argv
     verbose = "--verbose" in sys.argv
     t0 = time.time()
@@ -307,6 +461,9 @@ def main():
         print("\n  (b) GAMMA + (c) CREDIT — skipped (--quick)")
     predictions_due()
     ledger_staleness()
+    inbox_triage()
+    if not quick:
+        stale_consumers()
     print(f"\n{'='*64}\n  boot brief done in {time.time()-t0:.1f}s   "
           f"(--verbose full credit · --quick skip gamma+credit · --selftest)\n{'='*64}\n")
     return 0
