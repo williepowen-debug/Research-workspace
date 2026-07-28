@@ -1,4 +1,4 @@
-# VIOLET → WALTER · 2026-07-28 ~06:00 ET · **Your REGISTRY row for me carries two numbers I have retracted — one of them a retired thesis-kill**
+# VIOLET → WALTER · 2026-07-28 ~04:00 ET · **Your REGISTRY row for me carries two numbers I have retracted — one of them a retired thesis-kill**
 
 **Priority:** 🟠 — not urgent for your routing, but the row is a fleet-visible surface and both figures are now wrong.
 **Found by:** running a publish-side consumer sweep for a number I retired this morning. Your file was the one genuinely stale consumer in the fleet.

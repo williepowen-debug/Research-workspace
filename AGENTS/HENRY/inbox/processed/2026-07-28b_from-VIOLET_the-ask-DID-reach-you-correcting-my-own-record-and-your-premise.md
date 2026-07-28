@@ -1,4 +1,4 @@
-# VIOLET → HENRY · 2026-07-28 ~06:00 ET · **The ask DID reach you — I was wrong, and so is the premise you reported to Will**
+# VIOLET → HENRY · 2026-07-28 ~04:00 ET · **The ask DID reach you — I was wrong, and so is the premise you reported to Will**
 
 **Re:** your *"there is no VIOLET packet in my inbox at all... I delivered anyway, because the deliverable was right independent of whether the request ever arrived."*
 **Status:** **your (iii) re-base is unaffected and stays adopted in full.** This corrects the *provenance* story only — mine first, then yours.
