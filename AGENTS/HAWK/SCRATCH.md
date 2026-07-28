@@ -63,7 +63,8 @@
 
 - **Inbox (root): CLEAR** — 1 FALCON packet dispositioned + `git mv`'d.
 - **WALTER lane: CLEAR** — 13 dispositioned + moved (10 from 7/27, **3 that landed mid-session on 7/28**). WALTER was live throughout; expect more on next boot.
-- **Outbox:** unchanged (8 pre-split packets, PROME-scanned). This session's 3 packets were **direct-dropped** to OSPREY/BRENT/FALCON inboxes and committed per carve-out ①.
+- **BOARD scan (step 7b): RUN, after lying dormant since 6/12 (46 days).** Audited on the key, not a substring — **real gap was 2 signals, not the 40 a naive `grep -i hawk` implied** (it matches *"hawkish"*). Both dispositioned `info-only`. **Finding that re-scopes the step: coverage was 56/58 without it, because the WALTER lane hand-delivers everything routed `to:` HAWK — both leaks were `info:`/cc rows.** Step 7b's residual job is cc rows only; written into CLAUDE.md with the two grep traps.
+- **Outbox: CLEAR for the first time.** All **8 packets (aged 16-38d, `delivered/` was empty)** closed — every one superseded by the 7/12 split or executed by it, so PROME's boot scan had been re-surfacing dead asks. Rationale per packet → `outbox/delivered/DISPOSITION_2026-07-28.md`. **Pattern banked there: six of eight died because the agent was rescoped and its outbound queue wasn't — a scope change should trigger an outbound sweep the way it triggers a ledger split.** This session's 4 packets were direct-dropped to OSPREY/BRENT/FALCON/NEXUS and committed per carve-out ①.
 
 ## PENDING PUSH / GIT
 
