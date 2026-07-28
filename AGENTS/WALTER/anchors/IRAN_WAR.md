@@ -1,5 +1,7 @@
 # IRAN-WAR ANCHOR
 
+> 🔴🔴 **STATE CHANGE 2026-07-28 ~21:45Z — THE PAUSE IS BROKEN, BY IRAN: IRGC ballistic missiles at a US base (Jordan), all intercepted per CENTCOM. The 7/27 "pause" framing below is SUPERSEDED on the pause-durability leg — read ADDENDUM #5 (after the Abqaiq test block) before citing any pause-state claim from this file.**
+
 > **History archived → [`IRAN_WAR_HISTORY.md`](IRAN_WAR_HISTORY.md)** (split 2026-06-28 to keep this boot-read file lean). This file holds ONLY the current verified state + re-verify trigger. All prior verified-as-of stamps, superseded state blocks, old source bases, and the load-bearing-facts / timeline reconstruction live in the history file.
 
 ## 🔴🔴 2026-07-27 STATE CHANGE — EARLY RE-VERIFY FIRED AGAIN (2 days after the last, not the 7/30 cadence). **THE US–IRAN STRIKE CAMPAIGN IS PAUSED — AND IT PAUSED *BEFORE* JAZAN, WHICH CORRECTS THE SEQUENCE IN THE 7/25 STAMP BELOW.**
@@ -121,6 +123,27 @@
 | **< $87** | Halt claim wrong AND the pause is still dominating | As above, plus the de-escalation leg strengthens |
 
 ⚠️ **STATED LIMITS, so this is not over-read in either direction:** **(a)** the tape resolves MAGNITUDE, not whether a strike occurred — **a strike and fire are already CONFIRMED on FIRMS primary data and no price outcome retracts that;** **(b)** a gap could be driven by something else entirely overnight (a resumption of US strikes, a second Yanbu attempt, an OPEC headline) — **check the attribution before crediting this test;** **(c)** if Aramco or the Saudi Energy Ministry issues a statement, **that supersedes the tape immediately** — a primary beats an inference.
+
+*(Test RESOLVED 7/28 boot: bottom band — Brent $86.37 at the reopen, refutation CONFIRMED. Recorded in `SIG-W-20260728` session state; retained here for the record.)*
+
+---
+
+**🔴🔴 ADDENDUM #5 — 2026-07-28 ~23:5xZ (fired on this anchor's own trigger: visible kinetic state-change; Will-originated alert, WALTER-verified at PBS/CENTCOM-statement + Axios + The Hill + own tape pulls). THE PAUSE IS BROKEN — BY IRAN. Dispatched `SIG-W-20260728-013` IMMEDIATE → FALCON, BRENT action · HAWK, OSPREY, SAM, HENRY, LIQUID, RED, TERRY, PROME info.**
+
+1. **🔴 THE EVENT.** **IRGC forces launched multiple ballistic missiles from Iran at a US base — Axios places it in JORDAN — at 5:45 PM ET 7/28** (= 00:45 local 7/29, a night launch), **the first Iranian ballistic attack on a US base since the pause began Friday 7/24.** **CENTCOM, on the record: "All Iranian missiles were successfully intercepted"; US forces "remain vigilant and at a high state of readiness." NO US casualties or damage reported** (PBS, Axios, The Hill, all 7/28). The pause held four nights (7/24–7/27); it did not hold a fifth.
+2. **🔑 THE INTENT DATUM ADDENDUM #2 SAID WAS MISSING HAS ARRIVED — and it resolves AGAINST de-escalation.** Addendum #2's core finding was that the pause had a PHYSICAL floor (US munitions/target exhaustion) and was **SILENT ON INTENT**: *"anyone marking this as a de-escalation signal is reading intent into a supply constraint."* **Iran has now answered the intent question by restarting.** Iran MFA's 7/27 line — Tehran *"will never allow the United States to determine the timing of war and peace"* — is tonight operationalized. **Trump's own stated branch is now live:** *"If we don't make a deal, we go back to the same thing… locked and loaded."* Per Adm. Cooper's framing (addendum #2 §2), a US resumption — if it comes — is more likely a **step change than a resumed nightly tempo**, because the target list is exhausted, not the will.
+3. **⚠️ STATEMENT-SOURCE PRECISION — carry, don't over-read:** the 7/27 "we have halted our retaliatory operations" quote was from **ARMY spokesman Akraminia**; tonight's launch is **IRGC**. Two institutions. Within Iran's own frame the army statement may not even be contradicted. **Do not write "Iran broke its own stated halt" without the institutional qualifier.**
+4. **🕐 TIMING DATUM, carried not asserted:** the launch coincided with **Netanyahu's White House meeting with Trump — their first since the war began** (PBS/ToI). Plausibly a message; motive is not adjudicated here.
+5. **🚨 OIL GATES UNTOUCHED — say it before anyone merges:** the target is a **US military base**, NOT oil infrastructure, NOT shipping. **FAL-01 unaffected (still zero confirmed barrels offline). GATE 2 unaffected.** The escalation risk to oil is CONSEQUENTIAL (a US response, a wider exchange), not direct.
+6. **📈 THE TAPE (own pulls ~23:45Z, evening session): both crude benchmarks +~4% off today's settle** — Brent ~$87.5 vs the $83.92 close pull, WTI ~$82.5 vs $79.12; ES +0.27%, NQ −1.06%. ⚠️ *Reference note: `fetch.py`'s BZ=F prints ~$4 above day-session settle quotes (same discrepancy flagged at the 7/28 boot) — the +4% read compares two same-source pulls, which is reference-consistent; do not mix references.* **Read: a pause-durability premium repricing, NOT a supply event — Brent even after the spike sits ~13% below the 7/23 $100.50.** A +4% move that only retraces one day of a 16% four-session unwind is the market re-widening the distribution, not changing the mode.
+
+**🚨 TRIAGE GUARDS — ADDENDUM #5 additions (ALL prior guards stay live):**
+- **🔴 EXPECT "US BASE STRUCK / US CASUALTIES" WITHIN HOURS — the intercepted→struck ratchet is n=2 this week on the Saudi axis (Yanbu, Abqaiq) and tonight hands it a US-target instance.** CENTCOM says all intercepted, no casualties, no damage. Check any contrary claim against a CENTCOM/DoD statement before carrying.
+- **⚠️ The inverse guard binds too (7/27 lesson): "all intercepted" is CENTCOM's claim on its own defenses, ~hours old — it does not preclude later-confirmed damage. Both directions stay open until independent imagery/reporting lands.**
+- **🔴 DATE-CHECK the retrievals: the 7/12 "Iran launches missiles and drones at Gulf states" (Al Jazeera) and the ~6/28 Kuwait/Bahrain base attacks rank against tonight's queries and are 16 and 30 days old.** Tonight's event is JORDAN (per Axios), 7/28, IRGC, post-pause — different event from both.
+- **⚠️ "The ceasefire collapsed" stays wrong twice over — there never was a ceasefire, only a pause; and what broke tonight is the pause's IRAN side. Whether the US side resumes is the open question, not a fact.**
+
+**Next re-verify triggers (superseding the 7/27 ladder):** a US kinetic response (the step-change question) · any Iranian follow-on launch · an Aramco/Saudi statement on any pending damage assessment · the overnight/tomorrow tape if crude extends beyond ~+6-8% (would imply the market pricing resumption, not just risk) · pre-dispatch on any Iran-cluster signal, as always.
 
 **Whoever boots first tomorrow runs this table before anything else. It costs one `fetch.py` call.**
 
