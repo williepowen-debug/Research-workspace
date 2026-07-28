@@ -185,6 +185,22 @@ def _fetch_yfinance(today, horizon, band):
     return spot, opts, None
 
 
+def _wall_margin(d):
+    """Fractional gap between the #1 and #2 strike in a gamma-weighted-OI dict.
+
+    Returns None if there is no runner-up. A small margin means max() is
+    breaking a near-tie arbitrarily and the winner must NOT be published as
+    a single strike — report the band. See the near-tie guard below.
+    """
+    if not d or len(d) < 2:
+        return None
+    top = sorted(d.values(), reverse=True)[:2]
+    return (top[0] - top[1]) / top[0] if top[0] else None
+
+
+NEAR_TIE = 0.10  # <10% between #1 and #2 = a coin flip, not a wall
+
+
 def _finish(spot, opts, used, horizon, band, today):
     """Shared math: net GEX, zero-gamma flip, call/put walls."""
     if not opts:
@@ -233,6 +249,10 @@ def _finish(spot, opts, used, horizon, band, today):
         # Expose the runners-up so a near-tie is visible rather than hidden.
         "call_wall_top3": sorted(cg, key=cg.get, reverse=True)[:3] if cg else [],
         "put_wall_top3": sorted(pg, key=pg.get, reverse=True)[:3] if pg else [],
+        # ...and the #1-vs-#2 margins, so a caller can TEST for a near-tie
+        # instead of eyeballing the ladder. <10% = the arg-max is a coin flip.
+        "call_wall_margin": _wall_margin(cg),
+        "put_wall_margin": _wall_margin(pg),
         "n_contracts": len(opts),
         "source": used,
         "horizon": horizon,
@@ -266,8 +286,27 @@ def main():
         rel = spot - flips[0]
         print(f"                  spot is {rel:+,.0f} pts {'BELOW (neg-gamma)' if rel < 0 else 'ABOVE (pos-gamma)'} the flip")
     cw, pw = r["call_wall"], r["put_wall"]
-    print(f"  Call wall       {cw:,.0f}")
-    print(f"  Put wall        {pw:,.0f}  {'<- SPX BELOW put wall (intensified downside feedback)' if pw and spot < pw else ''}")
+    # Near-tie guard, SURFACED (7/28): the 7/23 fix computed the runners-up but
+    # never printed them, so on 7/28 the 35d run again emitted put wall == call
+    # wall == 7,500 with no visible warning. A guard the operator can't see is
+    # not a guard. Print the margin, and refuse to state a bare strike on a tie.
+    for label, wall, key in (("Call", cw, "call"), ("Put", pw, "put")):
+        margin = r.get(f"{key}_wall_margin")
+        top3 = r.get(f"{key}_wall_top3") or []
+        tie = margin is not None and margin < NEAR_TIE
+        line = f"  {label} wall       {wall:,.0f}"
+        if tie:
+            band_str = "-".join(f"{s:,.0f}" for s in sorted(top3[:2]))
+            line += (f"  ⚠️ NEAR-TIE ({margin*100:.0f}% over #2) —"
+                     f" report the BAND {band_str}, not this strike")
+        elif margin is not None:
+            line += f"  (clean #1, +{margin*100:.0f}% over #2)"
+        if label == "Put" and wall and spot < wall and not tie:
+            line += "  <- SPX BELOW put wall (intensified downside feedback)"
+        print(line)
+    if cw and pw and cw == pw:
+        print("  ⚠️⚠️ PUT WALL == CALL WALL — structurally impossible as stated;"
+              " treat the put side as UNRESOLVED at this horizon (see LESSONS 7/23).")
     print("  (FREE-TIER proxy: absolute $B assumes long-call/short-put dealer gamma; the FLIP + sign are the robust reads)")
     return 0
 

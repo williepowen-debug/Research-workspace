@@ -4,6 +4,17 @@
 
 ---
 
+### 2026-07-28 (~03:10 ET) — `gamma_flip.py`: SURFACED the near-tie guard that had been computed-but-never-printed since 7/23
+- **Trigger:** the boot's 35d run emitted **`put wall 7,500` — identical to the call wall** — the *exact* artifact I retracted on 7/23 and wrote a LESSONS entry about ("a put wall equal to the call wall is the cheapest available tell; chase it immediately").
+- **🔑 Root cause, and it is the interesting part: my 7/23 fix was only half a fix.** That session added `call_wall_top3` / `put_wall_top3` to the returned dict so "a near-tie is visible rather than hidden" — and **the CLI printer was never updated to display them.** The guard existed in the data structure and **not on the surface a human reads.** So the estimator dutifully computed the evidence of its own unreliability and then printed a confident single strike anyway, twice (7/23 → retraction; 7/28 → would have repeated it). **A guard the operator cannot see is not a guard** — same family as `[[finding_banner_is_a_warning_not_a_fix]]`, and a close cousin of the 7/23 NaN lesson (validation certifies a tool against GOOD input; it says nothing about the surface).
+- **What changed (contained, no math touched):**
+  - `_wall_margin(d)` helper → fractional gap between the #1 and #2 gamma-weighted strike; `NEAR_TIE = 0.10` module constant.
+  - `compute_gamma_flip()` now returns `call_wall_margin` / `put_wall_margin` alongside the existing top-3 lists, so **callers can TEST for a near-tie** instead of eyeballing a ladder.
+  - CLI prints the margin on every wall — `(clean #1, +20% over #2)` vs `⚠️ NEAR-TIE (9% over #2) — report the BAND 7,300-7,500, not this strike` — plus a hard `⚠️⚠️ PUT WALL == CALL WALL … treat the put side as UNRESOLVED` flag.
+- **Verified on the live chain both horizons.** 35d: call wall clean (+20%), **put wall a 9% NEAR-TIE and flagged unresolved.** 14d: call wall clean (+15%), **put wall 7,400 but ALSO a near-tie (7% over 7,300)** — i.e. the 14d number I would otherwise have published as clean *is not*. **Net effect on today's read: put-side support is a BAND at 7,300–7,400, not a strike**, which is what went into STATUS.
+- **Not changed:** the free-tier dealer assumption, the CBOE-primary source, `MIN_CONTRACTS`, and the flip/sign math — all untouched. The sign remains the robust read; this only stops the *level* from being over-stated.
+- **Files touched:** `scripts/gamma_flip.py`, this entry.
+
 ### 2026-07-23 (~23:55 ET) — BUILT `scripts/orphan_check.sh` + flagged the cross-agent packet-orphaning gap to PROME
 - **Trigger:** Will-directed, after a repo-hygiene check found **3 LIQUID packets untracked and single-copy** (tracked-in-git 0, on-disk 1). Committed them under explicit Will instruction (`20986c73`), then Will asked me to flag the underlying gap.
 - **The gap (structural, not carelessness):** the pathspec rule (`git add` only inside your own dir) and the messaging convention (write packets directly into the target's `inbox/`) are each correct and **jointly guarantee a hole** — a packet you author sits outside your own commit scope, so a path-scoped closeout commit *cannot* sweep it. It stays untracked, single-copy, one machine; on a machine switch it evaporates and **the recipient is never told**.
