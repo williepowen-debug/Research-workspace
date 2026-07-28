@@ -5,7 +5,7 @@ metadata:
   node_type: memory
   type: feedback
   originSessionId: 07d98c18-5876-41ea-b44c-48b2f9d4e407
-  modified: 2026-07-27T20:43:05.261Z
+  modified: 2026-07-28T19:12:14.898Z
 ---
 
 A bug that produces a **wrong value** gets caught, because someone eventually reads it and it looks off. A bug that produces **no value** can run for months: there is nothing displayed to be wrong, and every individual run looks like a run that simply had nothing to say.
@@ -21,3 +21,5 @@ VIOLET 2026-07-27: `thresholds.py` blanked the M1:M2 front-curve column on **8 o
 - Same session, same file, sibling lesson: a **hardcoded provenance label is a lie waiting for its fix.** The display asserted `"T-1 vs row date"`, which was true when written and became false the moment the fetch improved to same-day. **Compute provenance, never assert it** — see [[finding_selfstamp_estimate_drift]] and [[finding_quote_carries_data_minute]].
 
 Related: [[finding_tool_default_asof_date_drift]] (same root cause — a CLI's default as-of date — but that variant produced a *wrong-dated* value, which is the loud version of this bug), [[finding_comprehensive_grep_over_sampling]], [[finding_fail_loud_on_incomplete_data]], [[finding_derived_surface_band_rot]].
+
+**n+1 (2026-07-28, PROME — the class extends to LEDGER STATE TOKENS, not just data cells):** two `PROME/GATES.tsv` rows (RESHAPE-BC + HY-REKILL) had their **state cells silently overwritten with bare dates** at a 7/25 refresh — no LIVE/RESOLVED token at all. Every state-field scan (including the boot rule that blocks on FIRED-UNEXECUTED) simply *didn't match* those rows for 3 days, while one of them sat 3bp from its trigger. A WRONG token would have been caught by the next reader; a MISSING token matched nothing and alarmed no one. Stratified-count catch here = "does every row's state cell start with a valid token?" — one awk line, now worth running whenever a refresh edits state cells.

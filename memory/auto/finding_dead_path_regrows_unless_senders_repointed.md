@@ -5,7 +5,7 @@ metadata:
   node_type: memory
   type: feedback
   originSessionId: f7beb44e-7301-4b3e-b05f-59099c68ca43
-  modified: 2026-07-25T00:54:42.737Z
+  modified: 2026-07-28T19:12:07.305Z
 ---
 
 **A shared delivery path is defined by who writes to it, not by whether it exists.** Deleting or archiving it removes the *artifact*, not the *behaviour* — so it comes back, and the second growth is more dangerous than the first because everyone now believes it was retired.
@@ -28,3 +28,5 @@ The written policy had been correct the whole time — the ratified messaging sp
 - Encode reappearance as a **regression to flag**, not a surface to service: "if this path exists again, that is a sender bug — read it, then fix the sender."
 - If the writers belong to other owners, **flag rather than edit**, and say plainly in the handoff that the deletion does not hold until they act.
 - Related: [[feedback_cross_agent_inbox_writes]], [[finding_external_consumer_check_before_restructure]], [[feedback_shared_log_row_author_commits]], [[finding_roster_change_propagates_to_all_surfaces]].
+
+**n+1 (2026-07-28, PROME — the SECOND regrowth, 3 days after the path was removed):** `AGENTS/PROME/inbox/` regrew to **9 unread packets in one afternoon** (7 BROCK, 2 CREED, all 7/27) while PROME drained its real inbox twice the same day — invisible because nothing services a dead path. Caught by a spine-audit reader, not by boot. Confirms the memory's core claim precisely: the 6/24→7/24 cycle fixed the DIRECTORY and the READER docs but sender templates survived. The senders were flagged individually this time (BROCK had already self-corrected by 7/28; CREED had not). Watch item: a THIRD regrowth means the fix must move to the senders' own packet-writing templates/specs, not per-incident flags.
