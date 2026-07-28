@@ -33,9 +33,14 @@ Prome may write:
 
 Prome must not treat archived `AGENTS/PROME/` files as live instructions.
 
-**Cross-dir carve-out (root canon, ratified 2026-07-23, Will-approved — HENRY orphan-gap memo):** a packet **PROME authored** into another agent's `inbox/` is PROME's to commit, **and PROME must** — an uncommitted packet never reaches the recipient (~12% of packets orphaned this way pre-detector). Commit it explicitly-pathed with the recipient named in the subject (`PROME -> <RECIPIENT>: <what>`). Someone else's work outside `PROME/` remains strictly off-limits.
+**Cross-dir carve-outs (root canon "the ONLY three" — mirror re-synced 2026-07-28 spine-audit; this doc had lagged root by TWO ratifications):**
+- **① Self-authored inbox packets (ratified 2026-07-23 — HENRY orphan-gap memo):** a packet **PROME authored** into another agent's `inbox/` is PROME's to commit, **and PROME must** — an uncommitted packet never reaches the recipient (~12% orphaned this way pre-detector). Commit it explicitly-pathed with the recipient named in the subject (`PROME -> <RECIPIENT>: <what>`).
+- **② Self-authored shared-log rows (ratified 2026-07-25):** a row PROME authored in a shared cross-agent log (`AGENTS/SIGNALS.md` class) is PROME's to commit, explicitly path-scoped. Rows other agents wrote and file restructures stay off-limits.
+- **③ Self-authored auto-memory files (ratified 2026-07-27, MANDATORY):** any memory file under `memory/auto/` that PROME authored or appended MUST be self-committed — the shared `MEMORY.md` index row rides out on whoever commits next while the FILE needs a deliberate add, so an uncommitted memory leaves the index advertising content the other machine doesn't have (worse than the memory not existing). Enforcement at closeout: `python3 scripts/memory_index_check.py --strict --slug <slug>` per memory written — **the `--slug` form, never bare `--strict`** (bare gates the whole index and blocks on OTHER agents' orphans ③ forbids PROME to commit).
 
-**Session-end orphan check (root canon step 1b, adopted 2026-07-23):** before the closeout commit batch, run `bash scripts/orphan_check.sh PROME` — read-only advisory (~5s, exit 0 always). `[likely YOURS]` = packets PROME authored → commit under the carve-out above; `[not yours]` = someone else's work → flag, never sweep.
+Someone else's work outside `PROME/` remains strictly off-limits. Root `CLAUDE.md` Git Protocol owns the full carve-out text; on any drift, root wins.
+
+**Session-end orphan check (root canon step 1b, adopted 2026-07-23):** before the closeout commit batch, run `bash scripts/orphan_check.sh PROME` — read-only advisory (~5s, exit 0 always). `[likely YOURS]` = packets PROME authored → commit under carve-out ①; `[not yours]` = **for files under `AGENTS/<other>/`**, someone else's work → flag, never sweep. ⚠️ **Exception the label cannot see: `memory/auto/` files.** `orphan_check` classifies by PATH, so every memory file reads `[not yours]` regardless of authorship — for memories PROME wrote, that label is NOT an authorship verdict and carve-out ③ makes committing them mandatory. Use `memory_index_check --strict --slug` as the authorship-scoped gate there.
 
 Example:
 
