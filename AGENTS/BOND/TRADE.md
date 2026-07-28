@@ -41,10 +41,10 @@
 
 | Signal | BOND Interpretation | Trade Implication |
 |---|---|---|
-| **BND-11 FALSE** (marker at 7/7–9, esp. the 7/9 30Y) | End-demand weakness meeting record dealer stock = demand-hole configuration | **Primary TLT-put add re-arm**; signal LIQUID immediately. |
+| **Composition failure at any coupon auction** — indirect <56.4% **AND** dealer >13.2% *(replaces the resolved BND-11 7/7–9 row)* | End-demand weakness meeting record dealer stock = demand-hole configuration. **Note: cover alone does NOT qualify** — the 7/27 5Y printed the lowest BTC since Sept-2022 and did *not* fire this, because indirect rose and dealers didn't absorb. | **Primary TLT-put add re-arm**; signal LIQUID immediately. |
 | 30Y >5.0 held 5 sessions (BND-12 FALSE) | Sustained regime break, not an episode | TLT add re-arms (pair with nearest auction evidence); long-end →4. |
-| DFII10 >2.5% sustained | Real-yield stress regime | TLT-put add re-arm (real-led leg; currently 2.20 and retraced). |
-| **MOF actual FX intervention** (yen 162+, verbal stage now) | Mechanical UST reserve selling from $1T+ holdings (FL-BND-11) | Long-end supply shock — TLT downside accelerant; coordinate SAM/LIQUID. |
+| **DFII10 >2.5% sustained** | Real-yield stress regime | **TLT-put add re-arm — the NEAREST live gate.** *(This row read "currently 2.20 and retraced" for 27 days; DFII10 is now at a series high a handful of bp away — live level → STATUS.)* |
+| **MOF actual FX intervention** (verbal stage; USDJPY through the 40-yr low, 165 = next threshold — **SAM owns the level**) | Mechanical UST reserve selling from $1T+ holdings (FL-BND-11) | Long-end supply shock — TLT downside accelerant; coordinate SAM/LIQUID. |
 | HY OAS >300 ×3 sessions | Credit watch reopens | Price HYG/JNK downside, no blind entry. |
 | HY >350 + pulled deals | Issuance freeze | HYG/JNK downside proposable to Will. *(Mechanism currently running in REVERSE — boom.)* |
 | Fast layer breaks while cash stays TIGHT (true divergence) | Synthetic leading cash | Early short-credit re-entry support. *(6/24–26 breach failed the sign-check — co-move.)* |
@@ -57,7 +57,7 @@
 
 | BOND Signal | Confirmed By | Who Needs It |
 |---|---|---|
-| Weak auctions (7/7–9 gate) | LIQUID repo pressure / FR2004 record stock | PROME, LIQUID |
+| Composition failure at a coupon auction *(7/7–9 gate resolved 7/9 NOT FIRED)* | LIQUID repo pressure / FR2004 stock — ⚠️ **FR2004 blind since 6/17, 5 prints owed** | PROME, LIQUID |
 | JGB-FX transmission (channel 6) | SAM (BOJ/MOF/yen) | SAM, HENRY, LIQUID |
 | Issuance freeze (dormant — boom) | REGINALD refi burden / BROCK private marks | REGINALD, BROCK, HENRY |
 | Long-end break | HENRY vol regime + LIQUID funding | PROME, LIQUID, HENRY |

@@ -87,4 +87,6 @@ All three coupon auctions tailed modestly: 3Y +0.6bp, 10Y +0.4bp, 30Y +0.5bp. Bi
 
 **Read against §2 verdict matrix:** sits at the boundary of "clean" (row 1) and "soft but functional" (row 2). Only BTC is in row 2's band. Indirect, dealer, and tail are all in row 1. Tie-breaker rule ("worse of the two") would push to row 2 strictly, but mix is genuinely strong. **Net: yellow duration fatigue confirmed; demand-hole thesis weakened, not strengthened.**
 
-**Implication for 5/21 10Y:** 5th consecutive 10Y is the live escalation gate. If 10Y prints with a tail, BND-07 "firming" persists but doesn't graduate to "FIRED" unless tail is sizeable. The 20Y showing foreign demand reduces base-rate expectation of a 10Y demand hole tomorrow.
+**Implication for 5/21 10Y** *(frozen May-2026 note — "tomorrow" meant 5/21; retained for the reasoning, NOT current)*: 5th consecutive 10Y was the live escalation gate. If the 10Y printed with a tail, BND-07 "firming" persists but doesn't graduate to "FIRED" unless the tail is sizeable. The 20Y showing foreign demand reduced the base-rate expectation of a 10Y demand hole.
+
+> **⚠️ Note added 2026-07-28:** the reasoning above is superseded in one respect — **it keys the escalation on a TAIL.** Per the standing rules at the top of this file, a tail is unscoreable from TreasuryDirect and **no gate may be keyed on one.** The current-era equivalent of this note is a *composition* gate (indirect AND dealer), not a tail gate. Kept as history so the change in method is visible rather than silently overwritten.

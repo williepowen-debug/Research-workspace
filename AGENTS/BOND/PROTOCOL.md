@@ -48,9 +48,17 @@ For each file in `inbox/`:
 
 | Trigger | Target | Priority |
 |---|---|---|
-| Treasury auction BTC <2.3 or tail >2bps, especially repeated | LIQUID, ZHAO | 🔴/🟠 |
+| Treasury auction **composition failure**: indirect <56.4% **AND** dealer >13.2% (of competitive accepted) | LIQUID, ZHAO | 🔴 |
+| Treasury auction BTC <2.3 **alone** (cover marker, composition intact) | LIQUID, ZHAO | 🟠 — *note explicitly that the mechanism did NOT fail* |
+| ~~tail >2bps~~ | — | ❌ **RETIRED 2026-07-28 — UNSCOREABLE** |
 
-> ⚠️ **These are v1 thresholds (undated SOP; last reviewed 2026-06-20).** The approved `proposals/MATRIX_V2_DRAFT` replaces the fixed 'tail >2bps' with per-tenor 15th-percentile rules — not yet ported (Packet 9 paused), so v1 applies for now. Also: per GAO the note/bond BTC norm has drifted ~3.0→2.5, so 2.3 sits near the new structural floor.
+> ⚠️ **Thresholds reviewed 2026-07-28.** Two changes, both load-bearing:
+>
+> **1. The `tail >2bps` trigger is RETIRED as unscoreable.** A tail requires the when-issued yield at the bid deadline and **TreasuryDirect does not publish it** — so a tail-keyed trigger cannot be graded from primaries *by construction*, not merely "this session." This retires the pending `MATRIX_V2_DRAFT` per-tenor tail percentiles too: the problem is the *measurement*, not the calibration. Wire-reported tails are `[med-conf]` and may be recorded in notes but must **never** fire a trigger. *(This exact defect produced a mis-specified falsifier that passed by construction — see THESIS v1.1.3.)*
+>
+> **2. Grade COMPOSITION, not the headline cover.** A demand hole requires **indirect falling AND dealers absorbing**; a thin cover with intact composition is a *price* concession. Worked example: the 7/27 5Y printed the lowest BTC since Sept-2022 while indirect **rose** with duration and dealers were not stuffed — a marker worth firing 🟠 on, but categorically not a demand hole. Thresholds above are % of **competitive accepted** (the fleet-reconciled denominator), benchmarked to trailing-12 per tenor.
+>
+> Also unchanged and still true: per GAO the note/bond BTC norm has drifted ~3.0→2.5, so **2.3 sits just under the new structural floor** — read 2.3–2.4 as "below new-normal," not "fine."
 | Dealer take-down spikes / indirect demand weakens materially | LIQUID, ZHAO | 🟠 |
 | HY OAS >350 or HY issuance freezes | HENRY, REGINALD, LIQUID | 🔴 |
 | IG issuance freezes or blue-chip deal pulls | REGINALD, LIQUID | 🔴 |
