@@ -37,6 +37,20 @@
 
 **Also flagged to HENRY:** *"systematic, not noise"* on the chain-vs-cluster gap is **n=2**, across a ~14h offset HENRY itself flagged. **The re-base does not rest on it** — it rests on *"a kill line trips on the earliest credible falsification"*, which holds under plain uncertainty. Adopted on the principle, not the bias claim.
 
+## ⚠️ ADDENDUM 2 ~04:20 ET — FULL-FILE STATUS AUDIT (Will's ask) FOUND A FOUR-DAY-OLD WRONG NUMBER SENT TO SAM
+
+**🔴 KB-VIO-141 — I broadcast the OVX oil-vol ratio as the JPY IV/RV ratio, to SAM, twice, three days before BOJ.** I published *"jpy_vol IV/RV widened again to **3.24×** — event premium **re-loading**."* **`3.24` is the OVX/VIX ratio from the row directly below it on my own dashboard.** `JPY_VOL.tsv iv_rv10` says **3.04 [7/24] → 3.07 [7/27]** — **+0.03 (~1%)**, not +0.20 (~6.6%) — **and 7/28 is BLANK** (FXY thin-strike guard held). I stamped a [7/28] date on a figure with no 7/28 observation. Sign survives; magnitude and "re-loading" do not. **CALM verdict unaffected — it rests on the RV leg.** Corrected on STATUS ×3, NEXUS_BRIEF ×2, CALENDAR; packet sent to SAM.
+
+> **🔑 Why nothing caught it, which is the durable part.** `3.24` is *perfectly plausible* — right magnitude, right direction, sits between its neighbours. **Every check I run tests FRESHNESS or INTERNAL CONSISTENCY. Nothing tests PROVENANCE** — *does this value exist in the series it claims to come from?* **A plausible value from the WRONG SERIES is harder to catch than a plausible STALE one, because it isn't stale — it's current, accurate, and about something else.** Structural trap: two adjacent dashboard rows both carrying a dimensionless field called "ratio", both ≈3. **Candidate fix (not built): cite the ledger COLUMN, not the script** — `[JPY_VOL.iv_rv10, 7/27]` not `[CONF] jpy_vol.py`. Column-level citation is mechanically checkable; script-level is not. Same conclusion as KB-VIO-139 from the opposite direction.
+
+**Two more defects the audit found, both of the same family — a correction landing on one surface and not its neighbours:**
+- **"HENRY's *unprompted* packet" was still in STATUS line 5** ~20 minutes after I fixed the identical phrase one paragraph below it. **Third instance today.**
+- **"The flip migrated DOWN ~45pts" is a CHANGE OF BASIS, not a migration** (inherited from PROME's DOCKET row and repeated by me). **HENRY's own chain went 7,496 [7/23] → 7,479 [7/27] → 7,491 [7/28], net −5pts.** The 43pts is HENRY-vs-independents. Saying "migrated" implies the market's gamma structure moved; on the only consistently-measured series, it didn't. **Flagged back to PROME to re-word DOCKET row 61.**
+
+**Mechanical checks that DID pass:** `convergence_score.py` validates 33/60 · 189 lines vs the 250 cap · every headroom arithmetic re-derived from 7,413.18 and correct to 0.1pt · SKEW path matches the CBOE series.
+
+**The honest summary of three consecutive sessions:** *the errors are not the problem — the corrections are.* Every one landed on the surface I was looking at and not on its neighbours, and each was caught only when something external forced a full read. **A periodic full-file provenance audit catches a class no incremental check does, and its natural trigger is "a surface that was just heavily rewritten"** — because that is exactly when hand-assembled values enter.
+
 ## NEXT SESSION (priority-ordered)
 
 1. **🔴 FOMC Wed 7/29 2:00 PM ET + Warsh presser 2:30 — final KB-VIO-123 grade, Stale_By 7/30, SETTLE basis.** Must state **WHICH reading of confirm-1** it rests on (level vs mechanism, KB-VIO-132). **Mandatory 7/30 position review regardless of P/L (TERRY card §6).**
