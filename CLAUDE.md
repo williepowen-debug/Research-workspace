@@ -27,7 +27,7 @@ Coordination is file-based. Write to `AGENTS/<NAME>/outbox/` to request Prome ac
 
 *Scoped overlaps are intentional — reconcile shared metrics to **one figure**, don't silo: **CORAL↔MARCO** (FL migration/tourism) and **AEOLUS↔CORAL** (FL climate/coastal). **Florida is a top-priority geography for Will.** Agent spinout/promotion provenance (OZK, CORAL, AEOLUS, HOMER, OSPREY/FALCON, **WAL** [promoted 2026-07-25 — that queue's named successor is now UNASSIGNED; nominations = DAEDALUS maturity review, Will-gated]) → `PROME/ROSTER.md`.*
 
-Agent state lives at `AGENTS/<NAME>/STATUS.md`. Position truth is **off-repo** (Will/broker direct — the on-repo `WILL/trading-journal/` photos were removed in the 2026-06 public-prep cleanup); `FORGE/STATUS.md` + `FORGE/PORTFOLIO.md` = the structured mirror (broker-export refreshed — last reconcile 2026-07-16; stales between reconciles); trade construction = TERRY.
+Agent state lives at `AGENTS/<NAME>/STATUS.md`. Position truth is **off-repo** (Will/broker direct — the on-repo `WILL/trading-journal/` photos were removed in the 2026-06 public-prep cleanup); **`FORGE/STATUS.md` = the structured mirror** (broker-export refreshed — last reconcile 2026-07-20; stales between reconciles). `FORGE/PORTFOLIO.md` = **FROZEN** Feb-2026 snapshot, superseded 5/21 per its own banner — historical only, never half the live mirror *(line corrected 2026-07-28, Will-approved — VIOLET flagged the position-missing symptom, the frozen banner was the cause)*; trade construction = TERRY.
 
 ## Critical Rules
 
@@ -58,7 +58,7 @@ Agent state lives at `AGENTS/<NAME>/STATUS.md`. Position truth is **off-repo** (
 | Path | Purpose |
 |------|---------|
 | AGENTS/ | All agent domains, STATUS files, knowledge bases |
-| FORGE/ | Structured position surface (`STATUS.md`+`PORTFOLIO.md`) + market-data tools, signals, research/timing corpora. Retired execution ledger + per-trade KRE/WAL/OZK folders → `FORGE/_archive/` |
+| FORGE/ | Structured position surface (`STATUS.md`; `PORTFOLIO.md` = frozen Feb-2026 snapshot, historical only) + market-data tools, signals, research/timing corpora. Retired execution ledger + per-trade KRE/WAL/OZK folders → `FORGE/_archive/` |
 | FORGE/timing/ | Thesis timing research, convergence timeline, research corpus |
 | FORGE/tools/market-data/ | Live data CLI: `python3 fetch.py price KRE`, `python3 dashboard.py` |
 | memory/ | Daily session notes (YYYY-MM-DD.md) |
@@ -80,6 +80,7 @@ Agents share one working directory and branch. **GitHub is the single source of 
 **At session end:**
 1. Commit your files locally (follow "Before committing" below).
 1b. **Orphan check (adopted 2026-07-23, Will-approved):** `bash scripts/orphan_check.sh <YOUR_NAME>` — read-only advisory (~5s, exit 0 always); flags uncommitted files outside your dir. `[likely YOURS]` = packets you authored → commit them per the carve-out above. `[not yours]` = someone else's work → flag to PROME, never sweep.
+1c. **Consumer check (publisher-side, adopted 2026-07-28, Will-approved — HENRY-built, the orphan_check adoption path):** if this session superseded a number you previously published that other agents may cite (a threshold, flip level, split, band), run `python3 scripts/consumer_check.py --agent <YOUR_NAME> --old <old> --new <new>` (repeat `--old`; or `--from-ledger` if you keep `workbook/PUBLISHED.tsv`) and send each 🔴 STALE owner a packet — **never edit their files**. Read-only advisory, ~seconds; the packet is the fix. Born from VIOLET carrying HENRY's stale gamma flip as a live position's kill line for 5 days — the check is one grep; the failure was that nobody ran it.
 2. **Auto-push at closeout** via `scripts/safe-push.sh` (ff-gated, fails safe) — wired into your closeout protocol. It sweeps all local commits in one fast-forward push (the push-train, now automated — see auto-memory `finding_push_train_pattern`). *(Lazy-sweep complete 2026-06-27 — all active domain agents are on auto-push; intentional exceptions per the scope note above [TERRY self-sweep, WALTER architectural, YEYOU manual/branch]. Stale-parenthetical fix 7/11, Will-approved.)*
 3. **If safe-push aborts (non-ff), do NOT force.** First response: `git pull --rebase`, then re-push — under serial multi-machine this is **routine** (the other machine pushed since this clone last pulled). **Escalate to Will (per-agent-branches tripwire) only if** the rebase hits conflicts outside your own dir, or non-ff recurs mid-session — either means two machines ran simultaneously, which the protocol forbids.
 

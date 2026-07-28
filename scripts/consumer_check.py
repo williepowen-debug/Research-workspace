@@ -34,13 +34,15 @@ DELIBERATE ASYMMETRY: when classification is ambiguous, we report STALE, not
 FLAGGED. A false STALE costs a glance. A false FLAGGED costs exactly the
 failure this tool exists to prevent.
 
-USAGE
-  python3 consumer_check.py --agent HENRY --label "gamma flip" \
+USAGE  (fleet-adopted 2026-07-28, Will-approved — moved from AGENTS/HENRY/scripts/
+        to root scripts/, the orphan_check adoption path; root CLAUDE.md
+        session-end step 1c is the standing trigger)
+  python3 scripts/consumer_check.py --agent HENRY --label "gamma flip" \
       --old 7496 --old 7479 --new 7491
 
-  # from a ledger (see workbook/PUBLISHED.tsv) — checks every superseded
-  # value of every metric automatically:
-  python3 consumer_check.py --agent HENRY --from-ledger
+  # from a ledger (AGENTS/<NAME>/workbook/PUBLISHED.tsv) — checks every
+  # superseded value of every metric automatically:
+  python3 scripts/consumer_check.py --agent HENRY --from-ledger
 
 Exit 0 always (advisory) unless --strict, which exits 1 if any STALE consumer
 is found. Read-only: never writes, never commits, never edits another agent's
@@ -273,7 +275,7 @@ def main():
     args = ap.parse_args()
 
     here = Path(__file__).resolve()
-    workspace = here.parents[3]                       # AGENTS/<X>/scripts/ -> repo root
+    workspace = here.parents[1]                       # scripts/ -> repo root (was parents[3] at AGENTS/<X>/scripts/ pre-adoption; git mv 2026-07-28)
     own_dir = (workspace / "AGENTS" / args.agent) if args.agent else None
     if own_dir and not own_dir.exists():
         print(f"  ⚠️  --agent {args.agent}: {own_dir} not found; scanning everything.")
@@ -286,8 +288,15 @@ def main():
 
     jobs = []
     if args.from_ledger:
-        led = (here.parents[1] / "workbook" / "PUBLISHED.tsv"
-               if args.from_ledger == "AUTO" else Path(args.from_ledger))
+        # AUTO derives the ledger from --agent now that the script lives at root
+        # scripts/ (pre-adoption it lived at AGENTS/<X>/scripts/ and used its own
+        # parent dir; that path silently pointed at repo-root/workbook post-move).
+        if args.from_ledger == "AUTO":
+            if not args.agent:
+                ap.error("--from-ledger AUTO needs --agent to locate AGENTS/<NAME>/workbook/PUBLISHED.tsv")
+            led = workspace / "AGENTS" / args.agent / "workbook" / "PUBLISHED.tsv"
+        else:
+            led = Path(args.from_ledger)
         ledger = read_ledger(led)
         if not ledger:
             print(f"  ⚠️  no ledger rows at {led}")
