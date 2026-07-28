@@ -196,7 +196,7 @@ Maintain in STATUS.md. Four categories required:
 | BDC with >$2B revolver + NAV decline >15% | REGINALD | 🔴 |
 | Multiple BDCs mark down same portfolio company | REGINALD | 🔴 |
 | Redemption gate triggers at non-traded BDC | LIQUID, REGINALD | 🔴 |
-| PIK % rises above 20% at FSK or ARCC | REGINALD | 🟠 |
+| PIK rises above **20% of TOTAL INVESTMENT INCOME** at FSK or ARCC | REGINALD | 🟠 |
 | BDC revolving facility draws spike | LIQUID | 🔴 |
 | NAV facility LTV breaches trigger margin calls | LIQUID | 🔴 |
 | Portfolio company layoff spike | LABOR | 🟠 |
