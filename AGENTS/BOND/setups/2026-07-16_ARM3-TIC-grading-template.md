@@ -1,3 +1,10 @@
+> ## ✅ USED AND RESOLVED 2026-07-23 — May TIC graded **ARM-#3 FIRED-WEAK** (KB-BND-084)
+> Key result: Japan T-bills **−$59.8B REAL selling** (~94% of the Japan holdings drop) against aggregate foreign long-term UST **+$53.6B** — a *flow-level* analog of the masked-hole pattern (country-level fade hidden by aggregate absorption).
+>
+> **This file is a reusable TEMPLATE, not a frozen pre-reg — so unlike the auction pre-regs in this directory it SHOULD be corrected before reuse.** Two things to carry forward, both learned after it was written:
+> 1. **It is already right about the thing that matters** — it grades on **NET TRANSACTIONS, not holdings**, and flags that the GATES.tsv condition text had drifted to "holdings." Keep that; it was the reason the 7/23 grade was clean.
+> 2. **Re-verify the release date against the Treasury calendar before each use.** The May drop actually landed **7/14**, not the docketed 7/16 — a release-date assumption has bitten this rail once already. Pre-register against the source that *carries* the metric, at the date it is actually published (PROME frame-spec check, 7/25).
+
 # ARM-#3 (TRY-FIRE-004) — May TIC Grading Template — pre-staged 2026-07-16 AM
 **Owner:** BOND (ARM3 domain = SAM/ZHAO flow; BOND pre-stages the grade so the 4 PM read is mechanical)
 **Data drop:** May 2026 TIC — **today Thu 2026-07-16 ~4:00 PM ET** (Treasury standard release, ~15th business day)

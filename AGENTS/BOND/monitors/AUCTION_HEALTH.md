@@ -10,12 +10,16 @@
 
 ## Classification Rules
 
-| State | Criteria | Signal |
+*Re-specified 2026-07-28 — **every row of this table previously keyed on a tail**, which contradicted the standing rules directly above it. Adding a banner without fixing the table it governs leaves the operative logic unchanged, so the table itself is rewritten on **composition**. Percentages are of **competitive accepted**; cut-offs are trailing-12 **per tenor** — the 7Y figures below are illustrative, re-derive per tenor.*
+
+| State | Criteria (composition-keyed, tail-free) | Signal |
 |---|---|---|
-| 🟢 Healthy | BTC near/above recent avg, stop-through/small tail, indirect demand stable | No action |
-| 🟡 Watch | BTC below recent avg or modest tail; dealer take-down elevated once | Note in STATUS |
-| 🟠 Stress building | BTC <2.3 or tail >2bps; weak indirect demand | Signal LIQUID/ZHAO if consequential |
-| 🔴 Auction dysfunction | 2+ weak auctions in same tenor sector or large tail + dealer absorption spike | Signal LIQUID, ZHAO, PROME |
+| 🟢 Healthy | BTC near/above trailing-12 median **and** indirect at/above median **and** dealer at/below median | No action |
+| 🟡 Watch | BTC below trailing-12 median **or** indirect below median, with the other leg intact | Note in STATUS |
+| 🟠 Cover marker | **BTC below the trailing-12 minimum while composition HOLDS** (indirect steady/rising, dealer not absorbing) | Fire the vector; **state explicitly that the mechanism did NOT fail.** Signal LIQUID/ZHAO if consequential. *(Worked example: 7/27 5Y.)* |
+| 🔴 Composition failure = demand hole | **Indirect below the trailing-12 minimum AND dealer above the trailing-12 maximum**, i.e. foreign stepping away *while* dealers warehouse | Signal LIQUID, ZHAO, PROME **same-day**; this is the thesis-kill leg. |
+
+> **Why the 🟠 and 🔴 rows are different in kind, not degree:** a thin cover is a *price* concession (someone still bought it, cheaper); a composition failure is a *mechanism* failure (the natural buyer left and the dealer ate it). Only the second one transmits to funding stress. Conflating them is the single most likely way this monitor gives a false alarm.
 
 ## Rolling Table
 
