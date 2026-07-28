@@ -1,4 +1,14 @@
-# BOND — LAST_COMPLETION (2026-07-10 Fri AM)
+> # 🧊 FROZEN 2026-07-28 — NOT MAINTAINED. DO NOT CITE AS CURRENT.
+>
+> **This file was retired on 2026-06-15** (its durable lessons were lifted into `MEMORY.md`) but kept getting written to, and it last recorded a session on **2026-07-10**. Its *name* promises currency while its *contents* are 18 days behind — so it reads as **current-and-wrong**, which is worse than obviously stale.
+>
+> **Canonical replacements, both rewritten every session:** `RECEIPT.md` (what was processed) and `SCRATCH.md` (the session handoff). Live state is `STATUS.md`.
+>
+> *Everything below is a frozen 2026-07-10 snapshot, retained for history only. Several items in it are long resolved — e.g. "FR2004 6/24+7/1 prints still env-blocked" is now **five** prints owed, and the arm-#2 count it was tracking completed on 7/13.*
+
+---
+
+# BOND — LAST_COMPLETION (2026-07-10 Fri AM) [FROZEN SNAPSHOT]
 
 STATUS: ✅ COMPLETE — all 4 tasks done (ratify · verify · register · drain).
 CHANGED: outbox/2026-07-10_to-PROME-TERRY_arm2-semantics-coratification.md (new) · STATUS.md · workbook/KB.tsv (+KB-072..075) · docket/CATALYSTS.tsv (+7/10 row) · SCRATCH.md · RECEIPT.md · 10 inbox files → processed/.

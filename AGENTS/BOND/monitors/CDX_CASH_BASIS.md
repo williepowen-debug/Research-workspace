@@ -1,7 +1,9 @@
 # BOND Monitor — CDX/Cash Credit Basis
 
 **Owner:** BOND
-**Last Updated:** 2026-07-01 by BOND
+**Last Updated:** 2026-07-28 by BOND — **header refreshed; the proxy was NOT re-run this session.** The 7/01 read below is **carried, not verified.**
+
+> ⚠️ **Re-run `monitors/cdx_proxy.py` before citing this vector.** It matters more now than it did on 7/01: cash HY has widened **+11bp in two sessions** (268→279), which is exactly the condition where the sign-check below becomes decisive. **The 6/24–26 lesson applies directly — a proxy breach while cash is ALSO widening is a co-move, not a divergence.** Given the widening is broad and quality-indiscriminate, the prior is co-move; **do not call a divergence without running the two legs.**
 **Purpose:** Detect when faster synthetic/hedging credit demand leads cash spread repricing.
 
 ## Working Model

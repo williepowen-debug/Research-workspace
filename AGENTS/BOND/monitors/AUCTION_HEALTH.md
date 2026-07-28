@@ -1,8 +1,12 @@
 # BOND Monitor — Treasury Auction Health
 
 **Owner:** BOND
-**Last Updated:** 2026-07-01 by BOND
+**Last Updated:** 2026-07-28 by BOND *(rolling table had gone 27 days stale — 6 auctions back-filled 7/09→7/27)*
 **Purpose:** Track whether Treasury market absorption is improving, mechanically supported, or deteriorating.
+
+> ⚠️ **TWO STANDING RULES FOR THIS TABLE (adopted 2026-07-28):**
+> **1. The `tail` column is UNSCOREABLE from primaries.** A tail requires the when-issued yield at bid deadline; **TreasuryDirect does not publish it.** That is a structural limit, not a per-session gap — so **no gate, trigger or pre-registration may be keyed on a tail.** Wire-reported tails are `[med-conf]` and are recorded in Notes only, never used to fire a classification.
+> **2. Grade COMPOSITION, not the headline cover.** All %s are **% of competitive accepted** (the fleet-reconciled denominator). A thin BTC with indirect holding and dealers un-stuffed is a *price* concession; a demand hole requires **indirect falling AND dealers absorbing.** The 7/27 5Y is the worked example: record-low cover, intact composition.
 
 ## Classification Rules
 
@@ -43,6 +47,11 @@
 | 2026-06-23 | 2Y | $69B | 2.64 | 4.189% | **55.45** | 34.31 | 10.24 | 🟡 | TreasuryDirect 91282CQY0 | **0.3bp STOP-THROUGH** (biggest since Jan, ZH sec.); HY highest since Jan-2025; indirect <60 but directs absorbed; dealer take lowest since Feb. |
 | 2026-06-24 | 5Y | $70B | 2.35 | 4.200% | 61.60 | 25.51 | 12.89 | 🟡 | TreasuryDirect 91282CQX2 | **0.7bp tail = 8th consecutive tailing 5Y** (ZH sec., internals cross-check primary). Indirect −13.3pp m/m (74.85→61.60, lowest since Jan) — directs +13.2pp absorbed ~1:1. |
 | 2026-06-25 | 7Y | $44B | 2.50 | 4.260% | **57.55** | 29.70 | 12.75 | 🟡 | TreasuryDirect 91282CQW4 | Indirect −20.8pp m/m (78.39→57.55) — directs +18.5pp absorbed. **Tail UNPINNABLE** (no primary WI; no named secondary) — treat as unknown, not "no tail". |
+| 2026-07-09 | 30Y reopening | $22B | 2.44 | 5.058% | **77.74** | 12.21 | 10.05 | 🟢 | TreasuryDirect 912810UU0 | **BND-11 resolved NOT FIRED.** Indirect SURGED (vs June 59.95) — the *inverse* of the masked demand-hole; dealers un-stuffed. Record clearing yield WITHOUT demand failure. |
+| 2026-07-22 | 20Y reopening | $12.9B | 2.64 | 5.163% | **69.12** | 16.21 | 14.67 | 🟡 | TreasuryDirect R_20260722_2 | HOLDING. Indirect firm rules out foreign-exit; **dealer 14.67% is the one soft spot** (vs 8.4% June) — logged as a slow-burn tilt to watch, not a trigger. |
+| 2026-07-23 | 10Y TIPS (new) | $23.3B | 2.30 | 2.438% (real) | **65.16** | 24.98 | 9.86 | 🟡 | TreasuryDirect R_20260723_3 | BTC at the softening boundary but composition strong: cleared **+26.9bp above 5/21** with ind/dealer 6.6x (vs 5.5x) = **real money buying a higher real yield with LESS dealer help.** |
+| 2026-07-27 | 2Y | $69B | **2.66** | 4.3150% | 56.59 | 34.05 | **9.36** | 🟢 | TreasuryDirect 91282CRB9 | STRONG. BTC highest since Jan-26; dealer lowest since Jan; indirect UP vs June (55.45). |
+| **2026-07-27** | **5Y** | **$70B** | **2.28** | **4.4080%** | **59.24** | 27.22 | 13.53 | 🟠 | TreasuryDirect 91282CRA1 | **★ FIRST REAL COVER MARKER OF THE CYCLE — lowest 5Y BTC since 2022-09-27 (2.27), by 0.01, in a 50-auction window.** Fires the `BTC<2.3` leg ⇒ vector 2→3. **But composition HELD: indirect ROSE with duration on the day (2Y 56.59 → 5Y 59.24)**, the opposite of a duration-demand step-back; dealer +0.64pp only. Concession is in PRICE (+20.8bp vs June). Threshold fired, mechanism intact. **"14th consecutive tail" (wire) NOT carried — unverifiable.** |
 
 *June bills (6/15–6/18) all cleared clean — BTCs 2.47–3.12; 13W softest (2.47, pre-FOMC re-investment caution), 6W strongest (3.12). No bill stress.*
 

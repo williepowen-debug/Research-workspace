@@ -1,7 +1,14 @@
 # BOND Monitor — Dealer Capacity / Absorption
 
 **Owner:** BOND
-**Last Updated:** 2026-07-01 by BOND
+**Last Updated:** 2026-07-28 by BOND — **no new FR2004 data; this monitor is BLIND and has been for 6 weeks.**
+
+> ## 🔴 DATA GAP — ESCALATING, not rolling again
+> **The stock series that drives this vector has not been pulled since the 6/17 as-of print. Five prints are now owed: 6/24 · 7/1 · 7/8 · 7/15 · 7/22.** The NY Fed API path used here returns pre-2026 data in-env; retried 7/6, 7/23, 7/28.
+>
+> **Why this matters more than a normal stale row:** dealer absorption is a **STOCK** vector — benign auction takedowns (which is what we keep getting) show the backstop *wasn't binding that day* and **cannot refresh the inventory stock.** Only FR2004 can move this vector in either direction. So the 🟠 score and the **"→4 trigger ARMED"** state are both resting on a **6-week-old observation**, and the 7/2 downgrade condition in STATUS ("dealer-absorption →2 if the 7/2 print shows a sharp drawdown") has been **unscoreable the entire time.**
+>
+> **This has been carried as "pending pull" for four weeks. Escalating to Will/PROME as an owed data-source gap rather than deferring a fifth time.** Options: an alternate NY Fed endpoint, the FRED mirror of the primary-dealer series, or accepting the vector as **[STALE — frozen at 6/17]** and saying so on every surface that cites it.
 **Purpose:** Track whether dealers can absorb Treasury and credit supply without creating funding or duration stress.
 
 ## Key Inputs

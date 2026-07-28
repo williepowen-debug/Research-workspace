@@ -4,6 +4,24 @@ Version history for `thesis/THESIS.md`. Newest first. Bump rules: **major (X.0)*
 
 ---
 
+## v1.1.3 — 2026-07-28 (falsifier RE-SPECIFIED after a self-caught mis-specification; oil→breakeven confirmed out-of-sample; credit re-activated)
+
+**Triggers:** HENRY's 7/28 challenge that the joint HEN-42 falsifier "passed on its letter but not on its evidence" + the 7/27 2Y+5Y grade off TreasuryDirect primaries + a 12-item mail drain that surfaced two stale load-bearing values on BOND's own surfaces.
+
+**Refinement (no conviction change — TLT puts HOLD/no-add unchanged; composite 12/35 → 14/35):**
+
+1. **★ FALSIFIER APPARATUS RE-SPECIFIED — tail-keyed → composition-keyed.** Old view: the HEN-42 joint falsifier was *belly indirect <55% AND 2Y outright TAIL >2bp AND dealer >18%*. **New view: that specification was defective and its non-firing is NOT evidence.** It anchored the DENY branch on a **2Y tail**, which a term-premium story structurally cannot produce (term premium produces a *strong front* plus concession further out — which is exactly what printed on 7/27). The branch could therefore only have fired in a world where the thesis was already wrong for some *other* reason: it passed **by construction, not by evidence.** The defect is BOND's as the falsifier's author; HENRY accepted it in good faith. Instance of `finding_confidence_priced_against_thesis_not_letter` landing on the author rather than the acceptor. **All future auction-keyed legs are specified on COMPOSITION (indirect % and dealer % of competitive accepted) and are TAIL-FREE by construction**, because TreasuryDirect publishes no when-issued yield and a tail is therefore *unscoreable from primaries* — a structural limit, not a per-session data gap (VX-BND-09). Replacement 7/28 7Y pre-registration adds an explicit **"confound wins → defer"** branch, since FOMC-eve event risk and term premium predict the **same** thin cover and **different** composition. KB-BND-089.
+
+2. **Oil→breakeven channel CONFIRMED OUT-OF-SAMPLE.** Old view: the arm's insulation from the Mideast book was argued from a *backward* decomposition (KB-080/088) plus CARL's forward-CPI weld — both in-sample. **New view: directly tested and passed.** Across a ~11% two-session collapse in Brent ($100.50 [7/23] → ~$90.57 [7/27]), **DFII10 held 2.43 → 2.43 — literally zero — while T10YIE fell −7bp and T5YIFR −3bp.** The entire rates response ran through inflation compensation; the real/policy leg did not move. An oil shock is a *breakeven* event, not a policy-path event, and the falsifier's shift from "oil retrace" to "dovish Fed repricing" (v1.1.2) is now empirically earned rather than inferred. Also resolves a fleet dispute without recourse to contested CME scrapes. KB-BND-091.
+
+3. **Credit vector RE-ACTIVATED; "credit is inert" retired.** Old view: "credit inert — not the story" (HY ~275, flat). **New view: HY OAS 268 → 279 in two sessions off a nine-session range that never moved >5bp**, CCC to 996, IG to 80. The move is **absolute-parallel and proportionally largest at the TOP of the stack** (BB +7.0% > single-B +3.9% > CCC +1.5%) ⇒ **quality-INDISCRIMINATE repricing, not a credit-discriminating selloff** — so it does *not* upgrade the default-cycle read, but it does end the "credit is not the story" framing. HY market function 1 → 2. KB-BND-090.
+
+4. **Third hypothesis registered for thin auction cover (neither policy-path nor term-premium).** The Treasury cash-futures basis trade shrank **~$1.3T → ~$1.0T** since January. Withdrawing repo-levered cash-Treasury bid produces **thin cover with intact composition** — precisely the 7/27 5Y signature — because the departing bidder is neither foreign/custodial nor a dealer. Held open as a live alternative so auction reads are not forced into the policy-path/term-premium binary. Logged ESTIMATE; LIQUID owns the call. KB-BND-092.
+
+5. **Process/hygiene:** two load-bearing values on BOND's own surfaces were found stale (HY OAS carried 26 days; the FOMC "~90% hold" prior off by ~25pp), both surviving because their values were *plausible*. Promoted fleet-wide as `finding_plausible_stale_value_evades_review`. Also promoted `finding_claim_outlives_its_discredited_instrument` after finding HENRY had over-retracted a sound claim when its instrument failed. **Durable-doc rule enforced:** this THESIS no longer carries live levels or composite scores — those live in STATUS only.
+
+---
+
 ## v1.1.2 — 2026-07-18 (term-premium label CORRECTED → real-policy-path; EU-sovereign reconcile)
 
 **Triggers:** RED's flag-to-verify (routed via PROME 7/17) — is "term-premium channel CONFIRMED" honest net of the 2Y/policy component? + LIQUID EU-sovereign reconcile (Will-approved 7/17) + CARL diesel-weld consume.
