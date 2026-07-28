@@ -21,6 +21,11 @@ Usage:
 Timestamps use each file's last git-commit time (falls back to filesystem mtime
 for uncommitted files). Exit code is always 0 — this is an alert, not a gate.
 
+⚠️ KNOWN LIMIT (2026-07-28, VIOLET KB-VIO-142): this check compares AGES, so it
+PASSES a file that is brand new and affirmatively false (TRADE.md read 'ACTIVE
+POSITIONS: None.' for 17h with $287.70 live; this script said 'ok +2d'). The
+AGREEMENT test lives in scripts/position_agreement_check.py — run both.
+
 Boot wiring (drop into an agent's boot sequence):
     .venv/bin/python3 scripts/ledger_staleness.py <NAME> --quiet
 and surface the one-line summary; decide freeze-vs-refresh at closeout.
