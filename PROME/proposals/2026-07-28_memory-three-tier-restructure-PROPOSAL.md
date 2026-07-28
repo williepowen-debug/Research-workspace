@@ -1,5 +1,5 @@
 # PROPOSAL — Auto-Memory Three-Tier Restructure (Phase 2)
-**Author:** PROME · **Date:** 2026-07-28 ~06:40 ET · **Status:** DRAFT — awaiting Will tier-map approval
+**Author:** PROME · **Date:** 2026-07-28 ~06:40 ET · **Status:** ★ **APPROVED 2026-07-28 ~06:50 ET (Will in-session: "lets go with your recommendations")** — all four open questions resolved to the recommendations: **Q1** single `INDEX_COLD.md` (split trigger ~40KB or a theme gaining a routine consumer) · **Q2** Prediction section moves behind `PREDICTION_DISCIPLINE.md` with a ~10-row hot residue · **Q3** WALTER owns the sibling-merge sweep (DAEDALUS consulted on blueprint embeds) · **Q4** tier map approved WHOLESALE; judgment sections refine at first sweep. **Execution: PROME migration session scheduled ~weekend 8/1-8/2 (DOCKET row registered 7/28)** — FOMC-week spine outranks it per the sequencing rec Will accepted. WALTER checker-v2 REQ routed 7/28 ahead of the split (the 80% byte warning is valuable immediately).
 **Supersedes:** the two-way hot/cold sketch in the 7/28 Phase-1 compaction plan. **Prereq done:** Phase-1 compaction `c715548d` (21.8→17.9KB, 322 slugs intact).
 
 ## 1. Problem (measured)
