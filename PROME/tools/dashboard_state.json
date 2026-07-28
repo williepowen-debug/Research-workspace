@@ -1,25 +1,19 @@
 {
- "built": "2026-07-25 22:50",
- "channels": {
-  "Credit": "watch",
-  "Energy": "crit",
-  "Equity-vol": "elev",
-  "Japan/carry": "watch",
-  "Kharg tail card": "none",
-  "Rates": "crit"
- },
+ "built": "2026-07-28 04:32",
+ "channels": {},
  "docket": [
   "2026-07-22 Hyperscaler Q2 filings useful-life watch \u2014 VULCAN pre-regist",
   "2026-07-23 LAB-17 claims window (w/e 7/18 + 7/25) + July flash PMI ~7/2",
-  "2026-07-27 First Brands ballot CERTIFICATION \u2014 the 7/20 vote tallies be",
   "2026-07-28 FOMC (no SEP/dots)",
   "2026-07-28 First Brands Ch.7 plan-confirmation TRIAL OPENS (Lopez, SDTX",
   "2026-07-29 ARCC Q2 (Wed PRE-OPEN, call 12:00 ET \u2014 DATE VERIFIED 7/25 vs",
   "2026-07-29 CVNA Q2 earnings AMC (call 5:30pm ET) [CONF Businesswire via",
   "2026-07-29 Hyperscaler Q2 FCF (AMZN/MSFT/GOOG/META)",
   "2026-07-29 SK Hynix Q2'26 earnings (Seoul 09:00 local, IR call) \u2014 VULCA",
+  "2026-07-30 TRY-VIOLET-VIXCS MANDATORY exit/review \u2014 regardless of P/L, ",
   "2026-07-31 BOJ MPM (July) \u2014 FY2027 purchase plan",
   "2026-07-31 MOF monthly intervention data",
+  "2026-08-01 Auto-memory three-tier migration (Phase 2) \u2014 PROME executes ",
   "2026-08-03 ISM Manufacturing July (~8/3) \u2014 LAB-06 breach check",
   "2026-08-04 BDC Q2 marks cluster \u2014 RE-DATED (was 7/25..7/28; 7/25 is a S",
   "2026-08-04 MU FQ4 earnings (~8/4) \u2014 lane tripwire test #1",
@@ -80,22 +74,17 @@
   "GATE-VIO-110": "resolved:LAPSED",
   "GATE-VIO-116": "resolved:RESOLVED"
  },
- "levels": {
-  "Brent": 95.98,
-  "CCC OAS": 981.0,
-  "Cushing": 19.369999999999997,
-  "HY OAS": 268.0,
-  "Init Claims": 187000.0,
-  "MOVE": 74.67,
-  "SOFR-IORB": 0.05,
-  "USD/JPY": 163.83,
-  "VIX": 17.62
- },
+ "levels": {},
  "one": "",
  "pending": [
-  "** DEWEY entitlements \u2014 Tier 1 RULED, awaiting DEWEY's product/price one-liner for the actual purchase (non-urgent)",
-  "BRENT tail-rider exact debit/qty/account at the next broker export (bookkeeping only, position is recorded)"
+  "** VIOLET window pre-FOMC",
+  "BOND window post-1 PM",
+  "reachable Wed ~2 PM (VIX \u226523 half-sale)",
+  "HENRY inbox-at-boot rule change (rec: mechanical trigger \u2014 live position in domain OR DOCKET \u22645d naming you)",
+  "canon amendment at next canon pass",
+  "DEWEY entitlements one-liner (Tier 1 ruled, non-urgent)",
+  "BRENT tail-rider exact debit/qty at next broker export"
  ],
- "split": "Break 30 / Grind 30 / Unresolved 40",
+ "split": "Break 29 / Grind 31 / Unresolved 40",
  "v": 1
 }
