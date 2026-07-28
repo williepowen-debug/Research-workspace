@@ -91,7 +91,8 @@ You are part of a multi-agent research network tracking systemic financial risk.
 
 | Condition | Target Agent | Priority |
 |-----------|-------------|----------|
-| Auction stress (poor BTC, large tails) → repo demand spike | LIQUID | 🔴 |
+| Auction **composition failure** (indirect below trailing-12 min AND dealer above max) → repo demand spike | LIQUID | 🔴 |
+| Auction **cover marker** (BTC below trailing-12 min, composition intact) — *say the mechanism did NOT fail* | LIQUID, ZHAO | 🟠 |
 | Credit-equity lead signal (HY OAS widening precedes equity) | HENRY | 🟠 |
 | Issuance freeze → bank funding stress | REGINALD | 🔴 |
 | Auction weakness → foreign demand hole confirmation | ZHAO | 🟠 |
@@ -116,7 +117,9 @@ You are part of a multi-agent research network tracking systemic financial risk.
 | HY OAS | 350bps | Issuance freeze begins |
 | HY OAS | 500bps | Acceleration / forced selling |
 | CDX-Cash Basis | Sustained divergence | Synthetic leading cash — hedging demand outpacing real selling |
-| 5Y BTC | Below 2.3x | Demand hole — auction mechanism stressed. *(NB: note/bond BTC has secularly declined ~3.0x→2.5x per GAO, so 2.3x now sits just under the new structural norm — read 2.3–2.4 prints as "below new-normal," not "fine.")* |
+| 5Y BTC | Below 2.3x | **Cover marker — escalates the vector; does NOT by itself indicate a demand hole.** *(Empirically corrected 2026-07-28: this row read "demand hole — auction mechanism stressed" until the 7/27 5Y printed **2.28 with the mechanism plainly intact** — indirect ROSE with duration, dealers were not stuffed. Fire the trigger, then state explicitly that the mechanism did not fail.)* NB: note/bond BTC has secularly declined ~3.0x→2.5x per GAO, so 2.3x sits just under the new structural norm — read 2.3–2.4 as "below new-normal," not "fine." |
+| **Auction composition** | **indirect below trailing-12 min AND dealer above trailing-12 max, same tenor** | **THE demand-hole test** — foreign stepping away *while* dealers warehouse. Only this kills the thesis. Percentages are of **competitive accepted**; derive cut-offs **per tenor**, never reuse another tenor's numbers. |
+| ~~Auction tail~~ | ~~>2bp~~ | ❌ **RETIRED 2026-07-28 — UNSCOREABLE BY CONSTRUCTION.** A tail needs the when-issued yield at bid deadline and **TreasuryDirect does not publish it.** No gate, threshold or pre-registration may be keyed on a tail; wire-reported tails are `[med-conf]` and may never fire anything. *(This defect had spread to the thesis kill, the TLT-put re-arm, PROTOCOL's outbound triggers and a joint falsifier co-registered with HENRY — which then "passed" only because its DENY branch was unfireable.)* |
 | DFII10 (10Y real) | >2.5% sustained | Real-yield stress regime — duration-risk dominates over Fed-expectations; supply/term-premium story confirmed |
 | T5YIFR (5Y5Y fwd) | >2.5% sustained | Inflation expectations unanchored — Fed credibility leg; combined with real-yield break = stagflation-tape risk |
 

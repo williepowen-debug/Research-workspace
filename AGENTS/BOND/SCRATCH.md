@@ -51,12 +51,33 @@
 
 ## NEXT SESSION (dated, future-verifiable)
 
-1. **🔴 TODAY 7/28 1PM ET — grade the 7Y against the FROZEN pre-reg.** Branches A/B/C/D + tie-break in `analysis/2026-07-28_grade_...`. **Do not re-derive the thresholds** — they are frozen. Pull TD `/securities/Note`, compute % of **competitive accepted**. Route the verdict to HENRY + NEXUS (both are waiting on it).
+1. **🔴 TODAY 7/28 1PM ET — grade the 7Y. READ THIS WHOLE ITEM BEFORE GRADING; the spec is known-compromised.**
+   - **Grade the FROZEN branches A/B/C/D + tie-break exactly as written** (`analysis/2026-07-28_grade_...` §4). **Do not re-derive the thresholds.** Pull TD `/securities/Note`, compute % of **competitive accepted**. This is what `BND-13` resolves on.
+   - **⚠️ THEN DO THE SECOND THING (§4b, KB-BND-094/095):** BOND's own 323-auction backtest says the gate's **dealer leg is unsupported as bearish** and that **indirect should be sufficient ALONE at the 15th per-tenor percentile.** Both defects bias the gate **toward not firing — i.e. toward confirming the policy-path call I already hold.** So **also report the indirect leg STANDALONE**, and **if indirect breaks while dealer stays low, report the DISAGREEMENT — do not average it, and do not quietly relax the frozen branches to absorb it.**
+   - **Do not call a high dealer take bearish confirmation** without noting the contrarian history.
+   - **Before porting ANY backtest number into a future gate: reconcile the DENOMINATOR first.** The backtest is `indirect` **of-offering**; every threshold on BOND's surfaces is **of-competitive-accepted** — same auction, ~22pp apart. Porting the numbers directly is a unit error.
+   - Route the verdict to **HENRY + NEXUS** (both hold the spec and both have the amended challenge packet).
+   - **v1.1.4 adopts the 15th-percentile indirect rule + drops dealer-as-bearish — AFTER this grades**, so the change can't be accused of being fitted to the print.
 2. **🔴 WED 7/29 2PM — FOMC.** Arm-#2 falsifier live test, frozen at `analysis/2026-07-18_fed-path-map_fomc-7-28.md`: arm BREAKS on 2Y<3.85 **AND** DFII10<2.15 **AND** 10Y<4.35 sustained 3 sessions. **DEEP-LIT against dovish** (2Y 4.33 / DFII10 2.43 / 10Y 4.69). A *hike* is the live tail, not just tone.
 3. **🔴 DFII10 → 2.5 re-arm watch — 7bp away.** The nearest live TLT-puts add-gate.
 4. **Fri 7/31 — BND-01 resolves FAILED** (HY 350 vs 279). Resolve at closeout on/after 7/31, don't leave OPEN-but-stale. Also BOJ 7/31 (SAM owns primary; FL-BND-11 FX leg).
 5. **Mon 8/03 — P3 Batch-3 START GATE** (docketed). Two questions: reserve composition/mobility (reconcile to ONE figure with SAM) + where the **edge** of reserve-currency privilege is.
 6. **DEFERRED / OWED:** **FR2004 now 5 prints owed** (6/24, 7/1, 7/8, 7/15, 7/22) — carried 4 weeks, NY Fed API caps pre-2026 in-env; **stop silently rolling this, flag Will/PROME**. · ECB GovC calendar verify from primary. · HENRY UST structural-demand corpus (Mar-vintage).
+
+## ★ WILL-TASKED FILE-BY-FILE REVIEW (7/28 ~04:00–05:30, after the mail drain)
+
+Will asked whether the stale files were *actually* updated. They were not — I had edited **sections** and reported that as files being clean. A full end-to-end read of 14 files/groups found **~40 defects**, and the review is **not finished** (queue at the bottom).
+
+**The three that mattered:**
+1. **`proposals/` — a directory I had never opened — holds a 323-auction backtest that challenges the falsifier I froze that morning.** Dealer-as-bearish is unsupported; indirect should fire alone. Logged KB-BND-094, then **self-corrected in KB-BND-095 after reading the backtest at source** rather than MATRIX_V2's summary of it: the summary was accurate but had **dropped the caveats that most limit its own conclusion** (regime non-stationarity, N=11 at the headline cut, TLT a weak proxy for belly tenors, and a **denominator mismatch**). Challenge stands directionally, weaker than first routed.
+2. **THESIS was bumped to v1.1.3 claiming the falsifier was re-specified while three tail-keyed gates were still live in its body** — thesis kill, TLT-put re-arm, KEY THRESHOLDS. The version described intent, not the artifact.
+3. **TRADE had two tables disagreeing on whether an add-gate had FIRED** — the Reactivation Matrix stated standalone what Active Recommendations states conjunctively, and the standalone version fired 7/16, the day Will decided NO-ADD.
+
+**Also:** STATUS contradicted itself (Brent "$100.43 🔴 THROUGH $100" while three other sections analysed its collapse; IG 76 vs 80; "Thu 7/31" vs "Fri 7/31" — it is a **Friday**). `AUCTION_HEALTH` contradicted its own new banner. `CLAUDE.md` — which loads at **every boot** — still carried the BTC implication the 7/27 print refuted, plus a tail-keyed signal trigger. FR2004 was mis-docketed as a dated 🔴 catalyst 26 days past its own date; re-cast as a STANDING-GAP needing a Will/PROME decision.
+
+**Three of the ~40 defects were ones I introduced during the review itself** (a split PROTOCOL table, an overstated challenge packet, a mis-characterised "documented divergence"). **Fixing a document is a change and needs checking like any other.**
+
+**Standing lesson for future sessions:** audit by **AGE and by reading end-to-end**, never by grepping for what looks wrong. Grep finds what you already suspect; it cannot find a section you never opened.
 
 ## OPEN THREADS / WATCHES
 
@@ -64,6 +85,8 @@
 - 🟠 HY 279 → 300 watch (21bp) · 🟠 CCC 996 → 1000 (4bp) · 🟠 30Y 29-day run >5%
 - 🟡 **Basis-trade hypothesis (KB-092)** — testable at the 7Y: if it's the driver, cover stays thin **with composition intact** and does **not** resolve post-FOMC. LIQUID owns the call.
 - 🟡 Auction *tail* is **unscoreable from primaries by construction** (no when-issued published) — every future auction leg must be composition-keyed.
+- 🔴 **FR2004 escalated from "pending pull" to a STANDING GAP needing a Will/PROME decision** — 5 prints owed, stock vector, 6-week-old observation carrying both a 🟠 score and an ARMED trigger. Options: alternate NY Fed endpoint · FRED mirror · formally mark the vector `[STALE — frozen at 6/17]` everywhere it is cited.
+- 🟡 **REVIEW QUEUE — files still NOT read end-to-end:** `RECEIPT.md` · `BND11_REFUNDING_PREREG` · `workbook/FLOW.tsv` (FL-09/10 are 6/20–7/01 vintage WATCH rows) · `workbook/SCHEMA.tsv` · `domain/sources/` (13 files) · `analysis/CROSS_TENOR_BASE_RATES` · `data/` (3 files + the refresh script) · `research/` (2 files) · older `outbox/` + `inbox/processed/`. **None are load-bearing for today's 7Y or tomorrow's FOMC** — but "spot-checked" is exactly what this review proved is not the same as read.
 - 🟢 EU peripheral benign (BTP-Bund 83 [7/17], trigger 200) — but the ECB row is a logged owned miss.
 
 ## POSITION DECISIONS
