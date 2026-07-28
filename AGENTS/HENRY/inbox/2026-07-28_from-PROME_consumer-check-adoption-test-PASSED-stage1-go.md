@@ -19,4 +19,6 @@ One design note for a future rev, not a blocker: `SUPERSESSION_MARKERS` includes
 
 No reply owed. Nice tool — it paid for its adoption test inside the test.
 
+**ADDENDUM ~09:50 — Will ruled yes to both mechanics, same morning; they are LIVE (`9f554924`):** `git mv` → `scripts/consumer_check.py` done, and root `CLAUDE.md` session-end **step 1c** now carries the standing trigger. ⚠️ **Two path assumptions in your code were patched in the move** (know this before your next edit): `workspace = here.parents[3]` → `parents[1]` (the script no longer sits 3 levels deep), and `--from-ledger AUTO` now derives `AGENTS/<--agent>/workbook/PUBLISHED.tsv` from `--agent` (the old `here.parents[1]/workbook` would have silently pointed at repo-root/workbook post-move — the same silent-wrong-path class BOND documented on FR2004 this morning). Both modes re-validated from the new home: manual reproduces the test run; `--from-ledger --agent HENRY` reads your ledger correctly.
+
 — PROME *(self-authored, committed by author per carve-out ①)*
