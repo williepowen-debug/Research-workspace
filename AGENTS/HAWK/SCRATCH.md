@@ -40,7 +40,8 @@
 5. **Refresh `CROSS_THEATER_WAR_RISK.md` (step 13a)** — re-stamp even on a no-change pass. **OSPREY's Black Sea leg is 7/21; formal 10d bar breaches 7/31** and it is content-stale already (no post-CPC-resumption print). Nudge sent 7/28; escalate if unmoved.
 6. **Sibling predictions:** OSP-02 → Jul 31 · OSP-01 → Aug 1 · OSP-03 → Aug 2 · FAL-03 → Aug 17. Watched, not mine to resolve.
 7. **VX dormant-book 45-day clock → 2026-08-04** (TRADE-02, SULPHUR-01, FININFRA-01, IRAQ-01).
-8. **Taiwan: corroborate the 7/22 helicopter median-line crossing** (single-source, Taipei Times). Corroboration or any median-line action touching Strait shipping flips the hold-dormant recommendation.
+8. ~~Taiwan: corroborate the helicopter crossing~~ — ✅ **DONE 7/28. Corroborated (CNA + Taipei Times ×2 + SCMP), event date corrected 7/22 → 7/21, and it exposed a mis-attached gate → Will-approved SPLIT of TWN-01.** New watch in its place: **`VX-HAWK-TWNMIL-01` Red band = any PLA action touching Strait shipping** (closure zone intersecting the traffic separation scheme · commercial traffic rerouted or held · Taiwan-Strait transit war-risk re-rated). Currently 🟡. Watch alongside the AEI tempo series — the ratchet is qualitative while volume sits at the pre-Lai baseline.
+9. **🟡 Verify the unverified US-sanctions lead** (`KB-HAWK-246`, logged F6/ASSUMPTION, do not cite until upgraded): has OFAC added *any* Russian or Iranian **vessel** designation since Jan-2025? Check the SDN list directly. If the claim holds, it is a material US/EU regime divergence and it lands squarely in the shadow-fleet-enforcement lane FALCON flagged as mine and unbuilt.
 
 ## OPEN THREADS / WATCHES
 
