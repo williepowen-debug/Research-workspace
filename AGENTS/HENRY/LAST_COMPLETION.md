@@ -1,10 +1,12 @@
 # HENRY — Last Completion (Will-facing closeout)
 
-**Session:** 2026-07-28 (Tue) ~02:30–03:30 ET — **BOOT** (Will-spawn, "please boot up"). Markets closed; tape is Monday's settle.
-**Status:** ✅ **Complete** — boot protocol run end-to-end, 27-signal WALTER lane drained, STATUS/MEMORY written back, one packet routed, one script defect found and fixed.
+**Session:** 2026-07-28 (Tue) ~02:30–04:30 ET — **BOOT** (Will-spawn) **+ PROME-directed inbox override** (second half). Markets closed; tape is Monday's settle.
+**Status:** ✅ **Complete** — boot protocol end-to-end, 27-signal WALTER lane drained, **all 7 inbox packets processed**, 3 packets routed, one script defect found and fixed.
 
 ## RESULT
-**The war premium came out of the tape as fast as it went in — and it took two of my three 7/23 "confirmations" with it. I retracted a claim I published five days ago, and found that my headline credit metric is structurally blind to the kind of move credit actually made this week.**
+**Two things, and the second one PROME was right to force.** (1) The war premium came out of the tape as fast as it went in — I retracted a claim I published five days ago, and found my headline credit metric is structurally blind to the move credit actually made this week. (2) **On the inbox override: VIOLET's thesis-kill line was anchored to my stalest and highest gamma flip — her real headroom is ~40–52pts, not the ~83pts her board shows, two days before a mandatory review.**
+
+> **⚠️ One correction to the directive I was given:** PROME believed VIOLET's flip ask was sitting in my unprocessed inbox. **It was not — there is no VIOLET packet in my inbox at all** (the 7 were AEOLUS, DEWEY×2, LABOR, PROME×2, VULCAN). I verified before acting, then delivered anyway because the deliverable was right independent of whether the request ever arrived. If VIOLET sent one, **it did not reach me** — flagged to her and worth PROME knowing the routing assumption failed.
 
 ## CHANGED
 - `STATUS.md` — new 7/28 boot block + Signal Status rewrite; VOL REGIME, CREDIT MONITOR, ACTIVE THRESHOLDS (13 rows), INVALIDATION TRIAD, CATALYST STACK, HEN-41 + HEN-42, THESIS, BOTTOM LINE, 5 cross-agent rows. Compressed 7/16-7/17 + DATA RELEASE LOG to hold the 250-line cap (**248**).
@@ -66,9 +68,39 @@ The 35d gamma run again printed **`put wall 7,500` — identical to the call wal
 
 ---
 
+---
+
+## 8. PROME override — inbox taken this session (all 7)
+
+### 8a. 🔴 VIOLET: her (iii) kill-line is set off my stalest and highest number
+She grades stand-down **(iii)** — *SPX closes above the flip ⇒ gamma gate FALSIFIED ⇒ thesis NO-GO* — against **~7,496, my 7/23 flip.**
+
+| Basis | Flip | Headroom from 7,413.18 |
+|---|---|---|
+| **What she's using** | **~7,496** | **+82.8pts / +1.12%** (5 days stale) |
+| My fresh chain 7/28 | ~7,491 | +77.8pts / +1.05% |
+| **Independent cluster 7/27** | **~7,453–7,465** | **+40 to +52pts / 0.54–0.70%** |
+
+**The load-bearing point: my estimator is SIGN-robust, not LEVEL-robust — and (iii) is a LEVEL gate.** My chain has read high vs the independents two sessions running (systematic, not noise). **Grading a thesis-KILL against the highest estimate in the set is the least conservative choice available**, and a post-FOMC relief rally of 0.6% is ordinary. Recommended a two-line band (⚠️ gate-at-risk >~7,455 / 🔴 confirmed >~7,491) and retiring 7,496. Also routed the **put-support band (7,300–7,400, not a strike)**. **Net GEX independently corroborated — FlashAlpha −$34.3B vs my −$34.4B.** *(iii) is her grade, not mine — I supplied the basis, she decides.*
+
+### 8b. LABOR: accepted a correction to my own framing, pushed back on one thing
+**AHE +3.5% is composition-contaminated** (June LF −720K, LFPR −0.3pp — the average rises if the low-wage tail exits, with nobody getting a raise). **The scarcity framing survives; the inflationary interpretation does not** — so my stagflation-mix wage leg is now **pending ECI 7/31**, and I'll drop it if ECI prints ~3.4% flat. Adopted their **sign-flip**: in a hike regime a 57-year-low claims print is *hawkish* fuel — that inverted a live reflex mapping of mine. **I pushed back on one thing:** their ECI grading table has **no row for 3.5%**, the most likely print — asked them to pre-register the indeterminate middle rather than argue it Friday. I also told them **why their setup is stronger than they pitched**: because HEN-42 says the move is *policy-path*, an ECI that undercuts the wage premise hits the exact channel driving it (a term-premium move would barely notice).
+
+### 8c. 🔴 7/31 is the most stacked day on the board
+**ECI Q2 8:30 + HEN-36 resolves + BOJ decision + month-end + auction settle.** ECI is the Fed's own composition-controlled wage gauge landing **48h after** the decision. ⚠️ **Saying before the print, not after: attribution that morning will be genuinely hard.**
+
+### 8d. VULCAN: a HEN-36 tension I now hold both sides of
+**A capex *deceleration* recovers FCF.** UBS: +76% 2026 → **+25% 2027 → +6% 2028** — decel, *not* decline. So the same-quarter FCF compression HEN-36 rests on **may inflect up in 2027** even as the demand-doubt narrative bites: **decel is bearish-sentiment but bullish-FCF.** Early warning is *terms before price* — MSFT walked ~2GW of leases, AWS paused intl colocation; commitments soften before guides.
+
+### 8e. Housekeeping
+PROME's orphan-detector packet closed: **both my recommendations were adopted fleet-wide** — the script moved to repo-root `scripts/orphan_check.sh` (no longer in my dir) and is now root step 1b; the **carve-out was ratified**. MAINTENANCE amended. DEWEY ×2 and AEOLUS logged as context. **PROME Batch-3 deliberately left in `inbox/`** — it's start-gated to 8/3 and moving it to `processed/` would lose the trigger.
+
+---
+
 ## GAPS / Still pending
-- **No current July-hike probability** — deliberate (§1). Needs a fresh pull before Wednesday.
-- **`inbox/` has 7 unprocessed packets** — left per the MAIL rule (separate spawn). ⚠️ **LABOR's is time-critical: AHE composition + ECI 7/31 post-FOMC repricing risk.**
+- **No current July-hike probability** — deliberate (§1). **I owe two page-stamped pulls Wednesday (~9-10 AM and ~1:30 PM pre-decision)**; that pinned pair becomes NEXUS T-16's baseline.
+- **VIOLET's (iii) re-base is UNCONFIRMED** — I supplied the basis; she grades it. Worth checking she accepted before her 7/30 review.
+- **The independent gamma cluster is 7/27 EOD**, measured against my 7/28 chain across a ~14h offset. Re-pull Wednesday.
 - **`workbook/KB.tsv` and `FLOW.tsv` are 35d stale**, boot flags 🔴. This session generated ≥3 KB-worthy entries; I did not write them.
 - **No external gamma cross-check** (markets closed; I would not cite stale tracker pages). 7/27's 5-of-5 stands as the last corroboration; **SpotGamma's 7/23 dissent remains unresolved, not converted.**
 - **0DTE SPX share** still unsourced (standing gap).
@@ -98,6 +130,8 @@ The 35d gamma run again printed **`put wall 7,500` — identical to the call wal
 **Net: two of my three axes are resting on less than they were on 7/23.** HEN-36 is unchanged on primaries and resolves in 3 days — and the tape is already moving its way, which is exactly when a desk banks a confirmation it has not earned.
 
 ## WILL_NEEDS
-1. **Nothing blocking.** Clean boot; no decisions required.
-2. **One thing worth knowing before Wednesday:** if you see a *"34% chance of a July hike"* figure anywhere, **it is 7/22 vintage and pre-dates the oil collapse.** I retracted my own use of it. Re-pull before acting on any Fed-odds number this week.
-3. **A judgement call you may want to overrule:** I left the 7 `inbox/` packets unprocessed because my CLAUDE.md says inbox processing is a separate spawn. **LABOR's packet on ECI 7/31 / post-FOMC repricing is time-critical and this is FOMC week** — say the word and I'll process the inbox next session rather than waiting to be spawned for it.
+1. **Nothing blocking.**
+2. **Before Wednesday:** if you see a *"34% chance of a July hike"* figure anywhere, **check its date.** The widely-circulated one is **7/22 vintage and pre-dates the oil collapse**; I retracted my own use of it. The only valid post-collapse datum right now is VIOLET's page-stamped 7/27 **65.7 hold / 34.3 hike**. I own fresh stamped pulls Wednesday morning and pre-decision.
+3. **The one you may want to look at:** VIOLET has live capital on a position whose thesis-kill is measured against **my five-day-old gamma flip**, and on the independent numbers she has roughly **half the headroom her dashboard shows** — with a mandatory review Thursday. I've routed the re-based band; **the grade is hers**, so if you want it settled before Wednesday's close it's worth a nudge rather than waiting on the packet.
+4. **My inbox default was wrong for this week and PROME was right to override it** — worth making that standing rather than per-session: *during a live-position or dated-catalyst week, process the inbox at boot.* I'd rather change the rule than rely on being overruled each time. Your call whether that goes in my CLAUDE.md.
+5. **A routing failure worth knowing about:** PROME expected VIOLET's flip ask in my inbox and **it was never there.** I delivered anyway, but if VIOLET believes she asked, a packet went missing somewhere between them.
