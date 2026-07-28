@@ -17,10 +17,10 @@ BOND owns the **market-structure transmission layer** — how the bond market's 
 
 **The June refunding confirmed the read.** The 10Y (6/10) printed **strong** — BTC 2.57, indirect 78.2%, primary-dealer take just 9.4% (dealers barely absorbed); the 30Y (6/11) printed **soft but orderly** — BTC 2.33 (held above 2.3), indirect 59.8%. No demand hole; yields *rallied* post-auction. [CONF TreasuryDirect, 6/10–6/11]
 
-**Three things keep this a WATCH (escalating), not a stand-down:**
-1. **The long end is absolutely elevated and re-engaging** (live levels → STATUS) — and the dealer backstop is **record-thin**: FR2004 long-end inventory made *fresh all-time highs* into the July supply gauntlet (KB-061), with the →4 trigger armed.
-2. **The demand composition is rotating** — foreign/custodial (indirect) bids faded hard at the June belly cluster (two of three tenors <60%), composing with the TIC private-outflow swing and the multi-decade-low UST allocation; domestic directs are the offset so far (rotation, not hole).
-3. **Credit is calm at the macro top but bifurcating underneath** — the CCC tail widened into the late-June risk-off and did not retrace while the headline did; PIMCO's default-cycle call lives in that tail. The macro number is not clean credit calm.
+**Three things keep this a WATCH (escalating), not a stand-down** *(items 2 and 3 rewritten v1.1.3 — they had been asserting the opposite of the current read)*:
+1. **The long end is absolutely elevated and sustained** (live levels → STATUS) — and the dealer backstop is **record-thin**: FR2004 long-end inventory made *fresh all-time highs* (KB-061), →4 trigger armed. ⚠️ **But that observation is now 6 weeks old and no print has been pulled since — the vector is blind, not benign**, so treat "record-thin" as a *last-known* state, not a current one.
+2. **The demand composition is rotating, and the June fade did NOT extend.** The June belly cluster faded hard (two of three tenors <60% indirect) — but every tenor tested since 7/9 has held or risen, and on 7/27 indirect **rose with duration** (2Y → 5Y). *Rotation to domestic directs, not a hole* — and the fade is not, so far, a trend. This is the leg most likely to turn, which is why every auction is graded on composition.
+3. **Credit has re-activated, and it is NOT bifurcating — that is the surprise.** The prior read here was "calm at the top, bifurcating underneath (CCC tail)." The 7/23–24 widening is the opposite: **absolute-parallel across BB / single-B / index, and proportionally *largest at the top* of the stack.** A quality-**indiscriminate** repricing, not a default-cycle signal — which weakens the bifurcation framing rather than confirming it. Market access is unimpaired (zero pulled deals). The CCC tail remains elevated and non-retracing, but it is now the *smallest* proportional mover.
 
 *(New in v1.1: the global leg — Japan's super-long demand vacuum — is channel 6 below. In the 6/20–7/1 window it transmitted via co-timing, NOT duration flows; the armed transmission risk is MOF FX intervention → mechanical UST reserve selling.)*
 
@@ -31,7 +31,7 @@ BOND owns the **market-structure transmission layer** — how the bond market's 
 | # | Channel | Mechanism | Structural posture (regime-level) | Consumes / Feeds |
 |---|---|---|---|---|
 | 1 | **Auction health** | Demand hole → dealer warehousing → repo demand → funding stress | Below-median but **clearing at price** | → LIQUID, ZHAO |
-| 2 | **Credit issuance / HY function** | OAS blowout → issuance freeze → refi wall → forced selling | Macro calm; **bifurcation caveat** (lower-quality CCC/energy sit out the calm) | → HENRY, REGINALD, BROCK |
+| 2 | **Credit issuance / HY function** | OAS blowout → issuance freeze → refi wall → forced selling | **Access intact (zero pulled deals) but spreads re-activated 7/23** off a month-long flat range — and **quality-INDISCRIMINATE**, so the old "macro calm + bifurcation caveat" posture is retired: this is a repricing, not the CCC tail leading | → HENRY, REGINALD, BROCK |
 | 3 | **Dealer capacity** | Record inventory → no backstop → forced de-risk in a selloff | Long-end inventory at record (FR2004 *stock*); auction *flow* benign | → LIQUID, ZHAO |
 | 4 | **Long-end / real-rate (higher-for-longer)** *(label corrected v1.1.2 — was "term premium")* | Real POLICY-PATH repricing → duration repricing. The arm move (7/6→7/13) was a belly-led bear-flattener (30Y LAGGED) = higher-for-longer real Fed path, NOT a term-premium expansion. Term premium elevated in the LEVEL (ACM +0.73%) but flat over the move. | Elevated but not breaking; policy-path-led, oil-independent | → HENRY, LIQUID, NEXUS |
 | 5 | **Credit-leads-equity (Hamilton ~3mo lead)** | HY OAS widens → precedes equity drawdown | **Inactive** — moves are equity-vol-led, not credit-led | → HENRY, VIOLET |
@@ -43,9 +43,9 @@ BOND owns the **market-structure transmission layer** — how the bond market's 
 
 ---
 
-## ACTIVE EPISODE — long-end leg, phase III forming
+## ACTIVE EPISODE — long-end leg, phase III **established and sustained** *(was "forming"; it formed)*
 
-**Timeline:** 30Y >5.0 for ~9 sessions + 10Y >4.5 for 6 (5/14–5/27) → **BND-07 TRUE** → mean-reversion → real-rate-led re-fire into the June refunding → relaxed post-refunding → the 6/16–6/18 gate resolved AGAINST a re-arm (20Y STRONG, hawkish FOMC bear-*flattened*: front-end +15bp, 30Y flat — BND-09 FALSE) → mid-window rally to a 7-week 10Y low (4.38, 6/26–29) → **phase-III re-fire 6/30–7/1**: +11bp/2d to 30Y 4.97 in a globally-synchronized move (JOLTS beat + ISM prices + Warsh Sintra + JGB super-long rout + supply concession into 7/7–9). Each threshold firing has been an **episode, not a one-way break** [[threshold_vs_mechanism]] — that remains the operating assumption (BND-12 pre-registers it at 65% for July).
+**Timeline:** 30Y >5.0 for ~9 sessions + 10Y >4.5 for 6 (5/14–5/27) → **BND-07 TRUE** → mean-reversion → real-rate-led re-fire into the June refunding → relaxed post-refunding → the 6/16–6/18 gate resolved AGAINST a re-arm (20Y STRONG, hawkish FOMC bear-*flattened*: front-end +15bp, 30Y flat — BND-09 FALSE) → mid-window rally to a 7-week 10Y low (4.38, 6/26–29) → **phase-III re-fire 6/30–7/1**: +11bp/2d to 30Y 4.97 in a globally-synchronized move (JOLTS beat + ISM prices + Warsh Sintra + JGB super-long rout + supply concession into 7/7–9). → **July: the long end did NOT relax.** The 30Y went on to close above 5.00 for 8 consecutive sessions (7/7→7/16) and has now held above 5% for the longest stretch since 2007, while the 10Y sustained its arm line and the real leg made series highs. Each threshold firing has still been an **episode, not a one-way break** [[threshold_vs_mechanism]] — and that assumption survived its hardest test: **BND-12 resolved FALSE** (the threshold fired, the mechanism held). *(This sentence previously read "BND-12 pre-registers it at 65% for July" — a forward-looking claim about a prediction that has since resolved.)*
 
 **Read (rewritten v1.1.3 — the 7/01 version of this paragraph said the real-rate leg was NOT the driver; that is now falsified and inverted):** (1) the leg is **domestic and real-rate-led, not imported** — the real curve moves belly-led on its own, and the arm has now survived an **out-of-sample oil test** (a ~11% crude collapse moved breakevens only, leaving the real leg flat), so Japan/JGB co-firing is a *correlation amplifier*, not the driver; (2) the **demand microstructure is softer but has NOT broken** — cover has thinned at the belly (a pre-registered trigger fired) while indirect participation has held or risen at every tenor tested since 7/9 and dealers have not been stuffed once; (3) **dealer long-end stock sits at a record — but that vector is BLIND, not benign**: it is a *stock* measure and no FR2004 print has been pulled since the 6/17 as-of, so the ARMED trigger rests on a six-week-old observation and the downgrade condition has been unscoreable throughout. The genuine *break* still needs what it always needed: **a composition failure at a coupon auction** (indirect falling AND dealers absorbing) or a sustained threshold hold paired with funding stress. Warsh's active-MBS-sales supply leg stays deferred to a 2027 lane ("years, not months") — not a near-term amplifier.
 
@@ -59,17 +59,19 @@ BOND owns the **market-structure transmission layer** — how the bond market's 
 
 ## EXIT / FALSIFICATION
 
+> ⚠️ **RE-SPECIFIED 2026-07-28 (v1.1.3).** Every gate below was previously keyed on an **auction tail**. A tail requires the when-issued yield at the bid deadline and **TreasuryDirect does not publish it** — so those gates were **unscoreable from primaries by construction** and could never have fired on evidence. *(This is the same defect that made the HEN-42 joint falsifier pass by construction. The v1.1.3 header claimed this apparatus had been re-specified; on a full read it had not been — the header was corrected before the body. Fixed here.)* **All gates are now COMPOSITION-keyed and tail-free.**
+
 **1. Thesis kill (exit all duration shorts):**
-- A genuine auction **demand hole**: BTC <2.3 **and** tail >2bp **and** dealer take materially elevated **and** SOFR-IORB turns positive — mechanical failure, not term-premium digestion. (None firing; SOFR-IORB ~0.)
-- OR 10Y back below **4.15** sustained 3 sessions with clean auctions → term-premium thesis spent.
+- A genuine auction **demand hole** = **indirect <56.4% AND dealer >13.2%** (of competitive accepted — a *composition failure*) **AND** BTC <2.3 **AND** SOFR-IORB positive outside quarter-end. Mechanical failure, not repricing. **(Not firing: composition has not failed at any tenor since 7/9, and SOFR-IORB is negative — live → STATUS.)**
+- OR 10Y back below **4.15** sustained 3 sessions with clean auctions → the repricing thesis is spent.
 
 **2. Position-specific:**
-- **TLT puts:** kill if 10Y <4.15 AND 30Y <5.0 for 3 sessions AND a clean refunding. Re-arm conditional-add only on a fresh real tail (>1.5bp) + weak indirect (<60%) at a coupon auction.
+- **TLT puts:** kill if 10Y <4.15 AND 30Y <5.0 for 3 sessions AND a clean refunding. **Re-arm conditional-add only on a composition failure at a coupon auction — indirect <56.4% AND dealer >13.2%** *(was: "a fresh real tail >1.5bp + weak indirect <60%" — the tail leg was unscoreable and the 60% indirect leg was mis-calibrated, since 59.24% printed on 7/27 with demand plainly intact)*.
 - **HYG puts:** June leg expired; stay closed — reopen only on HY OAS reclaiming 300 with velocity.
 
 **3. Convergence downgrade (trim/de-escalate):**
-- Long-end vector → 2 when 10Y <4.5 AND 30Y <5.0 (✅ met 6/15).
-- Dealer absorption → 2 when next FR2004 shows long-end inventory off the highs.
+- Long-end vector → 2 when 10Y <4.5 **AND** 30Y <5.0. ⚠️ **NOT currently met** — the "✅ met 6/15" stamp that sat here read as though the condition were live; both legs have been decisively breached since. Live → STATUS.
+- Dealer absorption → 2 when the next FR2004 shows long-end inventory off the highs. ⚠️ **UNSCOREABLE — no FR2004 print pulled since the 6/17 as-of; 5 owed.** The vector is blind, so neither escalation nor de-escalation can be graded.
 
 **4. Time-based:**
 - Each coupon-auction cluster (refunding weeks + 20Y/TIPS) is a mandatory re-grade of auction-health + long-end vectors.
@@ -85,8 +87,9 @@ BOND owns the **market-structure transmission layer** — how the bond market's 
 |---|---|---|
 | HY OAS | >350 / >500 | Issuance freeze / forced selling |
 | HY OAS | >300 ×3 sess | Credit watch reopens |
-| 5Y BTC | <2.3x | Demand hole — mechanism stressed (NB: secular BTC decline ~3.0→2.5 per GAO; 2.3x sits just under the new norm) |
-| Auction tail | >2bp + dealer spike | End-demand weakness |
+| 5Y BTC | <2.3x | **Cover marker — NOT by itself a demand hole.** *(Empirically corrected 7/28: this line used to read "demand hole — mechanism stressed." The 7/27 5Y printed **2.28 and the mechanism did not fail** — indirect rose with duration, dealers were not stuffed. A cover breach escalates the vector; only a composition failure kills the thesis.)* NB: secular BTC decline ~3.0→2.5 per GAO, so 2.3x sits just under the new norm. |
+| **Auction composition** | **indirect <56.4% AND dealer >13.2%** (of competitive accepted) | **End-demand weakness — THE demand-hole test.** Benchmarked to trailing-12 per tenor; re-derive the cut-offs per tenor, don't reuse the 7Y numbers blindly. |
+| ~~Auction tail~~ | ~~>2bp + dealer spike~~ | ❌ **RETIRED 7/28 — UNSCOREABLE.** No when-issued published by TreasuryDirect; a tail cannot be graded from primaries. Wire-reported tails are `[med-conf]`, recordable in notes, and **may never fire a gate.** |
 | DFII10 (10Y real) | >2.5% sustained | Real-yield stress regime |
 | T5YIFR (5Y5Y fwd) | >2.5% sustained | Inflation expectations unanchored |
 | 10Y / 30Y | >4.5 / >5.0 held 5 sess + weak auction | Escalate long-end to 4 |
@@ -99,7 +102,7 @@ BOND owns the **market-structure transmission layer** — how the bond market's 
 
 | Position | Posture | Why |
 |---|---|---|
-| **TLT puts** | **HOLD, no add** | June conditional-add gates lapsed **unfired** — auctions cleared, yields eased; adding here chases a relaxing move. TLT puts remain the cleaner vehicle than equity puts if the long end re-engages [[feedback_put_vs_duration_expression]]. |
+| **TLT puts** | **HOLD, no add** | *(Rationale rewritten v1.1.3 — it read "yields eased; adding here chases a relaxing move," which describes June and is the opposite of the current tape.)* The arm has **deepened**, not relaxed: the 10Y has held its line 12+ sessions, the 30Y is in its longest run above 5% since 2007, and the real leg is at a series high. **The reason not to add is not that the move faded — it's that no pre-registered add-gate has fired**, and the nearest (DFII10 >2.5) is single-digit bp away. Adding ahead of a fired gate is the discipline this book exists to enforce. TLT puts remain the cleaner vehicle than equity puts for a duration short [[feedback_put_vs_duration_expression]]. |
 | **HYG puts** | Closed (June leg expired) | Credit transmission still absent at the *level*, but the "inert" premise is retired (v1.1.3): HY has re-activated off a month-long flat range, **quality-indiscriminately** — a repricing, not a credit-led move, and market access is unimpaired (zero pulled deals). Reopen the thesis only on **HY OAS >300 with velocity**. Live levels → STATUS. |
 | **Credit-equity lead** | Inactive watch | Reactivate on HY OAS +75–100bp from trough while VIX <20. |
 
@@ -107,7 +110,7 @@ BOND owns the **market-structure transmission layer** — how the bond market's 
 
 ## PREDICTION SCOREBOARD (full set in `thesis/PREDICTIONS.tsv`)
 
-BND-02 FAILED (issuance BOOM, not freeze) · BND-03 FAILED · BND-04 FALSE (CLO AAA never through SOFR+160; MM near-miss S+158) · BND-05 FAILED · BND-06 TRUE (HY <300 through May) · BND-07 TRUE (threshold fired; episode not break) · BND-08 FALSE · BND-09 FALSE (6/16 20Y STRONG) · **BND-10 VOID** (kinetic Iran events 6/25–27 met the pre-registered void clause; substantively, neither yield leg breached — recorded, not scored). Working model — *cash credit decoupled from the duration move; auctions clear at price* — has held **seven straight** benign auction tests (BND-05/08/09 + 6/16 20Y + 6/18 TIPS + 6/23–25 cluster + **BND-11 7/9 refunding NOT FIRED**). · **BND-11 TRUE** (7/9 refunding cleared without a hard marker; indirect surged 77.7%). · **BND-12 FALSE** (resolved 7/18: 30Y closed >5.00 for 8 consecutive sessions 7/7→7/16 — threshold FIRED, but mechanism intact [BND-11 benign] = "expensive intensified, still not broken" per [[threshold_vs_mechanism]]; the sustained 30Y level = elevated term-premium LEVEL [ACM +0.73], while the arm MOVE was policy-path — consistent w/ the v1.1.2 relabel). **OPEN: BND-01** only (HY 350 by end-July) — **will resolve FAILED at the 7/31 close**; the gap is ~70bp and the current widening is nowhere near that pace. Live level → STATUS.
+BND-02 FAILED (issuance BOOM, not freeze) · BND-03 FAILED · BND-04 FALSE (CLO AAA never through SOFR+160; MM near-miss S+158) · BND-05 FAILED · BND-06 TRUE (HY <300 through May) · BND-07 TRUE (threshold fired; episode not break) · BND-08 FALSE · BND-09 FALSE (6/16 20Y STRONG) · **BND-10 VOID** (kinetic Iran events 6/25–27 met the pre-registered void clause; substantively, neither yield leg breached — recorded, not scored). Working model — *auctions clear at price; composition holds* — has now held **eleven straight** benign tests (BND-05/08/09 + 6/16 20Y + 6/18 TIPS + 6/23–25 cluster + **BND-11 7/9 refunding NOT FIRED** + 7/22 20Y-R + 7/22 40Y JGB + 7/23 10Y TIPS + 7/27 2Y + 7/27 5Y). *(Count was stuck at "seven straight" and undercounted the entire 7/22–7/27 run — corrected 7/28.)* ⚠️ **The 7/27 5Y is the one that earns an asterisk, not a discount:** it broke a pre-registered cover threshold (BTC 2.28) while its composition held, which is exactly the distinction the working model asserts — the model's *first real test*, passed. The other half of the model — *cash credit decoupled from the duration move* — is **no longer clean**: credit re-activated 7/23 and now moves with the broad repricing. · **BND-11 TRUE** (7/9 refunding cleared without a hard marker; indirect surged 77.7%). · **BND-12 FALSE** (resolved 7/18: 30Y closed >5.00 for 8 consecutive sessions 7/7→7/16 — threshold FIRED, but mechanism intact [BND-11 benign] = "expensive intensified, still not broken" per [[threshold_vs_mechanism]]; the sustained 30Y level = elevated term-premium LEVEL [ACM +0.73], while the arm MOVE was policy-path — consistent w/ the v1.1.2 relabel). **OPEN: BND-01** only (HY 350 by end-July) — **will resolve FAILED at the 7/31 close**; the gap is ~70bp and the current widening is nowhere near that pace. Live level → STATUS.
 
 ---
 
