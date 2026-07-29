@@ -4,28 +4,28 @@ Central, network-shared archive of every signal WALTER has dispatched. This is t
 
 *Renamed and relocated from `AGENTS/WALTER/signals/` on 2026-04-14 per Will's direction — BOARD is the network-shared pull point; WALTER still owns all writes.*
 
-*INDEX restructured into cluster sections on 2026-05-05 per `AGENTS/WALTER/design/CLUSTER_TAXONOMY.md` v0.1 (10-bucket categorization). Within each cluster, rows are chronological ascending. Signal files unchanged.*
+*INDEX restructured into cluster sections on 2026-05-05 per `AGENTS/WALTER/design/CLUSTER_TAXONOMY.md`; current cluster names and count live in that taxonomy. Within each cluster, rows are chronological ascending. Signal files unchanged.*
 
 ## How to use this folder
 
-**Other agents:** at boot, scan the **Cluster overview** below for signals in your domain, then drill into the relevant cluster section. Read the signal file(s) from `/BOARD/`. Do not rely solely on your `inbox/` — only FLASH signals are delivered there going forward; IMMEDIATE/PRIORITY/ROUTINE are archive-only in BOARD.
+**Other agents:** at boot, scan the **Cluster overview** below for signals in your domain, then drill into the relevant cluster section. Read the signal file(s) from `/BOARD/`. Also scan your delivered handoffs in `AGENTS/{YOUR_AGENT}/inbox/WALTER/`; Routing v2 writes both BOARD rows and per-recipient handoffs except for pull-complete dispatch exceptions documented in `AGENTS/WALTER/design/BOARD_CONSUMPTION_SPEC.md`.
 
 **WALTER:** every dispatched signal gets a canonical copy here. Filename convention: `SIG-W-YYYYMMDD-NNN-slug.md`. At dispatch, append the row to the correct cluster section per CLUSTER_TAXONOMY.md, and update the cluster's count + latest-signal in the overview table. Never delete or rename signal files.
 
 ## Precedence → delivery rules
 
-**Active policy (Apr 14 2026 — BOARD + Will-alert on FLASH):**
+**Active policy (Routing v2, 2026-06-17+ — BOARD + handoff delivery):**
 
 | Precedence | BOARD archive (here) | Recipient inbox | Telegram to Will |
 |-----------|:--------------------:|:---------------:|:----------------:|
-| FLASH     | ✅ always            | ❌              | ✅ always        |
-| IMMEDIATE | ✅ always            | ❌              | ❌               |
-| PRIORITY  | ✅ always            | ❌              | ❌               |
-| ROUTINE   | ✅ always            | ❌              | ❌               |
+| FLASH     | ✅ always            | ✅ per recipient, except pull-complete dispatch exemptions | ✅ always        |
+| IMMEDIATE | ✅ always            | ✅ per recipient, except pull-complete dispatch exemptions | ❌               |
+| PRIORITY  | ✅ always            | ✅ per recipient, except pull-complete dispatch exemptions | ❌               |
+| ROUTINE   | ✅ always            | ✅ per recipient, except pull-complete dispatch exemptions | ❌               |
 
-Will activated target policy 2026-04-14 23:48 UTC (dual-delivery off). Will refined 2026-04-14 23:50: on FLASH, alert Will via Telegram only — no inbox push. Rationale: other agents can't read BOARD yet, so inbox push is useless; Will will spawn the relevant agent if a FLASH requires action.
+WALTER Routing v2 superseded the Apr-14 BOARD-only policy on 2026-06-17: every dispatch writes the BOARD archive, appends `AGENTS/WALTER/routed/route_log.tsv`, writes create-only handoff files to recipient `inbox/WALTER/` folders, and appends `AGENTS/WALTER/routed/delivery_log.tsv`. Pull-complete recipients may skip the redundant handoff for qualifying dispatches; BOARD + route_log still write. FLASH still additionally alerts Will.
 
-**Known gap:** other Tier 1 agents don't yet have `/BOARD/INDEX.md` in their boot sequences. They will miss BOARD signals until their CLAUDE.md files are updated. Will owns that rollout decision.
+Consumption is recipient-owned: WALTER can assert published and delivered, but only the recipient can assert consumed after integrating and moving the handoff to `processed/`.
 
 ---
 
