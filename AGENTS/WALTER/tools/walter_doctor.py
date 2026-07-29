@@ -58,6 +58,7 @@ sys.path.insert(0, str(HERE))
 
 HIGH, MED, LOW, INFO = "HIGH", "MED", "LOW", "INFO"
 TODAY = dt.date.today()
+SIG_ID_RE = re.compile(r"^SIG-W-\d{8}-\d{3}$")
 
 # Single-machine (desktop CC) since 2026-06-26 — OpenClaw/VPS cut. Every agent
 # runs as a Claude Code session on the one shared repo, so a delivered handoff =
@@ -773,20 +774,31 @@ def check_log_reconcile():
         if m:
             board_ids.add(m.group(1))
 
-    def log_ids(relpath):
+    def log_ids(relpath, field):
         p = WALTER / relpath
         if not p.exists():
             return None
         ids = set()
-        for line in p.read_text(errors="replace").splitlines()[1:]:
-            m = re.search(r"SIG-W-\d{8}-\d{3}", line)
-            if m:
-                ids.add(m.group(0))
-        return ids
+        malformed = []
+        try:
+            with p.open(errors="replace") as f:
+                for n, row in enumerate(csv.DictReader(f, delimiter="\t"), start=2):
+                    sig = (row.get(field) or "").strip()
+                    if SIG_ID_RE.fullmatch(sig):
+                        ids.add(sig)
+                    else:
+                        malformed.append(f"L{n}:{sig or '<blank>'}")
+        except (OSError, csv.Error) as e:
+            return ids, [f"unreadable: {e}"]
+        return ids, malformed
 
     out = []
-    route = log_ids("routed/route_log.tsv")
+    route = log_ids("routed/route_log.tsv", "Signal_ID")
     if route is not None:
+        route, route_bad = route
+        if route_bad:
+            out.append((MED, f"route_log: malformed Signal_ID field(s): "
+                            f"{', '.join(route_bad[:6])}{'…' if len(route_bad) > 6 else ''}"))
         orphan = sorted(route - board_ids)
         missing = sorted(board_ids - route)
         if orphan:
@@ -795,15 +807,19 @@ def check_log_reconcile():
         if missing:
             out.append((MED, f"{len(missing)} BOARD file(s) never in route_log "
                             f"({', '.join(missing[:4])}{'…' if len(missing) > 4 else ''})"))
-        if not orphan and not missing:
+        if not orphan and not missing and not route_bad:
             out.append((INFO, f"route_log reconciles with BOARD ({len(board_ids)} signals)"))
-    deliv = log_ids("routed/delivery_log.tsv")
+    deliv = log_ids("routed/delivery_log.tsv", "signal_id")
     if deliv is not None:
+        deliv, deliv_bad = deliv
+        if deliv_bad:
+            out.append((MED, f"delivery_log: malformed signal_id field(s): "
+                            f"{', '.join(deliv_bad[:6])}{'…' if len(deliv_bad) > 6 else ''}"))
         d_orphan = sorted(deliv - board_ids)
         if d_orphan:
             out.append((MED, f"delivery_log: {len(d_orphan)} delivered SIG-id(s) with NO "
                             f"BOARD file ({', '.join(d_orphan[:4])})"))
-        else:
+        elif not deliv_bad:
             out.append((INFO, f"delivery_log: all {len(deliv)} delivered SIG-ids have a "
                             f"BOARD file (post-6/17 coverage)"))
     return out
