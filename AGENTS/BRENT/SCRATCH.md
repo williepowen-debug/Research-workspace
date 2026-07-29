@@ -4,10 +4,16 @@
 
 ---
 
-## ⏳ FIRST THING NEXT SESSION — TWO UNGRADED ITEMS WITH CLOCKS
+## ⏳ FIRST THING NEXT SESSION
 
-1. **🔴 EIA WPSR wk-7/24 PRINTED AT 10:30 ET 7/29 AND I CLOSED OUT AT 09:55, 35 MINUTES BEFORE IT.** The pre-registration is FROZEN at `setups/2026-07-29_EIA-wk0724-prereg.md` (written 09:30, before the data). **Its ADDENDUM IS EMPTY. Grade it append-only — never by editing the pre-reg.** Read **DISTILLATE first** (base 109.6M after a +1.40M build), then **UTILISATION** (the pre-registered splitter: ≥95% kills the run-cut explanation for the crude build), then the Cushing sign. **Pre-committed: Boundary #3 does not move on any plausible print; gasoline demand is NOT graded (LESSONS #9 / BRT-29).**
-2. **🟠 FOMC landed the afternoon of 7/29** — unread at close. Oil-shock framing into a cool June CPI; the shock is MUDDLED (July carries the spike, August the crash).
+1. **🟠 RE-CONFIRM wk-7/24 AT THE EIA PRIMARY.** The print was **GRADED 7/29 12:55** (addendum appended to `setups/2026-07-29_EIA-wk0724-prereg.md`) — **but off PRESS RELAYS, because the EIA v2 API still returned wk-7/17 as its latest at 12:53.** A parallel BRENT data commit (`20ae2da3e`) tagged OilPrice/Investing.com figures `[CONF]`; **a wire relaying an EIA release is not the EIA primary.** Re-pull crude / Cushing / distillate and above all **UTILISATION — which is currently carried as `~96% [EST], "unchanged assumption"`, i.e. NOT A PRINT.**
+2. **🟠 FOMC landed the afternoon of 7/29** — unread at close.
+3. **🔴 Fri Jul 31 — COT as-of 7/28 + Baker Hughes.** The first COT that sees BOTH the $100.69 high and the −18.1% crash. Ladder from 123,490. Run closeout step **7a**; raw `f_disagg.txt`, not Socrata alone.
+
+**📌 THE PRINT, GRADED — and my pre-registration's central premise was FALSE.** **There was no build: crude DREW −7.2M to 404.5M** (API had said +3.296M — a ~10.5M miss in the wrong direction). Section (B) — the four-explanation table, the utilisation splitter — was built to explain a build that never happened. **I pre-registered a discriminator downstream of an unverified single-relay premise.** *A pre-registration inherits the reliability of its premise, and mine wore the authority of a frozen document.* And the splitter was unusable regardless, because util is an EST not a print — the framespec rule I wrote into my own boot protocol **one day earlier.**
+**What HELD, on its own terms:** Boundary #3 unchanged (Cushing −273K → 19.10M) ✅ · the **coin-flip trap** — Geiger's sign was right and **Geiger is NOT upgraded** ✅ · the **diesel falsifier did NOT fire** (distillate CONFLICTING +1.1M vs −125K; even the bearish read is <+2.0M) ✅ · **gasoline demand NOT graded** (+0.7% YoY; BRT-29 untouched) ✅ · SPR 307.7M exact ✅.
+**🔻 AND IT CUT AGAINST MY OWN MORNING CALL:** I flagged the gasoline-crack collapse (−$10.89) as a demand tell escaping the LESSONS #9 mask. **Product supplied is +0.7% YoY — POSITIVE**; total −2.3% is driven by "all other products," **not gasoline.** Different vintages (crack 7/29 vs survey week ending 7/24) so not a refutation — **but not confirmation either. DOWNGRADED to "an unconfirmed margin signal awaiting an overlapping volume print"** (wk-7/31, ~8/5).
+**Thesis read (relay-vintage, held loosely):** −7.2M at ~96% runs is physical **TIGHTENING** — crude ~7% below the 5-yr avg, widened from 6%, ~54M cumulative draw over 15 weeks. **Symmetry I committed to: a draw ALONE confirms the premium thesis no more than a build would have weakened it.** No thresholds moved, no position action.
 
 ---
 
