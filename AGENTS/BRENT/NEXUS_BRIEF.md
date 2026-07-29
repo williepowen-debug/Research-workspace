@@ -58,7 +58,7 @@
 
 ## NEXT DECISION POINT
 
-- **What:** the convex arm (USO call spread, deploy-on-trigger) — **ARMED-and-HOT, NO capital**. Branch-2 tail-rider = **DECIDED, PIVOTED to the 150/165 call spread 7/23 (pending fill)**; off-ramp playbook = **RATIFIED**. Remaining live decision = main-arm deploy, gate-driven.
+- **What:** the convex arm (USO call spread, deploy-on-trigger) — **ARMED-and-HOT, NO capital**. Branch-2 tail-rider = **DECIDED and ✅ FILLED 7/24 at ~$300 net debit** (USO Sep-18 150/165 call debit spread; BE USO ~$153 ≈ Brent ~$110; defined risk, already paid — HOLD, no action). *(This line said "pending fill" through 7/28 — NEXUS reads this brief in place of my STATUS, so a live filled position was being reported to a consuming agent as un-filled. Corrected 7/28.)* Off-ramp playbook = **RATIFIED**. Remaining live decision = main-arm deploy, gate-driven.
 - **When / rule:** deploy on the **cooldown gate** (OVX/VIX ratio <2.89 AND OVX <44.2) coinciding with a stabilized pullback — Branch-1 conviction MODERATE. At OVX 70.27 (cycle high) the gate is further from met than ever. GS long-diesel = a third expression option on record (Will/TERRY).
 - **Why:** premium regimes round-trip fast — chasing $100 at OVX 70 buys the tail after it repriced AND holds full vol-crush risk on any off-ramp headline. The gate discipline has been right four sessions running.
 

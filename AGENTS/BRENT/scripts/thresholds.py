@@ -4,7 +4,11 @@ BRENT Threshold Monitor
 Pulls live oil/energy market prices (yfinance) and economic data (FRED) and
 compares against BRENT's two-phase oil thesis thresholds.
 
-Thresholds sourced from BRENT VX.tsv, STATUS.md, CLAUDE.md.
+CANONICAL THRESHOLD REGISTRY = `thesis/THESIS.md` § KEY THRESHOLDS. THESIS WINS on any
+disagreement with the tables below — they are a RESTATEMENT, and a restatement rots.
+(The old header credited `workbook/VX.tsv`, which has been FROZEN since 2026-06-14; that
+mis-citation is how two retired v4 Brent rows survived to 7/28. Corrected 2026-07-28.)
+Re-verify these against THESIS whenever the thesis version bumps.
 
 Color key:
   BREACHED  = threshold crossed
@@ -65,8 +69,20 @@ MARKET_THRESHOLDS = [
     ("BZ=F",  "above", 140.0, "stress",  "Brent >$140 — extreme dislocation (ATH intraweek)"),
     ("BZ=F",  "above", 120.0, "risk",    "Brent >$120 — demand destruction accelerates, Phase 2 approaches"),
     ("BZ=F",  "above", 100.0, "thesis",  "Brent >$100 — HAWK Scenario C confirmed, Phase 1 active"),
-    ("BZ=F",  "below",  85.0, "risk",    "Brent <$85 — squeeze weakening, paper market front-running peace"),
-    ("BZ=F",  "below",  75.0, "risk",    "Brent <$75 — THESIS BREAK, squeeze failed"),
+    # ⚠️ v4→v5.1 CORRECTION (2026-07-28). These two rows carried RETIRED v4 framing and
+    # would have alerted in the WRONG DIRECTION — a guard worse than no guard.
+    #   - "<$85 = squeeze weakening / front-running peace" was the dead Phase-2-SHORT frame.
+    #     THESIS v5.1 grades $85×3 settles as FIRED = sustained PREMIUM (bullish). A lapse
+    #     back below $85 retires that condition; it is not evidence the squeeze is failing.
+    #   - "<$75 = THESIS BREAK" was retired at v4→v5: sub-$75 is STRUCTURAL DECOUPLING
+    #     (price detached from still-deficit physical) and is thesis-CONFIRMING.
+    #     The real downside break is <$70 AND confirmed demand collapse (THESIS v5.1 registry).
+    # Canonical registry = thesis/THESIS.md KEY THRESHOLDS. THESIS WINS on any disagreement.
+    # TODO (structural, DAEDALUS 7/28 W-class): scripts should READ that registry, not restate
+    # it. This is instance n=2 fleet-wide of the registry-restatement class.
+    ("BZ=F",  "below",  85.0, "thesis",  "Brent <$85 — $85×3 sustained-premium condition LAPSED (not a break; see THESIS v5.1)"),
+    ("BZ=F",  "below",  75.0, "thesis",  "Brent <$75 — STRUCTURAL DECOUPLING, thesis-CONFIRMING (NOT a break — '<$75 = break' RETIRED v4→v5)"),
+    ("BZ=F",  "below",  70.0, "risk",    "Brent <$70 — approaching the REAL downside break (fires only WITH confirmed demand collapse)"),
     # ── WTI futures (CL=F)
     ("CL=F",  "above", 100.0, "thesis",  "WTI >$100 — Phase 1 broad"),
     ("CL=F",  "below",  70.0, "risk",    "WTI <$70 — US decoupling stress"),
@@ -105,7 +121,17 @@ FRED_THRESHOLDS = [
     # Dated Brent (physical)
     ("DCOILBRENTEU", "Dated Brent",        "above", 140.0, "stress",  "Dated Brent >$140 — extreme (ATH $144)"),
     ("DCOILBRENTEU", "Dated Brent",        "above", 120.0, "stress",  "Dated Brent >$120 — physical scarcity confirmed"),
-    ("DCOILBRENTEU", "Dated Brent",        "below", 100.0, "risk",    "Dated Brent <$100 — physical squeeze resolving"),
+    # ⚠️ v5.1 CORRECTION (2026-07-28) — third instance of the registry-restatement class, and
+    # the only one that was FIRING. This row read: below $100 = "risk" / "physical squeeze
+    # resolving". Two defects:
+    #   (1) It infers PHYSICAL tightness from FLAT PRICE — the exact inversion of v5.1's
+    #       central finding. Crude fell −15.6% off the 7/23 high with ZERO barrels returned,
+    #       Hormuz at 8% of pre-war and war-risk at cycle highs. Flat price is NOT the clean
+    #       instrument for physical tightness; CRACKS/DIESEL and transits are.
+    #   (2) Dated Brent has been under $100 nearly always, so it fired every boot = alert
+    #       fatigue, no signal. Below $100 is the BASELINE, not a breach.
+    # Kept as thesis-class context in the CORRECT direction only; no physical claim asserted.
+    ("DCOILBRENTEU", "Dated Brent",        "above", 100.0, "thesis",  "Dated Brent >$100 — KEY THRESHOLD #1 / Scenario-C confirmation (premium, not proof of barrels lost)"),
     # WTI spot
     ("DCOILWTICO",   "WTI Spot",           "above", 100.0, "thesis",  "WTI >$100 — broad Phase 1"),
     # HY OAS — primary stress indicator (broad HY as energy proxy; no free energy-only series)
