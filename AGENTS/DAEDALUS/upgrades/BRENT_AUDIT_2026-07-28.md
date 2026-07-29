@@ -78,3 +78,15 @@ CLAUDE.md:63 defines `outbox/delivered/` ("marked delivered manually — HERMES 
 - Blueprint queue: THRESHOLDS.tsv registry item now n=2 (REGINALD + BRENT thresholds.py).
 
 *Reader evidence preserved verbatim in this doc's source tasks; readers were read-only, delivered-before-idle.*
+
+---
+
+## Addendum — same-night uptake (verified in-file 7/28 ~22:00, commit `a9b241f49`)
+
+BRENT consumed the packet 21:46 (one minute after its inbox drain) and landed the critical fixes same-session. **DAEDALUS verified each at the target artifact:**
+
+1. **S1 FIXED + severity UPGRADED from latent to FIRED-LIVE:** thresholds.py repointed to `THESIS § KEY THRESHOLDS` canonical-wins (header names the frozen-VX defect); retired lines re-classified w/ failure documented in place. BRENT demonstrated the danger was NOT latent — Brent opened **$84.95** (session low, below the $85 line): a morning boot would have printed "squeeze weakening, front-running peace" the day the pause broke. **And BRENT found a THIRD defect my spot-check missed** — `<$100 = "physical squeeze resolving"` — wrong twice (infers physical tightness from flat price = inversion of the v5.1 central finding; unconditionally true so it fired EVERY boot = alert fatigue). **Own miss owned → PAT-070**: audit an alert surface by evaluating it against the live tape, not by diffing constants; the firing set is the evidence.
+2. **S5 FIXED in all three homes** (TRADE:3 header, TRADE:120 narrative, NEXUS_BRIEF:61) with in-place failure notes — BRENT's own framing is exactly right: "a declared-fixed defect that is only partly fixed is worse than an open one, because the declaration is what stops anyone looking." Bonus: TRADE header now carries the **PAT-044 two-clock header** (W4 recommendation, adopted unprompted).
+3. **Still owed (BRENT's own list, matches mine):** cot_grade wiring (Fri clock) · outbox delivered/-step · STATUS:24 vestigial stamp · matrix sweep · NEXUS_BRIEF body re-vintage — all closeout-shaped; the re-cut L5 condition grades on exactly such a closeout.
+
+Fastest packet→fix cycle on record for a domain agent (~15 min from delivery to verified commit), with source-verification of my claims before accepting them — correct counterparty rigor both directions.
