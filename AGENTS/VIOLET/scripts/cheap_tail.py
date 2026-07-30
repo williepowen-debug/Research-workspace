@@ -42,7 +42,9 @@ Vehicle discipline on OPEN: prefer rates-vol/TLT convexity (no VIX-futures
 roll-down) or VIX call SPREADS (cap the contango bleed) over outright VIX calls.
 Route PROME -> TERRY (construction) -> Will [Approve]. Never auto-executed.
 
-Appends one row per date to workbook/CHEAP_TAIL.tsv (idempotent per day).
+UPSERTS one row per date into workbook/CHEAP_TAIL.tsv: a re-run for the same
+date UPDATES that row (state changes are reported loudly) rather than skipping it.
+Was first-write-wins, which froze the day at its earliest read — KB-VIO-160.
 
 Usage:
   .venv/bin/python3 AGENTS/VIOLET/scripts/cheap_tail.py            # full report
@@ -62,6 +64,9 @@ SCRIPT_DIR = Path(__file__).resolve().parent
 VIOLET_DIR = SCRIPT_DIR.parent
 DAILY_LOG = VIOLET_DIR / "workbook" / "CHEAP_TAIL.tsv"
 CATALYSTS = VIOLET_DIR / "workbook" / "CATALYSTS.tsv"
+
+sys.path.insert(0, str(SCRIPT_DIR))
+from _daily_log import upsert_row, describe  # noqa: E402
 
 # Default lines (tunable via CLI). Absolute levels — interpretable and the ones
 # the operator reasons in; percentiles are shown alongside for context.
@@ -181,20 +186,19 @@ VEHICLE_MENU = [
 ]
 
 
-def append_log(d: dict, cat_days, cat_event, met: int, state: str, note: str) -> str:
-    DAILY_LOG.parent.mkdir(parents=True, exist_ok=True)
-    if not DAILY_LOG.exists():
-        DAILY_LOG.write_text("\t".join(TSV_COLS) + "\n", encoding="utf-8")
-    existing = DAILY_LOG.read_text(encoding="utf-8").splitlines()
-    if any(line.startswith(d["asof"] + "\t") for line in existing[1:]):
-        return f"already has a row for {d['asof']}"
+def append_log(d: dict, cat_days, cat_event, met: int, state: str, note: str,
+               supersede: bool = True) -> str:
+    """UPSERT today's row (KB-VIO-160) — see scripts/_daily_log.py.
+
+    Was first-write-wins: legs met/lost intraday (SKEW crossing 140, VVIX
+    crossing 90) could never update the day's row once boot had written it.
+    """
     row = [d["asof"], d["vix"], d["vvix"], d["skew"], d["vix_pctile"],
            d["vvix_pctile"], d["skew_pctile"],
            cat_days if cat_days is not None else "-", cat_event, f"{met}/4",
            state, note or "-", datetime.now(timezone.utc).isoformat(timespec="seconds")]
-    with DAILY_LOG.open("a", encoding="utf-8") as f:
-        f.write("\t".join(str(x) for x in row) + "\n")
-    return f"✓ appended {d['asof']} row to workbook/CHEAP_TAIL.tsv"
+    status, changes = upsert_row(DAILY_LOG, TSV_COLS, row, supersede=supersede)
+    return describe(status, d["asof"], changes, "CHEAP_TAIL.tsv")
 
 
 def backtest(d: dict, vvix_cheap: float, vix_low: float, skew_elev: float) -> list[str]:
@@ -234,6 +238,8 @@ def main() -> int:
     ap.add_argument("--json", action="store_true")
     ap.add_argument("--backtest", action="store_true", help="historical fire-rate of the market legs")
     ap.add_argument("--no-log", action="store_true", help="skip the TSV append")
+    ap.add_argument("--no-supersede", action="store_true",
+                    help="do not update an existing row for today; report the divergence instead")
     ap.add_argument("--vvix", type=float, default=VVIX_CHEAP)
     ap.add_argument("--vix", type=float, default=VIX_LOW)
     ap.add_argument("--skew", type=float, default=SKEW_ELEV)
@@ -251,7 +257,7 @@ def main() -> int:
         d, cat_days, cat_event, args.vvix, args.vix, args.skew, args.window)
     note = ("window open" if state == "OPEN"
             else f"missing: {', '.join(missing)}" if missing else "-")
-    log_note = "" if args.no_log else append_log(d, cat_days, cat_event, met, state, note)
+    log_note = "" if args.no_log else append_log(d, cat_days, cat_event, met, state, note, supersede=not args.no_supersede)
 
     if args.json:
         d.pop("_df", None)

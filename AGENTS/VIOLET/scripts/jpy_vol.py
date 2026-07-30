@@ -27,7 +27,9 @@ any bar dated after "today in ET" is dropped as partial. A bar dated today is
 kept (intraday-so-far, like every live level pull). Chain quotes are only
 trustworthy intraday — off-RTH runs stamp a STALE caveat on the IV leg.
 
-Appends one row per date to workbook/JPY_VOL.tsv (idempotent per day).
+UPSERTS one row per date into workbook/JPY_VOL.tsv: a re-run for the same
+date UPDATES that row (state changes are reported loudly) rather than skipping it.
+Was first-write-wins, which froze the day at its earliest read — KB-VIO-160.
 
 Usage:
   .venv/bin/python3 AGENTS/VIOLET/scripts/jpy_vol.py           # full report
@@ -49,6 +51,9 @@ ET = ZoneInfo("America/New_York")
 SCRIPT_DIR = Path(__file__).resolve().parent
 VIOLET_DIR = SCRIPT_DIR.parent
 DAILY_LOG = VIOLET_DIR / "workbook" / "JPY_VOL.tsv"
+
+sys.path.insert(0, str(SCRIPT_DIR))
+from _daily_log import upsert_row, describe  # noqa: E402
 
 HISTORY = "3y"          # percentile window (self-updating; re-derive, don't pin)
 RV_WINDOWS = (10, 20)   # rolling realized-vol windows (trading days)
@@ -185,21 +190,20 @@ def classify(rv: dict, iv: dict) -> tuple[str, list[str]]:
     return state, lines
 
 
-def append_log(rv: dict, iv: dict, state: str) -> str:
-    DAILY_LOG.parent.mkdir(parents=True, exist_ok=True)
-    if not DAILY_LOG.exists():
-        DAILY_LOG.write_text("\t".join(TSV_COLS) + "\n", encoding="utf-8")
-    existing = DAILY_LOG.read_text(encoding="utf-8").splitlines()
-    if any(line.startswith(rv["asof"] + "\t") for line in existing[1:]):
-        return f"already has a row for {rv['asof']}"
+def append_log(rv: dict, iv: dict, state: str, supersede: bool = True) -> str:
+    """UPSERT today's row (KB-VIO-160) — see scripts/_daily_log.py.
+
+    Was first-write-wins, which froze the day at its earliest read: on 2026-07-30
+    a 09:08 ET boot logged CALM and the 09:30 ET intervention (USD/JPY -5.8 yen,
+    RV10 4.81 -> 15.67, state FIRE) could never reach the ledger.
+    """
     row = [rv["asof"], rv["jpy_close"], rv["rv10"], rv["rv20"], rv["rv10_pctile"],
            rv["ladder"]["p90"], rv["ladder"]["p95"], iv.get("fxy_spot"),
            iv.get("expiry"), iv.get("atm_call_iv"), iv.get("iv_rv10"),
            state, iv.get("note") or "-",
            datetime.now(timezone.utc).isoformat(timespec="seconds")]
-    with DAILY_LOG.open("a", encoding="utf-8") as f:
-        f.write("\t".join(str(x) if x is not None else "-" for x in row) + "\n")
-    return f"✓ appended {rv['asof']} row to workbook/JPY_VOL.tsv"
+    status, changes = upsert_row(DAILY_LOG, TSV_COLS, row, supersede=supersede)
+    return describe(status, rv["asof"], changes, "JPY_VOL.tsv")
 
 
 def main() -> int:
@@ -207,6 +211,8 @@ def main() -> int:
     ap.add_argument("--boot", action="store_true", help="collapsed boot output")
     ap.add_argument("--json", action="store_true")
     ap.add_argument("--no-log", action="store_true", help="skip the TSV append")
+    ap.add_argument("--no-supersede", action="store_true",
+                    help="do not update an existing row for today; report the divergence instead")
     args = ap.parse_args()
 
     try:
@@ -216,7 +222,7 @@ def main() -> int:
         return 1
     iv = pull_fxy_iv(rv["rv10"])
     state, verdict_lines = classify(rv, iv)
-    log_note = "" if args.no_log else append_log(rv, iv, state)
+    log_note = "" if args.no_log else append_log(rv, iv, state, supersede=not args.no_supersede)
 
     if args.json:
         print(json.dumps({"rv": rv, "iv": iv, "state": state, "log": log_note}, indent=2))

@@ -28,7 +28,9 @@ The ratio discriminates oil-LED (Abqaiq / II-2025) from broad co-moves (Ukraine)
 Route on fire: this is a CONTEXT canary, not an action-gate — → BRENT/HAWK
 reference + NEXUS_BRIEF cross-domain line (VIOLET owns only the transmission read).
 
-Appends one row per date to workbook/OVX.tsv (idempotent per day).
+UPSERTS one row per date into workbook/OVX.tsv: a re-run for the same
+date UPDATES that row (state changes are reported loudly) rather than skipping it.
+Was first-write-wins, which froze the day at its earliest read — KB-VIO-160.
 
 Usage:
   .venv/bin/python3 AGENTS/VIOLET/scripts/ovx.py           # full report
@@ -46,6 +48,9 @@ from pathlib import Path
 SCRIPT_DIR = Path(__file__).resolve().parent
 VIOLET_DIR = SCRIPT_DIR.parent
 DAILY_LOG = VIOLET_DIR / "workbook" / "OVX.tsv"
+
+sys.path.insert(0, str(SCRIPT_DIR))
+from _daily_log import upsert_row, describe  # noqa: E402
 
 LEVEL_FLOOR_PCTILE = 75   # oil-vol must be >= this pctile for a transmission fire
 LADDER_PS = (50, 75, 90, 95, 99)
@@ -130,20 +135,18 @@ def classify(d: dict) -> tuple[str, list[str]]:
     return state, lines
 
 
-def append_log(d: dict, state: str, note: str) -> str:
-    DAILY_LOG.parent.mkdir(parents=True, exist_ok=True)
-    if not DAILY_LOG.exists():
-        DAILY_LOG.write_text("\t".join(TSV_COLS) + "\n", encoding="utf-8")
-    existing = DAILY_LOG.read_text(encoding="utf-8").splitlines()
-    if any(line.startswith(d["asof"] + "\t") for line in existing[1:]):
-        return f"already has a row for {d['asof']}"
+def append_log(d: dict, state: str, note: str, supersede: bool = True) -> str:
+    """UPSERT today's row (KB-VIO-160) — see scripts/_daily_log.py.
+
+    Was first-write-wins: an intraday oil-vol escalation after the day's first
+    boot could never reach the ledger, and a stale calm row reads as no event.
+    """
     row = [d["asof"], d["ovx"], d["vix"], d["gap"], d["ratio"], d["ovx_pctile"],
            d["ratio_pctile"], d["gap_pctile"], d["ratio_ladder"]["p90"],
            d["ratio_ladder"]["p95"], d["level_ladder"]["p75"], d["level_ladder"]["p90"],
            state, note or "-", datetime.now(timezone.utc).isoformat(timespec="seconds")]
-    with DAILY_LOG.open("a", encoding="utf-8") as f:
-        f.write("\t".join(str(x) for x in row) + "\n")
-    return f"✓ appended {d['asof']} row to workbook/OVX.tsv"
+    status, changes = upsert_row(DAILY_LOG, TSV_COLS, row, supersede=supersede)
+    return describe(status, d["asof"], changes, "OVX.tsv")
 
 
 def main() -> int:
@@ -151,6 +154,8 @@ def main() -> int:
     ap.add_argument("--boot", action="store_true", help="collapsed boot output")
     ap.add_argument("--json", action="store_true")
     ap.add_argument("--no-log", action="store_true", help="skip the TSV append")
+    ap.add_argument("--no-supersede", action="store_true",
+                    help="do not update an existing row for today; report the divergence instead")
     args = ap.parse_args()
 
     try:
@@ -160,7 +165,7 @@ def main() -> int:
         return 1
     state, verdict_lines = classify(d)
     note = " | ".join(l for l in verdict_lines[1:]) if len(verdict_lines) > 1 else "-"
-    log_note = "" if args.no_log else append_log(d, state, note)
+    log_note = "" if args.no_log else append_log(d, state, note, supersede=not args.no_supersede)
 
     if args.json:
         print(json.dumps({"data": d, "state": state, "log": log_note}, indent=2))
