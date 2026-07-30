@@ -56,8 +56,11 @@ def _ensure_deps_or_reexec() -> None:
     regardless of how it was invoked. If the venv is absent (or we already
     re-exec'd once), fall through untouched — the run then degrades to
     UNMARKED exactly as before, NEVER a fabricated mark. --selftest is offline
-    and calls this before its own branch is reached, so it is not affected
-    (it never imports chain_fetch)."""
+    and is handled in main() BEFORE this function is reached, so it never runs
+    the heal at all. *(Corrected 2026-07-30, RAV review: this said selftest
+    "calls this before its own branch is reached" — describing the opposite of
+    the code. Harmless in effect, but a docstring that misdescribes control
+    flow is how the next reader builds on a wrong mental model.)*"""
     try:
         import yfinance  # noqa: F401  # deps present -> nothing to do
         return

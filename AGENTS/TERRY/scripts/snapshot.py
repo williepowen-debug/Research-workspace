@@ -63,7 +63,13 @@ def _ensure_deps_or_reexec() -> None:
     live prices, so when the heal is unavailable it exits NON-ZERO with the fix
     on screen rather than printing anything that could be mistaken for a quote.
 
-    Not called on --selftest: that path is offline and passes on base python.
+    Not called on --selftest: that path needs no yfinance. ⚠️ It is **not fully
+    offline** — it ends with a FRED reachability probe — but that probe is
+    non-fatal and SKIPS without a credential, so --selftest stays runnable on
+    base python and on a clone with no .env. *(Corrected 2026-07-30: this line
+    previously claimed the path was "offline", which was simply false — the
+    selftest made a live FRED call. Docstring-says-X-but-code-does-Y is the
+    exact class I flagged on positions_from_forge.py the same morning.)*
     """
     try:
         import yfinance  # noqa: F401  # deps present -> nothing to do
@@ -201,13 +207,62 @@ def run(args):
     return 0
 
 
+def _fred_credential_present() -> bool:
+    """Is a FRED key discoverable at all? (shell env, or the unversioned .env
+    that FORGE fetch.py loads for itself). Used to tell 'no credential here'
+    apart from 'credential present and the call is broken' — different verdicts."""
+    if os.environ.get("FRED_API_KEY"):
+        return True
+    try:
+        return "FRED_API_KEY" in (WORKSPACE / ".env").read_text()
+    except OSError:
+        return False
+
+
 def selftest():
+    """Offline structural checks ALWAYS; the FRED probe is separate and SKIPS
+    when no credential exists.
+
+    ⚠️ **FIXED 2026-07-30 (RAV review).** This was a single `assert` on a **live**
+    `fred_fetch()` call, so `--selftest` silently depended on **network + an
+    UNVERSIONED, machine-local credential** (`.env`). It passed on this desktop
+    and died with a bare `AssertionError: FRED selftest failed: HTTP Error 400`
+    on a clone without the key — **a code-correctness check failing for reasons
+    that have nothing to do with the code.** Under serial multi-machine that
+    means the laptop can report a perfectly good tool as broken, and the
+    argparse help ("Validate imports/FRED access") contradicted the docstring I
+    had just written claiming this path was offline.
+    (`finding_unversioned_local_secret_fails_silently`.)
+
+    Three outcomes now, and the middle one is the point:
+      · structural failure                  -> FAIL (real defect)
+      · FRED unreachable, NO credential     -> SKIP (environment, not a defect)
+      · FRED unreachable, credential PRESENT-> FAIL (real defect)
+    """
     assert FETCH_DIR.exists(), f"missing fetch dir: {FETCH_DIR}"
     assert (FETCH_DIR / "fetch.py").exists(), "missing fetch.py"
-    rows = fred_fetch("BAMLH0A0HYM2", limit=1)
-    assert rows and "error" not in rows[0], f"FRED selftest failed: {rows}"
-    print("snapshot.py SELFTEST: PASS")
-    return 0
+    for fn in (fred_fetch, price_fetch, price_history):
+        assert callable(fn), f"imported symbol not callable: {fn!r}"
+    print("snapshot.py SELFTEST: PASS (offline structural — imports + fetch.py reachable)")
+
+    have_key = _fred_credential_present()
+    try:
+        rows = fred_fetch("BAMLH0A0HYM2", limit=1)
+        ok = bool(rows) and "error" not in rows[0]
+    except Exception as e:  # network down, DNS, etc.
+        rows, ok = [{"error": repr(e)}], False
+
+    if ok:
+        print("  FRED probe: ✓ reachable")
+        return 0
+    if not have_key:
+        print("  FRED probe: ⏭ SKIPPED — no FRED_API_KEY in env or .env. "
+              "NOT a code defect; --stress will print ERR rows on this machine "
+              "and NO stress value may be cited from it (rule #4).")
+        return 0
+    print(f"  FRED probe: 🔴 FAIL — a credential IS present but the call errored: {rows}",
+          file=sys.stderr)
+    return 1
 
 
 def main():
@@ -216,10 +271,11 @@ def main():
     ap.add_argument("--benchmark", "-b", help="Relative-strength benchmark (default inferred, often SPY/KRE)")
     ap.add_argument("--days", type=int, default=30, help="Lookback days for simple range/return stats")
     ap.add_argument("--stress", action="store_true", help="Include HY/CCC/10Y FRED backdrop")
-    ap.add_argument("--selftest", action="store_true", help="Validate imports/FRED access")
+    ap.add_argument("--selftest", action="store_true",
+                    help="Offline structural check (always) + a FRED reachability probe that SKIPS without a credential")
     args = ap.parse_args()
     if args.selftest:
-        return selftest()      # offline — stays runnable on base python
+        return selftest()      # structural part is offline; FRED probe is non-fatal without a key
     _ensure_deps_or_reexec()   # venv self-heal before ANY live price fetch
     return run(args)
 

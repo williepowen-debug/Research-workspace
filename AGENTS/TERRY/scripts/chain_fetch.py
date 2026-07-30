@@ -197,11 +197,42 @@ def _f(x):
 
 
 def _ts_str(x):
-    """Normalize a pandas/py datetime to 'YYYY-MM-DD HH:MM' or None."""
+    """Normalize a pandas/py datetime to **LOCAL** 'YYYY-MM-DD HH:MM' or None.
+
+    ⚠️ **TZ BUG FIXED 2026-07-30 (RAV review).** yfinance returns `lastTradeDate`
+    **tz-aware in UTC**. This formatted it directly, which printed UTC wall-clock
+    **unlabeled, beside a LOCAL fetch stamp** — so output read
+    `freshest trade 17:08 (fetch 14:51)`, i.e. a trade in the *future*.
+
+    Cosmetic only until you follow it into `run()`: the freshness check does
+    `latest.startswith(today)` where **`today` is LOCAL**. Comparing a
+    UTC-derived date against a local date means that **between ~20:00 ET and
+    midnight the UTC date is already tomorrow**, so a trade that happened
+    **today** fails the check and fires a spurious *"NOT today — marks may be
+    stale"* warning. That is a **fire-time freshness guard misfiring in the
+    evening**, and a staleness alarm that cries wolf on the normal state stops
+    being read — the same failure PB-0004's mark_asof had.
+
+    Converting to local **here** fixes display and comparison in one place,
+    because everything downstream consumes this function's output.
+    """
     if x is None:
         return None
     try:
         if hasattr(x, "strftime"):
+            # ⚠️ yfinance hands back a pandas.Timestamp, NOT a datetime, and
+            # pandas.Timestamp.astimezone() requires a tz argument — calling it
+            # bare raises TypeError('tz_convert() takes exactly 2 positional
+            # arguments'). That was swallowed by the except below and every
+            # timestamp silently became N/A. Normalize to a plain datetime
+            # FIRST, then convert. (Caught by regression on the live path; my
+            # first selftest stub used a bare datetime and so never exercised
+            # the real type — finding_test_the_guard_not_just_the_guarded.)
+            if hasattr(x, "to_pydatetime"):
+                x = x.to_pydatetime()
+            # tz-aware (yfinance UTC) -> local; naive values pass through as-is
+            if getattr(x, "tzinfo", None) is not None:
+                x = x.astimezone()
             return x.strftime("%Y-%m-%d %H:%M")
         return str(x)[:16]
     except Exception:
@@ -364,6 +395,32 @@ def selftest():
     assert rows[0]["moneyness_pct"] == round((80 - 87.21) / 87.21 * 100, 1), rows[0]["moneyness_pct"]
     # window ±15% of 87.21 = [74.13, 100.29] keeps both 80 & 85
     assert all(74.13 <= r["strike"] <= 100.29 for r in rows)
+    # TZ GUARD (RAV 2026-07-30): stub lastTradeDate is tz-aware UTC 15:30/15:31.
+    # _ts_str must convert to LOCAL, or the freshness check compares a UTC date
+    # against a local `today` and misfires in the evening. Assert the conversion
+    # actually happened rather than trusting the docstring — this is the guard
+    # that would have caught the bug (finding_test_the_guard_not_just_the_guarded).
+    def _local(h, m):
+        return datetime(2027, 1, 4, h, m, tzinfo=timezone.utc).astimezone().strftime("%Y-%m-%d %H:%M")
+    assert rows[0]["last_trade"] == _local(15, 30), (
+        f"lastTradeDate not converted to local: got {rows[0]['last_trade']}, want {_local(15, 30)}")
+    assert latest_trade == _local(15, 31), (
+        f"latest_trade must be the local-converted max: got {latest_trade}, want {_local(15, 31)}")
+    # ★ Exercise the REAL type. yfinance yields pandas.Timestamp, whose
+    # .astimezone() raises bare — the stub above is a plain datetime and passed
+    # while the live path silently returned N/A for every timestamp. Skipped
+    # (loudly) when pandas is absent, since --selftest must run on base python.
+    try:
+        import pandas as pd
+    except ModuleNotFoundError:
+        print("  ⚠️  pandas absent — pandas.Timestamp tz path NOT exercised "
+              "(run under .venv to cover it)")
+    else:
+        _pts = _ts_str(pd.Timestamp("2027-01-04 15:30", tz="UTC"))
+        assert _pts == _local(15, 30), (
+            f"pandas.Timestamp not converted to local: got {_pts}, want {_local(15, 30)}")
+        assert _ts_str(pd.Timestamp("2027-01-04 15:30")) == "2027-01-04 15:30", \
+            "tz-naive Timestamp must pass through unchanged"
     print("chain_fetch.py SELFTEST: PASS")
     print(f"  rows={len(rows)} mark0={rows[0]['mark']} iv0={rows[0]['iv']}% "
           f"spread1={rows[1]['spread_pct']}% mny0={rows[0]['moneyness_pct']}% greeks=N/A latest_trade={latest_trade}")
