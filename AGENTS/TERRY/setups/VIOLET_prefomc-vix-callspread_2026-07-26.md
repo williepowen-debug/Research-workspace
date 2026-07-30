@@ -520,7 +520,11 @@ Pull **both legs** of the live 4-lot position: VIXW Aug-05 **20C** (long) and **
 
 **The event we bought HAPPENED, and the structure still lost.** 7/29 FOMC delivered a textbook vol spike: VIX **17.45 → 20.88 intraday, +13.45% on the settle**, first >20 settle of the episode, VVIX to a new episode high 109.47. We owned VIX calls through it and lost money.
 
-**The reason is the forward, and I flagged it at the fill:** VIX options settle on the **forward**, not spot, and this strip's forward carries **beta ~0.28 to spot** (derived by parity at entry: spot ran 19.49→19.85 while the 8/5 forward moved 19.5→19.6). My own §8 note said the low beta *"undercuts my own spike-capture argument for the near-dated expiry."* **That worry was correct and it is precisely what killed the trade.** A +13.45% spot spike moved the forward a fraction of that, our 20 strike never came into the money on the number that prices it, and by 7/30 the forward had fallen to **18.82** — leaving us **+6.3% OTM** versus **+2.0% OTM at the fill.** Moneyness got *worse* after the event we bought arrived.
+> 🔴 **THIS PARAGRAPH IS SUPERSEDED — see §11.F (self-audit, 7/30 ~11:45 ET). Two of its load-bearing claims are wrong: the beta figure, and "the strike never came into the money." Retained unaltered as the record of what I wrote and why it was withdrawn.**
+
+~~**The reason is the forward, and I flagged it at the fill:** VIX options settle on the **forward**, not spot, and this strip's forward carries **beta ~0.28 to spot** (derived by parity at entry: spot ran 19.49→19.85 while the 8/5 forward moved 19.5→19.6). My own §8 note said the low beta *"undercuts my own spike-capture argument for the near-dated expiry."* **That worry was correct and it is precisely what killed the trade.** A +13.45% spot spike moved the forward a fraction of that, our 20 strike never came into the money on the number that prices it, and by 7/30 the forward had fallen to **18.82** — leaving us **+6.3% OTM** versus **+2.0% OTM at the fill.** Moneyness got *worse* after the event we bought arrived.~~
+
+**Corrected (§11.F):** the beta was **0.53**, not 0.28 — ≈0.28 was one 0.36pt intraday move at the fill, published as a structural parameter. And **VIOLET (forward ~20.5, "first time through our 20 long strike") and PROME ("in profit territory as recently as the 7/29 settle") both report the strike DID come into the money** — ⏳ *pending owner verification; not overwritten on a relayed claim.* **Corrected primary cause: `NO_HARVEST_RULE`** — every §6 trigger was keyed to the move going FURTHER, none to the position being in profit, on a trade whose profit zone the trigger variable (spot, needing 23) never visited. *What survives from the paragraph above: the forward/spot distinction is real, the 18.82 exit forward and the +2.04%→+6.33% moneyness figures re-verified clean, and the self-criticism about flagging the defect at the fill and not acting on it remains true — it is simply no longer the loss cause.*
 
 **That is a structural finding, not bad luck** → §11.D.
 
@@ -587,3 +591,46 @@ Pull **both legs** of the live 4-lot position: VIXW Aug-05 **20C** (long) and **
 - ⚠️ **What I must NOT claim:** *"Will beat my recommendation"* in the sense of hearing $0.40 and overriding it. If the ~09:50 time is right, he filled **before** my ticket existed. **The honest statement is that his independently-chosen limit was better than mine — not that he rejected mine.**
 
 **Third correction, my own calibration, both directions:** my **pre-open** bracket (unmarkable chain, explicitly flagged as such) was **−15% to −35%**; my **10:11 post-pull** center was **−47%**. Actual: **−38.8%.** The two estimates bracketed the truth from opposite sides — the pre-open read was **optimistic** and the post-pull read **pessimistic**, and the pessimistic one came from the leg-mid pricing error in §11.D-2. Recorded because "my estimate was in the range" would be a kinder summary than the record supports.
+
+### F. 🔴 SELF-AUDIT CORRECTIONS — Will-directed, 2026-07-30 ~11:45 ET
+
+*Will flagged the session's error rate. I re-derived every load-bearing number in §11 against source. **Five defects. The last one may invert §11.B's root cause.** Nothing below changes the realized P/L.*
+
+**✅ Verified correct, no change:** realized **−$111.60 / −38.79%** (recomputed from broker cash); exit forward **18.81** by parity across 6 strikes (18.76–18.85; §11 published 18.82 — rounding, fine); moneyness **+2.04% → +6.33%**; counterfactual line **SOQ > 20.45**.
+
+**🔴 CORRECTION 1 — the forward-beta figure is WRONG and it propagated to 5 surfaces.**
+
+| | Published in §11.B/§11.D-1 | **Corrected** |
+|---|---|---|
+| Forward beta to spot | **≈0.28** | **0.53** |
+| Basis | a single **0.36-point** intraday move at the fill — noise-dominated | **fill→exit, the period that mattered:** spot 19.85→18.37 (−1.48), forward 19.60→18.81 (−0.79) |
+
+**A one-observation beta on a small move is not a structural parameter, and I published it as one.** The *direction* survives (forward moves less than spot); the magnitude does not. Corrected on: this card, `POSTMORTEMS.md`, `STATUS.md`, the VIOLET packet, and the auto-memory (which was **rewritten and re-slugged**, since its whole premise rested on this).
+
+**🟠 CORRECTIONS 2–3 — point-in-time readings published as settled session grades.**
+
+| Claim in §11.A / §11 fill table | What it actually was | True value |
+|---|---|---|
+| "VIX **cash-session high 18.71**" | highest 5-minute **CLOSE** as of **10:11 ET** — *and the session was not over* | session high **19.11** (full-day, incl. pre-market: 20.08) |
+| "VIX3M/VIX **min print 1.0888**" | min of **closes** at 10:11 | true worst case (VIX3M low ÷ VIX high) **1.0683** |
+
+**Neither changes the verdict** — 19.11 is nowhere near the ≥23 line and 1.0683 nowhere near 1.0, so **no trigger was missed.** But I claimed measurement precision I had not performed, and graded a session that was still running. **Both are hereby re-stamped: readings as-of 10:11 ET, not session-final.**
+
+**⚪ CORRECTION 4 — unverified assertion** in the (parked) QQQ card `WILL_qqq-downtrend-putspread_2026-07-30.md` §5: *"AAPL + AMZN ≈ 15% of QQQ"* — stated as fact, never checked. **Flagged as UNVERIFIED on that card.**
+
+**🔴 CORRECTION 5 — THE MATERIAL ONE: §11.B's root cause omits that the position was reportedly PROFITABLE at the 7/29 close, and may be wrong because of it.**
+
+> **VIOLET** (exit-morning brief §4④): 8/5 forward **~20.5**, *"first time through our 20 long strike."*
+> **PROME** (DOCKET row 61, `03c1c947`): *"Exit was in profit territory as recently as the 7/29 settle."*
+
+**Two independent agents assert it. §11.B does not mention it once**, and instead concludes the spread *"still lost"* because the forward *"barely lifted"* — **which cannot both be true.** If the forward reached ~20.5 it went **through** the 20 strike and the structure **did** capture the move.
+
+**⏳ NOT YET VERIFIED — I am not overwriting §11.B on a relayed claim** (that would repeat the exact error this audit found). Valuation asks routed to VIOLET and PROME. **What IS verifiable today, from this card's own §6, and it stands on its own:**
+
+> **Every management trigger on this card was keyed to the move going FURTHER — `VIX spot ≥23`, `VIX3M/VIX <1.0`, `SKEW crash during a spike`. Not one was keyed to the position simply being in profit.** Compare `TRY-FIRE-004`: **≥3× → take half**, a P/L-keyed rule that fires on the *position*, not on the world.
+
+**Corrected root-cause candidate (pending the 7/29 valuation):** not *"the structure could not capture the spike"* but **"there was no harvest rule between entry and a spike trigger set on a variable the profit zone never visited."** Spot had to reach 23; the position became profitable around spot ~20.7 / forward ~20.5. **The trigger sat outside the path the trade actually took** — and the fleet was dark on the one day it mattered.
+
+**This is a better lesson than the one I wrote, and it is closer to the money.** → auto-memory `finding_profit_zone_needs_its_own_harvest_rule` (replaces the withdrawn `finding_near_dated_vol_spread_misses_the_spot_spike`, whose premise this correction removes).
+
+**Process note, recorded against myself:** the common thread in all five is **publishing at the precision I wished I had rather than the precision I had**, and **writing a conclusion without checking it against the two agents who had already contradicted it in my own inbox.** §11.B was written from VIOLET's brief — the brief that contains the refuting sentence.

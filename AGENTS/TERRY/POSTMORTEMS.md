@@ -72,7 +72,7 @@ Card pre-built 7/10 ~11:15 ET (Will-authorized), gated on that afternoon's 3:30 
 ## 2026-07-30 — TRY-VIOLET-VIXCS (VIX Aug-05 20C/25C call spread ×4) — CLOSED, REALIZED −$111.60 (−38.8%)
 **Original card:** `setups/VIOLET_prefomc-vix-callspread_2026-07-26.md` (§11 = exit record + pre-registered evaluation)
 **Outcome:** **LOSS, −$111.60 on $287.70 at risk (−38.8%)** — closed on its own pre-registered mandatory dated exit, not on a stop, not on a thesis break.
-**Tags:** `BAD_STRUCTURE` (primary) · `GOOD_LOSS_PROCESS_WORKED` (secondary) · `EVENT_MISALIGNED`
+**Tags:** ⚠️ **RE-TAGGED 2026-07-30 ~11:50 after self-audit** — `NO_HARVEST_RULE` **(primary, new tag)** · `GOOD_LOSS_PROCESS_WORKED` (secondary) · ~~`BAD_STRUCTURE` (was primary — withdrawn, see Loss cause)~~ · ~~`EVENT_MISALIGNED`~~ (withdrawn: the event was **not** misaligned — it landed inside the window as designed)
 **⚠️ PARTIAL — outcome-dependent grading is PRE-REGISTERED and PENDING 2026-08-05.** This is the second-ever TERRY postmortem and the first on a real P/L.
 
 ### What happened
@@ -83,7 +83,8 @@ Bought 7/27 at $0.70 (4 lots) as a long-vol convexity expression into the 7/28-2
 |---|---|
 | Thesis | **Mixed — and this is the interesting part.** The event VIOLET predicted *happened*. The trade still lost. Thesis was not refuted by the tape; the instrument failed to monetize it. |
 | Timing | Entry fine (2 sessions ahead of the catalyst). Exit was date-forced, not judgment. |
-| Structure | 🔴 **WRONG — the primary cause.** See below. |
+| Structure | 🟡 **RE-GRADED (self-audit 7/30).** Was 🔴 "wrong — the primary cause." The spread itself was liquid, correctly sized, and — per VIOLET/PROME, pending verification — **went through its long strike.** The defect was in the **management spec**, not the structure. |
+| Management spec | 🔴 **WRONG — the primary cause.** Every trigger keyed to a further move; **none keyed to being in profit.** See below. |
 | Sizing | **Appropriate.** $287.70, under the $300 rec and the $500 cap, N_eff held at 1. A −38.8% loss on a correctly-sized lottery is a rounding error to the book. |
 | Entry | Disciplined. Filled at mark not limit; rule-#6 break justified with the refuting measurement, written before the fill. |
 | Exit | Disciplined — mandatory rule executed without drift, softening, or a roll. |
@@ -92,18 +93,40 @@ Bought 7/27 at $0.70 (4 lots) as a long-vol convexity expression into the 7/28-2
 | Rules | **Followed.** No guard relaxed. Stand-down (i) correctly graded MOOT-not-tripped (entry guard, scope expired at fill) rather than reinterpreted in either direction. |
 | Calibration | Entry payoff estimate **+45–120%**; actual **−38.8%** → the estimated band **never contemplated the loss case**, which is itself a calibration defect. Exit-day center estimate −47% vs actual −38.8% (Will's better fill). Forward evaluation pre-registered at P≈20%. |
 
-### Loss cause — `BAD_STRUCTURE`
-**A near-dated VIX call spread cannot capture a SPOT vol spike.** VIX options settle on the **forward**, which at ~9 DTE carried **beta ≈ 0.28 to spot** (derived by put-call parity at entry). Spot ripped +13.45%; the forward barely moved; our 20 strike never came into the money on the number that actually prices it. Between fill and exit the forward went **19.6 → 18.82**, so moneyness *deteriorated* from **+2.0% OTM to +6.3% OTM** — **after** the event we bought had already occurred.
+### Loss cause — ⚠️ **REWRITTEN 2026-07-30 ~11:50 ET after a Will-directed self-audit. The original diagnosis is preserved below and was probably WRONG.**
 
-**The aggravating detail: I flagged this at the fill and did not act on it.** My own §8 note said the low forward beta *"undercuts my own spike-capture argument for the near-dated expiry"* — I wrote the correct diagnosis on the card on day one, downgraded the payoff estimate for it, and still left the strikes and expiry unchanged. **Identifying a structural flaw and then not letting it change the structure is worse than missing it.**
+**PRIMARY CAUSE (current):** **`NO_HARVEST_RULE` — every management trigger on this card was keyed to the move going FURTHER, so no rule existed to fire when the position was merely in profit.**
 
-Related and not coincidental: the §6 management triggers were written on **spot** (`VIX ≥23`) while the payoff lived on the **forward** — the same guard-spec defect I flagged to VIOLET on 7/27 as an *entry*-guard issue. It was never only an entry-guard issue.
+| Trigger (card §6) | Keyed to |
+|---|---|
+| VIX **spot ≥23** touch → sell half | a much bigger spike |
+| VIX3M/VIX **<1.0** → sell rest | a much bigger spike |
+| SKEW crash during a spike → sell | a much bigger spike |
+| Mandatory dated exit 7/30 | the calendar |
+
+**Nothing was keyed to "this position is now worth more than you paid."** Compare the sibling card `TRY-FIRE-004`: **≥3× → take half** — a P/L-keyed rule that fires on the *position*, not the world. **This card had no such rule, and that is verifiable from §6 today, independent of anything below.**
+
+**Compounding defect:** the trigger variable was **spot**; the payoff settles on the **forward**. Spot had to reach **23**; the position became profitable near spot ~20.7 / forward ~20.5. **The harvest trigger sat outside the path the trade actually travelled.** Same spot-vs-forward guard-spec defect flagged to VIOLET on 7/27 as an *entry*-guard issue — it was never only an entry-guard issue.
+
+⏳ **PENDING VERIFICATION:** **VIOLET** (forward ~20.5, *"first time through our 20 long strike"*) and **PROME** (*"in profit territory as recently as the 7/29 settle"*) both assert the position was **profitable at the 7/29 close** before giving it all back overnight. **TERRY has not verified this** and valuation asks are routed to both. If confirmed, it is direct proof of the primary cause above: a winning position with no rule to take it.
+
+<details><summary>~~ORIGINAL DIAGNOSIS (2026-07-30 ~10:50) — retained as the record, superseded~~</summary>
+
+> ~~**A near-dated VIX call spread cannot capture a SPOT vol spike.** VIX options settle on the **forward**, which at ~9 DTE carried **beta ≈ 0.28 to spot** (derived by put-call parity at entry). Spot ripped +13.45%; the forward barely moved; our 20 strike never came into the money on the number that actually prices it.~~
+>
+> **Why it was withdrawn — two independent defects:**
+> 1. **The beta figure was wrong.** ≈0.28 came from a single **0.36-point** intraday move at the fill — noise. **Realized fill→exit beta was 0.53** (spot 19.85→18.37 = −1.48; forward 19.60→18.81 = −0.79).
+> 2. **"The forward barely moved" is contradicted by the sources this postmortem was written from.** If the forward reached ~20.5 on 7/29 it went **through** the 20 strike — the structure **did** capture the move. The original text asserts the opposite without ever mentioning the claim, which sat in VIOLET's brief in my own inbox.
+>
+> *(The "aggravating detail" — that I derived the forward at entry, wrote the low-beta warning on the card, downgraded the payoff estimate, and left the strikes unchanged — remains factually true, but it is no longer the loss cause.)*
+</details>
 
 ### Why `GOOD_LOSS_PROCESS_WORKED` is also true
 The dated exit did precisely what it was written to do: it closed a losing convexity bet on schedule, at a fair market price, with no roll-by-hope, no expiry drift toward 8/5, and no re-underwriting under pressure. **The rule was written on 7/26 by someone who could not know the outcome, and it was honored on 7/30 by someone who did.** That is the whole point of pre-registration.
 
-### Lesson — two, both durable
-1. **If the thesis is a SPOT move, set strikes against the DERIVED FORWARD, or buy enough tenor that forward beta is near 1.** Deriving the forward at entry is not sufficient — the derivation has to be allowed to change the strikes, the expiry, or the decision to trade at all. *(Wired into the card §11.D-1; belongs in `CHART_OPTIONS_WORKFLOW.md` next pass.)*
+### Lesson — ⚠️ **REORDERED after the 7/30 self-audit; #1 is new and replaces the withdrawn structural lesson**
+1. **★ EVERY CARD WITH A DIRECTIONAL PAYOFF GETS A P/L-KEYED HARVEST RULE — not only world-keyed triggers.** Before freezing management terms, ask: **"is there a path where this position is profitable and NO trigger fires?"** If yes, that path will happen. This card had three triggers and every one needed the move to go *further*; `TRY-FIRE-004` has *≥3× → take half* and would have caught it. **Adopt as a build-time check on every card.** *(→ auto-memory `finding_profit_zone_needs_its_own_harvest_rule`.)*
+1b. **State triggers on the variable the payoff SETTLES on**, and derive the forward's beta **over a horizon matching the trade** — a single intraday reading is noise. *(Original lesson #1 said "set strikes against the derived forward"; that survives as a build-time practice but is **not** the loss cause, and the ≈0.28 beta it cited was wrong — realized was **0.53**.)*
 2. **On a vertical where both legs carry OI >5,000, open the order in the aggressive third of the net bracket, not at mid.** A vertical trades *inside* the sum of its legs' quoted markets. TERRY proposed $0.75 entry / $0.40 exit-start; Will worked $0.70 / $0.45 and both filled — **n=2, both directions, both 5¢ in his favour.** My limit-setting is systematically too generous to the market.
 
 ### PENDING — resolves 2026-08-05 (pre-registered, card §11.C)
