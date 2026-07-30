@@ -75,6 +75,18 @@ A **fixed/salaried** bankroll (not unlimited paper money) is the key. Infinite p
 - If `mark_asof` > N business days → flag "STALE mark" (ledger-staleness discipline).
 - Equity curve is as-of-last-spawn — label it lumpy, not continuous.
 
+> **⚠️ Marking ≠ filling — do not read the ask/bid fill rule above as the marking rule.** Fills are deliberately pessimistic (**ask-for-buys / bid-for-sells, never mid**) because that is what execution actually costs. **Marks are the two-sided MID**, because that is what the position is currently worth. Different questions, deliberately different prices.
+
+**`mark_asof` means "when the mark was TAKEN", not "when the option last traded"** *(clarified 2026-07-30 after the implementation had it backwards).* With a live two-sided quote the mid is current, so the stamp is **now** — and any illiquidity is reported in the **note** (`mid/live-quote (no trade since …)`). Only when there is **no two-sided market** does the mark fall back to the last print, and *then* the stamp is genuinely that print's time (`last/no-nbbo`).
+
+> **Why this is a rule and not an implementation detail.** The original stamped `last_trade` whenever an option hadn't traded that day, which made a **live** mid look days old and tripped the STALE alarm on it — PB-0004 (KRE Dec-18 68P) read "⚠ STALE 10bd" while its NBBO was 1.65/2.11 and current. **This book is deep-OTM options: "quoted but not traded today" is its normal state, not a defect.** An alarm that fires on the normal state stops being read, precisely where it needs to be trusted. Same root as the desk's `finding_grade_execution_only_against_same_timestamp_marks` — **a timestamp must describe the thing it is attached to.**
+
+**Multi-leg (spread) marking** *(added 2026-07-30 — PB-0003 was UNMARKED/PARSE-ERROR on the one day it mattered)*:
+- Structures parse as `TICKER [(ROOT)] EXPIRY K1[P|C][/K2[P|C]] … xQTY`. **Fetches use the option ROOT, not the underlying** — `VIX (VIXW)` pulls the VIXW chain; using `VIX` pulls the wrong chain entirely.
+- **Net mark = mid(leg 1) − mid(leg 2).** Leg order is as written, **first leg LONG, second SHORT** — the convention every row in this book already uses (`20C/25C call debit spread` = long 20, short 25). Positive net = debit.
+- **Both legs are required. One dead leg ⇒ NO net mark**, never a mark off the live leg alone — reporting a two-leg position at a one-leg value is worse than reporting nothing (`finding_fail_loud_on_incomplete_data`).
+- Per-leg detail is written into the note (`net-mid/live [360C@19.9+380C@15.2]`) so any net is auditable back to its legs.
+
 ### Scoring gate
 - **No calibration/Brier scoring, and no decision (sizing / deployment / card-design) acts on the paper record, until N ≥ 10 closed positions per lane.** Until then: directional read only, `notes = "N-too-small"`.
 - Once N clears → feed `RISK_SCORING.md` §5 (Brier/calibration) · structure validation (did the crash-tail actually pay?) · entry-timing validation (does the green-day rule improve fills?) · post-print-vs-pre-print (builder card) · refusal calibration (PASSED subset P&L).

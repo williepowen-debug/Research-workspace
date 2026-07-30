@@ -77,12 +77,24 @@ MONTHS = {m: i for i, m in enumerate(
     ["Jan", "Feb", "Mar", "Apr", "May", "Jun",
      "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"], 1)}
 
-# structure e.g. "TLT Sep-30 77P x45" or "TLT 2026-09-30 77P x45"
+# Structures this book actually writes:
+#   "TLT Sep-30 77P x45"                              single leg
+#   "WAL 2026-09-18 67.5P x1"                         ISO expiry
+#   "KRE Dec-18 68P x2 (~8-12% OTM per card ZONE-1)"  trailing prose (ignored)
+#   "VIX (VIXW) Aug-05 20C/25C call debit spread x4"  option ROOT + TWO LEGS
+#   "VLO Jan-15-2027 360C/380C call debit spread x1"  4-digit-year expiry + two legs
+#
+# The two-leg and (ROOT) forms were unparseable until 2026-07-30 — PB-0003 marked
+# UNMARKED/PARSE-ERROR on the one day it mattered. It failed SAFE (kept the prior mark,
+# fabricated nothing), but every live card candidate is a SPREAD (diesel VLO 360C/380C,
+# Kharg USO call spread), so the next paper row would have hit it too.
 STRUCT_RE = re.compile(
-    r"^\s*([A-Za-z][A-Za-z0-9.\-]*)\s+"            # 1 ticker
-    r"([A-Za-z]{3}-\d{1,2}|\d{4}-\d{2}-\d{2})\s+"  # 2 expiry token
-    r"(\d+(?:\.\d+)?)\s*([PCpc])\s*"               # 3 strike, 4 type
-    r"x?\s*(\d+)"                                   # 5 qty
+    r"^\s*([A-Za-z][A-Za-z0-9.\-]*)"                    # 1 ticker
+    r"(?:\s*\(([A-Za-z][A-Za-z0-9.\-]*)\))?\s+"        # 2 optional option ROOT, e.g. (VIXW)
+    r"([A-Za-z]{3}-\d{1,2}(?:-\d{4})?|\d{4}-\d{2}-\d{2})\s+"  # 3 expiry token
+    r"(\d+(?:\.\d+)?)\s*([PCpc])"                      # 4 strike1, 5 type1
+    r"(?:\s*/\s*(\d+(?:\.\d+)?)\s*([PCpc])?)?"        # 6 strike2, 7 optional type2
+    r"[^x]*?x\s*(\d+)"                                 # 8 qty
 )
 
 
@@ -91,23 +103,59 @@ STRUCT_RE = re.compile(
 # ---------------------------------------------------------------------------
 
 def parse_structure(struct, today=None):
-    """Return (ticker, expiry_iso, strike, type_letter, qty) or None."""
+    """
+    Single-leg contract, unchanged: (ticker, expiry_iso, strike, type_letter, qty) or None.
+
+    Returns None for spreads so no caller can silently mark one leg of a two-leg structure
+    as though it were the whole position. Spreads go through parse_legs().
+    """
+    parsed = parse_legs(struct, today)
+    if not parsed or len(parsed["legs"]) != 1:
+        return None
+    (strike, tletter), = parsed["legs"]
+    return parsed["ticker"], parsed["expiry"], strike, tletter, parsed["qty"]
+
+
+def parse_legs(struct, today=None):
+    """
+    Full parse, single- or multi-leg.
+
+    Returns {ticker, root, expiry, legs: [(strike, type), ...], qty} or None.
+    `root` is the option root when it differs from the underlying ticker (VIX -> VIXW);
+    fetches must use the ROOT or they pull the wrong chain entirely.
+    Leg order is as written: FIRST leg is the LONG leg, second the SHORT — the convention
+    every row in this book already uses ("20C/25C call debit spread" = long 20, short 25).
+    """
     today = today or date.today()
     m = STRUCT_RE.match(struct or "")
     if not m:
         return None
-    ticker, exp_tok, strike, tletter, qty = m.groups()
+    ticker, root, exp_tok, k1, t1, k2, t2, qty = m.groups()
     exp_iso = _expiry_iso(exp_tok, today)
     if exp_iso is None:
         return None
-    return ticker.upper(), exp_iso, float(strike), tletter.upper(), int(qty)
+    legs = [(float(k1), t1.upper())]
+    if k2 is not None:
+        # "20C/25C" -> the second leg inherits the first leg's type when unwritten
+        legs.append((float(k2), (t2 or t1).upper()))
+    return {
+        "ticker": ticker.upper(),
+        "root": (root or ticker).upper(),
+        "expiry": exp_iso,
+        "legs": legs,
+        "qty": int(qty),
+    }
 
 
 def _expiry_iso(tok, today):
     if re.match(r"\d{4}-\d{2}-\d{2}$", tok):
         return tok
     try:
-        mon, day = tok.split("-")
+        parts = tok.split("-")
+        if len(parts) == 3:                   # "Jan-15-2027" — year stated, do not infer
+            mon, day, yr = parts
+            return date(int(yr), MONTHS[mon.capitalize()], int(day)).isoformat()
+        mon, day = parts
         mnum = MONTHS[mon.capitalize()]
         cand = date(today.year, mnum, int(day))
         if cand < today:                      # already passed -> next year
@@ -233,35 +281,59 @@ def compute_mark(match, today, now_str):
     last_trade = match.get("last_trade")
     if bid is not None and ask is not None and (bid > 0 or ask > 0):
         mark = round((bid + ask) / 2, 4)
+        # mark_asof describes WHEN THE MARK WAS TAKEN — always now, because the mid comes
+        # from the CURRENT two-sided quote. Stamping it with last_trade (the pre-2026-07-30
+        # behaviour) made a live mid look 10 business days old on any illiquid strike and
+        # tripped a STALE alarm on it. This book is deep-OTM options; "quoted but not traded
+        # today" is its NORMAL state, not a defect, and conflating the two cries wolf exactly
+        # where the alarm needs to be trusted. Illiquidity is still reported — in the NOTE,
+        # which is where it belongs — rather than by falsifying the timestamp.
         if last_trade and last_trade[:10] == today.isoformat():
             return mark, now_str, "mid/live"
-        return mark, (last_trade or now_str), "mid/stale-quote"
+        return mark, now_str, f"mid/live-quote (no trade since {last_trade or 'unknown'})"
     if last is not None and last > 0:
+        # No two-sided market: the mark really IS as old as the last print. Timestamp it so.
         return round(last, 4), (last_trade or now_str), "last/no-nbbo"
     return None, None, "NO-QUOTE"
 
 
 def mark_row(row, today, now_str, fetch=_fetch_chain):
     """Return (new_mark, new_asof, status_note). Non-fatal on any error."""
-    parsed = parse_structure(row.get("structure"), today)
+    parsed = parse_legs(row.get("structure"), today)
     if not parsed:
         return None, None, "PARSE-ERROR"
-    ticker, expiry, strike, tletter, _qty = parsed
-    opt_type = "put" if tletter == "P" else "call"
-    try:
-        rows, _meta = fetch(ticker, expiry, opt_type)
-    except Exception as e:  # network/yfinance/expiry-gone — never crash the run
-        return None, None, f"FETCH-ERROR:{e.__class__.__name__}"
-    match = next((r for r in rows
-                  if r.get("strike") is not None
-                  and abs(r["strike"] - strike) < 1e-6
-                  and r.get("type") == tletter), None)
-    if match is None:
-        return None, None, "NO-STRIKE"
-    mark, asof, note = compute_mark(match, today, now_str)
-    if mark is None:
-        return None, None, note
-    return mark, asof, note
+    root, expiry, legs = parsed["root"], parsed["expiry"], parsed["legs"]
+
+    leg_marks, notes = [], []
+    for strike, tletter in legs:
+        opt_type = "put" if tletter == "P" else "call"
+        try:
+            rows, _meta = fetch(root, expiry, opt_type)
+        except Exception as e:  # network/yfinance/expiry-gone — never crash the run
+            return None, None, f"FETCH-ERROR:{e.__class__.__name__}"
+        match = next((r for r in rows
+                      if r.get("strike") is not None
+                      and abs(r["strike"] - strike) < 1e-6
+                      and r.get("type") == tletter), None)
+        if match is None:
+            return None, None, f"NO-STRIKE:{strike:g}{tletter}"
+        mk, _asof, note = compute_mark(match, today, now_str)
+        if mk is None:
+            # One dead leg means NO net mark. Never mark a spread off its live leg alone —
+            # that would report a two-leg position at a one-leg value, which is worse than
+            # reporting nothing (`finding_fail_loud_on_incomplete_data`).
+            return None, None, f"{note}:{strike:g}{tletter}"
+        leg_marks.append(mk)
+        notes.append(note)
+
+    if len(leg_marks) == 1:
+        return leg_marks[0], now_str, notes[0]
+
+    # Spread: net = LONG (first leg, as written) minus SHORT (second). Positive = debit.
+    net = round(leg_marks[0] - leg_marks[1], 4)
+    detail = "+".join(f"{k:g}{t}@{m:g}" for (k, t), m in zip(legs, leg_marks))
+    worst = "live" if all(n == "mid/live" for n in notes) else "live-quote"
+    return net, now_str, f"net-mid/{worst} [{detail}]"
 
 
 def run(args):
@@ -339,6 +411,20 @@ def selftest():
     # calls + already-passed month rolls to next year
     pc = parse_structure("SPY Jan-16 500C x2", today)
     assert pc == ("SPY", "2027-01-16", 500.0, "C", 2), pc
+    # trailing prose must not defeat the parse (PB-0004 carries a ZONE-1 note)
+    assert parse_structure("KRE Dec-18 68P x2 (~8-12% OTM per card ZONE-1)", today) \
+        == ("KRE", "2026-12-18", 68.0, "P", 2)
+
+    # --- multi-leg / option-root parsing (the PB-0003 PARSE-ERROR class, fixed 2026-07-30)
+    sp = parse_legs("VIX (VIXW) Aug-05 20C/25C call debit spread x4", today)
+    assert sp == {"ticker": "VIX", "root": "VIXW", "expiry": "2026-08-05",
+                  "legs": [(20.0, "C"), (25.0, "C")], "qty": 4}, sp
+    # 4-digit-year expiry must be taken literally, never year-inferred
+    vlo = parse_legs("VLO Jan-15-2027 360C/380C call debit spread x1", today)
+    assert vlo["expiry"] == "2027-01-15" and len(vlo["legs"]) == 2, vlo
+    # a spread must NOT come back from the single-leg API — no caller may mark one leg
+    # of a two-leg position as though it were the whole thing
+    assert parse_structure("VIX (VIXW) Aug-05 20C/25C call debit spread x4", today) is None
 
     # business_days_between: Fri 7/17 -> Sun 7/19 = 0 (weekend only); -> Tue 7/21 = 2
     assert business_days_between(date(2026, 7, 17), date(2026, 7, 19)) == 0
@@ -354,9 +440,19 @@ def selftest():
     live = {"bid": 0.10, "ask": 0.12, "last": 0.11, "last_trade": "2026-07-19 15:30"}
     m, a, n = compute_mark(live, today, now)
     assert m == 0.11 and a == now and n == "mid/live", (m, a, n)
-    staleq = {"bid": 0.10, "ask": 0.12, "last": 0.11, "last_trade": "2026-07-17 16:00"}
-    m, a, n = compute_mark(staleq, today, now)
-    assert m == 0.11 and a == "2026-07-17 16:00" and n == "mid/stale-quote", (m, a, n)
+    # A live two-sided quote on an option that has not TRADED today is the normal state of
+    # this book (deep-OTM). The mark is as-of NOW because that is when the quote was pulled;
+    # the illiquidity goes in the note. Pre-2026-07-30 this stamped last_trade and then
+    # tripped its own STALE alarm on a perfectly live mid (PB-0004, "STALE 10bd").
+    quoted = {"bid": 0.10, "ask": 0.12, "last": 0.11, "last_trade": "2026-07-17 16:00"}
+    m, a, n = compute_mark(quoted, today, now)
+    assert m == 0.11 and a == now and n.startswith("mid/live-quote"), (m, a, n)
+    assert "2026-07-17 16:00" in n, "illiquidity must stay visible in the note"
+
+    # No two-sided market -> the mark really IS as old as the last print, so timestamp it so.
+    nonbbo = {"bid": None, "ask": None, "last": 0.11, "last_trade": "2026-07-17 16:00"}
+    m, a, n = compute_mark(nonbbo, today, now)
+    assert m == 0.11 and a == "2026-07-17 16:00" and n == "last/no-nbbo", (m, a, n)
     nonbbo = {"bid": 0.0, "ask": 0.0, "last": 0.09, "last_trade": "2026-07-17 16:00"}
     m, a, n = compute_mark(nonbbo, today, now)
     assert m == 0.09 and n == "last/no-nbbo", (m, a, n)
@@ -370,7 +466,7 @@ def selftest():
         return ([{"strike": 77.0, "type": "P", "bid": 0.10, "ask": 0.12,
                   "last": 0.11, "last_trade": "2026-07-17 16:00"}], {})
     mk, asof, note = mark_row({"structure": "TLT Sep-30 77P x45"}, today, now, fetch=stub_fetch)
-    assert mk == 0.11 and note == "mid/stale-quote", (mk, asof, note)
+    assert mk == 0.11 and asof == now and note.startswith("mid/live-quote"), (mk, asof, note)
 
     # load/save round-trip preserves banner + header
     import tempfile
@@ -407,6 +503,30 @@ def selftest():
     assert calls["n"] == 3, calls
 
     # hard failure after retries -> propagates (row degrades to UNMARKED, never faked)
+    # --- spread marking: net = long leg minus short leg, both legs required
+    def two_leg_fetch(ticker, expiry, opt_type):
+        assert ticker == "VIXW", f"must fetch the option ROOT, not the underlying: {ticker}"
+        return ([{"strike": 20.0, "type": "C", "bid": 1.20, "ask": 1.26,
+                  "last": 1.23, "last_trade": f"{today.isoformat()} 15:30"},
+                 {"strike": 25.0, "type": "C", "bid": 0.50, "ask": 0.56,
+                  "last": 0.53, "last_trade": f"{today.isoformat()} 15:30"}], {})
+    mk, asof, note = mark_row(
+        {"structure": "VIX (VIXW) Aug-05 20C/25C call debit spread x4"},
+        today, now, fetch=two_leg_fetch)
+    assert mk == 0.7 and note.startswith("net-mid/live"), (mk, note)  # 1.23 - 0.53
+
+    # one dead leg => NO net mark. Marking a spread off its live leg alone would report a
+    # two-leg position at a one-leg value — worse than reporting nothing.
+    def one_dead_leg(ticker, expiry, opt_type):
+        return ([{"strike": 20.0, "type": "C", "bid": 1.20, "ask": 1.26,
+                  "last": 1.23, "last_trade": f"{today.isoformat()} 15:30"},
+                 {"strike": 25.0, "type": "C", "bid": None, "ask": None,
+                  "last": None, "last_trade": None}], {})
+    mk2, _a2, note2 = mark_row(
+        {"structure": "VIX (VIXW) Aug-05 20C/25C call debit spread x4"},
+        today, now, fetch=one_dead_leg)
+    assert mk2 is None and "NO-QUOTE" in note2, (mk2, note2)
+
     def always_fails(ticker, expiry, opt_type):
         raise RuntimeError("dead feed")
     rf2 = _make_run_fetch(base_fetch=always_fails, retries=1, sleep_s=0)
