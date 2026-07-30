@@ -83,13 +83,13 @@ Bought 7/27 at $0.70 (4 lots) as a long-vol convexity expression into the 7/28-2
 |---|---|
 | Thesis | **Mixed — and this is the interesting part.** The event VIOLET predicted *happened*. The trade still lost. Thesis was not refuted by the tape; the instrument failed to monetize it. |
 | Timing | Entry fine (2 sessions ahead of the catalyst). Exit was date-forced, not judgment. |
-| Structure | 🟡 **RE-GRADED (self-audit 7/30).** Was 🔴 "wrong — the primary cause." The spread itself was liquid, correctly sized, and — per VIOLET/PROME, pending verification — **went through its long strike.** The defect was in the **management spec**, not the structure. |
-| Management spec | 🔴 **WRONG — the primary cause.** Every trigger keyed to a further move; **none keyed to being in profit.** See below. |
+| Structure | 🟡 **RE-GRADED (self-audit 7/30).** Was 🔴 "wrong — the primary cause." The spread was liquid and correctly sized, and — per VIOLET, ⏳ still unverified — its **LONG 20C leg** went through its strike on the forward. ⚠️ **NOT "the spread went through its strike"** — see the Loss-cause note below; nobody has marked the 4-lot. The defect was in the **management spec**, not the structure. |
+| **Management spec** | 🔴 **WRONG — THE PRIMARY CAUSE, and the only row that carries that label.** Every trigger keyed to a further move; **none keyed to being in profit.** See below. |
 | Sizing | **Appropriate.** $287.70, under the $300 rec and the $500 cap, N_eff held at 1. A −38.8% loss on a correctly-sized lottery is a rounding error to the book. |
-| Entry | Disciplined. Filled at mark not limit; rule-#6 break justified with the refuting measurement, written before the fill. |
+| Entry | Disciplined. Filled **at the fill-moment mid** (not beaten — see the withdrawal note below); rule-#6 break justified with the refuting measurement, written before the fill. |
 | Exit | Disciplined — mandatory rule executed without drift, softening, or a roll. |
-| Liquidity | Fine. Both legs deep OI; the vertical traded inside its legs' quoted market. |
-| Vol/theta | 🔴 **Killed it.** Not theta — **forward beta.** |
+| Liquidity | Fine — both legs deep OI. ~~the vertical traded inside its legs' quoted market~~ 🔴 **WITHDRAWN 7/30 13:10 — that claim is UNPROVEN, not proven.** It rested on an execution finding built on an **inferred timestamp** (my marks were 21 min after the ~09:50 fill); reconstructing the fill-moment mid collapses the gap to zero. Textbook-true in general, **not evidenced here.** *(`finding_grade_execution_only_against_same_timestamp_marks`.)* |
+| Vol/theta | 🟡 **Contributory, NOT the cause** *(re-graded 7/30 13:10; previously 🔴 "Killed it — not theta, forward beta")*. Not theta. Forward beta is real but is **`beta(tenor)`, not a scalar**, and at this card's 9→6 DTE it is **~0.6**, not the 0.28 the original diagnosis used. **At ~0.6 the vehicle could plainly convert a correct call** — which is why the cause moved to the management spec and why VIOLET withdrew her own "losing trade by construction." |
 | Rules | **Followed.** No guard relaxed. Stand-down (i) correctly graded MOOT-not-tripped (entry guard, scope expired at fill) rather than reinterpreted in either direction. |
 | Calibration | Entry payoff estimate **+45–120%**; actual **−38.8%** → the estimated band **never contemplated the loss case**, which is itself a calibration defect. Exit-day center estimate −47% vs actual −38.8% (Will's better fill). Forward evaluation pre-registered at P≈20%. |
 
@@ -108,14 +108,22 @@ Bought 7/27 at $0.70 (4 lots) as a long-vol convexity expression into the 7/28-2
 
 **Compounding defect:** the trigger variable was **spot**; the payoff settles on the **forward**. Spot had to reach **23**; the position became profitable near spot ~20.7 / forward ~20.5. **The harvest trigger sat outside the path the trade actually travelled.** Same spot-vs-forward guard-spec defect flagged to VIOLET on 7/27 as an *entry*-guard issue — it was never only an entry-guard issue.
 
-⏳ **PENDING VERIFICATION:** **VIOLET** (forward ~20.5, *"first time through our 20 long strike"*) and **PROME** (*"in profit territory as recently as the 7/29 settle"*) both assert the position was **profitable at the 7/29 close** before giving it all back overnight. **TERRY has not verified this** and valuation asks are routed to both. If confirmed, it is direct proof of the primary cause above: a winning position with no rule to take it.
+⏳ **PENDING VERIFICATION — ⚠️ CLAIM NARROWED 2026-07-30 13:10, at VIOLET's own insistence and against her interest. Do not restore the wider wording.**
+
+~~VIOLET and PROME both assert the position was **profitable at the 7/29 close**.~~ **That overstated both sources.** What each actually said:
+- **VIOLET:** the **LONG 20C leg** was through its strike on the forward (~20.5, *"first time through our 20 long strike"*, ~0.5 ITM). She **never** said the spread exceeded the **$0.70 debit** and **marked no option prices** — **she is not a source for "profitable."**
+- **PROME:** has **re-labelled its own row an INFERENCE**, and confirms its line and VIOLET's forward are **one inference chain, not two corroborating sources.**
+
+**No broker or chain mark of the 4-lot at the 7/29 close exists anywhere.** A long leg through its strike is **not** the same as a 5-wide vertical above its debit — the short 25C also gains, and the spread can sit under $0.70 with the long leg ITM. **TERRY has not verified it; valuation asks are routed to both owners and it stays PENDING on an actual chain mark.**
+
+**⚠️ This does NOT weaken the primary cause, which is why the narrowing is safe to make honestly:** `NO_HARVEST_RULE` is established from the card's own §6 trigger set at **n=0** — *no trigger was keyed to being in profit* — and that is true whether or not the position was ever in profit. **If** a mark later confirms profit, it becomes direct proof rather than the load-bearing evidence.
 
 <details><summary>~~ORIGINAL DIAGNOSIS (2026-07-30 ~10:50) — retained as the record, superseded~~</summary>
 
 > ~~**A near-dated VIX call spread cannot capture a SPOT vol spike.** VIX options settle on the **forward**, which at ~9 DTE carried **beta ≈ 0.28 to spot** (derived by put-call parity at entry). Spot ripped +13.45%; the forward barely moved; our 20 strike never came into the money on the number that actually prices it.~~
 >
 > **Why it was withdrawn — two independent defects:**
-> 1. **The beta figure was wrong.** ≈0.28 came from a single **0.36-point** intraday move at the fill — noise. **Realized fill→exit beta was 0.53** (spot 19.85→18.37 = −1.48; forward 19.60→18.81 = −0.79).
+> 1. **The beta figure was wrong.** ≈0.28 came from a single **0.36-point** intraday move at the fill — noise. **Realized fill→exit beta was 0.53** (spot 19.85→18.37 = −1.48; forward 19.60→18.81 = −0.79). ⚠️ **0.53 was ITSELF superseded ~5 hours later (7/30 13:10) and is retained here only as the 11:55 state:** VIOLET's independent OLS (ΔM1~ΔVIX, n=246 CBOE settles) gives **`beta(tenor)` — 21–35 DTE 0.274 · 11–20 DTE 0.505 · ≤10 DTE 0.591** ⇒ **~0.6 for this card's 9→6 DTE.** **0.28 was the right number for the wrong tenor; 0.53 still understated.** Current figure lives in the Diagnosis table's Vol/theta row — **do not cite 0.53 forward.**
 > 2. **"The forward barely moved" is contradicted by the sources this postmortem was written from.** If the forward reached ~20.5 on 7/29 it went **through** the 20 strike — the structure **did** capture the move. The original text asserts the opposite without ever mentioning the claim, which sat in VIOLET's brief in my own inbox.
 >
 > *(The "aggravating detail" — that I derived the forward at entry, wrote the low-beta warning on the card, downgraded the payoff estimate, and left the strikes unchanged — remains factually true, but it is no longer the loss cause.)*

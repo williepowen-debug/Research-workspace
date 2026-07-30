@@ -33,6 +33,16 @@
 **`STATUS.md` (surgical, not rewrite):** header stamp + 🟢/🟡/🟠/🔴; refresh the live-state sections —
 what's BUILT, what's EXERCISED, what's PENDING, cards fired count, open Will-decisions. Keep it HONEST live state, not a "created ✅" checklist. <120 lines.
 
+### 🔴 STATUS banner discipline — **CURRENT STATE ON TOP, ALWAYS. REWRITE IT IN PLACE; NEVER APPEND BELOW IT.**
+
+> **The rule:** `STATUS.md` opens with a single **`★ CURRENT STATE`** block that is **rewritten in place every session**. Dated banners live **below** it, newest-first, and are **demoted, never promoted**. When a session corrects or withdraws a claim, **strike it inline in the banner that made it** *and* make sure the CURRENT STATE block carries the operative version. A struck claim stays visible; it does not stay *first*.
+>
+> **Why this is a rule and not a preference (RAV review, 2026-07-30).** This file was written append-below-a-dated-banner, so **the first thing any reader saw was by construction the most outdated state.** On 7/30 the ~10:40 banner still led with *"THE LOSS CAME FROM THE ENTRY"*, *"beta CORRECTED 0.53"* and *"MY EXECUTION WAS BEATEN, n=2"* — after later addenda **the same day** had superseded the first two and **withdrawn the third in full.** Three correction passes all appended *below* the wrong text instead of replacing it.
+>
+> ⚠️ **`boot.py` prints a "STATUS head" block, so the stale banner is literally the first thing the next session reads — and on 7/30 I read past it at my own boot.** That is what makes this a state defect rather than a formatting one: the file's most-read line was its least-current.
+>
+> ⚠️ **`ledger_sweep.py` CANNOT catch this and must not be extended to try.** Check B matches `(label, value)` pairs — it sees a struck *value*, not *"an old conclusion still appears first"* or *"a prose claim was narrowed."* A regex reaching for those reproduces the bare-numeric false-positive class (~123 hits, 7/30 morning) that made the tool useless. **This is a convention, enforced by write-back; the guard is deliberately not the answer.**
+
 **`MEMORY.md` (lean):** update the Current-Session block (Delivered / Pending); refresh Next-Session list (drop done, add deferred); append a **Durable Finding ONLY if** it's a new structural lesson that survives the episode (most sessions: no append). Promote a heavy Current-Session block to a one-line digest rather than letting it grow into a log.
 
 ---
