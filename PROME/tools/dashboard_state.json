@@ -1,5 +1,5 @@
 {
- "built": "2026-07-28 19:32",
+ "built": "2026-07-29 23:05",
  "channels": {
   "AI capex": "elev",
   "Credit": "elev",
@@ -13,7 +13,6 @@
   "2026-07-22 Hyperscaler Q2 filings useful-life watch \u2014 VULCAN pre-regist",
   "2026-07-23 LAB-17 claims window (w/e 7/18 + 7/25) + July flash PMI ~7/2",
   "2026-07-28 FOMC (no SEP/dots)",
-  "2026-07-28 First Brands Ch.7 plan-confirmation TRIAL OPENS (Lopez, SDTX",
   "2026-07-29 ARCC Q2 (Wed PRE-OPEN, call 12:00 ET \u2014 DATE VERIFIED 7/25 vs",
   "2026-07-29 CVNA Q2 earnings AMC (call 5:30pm ET) [CONF Businesswire via",
   "2026-07-29 Hyperscaler Q2 FCF (AMZN/MSFT/GOOG/META)",
@@ -31,7 +30,7 @@
   "2026-08-04 BDC Q2 marks cluster \u2014 RE-DATED (was 7/25..7/28; 7/25 is a S",
   "2026-08-04 MU FQ4 earnings (~8/4) \u2014 lane tripwire test #1",
   "2026-08-04 NY Fed Q2 Household Debt & Credit report \u2014 DATE UNANNOUNCED,",
-  "2026-08-06 Architecture SECOND WAVE (Will-approved 7/28): T2-b prome_ga",
+  "2026-08-06 Architecture SECOND WAVE (Will-approved 7/28; T2-b ALREADY S",
   "2026-08-06 MFIC Q2 \u2014 first on-record management post-WSJ sale report",
   "2026-08-07 CCLFX N-23C3A Q3 repurchase-cap decision \u2014 GATE-BRK-C1 resol",
   "2026-08-07 NFP July (Fri 8:30 ET)",
@@ -100,10 +99,8 @@
  },
  "one": "the acute Mideast tail is unwinding its premium without breaking its thesis \u2014 oil \u221211% in two sessions on a US-Iran strike *pause*, while not one of BRENT's seven frozen break/disarm conditions is met (Hormuz still closed, transits 17%, blockade in force, war-risk premia at cycle highs). Meanwhile the slow layer moved: HY widened +11bp in two sessions off a nine-session flat range, a $69B life insurer's related-party private-credit book was mis-stated by ~$9B and a federal grand jury is attached *(\u26a0\ufe0f AMENDMENT #1: this is a different mechanism from the one deep-research graded missing \u2014 SIG-720-001 STAYS PRE-MORTEM, wrapped-PC tripwires 0-of-4)*, and the market punished two megacaps specifically for AI capex against unproven returns four days before the four largest capex guiders report. Three live legs, $917.70 at risk, no shared falsifier. NEXUS split 30/30/40 (7/22 re-mark, unrefreshed).",
  "pending": [
-  "NONE\"",
-  "AD VIXCS stale kill line",
-  "GIT_COORDINATION 2 ratifications behind",
-  "HEARTBEAT BOJ drift \u2192 Amendment #3, Will-approved, 6 fixes zero threshold moves)"
+  "** \u2605 VIXCS exit [Approve] at live marks Thu AM",
+  "\u2605 MEMORY"
  ],
  "split": "Break 29 / Grind 31 / Unresolved 40",
  "v": 1
