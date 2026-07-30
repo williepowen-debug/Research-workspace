@@ -24,6 +24,29 @@ Usage:
  python3 fetch.py snapshot                       # compact one-liner per ticker
 """
 
+# Venv self-heal (2026-07-30, TERRY flag): root CLAUDE.md documents bare
+# `python3` invocation, but yfinance lives in .venv — and fetch.py imports it
+# LAZILY inside price_fetch/price_history, so caller-side import guards never
+# fire. Re-exec under the venv interpreter when available; exit 2 with the fix
+# printed when it is not. Never a raw traceback a caller could mistake for data.
+import os as _os, sys as _sys, pathlib as _pl
+_VENV_PY = _pl.Path(__file__).resolve().parents[3] / ".venv" / "bin" / "python3"
+if _os.environ.get("MKTDATA_REEXEC") != "1" and _VENV_PY.exists() \
+        and _pl.Path(_sys.prefix).resolve() != _VENV_PY.parents[1].resolve():
+    # NB: compare sys.prefix to the venv ROOT — .venv/bin/python3 is a SYMLINK
+    # to the base interpreter, so resolved-executable comparison always matches
+    # and silently skips the re-exec (caught live on first test, 2026-07-30).
+    _os.environ["MKTDATA_REEXEC"] = "1"
+    _os.execv(str(_VENV_PY), [str(_VENV_PY)] + _sys.argv)
+elif not _VENV_PY.exists():
+    try:
+        import yfinance  # noqa: F401 — probe only
+    except ImportError:
+        _sys.stderr.write(
+            "FATAL: yfinance unavailable and no venv found at %s\n"
+            "Fix: python3 -m venv .venv && .venv/bin/pip install yfinance pandas\n" % _VENV_PY)
+        _sys.exit(2)
+
 import json
 import os
 import sys
