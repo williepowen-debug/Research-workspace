@@ -18,7 +18,7 @@ Buy a small, defined-risk **VIX call debit spread** on Mon 7/27–Tue 7/28 that 
 
 ## 2. Preconditions (all must hold at fill)
 
-- ✅ **Thesis gate MET (VIOLET-side):** dealers short-gamma into FOMC, corroborated 5-of-6 trackers (HENRY 7/23: flip ~7,496, net GEX ~−$45B/1%, SPX −88pts below, put wall 7,300–7,400). All five prior absorptions this cycle happened under **LONG** gamma — the gamma sign flip is the *entire* differential.
+- ✅ **Thesis gate MET (VIOLET-side):** dealers short-gamma into FOMC, corroborated 5-of-6 trackers (HENRY 7/23: flip ~7,496 *[⚠️ retired 2026-07-28 — see §10B for the corrected 7,455/7,491 band]*, net GEX ~−$45B/1%, SPX −88pts below, put wall 7,300–7,400). All five prior absorptions this cycle happened under **LONG** gamma — the gamma sign flip is the *entire* differential.
 - ⬜ **VIX < 20 at fill** (registered window, KB-VIO-123 — the long-vol window is BEFORE the confirm).
 - ⬜ **Rule #6 (day-color):** VIX calls are bought on a **VIX-soft / equity-green** day. A soft Monday open fits. Filling on a VIX-up day = a rule break that must be written on the card with a reason.
 - ⬜ **Main book only.** This goes in the **main account** (cash $24,101 as-of 7/24), **not** the small satellite that capped the USO fill at $241.72 buying power on 7/24.
@@ -181,6 +181,10 @@ VIOLET supplied most of this and it is unusually strong for a packet arguing *fo
    > ⚠️ **UPGRADED 2026-07-26 (late) — this claim is stronger than the version I first graded.** Filing the packet at closeout, I found it had arrived **twice**: DEWEY's 7/20 original, and a 7/21 WALTER "backstop" reconstructed *from the handoff's routing table*. The backstop added evidence but **dropped the line `(KB-VIO-110 superseded)`** — i.e. **DEWEY originally framed the rates-vol-not-VIX-calls claim as SUPERSEDING a VIOLET knowledge-base entry.** A claim that supersedes a KB entry reads as **general**, not scoped to the mechanical-cushion case — which is materially stronger than the "adjacent, not refuting" grade above.
    >
    > **What this does and does not change.** It does **not** invalidate the trade: VIOLET's own constraint #1 bars a rates-vol expression here on *book* grounds (TRY-FIRE-004 already owns that leg — GATE-VIO-116), so "use rates-vol instead" is not available regardless of who is right about instrument pricing. **But it means the fleet holds two standing views pointing at opposite sides of the vol complex, with no adjudication between them, and one of them may formally supersede a VIOLET KB entry.** Routed to DEWEY (does item 2 supersede KB-VIO-110 *generally*?) and flagged to VIOLET. **Treat counter-case #8 as carrying more weight than its original wording, pending DEWEY's answer** — it is a reason to keep the size at the low end of the $300–400 band, not a reason to stand down.
+
+   > ### 🟢 CORRECTED 2026-07-29 — DEWEY RETRACTED THE CLAIM AS UNSOURCED; downgrade reversed
+   > **DEWEY's 7/28 packet:** the "VIX-call structures overpay" claim has **zero hits** in the canonical report it was supposedly drawn from, and the one input that would actually decide the instrument question (vol-control keying: implied vs. trailing-realized vol) was **never pulled** ("session WebSearch budget exhausted"). It is not a scoped-vs-general claim to adjudicate — **it is unsourced, full stop**, and should not have reached this card. **VIOLET separately confirmed KB-VIO-110 was never the supersession vehicle either** (that row lapsed 7/9 on an unrelated gate-registration matter, eleven days before DEWEY wrote — the pointer was vacuous, not confirmatory).
+   > **Net: counter-case #8 reverts to 🟡 "adjacent, not refuting"** — my original grade. The "upgrade" above was the error, not the downgrade. This does not change sizing (4 spreads was already the low end for other, independent reasons — counter-case #7's original weight, the 0-for-5 base rate) or the exit mechanics in §10.
 
 9. 🟡 **The "index vol is cheap" argument is circular, and I want it stated plainly.** WALTER `SIG-W-20260725-015` (3Fourteen 7/23): index vol **16.6** vs single-stock vol **50.2**, record-low implied correlations, semis at second-highest constituent vol on record. Read one way that is *bullish* for this trade — index vol is cheap, buy it. But **record-low correlation is precisely the mechanism suppressing it** — and that is VIOLET's own counter-case #5 (KB-VIO-126). So: **we are buying something cheap *because it is being actively suppressed*. That is not a free lunch — the suppression has to break for it to pay.** Cheapness and pinning are the same fact wearing two hats.
 
@@ -374,7 +378,7 @@ I am not going to dress this up. **The price is excellent and the clock is terri
 
 ### ✅ VIOLET returned **CONDITIONAL-GO** (11:10 ET) — thesis gate MET, low conviction
 
-Gamma gate met: SPX 7,410.38 vs flip ~7,496 = **−85.6pts** (registration −88pts, essentially unchanged geometry); session low **7,388.33 entered the 7,300–7,400 put wall for the first time and rejected.** **She explicitly endorses N_eff = 1** — "nothing today made it multi-source." **Stand-down #3 cleared by its owner**, on wording *and* rationale.
+Gamma gate met: SPX 7,410.38 vs flip ~7,496 *(point-in-time — correct as of this Monday grade; the line was retired 7/28, see §10B)* = **−85.6pts** (registration −88pts, essentially unchanged geometry); session low **7,388.33 entered the 7,300–7,400 put wall for the first time and rejected.** **She explicitly endorses N_eff = 1** — "nothing today made it multi-source." **Stand-down #3 cleared by its owner**, on wording *and* rationale.
 
 **Her stand-downs, adopted onto this card:**
 
@@ -384,7 +388,7 @@ Gamma gate met: SPX 7,410.38 vs flip ~7,496 = **−85.6pts** (registration −88
 | 2 | **VIX spot ≥20 before fill** | 🔴 **LIVE, 0.50 away** (19.50 now; session high 19.71) → pull the order |
 | 3 | **VIX ≥20 SETTLE tonight** | → window EXPIRED; VIOLET withdraws the GO. **Do not enter Tuesday off a ≥20 Monday settle** |
 | 4 | **VIX3M/VIX <1.0 on a settle** | 1.061 now (Fri 1.104) — compressing, but she is **not** moving this guard despite the compression being event-driven |
-| 5 | 🆕 **SPX closes above ~7,496** | gamma gate falsified → thesis **NO-GO**. **+1.16% away — VIOLET says this is the one to watch, not VIX** |
+| 5 | 🆕 **SPX closes above ~7,491 [🔴 falsified] · ⚠️ warn 7,455** — *corrected 2026-07-29, see §10B; ~7,496 retired (was HENRY's stalest/highest chain, 7/23)* | gamma gate falsified above 7,491 → thesis **NO-GO**. **VIOLET says this is the one to watch, not VIX. 7/29 close 7,316.15 = 138.85pts / 1.90% below the warn line — zero exposure today.** |
 
 *Minor unreconciled data point, flagged not buried:* VIOLET has today's VIX open at **17.62 / low 17.53**; my yfinance 15-min bars show the early session at **18.08–18.25**. Likely official-index-open vs bar-aggregation. **Immaterial to the conclusion — both readings agree VIX gapped DOWN, not up**, and hers is the stronger version of the same finding.
 
@@ -409,3 +413,79 @@ Gamma gate met: SPX 7,410.38 vs flip ~7,496 = **−85.6pts** (registration −88
 
 ---
 *Thesis owner VIOLET — TERRY does not own the vol call and has not re-underwritten it. Structure, expiry, strikes, sizing, entry discipline and the counter-case additions (§7 items 7–10) are TERRY's. Quotes in §9 are weekend-stale by construction and are barred from use at fill.*
+
+---
+
+## 10. 2026-07-29 PRE-EXIT ADDENDUM — day grade, falsifier-line correction, 7/30 MANDATORY EXIT RUNBOOK
+
+**Written 2026-07-29 ~22:10 ET, market closed. NO fills tonight, NO option marks cited as current (root rule #4 — live chain required before any actionable level; market is shut).** Fleet was offline all day 7/29 (usage outage) — this is the first session to touch the card since the 7/27 fill. No VIOLET exit-morning brief had landed in `inbox/` as of this write-up (checked; newest inbox items are 7/28-dated) — proceeding without it per task instruction.
+
+### A. 7/29 day grade — graded by nobody intraday; EOD-only, after the fact
+
+| Metric | Open | High | Low | Close | Source |
+|---|---|---|---|---|---|
+| VIX | 18.27 | **20.88** | 17.45 | 20.66 (+13.45%) | yfinance `^VIX`, 7/29 daily bar, pulled 7/29 ~22:10 ET |
+| SPX (^GSPC) | 7,418.16 | 7,450.84 | 7,313.92 | **7,316.15 (−1.52%)** | yfinance `^GSPC`, same pull |
+| VIX3M | 20.31 | 21.65 | 19.49 | 21.50 | yfinance `^VIX3M` |
+| VIX3M/VIX ratio (close) | — | — | — | **1.041** | derived, 21.50/20.66 |
+| SKEW | — | — | — | 139.55 (−2.40%) | yfinance `^SKEW`; 2-session path 146.60 (7/27) → 142.98 (7/28) → 139.55 (7/29) |
+
+**Frozen §6 management triggers checked against today's full range — none fired:**
+- **VIX ≥23 touch → sell ≥half:** NOT triggered. Day high 20.88, **2.12pts below 23.**
+- **VIX3M/VIX <1.0 settle → sell the rest:** NOT triggered. Close ratio 1.041, still >1.0.
+- **SKEW crashing during a spike = the top, sell don't admire:** **This is the one live tell to carry into tomorrow.** SKEW fell −2.40% today (2nd straight session down, −4.8% over 2 sessions) while VIX spiked +13.45% — that is the textbook shape of this rule. It is **not** a hard mechanical trigger (no threshold is defined on the card) and **VIOLET owns the read**, not TERRY — flagged here so it's visible at the open, not buried.
+- **Thesis falsifier (gamma gate, corrected — see §B):** SPX close 7,316.15 is **138.85pts / 1.90% below the ⚠️7,455 warn line.** Day high 7,450.84 also stayed **4.16pts under the warn line** intraday. **Zero kill-band exposure today, under either the retired or the corrected line.**
+
+**Honest framing:** nobody graded this intraday — the outage means today's ±13% VIX range and −1.52% SPX close were never watched live. Nothing in the EOD record suggests a trigger was missed (all triggers are comfortably clear even at the day's most extreme prints), but this is a process gap, not a clean pass, and it's recorded as one.
+
+### B. ⚠️ Falsifier line CORRECTED — the card's ~7,496 is RETIRED
+
+Consumed two 7/28 inbox packets that sat unread through the outage: `2026-07-28_from-VIOLET_KB-VIO-110-answer...` and `2026-07-28_from-PROME_your-surfaces-carry-the-retired-7496-line-enumeration.md`.
+
+| | Old (this card, §2/§8/§Decision as originally written) | **New, as of 7/28, consumed 7/29** |
+|---|---|---|
+| Gamma-flip line | SPX close > **~7,496** | **⚠️ warn 7,455 · 🔴 falsified 7,491** |
+| Why it moved | HENRY's 7/23 chain — simultaneously the **stalest and the highest** flip estimate in the set | Independent 7/27 cluster (ZeroGEX 7,453.69 / core-brief ~7,465 / Modigin 7,452 / InsiderFinance 7,431) runs **26–38pts lower**, net GEX itself well-corroborated (−$34.3B vs −$34.4B) — it was specifically the level that was weakly sourced |
+| Headroom (from a 7,413.18 reference close) | +82.8pts / +1.12% | **+41.8pts / +0.56%** |
+
+**Consequence VIOLET flagged and it stands: the live way this position dies is a RELIEF rally, not a crash.** An ordinary ~0.6% post-FOMC bounce now falsifies the gamma gate. **This is the branch to watch tomorrow morning, corrected — do not grade against 7,496.**
+
+**Surfaces updated this session (operative, forward-looking cells):** `STATUS.md` pickup item 0, and §Decision stand-down table row 5 below. **Surfaces left as point-in-time record, per PROME's own guidance ("annotate-don't-rewrite is fine" for row-records):** §2 precondition text, §8 Monday-grade math, `SETUPS.tsv`, `TRADE_BOOK.md`, `PAPER_BOOK.tsv` PB-0003 — those were correct **at the time they were written** and are dated records, not live thresholds.
+
+**Two smaller inbox items, closed, no card-mechanics impact:**
+- **DEWEY retracted counter-case #8** (`2026-07-28_from-DEWEY_RETRACTION...`) — the "VIX-call structures overpay" claim was **UNSOURCED**: zero hits for it in DEWEY's own canonical report, and the one input that would decide it (vol-control keying variable) was never pulled. **Restored to 🟡 adjacent-not-refuting**, per VIOLET's request — my 7/26-late upgrade to "stronger than adjacent" is retracted; it rested on a supersession pointer (KB-VIO-110) that turned out to be vacuous for an unrelated reason (VIOLET: that row lapsed 7/9, eleven days before DEWEY wrote, on a gate-registration matter that never bore on vehicle choice). Does not change sizing (already at the low end for other reasons) or exit mechanics.
+- **NEXUS answered the fleet effective-N question** (`2026-07-28_from-NEXUS...`) — confirms the antecedent-map instrument already runs fleet-wide and independently reaffirms N_eff=1 for this card's driver set. **Logged CONVERGED, no card action.**
+
+### C. 7/30 EXECUTION RUNBOOK — the morning is EXECUTE-ONLY
+
+**This exit fires REGARDLESS OF P/L. No roll (any roll = fresh Will approval from scratch, not an extension of this card). No expiry drift — hard-dated, not value-dated.**
+
+**Step 1 — at the open, pull (live, before any decision):**
+```bash
+cd "$(git rev-parse --show-toplevel)"
+.venv/bin/python FORGE/tools/market-data/fetch.py price "^VIX" "^VIX3M" "^GSPC" "^SKEW"
+.venv/bin/python AGENTS/TERRY/scripts/chain_fetch.py "^VIX" 2026-08-05 --type call --window 1.2 --no-cache
+```
+Pull **both legs** of the live 4-lot position: VIXW Aug-05 **20C** (long) and **25C** (short) — bid/ask/mark/OI on each, and the net **mid** of the vertical (long-bid−short-ask on the conservative side, long-ask−short-bid on the aggressive side — bracket it, don't guess).
+
+**Step 2 — order shape (never leg it, never market-order — same discipline as entry):**
+- **Single spread order, SELL-TO-CLOSE the vertical, 4 contracts, for a net CREDIT, limit only.**
+- **Start the limit at the computed mid.**
+- **Walk-down ladder if unfilled:** step the limit ~5–10% of the credit toward the bid every ~10–15 minutes. Do not chase in one jump.
+- **Floor:** if the walk-down reaches the bid and it still hasn't filled, that is the signal to move to the deadline branch (below), not to keep waiting past it.
+
+**Step 3 — three branches, in priority order:**
+
+**(i) Sell-into-strength branch — overrides the walk-down, triggers immediately on ANY of:**
+- **VIX prints ≥23** (spot, intraday touch — the frozen Target 1 trigger). → Don't wait for a slow walk-down: **cross to the bid immediately for at least 2 of the 4 contracts** (the "sell at least half, into strength" instruction), then work the remaining 2 normally within the same-day deadline.
+- **VIX3M/VIX <1.0 on a print** (term-structure inversion, Target 2). → **Cross to the bid for all remaining contracts.** This is the "sell the rest" instruction and it does not wait for a better price.
+- **SKEW drops sharply while VIX is spiking** (the peak tell flagged in §A — no hard number, judgment call). → Bias toward crossing rather than waiting; this is corroborating context for the two triggers above, not an independent hard trigger.
+
+**(ii) Base branch — no strength trigger fires:**
+- Work the walk-down ladder through the regular session. Target a fill by mid-to-early afternoon — don't dump it at the open into a wide opening-auction spread, and don't let it drift to the close either.
+
+**(iii) Deadline branch — hard backstop, "mandatory" cannot drift:**
+- **Hard close-by time: 3:45 PM ET.** If unfilled by then, **cross the spread at the bid** to guarantee completion with a buffer before the 4:00 PM close (avoids MOC illiquidity / any settlement-timing risk on the position's own resolution day).
+- **A NO-FILL by end of day is not an option.** If the walk-down and the 3:45 PM cross both somehow fail (e.g., a data/broker outage), that is an escalation to Will in real time, not a silent carry to Friday.
+
+**What Will must do:** **one [Approve]** on the exit order at tomorrow's live marks — order shape, not a fresh thesis re-underwrite. **Framing reminder, from the card's own §6:** the realistic payoff is **~+45% to +120% on the $0.70 debit (~+$130 to +$380 on the $287.70 at risk)**, not the 5-wide's max/at-expiry value — that number requires holding to 8/5 expiry above 25, which this exit rule explicitly forbids collecting. **Nobody should anchor on the headline ratio tomorrow morning.**
