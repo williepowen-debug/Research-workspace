@@ -151,6 +151,38 @@ check("11d backfill append allowed", st, "appended")
 msg4 = describe("skip-past", "2026-07-29", {"note": ("FOMC", "AMZN")}, "CHEAP_TAIL.tsv")
 check("12 skip-past says NOT written", "NOT written" in msg4 and "⚠️" in msg4, True)
 
+# 13 — COMPOSITE KEY (VIX_OPTIONS.tsv is one row per (date, expiry)). Two rows
+#      sharing a date must NOT collide; the wrong one being updated would be a
+#      silent data swap, so this is tested before the wiring is trusted.
+KCOLS = ["date", "expiry", "call_oi", "call_vol", "state", "stamp_utc"]
+p9 = fresh()
+upsert_row(p9, KCOLS, ["2026-07-30", "2026-08-05", "100", "10", "-", "t1"],
+           key_cols=["date", "expiry"], today="2026-07-30")
+st, ch = upsert_row(p9, KCOLS, ["2026-07-30", "2026-08-19", "200", "20", "-", "t1"],
+                    key_cols=["date", "expiry"], today="2026-07-30")
+check("13 same date, new expiry -> appended", st, "appended")
+check("13 both rows present", len(rows(p9)), 2)
+
+# 13b — updating one expiry must leave its same-date sibling untouched.
+st, ch = upsert_row(p9, KCOLS, ["2026-07-30", "2026-08-05", "100", "99", "-", "t2"],
+                    key_cols=["date", "expiry"], today="2026-07-30")
+check("13b right row updated", (st, rows(p9)[0][3]), ("superseded", "99"))
+check("13b sibling untouched", rows(p9)[1][3], "20")
+check("13b volume change reported", ch.get("call_vol"), ("10", "99"))
+
+# 13c — the after-hours OI=0 artifact must NOT overwrite a good stored OI.
+#       (0 is a real value, not a null, so this is guarded by the CALLER passing
+#       "" — assert the merge honours that, which is what vix_options relies on.)
+st, ch = upsert_row(p9, KCOLS, ["2026-07-30", "2026-08-05", "", "150", "-", "t3"],
+                    key_cols=["date", "expiry"], today="2026-07-30")
+check("13c blank OI preserves stored", rows(p9)[0][2], "100")
+check("13c volume still updates", rows(p9)[0][3], "150")
+
+# 14 — state_col=None (vix_options has no state column) must not crash describe().
+msg5 = describe("superseded", "2026-07-30", {"call_vol": ("10", "99")},
+                "VIX_OPTIONS.tsv", state_col=None)
+check("14 no state col -> values-moved wording", "↻ values moved" in msg5, True)
+
 print()
 if FAILS:
     print(f"❌ {len(FAILS)} FAILED\n" + "\n".join(FAILS))

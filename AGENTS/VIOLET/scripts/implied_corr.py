@@ -50,6 +50,9 @@ from zoneinfo import ZoneInfo
 
 VIOLET_DIR = Path(__file__).resolve().parents[1]
 LEDGER = VIOLET_DIR / "workbook" / "IMPLIED_CORR.tsv"
+
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from _daily_log import upsert_row, describe  # noqa: E402
 ET = ZoneInfo("America/New_York")
 COLS = ["date", "cor1m", "cor3m", "cor30d", "vix", "constituent_vol_est",
         "cor1m_prev_close", "basis", "source_ts", "note"]
@@ -107,15 +110,21 @@ def main(argv=None) -> int:
         "note": "constituent_vol_est is DERIVED VIX/sqrt(rho), first-order, DIRECTION-ONLY",
     }
 
-    if not LEDGER.exists():
-        with LEDGER.open("w", newline="") as f:
-            csv.DictWriter(f, fieldnames=COLS, delimiter="\t").writeheader()
-    existing = {r["date"] for r in csv.DictReader(LEDGER.open(newline=""), delimiter="\t")}
-    wrote = False
-    if row["date"] not in existing and cor1m is not None:
-        with LEDGER.open("a", newline="") as f:
-            csv.DictWriter(f, fieldnames=COLS, delimiter="\t").writerow(row)
-        wrote = True
+    # UPSERT, not append-once (KB-VIO-160/163) — see scripts/_daily_log.py.
+    # The old guard was `if row["date"] not in existing: append`, which had TWO
+    # consequences here, and the second was invisible:
+    #   1. an intraday move could never reach the ledger (the shared defect); and
+    #   2. the TICK->SETTLE basis upgrade above was UNREACHABLE DEAD CODE — a row
+    #      first written before 16:15 ET stayed `TICK` forever, so this ledger
+    #      had never once recorded a SETTLE despite computing the flag every run.
+    # That matters more here than anywhere else: `^COR*` has no daily history via
+    # yfinance, so this series CANNOT be backfilled — a value lost is lost.
+    log_msg = "· skipped (no COR1M this run)"
+    if cor1m is not None:
+        status, changes = upsert_row(LEDGER, COLS, [row[c] for c in COLS],
+                                     state_col="basis")
+        log_msg = describe(status, row["date"], changes, LEDGER.name,
+                           state_col="basis")
 
     d = None
     if cor1m and prev1m:
@@ -128,7 +137,7 @@ def main(argv=None) -> int:
         print(f"  prev COR1M close {prev1m}")
         print(f"  ⚠️  constituent_vol_est is DERIVED (VIX/sqrt(rho)) — DIRECTION ONLY, never a level.")
         print(f"  ⚠️  KB-VIO-126 hook: correlations RISE + constituent vol FALLS => benign pattern wins.")
-    print(f"  {'✓ appended' if wrote else '· row exists'} {LEDGER.name}")
+    print(f"  {log_msg}")
     return 0
 
 

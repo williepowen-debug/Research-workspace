@@ -71,8 +71,15 @@ def upsert_row(
     state_col: str | None = "state",
     supersede: bool = True,
     today: str | None = None,
+    key_cols: list[str] | None = None,
 ) -> tuple[str, dict]:
-    """Insert or update the row for `row[date_col]` in a headed TSV.
+    """Insert or update the row identified by `key_cols` (default `[date_col]`).
+
+    `key_cols` exists because not every ledger is one-row-per-date:
+    `VIX_OPTIONS.tsv` is one row per **(date, expiry)**. The identity of a row
+    and the date used by the today-only guard are two different things, so they
+    are two different parameters — collapsing them is how a composite-key
+    ledger silently gets one row clobbered by another.
 
     Returns ``(status, changes)`` where status is one of ``appended`` /
     ``skip-identical`` / ``superseded`` / ``skip-exists`` / ``skip-past`` and
@@ -109,9 +116,15 @@ def upsert_row(
     date_key = _fmt(row[d_idx])
     new_cells = [_fmt(v) for v in row]
 
+    k_idx = [cols.index(c) for c in (key_cols or [date_col])]
+    want_key = [new_cells[i] for i in k_idx]
+
     hit = None
     for i, line in enumerate(body):
-        if line.split("\t")[d_idx : d_idx + 1] == [date_key]:
+        cells = line.split("\t")
+        if len(cells) <= max(k_idx):
+            continue
+        if [cells[i] for i in k_idx] == want_key:
             hit = i
             break
 

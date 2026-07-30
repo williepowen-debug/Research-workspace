@@ -28,6 +28,9 @@ SCRIPT_DIR = Path(__file__).resolve().parent
 VIOLET_DIR = SCRIPT_DIR.parent
 DAILY_LOG = VIOLET_DIR / "workbook" / "VIX_OPTIONS.tsv"
 
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from _daily_log import upsert_row  # noqa: E402
+
 LOOKAHEAD_DAYS = 60
 TOP_N_STRIKES = 5
 NOTABLE_OI = 100_000  # flag individual strikes holding >= 100K contracts
@@ -116,81 +119,138 @@ def _summarize_totals(expiries: list[dict]) -> dict:
     }
 
 
-def append_to_log(snapshot: dict) -> int:
+def append_to_log(snapshot: dict) -> tuple[int, int]:
+    """UPSERT rows keyed on (date, expiry) — KB-VIO-163, see scripts/_daily_log.py.
+
+    Was first-write-wins on that composite key, so whichever run happened first
+    each day froze the whole day's snapshot. **Volume accumulates through the
+    session**, so a morning boot pinned `call_vol`/`put_vol` at their partial
+    early-session values and no later run could correct them — the ledger read
+    as an end-of-day snapshot while carrying a 09:00 one. (OI is the milder
+    leg: it updates once daily, and after-hours runs print OI=0, a documented
+    artifact — the NULL-preserving merge keeps a good stored OI rather than
+    letting a 0 overwrite it.)
+
+    Returns (appended, updated).
+    """
     if not DAILY_LOG.exists():
-        return 0
-    # Read existing (date, expiry) pairs to avoid duplicate rows
-    existing = set()
+        return 0, 0
     with open(DAILY_LOG) as f:
-        reader = csv.DictReader(f, delimiter="\t")
-        header = reader.fieldnames or []
-        for row in reader:
-            if row.get("date") and row.get("expiry"):
-                existing.add((row["date"], row["expiry"]))
+        header = csv.DictReader(f, delimiter="\t").fieldnames or []
+    if not header:
+        return 0, 0
 
-    appended = 0
-    with open(DAILY_LOG, "a") as f:
-        for e in snapshot["expiries"]:
-            if "_error" in e:
-                continue
-            key = (snapshot["as_of"], e["expiry"])
-            if key in existing:
-                continue
-            top = e["top_call_strikes"]
-            top_strikes = ",".join(str(int(r["strike"])) for r in top)
-            top_oi = ",".join(str(r["oi"]) for r in top)
-            top_vol = ",".join(str(r["vol"]) for r in top)
-            row = {
-                "date": snapshot["as_of"],
-                "expiry": e["expiry"],
-                "dte": e["dte"],
-                "call_oi": e["call_oi"],
-                "call_vol": e["call_vol"],
-                "put_oi": e["put_oi"],
-                "put_vol": e["put_vol"],
-                "cp_oi_ratio": e["cp_oi_ratio"],
-                "cp_vol_ratio": e["cp_vol_ratio"],
-                "top_call_strikes": top_strikes,
-                "top_call_oi": top_oi,
-                "top_call_vol": top_vol,
-                "vix_spot": snapshot["vix_spot"],
-                "source_ts": snapshot["source_ts"],
-            }
-            f.write("\t".join(str(row.get(col, "")) for col in header) + "\n")
+    appended = updated = 0
+    for e in snapshot["expiries"]:
+        if "_error" in e:
+            continue
+        top = e["top_call_strikes"]
+        row = {
+            "date": snapshot["as_of"],
+            "expiry": e["expiry"],
+            "dte": e["dte"],
+            "call_oi": e["call_oi"],
+            "call_vol": e["call_vol"],
+            "put_oi": e["put_oi"],
+            "put_vol": e["put_vol"],
+            "cp_oi_ratio": e["cp_oi_ratio"],
+            "cp_vol_ratio": e["cp_vol_ratio"],
+            "top_call_strikes": ",".join(str(int(r["strike"])) for r in top),
+            "top_call_oi": ",".join(str(r["oi"]) for r in top),
+            "top_call_vol": ",".join(str(r["vol"]) for r in top),
+            "vix_spot": snapshot["vix_spot"],
+            "source_ts": snapshot["source_ts"],
+        }
+        status, _changes = upsert_row(
+            DAILY_LOG, header, [row.get(c, "") for c in header],
+            key_cols=["date", "expiry"], state_col=None,
+        )
+        if status == "appended":
             appended += 1
-    return appended
+        elif status == "superseded":
+            updated += 1
+    return appended, updated
 
 
-def detect_dod_changes() -> list[dict]:
-    """Compare today's OI to yesterday's for the same expiry. Flag >20% moves at large strikes."""
+def is_oi_artifact(call_oi, call_vol) -> bool:
+    """True if a row's open-interest leg is the documented after-hours artifact.
+
+    yfinance serves OI=0 (or a token value) outside RTH while still returning a
+    real volume figure. **Open interest below a single day's volume for an entire
+    expiry is structurally impossible** — OI is a cumulative outstanding balance,
+    volume is one session's trades — so `call_oi < call_vol` is a principled
+    discriminator rather than a tuned threshold.
+
+    Base-rated over the full ledger before adoption (2026-07-30, n=132):
+      · flags **34 rows (25.8%)**, vs 28 for a bare `call_oi == 0` test — so it
+        catches **6 non-zero artifacts** the obvious test misses (OI 6 / 47 / 47 /
+        484 / 1,146 / 1,146 against volumes of 58k–181k);
+      · **zero** rows with OI > 50k are flagged (no false positives);
+      · negative control: the 98 clean rows have a median OI/volume of **7.9×**.
+    The two populations are separated by orders of magnitude, not by a hair.
+    """
+    try:
+        oi, vol = int(float(call_oi)), int(float(call_vol))
+    except (TypeError, ValueError):
+        return True
+    return oi < vol
+
+
+def detect_dod_changes() -> tuple[list[dict], list[str]]:
+    """Compare today's OI to the prior date's, per expiry. Flag >20% moves.
+
+    ⚠️ **Artifact-guarded since 2026-07-30 (KB-VIO-164).** This compared raw OI
+    across dates with no idea that ~1 in 4 stored rows carries the after-hours
+    OI artifact, so it emitted nonsense: on 7/30 it reported
+    `2026-08-19 call_oi: 1,146 → 3,785,644 (+330,235%)` — a pure artifact-to-real
+    transition, not a positioning move. **The silent direction is worse than that
+    loud one:** when TODAY is the artifact row, a real OI build reads as a
+    collapse to zero and the >20% test fires on garbage or, once dismissed as
+    "the usual after-hours thing," gets ignored entirely.
+
+    Skipped comparisons are RETURNED and printed, never silently dropped — a
+    detector that quietly compares nothing looks identical to one that found
+    nothing (`finding_silent_blank_evades_review`).
+
+    Returns (alerts, skip_notes).
+    """
     if not DAILY_LOG.exists():
-        return []
+        return [], []
     import pandas as pd
     try:
         df = pd.read_csv(DAILY_LOG, sep="\t", parse_dates=["date"])
     except Exception:
-        return []
+        return [], []
     if df.empty or df.date.nunique() < 2:
-        return []
-    # Latest date and prior distinct date, per expiry
-    alerts = []
+        return [], []
+    alerts, skipped = [], []
     latest = df.date.max()
     prior_dates = sorted(df.date.unique())
     if len(prior_dates) < 2:
-        return []
+        return [], []
     prior = prior_dates[-2]
     for exp, group in df.groupby("expiry"):
         if latest not in group.date.values or prior not in group.date.values:
             continue
         t = group[group.date == latest].iloc[0]
         p = group[group.date == prior].iloc[0]
+        t_art = is_oi_artifact(t.call_oi, t.call_vol)
+        p_art = is_oi_artifact(p.call_oi, p.call_vol)
+        if t_art or p_art:
+            which = "today" if t_art and not p_art else ("prior" if p_art and not t_art else "both")
+            skipped.append(
+                f"{exp}: OI comparison SKIPPED — {which} row carries the after-hours "
+                f"OI artifact (prior oi={int(p.call_oi):,}/vol={int(p.call_vol):,}, "
+                f"today oi={int(t.call_oi):,}/vol={int(t.call_vol):,})"
+            )
+            continue
         if p.call_oi and abs(t.call_oi - p.call_oi) / p.call_oi > 0.20 and t.call_oi > NOTABLE_OI:
             alerts.append({
                 "expiry": exp, "metric": "call_oi",
                 "prior": int(p.call_oi), "current": int(t.call_oi),
                 "pct_change": round((t.call_oi - p.call_oi) / p.call_oi * 100, 1),
             })
-    return alerts
+    return alerts, skipped
 
 
 def print_report(snapshot: dict):
@@ -218,11 +278,17 @@ def print_report(snapshot: dict):
                 print(line)
 
     # DoD alerts
-    alerts = detect_dod_changes()
+    alerts, skipped = detect_dod_changes()
     if alerts:
         print("\n  📊 DAY-OVER-DAY OI MOVES (>20% at notable strikes):")
         for a in alerts:
             print(f"    {a['expiry']}  {a['metric']}: {a['prior']:,} → {a['current']:,} ({a['pct_change']:+.1f}%)")
+    if skipped:
+        # Loud on purpose: a detector that quietly compared nothing is
+        # indistinguishable from one that found nothing.
+        print(f"\n  ⚠️  {len(skipped)} OI comparison(s) SKIPPED (after-hours OI artifact):")
+        for note in skipped:
+            print(f"    · {note}")
 
 
 def main(argv=None):
@@ -232,20 +298,25 @@ def main(argv=None):
     args = p.parse_args(argv)
 
     snapshot = fetch_snapshot()
-    appended = 0 if args.no_append else append_to_log(snapshot)
+    appended, updated = (0, 0) if args.no_append else append_to_log(snapshot)
 
     if args.json:
         out = dict(snapshot)
         out["rows_appended"] = appended
-        out["dod_alerts"] = detect_dod_changes()
+        out["rows_updated"] = updated
+        _alerts, _skipped = detect_dod_changes()
+        out["dod_alerts"] = _alerts
+        out["dod_skipped"] = _skipped
         print(json.dumps(out, indent=2, default=str))
         return 0
 
     print_report(snapshot)
+    parts = []
     if appended:
-        print(f"\n  ✓ appended {appended} row(s) to VIX_OPTIONS.tsv")
-    else:
-        print(f"\n  · VIX_OPTIONS.tsv already has today's rows (skip)")
+        parts.append(f"appended {appended} row(s)")
+    if updated:
+        parts.append(f"↻ UPDATED {updated} existing row(s) — intraday values moved")
+    print(f"\n  {'✓ ' + ' · '.join(parts) if parts else '· no change'} in VIX_OPTIONS.tsv")
     return 0
 
 
