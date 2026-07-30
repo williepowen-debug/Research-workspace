@@ -121,6 +121,26 @@ def check_docket_overdue():
            "PROME/DOCKET.tsv (grade, re-date, or annotate OVERDUE + owner)")
 
 
+def check_heartbeat_chain():
+    """HEARTBEAT amendment-chain length vs the ~5 re-base rule (Cadence section).
+    The rule lived in prose on 5+ surfaces and in no script until 2026-07-30
+    (DAEDALUS FORGE-audit follow-up, gap (a)) — it held at chain=4 on memory,
+    twice. Advisory: warn at 4 (plan the re-base), and at >=5 the rule's own
+    trip has occurred. [[finding_mechanize_the_cap_not_the_ritual]]"""
+    path = ROOT / "HEARTBEAT.md"
+    try:
+        n = len(re.findall(r"^> ## AMENDMENT #\d+", path.read_text(encoding="utf-8"), re.M))
+    except Exception as e:
+        record(ADVISE, "HEARTBEAT chain length", False, f"unreadable: {e}", "HEARTBEAT.md")
+        return
+    ok = n < 4
+    detail = (f"chain at {n} amendment(s)" +
+              ("" if ok else " — re-base rule trips at ~5: plan it into the next substantive session"
+               if n == 4 else " — the ~5 trip HAS OCCURRED: re-base (draft->Will->archive-verbatim) is due"))
+    record(ADVISE, "HEARTBEAT amendment chain (<4)", ok, detail,
+           "HEARTBEAT.md Cadence section (re-base = draft -> Will approval -> archive verbatim)")
+
+
 def check_dashboard_state():
     """The publisher's own blank panels — the 4-day silent regression class.
     BLOCKING on emptiness (a degraded Will-facing page), advisory on vintage."""
@@ -177,6 +197,7 @@ def mode_boot():
                "scripts/firetime_allowlist.tsv · DATE flag = full logic re-read, never find-replace")
     check_gates_tsv()
     check_docket_overdue()
+    check_heartbeat_chain()
     check_dashboard_state()
     check_symmetry()
 
@@ -186,6 +207,7 @@ def mode_closeout():
                "--all", "--quiet"], "owner STATUS is canonical")
     check_gates_tsv()          # FIRED-UNEXECUTED must never leave a session
     check_docket_overdue()
+    check_heartbeat_chain()    # the ~5-amendment re-base rule, mechanized (was prose-only on 5 surfaces)
     check_dashboard_state()    # Standard+ closeouts regenerate; this catches a skipped one
     run_script(ADVISE, "orphan_check (advisory by design)", ["bash", "scripts/orphan_check.sh", "PROME"],
                "[likely YOURS] = commit per carve-out ① · [not yours] = flag, never sweep")
