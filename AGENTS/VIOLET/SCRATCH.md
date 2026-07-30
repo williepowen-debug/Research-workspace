@@ -1,7 +1,7 @@
 # VIOLET SCRATCH — July 30, 2026 (Thursday, EXIT DAY — closed out ~12:25 ET, deliberately before the settle)
 
 > **✅ `TRY-VIOLET-VIXCS` CLOSED ~09:50 ET: realized −$111.60 (−38.8%)** on $287.70, $176.10 returned — **beat the registered 100%-loss base case. Zero of five stand-downs ever tripped: ended by its dated mandate, not by a thesis kill.** The vol call was RIGHT (VIX 17.45 → 20.88, first >20 settle of the episode) and it lost anyway.
-> **⚠️ THE THEME OF THE SESSION: five of my own errors were caught by re-deriving things, and the one I missed was the one I did NOT re-derive** — I adopted TERRY's forward beta on relay and shipped it to five surfaces including two published Artifacts. **A number arriving from a trusted agent in a well-argued packet is exactly when the check does not fire.**
+> **⚠️ THE THEME OF THE SESSION, in two errors of the same family.** ① **I adopted TERRY's forward beta ON RELAY** and shipped it to five surfaces including two published Artifacts — *a number arriving from a trusted agent in a well-argued packet is exactly when the reproducibility check does not fire.* ② **I asserted a DATA BLOCKER I had not actually tested** ("CBOE serves only ~12 months; needs a paid vendor"), wrote it into five surfaces, and **Will authorised a purchase on the strength of it — the real answer was a URL pattern, free, 2013→current.** 🔑 **Both are the same shape: a claim accepted without deriving it. The first came from someone I trusted; the second came from ME, which is worse, because nobody else was going to check it.**
 
 ---
 
@@ -23,12 +23,13 @@
 ## WHAT I DID
 
 1. **Pre-open packet to TERRY (09:20) falsifying my own exit brief's headline** — "sell into any morning vol strength" was dead; the give-back arrived overnight. Instruction that survived: **EARLY**. Five instruments corroborated the GTH tick.
-2. **Built FIVE mechanisms** after six defects fixed as content and none as mechanism: ① fill-forward guard (preventive + detective, 6 tests) — the defect that would have false-tripped stand-down (iv) at −7.05pt vs a >5pt line · ② doc-cap enforcement · ③ **CANARY_MAP staleness contract**, unenforced since v1.0 · ④ `h3_basis_lead.py` + cached VX ledger · ⑤ **`implied_corr.py`**.
+2. **Built SIX mechanisms** after six defects fixed as content and none as mechanism: ① fill-forward guard (preventive + detective, 6 tests) — the defect that would have false-tripped stand-down (iv) at −7.05pt vs a >5pt line · ② doc-cap enforcement · ③ **CANARY_MAP staleness contract**, unenforced since v1.0 · ④ `h3_basis_lead.py` + cached VX ledger · ⑤ **`implied_corr.py`** · ⑥ **`vx_history.py`** → `VX_TERM_HISTORY.tsv`, **28,555 contract-days / 3,321 trade days / 2013→2026**, built on the corrected CBOE path.
 3. **Thesis v3.7 → v3.8**; SIGNAL_INTAKE + README given their **first-ever** provenance passes; MAINTENANCE archived 315 → ~190; `archive/` re-created.
-4. **Tested H3 and it resolved against its own framing** (timing claim failed, coverage/precision survived but NOT promoted).
+4. **Tested H3 twice — it resolved against its own framing, then REPLICATED out of sample.** Timing claim FAILED both times. The coverage/precision claim held on **3,069 untouched days / 58 peaks**: basis **73.2% / 49-of-58** vs ratio **67.5% / 40-of-58**. ⚠️ **Base-rated = lift 1.51× vs 1.39× — better, not transformative.** Still **EVIDENCED-NOT-ADOPTED**.
 5. **Caught myself scoring a PARAPHRASE of KB-VIO-126** and measured the registered version, which grades the other way.
 6. **Full directory sweep** (Will-directed): CANARY_MAP's *third* stale "current" cell, FLOW.tsv unwritten since 7/25, MEMORY.md a month behind. 11 files retired to `archive/retired_2026-07-30/`.
 7. **Both Will-facing Artifacts refreshed and republished twice** (second time to correct the beta).
+8. ⚠️ **Retracted my own false data-blocker and rebuilt on the real source** — see the theme line. Five surfaces corrected; **KB-VIO-152 marked CORRECTED with its disposition rather than deleted**, per canon.
 
 ---
 
@@ -66,4 +67,4 @@
 
 ---
 
-*Closed out ~12:25 ET, deliberately BEFORE the 17:05 settle — Will-approved after I checked what that wait actually buys: only (iii) is gradeable tonight, (iv) is inapplicable on its own precondition, and (v) is impossible until the 7/31 FRED print. **I had been calling it "the settle re-grade," which overstated it; it is a data capture, and the armed background job does that without a live session.***
+*Closed out ~12:25 ET and RE-CLOSED ~12:55 after the VX-history work, deliberately BEFORE the 17:05 settle — Will-approved after I checked what that wait actually buys: only (iii) is gradeable tonight, (iv) is inapplicable on its own precondition, and (v) is impossible until the 7/31 FRED print. **I had been calling it "the settle re-grade," which overstated it; it is a data capture, and the armed background job does that without a live session.***
