@@ -28,7 +28,15 @@ Will intends to bring YEYOU up. Three residues cleared so revival is spawn-and-g
 
 **Also recorded in `CLAUDE.md` IDENTITY:** the "Codex" half of YEYOU's two-reviewer funnel is **RAV**, live now while YEYOU is not, with a repair-vs-flag split (RAV may repair; YEYOU stays flag-never-fix). YEYOU composes with RAV on revival — it does not replace it.
 
-⚠️ **Known, not fixed — needs a word before anyone edits another agent's script.** `scripts/boot.py`'s agent enumeration includes **retired/archive-source dirs (SENTRY, ATHENA, BARON, FERT, CRUISE) and `.claude`**. Harmless while there are no watermarks, but a DEFAULT baseline would mint watermarks for dead agents and put them in the review queue forever. One-line filter against `PROME/ROSTER.md`'s live set. **Left alone deliberately** — outside the three approved residues.
+4. **Enumeration fixed — and the investigation inverted my own diagnosis** (Will-approved as a 4th item; `scripts/boot.py`, read-only script, rc=0 verified on both code paths).
+
+   **What I first claimed:** retired dirs (SENTRY/ATHENA/BARON/FERT/CRUISE) and `.claude` would get watermarks and clog the queue → filter against ROSTER's live set. **That was wrong on both halves:**
+   - **`.claude` has zero commits, ever** — it can never enter the queue. Cosmetic only; I overstated the harm.
+   - **Filtering by ROSTER liveness would have DESTROYED signal.** Those agents are not quiet — in the 60d to 7/30: **CRUISE 5 commits, FERT 3, BARON 1.** A commit landing in a supposedly-dead agent dir is exactly what a reviewer should see. It would also have restated a registry this script doesn't own.
+
+   **What the enumeration was actually getting wrong — and it's the opposite problem:** an agent dir is now one that **contains a `CLAUDE.md`**, which correctly drops `.claude` *and* `AGENTS/PROME/` (a misrouting **stub** that regrows when agents mis-address packets — last drained `81cb8943`, 9 packets; it holds only a stray `inbox/`). Dormancy is not consulted at all.
+
+   ★ **And the real find: YEYOU could not see PROME.** The coordinator's home is `PROME/` at the **repo root**, so an `AGENTS/`-only walk missed it entirely — while it is **the single busiest writer in the tree (525 commits in 60d).** Added via a named `EXTRA_TARGETS` constant (set it to `{}` to revert). Verified with a real baseline: **PROME now tops the queue at 9 commits / 17 files.** This is **n=4** of the `AGENTS/*`-globbing blind spot — after PROME's absence from DAEDALUS's `FLEET_MAP` (fixed 7/28), FORGE's from `ledger_staleness.py` (found 7/30), and `walter_doctor`'s `_registry_rows` self-skip (fixed 7/29 by RAV). **PAT-071:** the ownership unit and the enforcement unit must be the same unit.
 
 ## Watermark
 
@@ -36,7 +44,9 @@ Will intends to bring YEYOU up. Three residues cleared so revival is spawn-and-g
 
 > *"⚠️ no watermarks in `STATE.tsv` — set a **DEFAULT** baseline (recommend current `origin/master`) so YEYOU reviews only NEW work, not full history."*
 
-Will's call. Recommended: current `origin/master` at spawn time — reviewing forward from the spawn rather than backfilling 4 months of history, which would bury the first digest and is exactly what the boot kit warns against. Fix the enumeration item above **before** setting the baseline, or dead agents get watermarks too.
+Will's call. Recommended: current `origin/master` at spawn time — reviewing forward from the spawn rather than backfilling 4 months of history, which would bury the first digest and is exactly what the boot kit warns against. **The enumeration prerequisite is now cleared** (item 4 above), so this is the last remaining step.
+
+**Expect PROME at or near the top of your first queue.** That is correct, not a bug — it is the busiest writer in the repo and was invisible to this kit until 2026-07-30. Its files are Will-gated, so findings against `PROME/` route as findings; never edit them (root rule #2 and your own flag-never-fix boundary both apply).
 
 ## Open findings
 

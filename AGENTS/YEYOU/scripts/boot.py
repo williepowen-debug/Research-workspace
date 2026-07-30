@@ -36,6 +36,16 @@ TODAY = date.today()
 
 # dirs under AGENTS/ that are NOT review targets
 SKIP = {"YEYOU", "templates"}
+
+# Review targets that do NOT live under AGENTS/<NAME>/.
+# PROME is the fleet coordinator and its home dir is PROME/ at the REPO ROOT, so
+# an AGENTS/-only walk cannot see it at all — it was invisible to this queue
+# until 2026-07-30 while being the single busiest writer in the tree (525 commits
+# in the preceding 60d). Same AGENTS/*-globbing blind spot that hid PROME from
+# DAEDALUS's FLEET_MAP until 7/28 and FORGE from ledger_staleness.py (PAT-071:
+# the ownership unit and the enforcement unit must be the same unit).
+# Set to {} to restore AGENTS-only review.
+EXTRA_TARGETS = {"PROME": "PROME/"}
 STALE_OPEN_DAYS = 14  # an OPEN finding older than this gets flagged to chase/close
 
 
@@ -56,9 +66,31 @@ def read_tsv(path):
 
 
 def agent_dirs():
+    """[(name, git-path)] for every review target.
+
+    An agent dir is one that CONTAINS A CLAUDE.md. That predicate is what filters
+    non-agents, and it is deliberately NOT a roster/dormancy lookup. It drops:
+      • AGENTS/.claude  — tooling/config, not an agent (zero commits, ever)
+      • AGENTS/PROME/   — a misrouting STUB that regrows whenever an agent
+                          mis-addresses a packet (last drained 81cb8943, 9 packets).
+                          The real PROME is in EXTRA_TARGETS.
+
+    ⚠️ DORMANT AND ARCHIVE-SOURCE AGENTS ARE NOT FILTERED, ON PURPOSE. A commit
+    landing in a supposedly-dead agent dir is precisely what a reviewer wants to
+    see — and they are not quiet: in the 60d to 2026-07-30, CRUISE 5 / FERT 3 /
+    BARON 1. Filtering by ROSTER liveness would suppress real review targets and
+    would also restate a registry this script does not own (scripts READ a
+    registry, never restate it). Dead-but-silent agents cost nothing: with a
+    watermark set they simply never appear in the queue.
+    """
     base = REPO / "AGENTS"
-    return [p.name for p in sorted(base.iterdir())
-            if p.is_dir() and p.name not in SKIP and not p.name.startswith("_")]
+    out = [(p.name, f"AGENTS/{p.name}/") for p in sorted(base.iterdir())
+           if p.is_dir()
+           and p.name not in SKIP
+           and not p.name.startswith("_")
+           and (p / "CLAUDE.md").is_file()]
+    out.extend(sorted(EXTRA_TARGETS.items()))
+    return out
 
 
 def watermarks():
@@ -110,12 +142,11 @@ def main():
     # ② review queue
     print("\n② REVIEW QUEUE — agents with new commits since their watermark")
     queue, no_baseline = [], []
-    for agent in agent_dirs():
+    for agent, path in agent_dirs():
         base = baseline_override or wm.get(agent, default)
         if not base:
             no_baseline.append(agent)
             continue
-        path = f"AGENTS/{agent}/"
         log, err, rc = git("log", "--oneline", f"{base}..{ref}", "--", path)
         if rc != 0:
             print(f"   ⚠️  {agent:<12} watermark {base[:9]} not in {ref} history — reset baseline (W2)")
