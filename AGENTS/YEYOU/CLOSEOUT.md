@@ -151,7 +151,7 @@ One short message (via outbox):
 ## Skip rules
 
 - **`AGENTS/YEYOU/CLAUDE.md`** — **paired with boot step 1.** Surgical update only if doc-ownership drifted; skip otherwise. (YEYOU does not maintain market catalyst framing; that's PROME's job.)
-- **`AGENTS/YEYOU/HANDOFF.md`** — cross-runtime YEYOU continuity. Update only when the session changes future YEYOU state; keep it concise and rotate/archive older entries.
+- ~~**`AGENTS/YEYOU/HANDOFF.md`**~~ — **REMOVED 2026-07-30 (DAEDALUS, Will-approved revival prep): this file has never existed and the rule it carried is obsolete.** It described *cross-runtime* continuity, which was a real need only while YEYOU ran on GLM/VPS alongside Claude Code sessions — a split the 2026-06-26 OpenClaw cut ended. YEYOU is now a single-runtime CC session, and **`STATUS.md` is its continuity surface** (this file's own "Key differences" says so: *"PROME has … HANDOFF …; YEYOU has STATUS and REVIEW_LOG.tsv"*). Nothing to update, nothing to skip.
 - **`AGENTS/PROME/` files** — never. Other agents own their state. Route via outbox if needed (and only with explicit per-instance authorization per the cross-agent-inbox-writes rule)
 - **Root `CLAUDE.md` / shared files** — flag to Will, don't auto-edit. Will-approval gates the change.
 
@@ -190,7 +190,7 @@ One short message (via outbox):
 | **Push gate** | Auto-push at closeout via `scripts/safe-push.sh` (root `CLAUDE.md` §Git Protocol) | Will-coordinated on branches (canonical auto-push EXCEPTION — Decision C) |
 | **Cross-agent handoff** | Direct read of outbox / live `PROME/` docs | Via outbox → PROME reads directly |
 | **Bounce procedure** | Append 3-5 lines to SCRATCH | Append 3-5 lines to STATUS |
-| **Skip rules** | `PROME/TODAY.md`, `PROME/HANDOFF.md`, `AGENTS/<other>/` files | `CLAUDE.md` (doc-ownership only), `HANDOFF.md`, `AGENTS/PROME/` files |
+| **Skip rules** | `PROME/TODAY.md`, `PROME/HANDOFF.md`, `AGENTS/<other>/` files | `CLAUDE.md` (doc-ownership only), `AGENTS/PROME/` files |
 | **Symmetry** | Boot ↔ Closeout (write-back tail) | Boot ↔ Closeout (write-back tail) |
 | **Chunked updates** | Yes (Chunk 1-4) | Yes (Chunk 1-4) |
 | **Pathspec-only commits** | Yes (no `git reset HEAD`) | Yes (no `git reset HEAD`) |
@@ -200,7 +200,7 @@ One short message (via outbox):
 - PROME's Bounce appends to SCRATCH; YEYOU's Bounce appends to STATUS.
 - PROME's cross-agent handoff is direct read of outbox / live `PROME/` docs; YEYOU's cross-agent handoff is via outbox → PROME reads directly.
 - PROME's commit examples use root `PROME/`; YEYOU's commit examples use root `AGENTS/YEYOU/`.
-- PROME's Skip rules mention `TODAY.md` (market catalyst framing); YEYOU's Skip rules only mention `CLAUDE.md` (doc-ownership drift) and `HANDOFF.md`.
+- PROME's Skip rules mention `TODAY.md` (market catalyst framing); YEYOU's Skip rules only mention `CLAUDE.md` (doc-ownership drift). *(YEYOU's `HANDOFF.md` skip-rule was removed 2026-07-30 — the file never existed and cross-runtime continuity ended with the OpenClaw cut; YEYOU's continuity surface is `STATUS.md`, as the row above already states.)*
 
 **Key similarities:**
 - Both use pathspec-only commits (no `git reset HEAD`)
