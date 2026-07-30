@@ -9,29 +9,34 @@
 
 | File | Purpose |
 |------|---------|
-| `STATUS.md` | Live VIX dashboard + convergence matrix (single source for live values) |
-| `SCRATCH.md` | Canonical session handoff — CHANGES SINCE / WHAT I DID / NEXT SESSION |
+| `STATUS.md` | Live VIX dashboard + convergence matrix (single source for live values) · **~250-line cap, boot-enforced** |
+| `SCRATCH.md` | Session handoff **for VIOLET's own next boot** — CHANGES SINCE / WHAT I DID / NEXT SESSION |
+| `LAST_COMPLETION.md` | **PROME-facing** completion contract (`PROME/COMPLETION_SPEC.md`, ≤10 lines). ⚠️ **Not retired and not a SCRATCH duplicate — different consumer** *(CLAUDE.md had called it retired since 6/01; corrected 7/30)* |
 | `NEXUS_BRIEF.md` | Cross-agent synthesis brief — NEXUS reads this in place of raw STATUS |
 | `MEMORY.md` | Curated insights, regime principles, metric semantics, session-note trajectory |
-| `MAINTENANCE.md` | Structural-change log (docs/scripts/protocol — why VIOLET is organized this way) |
-| `SIGNAL_INTAKE.md` | **WALTER subscription spec** — what to route to VIOLET, exclusions, durable threshold lines |
+| `MAINTENANCE.md` | Structural-change log (docs/scripts/protocol — why VIOLET is organized this way) · **~300-line cap, boot-enforced** |
+| `CANARY_MAP.md` | Fleet early-warning layer — instrument → domain → threshold → route map (action-gates stay canonical in `PROME/GATES.tsv`) |
+| `SIGNAL_INTAKE.md` | **WALTER subscription spec** — what to route to VIOLET, exclusions, and the durable threshold lines (each carrying **LEVEL + INSTRUMENT + WINDOW**, v3.8) |
 | `TRADE.md` | VIX-linked positions, vehicles, sizing, live decision frameworks |
 | `CALENDAR.md` | VIX expirations, FOMC/CPI/BOJ catalysts (human twin of `workbook/CATALYSTS.tsv`) |
 | `CLAUDE.md` | Agent instructions — spawn protocol, write-back steps, scope, output rules |
+| `board_log.tsv` | WALTER signal-intake ledger (`timestamp_read / signal_id / disposition / source / notes`) |
 | `thesis/VIX_THESIS.md` | Core framework + L1 canonical base-rate table (current version: see file header) |
 | `thesis/CHANGELOG.md` | Old view → new view at each thesis version bump + dated POV pivots |
-| `workbook/` | TSVs: KB (findings), VX_DAILY (daily surface), VIX_OPTIONS, COT_VIX, CATALYSTS (machine feed), FLOW |
-| `scripts/` | `boot.py` (~10s live boot: thresholds + options OI + COT + catalyst countdown), `convexity_read.py`, fred_fetch, backfill, etc. |
+| `workbook/` | KB (findings) · VX_DAILY (daily surface) · VIX_OPTIONS · COT_VIX · CATALYSTS (machine feed) · FLOW · JPY_VOL · OVX · CHEAP_TAIL · SCHEMA (enum validation) · DIET_COILED_SPRING.csv (L1 backtest) |
+| `scripts/` | 20 scripts. **`boot.py` = the ~17s live boot, 8 stages:** thresholds+daily log · **FRED credit gate** · VIX options OI · CFTC COT · **JPY carry-vol canary** · **OVX oil-vol canary** · **cheap-tail window** · catalyst countdown. Others: `backfill.py` (dated-row repair) · `convexity_read.py` · `convergence_score.py` · `regime_termination.py` · `diet_coiled_spring.py` · `two_anchor_ladder.py` · `skew_trajectory.py` · analog/feb2018/sustain-run tools |
 | `research/` | Time-stamped deep dives (post-mortems, analogs, audits, packet specs) |
-| `outbox/` | 🔴-acute outbound signals ONLY (NEXUS_BRIEF is the primary cross-agent surface) |
-| ~~`archive/`~~ | **Deleted** in the 2026-06 public-prep prune (`1cb18fbc`/`7133b7d6`) — retired docs recoverable via git history only *(ref fixed 2026-07-11, DAEDALUS L4 packet #5)* |
+| `reports/` | Periodic sweeps (domain / threads) |
+| `artifacts/` | Will-facing living HTML Artifacts — `vol_cheatsheet`, `violet_operating_picture` (redeploy to the SAME URLs) |
+| `inbox/` · `outbox/` | Inbound packets (+ `inbox/WALTER/` routed lane, both with `processed/`) · `outbox/` is 🔴-acute outbound ONLY (NEXUS_BRIEF is the primary cross-agent surface) |
+| `archive/` | **Re-created 2026-07-30** (the dir had been deleted wholesale in the 2026-06 public-prep prune, `1cb18fbc`/`7133b7d6`). Currently holds `MAINTENANCE_ARCHIVE.md` (pre-6/11 structural entries). Docs retired *before* 7/30 are recoverable via git history only |
 
 ---
 
 ## Core Thesis (durable pillars — live version + state in `thesis/VIX_THESIS.md`)
 
 **1. Credit leads, vol follows — when conditions are right.**
-HY OAS leads VIX 2-6 weeks (tactical, +100bps trigger) and ~7 months (cycle) when: shock originates in credit · VIX < 20 at onset · cross-sector widening · yield curve not inverted · no active Fed QE. Hit rate ~70% when all conditions met. Relationship inverts above VIX 40.
+HY OAS leads VIX 2-6 weeks (tactical, +100bps trigger) and ~7 months (cycle) when: shock originates in credit · VIX < 20 at onset · cross-sector widening · yield curve not inverted · no active Fed QE. Relationship inverts above VIX 40. ⚠️ **The "~70% when all conditions met" figure is INHERITED from the v3.0 four-model synthesis and has never been VIOLET-validated** (flagged at v3.1 alongside the other inherited rates); it is not in the same evidentiary class as pillar 2's table below. Since v3.3 this is **Path A** — **Path B** (concentration-unwind) fires with *no* credit confirmation.
 
 **2. SKEW divergence (SKEW rises while VIX+VVIX fall) is the highest-conviction leading signal.**
 Threshold-indexed (L1 canonical table, KB-VIO-079): STRICT 94% / DIET 92% episode-level hit rate for ≥+15% VIX rise within 60 trading days — but only 56-60% at ≥+50%. **Quote the rate at the threshold the structure targets; never one unqualified number.**
@@ -48,4 +53,4 @@ Threshold-indexed (L1 canonical table, KB-VIO-079): STRICT 94% / DIET 92% episod
 
 ---
 
-*Created: 2026-04-12 · Last refreshed: 2026-06-10 (root-md audit item 2: retired-file pointer removed, map completed, base rates re-pointed at KB-VIO-079 canonical table, network section aligned to NEXUS_BRIEF/WALTER-subscription surfaces)*
+*Created: 2026-04-12 · **Last refreshed: 2026-07-30** — first full provenance pass. Directory map had drifted badly: **6 live surfaces were missing entirely** (`LAST_COMPLETION.md`, `CANARY_MAP.md`, `board_log.tsv`, `inbox/`, `reports/`, `artifacts/`), `archive/` was described as deleted **the same day it was re-created**, `boot.py` was described with 4 of its 8 stages, and the workbook/scripts lists were ~half complete. **Substantive catch: VIOLET's own `CLAUDE.md` had called `LAST_COMPLETION.md` "retired" since the 6/01 protocol rewrite while `PROME/COMPLETION_SPEC.md` mandates it fleet-wide and 17 agents keep one** — corrected, and added to the write-back sequence as step 11a. Pillar 1's inherited ~70% hit rate now carries its never-validated caveat. Prior: 2026-06-10 (root-md audit item 2).*
