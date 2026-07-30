@@ -218,3 +218,25 @@ Template:
 ---
 
 *This changelog is the audit trail for HAWK/FALCON thesis evolution. Keep it current.*
+
+---
+
+## 2026-07-30 — THESIS v2.1: the core claim is MOLECULE-SPLIT + TIMELINE forward-branch table refreshed
+
+**Author:** FALCON (live session, Will-requested boot + news integration, then a self-directed staleness sweep)
+**Action:** Amended `THESIS.md` and `TIMELINE.md` in place — **not** a structural rewrite (v2.0's 3-tier ladder and three-channel structure are untouched), but the **central claim was narrowed on an axis it never had.**
+
+**THESIS.md v2.0 → v2.1:**
+- **KEY THRESHOLDS table (rows 1-3) was WRONG, and row 2 was wrong when written.** *"Jazan damage assessment: 🔴 ABSENT at 3 days"* → **it exists, and it is a shutdown** (400 kbpd, shut 7/27, restart tent. 8/15, Reuters/IIR). *"Any Gulf/Iran force majeure: 🟢 None current"* → 🔴 **FIRED, and never 🟢** — a QatarEnergy FM on LNG has been live since **2026-03-24**. Both rows re-pointed from the dead FAL-03 to **FAL-04**.
+- **Added the molecule-split banner:** the thesis claim *"risk-PREMIUM regime, not supply-LOSS regime"* was never molecule-scoped. Scoped: **HOLDS for CRUDE**, **FAILS for GAS** (since March) and **REFINED PRODUCT** (since 7/27).
+- **Bypass row de-hardcoded:** the collapse floor is **30% of a rolling 60-day mean** and had drifted **15,684 → 16,224 → 20,105 (+28% in 14 days)** while this table carried `16,224` as a constant. **A stale low floor fails FALSE-NEGATIVE.**
+
+**TIMELINE.md:**
+- Amended the *"a hit is not a loss"* lesson **twice over** — Jazan closed the gap in ~2 days, and the broadcast phrase is true of **CRUDE only**.
+- **Forward-branch table: 4 rows refreshed** — leg-3 (now NOT FIRED with a *verified* margin, −23% to −32%; the 4.7 baseline is total-liquids per AGBI 7/28), Yanbu (added the undefendable-Petroline re-point), bypass (rolling floor), fifth-actor clause (re-pointed to FAL-04).
+
+**Old → new view:** *"The theater damages assets without losing barrels"* → **"The theater damages assets without losing CRUDE barrels; it has been losing GAS since March and PRODUCT since 7/27, and FALCON could not see either because every instrument it owns counts kinetic strikes on oil."**
+
+**Why not v3.0:** the transmission structure and the ladder did not change — the *scope of the central claim* did. Trigger for a genuine v3.0 remains: FAL-04 resolving, a fifth belligerent axis, or a dated Oman framework.
+
+> ⚠️ **DOC-CONVENTION MISMATCH, flagged not fixed:** this file's header says *"Reverse chronological"* but every entry since 2026-04-20 has been appended in **ascending** order (4/20 → 7/12 → 7/27 → 7/30). **Practice is chronological; the header is wrong.** Appending here to match practice rather than silently splitting the file into two orderings. Fixing the header is a one-line change owed to whoever next touches the preamble — noted so it is a decision, not a drift.

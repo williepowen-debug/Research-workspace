@@ -4,7 +4,10 @@
 **Purpose:** Full post-mortems for resolved `FAL-xx` predictions. `thesis/PREDICTIONS.tsv` holds the gradable row; this file holds the "why it resolved that way and what it teaches" layer.
 **Historical reference:** HAW-01..17 post-mortems are FROZEN at `AGENTS/HAWK/thesis/PREDICTIONS_ARCHIVE.md` (reference-only, not maintained here).
 
-**Scoreboard as of 2026-07-17: 1 CONFIRMED / 0 FAILED / 0 PARTIALLY / 0 VOIDED / 1 OPEN (FAL-01, → Jul 26).**
+**Scoreboard as of 2026-07-30: 1 CONFIRMED / 2 FAILED / 0 PARTIALLY / 0 VOIDED / 1 OPEN (FAL-04, → Aug 20).**
+⚠️ **The two failures are NOT the same kind of thing and the scoreboard cannot show the difference — that is what this file is for.** FAL-01 is an honest forecasting miss. **FAL-03 is a research failure: it was already true on the day it was registered and could never have resolved CONFIRMED.** Counting them as "2 FAILED" *overstates* calibration (a row that cannot be won is not a 58% bet) while *understating* the problem (a kill-switch was published broken).
+
+*(Prior: **as of 2026-07-17** — 1 CONFIRMED / 0 FAILED / 0 PARTIALLY / 0 VOIDED / 1 OPEN.)*
 
 ---
 
@@ -67,3 +70,45 @@ Modest but real. FAL-02 existed because the 7/12 GAPS-lens sweep noticed the Tre
 ---
 
 *Add new post-mortems above this line, newest first. Every closed `FAL-xx` row in `thesis/PREDICTIONS.tsv` gets an entry here.*
+
+---
+
+## FAL-01 — FAILED (registered 70%, Jul 12–26 2026) · resolved 2026-07-27
+
+**The row:** no Gulf-ally or Iranian oil-PRODUCTION-infrastructure hit (Aramco/ADNOC/Kharg-terminal class) AND no vessel confirmed SUNK, by Jul 26.
+**What fired it:** the **Jazan** strike, 2026-07-25 — Houthi missiles/drones on Aramco's 400 kbpd refinery. Two claimant-independent confirmations (Reuters video verification + five NASA FIRMS thermal anomalies). Named operator, named function, known capacity, inside the window.
+
+**Why it failed is NOT why I was watching.** The 70% rested on **demonstrated US-Iran mutual restraint** around the energy complex — and **that restraint held to the very end**: the US ran 13 consecutive strike nights without touching oil production, then paused the campaign entirely on 7/24. The dyad I modelled never broke discipline. What broke was a **four-year Saudi-Houthi truce** — a third belligerent pair that could reach the asset class my wording covered but my confidence never modelled.
+
+> **A prediction written over an ASSET CLASS is exposed to every belligerent who can reach that class, not just the two whose behaviour justified the confidence.**
+
+**Rescue refused, deliberately.** Two days on there was no Aramco damage assessment, no bpd offline and no force majeure — an "output loss" reading was available and would have saved the row. **The registered condition was "hit," not "output loss,"** and my own ledger already logs Aramco refinery hits with no disclosed loss as production-class rows (`GI-20260302-RASTANURA`, 550 kbpd, damage "very minor"). Reading a requirement in after the event is the post-hoc rubric drift HAW-10 forbids.
+**Family:** fourth wording-wedge instance — HAW-10 (locus) → HAW-14 (catalyst) → HAW-15 (mechanism) → **FAL-01 (actor)**.
+**What it bought:** two successor rules, both registered rather than merely adopted — state the class test as an **operational threshold**, and **enumerate the belligerents the confidence is priced off** (plus a fifth-actor re-registration clause). **Both were correctly implemented in FAL-03. Neither saved it** — see below, and note *why*: the fix was aimed at the axis that had just failed, which is exactly the axis least likely to fail next.
+
+---
+
+## FAL-03 — FAILED (registered 58%, Jul 27 – Aug 17 2026) · resolved 2026-07-30, on **day 4 of 21**
+
+**The row:** no CONFIRMED loss of Gulf-ally or Iranian **oil/gas** supply to market, via (a) force majeure on crude/condensate/product/LPG/**LNG** deliveries, (b) ≥100k bpd offline ≥7 consecutive days per a named trade primary, or (c) loadings suspended ≥72h at a named terminal.
+
+**Two routes fired, with completely different epistemic characters — and the distinction is the whole post-mortem:**
+
+| Route | Event | Character |
+|---|---|---|
+| **(b)** | Aramco **SHUT** the 400 kbpd Jazan refinery **7/27**; restart tent. 8/15 [Reuters citing IIR, 7/28] | ✅ A genuine in-window development. **A real forecasting miss** — and one I would defend having made at ~58%. |
+| **(a)** | QatarEnergy **force majeure on LNG live since 2026-03-24** — ~12.8 Mtpa ≈ 17% of Qatar's export capacity, 3-5 yr repair, extended to **Asian** buyers 7/28 | 🔴 **ALREADY TRUE ON THE DAY OF REGISTRATION.** |
+
+> **FAL-03 could never have resolved CONFIRMED. I published an already-tripped kill-switch as OPEN and kept exporting to four agents the thesis it was supposed to guard. That is a RESEARCH failure, not a calibration failure — and the 58% was never a real number.**
+
+**Root cause 1 — an unchecked negative.** My published R2 read *"Active force majeure in-theater: **None current** (Bapco + Ras Laffan were March)."* The strike was known — it is in my own `STRIKES.tsv` and cited in FAL-01's own notes. **I treated a March EVENT as a closed STATE and never asked whether the FM had been LIFTED. An event has a date; a force majeure has a DURATION.** Bitterly, the *same session* correctly caught a stale **Bapco** FM headline as March-vintage: checking that a **surfaced** FM is current is not the same as checking whether a **known** FM has ended.
+
+**Root cause 2 — the generalizable one: I widened the scope and kept a narrow instrument.** The broadening to "oil/gas" was the *right* fix for FAL-01's actor gap. But the 58% was derived from a base rate computed off `STRIKES.tsv` — an **oil-complex STRIKE ledger**, structurally incapable of seeing a **force majeure** (not a strike) on **LNG** (not oil). The headline input, *"ZERO qualifying events across 109 days,"* was **an artifact of the instrument's blind spot.**
+
+**Why no amount of care would have caught it from the inside:** the arithmetic was correct, the ledger was current, the two-leg decomposition was sound, and the base rate had *just survived a full re-dating of its own inputs* (10 → 11 acute events, premium-regime zero intact). **Reproducibility does not test scope match.** It was caught only because **WALTER routed a signal my own boot sweep could not have produced** — my sweep searches for *strikes*; this was a *force majeure*. ⚠️ WALTER and HAWK were **one antecedent, not two**; verified independently at Bloomberg/CNBC/AGBI/LNG Prime before resolving.
+
+**Rescues refused (two, and refusing them is the same discipline as FAL-01's):** a **crude-only** reading of "oil/gas" (the text names LNG verbatim) and a **"newly declared"** reading of route (a) (unregistered; and the 7/28 Asian extension is an in-window declaratory act anyway). On FAL-01 I refused to read *in* an unregistered requirement that would have failed the row; here I refused to read in one that would have saved it. **The discipline has to cut both ways or it is not discipline.**
+**Family:** fifth wording-wedge instance — **FAL-03 (MOLECULE + EVENT-vs-STATE)**. FAL-01's *"enumerate the BELLIGERENTS"* was done correctly and did not help. **Nobody had yet said: enumerate the MOLECULES, and say whether you mean a NEW loss or ANY loss.**
+**What it bought:** **FAL-04** (62%, crude/condensate only, NEW-cause only, realized-not-stated durations) — three named defects closed; the auto-memory `[[finding_widened_scope_needs_rescoped_instrument]]`; three FALCON-authored `LESSONS.md` entries; a new vector (`VX-FALCON-GASLNG-01`) and two new pathways (`FLOW-FALCON-01/02`) so the blind channel now has a home with a threshold.
+**The open question I have asked RED to attack:** is crude-only scoping **rigour or retreat**? It *removes* the two routes that just fired, so it is a strictly harder test to fail — **but that is exactly the argument a retreat would make.**
+

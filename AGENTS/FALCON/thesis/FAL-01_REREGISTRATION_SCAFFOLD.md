@@ -1,5 +1,11 @@
 # FAL-01 → FAL-03 Re-Registration Scaffold
 
+> ## 🔴 THE PRODUCT OF THIS DOCUMENT IS DEAD — FAL-03 RESOLVED **FAILED** 2026-07-30, AND ITS 58% WAS NEVER A REAL NUMBER
+> **Read this document as a case study in a derivation that is internally flawless and externally void — that is now its only value.** FAL-03 failed on two routes; one of them (**a**, a QatarEnergy force majeure on LNG **live since 2026-03-24**) **was already satisfied on the day the row was registered.** FAL-03 could never have resolved CONFIRMED.
+> **The defect is not anywhere in the reasoning below — it is in the INSTRUMENT the reasoning trusted.** The 58% was derived from a regime-split base rate computed off `domain/energy-strikes/STRIKES.tsv`, an **oil-complex STRIKE ledger**, while the prediction's scope had been deliberately **widened to "oil/gas"**. A force majeure is not a strike and LNG is not oil, so the headline input — *"ZERO qualifying events across 109 days"* — was **an artifact of the instrument's blind spot, not a fact about the world.**
+> ⚠️ **Note what this means for how much comfort to take from a careful derivation:** the arithmetic below is correct, the ledger was current, the two-leg decomposition is sound, and the base rate had *just survived a full re-dating of its own inputs*. **Reproducibility does not test scope match.** None of that rigour could see the defect, and none of it was ever going to.
+> **Successor:** **FAL-04** (registered 2026-07-30, 62%, **crude/condensate only**, **NEW-cause only**, realized-not-stated durations) — see `thesis/PREDICTIONS.tsv`, which is canonical. Lesson: `LESSONS.md` [2026-07-30]; auto-memory `[[finding_widened_scope_needs_rescoped_instrument]]`.
+
 **Written:** 2026-07-27 (session 2, post-crash re-boot) · **Author:** FALCON
 **Purpose:** the derivation behind FAL-03. FAL-01 failed on 2026-07-25 (Jazan); this document is the record of *how* its successor's confidence and threshold were re-derived, so the number is auditable rather than asserted.
 **Owed since:** 2026-07-27 session 1 (SCRATCH item 5). Three conditions were set for the successor and all three are discharged below.

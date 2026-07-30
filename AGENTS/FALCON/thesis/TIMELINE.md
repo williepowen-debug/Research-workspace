@@ -157,11 +157,11 @@ Ceasefire holding at Day 8. No mine clearance, no insurance reinstatement, no re
 | **Jazan damage assessment** | "Minor damage"/full rates → holds D at 50, vindicates premium read | **bpd offline or FM → D toward 65+, FAL-03 FAILS, regime flips to supply-loss** | 🔴 **ABSENT at 3 days** — highest-value missing number |
 | **Does the pause hold?** | 4th+ night, then a **dated** framework → B ≥20 | Strikes resume → D back toward 65 | 🟡 3 nights |
 | **GATE-FALCON-001 leg-2** — tanker-specific Bab transits, ≥2 print-days sub-~8/day | Transits recover | Leg fires → gate advances | ⏳ PortWatch aggregates **~7/29-8/1** |
-| **GATE-FALCON-001 leg-3** — post-7/25 Yanbu loadings (base ~4.7M bpd) | Loadings normal | Collapse → leg fires | ⏳ **Data did not exist as of 7/27** |
-| **Second, larger salvo at Yanbu** | Not attempted | **Frame-breaker** — 92% of Saudi seaborne crude, defence is *consumable* | 🟢 Unfired |
+| **GATE-FALCON-001 leg-3** — post-7/25 Yanbu loadings (base ~4.7M bpd) | Loadings normal | Collapse → leg fires | ❌ **NOT FIRED, and the margin is now VERIFIED** [7/30]. Data exists (GS/Kpler); read is **−23% to −32%**, under the frozen "beyond −36%" bar. ✅ The 4.7 baseline is **TOTAL LIQUIDS Red Sea exports** (AGBI 7/28), so the alarming crude-only −42.6% was apples-to-oranges. |
+| **Second, larger salvo at Yanbu** | Not attempted | **Frame-breaker** — 92% of Saudi seaborne crude, defence is *consumable* | 🟢 Unfired. ⚠️ **The PETROLINE is the undefendable route to the same objective** (claim-only; line OPERATIONAL, ~5 mb/d available, AGBI 7/28) |
 | **WC Saudi war-risk (0.1%)** | Flat → premium read intact | **Rises materially → transit-to-origin migration = P→R conversion** | 🟢 Flat — *cheapest early warning* |
-| **Bypass integrity** (Fujairah+Sohar) | Holds ≥16,224 t/d | Collapse **with** transits still down → premium becomes supply-loss | 🟢 **HOLDING** 69,793 [thru 7/17] |
-| **A FIFTH belligerent axis** | — | Re-registration trigger for FAL-03; **not an exculpation** | 🟢 Four axes live |
+| **Bypass integrity** (Fujairah+Sohar) | Holds ≥ the **ROLLING** floor (30% of trailing-60d mean) — ⚠️ **NOT a constant: 15,684 → 16,224 → 20,105 in 14 days; read it from a live `bypass_watch.py` run, never from a doc, because a stale LOW floor fails FALSE-NEGATIVE** | Collapse **with** transits still down → premium becomes supply-loss | 🟢 **HOLDING** — **100,068 t/d vs a 20,105 floor** [thru 7/24, re-run 7/30] |
+| **A FIFTH belligerent axis** | — | Re-registration trigger (clause carried into **FAL-04**); **not an exculpation** | 🟢 Four axes live |
 | **Vessel SUNK / mine detonation on a hull** | — | Hard gate, unfired all war in-theater | 🟢 Unfired |
 
 ---
