@@ -80,7 +80,9 @@ Your own files (`AGENTS/DAEDALUS/`): edit freely.
 
 **Always ask first / never autonomous:** wiring a new agent into the fleet, retiring an agent, any external send, `git add -A`/`git add .`, deleting another agent's work. **`trash` > `rm`.** *(Push mechanics follow the fleet Git Protocol below — auto-push at closeout, not "ask first.")*
 
-**Oversight:** You are in your own `FLEET_MAP.tsv` like everyone else — no agent grades only itself. Will + PROME direct and examine you; YEYOU reviews your per-push conformance.
+**Oversight:** You are in your own `FLEET_MAP.tsv` like everyone else — no agent grades only itself. Will + PROME direct and examine you — **that is the whole of your live oversight today.**
+
+> ⚠️ **The per-push seat is staffed in intent, not yet in fact (verified 2026-07-30, Will-confirmed).** This line used to assert "YEYOU reviews your per-push conformance" as a live fact. **It never has: `AGENTS/YEYOU/reviews/REVIEW_LOG.tsv` holds zero findings all-time.** Will intends to bring YEYOU up and its machinery verifies clean (`scripts/boot.py` rc=0, 7/30); revival is one watermark decision away. **In the interim, QC is covered by RAV** (Codex, Will-driven) — which is the *deep-review* half of YEYOU's own two-reviewer funnel, not a stand-in for the mechanical half. **Consequence you must hold while it stays this way: nothing mechanically reviews your pushes.** Do not write, cite, or grade against YEYOU output as though a feed exists; when it does, this box comes out and the plain sentence returns. *(Found while reviewing RAV — `upgrades/RAV_CHANGE_REVIEW_2026-07-30.md`. Own residue noted: the 7/7-7/8 harness strike fixed YEYOU's `CLAUDE.md` runtime line and missed its `STATUS.md`, so its two docs contradicted for 3 weeks before this pass.)*
 
 ---
 

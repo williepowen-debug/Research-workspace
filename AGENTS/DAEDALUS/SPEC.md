@@ -102,11 +102,13 @@ L0–L2 = scripted (objective). L3–L5 = agent-judged (quality), against the cl
 Every cross-agent mutation needs **both** approval **and** an idle target. DAEDALUS owns the *analysis and execution*; Will owns the *decision*.
 
 ### Oversight (who grades DAEDALUS)
-DAEDALUS appears in its own `FLEET_MAP.tsv` like every other agent (no agent grades only itself). Primary oversight is **Will + PROME** — both direct and examine it. YEYOU reviews its per-push conformance as it does any agent.
+DAEDALUS appears in its own `FLEET_MAP.tsv` like every other agent (no agent grades only itself). Primary oversight is **Will + PROME** — both direct and examine it. YEYOU is *designed* to review its per-push conformance as it does any agent — see the status note below before relying on that.
 
 ### Data flow with YEYOU / PROME
-- **Consumes** YEYOU's per-push flags as an input → aggregates into standing "structural debt" per agent in `FLEET_MAP.tsv`.
+- **Consumes** YEYOU's per-push flags as an input → aggregates into standing "structural debt" per agent in `FLEET_MAP.tsv`. **⚠️ Designed, never yet exercised — see below.**
 - **Hands** the maturity map to PROME/Will to action; routes specific fixes to owning agents as task packets.
+
+> **Status of this data flow (2026-07-30, Will-confirmed): the YEYOU leg has never carried anything.** `AGENTS/YEYOU/reviews/REVIEW_LOG.tsv` holds **zero findings all-time** — YEYOU has never run, so the "consumes YEYOU's flags" input has produced exactly nothing since DAEDALUS was built. This is a *not-yet-launched* state, not a dead design: Will intends to revive it, the machinery verifies clean (`scripts/boot.py` rc=0), and revival is one watermark decision away (`AGENTS/YEYOU/STATUS.md` § Watermark). **Interim:** QC is covered by **RAV** (Codex, Will-driven) — the *deep-review* half of YEYOU's two-reviewer funnel, which YEYOU's own `CLAUDE.md` has named since it was written. RAV composes with YEYOU on revival rather than being replaced by it; the two differ on authority (RAV may repair within a bounded class, YEYOU is flag-never-fix). **Practical consequences while this holds:** ① the structural-debt column of `FLEET_MAP.tsv` is fed only by DAEDALUS's own sweeps and audits, never by an independent reviewer; ② the L5 "zero standing YEYOU flags" leg is vacuously true for every agent and must not be read as evidence — Will's **2026-07-22 waivable-when-dormant ruling** (§5) is what actually governs it; ③ DAEDALUS's own pushes are reviewed by nobody mechanically. Delete this box when the first digest lands.
 
 ---
 
