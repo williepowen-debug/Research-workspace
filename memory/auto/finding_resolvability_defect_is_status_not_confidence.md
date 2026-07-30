@@ -27,3 +27,21 @@ Correct move: **Confidence 65 → 55** (the genuine update only) and **Status OP
 4. Distinguish this from an honest MISS: a claim the world falsified is a MISS and *should* cost confidence. This rule is only for claims the world never got the chance to answer.
 
 Extends [[finding_threshold_vs_mechanism]] (mechanism intact vs threshold stuck) from the *threshold* to the *scoring column*. See also [[finding_threshold_spec_fails_before_world]], [[finding_pre_register_against_the_carrying_filing]], [[finding_rebased_metric_check_made_date]], [[finding_discovery_instrument_defines_the_claim]].
+
+## Extension (BRENT, 2026-07-30) — **UNFIREABLE ROWS SILENTLY INFLATE THE CALIBRATION SCOREBOARD**
+
+A ledger-wide sweep applying *"can this even fire / can it resolve?"* to 7 OPEN predictions found **only 2 were clean.** The pattern is worth stating as a rule:
+
+> **A row that cannot fire can never be WRONG. So it sits at high confidence forever, counts as an open question nobody has lost, and makes the scoreboard look better than the forecasting behind it.** The distortion is invisible precisely because nothing ever happens to the row.
+
+⇒ **STUCK rows must be EXCLUDED from any accuracy tally, not carried as OPEN.** Two failure shapes found:
+
+- **Resolution gated on a precondition that has not occurred** — e.g. *"X remains impaired ≥60-90 days EVEN AFTER the chokepoint reopens."* The substance was already **true by 1.4×** (128 days, repair measured in years) and the row **still could not close**, because the reopening never happened. **Carrying it as OPEN simultaneously overstated the open-question count AND understated what was actually known** — a reader of the ledger thought it was unsettled. It wasn't.
+- **The compound-gate defect, inside a prediction** — three AND-joined legs required *simultaneously*; the one cleanly measurable leg was a **9.6%** event and another required a **regime flip**. → `[[finding_compound_gate_jointly_unsatisfiable]]`
+  **Compounding it:** the row's 82% was confidence in the **consequence GIVEN the trigger**, but no `P(trigger)` was recorded anywhere — so the ledger displayed *"82% prediction"* for something that had never been able to fire. **Record P(trigger) separately from P(consequence | trigger), or the conditional gets read as unconditional.**
+
+**Two more shapes from the same sweep, both worth checking for:**
+- **Ambiguous premise** — *"sustains $90+ THROUGH Q2"* had two defensible readings with **opposite verdicts** (80.6% of sessions ≥$90 vs a close of $72.92). **Found because a grading script printed a verdict contradicting its own prose** — the ambiguity surfaced *in the grader*. A prediction that can be graded either way cannot be graded honestly.
+- **Threshold contradicting the agent's own thesis** — a registered *"−$20-40"* move landed **below the price floor the same agent's thesis asserted holds.** Registered when the premium was larger; the premium shrank and the threshold didn't. → `[[finding_threshold_level_is_a_measurement_not_a_constant]]`
+
+**⚠️ THE DISCIPLINE WHEN FIXING: change STATUS and NOTES only. Never retro-edit the registered claim or the confidence** — that converts a calibration record into a flattering narrative. **Register disambiguated successors FORWARD**, and say in the note which reading the successor adopts and why.

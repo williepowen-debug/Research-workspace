@@ -174,7 +174,12 @@
 
 ---
 
-## PREDICTIONS (7/21 — canonical ledger: `thesis/PREDICTIONS.tsv` — 11 CONFIRMED / 4 RESOLVED-SPLIT / 3 FAILED / 2 NOT-FIRED-PRECONDITION / 1 PARTIAL / 1 RETIRED / 6 OPEN)
+## PREDICTIONS (**swept 2026-07-30** — canonical ledger: `thesis/PREDICTIONS.tsv` — 11 CONFIRMED / 4 RESOLVED-SPLIT / 3 FAILED / 2 NOT-FIRED-PRECONDITION / 1 PARTIAL / 1 RETIRED / **5 OPEN + 2 STUCK**)
+
+> **🔎 SWEEP RESULT — of the 7 rows that were OPEN, only TWO are clean.** Applied the same *can-this-even-fire / can-it-resolve* tests that found four spec defects in the gates today.
+> **STUCK (cannot resolve as written):** **BRT-17** — substance already TRUE (Qatar FM **128 days** vs a 60-90 day bar) but gated on a Hormuz reopening that has not happened · **BRT-21** — three AND-joined legs, the one measurable leg a **9.6%** event ex-COVID and another needing a **curve regime flip**; the compound-gate defect in a prediction.
+> **DEFECTIVE BUT LIVE:** **BRT-16** ambiguous premise (*'sustains $90+ THROUGH Q2'* reads two ways with **opposite** verdicts) · **BRT-07** magnitude leg lands **below the floor my own THESIS asserts** · **BRT-12** has no *'neither'* branch.
+> **✅ CLEAN: BRT-26, BRT-29.** ⚠️ **Claims and confidences deliberately UNCHANGED — retro-editing either is a calibration sin.** ★ **STUCK rows must be EXCLUDED from any accuracy tally: a row that cannot fire can never be wrong, so it inflates the scoreboard without testing anything.**
 
 | ID | Status (7/21) | Note |
 |----|--------|------|
