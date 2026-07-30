@@ -163,7 +163,7 @@ Historical example of the ownership split (FSK May-11 event; card archived):
 
 Known current caveat:
 
-- `FORGE/STATUS.md` **alone** is the broker-export-refreshed structured position mirror — last reconciled **2026-07-20** (broker export; prior 7/16) and **stales between exports** (its own banner governs); position truth is off-repo (Will/broker direct). Never cite its marks as current. *(`FORGE/PORTFOLIO.md` = **FROZEN Feb-2026 snapshot, historical only, never half the live mirror** — pairing retired here 2026-07-28 per the Will-approved root `CLAUDE.md` correction; the stale pairing was the cause of VIOLET's position-missing symptom.)*
+- `FORGE/STATUS.md` **alone** is the broker-export-refreshed structured position mirror — **the reconcile vintage lives in ITS OWN header, deliberately not restated here** *(hardcoded-date mirror removed 2026-07-30, DAEDALUS FORGE-audit H2 — this line carried "7/20" for hours after the 7/30 reconcile; a date in an always-loaded doc that mirrors a file header is a PAT-068 machine)*; it **stales between exports** (its own banner governs); position truth is off-repo (Will/broker direct). **FORGE owner = PROME (Will-ruled 2026-07-30, DAEDALUS audit S1)** — reconciles run as PROME-directed spawns (ANVIL model). Never cite its marks as current. *(`FORGE/PORTFOLIO.md` = **FROZEN Feb-2026 snapshot, historical only, never half the live mirror** — pairing retired here 2026-07-28 per the Will-approved root `CLAUDE.md` correction; the stale pairing was the cause of VIOLET's position-missing symptom.)*
 
 ---
 

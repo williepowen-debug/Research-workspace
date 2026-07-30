@@ -629,7 +629,19 @@ def display_snapshot(price_results, fred_data):
 # Commands
 # ---------------------------------------------------------------------------
 
+# Bare index names → Yahoo caret symbols. Without this, `price MOVE` resolves
+# to an unrelated equity and returns a plausible WRONG number (~$11) instead of
+# the MOVE index (~74) — found live by the 2026-07-30 FORGE audit (H1). The
+# other bare index names error loudly (safe); MOVE is the one silent trap.
+INDEX_ALIASES = {
+    "MOVE": "^MOVE", "VIX": "^VIX", "VIX3M": "^VIX3M", "VIX6M": "^VIX6M",
+    "VVIX": "^VVIX", "OVX": "^OVX", "SKEW": "^SKEW", "SPX": "^GSPC",
+    "GSPC": "^GSPC", "NDX": "^NDX", "TNX": "^TNX", "N225": "^N225",
+}
+
+
 def cmd_price(tickers, flags):
+    tickers = [INDEX_ALIASES.get(t.upper(), t) for t in tickers]
     results = price_fetch(tickers, delta_threshold=flags["delta"])
 
     if flags["history"]:
