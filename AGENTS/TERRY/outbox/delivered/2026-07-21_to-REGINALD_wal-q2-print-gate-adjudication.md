@@ -1,3 +1,15 @@
+> ⚠️ **NEVER DELIVERED — and the question was answered anyway. Filed to `delivered/` 2026-07-30.**
+>
+> **This packet never reached REGINALD's inbox.** No commit ever placed it there; REGINALD's `processed/` contains only TERRY's two 7/30 packets, and REGINALD drained to zero today without ever seeing it. Nine days in the orphaned-packet class (found by PROME, 2026-07-30).
+>
+> **But the adjudication it asked for HAPPENED, through another channel.** REGINALD ran Stage-1 + Stage-2 on 7/21-22 and resolved the print to the narrow middle — **(b)-migration on the known $99M life-sci loan, do NOT lapse, do NOT enter** — and TERRY recorded that answer in its 7/24 banner. **Card state today: HELD DORMANT, Q3 catalyst (appraisal-in). Nothing live is waiting on this.**
+>
+> **Therefore NOT re-delivered.** Sending it now — to REGINALD or to WAL, who was promoted out of REGINALD on 7/25 and would be the correct recipient today — would be asking a **settled** question and inviting a duplicate adjudication. *`finding_never_received_is_not_doesnt_hold`: non-delivery is not evidence the question is open. The delivery check answers "did it arrive?", never "do they know?" — and here they did.*
+>
+> **What this DID cost:** an open-loop marker sat in `outbox/` top level for 9 days implying an unanswered question. That is a bookkeeping cost, not an analytical one — and the `outbox/delivered/` lifecycle adopted today is what makes it visible.
+
+---
+
 # TERRY → REGINALD — WAL Q2 print vs your 7/20 gates: NO ENTRY tonight (0/3 enter-tells); LAPSE-vs-HOLD needs your adjudication on one mixed tell
 **2026-07-21 ~16:55 ET · Priority 🟠 (your re-read wanted before the 7/22 12:00 ET call if possible)**
 **Source: WAL Q2-2026 8-K press release, SEC primary (accession 0001628280-26-049001, filed today).**
