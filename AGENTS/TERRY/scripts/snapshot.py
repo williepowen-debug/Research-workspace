@@ -21,6 +21,7 @@ from __future__ import annotations
 
 import argparse
 import math
+import os
 import sys
 from datetime import datetime
 from pathlib import Path
@@ -29,13 +30,61 @@ SCRIPTS_DIR = Path(__file__).resolve().parent
 TERRY_DIR = SCRIPTS_DIR.parent
 WORKSPACE = SCRIPTS_DIR.parents[2]
 FETCH_DIR = WORKSPACE / "FORGE" / "tools" / "market-data"
+VENV_PY = WORKSPACE / ".venv" / "bin" / "python3"
 sys.path.insert(0, str(FETCH_DIR))
 
+# NB: this guard covers a MISSING/BROKEN fetch.py only. It does NOT cover a
+# missing yfinance — fetch.py imports yfinance lazily INSIDE its functions, so
+# this import succeeds on base python and the dep blows up later, at call time.
+# That gap is what _ensure_deps_or_reexec() below exists to close; do not read
+# this try/except as covering deps (it was doing exactly that until 2026-07-30).
 try:
     from fetch import fred_fetch, price_fetch, price_history
 except Exception as e:  # pragma: no cover
     print(f"FATAL: cannot import FORGE market-data fetch.py from {FETCH_DIR}: {e}")
     sys.exit(2)
+
+
+def _ensure_deps_or_reexec() -> None:
+    """venv self-heal — same pattern as paper_book_mark.py / chain_fetch.py.
+
+    Ported 2026-07-30 after a fleet-wide sweep found this script broken on its
+    OWN BOOT-documented invocation (CLAUDE.md BOOT step 11, the *preferred*
+    path for pulling live prices before citing any level — rule #4).
+
+    Why the try/except above did not catch it: fetch.py imports yfinance lazily
+    inside price_fetch/price_history, so `from fetch import ...` succeeds on
+    base python and the ModuleNotFoundError surfaces at CALL time as a raw
+    traceback. The guard was positioned to catch import failure and the real
+    failure was somewhere else entirely — it read as protection while
+    protecting nothing (finding_test_the_guard_not_just_the_guarded).
+
+    No safe degraded output exists here: this tool's entire job is returning
+    live prices, so when the heal is unavailable it exits NON-ZERO with the fix
+    on screen rather than printing anything that could be mistaken for a quote.
+
+    Not called on --selftest: that path is offline and passes on base python.
+    """
+    try:
+        import yfinance  # noqa: F401  # deps present -> nothing to do
+        return
+    except ModuleNotFoundError:
+        pass
+    # NB: do NOT gate on sys.executable != VENV_PY — the venv's python3 is a
+    # symlink to the system python, so .resolve() collapses them and the guard
+    # would falsely block re-exec. The env flag is the loop-breaker.
+    if not os.environ.get("_SNAP_VENV_REEXEC") and VENV_PY.exists():
+        os.environ["_SNAP_VENV_REEXEC"] = "1"
+        os.execv(str(VENV_PY), [str(VENV_PY), *sys.argv])
+    already = " (re-exec under the venv already tried)" if os.environ.get("_SNAP_VENV_REEXEC") else ""
+    print(
+        f"FATAL: yfinance is not importable, so NO live price can be fetched{already}.\n"
+        f"  Expected venv: {VENV_PY} (exists={VENV_PY.exists()})\n"
+        f"  Fix: {VENV_PY} -m pip install yfinance\n"
+        "  No prices are printed — do NOT cite any level from this run (rule #4).",
+        file=sys.stderr,
+    )
+    raise SystemExit(2)
 
 DEFAULT_BENCHMARKS = {
     "WAL": "KRE", "OZK": "KRE", "KRE": "SPY", "XLF": "SPY",
@@ -170,7 +219,8 @@ def main():
     ap.add_argument("--selftest", action="store_true", help="Validate imports/FRED access")
     args = ap.parse_args()
     if args.selftest:
-        return selftest()
+        return selftest()      # offline — stays runnable on base python
+    _ensure_deps_or_reexec()   # venv self-heal before ANY live price fetch
     return run(args)
 
 
