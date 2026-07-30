@@ -135,7 +135,7 @@
 
 **Luck, recorded as luck.** The pre-2PM stand-down grade never happened — the fleet was down on the usage outage. Had it happened and produced an exit, we would have sold with **VIX at ~17.7–19.3** (30m closes 19.34 at 12:30 ET, **17.69 at 14:30**). **The entire +13.45% arrived after 2:00 PM, and specifically after the 2:30 presser.** Not being at the desk is why we still hold this at a materially better mark. **That is not skill and must not be logged as any.**
 
-*Framework: `thesis/VIX_THESIS.md` **v3.7**. Trade framework: `TRADE.md`.*
+*Framework: `thesis/VIX_THESIS.md` **v3.8** (bumped 7/30). Trade framework: `TRADE.md`.*
 
 ---
 
@@ -193,13 +193,13 @@
 
 ## THESIS CONNECTION
 
-**v3.7 — and this session produces the material for v3.8.** Two structural lessons, both extensions of the family that KB-VIO-129 (spot-vs-forward) and KB-VIO-131 (level-vs-direction) opened:
+**v3.8 — SHIPPED 7/30.** The material below was promoted into the framework the following session. Two structural lessons, both extensions of the family that KB-VIO-129 (spot-vs-forward) and KB-VIO-131 (level-vs-direction) opened — **the family is now CLOSED at five fields: LEVEL + INSTRUMENT + MECHANISM + ESTIMATOR + SCOPE/WINDOW**, and v3.8 adds two more lessons from the 7/30 session (fix defects as MECHANISM, KB-VIO-149; the record about the state is not the state, KB-VIO-151):
 
 **① A threshold needs LEVEL + INSTRUMENT + WINDOW.** (KB-VIO-147.) Mine carried only the level. Grading (i) on 7/29 required reading its *registration*, not its number — and the registration says "before the fill." **"The five stand-downs" was never one homogeneous kill-layer**, and I presented it as one on my own dashboard for the entire life of the position. Fourth instance of the family.
 
 **② A pre-registered tree earns its keep exactly when it contradicts the tape.** (KB-VIO-144.) The 7/29 session was dramatic, the level arrived, the position went in-the-money on the forward — and the tree locked on 7/23, before any of it existed, grades it a **fade** because the independent channels didn't confirm and one of them broke. The tree also contained an **internal conflict** (core discriminator vs the "strongest single confirm" clause) that only surfaced because both were written down in advance. **Resolving it by the tree's own stated hierarchy — rather than by which answer I preferred — is the whole point of locking it early**, and I disclosed the one place my incentive sits (re-entry, not the exit).
 
-*Core hypothesis: `thesis/VIX_THESIS.md` v3.7. POV log: `thesis/CHANGELOG.md`.*
+*Core hypothesis: `thesis/VIX_THESIS.md` **v3.8**. POV log: `thesis/CHANGELOG.md`.*
 
 ---
 
