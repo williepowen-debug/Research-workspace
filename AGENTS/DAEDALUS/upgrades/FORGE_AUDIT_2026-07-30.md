@@ -97,11 +97,24 @@ Root `CLAUDE.md` loads into **every agent session in the fleet**. Right now ever
 
 **PAT-068, third instance in eight days** — a canon change that didn't walk its mirror map. The drift direction here is *conservative* (agents distrust a good surface rather than trust a bad one), which is the less dangerous half of PAT-062, but the mechanism is identical and the fix is one line each.
 
-### H3 — `dashboard.py`'s As-of column is blank on every row 🟠
+### ~~H3 — `dashboard.py`'s As-of column is blank on every row~~ ❌ **RETRACTED 2026-07-30 ~13:10 — WRONG AS WRITTEN**
 
-Ran it: rc=0, 24 rows, correct live values, zone changes flagged (HY OAS + CCC OAS 🟡→🔴). But the **`As-of` column is empty for all 24 rows.**
+**The claim was false and the error was mine.** PROME challenged it with evidence the same afternoon; I re-ran the tool over its *full* output and PROME is right.
 
-This is the tool root `CLAUDE.md` and `PROME/BOOT.md:73` both tell agents to run *before citing levels* — and the one field that answers "how old is this number?" is blank. `[[finding_plausible_stale_value_evades_review]]`: audit dashboards by AGE. This one declines to say.
+Tier 1 stamps **every** FRED/EIA row:
+
+```
+HY OAS 287bps [7/29] · CCC OAS 1013bps [7/29] · Gas 4.10 [7/27] · Init Claims 197,000 [7/25]
+Cont Claims 1,782,000 [7/18] · SOFR 3.65 [7/29] · 10Y 4.61 [7/28] · Cushing 18.60 [7/24]
+```
+
+Blanks appear only on **live-price rows** (Brent, USD/JPY, and all of Tier 2), which `_date_stamp()`'s docstring declares intentional — those are intraday-live, not dated series.
+
+**Root cause of my error:** I ran `dashboard.py | tail -25`, which captured only the Tier-2 position-monitoring table — all price rows, all legitimately blank — and asserted a whole-file property from that slice. A sampling error, and precisely the discipline my own **PAT-038** exists to enforce (*trust missing-labeled-handle flags; RE-VERIFY, never propagate, missing-substance claims*) plus `[[finding_comprehensive_grep_over_sampling]]`. I had the tool in my hand and read a fraction of its output.
+
+**Residual, real but cosmetic** (carried to the item-2 batch, PROME's framing adopted): a live-price row prints an *empty* As-of where it could print `live`. Blank reads as *unknown vintage*; `live` would say what it means. Small, and genuinely a nicety — not the finding I filed.
+
+*Kept in place rather than deleted: a retracted finding is evidence about the auditor, and PAT-070 was banked off a similar own-miss two days earlier.*
 
 ---
 
