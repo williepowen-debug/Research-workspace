@@ -7,6 +7,14 @@
 # ⚠️ WHY THIS FILE EXISTS: the Hormuz hull carry sat at ~5% for TWELVE DAYS while the market was at 7.5-10% — HALF the true level — and nothing surfaced it, because it lived as a KB row and a STATUS table cell. Neither has a staleness affordance. HAWK caught it 7/25 by reading a live source, not by any mechanism of mine. This file is the mechanism: a workbook TSV with a PAT-044 two-clock header, so `scripts/ledger_staleness.py` grades it at boot AUTOMATICALLY (default glob workbook/*.tsv) with NO new wiring.
 # ⚠️ THE 30-DAY DEFAULT IS TOO LOOSE FOR THIS SURFACE. The failure cost real accuracy at TWELVE days. Boot step 5a-2 runs this file at --days 7. Do not grade it on the default.
 # ⚠️ TWO CLOCKS, AND THE DATA CLOCK IS THE ONE THAT MATTERS: editing this file (a note, a typo, a Notes tweak) does NOT make the data fresh. Only a re-pull advances 'Last real data refresh' above. Never advance that line without a re-pulled figure and a new As_Of.
+# 🎯 REGISTERED WATCH LINE #2 — THE MIRROR (added 2026-07-30, answering BRENT's enforcement-degradation question):
+#   The existing falsifier watches the WC-Saudi ORIGIN leg RISING (transit -> origin migration = the market pricing PRODUCTION risk = P->R conversion).
+#   THE MIRROR IS NOW ALSO REGISTERED: the HORMUZ TRANSIT leg FALLING (7.5-10% -> <5%) while the WC-SAUDI ORIGIN leg stays FLAT at ~0.1%
+#   = TRANSIT risk repricing with ORIGIN risk unchanged = Iran's enforcement capability degrading without any deal, sanctions change or production event.
+#   WHY IT MATTERS: underwriters price DEMONSTRATED safe passage, so this leg moves WEEKS BEFORE the PortWatch transit count does.
+#   A transit-count gate watches the LAST link in the chain; this surface watches the first. Same two legs, same decomposition, opposite direction.
+#   ⚠️ NEGATIVE CONTROL: a transit recovery WITHOUT this premium falling is NOT normalisation — it is escorted convoys / state-directed traffic / risk-tolerant operators taking a rate.
+#   ⚠️ TWO-WAY: degrading standoff enforcement may push Iran toward MINES and UNATTRIBUTABLE attacks — the two things underwriters fear most — so the near-term path could be premium UP. That does not refute the mechanism; it means substitution toward the passive layer and a FURTHER reopening.
 # UNIT DISCIPLINE: all premia are % OF HULL VALUE per voyage/transit unless the Unit column says otherwise. Do not compare across legs without checking Unit.
 # OWNERSHIP: war-risk premia SPECIFIC to the Hormuz/Gulf/Red Sea theater are FALCON's. Global war-risk-insurance and shadow-fleet-enforcement SYNTHESIS is HAWK's — do not extend this file into HAWK's lane.
 Metric	Leg	Value	Unit	As_Of	Source	Stale_By	Prior_Value	Prior_As_Of	Direction	Role	Notes
