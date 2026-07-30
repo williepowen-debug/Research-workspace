@@ -1,5 +1,21 @@
 # VULCAN — SCRATCH (next-session pickup)
 
+> ## ▶ 2026-07-30 (autonomous scheduled boot) — MSFT + META graded. NO GATE FIRED. AMZN 7/30 is the decider.
+> **What happened:** Both reported 7/29 AMC. Graded all 4 tests, appended KB-035..040, updated PREDICTIONS (07/09/10 partial notes, all stay OPEN), STATUS (matrix S1 + both sub-read triad rows + bottom line), NEXUS_BRIEF. ⚠️ **VULCAN-04 (SK Hynix) is STILL OPEN on the boot scan** — it printed 7/23; SCRATCH 7/22 PT3 had only pre-print consensus (KB-032). **Grade it next session** against the actual release.
+>
+> ### The grades:
+> 1. **VULCAN-07 (obsolescence) — MSFT clean NO.** FY26 10-K (SEC-primary, acc 0001193125-26-323660) servers & network held **2–6y, UNCHANGED**. 🔴🔴 shortening override did NOT fire. The 15→25y is a BUILDING extension (🟠, wrong asset class, does NOT count). META 10-Q NOT filed yet — read PENDING. Server-change count 0 of 4. Do NOT resolve until AMZN's 10-Q (may slip 8/3). [KB-036]
+> 2. **VULCAN-09 (returns-case) — NOT confirmed, 1/3 confounded.** MSFT ROSE **+8.88% AH** on a maintained/growing capex = DISCONFIRMING (cleanest print rewarded). META fell ~7-8% but confounded by a 14% EPS miss ($3.58B one-time). GOOGL's −5% did NOT generalize. Needs AMZN clean-fall. [KB-037/038]
+> 3. **VULCAN-10 (2027 decel) — MSFT NO decel** (Q1 FY27 >$50B, CFO guided increase + dismissed overcapacity). 0 of ≥2-of-4. Full read Jan-2027. [KB-039]
+> 4. **VULCAN-01 — NOT finalized (AMZN 7/30).** ⚠️ MSFT $175B headline is a lease-reclass (building useful-life 15→25y → finance→operating), **NOT commensurable with the $190B baseline** — a NEW capex-optics lever (KB-040). GOOGL $195-205B, META floor +$10B. All 3 HELD/RAISED real spend.
+>
+> ### NEXT SESSION (priority):
+> 1. **AMZN grade (prints 7/30 AMC → grade 7/31):** the decider for VULCAN-01/06/09, and the last server-life read for VULCAN-07 (AMZN 10-Q may slip to Mon 8/3 — do NOT resolve VULCAN-07 early). **Count the capex root ONCE across 01/06/09.**
+> 2. **META 10-Q footnote read** when it files (~7/30-31) — expected NO (Jan-cadence); log the NO explicitly (read-card §3.2/§3.3).
+> 3. **VULCAN-04 (SK Hynix) — resolve on the clock** (printed 7/23; boot flags DUE). Grade from the actual release vs KB-032 pre-print.
+> 4. **Compute-spot-index prediction candidate** still deferred (SCRATCH 7/22 PT5) — baseline the level before registering a threshold.
+> **Routing:** no route packets written (no gate fired); the MSFT-disconfirming datum went to NEXUS_BRIEF (VIOLET/HENRY, 🟡), not crisis outbox.
+
 > ## ▶ 2026-07-22 (Will-directed boot) — VULCAN-03 GOOGL gate RESOLVED HIT. The finding is the reward-function flip, not the grade.
 > **What happened:** GOOGL raised FY26 capex to $195-205B (from $180-190B), Q2 capex $44.9B (+100% YoY) → VULCAN-03 HIT confirm-side; if-falsified did not trigger, no VIOLET/HENRY fire. **BUT the stock fell ~5% AH *because* it raised** — first hyperscaler print to carry the SIG-007 returns-case axis (SOX −20% bear market / Kimi K3 commoditization shock). Logged KB-028/029; STATUS + NEXUS + PREDICTIONS updated; VIOLET/HENRY flagged in NEXUS_BRIEF (not a crisis outbox — measured, one-name thermometer + broad SOX corroboration).
 >
