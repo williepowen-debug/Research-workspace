@@ -192,7 +192,7 @@
 | 🟠 | **MOVE breaking is the biggest single change to my independent set — verify it holds.** 74.18 is one print below the line after four sessions of decline. **Re-pull 7/30 (investing.com primary, yf as the corroborator — it worked tonight).** If MOVE re-crosses 76, confirm-3 un-breaks and KB-VIO-144 needs re-grading. | **LIVE.** |
 | 🟠 | **KB-VIO-126 hook — AMZN + AAPL AH 7/30 is the third dispersion test.** Two-for-two so far that megacap violence arrives *divergently* and index vol does not follow. A third would make the suppression mechanism the base case rather than a caveat. | Registered. |
 | 🟡 | **Un-audited surfaces:** `SIGNAL_INTAKE.md` (7/17) and `README.md` (7/12) still have never had a provenance pass — and SIGNAL_INTAKE carries the durable threshold lines WALTER routes against, which the KB-VIO-147 audit above now makes urgent. | Open. |
-| 🟡 | **Reconcile GOOGL drawdown** — my −5% [VULCAN 7/22] vs WALTER −7.1% [7/23]. | Minor. |
+| ✅ | ~~**Reconcile GOOGL drawdown**~~ **CLOSED 7/30 in WALTER's favour.** GOOGL 7/23 one-day = **−7.13%** (317.69 vs 342.09), reproducing WALTER's −7.1% exactly. **My −5% reconciles to nothing on 7/22** (one-day −1.46%; vs the 7/15 peak −7.77%) — almost certainly the **Mag-7 basket −4.8%** relabeled onto its largest constituent. ⚠️ **The mislabel was understating my own dispersion thesis** (KB-VIO-126): the single name fell half again as much as the basket. → KB-VIO-155 |
 | 🟣 | **Refresh BOTH Will-facing Artifacts (same URLs)** — `vol_cheatsheet` + `violet_operating_picture`; both still lack a POSITION row, and the position closes tomorrow. **Do it post-exit with the closed record.** | Standing. |
 
 ---
