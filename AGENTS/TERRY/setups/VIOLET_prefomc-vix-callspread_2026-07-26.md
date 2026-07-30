@@ -634,3 +634,66 @@ Pull **both legs** of the live 4-lot position: VIXW Aug-05 **20C** (long) and **
 **This is a better lesson than the one I wrote, and it is closer to the money.** → auto-memory `finding_profit_zone_needs_its_own_harvest_rule` (replaces the withdrawn `finding_near_dated_vol_spread_misses_the_spot_spike`, whose premise this correction removes).
 
 **Process note, recorded against myself:** the common thread in all five is **publishing at the precision I wished I had rather than the precision I had**, and **writing a conclusion without checking it against the two agents who had already contradicted it in my own inbox.** §11.B was written from VIOLET's brief — the brief that contains the refuting sentence.
+
+### G. 🔴 THIRD CORRECTION PASS — 2026-07-30 ~13:10 ET. **§11.D-2 IS FULLY WITHDRAWN.**
+
+*Two VIOLET packets landed after §11.F was written. Both correct me; one destroys a finding I published as measured fact and told Will directly.*
+
+#### G-1. ✅ Fill time ESTABLISHED — **~09:50 ET**, and §11.E's "UNESTABLISHED" is discharged
+
+**FORGE's 09:40 broker export still carries BOTH VIXW legs live** (20C $240.00 / 25C −$104.00, net $136.00), logged as FORGE discrepancy **D-8**. **That is a hard lower bound, not another inference: the fill is after 09:40.** PROME's ~09:50 is corroborated; my ~10:2x is refuted — it was always inferred from *when I looked*, never from when it filled.
+
+*(VIOLET notes my §11.E ruling committed 11:02 and FORGE's reconcile 11:11:51 — the ruling was correct on the evidence that existed. That is a fair defence and I record it, but it does not soften what follows.)*
+
+#### G-2. 🔴 **§11.D-2 — THE EXECUTION FINDING — IS WITHDRAWN IN FULL. n=2 → n=0.**
+
+I published, and told Will in conversation, that *"my limit-setting on liquid verticals is systematically ~5¢ too generous to the market; n=2, Will beat me in both directions."* **It was an artifact of the 21-minute timestamp gap.**
+
+**Reconstructing the 09:50 market from the 10:11 chain** (spread delta to the forward ≈ **0.175**, from 19C 0.90 / 20C 0.60 / 21C 0.47 and 24C 0.22 / 25C 0.20):
+
+| beta used | forward move | implied **09:50 spread mid** |
+|---|---|---|
+| 0.53 (my §11.F correction) | +0.228 | **0.440** |
+| 0.59 (VIOLET, ≤10 DTE) | +0.254 | **0.444** |
+| 0.60 (weekly, interpolated) | +0.258 | **0.445** |
+
+**Robust across every beta: the 09:50 mid was ~0.44–0.45. Will filled 0.45.**
+
+> **Will filled at the 09:50 mid. I recommended the 10:11 mid. Both of us said "mid." There was never a divergence to explain.**
+
+**And the entry leg collapses identically:** I proposed a **$0.75 limit**, Will worked **$0.70** — and **$0.70 *was* the mark** (§8 says so: *"filled AT mark 0.70, not worst-case 0.83"*). That is "TERRY set a limit with slack, Will paid the mark," **not** evidence about where verticals trade inside their legs' quoted markets.
+
+**Neither observation shows what I claimed. Both legs withdrawn.**
+- ❌ **WITHDRAWN:** the n=2 claim, the "~5¢ too generous" self-diagnosis, and the adopted rule *"open in the aggressive third of the net bracket."*
+- ⚪ **UNPROVEN, not disproven:** a vertical *does* trade inside the sum of its legs' quoted markets — that is textbook microstructure. **But my evidence for it was this measurement error, so it does not get to keep the authority.** Re-establish with same-timestamp data or not at all.
+- 🔴 **The real defect, which is worse than the one I invented:** I built a **behavioural conclusion about myself** on an **unverified timestamp**, wrote it to a durable auto-memory, and reported it to Will as measured. **Noise (20 minutes of a 2%/hour tape) exceeded the effect I claimed to measure by several times.** → auto-memory `finding_grade_execution_only_against_same_timestamp_marks` **replaces** the withdrawn `finding_vertical_trades_inside_its_legs_quoted_market`.
+
+#### G-3. 🟠 Beta — **wrong twice.** It is `beta(tenor)`, not a scalar
+
+VIOLET re-derived it rather than accept my relay (OLS, ΔM1 on ΔVIX, **n=246** CBOE settlements from `VX_M1_HISTORY.tsv`):
+
+| M1 tenor | beta | n |
+|---|---|---|
+| 21–35 DTE | **0.274** | 200 |
+| 11–20 DTE | 0.505 | 27 |
+| **≤10 DTE** | **0.591** | 19 |
+| pooled | 0.345 | 246 |
+
+**My original 0.28 was the RIGHT number for the WRONG TENOR** (it is the 21–35 bucket almost exactly). **My §11.F "correction" to 0.53 still understated it.** This position lived **9 → 6 DTE** = the ≤10 bucket ⇒ **~0.59**, and a *weekly* forward interpolates toward spot ⇒ **~0.6**. *Limits per VIOLET: n=19 is thin, near-expiry convergence is partly mechanical — **the gradient is robust, the point estimate is not.***
+
+**Consequence, and it points the same way as §11.F:** at beta ~0.28 the vehicle looks structurally incapable of converting a correct call. **At ~0.6 it plainly could — and did, transiently.** VIOLET has withdrawn her own *"losing trade by construction"* on exactly this basis. **`NO_HARVEST_RULE` is further strengthened, not weakened.**
+
+#### G-4. ⚠️ Item (5) NARROWED — I over-read VIOLET, at her own insistence
+
+She asked me to correct a claim **in her disfavour that I had attributed to her**:
+
+| Claim | Status |
+|---|---|
+| the **long 20C** was ITM on the forward at the 7/29 close, by ~0.5 | ✅ what she said |
+| the **spread** was worth more than the $0.70 debit | ❌ **she never said this and cannot confirm it** |
+
+She marked no option prices at any point (post-close quotes are the after-hours artifact), so **she is not a source for "profitable."** A 20/25 spread with the forward at ~20.5 and 6 DTE is **not** automatically above 0.70 — its value turns on the probability of reaching 25, not intrinsic alone. **§11.F's phrasing "both report the position was PROFITABLE" is corrected to: both report the LONG LEG went through its strike.** Item (5) stays ⏳ PENDING on a chain mark. **`NO_HARVEST_RULE` survives the narrowing** — it needs only "no rule fired on being in profit," which is verifiable from §6.
+
+#### G-5. The pattern, third time today
+
+**§11.F said the common thread was publishing at the precision I wished I had. G-2 is the same disease in its worst form: an unverified input became a confident claim about my own behaviour, in durable memory, reported to Will as fact.** The correction did not come from my own audit — **it came from VIOLET flagging a timestamp**, and my §11.F audit had *already looked at this finding and left it standing.* **An audit that re-reads its own conclusions without re-deriving their inputs is not an audit.**
