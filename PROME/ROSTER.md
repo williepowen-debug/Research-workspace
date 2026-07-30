@@ -82,6 +82,11 @@ FERT · CRUISE (Will's personal-interest) · ATHENA (reading / knowledge).
 **YEYOU** — repo-wide reviewer on a manual/branch model (not a domain agent; stays manual per Auto-push Decision C).
 **DAEDALUS** — fleet architect (meta-agent: design/structure/maturity/lifecycle). On-demand, spawnable by PROME/Will; persistent meta-memory. Merged + wired 2026-06-27 (Phases 0–3 done, dry-run-proven; Phase 4 = first real maintenance pass). On fleet auto-push.
 
+## TOOL-CLASS INSTRUMENTS — not agents; do NOT audit as agents
+*(Named spawn skeletons whose definitions live in `.claude/agents/` — the HARNESS registry, deliberately outside `AGENTS/`. They have no `AGENTS/<NAME>/` dir, no STATUS, no roster seat, no standing sessions; each instance is ephemeral and its contract file is its memory. **A roster-activity audit that finds their names in commit history should match them HERE and stop** — a "missing `AGENTS/<NAME>/` dir" for a name on this list is correct, not a gap.)*
+- **ANVIL** — FORGE reconcile clerk (`.claude/agents/anvil.md`, Will-directed 2026-07-30). PROME's standing instrument for broker-export reconciles of `FORGE/STATUS.md` + FORGE mechanical follow-ups; spawned per export, commits only on per-run PROME authorization (FORGE owner = PROME, root `CLAUDE.md` line 30). First proof run `69515d7a`. Promotion to a real agent = DAEDALUS maturity lane, Will-gated, only if cadence proves out.
+**RAV** *(pending Will ruling — registration recommended 7/30)* — Will-driven outside repair tool (Codex CLI, author `rav-codex@local`); commits directly on master under Will's per-run direction. NOT citable as precedent for cross-dir commits; future runs owe a one-line note in the target agent's inbox (WALTER review 7/30). Listed here provisionally so commit-history audits match the name; formal row awaits Will's call.
+
 ## Spinouts & promotions (provenance)
 *(Relocated from root `CLAUDE.md` 2026-07-01 — root keeps only the live "reconcile-to-one-figure, don't-silo" rule + Florida priority; the archival history lives here.)*
 REGINALD sub-scopes promoted to peer agents (each ran as a REGINALD sub before getting its own `AGENTS/<NAME>/`):
