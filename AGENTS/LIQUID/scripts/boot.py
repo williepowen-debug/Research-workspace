@@ -91,7 +91,15 @@ def build_credit():
     else:
         bps = v * 100
         hy_bps = bps
-        if bps >= 280:   m, n = "🔴", "X1 MASTER TRIGGER FIRED (>280) — credit-recognition; escalate ALL"
+        # Label corrected 2026-07-30 (stale-data sweep). THRESHOLD UNCHANGED at >=280 — string only.
+        # Two defects in the old label, both load-bearing and printed at EVERY boot:
+        #   (1) "X1 MASTER TRIGGER FIRED" violates GATE-LIQ-079 rider R1 — X1 is CONJUNCTIVE
+        #       (level leg + BROCK's wrapper-leads leg) and a 280 print alone must never be
+        #       reported anywhere as "X1 MET". BROCK's half is independently NOT MET.
+        #   (2) "credit-recognition" is refuted by analysis/2026-07-30_hy-attribution.md —
+        #       the +19bp to 287 is 68-84% broad DM HY beta, ~0% bank/CRE, and BB-led/flow-shaped,
+        #       i.e. the opposite of a quality-recognition event.
+        if bps >= 280:   m, n = "🔴", "HY >=280 LEVEL LEG MET — X1 half ONLY, NOT 'X1 MET' (R1: wrapper-leads leg conjunctive + NOT MET; RED owns sustain) — 7/30 attribution says broad DM beta, NOT credit-recognition"
         elif bps >= 265: m, n = "🟡", f"X1 APPROACH (265-280 band) — {280 - bps:.0f}bps to the 280 master trigger"
         elif bps < 260:  m, n = "🔴", "BEAR-AXIS KILL (<260 ×2 closes) — credit-thesis invalidation, NOT a stress event"
         else:            m, n = "🟢", f"green (260-265) — {bps - 260:.0f}bps to 260 kill / {280 - bps:.0f}bps to 280 X1 trigger"

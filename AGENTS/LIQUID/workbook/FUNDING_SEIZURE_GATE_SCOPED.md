@@ -24,7 +24,7 @@ DEWEY 07b's finding: **the gate does NOT generalize.** It is scoped to **funding
 
 **ARMS (watch, not fire):** acute leg alone — **SOFR99−IORB ≥ +30bps AND non-calendar (±2 business days of quarter-end / month-end / Apr-15 excluded) AND ≥2 CONSECUTIVE such days.** *Acute-alone fired late-and-uselessly in Mar-2020 (by the +190bp print, HY had already run 66% of its eventual +725bp move) → arm, don't fire.*
 
-> **⚠️ The persistence leg (≥2 consecutive days) was ADDED 2026-07-23** by my own FP backtest (§LIQUID INDEPENDENT FP BACKTEST below, KB-LIQ-087). It cuts episode-level FP **62% → 25%** while leaving the Sep-2019 true positive **completely intact**. **Do NOT instead widen the calendar filter** — tested and rejected: adding tax dates erases the 690bp Sep-2019 peak, because that seizure was *caused* by a corporate-tax-date reserve drain. **Calendar width is capped at the registered ±2bd; persistence is the correct discriminator.** This is a LIQUID-domain change to the funding mechanics — BROCK's 7/20 sign-off explicitly did not cover the FP census, so it needs no re-sign-off, but BROCK is notified because it changes *when* the gate they signed off on arms.
+> **⚠️ The persistence leg (≥2 consecutive days) was ADDED 2026-07-23** by my own FP backtest (§LIQUID INDEPENDENT FP BACKTEST below, KB-LIQ-087). It cuts episode-level FP from **5 of 8 → 2 of 8 non-calendar episodes (n=1 true positive)** while leaving the Sep-2019 true positive **completely intact**. ⚠️ **Denominator form is mandatory (adopted 2026-07-30, BROCK's n=1 flag; PROME fixed `PROME/GATES.tsv` to match): never write a bare "62%" or "25%" — a rate cannot be estimated from one true positive, and the percentage sheds its denominator the instant it is lifted into another surface.** **Do NOT instead widen the calendar filter** — tested and rejected: adding tax dates erases the 690bp Sep-2019 peak, because that seizure was *caused* by a corporate-tax-date reserve drain. **Calendar width is capped at the registered ±2bd; persistence is the correct discriminator.** This is a LIQUID-domain change to the funding mechanics — BROCK's 7/20 sign-off explicitly did not cover the FP census, so it needs no re-sign-off, but BROCK is notified because it changes *when* the gate they signed off on arms.
 
 **FIRES (funding-seizure pre-emption memo):** the **conjunction** —
 1. **Archetype = funding-origin** (discriminator above; NOT deposit-run, NOT shock), AND
@@ -74,7 +74,7 @@ Census 2018-04-03 → 2026-07-15 (SOFR's true start; IORB spliced to IOER at the
 | +30bps raw fire-**days** | 26 | **48** |
 | non-calendar fire-days | — | **21** |
 | non-calendar **episodes** | — | **8** |
-| **FP rate (episode-level)** | ~20% | **62% (5 of 8)** |
+| **FP, episode-level** *(a count, NOT a rate — n=1 TP)* | ~20% *(refuted)* | **5 of 8** |
 
 I cannot reconcile 26 vs 48 without DEWEY's working. **Do not cite the ~20% figure.** Two things drive the gap: (a) an unreconciled census difference, and (b) **day-weighting flatters the gate** — Sep-2019 alone contributes 8 of the 21 non-calendar fire-days, so a per-day FP rate buries the fact that there is only **one** true event. *Episode-level is the decision-relevant unit: you decide once per episode, not once per day.* Same bias DEWEY correctly flagged at +10bps ("a 214-day single event swallows Sep-2019 whole") — it is still present at +30, just smaller.
 
@@ -103,7 +103,7 @@ The obvious "fix" for those FPs is a wider filter (tax dates, wider year-end). *
 
 - Removes **4 of 5 FPs** (all four are 1-day turn-noise prints: 2018-12-06, 2019-01-03, 2024-09-19, 2024-12-26)
 - **Retains the true positive completely intact** — 8 days, 690bp peak, untouched
-- Episode-level FP **62% → 25%**
+- Episode-level FP **5 of 8 → 2 of 8 non-calendar episodes (n=1 true positive)** — a count, not a rate; never restate as a bare percentage
 
 This is preferable to a wider filter because it is **mechanistically motivated, not merely curve-fitted**: turn/tax noise is a *one-day settlement artifact* that reverses next session, whereas a genuine seizure is a *persistent* collateral-financing failure. That distinction is the reason to trust it at n=1 (below).
 
