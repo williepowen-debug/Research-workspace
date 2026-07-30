@@ -136,6 +136,19 @@
 >
 > **PROPOSED REPLACEMENT (for Will's ruling — NOT applied):** replace the *directional* STNG test with a **DISPERSION** test that has power in both directions — *tankers must move **materially** and the sign is informative, not required*: **(i)** if tankers **fall** ≥3% while crude falls, the market is pricing an operational reopening ⇒ **CONFIRM**; **(ii)** if tankers **rise** ≥3% while crude falls hard, that is the **ton-mile channel** (LESSONS #19) and is **NOT** a disconfirmation ⇒ **NEUTRAL, gate on the transit leg alone**; **(iii)** if tankers are **flat (±1%)** on a claimed operational reopening, the market is ignoring it ⇒ **DO NOT FIRE.** *This preserves the anti-false-positive intent (case iii is the real "nobody believes it" signal) while removing a veto that fires on every real outcome.*
 >
+> ### 🔎 INVESTIGATED FURTHER 2026-07-30 PM (Will-directed) — **AND THE TANKER LEG IS THE THIRD-MOST-SERIOUS DEFECT HERE, NOT THE FIRST.** Full analysis + options → `setups/2026-07-30_offramp-stageA-v3-tanker-question-PROPOSAL.md`.
+>
+> **⛔ CORRECTION to the note above: Jun-17 was NOT a real off-ramp** — LESSONS #19 records it **0-of-4 on physical legs.** **This regime has produced ZERO genuine physical reopenings**, so real-vs-fake cannot be calibrated on data. **The correct restatement: the gate would have blocked the one trade that WOULD HAVE MADE MONEY** (Jun-17: 0-of-4 physical, and a crude short still won **−9.7% by day 10**), while Apr-17 (unilateral minister quote) ran **+19.7%** and would have destroyed a short.
+>
+> **THREE DEFECTS FOUND BEHIND THE TANKER LEG:**
+> 1. **🔴 WRONG TENOR + NO HARVEST RULE — the expensive one.** Spec says **60-90 DTE**; the one qualifying move **round-tripped in 20 days** (trough **−8.1% at day 9**; day+15 **−2.4%**; day+17 **+8.8%**; day+20 **+13.1%**). **There is no profit target, no time stop and no trailing rule anywhere in this playbook.** A 60-90 DTE spread held to expiry gives it all back.
+> 2. **🔴 STAGE A CONTRADICTS LESSONS #11.** #11: *"Phase 2 crash triggers at ANNOUNCEMENT, not delivery — waiting for barrels means missing 80% of the move."* Stage A requires **transits >35/day sustained**. On Jun-17 transits were **dark** and the short won anyway. **The spec and the lesson are opposed, and the spec won.**
+> 3. **🟠 the STNG leg** (above). ⚠️ **In fairness: on Apr-17 blocking was CORRECT — but only by accident, because it blocks everything.**
+>
+> **🆕 THE DISCRIMINATOR THAT WORKS — crude's own 2-day follow-through:** Apr-17 day+2 = **+9.0%** (BLOCK ✅) · Jun-17 day+2 = **−2.1%** (FIRE ✅). **2-for-2, reading the instrument actually traded.** Robust: **every threshold from −2% to +8% separates the two** — an 11-point gap, so it is the *sign and persistence*, not a tuned level.
+>
+> **⚠️ n=2 on entry, n=1 on harvest. Held loosely and labelled as such.**
+
 > **Until ruled, the STNG leg stands as written** — the same discipline applied to the un-anchored *"war-risk halves"* threshold: **scope the fix to the ruling you actually have** (`[[finding_outside_this_rail_disclosure]]`).
 
 **⇒ STAGE B — PERSISTENCE (does NOT gate entry; it grades the position AFTER it is on).** Each leg carries its **own window, matched to its own response time**, measured from the Stage-A announcement:
