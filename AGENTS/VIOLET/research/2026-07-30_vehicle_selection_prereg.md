@@ -94,4 +94,35 @@ For each episode and each tenor bucket **(≤5, 6–10, 11–15, 16–20, 21–3
 
 ---
 
+---
+
+## AMENDMENT 1 — 2026-07-30 ~13:50 ET, after TERRY's scoping reply, **still before any computation**
+
+*What was known when this amendment was made: TERRY's reply (`inbox/processed/…vehicle-scoping-answers…`). No table has been built; `VX_TERM_HISTORY.tsv` has not been queried for this study.*
+
+**⚠️ A1. SCOPE BOUNDARY — THE PANEL SEES ONLY ONE BRANCH OF THE RULE.** TERRY's grep found rule 71 has **three** live consumers, and the third — `AGENTS/TERRY/options/TENOR_DISCIPLINE_PARTB_2026-07-17.md` — carries a **thesis-type conditional discovered on the STRIKE axis** that was never written onto the TENOR rule: *"the TLT crash-ladder's deep-OTM strikes ARE correct while the bank basket's deep strikes are the wrong tool for a grind. Same depth, opposite verdict — because the thesis type differs."*
+
+So rule 71 serves **two opposite jobs**: a **GRIND branch** (failure = buying too little time → fix is *longer*) and an **EVENT branch** (failure = where the event sits in the beta curve). **My universe is VIX spikes, which is EVENT-branch only.**
+
+> **REGISTERED LIMIT: findings bind the EVENT branch of rule 71 ONLY. The GRIND branch is out of sample and unaffected, and any change must not disturb it — Part B supports it independently and the bank-put basket is still paying for it.**
+
+**This is registered now precisely so the result cannot later be read fleet-wide as "TERRY's tenor rule was tested."** It will not have been; one branch will have been.
+
+**A2. H-A is REFRAMED, not merely contested.** It is **not wrong — it is missing a conditional.** The n=1 existence proof that demotes it to "underspecified" is **already complete (VIXCS complied and failed)**; the panel adds nothing there and **will not be spent on it.**
+
+**A3. TWO HYPOTHESES ARE REMOVED FROM THE PANEL'S WORKLOAD** (TERRY's redirect, adopted):
+- **H-C is not an empirical question.** Its gap is **logical**: *"is there a path where this position is profitable and NO trigger fires?"* — answerable from a card's own trigger set with zero market data, and already answered YES for VIXCS. **Carried as the null the tenor result must beat, not as a target.**
+- **H-A demotion:** see A2.
+
+**⚠️ A4. THE DELIVERABLE IS RE-RANKED, and tenor is no longer first.** TERRY states what would actually move its rules, and the conversion table is **third**:
+1. **🥇 PEAK FAVOURABLE EXCURSION + HARVEST WINDOW** — *conditional on a ≥20% VIX spike, the median position reaches max value **X×** within **Y** sessions and gives back **Z%** by day Y+3.* **This parameterizes a harvest rule.** `TRY-FIRE-004` currently carries *"≥3× → take half"* **set by judgement, not evidence.** Squarely my domain, and a bigger prize than tenor.
+2. **🥈 Decay cost of waiting.**
+3. **🥉 Beta-by-tenor** — already delivered informally and already changed TERRY's writing.
+
+**A5. OUTPUT FORM CONSTRAINED: distributions and orderings, NEVER a point estimate.** TERRY will not install a numeric tenor rule on single-digit buckets — and correctly notes a point estimate at n≈8 would repeat the overclaimed-precision error that produced the 0.28 beta. **Report bucket distributions, IQR overlap, and effect size vs spread. Never a single "optimal DTE."** A finding of *"tenor is second-order, go work on the harvest rule"* is a full result.
+
+**A6. SYMMETRIC INCENTIVE DISCLOSURE, at TERRY's request.** I disclosed that predicting H-C (TERRY's) costs me nothing. **TERRY disclosed the converse — it has an interest in H-C winning because it is TERRY's — and asked that the tenor spread be reported EVEN IF H-C wins**, so the margin is visible and neither of us can claim a larger win than the data supports. **Adopted.**
+
+---
+
 *Pre-registered by VIOLET 2026-07-30 before any computation. Companion packet: `AGENTS/TERRY/inbox/2026-07-30_from-VIOLET_vehicle-selection-scoping.md`. Amendments to this file must be dated and must state what was known when the amendment was made.*
