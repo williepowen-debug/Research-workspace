@@ -51,6 +51,43 @@
 
 **STRIKES.tsv correction:** 36 rows (not ~43) — 32 RU-UA → OSPREY, 4 GULF-IRAN → FALCON, 0 untagged. **FALCON founding mandate (day-1 SCRATCH item): Gulf-Iran strike-ledger backfill sweep** — its inherited ledger is 4 Mar-vintage seed rows and SUMMARY's analysis layer is ~95% Russia. This asymmetry is explicit, not silently absorbed. KB freeze note: 2 duplicate IDs (KB-HAWK-131/132 ×2) — note in FROZEN banner, no surgery.
 
+## 2c. ⚠️ POST-MORTEM ON §2b — TWO SEEDING DEFECTS, FOUND BY FALCON 2026-07-30 (18 days post-build)
+
+*Added by DAEDALUS on FALCON's packet (`inbox/2026-07-30_from-FALCON_war-split-build-spec-asymmetry-and-molecule-blindspot.md`), Will-approved. FALCON verified itself by rewriting and OSPREY by reading their files; both findings are against **this spec**, not against either agent's judgment. Kept here rather than only in PATTERNS because this is the document that produced them.*
+
+### D1 — I allocated a mechanism row by WHERE ITS INSTANCES HAPPENED, not by WHERE THE MECHANISM CAN FIRE
+
+`FLOW-HAWK-20` (*refinery hit → domestic refining capacity lost → crude that cannot be refined is EXPORTED → crude UP, products DOWN → the repricing lands on the PRODUCT channel, not Brent*) went to **OSPREY** and was never considered for FALCON, because its historical instances were Russian. **The mechanism is not Russian. Both theaters have refineries.**
+
+**Cost, concretely:** the Houthis hit Aramco's 400 kbpd **Jazan** refinery 7/25; Aramco **shut** it 7/27. FALCON had to derive from scratch on 7/30 that this is **crude-BEARISH** and author `FLOW-FALCON-02` to hold it — a sign OSPREY had written down since **June 19**. In the interval the fleet-facing risk was that *"Aramco facility hit"* reads bullish-crude by default, and FALCON was telling BRENT *"cracks and diesel, not flat crude"* on judgment with no pathway row behind it. The §2b table above shows the defect in its own wording — rows were routed as *"Iran-loaded"* / *"Russia core"*, i.e. by instance provenance.
+
+> **RULE (adopted, generalized to every split/promotion): allocate MECHANISM rows by whether the mechanism CAN OCCUR in the child's theater — never by which theater the row's historical instances came from.** Instances are evidence; the mechanism is the asset. **Build-time test, one question per non-migrated row: *"can this mechanism fire in that child's theater?"*** If yes, the child gets a copy — duplication of a universal mechanism across two children is correct, not redundant. That single question would have caught this.
+
+### D2 — 🔴 THE ONE THAT MATTERS MORE: **neither sibling can represent a GAS/LNG shock.** Verified in both.
+
+FALCON: no gas/LNG row of any kind. OSPREY (grep, inbox excluded): `Nord Stream` · `TurkStream` · `Power of Siberia` · `pipeline gas` · `Russian gas` · `LNG` → **zero hits**; three vectors and three FLOW rows, all oil. **Russia is the world's largest gas exporter; Qatar is the world's largest LNG exporter; both sit inside these two agents' theaters.** Every seeded row runs through oil price or a chokepoint.
+
+**It already fired and it killed a registered kill-switch.** `FAL-03` — FALCON's explicit falsification test for the thesis it exports to BRENT/HENRY/SAM/CARL — resolved **FAILED on day 4 of a 21-day window**, and one firing route *was already true on the day it was registered*: a **QatarEnergy force majeure on LNG live since 2026-03-24**, ~12.8 Mtpa ≈ **17% of Qatar's export capacity**, 3–5 year repair, serially extended. It ran four months while FALCON broadcast *"zero confirmed barrels offline"* to four agents.
+
+> **The architectural point, in FALCON's words and worth preserving verbatim: it was UNREPRESENTABLE, not merely unnoticed.** A force majeure is not a strike; LNG is not oil. So the fact had no vector, no pathway, no threshold and no staleness affordance — and **a file with no row-shape for a class of event is silent about it in a way indistinguishable from that event not happening.** No diligence *inside* the agent recovers this: FALCON's arithmetic was right, its ledger current, its base rate freshly re-derived. **Reproducibility does not test scope match.** It surfaced only because WALTER routed a signal from outside the instrument's scope.
+
+> **RULE (adopted, every build): the NAME-THE-UNREPRESENTABLE-SHOCK check.** At build time, for each agent, ask ***"name a shock in this theater that NONE of the seeded rows has a row-shape for."*** If the answer is not "none," either seed the row **or write the exclusion down explicitly and name who owns it** — because ***"that belongs to another agent"* and *"I am blind to it"* look identical from outside, and only one of them is safe.** FALCON's fix shape is the model: `VX-FALCON-GASLNG-01` + `FLOW-FALCON-01`, with the vector's Notes scoping *out* gas **pricing** (FALCON owns the supply-loss fact in-theater; SAM and the macro agents own the price leg). The boundary is written down, so the blind spot cannot hide behind it.
+
+### D3 — build-time descriptors written in state tense (FILES tables)
+
+FALCON found 8 rows in its own FILES table describing build-day state as current 18 days on. **Its cohort-wide inference was tested and is only half right** — see PAT-072's sibling entry and `STATUS.md`: WATT / VULCAN / MIDAS / HOMER are clean, OSPREY carried 3 stale counts + 1 **live-wrong pointer** (`ANALYSIS_2026-07-12.md` named as current while `ANALYSIS_2026-07-23.md` existed) + 1 undocumented file. **The discriminator: *provenance* statements about spinout are permanently true ("seeded from HAWK, IDs kept"); *quantity* statements decay ("3 rows", "0 at spinout"), and *pointer* statements decay dangerously.** OSPREY's table was rewritten in role terms 7/30; the blueprint rule is below.
+
+### Status of the fixes
+
+| Fix | Where | State |
+|---|---|---|
+| Mechanism-allocation rule | this §2c + `BLUEPRINTS/market-agent.md` §6 + `builds/REGISTRATION_CHECKLIST.md` | ✅ 7/30 |
+| Name-the-unrepresentable-shock check | this §2c + blueprint + checklist | ✅ 7/30 |
+| FILES-table role-tense rule | blueprint | ✅ 7/30 |
+| OSPREY FILES table rewritten | `AGENTS/OSPREY/CLAUDE.md` (idle-verified, 6d) | ✅ 7/30 |
+| OSPREY gas/LNG + vol/credit gaps flagged on its own FLOW row | `AGENTS/OSPREY/CLAUDE.md` | ✅ 7/30 — **seeding the rows is the owner's call, not mine** |
+| FALCON `VX-FALCON-GASLNG-01` + `FLOW-FALCON-01` | FALCON | owner-lane, self-proposed |
+
 ## 3. Pre-freeze hygiene (execute DURING WP-3, before banners go on)
 
 1. **Re-total the PREDICTIONS.tsv scoreboard preamble** → `5C/8F/1P/1V/2 OPEN (HAW-16, HAW-17)` + note "HAW-16/17 re-homed to FAL-01/OSP-01 2026-07-12" (preamble currently stale: lists HAW-15 OPEN, undercounts FAILED).
