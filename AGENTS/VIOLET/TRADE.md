@@ -13,12 +13,13 @@ VIX-linked positions and trade framework.
 | **Structure** | **4× VIXW Aug-05 20C / 25C** call debit spread (5-wide, defined risk) |
 | **Fill** | **2026-07-27 ~11:35 ET** — long 20C $1.23 / short 25C $0.53 = net debit **$0.70** |
 | **At risk** | **$287.70 all-in** (max loss = the debit, in full) · **MAIN** book |
-| **What we own** | the **8/5 VIX forward** (~18.9 [EST] at the 7/27 settle vs ~19.6 at fill) — *not* spot; see KB-VIO-129 |
+| **What we own** | the **8/5 VIX forward** — **~20.5 [EST] at the 7/29 settle** (bounded by spot 20.66 and VX/Q6 20.3094; interp @7d = 20.54) vs **~19.6 at fill** and the **20 long strike** — *not* spot; see KB-VIO-129. ⚠️ **First time through the strike.** CBOE's 8/5 weekly print (20.3094) is a monthly fill-forward, **not an independent weekly settle** — TERRY marks the live chain. |
 | **Thesis gate** | HENRY short-gamma — **sign MET (N_eff ≥ 4)**; level **re-based 7/28** to ⚠️ 7,455 warn / 🔴 7,491 falsified (KB-VIO-138) |
-| **Management (TERRY card §6)** | VIX ≥23 touch → monetize half · inversion → sell rest · **MANDATORY 7/30 review regardless of P/L** · **no roll pre-registered** |
+| **Management (TERRY card §6)** | VIX ≥23 touch → monetize half — **NEVER FIRED** (episode high 20.88 [7/29]) · inversion → sell rest — **not fired on the index ratio** (1.0407) · 🔴 **MANDATORY 7/30 EXIT regardless of P/L** · **no roll pre-registered** |
+| **Exit read (thesis-side, 7/29)** | 📤 **Brief delivered to TERRY**: `AGENTS/TERRY/inbox/2026-07-30_from-VIOLET_VIXCS-exit-morning-brief.md` — **sell into any morning vol strength, EARLY.** ES already **+0.73% cash-equivalent overnight**; my pre-registered tree grades 7/29 a **FADE** (KB-VIO-144); **AMZN/AAPL AH 7/30 and BOJ 7/31 both land AFTER the exit.** Construction/marks/order type are TERRY's. |
 | **Realistic payoff** | **~+50% to +120% on the debit** on a 23-touch — *not* the headline 4:1, which the 7/30 exit forbids collecting (TERRY 7/26) |
 | **Base case** | **100% loss.** Absorption is **0-for-5** against this trade class this cycle. |
-| **Live risk controls** | the five stand-downs — canonical in `STATUS.md § LIVE RISK CONTROLS`, **all graded 7/28, none tripped** |
+| **Live risk controls** | the five stand-downs — canonical in `STATUS.md § LIVE RISK CONTROLS`. **Formally graded against the 7/29 CLOSE: ZERO tripped** (KB-VIO-143). ⚠️ **(i) "VIX ≥20 settle" CROSSED at 20.66 but is MOOT — it is registered PRE-FILL only, so it expired at the 7/27 fill and is a monetization tell, not a kill** (KB-VIO-147). ⚠️ **(iv) is NOT the SKEW-crash top: −3.43pt vs a >5pt line** — but off this repo's own `VX_DAILY` 7/28 TICK row it reads −7.05pt = TRIPPED (KB-VIO-145). |
 
 > ⚠️ **THIS SECTION READ "None." WHILE THE POSITION WAS LIVE — 2026-07-27 11:35 ET to 2026-07-28 ~04:30 ET (KB-VIO-142).** Caught by a provenance audit, not by any guard. **The boot staleness check passed this file `ok +2d`** because it compares *mtime to STATUS.md* — it measures **age, not agreement**, and cannot detect a fresh file that contradicts the truth. Note the symmetry with the failure recorded immediately below: this file previously carried a **dead** position as OPEN for three weeks, and has now carried a **live** position as None. **Both directions have now happened; the file is not self-correcting and needs a positive check, not a staleness check.**
 

@@ -1,141 +1,83 @@
-# VIOLET SCRATCH — July 28, 2026 (Tuesday PRE-MARKET ~03:30-04:30 ET, pre-FOMC boot + full inbox drain)
+# VIOLET SCRATCH — July 29, 2026 (Wednesday POST-FOMC ~23:15 ET, formal stand-down grade, PROME-spawned)
 
-> **⚡ THE EVIDENCE DIDN'T MOVE OVERNIGHT. MY MEASUREMENT OF HOW MUCH ROOM THE THESIS HAS LEFT DID — BY HALF.** Stand-down **(iii)** was anchored to **~7,496**, which turned out to be the **highest AND stalest** gamma-flip estimate in the set. Re-based to a band: **⚠️ 7,455 warn / 🔴 7,491 falsified.** Real headroom **+41.8pts (0.56%)**, not the +82.8pts (1.12%) my dashboard showed for five days. **A 0.6% post-FOMC relief rally now falsifies the gamma gate — the live way this position dies is relief on Wednesday afternoon, not a crash.** Separately: **stand-down (iv) is GRADED for the first time** and my "SKEW T+1 lag" diagnosis was flatly wrong. **No stand-down tripped. `TRY-VIOLET-VIXCS` LIVE into FOMC (1d) and the mandatory 7/30 review.**
+> **⚡ THE POSITION GOT ITS LEVEL AND WAS DENIED ITS CONFIRMATION.** VIX settled **20.66 (+13.45%)** — the **first >20 settle of the entire episode**, episode high **20.88**, regime **LOW_VOL → RISING_VOL**. **ZERO of the five stand-downs tripped.** But my **pre-registered** KB-VIO-123 tree, locked 7/23 before any of this data existed, grades it **SHARED-SURFACE-ALONE = FADE-PRONE** — because **MOVE broke its confirm line on the FOMC day (74.18, −2.51%)** and the independent set did not confirm. **`TRY-VIOLET-VIXCS` goes to its MANDATORY 7/30 EXIT un-killed. My thesis read: sell EARLY.**
 
-## ★ ALL FIVE STAND-DOWNS GRADED — NONE TRIPPED
+## ★ FORMAL 7/29-CLOSE GRADE — ZERO TRIPPED (KB-VIO-143)
 
-| # | Line | Latest graded reading | Distance | Verdict |
+| # | Line | 7/29 SETTLE reading | Distance | Verdict |
 |---|---|---|---|---|
-| (i) | VIX ≥20 **settle** | **18.67** [7/27] | 1.33 | NOT TRIPPED |
-| (ii) | VIX3M/VIX <1.0 **settle** | **1.0819** [7/27] | 0.082 | NOT TRIPPED — re-steepened |
-| **★ (iii)** | **RE-BASED** → ⚠️ 7,455 warn · 🔴 7,491 falsified | **SPX 7,413.18** | ⚠️ **+41.8 / +0.56%** | NOT TRIPPED — **headroom halved** |
-| **(iv)** | SKEW crash >5pt on an up-VIX day | **146.60** [7/27] = **−0.68pt**, VIX +0.48% | 4.3pt margin | **✅ NOT TRIPPED — GRADED, hole closed** |
-| (v) | CCC re-tightens <9.65 | **9.96** [7/24] | 0.31 | NOT TRIPPED — widened away |
-
-## THE TWO CORRECTIONS I OWE THIS SESSION (both mine, both to load-bearing surfaces)
-
-1. **🔴 (iii) was anchored to the wrong number → KB-VIO-138 → thesis v3.7.** HENRY's 7/28 03:45 packet: my kill-line used HENRY's **7/23** chain = **oldest and highest** available. Set: HENRY fresh **7,491** [7/28] · ZeroGEX **7,453.69** · core-brief **~7,465** · Modigin 7,452 / InsiderFinance 7,431 (all 7/27) ⇒ independent cluster **~7,453–7,465**. **Accepted in full.** The reasoning error, named: HENRY publishes *"the sign is trustworthy **because** the margin exceeds the estimator's uncertainty"* in every delivery since 7/17 — that protects the **sign**, and I converted it to a **level** kill-line, the one use the caveat excludes. My *"N_eff = 1 stands, unreduced"* note was **backwards for this gate**: sign is N_eff ≥ 4 (5-of-5 + two-source net GEX −$34.3B/−$34.4B), **level** is the weak leg and reads high on two consecutive sessions. ⚠️ **I do NOT adopt HENRY's "systematic, not noise" — n=2 across a ~14h offset cannot separate bias from two correlated draws.** **The re-base rests on *"a kill line trips on the earliest credible falsification, not the last"***, which holds under plain uncertainty.
-2. **🔴 "CBOE SKEW T+1 publication lag" is RETRACTED → KB-VIO-137.** SKEW publishes **SAME-DAY at ~17:00 ET** (CBOE `last_trade_time 2026-07-27T17:00:19` for the 146.60 close), ~45min after the 16:15 VIX settle. My 7/27 "verified at three paths" ran yfinance daily bar + batch + CBOE delayed-quote **all before 17:00** — three checks sharing one failure mode is **n=1**. **(iv) was gradeable on both sessions I called it ungradeable.** ⚠️ **And my own ledger already had the answer:** `thresholds.py` wrote SKEW 146.6 into the 7/27 VX_DAILY row at **18:30 ET** and it shipped in `65047080` — the same minute STATUS was stamped *"NO 7/27 PRINT EXISTS."* The write-back produced both artifacts in one session and nothing compared them. **MEMORY.md's caveat was mis-teaching this at every boot — corrected.**
-
-## ⚠️ AND ONE PROCESS FAILURE THAT IS ENTIRELY MINE → KB-VIO-140
-
-**I recorded an ask as sent and never sent it.** My 7/27 SCRATCH said *"Asked HENRY for a fresher flip"*; my STATUS asked HENRY directly in the second person. **Verified: no VIOLET packet in `AGENTS/HENRY/inbox/`, and none in my own `outbox/`.** ⚠️ **See the ADDENDUM below — the claim that HENRY therefore "delivered unprompted" is RETRACTED. PROME authored and delivered the ask on 7/27 ~12:00 ET.** What survives is narrower and still real: **my record of my own action was false.**
-
-**What makes this variant distinct** (PROME logged its own instance the same day — commit `4cf6e6dc`, fleet n≥3 on `record-of-an-action-is-not-the-action`): PROME's claim lived in a **commit message**, obviously not a delivery. Mine lived in a section of my own STATUS **titled CROSS-AGENT SIGNALS, addressed in the second person to the recipient.** *The surface is named for the communication it does not perform.* NEXUS_BRIEF is my primary cross-agent channel but nothing in it delivers a **direct question to a named third agent**; an outbox file is required and I didn't write one.
-
-**Mitigation adopted (a check, not a resolution to be careful):** a second-person sentence addressed to a **named** agent in a write-back is a **deliverable** — it needs an outbox file in the same write-back, or it gets rewritten in the third person. **Verifying my own outbox is now part of closeout** (checkable in 5s at the sender side, no dependence on the recipient). ⚠️ **Cost this time: zero — but because PROME's relay covered the gap, NOT because HENRY volunteered (retracted, see ADDENDUM).** The honest counterfactual is therefore *"a working coordinator absorbed my omission,"* which is a materially weaker indictment than the one I first wrote.
-
-## ⚠️ ADDENDUM ~04:00 ET — I CORRECTED MY OWN CORRECTION (Will asked me to verify HENRY's account)
-
-**KB-VIO-140 is now `CORRECTED`. The "phantom ask" framing was wrong.** `AGENTS/HENRY/inbox/processed/2026-07-27_from-PROME_gamma-refresh-ASK-live-position-rests-on-your-7-23-chain.md` — a formal **PROME** ask dated **7/27 ~12:00 ET**, quoting my own closeout, requesting four numbered items of which **#1 is literally *"Gamma flip level — carried as ~7,496 … Still there?"*** HENRY's packet answers all four **in order**, and the ask sits in HENRY's **`processed/`** folder, so HENRY read it.
-
-- **What survives:** I recorded *"Asked HENRY"* having sent nothing. Still a false record of my own action; the mitigation stands.
-- **What was wrong:** the **counterfactual**. Not *"zero cost because HENRY volunteered"* but **"zero cost because PROME's relay covered the gap."** I wrote the ask on STATUS → PROME read STATUS → PROME authored and delivered it → HENRY answered. **That is the routing layer working, and I banked the dramatic version of my own mistake.**
-- **🔑 The lesson on top of the lesson:** I verified the absence of **my own packet** (correct) and inferred the absence of **any ask** (wrong). **Checking one sender's outbox does not establish what a recipient received.** I had HENRY's inbox listing open at 03:55 and read only the top level — **not `processed/`, which is where the answer was.**
-
-**Publish-side sweep run (HENRY's proposed rule, tested):** grep for the retired 7,496 across the fleet. Two refinements it needs — (a) **false positives on a bare number** (`REGINALD/SHORT_VOL.tsv` hit is `174960`, an OZK share count → use `7,496` or `\b`; the `finding_reconcile_match_on_key_not_substring` class); (b) **it cannot distinguish "carries the number" from "carries it flagged as superseded"** — every live PROME surface (DOCKET row 61, ACTIVE_DECISIONS, SCRATCH) was **already annotated** with HENRY's refreshed measurement and correctly deferred the re-base to me. **PROME was ahead of both of us.** The one genuinely stale consumer was **`WALTER/REGISTRY.tsv`** — packet sent.
-
-**Also flagged to HENRY:** *"systematic, not noise"* on the chain-vs-cluster gap is **n=2**, across a ~14h offset HENRY itself flagged. **The re-base does not rest on it** — it rests on *"a kill line trips on the earliest credible falsification"*, which holds under plain uncertainty. Adopted on the principle, not the bias claim.
-
-## ⚠️ ADDENDUM 2 ~04:20 ET — FULL-FILE STATUS AUDIT (Will's ask) FOUND A FOUR-DAY-OLD WRONG NUMBER SENT TO SAM
-
-**🔴 KB-VIO-141 — I broadcast the OVX oil-vol ratio as the JPY IV/RV ratio, to SAM, twice, three days before BOJ.** I published *"jpy_vol IV/RV widened again to **3.24×** — event premium **re-loading**."* **`3.24` is the OVX/VIX ratio from the row directly below it on my own dashboard.** `JPY_VOL.tsv iv_rv10` says **3.04 [7/24] → 3.07 [7/27]** — **+0.03 (~1%)**, not +0.20 (~6.6%) — **and 7/28 is BLANK** (FXY thin-strike guard held). I stamped a [7/28] date on a figure with no 7/28 observation. Sign survives; magnitude and "re-loading" do not. **CALM verdict unaffected — it rests on the RV leg.** Corrected on STATUS ×3, NEXUS_BRIEF ×2, CALENDAR; packet sent to SAM.
-
-> **🔑 Why nothing caught it, which is the durable part.** `3.24` is *perfectly plausible* — right magnitude, right direction, sits between its neighbours. **Every check I run tests FRESHNESS or INTERNAL CONSISTENCY. Nothing tests PROVENANCE** — *does this value exist in the series it claims to come from?* **A plausible value from the WRONG SERIES is harder to catch than a plausible STALE one, because it isn't stale — it's current, accurate, and about something else.** Structural trap: two adjacent dashboard rows both carrying a dimensionless field called "ratio", both ≈3. **Candidate fix (not built): cite the ledger COLUMN, not the script** — `[JPY_VOL.iv_rv10, 7/27]` not `[CONF] jpy_vol.py`. Column-level citation is mechanically checkable; script-level is not. Same conclusion as KB-VIO-139 from the opposite direction.
-
-**Two more defects the audit found, both of the same family — a correction landing on one surface and not its neighbours:**
-- **"HENRY's *unprompted* packet" was still in STATUS line 5** ~20 minutes after I fixed the identical phrase one paragraph below it. **Third instance today.**
-- **"The flip migrated DOWN ~45pts" is a CHANGE OF BASIS, not a migration** (inherited from PROME's DOCKET row and repeated by me). **HENRY's own chain went 7,496 [7/23] → 7,479 [7/27] → 7,491 [7/28], net −5pts.** The 43pts is HENRY-vs-independents. Saying "migrated" implies the market's gamma structure moved; on the only consistently-measured series, it didn't. **Flagged back to PROME to re-word DOCKET row 61.**
-
-**Mechanical checks that DID pass:** `convergence_score.py` validates 33/60 · 189 lines vs the 250 cap · every headroom arithmetic re-derived from 7,413.18 and correct to 0.1pt · SKEW path matches the CBOE series.
-
-**The honest summary of three consecutive sessions:** *the errors are not the problem — the corrections are.* Every one landed on the surface I was looking at and not on its neighbours, and each was caught only when something external forced a full read. **A periodic full-file provenance audit catches a class no incremental check does, and its natural trigger is "a surface that was just heavily rewritten"** — because that is exactly when hand-assembled values enter.
-
-## 🔴 ADDENDUM 3 ~04:40 ET — TRADE.md SAID I HAD NO POSITIONS (KB-VIO-142)
-
-**Provenance audit of the two never-audited surfaces. `TRADE.md` — my designated position file — read `ACTIVE POSITIONS: **None.**` for 17 hours while `TRY-VIOLET-VIXCS` carried $287.70 into FOMC with a mandatory 7/30 review.** Same file, same non-update: the Pre-FOMC framework still said **"IN CONSTRUCTION (TERRY)"** after the fill; the **TRADE LOG had no row**; the credit-vol lag trade carried **HY 2.75 (6/8)**, seven weeks stale. All fixed.
-
-> **🔑 THE SYMMETRY IS ON THE SAME LINE I HAD TO OVERWRITE.** It read: *"this file had carried the position as OPEN for 3 weeks after expiry — caught by orchestrator review."* **So TRADE.md has now failed in BOTH directions** — dead-shown-as-open (caught 6/9), live-shown-as-none (caught 7/28). **A surface that fails both ways isn't drifting, it's unmaintained by construction:** my write-back steps 7–14 name STATUS, workbook, thesis, CATALYSTS, SCRATCH, NEXUS_BRIEF, MAINTENANCE, git. **TRADE.md is in the FILES table with the trigger "when positions change" — a condition to remember, not a numbered step — and it is the only position-bearing surface in that category.**
-
-**And the guard passed it.** `ledger_staleness.py VIOLET --trade` returned **`ok +2d`**. It compares **mtime to STATUS.md** — **age, not agreement.** A file can be two minutes old and assert the opposite of the truth. **Nothing in my boot compares TRADE.md's CONTENT to STATUS's position state.**
-
-**Blast radius verified and small:** STATUS (5 mentions), FORGE/STATUS (1), PROME/ACTIVE_DECISIONS (1) all carried it correctly; TERRY's card is canonical for management. **No decision was made off the wrong surface.** ⚠️ **`FORGE/PORTFOLIO.md` carries ZERO mentions — not my file, flag to PROME.** The cost was **latent, not realised**: TRADE.md is what a future session or spawned sub-agent reads to answer *"what does VIOLET own?"*, and until 04:30 the answer was *"nothing."*
-
-**`CANARY_MAP.md` — declared a staleness contract and was breaching it on FIVE rows:** COT **21d** (still asking a question answered twice since), JPY **11d** (pointing at the passed MOF 7/22), OVX **11d** (overstating a channel that had unloaded), cheap-tail **6d**, and 🔴 **Tier-3 GEX band 18d** — *"EXPIRED per HENRY 7/10, repull due 7/14"* — **through three HENRY refreshes and through a live position being opened on that exact gate.** That row's own text says *"its staleness is VIOLET's problem too."* It was right and I ignored it. Title also still said **v1.1** while CLAUDE.md/STATUS/NEXUS_BRIEF all cite **v1.2**.
-
-> **Root cause, and it's mechanizable:** the contract's own line — *"extend `ledger_staleness.py` to this file's Tier-1/2 pull dates = **a future small ask**"* — has sat there since v1.0 and **was never built**. **The data already exists**: every Tier-1 instrument writes a dated row to a workbook ledger (`VX_DAILY`, `JPY_VOL`, `COT_VIX`, `CHEAP_TAIL`). The check is comparing each row's asserted as-of date to the **max date in its own ledger** — ~20 lines on the existing boot pass, **no new data pull.** *(`finding_mechanize_the_cap_not_the_ritual`.)*
-
-**THE THREE AUDITS NOW AGREE ON ONE SENTENCE — this is the session's actual output:** KB-VIO-139 (per-column beats per-row labels) · KB-VIO-141 (provenance beats freshness) · KB-VIO-142 (agreement beats age). **Every check I run tests AGE or INTERNAL CONSISTENCY. Nothing tests AGREEMENT WITH AN EXTERNAL SOURCE OF TRUTH — and all three of this session's worst defects live in exactly that gap.**
-
-## NEXT SESSION (priority-ordered)
-
-> **⏱️ TIME-CRITICAL BLOCK — everything in 1–4 is dated inside the next 72 hours. Do these before any building.**
->
-> **🧱 THE UNBUILT BLOCK (items 11–15) is the session's real debt.** Six defects were found today and **all six were fixed as CONTENT; ZERO as MECHANISM.** Every preventive check below is written down and none of them runs. That is `finding_banner_is_a_warning_not_a_fix` six times over. **If there is time for exactly one, build #11** — it is the only one guarding money, it is ~20 lines, and it needs no new data pull.
-
-1. **🔴 FOMC Wed 7/29 2:00 PM ET + Warsh presser 2:30 — final KB-VIO-123 grade, Stale_By 7/30, SETTLE basis.** Must state **WHICH reading of confirm-1** it rests on (level vs mechanism, KB-VIO-132). **Mandatory 7/30 position review regardless of P/L (TERRY card §6).**
-2. **🔴 GRADE (iii) AT EVERY SETTLE AGAINST THE NEW BAND — 7,455 warn / 7,491 falsified.** ⚠️ **This is now a plausible Wednesday outcome, not a tail.** Warn line is 0.56% away.
-3. **🔴 HENRY routes page-stamped FedWatch pulls Wed ~9-10 AM and ~1:30 PM.** Consume both. **No July-hike number gets published without a stamp** — circulating figures span 10.7 / 31.5 / 34.7 / ~38 / 34.3 / 46.5. My 7/27 65.7/34.3 pull **survives HENRY's retraction** (HENRY retracted its own *inference*, measured against a pre-collapse 7/22 baseline, not my datum).
-4. **🟠 KB-VIO-139 — the VX_DAILY TICK-row stamping gap, filed NOT fixed.** `basis=TICK` labels the row but only `vix` is a tick; vix3m/vvix/skew are prior settles and `vix3m_vix_ratio` is computed **across** them (1.0604 = 7/27-settle VIX3M ÷ 7/28 GTH VIX, a value that existed at no coincident moment). The **futures** leg is already self-describing (`m1m2_settle_date`, KB-VIO-136); the **spot** columns have no equivalent. **Preferred fix: refuse to compute the ratio when its inputs resolve to different dates and leave the cell BLANK** — a blank is visible, a plausible wrong ratio is not.
-5. **🟠 KB-VIO-129 guard-spec audit** — now the *third* instance of one family (instrument / mechanism / estimator, folded into thesis v3.7). Every registered threshold gets: which **instrument**, which **mechanism**, which **estimator**.
-6. **🟠 Score KB-VIO-127 (Karsan) by Fri 7/31** — base case MISS; two rejected pushes (20.31 7/23, 19.93 7/27), no >20 settle all episode. · **KB-VIO-128 resolves at the 7/29 decision.** · **KB-VIO-126 hook grades after earnings week.** · **VULCAN-09 7/29-30** — reaction function demonstrated (GOOGL/TSLA), the test is whether it **repeats**.
-7. **🟡 COT report-date 7/28, release Fri 7/31 3:30.** · **🟡 Reconcile GOOGL drawdown** (my −5% [VULCAN 7/22] vs WALTER −7.1% [7/23]).
-8. **🟡 Good Friday residual in the FRED freshness fix** — deferred at PROME's request, **zero 2026 exposure**, next occurrence 2027-04-05, fails safe.
-9. **🟡 MAINTENANCE.md hit its ~300-line cap (307).** Next **structural** session must archive oldest entries to `archive/` **before** appending. Durable fix is a boot-time line-count check, not a remembered ritual (`finding_mechanize_the_cap_not_the_ritual`) — **queued, not built**; pre-FOMC obligations outranked it.
-10. **🟣 POST-FOMC: refresh BOTH Will-facing Artifacts (SAME URLs)** — cheat-sheet `…c2129279-b677-4093-be68-ccdbe0df76b3`; Operating Picture `…8eb52313-be4e-49a3-8555-e5cc23b44c60`. **Both still need a POSITION row.** Republish passing `url=` or the bookmark rots (`finding_artifact_redeploy_same_url`).
-
-### 🧱 UNBUILT — every preventive mechanism from today (content fixed, mechanism not)
-
-11. **🔴 BUILD FIRST — the positive position check (KB-VIO-142).** *If `STATUS.md` shows a LIVE position, `TRADE.md` must name the same identifier — else boot fails loud.* Boot already reads both files; **no new data pull.** This is the one that guards real money, and it is the direct fix for `TRADE.md` having said `ACTIVE POSITIONS: None.` for 17 hours. ⚠️ **Do not implement it as a staleness check** — `ledger_staleness.py --trade` already passed that file `ok +2d`. **Age is not agreement.**
-12. **🟠 CANARY_MAP staleness contract — enforce it (v1.0 debt).** The file's own line *"extend `ledger_staleness.py` to this file's Tier-1/2 pull dates = a future small ask"* has never been built, and the map breached its own DARK contract on 5 rows by up to 21 days. **The data already exists** — every Tier-1 instrument writes a dated row (`VX_DAILY`, `JPY_VOL`, `COT_VIX`, `CHEAP_TAIL`). Compare each row's asserted as-of date to the max date in its own ledger.
-13. **🟠 VX_DAILY TICK-row spot stamping (KB-VIO-139).** `basis=TICK` labels the ROW while only `vix` is a tick; `vix3m/vvix/skew` are prior settles and `vix3m_vix_ratio` is computed across them. **Preferred fix: refuse the ratio when its inputs resolve to different dates and leave the cell BLANK** — a blank is visible, a plausible wrong ratio is not. Futures leg already self-describes via `m1m2_settle_date`; give the spot columns the same.
-14. **🟠 Column-level dashboard citations (KB-VIO-141).** Cite the ledger **column**, not the script: `IV/RV 3.07 [JPY_VOL.iv_rv10, 7/27]`, not `[CONF] jpy_vol.py`. Column citations are mechanically checkable; script citations are not. This is what would have caught the OVX-ratio-as-JPY-IV/RV error on day one instead of day four.
-15. **🟠 Mechanize the outbox check (KB-VIO-140).** I adopted *"verify your own outbox at closeout"* in prose at 03:57 and then **repeated the error twice more the same session** — it never ran. Make it a closeout step that greps the write-back for second-person sentences addressed to a named agent and asserts a matching file in `outbox/`. **A mitigation nothing executes is a banner.**
-
-### 📋 SURFACES STILL UN-AUDITED (I did 2 of 5)
-
-16. **🟡 `SIGNAL_INTAKE.md` (last touched 7/17) and `README.md` (7/12) have never had a provenance pass.** SIGNAL_INTAKE carries **durable threshold lines** — the highest-risk of the two, since a stale threshold there is what WALTER routes against. `MEMORY.md` and `thesis/VIX_THESIS.md` were only **spot-edited** at the lines I touched today, not read end-to-end.
-17. **🟡 Provenance-audit cadence:** the natural trigger is **"a surface that was just heavily rewritten"** — that is exactly when hand-assembled values enter. Today's three worst defects were all in freshly-rewritten text.
-
-### 📨 OWED **TO** ME — chase at boot if absent
-
-18. **PROME** — `FORGE/PORTFOLIO.md` carries **zero** mentions of the live position (shared file, theirs); and DOCKET row 61's *"migrated DOWN ~45pts"* needs re-wording to *change of basis*. **TERRY** — restore counter-case #8 to "adjacent, not refuting" (KB-VIO-110 was already dead 7/09). **WALTER** — `REGISTRY.tsv` line 16 refresh (`7,496 = −102.9pts`, both retracted). **SAM** — ack the IV/RV correction before BOJ 7/30-31. **HENRY** — two stamped FedWatch pulls Wed, **plus** the matched-time independent gamma read I asked for (the chain-vs-cluster gap is currently measured across a ~14h offset; if it closes, the warn line moves **up** and I should know before grading a settle against it).
-
-## WHAT I DID THIS SESSION
-
-1. **Booted pre-market and refused to grade on GTH ticks.** Origin was 1-ahead/0-behind so no pull was needed and the other agents' dirty files never became a hazard. All grading stayed on the **7/27 SETTLE**.
-2. **Discharged the #1 carry-forward** — SKEW's 7/27 print exists (146.60), (iv) graded, and the reason it was ever a hole turned out to be my own false T+1 diagnosis.
-3. **Verified the 7/28 VIX GTH prints are real, not the orphan-phantom class** — continuous 1m bars 03:15–03:17 ET at 19.01–19.05. ⚠️ Worth noting: MEMORY's companion-corroboration guard (orphan ^VIX + missing companions = phantom) gives a **FALSE POSITIVE during GTH**, because the companions are legitimately absent. 1m bars distinguish the cases.
-4. **Processed the full inbox — 6 packets, first drain since 7/26** (HENRY ×1, PROME ×3, TERRY ×2). Two were URGENT and one directly changed a live kill-line. **Read the inbox BEFORE the STATUS write-back**, deliberately: grading (iii) against 7,496 while an unread packet said that number was wrong is exactly `finding_canonical_surfaces_stale_inbox_carries_live_state`.
-5. **Answered TERRY's KB-VIO-110 question** — it is SUPERSEDED, but **not by DEWEY**: Will/PROME LAPSED it **2026-07-09**, eleven days *before* DEWEY's 7/20 packet. A pointer cannot supersede an already-dead row, and its presence says nothing about whether DEWEY's instrument claim is *general*. **TERRY's original grade ("adjacent, not refuting") was correct** — counter-case #8 restored. Also: KB-VIO-110 is a *gate registration + packet pre-spec*, not a vehicle-choice claim, so it is the wrong row for the argument to attach to either way.
-6. **Closed PROME's COT concern** — I already held **both** halves (+10,189 [7/14] → +3,098 [7/21], ~70% decay, confirm-2 **FAILED**) and had already re-pulled at the **raw f_disagg** path per WALTER's instruction. No correction needed.
-7. **Recovered a self-inflicted KB.tsv truncation.** A `csv.DictWriter` full-file rewrite with `QUOTE_NONE` hit a pre-existing field containing a `"` and truncated 140 rows → 21. Restored from HEAD (the 4 new rows were uncommitted, so nothing was lost) and redid both operations **line-oriented**, which never re-serializes rows it isn't editing. **Lesson: never round-trip a TSV through a csv writer to edit one field — split on `\t`, edit by index, rejoin.**
-8. **Write-backs:** STATUS (full rebuild) · MEMORY (SKEW caveat corrected) · KB-VIO-137/138/139/140 + **KB-VIO-134 marked CORRECTED** with the retraction inline · thesis **v3.6 → v3.7** + CHANGELOG · this SCRATCH · NEXUS_BRIEF · 6 inbox packets filed · outbox packets to HENRY and TERRY.
-
-## CARRY-FORWARD
-
-- **Regime one-liner:** LOW_VOL, VIX **18.67** settle (GTH 19.0 into FOMC, thin, not settle-comparable). **Two failed pushes at 20 in three sessions**; no >20 settle at any point in the episode. Event hump deflated pre-event. **Position LIVE at N_eff = 1.**
-- **★ THE CAVEAT — unchanged evidence, halved headroom.** Convergence **33/60**, same as the 7/27 settle: one independent vector escalating (credit, on level only, quality-indiscriminate), three fading from above-line states (MOVE, OVX, COT), one calm (JPY). **Nothing about the world changed overnight. What changed is that the amplifier's falsification line is 0.56% away instead of 1.12%.**
-- **Why the position still stands:** nothing tripped, and the tree registers the long-vol window as **BEFORE** the confirm — demanding independent-led confirmation before entering inverts the registered logic. The trade's gate is the **gamma gate**, and its **sign** is well-corroborated at N_eff ≥ 4 even as its level moved.
-- **The realistic payoff is ~+50% to +120% on the debit**, not the headline 4:1 — the 7/30 exit rule forbids collecting the intrinsic (TERRY 7/26). **100% loss remains the base case**; absorption is 0-for-5.
-- **Data caveats:** credit **[7/24]** is the *freshest possible* (FRED T+1), not staleness. COT **[7/21]** report date — anything stamped [7/27] is mis-vintaged. MOVE **[7/24]** 76.82; do not retry yfinance ^MOVE. SKEW **[7/27]** 146.60 — **now same-day gradeable after 17:00 ET.**
-- **Put wall is a BAND 7,300–7,400**, not a strike. HENRY's `put wall 7,500` output is an artifact and 7,500 is unambiguously the **CALL** wall.
-
-## OPEN HYPOTHESES (flagged, NOT actionable until backtested)
-
-- **Absorption-regime dependency on dealer gamma sign** (carried, money on it): 0/5 all under long gamma; 7/29 is the first under confirmed short gamma. Either outcome informative.
-- **Event-hump deflation *before* the event as a fade tell (n=1):** the front tenor built a hump intraday 7/27 and gave it back two sessions before FOMC. If the hump is being *sold* into the event rather than bid, that is vol supply arriving early — the opposite of what the trade needs. **Confounded** by month-end, the oil collapse and a −11% crude move landing the same session.
-- **"Fails to hold good news" (carried, n=1):** 7/27 opened +0.71% on the crude collapse and gave it all back to +0.02%. Confounded by month-end + blackout + pre-FOMC de-risking.
-- **Event-hump inversion vs stress-led inversion (carried, untested):** 7/27 is a *supporting* observation — 9D/VIX inverted intraday (1.012) on pure front-end event premium and re-steepened by the close **with no vol spike**, the instance-class suggesting KB-VIO-034's base rate should split by mechanism. **Guard still not moved.**
-- **Parallel-vs-sorted credit widening as a Path-A discriminator (from KB-VIO-132):** if a confirm line can be reached by parallel drift, it needs a *sorting* condition (CCC pulling away from BB), not just a level. Candidate refinement for the next calibration pass — **not retro-applied.**
-- **NEW — do registered thresholds decay faster through their SPEC than through their data?** Three instances in three sessions (instrument / mechanism / estimator, now thesis v3.7). If the base rate of spec-decay is high, the audit should be **scheduled** rather than incident-driven. **Untested; needs a census of every live threshold's spec age vs data age.**
+| (i) | VIX ≥20 **settle** | **20.66** (H 20.88 ep. high) | CROSSED by 0.66 | ⚠️ **MOOT — EXPIRED BY FILL** (registered pre-fill only) |
+| (ii) | VIX3M/VIX <1.0 **settle** | **1.0407** (21.50/20.66) | 0.041 | NOT TRIPPED — ⚠️ but the **front VX basis inverted** (spot 20.66 > VX/Q6 20.3094) |
+| **★ (iii)** | ⚠️ 7,455 warn · 🔴 7,491 falsified → ⚠️ **refreshed ~7,453 / ~7,465** | **SPX 7,316.15** (−1.52%) · **H 7,450.84** | **−138.85 / −1.90%** | NOT TRIPPED — moved **away**. ⚠️ **high was 4.16pts from the warn** |
+| **(iv)** | SKEW crash **>5pt** on an up-VIX day | **139.55** vs **142.98** = **−3.43pt**, VIX +13.45% | 1.57pt margin | **NOT TRIPPED — this is NOT the top-tell** |
+| (v) | CCC re-tightens <9.65 | **10.05** [7/28 FRED, own pull] | 0.40 (was 0.31) | NOT TRIPPED — widened **further away** |
 
 ---
 
-*Last updated: 2026-07-28 ~04:30 ET (pre-FOMC boot + full inbox drain). **Market basis: 7/27 SETTLE** — no 7/28 settle exists; the only 7/28 value anywhere is the GTH VIX, labelled as such everywhere it appears.*
+## CHANGES SINCE (what moved while we were offline)
 
-*ANALYSIS complete: all 5 stand-downs graded, none tripped, position LIVE into FOMC; **(iii) RE-BASED to 7,455/7,491 and 7,496 retired** (KB-VIO-138, thesis v3.7); **(iv) graded for the first time** and the T+1 lag retracted (KB-VIO-137); TICK-row mixed-timestamp filed not-fixed (KB-VIO-139); phantom ask to HENRY recorded against myself (KB-VIO-140).*
+**The fleet was down all day on the usage outage. The scheduled pre-2PM grade never ran.**
 
-*MAIL complete: 6 packets drained (HENRY ×1, PROME ×3, TERRY ×2), all filed to `inbox/processed/`. Replies sent to **HENRY** (re-base accepted + the phantom-ask correction they're owed) and **TERRY** (KB-VIO-110 answer, counter-case #8 restored). PROME explicitly owed nothing back.*
+| | 7/27 settle | **7/28 TRUE settle** | **7/29 settle** |
+|---|---|---|---|
+| VIX | 18.67 | **18.21** | **20.66** (+13.45%) |
+| SKEW | 146.60 | **142.98** | **139.55** |
+| VVIX | 100.91 | **98.51** | **109.47** (ep. high) |
+| SPX | 7,413.18 | 7,428.78 | **7,316.15** (H 7,450.84) |
+| MOVE | — | 76.09 | **74.18** (−2.51%) |
 
-*Top next: **FOMC 7/29 2:00 ET** → final KB-VIO-123 grade → **mandatory 7/30 review**. Grade (iii) against the NEW band at every settle — the warn line is one ordinary relief rally away. Prior: 7/27 ~18:30 ET (settle grading + tooling repair) · 7/27 ~17:15 (settle write-back) · 7/27 ~12:00 (midday, TICK basis).*
+⚠️ **MY OWN `VX_DAILY.tsv` 7/28 ROW IS WRONG IN THREE COLUMNS** — a `basis=TICK` row stamped 07:30 UTC: VIX **19.05** is the 03:15 GTH quote (true settle **18.21**), and VIX3M/VVIX/SKEW **fill forward 7/27**. **This is the KB-VIO-139 defect I filed 7/28 and did not fix.** Everything graded tonight is off freshly pulled daily bars, **not** my ledger. **Still uncorrected — `backfill.py` is the repair path** (`--supersede` only ever targets today).
+
+**FOMC sequence (30m closes — the detail that matters):** the 2:00 PM hold **CRUSHED** VIX, 19.34 (12:30 ET) → **17.69 (14:30)**, then the **2:30 Warsh presser reversed it**: 19.19 → 20.30 → **20.66**. **The decision was the relief; the presser was the repricing.** VIX closed **0.22 off its high**; SPX **2.23pts off its low**.
+
+---
+
+## WHAT I DID
+
+1. **Verified all five of PROME's seed figures at my own sources before grading anything — all five matched.** Then graded formally (KB-VIO-143).
+2. **Adjudicated (i), which was the real question.** VIX crossed 20 — but every registered formulation is **pre-fill** (TERRY card ll. 28 *"before the fill"* / 42 *"Do-not-chase"* / 385 *"do not enter Tuesday off a ≥20 Monday settle"*). We filled 7/27 ~11:35, so **(i) is MOOT.** Post-fill the same number is a **peak-marker** (KB-VIO-034) + **confirm** (KB-VIO-123 #6) = **monetization tell, not a kill.** → **KB-VIO-147: a threshold needs LEVEL + INSTRUMENT + WINDOW** — 4th instance of the KB-VIO-129 family.
+3. **Answered PROME's SKEW question: NO.** −3.43pt vs a >5pt line. Pulled the **5y base rate — n=113 days with VIX up >10%: SKEW fell 50.4% of the time (a coin flip, zero information); >5pt only 9.7%; mean −0.30pt.** → **KB-VIO-145**, which records that grading off my own ledger reads **−7.05pt = TRIPPED.** ⚠️ **A fill-forward prior is too HIGH, so the defect MANUFACTURES peak-markers** — and it came due on the exit-eve grade.
+4. **Delivered the KB-VIO-123 final grade** (due Stale_By 7/30): **SHARED-SURFACE-ALONE = FADE-PRONE**, 2 of 6 legs → **KB-VIO-144.** Found **MOVE broke: 74.18, −2.51% ON the FOMC day**, two-source (investing.com 74.18 + yf 74.181 agreeing to the cent — the standing "don't retry yf ^MOVE" caveat satisfied by corroboration, not waived).
+5. **Filed KB-VIO-146** — the 7/28 (iii) re-base vindicated in 30 hours: SPX high **7,450.84**, **4.16pts** under the warn line, then **−134.69pts** into the close.
+6. **Wrote the TERRY exit-morning brief** — 8 reasons to sell early, 6 steelmanned reasons to wait, **no option prices** (post-close quotes are the after-hours artifact; marks are TERRY's).
+7. Rewrote STATUS + NEXUS_BRIEF, fixed TRADE.md's three stale rows, **convergence 33 → 36/60 mechanically validated** via `convergence_score.py`.
+
+---
+
+## NEXT SESSION (priority-ordered)
+
+1. 🔴 **7/30 IS THE MANDATORY EXIT.** My read is delivered; **TERRY executes.** **Then re-grade (iii)/(iv)/(v) at the 7/30 settle anyway** — the position ends, the calibration record does not.
+2. 🔴 **BUILD THE TWO MECHANISMS.** ① **VX_DAILY TICK-row guard (KB-VIO-139)** — a TICK row must write **NULL** for columns it cannot source, never carry the prior day's. **This defect nearly false-tripped a live exit guard.** ② the **positive position check (KB-VIO-142)**. Both ~20 lines. **Six defects were fixed as content and none as mechanism; one came due.**
+3. 🔴 **Fix the 7/28 `VX_DAILY` row** via `backfill.py`: VIX **18.21**, SKEW **142.98**, VVIX **98.51**, and **NULL** for VIX3M/VIX6M (yfinance published no 7/28 value for either).
+4. 🔴 **KB-VIO-127 (Karsan) resolves 7/31 and is HALF MET** — a 7/30 settle >20 completes *"settles >20 and holds through the next session."* **My registered base case was MISS. Score it honestly Friday — I flagged the risk pre-resolution, not after.**
+5. 🟠 **Re-pull MOVE 7/30** (investing.com primary, yf as corroborator — it worked tonight). **If MOVE re-crosses 76, confirm-3 un-breaks and KB-VIO-144 needs re-grading.** One print below the line is thin evidence for a verdict this load-bearing.
+6. 🟠 **COT release Fri 7/31 3:30 (report-date 7/28)** — the first COT spanning the FOMC, and **the one independent leg that can still convert the fade verdict.**
+7. 🟠 **Thesis v3.8:** promote **KB-VIO-147** (LEVEL + INSTRUMENT + WINDOW) and **KB-VIO-144** (a pre-registered tree earns its keep when it contradicts the tape; resolve its internal conflicts by its stated hierarchy). Then sweep `SIGNAL_INTAKE.md` + thesis for every registered line missing an instrument or a window.
+8. 🟠 **AMZN + AAPL AH 7/30 = the third KB-VIO-126 dispersion test.** Two-for-two so far.
+9. 🟡 **`SIGNAL_INTAKE.md` (7/17) and `README.md` (7/12) have still never had a provenance pass** — and SIGNAL_INTAKE carries the durable threshold lines WALTER routes against, which item 7 now makes urgent.
+10. 🟣 **Refresh both Will-facing Artifacts post-exit** (`vol_cheatsheet`, `violet_operating_picture`, same URLs) — both still lack a POSITION row, and after tomorrow they can carry the **closed** record.
+
+---
+
+## CARRY-FORWARD
+
+- **The exit needs no verdict from me — only timing.** 7/30 is mandatory either way. **The fade verdict's only real consequence is that it forbids a RE-ENTRY**, which is the single place my incentive sits. Disclosed in the brief, in STATUS, and in the KB row.
+- **Two unsatisfiable-by-construction gates found.** KB-VIO-123 confirm-6 and KB-VIO-127 **both** need a *"hold through the next session"* landing on or after the mandatory exit. **A multi-session confirm on a single-session position mandate cannot complete.** Routed fleet-wide via NEXUS_BRIEF.
+- **Guards bind as written in BOTH directions.** Declined to read a crossed *entry* guard as a post-fill kill; declined to re-read (iv)'s one-day line as a two-day line so the cumulative would fire. ⚠️ **Honest tension worth carrying: (iv)'s 2-session cumulative IS −7.05pt, SKEW is at 3y p25.6, 7.31pt below its 20d avg of 146.86, and lost the 140 line for the first time this episode** (cheap-tail 2/4 → **1/4**). **The wing bid IS leaving. The line is still a one-day line.**
+- **Credit character reversed against my own KB-VIO-132 read** — the 7/24→7/28 absolute widening is **quality-SORTED** for the first time (CCC +9bp > HY/BB +5 > B +2). **I did not upgrade the score**: n=1 window, inside daily OAS noise. **And it is 7/28 data that PRE-DATES the vol event, so it cannot be cited as confirming it.**
+- **OVX RE-LOADED — I reversed my own 7/28 de-escalation call to BRENT/HAWK.** OVX 60.62 → **67.59 (+11.5%)** on ~5% crude. **The ratio looks flat (3.25 → 3.27) only because VIX rose too** — reading the ratio alone would have missed it entirely.
+- **FRED did NOT 403 from this box tonight.** CCC 10.05 [7/28] is a fresh own-pull; the 9.96 [7/24] fallback wasn't needed. **Don't assume the 403 is permanent.**
+- **★ HENRY PACKET ARRIVED MID-SESSION AND IS NOT YET FORMALLY PROCESSED — read, acted on, LEFT IN PLACE.** `inbox/2026-07-29_from-HENRY_fedwatch-gap-plus-post-FOMC-gamma-band-for-tomorrows-exit.md`. **I did NOT `git mv` it to `processed/` and did NOT commit it**: it is untracked and HENRY-authored, so it is HENRY's to commit under carve-out ①, and HENRY was mid-session with staged changes while I worked. **Process it formally next session.** Its content is fully incorporated → KB-VIO-148.
+- **★ THE LEVEL DISPUTE IS SETTLED — BY CONVERGENCE, NOT BY THE BIAS CLAIM.** HENRY's chain went 7,496 [7/23] → 7,479 [7/27] → 7,491 [7/28] → **~7,453–7,465 [7/29]**, vs my independent-cluster warn of **7,455**. **Converged to within 2pts.** 🔑 **It needed NEITHER of our contested premises** — not HENRY's "systematic, not noise" (which I declined as n=2), nor anything stronger from me. **That retrospectively vindicates adopting the band on "earliest credible falsification" instead of on the bias claim: the weaker premise was sufficient and the stronger one turned out to be unnecessary.** Net GEX also **deepened** to −$39.4B/−$59.2B from −$34.4B.
+- **★ TWO THINGS I HAD WRITTEN AND WITHDREW BEFORE SHIPPING.** ① **The put-wall argument.** I had *"SPX closed inside HENRY's 7,300–7,400 put-wall band near its lower edge"* in both STATUS and the TERRY brief as a supporting point — **HENRY's packet explicitly retracts its wall levels tonight** (14d call 7,500/put 7,300 vs **35d call 7,000 = put 7,000**, a cross-horizon disagreement its near-tie guard cannot see). Withdrawn on both surfaces. ② **The 7,491 falsified line**, which no longer has a source. 🔑 **Both were caught only because the packet landed while I was still writing.** Had it arrived 30 minutes later I would have shipped a retracted wall level into a live exit brief.
+- **Owed to HENRY:** its level-vs-sign argument forced the (iii) re-base 30 hours before the tape tested it to within 4.16pts, and tonight it volunteered the refresh unprompted **and** flagged its own unclean data rather than shipping it. **A cross-horizon near-tie guard gap is a real class and generalizes past gamma.**
+- **FedWatch: the baseline I was waiting for does not exist and that is the right outcome.** HENRY's owed 9-10 AM / 1:30 PM page-stamped pulls never ran (outage) and **HENRY refused to backfill from memory** — I would have taken a backfilled number at face value. My **65.7/34.3 [7/27]** stays the last page-stamped datum, now stale. ✅ **KB-VIO-128 resolves CORRECTLY: it said 65.7% HOLD and the FOMC held 9-3.**
+- **LUCK, LOGGED AS LUCK:** had the pre-2PM grade run and produced an exit, we'd have sold with **VIX at ~17.7–19.3.** The entire +13.45% arrived after 2:00 PM. **The outage is the only reason this position is where it is. Not skill.**
+
+---
+
+## OPEN HYPOTHESES (flagged, not actionable until tested)
+
+- **H1 — 7/29 was a policy-path REPRICING, not a vol crack.** Support: the whole curve shifted up in parallel (9D +12.4% / 30d +10.7% / 3M +6.4% / 6M +4.3%) with **9D/VIX still 0.9864** — front-loaded but **not inverted**; MOVE fell; the 13-week bill yield rallied 10.2bp. **Test:** does the curve re-steepen and VIX fade below 19 within 5 sessions (KB-VIO-034 base rate says 68%)? **Not backtested as a named pattern — do not trade it.**
+- **H2 — dispersion is now the dominant index-vol suppressor, ahead of hedge-composition.** KB-VIO-126 is **2-for-2** (7/23 Mag-7; 7/29 MSFT +3% vs META −10%). **Test: AMZN+AAPL 7/30.** If 3-for-3, promote from caveat to base case — it would change how I read every low VIX print.
+- **H3 — the front VX basis inverts BEFORE the index ratio, making it the earlier peak-marker.** Tonight: spot 20.66 > VX/Q6 20.3094 (inverted) while VIX3M/VIX is still 1.0407 (not). **If the strip leads the index ratio, my (ii) guard is systematically LATE** — same instrument-mismatch family as KB-VIO-129. **Backtestable against 20y VX settlement history vs the index ratio at episode peaks, and worth doing.**
