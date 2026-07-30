@@ -66,3 +66,45 @@ Card pre-built 7/10 ~11:15 ET (Will-authorized), gated on that afternoon's 3:30 
 ### Lesson
 [One durable improvement]
 ```
+
+---
+
+## 2026-07-30 — TRY-VIOLET-VIXCS (VIX Aug-05 20C/25C call spread ×4) — CLOSED, REALIZED −$111.60 (−38.8%)
+**Original card:** `setups/VIOLET_prefomc-vix-callspread_2026-07-26.md` (§11 = exit record + pre-registered evaluation)
+**Outcome:** **LOSS, −$111.60 on $287.70 at risk (−38.8%)** — closed on its own pre-registered mandatory dated exit, not on a stop, not on a thesis break.
+**Tags:** `BAD_STRUCTURE` (primary) · `GOOD_LOSS_PROCESS_WORKED` (secondary) · `EVENT_MISALIGNED`
+**⚠️ PARTIAL — outcome-dependent grading is PRE-REGISTERED and PENDING 2026-08-05.** This is the second-ever TERRY postmortem and the first on a real P/L.
+
+### What happened
+Bought 7/27 at $0.70 (4 lots) as a long-vol convexity expression into the 7/28-29 FOMC, on VIOLET's short-dealer-gamma thesis. Card carried a **hard-dated 7/30 exit, mandatory regardless of P/L**, written at build time on 7/26. **The FOMC delivered exactly the event the card was built for** — VIX 17.45 → 20.88 intraday on 7/29, +13.45% on the settle, first >20 settle of the episode, VVIX to a new episode high. Fleet was offline that day on a usage outage, so nobody graded it live. By the 7/30 open the vol event was unwinding hard (VIX −11%, term structure back to contango, VVIX −8.4%). All three of the card's strength triggers were formally checked and none fired. Exited on the base branch at **$0.45** net credit.
+
+### Diagnosis
+| Dimension | Read |
+|---|---|
+| Thesis | **Mixed — and this is the interesting part.** The event VIOLET predicted *happened*. The trade still lost. Thesis was not refuted by the tape; the instrument failed to monetize it. |
+| Timing | Entry fine (2 sessions ahead of the catalyst). Exit was date-forced, not judgment. |
+| Structure | 🔴 **WRONG — the primary cause.** See below. |
+| Sizing | **Appropriate.** $287.70, under the $300 rec and the $500 cap, N_eff held at 1. A −38.8% loss on a correctly-sized lottery is a rounding error to the book. |
+| Entry | Disciplined. Filled at mark not limit; rule-#6 break justified with the refuting measurement, written before the fill. |
+| Exit | Disciplined — mandatory rule executed without drift, softening, or a roll. |
+| Liquidity | Fine. Both legs deep OI; the vertical traded inside its legs' quoted market. |
+| Vol/theta | 🔴 **Killed it.** Not theta — **forward beta.** |
+| Rules | **Followed.** No guard relaxed. Stand-down (i) correctly graded MOOT-not-tripped (entry guard, scope expired at fill) rather than reinterpreted in either direction. |
+| Calibration | Entry payoff estimate **+45–120%**; actual **−38.8%** → the estimated band **never contemplated the loss case**, which is itself a calibration defect. Exit-day center estimate −47% vs actual −38.8% (Will's better fill). Forward evaluation pre-registered at P≈20%. |
+
+### Loss cause — `BAD_STRUCTURE`
+**A near-dated VIX call spread cannot capture a SPOT vol spike.** VIX options settle on the **forward**, which at ~9 DTE carried **beta ≈ 0.28 to spot** (derived by put-call parity at entry). Spot ripped +13.45%; the forward barely moved; our 20 strike never came into the money on the number that actually prices it. Between fill and exit the forward went **19.6 → 18.82**, so moneyness *deteriorated* from **+2.0% OTM to +6.3% OTM** — **after** the event we bought had already occurred.
+
+**The aggravating detail: I flagged this at the fill and did not act on it.** My own §8 note said the low forward beta *"undercuts my own spike-capture argument for the near-dated expiry"* — I wrote the correct diagnosis on the card on day one, downgraded the payoff estimate for it, and still left the strikes and expiry unchanged. **Identifying a structural flaw and then not letting it change the structure is worse than missing it.**
+
+Related and not coincidental: the §6 management triggers were written on **spot** (`VIX ≥23`) while the payoff lived on the **forward** — the same guard-spec defect I flagged to VIOLET on 7/27 as an *entry*-guard issue. It was never only an entry-guard issue.
+
+### Why `GOOD_LOSS_PROCESS_WORKED` is also true
+The dated exit did precisely what it was written to do: it closed a losing convexity bet on schedule, at a fair market price, with no roll-by-hope, no expiry drift toward 8/5, and no re-underwriting under pressure. **The rule was written on 7/26 by someone who could not know the outcome, and it was honored on 7/30 by someone who did.** That is the whole point of pre-registration.
+
+### Lesson — two, both durable
+1. **If the thesis is a SPOT move, set strikes against the DERIVED FORWARD, or buy enough tenor that forward beta is near 1.** Deriving the forward at entry is not sufficient — the derivation has to be allowed to change the strikes, the expiry, or the decision to trade at all. *(Wired into the card §11.D-1; belongs in `CHART_OPTIONS_WORKFLOW.md` next pass.)*
+2. **On a vertical where both legs carry OI >5,000, open the order in the aggressive third of the net bracket, not at mid.** A vertical trades *inside* the sum of its legs' quoted markets. TERRY proposed $0.75 entry / $0.40 exit-start; Will worked $0.70 / $0.45 and both filled — **n=2, both directions, both 5¢ in his favour.** My limit-setting is systematically too generous to the market.
+
+### PENDING — resolves 2026-08-05 (pre-registered, card §11.C)
+Counterfactual line, fixed before the outcome: **holding beat exiting iff the 8/5 VIX SOQ prints >20.45.** TERRY pre-registered **P ≈ 20%**. ⚠️ **The exit was transacted at the market's own fair value, so it is EV-neutral by construction — the 8/5 print alone does NOT grade the mandatory-exit rule** (that needs n>1). What 8/5 legitimately grades: VIOLET's fade verdict, her no-re-entry call, TERRY's forward-beta finding, and HENRY's short-gamma amplification steelman.

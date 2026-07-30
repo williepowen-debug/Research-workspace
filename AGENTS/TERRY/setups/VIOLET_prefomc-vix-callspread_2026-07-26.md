@@ -489,3 +489,79 @@ Pull **both legs** of the live 4-lot position: VIXW Aug-05 **20C** (long) and **
 - **A NO-FILL by end of day is not an option.** If the walk-down and the 3:45 PM cross both somehow fail (e.g., a data/broker outage), that is an escalation to Will in real time, not a silent carry to Friday.
 
 **What Will must do:** **one [Approve]** on the exit order at tomorrow's live marks — order shape, not a fresh thesis re-underwrite. **Framing reminder, from the card's own §6:** the realistic payoff is **~+45% to +120% on the $0.70 debit (~+$130 to +$380 on the $287.70 at risk)**, not the 5-wide's max/at-expiry value — that number requires holding to 8/5 expiry above 25, which this exit rule explicitly forbids collecting. **Nobody should anchor on the headline ratio tomorrow morning.**
+
+---
+
+## 11. ✅ CLOSED — 2026-07-30 — EXIT FILLED + PRE-REGISTERED EVALUATION
+
+**Written 2026-07-30 ~10:35 ET, immediately after the fill, BEFORE the outcome is knowable. The §11.C grading standard is pre-registered deliberately — grading a dated exit after seeing the expiry is hindsight, and this desk has a memory finding about exactly that.**
+
+### A. THE FILL — broker record (Traditional IRA ⋯1326)
+
+| Leg | Action | Qty | Fill | Cash |
+|---|---|---|---|---|
+| VIXW Aug-05 **20C** | Sell to Close | 4 | **$0.63** | **+$248.15** |
+| VIXW Aug-05 **25C** | Buy to Close | 4 | **$0.18** | **−$72.05** |
+| **Vertical** | **Sell to Close, net credit limit $0.45 (Day)** | **4** | **$0.45** | **+$176.10** |
+
+| | |
+|---|---|
+| Entry (7/27 ~10:54–10:59 ET) | 4× 20C/25C @ **$0.70** debit = $280 + $7.70 fees = **$287.70 at risk** |
+| Exit (7/30 ~10:2x ET) | net credit **$0.45** → **$176.10** proceeds |
+| **REALIZED P/L** | **−$111.60 = −38.8% of capital at risk** |
+| Hold | 3 calendar days · 2 full sessions + exit morning |
+| Exit branch taken | **(ii) base branch** — all three strength triggers formally NOT triggered (VIX cash-session high **18.71**; VIX3M/VIX min print **1.0888**, never <1.0; no spike, so no SKEW-crash tell) |
+
+**⚠️ Account note:** the fill is in **Traditional IRA ⋯1326**. The card was written "MAIN book." Recorded as shown; the book-label mapping is **not** something I verified and I am not assuming it.
+
+**Exit beat my own recommendation.** I told Will to start at **$0.40** (mid) and walk down to a **$0.31** floor. He worked **$0.45** and it filled. That is **+$20 vs my start** and **+$56 vs my floor**, and it moved the realized number from my −47% center estimate to **−38.8%**. See §11.D — this is n=2, not a one-off.
+
+### B. WHAT ACTUALLY KILLED THIS TRADE — and it was not the exit
+
+**The event we bought HAPPENED, and the structure still lost.** 7/29 FOMC delivered a textbook vol spike: VIX **17.45 → 20.88 intraday, +13.45% on the settle**, first >20 settle of the episode, VVIX to a new episode high 109.47. We owned VIX calls through it and lost money.
+
+**The reason is the forward, and I flagged it at the fill:** VIX options settle on the **forward**, not spot, and this strip's forward carries **beta ~0.28 to spot** (derived by parity at entry: spot ran 19.49→19.85 while the 8/5 forward moved 19.5→19.6). My own §8 note said the low beta *"undercuts my own spike-capture argument for the near-dated expiry."* **That worry was correct and it is precisely what killed the trade.** A +13.45% spot spike moved the forward a fraction of that, our 20 strike never came into the money on the number that prices it, and by 7/30 the forward had fallen to **18.82** — leaving us **+6.3% OTM** versus **+2.0% OTM at the fill.** Moneyness got *worse* after the event we bought arrived.
+
+**That is a structural finding, not bad luck** → §11.D.
+
+### C. ★ PRE-REGISTERED EVALUATION — locked 2026-07-30, outcome unknown
+
+**Resolver date: Wednesday 2026-08-05, VIX AM-settled SOQ** (special opening quotation — *not* the 8/5 close, and not spot on any other day).
+
+**The counterfactual arithmetic, fixed now:**
+> Spread value at expiry = `min(max(SOQ − 20, 0), 5)`. We banked **$0.45**.
+> **Holding beat exiting if and only if the 8/5 SOQ prints above 20.45.**
+> From 7/30 levels that requires forward **18.82 → 20.45 (+8.7%)** or spot **18.35 → 20.45 (+11.4%)** in 4 trading sessions.
+
+**My pre-registered probability: ~20%** that SOQ > 20.45. *(Stated before the fact so it can be scored, not defended.)*
+
+**🔑 THE GRADING STANDARD — read this before grading, because the obvious grade is wrong:**
+
+**We exited at the market's own fair price. That makes the exit EV-NEUTRAL by construction.** $0.45 *was* the market's expected value of holding, quoted by a liquid two-sided market (20C OI 7,487 / 25C OI 13,369). **Therefore the 8/5 print, whatever it is, does NOT by itself make this exit wise or unwise.** If SOQ prints 24 and we "left $3.55 on the table," that is one draw from a distribution we sold at fair value — it is *not* evidence the rule was wrong. The symmetric case holds if VIX collapses to 15.
+
+**What the 8/5 outcome legitimately tests (grade these, and only these):**
+
+| # | Claim under test | Owner | Resolves TRUE if | Resolves FALSE if |
+|---|---|---|---|---|
+| **1** | **VIOLET's FADE verdict** (KB-VIO-144: shared-surface-alone, 2-of-6 independent legs → fade-prone) | VIOLET | VIX stays below ~20.45 through 8/5; no second down-leg materializes | VIX re-spikes >20.45; the escalation case she resolved against was live |
+| **2** | **VIOLET's NO-RE-ENTRY instruction** — the *only* consequence her verdict carried, since the exit was mandatory either way | VIOLET | no re-entry window would have paid | a clean re-entry would have paid ≥ the loss we took |
+| **3** | **TERRY's forward-beta structural finding** (§11.D-1) | TERRY | a further spot move again fails to lift the 8/5 forward proportionally | forward beta rises materially as expiry nears (it should — beta→1 at settle) |
+| **4** | **The short-gamma steelman** (VIOLET §4③ / HENRY: net GEX −$39.4B/−$59.2B, spot 136–149pts below flip) | HENRY | no violent amplified down-leg by 8/5 | a second leg down gets amplified exactly as warned — **this was the strongest argument for patience and it deserves an honest grade** |
+
+**What does NOT get graded on 8/5:** *"was a dated mandatory exit a good rule."* **That needs n>1.** One trade cannot grade a policy, and grading it on this draw is the outcome-bias error. It goes to the calibration record and accumulates.
+
+**Review mechanics:** TERRY owns this. Resolve on **2026-08-05** off the official CBOE VIX SOQ (not yfinance spot, not the close). Un-owned-gate rule applies → this is written as an explicit pickup line in `STATUS.md`, not left to memory.
+
+### D. TWO DURABLE FINDINGS
+
+**1. 🔴 STRUCTURAL — a near-dated VIX call spread does not capture a spot spike.** The forward carries ~0.28 beta to spot at ~9 DTE. We bought the correct event, the event arrived at +13.45%, and the instrument did not pay because the strike was set against a number that barely moved. **Consequence for future construction: if the thesis is a SPOT spike, either buy a longer-dated strip (higher forward beta earlier) or set strikes against the DERIVED FORWARD, never against spot.** The card did derive the forward at entry — the failure was continuing to reason about the *trigger* (VIX ≥23 spot) in spot terms while the *payoff* lived on the forward. **The §6 management triggers were written on spot and the position settled on the forward — the same guard-spec defect I flagged on 7/27 and routed to VIOLET, which turned out to matter for the exit logic too, not just the entry guard.**
+
+**2. 🟠 EXECUTION — my limit-setting on liquid VIX verticals is systematically ~5¢ too generous to the market. n=2, same position, both directions:**
+
+| | TERRY proposed | Will worked | Result |
+|---|---|---|---|
+| **Entry 7/27** | $0.75 limit | **$0.70** | filled, never had to walk up |
+| **Exit 7/30** | start $0.40 (mid), floor $0.31 | **$0.45** | filled, **+$20 vs my start** |
+
+**Both times Will's limit was 5¢ better for him and both times it filled.** My 7/30 reasoning was *"don't get cute for 2 cents when the underlying is falling 11%/day"* — that was wrong, and the tell was in my own data: quoted **leg** spreads were ~25%, but a vertical trades **inside** the sum of its legs' quoted markets because the legs offset for the market maker. I priced the vertical off the legs' mid instead of off where a vertical actually trades. **Adopted rule: on a vertical where both legs carry OI >5,000, open at the aggressive third of the net bracket, not at mid — then walk. Mid is the floor of the opening ask, not the start.**
+
