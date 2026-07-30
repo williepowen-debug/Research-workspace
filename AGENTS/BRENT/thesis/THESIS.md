@@ -171,19 +171,21 @@ The asymmetry is now upside-convex → the forward expression is a **defined-ris
 
 ## KEY THRESHOLDS (refreshed 2026-07-21 — live levels owned by STATUS)
 
+> ⏱️ **STATUS COLUMN LAST REFRESHED: 2026-07-30** (levels verified against EIA primary + live tape). ⚠️ **THIS TABLE IS DECLARED CANONICAL BY `scripts/thresholds.py` — which means a stale Status column here silently mis-informs every boot.** **Found 2026-07-30: it was up to THREE WEEKS stale, and had Brent's >$100 threshold marked *"$8 away"* a week AFTER it fired at $100.69.** Root cause: on 7/28 I repointed the script off a FROZEN ledger (`VX.tsv`) onto this table without checking that this table was itself current — **I moved the dependency from one stale surface to another.** **Refresh this column at every closeout that moves a threshold, and ALWAYS on a thesis version bump.**
+
 | Metric | Level | Significance | Status |
 |--------|-------|-------------|--------|
-| Brent futures | >$100 | Scenario-C confirmation / re-squeeze extension | 🟠 **$92.15 settle (7/21) — $8 away**; +21% off the 7/10 $76.01 settle, all on risk-premium (zero **CRUDE** barrels destroyed — ⚠️ **molecule-scoped 2026-07-30**, see v5.2 note at head) |
+| Brent futures | >$100 | Scenario-C confirmation / re-squeeze extension | 🔴 **FIRED 7/23 — $100.69 peak, KEY THRESHOLD #1 / Scenario-C confirmed.** Now **$89.22 (7/30 intraday), −11.4% below the peak**; 7/29 settled $90.74 (+7.91%). All on risk-premium (zero **CRUDE** barrels destroyed — ⚠️ **molecule-scoped 2026-07-30**, see v5.2 note at head) |
 | **Brent (upside re-arm)** | Tier-2 CONFIRM partition (>$75 settles + ≥2 fresh legs) | Tier-2 convex-arm trigger | 🔴 **FIRED 7/16 (re-arm CONFIRMED)** — and $85×3 fired 7/21 (sustained premium). Arm ARMED-and-HOT, no capital (cooldown gate unmet: OVX 63.78 new cycle high *(⚠️ RETIRED 2026-07-30 — replaced by DEPLOY GATE v2, Will-ratified; see TRADE.md)*) |
 | Brent | <$70 on confirmed DEMAND collapse | The real downside break (v5.0; sub-$75 = decoupling, RETIRED as a break) | 🟢 far away ($92); the down-path now = Muscat off-ramp premium round-trip toward $75-78, not a thesis break |
 | **Curve M1−M3** | backwardation vs contango | Phase-1 squeeze structure | 🔴 **BACKWARDATION [EST ~+$3-5, 7/13 flip]** — front-led closure surge; diesel premium ~$80/bbl; stamp [CONF] on an ICE-settle source |
-| **Cushing** | <20M | Operational minimum; WTI dislocation | 🟠 **20.04M (wk-7/10, PRE-closure vintage)** — wk 1 of 2 for Boundary #3 rescission; first post-closure read 7/22 |
+| **Cushing** | <20M | Operational minimum; WTI dislocation | 🔴 **18.60M (wk-7/24, EIA PRIMARY re-pulled 7/30) — 1.40M BELOW the floor; Boundary #3 BREACHED, rescission FAILED.** ⛔ The relayed 19.10M was WRONG on level and ~3× on delta. Deteriorating ~3× faster than published; first post-closure read 7/22 |
 | **SPR** | §6241 floor **252.4M** (the "70M floor" claim = INOCULATED misread, SIG-W-20260721-005) | Buffer nearly spent; GS: global SPR **1st %ile since 2017** | 🔴 **316.5M (wk-7/10) — 43-yr low**; buffer to floor ~64M (~10-21 wks at recent pace) |
-| EIA gasoline YoY | −5% ×3 wks | Demand destruction (Trigger #2 — window CLOSED, BRT-08 resolved) | 🟡 **−1.06% (wk-7/10)**; window may REOPEN on the $4 pump re-cross — watch post-closure prints |
-| Refinery util | >95% | Crack-squeeze tripwire | 🔴 **96.2%** — margin-boom; 3-2-1 crack record $64.58 (7/8); OECD diesel **4th %ile** [GS 7/20] |
-| US rig count | +50 from 407 trough (=457) | Shale capex break (BRT-26) | 🔴 **452 (+7, wk-7/17) — 5 to 457; breach watch next print 7/24** [CONF BH] |
-| Retail gas | >$4.00/gal | Consumer trigger → CARL | 🔴 **$4.001 — RE-CROSSED 7/20** [CONF FRED GASREGW]; prior peak $4.55 (5/21) |
-| WTI-Brent spread | >$5 (WTI premium) | US decoupling | 🟢 **Brent +$6.9 OVER WTI** (92.15 vs 85.29, 7/21) — global squeeze premium, opposite configuration |
+| EIA gasoline YoY | −5% ×3 wks | Demand destruction (Trigger #2 — window CLOSED, BRT-08 resolved) | 🟠 **−0.25% (4-wk avg, wk-7/24 EIA PRIMARY)** ⛔ relay said +0.7%, **sign backwards**. ⚠️ Inside noise, NOT demand destruction. 🆕 **Distillate demand is +4.74% YoY — the barrel is SPLITTING.** Window may REOPEN on the $4 pump re-cross — watch post-closure prints |
+| Refinery util | >95% | Crack-squeeze tripwire | 🔴 **97.2% (wk-7/24, EIA PRIMARY) — a real PRINT, highest in the visible series** (was carried as `~96% [EST]`, and the EST was LOW). Diesel crack **$99.08 on 7/29 = fresh 6-mo high, 99.2nd %ile**; OECD diesel **4th %ile** [GS 7/20] |
+| US rig count | +50 from 407 trough (=457) | Shale capex break (BRT-26) | 🟢 **450 (−2, wk-7/24) — THE BREACH DID NOT HAPPEN; 7 to 457, FURTHER away.** First decline after 12 rises in 13 wks. **My 7/21 'likely FAILS imminently' call was WRONG IN DIRECTION** (rigs lag price 4-8wk). BRT-26 stays OPEN, real test ~late-Aug/Sep. Next print **Fri 7/31** [CONF BH] |
+| Retail gas | >$4.00/gal | Consumer trigger → CARL | 🔴 **$4.096 (7/27 FRED GASREGW) — 2nd straight week >$4.** 🆕 **And DIESEL is the violent leg: $5.339/gal, +42.8% YoY vs gasoline +30.5%** [AAA 7/30] — a FREIGHT/food-cost channel, not a commuter one. Prior peak $4.55 (5/21) |
+| WTI-Brent spread | >$5 (WTI premium) | US decoupling | 🟢 **Brent +$5.50 OVER WTI** (89.22 vs 83.72, 7/30 intraday) — global squeeze premium, opposite configuration; narrowed from +$6.9 (7/21) |
 | HY Energy OAS | >400bps | Energy credit stress | 🟢 **183bps [ICE BofA via Fidelity, as-of 6/30]** — tightest HY sector, PRE-closure vintage; July print (~Aug) = first post-closure credit read (LIQUID) |
 | OVX / OVX-VIX ratio | deploy gate: OVX <44.2 (p75) AND ratio <2.89 (p90) | Convex-arm entry discipline (v5.1) | 🔴 **63.78 / 3.74 (7/21) — both FIRE; new cycle high; gate decisively unmet** |
 

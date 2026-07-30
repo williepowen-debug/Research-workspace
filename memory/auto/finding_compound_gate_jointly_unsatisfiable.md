@@ -27,3 +27,25 @@ metadata:
 **Proof-of-good-faith test worth stating explicitly in any re-spec: does the proposed rule fire TODAY?** If it does, you may have written it to fit the tape. BRENT's did not, and said so.
 
 **Why it matters:** an unfireable gate reads as *discipline* — it produces a clean record of "correctly passed on the chase, N sessions running" — while actually being an unexamined defect that will govern capital at the next decision point. Related: `[[finding_threshold_level_is_a_measurement_not_a_constant]]`, `[[finding_guard_scope_expires_at_the_fill]]`, `[[finding_test_the_guard_not_just_the_guarded]]`, `[[finding_standing_guard_is_a_false_negative_risk]]`.
+
+## Variant found the same day, and it is WORSE: **the NON-DISCRIMINATING leg**
+
+Auditing the rest of my gates after the case above, I found one that is not merely anti-correlated — **it lands the same way on BOTH outcomes, so it is a veto that only ever vetoes.**
+
+The off-ramp (short-arming) gate required: *"if tankers do NOT sell off on the de-escalation announcement, the market isn't treating it as operational ⇒ **do not fire**."* Tested against **every** analogue the regime had produced:
+
+| Announcement | Class | Tanker equities |
+|---|---|---|
+| The one genuinely **operational** de-escalation | real | **+2.6% / +5.0%** |
+| A **rhetorical** false dawn | fake | **+3.9% / +0.8%** |
+
+**Tankers rose on both. 0-for-2.** The gate would have been *forbidden* to fire on the only real off-ramp available.
+
+**And my own lesson file already contained the mechanism** — *"reopening is bullish for ton-mile demand; the second-order beneficiary moves opposite the first-order price"* — recorded after a prediction failed for exactly this reason. **Two lessons in one file contradicted each other, the newer one had the empirical record, and the ratified spec inherited the older one.** Nothing in the process ever forced them to be reconciled.
+
+- **The distinct test: does the leg's PASS state differ between the true and false worlds?** Anti-correlation makes a gate hard to fire; **non-discrimination makes it meaningless** — it carries zero information and only ever subtracts. Base rates alone won't catch it: you must evaluate the leg **separately under "thesis true" and "thesis false"** and confirm the readings diverge.
+- **Watch for a leg that is a SECOND-ORDER beneficiary of the event it is meant to confirm.** If the event helps the confirming instrument through a different channel, the instrument moves the "wrong" way on a real event and the check inverts.
+- **When two of your own lessons disagree, the conflict is the finding.** Neither is safe to inherit into a spec until they are reconciled and the loser is marked superseded — otherwise whichever was written first wins by accident.
+- **Fix shape: replace a DIRECTIONAL test with a DISPERSION test.** Require the instrument to *move materially*, treat the sign as informative rather than required, and reserve the veto for the genuinely uninformative state (flat = nobody believes it).
+
+**Corollary from the same audit — repointing is not repair.** After finding a boot script sourcing a FROZEN ledger, I repointed it at a "canonical" registry **without checking that the registry was itself current.** It was up to three weeks stale and marked an already-fired threshold as *"$8 away."* **Moving a live consumer from one stale surface to another fixes the citation and not the rot** — verify the new source's own vintage, and stamp it so the next reader can see it. → `[[finding_seeded_selfsweep_secondary_surface_rot]]`, `[[finding_derived_surface_band_rot]]`

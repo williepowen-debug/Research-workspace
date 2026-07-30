@@ -114,7 +114,7 @@ If a cross-agent threshold breaches during your work, append to `AGENTS/SIGNALS.
 - **Source tags on all data points.** Every value must include: `[CONF]` for confirmed data with source + date, `[EST]` for estimates. Example: `**Brent $90** | [CONF] ICE Mar 6` or `**~$95** | [EST] model-implied`. No naked numbers.
 - **Prediction ID format:** All predictions use `BRT-xx` (e.g., `BRT-01`, `BRT-04`). No bare numbers.
 - **Don't maintain stale copies.** If another agent owns a data point (HAWK owns military ops, HENRY owns VIX), reference their value with `[CONF HAWK Mar 6]` rather than keeping your own copy that drifts. One source of truth per metric.
-- STATUS.md stays under 250 lines. Archive to `research/` or `domain/sources/` if growing.
+- STATUS.md stays under 250 lines. Archive overflow to **`workbook/STATUS_archive_*.md`** (the pattern actually in use) or `research/`. *(Corrected 2026-07-30: this line pointed at `domain/sources/`, which **does not exist and never has** — `domain/` holds only `REFERENCE_TABLES.md` and `HORMUZ_TRANSIT_BASELINE.md`. A boot instruction naming a nonexistent path is a silent no-op: the archive step reads as covered and isn't. DAEDALUS flagged it 7/28.)*
 - Separate FACTS (what happened) from ASSESSMENT (what it means for price/positioning).
 - Price levels always include: spot, structure (contango/backwardation), and key spreads.
 

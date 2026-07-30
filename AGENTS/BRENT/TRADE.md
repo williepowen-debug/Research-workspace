@@ -117,6 +117,27 @@
 
 **⇒ STAGE A — ENTRY (the only stage that authorises capital; must be satisfiable inside the ~48h trade window):** **(i)** signature/sovereign-action **AND** **(ii-A)** the **transit leg**, the only one that both moves and is observable in the trading window — **aggregate Hormuz transits recovering >~35/day, on ≥2 consecutive days.** ⚠️ **Grade off real-time AIS as the leading read, NOT PortWatch/Lloyd's** — those publish on a **4-6 day lag** and *cannot report the value at the moment this gate asks* (the PROME framespec class: pre-register against the source that CARRIES the metric, not the event date). **AND** the **STNG sanity check (mandatory, LESSONS #16/#18):** if tankers do NOT sell off on the announcement, the market isn't treating it as operational → **do NOT fire.**
 
+> # 🔴🔴 DEFECT FOUND 2026-07-30 — **THE STNG LEG IS NON-DISCRIMINATING AND IS 0-FOR-2 AGAINST ITS OWN ANALOGUES. FLAGGED OPEN, NOT SILENTLY FIXED — IT SITS INSIDE A SPEC WILL RATIFIED YESTERDAY.**
+>
+> **Stage A says:** *if tankers do NOT sell off on the announcement, the market isn't treating it as operational → **do NOT fire**.* **Tested against every de-escalation analogue this regime has produced:**
+>
+> | Announcement | Class | STNG | FRO | DHT | Gate verdict |
+> |---|---|---|---|---|---|
+> | **Jun-17 Islamabad MOU SIGNED** — the ONE genuinely operational de-escalation | operational | **+2.6% / +5.0%** | +3.8% / +5.5% | +2.6% / +7.4% | ⛔ **BLOCKED** |
+> | **Apr-17 "Hormuz completely open"** | rhetorical | **+3.9% / +0.8%** | +5.2% / +0.7% | +5.3% / +1.5% | ⛔ **BLOCKED** |
+>
+> **Tankers ROSE on both. 2 of 2. The gate would have been FORBIDDEN to fire on the only real off-ramp this regime has had.**
+>
+> **⚠️ AND MY OWN LESSONS #19 ALREADY EXPLAINS WHY — I wrote the leg anyway.** *"BRT-15 FAILED because the reopen made STNG RALLY +5.79%, not collapse: reopening is bullish for ton-mile demand / product-tanker earnings."* **A reopening lengthens voyages and raises tanker earnings, so tankers rally on a REAL reopening — and they also rally on a FAKE one, because nothing has changed.** ⇒ **the check has NO DISCRIMINATING POWER IN EITHER DIRECTION.** It is not merely anti-correlated (the `[[finding_compound_gate_jointly_unsatisfiable]]` class); it is **a coin that lands the same way on both outcomes**, which is worse — it is a veto that only ever vetoes.
+>
+> **How it got in:** LESSONS **#16/#18** framed the STNG check as an anti-false-positive test (*"if tankers don't sell off, the market isn't treating it as operational"*). LESSONS **#19** later documented the opposite mechanism and **explicitly warned "when a position can pay via multiple competing channels, never write a one-directional threshold."** **#18 and #19 contradict each other, #19 has the empirical record, and the ratified spec inherited #18.** *Two lessons in the same file disagreed and nothing forced them to be reconciled — the failure was that neither was ever tested against the other.*
+>
+> **⛔ CONSEQUENCE, STATED PLAINLY: the off-ramp playbook — the entire down-side of the book — is currently gated by a leg that has never once permitted a fire.** Combined with Stage A's other requirement (a signature/sovereign act), the playbook cannot fire on the enforcement-degradation path either (see the separate gap flagged to FALCON 7/30). **Both of the off-ramp's realistic paths are currently blocked.**
+>
+> **PROPOSED REPLACEMENT (for Will's ruling — NOT applied):** replace the *directional* STNG test with a **DISPERSION** test that has power in both directions — *tankers must move **materially** and the sign is informative, not required*: **(i)** if tankers **fall** ≥3% while crude falls, the market is pricing an operational reopening ⇒ **CONFIRM**; **(ii)** if tankers **rise** ≥3% while crude falls hard, that is the **ton-mile channel** (LESSONS #19) and is **NOT** a disconfirmation ⇒ **NEUTRAL, gate on the transit leg alone**; **(iii)** if tankers are **flat (±1%)** on a claimed operational reopening, the market is ignoring it ⇒ **DO NOT FIRE.** *This preserves the anti-false-positive intent (case iii is the real "nobody believes it" signal) while removing a veto that fires on every real outcome.*
+>
+> **Until ruled, the STNG leg stands as written** — the same discipline applied to the un-anchored *"war-risk halves"* threshold: **scope the fix to the ruling you actually have** (`[[finding_outside_this_rail_disclosure]]`).
+
 **⇒ STAGE B — PERSISTENCE (does NOT gate entry; it grades the position AFTER it is on).** Each leg carries its **own window, matched to its own response time**, measured from the Stage-A announcement:
 
 | Leg | Own response time | **Window** | Observation basis |
