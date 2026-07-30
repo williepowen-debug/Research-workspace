@@ -37,6 +37,7 @@ BOOT_SEQUENCE = [
     ("JPY carry-vol canary (scope 7/11; built 7/16)", "jpy_vol.py", ["--boot"], True),
     ("OVX oil-vol→equity-vol transmission canary (built 7/17)", "ovx.py", ["--boot"], True),
     ("Cheap-tail window alert (operator decision surface; built 7/23)", "cheap_tail.py", ["--boot"], True),
+    ("Implied correlation (KB-VIO-126 mechanism; built 7/30)", "implied_corr.py", ["--boot"], False),
     ("Catalyst countdown",          "catalyst_countdown.py", [], False),
     # Runs LAST, after every canary has written its row this session — so it audits
     # the state boot just produced, not the state it inherited. Enforces the
