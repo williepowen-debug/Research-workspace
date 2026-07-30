@@ -13,8 +13,8 @@ VIX futures and options expire on the **Wednesday 30 days prior to the third Fri
 | ~~Apr 2026~~ | Apr 15 | EXPIRED |
 | ~~May 2026~~ | May 20 | EXPIRED. Episode-17 VIX 25C expired worthless 5/19. |
 | ~~Jun 2026~~ | Jun 17 | EXPIRED — quarterly. Resolved clean alongside FOMC (no pin stress; VIX +12% on the hawkish dot, then faded). M1 (war-premium carrier) expired with it. |
-| **Jul 2026** | **Jul 15** | Standard monthly. FOMC Jul 29 same month. |
-| Aug 2026 | Aug 19 | — |
+| ~~Jul 2026~~ | Jul 15 | EXPIRED — clean, no pin stress. FOMC Jul 29 landed later the same month. |
+| **Aug 2026** | **Aug 19** | Next monthly. ⚠️ **Aug-05 weekly SOQ (8/5) is the live one** — the pre-registered grader for `TRY-VIOLET-VIXCS`. |
 | Sep 2026 | Sep 16 | Quarterly (same day as FOMC + SEP). |
 
 **Pin risk:** VIX tends to drift toward strikes with high open interest near expiration.
@@ -52,8 +52,8 @@ VIX futures and options expire on the **Wednesday 30 days prior to the third Fri
 | Date | Event | VIX Implication | VIOLET Checkpoint |
 |------|-------|-----------------|-------------------|
 | **Jul 30** | **AMZN Q2 (AH) + 🆕 AAPL Q3 FY26 (AH, 5:00 PM ET)** | **Apple was missing from the fleet calendar entirely** — flagged by WALTER SIG-013, date verified by own pull 7/27 | 🔴 **Highest-density single night.** AAPL is **Tim Cook's FINAL earnings call as CEO** (→ John Ternus) — a CEO-transition print for the largest index constituent, stacked on AMZN and the BOJ window. Consensus ~$108.9B rev / ~$1.89 EPS. |
-| **Jul 30-31** | **BOJ MPM (decision 7/31)** | Carry→vol transmission | 🟠 jpy_vol **RV10 3.47% / p7.2** [7/28] — near-floor realized. **IV/RV 3.07 [7/27]**; ⚠️ **corrected 7/28 — this row carried "3.24× re-loaded" and 3.24 is the OVX ratio, not jpy_vol's** (true path 3.04→3.07, ~+1%, KB-VIO-141). **No 7/28 IV/RV exists** (FXY thin-strike guard). Context unchanged: carry's strongest year since 2005, crowded short-FX-vol. **SAM owns the yen call; VIOLET owns the transmission read only.** |
-| **Jul 31** | COT release (report-date 7/28) · **KB-VIO-127 Karsan call resolves** | Positioning + scored prediction | 🟡 Did the lev-money unwind continue through FOMC? Karsan HIT = VIX ≥23 touch or >20 settle-and-hold — **base case MISS** — ⚠️ it went **HALF MET** on the 7/29 settle (20.66) and needs a 7/30 settle >20 to complete; the 7/30 tape (VIX ~18.2 mid-morning) is trending back toward the registered MISS. Score honestly Friday. |
+| **Jul 30-31** | **BOJ MPM — decision ~11:30 JST Fri 7/31 = ~22:30–23:00 ET TONIGHT (Thu 7/30)** | Carry→vol transmission | 🔴 **CANARY FIRED 7/30 — first time since it was built 7/16.** RV10 **16.13% / p96.9** (was 3.23% / p6.6 on 7/29); **IV/RV 0.78 = RV THROUGH IV**, the Aug-2024 unwind-underway signature. Driver: **suspected** MOF intervention (Bloomberg/Reuters report speculation, **not confirmed** — MOF confirms with a lag), USD/JPY 162.77 → **157.92 low** inside the 09:30–10:00 ET bar. ⚠️ **Two caveats I own:** ① RV cannot discriminate intervention from unwind — the one bar reproduces the whole fire, so this is a correct measurement with an **unresolved mechanism** (KB-VIO-162); ② **equity vol did NOT transmit** — ^VIX fell 18.63→18.25 and ^VVIX 102.61→100.07 *in the same 30 minutes*. **SAM owns the yen call; VIOLET owns the transmission read only** — packet sent 7/30. |
+| **Jul 31** | COT release (report-date 7/28) · **KB-VIO-127 Karsan call resolves** | Positioning + scored prediction | 🟡 Did the lev-money unwind continue through FOMC? ⚠️ **The 7/28 report date PREDATES the 7/30 yen move, so this print cannot speak to the carry leg either** — the 8/4-data print is the first that can. **Karsan:** HIT = VIX ≥23 touch or >20 settle-and-hold; **base case MISS**. Went HALF MET on the 7/29 settle (20.66), and the 7/30 tape has **taken the hold leg away** — VIX **17.93 at 13:30 ET**, no path to a >20 settle. **Trending decisively to the registered MISS; score it Friday.** |
 | **Aug 5** | **VIX Aug-05 weekly SOQ — the PRE-REGISTERED grader for `TRY-VIOLET-VIXCS`** | Counterfactual line **20.45** | 🔴 **Registered BEFORE the 7/30 exit** (TERRY card 11.C; TERRY P≈20%). Holding beat exiting **iff SOQ >20.45**. ⚠️ **Does NOT grade the exit rule** — the exit was at fair two-sided price, so it is **EV-neutral by construction** and a rule needs n>1. **It DOES grade: my KB-VIO-144 fade verdict · my no-re-entry call · TERRY's forward-beta finding (~0.28 @9DTE) · HENRY's short-gamma steelman.** Score all four, including against me. |
 | Aug 19 | VIX August expiration | Standard monthly | ⚪ Low. |
 | Sep 16 | FOMC + SEP + VIX Sep quarterly expiry | Quarterly dot-plot convergence | 🟠 Next major gate. |
@@ -100,22 +100,28 @@ VIX futures and options expire on the **Wednesday 30 days prior to the third Fri
 
 ## DATA REFRESH SCHEDULE
 
-| Data Source | Frequency | Tool | Last Updated |
-|-------------|-----------|------|--------------|
-| VIX/VIX9D/VIX3M/VVIX/SKEW spot | Every boot (auto in boot.py) | `scripts/thresholds.py` / yfinance | 2026-07-01 (post-close boot, SETTLE basis; SKEW 154.82 verified = official CBOE 7/1 close) |
-| FRED credit (HY/IG/CCC + ladder BB/B/BBB + global Euro/EM) | **Every boot** (auto in boot.py `--summary`; FRED print lands ~11:30 AM ET T+1) | `scripts/fred_fetch.py --summary` | 2026-07-01, data through 6/30. Gate: **🔴 BIN-A — CCC 9.70, disp 8.06** (KB-VIO-107; DISH decomposition pending). |
-| FRED rates (2Y/10Y/TIPS) | Manual session step | `scripts/fred_fetch.py` | 2026-07-01, through 6/30 (10Y owned by HENRY) |
-| 20d SKEW avg + 5td_change | Per boot during knife-edge | inline calc | 2026-07-01: **144.08 / margin +4.08 FRESH** (not mechanical) |
-| Catalyst countdown | Every boot (auto in boot.py) | `scripts/catalyst_countdown.py` | 2026-07-01 (next: jobs ~7/2, post-DISH prints 7/2-3, VIX exp 7/15) |
-| VIX options OI | Every boot (auto in boot.py; **evening runs print OI=0 — artifact**) | `scripts/vix_options.py` | 2026-07-01 boot ran 21:53 ET → artifact rows; **re-run intraday** (last good OI read 6/23) |
-| VX_DAILY.tsv time series | Daily (auto-append at boot; EOD `--supersede` after 16:15 ET) | `scripts/thresholds.py` / `scripts/backfill.py` for gaps | 2026-07-01 SETTLE row; 6/22-6/26 backfilled. **6/29-6/30 absent (yf companion ^-indices lag; re-backfill next session).** |
-| CFTC COT VIX futures | Weekly Fri 3:30pm ET (auto in boot.py) | `scripts/cftc_cot.py` | 2026-07-01 boot pulled 6/23 positions (Lev Money −18,863 / 70.5 NORMAL; OI −13.5% w/w). Next: 6/30 positions, release **Mon 7/6** (7/3 = observed holiday; PROME docket) |
-| NAAIM + ICI equity positioning | Weekly Wed/Thu | `scripts/equity_positioning.py` (**not yet built**) | Not wired |
+> ⚠️ **This table went a month stale (every row read "2026-07-01" until 7/30) while the pipelines underneath it ran green every boot.** That is the failure mode it exists to prevent, so: **the `Last Updated` column is now a POINTER to where the live vintage actually lives, not a hand-copied date.** Hand-stamped dates in this table rot silently; the ledgers and `boot.py` carry their own content-derived vintages and cannot. Do not re-introduce transcribed values here.
 
-**Boot sequence:** `python3 scripts/boot.py` runs thresholds + **fred_fetch --summary (credit gate)** + vix_options + cftc_cot + catalyst_countdown.
+| Data Source | Frequency | Tool | Where the live vintage lives |
+|-------------|-----------|------|------------------------------|
+| VIX/VIX9D/VIX3M/VVIX/SKEW spot | Every boot (auto in boot.py) | `scripts/thresholds.py` / yfinance | `workbook/VX_DAILY.tsv` last row + its `basis` (TICK/SETTLE) and `m1m2_settle_date` columns. ⚠️ **TICK ≠ the daily record** — EOD `--supersede` after 16:15 ET writes the SETTLE. |
+| FRED credit (HY/IG/CCC + ladder + global) | Every boot (`--summary`; FRED lands ~11:30 ET **T+1**, KB-VIO-060) | `scripts/fred_fetch.py --summary` | boot.py credit-gate block prints the FRED **data-date** with the verdict. Never cite it as "today." |
+| FRED rates (2Y/10Y/TIPS) | Manual session step | `scripts/fred_fetch.py` | Script output (10Y is HENRY-owned — reference, don't keep a copy). |
+| 20d SKEW avg + 5td_change | Per boot during knife-edge | inline calc / `skew_trajectory.py` | Recompute; ⚠️ **^SKEW publishes ~17:00 ET SAME-DAY** (KB-VIO-137) — before that, say "not yet published today," never "T+1." |
+| Catalyst countdown | Every boot (auto) | `scripts/catalyst_countdown.py` | `workbook/CATALYSTS.tsv` (source of truth; this file is its human twin and must not diverge). |
+| VIX options OI | Every boot (auto) | `scripts/vix_options.py` | `workbook/VIX_OPTIONS.tsv`. ⚠️ **After-hours runs print OI=0** — artifact; use the volume ratio or re-run intraday. |
+| VX_DAILY time series | Daily (auto-append at boot; `--supersede` at EOD) | `scripts/thresholds.py`, `scripts/backfill.py` for gaps | `workbook/VX_DAILY.tsv`; gaps surfaced by `scripts/ledger_staleness.py VIOLET` at boot step 5b. |
+| **Canaries — JPY / OVX / cheap-tail** | Every boot (auto) | `jpy_vol.py`, `ovx.py`, `cheap_tail.py` | `workbook/{JPY_VOL,OVX,CHEAP_TAIL}.tsv`. 🆕 **Upsert since 7/30 (KB-VIO-160)** — a re-run UPDATES today's row and prints `🔴 STATE CHANGED`; previously first-write-wins froze the day at its earliest read. |
+| Implied correlation (KB-VIO-126) | Every boot (auto) | `scripts/implied_corr.py` | `workbook/IMPLIED_CORR.tsv`. ⚠️ **Cannot be backfilled** — yfinance has no `^COR*` daily history; the series only exists if boot runs. |
+| CFTC COT VIX futures | Weekly Fri 3:30pm ET (auto) | `scripts/cftc_cot.py --boot` | `workbook/COT_VIX.tsv`; grade off the raw `f_disagg` file, not Socrata (which lags the 3:30 post). |
+| VX term/settlement history | On demand (built 7/30) | `scripts/vx_history.py` | `workbook/VX_TERM_HISTORY.tsv` — 28,555 contract-days, 2013→current, **free** from CBOE's contract-keyed endpoint (KB-VIO-158). |
+| NAAIM + ICI equity positioning | Weekly Wed/Thu | `scripts/equity_positioning.py` | **NOT BUILT / not wired.** Standing gap, carried deliberately. |
+
+**Boot sequence:** `boot.py` runs thresholds → fred_fetch `--summary` (credit gate) → vix_options → cftc_cot → jpy_vol → ovx → cheap_tail → implied_corr → catalyst_countdown → CANARY_MAP staleness contract.
 
 ---
 
 *Created: 2026-04-12*
-*Last Updated: 2026-07-27 (post-close settle boot: forward-catalyst set REBUILT — CATALYSTS.tsv carried only 3 forward rows while STATUS treated BOJ + the megacap cluster as live, a twin-divergence the protocol forbids. Added MSFT/META 7/29, **AMZN + AAPL 7/30** (Apple was absent fleet-wide; date verified by own web pull, and it is Cook's final call), BOJ 7/31, COT 7/31, KB-VIO-127 resolution 7/31. FOMC row updated with the live 34.3% July-hike odds per KB-VIO-128. Twin verified via catalyst_countdown.py same session. Prior: 7/23.)*
+*Last Updated: **2026-07-30 ~14:30 ET** (currency pass, Will-directed. **DATA REFRESH SCHEDULE rebuilt**: every row had read "2026-07-01" for a month while the pipelines under it ran green every boot — the hand-stamped `Last Updated` column is replaced by POINTERS to where each live vintage actually lives, because transcribed dates rot silently and content-derived vintages cannot. Table also gains the four instruments built since 7/01 that were absent from it entirely: the three canaries, implied-corr, and the VX term history. **BOJ row flipped 🟠→🔴** — the JPY canary took its first-ever FIRE (RV10 16.13%/p96.9, RV through IV) on a suspected MOF intervention, with the caveat that equity vol did NOT transmit in the same 30 minutes. **Karsan row**: the hold leg is gone, trending to the registered MISS. Jul VIX expiry retired to EXPIRED.)*
+*Superseded stamp: 2026-07-27 (post-close settle boot: forward-catalyst set REBUILT — CATALYSTS.tsv carried only 3 forward rows while STATUS treated BOJ + the megacap cluster as live, a twin-divergence the protocol forbids. Added MSFT/META 7/29, **AMZN + AAPL 7/30** (Apple was absent fleet-wide; date verified by own web pull, and it is Cook's final call), BOJ 7/31, COT 7/31, KB-VIO-127 resolution 7/31. FOMC row updated with the live 34.3% July-hike odds per KB-VIO-128. Twin verified via catalyst_countdown.py same session. Prior: 7/23.)*
 *Superseded stamp: 2026-07-23 (sit-rep boot: pruned fired July catalysts [7/2–7/16 + MOF 7/22] to Resolved; forward set now FOMC 7/29 (🔴, 4 td) → Aug expiry → Sep FOMC+SEP+quarterly. FOMC row gains the VIOLET crack-leg watch (VIX>20 + inversion <1.0, KB-VIO-122). Twin: CATALYSTS.tsv same-session. Prior: 7/01 five-day-gap boot.)*

@@ -1,75 +1,73 @@
-# VIOLET SCRATCH — July 30, 2026 (Thursday, EXIT DAY — closed out ~12:25 ET, deliberately before the settle)
+# VIOLET SCRATCH — July 30, 2026 (Thursday PM, ~14:45 ET — **currency/maintenance session, Will-directed. Market OPEN, basis TICK. FLAT.**)
 
-> **✅ `TRY-VIOLET-VIXCS` CLOSED ~09:50 ET: realized −$111.60 (−38.8%)** on $287.70, $176.10 returned — **beat the registered 100%-loss base case. Zero of five stand-downs ever tripped: ended by its dated mandate, not by a thesis kill.** The vol call was RIGHT (VIX 17.45 → 20.88, first >20 settle of the episode) and it lost anyway.
-> **⚠️ THE THEME OF THE SESSION, in two errors of the same family.** ① **I adopted TERRY's forward beta ON RELAY** and shipped it to five surfaces including two published Artifacts — *a number arriving from a trusted agent in a well-argued packet is exactly when the reproducibility check does not fire.* ② **I asserted a DATA BLOCKER I had not actually tested** ("CBOE serves only ~12 months; needs a paid vendor"), wrote it into five surfaces, and **Will authorised a purchase on the strength of it — the real answer was a URL pattern, free, 2013→current.** 🔑 **Both are the same shape: a claim accepted without deriving it. The first came from someone I trusted; the second came from ME, which is worse, because nobody else was going to check it.**
+> **The session was scoped as "make sure VIOLET's domain and files are current and working." Boot answered that question by failing at it:** the JPY canary printed 🔴 **FIRE** while my own ledger carried **`CALM`** for the same date. **That was the session.**
+> **🔑 One live finding, one mechanism, one doc-currency sweep.** ① **The largest yen move since Dec-2023 landed and index vol went the OTHER way in the same 30 minutes** — the carry→vol channel is LOADED and NOT TRANSMITTING (KB-VIO-162). ② **Three canaries froze each day at their first read**, which is what hid ① for ~5 hours — fixed as one shared module, and **its own v1 failed on first live run** (KB-VIO-160/161). ③ STATUS rebuilt on a 7/30 basis; CALENDAR's refresh table had read **"2026-07-01" for a month.**
 
 ---
 
-## CHANGES SINCE (7/29 close → 7/30 close-out)
+## CHANGES SINCE (7/30 AM close-out → 14:45 ET)
 
-| | 7/29 settle | 7/30 (12:20 ET, intraday) |
-|---|---|---|
-| VIX | 20.66 | **~18.3 (−11.6%)** |
-| VIX3M/VIX | 1.0407 | **~1.09** (re-steepened; **never inverted**, min 1.0888) |
-| VVIX | 109.47 | ~100 |
-| SPX | 7,316.15 | **~7,413** (40pts below the ~7,453 warn) |
-| **CCC / disp** | 10.05 / 8.32 [7/28] | **10.13 / 8.37 [7/29]** — +8/+5bp **ON the FOMC day**, new episode high |
-| MOVE | 74.18 [7/29] | **no 7/30 print at any source** |
-
-**The vol event round-tripped in three sessions.** KB-VIO-034's post-inversion base rate (VIX falls in 68% of 5-day windows, mean −5.1%) paid out on schedule.
+| | 7/29 settle | 7/30 AM (last session) | **7/30 13:55 ET** |
+|---|---|---|---|
+| VIX | 20.66 | ~18.3 | **17.99** (−12.9% off the settle) |
+| VIX9D / 9D-VIX | 20.38 / 0.9864 | — | **16.31 / 0.9066** ← front end collapsed |
+| VIX3M/VIX | 1.0407 | ~1.09 | **1.1095** |
+| VVIX | 109.47 | ~100 | **97.66** |
+| SPX | 7,316.15 | ~7,413 | **7,425.62** (+1.50%) — **only ~27–39pts below HENRY's flip band, from 137–149** |
+| **USD/JPY** | 163.86 | 162.86 | 🔴 **158.97** · session low **157.92** |
+| **JPY RV10** | 3.23% (p6.6) | 4.81% | 🔴 **16.13% (p96.9)** · **IV/RV 0.78 = RV through IV** |
+| CCC / disp | 10.05/8.32 [7/28] | **10.13 / 8.37 [7/29]** | unchanged (FRED T+1) |
+| MOVE | 74.18 | no print | **still no 7/30 print at any source** |
 
 ---
 
 ## WHAT I DID
 
-1. **Pre-open packet to TERRY (09:20) falsifying my own exit brief's headline** — "sell into any morning vol strength" was dead; the give-back arrived overnight. Instruction that survived: **EARLY**. Five instruments corroborated the GTH tick.
-2. **Built SIX mechanisms** after six defects fixed as content and none as mechanism: ① fill-forward guard (preventive + detective, 6 tests) — the defect that would have false-tripped stand-down (iv) at −7.05pt vs a >5pt line · ② doc-cap enforcement · ③ **CANARY_MAP staleness contract**, unenforced since v1.0 · ④ `h3_basis_lead.py` + cached VX ledger · ⑤ **`implied_corr.py`** · ⑥ **`vx_history.py`** → `VX_TERM_HISTORY.tsv`, **28,555 contract-days / 3,321 trade days / 2013→2026**, built on the corrected CBOE path.
-3. **Thesis v3.7 → v3.8**; SIGNAL_INTAKE + README given their **first-ever** provenance passes; MAINTENANCE archived 315 → ~190; `archive/` re-created.
-4. **Tested H3 twice — it resolved against its own framing, then REPLICATED out of sample.** Timing claim FAILED both times. The coverage/precision claim held on **3,069 untouched days / 58 peaks**: basis **73.2% / 49-of-58** vs ratio **67.5% / 40-of-58**. ⚠️ **Base-rated = lift 1.51× vs 1.39× — better, not transformative.** Still **EVIDENCED-NOT-ADOPTED**.
-5. **Caught myself scoring a PARAPHRASE of KB-VIO-126** and measured the registered version, which grades the other way.
-6. **Full directory sweep** (Will-directed): CANARY_MAP's *third* stale "current" cell, FLOW.tsv unwritten since 7/25, MEMORY.md a month behind. 11 files retired to `archive/retired_2026-07-30/`.
-7. **Both Will-facing Artifacts refreshed and republished twice** (second time to correct the beta).
-8. ⚠️ **Retracted my own false data-blocker and rebuilt on the real source** — see the theme line. Five surfaces corrected; **KB-VIO-152 marked CORRECTED with its disposition rather than deleted**, per canon.
-9. **Got the VX settlement history (FREE) and re-tested H3 out of sample** — 28,555 contract-days, 2013→2026. **H3′ replicates** (58 untouched peaks) but base-rated is **lift 1.51× vs 1.39%** → *better, not transformative*. **EVIDENCED-NOT-ADOPTED.**
-10. **Pre-registered the vehicle-selection work and sent TERRY the scoping packet** — then **amended it before any computation** on TERRY's reply (below).
-11. **Cleared the inbox: 7 items** (6 top-level + 1 WALTER lane). ⚠️ **I had been acting off TERRY's COMMIT MESSAGES rather than its packets** — delivery-vs-knowledge failing in the direction I don't normally check.
+1. **Full boot, all 10 stages green.** Staleness guards (`ledger_staleness` ×2, `canary_staleness`) all clean.
+2. 🔴 **Caught the canary/ledger disagreement and traced it to a shared code defect** — `jpy_vol.py`, `ovx.py`, `cheap_tail.py` each carried *"if a row exists for this date, skip."* **First-write-wins.** Boot wrote CALM at 09:08 ET; the intervention hit 09:30 ET; every later run skipped.
+3. **Built `scripts/_daily_log.py`** (upsert + `describe`) and wired all three canaries to it. **33 tests, both directions** (`test_daily_log.py`). Today's JPY_VOL and OVX rows repaired to the live read.
+4. ⚠️ **The fix's own v1 failed on first live run** — `cheap_tail` rewrote a **7/29** row with **7/30**'s catalyst clock, reintroducing KB-VIO-139's cross-date artifact *inside its own remedy*. **Added a TODAY-ONLY guard**; reverted the corrupted row; added the regression test.
+5. **Measured the transmission rather than asserting it** — pulled 30m bars and established that VIX **fell 0.38** and VVIX **fell 2.54** in the exact bar of the yen break, with a delayed bid that fully round-tripped in 2.5h.
+6. **Packet to SAM** — canary state, the caveat against my own instrument first, the transmission measurement, and a disclosure that my ledger read CALM through it.
+7. **Processed the FALCON packet** — **verified its claim before accepting it** (item 6 present in my threshold memory, correct inline attribution, nothing owed). **Added item 7**: my KB-VIO-160 is a third instance of its DIRECTION argument and generalizes it past thresholds.
+8. **Doc currency:** STATUS rebuilt on a 7/30 basis (**217 → 167 lines**, convergence re-scored **35 → 32/60** and mechanically verified); **CALENDAR's DATA REFRESH SCHEDULE de-hardcoded** (every row read "2026-07-01" for a month) and its BOJ/Karsan rows updated; MEMORY's `fetch.py` caveat **corrected** — PROME fixed that defect and I was still advertising it as open; MAINTENANCE entry; NEXUS_BRIEF rewritten.
 
 ---
 
 ## NEXT SESSION (priority-ordered)
 
-1. 🔴 **FIRST: commit the settle row if the armed job fired.** A background job was armed for **17:05 ET** running `thresholds.py --supersede` → it writes the 7/30 SETTLE row into `workbook/VX_DAILY.tsv`, which is **durable and will show as UNCOMMITTED**. ⚠️ **Its console log went to a SESSION-SPECIFIC scratchpad that will NOT exist next session** — do not go looking for it. ⚠️ **And the job may simply not have fired** (nohup'd process, session ended). **Fallback is trivial and preferred if there's any doubt: re-pull the 7/30 daily bars and run `backfill.py`.** Verify the row rather than assuming it.
-2. 🔴 **Grade (iii) at the 7/30 close, for the calibration record only** — the position is gone. ⚠️ **(iv) is INAPPLICABLE**: its precondition is an *up*-VIX day and VIX closed down ~11%. ⚠️ **(v) CANNOT be graded until the 7/31 FRED print** (T+1). **Only (iii) is gradeable, and it needs no 17:00 SKEW.**
-3. 🔴 **Fri 7/31 15:30 — COT, report-date 7/28.** The first COT spanning the FOMC and **the last independent leg that can still move the KB-VIO-144 verdict.** Did the lev-money unwind continue through the event?
-4. 🔴 **Fri 7/31 — score KB-VIO-127 (Karsan) honestly.** HIT needed VIX ≥23 touch or "settles >20 and holds." **The hold leg fails** — VIX ~18.3. **My registered base case was MISS and is trending correct.** Score it either way; I flagged its risk pre-resolution on 7/29 when it was against me.
-5. 🟠 **Sat 8/1 — close the KB-VIO-126 hook.** Both conditions were MET at 7/30 (correlations ROSE, constituent vol FELL) ⇒ benign pattern wins, coiled read loses this leg. **AMZN/AAPL AH 7/30 was the last input — grade it on the REGISTERED two conditions, not on single-name move sizes.**
-6. 🔴 **Wed 8/5 — the PRE-REGISTERED grader.** Counterfactual line **SOQ >20.45** (TERRY P≈20%). **Grades: my fade verdict · my no-re-entry call · TERRY's forward-beta finding · HENRY's short-gamma steelman. NOT the exit rule** (EV-neutral by construction, needs n>1).
-7. 🟠 **VEHICLE-SELECTION WORK — SCOPED, PRE-REGISTERED, AMENDED, AND WAITING ON 8/5.** `research/2026-07-30_vehicle_selection_prereg.md` + AMENDMENT 1. ⚠️ **READ TERRY'S REPLY AND `AGENTS/TERRY/options/TENOR_DISCIPLINE_PARTB_2026-07-17.md` BEFORE TOUCHING THE PANEL** — Part B already found the conditional I was missing, on the strike axis. **Three things changed from my original plan:** ① **scope is the EVENT branch of rule 71 ONLY** (the grind branch is out of sample and must not be disturbed); ② **H-A demotion and H-C are OFF the panel** — H-A is settled at n=1 by VIXCS, H-C's gap is *logical* not empirical; ③ 🔑 **THE DELIVERABLE IS RE-RANKED AND TENOR IS THIRD.** What TERRY will actually act on is **🥇 peak favourable excursion + harvest window** — *median position reaches max value X× within Y sessions, gives back Z% by Y+3* — because **`TRY-FIRE-004` carries "≥3× → take half" set by JUDGEMENT, not evidence.** ⚠️ **Report distributions and orderings, NEVER a point estimate** (a point estimate at n≈8 repeats the 0.28-beta error).
-8. 🟠 **Paraphrase sweep.** I found ONE registered hook whose working summary had drifted from its registration and was scoring the opposite way. **Check the rest** — cheap, and it just caught a live error.
-9. ✅ **Front-basis instrument — UNBLOCKED AND TESTED 7/30 PM. ⚠️ MY RECORDED BLOCKER WAS FALSE AND NEARLY COST MONEY.** CBOE gives away **2013→current** VX settlement at `historical_data/VX/VX_{EXPIRY}.csv` — one file per **expired contract**, free. I had audited only the per-DATE endpoint and generalised to "no free source exists"; Will authorised a purchase for something that was a URL pattern (**KB-VIO-158**). Built `VX_TERM_HISTORY.tsv`: **28,555 contract-days, 3,321 trade days.** **H3′ REPLICATES out of sample** (58 untouched peaks: basis 73.2%/49-of-58 vs ratio 67.5%/40-of-58) but **base-rated it is lift 1.51× vs 1.39× — better, not transformative.** **EVIDENCED, NOT ADOPTED** → KB-VIO-159.
-10. 🟡 **LIQUID: issue-level HY breadth — 4th ask.** The only thing that settles broad-vs-CCC-cohort now that credit has confirmed post-event.
+1. 🔴 **FIRST: verify the 7/30 SETTLE row exists** — a background `thresholds.py --supersede` was armed for **17:05 ET** by the *previous* session. ⚠️ **Verify it, do not assume it fired** (nohup'd, session ended; its console log went to a scratchpad that no longer exists). **Fallback is trivial and preferred on any doubt: re-pull the daily bars and run `backfill.py`.** The row will show as UNCOMMITTED.
+2. 🔴 **Grade the JPY mechanism question — this is the live one.** BOJ landed ~22:30–23:00 ET 7/30. **Did the intervention convert into an actual unwind, or did the yen round-trip like the VIX spike did?** Re-run `jpy_vol.py` and check whether the canary is still FIRE. ⚠️ **The canary alone cannot answer it** (RV can't tell intervention from unwind) — the discriminator is positioning, and **the 7/31 COT is report-date 7/28 and predates the move.** The **8/4-data print** is the first that can.
+3. 🔴 **Also grade AMZN/AAPL AH (7/30) on the REGISTERED KB-VIO-126 conditions, not on move sizes.** ⚠️ **Condition 1 reversed this afternoon** — COR1M fell −29.6% to 8.43, so "both conditions MET" (sent to VULCAN/RED at 11:40) is **provisional and I have said so.** Hook closes 8/1.
+4. 🔴 **Fri 7/31 15:30 — COT (report-date 7/28).** Re-scoped: speaks to the FOMC leg, **not** the carry leg.
+5. 🔴 **Fri 7/31 — score KB-VIO-127 (Karsan).** The hold leg is gone (VIX 17.99). **My registered base case MISS is trending correct** — and I flagged its risk on 7/29 when it was against me.
+6. 🟠 **Wed 8/5 — the pre-registered grader.** SOQ >20.45. Grades my fade verdict · no-re-entry call · TERRY's forward-beta · HENRY's steelman. **Not** the exit rule.
+7. 🟠 **VEHICLE-SELECTION WORK — waiting on 8/5.** ⚠️ **Read TERRY's reply + `AGENTS/TERRY/options/TENOR_DISCIPLINE_PARTB_2026-07-17.md` BEFORE touching the panel.** Scope = **EVENT branch of rule 71 ONLY**; H-A/H-C off; **deliverable re-ranked — harvest-window parameterization FIRST.** Report distributions, **never a point estimate**.
+8. 🟠 **Paraphrase sweep — still open.** One registered hook had drifted and was scoring the opposite way; check the rest.
+9. 🟡 **HENRY: chase the 7/30 gamma flip** if it hasn't arrived — SPX is now only ~27–39pts below the 7/29 band, the fastest re-approach of the episode.
+10. 🟡 **LIQUID: issue-level HY breadth — 5th ask.** It matters more now: credit is carrying the escalation case **alone**.
 
 ---
 
 ## CARRY-FORWARD
 
-- **The vehicle lesson, corrected twice in one day.** Forward beta is **a FUNCTION OF TENOR** — own OLS, n=246: **0.274 @21–35 DTE · 0.505 @11–20 · 0.591 @≤10.** TERRY's original 0.28 was the *21–35* figure applied to a *≤10* position — the right number for the wrong tenor. **Carry it as `beta(tenor)`, never a scalar.** ⚠️ **I withdrew "a losing trade by construction": at ~0.6 the vehicle COULD convert a correct call and DID, transiently, then round-tripped UNHARVESTED.** Adopted TERRY's **NO_HARVEST_RULE** primary tag — every trigger required the move to go *further*; none fired on simply being in profit.
-- **⚠️ MY BIGGEST MISS OF THE DAY, and its shape.** I re-derived and caught five of my own errors — and the one I missed is the one I took on relay. **`finding_loadbearing_number_must_be_reproducible` did not fire because the number came from a trusted agent inside a well-argued packet.** That is the failure mode, not laziness.
-- **KB-VIO-144 stands in direction, repaired in reasoning, AGAINST me.** The post-event credit print answered my verdict's own named weakness: credit widened **on** the FOMC day, quality-sorted, IG flat, n=2 consecutive. **"Shared-surface-ALONE" is now partly wrong.** Direction survives because the independent set is still 1 confirm / 1 broken / 1 failed / 2 canaries — **not independent-LED.** ⚠️ **A right answer through a partly wrong premise is scored as such, not banked as a clean hit.**
-- **Two guards I built today FAILED ON FIRST RUN** — the canary agreement check false-positived on a retrospective note; the H3 backtest shipped with an inverted sign that produced a *tidy, believable* table. **Both were caught only by testing, and the sign error was caught only by a BASE RATE (85.9% of days) — never by the event table.** Promoted to auto-memory `finding_base_rate_the_instrument_before_its_event_table`.
-- **My flag collapsed a TERRY finding entirely.** Raised as *"flagged, not ruled"* (execution quality is TERRY's card); TERRY re-derived and its "Will beat me 5c both directions, n=2" went to **n=0** — both parties said "mid," the gap was purely 21 minutes of drift. **The division of labour worked; don't rule on another agent's card.**
-- **⚠️ I WAS READING COMMITS INSTEAD OF PACKETS.** Seven inbox items accumulated while I worked, and I had acted on TERRY's beta correction, fill-time and execution retraction **from its commit messages**. The packets carried more — including TERRY's full scoping reply, which **re-ranked my own deliverable and caught a scope over-generalization**. 🔑 **A commit message is a summary written for a different purpose; it is not the delivery.** Check the inbox before assuming a thread is closed.
-- **A counterparty ranked my deliverable better than I did.** I put the question I found most interesting first (tenor); TERRY put the one it could act on first (harvest-window parameterization). **Ask the consumer what they'd act on before choosing what to compute.**
-- **The fleet-infra monitor was stopped deliberately** at 12:20 — three consecutive notifications with no VIOLET dependency. Relevant cross-agent work arrives via inbox at boot, which is the designed path.
+- **🔑 THE DEFECT CLASS HAS A SIXTH FIELD NOW.** The v3.8 family is LEVEL + INSTRUMENT + MECHANISM + ESTIMATOR + SCOPE/WINDOW. Today adds: **a threshold needs a RECORD THAT CAN CHANGE ITS MIND.** Everything was measured correctly all day; only the *record* was frozen. **Ask of any write path: what would have to be true for this to be quiet *wrongly*?**
+- **⚠️ FOURTH GUARD TO FAIL ON ITS OWN FIRST RUN** (canary agreement check, H3 inverted sign, now the upsert). **That is no longer luck.** Rule: **build the guard, then run it against live data before committing.** Today it was caught *only* because the fix prints what it changes — a silent upsert would have shipped the regression.
+- **The silent direction outlives the loud one.** A wrong-but-alarming row gets challenged; a calm one is indistinguishable from no event. **This is FALCON's item-6 argument arriving independently from my own code hours after PROME appended it to my memory.** Same day, two agents, opposite mechanisms, identical failure signature.
+- **⚠️ SECOND INSTANCE OF ME ADVERTISING A DEFECT AS OPEN AFTER SOMEONE FIXED IT.** MEMORY.md carried *"fetch.py prints no data-date"* — PROME fixed it (`4eb65340`) **crediting my own defect report**, and I kept broadcasting it as open. **After KB-VIO-151 (a mechanism I called unbuilt that had been built for me).** A stale caveat wastes exactly as much of the next session as a stale "unbuilt," and **no freshness check can see either** — the file is fresh and internally consistent.
+- **Two agents independently hit search-index contamination on the same pre-decision day.** SAM's frozen pre-registration excluded it; I hit it without having read SAM's file. **A confident, fluent account of a scheduled event's outcome can be served before the event fires.** Routed to SAM/WALTER.
+- **I scored the JPY vector 3, not 5, on the day my own canary first fired** — because the vector measures *transmission* and the transmission didn't happen. **Flagged for adversarial review in both STATUS and the brief.** Incentive disclosed: flat either way.
+- **Read the OVX LEVEL, not the ratio.** State is FIRE and the ratio *rose* to 3.54 — **but OVX itself FELL 67.59 → 63.54.** The ratio moved because VIX fell harder. **My own script's "ratio artifact" caution, applying to my own broadcast.** Corrected to BRENT/HAWK before sending.
 
 ---
 
 ## OPEN HYPOTHESES (flagged, not actionable until tested)
 
-- **H3′ — NOW TESTED OUT OF SAMPLE, and it survives.** ~~timing claim~~ still FAILED (+0.5 td). The coverage/precision claim **replicates on 12 years / 58 untouched peaks**: basis **73.2% / 49-of-58** vs ratio **67.5% / 40-of-58**, fire rate stable. ⚠️ **Base rate is 48.5%**, so read it as **lift 1.51× vs 1.39×** — a real but modest edge, and in-sample precision was flattered. **EVIDENCED, NOT ADOPTED** — promote at the next thesis bump if it holds. → KB-VIO-159. *(The "structural data ceiling" I recorded was false → KB-VIO-158.)*
-- **H4 (new).** **Dispersion/implied-correlation is now measurable daily** (`implied_corr.py`, `IMPLIED_CORR.tsv`). Once ~40+ rows accumulate, test whether **COR1M changes lead VIX changes** at the index level. ⚠️ **The series cannot be backfilled** — yfinance has no daily history — so this is gated purely on elapsed time. **Do not attempt before ~September.**
-- **H5 (new, from the trade).** If forward beta rises with proximity to expiry, then **the optimal VIX-call-spread tenor for a dated catalyst is LONGER than the catalyst window, not matched to it** — you want the event inside the contract's life while beta is still climbing, not expiring into it. **Untested; it is the natural hypothesis for item 7 above.**
+- **H3′ — tested out of sample, survives, NOT adopted.** Timing claim FAILED (+0.5 td). Coverage/precision replicates on 3,069 untouched days / 58 peaks: basis **73.2% / 49-of-58** vs ratio **67.5% / 40-of-58**. ⚠️ Base rate 48.5% ⇒ **lift 1.51× vs 1.39× — better, not transformative.** **EVIDENCED, NOT ADOPTED.** → KB-VIO-159.
+- **H4 — implied-correlation lead test.** Gated purely on elapsed time (~40+ rows); `IMPLIED_CORR.tsv` **cannot be backfilled**. **Do not attempt before ~September.** 🆕 **Its first real signal arrived today and it went AGAINST my morning read** (COR1M −29.6%), which is a point in favour of the instrument.
+- **H5 — tenor.** If forward beta rises with proximity to expiry, the optimal VIX-call-spread tenor for a dated catalyst is **LONGER than the catalyst window**, not matched to it. Untested; natural hypothesis for the vehicle panel.
+- **🆕 H6 (from today).** **Does an intervention-driven FX vol spike EVER transmit to index vol, or only a positioning-driven one?** Today gives n=1 for "does not." `VX_TERM_HISTORY.tsv` + known MOF intervention dates (2022-09/10, 2024-04/05, 2024-07) would make this testable — **and it is the question that would tell me whether my own canary's fire is informative or an artifact.** Untested.
 
 ---
 
-*Closed out ~12:25 ET, re-closed ~12:55 after the VX-history work, and FINAL close ~14:00 after the vehicle pre-registration + inbox clear, deliberately BEFORE the 17:05 settle — Will-approved after I checked what that wait actually buys: only (iii) is gradeable tonight, (iv) is inapplicable on its own precondition, and (v) is impossible until the 7/31 FRED print. **I had been calling it "the settle re-grade," which overstated it; it is a data capture, and the armed background job does that without a live session.***
+*Closed out ~14:45 ET, market still open — deliberately, because the two things that would change the read (the 17:00 SKEW print and the ~22:30 BOJ) both land after any reasonable session end, and the settle capture is already armed. **Basis on every surface is TICK and labelled as such.***
