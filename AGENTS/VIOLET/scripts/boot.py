@@ -44,6 +44,11 @@ BOOT_SEQUENCE = [
     # CANARY_MAP staleness contract that went unenforced from v1.0 to 2026-07-28
     # and was breaching on five rows when finally audited by hand (built 7/30).
     ("CANARY_MAP staleness contract (built 7/30)", "canary_staleness.py", ["--quiet"], False),
+    # KB schema conformance. SCHEMA.tsv declared the KB's enums on 2026-04-12 and
+    # nothing ever checked them — write-back step 8 said "validate enums against
+    # SCHEMA.tsv", a ritual with no mechanism (KB-VIO-165). First run found 11
+    # violating rows, one unchallenged for 109 days.
+    ("KB schema conformance (built 7/30 PM)", "validate_workbook.py", ["--boot"], False),
 ]
 
 KEY_MARKERS = (
