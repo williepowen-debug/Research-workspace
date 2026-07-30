@@ -281,6 +281,31 @@ def check_stale_tick() -> str | None:
 
 FFWD_COLS = ("vix3m", "vix6m", "vvix", "skew")
 
+# (path relative to VIOLET_DIR, soft cap) — capped docs whose overflow rule is
+# "archive to archive/". A note asking a future session to remember the cap is
+# not a mechanism; this is (auto-memory finding_mechanize_the_cap_not_the_ritual).
+CAPPED_DOCS = (("MAINTENANCE.md", 300), ("STATUS.md", 250))
+
+
+def check_capped_docs() -> list[str]:
+    """Boot-time line-count check on VIOLET's self-capped documents. MAINTENANCE.md
+    carried a hand-written 'CAP REACHED — next session must archive first' banner
+    for two sessions and still breached to 315 lines; STATUS.md has its own
+    250-line cap in CLAUDE.md that nothing enforced either."""
+    out = []
+    for name, cap in CAPPED_DOCS:
+        f = VIOLET_DIR / name
+        if not f.exists():
+            continue
+        try:
+            n = sum(1 for _ in f.open())
+        except OSError:
+            continue
+        if n > cap:
+            out.append(f"CAP BREACH: {name} is {n} lines (cap ~{cap}) — "
+                       f"archive oldest entries to archive/ BEFORE appending")
+    return out
+
 
 def check_fillforward_contamination(scan_rows: int = 30) -> list[str]:
     """DETECTIVE half of the KB-VIO-139 guard (the preventive half lives in
@@ -485,6 +510,9 @@ def print_report(rep: dict):
     # this defect was FILED 7/28 and recurred 7/29 and 7/30 unfixed. An
     # un-invoked check is not a mechanism.
     for w in check_fillforward_contamination():
+        print(f"  ⚠️  {w}")
+
+    for w in check_capped_docs():
         print(f"  ⚠️  {w}")
 
     # Emit KEY_MARKERS lines for boot.py collapse mode
