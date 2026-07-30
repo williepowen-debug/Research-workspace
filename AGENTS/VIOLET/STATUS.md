@@ -25,7 +25,9 @@
 
 ---
 
-## ★ LIVE RISK CONTROLS — `TRY-VIOLET-VIXCS` — FORMAL 7/29-CLOSE GRADE
+## ★ RISK CONTROLS, FINAL RECORD — `TRY-VIOLET-VIXCS` **[CLOSED 7/30]** — the 7/29-close grade, retained
+
+> ✅ **Position CLOSED — these controls are the historical record, not live gates.** Retained because the calibration record outlives the position: **zero of the five ever tripped**, and the trade was ended by its dated mandate, not by a thesis kill. *(Header renamed 7/30 from "LIVE RISK CONTROLS" — `position_agreement_check.py` correctly flagged the old wording on its first LIVE→CLOSED exercise. The check was right; the surface was wrong.)*
 
 **(iii)–(v) are MINE and only I can grade them.** Position management is TERRY's card (`AGENTS/TERRY/setups/VIOLET_prefomc-vix-callspread_2026-07-26.md` §6); this is the **thesis-kill** layer. **Exit-morning brief delivered to TERRY 7/29 ~23:00 ET.**
 
@@ -141,20 +143,22 @@
 
 ## POSITION SNAPSHOT
 
-### 🔴 LIVE — `TRY-VIOLET-VIXCS` (VIOLET thesis · TERRY structure · Will-approved) — **EXITS TOMORROW**
+**ACTIVE POSITIONS: NONE.** ✅ *Verified with `position_agreement_check.py`, not asserted.*
+
+### ✅ CLOSED 2026-07-30 — `TRY-VIOLET-VIXCS` — realized **−$111.60 (−38.8%)** *(fill time ⚠️ UNESTABLISHED)*
 
 | Field | Value |
 |---|---|
-| **Structure** | **4× VIXW Aug-05 20C / 25C** call debit spread (5-wide, defined risk) |
-| **Fill** | 7/27 ~11:35 ET — long 20C $1.23 / short 25C $0.53 = **net debit $0.70** |
-| **At risk** | **$287.70 all-in** · **MAIN** book |
-| **Underlying we own** | the **8/5 VIX forward** — **~20.5 [EST]** at the 7/29 settle vs **~19.6 at fill** and the **20 long strike**. ⚠️ **First time through the strike.** |
-| **Thesis gate** | HENRY short-gamma — sign MET (N_eff ≥4); SPX now **138.85pts below the warn** = more loaded than ever |
-| **Management** | **TERRY's card §6** — 23-touch (monetize half) **never fired** (ep. high 20.88) · inversion (sell rest) **not fired on the index ratio** · **MANDATORY 7/30 exit regardless of P/L; no roll** |
-| **My layer** | the five stand-downs — **graded 7/29 close: ZERO tripped** (KB-VIO-143) |
-| **P/L** | **NOT MARKED HERE.** Post-close option quotes are the after-hours artifact; **TERRY marks the live chain at the open.** |
+| **Structure / fill** | **4× VIXW Aug-05 20C / 25C** debit spread · filled 7/27 ~11:35 ET @ **$0.70** net debit · **$287.70 at risk**, MAIN |
+| **Exit** | 7/30 **(time UNESTABLISHED ⚠️)** @ **$0.45 net credit** (20C 0.63 · 25C 0.18) → **+$176.10 returned** · card §6 **base branch (ii), the mandatory dated rule** |
+| **Realized** | 🔴 **−$111.60 = −38.8%** — **better than the registered base case, which was a 100% loss** |
+| **Strength triggers** | **All three graded, none fired:** VIX cash-session high **18.71** vs ≥23 · **VIX3M/VIX min 1.0888** on simultaneous 5m bars, never <1.0 · no spike ⇒ SKEW tell moot |
+| **My five stand-downs** | **ZERO tripped, start to finish** (7/29 close + 7/30 pre-open). **The position was never killed by a thesis guard — it was closed by the clock.** |
+| **★ Why it lost** | **The entry, not the exit.** VIX options settle on the **FORWARD**, beta ≈ **0.28** to spot at ~9 DTE. The FOMC delivered the exact event the card was built for (**VIX +13.45%, 17.45 → 20.88**) and the structure **still lost**: forward **19.6 → 18.82**, moneyness **deteriorated +2.0% → +6.3% OTM *after* the event we bought.** |
+| **My share, not TERRY's exculpation** | TERRY logs this as construction-axis, *"not a mark against VIOLET's vol read."* **The vol read was right and I decline the full pass.** VIX rose 13.45% and the trade lost 38.8% — **the Episode-17 lesson repeating, against my own registered Vehicle rule in `TRADE.md`.** I owned KB-VIO-129 (spot-vs-forward) *before* the fill and carried the forward on this dashboard throughout. **Endorsing a 9-DTE OTM structure into a 3-day window, knowing the instrument was the forward, is a vehicle-selection miss on my side.** → KB-VIO-154 |
+| **Pre-registered grader** | TERRY card 11.C, registered **before** the outcome: holding beat exiting **iff 8/5 VIX SOQ >20.45** (TERRY P≈20%). Exit was at fair two-sided price ⇒ **EV-neutral by construction**, so 8/5 does **not** grade the exit rule (needs n>1). **8/5 does grade: my fade verdict, my no-re-entry call, TERRY's forward-beta finding, HENRY's short-gamma steelman.** |
 
-**Invalidation was TIME, not price — and time is up tomorrow.** The thesis got its level and not its confirmation. **My exit-timing read is thesis-side only:** the overnight tape is **already +0.73% cash-equivalent**, KB-VIO-034's post-inversion base rate is **VIX −5.1% mean / falls in 68% of 5-day windows**, and at-the-money is **peak sensitivity** — so a morning give-back costs the most it possibly can. **Construction, order type and marks are TERRY's.**
+**Invalidation was TIME, not price.** The thesis got its level and never its confirmation — and the vehicle could not convert the level it did get. **No re-entry** (KB-VIO-144 fade verdict, unchanged and now with the tape behind it: VIX ~18.2 by mid-morning, −11.8%).
 
 ---
 
