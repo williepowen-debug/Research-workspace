@@ -160,3 +160,39 @@ BRENT's request: *"If Will stacks more than one, the combined escalation-side ma
 
 ---
 *Thesis owner BRENT — TERRY has not re-underwritten the diesel framework, only re-checked its published metrics against Friday's tape and applied construction judgement. Vehicle screening, structure, tenor, strikes, entry gates, the effective-N aggregate and the rotation proposal are TERRY's. Distillate-yield-by-name is an open question routed back to BRENT. All marks 7/24 close — barred from use at fill.*
+
+---
+
+## 🔄 2026-07-30 ~12:35 ET — NUMBERS SYNC (Will-directed, both windows). **Verdict moves CONDITIONAL → NO AT THIS PRICE.** Still unarmed, $0 moved.
+
+**The thesis and the trade moved in OPPOSITE directions since 7/26.**
+
+| | Card (7/24) | **Live 7/30 12:30 ET** | |
+|---|---|---|---|
+| **Diesel crack** (HO×42 − WTI) | $82.70 | **$90.30** | ✅ **+9.2%** |
+| WTI / Brent | 89.31 / 96.78 | **83.90 / 89.77** | **−6.1% / −7.2%** |
+| VLO | 302.50 | **308.08 (+2.24% today)** | ❌ **no pullback — it rose** |
+| VLO vs 1-yr high 314.80 | −3.9% | **−2.2%** | ❌ closer to the high |
+
+**★ The crack widened 9% INTO a 6–7% crude selloff** — product tightness, not a crude bid. **This is the thesis confirming on its own mechanism**, and it **partially undercuts my own §5**: I scored the diesel leg as sharing a de-escalation falsifier with the other three escalation legs (N_eff ≈ 1.5). **If the crack widens while crude falls, de-escalation does not automatically kill this leg** → **more independent than I credited.** ⚠️ n=1 and the window contained *both* directions (7/24-28 de-escalation selloff, 7/29 resumed-strike spike, 7/30 fade) — **suggestive, not established.** Clean de-escalation evidence would re-score §5; asked of BRENT.
+
+### 🔴 The no-chase line is BREACHED — VLO Jan-15-2027 360C/380C, live
+
+| Leg | Bid | Ask | Mark | Spread | OI |
+|---|---|---|---|---|---|
+| 360C | 18.30 | 21.10 | 19.70 | 14.2% | 392 |
+| 380C | 13.60 | 16.30 | 14.95 | 18.1% | 239 |
+
+**Net mid $4.75 = EXACTLY the §6 no-pay-above. Realistic fill (pay ask / hit bid) $7.50 = 58% through it.** Tradeable bracket $2.00–$7.50 on a $4.75 mid — **mid is not obtainable at that OI and those spreads.**
+
+**VERDICT: NO AT THIS PRICE.** The thesis strengthened; that is not a licence to pay through a pre-registered limit. Same logic as the ratified rule-#6 break test — *"the thesis is working"* is a **chase**, not a break, and the no-chase line is a **direct ratio calculation, not a proxy**, so nothing can refute it. It binds.
+
+### ⚠️ §5's lead recommendation — "ROTATE, don't stack" — is WITHDRAWN
+
+It assumed the **XLE 65C** had funding value. **It is now ~$112 (mark $0.56 ×2) against ~$455 cost, −75%; XLE $58.42 needs +11.3% in 62 DTE.** Rotating recovers **~$112 toward a $475+ structure** — it no longer funds anything. **"Rotate" has collapsed into "ADD," the option §5 argued against.** Closing the XLE 65C remains defensible on its own merits (worst-signed leg, zero diesel specificity, wrong part of the barrel) — **but it is now a separate decision, not a funding mechanism.**
+
+### Two things that reopen this
+1. **A genuine refiner pullback — VLO ~$280–290** puts structure #1 comfortably under $4.75 with the thesis intact.
+2. **Clean de-escalation evidence** that the crack holds → re-scores effective-N in the trade's favour.
+
+**The crack at $90.30 against a $70 invalidation means this thesis has MONTHS of room. There is no reason to buy it badly today.** Packet → BRENT (incl. the still-open **distillate-yield-by-name** ask, which could move structure #1 off VLO before price ever matters).
