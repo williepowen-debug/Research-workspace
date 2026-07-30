@@ -22,6 +22,7 @@ Checks:
   outbox_age             all staged outbox files (REQ-* >14d retry; drafts surfaced)
   registry_staleness     Tier-1 REGISTRY rows with Updated >14d
   registry_lag           REGISTRY date vs agent's last STATUS commit (board-lags-agents)
+  registry_self_lag      WALTER's own REGISTRY row vs WALTER STATUS.md header date
   liaison_enum           LIAISON files on disk (informational)
   delivered_but_unconsumed  inbox/WALTER/ handoff delivered but not moved to processed/ (>N days)
   written_but_undelivered   inbox/WALTER/ handoff committed-local but not on origin (git-derived)
@@ -138,6 +139,27 @@ def _registry_rows():
             m = re.search(r"\d{4}-\d{2}-\d{2}", row[i_up])
             updated = dt.date.fromisoformat(m.group(0)) if m else None
             yield agent, row[i_tier].strip(), updated
+
+
+def _registry_row(agent_name: str):
+    """Return (tier, updated_date|None) for one REGISTRY row, including WALTER self."""
+    with (WALTER / "REGISTRY.tsv").open(errors="replace") as f:
+        rdr = csv.reader(f, delimiter="\t")
+        header = next(rdr, [])
+        try:
+            i_up, i_tier, i_agent = (header.index("Updated"),
+                                     header.index("Tier"), header.index("Agent"))
+        except ValueError:
+            return None
+        for row in rdr:
+            if len(row) <= max(i_up, i_tier, i_agent):
+                continue
+            if row[i_agent].strip() != agent_name:
+                continue
+            m = re.search(r"\d{4}-\d{2}-\d{2}", row[i_up])
+            updated = dt.date.fromisoformat(m.group(0)) if m else None
+            return row[i_tier].strip(), updated
+    return None
 
 
 # ── version drift (reuse the dedicated module) ──────────────────────────────
@@ -395,6 +417,27 @@ def check_registry_lag():
     if not (active_lag or stale_quiet):
         out.append((INFO, "no registry rows lagging the agents' actual STATUS commits"))
     return out
+
+
+def check_registry_self_lag():
+    """WALTER is intentionally excluded from _registry_rows() so cross-agent
+    lag checks do not self-noise. This check covers the remaining blind spot:
+    WALTER's own REGISTRY row must not lag its STATUS.md header date silently."""
+    row = _registry_row("WALTER")
+    if row is None:
+        return [(MED, "WALTER missing from REGISTRY.tsv — self row absent")]
+    _tier, updated = row
+    if updated is None:
+        return [(LOW, "WALTER REGISTRY row has no parseable Updated date")]
+    status = _status_header_date("WALTER")
+    if status is None:
+        return [(LOW, "WALTER STATUS.md has no parseable Updated header — self-registry lag unchecked")]
+    lag = (status - updated).days
+    if lag >= 1:
+        sev = MED if lag >= 3 else LOW
+        return [(sev, f"WALTER: REGISTRY row {updated.isoformat()} < STATUS header "
+                      f"{status.isoformat()} (+{lag}d) → refresh WALTER self row at closeout")]
+    return [(INFO, "WALTER self REGISTRY row is current vs STATUS.md header")]
 
 
 # ── LIAISON files on disk (boot step 9 glob, informational) ─────────────────
@@ -1336,6 +1379,7 @@ CHECKS = [
     ("outbox_age", check_outbox_age),
     ("registry_staleness", check_registry_staleness),
     ("registry_lag", check_registry_lag),
+    ("registry_self_lag", check_registry_self_lag),
     ("liaison_enum", check_liaison_enum),
     ("delivered_but_unconsumed", check_delivered_but_unconsumed),
     ("written_but_undelivered", check_written_but_undelivered),
