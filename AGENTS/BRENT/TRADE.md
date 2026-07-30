@@ -107,7 +107,7 @@
 
 ## ⚑ PRE-REGISTERED — OFF-RAMP ROUND-TRIP PLAYBOOK (the down-tail; closure-regime rewrite of the dormant Phase-2 short, 2026-07-21)
 
-**Status: ⚪ ARMED-PASSIVE — pre-registered, NOT deployed; fires ONLY on a HARDENED off-ramp. RATIFIED by Will 7/21 (structure + max-loss + authority) → trigger day = one-line [Approve/No].** *(The old conditions — "reopening completes + P&I resumes + liners off Cape + locks toward STEO ~$79" — are RETIRED as written: unreachable from a formal-closure state. This section supersedes them so an off-ramp headline gets a fill proposal, not a scramble.)*
+**Status: ⚪ ARMED-PASSIVE — pre-registered, NOT deployed; fires ONLY on a HARDENED off-ramp. RATIFIED by Will 7/21 (structure + max-loss + authority) → trigger day = one-line [Approve/No].** **⚑ 7/29: Stage-A/B trigger RE-SPEC v2 ratified (#21b). ⚑ 7/30: HARVEST RULE + TENOR ratified (Option B) — tenor 60-90 → 21-35 DTE, three hard exit rules added where there were none. 🔴 ENTRY DEFECTS REMAIN KNOWINGLY OPEN by the same ruling — see '⚑ KNOWINGLY OPEN AFTER THE 7/30 RULING' below. THE PLAYBOOK IS NOT YET FUNCTIONAL END-TO-END.** *(The old conditions — "reopening completes + P&I resumes + liners off Cape + locks toward STEO ~$79" — are RETIRED as written: unreachable from a formal-closure state. This section supersedes them so an off-ramp headline gets a fill proposal, not a scramble.)*
 
 **Premise:** the $76→$92 move is ~100% reversible risk-premium — zero **CRUDE** barrels destroyed (v5.1 discriminator; ⚠️ **molecule-scoped 2026-07-30** — the qualifier is load-bearing here, because this playbook shorts **crude**: LNG has been in supply-loss since 3/24 and refined product since 7/27, and **neither of those losses is reversible by the off-ramp this playbook fires on**. A Hormuz de-escalation round-trips the crude premium; it does not restart Ras Laffan or un-shut Jazan. **Do not let product-side tightness argue you out of a crude short, and do not let a crude off-ramp argue you into shorting products.**). The Jun-17 MOU showed the shape: **−8%/wk on the announcement, curve flip, premium out before any barrel moves** (LESSONS #11/#16). From $92 the unwind target is ~**$75-78** (the structural-decoupling zone). Underneath, the flush setup is quietly rebuilding: rigs 452 → production lands Q4'26-Q1'27 (GS's de-escalation window), China imports −41.3% YoY, SPR exchange-returns due 2027.
 
@@ -165,7 +165,35 @@
 
 > **📌 OPEN, NOT CHANGED — flagged for a separate ruling, deliberately NOT silently fixed:** the war-risk leg says *"halves"* **without naming an anchor.** From today's spiked Hormuz AWRP of **7.5-10% of hull**, "halving" lands at **~4-5% — still 20-50× the ~0.1-0.2% pre-crisis baseline.** So "halves" can be satisfied while the strait remains, in insurance terms, a war zone. **That is a THRESHOLD-strength question, not a window question, so it is out of scope for the (b) ratification and stays as-written until ruled.** Candidate replacement when ruled: *"war-risk falls below 2.5% of hull"* (an absolute level, frozen, no percentile) rather than a relative halving off a moving spike — `[[finding_threshold_level_is_a_measurement_not_a_constant]]`.
 
-**Vehicle / structure:** **USO bear put spread** — NEVER outright puts (OVX 60+ = maximum vol-crush on the de-escalation day itself; LESSONS #15). 60-90 DTE; long ~5-10% OTM / short ~15% OTM; ~3:1 R:R; **defined risk ~$500 max-loss.** Execute within ~48h of the hardened trigger (LESSONS #15); strikes/premiums from a **live chain at fire** (`[[finding_option_marks_need_live_chain]]`).
+**Vehicle / structure — ⚑ TENOR RE-SPECCED, WILL-RATIFIED 2026-07-30 (Option B):** **USO bear put spread** — NEVER outright puts (OVX 60+ = maximum vol-crush on the de-escalation day itself; LESSONS #15). **21–35 DTE** *(was **60–90 DTE** — retired 7/30)*; long ~5-10% OTM / short ~15% OTM; ~3:1 R:R; **defined risk ~$500 max-loss.** Execute within ~48h of the hardened trigger (LESSONS #15); strikes/premiums from a **live chain at fire** (`[[finding_option_marks_need_live_chain]]`).
+> **Why the tenor moved:** the one qualifying historical move had a **9-session life** and had **fully round-tripped by day 20** (trough −8.1% at day 9 → −2.4% at day 15 → **+8.8% at day 17 → +13.1% at day 20**). **A 60-90 DTE structure held to expiry gives back the entire move.** ⚠️ **Cost accepted deliberately: 21-35 DTE carries more theta and more gamma risk.** That is the correct trade — the tenor mismatch cost more than theta will, and the harvest rule below now caps the holding period *inside* the tenor anyway.
+
+### 🔻🔻 HARVEST RULE — **NEW, MANDATORY, WILL-RATIFIED 2026-07-30 (Option B). THE PLAYBOOK PREVIOUSLY HAD NO EXIT RULE OF ANY KIND.**
+
+**All three are hard rules, not guidance. Whichever fires first, governs.**
+
+| # | Rule | Basis |
+|---|---|---|
+| **H1** | **HARD TIME STOP — exit in full no later than 8 TRADING SESSIONS after entry, regardless of P&L.** | Trough was at **7 sessions after entry**; a stop at 8 captured **−7.8% of the −8.1% maximum = 96% of the available move.** |
+| **H2** | **PROFIT TARGET — take ≥ HALF off at −7.0% on Brent from entry.** | Locks the bulk of the move at the point the historical case was near its low, without needing to call the exact bottom. |
+| **H3** | **STOP — exit in FULL on any close back ABOVE the entry level.** | The round-trip has begun. In the historical case the move went from −2.4% (day 15) to **+13.1% (day 20)** — the reversal was fast and did not give a second chance. |
+
+**★ WHY THIS WAS THE HIGHEST-VALUE FIX, stated plainly: the one historical case was WON BY DAY 9 AND LOST BY BEING HELD.** The entry was never the thing that cost money. `[[finding_profit_zone_needs_its_own_harvest_rule]]` — *if every trigger requires the move to go FURTHER, nothing fires when you are merely in profit* — was already in my memory and this playbook was written without one anyway.
+
+**⚠️ CALIBRATION LIMIT, ON THE RECORD: H1/H2 are calibrated on n=1** — one qualifying event in the whole sample. **H1 is the rule I would defend hardest at n=1**, because it does not try to find the top; it only refuses to hold past a known reversal zone. If it is wrong it costs upside, not capital. **H2 and H3 are more fittable and should be re-examined after any real fire.**
+
+---
+
+### 🔴 KNOWINGLY OPEN AFTER THE 7/30 RULING — **ENTRY WAS NOT FIXED, AND THAT WAS THE DECISION, NOT AN OVERSIGHT**
+
+Will ruled **Option B (harvest + tenor only)** on 2026-07-30. **Stage A entry is therefore UNCHANGED and still carries all three entry defects.** Recording them here so this playbook never reads as "ready":
+
+1. **🟠 The STNG leg remains a mandatory veto, and it is non-discriminating** — tankers ROSE on **both** observed analogues (Apr-17 +3.9%; Jun-17 +2.6%/+5.0%), so it has **blocked 2 of 2**. *In fairness: blocking Apr-17 was the right outcome — but by accident, because it blocks everything.*
+2. **🟠 The transit leg (>35/day ×2 sessions) contradicts LESSONS #11** (*"the crash triggers at ANNOUNCEMENT, not delivery — waiting for barrels means missing 80% of the move"*). On Jun-17 transits were **dark** and a crude short still won **−9.7% by day 10**.
+3. **🟠 The 2-day follow-through discriminator was NOT adopted** — the rule that separated the two analogues **2-for-2** (Apr-17 day+2 **+9.0%** BLOCK · Jun-17 day+2 **−2.1%** FIRE, robust across every threshold from −2% to +8%).
+
+> **⚠️⚠️ THE INTERACTION THAT MATTERS MOST, AND IT MUST NOT BE BURIED: the harvest rule governs the exit of a trade that, under the unchanged entry spec, MAY NOT BE ENTERABLE.** The STNG veto blocked both observed analogues. **So Option B fixes what happens after a fire, on a gate that has not yet permitted one.** *(Stated precisely, not dramatised: with zero true positives in the sample it is unknown whether a genuine physical reopening would crush tanker rates and release the veto — it might. But on the evidence that exists, entry is the binding constraint and it is still open.)*
+> **⇒ This is not an argument that B was wrong — B captures the money whenever a fire does happen, and it was the correct single step. It is a flag that the playbook is still not functional END-TO-END, and the remaining decision is a live one.** Options A and C from the proposal remain on the table: `setups/2026-07-30_offramp-stageA-v3-tanker-question-PROPOSAL.md`.
 **Sizing modifier (COT-conditioned):** if the squeeze fuel is SPENT by then (cumulative MM gross-short cover ≥−25K off the 129,072 base) → the flush has less covering-bid cushion → fuller size within the cap; if fuel largely intact (~119K standing) → covering slows the flush → smaller/wider structure.
 
 **Interaction with the convex arm: mutually exclusive.** A hardened off-ramp IS the up-arm's disarm condition — it auto-disarms, this arms. The two are never live simultaneously.

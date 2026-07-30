@@ -1,6 +1,6 @@
 # THE TANKER QUESTION — OFF-RAMP **STAGE A v3** · **PROPOSAL FOR WILL'S [APPROVE / NO]**
 
-**Author:** BRENT · 2026-07-30 ~5:10 PM ET · **Status:** ⏳ AWAITING RULING
+**Author:** BRENT · 2026-07-30 ~5:10 PM ET · **Status:** ✅ **RULED 2026-07-30 — WILL APPROVED OPTION B** (harvest + tenor only; entry left as-is). **Implemented same session** in `TRADE.md`: tenor **60-90 → 21-35 DTE**, and a new mandatory **HARVEST RULE** (H1 hard time stop 8 sessions after entry · H2 take ≥half at −7% · H3 exit in full on any close back above entry). ⚠️ **Options A and C remain LIVE and unruled — entry defects ②③④ are KNOWINGLY OPEN by decision, not oversight**, and are recorded as such in `TRADE.md` so the playbook never reads as ready. **Flagged with the ruling: the harvest rule governs the exit of a trade that, under the unchanged entry spec, may not be enterable — the STNG veto blocked 2 of 2 observed analogues.**
 **Governs:** off-ramp round-trip playbook **Stage A (entry)** + **structure/tenor** (`TRADE.md`). Stage B persistence (ratified 7/29) is **untouched**.
 **Frozen constants only.** *Investigating the tanker leg turned up three defects behind it, and the tanker leg is the least serious of them.*
 
