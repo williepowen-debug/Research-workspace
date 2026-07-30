@@ -1,4 +1,7 @@
-# FALCON SCRATCH — 2026-07-30 Thu **CLOSED** (Will-requested boot + news integration → a marks session AND a correction session)
+# FALCON SCRATCH — 2026-07-30 Thu **SESSION CLOSED ~15:00 ET** (boot + news → marks · correction · staleness sweep · inbox drain — four increments)
+
+> **CLOSEOUT VERIFIED:** falsification **thesis-kill 0/7, NOTHING FIRED** (checked against the rail rewritten this session) · settle-clock **NONE LIVE → step 12b no-op** · marks **consistent across all four canonical surfaces** · both mail lanes **DRAINED** · strike ledger **swept through 7/30** · state-token sweep **clean** (one live catch: `FRESH_LEG_BASELINE` row 2 carried a stale newest-print, 7/19=15/88 → corrected to 7/23=10/88).
+> ⚠️ **ONE ALERT LEFT DELIBERATELY FIRING:** `WARRISK.tsv` reads **⚠️ STALE +8d** at the 7-day gate. **That is the gate working, not a defect** — the Marsh/Platts 7/22 figure is genuinely 8 days old and **I re-pulled today and confirmed no newer primary exists.** Per this file's own rule I did **NOT** advance the data clock and did **NOT** widen `--days` to silence it; the third `Last re-pull ATTEMPTED` clock records the check. **It will keep firing until Marsh publishes — that is correct.** Re-pull due **8/3**.
 
 **Purpose:** Ephemeral session handoff — read at boot (step 2), rewritten at closeout (step 13). Durable learnings → `MEMORY.md`; cross-agent twin → `NEXUS_BRIEF.md`.
 
