@@ -77,9 +77,12 @@ Before ending, complete in order:
 - [ ] **Bank STATUS files** (WAL/) — update if WAL-specific work was done (skip if not). OZK is now a top-level peer agent at `../OZK/` — REGINALD no longer owns OZK/STATUS.md.
 - [ ] **Thesis drift-grep** (per Orchestrator audit 6/8; hardened to class-fix 6/8 PM): run on **any thesis-level change — a version bump (vX.Y/vX.Y.Z), a framing/claim retirement, or an EV/PT/probability change** (the trigger is NOT version-bump-only: the 6/8 PM cohort-Hyp-A resolution had no bump yet still left stale stragglers). **Recursively grep your own agent dir — not a hand-enumerated file list** (enumerating re-commits the instance-not-class error: the next sub-entity file — BROCK-style per-fund, a future spinout, a new workbook doc — slips identically until someone hand-adds it). Sweep three things: the **old value** (lingering anywhere), the **new value** (confirm it landed everywhere), and the **version label** (anything not bumped — this is how ../WAL/STATUS.md sat a full version behind, caught 6/8 PM):
   ```
-  grep -rn "68.93"  AGENTS/REGINALD/   # old value still present?
-  grep -rn "73.92"  AGENTS/REGINALD/   # new value landed everywhere it should?
-  grep -rn "v2.2"   AGENTS/REGINALD/   # stale version label (current WAL thesis = v2.3, 7/25)
+  # ⚠️ EXAMPLE ONLY, and the example itself went stale — kept because the METHOD is the point, not these tokens.
+  # Post-WAL-cutover (7/25) the WAL thesis version + EV are **../WAL/-owned**; a REGINALD session should NOT
+  # be sweeping for them. Substitute whatever value YOUR session moved. (Corrected 2026-07-30 sweep.)
+  grep -rn "<OLD VALUE>" AGENTS/REGINALD/   # old value still present?
+  grep -rn "<NEW VALUE>" AGENTS/REGINALD/   # new value landed everywhere it should?
+  grep -rn "<VERSION>"   AGENTS/REGINALD/   # stale version label anywhere?
   ```
   Eyeball every hit — the extra hits are intended-historical mentions (the "PRIOR 6/8 AM" notes), and consciously clearing each is the point, not noise to suppress (you demonstrated 6/8 PM you can tell stragglers from historical framing). Recursive = zero upkeep + catches files that don't exist yet. Catches denominator drift (14/15/19% overvaluation), probability drift (60/55→70/75 PREDICTIONS), framing-stragglers (cohort "AMBIGUOUS" rows post-Hyp-A — surface fixes miss ~30% per [[finding_verification_correction_downstream_propagation]]), and stale version labels. Two-three greps, one minute, durable.
 - [ ] **thesis/CHANGELOG.md** — update if THESIS.md or TIMELINE.md was modified this session (skip if not)
@@ -258,7 +261,7 @@ Metropolitan Capital failed with 61% true CRE (labeled 10.7%). Three masking lev
 | WAL | <$78 | Hidden CRE thesis accelerating |
 | Claims (from LABOR) | >300K | All ORANGE → RED |
 | Office CMBS **DQ** (not SS — basis note in STATUS) | >15% | CRE transmission accelerating |
-| HY OAS (from LIQUID) | >320bps | Credit transmission confirmed |
+| HY OAS (from LIQUID) | >320bps | Credit transmission confirmed — ⚠️ **QUALIFIED 2026-07-30: a wide HY print is NOT self-evidently bank transmission.** The 7/27-29 HY move sustained 3-of-3 over 280 with **zero** bank participation (IG +3bp, bank preferreds +0.34%, BKLN 0.00%) — cause was the FOMC/rates leg. **HY sits DOWNSTREAM of bank credit in my chain; before treating any HY level as confirmation, run the bank-credit cross-check** (`reports/2026-07-30_bank-side-HY-attribution.md`). Level >320 UNCHANGED. |
 
 ---
 

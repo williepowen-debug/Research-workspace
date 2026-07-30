@@ -2,6 +2,13 @@
 
 > ⚠️ **STALE-VINTAGE — 2026-02-23 (~4.5mo, pre-earnings). Canonical scores live in `STATUS.md` §Convergence Matrix.** Do NOT cite the scores/prices below as current — the Matrix tables here disagree with STATUS AND with each other (EGBN 11 vs 12, CFG 8 vs 9, ZION 6 vs 9; OZK absent entirely). Canonical: **EGBN 20, WAL 20, CFG 15, ZION ~8-9, OZK 13, SSB 11, FLG 8.** The MI3/hidden-CRE ratios (OZK 37.6% / WAL 24.2% / EGBN 23.7%) DO still hold. **Full re-score scheduled post-Jul-21 print** (flagged 2026-07-10 audit).
 
+>
+> ⚠️⚠️ **DATED CONTRADICTION — 2026-07-30 sweep. `EGBN` CRE-concentration appears TWICE IN THIS FILE AT TWO DIFFERENT VALUES: **497%** (§Regulatory Concentration table) and **547%** (§scoring table, score-11 row). Same entity, same metric, ~50pp apart. **NEITHER IS CLEAN — do not pick one.** Both rows are marked inline.
+> **Compounding it, the denominator is ambiguous in the same table:** the section header cites **SR 07-1**, whose 300% threshold is CRE ÷ **total risk-based capital**, while the column header reads **"CRE/Tier 1"** — Tier 1 is the *smaller* denominator, so the column over-states concentration relative to the standard it cites (~10-20%).
+> **For scale: EGBN's own Q2-2026 disclosure puts CRE concentration at 267.6%** (down from 295.1%) — i.e. *below* the 300% line, against 497%/547% here. Vintage (non-OO CRE −34% YoY) does most of that gap; the denominator wrinkle does the rest.
+> **Live guidance until the re-score lands: cite EGBN 267.6% [EGBN Q2-2026 primary, graded 7/25] — NOT any number in this file.**
+> **The full re-score (denominator stated per row + the internal inconsistency resolved) is PARKED with PROME as a flagged item with an owner** — this banner is deliberately a *warning, not a fix*, and it carries its own rewrite trigger: **resolve at the next REGINALD build session** ([[finding_banner_is_a_warning_not_a_fix]]). Found by PROME 7/25 at source; bannered 7/30.
+
 *Cross-referencing regional banks against the 8 KRE convergence channels + Municipal/Geographic stress*
 
 **Last Updated:** 2026-02-23 13:50 UTC
@@ -56,7 +63,7 @@
 **Regulatory Concentration (SR 07-1 — 300% threshold):**
 | Bank | CRE/Tier 1 | Construction/Tier 1 | Status |
 |------|------------|---------------------|--------|
-| EGBN | **497%** | 102% | 🔴 Both breached |
+| EGBN | **497%** ⚠️**[CONTRADICTED — see banner]** | 102% | 🔴 Both breached |
 | WAL | **474%** | 76% | 🔴 CRE breached |
 | OZK | **415%** | **142%** | 🔴 Both breached |
 
@@ -270,7 +277,7 @@ This **COMPOUNDS** the FL insurance doom loop — same borrowers hit by both:
 
 | Bank | Ticker | CRE | NDFI | DC | BDC | CONS | FHLB | GEO | MUNI | Score | Notes |
 |------|--------|-----|------|-----|-----|------|------|-----|------|-------|-------|
-| **Eagle Bancorp** | EGBN | 🔴 547% | ⬜ | 🔴 100% | ⬜ | ⬜ | 🟡 6.9% liq | 🔴 DC | 🟠 DC Muni | **11** | "Value Trap" — $140.8M NCOs Q3, taking pain |
+| **Eagle Bancorp** | EGBN | 🔴 547% ⚠️**[CONTRADICTED — see banner]** | ⬜ | 🔴 100% | ⬜ | ⬜ | 🟡 6.9% liq | 🔴 DC | 🟠 DC Muni | **11** | "Value Trap" — $140.8M NCOs Q3, taking pain |
 | **Western Alliance** | WAL | 🔴 **474%** | 🟡 8% ex-mort | ⬜ | 🟠 Fund Banking | ⬜ | 🟠 5.63% | ⬜ | 🟠 $1.36B unrated | **12** | 🚨 **$3.0B hidden CRE** + 24.2% Memo3/C&I GROWING + Cantor $98M |
 | **Valley National** | VLY | 🟠 475% | ⬜ | ⬜ | 🟠 $85M | 🟡 9.3% | 🟡 4.10% | 🔴 FL $7.4B | ⬜ | **9** | FL CRE = 28% of book. Snowbird concentration |
 | **Citizens Financial** | CFG | ⬜ | ⬜ | 🟡 Moderate | 🔴 $10-11B | 🟠 18.7% | 🟠 5.10% | 🟡 FL/CA | ⬜ | **8** | Major fund finance + consumer + FHLB |
