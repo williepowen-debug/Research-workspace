@@ -23,11 +23,16 @@ Notes / known limits (READ THESE — rule #4, finding_option_marks_need_live_cha
   spot as-of, and each row's lastTradeDate, and WARNS when the freshest trade in
   the displayed set is not "today". Re-confirm live broker marks before any fill.
 - Short ~120s cache by default; use --no-cache at fire-time for a guaranteed live pull.
+- yfinance lives in the repo market-data venv, not base python. This script
+  SELF-HEALS (re-execs under .venv) so the bare `python3 ...` invocations above
+  and in CLAUDE.md BOOT 11-13 work as documented. If the venv is missing it
+  fails LOUD with the fix, never a raw ModuleNotFoundError traceback.
 """
 from __future__ import annotations
 
 import argparse
 import json
+import os
 import sys
 import time
 from datetime import datetime, timezone
@@ -36,6 +41,53 @@ from pathlib import Path
 SCRIPTS_DIR = Path(__file__).resolve().parent
 CACHE_DIR = SCRIPTS_DIR / ".cache"
 CACHE_TTL = 120  # seconds; chains move — short TTL, bypass with --no-cache
+VENV_PY = SCRIPTS_DIR.parents[2] / ".venv" / "bin" / "python3"
+
+
+def _ensure_deps_or_reexec() -> None:
+    """venv self-heal — same pattern as paper_book_mark.py's _ensure_deps_or_reexec
+    (adopted 2026-07-20), ported here 2026-07-30 after a bare
+    `python3 ... chain_fetch.py TLT 2026-09-30 --type put` died on
+    ModuleNotFoundError: yfinance at a live desk boot.
+
+    yfinance lives in the repo market-data venv, not base python, so every
+    invocation form documented in this file's own Examples block and in
+    CLAUDE.md BOOT 11-13 was broken. If deps are missing AND the venv exists,
+    re-exec this same command under it so the pull 'just works' regardless of
+    how it was invoked.
+
+    DIVERGENCE FROM paper_book_mark.py, deliberate: that tool degrades to
+    UNMARKED when the self-heal cannot run, because a missing mark is a valid
+    (and safe) output for a shadow book. This tool has no safe degraded output
+    — it exists only to return live marks — so when the heal is unavailable it
+    exits NON-ZERO with the fix on screen. A fire-time tool must never fail as
+    a raw traceback, and must never return anything a caller could mistake for
+    a chain (finding_fail_loud_on_incomplete_data; RISK_RULES Non-Negotiable #3).
+
+    Not called on --selftest: that path is fully offline and never imports
+    yfinance, so it stays runnable on base python.
+    """
+    try:
+        import yfinance  # noqa: F401  # deps present -> nothing to do
+        return
+    except ModuleNotFoundError:
+        pass
+    # NB: do NOT gate on sys.executable != VENV_PY — the venv's python3 is a
+    # symlink to the system python, so .resolve() collapses them and the guard
+    # would falsely block re-exec. The env flag is the loop-breaker.
+    if not os.environ.get("_CF_VENV_REEXEC") and VENV_PY.exists():
+        os.environ["_CF_VENV_REEXEC"] = "1"
+        os.execv(str(VENV_PY), [str(VENV_PY), *sys.argv])
+    already = " (re-exec under the venv already tried)" if os.environ.get("_CF_VENV_REEXEC") else ""
+    print(
+        f"FATAL: yfinance is not importable, so NO live chain can be fetched{already}.\n"
+        f"  Expected venv: {VENV_PY} (exists={VENV_PY.exists()})\n"
+        f"  Fix: {VENV_PY} -m pip install yfinance\n"
+        "  No chain is printed and no marks are emitted — re-confirm broker marks "
+        "directly before any fill (rule #4).",
+        file=sys.stderr,
+    )
+    raise SystemExit(2)
 
 
 # ---------------------------------------------------------------------------
@@ -334,9 +386,10 @@ def main():
     ap.add_argument("--selftest", action="store_true")
     args = ap.parse_args()
     if args.selftest:
-        return selftest()
+        return selftest()          # offline — stays runnable on base python
     if not args.ticker:
         ap.error("ticker required unless --selftest")
+    _ensure_deps_or_reexec()       # venv self-heal before ANY live fetch
     return run(args)
 
 
