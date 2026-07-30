@@ -30,20 +30,7 @@
 
 ---
 
-## 2026-07-10 — Core-files staleness sweep + triaged remediation
-
-**Noticed during the session:**
-- **PAT-043 in the wild.** The audit's headline — live thesis in STATUS, thesis-of-record fossilized — is exactly decay-from-the-durable-end. The tell: refresh loops touch STATUS because it's convenient mid-session; THESIS/TIMELINE/INDEX/MATRIX only move on a deliberate rewrite that never gets scheduled. Banner-guard is the cheap interim; the real fix is *scheduling* the rewrite (post-7/21).
-- **The two-clock header silences its own nag.** Adding a STALE-VINTAGE header to KB/FLOW resets the git-commit-time the staleness script keys on → boot-7a stops flagging them. Caught it before committing; moved the refresh-debt to a ROADMAP thread so it's not lost. The human-readable "Last real data refresh" date is the honest artifact, but you MUST re-home the auto-nag or it vanishes (PAT-044 laundering).
-- **CCC/HY quietly walked back to the tripwire line.** 3.49× [6/24] → 3.61× [7/9], AT the 3.6× line, ARMED 1-of-3. But the driver is HY compression (270 vs 276 6/24), not a CCC blowout — a denominator-shrink move, beta-ish, not tail-substance. Don't over-read the single close. *(RESOLVED 7/17: it went on to complete the 3-consec fire 7/13 then reset 7/14 — graded beta/benign per the decomp rule, no escalation. See 7/17 section + VX.tsv.)*
-
-**Threads carried (ROADMAP):** post-Jul-21 thesis-of-record rewrite (bucket 2) + KB reconstruction (bucket 3); VX-REG-18.04 X1-root reframe; inbox (2 PROME + 5 WALTER) not processed.
-
----
-
-*(6/25 section pruned 2026-07-17 — >3wk; tripwire def promoted to research/CCC_HY_TRIPWIRE + VX row; Q2 grid/axis-split live in research/Q2_* files + grading frame; un-done leftovers [ZION 6/30 AOCI re-pull, boot.py consec-counter] promoted to ROADMAP backlog.)*
-
-*(6/22 section pruned 2026-07-17; 6/20 + 6/19 pruned 2026-07-10 — >2wk, substance in ROADMAP Recently Resolved / MEMORY Findings.)*
+*(7/10 section pruned 2026-07-30 — >2wk. ★ NOT a routine prune: its "the two-clock header silences its own nag" note was **promoted to MEMORY lesson 14** after the 7/30 sweep proved it live at +119d on VX.tsv. It had sat here unpromoted for 20 days. Threads it carried are in ROADMAP.)*
 
 ## TEMPLATE FOR FUTURE DAYS
 
