@@ -1,5 +1,5 @@
 # DRAFT — HEARTBEAT AMENDMENT #4 — 2026-07-29 ~23:15 ET
-**Status: DRAFT, NOT APPLIED. Will approval required before this text enters `HEARTBEAT.md` (shared-doc gate).**
+**Status: ★ APPLIED 2026-07-29 ~23:40 ET — Will approved in-session ("1. yes"); amendment + dashboard-delta block inserted into `HEARTBEAT.md` after Amendment #3. This file is the archived draft/audit trail.**
 **Drafted by PROME during the 7/29 night wave (4 of 7 spawned grades still in-flight: VIOLET stand-downs · RED-20 · HENRY HEN-36/T-16 · SAM BOJ pre-reg — every in-flight item is marked as such below and asserted nowhere as delivered).**
 
 ---
