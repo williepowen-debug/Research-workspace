@@ -121,6 +121,7 @@ You learn like a domain agent — by accruing a structured record — but of *de
 | `PATTERNS.tsv` | Design lessons & anti-patterns, sourced + dated. Your learning engine — get smarter here over time. |
 | `EVOLUTION.md` | Architecture changelog + roadmap. What changed in the standard, why, where it's heading. |
 | `FLEET_MAP.tsv` | One row/agent: class, maturity level, build history, deviations + why. The persisted maturity map. **References ROSTER's active/dormant call — never restates it.** |
+| `SURFACES.tsv` | One row per **shared NON-AGENT surface** (FORGE, BOARD, HEARTBEAT, `scripts/`, …): owner · owner-provenance · enforcing mechanism · state · gap. **Not FLEET_MAP and not a substitute for it — surfaces are not agents, so they get no class and no maturity level.** Created 2026-07-30 as the PAT-071 fix-form: everything load-bearing outside `AGENTS/<NAME>/` is outside every AGENTS-scoped enforcer, so it needs an assigned owner and an explicitly-taught path. ⚠️ **Never add a surface to `FLEET_MAP`** — `render_directory.py`'s co-registration guard dies on an entry absent from ROSTER, and that guard exists precisely to catch a non-agent masquerading as one. |
 | `FLEET_DIRECTORY.md` | **GENERATED** readable at-a-glance map (Job #3 deliverable): per agent — what it is, does, active?, missing/next. Joins `ROSTER` (does/status) + `FLEET_MAP` (class/level/missing) via `scripts/render_directory.py`. **DO NOT hand-edit** — edit the sources, regenerate. |
 | `profiles/<AGENT>.md` | DAEDALUS's durable **comprehension** of a heavy agent — file anatomy, where richness lives, per-dimension local form, do-not-touch quirks. The understanding layer section-tasks read from. |
 | `upgrades/<AGENT>_CARD.md` | Per-agent section-by-section upgrade work queue (graded vs the blueprint). |
@@ -148,6 +149,7 @@ You learn like a domain agent — by accruing a structured record — but of *de
 | `EVOLUTION.md` | Architecture changelog + roadmap. |
 | `FLEET_MAP.tsv` | Per-agent class + maturity + history. |
 | `FLEET_DIRECTORY.md` | **GENERATED** readable directory (what each agent is/does/active?/missing) — `scripts/render_directory.py` joins ROSTER + FLEET_MAP. DO NOT hand-edit; regenerate. Refreshed each Production Review. |
+| `SURFACES.tsv` | Shared **non-agent** surfaces + owner + enforcing mechanism + gap (PAT-071). See MEMORY MODEL. |
 | `sweeps/` | Recurring-maintenance registry (`REGISTRY.tsv`, canonical cadence data) + per-sweep playbooks (`STALENESS_SWEEP.md`, …); boot cadence-checked via `scripts/sweeps_due.py`. |
 | `UPGRADE_PROTOCOL.md` | The comprehend→decompose→section-task method (Job 3b machinery). |
 | `builds/` | Build/promotion specs + `REGISTRATION_CHECKLIST.md` (canonical lifecycle surface list). |

@@ -1,6 +1,6 @@
 # FLEET DIRECTORY — what every agent is, does, and is missing
 
-> **GENERATED — DO NOT EDIT.** Rendered from `PROME/ROSTER.md` (existence · domain · status) + `AGENTS/DAEDALUS/FLEET_MAP.tsv` (class · maturity · missing/next) by `AGENTS/DAEDALUS/scripts/render_directory.py`. Edit the **sources**, then regenerate — hand-edits are overwritten. Generated 2026-07-28.
+> **GENERATED — DO NOT EDIT.** Rendered from `PROME/ROSTER.md` (existence · domain · status) + `AGENTS/DAEDALUS/FLEET_MAP.tsv` (class · maturity · missing/next) by `AGENTS/DAEDALUS/scripts/render_directory.py`. Edit the **sources**, then regenerate — hand-edits are overwritten. Generated 2026-07-30.
 
 *One source of truth per column (PAT-006): **what it does** + **status** ← ROSTER (PROME); **class** + **maturity level** + **missing/next** ← FLEET_MAP (DAEDALUS). "Missing / next" is a truncated one-liner — full gap detail in `FLEET_MAP.tsv` + `upgrades/<AGENT>_CARD.md`. Dormant agents are un-graded → blank grade cells. PROME graded 2026-07-28 (Will-ratified, judgment-read only — the scripted floor cannot see a root-level agent).*
 
@@ -60,7 +60,7 @@
 | Agent | Class | Lvl | What it does | Missing / next |
 |---|---|---|---|---|
 | DAEDALUS | Meta | L4 | Fleet architect — design / structure / maturity / lifecycle | L5 at first ON-CADENCE review cycle w/ self-scope clean |
-| YEYOU | Utility | L2 | Repo-wide reviewer (manual / branch model) | CONTRACT block + clear OpenClaw/GLM + dangling-ref stale cluster (apply… |
+| YEYOU | Utility | L2 | Repo-wide reviewer (manual / branch model) | Will sets DEFAULT watermark at origin/master |
 
 ---
 *30 active · 4 tier-2 · 2 dormant · 2 special. Dropped (retired): HERMES. Regenerated each Production Review — `sweeps/PRODUCTION_REVIEW.md`.*
