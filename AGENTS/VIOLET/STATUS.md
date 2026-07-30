@@ -147,12 +147,12 @@
 
 **ACTIVE POSITIONS: NONE.** ✅ *Verified with `position_agreement_check.py`, not asserted.*
 
-### ✅ CLOSED 2026-07-30 — `TRY-VIOLET-VIXCS` — realized **−$111.60 (−38.8%)** *(fill time ⚠️ UNESTABLISHED)*
+### ✅ CLOSED 2026-07-30 ~09:50 ET — `TRY-VIOLET-VIXCS` — realized **−$111.60 (−38.8%)**
 
 | Field | Value |
 |---|---|
 | **Structure / fill** | **4× VIXW Aug-05 20C / 25C** debit spread · filled 7/27 ~11:35 ET @ **$0.70** net debit · **$287.70 at risk**, MAIN |
-| **Exit** | 7/30 **(time UNESTABLISHED ⚠️)** @ **$0.45 net credit** (20C 0.63 · 25C 0.18) → **+$176.10 returned** · card §6 **base branch (ii), the mandatory dated rule** |
+| **Exit** | 7/30 **~09:50 ET** @ **$0.45 net credit** (20C 0.63 · 25C 0.18) → **+$176.10 returned** · card §6 **base branch (ii), the mandatory dated rule** |
 | **Realized** | 🔴 **−$111.60 = −38.8%** — **better than the registered base case, which was a 100% loss** |
 | **Strength triggers** | **All three graded, none fired:** VIX cash-session high **18.71** vs ≥23 · **VIX3M/VIX min 1.0888** on simultaneous 5m bars, never <1.0 · no spike ⇒ SKEW tell moot |
 | **My five stand-downs** | **ZERO tripped, start to finish** (7/29 close + 7/30 pre-open). **The position was never killed by a thesis guard — it was closed by the clock.** |
