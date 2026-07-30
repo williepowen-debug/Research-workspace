@@ -68,16 +68,81 @@ def classify(key: str, value: float) -> str:
         return "🔴"
 
 
-def fetch_spot() -> dict:
+def last_bar_et_date(sym: str) -> date | None:
+    """ET calendar date of the most recent intraday bar for `sym`, or None if it
+    cannot be established. Used to answer "does this quote belong to TODAY?" —
+    `fast_info['lastPrice']` cannot, because it returns the last price that
+    EXISTS with no indication of when it was struck.
+
+    None means UNVERIFIABLE, never "stale" — the caller must not delete data on
+    a None (auto-memory finding_single_witness_guard_deletes_real_data).
+    """
+    import yfinance as yf
+    try:
+        h = yf.Ticker(sym).history(period="5d", interval="5m", prepost=True)
+        if h is None or len(h) == 0:
+            return None
+        ts = h.index[-1]
+        try:
+            ts = ts.tz_convert(ET)
+        except (TypeError, AttributeError):
+            pass
+        return ts.date()
+    except Exception:
+        return None
+
+
+def fetch_spot(verify_dates: bool = True) -> dict:
+    """Fetch spot levels for the vol complex.
+
+    ⚠️ THE DEFECT THIS GUARDS (KB-VIO-139/145, built 2026-07-30 after it fired
+    three consecutive sessions and nearly false-tripped a live exit guard):
+    ^VIX quotes during CBOE global trading hours, but ^VIX3M / ^VIX6M / ^VVIX /
+    ^SKEW DO NOT publish pre-open. `fast_info['lastPrice']` serves each one's
+    PRIOR SESSION close with no staleness signal, so a pre-open TICK row silently
+    fill-forwards four columns from yesterday and the derived VIX3M/VIX ratio
+    becomes a CROSS-DATE artifact (a 7/29 numerator over a 7/30 denominator).
+
+    The direction is the dangerous one: a fill-forward prior makes any 1-day
+    change computed against it OVERSTATED, so the defect MANUFACTURES
+    peak-markers on exactly the guards whose job is timing an exit. Graded off
+    the contaminated 7/28 row, stand-down (iv) would have read −7.05pt =
+    TRIPPED against a >5pt line; the true reading was −3.43pt = not tripped.
+
+    Per KB-VIO-139's own spec: a TICK row writes NULL for a column it cannot
+    source — it never carries the prior day's. Returns values with
+    `<key>_stale = True` marked and the value set to None for confirmed-stale
+    columns; `<key>_unverified = True` KEEPS the value (fail-safe: a network
+    hiccup must not erase a real print).
+    """
     import yfinance as yf
     out = {}
+    today_et = datetime.now(timezone.utc).astimezone(ET).date()
     for key, sym in TICKERS.items():
         try:
             tk = yf.Ticker(sym)
-            out[key] = round(float(tk.fast_info["lastPrice"]), 4)
+            val = round(float(tk.fast_info["lastPrice"]), 4)
         except Exception as e:
             out[key] = None
             out[f"{key}_error"] = str(e)
+            continue
+        if not verify_dates:
+            out[key] = val
+            continue
+        bar_date = last_bar_et_date(sym)
+        if bar_date is None:
+            # Could not establish a data-date. KEEP the value, flag it.
+            out[key] = val
+            out[f"{key}_unverified"] = True
+        elif bar_date < today_et:
+            # Confirmed stale: this quote belongs to a PRIOR session.
+            out[key] = None
+            out[f"{key}_stale"] = True
+            out[f"{key}_stale_date"] = bar_date.isoformat()
+            out[f"{key}_suppressed_value"] = val
+        else:
+            out[key] = val
+            out[f"{key}_bar_date"] = bar_date.isoformat()
     return out
 
 
@@ -214,14 +279,72 @@ def check_stale_tick() -> str | None:
     return None
 
 
+FFWD_COLS = ("vix3m", "vix6m", "vvix", "skew")
+
+
+def check_fillforward_contamination(scan_rows: int = 30) -> list[str]:
+    """DETECTIVE half of the KB-VIO-139 guard (the preventive half lives in
+    fetch_spot). Flags rows ALREADY in VX_DAILY.tsv whose companion columns are
+    byte-identical to the preceding row's while basis=TICK — the fill-forward
+    signature.
+
+    Why a positive check and not a staleness check: the contaminated rows are
+    FRESH (written the morning of their own date) and internally plausible, so
+    every age-based guard passes them. Only comparison against a source of truth
+    — here, the neighbouring row — can see it
+    (auto-memory finding_freshness_check_cannot_catch_a_fresh_lie).
+
+    Returns a list of human-readable warnings (empty = clean).
+    """
+    if not DAILY_LOG.exists():
+        return []
+    try:
+        with open(DAILY_LOG) as f:
+            header = f.readline().rstrip("\n").split("\t")
+            rows = [ln.rstrip("\n").split("\t") for ln in f if ln.strip()]
+    except OSError:
+        return []
+    idx = {c: i for i, c in enumerate(header)}
+    if "basis" not in idx or "date" not in idx:
+        return []
+
+    def get(r, col):
+        i = idx.get(col)
+        return r[i] if i is not None and len(r) > i else ""
+
+    warnings = []
+    for r_i in range(max(1, len(rows) - scan_rows), len(rows)):
+        cur, prev = rows[r_i], rows[r_i - 1]
+        if get(cur, "basis") != "TICK":
+            continue
+        dup = [c for c in FFWD_COLS
+               if get(cur, c) != "" and get(cur, c) == get(prev, c)]
+        if len(dup) >= 2:  # 2+ identical companions is the signature, not coincidence
+            warnings.append(
+                f"FILL-FORWARD CONTAMINATION: {get(cur,'date')} (TICK) carries "
+                f"{len(dup)}/{len(FFWD_COLS)} companion columns byte-identical to "
+                f"{get(prev,'date')} — {', '.join(dup)}. These indices do not publish "
+                f"pre-open; the values are NOT that date's. Any 1-day change computed "
+                f"against this row is OVERSTATED. Repair: backfill.py"
+            )
+    return warnings
+
+
 def build_report(supersede: bool = False) -> dict:
     now = datetime.now(timezone.utc)
     spot = fetch_spot()
     m1m2 = fetch_m1m2()
 
+    # The ratio is only meaningful if BOTH legs are same-session. When ^VIX3M is
+    # suppressed as stale (pre-open), this correctly yields None rather than a
+    # cross-date artifact — the 7/30 TICK row printed 1.1268 from a 7/29 VIX3M
+    # over a 7/30 VIX, and stand-down (ii) reads off this column (KB-VIO-139).
     ratio = None
     if spot.get("vix") and spot.get("vix3m"):
         ratio = round(spot["vix3m"] / spot["vix"], 4)
+
+    stale = {k: spot[f"{k}_suppressed_value"] for k in TICKERS if spot.get(f"{k}_stale")}
+    unverified = [k for k in TICKERS if spot.get(f"{k}_unverified")]
 
     m1m2_strict = None
     m1m2_adj = None
@@ -282,6 +405,9 @@ def build_report(supersede: bool = False) -> dict:
         "appended_to_daily_log": log_status in ("appended", "updated"),  # bool back-compat
         "daily_log_status": log_status,
         "m1m2_raw": m1m2,
+        "stale_suppressed": stale,
+        "unverified": unverified,
+        "ratio_suppressed": bool(stale.get("vix3m") or stale.get("vix")),
     }
 
 
@@ -292,6 +418,19 @@ def print_report(rep: dict):
     print(f"  Regime: {row['regime']}")
     if row.get("basis") == "TICK":
         print(f"  ⚠️  BASIS: TICK (pre-16:15 ET) — spot values are intraday, NOT the daily settle")
+    # Fail LOUD, not silent-blank: a nulled column must announce itself, or the
+    # guard just trades a wrong value for an unreviewed hole
+    # (auto-memory finding_silent_blank_evades_review).
+    stale = rep.get("stale_suppressed") or {}
+    if stale:
+        cols = ", ".join(f"{k}(would have written {v})" for k, v in sorted(stale.items()))
+        print(f"  🛡️  STALE-COLUMN GUARD FIRED — wrote NULL for: {cols}")
+        print(f"      These indices do not publish pre-open; the quote belonged to a PRIOR session.")
+        if rep.get("ratio_suppressed"):
+            print(f"      ↳ vix3m_vix_ratio SUPPRESSED too (a cross-date ratio is not a ratio) — "
+                  f"stand-down (ii) is UNGRADEABLE off this row, by design.")
+    if rep.get("unverified"):
+        print(f"  ⚠️  UNVERIFIED data-date (value KEPT, not nulled): {', '.join(rep['unverified'])}")
     print(f"")
     print(f"  {cls['vix']} VIX        {row['vix']:>7}")
     print(f"     VIX3M      {row['vix3m']:>7}")
@@ -340,6 +479,13 @@ def print_report(rep: dict):
     stale = check_stale_tick()
     if stale:
         print(f"  ⚠️  {stale}")
+
+    # Boot-time fill-forward guard — the DETECTIVE half of KB-VIO-139. Wired
+    # here, next to check_stale_tick, because detection was never the gap:
+    # this defect was FILED 7/28 and recurred 7/29 and 7/30 unfixed. An
+    # un-invoked check is not a mechanism.
+    for w in check_fillforward_contamination():
+        print(f"  ⚠️  {w}")
 
     # Emit KEY_MARKERS lines for boot.py collapse mode
     hottest = [f"{k}={cls[k]}" for k in cls if cls[k] in ("🟠", "🔴")]
