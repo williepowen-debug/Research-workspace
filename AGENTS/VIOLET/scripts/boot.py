@@ -38,6 +38,11 @@ BOOT_SEQUENCE = [
     ("OVX oil-vol→equity-vol transmission canary (built 7/17)", "ovx.py", ["--boot"], True),
     ("Cheap-tail window alert (operator decision surface; built 7/23)", "cheap_tail.py", ["--boot"], True),
     ("Catalyst countdown",          "catalyst_countdown.py", [], False),
+    # Runs LAST, after every canary has written its row this session — so it audits
+    # the state boot just produced, not the state it inherited. Enforces the
+    # CANARY_MAP staleness contract that went unenforced from v1.0 to 2026-07-28
+    # and was breaching on five rows when finally audited by hand (built 7/30).
+    ("CANARY_MAP staleness contract (built 7/30)", "canary_staleness.py", ["--quiet"], False),
 ]
 
 KEY_MARKERS = (
