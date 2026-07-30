@@ -66,7 +66,7 @@ Corroborator-anchored fire = ≥1 dark-fleet-capable corroborator + not vetoed b
 - **Fidelity IRA •1326: $40,577.02 total · cash $20,549.75 (50.6%) · $1,500 pending (unidentified, D-7).** ⚠️ "MAIN book" ≟ this IRA — label confirm pending Will (matters: an IRA cannot hold assignment shorts).
 - **PROME-rail legs (2):** 004 TLT Sep-30 77P ×30 ($330, **2.16×, harvest gate ≥3× NOT met**) · USO 150/165 Sep-18 spread (~$300, **account unresolved — not in this export**, D-6). VIXCS = CLOSED (event box, −$111.60).
 - **Thesis put book position-for-position UNCHANGED** (12 legs: KRE ×4 / WAL ×2 / OZK ×2 / APO / HBAN / KELYA — mostly deep-OTM dust; KRE Aug-21s effectively dead, 22d).
-- **Off-rail deltas pending Will confirm (D-1/2/3):** AAPL 20→15 sh (~$1,671 sale) · GLD 10→13 · **USO 20→35 sh (see §1)** · ~$565 cash residual unexplained (D-7) · **QQQ 675P EXPIRES TODAY** — $3.36 OTM at 11:02, Will decision by ~3 PM (IRA assignment mechanics).
+- **Off-rail deltas pending Will confirm (D-1/2/3):** AAPL 20→15 sh (~$1,671 sale) · GLD 10→13 · **USO 20→35 sh (see §1)** · ~$565 cash residual unexplained (D-7) · **QQQ put RESOLVED — SOLD 7/30 EOD for a loss (Will, in-session); strike = $680 per Will (the 675 transcription is struck; figures at next export)**.
 - On confirm: concentration re-base packets → BRENT/MIDAS/TERRY.
 
 ## Convergence discipline (NEXUS 29/31/40 [7/28] — Grind above Break first since 7/10)
@@ -104,7 +104,7 @@ Approved Jun 4: **Prome owns this file.** Update after regime-level changes or >
 ## Near Gates — forward only (`PROME/DOCKET.tsv` canonical; DOCKET wins on drift)
 | Date | Gate | Owner(s) | Read |
 |---|---|---|---|
-| **Thu 7/30 (rest of day) ★** | **QQQ 675P expiry ~4 PM (Will, by ~3)** · AMZN Q2 AMC (HEN-36 4th member) · **BOJ ~10:30 PM ET** (= Fri 7/31 JST; SAM-38 frozen branches, append-only) · CRWV DDTL outcome (noon deadline, unpulled) · VIOLET settle re-grade ~16:15 | Will/HENRY/SAM/LIQUID/VIOLET | Yen already +2.7% into the BOJ print; watch the split-reaction guard on AMZN |
+| **Thu 7/30 (rest of day) ★** | **QQQ 680P — RESOLVED: SOLD for a loss (strike corrected 675→680 per Will)** · AMZN Q2 AMC (HEN-36 4th member) · **BOJ ~10:30 PM ET** (= Fri 7/31 JST; SAM-38 frozen branches, append-only) · CRWV DDTL outcome (noon deadline, unpulled) · VIOLET settle re-grade ~16:15 | Will/HENRY/SAM/LIQUID/VIOLET | Yen already +2.7% into the BOJ print; watch the split-reaction guard on AMZN |
 | **Fri 7/31 ★** | ECI 8:30 · MOF monthly · month-end settle · **HEN-36 formal resolution** · **BRENT COT + BRT-26 grades** · **CFTC JPY print (7/28 data; re-fire line 875 away)** · KB-VIO-127 scores · HY print #4 (decider IF RED excludes the FOMC-day print) | SAM/BOND/LABOR/HENRY/BRENT/VIOLET/RED | Most-stacked day on the board |
 | 7/31-8/2 | DOCKET row-69 batch + Mid-July scorecard conversion (PROME) · **memory-migration (Pending Will: pull to 7/31 vs hold 8/1-2)** · WALTER intake implementation window (silence = proceed) | PROME/WALTER | — |
 | 8/1-8/2 | **FALCON Yanbu loadings re-pull (leg-3 basis, clean post-strike window)** | FALCON | Tightest margin on the board |
@@ -123,7 +123,7 @@ Approved Jun 4: **Prome owns this file.** Update after regime-level changes or >
 | Pri | Item | Ref |
 |---|---|---|
 | 🔴 | **RED: TWO rulings now DECISIVE** — (1) FOMC-day print counts toward sustain? (gates RESHAPE-BC formal confirm); (2) FT-01 un-fire grade + registry exit-column write | RED inbox (PROME 7/30) |
-| 🔴 | **Will TODAY: QQQ 675P by ~3 PM** (expiry mechanics, IRA) · confirm 3 off-rail trades (AAPL/GLD/USO) → then concentration packets to BRENT/MIDAS/TERRY · IRA-label confirm · ~$565 residual (D-7) | FORGE §Reconcile discrepancies |
+| 🔴 | ~~Will TODAY: QQQ put by ~3 PM~~ **RESOLVED — SOLD 7/30 for a loss (680P per Will)** · confirm 3 off-rail trades (AAPL/GLD/USO) → then concentration packets to BRENT/MIDAS/TERRY · IRA-label confirm · ~$565 residual (D-7) | FORGE §Reconcile discrepancies |
 | 🟠 | **Will: memory-migration pull-forward to 7/31 (PROME rec) vs hold 8/1-2** — 80% byte warning fired 7/29 | ACTIVE_DECISIONS row |
 | 🟠 | **Will: bank-put reshape disposition** — rec = TERRY rebuilds arithmetic from the 7/30 export; no fresh capital absent X1/wrapper | LIQUID brief + GATES row |
 | 🟠 | BRENT: EIA primary re-confirm (relay-vintage) + COT/BRT-26 grades Fri · NEXUS correction ping owed | BRENT next session |
