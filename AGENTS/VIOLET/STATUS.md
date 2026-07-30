@@ -1,6 +1,6 @@
 # VIOLET STATUS
 
-> ## 🔴 7/30 14:00 ET — **my JPY carry-vol canary took its FIRST-EVER fire, and equity vol went the other way in the same 30 minutes**
+> ## 🔴 7/30 SETTLE — **my JPY carry-vol canary took its FIRST-EVER fire, and equity vol went the other way in the same 30 minutes**
 >
 > A **suspected** MOF intervention (Bloomberg/Reuters report *speculation*; MOF confirms with a lag — **not confirmed**) drove **USD/JPY 162.77 → 157.92** inside the **09:30–10:00 ET** bar, the largest yen move since Dec-2023. `jpy_vol.py` went **CALM → 🔴 FIRE**: RV10 **3.23% → 16.13%** (p6.6 → **p96.9**), **IV/RV 0.78 = RV THROUGH IV**, the Aug-2024 unwind-underway signature.
 >
@@ -9,43 +9,46 @@
 > | **09:30 ← the break** | **162.77 → 159.74** | **18.63 → 18.25** ⬇ | **102.61 → 100.07** ⬇ |
 > | 10:00 ← low 157.92 | 159.74 → 159.23 | 18.24 → 18.19 ⬇ | 99.50 ⬇ |
 > | 10:30–11:00 *(delayed bid)* | ~159.3 | 18.11 → **19.15** (+5.7%) | → 101.30 |
-> | **13:55 now** | 159.08 | **17.99** | **97.66** |
+> | **7/30 SETTLE** | ~159.1 | **17.09** (−17.28%) | **94.66** (−13.53%) |
 >
 > 🔑 **The channel is LOADED and NOT TRANSMITTING.** In Aug-2024 the yen leg and the equity-vol leg were near-**simultaneous** — that is what made it a cascade rather than an FX event. Today they are **decoupled**: the delayed bid round-tripped inside 2.5 hours and both VIX and VVIX sit at session lows. **This is evidence AGAINST the replay, not for it.** → KB-VIO-162, packet to SAM.
 >
 > ⚠️ **Caveat against my own instrument, stated first:** `jpy_vol.py` measures **realized** vol, which cannot discriminate an intervention from a positioning unwind — the ~2.9% close-to-close move **alone** annualizes to ~46% and reproduces the entire RV10 fire from one bar. **Correct measurement, UNRESOLVED mechanism attribution.** The discriminator is *positioning* = SAM's instrument, and SAM's 7/31 COT is report-date **7/28**, which **predates the move** — the 8/4-data print is the first that can settle it. **BOJ decision ~22:30–23:00 ET tonight.**
 >
+> ⏬ **AND IT STEPPED BACK BY THE CLOSE — recorded because I published the fire.** Settle **RV10 14.62 / p92.3, IV/RV 0.92** = **WATCH**, back below its own p95 fire line, with RV-through-IV substantially closed. **The canary's own peak was intraday and did not hold.** 🔑 **Note what that required: the state moved CALM → FIRE → WATCH inside one session, and under this morning's first-write-wins guard the ledger would have recorded exactly one of those three — the first, and the wrong one.** Update sent to SAM, who received the FIRE reading at 14:15.
+>
 > 🛡️ **And my ledger said CALM through all of it for ~5 hours** — three canaries shared a first-write-wins append guard. **Fixed as a mechanism** (`scripts/_daily_log.py`, upsert + loud state transitions, 33 tests); its own v1 then reintroduced a cross-date artifact on first live run and was caught and guarded. → **KB-VIO-160 / -161.**
 
-**Signal Status:** 🟡 **FLAT, no position. The vol event round-tripped in three sessions** — VIX 20.66 settle [7/29] → **17.99** (−12.9%), curve re-steepened to 1.1095, VVIX back under 100. **KB-VIO-034's post-inversion base rate (VIX falls in 68% of 5-day windows, mean −5.1%) paid out on schedule.** My pre-registered KB-VIO-123 tree graded 7/29 a **FADE** and the tape confirmed inside one session. **No re-entry.** The one independent channel still escalating is **credit** (CCC 10.13, new episode high, post-event).
+**Signal Status:** 🟡 **FLAT, no position. The vol event round-tripped in three sessions** — VIX 20.66 settle [7/29] → **17.09 settle (−17.28%)**, curve re-steepened to **1.1410**, VVIX **94.66**, M1:M2 back to **+4.83%**. **KB-VIO-034's post-inversion base rate (VIX falls in 68% of 5-day windows, mean −5.1%) paid out on schedule.** My pre-registered KB-VIO-123 tree graded 7/29 a **FADE** and the tape confirmed inside one session. **No re-entry.** The one independent channel still escalating is **credit** (CCC 10.13, new episode high, post-event).
 
 ---
 
-## SIGNAL DASHBOARD — **7/30 intraday, coherent 13:55 ET snapshot**
+## SIGNAL DASHBOARD — **7/30 SETTLE** ✅
 
-> ✅ **Every `^`-index row below is from one coherent 5m pull at 13:55 ET** (KB-VIO-100/101 data-minute discipline — no mixed-timestamp artifacts). **Non-7/30 values, exhaustively:** SKEW + M1:M2 + MOVE (7/29), credit (7/29 FRED, T+1 freshest possible), COT (7/21 report date).
-> ⚠️ **BASIS = TICK, not settle.** The 16:15 ET settle supersedes; a background `thresholds.py --supersede` is armed for 17:05 ET.
+> ✅ **BASIS = SETTLE.** The armed 17:05 ET `thresholds.py --supersede` **fired at 17:05:49** and its row is **independently re-verified** against a fresh daily-bar pull — every value below matches to the cent. *(The previous session flagged this job as unverifiable; it is now verified, not assumed.)*
+> ⚠️ **ONE GENUINE HOLE: SKEW did not print.** CBOE's authoritative `last_trade_time` still reads **`2026-07-29T17:00:19`** at 17:06 ET, so there is **no 7/30 SKEW**. The ledger correctly wrote **NULL rather than fill-forwarding 139.55** — the KB-VIO-139 guard doing exactly its job on its first unattended run. **Backfill when CBOE publishes.**
+> **Non-7/30 values, exhaustively:** SKEW (7/29, above), MOVE (7/29, no print exists), credit (7/29 FRED, T+1 freshest possible), COT (7/21 report date), HENRY gamma chain (7/29 22:35).
 
 | Metric | Value | As Of | Status | Source |
 |--------|-------|-------|--------|--------|
-| **VIX Spot** | **17.99** (−12.9% vs the 20.66 settle) · session O 19.56 H 20.08 L 17.88 | 7/30 13:55 TICK | 🟡 | [CONF] yf 5m. **Regime back to LOW_VOL.** Gave back the entire FOMC spike in one session. |
-| **VIX9D** | **16.31** · **9D/VIX 0.9066** | 7/30 13:55 | 🟢 | [CONF] yf — **the front end collapsed**: 0.9864 [7/29] → 0.9066. Event premium fully discharged. |
-| **VIX3M** | **19.96** | 7/30 13:55 | 🟡 | [CONF] yf. |
-| **VIX6M** | **21.97** | 7/30 13:55 | 🟡 | [CONF] yf — **tenor decay inverted vs yesterday**: the short end fell hardest, which is event-premium release, not a level repricing. |
-| **VIX3M/VIX** | **1.1095** | 7/30 13:55 | 🟢 | [CONF] calc — **re-steepened decisively AWAY from the 1.0 line** (1.0407 [7/29]). Never inverted; session min 1.0888. |
-| **VVIX** | **97.66** (−10.8% vs 109.47) | 7/30 13:55 | 🟡 | [CONF] yf — **back under the 100 watch line**; the 120 stress line was never approached this episode. |
-| **SKEW** | **139.55** | **7/29 close** ⚠️ | 🟡 | [CONF] yf. ⚠️ **7/30 NOT YET PUBLISHED** — CBOE prints ~17:00 ET (KB-VIO-137). **Not a lag; simply not out yet.** 20d avg 146.86; 3y p25.6; below 140 first time this episode. |
-| **M1:M2 contango (adj)** | **+1.32%** | **7/29 settle** ⚠️ | 🟠 | [CONF] CBOE settlement CSV VX/Q6 20.3094 · VX/U6 20.5776 — BELOW_AVG (avg 5.6%). **The 7/30 settle prints after the close.** |
-| **★ Front VX basis (spot − M1)** | **the 7/29 inversion (−0.35) has UNWOUND** with the spot give-back | 7/30 (spot basis) | 🟢 | [CONF] calc — KB-VIO-034 peak-marker territory **vacated**. Exact 7/30 figure needs the settle. |
+| **VIX Spot** | **17.09** (**−17.28%**) · session O 19.56 H 20.08 L 17.88 | **7/30 SETTLE** | 🟡 | [CONF] yf daily bar, two-source (ledger + fresh pull). **Regime back to LOW_VOL. The entire FOMC spike round-tripped in one session**, and the settle came in **0.90 below** the 13:55 tick — it sold off *into* the close. |
+| **VIX9D** | **14.85** · **9D/VIX 0.8689** | 7/30 SETTLE | 🟢 | [CONF] yf — **the front end has collapsed**: 0.9864 [7/29] → **0.8689**. Event premium fully discharged and then some. |
+| **VIX3M** | **19.50** | 7/30 SETTLE | 🟡 | [CONF] yf. |
+| **VIX6M** | **21.61** | 7/30 SETTLE | 🟡 | [CONF] yf — **tenor decay inverted vs yesterday**: the short end fell hardest = event-premium release, not a level repricing. |
+| **VIX3M/VIX** | **1.1410** | 7/30 SETTLE | 🟢 | [CONF] calc — **re-steepened decisively AWAY from the 1.0 line** (1.0407 [7/29]). Never inverted; intraday min 1.0888. |
+| **VVIX** | **94.66** (**−13.53%**) | 7/30 SETTLE | 🟢 | [CONF] yf — **through the 100 watch line to the downside**; the 120 stress line was never approached this episode. |
+| **SKEW** | **139.55** | **7/29 close** ⚠️ **NO 7/30 PRINT** | 🟡 | [CONF] yf + CBOE `last_trade_time` **2026-07-29T17:00:19** (verified, not inferred — KB-VIO-137). **Ledger row is NULL, not fill-forwarded.** 20d avg 146.86; 3y p25.6; below 140 first time this episode. |
+| **★ M1:M2 contango (adj)** | **+4.83%** (from **+1.32%** [7/29]) | **7/30 SETTLE** | 🟢 | [CONF] CBOE settlement CSV — 🔑 **the VX curve RE-STEEPENED HARD at the settle, +3.5pts in one session**, from BELOW_AVG back toward the 5.6% average. **The front-basis inversion of 7/29 is fully unwound.** Textbook post-event normalisation. |
+| **★ Front VX basis (spot − M1)** | **the 7/29 inversion (−0.35) is FULLY UNWOUND** — M1:M2 back to +4.83% at the settle | **7/30 SETTLE** | 🟢 | [CONF] calc — KB-VIO-034 peak-marker territory **vacated decisively**, not marginally. |
 | **★ MOVE (rates vol)** | **74.18** — 🔴 **still BROKEN below the 75-76 line** | **7/29** ⚠️ | 🟡 | ⚠️ **NO 7/30 PRINT AT ANY SOURCE.** yf `^MOVE` returned a lone **7/17** bar (documented sole-source failure); `fetch.py` serves 74.18 and **correctly flags it `2026-07-29 ⚠stale`**. **Confirm-3 stays broken on 7/29 data — not re-confirmed today.** |
 | **CCC OAS** | **10.13** (10.05 [7/28], 9.96 [7/24]) | **7/29 [FRED]** ⭐ | 🔴 | [CONF] own pull — 🔴 BIN-A, **new episode high, +8bp ON the FOMC day.** ⭐ The first credit vintage that **post-dates** the vol event → KB-VIO-157. |
 | **CCC−BB dispersion** | **8.37** (8.32 [7/28]) | 7/29 [FRED] | 🔴 | [CONF] — widened **+5bp further** through the 8.3 line. |
 | **Credit breadth** | HY 2.87 · BB 1.76 · B 3.03 · BBB 1.00 · IG 0.81 · EuroHY 2.64 · EM_HY 3.11 | 7/29 [FRED] | 🔴 | [CONF] — 🔑 **the quality sort is MONOTONIC and n=2 consecutive**: CCC +8 > B +5 > HY/BB/EuroHY +3 > **BBB 0 / IG 0**. Path-A signature. |
 | **COT Lev Money NET** | **+3,098 / pct3y 92.9** | 7/21 report | 🟡 | [CONF] cftc_cot raw f_disagg — unchanged, **confirm-2 still FAILED** (<95). Asset Mgr −41,539 / p5.1. **Release Fri 7/31 15:30, report-date 7/28.** |
-| **★ JPY vol (canary)** | 🔴 **FIRE** — RV10 **16.13%** (**p96.9**) · **IV/RV 0.78 = RV through IV** · USDJPY 158.97, session low 157.92 | 7/30 14:07 | 🔴 | [CONF] jpy_vol.py — **first fire since built 7/16.** ⚠️ Mechanism unresolved (intervention vs unwind) and **equity vol did not transmit** → KB-VIO-162. |
-| **OVX oil-vol (canary)** | ratio **3.54 (p97.5)** · OVX **63.54** (p93.6) · gap 45.59 (p97.0) | 7/30 14:05 | 🟠 | [CONF] ovx.py — state FIRE. ⚠️ **Read the LEVEL, not just the ratio: OVX FELL 67.59 → 63.54.** The ratio rose only because VIX fell harder — the script's own "ratio artifact" caution applies. |
-| **Implied correlation** | **COR1M 8.43** (−29.6% d/d) · COR3M 10.98 · constituent-vol **~62.1 [EST]** | 7/30 TICK | 🔴 | [CONF] implied_corr.py — **DISPERSED (index vol suppressed).** ⚠️ Correlation **fell hard today**, which cuts *against* KB-VIO-126's condition 1 — see the gate table. |
-| **Cheap-tail window** | **DORMANT 1/4** | **7/29 basis** ⚠️ | ⚪ | [CONF] — cannot re-grade until SKEW publishes ~17:00 ET. On live VIX 17.99 / VVIX 97.66, **L2 and L1 are both closer than yesterday.** |
+| **★ JPY vol (canary)** | ⚠️ **FIRED INTRADAY, SETTLED AT 🟠 WATCH.** Peak **RV10 16.13% / p96.9, IV/RV 0.78**; **settle RV10 14.62 / p92.3, IV/RV 0.92** · USDJPY 159.46 (low 157.92) | **7/30 SETTLE** | 🟠 | [CONF] jpy_vol.py — **first fire since built 7/16, and it stepped back below the p95 line by the close.** RV through IV has **substantially closed** (0.78 → 0.92). ⚠️ Mechanism still unresolved and **equity vol never transmitted** → KB-VIO-162. **SAM sent an update — I published FIRE at 14:15.** |
+| **OVX oil-vol (canary)** | ratio **3.71** · OVX **63.44** (p93.6) · gap 46.35 | **7/30 SETTLE** | 🟠 | [CONF] ovx.py — state FIRE. ⚠️ **THE RATIO ARTIFACT IS NOW UNAMBIGUOUS: OVX FELL 67.59 → 63.44 while the ratio ROSE 3.27 → 3.71**, purely because VIX fell 17%. **Oil-vol DE-escalated today.** Reading the ratio alone would invert the sign of this read — the script's own caution, applying to my own broadcast. |
+| **Implied correlation** | **COR1M 7.06** (**−41.0%** vs the 11.97 prior close) · COR3M 10.20 · constituent-vol **~64.3 [EST]** | **7/30 SETTLE** ⭐ | 🔴 | [CONF] implied_corr.py — **DISPERSED (index vol suppressed).** ⭐ **First SETTLE row this series has ever recorded** — the TICK→SETTLE upgrade was unreachable dead code until today (KB-VIO-163). ⚠️ Correlation **collapsed 41%**, which cuts hard *against* KB-VIO-126's condition 1. |
+| **Cheap-tail window** | **DORMANT 1/4** | **7/29 basis** ⚠️ | ⚪ | [CONF] — **still cannot re-grade: SKEW has no 7/30 print.** But on the 7/30 settle **VIX 17.09 / VVIX 94.66**, L1 (VVIX ≤90) and L2 (VIX ≤16) are **both materially closer** than at any point this episode. **Re-grade the moment SKEW publishes.** |
 | **VIX options C/P** | OI **2.96** · Vol **2.33** (forward 5 expiries) | 7/30 pull | 🟡 | [CONF] vix_options — 8/19 carries the size (call OI 3.79M); 8/5 C/P OI 1.60. |
 | **SPX (ref, HENRY-owned)** | **7,425.62** (+109.5pts / **+1.50%** vs the 7,316.15 close) | 7/30 14:10 | 🟠 | [CONF] yf. **← (iii) reads off this row.** |
 | **Gamma flip (ref, HENRY)** | **14d ~7,453** · **35d ~7,465** · spot **~27–39pts BELOW** | **7/29 22:35** ⚠️ | 🟠 | [CONF HENRY 7/29] — ⚠️ **materially LESS loaded than yesterday**: SPX was 137–149pts below at the 7/29 close, now ~27–39. **Asked HENRY for a 7/30 refresh.** Net GEX −$39.4B/−$59.2B on the 7/29 chain. |
@@ -69,22 +72,22 @@
 
 ## CONVERGENCE MATRIX
 
-**Convergence Score: 32/60** (35 [7/30 AM], 36 [7/29], 33 [7/28]). 🔑 **Third consecutive session where the number and the quality move in opposite directions — and the shared surface is now doing all the falling.** Every point lost since yesterday is shared-surface mean-reversion (VIX, term, VVIX, GEX). The **independent** set gained a leg: the JPY canary fired. **But the honest read is that its fire does NOT convert** — the transmission it would have to produce was measured and did not happen.
+**Convergence Score: 30/60** (32 [7/30 midday], 35 [7/30 AM], 36 [7/29], 33 [7/28]). 🔑 **Re-scored on the SETTLE, and two of the three points came off the INDEPENDENT side — against the direction I would have preferred.** Front-curve 3→2 (M1:M2 re-steepened to +4.83%, so the warning shape is gone) is shared-surface. But **oil 3→2 is independent, and I cut it on the LEVEL while its own ratio was still screaming FIRE** — OVX *fell* 67.59 → 63.44 and the ratio rose only because VIX fell 17%. **The JPY canary also settled back to WATCH** from its intraday fire. So the independent set did not strengthen today; the one leg that looked like it had was a denominator artifact, and the other stepped back. **Credit is still carrying the escalation case alone at 5.**
 
 | Vector | Score | Independence | Evidence | Last Updated |
 |--------|-------|--------------|----------|--------------|
-| Spot VIX elevation | 🟡 **2** *(↓1)* | SHARED | **17.99, −12.9% off the 20.66 settle.** Regime back to LOW_VOL; the whole FOMC spike round-tripped in one session. | 2026-07-30 |
-| Term structure | ⚪ **1** *(↓1)* | SHARED | **1.1095 — re-steepened decisively away** from the 1.0 line (1.0407 [7/29]). Never inverted. | 2026-07-30 |
-| VVIX stress | 🟡 **2** *(↓1)* | SHARED | **97.66, back under the 100 watch line.** 120 never approached this episode. | 2026-07-30 |
-| Skew elevation | 🟡 **2** | SHARED-partial | **139.55 [7/29 close]** — below 140, 3y p25.6. ⚠️ **7/30 not yet published** (~17:00 ET); held, not carried forward as live. | 2026-07-29 [STALE by design] |
-| Front-curve shape | 🟠 **3** | SHARED (VX curve) | M1:M2 adj **+1.32%**, flattened hard into the event. ⚠️ **7/29 settle basis**; 7/30 settle prints after the close. | 2026-07-29 |
+| Spot VIX elevation | 🟡 **2** *(↓1)* | SHARED | **17.09 SETTLE, −17.28%.** Regime back to LOW_VOL; the whole FOMC spike round-tripped in one session, selling off *into* the close. | 2026-07-30 |
+| Term structure | ⚪ **1** *(↓1)* | SHARED | **1.1410 SETTLE — re-steepened decisively away** from the 1.0 line (1.0407 [7/29]). Never inverted. | 2026-07-30 |
+| VVIX stress | 🟡 **2** *(↓1)* | SHARED | **94.66 SETTLE — through the 100 watch line to the downside.** 120 never approached this episode. | 2026-07-30 |
+| Skew elevation | 🟡 **2** | SHARED-partial | **139.55 [7/29 close]** — below 140, 3y p25.6. ⚠️ **NO 7/30 PRINT** — CBOE `last_trade_time` still 2026-07-29T17:00:19 at 17:06 ET. Held, **NULL in the ledger**, never fill-forwarded. | 2026-07-29 [STALE by design] |
+| Front-curve shape | 🟡 **2** *(↓1)* | SHARED (VX curve) | M1:M2 adj **+4.83% [7/30 SETTLE]** — **re-steepened +3.5pts in one session** from +1.32%, back toward the 5.6% average. The 7/29 front-basis inversion is fully unwound. | 2026-07-30 |
 | **Credit-to-vol transmission** | **🔴🔴 5** | **INDEPENDENT** (FRED) | **CCC 10.13 / disp 8.37 [7/29] — both lines through, both new highs, +8/+5bp ON the event day.** Quality sort monotonic, **n=2 consecutive**, IG/BBB flat. → KB-VIO-157 | 2026-07-30 |
 | **MOVE / rates vol** | **🟡 2** | **INDEPENDENT** (OTC rates-options) | 🔴 **74.18 [7/29] — broke the 75-76 line ON the FOMC day.** ⚠️ **No 7/30 print at any source**, so it is neither re-confirmed nor un-broken. | 2026-07-29 |
 | **COT positioning / vol-supply** | 🟡 2 | **INDEPENDENT** (CFTC TFF) | +3,098 / p92.9 [7/21]. Confirm-2 failed. **Release 7/31 — but report-date 7/28 predates today's yen move.** | 2026-07-27 |
 | GEX / dealer positioning (ref, HENRY) | 🟠 **3** *(↓1)* | SHARED (sign N_eff ≥4) | SPX **7,425.62 = ~27–39pts below** the flip band, from 137–149 at the 7/29 close. **Amplifier still ON but much less loaded.** | 2026-07-30 |
 | Index concentration / leverage (Path-B) | 🔴 4 | Semi-INDEPENDENT (VULCAN) | MSFT +3% vs META −10% AH [7/29] = the reaction function repeated **divergently**. **AMZN + AAPL AH tonight is the third test.** | 2026-07-29 |
-| **JPY carry→vol (canary)** | 🟠 **3** *(↑1)* | **INDEPENDENT** (FX) | 🔴 **Canary FIRED — RV10 16.13% / p96.9, RV THROUGH IV.** ⚠️ **Scored 3, not 5, deliberately: this vector tracks TRANSMISSION, and the equity-vol leg was measured at the break and did not move** (VIX −0.38, VVIX −2.54 in the same 30m). Threshold breached, mechanism unresolved. → KB-VIO-162 | 2026-07-30 |
-| **Oil/geopolitical→vol (canary)** | **🟠 3** | INDEPENDENT (oil complex) | ratio 3.54 (p97.5) FIRE — ⚠️ **but OVX itself FELL 67.59 → 63.54.** The ratio rose because VIX fell harder; the script's own ratio-artifact caution applies. | 2026-07-30 |
+| **JPY carry→vol (canary)** | 🟠 **3** *(↑1)* | **INDEPENDENT** (FX) | ⚠️ **FIRED intraday (RV10 16.13 / p96.9, IV/RV 0.78), SETTLED at WATCH (14.62 / p92.3, IV/RV 0.92)** — back below its own p95 line by the close. **Held at 3, not raised to 5 and not cut back to 2:** the vector tracks **TRANSMISSION**, and the equity-vol leg was measured at the break and did not move (VIX −0.38, VVIX −2.54 in the same 30m) — but p92.3 is still a genuinely elevated realized-vol regime. Threshold touched, mechanism unresolved, transmission absent. → KB-VIO-162 | 2026-07-30 |
+| **Oil/geopolitical→vol (canary)** | 🟡 **2** *(↓1)* | INDEPENDENT (oil complex) | ⚠️ **DOWNGRADED ON THE LEVEL, against the ratio's signal.** State reads FIRE and the ratio ROSE 3.27 → **3.71** — but **OVX itself FELL 67.59 → 63.44** and the ratio moved only because VIX fell 17%. **Oil-vol de-escalated; the ratio inverted the sign.** | 2026-07-30 |
 
 *Independence read [7/30 PM]: **credit confirms on post-event data (5) · MOVE broken with no fresh print · COT failed and stale, and its next print predates the yen move · JPY fired but did not transmit · oil ratio up on a falling level.** The independent set is **1 genuine confirm / 1 broken / 1 failed / 2 canaries firing on contested mechanisms** — **still not independent-LED**, which is the discriminator KB-VIO-123 actually weights.*
 
@@ -92,9 +95,9 @@
 
 ## REGIME STATUS
 
-**LOW_VOL** (VIX 17.99 — flipped back from RISING_VOL as the 20.66 settle round-tripped).
+**LOW_VOL** (VIX **17.09 settle** — flipped back from RISING_VOL as the 20.66 settle round-tripped in a single session).
 
-**Honest read: the event is spent and the confirmation never came.** The FOMC delivered the level (>20 settle, new episode high 20.88, front basis inverted, VVIX at an episode high) and **every one of those has now reversed inside one session** — VIX −12.9%, curve re-steepened to 1.1095, front end collapsed to 9D/VIX 0.9066, VVIX back under 100. The independent channels that would have made it a *crack* rather than a *repricing* did not arrive: **MOVE broke its line on the FOMC day and has no print since**, COT is failed and stale, and **the one channel that did fire today — the yen — was measured at the break and did not transmit.**
+**Honest read: the event is spent and the confirmation never came.** The FOMC delivered the level (>20 settle, new episode high 20.88, front basis inverted, VVIX at an episode high) and **every one of those has now reversed inside one session** — VIX **−17.28%**, curve re-steepened to **1.1410**, front end collapsed to **9D/VIX 0.8689**, VVIX **94.66**, and the VX curve itself re-steepened **+1.32% → +4.83%**. The independent channels that would have made it a *crack* rather than a *repricing* did not arrive: **MOVE broke its line on the FOMC day and has no print since**, COT is failed and stale, and **the one channel that did fire today — the yen — was measured at the break and did not transmit.**
 
 **Credit is the exception and it is the one to watch.** CCC 10.13 and dispersion 8.37 are new episode highs set **on** the event day, quality-sorted, with IG and BBB flat — a Path-A signature that is now confirmed on post-event data. **That is the only independent vector still escalating**, and it is escalating while equity vol falls. That divergence is the live question, not the spent VIX spike.
 
