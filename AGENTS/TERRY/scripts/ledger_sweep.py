@@ -194,15 +194,27 @@ def cards_from_text(name: str, text: str) -> tuple[str | None, str | None]:
 
 
 def setups_tsv_states(text: str) -> dict[str, str]:
+    """
+    Parse SETUPS.tsv keyed on the REAL header row.
+
+    The naive `lines[0]` version shipped in this file's first commit and worked only because
+    SETUPS.tsv has no banner *yet*. `SIGNALS.tsv` and `PAPER_BOOK.tsv` both already carry one,
+    the fleet Data-Hygiene rule actively encourages the two-clock header (PAT-044), and the
+    day SETUPS.tsv gains one this function would have returned {} — so check A would report
+    "all surfaces agree" having read nothing. That is the exact false-clean this script was
+    written to prevent, latent inside the guard itself.
+    """
     out: dict[str, str] = {}
     lines = [l for l in text.split("\n") if l.strip()]
-    if not lines:
+    hdr_i = next((i for i, l in enumerate(lines) if l.count("\t") > 1), None)
+    if hdr_i is None:
         return out
-    hdr = lines[0].split("\t")
+    hdr = lines[hdr_i].split("\t")
     try:
         i_id, i_v, i_s = hdr.index("setup_id"), hdr.index("verdict"), hdr.index("status")
     except ValueError:
         return out
+    lines = lines[hdr_i:]
     for line in lines[1:]:
         c = line.split("\t")
         if len(c) <= max(i_id, i_v, i_s):
@@ -262,6 +274,44 @@ def check_state_agreement(
             f"      -> surfaces disagree on this card's CURRENT state. "
             f"Decide which is right, sweep the others."
         )
+    return findings
+
+
+# ---------------------------------------------------------------- check D
+
+def check_read_sanity(claims: dict[str, dict[str, str]]) -> list[str]:
+    """
+    Did each surface actually PARSE? A check that finds nothing must distinguish
+    "nothing wrong" from "nothing read."
+
+    This is the generalised fix for the 2026-07-30 boot.py false-clean: adding a banner to
+    SIGNALS.tsv made csv.DictReader key every row off the banner, so the boot card printed
+    "active rows: 0 of 15" -- which reads as a quiet ledger, not a dead one, and went
+    unnoticed for a full session. A silent zero is the most dangerous output a guard has
+    (`finding_silent_blank_evades_review`), so zero is now a FINDING, never a pass.
+    """
+    findings: list[str] = []
+    seen: dict[str, int] = {}
+    for surfaces in claims.values():
+        for surf in surfaces:
+            key = "cards" if surf.startswith("card(") else surf
+            seen[key] = seen.get(key, 0) + 1
+    expected = {
+        "cards": CARD_DIR.exists() and any(
+            p.name != "INDEX.md" for p in CARD_DIR.glob("*.md")),
+        "SETUPS.tsv": SETUPS_TSV.exists(),
+        "INDEX.md": INDEX_MD.exists(),
+        "TRADE_BOOK.md": TRADE_BOOK.exists(),
+    }
+    for surf, should_have_rows in expected.items():
+        if should_have_rows and seen.get(surf, 0) == 0:
+            findings.append(
+                f"SURFACE PARSED TO ZERO ROWS  {surf}\n"
+                f"      the file exists and is non-empty, but no setup_id was read from it.\n"
+                f"      -> this is a PARSER defect, not a clean ledger. A banner line, a renamed\n"
+                f"         column or a changed table shape will do it. Do NOT read the rest of\n"
+                f"         this report as clean until it is resolved."
+            )
     return findings
 
 
@@ -426,7 +476,8 @@ def gather_live():
 def recent_diff(since: str) -> str:
     try:
         return subprocess.run(
-            ["git", "log", f"--since={since}", "-p", "--unified=0", "--", str(TERRY)],
+            ["git", "log", f"--since={since}", "-p", "--unified=0", "--",
+             str(TERRY), f":(exclude){TERRY}/scripts"],
             capture_output=True, text=True, timeout=60, check=False,
         ).stdout
     except Exception:
@@ -481,6 +532,17 @@ def selftest() -> int:
         "card(z.md)": "🟢 CLEAN ON TERRY'S AXIS", "INDEX.md": "🔒 CLOSED — realized -$111.60"}}) == [])
 
     ok("single surface -> no verdict", check_state_agreement({"TRY-W": {"card(w.md)": "CLEAN"}}) == [])
+
+    # --- check D: a silent zero must never read as clean
+    ok("★ SETUPS.tsv parses when it gains a two-clock BANNER (the boot.py false-clean class, "
+       "latent in this guard until 7/30)",
+       setups_tsv_states("# TERRY SETUPS.tsv — LIVE. Last real data refresh: 2026-07-30\n"
+                         "setup_id\tverdict\tstatus\nTRY-A\tCLEAN\tFIRED\n") == {"TRY-A": "CLEAN || FIRED"})
+    ok("★ a surface parsing to ZERO rows is a FINDING, not a pass",
+       len(check_read_sanity({"TRY-A": {"card(a.md)": "CLEAN"}})) >= 1)
+    ok("all surfaces present -> read sanity silent",
+       check_read_sanity({"TRY-A": {"card(a.md)": "CLEAN", "SETUPS.tsv": "x",
+                                    "INDEX.md": "y", "TRADE_BOOK.md": "z"}}) == [])
 
     # --- check C: the defect check A is structurally blind to
     ok("★ catches a card whose BODY declares a verdict its HEADER never learned — the "
@@ -571,8 +633,16 @@ def run_live(since: str) -> int:
     claims, cards, surfaces = gather_live()
     a = check_state_agreement(claims)
     c = check_header_vs_body(cards)
+    d = check_read_sanity(claims)
     tokens = struck_tokens_from_diff(recent_diff(since))
     b = check_superseded_drift(tokens, surfaces)
+
+    print(f"\nD. READ SANITY — did every surface actually parse?")
+    if d:
+        for f in d:
+            print(f"  🔴 {f}")
+    else:
+        print("  ✓ every surface returned rows (a zero here would be a parser defect, not a clean ledger)")
 
     print(f"\nC. CARD HEADER vs ITS OWN BODY — {len(cards)} card(s)")
     if c:
@@ -597,7 +667,7 @@ def run_live(since: str) -> int:
     else:
         print("  ✓ no naked superseded values" if tokens else "  ✓ nothing corrected in window — nothing to sweep")
 
-    total = len(a) + len(b) + len(c)
+    total = len(a) + len(b) + len(c) + len(d)
     print(f"\n{'🔴 ' + str(total) + ' FINDING(S) — sweep before closeout' if total else '✅ CLEAN'}")
     return 1 if total else 0
 

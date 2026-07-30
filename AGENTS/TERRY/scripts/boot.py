@@ -110,6 +110,13 @@ def signals():
     errors = []
     rows = _tsv_rows(p)
     errors += _tsv_shape_errors(p, "SIGNALS.tsv")
+    # A silent zero is the worst output a surveillance surface has: on 2026-07-30 this
+    # printed "active rows: 0 of 15" for a full session and read as a quiet ledger rather
+    # than a dead parser. Zero keyed rows against a non-empty file is a DEFECT, said loudly.
+    if rows and not any((r.get("status") or "").strip() for r in rows):
+        errors.append(
+            "SIGNALS.tsv parsed but NO row has a 'status' — parser/header defect, "
+            "NOT a quiet ledger. Do not read '0 active' as clean.")
     return rows, errors
 
 
@@ -185,7 +192,18 @@ def run(args):
     sig_rows, sig_errors = signals()
     today = date.today()
     pins = [r for r in sig_rows if (r.get("status") or "").upper() == "PIN"]
-    active = [r for r in sig_rows if (r.get("status") or "").upper() in {"LIVE", "LIVE-WEAK", "DECAYING"}]
+    # Match on SHAPE, not an exact-value set. The 7/30 decay sweep introduced richer statuses
+    # ("LIVE-RECONFIRMED", "SHAPE-LIVE / LEVELS-STALE", "LIVE (CLAIM-2 RETRACTED)") and the old
+    # exact-match set silently dropped every one of them -- including SIG-W-20260626-026, which
+    # STATUS calls "the load-bearing squeeze-risk input". A reader whose vocabulary lags the
+    # file it reads fails FALSE-NEGATIVE, and quietly. Same class as the banner defect above.
+    def _is_active(r):
+        st = (r.get("status") or "").upper()
+        return ("LIVE" in st or "DECAYING" in st) and not st.startswith("RETIRED")
+    active = [r for r in sig_rows if _is_active(r)]
+    unknown = [r for r in sig_rows
+               if not _is_active(r)
+               and (r.get("status") or "").upper() not in {"RETIRED", "PIN", ""}]
     print("\nSignals (trade-construction context — see SIGNALS.tsv):")
     for r in pins:
         d = _parse_date(r.get("as_of"))
@@ -209,6 +227,9 @@ def run(args):
             elif st == "DECAYING" and days > SIGNAL_STALE_DAYS:
                 flag = "  ⚠ decaying >21d — reconfirm before use"
         print(f"  - [{r.get('source')}] {r.get('signal_id')} [{st}] {r.get('bears_on')} | {r.get('key_level')} | as_of {r.get('as_of')} ({age}){flag}")
+    for r in unknown:
+        print(f"  ? [{r.get('source')}] {r.get('signal_id')} [{(r.get('status') or '').upper()}] "
+              f"— status not recognised as active/retired; triage it rather than assume quiet")
     for e in sig_errors:
         print(f"  ⚠ {e}")
 
