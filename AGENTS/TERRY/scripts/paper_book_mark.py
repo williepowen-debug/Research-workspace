@@ -44,6 +44,56 @@ TERRY_DIR = SCRIPTS_DIR.parent
 PAPER_BOOK = TERRY_DIR / "PAPER_BOOK.tsv"
 DEFAULT_STALE_DAYS = 2   # business days
 PHASE2_GATE_COUNT = 6    # trailing-90d would-fire count that opens Phase 2 (PAPER_BOOK_DESIGN.md §Phase 2, pinned 2026-07-24)
+SCORING_MIN_CLOSED = 10  # PAPER_BOOK_DESIGN.md 5b — N>=10 CLOSED per lane ...
+SCORING_MIN_ANTECEDENTS = 5  # ... AND >=5 DISTINCT antecedents per lane (conjunctive)
+
+
+def print_scoring_gate(rows) -> None:
+    """Make the CONJUNCTIVE scoring gate machine-visible, per lane.
+
+    ⚠️ ADDED 2026-07-30 (RAV + DAEDALUS, converging independently). `PAPER_BOOK_DESIGN.md`
+    5b has required BOTH conditions since 7/26 — `N>=10 closed per lane AND >=5 distinct
+    antecedents per lane` — but this tool only ever printed the Phase-2 VOLUME gate, and
+    the `antecedent` field 5b mandates did not exist as a column at all (it was buried in
+    freeform notes, uncountable). So the independence half of the gate was unenforced AND
+    unmeasurable: the design said scoring was protected and nothing computed the protection.
+
+    Why the second condition exists (5b's own words): ten rows sharing one antecedent are
+    not ten independent trials, they are roughly ONE trial logged ten times — and scoring
+    them as ten manufactures false confidence at exactly the moment the gate says it is
+    safe to start trusting the record. PB-0001/PB-0002 are the live worked example: same
+    card, same underlying, same antecedent, two rows.
+    """
+    lanes: dict[str, list] = {}
+    for r in rows:
+        lanes.setdefault((r.get("lane") or "unset").strip(), []).append(r)
+    print("\nScoring gate (PAPER_BOOK_DESIGN.md 5b — CONJUNCTIVE, both must hold):")
+    for lane in sorted(lanes):
+        lr = lanes[lane]
+        closed = [r for r in lr if (r.get("status") or "").strip().upper() == "CLOSED"]
+        antes = {(r.get("antecedent") or "").strip().lower()
+                 for r in closed if (r.get("antecedent") or "").strip()}
+        unset = sum(1 for r in lr if not (r.get("antecedent") or "").strip())
+        n_ok = len(closed) >= SCORING_MIN_CLOSED
+        a_ok = len(antes) >= SCORING_MIN_ANTECEDENTS
+        state = "★ OPEN" if (n_ok and a_ok) else "CLOSED"
+        # Which condition binds matters: 'N-too-small' wants MORE cards,
+        # 'N-not-independent' wants VARIED ones. Different fix, so name it.
+        if not n_ok and not a_ok:
+            why = "N-too-small (and independence unmet)"
+        elif not n_ok:
+            why = "N-too-small — need more CLOSED rows"
+        elif not a_ok:
+            why = "N-not-independent — need VARIED antecedents, not more cards"
+        else:
+            why = "both conditions met"
+        print(f"  lane={lane:6s} closed {len(closed)}/{SCORING_MIN_CLOSED} · "
+              f"distinct antecedents {len(antes)}/{SCORING_MIN_ANTECEDENTS} → {state} ({why})")
+        if antes:
+            print(f"           antecedents: {', '.join(sorted(antes))}")
+        if unset:
+            print(f"           ⚠️ {unset} row(s) with NO antecedent — uncountable toward independence")
+    print("  → no Brier/calibration scoring and no decision acts on this record until a lane shows ★ OPEN.")
 
 
 def _ensure_deps_or_reexec() -> None:
@@ -388,6 +438,7 @@ def run(args):
     else:
         gate_msg = "(un-tripped; Phase 1 shadow-only)"
     print(f"\nPhase-2 volume gate: would-fire (90d) {gate}/{PHASE2_GATE_COUNT} {gate_msg}")
+    print_scoring_gate(rows)
 
     if args.dry_run:
         print("\n--dry-run: no write.")

@@ -400,6 +400,31 @@ def selftest():
     # against a local `today` and misfires in the evening. Assert the conversion
     # actually happened rather than trusting the docstring — this is the guard
     # that would have caught the bug (finding_test_the_guard_not_just_the_guarded).
+    # ★ DETERMINISTIC tz proof (RAV 2026-07-30). The _local() helper below calls the
+    # SAME astimezone() as the code under test, so on a UTC-configured box its
+    # assertions pass even if the conversion were a NO-OP — a tautology, and the
+    # 5th "guard aimed slightly off its target" of the day, inside the very test
+    # written to close the 4th. Pin a KNOWN non-UTC zone so the conversion is
+    # provable by wall-clock on ANY box. 2027-01-04 is EST (UTC-5), no DST ambiguity.
+    if hasattr(time, "tzset"):
+        _tz_before = os.environ.get("TZ")
+        try:
+            os.environ["TZ"] = "America/New_York"
+            time.tzset()
+            _got = _ts_str(datetime(2027, 1, 4, 15, 30, tzinfo=timezone.utc))
+            assert _got == "2027-01-04 10:30", (
+                f"UTC->local conversion NOT applied (pinned America/New_York): got {_got}, want 2027-01-04 10:30")
+            _naive = datetime(2027, 1, 4, 15, 30, tzinfo=timezone.utc).strftime("%Y-%m-%d %H:%M")
+            assert _got != _naive, "conversion produced the naive UTC render — the original bug"
+        finally:
+            if _tz_before is None:
+                os.environ.pop("TZ", None)
+            else:
+                os.environ["TZ"] = _tz_before
+            time.tzset()
+    else:
+        print("  ⚠️  time.tzset() unavailable — tz conversion proven only against this box's local zone")
+
     def _local(h, m):
         return datetime(2027, 1, 4, h, m, tzinfo=timezone.utc).astimezone().strftime("%Y-%m-%d %H:%M")
     assert rows[0]["last_trade"] == _local(15, 30), (
