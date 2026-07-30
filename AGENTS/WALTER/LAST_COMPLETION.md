@@ -44,18 +44,24 @@
 
 **🟢 RESOLVED this session:** the `-002` discriminator's data gap (NVDA CDS found + dispatched; Tuesday half now awaits prints) · HY re-pull (lane delivered 281; FT-01 exit clock RUNNING) · PROME Phase-A/B sanity check (PROCEED sent) · the test-the-guard memory promotion (PROME §4 ask) · post-7/25 Yanbu loadings absence (data EXISTS; adjudication now FALCON's).
 
-**🔴 FIRST ACTIONS NEXT BOOT (tomorrow = the hinge day):**
-1. **Overnight war state — did the US respond, and at WHAT?** Step-change likelier than tempo (Cooper). **Anything touching Iranian oil-export infrastructure changes the oil regime; another military-target round does not.** Anchor addendum #5 re-verify triggers armed (US response · Iranian follow-on · crude beyond ~+6-8%).
-2. **HY 7/28 print — ONE NUMBER, TWO CLOCKS:** FT-01 exit session 2/3 AND the `-002` discriminator. **Pre-committed: spreads tightening with the equity bounce = credit framing WRONG → retract at every surface; ZHAO's branch wins.**
-3. **EIA 10:30 ET** — resolves the `-009` Cushing sign contradiction; checks the API build + the −3.7M SPR draw at the primary.
-4. **SK hynix overnight reaction function** (beat-that-sells = de-rate confirmed) → feeds VULCAN's `-002` adjudication.
-5. **FOMC 2:00 + Warsh 2:30** — consider a post-presser WALTER pass; VIOLET's 7/30 VIXCS review wants the FOMC-day surface.
-6. CCC re-pull (FRED; last 996 [7/24], 4bp from 1000).
+**🟢 RESOLVED at the 7/30 boot (WALTER dark 7/29 — items landed via fleet or this boot):**
+1. ~~Overnight war state~~ → **the US RESUMED 7/29 PM (military-target round ⇒ oil regime UNCHANGED per the pre-registered discriminator) + Iran daily launches + Kuwait fatality → `SIG-W-20260730-001` IMMEDIATE + anchor ADDENDUM #6.** New open half: a SECOND US wave = tempo-vs-step-change.
+2. ~~HY 7/28 print~~ → **284 [7/28]: WIDER with equities down ⇒ the `-002` credit framing SURVIVED its Tuesday test; FT-01 exit clock 2-of-3, the 7/29 print (FRED posts ~today) is the decider.**
+3. ~~EIA 10:30~~ → resolved 7/29 (BRENT): **crude DREW −7.2M (API build premise FALSE), Cushing 19.10M — the `-009` sign contradiction resolved toward Geiger's draw.**
+4. ~~SK hynix~~ → VULCAN's; 7/29 processed by owners. 5. ~~FOMC~~ → **9-3 HAWKISH HOLD, RED-20 CORRECT, first non-absorbed FOMC print of cycle.** 6. ~~claims 7/30~~ → **197K w/e 7/25 (+9K, cons. 207K) — no RED-FT-05/REG-T-05 fire; LABOR owns the frozen grading card.**
+
+**🔴 FIRST ACTIONS NEXT BOOT:**
+1. **HY 7/29 print (FRED/lane)** — FT-01 exit session 3/3: ≥280 = FT-01 UN-FIRES (tell RED); <280 = clock resets. Also LIQUID's X1 sustain print #3.
+2. **War state: did a SECOND US wave land?** (tempo vs step-change — anchor ADDENDUM #6 triggers armed; any oil/nuclear-touching strike = regime changer; any Hormuz shipping/mine/boarding incident → FALCON immediately.)
+3. **BOJ 7/31 (tonight ET)** — SAM-38 4-branch pre-registration frozen; grade against it, don't re-derive.
+4. **AMZN + CRWV prints (7/30 AH)** — HEN-36/VULCAN axis.
+5. CCC re-pull (FRED 403 3rd session — value >1000 via RED/PROME record; re-pull, don't re-debug).
 
 **🟠 Held / carried:**
 - **🔴 FALCON's stack is now FOUR deep and on DATA:** Mangaf (7/23) · Jazan (7/25) · Abqaiq (7/27) adjudications + **leg-3 on the GS/Kpler series** (`-011`) + the Diplomacy re-mark (Baghaei "progress" AND tonight's launch belong in one re-mark). **Named to Will as the #1 spawn.**
-- **🔴 REGINALD owes the `REG-T-02` recipient_chain edit** (WAL $83.65, 7.2% above; sustain=1). DAEDALUS owes the promotion-checklist line.
-- **RED owes the registry exit-semantics write** (fire-only column; WL-03 holds the sustain-3 exit — now LIVE, session 1/3).
+- ~~REGINALD owes the `REG-T-02` recipient_chain edit~~ → **RESOLVED 7/29 by RAV Codex (Will's outside push, PROME-verified): row now reads "REGINALD action / WAL action / Will." ⚠️ WAL is now $81.41 = 4.4% above the $78 trigger — INSIDE the 5% near-trigger band, sustain=1.** DAEDALUS still owes the promotion-checklist line.
+- ~~RED owes the registry exit-semantics write~~ → **RESOLVED 7/29 (RED S26): FT-01 exit column DEFINED (WL-03 symmetric sustain-3, clock annotated in-row); other 6 exits recorded UNDEFINED on the record.**
+- **🆕 RAV registry question for Will:** RAV Codex (author `rav-codex@local`) has 4 commits editing WALTER/REGINALD-owned files — content verified clean and adopted. Does it get a REGISTRY row (special-class, like YEYOU), or stay an unregistered Will-tool? Not auto-added per RULE 4.
 - FALCON owes the `SIG-022` citation re-point (mixed-clock hulls).
 - **Phase B intake render is MINE** once PROME lands Phase A (~7/30 PM–8/2; field `entity_class`, 3 tokens; render missing-tag LOUD).
 - **PROME REQ 2** — sibling-merge sweep spec, post-migration (8/1-8/2).
