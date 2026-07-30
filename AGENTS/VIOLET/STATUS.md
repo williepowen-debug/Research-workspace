@@ -1,5 +1,22 @@
 # VIOLET STATUS
 
+> ## ⏱️ 7/30 PRE-OPEN OVERLAY — 09:20 ET, EXIT DAY. **The give-back arrived overnight; my own brief's headline is falsified; the strip decoupled in our favour.**
+>
+> | | 7/29 settle | **7/30 pre-open** | Δ |
+> |---|---|---|---|
+> | **^VIX** (GTH tick, *not* a settle) | **20.66** | **18.88** @09:05 | **−8.62%** |
+> | **VXX / VIXY** (the strip we own) | 23.42 / 22.53 | **22.60 / 21.81** @09:20 | **−3.50% / −3.20%** |
+> | **ES=F** | 7,331.00 (16:00) | **7,401.50** @09:10 | **+0.96%** (cash-equiv ≈7,383) |
+> | **8/5 VIX forward** [EST] | ~20.5 (**0.5 ITM**) | **~19.0–19.3** | **back ~0.7–1.0 OTM** |
+>
+> 🔑 **Spot −8.6% but the strip only −3.4%, and between 09:05 and 09:20 spot kept falling while VXX went 22.58 → 22.60 — the strip STOPPED.** Reading the VIX headline alone would over-mark the damage to a spread written on the **forward** (KB-VIO-129, cutting the good way for once). **Five instruments corroborate the GTH tick** (VXX/VIXY/UVXY −6.3%≈2×/SVIX +3.5%/ES), so this is **not** the 7/28 03:15-artifact class.
+>
+> **📤 Delivered to TERRY pre-open** (`…PREOPEN-UPDATE-the-strength-i-told-you-to-sell-into-is-gone.md`): ❌ **DEAD — "sell into any morning vol strength"**; there is none. ✅ **STANDS, harder — "EARLY."** The brief's *mechanism* (an overnight bounce mechanically sells our vol) was right and completed ~10h ahead of its framing. **KB-VIO-034's post-inversion base rate — VIX falls in 68% of 5-day windows, mean −5.1% — is paying out on schedule**; the front basis inverted at the 7/29 settle and we are inside that window. **Deliberately did NOT re-send on the 09:20 refinement:** it reinforces the delivered decision rather than changing it, and TERRY's live chain beats my ETF-proxy bracket. → KB-VIO-150.
+>
+> **All five stand-downs NOT TRIPPED at the pre-open tick.** ⚠️ **(ii) is UNGRADEABLE pre-open by design now** — `^VIX3M` has no 7/30 print (cash term-structure indices don't publish GTH), so any ratio is cross-date. ⚠️ **(iv) inapplicable** — its precondition is an *up*-VIX day and VIX is down. **Everything below this box is the 7/29 SETTLE grade and remains the formal record.**
+>
+> 🛡️ **KB-VIO-139 FIXED AS A MECHANISM this morning** (3 guards, 6 tests, wired into boot) and **the ledger repaired** — 7/28 row 19.05/20.2/22.11/100.91/146.6 → **18.21/NULL/NULL/98.51/142.98**. → KB-VIO-149.
+
 **Signal Status:** 🟠 **7/29 POST-FOMC SETTLE GRADE — ZERO of the five stand-downs tripped. VIX settled 20.66, the FIRST >20 settle of the entire episode. And my own pre-registered tree grades this a FADE.** `TRY-VIOLET-VIXCS` (4× VIXW Aug-05 20C/25C, $287.70, MAIN) goes to its **MANDATORY 7/30 EXIT un-killed** — and, on the instrument we actually own, in better shape than at any prior grade.
 
 **The grade in six lines.** ① **All five stand-downs graded against the 7/29 close: none tripped** (KB-VIO-143). ② **(i) VIX ≥20 settle CROSSED — 20.66 — but it is an ENTRY guard whose scope ended at the 7/27 fill.** It cannot kill the position it was written to prevent entering; post-fill the same number is a **peak-marker / monetization** signal (KB-VIO-034) and a **confirm** (KB-VIO-123 #6), never a kill. → KB-VIO-147. ③ **(iv) is NOT the SKEW-crash top: −3.43pt, line is >5pt.** ⚠️ **Graded off my own ledger it would have read −7.05pt = TRIPPED** — the unfixed KB-VIO-139 fill-forward defect manufactures peak-markers, and it came due on the most consequential grading day of the position's life. → KB-VIO-145. ④ 🔴 **KB-VIO-123 FINAL GRADE: SHARED-SURFACE-ALONE = FADE-PRONE.** All four shared vectors moved together; the independent set did **not** confirm — **MOVE BROKE its line, 74.18, −2.51% ON the FOMC day** (two-source). → KB-VIO-144. ⑤ **(iii) survived and the re-base was vindicated in 30 hours: SPX's high 7,450.84 came within 4.16pts of the 7,455 warn line, then reversed 134.69pts to close 7,316.15.** Against the retired 7,496 anchor the same tape looks unremarkable. → KB-VIO-146. ⑥ **The outage was luck in our favour** — the whole +13.45% arrived *after* 2:00 PM; a pre-2PM exit would have sold VIX at ~17.7–19.3.
