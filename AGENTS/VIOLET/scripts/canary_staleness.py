@@ -65,6 +65,67 @@ UNLEDGERED = [
 ]
 
 
+def check_map_agreement() -> list[str]:
+    """AGREEMENT half — added 2026-07-30 PM, hours after the age half, because the
+    age half MISSED the very breach it was built to prevent.
+
+    ⚠️ THE GAP, stated plainly: `canary_staleness.py` v1 asked *"is the LEDGER
+    fresh?"* and answered yes for every row — while `CANARY_MAP.md` was asserting
+    **"Current [7/28]: RV10 3.47%"** against a ledger that read **4.81% on 7/30**,
+    a 39% error, and **"[7/27] DORMANT 2/4"** against an actual 1/4. **Both ledgers
+    were green.** Age was never the failure mode; AGREEMENT was — the same
+    distinction that KB-VIO-142 turned on, where a staleness check passed a file
+    that was fresh and affirmatively wrong (`finding_freshness_check_cannot_catch_a_fresh_lie`).
+    Third time this file has carried a stale "current".
+
+    This extracts every `Current [M/D]` / `[M/D] STATE n/4` assertion from
+    CANARY_MAP and compares its DATE against the backing ledger's newest row.
+    It deliberately does NOT try to parse the prose values — matching a date is
+    robust; regexing narrative numbers is not, and a check that breaks on wording
+    is worse than none.
+    """
+    import re
+    m = VIOLET_DIR / "CANARY_MAP.md"
+    if not m.exists():
+        return []
+    try:
+        text = m.read_text()
+    except OSError:
+        return []
+    today = date.today()
+    out = []
+    STATE = r"DORMANT|ARMING|OPEN|FIRE|CALM|WATCH|BIN-A"
+    # ⚠️ v1 of this matcher FALSE-POSITIVED on its first real run: it looked only at
+    # the 90 chars BEFORE the date and treated any state-ish word as evidence of a
+    # current claim, so "Validated: **7/6-7/10 fires** … [7/27]" matched on "fires",
+    # and a RETROSPECTIVE note (*"this cell read … until 7/28 — 11 days stale"*) got
+    # reported as a live stale cell. Wrong direction is cheap here (noise, not a
+    # miss) but a checker that cries wolf gets ignored, which turns it into a miss.
+    # Tightened to two PRECISE shapes plus an explicit retrospective exclusion.
+    for mo in re.finditer(r"(Current\s*\[(\d{1,2})/(\d{1,2})\])"          # "Current [7/30]"
+                          rf"|(\[(\d{{1,2}})/(\d{{1,2}})\]\s*\*{{0,2}}(?:{STATE}))",  # "[7/29] DORMANT"
+                          text, re.I):
+        g = mo.groups()
+        mon, day = (int(g[1]), int(g[2])) if g[0] else (int(g[4]), int(g[5]))
+        if not (1 <= mon <= 12 and 1 <= day <= 31):
+            continue
+        # EXCLUDE retrospective notes ABOUT a past staleness — they legitimately
+        # quote an old date and must not be re-reported as the thing they document.
+        window = text[max(0, mo.start() - 160): mo.start() + 160]
+        if re.search(r"until \d{1,2}/\d{1,2}|days stale|this cell read|read \"", window, re.I):
+            continue
+        try:
+            d = date(today.year, mon, day)
+        except ValueError:
+            continue
+        age = (today - d).days
+        if age > 4:  # same 2x-EOD-cadence contract as the ledger half
+            snippet = text[mo.start(): mo.start() + 60].replace("\n", " ")
+            out.append(f"CANARY_MAP asserts a CURRENT reading dated {mon}/{day} "
+                       f"({age}d old, contract >4d): …{snippet}…")
+    return out
+
+
 def max_date(path: Path, col: str) -> date | None:
     if not path.exists():
         return None
@@ -119,10 +180,25 @@ def main(argv=None) -> int:
             print(f"  · {n:32s} {why}")
         print()
 
-    if dark:
-        print(f"  🔴 CANARY_MAP CONTRACT BREACH — {len(dark)} DARK:")
-        for d_ in dark:
-            print(f"     {d_}")
+    stale_cells = check_map_agreement()
+    if stale_cells and not a.quiet:
+        print("Doc-vs-ledger agreement (the half the age check cannot see):")
+        for s in stale_cells:
+            print(f"  ⚠️  {s}")
+        print()
+    elif not a.quiet:
+        print("  ✓ no stale CURRENT assertions in CANARY_MAP")
+        print()
+
+    if dark or stale_cells:
+        if dark:
+            print(f"  🔴 CANARY_MAP CONTRACT BREACH — {len(dark)} DARK LEDGER(S):")
+            for d_ in dark:
+                print(f"     {d_}")
+        if stale_cells:
+            print(f"  🔴 CANARY_MAP STALE 'CURRENT' CELLS — {len(stale_cells)}:")
+            for s in stale_cells:
+                print(f"     {s}")
         return 1 if a.strict else 0
     if not a.quiet:
         print("  ✓ all ledger-backed canaries within contract")

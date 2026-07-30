@@ -2,6 +2,8 @@
 
 **Compiled:** 2026-04-12
 
+> ⚠️ **SCOPE — READ THIS FIRST (banner added 2026-07-30).** This indexes **only the original 2026-04-12 academic/practitioner source corpus** (`credit_vix_lag/`, `regime_patterns/`, `term_structure/`, `skew_analysis/`, `crisis_analogs/`). It is **NOT a complete index of `research/`** — ~20 further files have been added since (postmortems, backtests, audits, adjudications) and **none of them appear below.** It is kept as a map of the founding literature, not as a directory listing. **For the live file map use `README.md`; for what the framework currently rests on use `thesis/VIX_THESIS.md`.**
+
 This directory contains academic and practitioner research on VIX prediction, regime dynamics, and volatility forecasting. Sources are organized by topic area.
 
 ---
