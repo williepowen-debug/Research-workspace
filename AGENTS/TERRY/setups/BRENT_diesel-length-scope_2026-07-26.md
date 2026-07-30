@@ -3,7 +3,11 @@
 **Date:** 2026-07-26 (Sun) · **Thesis owner:** BRENT (framework: GS Commodities 7/20 *"Hedging Escalation With Diesel Length"*)
 **Request:** `inbox/2026-07-21_from-BRENT_diesel-expression-scope-request.md` — Will-approved exploration 7/21. *"Deliverable = 2-3 ranked structures with live marks → Will [Approve/No]."*
 
-**Terry verdict:** 🟡 **CONDITIONAL — and specifically, NOT AT MONDAY'S PRICE.**
+**Terry verdict:** 🔴 **NO AT THIS PRICE** *(current, as of 2026-07-30 13:15 — moved from 🟡 CONDITIONAL at 12:35 on live marks; the dated CONDITIONAL reasoning below is preserved as the 7/26 record)* — the no-pay-above **$4.75 is breached** and a **dated adverse binary lands 7/31**; see the two 7/30 sections at the foot of this card. **Additionally NOT-BEFORE-THE-LOADINGS-READ (~2–3 weeks).**
+
+> *Header verdict added 2026-07-30 by `scripts/ledger_sweep.py`, which caught that this card's own header still read CONDITIONAL **45 minutes after** SETUPS.tsv, INDEX.md and TRADE_BOOK.md had all been swept to NO AT THIS PRICE. **The card was the last surface to learn its own verdict** — the 5th instance of this drift class in one session, and the one that prompted building the checker.*
+
+**Original 7/26 verdict (dated record):** 🟡 **CONDITIONAL — and specifically, NOT AT MONDAY'S PRICE.**
 The thesis is **confirmed and arguably strengthening**. The refiner-equity channel has **already paid most of it**. The one clean entry rule was satisfiable **Friday** and will not be Monday.
 
 > ⚠️ **All marks below are Friday 2026-07-24 closes** — markets are shut and this was built Sunday. **Barred from use at fill (rule #4).** Re-pull live before any [Approve].

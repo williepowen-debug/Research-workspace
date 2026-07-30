@@ -49,6 +49,21 @@ what's BUILT, what's EXERCISED, what's PENDING, cards fired count, open Will-dec
 | `daytrading/*` | A day-trading session was reviewed | Per `daytrading/README.md` (its own loop) |
 | `PAPER_BOOK.tsv` | A card reached would-fire state this session (any card — auto-fill is independent of Will's approval) | Log the paper-fill row + set `will_decision` (APPROVED/PASSED/NO-DECISION). Fill = ask-for-buys/bid-for-sells at the trigger timestamp + wide-spread penalty + auditable `entry_basis`, **never mid** — full rule in `PAPER_BOOK_DESIGN.md` §Fill rules. PAPER only, survivorship rule (never delete a losing row). |
 
+### 🔴 MANDATORY, NOT TRIGGER-GATED — run the ledger sweep before Chunk 4
+
+```bash
+(cd "$(git rev-parse --show-toplevel)" && python3 AGENTS/TERRY/scripts/ledger_sweep.py)
+```
+
+**Exit 1 = do not close out until it is clean or you have written down why a finding is being left.** It takes ~2 seconds and checks the two things this desk demonstrably cannot do by hand:
+
+- **A. STATE AGREEMENT** — every surface naming a `setup_id` (the card, `SETUPS.tsv`, `setups/INDEX.md`, `TRADE_BOOK.md`) claims the same current state.
+- **B. SUPERSEDED-VALUE DRIFT** — a value you corrected (`label ~~old~~ → new`) in a recent commit is not still asserted naked somewhere else.
+
+> **Why this is mandatory rather than trigger-gated.** Every entry in the table above is gated on *"did I touch this?"* — and the drift class is precisely the case where **you were sure you had.** On 2026-07-30 this recurred **five times in one session**: the diesel verdict sat CONDITIONAL on three ledgers 45 minutes after the card moved to NO AT THIS PRICE; three VIXCS corrections reached the banners, the card, POSTMORTEMS and MEMORY but not `SETUPS.tsv`, `PAPER_BOOK.tsv` or the STATUS BOTTOM LINE, which went on asserting a **withdrawn** finding as fact; and `TRY-FIRE-006` carried a **12-day-stale** SHELVED on three surfaces after being moved to ARMABLE on two. **Detection was never the gap — invocation was.** A trigger-gated check asks the question whose answer is already wrong.
+>
+> ⚠️ **Do not silence a finding by widening `COMPATIBLE` in the script.** That is relaxing a guard to make it pass — the same move root rule #6's break test forbids. Either the surfaces disagree (fix them) or the *normalizer* is wrong (fix it, and add the case to `--selftest`).
+
 **Don't auto-touch:** `archive/`, `charts/`, `RISK_*.md`, templates (revise only when the method changes).
 
 ---

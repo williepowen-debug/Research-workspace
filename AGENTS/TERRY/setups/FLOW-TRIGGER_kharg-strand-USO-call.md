@@ -3,7 +3,8 @@
 **Thesis owner:** RED (reversibility red-team, finding A — `AGENTS/RED/outbox/2026-07-17_to-PROME_reversibility-consensus-redteam.md`) + BRENT (energy/oil, Scenario-C / $200 Tier-2) + FALCON (Kharg flow tripwire + `domain/FRESH_LEG_BASELINE.md`). Routed by PROME 2026-07-17 (Will-approved PRE-BUILD, "build it flow-anchored").
 **Card pre-built:** 2026-07-17 ~15:40 ET
 **Fired:** ____ (fill at fire)
-**Status:** PRE-BUILT / SHELVED — **built ≠ armed ≠ deployed.** Will [Approve] + live broker book required (rule #4/#5). Confidence in structure: **Medium** (thesis owner-held; the trade's job is to survive the vol-rich entry, which the spread does).
+**Terry verdict:** 🟡 **CONDITIONAL / ARMABLE** — unfired, **$0 at risk**, $200 fenced. Arms on a corroborator; still needs Will [Approve] + live broker marks at fire.
+**Status:** PRE-BUILT / **ARMABLE** *(was PRE-BUILT / SHELVED — corrected 2026-07-30; the 7/18 FALCON dependency discharge and 7/20 wording confirm moved this card to ARMABLE on `setups/INDEX.md` and `STATUS.md` pickup 7, but **this card, `SETUPS.tsv` and `TRADE_BOOK.md` all carried SHELVED for 12 more days** — caught by `scripts/ledger_sweep.py`, not by a human read)* — **built ≠ armed ≠ deployed.** Will [Approve] + live broker book required (rule #4/#5). Confidence in structure: **Medium** (thesis owner-held; the trade's job is to survive the vol-rich entry, which the spread does).
 
 > **Capital note (do NOT conflate reserves):** this card draws on a **NEW ~$200 max-loss tranche** (BRENT 7/16 Tier-2 sizing language). It is **separate** from the **$500 banked for TRY-FIRE-004** re-fire. Firing this does not touch 004's budget and vice-versa.
 

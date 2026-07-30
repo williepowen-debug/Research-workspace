@@ -1,7 +1,10 @@
 # FIRE CARD — KRE — Regional-bank puts (fresh deploy)
 **Setup ID:** TRY-FIRE-001 · **Trigger class:** PRICE
-**Thesis owner:** REGINALD (regional/CRE) + NEXUS (regime) · **Card pre-built:** 2026-06-26 · **Fired:** ____ (fill at fire)
-**Status:** PROPOSE-ONLY — Will [Approve] required (rule #5). Detection owned by LIQUID/SENTRY.
+**Thesis owner:** REGINALD (regional/CRE) + NEXUS (regime) · **Card pre-built:** 2026-06-26 · **Fired:** ____ (never fired)
+**Terry verdict:** 🔴 **NO FIRE** *(2026-07-30 — the entry trigger is **MET** and has been since 7/27; TERRY declines anyway. Header added by `scripts/ledger_sweep.py` check C, which caught that this line still read the unfilled template `CLEAN / CONDITIONAL / NO TRADE` while the card body already declared NO FIRE.)*
+**Status:** STAGED / **unfired, $0 at risk** — PROPOSE-ONLY, Will [Approve] required (rule #5). Detection owned by LIQUID/SENTRY (**which did not deliver: the 7/27 cross never reached TERRY — found 7/30 by accident**).
+
+> **Why NO FIRE on a MET trigger** (full reasoning in the 7/30 section below, summary here so the header is not misread as a pending approval): HY path **268 [7/22] → 281 [7/27] → 284 → 287 [7/29]**, three consecutive obs ≥280, quality-sorted CCC +32 > HY +19 > IG +3 = genuine-stress signature. **But the transmission this card is built on is not happening** — KRE **$76.15, 2.3% under its 6mo high**, flat-to-up across the exact sessions HY widened, so the setup's *"before the equity tape catches the spread move"* premise has the tape moving the **other way**; the card's KILL line sits **closer than its CONFIRM line**; and the live credit story looks like **AI-capex vendor financing, not banks** (`finding_threshold_vs_mechanism` — attribution routed to LIQUID + REGINALD, unresolved). **Card stays STAGED, ZONE 2 deliberately empty.**
 
 ══════════════════════════════════════════════════════════════
 ZONE 1 — PRE-LOCKED (do NOT re-derive at fire)

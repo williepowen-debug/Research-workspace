@@ -23,10 +23,46 @@ REQUIRED = [
     "CLAUDE.md", "README.md", "STATUS.md", "RISK_RULES.md", "TRADE_CARD_TEMPLATE.md",
     "POSITION_INTAKE.md", "CHART_OPTIONS_WORKFLOW.md", "TRADE_BOOK.md", "SETUPS.tsv", "SIGNALS.tsv", "POSTMORTEMS.md",
     "scripts/boot.py", "scripts/snapshot.py", "scripts/risk_calc.py", "scripts/chain_parse.py",
+    "scripts/ledger_sweep.py",
 ]
 
 # Active rows older than this many days get a re-verify / retire flag at boot (anti-rot).
 SIGNAL_STALE_DAYS = 21
+
+
+def _tsv_rows(path):
+    """
+    DictReader that starts at the REAL header row, skipping any leading banner lines.
+
+    Why this is not cosmetic: from the moment SIGNALS.tsv gained its two-clock banner
+    (2026-07-30), DictReader was keying every row off the BANNER, so `r.get("status")`
+    returned None for all 15 rows and the boot card printed "active rows: 0 of 15" with no
+    NEXUS regime PIN at all. It looked like a quiet ledger; it was a dead one. A check that
+    silently reports NOTHING outlives one that reports something wrong
+    (`finding_silent_blank_evades_review`).
+    """
+    lines = path.read_text(encoding="utf-8").splitlines(keepends=True)
+    hdr_i = next((i for i, l in enumerate(lines) if l.count("\t") > 1), 0)
+    return list(csv.DictReader(lines[hdr_i:], delimiter="\t"))
+
+
+def _tsv_shape_errors(path, label):
+    """
+    Column-count validation that finds the REAL header row.
+
+    A naive `lines[0]` header assumption broke on 2026-07-30 the moment SIGNALS.tsv gained
+    its two-clock banner (PAT-044): the banner is one column, so every data row read as
+    "malformed" and `boot.py --selftest` had been failing ever since — a guard reporting a
+    defect that did not exist, which is how a guard gets ignored. PAPER_BOOK.tsv has the
+    same banner shape. Header = first line carrying more than one tab.
+    """
+    lines = path.read_text(encoding="utf-8").splitlines()
+    hdr_i = next((i for i, l in enumerate(lines) if l.count("\t") > 1), None)
+    if hdr_i is None:
+        return [f"{label}: no header row found"]
+    cols = len(lines[hdr_i].split("\t"))
+    bad = [i + 1 for i, l in enumerate(lines) if i > hdr_i and l.strip() and len(l.split("\t")) != cols]
+    return [f"{label} bad column count on lines: {bad[:8]}"] if bad else []
 
 
 def sh(cmd):
@@ -49,18 +85,12 @@ def setups():
     if not p.exists():
         return [], ["SETUPS.tsv missing"]
     errors = []
-    with p.open(newline="") as f:
-        rows = list(csv.DictReader(f, delimiter="\t"))
+    rows = _tsv_rows(p)
     # SHELVED/DEAD added 2026-07-17: a card killed by its own gate is terminal. Without these,
     # TRY-FIRE-005 kept reporting as an open/actionable row after its DENY shelve (see POSTMORTEMS).
     terminal = {"CLOSED", "EXPIRED", "SUPERSEDED", "CREATED", "N/A", "SHELVED", "DEAD"}
     openish = [r for r in rows if (r.get("status") or "").upper() not in terminal and (r.get("instrument") or "") != "TERRY"]
-    # validate stable column count crudely
-    lines = p.read_text().splitlines()
-    cols = len(lines[0].split("\t")) if lines else 0
-    bad = [i for i, line in enumerate(lines[1:], 2) if line and len(line.split("\t")) != cols]
-    if bad:
-        errors.append(f"SETUPS.tsv bad column count on lines: {bad[:8]}")
+    errors += _tsv_shape_errors(p, "SETUPS.tsv")
     return openish, errors
 
 
@@ -78,13 +108,8 @@ def signals():
     if not p.exists():
         return [], ["SIGNALS.tsv missing"]
     errors = []
-    with p.open(newline="") as f:
-        rows = list(csv.DictReader(f, delimiter="\t"))
-    lines = p.read_text().splitlines()
-    cols = len(lines[0].split("\t")) if lines else 0
-    bad = [i for i, line in enumerate(lines[1:], 2) if line and len(line.split("\t")) != cols]
-    if bad:
-        errors.append(f"SIGNALS.tsv bad column count on lines: {bad[:8]}")
+    rows = _tsv_rows(p)
+    errors += _tsv_shape_errors(p, "SIGNALS.tsv")
     return rows, errors
 
 
@@ -102,6 +127,36 @@ def latest_status_head(lines=18):
     if not p.exists():
         return ["STATUS.md missing"]
     return p.read_text().splitlines()[:lines]
+
+
+def ledger_sweep_summary():
+    """
+    Surface card/ledger disagreement AT BOOT, not at closeout.
+
+    Wired in because detection was never the gap — INVOCATION was. On 2026-07-30 the same
+    drift class landed 5x in one session with the corrections already written elsewhere;
+    a check nobody runs is not a check. Advisory here (never blocks a boot); the blocking
+    copy is the closeout step, which exits 1.
+    """
+    print("\nLedger sweep (card vs ledgers · superseded values):")
+    try:
+        res = subprocess.run(
+            [sys.executable, "AGENTS/TERRY/scripts/ledger_sweep.py"],
+            capture_output=True, text=True, timeout=90, cwd=WORKSPACE,
+        )
+    except Exception as exc:
+        print(f"  ⚠ could not run ledger_sweep.py ({exc}) — run it manually before closeout")
+        return
+    if res.returncode == 0:
+        print("  ✓ all surfaces agree, no naked superseded values")
+        return
+    for line in res.stdout.splitlines():
+        s = line.strip()
+        if s.startswith("🔴") or s.startswith("STATE ") or s.startswith("SUPERSEDED"):
+            print(f"  {s}")
+        elif s.startswith("AGENTS/") or s.startswith("->"):
+            print(f"      {s}")
+    print("  ⚠ FIX BEFORE CLOSEOUT — full detail: python3 AGENTS/TERRY/scripts/ledger_sweep.py")
 
 
 def run(args):
@@ -167,6 +222,8 @@ def run(args):
     print("\nSTATUS head:")
     for line in latest_status_head():
         print("  " + line)
+
+    ledger_sweep_summary()
 
     print("\nReminder:")
     print("  Terry proposes only. Will approves/rejects. No execution.")
