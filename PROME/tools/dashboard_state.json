@@ -1,25 +1,20 @@
 {
- "built": "2026-07-29 23:05",
+ "built": "2026-07-30 12:28",
  "channels": {
   "AI capex": "elev",
-  "Credit": "elev",
+  "Credit": "crit",
   "Energy": "crit",
-  "Equity-vol": "elev",
-  "Japan / carry": "watch",
+  "Equity-vol": "ok",
+  "Japan / carry": "elev",
   "Kharg tail card + siblings": "none",
   "Rates": "crit"
  },
  "docket": [
   "2026-07-22 Hyperscaler Q2 filings useful-life watch \u2014 VULCAN pre-regist",
   "2026-07-23 LAB-17 claims window (w/e 7/18 + 7/25) + July flash PMI ~7/2",
-  "2026-07-28 FOMC (no SEP/dots)",
-  "2026-07-29 ARCC Q2 (Wed PRE-OPEN, call 12:00 ET \u2014 DATE VERIFIED 7/25 vs",
-  "2026-07-29 CVNA Q2 earnings AMC (call 5:30pm ET) [CONF Businesswire via",
   "2026-07-29 Hyperscaler Q2 FCF (AMZN/MSFT/GOOG/META)",
-  "2026-07-29 SK Hynix Q2'26 earnings (Seoul 09:00 local, IR call) \u2014 VULCA",
   "2026-07-30 CRWV $2.6B DDTL drawdown deadline (noon ET)",
   "2026-07-30 RESEARCH-INTAKE two-changes IMPLEMENTATION (entity-class Pha",
-  "2026-07-30 TRY-VIOLET-VIXCS MANDATORY exit/review \u2014 regardless of P/L, ",
   "2026-07-31 BOJ MPM (July) \u2014 FY2027 purchase plan",
   "2026-07-31 DAEDALUS 7/28 full-directory audit \u2014 STRUCTURAL batch S1-S5 ",
   "2026-07-31 ECI Q2 (08:30 ET)",
@@ -50,11 +45,11 @@
   "LABOR": "ok",
   "LIQUID": "ok",
   "MARCO": "ok",
-  "MIDAS": "ok",
+  "MIDAS": "watch",
   "NEXUS": "ok",
   "ORACLE": "ok",
   "OSPREY": "ok",
-  "OZK": "ok",
+  "OZK": "watch",
   "PROME": "ok",
   "RED": "ok",
   "REGINALD": "ok",
@@ -63,7 +58,7 @@
   "TERRY": "ok",
   "VIOLET": "ok",
   "VULCAN": "ok",
-  "WAL": "ok",
+  "WAL": "watch",
   "WALTER": "ok",
   "WATT": "ok",
   "ZHAO": "ok"
@@ -88,20 +83,20 @@
   "GATE-VIO-116": "resolved:RESOLVED"
  },
  "levels": {
-  "Brent": 88.66,
-  "CCC OAS": 996.0,
-  "Cushing": 19.369999999999997,
-  "HY OAS": 279.0,
+  "Brent": 90.05,
+  "CCC OAS": 1013.0,
+  "Cushing": 19.099999999999998,
+  "HY OAS": 287.0,
   "Init Claims": 187000.0,
-  "MOVE": 76.82,
-  "USD/JPY": 163.83,
-  "VIX": 19.26
+  "USD/JPY": 159.45,
+  "VIX": 18.91,
+  "WAL": 81.73
  },
- "one": "the acute Mideast tail is unwinding its premium without breaking its thesis \u2014 oil \u221211% in two sessions on a US-Iran strike *pause*, while not one of BRENT's seven frozen break/disarm conditions is met (Hormuz still closed, transits 17%, blockade in force, war-risk premia at cycle highs). Meanwhile the slow layer moved: HY widened +11bp in two sessions off a nine-session flat range, a $69B life insurer's related-party private-credit book was mis-stated by ~$9B and a federal grand jury is attached *(\u26a0\ufe0f AMENDMENT #1: this is a different mechanism from the one deep-research graded missing \u2014 SIG-720-001 STAYS PRE-MORTEM, wrapped-PC tripwires 0-of-4)*, and the market punished two megacaps specifically for AI capex against unproven returns four days before the four largest capex guiders report. Three live legs, $917.70 at risk, no shared falsifier. NEXUS split 30/30/40 (7/22 re-mark, unrefreshed).",
+ "one": "the war is two-sided again and Saudi Arabia moved from target to CO-BELLIGERENT (US+Saudi struck Iran-backed sites in Iraq; the retaliation loop runs through the Iraq corridor at exactly the registered frame-breaker set); the Fed delivered a 9-3 HAWKISH hold the tape read as behind-the-curve (yields rose on a hold; first non-absorbed FOMC print of the cycle); HY OAS hit the sustain line 3-of-3 (281\u2192284\u2192287) and the credit LEVEL leg fired \u2014 provisionally, and on a narrower thesis than its 6/26 registration (BB-led beta, wrapper test failed twice, explicitly NOT X1); and the book got smaller and cleaner: VIXCS exited on its mandatory date, un-killed, realized \u2212$111.60 \u2014 leaving ~$630 of thesis legs where the duration complex is the only thing paying (+$515). New this midday: the yen +2.5\u20132.7% hours before tonight's BOJ, 3-source verified \u2014 SAM-38's frozen branches grade into a market already moving.",
  "pending": [
-  "** \u2605 VIXCS exit [Approve] at live marks Thu AM",
+  "** \u2705 VIXCS exit DONE 7/30 (approved + executed at live marks; account-label confirm [IRA \u20221326 vs \"MAIN book\"] at next broker export)",
   "\u2605 MEMORY"
  ],
- "split": "Break 29 / Grind 31 / Unresolved 40",
+ "split": "",
  "v": 1
 }
