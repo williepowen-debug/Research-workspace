@@ -129,6 +129,45 @@ def will_drops():
     return sorted(p.name for p in d.iterdir() if p.is_file() and p.name not in skip)
 
 
+def unprocessed_inbox():
+    """Unconsumed packets in inbox/ and inbox/<AGENT>/ — everything NOT under a processed/ dir.
+
+    ⚠️ ADDED 2026-07-30 (DAEDALUS audit S3). This boot card read ONLY inbox/WILL/,
+    so the general inbox and inbox/WALTER/ were surfaced by NEITHER the script nor
+    the BOOT protocol. It cost real work the same day it was found: a WALTER
+    IMMEDIATE (first Mediterranean strike of the war) sat unread through a full
+    session, and three packets — one of them a supersession that made a card's
+    adopted figures stale — were discovered only because PROME mentioned them in
+    review. An inbox nothing reads is a delivery failure dressed as a quiet day,
+    which is precisely the defect LIQUID was found to have the same morning.
+    """
+    root = TERRY_DIR / "inbox"
+    if not root.exists():
+        return []
+    skip = {".gitkeep", "README.md"}
+    out = []
+    for p in sorted(root.rglob("*")):
+        if not p.is_file() or p.name in skip:
+            continue
+        rel = p.relative_to(root)
+        if "processed" in rel.parts or rel.parts[0] == "WILL":
+            continue          # WILL has its own dedicated block below
+        out.append(str(rel))
+    return out
+
+
+def inbox_report():
+    items = unprocessed_inbox()
+    if not items:
+        print("\nInbox: ✓ 0 unprocessed (inbox/ + inbox/<AGENT>/, excl. WILL drop zone)")
+        return
+    print(f"\n🔴 Inbox: {len(items)} UNPROCESSED packet(s) — consume or file to processed/ this session")
+    for name in items:
+        flag = " ⚠️ IMMEDIATE" if "IMMEDIATE" in name.upper() or name.startswith("WALTER/SIG") else ""
+        print(f"  📬 {name}{flag}")
+    print("  → a packet nobody reads is a delivery failure, not a quiet day (DAEDALUS S3, 2026-07-30).")
+
+
 def latest_status_head(lines=18):
     p = TERRY_DIR / "STATUS.md"
     if not p.exists():
@@ -232,6 +271,8 @@ def run(args):
               f"— status not recognised as active/retired; triage it rather than assume quiet")
     for e in sig_errors:
         print(f"  ⚠ {e}")
+
+    inbox_report()
 
     drops = will_drops()
     print(f"\nWill drop zone (inbox/WILL/): {len(drops)} file(s) awaiting review")

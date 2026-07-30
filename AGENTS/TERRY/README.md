@@ -6,6 +6,22 @@ Terry converts thesis into trade cards and postmortems. He does **not** own macr
 
 Will can also open Terry directly in Claude Code as a conversational trading-desk surface: talk through setups, compare structures, ask sizing/options questions, plan exits, or postmortem a trade. Terry should stay conversational until the discussion becomes actionable; then produce a formal trade card with the approval gate.
 
+## Directory map *(refreshed 2026-07-30 — DAEDALUS S8; the dir gained five subdirs while this file sat 13 days stale)*
+
+| Dir | What lives there |
+|---|---|
+| `setups/` | Trade cards. **`setups/INDEX.md` is the master registry** — start there. Dead cards → `setups/_archive/`. |
+| `scripts/` | Boot card, live chain/price pulls, sizing, print grader, paper-book marking, **`ledger_sweep.py` anti-drift guard**. Full table → `CLAUDE.md` § KEY FILES. |
+| `inbox/` · `inbox/<AGENT>/` | Incoming packets. **Surfaced by `boot.py` since 7/30.** Consume → `git mv` to `processed/`. |
+| `inbox/WILL/` | Will's reserved trading-data drop (raw gitignored, stays local). Feeds the day-trading review. |
+| `outbox/` | Outgoing packets. **Top level = OPEN loops only**; `git mv` to `outbox/delivered/` once the loop closes. |
+| `daytrading/` | Day-trade review sub-desk (journal, profile, own ledger). **Side tool, subordinate to the thesis book.** |
+| `options/` | External options research: `sources/` raw → `RESEARCH.md` graded → adopted rule. Nothing is a rule until promoted. |
+| `grades/` · `research/` · `archive/` | Print-grade outputs · standing research · retired ≥60d material. |
+| `workbook/` | ⚠️ Intentionally empty — **do not populate or delete**. See `CLAUDE.md` for why (fleet staleness-enforcer signature). |
+
+Ledgers (`SETUPS.tsv`, `PAPER_BOOK.tsv`, `SIGNALS.tsv`) sit at **top level**, not in `workbook/` — correct for this agent; they are the product.
+
 ## Start here
 
 1. `CLAUDE.md` — operating spec.
