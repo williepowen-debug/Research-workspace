@@ -121,6 +121,46 @@ def check_docket_overdue():
            "PROME/DOCKET.tsv (grade, re-date, or annotate OVERDUE + owner)")
 
 
+def check_will_queue():
+    """WILL_QUEUE.md — passed needed-by dates on OPEN rows + stale reconcile stamp.
+    Born 2026-07-30 (Will-directed): the operator queue decays like any surface,
+    and both failure directions are costly — DONE-reads-OPEN nags Will, OPEN-
+    reads-DONE silently drops his decision. Flags only what a script can see:
+    ISO dates in the Needed-by column and the content-vintage stamp
+    (finding_hygiene_commit_rearms_the_staleness_lie — never key on mtime)."""
+    path = ROOT / "PROME/WILL_QUEUE.md"
+    if not path.exists():
+        record(ADVISE, "WILL_QUEUE present", False, "PROME/WILL_QUEUE.md missing",
+               "PROME/WILL_QUEUE.md")
+        return
+    text = path.read_text(encoding="utf-8")
+    today = dt.date.today()
+    m = re.search(r"^\*\*Last reconciled:\*\*\s*(\d{4}-\d{2}-\d{2})", text, re.M)
+    problems = []
+    if not m:
+        problems.append("no 'Last reconciled: YYYY-MM-DD' stamp")
+    else:
+        age = (today - dt.date.fromisoformat(m.group(1))).days
+        if age > 2:
+            problems.append(f"reconcile stamp {m.group(1)} is {age}d old")
+    in_open = False
+    for line in text.splitlines():
+        if line.startswith("## OPEN"):
+            in_open = True
+            continue
+        if in_open and line.startswith("## "):
+            break
+        if in_open and line.startswith("|"):
+            cells = [c.strip() for c in line.strip("|").split("|")]
+            if len(cells) >= 4:
+                d = re.search(r"\d{4}-\d{2}-\d{2}", cells[3])
+                if d and dt.date.fromisoformat(d.group(0)) < today:
+                    problems.append(f"#{cells[0]} {cells[1][:36]} (needed by {d.group(0)})")
+    record(ADVISE, "WILL_QUEUE fresh + no passed dates", not problems,
+           "; ".join(problems[:4]) or "stamp current; no OPEN row past its needed-by date",
+           "PROME/WILL_QUEUE.md (reconcile with Will: re-date, mark DONE, or escalate)")
+
+
 def check_heartbeat_chain():
     """HEARTBEAT amendment-chain length vs the ~5 re-base rule (Cadence section).
     The rule lived in prose on 5+ surfaces and in no script until 2026-07-30
@@ -197,6 +237,7 @@ def mode_boot():
                "scripts/firetime_allowlist.tsv · DATE flag = full logic re-read, never find-replace")
     check_gates_tsv()
     check_docket_overdue()
+    check_will_queue()
     check_heartbeat_chain()
     check_dashboard_state()
     check_symmetry()
@@ -207,6 +248,7 @@ def mode_closeout():
                "--all", "--quiet"], "owner STATUS is canonical")
     check_gates_tsv()          # FIRED-UNEXECUTED must never leave a session
     check_docket_overdue()
+    check_will_queue()
     check_heartbeat_chain()    # the ~5-amendment re-base rule, mechanized (was prose-only on 5 surfaces)
     check_dashboard_state()    # Standard+ closeouts regenerate; this catches a skipped one
     run_script(ADVISE, "orphan_check (advisory by design)", ["bash", "scripts/orphan_check.sh", "PROME"],
