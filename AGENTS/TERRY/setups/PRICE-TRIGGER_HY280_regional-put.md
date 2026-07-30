@@ -2,9 +2,9 @@
 **Setup ID:** TRY-FIRE-001 · **Trigger class:** PRICE
 **Thesis owner:** REGINALD (regional/CRE) + NEXUS (regime) · **Card pre-built:** 2026-06-26 · **Fired:** ____ (never fired)
 **Terry verdict:** 🔴 **NO FIRE** *(2026-07-30 — the entry trigger is **MET** and has been since 7/27; TERRY declines anyway. Header added by `scripts/ledger_sweep.py` check C, which caught that this line still read the unfilled template `CLEAN / CONDITIONAL / NO TRADE` while the card body already declared NO FIRE.)*
-**Status:** STAGED / **unfired, $0 at risk** — PROPOSE-ONLY, Will [Approve] required (rule #5). Detection owned by LIQUID/SENTRY (**which did not deliver: the 7/27 cross never reached TERRY — found 7/30 by accident**).
+**Status:** STAGED / **unfired, $0 at risk** — PROPOSE-ONLY, Will [Approve] required (rule #5). Detection owned by LIQUID/SENTRY — ⚠️ ~~which did not deliver: the 7/27 cross never reached TERRY — found 7/30 by accident~~ **CORRECTED 2026-07-30 15:45: DETECTION FIRED CORRECTLY AND ON TIME; the failure is DELIVERY.** LIQUID's watcher logged `🚨 ESCALATION 🟡→🔴 HY OAS 281bps` at **2026-07-28 13:00** — FRED publishes T+1, so that is the **first possible opportunity**. It writes to a local log with **no routing leg to any consumer**. LIQUID owns the routing build. **TERRY does not re-own the ZONE-1 detection line.**
 
-> **Why NO FIRE on a MET trigger** (full reasoning in the 7/30 section below, summary here so the header is not misread as a pending approval): HY path **268 [7/22] → 281 [7/27] → 284 → 287 [7/29]**, three consecutive obs ≥280, quality-sorted CCC +32 > HY +19 > IG +3 = genuine-stress signature. **But the transmission this card is built on is not happening** — KRE **$76.15, 2.3% under its 6mo high**, flat-to-up across the exact sessions HY widened, so the setup's *"before the equity tape catches the spread move"* premise has the tape moving the **other way**; the card's KILL line sits **closer than its CONFIRM line**; and the live credit story looks like **AI-capex vendor financing, not banks** (`finding_threshold_vs_mechanism` — attribution routed to LIQUID + REGINALD, unresolved). **Card stays STAGED, ZONE 2 deliberately empty.**
+> **Why NO FIRE on a MET trigger** (full reasoning in the 7/30 section below, summary here so the header is not misread as a pending approval): HY path **268 [7/22] → 281 [7/27] → 284 → 287 [7/29]**, three consecutive obs ≥280. ~~quality-sorted CCC +32 > HY +19 > IG +3 = genuine-stress signature~~ **← WITHDRAWN 7/30, see §2 of the 7/30 section: that ordering is mechanically forced and inverts under normalization.** **The transmission this card is built on is not happening** — KRE **$76.15, 2.3% under its 6mo high**, flat-to-up across the exact sessions HY widened, so the setup's *"before the equity tape catches the spread move"* premise has the tape moving the **other way**; the card's KILL line sits **closer than its CONFIRM line**; and ~~the live credit story looks like **AI-capex vendor financing, not banks** (attribution routed to LIQUID + REGINALD, unresolved)~~ **→ ATTRIBUTION NOW RULED (LIQUID + REGINALD, 7/30): neither. Broad DM HY risk-premium beta 68–84%; AI cohort 15–30%; bank/CRE ~0%, confidence HIGH.** `finding_threshold_vs_mechanism` holds — the threshold fired on a mechanism this card was never built for — but the mechanism is **broad beta on a rate repricing**, not the AI-capex story TERRY had inferred. **Card stays STAGED, ZONE 2 deliberately empty.**
 
 ══════════════════════════════════════════════════════════════
 ZONE 1 — PRE-LOCKED (do NOT re-derive at fire)
@@ -23,14 +23,29 @@ ZONE 1 — PRE-LOCKED (do NOT re-derive at fire)
 - **Max-loss budget:** $500 per card (set by Will 2026-06-26)
 - **Invalidation (thesis/price/time):** HY round-trips back < 270 sustained → credit-stress false alarm.
 - **Kill line:** HY back < 270 sustained, OR KRE reclaims prior range high → exit.
-- **Confirm line:** HY sustains > 280 **and** KRE breaks key support **and** CCC-HY ratio widening
-  (REGINALD/NEXUS corroboration) → hold / consider 2nd tranche on next red day.
+- **Confirm line:** HY sustains > 280 **and** KRE breaks key support **and** ~~CCC-HY ratio widening~~
+  **CCC ÷ HY RATIO rising** (REGINALD/NEXUS corroboration) → hold / consider 2nd tranche on next red day.
+  - ⚠️ **SPEC PINNED 2026-07-30 — this line was ambiguous and the two readings DISAGREED.** *"CCC-HY
+    ratio widening"* was resolvable as a **difference** (CCC − HY) or a **ratio** (CCC ÷ HY). On the
+    7/22→7/29 move the difference **widens** (713 → 726bp ✅) and the ratio **narrows** (3.660 → 3.530 ❌).
+    **Pinned to the RATIO** on LIQUID's and REGINALD's independent concurring rulings.
+  - **Why the ratio, and why this is not a convenience call:** ① **the difference is mechanically
+    non-informative** — CCC sits ~3.5× the index level, so any *parallel* proportional widening is
+    *guaranteed* to widen CCC−HY; it fires on exactly the case a corroboration leg exists to exclude.
+    ② **The ratio is already the fleet definition** — REGINALD's `VX-REG-18.04` tripwire *is* a CCC/HY
+    ratio on a 3.6× line, so adopting the difference here would have created a **second, disagreeing
+    gauge of the same quantity**. ③ It asks the intended question ("is this quality-sorted?"), which is
+    inherently proportional. *(`finding_ratio_gauge_denominator_branch`.)*
+  - **Consequence as of 7/29: this leg does NOT fire** (3.530, and `VX-REG-18.04` is not armed).
+    Under the withdrawn difference reading it would have fired **on a technicality, in the direction
+    that fires** — which is why it was routed out rather than resolved alone.
 
 ══════════════════════════════════════════════════════════════
 ZONE 2 — LIVE MARKS (fill ONLY this at fire — rule #4)
 ══════════════════════════════════════════════════════════════
 - **Timestamp (ET):** ____
-- **Trigger-level confirm:** HY OAS ___ bps (≥280 & sustained?) [Y/N] · CCC-HY ratio ___ · `fetch.py fred BAMLH0A0HYM2`
+- **Trigger-level confirm:** HY OAS ___ bps (≥280 & sustained?) [Y/N] · **CCC ÷ HY ratio** ___ (rising? [Y/N] — **ratio, NOT the difference; see ZONE-1 confirm line**) · `fetch.py fred BAMLH0A0HYM2`
+- **Normalization check (added 7/30):** tier moves in **%**, not bp — ___ ; bp ordering is mechanically forced by level and proves nothing
 - **Spot:** KRE $____ (as-of ____) · `fetch.py price KRE --json`
 - **Green/red day check (rule #6):** KRE today ___% → puts on green ✓ / breaking & why: ____
 - **Chain marks:** `chain_fetch.py KRE <EXPIRY> --type put --no-cache`
@@ -71,7 +86,22 @@ ZONE 3 — TRIGGER CONFIRM + DECISION
 
 **Three consecutive daily observations ≥280, monotonically widening, +19bp in five sessions.** That is *sustained*, not a single print. **The entry trigger as written is MET.** *(FRED `BAMLH0A0HYM2`, pulled 2026-07-30 ~13:30 ET.)*
 
-**Quality-sorted, which is the genuine-stress signature, not a technical:** CCC **981 → 1013 (+32bp)** · HY **268 → 287 (+19bp)** · IG **78 → 81 (+3bp)**. Widening concentrates down the quality curve. *(Independently matches VIOLET's KB-VIO 7/24→7/28 read: CCC +9 > HY +5 = BB +5 > B +2 > IG +1.)*
+~~**Quality-sorted, which is the genuine-stress signature, not a technical:** CCC **981 → 1013 (+32bp)** · HY **268 → 287 (+19bp)** · IG **78 → 81 (+3bp)**. Widening concentrates down the quality curve.~~
+
+🔴 **WITHDRAWN 2026-07-30 15:45 — REGINALD, and the inference inverts under normalization.** *(Struck, not deleted: this was written into the card, `SETUPS.tsv` and `STATUS.md` as an affirmative stress signature.)* **My figures were all re-pulled and are correct ✅ — the inference from them was wrong.** Normalized:
+
+| Index | 7/22 | 7/29 | Δ bp | **Δ %** |
+|---|---|---|---|---|
+| **BB** | 157 | 176 | +19 | **+12.1%** ← *largest* |
+| HY | 268 | 287 | +19 | +7.1% |
+| B | 285 | 303 | +18 | +6.3% |
+| BBB | 96 | 100 | +4 | +4.2% |
+| IG | 78 | 81 | +3 | +3.8% |
+| **CCC** | 981 | 1013 | +32 | **+3.3%** ← *smallest* |
+
+**CCC widened the LEAST of any HY tier; BB — the highest-quality, longest-duration, most bond-like tier — widened the MOST.** The absolute-bp ordering CCC > HY > IG is **mechanically forced by the level ordering** in *any* parallel repricing (CCC sits ~981bp, so it always prints the biggest bp move) and therefore **carries zero discriminating information.** There is **no flight-to-quality inside HY**; the move concentrates where **duration** lives. **That is a rate fingerprint, not a credit one.** *(`finding_normalization_choice_picks_opposite_winners` — the same datum, two normalizations, opposite verdicts.)*
+
+⚠️ **This STRENGTHENS the NO FIRE while deleting one of my own stated grounds for it.** REGINALD flagged it explicitly rather than let the convenient half stand — logged that way here for the same reason. **The VIOLET KB-VIO cross-check I cited as corroboration inherits the same defect: it too was read in bp.**
 
 ### 🔴 TERRY VERDICT: **NO FIRE.** The trigger is met and the trade is still wrong.
 
@@ -86,18 +116,52 @@ ZONE 3 — TRIGGER CONFIRM + DECISION
 
 **② ⚠️ THE CARD'S OWN KILL LINE IS CLOSER TO FIRING THAN ITS CONFIRM LINE.** Kill = *"HY back <270 sustained, **OR KRE reclaims prior range high**."* KRE at 76.15 vs a 6mo high of 77.92 is **within 2.3% of the kill clause.** Confirm = *"HY sustains >280 **and KRE breaks key support** and CCC-HY ratio widening"* — KRE breaking support is **not remotely true.** **When a card's entry trigger and its kill line converge, the premise is not transmitting.** That is the finding, not the trigger.
 
-**③ ⚠️ MECHANISM MISMATCH — `finding_threshold_vs_mechanism`, and this is the load-bearing objection.** The card assumes HY widening = **broad credit stress → regional-bank/CRE transmission**. But the live credit story in the tape is **AI-capex financing**: Oracle 5Y CDS at a **record in ICE's 17.5-year series** (210.675 on 7/27, high 215.610 on 7/24) on the Nvidia ~$250bn OpenAI guarantee, whose *stated purpose is OpenAI's non-investment-grade credit profile* (WALTER `SIG-W-20260728-002`). **If HY ≥280 is being driven by tech-vendor credit rather than bank/CRE credit, the threshold fired on a mechanism this card was never built for — and KRE has no reason to follow.** ⚠️ **I have NOT established the attribution** — that is LIQUID's and REGINALD's to rule on, and it is the question that decides this card.
+**③ ⚠️ MECHANISM MISMATCH — `finding_threshold_vs_mechanism`. ✅ ATTRIBUTION NOW RULED (LIQUID + REGINALD, 2026-07-30 ~15:35, independent parallel lanes).** The card assumes HY widening = **broad credit stress → regional-bank/CRE transmission**. ~~The live credit story in the tape is **AI-capex financing**~~ — **that inference was WRONG TOO.** Of the +19bp:
 
-**④ CCC-HY "ratio" is SPEC-AMBIGUOUS and I will not resolve it in the firing direction.** The confirm line says *"CCC-HY ratio widening."* Both readings are defensible and **they disagree**:
+| Attribution | bp | share | confidence |
+|---|---|---|---|
+| **Broad DM HY risk-premium beta** (US + Europe) | 13–16 | **68–84%** | Mod-high |
+| AI / data-center HY cohort | 3–6 | 15–30% | Moderate |
+| **Bank / regional / CRE credit** | **~0** | **~0%** | **HIGH** |
+| Energy | ~0 | ~0% | **Low** (LIQUID's own instrument is XLE alone; disclosed) |
+
+**BOTH of my candidate mechanisms fail. The card's premise is not merely unconfirmed — the bank/CRE leg is specifically ABSENT**, and I had inferred that only from KRE's *equity* tape; it is now established in the *credit* data (IG shows no BBB-tier discrimination: BBB +4bp vs IG +3bp, flat — where bank/CRE stress would surface first).
+
+- **Geography, the strongest single piece (LIQUID):** Euro HY widened **+16bp = 0.84× the US move** vs a **0.55 median** across 63 comparable episodes (70th pctile). European HY has **~zero AI-infra issuance**; US-idiosyncratic episodes in the same sample print **0.10–0.37**. A US-AI-specific credit event predicts a *low* ratio; we observe a high one.
+- **Tier shape says flow, not quality recognition:** BB +12.1% vs CCC +3.3% (CCC at **0.27×** BB's rate) — the inverse of a tail/default repricing. **HYG unmoved (−0.04%) on ~2× volume** = repositioning, not distress.
+- **The AI cohort is arithmetically too small to be the driver:** ~4–6% of index MV, so **it would have to widen +320 to +475bp** to produce +19bp alone. It did not.
+- **Bank side, REGINALD, ★ the sharpest datum:** on **7/29** — FOMC day, SPY −1.54%, Dow's worst since Apr-2025 — **WAL equity −3.53% while WAL's own junior preferred (WAL-PA) was +0.10%.** Same issuer, same session. Bank junior-sub/preferred basket (n=10) **mean +0.34%, 9 of 10 flat-or-up**; PFF +0.75%; **BKLN −0.00%** (floating, rate-immune credit read — dispositive); IG OAS +3bp. WALTER's own "do credit instruments keep widening while equities fall?" discriminator gets a **hard NO on bank paper, on the one day it could have said yes.**
+- **The cause is rates:** FOMC held **9–3 with three regional presidents dissenting FOR A HIKE**; `^TYX` 5.096 [7/28] → **5.208 [7/30 intra]**, 30Y highest since 2007.
+
+⚠️ **Asymmetry I am keeping on the card because it cuts against a clean story:** AI credit **is** the most stressed cohort in this tape — leading in **magnitude** by ~8× (CoreWeave's $2.6B DDTL repriced S+425–450/OID 99 → **S+550/OID 97 ≈ +140–165bp all-in concession** the day before commitments closed; CRWV CDS +>50% MTD) — while contributing only 3–6bp in **level**. My instinct was **correct about the locus of stress and wrong about the driver of the index number.** Both are true; only the second decides this card.
+
+**④ CCC-HY "ratio" is SPEC-AMBIGUOUS and I will not resolve it in the firing direction. ✅ RESOLVED 7/30 — PINNED TO THE RATIO** (LIQUID and REGINALD concurring independently; adoption was mine and is now made in ZONE-1):
 - **Difference** (CCC − HY): 713 → **726bp** = **WIDENING** ✅
-- **Ratio** (CCC ÷ HY): 3.66 → **3.53** = **NARROWING** ❌
+- **Ratio** (CCC ÷ HY): 3.66 → **3.53** = **NARROWING** ❌ ← **binding**
 
-**The card never defined which.** → spec defect, routed to the owners. *(`finding_ratio_gauge_denominator_branch` / `finding_number_carries_threshold_unit_source`.)*
+**The card never defined which; it now does.** The difference is **mechanically non-informative** (CCC's ~3.5× level guarantees it widens on any parallel move) and would have created a **second, disagreeing gauge** against REGINALD's existing `VX-REG-18.04` CCC/HY 3.6× tripwire — which is **not armed** at 3.530. **⇒ the corroboration leg does NOT fire.** *(`finding_ratio_gauge_denominator_branch` / `finding_number_carries_threshold_unit_source`.)*
 
-### 🔴 DETECTION FAILURE — this reached me by accident
+### 🔴 ~~DETECTION FAILURE — this reached me by accident~~ → ✅ **DETECTION WORKED. DELIVERY FAILED.** *(corrected 2026-07-30 15:45)*
 
-**Detection on this card is owned by LIQUID/SENTRY (ZONE-1, line 4). The trigger crossed on 7/27 and no signal reached TERRY.** I found it on **7/30** while draining a **13-deep WALTER backlog** — and only because I pulled FRED to check an unrelated credit signal. Meanwhile `STATUS.md` carried **"HY OAS 269 [7/20] — moved AWAY from the 280 line"** for **nine days**, i.e. **stale in the dangerous direction**: it advertised the card as receding while it was crossing. **Neither the detection owner nor my own surface caught a fired gate on a staged card.** → routed to LIQUID; logged as the un-owned-gate class (the `TRY-FIRE-005` lesson, recurring).
+~~Detection on this card is owned by LIQUID/SENTRY (ZONE-1, line 4). The trigger crossed on 7/27 and no signal reached TERRY.~~ **LIQUID's watcher fired correctly and at the first possible opportunity** — `AGENTS/LIQUID/alerts/HY_OAS_ALERTS.log`: `2026-07-28 13:00 🚨 ESCALATION 🟡yellow→🔴red HY OAS 281bps (as-of 2026-07-27)`. **FRED publishes T+1, so the 7/27 observation only became available on 7/28 — the cross was caught the same day it was knowable.**
+
+**What failed is the ROUTING LEG: the watcher writes a local log and a state file that nothing outside `AGENTS/LIQUID/` reads.** It fired silently on the prior 6/29 cross (283bps) too. **LIQUID owns the routing build (a routing build, not a threshold change); it is owed at their next session. TERRY does NOT re-own the ZONE-1 detection line — it is real, not fiction.**
+
+⚠️ **My half of this stands unchanged and is the part I own:** `STATUS.md` carried **"HY OAS 269 [7/20] — moved AWAY from the 280 line"** for **nine days** — **stale in the dangerous direction**, advertising the card as receding while it was crossing. I found the cross on 7/30 by accident while draining a 13-deep WALTER backlog. **Correcting the label from "detection" to "delivery" moves blame off LIQUID; it does not move any off me.**
 
 ### Status
 
-**Card stays STAGED, unfired, $0 at risk.** ZONE 2 deliberately left empty — no live marks pulled, because I am not proposing an entry. **Revisit only on:** (a) LIQUID/REGINALD ruling the widening is bank/CRE-driven rather than AI-capex-driven, **AND** (b) KRE actually breaking support. **If instead KRE reclaims 77.92, the kill line fires and this card lapses.**
+**Card stays STAGED, unfired, $0 at risk.** ZONE 2 deliberately left empty — no live marks pulled, because I am not proposing an entry.
+
+~~**Revisit only on:** (a) LIQUID/REGINALD ruling the widening is bank/CRE-driven rather than AI-capex-driven, **AND** (b) KRE actually breaking support.~~ **(a) IS NOW RULED — and it ruled AGAINST the card: bank/CRE ≈ 0bp, confidence HIGH.** The NO FIRE is no longer *"attribution unresolved, so decline"*; it is **"attribution resolved, and the mechanism this card needs is measurably absent."** Restated re-entry conditions, taken from the owners' own stated flip-datums so they are falsifiable rather than vibes:
+
+| Re-open requires | Owner | Currently |
+|---|---|---|
+| **Bank junior-sub/preferred basket −≥2% over any 3-session window WHILE HY OAS is still widening** | REGINALD | mean **+0.34%**, 9/10 flat-or-up ❌ |
+| **IG BBB OAS decoupling upward from the IG index** (bank/CRE stress surfaces here first) | LIQUID | BBB +4 vs IG +3bp — **flat** ❌ |
+| IG index ≥+10bp with financials leading, or an actual bank CDS print | REGINALD | IG +3bp ❌ |
+| **AND** KRE actually breaking key support | TERRY | 76.23, above 50d/200d ❌ |
+
+⚠️ **Explicitly NOT re-opening datums (REGINALD, and I am adopting this):** **KRE breaking support *alone*** (equity, and 7/29 showed it can be purely rate-driven) **or another leg of HY widening alone** — *the whole finding is that HY by itself carries no bank information.* **If KRE reclaims 77.92, the kill line fires and this card lapses.**
+
+**Watch, but NOT on this card:** `^TYX` 5.096 [7/28] → **5.208 [7/30 intra]**, +11bp in two sessions, 30Y highest since 2007. LIQUID flags a **duration leg re-arming that was absent from the move adjudicated above** (rates *rallied* 7/22–7/29, DGS10/DGS30 −6bp each, so duration drove none of it). **That is a forward mechanism change, and it lands on `TRY-FIRE-004` (long rates-vol), not here.** It does not retroactively alter this attribution.
