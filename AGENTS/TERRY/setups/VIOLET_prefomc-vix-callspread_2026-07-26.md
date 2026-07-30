@@ -565,3 +565,25 @@ Pull **both legs** of the live 4-lot position: VIXW Aug-05 **20C** (long) and **
 
 **Both times Will's limit was 5¢ better for him and both times it filled.** My 7/30 reasoning was *"don't get cute for 2 cents when the underlying is falling 11%/day"* — that was wrong, and the tell was in my own data: quoted **leg** spreads were ~25%, but a vertical trades **inside** the sum of its legs' quoted markets because the legs offset for the market maker. I priced the vertical off the legs' mid instead of off where a vertical actually trades. **Adopted rule: on a vertical where both legs carry OI >5,000, open at the aggressive third of the net bracket, not at mid — then walk. Mid is the floor of the opening ask, not the start.**
 
+
+### E. ⚠️ CORRECTION + RECONCILIATION — fill TIME is NOT established, and my §11.D-2 framing needs a caveat
+
+*Added 2026-07-30 ~11:00 ET, after PROME's closeout commit `03c1c947` landed in the same push as mine.*
+
+**Two records disagree and I am not silently picking one.**
+
+| | TERRY (this card, as first written) | PROME (`DOCKET.tsv` row 61, commit `03c1c947`) |
+|---|---|---|
+| Fill time | "~10:2x ET" | **"~09:50 ET"** |
+| Limit path | — | **"walked 0.50 → 0.45"** |
+| VIX at ticket | 18.35 (my 10:11 pull) | "~18.6–18.9 by ticket time" |
+
+**The broker record carries NO timestamp** — only the date. **So neither figure is sourced from the fill itself.** Mine was inferred from when I pulled the chain (10:11–10:12) and presented the ticket; PROME's ~09:50 is likewise not visible in the screenshot I was given. **Both surfaces now say: fill time UNESTABLISHED, date 2026-07-30 confirmed.** Whoever holds the broker's timestamped order export should settle it; until then neither number should be cited as fact.
+
+**⚠️ PROME's "walked 0.50 → 0.45 per runbook §10" does not describe what I recommended.** My runbook §10 said *start at the computed mid and walk DOWN*, and my live in-session recommendation was **start $0.40, walk down, floor $0.31.** A 0.50→0.45 path starts **10¢ above** my number and settles **5¢ above** it. That is not the runbook executing; **that is Will independently pricing it better than I did.** Flagging because a coordination-layer record that reads "per runbook" credits my spec for a decision my spec did not produce — and the whole value of §11.D-2 depends on that distinction being kept straight.
+
+**Consequence for §11.D-2 (the n=2 execution finding) — the finding SURVIVES but the framing tightens:**
+- ✅ **What holds:** Will's chosen limit was better than mine at both the entry ($0.70 vs my $0.75) and the exit ($0.45, opened at $0.50, vs my $0.40). The diagnosis — *I price verticals off leg mids; a vertical trades inside its legs' markets* — is unaffected, and the 0.50 open is **stronger** evidence for it than 0.45 alone (0.50 is essentially the top of my own computed 0.31–0.51 bracket, the exact zone my new rule says to open in).
+- ⚠️ **What I must NOT claim:** *"Will beat my recommendation"* in the sense of hearing $0.40 and overriding it. If the ~09:50 time is right, he filled **before** my ticket existed. **The honest statement is that his independently-chosen limit was better than mine — not that he rejected mine.**
+
+**Third correction, my own calibration, both directions:** my **pre-open** bracket (unmarkable chain, explicitly flagged as such) was **−15% to −35%**; my **10:11 post-pull** center was **−47%**. Actual: **−38.8%.** The two estimates bracketed the truth from opposite sides — the pre-open read was **optimistic** and the post-pull read **pessimistic**, and the pessimistic one came from the leg-mid pricing error in §11.D-2. Recorded because "my estimate was in the range" would be a kinder summary than the record supports.
