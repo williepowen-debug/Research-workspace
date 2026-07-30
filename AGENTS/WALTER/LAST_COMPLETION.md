@@ -50,12 +50,12 @@
 3. ~~EIA 10:30~~ → resolved 7/29 (BRENT): **crude DREW −7.2M (API build premise FALSE), Cushing 19.10M — the `-009` sign contradiction resolved toward Geiger's draw.**
 4. ~~SK hynix~~ → VULCAN's; 7/29 processed by owners. 5. ~~FOMC~~ → **9-3 HAWKISH HOLD, RED-20 CORRECT, first non-absorbed FOMC print of cycle.** 6. ~~claims 7/30~~ → **197K w/e 7/25 (+9K, cons. 207K) — no RED-FT-05/REG-T-05 fire; LABOR owns the frozen grading card.**
 
-**🔴 FIRST ACTIONS NEXT BOOT:**
-1. **HY 7/29 print (FRED/lane)** — FT-01 exit session 3/3: ≥280 = FT-01 UN-FIRES (tell RED); <280 = clock resets. Also LIQUID's X1 sustain print #3.
-2. **War state: did a SECOND US wave land?** (tempo vs step-change — anchor ADDENDUM #6 triggers armed; any oil/nuclear-touching strike = regime changer; any Hormuz shipping/mine/boarding incident → FALCON immediately.)
-3. **BOJ 7/31 (tonight ET)** — SAM-38 4-branch pre-registration frozen; grade against it, don't re-derive.
-4. **AMZN + CRWV prints (7/30 AH)** — HEN-36/VULCAN axis.
-5. CCC re-pull (FRED 403 3rd session — value >1000 via RED/PROME record; re-pull, don't re-debug).
+**🔴 FIRST ACTIONS NEXT BOOT (session closed ~1:1x PM ET 7/30; Will rebooting w/ fresh context + will SUPPLY SIGNALS — triage his batch first, these run alongside):**
+1. **HY 7/29 print (lane/FRED/ycharts)** — STILL UNPOSTED at close (~17:1xZ; all sources end 7/28=284). FT-01 exit session 3/3: ≥280 = FT-01 UN-FIRES (tell RED); <280 = clock resets. Also LIQUID's X1 sustain print #3. Checked 3× this session — post, don't re-debug the FRED 403.
+2. **Read FALCON + BRENT deliverables** — both were LIVE mid-session at close (FALCON: 3 FAL-01 adjudications + GATE-2 weighing, with my Nasr-2 note in-lane; BRENT: price read + cracks + my TTF €59.25-falling note in-lane). Their outputs may need BOARD dispatch (a gate move = IMMEDIATE).
+3. **War state:** did a SECOND US wave land (tempo-vs-step-change), or an executed IRGC "punishment" beyond the 7/30-AM salvos? Anchor ADDENDUM #6 + midday update; any oil/nuclear-touching strike = regime changer; Hormuz shipping/mine/boarding → FALCON immediately. Qatar-claim guard: dated official statement, not shape.
+4. **AMZN + CRWV prints (7/30 AH)** — HEN-36/VULCAN axis. **BOJ 7/31 overnight** — grade against SAM-38's frozen 4 branches, don't re-derive.
+5. CCC re-pull (>1000 via RED/PROME record; FRED 403 3rd session).
 
 **🟠 Held / carried:**
 - **🔴 FALCON's stack is now FOUR deep and on DATA:** Mangaf (7/23) · Jazan (7/25) · Abqaiq (7/27) adjudications + **leg-3 on the GS/Kpler series** (`-011`) + the Diplomacy re-mark (Baghaei "progress" AND tonight's launch belong in one re-mark). **Named to Will as the #1 spawn.**
