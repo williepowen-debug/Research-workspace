@@ -196,3 +196,85 @@ It assumed the **XLE 65C** had funding value. **It is now ~$112 (mark $0.56 ×2)
 2. **Clean de-escalation evidence** that the crack holds → re-scores effective-N in the trade's favour.
 
 **The crack at $90.30 against a $70 invalidation means this thesis has MONTHS of room. There is no reason to buy it badly today.** Packet → BRENT (incl. the still-open **distillate-yield-by-name** ask, which could move structure #1 off VLO before price ever matters).
+
+---
+
+## 🔴 2026-07-30 ~13:15 ET — **THE CARD WAS MISSING A DATED BINARY THAT LANDS TOMORROW.** BRENT packet consumed. **Verdict UNCHANGED (NO AT THIS PRICE) — but the reason is now dated, not just priced.** Still unarmed, $0 moved.
+
+**Source:** `inbox/2026-07-30_from-BRENT_russia-diesel-ban-base-case-flips-to-LAPSE-before-you-quote-those-structures.md` — BRENT, unprompted, cutting against his own thesis. Reply owed: none. **Thesis/supply data is BRENT's; everything below the divider in §D is TERRY construction judgement.**
+
+### A. The supply leg finally has a name — and it has an expiry date
+
+Until today the card described a crack at the top of its range without a named mechanism beyond "refinery outages." BRENT's mechanism:
+
+> **Russia — #2 diesel exporter after the US — banned diesel/gasoil exports outright effective 7/8.** Loadings **234 kb/d (Jul 1-10)** vs **400 kb/d (June)** vs **~817 kb/d (2025 avg)** [Reuters / S&P Global, Jul-26]. Plus **Jazan** (400 kb/d, shut 7/27, restart ~8/15) and **Perm + Ryazan struck 7/29**. EIA corroboration from the volume side: **US distillate stocks BUILT +1.06M while the crack made its high at 97.2% utilisation** ⇒ the marginal barrel clears **offshore**; tightness is **export/global, not domestic**. Demand splits the same way: **distillate +4.74% YoY vs gasoline −0.25% YoY.**
+>
+> *(CERA's ">4 mb/d Russian refining downtime" is a **single assessment source** — BRENT flagged it rather than propagated it, and I am carrying it the same way. Not load-bearing below.)*
+
+**This independently corroborates §1's core finding from a different direction:** §1 said the blended 3-2-1's shortfall is *entirely gasoline*. BRENT's YoY demand split (+4.74% distillate / −0.25% gasoline) is the same bifurcation measured on demand rather than margin. **Two instruments, one conclusion — and it argues again that any gasoline-weighted equity proxy dilutes the signal.** The distillate-yield-by-name ask (§1, still open) gets *more* important, not less.
+
+### B. 🔴 **THE BAN'S STATED EXPIRY IS 2026-07-31 — TOMORROW — AND THE BASE CASE IS LAPSE, NOT EXTENSION**
+
+**⚠️ READ-THIS-FIRST TRAP — TWO BANS, TWO PRODUCTS, TWO CLOCKS:**
+
+| Product | Status | Source |
+|---|---|---|
+| **Gasoline / petrol** | **EXTENDED to 31 Dec 2026** | Novak (Deputy PM), Bloomberg 7/25 |
+| **Diesel / gasoil** | **to be LIFTED "as the market recovers"** — explicitly *not* extended alongside | Interfax / S&P Global 7/27 |
+
+> **🔴 Anyone who reads a "Russia extends export ban" headline tomorrow and applies it to diesel has this trade exactly backwards.** That includes me at a future boot. **The extension that happened was GASOLINE.** The sole counter is an **unattributed, body-less CGTN headline (7/29)** suggesting diesel may extend into August — **one weak claimant, not carried.**
+
+### C. ★ The grading standard is pre-registered on LOADINGS, not on the decree — BRENT's, written before the print
+
+> **The ban and the refinery destruction are not independent: the ban exists BECAUSE refining is down. You cannot export what you cannot refine.** With downtime >4 mb/d, *"ban lifted"* does **not** mean ~817 kb/d returns. The binding constraint is **capacity, not policy** — the decree looks closer to a symptom than a cause.
+
+| 7/31 outcome | Then within ~2–3 weeks | Read |
+|---|---|---|
+| **Lapse** + loadings **stay ~234 kb/d** | no recovery | supply leg was **physical all along** — the crack keeps it |
+| **Lapse** + loadings **recover toward 400+ kb/d** | visible recovery | 🔴 **the real bearish outcome** |
+| Extension (against base case) | — | leg holds on policy, but capacity still binds |
+
+*Base: **234 kb/d**, Jul 1-10. BRENT's own operational-vs-declaratory discipline — do not trade the announcement.*
+
+---
+
+### D. ★ TERRY CONSTRUCTION READ — **the wait is ~3 weeks, not 1 day, and that changes what the wait costs**
+
+BRENT's closing line is *"tomorrow's outcome is worth waiting through."* **His own grading standard says something stronger, and I don't think he drew it out:** if the decree is uninformative and only **loadings** grade the leg, then **7/31 is not a resolver — it is the START of a ~2–3 week observation window.** The tradeable information lands **~mid-to-late August**, not tomorrow. Nothing about this card should be re-quoted on tomorrow's headline.
+
+**And that is the point that decides it, because on THIS structure waiting is nearly free:**
+
+| | |
+|---|---|
+| Structure #1 tenor | **VLO Jan-15-2027** = **~169 DTE** today |
+| After a ~3-week wait | **~148 DTE** |
+| Tenor surrendered | **~21 days = ~12.4%** — on a **long-dated** spread, where near-term theta is at its slowest |
+| Bought with it | a resolved binary **+** a loadings read on the actual mechanism |
+
+> **This is the rare case where the option to wait is cheap and the thing you learn is the thing the trade depends on.** Contrast the ordinary "wait for a pullback" argument, which costs you the move if you're right. Here the tenor decay over the window is a rounding error against a **99.2nd-percentile entry into an unresolved binary.** *(Payoff/theta not re-computed at live marks — the argument is tenor-fraction and does not need them; re-pull before any [Approve].)*
+
+**A second thing the packet buys us: the $70 thesis-invalidation (§6) finally has an early-warning instrument.** Until today, "crack falls below ~$70" was a **lagging** line — by the time it printed, the leg was already gone. **Loadings recovering toward 400+ kb/d is the observable precursor** to exactly that path. Recording it as a leading tell, not a new invalidation:
+
+- **⚠️ WATCH (new, leading):** Russian diesel/gasoil loadings recovering toward **400+ kb/d** post-lapse → the mechanism under the crack is repairing → expect the crack to head toward the $70 line. **Not itself a kill; it is the thing that predicts the kill.**
+- **Invalidation (thesis) unchanged:** crack decisively below **~$70/bbl**.
+
+**Crack figures reconcile — no discrepancy to chase.** BRENT cites **$99.08 (7/29)**; the 12:35 sync above computes **$90.30 (7/30 12:30 ET)**. These are consistent, not contradictory — BRENT's own packet says *"cracks compressed intraday"* on 7/30 while VLO/MPC rose. **Same series, one day and an intraday fade apart.** Flagging it because a future reader comparing the two sections would otherwise see a $9 gap and go looking for a data defect that isn't there.
+
+### E. Entry discipline — §6 amended (additive; nothing relaxed)
+
+- **🔴 NEW STAND-DOWN:** **do not quote, re-quote, or arm this card on tomorrow's 7/31 decree headline, in either direction.** A lapse headline is not a kill and an extension headline is not a green light — **§C says the decree is not the instrument.**
+- **The no-pay-above $4.75 is unchanged and still breached** (mid $4.75, realistic fill $7.50). **Nothing in this packet touches price**, and a strengthening thesis is not a licence to pay through a pre-registered limit — the ratified rule-#6 break test applies: a no-chase line derived from a **direct ratio calculation** has no proxy to refute.
+- **Re-open conditions unchanged** (VLO ~$280–290 / clean de-escalation evidence) **plus one added:** a post-lapse loadings print that **holds ~234 kb/d** would convert the supply leg from *policy-dependent* to *physically confirmed* — thesis-strengthening, though it still would not fix the entry price.
+
+### F. ⚠️ UN-OWNED GATE CHECK — run per pickup rule #2 (the TRY-FIRE-005 lesson). **This gate had no named grader.**
+
+BRENT's packet is explicitly a caution with **"reply owed: none"** — so tomorrow's decree and the ~2–3 week loadings window were, as of receipt, **owned by nobody**. That is the exact shape that let TRY-FIRE-005 drift 7 days. **Proposed split, routed to BRENT for confirm:**
+
+| Gate | Owner | Why |
+|---|---|---|
+| 7/31 decree outcome + the ~2–3wk **loadings** grade (base 234 kb/d) | **BRENT** | domain data — TERRY does not source loadings and will not assert them |
+| Card consequence (re-quote / re-open / stand-down) | **TERRY** | construction |
+
+**Until BRENT confirms, TERRY carries it on its own surface so it cannot drift** → `STATUS.md` pickup item 0b.
+
+**VERDICT: NO AT THIS PRICE — unchanged, and now additionally NOT-BEFORE-THE-LOADINGS-READ.** Thesis stronger (it has a named mechanism and volume confirmation on both halves of the barrel); entry worse (99.2nd percentile, crowding unrepaired since 7/20 GS, no-chase line breached, and an adverse dated binary that was not on the card until today). **$0 at risk, nothing armed.**
