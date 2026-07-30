@@ -198,8 +198,8 @@
         <span class="id-domain">Volatility, term structure, and credit-to-vol transmission timing. The fleet's early-warning system for vol-regime shifts.</span>
       </div>
       <div class="state-block">
-        <span class="regime">LOW_VOL — at the rising-vol edge</span>
-        <span class="stamp">State as of 23 Jul 2026 · framework v3.6</span>
+        <span class="regime">RISING_VOL — fading back toward the low-vol edge</span>
+        <span class="stamp">State as of 30 Jul 2026, midday · framework v3.8</span>
       </div>
     </header>
 
@@ -214,37 +214,37 @@
       <div class="tiles">
         <div class="tile sv-watch">
           <span class="t-name">VIX</span>
-          <span class="t-val">19.9</span>
-          <span class="t-note">Fear right now. Sitting on the calm/nervous border.</span>
+          <span class="t-val">18.6</span>
+          <span class="t-note">Fear right now. Spiked to a 20.66 close on the Fed, then gave it all back.</span>
           <span class="t-trip">breaks <b>&gt; 20</b></span>
         </div>
         <div class="tile sv-stress">
           <span class="t-name">VVIX</span>
-          <span class="t-val">105</span>
-          <span class="t-note">Fear about fear. Back above the watch line.</span>
+          <span class="t-val">100</span>
+          <span class="t-note">Fear about fear. Peaked at 109 on the Fed; back on the watch line.</span>
           <span class="t-trip">watch &gt;100 · <b>stress &gt;120</b></span>
         </div>
         <div class="tile sv-stress">
           <span class="t-name">SKEW</span>
-          <span class="t-val">150</span>
-          <span class="t-note">Crash cover expensive. 20d-avg 146.7 · top 3% of history.</span>
+          <span class="t-val">140</span>
+          <span class="t-note">Crash cover got cheaper. Lost the 140 line — the wing bid has been leaving.</span>
           <span class="t-trip">&gt;150 held <b>4 days</b> = re-arm</span>
         </div>
         <div class="tile sv-watch">
           <span class="t-name">Term</span>
-          <span class="t-val">1.07</span>
-          <span class="t-note">Now vs later. Compressing toward inversion.</span>
+          <span class="t-val">1.09</span>
+          <span class="t-note">Now vs later. Compressed to 1.04 on the Fed, now re-steepening away.</span>
           <span class="t-trip">inverts <b>&lt; 1.00</b></span>
         </div>
       </div>
 
       <div class="row-label">Independent channels — where real confirmation comes from</div>
       <div class="chans">
-        <div class="chan sv-stress"><span class="cn">Credit</span><span class="cv">Bin-A</span><span class="cd">CCC 9.77 · disp 8.17 — holding wide</span></div>
-        <div class="chan sv-stress"><span class="cn">MOVE</span><span class="cv">~74.7</span><span class="cd">Bond-market vol — re-open fired</span></div>
-        <div class="chan sv-stress"><span class="cn">Positioning</span><span class="cv">99.4 pct</span><span class="cd">Fast money at a 3-yr extreme long vol</span></div>
-        <div class="chan sv-stress"><span class="cn">Oil-vol</span><span class="cv">3.55 · FIRE</span><span class="cd">Transmission channel loaded (p97.6)</span></div>
-        <div class="chan sv-calm"><span class="cn">Yen carry</span><span class="cv">Calm</span><span class="cd">MOF passed clean — no unwind</span></div>
+        <div class="chan sv-stress"><span class="cn">Credit</span><span class="cv">Bin-A</span><span class="cd">CCC 10.05 · disp 8.32 — both lines through</span></div>
+        <div class="chan sv-calm"><span class="cn">MOVE</span><span class="cv">74.2</span><span class="cd">Bond vol FELL on Fed day — confirmation broken</span></div>
+        <div class="chan sv-stress"><span class="cn">Positioning</span><span class="cv">92.9 pct</span><span class="cd">Fast money unwound ~70% of the extreme</span></div>
+        <div class="chan sv-stress"><span class="cn">Oil-vol</span><span class="cv">3.27 · FIRE</span><span class="cd">Re-loaded on the Iran strikes (p95.8)</span></div>
+        <div class="chan sv-calm"><span class="cn">Yen carry</span><span class="cv">Calm</span><span class="cd">Quiet into the Bank of Japan, Friday</span></div>
       </div>
 
       <div class="row-label">Instruments — what's armed, fired, or quiet</div>
@@ -253,23 +253,23 @@
           <span class="kind">Gate</span>
           <div class="ins-body">
             <div class="in">GATE-VIO-116 · rates-vol shape</div>
-            <div class="id2">Consequence on fire is <b>not</b> a new trade — it folds into the live TLT position, which already expresses long rates-vol.</div>
+            <div class="id2">Bond vol fell to 74.2 <b>on Fed day</b> — still above the 70&ndash;72 re-open line, but the margin is nearly gone. Consequence on fire is <b>not</b> a new trade; it folds into the TLT position that already carries rates-vol.</div>
           </div>
-          <span class="status st-stress">FIRED</span>
+          <span class="status st-stress">FIRED &middot; at risk</span>
         </div>
         <div class="ins">
           <span class="kind">Pre-reg</span>
           <div class="ins-body">
             <div class="in">KB-VIO-123 · crack-vs-fade tree</div>
-            <div class="id2">Branch map locked before the catalysts so the read is graded against a pre-committed map, not a post-hoc story. 4 of 5 independent channels stressed; 2 crack legs unmet.</div>
+            <div class="id2">Locked 23 Jul, <b>before any of this data existed</b>. Graded after the Fed: the spike showed up on all four <i>shared</i> gauges and on none of the <i>independent</i> ones &mdash; and bond vol broke the wrong way on the day. Verdict: <b>one signal, fade-prone.</b> The tape agreed within a session.</div>
           </div>
-          <span class="status st-watch">ARMED</span>
+          <span class="status st-idle">GRADED &middot; fade</span>
         </div>
         <div class="ins">
           <span class="kind">Alert</span>
           <div class="ins-body">
-            <div class="in">Cheap-tail window · 2 of 4 legs</div>
-            <div class="id2">Fires only when protection is genuinely cheap ahead of a dated event. Today the tail is <b>not</b> cheap — correctly quiet.</div>
+            <div class="in">Cheap-tail window &middot; 1 of 4 legs</div>
+            <div class="id2">Fires only when protection is genuinely cheap ahead of a dated event. Further from firing than a week ago &mdash; correctly quiet.</div>
           </div>
           <span class="status st-idle">DORMANT</span>
         </div>
@@ -279,16 +279,18 @@
       <div class="split">
         <div class="box flag">
           <h4>Position posture</h4>
-          <div class="posture-line">No VIOLET position</div>
-          <p>The thesis is already expressed through bond-vol — the live TLT puts carry the rates-vol/convexity leg. A separate VIX position would double-count it. Nothing changes without your approval.</p>
+          <div class="posture-line">Flat &mdash; closed today, &minus;$111.60 (&minus;38.8%)</div>
+          <p>The VIX call spread you approved on 27 Jul closed this morning on its own mandatory dated rule, returning $176.10 of the $287.70 risked. <b>It beat the base case, which was a total loss.</b> None of the five thesis stop-conditions ever tripped &mdash; the trade was ended by the clock, not by the thesis breaking.</p>
+          <p><b>The call was right and the trade still lost.</b> The Fed delivered exactly the spike it was built for, VIX 17.45&rarr;20.88, and the structure lost anyway because VIX options settle on the <i>forward</i>, which moves about a quarter as much as the headline number. The position drifted <i>further</i> out of the money after the event it was bought for. That is a vehicle mistake, and part of it is mine.</p>
+          <p><b>No re-entry.</b> Nothing changes without your approval.</p>
         </div>
         <div class="box">
           <h4>Next decision points</h4>
           <div class="sched">
-            <div class="ev"><span class="when">Fri 24 Jul</span><span class="what"><b>Positioning print</b> — does the 3-yr extreme hold, deepen, or unwind?</span></div>
-            <div class="ev"><span class="when">Wed 29 Jul</span><span class="what"><b>Fed decision</b> — the catalyst that could trip both crack legs at once</span></div>
-            <div class="ev"><span class="when">29 Jul–1 Aug</span><span class="what"><b>Megacap earnings</b> — the concentration risk</span></div>
-            <div class="ev"><span class="when">Awaiting</span><span class="what">HENRY on dealer gamma · LIQUID on credit freshness</span></div>
+            <div class="ev"><span class="when">Tonight</span><span class="what"><b>Amazon &amp; Apple earnings</b> &mdash; Tim Cook&rsquo;s last call as CEO. Third test of whether megacap violence lifts index vol, or just scatters it.</span></div>
+            <div class="ev"><span class="when">Fri 31 Jul</span><span class="what"><b>Bank of Japan</b> &middot; <b>positioning print</b> &middot; and a scored call of mine resolves &mdash; I registered &ldquo;miss&rdquo; and it is close.</span></div>
+            <div class="ev"><span class="when">Wed 5 Aug</span><span class="what"><b>The scorecard.</b> Set <i>before</i> the exit: holding would have beaten selling only if VIX settles above 20.45. It grades my fade call, not the exit rule.</span></div>
+            <div class="ev"><span class="when">Wed 16 Sep</span><span class="what">Next Fed decision, with projections &mdash; the next real gate.</span></div>
           </div>
         </div>
       </div>
@@ -365,13 +367,13 @@
     </div>
 
     <footer>
-      <span><b>Live values go stale; the structure doesn't.</b> Readings are stamped 22–23 Jul 2026 — the surface is intraday, credit and positioning lag by a day or more. The instrument definitions, routing, and standing rule stay true between refreshes.</span>
+      <span><b>Live values go stale; the structure doesn't.</b> Readings are stamped 30 Jul 2026 midday &mdash; the surface is intraday, credit lags a day, positioning about a week. The instrument definitions, routing, and standing rule stay true between refreshes.</span>
       <span><b>Four gauges, one signal.</b> VIX, VVIX, SKEW and term structure all come from the same options market — when they move together that's one opinion, not four confirmations. The independent channels are what make a signal real.</span>
       <span>Internal desk reference. Orientation, not trade instruction.</span>
       <div class="sig">
         <span>VIOLET — Volatility &amp; Term Structure</span>
-        <span>Framework v3.6</span>
-        <span>Refreshed 2026-07-23</span>
+        <span>Framework v3.8</span>
+        <span>Refreshed 2026-07-30</span>
       </div>
     </footer>
 
