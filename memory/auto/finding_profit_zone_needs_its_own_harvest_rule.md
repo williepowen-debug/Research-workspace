@@ -20,7 +20,16 @@ metadata:
 
 **Two compounding defects, both checkable at build time:**
 1. **The trigger variable was not the payoff variable.** Triggers were written on VIX **spot**; the spread settles on the **forward**. Spot 23 corresponded to a forward far above where the position first became profitable — so the harvest trigger sat outside the zone the trade actually passed through.
-2. **The forward moves less than spot, so a spot-keyed trigger is systematically too far away.** ⚠️ **Measure this over the HOLDING PERIOD, not intraday.** TERRY first published **beta ≈0.28** from a single 0.36-point intraday move at the fill — noise. **Realized fill→exit beta was 0.53** (spot 19.85→18.37 = −1.48; forward 19.60→18.81 = −0.79). *A one-observation beta on a small move is not a structural parameter.*
+2. **The forward moves less than spot, so a spot-keyed trigger is systematically too far away — but HOW much less is a function of TENOR, and quoting it as a scalar is itself a specification error.** VIOLET's independent OLS of daily ΔM1 on daily ΔVIX (`VX_M1_HISTORY.tsv`, n=246 CBOE VX M1 settlements), bucketed by the front contract's DTE:
+
+| M1 tenor | beta to spot | n |
+|---|---|---|
+| 21–35 DTE | **0.274** | 200 |
+| 11–20 DTE | 0.505 | 27 |
+| **≤10 DTE** | **0.591** | 19 |
+| *pooled* | *0.345* | *246* |
+
+**`TRY-VIOLET-VIXCS` lived at 9 DTE → 6 DTE, i.e. the ≤10 bucket ⇒ ~0.59** — and a *weekly* forward interpolates between spot (beta 1.0) and M1, so higher still: **call it ~0.6.** ⚠️ **TERRY published 0.28 (right number, wrong tenor — that is the 21–35 bucket), then "corrected" it to 0.53, which still understated it.** *Limits, per VIOLET: n=19 in the ≤10 bucket is thin and near-expiry convergence is partly mechanical — **the tenor GRADIENT is the robust part, the point estimate is not.*** **Carry it as `beta(tenor)`, never as a scalar** — a scalar mis-prices the next structure at a different DTE exactly as it mis-priced this one.
 
 **How to apply:**
 - **Every card with a directional payoff gets a P/L-keyed harvest rule**, not only world-keyed triggers. "Take half at +X%" is the floor.
