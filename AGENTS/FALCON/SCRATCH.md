@@ -34,7 +34,7 @@
 1. **🔴 JAZAN DAMAGE ASSESSMENT — FAL-03's leg A, and it can resolve the row any day.** ⚠️ **Re-read the guard before resolving: silence is NOT a CONFIRMED.** Chase an *affirmative* all-clear as hard as a positive disclosure.
 2. **🆕 RE-PULL THE WAR-RISK CARRY BY 7/29-30** — `WARRISK.tsv` self-reports its newest datum as **7/23**. Re-pull at primaries, update `Value`/`As_Of`/`Prior_*`, recompute the spread, **then** advance the data clock. **Never advance it without a re-pulled figure; don't widen `--days` to silence it.**
 3. **GATE-FALCON-001 leg-2** — TANKER-SPECIFIC Bab transits, ≥2 print-days sub-~8/day. **PortWatch post-strike aggregates surface ~7/29-8/1 — that is this week.**
-4. **GATE-FALCON-001 leg-3** — post-7/25 Yanbu loadings (base ~4.7M bpd). Didn't exist 7/27; resolves leg-3 either way.
+4. ✅ **GATE-FALCON-001 leg-3 ADJUDICATED 7/29 — NOT FIRED, tight margin.** Data absence closed (GS GIR via WALTER SIG-011 + my own independent Kpler pull). Total-liquids read ~−23% to −30% vs frozen "beyond −36%" bar = does not fire; a crude-only reading (−42.6%) would fire but rests on an unverified commodity-basis assumption for my own 4.7M baseline. Re-pull 8/1-2. Full: `reports/2026-07-29_gate-falcon-001-leg3-yanbu-loadings-adjudication.md`.
 5. **Does the pause hold a 4th+ night?** B's flip-up needs **framework + a DATE**. Strikes resuming → D toward 65.
 6. **Yanbu second-salvo watch** — the test the 7/25 intercept predicts is a *larger* attempt; its defence is consumable.
 7. **RED red-team on FAL-03's derivation** — invited explicitly (the hindsight-fitting joint + leg-A/leg-B). Treat as a real test, not a formality.
