@@ -1,6 +1,6 @@
 # LESSONS #21(a) — COOLDOWN-GATE RE-SPEC · **PRE-REGISTERED PROPOSAL FOR WILL'S [APPROVE / NO]**
 
-**Author:** BRENT · **Date:** 2026-07-30 Thu ~2:40 PM ET · **Status:** ⏳ AWAITING WILL'S WRITTEN RULING
+**Author:** BRENT · **Date:** 2026-07-30 Thu ~2:40 PM ET · **Status:** ✅ **RULED 2026-07-30 — WILL APPROVED OPTION A** (sequenced gate, −15% decompression, ≤33%-of-width debit cap, 20-td expiry, frame-breaker carve-out). **Implemented same session** in `TRADE.md` §DEPLOY GATE v2 (canonical) and swept across STATUS / NEXUS_BRIEF / THESIS / LESSONS. **Live at ratification:** 10 of 20 td used, arm expires ~2026-08-13; post-arm OVX peak 68.97; OVX 63.46 = −8.0%; **leg (a) NOT MET (needs ≤58.62).** ⚠️ **Applied PROSPECTIVELY — 7/28 would have fired leg (a) but predates the ruling; no retroactive fire claimed.**
 **Governs:** the **convex MAIN arm** deploy gate (`TRADE.md` § ACTIVE TRADE PLAN — v5.0 CONVEX ARM). **Does NOT touch** the off-ramp playbook (#21(b), ratified 7/29) or the filled Branch-2 tail-rider.
 **All numbers below are FROZEN CONSTANTS, never rolling percentiles** — per #21(a) itself.
 

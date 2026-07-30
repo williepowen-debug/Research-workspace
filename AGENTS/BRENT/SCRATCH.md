@@ -1,10 +1,16 @@
-# BRENT SCRATCH — Thu Jul 30, 2026 ~2:05 PM ET (boot + news-absorb session: **THE MOLECULE SPLIT → THESIS v5.2** · EIA primary caught TWO wrong relayed figures · CPC re-halted · a catalyst-hygiene miss recovered)
+# BRENT SCRATCH — Thu Jul 30, 2026 ~3:15 PM ET (boot + news-absorb + **LESSONS #21(a) RULED — DEPLOY GATE v2 LIVE**: **THE MOLECULE SPLIT → THESIS v5.2** · EIA primary caught TWO wrong relayed figures · CPC re-halted · a catalyst-hygiene miss recovered)
 
 **Purpose:** Ephemeral session handoff — canonical "where are we / what next". Read at boot (step 2), rewritten at closeout (step 11).
 
 ---
 
 ## ⏳ FIRST THING NEXT SESSION
+
+0. **🔓 THE DEPLOY GATE CHANGED TODAY — READ `TRADE.md` §DEPLOY GATE v2 BEFORE ANY POSITION THOUGHT.** Will ratified **Option A** 7/30. Old `{ratio <2.89 AND OVX <44.2}` is **RETIRED in full.**
+   - **Check leg (a) EVERY session:** OVX ≤ **58.62** (= −15% off the post-arm peak **68.97**). At 7/30 close-ish OVX 63.46 = **−8.0%, NOT MET.**
+   - **⏳ THE ARM NOW HAS A CLOCK IT NEVER HAD: 10 of 20 trading days used, EXPIRES ~2026-08-13.** If it expires un-deployed it needs a **fresh** Tier-1/Tier-2 event to re-arm. **Do not let it lapse silently — that is exactly the class of rot this file exists to prevent.**
+   - **⚠️ The peak RE-RATCHETS: any fresh escalation that lifts OVX above 68.97 RAISES the bar.** Re-derive the peak from the arming date each session; never carry 68.62/58.62 as a constant.
+   - Leg (b) — debit ≤33% of spread width — is graded **on a live chain at fire only.** Never model it.
 
 1. **🔴 FRIDAY 7/31 IS A THREE-EVENT DAY AND ONE OF THEM WAS NOT ON MY DOCKET UNTIL TODAY.**
    - **CFTC COT as-of 7/28** — THE print that finally sees BOTH the $100.69 high and the −18.1% crash. Ladder from **123,490**. **Run closeout step 7a; grade off raw `f_disagg.txt`, not Socrata alone.** ⚠️ **Do NOT let it stack with the 8/7 print.**
@@ -24,7 +30,7 @@
 - **🔴 THE US RESUMED HARD, AND THE OIL GATES STILL DID NOT MOVE.** CENTCOM "heavy wave," dozens of IRGC targets inside Iran, completed ~10 PM ET 7/29. **Iran is launching DAILY** (7/28 Jordan · 7/29 · 7/30). **Kuwait hit 7/30 AM, one worker killed = the exchange's FIRST FATALITY**; 3 civilians killed in Qeshm. **Target set military/maritime — NO oil, no confirmed nuclear ⇒ FAL-01 + GATE 2 unfired, zero confirmed CRUDE barrels offline holds.**
 - **★ BUT NOTE WHAT IS BEING HIT — and it opened a hole in my own playbook.** The targets are the **Hormuz-ENFORCEMENT apparatus** (coastal surveillance + maritime capabilities, Qeshm/Bandar Abbas/Abu Musa; CENTCOM's purpose sentence **names commercial shipping**). **That is the first mechanism this war has produced that could reopen the strait with NO deal and NO Iranian decision.** My off-ramp **Stage A requires a signature/sovereign act** — so an **enforcement-degradation reopening delivers transit recovery with no announcement to trigger the gate, and my playbook would sit UN-FIRED through the actual reopening.** **Recorded as a gap and formally asked of FALCON (it is GATE 2's question), NOT quietly patched.**
 - **📈 TAPE: Brent settled $90.74 (+7.91%) on 7/29** — resumed strikes **plus** the draw. **$89.22 (−1.68%) intraday 7/30**, still **−11.4% below the $100.69 peak.** ⚠️ **Wires ranged $87.30-$92.65 today — do not cite a single 7/30 print.**
-- **OVX re-inflated exactly as I flagged on 7/28: 57.15 → 67.59 → 63.81.** Gate unmet both legs, **8th session.**
+- **OVX re-inflated exactly as I flagged on 7/28: 57.15 → 67.59 → 63.46.** ⚠️ **The old 'gate unmet, Nth consecutive session' counter is RETIRED with the gate it counted** — it was tallying a condition that could not fire in this regime, which read as discipline and was not. **Under DEPLOY GATE v2 the live read is: decompression −8.0%, leg (a) needs ≤58.62.**
 
 ## WHAT I DID (7/30)
 
@@ -61,7 +67,7 @@
 
 ## OPEN THREADS / WATCHES
 
-- 🔴 **LESSONS #21(a) — the OVX <44.2 unfireability question — STILL UNRULED, and the silence is not a ruling.** Vol re-inflated (63.81), so **the gate question has gone quiet again — which is exactly when an unruled spec defect survives to the next cooldown and governs capital unexamined.** The #21 re-spec draft for Will is **still owed by me.**
+- ✅ **LESSONS #21(a) — RULED 7/30, Option A approved; #21 CLOSED in both halves.** ⛔ **And the escalation itself was FALSE and is retracted on the record:** the gate was met **50.4%** of the prior year and last opened 7/06 — not 'unfireable'. The real defect was that it opened on **0 of 38 escalation days**. **An escalation is an assertion — base-rate it BEFORE sending it.** I only ran the numbers when I sat down to draft the fix. Vol re-inflated (63.81), so **the gate question has gone quiet again — which is exactly when an unruled spec defect survives to the next cooldown and governs capital unexamined.** The #21 re-spec draft for Will is **still owed by me.**
 - 🔴 **The off-ramp playbook has a NAMED HOLE** (enforcement-degradation reopening, item 4 above). Recorded, not patched.
 - 🟠 **"War-risk halves" still names NO ANCHOR** — halving from 7.5-10% of hull lands ~4-5%, still 20-50× pre-crisis. Threshold-strength, deliberately out of scope for the (b) ruling. Candidate: absolute *"<2.5% of hull."*
 - 🟠 **MRPL tender clause = RE-CONTRACTING, not re-routing.** Falsifier: no second Indian adopter in 3-4 weeks ⇒ one cautious buyer.
@@ -71,7 +77,7 @@
 ## POSITION DECISIONS PENDING
 
 - **USO Sep-18 150/165 spread — HOLD, no action. PATH IMPROVED for the first time since the fill:** needs **+17.3%** to the $150 strike (was +24.5% on 7/28), **+19.6%** to BE ~$153 ≈ Brent ~$110, **50 DTE**, USO $127.89. **No spread mark taken, deliberately** — the 165C leg is thin and a screen mid would be fiction (rule #4). **Do not add** (gap insurance, not directional; OVX 63.81 makes convexity expensive) **and do not cut** (defined risk already paid; COT + BH + the ban decision all land inside 48h). ⚠️ **FORGE reconcile on the fill price STILL OWED from Will.**
-- **Convex MAIN arm ARMED-and-HOT, no capital. Gate unmet both legs, 8th session** — OVX 63.81 vs <44.2 (**−30.7%, binding**) · ratio 3.403 vs <2.89 (−17.7%). **Never regrade off rolling percentiles** (p90 drifted 2.89→3.32).
+- **Convex MAIN arm ARMED, no capital — and NOW ON A CLOCK under DEPLOY GATE v2 (ratified 7/30, Will, Option A).** **10 of 20 trading days used → EXPIRES ~2026-08-13 un-deployed**, after which it needs a FRESH Tier-1/Tier-2 event. **Leg (a): OVX 63.46 vs post-arm peak 68.97 = −8.0%; needs ≤ −15% ⇒ OVX ≤ 58.62. NOT MET.** Leg (b) graded on a live chain at fire only. ⚠️ **The peak RE-RATCHETS on fresh escalation — re-derive it each session, never carry 58.62 as a constant.** *(The old `{2.89 / 44.2}` gate and its 'Nth consecutive session' counter are both retired — it was open on 0 of 38 escalation days in 3 years.)*
 - **Off-ramp playbook ARMED-PASSIVE.** v2 ratified 7/29. **Did not trigger** — Iran-Oman conflicting, no signature, no transit normalisation. ⚠️ **Tanker check did NOT fire today and that is NOT a signal**: STNG −1.61% / FRO −1.33% / DHT −0.10% on a day crude also fell, with **no de-escalation announcement** — the LESSONS #16/#18 check only has meaning on an announcement day.
 - **XLE $65C Sep-30 = LAPSE** (−56%) — TERRY proposes it as the diesel-leg funding source. ⚠️ **And I have just sent TERRY a 🔴 caution AGAINST that trade's entry** (99.2nd %ile + unrepaired crowding + an adverse binary tomorrow). Thesis stronger, entry worse.
 
@@ -79,7 +85,7 @@
 
 - **Inbox: ZERO both lanes.** 5 consumed, 5 `board_log.tsv` rows, 5 `git mv`'d — **reconciled (moved == logged).**
 - **Sent:** PROME · FALCON · OSPREY · TERRY · HAWK (5).
-- **Owed BY me:** Will the **#21(a) re-spec draft** (overdue) · FALCON nothing (they owe me the GATE-2 read) · the **Branch-2 partial-execution rung** (self-owed, 3rd session) · **TTF** (self-owed, 4th session).
+- **Owed BY me:** ~~Will the #21(a) re-spec draft~~ ✅ **DELIVERED AND RULED 7/30 (Option A) — #21 is now CLOSED in both halves** · FALCON nothing (they owe me the GATE-2 read) · the **Branch-2 partial-execution rung** (self-owed, 3rd session) · **TTF** (self-owed, 4th session).
 
 ## WORKBOOK HEALTH
 

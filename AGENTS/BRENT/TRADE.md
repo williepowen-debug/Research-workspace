@@ -1,8 +1,8 @@
 # BRENT TRADE.md — domain trade surface
 
-**Updated:** 2026-07-30 Thu ~2:00 PM ET · **Last real data refresh: 2026-07-30** · **✅ Boot step 6c PENDING-row guard RUN 7/30: zero PENDING/⏳ rows in the EXECUTION LOG — 7/24 FILLED, 7/27 MARK+HOLD, 7/22 NOT-FILLED, all terminal. Guard passes clean for the first time since it was mechanized.** *(prior stamp: 2026-07-28 Tue ~10:00 PM ET; earlier: **Last real data refresh: 2026-07-28**)* (tail-rider **FILLED 7/24 ~$300**; header had been stranded at 7/23 "pending fill" for four days after the fill — the two-clock class, caught by DAEDALUS 7/28) | **THESIS v5.1 (asymmetry UPSIDE-CONVEX — Phase-1 re-squeeze REALIZED; Brent >$100 7/23)** | **LIVE surface** (not frozen — keep current at every closeout or it rots).
+**Updated:** 2026-07-30 Thu ~2:00 PM ET · **Last real data refresh: 2026-07-30** · **✅ Boot step 6c PENDING-row guard RUN 7/30: zero PENDING/⏳ rows in the EXECUTION LOG — 7/24 FILLED, 7/27 MARK+HOLD, 7/22 NOT-FILLED, all terminal. Guard passes clean for the first time since it was mechanized.** *(prior stamp: 2026-07-28 Tue ~10:00 PM ET; earlier: **Last real data refresh: 2026-07-28**)* (tail-rider **FILLED 7/24 ~$300**; header had been stranded at 7/23 "pending fill" for four days after the fill — the two-clock class, caught by DAEDALUS 7/28) | **THESIS v5.2 (molecule-scoped discriminator; asymmetry UPSIDE-CONVEX; Phase-1 re-squeeze REALIZED)** · **DEPLOY GATE v2 RATIFIED 7/30 (Will, Option A)** | **LIVE surface** (not frozen — keep current at every closeout or it rots).
 
-> **🔴 7/21 TREE GRADED (pre-reg `outbox/2026-07-17_to-PROME_cot-grade-verdict.md`): tree row 1 = STAYS-HOT CONFIRMED, STILL PASS-ON-CHASE.** **$85×3 FIRED at earliest date** — settles 7/17 $88.10 · 7/20 $89.22 · 7/21 $92.15 [CONF Yahoo BZ=F], all >$85 = sustained PREMIUM, NOT supply loss, NOT a deploy trigger. No Kharg seizure (FAL-01 unfired); no Muscat breakthrough. **Cooldown gate moved FURTHER away: OVX 63.78 = NEW cycle high** (VIX 17.05, ratio 3.74 vs 3.27 on 7/17) — gate {ratio <2.89 AND OVX <44.2} decisively unmet → **no deploy, arm ARMED-and-HOT, no capital.** Branch-1 ($80-82 pullback) re-entry stays MODERATE; **Branch-2 gap paths now TWO** (Kharg seizure + Bab/Yanbu execution — see STATUS 7/21 Saudi dual-route-compression vector), both COT-invisible → **the far-OTM tail-rider question to Will is LIVE and slightly stronger than 7/17.** New physical axis: CPC Kazakh halt (~1.3-1.5M bpd, first actual barrels-offline event; leg-(b) fires ~7/24 if continuous) — a REAL-barrels catalyst class distinct from the premium cluster. GS 7/20 LONG-DIESEL escalation-hedge rec on record (OECD diesel 4th %ile) — expression = Will/TERRY decision, not auto-adopted.
+> **🔴 7/21 TREE GRADED (pre-reg `outbox/2026-07-17_to-PROME_cot-grade-verdict.md`): tree row 1 = STAYS-HOT CONFIRMED, STILL PASS-ON-CHASE.** **$85×3 FIRED at earliest date** — settles 7/17 $88.10 · 7/20 $89.22 · 7/21 $92.15 [CONF Yahoo BZ=F], all >$85 = sustained PREMIUM, NOT supply loss, NOT a deploy trigger. No Kharg seizure (FAL-01 unfired); no Muscat breakthrough. **Cooldown gate moved FURTHER away: OVX 63.78 = NEW cycle high** *(⚠️ HISTORICAL — that gate was RETIRED 2026-07-30, Will-ratified; see §DEPLOY GATE v2. Kept as the dated record of what was graded at the time, NOT a live rule.)* (VIX 17.05, ratio 3.74 vs 3.27 on 7/17) — gate {ratio <2.89 AND OVX <44.2} decisively unmet → **no deploy, arm ARMED-and-HOT, no capital.** Branch-1 ($80-82 pullback) re-entry stays MODERATE; **Branch-2 gap paths now TWO** (Kharg seizure + Bab/Yanbu execution — see STATUS 7/21 Saudi dual-route-compression vector), both COT-invisible → **the far-OTM tail-rider question to Will is LIVE and slightly stronger than 7/17.** New physical axis: CPC Kazakh halt (~1.3-1.5M bpd, first actual barrels-offline event; leg-(b) fires ~7/24 if continuous) — a REAL-barrels catalyst class distinct from the premium cluster. GS 7/20 LONG-DIESEL escalation-hedge rec on record (OECD diesel 4th %ile) — expression = Will/TERRY decision, not auto-adopted.
 
 > **🔴🔴 7/16 RE-ARM CONFIRMED (read first):** The 7/10 DENY is OVERTAKEN. Iran FORMALLY closed Hormuz 7/11-12; the Tier-2 CONFIRM partition is **decisively met** — LEVEL: settles 7/13 $83.30 / 7/14 $84.73 / 7/15 $84.95 / 7/16 $84.23 / 7/17 $86.88 live (all >>$75; ⚠️ 7/13 "$78.85" was an intraday SPOT quote mislabeled as a settle — corrected 7/17; high-water settle $84.95, zero settles >$85); **≥3 FRESH countable legs** beyond the standing war-risk anchor {transit collapse to 10/88=11% [PortWatch 7/12] · renewed kinetic step [US 3rd wave + GFS Galaxy + KOC] · formal closure + Qatar suspension}; PLUS two standalone CONFIRM paths (durable ceasefire collapse + confirmed physical re-closure). **Energy tail 🟡 fragile-watch → 🔴 ACTIVE (Phase-1 re-squeeze).** ⚠️ **But: DEPLOY = PASS-ON-CHASE** — the cheap-convexity window was the 7/11-13 gap (offline 7/13-15, missed it); OVX ~61 (crisis-level) makes the arm vol-RICH now; +13% move already happened; today GREEN (rule #6). Arm = **ARMED-and-HOT, no capital**; deploy on a RED-day/vol-cooldown pullback OR a small further-OTM tranche only. Adjudication: `outbox/2026-07-16_to-PROME_rearm-adjudication.md`.
 
@@ -37,9 +37,48 @@
 
 *This is the standing pre-registration for the upside-convex expression (the rolling successor to the resolved single-event `PREREG_20260628_CME_reopen.md`). Written before the trigger so execution is pre-thought, not scrambled.*
 
-**Status:** 🔴 **ARMED-and-HOT (re-arm CONFIRMED 7/16), NOT deployed — deploy = PASS-ON-CHASE at $86/green/OVX-61. No capital committed.**
+**Status:** 🔴 **ARMED — NOT deployed, no capital committed. ⏳ AND NOW ON A CLOCK: 10 of 20 trading days used, arm EXPIRES ~2026-08-13.**
 
-> **🔴 7/17 COT GRADE (report-date 7/14) = SQUEEZE IGNITING (partial):** MM gross shorts 129,072→119,187 (ΔS −9,885, in the frozen IGNITING band). Crowded short covering into the closure spike (spring-fuel now burning at the margin) BUT partial + de-grossing-led (net −2,067; longs fell more) + ICE-WTI sibling shorts BUILT +8,531 + ~92% fuel remains. **Effect on the arm: re-entry Branch-1 (the $80-82 pullback) downgrades from HIGHEST→MODERATE** — covering supports price so the dip may not come, and the spring is no longer fully coiled. **Branch-2 (Kharg seizure/blockade gap→$100+, no pullback, book strands flat) is un-hedged and INVISIBLE to the COT** (a seizure fires no FAL-01; flow-anchor it — Kharg loadings→0, not a headline) → argues for a defined-risk far-OTM tail rider OR an accepted flat-through-the-gap decision (Will's call). **Cooldown gate to deploy:** OVX/VIX ratio <p90 (2.89) AND OVX <p75 (44.2) — now 3.27 (p95.9 FIRE) / 60.4 (p93). Today $87.71 = first >$85 ever if it settles → FALCON $85×3 session 1 (earliest full fire 7/21). Memo + 7/21 tree → `outbox/2026-07-17_to-PROME_cot-grade-verdict.md`.
+---
+
+### ⚑⚑ DEPLOY GATE v2 — **RATIFIED BY WILL 2026-07-30 (Option A). SUPERSEDES the `{ratio <2.89 AND OVX <44.2}` cooldown gate in full.**
+
+> **⛔ WHY THE OLD GATE IS GONE — and it is NOT the reason I first escalated.** I told Will the gate *"may be unfireable by construction."* **That was false: it was met on 50.4% of the prior year's sessions and last opened 7/06.** The real defect: **the gate and this arm's own trigger are MUTUALLY EXCLUSIVE BY CONSTRUCTION** — the arm arms on **escalation**, the gate opened on **calm**. Over 753 sessions the gate was open on **0 of 38 escalation days (0.0%)** vs **78.5% of all others**. **No threshold choice fixes an anti-correlation.** Secondary defect: the gate priced **vega** while LESSONS #15 mandates a **vertical spread precisely because a spread neutralises vega** — at spec moneyness the debit rises only **+13.5%** from the old line (44.2) to OVX 63.8 and **asymptotes above ~90% IV**, versus **+140%** for the naked call the plan bans. **The gate was correctly specified for the instrument this plan forbids.** Full analysis + limitations → `setups/2026-07-30_LESSONS21a-cooldown-gate-respec-PROPOSAL.md`. Class → `[[finding_compound_gate_jointly_unsatisfiable]]`.
+
+**The fix is SEQUENCING, not a re-tuned threshold. Two stages, never simultaneous:**
+
+**▸ STAGE 1 — ARM (unchanged).** Tier-1 / Tier-2 event conditions fire exactly as specified below. This creates a **dated, EXPIRING** armed state.
+
+**▸ STAGE 2 — DEPLOY.** Within **20 TRADING DAYS** of the arming date, on the **FIRST** session satisfying **BOTH**:
+
+| Leg | **FROZEN test** | Controls |
+|---|---|---|
+| **(a) Vol decompression** | **OVX ≤ −15.0% from its running peak measured SINCE THE ARMING DATE** | "Don't buy the panic tick" — measured *relative to this crisis*, never against a calm-market absolute, never a percentile |
+| **(b) Structure economics** | **Net debit ≤ 33.0% of spread width** (⇔ **R:R ≥ 2.0:1**), from a **LIVE CHAIN** at fill | The thing the vol legs were proxying for, measured directly. Also catches bad strike selection and blown-out crisis bid/ask |
+
+- **⏳ EXPIRY:** if neither leg fires inside 20 td, **the arm EXPIRES UN-DEPLOYED** and requires a **FRESH** Tier-1/Tier-2 event to re-arm. *(v1 had NO expiry — "ARMED-and-HOT" could persist indefinitely. This is the single biggest tightening in the package.)*
+- **🔓 FRAME-BREAKER CARVE-OUT:** a **confirmed destroyed-capacity event** (clean FAL-01 / named-major with **confirmed capacity loss** / vessel **SUNK**) deploys on leg **(b) alone.** That is a regime change, not a chase.
+- **🔺 RE-RATCHET:** the peak in (a) is a **running maximum since arming** — a fresh escalation **raises the peak and therefore raises the bar.** The gate **self-tightens in a worsening crisis.**
+- **UNCHANGED:** vehicle (USO) · structure (vertical call spread, 60-90 DTE, long ~5% OTM / short ~12-15% OTM) · **max loss ~$500 defined** · **Will's [Approve] at fire.** *This re-spec changed the vol condition and nothing else about what the arm is.*
+
+**🔻 Three tightenings shipped WITH the loosening, per the ratified #21(b) rule** (*a spec repair is not direction-neutral; sequencing loosens a gate governing a LONG*): **① the 20-td expiry** (new) · **② the leg-(b) economics floor** (new — v1 had no test of what the trade actually costs) · **③ the re-ratcheting peak** (new).
+
+**📍 LIVE STATE (2026-07-30, computed at ratification):**
+
+| | |
+|---|---|
+| Arming date | **2026-07-16** (Tier-2 CONFIRM) |
+| Window | **10 of 20 td used → ~10 remain, expires ~2026-08-13** |
+| Post-arm OVX running peak | **68.97** (set 7/23) |
+| OVX now | **63.46** → decompression **−8.0%** |
+| **Leg (a)** | ❌ **NOT MET** — needs **OVX ≤ 58.62** (a further −7.6%) |
+| **Leg (b)** | ⏸ not evaluated — graded on a **live chain at fire only**, never modelled |
+
+> ⚠️ **PROSPECTIVE, NOT RETROACTIVE — stated so nobody later reads a missed fire into the record.** **7/28 would have satisfied leg (a)** (OVX 57.15 = **−17.1%**, USO $120.49). **That session predates this ratification and NO fire is claimed from it.** The rule runs forward from 2026-07-30. The post-arm peak (68.97) and the arming date (7/16) are carried forward unchanged because they are facts about the armed state, not about the rule.
+
+---
+
+> **🔴 7/17 COT GRADE (report-date 7/14) = SQUEEZE IGNITING (partial):** MM gross shorts 129,072→119,187 (ΔS −9,885, in the frozen IGNITING band). Crowded short covering into the closure spike (spring-fuel now burning at the margin) BUT partial + de-grossing-led (net −2,067; longs fell more) + ICE-WTI sibling shorts BUILT +8,531 + ~92% fuel remains. **Effect on the arm: re-entry Branch-1 (the $80-82 pullback) downgrades from HIGHEST→MODERATE** — covering supports price so the dip may not come, and the spring is no longer fully coiled. **Branch-2 (Kharg seizure/blockade gap→$100+, no pullback, book strands flat) is un-hedged and INVISIBLE to the COT** (a seizure fires no FAL-01; flow-anchor it — Kharg loadings→0, not a headline) → argues for a defined-risk far-OTM tail rider OR an accepted flat-through-the-gap decision (Will's call). **Cooldown gate to deploy:** OVX/VIX ratio <p90 (2.89) AND OVX <p75 (44.2) — now 3.27 (p95.9 FIRE) / 60.4 (p93). *(⚠️ HISTORICAL — this gate was RETIRED 2026-07-30, Will-ratified, and replaced by DEPLOY GATE v2. Dated record of what was graded at the time, NOT a live rule.)* Today $87.71 = first >$85 ever if it settles → FALCON $85×3 session 1 (earliest full fire 7/21). Memo + 7/21 tree → `outbox/2026-07-17_to-PROME_cot-grade-verdict.md`.
 **Thesis (one-liner):** the squeeze never physically resolved + the buffer is nearly spent → the dominant medium-term risk is a **Phase-1 RE-SQUEEZE (up)**, not Phase-2 (down); express the rising, no-cushion upside tail with defined risk. (Full: THESIS v5.0.) **7/16: the re-squeeze is no longer a tail — it is HAPPENING (formal Hormuz closure, transits at 11%). The arm's job now flips from "capture an unpriced tail" to "add on a vol-cooldown pullback," because the cheap-entry premise (calm vol) is gone — OVX ~61.**
 
 | Field | Spec |
@@ -175,7 +214,8 @@
 | **~Thu Jul 24** | CPC leg-(b) (5th continuous session) | first actual barrels-offline event goes durable → real-barrels catalyst class |
 | **Fri Jul 24** | CFTC COT (as-of 7/21) + Baker Hughes | squeeze progression from IGNITING (gross-short ladder from 119,187); rigs 452 → 457 breach watch |
 | **Tue Jul 28** | OPEC JMMC | policy behind the tape |
-| Rolling | **Deploy gate** (OVX/VIX <p90 2.89 AND OVX <p75 44.2 + stabilized pullback) · **Branch-2 gap tells** (Kharg loadings→0 · aggregate Bab transit collapse / Yanbu liftings stop) | **the entry gate + the two COT-invisible gap paths** |
+| **⏳ ~Aug 13** | **🔴 ARM EXPIRY — 20 td from the 7/16 arming.** If DEPLOY GATE v2 has not fired by then the arm **expires un-deployed** and needs a FRESH Tier-1/Tier-2 event | **the new hard stop; v1 had none** |
+| Rolling | **DEPLOY GATE v2 (ratified 7/30)** — leg (a) **OVX ≤ −15% from the post-arm peak 68.97 ⇒ OVX ≤ 58.62** · leg (b) **debit ≤33% of width on a live chain** · *(old `{2.89 / 44.2}` gate RETIRED — see §DEPLOY GATE v2)* · **Branch-2 gap tells** (Kharg loadings→0 · aggregate Bab transit collapse / Yanbu liftings stop) | **the entry gate + the two COT-invisible gap paths** |
 
 ---
 
