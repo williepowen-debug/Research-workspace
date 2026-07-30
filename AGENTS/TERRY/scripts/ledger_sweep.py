@@ -385,9 +385,34 @@ STOPWORDS = {
 }
 
 
+# ---------------------------------------------------------------------------
+# MANUAL SUPERSESSION REGISTRY (PROME review 2026-07-30, D2)
+# ---------------------------------------------------------------------------
+# Check B learns corrections ONLY from the `label ~~old~~ -> new` diff form. PROME
+# demonstrated the hole live: the 1.0888 -> 1.0683 correction was never written that
+# way ANYWHERE, so the guard never learned it, and it passed two naked instances
+# (PB-0003 + SETUPS r8) while reporting "✓ no naked superseded values". A guard whose
+# CLEAN certifies less than it reads as certifying is the warning-reads-as-vigilance
+# class — the same one this desk banked fleet-wide the same day.
+#
+# So: corrections that were NOT written in diff form get seeded here BY HAND. Same
+# (label, value) contract as the learned pairs — never a bare number.
+# ADD A ROW whenever you correct a value without using the `~~old~~ -> new` form.
+MANUAL_SUPERSESSIONS: set[tuple[str, str]] = {
+    ("VIX3M/VIX min", "1.0888"),     # -> 1.0683 (7/30; 10:11-ET min of 5m CLOSES)
+    ("session high", "18.71"),       # -> 19.11  (same defect, same session)
+    ("beta", "0.28"),                # -> beta(tenor), ~0.6 at 9->6 DTE
+    ("beta", "0.53"),                # -> superseded 5h later by beta(tenor)
+}
+
+
 def struck_tokens_from_diff(diff: str) -> set[tuple[str, str]]:
     """
     Values newly CORRECTED by recent commits, i.e. `label ~~old~~ -> new`.
+
+    ⚠️ This ONLY learns the diff form. Corrections written any other way are invisible
+    here and must be seeded in MANUAL_SUPERSESSIONS above — see that block for the live
+    miss that forced it (PROME, 2026-07-30).
 
     Returns (label, value) pairs, NOT bare values. Matching a bare number across the desk
     is the defect that gave consumer_check.py ~123 false positives this morning: "0.53" is
@@ -431,7 +456,15 @@ def check_superseded_drift(pairs: set[tuple[str, str]], surfaces: dict[str, str]
                     start = i + len(tok)
                     window = line[max(0, i - MARKER_WINDOW): i + len(tok) + MARKER_WINDOW]
                     # Must be THIS quantity (label present) and not already annotated.
-                    if label in window.lower() and not CORRECTION_MARKERS.search(window):
+                    # ⚠️ BOTH sides lowered. This compared a raw `label` against a
+                    # lowered window, so any label carrying a capital (e.g.
+                    # "VIX3M/VIX min") could NEVER match and its registry entry was
+                    # SILENTLY INERT — the check reported the pair in its header line
+                    # while being structurally incapable of firing on it. Found
+                    # 2026-07-30 only by calling this function directly; a stdout grep
+                    # for the value "passed" because the header echoes the registry.
+                    # (finding_test_the_guard_not_just_the_guarded)
+                    if label.lower() in window.lower() and not CORRECTION_MARKERS.search(window):
                         naked.append(f"{path}:{n}")
                         break
         if naked:
@@ -585,6 +618,19 @@ def selftest() -> int:
        check_superseded_drift({("high", "18.71")}, {
            "S.tsv": "session high 18.71 vs the >=23 line, no trigger missed -> CORRECTED to 19.11"}) == [])
     ok("value absent -> silent", check_superseded_drift({("high", "18.71")}, {"S.tsv": "nothing"}) == [])
+    # ★ MIXED-CASE LABEL (regression, PROME D2 2026-07-30). A raw-vs-lowered compare
+    # made every capitalised label silently inert while still being echoed in the
+    # header — the guard advertised coverage it structurally could not deliver.
+    ok("MIXED-CASE label still fires (was silently inert)",
+       len(check_superseded_drift({("VIX3M/VIX min", "1.0888")},
+           {"S.tsv": "VIX3M/VIX min print 1.0888 (never <1.0)"})) == 1)
+    ok("MIXED-CASE label respects annotation",
+       check_superseded_drift({("VIX3M/VIX min", "1.0888")},
+           {"S.tsv": "VIX3M/VIX min print 1.0888 [CORRECTED -> TRUE 1.0683]"}) == [])
+    # Every hand-seeded pair must be REACHABLE, or the registry is decorative.
+    for _lbl, _tok in MANUAL_SUPERSESSIONS:
+        ok(f"registry pair reachable: {_lbl}={_tok}",
+           len(check_superseded_drift({(_lbl, _tok)}, {"S.tsv": f"{_lbl} {_tok} asserted"})) == 1)
 
     # --- extractors on synthetic surface text
     ok("SETUPS.tsv extractor keys on setup_id",
@@ -634,7 +680,9 @@ def run_live(since: str) -> int:
     a = check_state_agreement(claims)
     c = check_header_vs_body(cards)
     d = check_read_sanity(claims)
-    tokens = struck_tokens_from_diff(recent_diff(since))
+    # Learned-from-diff pairs UNION hand-seeded ones. The manual set is what makes
+    # check B's "CLEAN" mean what it reads as meaning — see MANUAL_SUPERSESSIONS.
+    tokens = struck_tokens_from_diff(recent_diff(since)) | MANUAL_SUPERSESSIONS
     b = check_superseded_drift(tokens, surfaces)
 
     print(f"\nD. READ SANITY — did every surface actually parse?")
