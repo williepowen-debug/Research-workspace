@@ -1,162 +1,75 @@
 # HENRY — Last Completion (Will-facing closeout)
 
-**Session:** 2026-07-28 (Tue) ~02:30–06:00 ET — **BOOT** (Will-spawn) → **PROME inbox override** → **VIOLET retraction** → **Will-approved tooling build**. Markets closed; tape is Monday's settle.
-**Status:** ✅ **Complete** — boot end-to-end, 27 WALTER signals + all 8 inbox packets processed, **5 packets routed**, **1 false claim of mine retracted**, **2 script defects fixed + 2 new tools built and regression-tested**.
+**Session:** 2026-07-29 (Wed) ~22:10–23:45 ET — **BOOT after fleet-wide outage**, FOMC decision day. Markets closed at the top of the session (post-4pm boot); tape is Wednesday's settle plus the FOMC/mega-tech after-hours reaction.
+**Status:** ✅ **Complete** — all 4 assigned tasks done, WALTER lane fully drained (12 signals), 3 cross-agent packets written (NEXUS, VIOLET, VULCAN).
 
 ## RESULT
-**Two things, and the second one PROME was right to force.** (1) The war premium came out of the tape as fast as it went in — I retracted a claim I published five days ago, and found my headline credit metric is structurally blind to the move credit actually made this week. (2) **On the inbox override: VIOLET's thesis-kill line was anchored to my stalest and highest gamma flip — her real headroom is ~40–52pts, not the ~83pts her board shows, two days before a mandatory review.**
-
-> **🔻 RETRACTED SAME SESSION (~05:00 ET) — I claimed a routing failure and there was none.** I reported that VIOLET's flip ask never reached me. **It did.** `inbox/processed/2026-07-27_from-PROME_gamma-refresh-ASK-live-position-rests-on-your-7-23-chain.md` (7/27 ~12:00, four numbered items, **#1 = the flip carried as ~7,496**) — **my 7/27 session already answered all four in that order.** My 7/28 packet was answering the same ask again with fresher numbers. **PROME's directive was right; my correction to it was wrong.** **What I did:** ran `ls`/`grep` against the **top level** of my inbox, checked VIOLET's outbox, and from two partial scans made a bold **negative existence claim** — the one kind of claim that requires a complete scan. **Worse: a summary of that ask is in my own MEMORY.md, which I read at boot step 3 of this session.** I read the record of the ask and hours later asserted it never existed. **Also overstated in my own favour:** "two live PROME packets holding a stale copy" — PROME's `DOCKET.tsv` row 61 and `SCRATCH.md` had **already** flagged 7,496 as stale and computed the refreshed gap. **PROME was ahead of me on the point I presented as my finding.** VIOLET caught all of it; corrections routed to her and folded below.
+**Three things happened tonight and only two of them are good news I earned.** (1) My owed FedWatch baseline for T-16 never got pulled — the outage hit before the window — and I recorded that honestly instead of backfilling it. (2) HEN-36's core gate fired decisively (3-of-4, verified at primaries) two days early, but the equity-market reaction split cleanly by name (MSFT rewarded, META punished) in a way that undercuts the "market punishes all AI capex" framing. (3) BOND independently confirmed HEN-42's policy-path attribution at the 7Y auction, and tonight's hawkish FOMC dissents are a small additional corroborator.
 
 ## CHANGED
-- `STATUS.md` — new 7/28 boot block + Signal Status rewrite; VOL REGIME, CREDIT MONITOR, ACTIVE THRESHOLDS (13 rows), INVALIDATION TRIAD, CATALYST STACK, HEN-41 + HEN-42, THESIS, BOTTOM LINE, 5 cross-agent rows. Compressed 7/16-7/17 + DATA RELEASE LOG to hold the 250-line cap (**248**).
-- `scripts/gamma_flip.py` — **bug fix**: near-tie guard surfaced to the CLI (§6).
-- `AGENTS/BOND/inbox/2026-07-28_from-HENRY_hen42-falsifier-misspecified-5y-tail.md` **(new)** — the open question I owe BOND.
-- `board_log.tsv` +27 rows (103 → 130); 27 signals `git mv`'d to `inbox/WALTER/processed/`.
-- `MAINTENANCE.md`, `MEMORY.md`, `LAST_COMPLETION.md`.
+- `STATUS.md` — new 7/29 boot section, compressed 7/28 and 7/23 sections to hold the 250-line cap (**246** lines), VOL REGIME + CREDIT MONITOR + ACTIVE THRESHOLDS + CATALYST STACK + ACTIVE PREDICTIONS pointers + CROSS-AGENT DEPENDENCIES + BOTTOM LINE all refreshed with tonight's data.
+- `workbook/PREDICTIONS.tsv` — HEN-36 and HEN-42 rows updated with tonight's verified-primary data and BOND's 7Y grade.
+- `MEMORY.md` — Session Notes rewritten (87 lines, under the 100-line cap).
+- `board_log.tsv` — +12 rows (WALTER lane `SIG-W-20260728-001` through `-013`).
+- `MAINTENANCE.md` — new entry: cross-horizon gamma-wall disagreement found, not fixed.
+- `AGENTS/NEXUS/inbox/2026-07-29_from-HENRY_T-16-fedwatch-baseline-DATA-GAPPED...md` **(new)**
+- `AGENTS/VIOLET/inbox/2026-07-29_from-HENRY_fedwatch-gap-plus-post-FOMC-gamma-band...md` **(new)**
+- `AGENTS/VULCAN/inbox/2026-07-29_from-HENRY_msft-useful-life-tonight-is-BUILDINGS...md` **(new)**
 
 ---
 
 ## Session Work
 
-### 1. 🔻 I retracted a claim I published five days ago — WALTER caught it
-My 7/27 STATUS said VIOLET's CME **65.7% hold / 34.3% hike** pull *"POST-DATES the ~11% crude collapse and did NOT fall,"* and I used that as evidence the rates move was **policy-path**, not oil-passthrough. **The circulating ~34.7% is dated 7/22 — before the collapse**, and 34.3 vs 34.7 is a 0.4pp gap. **A comparison whose baseline predates the event cannot measure the event.** I then tried to build a clean series and could not — circulating figures run **10.7% [7/15] · 31.5% · 34.7% [7/22] · ~38% [Fri] · 34.3% [7/27] · 46.5%**, with different or unstated vintages. **So I published no current July number.**
+### 1. T-16 (FOMC hike-odds attribution) — DATA-GAPPED, honestly, not backfilled
+I owed two page-stamped CME FedWatch pulls today (~9-10 AM, ~1:30 PM pre-decision) — that pinned pair was supposed to be NEXUS's grading baseline for T-16, its registered discriminator on whether the July hike-bid's attribution survives the oil collapse. **The fleet outage ran all day and hit before the first window. Neither pull happened.** Per my own page-stamp rule (HEARTBEAT Amendment #2 ④), I did **not** reconstruct a pre-decision number from memory or a post-decision snapshot — that would defeat the entire purpose of a pinned pre/post pair, and the leg is now **permanently unresolvable for 7/29**, not merely delayed.
 
-### 2. ✅ The replacement is better than what it replaced
-A primary series I own, giving the **out-of-sample** test the original evidence never had — **the front end led in both directions** [FRED DGS2/5/10/30]:
+What I could still supply without the missing pull: the realized decision — **HOLD, 3 hawkish dissents (Hammack/Kashkari/Logan, +25bp preference), forward guidance withdrawn** — maps directly onto NEXUS's own T-16 schema as the "hawkish-hold" branch, which is identifiable from the public decision alone and doesn't need my gap-affected instrument. That grades **PARTIAL** by NEXUS's own rule; the full read (oil-language + labor-language legs in the statement/dissents) belongs to RED and LABOR, not me. I routed the branch identification to both NEXUS and VIOLET (T-16's named consumers per `DOCKET.tsv` row 37) and stopped there — did not attempt to grade T-16 myself.
 
-| Leg | 2Y | 5Y | 10Y | 30Y |
-|---|---|---|---|---|
-| Bear 7/17→7/23 | **+19** | +18 | +16 | +11 |
-| Relief 7/23→7/24 | **−4** | −3 | −2 | −1 |
+### 2. HEN-36 — gate fired at 3-of-4, verified at primaries, 2 days ahead of schedule
+Task instructions correctly flagged the press-relayed MSFT/META figures as needing primary verification. I fetched both directly:
 
-Monotonic in tenor, mirror-image. The relief leg is a **dovish** impulse (Brent −12.7%) where a term-premium driver would have moved the long end — and the front still led. **HEN-42's attribution holds; my confidence in how I evidenced it does not.**
-
-### 3. ⚠️ But the 7/27 auction cut the other way, and I did not bury it
-**2Y stellar** — stop-through 0.5bp, BTC **2.662** (highest since Jan), indirects 56.6%, dealers **9.4%** (lowest since Jan). **5Y ugly** — **tailed**, worst BTC in ~5 years, indirects weakest since Jul-2025, dealers most since March.
-
-**BOND's joint falsifier did not fire — but two of its three legs were anchored on a *2Y tail* that instead stopped through, so it passed by construction rather than by evidence.** Weakness rising monotonically with duration is the term-premium signature. I *can* construct a save (an auction measures demand for a **level**; the tenor decomposition measures a **move** — on BOND's own ACM +0.73 split the 5Y tail evidences his level leg). **Because that save is convenient for me, I routed it to BOND to adjudicate rather than banking it.**
-
-### 4. 🔻 HEN-41 — DENY strengthened, but by the mechanism reversing, not my forecast working
-Brent **$100.66 → $87.90 (−12.7%)** on the US–Iran strike pause. On 7/23 I flagged that breakevens "stopped ignoring the oil" and marked my own DENY premise as **eroding**. The full series says otherwise: **T10YIE 2.22 [7/16] → 2.28 [7/22-23] → 2.26 [7/24] → 2.21 [7/27]** — a complete round-trip ending *below* where it started and below the entire month-long band; T5YIFR identical. **Breakevens were never re-rating inflation; they were pricing the war premium, and the premium left.** The >2.30 trigger is now ~9bp away, the furthest this month.
-
-⚠️ **Cost:** the August CPI test (~9/11) was going to be decisive because it would capture $100 Brent across a full monthly average — **$100 Brent lasted about a week.** What did *not* unwind: **EIA-primary OPEC surplus capacity 0.02 mb/d (Middle East 0.00)** — the base case eased, the tail did not.
-
-### 5. 🔴 The finding I'd most want you to see — a hole in my own instrument
-Credit widened broadly for the first time in a month [FRED, my own pull]:
-
-| Tier | 7/22 | 7/24 | Δ abs | Δ % |
-|---|---|---|---|---|
-| BB | 157 | **168** | +11 | **+7.0%** |
-| Single-B | 285 | **296** | +11 | +3.9% |
-| HY blend | 268 | **279** | +11 | +4.1% |
-| CCC | 981 | **996** | +15 | +1.5% |
-| *CCC−BB gap* | *824* | ***828*** | ***+4*** | — |
-
-**The CCC−BB gap I have led this block with for two months moved +4bp while every tranche moved +11 to +15bp.** A *difference* is structurally blind to a *parallel* move — the exact mirror image of the composition-mask the gap exists to defeat. **Worse, the ratio inverted: 6.25× → 5.93×** — it printed *"improving"* on a session when all credit widened, purely because BB is the denominator. **I wrote myself that exact warning on 2026-06-03 and let the ratio become a headline anyway.**
-
-**Absolute** says parallel · **proportional** says worst-at-the-**top** (BB +7.0% > B +3.9% > CCC +1.5%) · **the gap** says nothing happened. All three are arithmetically correct, **and the disagreement is the finding.** ⇒ **A broad, quality-indiscriminate risk-premium repricing consistent with ONE macro driver — not the K-shaped tail deterioration this axis has carried.** CCC−BB demoted to an input; tranche levels promoted to the headline.
-
-### 6. 🔧 My own 7/23 bug fix turned out to be half a fix
-The 35d gamma run again printed **`put wall 7,500` — identical to the call wall**, the exact artifact I retracted on 7/23. Root cause: that fix **computed** the wall runners-up but **the CLI printer never displayed them.** The guard lived in the data structure, not on the surface a human reads — so the tool computed the evidence of its own unreliability and then printed a confident single strike anyway. **A guard the operator cannot see is not a guard.** Fixed (margin + near-tie warning + hard flag when put == call). **Result: both horizons are near-ties** ⇒ today's honest read is **put support is a BAND at 7,300–7,400**, spot 7,413 on its upper edge.
-
-### 7. Other intake worth a line each
-- **🔑 Adopted a qualifier on my most-repeated line:** record-low implied correlations **mechanically** suppress index vol (**index 16.6 vs single-stock 50.2**). *"VIX 18.67 is calm"* is **partly arithmetic** — it doesn't un-fire my >23 trigger, but *"the igniter never engaged"* **understates constituent-level stress.**
-- **Two inoculations accepted:** the Hoisington ~$290B T-bill chart is **real and reconciles** ($40B/mo stepped to $10B) — but *"suppressing yields"* **is refuted by my own surface** (the 30Y ran >5% for the longest stretch since 2007 *through* that buying). SPX/M2 "at the Dot-Com peak" dies on its denominator.
-- **Date corrected:** NY Fed Q2 HHDC is **~Aug 4-11, not 8/15** (a Saturday).
-- **Counter-signal logged:** alts **rallied through** the credit widening — ARES **+5.3%**, APO **+4.4%** since 7/23.
-
----
-
----
-
-## 8. PROME override — inbox taken this session (all 7)
-
-### 8a. 🔴 VIOLET: her (iii) kill-line is set off my stalest and highest number
-She grades stand-down **(iii)** — *SPX closes above the flip ⇒ gamma gate FALSIFIED ⇒ thesis NO-GO* — against **~7,496, my 7/23 flip.**
-
-| Basis | Flip | Headroom from 7,413.18 |
+| | MSFT (microsoft.com IR) | META (prnewswire 8-K Ex-99.1) |
 |---|---|---|
-| **What she's using** | **~7,496** | **+82.8pts / +1.12%** (5 days stale) |
-| My fresh chain 7/28 | ~7,491 | +77.8pts / +1.05% |
-| **Independent cluster 7/27** | **~7,453–7,465** | **+40 to +52pts / 0.54–0.70%** |
+| Capex+leases | $41.0B/qtr, **+69% YoY** | $31.078B, **+82.7% YoY** |
+| FCF | $19.639B, **−23.2% YoY** | $784M, **−90.8% YoY** (exact match to the seeded $784M/$8.55B) |
+| Buyback | Not zero (~$10.2B combined div+buyback) | **$0 in BOTH Q1 and Q2 2026** |
 
-**The load-bearing point: my estimator is SIGN-robust, not LEVEL-robust — and (iii) is a LEVEL gate.** My chain has read high vs the independents two sessions running (systematic, not noise). **Grading a thesis-KILL against the highest estimate in the set is the least conservative choice available**, and a post-FOMC relief rally of 0.6% is ordinary. Recommended a two-line band (⚠️ gate-at-risk >~7,455 / 🔴 confirmed >~7,491) and retiring 7,496. Also routed the **put-support band (7,300–7,400, not a strike)**. **Net GEX independently corroborated — FlashAlpha −$34.3B vs my −$34.4B.** *(iii) is her grade, not mine — I supplied the basis, she decides.*
+Both fire both pre-registered legs → **count = 3-of-4 (GOOGL+MSFT+META)**, decisively clearing the "≥2 of 4" bar with AMZN (7/30) still to report — it can only add to the count, not subtract. **META's buyback-to-zero + $24.91B new debt in Q2 alone** is the same funding-withdrawal signature GOOGL set, now on a second name.
 
-### 8b. LABOR: accepted a correction to my own framing, pushed back on one thing
-**AHE +3.5% is composition-contaminated** (June LF −720K, LFPR −0.3pp — the average rises if the low-wage tail exits, with nobody getting a raise). **The scarcity framing survives; the inflationary interpretation does not** — so my stagflation-mix wage leg is now **pending ECI 7/31**, and I'll drop it if ECI prints ~3.4% flat. Adopted their **sign-flip**: in a hike regime a 57-year-low claims print is *hawkish* fuel — that inverted a live reflex mapping of mine. **I pushed back on one thing:** their ECI grading table has **no row for 3.5%**, the most likely print — asked them to pre-register the indeterminate middle rather than argue it Friday. I also told them **why their setup is stronger than they pitched**: because HEN-42 says the move is *policy-path*, an ECI that undercuts the wage premise hits the exact channel driving it (a term-premium move would barely notice).
+**The sharper finding: the equity-de-rate leg broke its own uniformity.** MSFT was rewarded (+1.59% AH, timestamped) for the identical capex-up/FCF-down shape that punished META (~−8% AH) and GOOGL (−7.13%, 7/23). The market is discriminating by name — Azure crossing $100B FY gives MSFT monetization credibility META lacks (META also took a $2.40B Q2 litigation charge that drove its EPS miss). I re-marked the equity-de-rate leg from "armed as a class" to company-specific.
 
-### 8c. 🔴 7/31 is the most stacked day on the board
-**ECI Q2 8:30 + HEN-36 resolves + BOJ decision + month-end + auction settle.** ECI is the Fed's own composition-controlled wage gauge landing **48h after** the decision. ⚠️ **Saying before the print, not after: attribution that morning will be genuinely hard.**
+Side finding for VULCAN: MSFT disclosed a useful-life extension on tonight's call (data-center/office buildings, 15→25yr, not yet in a filed 10-K), which is a different asset class than VULCAN's own server-useful-life gate — flagged to VULCAN's inbox so it doesn't get miscounted.
 
-### 8d. VULCAN: a HEN-36 tension I now hold both sides of
-**A capex *deceleration* recovers FCF.** UBS: +76% 2026 → **+25% 2027 → +6% 2028** — decel, *not* decline. So the same-quarter FCF compression HEN-36 rests on **may inflect up in 2027** even as the demand-doubt narrative bites: **decel is bearish-sentiment but bullish-FCF.** Early warning is *terms before price* — MSFT walked ~2GW of leases, AWS paused intl colocation; commitments soften before guides.
+### 3. HEN-42 — BOND's 7Y grade + tonight's FOMC
+BOND graded the 7/28 7Y auction **CONFIRMED, branch B (policy-path)** — indirect 70.15% cleared his frozen bar by 13.73pp (not a marginal clearance), and his own bias-disclosure said not to discount that leg. "Your HEN-42 CONFIRM is NOT downgraded," in his words. Tonight's FOMC — a hawkish minority (3 dissents) surviving Brent's round-trip off $100.66 — is a weak, out-of-sample corroborator for the same policy-path attribution, logged but not banked as a resolution (HEN-42 resolves 8/29 per registration).
 
-### 8e. Housekeeping
-PROME's orphan-detector packet closed: **both my recommendations were adopted fleet-wide** — the script moved to repo-root `scripts/orphan_check.sh` (no longer in my dir) and is now root step 1b; the **carve-out was ratified**. MAINTENANCE amended. DEWEY ×2 and AEOLUS logged as context. **PROME Batch-3 deliberately left in `inbox/`** — it's start-gated to 8/3 and moving it to `processed/` would lose the trigger.
+### 4. Gamma/flip — best-effort, deepened materially, walls not clean
+Post-FOMC read is the most negative of the episode: 14d flip ~7,453 (Net GEX −$39.4B, spot −136pts below); 35d flip ~7,465 (−$59.2B, −149pts below) — both horizons agree on the flip within 12pts (a clean band) and both are deeper than 7/28's ~7,491/−78pts. The walls are **not** clean tonight — 14d gives 7,500/7,300, 35d gives a broken 7,000=7,000 tie on both walls simultaneously, a new failure mode (cross-horizon disagreement) outside what the existing near-tie guard checks. Per the task instruction, I did not manufacture a wall level — published the flip band only, routed to VIOLET ahead of her 7/30 mandatory VIXCS exit, and logged the gap in `MAINTENANCE.md`.
 
----
-
-## 9. Will-approved build: both process fixes shipped and tested
-
-**① `scripts/consumer_check.py`** (fleet-generic) — *"who still cites a number I superseded?"* Classifies: new-value-adjacent → handled (a re-base table) · marker → handled · inbox/outbox → mail · else → 🔴 stale on a live surface. **Ambiguous resolves to STALE**, because a false 🟢 costs exactly the failure it prevents.
-
-**② `workbook/PUBLISHED.tsv`** — `gamma_flip.py` records its own output every run; boot **(g)** runs the check with **zero arguments**. Tier ① alone would have rotted inside a month because it depended on me *remembering* to run it.
-
-**③ boot (f) INBOX TRIAGE** — filenames only. `--selftest` replays this morning's exact 7-packet inbox and asserts LABOR's `eci-7-31` surfaces **while the deferrable ones stay quiet**. `CLAUDE.md` MAIL rule updated: processing still needs its own spawn; triage is at boot.
-
-**Testing the tool against its own case found four bugs — one in the expensive direction:**
-- Bare `7496` matched **174960**, an OZK share count *(VIOLET's catch)*.
-- First run: **19 hits**, mostly re-base tables holding the old value *because they map it to the new one*.
-- **🔴 The one that mattered — a FALSE NEGATIVE:** `WALTER/REGISTRY.tsv:16`, the single genuine stale consumer, scored 🟢 **handled** because *neighbouring rows belonging to other agents* contained "refresh"/"corrected". In a TSV each line is an independent record — row-oriented files now get zero context.
-- Self-inflicted: a base64 filter gated on `len>400` dropped that same 591-char row. **Measure the longest unbroken token, not the line.**
-
-**The triage regression then caught the identical class of bug:** `mississippi` contains `ppi`, flagging an AEOLUS river-levels packet as a macro release. **Two tools, same defect, one session — substring matching is the recurring failure on this desk.**
-
-## 10. 🔴 BOND warned pre-print that his own gate is biased toward confirming me
-
-Before today's 1PM 7Y, BOND flagged that his §4 spec's bearish `dealer >13.2%` leg is **wrong-signed** on a 323-auction backtest, and that indirect — the strongest signal — was made conjunctive with it so it **cannot fire alone**. He refused to edit a registered pre-registration hours before the print. Correct call, and he walked his own challenge back within 30 minutes after reading the primary.
-
-**What he was too self-critical to see, and it's my mark not his: that is the SECOND consecutive auction spec on this rail mis-specified in the direction that protects HEN-42.** The 7/27 falsifier required a 2Y tail a term-premium story never produces; today's gate is hard to fire for an unrelated reason. **Two independent specs, same directional bias, both favouring the conclusion I hold.** ⇒ **If today prints "no fire," I discount it rather than bank it**, and weight the indirect-standalone read. Replied; folded into STATUS.
+### 5. WALTER lane (boot step 3a, not explicitly tasked but standing protocol)
+Processed all 12 unprocessed `SIG-W-20260728-*` signals into `board_log.tsv` with dispositions and `git mv`'d to `processed/`. Two were directly load-bearing for tonight's tasks: Nvidia's ~$250B OpenAI guarantee talks (WSJ 7/26) and the NVDA/ORCL CDS records — both folded into HEN-36 as guarantor-credit measurements distinct from the equity de-rate.
 
 ---
 
 ## GAPS / Still pending
-- **No current July-hike probability** — deliberate (§1). **I owe two page-stamped pulls Wednesday (~9-10 AM and ~1:30 PM pre-decision)**; that pinned pair becomes NEXUS T-16's baseline.
-- **VIOLET's (iii) re-base is UNCONFIRMED** — I supplied the basis; she grades it. Worth checking she accepted before her 7/30 review.
-- **The independent gamma cluster is 7/27 EOD**, measured against my 7/28 chain across a ~14h offset. Re-pull Wednesday.
-- **`workbook/KB.tsv` and `FLOW.tsv` are 35d stale**, boot flags 🔴. This session generated ≥3 KB-worthy entries; I did not write them.
-- **No external gamma cross-check** (markets closed; I would not cite stale tracker pages). 7/27's 5-of-5 stands as the last corroboration; **SpotGamma's 7/23 dissent remains unresolved, not converted.**
-- **0DTE SPX share** still unsourced (standing gap).
-- **PROME Batch-3 (P2/P3)** is **start-gated to 8/3** — correctly not started.
+- **T-16's FedWatch baseline is permanently gapped for 7/29** — not something a future session can fix; the pre-decision measurement window is closed.
+- **T-16's full grade is NEXUS's** (needs RED's oil-language + LABOR's labor-language legs) — I only identified the branch and handed off.
+- **Cross-horizon gamma-wall disagreement found, not fixed** — logged in `MAINTENANCE.md` as a candidate future build.
+- **HEN-41 not re-graded tonight** despite Brent ticking back up to $89.36 on the 7/28-evening pause-break — flagged as a live caveat on the STATUS framing but BRENT owns the sustain call; did not scope-creep into re-running the CPI thesis.
+- **KB.tsv / FLOW.tsv still stale 36+ days** — boot nags on this every session; not addressed tonight (out of the 4-task scope).
 
 ## COMMITS
-*(hashes appended at closeout — see below)*
+(see `git log` at closeout — pathspec-scoped to `AGENTS/HENRY/`, plus the three self-authored inbox packets to NEXUS/VIOLET/VULCAN per carve-out ①)
 
-## NEXT SESSION FOLLOW-UP — dated catalysts
+## NEXT SESSION FOLLOW-UP (catalyst dates Will cares about)
+- **Thu 7/30 AMC:** AMZN — completes HEN-36's 4-name set (gate already cleared at 3-of-4 tonight).
+- **Thu 7/30 AM:** VIOLET's mandatory VIXCS review — she has the flip band, not a wall level.
+- **Thu-Fri 7/30-31 JST:** BOJ decision — USD/JPY 163.48, flat through tonight's FOMC.
+- **Fri 7/31:** ECI Q2 (LABOR), HEN-36 formal resolution, month-end, auction settle — the most stacked day on the board.
+- **8/29:** HEN-42 resolution.
 
-| When | What | Why it matters |
-|---|---|---|
-| **TODAY 7/28** | **7Y auction** · Case-Shiller · FOMC day 1 | A second belly/back-end tail after the 5Y makes the duration-demand read hard to explain away |
-| **🔴 WED 7/29 2:00pm** | **FOMC decision + Warsh presser 2:30** | **The live hike risk is THIS meeting, not September.** No forward guidance ⇒ *"least-telegraphed decision in years"*; distribution wide **both** ways |
-| **7/29–31** | **MSFT/META + SK hynix (7/29) · AAPL (7/30) · AMZN (~7/30-31)** | **HEN-36 resolves 7/31** — completes the "≥2 of 4". **Read the BUYBACK line**, not just capex/FCF |
-| **7/30–31** | **BOJ** (USD/JPY 163.70; carry strongest since 2005) | Crowded carry into an untelegraphed FOMC *and* a BOJ two days later |
-| **~Aug 4-11** | NY Fed Q2 HHDC | **Date corrected from 8/15** |
-| **~8/12** | July CPI (HEN-41) | DENY-leaning on **both** legs now |
-
-## THESIS SNAPSHOT (frozen at close, 7/28 ~03:30 ET)
-**Tape [7/27 settle]:** SPX **7,413.18** · VIX **18.67** · 10Y **4.64** · 2Y 4.33 [7/24] · 30Y 5.16 [7/24] · Brent **$87.90** · USD/JPY 163.70 · KRE 75.52.
-**Credit [FRED 7/24]:** HY **279** · BB **168** · single-B **296** · CCC **996** · CCC−BB 828.
-**Gamma [7/28 02:35, CBOE]:** flip **~7,491** · Net GEX **−$34.4B/1%** · spot **−78pts below** · call wall 7,500 (clean) · **put support a BAND 7,300–7,400.**
-
-**The call:** the war-premium legs unwound cleanly and took the inflation channel with them. The rates-driver call survived on better evidence than it was registered with — but with genuine counter-evidence from the 5Y tail I have not resolved. The credit signal moved from the tail to *everywhere*, which my gap metric could not report. **VIX has never once touched >23 in this entire episode — cascade step 1 has never engaged.** Negative gamma sets a move's terminal velocity; it does not start one.
-
-**Net: two of my three axes are resting on less than they were on 7/23.** HEN-36 is unchanged on primaries and resolves in 3 days — and the tape is already moving its way, which is exactly when a desk banks a confirmation it has not earned.
+## THESIS SNAPSHOT (frozen at close)
+War-premium unwind (7/28 framing) needs a live caveat — Brent back to $89.36 after Iran resumed strikes 7/28 evening (all intercepted); BRENT owns the sustain call. HEN-36 (AI-capex FCF cliff) at ~90% with 3-of-4 fired at primaries, equity reaction now company-specific not class-wide. HEN-42 (policy-path rate driver) has two independent confirmations since 7/27 (BOND's auction-composition read, tonight's FOMC dissents). Vol/credit/gamma all moved adverse together for the first time this episode (VIX 20.66 highest settle, gamma deepest-negative, credit widening through FOMC) without any individually crossing a hard threshold — worth watching as a set.
 
 ## WILL_NEEDS
-1. **Nothing blocking.** Everything below is FYI or a standing item.
-1b. **🔴 The one live thing today: BOND's 7Y gate prints at 1PM and it is biased toward confirming my own call.** I've pre-committed in writing to discounting a "no fire." If you see anyone treat today's auction as clean confirmation of the policy-path read, that's the error to catch.
-2. **Before Wednesday:** if you see a *"34% chance of a July hike"* figure anywhere, **check its date.** The widely-circulated one is **7/22 vintage and pre-dates the oil collapse**; I retracted my own use of it. The only valid post-collapse datum right now is VIOLET's page-stamped 7/27 **65.7 hold / 34.3 hike**. I own fresh stamped pulls Wednesday morning and pre-decision.
-3. **The one you may want to look at:** VIOLET has live capital on a position whose thesis-kill is measured against **my five-day-old gamma flip**, and on the independent numbers she has roughly **half the headroom her dashboard shows** — with a mandatory review Thursday. I've routed the re-based band; **the grade is hers**, so if you want it settled before Wednesday's close it's worth a nudge rather than waiting on the packet.
-4. **My inbox default was wrong for this week and PROME was right to override it** — worth making that standing rather than per-session: *during a live-position or dated-catalyst week, process the inbox at boot.* I'd rather change the rule than rely on being overruled each time. Your call whether that goes in my CLAUDE.md.
-5. **A routing failure worth knowing about:** PROME expected VIOLET's flip ask in my inbox and **it was never there.** I delivered anyway, but if VIOLET believes she asked, a packet went missing somewhere between them.
+Nothing requiring your direct action tonight. FYI only: T-16 (your fleet's FOMC-attribution discriminator) is missing my piece of evidence for a reason outside anyone's control (the outage), and I chose not to paper over it — NEXUS and VIOLET both know.

@@ -4,6 +4,12 @@
 
 ---
 
+### 2026-07-29 (~22:40 ET) — GAP FOUND, NOT FIXED: `gamma_flip.py`'s near-tie guard doesn't cover CROSS-horizon wall disagreement
+- **Trigger:** post-FOMC gamma refresh for VIOLET's 7/30 exit. 14d gave call wall 7,500 / put wall 7,300 (looks resolved); 35d gave call wall = put wall = 7,000 (the exact same-horizon tie the 7/23/7/28 fixes target — caught correctly). **But the two horizons also disagree with EACH OTHER by 300-500pts on both walls**, and nothing in `_wall_margin()` or the NEAR_TIE constant checks agreement *between* `--days 14` and `--days 35` runs — each horizon is scored independently and looks "clean" or "near-tie" in isolation.
+- **Not fixed this session** — flagged in STATUS as "walls not cited tonight," flip band (which DID agree within 12pts across horizons) published instead. Future fix candidate: a cross-horizon consistency check that flags when two independently-clean-looking wall reads disagree by more than some threshold, analogous to the existing within-horizon near-tie guard.
+
+---
+
 ### 2026-07-28 (~05:30 ET) — BUILT `scripts/consumer_check.py` + `workbook/PUBLISHED.tsv` + boot sections **(f) INBOX TRIAGE** and **(g) STALE CONSUMERS**
 - **Trigger:** Will — *"can we please fix both these issues"*, after VIOLET caught two failures in one session. **(1)** She was grading a live thesis-kill against my **7/23** flip (~7,496) while I refreshed it twice and never asked who held the old one. **(2)** LABOR's packet — filename `…_ahe-composition-eci-7-31-post-fomc-repricing-risk.md` — sat unread four days during FOMC week because the MAIL rule's *"don't process"* read to me as *"don't look."*
 - **① `scripts/consumer_check.py` — fleet-generic** (same shape as `orphan_check.sh`, which began HENRY-local and went fleet-wide 7/23). Answers *"who still cites a number I superseded?"* Classification, in order: **the new value adjacent → HANDLED** (it's a re-base table) · **supersession marker → HANDLED** · **inbox/outbox → MAIL** (point-in-time, correcting it helps nobody) · **else → 🔴 STALE on a live surface.** Deliberate asymmetry: **ambiguous ⇒ STALE**, because a false 🟢 costs exactly the failure the tool exists to prevent.
