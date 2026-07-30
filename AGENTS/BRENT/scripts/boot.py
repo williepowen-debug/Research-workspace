@@ -34,6 +34,11 @@ BOOT_SEQUENCE = [
     ("EIA Weekly Monitor",   "eia_weekly.py",         [], False),
     ("Catalyst Countdown",   "catalyst_countdown.py", [], False),
     ("Predictions-Due Scan", "predictions_due.py",    [], False),
+    # Wired 2026-07-30 (Will-directed). Reports UNRESOLVED contradictions between BRENT's own
+    # LESSONS. Lives IN boot, not in a CLAUDE.md instruction, because a documented command is
+    # still a remembered ritual -- and the whole defect class this fixes came from lessons
+    # nobody re-read before drafting a spec. See finding_mechanize_the_cap_not_the_ritual.
+    ("Lesson-Conflict Check", "lessons_check.py",      [], False),
 ]
 
 

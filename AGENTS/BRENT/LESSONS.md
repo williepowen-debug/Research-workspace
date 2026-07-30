@@ -2,6 +2,16 @@
 
 *Review at spawn. Add mistakes as they happen.*
 
+> ## ⚖️ MACHINE-READABLE SPINE — `workbook/LESSONS_INDEX.tsv` · checked automatically every boot by `scripts/lessons_check.py`
+>
+> **WHY (2026-07-30, Will-directed):** four defects in one day traced to the same root — **two lessons in this file disagreed, nothing ever forced a reconciliation, and WHICHEVER WAS WRITTEN FIRST WON BY DEFAULT when a spec got drafted.** L18 beat L19 into the ratified off-ramp gate; L18 beat **both** L11 and L16 on entry timing; L21 was violated by a falsifier written a day after L21's fix was ratified; L15's tenor was inherited by a trade it was never scoped to.
+> **A prose lessons file cannot detect its own contradictions.** The index gives each lesson machine-comparable `asserts` (`key=value`), so a conflict is *detectable*: **two lessons sharing an ASSERT KEY with different VALUES.**
+>
+> **⚠️ WHEN YOU ADD OR AMEND A LESSON, UPDATE ITS `LESSONS_INDEX.tsv` ROW IN THE SAME EDIT.** An unindexed lesson is invisible to the check — which is precisely the state that caused the problem.
+> **Resolutions are tagged PER KEY** — `[<assert_key>:RESOLVED]` / `[<assert_key>:OPEN]` — so one resolution can never silently speak for a different tension.
+> **Before writing any gate/threshold/falsifier:** `lessons_check.py --concept <tag>`. **After:** `--spec <file>` (closeout step 8a).
+> **It earned its keep on its first run**, surfacing an **L16 ↔ L18** contradiction I had not found by hand — which showed L18 is **outvoted 2-to-1** on entry timing.
+
 ---
 
 ## Inherited (from system)
