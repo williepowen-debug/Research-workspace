@@ -218,7 +218,7 @@ Ceasefire holding at Day 8. No mine clearance, no insurance reinstatement, no re
 
 3. **Restraint belongs to belligerents, not theaters.** US-Iran spared the energy complex through 13 strike nights and then stopped the war. What broke was a truce between a *different* pair. **This killed FAL-01 and is now a first-class transmission channel.**
 
-4. **A hit is not a loss — and the gap between them IS the thesis.** Jazan is a 400 kbpd Aramco refinery *on fire* with zero confirmed barrels offline, and the tape fell 9%.
+4. **A hit is not a loss — and the gap between them IS the thesis.** ⚠️ **AMENDED 2026-07-30, TWICE OVER, AND THE AMENDMENT IS THE LESSON.** *(a)* **Jazan closed the gap**: Aramco **SHUT** the 400 kbpd refinery on **7/27** (Reuters/IIR) — the hit *did* become a loss, in ~2 days, after I had written that it had not. *(b)* The phrase **"zero confirmed barrels offline" is true of CRUDE ONLY** and must always be written that way — a QatarEnergy **force majeure on LNG has been live since 2026-03-24** (~17% of Qatar's export capacity, 3-5yr repair), i.e. the war's one confirmed, sustained, quantified supply loss had **already existed for four months** while this line was being broadcast. **The gap is still real and still the thesis — but only for crude.** *(HAWK's phrasing correction, adopted in full; full post-mortem → `PREDICTIONS.tsv` FAL-03 Outcome.)*
 
 5. **The market prices which WATER a hull crosses, not what's in it.** Four legs of the same war, same belligerents, spanning **75-100×** — and the cheapest tell of a regime change is the **0.1% West Coast Saudi** leg, not the headline Hormuz rate.
 

@@ -70,12 +70,14 @@ As of 7/24-27 the theater is no longer one conflict:
 
 ## KEY THRESHOLDS
 
-| Level | Significance | Status (2026-07-27) |
+> ⚠️ **UPDATED 2026-07-30 — THE FIRST TWO ROWS WERE WRONG, AND ROW 2 WAS WRONG WHEN WRITTEN. FAL-03 IS DEAD; ITS SUCCESSOR IS FAL-04 (crude/condensate ONLY, NEW-cause ONLY).** The thesis's core claim is now **MOLECULE-SPLIT**: PREMIUM regime holds for **CRUDE**; SUPPLY-LOSS regime already obtains for **GAS** (Ras Laffan, since March) and **REFINED PRODUCT** (Jazan, since 7/27). Full post-mortem → `PREDICTIONS.tsv` FAL-03 Outcome + `KB-FALCON-063`.
+
+| Level | Significance | Status (2026-07-30) |
 |---|---|---|
-| **Jazan damage assessment** | Converts ⓶ from dormant to live | 🔴 **ABSENT at 3 days** — the single highest-value missing number |
-| **Any Gulf/Iran force majeure** | FAL-03 route (a) | 🟢 None current *(Bapco + Ras Laffan were **March**)* |
-| **≥100k bpd offline ≥7 days** | FAL-03 route (b) | 🟢 Unfired |
-| **Loadings suspended ≥72h, named terminal** | FAL-03 route (c) | 🟢 Unfired — Bab −56% is P-attributable routing |
+| **Jazan damage assessment** | Converts ⓶ from dormant to live | ✅ **EXISTS — and it converted ⓶.** Aramco **SHUT** the 400 kbpd refinery **7/27**; restart tentatively **8/15** [Reuters/IIR 7/28]. The new watch item is **whether it restarts on schedule**. |
+| **Any Gulf/Iran force majeure** | FAL-03 route (a) → now FAL-04 route (a) | 🔴 **FIRED — AND IT WAS NEVER 🟢.** QatarEnergy FM on LNG **live since 2026-03-24**, ~17% of Qatar's export capacity, **3-5 year** repair, extended to **Asian** buyers 7/28. I wrote "None current" without checking whether it had been **lifted** — a March **event** treated as a closed **state**. ⚠️ **FAL-04 route (a) is CRUDE/CONDENSATE-only and NEW-cause-only, so this row does NOT pre-fire it.** |
+| **≥100k bpd offline ≥7 days** | FAL-03 route (b) → now FAL-04 route (b) | 🔴 **FIRED on FAL-03** (Jazan 400 kbpd, from 7/27). ⚠️ **Does NOT fire FAL-04**, which is crude-only and requires the 7 days to actually **elapse**. |
+| **Loadings suspended ≥72h, named terminal** | FAL-03 route (c) → now FAL-04 route (c) | 🟢 **Unfired** — Yanbu −23-32% is a **decline, not a stop**; Bab −56% is P-attributable routing |
 | **WC Saudi war-risk 0.1% rising** | 🎯 Transit→origin migration = **P→R conversion** | 🟢 Flat — *cheapest early warning on the board* |
 | **Bypass <16,224 t/d** | Shuttle breakage | 🟢 **HOLDING** at 69,793 [thru 7/17] |
 | **US strikes resume** | Pause is munitions-constrained, not intent | 🟡 3 nights held |
