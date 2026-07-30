@@ -232,17 +232,18 @@ Every `STATUS.md` update must end with a `## BOTTOM LINE` section: 2-4 sentences
 | `NEXUS_BRIEF.md` | Cross-agent synthesis brief — external twin of SCRATCH; NEXUS/HAWK read it at their boot. Refreshed every session at closeout (14). |
 | `LESSONS.md` | Mistake patterns — read at boot (3). Item 1 is OSPREY's founding calibration lesson (HAW-15). |
 | `SOURCES.md` | Reference index — NOT boot-read. Russia/Ukraine-theater sources + fleet-generic sections. |
-| `workbook/KB.tsv` | Knowledge base — 13-column factual claims. Fresh at spinout (0 rows); historical record `AGENTS/HAWK/workbook/KB.tsv` (FROZEN). |
+| `workbook/KB.tsv` | Knowledge base — 13-column factual claims, accruing (started empty at spinout; historical record `AGENTS/HAWK/workbook/KB.tsv` FROZEN). |
 | `workbook/SCHEMA.tsv` | Data dictionary for KB.tsv columns. Copied from HAWK, theater-agnostic. |
-| `workbook/VX.tsv` | Vectors — 3 rows migrated from HAWK (UKR-01, SHADOW-01, SHADOW-02), IDs kept for continuity. |
-| `workbook/FLOW.tsv` | Transmission pathways — 3 rows migrated (FLOW-07/08/20). Russia-war vol/credit rows OWED — first-increment item. |
-| `thesis/PREDICTIONS.tsv` | Falsifiable forecasts. Fresh ledger (OSP-01 ←HAW-17); historical HAW-01..17 frozen `AGENTS/HAWK/thesis/PREDICTIONS.tsv`. |
+| `workbook/VX.tsv` | Vectors — the theater's scored channels. Seeded from HAWK (UKR-01, SHADOW-01, SHADOW-02) with `VX-HAWK-*` IDs kept for continuity; add rows as channels emerge. |
+| `workbook/FLOW.tsv` | Transmission pathways. Seeded with FLOW-HAWK-07/08/20 (IDs kept). **⚠️ Two known gaps, both still OPEN as of 2026-07-30:** Russia-war **vol/credit** pathways (flagged at spinout, never built) and **gas/LNG** — Russia is the world's largest gas exporter and no row here can represent a gas shock (FALCON packet 7/30; the same hole was verified in both war siblings). *A missing row is not neutral: a file with no row-shape for a class of event is silent about it in a way indistinguishable from that event not happening.* Seed the row, or write the exclusion down and name who owns it. |
+| `thesis/PREDICTIONS.tsv` | Falsifiable forecasts + the calibration scoreboard in its header comments. OSPREY's own ledger, numbered OSP-01 onward (HAW-17 was the last HAWK row); historical HAW-01..17 frozen at `AGENTS/HAWK/thesis/PREDICTIONS.tsv`. **⚠️ The scoreboard comment carries its own as-of date — restamp it when you resolve a row, or it reads current and wrong.** |
 | `thesis/THESIS.md` | v0.1 spinout-seed — the channel-model thesis. Firm up at first live sessions. |
-| `domain/energy-strikes/STRIKES.tsv` | Raw strike ledger, RU-UA rows only (32, migrated verbatim). Tier-1 swept-complete header. |
-| `domain/energy-strikes/ANALYSIS_YYYY-MM-DD.md` | Dated, regenerated interpretation layer (raw-vs-interpretation split, Tier-1 fix #4). Current: `ANALYSIS_2026-07-12.md`. |
+| `domain/energy-strikes/STRIKES.tsv` | Raw strike ledger, RU-UA rows only — grows every sweep (seeded with 32 rows migrated verbatim from HAWK). **Its own `swept-complete through:` header is the vintage; read that, not this line.** |
+| `domain/energy-strikes/ANALYSIS_YYYY-MM-DD.md` | Dated, regenerated interpretation layer (raw-vs-interpretation split, Tier-1 fix #4). **Live = the newest-dated file in the directory** — resolve it by `ls`, never from a filename written here. |
+| `domain/energy-strikes/<EVENT>_YYYY-MM-DD.md` | Single-event deep-dives alongside the dated analyses (e.g. `CPC_HALT_2026-07-21.md`). Same rule: dated at write, superseded by evidence, never edited in place. |
 | `research/RUSSIA_OIL_INFRA_STRIKES_MAY-JUN2026.md` | Working reference, copied verbatim at spinout from HAWK's live-load-bearing file. |
-| `board_log.tsv` | BOARD/WALTER mail-processing log. Fresh at spinout. |
-| `inbox/`, `outbox/` | Cross-agent mail. Fresh dirs at spinout. |
+| `board_log.tsv` | BOARD/WALTER mail-processing log — one row per signal dispositioned, append-only. |
+| `inbox/`, `outbox/` | Cross-agent mail (created empty at spinout). |
 | `scripts/` | **None at launch (PAT-048, instrument-light).** A Russia strike-feed/sanctions-tracker analog is a flagged priority first increment (SCRATCH.md) — not built day-1 per DAEDALUS build spec §1 decision #4. |
 
 **Pointer to frozen HAWK assets (reference, don't copy):** `AGENTS/HAWK/workbook/KB.tsv` (225-row historical KB, FROZEN — 2 known duplicate IDs KB-HAWK-131/132), `AGENTS/HAWK/thesis/PREDICTIONS.tsv` + `PREDICTIONS_ARCHIVE.md` (HAW-01..17 full calibration record, FROZEN), `AGENTS/HAWK/domain/energy-strikes/STRIKES.tsv` + `SUMMARY.md` (full 36-row pre-split ledger incl. the 4 GULF-IRAN rows now FALCON's), `AGENTS/HAWK/board_log.tsv`, `AGENTS/HAWK/MEMORY.md`, `AGENTS/HAWK/SOURCES.md`.
