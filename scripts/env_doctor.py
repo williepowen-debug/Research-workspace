@@ -38,6 +38,26 @@ EXPECTED_CLIS = [
     ("trash", "rule #11 trash > rm (package: trash-cli)", "use `gio trash <file>` until installed — NEVER rm"),
 ]
 
+# Venv-dep probe (added 2026-07-30, Will-approved — TERRY flag: this script
+# reported CLEAN on a box where fetch.py/dashboard.py could not run, because
+# the venv layer was never probed; a false-clean in the tool designed to catch
+# exactly this). Presence-only by design: a site-packages directory check, no
+# imports and no subprocess, so the <1s promise holds. A present-but-broken
+# package still passes — the same fidelity trade key-presence already makes.
+# REQUIRED deps break market-data pulls (the rule-#4 lean) => BLOCKING, same
+# class as a missing FRED key. EXPECTED deps break agent scripts => warn-only.
+VENV_DIR = REPO / ".venv"
+REQUIRED_VENV_DEPS = ["yfinance", "pandas"]
+EXPECTED_VENV_DEPS = ["bs4", "pdfminer"]
+
+
+def venv_dep_present(name: str) -> bool:
+    for sp in VENV_DIR.glob("lib/python3.*/site-packages"):
+        if (sp / name).is_dir() or any(sp.glob(name + "-*.dist-info")):
+            return True
+    return False
+
+
 # Hostname-keyed expectations for machine-local extras. Only list items whose
 # ABSENCE on that box is a problem; boxes intentionally without an item (per
 # MACHINE_LOCAL.md) get no entry and no noise.
@@ -98,6 +118,26 @@ def main() -> int:
             notes.append(f"✓ {label}")
         else:
             print(f"ENV-DOCTOR ⚠ [{host}] expected machine-local item ABSENT: {label} ({p})")
+
+    # Venv-dep probe: the layer whose absence produced the 7/30 false-clean.
+    if not VENV_DIR.is_dir():
+        print(f"ENV-DOCTOR ✗ venv MISSING at {VENV_DIR} — market-data tools cannot self-heal; "
+              f"fix: python3 -m venv .venv && .venv/bin/pip install yfinance pandas")
+        problems += 1
+    else:
+        for dep in REQUIRED_VENV_DEPS:
+            if venv_dep_present(dep):
+                notes.append(f"✓ venv dep `{dep}`")
+            else:
+                print(f"ENV-DOCTOR ✗ venv dep `{dep}` MISSING — fetch.py/dashboard.py price pulls fail "
+                      f"(rule #4); fix: .venv/bin/pip install {dep}")
+                problems += 1
+        for dep in EXPECTED_VENV_DEPS:
+            if venv_dep_present(dep):
+                notes.append(f"✓ venv dep `{dep}`")
+            else:
+                print(f"ENV-DOCTOR ⚠ venv dep `{dep}` missing — some agent scripts break; "
+                      f"fix: .venv/bin/pip install {dep if dep != 'pdfminer' else 'pdfminer.six'}")
 
     for cli, why, hint in EXPECTED_CLIS:
         if shutil.which(cli):
