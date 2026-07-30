@@ -1,10 +1,15 @@
 # REGINALD — LAST COMPLETION (2026-07-16 teams-spawn)
 
-> ⚠️ **STALE 2026-07-30 sweep — this file is SIX sessions behind and its name makes that dangerous.**
-> "LAST COMPLETION" reads as *current* by construction, but sessions on **7/17, 7/18 (×2), 7/20 (×2), 7/21, 7/22, 7/25 and 7/30** all closed out **without updating it** ([[finding_completion_stamp_skip_reads_as_current]] — a completion stamp that skipped a closeout reads current-and-WRONG, not stale).
-> **Everything below is a 7/16 snapshot.** Named figures already superseded: **REG-24/25 re-graded 65%/72% → 25%/50% (7/22)**, and **REG-24/25 no longer exist here at all — extracted to `../WAL/` as WAL-01/02 on the 7/25 cutover**. **REG-26 RESOLVED-DISCONFIRMED (7/21).**
-> **➜ For current state read `STATUS.md` (top line) and `MEMORY.md` §Session Notes. Do not cite this file.**
-> *Not rewritten here — either wire it into closeout or retire it; flagged to PROME on the 7/30 sweep as a keep-or-kill call, since a surface nobody updates is worse than no surface.*
+> 🗄️ **RETIRED 2026-07-30 — archived, not maintained. Do NOT cite anything below as current.**
+> **Ruling:** PROME (Will-directed), on the 7/30 stale-data sweep: *retire it unless the boot protocol actually reads it.* **Verified: it does not.** `AGENTS/REGINALD/CLAUDE.md` boot steps 0-9b read STATUS → LESSONS → CALENDAR → MEMORY → ROADMAP → SCRATCH → market.py → ledger-staleness → inbox → peer STATUS → BOARD. **`LAST_COMPLETION.md` appears nowhere in that sequence, and no live repo file referenced it.**
+>
+> **Why it had to go rather than be re-bannered.** It was stamped **2026-07-16** and sat **six sessions behind** — 7/17, 7/18 (×2), 7/20 (×2), 7/21, 7/22, 7/25 and 7/30 all closed out without touching it. Its *name* asserts currency, so it read **current-and-WRONG rather than merely stale** ([[finding_completion_stamp_skip_reads_as_current]]). A write-only surface that nobody reads at boot and nobody updates at closeout is strictly worse than no surface: it costs nothing to skip and misleads anyone who doesn't.
+>
+> **Figures below already superseded when this was retired:** REG-24/25 re-graded 65%/72% → **25%/50%** (7/22) and then **extracted to `../WAL/` as WAL-01/02** on the 7/25 cutover — they no longer exist in REGINALD's ledger at all; **REG-26 RESOLVED-DISCONFIRMED** (7/21).
+>
+> **➜ Current state lives in `STATUS.md` (top line, self-stamped per session) and `MEMORY.md` §Session Notes. `ROADMAP.md` carries cross-session threads.** Those three already do this file's job and are boot-read, which is why nothing is lost.
+>
+> ⚠️ **Scope: this is a REGINALD-LOCAL retirement, not a fleet ruling.** `LAST_COMPLETION.md` is a fleet-wide convention and other agents' copies may be genuinely boot-read — check each agent's own boot sequence before copying this. *(Precedent: `archive/LAST_COMPLETION_archived_apr2.md` — this file has been retired here once before and grew back.)*
 
 
 **STATUS:** ✅ COMPLETE — full priority stack delivered; must-finish (OZK adjudication) shipped.
