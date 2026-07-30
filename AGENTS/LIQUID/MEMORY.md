@@ -1,7 +1,25 @@
 # LIQUID — Cross-Session Memory
 
 ## Session Notes
-### CURRENT SESSION (2026-07-23 Thu eve — Will boot: 5d-stale refresh → 15-item board drain → inbox drain → GATE-079 FP backtest → PROME packet)
+### CURRENT SESSION (2026-07-30 Thu — PROME teams-mode spawn, HEAVY: HY attribution → 42-item inbox pass → 13-fix stale sweep → full closeout)
+
+**Context:** Spawned by PROME ~15:05 ET for a scoped attribution task; Will directed three further rounds in sequence, each asked for separately. Live pulls throughout (FRED API direct + yfinance + boot.py). Note MEMORY skipped the 7/29 solo pass (fleet-offline night) — STATUS carries it.
+
+**Delivered (6 commits):**
+- **① HY-widening ATTRIBUTION** (`3b0a451f` memo+STATUS · `39466553` →TERRY · `f5d9565d` →PROME). Verdict on the +19bp (268 [7/22] → 287 [7/29]): **broad DM HY beta 13-16bp (68-84%) · AI/data-center 3-6bp (15-30%) · bank/CRE ~0bp (HIGH conf) · energy ~0bp (LOW, weak instrument).** Both mechanisms TERRY proposed FAIL. Durable finding → **KB-LIQ-091**.
+- **② FULL INBOX PASS — 42 items, both lanes EMPTY** (`89e14ff5` · `0e3735a3` →BOND · `e015c182` →PROME). 13 top-level + 29 WALTER, 29 board_log rows. Answered BOND's two refuse-or-confirms outstanding since 7/28.
+- **③ STALE-DATA SWEEP — 13 fixed / 4 flagged / 5 confirmed-fresh** (`60ef6470` · `c1e27ca9` →PROME).
+
+**★ The three things worth remembering:**
+1. **A cohort too small to move an index can still be the epicentre of stress.** AI credit moved **~8x the index** at issuer level (CRWV DDTL sweetened ~+140-165bp all-in) yet at **~4-6% of index MV** would need **+320-475bp** to produce +19bp alone. Leading in MAGNITUDE ≠ driving the LEVEL. The weight arithmetic killed a plausible narrative in one line — run it BEFORE building an attribution story.
+2. **My own boot tool was printing a verdict that violated my own rider.** `boot.py` said `X1 MASTER TRIGGER FIRED` on any ≥280 print — but X1 is CONJUNCTIVE and rider R1 exists precisely to forbid that phrasing. It printed every session and nobody (me included) read the label critically. **A tool that prints a verdict is a publishing surface.**
+3. **Three of the four worst sweep finds were WARNINGS THAT HAD THEMSELVES GONE STALE** — a banner saying "X1 CLOSED", a staleness counter frozen at "64d" (really 93d), and the boot label. PROME banked this fleet-wide (merged w/ REGINALD's independent same-day instance) as `finding_hygiene_commit_rearms_the_staleness_lie`.
+
+**Open follow-ups:** the 7 owed items (see NEXT SESSION) — none started, per instruction. **CRWV DDTL outcome UNRESOLVED.**
+
+---
+
+### PRIOR SESSION (2026-07-23 Thu eve — Will boot: 5d-stale refresh → 15-item board drain → inbox drain → GATE-079 FP backtest → PROME packet)
 
 **Context:** Will boot ~20:30 ET Thu 7/23, markets closed. Four sequential Will-directed steps, each asked for separately. Live pulls throughout (boot.py + direct FRED API). 5d stale on entry (STATUS was 7/18 vintage).
 
@@ -192,7 +210,21 @@
 
 ### NEXT SESSION
 
-*(Updated 7/23 ~22:00 ET close — LIQUID current through obs-7/22 FRED vintage. X1 CLOSED (HY 268 [7/22], 12bp under 280); **duration regime RE-ESTABLISHED both legs, policy-path-driven (KB-086)**; GATE-069 ARMED 1-of-2; **GATE-079 SIGNED OFF + FP-backtested + persistence leg added, NOT armed** (+5bp = p7 of the drained regime); funding clean; reserves $3.062T. Positions flat. Inbox AND board lane both empty.)*
+*(Updated **2026-07-30 ~17:45 ET closeout** — LIQUID current through **obs-7/29 FRED**. 🔴 **HY 287 [7/29], the 280 line CROSSED, sustain 3-of-3** — but **NOT "X1 MET"** (conjunctive; BROCK's wrapper half independently NOT MET; **RED owns the sustain ruling, pending**). ★ **Attribution established: 68-84% broad DM beta, ~0% bank/CRE — the level fired on a mechanism the ladder was not built for.** CCC 1013 (>1000 trip). ⚠️ **KB-086's policy-path shape now UNSTABLE** — 30Y 5.244 [7/29] on cut hike-odds = term-premium, the opposite read; pending BOND. Funding CLEAN and easing (SOFR−IORB +0bp, SRF $0, reserves $3.143T [7/15]); GATE-079 not armed; GATE-069 ARMED 1-of-2. Positions flat. **Inbox AND board lane both EMPTY (42 drained 7/30).**)*
+
+**⚠️ THE 7 OWED ITEMS — none started, all with clocks. Work them in this order:**
+
+| # | Item | Clock |
+|---|---|---|
+| 1 | **KB-083 BDC grading-window re-date** off `PROME/research/2026-07-25_bdc-q2-dates-verified.md` (OCSL+OBDC **8/5**, FSK+MFIC **8/6**; ARCC 7/29 passed) | **BEFORE 8/5** |
+| 2 | **COT 7/24 3:30 grades — GATE-LIQ-076 leg-(a) re-read** (NEXUS raw-pulled all 3 legs build-side) | **OVERDUE since 7/25 — oldest on the board** |
+| 3 | **KB-LIQ-086 re-grade — PENDING BOND.** Its Stale_By was "after 7/29 FOMC + the 7/27-28 auctions"; both occurred, and the 7/29 tape reverses its shape. **The row has moved TWICE — do not repeat either state, re-derive.** | **DUE NOW** |
+| 4 | **`boot.py` parser: skip leading `#` lines.** BLOCKS two-clock headers on KB/PREDICTIONS/CATALYSTS.tsv — a `#` line becomes `rows[0]` and fails `--selftest`. Code, not a stamp. | next session |
+| 5 | **HY-OAS watcher ROUTING leg.** Detection fires correctly and delivers to NOBODY (silent fires 6/29, 7/28). TERRY should not re-own its ZONE-1 line; this is mine. | next session |
+| 6 | **Basis-trade triangulation vs OFR/Fed/CFTC primaries** + WALTER's coherence question: record **~$700B leveraged SOFR-futures SHORT** alongside a **shrinking** cash basis (~$1.3T→~$1.0T). **If they conflict, that IS the finding.** | no deadline |
+| 7 | **FHLB Office of Finance combined Q2** for the system-level ES-LIQ-01 grade (Chicago alone is 1 of 11 districts — do not grade off it) | Q2 release |
+
+**Terminal-gated — NOT owed, do not re-attempt without a new lead:** HY breadth series (KB-LIQ-090, FINRA TRACE NTMBHH/NTMBHL), **sector-level HY OAS (verified 7/30: FRED publishes NONE — rating tiers + geography only; ICE sector sub-indices are terminal-only)**, HY Energy OAS (Will-DEFERRED since 6/20, 93d stale). ⚠️ Today **dissolved the Goepfert breadth CONFLICT** but did **not** obtain the breadth **MEASUREMENT** — different things; do not read the first as the second.
 
 1. **⭐ FIRST — run `scripts/boot.py`. Then the KB-085 AI-credit DISCRIMINATOR — this has the only hard clock: CRWV $2.6B DDTL commitments due noon ET 7/30.** Before it is usable: **re-pull CNBC/PitchBook primaries** (they 403'd; conf 0.70 mirror-sourced blocks load-bearing use) and independently price **Meta 6.30% 2056** and the **SpaceX 30yr**. Then grade indigestion-vs-deterioration: *indigestion* = spreads recover as the calendar clears / non-AI IG of like tenor widens on the same days / coverage recovers on next deals; *deterioration* = AI paper underperforms duration-matched non-AI comps / widening survives a quiet calendar / CRWV-APLD basket (KB-073) widens while CCC flat. **RED owns the steelman — do not close it prematurely.** Also **pin the SpaceX pricing date** (needed to know whether GATE-072's "4-6wk post-issue" window has even matured — KB-075 discipline).
    *(The Rank-3 FP backtest that stood here is DONE — 7/23, KB-LIQ-087, `scripts/fp_backtest_079.py`. It refuted DEWEY's ~20% (episode FP **5 of 8**, n=1 TP), rejected a wider calendar filter as TP-destroying, added the ≥2-consecutive-day persistence leg (**→2 of 8**), and overturned my own "regime unprecedented" weak point. **Correction sweep CLOSED 7/30:** PROME fixed `GATES.tsv` to the denominator form; DEWEY appended a dated correction addendum to its canonical doc 7/24 and confirmed my numbers; my own surfaces swept to denominator form 7/30. ⚠️ BOARD surfaces are WALTER's — not mine to edit; flagged, not swept.)*
