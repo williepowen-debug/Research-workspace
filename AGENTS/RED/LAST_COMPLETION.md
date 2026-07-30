@@ -1,7 +1,7 @@
-# RETIRED (S17, 2026-06-10)
-
-This file is retired. The canonical session handoff is now **`SCRATCH.md`** (rewritten in place at WRITE-BACK step W5; versioned by git history).
-
-Rationale: handoff state was fragmented across LAST_COMPLETION.md + numbered `archive/handoffs/` files; consolidated per the network SPAWN-PROTOCOL pattern (SAM/BRENT/VIOLET), Will-approved 2026-06-10. `archive/handoffs/` is frozen as historical record (RED_001–016).
-
-Last live content of this file (Session 16 summary) is preserved in git history at commit `ad1f0c84^` and in `archive/handoffs/RED_016_HANDOFF.md`.
+## COMPLETION — RED — 2026-07-29
+STATUS: ✅ DONE
+CHANGED: AGENTS/RED/STATUS.md, AGENTS/RED/SCRATCH.md, AGENTS/RED/registry/FALSIFICATION_TRIGGERS.tsv, AGENTS/RED/workbook/PREDICTIONS.tsv, AGENTS/RED/workbook/ML.tsv, AGENTS/RED/docket/CATALYSTS.tsv, AGENTS/RED/research/FOMC_JUL28-29_2026_GRADED.md (new), AGENTS/RED/outbox/2026-07-29_to-PROME_fomc-graded-registry-closed-remark.md (new)
+RESULT: RED-20 graded CORRECT both vintages (v1.0 52%, v1.1 54/16/7/21/2) — 9-3 hawkish hold confirmed S1, Sept-hike odds 71.5%→77%. Framework's own "S1×R-A absorbed" bottom line was WRONG (VIX 20.66 close, +13.45%, first non-absorbed print of the cycle), confounded by same-window Saudi co-belligerency (Guard 3) — haircut applied, not full payout. FT-01 un-fire clock: 2 of 3 sessions (HY 281→284, FRED 7/27→7/28), 3rd pending. WL-06 (CCC>1000) FIRED 7/27 (1001→1005). Registry exit-semantics: only FT-01 has a defined exit (WL-03); FT-02–07 marked UNDEFINED honestly, 4 new mechanical columns added. S26 re-mark: net-bear 62→68, HOLD 69→70.
+GAPS: 7/29 HY/CCC FRED prints not yet posted (posts next business day) — FT-01 clock genuinely undecided, not a gap in the work. Full presser Q&A not independently pulled (only opening statement + formal statement text) — flagged as a caveat on the §L grade, not a blocker. PROME's 7/25 harmful-revision-ledger task and BROCK's 7/27 BRK-32 red-team offer were out of tonight's 4-item scope — deferred, not dropped, queued in SCRATCH.md.
+WILL_NEEDS: None.
+FOLLOW-UP: Pull the 7/29 HY OAS FRED print at next boot to close the FT-01 un-fire clock. Fri 7/31 ECI Q2 — log as its own dated entry per Guard 3, do not launder into the FOMC cell.
