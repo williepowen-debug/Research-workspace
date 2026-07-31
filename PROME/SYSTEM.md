@@ -59,6 +59,7 @@ Core rule:
 | Position truth (off-repo Will/broker; FORGE = stale mirror) | root `CLAUDE.md` + `FORGE/STATUS.md` banner | `SYSTEM.md` (Freshness Discipline + Note 3) · `ACTIVE_DECISIONS.md` (Current Mode) · `action-cards/TEMPLATE.md` (header) · bank-put proposal (inputs line) |
 | Roster / classification | `PROME/ROSTER.md` | root `CLAUDE.md` (active list) · `AGENTS.md` (table + run-model note) · `README.md` · `AGENTS/_INDEX.md` + `_NETWORK.md` *(skills/walter mirror retired — dir archived 7/6 → `archive/skills-openclaw/`)* |
 | Forward catalyst dates | **`PROME/DOCKET.tsv`** | `SCRATCH.md` (operator card) · `HEARTBEAT.md` (Near Gates) · `STATUS.md` (Next Best Action docket line) · fire-time artifacts (checked by `scripts/firetime_check.py`) |
+| Will's open items (operator queue) | **`PROME/WILL_QUEUE.md`** *(added 2026-07-30 at birth — DAEDALUS W6: register the mirror in the existing walk, never build a new grep)* | `SCRATCH.md` (operator-card 3-line pointer view — declared-view class) · `HANDOFF.md` "Open for Will" (dated history, not live) · any agent packet restating a Pending-Will list (regrow class — repoint to the queue on sight) |
 | Trigger bands / levels | `FORGE/tools/market-data/config.py` + `AGENTS/LIQUID/workbook/KILL_MEMO_HY_OAS_260.md` + intake-lane alerts | `HEARTBEAT.md` §Thresholds · fire-time artifacts *(skills/walter trigger-table mirror retired — archived 7/6)* |
 
 ---

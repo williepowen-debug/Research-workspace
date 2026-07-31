@@ -143,22 +143,55 @@ def check_will_queue():
         age = (today - dt.date.fromisoformat(m.group(1))).days
         if age > 2:
             problems.append(f"reconcile stamp {m.group(1)} is {age}d old")
-    in_open = False
+    # DAEDALUS W1 (7/30 review): `<` shipped first and printed a green tick while
+    # two rows were due THAT NIGHT — a due-today row must flag as DUE TODAY (act
+    # now), distinct from PASSED (reconcile). W2: cap counts only ACTIONABLE rows
+    # (dated + unblocked); undated unblocked rows age-trip at 21d instead. W5:
+    # DONE rows past the ~7d window flag for roll-off (anchor-at-write makes the
+    # roll always safe). m/d parses assume the current year — v1, revisit in Dec.
+    def _mmdd(cell):
+        m2 = re.search(r"(\d{1,2})/(\d{1,2})", cell)
+        if not m2:
+            return None
+        try:
+            return dt.date(today.year, int(m2.group(1)), int(m2.group(2)))
+        except ValueError:
+            return None
+
+    section, actionable = None, 0
     for line in text.splitlines():
-        if line.startswith("## OPEN"):
-            in_open = True
+        if line.startswith("## "):
+            section = "open" if line.startswith("## OPEN") else (
+                "done" if line.startswith("## RECENTLY DONE") else None)
             continue
-        if in_open and line.startswith("## "):
-            break
-        if in_open and line.startswith("|"):
-            cells = [c.strip() for c in line.strip("|").split("|")]
-            if len(cells) >= 4:
-                d = re.search(r"\d{4}-\d{2}-\d{2}", cells[3])
-                if d and dt.date.fromisoformat(d.group(0)) < today:
-                    problems.append(f"#{cells[0]} {cells[1][:36]} (needed by {d.group(0)})")
-    record(ADVISE, "WILL_QUEUE fresh + no passed dates", not problems,
-           "; ".join(problems[:4]) or "stamp current; no OPEN row past its needed-by date",
-           "PROME/WILL_QUEUE.md (reconcile with Will: re-date, mark DONE, or escalate)")
+        if not (section and line.startswith("|")):
+            continue
+        cells = [c.strip() for c in line.strip("|").split("|")]
+        if section == "open" and len(cells) >= 7:
+            blocked = "⛔" in line
+            d = re.search(r"\d{4}-\d{2}-\d{2}", cells[3])
+            if d:
+                dd = dt.date.fromisoformat(d.group(0))
+                if dd == today:
+                    problems.append(f"DUE TODAY #{cells[0]} {cells[1][:36]}")
+                elif dd < today:
+                    problems.append(f"PASSED #{cells[0]} {cells[1][:36]} (needed {d.group(0)})")
+                if not blocked:
+                    actionable += 1
+            elif not blocked and cells[0].isdigit():
+                actionable += 1
+                s = _mmdd(cells[4])
+                if s and (today - s).days > 21:
+                    problems.append(f"AGING #{cells[0]} {cells[1][:30]} (undated, open {(today - s).days}d)")
+        elif section == "done" and len(cells) >= 3 and cells[0] != "Item":
+            dn = _mmdd(cells[1])
+            if dn and (today - dn).days > 7:
+                problems.append(f"ROLL-OFF {cells[0][:30]} (done {(today - dn).days}d ago)")
+    if actionable > 20:
+        problems.append(f"CAP: {actionable} actionable rows (>20) — PROME over-routing")
+    record(ADVISE, "WILL_QUEUE fresh + nothing due/passed/aging", not problems,
+           "; ".join(problems[:5]) or "stamp current; nothing due today, passed, aging, or overdue for roll-off",
+           "PROME/WILL_QUEUE.md (act on DUE TODAY; reconcile PASSED; date/decline AGING)")
 
 
 def check_heartbeat_chain():
