@@ -366,7 +366,7 @@ def inbox_triage(today=None, names=None):
 # Added 2026-07-28. Runs consumer_check.py off workbook/PUBLISHED.tsv, which
 # gamma_flip.py writes on every run. Answers the question nobody was asking:
 # "who is still grading a gate against a number I have already superseded?"
-CONSUMER_CHECK = SCRIPTS_DIR / "consumer_check.py"
+CONSUMER_CHECK = WORKSPACE / "scripts" / "consumer_check.py"  # repo-root scripts/, NOT AGENTS/HENRY/scripts/ — closeout audit R3, fixed 2026-07-31
 PUBLISHED_TSV = HENRY_DIR / "workbook" / "PUBLISHED.tsv"
 
 
