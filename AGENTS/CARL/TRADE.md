@@ -1,8 +1,8 @@
 # ⛔ RETIRED — CARL TRADE.md
 **Status:** RETIRED (Jun 26, maintenance session). Live positions in FORGE/; thesis expression via REGINALD/OZK/HENRY. This stub pre-dates the v2.5.1 multi-vector framework and is no longer maintained.
 
-> **2026-07-31 — PENDING WILL ACTION, parked here at Will's direction** *(file remains retired; this note is also tracked in `SCRATCH.md` AWAITING-WILL + the ROADMAP CRL-14 thread, which ARE boot-read — this copy is the durable record, not the reminder):*
-> **PACER purchase: Doc 54, D.D.C. 1:24-cv-02460 (AFT v. MOHELA), filed 7/17/26, ~3pp, ~$0.30.** The 60-day settlement clock from Doc 52 expired onto this filing, so it says one of two things: **another extension** (settlement talks continuing) or **a proposed merits schedule** (talks failed). It is the single live discriminator on whether MOHELA settles — which decides whether the servicer-attribution evidence CRL-14 needed ever becomes public. Needs Will's PACER login; no deadline. Context: CRL-14 retired 7/31 → successor CRL-28 (CFPB-complaint instrument, publishes regardless of the case outcome).
+> **2026-07-31 — RESOLVED SAME DAY: Will ruled SKIP the purchase; passive docket watch instead** *(file remains retired; kept as the durable record):*
+> **PACER purchase: Doc 54, D.D.C. 1:24-cv-02460 (AFT v. MOHELA), filed 7/17/26, ~$0.30 — SKIPPED (Will, 7/31 eve).** Rationale: CRL-14 retired → successor CRL-28 is litigation-independent (CFPB-complaint instrument), so nothing gates on the settlement question anymore; the extension-vs-merits-schedule answer surfaces FREE on the docket within weeks (minute order or next ~60-day JSR), and the case is actively mirrored by advocacy orgs (Protect Borrowers posted Doc 50; RECAP has 50/52/53). **Watch mechanism: dated docket row (first check ~8/14, CARL CATALYSTS.tsv) — free CourtListener docket-text pull, no auth.** Buy-it-after-all trigger, pre-registered: a future claim that needs to TIME something against discovery resuming (none exists today).
 
 ---
 
