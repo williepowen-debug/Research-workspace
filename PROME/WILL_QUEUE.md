@@ -1,6 +1,6 @@
 # WILL_QUEUE.md — the operator's open-items ledger
 **Owner:** PROME (registers, updates, retires rows; reconciles at every boot/closeout) · **Will edits freely** — anything marked/struck here is reconciled at PROME's next touch.
-**Last reconciled:** 2026-07-30 (evening session)
+**Last reconciled:** 2026-07-30 (~22:00 ET boot — row 1 DONE: Will in SAM's window pre-BOJ)
 
 **Rules (v1, deliberately dumb — one markdown table until real use earns more structure):**
 - **Only items where WILL is the actor.** Types: `LAUNCH` (agent windows) · `[Approve]` (trade/proposal) · `RULE` (canon/disposition) · `BROKER` (exports/confirms) · `BUY` · `ACTION` · `READ`. Fleet work lives on DOCKET + agent boards — the moment an item stops needing Will, it leaves this file.
@@ -16,7 +16,6 @@
 
 | # | Item | Type | Needed by | Since | PROME rec | Notes |
 |---|---|---|---|---|---|---|
-| 1 | Launch SAM pre-BOJ | LAUNCH | 2026-07-30 ~22:00 ET | 7/30 | **do it** | BOJ ~22:30 ET; SAM-38 frozen branches grade tonight; packet w/ vintage guard in SAM's inbox; yen +2.7% pre-print |
 | 2 | Close REGINALD's window | ACTION | 2026-07-30 | 7/30 | glance at the pane | shutdown approval never arrived — pane may be sitting on the request prompt |
 | 3 | Memory-migration date | RULE | 2026-07-31 | 7/29 | **pull to 7/31** | index at 86% of auto-load cap and climbing (2 new memories 7/30); default window 8/1-8/2 |
 | 4 | Launch RED | LAUNCH | 2026-07-31 AM | 7/30 | pair with HY print #4 | RED's 2 rulings gate RESHAPE-BC formal confirm + FT-01 un-fire; print #4 publishes ~7/31 and decides if FOMC-day is excluded |
@@ -38,6 +37,7 @@
 
 | Item | Done | Record |
 |---|---|---|
+| Launch SAM pre-BOJ (was row 1) | 7/30 ~22:00 | Will confirmed in-session at PROME boot; SAM live in own window, 13 dirty SAM paths incl. the yen packet `git mv`'d to processed |
 | QQQ 680P — SOLD for a loss (strike corrected 675→680) | 7/30 | `be7f7bfa`; figures fold into row 16 |
 | HEARTBEAT amendments #1 + #2 approved | 7/30 | `d7764309` / `8bb2ff35` |
 | env_doctor venv probe approved | 7/30 | `f5a3655c` |
