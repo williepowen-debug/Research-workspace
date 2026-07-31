@@ -1,6 +1,6 @@
 # WILL_QUEUE.md — the operator's open-items ledger
 **Owner:** PROME (registers, updates, retires rows; reconciles at every boot/closeout) · **Will edits freely** — anything marked/struck here is reconciled at PROME's next touch.
-**Last reconciled:** 2026-07-30 (~22:00 ET boot — row 1 DONE: Will in SAM's window pre-BOJ)
+**Last reconciled:** 2026-07-31 (~10:50 ET — row 3 DONE: memory migration executed same-session on Will's pull-forward ruling)
 
 **Rules (v1, deliberately dumb — one markdown table until real use earns more structure):**
 - **Only items where WILL is the actor.** Types: `LAUNCH` (agent windows) · `[Approve]` (trade/proposal) · `RULE` (canon/disposition) · `BROKER` (exports/confirms) · `BUY` · `ACTION` · `READ`. Fleet work lives on DOCKET + agent boards — the moment an item stops needing Will, it leaves this file.
@@ -17,7 +17,6 @@
 | # | Item | Type | Needed by | Since | PROME rec | Notes |
 |---|---|---|---|---|---|---|
 | 2 | Close REGINALD's window | ACTION | 2026-07-31 | 7/30 | glance at the pane | re-dated at 7/31 closeout (was 7/30, PASSED unreconciled — pane state unknown to PROME); its closeout is committed+pushed, this is only the window itself |
-| 3 | Memory-migration date | RULE | 2026-07-31 | 7/29 | **pull to 7/31** | index at 86% of auto-load cap and climbing (2 new memories 7/30); default window 8/1-8/2 |
 | 4 | Launch RED | LAUNCH | 2026-07-31 AM | 7/30 | pair with HY print #4 | RED's 2 rulings gate RESHAPE-BC formal confirm + FT-01 un-fire; print #4 publishes ~7/31 and decides if FOMC-day is excluded |
 | 5 | BRENT Stage-A dispersion-test replacement | [Approve] | 2026-07-31 (BRENT's window) | 7/30 | — | ⛔ waits: BRENT live window · the STNG veto has zero discriminating power (rose on BOTH real and false de-escalations); flagged OPEN by BRENT's own self-audit `672fc1e5` |
 | 6 | scripts/-ownership ruling | RULE | 2026-08-02 | 7/30 | — | closeout-critical tooling (safe-push, env_doctor, ledger_staleness...) lives unowned; DAEDALUS gap (c), PAT-071 next application; the 7/31-8/2 conversation |
@@ -37,6 +36,7 @@
 
 | Item | Done | Record |
 |---|---|---|
+| Memory-migration date (was row 3) — RULED pull-to-today, EXECUTED same session | 7/31 | `7b7727f0` (index split) + `5cce6942` (embeds); hot index 62% of cap |
 | Launch SAM pre-BOJ (was row 1) | 7/30 ~22:00 | Will confirmed in-session at PROME boot; SAM live in own window, 13 dirty SAM paths incl. the yen packet `git mv`'d to processed |
 | QQQ 680P — SOLD for a loss (strike corrected 675→680) | 7/30 | `be7f7bfa`; figures fold into row 16 |
 | HEARTBEAT amendments #1 + #2 approved | 7/30 | `d7764309` / `8bb2ff35` |
