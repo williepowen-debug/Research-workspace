@@ -88,7 +88,7 @@ Your own files (`AGENTS/DAEDALUS/`): edit freely.
 
 ## GIT (fleet standard — root CLAUDE.md §Git Protocol owns the rules; cite, don't restate — S2 2026-07-08)
 
-- Pathspec: `AGENTS/DAEDALUS/` — path-scoped commits only, run from repo root.
+- Pathspec: `AGENTS/DAEDALUS/` **+ repo-root `scripts/` (ownership GRANTED, Will-ruled 2026-07-31 ~14:45 via PROME)** — path-scoped commits only, run from repo root. `scripts/` duty = break-fix + standards for closeout-critical tooling; behavior-changing edits stay Will-visible per the normal batch pattern; authorship provenance of individual scripts unchanged. PROME keeps `PROME/tools/`.
 - Auto-push at closeout via `scripts/safe-push.sh` (ff-gated, fails safe). Non-ff abort → `git pull --rebase` + re-push; NEVER force.
 - **DAEDALUS-specific:** approved cross-agent edits commit by *their* own pathspec and ride the same closeout push — the gate is *what* you edit (permission + idle, AUTHORITY above), not *whether* you push.
 
@@ -107,7 +107,7 @@ Shared structural floor; class-specific ceiling. The class also tells you which 
 | **L4** | TRADE.md feeding proposals; signals flowing | output consumed by others | builds/retirements executed clean; PATTERNS accruing |
 | **L5** | clean closeouts, zero YEYOU flags (**waivable-when-dormant** — Will 7/22, SPEC §5), current | same | same + EVOLUTION roadmap live |
 
-**Method:** L0–L2 **scripted** (objective, rerunnable, can't hallucinate). L3–L5 **agent-judged** (read the files, apply the class rubric). Full rationale in `SPEC.md §5`.
+**Method:** L0–L2 **scripted** (objective, rerunnable, can't hallucinate). L3–L5 **agent-judged** (read the files, apply the class rubric). Full rationale in `SPEC.md §5`. **The map is a hygiene input, not the scoreboard** `[[project_daedalus_maturity_map_hygiene_input]]` *(Phase-2 embed, PROME packet 7/31)*.
 
 ---
 
