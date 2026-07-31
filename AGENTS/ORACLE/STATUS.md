@@ -46,7 +46,7 @@
 | **Hormuz normal by Dec 31** | T1 | **50.5%** | −1.0 | −1.0 | $6.4M | $275.5K | disruption persists (=49.5%), steady |
 | China invade Taiwan <2027 | T1 | 4.0% | +0.2 | +0.2 | $39.3M | $594.7K | deep, low |
 | China GDP 2026 (sub-5% top) | T1 | 86.5% | +1.0 | +1.0 | $215.3K | $47.4K | ⏮stale-date |
-| **WTI $100 (Aug) — war premium** | T2 | **27.5%** | −3.5 | — | $8.0K | $8.3K | ⚠thin, v3-regime baseline; through v2's >25% but on a fresh contract |
+| **WTI $100 (Aug) — war premium** | T2 | **28.5%** | −3.5 | — | $8.0K | $8.3K | ⚠thin, RANGE 26.5-50.5% over 5d — currently LOW end; twice through v2 >25% line (50.5% + 43.5%). See KB-ORC-059 |
 | US invade Iran <2027 | T2 | **23.5%** | −1.0 | **−6.0** | $51.0M | $1.2M | deep, escalate leg retreating |
 | US-Iran deal 2026 (top) | T2 | 35.0% | +5.0 | +4.0 | $82.4K | $6.5K | resolve leg still creeping |
 | **Iran mil-action vs Gulf State (Jul, top)** | T2 | **15.0%** | **−24.5** | **−31.0** | $75.5K | $8.8K | ⏳0d — fading into resolution; **Aug event NOT YET OPEN → coverage gap** |
@@ -84,7 +84,7 @@
 
 | # | Market | Score | Status | Key Signal | Upgrade Trigger |
 |---|--------|:--:|:--:|------------|-----------------|
-| 1 | Iran → oil supply regime | 2 | 🟡 | v2 regime dissolved benignly 7/31; Aug $100 27.5% on fresh contract (v3 baseline +22.0pp); barrel-tell FIRMED (Kalshi Iran-crude 86%, +9/7d) — no realized loss | Aug WTI-$100 >30% sustained ≥3 reads OR Iran-crude <2.0mbpd (real loss, unchanged) |
+| 1 | Iran → oil supply regime | 2 | 🟡 | v2 regime dissolved benignly 7/31; Aug $100 trading 26.5-50.5% range 5d (currently 28.5% LOW end); v3 baseline +22.0pp = MID-SWING snapshot (spread swings ±15pp on WTI thrash); barrel-tell FIRMED (Kalshi Iran-crude 86%, +9/7d) — no realized loss | Aug WTI-$100 **>45% sustained ≥3 reads** (retuned from >30%) OR Iran-crude <2.0mbpd (unchanged) |
 | 2 | Fed path (aggregate retraced, Sept-specific DEEPENING) | 3 | 🟠 | Aggregate 66.5% (trigger cycle done clean) BUT sweep-decomp: Sept-mtg-specific 56.5%, Δ1d +4.0, +3.0/7d deep — hike-timing tightened into Sept | Sept-specific >60% OR <45% OR a 2026 hike prints OR another >66% aggregate re-break |
 | 3 | Term-premium / credibility (**BLIND-SPOT**) | ? | ⚠️ | 30Y 5.244% on 7/29 (highest since 2007, WALTER SIG-W-20260730-003); prediction-market lens does NOT see this axis | route to BOND/NEXUS; ORACLE cannot upgrade this itself |
 | 4 | Risk-on / complacency (RESET) | 1 | ⚪ | NEH un-cracked 73.5% (+5.5/7d); best-asset-S&P 68.0% intact | NEH <30% OR gold takes best-asset lead |

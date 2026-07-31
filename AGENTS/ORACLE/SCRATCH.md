@@ -12,6 +12,16 @@
 - **⚠️ NEW BLIND-SPOT (WALTER SIG-W-20260730-003, 7/30).** 30Y = **5.244% on 7/29** (highest since JULY 2007) on the hawkish hold. Decomposition (Bloomberg): Sept hike odds got CUT while long yields SPIKED = **term-premium / inflation-credibility** move, NOT policy path. My hike/cut markets are structurally blind to this axis. Routed BOND (DFII10 re-arm check owed) + NEXUS (do-not-converge caveat).
 - **Quiet/confirmed:** recession PM 12.5% / Kalshi 7.0% (Kalshi eased −2 on FOMC-hold+oil-relief); US-credit-downgrade 6% (Δp 0); corporate-bankruptcy 83%. BOJ July decision resolved (held).
 
+## WHAT I DID (PM #3 — sister trajectory checks on other new pins, Will-directed)
+**Will: "check the other new pins' trajectories too" — same class-of-failure sweep across all today's pins.**
+- **Aug WTI-$100 (MATERIAL)**: 5-day range **26.5-50.5%**, current 28.5% = LOW end. AM v3-baseline +22.0pp is a MID-SWING snapshot (spread swings ±15pp on WTI thrash alone). Market has been through v2's >25% deepen line TWICE in 5 days (50.5% + 43.5%). V3 thresholds retuned: >30%/>40% (AM naive) → **>45% sustained ≥3 reads** (deepen) / **<20% sustained** (breakdown). Iran-crude <2.0mbpd unchanged.
+- **Iran shipping Aug daily** (2 days: 17% → 42.5%): brand-new event, N=2 not a trend.
+- **Hormuz weekly** (7 days: 34% → 54.5% on the 50-74 ships bucket): trending into moderate-traffic bucket = disruption easing modestly. Weakly benign.
+- **Houthi-Israel-Aug-31** (1 day: 31%): zero trajectory context.
+- **KB +1 row** (KB-ORC-059 v3 range clarification, amending KB-ORC-053).
+- **STATUS patches**: WTI-$100 dashboard row now cites range + LOW-end context; convergence matrix row 1 v3 threshold retuned to >45%-sustained; the AM's naive single-print >30% removed.
+- **Outbox +1**: 🟡 `2026-07-31_to-hawk-brent-falcon_v3-spread-range-clarification.md` (Iran-shipping-Aug / Hormuz-weekly / Houthi-Israel called out as non-actionable in-packet, no separate packets).
+
 ## WHAT I DID (PM #2 — trajectory correction, Will-directed)
 **Will asked for the Sept-specific trajectory.** Ran `polymarket.py history --write` → 6123 daily rows regenerated. Sept-specific has climbed **~30-40pp over 6 weeks** (three gap-ups since 6/13, life-of-market range 10.5-56.5%). The PM sweep-decomp finding ("Sept-specific DEEPENING post-FOMC on Δ1d +4/Δ7d +3") was the TAIL of the trend, not a fresh post-FOMC move. Also back-checked aggregate: Δ7d -5.0 was measured off the 7/24 local spike (71.5%); 7/22-close 59.5% → 7/31-close 66.5% = +7pp on the true base-to-base window. Aggregate is ON the >66% re-break line, not below.
 - **KB +1 row** (KB-ORC-058 trajectory correction, amending 052 + 056).
