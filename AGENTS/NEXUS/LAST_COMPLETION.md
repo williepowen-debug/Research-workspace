@@ -69,3 +69,5 @@ STATUS sanity ✓ (172/200 lines; Δ-columns consistent, no-op rows kept old dat
 
 **Parked (correctly tracked, no action):** research/ retirement bar ~8/5-8/16 (3 files) + recon/2026-06-06_self_audit.md (unreferenced, bar ~8/5 — retire with the research batch; e_phase_pre_registration moves WITH e_phase_outputs or the link breaks) · 9a rollup #3 due ~8/4 · board_log historical timestamp rows left as-is.
 **Files (unit 3):** brief_fallback_log.tsv · templates/NEXUS_BRIEF_SCHEMA.md (annotation de-hardcode, "13" scope note, amendment-9 row, §8 closeout, Status flag) · CLAUDE.md (timestamp standard) · this file.
+
+**Unit 3 addendum (~2:00 PM): AMENDMENT 9 RATIFIED — Will approved.** Schema updated to law (title/Status/row-19/§8/REVIEW-HISTORY all flipped PROPOSED→RATIFIED; no amendments pending) · CLAUDE.md templates row + BRIEFS_MAP 7/17 docketed-decision note closed · **4 consumer-notice packets (carve-out ①) → WATT/MIDAS/AEOLUS/VULCAN inboxes** carrying the blessing + the one new obligation (revert to full schema at ≥3 persistent edges or a thesis version).
