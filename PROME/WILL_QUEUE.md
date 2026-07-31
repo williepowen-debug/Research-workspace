@@ -16,12 +16,9 @@
 
 | # | Item | Type | Needed by | Since | PROME rec | Notes |
 |---|---|---|---|---|---|---|
-| 2 | Close REGINALD's window | ACTION | 2026-07-31 | 7/30 | glance at the pane | re-dated at 7/31 closeout (was 7/30, PASSED unreconciled — pane state unknown to PROME); its closeout is committed+pushed, this is only the window itself |
-| 4 | Launch RED | LAUNCH | 2026-07-31 AM | 7/30 | pair with HY print #4 | RED's 2 rulings gate RESHAPE-BC formal confirm + FT-01 un-fire; print #4 publishes ~7/31 and decides if FOMC-day is excluded |
 | 6 | scripts/-ownership ruling | RULE | 2026-08-02 | 7/30 | — | closeout-critical tooling (safe-push, env_doctor, ledger_staleness...) lives unowned; DAEDALUS gap (c), PAT-071 next application; the 7/31-8/2 conversation |
-| 7 | Launch NEXUS | LAUNCH | 2026-08-03 (before BDC cluster) | 7/28 | sooner is better | 29/31/40 mark is 7/28-vintage; inbox holds FOMC/HY/yen moves; staleness compounds into 8/4-8/6 |
 | 8 | QQQFADE approval (`TRY-WILL-QQQFADE`) | [Approve] | none (Sep-18 tenor) | 7/30 | — | TERRY's 2 conditions (re-based premise + Target-1 policy); PROME rider "sell the 675P first" is MOOT (put sold 7/30); register Will-discretionary class on fill |
-| 9 | Bank-put reshape disposition | RULE | after RED's ruling | 7/30 | TERRY rebuilds from 7/30 export; no fresh capital absent X1 | ⛔ waits: RED ruling · LIQUID's narrower-thesis brief delivered 7/30; BANK-ABSENT attribution strengthens the narrow framing |
+| 9 | Bank-put reshape disposition — **UNBLOCKED 7/31**: RED confirmed the sustain (policy-day prints count; robust on both branches, print #4 = 284) + FT-01 un-fired | RULE | none (no fire-clock; BDC marks 8/4-8/6 = nearest context) | 7/30 | TERRY rebuilds from 7/30 export; no fresh capital absent X1 | level-leg fire on the NARROWER thesis; BANK-ABSENT attribution of record; NOT X1; LIQUID's brief + §3 framing already with you |
 | 10 | Fresh rising-vol registration — go/no-go | RULE | none | 7/30 | — | your own 7/30 AM question; VIOLET owns the proposal on GO; nothing pre-committed |
 | 11 | NO_HARVEST_RULE → fleet card templates | RULE | none | 7/30 | **adopt** | build-time check: "is there a path where this is profitable and NO trigger fires?"; already fleet memory; TERRY wires its own templates regardless |
 | 12 | HENRY standing boot-rule blessing | RULE | none | 7/28 | mechanical-trigger version | inbox-at-boot rule change, PROME rec on record |
@@ -35,6 +32,9 @@
 
 | Item | Done | Record |
 |---|---|---|
+| Close REGINALD's window (was row 2) — RESOLVED: pane no longer exists (tmux list-panes verified 7/31 ~13:40; live panes = prome/red/nexus/daedalus only) | 7/31 | tmux verification in-session; RED+NEXUS panes flagged safe-to-close to Will |
+| Launch RED (was row 4) — ran + CLOSED OUT: both rulings executed (policy-day COUNTS → RESHAPE-BC formal confirm; FT-01 UN-FIRED, HOLD 70→72) + S27/S27b | 7/31 | `976ca277` closeout; rulings packet PROME/inbox → processed; GATES row synced |
+| Launch NEXUS (was row 7) — ran + CLOSED OUT: inbox drained, schema amendment 9 RATIFIED (Will-approved in-window), own closeout-doc audit 8 findings/5 fixed | 7/31 | `6a8067d9` / `89ec17df` / `a4d4c0db` |
 | BRENT audit rulings ×4 — F3 pointer-replacement · F4 crack-line RETIRE · C2 index-carries-prose + checker opens prose · C6 stamps=agreement-checks; BRENT implements post-COT in the closeout pass | 7/31 | relay on BRENT's record ~12:50; implementation anchor = BRENT's closeout commit (verify at artifact) |
 | REMAINING RULINGS BATCH — H1 announcement-anchored day+9 (was 5c; BRENT post-COT) · HENRY ×6 (magnitudes demoted, 0DTE dropped, ECI-row retired, TRADE.md=macro per recorded feedback, USD/JPY defer-to-SAM, stamp pattern adopted) · LABOR ×4 (quarterly cards, B5b-no-gate, spawn-floor/push docs, PUBLISHED.tsv build) · PROME mechanisms → DOCKET 8/6-8/9 row | 7/31 | ruling packets: LABOR+HENRY inboxes 2026-07-31_from-PROME_remaining-rulings; BRENT relay in-window |
 | Memory-migration date (was row 3) — RULED pull-to-today, EXECUTED same session | 7/31 | `7b7727f0` (index split) + `5cce6942` (embeds); hot index 62% of cap |
