@@ -3,7 +3,7 @@
 
 > ## ⚠️ WHAT THIS CLOSEOUT ACTUALLY COVERED — read before trusting the ✅
 > My closeout **cannot mechanically distinguish a full run from a partial one** (closeout audit **C1**: the header status is free text, there is no steps-executed record). This block is the manual substitute, and it is the only thing standing between "✅ DONE" and a false completeness claim.
-> **RUN:** write-back steps 5 (STATUS) · 7 (packets — 3 to outbox) · 8 (MEMORY) · 9 (this file) · **PREDICTIONS.tsv dispositioned** (named explicitly per audit **S2**, since the sequence omits it — no rows due ≤ today remain OPEN/ACTIVE; HEN-36 resolved, HEN-41 8/13 and HEN-42 8/29 both future) · root **1b** orphan_check · root **1c** consumer_check · `MARKET_DATA.tsv` appended.
+> **RUN:** write-back steps 5 (STATUS) · 7 (packets — 3 to outbox) · 8 (MEMORY) · 9 (this file) · **PREDICTIONS.tsv dispositioned** (named explicitly per audit **S2**, since the sequence omits it — no rows due ≤ today remain OPEN/ACTIVE; HEN-36 resolved, HEN-41 and HEN-42 both future) · root **1b** orphan_check · root **1c** consumer_check · `MARKET_DATA.tsv` appended · **post-closeout addendum: HEN-41 re-dated 8/13 → Wed 2026-08-12** on fleet verification PROME supplied after the closeout commit (see GAPS).
 > **NOT RUN, deliberately:** root **1d** memory_index_check — **n/a, I wrote no `memory/auto/` file this session** (verified: today's `memory/auto/` commits are RED's and PROME's, none mine) · **push — DEFERRED by instruction**, my commits ride PROME's train · **step 6** (research/) — nothing produced for it · **`MAINTENANCE.md`** — **~15 structural changes today, none logged there** (audit **S6**: no closeout step owns it; skipped knowingly, not silently) · **`NEXUS_BRIEF.md`** — **already synced at 12:20 (`d3428f27`) and deliberately NOT re-stamped**, because nothing since changed a claim in it and bumping the stamp would assert a content re-verify I did not perform.
 > **KNOWN-DEFECTIVE, annotated rather than silently skipped:** audit **S3** — `VX/KB/FLOW/MARKET_DATA` have a boot staleness alarm and **no closeout owner**; all four were written today because I chose to, not because anything required it. Audit **S4** — `boot.py` reads `PUBLISHED.tsv` and never writes it (`_publish` fires only on the standalone CLI path), so today's 14d gamma row was **hand-appended**; the design fix is in Will's batch.
 
@@ -35,7 +35,7 @@
 **Also:** the consumer-check leg of my own boot had been **silently dead since 7/28** on a wrong path, printing *"missing — skipped"* while both files existed. **It said MISSING when the truth was WRONG PATH — which is why I read it this morning and believed it.** Fixed and verified.
 
 ## GAPS / STILL PENDING
-- **🔴 July-CPI date is UNVERIFIED and inconsistent:** `PREDICTIONS.tsv` HEN-41 says **2026-08-13**, STATUS + NEXUS_BRIEF say **~8/12**, and I wrote "(date corrected 8/13 → ~8/12)" into the brief **without checking BLS at the primary.** I did **not** move the ledger date on an unverified correction. **Verify and reconcile in one direction next session.**
+- **✅ July-CPI date RESOLVED at closeout** — HEN-41 re-dated **8/13 → Wed 2026-08-12**, fleet-verified 7/25 (RED S25b + PROME third-source, HEARTBEAT §2 + catalyst table), weekday-checked. I had refused to move the registered date without verification; PROME supplied it. **Right refusal, right answer — separate facts until they weren't.**
 - **14 (b)-class items await Will's disposition batch** — 9 boot, 5 closeout. Nothing pre-empted.
 - **4 WALTER signals unprocessed** (carry-unwind and breadth look live; USD/JPY moved −2.48% on BOJ).
 - **`MAINTENANCE.md` has no entry for today's ~15 structural changes** (S6).
@@ -57,7 +57,7 @@
 | *(this closeout)* | STATUS / MEMORY / LAST_COMPLETION / MARKET_DATA write-back |
 
 ## NEXT SESSION FOLLOW-UP (catalyst dates)
-- **~8/7** July NFP · **~8/12 or 8/13** July CPI (**HEN-41** — ⚠️ *date unreconciled, see GAPS*) · **~8/4-11** NY Fed Q2 HHDC
+- **~8/7** July NFP · **Wed 8/12** July CPI (**HEN-41**, date verified + re-dated at closeout) · **~8/4-11** NY Fed Q2 HHDC
 - **August auction cycle + Jackson Hole** — the next real HEN-42 tests · **8/29 HEN-42 RESOLVES**
 - **~9/11** August CPI — the oil-passthrough test, much weakened ($100 Brent lasted about a week)
 - **2026-10-30 — next ECI, the LAST on the current basis.** ⚠️ From Dec-2026 data BLS re-weights and drops workers' comp; re-check any ECI-denominated threshold before then.
