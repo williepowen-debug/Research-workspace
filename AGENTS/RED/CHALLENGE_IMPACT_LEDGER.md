@@ -111,7 +111,7 @@
 
 **Harmful-revision rate (headline): 2/24 = 8.3%.** Leg-level: 3 harmful legs (008; 041-L2; 028's self-caught S15 leg, 2pp, corrected within one cycle) across ~30 graded legs = ~10%. Both headline HARMED rows are **tail-sizing revisions** (one up-sized a tail that died, one down-sized a tail that fired), not mechanism revisions — matching the calibration book's known narrowness signature. Failed attacks preserved: 6, of which the owner (or reality) was RIGHT to rebuff in 3 (011, 024-ch3, 033-n3), UNTESTED in the rest. Conflict-flagged rows for PROME spot-check: **008, 018, 022, 026, 027, 028, 041** (026 first).
 
-**Hygiene catches made by this build (flagged, not fixed here):** CHG-RED-010 has sat ACTIVE since 4/2 with no disposition — goes to next boot's DUE-scan.
+**Hygiene catches made by this build (flagged, not fixed here):** CHG-RED-010 has sat ACTIVE since 4/2 with no disposition — goes to next boot's DUE-scan. *(→ DISPOSITIONED same day, S27b: RESOLVED / PARTIALLY CONFIRMED / EDGE-MIGRATED — awareness went mainstream AND wrapper-equity shorts stopped paying as it spread; edge migrated to instrument-level measurement now owned by BRK-30/32 + the register. Its ledger verdict upgrades UNGRADEABLE → NO-REVISION (challenge-direction right, nothing revised — BROCK's register/instruments are successor work, not a forced revision): denominators shift to 37 gradeable / 7 NO-REVISION / 5 UNGRADEABLE; headline rate unchanged at 2/24 = 8.3%. Root cause of the 120-day silence: the row's resolution-event field was EMPTY, and the DUE-scan flags rows past a date — an undated ACTIVE row is invisible to it by construction. W2 discipline extended: ACTIVE challenge rows must carry a resolution date/event or a named re-review date. ML-RED-125.)*
 
 ---
 
