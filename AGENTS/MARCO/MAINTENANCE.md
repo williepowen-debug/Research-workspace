@@ -66,6 +66,16 @@
 - **Remaining, and now named every boot:** 5 genuinely-refreshable BREACHED/CRITICAL rows — FL-03, TX-02, CA-01, 3.02, GTR-01. FL-03 and GTR-01 are the worst, both having *live free sources* (FL Realtors monthly; Google Trends).
 - **Escalation raised by the freeze → STATUS UNRESOLVED 🔴:** THESIS carries **Channel 4 at MEDIUM** on an evidence base that is now entirely frozen. Rebuild or re-mark — it is the same fault v3.0 just corrected in Channel 1.
 
+### T1-F · KB.tsv has 2 DUPLICATE IDs — citations are ambiguous (NEW — found 2026-07-31)
+- **What:** two KB IDs are each used by **two unrelated facts**, assigned months apart:
+  - `KB-MARCO-REM-03` = Mexico FY2025 remittances final (2026-02-17) **AND** Banxico Apr-2026 pull-forward (2026-06-02)
+  - `KB-MARCO-TX-04` = Austin housing root-cause (2026-01-22) **AND** TX border sales-tax growing / ES-MARCO-04 counter-signal (2026-06-08)
+- **Why it matters:** a KB ID is a **citation handle**. "See KB-MARCO-TX-04" currently resolves to two different findings that point in *opposite* directions (a housing correction vs a counter-signal that revenue is growing). Anyone citing it can be pointed at the wrong evidence, and a grep-based check cannot tell which was meant.
+- **Do NOT renumber unilaterally.** IDs are cited across sessions and possibly by other agents — the same stable-API logic that root CLAUDE.md applies to the Critical Rules. The fix is either a suffixed successor (`-04b`) with a pointer on the elder row, or a documented "on collision, disambiguate by Date" convention.
+- **Also fixed while here (2026-07-31):** a stray blank line mid-file, and a 15-column row created by appending to a file with no trailing newline (caught by a post-write column count — the same defect class as MAINTENANCE T1-D, and my own append caused it).
+- **Action:** decide the convention, then add a duplicate-ID + column-count check to the boot sweep (the `predictions_due.py` `PRED_SCHEMA_WARNINGS` pattern ports directly).
+- **Effort:** small.
+
 ### T2-E · Banxico + slaughter fetchers still cadence-skip on **mtime** (NEW — found 2026-07-31)
 - **What:** session 19 moved the H-2A fetcher to a **content-vintage** gate (`h2a_vintage()` reads `fy=`/`through_q=` out of the TSV header and compares against the quarter DOL should have published). The other two entries in `boot.py FETCHERS` still gate on `file_age_days()` — raw mtime.
 - **Why it matters:** root CLAUDE.md Data Hygiene is explicit that **mtime is restamped by git sync**, so an mtime cadence fails **FALSE-NEGATIVE** (it thinks a file is fresh because another machine's pull touched it) — [[finding_mtime_is_corrupted_by_git_sync]]. Under serial multi-machine operation MARCO pulls constantly, so both remaining fetchers can silently skip when they should run. Lower severity than H-2A was: Banxico's output carries its own dated rows and slaughter is a 6-day cadence, so drift is visible sooner.

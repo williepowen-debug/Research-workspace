@@ -40,6 +40,8 @@ Dated event spine. Resolved events (mark ✅ with outcome) + forward branch poin
 
 | Date / Window | Event | Channel | Branch logic |
 |------|-------|---------|--------------|
+| **2026-07-31** | **Channel 1 DEMOTED from thesis spine (v2.8 → v3.0)** — floor-controlled transmission test returned NULL, robust to control choice; third consecutive pre-registered null | 1 | **RESOLVED, against the thesis.** Quantity evidence HIGH and untouched; transmission UNDEMONSTRATED. No fourth instrument — payroll surveys cannot observe an off-payroll population. Reopens only on a non-payroll instrument (H-2A offer premia above AEWR, vacancy duration, firm-level cost disclosure) |
+| **2026-07-31** | **Channel 4 re-marked MEDIUM → MED-LOW and split (v3.0 → v3.1)** — 12 of 14 vectors frozen at Feb-2026; flow leg live, fiscal terminus unverified | 4 | Downgrade on **absent maintained evidence + a missed test (MAR-01)**, not contrary data. Restores to MEDIUM if a rebuild (EMMA/MSRB rating actions, TX Comptroller / AZ DOR receipts, CBP counts) shows deficits widening |
 | 2026-06-11 → 07-19 | **FIFA World Cup** (US co-host, 11 US host cities) | 2 | The inbound-reversal catalyst test. SHOULD pull NTTO arrivals back toward/above 2019; Q2 not yet encouraging. Fails to reverse the first-20-yr inbound decline → structural read hardens (ES-MARCO-09) |
 | 2026-06-30 | Air Transat YUL-FLL final → complete US exit (date corrected from Jun 13) | 2 | Executes summer capacity deletion (TOUR-03/05); feeds winter FL-$ thesis |
 | ~2026-06-27 | WestJet winter 2026-27 schedule | 2 | TOUR-05's last open input; ≥15% FL-bound seat cut = confirm |
