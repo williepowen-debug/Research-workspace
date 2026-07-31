@@ -9,7 +9,7 @@
 ## GIT STATE (one line)
 -->
 
-**Session 27 — Fri 2026-07-31 ~10:30 AM-1:00 PM ET (Will boot, day session; S27b = Will-directed same-day continuation)** — the two PROME-owed rulings executed + ECI graded + docket sweep; **S27b: harmful-revision ledger BUILT and DELIVERED** (PROME 7/25 P6 task — `CHALLENGE_IMPACT_LEDGER.md`, rubric pre-registered in its own commit `661a3024` before grading; headline 2/24 = 8.3% harmful, both HARMED rows are tail-sizing revisions; OUTBOX -006 carries the stats to PROME; ML-RED-123). **HOLD 70→72 (+2, pre-registered FT-01 un-fire) / net-bear 68 (=, weights held).**
+**Session 27 — Fri 2026-07-31 ~10:30 AM–2:15 PM ET closeout, + PM hygiene phases 1-5 (Will-directed, same session; sweep findings → the 20-item flag list, fixes phased)** — the two PROME-owed rulings executed + ECI graded + docket sweep; **S27b: harmful-revision ledger BUILT and DELIVERED** (PROME 7/25 P6 task — `CHALLENGE_IMPACT_LEDGER.md`, rubric pre-registered in its own commit `661a3024` before grading; headline 2/24 = 8.3% harmful, both HARMED rows are tail-sizing revisions; OUTBOX -006 carries the stats to PROME; ML-RED-123). **HOLD 70→72 (+2, pre-registered FT-01 un-fire) / net-bear 68 (=, weights held).**
 
 ## CHANGES SINCE (S26 closeout 7/29 ~10:45 PM → this boot)
 - **PROME 7/30 + 7/31 packets put two rulings on me** (RESHAPE-BC policy-day-print question; FT-01 un-fire grade). HY print #3 = 287 [7/29, the FOMC-day print]; print #4 self-pulled at boot = **284 [FRED 7/30]** — which made both rulings outcome-robust (3-of-3 ≥280 on either membership branch).

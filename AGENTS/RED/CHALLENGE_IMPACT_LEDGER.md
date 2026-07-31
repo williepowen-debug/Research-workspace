@@ -48,7 +48,7 @@
 | 007 | All agents | Unanimity Protocol installed | protocol re-fired usefully S22 (5/7 bull-convergence flag); bifurcation it predicted printed for months | **IMPROVED** |
 | 008 ⚑ | PROME/network weights | **Policy Rescue 11% → 20%** ("stealth QE active, eSLR, unused tools") | Waller hawkish pivot 5/22; Warsh hike-regime FOMC 6/17 ("easing gutted", dots +40bp); Fed-hike-2026 = base case (ORACLE 71.5% 7/24); Rescue now 2%. TSV 008: "premise dead" | **HARMED** |
 | 009 | LABOR/CARL | weighted counter-signals adopted (bull/bear probs, not dismissals) | exercised continuously since — claims 75/25 correctly held off bear-cuts through 1969-low prints (7/23-7/31) | **IMPROVED** |
-| 010 | BROCK | none — row sat ACTIVE since 4/2 | **stale-ACTIVE row found by this ledger build — flagged to next DUE-scan** | UNGRADEABLE |
+| 010 | BROCK | none — row sat ACTIVE since 4/2 (undated, DUE-scan-invisible; found by this build, dispositioned same day S27b) | claim confirmed both gradeable legs: PC-stress awareness went mainstream (IMF GFSR 4/14, Stanger series, BX-call queue Q&A) AND wrapper-equity shorts stopped paying as awareness spread (APO +18% Apr; APO/ARES Jun puts died 6/18); edge MIGRATED to instrument-level work (BRK-30/32, register) | NO-REVISION (challenge-direction RIGHT, nothing revised; successor work ≠ forced revision) |
 | 011 | BRENT | **none — challenge falsified in 3 days** | Dated Brent $141 physical (TSV: "RED WAS WRONG. Oil ceiling counter-signal invalidated") | NO-REVISION / REBUFF-RIGHT |
 | 012 | HAWK | none (challenge WEAKENED) | convergence-scalar question resurfaced independently at CHG-043; not attributable | NO-REVISION / REBUFF-UNTESTED |
 | 013 | LABOR/CARL | employment-channel activation ↓ to 35% | employment transmission inert ever since — claims 187-197K = 1969-lows (DOL 7/23-7/31) | **IMPROVED** |
@@ -94,14 +94,16 @@
 
 ## SUMMARY STATS (as of 2026-07-31)
 
+*(Denominators as amended S27b same day — CHG-010 dispositioned and moved UNGRADEABLE → NO-REVISION; headline rate unaffected.)*
+
 | Denominator | n |
 |---|---|
 | Total challenge rows | 43 |
-| Gradeable at all (frozen pre/post state exists) | 37 |
+| Gradeable at all (frozen pre/post state exists) | **38** |
 | — with an accepted revision, resolvable today | **24** |
 | — with an accepted revision, window still open (UNRESOLVABLE-YET) | 7 |
-| — failed attacks / no revision (rebuffs preserved) | 6 |
-| UNGRADEABLE (no frozen record; incl. 1 stale-ACTIVE row flagged, 1 merged) | 6 |
+| — failed attacks / no revision (rebuffs preserved) | **7** |
+| UNGRADEABLE (no frozen record; incl. 1 merged) | **5** |
 
 | Verdict (headline, resolvable revisions) | n | share of 24 |
 |---|---|---|
@@ -109,9 +111,9 @@
 | NEUTRAL / NEUTRAL-PROCESS | 5 | 21% |
 | **HARMED** | **2** | **8%** |
 
-**Harmful-revision rate (headline): 2/24 = 8.3%.** Leg-level: 3 harmful legs (008; 041-L2; 028's self-caught S15 leg, 2pp, corrected within one cycle) across ~30 graded legs = ~10%. Both headline HARMED rows are **tail-sizing revisions** (one up-sized a tail that died, one down-sized a tail that fired), not mechanism revisions — matching the calibration book's known narrowness signature. Failed attacks preserved: 6, of which the owner (or reality) was RIGHT to rebuff in 3 (011, 024-ch3, 033-n3), UNTESTED in the rest. Conflict-flagged rows for PROME spot-check: **008, 018, 022, 026, 027, 028, 041** (026 first).
+**Harmful-revision rate (headline): 2/24 = 8.3%.** Leg-level: 3 harmful legs (008; 041-L2; 028's self-caught S15 leg, 2pp, corrected within one cycle) across ~30 graded legs = ~10%. Both headline HARMED rows are **tail-sizing revisions** (one up-sized a tail that died, one down-sized a tail that fired), not mechanism revisions — matching the calibration book's known narrowness signature. NO-REVISION rows preserved: 7 — the owner (or reality) was RIGHT to rebuff in 3 (011, 024-ch3, 033-n3); challenge-direction RIGHT with nothing revised in 2 (010, 021); UNTESTED in the rest. Conflict-flagged rows for PROME spot-check: **008, 018, 022, 026, 027, 028, 041** (026 first).
 
-**Hygiene catches made by this build (flagged, not fixed here):** CHG-RED-010 has sat ACTIVE since 4/2 with no disposition — goes to next boot's DUE-scan. *(→ DISPOSITIONED same day, S27b: RESOLVED / PARTIALLY CONFIRMED / EDGE-MIGRATED — awareness went mainstream AND wrapper-equity shorts stopped paying as it spread; edge migrated to instrument-level measurement now owned by BRK-30/32 + the register. Its ledger verdict upgrades UNGRADEABLE → NO-REVISION (challenge-direction right, nothing revised — BROCK's register/instruments are successor work, not a forced revision): denominators shift to 37 gradeable / 7 NO-REVISION / 5 UNGRADEABLE; headline rate unchanged at 2/24 = 8.3%. Root cause of the 120-day silence: the row's resolution-event field was EMPTY, and the DUE-scan flags rows past a date — an undated ACTIVE row is invisible to it by construction. W2 discipline extended: ACTIVE challenge rows must carry a resolution date/event or a named re-review date. ML-RED-125.)*
+**Hygiene catch made by this build:** CHG-RED-010 had sat ACTIVE since 4/2, undated and therefore DUE-scan-invisible — **dispositioned same day (S27b)**; row table and denominators above reflect it (its verdict: NO-REVISION, challenge-direction right). Root cause + the W2 rule it produced (every ACTIVE row must carry a resolution date/event or named re-review date) → ML-RED-125 and CLAUDE.md W2. *(Phase-1 correction 7/31 PM: an earlier footer note here mis-stated the amended gradeable count as 37; correct is 38 (43 − 5 UNGRADEABLE), now carried in the table itself — caught by the closeout sweep; "when stating a count, count.")*
 
 ---
 

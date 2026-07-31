@@ -4,7 +4,7 @@
 **Domain:** Adversarial cross-cutting counter-signal — no domain data of my own; I steelman the bull case against every agent's bear thesis and grade cross-agent challenges. Edges: RECEIVES from every domain agent (their STATUS + outbox); SENDS to PROME (OUTBOX alerts), domain agents (formal challenges via `challenges/` + inbox).
 **Thesis version:** S27 (7/31 rulings + docket sweep; weights from the S26 7/29 FOMC-night re-mark)
 **Recent pivot:** S26 graded the FOMC same-night through a fleet usage outage (RED-20 CORRECT both vintages; Guard 3 bound for the first time — VIX-close haircut). S27 issued the two PROME-owed rulings and swept the docket.
-**As of:** 2026-07-31 ~11:30 AM ET | memos: `research/FOMC_JUL28-29_2026_GRADED.md` · rulings packet → `PROME/inbox/2026-07-31_from-RED_two-rulings-executed.md`
+**As of:** 2026-07-31 ~2:15 PM ET (closeout; footer states current through S27b) | memos: `research/FOMC_JUL28-29_2026_GRADED.md` · rulings packet → `PROME/inbox/2026-07-31_from-RED_two-rulings-executed.md` · `CHALLENGE_IMPACT_LEDGER.md` · `challenges/BROCK_BRK32_REDTEAM_2026-07-31.md`
 
 ---
 
