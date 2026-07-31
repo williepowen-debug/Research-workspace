@@ -25,10 +25,11 @@ Usage:
   .venv/bin/python3 AGENTS/MARCO/scripts/boot.py --verbose   # full output for every step
 """
 
+import re
 import subprocess
 import sys
 import time
-from datetime import datetime
+from datetime import datetime, date, timedelta
 from pathlib import Path
 
 SCRIPTS_DIR = Path(__file__).resolve().parent
@@ -45,16 +46,68 @@ AWARENESS = [
     ("Staleness Check",      SCRIPTS_DIR / "staleness.py"),
 ]
 
-# Data fetchers: (label, script, output_file_for_mtime, cadence_days, timeout_s)
+# Data fetchers: (label, script, output_file, cadence_days, timeout_s, vintage_fn)
 # cadence_days = skip the fetch if the output file was refreshed within this window.
+# vintage_fn (optional) = content-derived freshness test, overriding the mtime
+#   cadence. Returns (should_fetch: bool, reason: str). PAT-044 / root CLAUDE.md:
+#   mtime is restamped by git sync, so it fails FALSE-NEGATIVE — derive vintage
+#   from file CONTENT wherever the content carries one.
 FETCHERS = [
     ("Banxico remittances", TOOLS / "banxico_reverse.py",
-     BASELINES / "banxico_destination_states.tsv", 85, 120),
+     BASELINES / "banxico_destination_states.tsv", 85, 120, None),
     ("H-2A disclosure",     TOOLS / "h2a_pull.py",
-     BASELINES / "h2a_latest.tsv",                 85, 300),
+     BASELINES / "h2a_latest.tsv",                 85, 180, lambda p: h2a_vintage(p)),
     ("Slaughter weekly",    TOOLS / "slaughter_pull.py",
-     BASELINES / "slaughter_weekly.tsv",            6, 90),
+     BASELINES / "slaughter_weekly.tsv",            6, 90, None),
 ]
+
+
+def expected_h2a_quarter(today=None):
+    """Newest FY quarter DOL should have published by `today`.
+
+    OFLC fiscal quarters are Oct-start (Q1 = Oct-Dec). The disclosure file lands
+    roughly a month after quarter end — FY26 Q3 closed Jun 30, docket expects it
+    Aug 1 — so a quarter counts as 'available' 32 days after it ends.
+    """
+    today = today or date.today()
+    ends = {1: (12, 31), 2: (3, 31), 3: (6, 30), 4: (9, 30)}
+    best = None
+    for fy in (today.year, today.year + 1):
+        for q, (m, d) in ends.items():
+            # FY2026 Q1 ends Dec 2025; Q2-Q4 end in calendar 2026.
+            cal_year = fy - 1 if q == 1 else fy
+            if date(cal_year, m, d) + timedelta(days=32) <= today:
+                if best is None or (fy, q) > best:
+                    best = (fy, q)
+    return best
+
+
+def h2a_vintage(path):
+    """Fetch only when DOL should have a NEWER fiscal quarter than the file holds.
+
+    Why not mtime: a successful pull would otherwise arm an 85-day skip, and doing
+    that today (2026-07-31) would blind MARCO to the FY26 Q3 file publishing
+    TOMORROW — straight through the window MAR-11 resolves in.
+    """
+    if not path.exists():
+        return True, "output missing"
+    try:
+        head = path.read_text(errors="replace").split("\n", 1)[0]
+        fy = int(re.search(r"\bfy=(\d{4})", head).group(1))
+        q = int(re.search(r"\bthrough_q=(\d)", head).group(1))
+    except Exception:
+        return True, "no content vintage in header (pre-2026-07-31 format)"
+    exp = expected_h2a_quarter()
+    if exp and (fy, q) < exp:
+        return True, f"holds FY{fy} Q{q}, DOL should have FY{exp[0]} Q{exp[1]}"
+    # Rate-limit re-attempts when DOL is simply late, so a delayed publication
+    # doesn't re-download 16MB on every boot of the day.
+    age = file_age_days(path)
+    if exp and (fy, q) == exp:
+        return False, f"holds FY{fy} Q{q} = newest published"
+    if age is not None and age < 1:
+        return False, f"FY{fy} Q{q}, re-checked <1d ago"
+    return True, f"holds FY{fy} Q{q}, re-checking"
 
 
 def file_age_days(path):
@@ -80,11 +133,24 @@ def run_script(path, timeout):
         return "FAIL", f"  ERROR: {e}", time.time() - start
 
 
-def collapse(output):
-    """Show only alert/marker lines from a fetcher's output."""
+def collapse(output, status="OK"):
+    """Show only alert/marker lines from a fetcher's output.
+
+    NEVER prints the all-clear for a step that did not exit 0. A marker-matching
+    filter cannot be trusted to surface arbitrary failure text (a bare Python
+    traceback contains none of these tokens), so a failed step that happened to
+    print nothing matchable used to render as '✓ ran cleanly' beside a FAIL in
+    the summary — the two lines contradicting each other. That is how the H-2A
+    fetcher sat dead for 101 days: boot said 'ran cleanly' every time.
+    """
     markers = ("🔴", "🟠", "⚠️", "❌", "FAIL", "ERROR", "TIMEOUT", "wrote", "Wrote",
-               "Source:", "Total", "range:")
+               "Source:", "Total", "range:", "Traceback")
     lines = [ln for ln in output.splitlines() if any(m in ln for m in markers)]
+    if status != "OK":
+        # Show the RAW tail, not the marker-filtered lines: a traceback's marker
+        # token is its first line but its cause is its last.
+        tail = [ln for ln in output.splitlines() if ln.strip()][-3:]
+        return [f"❌ exited {status} — output tail:"] + (tail or ["(no output captured)"])
     return lines[-4:] if lines else ["    ✓ ran cleanly"]
 
 
@@ -114,17 +180,25 @@ def main():
     if quick:
         print(f"\n  ⏩ Fetchers skipped (--quick)")
     else:
-        print(f"\n{'='*72}\n  DATA FETCHERS (cadence-skip on output mtime)\n{'='*72}")
-        for label, script, out_file, cadence, timeout in FETCHERS:
+        print(f"\n{'='*72}\n  DATA FETCHERS (content-vintage where available, else mtime)\n{'='*72}")
+        for label, script, out_file, cadence, timeout, vintage_fn in FETCHERS:
             age = file_age_days(out_file)
-            if not refresh and age is not None and age < cadence:
-                print(f"\n  ⏩ {label} — current ({age:.0f}d < {cadence}d cadence), skip")
-                results.append((label, "SKIP", 0.0))
-                continue
-            age_str = "missing" if age is None else f"{age:.0f}d old ≥ {cadence}d"
+            if vintage_fn is not None:
+                should, why = vintage_fn(out_file)
+                if not refresh and not should:
+                    print(f"\n  ⏩ {label} — current ({why}), skip")
+                    results.append((label, "SKIP", 0.0))
+                    continue
+                age_str = why
+            else:
+                if not refresh and age is not None and age < cadence:
+                    print(f"\n  ⏩ {label} — current ({age:.0f}d < {cadence}d cadence), skip")
+                    results.append((label, "SKIP", 0.0))
+                    continue
+                age_str = "missing" if age is None else f"{age:.0f}d old ≥ {cadence}d"
             print(f"\n  ⏳ {label} — {age_str}, fetching (timeout {timeout}s)…", flush=True)
             status, out, el = run_script(script, timeout)
-            for ln in (out.splitlines() if verbose else collapse(out)):
+            for ln in (out.splitlines() if verbose else collapse(out, status)):
                 print(f"    {ln}" if not ln.startswith("    ") else ln)
             results.append((label, status, el))
 

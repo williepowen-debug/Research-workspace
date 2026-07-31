@@ -1,62 +1,60 @@
-# MARCO H-2A aggregate | source=H-2A_Disclosure_Data_FY2025_Q4.xlsx | snap=20260113235553 | rows=24526 | cert_rows=23424 | total_workers_cert=398059
+# MARCO H-2A aggregate | source=H-2A_Disclosure_Data_FY2026_Q2.xlsx | via=dol.gov (live) | snap=live | fy=2026 through_q=2 | pulled=2026-07-31 | rows=17033 | cert_rows=16707 | total_workers_cert=254688
 
 ## By fiscal quarter (decision date)
 key	workers_certified
-2025Q2	159434
-2025Q3	99467
-2025Q4	80947
-2025Q1	58129
+2026Q2	192321
+2026Q1	62367
 
 ## Top 15 worksite states
 key	workers_certified
-FL	56818
-GA	42723
-CA	35138
-WA	34560
-NC	26123
-MI	15984
-TX	15945
-LA	14631
-AZ	13935
-NY	10658
-AR	7865
-ID	7621
-KY	7399
-MS	7363
-SC	6863
+FL	30044
+GA	28829
+WA	25368
+CA	23506
+NC	17141
+TX	12632
+LA	9126
+MI	8742
+AR	6084
+AZ	5918
+NY	5877
+ID	5518
+KY	5485
+MS	5440
+SC	5139
 
 ## Top 10 SOC occupations
 key	workers_certified
-Farmworkers and Laborers, Crop, Nursery, and Greenhouse	325931
-Agricultural Equipment Operators	36951
-Farmworkers, Farm, Ranch, and Aquacultural Animals	19820
-Heavy and Tractor-Trailer Truck Drivers	4468
-Construction Laborers	2659
-Shuttle Drivers and Chauffeurs	2120
-Graders and Sorters, Agricultural Products	1148
-Packers and Packagers, Hand	783
-Helpers--Carpenters	595
-Helpers--Installation, Maintenance, and Repair Workers	546
+Farmworkers and Laborers, Crop, Nursery, and Greenhouse	200328
+Agricultural Equipment Operators	30724
+Farmworkers, Farm, Ranch, and Aquacultural Animals	16482
+Heavy and Tractor-Trailer Truck Drivers	1595
+Construction Laborers	1441
+Farm Equipment Mechanics and Service Technicians	509
+Shuttle Drivers and Chauffeurs	451
+Graders and Sorters, Agricultural Products	405
+Helpers--Carpenters	280
+Packers and Packagers, Hand	272
 
 ## Top 15 job titles (crop/activity proxy)
 key	workers_certified
-Farmworkers and Laborers, Crop	32781
-Farmworkers and Laborers	24081
-Farmworker	21927
-Farm Worker	15056
-Farmworker/Laborer	12485
-Harvester	10297
-Ag Equipment Operator	9082
-Farmworkers and Laborers, Crop, Nursery, Greenhouse	8900
-Agricultural Equipment Operator	8856
-Farmworkers and Laborers, Crop, Nursery, and Greenhouse	8288
-Farm Workers	7738
-Nursery Worker	7222
-Farmworkers	6992
-Farm Workers and Laborers	6796
-Field Workers	6251
+Farmworker	18183
+Farmworkers and Laborers, Crop	17441
+Farmworkers and Laborers	12410
+Farm Worker	11179
+Ag Equipment Operator	9408
+Farmworker/Laborer	8946
+Farmworkers & Laborers, Crop, Nursery, Greenhouse	7996
+Nursery Worker	7867
+Agricultural Equipment Operator	7372
+Farmworkers and Laborers, Crop, Nursery, and Greenhouse	5532
+Crop Farmworkers	5053
+Harvester	4546
+Farm Laborer	4110
+Field Workers	4053
+Farm Workers and Laborers	3895
 
 ## Wage offer (USD)
-median	17.79
-mean	113.13
-total_requested	415496
+median	15.79
+mean	93.64
+total_requested	262144

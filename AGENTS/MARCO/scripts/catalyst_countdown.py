@@ -15,6 +15,7 @@ Usage:
   .venv/bin/python3 AGENTS/MARCO/scripts/catalyst_countdown.py --all       # show beyond horizon too
 """
 
+import re
 import sys
 from datetime import datetime, timedelta
 from pathlib import Path
@@ -46,6 +47,58 @@ def load_catalysts():
             d = dict(zip(header, parts + [""] * (len(header) - len(parts))))
             rows.append(d)
     return rows
+
+
+def check_integrity(rows):
+    """Docket self-checks. Returns a list of warning strings (empty = clean).
+
+    Added 2026-07-31 after the docket accumulated three DUPLICATE event pairs:
+    seven rows were appended on 7/25 without a merge pass against the nine already
+    there, so the countdown printed 11 due-events for 8 real ones and each of the
+    two highest-priority August catalysts rendered twice. The duplicates were also
+    written in a SECOND priority vocabulary (HIGH/MEDIUM/LOW), which prio_rank()
+    silently buckets to rank 9 — so the off-schema rows sorted to the bottom
+    instead of announcing themselves. Both are one-line checks; the failure was
+    that nobody ran one. Mechanize the check, don't remember the ritual.
+    """
+    warns = []
+
+    # Same-date rows whose event names share a leading token run. Prefix matching
+    # alone is not enough: two of the 7/25 duplicates differed only in trailing
+    # qualifiers (catchable by prefix), but the third was the SAME release under
+    # two framings — "BLS July NFP + UR" vs "BLS July NFP + state CES wages" —
+    # which no prefix rule catches. Token overlap does, and it stays quiet about
+    # genuinely distinct events that merely share a date (Aug 1 legitimately holds
+    # both Banxico remittances and the OFLC H-2A disclosure: 0 shared tokens).
+    def toks(s):
+        return [t for t in re.sub(r"[^a-z0-9 ]", " ", s.lower()).split() if t]
+
+    for i, a in enumerate(rows):
+        for b in rows[i + 1:]:
+            if a.get("date", "").strip() != b.get("date", "").strip():
+                continue
+            ta, tb = toks(a.get("event", "")), toks(b.get("event", ""))
+            shared = 0
+            for x, y in zip(ta, tb):
+                if x != y:
+                    break
+                shared += 1
+            if shared >= 2:
+                warns.append(f"LIKELY DUPLICATE ({shared} shared leading tokens): "
+                             f"{a.get('date','?')} · {a.get('event','?')[:34]} "
+                             f"|| {b.get('event','?')[:34]}")
+
+    for r in rows:
+        p = r.get("priority", "")
+        if prio_rank(p) == 9:
+            warns.append(f"OFF-VOCABULARY priority {p.strip()!r} on {r.get('date','?')} · "
+                         f"{r.get('event','?')[:40]} (docket uses 🔴/🟠/🟡/🟢)")
+
+    dates = [parse_date(r.get("date", "")) for r in rows]
+    if [d for d in dates if d] != sorted(d for d in dates if d):
+        warns.append("ROWS NOT DATE-SORTED (harmless to the countdown, but the file "
+                     "is read by eye too)")
+    return warns
 
 
 def parse_date(s):
@@ -99,6 +152,13 @@ def main():
     if not cats:
         print("\n  (no catalysts listed)")
         return 0
+
+    integrity = check_integrity(cats)
+    if integrity:
+        print(f"\n  ⚠️  DOCKET INTEGRITY — {len(integrity)} issue(s):")
+        for w in integrity:
+            print(f"      · {w}")
+        print("      (fix in docket/CATALYSTS.tsv; reconcile docket/CALENDAR.md to match)")
 
     passed, due, later, unparsed = [], [], [], []
     for c in cats:

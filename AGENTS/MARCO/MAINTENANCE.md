@@ -42,6 +42,18 @@
 
 ## TIER 2 — stale state / single-source-of-truth
 
+### T2-E · Banxico + slaughter fetchers still cadence-skip on **mtime** (NEW — found 2026-07-31)
+- **What:** session 19 moved the H-2A fetcher to a **content-vintage** gate (`h2a_vintage()` reads `fy=`/`through_q=` out of the TSV header and compares against the quarter DOL should have published). The other two entries in `boot.py FETCHERS` still gate on `file_age_days()` — raw mtime.
+- **Why it matters:** root CLAUDE.md Data Hygiene is explicit that **mtime is restamped by git sync**, so an mtime cadence fails **FALSE-NEGATIVE** (it thinks a file is fresh because another machine's pull touched it) — [[finding_mtime_is_corrupted_by_git_sync]]. Under serial multi-machine operation MARCO pulls constantly, so both remaining fetchers can silently skip when they should run. Lower severity than H-2A was: Banxico's output carries its own dated rows and slaughter is a 6-day cadence, so drift is visible sooner.
+- **Action:** give `banxico_reverse.py` and `slaughter_pull.py` outputs a `# … pulled=YYYY-MM-DD | latest_period=…` header line like the rebuilt H-2A TSV, then wire a `vintage_fn` for each. The `FETCHERS` tuple already carries the optional 6th slot — no structural change needed.
+- **Effort:** small-medium (two tools + two gate functions).
+
+### ✅ T2-D · docket duplicate rows + stale premises — DONE 2026-07-31
+*(Found at boot: `catalyst_countdown.py` printed 11 due-events for 8 real ones. `CATALYSTS.tsv` held **3 duplicate event pairs** — Banxico 8/1, BLS NFP 8/8, NTTO 8/15 — created 7/25 when 7 new rows were appended without a merge check against the existing 9, in a **second priority vocabulary** (HIGH/MEDIUM/LOW vs the established emoji). Merging surfaced 3 stale premises that had survived their own corrections: the Aug-8 row still instructed a reader to run the **v2.7 wage-instrument confirm test that v2.8 falsified**; MAR-24 was carried at **45%** against a canonical **60%** (45% is MAR-14's number); the ICE row still cited the **retracted "2.2M"**. All merged/corrected, priority normalized, 16→13 rows, CALENDAR twin reconciled (it had NO duplicates — the machine feed was the broken surface, not the prose twin). **Class lesson: an append-only docket edit needs a dedup pass against existing rows, and a `date+event` uniqueness check is one line — worth adding to `catalyst_countdown.py` so it self-detects.*)
+
+### ✅ T2-C · H-2A fetcher dead ~101 days — DONE 2026-07-31
+*(`h2a_pull.py` had a **hardcoded** `CANDIDATES` filename list. DOL publishes ONE cumulative FY-to-date file whose quarter suffix advances and whose superseded name stops resolving, so the list rots into a hard failure every quarter; its Wayback-only strategy then failed too, because Wayback doesn't reliably archive 16MB xlsx files. Rebuilt: **discovers** the filename from the live performance page and fetches **dol.gov directly** — the Akamai wall passes a complete browser header set and 403s a User-Agent-only request, which is what had forced the Wayback detour. Wayback retained as fallback. 300s timeout → **11s** actual. Verified: FY26-through-Q2 = **254,688** certified, independently reproducing the figure STATUS already carried. Boot gate moved to content-vintage so the Q3 file auto-fetches on publication instead of being masked by an 85-day mtime skip armed the day before. See T2-E for the un-migrated siblings.)*
+
 ### ✅ T2-A · STATUS.md internal stale blocks — DONE 2026-07-02
 *(Resolved in the 7/2 staleness hunt: "NEXT SESSION FOCUS (5/31)" block pruned → pointer to SCRATCH; "CROSS-AGENT NEEDS RE-SEND" block retired → pointer to NEXUS_BRIEF SENDING + outbox. Both were confirmed superseded.)*
 
