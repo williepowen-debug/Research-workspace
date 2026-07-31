@@ -20,7 +20,7 @@
 
 - **Legacy, recognized but not for new surfaces:** `NOT CURRENT` · `DO NOT CITE` · `NOT MAINTAINED` · `ARCHIVED` (as primary token — `archive/` the *directory* is unaffected). The recognizer keeps them (PAT-035/059 widenings stand); new surfaces pick from the canonical three.
 - **Not state tokens (never as primary banner token):** `DEAD` · `OBSOLETE` · `DEPRECATED` — fine as prose after a canonical token.
-- ⚠️ **Known latent enforcement gap (found at registry build, 2026-07-31):** `SUPERSEDED` — the #2 banner token at 52 files — is **absent from `STATIC_BANNER_MARKERS`**. Latent, not live: current SUPERSEDED banners sit on `.md` docs outside the workbook/TRADE globs the enforcer scans. **Fix rides the Will-approved TERRY-S1 `ledger_staleness.py` session** (same script, one token, validated fleet-wide there) — do not patch it separately.
+- ✅ **SUPERSEDED recognizer gap CLOSED same day (2026-07-31, TERRY-S1 session as planned):** `SUPERSEDED` added to `STATIC_BANNER_MARKERS` under the existing banner-form guards; fleet-validated — zero live flips (confirming the gap was latent), synthetic capable-case passes, trade-mode output byte-identical.
 
 ## Class 2 — Gate / trigger states
 

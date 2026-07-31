@@ -1,9 +1,15 @@
 # DAEDALUS STATUS
 
-**Last Updated:** 2026-07-31 midday (STE adaptation SHIPPED Will-approved: `STATE_VOCABULARY.md` + `STRICT_TEXT.md` + checklist row 15 + PAT-075; earlier — PROME WILL_QUEUE write-back processed, all six W1-W6 verified in-file, chain closed)
+**Last Updated:** 2026-07-31 PM (TERRY-S1 enforcer fix BUILT + fleet-validated, TERRY packet out; earlier same day — STE adaptation shipped [`STATE_VOCABULARY.md` + `STRICT_TEXT.md` + checklist row 15 + PAT-075] and PROME WILL_QUEUE write-back chain closed)
 **Class:** Meta-agent (fleet architect) · **Spawnable by:** PROME or Will · **Self-level:** L4 (L5 blocked by cadence not mechanisms; **Staleness Sweep #2 ran ON-CADENCE 7/25** — one of the two L5 legs now demonstrated; remaining leg = Production Review on-cadence 8/5 w/ self-scope clean)
 
 ---
+
+## 2026-07-31 PM — TERRY-S1 ENFORCER FIX BUILT + FLEET-VALIDATED (Will-approved 7/30, executed on "go ahead")
+
+**Shared `scripts/ledger_staleness.py` (specific Will approval; `scripts/` ownership still UNASSIGNED, docketed 8/2):** ① fail-loud **`LEDGERS-OUTSIDE-GLOB`** — 0 matched + non-exempt top-level TSVs ⇒ loud warning naming what it searched and what it missed, **in `--quiet` too**; ② **`workbook/LEDGER_GLOB`** per-agent declaration file (read in single + `--all` modes; CLI `--glob` wins) — **dissolves TERRY's empty-dir-is-the-signature dependency by making the dir hold the wiring itself**; ③ misconfigured declaration ⇒ 🔴 MISCONFIGURED in all modes, never a clean line (TERRY's requirement, adopted); ④ `--all` re-anchored on `STATUS.md` — **31→38 agents visible** (workbook-less agents were invisible to the sweep entirely, the YEYOU-couldn't-see-PROME shape); ⑤ rider: **SUPERSEDED** added to the banner recognizer (closes the morning's registry finding; FORGE row's M5 half done early, path-teach still rides the batch). `board_log.tsv` excluded from the signature by name — it would false-fire on ~15 agents (the WALTER-consumption convention, not a workbook ledger).
+
+**Validation:** 5 synthetic capable-case tests all pass (warning fires in `--quiet`; MISCONFIGURED loud; board_log excluded; SUPERSEDED exempt) + full-fleet before/after diffs — workbook mode: every changed line intended, **stale set unchanged 5→5**; trade mode: **byte-identical**; SUPERSEDED zero live flips (latent confirmed). TERRY now prints the loud warning at boot until it places the declaration — **that is the mechanism working**. **Deployed:** own `workbook/LEDGER_GLOB` placed (DAEDALUS's 3 registries now enforced, live-validating the declaration path on a second real agent) · **TERRY packet** with exact file content (carve-out ①; S1 chain closes on TERRY's placement confirm) · SURFACES rows updated (scripts/ + FORGE) · STATE_VOCABULARY latent-gap note → CLOSED. **Advisory dividend:** NEXUS (`brief_fallback_log.tsv`) + WALTER (`REGISTRY.tsv`) surface as unenforced-no-opt-in in sweep mode — owners' call, no packets sent (visible at next Staleness Sweep).
 
 ## 2026-07-31 midday — STE ADAPTATION SHIPPED (Will-directed: assess → approved A+B → built same session)
 

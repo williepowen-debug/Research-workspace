@@ -1,0 +1,3 @@
+# LEDGER_GLOB — ledger locations for scripts/ledger_staleness.py (PAT-075 / TERRY-S1 mechanism).
+# DAEDALUS keeps its registries at top level by meta-agent design (FLEET_MAP/PATTERNS/SURFACES).
+*.tsv
