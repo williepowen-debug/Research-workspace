@@ -274,7 +274,13 @@ us-recession-by-end-of-2026	US recession 2026	2026-07-21	0.12
 us-recession-by-end-of-2026	US recession 2026	2026-07-22	0.12
 us-recession-by-end-of-2026	US recession 2026	2026-07-23	0.125
 us-recession-by-end-of-2026	US recession 2026	2026-07-24	0.105
-us-recession-by-end-of-2026	US recession 2026	2026-07-24	0.105
+us-recession-by-end-of-2026	US recession 2026	2026-07-25	0.105
+us-recession-by-end-of-2026	US recession 2026	2026-07-26	0.12
+us-recession-by-end-of-2026	US recession 2026	2026-07-27	0.12
+us-recession-by-end-of-2026	US recession 2026	2026-07-28	0.13
+us-recession-by-end-of-2026	US recession 2026	2026-07-30	0.115
+us-recession-by-end-of-2026	US recession 2026	2026-07-31	0.12
+us-recession-by-end-of-2026	US recession 2026	2026-07-31	0.125
 will-no-fed-rate-cuts-happen-in-2026	Fed: NO cuts 2026	2025-09-30	0.15
 will-no-fed-rate-cuts-happen-in-2026	Fed: NO cuts 2026	2025-10-01	0.105
 will-no-fed-rate-cuts-happen-in-2026	Fed: NO cuts 2026	2025-10-02	0.065
@@ -553,7 +559,12 @@ will-no-fed-rate-cuts-happen-in-2026	Fed: NO cuts 2026	2026-07-21	0.8455
 will-no-fed-rate-cuts-happen-in-2026	Fed: NO cuts 2026	2026-07-22	0.8475
 will-no-fed-rate-cuts-happen-in-2026	Fed: NO cuts 2026	2026-07-23	0.8465
 will-no-fed-rate-cuts-happen-in-2026	Fed: NO cuts 2026	2026-07-24	0.845
-will-no-fed-rate-cuts-happen-in-2026	Fed: NO cuts 2026	2026-07-24	0.8495
+will-no-fed-rate-cuts-happen-in-2026	Fed: NO cuts 2026	2026-07-25	0.8465
+will-no-fed-rate-cuts-happen-in-2026	Fed: NO cuts 2026	2026-07-26	0.8505
+will-no-fed-rate-cuts-happen-in-2026	Fed: NO cuts 2026	2026-07-28	0.8535
+will-no-fed-rate-cuts-happen-in-2026	Fed: NO cuts 2026	2026-07-30	0.8865
+will-no-fed-rate-cuts-happen-in-2026	Fed: NO cuts 2026	2026-07-31	0.8935
+will-no-fed-rate-cuts-happen-in-2026	Fed: NO cuts 2026	2026-07-31	0.893
 will-1-fed-rate-cut-happen-in-2026	Fed: 1 cut 2026	2025-09-30	0.23
 will-1-fed-rate-cut-happen-in-2026	Fed: 1 cut 2026	2025-10-01	0.165
 will-1-fed-rate-cut-happen-in-2026	Fed: 1 cut 2026	2025-10-02	0.13
@@ -833,7 +844,14 @@ will-1-fed-rate-cut-happen-in-2026	Fed: 1 cut 2026	2026-07-21	0.105
 will-1-fed-rate-cut-happen-in-2026	Fed: 1 cut 2026	2026-07-22	0.105
 will-1-fed-rate-cut-happen-in-2026	Fed: 1 cut 2026	2026-07-23	0.095
 will-1-fed-rate-cut-happen-in-2026	Fed: 1 cut 2026	2026-07-24	0.105
-will-1-fed-rate-cut-happen-in-2026	Fed: 1 cut 2026	2026-07-24	0.095
+will-1-fed-rate-cut-happen-in-2026	Fed: 1 cut 2026	2026-07-25	0.095
+will-1-fed-rate-cut-happen-in-2026	Fed: 1 cut 2026	2026-07-26	0.085
+will-1-fed-rate-cut-happen-in-2026	Fed: 1 cut 2026	2026-07-27	0.095
+will-1-fed-rate-cut-happen-in-2026	Fed: 1 cut 2026	2026-07-28	0.095
+will-1-fed-rate-cut-happen-in-2026	Fed: 1 cut 2026	2026-07-29	0.095
+will-1-fed-rate-cut-happen-in-2026	Fed: 1 cut 2026	2026-07-30	0.075
+will-1-fed-rate-cut-happen-in-2026	Fed: 1 cut 2026	2026-07-31	0.065
+will-1-fed-rate-cut-happen-in-2026	Fed: 1 cut 2026	2026-07-31	0.065
 fed-rate-hike-in-2026	Fed: HIKE in 2026	2025-12-11	0.29
 fed-rate-hike-in-2026	Fed: HIKE in 2026	2025-12-12	0.1
 fed-rate-hike-in-2026	Fed: HIKE in 2026	2025-12-13	0.105
@@ -1037,131 +1055,309 @@ fed-rate-hike-in-2026	Fed: HIKE in 2026	2026-07-21	0.585
 fed-rate-hike-in-2026	Fed: HIKE in 2026	2026-07-22	0.595
 fed-rate-hike-in-2026	Fed: HIKE in 2026	2026-07-23	0.655
 fed-rate-hike-in-2026	Fed: HIKE in 2026	2026-07-24	0.74
-fed-rate-hike-in-2026	Fed: HIKE in 2026	2026-07-24	0.715
-will-the-fed-increase-interest-rates-by-25-bps-after-the-july-2026-meeting	Fed: hike at July mtg	2026-03-21	0.0405
-will-the-fed-increase-interest-rates-by-25-bps-after-the-july-2026-meeting	Fed: hike at July mtg	2026-03-22	0.052
-will-the-fed-increase-interest-rates-by-25-bps-after-the-july-2026-meeting	Fed: hike at July mtg	2026-03-23	0.0645
-will-the-fed-increase-interest-rates-by-25-bps-after-the-july-2026-meeting	Fed: hike at July mtg	2026-03-24	0.052
-will-the-fed-increase-interest-rates-by-25-bps-after-the-july-2026-meeting	Fed: hike at July mtg	2026-03-25	0.046
-will-the-fed-increase-interest-rates-by-25-bps-after-the-july-2026-meeting	Fed: hike at July mtg	2026-03-26	0.049
-will-the-fed-increase-interest-rates-by-25-bps-after-the-july-2026-meeting	Fed: hike at July mtg	2026-03-27	0.0735
-will-the-fed-increase-interest-rates-by-25-bps-after-the-july-2026-meeting	Fed: hike at July mtg	2026-03-28	0.073
-will-the-fed-increase-interest-rates-by-25-bps-after-the-july-2026-meeting	Fed: hike at July mtg	2026-03-29	0.088
-will-the-fed-increase-interest-rates-by-25-bps-after-the-july-2026-meeting	Fed: hike at July mtg	2026-03-30	0.073
-will-the-fed-increase-interest-rates-by-25-bps-after-the-july-2026-meeting	Fed: hike at July mtg	2026-03-31	0.0765
-will-the-fed-increase-interest-rates-by-25-bps-after-the-july-2026-meeting	Fed: hike at July mtg	2026-04-01	0.073
-will-the-fed-increase-interest-rates-by-25-bps-after-the-july-2026-meeting	Fed: hike at July mtg	2026-04-02	0.0515
-will-the-fed-increase-interest-rates-by-25-bps-after-the-july-2026-meeting	Fed: hike at July mtg	2026-04-03	0.0435
-will-the-fed-increase-interest-rates-by-25-bps-after-the-july-2026-meeting	Fed: hike at July mtg	2026-04-04	0.038
-will-the-fed-increase-interest-rates-by-25-bps-after-the-july-2026-meeting	Fed: hike at July mtg	2026-04-06	0.039
-will-the-fed-increase-interest-rates-by-25-bps-after-the-july-2026-meeting	Fed: hike at July mtg	2026-04-07	0.041
-will-the-fed-increase-interest-rates-by-25-bps-after-the-july-2026-meeting	Fed: hike at July mtg	2026-04-08	0.0395
-will-the-fed-increase-interest-rates-by-25-bps-after-the-july-2026-meeting	Fed: hike at July mtg	2026-04-09	0.0315
-will-the-fed-increase-interest-rates-by-25-bps-after-the-july-2026-meeting	Fed: hike at July mtg	2026-04-10	0.0325
-will-the-fed-increase-interest-rates-by-25-bps-after-the-july-2026-meeting	Fed: hike at July mtg	2026-04-11	0.021
-will-the-fed-increase-interest-rates-by-25-bps-after-the-july-2026-meeting	Fed: hike at July mtg	2026-04-13	0.0205
-will-the-fed-increase-interest-rates-by-25-bps-after-the-july-2026-meeting	Fed: hike at July mtg	2026-04-14	0.0325
-will-the-fed-increase-interest-rates-by-25-bps-after-the-july-2026-meeting	Fed: hike at July mtg	2026-04-15	0.0315
-will-the-fed-increase-interest-rates-by-25-bps-after-the-july-2026-meeting	Fed: hike at July mtg	2026-04-16	0.034
-will-the-fed-increase-interest-rates-by-25-bps-after-the-july-2026-meeting	Fed: hike at July mtg	2026-04-17	0.0395
-will-the-fed-increase-interest-rates-by-25-bps-after-the-july-2026-meeting	Fed: hike at July mtg	2026-04-19	0.04
-will-the-fed-increase-interest-rates-by-25-bps-after-the-july-2026-meeting	Fed: hike at July mtg	2026-04-20	0.0445
-will-the-fed-increase-interest-rates-by-25-bps-after-the-july-2026-meeting	Fed: hike at July mtg	2026-04-21	0.0425
-will-the-fed-increase-interest-rates-by-25-bps-after-the-july-2026-meeting	Fed: hike at July mtg	2026-04-22	0.039
-will-the-fed-increase-interest-rates-by-25-bps-after-the-july-2026-meeting	Fed: hike at July mtg	2026-04-23	0.035
-will-the-fed-increase-interest-rates-by-25-bps-after-the-july-2026-meeting	Fed: hike at July mtg	2026-04-24	0.0295
-will-the-fed-increase-interest-rates-by-25-bps-after-the-july-2026-meeting	Fed: hike at July mtg	2026-04-25	0.0325
-will-the-fed-increase-interest-rates-by-25-bps-after-the-july-2026-meeting	Fed: hike at July mtg	2026-04-26	0.034
-will-the-fed-increase-interest-rates-by-25-bps-after-the-july-2026-meeting	Fed: hike at July mtg	2026-04-27	0.032
-will-the-fed-increase-interest-rates-by-25-bps-after-the-july-2026-meeting	Fed: hike at July mtg	2026-04-28	0.029
-will-the-fed-increase-interest-rates-by-25-bps-after-the-july-2026-meeting	Fed: hike at July mtg	2026-04-29	0.0275
-will-the-fed-increase-interest-rates-by-25-bps-after-the-july-2026-meeting	Fed: hike at July mtg	2026-04-30	0.0345
-will-the-fed-increase-interest-rates-by-25-bps-after-the-july-2026-meeting	Fed: hike at July mtg	2026-05-01	0.0325
-will-the-fed-increase-interest-rates-by-25-bps-after-the-july-2026-meeting	Fed: hike at July mtg	2026-05-02	0.0345
-will-the-fed-increase-interest-rates-by-25-bps-after-the-july-2026-meeting	Fed: hike at July mtg	2026-05-03	0.0335
-will-the-fed-increase-interest-rates-by-25-bps-after-the-july-2026-meeting	Fed: hike at July mtg	2026-05-04	0.0345
-will-the-fed-increase-interest-rates-by-25-bps-after-the-july-2026-meeting	Fed: hike at July mtg	2026-05-05	0.0435
-will-the-fed-increase-interest-rates-by-25-bps-after-the-july-2026-meeting	Fed: hike at July mtg	2026-05-06	0.0495
-will-the-fed-increase-interest-rates-by-25-bps-after-the-july-2026-meeting	Fed: hike at July mtg	2026-05-07	0.0495
-will-the-fed-increase-interest-rates-by-25-bps-after-the-july-2026-meeting	Fed: hike at July mtg	2026-05-08	0.034
-will-the-fed-increase-interest-rates-by-25-bps-after-the-july-2026-meeting	Fed: hike at July mtg	2026-05-09	0.0345
-will-the-fed-increase-interest-rates-by-25-bps-after-the-july-2026-meeting	Fed: hike at July mtg	2026-05-10	0.0255
-will-the-fed-increase-interest-rates-by-25-bps-after-the-july-2026-meeting	Fed: hike at July mtg	2026-05-11	0.0325
-will-the-fed-increase-interest-rates-by-25-bps-after-the-july-2026-meeting	Fed: hike at July mtg	2026-05-12	0.0315
-will-the-fed-increase-interest-rates-by-25-bps-after-the-july-2026-meeting	Fed: hike at July mtg	2026-05-13	0.0245
-will-the-fed-increase-interest-rates-by-25-bps-after-the-july-2026-meeting	Fed: hike at July mtg	2026-05-14	0.028
-will-the-fed-increase-interest-rates-by-25-bps-after-the-july-2026-meeting	Fed: hike at July mtg	2026-05-15	0.0285
-will-the-fed-increase-interest-rates-by-25-bps-after-the-july-2026-meeting	Fed: hike at July mtg	2026-05-16	0.0345
-will-the-fed-increase-interest-rates-by-25-bps-after-the-july-2026-meeting	Fed: hike at July mtg	2026-05-17	0.0345
-will-the-fed-increase-interest-rates-by-25-bps-after-the-july-2026-meeting	Fed: hike at July mtg	2026-05-18	0.0385
-will-the-fed-increase-interest-rates-by-25-bps-after-the-july-2026-meeting	Fed: hike at July mtg	2026-05-19	0.0455
-will-the-fed-increase-interest-rates-by-25-bps-after-the-july-2026-meeting	Fed: hike at July mtg	2026-05-20	0.0515
-will-the-fed-increase-interest-rates-by-25-bps-after-the-july-2026-meeting	Fed: hike at July mtg	2026-05-21	0.0645
-will-the-fed-increase-interest-rates-by-25-bps-after-the-july-2026-meeting	Fed: hike at July mtg	2026-05-22	0.0615
-will-the-fed-increase-interest-rates-by-25-bps-after-the-july-2026-meeting	Fed: hike at July mtg	2026-05-23	0.0625
-will-the-fed-increase-interest-rates-by-25-bps-after-the-july-2026-meeting	Fed: hike at July mtg	2026-05-24	0.0555
-will-the-fed-increase-interest-rates-by-25-bps-after-the-july-2026-meeting	Fed: hike at July mtg	2026-05-25	0.0545
-will-the-fed-increase-interest-rates-by-25-bps-after-the-july-2026-meeting	Fed: hike at July mtg	2026-05-26	0.0515
-will-the-fed-increase-interest-rates-by-25-bps-after-the-july-2026-meeting	Fed: hike at July mtg	2026-05-27	0.0485
-will-the-fed-increase-interest-rates-by-25-bps-after-the-july-2026-meeting	Fed: hike at July mtg	2026-05-28	0.0435
-will-the-fed-increase-interest-rates-by-25-bps-after-the-july-2026-meeting	Fed: hike at July mtg	2026-05-29	0.0405
-will-the-fed-increase-interest-rates-by-25-bps-after-the-july-2026-meeting	Fed: hike at July mtg	2026-05-30	0.0415
-will-the-fed-increase-interest-rates-by-25-bps-after-the-july-2026-meeting	Fed: hike at July mtg	2026-05-31	0.0455
-will-the-fed-increase-interest-rates-by-25-bps-after-the-july-2026-meeting	Fed: hike at July mtg	2026-06-01	0.0575
-will-the-fed-increase-interest-rates-by-25-bps-after-the-july-2026-meeting	Fed: hike at July mtg	2026-06-02	0.053
-will-the-fed-increase-interest-rates-by-25-bps-after-the-july-2026-meeting	Fed: hike at July mtg	2026-06-03	0.0535
-will-the-fed-increase-interest-rates-by-25-bps-after-the-july-2026-meeting	Fed: hike at July mtg	2026-06-04	0.058
-will-the-fed-increase-interest-rates-by-25-bps-after-the-july-2026-meeting	Fed: hike at July mtg	2026-06-05	0.0555
-will-the-fed-increase-interest-rates-by-25-bps-after-the-july-2026-meeting	Fed: hike at July mtg	2026-06-06	0.0415
-will-the-fed-increase-interest-rates-by-25-bps-after-the-july-2026-meeting	Fed: hike at July mtg	2026-06-07	0.0425
-will-the-fed-increase-interest-rates-by-25-bps-after-the-july-2026-meeting	Fed: hike at July mtg	2026-06-08	0.0485
-will-the-fed-increase-interest-rates-by-25-bps-after-the-july-2026-meeting	Fed: hike at July mtg	2026-06-09	0.0545
-will-the-fed-increase-interest-rates-by-25-bps-after-the-july-2026-meeting	Fed: hike at July mtg	2026-06-10	0.0605
-will-the-fed-increase-interest-rates-by-25-bps-after-the-july-2026-meeting	Fed: hike at July mtg	2026-06-11	0.0585
-will-the-fed-increase-interest-rates-by-25-bps-after-the-july-2026-meeting	Fed: hike at July mtg	2026-06-12	0.0535
-will-the-fed-increase-interest-rates-by-25-bps-after-the-july-2026-meeting	Fed: hike at July mtg	2026-06-13	0.046
-will-the-fed-increase-interest-rates-by-25-bps-after-the-july-2026-meeting	Fed: hike at July mtg	2026-06-14	0.0355
-will-the-fed-increase-interest-rates-by-25-bps-after-the-july-2026-meeting	Fed: hike at July mtg	2026-06-15	0.0325
-will-the-fed-increase-interest-rates-by-25-bps-after-the-july-2026-meeting	Fed: hike at July mtg	2026-06-16	0.0225
-will-the-fed-increase-interest-rates-by-25-bps-after-the-july-2026-meeting	Fed: hike at July mtg	2026-06-17	0.0245
-will-the-fed-increase-interest-rates-by-25-bps-after-the-july-2026-meeting	Fed: hike at July mtg	2026-06-18	0.184
-will-the-fed-increase-interest-rates-by-25-bps-after-the-july-2026-meeting	Fed: hike at July mtg	2026-06-19	0.246
-will-the-fed-increase-interest-rates-by-25-bps-after-the-july-2026-meeting	Fed: hike at July mtg	2026-06-20	0.2515
-will-the-fed-increase-interest-rates-by-25-bps-after-the-july-2026-meeting	Fed: hike at July mtg	2026-06-21	0.2115
-will-the-fed-increase-interest-rates-by-25-bps-after-the-july-2026-meeting	Fed: hike at July mtg	2026-06-22	0.2325
-will-the-fed-increase-interest-rates-by-25-bps-after-the-july-2026-meeting	Fed: hike at July mtg	2026-06-23	0.2465
-will-the-fed-increase-interest-rates-by-25-bps-after-the-july-2026-meeting	Fed: hike at July mtg	2026-06-24	0.2445
-will-the-fed-increase-interest-rates-by-25-bps-after-the-july-2026-meeting	Fed: hike at July mtg	2026-06-25	0.2325
-will-the-fed-increase-interest-rates-by-25-bps-after-the-july-2026-meeting	Fed: hike at July mtg	2026-06-26	0.1745
-will-the-fed-increase-interest-rates-by-25-bps-after-the-july-2026-meeting	Fed: hike at July mtg	2026-06-27	0.1815
-will-the-fed-increase-interest-rates-by-25-bps-after-the-july-2026-meeting	Fed: hike at July mtg	2026-06-28	0.1775
-will-the-fed-increase-interest-rates-by-25-bps-after-the-july-2026-meeting	Fed: hike at July mtg	2026-06-29	0.166
-will-the-fed-increase-interest-rates-by-25-bps-after-the-july-2026-meeting	Fed: hike at July mtg	2026-06-30	0.1755
-will-the-fed-increase-interest-rates-by-25-bps-after-the-july-2026-meeting	Fed: hike at July mtg	2026-07-01	0.1875
-will-the-fed-increase-interest-rates-by-25-bps-after-the-july-2026-meeting	Fed: hike at July mtg	2026-07-02	0.1795
-will-the-fed-increase-interest-rates-by-25-bps-after-the-july-2026-meeting	Fed: hike at July mtg	2026-07-03	0.0975
-will-the-fed-increase-interest-rates-by-25-bps-after-the-july-2026-meeting	Fed: hike at July mtg	2026-07-04	0.096
-will-the-fed-increase-interest-rates-by-25-bps-after-the-july-2026-meeting	Fed: hike at July mtg	2026-07-05	0.096
-will-the-fed-increase-interest-rates-by-25-bps-after-the-july-2026-meeting	Fed: hike at July mtg	2026-07-06	0.0955
-will-the-fed-increase-interest-rates-by-25-bps-after-the-july-2026-meeting	Fed: hike at July mtg	2026-07-07	0.1515
-will-the-fed-increase-interest-rates-by-25-bps-after-the-july-2026-meeting	Fed: hike at July mtg	2026-07-08	0.1715
-will-the-fed-increase-interest-rates-by-25-bps-after-the-july-2026-meeting	Fed: hike at July mtg	2026-07-09	0.2195
-will-the-fed-increase-interest-rates-by-25-bps-after-the-july-2026-meeting	Fed: hike at July mtg	2026-07-10	0.147
-will-the-fed-increase-interest-rates-by-25-bps-after-the-july-2026-meeting	Fed: hike at July mtg	2026-07-11	0.2245
-will-the-fed-increase-interest-rates-by-25-bps-after-the-july-2026-meeting	Fed: hike at July mtg	2026-07-12	0.2075
-will-the-fed-increase-interest-rates-by-25-bps-after-the-july-2026-meeting	Fed: hike at July mtg	2026-07-13	0.214
-will-the-fed-increase-interest-rates-by-25-bps-after-the-july-2026-meeting	Fed: hike at July mtg	2026-07-14	0.356
-will-the-fed-increase-interest-rates-by-25-bps-after-the-july-2026-meeting	Fed: hike at July mtg	2026-07-15	0.0725
-will-the-fed-increase-interest-rates-by-25-bps-after-the-july-2026-meeting	Fed: hike at July mtg	2026-07-16	0.0415
-will-the-fed-increase-interest-rates-by-25-bps-after-the-july-2026-meeting	Fed: hike at July mtg	2026-07-17	0.0385
-will-the-fed-increase-interest-rates-by-25-bps-after-the-july-2026-meeting	Fed: hike at July mtg	2026-07-18	0.0505
-will-the-fed-increase-interest-rates-by-25-bps-after-the-july-2026-meeting	Fed: hike at July mtg	2026-07-19	0.047
-will-the-fed-increase-interest-rates-by-25-bps-after-the-july-2026-meeting	Fed: hike at July mtg	2026-07-20	0.0645
-will-the-fed-increase-interest-rates-by-25-bps-after-the-july-2026-meeting	Fed: hike at July mtg	2026-07-21	0.0665
-will-the-fed-increase-interest-rates-by-25-bps-after-the-july-2026-meeting	Fed: hike at July mtg	2026-07-22	0.1445
-will-the-fed-increase-interest-rates-by-25-bps-after-the-july-2026-meeting	Fed: hike at July mtg	2026-07-23	0.227
-will-the-fed-increase-interest-rates-by-25-bps-after-the-july-2026-meeting	Fed: hike at July mtg	2026-07-24	0.2465
-will-the-fed-increase-interest-rates-by-25-bps-after-the-july-2026-meeting	Fed: hike at July mtg	2026-07-24	0.2155
+fed-rate-hike-in-2026	Fed: HIKE in 2026	2026-07-25	0.725
+fed-rate-hike-in-2026	Fed: HIKE in 2026	2026-07-26	0.705
+fed-rate-hike-in-2026	Fed: HIKE in 2026	2026-07-27	0.665
+fed-rate-hike-in-2026	Fed: HIKE in 2026	2026-07-28	0.765
+fed-rate-hike-in-2026	Fed: HIKE in 2026	2026-07-30	0.615
+fed-rate-hike-in-2026	Fed: HIKE in 2026	2026-07-31	0.665
+fed-rate-hike-in-2026	Fed: HIKE in 2026	2026-07-31	0.665
+will-the-fed-increase-interest-rates-by-25-bps-after-the-september-2026-meeting-649	Fed: HIKE at Sept mtg (specific)	2026-05-14	0.28
+will-the-fed-increase-interest-rates-by-25-bps-after-the-september-2026-meeting-649	Fed: HIKE at Sept mtg (specific)	2026-05-15	0.135
+will-the-fed-increase-interest-rates-by-25-bps-after-the-september-2026-meeting-649	Fed: HIKE at Sept mtg (specific)	2026-05-16	0.1
+will-the-fed-increase-interest-rates-by-25-bps-after-the-september-2026-meeting-649	Fed: HIKE at Sept mtg (specific)	2026-05-17	0.105
+will-the-fed-increase-interest-rates-by-25-bps-after-the-september-2026-meeting-649	Fed: HIKE at Sept mtg (specific)	2026-05-18	0.11
+will-the-fed-increase-interest-rates-by-25-bps-after-the-september-2026-meeting-649	Fed: HIKE at Sept mtg (specific)	2026-05-19	0.11
+will-the-fed-increase-interest-rates-by-25-bps-after-the-september-2026-meeting-649	Fed: HIKE at Sept mtg (specific)	2026-05-20	0.125
+will-the-fed-increase-interest-rates-by-25-bps-after-the-september-2026-meeting-649	Fed: HIKE at Sept mtg (specific)	2026-05-21	0.155
+will-the-fed-increase-interest-rates-by-25-bps-after-the-september-2026-meeting-649	Fed: HIKE at Sept mtg (specific)	2026-05-22	0.145
+will-the-fed-increase-interest-rates-by-25-bps-after-the-september-2026-meeting-649	Fed: HIKE at Sept mtg (specific)	2026-05-23	0.175
+will-the-fed-increase-interest-rates-by-25-bps-after-the-september-2026-meeting-649	Fed: HIKE at Sept mtg (specific)	2026-05-24	0.175
+will-the-fed-increase-interest-rates-by-25-bps-after-the-september-2026-meeting-649	Fed: HIKE at Sept mtg (specific)	2026-05-25	0.175
+will-the-fed-increase-interest-rates-by-25-bps-after-the-september-2026-meeting-649	Fed: HIKE at Sept mtg (specific)	2026-05-26	0.155
+will-the-fed-increase-interest-rates-by-25-bps-after-the-september-2026-meeting-649	Fed: HIKE at Sept mtg (specific)	2026-05-27	0.155
+will-the-fed-increase-interest-rates-by-25-bps-after-the-september-2026-meeting-649	Fed: HIKE at Sept mtg (specific)	2026-05-28	0.155
+will-the-fed-increase-interest-rates-by-25-bps-after-the-september-2026-meeting-649	Fed: HIKE at Sept mtg (specific)	2026-05-29	0.115
+will-the-fed-increase-interest-rates-by-25-bps-after-the-september-2026-meeting-649	Fed: HIKE at Sept mtg (specific)	2026-05-30	0.12
+will-the-fed-increase-interest-rates-by-25-bps-after-the-september-2026-meeting-649	Fed: HIKE at Sept mtg (specific)	2026-05-31	0.12
+will-the-fed-increase-interest-rates-by-25-bps-after-the-september-2026-meeting-649	Fed: HIKE at Sept mtg (specific)	2026-06-01	0.135
+will-the-fed-increase-interest-rates-by-25-bps-after-the-september-2026-meeting-649	Fed: HIKE at Sept mtg (specific)	2026-06-02	0.13
+will-the-fed-increase-interest-rates-by-25-bps-after-the-september-2026-meeting-649	Fed: HIKE at Sept mtg (specific)	2026-06-03	0.125
+will-the-fed-increase-interest-rates-by-25-bps-after-the-september-2026-meeting-649	Fed: HIKE at Sept mtg (specific)	2026-06-04	0.16
+will-the-fed-increase-interest-rates-by-25-bps-after-the-september-2026-meeting-649	Fed: HIKE at Sept mtg (specific)	2026-06-05	0.17
+will-the-fed-increase-interest-rates-by-25-bps-after-the-september-2026-meeting-649	Fed: HIKE at Sept mtg (specific)	2026-06-06	0.19
+will-the-fed-increase-interest-rates-by-25-bps-after-the-september-2026-meeting-649	Fed: HIKE at Sept mtg (specific)	2026-06-07	0.19
+will-the-fed-increase-interest-rates-by-25-bps-after-the-september-2026-meeting-649	Fed: HIKE at Sept mtg (specific)	2026-06-08	0.155
+will-the-fed-increase-interest-rates-by-25-bps-after-the-september-2026-meeting-649	Fed: HIKE at Sept mtg (specific)	2026-06-09	0.205
+will-the-fed-increase-interest-rates-by-25-bps-after-the-september-2026-meeting-649	Fed: HIKE at Sept mtg (specific)	2026-06-10	0.21
+will-the-fed-increase-interest-rates-by-25-bps-after-the-september-2026-meeting-649	Fed: HIKE at Sept mtg (specific)	2026-06-11	0.195
+will-the-fed-increase-interest-rates-by-25-bps-after-the-september-2026-meeting-649	Fed: HIKE at Sept mtg (specific)	2026-06-12	0.16
+will-the-fed-increase-interest-rates-by-25-bps-after-the-september-2026-meeting-649	Fed: HIKE at Sept mtg (specific)	2026-06-13	0.16
+will-the-fed-increase-interest-rates-by-25-bps-after-the-september-2026-meeting-649	Fed: HIKE at Sept mtg (specific)	2026-06-14	0.16
+will-the-fed-increase-interest-rates-by-25-bps-after-the-september-2026-meeting-649	Fed: HIKE at Sept mtg (specific)	2026-06-15	0.16
+will-the-fed-increase-interest-rates-by-25-bps-after-the-september-2026-meeting-649	Fed: HIKE at Sept mtg (specific)	2026-06-16	0.13
+will-the-fed-increase-interest-rates-by-25-bps-after-the-september-2026-meeting-649	Fed: HIKE at Sept mtg (specific)	2026-06-17	0.155
+will-the-fed-increase-interest-rates-by-25-bps-after-the-september-2026-meeting-649	Fed: HIKE at Sept mtg (specific)	2026-06-18	0.385
+will-the-fed-increase-interest-rates-by-25-bps-after-the-september-2026-meeting-649	Fed: HIKE at Sept mtg (specific)	2026-06-19	0.395
+will-the-fed-increase-interest-rates-by-25-bps-after-the-september-2026-meeting-649	Fed: HIKE at Sept mtg (specific)	2026-06-20	0.375
+will-the-fed-increase-interest-rates-by-25-bps-after-the-september-2026-meeting-649	Fed: HIKE at Sept mtg (specific)	2026-06-21	0.375
+will-the-fed-increase-interest-rates-by-25-bps-after-the-september-2026-meeting-649	Fed: HIKE at Sept mtg (specific)	2026-06-22	0.385
+will-the-fed-increase-interest-rates-by-25-bps-after-the-september-2026-meeting-649	Fed: HIKE at Sept mtg (specific)	2026-06-23	0.395
+will-the-fed-increase-interest-rates-by-25-bps-after-the-september-2026-meeting-649	Fed: HIKE at Sept mtg (specific)	2026-06-24	0.375
+will-the-fed-increase-interest-rates-by-25-bps-after-the-september-2026-meeting-649	Fed: HIKE at Sept mtg (specific)	2026-06-25	0.365
+will-the-fed-increase-interest-rates-by-25-bps-after-the-september-2026-meeting-649	Fed: HIKE at Sept mtg (specific)	2026-06-26	0.345
+will-the-fed-increase-interest-rates-by-25-bps-after-the-september-2026-meeting-649	Fed: HIKE at Sept mtg (specific)	2026-06-27	0.315
+will-the-fed-increase-interest-rates-by-25-bps-after-the-september-2026-meeting-649	Fed: HIKE at Sept mtg (specific)	2026-06-28	0.315
+will-the-fed-increase-interest-rates-by-25-bps-after-the-september-2026-meeting-649	Fed: HIKE at Sept mtg (specific)	2026-06-29	0.305
+will-the-fed-increase-interest-rates-by-25-bps-after-the-september-2026-meeting-649	Fed: HIKE at Sept mtg (specific)	2026-06-30	0.295
+will-the-fed-increase-interest-rates-by-25-bps-after-the-september-2026-meeting-649	Fed: HIKE at Sept mtg (specific)	2026-07-01	0.28
+will-the-fed-increase-interest-rates-by-25-bps-after-the-september-2026-meeting-649	Fed: HIKE at Sept mtg (specific)	2026-07-02	0.31
+will-the-fed-increase-interest-rates-by-25-bps-after-the-september-2026-meeting-649	Fed: HIKE at Sept mtg (specific)	2026-07-03	0.265
+will-the-fed-increase-interest-rates-by-25-bps-after-the-september-2026-meeting-649	Fed: HIKE at Sept mtg (specific)	2026-07-04	0.245
+will-the-fed-increase-interest-rates-by-25-bps-after-the-september-2026-meeting-649	Fed: HIKE at Sept mtg (specific)	2026-07-05	0.245
+will-the-fed-increase-interest-rates-by-25-bps-after-the-september-2026-meeting-649	Fed: HIKE at Sept mtg (specific)	2026-07-06	0.235
+will-the-fed-increase-interest-rates-by-25-bps-after-the-september-2026-meeting-649	Fed: HIKE at Sept mtg (specific)	2026-07-07	0.235
+will-the-fed-increase-interest-rates-by-25-bps-after-the-september-2026-meeting-649	Fed: HIKE at Sept mtg (specific)	2026-07-08	0.285
+will-the-fed-increase-interest-rates-by-25-bps-after-the-september-2026-meeting-649	Fed: HIKE at Sept mtg (specific)	2026-07-09	0.375
+will-the-fed-increase-interest-rates-by-25-bps-after-the-september-2026-meeting-649	Fed: HIKE at Sept mtg (specific)	2026-07-10	0.375
+will-the-fed-increase-interest-rates-by-25-bps-after-the-september-2026-meeting-649	Fed: HIKE at Sept mtg (specific)	2026-07-11	0.39
+will-the-fed-increase-interest-rates-by-25-bps-after-the-september-2026-meeting-649	Fed: HIKE at Sept mtg (specific)	2026-07-12	0.385
+will-the-fed-increase-interest-rates-by-25-bps-after-the-september-2026-meeting-649	Fed: HIKE at Sept mtg (specific)	2026-07-13	0.395
+will-the-fed-increase-interest-rates-by-25-bps-after-the-september-2026-meeting-649	Fed: HIKE at Sept mtg (specific)	2026-07-14	0.495
+will-the-fed-increase-interest-rates-by-25-bps-after-the-september-2026-meeting-649	Fed: HIKE at Sept mtg (specific)	2026-07-15	0.385
+will-the-fed-increase-interest-rates-by-25-bps-after-the-september-2026-meeting-649	Fed: HIKE at Sept mtg (specific)	2026-07-16	0.305
+will-the-fed-increase-interest-rates-by-25-bps-after-the-september-2026-meeting-649	Fed: HIKE at Sept mtg (specific)	2026-07-17	0.325
+will-the-fed-increase-interest-rates-by-25-bps-after-the-september-2026-meeting-649	Fed: HIKE at Sept mtg (specific)	2026-07-18	0.355
+will-the-fed-increase-interest-rates-by-25-bps-after-the-september-2026-meeting-649	Fed: HIKE at Sept mtg (specific)	2026-07-19	0.365
+will-the-fed-increase-interest-rates-by-25-bps-after-the-september-2026-meeting-649	Fed: HIKE at Sept mtg (specific)	2026-07-20	0.375
+will-the-fed-increase-interest-rates-by-25-bps-after-the-september-2026-meeting-649	Fed: HIKE at Sept mtg (specific)	2026-07-21	0.41
+will-the-fed-increase-interest-rates-by-25-bps-after-the-september-2026-meeting-649	Fed: HIKE at Sept mtg (specific)	2026-07-22	0.485
+will-the-fed-increase-interest-rates-by-25-bps-after-the-september-2026-meeting-649	Fed: HIKE at Sept mtg (specific)	2026-07-23	0.495
+will-the-fed-increase-interest-rates-by-25-bps-after-the-september-2026-meeting-649	Fed: HIKE at Sept mtg (specific)	2026-07-24	0.515
+will-the-fed-increase-interest-rates-by-25-bps-after-the-september-2026-meeting-649	Fed: HIKE at Sept mtg (specific)	2026-07-25	0.535
+will-the-fed-increase-interest-rates-by-25-bps-after-the-september-2026-meeting-649	Fed: HIKE at Sept mtg (specific)	2026-07-26	0.535
+will-the-fed-increase-interest-rates-by-25-bps-after-the-september-2026-meeting-649	Fed: HIKE at Sept mtg (specific)	2026-07-27	0.495
+will-the-fed-increase-interest-rates-by-25-bps-after-the-september-2026-meeting-649	Fed: HIKE at Sept mtg (specific)	2026-07-28	0.535
+will-the-fed-increase-interest-rates-by-25-bps-after-the-september-2026-meeting-649	Fed: HIKE at Sept mtg (specific)	2026-07-29	0.555
+will-the-fed-increase-interest-rates-by-25-bps-after-the-september-2026-meeting-649	Fed: HIKE at Sept mtg (specific)	2026-07-30	0.525
+will-the-fed-increase-interest-rates-by-25-bps-after-the-september-2026-meeting-649	Fed: HIKE at Sept mtg (specific)	2026-07-31	0.525
+will-the-fed-increase-interest-rates-by-25-bps-after-the-september-2026-meeting-649	Fed: HIKE at Sept mtg (specific)	2026-07-31	0.595
+fed-rate-hike-by-september-2026-meeting	Fed: HIKE by Sept mtg (cumulative)	2026-04-01	0.2
+fed-rate-hike-by-september-2026-meeting	Fed: HIKE by Sept mtg (cumulative)	2026-04-02	0.15
+fed-rate-hike-by-september-2026-meeting	Fed: HIKE by Sept mtg (cumulative)	2026-04-07	0.27
+fed-rate-hike-by-september-2026-meeting	Fed: HIKE by Sept mtg (cumulative)	2026-04-09	0.23
+fed-rate-hike-by-september-2026-meeting	Fed: HIKE by Sept mtg (cumulative)	2026-04-18	0.14
+fed-rate-hike-by-september-2026-meeting	Fed: HIKE by Sept mtg (cumulative)	2026-04-22	0.155
+fed-rate-hike-by-september-2026-meeting	Fed: HIKE by Sept mtg (cumulative)	2026-04-23	0.155
+fed-rate-hike-by-september-2026-meeting	Fed: HIKE by Sept mtg (cumulative)	2026-04-24	0.14
+fed-rate-hike-by-september-2026-meeting	Fed: HIKE by Sept mtg (cumulative)	2026-04-25	0.135
+fed-rate-hike-by-september-2026-meeting	Fed: HIKE by Sept mtg (cumulative)	2026-04-26	0.14
+fed-rate-hike-by-september-2026-meeting	Fed: HIKE by Sept mtg (cumulative)	2026-04-27	0.14
+fed-rate-hike-by-september-2026-meeting	Fed: HIKE by Sept mtg (cumulative)	2026-04-28	0.165
+fed-rate-hike-by-september-2026-meeting	Fed: HIKE by Sept mtg (cumulative)	2026-04-29	0.205
+fed-rate-hike-by-september-2026-meeting	Fed: HIKE by Sept mtg (cumulative)	2026-04-30	0.205
+fed-rate-hike-by-september-2026-meeting	Fed: HIKE by Sept mtg (cumulative)	2026-05-01	0.185
+fed-rate-hike-by-september-2026-meeting	Fed: HIKE by Sept mtg (cumulative)	2026-05-02	0.185
+fed-rate-hike-by-september-2026-meeting	Fed: HIKE by Sept mtg (cumulative)	2026-05-03	0.19
+fed-rate-hike-by-september-2026-meeting	Fed: HIKE by Sept mtg (cumulative)	2026-05-04	0.19
+fed-rate-hike-by-september-2026-meeting	Fed: HIKE by Sept mtg (cumulative)	2026-05-05	0.19
+fed-rate-hike-by-september-2026-meeting	Fed: HIKE by Sept mtg (cumulative)	2026-05-06	0.19
+fed-rate-hike-by-september-2026-meeting	Fed: HIKE by Sept mtg (cumulative)	2026-05-07	0.16
+fed-rate-hike-by-september-2026-meeting	Fed: HIKE by Sept mtg (cumulative)	2026-05-08	0.16
+fed-rate-hike-by-september-2026-meeting	Fed: HIKE by Sept mtg (cumulative)	2026-05-09	0.16
+fed-rate-hike-by-september-2026-meeting	Fed: HIKE by Sept mtg (cumulative)	2026-05-10	0.155
+fed-rate-hike-by-september-2026-meeting	Fed: HIKE by Sept mtg (cumulative)	2026-05-11	0.165
+fed-rate-hike-by-september-2026-meeting	Fed: HIKE by Sept mtg (cumulative)	2026-05-12	0.15
+fed-rate-hike-by-september-2026-meeting	Fed: HIKE by Sept mtg (cumulative)	2026-05-13	0.165
+fed-rate-hike-by-september-2026-meeting	Fed: HIKE by Sept mtg (cumulative)	2026-05-14	0.18
+fed-rate-hike-by-september-2026-meeting	Fed: HIKE by Sept mtg (cumulative)	2026-05-15	0.165
+fed-rate-hike-by-september-2026-meeting	Fed: HIKE by Sept mtg (cumulative)	2026-05-16	0.155
+fed-rate-hike-by-september-2026-meeting	Fed: HIKE by Sept mtg (cumulative)	2026-05-17	0.16
+fed-rate-hike-by-september-2026-meeting	Fed: HIKE by Sept mtg (cumulative)	2026-05-18	0.16
+fed-rate-hike-by-september-2026-meeting	Fed: HIKE by Sept mtg (cumulative)	2026-05-19	0.16
+fed-rate-hike-by-september-2026-meeting	Fed: HIKE by Sept mtg (cumulative)	2026-05-20	0.15
+fed-rate-hike-by-september-2026-meeting	Fed: HIKE by Sept mtg (cumulative)	2026-05-21	0.145
+fed-rate-hike-by-september-2026-meeting	Fed: HIKE by Sept mtg (cumulative)	2026-05-22	0.145
+fed-rate-hike-by-september-2026-meeting	Fed: HIKE by Sept mtg (cumulative)	2026-05-23	0.21
+fed-rate-hike-by-september-2026-meeting	Fed: HIKE by Sept mtg (cumulative)	2026-05-24	0.16
+fed-rate-hike-by-september-2026-meeting	Fed: HIKE by Sept mtg (cumulative)	2026-05-25	0.155
+fed-rate-hike-by-september-2026-meeting	Fed: HIKE by Sept mtg (cumulative)	2026-05-26	0.145
+fed-rate-hike-by-september-2026-meeting	Fed: HIKE by Sept mtg (cumulative)	2026-05-27	0.165
+fed-rate-hike-by-september-2026-meeting	Fed: HIKE by Sept mtg (cumulative)	2026-05-28	0.225
+fed-rate-hike-by-september-2026-meeting	Fed: HIKE by Sept mtg (cumulative)	2026-05-29	0.18
+fed-rate-hike-by-september-2026-meeting	Fed: HIKE by Sept mtg (cumulative)	2026-05-30	0.175
+fed-rate-hike-by-september-2026-meeting	Fed: HIKE by Sept mtg (cumulative)	2026-05-31	0.115
+fed-rate-hike-by-september-2026-meeting	Fed: HIKE by Sept mtg (cumulative)	2026-06-01	0.12
+fed-rate-hike-by-september-2026-meeting	Fed: HIKE by Sept mtg (cumulative)	2026-06-02	0.11
+fed-rate-hike-by-september-2026-meeting	Fed: HIKE by Sept mtg (cumulative)	2026-06-03	0.115
+fed-rate-hike-by-september-2026-meeting	Fed: HIKE by Sept mtg (cumulative)	2026-06-04	0.135
+fed-rate-hike-by-september-2026-meeting	Fed: HIKE by Sept mtg (cumulative)	2026-06-05	0.24
+fed-rate-hike-by-september-2026-meeting	Fed: HIKE by Sept mtg (cumulative)	2026-06-06	0.235
+fed-rate-hike-by-september-2026-meeting	Fed: HIKE by Sept mtg (cumulative)	2026-06-07	0.3
+fed-rate-hike-by-september-2026-meeting	Fed: HIKE by Sept mtg (cumulative)	2026-06-08	0.265
+fed-rate-hike-by-september-2026-meeting	Fed: HIKE by Sept mtg (cumulative)	2026-06-09	0.275
+fed-rate-hike-by-september-2026-meeting	Fed: HIKE by Sept mtg (cumulative)	2026-06-10	0.255
+fed-rate-hike-by-september-2026-meeting	Fed: HIKE by Sept mtg (cumulative)	2026-06-11	0.25
+fed-rate-hike-by-september-2026-meeting	Fed: HIKE by Sept mtg (cumulative)	2026-06-12	0.245
+fed-rate-hike-by-september-2026-meeting	Fed: HIKE by Sept mtg (cumulative)	2026-06-13	0.255
+fed-rate-hike-by-september-2026-meeting	Fed: HIKE by Sept mtg (cumulative)	2026-06-14	0.255
+fed-rate-hike-by-september-2026-meeting	Fed: HIKE by Sept mtg (cumulative)	2026-06-15	0.245
+fed-rate-hike-by-september-2026-meeting	Fed: HIKE by Sept mtg (cumulative)	2026-06-16	0.195
+fed-rate-hike-by-september-2026-meeting	Fed: HIKE by Sept mtg (cumulative)	2026-06-17	0.17
+fed-rate-hike-by-september-2026-meeting	Fed: HIKE by Sept mtg (cumulative)	2026-06-18	0.325
+fed-rate-hike-by-september-2026-meeting	Fed: HIKE by Sept mtg (cumulative)	2026-06-19	0.415
+fed-rate-hike-by-september-2026-meeting	Fed: HIKE by Sept mtg (cumulative)	2026-06-20	0.49
+fed-rate-hike-by-september-2026-meeting	Fed: HIKE by Sept mtg (cumulative)	2026-06-21	0.425
+fed-rate-hike-by-september-2026-meeting	Fed: HIKE by Sept mtg (cumulative)	2026-06-22	0.415
+fed-rate-hike-by-september-2026-meeting	Fed: HIKE by Sept mtg (cumulative)	2026-06-23	0.515
+fed-rate-hike-by-september-2026-meeting	Fed: HIKE by Sept mtg (cumulative)	2026-06-24	0.45
+fed-rate-hike-by-september-2026-meeting	Fed: HIKE by Sept mtg (cumulative)	2026-06-25	0.415
+fed-rate-hike-by-september-2026-meeting	Fed: HIKE by Sept mtg (cumulative)	2026-06-26	0.38
+fed-rate-hike-by-september-2026-meeting	Fed: HIKE by Sept mtg (cumulative)	2026-06-27	0.34
+fed-rate-hike-by-september-2026-meeting	Fed: HIKE by Sept mtg (cumulative)	2026-06-28	0.335
+fed-rate-hike-by-september-2026-meeting	Fed: HIKE by Sept mtg (cumulative)	2026-06-29	0.335
+fed-rate-hike-by-september-2026-meeting	Fed: HIKE by Sept mtg (cumulative)	2026-06-30	0.355
+fed-rate-hike-by-september-2026-meeting	Fed: HIKE by Sept mtg (cumulative)	2026-07-01	0.365
+fed-rate-hike-by-september-2026-meeting	Fed: HIKE by Sept mtg (cumulative)	2026-07-02	0.365
+fed-rate-hike-by-september-2026-meeting	Fed: HIKE by Sept mtg (cumulative)	2026-07-03	0.285
+fed-rate-hike-by-september-2026-meeting	Fed: HIKE by Sept mtg (cumulative)	2026-07-04	0.295
+fed-rate-hike-by-september-2026-meeting	Fed: HIKE by Sept mtg (cumulative)	2026-07-05	0.295
+fed-rate-hike-by-september-2026-meeting	Fed: HIKE by Sept mtg (cumulative)	2026-07-06	0.295
+fed-rate-hike-by-september-2026-meeting	Fed: HIKE by Sept mtg (cumulative)	2026-07-07	0.275
+fed-rate-hike-by-september-2026-meeting	Fed: HIKE by Sept mtg (cumulative)	2026-07-08	0.29
+fed-rate-hike-by-september-2026-meeting	Fed: HIKE by Sept mtg (cumulative)	2026-07-09	0.445
+fed-rate-hike-by-september-2026-meeting	Fed: HIKE by Sept mtg (cumulative)	2026-07-10	0.44
+fed-rate-hike-by-september-2026-meeting	Fed: HIKE by Sept mtg (cumulative)	2026-07-11	0.425
+fed-rate-hike-by-september-2026-meeting	Fed: HIKE by Sept mtg (cumulative)	2026-07-12	0.445
+fed-rate-hike-by-september-2026-meeting	Fed: HIKE by Sept mtg (cumulative)	2026-07-13	0.445
+fed-rate-hike-by-september-2026-meeting	Fed: HIKE by Sept mtg (cumulative)	2026-07-14	0.6
+fed-rate-hike-by-september-2026-meeting	Fed: HIKE by Sept mtg (cumulative)	2026-07-15	0.425
+fed-rate-hike-by-september-2026-meeting	Fed: HIKE by Sept mtg (cumulative)	2026-07-16	0.35
+fed-rate-hike-by-september-2026-meeting	Fed: HIKE by Sept mtg (cumulative)	2026-07-17	0.335
+fed-rate-hike-by-september-2026-meeting	Fed: HIKE by Sept mtg (cumulative)	2026-07-18	0.345
+fed-rate-hike-by-september-2026-meeting	Fed: HIKE by Sept mtg (cumulative)	2026-07-19	0.345
+fed-rate-hike-by-september-2026-meeting	Fed: HIKE by Sept mtg (cumulative)	2026-07-20	0.355
+fed-rate-hike-by-september-2026-meeting	Fed: HIKE by Sept mtg (cumulative)	2026-07-21	0.44
+fed-rate-hike-by-september-2026-meeting	Fed: HIKE by Sept mtg (cumulative)	2026-07-22	0.515
+fed-rate-hike-by-september-2026-meeting	Fed: HIKE by Sept mtg (cumulative)	2026-07-23	0.59
+fed-rate-hike-by-september-2026-meeting	Fed: HIKE by Sept mtg (cumulative)	2026-07-24	0.615
+fed-rate-hike-by-september-2026-meeting	Fed: HIKE by Sept mtg (cumulative)	2026-07-25	0.61
+fed-rate-hike-by-september-2026-meeting	Fed: HIKE by Sept mtg (cumulative)	2026-07-26	0.61
+fed-rate-hike-by-september-2026-meeting	Fed: HIKE by Sept mtg (cumulative)	2026-07-27	0.555
+fed-rate-hike-by-september-2026-meeting	Fed: HIKE by Sept mtg (cumulative)	2026-07-28	0.655
+fed-rate-hike-by-september-2026-meeting	Fed: HIKE by Sept mtg (cumulative)	2026-07-30	0.525
+fed-rate-hike-by-september-2026-meeting	Fed: HIKE by Sept mtg (cumulative)	2026-07-31	0.525
+fed-rate-hike-by-september-2026-meeting	Fed: HIKE by Sept mtg (cumulative)	2026-07-31	0.615
+fed-rate-hike-by-october-2026-meeting	Fed: HIKE by Oct mtg (cumulative)	2026-04-01	0.195
+fed-rate-hike-by-october-2026-meeting	Fed: HIKE by Oct mtg (cumulative)	2026-04-02	0.195
+fed-rate-hike-by-october-2026-meeting	Fed: HIKE by Oct mtg (cumulative)	2026-04-03	0.275
+fed-rate-hike-by-october-2026-meeting	Fed: HIKE by Oct mtg (cumulative)	2026-04-04	0.15
+fed-rate-hike-by-october-2026-meeting	Fed: HIKE by Oct mtg (cumulative)	2026-04-07	0.165
+fed-rate-hike-by-october-2026-meeting	Fed: HIKE by Oct mtg (cumulative)	2026-04-09	0.255
+fed-rate-hike-by-october-2026-meeting	Fed: HIKE by Oct mtg (cumulative)	2026-04-13	0.225
+fed-rate-hike-by-october-2026-meeting	Fed: HIKE by Oct mtg (cumulative)	2026-04-15	0.22
+fed-rate-hike-by-october-2026-meeting	Fed: HIKE by Oct mtg (cumulative)	2026-04-18	0.19
+fed-rate-hike-by-october-2026-meeting	Fed: HIKE by Oct mtg (cumulative)	2026-04-22	0.165
+fed-rate-hike-by-october-2026-meeting	Fed: HIKE by Oct mtg (cumulative)	2026-04-23	0.17
+fed-rate-hike-by-october-2026-meeting	Fed: HIKE by Oct mtg (cumulative)	2026-04-24	0.175
+fed-rate-hike-by-october-2026-meeting	Fed: HIKE by Oct mtg (cumulative)	2026-04-25	0.185
+fed-rate-hike-by-october-2026-meeting	Fed: HIKE by Oct mtg (cumulative)	2026-04-26	0.185
+fed-rate-hike-by-october-2026-meeting	Fed: HIKE by Oct mtg (cumulative)	2026-04-27	0.18
+fed-rate-hike-by-october-2026-meeting	Fed: HIKE by Oct mtg (cumulative)	2026-04-28	0.18
+fed-rate-hike-by-october-2026-meeting	Fed: HIKE by Oct mtg (cumulative)	2026-04-29	0.13
+fed-rate-hike-by-october-2026-meeting	Fed: HIKE by Oct mtg (cumulative)	2026-04-30	0.155
+fed-rate-hike-by-october-2026-meeting	Fed: HIKE by Oct mtg (cumulative)	2026-05-01	0.155
+fed-rate-hike-by-october-2026-meeting	Fed: HIKE by Oct mtg (cumulative)	2026-05-02	0.175
+fed-rate-hike-by-october-2026-meeting	Fed: HIKE by Oct mtg (cumulative)	2026-05-03	0.18
+fed-rate-hike-by-october-2026-meeting	Fed: HIKE by Oct mtg (cumulative)	2026-05-04	0.18
+fed-rate-hike-by-october-2026-meeting	Fed: HIKE by Oct mtg (cumulative)	2026-05-05	0.18
+fed-rate-hike-by-october-2026-meeting	Fed: HIKE by Oct mtg (cumulative)	2026-05-06	0.23
+fed-rate-hike-by-october-2026-meeting	Fed: HIKE by Oct mtg (cumulative)	2026-05-07	0.23
+fed-rate-hike-by-october-2026-meeting	Fed: HIKE by Oct mtg (cumulative)	2026-05-08	0.17
+fed-rate-hike-by-october-2026-meeting	Fed: HIKE by Oct mtg (cumulative)	2026-05-09	0.135
+fed-rate-hike-by-october-2026-meeting	Fed: HIKE by Oct mtg (cumulative)	2026-05-10	0.14
+fed-rate-hike-by-october-2026-meeting	Fed: HIKE by Oct mtg (cumulative)	2026-05-11	0.155
+fed-rate-hike-by-october-2026-meeting	Fed: HIKE by Oct mtg (cumulative)	2026-05-12	0.135
+fed-rate-hike-by-october-2026-meeting	Fed: HIKE by Oct mtg (cumulative)	2026-05-13	0.165
+fed-rate-hike-by-october-2026-meeting	Fed: HIKE by Oct mtg (cumulative)	2026-05-14	0.28
+fed-rate-hike-by-october-2026-meeting	Fed: HIKE by Oct mtg (cumulative)	2026-05-15	0.27
+fed-rate-hike-by-october-2026-meeting	Fed: HIKE by Oct mtg (cumulative)	2026-05-16	0.26
+fed-rate-hike-by-october-2026-meeting	Fed: HIKE by Oct mtg (cumulative)	2026-05-17	0.25
+fed-rate-hike-by-october-2026-meeting	Fed: HIKE by Oct mtg (cumulative)	2026-05-18	0.27
+fed-rate-hike-by-october-2026-meeting	Fed: HIKE by Oct mtg (cumulative)	2026-05-19	0.25
+fed-rate-hike-by-october-2026-meeting	Fed: HIKE by Oct mtg (cumulative)	2026-05-20	0.275
+fed-rate-hike-by-october-2026-meeting	Fed: HIKE by Oct mtg (cumulative)	2026-05-21	0.265
+fed-rate-hike-by-october-2026-meeting	Fed: HIKE by Oct mtg (cumulative)	2026-05-22	0.265
+fed-rate-hike-by-october-2026-meeting	Fed: HIKE by Oct mtg (cumulative)	2026-05-23	0.295
+fed-rate-hike-by-october-2026-meeting	Fed: HIKE by Oct mtg (cumulative)	2026-05-24	0.28
+fed-rate-hike-by-october-2026-meeting	Fed: HIKE by Oct mtg (cumulative)	2026-05-25	0.28
+fed-rate-hike-by-october-2026-meeting	Fed: HIKE by Oct mtg (cumulative)	2026-05-26	0.275
+fed-rate-hike-by-october-2026-meeting	Fed: HIKE by Oct mtg (cumulative)	2026-05-27	0.275
+fed-rate-hike-by-october-2026-meeting	Fed: HIKE by Oct mtg (cumulative)	2026-05-28	0.29
+fed-rate-hike-by-october-2026-meeting	Fed: HIKE by Oct mtg (cumulative)	2026-05-29	0.255
+fed-rate-hike-by-october-2026-meeting	Fed: HIKE by Oct mtg (cumulative)	2026-05-30	0.225
+fed-rate-hike-by-october-2026-meeting	Fed: HIKE by Oct mtg (cumulative)	2026-05-31	0.24
+fed-rate-hike-by-october-2026-meeting	Fed: HIKE by Oct mtg (cumulative)	2026-06-01	0.26
+fed-rate-hike-by-october-2026-meeting	Fed: HIKE by Oct mtg (cumulative)	2026-06-02	0.25
+fed-rate-hike-by-october-2026-meeting	Fed: HIKE by Oct mtg (cumulative)	2026-06-03	0.27
+fed-rate-hike-by-october-2026-meeting	Fed: HIKE by Oct mtg (cumulative)	2026-06-04	0.275
+fed-rate-hike-by-october-2026-meeting	Fed: HIKE by Oct mtg (cumulative)	2026-06-05	0.255
+fed-rate-hike-by-october-2026-meeting	Fed: HIKE by Oct mtg (cumulative)	2026-06-06	0.335
+fed-rate-hike-by-october-2026-meeting	Fed: HIKE by Oct mtg (cumulative)	2026-06-07	0.325
+fed-rate-hike-by-october-2026-meeting	Fed: HIKE by Oct mtg (cumulative)	2026-06-08	0.355
+fed-rate-hike-by-october-2026-meeting	Fed: HIKE by Oct mtg (cumulative)	2026-06-09	0.405
+fed-rate-hike-by-october-2026-meeting	Fed: HIKE by Oct mtg (cumulative)	2026-06-10	0.38
+fed-rate-hike-by-october-2026-meeting	Fed: HIKE by Oct mtg (cumulative)	2026-06-11	0.425
+fed-rate-hike-by-october-2026-meeting	Fed: HIKE by Oct mtg (cumulative)	2026-06-12	0.305
+fed-rate-hike-by-october-2026-meeting	Fed: HIKE by Oct mtg (cumulative)	2026-06-13	0.36
+fed-rate-hike-by-october-2026-meeting	Fed: HIKE by Oct mtg (cumulative)	2026-06-14	0.35
+fed-rate-hike-by-october-2026-meeting	Fed: HIKE by Oct mtg (cumulative)	2026-06-15	0.335
+fed-rate-hike-by-october-2026-meeting	Fed: HIKE by Oct mtg (cumulative)	2026-06-16	0.285
+fed-rate-hike-by-october-2026-meeting	Fed: HIKE by Oct mtg (cumulative)	2026-06-17	0.2
+fed-rate-hike-by-october-2026-meeting	Fed: HIKE by Oct mtg (cumulative)	2026-06-18	0.38
+fed-rate-hike-by-october-2026-meeting	Fed: HIKE by Oct mtg (cumulative)	2026-06-19	0.455
+fed-rate-hike-by-october-2026-meeting	Fed: HIKE by Oct mtg (cumulative)	2026-06-20	0.53
+fed-rate-hike-by-october-2026-meeting	Fed: HIKE by Oct mtg (cumulative)	2026-06-21	0.55
+fed-rate-hike-by-october-2026-meeting	Fed: HIKE by Oct mtg (cumulative)	2026-06-22	0.535
+fed-rate-hike-by-october-2026-meeting	Fed: HIKE by Oct mtg (cumulative)	2026-06-23	0.535
+fed-rate-hike-by-october-2026-meeting	Fed: HIKE by Oct mtg (cumulative)	2026-06-24	0.545
+fed-rate-hike-by-october-2026-meeting	Fed: HIKE by Oct mtg (cumulative)	2026-06-25	0.535
+fed-rate-hike-by-october-2026-meeting	Fed: HIKE by Oct mtg (cumulative)	2026-06-26	0.485
+fed-rate-hike-by-october-2026-meeting	Fed: HIKE by Oct mtg (cumulative)	2026-06-27	0.475
+fed-rate-hike-by-october-2026-meeting	Fed: HIKE by Oct mtg (cumulative)	2026-06-28	0.475
+fed-rate-hike-by-october-2026-meeting	Fed: HIKE by Oct mtg (cumulative)	2026-06-29	0.415
+fed-rate-hike-by-october-2026-meeting	Fed: HIKE by Oct mtg (cumulative)	2026-06-30	0.435
+fed-rate-hike-by-october-2026-meeting	Fed: HIKE by Oct mtg (cumulative)	2026-07-01	0.435
+fed-rate-hike-by-october-2026-meeting	Fed: HIKE by Oct mtg (cumulative)	2026-07-02	0.445
+fed-rate-hike-by-october-2026-meeting	Fed: HIKE by Oct mtg (cumulative)	2026-07-03	0.425
+fed-rate-hike-by-october-2026-meeting	Fed: HIKE by Oct mtg (cumulative)	2026-07-04	0.425
+fed-rate-hike-by-october-2026-meeting	Fed: HIKE by Oct mtg (cumulative)	2026-07-05	0.415
+fed-rate-hike-by-october-2026-meeting	Fed: HIKE by Oct mtg (cumulative)	2026-07-06	0.415
+fed-rate-hike-by-october-2026-meeting	Fed: HIKE by Oct mtg (cumulative)	2026-07-07	0.415
+fed-rate-hike-by-october-2026-meeting	Fed: HIKE by Oct mtg (cumulative)	2026-07-08	0.415
+fed-rate-hike-by-october-2026-meeting	Fed: HIKE by Oct mtg (cumulative)	2026-07-09	0.5
+fed-rate-hike-by-october-2026-meeting	Fed: HIKE by Oct mtg (cumulative)	2026-07-10	0.465
+fed-rate-hike-by-october-2026-meeting	Fed: HIKE by Oct mtg (cumulative)	2026-07-11	0.465
+fed-rate-hike-by-october-2026-meeting	Fed: HIKE by Oct mtg (cumulative)	2026-07-12	0.475
+fed-rate-hike-by-october-2026-meeting	Fed: HIKE by Oct mtg (cumulative)	2026-07-13	0.53
+fed-rate-hike-by-october-2026-meeting	Fed: HIKE by Oct mtg (cumulative)	2026-07-14	0.66
+fed-rate-hike-by-october-2026-meeting	Fed: HIKE by Oct mtg (cumulative)	2026-07-15	0.48
+fed-rate-hike-by-october-2026-meeting	Fed: HIKE by Oct mtg (cumulative)	2026-07-16	0.44
+fed-rate-hike-by-october-2026-meeting	Fed: HIKE by Oct mtg (cumulative)	2026-07-17	0.435
+fed-rate-hike-by-october-2026-meeting	Fed: HIKE by Oct mtg (cumulative)	2026-07-18	0.44
+fed-rate-hike-by-october-2026-meeting	Fed: HIKE by Oct mtg (cumulative)	2026-07-19	0.44
+fed-rate-hike-by-october-2026-meeting	Fed: HIKE by Oct mtg (cumulative)	2026-07-20	0.445
+fed-rate-hike-by-october-2026-meeting	Fed: HIKE by Oct mtg (cumulative)	2026-07-21	0.485
+fed-rate-hike-by-october-2026-meeting	Fed: HIKE by Oct mtg (cumulative)	2026-07-22	0.565
+fed-rate-hike-by-october-2026-meeting	Fed: HIKE by Oct mtg (cumulative)	2026-07-23	0.64
+fed-rate-hike-by-october-2026-meeting	Fed: HIKE by Oct mtg (cumulative)	2026-07-24	0.685
+fed-rate-hike-by-october-2026-meeting	Fed: HIKE by Oct mtg (cumulative)	2026-07-25	0.68
+fed-rate-hike-by-october-2026-meeting	Fed: HIKE by Oct mtg (cumulative)	2026-07-26	0.69
+fed-rate-hike-by-october-2026-meeting	Fed: HIKE by Oct mtg (cumulative)	2026-07-27	0.62
+fed-rate-hike-by-october-2026-meeting	Fed: HIKE by Oct mtg (cumulative)	2026-07-28	0.68
+fed-rate-hike-by-october-2026-meeting	Fed: HIKE by Oct mtg (cumulative)	2026-07-30	0.595
+fed-rate-hike-by-october-2026-meeting	Fed: HIKE by Oct mtg (cumulative)	2026-07-31	0.605
+fed-rate-hike-by-october-2026-meeting	Fed: HIKE by Oct mtg (cumulative)	2026-07-31	0.625
 major-us-bank-bailout-before-2027	Major bank bailout before 2027	2025-11-13	0.535
 major-us-bank-bailout-before-2027	Major bank bailout before 2027	2025-11-14	0.215
 major-us-bank-bailout-before-2027	Major bank bailout before 2027	2025-11-15	0.17
@@ -1391,12 +1587,25 @@ major-us-bank-bailout-before-2027	Major bank bailout before 2027	2026-07-21	0.12
 major-us-bank-bailout-before-2027	Major bank bailout before 2027	2026-07-22	0.12
 major-us-bank-bailout-before-2027	Major bank bailout before 2027	2026-07-23	0.12
 major-us-bank-bailout-before-2027	Major bank bailout before 2027	2026-07-24	0.115
-major-us-bank-bailout-before-2027	Major bank bailout before 2027	2026-07-24	0.115
+major-us-bank-bailout-before-2027	Major bank bailout before 2027	2026-07-25	0.115
+major-us-bank-bailout-before-2027	Major bank bailout before 2027	2026-07-26	0.11
+major-us-bank-bailout-before-2027	Major bank bailout before 2027	2026-07-27	0.115
+major-us-bank-bailout-before-2027	Major bank bailout before 2027	2026-07-28	0.115
+major-us-bank-bailout-before-2027	Major bank bailout before 2027	2026-07-30	0.075
+major-us-bank-bailout-before-2027	Major bank bailout before 2027	2026-07-31	0.075
+major-us-bank-bailout-before-2027	Major bank bailout before 2027	2026-07-31	0.075
 us-bank-failure-by-december-31-2026-20260720194747677	US bank failure by Dec 31 2026	2026-07-21	0.51
 us-bank-failure-by-december-31-2026-20260720194747677	US bank failure by Dec 31 2026	2026-07-22	0.725
 us-bank-failure-by-december-31-2026-20260720194747677	US bank failure by Dec 31 2026	2026-07-23	0.72
 us-bank-failure-by-december-31-2026-20260720194747677	US bank failure by Dec 31 2026	2026-07-24	0.72
-us-bank-failure-by-december-31-2026-20260720194747677	US bank failure by Dec 31 2026	2026-07-24	0.74
+us-bank-failure-by-december-31-2026-20260720194747677	US bank failure by Dec 31 2026	2026-07-25	0.735
+us-bank-failure-by-december-31-2026-20260720194747677	US bank failure by Dec 31 2026	2026-07-26	0.74
+us-bank-failure-by-december-31-2026-20260720194747677	US bank failure by Dec 31 2026	2026-07-27	0.735
+us-bank-failure-by-december-31-2026-20260720194747677	US bank failure by Dec 31 2026	2026-07-28	0.735
+us-bank-failure-by-december-31-2026-20260720194747677	US bank failure by Dec 31 2026	2026-07-29	0.725
+us-bank-failure-by-december-31-2026-20260720194747677	US bank failure by Dec 31 2026	2026-07-30	0.725
+us-bank-failure-by-december-31-2026-20260720194747677	US bank failure by Dec 31 2026	2026-07-31	0.725
+us-bank-failure-by-december-31-2026-20260720194747677	US bank failure by Dec 31 2026	2026-07-31	0.725
 us-defaults-on-debt-by-2027	US debt default by 2027	2025-11-06	0.08
 us-defaults-on-debt-by-2027	US debt default by 2027	2025-11-07	0.08
 us-defaults-on-debt-by-2027	US debt default by 2027	2025-11-08	0.05
@@ -1644,7 +1853,14 @@ us-defaults-on-debt-by-2027	US debt default by 2027	2026-07-21	0.0455
 us-defaults-on-debt-by-2027	US debt default by 2027	2026-07-22	0.048
 us-defaults-on-debt-by-2027	US debt default by 2027	2026-07-23	0.0485
 us-defaults-on-debt-by-2027	US debt default by 2027	2026-07-24	0.05
-us-defaults-on-debt-by-2027	US debt default by 2027	2026-07-24	0.0495
+us-defaults-on-debt-by-2027	US debt default by 2027	2026-07-25	0.0335
+us-defaults-on-debt-by-2027	US debt default by 2027	2026-07-26	0.045
+us-defaults-on-debt-by-2027	US debt default by 2027	2026-07-27	0.036
+us-defaults-on-debt-by-2027	US debt default by 2027	2026-07-28	0.0315
+us-defaults-on-debt-by-2027	US debt default by 2027	2026-07-29	0.0315
+us-defaults-on-debt-by-2027	US debt default by 2027	2026-07-30	0.025
+us-defaults-on-debt-by-2027	US debt default by 2027	2026-07-31	0.025
+us-defaults-on-debt-by-2027	US debt default by 2027	2026-07-31	0.0285
 ai-industry-downturn-by-december-31-2026-857	AI bubble burst 2026	2025-11-21	0.425
 ai-industry-downturn-by-december-31-2026-857	AI bubble burst 2026	2025-11-22	0.465
 ai-industry-downturn-by-december-31-2026-857	AI bubble burst 2026	2025-11-23	0.44
@@ -1889,7 +2105,14 @@ ai-industry-downturn-by-december-31-2026-857	AI bubble burst 2026	2026-07-21	0.1
 ai-industry-downturn-by-december-31-2026-857	AI bubble burst 2026	2026-07-22	0.165
 ai-industry-downturn-by-december-31-2026-857	AI bubble burst 2026	2026-07-23	0.166
 ai-industry-downturn-by-december-31-2026-857	AI bubble burst 2026	2026-07-24	0.1655
-ai-industry-downturn-by-december-31-2026-857	AI bubble burst 2026	2026-07-24	0.1645
+ai-industry-downturn-by-december-31-2026-857	AI bubble burst 2026	2026-07-25	0.1645
+ai-industry-downturn-by-december-31-2026-857	AI bubble burst 2026	2026-07-26	0.1645
+ai-industry-downturn-by-december-31-2026-857	AI bubble burst 2026	2026-07-27	0.1605
+ai-industry-downturn-by-december-31-2026-857	AI bubble burst 2026	2026-07-28	0.1985
+ai-industry-downturn-by-december-31-2026-857	AI bubble burst 2026	2026-07-29	0.1845
+ai-industry-downturn-by-december-31-2026-857	AI bubble burst 2026	2026-07-30	0.2785
+ai-industry-downturn-by-december-31-2026-857	AI bubble burst 2026	2026-07-31	0.196
+ai-industry-downturn-by-december-31-2026-857	AI bubble burst 2026	2026-07-31	0.187
 will-microstrategy-announce-bankruptcy-before-2027	MicroStrategy bankruptcy by 2027	2025-11-13	0.4
 will-microstrategy-announce-bankruptcy-before-2027	MicroStrategy bankruptcy by 2027	2025-11-14	0.225
 will-microstrategy-announce-bankruptcy-before-2027	MicroStrategy bankruptcy by 2027	2025-11-15	0.24
@@ -2122,7 +2345,13 @@ will-microstrategy-announce-bankruptcy-before-2027	MicroStrategy bankruptcy by 2
 will-microstrategy-announce-bankruptcy-before-2027	MicroStrategy bankruptcy by 2027	2026-07-22	0.0385
 will-microstrategy-announce-bankruptcy-before-2027	MicroStrategy bankruptcy by 2027	2026-07-23	0.039
 will-microstrategy-announce-bankruptcy-before-2027	MicroStrategy bankruptcy by 2027	2026-07-24	0.039
-will-microstrategy-announce-bankruptcy-before-2027	MicroStrategy bankruptcy by 2027	2026-07-24	0.039
+will-microstrategy-announce-bankruptcy-before-2027	MicroStrategy bankruptcy by 2027	2026-07-25	0.039
+will-microstrategy-announce-bankruptcy-before-2027	MicroStrategy bankruptcy by 2027	2026-07-26	0.039
+will-microstrategy-announce-bankruptcy-before-2027	MicroStrategy bankruptcy by 2027	2026-07-27	0.039
+will-microstrategy-announce-bankruptcy-before-2027	MicroStrategy bankruptcy by 2027	2026-07-28	0.038
+will-microstrategy-announce-bankruptcy-before-2027	MicroStrategy bankruptcy by 2027	2026-07-30	0.038
+will-microstrategy-announce-bankruptcy-before-2027	MicroStrategy bankruptcy by 2027	2026-07-31	0.0385
+will-microstrategy-announce-bankruptcy-before-2027	MicroStrategy bankruptcy by 2027	2026-07-31	0.0385
 nothing-ever-happens-2026	Nothing Ever Happens 2026	2026-01-07	0.58
 nothing-ever-happens-2026	Nothing Ever Happens 2026	2026-01-08	0.515
 nothing-ever-happens-2026	Nothing Ever Happens 2026	2026-01-09	0.515
@@ -2296,7 +2525,13 @@ nothing-ever-happens-2026	Nothing Ever Happens 2026	2026-07-21	0.705
 nothing-ever-happens-2026	Nothing Ever Happens 2026	2026-07-22	0.665
 nothing-ever-happens-2026	Nothing Ever Happens 2026	2026-07-23	0.665
 nothing-ever-happens-2026	Nothing Ever Happens 2026	2026-07-24	0.675
-nothing-ever-happens-2026	Nothing Ever Happens 2026	2026-07-24	0.7
+nothing-ever-happens-2026	Nothing Ever Happens 2026	2026-07-25	0.68
+nothing-ever-happens-2026	Nothing Ever Happens 2026	2026-07-26	0.695
+nothing-ever-happens-2026	Nothing Ever Happens 2026	2026-07-27	0.765
+nothing-ever-happens-2026	Nothing Ever Happens 2026	2026-07-28	0.75
+nothing-ever-happens-2026	Nothing Ever Happens 2026	2026-07-30	0.725
+nothing-ever-happens-2026	Nothing Ever Happens 2026	2026-07-31	0.71
+nothing-ever-happens-2026	Nothing Ever Happens 2026	2026-07-31	0.735
 what-will-the-fed-rate-be-at-the-end-of-2026	Fed funds rate end-2026 (dist)	2026-01-13	0.085
 what-will-the-fed-rate-be-at-the-end-of-2026	Fed funds rate end-2026 (dist)	2026-01-14	0.075
 what-will-the-fed-rate-be-at-the-end-of-2026	Fed funds rate end-2026 (dist)	2026-01-15	0.075
@@ -2470,7 +2705,13 @@ what-will-the-fed-rate-be-at-the-end-of-2026	Fed funds rate end-2026 (dist)	2026
 what-will-the-fed-rate-be-at-the-end-of-2026	Fed funds rate end-2026 (dist)	2026-07-22	0.31
 what-will-the-fed-rate-be-at-the-end-of-2026	Fed funds rate end-2026 (dist)	2026-07-23	0.3085
 what-will-the-fed-rate-be-at-the-end-of-2026	Fed funds rate end-2026 (dist)	2026-07-24	0.309
-what-will-the-fed-rate-be-at-the-end-of-2026	Fed funds rate end-2026 (dist)	2026-07-24	0.3075
+what-will-the-fed-rate-be-at-the-end-of-2026	Fed funds rate end-2026 (dist)	2026-07-25	0.309
+what-will-the-fed-rate-be-at-the-end-of-2026	Fed funds rate end-2026 (dist)	2026-07-26	0.2775
+what-will-the-fed-rate-be-at-the-end-of-2026	Fed funds rate end-2026 (dist)	2026-07-27	0.2415
+what-will-the-fed-rate-be-at-the-end-of-2026	Fed funds rate end-2026 (dist)	2026-07-28	0.261
+what-will-the-fed-rate-be-at-the-end-of-2026	Fed funds rate end-2026 (dist)	2026-07-30	0.264
+what-will-the-fed-rate-be-at-the-end-of-2026	Fed funds rate end-2026 (dist)	2026-07-31	0.314
+what-will-the-fed-rate-be-at-the-end-of-2026	Fed funds rate end-2026 (dist)	2026-07-31	0.314
 will-inflation-reach-more-than-5-in-2026-282-763	US inflation >5% in 2026	2025-11-14	0.195
 will-inflation-reach-more-than-5-in-2026-282-763	US inflation >5% in 2026	2025-11-15	0.12
 will-inflation-reach-more-than-5-in-2026-282-763	US inflation >5% in 2026	2025-11-16	0.215
@@ -2704,7 +2945,13 @@ will-inflation-reach-more-than-5-in-2026-282-763	US inflation >5% in 2026	2026-0
 will-inflation-reach-more-than-5-in-2026-282-763	US inflation >5% in 2026	2026-07-22	0.14
 will-inflation-reach-more-than-5-in-2026-282-763	US inflation >5% in 2026	2026-07-23	0.14
 will-inflation-reach-more-than-5-in-2026-282-763	US inflation >5% in 2026	2026-07-24	0.15
-will-inflation-reach-more-than-5-in-2026-282-763	US inflation >5% in 2026	2026-07-24	0.15
+will-inflation-reach-more-than-5-in-2026-282-763	US inflation >5% in 2026	2026-07-25	0.15
+will-inflation-reach-more-than-5-in-2026-282-763	US inflation >5% in 2026	2026-07-26	0.15
+will-inflation-reach-more-than-5-in-2026-282-763	US inflation >5% in 2026	2026-07-27	0.155
+will-inflation-reach-more-than-5-in-2026-282-763	US inflation >5% in 2026	2026-07-28	0.155
+will-inflation-reach-more-than-5-in-2026-282-763	US inflation >5% in 2026	2026-07-30	0.145
+will-inflation-reach-more-than-5-in-2026-282-763	US inflation >5% in 2026	2026-07-31	0.125
+will-inflation-reach-more-than-5-in-2026-282-763	US inflation >5% in 2026	2026-07-31	0.13
 how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-01-03	0.59
 how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-01-04	0.58
 how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-01-05	0.515
@@ -2899,7 +3146,14 @@ how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-07-21	
 how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-07-22	0.124
 how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-07-23	0.1195
 how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-07-24	0.1195
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-07-24	0.1195
+how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-07-25	0.1195
+how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-07-26	0.119
+how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-07-27	0.121
+how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-07-28	0.121
+how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-07-29	0.121
+how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-07-30	0.121
+how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-07-31	0.1165
+how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-07-31	0.1
 strait-of-hormuz-traffic-returns-to-normal-by-december-31	Hormuz traffic normal by Dec 31	2026-05-12	0.795
 strait-of-hormuz-traffic-returns-to-normal-by-december-31	Hormuz traffic normal by Dec 31	2026-05-13	0.775
 strait-of-hormuz-traffic-returns-to-normal-by-december-31	Hormuz traffic normal by Dec 31	2026-05-14	0.755
@@ -2974,7 +3228,13 @@ strait-of-hormuz-traffic-returns-to-normal-by-december-31	Hormuz traffic normal 
 strait-of-hormuz-traffic-returns-to-normal-by-december-31	Hormuz traffic normal by Dec 31	2026-07-22	0.535
 strait-of-hormuz-traffic-returns-to-normal-by-december-31	Hormuz traffic normal by Dec 31	2026-07-23	0.505
 strait-of-hormuz-traffic-returns-to-normal-by-december-31	Hormuz traffic normal by Dec 31	2026-07-24	0.525
-strait-of-hormuz-traffic-returns-to-normal-by-december-31	Hormuz traffic normal by Dec 31	2026-07-24	0.515
+strait-of-hormuz-traffic-returns-to-normal-by-december-31	Hormuz traffic normal by Dec 31	2026-07-25	0.515
+strait-of-hormuz-traffic-returns-to-normal-by-december-31	Hormuz traffic normal by Dec 31	2026-07-26	0.555
+strait-of-hormuz-traffic-returns-to-normal-by-december-31	Hormuz traffic normal by Dec 31	2026-07-27	0.585
+strait-of-hormuz-traffic-returns-to-normal-by-december-31	Hormuz traffic normal by Dec 31	2026-07-28	0.545
+strait-of-hormuz-traffic-returns-to-normal-by-december-31	Hormuz traffic normal by Dec 31	2026-07-30	0.535
+strait-of-hormuz-traffic-returns-to-normal-by-december-31	Hormuz traffic normal by Dec 31	2026-07-31	0.515
+strait-of-hormuz-traffic-returns-to-normal-by-december-31	Hormuz traffic normal by Dec 31	2026-07-31	0.505
 will-the-us-invade-iran-before-2027	US invade Iran before 2027	2025-11-06	0.135
 will-the-us-invade-iran-before-2027	US invade Iran before 2027	2025-11-07	0.13
 will-the-us-invade-iran-before-2027	US invade Iran before 2027	2025-11-08	0.12
@@ -3234,7 +3494,14 @@ will-the-us-invade-iran-before-2027	US invade Iran before 2027	2026-07-21	0.265
 will-the-us-invade-iran-before-2027	US invade Iran before 2027	2026-07-22	0.285
 will-the-us-invade-iran-before-2027	US invade Iran before 2027	2026-07-23	0.285
 will-the-us-invade-iran-before-2027	US invade Iran before 2027	2026-07-24	0.305
-will-the-us-invade-iran-before-2027	US invade Iran before 2027	2026-07-24	0.275
+will-the-us-invade-iran-before-2027	US invade Iran before 2027	2026-07-25	0.305
+will-the-us-invade-iran-before-2027	US invade Iran before 2027	2026-07-26	0.245
+will-the-us-invade-iran-before-2027	US invade Iran before 2027	2026-07-27	0.205
+will-the-us-invade-iran-before-2027	US invade Iran before 2027	2026-07-28	0.225
+will-the-us-invade-iran-before-2027	US invade Iran before 2027	2026-07-29	0.245
+will-the-us-invade-iran-before-2027	US invade Iran before 2027	2026-07-30	0.235
+will-the-us-invade-iran-before-2027	US invade Iran before 2027	2026-07-31	0.245
+will-the-us-invade-iran-before-2027	US invade Iran before 2027	2026-07-31	0.235
 will-the-iranian-regime-fall-by-the-end-of-2026	Iranian regime fall before 2027	2025-11-05	0.155
 will-the-iranian-regime-fall-by-the-end-of-2026	Iranian regime fall before 2027	2025-11-06	0.16
 will-the-iranian-regime-fall-by-the-end-of-2026	Iranian regime fall before 2027	2025-11-07	0.16
@@ -3469,7 +3736,13 @@ will-the-iranian-regime-fall-by-the-end-of-2026	Iranian regime fall before 2027	
 will-the-iranian-regime-fall-by-the-end-of-2026	Iranian regime fall before 2027	2026-07-22	0.105
 will-the-iranian-regime-fall-by-the-end-of-2026	Iranian regime fall before 2027	2026-07-23	0.105
 will-the-iranian-regime-fall-by-the-end-of-2026	Iranian regime fall before 2027	2026-07-24	0.105
-will-the-iranian-regime-fall-by-the-end-of-2026	Iranian regime fall before 2027	2026-07-24	0.095
+will-the-iranian-regime-fall-by-the-end-of-2026	Iranian regime fall before 2027	2026-07-25	0.095
+will-the-iranian-regime-fall-by-the-end-of-2026	Iranian regime fall before 2027	2026-07-26	0.095
+will-the-iranian-regime-fall-by-the-end-of-2026	Iranian regime fall before 2027	2026-07-27	0.085
+will-the-iranian-regime-fall-by-the-end-of-2026	Iranian regime fall before 2027	2026-07-28	0.085
+will-the-iranian-regime-fall-by-the-end-of-2026	Iranian regime fall before 2027	2026-07-30	0.085
+will-the-iranian-regime-fall-by-the-end-of-2026	Iranian regime fall before 2027	2026-07-31	0.085
+will-the-iranian-regime-fall-by-the-end-of-2026	Iranian regime fall before 2027	2026-07-31	0.085
 delcy-rodrguez-out-as-leader-of-venezuela-by-december-31-2026-148-853	Venezuela: Delcy out as leader by Dec 31	2026-01-06	0.54
 delcy-rodrguez-out-as-leader-of-venezuela-by-december-31-2026-148-853	Venezuela: Delcy out as leader by Dec 31	2026-01-07	0.58
 delcy-rodrguez-out-as-leader-of-venezuela-by-december-31-2026-148-853	Venezuela: Delcy out as leader by Dec 31	2026-01-08	0.415
@@ -3654,7 +3927,13 @@ delcy-rodrguez-out-as-leader-of-venezuela-by-december-31-2026-148-853	Venezuela:
 delcy-rodrguez-out-as-leader-of-venezuela-by-december-31-2026-148-853	Venezuela: Delcy out as leader by Dec 31	2026-07-22	0.095
 delcy-rodrguez-out-as-leader-of-venezuela-by-december-31-2026-148-853	Venezuela: Delcy out as leader by Dec 31	2026-07-23	0.095
 delcy-rodrguez-out-as-leader-of-venezuela-by-december-31-2026-148-853	Venezuela: Delcy out as leader by Dec 31	2026-07-24	0.095
-delcy-rodrguez-out-as-leader-of-venezuela-by-december-31-2026-148-853	Venezuela: Delcy out as leader by Dec 31	2026-07-24	0.095
+delcy-rodrguez-out-as-leader-of-venezuela-by-december-31-2026-148-853	Venezuela: Delcy out as leader by Dec 31	2026-07-25	0.095
+delcy-rodrguez-out-as-leader-of-venezuela-by-december-31-2026-148-853	Venezuela: Delcy out as leader by Dec 31	2026-07-26	0.09
+delcy-rodrguez-out-as-leader-of-venezuela-by-december-31-2026-148-853	Venezuela: Delcy out as leader by Dec 31	2026-07-27	0.085
+delcy-rodrguez-out-as-leader-of-venezuela-by-december-31-2026-148-853	Venezuela: Delcy out as leader by Dec 31	2026-07-28	0.08
+delcy-rodrguez-out-as-leader-of-venezuela-by-december-31-2026-148-853	Venezuela: Delcy out as leader by Dec 31	2026-07-30	0.085
+delcy-rodrguez-out-as-leader-of-venezuela-by-december-31-2026-148-853	Venezuela: Delcy out as leader by Dec 31	2026-07-31	0.075
+delcy-rodrguez-out-as-leader-of-venezuela-by-december-31-2026-148-853	Venezuela: Delcy out as leader by Dec 31	2026-07-31	0.08
 russia-x-ukraine-ceasefire-agreement-by-december-31-2026	Russia-Ukraine ceasefire by Dec 31	2026-05-14	0.435
 russia-x-ukraine-ceasefire-agreement-by-december-31-2026	Russia-Ukraine ceasefire by Dec 31	2026-05-15	0.465
 russia-x-ukraine-ceasefire-agreement-by-december-31-2026	Russia-Ukraine ceasefire by Dec 31	2026-05-16	0.475
@@ -3727,7 +4006,13 @@ russia-x-ukraine-ceasefire-agreement-by-december-31-2026	Russia-Ukraine ceasefir
 russia-x-ukraine-ceasefire-agreement-by-december-31-2026	Russia-Ukraine ceasefire by Dec 31	2026-07-22	0.355
 russia-x-ukraine-ceasefire-agreement-by-december-31-2026	Russia-Ukraine ceasefire by Dec 31	2026-07-23	0.355
 russia-x-ukraine-ceasefire-agreement-by-december-31-2026	Russia-Ukraine ceasefire by Dec 31	2026-07-24	0.365
-russia-x-ukraine-ceasefire-agreement-by-december-31-2026	Russia-Ukraine ceasefire by Dec 31	2026-07-24	0.36
+russia-x-ukraine-ceasefire-agreement-by-december-31-2026	Russia-Ukraine ceasefire by Dec 31	2026-07-25	0.365
+russia-x-ukraine-ceasefire-agreement-by-december-31-2026	Russia-Ukraine ceasefire by Dec 31	2026-07-26	0.355
+russia-x-ukraine-ceasefire-agreement-by-december-31-2026	Russia-Ukraine ceasefire by Dec 31	2026-07-27	0.355
+russia-x-ukraine-ceasefire-agreement-by-december-31-2026	Russia-Ukraine ceasefire by Dec 31	2026-07-28	0.355
+russia-x-ukraine-ceasefire-agreement-by-december-31-2026	Russia-Ukraine ceasefire by Dec 31	2026-07-30	0.36
+russia-x-ukraine-ceasefire-agreement-by-december-31-2026	Russia-Ukraine ceasefire by Dec 31	2026-07-31	0.355
+russia-x-ukraine-ceasefire-agreement-by-december-31-2026	Russia-Ukraine ceasefire by Dec 31	2026-07-31	0.355
 will-china-invade-taiwan-before-2027	China invade Taiwan before 2027	2025-07-25	0.435
 will-china-invade-taiwan-before-2027	China invade Taiwan before 2027	2025-07-26	0.215
 will-china-invade-taiwan-before-2027	China invade Taiwan before 2027	2025-07-27	0.225
@@ -4072,7 +4357,14 @@ will-china-invade-taiwan-before-2027	China invade Taiwan before 2027	2026-07-21	
 will-china-invade-taiwan-before-2027	China invade Taiwan before 2027	2026-07-22	0.0425
 will-china-invade-taiwan-before-2027	China invade Taiwan before 2027	2026-07-23	0.0385
 will-china-invade-taiwan-before-2027	China invade Taiwan before 2027	2026-07-24	0.0385
-will-china-invade-taiwan-before-2027	China invade Taiwan before 2027	2026-07-24	0.0385
+will-china-invade-taiwan-before-2027	China invade Taiwan before 2027	2026-07-25	0.0385
+will-china-invade-taiwan-before-2027	China invade Taiwan before 2027	2026-07-26	0.0385
+will-china-invade-taiwan-before-2027	China invade Taiwan before 2027	2026-07-27	0.0345
+will-china-invade-taiwan-before-2027	China invade Taiwan before 2027	2026-07-28	0.0385
+will-china-invade-taiwan-before-2027	China invade Taiwan before 2027	2026-07-29	0.0375
+will-china-invade-taiwan-before-2027	China invade Taiwan before 2027	2026-07-30	0.0385
+will-china-invade-taiwan-before-2027	China invade Taiwan before 2027	2026-07-31	0.0385
+will-china-invade-taiwan-before-2027	China invade Taiwan before 2027	2026-07-31	0.0405
 china-annual-gdp-growth-2026	China annual GDP growth 2026	2026-01-22	0.81
 china-annual-gdp-growth-2026	China annual GDP growth 2026	2026-01-23	0.78
 china-annual-gdp-growth-2026	China annual GDP growth 2026	2026-01-24	0.79
@@ -4226,7 +4518,13 @@ china-annual-gdp-growth-2026	China annual GDP growth 2026	2026-07-21	0.875
 china-annual-gdp-growth-2026	China annual GDP growth 2026	2026-07-22	0.875
 china-annual-gdp-growth-2026	China annual GDP growth 2026	2026-07-23	0.875
 china-annual-gdp-growth-2026	China annual GDP growth 2026	2026-07-24	0.855
-china-annual-gdp-growth-2026	China annual GDP growth 2026	2026-07-24	0.855
+china-annual-gdp-growth-2026	China annual GDP growth 2026	2026-07-25	0.855
+china-annual-gdp-growth-2026	China annual GDP growth 2026	2026-07-26	0.855
+china-annual-gdp-growth-2026	China annual GDP growth 2026	2026-07-27	0.855
+china-annual-gdp-growth-2026	China annual GDP growth 2026	2026-07-28	0.865
+china-annual-gdp-growth-2026	China annual GDP growth 2026	2026-07-30	0.855
+china-annual-gdp-growth-2026	China annual GDP growth 2026	2026-07-31	0.855
+china-annual-gdp-growth-2026	China annual GDP growth 2026	2026-07-31	0.865
 bank-of-japan-decision-in-july-659	BOJ July decision	2026-04-29	0.5
 bank-of-japan-decision-in-july-659	BOJ July decision	2026-04-30	0.535
 bank-of-japan-decision-in-july-659	BOJ July decision	2026-05-01	0.46
@@ -4314,7 +4612,12 @@ bank-of-japan-decision-in-july-659	BOJ July decision	2026-07-21	0.9865
 bank-of-japan-decision-in-july-659	BOJ July decision	2026-07-22	0.9865
 bank-of-japan-decision-in-july-659	BOJ July decision	2026-07-23	0.985
 bank-of-japan-decision-in-july-659	BOJ July decision	2026-07-24	0.9665
-bank-of-japan-decision-in-july-659	BOJ July decision	2026-07-24	0.9765
+bank-of-japan-decision-in-july-659	BOJ July decision	2026-07-25	0.9745
+bank-of-japan-decision-in-july-659	BOJ July decision	2026-07-26	0.982
+bank-of-japan-decision-in-july-659	BOJ July decision	2026-07-27	0.983
+bank-of-japan-decision-in-july-659	BOJ July decision	2026-07-28	0.988
+bank-of-japan-decision-in-july-659	BOJ July decision	2026-07-30	0.994
+bank-of-japan-decision-in-july-659	BOJ July decision	2026-07-31	0.9935
 bitcoin-vs-gold-vs-sp-500-in-2026	Best asset 2026 (SP/Gold/BTC)	2025-12-23	0.285
 bitcoin-vs-gold-vs-sp-500-in-2026	Best asset 2026 (SP/Gold/BTC)	2025-12-24	0.23
 bitcoin-vs-gold-vs-sp-500-in-2026	Best asset 2026 (SP/Gold/BTC)	2025-12-25	0.245
@@ -4505,7 +4808,13 @@ bitcoin-vs-gold-vs-sp-500-in-2026	Best asset 2026 (SP/Gold/BTC)	2026-07-21	0.645
 bitcoin-vs-gold-vs-sp-500-in-2026	Best asset 2026 (SP/Gold/BTC)	2026-07-22	0.655
 bitcoin-vs-gold-vs-sp-500-in-2026	Best asset 2026 (SP/Gold/BTC)	2026-07-23	0.67
 bitcoin-vs-gold-vs-sp-500-in-2026	Best asset 2026 (SP/Gold/BTC)	2026-07-24	0.675
-bitcoin-vs-gold-vs-sp-500-in-2026	Best asset 2026 (SP/Gold/BTC)	2026-07-24	0.67
+bitcoin-vs-gold-vs-sp-500-in-2026	Best asset 2026 (SP/Gold/BTC)	2026-07-25	0.655
+bitcoin-vs-gold-vs-sp-500-in-2026	Best asset 2026 (SP/Gold/BTC)	2026-07-26	0.64
+bitcoin-vs-gold-vs-sp-500-in-2026	Best asset 2026 (SP/Gold/BTC)	2026-07-27	0.64
+bitcoin-vs-gold-vs-sp-500-in-2026	Best asset 2026 (SP/Gold/BTC)	2026-07-28	0.64
+bitcoin-vs-gold-vs-sp-500-in-2026	Best asset 2026 (SP/Gold/BTC)	2026-07-30	0.66
+bitcoin-vs-gold-vs-sp-500-in-2026	Best asset 2026 (SP/Gold/BTC)	2026-07-31	0.675
+bitcoin-vs-gold-vs-sp-500-in-2026	Best asset 2026 (SP/Gold/BTC)	2026-07-31	0.68
 clarity-act-signed-into-law-in-2026	Clarity Act signed into law 2026	2026-01-12	0.65
 clarity-act-signed-into-law-in-2026	Clarity Act signed into law 2026	2026-01-13	0.665
 clarity-act-signed-into-law-in-2026	Clarity Act signed into law 2026	2026-01-14	0.565
@@ -4679,7 +4988,13 @@ clarity-act-signed-into-law-in-2026	Clarity Act signed into law 2026	2026-07-21	
 clarity-act-signed-into-law-in-2026	Clarity Act signed into law 2026	2026-07-22	0.455
 clarity-act-signed-into-law-in-2026	Clarity Act signed into law 2026	2026-07-23	0.385
 clarity-act-signed-into-law-in-2026	Clarity Act signed into law 2026	2026-07-24	0.315
-clarity-act-signed-into-law-in-2026	Clarity Act signed into law 2026	2026-07-24	0.365
+clarity-act-signed-into-law-in-2026	Clarity Act signed into law 2026	2026-07-25	0.325
+clarity-act-signed-into-law-in-2026	Clarity Act signed into law 2026	2026-07-26	0.355
+clarity-act-signed-into-law-in-2026	Clarity Act signed into law 2026	2026-07-27	0.375
+clarity-act-signed-into-law-in-2026	Clarity Act signed into law 2026	2026-07-28	0.375
+clarity-act-signed-into-law-in-2026	Clarity Act signed into law 2026	2026-07-30	0.265
+clarity-act-signed-into-law-in-2026	Clarity Act signed into law 2026	2026-07-31	0.285
+clarity-act-signed-into-law-in-2026	Clarity Act signed into law 2026	2026-07-31	0.25
 july-inflation-us-annual-20260714150613267	July CPI print (modal)	2026-07-15	0.225
 july-inflation-us-annual-20260714150613267	July CPI print (modal)	2026-07-16	0.27
 july-inflation-us-annual-20260714150613267	July CPI print (modal)	2026-07-17	0.34
@@ -4690,7 +5005,13 @@ july-inflation-us-annual-20260714150613267	July CPI print (modal)	2026-07-21	0.4
 july-inflation-us-annual-20260714150613267	July CPI print (modal)	2026-07-22	0.46
 july-inflation-us-annual-20260714150613267	July CPI print (modal)	2026-07-23	0.435
 july-inflation-us-annual-20260714150613267	July CPI print (modal)	2026-07-24	0.41
-july-inflation-us-annual-20260714150613267	July CPI print (modal)	2026-07-24	0.385
+july-inflation-us-annual-20260714150613267	July CPI print (modal)	2026-07-25	0.365
+july-inflation-us-annual-20260714150613267	July CPI print (modal)	2026-07-26	0.365
+july-inflation-us-annual-20260714150613267	July CPI print (modal)	2026-07-27	0.355
+july-inflation-us-annual-20260714150613267	July CPI print (modal)	2026-07-28	0.345
+july-inflation-us-annual-20260714150613267	July CPI print (modal)	2026-07-30	0.325
+july-inflation-us-annual-20260714150613267	July CPI print (modal)	2026-07-31	0.405
+july-inflation-us-annual-20260714150613267	July CPI print (modal)	2026-07-31	0.425
 will-any-category-4-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-4 hurricane by 2027	2025-12-30	0.495
 will-any-category-4-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-4 hurricane by 2027	2025-12-31	0.59
 will-any-category-4-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-4 hurricane by 2027	2026-01-01	0.63
@@ -4877,7 +5198,14 @@ will-any-category-4-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-4 h
 will-any-category-4-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-4 hurricane by 2027	2026-07-22	0.23
 will-any-category-4-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-4 hurricane by 2027	2026-07-23	0.25
 will-any-category-4-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-4 hurricane by 2027	2026-07-24	0.23
-will-any-category-4-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-4 hurricane by 2027	2026-07-24	0.235
+will-any-category-4-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-4 hurricane by 2027	2026-07-25	0.235
+will-any-category-4-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-4 hurricane by 2027	2026-07-26	0.235
+will-any-category-4-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-4 hurricane by 2027	2026-07-27	0.225
+will-any-category-4-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-4 hurricane by 2027	2026-07-28	0.225
+will-any-category-4-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-4 hurricane by 2027	2026-07-29	0.225
+will-any-category-4-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-4 hurricane by 2027	2026-07-30	0.225
+will-any-category-4-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-4 hurricane by 2027	2026-07-31	0.225
+will-any-category-4-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-4 hurricane by 2027	2026-07-31	0.225
 will-any-category-5-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-5 hurricane by 2027	2026-01-01	0.135
 will-any-category-5-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-5 hurricane by 2027	2026-01-02	0.105
 will-any-category-5-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-5 hurricane by 2027	2026-01-03	0.1
@@ -5074,68 +5402,13 @@ will-any-category-5-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-5 h
 will-any-category-5-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-5 hurricane by 2027	2026-07-22	0.115
 will-any-category-5-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-5 hurricane by 2027	2026-07-23	0.115
 will-any-category-5-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-5 hurricane by 2027	2026-07-24	0.13
-will-any-category-5-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-5 hurricane by 2027	2026-07-24	0.13
-iran-agrees-to-end-enrichment-of-uranium-by-july-31	Iran ends enrichment by Jul 31	2026-05-26	0.34
-iran-agrees-to-end-enrichment-of-uranium-by-july-31	Iran ends enrichment by Jul 31	2026-05-27	0.325
-iran-agrees-to-end-enrichment-of-uranium-by-july-31	Iran ends enrichment by Jul 31	2026-05-28	0.315
-iran-agrees-to-end-enrichment-of-uranium-by-july-31	Iran ends enrichment by Jul 31	2026-05-29	0.335
-iran-agrees-to-end-enrichment-of-uranium-by-july-31	Iran ends enrichment by Jul 31	2026-05-30	0.34
-iran-agrees-to-end-enrichment-of-uranium-by-july-31	Iran ends enrichment by Jul 31	2026-05-31	0.325
-iran-agrees-to-end-enrichment-of-uranium-by-july-31	Iran ends enrichment by Jul 31	2026-06-01	0.315
-iran-agrees-to-end-enrichment-of-uranium-by-july-31	Iran ends enrichment by Jul 31	2026-06-02	0.27
-iran-agrees-to-end-enrichment-of-uranium-by-july-31	Iran ends enrichment by Jul 31	2026-06-03	0.28
-iran-agrees-to-end-enrichment-of-uranium-by-july-31	Iran ends enrichment by Jul 31	2026-06-04	0.255
-iran-agrees-to-end-enrichment-of-uranium-by-july-31	Iran ends enrichment by Jul 31	2026-06-05	0.245
-iran-agrees-to-end-enrichment-of-uranium-by-july-31	Iran ends enrichment by Jul 31	2026-06-06	0.265
-iran-agrees-to-end-enrichment-of-uranium-by-july-31	Iran ends enrichment by Jul 31	2026-06-07	0.25
-iran-agrees-to-end-enrichment-of-uranium-by-july-31	Iran ends enrichment by Jul 31	2026-06-08	0.24
-iran-agrees-to-end-enrichment-of-uranium-by-july-31	Iran ends enrichment by Jul 31	2026-06-09	0.215
-iran-agrees-to-end-enrichment-of-uranium-by-july-31	Iran ends enrichment by Jul 31	2026-06-10	0.22
-iran-agrees-to-end-enrichment-of-uranium-by-july-31	Iran ends enrichment by Jul 31	2026-06-11	0.225
-iran-agrees-to-end-enrichment-of-uranium-by-july-31	Iran ends enrichment by Jul 31	2026-06-12	0.27
-iran-agrees-to-end-enrichment-of-uranium-by-july-31	Iran ends enrichment by Jul 31	2026-06-13	0.295
-iran-agrees-to-end-enrichment-of-uranium-by-july-31	Iran ends enrichment by Jul 31	2026-06-14	0.32
-iran-agrees-to-end-enrichment-of-uranium-by-july-31	Iran ends enrichment by Jul 31	2026-06-15	0.27
-iran-agrees-to-end-enrichment-of-uranium-by-july-31	Iran ends enrichment by Jul 31	2026-06-16	0.435
-iran-agrees-to-end-enrichment-of-uranium-by-july-31	Iran ends enrichment by Jul 31	2026-06-17	0.515
-iran-agrees-to-end-enrichment-of-uranium-by-july-31	Iran ends enrichment by Jul 31	2026-06-18	0.52
-iran-agrees-to-end-enrichment-of-uranium-by-july-31	Iran ends enrichment by Jul 31	2026-06-19	0.675
-iran-agrees-to-end-enrichment-of-uranium-by-july-31	Iran ends enrichment by Jul 31	2026-06-20	0.135
-iran-agrees-to-end-enrichment-of-uranium-by-july-31	Iran ends enrichment by Jul 31	2026-06-21	0.135
-iran-agrees-to-end-enrichment-of-uranium-by-july-31	Iran ends enrichment by Jul 31	2026-06-22	0.095
-iran-agrees-to-end-enrichment-of-uranium-by-july-31	Iran ends enrichment by Jul 31	2026-06-23	0.085
-iran-agrees-to-end-enrichment-of-uranium-by-july-31	Iran ends enrichment by Jul 31	2026-06-24	0.095
-iran-agrees-to-end-enrichment-of-uranium-by-july-31	Iran ends enrichment by Jul 31	2026-06-25	0.085
-iran-agrees-to-end-enrichment-of-uranium-by-july-31	Iran ends enrichment by Jul 31	2026-06-26	0.075
-iran-agrees-to-end-enrichment-of-uranium-by-july-31	Iran ends enrichment by Jul 31	2026-06-27	0.075
-iran-agrees-to-end-enrichment-of-uranium-by-july-31	Iran ends enrichment by Jul 31	2026-06-28	0.07
-iran-agrees-to-end-enrichment-of-uranium-by-july-31	Iran ends enrichment by Jul 31	2026-06-29	0.065
-iran-agrees-to-end-enrichment-of-uranium-by-july-31	Iran ends enrichment by Jul 31	2026-06-30	0.05
-iran-agrees-to-end-enrichment-of-uranium-by-july-31	Iran ends enrichment by Jul 31	2026-07-01	0.045
-iran-agrees-to-end-enrichment-of-uranium-by-july-31	Iran ends enrichment by Jul 31	2026-07-02	0.036
-iran-agrees-to-end-enrichment-of-uranium-by-july-31	Iran ends enrichment by Jul 31	2026-07-03	0.035
-iran-agrees-to-end-enrichment-of-uranium-by-july-31	Iran ends enrichment by Jul 31	2026-07-04	0.0265
-iran-agrees-to-end-enrichment-of-uranium-by-july-31	Iran ends enrichment by Jul 31	2026-07-05	0.0265
-iran-agrees-to-end-enrichment-of-uranium-by-july-31	Iran ends enrichment by Jul 31	2026-07-06	0.0225
-iran-agrees-to-end-enrichment-of-uranium-by-july-31	Iran ends enrichment by Jul 31	2026-07-07	0.016
-iran-agrees-to-end-enrichment-of-uranium-by-july-31	Iran ends enrichment by Jul 31	2026-07-08	0.017
-iran-agrees-to-end-enrichment-of-uranium-by-july-31	Iran ends enrichment by Jul 31	2026-07-09	0.0195
-iran-agrees-to-end-enrichment-of-uranium-by-july-31	Iran ends enrichment by Jul 31	2026-07-10	0.019
-iran-agrees-to-end-enrichment-of-uranium-by-july-31	Iran ends enrichment by Jul 31	2026-07-11	0.0175
-iran-agrees-to-end-enrichment-of-uranium-by-july-31	Iran ends enrichment by Jul 31	2026-07-12	0.02
-iran-agrees-to-end-enrichment-of-uranium-by-july-31	Iran ends enrichment by Jul 31	2026-07-13	0.0165
-iran-agrees-to-end-enrichment-of-uranium-by-july-31	Iran ends enrichment by Jul 31	2026-07-14	0.0135
-iran-agrees-to-end-enrichment-of-uranium-by-july-31	Iran ends enrichment by Jul 31	2026-07-15	0.014
-iran-agrees-to-end-enrichment-of-uranium-by-july-31	Iran ends enrichment by Jul 31	2026-07-16	0.014
-iran-agrees-to-end-enrichment-of-uranium-by-july-31	Iran ends enrichment by Jul 31	2026-07-17	0.0125
-iran-agrees-to-end-enrichment-of-uranium-by-july-31	Iran ends enrichment by Jul 31	2026-07-18	0.0115
-iran-agrees-to-end-enrichment-of-uranium-by-july-31	Iran ends enrichment by Jul 31	2026-07-19	0.011
-iran-agrees-to-end-enrichment-of-uranium-by-july-31	Iran ends enrichment by Jul 31	2026-07-20	0.009
-iran-agrees-to-end-enrichment-of-uranium-by-july-31	Iran ends enrichment by Jul 31	2026-07-21	0.0085
-iran-agrees-to-end-enrichment-of-uranium-by-july-31	Iran ends enrichment by Jul 31	2026-07-22	0.0075
-iran-agrees-to-end-enrichment-of-uranium-by-july-31	Iran ends enrichment by Jul 31	2026-07-23	0.0075
-iran-agrees-to-end-enrichment-of-uranium-by-july-31	Iran ends enrichment by Jul 31	2026-07-24	0.008
-iran-agrees-to-end-enrichment-of-uranium-by-july-31	Iran ends enrichment by Jul 31	2026-07-24	0.0075
+will-any-category-5-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-5 hurricane by 2027	2026-07-25	0.12
+will-any-category-5-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-5 hurricane by 2027	2026-07-26	0.12
+will-any-category-5-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-5 hurricane by 2027	2026-07-27	0.12
+will-any-category-5-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-5 hurricane by 2027	2026-07-28	0.115
+will-any-category-5-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-5 hurricane by 2027	2026-07-30	0.105
+will-any-category-5-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-5 hurricane by 2027	2026-07-31	0.085
+will-any-category-5-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-5 hurricane by 2027	2026-07-31	0.1
 iran-agrees-to-end-enrichment-of-uranium-by-december-31	Iran ends enrichment by Dec 31	2026-04-01	0.35
 iran-agrees-to-end-enrichment-of-uranium-by-december-31	Iran ends enrichment by Dec 31	2026-04-02	0.305
 iran-agrees-to-end-enrichment-of-uranium-by-december-31	Iran ends enrichment by Dec 31	2026-04-03	0.28
@@ -5247,7 +5520,14 @@ iran-agrees-to-end-enrichment-of-uranium-by-december-31	Iran ends enrichment by 
 iran-agrees-to-end-enrichment-of-uranium-by-december-31	Iran ends enrichment by Dec 31	2026-07-22	0.215
 iran-agrees-to-end-enrichment-of-uranium-by-december-31	Iran ends enrichment by Dec 31	2026-07-23	0.215
 iran-agrees-to-end-enrichment-of-uranium-by-december-31	Iran ends enrichment by Dec 31	2026-07-24	0.22
-iran-agrees-to-end-enrichment-of-uranium-by-december-31	Iran ends enrichment by Dec 31	2026-07-24	0.225
+iran-agrees-to-end-enrichment-of-uranium-by-december-31	Iran ends enrichment by Dec 31	2026-07-25	0.225
+iran-agrees-to-end-enrichment-of-uranium-by-december-31	Iran ends enrichment by Dec 31	2026-07-26	0.275
+iran-agrees-to-end-enrichment-of-uranium-by-december-31	Iran ends enrichment by Dec 31	2026-07-27	0.27
+iran-agrees-to-end-enrichment-of-uranium-by-december-31	Iran ends enrichment by Dec 31	2026-07-28	0.265
+iran-agrees-to-end-enrichment-of-uranium-by-december-31	Iran ends enrichment by Dec 31	2026-07-29	0.265
+iran-agrees-to-end-enrichment-of-uranium-by-december-31	Iran ends enrichment by Dec 31	2026-07-30	0.245
+iran-agrees-to-end-enrichment-of-uranium-by-december-31	Iran ends enrichment by Dec 31	2026-07-31	0.255
+iran-agrees-to-end-enrichment-of-uranium-by-december-31	Iran ends enrichment by Dec 31	2026-07-31	0.245
 what-will-be-in-a-us-iran-deal-in-2026-20260624150226501	US-Iran deal 2026 (components)	2026-06-25	0.385
 what-will-be-in-a-us-iran-deal-in-2026-20260624150226501	US-Iran deal 2026 (components)	2026-06-26	0.475
 what-will-be-in-a-us-iran-deal-in-2026-20260624150226501	US-Iran deal 2026 (components)	2026-06-27	0.39
@@ -5278,184 +5558,136 @@ what-will-be-in-a-us-iran-deal-in-2026-20260624150226501	US-Iran deal 2026 (comp
 what-will-be-in-a-us-iran-deal-in-2026-20260624150226501	US-Iran deal 2026 (components)	2026-07-22	0.305
 what-will-be-in-a-us-iran-deal-in-2026-20260624150226501	US-Iran deal 2026 (components)	2026-07-23	0.295
 what-will-be-in-a-us-iran-deal-in-2026-20260624150226501	US-Iran deal 2026 (components)	2026-07-24	0.3
-what-will-be-in-a-us-iran-deal-in-2026-20260624150226501	US-Iran deal 2026 (components)	2026-07-24	0.31
+what-will-be-in-a-us-iran-deal-in-2026-20260624150226501	US-Iran deal 2026 (components)	2026-07-25	0.31
+what-will-be-in-a-us-iran-deal-in-2026-20260624150226501	US-Iran deal 2026 (components)	2026-07-26	0.29
+what-will-be-in-a-us-iran-deal-in-2026-20260624150226501	US-Iran deal 2026 (components)	2026-07-27	0.33
+what-will-be-in-a-us-iran-deal-in-2026-20260624150226501	US-Iran deal 2026 (components)	2026-07-28	0.305
+what-will-be-in-a-us-iran-deal-in-2026-20260624150226501	US-Iran deal 2026 (components)	2026-07-29	0.285
+what-will-be-in-a-us-iran-deal-in-2026-20260624150226501	US-Iran deal 2026 (components)	2026-07-30	0.285
+what-will-be-in-a-us-iran-deal-in-2026-20260624150226501	US-Iran deal 2026 (components)	2026-07-31	0.305
+what-will-be-in-a-us-iran-deal-in-2026-20260624150226501	US-Iran deal 2026 (components)	2026-07-31	0.335
 which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-04-09	0.46
-which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-04-12	0.07
-which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-04-22	0.085
-which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-04-23	0.08
-which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-04-24	0.045
-which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-04-25	0.045
-which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-04-26	0.08
-which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-04-27	0.08
-which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-04-28	0.055
-which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-04-29	0.065
-which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-04-30	0.065
-which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-05-01	0.065
-which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-05-02	0.065
-which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-05-03	0.065
-which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-05-04	0.055
-which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-05-05	0.07
-which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-05-06	0.07
-which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-05-07	0.065
-which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-05-08	0.065
-which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-05-09	0.027
-which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-05-10	0.0305
-which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-05-11	0.0305
-which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-05-12	0.0305
-which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-05-13	0.0525
-which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-05-14	0.045
-which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-05-15	0.055
-which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-05-16	0.042
-which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-05-17	0.0565
-which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-05-18	0.0365
-which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-05-19	0.0635
-which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-05-20	0.063
-which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-05-21	0.0565
-which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-05-22	0.062
-which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-05-23	0.0645
-which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-05-24	0.0625
-which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-05-25	0.061
-which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-05-26	0.0615
-which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-05-27	0.068
-which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-05-28	0.056
-which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-05-29	0.067
-which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-05-30	0.0555
-which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-05-31	0.063
-which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-06-01	0.0565
-which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-06-02	0.0595
-which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-06-03	0.062
-which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-06-04	0.057
-which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-06-05	0.053
-which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-06-06	0.0605
-which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-06-07	0.0625
-which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-06-08	0.055
-which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-06-09	0.0605
-which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-06-10	0.056
-which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-06-11	0.0565
-which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-06-12	0.063
-which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-06-13	0.0565
-which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-06-14	0.062
-which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-06-15	0.063
-which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-06-16	0.0345
-which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-06-17	0.033
-which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-06-18	0.0335
-which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-06-19	0.0335
-which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-06-20	0.0345
-which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-06-21	0.033
-which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-06-22	0.0335
-which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-06-23	0.0335
-which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-06-24	0.0415
-which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-06-25	0.042
-which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-06-26	0.034
-which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-06-27	0.034
-which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-06-28	0.034
-which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-06-29	0.056
-which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-06-30	0.013
-which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-07-01	0.0135
-which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-07-02	0.013
-which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-07-03	0.013
-which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-07-04	0.0135
-which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-07-05	0.0135
-which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-07-06	0.0135
-which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-07-07	0.0135
-which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-07-08	0.0135
-which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-07-09	0.0135
-which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-07-10	0.0135
-which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-07-11	0.0135
-which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-07-12	0.0135
-which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-07-13	0.0135
-which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-07-14	0.013
-which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-07-15	0.0135
-which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-07-16	0.01
-which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-07-17	0.0105
-which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-07-18	0.0105
-which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-07-19	0.0105
-which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-07-20	0.011
-which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-07-21	0.0105
-which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-07-22	0.0135
-which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-07-23	0.0105
-which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-07-24	0.011
-which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-07-24	0.042
-will-wti-reach-100-in-july-2026-928	WTI hits $100 (Jul) — war premium	2026-06-26	0.44
-will-wti-reach-100-in-july-2026-928	WTI hits $100 (Jul) — war premium	2026-06-27	0.165
-will-wti-reach-100-in-july-2026-928	WTI hits $100 (Jul) — war premium	2026-06-28	0.19
-will-wti-reach-100-in-july-2026-928	WTI hits $100 (Jul) — war premium	2026-06-29	0.12
-will-wti-reach-100-in-july-2026-928	WTI hits $100 (Jul) — war premium	2026-06-30	0.08
-will-wti-reach-100-in-july-2026-928	WTI hits $100 (Jul) — war premium	2026-07-01	0.07
-will-wti-reach-100-in-july-2026-928	WTI hits $100 (Jul) — war premium	2026-07-02	0.025
-will-wti-reach-100-in-july-2026-928	WTI hits $100 (Jul) — war premium	2026-07-03	0.0185
-will-wti-reach-100-in-july-2026-928	WTI hits $100 (Jul) — war premium	2026-07-04	0.0145
-will-wti-reach-100-in-july-2026-928	WTI hits $100 (Jul) — war premium	2026-07-05	0.013
-will-wti-reach-100-in-july-2026-928	WTI hits $100 (Jul) — war premium	2026-07-06	0.011
-will-wti-reach-100-in-july-2026-928	WTI hits $100 (Jul) — war premium	2026-07-07	0.0095
-will-wti-reach-100-in-july-2026-928	WTI hits $100 (Jul) — war premium	2026-07-08	0.0225
-will-wti-reach-100-in-july-2026-928	WTI hits $100 (Jul) — war premium	2026-07-09	0.071
-will-wti-reach-100-in-july-2026-928	WTI hits $100 (Jul) — war premium	2026-07-10	0.037
-will-wti-reach-100-in-july-2026-928	WTI hits $100 (Jul) — war premium	2026-07-11	0.0195
-will-wti-reach-100-in-july-2026-928	WTI hits $100 (Jul) — war premium	2026-07-12	0.035
-will-wti-reach-100-in-july-2026-928	WTI hits $100 (Jul) — war premium	2026-07-13	0.0495
-will-wti-reach-100-in-july-2026-928	WTI hits $100 (Jul) — war premium	2026-07-14	0.082
-will-wti-reach-100-in-july-2026-928	WTI hits $100 (Jul) — war premium	2026-07-15	0.089
-will-wti-reach-100-in-july-2026-928	WTI hits $100 (Jul) — war premium	2026-07-16	0.075
-will-wti-reach-100-in-july-2026-928	WTI hits $100 (Jul) — war premium	2026-07-17	0.0585
-will-wti-reach-100-in-july-2026-928	WTI hits $100 (Jul) — war premium	2026-07-18	0.1125
-will-wti-reach-100-in-july-2026-928	WTI hits $100 (Jul) — war premium	2026-07-19	0.167
-will-wti-reach-100-in-july-2026-928	WTI hits $100 (Jul) — war premium	2026-07-20	0.124
-will-wti-reach-100-in-july-2026-928	WTI hits $100 (Jul) — war premium	2026-07-21	0.096
-will-wti-reach-100-in-july-2026-928	WTI hits $100 (Jul) — war premium	2026-07-22	0.1405
-will-wti-reach-100-in-july-2026-928	WTI hits $100 (Jul) — war premium	2026-07-23	0.219
-will-wti-reach-100-in-july-2026-928	WTI hits $100 (Jul) — war premium	2026-07-24	0.3965
-will-wti-reach-100-in-july-2026-928	WTI hits $100 (Jul) — war premium	2026-07-24	0.22
-iran-successfully-targets-shipping-onptptpt-20260625225210236	Iran targets shipping (on-date, daily)	2026-06-26	0.45
-iran-successfully-targets-shipping-onptptpt-20260625225210236	Iran targets shipping (on-date, daily)	2026-06-27	0.086
-iran-successfully-targets-shipping-onptptpt-20260625225210236	Iran targets shipping (on-date, daily)	2026-06-28	0.9935
-iran-military-action-against-a-gulf-state-onptptpt-20260708212328295	Iran military action vs Gulf State (daily)	2026-07-09	0.66
-iran-military-action-against-a-gulf-state-onptptpt-20260708212328295	Iran military action vs Gulf State (daily)	2026-07-10	0.105
-iran-military-action-against-a-gulf-state-onptptpt-20260708212328295	Iran military action vs Gulf State (daily)	2026-07-11	0.175
-iran-military-action-against-a-gulf-state-onptptpt-20260708212328295	Iran military action vs Gulf State (daily)	2026-07-12	0.172
-iran-military-action-against-a-gulf-state-onptptpt-20260708212328295	Iran military action vs Gulf State (daily)	2026-07-13	0.3405
-iran-military-action-against-a-gulf-state-onptptpt-20260708212328295	Iran military action vs Gulf State (daily)	2026-07-14	0.831
-iran-military-action-against-a-gulf-state-onptptpt-20260708212328295	Iran military action vs Gulf State (daily)	2026-07-15	0.9995
-iran-military-action-against-a-gulf-state-onptptpt-20260708212328295	Iran military action vs Gulf State (daily)	2026-07-16	0.9995
-iran-military-action-against-a-gulf-state-onptptpt-20260708212328295	Iran military action vs Gulf State (daily)	2026-07-17	0.9995
-iran-military-action-against-a-gulf-state-onptptpt-20260708212328295	Iran military action vs Gulf State (daily)	2026-07-18	0.9995
-will-ships-transit-the-strait-of-hormuz-on-any-day-by-july-31-20260626152655081	Hormuz ships-transit ladder by Jul31	2026-06-30	0.93
-will-ships-transit-the-strait-of-hormuz-on-any-day-by-july-31-20260626152655081	Hormuz ships-transit ladder by Jul31	2026-07-01	0.88
-will-ships-transit-the-strait-of-hormuz-on-any-day-by-july-31-20260626152655081	Hormuz ships-transit ladder by Jul31	2026-07-02	0.955
-will-ships-transit-the-strait-of-hormuz-on-any-day-by-july-31-20260626152655081	Hormuz ships-transit ladder by Jul31	2026-07-03	0.8775
-will-ships-transit-the-strait-of-hormuz-on-any-day-by-july-31-20260626152655081	Hormuz ships-transit ladder by Jul31	2026-07-04	0.892
-will-ships-transit-the-strait-of-hormuz-on-any-day-by-july-31-20260626152655081	Hormuz ships-transit ladder by Jul31	2026-07-05	0.8575
-will-ships-transit-the-strait-of-hormuz-on-any-day-by-july-31-20260626152655081	Hormuz ships-transit ladder by Jul31	2026-07-06	0.7775
-will-ships-transit-the-strait-of-hormuz-on-any-day-by-july-31-20260626152655081	Hormuz ships-transit ladder by Jul31	2026-07-07	0.8025
-0-ships-transit-hormuz-on-any-date-byptpt-20260626172559966	Hormuz 0-ships closure (by-date)	2026-06-27	0.465
-0-ships-transit-hormuz-on-any-date-byptpt-20260626172559966	Hormuz 0-ships closure (by-date)	2026-06-28	0.27
-0-ships-transit-hormuz-on-any-date-byptpt-20260626172559966	Hormuz 0-ships closure (by-date)	2026-06-29	0.305
-0-ships-transit-hormuz-on-any-date-byptpt-20260626172559966	Hormuz 0-ships closure (by-date)	2026-06-30	0.13
-0-ships-transit-hormuz-on-any-date-byptpt-20260626172559966	Hormuz 0-ships closure (by-date)	2026-07-01	0.105
-0-ships-transit-hormuz-on-any-date-byptpt-20260626172559966	Hormuz 0-ships closure (by-date)	2026-07-02	0.095
-0-ships-transit-hormuz-on-any-date-byptpt-20260626172559966	Hormuz 0-ships closure (by-date)	2026-07-03	0.055
-0-ships-transit-hormuz-on-any-date-byptpt-20260626172559966	Hormuz 0-ships closure (by-date)	2026-07-04	0.055
-0-ships-transit-hormuz-on-any-date-byptpt-20260626172559966	Hormuz 0-ships closure (by-date)	2026-07-05	0.0455
-0-ships-transit-hormuz-on-any-date-byptpt-20260626172559966	Hormuz 0-ships closure (by-date)	2026-07-06	0.0375
-0-ships-transit-hormuz-on-any-date-byptpt-20260626172559966	Hormuz 0-ships closure (by-date)	2026-07-07	0.04
-0-ships-transit-hormuz-on-any-date-byptpt-20260626172559966	Hormuz 0-ships closure (by-date)	2026-07-08	0.0985
-0-ships-transit-hormuz-on-any-date-byptpt-20260626172559966	Hormuz 0-ships closure (by-date)	2026-07-09	0.0995
-0-ships-transit-hormuz-on-any-date-byptpt-20260626172559966	Hormuz 0-ships closure (by-date)	2026-07-10	0.1155
-0-ships-transit-hormuz-on-any-date-byptpt-20260626172559966	Hormuz 0-ships closure (by-date)	2026-07-11	0.085
-0-ships-transit-hormuz-on-any-date-byptpt-20260626172559966	Hormuz 0-ships closure (by-date)	2026-07-12	0.1405
-0-ships-transit-hormuz-on-any-date-byptpt-20260626172559966	Hormuz 0-ships closure (by-date)	2026-07-13	0.149
-0-ships-transit-hormuz-on-any-date-byptpt-20260626172559966	Hormuz 0-ships closure (by-date)	2026-07-14	0.1845
-0-ships-transit-hormuz-on-any-date-byptpt-20260626172559966	Hormuz 0-ships closure (by-date)	2026-07-15	0.106
-0-ships-transit-hormuz-on-any-date-byptpt-20260626172559966	Hormuz 0-ships closure (by-date)	2026-07-16	0.082
-0-ships-transit-hormuz-on-any-date-byptpt-20260626172559966	Hormuz 0-ships closure (by-date)	2026-07-17	0.0935
-0-ships-transit-hormuz-on-any-date-byptpt-20260626172559966	Hormuz 0-ships closure (by-date)	2026-07-18	0.1895
-0-ships-transit-hormuz-on-any-date-byptpt-20260626172559966	Hormuz 0-ships closure (by-date)	2026-07-19	0.1225
-0-ships-transit-hormuz-on-any-date-byptpt-20260626172559966	Hormuz 0-ships closure (by-date)	2026-07-20	0.1465
-0-ships-transit-hormuz-on-any-date-byptpt-20260626172559966	Hormuz 0-ships closure (by-date)	2026-07-21	0.175
-0-ships-transit-hormuz-on-any-date-byptpt-20260626172559966	Hormuz 0-ships closure (by-date)	2026-07-22	0.115
-0-ships-transit-hormuz-on-any-date-byptpt-20260626172559966	Hormuz 0-ships closure (by-date)	2026-07-23	0.0675
-0-ships-transit-hormuz-on-any-date-byptpt-20260626172559966	Hormuz 0-ships closure (by-date)	2026-07-24	0.096
-0-ships-transit-hormuz-on-any-date-byptpt-20260626172559966	Hormuz 0-ships closure (by-date)	2026-07-24	0.074
+which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-04-18	0.075
+which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-04-22	0.035
+which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-04-23	0.0345
+which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-04-24	0.0345
+which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-04-25	0.0345
+which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-04-26	0.0355
+which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-04-27	0.0355
+which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-04-28	0.0355
+which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-04-29	0.173
+which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-04-30	0.173
+which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-05-01	0.173
+which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-05-02	0.173
+which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-05-03	0.0305
+which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-05-04	0.0355
+which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-05-05	0.0755
+which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-05-06	0.075
+which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-05-07	0.075
+which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-05-08	0.0605
+which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-05-09	0.061
+which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-05-10	0.058
+which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-05-11	0.06
+which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-05-12	0.061
+which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-05-13	0.0755
+which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-05-14	0.0785
+which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-05-15	0.08
+which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-05-16	0.08
+which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-05-17	0.0555
+which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-05-18	0.0465
+which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-05-19	0.0465
+which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-05-20	0.081
+which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-05-21	0.08
+which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-05-22	0.075
+which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-05-23	0.075
+which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-05-24	0.081
+which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-05-25	0.081
+which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-05-26	0.081
+which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-05-27	0.0805
+which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-05-28	0.081
+which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-05-29	0.081
+which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-05-30	0.0805
+which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-05-31	0.0805
+which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-06-01	0.0805
+which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-06-02	0.0675
+which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-06-03	0.0675
+which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-06-04	0.0715
+which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-06-05	0.079
+which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-06-06	0.079
+which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-06-07	0.079
+which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-06-08	0.0795
+which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-06-09	0.0395
+which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-06-10	0.081
+which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-06-11	0.081
+which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-06-12	0.081
+which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-06-13	0.077
+which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-06-14	0.081
+which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-06-15	0.082
+which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-06-16	0.047
+which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-06-17	0.0425
+which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-06-18	0.0475
+which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-06-19	0.053
+which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-06-20	0.0545
+which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-06-21	0.053
+which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-06-22	0.054
+which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-06-23	0.05
+which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-06-24	0.0655
+which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-06-25	0.037
+which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-06-26	0.036
+which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-06-27	0.0505
+which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-06-28	0.048
+which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-06-29	0.046
+which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-06-30	0.048
+which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-07-01	0.026
+which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-07-02	0.018
+which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-07-03	0.0135
+which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-07-04	0.019
+which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-07-05	0.02
+which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-07-06	0.0195
+which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-07-07	0.0185
+which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-07-08	0.0335
+which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-07-09	0.0235
+which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-07-10	0.023
+which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-07-11	0.023
+which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-07-12	0.0245
+which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-07-13	0.027
+which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-07-14	0.031
+which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-07-15	0.031
+which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-07-16	0.028
+which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-07-17	0.027
+which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-07-18	0.0245
+which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-07-19	0.0245
+which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-07-20	0.03
+which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-07-21	0.0255
+which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-07-22	0.0235
+which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-07-23	0.0325
+which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-07-24	0.0245
+which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-07-25	0.042
+which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-07-26	0.042
+which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-07-27	0.042
+which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-07-28	0.041
+which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-07-30	0.04
+which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-07-31	0.039
+which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-07-31	0.038
+will-wti-reach-100-in-august-2026	WTI hits $100 (Aug) — war premium	2026-07-26	0.505
+will-wti-reach-100-in-august-2026	WTI hits $100 (Aug) — war premium	2026-07-27	0.5
+will-wti-reach-100-in-august-2026	WTI hits $100 (Aug) — war premium	2026-07-28	0.265
+will-wti-reach-100-in-august-2026	WTI hits $100 (Aug) — war premium	2026-07-30	0.435
+will-wti-reach-100-in-august-2026	WTI hits $100 (Aug) — war premium	2026-07-31	0.32
+will-wti-reach-100-in-august-2026	WTI hits $100 (Aug) — war premium	2026-07-31	0.285
+iran-successfully-targets-shipping-onptptpt-20260729163314520	Iran targets shipping (on-date, daily)	2026-07-30	0.17
+iran-successfully-targets-shipping-onptptpt-20260729163314520	Iran targets shipping (on-date, daily)	2026-07-31	0.405
+iran-successfully-targets-shipping-onptptpt-20260729163314520	Iran targets shipping (on-date, daily)	2026-07-31	0.425
+how-many-ships-transit-the-strait-of-hormuz-week-of-july-27-20260724144200302	Hormuz ships-transit weekly (rolling)	2026-07-25	0.435
+how-many-ships-transit-the-strait-of-hormuz-week-of-july-27-20260724144200302	Hormuz ships-transit weekly (rolling)	2026-07-26	0.35
+how-many-ships-transit-the-strait-of-hormuz-week-of-july-27-20260724144200302	Hormuz ships-transit weekly (rolling)	2026-07-27	0.34
+how-many-ships-transit-the-strait-of-hormuz-week-of-july-27-20260724144200302	Hormuz ships-transit weekly (rolling)	2026-07-28	0.37
+how-many-ships-transit-the-strait-of-hormuz-week-of-july-27-20260724144200302	Hormuz ships-transit weekly (rolling)	2026-07-30	0.425
+how-many-ships-transit-the-strait-of-hormuz-week-of-july-27-20260724144200302	Hormuz ships-transit weekly (rolling)	2026-07-31	0.475
+how-many-ships-transit-the-strait-of-hormuz-week-of-july-27-20260724144200302	Hormuz ships-transit weekly (rolling)	2026-07-31	0.545
+0-ships-transit-hormuz-on-any-date-byptpt-20260626172559966	Hormuz 0-ships closure (by-date)	2026-07-30	0.14
+0-ships-transit-hormuz-on-any-date-byptpt-20260626172559966	Hormuz 0-ships closure (by-date)	2026-07-31	0.095
+0-ships-transit-hormuz-on-any-date-byptpt-20260626172559966	Hormuz 0-ships closure (by-date)	2026-07-31	0.125
 will-the-us-officially-declare-war-on-iran-by-december-31-2026-746	US declares war on Iran by Dec 31	2026-01-13	0.105
 will-the-us-officially-declare-war-on-iran-by-december-31-2026-746	US declares war on Iran by Dec 31	2026-01-14	0.13
 will-the-us-officially-declare-war-on-iran-by-december-31-2026-746	US declares war on Iran by Dec 31	2026-01-15	0.13
@@ -5619,7 +5851,12 @@ will-the-us-officially-declare-war-on-iran-by-december-31-2026-746	US declares w
 will-the-us-officially-declare-war-on-iran-by-december-31-2026-746	US declares war on Iran by Dec 31	2026-07-22	0.045
 will-the-us-officially-declare-war-on-iran-by-december-31-2026-746	US declares war on Iran by Dec 31	2026-07-23	0.045
 will-the-us-officially-declare-war-on-iran-by-december-31-2026-746	US declares war on Iran by Dec 31	2026-07-24	0.045
-will-the-us-officially-declare-war-on-iran-by-december-31-2026-746	US declares war on Iran by Dec 31	2026-07-24	0.05
+will-the-us-officially-declare-war-on-iran-by-december-31-2026-746	US declares war on Iran by Dec 31	2026-07-25	0.05
+will-the-us-officially-declare-war-on-iran-by-december-31-2026-746	US declares war on Iran by Dec 31	2026-07-26	0.055
+will-the-us-officially-declare-war-on-iran-by-december-31-2026-746	US declares war on Iran by Dec 31	2026-07-28	0.045
+will-the-us-officially-declare-war-on-iran-by-december-31-2026-746	US declares war on Iran by Dec 31	2026-07-30	0.05
+will-the-us-officially-declare-war-on-iran-by-december-31-2026-746	US declares war on Iran by Dec 31	2026-07-31	0.045
+will-the-us-officially-declare-war-on-iran-by-december-31-2026-746	US declares war on Iran by Dec 31	2026-07-31	0.045
 bab-el-mandeb-strait-effectively-closed-by	Bab el-Mandeb closed (by-date)	2026-07-10	0.215
 bab-el-mandeb-strait-effectively-closed-by	Bab el-Mandeb closed (by-date)	2026-07-11	0.185
 bab-el-mandeb-strait-effectively-closed-by	Bab el-Mandeb closed (by-date)	2026-07-12	0.205
@@ -5635,22 +5872,14 @@ bab-el-mandeb-strait-effectively-closed-by	Bab el-Mandeb closed (by-date)	2026-0
 bab-el-mandeb-strait-effectively-closed-by	Bab el-Mandeb closed (by-date)	2026-07-22	0.33
 bab-el-mandeb-strait-effectively-closed-by	Bab el-Mandeb closed (by-date)	2026-07-23	0.36
 bab-el-mandeb-strait-effectively-closed-by	Bab el-Mandeb closed (by-date)	2026-07-24	0.34
-bab-el-mandeb-strait-effectively-closed-by	Bab el-Mandeb closed (by-date)	2026-07-24	0.335
-houthis-successfully-target-shipping-byptptpt-20260708165455691	Houthi targets shipping (by-date)	2026-07-09	0.435
-houthis-successfully-target-shipping-byptptpt-20260708165455691	Houthi targets shipping (by-date)	2026-07-10	0.17
-houthis-successfully-target-shipping-byptptpt-20260708165455691	Houthi targets shipping (by-date)	2026-07-11	0.115
-houthis-successfully-target-shipping-byptptpt-20260708165455691	Houthi targets shipping (by-date)	2026-07-12	0.135
-houthis-successfully-target-shipping-byptptpt-20260708165455691	Houthi targets shipping (by-date)	2026-07-13	0.145
-houthis-successfully-target-shipping-byptptpt-20260708165455691	Houthi targets shipping (by-date)	2026-07-14	0.37
-houthis-successfully-target-shipping-byptptpt-20260708165455691	Houthi targets shipping (by-date)	2026-07-15	0.315
-houthis-successfully-target-shipping-byptptpt-20260708165455691	Houthi targets shipping (by-date)	2026-07-16	0.36
-houthis-successfully-target-shipping-byptptpt-20260708165455691	Houthi targets shipping (by-date)	2026-07-17	0.33
-houthis-successfully-target-shipping-byptptpt-20260708165455691	Houthi targets shipping (by-date)	2026-07-18	0.315
-houthis-successfully-target-shipping-byptptpt-20260708165455691	Houthi targets shipping (by-date)	2026-07-19	0.34
-houthis-successfully-target-shipping-byptptpt-20260708165455691	Houthi targets shipping (by-date)	2026-07-20	0.35
-houthis-successfully-target-shipping-byptptpt-20260708165455691	Houthi targets shipping (by-date)	2026-07-21	0.575
-houthis-successfully-target-shipping-byptptpt-20260708165455691	Houthi targets shipping (by-date)	2026-07-22	0.38
-houthis-successfully-target-shipping-byptptpt-20260708165455691	Houthi targets shipping (by-date)	2026-07-23	0.988
+bab-el-mandeb-strait-effectively-closed-by	Bab el-Mandeb closed (by-date)	2026-07-25	0.335
+bab-el-mandeb-strait-effectively-closed-by	Bab el-Mandeb closed (by-date)	2026-07-26	0.265
+bab-el-mandeb-strait-effectively-closed-by	Bab el-Mandeb closed (by-date)	2026-07-27	0.225
+bab-el-mandeb-strait-effectively-closed-by	Bab el-Mandeb closed (by-date)	2026-07-28	0.235
+bab-el-mandeb-strait-effectively-closed-by	Bab el-Mandeb closed (by-date)	2026-07-30	0.265
+bab-el-mandeb-strait-effectively-closed-by	Bab el-Mandeb closed (by-date)	2026-07-31	0.215
+bab-el-mandeb-strait-effectively-closed-by	Bab el-Mandeb closed (by-date)	2026-07-31	0.19
+will-there-be-houthi-military-action-against-israel-by-august-31-2026	Houthi military action vs Israel by Aug31	2026-07-31	0.31
 will-mamdani-freeze-nyc-rents-before-2027	Mamdani freezes NYC rents <2027	2025-11-05	0.435
 will-mamdani-freeze-nyc-rents-before-2027	Mamdani freezes NYC rents <2027	2025-11-06	0.605
 will-mamdani-freeze-nyc-rents-before-2027	Mamdani freezes NYC rents <2027	2025-11-07	0.51
@@ -5885,4 +6114,11 @@ will-mamdani-freeze-nyc-rents-before-2027	Mamdani freezes NYC rents <2027	2026-0
 will-mamdani-freeze-nyc-rents-before-2027	Mamdani freezes NYC rents <2027	2026-07-22	0.9165
 will-mamdani-freeze-nyc-rents-before-2027	Mamdani freezes NYC rents <2027	2026-07-23	0.9165
 will-mamdani-freeze-nyc-rents-before-2027	Mamdani freezes NYC rents <2027	2026-07-24	0.894
-will-mamdani-freeze-nyc-rents-before-2027	Mamdani freezes NYC rents <2027	2026-07-24	0.8945
+will-mamdani-freeze-nyc-rents-before-2027	Mamdani freezes NYC rents <2027	2026-07-25	0.8945
+will-mamdani-freeze-nyc-rents-before-2027	Mamdani freezes NYC rents <2027	2026-07-26	0.8955
+will-mamdani-freeze-nyc-rents-before-2027	Mamdani freezes NYC rents <2027	2026-07-27	0.894
+will-mamdani-freeze-nyc-rents-before-2027	Mamdani freezes NYC rents <2027	2026-07-28	0.8955
+will-mamdani-freeze-nyc-rents-before-2027	Mamdani freezes NYC rents <2027	2026-07-29	0.884
+will-mamdani-freeze-nyc-rents-before-2027	Mamdani freezes NYC rents <2027	2026-07-30	0.8875
+will-mamdani-freeze-nyc-rents-before-2027	Mamdani freezes NYC rents <2027	2026-07-31	0.896
+will-mamdani-freeze-nyc-rents-before-2027	Mamdani freezes NYC rents <2027	2026-07-31	0.896

@@ -12,6 +12,13 @@
 - **⚠️ NEW BLIND-SPOT (WALTER SIG-W-20260730-003, 7/30).** 30Y = **5.244% on 7/29** (highest since JULY 2007) on the hawkish hold. Decomposition (Bloomberg): Sept hike odds got CUT while long yields SPIKED = **term-premium / inflation-credibility** move, NOT policy path. My hike/cut markets are structurally blind to this axis. Routed BOND (DFII10 re-arm check owed) + NEXUS (do-not-converge caveat).
 - **Quiet/confirmed:** recession PM 12.5% / Kalshi 7.0% (Kalshi eased −2 on FOMC-hold+oil-relief); US-credit-downgrade 6% (Δp 0); corporate-bankruptcy 83%. BOJ July decision resolved (held).
 
+## WHAT I DID (PM #2 — trajectory correction, Will-directed)
+**Will asked for the Sept-specific trajectory.** Ran `polymarket.py history --write` → 6123 daily rows regenerated. Sept-specific has climbed **~30-40pp over 6 weeks** (three gap-ups since 6/13, life-of-market range 10.5-56.5%). The PM sweep-decomp finding ("Sept-specific DEEPENING post-FOMC on Δ1d +4/Δ7d +3") was the TAIL of the trend, not a fresh post-FOMC move. Also back-checked aggregate: Δ7d -5.0 was measured off the 7/24 local spike (71.5%); 7/22-close 59.5% → 7/31-close 66.5% = +7pp on the true base-to-base window. Aggregate is ON the >66% re-break line, not below.
+- **KB +1 row** (KB-ORC-058 trajectory correction, amending 052 + 056).
+- **Outbox +1 second amendment**: 🟠 `2026-07-31_to-liquid-henry_fed-sept-trajectory-correction.md` — corrects "post-FOMC deepening" framing to "6-week durable trend re-armed in Iran era; FOMC hold paused for 2 days out of 6 weeks."
+- **Auto-memory +1** (carve-out #3): `memory/auto/finding_new_pin_needs_trajectory_before_level_read.md` — new pins have ZERO trajectory context in tool output; pull `history` BEFORE any level-based read. Indexed under "Numbers, data handling & staleness."
+- **Discipline note**: I evaluated the sweep's new-pin level + 1d/7d deltas without pulling the trajectory. Will's ask caught it same-session; correction cycle complete. Rule now committed.
+
 ## WHAT I DID (PM sweep addendum)
 **PM sweep (~16:45 ET, Will-directed "let's do a sweep"):**
 - Ran `movers --all --top 25` (dropped domain filter) → 70 hits; 66 sports/BTC/mechanical noise; **1 finding**: U.S. anti-cartel Jul-31 resolving 0.8% NO on $1.7M deep — event class dying (no Aug/year-end version), no pin.
