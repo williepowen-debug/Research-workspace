@@ -170,6 +170,18 @@ Live research queue: `STATUS.md § RESEARCH QUEUE` (priority-ordered, refreshed 
 | `MAINTENANCE.md` | Structural-change log (docs/scripts/protocol — the "why is VIOLET organized this way" record; OTTO template, ~300-line cap) | Write-back step 13a, when structure changes |
 | `SIGNAL_INTAKE.md` | **WALTER subscription spec** (consumer: WALTER routing — template `AGENTS/WALTER/design/SIGNAL_INTAKE_TEMPLATE.md`). Scope-of-attention + exclusions + keywords + durable threshold lines ONLY; live values stay in STATUS; operational dispatch rows go to the future VIO-T-NN registry via LIAISON, not here | On thesis bump · threshold-line shift · missed or unneeded signal |
 | `README.md` | Front-door orientation: directory map + 3 durable thesis pillars (pointer-first, no live values, rates cite the canonical table) | On protocol change, file add/retire, or thesis-pillar change |
+| `artifacts/*.html` | Repo source for the two **Will-facing published Artifacts** — see the pointer block directly below. Edit the HTML here, then republish | On material vol shift / post-FOMC / material state change |
+
+### Will-facing published Artifacts (LIVING — refresh IN PLACE, never mint a new URL)
+
+*Embedded 2026-07-31 from auto-memory (PROME Phase-2 restructure — these rows moved out of the always-loaded index, so they live here now). **Written from the memory FILES, not the packet paraphrase:** the paraphrase omitted the repo-source paths and the redeploy mechanism, which are the two things a session actually needs.*
+
+- **Vol cheat-sheet** `[[reference_violet_vol_cheatsheet]]` — plain-English desk reference: the four gauges (VIX/VVIX/SKEW/term structure) as insurance-market questions, surface-vs-independent-rooms, cheap-tail alert vs confirmation gate, plus a dated snapshot. Source: `AGENTS/VIOLET/artifacts/vol_cheatsheet.html`. Favicon 🟣.
+- **Operating Picture** `[[reference_violet_operating_picture]]` — live agent state (regime pill · 4 gauges as severity tiles · 5 independent channels · instruments armed/fired/quiet · posture · next decision points) over a how-to-read-the-agent band (signal-flow rail, instrument taxonomy GATE/CANARY/ALERT/PRE-REG, file map). Source: `AGENTS/VIOLET/artifacts/violet_operating_picture.html`. Favicon 🎛️.
+
+**Refresh rule (both, Will-approved 2026-07-23):** edit the repo HTML → republish by passing **`url=<the artifact's existing URL>`** to the Artifact tool. A session that did not publish it otherwise **mints a new URL** (`[[finding_artifact_redeploy_same_url]]`) — the URLs live in the memory files. Update only the **dated/live band**; gauge meanings, taxonomy, routing, title and favicon are durable and stay stable across redeploys. Regenerate values from `STATUS.md` / `boot.py`, and **label the vintage of anything you cannot refresh** — these are pages Will reads.
+
+**Trigger:** material vol shift · post-FOMC · material agent-state change. **Last refreshed 2026-07-30** (post-FOMC, both republished to their same URLs — `dafb97e0`, corrected same day by `dec911c2`). Next scheduled trigger: **FOMC 2026-09-16**, or any earlier material shift.
 
 *`workbook/VX.tsv` retired 2026-06-10 (dead since 4/15; daily series superseded by VX_DAILY.tsv, threshold lines by SIGNAL_INTAKE/STATUS/thesis). Its archive copy was deleted with the whole `VIOLET/archive/` dir in the 2026-06 public-prep prune (`1cb18fbc`/`7133b7d6`) — recover via git history only. (Dangling-ref fix 2026-07-11, DAEDALUS L4 packet #5.)*
 
