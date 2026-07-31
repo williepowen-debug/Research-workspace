@@ -135,7 +135,9 @@ Housing is the largest asset and largest liability for most American households,
 5. Check `docket/CATALYSTS.tsv` for due/near-due rows.
 6. Staleness check (cwd-proof, PAT-031):
    `python3 "$(git rev-parse --show-toplevel)/scripts/ledger_staleness.py" HOMER --quiet`
-7. Workbook staleness eyeball: `PIPELINE.tsv` / `MULTIFAMILY.tsv` / `STATE_HSG.tsv` / `BUILDER.tsv` are **LIVE** two-state ledgers — each carries a `# LIVE — Last real data refresh: <date> | Next: <catalyst>` header line; `KB.tsv` is **FROZEN** (2026-07-10, parent-era, provenance-stable) — new rows go to the fresh live ledger `workbook/KB_LIVE.tsv`, not into the frozen file.
+7. Workbook staleness eyeball: `PIPELINE.tsv` / `MULTIFAMILY.tsv` / `STATE_HSG.tsv` / `BUILDER.tsv` / **`RATES.tsv`** / **`PRICING.tsv`** are **LIVE** two-state ledgers — each carries a `# LIVE — Last real data refresh: <date> | Next: <catalyst>` header line; `KB.tsv` is **FROZEN** (2026-07-10, parent-era, provenance-stable) — new rows go to the fresh live ledger `workbook/KB_LIVE.tsv`, not into the frozen file.
+   > ⚠️ **Write the figure to its LEDGER, not only to STATUS.** `STATUS.md` is capped at 250 lines and fully rewritten each session — **a number that lives only there is destroyed on the next rewrite.** `RATES.tsv` and `PRICING.tsv` were opened 2026-07-31 precisely because two ★-ruled HOMER-owned surfaces (the mortgage-rate surface; HPI/sales/inventory) had run for 19 days post-promotion with **no ledger at all**, so every superseded print was being lost. STATUS is the *dashboard*; the workbook is the *record*.
+   > ⚠️ **Revision discipline (LESSONS.md):** Census / BEA / BLS / FMHPI / Case-Shiller **revise prior months at every release.** Carry the revised prior beside the current print, or stamp the row "as originally published <date>." **Never leave a first-print superlative** (record / tie / steepest / lowest-since) standing unqualified — that is the part revision erases. Found live 2026-07-31: a "months-supply 10.3, tied the 2008-09 bust high" row sat on the dashboard for ~5 weeks after Census revised it to 9.4.
 8. Predictions due-scan: read `thesis/PREDICTIONS.tsv` (HOM-xx) for past-trigger rows needing resolution.
 9. Inbox intake: `inbox/` + `inbox/WALTER/` (routine signal routing).
 10. Web check on any catalyst due this session.
@@ -170,10 +172,12 @@ The SV-to-CARL channel (`state_vectors/SV-HOMER-*.md`, harvested at CARL's `SPAW
 | `workbook/SCHEMA.tsv` | Column definitions for all workbook TSVs |
 | `workbook/KB.tsv` | **FROZEN 2026-07-10** — parent-era canonical KB (~65 rows, CARL_ID provenance). Cite by row date, not as current. |
 | `workbook/KB_LIVE.tsv` | Fresh live KB — new rows (KB-HOMER-001+) go here post-promotion |
-| `workbook/PIPELINE.tsv` | Foreclosure pipeline tracking (LIVE) |
-| `workbook/MULTIFAMILY.tsv` | MF DQ, CMBS, maturity wall — both books (LIVE) |
+| `workbook/PIPELINE.tsv` | Foreclosure pipeline tracking + **FHA/VA/Ginnie policy instruments** (LIVE) |
+| `workbook/MULTIFAMILY.tsv` | MF DQ, CMBS, maturity wall — both books + lender-realization channel (LIVE) |
 | `workbook/STATE_HSG.tsv` | State-level housing stress (LIVE) |
-| `workbook/BUILDER.tsv` | Builder metrics and sentiment (LIVE) |
+| `workbook/BUILDER.tsv` | Builder metrics, sentiment, supplier read-through (LIVE) |
+| `workbook/RATES.tsv` | **Mortgage-rate surface — PMMS, MBA, MND, 10Y-FRM spread, FHA-vs-Conv spread (LIVE, opened 2026-07-31).** The ★-ruled HOMER-owned rate surface. Treasury/Fed *direction* stays referenced-only (BROCK/HENRY). |
+| `workbook/PRICING.tsv` | **HPI, sales, supply, months-supply, listings, residential investment + construction employment (LIVE, opened 2026-07-31).** Carries the standing revision-discipline rule — these series revise prior months every release. |
 | `state_vectors/` | Historical record of the retired SV channel — do not write new SVs |
 | `archive/` | Pre-promotion build artifacts (>60d, retired per Data Hygiene rule) |
 | `inbox/`, `inbox/WALTER/` | Inbound signals; `processed/` subdirs hold actioned items |

@@ -33,6 +33,18 @@
 - **Rent refresh (Zillow 7/23):** SF $2,320 (+3.0%) vs **MF $1,789 (+1.5%)**; **concessions 39.7% of listings** (from 35.2%), worst in Charlotte 67.1% / Denver 65.9% / Dallas 64.6%; rents negative San Antonio −1.8%, Austin −1.7%, Denver −1.3%.
 - **Trepp MF special servicing refreshed to 8.23% (June)** — retires a **May-2025-vintage** 8.42% row that had sat stale over a year.
 
+## DOCUMENTATION AUDIT (Will-directed, end of session) — and it found a structural hole
+
+Audited every figure pulled today against what had actually reached a ledger. **Findings were worse than expected, and the cause was architectural rather than sloppy.**
+
+- **★ TWO ★-RULED HOMER-OWNED SURFACES HAD NO WORKBOOK AT ALL.** The **mortgage-rate surface** (PMMS, 10Y-FRM spread, FHA-vs-Conv spread — explicitly HOMER's per the DAEDALUS ★ ruling) and **HPI/sales/inventory** had run **19 days since promotion with no ledger**, living only in `STATUS.md`. **STATUS is capped at 250 lines and fully rewritten every session — so every superseded print was being destroyed, not retained.** → **`workbook/RATES.tsv` and `workbook/PRICING.tsv` created**, populated with today's pulls plus the recoverable recent history.
+- **`PIPELINE.tsv` and `STATE_HSG.tsv` had ZERO rows from today** despite the sweep producing directly-relevant material → filled: HUD ML 2026-08, Ginnie APM 26-06, FHA new-defaults −15%, RAP proposal, Fannie retained loss-mit loans $52.4B, VA PCP status; FL statewide condo tension, Doral K-shape, GSE condo mandate, the H1 state YoY table, TX auctions refined to ~$913M and *declining*.
+- **`BUILDER.tsv`'s header still read 7/24 while carrying 7/31 rows** — a two-clock defect on the file's own **boot staleness signal** (PAT-044), i.e. it would have under-reported its freshness at next boot. All six live headers now restamped.
+- **Policy/GSE items with no home** → KB-HOMER-014 (GSE privatization has produced **zero instruments**; the $200B MBS directive raises the ERCF capital bar and works *against* exit — issuer-disclosed) and KB-HOMER-015 (**Pub. L. 119-101**, enacted 7/11, limits institutional SFR purchases — a distressed-absorption channel worth testing).
+- **`CLAUDE.md` updated**: FILES table now lists both new ledgers; BOOT step 7 gained two standing rules — *write the figure to its LEDGER, not only to STATUS*, and the *revision-discipline* rule.
+
+**The generalizable lesson:** the gap was never discipline about individual numbers — it was that **two owned surfaces had nowhere to be written down**, so the discipline had no target. Worth checking at any promotion: does every surface named in `CLAUDE.md` §Scope have a ledger?
+
 ## ⚠️ OPEN / UNSETTLED — do not let these get published as settled
 
 1. **Freddie's 0.51% is SECONDARY-sourced** — freddiemac.com and the EDGAR 8-K both **403**'d. Needs a primary re-pull (try SEC with a UA header, or the IR PDF path).

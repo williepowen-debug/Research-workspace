@@ -1,4 +1,4 @@
-# LIVE — Last real data refresh: 2026-07-24 (DHI FQ3 rel 7/21 + PHM Q2 rel 7/22 pair-graded; NAHB HMI July 34 rel 7/16; PMMS Jul 23 6.58%; MBA apps wk-7/17) | Next: TOL FQ3 ~mid-Aug; LEN FQ3 ~mid-Sep; NAHB HMI Aug ~8/17; next CRL-23 resolver checkpoints DHI FQ4 (~Nov) / PHM Q3 (~Oct).
+# LIVE — Last real data refresh: 2026-07-31 (SIX additional Q2-2026 builder prints graded: NVR 7/23, CCS 7/22, GRBK 7/29, MHO 7/29, MTH 7/29, DFH 7/30; Builders FirstSource Q2 7/30 swung to an outright LOSS; sector self-correction row added revising the 7/24 "cohort-specific" read) | Next: LGI Homes Q2 2026-08-04; TOL FQ3 ~mid-Aug; NAHB HMI Aug ~8/17; LEN FQ3 ~mid-Sep; CRL-23 checkpoints PHM Q3 ~Oct / DHI FQ4 ~Nov. NOTE: the mortgage-rate surface moved OUT of this file to workbook/RATES.tsv on 2026-07-31.
 Entity	Metric	Value	Prior	As_Of	Source	Status	Notes
 INDUSTRY	NAHB HMI	37	34 (Apr)	2026-05	NAHB (rel 2026-05-18)	R	May 2026 +3pts BOUNCE from Apr 34 (not recovery). Beat est 34. 25th consecutive month <50. Tariff cost shock + Iran war uncertainty cited as headwinds.
 INDUSTRY	HMI Current Sales	40	37 (Apr)	2026-05	NAHB (rel 2026-05-18)	R	+3pts from Apr.
