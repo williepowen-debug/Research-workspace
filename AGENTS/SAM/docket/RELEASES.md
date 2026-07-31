@@ -85,5 +85,21 @@
 | 2026-09-08 | Japan Q2 2026 GDP — 2nd preliminary (Tue, 8:50 AM JST) | ✅ CONFIRMED (beyond Jul-Aug audit window; recorded for the next audit) | ESRI release schedule, checked 2026-07-02 |
 | 2026-09-16 | FOMC decision + SEP (Sep 15-16) | ✅ CONFIRMED — no FOMC in August | Fed calendar (fomccalendars.htm), checked 2026-07-02 |
 | 2026-09-18 | BOJ MPM day 2 decision (Sep 17-18; no Outlook Report) | ✅ CONFIRMED — no MPM in August; ⚠️ lands ON the LOCKED Sep-18 convexity window-end | BOJ schedule (mpmsche_minu), checked 2026-07-02 |
+| 2026-07-31 | CFTC COT print (Jul-28 data), 3:30 PM ET | ✅ CONFIRMED — cadence-derived (Jul-28 = Tuesday, Jul-31 = Friday same week) | Weekly Fri-release/prior-Tue-data cadence rule, weekday-verified 2026-07-31 |
+| 2026-08-07 | CFTC COT print (Aug-4 data), 3:30 PM ET | ✅ CONFIRMED — cadence-derived (Aug-4 = Tuesday, Aug-7 = Friday same week) | Weekly cadence rule, weekday-verified 2026-07-31 |
+| 2026-08-31 | MOF monthly intervention data (last business day of Aug) | ✅ CONFIRMED — Aug-31 2026 = Monday; Aug-29/30 = Sat/Sun, so Aug-31 is the last business day of August | Weekday-verified 2026-07-31 (no MOF-specific holiday conflict found) |
+| 2026-09-01 | JGB 10Y auction | ✅ CONFIRMED | MOF Sep calendar (auction/calendar/2609e.htm), checked 2026-07-31 |
+| 2026-09-03 | JGB 30Y auction | ✅ CONFIRMED | MOF Sep calendar (2609e.htm), checked 2026-07-31 |
+| 2026-09-08 | Japan Q2 2026 GDP — 2nd preliminary | ✅ CONFIRMED (reused Run-11 pre-confirm; beyond that audit's window, now in-window) | ESRI release schedule, checked 2026-07-02, reconfirmed no change 2026-07-31 |
+| 2026-09-11 | US CPI (August 2026 data), 8:30 AM ET | ✅ CONFIRMED via cross-checked secondary sources (macroornoise.com CPI calendar + cpiinflationcalculator.com, independently agreeing) — BLS primary (bls.gov/schedule + /schedule/2026/09_sched.htm) returned 403 this session (curl+UA also blocked, unlike the Jun-10 precedent) | Secondary-source cross-check, 2026-07-31; re-verify at BLS primary next session if reachable |
+| 2026-09-15 | JGB 20Y auction | ✅ CONFIRMED | MOF Sep calendar (2609e.htm), checked 2026-07-31 |
+| 2026-09-16 | FOMC decision + SEP (Sep 15-16) | ✅ CONFIRMED (reused Run-11 pre-confirm) | Fed calendar, checked 2026-07-02, reconfirmed no change 2026-07-31 |
+| 2026-09-16 | Japan trade balance, August (provisional whole-month) | ✅ CONFIRMED (3rd date-column of the Aug. row = whole-month provisional, same convention as the Jun/Jul rows) | Japan Customs calendar (customs.go.jp/toukei/calendar/calend_e.htm), checked 2026-07-31 |
+| 2026-09-18 | Japan National CPI, August | ✅ CONFIRMED — ⚠️ SAME DAY as the BOJ Sep-18 decision + the Sep-18 convexity window-end retire-check (triple-stack) | Stats Bureau schedule (1582.html), checked 2026-07-31 |
+| 2026-09-29 | JGB 40Y auction | ✅ CONFIRMED — no 40Y auction in August; first since Jul-22 | MOF Sep calendar (2609e.htm), checked 2026-07-31 |
+| 2026-09-30 | JGB 2Y auction | ✅ CONFIRMED | MOF Sep calendar (2609e.htm), checked 2026-07-31 |
+| 2026-10-02 | Tokyo CPI, September (preliminary) — ⚠️ NOT within September | ✅ CONFIRMED — Stats Bureau's own schedule shows Tokyo's September-survey release landing Oct-2, breaking the "Tokyo CPI = same-month, ~month-end" pattern seen Apr–Aug (out-of-window for the Sep baseline audit; flag for the October audit / next run) | Stats Bureau schedule (1582.html), checked 2026-07-31 |
+
+*MOF Sep auction-calendar alteration page (`2609ae.htm`) checked 2026-07-31: 404 — no alterations exist for September yet (consistent with the Jul/Aug precedent of alterations appearing mid-month, not at month-start).*
 
 *Add rows as dates are confirmed. Keep this table short — it's a verification scratchpad, not a full calendar (the calendar is `CALENDAR.md` / `CATALYSTS.tsv`).*
