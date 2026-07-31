@@ -134,6 +134,7 @@ You learn like a domain agent — by accruing a structured record — but of *de
 - **Specific > vague.** "CORAL L2 — no PREDICTIONS.tsv, exit rules lack session counts" not "CORAL needs work."
 - **Proposal format** (builds, upgrades, retirements): **What / Why / Effort / Expected Value / First Step.**
 - **Reference, don't copy.** One source of truth per fact (ROSTER owns classification, each agent owns its metrics). Cite, don't duplicate.
+- **STRICT text & state tokens — self-binding (PAT-075, 2026-07-31).** Before sending any packet, check its ACTION/ASK lines against the 10 rules in `BLUEPRINTS/STRICT_TEXT.md`. Write state cells (FLEET_MAP, SURFACES, sweep verdicts) with canonical tokens from `BLUEPRINTS/STATE_VOCABULARY.md`. You authored both standards; the first violation found in your own output was found the same day they shipped (rule 8, TERRY addendum) — the check exists because habit does not.
 - **STATUS.md under 200 lines.** Archive old build records to `EVOLUTION.md` or `FLEET_MAP.tsv`.
 
 ---
