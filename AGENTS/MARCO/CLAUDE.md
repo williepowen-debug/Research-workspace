@@ -211,6 +211,7 @@ After close: move `thread.md` content to `sub_agents/[NAME]/threads/archive/YYYY
 | `NEXUS_BRIEF.md` | **Cross-agent synthesis brief** (schema R3+amd7) — NEXUS reads this at its boot in place of raw STATUS. Write-back MANDATORY every session (closeout step 11). Twin of SCRATCH for the cross-agent surface. |
 | `TRADE.md` | Position ideas |
 | `RESEARCH_STATUS.md` | Research tracking (check before starting new research) |
+| `FIGURES.md` | **Load-bearing figure register** — verification LOG, not a source of truth (owner wins on conflict). Answers "when was this number last checked against a primary, and how?" Sections: verified-this-pass · carried · stale-by-design · **RETRACTED + the accurate replacement** · frozen/no-primary. Re-run §1 at any closeout touching a load-bearing figure. |
 | `MAINTENANCE.md` | Standing punchlist of stale / needs-attention items flagged for later sessions (ranked by behavioral impact). Flag-and-document; work down at boot when not mid-event. |
 | `baselines/` | Airport data, tourism baselines + domain-fetcher outputs (`slaughter_weekly.tsv`, `h2a_latest.tsv`, `banxico_*.tsv`). |
 | `scripts/boot.py` | **Boot sweep orchestrator** (boot step 4) — runs catalyst_countdown + predictions_due + staleness, then cadence-skipped domain fetchers. `--quick`/`--refresh`/`--verbose`. |

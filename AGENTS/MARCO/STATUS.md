@@ -236,6 +236,8 @@
 
 **Domain:** Population movement disruptions — international visitor flows, workforce displacement, internal migration.
 
+**📋 Every load-bearing figure — value, as-of date, source, and whether it was actually re-verified — lives in `FIGURES.md`.** It also records each RETRACTED claim beside **the accurate number that replaced it**, and states plainly where no accurate current number exists (frozen border-fiscal; NO-PRIMARY ag workforce). Built 7/31 after the session's cuts, so what MARCO still asserts is legible and dated rather than inherited.
+
 *Canonical thesis → `thesis/THESIS.md` (v2.0) · Full prediction detail → `thesis/PREDICTIONS.tsv` · Findings index → `FINDINGS.md`*
 *SDL-01 → `domain/sources/SDL/` · EMG-01 → `domain/sources/EMG/` · LABOR → `domain/sources/LABOR/`*
 *Live tools → `tools/h2a_pull.py`, `tools/slaughter_pull.py`, `tools/banxico_reverse.py`*
