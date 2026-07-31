@@ -55,7 +55,7 @@
 
 ## NEXT DECISION POINT
 
-- **What:** (1) pre-registered **CHG-027 capitulation review** if BDC marks 8/4-8/6 + SBCF/EGBN benign; (2) grade RED-21 on the Wed 8/12 CPI energy line (and enforce the print's NON-EVENT status for CHG-028); (3) harmful-revision ledger build (PROME P6 task, queued).
+- **What:** (1) **SKEW <140 kill-clock decision (~8/4)** — completes 4td → the pre-registered **Acute −2 executes as written**, no re-litigation; (2) pre-registered **CHG-027 capitulation review** if BDC marks 8/4-8/6 + SBCF/EGBN benign (conf 72→~67 candidate); (3) grade RED-21 on the Wed 8/12 CPI energy line (and enforce the print's NON-EVENT status for CHG-028). *(The harmful-revision ledger, previously queued here, DELIVERED 7/31 — `CHALLENGE_IMPACT_LEDGER.md`, headline 2/24 = 8.3%.)*
 - **When:** 8/4-8/12 window.
 - **What would falsify the trigger:** BDC NAV cuts + gates re-broaden the structural leg — the capitulation question dies for the quarter and the non-bank migration is vindicated instead.
 
@@ -65,7 +65,9 @@
 
 | Date | Event | Threshold / Signal |
 |------|-------|---------------------|
+| 🔴 ~8/4 | **SKEW <140 sustain-4 completes or breaks** (2-of-4 live: 139.55/139.90 [7/29-30]) | completes → Acute −2 per pre-registration; breaks → near-miss logged |
 | 🔴 8/4-8/6 | Q2 BDC marks (FSK/OBDC/OCSL/MFIC/ARCC) + SBCF [RE-DATED from 7/25-28] | benign → CHG-027 capitulation review; cuts/gates → non-bank bear vindicated |
+| 🟠 ~8/7 | **CHG-044 amendment window closes** (BROCK BRK-32; first carrying filing CCLFX N-23C3A) | rebuff w/ 86%-floor derivation (F1) = RED headline downgrades — the good outcome |
 | 🟡 8/3-8/17 | EIA weekly diesel prints | CARL lag natural-experiment (+$12/bbl pulse arrival, peak ~8/10) |
 | 🟠 8/12 (Wed) | **July CPI — PRE-REGISTERED NON-EVENT for CHG-028** | RED-21 resolves (energy MoM negative, 85%); a soft print is arithmetic, NOT evidence |
 | 🟡 ~8/13 | WAL V4 90-day window closes (2nd C-suite departure) | fires = V4 promotion to standalone bear-trigger |
