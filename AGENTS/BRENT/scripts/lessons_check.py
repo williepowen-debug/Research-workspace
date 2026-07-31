@@ -123,14 +123,81 @@ def show(h, verbose=True):
         print("        never been reconciled. Whichever was written first will win by default.")
 
 
+PROSE = ROOT / "AGENTS/BRENT/LESSONS.md"
+
+
+def check_prose(rows):
+    """C2 (Will-ruled 2026-07-31): LESSONS_INDEX.tsv and LESSONS.md must not drift.
+
+    Deliberately NARROW and FAIL-LOUD. It answers three questions it can answer
+    reliably, and does NOT try to semantically compare an assert to a paragraph
+    (that would report false clean, which is the defect this exists to kill):
+      1. every index row has a prose block            -> else MISSING PROSE
+      2. every prose block has an index row           -> else UNINDEXED
+      3. an AMENDED/RESOLVED row's last_verified date -> appears in its prose block
+                                                       -> else PROSE MAY LAG
+    Exit 1 on any finding. Silence is never the clean signal - it always prints.
+    """
+    if not PROSE.exists():
+        print(f"\n  ❌ PROSE FILE MISSING: {PROSE}")
+        return 1
+    body = PROSE.read_text(encoding="utf-8")
+    # lesson blocks: a line starting "<n>. **" ... up to the next such heading
+    heads = list(re.finditer(r"(?m)^\s*(\d+)\.\s+\*\*", body))
+    blocks = {}
+    for i, m in enumerate(heads):
+        end = heads[i + 1].start() if i + 1 < len(heads) else len(body)
+        blocks[int(m.group(1))] = body[m.start():end]
+
+    findings = []
+    idx_nums = {}
+    for r in rows:
+        rid = (r.get("id") or "").strip()
+        m = re.fullmatch(r"L0*(\d+)", rid)
+        if not m:
+            continue
+        idx_nums[int(m.group(1))] = r
+
+    for n, r in sorted(idx_nums.items()):
+        if n not in blocks:
+            findings.append(("MISSING PROSE", r["id"],
+                             f"indexed as '{r['headline'][:60]}' but no '{n}.' block in LESSONS.md"))
+            continue
+        stat = (r.get("status") or "").upper()
+        date = (r.get("last_verified") or "").strip()
+        if stat in ("AMENDED", "SCOPED") and date and date not in blocks[n]:
+            findings.append(("PROSE MAY LAG", r["id"],
+                             f"index says {stat} last_verified {date}; that date is absent from the prose block"))
+
+    for n in sorted(set(blocks) - set(idx_nums)):
+        findings.append(("UNINDEXED", f"#{n}", "prose block exists with no LESSONS_INDEX.tsv row"))
+
+    print(f"\n  PROSE/INDEX DRIFT CHECK — {len(idx_nums)} indexed rows, {len(blocks)} prose blocks")
+    print("  " + "-" * 74)
+    if not findings:
+        print("  ✅ no drift: every indexed row has prose, every prose block is indexed,")
+        print("     and every AMENDED/SCOPED row's verify-date appears in its prose.")
+        return 0
+    for kind, rid, msg in findings:
+        print(f"  ❗{kind:<14} {rid:<5} {msg}")
+    print(f"\n  {len(findings)} finding(s). C2: an index amendment carries its prose sync in the")
+    print("  SAME commit. Reconcile before shipping.")
+    return 1
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--contradictions", action="store_true")
     ap.add_argument("--concept")
     ap.add_argument("--spec")
     ap.add_argument("--strict", action="store_true")
+    ap.add_argument("--prose", action="store_true",
+                    help="C2: verify LESSONS.md prose against the index (drift check)")
     a = ap.parse_args()
     rows = load()
+
+    if a.prose:
+        return check_prose(rows)
 
     if a.concept:
         c = a.concept.lower()

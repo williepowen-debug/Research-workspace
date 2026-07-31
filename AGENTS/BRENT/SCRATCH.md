@@ -1,4 +1,4 @@
-# BRENT SCRATCH — Fri Jul 31, 2026 ~11:10 AM ET · **MORNING STACK CLOSEOUT** (PROME-spawned; diesel decree graded · arm clock exacted · Stage-A proposal frozen · two prints deferred to the afternoon)
+# BRENT SCRATCH — Fri Jul 31, 2026 ~4:00 PM ET · **FULL CLOSEOUT** (diesel decree graded · Stage-A v3→v5 across three rulings · two boot/closeout audits · COT + Baker Hughes graded · 5 ruled implementations shipped)
 
 **Purpose:** Ephemeral session handoff — canonical "where are we / what next". Read at boot (step 2), rewritten at closeout (step 11).
 
@@ -6,21 +6,16 @@
 
 ## ⏳ FIRST THING NEXT SESSION
 
-**0a. ✅ BAKER HUGHES 7/31 IN — 451 OIL RIGS (+1 WoW from 450). NOT A BREACH; 6 TO THE 457 LINE.** [CONF two independent pulls 13:17 ET: TradingEconomics *"increased to 451 in July 31 from 450"* · YCharts *451.00 wk 2026-07-31, prior 450.00 wk 07-24, +0.22%*]. Ladder: **452 (7/17) → 450 (7/24, −2) → 451 (7/31, +1).** **BRT-26 breach-WATCH only — window is end-Q3 2026, NOT resolved.** Mechanism unchanged and it still does not rescue my 7/21 call: **rigs lag price 4-8 weeks**, so this reflects late-May/June $70s-80s decisions — **neither the $100.69 spike (7/23) nor the −18.1% crash has fed through yet.** ~9 weeks to end-Q3: **+1/wk ⇒ ~460 breaches · flat ⇒ holds.** Razor-thin, as registered. ⚠️ **Ledger write-back (PREDICTIONS.tsv BRT-26 + CATALYSTS row) OWED AT CLOSEOUT — not yet written.**
+**0. ✅ BOTH FRIDAY PRINTS ARE GRADED AND CLOSED — NOTHING OWED, NOTHING STACKING.**
+   - **COT as-of 7/28 = FUEL SPENT.** Shorts 129,072 (7/7) → 101,016, cumulative **−28,056** (SPENT band ≤−25,000); **WoW −22,474**, the cycle's largest single-week cover. Net 63,979 → 92,943, driver **short-covering**. Raw `f_disagg.txt`; ICE sibling corroborates (−5,015). ⚠️ **78.3% of gross shorts still stand** — "SPENT" = the accelerant fired, not the short is gone. **⇒ off-ramp sizing modifier: fuller-size branch LIVE (size-if-fired ONLY).**
+   - **Baker Hughes 451 (+1), NOT a breach, 6 to 457.** BRT-26 **OPEN**, window end-Q3. Confidence held **~58%**, not re-marked off one print.
+   - 🔴 **NEXT COT = as-of 8/4, released Fri 8/7. DO NOT let it stack — 7/28 is closed.**
 
-**0. 🔴 COT STILL UNGRADED. DO IT FIRST — IT MUST NOT STACK INTO 8/7.**
-   - **CFTC COT as-of 7/28** (~3:30 PM ET) — **THE print**: first vintage containing BOTH the $100.69 high AND the −18.1% crash. Ladder from **123,490** (base 129,072). Run `cot_grade.py --expect 2026-07-28`; **exit 3 = not fresh, WAIT.** **Grade off raw `f_disagg.txt`, NOT Socrata alone.**
-   - **Baker Hughes** (~1:00 PM ET) — from **450**, frozen line **457**, **7 away**. **BRT-26 breach-WATCH, NOT a resolution** — the window is end-Q3. Two independent pulls (LESSONS #1).
-
-**1. ⏳ ARM CLOCK IS NOW EXACT — 11 of 20 td used, LAST DEPLOYABLE SESSION = THU 2026-08-13.** 9 sessions remain after 7/31. **Leg (a) NOT MET on both bases** — post-arm running peak **68.97 (7/23), re-derived and UNCHANGED**; close basis line **≤58.62** (OVX 65.60 = −4.89%), intraday basis ≤60.57 (−7.95%). ⚠️ **RE-DERIVE THE PEAK EVERY SESSION — never carry 58.62 as a constant.** ⚠️ **Moving AWAY from met: OVX +3.4% today while Brent +2.3% — vol re-bid alongside price.**
+**1. ⏳ ARM CLOCK: 11 of 20 td used at 7/31. LAST DEPLOYABLE SESSION = THU 2026-08-13** (9 sessions left after today: 8/3,4,5,6,7,10,11,12,13). **Leg (a) NOT MET** — peak **68.97 (7/23) close basis, Will-ruled**; needs **OVX ≤58.62**; last 65.60 = **−4.89%**, and moving AWAY from met (OVX rose +3.4% while Brent rose +2.3%). ⚠️ **RE-DERIVE THE PEAK EVERY SESSION — never carry 58.62 as a constant.**
 
 **2. 🔴 Sun 8/2 — OPEC+**: +188 kb/d Sept expected; watch the reported **Oct-Dec pause**. LESSONS #10: paper ≠ physical.
 
-**3. ✅ STAGE-A v4 RATIFIED BY WILL 7/31 (~11:4x AM) — BOTH LEGS. IMPLEMENTED.** Leg T (binary sign-blind liveness veto, BLOCK iff `max(|STNG|,|FRO|,|DHT|) ≤1.0%` day 0) + Leg C (crude 2-day follow-through, BLOCK if cum Brent ≥0%). STNG single-name directional veto **RETIRED IN FULL — do not re-cite it as live.** Leg (a) basis ruled **CLOSE, frozen.**
-> **🔴 BUT THE OFF-RAMP IS STILL NOT FIREABLE, AND THIS IS THE THING TO CARRY FORWARD.** Stage A is a **four-way AND-gate** and **Jun-17 — the one analogue where a crude short MADE money — STILL BLOCKS, on the TRANSIT leg** (transits were dark): (i) ✅ · (T) 1.63% ✅ · (C) −2.07% ✅ · **(ii-A) ⛔**. **Defects ① and ③ closed; ② is now the BINDING one.** **The tanker leg was never what was stopping the trade.** **⇒ The next Stage-A ruling to seek is entry defect ② (transit leg vs LESSONS #11).**
-> ⚠️ **SIZING WAS NOT RULED** — half-on-day-0 was offered, the relay was silent, so **default = full size after both legs resolve (entry 2 sessions post-announcement)**. Flagged back; do not assume half/half.
-
----
+**3. 🟠 Wed 8/5 — EIA wk-7/31**, first volume print overlapping the gasoline-crack move. **Pre-register BEFORE the print, with the premise's SOURCE-GRADE stated inside it.** No BRT-29 grade (LESSONS #9).
 
 ## ★ THE SESSION IN TWO LINES
 
@@ -51,7 +46,7 @@
 
 ## NEXT SESSION (dated, future-verifiable)
 
-1. 🔴 **Grade the two 7/31 afternoon prints** (COT as-of 7/28 · Baker Hughes) **before 8/7.**
+1. ✅ **DONE — both 7/31 prints graded and closed** (COT = FUEL SPENT · rigs 451, no breach). **Next COT as-of 8/4, released 8/7 — do not stack.**
 2. 🔴 **Sun 8/2 — OPEC+.**
 3. 🟠 **Wed 8/5 — EIA wk-7/31**, first volume print overlapping the gasoline-crack move. **Pre-register BEFORE the print, and state the premise's SOURCE-GRADE inside it.** No BRT-29 grade (LESSONS #9).
 4. 🟠 **~8/12 FALCON co-belligerency falsifier + July CPI · 8/13 ARM EXPIRY (hard) · ~8/15 Jazan restart.**
@@ -62,7 +57,9 @@
 
 ## OPEN THREADS / WATCHES
 
-- 🔴 **Off-ramp entry remains defective and the playbook is NOT functional end-to-end.** Stage-A proposal with Will, unruled. Entry defect ② (transit leg vs LESSONS #11) and the un-anchored *"war-risk halves"* threshold remain open by prior ruling.
+- ✅ **OFF-RAMP ENTRY IS NOW FUNCTIONAL END-TO-END — three Will rulings today closed all three entry defects.** **Stage-A v5 = {(i) signature AND (T) tanker liveness AND (C) crude 2-day follow-through}**; the transit test moved to the **kill test as leg 2** (physical), beside the institutional leg — **either failing cuts.** **Sizing half/half; H1 announcement-anchored, both tranches out by day+9.** **Jun-17 now FIRES (+10.37%); Apr-17 still BLOCKS twice over.**
+  - ⚠️ **STILL OPEN by prior ruling:** the un-anchored *"war-risk halves"* threshold (candidate replacement: an absolute *"below 2.5% of hull"*, frozen, no percentile).
+  - 🔴 **AND THE LIMIT THAT MUST TRAVEL WITH THE SPEC:** this regime has produced **ZERO genuine physical reopenings**, so real-vs-fake is **UNCALIBRATED** — **v5 is optimised against a PROFITABLE TRADE, not a VERIFIED REOPENING (n=2).** Do not delete that sentence from `TRADE.md`.
 - 🔴 **The closure is OVER-DETERMINED — 4 layers.** Mines (③) and the US blockade (④) survive; SIG-005 (NCC GHAZAL turned back) is fresh evidence ④ is actively enforced. P(transit recovery >50%, 10+d, no signature, 30d) ≈ **15-20%** [FALCON judgment, labelled].
 - 🔴 **NEGATIVE CONTROL registered:** transit recovery **with war-risk still 7.5-10%** is NOT normalisation. Must not fire Stage A-bis.
 - 🟠 **Diesel crack: thesis stronger, entry worse.** 99.2nd %ile, desks publicly long, TERRY's crowding objection **UNREPAIRED**, card = **`NO AT THIS PRICE`**. The decree strengthens the supply leg; it does not fix the entry.
