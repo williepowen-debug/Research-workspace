@@ -564,3 +564,7 @@ The calibration debt is real but more nuanced than "6 wrong in a row." Specifics
 
 **Confidence:** ~80-85% (initial calibration)
 **Key findings:** KRE challenge, SSB challenge, initial competing hypotheses set up.
+
+## 2026-07-31 ~2:00 PM ET — S27b addendum: NO weight/confidence change. Three deliverables, one self-defect owned
+
+**Confidence 72 (=). Net-bear 68 (=).** S27b was measurement and challenge work, not evidence work: (1) **CHALLENGE_IMPACT_LEDGER built** (PROME P6) — harmful-revision rate 2/24 = 8.3%, both HARMED rows are tail-sizing revisions (CHG-008 up-sized a rescue tail that died; CHG-041-L2 down-sized a war tail 7 days before it fired) — the harm class is tail-sizing between regime evidence, not mechanism error; (2) **CHG-RED-044 issued (STRONG, pre-data)** against BROCK's BRK-32 — the spec's own "substantially clearing" example fires its own PERSISTS branch on both lenses (arithmetic-verified); escalation line ruled onto three event-shaped legs, and **the retired 7-fold line was RED's own 7/24 example — self-defect owned, strike-note placed**; (3) **CHG-RED-010 dispositioned** after 120 days stale-ACTIVE (PARTIALLY CONFIRMED / EDGE-MIGRATED) — root cause: an undated ACTIVE row is invisible to the DUE-scan by construction → W2 rule extended. None of this is thesis evidence; weights untouched by design.

@@ -1,5 +1,5 @@
 # RED STATUS
-**Last Updated:** 2026-07-31 ~11:15 AM ET (**Session 27** — the two PROME-owed rulings issued + ECI graded + docket sweep). Prior: 2026-07-29 ~10:45 PM (S26, FOMC graded same-night — full detail `thesis/CHANGELOG.md` + `research/FOMC_JUL28-29_2026_GRADED.md`). **HOLD 70→72 (+2, pre-registered FT-01 un-fire executed) / net-bear 68 (=, no weight change).** **Role:** Adversarial Analysis / Thesis Stress-Tester.
+**Last Updated:** 2026-07-31 ~2:15 PM ET (**Session 27 + 27b**, closed out — S27: two PROME-owed rulings + ECI + docket sweep; S27b Will-directed: harmful-revision ledger built [2/24 = 8.3%, both HARMED = tail-sizing], CHG-RED-044 issued STRONG vs BROCK BRK-32, CHG-RED-010 dispositioned after 120d). Prior: 2026-07-29 ~10:45 PM (S26, FOMC graded same-night — `thesis/CHANGELOG.md` + `research/FOMC_JUL28-29_2026_GRADED.md`). **HOLD 70→72 (+2, pre-registered FT-01 un-fire executed) / net-bear 68 (=, no weight change all day).** **Role:** Adversarial Analysis / Thesis Stress-Tester.
 
 ---
 

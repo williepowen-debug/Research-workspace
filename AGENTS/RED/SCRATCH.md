@@ -44,4 +44,4 @@
 - None new. Carried: broker-confirm at convenience (OZK Jul-17 $42.5P ×2 expired dead-OTM).
 
 ## GIT STATE (one line)
-On master, 1 ahead of origin at boot (pull correctly skipped — BRENT/LABOR/VIOLET live uncommitted work outside RED; origin fetch-verified at parity). S27 commits: RED dir (STATUS/SCRATCH/CALENDAR/CHANGELOG/NEXUS_BRIEF/OUTBOX/registry/watchlines/docket/workbook) + PROME inbox packet (carve-out ①) + auto-memory (carve-out ③) — safe-push at closeout.
+On master, HEAD = origin (fetch-verified at closeout). Full day committed+pushed: S27 rulings/ECI/docket + S27b ledger/CHG-044/CHG-010 + 2 inbox packets (PROME rulings, BROCK red-team — carve-out ①) + 2 auto-memories (policy-day-sustain, escalation-delta — carve-out ③). ⚠️ Mid-session push-race: two safe-pushes silently aborted non-ff (concurrent VULCAN session pushing, same box — routine, not two-machines); fixed per protocol via `pull --rebase --autostash` (zero path overlap verified first, other agents' dirty files restored byte-identical) → re-push → 0/0 parity. Lesson: check safe-push output for the literal "Pushed." line and verify parity — a log-tail is not a push receipt.
