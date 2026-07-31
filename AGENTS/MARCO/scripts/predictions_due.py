@@ -111,17 +111,55 @@ def parse_timeframe(s):
     return None
 
 
+PRED_SCHEMA_WARNINGS = []
+
+
 def load_predictions():
+    """Read PREDICTIONS.tsv by HEADER NAME (never by position).
+
+    ⚠️ The right-pad below is a *tolerance*, and tolerance is what let a schema
+    defect rot for two months (MAINTENANCE T1-D, fixed 2026-07-31): 10 of 16 rows
+    were 8 columns against a 9-column header. Padding put those rows' NOTES text
+    under the `Outcome` key and left `Notes` empty, silently — a reader asking for
+    an outcome got notes and never knew. It also made hand-editing hazardous: a
+    single dropped field during a confidence re-rate is invisible to a padding parser.
+
+    So the pad stays (it must not crash boot) but it now ANNOUNCES itself via
+    PRED_SCHEMA_WARNINGS, which main() prints. A tolerant reader that stays quiet
+    is how a malformed file passes review forever.
+    """
     if not PREDICTIONS_TSV.exists():
         return None
     rows = []
+    PRED_SCHEMA_WARNINGS.clear()
     with open(PREDICTIONS_TSV) as f:
         header = f.readline().rstrip("\n").split("\t")
-        for line in f:
+        nc = len(header)
+        for ln, line in enumerate(f, start=2):
             parts = line.rstrip("\n").split("\t")
             if len(parts) < 2 or not parts[0].strip():
                 continue
-            rows.append(dict(zip(header, parts + [""] * (len(header) - len(parts)))))
+            if len(parts) != nc:
+                PRED_SCHEMA_WARNINGS.append(
+                    f"line {ln} ({parts[0]}): {len(parts)} fields vs {nc}-col header "
+                    f"— padded to parse; fields after the gap sit under the WRONG key")
+            row = dict(zip(header, parts + [""] * (nc - len(parts))))
+            # An OPEN prediction cannot have an outcome; a resolved one must.
+            st = row.get("Status", "").strip().upper()
+            has_out = bool(row.get("Outcome", "").strip())
+            if st == "OPEN" and has_out:
+                PRED_SCHEMA_WARNINGS.append(
+                    f"line {ln} ({parts[0]}): Status=OPEN but Outcome is populated "
+                    f"— usually means notes landed in the Outcome column")
+            elif st and st != "OPEN" and not has_out:
+                PRED_SCHEMA_WARNINGS.append(
+                    f"line {ln} ({parts[0]}): Status={st} but Outcome is EMPTY "
+                    f"— a resolved prediction with no recorded outcome cannot be scored")
+            if any('""' in v for v in parts):
+                PRED_SCHEMA_WARNINGS.append(
+                    f'line {ln} ({parts[0]}): doubled quotes — CSV-quoting artifact '
+                    f'leaked into a TSV; collapse "" to "')
+            rows.append(row)
     return rows
 
 
@@ -165,6 +203,11 @@ def main():
         print(f"\n  ❌ ERROR: {PREDICTIONS_TSV} not found")
         rc = 1
     else:
+        if PRED_SCHEMA_WARNINGS:
+            print(f"\n  ⚠️  PREDICTIONS.tsv SCHEMA — {len(PRED_SCHEMA_WARNINGS)} issue(s):")
+            for w in PRED_SCHEMA_WARNINGS:
+                print(f"      · {w}")
+            print("      (the parser padded these to keep running — the file is still wrong)")
         due, due_soon, unparsed = [], [], []
         for p in preds:
             if p.get("Status", "").strip().upper() != "OPEN":
