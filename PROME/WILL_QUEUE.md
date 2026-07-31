@@ -1,6 +1,6 @@
 # WILL_QUEUE.md — the operator's open-items ledger
 **Owner:** PROME (registers, updates, retires rows; reconciles at every boot/closeout) · **Will edits freely** — anything marked/struck here is reconciled at PROME's next touch.
-**Last reconciled:** 2026-07-31 (~10:50 ET — row 3 DONE: memory migration executed same-session on Will's pull-forward ruling)
+**Last reconciled:** 2026-07-31 (~16:45 ET closeout — FULL artifact-check swept all rows [2 hits: row 9 already-ruled, row 14 blocker-inverted 3d]; 9 rows closed today; row 18 added)
 
 **Rules (v1, deliberately dumb — one markdown table until real use earns more structure):**
 - **Only items where WILL is the actor.** Types: `LAUNCH` (agent windows) · `[Approve]` (trade/proposal) · `RULE` (canon/disposition) · `BROKER` (exports/confirms) · `BUY` · `ACTION` · `READ`. Fleet work lives on DOCKET + agent boards — the moment an item stops needing Will, it leaves this file.
@@ -11,11 +11,13 @@
 - DONE rows: one line, **durable anchor (commit hash / named record) REQUIRED at write** — then roll-off after ~7d is always safe; the gate flags overdue roll-offs. *(DAEDALUS W5.)*
 - Soft cap **20 ACTIONABLE rows** (dated + unblocked); undated unblocked rows get a **21d age tripwire** instead — an old undated row means the item needs a date, a decline, or a re-scope, not that Will is behind. *(DAEDALUS W2.)*
 - ⚠️ Needed-by runs at **DAY resolution** — time-of-day text (`~22:00 ET`) is for the reader; the gate parses dates only.
+- **Artifact-verify per presentation (adopted 2026-07-31, the QQQFADE lesson):** any row that mirrors ANOTHER AGENT'S card/proposal state must be re-verified at the owning artifact BEFORE each presentation to Will — reconciles check dates; this rule checks VERDICTS. A row carrying a superseded verdict manufactures decisions the operator already made.
 
 ## OPEN
 
 | # | Item | Type | Needed by | Since | PROME rec | Notes |
 |---|---|---|---|---|---|---|
+| 18 | Launch SAM — GATE-SAM-30 is FIRED-UNEXECUTED (crowd −163,412 = 90.8% of peak on pre-spike data) and SAM's inbox holds the fire packet + the ¥8.45T intervention estimate + HENRY's USD/JPY flag; the three compose into its convexity-window question | LAUNCH | 2026-08-02 (weekend; before the 8/7 attribution print regardless) | 7/31 | this weekend | disposition = SAM grade → (if entry re-opens) TERRY re-mark (TRY-FIRE-005 tenor stale) → your call; boot gate flags the fired row until then, correctly |
 | 12 | HENRY standing boot-rule blessing | RULE | none | 7/28 | mechanical-trigger version | artifact-checked 7/31: WALTER-lane inbox step ALREADY exists (CLAUDE.md 3a); the open half is the GENERAL inbox at boot — bless the mechanical version of that half only |
 | 13 | FFIEC CDR account | BUY | none | 7/28 | do it (5 min) | artifact-checked 7/31: still live + load-bearing — DAEDALUS STATUS names it the Will-side blocker that UNBLOCKS WAL MI3 (WAL wired a boot reminder waiting on it) |
 | 15 | RAV charter review → formal ROSTER row | RULE | none | 7/25 | — | DAEDALUS drafted the charter 7/30 (`2b9dbeac`); your review unlocks the registry row |
