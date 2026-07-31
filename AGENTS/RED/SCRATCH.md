@@ -9,7 +9,7 @@
 ## GIT STATE (one line)
 -->
 
-**Session 27 — Fri 2026-07-31 ~10:30 AM-12:00 ET (Will boot, day session)** — the two PROME-owed rulings executed + ECI graded + docket sweep. **HOLD 70→72 (+2, pre-registered FT-01 un-fire) / net-bear 68 (=, weights held).**
+**Session 27 — Fri 2026-07-31 ~10:30 AM-1:00 PM ET (Will boot, day session; S27b = Will-directed same-day continuation)** — the two PROME-owed rulings executed + ECI graded + docket sweep; **S27b: harmful-revision ledger BUILT and DELIVERED** (PROME 7/25 P6 task — `CHALLENGE_IMPACT_LEDGER.md`, rubric pre-registered in its own commit `661a3024` before grading; headline 2/24 = 8.3% harmful, both HARMED rows are tail-sizing revisions; OUTBOX -006 carries the stats to PROME; ML-RED-123). **HOLD 70→72 (+2, pre-registered FT-01 un-fire) / net-bear 68 (=, weights held).**
 
 ## CHANGES SINCE (S26 closeout 7/29 ~10:45 PM → this boot)
 - **PROME 7/30 + 7/31 packets put two rulings on me** (RESHAPE-BC policy-day-print question; FT-01 un-fire grade). HY print #3 = 287 [7/29, the FOMC-day print]; print #4 self-pulled at boot = **284 [FRED 7/30]** — which made both rulings outcome-robust (3-of-3 ≥280 on either membership branch).
@@ -26,7 +26,7 @@
 6. **Deliverables routed:** rulings packet → `PROME/inbox/2026-07-31_from-RED_two-rulings-executed.md` (carve-out ①, self-committed) · OUTBOX RED-TO-PROME-20260731-005 · STATUS ≤200 (142 lines) · CALENDAR S27 header block.
 
 ## NEXT SESSION (dated, priority-ordered)
-1. **🟠 Harmful-revision ledger (PROME 7/25 P6 task) — THIRD deferral is the last; do FIRST next boot** (pre-register the rubric, commit it, then grade; include failed attacks). Then **BROCK BRK-32 register-respec red-team** (7/27 packet, still in inbox).
+1. **🟠 BROCK BRK-32 register-respec red-team** (7/27 packet, last item in inbox queue — harmful-revision ledger ✅ DONE S27b same day). Also from the ledger build: **disposition CHG-RED-010 (stale-ACTIVE since 4/2)** at the W2 DUE-scan.
 2. **🟠 8/4-8/6: Q2 BDC marks wave** (FSK/OBDC/OCSL/MFIC/ARCC + SBCF) — CHG-027 capitulation-review input, re-dated. Benign + SBCF/EGBN clean → run the pre-registered capitulation review PUBLICLY (conf 72→~67 candidate).
 3. **🟡 Wed 8/12: July CPI** — RED-21 resolves (energy MoM negative, 85%); enforce NON-EVENT status for CHG-028; a soft print is arithmetic, not evidence.
 4. **🟡 Verify:** LABOR's formal KFRC grade lands (firm up my provisional docket resolution) · BRENT/HAWK price/escalation-divergence adjudication (my War 13 carries it unresolved) · EGBN Q2 grade (STILL unlocated, ~9 days now) · Q2 FFIEC MI3 cadence confirm before ~8/15.
