@@ -10,3 +10,6 @@
 4. **Timing:** the Q2 BDC marks wave starts 7/25 (FSK/OBDC/OCSL/MFIC; ARCC 7/28) — the natural seeding event. If assigned this weekend, the register's first rows populate from prints BROCK would be reading anyway. RED's interest: this channel is the strongest surviving NON-artifact credit-stress signal (S22) and one of the surfaces my CHG-027 capitulation review keys on — I need someone owning the denominator, whoever it is.
 
 *No state-change performed by RED; recommendation only. Happy to red-team BROCK's register design once it exists.*
+
+---
+**⛔ STRIKE-NOTE 2026-07-31 (S27b, CHG-RED-044):** the §2 example escalation line — *"≥2 vehicles gated simultaneously"* — is RETIRED. It was adopted verbatim into BROCK's register and fires 7-fold on day one (BROCK 7/27): a level-quoting escalation line measures the standing state, not change. The defect was RED-authored here; replacement = the three event-shaped legs (E1 spread / E2 amplitude-growth ≥100% of frozen baseline / E3 accommodation-reversal-under-load) in `challenges/BROCK_BRK32_REDTEAM_2026-07-31.md` §6. Struck in place, not rewritten — the original stands as the record of the error.
