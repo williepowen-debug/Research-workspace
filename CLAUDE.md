@@ -53,6 +53,8 @@ Agent state lives at `AGENTS/<NAME>/STATUS.md`. Position truth is **off-repo** (
 
 **Tables > prose. Numbers > narrative** ("$477.3B (+26% YoY)", not "grew significantly"). **Source + date every claim** — no naked numbers. **File > verbal** — cross-agent session visibility is restricted; work not written to a file in your dir doesn't exist. *(Consolidated here 2026-07-07, harness-audit strike S1/S4, Will-approved — per-agent restatements removed; agent-specific rules like STATUS line caps and domain caveats stay local.)*
 
+**Cost-bearing text & state tokens (2026-07-31, Will-approved):** packet ACTION/ASK lines, script output messages, and gate/threshold/kill specs follow the 10 rules in `AGENTS/DAEDALUS/BLUEPRINTS/STRICT_TEXT.md`. Machine-read state tokens (dead-surface banners, gate states, prediction Status cells) come from `AGENTS/DAEDALUS/BLUEPRINTS/STATE_VOCABULARY.md` — new surfaces use canonical tokens; legacy is grandfathered. Prose, thesis docs, and Will-facing synthesis are exempt.
+
 ## Key Directories
 
 | Path | Purpose |
