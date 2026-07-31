@@ -4,6 +4,30 @@ Version-transition log. Newest first. Each entry: old view → new view, trigger
 
 ---
 
+## v3.0 → v3.1 (2026-07-31, session 19) — MINOR — **Channel 4 re-marked MEDIUM → MED-LOW and split along its own mechanism** *(Will-directed)*
+
+**Trigger:** the same-day VX stale sweep froze 17 border-fiscal vectors, which surfaced that THESIS was carrying Channel 4 at MEDIUM on an evidence base nobody had touched since **February 2026**. Flagged as a decision rather than actioned unilaterally; Will directed the re-mark.
+
+**The finding that shaped it — the channel bifurcates exactly where it matters.** Of Channel 4's **14 vectors, 2 are live and 12 are frozen**, and the split is not random:
+
+| Leg | Vectors live | Conviction | Basis |
+|---|---|---|---|
+| **Flow** (remittances) | **2 / 2** — `2.08` Mexico, `REM-02` CentAm | **MEDIUM** (unchanged) | Maintained monthly off Banxico; May $5,611M +3.8% YoY, **transfer count −1.7% YoY** = the surviving SDL-01 tell. Next print Aug 1 |
+| **Fiscal terminus** (muni deficits, pensions, bond risk) | **0 / 12** | **LOW — UNVERIFIED** ⚠️ | All `ELP/NOG/MCA/PHR/BDR/CAL/SFE` rows FROZEN at Feb-2026. This is the **tradeable** end, and it has no live evidence |
+
+**And the one pre-registered test of this channel MISSED.** MAR-01 (Nogales residential floor at −50/−60%, Q2 2026) resolved **7/2 as MISS-on-threshold**: the floor never materialized, ~−43% held, median ~$245K, market **"stabilizing-soft," not collapsed.** Its resolution confirmed the mechanism in a **different terminus** — cross-border **retail** (ICE at all three Nogales POEs, shoppers staying away, Morley Ave foot traffic) — so the mechanism is real and the *specified* stress channel was wrong. That resolution pointed readers at `VX-BDR-03`/`NOG-01`, **which now resolve to frozen February data.**
+
+**Old view (v3.0):** Channel 4 🟠 STRUCTURAL-SLOW, **MEDIUM**, quoting Laredo shopper share 51%→13%, McAllen 36%→28%, Nogales −43.2%, El Paso $55-62M deficit + 60% pension funding, Pharr S&P negative — all as current.
+**New view (v3.1):** 🟡 **FLOW LIVE / FISCAL TERMINUS UNVERIFIED · MED-LOW**; those five figures are re-labelled a **frozen Feb-2026 snapshot, not to be cited as current.**
+
+**⚠️ The basis, stated plainly because it matters for how much weight this carries:** the downgrade rests on **absence of maintained evidence plus one missed test — NOT on fresh contradicting data.** MARCO has not looked at border-municipal finances in six months and does not know whether the stress deepened, stabilized or reversed. That is *why* conviction falls: **conviction tracks warranted confidence, not the world.** An unmaintained evidence base cannot support MEDIUM regardless of what is true out there — the same fault v3.0 corrected in Channel 1, applied one channel over.
+
+**Falsifiable both ways (named, so this is not an unfalsifiable downgrade):** rebuild the municipal leg from live primaries — **EMMA/MSRB filings + rating actions** (El Paso, Pharr, Laredo, Nogales), **TX Comptroller / AZ DOR sales-tax receipts** by border city, **CBP border-crossing counts**. Deficits widening + ratings under pressure ⇒ **MEDIUM restored.** Stabilization ⇒ **LOW confirmed or the channel retired.**
+
+**Conviction deltas:** Channel 4 overall MEDIUM → **MED-LOW**; flow leg MEDIUM (unchanged); fiscal terminus → **LOW/UNVERIFIED**. No other channel touched.
+
+---
+
 ## v2.8 → v3.0 (2026-07-31, session 19) — **MAJOR** — **CHANNEL 1 DEMOTED FROM SPINE: transmission undemonstrated after three pre-registered nulls**
 
 **Trigger:** the floor-controlled test that v2.8 named as the open path was designed, **pre-registered with thresholds fixed before any data pull**, and run. It returned NULL.
