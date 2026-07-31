@@ -16,7 +16,6 @@
 
 | # | Item | Type | Needed by | Since | PROME rec | Notes |
 |---|---|---|---|---|---|---|
-| 10 | Fresh rising-vol registration — go/no-go | RULE | none | 7/30 | — | your own 7/30 AM question; VIOLET owns the proposal on GO; nothing pre-committed |
 | 12 | HENRY standing boot-rule blessing | RULE | none | 7/28 | mechanical-trigger version | artifact-checked 7/31: WALTER-lane inbox step ALREADY exists (CLAUDE.md 3a); the open half is the GENERAL inbox at boot — bless the mechanical version of that half only |
 | 13 | FFIEC CDR account | BUY | none | 7/28 | do it (5 min) | artifact-checked 7/31: still live + load-bearing — DAEDALUS STATUS names it the Will-side blocker that UNBLOCKS WAL MI3 (WAL wired a boot reminder waiting on it) |
 | 15 | RAV charter review → formal ROSTER row | RULE | none | 7/25 | — | DAEDALUS drafted the charter 7/30 (`2b9dbeac`); your review unlocks the registry row |
@@ -27,6 +26,7 @@
 
 | Item | Done | Record |
 |---|---|---|
+| Rising-vol go/no-go (was row 10) — RULED: GO, Option 1 trigger-gated; VIOLET commissioned (design at next session; entry keyed to her measurable signals; strikes deferred to TERRY at fire-time; 3 gates remain) | 7/31 | commission packet AGENTS/VIOLET/inbox 2026-07-31; pairs w/ the DAEDALUS ratchet packet |
 | DEWEY entitlements (was row 14) — RULED: paste-path ADOPTED, buy nothing (DEWEY's own rec 1; $0; rider-2 review generates the escalation evidence; RatingsXpress quote = only-if-review-proves-slow, Will's form) | 7/31 | ruling packet AGENTS/DEWEY/inbox 2026-07-31; DEWEY memo 7/28 = the basis |
 | Bank-put reshape disposition (was row 9) — RULED by Will 7/31 in-session: rebuild-no-fresh-capital (the standing rec), implementation = Mon 8/3 TERRY spawn | 7/31 | DOCKET 2026-08-03 row; deployment stays Will-gated on X1/wrapper |
 | QQQFADE (was row 8) — RETIRED FROM QUEUE: the card's own operative verdict is ⏸️ PARKED/DO-NOT-ACTION (Will-directed 7/30 ~11:40, superseding the conditional verdict this row mis-carried since 7/30 — PROME error, owned 7/31 when Will asked for provenance). Card stays on TERRY's file; any future fade = fresh re-mark + thesis owner | 7/31 | `AGENTS/TERRY/setups/WILL_qqq-downtrend-putspread_2026-07-30.md` header verdict; live-mark check 7/31 (~$361, ~6.9:1) recorded in-session |
