@@ -16,11 +16,9 @@
 
 | # | Item | Type | Needed by | Since | PROME rec | Notes |
 |---|---|---|---|---|---|---|
-| 6 | scripts/-ownership ruling | RULE | 2026-08-02 | 7/30 | — | closeout-critical tooling (safe-push, env_doctor, ledger_staleness...) lives unowned; DAEDALUS gap (c), PAT-071 next application; the 7/31-8/2 conversation |
 | 8 | QQQFADE approval (`TRY-WILL-QQQFADE`) | [Approve] | none (Sep-18 tenor) | 7/30 | — | TERRY's 2 conditions (re-based premise + Target-1 policy); PROME rider "sell the 675P first" is MOOT (put sold 7/30); register Will-discretionary class on fill |
 | 9 | Bank-put reshape disposition — **UNBLOCKED 7/31**: RED confirmed the sustain (policy-day prints count; robust on both branches, print #4 = 284) + FT-01 un-fired | RULE | none (no fire-clock; BDC marks 8/4-8/6 = nearest context) | 7/30 | TERRY rebuilds from 7/30 export; no fresh capital absent X1 | level-leg fire on the NARROWER thesis; BANK-ABSENT attribution of record; NOT X1; LIQUID's brief + §3 framing already with you |
 | 10 | Fresh rising-vol registration — go/no-go | RULE | none | 7/30 | — | your own 7/30 AM question; VIOLET owns the proposal on GO; nothing pre-committed |
-| 11 | NO_HARVEST_RULE → fleet card templates | RULE | none | 7/30 | **adopt** | build-time check: "is there a path where this is profitable and NO trigger fires?"; already fleet memory; TERRY wires its own templates regardless |
 | 12 | HENRY standing boot-rule blessing | RULE | none | 7/28 | mechanical-trigger version | inbox-at-boot rule change, PROME rec on record |
 | 13 | FFIEC CDR account | BUY | none | 7/28 | do it (5 min) | DAEDALUS's ask |
 | 14 | DEWEY entitlement purchase | BUY | blocked on DEWEY | 7/25 | — | ⛔ waits: DEWEY one-liner · Tier 1 ruled 7/25; DEWEY owes the product/tier/price one-liner first; you spend only on that |
@@ -32,6 +30,8 @@
 
 | Item | Done | Record |
 |---|---|---|
+| scripts/-ownership (was row 6) — RULED: DAEDALUS owns repo-root scripts/ (maintenance/break-fix/standards); enforcer patch TRANSFERS with it; PROME keeps PROME/tools/ only | 7/31 | grant packet AGENTS/DAEDALUS/inbox 2026-07-31; PAT-074 = the precedent Will accepted |
+| NO_HARVEST_RULE (was row 11) — ADOPTED fleet-wide: mandatory build-time card field | 7/31 | ruling packet AGENTS/TERRY/inbox 2026-07-31; PROME mirrors in own scaffolds at next touch |
 | Close REGINALD's window (was row 2) — RESOLVED: pane no longer exists (tmux list-panes verified 7/31 ~13:40; live panes = prome/red/nexus/daedalus only) | 7/31 | tmux verification in-session; RED+NEXUS panes flagged safe-to-close to Will |
 | Launch RED (was row 4) — ran + CLOSED OUT: both rulings executed (policy-day COUNTS → RESHAPE-BC formal confirm; FT-01 UN-FIRED, HOLD 70→72) + S27/S27b | 7/31 | `976ca277` closeout; rulings packet PROME/inbox → processed; GATES row synced |
 | Launch NEXUS (was row 7) — ran + CLOSED OUT: inbox drained, schema amendment 9 RATIFIED (Will-approved in-window), own closeout-doc audit 8 findings/5 fixed | 7/31 | `6a8067d9` / `89ec17df` / `a4d4c0db` |
