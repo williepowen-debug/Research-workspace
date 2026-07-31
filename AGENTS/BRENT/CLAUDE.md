@@ -112,6 +112,10 @@ Write a single `.md` file to `outbox/` per signal (acute 🔴 only, per above):
 **Priority:** 🔴/🟠/🟡
 ```
 - HERMES is retired: deliver a signal by writing the `.md` packet directly to the target agent's `inbox/` (coordinators PROME/WALTER route); reserve `outbox/` for PROME-action requests
+- **🔴 DELIVERY-PATH TABLE — PROME IS THE EXCEPTION AND IT HAS BITTEN ME TWICE (2026-07-30).** Domain agents live under `AGENTS/`, so their surface is **`AGENTS/<NAME>/inbox/`**. **PROME DOES NOT** — it is a top-level directory, so its ONLY delivery surface is **`PROME/inbox/`**.
+  - ⛔ **`AGENTS/PROME/inbox/` IS DEAD** (killed 2026-07-24; a re-created `AGENTS/PROME/` dir = sender regression, and PROME deletes it again). On 2026-07-30 I wrote **two** packets there — the Cushing confirm and the #21(a) ruling — and **both sat unseen for ~3 hours** until TERRY noticed the path. **Nothing errors: the write succeeds, the directory springs into existence, and the packet is simply never read.** That is the whole danger — a delivery failure with no failure signal.
+  - **Root cause was a knowledge gap, not a typo:** I generated `AGENTS/PROME/inbox/` from the correct-for-everyone-else pattern. My four other deliveries the same session (FALCON, HAWK, OSPREY, TERRY) were all correct.
+  - ✅ **CHECK BEFORE EVERY SEND — the recipient's inbox must ALREADY EXIST. If `ls` on the target path returns "no such file", you are inventing a dead path, not creating a new one.**
 - **Write a signal when:** a threshold fires, a prediction resolves, or analysis produces an actionable insight
 - **Do NOT write for:** routine STATUS updates or data that only affects your own vectors
 

@@ -111,3 +111,58 @@ LESSONS #11: *"Phase 2 price crash triggers at ANNOUNCEMENT, not delivery… Pos
 
 ---
 *Pre-registered before any deployment. The playbook remains ARMED-PASSIVE and unchanged until ruled. No capital moves on this document.*
+
+---
+
+# ADDENDUM — 2026-07-30 ~7:15 PM ET · **FALCON ANSWERED THE GATE-2 QUESTION, AND OPTIONS A/C SHOULD BE RE-READ BEFORE ANY FUTURE RULING. THE ANCHOR I PROPOSED WAS THE WRONG ONE.**
+
+**Status of this addendum:** not a new ask. **Will ruled Option B; A and C remain live and unruled. This records that the A/C design is now MATERIALLY BETTER than what was on the table when B was chosen** — so if A/C is ever revisited, revisit *this* version, not §3 above.
+
+## 1. The answer: YES, materially — but narrower, capped, and on a different instrument
+
+**The closure is OVER-DETERMINED — four independent layers, and the 7/29 wave touched only one:**
+
+| Layer | Degraded? |
+|---|---|
+| ① Declaratory closure (IRGC) | ❌ a statement needs no hardware |
+| ② **Kinetic enforcement** (coastal surveillance, ASMs, fast boats) | ✅ **the only layer hit** |
+| ③ **MINES already in the water** | ❌ **you cannot bomb a minefield clear** — multi-week MCM op, not an Iranian decision |
+| ④ **The US naval blockade** | ❌ it is **American**, still in full effect |
+
+**⇒ Three of four layers survive intact. That is the cap.** My "enforcement degradation → reopening" framing **over-stated the mechanism.**
+
+**But the hole is real and FALCON confirmed rather than softened it:** the two closures bind **different traffic** — the US blockade targets **Iranian** barrels; Iran's closure targets **everyone else's**. So degrading Iranian enforcement can let **non-Iranian traffic resume with no sovereign act and nothing to announce.** Shape: **a grind, not a snap** — ~11% toward **30-50%** of baseline over **weeks**, ceilinged by the mines. **A step-change to near-normal is NOT this mechanism — look for a deal you missed.**
+**Magnitude [FALCON, judgment not calculation, labelled as such]: P(sustained transit recovery >50% of baseline for 10+ days, absent any signature, within 30 days) ≈ 15-20%, up from ~5%.**
+
+## 2. ⛔ MY PROPOSED ANCHOR WAS WRONG — war-risk LEADS, transit count LAGS
+
+§3 above proposed replacing the transit leg with crude's own follow-through, and treating transits as the physical anchor. **The causal chain runs the other way:**
+
+> enforcement degraded → a few hulls test → **no attacks over time** → **war-risk premia FALL** → more hulls → **transit count climbs**
+
+**A transit-count gate watches the LAST link.** Ordered ladder, most-leading first: **(1) Hormuz hull premium falling while West-Coast-Saudi stays flat at ~0.1%** — *already instrumented in FALCON's `workbook/WARRISK.tsv`, boot-gated at 7 days, nothing to build* · **(2) JWC/Lloyd's listed-areas revision or P&I clubs re-entering** · (3) mine-clearance progress · (4) transit count *(PortWatch, lags 5-8d on top of all of it)*.
+
+## 3. 🔑 THE DESIGN FIX I DID NOT HAVE — a non-sovereign institutional anchor
+
+I framed the problem as *"Stage A needs a signature, and this mechanism produces recovery without one."* FALCON's answer:
+
+> **A JWC/Lloyd's listing revision or a P&I club re-entry is a DATED, PUBLISHED, VERIFIABLE INSTITUTIONAL ACT THAT IS NOT A SOVEREIGN ACT.**
+
+It restores exactly the properties I wanted from the signature requirement — **discrete, dated, hard to fake, hard to reverse quietly** — without requiring any government to announce anything. **This is strictly better than the transit-only entry in §3**, because it keeps the gate from having to compensate entirely through a persistence test. **If A/C is revisited, THIS is the Stage A-bis anchor, not crude follow-through alone.**
+
+## 4. ⚠️ Two guards that must ship with it
+
+- **NEGATIVE CONTROL:** a transit recovery **with war-risk premia still at 7.5-10% of hull is NOT normalisation** — it is escorted convoys, state-directed traffic, or risk-tolerant operators taking a rate. **Must not fire Stage A-bis.** *"Hulls are moving" ≠ "the market believes it is safe."*
+- **TWO-WAY READ — the premium may go UP first.** Stripped of standoff enforcement, Iran's cheap residual options are **mines and unattributable attacks** — the two things insurers fear most. **A rising Hormuz premium after 7/29 does NOT refute the mechanism**; it means Iran substituted toward the passive layer and the reopening is *further* away.
+
+## 5. 🔴 THE PAIRED TIGHTENING — and the false-fire that makes it non-negotiable
+
+Per LESSONS #21(b), removing the sovereign-act requirement **loosens a short-arming gate** and must ship with a tightening. FALCON found the specific thing it must be tightened against, live:
+
+> **A UKMTO advisory reading "the Strait of Hormuz is now open and blockade operations have ceased," threat level lowered to "moderate," ranks HIGH in a July-2026 search on exactly this question. It is dated 18 JUNE 2026** — the MOU era. **The blockade resumed 14 July and is live today.**
+
+**Why it is the worst possible false-fire for this gate:** it is **UKMTO — an institutional primary**, so it passes every source-quality filter I have; it has **exactly the semantic shape Stage A-bis would key on**; and **it requires no sovereign act, so dropping the signature requirement removes the one thing that currently catches it.**
+
+**⇒ PAIRED TIGHTENING (adopted into any future A/C): every institutional/advisory input to Stage A-bis must be DATE-VERIFIED AT THE PRIMARY, and the advisory's OWN PUBLICATION DATE must fall inside the arming window — not merely that the text was retrieved during it.**
+
+⚠️ **THIRD INSTITUTIONAL-GRADE DATELINE FALSE-FIRE IN THREE DAYS** — April-2026 Petroline (FALCON→me), Sept-2019 Abqaiq (me→FALCON), now June-2026 UKMTO (FALCON→me). **All three from sources that pass every quality filter. The failure mode is not source grade, it is DATELINE — and it is now a pattern, not a coincidence.**
