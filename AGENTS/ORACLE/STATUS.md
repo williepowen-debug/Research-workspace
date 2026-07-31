@@ -1,6 +1,6 @@
 # ORACLE STATUS
 
-**Updated:** 2026-07-31 (Fri, ~16:24Z / 12:24 ET) — **BOTH 7/24 🔴 triggers RESOLVED BENIGNLY.** (1) **Fed re-arm UNFIRED** — hike-2026 71.5%(7/24)→**66.5%** on the 7/29 FOMC hold (9-3 hawkish; Kalshi hike-by-July finalized 18% no-hike). No-cuts firmed 89.3%. (2) **Oil regime-flip DISSOLVED into July resolution** — WTI-$100(Jul) 22.9%→0.1% (resolves 8/1 NO; peak was ~$95). Barrel-tell FIRMED against loss (Kalshi Iran-crude Jul >2.0mbpd 77%→86%). ⚠️ Spread now on **v3 regime** (fresh Aug WTI-$100 leg at 27.5% thin) — non-comparable to v2 series. **Blind-spot flag:** WALTER SIG-W-20260730-003 — 30Y hit 5.244% on 7/29 (highest since 2007), a term-premium move my policy-path markets do not see. Routed to BOND/NEXUS.
+**Updated:** 2026-07-31 (Fri, PM sweep ~20:45Z / 16:45 ET) — **BOTH 7/24 🔴 triggers RESOLVED BENIGNLY on FOMC + July resolution, BUT the afternoon sweep flushed out a decomposition surprise: Sept-mtg-specific hike market is deepening +4/1d to 56.5%** ($2.1M vol, deep) — a coin-flip TOWARD a Sept hike hidden under my aggregate Fed-HIKE-2026 66.5%. Amendment routed to LIQUID/HENRY. (1) **Fed re-arm UNFIRED** — hike-2026 71.5%(7/24)→**66.5%** on the 7/29 FOMC hold (9-3 hawkish; Kalshi hike-by-July finalized 18% no-hike). No-cuts firmed 89.3%. (2) **Oil regime-flip DISSOLVED into July resolution** — WTI-$100(Jul) 22.9%→0.1% (resolves 8/1 NO; peak was ~$95). Barrel-tell FIRMED against loss (Kalshi Iran-crude Jul >2.0mbpd 77%→86%). ⚠️ Spread now on **v3 regime** (fresh Aug WTI-$100 leg at 27.5% thin) — non-comparable to v2 series. **Blind-spot flag:** WALTER SIG-W-20260730-003 — 30Y hit 5.244% on 7/29 (highest since 2007), a term-premium move my policy-path markets do not see. Routed to BOND/NEXUS.
 **Domain:** Prediction-market monitoring (Polymarket + Kalshi) — crowd-implied probabilities & crowd-vs-thesis divergence
 **Data:** live via `scripts/polymarket.py pull --log` + `scripts/kalshi.py pull --log`. Series → `workbook/ODDS_LOG.tsv` / `KALSHI_ODDS_LOG.tsv`. Derived → `workbook/DISRUPTION_SUPPLY_SPREAD.tsv` (**v3-aug-wti-supply-leg**, +22.0pp baseline). Cross-agent surface → `NEXUS_BRIEF.md`. Metrics → `PREDICTION_MARKET_METRICS.md`.
 **State:** 🟡 — both live 7/24 triggers stood down. The 2026-hike tail is still meaningful (66.5%) and the Aug WTI-$100 leg is priced through the *old* deepen line (27.5% vs v2's >25%), but each is fresh — v3 baseline needs 3-day re-check discipline, and the FOMC hold has removed the near-term Fed forcing function. Blind-spot on term-premium acknowledged.
@@ -9,7 +9,7 @@
 
 ## Alerts (read first)
 
-**🟡 FED RE-ARM UNFIRED — trigger retraced on FOMC hold.** Fed-HIKE-2026 **71.5%(7/24) → 66.5%(7/31)** (Δ1d +1.0, Δ7d −5.0; $6.1M vol, $196.7K liq deep). Kalshi hike-by-July **FINALIZED 18%** (no-hike; FOMC 7/29 held 9-3 hawkish). No-cuts-2026 firmed **85.0%→89.3%** (Δ7d +4.4); 1-cut fading 9.5%→6.5%. The >66% re-break trigger fired 7/22 → extended 7/24 → retraced 7/31 = the trigger did what it should. **BLIND-SPOT (routed):** WALTER SIG-W-20260730-003 flagged **30Y = 5.244% on 7/29 (highest since JULY 2007)** — with Sept-hike odds CUT while long yields SPIKED = a term-premium/inflation-credibility move, NOT policy path. My hike/cut markets are blind to that axis. → LIQUID, HENRY (retraction); → BOND, NEXUS (blind-spot). (KB-ORC-052.)
+**🟠 FED — AGGREGATE UNFIRED, but SEPT-SPECIFIC DEEPENING (sweep-decomposition finding, PM).** Aggregate Fed-HIKE-2026 **71.5%(7/24) → 66.5%(7/31)** (Δ7d −5.0; $6.1M deep) — trigger cycle done clean on 7/29 FOMC hold. Kalshi hike-by-July FINALIZED 18% no-hike; no-cuts firmed 89.3%. **⚠️ AFTERNOON SWEEP FINDING — Fed +25bps @ Sept mtg (specific) = 56.5%, Δ1d +4.0, Δ7d +3.0** ($2.1M vol / $347.7K liq DEEP) — coin-flip TOWARD a Sept hike, deepening post-FOMC. **Decomposition:** by-Sept cumulative 55.5% (Δ7d −5.5) + by-Oct 60.5% (Δ7d −7.5) DROPPED as July no-hike collapsed into them; Sept-mtg-specific ADDED 3-4pp = **hike-timing TIGHTENED into Sept.** WALTER SIG-W-20260730-003's "Fed hold trims Sept hike bets" (Bloomberg) correct for cumulative; meeting-specific opposite direction. **BLIND-SPOT (routed):** WALTER SIG same signal — 30Y = 5.244% on 7/29 (highest since JULY 2007) = term-premium/inflation-credibility axis my markets don't see. → LIQUID, HENRY (retract + Sept-decomp amend); → BOND, NEXUS (blind-spot). (KB-ORC-052/056.)
 
 **🟡 OIL REGIME-FLIP DISSOLVED — July resolved, barrel-tell FIRMED against loss.** WTI-$100-July **22.9%(7/24) → 0.1%** — resolves 8/1 NO (peak was ~$95, no touch). Barrel-level tell RESOLVED CLEAN AGAINST LOSS: **Kalshi Iran-crude-Jul >2.0mbpd 77%(7/24) → 86%(7/31)** (Δ7d +9) — crowd more confident production stayed above 2.0. Kalshi **Brent >$85 @ Jul31 settle-ref 87%** (Δp +6, ⏳0d, closing hot). AUG CONTRACT PINNED: `will-wti-reach-100-in-august-2026` at **27.5%** ($8.3K ⚠thin liq; $201.8K event vol) — fresh month-start contract with more days-to-touch prices structurally higher; the 27.5% is not a new deepen signal on its own. **REGIME BUMPED** in `disruption_supply_spread.py`: v2→**v3-aug-wti-supply-leg**. v3 spread baseline **+22.0pp**. Thresholds retuned: v2 used >15%/>25% mid-month; v3 uses >30%/>40% for a fresh month-start. → HAWK, BRENT, FALCON (retraction). (KB-ORC-053, VX-ORC-04.)
 
@@ -29,7 +29,10 @@
 
 | Market | Tier | Prob | Δ1d | Δ7d | Vol | Liq | Read |
 |--------|:--:|--:|--:|--:|--:|--:|------|
-| **Fed: HIKE in 2026** | T1 | **66.5%** | +1.0 | **−5.0** | $6.1M | $196.7K | 🟡 trigger UNFIRED on FOMC hold; back to the re-break line |
+| **Fed: HIKE in 2026** (aggregate) | T1 | **66.5%** | +1.0 | **−5.0** | $6.1M | $196.7K | 🟡 aggregate trigger UNFIRED on FOMC hold |
+| **Fed: HIKE at Sept mtg (specific)** | T1 | **56.5%** | **+4.0** | **+3.0** | $2.1M | $347.7K | 🟠 DEEPENING post-FOMC — coin-flip TOWARD Sept hike (sweep-decomp finding) |
+| Fed: HIKE by Sept mtg (cumulative) | T1 | 55.5% | — | **−5.5** | $576.3K | $76.3K | trimmed (July no-hike collapsed in) |
+| Fed: HIKE by Oct mtg (cumulative) | T1 | 60.5% | — | **−7.5** | $335.6K | $87.1K | trimmed (same mechanic) |
 | **Fed: NO cuts 2026** | T1 | **89.3%** | +0.1 | +4.4 | $6.7M | $147.6K | firming; dovish tell <70% not fired |
 | Fed: 1 cut 2026 | T1 | 6.5% | — | −3.0 | $2.3M | $97.6K | fading |
 | Fed funds end-2026 (dist, top) | T1 | 31.4% | −0.1 | +0.5 | $530.7K | $7.2K | ⚠thin, steady |
@@ -53,7 +56,8 @@
 | **Iranian regime FALL <2027** | T2 | **8.5%** | — | −1.0 | $23.4M | $587.6K | deep regime-collapse gauge, easing |
 | **Venezuela: Delcy out Dec31** | T2 | **7.5%** | −0.5 | −2.0 | $176.1K | $14.2K | oil-relevant regime stability |
 | **Hormuz 0-ships closure by Aug31** | T2 | **12.5%** | +0.5 | — | $246 | $2.9K | ⚠thin — closure tail low |
-| Bab el-Mandeb closed by Dec31 | T2 | 19.0% | −3.0 | −14.5 | $192.6K | $86.7K | fading; Red-Sea premium off |
+| Bab el-Mandeb closed by Dec31 | T2 | 19.0% | −3.0 | −14.5 | $192.7K | $85.2K | fading; Red-Sea premium off |
+| **Houthi mil-action vs Israel by Aug31** | T2 | **31.0%** | — | — | — | $241 | ⚠thin — Red-Sea gap partial fill (sweep pin) |
 | Russia-Ukraine ceasefire Dec31 | T2 | 35.5% | — | −1.0 | $2.1M | $122.3K | steady |
 | BOJ July decision (top) | T2 | 100.0% | — | — | — | — | ⛔RESOLVED — held |
 | AI bubble burst 2026 | T2 | 18.7% | −3.6 | +2.2 | $2.3M | $25.4K | steady |
@@ -81,7 +85,7 @@
 | # | Market | Score | Status | Key Signal | Upgrade Trigger |
 |---|--------|:--:|:--:|------------|-----------------|
 | 1 | Iran → oil supply regime | 2 | 🟡 | v2 regime dissolved benignly 7/31; Aug $100 27.5% on fresh contract (v3 baseline +22.0pp); barrel-tell FIRMED (Kalshi Iran-crude 86%, +9/7d) — no realized loss | Aug WTI-$100 >30% sustained ≥3 reads OR Iran-crude <2.0mbpd (real loss, unchanged) |
-| 2 | Fed path (re-arm retraced) | 2 | 🟡 | Trigger fired-then-retraced clean (66.5→71.5→66.5) on FOMC hold; no-cuts firmed 89.3% | a 2026 hike prints OR another >66% re-break |
+| 2 | Fed path (aggregate retraced, Sept-specific DEEPENING) | 3 | 🟠 | Aggregate 66.5% (trigger cycle done clean) BUT sweep-decomp: Sept-mtg-specific 56.5%, Δ1d +4.0, +3.0/7d deep — hike-timing tightened into Sept | Sept-specific >60% OR <45% OR a 2026 hike prints OR another >66% aggregate re-break |
 | 3 | Term-premium / credibility (**BLIND-SPOT**) | ? | ⚠️ | 30Y 5.244% on 7/29 (highest since 2007, WALTER SIG-W-20260730-003); prediction-market lens does NOT see this axis | route to BOND/NEXUS; ORACLE cannot upgrade this itself |
 | 4 | Risk-on / complacency (RESET) | 1 | ⚪ | NEH un-cracked 73.5% (+5.5/7d); best-asset-S&P 68.0% intact | NEH <30% OR gold takes best-asset lead |
 | 5 | Iran-axis (retreated) | 1 | ⚪ | US-invade −6/7d to 23.5%; Iran regime-fall 8.5% (−1); July daily war-tempo faded | Aug daily-events open deep OR US-invade back >30% |

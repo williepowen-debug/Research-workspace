@@ -1,7 +1,7 @@
 # ORACLE — SCRATCH (canonical session handoff)
 
-**Session arc:** 2026-07-31 (Fri, ~16:24 ET) — 7-day gap boot + full closeout. Both 7/24 🔴 triggers RESOLVED BENIGNLY on the 7/29 FOMC hold + July-contract resolutions. New blind-spot flag surfaced from WALTER inbox (30Y=5.244%, term-premium axis my policy-path markets cannot see). Aug watchlist roll executed with REGIME v2→v3 bump on the spread. Three retraction/flag routes sent.
-**Last updated:** 2026-07-31 (session-end, full closeout)
+**Session arc:** 2026-07-31 (Fri, ~16:24 ET boot + full closeout; ~16:45 ET PM sweep) — 7-day gap boot + full closeout in the AM, then Will asked for a sweep in the PM. Both 7/24 🔴 triggers RESOLVED BENIGNLY on the 7/29 FOMC hold + July-contract resolutions. New blind-spot flag surfaced from WALTER inbox (30Y=5.244%, term-premium axis my policy-path markets cannot see). Aug watchlist roll executed with REGIME v2→v3 bump on the spread. **PM sweep flushed a decomposition finding: Sept-mtg-specific hike market deepening +4/1d to 56.5% on $2.1M/$347.7K liq — coin-flip TOWARD a Sept hike, hidden under the aggregate 66.5% mark.** Four retraction/flag/amendment routes sent, three new Fed markets pinned + one Red-Sea gap partial-fill pinned.
+**Last updated:** 2026-07-31 (session-end after PM sweep)
 
 ## CHANGES SINCE (what moved, 7/24 → 7/31)
 - **🟡 FED RE-ARM UNFIRED post-FOMC.** Fed-HIKE-2026 **71.5%(7/24) → 66.5%(7/31)** (Δ1d +1.0, Δ7d −5.0, $6.1M vol / $196.7K liq deep). Kalshi hike-by-July **FINALIZED 18%** no-hike (FOMC 7/29 held 9-3 hawkish per WALTER SIG-W-20260730-003). No-cuts firmed 85.0→**89.3%** (Δ7d +4.4); 1-cut fading 9.5→6.5%. Trigger cycle: 66.5%(7/22 fired) → 71.5%(7/24 extended) → 66.5%(7/31 retraced) — clean. (KB-ORC-052.)
@@ -12,7 +12,19 @@
 - **⚠️ NEW BLIND-SPOT (WALTER SIG-W-20260730-003, 7/30).** 30Y = **5.244% on 7/29** (highest since JULY 2007) on the hawkish hold. Decomposition (Bloomberg): Sept hike odds got CUT while long yields SPIKED = **term-premium / inflation-credibility** move, NOT policy path. My hike/cut markets are structurally blind to this axis. Routed BOND (DFII10 re-arm check owed) + NEXUS (do-not-converge caveat).
 - **Quiet/confirmed:** recession PM 12.5% / Kalshi 7.0% (Kalshi eased −2 on FOMC-hold+oil-relief); US-credit-downgrade 6% (Δp 0); corporate-bankruptcy 83%. BOJ July decision resolved (held).
 
-## WHAT I DID
+## WHAT I DID (PM sweep addendum)
+**PM sweep (~16:45 ET, Will-directed "let's do a sweep"):**
+- Ran `movers --all --top 25` (dropped domain filter) → 70 hits; 66 sports/BTC/mechanical noise; **1 finding**: U.S. anti-cartel Jul-31 resolving 0.8% NO on $1.7M deep — event class dying (no Aug/year-end version), no pin.
+- Ran `coverage --min-liq 15000` (deeper coverage sweep) → 6 hits, all already known / novelty.
+- Searched Aug daily events (repeat): **Iran-military-vs-Gulf-State Aug: STILL not open** (same July legs surface); **Houthi-shipping Aug: STILL not open** (Bab el-Mandeb closure + a NEW find: Houthi-military-vs-ISRAEL by-Aug-31 31.0% ⚠thin, $93K event — DIFFERENT question than shipping but Red-Sea axis — pinned as partial gap-fill).
+- Searched Sept Fed markets: **decomposition finding.** Sept-mtg-specific 56.5% Δ1d +4.0/Δ7d +3.0 ($2.1M vol / $347.7K liq DEEP) — DEEPENING post-FOMC, contradicting a surface read of my morning retraction. Cumulative by-Sept/by-Oct DROPPED 5-8pp/7d (July no-hike collapsed in) = compositional; meeting-specific ADDED. Hike-timing tightened INTO Sept. **Pinned three new Fed markets** (Sept-specific, by-Sept cumulative, by-Oct cumulative) + re-pull.
+- **KB +2 rows** (KB-ORC-056 Sept-hike-decomp, KB-ORC-057 Houthi-Israel gap partial-fill).
+- **VX-ORC-08 upgraded 🟡→🟠** (aggregate calm, Sept-specific deepening).
+- **STATUS.md surgical patches**: header + Fed alert rewrite + dashboard rows added (Sept-specific, by-Sept, by-Oct, Houthi-Israel) + Convergence Matrix row 2 upgraded to 🟠 (score 2→3).
+- **NEXUS_BRIEF.md surgical patches**: header + Fed VIEW bullet rewrite + LIQUID/HENRY row 🟡→🟠 + Sept-16 catalyst row updated.
+- **Outbox +1 amendment**: 🟠 `2026-07-31_to-liquid-henry_fed-sept-decomposition-amendment.md` — amends the AM 🟡 retract; the aggregate retract stands, but "rates calm" framing was wrong on Sept-specific.
+
+## WHAT I DID (AM)
 1. Boot reads: `CLAUDE.md`, `SCRATCH.md`, `STATUS.md`, `NEXUS_BRIEF.md`, KB/VX tails. Git: clean tree in ORACLE dir (only unrelated NEXUS/HEARTBEAT modifications), up-to-date with origin.
 2. **Inbox process:** WALTER SIG-W-20260730-003 (30Y=5.244% term-premium note) → `git mv` to `inbox/WALTER/processed/`. Integrated: became the blind-spot flag driving three of this session's four outputs (VIEW, Convergence Matrix row 3, outbox row 3, VX-ORC-08 note).
 3. **Live pull both platforms** (`polymarket.py pull --log` 39 rows first pass; `kalshi.py pull --log` 12 rows) + `disruption_supply_spread.py`.
