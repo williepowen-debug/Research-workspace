@@ -50,6 +50,31 @@ def run(cmd):
         return 2
 
 
+def run_alert(cmd):
+    """Run an ALERT-CONTRACT script (ledger_staleness: prints only when something
+    needs attention, exit code ALWAYS 0 by documented contract). Relay its output;
+    the flag is OUTPUT-NONEMPTY, never rc — the old leg branched on rc 1, which
+    the script never emits, so staleness could never trip the REVIEW exit (dead
+    code since build 7/10; DAEDALUS fix 2026-07-31, Will-approved, PAT-074).
+    Returns 0 quiet · 1 printed-something (REVIEW) · 2 launch/usage failure.
+    power_watch keeps run(): it has REAL rc semantics (0/1/2 by its own contract)."""
+    try:
+        p = subprocess.run([PYTHON, *cmd], cwd=str(ROOT),
+                           capture_output=True, text=True)
+    except Exception as e:  # noqa: BLE001
+        print(f"  boot.py: FAILED to launch {cmd[0]}: {e}", file=sys.stderr)
+        return 2
+    out = (p.stdout or "").strip()
+    err = (p.stderr or "").strip()
+    if out:
+        print(out)
+    if err:
+        print(err, file=sys.stderr)
+    if p.returncode != 0:
+        return 2
+    return 1 if out else 0
+
+
 def predictions_due():
     """Return (n_due, rows) for PREDICTIONS.tsv rows past resolve-date still OPEN.
     Tolerant of an empty/newborn ledger. Expects a 'resolve_date' (or 'resolves')
@@ -94,9 +119,11 @@ def main():
     rcs.append(("power_watch", run([str(POWER_WATCH)])))
 
     print("\n--- 2. ledger staleness (workbook + TRADE.md vs STATUS) ---")
-    sw = run([str(STALENESS), "WATT", "--quiet"])
-    st = run([str(STALENESS), "WATT", "--trade", "--quiet"])
-    rcs.append(("staleness", 1 if (sw == 1 or st == 1) else max(sw, st) if 2 in (sw, st) else 0))
+    sw = run_alert([str(STALENESS), "WATT", "--quiet"])
+    st = run_alert([str(STALENESS), "WATT", "--trade", "--quiet"])
+    if sw == st == 0:
+        print("  ✓ quiet (alert-contract: output only when stale/misconfigured)")
+    rcs.append(("staleness", 2 if 2 in (sw, st) else (1 if 1 in (sw, st) else 0)))
 
     print("\n--- 3. predictions-due scan ---")
     n_due, due = predictions_due()
