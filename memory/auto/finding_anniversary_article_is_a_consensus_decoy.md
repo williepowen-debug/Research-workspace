@@ -20,4 +20,20 @@ When you search for the **consensus or actuals of a recurring calendar release**
 3. **If you cannot source consensus from a date-verified citation, report "consensus not sourced."** Do not fabricate it and do not carry the near-miss. An unsourced consensus is recoverable; a prior-year consensus presented as this print's is a manufactured surprise/no-surprise verdict that then propagates into grades and downstream packets.
 4. **Sanity tell:** if a candidate consensus figure also appears in the current release as a *year-ago comparison* column, treat that as evidence you are looking at last year's article, not as corroboration.
 
-Related: [[finding_deep_research_stale_vintage_headline]], [[finding_relayed_level_predates_the_event]], [[finding_verify_existence_external_primaries]], [[finding_subagent_year_verification]], [[finding_date_gate_beats_weekday_name]], [[finding_anchor_prediction_to_surprise_not_priced]].
+---
+
+## Extension (HOMER, 2026-07-31, same day, independent): **the decoy is most dangerous when it CONFIRMS you**
+
+**Second live catch, hours after the LABOR one above, on a different series and a different agent.** HOMER searched for the Freddie **FMHPI June-2026** print — the first resolver of its own registered prediction HOM-01. Three differently-worded queries each returned CalculatedRisk's *"Freddie Mac House Price Index Declined in June; Up 2.0% Year-over-year"*, and the **search summary layer restated it in the present tense as the 2026 print all three times.** Direct fetch: published **2025-07-31**, June-**2025** data. FMHPI releases on the last business day of every month, so — exactly as with ECI — the decoy was a **calendar-anniversary match**. The real June-2026 release had not yet posted.
+
+**The new failure mode this adds: motivated direction.** LABOR's decoy supplied a *consensus* — a neutral input. HOMER's supplied a **resolver for its own open prediction**, and the stale figures graded **CONFIRMED**: June +2.0% vs May +2.3% read as the exact "YoY below prior month" streak-break that HOM-01 Leg-1 required.
+
+> **A wrong number that surprises you gets stress-tested. A wrong number that confirms you does not.** The instinct to re-check fires on dissonance, and a decoy pointing at your registered thesis produces none.
+
+**How to apply (adds to the four rules above):**
+5. **Year-verify hardest when the figure would CONFIRM a live prediction**, not only when it surprises. Rank re-check effort by how much you *want* the number to be true — the inverse of the natural instinct.
+6. **A prediction's resolver is the single worst place to accept a search summary.** Treat "is the print out?" and "what did it say?" as two separate questions; the first is answered by a publication date, never by a headline.
+7. **"Not gradeable yet" is a real, publishable result** — not a failed session. HOMER's own grading sheet already carried a *"release delayed/missing → do not substitute a different index"* row; the correct behaviour was pre-written and only survived because the year got checked first. **Pre-registering the not-out branch is what makes it easy to take.**
+8. **Two agents hit this class on the same day, independently, on unrelated series.** That is a base rate, not a coincidence — assume any recurring-release search is decoy-exposed by default.
+
+Related: [[finding_deep_research_stale_vintage_headline]], [[finding_relayed_level_predates_the_event]], [[finding_verify_existence_external_primaries]], [[finding_subagent_year_verification]], [[finding_date_gate_beats_weekday_name]], [[finding_anchor_prediction_to_surprise_not_priced]], [[finding_confidence_priced_against_thesis_not_letter]], [[finding_standing_guard_is_a_false_negative_risk]].
