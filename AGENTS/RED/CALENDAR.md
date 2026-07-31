@@ -16,7 +16,7 @@
 
 **The full forward catalyst list (imminent → medium-term, ~38 rows) now lives in `docket/CATALYSTS.tsv`** — the queryable, row-by-row-prunable source of truth for catalyst dates/thresholds (date / window / event / bear_signal / bull_signal / red_threshold / priority / status / notes). This file (CALENDAR.md) keeps the *narrative* layer below: resolved-catalyst history, the FALSIFICATION WATCH, prediction-scoring windows, and exit backstops. Adapted from SAM's `docket/CATALYSTS.tsv` pattern (S16; see MAINTENANCE.md). **Boot:** scan CATALYSTS.tsv for `status=pending` rows in the next ~14 days; read the narrative sections here for the adversarial framing.
 
-**Top imminent → see `docket/CATALYSTS.tsv` (canonical).** The 6/24–7/3 imminents (EIA WPSR, FL UI cliff, CFTC COT, Geneva, Jun30 expiries, SAVE) are **RESOLVED (S22 7/5):** Cushing FIRST BUILD +0.71M (BRENT structural-decouple), positioning-extreme CFTC, RED-18 WRONG (Dec-26 <$80). **THE binding watch REVERSED (S22 7/5): HY OAS re-widened to 275** (peak 283 6/26 = AI-selloff; DEWEY+LIQUID = concentrated-not-broad) — **the <260 line is DEAD (+15 away)**; live near-term watch = re-cross **>280 (WL-03, 5bps).** The fork is the **mid-July bank cluster: WAL + OZK both 7/21 AMC (triple print w/ ALLY am) / EGBN 7/22** (NOT Jul 30; WAL date fixed 7/10 — was carried ~7/16 off a MarketBeat estimate, canonical is company-confirmed 7/21 per WAL's own 7/6 release) + **June CPI 7/14** (date fixed 7/10, was mis-carried 7/10). New Acute falsifier: **SKEW<140 sustained 4td** = single-mechanism vol-tail kill (VIOLET). **DISH 7/31** rebalance = mechanical CCC tightening — do NOT misread as healing.
+**Top imminent (7/31 vintage) → `docket/CATALYSTS.tsv` is canonical.** **🔴 SKEW<140 kill-clock 2-of-4 LIVE** (139.55/139.90 [7/29-30]; completes ~8/4 → Acute −2 executes per pre-registration) → **🔴 BDC recognition cluster 8/4-8/6 + SBCF** (the CHG-027 capitulation-review gate) → **🟠 ~8/7 CHG-044 amendment window** (BROCK BRK-32) → **🟠 Wed 8/12 July CPI = pre-registered NON-EVENT** (RED-21 grades on the energy line) → **mid-Aug cluster** (FFIEC MI3 ~8/15 cadence-unconfirmed · WAL V4 window ~8/13 · CARL rationalization test ~8/15 · OSPREY rotation ~8/24). Standing guards: CCC prints from the 7/31 obs onward are **DISH-artifact-contaminated both directions**; FT-01 re-armed <280 s=3 (a premium-decay re-fire = BULL evidence); VIX vs 16 (FT-06 0.6 away, DIET-guard applies). *(The S22-vintage paragraph this replaces — June imminents, HY<260 death, mid-July fork dates — is preserved in the RESOLVED CATALYSTS tables below and thesis/CHANGELOG.)*
 
 ---
 
@@ -90,11 +90,13 @@
 
 ---
 
-## FALSIFICATION WATCH (active triggers — refreshed 6/22 S20; **live anchors are canonical in the STATUS Falsification table** — this is the narrative twin)
+## FALSIFICATION WATCH — ⛔ FROZEN 2026-07-31 (Phase 4): not maintained, do not cite rows as current
 
-> **S20 binding change:** **HY OAS <260 sustained 3d** is now THE near-term falsifier — 266 live, 6bps away (WL-04 NEAR). Sustain = broad-credit transmission channel DEAD → bear lives on bank-specific (WAL/OZK Q2 ~Jul 30) + duration only. BOJ/FOMC rows below are RESOLVED (see 6/11-6/22 block above). **NEW falsifier:** SKEW <138 with VIX flat = silent coiled-spring fade (Acute −2) — the GRADUAL_FADE VIOLET's own tripwires don't catch.
+> **Canonical, live-evaluated homes:** `registry/FALSIFICATION_TRIGGERS.tsv` (hard, WALTER auto-fire) + `docket/WATCHLINES.tsv` (soft) — **boot.py evaluates both every boot** — narrative mirror = the STATUS Falsification table. This section stopped being the live layer when those TSVs shipped (S16-S17); it had continued presenting S17/S20-vintage anchors as "active triggers" (e.g., *"HY <260 is THE near-term falsifier — 266 live"*, dead since S22; a "NEW WATCH today" dated 5/21). Frozen whole per root Data-Hygiene rather than row-patched — the tables below are now **historical record only**.
 
-### (historical anchors below — refreshed 6/10 S17; superseded by STATUS for live values)
+### (S20 6/22 banner + S17 6/10 anchors below — FROZEN, superseded by the TSVs)
+
+> *(S20 text, historical):* **HY OAS <260 sustained 3d** is now THE near-term falsifier — 266 live, 6bps away (WL-04 NEAR). Sustain = broad-credit transmission channel DEAD → bear lives on bank-specific (WAL/OZK Q2 ~Jul 30) + duration only. **NEW falsifier:** SKEW <138 with VIX flat = silent coiled-spring fade (Acute −2).
 
 | Event | Impact | When to Watch |
 |-------|--------|---------------|
@@ -119,20 +121,20 @@
 
 ---
 
-## RED PREDICTION SCORING WINDOWS
+## RED PREDICTION SCORING WINDOWS (reconciled to canonical `workbook/PREDICTIONS.tsv` 7/31 — tally 8W/11C/2A)
 
-| Pred | Date | Conf | Status |
+**ACTIVE (the live scoring windows):**
+
+| Pred | Resolves | Conf | State |
 |------|------|:---:|--------|
-| **RED-16** VIX ≥25 sustain by 5/19 | **5/19** | 18% | **RESOLVED CORRECT** (modal 82%; VIX peaked 19.21 5/15) |
-| **RED-17** Dated Brent next print <$115 | next Platts | 50% | ACTIVE-RIGHT (~$95 area) |
-| **RED-08** Brent <$120 sustained Q2 | Jun 30 | 60% | Workbook RESOLVED WRONG (both sides; physical hit $141) — historical |
-| **RED-10** HY OAS <400 by Jun expiry | Jun 30 | 45% | ACTIVE-VERY-RIGHT (276) |
-| **RED-18** Brent Dec26 $80-95 over 60d | Jul 5 | 65% | ACTIVE (day 15 of 60) |
-| **RED-19** US rigs 400-415 through Jun | Jun 30 | 65% | **RESOLVED WRONG** (rigs 429 May 29, >415 upper bound; BRENT-confirmed 5/31). Fixed S16 — was stale "ACTIVE-RIGHT". |
+| **RED-21** July CPI energy MoM prints NEGATIVE (pre-registered arithmetic, not mechanism) | **Wed 8/12** | 85% | ACTIVE — a CORRECT must NOT be scored as bear/disinflation evidence |
+| **RED-04** Policy rescue materializes Q2-Q3 | **9/30** | — | ACTIVE — hike-is-base-case makes non-occurrence modal |
+
+**Resolved history (was carried stale here through 7/31 — outcomes per canonical TSV):** RED-16 CORRECT (VIX never ≥25 by 5/19) · **RED-17 CORRECT** (was stale "ACTIVE-RIGHT") · RED-08 WRONG (both sides; physical $141) · **RED-10 CORRECT** (HY never neared 400; was stale "ACTIVE-VERY-RIGHT") · **RED-18 WRONG** (Dec-26 broke <$80, S22 7/5; was stale "ACTIVE day 15 of 60" here for 26 days) · RED-19 WRONG (rigs 429).
 
 ---
 
-## POSITION EXIT-WINDOW BACKSTOPS (Session 13 — refreshed against broker CSV)
+## POSITION EXIT-WINDOW BACKSTOPS — ⛔ FROZEN 2026-07-31: ALL REALIZED/EXPIRED (Session-13 vintage; every listed date passed and every listed position expired or closed by 7/17 — see RESOLVED CATALYSTS tables. Live book = FORGE/STATUS.md; historical record only below)
 
 | Backstop date | Positions | Window-trigger menu |
 |--------------|-----------|------------------------------|
