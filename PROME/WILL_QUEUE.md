@@ -18,7 +18,7 @@
 |---|---|---|---|---|---|---|
 | 2 | Close REGINALD's window | ACTION | 2026-07-31 | 7/30 | glance at the pane | re-dated at 7/31 closeout (was 7/30, PASSED unreconciled — pane state unknown to PROME); its closeout is committed+pushed, this is only the window itself |
 | 4 | Launch RED | LAUNCH | 2026-07-31 AM | 7/30 | pair with HY print #4 | RED's 2 rulings gate RESHAPE-BC formal confirm + FT-01 un-fire; print #4 publishes ~7/31 and decides if FOMC-day is excluded |
-| 5b | Stage-A defect-② ruling + sizing rider — DRAFT DELIVERED `e7772ace`, decision-ready. BRENT rec = Candidate 1 (move transit test from Stage-A entry to the Stage-B kill test it already duplicates; Jun-17 fires +10.37%, Apr-17 blocks twice over). PROME rec = adopt C1 + rule sizing half/half. Premise note: "dark transits" was FALSE (BRENT self-corrected — latency defect, not observability; transit-gated entry INVERTS the Jun-17 trade to −5.99%) | RULE | none | 7/31 | adopt Candidate 1; sizing = half/half (BRENT and PROME converge) | `AGENTS/BRENT/outbox/2026-07-31_to-PROME_defect2-respec-proposal.md`; option C = scoped JWC/P&I history research task (assignable, no clock) |
+| 5c | H1 holding-cap anchor — one-line ruling: half/half sizing makes H1's 8-session stop PER-TRANCHE (position life extends to day+10 from announcement) vs ANCHORED to the announcement (both tranches out by day+9, tighter) | RULE | none | 7/31 | anchor to announcement (day+9) — tighter, and BRENT called H1 the rule he'd defend hardest at n=1 | BRENT v5 note `f459d824` §4; fell out of the sizing ruling, flagged not assumed; literal per-tranche reading stands until ruled |
 | 6 | scripts/-ownership ruling | RULE | 2026-08-02 | 7/30 | — | closeout-critical tooling (safe-push, env_doctor, ledger_staleness...) lives unowned; DAEDALUS gap (c), PAT-071 next application; the 7/31-8/2 conversation |
 | 7 | Launch NEXUS | LAUNCH | 2026-08-03 (before BDC cluster) | 7/28 | sooner is better | 29/31/40 mark is 7/28-vintage; inbox holds FOMC/HY/yen moves; staleness compounds into 8/4-8/6 |
 | 8 | QQQFADE approval (`TRY-WILL-QQQFADE`) | [Approve] | none (Sep-18 tenor) | 7/30 | — | TERRY's 2 conditions (re-based premise + Target-1 policy); PROME rider "sell the 675P first" is MOOT (put sold 7/30); register Will-discretionary class on fill |
@@ -38,6 +38,7 @@
 |---|---|---|
 | Memory-migration date (was row 3) — RULED pull-to-today, EXECUTED same session | 7/31 | `7b7727f0` (index split) + `5cce6942` (embeds); hot index 62% of cap |
 | BRENT Stage-A (was row 5) — RATIFIED both legs + leg-(a) CLOSE basis, implemented+verified | 7/31 | `0832c484` (STAGE-A v4 in TRADE.md; STNG veto retired; follow-ups → row 5b) |
+| Stage-A defect-② + sizing (was row 5b) — RULED C1 + half/half, implemented+verified; entry_timing contradiction resolved by phase-separation | 7/31 | `f459d824` (v5: entry {(i)+(T)+(C)}, transit→Stage-B kill leg 2; local, push queued) |
 | Launch SAM pre-BOJ (was row 1) | 7/30 ~22:00 | Will confirmed in-session at PROME boot; SAM live in own window, 13 dirty SAM paths incl. the yen packet `git mv`'d to processed |
 | QQQ 680P — SOLD for a loss (strike corrected 675→680) | 7/30 | `be7f7bfa`; figures fold into row 16 |
 | HEARTBEAT amendments #1 + #2 approved | 7/30 | `d7764309` / `8bb2ff35` |
