@@ -1,7 +1,36 @@
 # MARCO STATUS
-**Last Updated:** 2026-07-25 ET (session 18b) | **Thesis:** v2.8 | **Status:** 🟠 ELEVATED
+**Last Updated:** 2026-07-31 ET (session 19) | **Thesis:** v3.0 | **Status:** 🟠 ELEVATED
 
-**This session in one line:** **BOTH of MARCO's Channel-1 instruments failed their own pre-registered tests, hours apart.** Produce CPI resolved toward freight (ES-MARCO-08); the wage-divergence replacement was then **falsified by the very panel meant to confirm it** — FL's +8.75% is an Amendment 2 minimum-wage artifact, and TX hospitality wages are *falling* despite maximal immigrant exposure. **Net: the labor shock is well-measured as a QUANTITY; its transmission to prices/costs has NO working instrument.** Also: FLL's −10.7% May attributed to the **Spirit liquidation, not FL demand**; household-insurance-cost vector stale-flagged with no figure adopted.
+**This session in one line:** **Channel 1 is demoted from thesis spine.** The floor-controlled test v2.8 called for was pre-registered and run — **NULL, robust to control choice** (all 3 CONFIRM conditions failed under both controls; TX negative in all 6 months of 2026). Channel 1 is now **quantity HIGH / transmission UNDEMONSTRATED** after three pre-registered nulls, and MARCO is **not hunting a fourth instrument** — the payroll-survey instrument class cannot see the affected population. Also this session: the H-2A fetcher was found **dead ~101 days** (boot was printing "✓ ran cleanly" beside its own FAIL) and rebuilt; the docket had **3 duplicate event pairs hiding 3 stale premises**, deduped.
+
+## 7/31 UPDATE (session 19) — READ FIRST
+
+> ### ⚫ CHANNEL 1 DEMOTED FROM SPINE (thesis v2.8 → **v3.0**, MAJOR)
+> **The test:** restrict to **federal-minimum ($7.25, no step) states** — L&H runs ~$16–18/hr against a floor that is non-binding and did not move, so the Amendment-2 confound **cannot exist by construction**. Within each state, difference L&H wage growth against a control sector; compare high- vs low-immigrant-share strata. Thresholds fixed **before any pull** (`thesis/PREREG_2026-07-31_floor_controlled_channel1.md`).
+>
+> | Pre-registered condition | TTU control | E&H control |
+> |---|---|---|
+> | high-imm mean DID ≥ +1.5pp | **−1.94pp** FAIL | **+1.25pp** FAIL |
+> | DID > 0 in ≥70% of stratum | **33%** FAIL | **33%** FAIL |
+> | high−low gap ≥ +1.5pp | **−2.57pp** FAIL | **+1.27pp** FAIL |
+> | TX DID ≤ 0 (null trigger) | **−8.01pp** FIRED | **−1.88pp** FIRED |
+>
+> **Three things make this structural, not just a third miss:**
+> 1. **The stratum difference flips sign with the control** (−2.57 vs +1.27pp), neither significant (|t|<1). A real effect doesn't invert on a control swap.
+> 2. **Detection floor ≈ 6pp — larger than the +4.88pp FL headline promoted on 7/25.** That signal was never distinguishable from cross-state heterogeneity, *independent of* the Amendment 2 story. Harsher than the 7/25 verdict: the instrument was **under-powered from the start**, not merely confounded.
+> 3. **The gaps are stable, not noisy** (median 6-month within-state swing 3.2pp; TX −6.0 to −8.6 *every* month) — they measure something real that **is not immigrant exposure**. Energy-sector mix inside the control supersector contaminates exactly the TX/OK/KS cells.
+>
+> **Net state:** quantity evidence **HIGH and untouched** (foreign-born LF −700K YoY, LFPR 61.5%, less-than-HS LFPR 43.1%, H-2A FY26-thru-Q2 **254,688** certified re-verified from OFLC primary today). Transmission: **NONE — UNDEMONSTRATED**, three pre-registered tests, all MARCO's own, all null. **Channel 2 (Canadian travel) is now MARCO's highest-conviction transmitting channel** — by Channel 1's demotion, not its own strengthening.
+>
+> **No fourth instrument, and that is a conclusion.** CES is an establishment **payroll** survey; the population that withdrew is disproportionately undocumented and therefore substantially off-payroll or unresolvable within it. The workers whose exit *is* the mechanism are the ones it can least see. Reopening needs a source that observes them directly — H-2A **offer premia above** the AEWR floor (never AEWR itself: it is administratively set, and its NASS basis was canceled Aug 2025), vacancy duration in immigrant-intensive occupations, or firm-level cost disclosure.
+>
+> **The downgrade was pre-committed on 7/25**, before this test was designed, so it could not be re-litigated once the answer was known. Executed as written. → `research/2026-07-31_floor_controlled_channel1_RESULTS.md`.
+>
+> **🔴 Consumers must update:** CARL (cost-push), LABOR (U-3 supply floor), REGINALD. Channel-1 **transmission** is **UNSUPPORTED** — not "pending a better test," which is what v2.8 said. **Quantity claims remain citable.**
+
+**Also 7/31 — boot infrastructure:** `h2a_pull.py` dead ~101d (hardcoded filename list vs DOL's advancing-quarter cumulative file; Wayback fallback also dead). Rebuilt — discovers the filename live, fetches dol.gov direct (full browser headers clear the Akamai wall; UA-only 403s), 300s→11s. **`boot.py` was printing "✓ ran cleanly" beside its own FAIL** for any failure whose text missed a marker whitelist — fixed to branch on exit status. Cadence moved to content-vintage (an mtime skip armed today would have blinded MARCO to the Q3 file publishing tomorrow). Docket: **3 duplicate event pairs**, hiding a live row that still pointed Aug 8 at the falsified wage instrument, MAR-24 at a stale 45% (canonical 60%), and the retracted "2.2M". All fixed; duplicate/vocabulary/sort checks now run at every boot.
+
+---
 
 *Session history lives in `thesis/CHANGELOG.md` — not in this header. Prior sessions: s17 (7/9) WALTER backlog drain + LFPR 43.1 verify + energy re-shock forward-read; s16 (7/2) SDL-01 magnitude re-mark 2.2M→~1.0M + June jobs + FL Citizens MAR-17 invalidated. Superseded READ-FIRST blocks (s13 6/15, 5/31 thesis inflection) → `domain/sources/_archive/STATUS_readfirst_blocks_s13_and_20260531.md`.*
 
@@ -12,23 +41,8 @@
 
 16-day catch-up. One pre-registered test resolved, one thesis re-instrumentation, and a live vector refresh that corrected two of MARCO's own surfaces in **opposite** directions.
 
-> ### 🔴🔴 SAME-SESSION REVERSAL (18b) — READ BEFORE ITEM 2 BELOW
-> **The wage instrument promoted in item 2 is FALSIFIED.** The FL/TX/CA/AZ panel named there as "the confirmation step" was built hours later (as the first item of the stale-vector sweep — `VX-2.05`/`2.06` already existed at 184d) and **killed it.**
->
-> | Jun'26 YoY gap vs national (pp) | Leisure & Hosp | Construction | Total Private |
-> |---|---|---|---|
-> | **FL** | **+4.88** | +1.02 | +0.76 |
-> | **TX** | **−6.45** (−2.58% YoY, *falling*) | −3.22 | −0.74 |
-> | **CA** | −1.94 | +3.96 | −0.80 |
-> | **AZ** | −1.05 | −0.36 | −0.35 |
->
-> **Two of eight cells positive.** If immigrant-supply withdrawal drove hospitality wages, **TX should show it most** — largest immigrant workforce exposure, most aggressive enforcement — and TX is falling outright. **The FL cell is Amendment 2:** mid-ramp $13 (Sep'24) → **$14 (Sep 30 2025)** → $15 (Sep 30 2026) = a **7.7% statutory floor increase** inside the June YoY window, in the most floor-exposed sector. TX sits at $7.25, unchanged since 2009. The co-driver named as "undecomposed" ate the whole divergence.
->
-> **NET STATE OF CHANNEL 1 (thesis v2.8):** quantity evidence **HIGH and untouched** (foreign-born LF −700K YoY, LFPR 61.5%, less-than-HS LFPR 43.1%, H-2A ~455-465K pace). **Transmission to prices/costs: NO WORKING INSTRUMENT** — produce demoted in the morning, wages falsified in the afternoon. MARCO can assert the shock happened and is large; MARCO **cannot currently demonstrate it is transmitting.** Downstream (CARL cost, LABOR U-3, REGINALD) should treat Channel-1 *transmission* claims as UNSUPPORTED.
->
-> **Open path, claimed as a question:** a valid test must control for statutory wage floors — immigrant-heavy vs immigrant-light sectors *within* a state, or no-floor-step states. **TX is the clean laboratory and TX says no**, which points *against* transmission rather than merely being absent evidence.
->
-> **Retractions issued same day:** 🔴 LABOR (full — it had been asked to re-anchor U-3 on this), 🔴 CARL (partial — §2 retracted, produce demotion stands; cost-push survives on *statutory* grounds with a dated Q4 impulse as the floor steps $14→$15), 🟡 CORAL (one line). **Process rule adopted:** a pre-registered falsifier that can be run today gets run **BEFORE** promotion, not after.
+> ### 🔴🔴 s18b SAME-SESSION REVERSAL — the 7/25 wage instrument was FALSIFIED (archived)
+> **Superseded by v3.0 — the open path this block named was tested 7/31 and came back NULL; see the 7/31 block above.** In brief: the FL/TX/CA/AZ panel meant to confirm the instrument killed it (Jun'26 L&H gap vs national — FL +4.88 · **TX −6.45 and falling** · CA −1.94 · AZ −1.05; 2 of 8 cells positive), FL's cell being an Amendment 2 statutory-floor artifact. Retractions went to LABOR (full), CARL (partial), CORAL (one line) same day. Full text → `domain/sources/_archive/STATUS_s18b_reversal_block.md`; canonical → `thesis/CHANGELOG.md` v2.8 + v3.0.
 
 1. **🔴 ES-MARCO-08 RESOLVED — against the produce thermometer. Thesis → v2.7.** The 7/9 contamination risk **did not materialize**: despite the Iran-truce collapse and the Russian diesel ban, June gasoline fell **−9.68% MoM** (energy −5.7% MoM, largest since Apr 2020), so the pump-relief premise held and the fork fired as designed. Result: fresh F&V (`SAF1131`) **+6.74% → +5.71% YoY, −1.05% MoM** — produce fell **with** the pump. Per the pre-registered spec, **freight carried more of the spike than labor.** Produce CPI demoted a second time (v2.1 confounded → v2.7 **weak corroboration only**); stop citing F&V prints as Channel-1 evidence in either direction. *(Series note: MARCO's carried "+6.1% fresh F&V" for Apr/May was actually the broader `SAF113` aggregate; true fresh F&V was 6.51/6.74. Mislabel corrected, direction unaffected.)*
 2. **~~🟢 REPLACEMENT INSTRUMENT — wage divergence~~ — ❌ FALSIFIED same session, see the reversal block above. Retained as the record of what was claimed.** FL leisure & hospitality AHE **$23.99 (Jun'26) vs US $23.62 = +1.6% ABOVE national**, against a carried row that said **11% below** at $20.74 (Jan vintage). **FL +8.75% YoY vs national +3.87%, three straight months at >2x national** (BLS CES, live API). No freeze, tariff, or diesel pulse can enter a wage series — the confounders that killed the produce thermometer are structurally absent. Promoted to the primary Channel-1 instrument at **MEDIUM-HIGH** (provisional: single state/sector/3 months; FL minimum-wage schedule + general tightness are named, undecomposed co-drivers). **Build next session:** FL/TX/CA/AZ × hospitality/construction/ag-adjacent wage panel vs national.
@@ -70,7 +84,7 @@
 | **FL Hospitality Wages — ❌ FALSIFIED as a Channel-1 instrument (7/25b)** | **FL L&H AHE $23.99 Jun'26 vs US $23.62 = +1.6% ABOVE national** (carried row said 11% BELOW at $20.74 — Jan vintage, REVERSED). **FL +8.75% YoY vs national +3.87%, 3 straight months >2x national** (BLS CES `SMU12000007000000003` vs `CES7000000003`, live API). Wage series carries no freeze/tariff/diesel confound → replaces produce CPI as the Channel-1 readout. **The panel ran and killed it:** TX L&H −6.45pp vs national and FALLING despite maximal immigrant exposure + no state minimum above $7.25; CA −1.94pp; AZ −1.05pp. FL's cell is **Amendment 2** ($13→$14 Sep-30-2025→$15 Sep-30-2026 = 7.7% statutory floor rise inside the YoY window). Reclassified: a **statutory-cost variable in CARL's lane**, not a MARCO population signal. Forward: floor steps $14→$15 Sep 30 2026 = dated ~7% FL services-cost impulse in Q4. | ❌ FALSIFIED — not a MARCO signal |
 | E-Verify | ✅ OPERATIONAL | 🟢 ACTIVE |
 
-**Composite (rev 7/25 — session 18):** **Channel 1 RE-INSTRUMENTED, not weakened**: mechanism HIGH and intact (H-2A ~455-465K pace, LFPR 61.5%, foreign-born LF −700K YoY, less-than-HS LFPR 43.1%), produce thermometer DEMOTED to weak-corroboration after ES-MARCO-08 resolved toward freight, **wage divergence PROMOTED** (FL L&H +8.75% vs national +3.87%, 3mo). **Channel 2 unchanged, higher variance**: TOUR-01 holds on the −28.7% stack but the air leg narrowed to −25.0% (on the line) while a fresh 50% Canada tariff (7/20) re-arms sentiment. **FL acute-stress layer still NOT firing on MARCO's own metrics** (condo 8.1mo dead, FL L&H adding jobs, Citizens de-escalating) — but that is now understood as **statewide-blend masking metro concentration**, not as absence: ATTOM puts the national foreclosure epicenter (Punta Gorda #1, Cape Coral, FL #1 state) in exactly MARCO's SW-FL snowbird/migration geography. **FLL −10.7% excluded from the composite** — Spirit-liquidation supply shock, not demand. *(Prior composite, 6/15: 4 structural-hardening / 4 reversed-softened / 2 stale.)*
+**Composite (rev 7/31 — session 19):** **Channel 1 DEMOTED FROM SPINE — quantity HIGH, transmission UNDEMONSTRATED.** Mechanism/quantity intact and untouched (H-2A ~455-465K pace on 254,688 certified thru Q2, LFPR 61.5%, foreign-born LF −700K YoY, less-than-HS LFPR 43.1%); but **all three transmission instruments are now dead** — produce CPI (ES-MARCO-08 → freight), wage divergence (statutory-floor artifact), and the floor-controlled re-test (NULL under both controls, TX negative every month, detection floor ~6pp > the 4.88pp signal it was meant to test). **Channel 2 is now the highest-conviction transmitting channel by default.** *(Prior composite, 7/25: "Channel 1 RE-INSTRUMENTED, not weakened" — that read is superseded; the replacement instrument it referred to was falsified the same session and the follow-up test confirmed the null.)* **Channel 2 unchanged, higher variance**: TOUR-01 holds on the −28.7% stack but the air leg narrowed to −25.0% (on the line) while a fresh 50% Canada tariff (7/20) re-arms sentiment. **FL acute-stress layer still NOT firing on MARCO's own metrics** (condo 8.1mo dead, FL L&H adding jobs, Citizens de-escalating) — but that is now understood as **statewide-blend masking metro concentration**, not as absence: ATTOM puts the national foreclosure epicenter (Punta Gorda #1, Cape Coral, FL #1 state) in exactly MARCO's SW-FL snowbird/migration geography. **FLL −10.7% excluded from the composite** — Spirit-liquidation supply shock, not demand. *(Prior composite, 6/15: 4 structural-hardening / 4 reversed-softened / 2 stale.)*
 
 ---
 
@@ -173,7 +187,7 @@
 |------|-------|----------|
 | **Aug 1** | **Banxico June remittances** — transfer COUNT YoY is the cleanest surviving SDL-01 readout (May: −1.7%, still negative = tell intact) | 🟠 |
 | **Aug 1** | OFLC H-2A Q3 FY26 disclosure — MAR-11 (>425K, 88%); H1 254,688 (+16.9%) projects ~455-465K | 🟡 |
-| **Aug 8** | BLS July NFP — **and the July state-CES wage print, which is now a Channel-1 instrument read, not just context** | 🟠 |
+| **Aug 8** | BLS July NFP — L&H post-World-Cup (ES-MARCO-01) + LFPR / foreign-born LF (SDL-01 quantity). ⚠️ **The state-CES wage leg is NOT a Channel-1 instrument read** (v3.0) — do not re-run the >2pp gap test as a confirm | 🟠 |
 | **~Aug 12** | BLS July CPI — ES-MARCO-05 (RECEDING): a 3rd sub-6% F&V print → resolve DID_NOT_APPEAR rather than push a 4th time | 🟡 |
 | **~Aug 15** | **NTTO June arrivals (1st World-Cup month)** — ES-MARCO-09 fork: PASS if Jun+Jul overseas ≥5.5M AND ≥−10% vs 2019; FAIL if ≥−20%. Advance signals lean FAIL | 🟠 |
 | **~Aug 15** | Banxico Q1/H1 state-of-origin map — SDL-01 *spatial* test: concentrated drop in high-enforcement states = confirmation | 🟡 |

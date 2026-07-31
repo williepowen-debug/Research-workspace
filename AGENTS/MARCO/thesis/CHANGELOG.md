@@ -4,6 +4,40 @@ Version-transition log. Newest first. Each entry: old view → new view, trigger
 
 ---
 
+## v2.8 → v3.0 (2026-07-31, session 19) — **MAJOR** — **CHANNEL 1 DEMOTED FROM SPINE: transmission undemonstrated after three pre-registered nulls**
+
+**Trigger:** the floor-controlled test that v2.8 named as the open path was designed, **pre-registered with thresholds fixed before any data pull**, and run. It returned NULL.
+
+**Design (the thing v2.8 said was needed):** restrict to **federal-minimum ($7.25, no step) states** — where leisure-hospitality runs ~$16–18/hr against a floor that is non-binding and did not move, so the Amendment-2 class of confound **cannot exist by construction**. Within each state, difference L&H wage growth against a control sector; then compare **high-immigrant-share** ($7.25) states against **low-immigrant-share** ($7.25) states. June 2026 vs June 2025, BLS CES state AHE.
+
+**Old view (v2.8):** quantity HIGH; transmission has no working instrument *"pending a better-specified test"* — with TX flagged as an informative null.
+
+**New view (v3.0): the better-specified test was run and it is also null — and the instrument class itself now looks structurally unable to answer the question.**
+
+| Pre-registered condition | TTU control (primary) | E&H control (robustness) |
+|---|---|---|
+| c1 · high-imm mean DID ≥ +1.5pp | **−1.94pp** FAIL | **+1.25pp** FAIL |
+| c2 · DID > 0 in ≥70% of stratum | **33%** FAIL | **33%** FAIL |
+| c3 · high−low stratum gap ≥ +1.5pp | **−2.57pp** FAIL | **+1.27pp** FAIL |
+| n3 · TX DID ≤ 0 → null trigger | **−8.01pp** FIRED | **−1.88pp** FIRED |
+
+Three things make this a MAJOR bump rather than a fourth data point:
+
+1. **The stratum difference flips sign with the control sector** (−2.57pp vs +1.27pp), and neither is significant (|t| < 1). A real effect does not invert when you swap controls.
+2. **The detection floor is ~6pp — bigger than the +4.88pp FL headline promoted on 7/25.** So that number was never distinguishable from ordinary cross-state heterogeneity, *independent of* the Amendment 2 story. This is a harsher verdict on the 7/25 episode than v2.8 issued: the instrument was not merely confounded, it was **under-powered from the start.**
+3. **The gaps are stable, not noisy** (median within-state 6-month swing 3.2pp; TX −6.0 to −8.6 every month). They measure something real and persistent that **is not immigrant exposure** — energy-sector mix inside the control supersector contaminates precisely the TX/OK/KS cells.
+
+**Conviction deltas:**
+- Channel 1 **quantity**: HIGH → **HIGH (unchanged, explicitly not walked back)**.
+- Channel 1 **transmission**: "no current instrument" → **NONE / UNDEMONSTRATED, and demoted from thesis spine**.
+- Channel 2 (Canadian travel): MEDIUM-HIGH, unchanged in absolute terms but **now MARCO's highest-conviction *transmitting* channel** — by Channel 1's demotion, not by its own strengthening.
+
+**Why no fourth instrument (a conclusion, not fatigue):** CES is an **establishment payroll survey**, and the population that withdrew is disproportionately undocumented — substantially off-payroll or unresolvable within it. The workers whose exit *is* the mechanism are the ones the instrument can least observe. Reopening requires a source that sees the affected population directly (H-2A offer premia **above** the AEWR floor; vacancy duration in immigrant-intensive occupations; firm-level cost disclosure) — **not** a fourth specification of state payroll wages.
+
+**Discipline note:** the downgrade was **pre-committed in `SCRATCH.md` on 2026-07-25**, before this test was designed, precisely so the decision could not be re-litigated once the result was known. It is executed here as written. Spec `PREREG_2026-07-31_floor_controlled_channel1.md` (incl. Amendment 1, which discloses that the L&H leg had already been seen when the control sector was replaced for availability reasons) · results `../research/2026-07-31_floor_controlled_channel1_RESULTS.md`.
+
+---
+
 ## v2.7 → v2.8 (2026-07-25, session 18b) — MINOR — **SAME-SESSION SELF-CORRECTION: the v2.7 wage instrument is FALSIFIED**
 
 **Trigger:** the FL/TX/CA/AZ state-CES panel that v2.7 named as "the confirmation step" was built the same session — as the first item of a stale-vector sweep, because `VX-MARCO-2.05` (Agricultural Wage Growth) and `2.06` (Construction Wage Differential, High-Immigrant) turned out to *already exist* at 184 days stale. Refreshing them ran the test early.
