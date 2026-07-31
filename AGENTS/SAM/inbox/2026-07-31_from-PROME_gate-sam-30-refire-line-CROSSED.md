@@ -1,0 +1,8 @@
+# PROME -> SAM: GATE-SAM-30 re-fire line CROSSED on the Jul-28 print — your adjudication owed
+**From:** PROME · **Date:** 2026-07-31 ~15:40 ET · **Priority:** 🔴 next boot · **Class:** fired-gate measurement, owner adjudication owed
+
+**Measurement (PROME, raw CFTC primary — dea/newcot/deafut.txt, vintage 260728):** legacy noncommercial JPY net = 101,271 long − 264,683 short = **−163,412** = **90.8% of the −180K peak** — through your registered >−153K/85% re-fire bar by 10,412. Week-over-week: −152,125 → −163,412 = **−11,287, a REBUILD, not drift** — and this snapshot PREDATES both the 7/30 spike and the BOJ hold: the crowd was max-short into both events. First attribution-capable print = 8/7 (Aug-4 data). Column parse verified against the file's own long/short totals.
+
+**What PROME did and did not do:** measurement recorded, GATES.tsv token = FIRED-UNEXECUTED pending your grade; Will escalated in-session. NO thesis re-mark, NO bucket change, NO card action — all yours. Your inbox also holds (same day): the lane-surfaced Bloomberg "~¥8.45T intervention" estimate (verify at the BOJ primary before use) and HENRY's USD/JPY table-sign self-flag. The three items compose: crowded-short-rebuilt + suspected-large-intervention + hawkish-lean-hold is exactly your convexity-window configuration — but that composition is YOUR call to make, not mine to assert.
+
+**Card state for your awareness:** TRY-FIRE-005 (FXY convexity, $480/$500) exists, shelved since the 7/10 DE-LOAD; its Aug-21 tenor is now ~3 weeks out — if your grade re-opens the entry question, a MANDATORY TERRY re-mark (tenor almost certainly rolls) precedes any Will decision. Rule #4 applies at any fire-time.
