@@ -96,7 +96,9 @@
 - **June NFP (7/2) — HEN-37 RESOLVED: surprise right, expression wrong.** **+57K** vs ~+115K, **net revisions −74K**, U-3 4.2% (a **participation artifact**, confirms weakness), **AHE +3.5% YoY re-accelerating** = the stagflation mix. ⚠️ **10Y ~FLAT at 4.47** — a relayed "+3bp to 4.50 = hawkish" figure was a bad pre-open tick and was **retracted**; what survives is that a +57K miss classically bids bonds hard and barely did (mildly *not-dovish*, not hawkish). Equity/vol **absorbed** — VIX ~16, positive gamma, cascade did not open. **Self-catch now in LESSONS: don't build a load-bearing re-mark on a figure you flagged as unconfirmed in the same edit.**
 ---
 
-## THESIS — the war-premium legs unwound; what is left is one macro driver and a credit signal I was mis-measuring (re-framed 7/28)
+## THESIS — ⚠️ MIXED VINTAGE: **Axis 2 rewritten 7/31; Axis 1 and Axis 3 bodies are still the 7/28 re-frame and have NOT been re-verified** (audit F1)
+
+*Axis 1's driver call is now **CONTESTED** — HEN-42 cut to ~55% on 7/31 — so the 7/28 text below, which reads as if the policy-path attribution held, is **superseded by the 7/31 section above**; treat its confidence language as stale. Axis 3's levels are 7/24-28 vintage; current is **HY 284 / BB 174 / CCC 1,006 [FRED 7/30], widening STALLED**. Provenance of the original header, retained: "the war-premium legs unwound; what is left is one macro driver and a credit signal I was mis-measuring (re-framed 7/28)."*
 
 **The 7/23 framing — "two of three fault lines are now TRANSMITTING" — needs a correction and a demotion.** The AI-capex leg still stands on primaries. The rates leg stands, but on **replaced** evidence. And the credit leg turns out to have been reported through a metric that could not see the week's actual move. What has not changed in a month: **the mechanical vol layer has never engaged.**
 
@@ -135,11 +137,11 @@
 
 | Leg | STANDING rule | STATE [as-of @ level] | Literal status |
 |---|---|---|---|
-| 1 — HY OAS | <260 sustained 5 sess | [FRED 7/24 @ 279] | **NOT FIRED — and moved sharply further away** (268 [7/22] → **279**, +11bp in two sessions). The *direction* thesis was already dead; the blend is now actively widening, 19bp from the kill level |
-| 2 — VIX | <15 single session | [7/27 settle @ 18.67] | **NOT FIRED** (15.56 [7/10] → 18.70 [7/23] → 18.67; flat on the week, 3.7 above the kill) |
-| 3 — SPX | >7,100 × 5 sessions | [7/27 settle @ 7,413] | **FIRED, still untested** — +313 above 7,100 (7,408 [7/23] → 7,413; stabilised rather than eroding further) |
+| 1 — HY OAS | <260 sustained 5 sess | **[FRED 7/30 @ 284]** | **NOT FIRED — furthest away of the month, and the direction is now flat rather than widening.** 268 [7/22] → 279 [7/24] → **284** [7/28] → **284** [7/30] = **24bp above the 260 kill**, but the widening has **STALLED** for two prints. The *direction* thesis was already dead; what changed 7/31 is that it stopped moving. *(As-of refreshed 7/31, audit F3 — was [FRED 7/24 @ 279].)* |
+| 2 — VIX | <15 single session | **[7/31 live @ 17.29]** | **NOT FIRED — but it moved TOWARD the kill this session**, the first time this month. 15.56 [7/10] → 18.70 [7/23] → 20.66 [7/29 FOMC settle] → **17.29** [7/31]: **2.29 above the <15 kill** and only 0.29 off the <17 yellow. Counted literally, in both directions. *(As-of refreshed 7/31, audit F3 — was [7/27 settle @ 18.67].)* |
+| 3 — SPX | >7,100 × 5 sessions | **[7/31 live @ 7,444]** | **FIRED, still untested** — **+344 above 7,100** (7,413 [7/27] → 7,316 [7/29 FOMC drop] → **7,444**). Round-tripped the FOMC selloff in two sessions; nowhere near a retest. *(As-of refreshed 7/31, audit F3 — was [7/27 settle @ 7,413].)* |
 
-**Literal count [7/28]: 1 fired (SPX) + 2 NOT-fired** — unchanged in *count* since 7/10, but leg 1 moved decisively away this week (HY widening, not compressing) and leg 2 is flat. The soft-kill needs VIX<15 **and** HY<260 **together**; both are further off than at any point this month. Counted literally, not by trajectory.
+**Literal count [7/31]: 1 fired (SPX) + 2 NOT-fired** — unchanged in *count* since 7/10. Leg 1 (HY) is at its furthest from the kill this month but has **stopped moving**; leg 2 (VIX) moved **toward** the kill for the first time this month (20.66 → 17.29). The soft-kill needs VIX<15 **and** HY<260 **together**; both remain off, and their directions now **disagree** — which is itself worth watching, since the 7/28-7/29 pattern was all three legs moving the same way at once. Counted literally, not by trajectory.
 
 ---
 

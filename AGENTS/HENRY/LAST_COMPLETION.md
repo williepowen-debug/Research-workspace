@@ -33,6 +33,11 @@
 
 **6. Tape:** gamma all but disengaged (spot **−10pts** below the flip, Net GEX **−$3.6B** vs 7/29's −136/−149pts and −$39.4B/−$59.2B); **VIX 20.66 → 17.29**, contango restored, >23 trigger now 5.7 away; credit **stalled** (HY flat 284, CCC 1,006).
 
+## BOOT-DOC AUDIT — 22 flags delivered, then the fix round applied (both this session)
+Will-directed audit of the boot-read document set → `outbox/2026-07-31_to-PROME_bootdoc-audit.md`. **22 flags: (a) 9 · (b) 9 · (c) 2 · (d) 3.** Will released (a)+(d) the same session; **all (b) items remain unruled and untouched.**
+**Applied:** the inverted `FLOW-HEN-027` read (it was ARMED on "HY tightened AWAY from the 300 bracket" — HY has since widened to **284, moving toward it, 16bp away**) · a "this file is not boot-read" banner + **dated freeze trigger (8/15)** on FLOW.tsv · the dead "pull dynamic levels from VX.tsv" pointer **repointed to the live tool** (it was aiming at rows 38–150 days old) · HAWK→OSPREY/FALCON routing on 4 lines · KB count, calendar-expiry, scripts-inventory and gamma-wall caveats · THESIS mixed-vintage banner + triad as-of stamps · 6 VX relic rows re-flagged **RELIC-MAR2026** · BEIGE_BOOK archived.
+**The finding worth Will's eye:** four of the flags were one class — **a surface that advertises its own liveness while being dead** (a "dynamic — pull from here" pointer, an authoritative-by-reference ledger, an mtime staleness check that self-heals on `git pull`, and a warning banner with no expiry date). Individually invisible; the class is what made them findable.
+
 ## GAPS / STILL PENDING
 - **4 of 5 WALTER signals unprocessed** (scoped spawn) — US heavy strike wave, Vanda retail 88% memory selling, yen-won pre-BOJ carry unwind, Crise breadth 1990/June-2000 analogue. The carry-unwind and breadth ones look live.
 - **`FLOW.tsv` still 38d stale** (KB got 3 fresh rows; VX 19d).
