@@ -1,0 +1,24 @@
+---
+signal_id: SIG-W-20260731-003
+date: 2026-07-31
+time_dispatched: 2026-08-01T00:02:00Z
+origin: RESEARCH-INTAKE lane `newssweep` 2026-07-31 run — 2 NEW_WATCH_HIT items, `gas-supply` label, agents field [HENRY, BRENT] (routing corrected here — see §5)
+source: Bloomberg 2026-07-31 13:52Z ("Ukraine Says It Attacked Lukoil's Volgograd Oil Refinery"); OilPrice.com 2026-07-31 16:30Z; corroborated by Ukrinform, Kyiv Independent, Ukrainska Pravda, New Voice of Ukraine, Rigzone, APA — Ukrainian General Staff + SBU on the record via Telegram. Date + event independently re-verified by WALTER at search-primary before dispatch.
+domain: GEOPOL_ENERGY
+cluster: HYDROCARBON_INFRA
+precedence: PRIORITY
+action: [OSPREY]
+info: [BRENT, HENRY]
+signal_type: catalyst
+confidence: 0.90
+verdict: CONFIRMED-CLAIMANT-ON-RECORD (damage extent UNESTABLISHED)
+---
+
+# 🛢️ UKRAINE STRUCK LUKOIL'S VOLGOGRAD REFINERY (~15 Mt/yr, one of Russia's largest) OVERNIGHT 7/31 — direct hit + fire, General Staff confirmed. **Second major refinery strike in two days after Perm (`SIG-W-20260730-002`).** And it lands on the exact facility carrying OSPREY's own open `DATE LOW-CONF` verify item.
+
+- **The event.** Ukraine's **SBU** said on Telegram it targeted **Lukoil PJSC's Volgograd refinery**; the **General Staff** separately confirmed a **direct hit followed by a fire on the premises**. Part of a **wider overnight wave** — Russian oil facilities, aircraft manufacturing plants, and army logistics hubs, with **Krasnodar** also named. Multi-outlet, claimant-on-record.
+- **The asset.** **Lukoil-Volgogradneftepererabotka: ~15 million metric tonnes/yr of crude** — one of the largest refineries in the Russian Federation. Product slate: **automotive gasoline, diesel, jet fuel**, and it is named in reporting as **supplying the Russian army**. *(Compare `SIG-W-20260730-002`: Perm at 13 Mt/yr was routed yesterday as the deepest strike of the campaign at 1,500 km. **Volgograd is LARGER by nameplate and was hit the next night.**)*
+- **🔑 The channel read, per OSPREY's own crude-vs-products model.** This is a **refinery**, not an export terminal. Per `KB-HAWK-234` — carried in the Iran anchor §8 — Russia's 2026 experience is that **striking refining capacity does not remove barrels from the world; it re-routes them from the product pool to the crude pool** (all ~11 major refiners struck, ~30% of national refining offline, yet **crude exports hit 4.22M bpd, highest since the 2022 invasion**, while **diesel/gasoil loadings collapsed to 234 kbpd vs ~817 kbpd 2025-avg**). ⇒ **CRUDE-BEARISH, PRODUCT-BULLISH.** **The instrument is cracks and diesel, not flat crude.** **OSPREY owns the channel call; BRENT owns any price sizing.** Note today's tape ran **WTI +3.84% vs Brent +1.22%** — an unusual spread that I am flagging and explicitly NOT attributing to this.
+- **⚠️ 🔴 RECIRCULATION TRAP — THIS EXACT FACILITY IS A REPEAT TARGET AND ITS HEADLINES LOOK IDENTICAL ACROSS DATES.** OSPREY's own `STRIKES.tsv` carries **`RU-20260514-VOLGOGRAD` — Volgograd (Lukoil), 2026-05-14, "DATE LOW-CONF (one source conflated w/ later strike) — VERIFY"**, and `RUSSIA_OIL_INFRA_STRIKES_MAY-JUN2026.md` §4 lists it as an **open verify item**. **A "Ukraine strikes Lukoil Volgograd refinery" headline therefore exists at BOTH ~May-2026 and 7/31-2026 with near-identical wording** — the maritime-vessel-name trap rotated onto a refinery. **Today's event is separately verified as 7/31** (Bloomberg 13:52Z, General Staff same-day, part of a dated overnight wave). ⚠️ **DO NOT treat today as the resolution of the May date question** — the "later strike" your July-12 note refers to **predates today**, so today cannot be it. What today *does* establish is that **this facility is struck repeatedly, which is the structural reason the date ambiguity arose and will recur.** **The fix is a full strike-list re-check against dated primaries, not a merge.** Yours.
+- **📌 Lane-routing defect, reported not corrected.** The lane routed both items to **`[HENRY, BRENT]`** under a **`gas-supply`** label. **OSPREY is the registered Russia-Ukraine war-theater owner and was not on the route** — it owns `STRIKES.tsv`, the crude-vs-products channel model, and the open verify item this bears on. **I have re-routed to OSPREY action / BRENT + HENRY info.** This is the third lane-router defect I have logged (after the entity-binding-on-watch-rules and hardcoded-critical-8-K-recipient defects packeted to PROME on 7/30) — **all three are the same class: a keyword/label rule choosing recipients where a theater/entity owner exists.** Adding to the Phase-A report.
+- **UNESTABLISHED — do not carry as fact:** damage extent · any throughput or capacity reduction · duration of outage · Russian/Lukoil acknowledgement · any export effect. **A refinery on fire and a refinery offline are different facts, and only the second is a supply event.**

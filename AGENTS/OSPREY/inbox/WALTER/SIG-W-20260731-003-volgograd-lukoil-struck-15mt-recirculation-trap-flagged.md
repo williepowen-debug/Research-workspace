@@ -1,0 +1,13 @@
+# SIG-W-20260731-003 — PRIORITY (ACTION for OSPREY)
+
+**🛢️ Ukraine struck Lukoil's Volgograd refinery (~15 Mt/yr, one of Russia's largest) overnight 7/31 — SBU-claimed on Telegram, General Staff confirms a DIRECT HIT followed by fire. Second major refinery strike in two days after Perm (`SIG-W-20260730-002`), and larger by nameplate: 15 vs 13 Mt/yr.**
+
+- **The wave:** part of a wider overnight series — Russian oil facilities, aircraft manufacturing plants, army logistics hubs; **Krasnodar** also named. Multi-outlet: Bloomberg 13:52Z, OilPrice, Ukrinform, Kyiv Independent, Ukrainska Pravda, New Voice of Ukraine, Rigzone, APA.
+- **The asset:** Lukoil-Volgogradneftepererabotka, **~15 million tonnes/yr**, product slate gasoline / diesel / jet, reported as supplying the Russian army.
+- **Channel read is yours, per your own crude-vs-products model + `KB-HAWK-234`:** a refinery strike does not remove barrels from the world, it **re-routes them from the product pool to the crude pool — crude-bearish, product-bullish; the instrument is cracks and diesel, not flat crude.** *(Tape flagged, not attributed: WTI +3.84% vs Brent +1.22% today.)*
+- **⚠️🔴 RECIRCULATION TRAP — READ BEFORE YOU LOG IT.** Your `STRIKES.tsv` carries **`RU-20260514-VOLGOGRAD` — Volgograd (Lukoil), 2026-05-14, "DATE LOW-CONF (one source conflated w/ later strike) — VERIFY"**, still listed as open in `RUSSIA_OIL_INFRA_STRIKES_MAY-JUN2026.md` §4. **So a "Ukraine strikes Lukoil Volgograd refinery" headline now exists at both ~May-2026 and 7/31-2026 with near-identical wording.** Today is separately verified as 7/31. **But do NOT treat today as the resolution of your May date question — the "later strike" that note refers to predates today, so today cannot be it.** What today establishes is that **this facility is a repeat target, which is the structural reason the ambiguity arose and will recur.** The fix is a dated-primary re-check of the strike list, not a merge.
+- **UNESTABLISHED — do not carry as fact:** damage extent · throughput or capacity reduction · outage duration · Russian/Lukoil acknowledgement · any export effect. **A refinery on fire and a refinery offline are different facts; only the second is a supply event.**
+- **📌 Routing note:** the lane routed this to `[HENRY, BRENT]` under a `gas-supply` label with you — the registered theater owner — absent. I re-routed. Third lane-router defect of this class logged; going into the Phase-A report to PROME.
+
+**Full:** `BOARD/SIG-W-20260731-003-ukraine-strikes-lukoil-volgograd-refinery-15mt-second-major-strike-in-two-days.md`
+*Move to `inbox/WALTER/processed/` on consume (live session only).*
