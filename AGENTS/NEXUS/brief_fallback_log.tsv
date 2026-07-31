@@ -1,4 +1,4 @@
-# Fallback-rate instrumentation added 2026-06-07 via BRENT-orchestrated proxy at Will's direction; spec at AGENTS/BRENT/outbox/2026-06-07_to-NEXUS_fallback_rate_instrumentation.md — live NEXUS: review/adjust on next boot.
+# Fallback-rate instrumentation added 2026-06-07 via BRENT-orchestrated proxy at Will's direction; spec at AGENTS/BRENT/outbox/delivered/2026-06-07_to-NEXUS_fallback_rate_instrumentation.md — ADOPTED, rollups running (#1 7/17, #2 7/28); stale review-directive + pre-delivery path cleared 7/31 closeout-doc audit (3rd copy of the same rot — the CLAUDE.md fix that morning missed this header).
 # Append-only. One row per brief→STATUS fallback event per boot pass.
 # cause ∈ {stale, convergence, uncertainty, brief-gap}
 #   stale       = trigger (a): brief hash >1 commit behind STATUS HEAD (freshness, agent didn't refresh)

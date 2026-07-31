@@ -1,11 +1,11 @@
 # NEXUS Brief Schema — LOCKED (R3 + amendment 7)
 
-**Status:** Locked 2026-06-07 — schema R3 + amendment 7 (Expected by column). Iterations beyond this route through NEXUS as the canonical owner.
+**Status:** Locked 2026-06-07 — schema R3 + amendment 7 (Expected by column). Iterations beyond this route through NEXUS as the canonical owner. **🟡 One amendment PENDING: #9 compact-variant blessing for utility/single-seam agents (drafted 2026-07-31, decision row 19 — Will review pending; the variant is already consumed-in-practice).**
 **Canonical location:** `AGENTS/NEXUS/templates/NEXUS_BRIEF_SCHEMA.md` (this file) + `NEXUS_BRIEF_TEMPLATE.md` (fleet-rollout template)
 **Canonical brief path:** `AGENTS/<NAME>/NEXUS_BRIEF.md` (agent-owned)
 **Author / pilot:** SAM (schema R1-R3 + iter-2 pilot at `AGENTS/SAM/NEXUS_BRIEF.md` — proves cap-as-measurement works for heaviest real domain)
 **Reviewers:** PROME (R1+R2 green-lit) → NEXUS (R3 consumer review — 6 amendments converged independently with SAM; amendment 7 added Expected-by column)
-**Scope:** required for Tier-1 active agents (CARL, REGINALD, OZK, SAM, RED, BROCK, LIQUID, HENRY, HAWK, BRENT, VIOLET, WALTER). Tier-2 spawn-as-needed agents (LABOR, HERMES, DARWIN, ZHAO, etc.) skip; NEXUS reads their STATUS directly when active. *(⚠️ Scope list is 2026-06-07 vintage, kept verbatim because the schema is LOCKED — the LIVE coverage index is `AGENTS/NEXUS/BRIEFS_MAP.md` [23 briefs as of 7/17; HERMES/DARWIN dropped 6/27; LABOR promoted to the Tier-1 read-set; WALTER/OZK/SHADE remain brief-less by design]. Annotation added 2026-07-22 hygiene sweep; schema mechanics unchanged.)*
+**Scope:** required for Tier-1 active agents (CARL, REGINALD, OZK, SAM, RED, BROCK, LIQUID, HENRY, HAWK, BRENT, VIOLET, WALTER). Tier-2 spawn-as-needed agents (LABOR, HERMES, DARWIN, ZHAO, etc.) skip; NEXUS reads their STATUS directly when active. *(⚠️ Scope list is 2026-06-07 vintage, kept verbatim because the schema is LOCKED — the LIVE coverage index is `AGENTS/NEXUS/BRIEFS_MAP.md`, which carries the count; **no brief count is stated here** [the 7/22 annotation's bracketed "23" had itself rotted by 7/31 — the anti-rot note re-introduced the rot; de-hardcoded per the same-day CLAUDE.md census fix]. HERMES/DARWIN dropped 6/27; LABOR promoted to the Tier-1 read-set; WALTER/OZK/SHADE remain brief-less by design. Annotation added 2026-07-22, amended 2026-07-31; schema mechanics unchanged.)*
 
 ---
 
@@ -16,7 +16,7 @@ The brief exists to serve **NEXUS's exclusive value: cross-agent connective-tiss
 - **Type A (within-domain misses)** — e.g., CARL missed an indicator inside the US-macro domain. **Not NEXUS's job.** NEXUS holding opinions about domains it doesn't own is a stated anti-pattern. Type A is the agent's job, or RED's, or it lives in CALIBRATION's "uncertain about X."
 - **Type B (cross-agent connective tissue)** — e.g., BRENT sees energy deflating, HAWK sees de-escalation, REGINALD sees duration stress; only NEXUS, seeing the whole board, catches that *together* they un-trap the Fed and threaten the TLT thesis. **Type B is NEXUS's actual function.**
 
-**Implication for schema design:** Type B detection is fundamentally a *comparison* problem across agents. Comparison is dramatically easier when 13 inputs share a schema than when they're 13 idiosyncratic files. The brief is optimized for "see the whole board at once" — not for compressing tokens.
+**Implication for schema design:** Type B detection is fundamentally a *comparison* problem across agents. Comparison is dramatically easier when N inputs share a schema than when they're N idiosyncratic files *(the "13" originally written here = the June-2026 design-time fleet size, retained conceptually only — live count lives in `BRIEFS_MAP.md`)*. The brief is optimized for "see the whole board at once" — not for compressing tokens.
 
 **Section priority under cap pressure (load-bearing → scaffolding):**
 
@@ -240,6 +240,7 @@ NEXUS is mid-E-phase with a Mon 6/9 deadline. **Do not interrupt E.** Ratificati
 | 16 | Scope: Tier-1 agents only | NEXUS R3 amendment 8. Tier-2 spawn-as-needed agents skip the brief; NEXUS reads their STATUS directly when active. |
 | 17 | Single SENDING table (no STANDING/THIS-CYCLE split, no drop-rule) | Will arbitration (against NEXUS amendment 4 drop-rule). Refresh discipline at session closeout owns freshness load. Instrument informally — revisit if SAM brief shows stale SENDING rows over 3-4 sessions. |
 | 18 | **CROSS-DOMAIN WAITING FOR: "Expected by" column required** | **NEXUS R3 amendment 7** (raised post-pilot consumer review Sun Jun 7 PM). Lets NEXUS catch waiting-on-waiting deadlock at fleet level. Use date format for hard dates, condition format for open-ended waits. |
+| 19 | **🟡 PROPOSED (Will review pending): COMPACT VARIANT blessed for utility/single-seam agents** | **NEXUS amendment 9, drafted 2026-07-31** (docketed 7/17, consumed-in-practice since). Utility/single-seam agents (WATT, MIDAS, AEOLUS, VULCAN — narrow domain, few live edges) may run a **"curated cross-agent sync" variant**: routing-table-FIRST (per-recipient SENDING rows = the whole body), no §VIEW/CALIBRATION headers required, header stamp + as-of + waiting-for retained. Rationale: for a 1-2-edge domain the full schema is scaffolding around an empty core; the compact form protects exactly the load-bearing section (CROSS-DOMAIN) the cap-priority rule already ranks first. Evidence: MIDAS 7/17 + VULCAN 7/30 graded exemplary-for-consumption in BRIEFS_MAP; ~6 weeks of NEXUS consumption with zero brief-gap fallbacks logged against variant briefs. Constraint: an agent grown to ≥3 persistent live edges or carrying a thesis version reverts to full schema. **Not ratified — NEXUS-drafted as owner; flagged to Will because it changes fleet-facing format (R3 precedent: Will arbitrated the contested amendment).** |
 
 ---
 
@@ -255,10 +256,14 @@ NEXUS is mid-E-phase with a Mon 6/9 deadline. **Do not interrupt E.** Ratificati
 
 ---
 
-## 8. OPEN ITEMS FOR NEXUS RATIFICATION
+## 8. OPEN ITEMS FOR NEXUS RATIFICATION — ✅ ALL RESOLVED (section closed 2026-07-31)
 
-- [ ] Does the schema's section ordering match NEXUS's reading pattern, or should sections be reordered for consumption efficiency?
-- [ ] Are the (b) and (c) fallback triggers parseable for NEXUS, or do they need refinement?
-- [ ] Should `NEXUS_BRIEF.md` live at `AGENTS/<NAME>/NEXUS_BRIEF.md` or under a dedicated NEXUS-owned dir (`AGENTS/NEXUS/briefs/<AGENT>.md`)? Path is structural — NEXUS picks.
-- [ ] Cap ceiling after SAM pilot measurement: confirm whatever the SAM brief lands at, or adjust based on consumption ergonomics.
-- [ ] Should the brief carry a "RECENT THESIS PIVOTS" field (e.g., v1.5 → v1.5.1) to help NEXUS detect whose-view-moved-recently, or is the version stamp + commit hash sufficient?
+*All five June-vintage items were resolved in practice within weeks of writing; the checklist sat open-looking for ~8 weeks (found by the 7/31 closeout-doc audit — same dead-pending class as the PREDICTIONS past-trigger intro). Dispositions:*
+
+- [x] Section ordering — **resolved by practice**: consumed as-is across 20+ passes, no reorder need surfaced; cap-priority rule (decision 8) covers consumption order.
+- [x] (b)/(c) fallback triggers — **resolved YES-parseable**: two formal rollups (7/17, 7/28) instrumented them; zero refinement requests.
+- [x] Brief path — **resolved 6/7**: `AGENTS/<NAME>/NEXUS_BRIEF.md` (agent-owned), locked as decision 6; mechanical sweeps run against it fleet-wide.
+- [x] Cap ceiling — **resolved via SAM pilot**: cap-as-measurement (decision 9), calibrated to the heaviest real domain.
+- [x] RECENT THESIS PIVOTS field — **resolved 6/7 as R3 amendment 1** (decision 11): required single-line in header.
+
+*Live open item (the only one): amendment 9 compact-variant proposal — row 19 above, Will review pending.*
