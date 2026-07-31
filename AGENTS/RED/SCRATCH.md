@@ -30,8 +30,9 @@
 2. **🟠 8/4-8/6: Q2 BDC marks wave** (FSK/OBDC/OCSL/MFIC/ARCC + SBCF) — CHG-027 capitulation-review input, re-dated. Benign + SBCF/EGBN clean → run the pre-registered capitulation review PUBLICLY (conf 72→~67 candidate).
 3. **🟡 Wed 8/12: July CPI** — RED-21 resolves (energy MoM negative, 85%); enforce NON-EVENT status for CHG-028; a soft print is arithmetic, not evidence.
 4. **🟡 Verify:** LABOR's formal KFRC grade lands (firm up my provisional docket resolution) · BRENT/HAWK price/escalation-divergence adjudication (my War 13 carries it unresolved) · EGBN Q2 grade (STILL unlocated, ~9 days now) · Q2 FFIEC MI3 cadence confirm before ~8/15.
-5. **Daily:** HY vs 280 (FT-01 re-armed <280 s=3 — symmetric watch, a fresh fire would be a bull-counter revival) · CCC only DISH-adjusted (artifact-guard from 7/31 obs) · VIX vs 20/23 · USDJPY vs 155 (WL-12, s=3).
-6. **~10/7:** pre-write the Sept-CPI core decision tree for Wed 10/14 (CHG-028's real test).
+5. **🔴 SKEW <140 clock 2-of-4 LIVE (Phase-2 catch: 139.55 [7/29] / 139.90 [7/30], masked by a stale 145.95 anchor)** — pull the 7/31 close first thing next boot; 4td sustain (~8/4) → execute the pre-registered Acute −2 AS WRITTEN, no re-litigation. ML-RED-126.
+6. **Daily:** HY vs 280 (FT-01 re-armed <280 s=3 — symmetric watch, a fresh fire would be a bull-counter revival) · CCC only DISH-adjusted (artifact-guard from 7/31 obs) · VIX vs 16 (FT-06 0.6 away, DIET-guard) / 20 / 23 · USDJPY vs 155 (WL-12, s=3).
+7. **~10/7:** pre-write the Sept-CPI core decision tree for Wed 10/14 (CHG-028's real test).
 
 ## OPEN THREADS
 - **Guard 3 (7/29 VIX-close attribution, Fed vs Saudi co-belligerency) still unresolved** — needs BRENT/HAWK/OSPREY kinetic-trajectory input; my Managed −4 stays haircut-hedged until apportioned.
