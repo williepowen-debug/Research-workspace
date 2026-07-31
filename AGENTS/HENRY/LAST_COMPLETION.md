@@ -1,5 +1,5 @@
 # HENRY — Session Closeout · 2026-07-31 ~11:00–11:40 ET
-**Session:** PROME-spawn (scoped) — HEN-36 formal resolution + ECI pre-commitment grade · **STATUS: ✅ DONE**
+**Session:** PROME-spawn (scoped) — HEN-36 formal resolution + ECI pre-commitment grade · **STATUS: ✅ DONE** *(one 🔴 claim retracted in-session after PROME challenge — see WILL_NEEDS #1)*
 
 ---
 
@@ -10,9 +10,9 @@
 | File | What |
 |---|---|
 | `workbook/PREDICTIONS.tsv` | HEN-36 → **RESOLVED-CONFIRMED** + full 7/31 resolution block; HEN-37 + wage-leg drop block; HEN-42 + discriminator/confidence-cut block |
-| `STATUS.md` | New 7/31 section; header re-written; VOL REGIME, CREDIT, ACTIVE THRESHOLDS (13 rows), ACTIVE PREDICTIONS, catalyst stack, THESIS Axis 2, BOTTOM LINE all refreshed. 7/29 + 7/6–7/28 sections compressed → **244 lines, under the 250 cap** |
+| `STATUS.md` | New 7/31 section; header re-written; VOL REGIME, CREDIT, ACTIVE THRESHOLDS (13 rows), ACTIVE PREDICTIONS, catalyst stack, THESIS Axis 2, BOTTOM LINE all refreshed. 7/29 + 7/6–7/28 sections compressed → **245 lines, under the 250 cap** |
 | `workbook/KB.tsv` | +3 rows — ML-HEN-143 (AMZN primary), ML-HEN-144 (ECI Q2), ML-HEN-145 (FOMC-day term-premium curve) |
-| `LESSONS.md` | +2 entries — the decorative-magnitude-band calibration lesson; the don't-use-"my-criterion-was-mis-specified"-as-an-escape-hatch lesson |
+| `LESSONS.md` | **+3 entries** — the decorative-magnitude-band calibration lesson; the don't-use-"my-criterion-was-mis-specified"-as-an-escape-hatch lesson; **and the detector-hit-is-a-pointer-not-a-finding lesson from the retraction below** |
 | `CLAUDE.md` | **PROME Phase-2 embed DONE** — 3 pointer rows into IDENTITY (macro-not-positions · vol-broadcast-is-VIOLET's · dashboard artifact is LIVING/same-URL) |
 | `MEMORY.md` | Session notes rewritten (91 lines, under cap) |
 | `board_log.tsv` | +1 row — SIG-W-20260730-003 `acted` |
@@ -58,7 +58,7 @@ Single pathspec-scoped commit for `AGENTS/HENRY/` this session — hash in git l
 **Stagflation mix:** now **two legs, not three** — the wage leg is dropped on ECI. Real private wages −0.4% YoY is disinflationary on the demand side. The visible inflation impulse is employer benefits (+3.8%, health +6.0%) and capex input costs (memory, TSMC +10%) — neither is a wage-price spiral.
 
 ## WILL_NEEDS
-1. **🔴 Time-critical, needs PROME routing (I could not write outside my dir):** **SPX 7,448 sits inside VIOLET's live gate-at-risk band (>~7,455)** on her `TRY-VIOLET-VIXCS` stand-down (iii). She should see it before the close.
+1. **🔻 RETRACTED — and I'd rather you see the error than a clean summary.** I opened this closeout with a 🔴 "route before the close" claim that **SPX was testing VIOLET's live kill line and her thesis doc carried a stale number.** PROME challenged it; I verified at the primaries; **both halves were false.** `TRY-VIOLET-VIXCS` had **exited 7/30 ~09:50 ET, TERMINAL, −$111.60** — no live position — and `VIX_THESIS.md:32` is the changelog entry *recording* the re-base, i.e. her file was correct. **I read a detector's output instead of reading the line, on the one hit that made my own session look important, while correctly reading the other hit in the same paragraph.** Retracted inline on every surface. Nothing needs your action; the tape data is unaffected.
 2. **No decision required from you on HEN-36** — it resolved, it is closed, and I am not proposing a trade off it. The honest read is that a confirmed mechanism with a falsified expression is **not a position**; it is a reason to look at the credit side.
 3. **One thing worth your eye:** the four largest capex spenders in the market just printed **−83% aggregate FCF**, and equity rewarded the two with the best cloud growth *regardless of how they financed it*. Credit is charging record spreads for those same names. **Somebody is wrong, and the resolution of that is the next real trade on this desk.**
-4. **Flagged against myself, not buried:** my registered capex magnitude band was 2.3× too low, my USD/JPY threshold rows read the carry unwind backwards, and my HEN-42 criterion was under-specified for a mixed catalyst. All three are written into LESSONS/STATUS rather than quietly fixed.
+4. **Flagged against myself, not buried — four now:** the registered capex magnitude band was 2.3× too low; my USD/JPY threshold rows read the carry unwind backwards; my HEN-42 criterion was under-specified for a mixed catalyst; and the VIOLET false positive above. All four are written into LESSONS/STATUS rather than quietly fixed.
