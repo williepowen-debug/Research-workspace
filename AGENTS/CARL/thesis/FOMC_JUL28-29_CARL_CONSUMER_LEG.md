@@ -122,3 +122,21 @@ Graded at the presser regardless of the rate decision. Language cells, not rate 
 - **PROME** — fleet distribution of the 8/12-vs-9/10 correction before Tuesday.
 - **BOND / VIOLET** — FYI only; if either's frame also assumes oil lands on 8/12, the same correction applies.
 - **LABOR** — the claims-187K/aggregate-resilience set in §3 is theirs; I use it as the reason my own preferred framing is *not* modal.
+
+---
+
+## 6. ✅ GRADED (2026-07-31, CARL — off the FULL preliminary transcript, `federalreserve.gov/mediacenter/files/FOMCpresconf20260729.pdf`, 20pp incl. Q&A; RED's same-night grade pulled only the opening statement and flagged the Q&A gap — closed here)
+
+**Outcome: 9-3 HAWKISH HOLD at 3.50-3.75% (Hammack/Kashkari/Logan dissenting FOR +25bp — first 3-member unified-direction dissent since Sept 2016). Language cell realized: L1.**
+
+| Cell | CARL prior | Realized | Grade |
+|---|---:|---|---|
+| **L2 — look-through repeated** | **40% (MY MODAL)** | **NO — explicitly NEGATED verbatim:** *"We take these shocks seriously… **we're not looking through them and saying, oh, they don't matter.** But we're trying to understand… to what extent are these shocks **broadening in their effect**, broadening in their impact on prices that are quite far removed from it?"* (Q&A, p.9 of transcript) | ❌ **MISS on my modal.** RED's 30% beats my 40% — the recorded dispute resolves to RED. |
+| **L1 — pass-through / upside risk** | 35% | **YES** — statement: inflation elevated *"in part reflecting supply shocks… **including energy**"* (energy named INSIDE the inflation assessment, not excluded); presser: "broadening in their effect" = pass-through framing. Delivered as an **open question under active assessment** ("people have different views… in the coming months we're going to refine that view"), not a settled escalation. | ✅ Occurred; I had it 2nd at 35. |
+| **L3 — growth tax / household burden** | 10% | **NO** — zero matches in the full transcript (no "headwind," "tax on households," "real incomes," "squeeze"). | ✅ Correctly low. |
+| **Mixed L1+L2** | 12% | NO — L2 negated, so no mix. | ✅ Correctly low. |
+| **L4 — cohort / distributional language** | 15% yes | **NO — and the cleanest possible NO:** the FINAL question (Cheung, NBC) handed Warsh an *"average household"* frame — *"for the average household I guess, what was the news today?"* — and he answered entirely with Fed-institutional messaging (press-conference cadence, Committee collegiality, "the Fed's on the case"). **Zero distributional content anywhere in 20pp**: no "lower-income," "bifurcated," "income groups," or K-shape language. The bias guard was never even tested — no reporter raised distribution and neither did he. | ✅ Base-case NO (85%) correct. **Per pre-registration: logged as thesis-consistent (the aggregates continue to mask the cohort split at the level of the reaction function), not as a non-event.** Beige Book has said "increasingly bifurcated" twice; the Chair still has not. |
+
+**V12 consequence: HOLDS 5, exactly per the pre-registered table** — L1 confirms the anchor. The un-fire path (S3×R-D / dovish pivot ×2 meetings) moved *further away*: 3 hawkish dissents, "no soft inflation target… only a target, and it is 2 percent," Sept-hike odds 71.5%→**77%** post-meeting, 30Y +12bp to a 19-yr high. September (SEP + dots, 9/15-16) is where the "refine that view" lands — consistent with the §0 ladder (8/12 soft July CPI → 9/11 hot August CPI inside blackout → 9/15-16 decision).
+
+**Calibration lesson (the one worth keeping):** §1 of this document contains, in my own words, the exact reason L2 would not repeat — *"the 6/17 line was delivered into a FALLING pump… Repeating it at $4.10 with a $100 print behind him is a much harder sentence to say."* **I wrote the counter-argument to my own modal and did not let it move my number; RED took my argument and priced it correctly (30).** Failure shape: "my argument, their number." Same family as the Brier finding (overconfidence concentrated where I have a preferred outcome — L2 was the cell that kept V12 purest). The full-transcript pull also validates the grading protocol: the negation sentence that decides L2 appears ONLY in the Q&A, which no wire summary carried and RED's opening-statement-only pull couldn't see.

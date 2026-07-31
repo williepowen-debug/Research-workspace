@@ -8,7 +8,22 @@ Tracks all changes to THESIS.md and PREDICTIONS.tsv. Reverse chronological. Each
 
 ---
 
-## 2026-07-24 (CLOSEOUT) — Will's rulings recorded · fleet DATE CORRECTION adopted · my hike-now inference WITHDRAWN on RED's rejection. No score change; 51/70 holds
+## 2026-07-31 (same session, ledger changes) — CRL-14 55%/STUCK (Will-approved) · CRL-13 window compressed · sleeve +2 legs under CRL-20 · HHDC re-dated to 8/4-8/11
+
+- **CRL-14: 65→55%, OPEN→STUCK** (STUE 7/25 packets, Will-approved; applied 7/31). Resolvability defects (270-day default clock puts any Jul-1-caused default ~Jul 2027, past the window; the AFT litigation is in a **settlement stay** that forecloses the attribution instrument) are booked in **Status**, not Confidence — only the ~10pt genuine world-update (wave-1 no-spike + the ~1.3M/qtr cure channel) is priced. **Retracted:** the "May 28 status conference" (no such docket entry — aggregator artifact). **Open Will decisions:** retire+replace with a measurable successor (~50%, Q3-Q4 2027, non-litigation instrument); Doc 54 PACER pull (~$0.30).
+- **CRL-13: notes updated** — notice window compressed ~3mo (all notices by 12/31/26; auto-enrolls to ~Mar 2027); Oct-1 first-tranche framing unchanged; mildly supportive. Confidence held 75%.
+- **CRL-05: breach window re-dated** — HHDC prints **8/4-8/11** (PROME cadence case), not "~8/15" (unconfirmed Saturday). Frozen card untouched; two dated addenda added (window + pre-registered interpretive cautions: cascade ≤⅓ of gap per STUE/DEWEY; stock-vs-flow divergence definitional, cuts both ways). **Fitch ATR refresh pulled forward to 8/3.**
+- **Paper sleeve: PS-0006 (short SYF) + PS-0007 (short COF) opened under `pred_id=CRL-20`** — unblocked by REGINALD's 7/25 boundary ruling (surface split adopted; standing notify-rule live). ALLY = judgment non-entry (CRL-21 at 25%, NCO leg dead = antecedent too weak). **TERRY's antecedent-diversity gate adopted**: scoring needs N≥10 closed AND ≥3 distinct pred_ids.
+- **KB-085 → STALE** (HAWK FLOW-15 retraction: the Gulf→Taipower→TSMC→electronics-CPI chain falsified for 2026; successor is a low-probability tail).
+- Data integrated same session (no prediction moves): ECI Q2 (KB-364), June PCE savings 2.7% (KB-369), UMich July final, claims refresh, CRMT (KB-365), CVNA Q2 (KB-366), DEWEY C4 phantom-debt revision (KB-367 — CLAUDE.md band updated), MARCO FL min-wage correction (KB-368 — Sep-30 docket row).
+
+## 2026-07-31 — FOMC 7/28-29 GRADED (2 days late; fleet offline for the print) — L2 modal MISSED, V12 holds 5. No score change; 51/70 holds
+
+**What:** Graded the pre-registered language priors in `thesis/FOMC_JUL28-29_CARL_CONSUMER_LEG.md` (§6 appendix added) off the **full 20pp preliminary presser transcript** (federalreserve.gov PDF, incl. Q&A — RED's same-night grade used the opening statement only and flagged the gap; closed here).
+
+**Outcome:** 9-3 hawkish hold; **L1 (pass-through/broadening) realized**. My modal **L2 look-through 40% ❌ MISSED — negated verbatim in Q&A** ("we're not looking through them and saying, oh, they don't matter"); RED's 30% wins the recorded dispute. L3 (10%) / mixed (12%) / **L4 cohort language (15%)** all correctly low — **zero distributional content in 20pp, including a declined "average household" final question**; L4-NO logged as thesis-consistent per pre-registration. **V12 HOLDS 5** per the pre-registered table (L1 confirms the anchor; un-fire path receded: 3 hawkish dissents, "no soft target," Sept odds 77%, 30Y 19-yr high).
+
+**Calibration (logged for 7c):** "my argument, their number" — §1 of my own leg doc contained the exact reason L2 wouldn't repeat (6/17's look-through was delivered into a *falling* pump) and I priced L2 modal anyway; RED used my argument at the right weight. Same overconfidence-where-I-have-a-preferred-outcome family as the Brier findings. KB-CARL-363.
 
 **Five inbox items had arrived mid-session and were caught only because the closeout sweep re-listed the inbox** — the exact lesson logged earlier in the same session. Two were time-sensitive and one contained Will's decisions.
 

@@ -1,87 +1,79 @@
 # CARL SCRATCH
-**Last session:** 2026-07-24 (Fri) ~14:00–21:00 ET — long Will-directed session, 7 passes
-**Type:** 6-day-gap catch-up → then Will-directed build-out. **No score change all session: 51/70 holds.** THESIS **v2.6.3**.
+**Last session:** 2026-07-31 (Fri) ~16:25–18:15 ET — 7-day-gap catch-up; FOMC graded, inbox drained (14), 7/31 prints integrated, BOARD 77 cleared, 8 ABS 10-Ds reviewed. **No score change: 51/70 holds.** THESIS v2.6.3.
+
+**PRIORITY-1:** **The ~10-day resolution window is OPEN: V5 3→4 decides at Sunday's 8/3 close (packet ready, WILL DECISION — 2 FRED weeks >$4.00 already printed); then Fitch ATR refresh 8/3 (BEFORE the HHDC; the Mar 6.11% print is anchored on the seasonal LOW per OTTO's panel); then the Q2 HHDC prints INSIDE 8/4-8/11 (pin exact date from the NY Fed advisory — check every boot) and grades by the FROZEN CARD + its 7/31 addenda, with CRL-21's capital commitment riding the cells per Will's standing ruling.**
 
 ---
 
-## 🔴 PRIORITY-1 — FOMC Tue-Wed 7/28-29. The leg is WRITTEN; Tuesday's job is to EXECUTE it, not rebuild it.
+## CHANGES SINCE LAST SESSION (7/24 → 7/31, what moved while offline)
+- **FOMC 7/28-29:** 9-3 hawkish hold, 3 unified hawkish dissents, Sept odds 77%; VIX 20.66 first non-absorbed print (round-tripped by 7/31); US+Saudi strikes on Iran-backed Iraq sites same window (Guard-3 confound, RED). 30Y 19-yr high.
+- **Gas:** FRED $4.096 w/e 7/27 = 2nd consecutive week >$4.00, rising. Brent faded $100.19 → $90.12 **while the war widened** (BRENT/HAWK adjudicating the divergence). Diesel $5.353.
+- **7/31 prints:** ECI Q2 (real private wages −0.4% YoY ×3 qtrs — AHE composition VALIDATED); June PCE (savings **2.7% = lowest since Jul-2022**; real DPI YoY back **positive** +0.5%; core eased 3.3%); UMich July final 55.2 (rose through the $4 cross; 5-10Y flat 3.3%); claims 197K (MA falling ×5 — still easing).
+- **HHDC re-dated:** ~8/15 was an unconfirmed Saturday → **window 8/4-8/11** (PROME + WALTER independently).
+- **CRMT:** 7/27 "defaulted on Silver Point loan" → **CORRECTED 7/28: waived covenant breach**, going-concern doubt, relief expires ~early Sept. Russia diesel ban **EXTENDED** (RED sweep — weld leg-1 confirmed).
 
-`thesis/FOMC_JUL28-29_CARL_CONSUMER_LEG.md`. **Consume RED-20 / BOND's falsifier map / VIOLET's tree — do NOT build a fourth rates tree.**
-- **Pre-registered language priors (grade regardless of the rate decision):** L1 pass-through **35** · **L2 look-through 40** *(RED says 30 — both on the record, grade both)* · L3 growth-tax **10** · mixed **12** · **L4 cohort language 15%**, scored independently.
-- **L4 is the CARL-specific tell:** does Warsh bring *distributional* language into the presser himself? The Beige Book has said "increasingly bifurcated" twice; the Chair has not. **Bias guard is pre-registered** — counts only in his own framing, about US household distribution. Don't loosen it on Wednesday.
-- **Listen to the presser or read the full transcript — never a wire summary.**
-- ⚠️ **§0.2 is WITHDRAWN** (RED rejected it on sequencing and was right): the correction *raises* hold-and-point-at-September; it does **not** strengthen hike-now. Do not re-introduce it.
+## WHAT HAPPENED (this session)
+1. **FOMC leg GRADED off the full 20pp transcript** (leg-doc §6, KB-363): L1 realized; **my L2-modal 40% ❌ MISSED** (RED's 30 wins; "my argument, their number" lesson → MEMORY); L4 zero incl. a declined "average household" question = thesis-consistent NO. **V12 holds 5.**
+2. **Inbox drained 14+1:** REGINALD boundary RULING (take SYF/COF/ALLY) → **sleeve PS-0006/0007 short SYF/COF opened under CRL-20**, ALLY judgment non-entry, TERRY antecedent gate adopted (≥3 distinct pred_ids to score); **CRL-14 → 55%/STUCK** (Will-approved; "May 28 conference" RETRACTED — settlement stay); CRL-13 window compressed; HAWK FLOW-15 retraction (KB-085 STALE); MARCO pair (FL wage = min-wage artifact; **Sep-30 $15 step docketed**); DEWEY C4 phantom-debt revised down (~$195B central; CLAUDE.md updated; Duarte null → handoff_RED); PROME embed CONFIRMED + CVNA read delivered (reply packet in PROME inbox).
+3. **7/31 prints integrated** (KB-364/369): AHE counter-signal RETIRED (ECI); savings-floor break; honest counters logged (real DPI positive, UMich up).
+4. **BOARD 77 dispositioned** (6 INTEGRATED / 3 INFO_ONLY / 68 REFERRED; 4 clerk-proposal overrides incl. the CRMT correction pair); 0 backlog, 0 dupes. **8 ABS 10-Ds reviewed (KB-370): clean null** — no breaches; AMCAR 2024-1 intact, Class E now full-coupon; 2 "AmeriCredit" CIKs were actually GM PRIME (abs_monitor labeling defect).
+5. Sleeve marked (net +$9.43 — trade-down longs ALL green, short-XLY −6.3%). Docket: FOMC + ABS-check pruned; HHDC/Fitch re-dated; FL min-wage added. Boot-spec 7c `$NF` drift fixed in CLAUDE.md.
 
-**PRIORITY-2 — ~8/3: V5 3→4 decides.** ✅ **Will ruled: decide at the sustained-window close per the 7/16 card, no early bump.** Gas $4.105 on 7/24 — 4 days above $4.00 and rising.
-
----
-
-## ⚠️ CARRY FORWARD — corrections that are easy to lose
-1. **July CPI prints Wed 8/12, NOT 8/13. August CPI Fri 9/11, NOT ~9/10. Sept CPI 10/14.** (RED S25b off the OMB PFEI schedule; `bls.gov` 403s even with a browser UA — use the OMB PDF with `pdftotext -layout`.) **September's FOMC carries an SEP + fresh dots; July's does not. The August CPI lands INSIDE the Fed blackout (opens 9/5).**
-2. **The 8/12 print will be SOFT on gasoline by arithmetic (~−2.6% MoM)** — June averaged $4.050 running downhill, July ~$3.95. **A soft print is a base effect, NOT a mechanism failure.** Pre-registered so neither I nor RED can score it as falsification. **The real oil test is 9/11.** Three independent derivations (CARL + HENRY off gasoline; **RED off spot Brent — theirs is load-bearing, it carries no retail-lag assumption**).
-3. **Never blanket-replace a date across files** — my first pass silently rewrote RED's verbatim quote inside my own doc. The quote stays wrong; the correction goes beside it.
-
----
-
-## ✅ WILL'S RULINGS (proposal loop closed, Rule 10)
-- **CRL-21 position-action → DEFERRED to the ~8/15 HHDC, decided by the frozen card's cells.** D → full commitment (trim 25% + duration); C → duration-half only; A/B → hold to the ~Oct vintage leg. TERRY constructs. Aug-21 expiries (OZK ×5, KRE ×3, WAL ×1) handled in the same post-8/15 session. **Recorded as a dated ADDENDUM to the frozen card — its cells now move capital, not just confidence.**
-- **V5 3→4 → decide at the ~8/3 window close.** No early bump.
-- **Paper sleeve → APPROVED** (Phase 1, no capital) · **CRL-22 v3 → delegated**, executed · **V2 trigger re-spec → approved**, executed (v2.6.3).
-
----
-
-## WHAT HAPPENED (7 passes)
-1. **Catch-up:** CRL-26 ✅ CONFIRMED (gas crossed $4.00); CRL-08 re-armed 28→45 (Brent settled $100.19); **CRL-24 ❌ MISSED**, the 4-name cluster went **0-for-4** → six confidence cuts; 9 inbox drained; **46 BOARD signals** dispositioned.
-2. **HHDC card FROZEN 22d early** — writing it caught that the downgrade was armed against an instrument (HHDC) that publishes no subprime series.
-3. **CRL-22 → v3:** the culling *causes* the margin improvement, so every margin-deterioration spec was anti-correlated with its own mechanism.
-4. **POP refreshed → demoted;** found a parent↔sub-agent **monotonicity bug** (P06 >5% @50 vs CRL-15 >6.5% @65).
-5. **Fitch ATR refreshed** → V2's trigger was **seasonally mis-specified** (fires every spring on tax refunds) → re-specced, **v2.6.3**.
-6. **Brier audit run** — 0.300/0.340, **NEGATIVE skill**, +28.9pp overconfident. One surgical cut (CRL-07 85→40).
-7. **Tooling:** `consistency_check.py` now runs **A/B/D/E/F/G** at boot; `brier_audit.py` built.
+## STATUS CHANGES
+| Item | Change |
+|------|--------|
+| CRL-14 | 65% OPEN → **55% STUCK** (moved to Resolved/parked table) |
+| Savings row | 3.0% "stabilized" → **2.7% floor-broke** 🔴 |
+| AHE row | 🟠 counter-signal → 🔴 **composition-contaminated (ECI)** |
+| Real DPI row | 🔴 YoY-negative → 🟠/🔴 **YoY positive (aggregate) vs ECI negative (composition)** |
+| Subprime auto row | + OTTO 7-deal panel: trough over, broad not insulated, 3-population framing |
+| CRMT row | NEW — going-concern under covenant waiver (NOT default), ~Sept checkpoint |
+| ABS Structural row | + 7/31 clean-null review; "imminent rating actions" framing retired |
+| FOMC row | Jun-17 → **Jul-29 graded** (L1; V12 holds 5) |
+| UMich rows | July final 55.2 / 1Y 4.2 / 5-10Y 3.3 flat |
 
 ---
 
 ## NEXT SESSION SHOULD
 
-### IMMEDIATE
-1. **Execute the FOMC leg** (PRIORITY-1); grade the language priors.
-2. **Mark the paper sleeve** (`book/PAPER_SLEEVE.tsv`) — Check F/F5 flags it if skipped. **Never delete a losing row.**
-
-### OWED — read but NOT integrated (KB-362 — do not mistake "read" for "handled")
-3. **LABOR:** *"if your income core uses AHE +3.5% as wage growth it is OVERSTATING what a continuing worker earns"* — composition-contaminated by the ~720K labor-force exit. **STATUS currently carries AHE as a mild cost-squeeze COUNTER-signal; if LABOR is right, that counter is weaker than logged and the real-wage K-shape may understate the squeeze.** Clean test: **ECI Q2, Fri 7/31** (composition-controlled by construction).
-4. **DEWEY (ACTION, CRL-05):** C2 score-cascade — *does* student-loan delinquency **cause** the CC 90+ breach? `AGENTS/DEWEY/output/2026-07-24_c2-score-cascade-cc-breach-attribution.md`. **Read before 8/15** — if causal rather than co-moving, the card's discriminator cells may need a causal caveat.
+### IMMEDIATE (next 24-72h — the window)
+0. **⚠️ STUE ran CONCURRENTLY ~17:12 on 7/31 and its files (`sub_agents/STUE/CLAUDE.md`, `STATUS.md`) are modified-but-UNCOMMITTED — deliberately NOT swept into the 7/31 closeout commit (possibly mid-session; rule #2).** Sweep them at next boot if the session is done (no SV-07-31 was filed). Its two headline facts are already independently verified + integrated at parent: **Sweet 9th-Cir DECIDED 7/17 (DOE lost unanimous, >170K relief stands)** → STATUS row updated; **HHDC modal Tue 8/4** (1st-Tuesday base rate ×4 yrs; advisory posts T-5-to-T-7). Its MOHELA 7×/50× wait-ratio re-sourcing note is worth reading (a correction-of-a-correction with a good lesson).
+1. **Sun 8/3: V5 3→4 decision packet to Will** at the window close (condition reads met as of 7/31 — verify the 8/3 FRED weekly first).
+2. **Mon 8/3: Fitch ATR refresh** (V2's instrument, Jan-vintage; the Mar print is the seasonal LOW — OTTO panel context in STATUS row) + **first EIA diesel print** of the 8/3-8/17 lag experiment.
+3. **Every boot: check for the NY Fed HHDC media advisory** (newyorkfed.org/newsevents/mediaadvisory) — pin the exact date in the 8/4-8/11 window; the frozen card + CRL-21 capital ruling grade on it.
+4. **Read DEWEY C2 (`AGENTS/DEWEY/output/2026-07-24_c2-score-cascade-cc-breach-attribution.md`) BEFORE the HHDC** — its cautions are already pre-registered on the card (addendum #2) but the full report is unread.
 
 ### DATED
-5. **~8/3** V5 window closes · **8/3–8/17** diesel natural experiment, peak ~8/10 (grade **timing**, not magnitude — contaminated by the insurance step) · **~8/10 Fitch ATR** (the actual V2 resolver; V2 still rests on a Jan print) · **8/12 July CPI** (pre-registered soft) · **~8/15 NY Fed Q2 HHDC — the most load-bearing print on the board** · **8/21** Iran waiver + expiry cluster · **9/11 August CPI** (the real oil test).
+5. **~8/5** Treasury Phase 1 verification (STUE) · **8/7 July NFP — V16 re-arm resolver** · **8/12 July CPI (pre-registered SOFT — do not grade pass-through)** · **~8/15 Russia-ban test** (ban already EXTENDED per RED — grade the crack vs 5-yr seasonal norm) · **8/20-21** Affirm FQ4 + Iran waiver expiry (CRL-08 45% live tail) · **~early Sept: CRMT covenant-relief expiry** (dated checkpoint, REGINALD co-owns).
 
-### AWAITING
-6. **REGINALD** on the SYF/COF/ALLY surface split — blocks the purest CRL-27 expression. Silence past their next session reads as agree.
-7. **TERRY** on whether the sleeve's `pred_id` gate reproduces PAT-028's zero-volume problem.
+### AWAITING WILL
+6. **CRL-14 retire+replace** (successor ~50%, Q3-Q4 2027, non-litigation instrument — re-base trap pre-flagged) + **Doc 54 PACER pull (~$0.30)** — the live discriminator on MOHELA settling.
+7. V5 (item 1) and, when the HHDC lands, the card cells fire per the standing 7/24 ruling (TERRY constructs; Aug-21 expiries same session).
 
 ### BACKLOG
-8. Re-run Brier at N≈20 · add an ex-ante confidence column (only 5/10 recoverable) · re-validate Check G tiers at N≈20 · Check C declined (reasoning in spec) · container-freight AEOLUS reconcile (KB-344).
+8. CPI component-vol REBUILD from BLS (SIG-725-016 — cite nothing until rebuilt) · Part D lead verify (DOC/POLLY) · AMCAR Apr-vs-Jun cert pull + abs_monitor GMCAR label fix · Brier re-run at N≈20 · container-freight AEOLUS reconcile (KB-344).
 
 ---
 
-## ⚠️ RED HAS PRE-REGISTERED A RATIONALIZATION TEST AGAINST ME — accepted
-> *"The test isn't today's decision, it's whether the arming is a **commitment** or a **queue**."*
+## OUTBOX (0 new; 6 stale Apr-17 signals deferred per messaging-overhaul direction)
+## INBOX (0 unprocessed — 14 packets + 1 WALTER signal drained 7/31 → processed/)
 
-If ~8/15 comes in benign and I nominate **yet another instrument** rather than moving, RED files a scored rationalization finding. **Accepted — and I re-pointed their grading condition at instruments that actually exist** (Fitch ATR ~8/10 → V2; CC 90+ on the HHDC → CRL-05/V1), because theirs named V2-on-HHDC, which cannot fire.
-
-## CALIBRATION — the load-bearing lesson
-I hit *"established trend reaches a level"*; I miss *"series turns or crosses a threshold by a date."* **No conjunctions without pricing them as conjunctions.** Threshold calls on revision-prone series (JOLTS/NFP/hires) → ≤40% or don't register. **Check G now gates these at registration** (tier-1 HARD on new rows) — because reading the taxonomy at boot demonstrably did not stop CRL-24.
+---
 
 ## WORKBOOK HEALTH
 | File | Size | Note |
 |---|---|---|
-| STATUS.md | **250** | at cap; 16 superseded rows retired this session |
-| KB.tsv | **362** | +18 (345–362) |
-| PREDICTIONS.tsv | 28 | 16 OPEN · CRL-27 new · CRL-24 MISSED / CRL-26 CONFIRMED |
-| CATALYSTS.tsv | 20 | 0 past-due; CALENDAR synced; dates corrected |
-| BOARD_LOG.tsv | 568 | 0 backlog |
-| PAPER_SLEEVE.tsv | 9 | 5 legs OPEN, marked 7/24, net −$13.37 (entry slippage only) |
-| MEMORY.md | 69 | under the 100 cap |
+| STATUS.md | 247 | under cap |
+| KB.tsv | 368 | +8 this session (363-370; 365 corrected in place) |
+| PREDICTIONS.tsv | 28 | 15 OPEN · CRL-14 STUCK |
+| CATALYSTS.tsv | 20 | 0 past-due after prune/re-date |
+| BOARD_LOG.tsv | 645 | 0 backlog, 0 dupes |
+| PAPER_SLEEVE.tsv | 11 | 7 legs OPEN, marked 7/31, net +$9.43 |
+| MEMORY.md | 73 | under 100 cap |
+
+---
 
 ## URGENT
-- **FOMC Tuesday.** Leg written — execute, don't rebuild.
-- **~8/15 HHDC decides V2/CRL-05, CRL-21's capital commitment, AND whether RED scores me for rationalization.** Card is frozen: **do not edit it, only append dated addenda.**
+- **Sunday 8/3 = V5 decision. The HHDC can land as early as Tuesday 8/4.** Fitch ATR must be refreshed before it.
+- **The frozen card + 7/31 addenda govern the HHDC grade — do not edit the card, only dated addenda.** RED's rationalization test is live on it.
+- **"CRMT defaulted" is retired language — covenant waiver, ~Sept expiry.** Do not let it re-enter synthesis.
