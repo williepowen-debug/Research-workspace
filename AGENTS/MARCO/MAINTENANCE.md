@@ -48,6 +48,24 @@
 
 ## TIER 2 — stale state / single-source-of-truth
 
+### ✅ T2-F · VX.tsv stale-vector sweep + boot guard — DONE 2026-07-31 (backlog carried s18→s19)
+*(37 of 57 vectors were >60d, 25 of them BREACHED/CRITICAL. Triaged by STATUS, not age — the rule s18 wrote after two stale rows were cited and were wrong in **opposite** directions.)*
+
+| Disposition | n | What |
+|---|---|---|
+| `FROZEN 2026-07-31` | 17 | The **border-fiscal research area** (ELP/NOG/MCA/PHR/BDR/CAL/SFE) — untouched since founding, Feb 2026. Banner carries date + why + where truth lives, per `STATE_VOCABULARY.md` class 1 |
+| `RETIRED 2026-07-31` | 1 | **STR-01** — `PENDING`/"BASELINE NEEDED" since 2026-02-23 and never built (STR/CoStar paywalled). Not a stale value, an **unbuilt vector** |
+| **CORRECTED** | 1 | **2.02** carried the **retracted "2.2M self-deportations" attributed to CBO** — the founding error corrected fleet-wide in v2.6 on **7/2** — and kept asserting it for 4 more months, at HIGH/BREACHED |
+| **REFRESHED** | 1 | **H2A-01** → live OFLC (254,688 certified FY26-thru-Q2), off the puller repaired this session |
+| stale-by-design | 6 | Annual Census/CBO cadence (2.04, 3.04, TX-04, SBMD-01, CTI-01) + **CA-02 NO PRIMARY** (NAWS + Ag Labor Survey both canceled — same class as 2.05) |
+| `[STALE]`-marked | 10 | Live domain, unrefreshed — vintage stated per the discipline overlay |
+
+- **The finding worth keeping:** **2.04 held the CORRECT CBO figure (−290K to −525K) the entire time 2.02 and the thesis spine were asserting a wrong one *attributed to CBO*.** The right number was one row away from the wrong one, in MARCO's own ledger, for six months. Same class as the s18 lesson — the ledger had the answer and nobody opened it. **A load-bearing correction must sweep the vector ledger, not just the narrative surfaces** ([[finding_verification_correction_downstream_propagation]]).
+- **Freeze does NOT restamp `Last Updated`** — the row keeps its original data vintage, deliberately; the freeze date rides in `Status`. Restamping would manufacture freshness ([[finding_hygiene_commit_rearms_the_staleness_lie]]).
+- **Boot guard built** (`staleness.py`): ranks **BREACHED/CRITICAL + >60d** as its own 🔴 alert, drops FROZEN/RETIRED (age by design), and separates **stale-by-design** from real rot — because an alert that cries wolf on 37 rows every boot gets filed as housekeeping, which is precisely how s18 happened. Validated both directions: **25 against the pre-sweep file (matching s18b's hand triage exactly), 5 after.**
+- **Remaining, and now named every boot:** 5 genuinely-refreshable BREACHED/CRITICAL rows — FL-03, TX-02, CA-01, 3.02, GTR-01. FL-03 and GTR-01 are the worst, both having *live free sources* (FL Realtors monthly; Google Trends).
+- **Escalation raised by the freeze → STATUS UNRESOLVED 🔴:** THESIS carries **Channel 4 at MEDIUM** on an evidence base that is now entirely frozen. Rebuild or re-mark — it is the same fault v3.0 just corrected in Channel 1.
+
 ### T2-E · Banxico + slaughter fetchers still cadence-skip on **mtime** (NEW — found 2026-07-31)
 - **What:** session 19 moved the H-2A fetcher to a **content-vintage** gate (`h2a_vintage()` reads `fy=`/`through_q=` out of the TSV header and compares against the quarter DOL should have published). The other two entries in `boot.py FETCHERS` still gate on `file_age_days()` — raw mtime.
 - **Why it matters:** root CLAUDE.md Data Hygiene is explicit that **mtime is restamped by git sync**, so an mtime cadence fails **FALSE-NEGATIVE** (it thinks a file is fresh because another machine's pull touched it) — [[finding_mtime_is_corrupted_by_git_sync]]. Under serial multi-machine operation MARCO pulls constantly, so both remaining fetchers can silently skip when they should run. Lower severity than H-2A was: Banxico's output carries its own dated rows and slaughter is a 6-day cadence, so drift is visible sooner.

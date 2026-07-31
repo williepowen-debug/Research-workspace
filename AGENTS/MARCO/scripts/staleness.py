@@ -63,7 +63,28 @@ def check_status(today, max_days):
     return flag
 
 
+# A row whose Status carries one of these is deliberately not maintained — its age
+# is DESIGNED, not rot, so it must not inflate the stale count (and its Last Updated
+# is intentionally left at the original data vintage, never restamped by the freeze:
+# restamping would destroy the vintage signal — finding_hygiene_commit_rearms_the_staleness_lie).
+# Tokens per AGENTS/DAEDALUS/BLUEPRINTS/STATE_VOCABULARY.md class 1.
+DEAD_TOKENS = ("FROZEN", "SUPERSEDED", "RETIRED", "ARCHIVED", "NOT MAINTAINED")
+# Statuses that get CITED. A stale row in one of these is the dangerous kind.
+LOADED_STATUSES = ("BREACHED", "CRITICAL")
+
+
 def check_vx(today, max_days):
+    """Stale-row check, triaged by STATUS rather than by age alone.
+
+    ⚠️ Why the triage exists (session 18, 2026-07-25): a flat '42/57 vectors >60d'
+    count was printed at boot, read as housekeeping, and filed — and that same
+    session two stale rows were cited and were wrong in OPPOSITE directions
+    (FL-01 said hospitality wages 11% BELOW national when they were above; 3.01
+    carried a '4.5x national' insurance figure that would not reproduce). A stale
+    NORMAL row is harmless. A stale BREACHED/CRITICAL row is the loaded gun,
+    because BREACHED is exactly what gets quoted into a thesis. One aggregate
+    number hid both. So: separate alert, ranked first, never folded into the total.
+    """
     if not VX_TSV.exists():
         return ["  ❌ workbook/VX.tsv not found"]
     with open(VX_TSV) as f:
@@ -72,7 +93,9 @@ def check_vx(today, max_days):
         lu_idx = header.index("Last Updated")
     except ValueError:
         lu_idx = -1  # last column fallback
-    stale = []
+    st_idx = header.index("Status") if "Status" in header else None
+
+    stale, loaded, scheduled, dead = [], [], [], 0
     total = 0
     with open(VX_TSV) as f:
         next(f)
@@ -81,18 +104,47 @@ def check_vx(today, max_days):
             if len(parts) < 2 or not parts[0].strip():
                 continue
             total += 1
+            status = (parts[st_idx] if st_idx is not None and st_idx < len(parts) else "").strip()
+            if any(status.upper().startswith(t) for t in DEAD_TOKENS):
+                dead += 1
+                continue                       # deliberately not maintained — age is by design
             cell = parts[lu_idx] if -len(parts) <= lu_idx < len(parts) else ""
             d = parse_iso(cell)
             if d is None:
                 continue
             age = (today - d).days
             if age > max_days:
-                stale.append((age, parts[0], parts[1] if len(parts) > 1 else "", d))
-    out = [f"  VX.tsv — {len(stale)}/{total} vectors older than {max_days}d"]
-    for age, vid, name, d in sorted(stale, reverse=True)[:8]:
-        out.append(f"    🟠 {vid:<18} {age:>3}d  ({d})  {name[:34]}")
-    if len(stale) > 8:
-        out.append(f"    · …and {len(stale)-8} more")
+                value = parts[4] if len(parts) > 4 else ""
+                rec = (age, parts[0], parts[1] if len(parts) > 1 else "", d, status)
+                stale.append(rec)
+                # A row on a declared cadence (annual Census/CBO) or with no live
+                # instrument is stale BY DESIGN — surfacing it every boot beside real
+                # rot is what turns the alert into noise, and an ignored alert is how
+                # session 18 happened. It stays in the total; it leaves the 🔴 list.
+                by_design = ("STALE BY DESIGN" in value.upper()
+                             or "NO PRIMARY" in value.upper())
+                if by_design:
+                    scheduled.append(rec)
+                elif any(status.upper().startswith(s) for s in LOADED_STATUSES):
+                    loaded.append(rec)
+
+    out = []
+    if loaded:
+        out.append(f"  🔴 VX.tsv — {len(loaded)} STALE **{'/'.join(LOADED_STATUSES)}** row(s) "
+                   f">{max_days}d — these are the ones that get cited:")
+        for age, vid, name, d, status in sorted(loaded, reverse=True):
+            out.append(f"    🔴 {vid:<18} {age:>3}d  {status:<10} {name[:32]}")
+        out.append("    (refresh, or mark FROZEN/RETIRED per STATE_VOCABULARY if the area is dead)")
+        out.append("")
+    other = [r for r in stale if r not in loaded and r not in scheduled]
+    out.append(f"  VX.tsv — {len(stale)}/{total} vectors >{max_days}d  "
+               f"[🔴 {len(loaded)} loaded-status · {len(scheduled)} stale-by-design "
+               f"(awaiting scheduled print / no primary) · {len(other)} other · "
+               f"{dead} excluded FROZEN/RETIRED]")
+    for age, vid, name, d, status in sorted(other, reverse=True)[:8]:
+        out.append(f"    🟠 {vid:<18} {age:>3}d  ({d})  {status:<10} {name[:30]}")
+    if len(other) > 8:
+        out.append(f"    · …and {len(other)-8} more")
     return out
 
 

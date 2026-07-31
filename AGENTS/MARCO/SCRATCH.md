@@ -27,8 +27,8 @@
 ## NEXT SESSION
 1. **Aug 1 — DOUBLE PRINT, and the remittance count is now carrying more weight than it was designed to.** Banxico June: transfer **COUNT YoY** is the cleanest *surviving* SDL-01 proxy (May −1.7%; positive = tell breaks). Plus **OFLC H-2A Q3** — the rebuilt puller auto-fetches on publication; MAR-11 (>425K, 88%).
 2. **Do NOT hunt a fourth wage instrument.** v3.0 pre-committed against it. If reopening Channel-1 transmission, it must be a source that observes the affected population directly: **H-2A offer premia ABOVE the AEWR floor** (never AEWR itself — administratively set, and its NASS basis was canceled Aug 2025), vacancy duration in immigrant-intensive occupations, or firm-level cost disclosure. §5 of the pre-reg has the design; **`WAGE_OFFER` needs a pay-unit filter first** (median $15.79 / mean $93.64 = mixed units).
-3. **VX stale sweep — 37/57 >60d, still the biggest carried debt.** ~19 are one abandoned area (border-fiscal, all Feb-4 vintage) that per Data Hygiene should go **FROZEN with a banner**, not sit as live-looking BREACHED rows. Triage by STATUS, not age.
-4. **Boot guard for BREACHED+stale rows** (`staleness.py`) — carried s18→s19.
+3. **🔴 Channel 4 decision — rebuild the vectors or re-mark the conviction.** The 7/31 freeze surfaced that THESIS carries Channel 4 (border-municipal fiscal) at **MEDIUM** while all 17 of its vectors are now FROZEN at Feb-2026 vintage. **This is the same fault v3.0 just corrected in Channel 1** — a conviction outliving its evidence base. Not resolvable by a sweep; needs a call.
+4. **VX refresh backlog — 5 named rows**, all BREACHED/CRITICAL and genuinely refreshable: **FL-03** (FL Realtors, monthly, 190d), **GTR-01** (Google Trends, free + live, 157d), TX-02, CA-01, 3.02. FL-03 and GTR-01 first — rotting despite live free sources. The boot guard now names all 5 every session.
 5. **MCO via BTS T-100** — carried s16→s19; blocks MAR-24 *and* MAR-22.
 6. **Inbox: 17 unprocessed** (8 top-level + 9 WALTER SIGs, oldest 7/10) — separate spawn per MAIL protocol.
 7. **WALTER consume boot-step** never installed (asked 7/11) — one-time CLAUDE.md edit; mechanical cause of the 9 unread SIGs.
@@ -40,7 +40,9 @@
 |------|--------|
 | Channel-1 transmission | ⚫ **CLOSED as UNDEMONSTRATED (v3.0)** — 3 pre-registered nulls; reopen only on a non-payroll instrument |
 | ~~LABOR SDL-01 magnitude adoption~~ | ✅ **CLOSED 7/31 — LABOR replied same-session: it does NOT carry ~1.6–1.9M anywhere; no supply-adjusted U-3 counterfactual exists in its live book.** Full grep, zero hits. **The tension was a digit collision** — every `1.9M` in LABOR is the *long-term unemployed* count (27.3% of unemployed), an unrelated series. I chased this four times over three sessions against a figure that was never there. **Lesson for me: "they haven't confirmed adoption" is not evidence they hold it** — I should have asked LABOR to grep once in s16 instead of re-sending. LABOR's own supply figures (LF −720K 1-mo, NILF +832K, LFPR 61.5%) are BLS-direct, not MARCO-sourced, and are a *different measure* from my foreign-born −700K YoY — compatible, never summed |
-| VX stale backlog 37 rows; border-fiscal cluster → FREEZE; boot guard for BREACHED+stale | 🔴 carried s18→s19 |
+| ~~VX stale backlog / border-fiscal freeze / boot guard~~ | ✅ **DONE 7/31** — 37 triaged: 19 FROZEN/RETIRED, 6 stale-by-design, 2 fixed, 10 stale-marked. Guard built + validated both directions. **Boot alert: 37 undifferentiated → 5 real loaded guns** |
+| **VX refresh backlog — 5 named rows** (FL-03, TX-02, CA-01, 3.02, GTR-01) | 🟠 NEW 7/31 — all BREACHED/CRITICAL, genuinely refreshable. **FL-03 and GTR-01 are the worst: both have live FREE sources** (FL Realtors monthly; Google Trends) and are 190d/157d |
+| ⚠️ **Channel 4 has NO live vector** — all 17 border-fiscal rows FROZEN, but THESIS carries Channel 4 at MEDIUM | 🔴 NEW 7/31 — same fault v3.0 just fixed in Channel 1: a conviction outliving its evidence. Rebuild or re-mark. NB MAR-01's 7/2 resolution pointed at VX-BDR-03/NOG-01, which now resolve to frozen Feb data |
 | VX-3.01 household insurance — no figure adopted, needs FL OIR primary | 🟠 carried |
 | MCO pax via BTS T-100 | 🟠 carried s16→s19; blocks two predictions |
 | FL migration divergence (canonical +22,517 vs BofA Q1'26) → CORAL | 🟠 carried from 7/9 |
