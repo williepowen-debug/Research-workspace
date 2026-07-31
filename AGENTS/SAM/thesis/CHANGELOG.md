@@ -8,6 +8,20 @@ Tracks all changes to THESIS.md and TIMELINE.md. Reverse chronological. Each ent
 
 ---
 
+## 2026-07-31 (2nd entry, ~9:15 AM ET) — v1.6.9 → **v1.6.10** [MINOR, pre-registered trigger fired — FULL-C closure + carry-bucket re-mark on the Ueda presser Oct/Sep telegraph; MOF monthly ¥0 hard-confirms the 7/2 no-strike]
+
+**Author:** SAM (same Will-launched session, morning-after sweep). **Live marks (~9 AM ET):** USD/JPY **160.35** · EUR/JPY 184.21 · Brent $90.22 — the 7/30 spike holding roughly half its ground.
+
+**1. 🟢 SAM-38 sub-grade CLOSES FULL-C (not WEAK-C).** The pre-registered disconfirmer-2 bar — "Oct OIS does NOT move off the ~26-40% range → record WEAK-C" — was decisively cleared the other way: **Oct OIS repriced to ~64%** post-presser (Reuters/Bloomberg 7/31), with **Sep priced ~23%** and Ueda explicitly framing the debate "from the next meeting onward" (= September) around upside price risks ("many of our board members' inflation forecasts are fairly high and they see risks skewed to the upside — I would like to take that into account in chairing future policy meetings"). Reuters: the BOJ "warned for the FIRST TIME that underlying inflation could exceed its target." Strategist consensus: "moderately hawkish," "September-October now live."
+
+**2. 🔴 THE REGISTERED RE-MARK TRIGGER FIRED → buckets 5/18/27 → 5/19/29 (single named anchor).** The frozen Branch-C(c) clause (7/29): "if Oct OIS jumps materially (>40%) on this signal, that is a same-session re-mark trigger for the convexity-tail bucket." Executed without wiggle: **BOJ-hawkish-of-priced route ~8-9% → ~11-12%/60d** — the decisive point is that **the Sep 17-18 MPM sits IN the locked Sep-18 window (decision day ON the inclusive boundary) at 77% UNpriced**, so the telegraph pulls real hawkish-of-priced probability mass inside the window rather than parking it at the out-of-window Oct-30 meeting. 30d ~18→~19 (Sep MPM ~48d out, just past the 30d edge); 7d ~5 unchanged; amplifier +5pp unchanged pending today's CFTC print. **Conviction stays MEDIUM** — the MED-HIGH flip-conditions are CFTC-through-−153K/85% OR yen-haven re-couple; a guidance telegraph re-weights buckets, not conviction. No anchor >5pp; method discipline satisfied.
+
+**3. 🟢 MOF monthly (pub ~19:00 JST): ¥0 intervention, Jun-29→Jul-29 window — the 7/2 no-strike adjudication HARD-CONFIRMED.** SAM's two-legged intraday decomposition (Reuters-ambush-story repricing + NFP USD-leg) graded correct against the official record; **CH-011 (disorder-not-level) gets its cleanest empirical stamp yet — MOF sat out the ENTIRE orderly grind to 40-yr lows (163.83) with ¥0 spent.** The 7/30 suspected op falls in the NEXT window (~Aug-31 release) as flagged; press now describes 7/30 as "the government's yen-buying intervention... that failed to give the sagging currency lasting support" (Reuters framing) — treated as SUSPECTED-strengthened, still not MOF-confirmed.
+
+**4. Housekeeping:** SAM-38 Outcome cell + preamble updated (append-only discipline: statement-time grade retained verbatim, closure appended); STATUS banner addendum + § GRADE closure + § CARRY UNWIND re-mark block; docket presser/MOF rows resolved; NEXUS_BRIEF re-stamped. Next nodes: **CFTC Jul-28-data 3:30 PM ET today** (re-fire check at 875-ct pre-spike proximity, attribution-blind) · **8/7 CFTC = the 7/30-spike attribution print** · 8/6 30Y auction · ~Aug-31 MOF window for 7/30.
+
+---
+
 ## 2026-07-31 — v1.6.9 (NO version change) [two predictions resolved — BOJ July MPM graded live off the primary statement; SAM-38 Branch C fired + SAM-34 hold confirmed; 7/30 yen-spike attribution OPEN]
 
 **Author:** SAM (Will-launched live decision watch, Thu 7/30 ~10 PM ET → Fri 7/31 ~12:45 JST grade). **Live marks:** USD/JPY **160.42** post-print (pre-print 160.71; statement reaction ~−0.3%) · EUR/JPY 184.24 / GBP/JPY 215.27 · Brent **$90.28** · JGB (MOF 7/30 pub) 10Y 2.801 🔴 / 30Y 3.971 / 40Y 3.967. **Sources: primary only** — statement `boj.or.jp k260731a.pdf` + Outlook basic view `gor2607a.pdf` (both pub 12:11 JST; meeting ran to 12:04 = LONG), pdfminer-extracted.
