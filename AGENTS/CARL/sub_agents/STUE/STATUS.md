@@ -2,7 +2,7 @@
 
 **Last Updated:** 2026-07-31 (coherence pass **+ full news/data sweep** — **no threshold moved; one MISSED event recovered**) | **Data vintage:** 2026-07-25, w/ *Sweet* 9th Cir refreshed to 7/17 | **Status:** 🔴 CRITICAL — mechanism intact, enforcement gated. **CRL-04 CONFIRMED** (NY Fed Q1 2026 90+ DQ **10.3%**). **FSA primary (Jun 23) now carries the default wall: ~9M borrowers / $220B as of Mar 31 2026, +1.3M QoQ.** SAVE→RAP waves launched Jul 1 on schedule and the notice window **COMPRESSED ~3 months** (all notices by Dec 31 2026, not Mar 2027). **AFT v. MOHELA is STAYED by court order** — discovery frozen since Oct 2025; the litigation leg of CRL-14 cannot fire in its own window.
 
-> **Data vintage:** dashboard refreshed 2026-07-25 from primary sources (FSA GENERAL-26-38, NY Fed Q1 HHDC, D.D.C. docket 1:24-cv-02460, CFPB complaint API, MOHELA/Nelnet servicer FAQs). Prior file was a Jun-9 snapshot carrying five passed-but-unverified events; all now resolved or re-dated below. Live parent context → CARL `STATUS.md` (**2026-07-24 — 7d stale, and it has not integrated any of STUE's five 7/25 packets; see ROUTED TO PARENT**).
+> **Data vintage:** dashboard refreshed 2026-07-25 from primary sources (FSA GENERAL-26-38, NY Fed Q1 HHDC, D.D.C. docket 1:24-cv-02460, CFPB complaint API, MOHELA/Nelnet servicer FAQs). Prior file was a Jun-9 snapshot carrying five passed-but-unverified events; all now resolved or re-dated below. Live parent context → CARL `STATUS.md` (**2026-07-31 — CURRENT. CARL closed out later the same day and adopted all five 7/25 packets plus the 7/31 *Sweet* finding; CRL-14 is now 55% + STUCK. Nothing owed in either direction** — see ROUTED TO PARENT).
 >
 > **2026-07-31 SWEEP RESULT — read this before the tables.** A full news/data sweep across all eight STUE lanes returned **no threshold-moving data in the 7/25→7/31 window**, **but recovered one event STUE MISSED in its own 7/25 refresh: the *Sweet* 9th Cir appeal was DECIDED Fri 7/17 (DOE lost, unanimous, >170K post-class applicants) — 8 days before that session, and it sat one search away throughout it.** The Borrower Defense row and the ~Sep-15 catalyst were both wrong until now. Second finding: the Q2 HHDC has a **4-year base rate making Tue Aug 4 the modal print**, with the media advisory **due today or within days** — the single highest-value check available this week. Lanes that returned nothing: FSA (no update since 6/23, next ~Sep), SAVE→RAP (compression re-corroborated), servicers (no new event), Treasury Phase 1 (still unconfirmed, 8/5 stands), AWG/TOP (still "fall," no ED commitment → **STUCK holds**), AFT/MOHELA (Doc 54 still not public). **CFPB complaints deliberately NOT re-pulled** — the registered instrument sets ~Aug 20, past the 5-6d lag; pulling now would read the trailing week as settled, which the instrument exists to prevent. Both new findings routed to CARL (packet + `SV-STUE-2026-07-31-01`). *(Original coherence-pass note follows.)*
 >
@@ -29,7 +29,26 @@
 
 Federal student loan stress remains a **mass credit-destruction event in active execution**, and the *accrual* mechanism is firing exactly as modelled: the default stock went **6.0M (Aug 2025) → 7.7M (Dec) → ~9.0M (Mar 2026)** on primary FSA data, with **>13% of the federally-managed portfolio in default** and 2.6M gross DRG transfers in Q1 alone. CRL-04 is **CONFIRMED clean** at 10.3%.
 
-What this session changes is **not the mechanism but the enforcement and attribution legs**:
+---
+
+### ⚑ WHY THE DOWNSTREAM LOOKS QUIET — the four-channel decomposition (added 2026-07-31, Will's framing)
+
+**The upstream is loud and the aggregate consumer-credit prints have not broken.** That gap is real, and the standing question is whether downstream consequences are *"not firing yet."* **"Yet" is right for only one of four channels** — and treating the other three as pending is how a thesis stays alive without evidence.
+
+| Channel | Why it isn't visible | Is "yet" the right word? |
+|---|---|---|
+| **Forbearance → default conversion** (8.4M / ~$485B still parked) | **Genuine timing.** Transition launched Jul 1; default is a **270-day** event (+360d to DRG transfer) ⇒ **earliest possible ~Jul 2027** | ✅ **YES — real lag. Keep waiting.** |
+| **Enforcement** (AWG + Treasury Offset) | **Switched off by policy** — paused Jan 16 2026, indefinitely, no ED commitment | ❌ **NO — blocked, not pending** |
+| **Servicer attribution** (AFT v. MOHELA) | **Settlement stay**; discovery frozen 10/27/25; class cert never filed. A settlement **forecloses** the record | ❌ **NO — and measurability gets WORSE, not better** |
+| **Credit-card cascade** | **Arithmetically too small.** Cohort holds **~2% of US card balances**; closes **≤⅓** of the gap | ❌ **NO — it was never going to carry it** |
+
+⚠️ **And the premise needs one correction: a downstream consequence IS firing — into a series STUE was not reading.** See **§ CHANNEL 5 — FHA/MORTGAGE** below. "Nothing downstream is firing" was partly **the wrong instrument pointed at the wrong series.**
+
+**The live discriminator is the Q2 HHDC (~Aug 4).** Q2 issuer prints (SYF/ALLY/COF/AXP) all improved — 0 of 4 confirming. Either the consumer is healing, **or** issuer books are survivor-biased by construction (worst borrowers already charged off). **The HHDC is bureau-wide and therefore cannot be survivor-filtered** — it is the test, not another datapoint. **If it prints benign too, the survivor-bias defence has been offered twice and refuted twice**, and CARL's pre-registered falsifiers bite.
+
+---
+
+What the 7/25 session changed is **not the mechanism but the enforcement and attribution legs**:
 
 1. **Enforcement is gated in two independent places.** Involuntary collections remain **paused indefinitely** (Jan 16 2026, no corroborated restart), and the accountability channel — AFT v. MOHELA — is under a **court-ordered stay with discovery frozen**, with no class-certification motion filed. Neither can produce a Q3-Q4 2026 event. CRL-14's "MOHELA-caused defaults" leg therefore rests on **operational failure**, not litigation or garnishment.
 2. **Attribution is narrower than STUE previously asserted.** The score cascade is real and severe *within* the affected cohort but is **second-order in aggregate** — it cannot carry a CC 90+ GFC breach on its own (DEWEY C2). Carrying the broad version into the 8/15 print would contaminate the CRL-05 grade.
@@ -76,7 +95,7 @@ What this session changes is **not the mechanism but the enforcement and attribu
 | Active repayment 31+ DQ (by $) | 18.6% **[STALE — Dec 2025; FSA Jun-23 release did not restate this cut]** | Dec 2025 | FSA | 🔴 |
 | Projected default EOY 2026 | 13M (TCF) — pace (+1.3M/qtr) implies **~11.6M**, so 13M needs acceleration | Projection | TCF | 🟠 **downgraded from "conservative"** |
 | National avg FICO | 714 | H2 2025 | FICO Spring 2026 (rel Mar 24 2026) | 🔴 |
-| Avg FICO drop, DQ borrowers | −62 pts (primary); −69 in derivative cites | H2 2025 | FICO | 🔴🔴 |
+| Score drop from SL delinquency | **−62 pts = the canonical average** (FICO primary). ⚠️ **FIVE other figures exist and measure DIFFERENT COHORTS — see § SCORE-DROP RECONCILIATION before citing any of them** | H2 2025 | FICO Spring 2026 | 🔴🔴 |
 
 > ⚠️ **Unreconciled:** press dated **Jul 21 2026** (Fox Business) cites **9.5M / $233.3B** attributed to FSA — above the Mar-31 primary. Either a newer unposted cut or a press extrapolation. **Primary wins; do not cite 9.5M.** Next FSA quarterly (~Sep) settles it.
 
@@ -147,8 +166,31 @@ What this session changes is **not the mechanism but the enforcement and attribu
 
 ## TRANSMISSION TO CARL — RE-SCOPED (DEWEY C2, 2026-07-24)
 
+### 📐 SCORE-DROP RECONCILIATION (added 2026-07-31) — six figures, one concept, **they do not conflict**
+
+A grep found **six** different "score drop from student-loan delinquency" figures across STUE and CARL. **They are not competing estimates of one quantity — they measure different cohorts over different windows.** Nothing said so, which made them read as contradictory. **This is load-bearing:** the entire cascade rests on "each ~50pt band drop doubles the 90+ rate," so *which* drop, for *whom*, IS the mechanism.
+
+| Drop | Cohort measured | Window | Source | Standing |
+|---|---|---|---|---|
+| **−62 pts** | **Average borrower with a NEW SL delinquency** | H2 2025 | **FICO Spring 2026 (primary)** | ✅ **CANONICAL — cite this one by default** |
+| −69 pts | same as above | H2 2025 | derivative cites of the same FICO doc | ⚠️ **Do not cite — it is the −62 figure, restated wrong** |
+| −57 pts | Borrowers with delinquent SLs, **nationally-representative credit panel** | first 3 qtrs 2025 | TCF/Protect Borrowers, pub **Feb 20 2026** | ✅ valid, **different panel + window** — not a rival to −62 |
+| −91 pts | **Defaulters** (not merely delinquent) | Q1 2026 | via DEWEY 7/24 | ✅ valid — **a worse cohort, so a bigger drop.** CARL-side |
+| −100 pts | **Near-prime** (~2M borrowers) | H2 2025 | FICO | ✅ valid — **cohort-specific**, in TIMELINE.tsv |
+| **−171 pts** | ⚠️ **NOT a cohort figure — it is the TOP of a −87 to −171 RANGE** (760+ → 590) | **Mar 2025** | **NY Fed Liberty Street Mar 2025** (per `CASCADE.tsv` Stage 4) | 🟠 **sourced, but see below** |
+
+**The pattern is monotone and it is the mechanism, not noise:** the better the starting score, the further there is to fall — superprime-end **−171** > near-prime **−100** > defaulters **−91** > average **−62**. **A spread of figures here is EXPECTED. What was wrong was presenting them unlabelled.**
+
+⚠️ **The −171 defect is narrower and more specific than "unsourced" — I checked and my first read of it was wrong.** `CASCADE.tsv` Stage 4 carries it correctly as **"−87 to −171 pts, 760+→590"** attributed to **NY Fed Liberty Street Economics, Mar 2025**. The figure is sourced. **The actual defects are two:**
+1. **Range collapse.** `CLAUDE.md` states it as *"Superprime borrowers losing −171 pts when payments resume"* — **a single point estimate for a named cohort, when the source gives a −87 to −171 BAND.** The file quotes the worst end as if it were the finding.
+2. **Vintage.** The source is **Mar 2025 — ~16 months old**, predating the on-ramp expiry, the Q1-2026 default surge, and every FICO/TCF figure above it in this table. It is the **oldest** number in the set and the **largest**.
+
+**Rule: cite the band (−87 to −171) with its Mar-2025 vintage, or cite −62 (FICO, H2 2025). Never the bare −171.** *(Logged against myself: this session's first pass called it "unsourced, never re-verified" and would have retired a real, attributable NY Fed figure. **Verify the number that makes you retract as hard as the one that makes you commit.**)*
+
+---
+
 **What survives (durable, keep asserting):**
-- Each ~50pt FICO band drop ≈ **doubles** the 90+ incidence rate [FICO Credit Insights 2025].
+- Each ~50pt FICO band drop ≈ **doubles** the 90+ incidence rate [FICO Credit Insights 2025]. ⚠️ **Pair this with the reconciliation table above** — the band that applies depends on the cohort's *starting* score.
 - SL-delinquent borrowers' own CC 90+ rate rose **1.03% → 5.96%** (Dec'24→Jun'25) [TransUnion 2025-07]; **56%** of newly-defaulted SL borrowers with a card are already past due on it [NY Fed 2026-05].
 - Transmission runs **score drop → issuer line cut (median ~75% of line) → utilization 89–94% → further score damage → denial/repricing** [CFPB CLD 2022].
 - Payment hierarchy (Auto > Mortgage > Student > CC) and the $1.5–2.0B/mo spending diversion.
@@ -157,6 +199,31 @@ What this session changes is **not the mechanism but the enforcement and attribu
 - ❌ "The student-loan cascade drives the CC 90+ GFC breach." SL-delinquent borrowers hold **~2% of US CC balances (~$25B)**; the cascade contributes **~0.12–0.19pp of the 0.62pp gap ≤ ⅓**. Closing the gap from this cohort alone would require ~28% of its entire card balance rolling 90+.
 - ❌ Treating a CC 90+ breach as fresh systemic consumer stress. **~62% of the Q1 rise was denominator shrink** (CC balances fell $25B), possibly seasonal and possibly reversing in Q2–Q3.
 - ⚠️ The line-cut channel is real but **issuer-driven**: **67% of CLDs had no cardholder delinquency**. STUE's "3–5M CC cascade population" (CASCADE Stage 5a) is likely **overstated**.
+
+---
+
+### 🔴 CHANNEL 5 — FHA / MORTGAGE: the bridge STUE was not carrying (added 2026-07-31)
+
+> **This is a RECEIVED channel, not a STUE finding.** Evidence is CARL/DEWEY's (`AGENTS/DEWEY/output/2026-07-24_fha-va-loss-waterfall.md`). It is recorded here because **STUE's transmission section had ZERO FHA mentions** while being 100% credit-card — i.e. STUE was documenting the channel that is **second-order** and silent on the one that appears to be **live**. Do not let it become load-bearing before it earns it.
+
+| Datum | Value | Source |
+|---|---|---|
+| FHA total DQ | **11.88%** — highest since Q2-2021, **+126bps YoY** | MBA NDS Q1-2026 |
+| FHA serious DQ | **+212bps YoY**; foreclosure inventory highest since Q4-2018 | MBA NDS |
+| FHA-vs-conventional spread | **~900bps** | MBA NDS |
+| Student-debt concentration in FHA | **~30% of FHA borrowers carry student debt** — >10pp above non-FHA | DEWEY 7/24 |
+| Relative risk | SL-delinquent borrowers **~4× more likely** to be mortgage-delinquent | DEWEY 7/24 |
+
+**Why it is mechanically plausible where the CC cascade was not:** the CC channel fails on **balance weight** (~2% of card balances — the cohort is too small to move a national series). FHA fails no such test: student-debt-carrying borrowers are **over-concentrated** in the FHA book, so the same cohort is a **large share of the denominator** rather than a trivial one. **Same cohort, different denominator — that is the whole difference.**
+
+⚠️ **Caveats, carried verbatim rather than smoothed:**
+- **Aggregate-corroborated, NOT FHA-isolated-proven.** Nobody has shown the FHA DQ rise is student-loan-*caused* rather than co-moving.
+- **A confound of similar size sits in the same series:** the **VASP termination gap** — VA's foreclosure-avoidance program ended 5/1/25, its replacement (PCP) didn't open until 6/15/26 = a **~13-14 month backstop gap** (>10K veterans lost homes, ~90K seriously past due). **Do not attribute the whole move to student loans.**
+- **Urban Institute reads the same data as "back to 2017-18 levels"**, with the thin-equity framing only partly supported (95%+ LTV FHA share actually *declined*).
+
+**Consequence for the CASCADE ladder:** Stage 6 (mortgage) is modelled as **Apr–Dec 2027, 0.5–1M, +0.1–0.3pp — a projection.** The FHA data suggests it may already be **underway**, ~9-18 months earlier than the ladder says. **That is a re-dating question STUE cannot settle alone** — it needs the isolation test above. Logged as open question #11, **not** applied to the ladder.
+
+---
 
 **Why this matters before the Q2 HHDC (window opens 8/4, NOT 8/15 — see the date correction above):** if STUE carries the broad cascade claim into the NY Fed Q2 print that grades **CRL-05**, a headline breach gets mis-attributed to a mechanism that arithmetically cannot carry it — contaminating the grade. **Expect the breach; do not attribute it to us.** ⚠️ **The 7/31 date correction moves this deadline up to 11 days earlier**, and the packet carrying it has sat unprocessed in CARL's inbox for 6 days — this is the tightest clock STUE owns.
 
@@ -181,19 +248,20 @@ What this session changes is **not the mechanism but the enforcement and attribu
 
 ---
 
-## ROUTED TO PARENT — 🔴 DELIVERED, **NOT ADOPTED** (verified 2026-07-31, 6d lag)
+## ROUTED TO PARENT — ✅ **ALL ADOPTED** (closed 2026-07-31 PM)
 
-> **All five packets are still sitting UNPROCESSED in `AGENTS/CARL/inbox/`** (not moved to `inbox/processed/`), and CARL's `STATUS.md` + `thesis/PREDICTIONS.tsv` are both still stamped **2026-07-24** — one day *before* they were sent. **Delivery is not adoption**, and until this session the table below said only "📤 sent", which reads as closed.
+> **CARL closed out on 7/31 and integrated everything. Nothing is owed in either direction.** Verified against the parent's committed files, not against a claim of processing:
 >
-> **What is still live-and-wrong in the parent's system of record:**
-> - CARL `STATUS.md` L24 still asserts **"AFT v. MOHELA May 28 status conference HELD"** + **"absence of news is non-information"** — both **retracted 7/25** (no May 28 entry exists on D.D.C. 1:24-cv-02460; the case has been under a *settlement* stay since 3/20/26 with discovery frozen since 10/27/25).
-> - `PREDICTIONS.tsv` CRL-14 still reads **65% OPEN** with *"AFT case in DISCOVERY (May 28 conf)"* — the Will-approved **55% + STUCK** re-mark is unapplied, and the note repeats the refuted premise.
-> - `PREDICTIONS.tsv` CRL-13 still reads notices *"staggered in waves through Mar 2027"* — superseded by the **Dec 31 2026** compression.
-> - CARL `STATUS.md` L21 carries **9.16M (Bloomberg 6/18, Apr)** above the **FSA Mar-31 primary ~9.0M/$220B** — a secondary outranking a primary.
+> | Routed item | Parent state now |
+> |---|---|
+> | CRL-14 re-mark | ✅ **55% + Status STUCK** in `PREDICTIONS.tsv` |
+> | "May 28 conference" retraction | ✅ CARL STATUS now carries the **retraction**, incl. the sharper form — *"absence of news is non-information" was affirmatively WRONG: the silence is a COURT ORDER* |
+> | Cascade attribution narrowing | ✅ landed **before** the HHDC — the deadline held |
+> | CRL-13 timing (Dec 31 2026) | ✅ adopted |
+> | `TEAM.md` restamp | ✅ |
+> | *Sweet* 9th Cir DECIDED 7/17 (sent today) | ✅ **already in CARL STATUS** the same day |
 >
-> ⚠️ **Do not re-send.** The packets are delivered and committed; re-sending creates duplicates. The low-quality-aggregator class that produced the May-28 claim is *still* circulating it (aggregators searched 7/31 still say the case "is in discovery" — it is not).
->
-> 🟡 **IMPORTANT QUALIFIER — CARL IS MID-SESSION AS THIS IS WRITTEN.** `AGENTS/CARL/` has uncommitted work with mtimes of **2026-07-31 16:44-16:45** (`thesis/CHANGELOG.md`, `workbook/KB.tsv`, a new `thesis/FOMC_JUL28-29_CARL_CONSUMER_LEG.md`). **A dirty path means in-flight, not orphaned** — the 7/24 stamp on CARL's STATUS is what a live session looks like *before* its closeout write-back, not evidence of abandonment. **The honest claim is therefore narrower than "CARL ignored this":** the packets were unprocessed for 6 days and the refuted premise is still in the committed ledger *as of this read*, and CARL may resolve both within the hour. **Re-check at next boot (step 2b) before repeating the lag claim** — and do not treat this section as a grievance, it is a tripwire.
+> 🔎 **The tripwire earned its keep, and so did the qualifier.** This section spent part of today reading **"DELIVERED, NOT ADOPTED — 6d lag"**, which was true *at that read*. It was then qualified on the observation that `AGENTS/CARL/` had **dirty paths at 16:44** — i.e. **a dirty path means in-flight, not orphaned**, and the 7/24 stamp was what a live session looks like *before* its closeout write-back. **That qualifier was correct and the un-qualified version would have been unfair.** Keep both moves: **check adoption against the parent's files** (boot step 2b), **and check whether the parent is mid-session before reading a stale stamp as neglect.**
 
 | Item | Ask | Status |
 |---|---|---|
@@ -222,6 +290,8 @@ What this session changes is **not the mechanism but the enforcement and attribu
 8. **Which Tuesday does the Q2 HHDC land on — Aug 4 or Aug 11?** Base rate says 4 (3 of 4 prior Q2s = first Tuesday) but no advisory had posted as of 7/31. **Resolves itself within days**; check `newyorkfed.org/newsevents/mediaadvisory/2026/` daily. *The answer sets the deadline on the un-processed cascade-attribution packet.*
 9. **🆕 Does DOE seek cert in *Sweet*?** The 7/17 loss leaves only a discretionary SCOTUS petition, and DOE has not said. **No stay → discharges are proceeding regardless**, so this is a tail-risk watch, not a live gate. → watch PPSL / 9th Cir docket 26-1136.
 10. **🆕 Harvest the TCF/Protect Borrowers study STUE already half-cites.** *"Trump's Student Loan Delinquency Crisis, Unmasked"* (Granville, TCF + PB, **published Feb 20 2026**, nationally-representative credit panel, data = first 3 quarters of 2025) is where STUE's carried **25% DQ rate** and **13M EOY projection** come from — **but its cohort-severity and demographic cuts were never harvested**: **−57pt** avg score drop, **three-quarters of delinquent borrowers pushed into "deep subprime,"** **7.9M entered delinquency** in 3 quarters, **Black and Native borrowers ~50%** DQ, **Pell recipients 27%**. ⚠️ **NOT new** — a 5-month-old study, flagged so it is not mistaken for a July datum. The **−57pt** figure is a *third* score-drop number alongside FICO's **−62** (H2 2025) and the **−69** derivative cite: **different sources, windows and panels — reconcile before citing any of them as "the" number.** *Backlog item, not a threshold move.*
+11. **🆕 🔴 Is the FHA delinquency rise student-loan-CAUSED, or co-moving?** The single highest-value open question STUE has, because it decides whether **CASCADE Stage 6 (mortgage) re-dates from Apr-Dec 2027 to ALREADY UNDERWAY** — a ~9-18 month pull-forward of the thesis's most consequential stage. **What would settle it:** an FHA-isolated cut — DQ rates for FHA borrowers *with* vs *without* student debt, same vintage, same LTV band. **The confound that must be netted out first is the VASP gap** (VA backstop absent 5/1/25 → 6/15/26), which sits in the same series and is of similar size. **Do not treat "FHA is rising and student debt is concentrated there" as causation — that is the same co-movement error that produced the over-sized CC cascade claim.** Owner: CARL/DEWEY hold the evidence; STUE holds the student-debt side. → § CHANNEL 5.
+12. **🆕 Source the score-drop band properly.** Pull the **NY Fed Liberty Street Mar 2025** piece behind the **−87 to −171** figure and check whether a post-on-ramp update exists — it is the oldest and largest number in the score set and it anchors the top of the cascade. → § SCORE-DROP RECONCILIATION.
 
 ---
 

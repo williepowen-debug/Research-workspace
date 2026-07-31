@@ -70,10 +70,11 @@ STUE is a subordinate agent. Primary function is to:
 - 750K+ total claims filed; pipeline of future applicants from 150+ flagged schools
 
 **Credit Score Destruction:**
-- Superprime borrowers losing -171 pts when payments resume
+- ⚠️ **SIX score-drop figures exist across STUE and CARL and they measure DIFFERENT COHORTS — read `STATUS.md` § SCORE-DROP RECONCILIATION before citing any of them.** Default to **−62 pts** (FICO Spring 2026, average borrower with a new SL delinquency, H2 2025).
+- **Corrected 2026-07-31:** this line previously read *"superprime borrowers losing −171 pts when payments resume."* The source (**NY Fed Liberty Street, Mar 2025**, per `CASCADE.tsv` Stage 4) gives a **−87 to −171 BAND (760+ → 590)** — this file had **collapsed the range to its worst end and attached it to a named cohort.** It is also the **oldest** figure in the set (~16 months, predating the on-ramp expiry and the Q1-2026 surge) and the **largest**, i.e. the most quotable. **Cite the band with its vintage, or cite −62. Never the bare −171.**
 - 9M+ facing credit score damage
 - Downstream: mortgage qualification, auto loan access, rental applications
-- Payment hierarchy effect: student loan DQ → CC/auto DQ cascade
+- Payment hierarchy effect: student loan DQ → CC/auto DQ cascade — ⚠️ **but the CC leg is second-order in AGGREGATE (~2% of card balances). The channel with the live evidence is FHA/mortgage — see `STATUS.md` § CHANNEL 5.**
 
 ## Key Thresholds
 
