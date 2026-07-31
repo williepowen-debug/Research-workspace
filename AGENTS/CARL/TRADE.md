@@ -1,6 +1,9 @@
 # ⛔ RETIRED — CARL TRADE.md
 **Status:** RETIRED (Jun 26, maintenance session). Live positions in FORGE/; thesis expression via REGINALD/OZK/HENRY. This stub pre-dates the v2.5.1 multi-vector framework and is no longer maintained.
 
+> **2026-07-31 — PENDING WILL ACTION, parked here at Will's direction** *(file remains retired; this note is also tracked in `SCRATCH.md` AWAITING-WILL + the ROADMAP CRL-14 thread, which ARE boot-read — this copy is the durable record, not the reminder):*
+> **PACER purchase: Doc 54, D.D.C. 1:24-cv-02460 (AFT v. MOHELA), filed 7/17/26, ~3pp, ~$0.30.** The 60-day settlement clock from Doc 52 expired onto this filing, so it says one of two things: **another extension** (settlement talks continuing) or **a proposed merits schedule** (talks failed). It is the single live discriminator on whether MOHELA settles — which decides whether the servicer-attribution evidence CRL-14 needed ever becomes public. Needs Will's PACER login; no deadline. Context: CRL-14 retired 7/31 → successor CRL-28 (CFPB-complaint instrument, publishes regardless of the case outcome).
+
 ---
 
 *Original stub follows for archival context:*

@@ -47,7 +47,7 @@
 5. **~8/5** Treasury Phase 1 verification (STUE) · **8/7 July NFP — V16 re-arm resolver** · **8/12 July CPI (pre-registered SOFT — do not grade pass-through)** · **~8/15 Russia-ban test** (ban already EXTENDED per RED — grade the crack vs 5-yr seasonal norm) · **8/20-21** Affirm FQ4 + Iran waiver expiry (CRL-08 45% live tail) · **~early Sept: CRMT covenant-relief expiry** (dated checkpoint, REGINALD co-owns).
 
 ### AWAITING WILL
-6. **CRL-14 successor draft** — retire+replace APPROVED (7/31 eve, opt a); the CFPB-complaint-instrument draft is with Will for text review. Register on approval → retire CRL-14. **Doc 54 PACER pull (~$0.30)** still open, no deadline.
+6. ~~CRL-14 successor~~ **DONE — CRL-28 REGISTERED 7/31 eve (Will: "yes register"), CRL-14 RETIRED/superseded, not scored.** Remaining Will action: **Doc 54 PACER pull (~$0.30)** — no deadline; durable record parked as a dated addendum in TRADE.md at Will's direction (file stays retired; this line is the boot-read reminder).
 7. ~~V5~~ **RULED — pre-authorized conditional (see PRIORITY-1).** When the HHDC lands, the card cells fire per the standing 7/24 ruling, unamended (TERRY constructs; Aug-21 expiries same session).
 
 ### BACKLOG

@@ -8,6 +8,11 @@ Tracks all changes to THESIS.md and PREDICTIONS.tsv. Reverse chronological. Each
 
 ---
 
+## 2026-07-31 (evening, 2nd pass) — CRL-28 REGISTERED · CRL-14 RETIRED (Will: "yes register")
+
+**CRL-28 (50%, OPEN):** MOHELA SAVE→RAP harm signature via **CFPB complaint rate** — 60-day rolling avg ≥2× baseline (≥55/day vs ~27/day June base) at any point Oct 1 2026–Sep 30 2027. Instrument declared (CFPB Consumer Complaint Database API — verified public, company-filterable). Single threshold, no conjunction (passes Check-G tier-1); re-base check passed at Date_Made (current ~28.4/day ≈ baseline). Caveats pre-registered: publication lag; **shrinking-book denominator (confirm = conservative, miss reads against it)**; CFPB-continuity instrument risk (halt → STUCK). Invalidation: never >1.5× through Sep-2027 with transition complete → operational-failure leg refuted.
+**CRL-14 → RETIRED, superseded by CRL-28.** Final 55%/STUCK, **NOT scored** (resolvability defect; excluded from Brier — retiring an unresolvable row is a status action, not a calibration event). **Doc 54 PACER pull parked as a dated addendum in TRADE.md at Will's direction** (file stays retired; the boot-read reminder lives in SCRATCH AWAITING-WILL).
+
 ## 2026-07-31 (evening) — TWO WILL RULINGS recorded (proposal loop closed, root Rule 10)
 
 1. **V5 3→4 PRE-AUTHORIZED CONDITIONAL (option a):** if the pump is still ≥$4.00 at Sunday 8/3's window close, CARL **executes** the upgrade (51→52/70) at next session with no further ask; a retrace below $4.00 first = sustain fails, V5 holds 3. Recorded in STATUS gas row + docket. *Not executed — score unchanged until the condition verifies against the 8/3 FRED weekly + AAA daily.*
