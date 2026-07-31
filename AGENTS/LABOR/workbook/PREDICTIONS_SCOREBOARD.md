@@ -9,11 +9,11 @@
 
 ---
 
-## §A — CALIBRATION READ (8 resolved LABOR predictions, as of 2026-07-10)
+## §A — CALIBRATION READ (9 resolved LABOR predictions, as of 2026-07-31)
 
 **Method:** Brier score = (confidence − outcome)², outcome = 1 if CONFIRMED, 0 if FALSIFIED. Lower is better. Reference points: **0.00** = perfect · **<0.20** = skilled · **0.234** = base-rate (always predict the 3/8 = 37.5% confirm rate) · **0.25** = no skill (always say "50%") · **1.00** = confidently, exactly wrong.
 
-**Scoring convention — AS-MADE, not final (this matters).** Each prediction is scored at the confidence it was **registered** with at `Date_Made`, NOT its walked-down final value. Grading the walked-down number credits a forecaster for conceding *after* the evidence turned — marking your own homework with the answer key visible, and the exact self-flattery a calibration artifact exists to catch (pre-registration discipline: `[[feedback_dont_bank_unpassed_forecast]]`, `[[finding_delta_vs_own_prior_local_extreme]]`). One row is affected: **LAB-02**, registered at 65% and walked 65→50→10 as it failed — scored here at **65%**. The walk-down is a *separate positive signal* (update discipline) noted below, not folded into the Brier. Scope: 8 LABOR-owned predictions resolved by LABOR (LAB-04 excluded — REHOMED to CORAL). Sorted worst-calibration-first.
+**Scoring convention — AS-MADE, not final (this matters).** Each prediction is scored at the confidence it was **registered** with at `Date_Made`, NOT its walked-down final value. Grading the walked-down number credits a forecaster for conceding *after* the evidence turned — marking your own homework with the answer key visible, and the exact self-flattery a calibration artifact exists to catch (pre-registration discipline: `[[feedback_dont_bank_unpassed_forecast]]`, `[[finding_delta_vs_own_prior_local_extreme]]`). Two rows are affected: **LAB-02**, registered at 65% and walked 65→50→10 as it failed — scored here at **65%**; and **LAB-17**, registered at 30% and walked 30→35→5 — scored here at **30%** (as-made verified in git across commits `b50c6ada`/`0838327f` 7/2, not read off the current ledger value, per `[[finding_loadbearing_number_must_be_reproducible]]`). The walk-downs are a *separate positive signal* (update discipline) noted below, not folded into the Brier. Scope: 9 LABOR-owned predictions resolved by LABOR (LAB-04 excluded — REHOMED to CORAL). Sorted worst-calibration-first.
 
 | ID | Prediction | Conf (as-made) | Outcome | Brier | Calibration verdict |
 |---|---|---|---|---|---|
@@ -25,26 +25,29 @@
 | LAB-15 | NFP May <100K | 40% | FALSIFIED | 0.16 | ✅ correctly hedged sub-50% (printed +172K) |
 | LAB-07 | DOGE separations >400K | 65% | CONFIRMED | 0.12 | ✅ good — **mechanism** call |
 | LAB-16 | JOLTS hire-rate freeze persists | 65% | CONFIRMED | 0.12 | ✅ good — **mechanism** call |
+| LAB-17 | WARN-cohort claims test: 4-wk MA ≥235K by Aug 6 | **30%** | FALSIFIED | **0.09** | ✅ **best-calibrated row in the book** — first *threshold* call correctly hedged sub-50% **at registration**. The §C gates worked as designed: the cohort-vs-base sizing defect was flagged 7/6 ("small vs 215K national base, so national 4-wk MA→235K still unlikely; mechanism up, threshold nudged only 30→35") and capped the confidence *before* the evidence turned → **L-08** |
 
 ### Stats
 
 | Metric | Value | Note |
 |---|---|---|
-| N resolved | 8 | 3 CONFIRMED / 5 FALSIFIED (base rate 37.5%) |
-| **Mean Brier (as-made)** | **0.277** | ⚠️ **loses to both** coin-flip (0.25) and base-rate (0.234). The raw book does not clear a naive benchmark. |
-| Mean Brier ex-LAB-01 | 0.213 | beats the benchmarks — but leading with this would be dropping our own worst miss to feel better (the bias this artifact exists to catch). Reported, not headlined. |
-| Directional lean correct | **5/8 (62.5%)** | did the >50%/<50% lean match the outcome? The 3 misses (LAB-01 85%, LAB-02 65%, LAB-05 55%) are **all >50% threshold/level calls** |
-| Genuine as-made sub-50% hedges | **2/2** | LAB-14 (45%) + LAB-15 (40%) — both correctly leaned against. (LAB-02 is NOT here — as-made it was a 65% call, not a hedge.) |
+| N resolved | 9 | 3 CONFIRMED / 6 FALSIFIED (base rate 33.3%) |
+| **Mean Brier (as-made)** | **0.256** ↓ from 0.277 | ⚠️ **still loses to both** coin-flip (0.25) and base-rate (0.222). Improving, but the raw book *still* does not clear a naive benchmark — one well-hedged row does not fix two overconfident ones. |
+| Mean Brier ex-LAB-01 | 0.198 | beats the benchmarks — but leading with this would be dropping our own worst miss to feel better (the bias this artifact exists to catch). Reported, not headlined. |
+| Directional lean correct | **6/9 (66.7%)** | did the >50%/<50% lean match the outcome? The 3 misses (LAB-01 85%, LAB-02 65%, LAB-05 55%) are still **all >50% threshold/level calls** |
+| Genuine as-made sub-50% hedges | **3/3** | LAB-14 (45%) + LAB-15 (40%) + **LAB-17 (30%)** — all three correctly leaned against. (LAB-02 is NOT here — as-made it was a 65% call, not a hedge.) |
 | High-confidence bucket (≥60%) | 3 C / 2 F | 5 preds; **both** misses (LAB-01, LAB-02) are level/threshold calls |
-| Update-discipline (separate diagnostic) | LAB-02 walked 65→50→10 | conceded fast as evidence turned (pre-marked effective-miss Jun 16). Good *process*; scored as-made per convention, so it earns a note here, not Brier credit. |
+| Update-discipline (separate diagnostic) | LAB-02 walked 65→50→10; LAB-17 walked 30→35→5 | both conceded fast as evidence turned (LAB-02 pre-marked effective-miss Jun 16; LAB-17 cut 35→5 on the 7/23 counter-print, then resolved ❌ on 7/31 rather than running out the formal Aug-6 clock on a path needing a +149K weekly jump). Good *process*; scored as-made per convention, so it earns a note here, not Brier credit. |
 
 ### Two findings that drive this scoreboard
 
 1. **The single biggest error wasn't judgment — it was measure specification.** LAB-01 (85% → false) contributes 0.72 of 2.22 total Brier mass (33%). It failed because the prediction was denominated in a company proxy (KELYA/staffing-firm revenue) while the canonical series (BLS CES Temp Help) was *expanding*. Codified as **L-01**. Takeaway for §C: **police the measure before the confidence** — a defeatable measure, not bad judgment, is the calibration killer.
 
-2. **LABOR reads mechanisms well and over-commits to thresholds.** All 3 CONFIRMED were *mechanism* calls (DOGE cuts underway, shadow gap closing, JOLTS freeze persisting). All 5 FALSIFIED were *specific threshold/level* calls (temp <−6%, U-3 4.7%, NFP <100K, KFRC miss) — and **both** high-confidence misses (LAB-01 85%, LAB-02 65%) are in that threshold set. Genuine sub-50% hedges on level calls went 2/2. → The **threshold-vs-mechanism** pattern (`[[finding_threshold_vs_mechanism]]`) in LABOR's own record: **hold a mechanism at high conviction; cap confidence on any specific-level threshold, especially one denominated in a defeatable gauge (L-06 denominator, L-01 proxy).** This is the spine the §C checklist operationalizes.
+2. **LABOR reads mechanisms well and over-commits to thresholds.** All 3 CONFIRMED were *mechanism* calls (DOGE cuts underway, shadow gap closing, JOLTS freeze persisting). All 6 FALSIFIED were *specific threshold/level* calls (temp <−6%, U-3 4.7%, NFP <100K ×2, KFRC miss, claims MA ≥235K) — and **both** high-confidence misses (LAB-01 85%, LAB-02 65%) are in that threshold set. Genuine sub-50% hedges on level calls went 3/3. → The **threshold-vs-mechanism** pattern (`[[finding_threshold_vs_mechanism]]`) in LABOR's own record: **hold a mechanism at high conviction; cap confidence on any specific-level threshold, especially one denominated in a defeatable gauge (L-06 denominator, L-01 proxy).** This is the spine the §C checklist operationalizes.
 
-**Honest one-line verdict:** modest skill at best — the raw as-made book (0.277) doesn't beat a coin flip; it is carried by three mechanism calls and dragged by two overconfident threshold misses. The book's edge is *directional mechanism reads*, and its leak is *high-confidence level calls on defeatable measures.*
+3. **🆕 (2026-07-31) The checklist has now demonstrably worked once — on LAB-17, and *before* the evidence turned.** This is the first entry in the record where a *threshold* call was capped sub-50% **at registration** for the right stated reason. The 7/6 ledger note is the receipt: *"CA/WA-concentrated + tech severance runways = small vs 215K national base, so national 4-wk MA→235K still unlikely; **mechanism up, threshold nudged only 30→35**."* The mechanism (WARN→claims, r=0.78) was upgraded on hard filings while the threshold was explicitly *not* — exactly the split finding #2 prescribes. Result: Brier 0.09, the book's best row. **The instructive part is what it does NOT license.** LAB-17 still resolved ❌, and it failed on a defect that was *identifiable at registration* — the cohort (~6,181 across three weeks) was ~3% of one week's claims and could never move a 4-wk MA by 28K. So the right lesson is not "the gates are sufficient" but: **capping confidence is the consolation prize for a threshold you should not have denominated in the aggregate series in the first place.** The gates priced the miss correctly; they did not prevent it. → **L-08** (a WARN cohort needs ≥~10% of the weekly claims base, ~20K+ in one week, to be visible nationally; below that it is a *state-level* test) is the fix that would have — and it is now the §C sizing gate for any cohort→aggregate test. Cross-ref `[[finding_threshold_spec_fails_before_world]]`.
+
+**Honest one-line verdict:** modest skill at best — the raw as-made book (0.256) still doesn't beat a coin flip; it is carried by three mechanism calls and dragged by two overconfident threshold misses. The book's edge is *directional mechanism reads*, and its leak is *high-confidence level calls on defeatable measures.* **Trend note (7/31): the leak is narrowing at the confidence layer — sub-50% hedges are 3/3 and the newest threshold miss cost 0.09 instead of 0.42 — but LAB-17 also showed the deeper failure is upstream of confidence, in how the threshold is *specified*. Pricing a bad test well is progress; not writing it is the target.**
 
 ---
 
