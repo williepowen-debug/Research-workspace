@@ -7,6 +7,13 @@ Newest first. Keep entries terse; archive build minutiae to `FLEET_MAP.tsv`.
 
 ## Changelog
 
+### 2026-07-31 — CONTROLLED STATE VOCABULARY + STRICT TEXT enter the standard (PAT-075, Will-approved)
+
+- **What:** two new blueprint artifacts — `BLUEPRINTS/STATE_VOCABULARY.md` (canonical token per lifecycle state, three classes: dead-banners FROZEN/SUPERSEDED/RETIRED · gates ARMED/FIRED/NOT-FIRED/STOOD-DOWN · predictions OPEN/HIT/MISS/VOID/STUCK; legacy grandfathered, enforcers keep recognizing it) and `BLUEPRINTS/STRICT_TEXT.md` (10 checkable rules for cost-bearing text ONLY — packet ACTION lines, script messages, gate specs, prediction letters; prose and Will-facing voice explicitly exempt). Wired: one cite-bullet in each of the 3 variants + `REGISTRATION_CHECKLIST` row 15 (now 15 surface classes).
+- **Why (the inventory forced it):** 10 dead-banner token variants in live use; the gate negative pole split FOUR ways nearly evenly (NOT FIRED 42 / NOT-FIRED 40 / NO-FIRE 13 / UNFIRED 12 — a one-spelling grep misses half the fleet); ~5 synonyms per prediction-resolution pole. The fleet had been fixing this at RECOGNIZER time (PAT-035 → PAT-059, twice) — the registry fixes it at SPEC time and ends the treadmill.
+- **Provenance:** external — STE/ASD-STE100's one-word-one-meaning rule, adapted off a Will-directed YT-video assessment (`design/2026-07-31_STE_WRITING_STANDARD_ASSESSMENT.md`). The adaptation inverted the target: not prose style (the fleet's Output Canon already is a writing system), but **state tokens as interfaces** (PAT-069 at word grain).
+- **Deliberately NOT adopted, on the record:** the 900-word dictionary (finance vocabulary is content), sentence caps on STATUS/thesis files (line caps force density by design), any style LINTER (a mechanized style screen is a false-positive generator aimed at the best-documented agents — the 7/30 compound-gate screen lesson — and `scripts/` is unowned, PAT-071). Registry discovery dividend: SUPERSEDED (#2 banner token, 52 files) absent from `STATIC_BANNER_MARKERS` — latent; fix rides the approved TERRY-S1 session.
+
 ### 2026-07-30 — MAP SCOPE EXTENDED BEYOND AGENTS: `SURFACES.tsv` added to the memory model (PAT-071)
 
 - **New artifact class the standard did not have: the shared NON-AGENT surface.** `SURFACES.tsv` — one row per load-bearing thing outside `AGENTS/<NAME>/` (FORGE, BOARD, HEARTBEAT, `memory/auto/`, root `CLAUDE.md`, AGENTS.md, MESSAGING, SIGNALS, `scripts/`) carrying **owner · owner-provenance · enforcing mechanism · state · gap.** Added to MEMORY MODEL + FILES in `CLAUDE.md`.

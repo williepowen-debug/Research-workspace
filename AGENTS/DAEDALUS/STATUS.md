@@ -1,9 +1,17 @@
 # DAEDALUS STATUS
 
-**Last Updated:** 2026-07-31 boot (PROME WILL_QUEUE write-back processed — all six W1-W6 verified in-file, chain closed, SURFACES row CLOSED)
+**Last Updated:** 2026-07-31 midday (STE adaptation SHIPPED Will-approved: `STATE_VOCABULARY.md` + `STRICT_TEXT.md` + checklist row 15 + PAT-075; earlier — PROME WILL_QUEUE write-back processed, all six W1-W6 verified in-file, chain closed)
 **Class:** Meta-agent (fleet architect) · **Spawnable by:** PROME or Will · **Self-level:** L4 (L5 blocked by cadence not mechanisms; **Staleness Sweep #2 ran ON-CADENCE 7/25** — one of the two L5 legs now demonstrated; remaining leg = Production Review on-cadence 8/5 w/ self-scope clean)
 
 ---
+
+## 2026-07-31 midday — STE ADAPTATION SHIPPED (Will-directed: assess → approved A+B → built same session)
+
+**Provenance:** Will brought a YT analysis of ASD-STE100 (Simplified Technical English) applied to AI writing; assessment → `design/2026-07-31_STE_WRITING_STANDARD_ASSESSMENT.md` (2 recommend / 1 do-not-build / explicit not-to-adopt list); Will approved A+B. **The adaptation inverted the target: not prose style — the Output Canon already IS a writing system — but state tokens as interfaces (PAT-069 at word grain).**
+
+**Inventory ran first ([[finding_daedalus_encode_existing_needs_live_read]]), and it carried the argument:** 10 dead-banner variants in live use (banner-position: FROZEN 146 · SUPERSEDED 52 · RETIRED 34 · ARCHIVED 10 + 3 more); **the gate negative pole split FOUR ways nearly evenly** (`NOT FIRED` 42 / `NOT-FIRED` 40 / `NO-FIRE` 13 / `UNFIRED` 12 — a one-spelling grep silently misses half the fleet, the PAT-074 shape); ~5 synonyms per prediction-resolution pole. Discovery dividend: **SUPERSEDED — the #2 banner token — is absent from `STATIC_BANNER_MARKERS`** (latent not live: current instances sit on .md docs outside the enforcer's globs); fix rides the approved TERRY-S1 `ledger_staleness.py` session, not patched separately.
+
+**Shipped:** ① `BLUEPRINTS/STATE_VOCABULARY.md` — canonical token per state, 3 classes (FROZEN/SUPERSEDED/RETIRED w/ distinct semantics incl. SUPERSEDED-must-name-successor · ARMED/FIRED/NOT-FIRED/STOOD-DOWN · OPEN/HIT/MISS/VOID/STUCK), legacy grandfathered, historical grades never rewritten, floor-not-ceiling (CRACKING/RE-ARMED, DORMANT→TRIGGERED stay canonical locally), enforcement map included. ② `BLUEPRINTS/STRICT_TEXT.md` — 10 checkable rules for cost-bearing text ONLY (packet ACTION lines, script messages, gate specs, prediction letters); prose + Will-facing voice exempt; explicitly NOT a linter (ruled do-not-build — FP generator vs best-documented agents + unowned-enforcer class). ③ Wiring: 1 cite-bullet each in all 3 blueprint variants + `REGISTRATION_CHECKLIST` **row 15** (now 15 surface classes; retirement grep count updated). ④ **PAT-075** banked + EVOLUTION entry (external-provenance standard change — first blueprint content adapted from outside the fleet). Self-scope (PAT-050): my own surfaces grandfathered like everyone's; registry binds them at next NEW surface.
 
 ## 2026-07-31 boot — PROME WILL_QUEUE write-back processed, full chain closed
 
