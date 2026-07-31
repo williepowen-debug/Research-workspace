@@ -34,7 +34,6 @@ Human-readable twin of `docket/CATALYSTS.tsv`. **The two must not diverge** — 
 | **~Aug 31** | **USTR Section 301 final rule** *(added 7/24 — replaces the fired-and-MISSED 7/20 row)* | Did the Sec-301 replacement land, at what effective rate (proposed 12.5% / 46 countries)? Federal Circuit on Sec-122 legality (6/11 stay keeps CBP collecting). **CRL-23 second conjunct**: ≥10% effective through Q4-26. Sec-122 expired 7/24 with no successor in force. IEEPA precedent: ~$166B refunds | 🟠 |
 | ~Sep 15 | Food CPI YoY approaching/breaching 4% | CRL-10 (62%, Q4 baseline) | 🟠 |
 | **Sep 30** | **FL minimum wage step 3: $14 → $15 (Amendment 2)** *(added 7/31 from MARCO's 7/25b retraction — the labor-supply reading of FL hosp wages +8.75% was a min-wage artifact; the statutory cost-push leg survives and is cleanly CARL's)* | A ~7% wage-floor step in FL's largest-exposure sector = **dated, forward-visible FL services-inflation impulse landing Q4-2026**. Watch FL services-CPI vs national divergence; V7 cost-stack input | 🟡 |
-| ~Sep | 9th Cir Sweet v. McMahon oral argument | Sweet relief durability (bounded cohort); watch-only | 🟡 |
 
 ## October
 | Date | Event | Test | Pri |
