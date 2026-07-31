@@ -103,6 +103,7 @@
 - finding_sample_size_vs_identification_defect — "More data" fixes a sample-size defect and never fixes an identification defect — check which one you have before promising that another period, quarter, or print will settle it
 - finding_perturb_inputs_to_test_base_rate — Reproducing a base rate only proves the arithmetic; the real test is correcting its INPUTS at source and seeing whether the conclusion survives — do it before the number carries a live position or prediction
 - finding_gate_bias_is_placement_error_compare_to_margin — A known bias in a threshold is a PLACEMENT error and only binds near the boundary — quantify it in the metric's own units and compare to the realized margin before discounting a verdict
+- finding_absence_tell_needs_a_talkative_instrument — "They didn't mention X" is only evidence if the source had room and habit to mention anything; rank direct-question refusals > presence-tells > absence-tells, diff like-for-like (statement↔statement), and grade a branch's IMPLICATION separately from the branch (right bucket + wrong consequence is the expensive outcome)
 
 ## Trade / position / risk discipline — embed-pending → `AGENTS/TERRY/RISK_RULES.md` + card templates (packet 2026-07-31)
 - feedback_deploy_on_trigger_not_calendar — "Will deploys fresh capital ONLY on a fired trigger, never on mechanical book-maintenance; limited funds = preserve dry powder"
