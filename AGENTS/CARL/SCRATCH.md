@@ -1,7 +1,7 @@
 # CARL SCRATCH
 **Last session:** 2026-07-31 (Fri) ~16:25–18:15 ET — 7-day-gap catch-up; FOMC graded, inbox drained (14), 7/31 prints integrated, BOARD 77 cleared, 8 ABS 10-Ds reviewed. **No score change: 51/70 holds.** THESIS v2.6.3.
 
-**PRIORITY-1:** **The ~10-day resolution window is OPEN: V5 3→4 decides at Sunday's 8/3 close (packet ready, WILL DECISION — 2 FRED weeks >$4.00 already printed); then Fitch ATR refresh 8/3 (BEFORE the HHDC; the Mar 6.11% print is anchored on the seasonal LOW per OTTO's panel); then the Q2 HHDC prints INSIDE 8/4-8/11 (pin exact date from the NY Fed advisory — check every boot) and grades by the FROZEN CARD + its 7/31 addenda, with CRL-21's capital commitment riding the cells per Will's standing ruling.**
+**PRIORITY-1:** **The ~10-day resolution window is OPEN — and V5 is now PRE-AUTHORIZED (Will ruled 7/31 eve, option a): verify the 8/3 close (FRED weekly + AAA daily still ≥$4.00) → EXECUTE V5 3→4 (51→52/70, touches 5 surfaces per Check B), no further ask; retrace first = hold 3.** Then: Fitch ATR refresh 8/3 (BEFORE the HHDC; the Mar 6.11% print is anchored on the seasonal LOW per OTTO's panel); the Q2 HHDC prints INSIDE 8/4-8/11 (**pin exact date from the NY Fed advisory — check every boot**; modal Tue 8/4) and grades by the FROZEN CARD + its 7/31 addenda, with CRL-21's capital riding the cells per Will's standing 7/24 ruling (unamended). **CRL-14 successor: Will approved retire+replace (opt a) — draft is with Will for review; REGISTER on his approval, then retire CRL-14.**
 
 ---
 
@@ -47,8 +47,8 @@
 5. **~8/5** Treasury Phase 1 verification (STUE) · **8/7 July NFP — V16 re-arm resolver** · **8/12 July CPI (pre-registered SOFT — do not grade pass-through)** · **~8/15 Russia-ban test** (ban already EXTENDED per RED — grade the crack vs 5-yr seasonal norm) · **8/20-21** Affirm FQ4 + Iran waiver expiry (CRL-08 45% live tail) · **~early Sept: CRMT covenant-relief expiry** (dated checkpoint, REGINALD co-owns).
 
 ### AWAITING WILL
-6. **CRL-14 retire+replace** (successor ~50%, Q3-Q4 2027, non-litigation instrument — re-base trap pre-flagged) + **Doc 54 PACER pull (~$0.30)** — the live discriminator on MOHELA settling.
-7. V5 (item 1) and, when the HHDC lands, the card cells fire per the standing 7/24 ruling (TERRY constructs; Aug-21 expiries same session).
+6. **CRL-14 successor draft** — retire+replace APPROVED (7/31 eve, opt a); the CFPB-complaint-instrument draft is with Will for text review. Register on approval → retire CRL-14. **Doc 54 PACER pull (~$0.30)** still open, no deadline.
+7. ~~V5~~ **RULED — pre-authorized conditional (see PRIORITY-1).** When the HHDC lands, the card cells fire per the standing 7/24 ruling, unamended (TERRY constructs; Aug-21 expiries same session).
 
 ### BACKLOG
 8. CPI component-vol REBUILD from BLS (SIG-725-016 — cite nothing until rebuilt) · Part D lead verify (DOC/POLLY) · AMCAR Apr-vs-Jun cert pull + abs_monitor GMCAR label fix · Brier re-run at N≈20 · container-freight AEOLUS reconcile (KB-344).

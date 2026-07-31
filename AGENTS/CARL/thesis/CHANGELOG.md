@@ -8,6 +8,11 @@ Tracks all changes to THESIS.md and PREDICTIONS.tsv. Reverse chronological. Each
 
 ---
 
+## 2026-07-31 (evening) — TWO WILL RULINGS recorded (proposal loop closed, root Rule 10)
+
+1. **V5 3→4 PRE-AUTHORIZED CONDITIONAL (option a):** if the pump is still ≥$4.00 at Sunday 8/3's window close, CARL **executes** the upgrade (51→52/70) at next session with no further ask; a retrace below $4.00 first = sustain fails, V5 holds 3. Recorded in STATUS gas row + docket. *Not executed — score unchanged until the condition verifies against the 8/3 FRED weekly + AAA daily.*
+2. **CRL-14 RETIRE+REPLACE APPROVED (option a):** successor to be a genuinely new, mechanically-resolvable claim (CFPB-complaint instrument, ~50%, window through Q3-2027) — **draft presented to Will for review before registration** per the standing promise; CRL-14 stays STUCK until the successor registers, then retires. Re-base trap honored (a delinquency-worded re-base was already true at Date_Made — forbidden). Doc 54 PACER pull (~$0.30) remains an open Will action, no deadline. The 7/24 HHDC-card cell ruling (CRL-21 capital) stands unamended.
+
 ## 2026-07-31 (same session, ledger changes) — CRL-14 55%/STUCK (Will-approved) · CRL-13 window compressed · sleeve +2 legs under CRL-20 · HHDC re-dated to 8/4-8/11
 
 - **CRL-14: 65→55%, OPEN→STUCK** (STUE 7/25 packets, Will-approved; applied 7/31). Resolvability defects (270-day default clock puts any Jul-1-caused default ~Jul 2027, past the window; the AFT litigation is in a **settlement stay** that forecloses the attribution instrument) are booked in **Status**, not Confidence — only the ~10pt genuine world-update (wave-1 no-spike + the ~1.3M/qtr cure channel) is priced. **Retracted:** the "May 28 status conference" (no such docket entry — aggregator artifact). **Open Will decisions:** retire+replace with a measurable successor (~50%, Q3-Q4 2027, non-litigation instrument); Doc 54 PACER pull (~$0.30).
