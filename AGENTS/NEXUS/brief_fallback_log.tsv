@@ -31,3 +31,5 @@ date	agent	cause	note
 2026-07-28	HENRY	stale	brief 7/23 < STATUS 7/27 (gamma refresh + CPI-date fixes) — read raw
 2026-07-28	BROCK	stale	brief 7/9 vs STATUS 7/27 = 5th consecutive stalest-active flag; read raw (X1 re-test, BRK-32, calendar re-base)
 2026-07-28	SHADE	stale	brief-less by design; read raw for M-11 (Delaware Life primary + weld-2 + FABN canary)
+2026-07-31	HENRY	stale	brief 7/23 < STATUS 7/29 (FOMC grade + HEN-36 gate + gamma refresh) - raw STATUS read
+2026-07-31	RED	stale	brief 7/24 < STATUS 7/29 (S26 FOMC grade, WL-06 fire, re-mark) - raw STATUS read

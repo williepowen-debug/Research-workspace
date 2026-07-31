@@ -181,6 +181,15 @@ Disc-D's citation-count check catches the same *observation* cited N times; Disc
 - **Companion caveat (CHG-043-A, FALCON-side):** composite scalars can be concave in severity — a scalar near its ceiling under-prints a bigger real event. When consuming another agent's composite (FALCON 42/50, BRENT matrices), check how much headroom remains for the *physical* event class before treating a small further move as "already priced."
 - (`RED CHG-043-B` — provenance; rule text lives here per spec-text rule. Disc-D citation-guard and Disc-F root-map remain in force; H is the surface-reuse third leg.)
 
+### I. Scope-qualified summary phrases (aggregator-propagation guard — adopted 2026-07-31, HAWK/FALCON/BRENT molecule-split window)
+
+NEXUS is the fleet's highest-fan-out surface: a summary phrase that is wrong on this board reaches more consumers than one wrong anywhere else ("you are named first because you aggregate" — HAWK 7/28). The failure class: a phrase TRUE of a subset propagates unqualified and manufactures a false general claim — "zero confirmed barrels offline" was true of CRUDE while LNG had been in force-majeure supply-loss for four months and refined product went into supply-loss mid-window.
+
+- **Rule:** before writing a load-bearing summary phrase into STATUS (a "zero X," an "all Y benign," a "no Z has happened"), name its scope axes explicitly — molecule/asset-class, theater, instrument, event-vs-state — and qualify the phrase to the subset actually verified. An EVENT has a date; a STATE (an FM, a ban, a closure) has a DURATION and needs a lifted-check, not a memory of the start date.
+- **Tell:** the phrase is a NEGATIVE ("zero," "none," "no confirmed") derived from an instrument that cannot see all the things the phrase denies (FALCON's strike ledger could not see a force majeure; per `[[finding_scope_negative_needs_the_counterparty_standard]]` a scope-negative gets counterparty-grade verification).
+- **Cost, measured:** the unqualified phrase sat on ≥5 fleet surfaces (NEXUS/WALTER/FALCON×3) for weeks; FAL-03 was published already-failed because of it; SAM priced Japan's LNG exposure off the wrong regime.
+- (Provenance: HAWK 7/28 packet + FALCON FAL-03 post-mortem + BRENT v5.2; companion memory `[[finding_widened_scope_needs_rescoped_instrument]]`. Rule text lives here per spec-text rule.)
+
 ---
 
 ## WHAT YOU READ
