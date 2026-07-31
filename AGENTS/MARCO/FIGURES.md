@@ -26,6 +26,13 @@ All five BLS figures reproduced **exactly** to the digit. These are the survivin
 | **Unemployment rate, U-3** | **4.2%** (yr-ago 4.1) | Jun 2026 | BLS API `LNS14000000` | STATUS dashboard |
 | **CPI fresh fruits & vegetables, YoY** | **+5.71%** (index 416.849) | Jun 2026 | BLS API `CUUR0000SAF1131` | STATUS dashboard |
 | **H-2A certifications, FY26-through-Q2** | **254,688** (+16.9% YoY; Q1 62,367 + Q2 192,321) | FY26 Q2 | OFLC disclosure XLSX, dol.gov direct | `VX.tsv` H2A-01 · MAR-11 |
+| **FL median days on market** | **78 days** (+8.3% vs pre-COVID Jun 2017-19 mean of 72; YoY −2.5%) | Jun 2026 | Realtor.com RDC Inventory Core Metrics, econdata S3 | `VX.tsv` FL-03 |
+| **Canadian intent — 'flights to florida'** | index 46.8 = **−7.2% vs Jun'24** | Jun 2026 | Google Trends, geo=CA, all-categories | `VX.tsv` GTR-01 |
+| **Canadian intent — 'florida' [Travel cat]** | index 29.2 = **−43.8% vs Jun'24** → BREACHED | Jun 2026 | Google Trends, geo=CA, **category 67** | `VX.tsv` GTR-01 |
+
+**⚠️ Basis traps caught while verifying these — both would have produced a WRONG re-mark:**
+- **Google Trends: keyword AND category are load-bearing.** A first pull used `'florida vacation'` / all-categories and returned **+36.2% vs 2024**; the founding series is `'florida'` filtered to **Travel (cat 67)**, which returns **−43.8%**. **The correct basis reversed the sign of the conclusion.** The index is also *relative 0-100 within a single pull* — never compare across pulls.
+- **FL days on market: compare the SAME MONTH.** The old CRITICAL mark rested on "+41% vs Mar 2024" — March (58 days) is peak selling season, June is slow, so cross-month comparison manufactures ~30pp. The carried "98 days (Nov)" also **did not reproduce** (Realtor.com Nov'25 = 81), meaning the old row mixed metrics. Baseline is now pinned to **pre-COVID same-month**.
 
 **Two notes on the above, so nobody re-derives them wrong:**
 - The **−700K** is a *year-over-year* comparison of a **NSA** series. The **~1.0M** figure also carried in THESIS is a **peak-to-trough** measure (Mar'25→Feb'26), not the same statistic. **Both are correct; they are different measures.** Do not average, sum, or substitute them.
