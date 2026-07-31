@@ -6,7 +6,9 @@
 
 ## ⏳ FIRST THING NEXT SESSION
 
-**0. 🔴 TWO PRINTS LANDED THIS AFTERNOON AND ARE UNGRADED. DO THESE FIRST — THEY MUST NOT STACK INTO 8/7.**
+**0a. ✅ BAKER HUGHES 7/31 IN — 451 OIL RIGS (+1 WoW from 450). NOT A BREACH; 6 TO THE 457 LINE.** [CONF two independent pulls 13:17 ET: TradingEconomics *"increased to 451 in July 31 from 450"* · YCharts *451.00 wk 2026-07-31, prior 450.00 wk 07-24, +0.22%*]. Ladder: **452 (7/17) → 450 (7/24, −2) → 451 (7/31, +1).** **BRT-26 breach-WATCH only — window is end-Q3 2026, NOT resolved.** Mechanism unchanged and it still does not rescue my 7/21 call: **rigs lag price 4-8 weeks**, so this reflects late-May/June $70s-80s decisions — **neither the $100.69 spike (7/23) nor the −18.1% crash has fed through yet.** ~9 weeks to end-Q3: **+1/wk ⇒ ~460 breaches · flat ⇒ holds.** Razor-thin, as registered. ⚠️ **Ledger write-back (PREDICTIONS.tsv BRT-26 + CATALYSTS row) OWED AT CLOSEOUT — not yet written.**
+
+**0. 🔴 COT STILL UNGRADED. DO IT FIRST — IT MUST NOT STACK INTO 8/7.**
    - **CFTC COT as-of 7/28** (~3:30 PM ET) — **THE print**: first vintage containing BOTH the $100.69 high AND the −18.1% crash. Ladder from **123,490** (base 129,072). Run `cot_grade.py --expect 2026-07-28`; **exit 3 = not fresh, WAIT.** **Grade off raw `f_disagg.txt`, NOT Socrata alone.**
    - **Baker Hughes** (~1:00 PM ET) — from **450**, frozen line **457**, **7 away**. **BRT-26 breach-WATCH, NOT a resolution** — the window is end-Q3. Two independent pulls (LESSONS #1).
 
