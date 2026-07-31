@@ -1,3 +1,5 @@
+# LIVE — Last real data refresh: 2026-07-31 | Staleness sweep (no data): 2026-07-31 | Next: NY Fed Q2 HHDC (modal Tue 2026-08-04, window 08-04..08-11)
+# 7/31 was a REAL data refresh: +2 dated rows (Sweet 9th Cir 26-1136 DECIDED 7/17; RAP auto-pay deadline 9/30). Not a hygiene pass.
 Date	Event	Population	Impact	Status	CARL_Vector	Notes
 2025-07-01	Working Families Tax Cuts Act signed — SAVE REPEALED	7.5M SAVE enrollees	Legislative. No legal path to reinstate SAVE.	FIRED	V4 (Student), V9 (K-shape)	Reconciliation bill. Forces all SAVE borrowers out.
 2025-09-01	COVID on-ramp ends — credit reporting resumes	All borrowers	DQ now hits credit reports. Shadow DQ → visible DQ.	FIRED	V1 (CC), V4 (Student)	Shadow DQ was 15.6% by Sep 2024. Now visible.

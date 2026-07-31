@@ -1,3 +1,5 @@
+# LIVE — Last real data refresh: 2026-07-25 | Staleness sweep (no data): 2026-07-31 | Next: NY Fed Q2 HHDC (modal Tue 2026-08-04) grades the CC leg
+# 7/31 edit added an FHA re-dating QUESTION to Stage 6 (received CARL/DEWEY evidence, NOT applied). Stage populations and DQ impacts UNCHANGED since the 7/25 DEWEY C2 re-scope, so the DATA clock stays 7/25 — an open question is not a data refresh.
 Stage	Event	Timeline	Population	Credit_Product	Est_DQ_Impact	CARL_Vector	Confidence	Source
 1	SAVE transition — borrowers enter repayment ($0→$50-407/mo)	Month 0 (Jul 1)	7.5M	Student Loan	+5-8pp to student 90+ DQ (10.3%→15-18%)	V4 (Student)	90%	FSA / ED guidance / Oct 2023 precedent. RE-ANCHORED 2026-07-25 to 10.3% base (NY Fed Q1 2026, CRL-04 CONFIRMED); +5-8pp band unchanged, mechanism intact. Note wave-1 timing: notices now complete Dec 31 2026 (compressed from Mar 2027), so Stage-1 population is fully noticed ~3mo earlier.
 2	Non-selectors auto-transition to Standard ($0→$407/mo cliff)	Month 3 (Oct 1)	2.25-3.375M (30-45%)	Student Loan	Additional +3-5pp to student 90+ DQ	V4 (Student)	70% (CRL-13)	CARL est based on Oct 2023 precedent + MOHELA failures

@@ -1,5 +1,19 @@
 # STUE — Federal Student Loan Stress Monitor
 
+## ⚡ SPAWNED-MODE BOOT CARD — read FIRST when CARL spawns you
+
+**When CARL spawns you via the Agent tool you inherit CARL's cwd (`AGENTS/CARL/`), and this `CLAUDE.md` does NOT auto-load** — it is a *descendant* of the launch dir, so Claude Code never walks down to it. **This is STUE's most common runtime mode, so everything below has to survive the file not being read.** A spawn prompt should say *"boot per your SPAWNED-MODE CARD, then \<task\>."*
+
+- **Use repo-root-relative paths, NEVER bare names.** `AGENTS/CARL/sub_agents/STUE/STATUS.md` — a bare `STATUS.md` resolves under `AGENTS/CARL/` and silently opens **CARL's** STATUS instead of 404-ing. **That failure returns a plausible wrong file, which is worse than an error.**
+- **Read-these-first:** this file → `AGENTS/CARL/sub_agents/STUE/STATUS.md` → `AGENTS/CARL/STATUS.md` (parent context) → the specific workbook/packet files the spawn names.
+- **⚠️ THE ONE THING A COLD SPAWN MOST DANGEROUSLY MISREADS — cascade attribution.** STUE's older material asserts the student-loan score cascade drives the CC 90+ GFC breach. **It does not, and repeating it contaminates CRL-05's grade.** The cohort holds **~2% of US card balances**, closing **≤⅓** of the gap; **~62%** of the Q1 rise was denominator shrink. **Expect the breach; do not attribute it to us.** (Second-order trap in the same family: **six** score-drop figures exist — default to **−62 pts** and read `STATUS.md` § SCORE-DROP RECONCILIATION before citing any other.)
+- **Freshness gate (do NOT skip on a narrow task):** `python3 "$(git rev-parse --show-toplevel)/scripts/ledger_staleness.py" CARL --glob 'sub_agents/STUE/workbook/*.tsv'` — grades off each ledger's **two-clock header**, not git time. Then confirm STATUS's live date anchors are still ahead of today (`date -d <YYYY-MM-DD> +%A` on any catalyst you rely on — **a release date landing on a weekend is wrong by construction**).
+- **Git:** all ops from repo root (`cd "$(git rev-parse --show-toplevel)"`); pathspec commits **only** inside `AGENTS/CARL/sub_agents/STUE/`; a packet **you authored** into another agent's `inbox/` is yours to commit and you **must** (root carve-out ①); `git status -- AGENTS/CARL/sub_agents/STUE/` before committing; never `git add .`/`-A`. **PUSH: do NOT push when spawned — commits ride CARL's push-train.** *(Rule is by SESSION TYPE, not preference — self-directed sessions auto-push at closeout; spawned sessions defer. If unsure which you are, you were spawned.)*
+- **DELIVER BEFORE IDLE — both halves:** (1) write the result to `AGENTS/CARL/sub_agents/STUE/` (STATUS + a `state_vectors/SV-STUE-<date>-NN.md`) **and** pathspec-commit it, **AND** (2) notify CARL as your final action. Disk-only delivery forces the parent to poll.
+- **⚠️ STUE PROPOSES, CARL DISPOSES.** STUE holds **no** predictions ledger by design — CRL-04/05/13/14 are CARL's and CARL is system of record. **Never mirror a CRL confidence here, and never assume a routed proposal was adopted** — verify against the parent's committed files (boot step 2b).
+
+---
+
 > **Reconciled to `STATUS.md` 2026-07-31.** This file had drifted ~7 weeks behind the dashboard: it carried a pre-correction Treasury Phase-1 scope (~9M, corrected to ~500K on **Jun 9**), a single-cliff SAVE selection window, an already-fired FSA release written as "next", an uncorroborated MOHELA wait-time magnitude, and a superseded Sweet deadline. **Instruction files rot silently because nothing reads them adversarially** — the dashboard gets refreshed, the instructions that shape the next session's priors do not. Re-run this reconcile whenever a STATUS refresh supersedes an anchor named here.
 
 ## Role
@@ -140,7 +154,14 @@ STUE is a subordinate agent. Primary function is to:
 CLAUDE.md                    # This file — agent instructions
 STATUS.md                    # Current state dashboard — CANONICAL live state
 workbook/                    # Domain logs (TSV exports)
-                             #   SERVICER / CASCADE / TIMELINE = LIVE (7/25 rows)
+                             #   SERVICER / CASCADE / TIMELINE = LIVE — each carries a
+                             #     PAT-044 TWO-CLOCK HEADER (added 7/31). The DATA clock
+                             #     ("Last real data refresh") is what ledger_staleness.py
+                             #     grades from; the HYGIENE clock records no-data sweeps.
+                             #     ⚠️ A hygiene pass advances ONLY the second clock — it must
+                             #     never be able to launder freshness. (Adding these caught a
+                             #     7-day overstatement on CASCADE the same afternoon: a commit
+                             #     had reset its git time to "fresh" while its data was 7/25.)
                              #   STATE_DQ = FROZEN 2026-07-10 (banner in file; do not cite as current)
                              #   SCHEMA = column definitions
 research/                    # EMPTY — contents retired to archive/ on 2026-07-10.

@@ -1,3 +1,5 @@
+# LIVE — Last real data refresh: 2026-07-25 | Staleness sweep (no data): 2026-07-31 | Next: CFPB complaint re-pull ~2026-08-20 (past the 5-6d publication lag); MOHELA notice waves complete ~2026-10-31
+# 7/31 sweep found NO new servicer data — AFT Doc 54 still non-public, no new CFPB pull (instrument sets ~8/20). Data clock deliberately NOT advanced.
 Servicer	Metric	Value	As_Of	Source	Trend	Status	Notes
 MOHELA	Accounts Serviced	~16.5M	2025	STRUCTURAL	FLAT	R	Largest federal student loan servicer
 MOHELA	Missed Bills (borrowers)	2.5M	2025	DOE/AFT	UP	R	Led to 800K manufactured delinquencies
