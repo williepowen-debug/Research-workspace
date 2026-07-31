@@ -16,11 +16,10 @@
 
 | # | Item | Type | Needed by | Since | PROME rec | Notes |
 |---|---|---|---|---|---|---|
-| 9 | Bank-put reshape disposition — **UNBLOCKED 7/31**: RED confirmed the sustain (policy-day prints count; robust on both branches, print #4 = 284) + FT-01 un-fired | RULE | none (no fire-clock; BDC marks 8/4-8/6 = nearest context) | 7/30 | TERRY rebuilds from 7/30 export; no fresh capital absent X1 | level-leg fire on the NARROWER thesis; BANK-ABSENT attribution of record; NOT X1; LIQUID's brief + §3 framing already with you |
 | 10 | Fresh rising-vol registration — go/no-go | RULE | none | 7/30 | — | your own 7/30 AM question; VIOLET owns the proposal on GO; nothing pre-committed |
-| 12 | HENRY standing boot-rule blessing | RULE | none | 7/28 | mechanical-trigger version | inbox-at-boot rule change, PROME rec on record |
-| 13 | FFIEC CDR account | BUY | none | 7/28 | do it (5 min) | DAEDALUS's ask |
-| 14 | DEWEY entitlement purchase | BUY | blocked on DEWEY | 7/25 | — | ⛔ waits: DEWEY one-liner · Tier 1 ruled 7/25; DEWEY owes the product/tier/price one-liner first; you spend only on that |
+| 12 | HENRY standing boot-rule blessing | RULE | none | 7/28 | mechanical-trigger version | artifact-checked 7/31: WALTER-lane inbox step ALREADY exists (CLAUDE.md 3a); the open half is the GENERAL inbox at boot — bless the mechanical version of that half only |
+| 13 | FFIEC CDR account | BUY | none | 7/28 | do it (5 min) | artifact-checked 7/31: still live + load-bearing — DAEDALUS STATUS names it the Will-side blocker that UNBLOCKS WAL MI3 (WAL wired a boot reminder waiting on it) |
+| 14 | DEWEY entitlements — **SPEND-CLASS decision, re-scoped 7/31 artifact-check**: DEWEY's spec DELIVERED 7/28 (queue carried "blocked on DEWEY" for 3 days — same class as QQQFADE). DEWEY's own rec: **"Buy nothing yet"** — correct S&P products are enterprise quote-only, credible range ~$12-30K/user/yr, 2-3 orders above what "spec the price" implied | RULE | none | 7/25 | read DEWEY's memo; likely answer = decline/downscope | `AGENTS/DEWEY/outbox/2026-07-28_to-WILL_entitlements-SP-first-spec-and-a-cheaper-path.md` (has a cheaper-path section) |
 | 15 | RAV charter review → formal ROSTER row | RULE | none | 7/25 | — | DAEDALUS drafted the charter 7/30 (`2b9dbeac`); your review unlocks the registry row |
 | 16 | Next broker export + confirms bundle | BROKER | none (next export) | 7/24 | — | one export resolves: off-rail confirms D-1/2/3 (AAPL/GLD/USO→35 ⇒ concentration packets fire), D-6 USO-spread account, D-7 $565+$1,500, D-10 MAIN≟IRA label, tail-rider debit, QQQ 680P figures + strike re-verify, VIXCS timestamped order (settles TERRY's S3 carry) |
 | 17 | Repo public flip | ACTION | none | 6/30 | — | all pre-flip blockers closed since 7/4; flip ⇒ delete DESKTOP mirror backup + Phase-5 verify |
@@ -29,6 +28,7 @@
 
 | Item | Done | Record |
 |---|---|---|
+| Bank-put reshape disposition (was row 9) — RULED by Will 7/31 in-session: rebuild-no-fresh-capital (the standing rec), implementation = Mon 8/3 TERRY spawn | 7/31 | DOCKET 2026-08-03 row; deployment stays Will-gated on X1/wrapper |
 | QQQFADE (was row 8) — RETIRED FROM QUEUE: the card's own operative verdict is ⏸️ PARKED/DO-NOT-ACTION (Will-directed 7/30 ~11:40, superseding the conditional verdict this row mis-carried since 7/30 — PROME error, owned 7/31 when Will asked for provenance). Card stays on TERRY's file; any future fade = fresh re-mark + thesis owner | 7/31 | `AGENTS/TERRY/setups/WILL_qqq-downtrend-putspread_2026-07-30.md` header verdict; live-mark check 7/31 (~$361, ~6.9:1) recorded in-session |
 | scripts/-ownership (was row 6) — RULED: DAEDALUS owns repo-root scripts/ (maintenance/break-fix/standards); enforcer patch TRANSFERS with it; PROME keeps PROME/tools/ only | 7/31 | grant packet AGENTS/DAEDALUS/inbox 2026-07-31; PAT-074 = the precedent Will accepted |
 | NO_HARVEST_RULE (was row 11) — ADOPTED fleet-wide: mandatory build-time card field | 7/31 | ruling packet AGENTS/TERRY/inbox 2026-07-31; PROME mirrors in own scaffolds at next touch |
