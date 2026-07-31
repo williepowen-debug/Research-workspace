@@ -23,6 +23,7 @@
 - feedback_handoff_cadence — Will prefers clean handoffs at natural breakpoints over riding a long session into degradation
 - finding_state_token_sweep_all_surfaces — "When a gate/decision state flips (e.g. FIRED-UNEXECUTED → RESOLVED), sweep the state-token across ALL surfaces — live ledgers (VX/KB.tsv) and live templates/setups too, not just STATUS/SCRATCH; scope the verification grep from repo root."
 - finding_completion_stamp_skip_reads_as_current — "a file whose NAME promises currency (LAST_COMPLETION) that SKIPS a closeout doesn't read as stale — it reads as current and wrong; detect by mtime vs STATUS.md"
+- finding_derived_surface_fold_is_the_last_writeback — 5-of-5 stale derived surfaces were MID-SESSION writes left behind by later primary work; fix is ORDERING (fold last, pre-git), not compliance — check fold-commit-time ≥ last primary-commit-time (NEXUS brief-audit 7/31; schema amendment 10)
 
 ## Sub-agents, teams & workflow orchestration — embedded → `PROME/ORCHESTRATION_PLAYBOOK.md` §Fleet-memory embeds (2026-07-31)
 - finding_subagent_escalation_mode_discriminator — Propose-only sub-agents (KOYOMI/KURA/METSUKE pattern) should discriminate escalation handling — money/irreversible blocks on Will; low-stakes/reversible structural applies sane default + logs rationale + flags for veto
