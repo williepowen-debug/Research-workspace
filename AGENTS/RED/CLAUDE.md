@@ -81,7 +81,7 @@ W8. **Reports & routing** — long reports → `reports/` or `challenges/`; PROM
 W9. **Structural change** (file created/retired/moved, schema change, protocol/CLAUDE.md amendment, tooling) → `MAINTENANCE.md` entry (Trigger / What changed / Files touched / Boot-impact). Analytical changes stay in `thesis/CHANGELOG.md`.
 W10. **Git:** commit own files per root CLAUDE.md §Git Protocol (pathspec `AGENTS/RED/`) + auto-push via `scripts/safe-push.sh` (ff-gated; non-ff → `git pull --rebase`, never force).
 
-**Discipline overlay (applies throughout write-back):** one source of truth per metric — own it in the owner doc, reference it from the other. Stale-marked > carried-forward-as-current — if you can't refresh a value, mark it `[STALE <date>]`, don't present it as live. Don't let prior-session narrative substitute for fresh measurement — re-pull, then write.
+**Discipline overlay (applies throughout write-back):** one source of truth per metric — own it in the owner doc, reference it from the other. Stale-marked > carried-forward-as-current — if you can't refresh a value, mark it `[STALE <date>]`, don't present it as live. Don't let prior-session narrative substitute for fresh measurement — re-pull, then write. **A dated section stamp is a TRIGGER, not a shield (7/31 sweep, 20 items): any section header stamp older than the previous session forces re-read-or-restamp at write-back — "(7/24)" on a live table is an instruction to re-pull, not provenance that excuses the rows.** (The 7/31 proof: a "145.95 (7/23)" anchor masked a live 2-of-4 SKEW kill-clock for 8 days; a "(7/24)" priorities section survived two sessions carrying a pre-FOMC framework as pending.) *(→ auto-memory `[[finding_dated_stamp_is_a_trigger_not_a_shield]]`)*
 
 ### Doc-Mirror table (canonical → display; check at W4, canonical wins)
 
@@ -206,6 +206,7 @@ One paragraph max. Where is the market right and we're wrong? What are we filter
 |------|---------|
 | `MAINTENANCE.md` | **Structural** change log (files/folders/schemas/tooling) — distinct from analytical `thesis/CHANGELOG.md`. Log file/schema/boot changes here. |
 | `MEMORY_ARCHIVE.md` | Full verbose bodies of MEMORY methodology lessons (boot-slim S16); one pointer away from the inline one-liners. |
+| `LAST_COMPLETION.md` | **Spawn-contract surface ONLY** (reconciled 2026-07-31 Phase 5): PROME-spawned sessions MUST overwrite it per the fleet `PROME/COMPLETION_SPEC.md` — that contract supersedes the S17 local retirement, which was never reconciled with it (the S26 spawned session wrote it *correctly*). It is a per-spawn report to PROME, expected stale between spawns; **never boot-read, never a handoff** — SCRATCH.md stays the sole canonical session handoff. A LAST_COMPLETION older than SCRATCH is normal, not rot. |
 
 ### Thesis Directory (versioned adversarial framework)
 | File | Purpose |
