@@ -36,6 +36,7 @@
 
 | Item | Done | Record |
 |---|---|---|
+| BRENT audit rulings ×4 — F3 pointer-replacement · F4 crack-line RETIRE · C2 index-carries-prose + checker opens prose · C6 stamps=agreement-checks; BRENT implements post-COT in the closeout pass | 7/31 | relay on BRENT's record ~12:50; implementation anchor = BRENT's closeout commit (verify at artifact) |
 | Memory-migration date (was row 3) — RULED pull-to-today, EXECUTED same session | 7/31 | `7b7727f0` (index split) + `5cce6942` (embeds); hot index 62% of cap |
 | BRENT Stage-A (was row 5) — RATIFIED both legs + leg-(a) CLOSE basis, implemented+verified | 7/31 | `0832c484` (STAGE-A v4 in TRADE.md; STNG veto retired; follow-ups → row 5b) |
 | Stage-A defect-② + sizing (was row 5b) — RULED C1 + half/half, implemented+verified; entry_timing contradiction resolved by phase-separation | 7/31 | `aede1959` *(hash remapped by the 11:46 rebase — was f459d824)* (v5: entry {(i)+(T)+(C)}, transit→Stage-B kill leg 2; local, push queued) |
