@@ -93,6 +93,32 @@ STUE is a subordinate agent. Primary function is to:
 >
 > **Colour-token fix 2026-07-31:** the default row read `🔴 ORANGE` — emoji and word disagreed, and 9.0M sits in the **>8M Orange** band. Corrected to 🟠.
 
+## DOC OWNERSHIP — one source of truth per metric (added 2026-07-31)
+
+> **Why this exists.** A 7/31 adversarial pass found 9 defects; **5 traced to one cause — the same number living in several files with nothing declaring which was canonical.** `CLAUDE.md` drifted 7 weeks behind `STATUS.md`; a Jun-9 Treasury correction (~9M→~500K) never propagated; **six** score-drop figures accumulated across four files; a −87..−171 band was collapsed to its worst end. **None of that was a bad number — every one was an undeclared owner.** CARL's own instructions mandate this table; STUE never had one.
+
+| Surface | OWNS (canonical — edit here first) | Must NOT contain |
+|---|---|---|
+| **`STATUS.md`** | **Every current VALUE.** Dashboard figures, default stock, DQ rates, dates, catalyst list, open questions, transmission channels, the **SCORE-DROP RECONCILIATION** table | Threshold *bands* → CLAUDE.md · dated event history → TIMELINE.tsv · cascade stage arithmetic → CASCADE.tsv |
+| **`CLAUDE.md`** (this file) | **Threshold BANDS** (yellow/orange/red), domain scope, protocol, source list, provenance pointers | ⚠️ **NO LIVE VALUES.** A number here is a *pointer* to STATUS, never the truth. **This is the rule whose absence caused the 7-week drift** |
+| **`workbook/TIMELINE.tsv`** | **Dated events** — what fired, when, status (FIRED/PROJECTED/STUCK) | Current dashboard values |
+| **`workbook/CASCADE.tsv`** | **Cascade ladder** — stage populations, est. DQ impact, per-stage confidence | Anything not a cascade stage |
+| **`workbook/SERVICER.tsv`** | **Per-servicer metrics** — MOHELA/Nelnet counts, wait/abandon, notice windows | Litigation narrative → STATUS |
+| **`workbook/STATE_DQ.tsv`** | ⛔ **FROZEN 2026-07-10** — historical only | *anything current* |
+| **`state_vectors/SV-*.md`** | **Immutable once written.** A point-in-time claim + its confidence | ⚠️ **Never edit a filed SV to match a later view** — supersede it with a new one |
+| **CARL `thesis/PREDICTIONS.tsv`** | **EXTERNAL CANONICAL** — CRL-04/05/13/14. STUE holds no ledger by design | ⚠️ **Never mirror a CRL confidence into STUE.** Read the parent's live value |
+
+**Mirror pairs — verify these agree before committing (STUE has no automated checker; see below):**
+
+| Canonical | Mirror | Failure this catches |
+|---|---|---|
+| `STATUS.md` values | `CLAUDE.md` anchors | the 7-week drift class |
+| `STATUS.md` § SCORE-DROP RECONCILIATION | every score figure in CLAUDE.md / CASCADE.tsv / TIMELINE.tsv | six-figures-one-concept |
+| `STATUS.md` CATALYSTS | `workbook/TIMELINE.tsv` dated rows | a catalyst that fired but stayed PENDING |
+| CARL `PREDICTIONS.tsv` | any CRL reference here | proposing ≠ adopted |
+
+⚠️ **STUE IS NOT COVERED BY EITHER FLEET COHERENCE ENFORCER — these pairs are hand-checked.** `consistency_check.py` reaches sub-agents *only* via `sub_agents/*/workbook/PREDICTIONS.tsv`, and **STUE deliberately has none** (correctly — the parent is system of record), so it is invisible to it. `ledger_staleness.py` scans `AGENTS/*/workbook`, one level too shallow for a sub-agent. **Two individually-correct decisions producing a blind spot.** Fix requested from CARL 7/31 (a `workbook/LEDGER_GLOB` declaring `sub_agents/*/workbook/*.tsv` — tested, brings **37** sub-agent ledgers into enforcement). **Until it lands, the table above is the only check that exists, and it runs on attention, not on a script.**
+
 ## Key Data Sources
 
 | Source | Frequency | What It Covers |
