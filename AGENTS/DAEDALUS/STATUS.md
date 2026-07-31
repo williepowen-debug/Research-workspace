@@ -1,9 +1,13 @@
 # DAEDALUS STATUS
 
-**Last Updated:** 2026-07-30 midday (Will-directed double: FORGE full architecture audit → **Will ruled PROME owns FORGE**, PAT-071 registered + `SURFACES.tsv` built; and the RAV outside-agent change review → 3 apply-ready validator fixes routed to WALTER. **One own finding RETRACTED.**)
+**Last Updated:** 2026-07-31 boot (PROME WILL_QUEUE write-back processed — all six W1-W6 verified in-file, chain closed, SURFACES row CLOSED)
 **Class:** Meta-agent (fleet architect) · **Spawnable by:** PROME or Will · **Self-level:** L4 (L5 blocked by cadence not mechanisms; **Staleness Sweep #2 ran ON-CADENCE 7/25** — one of the two L5 legs now demonstrated; remaining leg = Production Review on-cadence 8/5 w/ self-scope clean)
 
 ---
+
+## 2026-07-31 boot — PROME WILL_QUEUE write-back processed, full chain closed
+
+**All six review items (W1–W6) verified at target, not from the packet:** W1 boundary fix live — `prome_gate.py:175-178` now splits `dd == today` → **DUE TODAY** vs `dd < today` → **PASSED**, and PROME reports it fired correctly on rows #1/#2 the night of 7/30; day-resolution caveat written on the file itself (`WILL_QUEUE.md:13`). W2 cap re-scoped to ACTIONABLE rows + 21d undated AGING tripwire (`:12`, gate `:184-185`) — fired truthfully on row 17 first run. W3 `⛔ waits:` markers on rows 5/9/14 + never-a-silent-wait rule (`:9`). W4 hand-off rule (`:10`). W5 anchor-at-write + gate roll-off flag (`:11`, `:188-189`). W6 Mirror Map row (`SYSTEM.md:62`) — the grep never built, per the review. **Chain closed whole per the write-back tail rule:** SURFACES.tsv WILL_QUEUE row gap → CLOSED (2026-07-31 vintage), inbox packet → `processed/`, outbox copy → `delivered/`. FLEET_MAP untouched (no row changed — no regen needed). Sweeps cadence-checked at boot: **none due** (Falsification + HAWK sunset ride ~8/1). Pull: origin at parity (fetch-verified); BRENT/LABOR/VIOLET dirty outside my dir → no pull attempted, per protocol.
 
 ## 2026-07-30 — FORGE ARCHITECTURE AUDIT (Will-directed) → owner ruled, PAT-071 banked
 
