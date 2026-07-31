@@ -4,6 +4,26 @@
 
 ---
 
+## 2026-07-31 ~11:20 AM ET — S27: FT-01 UN-FIRED (first registry exit ever executed) — pre-registered +2 taken in full, HOLD 70→72; weights HELD; policy-day-print ruling issued (fleet precedent)
+
+**Confidence 70→72 (+2). Net-bear 68 (=). Weights unchanged from S26.**
+
+**What happened.** PROME's 7/30+7/31 packets put two rulings on me. **Ruling 1 (precedent):** a policy-day (FOMC/BOJ) print COUNTS toward a sustain window on normal terms — sustain windows are calendar-mechanical durability filters; attribution guards (Guard 1/3) govern *scoring*, never *clock membership*; the sustain mechanism itself already filters one-day policy spikes. Ruled at zero outcome-cost: print #4 (7/30 = 284, self-pulled) completes 3-of-3 ≥280 on either branch. GATE-RESHAPE-BC sustained-confirm STANDS — as a level-leg fire on a NARROWER thesis (attribution of record: 68-84% DM risk-premium beta / bank ~0bp, LIQUID+REGINALD convergence; NOT X1, never bank-convergence progress). **Ruling 2:** FT-01's WL-03 exit (sustain-3 ≥280) met on 281/284/287 (+284 4th) → UN-FIRED, the pre-registered +2 executed IN FULL — no haircut, because unlike S26's confounded VIX close this measurement is clean. The two-year "HY refuses to reprice" bull pillar exits; FT-01 re-arms <280 s=3.
+
+**Why weights did NOT move:** the un-fire's pre-registration names a confidence move, and the composition finding (risk-premium beta, bank ~0bp) reallocates *credit between channels* inside the existing buckets, not mass between them. ECI Q2 fired its composition branch (private wages 3.4→3.1 decelerating vs AHE 3.5 accelerating; BLS primary via LABOR's grade) but the Fed-contamination conjunction did NOT (the 7/29 statement leaned on energy, not wages) — no weight object. Russia ban EXTENDED by decree (bear branch of my 8/3 row, CARL weld leg-1 confirm) — Stag-composition support, not a re-mark.
+
+**Old view → new view:** "HOLD 70; FT-01 un-fire clock 2-of-3 pending; HY-refuses-to-reprice = strongest standing bull counter" → "HOLD 72; the counter is DEAD on its own registered exit, four consecutive ≥280, FOMC-day-independent; bear confidence up by exactly the pre-registered amount and nothing more. Bifurcation narrows: paper started paying the bear, but through the risk-premium channel — the regional-bank leg stays narrowed to OZK."
+
+---
+
+## 2026-07-29 ~10:45 PM ET — S26 (BACKFILLED at S27 — this entry was owed at W3 and missed): FOMC graded same-night; Stag 38→40 / Managed 32→28 / Acute 13→15 / War 11→13 / Soft 4→2; net-bear 62→68, HOLD 69→70
+
+**Confidence 69→70 (+1, haircut applied). Net-bear 62→68 (+6).** *(Written 7/31: S26 updated STATUS/workbook/docket but skipped this file — the W3 mirror failed silently in a PROME-spawned night session. Logged here so drift-tracking has the row; full rationale is in ML-RED-117/118 + `research/FOMC_JUL28-29_2026_GRADED.md`.)*
+
+RED-20 graded CORRECT both vintages (9-3 hawkish hold, 3 unified dissents, Sept odds 71.5→77%); the framework's informal "3rd hawkish-absorbed" expectation BROKE (VIX 20.66 close, first non-absorbed FOMC print of the cycle) but confounded by same-window Saudi co-belligerency → Guard 3 bound for the first time, +1 not +2 taken. WL-06 (CCC>1000) fired 7/27. Registry exit-semantics debt closed: FT-02..07 marked UNDEFINED honestly. S3×R-D did not fire (yields rose); TRY-FIRE-004 survived its hardest test.
+
+---
+
 ## 2026-07-24 ~19:30 ET — S25 (evening): NO weight change. A load-bearing premise in my own FOMC framework + CHG-028 was falsified 6 hours after I shipped it — verified independently, found worse than reported, then found wrong a *second* way nobody else caught
 
 **Confidence 69% (=). Net-bear 62% (=). Hypothesis weights UNCHANGED — this was a specification pass, not an evidence pass, and I am explicitly not letting a methodology correction masquerade as a thesis move.**
