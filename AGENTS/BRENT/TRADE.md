@@ -37,7 +37,22 @@
 
 *This is the standing pre-registration for the upside-convex expression (the rolling successor to the resolved single-event `PREREG_20260628_CME_reopen.md`). Written before the trigger so execution is pre-thought, not scrambled.*
 
-**Status:** 🔴 **ARMED — NOT deployed, no capital committed. ⏳ AND NOW ON A CLOCK: 10 of 20 trading days used, arm EXPIRES ~2026-08-13.**
+**Status:** 🔴 **ARMED — NOT deployed, no capital committed. ⏳ ON A CLOCK: 11 of 20 trading days used, arm EXPIRES 2026-08-13.**
+
+> **📍 ARM-CLOCK RE-COUNT — 2026-07-31 (Fri) ~10:45 AM ET. The `~8/13` estimate is now an EXACT date, counted not assumed.**
+> **Count:** armed **Thu 2026-07-16 = day 0** (arming session not counted as used). Sessions used since: 7/17, 7/20, 7/21, 7/22, 7/23, 7/24, 7/27, 7/28, 7/29, 7/30, **7/31 = day 11 of 20.** Remaining after today: **9** — 8/3, 8/4, 8/5, 8/6, 8/7, 8/10, 8/11, 8/12, **8/13 = day 20.**
+> **⇒ LAST DEPLOYABLE SESSION = Thursday 2026-08-13.** No US market holiday falls in the window (August has none), so the count is clean. *(Reconciles with the 7/30 SCRATCH "10 of 20" and PROME's independent 8/13 backstop row.)* `[[finding_date_gate_beats_weekday_name]]`
+>
+> **📍 LEG (a) STATE TODAY — NOT MET, and it moved AWAY from met.**
+> **Peak re-derived from the tape, not carried** (the spec says *running maximum since arming*, and SCRATCH warns never to carry 58.62 as a constant). **^OVX daily closes 7/16→7/31 re-pulled: running peak = 68.97 on 7/23 — UNCHANGED. No post-7/30 escalation re-ratcheted it** (7/29's spike closed 67.59, below the peak).
+> **⚠️ SPEC AMBIGUITY FLAGGED, NOT RESOLVED MID-GRADE — leg (a) does not state whether the running peak is on a CLOSE or INTRADAY-HIGH basis.** The registered 68.97 is the 7/23 **close**; the 7/23 intraday high was **71.26**. **Graded BOTH readings, per the no-re-spec-mid-grade rule:**
+>
+> | Basis | Post-arm peak | −15% line | OVX now | Δ from peak | Verdict |
+> |---|---|---|---|---|---|
+> | **Close** (as registered) | **68.97** (7/23) | **≤ 58.62** | 65.60 | **−4.89%** | ⛔ **NOT MET** |
+> | Intraday high | 71.26 (7/23) | ≤ 60.57 | 65.60 | −7.95% | ⛔ **NOT MET** |
+>
+> **Both readings NOT MET, so nothing turns on the ambiguity today — but it must be ruled before it ever binds.** ⚠️ **OVX 65.60 is a SESSION IN PROGRESS (10:18 AM ET), not a close** (`[[finding_ohlc_verify_before_session_claims]]`). **Direction of travel is AGAINST deployment: 7/30 closed 63.44 (−8.0%); today OVX is UP +3.4% while Brent is UP +2.3%** — vol is being re-bid alongside price, which is the opposite of the decompression leg (a) waits for. **9 sessions left.**
 
 ---
 
@@ -128,6 +143,19 @@
 >
 > **Tankers ROSE on both. 2 of 2. The gate would have been FORBIDDEN to fire on the only real off-ramp this regime has had.**
 >
+> ### ⛔⛔ **2026-07-31 — THE TANKER ROWS OF THE TABLE ABOVE DO NOT REPRODUCE. THE "2 of 2 / 0-for-2" CLAIM IS RETIRED AS UNVERIFIED.**
+> Re-derived from yfinance daily closes 2026-07-31 (`auto_adjust` **True and False identical** ⇒ dividend adjustment is NOT the explanation; no day-pairing reproduces the recorded rows):
+>
+> | Announcement | **day 0 (STNG/FRO/DHT)** | **day+1** | **day+2** |
+> |---|---|---|---|
+> | **Apr-17 2026** | **+1.61 / +5.63 / +3.39** | +2.23 / −0.43 / +1.86 | −2.95 / −4.30 / −3.59 |
+> | **Jun-17 2026** | **−0.61 / −1.45 / −1.63** | +3.25 / +5.35 / +4.31 | +2.32 / +1.59 / +4.66 |
+>
+> **⚠️ The CRUDE figures from the same 7/30 audit reproduce EXACTLY** (+8.96% / −2.07%, §"the discriminator that works" below) — **so the defect is specific to the tanker rows, which is the half I built a conclusion on.**
+> **⇒ Restated honestly: on re-derived day-0 data Jun-17 tankers FELL (STNG −0.61%), which under a literal reading of "did they sell off?" would have PASSED the veto — making the record 1-of-2, not 0-of-2.** **The case for replacing the leg is UNAFFECTED** — it rests on the structural defects (no magnitude threshold · sign contradicted by LESSONS #19 · single-name fragility), not on the analogue tally. But the tally itself is now **UNVERIFIED and must not be re-cited**, here or in `LESSONS_INDEX.tsv` (L18/L19 resolution note corrected same session).
+> **🔑 And a fact I did not have on 7/30: on Jun-17, single-name STNG (−0.61%) sits INSIDE the proposed ±1% flat band and would have BLOCKED, while the 3-name composite (max = 1.63%) PASSES.** The composite is load-bearing, not cosmetic. `[[finding_loadbearing_number_must_be_reproducible]]` · `[[finding_asymmetric_rigor_counterparty_claims]]`
+> **→ Frozen replacement proposal (Leg T liveness veto + Leg C crude follow-through, with base rates): `outbox/2026-07-31_to-PROME_stage-a-proposal.md`. NOT RATIFIED — the live leg below stands as written.**
+>
 > **⚠️ AND MY OWN LESSONS #19 ALREADY EXPLAINS WHY — I wrote the leg anyway.** *"BRT-15 FAILED because the reopen made STNG RALLY +5.79%, not collapse: reopening is bullish for ton-mile demand / product-tanker earnings."* **A reopening lengthens voyages and raises tanker earnings, so tankers rally on a REAL reopening — and they also rally on a FAKE one, because nothing has changed.** ⇒ **the check has NO DISCRIMINATING POWER IN EITHER DIRECTION.** It is not merely anti-correlated (the `[[finding_compound_gate_jointly_unsatisfiable]]` class); it is **a coin that lands the same way on both outcomes**, which is worse — it is a veto that only ever vetoes.
 >
 > **How it got in:** LESSONS **#16/#18** framed the STNG check as an anti-false-positive test (*"if tankers don't sell off, the market isn't treating it as operational"*). LESSONS **#19** later documented the opposite mechanism and **explicitly warned "when a position can pay via multiple competing channels, never write a one-directional threshold."** **#18 and #19 contradict each other, #19 has the empirical record, and the ratified spec inherited #18.** *Two lessons in the same file disagreed and nothing forced them to be reconciled — the failure was that neither was ever tested against the other.*
@@ -135,6 +163,8 @@
 > **⛔ CONSEQUENCE, STATED PLAINLY: the off-ramp playbook — the entire down-side of the book — is currently gated by a leg that has never once permitted a fire.** Combined with Stage A's other requirement (a signature/sovereign act), the playbook cannot fire on the enforcement-degradation path either (see the separate gap flagged to FALCON 7/30). **Both of the off-ramp's realistic paths are currently blocked.**
 >
 > **PROPOSED REPLACEMENT (for Will's ruling — NOT applied):** replace the *directional* STNG test with a **DISPERSION** test that has power in both directions — *tankers must move **materially** and the sign is informative, not required*: **(i)** if tankers **fall** ≥3% while crude falls, the market is pricing an operational reopening ⇒ **CONFIRM**; **(ii)** if tankers **rise** ≥3% while crude falls hard, that is the **ton-mile channel** (LESSONS #19) and is **NOT** a disconfirmation ⇒ **NEUTRAL, gate on the transit leg alone**; **(iii)** if tankers are **flat (±1%)** on a claimed operational reopening, the market is ignoring it ⇒ **DO NOT FIRE.** *This preserves the anti-false-positive intent (case iii is the real "nobody believes it" signal) while removing a veto that fires on every real outcome.*
+>
+> ⛔ **2026-07-31 — THE THREE-CASE FORM ABOVE IS ITSELF DEFECTIVE AND IS SUPERSEDED BY THE FROZEN PROPOSAL. IT HAS A DEAD BAND:** cases (i)/(ii)/(iii) leave **`1% < |move| < 3%` unspecified in both directions** — and that is the **most likely** outcome: **44.9%** of sessions unconditionally, **34.6%** conditional on Brent ≤ −3% (STNG, 3y, n=749). **A test with no verdict on a third-to-a-half of its cases is the BRT-12 "no NEITHER branch" defect — reproduced inside the fix I proposed for a defect of the same family.** The frozen replacement is **binary and exhaustive** (BLOCK iff `max(|STNG|,|FRO|,|DHT|) ≤ 1.0%`), removing the dead band by construction → `outbox/2026-07-31_to-PROME_stage-a-proposal.md`.
 >
 > ### 🔎 INVESTIGATED FURTHER 2026-07-30 PM (Will-directed) — **AND THE TANKER LEG IS THE THIRD-MOST-SERIOUS DEFECT HERE, NOT THE FIRST.** Full analysis + options → `setups/2026-07-30_offramp-stageA-v3-tanker-question-PROPOSAL.md`.
 >
@@ -188,7 +218,7 @@
 
 Will ruled **Option B (harvest + tenor only)** on 2026-07-30. **Stage A entry is therefore UNCHANGED and still carries all three entry defects.** Recording them here so this playbook never reads as "ready":
 
-1. **🟠 The STNG leg remains a mandatory veto, and it is non-discriminating** — tankers ROSE on **both** observed analogues (Apr-17 +3.9%; Jun-17 +2.6%/+5.0%), so it has **blocked 2 of 2**. *In fairness: blocking Apr-17 was the right outcome — but by accident, because it blocks everything.*
+1. **🟠 The STNG leg remains a mandatory veto, and it is non-discriminating.** ⛔ **FIGURES CORRECTED 2026-07-31 — the "blocked 2 of 2" tally is RETIRED as UNVERIFIED** (the recorded tanker rows do not reproduce; see the correction block above). **Re-derived day 0: Apr-17 STNG +1.61% (veto BLOCKS) · Jun-17 STNG −0.61% (a literal "did they sell off?" reading PASSES) ⇒ 1-of-2, not 2-of-2.** The leg's defects are **structural and unchanged**: no magnitude threshold, sign logic contradicted by LESSONS #19, and single-name fragility. *In fairness: blocking Apr-17 was the right outcome.* **Frozen replacement proposed 7/31, awaiting Will → `outbox/2026-07-31_to-PROME_stage-a-proposal.md`.**
 2. **🟠 The transit leg (>35/day ×2 sessions) contradicts LESSONS #11** (*"the crash triggers at ANNOUNCEMENT, not delivery — waiting for barrels means missing 80% of the move"*). On Jun-17 transits were **dark** and a crude short still won **−9.7% by day 10**.
 3. **🟠 The 2-day follow-through discriminator was NOT adopted** — the rule that separated the two analogues **2-for-2** (Apr-17 day+2 **+9.0%** BLOCK · Jun-17 day+2 **−2.1%** FIRE, robust across every threshold from −2% to +8%).
 
