@@ -16,7 +16,7 @@
 
 ## 1. VERIFIED THIS PASS — pulled from the issuing primary 2026-07-31
 
-All five BLS figures reproduced **exactly** to the digit. These are the surviving HIGH-conviction Channel-1 **quantity** claims — the half of Channel 1 that v3.0 explicitly did *not* walk back.
+All five BLS figures reproduced **exactly** to the digit. The VX stale backlog was also fully cleared this pass — **25 stale BREACHED/CRITICAL rows this morning → 0**, every one pulled from a live primary. These are the surviving HIGH-conviction Channel-1 **quantity** claims — the half of Channel 1 that v3.0 explicitly did *not* walk back.
 
 | Figure | Verified value | Data period | Series / method | Canonical owner |
 |---|---|---|---|---|
@@ -29,9 +29,15 @@ All five BLS figures reproduced **exactly** to the digit. These are the survivin
 | **FL median days on market** | **78 days** (+8.3% vs pre-COVID Jun 2017-19 mean of 72; YoY −2.5%) | Jun 2026 | Realtor.com RDC Inventory Core Metrics, econdata S3 | `VX.tsv` FL-03 |
 | **Canadian intent — 'flights to florida'** | index 46.8 = **−7.2% vs Jun'24** | Jun 2026 | Google Trends, geo=CA, all-categories | `VX.tsv` GTR-01 |
 | **Canadian intent — 'florida' [Travel cat]** | index 29.2 = **−43.8% vs Jun'24** → BREACHED | Jun 2026 | Google Trends, geo=CA, **category 67** | `VX.tsv` GTR-01 |
+| **Austin ZHVI** | **$426,944**, −5.71% YoY, −26.6% from Jun-2022 peak, **41 consecutive months of YoY decline** | Jun 2026 | Zillow ZHVI metro (repeat-value, SA) | `VX.tsv` TX-02 |
+| **FL vs Snowbelt price spread** | FL metros median **−2.66%** vs Snowbelt **+3.68%** = **+6.34pp** | Jun 2026 | Zillow ZHVI, 16 FL vs 20 Snowbelt metros | `VX.tsv` 3.02 |
+| **CA FAIR Plan policies in force** | **696,562** (+8% since Sep'25) | Jun 2026 | CA FAIR Plan key statistics (cfpnet.com) | `VX.tsv` CA-01 |
+| **CA FAIR Plan total exposure** | **$768B** (+11% since Sep'25) | Jun 2026 | CA FAIR Plan key statistics | `VX.tsv` CA-01 ⚠️ *insurer-side exposure ≠ coverage gap — do not substitute* |
 
 **⚠️ Basis traps caught while verifying these — both would have produced a WRONG re-mark:**
 - **Google Trends: keyword AND category are load-bearing.** A first pull used `'florida vacation'` / all-categories and returned **+36.2% vs 2024**; the founding series is `'florida'` filtered to **Travel (cat 67)**, which returns **−43.8%**. **The correct basis reversed the sign of the conclusion.** The index is also *relative 0-100 within a single pull* — never compare across pulls.
+- **Austin / house prices: median ≠ repeat-value index.** TX-02 previously carried a median SALE price ($435K); the refresh uses **ZHVI**, a repeat-value index that controls for transaction mix (CORAL documents the same preference). **Levels are not comparable across the two**; direction and duration are.
+- **CA FAIR Plan: insurer-side exposure ≠ coverage gap.** CA-01's BREACHED band is written on a **>$500B coverage gap**; FAIR Plan **exposure** ($768B) is what the residual insurer covers, not what is left uninsured. Substituting one for the other would falsely trip BREACHED — the identical trap already documented for FL (VX-3.01 household cost vs VX-SFE-03 Citizens exposure, which moved *opposite* ways).
 - **FL days on market: compare the SAME MONTH.** The old CRITICAL mark rested on "+41% vs Mar 2024" — March (58 days) is peak selling season, June is slow, so cross-month comparison manufactures ~30pp. The carried "98 days (Nov)" also **did not reproduce** (Realtor.com Nov'25 = 81), meaning the old row mixed metrics. Baseline is now pinned to **pre-COVID same-month**.
 
 **Two notes on the above, so nobody re-derives them wrong:**
