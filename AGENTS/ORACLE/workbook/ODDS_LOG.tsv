@@ -715,3 +715,78 @@ ts	slug	label	tier	yes_prob	volume	liquidity	d1	d7	end	thin
 2026-07-24T16:25Z	bab-el-mandeb-strait-effectively-closed-by	Bab el-Mandeb closed (by-date)	T2	0.335	142502.14031399996	46519.3685	-0.02	0.02	2026-12-31	False
 2026-07-24T16:25Z	houthis-successfully-target-shipping-byptptpt-20260708165455691	Houthi targets shipping (by-date)	T2	1.0	223924.29567	None	0.6445	0.6495	2026-07-31	False
 2026-07-24T16:25Z	will-mamdani-freeze-nyc-rents-before-2027	Mamdani freezes NYC rents <2027	T2	0.894	283794.67422299925	20335.18772	-0.0075	-0.0235	2026-12-31	False
+2026-07-31T20:24Z	us-recession-by-end-of-2026	US recession 2026	T1	0.125	1688176.9969110012	16586.4463	0.01	0.02	2027-01-31	False
+2026-07-31T20:24Z	will-no-fed-rate-cuts-happen-in-2026	Fed: NO cuts 2026	T1	0.8935	6692094.333085	147615.08879	0.001	0.044	2026-12-31	False
+2026-07-31T20:24Z	will-1-fed-rate-cut-happen-in-2026	Fed: 1 cut 2026	T1	0.065	2285730.8827140005	97615.0249	None	-0.03	2026-12-31	False
+2026-07-31T20:24Z	fed-rate-hike-in-2026	Fed: HIKE in 2026	T1	0.665	6082244.647488001	196724.0882	0.01	-0.05	2026-12-09	False
+2026-07-31T20:24Z	major-us-bank-bailout-before-2027	Major bank bailout before 2027	T1	0.075	4002.096549	644.6463	None	-0.035	2026-12-31	True
+2026-07-31T20:24Z	us-bank-failure-by-december-31-2026-20260720194747677	US bank failure by Dec 31 2026	T2	0.725	4564.6103029999995	3229.085	None	-0.01	2027-01-01	True
+2026-07-31T20:24Z	us-defaults-on-debt-by-2027	US debt default by 2027	T2	0.0285	16215.511170000002	5099.04952	0.003	-0.021	2026-12-31	False
+2026-07-31T20:24Z	ai-industry-downturn-by-december-31-2026-857	AI bubble burst 2026	T2	0.187	2331923.643664004	25410.19849	-0.0365	0.0225	2026-12-31	False
+2026-07-31T20:24Z	will-microstrategy-announce-bankruptcy-before-2027	MicroStrategy bankruptcy by 2027	T2	0.0385	191020.4080639999	9965.94625	None	-0.0005	2026-12-31	False
+2026-07-31T20:24Z	nothing-ever-happens-2026	Nothing Ever Happens 2026	T3	0.735	701891.6418849993	36036.327	0.045	0.055	2026-12-31	False
+2026-07-31T20:24Z	what-will-the-fed-rate-be-at-the-end-of-2026	Fed funds rate end-2026 (dist)	T1	0.3135	530681.9711529999	7197.94112	-0.0005	0.005	2026-12-09	False
+2026-07-31T20:24Z	will-inflation-reach-more-than-5-in-2026-282-763	US inflation >5% in 2026	T1	0.13	297375.4895780001	21838.4285	0.005	-0.02	2026-12-31	False
+2026-07-31T20:24Z	how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	T1	0.1	121720.88688099998	1396.47389	-0.0185	-0.0195	2026-01-10	True
+2026-07-31T20:24Z	strait-of-hormuz-traffic-returns-to-normal-by-december-31	Hormuz traffic normal by Dec 31	T1	0.505	6372170.589994999	275488.4948	-0.01	-0.01	2026-12-31	False
+2026-07-31T20:24Z	will-the-us-invade-iran-before-2027	US invade Iran before 2027	T2	0.235	51027205.734621	1194927.0938	-0.01	-0.06	2026-12-31	False
+2026-07-31T20:24Z	will-the-iranian-regime-fall-by-the-end-of-2026	Iranian regime fall before 2027	T2	0.085	23409241.607483014	587620.7382	None	-0.01	2026-12-31	False
+2026-07-31T20:24Z	delcy-rodrguez-out-as-leader-of-venezuela-by-december-31-2026-148-853	Venezuela: Delcy out as leader by Dec 31	T2	0.075	176062.97185599996	14199.4582	-0.005	-0.02	2026-12-31	False
+2026-07-31T20:24Z	russia-x-ukraine-ceasefire-agreement-by-december-31-2026	Russia-Ukraine ceasefire by Dec 31	T2	0.355	2075143.3700509998	122273.5004	None	-0.01	2026-12-31	False
+2026-07-31T20:24Z	will-china-invade-taiwan-before-2027	China invade Taiwan before 2027	T1	0.0405	39284502.64318398	594742.81574	0.002	0.002	2026-12-31	False
+2026-07-31T20:24Z	china-annual-gdp-growth-2026	China annual GDP growth 2026	T1	0.865	215328.56198600004	47370.4578	0.01	0.01	2026-01-31	False
+2026-07-31T20:24Z	bank-of-japan-decision-in-july-659	BOJ July decision	T2	1.0	348694.4932520001	None	0.0035	0.035	2026-07-31	False
+2026-07-31T20:24Z	bitcoin-vs-gold-vs-sp-500-in-2026	Best asset 2026 (SP/Gold/BTC)	T3	0.68	181988.34250700002	17958.8557	0.005	0.01	2026-12-31	False
+2026-07-31T20:24Z	clarity-act-signed-into-law-in-2026	Clarity Act signed into law 2026	T2	0.245	3547005.948367001	68900.7108	-0.03	-0.08	2027-01-01	False
+2026-07-31T20:24Z	july-inflation-us-annual-20260714150613267	July CPI print (modal)	T1	0.425	44127.961996999984	18432.0377	0.02	0.06	2026-08-12	False
+2026-07-31T20:24Z	will-any-category-4-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-4 hurricane by 2027	T3	0.225	334764.04716899997	2833.7028	None	-0.01	2026-12-31	True
+2026-07-31T20:24Z	will-any-category-5-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-5 hurricane by 2027	T3	0.1	138647.327561	523.5894	0.005	-0.025	2026-12-31	True
+2026-07-31T20:24Z	iran-agrees-to-end-enrichment-of-uranium-by-july-31	Iran ends enrichment by Jul 31	T2	0.0005	978179.6410170003	101707.22514	-0.0025	-0.007	2026-07-31	False
+2026-07-31T20:24Z	iran-agrees-to-end-enrichment-of-uranium-by-december-31	Iran ends enrichment by Dec 31	T2	0.245	1430278.0349819998	42365.5029	-0.01	0.02	2026-12-31	False
+2026-07-31T20:24Z	what-will-be-in-a-us-iran-deal-in-2026-20260624150226501	US-Iran deal 2026 (components)	T2	0.35	82397.01249299999	6485.8573	0.05	0.04	2026-12-31	False
+2026-07-31T20:24Z	which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	T1	0.038	7943.367568999998	10737.87622	-0.0015	-0.004	2026-12-31	False
+2026-07-31T20:24Z	will-wti-reach-100-in-july-2026-928	WTI hits $100 (Jul) — war premium	T2	0.001	1829789.156519	77667.5544	-0.0015	-0.2445	2026-08-01	False
+2026-07-31T20:24Z	iran-successfully-targets-shipping-onptptpt-20260625225210236	Iran targets shipping (on-date, daily)	T2	0.515	8963.047878000001	102.802	0.05	0.21	2026-07-31	True
+2026-07-31T20:24Z	iran-military-action-against-a-gulf-state-onptptpt-20260708212328295	Iran military action vs Gulf State (daily)	T2	0.15	75497.08044900002	8796.355	-0.245	-0.31	2026-07-31	False
+2026-07-31T20:24Z	will-ships-transit-the-strait-of-hormuz-on-any-day-by-july-31-20260626152655081	Hormuz ships-transit ladder by Jul31	T2	1.0	349496.00237499963	None	0.1805	0.0645	2026-07-31	False
+2026-07-31T20:24Z	0-ships-transit-hormuz-on-any-date-byptpt-20260626172559966	Hormuz 0-ships closure (by-date)	T2	0.125	245.634113	2872.9002	0.015	None	2026-08-31	True
+2026-07-31T20:24Z	will-the-us-officially-declare-war-on-iran-by-december-31-2026-746	US declares war on Iran by Dec 31	T2	0.045	762670.422155	85479.8466	-0.01	-0.005	2026-12-31	False
+2026-07-31T20:24Z	bab-el-mandeb-strait-effectively-closed-by	Bab el-Mandeb closed (by-date)	T2	0.19	192637.92685099997	86674.0127	-0.03	-0.145	2026-12-31	False
+2026-07-31T20:24Z	houthis-successfully-target-shipping-byptptpt-20260708165455691	Houthi targets shipping (by-date)	T2	1.0	223924.29567	None	0.6445	0.6495	2026-07-31	False
+2026-07-31T20:24Z	will-mamdani-freeze-nyc-rents-before-2027	Mamdani freezes NYC rents <2027	T2	0.896	283826.4037410001	14722.31292	0.0085	0.0015	2026-12-31	False
+2026-07-31T20:28Z	us-recession-by-end-of-2026	US recession 2026	T1	0.125	1688176.9969110012	16527.0589	0.01	0.02	2027-01-31	False
+2026-07-31T20:28Z	will-no-fed-rate-cuts-happen-in-2026	Fed: NO cuts 2026	T1	0.8935	6692094.333085	147270.07729	0.001	0.044	2026-12-31	False
+2026-07-31T20:28Z	will-1-fed-rate-cut-happen-in-2026	Fed: 1 cut 2026	T1	0.065	2285730.8827140005	97615.0249	None	-0.03	2026-12-31	False
+2026-07-31T20:28Z	fed-rate-hike-in-2026	Fed: HIKE in 2026	T1	0.665	6082244.647488001	197183.1276	0.01	-0.05	2026-12-09	False
+2026-07-31T20:28Z	major-us-bank-bailout-before-2027	Major bank bailout before 2027	T1	0.075	4002.096549	644.6463	None	-0.035	2026-12-31	True
+2026-07-31T20:28Z	us-bank-failure-by-december-31-2026-20260720194747677	US bank failure by Dec 31 2026	T2	0.725	4564.6103029999995	3229.085	None	-0.01	2027-01-01	True
+2026-07-31T20:28Z	us-defaults-on-debt-by-2027	US debt default by 2027	T2	0.0285	16215.511170000002	5099.04952	0.003	-0.021	2026-12-31	False
+2026-07-31T20:28Z	ai-industry-downturn-by-december-31-2026-857	AI bubble burst 2026	T2	0.187	2331923.643664004	25410.19849	-0.0365	0.0225	2026-12-31	False
+2026-07-31T20:28Z	will-microstrategy-announce-bankruptcy-before-2027	MicroStrategy bankruptcy by 2027	T2	0.0385	191020.4080639999	9965.66451	None	-0.0005	2026-12-31	False
+2026-07-31T20:28Z	nothing-ever-happens-2026	Nothing Ever Happens 2026	T3	0.735	701891.6418849993	35330.9391	0.045	0.055	2026-12-31	False
+2026-07-31T20:28Z	what-will-the-fed-rate-be-at-the-end-of-2026	Fed funds rate end-2026 (dist)	T1	0.3135	530681.9711529999	7098.67008	-0.0005	0.005	2026-12-09	False
+2026-07-31T20:28Z	will-inflation-reach-more-than-5-in-2026-282-763	US inflation >5% in 2026	T1	0.13	297375.4895780001	22511.5377	0.005	-0.02	2026-12-31	False
+2026-07-31T20:28Z	how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	T1	0.1	121720.88688099998	1396.47389	-0.0185	-0.0195	2026-01-10	True
+2026-07-31T20:28Z	strait-of-hormuz-traffic-returns-to-normal-by-december-31	Hormuz traffic normal by Dec 31	T1	0.505	6372170.589994999	277460.5537	-0.01	-0.01	2026-12-31	False
+2026-07-31T20:28Z	will-the-us-invade-iran-before-2027	US invade Iran before 2027	T2	0.235	51027205.734621	1194519.1509	-0.01	-0.06	2026-12-31	False
+2026-07-31T20:28Z	will-the-iranian-regime-fall-by-the-end-of-2026	Iranian regime fall before 2027	T2	0.085	23409241.607483014	588754.1466	None	-0.01	2026-12-31	False
+2026-07-31T20:28Z	delcy-rodrguez-out-as-leader-of-venezuela-by-december-31-2026-148-853	Venezuela: Delcy out as leader by Dec 31	T2	0.075	176062.97185599996	14440.8219	-0.005	-0.02	2026-12-31	False
+2026-07-31T20:28Z	russia-x-ukraine-ceasefire-agreement-by-december-31-2026	Russia-Ukraine ceasefire by Dec 31	T2	0.355	2075143.3700509998	122250.0641	None	-0.01	2026-12-31	False
+2026-07-31T20:28Z	will-china-invade-taiwan-before-2027	China invade Taiwan before 2027	T1	0.0405	39284502.64318398	594742.81574	0.002	0.002	2026-12-31	False
+2026-07-31T20:28Z	china-annual-gdp-growth-2026	China annual GDP growth 2026	T1	0.865	215328.56198600004	47464.8978	0.01	0.01	2026-01-31	False
+2026-07-31T20:28Z	bank-of-japan-decision-in-july-659	BOJ July decision	T2	1.0	348694.4932520001	None	0.0035	0.035	2026-07-31	False
+2026-07-31T20:28Z	bitcoin-vs-gold-vs-sp-500-in-2026	Best asset 2026 (SP/Gold/BTC)	T3	0.68	181988.34250700002	18434.8841	0.005	0.01	2026-12-31	False
+2026-07-31T20:28Z	clarity-act-signed-into-law-in-2026	Clarity Act signed into law 2026	T2	0.245	3547005.948367001	68900.7108	-0.03	-0.08	2027-01-01	False
+2026-07-31T20:28Z	july-inflation-us-annual-20260714150613267	July CPI print (modal)	T1	0.425	44127.961996999984	19619.9424	0.02	0.06	2026-08-12	False
+2026-07-31T20:28Z	will-any-category-4-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-4 hurricane by 2027	T3	0.225	334764.04716899997	2833.7028	None	-0.01	2026-12-31	True
+2026-07-31T20:28Z	will-any-category-5-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-5 hurricane by 2027	T3	0.1	138647.327561	519.4394	0.005	-0.025	2026-12-31	True
+2026-07-31T20:28Z	iran-agrees-to-end-enrichment-of-uranium-by-december-31	Iran ends enrichment by Dec 31	T2	0.245	1430278.0349819998	42365.5029	-0.01	0.02	2026-12-31	False
+2026-07-31T20:28Z	what-will-be-in-a-us-iran-deal-in-2026-20260624150226501	US-Iran deal 2026 (components)	T2	0.35	82397.01249299999	6560.9273	0.05	0.04	2026-12-31	False
+2026-07-31T20:28Z	which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	T1	0.038	7943.367568999998	10737.22284	-0.0005	-0.004	2026-12-31	False
+2026-07-31T20:28Z	will-wti-reach-100-in-august-2026	WTI hits $100 (Aug) — war premium	T2	0.275	8006.2745970000005	8302.4381	-0.035	None	2026-09-01	False
+2026-07-31T20:28Z	iran-successfully-targets-shipping-onptptpt-20260729163314520	Iran targets shipping (on-date, daily)	T2	0.405	122.15608500000002	190.2304	-0.025	None	2026-08-01	True
+2026-07-31T20:28Z	how-many-ships-transit-the-strait-of-hormuz-week-of-july-27-20260724144200302	Hormuz ships-transit weekly (rolling)	T2	0.55	4139.253122	2083.012	0.08	None	2026-08-02	True
+2026-07-31T20:28Z	0-ships-transit-hormuz-on-any-date-byptpt-20260626172559966	Hormuz 0-ships closure (by-date)	T2	0.125	245.634113	2872.9002	0.005	None	2026-08-31	True
+2026-07-31T20:28Z	will-the-us-officially-declare-war-on-iran-by-december-31-2026-746	US declares war on Iran by Dec 31	T2	0.045	762670.422155	85553.3114	-0.01	-0.005	2026-12-31	False
+2026-07-31T20:28Z	bab-el-mandeb-strait-effectively-closed-by	Bab el-Mandeb closed (by-date)	T2	0.19	192637.92685099997	87782.4545	-0.03	-0.145	2026-12-31	False
+2026-07-31T20:28Z	will-mamdani-freeze-nyc-rents-before-2027	Mamdani freezes NYC rents <2027	T2	0.896	283826.4037410001	14716.3121	0.0085	0.0015	2026-12-31	False

@@ -81,7 +81,7 @@ RESOLVED_PROB = 0.99
 # Below this, a single small bet moves the print; ORACLE's standing thin-liq bar.
 THIN_LIQ = 5000.0
 
-REGIME = "v2-hormuz-normal-inverted"
+REGIME = "v3-aug-wti-supply-leg"  # bumped 2026-07-31 on July→August WTI-$100 roll (July resolved 8/1 at 0.1%; fresh month-start contract has more days-to-touch, structurally higher). Non-comparable to v2 rows.
 
 OUT_HEADER = ["ts", "regime",
               "disruption_slug", "disruption_label", "disruption_prob", "disruption_liq",
