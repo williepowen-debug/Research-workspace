@@ -16,7 +16,7 @@
 
 | # | Item | Type | Needed by | Since | PROME rec | Notes |
 |---|---|---|---|---|---|---|
-| 2 | Close REGINALD's window | ACTION | 2026-07-30 | 7/30 | glance at the pane | shutdown approval never arrived — pane may be sitting on the request prompt |
+| 2 | Close REGINALD's window | ACTION | 2026-07-31 | 7/30 | glance at the pane | re-dated at 7/31 closeout (was 7/30, PASSED unreconciled — pane state unknown to PROME); its closeout is committed+pushed, this is only the window itself |
 | 3 | Memory-migration date | RULE | 2026-07-31 | 7/29 | **pull to 7/31** | index at 86% of auto-load cap and climbing (2 new memories 7/30); default window 8/1-8/2 |
 | 4 | Launch RED | LAUNCH | 2026-07-31 AM | 7/30 | pair with HY print #4 | RED's 2 rulings gate RESHAPE-BC formal confirm + FT-01 un-fire; print #4 publishes ~7/31 and decides if FOMC-day is excluded |
 | 5 | BRENT Stage-A dispersion-test replacement | [Approve] | 2026-07-31 (BRENT's window) | 7/30 | — | ⛔ waits: BRENT live window · the STNG veto has zero discriminating power (rose on BOTH real and false de-escalations); flagged OPEN by BRENT's own self-audit `672fc1e5` |

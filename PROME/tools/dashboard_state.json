@@ -1,5 +1,5 @@
 {
- "built": "2026-07-30 21:43",
+ "built": "2026-07-31 09:18",
  "channels": {
   "AI capex": "elev",
   "Credit": "crit",
@@ -11,11 +11,8 @@
  },
  "docket": [
   "2026-07-22 Hyperscaler Q2 filings useful-life watch \u2014 VULCAN pre-regist",
-  "2026-07-23 LAB-17 claims window (w/e 7/18 + 7/25) + July flash PMI ~7/2",
   "2026-07-29 Hyperscaler Q2 FCF (AMZN/MSFT/GOOG/META)",
-  "2026-07-30 CRWV $2.6B DDTL drawdown deadline (noon ET)",
   "2026-07-30 RESEARCH-INTAKE two-changes IMPLEMENTATION (entity-class Pha",
-  "2026-07-31 BOJ MPM (July) \u2014 FY2027 purchase plan",
   "2026-07-31 DAEDALUS 7/28 full-directory audit \u2014 STRUCTURAL batch S1-S5 ",
   "2026-07-31 ECI Q2 (08:30 ET)",
   "2026-07-31 MOF monthly intervention data",
@@ -91,7 +88,7 @@
   "Cushing": 18.599999999999998,
   "HY OAS": 287.0,
   "Init Claims": 187000.0,
-  "USD/JPY": 159.45,
+  "USD/JPY": 160.41,
   "VIX": 18.91,
   "WAL": 81.73
  },
