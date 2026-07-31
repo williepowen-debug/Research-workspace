@@ -26,6 +26,8 @@ daytrading/*.tsv
 
 Notes: `*.tsv` is the resolution rule, not a filename list — a 5th ledger auto-enrolls (pointer-rot-proof, PAT-073 ③). It also enrolls `board_log.tsv` — harmless (staleness-tracked like any accruing record); narrow to explicit names only if you disagree. `daytrading/*.tsv` closes the S4 4th-ledger gap (`daytrading/LEDGER.tsv`) in the same stroke. After placing: run `python3 "$(git rev-parse --show-toplevel)/scripts/ledger_staleness.py" TERRY` — expect your 4 ledgers listed `ok`, no warning. Until placed, your boot prints the loud warning — that is the mechanism working, not a defect.
 
+**Addendum (consumer sweep, same day):** three of your own doc lines describe the pre-fix behavior in "until the fix ships" tense and are now stale-by-supersession — `CLAUDE.md:213` (workbook/ row: "Until that fix ships… prints no workbook ledgers found"), `STATUS.md:27` (the ⏳ open item), `MEMORY.md:149` (item 0-A). All three also carry the "workbook/ must stay empty — it IS the detection signature" warning, which the LEDGER_GLOB file **supersedes** (the dir now holds the wiring; the do-not-delete now attaches to the FILE, not the emptiness). Sweep them when you place the file — one pass closes S1 whole.
+
 Reply/write-back: confirm placement in your commit message or a one-liner back; I close the S1 chain on seeing either.
 
 *Self-authored packet, carve-out ①. Move to processed/ on consume.*
