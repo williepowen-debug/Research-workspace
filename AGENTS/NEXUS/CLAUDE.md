@@ -224,7 +224,7 @@ Generic intake — "routed signals, however delivered":
 | `signals_archive/` | Consumed/resolved signals with mapping to convergences. |
 | `archive/` | Old STATUS snapshots, structural artifacts. |
 | `inbox/` (+ `processed/`) | Incoming routed signals. |
-| `templates/` | Canonical specs NEXUS owns for fleet use — `NEXUS_BRIEF_SCHEMA.md` (locked R3 + amendments 7, 9 — **amendment 9 [Will-approved 2026-07-31] blesses the COMPACT variant for utility/single-seam agents**; revert at ≥3 persistent edges or a thesis version) + `NEXUS_BRIEF_TEMPLATE.md` (fleet rollout template). Schema iterations route through NEXUS. |
+| `templates/` | Canonical specs NEXUS owns for fleet use — `NEXUS_BRIEF_SCHEMA.md` (locked R3 + amendments 7, 9, 10 — **amendment 9 [Will-approved 2026-07-31] blesses the COMPACT variant for utility/single-seam agents**; revert at ≥3 persistent edges or a thesis version; **amendment 10 [Will-approved 2026-07-31] = closeout ORDERING: brief fold is the session's LAST write-back**, from the 7/31 audit's 5-of-5 mid-session-write finding) + `NEXUS_BRIEF_TEMPLATE.md` (fleet rollout template). Schema iterations route through NEXUS. |
 | `BRIEFS_MAP.md` | Single index of `NEXUS_BRIEF.md` status across the fleet — Tier-1 coverage, freshness/drift state, dormant agents, fleet rollout priority. Consulted at BOOT step 6 before brief-read loop. |
 | `outbox/` (+ `delivered/`) | Legacy outgoing lane — retained for structure; since carve-out ① (~7/23) packets go DIRECT to recipient inboxes, self-committed. Empty-by-design is the healthy state (7/28 audit). |
 | `recon/` | Reconnaissance / audit reports. |
