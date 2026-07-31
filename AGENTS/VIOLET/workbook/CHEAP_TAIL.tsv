@@ -3,3 +3,4 @@ date	vix	vvix	skew	vix_pctile	vvix_pctile	skew_pctile	cat_days	cat_event	legs_me
 2026-07-24	18.58	100.73	147.28	56.9	72.4	90.9	4	FOMC Rate Decision	2/4	DORMANT	missing: VVIX cheap, VIX complacency	2026-07-26T01:57:52+00:00
 2026-07-27	18.67	100.91	146.6	57.5	72.7	90.1	2	FOMC Rate Decision	2/4	DORMANT	missing: VVIX cheap, VIX complacency	2026-07-27T22:30:47+00:00
 2026-07-29	20.66	109.47	139.55	66.8	84.3	79.6	0	FOMC Rate Decision	1/4	DORMANT	missing: VVIX cheap, VIX complacency, SKEW divergence	2026-07-30T02:29:46+00:00
+2026-07-30	17.09	94.66	139.9	47.5	59.7	80.3	0	AMZN Q2 earnings (AH) + AAPL Q3 FY26 earnings (AH, 5:00 PM ET)	1/4	DORMANT	missing: VVIX cheap, VIX complacency, SKEW divergence	2026-07-31T01:29:28+00:00
