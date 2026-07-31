@@ -1,3 +1,20 @@
+> # ⛔ RETIRED 2026-07-31 — ALL 5 ITEMS RESOLVED, AND **ITEM 1'S PREMISE WAS REFUTED**
+>
+> **Do not cite any question below as open. Do not cite item 1 at all.** `STATUS.md` is canonical. Archived, not deleted, because *how* item 1 failed is the reusable part.
+>
+> | # | Disposition |
+> |---|---|
+> | **1. AFT/MOHELA "May 28 status conference"** | **🔴 PREMISE REFUTED 2026-07-25 — the conference does not exist.** The federal docket (**D.D.C. 1:24-cv-02460**, Chutkan) has **no May 28 entry**; nearest are the 5/18 status report + 5/19 order. The claim traces to a low-quality legal aggregator, not a docket. The case has been **STAYED since 10/27/2025 with discovery frozen**, and under a **settlement stay since 3/20/2026** — so "the case is in discovery," asserted here and *still* repeated by aggregators as of 7/31, has been false the entire time. **Retracted, not re-dated.** |
+> | | ⚠️ **Two compounding errors, both worth remembering.** (a) This file's resolution path names docket **`1:25-cv-00802`** — **the wrong case number**, which is why 46 days of searching found nothing. (b) The path was declared "manual pull, not web-searchable" and therefore not attempted; when finally tried, **Doc 52 was free in RECAP**. A resolution path was blocking the answer, not missing data → `[[finding_audit_resolution_path_before_reattempt]]`. |
+> | **2. Sweet — did Jun 15 notices begin?** | ✅ **YES, deadline MET** — ~30–36K discharge-eligibility emails week of Jun 15 (first Sweet deadline DOE did not miss). Relief delivery ~Jun 2027. |
+> | **3. VantageScore 4.0 methodology** | ✅ Resolved in-file Jun 9 PM — 90+ DQ is balance-based, unaffected; 9.6%→10.3% is apples-to-apples. |
+> | **4. FSA Q1 2026 release** | ✅ **Released Jun 23 2026** (EA GENERAL-26-38, data as of Mar 31): ~9.0M / $220B in default, >13% of the federally-managed portfolio. |
+> | **5. Treasury Phase 1 scope** | ✅ **~500K = launch wave, NOT all ~9M** — confirmed; ramps via Fiscal Service CSP. *Execution* remains unconfirmed (verify ~8/5) — that open item lives in `STATUS.md`, not here. |
+>
+> **The class lesson, kept because it recurred within one file:** items 1 and 5 both had the *right* question and a *broken* path — one a wrong identifier, one an untested "can't be done." Neither needed new information. **Audit the resolution path before re-attempting, and before declaring a path closed, test it once.**
+
+---
+
 # STUE Open Questions — 2026-06-09
 
 Material items NOT confirmable via web search this session. Surfacing rather than guessing.
