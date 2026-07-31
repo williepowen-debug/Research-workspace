@@ -68,7 +68,7 @@
 
 ## §C — PRE-WRITE CHECKLIST
 
-**Run at boot B4, before registering any new prediction. 11 gates.** Each gate is a yes/no you must clear (or explicitly justify in the prediction's Notes). This is the *index + gate* — pointers go to the full pattern; nothing is restated here (one source of truth).
+**Run at boot B4, before registering any new prediction. 13 gates.** Each gate is a yes/no you must clear (or explicitly justify in the prediction's Notes). This is the *index + gate* — pointers go to the full pattern; nothing is restated here (one source of truth).
 
 **Source set (stated explicitly):** LESSONS **L-01, L-02, L-03, L-05, L-06, L-07, L-08** (the prediction-relevant LABOR lessons; L-04 is ledger-hygiene, not a write gate) **PLUS two FLEET auto-memories that are NOT LABOR lessons** — `[[finding_threshold_vs_mechanism]]` and `[[finding_anchor_prediction_to_surprise_not_priced]]` — **PLUS two calibration meta-gates** derived from §A. "References LESSONS" alone would miss the two fleet memories, hence this explicit set.
 
@@ -85,6 +85,8 @@
 9. **ANNOUNCEMENT — TYPE + filing existence.** If layoff-announcement-based: tagged the TYPE (VR-offer ≈ 0 claims / involuntary RIF / closure / contract-churn) and verified the WARN filing exists before attributing a surge? Effective date (not notice date) sets the claims week (WARN 60-day). (→ **L-07**, `docket/WARN_COHORT.tsv`)
 10. **ANCHOR — surprise, not priced.** Anchored to the SURPRISE vs consensus, not a level the market has already priced? (→ `[[finding_anchor_prediction_to_surprise_not_priced]]`)
 11. **PRE-REGISTRATION — score as-made.** Registering a clean confidence at Date_Made that will be scored AS-MADE (§A convention)? Walking it down later is good *process* but earns no calibration credit — don't plan to concede-and-credit. (→ `[[feedback_dont_bank_unpassed_forecast]]`)
+12. **🆕 MULTI-DRAW — decompose "holds through DATE" into PER-DRAW survival.** If the prediction is *"X stays above/below L through DATE"*, it is not one call — it is **N draws where any single bad draw kills it permanently**. Count N (**and freeze which prints qualify — publication lag decides, not the data month**), then compute **conf^(1/N) = the per-draw survival you are implicitly asserting**, and ask whether *that* number is defensible against the series' own monthly volatility and current distance-to-line. Rule of thumb: **if the move that kills it is smaller than the series' recent average monthly move, per-draw survival is nowhere near 90%, so no multi-draw call belongs above ~50%.** Caught LAB-06: 80% through 2026 = **95.6% survival per print**, asserted from 0.3 away while the series was climbing +1.1/month — repriced to 20% pre-print. (→ **L-10**)
+13. **🆕 LABEL != REPRICE.** Does any open row carry a qualitative risk marker (**"AT RISK"**, "watch", "fragile", "⚠️") while its **confidence field is unchanged**? That is an unpriced update — the marker discharges the *feeling* of having updated without moving the number that scores. **Either move the number or delete the label.** LAB-06 carried "AT RISK" for a month at an untouched 80%. **Run this as a sweep over the whole open book at C2, not just on the row you're touching.** (→ **L-10**, `[[feedback_dont_bank_unpassed_forecast]]`)
 
 ---
 

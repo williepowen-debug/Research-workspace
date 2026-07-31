@@ -1,0 +1,20 @@
+metric	value	asof	kind	greppable	published_in	likely_consumers	suppress_until	notes
+initial_claims_4wk_MA	207,500	2026-07-23	number	yes	STATUS dashboard + KEY THRESHOLDS	REGINALD,CARL,HENRY,NEXUS		SUPERSEDED by 202,750. Was cited BY NAME in REGINALD STATUS:226 threshold row - found by the 7/31 1c sweep.
+initial_claims_4wk_MA	202,750	2026-07-30	number	yes	STATUS dashboard + KEY THRESHOLDS	REGINALD,CARL,HENRY,NEXUS		CURRENT. 5th straight weekly MA decline.
+initial_claims_weekly	187K	2026-07-23	number	yes	STATUS dashboard	REGINALD,CARL,HENRY		SUPERSEDED twice: revised to 188K, then w/e Jul 25 printed 197K. The '57-year low' claim attaches to 188K, NOT to 197K - a consumer citing '187K' is doubly stale.
+initial_claims_weekly	197K	2026-07-30	number	yes	STATUS dashboard + KEY THRESHOLDS	REGINALD,CARL,HENRY		CURRENT (w/e Jul 25, DOL primary).
+continuing_claims	1,796K	2026-07-23	number	yes	STATUS dashboard	REGINALD,CARL		SUPERSEDED - revised to 1,789K then 1,782K.
+continuing_claims	1,782K	2026-07-30	number	yes	STATUS dashboard	REGINALD,CARL		CURRENT (w/e Jul 18). 4 straight weekly falls.
+ECI_private_wages_12mo	3.4->3.1%	2026-07-31	number	compound-only	STATUS KEY THRESHOLDS + CORE TENSION	HENRY,CARL,RED,NEXUS		Bare '3.1%' is ungreppable (the 1,785-hit class). The distinctive token is the TRANSITION '3.4->3.1'. Cite that form.
+AHE_ECI_composition_wedge	0.4pp	2026-07-31	number	weak	STATUS CORE TENSION + dashboard	HENRY,CARL		LOW greppability - '0.4pp' is common. Track manually; the concept key is what matters here.
+real_private_wages_12mo	-0.4%	2026-07-31	number	weak	STATUS dashboard	CARL		CARL's real-income input. Survives the 7/31 PM FOMC correction intact - it is a household-income fact, not a Fed-framing fact.
+fed_hawkish_driver	labor-tightness premise; benign claims = hawkish fuel	2026-07-24	claim	manual	STATUS FED TRAP + NEXUS_BRIEF + packets to CARL/HENRY/RED	HENRY,RED,CARL,NEXUS,BOND		RETRACTED 2026-07-31 PM. Stood 7 days and was routed to 3 agents inside that window.
+fed_hawkish_driver	inflation persistence; labor is a SATISFIED SIDE-CONSTRAINT	2026-07-31T16:45	claim	manual	STATUS FED TRAP + NEXUS_BRIEF VIEW	HENRY,RED,CARL,NEXUS,BOND		CURRENT. Graded off FOMC 7/29 primary text. Corollary: the bar for labor data to move policy went UP.
+ECI_policy_path_relevance	undercuts the labor-tightness premise under the hike	2026-07-31T08:45	claim	manual	AM packet framing	HENRY		RETRACTED SAME DAY (~5h). THE CANONICAL CASE FOR THIS LEDGER: the ECI NUMBERS never changed and are all still current above - only the FRAMING died. A value-only ledger cannot see this.
+ECI_policy_path_relevance	materially WEAK - no such premise exists in the primary text	2026-07-31T16:45	claim	manual	STATUS FED TRAP + HENRY packet	HENRY		CURRENT. HEN-42 keyed on the retracted version.
+LAB-06_confidence	80%	2026-02-18	state	no	STATUS PREDICTIONS + PREDICTIONS.tsv	NEXUS,PROME,RED		SUPERSEDED -> 20% on 2026-07-31. Bare '80%' is ungreppable; sweep on the ID 'LAB-06' instead.
+LAB-06_confidence	20%	2026-07-31T17:40	state	no	STATUS PREDICTIONS + PREDICTIONS.tsv	NEXUS,PROME,RED		CURRENT. -60pp pre-print reprice; sweep on 'LAB-06', never on '20%'.
+LAB-11_confidence	50%	2026-07-31T16:30	state	no	STATUS PREDICTIONS	NEXUS,PROME		was 55%. Sweep on 'LAB-11'.
+convergence_matrix_total	37/75	2026-07-02	state	yes	STATUS matrix + NEXUS_BRIEF Status line	NEXUS,PROME		SUPERSEDED -> 36/75. Good greppability: the 'NN/75' form is distinctive.
+convergence_matrix_total	36/75	2026-07-31T16:30	state	yes	STATUS matrix + NEXUS_BRIEF Status line	NEXUS,PROME		CURRENT.
+T-12_staffing_canary_state	NOT ARMED	2026-07-31	state	manual	STATUS matrix vector 14 + KEY THRESHOLDS	PROME,RED	2026-09-15	SUPPRESSED until 2026-09-15 (next canary print cycle: MAN/RHI/KFRC Q3). Known-FP: the phrase 'T-12' recurs in dated-historical rows that legitimately keep their own as-of. On 2026-09-15 this suppression EXPIRES and re-flags itself for review - it does not silently persist.
