@@ -18,7 +18,6 @@
 |---|---|---|---|---|---|---|
 | 2 | Close REGINALD's window | ACTION | 2026-07-31 | 7/30 | glance at the pane | re-dated at 7/31 closeout (was 7/30, PASSED unreconciled — pane state unknown to PROME); its closeout is committed+pushed, this is only the window itself |
 | 4 | Launch RED | LAUNCH | 2026-07-31 AM | 7/30 | pair with HY print #4 | RED's 2 rulings gate RESHAPE-BC formal confirm + FT-01 un-fire; print #4 publishes ~7/31 and decides if FOMC-day is excluded |
-| 5c | H1 holding-cap anchor — one-line ruling: half/half sizing makes H1's 8-session stop PER-TRANCHE (position life extends to day+10 from announcement) vs ANCHORED to the announcement (both tranches out by day+9, tighter) | RULE | none | 7/31 | anchor to announcement (day+9) — tighter, and BRENT called H1 the rule he'd defend hardest at n=1 | BRENT v5 note `aede1959` *(hash remapped by the 11:46 rebase — was f459d824)* §4; fell out of the sizing ruling, flagged not assumed; literal per-tranche reading stands until ruled |
 | 6 | scripts/-ownership ruling | RULE | 2026-08-02 | 7/30 | — | closeout-critical tooling (safe-push, env_doctor, ledger_staleness...) lives unowned; DAEDALUS gap (c), PAT-071 next application; the 7/31-8/2 conversation |
 | 7 | Launch NEXUS | LAUNCH | 2026-08-03 (before BDC cluster) | 7/28 | sooner is better | 29/31/40 mark is 7/28-vintage; inbox holds FOMC/HY/yen moves; staleness compounds into 8/4-8/6 |
 | 8 | QQQFADE approval (`TRY-WILL-QQQFADE`) | [Approve] | none (Sep-18 tenor) | 7/30 | — | TERRY's 2 conditions (re-based premise + Target-1 policy); PROME rider "sell the 675P first" is MOOT (put sold 7/30); register Will-discretionary class on fill |
@@ -37,6 +36,7 @@
 | Item | Done | Record |
 |---|---|---|
 | BRENT audit rulings ×4 — F3 pointer-replacement · F4 crack-line RETIRE · C2 index-carries-prose + checker opens prose · C6 stamps=agreement-checks; BRENT implements post-COT in the closeout pass | 7/31 | relay on BRENT's record ~12:50; implementation anchor = BRENT's closeout commit (verify at artifact) |
+| REMAINING RULINGS BATCH — H1 announcement-anchored day+9 (was 5c; BRENT post-COT) · HENRY ×6 (magnitudes demoted, 0DTE dropped, ECI-row retired, TRADE.md=macro per recorded feedback, USD/JPY defer-to-SAM, stamp pattern adopted) · LABOR ×4 (quarterly cards, B5b-no-gate, spawn-floor/push docs, PUBLISHED.tsv build) · PROME mechanisms → DOCKET 8/6-8/9 row | 7/31 | ruling packets: LABOR+HENRY inboxes 2026-07-31_from-PROME_remaining-rulings; BRENT relay in-window |
 | Memory-migration date (was row 3) — RULED pull-to-today, EXECUTED same session | 7/31 | `7b7727f0` (index split) + `5cce6942` (embeds); hot index 62% of cap |
 | BRENT Stage-A (was row 5) — RATIFIED both legs + leg-(a) CLOSE basis, implemented+verified | 7/31 | `0832c484` (STAGE-A v4 in TRADE.md; STNG veto retired; follow-ups → row 5b) |
 | Stage-A defect-② + sizing (was row 5b) — RULED C1 + half/half, implemented+verified; entry_timing contradiction resolved by phase-separation | 7/31 | `aede1959` *(hash remapped by the 11:46 rebase — was f459d824)* (v5: entry {(i)+(T)+(C)}, transit→Stage-B kill leg 2; local, push queued) |
