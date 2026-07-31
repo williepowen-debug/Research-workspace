@@ -18,6 +18,22 @@ Usage:
   python3 scripts/ledger_staleness.py REGINALD --quiet   # print only when stale
   python3 scripts/ledger_staleness.py REGINALD --glob 'workbook/*.tsv'  # custom location
 
+Per-agent glob declaration (2026-07-31, DAEDALUS TERRY-S1 fix, Will-approved):
+an agent whose ledgers live outside workbook/*.tsv declares them in
+AGENTS/<NAME>/workbook/LEDGER_GLOB — whitespace-separated globs relative to the
+agent dir, '#' comments allowed (e.g. "*.tsv" + "daytrading/*.tsv"). Read in
+both single-agent and --all modes; an explicit CLI --glob still wins. The file
+doubles as the do-not-delete marker for a deliberately empty workbook/.
+Fail-loud contract (PAT-074 — a PASS must say what it searched):
+  🔴 MISCONFIGURED        — LEDGER_GLOB exists but matches 0 files (all modes)
+  ⚠️ LEDGERS-OUTSIDE-GLOB — workbook/ exists, glob matched 0, but non-exempt
+                            top-level TSVs exist (all modes, incl. --quiet).
+                            TERRY sat in this state for weeks reading as clean.
+  note: ... unenforced    — no workbook/, no LEDGER_GLOB, top-level TSVs exist
+                            (non-quiet only; owner's call whether to opt in)
+board_log.tsv is excluded from the outside-glob signature — it is the fleet-wide
+WALTER-consumption log, not a workbook ledger (would false-fire on ~15 agents).
+
 Timestamps use each file's last git-commit time (falls back to filesystem mtime
 for uncommitted files). Exit code is always 0 — this is an alert, not a gate.
 
@@ -105,7 +121,12 @@ def file_time(path):
 # MARCO "⚠️ FEB-VINTAGE … NOT CURRENT" (line 3) — scanning the header block so an
 # intentional dead-banner is never a false-flag. Kept to strong, unambiguous phrases
 # (not bare "stale"/"vintage") to avoid exempting a genuinely-rotten file.
-STATIC_BANNER_MARKERS = ["FROZEN", "RETIRED", "NOT CURRENT", "DO NOT CITE", "NOT MAINTAINED", "ARCHIVED"]
+STATIC_BANNER_MARKERS = ["FROZEN", "RETIRED", "NOT CURRENT", "DO NOT CITE", "NOT MAINTAINED", "ARCHIVED", "SUPERSEDED"]
+# SUPERSEDED added 2026-07-31 (DAEDALUS state-vocabulary registry build, PAT-075):
+# the #2 banner token fleet-wide (52 banner-position files) was absent here — latent,
+# not live (instances sat on .md docs outside these globs), closed with the TERRY-S1
+# fix. Canonical semantics per BLUEPRINTS/STATE_VOCABULARY.md: SUPERSEDED = replaced
+# by a NAMED successor; banner-form guards below (col-cap, glue, negation) apply.
 
 # Recognizer hardening 2026-07-22 (DAEDALUS AEOLUS+LABOR QCs, Will-approved —
 # PAT-035/PAT-059: a dead-banner is a FORM, not a keyword). Ground truth from a
@@ -139,6 +160,62 @@ MARKER_RES = [
 
 # Trade/position surfaces scanned under --trade (default glob stays workbook/*.tsv).
 TRADE_GLOBS = ["TRADE.md", "trade/TRADE.md", "TRADE_BOOK.md", "POSITIONS.md"]
+
+# Excluded from the LEDGERS-OUTSIDE-GLOB signature: shared-log conventions that are
+# NOT workbook ledgers. board_log.tsv is the WALTER BOARD-consumption log carried by
+# ~15 agents at top level by design — counting it would false-fire the warning fleet-wide.
+NON_LEDGER_NAMES = {"board_log.tsv"}
+
+
+def read_ledger_glob(agent_dir):
+    """Parse AGENTS/<NAME>/workbook/LEDGER_GLOB. Returns a list of glob patterns,
+    [] if the file exists but declares none (MISCONFIGURED), or None if absent."""
+    p = os.path.join(agent_dir, "workbook", "LEDGER_GLOB")
+    if not os.path.isfile(p):
+        return None
+    pats = []
+    try:
+        with open(p, "r", encoding="utf-8", errors="replace") as f:
+            for line in f:
+                line = line.split("#", 1)[0].strip()
+                if line:
+                    pats.extend(line.split())
+    except OSError:
+        return []
+    return pats
+
+
+def outside_glob_candidates(agent_dir):
+    """Non-exempt, non-board-log top-level TSVs — the ledgers a 0-match glob is missing."""
+    return sorted(
+        p for p in glob.glob(os.path.join(agent_dir, "*.tsv"))
+        if os.path.basename(p) not in NON_LEDGER_NAMES and not is_exempt(p)
+    )
+
+
+def report_unmatched(agent_dir, name, pats, decl, quiet):
+    """Workbook mode, glob matched 0 files. Never a bare benign line when ledgers
+    exist unscanned (TERRY-S1, PAT-074): distinguish MISCONFIGURED / OUTSIDE-GLOB /
+    unenforced-advisory / genuinely-nothing. Returns 1 if a loud warning printed."""
+    top = outside_glob_candidates(agent_dir)
+    has_wb = os.path.isdir(os.path.join(agent_dir, "workbook"))
+    if decl is not None:
+        shown = " ".join(decl) if decl else "<empty file>"
+        print(f"🔴 [{name}] LEDGER_GLOB matched 0 files (patterns: {shown}) — MISCONFIGURED; "
+              f"enforcement is silently absent. Fix {os.path.join('AGENTS', name, 'workbook', 'LEDGER_GLOB')}.")
+        return 1
+    if has_wb and top:
+        names = ", ".join(os.path.basename(p) for p in top)
+        print(f"⚠️  [{name}] LEDGERS-OUTSIDE-GLOB: 0 ledgers matched {' '.join(pats)} but "
+              f"{len(top)} TSV(s) sit outside it: {names} — UNENFORCED. Declare them in workbook/LEDGER_GLOB.")
+        return 1
+    if not quiet:
+        if top:
+            names = ", ".join(os.path.basename(p) for p in top)
+            print(f"[{name}] note: {len(top)} top-level TSV(s) unenforced (no workbook/, no LEDGER_GLOB): {names}")
+        else:
+            print(f"[{name}] no ledgers matched {' '.join(pats)} (no non-exempt top-level TSVs outside it)")
+    return 0
 
 
 def is_frozen(path):
@@ -246,15 +323,17 @@ def main():
     ap.add_argument("--strict", action="store_true", help="disable by-name exemptions (schema/archive/backup/history/etc.)")
     args = ap.parse_args()
 
-    globs = TRADE_GLOBS if args.trade else [args.glob]
+    cli_glob_explicit = args.glob != ap.get_default("glob")
 
     if args.all:
-        # trade mode: anchor on STATUS.md (every real agent) and let scan_agent find
-        # its trade surfaces; workbook mode: anchor on the workbook/ dir as before.
-        anchor = "STATUS.md" if args.trade else "workbook"
+        # Anchor on STATUS.md (every real agent) in BOTH modes. The old workbook/
+        # anchor made an agent without that dir invisible to the sweep entirely —
+        # the same enumeration-omission class as YEYOU-couldn't-see-PROME (PAT-071
+        # family; TERRY-S1 fix 2026-07-31). report_unmatched() decides what a
+        # workbook-less agent's 0-match means; it is never silently skipped.
         dirs = sorted(
             os.path.dirname(p)
-            for p in glob.glob(os.path.join(REPO, "AGENTS", "*", anchor))
+            for p in glob.glob(os.path.join(REPO, "AGENTS", "*", "STATUS.md"))
         )
     elif args.agent:
         d = resolve_agent_dir(args.agent)
@@ -267,12 +346,27 @@ def main():
         return 2
 
     total_stale = 0
+    warnings = 0
     for d in dirs:
-        name, status_t, rows = scan_agent(d, args.days, globs, strict=args.strict)
+        if args.trade:
+            pats, decl = TRADE_GLOBS, None
+        else:
+            decl = read_ledger_glob(d)
+            if cli_glob_explicit:
+                pats = [args.glob]
+            elif decl is not None:
+                pats = decl
+            else:
+                pats = [args.glob]
+        name, status_t, rows = scan_agent(d, args.days, pats, strict=args.strict)
+        if not args.trade and not rows:
+            warnings += report_unmatched(d, name, pats, decl, args.quiet)
+            continue
         total_stale += report(name, status_t, rows, args.quiet)
 
     if args.all and not args.quiet:
-        print(f"\n== {total_stale} stale ledger(s) across {len(dirs)} agents (threshold {args.days}d behind STATUS) ==")
+        tail = f"; {warnings} enforcement warning(s)" if warnings else ""
+        print(f"\n== {total_stale} stale ledger(s) across {len(dirs)} agents (threshold {args.days}d behind STATUS){tail} ==")
     return 0
 
 
