@@ -14,7 +14,9 @@
 
 **2. 🔴 Sun 8/2 — OPEC+**: +188 kb/d Sept expected; watch the reported **Oct-Dec pause**. LESSONS #10: paper ≠ physical.
 
-**3. ⚑ STAGE-A PROPOSAL IS WITH WILL, UNRULED** — `outbox/2026-07-31_to-PROME_stage-a-proposal.md`. **Do not treat as ratified. The live STNG veto stands as written.**
+**3. ✅ STAGE-A v4 RATIFIED BY WILL 7/31 (~11:4x AM) — BOTH LEGS. IMPLEMENTED.** Leg T (binary sign-blind liveness veto, BLOCK iff `max(|STNG|,|FRO|,|DHT|) ≤1.0%` day 0) + Leg C (crude 2-day follow-through, BLOCK if cum Brent ≥0%). STNG single-name directional veto **RETIRED IN FULL — do not re-cite it as live.** Leg (a) basis ruled **CLOSE, frozen.**
+> **🔴 BUT THE OFF-RAMP IS STILL NOT FIREABLE, AND THIS IS THE THING TO CARRY FORWARD.** Stage A is a **four-way AND-gate** and **Jun-17 — the one analogue where a crude short MADE money — STILL BLOCKS, on the TRANSIT leg** (transits were dark): (i) ✅ · (T) 1.63% ✅ · (C) −2.07% ✅ · **(ii-A) ⛔**. **Defects ① and ③ closed; ② is now the BINDING one.** **The tanker leg was never what was stopping the trade.** **⇒ The next Stage-A ruling to seek is entry defect ② (transit leg vs LESSONS #11).**
+> ⚠️ **SIZING WAS NOT RULED** — half-on-day-0 was offered, the relay was silent, so **default = full size after both legs resolve (entry 2 sessions post-announcement)**. Flagged back; do not assume half/half.
 
 ---
 

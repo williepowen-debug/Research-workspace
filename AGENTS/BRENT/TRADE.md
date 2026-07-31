@@ -45,7 +45,9 @@
 >
 > **📍 LEG (a) STATE TODAY — NOT MET, and it moved AWAY from met.**
 > **Peak re-derived from the tape, not carried** (the spec says *running maximum since arming*, and SCRATCH warns never to carry 58.62 as a constant). **^OVX daily closes 7/16→7/31 re-pulled: running peak = 68.97 on 7/23 — UNCHANGED. No post-7/30 escalation re-ratcheted it** (7/29's spike closed 67.59, below the peak).
-> **⚠️ SPEC AMBIGUITY FLAGGED, NOT RESOLVED MID-GRADE — leg (a) does not state whether the running peak is on a CLOSE or INTRADAY-HIGH basis.** The registered 68.97 is the 7/23 **close**; the 7/23 intraday high was **71.26**. **Graded BOTH readings, per the no-re-spec-mid-grade rule:**
+> ### ✅ **BASIS RULED BY WILL 2026-07-31 (~11:4x AM ET): leg (a) is CLOSE BASIS, FROZEN.** The running peak **and** the −15% line are computed on **CLOSES** — matching the as-registered `68.97 → ≤58.62` derivation. **The intraday reading below is retired to a dated record and must not be re-cited as live.** ⚠️ **The ambiguity is now CLOSED: do not re-open it, and do not re-derive the basis from whichever reading is nearer met on a given day** (that is the percentile-drift error in a different costume — `[[finding_threshold_level_is_a_measurement_not_a_constant]]`).
+>
+> **⚠️ Ambiguity as found this morning (dated record of how it was graded BEFORE the ruling — both readings, per the no-re-spec-mid-grade rule; both were unmet, so the ruling changed no verdict):**
 >
 > | Basis | Post-arm peak | −15% line | OVX now | Δ from peak | Verdict |
 > |---|---|---|---|---|---|
@@ -68,7 +70,7 @@
 
 | Leg | **FROZEN test** | Controls |
 |---|---|---|
-| **(a) Vol decompression** | **OVX ≤ −15.0% from its running peak measured SINCE THE ARMING DATE** | "Don't buy the panic tick" — measured *relative to this crisis*, never against a calm-market absolute, never a percentile |
+| **(a) Vol decompression** | **OVX ≤ −15.0% from its running peak measured SINCE THE ARMING DATE — ✅ CLOSE BASIS, Will-ruled 2026-07-31 (peak AND line both on closes; intraday readings are NOT the gate)** | "Don't buy the panic tick" — measured *relative to this crisis*, never against a calm-market absolute, never a percentile |
 | **(b) Structure economics** | **Net debit ≤ 33.0% of spread width** (⇔ **R:R ≥ 2.0:1**), from a **LIVE CHAIN** at fill | The thing the vol legs were proxying for, measured directly. Also catches bad strike selection and blown-out crisis bid/ask |
 
 - **⏳ EXPIRY:** if neither leg fires inside 20 td, **the arm EXPIRES UN-DEPLOYED** and requires a **FRESH** Tier-1/Tier-2 event to re-arm. *(v1 had NO expiry — "ARMED-and-HOT" could persist indefinitely. This is the single biggest tightening in the package.)*
@@ -130,7 +132,41 @@
 
 > **⚠️ THE DEFECT THIS REPLACES (v1, 7/21):** *"≥1 verification leg within **3 trading days** {transits >~35/day · war-risk premium halves · P&I resumption notice}."* **Three legs with response times spanning days-to-weeks were forced into one 3-day window.** War-risk needs **2-4 weeks of confirmed de-escalation before underwriters reprice** [Insurance Business 6/28/26]; a P&I resumption notice is risk-committee-gated and takes weeks to *occur*. **So two of the three legs could only ever fire LATE — the ≥1-of-3 label was cosmetic and the transit leg was the whole gate.** An indicator cannot satisfy a test faster than it can physically move.
 
-**⇒ STAGE A — ENTRY (the only stage that authorises capital; must be satisfiable inside the ~48h trade window):** **(i)** signature/sovereign-action **AND** **(ii-A)** the **transit leg**, the only one that both moves and is observable in the trading window — **aggregate Hormuz transits recovering >~35/day, on ≥2 consecutive days.** ⚠️ **Grade off real-time AIS as the leading read, NOT PortWatch/Lloyd's** — those publish on a **4-6 day lag** and *cannot report the value at the moment this gate asks* (the PROME framespec class: pre-register against the source that CARRIES the metric, not the event date). **AND** the **STNG sanity check (mandatory, LESSONS #16/#18):** if tankers do NOT sell off on the announcement, the market isn't treating it as operational → **do NOT fire.**
+**⇒ STAGE A — ENTRY (the only stage that authorises capital; must be satisfiable inside the ~48h trade window):** **(i)** signature/sovereign-action **AND** **(ii-A)** the **transit leg**, the only one that both moves and is observable in the trading window — **aggregate Hormuz transits recovering >~35/day, on ≥2 consecutive days.** ⚠️ **Grade off real-time AIS as the leading read, NOT PortWatch/Lloyd's** — those publish on a **4-6 day lag** and *cannot report the value at the moment this gate asks* (the PROME framespec class: pre-register against the source that CARRIES the metric, not the event date). **AND** ~~the **STNG sanity check (mandatory, LESSONS #16/#18):** if tankers do NOT sell off on the announcement, the market isn't treating it as operational → **do NOT fire.**~~ ⛔ **RETIRED 2026-07-31 — REPLACED BY LEG T + LEG C BELOW (Will-ratified).**
+
+### ✅✅ STAGE-A v4 — **LEG T + LEG C — RATIFIED BY WILL 2026-07-31 (~11:4x AM ET, both legs, per the both-or-neither condition). FROZEN NUMBERS AS PROPOSED.**
+*Proposal of record: `outbox/2026-07-31_to-PROME_stage-a-proposal.md`. The single-name STNG directional veto is **retired in full** — do not re-cite it as live anywhere.*
+
+| Leg | **FROZEN test** | Verdict logic |
+|---|---|---|
+| **T — tanker liveness** | `T = max( \|STNG\|, \|FRO\|, \|DHT\| )`, regular-session **close-to-close % change on the announcement session (day 0)** | **BLOCK iff `T ≤ 1.0%`.** Otherwise PASS. **SIGN IS DISCARDED, explicitly and by design (LESSONS #19).** |
+| **C — crude 2-day follow-through** | Cumulative **Brent front-month** return over the **TWO sessions AFTER day 0**, measured against the day-0 close | **BLOCK iff `≥ 0%`** (premium being re-bought = false dawn). PASS iff `< 0%`. |
+
+- **Binary and exhaustive by construction** — no dead band (that was the defect in the 7/30 three-case draft: `1%<|move|<3%` was unspecified and is the *most likely* outcome, 44.9% uncond. / 34.6% given Brent ≤−3%).
+- **The 1.0% and 0% boundaries are CHOSEN, NOT FITTED.** Frozen constants — no percentile, no re-derivation from a rolling window (`[[finding_threshold_level_is_a_measurement_not_a_constant]]`). ⚠️ **Do not "improve" them on n=2.**
+- **Leg T base rates** (3y to 2026-07-31, n=749): blocks **13.4%** unconditionally, **5.8%** given Brent ≤−3%, 9.4% given ≤−4%, 15.0% given ≤−5%. A narrow anti-false-positive filter, not a gate.
+- **Leg C verified 2-for-2:** Apr-17 2026 **+8.96% ⇒ BLOCK** (correct — crude ran +19.7%, a short would have been destroyed) · Jun-17 2026 **−2.07% ⇒ PASS** (correct — a crude short won −9.7% by day 10). Robust: every threshold from **−2% to +8%** separates the two.
+- **⚠️ WHY THEY SHIP TOGETHER AND MUST NEVER BE SPLIT:** Leg T passes **both** analogues (Apr-17 `T`=5.63%, Jun-17 `T`=1.63%), so **Leg T alone would have removed the only leg that blocked Apr-17.** Leg C is what blocks it. **Splitting this pair is a net loosening of a short-arming gate** — the same principle that forced the 7/29 kill test.
+
+> **⚠️ HONEST LIMITS — CARRIED FORWARD WITH THE RATIFICATION, PER THE RULING (do not drop these when citing the gate):**
+> 1. **n = 2 analogues.** Both legs are calibrated on two events.
+> 2. **This regime has produced ZERO genuine physical reopenings** (LESSONS #19: Jun-17 was 0-of-4 on physical legs). **"Real vs fake" is therefore UNCALIBRATED** — Jun-17 is "the one that would have made money," which is not the same thing as "the one that was real."
+> 3. **The Leg-T base rates are unconditional market behaviour**, not conditional on de-escalation announcements. They say how often it blocks, **not whether it blocks the right days.**
+> 4. **§0a is UNRESOLVED, NOT EXPLAINED:** the 7/30 analogue table's tanker figures do not reproduce and I still cannot say how they were produced. The **"blocked 2 of 2" tally stays RETIRED as UNVERIFIED** — do not re-cite it.
+>
+> **⚠️ THE SIZING SUB-QUESTION WAS NOT RULED AND I AM NOT ASSUMING IT.** The proposal offered *half size on day 0 / remainder on Leg C* as a mitigation for Leg C's 2-session latency (§3). **The relay ratified the two legs and was silent on sizing ⇒ sizing is UNRULED and the default stands: FULL SIZE ONLY AFTER BOTH LEGS RESOLVE**, i.e. entry lands **2 sessions after the announcement**. **This is the strictest reading and it is deliberate** — inventing a half-size authority Will did not grant would be exactly the rail-scope error I am supposed to refuse (`[[finding_outside_this_rail_disclosure]]`). **Flagged back to PROME for a follow-up ruling.**
+>
+> **🔴🔴 AND THE CONSEQUENCE THAT MUST NOT BE BURIED — THIS RATIFICATION DOES NOT MAKE THE PLAYBOOK FIREABLE. THE BINDING CONSTRAINT HAS MOVED, NOT DISAPPEARED.**
+> Stage A is an **AND-gate** and is now **four-way**: **(i) signature/sovereign act AND (ii-A) transits >~35/day on ≥2 consecutive days AND (T) AND (C).** Re-run against the one analogue where a crude short **made money**:
+>
+> | Jun-17 2026 | Verdict |
+> |---|---|
+> | (i) signature/sovereign act | ✅ PASS (MOU signed) |
+> | **(ii-A) transits >35/day ×2d** | ⛔ **BLOCK — transits were DARK** |
+> | (T) tanker liveness `1.63%` | ✅ PASS |
+> | (C) crude follow-through `−2.07%` | ✅ PASS |
+>
+> **⇒ Jun-17 is STILL BLOCKED — now by the TRANSIT leg (entry defect ②), which remains open BY PRIOR RULING and contradicts LESSONS #11** (*"the crash triggers at ANNOUNCEMENT, not delivery — waiting for barrels means missing 80% of the move"*). **The tanker leg was never the binding constraint; fixing it revealed which leg is.** **The playbook is STILL NOT FUNCTIONAL END-TO-END, and defect ② is now the single thing standing between this playbook and a fire.** *(Stated precisely, not dramatised: this is not an argument the ruling was wrong — Leg C is the leg that would have stopped the Apr-17 disaster and it is now installed. It is a flag that the next ruling is the one that matters, and that adding a leg to an already-compound AND-gate deserves the joint base-rating my own `[[finding_compound_gate_jointly_unsatisfiable]]` demands.)*
 
 > # 🔴🔴 DEFECT FOUND 2026-07-30 — **THE STNG LEG IS NON-DISCRIMINATING AND IS 0-FOR-2 AGAINST ITS OWN ANALOGUES. FLAGGED OPEN, NOT SILENTLY FIXED — IT SITS INSIDE A SPEC WILL RATIFIED YESTERDAY.**
 >
@@ -217,6 +253,12 @@
 ### 🔴 KNOWINGLY OPEN AFTER THE 7/30 RULING — **ENTRY WAS NOT FIXED, AND THAT WAS THE DECISION, NOT AN OVERSIGHT**
 
 Will ruled **Option B (harvest + tenor only)** on 2026-07-30. **Stage A entry is therefore UNCHANGED and still carries all three entry defects.** Recording them here so this playbook never reads as "ready":
+
+> ## ⚑ **UPDATED 2026-07-31 — WILL RATIFIED STAGE-A v4 (Leg T + Leg C). DEFECTS ① AND ③ ARE CLOSED. ② IS NOT, AND ② IS NOW THE BINDING ONE.**
+> **① CLOSED** — the non-discriminating STNG veto is retired in full, replaced by the binary sign-blind **Leg T**.
+> **③ CLOSED** — the 2-day crude follow-through discriminator is **adopted as mandatory Leg C**.
+> **② STILL OPEN** — the transit leg (>35/day ×2 sessions) vs LESSONS #11.
+> **🔴 AND THE POINT THAT MATTERS: closing ① and ③ did NOT make the playbook fireable.** Re-run against Jun-17 — the one analogue where a crude short **made money** — the four-way AND-gate still **BLOCKS**, now on the transit leg (transits were **dark**). **The tanker leg was never the binding constraint; fixing it revealed which leg is.** **The playbook remains NOT FUNCTIONAL END-TO-END and defect ② is the single remaining thing between it and a fire.** *(Also unruled: the sizing mitigation — see the Stage-A v4 block above. Default stands at full size after both legs resolve, i.e. entry 2 sessions after the announcement, which pushes further against #11.)*
 
 1. **🟠 The STNG leg remains a mandatory veto, and it is non-discriminating.** ⛔ **FIGURES CORRECTED 2026-07-31 — the "blocked 2 of 2" tally is RETIRED as UNVERIFIED** (the recorded tanker rows do not reproduce; see the correction block above). **Re-derived day 0: Apr-17 STNG +1.61% (veto BLOCKS) · Jun-17 STNG −0.61% (a literal "did they sell off?" reading PASSES) ⇒ 1-of-2, not 2-of-2.** The leg's defects are **structural and unchanged**: no magnitude threshold, sign logic contradicted by LESSONS #19, and single-name fragility. *In fairness: blocking Apr-17 was the right outcome.* **Frozen replacement proposed 7/31, awaiting Will → `outbox/2026-07-31_to-PROME_stage-a-proposal.md`.**
 2. **🟠 The transit leg (>35/day ×2 sessions) contradicts LESSONS #11** (*"the crash triggers at ANNOUNCEMENT, not delivery — waiting for barrels means missing 80% of the move"*). On Jun-17 transits were **dark** and a crude short still won **−9.7% by day 10**.
