@@ -266,3 +266,14 @@ One short message:
 | `PROME/FLEET_SCAN.md` | Don't touch — superseded historical snapshot (fleet state = `PROME/ROSTER.md` + DAEDALUS `FLEET_MAP.tsv`; doc-audit 7/10) |
 | `PROME/ORCHESTRAL_LAYER_DESIGN.md` | Only if prototypes produced feedback |
 | Root `CLAUDE.md`, `HEARTBEAT.md`, other shared | Flag to Will; don't auto-edit unless explicitly approved |
+
+---
+
+## Closeout-class fleet memories (fleet-memory embeds — migrated 2026-07-31, Phase-2 restructure)
+*One-liners embedded from memory/auto/ (files unchanged); index rows now in memory/auto/INDEX_COLD.md.*
+
+- finding_closeout_as_writeback_tail — "Codify session closeout as the write-back tail of the auto-loaded CLAUDE.md SPAWN PROTOCOL, not a standalone doc; auto-load is the decisive factor" `[[finding_closeout_as_writeback_tail]]`
+- feedback_intra_day_closeout_discipline — Run WALTER closeout (spawn-protocol steps 12-15) at every session end, not just end-of-day; multi-session-days must honor intermediate closeout to prevent STATUS-staleness gap `[[feedback_intra_day_closeout_discipline]]`
+- feedback_handoff_cadence — Will prefers clean handoffs at natural breakpoints over riding a long session into degradation `[[feedback_handoff_cadence]]`
+- finding_state_token_sweep_all_surfaces — "When a gate/decision state flips (e.g. FIRED-UNEXECUTED → RESOLVED), sweep the state-token across ALL surfaces — live ledgers (VX/KB.tsv) and live templates/setups too, not just STATUS/SCRATCH; scope the verification grep from repo root." `[[finding_state_token_sweep_all_surfaces]]`
+- finding_completion_stamp_skip_reads_as_current — "a file whose NAME promises currency (LAST_COMPLETION) that SKIPS a closeout doesn't read as stale — it reads as current and wrong; detect by mtime vs STATUS.md" `[[finding_completion_stamp_skip_reads_as_current]]`

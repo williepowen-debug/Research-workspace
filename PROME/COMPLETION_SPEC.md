@@ -63,3 +63,13 @@ FOLLOW-UP: ARESSI data drops Wed — spawn BROCK again to integrate when availab
    - Any agent shifts scenario probability → route to RED inbox
 
    **Format:** `{SOURCE}_ROUTING_{DATE}.md` — 5 lines max. Signal, source, why it matters to the recipient. Don't duplicate the full output — just the actionable fragment.
+
+---
+
+## Delivery-contract fleet memories (fleet-memory embeds — migrated 2026-07-31, Phase-2 restructure)
+*One-liners embedded from memory/auto/ (files unchanged); index rows now in memory/auto/INDEX_COLD.md.*
+
+- finding_two_phase_spawn_grader_contract — "For a session that must wait hours for a scheduled data release: split it into two spawns with a FROZEN MECHANICAL GRADER as the handoff contract (prep session builds grader+memo, shuts down; fresh session at release-time runs the grader). Zero context loss, no idle session, and the grader's input-refusal doubles as stale-data discipline." `[[finding_two_phase_spawn_grader_contract]]`
+- finding_terminated_notice_can_precede_delivery — "A teammate_terminated notice + an empty disk check does NOT prove a spawned agent delivered nothing — its commits/message can land after the check; never assert absence in a re-spawn prompt, instruct verify-existing-first instead." `[[finding_terminated_notice_can_precede_delivery]]`
+- finding_idle_notification_is_not_a_result — "A spawned agent going idle is NOT a report — chase the deliverable before concluding it found nothing. 4-for-4 agents in one fan-out idled without delivering and 3 had completed work behind the silence. Make delivery the explicit FINAL ACTION in the spawn prompt (write to disk AND message), tell chased agents that 'I did not complete it' is unpenalised, ask for the DIAGNOSTIC before the research, and check DISK before re-spawning." `[[finding_idle_notification_is_not_a_result]]`
+- finding_spawned_agents_ship_artifact_skip_writeback — "Spawned agents reliably deliver the requested artifact and reliably SKIP writing back to their own STATUS — 3-for-3 in one session, including one agent that flagged its own stale surface inside the memo and then didn't fix it. A deliver-before-idle contract buys the deliverable, not the state update; put the write-back in the spawn contract and disk-verify STATUS mtime, not just the outbox." `[[finding_spawned_agents_ship_artifact_skip_writeback]]`
