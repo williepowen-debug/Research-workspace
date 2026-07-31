@@ -33,3 +33,6 @@
 
 ## Git / repo state
 Clean and synced at closeout; ~10 PROME commits this session (boot queue-reconcile · DOCKET grading sweep + 3 packets · HEARTBEAT Am.#3 Will-directed · DOCKET/SCRATCH BOJ companions · RED supplement · closeout residue + state writes). SAM's session self-committed clean (`f27fc196`); no foreign dirty files at closeout. Dashboard republished to the recorded URL (7-31-overnight-boj-fold).
+
+## ★ POST-CLOSEOUT ADDENDUM (7/31 ~02:20 ET — found at push-verify)
+SAM ran a SECOND closure after the fold (`060abd20`): **Ueda presser GRADED — SAM-38 closes FULL-C** (Oct OIS ~26-40%→~64%, through the registered >40% bar) → **Branch-C(c) re-mark trigger FIRED: buckets 5/18/27 → 5/19/29**, hawkish-of-priced mass now INSIDE the Sep 17-18 MPM window (77% unpriced); MOF monthly ¥0 = 7/2 no-strike HARD-CONFIRMED. ⇒ **Am.#3's "FULL-C vs WEAK-C pending" + this file's presser-residue lines are SUPERSEDED** — next session folds the FULL-C closure + bucket re-mark into HEARTBEAT (next amendment; chain 3) and checks HENRY consumed SAM's Sep-window note. CFTC 3:30 PM check unchanged.
