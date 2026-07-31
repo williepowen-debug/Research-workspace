@@ -84,6 +84,6 @@
 ## WORKBOOK HEALTH
 
 - **LIVE:** STATUS (**242 lines**, under cap) · TRADE · THESIS v5.2 + CHANGELOG · NEXUS_BRIEF · CATALYSTS (**16 rows**, diesel row RESOLVED + 9/1 and 2027-01-31 added) · INCIDENTS · PREDICTIONS (**no resolutions; 7/31 header note added**) · LESSONS_INDEX (**L19 evidence note corrected**) · board_log (**108 rows**) · SCRATCH.
-- **FROZEN (correct):** KB · VX · FLOW · GROUP_MAP · TIMELINE.
+- **FROZEN (correct, all banner-verified 7/31):** `workbook/`KB · VX · FLOW · GROUP_MAP — **4 files, not 5.** ⛔ **`workbook/TIMELINE.tsv` DOES NOT EXIST and never did** *(audit flag F8, fixed 7/31 — this line had listed a phantom file as "correctly frozen," i.e. a health report asserting the state of something it never checked)*. The real artifact is **`thesis/TIMELINE.md`**, which is separately and correctly **FROZEN 2026-07-01 (superseded, last maintained Apr-16)**.
 - **Boot kit: 5 scripts, all green.** Lesson-conflict check reports **2 UNRESOLVED `entry_timing` contradictions (L11↔L18, L16↔L18) — KNOWN and deliberately open** pending a Stage-A entry ruling.
 - **GIT:** own-dir pathspec commits + safe-push. ⚠️ **VIOLET has uncommitted `fred_cache` CSVs in the tree — NOT mine, not swept.** Origin was at parity at boot (0/0), so no pull was needed or attempted.

@@ -80,7 +80,7 @@ MARKET_THRESHOLDS = [
     # Canonical registry = thesis/THESIS.md KEY THRESHOLDS. THESIS WINS on any disagreement.
     # TODO (structural, DAEDALUS 7/28 W-class): scripts should READ that registry, not restate
     # it. This is instance n=2 fleet-wide of the registry-restatement class.
-    ("BZ=F",  "below",  85.0, "thesis",  "Brent <$85 — $85×3 sustained-premium condition LAPSED (not a break; see THESIS v5.1)"),
+    ("BZ=F",  "below",  85.0, "thesis",  "Brent <$85 — $85×3 sustained-premium condition LAPSED (not a break; see THESIS v5.2)"),
     ("BZ=F",  "below",  75.0, "thesis",  "Brent <$75 — STRUCTURAL DECOUPLING, thesis-CONFIRMING (NOT a break — '<$75 = break' RETIRED v4→v5)"),
     ("BZ=F",  "below",  70.0, "risk",    "Brent <$70 — approaching the REAL downside break (fires only WITH confirmed demand collapse)"),
     # ── WTI futures (CL=F)

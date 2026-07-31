@@ -8,7 +8,9 @@
 - Key exporters: Saudi Arabia, Iraq, UAE, Kuwait, Qatar, Iran
 
 ## Gulf Storage Capacity (Estimated)
-| Country | Capacity (est.) | Current Runway | Status |
+> ⛔ **The "Runway" and "Status" columns are MARCH-2026 SNAPSHOTS, [STALE], NOT current** — restated in-table 7/31 (audit flag F10) because the column formerly read *"Current Runway"* while carrying Mar-5/6 values, so a reader skimming the table contradicted the file's own header. **Capacity column = structural, still the reference.**
+
+| Country | Capacity (est.) | Runway **[STALE — Mar 2026]** | Status **[STALE — Mar 2026]** |
 |---------|----------------|----------------|--------|
 | Kuwait | Limited | ~12 days (Mar 6) | 🔴 Curtailing |
 | Qatar | Limited | Filling | 🔴 Curtailing |
