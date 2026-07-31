@@ -1,5 +1,5 @@
 # NEXUS LAST COMPLETION
-**Session:** 2026-07-31 Fri ~10:30 AM-~11:45 AM ET (Will-direct boot, single unit — **3-day re-anchor off 7/28 pre-FOMC**, the densest resolved window of the cycle: FOMC + all four mega-caps + BOJ + both credit-line crosses + war resumption in one pass).
+**Session:** 2026-07-31 Fri ~10:30 AM-~1:00 PM ET (Will-direct boot, **2 units** — unit 1: 3-day re-anchor [below]; unit 2 appended at end: **Will-directed boot-doc staleness audit + 15-finding remediation**).
 
 ## Headline: split 29/31/40 → **27/35/38** — Grind extends its lead; both credit LEVELS breached while both MECHANISM attributions went bull-side; molecule split adopted fleet-wide; T-16 RESOLVED-PARTIAL; C-36 promoted (policy-path leg)
 
@@ -39,3 +39,18 @@ STATUS sanity ✓ (172/200 lines; Δ-columns consistent, no-op rows kept old dat
 ## Files
 - **Changed:** `STATUS.md` (full re-anchor, 172 lines) · `PREDICTIONS_MONITOR.md` (header · PRED-36 MISS · PRED-37/41 re-marks · 7/28-31 gate block · 7/10+7/16 blocks → pointer) · `CONFIRMED.md` (+C-36) · `BRIEFS_MAP.md` (★7/31) · `CLAUDE.md` (Disc-I) · `board_log.tsv` (+3) · `brief_fallback_log.tsv` (+2) · this file. **New:** `signals_archive/GATE_ADJUDICATIONS_20260710_20260716.md`. **Moved:** 4 inbox + 3 WALTER-lane → processed/.
 - **New (cross-dir, carve-out ①):** `AGENTS/LABOR/inbox/2026-07-31_from-NEXUS_eci-claims-raw-capture-three-grades-owed.md`.
+
+---
+
+## Unit 2 (~12:15-1:00 PM, Will-directed): boot-doc staleness audit → 15 findings → all remediated
+
+**Audit scope:** the full boot read-set (CLAUDE.md local · STATUS · PREDICTIONS_MONITOR · CONFIRMED · SIGNALS · BRIEFS_MAP · LAST_COMPLETION) + retired-token grep + cited-path existence checks + disk census. Token sweep came back CLEAN (no 7,496 / 80.08 / retired-gate / "pending fill" / unqualified-"zero barrels" survivors). 15 findings, all fixed same session:
+
+- **CLAUDE.md (6 fixes):** census DE-HARDCODED (count rotted 24→25 in place, +WAL 7/25 — BRIEFS_MAP is now the single census home, PAT-068 class-kill); **BOND added to Tier-1** + **WAL added to the when-live group** (encoding existing practice); broken spec path ×2 re-pointed to `outbox/delivered/`; 8-week-stale "review/adjust on next boot" residue ×2 cleared; "13 standardized files" de-hardcoded; outbox/-vs-direct-packet doc-practice drift fixed in CONTRACT + WHAT-YOU-OWN + signals table; **new closeout guard bullet: existence-check any newly-cited path** (the class that produced the broken BRENT pointer).
+- **BRIEFS_MAP (4 fixes):** census re-dated ★7/31 (25 briefs, full roster listed, WAL bucketed); "(prior) ★7/24" layer PRUNED per the file's own no-accretion rule; ★7/17 "BOND = TOP brief gap" line struck-through with resolved note; file Updated-stamp 7/17→7/31.
+- **PREDICTIONS_MONITOR (5 fixes):** header pass-log chain (7 passes, ~a screen) ARCHIVED → `signals_archive/PREDICTIONS_PASS_LOG_20260627_20260724.md` + standing keep-current-plus-one rule; past-trigger section retitled **ALL RESOLVED (archive-in-place)** — dead "verify in E-phase" intro rewritten; **PRED-24 "reduced" → ~15% + dated re-review 9/30** (resolvability fix — undated ACTIVE was unresolvable-by-construction); **PRED-23 residual CLOSED** against LIQUID's published funding-clean record (4-month un-routed ask retired without an ask); **PRED-45 venue text re-based** (dead "7/25-28 marks" premise residue struck; First Brands = held-no-ruling).
+- **CONFIRMED (2 fixes):** C-36 reordered below C-35; **C-05's buried forward claim ("CA/NY Aug") flagged in-row** — in-window, unverified since March; verification owed next pass (STATUS carry-forward item j).
+- **SIGNALS (1 fix, via live re-pull not stale-stamp):** S-26060701 figures re-verified after 8 weeks and the legs SPLIT — **El-Niño STRENGTHENED** (NOAA July: 81% very-strong Oct-Dec, largest-since-1950 class) while **fertilizer DECAYED** (urea $714/t retail, −6% MoM, +9% YoY — the $850/4yr-high impulse gone). Row updated with 7/31 vintage + next re-verify ~Sep WASDE.
+
+**Verified clean, no action:** recon/c_id_index + WALTER spec + both templates resolve; STATUS/LAST_COMPLETION current from unit 1. **Promotion scan (unit 2): none this pass** — the de-hardcode and path-guard patterns already live in auto-memory (`finding_mechanize_the_cap_not_the_ritual`, PAT-068 class); the new closeout bullet is the NEXUS-local application.
+**Files (unit 2):** CLAUDE.md · BRIEFS_MAP.md · PREDICTIONS_MONITOR.md · CONFIRMED.md · SIGNALS.md · STATUS.md (carry-forward item j) · this file. **New:** signals_archive/PREDICTIONS_PASS_LOG_20260627_20260724.md.
