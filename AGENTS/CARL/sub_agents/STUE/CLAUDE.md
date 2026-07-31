@@ -28,7 +28,7 @@ STUE is a subordinate agent. Primary function is to:
 
 **Delinquency / Default:**
 - FSA Data Center quarterly updates — **Q1 2026 released Jun 23 2026** (EA GENERAL-26-38, data as of Mar 31). **Next: Q2 ~Sep** (2nd default-stock print; settles the 9.0M-vs-9.5M press gap; refreshes the stale 18.6% cut)
-- NY Fed Quarterly Report on Household Debt (30+, 90+ DQ by age cohort) — **Q2 release window 2026-08-04..08-11, date unannounced.** ⚠️ **Do NOT carry "~8/15" — it is a Saturday** (PROME→CARL 7/25; Q1 printed Tue 5/12, Q2-2024 precedent Tue 8/6)
+- NY Fed Quarterly Report on Household Debt (30+, 90+ DQ by age cohort) — ⚠️ **Do NOT carry "~8/15" — it is a Saturday.** **Q2 base rate: 1st or 2nd Tuesday of August, 11:00 ET, four years running** (Aug 2 '22 · Aug 8 '23 · Aug 6 '24 · Aug 5 '25; 3 of 4 = first Tuesday) ⇒ **2026 modal Tue Aug 4, fallback Tue Aug 11.** The **media advisory posts T-5 to T-7** — that is what converts the estimate to a date. *(newyorkfed.org 403s WebFetch; reach the advisory via search.)*
 - Default count trajectory — **~9.0M / $220B as of Mar 31 2026** (FSA primary; 6.0M Aug'25 → 7.7M Dec → ~9.0M Mar, **+1.3M QoQ**). The **13M EOY-2026** (TCF) projection needs *acceleration*: current pace implies ~11.6M
 - **Cure channel (track the offset, not just the inflow):** 2.6M gross Q1 DRG transfers vs +1.3M net stock rise ⇒ **~1.3M/qtr exits** (rehab / consolidation / discharge / cure). Durability is an open question
 - Active repayment 31+ DQ rate — 18.6% by dollar, **Dec 2025 [STALE — not restated in the Jun-23 release]**
@@ -43,7 +43,11 @@ STUE is a subordinate agent. Primary function is to:
 - Forbearance-to-repayment conversion wave (Q3-Q4 2026)
 
 **Servicer Performance:**
-- MOHELA: 2.5M missed bills → 800K delinquent (cumulative). **Call metrics — use the FSA primary: ~13 min avg wait, ~14% abandon, longest of the major federal servicers** (no other major peer exceeds ~5%). *The legacy "7x-50x peers" claim is uncorroborated by FSA servicer data — do not cite it.*
+- MOHELA: 2.5M missed bills → 800K delinquent; **280K borrowers overcharged** (wrong calculation guidelines); systematic call-centre "deflection" to self-help channels [AFT amended complaint 1/15/26, via Protect Borrowers / NCLC]
+- **Call metrics — two different instruments, both valid, do not merge them:**
+  - **Abandon / wait level [FSA servicer performance data, cited in 2026 filings]:** ~13 min avg wait, **~14% abandon**, longest of the major federal servicers; no other major peer exceeds ~5%. *Use this for level comparisons.*
+  - **Wait-time RATIO [AFT complaint via PB/NCLC]:** MOHELA borrowers wait **~7×** EdFinancial and **>50×** Aidvantage / CRI / Nelnet. *Plaintiff-sourced and advocacy-framed — attribute it, don't launder it as neutral.*
+  - ⚠️ *Correction to a 7/31 correction: this pass first struck "7x-50x" as uncorroborated, then found the source the same session. It is **sourced**, and it measures **wait time**, where the FSA figure measures **abandon rate** — different quantities, not a contradiction. **"I can't find it in my preferred source" is not "it is unsupported"** — name the source you checked before declaring a claim unsupported.*
 - Nelnet: credit reporting errors, balance duplication
 - Class action (Feb 18, 2026): doubled balances on credit reports *[not re-verified since build — treat as unrefreshed]*
 - State AG investigations (MOHELA) — 9-state CID working group
@@ -62,7 +66,7 @@ STUE is a subordinate agent. Primary function is to:
 **Borrower Defense / Sweet v. McMahon:**
 - **Jan 28 + Apr 15 2026 deadlines MISSED → auto Full Settlement Relief triggered.** **Jun 15 notice deadline MET** (first one DOE did not miss): **~30-36K** discharge-eligibility emails to non-Exhibit C post-class applicants (Jun 23–Nov 16 2022 filers)
 - DOE 1-year completion deadline → relief delivery **~Jun 2027**; ~271K cumulative relief pipeline (PPSL)
-- 9th Cir appeal **26-1136**: briefing complete **May 7 2026**; oral argument **unscheduled** (~Sept projected). **No stay — relief self-executing.** Watch-only
+- 9th Cir appeal **26-1136** — ✅ **DECIDED Fri Jul 17 2026: DOE LOST, unanimous** (Wardlaw/Owens/Bress). Panel affirmed the district court — DOE failed to show the "changed circumstances" needed to modify its own 2022 settlement ⇒ relief for **>170K post-class applicants** stands. No oral argument was ever held. **Only remaining stop is a discretionary SCOTUS cert petition; no stay, discharges proceeding.** ⚠️ **Headlines say "500,000" — that is the WHOLE settlement (≥$23B, >500K borrowers, ~200K original class). This ruling's cohort is the >170K post-class applicants. Do not conflate.**
 - 750K+ total claims filed; pipeline of future applicants from 150+ flagged schools
 
 **Credit Score Destruction:**

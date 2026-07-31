@@ -1,8 +1,10 @@
 # STUE STATUS
 
-**Last Updated:** 2026-07-31 (coherence pass — **no new domain data; no threshold moved**) | **Data vintage:** 2026-07-25 | **Status:** 🔴 CRITICAL — mechanism intact, enforcement gated. **CRL-04 CONFIRMED** (NY Fed Q1 2026 90+ DQ **10.3%**). **FSA primary (Jun 23) now carries the default wall: ~9M borrowers / $220B as of Mar 31 2026, +1.3M QoQ.** SAVE→RAP waves launched Jul 1 on schedule and the notice window **COMPRESSED ~3 months** (all notices by Dec 31 2026, not Mar 2027). **AFT v. MOHELA is STAYED by court order** — discovery frozen since Oct 2025; the litigation leg of CRL-14 cannot fire in its own window.
+**Last Updated:** 2026-07-31 (coherence pass **+ full news/data sweep** — **no threshold moved; one MISSED event recovered**) | **Data vintage:** 2026-07-25, w/ *Sweet* 9th Cir refreshed to 7/17 | **Status:** 🔴 CRITICAL — mechanism intact, enforcement gated. **CRL-04 CONFIRMED** (NY Fed Q1 2026 90+ DQ **10.3%**). **FSA primary (Jun 23) now carries the default wall: ~9M borrowers / $220B as of Mar 31 2026, +1.3M QoQ.** SAVE→RAP waves launched Jul 1 on schedule and the notice window **COMPRESSED ~3 months** (all notices by Dec 31 2026, not Mar 2027). **AFT v. MOHELA is STAYED by court order** — discovery frozen since Oct 2025; the litigation leg of CRL-14 cannot fire in its own window.
 
 > **Data vintage:** dashboard refreshed 2026-07-25 from primary sources (FSA GENERAL-26-38, NY Fed Q1 HHDC, D.D.C. docket 1:24-cv-02460, CFPB complaint API, MOHELA/Nelnet servicer FAQs). Prior file was a Jun-9 snapshot carrying five passed-but-unverified events; all now resolved or re-dated below. Live parent context → CARL `STATUS.md` (**2026-07-24 — 7d stale, and it has not integrated any of STUE's five 7/25 packets; see ROUTED TO PARENT**).
+>
+> **2026-07-31 SWEEP RESULT — read this before the tables.** A full news/data sweep across all eight STUE lanes returned **no threshold-moving data in the 7/25→7/31 window**, **but recovered one event STUE MISSED in its own 7/25 refresh: the *Sweet* 9th Cir appeal was DECIDED Fri 7/17 (DOE lost, unanimous, >170K post-class applicants) — 8 days before that session, and it sat one search away throughout it.** The Borrower Defense row and the ~Sep-15 catalyst were both wrong until now. Second finding: the Q2 HHDC has a **4-year base rate making Tue Aug 4 the modal print**, with the media advisory **due today or within days** — the single highest-value check available this week. Lanes that returned nothing: FSA (no update since 6/23, next ~Sep), SAVE→RAP (compression re-corroborated), servicers (no new event), Treasury Phase 1 (still unconfirmed, 8/5 stands), AWG/TOP (still "fall," no ED commitment → **STUCK holds**), AFT/MOHELA (Doc 54 still not public). **CFPB complaints deliberately NOT re-pulled** — the registered instrument sets ~Aug 20, past the 5-6d lag; pulling now would read the trailing week as settled, which the instrument exists to prevent. Both new findings routed to CARL (packet + `SV-STUE-2026-07-31-01`). *(Original coherence-pass note follows.)*
 >
 > **2026-07-31 coherence pass — what changed and what did NOT.** **No new domain data landed in the 7/25→7/31 window** and **no threshold moved.** A news sweep re-confirmed the 7/25 book rather than extending it: SAVE→RAP wave compression corroborated (Forbes 7/24, MOHELA FAQ); AWG/TOP still "this fall" with no ED commitment (**STUCK holds**); Treasury Phase 1 still unconfirmed with July closed (**8/5 verification stands**); AFT/MOHELA Doc 54 still not public. **Four coherence defects were fixed, all self-inflicted, none from the world:** ① the **8/15 HHDC anchor is a Saturday** and the real window is 8/4–8/11 — STUE's single most load-bearing grading catalyst was on a non-business day; ② the Sweet 9th-Cir briefing date carried a **year typo** (2025→2026); ③ the ROUTED-TO-PARENT table showed "sent" for five packets that are **still unprocessed 6 days later**, with a retracted claim live in the parent's ledger the whole time; ④ `CLAUDE.md` had drifted ~7 weeks behind this file and was reconciled in full. **The lesson worth keeping: three of the four were findable with `date`, arithmetic, or `ls` — no new information was required, only the decision to look.**
 
@@ -35,7 +37,20 @@ What this session changes is **not the mechanism but the enforcement and attribu
 
 **v2.5.1 thesis intact. No CRL threshold moves this session — the graders are the NY Fed Q2 HHDC (window **8/4–8/11**, date unannounced) and ~Oct 1 (CRL-13 first tranche).**
 
-> ⚠️ **HHDC DATE CORRECTION 2026-07-31.** Every "8/15" below is **wrong — Aug 15 2026 is a SATURDAY.** The Q2 release date is unannounced; cadence puts it in **2026-08-04..08-11** (Q1-2026 printed Tue **5/12** w/ media advisory 5/5; Q2-2024 precedent Tue **8/6**) [PROME→CARL 7/25]. **The grading window opens up to ~11 days earlier than STUE planned**, which compresses the deadline on the cascade-attribution packet below. Read "8/15" in the un-rewritten passages as "the Q2 HHDC print." **Pin the date when the NY Fed advisory posts (~1wk ahead).**
+> ⚠️ **HHDC DATE CORRECTION 2026-07-31.** Every "8/15" below is **wrong — Aug 15 2026 is a SATURDAY.** Read "8/15" in the un-rewritten passages below as "the Q2 HHDC print." **SHARPENED 7/31 PM with a 4-year base rate** — the window from [PROME→CARL 7/25] was right but wider than it needs to be:
+>
+> | Q2 report | Released | Which Tuesday of August |
+> |---|---|---|
+> | 2022 | Tue **Aug 2** | 1st |
+> | 2023 | Tue **Aug 8** | 2nd |
+> | 2024 | Tue **Aug 6** | 1st |
+> | 2025 | Tue **Aug 5** | 1st |
+>
+> **Every Q2 HHDC for four years has printed on the 1st or 2nd Tuesday of August at 11:00 ET, with a background press call at 9:30 ET. Three of four were the FIRST Tuesday.** August 2026's Tuesdays are **4 · 11 · 18 · 25** ⇒ **modal estimate Tue Aug 4, fallback Tue Aug 11.** (Q1-2026 also printed on a Tuesday, 5/12.)
+>
+> 🔴 **THE ADVISORY IS DUE RIGHT NOW.** The Q2-2025 advisory posted **Jul 31 2025 — T-5** (`newyorkfed.org/newsevents/mediaadvisory/2025/0731-2025`); the Q1-2026 advisory posted 5/5 for a 5/12 print — **T-7**. **Today is Jul 31 2026 — one year to the day from the Q2-2025 advisory.** Expect it today or within days: watch `newyorkfed.org/newsevents/mediaadvisory/2026/`. ⚠️ *WebFetch gets **403** from newyorkfed.org — the advisories have been reachable via web search, not direct fetch.*
+>
+> **Consequence: the grading window may open ~4 days from now**, up to 11 days earlier than the retired 8/15 anchor — which compresses the cascade-attribution packet's deadline to almost nothing.
 
 ---
 
@@ -114,7 +129,10 @@ What this session changes is **not the mechanism but the enforcement and attribu
 | **Jun 15 notice deadline** | ✅ **MET** — first Sweet deadline DOE did not miss. **~30–36K** discharge-eligibility emails week of Jun 15 to non-Exhibit C post-class applicants (Jun 23–Nov 16 2022 filers) | 🟢 **resolved** |
 | Relief delivery | Within 1 yr of notice → **~Jun 2027** | — |
 | Total relief pipeline | ~271K cumulative (PPSL) | 🔴 firing |
-| 9th Cir appeal (26-1136) | Briefing complete **May 7 2026** *(was written "2025" — year typo corrected 7/31; DOE reply brief 5/7/26 followed PPSL's answering brief 4/23/26, and a 26-numbered case cannot have 2025 briefing)*; **no oral argument scheduled** (~Sept projected; panel Wardlaw / Owens / Bress). No stay — DOE's stay request was **DENIED** (published order 3/25/26), relief self-executing | 🟠 watch-only |
+| **9th Cir appeal (26-1136) — ✅ DECIDED Fri Jul 17 2026, DOE LOST, UNANIMOUS** | **STUE MISSED THIS IN THE 7/25 REFRESH — it fired 8 days before that session.** Panel **Wardlaw / Owens / Bress** unanimously rejected DOE's appeal to delay relief for **>170,000 post-class applicants**, affirming the district court: DOE **failed to show the "changed circumstances"** legally required to modify a settlement it signed in 2022, and "knew exactly what it was signing up for." Prior STATUS carried *"no oral argument scheduled, ~Sept projected, watch-only"* — the court ruled without one. Briefing had completed **May 7 2026** *(also corrected 7/31 from a "2025" year typo)*. Earlier published order **3/25/26** denied DOE's stay bid; this is the merits loss. | 🟢🔴 **RESOLVED — DOE lost** |
+| — scale, disaggregated | **>500K** borrowers / **≥$23B** = the **whole 2022 settlement** · **~200K** = original settlement class · **>170K (DOE knew of >205K by Feb 2023)** = **post-class applicants, the cohort THIS ruling covers** · **>210K** = a *separate* borrower-defense backlog · **>1,000** class members still awaiting relief already owed. ⚠️ **Headlines say "500,000" — that is the settlement total, NOT this ruling's cohort. Do not cite 500K as the 7/17 number.** | ⚠️ figure-conflation trap |
+| — what's left | **DOE has not said whether it will appeal; the only remaining stop is SCOTUS (cert, discretionary).** No stay in place → **automatic discharges are proceeding.** Relief within 1yr of notice. | 🟡 residual tail |
+| — ⚠️ date-conflict note | Forbes 7/21 (Minsky) dates the ruling **"Friday, July 18"** — **July 18 2026 is a SATURDAY.** PPSL (7/23 release) and The College Investor both say **July 17**, which **is** a Friday. **7/17 is correct**; the weekday check broke the tie. *(Second time in two sessions the same `date` check caught a bad date — see the 8/15 HHDC catch.)* | 🔧 |
 
 ### Collections Status
 | Metric | Value | Status |
@@ -149,10 +167,11 @@ What this session changes is **not the mechanism but the enforcement and attribu
 | Date | Event | Impact |
 |------|-------|--------|
 | **Aug 5** (Wed) | **Treasury Phase 1 first-batch verification** (parent docket) | Did ~500K defaulted accounts actually transfer? Custody ≠ enforcement |
-| **Aug 4 – Aug 11 (window)** | **🔴 NY Fed Q2 2026 HHDC — THE BIG ONE. Date UNANNOUNCED.** | CRL-04 2nd print (does 10.3% sustain?); **CRL-05 breach window**; tests DEWEY's denominator-reversal call |
-| ~1wk before | NY Fed media advisory posts → **pin the exact date** | The advisory is the only thing that converts this window to a date |
+| **Tue Aug 4 (modal) — else Tue Aug 11** | **🔴 NY Fed Q2 2026 HHDC — THE BIG ONE. Date still UNANNOUNCED but the cadence is tight.** | CRL-04 2nd print (does 10.3% sustain?); **CRL-05 breach window**; tests DEWEY's denominator-reversal call |
+| **NOW – ~Aug 4** | **🔴 NY Fed media advisory — WATCH DAILY, it is due** | See the base rate below. **This is the single highest-value check STUE can run this week** |
 | **~Sep** | FSA Data Center Q2 update (~quarterly cadence) | Default stock 2nd print; settles the 9.0M vs 9.5M press gap; refreshes the stale 18.6% active-repayment DQ |
-| **~Sep 15** | 9th Cir *Sweet* oral argument (unscheduled, projected) | Watch-only — relief self-executing, no stay |
+| **Sep 30 2026** | RAP auto-pay enrollment deadline — **1% interest-rate reduction through Jun 30 2028** for borrowers enrolled in auto-pay by this date [ED] | 🆕 *added 7/31.* Marginally **relieving** on payment burden; a partial offset to the $0→~$407/mo shock. Small, but it is the only easing mechanism in the transition |
+| ~~**~Sep 15** — 9th Cir *Sweet* oral argument~~ | ~~unscheduled, projected~~ | ⛔ **PRUNED 7/31 — never happened and never will. The appeal was DECIDED 7/17/26 without oral argument.** Row was carried on a projection that the event had already overtaken |
 | **~Sep 29 – Oct 1** | **SAVE→RAP first-tranche non-selection read** | **CRL-13 partial N.** First-wave only — NOT the full 7.5M |
 | **Oct** | MOHELA notice waves complete (per MOHELA FAQ) | MOHELA cohort fully noticed; complaint/failure tell should be legible |
 | **Dec 31 2026** | **All SAVE notices issued (COMPRESSED from Mar 2027)** | Every borrower's 90-day clock started |
@@ -183,6 +202,8 @@ What this session changes is **not the mechanism but the enforcement and attribu
 | Cascade attribution narrowing | Must land **before the Q2 HHDC — window opens 8/4**, not 8/15 (7/31 correction: deadline is up to 11d tighter than written) or CRL-05's grade is contaminated | 📤 sent · **unprocessed 6d — the tightest clock of the five** |
 | CRL-13 timing | Notices complete **Dec 31 2026** (not Mar 2027); Oct-1 first-tranche framing unchanged | 📤 sent |
 | `TEAM.md` L15 restamp | STUE refresh gate fired 7/15, discharged this session — parent-owned file | 📤 sent |
+| **🆕 *Sweet* 9th Cir 26-1136 DECIDED 7/17 — DOE lost, unanimous** | CARL STATUS L22 still reads *"no docket movement since Jun 9, ~Sept hearing projected"*. **Correct to: decided, no oral argument ever held, >170K post-class applicants, SCOTUS-cert-only tail.** ⚠️ Do not cite the "500,000" headline as this ruling's cohort. **STUE missed this in its own 7/25 refresh — the event predates that session by 8 days** | 📤 **sent 7/31** |
+| **🆕 Q2 HHDC modal date = Tue Aug 4** | 4-year base rate (1st/2nd Tuesday of August; 3 of 4 = first). **Advisory due now** (T-5 to T-7; Q2-2025's posted 7/31/25). Bears on the frozen grading card + RED's pre-registered test — **and compresses the cascade-attribution deadline from 8/15 to possibly 8/4** | 📤 **sent 7/31** |
 
 > **STUE holds no predictions ledger** — CRL-04/05/13/14 are CARL's rows and CARL is system of record. STUE proposes with worked reasoning; the parent applies. Do not mirror a CRL confidence here.
 
@@ -198,6 +219,9 @@ What this session changes is **not the mechanism but the enforcement and attribu
 5. **Treasury Phase 1 — did it actually launch?** → **8/5**.
 6. **Does the wave-1 no-spike hold?** Re-pull CFPB at ~Aug 20 (past the lag) and after MOHELA's Oct notice completion. Registered instrument: `company=MOHELA` daily rate vs the 27–30/day 2026 baseline.
 7. **Does the compressed notice window change the non-selection RATE, or just its timing?** A shorter Department-wide window with fixed servicer capacity is the mechanism that would *raise* non-selection. → CRL-13.
+8. **Which Tuesday does the Q2 HHDC land on — Aug 4 or Aug 11?** Base rate says 4 (3 of 4 prior Q2s = first Tuesday) but no advisory had posted as of 7/31. **Resolves itself within days**; check `newyorkfed.org/newsevents/mediaadvisory/2026/` daily. *The answer sets the deadline on the un-processed cascade-attribution packet.*
+9. **🆕 Does DOE seek cert in *Sweet*?** The 7/17 loss leaves only a discretionary SCOTUS petition, and DOE has not said. **No stay → discharges are proceeding regardless**, so this is a tail-risk watch, not a live gate. → watch PPSL / 9th Cir docket 26-1136.
+10. **🆕 Harvest the TCF/Protect Borrowers study STUE already half-cites.** *"Trump's Student Loan Delinquency Crisis, Unmasked"* (Granville, TCF + PB, **published Feb 20 2026**, nationally-representative credit panel, data = first 3 quarters of 2025) is where STUE's carried **25% DQ rate** and **13M EOY projection** come from — **but its cohort-severity and demographic cuts were never harvested**: **−57pt** avg score drop, **three-quarters of delinquent borrowers pushed into "deep subprime,"** **7.9M entered delinquency** in 3 quarters, **Black and Native borrowers ~50%** DQ, **Pell recipients 27%**. ⚠️ **NOT new** — a 5-month-old study, flagged so it is not mistaken for a July datum. The **−57pt** figure is a *third* score-drop number alongside FICO's **−62** (H2 2025) and the **−69** derivative cite: **different sources, windows and panels — reconcile before citing any of them as "the" number.** *Backlog item, not a threshold move.*
 
 ---
 
