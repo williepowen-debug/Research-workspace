@@ -5,7 +5,8 @@
 **When CARL spawns you via the Agent tool you inherit CARL's cwd (`AGENTS/CARL/`), and this `CLAUDE.md` does NOT auto-load** — it is a *descendant* of the launch dir, so Claude Code never walks down to it. **This is STUE's most common runtime mode, so everything below has to survive the file not being read.** A spawn prompt should say *"boot per your SPAWNED-MODE CARD, then \<task\>."*
 
 - **Use repo-root-relative paths, NEVER bare names.** `AGENTS/CARL/sub_agents/STUE/STATUS.md` — a bare `STATUS.md` resolves under `AGENTS/CARL/` and silently opens **CARL's** STATUS instead of 404-ing. **That failure returns a plausible wrong file, which is worse than an error.**
-- **Read-these-first:** this file → `AGENTS/CARL/sub_agents/STUE/STATUS.md` → `AGENTS/CARL/STATUS.md` (parent context) → the specific workbook/packet files the spawn names.
+- **Read-these-first:** this file → `AGENTS/CARL/sub_agents/STUE/STATUS.md` → **`ls AGENTS/CARL/sub_agents/STUE/inbox/*.md`** → `AGENTS/CARL/STATUS.md` (parent context) → the specific workbook/packet files the spawn names.
+- **📬 SCAN THE INBOX EVEN ON A NARROW SPAWN.** STUE has one as of 2026-07-31 (first sub-agent in the fleet to). **A scoped spawn is exactly where an inbox scan gets skipped** — and STUE boots ~5×/quarter, so a skipped scan can hide a packet for a month while the sender believes it landed. Anything present is **unprocessed by definition**; disposition it or write a dated PARKED note. **Check ages: a packet >~30d old means a sender has been acting on a false assumption — telling them beats actioning the packet.**
 - **⚠️ THE ONE THING A COLD SPAWN MOST DANGEROUSLY MISREADS — cascade attribution.** STUE's older material asserts the student-loan score cascade drives the CC 90+ GFC breach. **It does not, and repeating it contaminates CRL-05's grade.** The cohort holds **~2% of US card balances**, closing **≤⅓** of the gap; **~62%** of the Q1 rise was denominator shrink. **Expect the breach; do not attribute it to us.** (Second-order trap in the same family: **six** score-drop figures exist — default to **−62 pts** and read `STATUS.md` § SCORE-DROP RECONCILIATION before citing any other.)
 - **Freshness gate (do NOT skip on a narrow task):** `python3 "$(git rev-parse --show-toplevel)/scripts/ledger_staleness.py" CARL --glob 'sub_agents/STUE/workbook/*.tsv'` — grades off each ledger's **two-clock header**, not git time. Then confirm STATUS's live date anchors are still ahead of today (`date -d <YYYY-MM-DD> +%A` on any catalyst you rely on — **a release date landing on a weekend is wrong by construction**).
 - **Git:** all ops from repo root (`cd "$(git rev-parse --show-toplevel)"`); pathspec commits **only** inside `AGENTS/CARL/sub_agents/STUE/`; a packet **you authored** into another agent's `inbox/` is yours to commit and you **must** (root carve-out ①); `git status -- AGENTS/CARL/sub_agents/STUE/` before committing; never `git add .`/`-A`. **PUSH: do NOT push when spawned — commits ride CARL's push-train.** *(Rule is by SESSION TYPE, not preference — self-directed sessions auto-push at closeout; spawned sessions defer. If unsure which you are, you were spawned.)*
@@ -201,7 +202,17 @@ research/                    # EMPTY — contents retired to archive/ on 2026-07
                              #   Landing zone for NEW sourced research only.
 domain/                      # StudentLoan_Data_2026-02.md only (Feb-2026 pre-STUE compilation).
                              #   Spawn data-refresh outputs were retired to archive/.
+inbox/                       # 📬 INBOUND — created 2026-07-31 (Will-ruled). FIRST sub-agent
+                             #   inbox in the fleet; the other six are still write-only upward.
+                             #   Full path for senders: AGENTS/CARL/sub_agents/STUE/inbox/
+                             #   Plain .md packets (NOT the DM-v1 MSG-* coded route — that is
+                             #   allowlisted to PROME->BRENT / PROME->SAM only).
+                             #   Read at EVERY boot incl. spawned mode. Conventions: README.md
+inbox/processed/             # Integrated packets — git mv here, never bash mv
 state_vectors/               # Delivered State Vectors (SV-STUE-*.md) — CARL harvest source
+                             #   ⚠️ OUTBOUND ONLY. The inbox is now the inbound half; before
+                             #   7/31 STUE could send and not receive, which cost it the FHA
+                             #   channel for a week and forced PROME to route via CARL.
 archive/                     # Retired research + build-era source dumps (13 files, Apr-Jul 2026).
                              #   Historical reference only — never boot material, never cite as live.
                              #   Incl. OPEN_QUESTIONS_2026-06-09.md — RETIRED 7/31, all 5 items
@@ -213,6 +224,8 @@ archive/                     # Retired research + build-era source dumps (13 fil
 ## On Session Start
 
 1. Read STATUS.md
+1b. **📬 Scan `inbox/`** (`ls -la inbox/*.md`) — **created 2026-07-31, Will-ruled; STUE is the first sub-agent in the fleet with one.** Conventions → `inbox/README.md`. Anything present is **unprocessed by definition** (there is no seen-but-deferred state). Integrate → `git mv` to `inbox/processed/` (**`git mv`, never bash `mv`** — bash leaves a dangling deletion in the shared index). Cannot action it this session? Write a dated **PARKED** note in STATUS rather than leaving it silently sitting.
+   ⚠️ **Check AGES, not just presence.** STUE boots ~5×/quarter, so a packet can sit for weeks looking delivered to its sender. **>~30d = the sender has been operating on an assumption about what STUE knows that is false — tell them.** That correction usually outvalues the packet's original content.
 2. Check CARL's STATUS.md for current student loan vector state
 2b. **Check whether STUE's routed items were ACTIONED, not just delivered.** For each row in STATUS § ROUTED TO PARENT: is the packet still sitting in `AGENTS/CARL/inbox/` (vs moved to `inbox/processed/`), and does the parent's `STATUS.md` / `thesis/PREDICTIONS.tsv` actually carry the change? **Delivery is not adoption.** If a correction STUE has retracted is still live in the parent's canonical ledger, say so in the session's opening read — it is a live error in the system of record, not a closed item. *(Added 2026-07-31: five 7/25 packets — including the May-28-conference retraction and the CRL-14 55%+STUCK re-mark — were still unprocessed 6 days later, and STATUS showed them all as "📤 sent" with no lag signal.)*
 3. Review any new data releases since last update
