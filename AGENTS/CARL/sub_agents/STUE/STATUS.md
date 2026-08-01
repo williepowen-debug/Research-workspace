@@ -1,8 +1,27 @@
 # STUE STATUS
 
-**Last Updated:** 2026-07-31 (coherence pass **+ full news/data sweep** — **no threshold moved; one MISSED event recovered**) | **Data vintage:** 2026-07-25, w/ *Sweet* 9th Cir refreshed to 7/17 | **Status:** 🔴 CRITICAL — mechanism intact, enforcement gated. **CRL-04 CONFIRMED** (NY Fed Q1 2026 90+ DQ **10.3%**). **FSA primary (Jun 23) now carries the default wall: ~9M borrowers / $220B as of Mar 31 2026, +1.3M QoQ.** SAVE→RAP waves launched Jul 1 on schedule and the notice window **COMPRESSED ~3 months** (all notices by Dec 31 2026, not Mar 2027). **AFT v. MOHELA is STAYED by court order** — discovery frozen since Oct 2025; the litigation leg of CRL-14 cannot fire in its own window.
+**Last Updated:** 2026-07-31 (coherence pass · news sweep · **architecture hardening + scope extension** — **no threshold moved all session; one MISSED event recovered**) | **Data vintage:** 2026-07-25, w/ *Sweet* 9th Cir refreshed to 7/17 | **Status:** 🔴 CRITICAL — mechanism intact, enforcement gated. **CRL-04 CONFIRMED** (NY Fed Q1 2026 90+ DQ **10.3%**). **FSA primary (Jun 23) now carries the default wall: ~9M borrowers / $220B as of Mar 31 2026, +1.3M QoQ.** SAVE→RAP waves launched Jul 1 on schedule and the notice window **COMPRESSED ~3 months** (all notices by Dec 31 2026, not Mar 2027). **AFT v. MOHELA is STAYED by court order** — discovery frozen since Oct 2025; the litigation leg of CRL-14 cannot fire in its own window.
 
 > **Data vintage:** dashboard refreshed 2026-07-25 from primary sources (FSA GENERAL-26-38, NY Fed Q1 HHDC, D.D.C. docket 1:24-cv-02460, CFPB complaint API, MOHELA/Nelnet servicer FAQs). Prior file was a Jun-9 snapshot carrying five passed-but-unverified events; all now resolved or re-dated below. Live parent context → CARL `STATUS.md` (**2026-07-31 — CURRENT. CARL closed out later the same day and adopted all five 7/25 packets plus the 7/31 *Sweet* finding; CRL-14 is now 55% + STUCK. Nothing owed in either direction** — see ROUTED TO PARENT).
+>
+> ## 📌 SESSION CLOSEOUT 2026-07-31 — NEXT-SESSION HANDOFF (read first)
+>
+> **Domain: nothing moved. Architecture: a lot did.** No threshold, no confidence, no thesis change all session. Nine defects were found and fixed — **five traced to one root cause: mutable data duplicated across files with no declared owner.**
+>
+> **🔴 DO THIS FIRST NEXT SESSION — the NY Fed Q2 HHDC advisory.** Base rate says **Tue Aug 4** (Q2 printed on the 1st or 2nd Tuesday of August four years running; 3 of 4 = first). The advisory posts **T-5 to T-7** and had **NOT posted** as of CARL's 7/31 evening check — so **it is overdue by pattern and may be the first thing waiting.** It sets whether CRL-05's grading window opens in days. `newyorkfed.org/newsevents/mediaadvisory/2026/` — ⚠️ **403s WebFetch; reach it via search.**
+>
+> **What changed structurally (all shipped + verified, nothing pending on STUE's side):**
+> - **📬 STUE HAS AN INBOX** — `inbox/`, Will-ruled. **First sub-agent in the fleet that can receive.** Read at every boot **including spawned mode**; packet **age is a finding** (>~30d ⇒ tell the sender).
+> - **Scope EXTENDED (Will-ruled):** **+ SLABS** (collateral-transmission question only) and **+ higher-ed institutional stress**. Both had zero fleet coverage. Fiscal read-through **declined** — no edge.
+> - **Spawned-mode boot card** — this file's `CLAUDE.md` never auto-loads when CARL spawns STUE. That was the highest-value gap of the day.
+> - **Doc Ownership table**, **two-clock ledger headers** (caught a 7-day freshness overstatement STUE created itself), **unrepresentable-shock register** (S1-S6), **expected-signals register** (ES-01..06), **BOTTOM LINE**.
+> - **Enforcement: 44 ledgers now graded, was 7.** CARL shipped both `LEDGER_GLOB` fixes same-day and **processed all four STUE packets** — nothing owed in either direction.
+>
+> **Still with others (not STUE's to chase):** CARL — consistency-check sub-agent coverage (Fix B, backlogged). PROME — whether the *other six* sub-agents get inboxes, and the unowned fiscal read-through.
+>
+> **The lesson worth carrying:** almost everything found today was findable with `date`, arithmetic, or `ls`. **No new information was required — only the decision to look.** Both structural gaps had the same shape: **two individually-correct decisions combining into a blind spot, failing as silence rather than as error.**
+>
+> ---
 >
 > **2026-07-31 SWEEP RESULT — read this before the tables.** A full news/data sweep across all eight STUE lanes returned **no threshold-moving data in the 7/25→7/31 window**, **but recovered one event STUE MISSED in its own 7/25 refresh: the *Sweet* 9th Cir appeal was DECIDED Fri 7/17 (DOE lost, unanimous, >170K post-class applicants) — 8 days before that session, and it sat one search away throughout it.** The Borrower Defense row and the ~Sep-15 catalyst were both wrong until now. Second finding: the Q2 HHDC has a **4-year base rate making Tue Aug 4 the modal print**, with the media advisory **due today or within days** — the single highest-value check available this week. Lanes that returned nothing: FSA (no update since 6/23, next ~Sep), SAVE→RAP (compression re-corroborated), servicers (no new event), Treasury Phase 1 (still unconfirmed, 8/5 stands), AWG/TOP (still "fall," no ED commitment → **STUCK holds**), AFT/MOHELA (Doc 54 still not public). **CFPB complaints deliberately NOT re-pulled** — the registered instrument sets ~Aug 20, past the 5-6d lag; pulling now would read the trailing week as settled, which the instrument exists to prevent. Both new findings routed to CARL (packet + `SV-STUE-2026-07-31-01`). *(Original coherence-pass note follows.)*
 >
@@ -354,7 +373,9 @@ A grep found **six** different "score drop from student-loan delinquency" figure
 
 **What's next:** The **NY Fed Q2 HHDC — modal Tuesday Aug 4** — is not another datapoint; it is the discriminator. Q2 issuer earnings all improved (0 of 4 confirming), and the only way to tell "the consumer is healing" from "issuer books are survivor-biased" is a bureau-wide print that cannot be survivor-filtered. **If it prints benign too, the survivor-bias defence has been offered twice and refuted twice**, and the pre-registered falsifiers bite.
 
-**What would change my mind:** a forbearance reservoir that does not drain on the ~Sep FSA print (ES-STUE-01) — that would mean the conversion is being administratively deferred rather than delayed, and the whole Q3-Q4 thesis slides a year.
+**What would change my mind:** a forbearance reservoir that does not drain on the ~Sep FSA print (ES-STUE-01) — that would mean the conversion is being administratively **deferred** rather than delayed, and the whole Q3-Q4 thesis slides a year. Second falsifier, cheaper and sooner: a **second** null on the MOHELA complaint tell through October (ES-STUE-02) would leave CRL-14 with **no working mechanism** rather than a stalled threshold — a STUCK→MISSED question, not a confidence trim.
+
+*(Rewritten 2026-07-31 closeout. **Rewrite this block every session** — a carried-forward BOTTOM LINE reads as a current judgement when it is a stale one.)*
 
 ---
 
