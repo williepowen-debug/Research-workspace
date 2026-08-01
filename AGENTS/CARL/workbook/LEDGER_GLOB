@@ -3,3 +3,4 @@
 # one level too shallow to see AGENTS/CARL/sub_agents/*/workbook).
 workbook/*.tsv
 sub_agents/*/workbook/*.tsv
+sub_agents/*/workbook/*.md

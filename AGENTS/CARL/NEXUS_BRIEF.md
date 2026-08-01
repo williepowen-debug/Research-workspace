@@ -67,7 +67,7 @@
 
 ## NEXT DECISION POINT
 
-- **What:** (a) **V5 3→4 — Monday 8/3 window close, WILL DECISION:** two FRED weeks >$4.00 ($4.001 → $4.096, rising), no retrace — **PRE-AUTHORIZED (Will 7/31 eve): verify-and-execute, not a re-ask;** packet ready. (b) **HHDC window opens Tue 8/4 (through 8/11):** grades by the frozen card + 7/31 addenda; **CRL-21's capital commitment fires per the standing cell ruling (D → full trim+duration via TERRY; C → duration-half; A/B → hold).** Owed first: **Fitch ATR refresh 8/3** (V2's actual instrument, Jan-vintage) + DEWEY C2 read. (c) **V16 3→4 re-arm** resolves at July NFP ~8/7.
+- **What:** (a) **V5 3→4 — Monday 8/3 window close:** two FRED weeks >$4.00 ($4.001 → $4.096, rising), no retrace — **PRE-AUTHORIZED (Will 7/31 eve): verify-and-execute, not a re-ask;** packet ready. (b) **HHDC window opens Tue 8/4 (through 8/11):** grades by the frozen card + 7/31 addenda; **CRL-21's capital commitment fires per the standing cell ruling (D → full trim+duration via TERRY; C → duration-half; A/B → hold).** Owed first: **Fitch ATR refresh 8/3** (V2's actual instrument, Jan-vintage) + DEWEY C2 read. (c) **V16 3→4 re-arm** resolves at July NFP ~8/7.
 - **When:** Mon 8/3 close (V5) → Mon 8/3 (ATR refresh + first diesel-experiment EIA print) → Tue 8/4-8/11 (HHDC; pin exact date from the NY Fed advisory) → Fri 8/7 (NFP).
 - **What would change my view:** gas retraces <$4 before the Mon 8/3 close → sustain fails, V5 holds 3. HHDC cell D/C → masking losing/refuted per pre-commit (and RED's rationalization test grades me). CC 90+ ≥13.74% with adverse discriminator cells → CRL-05 confirms. July NFP negative or sharp-decel-with-revision → V16 3→4. A Warsh dovish pivot ×2 meetings → V12 5→4 (moved further away 7/29).
 
