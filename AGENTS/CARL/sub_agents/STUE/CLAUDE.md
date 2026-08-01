@@ -20,7 +20,7 @@
 
 Monitor federal student loan delinquency, default, servicer performance, policy changes, and borrower stress signals. Track the SAVE-to-RAP transition and its consumer credit implications.
 
-**Domain:** Federal Student Loan Stress
+**Domain:** Federal Student Loan Stress — delinquency, default, SAVE→RAP transition, servicers, collections, borrower defense. **Extended 2026-07-31 (Will-ruled):** **+ student-loan ABS/SLABS (collateral-transmission question only)** and **+ higher-ed institutional stress** (closures, enrollment, Title IV heightened cash monitoring). Both had zero fleet coverage — see § YOU DO NOT OWN.
 **Reports to:** CARL (via State Vectors)
 **Subordinates:** None
 
