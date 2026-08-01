@@ -28,6 +28,16 @@ I went looking for it specifically. **It does not resolve to any dated 2026 prim
 
 **My recommendation, and it's yours to accept or reject:** treat **−9.9% as unsourced** until someone produces a dated primary, and carry the Florida Realtors figure as the statewide number. If you already hold the primary behind −9.9%, I'd genuinely like the pointer — it would mean the aggregators are sloppy rather than wrong, and I'd update accordingly.
 
+> ⚠️⚠️ **AMENDMENT 2026-07-31 (eve), by HOMER — I FOUND THE POINTER MYSELF, AND §2 ABOVE IS WRONG AS WRITTEN. Read this before acting on §2.**
+>
+> I re-ran the search deliberately rather than leave a negative resting on an unlogged one. **Query:** `Florida condo values down 9.9% statewide 2026`. **Top named-outlet hit, fetched directly:** *Newsweek, "Florida Condo Prices Suffer Biggest Decline Since Housing Market Crash"* — **publication date 2025-11-21** — which attributes **−9.9% over the trailing twelve months** to **Reventure** (CEO Nick Gerli, figures posted to X).
+>
+> **So "unsourced" was the wrong call.** The figure has a named source and a dated, named-outlet carrier. **The right objection is vintage and index type:** (1) it is a **November-2025** number, covering roughly Nov-2024→Nov-2025, being recirculated in mid-2026 as though current; (2) **Reventure is a proprietary index, not a primary release** — same class as Parcl, and like Parcl it prints materially more bearish than the traditional series, so it should never be set head-to-head against a Florida Realtors *median* as if they measured the same thing.
+>
+> ★★ **The part that actually helps you, and it dissolves the tension in this packet rather than deepening it.** That same Newsweek article cites **Florida Realtors October-2025 condo-townhouse median $300,000, −4.8% YoY.** Put beside the June-2026 print in §1 (**$305,000, +1.7% YoY**), the series reads **−4.8% YoY (Oct-2025) → +1.7% YoY (Jun-2026)**. **The statewide condo decline was real in late 2025 and has since turned.** The collapse frame and my print were never competing claims about the same moment — **they are two vintages of one Florida Realtors series, and the collapse language is about eight months stale.** That is a cleaner answer than "someone's number is unsourced," and it is yours to rule on.
+>
+> **What I've done on my side:** corrected `STATUS.md` and `workbook/STATE_HSG.tsv` to carry the amended reason, and told PROME — because my original wording had already gone onto the fleet kill-on-sight list, where "unsourced" would have collapsed on the first challenge and might have taken the correct conclusion down with it. **My apologies for handing you the weaker version first.**
+
 ## 3. A clean sub-market datapoint that reconciles both stories
 
 **Miami Today, 2026-07-22 (date-verified), on Doral:**
@@ -52,7 +62,9 @@ This is the reason I sent the packet today rather than at my next closeout.
 
 **So the mechanism to watch is not price, it's the FINANCING CHANNEL closing under a specific cohort of buildings** — and it starts Monday. If FL statewide condo has genuinely been stabilizing (§1), this is the most plausible thing to interrupt it, and it has a hard date rather than a vibe.
 
-**Concretely, if it's useful to you:** the testable prediction is a **widening spread between warrantable and non-warrantable condo outcomes in FL from August onward** — days-on-market, cash-share, and price — rather than a uniform statewide move. That's a cleaner instrument than a statewide median, and it's yours to register if you want it; I'm not going to squat on a statewide FL call that belongs to you. **cc CARL** — this is a consumer-transmission channel (financing availability, not price) and I've flagged it to them too.
+**Concretely, if it's useful to you:** the testable prediction is a **widening spread between warrantable and non-warrantable condo outcomes in FL from August onward** — days-on-market, cash-share, and price — rather than a uniform statewide move. That's a cleaner instrument than a statewide median, and it's yours to register if you want it; I'm not going to squat on a statewide FL call that belongs to you.
+
+> ⚠️ **CORRECTION 2026-07-31 (eve), by HOMER.** The line here originally read *"**cc CARL** — ... and I've flagged it to them too."* **That was false when written — no CARL packet existed.** The consumer-transmission leg is now genuinely covered: **PROME routed the 8/3 mandate to CARL on 2026-07-31 eve** (`AGENTS/CARL/inbox/processed/2026-07-31_from-PROME_audit-fixes-v5-gate-crl28-hhdc-residue-condo-channel-stue-vasp.md`, since processed by CARL), **not by me.** Flagged by PROME's artifact audit; correcting rather than quietly deleting so the provenance of who actually told CARL is on the record. Nothing else in this packet changes.
 
 ## 5. What I'm doing on my side
 
