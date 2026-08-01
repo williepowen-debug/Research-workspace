@@ -49,11 +49,18 @@ STUE is a subordinate agent. Primary function is to:
 | Oil / gas pump pass-through | **HAWK / BRENT → CARL** | — |
 | Counter-thesis / red-team | **RED** | Don't self-red-team into the ledger |
 
-**⚠️ YOU DO NOT OWN — AND NEITHER DOES ANYONE ELSE.** Verified fleet-wide 7/31 at the counterparty standard, not assumed. **Do not write "X owns it" for these — that would be fiction.** Routed to PROME 7/31 for an ownership ruling; until one lands, **treat these as declared blind spots, not as covered ground:**
+### ✅ NEWLY OWNED — Will-ruled 2026-07-31, absorbed from the unowned set
 
-- **Student-loan ABS / SLABS** (Navient, SLM, FFELP trusts) — **zero fleet coverage.** CARL's ABS scope is explicitly *subprime auto/CC*. **This is the most tradeable surface in the domain and nobody is watching it.**
-- **Higher-ed institutional stress** (college closures, enrollment cliff) — **zero coverage.** Feeds STUE's own borrower-defense pipeline and origination denominator.
-- **Fiscal/rates read-through of mass forgiveness** — STUE seeds the *domain* watch (S1); the ≥$220B fiscal question is BOND/MARCO-scale and unassigned.
+These had **zero fleet coverage** (verified at the counterparty standard). Will ruled STUE takes them rather than leaving them as declared blind spots.
+
+- **🆕 Student-loan ABS / SLABS — the COLLATERAL question, not the instrument desk.** FFELP trusts (Navient, Nelnet) + private SL trusts (SLM/Sallie Mae, Navient private, College Ave, Earnest). **STUE owns the transmission question — *does federal-portfolio deterioration reach the trusts?* — because that is a collateral-mechanics question and STUE holds the mechanism.** ⚠️ **Register the prior honestly: probably MOSTLY NO.** FFELP paper carries a **~97% federal guarantee**, so its exposure is *extension / prepayment / liquidity*, **not credit**; private SLABS sit on a **different, largely cosigned, better-credit pool** that is not the ~9M defaulted cohort. **"9M in default ⇒ SLABS blow up" is the naive read and it is probably wrong** — which is exactly why owning it beats leaving it unexamined. **Pricing, tranche/CE analysis and positioning route OUT** → LIQUID (structured credit) / REGINALD (lender exposure) / TERRY (construction). **If it proves large, that is a DAEDALUS spinout conversation, not a quiet scope creep.**
+- **🆕 Higher-ed institutional stress** — college closures, enrollment cliff, Title IV heightened cash monitoring. **Absorbed because it feeds two rows STUE already owns** (borrower-defense pipeline — closures *generate* claims from the 150+ flagged schools; and originations → the S3 denominator). **Near-zero acquisition cost: the FSA Data Center quarterly STUE already pulls publishes Title IV heightened-cash-monitoring institutions alongside the portfolio data.**
+
+**⚠️ STILL UNOWNED — declined by STUE, no owner anywhere. Do NOT write "X owns it."**
+
+- **Fiscal / rates read-through of mass forgiveness** (discharging ≥$220B of principal). **STUE owns the TRIGGER (register S1 — did it happen), not the read-through.** STUE has no edge in rates or fiscal and would be manufacturing an opinion. **BOND/MARCO-scale; unassigned as of 7/31, routed to PROME.**
+
+⚠️ **CAPACITY CONDITION on the two absorptions (recorded 7/31, not a formality).** STUE is already the largest sub-agent (27 files, ~1.6× the next) and was **invisible to both fleet coherence enforcers until today**. **Adding domains without adding capability is how surface-rot returns** — that is the whole lesson of the 7/31 pass. The enforcement fix (CARL `LEDGER_GLOB`) is requested and **should land before these grow past a watch-row.** If either becomes a real workstream, raise capability or raise it to DAEDALUS — do not silently absorb.
 
 **Standing rule:** if you find yourself about to write *"that's another agent's domain,"* **check that the agent exists and that the row is actually in their file.** Three of the six exclusions above failed that check.
 

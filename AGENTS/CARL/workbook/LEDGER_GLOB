@@ -1,0 +1,5 @@
+# CARL's own ledgers + all sub-agent workbooks (STUE 7/31: 37 sub-agent
+# ledgers were outside enforcement; ledger_staleness scans AGENTS/*/workbook,
+# one level too shallow to see AGENTS/CARL/sub_agents/*/workbook).
+workbook/*.tsv
+sub_agents/*/workbook/*.tsv

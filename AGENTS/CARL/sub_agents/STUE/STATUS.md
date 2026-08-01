@@ -303,14 +303,25 @@ A grep found **six** different "score drop from student-loan delinquency" figure
 | Housing / mortgage market as an asset market | **HOMER** *(the FHA channel reaches STUE as received evidence only — § CHANNEL 5)* |
 | Employment | **LABOR** |
 
-### 🔴 UNOWNED — no agent covers these, verified fleet-wide. Routed to PROME 7/31
+### ✅ ABSORBED — Will-ruled 2026-07-31: STUE takes two of the three unowned domains
 
-> ⚠️ **These are NOT STUE exclusions.** I checked at the counterparty standard rather than assuming (`[[finding_scope_negative_needs_the_counterparty_standard]]` — *"it's absent/undefined" is the claim that stops anyone looking*). **Writing "X owns it" here would have been fiction.**
+**Both had ZERO fleet coverage.** Seeded as watch-rows — a row-shape, not a build.
+
+| # | Now owned | Row-shape / instrument | Registered prior |
+|---|---|---|---|
+| **S5** | **Student-loan ABS / SLABS — the COLLATERAL question** | FFELP trusts (Navient, Nelnet) + private SL trusts (SLM, Navient private, College Ave, Earnest). Watch: **CNL · 90+ DQ · forbearance % · parity ratio · tranche CE · rating actions · spreads.** Sources: trustee/servicer reports, EDGAR ABS-EE / 10-D filings, rating-agency actions | ⚠️ **TRANSMISSION IS PROBABLY WEAK — register this BEFORE looking, so a null result is a finding and not a disappointment.** FFELP carries a **~97% federal guarantee** ⇒ its risk is **extension / prepay / liquidity, NOT credit.** Private SLABS sit on a **different, largely cosigned, better-credit pool** — not the ~9M defaulted cohort. **"9M in default ⇒ SLABS blow up" is the naive read and it is likely WRONG.** The value is in *settling* that, not assuming it |
+| **S6** | **Higher-ed institutional stress** | College closures · enrollment (IPEDS/NSC) · **Title IV heightened cash monitoring** · the 150+ flagged schools | **Near-zero acquisition cost — STUE already pulls the file that carries it.** The FSA Data Center quarterly (GENERAL-26-38 class) publishes Title IV heightened-cash-monitoring institutions **alongside** the portfolio data. Feeds two rows STUE already owns: borrower-defense claim generation + the S3 origination denominator |
+
+> **Scope guard on S5:** STUE owns the **collateral/transmission** question. **Pricing, tranche analysis and positioning route OUT** — LIQUID (structured credit) / REGINALD (lender exposure) / TERRY (construction). **If SLABS proves large, that is a DAEDALUS spinout question, not a quiet expansion.**
+>
+> ⚠️ **CAPACITY CONDITION, recorded as a condition and not a courtesy.** STUE is the largest sub-agent (27 files, ~1.6× the next) and was **invisible to both fleet coherence enforcers until today.** **Adding domains without adding capability is precisely how the rot this session spent a day fixing comes back.** The CARL `LEDGER_GLOB` fix is requested and should land **before** either of these grows past a watch-row.
+
+### 🔴 STILL UNOWNED — declined by STUE, no owner anywhere. With PROME 7/31
+
+> ⚠️ **U1 and U2 were ABSORBED by STUE on Will's 7/31 ruling — see the block above. What remains below is genuinely ownerless.** Checked at the counterparty standard rather than assumed (`[[finding_scope_negative_needs_the_counterparty_standard]]` — *"it's absent/undefined" is the claim that stops anyone looking*). **Writing "X owns it" here would have been fiction.**
 
 | # | Gap | Evidence of the gap | Why it matters |
 |---|---|---|---|
-| **U1** | **Student-loan ABS / SLABS** — Navient, Sallie Mae/SLM, FFELP trusts | **ZERO hits fleet-wide** for `slabs / navient / sallie mae / SLM Corp / student-loan securit* / FFELP` across `AGENTS/`, `FORGE/`, `PROME/`. CARL's ABS scope is explicitly *"subprime auto/CC trusts"*; LIQUID is repo/funding/spreads | **The most TRADEABLE surface in the entire student-loan domain** — actual instruments with actual prices — and the fleet has no eyes on it. Everything STUE tracks is a government statistic that prints quarterly and cannot be positioned in directly |
-| **U2** | **Higher-ed institutional stress** — college closures, enrollment cliff | **ZERO hits** for `enrollment cliff / college closure / university closure` | Feeds two things STUE *does* own: the **borrower-defense pipeline** (150+ flagged schools) and **originations** (→ S3's denominator) |
 | **U3** | **Mass forgiveness as a fleet-level policy risk** | Only hits are **2 retired STUE archive files** + an unrelated OTTO doc | Seeded as **S1** inside STUE, but the *fiscal / rates* read-through (≥$220B of defaulted principal) is nobody's — that is a BOND/MARCO-scale question, not a STUE one |
 
 ---
