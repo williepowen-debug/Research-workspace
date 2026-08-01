@@ -57,6 +57,23 @@
 
 *Both blocks moved to `domain/sources/_archive/STATUS_prior_header_s17_and_earlier.md` (7/25, s18b) for the 250-line cap. Canonical session history → `thesis/CHANGELOG.md`. Load-bearing content from both is already folded into the dashboard, ACTIVE SITUATIONS and the 7/25 block above. Note: several s17/s16 reads have since been superseded — the ES-MARCO-08 'contamination watch' resolved (it never contaminated), the energy watch stood down, and the FL Citizens policy count was corrected 385K → 278,246.*
 
+**Also 7/31 (eve, inbox pass) — 🔎 THE FL METRO-MASKING READ NOW HAS A THIRD INDEPENDENT DATASET, AND IT ANSWERS PROME's 7/21 QUESTION.** PROME asked whether "FL leisure & hospitality ADDING jobs" reads as (a) seasonal noise, (b) genuine tourism resilience, or (c) composition. **Answer: (c) composition — decisively.** Pulled FL metro-level L&H employment from BLS CES (live API, 7/31):
+
+| Metro (L&H employment, Jun'26 YoY) | | 2026 pattern |
+|---|---|---|
+| **Orlando** | **+3.74%** | positive every month (+2.33 → +4.11) — carries the state |
+| Naples | +1.58% | |
+| Cape Coral–Ft Myers | +1.22% | **negative Jan–May** (−5.20 → −0.46), turned only in June |
+| Miami-Dade | +0.90% | ⚠️ a **World Cup host city** posting +0.9% — the WC employment mask is weaker than MARCO assumed |
+| Tampa | +0.47% | |
+| **Punta Gorda** | **−3.09%** | **negative in ALL SIX months of 2026** (−1.03 to −3.96) |
+| *FL statewide* | *+0.55%* | *negative Jan–Apr; turned May* |
+| *US national* | *+0.68%* | |
+
+**Three things this establishes.** ① **Internal FL spread is 6.83pp** (Orlando to Punta Gorda) around a statewide +0.55% that shows neither — the blend is not a summary, it is a cancellation. ② **FL statewide is marginally BELOW national** (+0.55 vs +0.68), so "FL L&H adding jobs" does not support a tourism-resilience read at the state level; **CORAL's datum is correct and its MoM framing is correct — what fails is the inference**, and CORAL flagged it as UNGRADED precisely so this could be resolved in-lane. ③ **Punta Gorda is now negative on THREE independent datasets**: ATTOM foreclosure rate #1 in the US (0.50%), ZHVI −8.2% YoY (weakest FL metro), and L&H employment −3.09% (6 of 6 months). Cape Coral is the same story one notch milder.
+
+⚠️ **Caveats held deliberately.** Punta Gorda is a **small MSA (9.4K L&H jobs)** — CES small-area estimates carry wide error bands, so the load-bearing evidence is the **6-of-6-month consistency**, not the single June print. And this is **employment (a quantity)**; Channel 2 is a **$-per-visitor** thesis — the metro decline is *consistent with* the snowbird channel, not proof of it. **Not adopted as a Channel-2 instrument** (that would repeat the promote-then-falsify pattern); logged as convergent texture.
+
 ---
 
 ## SIGNAL DASHBOARD
@@ -153,7 +170,7 @@
 - Condo inventory **8.6mo May** statewide (↓ from 8.9 Apr; inventory −13.4% YoY, sales +6.6% 9th straight). Miami-Dade May: median $415K (−2.35% YoY), sales +5.4% (9th straight up), inventory declining (~12.9mo elevated but absorbing; days-to-sale 106); PB 8.2mo. The distress-inventory thesis softened — supply absorbed, not piling up (MAR-08 >9.0 not met).
 - Migration (93% collapse, Miami −2.0%) stale — annual Census, no new print.
 - Airports (session-9 update): **MIA flipped negative** (Mar −1.76%, Apr −2.02%); FLL +10.2% Mar but base-effect; MCO record spring break (domestic anchor). Canadian/discretionary weakness concentrated in air + winter capacity, not yet aggregate FL airport volume.
-- Insurance (FL Citizens) — **RE-MARKED 7/2 (live-verified): crisis PAST-PEAK.** Exposure **~$295.1B (June'25, −43% YoY from $520.1B)**, 67% below peak entering 2026; ~385K policies (lowest ever). **MAR-17 (>$750B) INVALIDATED.** Rates now being **CUT** — Citizens filed −2.6% personal-lines cut for Jun'26 (reversing a +15% ask 6mo prior; 2022 reforms working; commercial +10.4% the exception). Crisis easing on exposure AND personal rates, not just risk-shifted. FL insurance → CORAL's domain, reconcile.
+- Insurance (FL Citizens) — **RE-MARKED 7/2 (live-verified): crisis PAST-PEAK.** Exposure **~$295.1B (June'25, −43% YoY from $520.1B)**, 67% below peak entering 2026; **PIF 278,246 total at Jun-30-2026** (273,684 personal + 4,562 commercial; CORAL primary from citizensfla.com, 7/21) — lowest ever, trajectory Jan-31 392,689 → Apr-30 294,894 → Jun-30 278,246. **MAR-17 (>$750B) INVALIDATED.** Rates now being **CUT** — personal-lines cut **effective 7/1/26** (HO multiperil −8.8%, wind-only −5.5%), reversing a +15% ask 6mo prior; commercial +10.4% the exception. Next assumption round **8/18**. Crisis easing on exposure AND personal rates, not just risk-shifted. FL insurance → CORAL's domain (CORAL-canonical figures above; MARCO cites, does not re-derive). ⚠️ *This line carried "~385K policies" and a "−2.6% cut eff. Jun'26" until 2026-07-31 eve — both superseded by CORAL's 7/21 primary packet, which sat unprocessed in MARCO's inbox for 10 days while the corrected figure was already written four lines above at STATUS:152. Same class as [[finding_canonical_surfaces_stale_inbox_carries_live_state]].*
 - **Net:** FL acute-stress timing pushed right; aggregate $ stress still projected for **winter 2026-27** (snowbird no-show, $600M-$1.2B), not Q2-Q3 2026.
 - **FL labor cooling context (WALTER SIG-007, 6/19, April UCF data):** FL jobless **4.8% > US 4.3%** — FL no longer outperforming post-COVID; UCF forecasts payroll growth slowing to 0.1% 2026, slight contraction 2027. Directional support for the cooling read; not yet independently re-verified this session.
 - **Forward driver, new (7/9):** FL property-tax amendment (Nov 3 2026 ballot, Amendment 3/HJR 1F) caps new-resident (post-12/31/26) homestead exemption at $50K for 5yr vs existing residents' $150K→$250K — **structurally anti-migration by design** (FL Phoenix: "without fueling a fresh migration wave"). If passed (poll 64%±3.8 vs 60% bar — tight), reinforces rather than reverses the migration-collapse thesis; does not create a new tax-arbitrage pull for movers. Watch Nov 3.

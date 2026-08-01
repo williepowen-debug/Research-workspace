@@ -26,6 +26,23 @@ Three domains: (1) International Visitor Flows (Canadian collapse -28%), (2) Wor
 4. **Run the boot sweep** — `(cd "$(git rev-parse --show-toplevel)" && .venv/bin/python3 AGENTS/MARCO/scripts/boot.py)` *(cwd-proof form, 2026-07-01; ~5s read-only; full run pulls stale domain data)*. One command for the awareness layer that used to be done by eye: catalyst countdown (what's due / passed-but-still-listed), predictions/expected-signals due-scan (OPEN rows past or near their Timeframe window — the free-text parser resolves Q/H/FY/month-range), and STATUS/VX staleness. Flag anything it surfaces for resolution at closeout. *(Layer-2 fetchers — Banxico/H-2A/slaughter — run only when their `baselines/` output is stale, cadence-skipped on mtime; `--quick` = awareness only, `--refresh` = force fetch, `--verbose` = full output.)*
    - **FL migration proxies (sub-annual direction tells for VX-MARCO-3.03)** — `(cd "$(git rev-parse --show-toplevel)" && python3 AGENTS/MARCO/tools/fl_migration_proxies.py)` *(built by DAEDALUS 2026-07-10, Will-approved; fetches FL DOS voter-reg monthly + flags FLHSMV/FLDOE manual legs due; `--quick` = offline cadence check, `--append` = write newest voter month to `workbook/MIGRATION_PROXIES.tsv`; rc 1 = leg overdue, rc 2 = fetch fail. Direction tells ONLY — never restate the canonical +22,517/2025 level.)*
 
+### WALTER signal intake (inbox/WALTER delivery lane)
+
+*Installed 2026-07-31 (asked by WALTER 7/11, carried 20 days — the mechanical cause of an 18-signal unread backlog, one of them an ACTION item from 7/10). Canonical template: WALTER `design/BOARD_CONSUMPTION_SPEC.md` §8.1.*
+
+At boot, after STATUS / SCRATCH / MEMORY:
+
+1. List `AGENTS/MARCO/inbox/WALTER/*.md` not yet in `board_log.tsv`.
+   (If `board_log.tsv` does not exist, create it with the v0.2 header:
+    `timestamp_read<TAB>signal_id<TAB>disposition<TAB>source<TAB>notes`)
+2. For each: read it, decide disposition (`acted`/`noted`/`deferred`/`info-only`/`skipped`),
+   append a row to `board_log.tsv` with `source=INBOX_WALTER`,
+   then `git mv` the file to `inbox/WALTER/processed/`.
+3. Let `acted` items inform this session.
+
+⚠️ **`git mv`, not bash `mv`** — bash mv leaves the deletion unstaged ([[git_mv_for_inbox_processing]]).
+⚠️ **This lane is exempt from the "do NOT process inbox on normal spawns" MAIL rule below.** WALTER signals are a boot-time drain, not a separate spawn — that ambiguity is what let the backlog build.
+
 ### Execute
 5. **Execute the task.** If boot surfaces a live regime-moving print or active catalyst window, EXECUTE stays open — snapshot STATUS as a working dashboard and stay engaged; don't trigger the full write-back until the event stabilizes, the task completes, or Will signals stop ([[finding_boot_protocol_live_event_override]]).
 
@@ -190,7 +207,7 @@ After close: move `thread.md` content to `sub_agents/[NAME]/threads/archive/YYYY
 | FL Net Domestic Migration | 22,517 (93% collapse; 2025 annual, no new print til late '26) | Negative | Population decline confirmed |
 | Canadian Visitors | -28% (2-yr stack vs 2024; YoY is base-effect noise) | Sustained stack <-25% | Structural, not cyclical |
 | FL Condo Inventory | 8.6mo (May '26, absorbing) | >9mo | Distress territory |
-| FL Citizens Exposure | **~$295.1B** (Jun'25, −43% YoY; 67% below peak; ~385K policies) | ~~>$750B~~ **INVALIDATED (MAR-17)** | Crisis PAST-PEAK — exposure collapsed + personal rates now being cut (−2.6% Jun'26); CORAL owns FL insurance |
+| FL Citizens Exposure | **~$295.1B** (Jun'25, −43% YoY; 67% below peak); **PIF 278,246** (Jun-30-2026, CORAL primary) | ~~>$750B~~ **INVALIDATED (MAR-17)** | Crisis PAST-PEAK — exposure collapsed + personal rates **cut eff. 7/1/26** (HO −8.8%, wind-only −5.5%); **CORAL owns FL insurance — cite CORAL's figures, don't re-derive** *(PIF corrected from a stale "~385K" 2026-07-31)* |
 
 ---
 
