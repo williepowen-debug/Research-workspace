@@ -109,7 +109,7 @@ Approved Jun 4: **Prome owns this file.** Update after regime-level changes or >
 | 🟡 | SHADE for the 8/4 Athene M-11 dual test — **Will handling** | NEXUS packet ③ |
 | 🟡 | Will: RAV registry row · HENRY general-inbox half · FFIEC CDR account · repo public flip (31d+) | WILL_QUEUE |
 | 🟡 | Embed confirms 7-of-10 (TERRY/DEWEY/RED/WALTER at next boots; checker re-flags 14d) · canon amendment at next canon pass | ACTIVE_DECISIONS row |
-| 🟡 | Owner-owed residue: CRWV DDTL pull (LIQUID/VULCAN, overdue) · OTTO ×3 reads (FB trial/ballots/CVNA) · LABOR LAB-17 formal grade + flash-PMI half · BRENT TTF/Rhine carry + tanker-provenance · WALTER: route Volgograd (OSPREY) + Georgia bank failure (REGINALD) | SCRATCH item 8 |
+| 🟡 | Owner-owed residue: CRWV DDTL pull (LIQUID/VULCAN, overdue) · OTTO ×3 reads (FB trial/ballots/CVNA) · LABOR LAB-17 formal grade + flash-PMI half · BRENT TTF/Rhine carry + tanker-provenance · ~~WALTER: route Volgograd + Georgia~~ CLOSED 7/31 late-eve (Volgograd self-resolved via OSPREY's session; Georgia correctly KILLED by WALTER 19:49 — May-2026 recirculation, PROME nudge retracted) | SCRATCH item 8 |
 | 🟢 | Carried non-urgent: BRENT #21(a) frozen-number draft · DEWEY entitlements one-liner · dashboard republish (data 9h old at re-base, within gate) | SCRATCH |
 
 ## Pointers
