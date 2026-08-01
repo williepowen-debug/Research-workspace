@@ -84,7 +84,8 @@ What the 7/25 session changed is **not the mechanism but the enforcement and att
 | Default stock — trajectory | 6.0M (Aug'25) → 7.7M (Dec) → **~9.0M (Mar'26)** | — | FSA / ED | 🔴🔴 climbing wall |
 | New defaults Q1 2026 (gross DRG flow) | **2.6M** (+ ~1M Q4 2025) | Q1 2026 | NY Fed / Liberty St May 12 | 🔴🔴 |
 | Implied Q1 exits (cure/rehab/consolidation) | **~1.3M** (2.6M gross inflow − 1.3M net stock rise) | Q1 2026 | STUE derived from FSA + NY Fed | 🟠 **new — cure channel is live** |
-| Total portfolio | **42.6M recipients / $1.7T** (+~4% YoY vs Mar 2025) | Mar 31 2026 | FSA GENERAL-26-38 | — |
+| **Total portfolio (THE DENOMINATOR — S3 check)** | **42.6M recipients / $1.7T, GROWING +~4% YoY** vs Mar 2025 | Mar 31 2026 | FSA GENERAL-26-38 | ✅ **DENOMINATOR CHECK PASSES** |
+| ↳ *what that rules out* | **The default-stock rise is NOT a denominator artifact.** The base is **expanding**, so 7.7M→9.0M is a genuine numerator move — if anything the *rate* understates it. **Run this check every FSA print** (register S3): a shrinking base would inflate every rate STUE cites with zero change in borrower behaviour, and ~62% of the Q1 CC 90+ rise was exactly that | Mar 31 2026 | STUE derived | 🟢 |
 | Federally-managed portfolio | 40.9M recipients / **>$1.64T** (>95%) | Mar 31 2026 | FSA | — |
 | In repayment or delinquency | **17.2M recipients (42%) / ~$633B (39%)** | Mar 31 2026 | FSA | 🔴 |
 | In forbearance | **8.4M recipients (~⅕) / ~$485B** | Mar 31 2026 | FSA | 🟠 the reservoir feeding Q3-Q4 |
@@ -274,6 +275,43 @@ A grep found **six** different "score drop from student-loan delinquency" figure
 | **🆕 Q2 HHDC modal date = Tue Aug 4** | 4-year base rate (1st/2nd Tuesday of August; 3 of 4 = first). **Advisory due now** (T-5 to T-7; Q2-2025's posted 7/31/25). Bears on the frozen grading card + RED's pre-registered test — **and compresses the cascade-attribution deadline from 8/15 to possibly 8/4** | 📤 **sent 7/31** |
 
 > **STUE holds no predictions ledger** — CRL-04/05/13/14 are CARL's rows and CARL is system of record. STUE proposes with worked reasoning; the parent applies. Do not mirror a CRL confidence here.
+
+---
+
+## 🕳️ UNREPRESENTABLE-SHOCK REGISTER (added 2026-07-31 — DAEDALUS blueprint §6b.2, the "★" test)
+
+**The test:** *"Name a shock in this domain that NONE of the seeded rows has a row-shape for."*
+**Why it is the strongest check in the blueprint:** *a file with no row-shape for a class of event is silent about it in a way **indistinguishable from that event not happening** — so "that belongs to another agent" and "I am blind to it" look identical from outside, and only one is safe.*
+
+**This test predicted today's FHA defect exactly.** STUE had `0/0/0` FHA mentions; nothing in the file could tell blindness from scope. Run properly, it finds **six** more — and **three of them have no owner anywhere in the fleet.**
+
+### SEEDED — in scope, STUE is the right owner, row-shape now exists
+
+| # | Shock with no row-shape | Why it matters | Watch instrument |
+|---|---|---|---|
+| **S1** | **🔴 Mass forgiveness / broad cancellation / policy reversal** | **The single fastest way this thesis DIES**, and STUE tracked it nowhere. Sweet is bounded (~170K); this is the unbounded version — a new administration, a court, or Congress discharging at scale. **A bear thesis with no surface for its own kill-shot is not a thesis, it is a position.** *(CRL-04's invalidation criterion names "broader forgiveness" — but naming a risk in an invalidation clause is not tracking it.)* | ED/White House announcements · reconciliation-bill text · any successor to the SAVE litigation. **Direction: UPSIDE for borrowers, FATAL for the thesis** |
+| **S2** | **Servicer contract LOSS / transition** (≠ servicer failure) | STUE tracks MOHELA *failing*. It has no shape for MOHELA *exiting, being replaced, or losing its contract* — and **a servicer transition is itself a mass-DQ event** (the 2023-24 transitions proved it). Would fire *through* CRL-14's population without touching its stated mechanism | FSA servicer contract awards/terminations · ED announcements |
+| **S3** | **Denominator shock — origination / enrollment collapse** | ⚠️ **This is the CRL-09 failure class inside STUE's own domain.** Every headline STUE cites is a RATE. If the portfolio shrinks (fewer originations, enrollment decline), **DQ rates rise with zero change in borrower behaviour** — and STUE would read it as deterioration. **We already got burned by exactly this once** (~62% of the Q1 CC 90+ rise was denominator shrink) | FSA quarterly *originations* + total-portfolio recipient count — **STUE already receives both and was only reading the numerator** |
+| **S4** | **Publisher / methodology shock** | STUE depends on ~4 publishers (FSA, NY Fed, CFPB, court dockets). **NY Fed already changed methodology once** (Equifax 3.0 → VantageScore 4.0, and it took a session to establish the headline rate was unaffected). A publisher ceasing, delaying, or restating is an **instrument** failure that looks like a **world** change | Release-cadence slips · methodology notes in each release · **treat a missing release as a signal, not as silence** |
+
+### EXCLUDED — out of scope, owner named and verified
+
+| Domain | Owner |
+|---|---|
+| Overall consumer stress / K-shape synthesis | **CARL** |
+| Bank & lender exposure | **REGINALD** |
+| Housing / mortgage market as an asset market | **HOMER** *(the FHA channel reaches STUE as received evidence only — § CHANNEL 5)* |
+| Employment | **LABOR** |
+
+### 🔴 UNOWNED — no agent covers these, verified fleet-wide. Routed to PROME 7/31
+
+> ⚠️ **These are NOT STUE exclusions.** I checked at the counterparty standard rather than assuming (`[[finding_scope_negative_needs_the_counterparty_standard]]` — *"it's absent/undefined" is the claim that stops anyone looking*). **Writing "X owns it" here would have been fiction.**
+
+| # | Gap | Evidence of the gap | Why it matters |
+|---|---|---|---|
+| **U1** | **Student-loan ABS / SLABS** — Navient, Sallie Mae/SLM, FFELP trusts | **ZERO hits fleet-wide** for `slabs / navient / sallie mae / SLM Corp / student-loan securit* / FFELP` across `AGENTS/`, `FORGE/`, `PROME/`. CARL's ABS scope is explicitly *"subprime auto/CC trusts"*; LIQUID is repo/funding/spreads | **The most TRADEABLE surface in the entire student-loan domain** — actual instruments with actual prices — and the fleet has no eyes on it. Everything STUE tracks is a government statistic that prints quarterly and cannot be positioned in directly |
+| **U2** | **Higher-ed institutional stress** — college closures, enrollment cliff | **ZERO hits** for `enrollment cliff / college closure / university closure` | Feeds two things STUE *does* own: the **borrower-defense pipeline** (150+ flagged schools) and **originations** (→ S3's denominator) |
+| **U3** | **Mass forgiveness as a fleet-level policy risk** | Only hits are **2 retired STUE archive files** + an unrelated OTTO doc | Seeded as **S1** inside STUE, but the *fiscal / rates* read-through (≥$220B of defaulted principal) is nobody's — that is a BOND/MARCO-scale question, not a STUE one |
 
 ---
 
