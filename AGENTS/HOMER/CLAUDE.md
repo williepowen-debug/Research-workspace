@@ -82,8 +82,8 @@ Monitor U.S. housing market stress across the foreclosure pipeline, multifamily 
 | 30-Yr Mortgage Rate | >5.5% | >6.5% | >7.0% | Freddie PMMS |
 | National Foreclosures (Qtr) | >50K | >60K | >70K | ATTOM |
 | ~~FL Foreclosures YoY~~ **⛔ RETIRED 2026-07-31 — NOT A TRIGGER** | ~~>+75%~~ | ~~>+150%~~ | ~~>+200%~~ | ATTOM |
-| **FL Foreclosure Rate — ANNUAL** (% of FL housing units, ATTOM year-end) | **>0.63%** | **>1.00%** | **>1.50%** | ATTOM |
-| **FL / National rate RATIO** (same period, both legs from one report) | **>2.0×** | **>2.5×** | **>3.0×** | ATTOM |
+| **FL Foreclosure Rate — ANNUAL** (% of FL housing units, ATTOM year-end) | **>0.72%** | **>1.50%** | **>3.00%** | ATTOM |
+| **FL / National rate RATIO** (same period, both legs from one report) | **>2.0×** | **>2.5×** | **>2.9×** | ATTOM |
 | 90+/FC Pipeline | >700K | >850K | >1M | MBA |
 | Cure Rates | >-15% | >-30% | >-40% | MBA/ICE |
 | FHA DQ Rate | >8% | >10% | >12% | MBA |
@@ -95,35 +95,28 @@ Monitor U.S. housing market stress across the foreclosure pipeline, multifamily 
 
 > ⛔ **FL Foreclosures YoY is DISARMED (2026-07-31, HOMER, on PROME audit item 5h).** **Do not evaluate it, do not cite it as a trigger, and do not treat its silence as "FL is fine."** The ladder started at Yellow >+75% YoY; FL printed **+32.7% YoY in ATTOM H1-2026 while being the #1 state in the nation by foreclosure rate** (0.27%, 1-in-373, 27,494 filings). **A band that cannot fire for the national leader is not a conservative band, it is a broken instrument** — it was calibrated for a rate-of-change story on a metric that has become a level story. It had been "noted, not fixed" since 7/17; noted-not-fixed does not survive a boot, so it is now struck rather than left armed.
 >
-> ✅ **REPLACEMENT CALIBRATED 2026-07-31 eve** (the distribution got pulled; bands are anchored, not invented). **FL statewide annual foreclosure rate, % of housing units, ATTOM year-end reports — all primary-verified except where noted:**
+> ✅ **REPLACEMENT CALIBRATED 2026-07-31 eve, then RE-ANCHORED the same session** when the first pass left Orange/Red as invented round numbers. **FL statewide ANNUAL foreclosure rate, % of housing units, ATTOM/RealtyTrac year-end reports:**
 >
-> | Year | FL rate | FL rank | National | FL/nat'l |
-> |---|---|---|---|---|
-> | 2010 (GFC) | **5.56%** (1-in-18) ⚠️ *secondary-sourced* | #3 | 2.23% | 2.49× |
-> | **2019 (pre-COVID normal — THE ANCHOR)** | **0.63%** | **#4** | 0.36% | 1.75× |
-> | 2024 | 0.375% (1-in-267) | #1 tied | 0.23% | 1.63× |
-> | 2025 | 0.435% (1-in-230) | **#1** | 0.26% | 1.67× |
-> | H1-2026 *(half-year, not comparable to rows above)* | 0.268% (1-in-373) | #1 | ~0.16% | ~1.7× |
+> | Year | FL rate | rank | National | FL/nat'l | Source |
+> |---|---|---|---|---|---|
+> | 2010 (GFC peak) | **5.56%** (1-in-18) | #3 | 2.23% | 2.49× | ⚠️ secondary |
+> | **2013 (post-crisis workout peak)** | **3.01%** (1-in-33) | **#1** | 1.04% | **2.89×** | RealtyTrac YE-2013, verified |
+> | 2017 | **0.72%** | #6 | 0.51% | 1.41× | ATTOM YE-2017 |
+> | **2019 (cleanest pre-COVID steady state)** | **0.63%** | #4 | 0.36% | 1.75× | ATTOM YE-2019 (PRIMARY) |
+> | 2023 | 0.37% | #8 | 0.26% | 1.42× | ATTOM YE-2023 (PRIMARY) |
+> | 2024 | 0.375% (1-in-267) | #1 tied | 0.23% | 1.63× | ATTOM YE-2024 (PRIMARY) |
+> | 2025 | 0.435% (1-in-230) | **#1** | 0.26% | 1.67× | ATTOM YE-2025 (PRIMARY) |
+> | H1-2026 ⚠️ *half-year — NOT comparable to rows above* | 0.268% (1-in-373) | #1 | ~0.16% | ~1.7× | ATTOM Mid-Year (PRIMARY) |
 >
-> **★ THE FINDING THAT SET THE BANDS, and it cuts against my own framing: FL's 2025 rate is ~31% BELOW its own 2019 level, and FL was only #4 in 2019.** FL is #1 today because **every other state fell further and stayed lower** — not because FL exceeded its own history. **Rank is a RELATIVE measure and I had been reading it as a LEVEL.** Same at metro: Lakeland was the worst metro in America in 2025 at 0.69%, still **below** Lakeland's own 2019 (0.81%). ⚠️ **This does NOT refute the conversion-phase read** — timelines at 563 days (lowest since 2013) and REO +33% are about **speed and composition**, which are genuinely anomalous. **The aggregate LEVEL is still normalizing upward toward pre-COVID; the SPEED of conversion is what's unusual.** Say which one you mean.
+> **★ THE FINDING THAT CORRECTED MY OWN FRAMING: FL's 2025 rate is ~31% BELOW its 2019 level, and FL ranked only #4 in 2019 and #8 as recently as 2023.** FL is #1 today because **every other state fell further and stayed lower** — not because FL exceeded its own history. **Rank is RELATIVE and I had been citing it as LEVEL.** Corroborated at metro: Lakeland, worst metro in America 2025 at 0.69%, is **below its own 2019 (0.81%)**. ⚠️ **This does NOT weaken the conversion-phase read** — 563-day timelines (lowest since 2013) and REO +33% concern **speed and composition**, which remain anomalous. **Level is normalizing up; speed is the story. Say which one you mean.**
 >
-> **⚠️ THE THREE BANDS ARE NOT EQUALLY WELL-FOUNDED. Grade them before you cite them.**
+> **Band derivation — every level now traces to a sourced year or a stated bracket:**
+> - 🟡 **Yellow >0.72%** = **the top of FL's observed post-crisis normal range** (2023 0.37 → 2025 0.435 → 2019 0.63 → **2017 0.72**). Above this, FL is outside anything it has printed in the modern regime. ⚠️ **Deliberately raised from the first pass's 0.63%:** 2019 was FL's *lowest* pre-COVID year, so 0.63% sat *inside* the normal band and would have fired on ordinary normalization. **The 0.63–0.72% zone is upper-normal — a cross there is weak evidence; above 0.72% is the real signal.** **It is live either way: FY2026 projects ~0.58%.**
+> - 🟠 **Orange >1.50%** = ⚠️ **the one bracketed level, and labelled as such.** ~2× the top of normal and ~half the 2013 workout peak. **No sourced FL year sits here because 2014–2016 are unmapped** — the 0.72%→3.01% interval has no data point. Honest status: **a bracket in the right neighbourhood, not a derived level.** Re-anchor if a 2014–2016 FL annual rate surfaces.
+> - 🔴 **Red >3.00%** = **FL's 2013 post-crisis workout peak** (3.01%, #1 nationally, 944-day timelines). Sourced regime anchor. **Deliberately NOT the 5.56% 2010 all-time peak** — a band pinned to the worst year on record fires once a generation, which is the retired ladder's defect inverted.
+> - **Ratio bands** (observed: normal **1.41–1.75×**, GFC-2010 2.49×, workout-2013 **2.89×**): **>2.0×** = outside the normal regime entirely; **>2.5×** = GFC-2010-like; **>2.9×** = exceeds FL's worst observed decoupling. Regime-robust — survives a national wave that lifts every state, which the level band alone would misread as FL-specific. **Both legs must come from the same report and same period.**
 >
-> | Band | Basis | Grade |
-> |---|---|---|
-> | **Yellow >0.63%** | FL's **actual 2019 rate**, ATTOM primary, publication date verified | ✅ **ANCHORED** — the only genuinely derived level |
-> | **Orange >1.00%** | Round number, ~1.6× the 2019 anchor | ⚠️ **JUDGMENT** — plausible, not derived |
-> | **Red >1.50%** | Round number, ~2.4× the anchor | ⚠️ **JUDGMENT** — plausible, not derived |
->
-> **Yellow** = FL exceeds its own pre-COVID baseline, i.e. normalization has ended and genuine deterioration has begun — **and it is live**: H1-2026 annualizes to **~0.58%, about 92% of the baseline**, so it can fire within a year, which is exactly what the retired ladder could never do. **Red is deliberately NOT set at the 5.56% GFC peak** — a band pinned to the worst year on record fires once a generation, the retired ladder's defect inverted.
->
-> ⚠️ **But be honest about Orange and Red: I set out to anchor them on FL's 2012-13 workout peak (when FL was #1 nationally) and FAILED to source it on this basis.** The gap is real — I hold FL for **2019 / 2024 / 2025 / H1-2026** (primary) plus **2010** (secondary), and **nothing for 2011-2018 or 2020-2023.** So the interval between the 2019 anchor (0.63%) and the 2010 peak (5.56%) is **unmapped**, and Orange/Red sit inside it on judgment. **They are placeholders that will fire in roughly the right neighbourhood, not calibrated levels.** ⚠️ **Do not cite them as "calibrated," and re-anchor them the moment a 2012-13 annual FL rate on the ATTOM housing-units basis surfaces.** *(Attempted 2026-07-31 eve: the FL Legislature EDR primary (`edr.state.fl.us`, 2015-02-04) is authoritative but publishes a **different basis** — see below.)*
->
-> ⚠️⚠️ **THIRD BASIS — DO NOT MIX.** Beyond ATTOM's annual/H1/quarterly/monthly split there is a **completely different metric** in circulation: **"percent of residential LOANS in foreclosure inventory"** (MBA / LPS-Black Knight / FL-EDR style). That is a **STOCK of loans in process**, denominated in **mortgages**; ATTOM's is a **FLOW of filings**, denominated in **housing units**. They differ by roughly an order of magnitude and are **not convertible**: FL EDR reports **3.73% of residential loans in foreclosure (Nov 2014)** in the same era ATTOM-basis annual rates ran in the low single digits. **A number near 3-4% is almost certainly the loans basis, not mine.** Never band, compare or trend across the two.
->
-> ⚠️ **BASIS DISCIPLINE — the trap that broke the old band's successor too.** ATTOM publishes **annual**, **mid-year (H1 cumulative)**, **quarterly** and **monthly** rates, and they are **not interchangeable**. The bands above are **ANNUAL ONLY**. For the July mid-year report, either compare **H1-to-H1**, or project with **FY ≈ H1 × 2.15** — ⚠️ that factor is **n=1** (derived from FY2025 0.435% vs an H1-2025 of ~0.202% that is itself *implied* from a YoY percentage, not directly sourced), so it is **provisional and must not be used to declare a band cross**. **The year-end report is the resolver; mid-year is a heads-up.** A property with filings in both halves counts once annually, so FY < 2× H1 mechanically.
->
-> **Ratio band rationale:** FL runs a stable **1.6–1.8× national** in normal regimes and hit **2.49× in 2010**, so **>2.0× flags FL genuinely decoupling from the national cycle** rather than riding it. Regime-robust — it survives a national wave that lifts every state, which the level band alone would misread as FL-specific stress. Both legs must come from **the same report and same period**.
+> ⚠️⚠️ **BASIS DISCIPLINE — the single largest false-comparison risk in this domain. FOUR bases exist for "the Florida foreclosure rate":** ATTOM **annual** (the bands above), ATTOM **mid-year H1-cumulative**, ATTOM **quarterly**, ATTOM **monthly** — *and* the **MBA / LPS-Black Knight / FL-EDR** metric **"% of residential LOANS in foreclosure inventory"**, which is a **STOCK denominated in mortgages**, not a flow denominated in housing units. The last differs by roughly an order of magnitude and is **not convertible**: FL EDR reports **3.73% of loans (Nov-2014)** in the same era ATTOM-basis annual rates ran ~2–3%. **Heuristic: a FL foreclosure figure near 3–4% is almost certainly the loans basis, not mine.** For the July mid-year report, compare **H1-to-H1**, or project with **FY ≈ H1 × 2.15** — ⚠️ that factor is **n=1** and partly derived (H1-2025 is *implied* from a YoY %, not directly sourced), so it may flag a heads-up but **never declare a band cross.** **The year-end report is the resolver.** A property filed in both halves counts once annually, so FY < 2× H1 mechanically.
 >
 > ⚠️ **Related band defect, NOT yet fixed — the GSE MF rows above (Fannie / Freddie MF Serious DQ).** Q2-2026 demonstrated that these key on a **headline a single loan modification can move 18bps** (Fannie 0.78%→0.60%, issuer-attributed to a portfolio mod, while its MF credit provision rose **49% QoQ**). **A band on a mod-suppressible metric is a band on measurement, not on credit.** Until re-spec'd, **pair every GSE DQ band reading with the same filing's provision direction** — that pairing, not the DQ level, is what held the signal in Q2-2026. Also treat Freddie's blended MF DQ with the same caution: its Q2 print is partly **mix-suppressed** (growth in the best-performing MSCR/MCIP bucket) while its largest bucket deteriorated faster than the blend.
 
