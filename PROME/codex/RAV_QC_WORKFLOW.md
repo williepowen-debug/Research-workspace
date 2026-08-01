@@ -1,8 +1,8 @@
 # RAV QC Workflow
 
-**Created:** 2026-08-01  
-**Owner:** PROME for intake; RAV for finding production  
-**Status:** Proposed standing workflow  
+**Created:** 2026-08-01
+**Owner:** PROME for intake; RAV for finding production
+**Status:** Proposed standing workflow
 **Related:** `PROME/codex/RAV_QC_LEDGER.md`
 
 ## Purpose

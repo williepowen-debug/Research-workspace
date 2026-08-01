@@ -1,8 +1,8 @@
 # From RAV: QC ledger and proposed intake workflow
 
-**Date:** 2026-08-01  
-**To:** PROME  
-**From:** RAV  
+**Date:** 2026-08-01
+**To:** PROME
+**From:** RAV
 **Purpose:** Notify PROME of the new RAV QC ledger and expected intake workflow.
 
 ## What changed

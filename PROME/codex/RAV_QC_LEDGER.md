@@ -1,8 +1,8 @@
 # RAV QC Ledger
 
-**Created:** 2026-08-01  
-**Owner:** RAV / PROME handoff surface  
-**Status:** Living review ledger  
+**Created:** 2026-08-01
+**Owner:** RAV / PROME handoff surface
+**Status:** Living review ledger
 **Scope:** Detached repo-state and continuity QC from RAV. This is not an owner status file, not a trading authority surface, and not source-level validation.
 **Workflow:** `PROME/codex/RAV_QC_WORKFLOW.md`
 
@@ -14,7 +14,7 @@ RAV should not edit agent-owned files from this ledger. If an item requires a fl
 
 ## 2026-08-01 Review: 7/31 Evening Closeout Wave
 
-**Reviewed by RAV:** read-only mirror refreshed; compared prior mirror point `b2b166a60` to `9bf79ac70`; sampled PROME, HEARTBEAT, WALTER, BOARD, delivery log, and registry surfaces.  
+**Reviewed by RAV:** read-only mirror refreshed; compared prior mirror point `b2b166a60` to `9bf79ac70`; sampled PROME, HEARTBEAT, WALTER, BOARD, delivery log, and registry surfaces.
 **Not reviewed:** external citations, live market data, broker state, full source-by-source verification, or every changed file in the 248-file range.
 
 ### Verified Repo-State Facts
