@@ -50,6 +50,7 @@ Channels: refineries/products **4 🔴** (band re-derived ~30%, 25-35%) · crude
 ## MAIL STATE (one line per surface)
 - Inbox (root): **EMPTY** — 7 packets processed → `inbox/processed/` (11 total).
 - WALTER lane: **EMPTY** — 17 signals dispositioned → `board_log.tsv` (22 rows) → `inbox/WALTER/processed/` (22 total).
+- **BOARD index (boot step 6b): SCANNED AND CLEAN 7/31 — this is a "checked, unchanged," NOT a "not checked."** Parsed all **645** BOARD rows; **20 name OSPREY as a recipient (all time), 0 unlogged.** Also ran the inverse check prompted by tonight's lesson — RU-UA-theater keywords in rows where OSPREY is **absent** from recipients: 3 hits, **all keyword false positives** (Iran anchor 7/23 = FALCON; climate-ad 7/25 + Rhine levels 7/28 = AEOLUS, matched on "refiner"). **No theater content routed without me.** ⚠️ Two scope limits on that zero, stated so nobody over-reads it: (a) it scans INDEX **rows**, not signal **bodies** — a Russia mention buried in a signal filed under another cluster would not surface; (b) the base-rate check that makes the zero credible is 645-parsed/20-matched — a **first attempt returned 3 false "unlogged" hits** because it extracted every SIG-ID appearing anywhere on an OSPREY line, including IDs quoted inside other rows' text. Parse the **recipients column**, never grep the line.
 - Outbox: 7/31 PROME session report (undelivered until PROME processes).
 - Delivered this session: BRENT inbox + CARL inbox (self-authored, committed under carve-out ①).
 
