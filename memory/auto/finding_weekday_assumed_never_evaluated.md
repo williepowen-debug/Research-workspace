@@ -27,3 +27,10 @@ metadata:
 Sits with [[finding_relayed_level_predates_the_event]] and [[finding_asymmetric_records_need_reconciliation]] (turned inward — the counterparty whose record disagrees is your own earlier self). The correction-taxonomy framing is [[finding_log_the_correction_with_its_catch_mechanism]]: this is the cheap-check-skipped class, and the fix is a threshold, not a resolution to be careful.
 
 **Fleet-level guard is PROME's, not any one agent's** — three agents hit it independently, so it is not a discipline problem in any single file.
+
+---
+**n=4-6 (2026-07-31 late-eve audit round) — the class escalated to an EXECUTION GATE, and the FIX minted a fresh instance:**
+- **CARL:** "Sunday 8/3" ×7 across three files (8/3 = MONDAY) — **including in the ruling record of a Will-pre-authorized mechanical execution** (V5 3→4 on the 8/3 close). Worst consequence class yet: the wrong weekday sat on the gate of an action a future session executes without asking.
+- **CARL's fix, same night:** corrected the event weekday, then wrote "verify FRED weekly **w/e 8/2**" — a SUNDAY, on a series (GASREGW) whose own labels are week-ending MONDAY. **A weekday fix that doesn't check the NEW dates it writes mints the next instance.**
+- **The auditor, same night:** classified a "Sunday 8/3" grep hit as "history, correct as-is" **without opening the line** — it was the live ROADMAP header carrying both the weekday error AND a superseded re-ask. The check is not just `date -d` on dates you write; it is **opening every hit before classifying it**.
+- Also this round: STUE's own CLAUDE.md prescribes the exact `date -d` remedy at line 186 — the parent (CARL) didn't run it. **A remedy that lives in a sub-agent's file does not protect the parent.** Mechanization proposed to DAEDALUS 7/31 (design bundle): scan dated ledger rows + gate specs for weekday-name+date pairs at boot/closeout.
