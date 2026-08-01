@@ -1,6 +1,14 @@
-# LABOR STATUS — archived NEXT SESSION PICKUP entries (Jul 2 – Jul 24, 2026)
+# LABOR STATUS — archived content (**span: 2026-07-02 → 2026-07-31**)
 
-**Archived 2026-07-31** from `STATUS.md` under the C1 250-line cap + C5 retirement rule (all entries 21–29 days old; every 'owed next' item in them is either marked DONE inline or carried forward into the live STATUS pickup block). Verbatim, unedited. Historical reference only — **do not cite these figures as current.**
+> ⚠️ **APPEND RULE — read before adding anything.** The filename encodes the span. **If you append content dated later than the end-date in the filename, `git mv` the file to the new span IN THE SAME COMMIT and repoint referrers.** *(This file was named `…_to_07-10` while holding content through 07-31 — it was already misnamed, and on 2026-07-31 I appended to it **twice more** without noticing. A reader trusting the name would have concluded Jul 11–31 was never archived. Renamed + this rule added 7/31 PM.)* Referrers at last rename: `STATUS.md`, `outbox/2026-07-31_to-PROME_closeoutdoc-audit.md`.
+
+**Contents (widened beyond the original scope — the title used to say "PICKUP entries" only):**
+1. Archived **NEXT SESSION PICKUP** entries, Jul 2 – Jul 24
+2. Archived **BOTTOM LINE** update blocks (7/6, 7/23, 7/24) — moved 7/31 PM
+3. Archived **MONITORING CALENDAR** rows, incl. **two duplicates** found during the 7/31 trim
+4. Archived **SIGNAL DASHBOARD** rows owned elsewhere or superseded, a dead matrix placeholder, two mislabeled resolutions, and the Jul-31 AM pickup block
+
+**Archived** from `STATUS.md` under the C1 250-line cap + C5 retirement rule. Verbatim, unedited. Historical reference only — **do not cite these figures as current**, and note that the 7/24 material in here was later **struck as wrong on mechanism** by the 7/29 FOMC grade (see `FOMC_LABOR_LANGUAGE_GRADE_20260729.md`).
 
 ---
 
@@ -84,4 +92,4 @@
 - 2. ✅ **ECI Dec-2026 basis-change tripwire** annotated on the KEY THRESHOLDS ECI row (updated fixed weights + workers'-comp removal). **Next ECI 2026-10-30 = LAST print on the current basis.** Re-check every ECI-denominated threshold before December.
 - 3. **Consensus discipline — near-miss worth keeping.** No citable Q2-2026 ECI consensus existed; the top hit was a **2025-07-31 article about Q2-2025** (exact-anniversary decoy — same publication, month and day; its 3.6% also sits in the current Table A as the *year-ago* column, which is how it survives a plausibility check). Date-verified and rejected; reported **"consensus not sourced."** → auto-memory `[[finding_anniversary_article_is_a_consensus_decoy]]`.
 - 4. **Two doc audits delivered + fix round executed** (`outbox/2026-07-31_to-PROME_bootdoc-audit.md` 24 findings, `..._closeoutdoc-audit.md` 19 findings). **Landed:** §C gate #4 cohort-to-base SIZING (L-08, installed for real — it had been *asserted* installed for a week while §C had no such gate) · `boot.py --verbose` now mandatory (the default filtered out 🟢 rows, so B2a was specified against output the command never printed) · **B5b unconsumed-dated-artifact check** · WARN_COHORT status sweep · BD-03/BD-08 retired, BD-02 trigger FIRED · PENDING INPUTS section · 4 spine-sweep misses of my own re-synced. ~~Still awaiting Will's batch (do NOT self-fix)~~ → ✅ **BATCH LANDED 7/31 13:07 AND IS IMPLEMENTED** (PM item 4): push contradiction resolved by session type · spawned-floor conditionality closed via new step 5a · closeout gate on grading cards **ruled NO-GATE**, matching my recommendation. **Still genuinely open: 1b/1c/1d are not yet in the C1-C6 sequence** — 1c now has its ledger (`PUBLISHED.tsv`) but the step that invokes it still isn't in the numbered closeout, so it stays a manual habit.
-- 5. **Unfixed by design, flagged so it isn't rediscovered:** `WARN_COHORT.tsv` is a **third live ledger** (C3 says "TWO live ledgers only") with a boot alarm and **no closeout writer** — that is why its statuses rotted; and `domain/sources/STATUS_PICKUP_ARCHIVE_2026-07-02_to_07-10.md` is **misnamed** (now contains through Jul 24). Both are (a)-class in the closeout audit, held for the batch.
+- 5. **Unfixed by design, flagged so it isn't rediscovered:** `WARN_COHORT.tsv` is a **third live ledger** (C3 says "TWO live ledgers only") with a boot alarm and **no closeout writer** — that is why its statuses rotted; and `domain/sources/STATUS_PICKUP_ARCHIVE_2026-07-02_to_07-31.md` is **misnamed** (now contains through Jul 24). Both are (a)-class in the closeout audit, held for the batch.
