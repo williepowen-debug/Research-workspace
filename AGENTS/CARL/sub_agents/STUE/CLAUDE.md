@@ -190,6 +190,11 @@ workbook/                    # Domain logs (TSV exports)
                              #     never be able to launder freshness. (Adding these caught a
                              #     7-day overstatement on CASCADE the same afternoon: a commit
                              #     had reset its git time to "fresh" while its data was 7/25.)
+                             #   EXPECTED_SIGNALS_TRACKER.md = absence-is-data register
+                             #     (ES-STUE-01..06). Signals that SHOULD appear if the thesis
+                             #     transmits; a null only counts as evidence if the prior was
+                             #     registered BEFORE the check. Check at each row's cadence
+                             #     AND whenever a STATUS catalyst fires.
                              #   STATE_DQ = FROZEN 2026-07-10 (banner in file; do not cite as current)
                              #   SCHEMA = column definitions
 research/                    # EMPTY — contents retired to archive/ on 2026-07-10.
@@ -216,7 +221,8 @@ archive/                     # Retired research + build-era source dumps (13 fil
 
 ## On Session End
 
-1. Update STATUS.md
+1. Update STATUS.md — **including a rewritten BOTTOM LINE** (blueprint §8: 2-4 plain sentences — domain state now, the single most important thing, what's next, what would change my mind). **Rewrite it every session; a carried-forward BOTTOM LINE is worse than none, because it reads as a current judgement.**
+1b. **Check `workbook/EXPECTED_SIGNALS_TRACKER.md`** — any ES row whose cadence came due, or whose catalyst fired, this session. **A catalyst that passed with nothing firing gets a `DID_NOT_APPEAR` row naming it.** An empty fired-log after a live quarter means nobody ran the check, not that nothing happened.
 2. If significant findings: Generate State Vector for CARL
 3. **Restamp `STATUS.md`'s `Last Updated:` and its data-vintage line even on a no-change session** — an unrestamped header is indistinguishable from an unread file
 4. Git: commit own files (`AGENTS/CARL/sub_agents/STUE/`) per root CLAUDE.md §Git Protocol; a packet STUE authored into another agent's `inbox/` is STUE's to commit (carve-out ①) — an uncommitted packet never reaches the recipient

@@ -344,4 +344,18 @@ A grep found **six** different "score drop from student-loan delinquency" figure
 
 ---
 
-*Sub-agent of CARL. Parent is system of record for CRL-04/05/13/14 — STUE keeps no own predictions ledger. State vector this session: **SV-STUE-2026-07-25-01**.*
+---
+
+## BOTTOM LINE (blueprint §8 — rewrite EVERY session, plain language, no jargon)
+
+**Where the domain is now:** The student-loan default wall is real, primary-sourced and still climbing — **~9.0M borrowers / $220B, over 13% of the federally-managed portfolio**, with **8.4M more sitting in forbearance** that has not yet converted. The upstream deterioration is not in question.
+
+**The single most important thing:** **The downstream consequences are quieter than the upstream would predict, and that decomposes into four different situations that need opposite responses — only ONE of which is a genuine "not yet."** The forbearance conversion is truly just lagging (a Jul-1-transition default cannot exist before ~Jul 2027). Enforcement is *switched off*, not delayed. The servicer-accountability channel is *settlement-stayed and getting less measurable, not more*. And the credit-card cascade was simply **over-modelled** — that cohort holds ~2% of card balances and can never carry a national breach. Meanwhile a consequence **is** firing, into **FHA mortgages**, a series STUE was not reading until 7/31.
+
+**What's next:** The **NY Fed Q2 HHDC — modal Tuesday Aug 4** — is not another datapoint; it is the discriminator. Q2 issuer earnings all improved (0 of 4 confirming), and the only way to tell "the consumer is healing" from "issuer books are survivor-biased" is a bureau-wide print that cannot be survivor-filtered. **If it prints benign too, the survivor-bias defence has been offered twice and refuted twice**, and the pre-registered falsifiers bite.
+
+**What would change my mind:** a forbearance reservoir that does not drain on the ~Sep FSA print (ES-STUE-01) — that would mean the conversion is being administratively deferred rather than delayed, and the whole Q3-Q4 thesis slides a year.
+
+---
+
+*Sub-agent of CARL. Parent is system of record for CRL-04/05/13/14 — STUE keeps no own predictions ledger. Latest state vector: **SV-STUE-2026-07-31-01**. Expected-signals register: `workbook/EXPECTED_SIGNALS_TRACKER.md`.*
