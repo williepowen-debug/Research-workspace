@@ -81,8 +81,9 @@ Monitor U.S. housing market stress across the foreclosure pipeline, multifamily 
 | Freddie MF Serious DQ | >0.30% | >0.40% | >0.50% | Freddie Mac |
 | 30-Yr Mortgage Rate | >5.5% | >6.5% | >7.0% | Freddie PMMS |
 | National Foreclosures (Qtr) | >50K | >60K | >70K | ATTOM |
-| ~~FL Foreclosures YoY~~ **⛔ DISARMED 2026-07-31 — NOT A TRIGGER** | ~~>+75%~~ | ~~>+150%~~ | ~~>+200%~~ | ATTOM |
-| **FL Foreclosure RATE (% of housing units, ATTOM H1/annual)** *(interim — see note)* | — | — | — | ATTOM |
+| ~~FL Foreclosures YoY~~ **⛔ RETIRED 2026-07-31 — NOT A TRIGGER** | ~~>+75%~~ | ~~>+150%~~ | ~~>+200%~~ | ATTOM |
+| **FL Foreclosure Rate — ANNUAL** (% of FL housing units, ATTOM year-end) | **>0.63%** | **>1.00%** | **>1.50%** | ATTOM |
+| **FL / National rate RATIO** (same period, both legs from one report) | **>2.0×** | **>2.5×** | **>3.0×** | ATTOM |
 | 90+/FC Pipeline | >700K | >850K | >1M | MBA |
 | Cure Rates | >-15% | >-30% | >-40% | MBA/ICE |
 | FHA DQ Rate | >8% | >10% | >12% | MBA |
@@ -94,7 +95,23 @@ Monitor U.S. housing market stress across the foreclosure pipeline, multifamily 
 
 > ⛔ **FL Foreclosures YoY is DISARMED (2026-07-31, HOMER, on PROME audit item 5h).** **Do not evaluate it, do not cite it as a trigger, and do not treat its silence as "FL is fine."** The ladder started at Yellow >+75% YoY; FL printed **+32.7% YoY in ATTOM H1-2026 while being the #1 state in the nation by foreclosure rate** (0.27%, 1-in-373, 27,494 filings). **A band that cannot fire for the national leader is not a conservative band, it is a broken instrument** — it was calibrated for a rate-of-change story on a metric that has become a level story. It had been "noted, not fixed" since 7/17; noted-not-fixed does not survive a boot, so it is now struck rather than left armed.
 >
-> **Interim replacement, deliberately not yet banded:** the successor metric is the **FL foreclosure RATE (% of housing units)** plus **national rank**, both of which ATTOM publishes and both of which I already hold. I am **not inventing Yellow/Orange/Red levels for it in this session** — honest bands need the historical FL rate distribution (pre-GFC / GFC-peak / 2019 / post-moratorium), which I do not hold in-session, and fabricating three round numbers would just re-create the original defect with better wording. **Interim watch condition, checkable each ATTOM release:** *FL retains a top-3 national rate AND the rate rises vs the prior comparable period.* **Calibration owed → Open Item #8.**
+> ✅ **REPLACEMENT CALIBRATED 2026-07-31 eve** (the distribution got pulled; bands are anchored, not invented). **FL statewide annual foreclosure rate, % of housing units, ATTOM year-end reports — all primary-verified except where noted:**
+>
+> | Year | FL rate | FL rank | National | FL/nat'l |
+> |---|---|---|---|---|
+> | 2010 (GFC) | **5.56%** (1-in-18) ⚠️ *secondary-sourced* | #3 | 2.23% | 2.49× |
+> | **2019 (pre-COVID normal — THE ANCHOR)** | **0.63%** | **#4** | 0.36% | 1.75× |
+> | 2024 | 0.375% (1-in-267) | #1 tied | 0.23% | 1.63× |
+> | 2025 | 0.435% (1-in-230) | **#1** | 0.26% | 1.67× |
+> | H1-2026 *(half-year, not comparable to rows above)* | 0.268% (1-in-373) | #1 | ~0.16% | ~1.7× |
+>
+> **★ THE FINDING THAT SET THE BANDS, and it cuts against my own framing: FL's 2025 rate is ~31% BELOW its own 2019 level, and FL was only #4 in 2019.** FL is #1 today because **every other state fell further and stayed lower** — not because FL exceeded its own history. **Rank is a RELATIVE measure and I had been reading it as a LEVEL.** Same at metro: Lakeland was the worst metro in America in 2025 at 0.69%, still **below** Lakeland's own 2019 (0.81%). ⚠️ **This does NOT refute the conversion-phase read** — timelines at 563 days (lowest since 2013) and REO +33% are about **speed and composition**, which are genuinely anomalous. **The aggregate LEVEL is still normalizing upward toward pre-COVID; the SPEED of conversion is what's unusual.** Say which one you mean.
+>
+> **Why these levels:** **Yellow >0.63%** = FL exceeds its own 2019 pre-COVID baseline, i.e. normalization has ended and genuine deterioration has begun — **and it is live**: H1-2026 annualizes to **~0.58%, about 92% of the baseline**, so this band can actually fire within a year, which is exactly what the retired one could never do. **Orange >1.00%** = 1-in-100 housing units, ~1.6× baseline, above anything FL has printed since the crisis workout. **Red >1.50%** = ~2.4× baseline and ~3.5× current — crisis re-entry. **Red is deliberately NOT set at the 5.56% GFC peak:** a band pinned to the worst year on record fires once a generation and is the same defect as the retired ladder, in the other direction.
+>
+> ⚠️ **BASIS DISCIPLINE — the trap that broke the old band's successor too.** ATTOM publishes **annual**, **mid-year (H1 cumulative)**, **quarterly** and **monthly** rates, and they are **not interchangeable**. The bands above are **ANNUAL ONLY**. For the July mid-year report, either compare **H1-to-H1**, or project with **FY ≈ H1 × 2.15** — ⚠️ that factor is **n=1** (derived from FY2025 0.435% vs an H1-2025 of ~0.202% that is itself *implied* from a YoY percentage, not directly sourced), so it is **provisional and must not be used to declare a band cross**. **The year-end report is the resolver; mid-year is a heads-up.** A property with filings in both halves counts once annually, so FY < 2× H1 mechanically.
+>
+> **Ratio band rationale:** FL runs a stable **1.6–1.8× national** in normal regimes and hit **2.49× in 2010**, so **>2.0× flags FL genuinely decoupling from the national cycle** rather than riding it. Regime-robust — it survives a national wave that lifts every state, which the level band alone would misread as FL-specific stress. Both legs must come from **the same report and same period**.
 >
 > ⚠️ **Related band defect, NOT yet fixed — the GSE MF rows above (Fannie / Freddie MF Serious DQ).** Q2-2026 demonstrated that these key on a **headline a single loan modification can move 18bps** (Fannie 0.78%→0.60%, issuer-attributed to a portfolio mod, while its MF credit provision rose **49% QoQ**). **A band on a mod-suppressible metric is a band on measurement, not on credit.** Until re-spec'd, **pair every GSE DQ band reading with the same filing's provision direction** — that pairing, not the DQ level, is what held the signal in Q2-2026. Also treat Freddie's blended MF DQ with the same caution: its Q2 print is partly **mix-suppressed** (growth in the best-performing MSCR/MCIP bucket) while its largest bucket deteriorated faster than the blend.
 
