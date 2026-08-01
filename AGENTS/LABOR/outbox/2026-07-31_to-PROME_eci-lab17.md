@@ -53,7 +53,7 @@ That is what a composition shift looks like: if the labor force shrinks by 720K 
 
 ## 3. LAB-17 — RESOLVED ❌ FALSIFIED
 
-Graded off the **frozen pre-registered card** `docket/GRADING_CARD_20260730.md` (written 7/24, before the release).
+Graded off the **frozen pre-registered card** `docket/graded/GRADING_CARD_20260730.md` (written 7/24, before the release).
 
 | Test | Required | Actual | Verdict |
 |---|---|---|---|

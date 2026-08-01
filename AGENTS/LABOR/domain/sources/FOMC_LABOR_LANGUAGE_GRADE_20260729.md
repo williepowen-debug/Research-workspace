@@ -1,6 +1,6 @@
 # GRADE — FOMC labor-language leg, meeting of 2026-07-29
 
-**Graded:** 2026-07-31 (Fri) · **Card:** `docket/FOMC_LABOR_LANGUAGE_20260729.md` (frozen 2026-07-24 16:12 ET)
+**Graded:** 2026-07-31 (Fri) · **Card:** `docket/graded/FOMC_LABOR_LANGUAGE_20260729.md` (frozen 2026-07-24 16:12 ET)
 **Graded off primary text only**, per card §4.1 — FOMC statement (federalreserve.gov) + Chairman Warsh's press-conference transcript (PRELIMINARY, 20pp PDF, extracted locally with pdfminer). No wire summaries used for the grade.
 
 > **Headline:** **Branch (a) CONFIRMED on the letter — and branch (a)'s stated IMPLICATION is REFUTED.** The Fed is not reading my artifact gauges as hawkish fuel. It is not reading them at all. Labor has been set aside as a *satisfied side-constraint*, and the hike case runs entirely on inflation persistence. **My own 7/24 regime fold was wrong on mechanism** and is corrected below.
