@@ -60,7 +60,7 @@ Two confounders MARCO's thesis never priced in, and they don't depend on the Bre
 
 ## Open questions (unaddressed by verified evidence)
 1. USD/MXN peso trajectory — entirely unaddressed (the missing Prong-1 driver).
-2. Measured price impact of the 2.2M workforce reduction; unharvested-crops-in-fields evidence; actual 2025-26 H-2A cert volumes.
+2. Measured price impact of the workforce reduction — **~1.0M realized foreign-born LF decline / ~1.5M population** *(figure corrected 2026-07-31; this line read "2.2M", retracted fleet-wide 7/2 as a disputed DHS claim mis-attributed to CBO)*; unharvested-crops-in-fields evidence; actual 2025-26 H-2A cert volumes. ⚠️ **Status update 2026-07-31: this question is now CLOSED as un-answerable by the instrument class MARCO tried.** Three pre-registered transmission tests failed (produce CPI → freight; FL wage divergence → statutory floor; floor-controlled re-test → NULL). Channel-1 transmission is **UNDEMONSTRATED** (v3.0). Reopening requires a source that observes the affected population directly, not another price series.
 3. NET 2026 farm-labor-cost direction: does headcount-shortage dominate the regulated-wage CUT, or vice versa?
 4. How much of +11.5% veg persists into summer/fall once transient freeze + Q1 energy roll off — is there a structural labor floor under the cyclical spike?
 

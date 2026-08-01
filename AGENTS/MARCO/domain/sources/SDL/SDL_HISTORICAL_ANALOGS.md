@@ -2,6 +2,16 @@
 **MARCO | VX-MARCO-SDL-01 Support Research**
 **Compiled:** 2026-04-21 | **Analyst:** MARCO research sub-agent
 
+> ## ⚠️ SUPERSEDED 2026-07-31 — THE SCALE CALIBRATION IN THIS DOCUMENT IS BUILT ON A RETRACTED FIGURE
+>
+> **Every "2.2M" below is retracted.** It was a **disputed DHS** self-deportation claim **mis-attributed to CBO**, corrected fleet-wide on **2026-07-02** (thesis v2.6). CBO's own figure is **~290K removals + 30K voluntary (2026-30)**. The accurate realized magnitude is **~1.0M foreign-born labor-force decline / ~1.5M population** (NFAP/BLS-CPS; FRED `LNU01073395`), and the current live reading is **foreign-born LF −700K YoY**.
+>
+> **This matters more here than in a stale data row.** The § "Scale calibration for SDL-01" concludes the 2.2M figure is *"plausible relative to precedent and likely conservative"* — an analytic judgment **derived from the retracted number**, which then reads as independent corroboration of it. At the accurate ~1.0M–1.5M the arithmetic inverts: that is **~5–7% of the ~20M undocumented population, not ~11%**, which puts the episode **below** the post-2008 wave's cumulative ~1M-from-~12M rate rather than approaching Operation Wetback's. **The Operation Wetback rate-of-change comparison does not survive**, and any downstream claim resting on "faster than 2008-2011" must be re-derived.
+>
+> **What survives and is still citable:** the *transmission-speed ranking* and *mechanism* findings — fear effects lead physical departures; domestic workers do not backfill ag harvest at any speed; mechanization is commodity-gated on a 5-10 year cycle; housing effects concentrate in rental submarkets. Those are qualitative, drawn from the historical episodes themselves, and do not depend on SDL-01's magnitude.
+>
+> **Not rewritten in place, deliberately** — the body is left as compiled so the error is legible. **Do not cite any magnitude, percentage-of-population, or cross-episode rate comparison from this file.** Canonical magnitude → `thesis/THESIS.md` + `FIGURES.md` §4. *(Found 2026-07-31 eve during the PROME-audit sweep; it was not in the audit's list — the audit named `MEMORY.md:9` and `STATUS.md:105`, and this third instance surfaced only because the correction sweep was widened past the surfaces that were flagged.)*
+
 ---
 
 ## SYNTHESIS — What Analogs Imply for SDL-01 (2.2M, 2025-2026)
