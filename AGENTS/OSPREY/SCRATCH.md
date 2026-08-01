@@ -1,53 +1,58 @@
-# OSPREY SCRATCH — 2026-07-24 mid-morning (day-5 check spawn — GATE FIRED)
+# OSPREY SCRATCH — 2026-07-31 evening (full session after a 7-day dark period)
 
 **Purpose:** Ephemeral session handoff — canonical "where are we / what next." Read at boot (step 2), rewritten in full at closeout. Disposable. Learnings → `MEMORY.md`; cross-agent twin → `NEXUS_BRIEF.md`.
 
 ---
 
-## HEADLINE: GATE-OSPREY-001 FIRED 7/24
-Leg-(b) branch-1 (loading suspension ≥5 sessions) fired. Halt continuous 7/20→7/24, no resumption at any point. Legs (a) SPM structural damage and (c) Tengiz FM remain UNFIRED — this is a **duration/persistence** fire, not a severity-escalation fire. Verified `date -u` at spawn = Fri 2026-07-24 14:49 UTC = 19:49 Almaty — Kazakh Friday had effectively run its full course with no resumption reported.
+## HEADLINE: OSP-01 FAILED — and the reason is a governance defect, not a research one
+**Sheskharis** (Novorossiysk, Transneft), a **Russian** crude-export terminal moving **~1/5 of Russia's seaborne crude exports**, halted loadings **7/22-7/26** and resumed on **one berth**. My STATUS said "Channel 2 unchanged, non-countable attribution HOLDS" the entire time, and BRENT + HAWK consumed that read for nine days. Bloomberg published it **7/24 — the same day I ran a CPC day-5 gate check.**
+**Root cause: attention capture by a registered gate.** `GATE-OSPREY-001` made CPC (Kazakh, **pre-registered by me as non-countable**) a daily dated named obligation; nothing made the un-gated Russian terminals an obligation at all. → `LESSONS.md` item 5, auto-memory `finding_registered_gate_captures_attention` (committed).
 
 ## CURRENT MARKS (one line)
-- Channels: refineries/products **4 🔴** (band 25-35%) · crude-export terminals **4 🔴 — GATE-OSPREY-001 FIRED (leg-b branch-1, day 5)** · shadow-fleet tankers **3 🟠** (OSP-01 65%, unfired) · Brent ref [defer to BRENT].
+Channels: refineries/products **4 🔴** (band re-derived ~30%, 25-35%) · crude-export terminals **4 🔴** (Sheskharis halted+resumed-partial; CPC re-halted 7/30, **not resumed 7/31**) · shadow-fleet tankers **3 🟠** · Brent ref [defer to BRENT].
 
-## CHANGES SINCE LAST SESSION (7/23 midday → 7/24 mid-morning)
-- **GATE-OSPREY-001 FIRED.** Day-count: 7/20=d1...7/24=d5, threshold reached, no resumption in the window.
-- Leg (a): still unfired — no SPM assessment result, "fully intact and operational" line unchanged since 7/21.
-- Leg (c): still unfired — no Tengiz FM; production cut still framed technical.
-- **NEW:** named tanker owners (ExxonMobil, Chevron) reported refusing to call at the terminal [OilPrice.com 7/23] — owner-pullback mechanism now has named-party attribution.
-- Kazakh output confirmed −21% overall / Tengiz −56% (still citing Wed 7/22 figures — no fresher production print found 7/24).
-- No fresh war-risk print 7/24 (gap now spans 7/22-7/24); 7/21 figure (>1%/1.5% from 0.6%) stands.
-- 7th vintage-catch this week: marketscreener "CPC resumes oil intake" headline, 403-blocked, contradicted by every live 7/24 primary — not banked.
+## CHANGES SINCE LAST SESSION (7/24 → 7/31)
+- **CPC reopened 7/27** (SPMs unrepaired, no FM → **willingness-bounded confirmed**, my 7/23 read, HAWK credits it) → **re-halted 7/30** on a **6th strike in 12 days**, 3rd shutdown in a month. Not resumed as of 7/31.
+- **Sheskharis** halted 7/22-7/26 — the miss above.
+- **Refinery campaign escalated hard:** Tyumen 7/25 (~2,000km, production halted, deep diesel hydrotreater) · Rostov/Taganrog + Sarapul + Yaroslavl 7/27 · **Perm 7/29 (>13 Mt/yr, deepest refinery strike) + Ryazan 7/29 (Rosneft, ~5% of national processing) same night** · **Volgograd 7/31 (~15 Mt/yr — largest of the wave)**.
+- **Fuel-export ban EXTENDED by decree, Aug 1 → Jan 31 2027** — did NOT lapse 7/31 as I had published.
+- **Golden Leo** sank 7/26 — ⚠️ **Russian** strike on a **grain** ship, NOT a Ukrainian shadow-fleet event.
+- Crude exports **4.16 M bpd** 4wk to 7/26 (vs 4.21 to 7/12) — still near record.
 
-## WHAT I DID THIS SESSION (scoped day-5 gate spawn, PROME-tasked)
-- Day-5 adjudication: verdict FIRED, leg-(b) branch-1. Leg-by-leg + evidence → `domain/energy-strikes/CPC_HALT_2026-07-21.md` §9.
-- Outbox → PROME: `outbox/2026-07-24_to-PROME_cpc-day5-adjudication.md` (verdict + routing asks: GATES.tsv update, BRENT routing).
-- **BRENT fire-alert packet drafted and committed** (self-authored-packet carve-out): `AGENTS/BRENT/inbox/2026-07-24_from-OSPREY-via-PROME_cpc-fire-alert.md`.
-- STATUS.md updated: top-line summary, gate day-count line, Channel-2 dashboard row (score 3🟠→4🔴). Flagged a stale wording mismatch in the Channel-2 "Upgrade Trigger" column (said "sustained multi-week halt" — the actual frozen GATES.tsv term is ≥5 sessions; noted inline, did not silently overwrite).
+## WHAT I DID THIS SESSION
+- Strike ledger swept 7/23→**7/31**, mark advanced, **+10 rows** (incl. the 7/7 Blue Stream gas backfill and the Golden Leo attribution-correction row). Ledger now 60 lines.
+- **Graded all three due predictions on frozen specs:** OSP-01 **FAILED**, OSP-02 **CONFIRMED**, OSP-03 **FAILED**. Registered **OSP-04** (DARK-mark row, owed since 7/12) and **OSP-05** (RED's rotation test, base-rate-checked at registration = 0-of-3).
+- **Re-derived the canonical refining band** (~30%, 25-35%) — same numbers, stronger basis: runs 3.91 M bpd (lowest since Mar 2005) + IEA >20% floor + FT 20-40% envelope. Proxy caveat attached.
+- **Closed three externally-flagged structural gaps:** gas/LNG (`VX-OSPREY-GAS-01` + `FLOW-OSPREY-01`), vol/credit (`FLOW-OSPREY-02`, open since spinout), VX staleness (19d).
+- **Cleared the whole mail backlog:** 7 root packets + 17 WALTER signals → `board_log.tsv` + `git mv` to processed.
+- Packets out: 🔴 BRENT (retraction), 🔴 CARL (re-dated route-out), PROME (session report + 2 Will asks).
 
 ## NEXT SESSION (dated, future-verifiable)
-1. **PROME to apply GATES.tsv state = FIRED** (shared file, outside my commit scope — flagged in outbox, not self-applied).
-2. **PROME to finalize/confirm delivery of the BRENT packet** (already sitting in BRENT's inbox under the carve-out).
-3. Watch for: (i) any SPM assessment result (leg a — would be the real severity escalation), (ii) formal Tengiz FM (leg c), (iii) resumption over the weekend (does not un-fire the already-crossed threshold, but matters for forward duration/sizing — track as a new data point, not a gate reversal).
-4. War-risk print gap now 3 sessions stale (7/22-7/24) — check for a fresh Black Sea rate print next session.
-5. **Register OSP-04** (stale single-vintage inputs DARK mark) — owed since 7/12, still not done.
-6. By ~2026-07-26: slow-aggregate re-verify (floating storage, Urals discount) — 14-day trigger overdue.
-7. By 7/31-8/3: OSP-02 resolves (diesel ban); by 8/2: OSP-03 + band expiry.
+1. **★ Did the CPC 7/30 halt persist?** If it runs to **~2026-08-13** it fires **OSP-05's R2 leg** (sustained >2wk interdiction) — the nearest-to-firing rotation signal. **This is the single highest-value check next session.**
+2. **Verify the Chevron/CPC conflict:** Chevron's CEO said 7/31 that CPC is "flowing, ships loading this week" while the operator says loadings are suspended. **Not logged as a resumption.** Resolve against the operator or the Kazakh energy ministry, not the earnings call.
+3. **By 8/2:** confirm no independent >40% refining print lands 8/1-8/2 — OSP-03 was graded FAILED two days early and I accepted that residual risk in writing. **If one appears, re-open and re-grade rather than defending the call.**
+4. **RUN THE NEW CHANNEL-2 RULE:** sweep the un-gated Russian terminals (Primorsk, Ust-Luga, Vysotsk, Sheskharis) **explicitly and in writing**, separately from any CPC check. This is the LESSONS-item-5 fix and it only works if it is actually executed.
+5. **Resolve the Volgograd recirculation trap** — `RU-20260514-VOLGOGRAD` carries a low-conf May date; today does NOT resolve it (the conflated "later strike" predates today). Needs a **dated-primary re-check, not a merge**.
+6. **By 8/31:** OSP-04 resolves (are floating storage + Urals discount still DARK?). **By 8/24:** OSP-05.
+7. Un-rowed residual: **Kstovo 6/24.** Unverified: Tuymazy pump pipeline affiliation; **Rostov 7/27 terminal cargo class** (do not score until confirmed).
 
 ## OPEN THREADS / WATCHES
-- 🔴 **GATE-OSPREY-001 FIRED** (7/24) — leg-(b) branch-1. Legs (a)/(c) open watches: any SPM assessment, any Tengiz FM.
-- 🟠 War-risk surface live, print gap 7/22-7/24 (3 sessions stale) — no thresholds, route rule only.
-- 🟠 OSP-01 (Aug 1, 65%) · OSP-03 (Aug 2, 35%) · 🟡 OSP-02 (Jul 31/Aug 3, 70%).
-- 🟡 Backlog unchanged: OSP-04, strike-feed automation, vol/credit FLOW rows, EU/Druzhba.
+- 🔴 **CPC halted since 7/30, unresumed** — watch resumption AND the ~8/13 R2 date.
+- 🔴 **Black Sea war-risk: no print since 7/21, 10-day bar BREACHED.** Escalated to Will/PROME — the surface may be structurally unobservable at this cadence. **Never report "unobserved" to BRENT as "unchanged."**
+- 🟠 **Thesis-kill `:153` is decorative** (DAEDALUS was right — no 60-day all-quiet window has ever existed). Fix proposed, **Will-gated, NOT self-applied** — re-scoping my own kill to be easier to satisfy is exactly the move that shouldn't be self-approved.
+- 🟠 GATE-OSPREY-001 stays FIRED (a fired gate does not un-fire). Legs (a) SPM damage and (c) Tengiz FM still unfired.
+- 🟡 Backlog: EU/Druzhba still thin (2026 Druzhba dispute + Slovak-Ukraine oil dispute now visible); strike-feed automation still unbuilt — the 7-day dark period is exactly what it would cover.
 
 ## PREDICTIONS DUE / DECISIONS PENDING
-- None due today (OSP-01/02/03 windows future). Gate has now resolved (FIRED) — no further adjudication needed on GATE-OSPREY-001 itself; downstream watch on legs (a)/(c) continues informally.
+- **None due.** OSP-01/02/03 all resolved this session; OSP-04 (8/31) and OSP-05 (8/24) are the only live rows.
+- **Pending Will:** (a) war-risk surface — source upgrade or written scope limit; (b) thesis-kill `:153` re-scope.
 
 ## MAIL STATE (one line per surface)
-- Inbox (root): empty at boot.
-- WALTER lane: empty.
-- Outbox: **7/24 cpc-day5-adjudication** ← today's, undelivered until PROME processes (GATES.tsv update + BRENT routing confirm).
-- BRENT inbox: fire-alert packet placed this session (self-authored carve-out, committed).
+- Inbox (root): **EMPTY** — 7 packets processed → `inbox/processed/` (11 total).
+- WALTER lane: **EMPTY** — 17 signals dispositioned → `board_log.tsv` (22 rows) → `inbox/WALTER/processed/` (22 total).
+- Outbox: 7/31 PROME session report (undelivered until PROME processes).
+- Delivered this session: BRENT inbox + CARL inbox (self-authored, committed under carve-out ①).
 
 ## PENDING PUSH / GIT
-- This session's files (outbox packet, STATUS.md, SCRATCH.md, CPC_HALT tracker §9, BRENT inbox packet) committed pathspec this session and pushed via `scripts/safe-push.sh` — see commit SHA in the outbox packet / final report to PROME.
+- Auto-memory `finding_registered_gate_captures_attention` + `MEMORY.md` index row committed separately (carve-out ③); `memory_index_check --strict --slug` passes.
+- Session files committed pathspec `AGENTS/OSPREY/` + the two self-authored inbox packets, then `scripts/safe-push.sh`.
