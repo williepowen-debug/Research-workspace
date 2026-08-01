@@ -43,6 +43,21 @@ Channels: refineries/products **4 🔴** (band re-derived ~30%, 25-35%) · crude
 - 🟠 GATE-OSPREY-001 stays FIRED (a fired gate does not un-fire). Legs (a) SPM damage and (c) Tengiz FM still unfired.
 - 🟡 Backlog: EU/Druzhba still thin (2026 Druzhba dispute + Slovak-Ukraine oil dispute now visible); strike-feed automation still unbuilt — the 7-day dark period is exactly what it would cover.
 
+## ★ FALSIFICATION CHECK (closeout step 12) — run in full 7/31, and it found a RULE DEFECT
+
+**Channel-kills (EXIT RULES §1): none fire, all three clearly alive.** Newest in-channel rows — Ch1 `product-crack` **7/31** (Volgograd), Ch2 `crude-export(terminal)` **7/30** (CPC), Ch3 `shadow-fleet(tanker)` **7/30**. Kill clocks are 30/30/21 days; none is close. Recorded as *checked*, not assumed.
+
+**🔴 EXIT RULES §3 APPEARS TO HAVE FIRED DURING THE DARK PERIOD AND I NEVER EVALUATED IT — and I think the RULE, not the thesis, is what's wrong.**
+> §3: *"Brent sustains a break >$85 for 3+ sessions with ≥2 institutional legs (BRENT-owned call) → decoupling thesis broken, re-mark all three channels' Brent-relevance upward."*
+
+Brent crossed **$100 intraday 7/23**, fell **below $90 by ~7/27**, and is in the **~$86-92** range 7/31 *(conflicting prints in one search — do NOT bank a level; **Brent's lane, BRENT's call**)*. On any of those figures **Brent has held >$85 for well over 3 sessions.** On the letter, §3 fired ~a week ago and all three channels' Brent-relevance should have been re-marked upward.
+
+**I am NOT re-marking, and I am not silently ignoring it either. The defect: §3 has NO ATTRIBUTION CLAUSE, and the rest of my framework treats attribution as fundamental.** My decoupling thesis is that *Russia's refinery campaign frees crude and therefore does not bid Brent*. The >$85 break was driven by **FALCON's theater** (Houthi strikes on Saudi tankers in the Red Sea, Hormuz near-halt) — my own standing THEATER-ATTRIBUTION GUARD says so explicitly. **A Brent rally caused by Iran does not falsify a claim about Russia.** As written, §3 would have me mark my own thesis broken on someone else's war.
+
+This is the `finding_threshold_spec_fails_before_world` class: the threshold fails on its own specification before the world gets a vote. **It is also the second decorative/defective falsifier found in my own EXIT RULES in one session** (with DAEDALUS's `:153` finding) — that pattern is itself the signal, and it suggests the whole section deserves a pass rather than two spot fixes.
+
+**NOT self-amended — deliberately.** Adding an attribution clause makes my own falsifier *harder to trigger*, which is precisely the change that must not be self-approved. **→ Folded into the same Will-gated rules session as the `:153` thesis-kill re-scope.** Until ruled: §3 is **flagged NOT-APPLIED with the reason recorded here**, so nobody reads the un-re-marked channels as an oversight.
+
 ## PREDICTIONS DUE / DECISIONS PENDING
 - **None due.** OSP-01/02/03 all resolved this session; OSP-04 (8/31) and OSP-05 (8/24) are the only live rows.
 - **Pending Will:** (a) war-risk surface — source upgrade or written scope limit; (b) thesis-kill `:153` re-scope.
