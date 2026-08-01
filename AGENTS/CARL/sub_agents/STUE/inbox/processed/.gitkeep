@@ -1,0 +1,5 @@
+Keeps inbox/processed/ tracked. Git does not version empty directories, so without
+this file the directory would not exist after a clone or a pull on the other machine
+— and the closeout `git mv inbox/<packet> inbox/processed/` would fail there.
+Serial multi-machine (desktop <-> laptop) makes that a real failure, not a theoretical one.
+Created 2026-07-31 with the inbox itself.
