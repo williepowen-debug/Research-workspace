@@ -19,7 +19,7 @@ Human-readable twin of `docket/CATALYSTS.tsv`. **The two must not diverge** — 
 ## August → September
 | Date | Event | Test | Pri |
 |------|-------|------|-----|
-| **~Aug 3** | **V5 gas sustained-cross window closes** *(added 7/24)* | ~2wk above $4.00 from the 7/20 cross? Sustained → **V5 3→4 = WILL DECISION, do NOT auto-bump**. Fails → hold V5 at 3; CRL-26 remains a confirmed one-off cross | 🔴 |
+| **Mon 8/3** | **V5 gas sustained-cross window closes** *(added 7/24; **PRE-AUTHORIZED by Will 7/31 eve** — supersedes the do-NOT-auto-bump line for THIS window only)* | Still ≥$4.00 at Monday 8/3's close (FRED weekly w/e 8/2 + AAA daily)? → **EXECUTE V5 3→4 (51→52), no further ask.** Retrace <$4.00 first → sustain failed, hold 3, report. 8/3 is a MONDAY (weekday fixed 7/31, PROME audit) | 🔴 |
 | **Aug 3 → Aug 17** | **Diesel-lag natural experiment** *(added 7/24, RED S24 poke #5 — the one time-sensitive item)* | EIA weekly on-highway retail diesel: does the 7/17→7/23 crude pulse (+$12/bbl ≈ +$0.29/gal input) arrive on the 17-18d lag? **Peak arrival ~8/10.** Earlier → shorter lag → more of Hormuz already loaded, peak pulls FORWARD; later → reverse. Converts the gasoline-transfer ESTIMATE into a diesel-native MEASUREMENT | 🟠 |
 | ~Aug 5 | **Treasury Phase 1 first-batch VERIFICATION** | Did the ~500K July transfer actually occur (primary)? AWG/TOP pause still standing? CRL-14 custody-vs-enforcement split; STUE next-spawn item | 🟠 |
 | ~Aug 7 | June→July NFP | **V16 re-arm resolver** (ARMED Jul 2 on June +57K/−74K). *Cross-read: claims 187K = lowest since 1969 (LABOR 7/23) is the low-fire side of the freeze, not strength* | 🔴 |

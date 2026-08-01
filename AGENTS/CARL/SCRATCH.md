@@ -1,5 +1,5 @@
 # CARL SCRATCH
-**Last session:** 2026-07-31 (Fri) ~16:25–18:15 ET — 7-day-gap catch-up; FOMC graded, inbox drained (14), 7/31 prints integrated, BOARD 77 cleared, 8 ABS 10-Ds reviewed. **No score change: 51/70 holds.** THESIS v2.6.3.
+**Last session:** 2026-07-31 (Fri) ~16:25–19:30 ET (incl. evening rulings + PROME audit fixes) — 7-day-gap catch-up; FOMC graded, inbox drained (14), 7/31 prints integrated, BOARD 77 cleared, 8 ABS 10-Ds reviewed. **No score change: 51/70 holds.** THESIS v2.6.3.
 
 **PRIORITY-1:** **The ~10-day resolution window is OPEN — and V5 is now PRE-AUTHORIZED (Will ruled 7/31 eve, option a): verify the 8/3 close (FRED weekly + AAA daily still ≥$4.00) → EXECUTE V5 3→4 (51→52/70, touches 5 surfaces per Check B), no further ask; retrace first = hold 3.** Then: Fitch ATR refresh 8/3 (BEFORE the HHDC; the Mar 6.11% print is anchored on the seasonal LOW per OTTO's panel); the Q2 HHDC prints INSIDE 8/4-8/11 (**pin exact date from the NY Fed advisory — check every boot**; modal Tue 8/4) and grades by the FROZEN CARD + its 7/31 addenda, with CRL-21's capital riding the cells per Will's standing 7/24 ruling (unamended). **CRL-14 successor: Will approved retire+replace (opt a) — draft is with Will for review; REGISTER on his approval, then retire CRL-14.**
 
@@ -38,12 +38,13 @@
 
 ### IMMEDIATE (next 24-72h — the window)
 0. **⚠️ STUE ran CONCURRENTLY (~17:12-17:30, 7/31) and delivered at end-of-session: packet `inbox/2026-07-31_from-STUE_sweet-9thcir-DECIDED...md` + `SV-STUE-2026-07-31-01.md`. Its content is FULLY INTEGRATED this session** (Sweet 9th-Cir 7/17 DOE-lost → STATUS row updated + independently verified; HHDC modal Tue 8/4; ~Sept oral-arg docket row pruned; cascade-cap already on the card). **NOT swept into CARL's 7/31 commits: the packet, the SV, and `sub_agents/STUE/CLAUDE.md`+`STATUS.md` — STUE said it commits its packet per carve-out ①; if its files are still uncommitted at next boot, sweep them then (rule #2 race avoidance) and move the packet → processed/.** Its MOHELA 7×/50× re-sourcing note (a correction-of-a-correction) is worth reading.
-1. **Sun 8/3: V5 3→4 decision packet to Will** at the window close (condition reads met as of 7/31 — verify the 8/3 FRED weekly first).
+1. **Mon 8/3: verify the close (FRED weekly w/e 8/2 + AAA daily still ≥$4.00) → EXECUTE V5 3→4 per the pre-auth — NO ASK.** Retrace <$4.00 = sustain failed, hold 3, report it. (Weekday fixed 7/31 late: 8/3 is a MONDAY — PROME audit item 1, finding_weekday_assumed_never_evaluated n=4.)
 2. **Mon 8/3: Fitch ATR refresh** (V2's instrument, Jan-vintage; the Mar print is the seasonal LOW — OTTO panel context in STATUS row) + **first EIA diesel print** of the 8/3-8/17 lag experiment.
 3. **Every boot: check for the NY Fed HHDC media advisory** (newyorkfed.org/newsevents/mediaadvisory) — pin the exact date in the 8/4-8/11 window; the frozen card + CRL-21 capital ruling grade on it.
 4. **Read DEWEY C2 (`AGENTS/DEWEY/output/2026-07-24_c2-score-cascade-cc-breach-attribution.md`) BEFORE the HHDC** — its cautions are already pre-registered on the card (addendum #2) but the full report is unread.
 
 ### DATED
+4b. **STUE hand-downs at its next run (PROME audit items 5+6b):** (i) the VASP confound in STUE STATUS:221/293 + CASCADE.tsv:11 is a CATEGORY ERROR — 11.88% is FHA-only, VASP is VA, and the VA leg is much milder (DEWEY :69) → remove the false blocker on STUE Q#11; candidate real confound = HUD ML 2025-06 partial-claim waterfall; data hook = HUD Neighborhood Watch geographic cut (coord w/ HOMER); (ii) STUE STATUS:182 "monotone score-drop law" is contradicted by its own table — delete/reword the generalization.
 5. **~8/5** Treasury Phase 1 verification (STUE) · **8/7 July NFP — V16 re-arm resolver** · **8/12 July CPI (pre-registered SOFT — do not grade pass-through)** · **~8/15 Russia-ban test** (ban already EXTENDED per RED — grade the crack vs 5-yr seasonal norm) · **8/20-21** Affirm FQ4 + Iran waiver expiry (CRL-08 45% live tail) · **~early Sept: CRMT covenant-relief expiry** (dated checkpoint, REGINALD co-owns).
 
 ### AWAITING WILL
@@ -56,16 +57,22 @@
 ---
 
 ## OUTBOX (0 new; 6 stale Apr-17 signals deferred per messaging-overhaul direction)
-## INBOX (0 unprocessed — 14 packets + 1 WALTER signal drained 7/31 → processed/)
+## INBOX (4 unprocessed — landed AFTER the 7/31 drain; process at next boot)
+| File | From | Summary |
+|------|------|---------|
+| `...from-STUE_sweet-9thcir-DECIDED-717...` | STUE | Content FULLY INTEGRATED 7/31 in-session (see IMMEDIATE #0) — just move to processed/ once STUE's carve-out commit lands |
+| `...from-HOMER_kb-carl-304-hpi-figures-superseded...` | HOMER | KB-304 HPI figures superseded incl. a revised-away trough — check KB-304 + any STATUS carry |
+| `...from-MARCO_channel1-demoted-cost-push-unsupported.md` | MARCO | Channel-1 demotion. ⚠️ PROME CAUTION ATTACHED (audit item 7): the "FL diagnostic STRENGTHENED" sentence is a post-hoc reinterpretation of a MISSED pre-registered diagnostic — keep the Sep-30 Amendment-2 impulse (legislated, stands alone), IGNORE the strengthened claim until MARCO scores the miss; the "~6pp floor" rule is design-specific, not standing |
+| `...from-STUE_sub-agent-ledgers-are-unenforced-tested-one-line-fix...` | STUE | Sub-agent ledger enforcement gap + one-line fix + DOC 53d stale — evaluate the fix |
 
 ---
 
 ## WORKBOOK HEALTH
 | File | Size | Note |
 |---|---|---|
-| STATUS.md | 247 | under cap |
+| STATUS.md | ~248 | under cap |
 | KB.tsv | 368 | +8 this session (363-370; 365 corrected in place) |
-| PREDICTIONS.tsv | 28 | 15 OPEN · CRL-14 STUCK |
+| PREDICTIONS.tsv | 29 | 16 OPEN incl. CRL-28 (FROZEN-at-55 threshold) · CRL-14 RETIRED |
 | CATALYSTS.tsv | 20 | 0 past-due after prune/re-date |
 | BOARD_LOG.tsv | 645 | 0 backlog, 0 dupes |
 | PAPER_SLEEVE.tsv | 11 | 7 legs OPEN, marked 7/31, net +$9.43 |
@@ -74,6 +81,6 @@
 ---
 
 ## URGENT
-- **Sunday 8/3 = V5 decision. The HHDC can land as early as Tuesday 8/4.** Fitch ATR must be refreshed before it.
+- **Monday 8/3 = V5 decision. The HHDC can land as early as Tuesday 8/4.** Fitch ATR must be refreshed before it.
 - **The frozen card + 7/31 addenda govern the HHDC grade — do not edit the card, only dated addenda.** RED's rationalization test is live on it.
 - **"CRMT defaulted" is retired language — covenant waiver, ~Sept expiry.** Do not let it re-enter synthesis.

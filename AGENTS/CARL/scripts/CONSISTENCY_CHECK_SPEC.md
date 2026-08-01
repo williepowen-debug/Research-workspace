@@ -195,7 +195,7 @@ bug.
 
 **Status: BUILT, five acceptance tests passed, wired into `boot.py`.** Built ahead of
 need on purpose: **three vector candidates are armed and all resolve within three
-weeks** (V5 3→4 ~8/3, V1/V2 ~8/15, V12 un-fire at FOMC 7/28-29). The next score move
+weeks** (V5 3→4 Mon 8/3 [pre-authorized 7/31], V1/CRL-05 at the HHDC 8/4-8/11 window, V2 via Fitch ATR 8/3; the FOMC V12 test fired 7/29 — graded, held 5). The next score move
 mutates the THESIS matrix, the STATUS mirror, the histogram, the Overall line and the
 BOTTOM LINE at once. A score check has to exist *before* that, not after.
 

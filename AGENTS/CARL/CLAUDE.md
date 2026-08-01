@@ -146,10 +146,10 @@ Finding bigger than SCRATCH → route by type: **thesis-level** (mechanism/thres
 
 **Canonical sources** (own the truth; STATUS/ROADMAP/SCRATCH reference, never restate): `thesis/THESIS.md` (thesis/vectors/matrix/score/exit rules) · `thesis/PREDICTIONS.tsv` (prediction ledger) · `docket/CATALYSTS.tsv` (forward catalysts) · `workbook/*.tsv` (KB facts / VX levels / FLOW mechanics; narrative → STATUS or `domain/sources/`).
 
-**Mirror pairs (canonical → mirror; closeout + boot consistency check verifies these agree):**
-- THESIS matrix/score → STATUS matrix section
-- PREDICTIONS.tsv OPEN IDs → STATUS PREDICTIONS table
-- CATALYSTS.tsv → CALENDAR.md (event set)
+**Mirror pairs (canonical → mirror):**
+- THESIS matrix/score → STATUS matrix section *(machine-checked: consistency_check Check B)*
+- PREDICTIONS.tsv OPEN IDs → STATUS PREDICTIONS table *(machine-checked: Check A)*
+- CATALYSTS.tsv → CALENDAR.md (event set) — **HAND-VERIFY ONLY: Check C was evaluated and DECLINED (reasoning in `scripts/CONSISTENCY_CHECK_SPEC.md`); no script checks this pair.** *(Claim corrected 7/31 — PROME audit found the prior wording asserted machine coverage that does not exist.)*
 
 ---
 
