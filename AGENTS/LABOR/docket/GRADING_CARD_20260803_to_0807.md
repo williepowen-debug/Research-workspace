@@ -65,14 +65,37 @@
 
 ⚠️ **The threshold is `≥50.0`, not `>50`.** `<50` is falsified by a **50.0** print. From 49.7 the distance is **0.3**, not the "0.4" my surfaces carried until 7/31.
 
-| Band | Employment | Committed assignment |
-|---|---|---|
-| **A** | **≥50.0** | **LAB-06 ❌ FALSIFIED** — 33-month sub-50 streak ends. Vector 3 → 2. Resolve immediately off this card; **do not** wait for confirmation, the prediction says "<50 through 2026" and one print settles it. Scored **as-made at 80%** per §A convention → Brier **0.64**, the book's second-worst row. *(That is the cost of the label-not-a-reprice failure, and it is owed to the record even though I repriced on 7/31 — the reprice earns process credit, not Brier credit.)* |
-| **B** | 49.5–49.9 | Survives on the letter; **no confidence change** — the hazard that produced the 20% is unchanged. Say so explicitly rather than reading survival as vindication. |
-| **C** | 48.5–49.4 | Pulls back from the line. LAB-06 **20 → 30%**. Vector 3 holds at 3. |
-| **D** | **<48.5** | Freeze re-deepening on the survey layer. LAB-06 **20 → 40%**, vector 3 → 4, and the two upstream leads (German PMI, S&P flash) are then **contradicted** — flag that rather than quietly banking the win. |
+> 🔧 **AMENDED 2026-07-31 ~21:40 ET — PRE-PRINT, before any July data exists.** PROME's Will-directed audit found Band B ("survives → no confidence change") **arithmetically impossible**, and it was right. LAB-06 = P(all 5 draws <50); **surviving July removes a draw**, so the number must rise mechanically. The original bands are preserved struck below — **this is an amendment, not a rewrite**, and it is legitimate only because it is made *before* the print. The original table stands as the record of what I first committed.
+>
+> **Two corrections beyond what the audit asked for.** (1) PROME derived implied July survival as 0.20/0.318 = **63%**, which contradicts my own modal call — that artifact comes from dividing the *posted* 20% by the path. `PREDICTIONS.tsv:7` records the actual model: **P(survive Jul) ≈ 0.50, then 0.68/0.75/0.78/0.80 = 15.9%, posted up to 20%.** The card was internally consistent; Band B's correct value is simply the remaining-path product, **31.8%**. (2) **Fixing B alone would have inverted the card** — B at 32% against C's 30% means a survival *further* from the line scores *lower*. C and D must move too. The audit flagged the discontinuity as evidence B was wrong but did not carry the fix through.
 
-**Modal call, stated for the record:** **B or A, roughly even, A slightly favoured** — the series has run +1.1/month into a 0.3 gap.
+| Band | Employment | Committed assignment (AMENDED) |
+|---|---|---|
+| **A** | **≥50.0** | **LAB-06 ❌ FALSIFIED** — 33-month sub-50 streak ends. Vector 3 → 2. Resolve immediately off this card; **do not** wait for confirmation, the prediction says "<50 through 2026" and one print settles it. **Resolution mechanics UNCHANGED — see the A-note below; softening the branch that costs me is the one edit I must not make.** Scoring: **headline Brier stays as-made 80% → 0.64**, in the mean, unchanged. Secondary diagnostic only: pre-print re-registration at 20% → 0.04, **not** folded into the headline. |
+| **B** | 49.5–49.9 | **Survives. LAB-06 20 → ~32%** = the remaining-path product 0.68×0.75×0.78×0.80. ⚠️ **The rise is ARITHMETIC, not vindication** — a draw was removed, nothing was learned. That is the original band's intent, preserved and now stated correctly. Within-band skew: nearer 49.9 the remaining-draw hazard worsens (mark toward ~28%); nearer 49.5 it eases (~34%). Vector 3 holds at 3. |
+| **C** | 48.5–49.4 | Pulls back from the line — a draw removed **and** the hazard genuinely eased. **LAB-06 20 → ~41%** *(was 30% — raised to preserve monotonicity against the corrected B)*. Vector 3 holds at 3. |
+| **D** | **<48.5** | Freeze re-deepening on the survey layer. **LAB-06 20 → ~55%** *(was 40%)*, vector 3 → 4, and the two upstream leads (German PMI, S&P flash) are then **contradicted** — flag that rather than quietly banking the win. |
+
+**Coherence check (law of total probability, run before committing these):** with P(A)≈0.50 / P(B)≈0.33 / P(C)≈0.13 / P(D)≈0.04, the bands imply `0.33×0.32 + 0.13×0.41 + 0.04×0.55 = 18%` — between the modeled 16% and the posted 20%. **The amended bands reproduce the headline; the originals did not.**
+
+**📌 Where the upstream leads belong (added 7/31 ~22:00, after restoring the German-PMI counter).** German mfg PMI in expansion (~2-mo US lead) and S&P flash July employment turning up **both point toward breach** — *and* both are a genuine counter to the deep-pullback bands. They act on **P(band)**, not on **V(band)**: they are why P(C)≈0.13 and P(D)≈0.04 are small, **not** a reason to mark V(C)/V(D) down. Conditional on actually printing in C or D, those leads have been **contradicted** — which is exactly what band D already instructs me to flag rather than quietly bank. Keeping this distinction straight is what stopped the restored counter from being double-counted into the band values.
+
+**📌 A-note — why Band A's resolution mechanics do NOT change, written down so the question is closed before the print.** "Fix A" could only mean softening it, and there are two candidate softenings, both refused: (i) *wait for a confirming second print* — no; "<50 through 2026" is settled by one print, and a confirmation hedge on the falsifying branch is pure asymmetric self-service (I would never propose the mirror hedge on D); (ii) *guard against ISM revisions* — real in principle (ISM restates SA sub-indexes with its annual seasonal-factor update), but that revision publishes ~Feb 2027, **after** LAB-06's 2026-12-31 due date, so it cannot touch this resolution. Same logic that already froze N=5: publication lag decides membership. Revision exposure is also **symmetric** (a 49.8 could restate to 50.1), so it is a note, not a one-sided hedge.
+
+**📌 Scoring amendment — the one real defect in A.** The original said "scored as-made at 80% **per §A convention**." The convention does not actually reach this case. Its stated rationale is about conceding *after the evidence turned* ("marking your own homework with the answer key visible"), and both precedent rows fit that — LAB-02 walked 65→10 *as it failed*, LAB-17 walked 30→5 *on a counter-print*. **LAB-06's reprice was pre-print and unforced**: no new data, prompted by finding an arithmetic defect, with the answer key not yet in existence. The convention is **silent** on that case, and asserting it as settled is the same documented-but-absent failure that gate #4 hit a week ago. **Resolution — score both, headline the as-made:** Brier **0.64** stays the headline and stays in the mean, because 80% is what LABOR asserted to the fleet for five months and downstream agents could have acted on it. The 20% re-registration is recorded as a *separate labeled diagnostic* (0.04), never folded in. **What makes the diagnostic legitimate rather than an escape hatch is that it is symmetric:** if ISM prints 48.0 and LAB-06 eventually confirms, the same 20% scores **0.64** where the original 80% would have scored 0.04. Committing pre-print cuts both ways; a walk-down does not. **Loophole closed at the same time:** a re-registration counts only if *declared before the print*, with the git commit as receipt — it can never be claimed retroactively. LAB-06 qualifies on the 7/31 commit. → new **§C gate #14**.
+
+**Modal call, stated for the record:** **B or A, roughly even, A slightly favoured** — the series has run +1.1/month into a 0.3 gap. *(Unchanged by the amendment: this is the July-draw call, and no band value feeds it.)*
+
+<details><summary><strong>SUPERSEDED original bands (frozen 7/31 AM, struck 7/31 PM pre-print — kept per "never improvise a grade after the fact")</strong></summary>
+
+| Band | Employment | Original committed assignment |
+|---|---|---|
+| **A** | **≥50.0** | ~~LAB-06 ❌ FALSIFIED … Scored **as-made at 80%** per §A convention → Brier **0.64** … the reprice earns process credit, not Brier credit.~~ *(resolution mechanics survive; the "per §A convention" claim was overstated)* |
+| **B** | 49.5–49.9 | ~~Survives on the letter; **no confidence change** — the hazard that produced the 20% is unchanged.~~ **← the defect: conflates per-draw hazard with survival probability** |
+| **C** | 48.5–49.4 | ~~LAB-06 **20 → 30%**~~ |
+| **D** | **<48.5** | ~~LAB-06 **20 → 40%**~~ |
+
+</details>
 
 ### 2b. JOLTS June (~Tue Aug 4) — freeze leg 3, and the bear leg nobody watches
 

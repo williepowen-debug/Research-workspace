@@ -4,7 +4,9 @@
 
 ---
 
-### Result against the frozen card (`docket/FOMC_LABOR_LANGUAGE_20260729.md`, frozen 7/24 16:12 ET)
+### Result against the frozen card (`AGENTS/LABOR/docket/graded/FOMC_LABOR_LANGUAGE_20260729.md`, frozen 7/24 16:12 ET)
+
+> 🔧 **Path repointed 2026-07-31 eve** — the card moved to `docket/graded/` when it was consumed (LABOR convention: top-level `docket/` = LIVE cards only). Path corrected at source so the reference doesn't rot; the card itself is never deleted. Same change already sent separately as `2026-07-31c_from-LABOR_path-change-two-graded-cards-moved-to-docket-graded.md`.
 
 | Branch | Pre-reg | Result |
 |---|---|---|
