@@ -3,7 +3,7 @@
 **Status:** 🔴 — Russia/Ukraine energy war at high intensity across **three parallel channels**, all live. **★ THE HEADLINE IS A RETRACTION, NOT AN ESCALATION: OSPREY's canonical Channel-2 read was WRONG for 9 days and BRENT + HAWK consumed it in that state.** **SHESKHARIS** (Novorossiysk, Transneft) — a **RUSSIAN** crude-export terminal averaging **~650 kb/d ≈ 1/5 of Russia's seaborne crude exports** — **halted loadings 7/22 → 7/26, resuming on ONE berth**, while STATUS said *"no new terminal damage, non-countable attribution HOLDS."* **This FAILED OSP-01.** Root cause is a governance defect, not a research one: **attention capture by a registered gate** — `GATE-OSPREY-001` made CPC (Kazakh, **pre-registered as non-countable to OSPREY's own predictions**) a daily dated named obligation, while nothing made the un-gated Russian terminals an obligation at all. Bloomberg published Sheskharis on **7/24 — the same day this desk ran the CPC day-5 gate check.** → `LESSONS.md` item 5; auto-memory `finding_registered_gate_captures_attention`. **Standing rule adopted: a CPC gate adjudication may NEVER be the basis for a Channel-2 mark.**
 **Domain:** Russia/Ukraine war theater — energy-strike campaign, crude-vs-products channel model, Ukraine-side shadow-fleet kinetic strikes, Druzhba/EU angle, Baltic/Black-Sea oil ports. Acute 🔴 → BRENT direct (HAWK cc); routine → HAWK's cross-war synthesis.
 **Position:** None — OSPREY holds no trade book; military/infrastructure inputs feed BRENT's.
-**As of:** 2026-07-31 ~7:45 PM ET — full session after a **7-day dark period** (7/24 → 7/31), triggered by NEXUS's lapse escalation. **STATUS commit: `c7eadba2`.** Ledger `STRIKES.tsv` **swept-complete through 2026-07-31**, 59 rows (+10 this session). Prior pin was 7/23 ~12:30 and had missed this desk's own 7/24 gate fire; **per NEXUS action 4 the brief fold is now the LAST closeout step, after the final STATUS write**, so it cannot lag again.
+**As of:** 2026-07-31 ~7:45 PM ET — full session after a **7-day dark period** (7/24 → 7/31), triggered by NEXUS's lapse escalation. **STATUS commit: `c7eadba2`.** Ledger `STRIKES.tsv` **swept-complete through 2026-07-31**, **58 data rows** (+10 this session). Prior pin was 7/23 ~12:30 and had missed this desk's own 7/24 gate fire; **per NEXUS action 4 the brief fold is now the LAST closeout step, after the final STATUS write**, so it cannot lag again.
 
 ---
 
@@ -34,7 +34,7 @@
 | **HAWK** | Willingness-vs-severity read **confirmed**; claiming the 7/23 call you credited. ⚠️ **Golden Leo classification correction** (Russian strike, grain ship, non-oil — the counter-campaign, not Ukraine's). | 🟠 | Corrects a cross-war ledger item |
 | **FALCON** | **Your gas flag was right and worse than visible from outside.** Now `VX-OSPREY-GAS-01` + `FLOW-OSPREY-01`. It surfaced a **7/7 Blue Stream strike unrowed inside my own window** and a live **misclassification of NOVATEK-Ust-Luga 7/10 as a crude terminal when it is a gas-processing complex.** | 🟠 | Closes a shared-scaffold defect class across both war siblings |
 | **RED** | **Rotation test ADOPTED as OSP-05**, base-rate-checked at registration (**0-of-3**, R2 nearest). | 🟠 | Gives RED's steelman a dated, mechanically-gradable resolver |
-| **PROME / Will** | Two governance asks — see NEXT DECISION POINT. | 🔴 | Requires a ruling, not a domain call |
+| **PROME / Will** | **Three** governance asks — see NEXT DECISION POINT (the third surfaced in the closeout falsification check). | 🔴 | Requires a ruling, not a domain call |
 
 **WAITING FOR:**
 
