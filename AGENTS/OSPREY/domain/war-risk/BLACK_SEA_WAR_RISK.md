@@ -1,3 +1,9 @@
+> ## ⚠️ RATES ARE NO LONGER CANONICAL HERE — `workbook/WARRISK.tsv` IS (2026-07-31)
+> **This file is a .md, so NO script grades it** — `ledger_staleness.py` globs `workbook/*.tsv` only. That is why the 7/21 rate sat here for 10 days with nothing but a sibling's cross-theater bar to flag it. The **rate ledger, source set, and staleness clocks moved to `AGENTS/OSPREY/workbook/WARRISK.tsv`**, which is auto-graded at boot (step 5a-2, `--days 7`).
+> **What stays here:** the narrative logs below — insurer withdrawals/restrictions and owner-willingness signals — plus the historical rate rows B-01..B-05 **as a frozen record of how this surface was maintained before 7/31.**
+> **Do not add new rate rows to this file.** Add them to the TSV. ⚠️ If the two ever disagree, **the TSV wins.**
+> **Also corrected 7/31:** the "may be structurally unobservable" read stated earlier that day was **wrong** — it came from a ONE-outlet search set. Black Sea AWRP is *event-driven* observable (prints on step-changes), the source set is **8 outlets**, and there is a **daily continuous proxy** (Baltic **TD6 = 135,000mt CPC→Augusta**, the exact route under attack). Full reasoning in the TSV header.
+
 # Black Sea War-Risk Rate Series — Named Watch Surface
 **Owner:** OSPREY · **Created:** 2026-07-22 (Will-directed via PROME, `inbox/2026-07-22_from-PROME_war-risk-watch-assignment.md`; Will on record 7/21 late — "ASSIGN the watch", BRENT gap-sweep note)
 **Scope:** Black Sea marine war-risk rate prints, insurer withdrawals/restrictions for Black Sea/CPC-relevant hulls, owner-willingness signals. **Watch only — no thresholds, no capital path** unless proposed and Will-gated later.
