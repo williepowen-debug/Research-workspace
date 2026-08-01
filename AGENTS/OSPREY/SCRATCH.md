@@ -25,7 +25,8 @@ Channels: refineries/products **4 🔴** (band re-derived ~30%, 25-35%) · crude
 - **Re-derived the canonical refining band** (~30%, 25-35%) — same numbers, stronger basis: runs 3.91 M bpd (lowest since Mar 2005) + IEA >20% floor + FT 20-40% envelope. Proxy caveat attached.
 - **Closed three externally-flagged structural gaps:** gas/LNG (`VX-OSPREY-GAS-01` + `FLOW-OSPREY-01`), vol/credit (`FLOW-OSPREY-02`, open since spinout), VX staleness (19d).
 - **Cleared the whole mail backlog:** 7 root packets + 17 WALTER signals → `board_log.tsv` + `git mv` to processed.
-- Packets out: 🔴 BRENT (retraction), 🔴 CARL (re-dated route-out), PROME (session report + 2 Will asks).
+- Packets out: 🔴 BRENT (retraction), 🔴 CARL (re-dated route-out), 🟡 WALTER (consumer_check refresh), PROME (session report — ⚠️ **amended post-write: its war-risk ask was WITHDRAWN and fixed in-session**).
+- **Rebuilt the war-risk surface** after Will asked me to look into it: the escalation was wrong, the instrument was under-sourced. See OPEN THREADS.
 
 ## NEXT SESSION (dated, future-verifiable)
 1. **★ Did the CPC 7/30 halt persist?** If it runs to **~2026-08-13** it fires **OSP-05's R2 leg** (sustained >2wk interdiction) — the nearest-to-firing rotation signal. **This is the single highest-value check next session.**
@@ -38,7 +39,7 @@ Channels: refineries/products **4 🔴** (band re-derived ~30%, 25-35%) · crude
 
 ## OPEN THREADS / WATCHES
 - 🔴 **CPC halted since 7/30, unresumed** — watch resumption AND the ~8/13 R2 date.
-- 🔴 **Black Sea war-risk: no print since 7/21, 10-day bar BREACHED.** Escalated to Will/PROME — the surface may be structurally unobservable at this cadence. **Never report "unobserved" to BRENT as "unchanged."**
+- 🟠 **Black Sea war-risk: no print since 7/21, 10-day bar BREACHED — but the surface is FIXED, not escalated.** ⚠️ **I retracted my own "may be structurally unobservable" read the same session:** it came from a ONE-outlet search set, not a market limit. AWRP is **event-driven observable** (prints on step-changes). Now `workbook/WARRISK.tsv` (auto-graded, two-clock header) + boot step 5a-2 at `--days 7` + source set 1→8 + Baltic **TD6** (135kt CPC→Augusta) as a daily continuous tripwire. **The no-print finding SURVIVED re-testing against 8 outlets — it got stronger. Still: never report "unobserved" to BRENT as "unchanged."**
 - 🟠 **Thesis-kill `:153` is decorative** (DAEDALUS was right — no 60-day all-quiet window has ever existed). Fix proposed, **Will-gated, NOT self-applied** — re-scoping my own kill to be easier to satisfy is exactly the move that shouldn't be self-approved.
 - 🟠 GATE-OSPREY-001 stays FIRED (a fired gate does not un-fire). Legs (a) SPM damage and (c) Tengiz FM still unfired.
 - 🟡 Backlog: EU/Druzhba still thin (2026 Druzhba dispute + Slovak-Ukraine oil dispute now visible); strike-feed automation still unbuilt — the 7-day dark period is exactly what it would cover.
@@ -60,7 +61,8 @@ This is the `finding_threshold_spec_fails_before_world` class: the threshold fai
 
 ## PREDICTIONS DUE / DECISIONS PENDING
 - **None due.** OSP-01/02/03 all resolved this session; OSP-04 (8/31) and OSP-05 (8/24) are the only live rows.
-- **Pending Will:** (a) war-risk surface — source upgrade or written scope limit; (b) thesis-kill `:153` re-scope.
+- **Pending Will (2, was 3):** (a) thesis-kill `:153` re-scope; (b) `EXIT RULES §3` missing attribution clause. ⚠️ **Both are falsifier changes that would make my own thesis HARDER to kill — that is precisely why neither is self-applied.**
+- **WITHDRAWN — war-risk surface.** I escalated it as "may be structurally unobservable, needs a source upgrade or a scope limit." **That was wrong: it was a one-outlet search set, not a market limit.** Fixed in-session instead — `workbook/WARRISK.tsv` (auto-graded, two-clock header), boot step 5a-2 at `--days 7`, source set 1→8, and Baltic **TD6** (135kt CPC→Augusta) registered as a daily continuous proxy. **Instrumentation, not a falsifier — so self-applying was appropriate here and is NOT precedent for (a) or (b).**
 
 ## MAIL STATE (one line per surface)
 - Inbox (root): **EMPTY** — 7 packets processed → `inbox/processed/` (11 total).
