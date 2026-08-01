@@ -28,6 +28,15 @@
 4. **Parcl −1.7% YoY vs Case-Shiller +1.1%** — sign disagreement, still a cross-check flag only. **Now with company: Reventure is the same class** (proprietary, real-time, runs more bearish than traditional series). Worth treating as a *category* rather than two one-offs.
 5. **Unresolved, not load-bearing:** a fetch of the **CalculatedRisk homepage** returned **January-2026** posts ending *"This is the End and a New Beginning"* (Jan 12) — inconsistent with the morning session's read of CR posts dated 7/28–7/31. Not chased; the issuer page supersedes the mirror. **Do not re-establish CR as the FMHPI resolver source without settling this.**
 
+## SENT THIS SESSION (all committed — `outbox/` is EMPTY, which is the point)
+
+- **PROME** — audit items 1-6 ack + 🔴 the "−9.9%" kill-reason correction (HEARTBEAT amend asked).
+- **PROME** — the **7-day-orphaned lane-query packet**, first delivery, verbatim + dated note.
+- **CREED** — Freddie basis-label correction, both legs primary, the "unprotected leg" retraction.
+- **CORAL** — FL-condo packet amended in place ×2 (false cc-line; the −9.9% reason) + **NEW: the FL rank-vs-level correction.**
+- **MARCO** — the FL rank-vs-level correction (FL demand/migration domain; a below-2019 foreclosure level is weak support for an outflow story).
+- **CARL** — via `NEXUS_BRIEF` routine sync (no separate packet claimed, and none implied).
+
 ## NEXT SESSION
 
 1. **★ FMHPI June print — FIRST ACTION, Mon 8/3.** Use `curl` + UA on freddiemac.com (WebFetch 403s). **Year-verify before grading.** Sheet: `reports/2026-07-24_HOM-01-grading-sheet.md`.
