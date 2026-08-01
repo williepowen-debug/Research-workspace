@@ -43,6 +43,6 @@
 - **HOM-01 OPEN** — Leg-1 resolver still unreleased (primary-confirmed). Triggers unchanged.
 - **HOM-02 OPEN** — first resolver MBA Q2 NDS ~mid-Aug (low-probability early confirm). HUD ML 2026-08 (mandatory 9/21) remains a **measurement risk** to its numerator.
 - **CRL-23** — open at CARL; sector direction now compression-universal, which raises the prior; triggers unchanged. Next checkpoints PHM Q3 ~Oct / DHI FQ4 ~Nov.
-- **PROME lane-query memo** — still unconsumed since 7/24.
+- **PROME lane-query memo — ★ RESOLVED 7/31 eve, and it was MY failure, not PROME's silence.** It was never delivered: written to my own `outbox/` on 7/24, zero hits under `AGENTS/PROME/`. **Delivered tonight** verbatim + a dated first-delivery note. **Second false-delivery of the day, seven days apart** → `LESSONS.md` now carries the structural rule: **`outbox/` is a drafts folder, the recipient's `inbox/` is the wire, and `orphan_check.sh` is structurally blind to this** (the file is inside my own dir, correctly committed, correctly silent). **Treat a non-empty `outbox/` as a queue to drain.**
 - **STUE/CARL may ask for the HUD Neighborhood Watch geographic cut** (FHA-isolation test, DEWEY-scoped). I hold housing scope — **coordinate, don't duplicate.** Not yet asked.
 - **Note for PROME (not mine to commit):** uncommitted work sat in `AGENTS/CARL/scripts/data/` (×2) and an untracked MARCO baseline at boot — **I did not pull**, per root protocol. Flagged, not swept. Still outstanding at closeout.
