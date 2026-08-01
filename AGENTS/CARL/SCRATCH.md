@@ -51,6 +51,7 @@
 
 ### BACKLOG
 7. Fix B (consistency_check sub-agent coverage — option 2 leading) · CPI component-vol REBUILD from BLS (SIG-725-016 — cite nothing until rebuilt) · Part D lead verify (DOC/POLLY) · AMCAR Apr-vs-Jun cert pull + abs_monitor GMCAR label fix · Brier re-run at N≈20 · container-freight AEOLUS reconcile (KB-344).
+8. **DEWEY commissions OUT (Will-approved 7/31 eve, ROADMAP thread):** CARL-DR-1 recognition-artifact census ~8/18 · CARL-DR-2 charged-off-borrower destination ~8/25 · CARL-DR-3 AZO/ORLY cross-section ~8/28. Queued behind WALTER's six, one per DEWEY session. On delivery: honor the pre-registered KILL conditions as prominently as confirms; DR-1 must not touch the frozen HHDC card.
 
 ---
 
