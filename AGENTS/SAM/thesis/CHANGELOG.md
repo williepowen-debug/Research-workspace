@@ -8,6 +8,24 @@ Tracks all changes to THESIS.md and TIMELINE.md. Reverse chronological. Each ent
 
 ---
 
+## 2026-08-02 (Sat, PROXY RUN) — v1.6.10 → **v1.6.11** [MINOR, pre-registered flip-condition fired — GATE-SAM-30 re-fire adjudicated VALID; convexity-tail MEDIUM → MED-HIGH, provisional on the 8/7 attribution print]
+
+**Author:** SAM-proxy (phone-session spawn, PROME-directed, Will in-session; real-SAM integrates at next boot). Markets closed (Sat); no live marks set — all levels carry observation dates.
+
+**1. 🔴 The re-fire is VALID, verified at primary.** Own pull 8/2 of `cftc.gov/dea/newcot/deafut.txt` (vintage 260728): legacy noncommercial JPY net = 101,271L − 264,683S = **−163,412 = 90.8% of the −180K Jul-2024 peak**, through the registered >−153K/85% re-fire bar by 10,412; WoW −152,125 → −163,412 = **−11,287 REBUILD** (shorts +4,968 / longs −6,319; OI 432,366 +8,570) — episode-deepest net, shorts expanding into the pre-spike week. Reproduces PROME's fire-packet measurement and NEXUS's independent pull exactly. NEXUS's flagged "84.5% covered" tension dissolved: same series, verb error — a rebuild TO 84.5% of peak (Jul-21 data), not a cover.
+
+**2. Old view → new view.** OLD (v1.6.10): convexity-tail MEDIUM; amplifier +5pp; buckets 5/19/29; entry gate shut. NEW (v1.6.11): **the registered flip-condition ("a future CFTC print builds through −153K/85%") fired → convexity-tail MED-HIGH, amplifier +8-10pp, buckets ~8/23/32** (single-anchor mechanical step, v1.6.4 class; 7d additionally carries the live post-op tape). Net EV reclaims ~+1.3% per the registered RED-#1 flip-up math — **with the written caveat that the math equates measured fuel (7/28-vintage) with current fuel, and the 7/30 suspected ¥8.45T op + 7/31 hawkish hold landed AFTER measurement on a max-short crowd.** Named reversion paths: SAM-22 (intervention → mass cover) and the 7/10 precedent (only prior fire of this gate, reversed <12h by the next print). **The 8/7 print (Aug-4 data) is the built-in resolver.**
+
+**3. MOF #3 route: DECAYING → PARTIALLY-FIRED/LIVE, and the reclaim base rate broke.** Attribution strengthened beyond the fire packet: Reuters source-confirmed 7/30 NY-session yen-buying op (+Nikkei); Bloomberg ~¥8.45T ($52.8B, ~1.5× the biggest prior single-day, ~72% of the whole Apr-May round) estimated from the BOJ's own Fri projection (~¥8.2T fiscal-factor decline vs broker-forecast increase; T+2 settle Mon 8/3; primary checkable ~8/4). NOT MOF-official; hard confirm ~8/31. **WALTER SIG-004 consumed + independently verified: USD/JPY closed 157.3950 Fri 7/31 [investing.com] — BELOW the 157.92 op-day low → the first op of the cycle whose yen gains EXTENDED day+1; the registered n=2 "same-day reclaim then erode" base rate is broken** (op-history tables amended in STATUS + MOF_INTERVENTION_PLAYBOOK). Confound honestly carried: the hawkish hold + Ueda's September naming are live competing causes for Friday's extension; n=2 sessions ≠ durable.
+
+**4. Composition (the frame's first two-legged evidence).** Fuel at episode-max (measured 7/28) AND two tail-routes partially fired (MOF #3 live; BOJ-hawkish telegraph: Oct OIS ~64%, Sep ~23%, Sep 17-18 MPM ON the inclusive window boundary at ~77% unpriced). Prior fires were fuel-only. This is why MED-HIGH is honest despite the vintage caveat — and why the caveat is written on the mark rather than used to dodge the registered consequence.
+
+**5. Entry recommendation (Will's decision, PROME routes):** WAIT-FOR-8/7 default + TERRY re-mark of TRY-FIRE-005 NOW (Aug-21 tenor excludes the Sep 17-18 MPM — must roll to span Sep-18) + pre-registered 8/7 resolver (≤−153K held = CONFIRM/enter · −140..−153K = NOT-CONFIRMED w/ leg decomposition, longs-up = SAM-31 candidate · past −140K = DE-LOAD repeats, revert MEDIUM) + early-entry override (fresh ≥2%/day disorderly move / confirmed op #2 / haven re-couple). Full terms → `outbox/2026-08-02_to-PROME_sam30-refire-adjudication.md` §5. FLAT stands; nothing executed (root rules #4/#5).
+
+**Unchanged:** Sep-18 window (LOCKED, inclusive) · leg-1 cover line −108K (now 55,412 away) · SAM-28/29/31/33 terms · Channel structure · scoreboard 14/12/1/4.
+
+---
+
 ## 2026-07-31 (2nd entry, ~9:15 AM ET) — v1.6.9 → **v1.6.10** [MINOR, pre-registered trigger fired — FULL-C closure + carry-bucket re-mark on the Ueda presser Oct/Sep telegraph; MOF monthly ¥0 hard-confirms the 7/2 no-strike]
 
 **Author:** SAM (same Will-launched session, morning-after sweep). **Live marks (~9 AM ET):** USD/JPY **160.35** · EUR/JPY 184.21 · Brent $90.22 — the 7/30 spike holding roughly half its ground.

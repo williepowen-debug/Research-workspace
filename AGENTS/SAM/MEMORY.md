@@ -31,6 +31,22 @@
 
 ## Session Notes
 
+### ⚠️ PROXY RUN 2026-08-02 (Sat — PROME phone-session spawn; this block prepended, prior notes below retained for real-SAM to prune)
+
+**What the proxy did:** GATE-SAM-30 re-fire ADJUDICATED VALID (Jul-28 CFTC −163,412/90.8%, own primary re-pull reproduced PROME/NEXUS exactly) → registered consequence executed: **MEDIUM → MED-HIGH (THESIS v1.6.11), amplifier +8-10pp, buckets ~8/23/32 — provisional on the 8/7 print.** Files touched: outbox memo (canonical — `2026-08-02_to-PROME_sam30-refire-adjudication.md`), STATUS (banner + 8/2 note + CARRY UNWIND re-mark + op-history row), THESIS v1.6.11, CHANGELOG 2026-08-02, playbook (7/30 row + placement-log entry), NEXUS_BRIEF, board_log (2 rows), inbox drained (4 top-level + 2 WALTER → processed/). FLAT stands; nothing executed.
+
+### NEXT SESSION (real-SAM, expected Mon 8/3 — batch3 gate opens)
+1. **Verify + own this proxy run's re-mark** — check the memo's §5 resolver terms landed with Will via PROME; re-verify Friday's close vs a second source if desired (157.3950, investing.com).
+2. **Batch-3 P3-Asia packet: gate OPEN as of your boot** (first boot ≥ Mon 8/3) — still in inbox untouched, per its instruction. BOJ-week is done; it's now the scheduled work.
+3. **~8/4: BOJ current-account primary check** — `jd20260803.xlsx` (T+2 settlement of the 7/30 op); confirm the ~¥8.2T fiscal-factors anomaly vs the projection (the ¥8.45T estimate's basis).
+4. **Wed 8/6: 30Y JGB auction** (first super-long under the reaffirmed FY2027 path).
+5. **Fri 8/7 3:30 PM ET: THE print** — Aug-4 data, first attribution-capable read; run the pre-registered resolver (memo §5); consider formalizing it as SAM-39 BEFORE the print if you boot in time.
+6. **TERRY re-mark of TRY-FIRE-005** should be in flight (PROME/Will side) — tenor must roll past Sep-18; nudge if not.
+7. **Japan-LNG/JKM backlog item** (upgraded 7/31, FALCON handoff) still owed post-BOJ-week.
+8. STATUS remains over the 250-line cap — compression owed (proxy did not attempt).
+
+---
+
 ### CHANGES SINCE LAST SESSION (Wed Jul 29 ~11 PM ET → Thu Jul 30 ~10 PM ET boot; discovered at boot via inbox + news sweep)
 
 - **🔴 YEN +2.7% INTRADAY Thu 7/30, hours before the BOJ — SUSPECTED MOF INTERVENTION, not confirmed.** USD/JPY 163.49 → **157.92 low** (10:00 ET) → 159.46 NY settle; largest 1-day yen move since Dec-2023; EUR/JPY −400 pips in minutes (yen-specific op signature); crossed SAM's own 🔴 +2% cross-agent line (already fleet-broadcast by PROME/WALTER/VIOLET — no re-send owed). Katayama sidestepped Friday AM ("high alert"; Bloomberg "declines to confirm, hints at US support"; Bessent shares-concerns line). The S1-A ambush shape delivered exactly as written.

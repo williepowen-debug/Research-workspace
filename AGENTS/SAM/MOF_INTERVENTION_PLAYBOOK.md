@@ -26,6 +26,7 @@ The MOF/FX-diplomat verbal sequence is a graduated ladder; each tier raises the 
 | Apr 30 | ~¥5.48T ($35B) | 160.70 → 155.55 | Same-day reclaim (~5 yen) |
 | May 6 (Golden Week) | ~¥4.3T ($28B) | 157.89 → 155.05 | Same-day reclaim (~3 yen) |
 | **MOF official aggregate (Apr 28–May 27)** | **¥11,734.9B (~$73B)** | — | Largest round since 2022. No #3 strike since. |
+| **Jul 30** | **~¥8.45T (~$52.8B) — ESTIMATE, not MOF-official** (Bloomberg 7/31 off BOJ projection gap; Reuters source-confirmed NY op; ~1.5× biggest prior single-day; hard confirm ~8/31) | 163.49 → 157.92 low → 159.46 NY settle; **day+1 close 157.3950 < op-day low** | **Gains EXTENDED day+1 — FIRST of cycle; the n=2 same-day-reclaim-then-erode pattern is BROKEN.** Confound: 7/31 hawkish hold + Ueda Sep telegraph. Ambush regime delivered exactly per S1-A (zero lead-in) |
 
 Record weakest 161.96 (pre-1986 comparison). → A **3rd strike most likely lands in the 162–163 zone.** USD/JPY 165 reached *without* a strike = either near-certain imminent action OR MOF capitulation (stepped aside).
 
@@ -82,6 +83,13 @@ The base-case opposite-sign relationship (higher-for-longer = carry MORE on, but
 ---
 
 ## LIVE PLACEMENT LOG (most-recent first)
+
+### 2026-08-02 (PROXY RUN) — 7/30 CANDIDATE STRIKE: **SUSPECTED-STRONG (not MOF-official)**; the S1-A manual semi-confirm ran ON THE WIRES exactly as scoped; reclaim base rate BROKEN
+
+- **Evidence stack (8/2 verification):** (1) Reuters 7/30 "source says" — yen-buying/dollar-selling **in New York** Thursday, first in ~3 months; Nikkei reported same day. (2) Bloomberg 7/31: **~¥8.45T ($52.8B)** estimated from BOJ accounts vs money-broker forecasts — "likely the biggest ever single-day intervention by Tokyo." (3) The estimate's basis is precisely the §S1-A semi-confirm this playbook scoped as manual-only: T+2 settlement lands in the **Mon 8/3** current account; the BOJ's Friday projection showed a **~¥8.2T fiscal-factors decline vs broker forecasts of an increase** — the wires carried the Tanshi-gap commentary, as the 7/11 NOT-BUILD note predicted they would. Primary spot-check available ~8/4: `boj.or.jp/en/statistics/boj/fm/juq/d_release/jd/2026/jd20260803.xlsx`. (4) Tape signature (7/30, logged at grade): −2.48% intraday, EUR/JPY −400 pips in minutes = yen-specific; largest 1-day yen move since Dec-2023.
+- **Not confirmed:** MOF-official size/date = ~Aug-31 monthly. Do not launder "suspected-strong" into "confirmed."
+- **Outcome-table consequence (WALTER SIG-004, verified vs investing.com):** day+1 close **157.3950 < 157.92 op-day low** → gains EXTENDED, first of cycle — the strike-history table's n=2 "same-day reclaim (then erode over weeks)" default no longer covers this class. Confound: the 7/31 hawkish hold + Ueda September telegraph landed in between; attribution of the extension is mixed by construction. Two sessions ≠ durable — re-grade after the 8/7 COT print + next week's tape.
+- **Read-through:** MOF #3 route = PARTIALLY-FIRED/LIVE; the FXY-stub "pop" scenario (§3) partially printed on a flat book (FXY +2.49% on 7/30). Deploy-on-follow-through discipline unchanged.
 
 ### 2026-07-02 — CANDIDATE STRIKE ADJUDICATED: **NO STRIKE** (first live use of the playbook); AMBUSH regime logged (S1-A)
 
