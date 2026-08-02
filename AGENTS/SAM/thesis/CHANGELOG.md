@@ -8,6 +8,27 @@ Tracks all changes to THESIS.md and TIMELINE.md. Reverse chronological. Each ent
 
 ---
 
+## 2026-08-02 (Sun, REAL BOOT) — **v1.6.11 STANDS, no version bump** [proxy re-mark verified + owned; MOF op-history table AMENDED with a candidate second op]
+
+**Author:** SAM (real boot, Will-directed). Supersedes nothing in the proxy entry below — it verifies it and adds two observations the proxy could not have made. Markets: FX week reopening; all levels are Fri 7/31 closes or stamped publication vintages. **FLAT stands; nothing executed.**
+
+**1. Proxy re-mark VERIFIED at primary and OWNED — no version change.** Own `deafut.txt` pull (vintage 260728): 101,271L − 264,683S = **−163,412**, OI 432,366, WoW longs −6,319 / shorts +4,968 — reproduces the proxy, PROME and NEXUS **to the contract**. MED-HIGH / amplifier +8-10pp / buckets ~8/23/32 stand as written. Will's disposition (WAIT-FOR-8/7 + TERRY re-mark Mon 8/3) confirmed landed via PROME `6c1d17bed`. No analytical view moved, so **no bump** — this is a verification entry.
+
+**2. 🟠 MOF op-history table AMENDED — a CANDIDATE second op is now on the record (Jul 31, 16:00-17:00 ET).** Old view: one op this round (7/30), with Friday's close read as a single number (157.3950). **New view: the Friday close was *made* in a yen-specific slide in the final hour of the FX week, and that slide is itself a candidate op.** Between 16:00 and 16:57 ET, USD/JPY 159.18 → 157.15 (−1.28%) while EUR/JPY (−1.33%), GBP/JPY (−1.32%) and AUD/JPY (−1.50%) fell in lockstep and **EUR/USD and GBP/USD did not move at all** — a pure yen-side move, the 7/30 signature, in the week's thinnest liquidity window and in the **NY session**, the same venue Reuters source-confirmed for 7/30.
+   - **Held at CANDIDATE, not booked as an op.** The shape is the weak leg: a ~35-minute progressive slide, not 7/30's ballistic candle. Month-end real-money and a stop cascade into the weekly close are live competing causes. Single-witness on shape → treated as a lead, per [[feedback_single_source_liveevent_is_a_lead]].
+   - **Discriminators registered:** BOJ current-account T+2 → `jd20260804.xlsx` (~8/5), same Tanshi-gap method as the 7/30 semi-confirm; and **both 7/30 and 7/31 fall inside the same MOF monthly window (Jul-30→Aug-27, releases ~Aug-31)**, so one print adjudicates both.
+   - **Why it matters to the live decision:** "a **confirmed** second op of the round" is a pre-registered EARLY-ENTRY OVERRIDE (outbox memo §5C). **It has NOT fired.** But Will's Saturday WAIT-FOR-8/7 disposition was taken without this datapoint on the table, so it is flagged rather than filed.
+
+**3. The "gains EXTENDED day+1" finding strengthens.** Old view (proxy): Friday closed *below* the 157.92 op-day low, breaking the n=2 same-day-reclaim-then-erode base rate. **New view: the yen made new lows of the entire move at the week's close** (157.151 on 7/31 < 157.923 on 7/30), into a weekend. Strictly stronger than "did not give the gains back." Confound unchanged and load-bearing: the hawkish hold + Ueda's September telegraph are live competing causes, and n=2 sessions is not durability.
+
+**4. 🔴 SAM's own intervention detector was blind to 7/30 — now fixed, and it independently corroborates the op.** A timezone bug in `usdjpy.py` had been storing partial daily bars (10 of the last 60 sessions, all under-stating range); **7/30 was stored as a 0.33y day against a true 5.74y range**, so the intraday-range alert reported "normal daily range" on the largest yen move since Dec-2023. Post-fix it grades **INTERVENTION-GRADE (5.74y)** — against Apr-30-2026's 5.15y, a *confirmed* ¥5.48T op. **Analytical consequence: the 7/30 attribution no longer rests solely on wire reporting plus the BOJ projection gap — SAM's own instrument now scores it at intervention grade.** This does not make it MOF-official (hard confirm ~8/31 unchanged), but it removes a single-source dependency from the evidence stack. Full root cause + fix → `MAINTENANCE.md` 2026-08-02.
+
+**5. Context consumed, no re-mark.** WALTER SIG-W-20260802-001: Trump **ordered then cancelled** strikes on Iranian energy sites on claimed deal parameters; daily exchange **PAUSED** (3rd of the cycle; the 7/24 pause broke in 4 days); Tehran unconfirmed; Kpler Hormuz transits 22 → 5. PROME 8/2: Qatari LNG carrier GasLog Shanghai struck **in Hormuz 8/1**. **SAM read: a genuine de-escalation unwinds oil-side Phase-1 yen pressure — yen-POSITIVE via the oil channel, not the Phase-2 haven bid the carry route needs.** No bucket change: unconfirmed, and Phase-1 relief is not a convexity trigger. Brent $90.12, sitting on the "headwind resolved" line.
+
+**Files:** `STATUS.md` (rewritten + compressed 409 → 179) · `thesis/BOJ_2026-07-31_PREREGISTRATION.md` (new, verbatim archive) · `scripts/usdjpy.py` + `workbook/USDJPY.tsv` (fix + repair, `34069b8c0`) · `MAINTENANCE.md` · this entry.
+
+---
+
 ## 2026-08-02 (Sat, PROXY RUN) — v1.6.10 → **v1.6.11** [MINOR, pre-registered flip-condition fired — GATE-SAM-30 re-fire adjudicated VALID; convexity-tail MEDIUM → MED-HIGH, provisional on the 8/7 attribution print]
 
 **Author:** SAM-proxy (phone-session spawn, PROME-directed, Will in-session; real-SAM integrates at next boot). Markets closed (Sat); no live marks set — all levels carry observation dates.

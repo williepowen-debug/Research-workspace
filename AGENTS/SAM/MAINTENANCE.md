@@ -8,6 +8,20 @@ Distinct from `thesis/CHANGELOG.md`, which logs **analytical** changes (thesis-v
 
 ---
 
+## 2026-08-02 — `usdjpy.py` timezone bug fixed (silent false-negative in the disorder detector) · STATUS compressed 409 → 179 · BOJ pre-registration archived
+
+**Trigger:** SAM real boot 8/2 (Will-directed). Boot output showed the threshold monitor and the USDJPY history module disagreeing on the level (157.22 vs 160.71) — chased to a data-integrity bug, then the owed compression pass ran.
+
+1. **`scripts/usdjpy.py` — `merge_and_write()` skip-guard fixed (BUG, high severity).** `today_str` came from `datetime.now()` (local/Eastern) but yfinance labels `USDJPY=X` bars in **Europe/London**. Any boot run after ~19:00 ET therefore saw the next London-day's few-hours-old **partial** bar as "not today" and appended it as final; the idempotent-by-date append then made it permanent, so it never self-corrected. **10 of the last 60 sessions were truncated, every one under-stating the daily range.** Worst: **2026-07-30 stored as a 0.33y range; true range 5.74y** — the intraday-range alert (SAM's independent MOF-disorder detector, CRIT 4.0y) reported *"normal daily range"* on the largest yen move since Dec-2023 and the suspected ~¥8.45T op. Fix: derive "today" in `df.index.tz`; skip `date >= today`. **Boot impact: the detector now fires `INTERVENTION-GRADE 5.74y on 2026-07-30`** — SAM corroborates the op from its own instrument rather than only from the wires. `workbook/USDJPY.tsv` repaired from fresh bars (10 rows) and re-sorted (7/29-7/30 were out of order). Commit `34069b8c0`.
+   - **Class note:** a freshness/vintage guard keyed to the *wrong clock*, failing FALSE-NEGATIVE and silently — the same failure shape as [[finding_mtime_is_corrupted_by_git_sync]]. Any future guard comparing a vendor-supplied timestamp against a locally-derived "now" must resolve both in the **same** timezone.
+   - **Known remaining defect (flagged, not fixed):** Yahoo's daily FX **Close** field is a bar-boundary snapshot (Open≈Close on every row), so `usdjpy.py`'s headline level is unreliable — it printed 160.18 against a true Friday close of 157.40. Fixing it means changing the level's data source (live quote or hourly bars); deferred as a design decision, not a one-liner.
+
+2. **`STATUS.md` compressed 409 → 179 lines** (250-line cap; 3 sessions overdue, now cleared). Method per [[finding_boot_slimming_dormant_or_settled]] discipline — cut only DORMANT/SETTLED content, not merely duplicated: the mega-banner rewritten to current-state-only (it was still carrying "KEY LIVE (Mon Jul 6)" marks); 7/9, 7/10 AM+PM, 7/11, 7/17, 7/21, 7/23 session notes → one-line pointers (all TIMELINE-mirrored); superseded Jun-3/Jun-14 carry tables → git history; resolved Hard-Trigger and Sep-$60-call blocks → TRADE/CHANGELOG pointers. **Also corrected, not just compressed:** KEY THRESHOLDS, MARKET DATA, INTERVENTION STATUS and WHAT TO WATCH were all still carrying 7/23 values (USD/JPY 163.83, CFTC 68.1%, Brent $100.43) — six weeks of drift behind the banner, the [[finding_status_spine_staleness_under_appended_top]] shape.
+
+3. **`thesis/BOJ_2026-07-31_PREREGISTRATION.md` — NEW.** The resolved July-MPM frozen pre-registration + grade (STATUS lines 18-93) extracted **verbatim via `sed`, not retyped**, with a provenance header. Kept as a retrievable *path* rather than git history alone because the block contains a **contamination clause** that was later invoked and paid off (circulating pre-dated content claimed "GDP upgraded to 0.8%"; actual FY2026 print 0.6) — that makes the freeze an audit artifact. Reference-only; not boot-loaded.
+
+---
+
 ## 2026-07-02 — Sub-agent performance review → brief amendments (METSUKE verify-pass mode; KURA full-mode default; rubber-stamp guard)
 
 **Trigger:** Will-directed performance analysis of the trio after the 7/2 parallel run (METSUKE Run-10 / KOYOMI Run-11 / KURA Run-9); recommendations applied same session.
