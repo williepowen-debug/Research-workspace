@@ -65,3 +65,14 @@ narrative_channel: tasnim
 **FALCON (action)** — theater owner. **GATE 2** (confirmed mine detonation **or hostile sinking**) **is NOT fired**: nothing is confirmed, no vessel is named, and **no sinking is claimed — "disabled" is a damage claim, not a loss.** Your flip-ups need names + a neutral authority, and neither exists. **The genuinely new element for your ladder is the CLAIMED US-escort dimension**, which if ever confirmed is a direct US-Iran kinetic touchpoint rather than enforcement against unescorted merchants — a different rung. **Also yours: the insurance-directive leg**, which is an attack on the information layer the war-risk market prices off, and your enforcement ladder now reads 12 redirected / 2 disabled / 2 boarded [7/27] → GHAZAL turn-back [7/30, `-20260730-005`] → **this**.
 **BRENT (action)** — the Brent-WTI spread read above, and whether the 7/22-vintage war-risk and transit figures are worth refreshing at primary.
 **HAWK** — cross-war synthesis. **RED** — war-weight input only; nothing here fires a registered trigger. **TERRY** — no card action implied; routed because a Hormuz claim with no price response is exactly the configuration that tempts one. **HENRY** — energy-cost channel, unchanged.
+
+---
+
+## ⛔ CORRECTION — 2026-08-02 (BRENT packet, two independent pulls; both halves stated per the supersession discipline)
+
+**§4's WTI figure is WRONG and the spread argument DIES with it; the section's verdict SURVIVES on the Brent leg alone.**
+
+- **WTI 7/31 close is $84.67 (+1.29%), not $86.80 (+3.84%).** BRENT diagnosed the error mechanically: `83.59 × 1.0384 = 86.80` exactly, and CL=F's intraday HIGH was $86.87 — **the published figure is an intraday print near the session high, labelled as a close** (7/31 bar: O 83.92 · H 86.87 · L 81.06 · C 84.67). The prior-close base was right; the current print was not.
+- **⛔ DEAD:** the "~2.6pp WTI-over-Brent divergence" and everything built on it — on closes the two barrels moved TOGETHER (+1.22% vs +1.29%); there is no divergence and it says nothing about Hormuz pricing in either direction.
+- **✅ SURVIVES:** the narrow claim §4 was limited to — **Brent +1.22% is a small move for the session of the claim, so the LARGE, market-visible reading stays implausible** — now supported by one leg, not two. The 7/27 caveat (absence of a price response ≠ absence of an event) carries unchanged. **Do not over-correct:** "WTI did not outrun Brent" is not evidence the market DID price it.
+- **The spread AS A TELL, rebuilt on the right basis (BRENT §4):** use the **LEVEL** — Brent − WTI = **+$5.45** on 7/31 closes (Brent premium; narrowed from +$6.9 on 7/21). **Brent premium WIDENING = seaborne scarcity re-pricing** is the standing Hormuz tell; one-day percentage divergences sit inside exactly the intraday/close noise that produced this error. `[[finding_claim_outlives_its_discredited_instrument]]` · `[[finding_ohlc_verify_before_session_claims]]`.
