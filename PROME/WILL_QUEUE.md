@@ -19,7 +19,7 @@
 |---|---|---|---|---|---|---|
 | 12 | HENRY standing boot-rule blessing | RULE | none | 7/28 | mechanical-trigger version | artifact-checked 7/31: WALTER-lane inbox step ALREADY exists (CLAUDE.md 3a); the open half is the GENERAL inbox at boot — bless the mechanical version of that half only |
 | 13 | FFIEC CDR account | BUY | none | 7/28 | do it (5 min) | artifact-checked 7/31: still live + load-bearing — DAEDALUS STATUS names it the Will-side blocker that UNBLOCKS WAL MI3 (WAL wired a boot reminder waiting on it) |
-| 15 | RAV charter review → formal ROSTER row | RULE | none | 7/25 | — | DAEDALUS drafted the charter 7/30 (`2b9dbeac`); your review unlocks the registry row |
+| 15 | RAV charter review → formal ROSTER row | RULE | none | 7/25 | ✅ DONE 8/2 | **RATIFIED as-drafted 8/2 in-session** (Meta classification + fence (c); ROSTER SPECIAL row landed `de539d32e`; DAEDALUS scaffolds `AGENTS/RAV/` → FLEET_MAP next, PAT-047 order; WALTER words fence (c) into its registry row — both packeted 8/2). Roll off ~8/9 |
 | 16 | Next broker export + confirms bundle | BROKER | none (next export) | 7/24 | — | one export resolves: off-rail confirms D-1/2/3 (AAPL/GLD/USO→35 ⇒ concentration packets fire), D-6 USO-spread account, D-7 $565+$1,500, D-10 MAIN≟IRA label, tail-rider debit, QQQ 680P figures + strike re-verify, VIXCS timestamped order (settles TERRY's S3 carry) |
 | 17 | Repo public flip | ACTION | none | 6/30 | — | all pre-flip blockers closed since 7/4; flip ⇒ delete DESKTOP mirror backup + Phase-5 verify |
 
