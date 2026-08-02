@@ -152,6 +152,9 @@ The carry-convexity-tail is a **WATCH-FOR-ENTRY thesis on a flat book.** At MED-
 
 ## COMPRESSED SESSION-NOTE POINTERS
 
+> ### ↪️ MOVED: § BOJ MPM PRE-REGISTRATION · § GRADE · SAM-38 contamination clause
+> **These sections now live at `thesis/BOJ_2026-07-31_PREREGISTRATION.md`** (verbatim, 2026-08-02 compression pass). Redirect kept here because **external consumers cite them by section name** — notably `AGENTS/WALTER/design/SIGNAL_PROCESSING_CHECKLIST.md` §v0.30 (the fleet-wide pre-decision-contamination guard) and WALTER's processed 7/31 packet. Per [[finding_external_consumer_check_before_restructure]]: do not delete this line without re-checking who points here.
+
 *Narratives live in `thesis/timeline/TIMELINE.md`; full bodies in git history. Compressed 2026-08-02 (this pass): 7/29 boot + BOJ pre-registration/grade → `thesis/BOJ_2026-07-31_PREREGISTRATION.md`; 7/9, 7/10 AM+PM, 7/11, 7/17, 7/21, 7/23 notes → pointers below. Prior passes: 7/11 (7/6-7/8 + late-June), 7/23 (7/16).*
 
 - **7/31** — BOJ July MPM graded live: **SAM-38 CONFIRMED at FULL-C**, SAM-34 CONFIRMED. MOF monthly ¥0. Buckets → 5/19/29 (v1.6.10). → TIMELINE Jul 24-31 + the archive file.
