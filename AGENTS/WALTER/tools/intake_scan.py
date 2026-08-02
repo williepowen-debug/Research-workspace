@@ -55,7 +55,9 @@ FRED_INFO = {"BAMLH0A0HYM2": ["HENRY"]}   # HY OAS info-cc beyond the owners
 FEED_OWNER = {                            # per-feed ACTION owner / INFO-cc
     "eia_petroleum": (["BRENT"], ["HAWK"]),
     "cftc_cot": (["VIOLET"], ["SAM"]),
-    "edgar_8k": (["REGINALD"], []),       # +OZK appended if an OZK ticker appears
+    "edgar_8k": (["REGINALD"], []),       # LEGACY (Phase B 2026-08-02): routing now reads
+                                          # per-filing route_to via _edgar_route(); this row
+                                          # kept only as documentation of the old default
     "treasury_auctions": (["BOND"], ["LIQUID"]),
 }
 
@@ -98,6 +100,40 @@ def _band(s):
 
 def _gate_for_band(band):
     return {"red": "ACTION", "orange": "INFO", "yellow": "INFO"}.get(band, "INFO")
+
+
+def _edgar_route(cid):
+    """Phase B: resolve (owners, entity_class-label) for an edgar critical[] string
+    ("TICKER YYYY-MM-DD [...]") via the lane's per-filing route_to/entity_class fields
+    (Phase A, PROME `3b07f9d`). Fail-LOUD: an unparseable string or a row the join
+    cannot find surfaces as UNTAGGED in the label — the legacy REGINALD(+OZK) chain is
+    the fallback so nothing is silently dropped, but the consumer SEES the join failed.
+    entity_class=other legitimately routes to [] (consumer judgment, per the ruling)."""
+    legacy = ["REGINALD"] + (["OZK"] if "OZK" in cid.upper() else [])
+    m = re.match(r"([A-Z][A-Z0-9.\-]{0,9})\s+(\d{4}-\d{2}-\d{2})", cid)
+    if not m:
+        return legacy, "UNTAGGED: unparseable critical[] string — check lane"
+    ticker, fdate = m.group(1), m.group(2)
+    try:
+        run_dirs = sorted((LANE / "data").iterdir(), reverse=True)[:5]
+    except OSError:
+        return legacy, "UNTAGGED: lane data/ unreadable — check lane"
+    for d in run_dirs:
+        p = d / "edgar_8k.json"
+        if not p.exists():
+            continue
+        try:
+            filings = json.loads(p.read_text()).get("filings", [])
+        except (OSError, ValueError):
+            continue
+        for f in filings:
+            if f.get("ticker") == ticker and f.get("date") == fdate:
+                ec = f.get("entity_class")
+                rt = f.get("route_to")
+                if ec is None or rt is None:
+                    return legacy, "UNTAGGED: row found but Phase-A fields missing — check lane"
+                return (rt if rt else []), (ec if rt else f"{ec} — no route_to: consumer judgment")
+    return legacy, "UNTAGGED: no lane row joined (ticker+date) — check lane"
 
 
 def collect_alerts(live):
@@ -146,13 +182,18 @@ def collect_alerts(live):
                          precedence="PRIORITY" if band == "red" else "ROUTINE",
                          raw=a, label="VIX positioning"))
 
-    # edgar_8k: critical[] — event-like, each item its own onset key
+    # edgar_8k: critical[] — event-like, each item its own onset key.
+    # Phase B (2026-08-02, PROME Phase-A contract `3b07f9d`): routing reads the lane's
+    # per-filing entity_class/route_to (joined on ticker+date into data/*/edgar_8k.json).
+    # The critical[] string stays the onset key — byte-stable, seen-keys never churn.
+    # Missing/unjoinable tag = fail-LOUD in the label (per the 7/28 ruling), never a
+    # silent default; legacy REGINALD(+OZK) routing kept as the visible fallback.
     for c in jobs.get("edgar_8k", {}).get("critical", []):
         cid = c if isinstance(c, str) else json.dumps(c, sort_keys=True)
-        own = ["REGINALD"] + (["OZK"] if "OZK" in cid.upper() else [])
+        own, ec_label = _edgar_route(cid)
         recs.append(dict(feed="edgar_8k", key=f"edgar:{re.sub(r'[^A-Za-z0-9]+','_',cid)[:60]}",
                          band="red", gate="ACTION", owners=own, info_cc=[],
-                         precedence="PRIORITY", raw=cid, label="critical 8-K"))
+                         precedence="PRIORITY", raw=cid, label=f"critical 8-K [{ec_label}]"))
 
     # treasury_auctions: weak[] — event-like
     for w in jobs.get("treasury_auctions", {}).get("weak", []):

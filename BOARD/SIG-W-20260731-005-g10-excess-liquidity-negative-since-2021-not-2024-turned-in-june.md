@@ -3,7 +3,7 @@ signal_id: SIG-W-20260731-005
 date: 2026-07-31
 time_dispatched: 2026-08-01T00:52:00Z
 origin: Will-Telegram 6-image batch 7/31 ~23:55Z (@KobeissiLetter post + its Bloomberg-sourced chart "Semis Stocks Are Still Bound by Liquidity")
-source: chart = Bloomberg (SOX Index YoY vs G10 Excess Liquidity Leading Indicator pushed forward 6 months); baseline + vintage independently re-verified by WALTER at search-primary — cryptobriefing "G10 excess liquidity leading indicator turns negative", @GlobalMktObserv, ISABELNET, moneymovesmarkets
+source: chart = Bloomberg (SOX Index YoY vs G10 Excess Liquidity Leading Indicator pushed forward 6 months); baseline + vintage cross-checked by WALTER against AGGREGATOR-TIER sources only — cryptobriefing "G10 excess liquidity leading indicator turns negative", @GlobalMktObserv, ISABELNET, moneymovesmarkets. [Tier label corrected 8/2 per PROME audit — the prior "search-primary" overstated it; none of the four is a primary. Confidence 0.75 already priced this.]
 domain: MACRO_LIQUIDITY
 cluster: FED_FRAMEWORK
 cluster_secondary: AI_INFRA_CAPEX

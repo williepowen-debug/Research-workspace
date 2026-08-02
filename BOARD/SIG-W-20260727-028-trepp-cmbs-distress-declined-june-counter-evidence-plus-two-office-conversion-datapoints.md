@@ -49,3 +49,11 @@ verdict: COUNTER-EVIDENCE -- CMBS distress IMPROVED in June on Trepp's own measu
 ---
 
 **Confidence 0.70** — the Trepp figure is a direct quote from Trepp's own account; **all three items are HEADLINE-LEVEL with bodies unread**, and the Seattle item is single-source. **Nothing here fires or approaches `REG-T-07`.**
+
+---
+
+## 🔴 RESOLUTION — 2026-08-02 (REGINALD packet 7/30, consumed 8/2): the pre-stated test RESOLVED **AGAINST the counter-evidence, on the RATE basis**
+
+REGINALD held the split all along (its STATUS dashboard since 7/10, verified vs Trepp primary via ConnectCRE). **June 2026 delinquency RATES MoM: overall −20bps to 7.35% — but Office +4bps to 11.57%, Retail +30bps to 6.91%, Multifamily +28bps to 7.23%; the entire headline decline is Lodging −79bps to 5.22% (cured).** By this signal's own pre-stated test: **office rose while the aggregate fell ⇒ the counter-evidence DISSOLVES and the bifurcation thesis strengthens** — the same composition artifact as `[[finding_blended_index_masks_bifurcation]]`.
+
+**⚠️ The disclosed basis mismatch, kept honest (both halves stated per the 7/24 supersession discipline):** this signal's declining figure was a **BALANCE** ($3.49B / −3.7% in 30+ day late private-label balance); REGINALD's split is a **RATE**. A balance can fall while a rate rises if the pool shrinks faster — so the counter-evidence is resolved **on the rate basis only**; the balance-by-property-type split is still not in hand at either desk, and obtaining it is the clean close. **Do not cite this signal's counter-evidence as live without that caveat.**

@@ -59,7 +59,10 @@ sys.path.insert(0, str(HERE))
 
 HIGH, MED, LOW, INFO = "HIGH", "MED", "LOW", "INFO"
 TODAY = dt.date.today()
-SIG_ID_RE = re.compile(r"^SIG-W-\d{8}-\d{3}$")
+# Accepts an optional trailing annotation like "SIG-W-20260414-010 (re-route)" — deliberate
+# semantic content in route_log (DAEDALUS RAV-review FIX 1, 2026-08-02). Still anchored:
+# rejects -0011→-001 truncation and anywhere-on-line matches (both RAV fixes survive).
+SIG_ID_RE = re.compile(r"^(SIG-W-\d{8}-\d{3})(\s+\(.+\))?$")
 
 # Single-machine (desktop CC) since 2026-06-26 — OpenClaw/VPS cut. Every agent
 # runs as a Claude Code session on the one shared repo, so a delivered handoff =
@@ -825,10 +828,12 @@ def check_log_reconcile():
         malformed = []
         try:
             with p.open(errors="replace") as f:
-                for n, row in enumerate(csv.DictReader(f, delimiter="\t"), start=2):
+                for n, row in enumerate(csv.DictReader(f, delimiter="\t",
+                                                       quoting=csv.QUOTE_NONE), start=2):
                     sig = (row.get(field) or "").strip()
-                    if SIG_ID_RE.fullmatch(sig):
-                        ids.add(sig)
+                    m = SIG_ID_RE.fullmatch(sig)
+                    if m:
+                        ids.add(m.group(1))
                     else:
                         malformed.append(f"L{n}:{sig or '<blank>'}")
         except (OSError, csv.Error) as e:
@@ -837,7 +842,10 @@ def check_log_reconcile():
 
     out = []
     route = log_ids("routed/route_log.tsv", "Signal_ID")
-    if route is not None:
+    if route is None:
+        # FIX 3 (PAT-060): an absent ledger must be LOUD — silence reads as clean.
+        out.append((MED, "route_log.tsv ABSENT — BOARD reconcile did not run"))
+    else:
         route, route_bad = route
         if route_bad:
             out.append((MED, f"route_log: malformed Signal_ID field(s): "
@@ -853,7 +861,9 @@ def check_log_reconcile():
         if not orphan and not missing and not route_bad:
             out.append((INFO, f"route_log reconciles with BOARD ({len(board_ids)} signals)"))
     deliv = log_ids("routed/delivery_log.tsv", "signal_id")
-    if deliv is not None:
+    if deliv is None:
+        out.append((MED, "delivery_log.tsv ABSENT — delivery reconcile did not run"))
+    else:
         deliv, deliv_bad = deliv
         if deliv_bad:
             out.append((MED, f"delivery_log: malformed signal_id field(s): "
