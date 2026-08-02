@@ -6,6 +6,26 @@
 
 ---
 
+> ## 🔴 ADDENDUM 2026-08-02 (same session, ~2h after first delivery) — I CLOSED MY OWN DATA GAP AND IT PRODUCED THE LARGEST NUMBER IN THIS DOMAIN
+>
+> My Process Report flagged ORCL's *"lease commitments that have not yet commenced"* as an unextracted gap. **I went back for it. It is $260 billion**, and it changes the weight of this report's central claim — so it is stated here at the top rather than buried in a revision note.
+>
+> > "As of May 31, 2026, we had **$260 billion of additional lease commitments, substantially all related to data center arrangements**, that are generally expected to **commence between the first quarter of fiscal 2027 and fiscal 2029** and for terms of **fifteen to nineteen years**, that **were not reflected on our consolidated balance sheet** as of May 31, 2026 or in the maturities table above. These additional lease commitments include **a lease for which we have guaranteed up to $3.3 billion of the lessor's borrowing, which matures in September 2026.**" [PRIMARY: ORCL FY2026 10-K, Note 9 / Commitments]
+>
+> **Three consequences:**
+> 1. **The obligations substrate is far larger than the first pass concluded, and it is overwhelmingly ORCL's.** $260B off-balance-sheet dwarfs META's ~$41B RVGs (6×), ORCL's own $129.5B of debt (2×), and NVIDIA's entire filed guarantee book (74×). **My original framing — "large but sitting at ORCL (rating) and META (RVG)" — understated ORCL by an order of magnitude.** The verdict direction is unchanged and strengthened; the magnitude was wrong.
+> 2. **There IS a filed guarantee in the AI chain after all — just not NVIDIA's.** ORCL has **guaranteed up to $3.3B of a lessor's borrowing, maturing September 2026.** That is a real, filed, third-party credit guarantee with a near-term date, and it is ~94% the size of NVIDIA's entire guarantee book. **It is the most concrete near-dated item this run found and nobody was tracking it.**
+> 3. **It explains the S&P action far better than the debt alone.** A BBB- issuer with −$23.7B FCF is contractually committed to $260B of 15-to-19-year data-center leases that begin hitting the balance sheet **in FY2027 — i.e. now.**
+>
+> **Also newly extracted, same gap-closing pass:**
+> - **ORCL's capitalized leases more than doubled:** total operating lease liabilities **$30,190M** (from $13,450M, **+124%**); total finance lease liabilities **$7,701M** (from $2,934M, **+162%**) — **$37.9B combined, +131% YoY**. ROU assets obtained in exchange for lease obligations in FY26: **$18,246M** operating + **$4,946M** finance. Weighted-average operating lease term **12 years at 5.7%**.
+> - **⇒ ORCL's total obligation stack is ~$167B on balance sheet ($129.5B debt + $37.9B leases), plus $260B committed off it.**
+> - ORCL's unconditional purchase obligations are **"primarily related to data center power arrangements"** — power is contracted as a credit obligation, echoing CoreWeave's power-cost hedging covenant.
+> - **Subsequent to 2026-05-31, ORCL entered an additional $19B of unconditional purchase commitments** for cloud infrastructure, commencing FY2027, five-year term — i.e. the commitment stack grew again after the balance-sheet date.
+> - **CRWV RPO = $98.8B** unsatisfied as of 2026-03-31 (36% recognized within 24 months, 39% months 25–48). Against $24.9B of debt and 65% of revenue in two customers.
+>
+> *Method note, stated against myself: this was in the filing the whole time and my first pass cited the MD&A cross-reference instead of following it into Note 9. **A "data gap" I could close in four minutes was not a gap, it was an unfinished read.** The lesson is narrower than "read more" — when a filing's MD&A says "refer to Note N," the number is in Note N, and stopping at the cross-reference produces a confident report with a hole in it.*
+
 ## Key Finding
 
 **The headline guarantee is not filed anywhere, and the thing that actually binds is not a covenant — it is a rating threshold that has already been crossed.** NVIDIA's *entire* filed facility-lease-guarantee exposure, across all counterparties, is **$3.5B gross / ~$2.8B net of escrow** [PRIMARY: NVDA FY26 10-K + Q1 FY27 10-Q] — roughly **1.4% of the $250B OpenAI backstop reported on 2026-07-27**, which appears in **no** NVIDIA filing and which NVIDIA's own most recent 10-Q does not mention at all. Meanwhile the real, filed obligations substrate is large but sits elsewhere: **META has ~$41B of off-balance-sheet residual value guarantees and explicitly no financial covenants**; **ORCL carries $129.5B of debt against a −$23.7B annual funding gap**, and its revolver covenant (interest coverage ≥3.0x) is nowhere near binding at **7.83x** — but **S&P's 4x leverage trigger is already breached in S&P's own FY27 forecast (mid-4x)**, which is why ORCL sits at **BBB-, one notch above junk**, and why ORCL's 10-K warns a downgrade would raise **collateral and credit-support requirements** and affect **data-center lease terms**.
@@ -158,12 +178,14 @@ Additional binding terms — and unlike ORCL and META, **these actually bind now
 
 ## The chain, assembled
 
-| Node | Filed obligation | Security | Financial covenant | What binds first |
-|---|---|---|---|---|
-| **NVDA** | $3.5B gross guarantees ($712M escrowed) | Warrants received; escrow | — | Nothing. Immaterial and unsigned. |
-| **META** | $84.0B notes + **~$41B RVGs (off-BS)** | **Unsecured** | **None — stated explicitly** | Rating / market access only |
-| **ORCL** | $129.5B debt; −$23.7B FCF | Unsecured | EBITDA/net-int ≥3.0x — **at 7.83x** | **The S&P 4x leverage trigger — already breached prospectively at BBB-** |
-| **CRWV** | $24.9B debt, 7–15% | **Secured, non-recourse SPV** | Restricted cash, ≥95% rate hedge, power hedge, borrowing base on **GPU depreciable cost** | **Borrowing-base contraction if GPU values fall** |
+| Node | Filed obligation | Off balance sheet | Security | Financial covenant | What binds first |
+|---|---|---|---|---|---|
+| **NVDA** | $3.5B gross guarantees ($712M escrowed) | — | Warrants received; escrow | — | Nothing. Immaterial and unsigned. |
+| **META** | $84.0B notes | **~$41B residual value guarantees** | **Unsecured** | **None — stated explicitly** | Rating / market access only |
+| **ORCL** | $129.5B debt + **$37.9B capitalized leases**; −$23.7B FCF | **$260B data-center lease commitments** (commence FY27–FY29, 15–19yr terms) **+ $3.3B guarantee of a lessor's borrowing, matures Sept 2026** | Unsecured | EBITDA/net-int ≥3.0x — **at 7.83x** | **The S&P 4x leverage trigger — already breached prospectively at BBB-** |
+| **CRWV** | $24.9B debt, 7–15%; $98.8B RPO | — | **Secured, non-recourse SPV** | Restricted cash, ≥95% rate hedge, power hedge, borrowing base on **GPU depreciable cost** | **Borrowing-base contraction if GPU values fall** |
+
+**The off-balance-sheet column is the story.** On-balance-sheet, the four names look like ordinary levered technology issuers. The AI-specific exposure lives almost entirely in the column that no leverage ratio computes: **ORCL's $260B of committed-but-uncommenced data-center leases is 2× its entire funded debt**, and it begins converting **in FY2027**.
 
 **Who legally bears the credit risk?** It is stratified, and the answer inverts the headline. The *vendor* (NVDA) bears almost none of what is claimed. The *hyperscalers* bear it through unsecured debt with no covenants and large off-balance-sheet residual-value guarantees (META). The *intermediary* (ORCL) bears it as counterparty concentration in a backlog its own concentration disclosure cannot see, disciplined by a rating rather than a contract. The *pure-play* (CRWV) has pushed it into non-recourse SPVs — **the lenders bear the asset risk there, and they have priced it at 7–15%.**
 
@@ -234,7 +256,9 @@ Covenant-headroom arithmetic: EBITDA = operating income + depreciation + intangi
 - **META: no financial covenants**, searched and confirmed by explicit statement rather than absence.
 - **Could not read S&P's own release** — see Source Quality.
 
-**Data gaps:** (1) ORCL's dollar figure for *lease commitments not yet commenced* is referenced in the contractual-obligations discussion but I did not isolate the number — it is in Note 9 and is worth a follow-up, since it is off-balance-sheet and directly comparable to META's RVGs. (2) I did not pull AMD's vendor-financing disclosures or the other neoclouds (NBIS/APLD/IREN/CIFR) — scope was already large and the four named anchors carry the verdict; flagged below as follow-on. (3) CoreWeave's RPO figure was located but not extracted.
+**Data gaps:** ~~(1) ORCL's *lease commitments not yet commenced*~~ **— CLOSED same session, see the ADDENDUM at the top: $260B, plus a $3.3B lessor-borrowing guarantee maturing Sept 2026. It was the largest number in the domain and I had shipped without it.** ~~(3) CoreWeave's RPO~~ **— CLOSED: $98.8B.** **Still open:** (2) AMD's vendor-financing disclosures and the other neoclouds (NBIS/APLD/IREN/CIFR) — scope was already large and the four named anchors carry the verdict; flagged below as follow-on.
+
+⚠️ **What the gap-closing pass says about the first pass, stated plainly:** both closed gaps were *in filings I had already pulled*. The ORCL figure sat behind an MD&A cross-reference ("refer to Note 9") that I cited without following. **Neither was a data-availability problem; both were unfinished reads** — and the larger one would have left this report understating the central exposure by roughly an order of magnitude. **A gap I can close in four minutes should be closed before delivery, not logged as a limitation.** Logging it made the report look rigorous about its own limits while shipping a hole.
 
 **Source frustrations:** `spglobal.com` remains a hard bot-block. EDGAR's XBRL context header (thousands of `us-gaap:`/`xbrli:` tokens) swamps naive greps on the raw text extract — dumping to a file and filtering the header out is materially more reliable than grepping through the tool, and I switched approach after two wasted calls.
 
