@@ -120,6 +120,58 @@ def _primary_doc(cik, accession):
     return cands[0]["name"] if cands else None
 
 
+# --- XBRL context-header strip -------------------------------------------
+# Every modern 10-K/10-Q text extract opens with thousands of XBRL context
+# tokens (CIKs, ISO dates, `us-gaap:CommonStockMember`, `xbrli:shares`, …)
+# BEFORE any narrative. A --grep for a common term ("guarantee", "Revenue",
+# "debt") matches inside that block and buries the real footnote hits — and a
+# grep drowned in header noise looks identical to one that legitimately found
+# nothing. Cost 2 wasted calls on the 2026-08-02 DR-1 run; stripped by default
+# since nobody greps a filing wanting the context block.
+_XBRL_TOKEN = re.compile(
+    r"^("
+    r"\d{7,}"                        # bare CIK
+    r"|\d{4}-\d{2}-\d{2}"            # ISO date
+    r"|[A-Za-z][\w.\-]*:[\w.\-]+"     # namespaced: us-gaap:X, xbrli:shares, iso4217:USD
+    r"|https?://\S*fasb\.org\S*"      # taxonomy URIs
+    r"|P\d+[YMD]"                    # ISO durations (P1Y, P3Y)
+    r"|[\d,.]+"                      # bare numerics
+    r"|true|false"
+    r")$"
+)
+
+
+# A line must carry at least one DISTINCTIVELY-XBRL token to be strippable.
+# Without this guard a 4-cell all-numeric row ("46,751 39,721 37,608 12,443")
+# scores 100% density and a financial table row gets eaten — the failure that
+# would matter most, since those rows are exactly what a filing run is after.
+# In practice EDGAR's HTML→text emits one cell per line so they fall under
+# min_tokens anyway, but belt-and-braces: numbers alone can never strip a line.
+_XBRL_DISTINCTIVE = re.compile(
+    r"^([A-Za-z][\w.\-]*:[\w.\-]+|https?://\S*fasb\.org\S*|P\d+[YMD])$")
+
+
+def _is_xbrl_noise(line, min_tokens=4, density=0.6):
+    toks = line.split()
+    if len(toks) < min_tokens:
+        return False
+    if not any(_XBRL_DISTINCTIVE.match(t) for t in toks):
+        return False
+    hits = sum(1 for t in toks if _XBRL_TOKEN.match(t))
+    return hits / len(toks) >= density
+
+
+def strip_xbrl(text):
+    """Drop XBRL context lines. Returns (clean_text, lines_dropped)."""
+    kept, dropped = [], 0
+    for line in text.split("\n"):
+        if _is_xbrl_noise(line):
+            dropped += 1
+        else:
+            kept.append(line)
+    return "\n".join(kept), dropped
+
+
 def doc_text(cik, accession, doc=None):
     acc_nodash = accession.replace("-", "")
     if not doc:
@@ -161,6 +213,8 @@ def main():
     d.add_argument("--cik", required=True); d.add_argument("--accession", required=True)
     d.add_argument("--doc"); d.add_argument("--grep"); d.add_argument("--context", type=int, default=2)
     d.add_argument("--max", type=int, default=0, help="truncate output to N chars (0=full)")
+    d.add_argument("--keep-xbrl", action="store_true",
+                   help="do NOT strip the XBRL context header (stripped by default — it buries every grep)")
 
     f = sub.add_parser("facts")
     f.add_argument("--cik", required=True); f.add_argument("--concept", required=True)
@@ -180,15 +234,29 @@ def main():
         name, text = doc_text(a.cik, a.accession, a.doc)
         if text is None:
             print("ERROR:", name); return
-        print(f"\n=== {name}  ({len(text):,} chars) ===\n")
+        note = ""
+        if not a.keep_xbrl:
+            text, dropped = strip_xbrl(text)
+            if dropped:
+                note = f"  [XBRL context: {dropped:,} lines stripped — --keep-xbrl to retain]"
+        print(f"\n=== {name}  ({len(text):,} chars ){note}===\n")
         if a.grep:
             lines = text.split("\n")
             pat = re.compile(a.grep, re.I)
+            n = 0
             for i, ln in enumerate(lines):
                 if pat.search(ln):
+                    n += 1
                     lo, hi = max(0, i - a.context), min(len(lines), i + a.context + 1)
                     print("\n".join(lines[lo:hi]))
                     print("  ---")
+            if n == 0:
+                # An explicit negative is the product. A silent empty result is
+                # indistinguishable from a failed read — say so, and exit 1.
+                sys.stderr.write(
+                    f"NO MATCH for /{a.grep}/ in {name} "
+                    f"({len(text):,} chars searched, {len(lines):,} lines)\n")
+                sys.exit(1)
         else:
             print(text[:a.max] if a.max else text)
 
