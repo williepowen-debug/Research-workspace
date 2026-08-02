@@ -20,7 +20,7 @@
 ## WHAT I DID (proxy session)
 1. **Inbox:** PROME audit packet → all items closed (see disposition table in `outbox/2026-08-02_to-PROME_audit-fixes-hormuz-repin-opec.md`) → `git mv` to `inbox/processed/`. WALTER SIG-W-20260731-006 → re-pull executed, disposition row logged, `git mv` to `inbox/WALTER/processed/`.
 2. **Created `board_log.tsv`** (v0.2 header per WALTER BOARD_CONSUMPTION_SPEC §5 — ORACLE had none) + backfill row for SIG-003 + row for SIG-006.
-3. **Audit fixes:** STATUS full rewrite (retractions annotated inline); NEXUS_BRIEF surgical (header/As-of/STATUS-commit pin `305d7b1a`, threshold ×2, majority retraction, tripwires, catalysts); VX-ORC-04 + VX-ORC-08 rewritten (found a 5th DEEPENING instance in VX-08 beyond the packet's four); KB-ORC-056 basis-labeled; broken +49.4pp spread row annotated; 7/31 state report annotated in place (fixes 3+4d).
+3. **Audit fixes:** STATUS full rewrite (retractions annotated inline); NEXUS_BRIEF surgical (header/As-of/STATUS-commit pin `8b43f294`, threshold ×2, majority retraction, tripwires, catalysts); VX-ORC-04 + VX-ORC-08 rewritten (found a 5th DEEPENING instance in VX-08 beyond the packet's four); KB-ORC-056 basis-labeled; broken +49.4pp spread row annotated; 7/31 state report annotated in place (fixes 3+4d).
 4. **Hormuz weekly re-pin (due today):** watchlist `week-of-july-27` → `week-of-august-3` (entry: modal 75-99 36.5%, ⚠$792 event vol); re-pull logged the new pin. **NEXT RE-PIN DUE 2026-08-09** (literal-date gate per fix 4e).
 5. **Pulls:** `polymarket.py pull --log` ×2 (40 rows + 1 re-pin row); `disruption_supply_spread.py` (+19.5pp v3 row); Kalshi manual curls → 7 rows appended to `KALSHI_ODDS_LOG.tsv` `[manual-curl]`.
 6. **KB +2** (KB-ORC-060 Hormuz-repin/8-2 board, KB-ORC-061 OPEC+). **Outbox +2** (HAWK/BRENT/FALCON retraction+repin+OPEC; PROME memo).
@@ -38,7 +38,7 @@
 10. Carried: BRENT/FALCON WTI-$100-by-YE ask (7/24, open); RED recession probability (since 6/13); Kalshi gap-fills re-check via `/events?status=open`.
 
 ## CARRY-FORWARD
-- **Push state: 2 commits LOCAL, NOT pushed (per spawn brief — PROME/Will hold the push):** `305d7b1a` (STATUS/workbook/watchlist/board_log/inbox moves) + the closing commit (NEXUS_BRIEF/SCRATCH/outbox ×2 + state-report annotations). Real-ORACLE: safe-push at next closeout sweeps them.
+- **Push state: 2 commits LOCAL, NOT pushed (per spawn brief — PROME/Will hold the push):** `8b43f294` (STATUS/workbook/watchlist/board_log/inbox moves) + the closing commit (NEXUS_BRIEF/SCRATCH/outbox ×2 + state-report annotations). Real-ORACLE: safe-push at next closeout sweeps them.
 - **Watchlists:** Polymarket 36 active rows (Hormuz weekly re-pinned; BOJ replacement owed). Kalshi 12 rows unchanged on file; lane down this box.
 - **Files this session:** STATUS.md (rewrite), NEXUS_BRIEF.md (surgical), SCRATCH.md (this), watchlist.tsv (Hormuz re-pin + date-gate note), board_log.tsv (NEW), workbook/{KB.tsv +2 rows & 056 note-amend, VX.tsv 04+08 rewrites, ODDS_LOG.tsv +41, KALSHI_ODDS_LOG.tsv +7 manual, DISRUPTION_SUPPLY_SPREAD.tsv +1 row & broken-row note}, outbox +2, outbox/2026-07-31_to-prome_oracle-state-report.md (annotated), inbox moves ×2.
 - **Did NOT touch:** MAINTENANCE.md, MEMORY.md, TRADE.md, HISTORY.tsv, scripts/tools. No auto-memory written (no new transferable pattern — the session applied existing rules).
