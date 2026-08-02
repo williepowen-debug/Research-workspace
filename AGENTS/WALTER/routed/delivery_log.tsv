@@ -1308,6 +1308,6 @@ timestamp_routed	signal_id	recipient	role	recipient_platform	precedence	handoff_
 2026-08-02T21:40:00Z	SIG-W-20260802-002	FALCON	action	CC	PRIORITY	AGENTS/FALCON/inbox/WALTER/SIG-W-20260802-002-mbs-motive-real-treasury-dump-rumor-2016-shaped.md	delivered	MBS motive folds into -001 attribution
 2026-08-02T21:40:00Z	SIG-W-20260802-002	LIQUID	info	CC	PRIORITY	AGENTS/LIQUID/inbox/WALTER/SIG-W-20260802-002-mbs-motive-real-treasury-dump-rumor-2016-shaped.md	delivered	pre-registered amplification frame
 2026-08-02T21:40:00Z	SIG-W-20260802-002	HENRY	info	CC	PRIORITY	AGENTS/HENRY/inbox/WALTER/SIG-W-20260802-002-mbs-motive-real-treasury-dump-rumor-2016-shaped.md	delivered	rates-chain context only
-2026-08-02T21:55:00Z	SIG-W-20260802-003	MIDAS	action	CC	PRIORITY	AGENTS/MIDAS/inbox/WALTER/SIG-W-20260802-003-sulfur-acid-war-channel-metals-leg.md	written_not_delivered_pending_push	metals leg unowned — current-print pull is first action
-2026-08-02T21:55:00Z	SIG-W-20260802-003	BRENT	info	CC	PRIORITY	AGENTS/BRENT/inbox/WALTER/SIG-W-20260802-003-sulfur-acid-war-channel-metals-leg.md	written_not_delivered_pending_push	refinery-byproduct corroboration channel
-2026-08-02T21:55:00Z	SIG-W-20260802-003	AEOLUS	info	CC	PRIORITY	AGENTS/AEOLUS/inbox/WALTER/SIG-W-20260802-003-sulfur-acid-war-channel-metals-leg.md	written_not_delivered_pending_push	acid->phosphate->food leg
+2026-08-02T21:55:00Z	SIG-W-20260802-003	MIDAS	action	CC	PRIORITY	AGENTS/MIDAS/inbox/WALTER/SIG-W-20260802-003-sulfur-acid-war-channel-metals-leg.md	delivered	metals leg unowned — current-print pull is first action
+2026-08-02T21:55:00Z	SIG-W-20260802-003	BRENT	info	CC	PRIORITY	AGENTS/BRENT/inbox/WALTER/SIG-W-20260802-003-sulfur-acid-war-channel-metals-leg.md	delivered	refinery-byproduct corroboration channel
+2026-08-02T21:55:00Z	SIG-W-20260802-003	AEOLUS	info	CC	PRIORITY	AGENTS/AEOLUS/inbox/WALTER/SIG-W-20260802-003-sulfur-acid-war-channel-metals-leg.md	delivered	acid->phosphate->food leg
