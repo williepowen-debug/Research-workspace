@@ -130,15 +130,25 @@ def merge_and_write(df):
         with open(USDJPY_TSV, "w") as f:
             f.write(TSV_HEADER)
 
-    today_str = datetime.now().strftime("%Y-%m-%d")
+    # Derive "today" in the INDEX's own timezone, not local time. yfinance labels
+    # USDJPY=X bars in Europe/London; comparing them against a local (Eastern) date
+    # meant any boot run after ~19:00 ET saw the next London-day's few-hours-old
+    # partial bar as "not today" and appended it as final. Idempotent-by-date then
+    # made it permanent. That wrote truncated bars for 10 of the last 60 sessions —
+    # every one under-stating the range — including 2026-07-30, recorded as a 0.33y
+    # day when the true range was 5.74y (largest yen move since Dec-2023, suspected
+    # MOF op). The intraday-range alert below is the disorder detector gating the MOF
+    # strike-watch, so the failure was silent and FALSE-NEGATIVE.
+    idx_tz = getattr(df.index, "tz", None)
+    today_str = datetime.now(idx_tz).strftime("%Y-%m-%d")
     new_rows = []
     for ts, row in df.iterrows():
         date_str = ts.strftime("%Y-%m-%d")
         if date_str in existing_dates:
             continue
-        # Skip today — USDJPY=X trades 24/5, so today's row is intraday
-        # partial. Let it land in TSV tomorrow when the day is fully closed.
-        if date_str == today_str:
+        # Skip today AND anything later — USDJPY=X trades 24/5, so the current bar is
+        # an intraday partial. Let it land in TSV tomorrow when the day is fully closed.
+        if date_str >= today_str:
             continue
         # NaN check (yfinance can return NaN rows for non-trading days)
         vals = [row["Open"], row["High"], row["Low"], row["Close"]]
