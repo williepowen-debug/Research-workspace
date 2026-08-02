@@ -1324,9 +1324,9 @@ timestamp_routed	signal_id	recipient	role	recipient_platform	precedence	handoff_
 2026-08-02T22:30:00Z	SIG-W-20260802-006	OSPREY	info	CC	IMMEDIATE	AGENTS/OSPREY/inbox/WALTER/SIG-W-20260802-006-tehran-denies-deal-parameters-interceptor-restock.md	delivered	batch 8/2 img dispatch
 2026-08-02T22:30:00Z	SIG-W-20260802-006	SAM	info	CC	IMMEDIATE	AGENTS/SAM/inbox/WALTER/SIG-W-20260802-006-tehran-denies-deal-parameters-interceptor-restock.md	delivered	batch 8/2 img dispatch
 2026-08-02T22:30:00Z	SIG-W-20260802-006	TERRY	info	CC	IMMEDIATE	AGENTS/TERRY/inbox/WALTER/SIG-W-20260802-006-tehran-denies-deal-parameters-interceptor-restock.md	delivered	batch 8/2 img dispatch
-2026-08-02T22:50:00Z	SIG-W-20260802-007	BRENT	action	CC	IMMEDIATE	AGENTS/BRENT/inbox/WALTER/SIG-W-20260802-007-sunday-reopen-oil-gap-behavioral-test.md	written_not_delivered_pending_push	reopen tape + Velos Amber tell
-2026-08-02T22:50:00Z	SIG-W-20260802-007	FALCON	action	CC	IMMEDIATE	AGENTS/FALCON/inbox/WALTER/SIG-W-20260802-007-sunday-reopen-oil-gap-behavioral-test.md	written_not_delivered_pending_push	reopen tape + Velos Amber tell
-2026-08-02T22:50:00Z	SIG-W-20260802-007	TERRY	info	CC	IMMEDIATE	AGENTS/TERRY/inbox/WALTER/SIG-W-20260802-007-sunday-reopen-oil-gap-behavioral-test.md	written_not_delivered_pending_push	reopen tape + Velos Amber tell
-2026-08-02T22:50:00Z	SIG-W-20260802-007	SAM	info	CC	IMMEDIATE	AGENTS/SAM/inbox/WALTER/SIG-W-20260802-007-sunday-reopen-oil-gap-behavioral-test.md	written_not_delivered_pending_push	reopen tape + Velos Amber tell
-2026-08-02T22:55:00Z	SIG-W-20260802-008	AEOLUS	action	CC	PRIORITY	AGENTS/AEOLUS/inbox/WALTER/SIG-W-20260802-008-spokane-record-fire-insurance-leg.md	written_not_delivered_pending_push	WA record fire — insurance/property leg
-2026-08-02T22:55:00Z	SIG-W-20260802-008	HOMER	info	CC	PRIORITY	AGENTS/HOMER/inbox/WALTER/SIG-W-20260802-008-spokane-record-fire-insurance-leg.md	written_not_delivered_pending_push	WA record fire — insurance/property leg
+2026-08-02T22:50:00Z	SIG-W-20260802-007	BRENT	action	CC	IMMEDIATE	AGENTS/BRENT/inbox/WALTER/SIG-W-20260802-007-sunday-reopen-oil-gap-behavioral-test.md	delivered	reopen tape + Velos Amber tell
+2026-08-02T22:50:00Z	SIG-W-20260802-007	FALCON	action	CC	IMMEDIATE	AGENTS/FALCON/inbox/WALTER/SIG-W-20260802-007-sunday-reopen-oil-gap-behavioral-test.md	delivered	reopen tape + Velos Amber tell
+2026-08-02T22:50:00Z	SIG-W-20260802-007	TERRY	info	CC	IMMEDIATE	AGENTS/TERRY/inbox/WALTER/SIG-W-20260802-007-sunday-reopen-oil-gap-behavioral-test.md	delivered	reopen tape + Velos Amber tell
+2026-08-02T22:50:00Z	SIG-W-20260802-007	SAM	info	CC	IMMEDIATE	AGENTS/SAM/inbox/WALTER/SIG-W-20260802-007-sunday-reopen-oil-gap-behavioral-test.md	delivered	reopen tape + Velos Amber tell
+2026-08-02T22:55:00Z	SIG-W-20260802-008	AEOLUS	action	CC	PRIORITY	AGENTS/AEOLUS/inbox/WALTER/SIG-W-20260802-008-spokane-record-fire-insurance-leg.md	delivered	WA record fire — insurance/property leg
+2026-08-02T22:55:00Z	SIG-W-20260802-008	HOMER	info	CC	PRIORITY	AGENTS/HOMER/inbox/WALTER/SIG-W-20260802-008-spokane-record-fire-insurance-leg.md	delivered	WA record fire — insurance/property leg
