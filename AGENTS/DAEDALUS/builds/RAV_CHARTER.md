@@ -1,11 +1,12 @@
-# RAV — Charter (DRAFT for Will's approval)
+# RAV — Charter
 
-**Status:** 🟡 **DRAFT — charter only. RAV is NOT wired into the fleet by this document.**
+**Status:** 🟢 **RATIFIED 2026-08-02** — Will, in-session, **as-drafted in full** (§3 repair/flag split · fence (c) accepted · the Meta classification recommendation in §7 taken). Superseded the DRAFT line on 2026-08-03 when DAEDALUS executed the wiring below.
+**Wired 2026-08-03:** ROSTER § SPECIAL (`de539d32e`, PROME) → `AGENTS/RAV/` scaffold → `FLEET_MAP.tsv` row, in PAT-047 order.
 **Author:** DAEDALUS · **Date:** 2026-07-30 · **Approved to draft:** Will, in-session
 **Provenance:** review of RAV's 4 commits of 2026-07-29 → `AGENTS/DAEDALUS/upgrades/RAV_CHANGE_REVIEW_2026-07-30.md`
 **Not invented here.** This completes a spec that already exists: `AGENTS/YEYOU/CLAUDE.md` has named a **Codex** counterpart since it was written (:15, :22, :52). RAV is that counterpart. This document writes down the half YEYOU's file only gestured at, plus the one thing YEYOU's file could not have anticipated — that the Codex half would have **fix authority** YEYOU deliberately lacks.
 
-> **Wiring stays gated.** Creating `AGENTS/RAV/`, a ROSTER row, an `AGENTS.md` line, or a `FLEET_MAP` entry are separate acts requiring explicit approval (DAEDALUS AUTHORITY: *never wire a new agent in without it*). See §7 for exactly what those steps are. `WALTER/REGISTRY.tsv` already carries a RAV row — that stays WALTER's and is not superseded here.
+> **Wiring was gated and is now partly executed.** Creating `AGENTS/RAV/`, a ROSTER row, an `AGENTS.md` line, or a `FLEET_MAP` entry were separate acts requiring explicit approval (DAEDALUS AUTHORITY: *never wire a new agent in without it*). **§7 is the live state table** — ROSTER, scaffold and FLEET_MAP are DONE 2026-08-02/03; four shared-doc lines remain PROME-lane. `WALTER/REGISTRY.tsv` already carries a RAV row — that stays WALTER's and is not superseded here.
 
 ---
 
@@ -85,11 +86,11 @@ Neither was damaging. Both are precedent, which is why the rule is written down 
 
 ## 4 · FENCES
 
-**(a) and (b) are Will-approved 7/30 and live in `WALTER/REGISTRY.tsv` — quoted here, owned there. (c) is proposed by this charter.**
+**All three are Will-approved and live in `WALTER/REGISTRY.tsv` — quoted here, owned there.** (a)/(b) 7/30; **(c) accepted 8/02 and adopted VERBATIM into RAV's registry row** (WALTER write-back 8/02, DAEDALUS wording credited) — cite the row, do not re-word it here.
 
 - **(a) Not precedent.** RAV is a Will-driven outside tool. Its cross-directory commits are **not citable** as precedent for cross-dir commits by any regular agent. Root `CLAUDE.md`'s three carve-outs are unchanged and this is not a fourth.
-- **(b) Inbox note per touched agent.** Every run drops a **one-line note in each target agent's `inbox/`** naming what changed and why, so an owner never burns a provenance pass discovering commits by surprise. ⚠️ **Currently owed retroactively: the 7/29 REG-T-02 change to REGINALD's `registry/THRESHOLDS.tsv` was made with zero inbox writes across all four commits.** REGINALD does not know its trigger's recipient chain changed, and WAL trades ~3.4% above that live sustain-1 trigger. Routed to WALTER 7/30; **close it before the next run.**
-- **(c) PROPOSED — no silent deletions.** The §3 sentence above. Yours to accept, reword, or decline; WALTER owns the registry row where (a)/(b) live, so if adopted it should be worded there and cited from here rather than duplicated.
+- **(b) Inbox note per touched agent.** Every run drops a **one-line note in each target agent's `inbox/`** naming what changed and why, so an owner never burns a provenance pass discovering commits by surprise. ✅ **The retroactive item is CLOSED** — the 7/29 REG-T-02 change to REGINALD's `registry/THRESHOLDS.tsv` was made with zero inbox writes across all four commits, but REGINALD's own 7/30 inbox pass read `registry/THRESHOLDS.tsv:3` **at source** and verified the `REGINALD action / WAL action / Will` chain, and WAL received WALTER's `-20260730-008` handoff (that lane's first). *Verified via WALTER write-back 8/02 — the timeline beat the note, which closes this instance and does not weaken the fence: the owner learned by luck, not by channel.*
+- **(c) ✅ ADOPTED 8/02 — no silent deletions.** The §3 load-bearing sentence, **worded verbatim in RAV's `WALTER/REGISTRY.tsv` row** (WALTER owns it; DAEDALUS wording credited there). Cite the registry row as the enforcing home.
 
 **Concurrency.** RAV inherits the fleet rule: **do not edit a file an agent is live in** (root Critical Rule #2). Its outage-correlated schedule usually satisfies this by accident — the 7/29 run had the repo to itself, verified. *By accident is not a guarantee:* check `git log` for the window before writing.
 
@@ -99,7 +100,7 @@ Neither was damaging. Both are precedent, which is why the rule is written down 
 
 **This is the obligation that matters most while YEYOU is down.** Without it, RAV's only output channel is the diff — which is structurally why both §3 misses happened: it had nowhere to put a finding it did not intend to fix.
 
-Every run writes **one report**, `AGENTS/RAV/runs/YYYY-MM-DD_<slug>.md` *(path pending the §7 scaffold; until then, `AGENTS/DAEDALUS/inbox/` and Will)*:
+Every run writes **one report**, `AGENTS/RAV/runs/YYYY-MM-DD_<slug>.md` *(path LIVE since the 2026-08-03 scaffold — the interim `AGENTS/DAEDALUS/inbox/` route is retired)*:
 
 1. **Window + concurrency check** — start/end, and what `git log` showed live in it.
 2. **Repairs** — one line each: file, what changed, **and the witness that justified it as a repair** (§3's third test). A repair with no named witness is a flag that got mislabeled.
@@ -109,6 +110,19 @@ Every run writes **one report**, `AGENTS/RAV/runs/YYYY-MM-DD_<slug>.md` *(path p
 6. **Notes dropped** — per fence (b), which inboxes got one.
 
 **Consumed by:** PROME (protocol-verify: right files, no collisions) · the domain owner (correctness-verify: reproduce, test, grade) — the credit-split convention already in WALTER's registry row · DAEDALUS (design-layer findings → `PATTERNS.tsv` / `FLEET_MAP.tsv`) · YEYOU on revival (its ⚪ NEEDS-VERIFY escalations arrive here).
+
+### ⚠️ Reconciliation with `PROME/codex/RAV_QC_WORKFLOW.md` (found at registration, 2026-08-03)
+
+RAV authored its own workflow doc on 8/1 (status: *"Proposed standing workflow"*), one day before this charter was ratified. **The two diverge on two points, and the divergence matters specifically because RAV is handed its context per run — whichever document it is handed IS its charter that run.**
+
+| | `RAV_QC_WORKFLOW.md` (RAV, 8/1) | This charter (ratified 8/2) | Ruling |
+|---|---|---|---|
+| **Where the report lives** | ledger rows; larger reviews → `PROME/codex/findings/` | one report per run → `AGENTS/RAV/runs/` (§5) | **Both, with distinct jobs.** `runs/` = the RUN-level deliverable (window, repairs + witnesses, **affirmative Flags**, checks-run-against-the-tape, before/after, notes dropped). The ledger = the **DISPOSITION** surface, PROME-owned intake. A ledger row is not a run report and a run report is not a disposition. **Neither RAV-facing doc currently points at `runs/` except this one** — fixed by §8 step 0 |
+| **Default posture** | flag-first; *"should not bypass owner ownership unless Will explicitly scopes that edit"* | §3 bounded repair for the mechanical + reversible + witnessed class | **Not a contradiction — a default-posture divergence, and the workflow's instinct is the safer one.** §3 governs *what may be repaired inside a scope Will has assigned*; it never authorises wandering outside that scope. Where the two could disagree in practice, **§3's `unsure ⇒ flag` already resolves it toward the workflow's default.** |
+
+**Adopted FROM the workflow, by reference not copy** (it is better than this charter was on the disposition half): its **7 statuses** (`Open / Accepted / Routed / Fixed / Rejected / Superseded / Watch`) and the requirement that **every surviving row carry an owner, a status, and a close condition** — *"the main failure mode is not a bad finding; it is a good finding with no owner, no status, and no close condition."* That sentence is the reason RAV's flags need §5 and PROME's ledger both, and it is kept in RAV's own words.
+
+**Two items routed to PROME 8/03, not fixed here** (its surface, and the workflow is RAV-authored): mark the workflow's report-home line as *reconciled-with-charter-§5* rather than leaving two live answers; and the status vocabulary is a **new machine-read state class absent from `BLUEPRINTS/STATE_VOCABULARY.md`**, writing `Superseded` title-case where fleet canon is `SUPERSEDED` — REGISTRATION_CHECKLIST row 15's exact class, on a surface created two days *after* that registry shipped (PAT-075, n=2).
 
 ---
 
@@ -130,28 +144,37 @@ Nothing in this charter expires when YEYOU comes up. The two lanes are complemen
 
 ## 7 · REGISTRATION — what is done, what is held, what needs a word
 
-| Surface | State |
-|---|---|
-| `WALTER/REGISTRY.tsv` | ✅ **DONE** 7/30 — Tier 2, Codex (Will-driven), both fences + credit-split in the row. WALTER's, not superseded here |
-| This charter | 🟡 **DRAFT** — awaiting Will |
-| `AGENTS/RAV/` scaffold (`runs/`, `inbox/`, `outbox/`) | ⛔ **HELD** — wiring, needs explicit approval |
-| `PROME/ROSTER.md` row | ⛔ **PROME's surface** — Will's word, then PROME lands it |
-| Root `CLAUDE.md` + `AGENTS.md` lines | ⛔ **PROME's surface, Will-gated** |
-| `FLEET_MAP.tsv` row | ⛔ **HELD BY DESIGN** — PAT-047 co-registration: `render_directory.py:120-124` dies on a FLEET_MAP entry absent from ROSTER. **Add the FLEET_MAP row only after ROSTER lands, never before** |
+| # | Surface | State |
+|---|---|---|
+| 7 | `WALTER/REGISTRY.tsv` | ✅ **DONE** 7/30, fence (c) added 8/02 — Tier 2, Codex (Will-driven), all three fences + credit-split in the row. WALTER's, not superseded here |
+| — | This charter | ✅ **RATIFIED** 8/02 as-drafted; status line flipped 8/03 |
+| 1 | `PROME/ROSTER.md` row | ✅ **DONE** 8/02 (`de539d32e`, § SPECIAL, Meta) — PROME's surface, landed FIRST per PAT-047 |
+| — | `AGENTS/RAV/` scaffold (`runs/`, `inbox/`, `outbox/` + `README.md`) | ✅ **DONE** 8/03 |
+| 8/9 | `FLEET_MAP.tsv` row + `FLEET_DIRECTORY.md` regen | ✅ **DONE** 8/03 — ROSTER-first order held; `render_directory.py:120-124` would have died on the reverse order |
+| 12 | DAEDALUS script registries (`render_directory.py` SPECIAL · `maturity_scan.py`) | ✅ **DONE** 8/03 — see the note below; this row is why the scan does not grade RAV L0 |
+| 2/3 | Root `CLAUDE.md` + `AGENTS.md` lines | ⛔ **PROME-lane, Will-gated** — PROME queued them for its next canon pass (batched with the B-3 line + memory-canon amendment) |
+| 4/6 | `AGENTS/_INDEX.md` + `AGENTS/_SYNTHESIS_OPS.md` rows | ⛔ **PROME-lane, flagged 8/03** — **both carry DAEDALUS *and* YEYOU rows today, so a Meta reviewer belongs on both.** PROME's canon-pass note named only root `CLAUDE.md`/`AGENTS.md`; these two are the checklist-row-6 class (*human-nav surfaces register in the same pass as canonical ones* — the original 7/12 miss). Routed, not edited |
+| 5 | `AGENTS/_NETWORK.md` | ⚪ **N/A** — transmission-chain wiring; RAV is not in a market chain (DAEDALUS/YEYOU aren't either) |
+| 13 | Parent behavioral registries | ⚪ **N/A as a promotion**, with one live residue: `AGENTS/YEYOU/CLAUDE.md:52` routes `⚪ NEEDS-VERIFY` **to "Codex"** — a behavioral escalation naming RAV, written before RAV existed. It now has a real destination (`AGENTS/RAV/inbox/`). **Not edited** (cross-agent; YEYOU idle-but-pre-revival) — fold into the YEYOU revival pass, which is one decision away |
+| 14② | Name-the-unrepresentable | **Answered:** RAV's scaffold can hold *what a run found* (`runs/`) but has **no row-shape for a cross-run pattern** — a defect appearing in three separate runs is three files, not a trend. **Exclusion written down with an owner:** dispositions + recurrence live in `PROME/codex/RAV_QC_LEDGER.md` (PROME) and design-layer patterns in `DAEDALUS/PATTERNS.tsv` (DAEDALUS). RAV is deliberately not given a third ledger to keep |
+| 15 | State-token / STRICT-text conformance | ✅ Checked. Charter + README status tokens use dated canonical forms. **Registry gap noted, not patched:** `STATE_VOCABULARY.md` has no class for *document lifecycle* (`DRAFT` → `RATIFIED` → `SUPERSEDED`); Class 1 covers only dead surfaces. Queued for the next blueprint-maintenance block rather than expanded mid-build |
 
-### Open classification question — Will's call, flagged not decided
+### Classification — RULED 2026-08-02 (Will), recommendation taken
 
 WALTER registered RAV **Tier-2 special class alongside YEYOU**. That grouping is right about *cadence* (both manual/on-demand) and, on the evidence above, **wrong about authority**:
 
 - **YEYOU is read-only by construction** — *flag, never fix*, stated in root canon and in its own file.
 - **RAV edits other agents' files**, including a third agent's **behavioral registry** (`REGINALD/registry/THRESHOLDS.tsv`, 7/29).
 
-Under **PAT-027**, the meta-vs-utility discriminator is *authority to mutate the system's structure*. By the fleet's own test **RAV is Meta, not Utility** — and currently the only Meta-authority agent with no charter, which is what this document is for. **DAEDALUS recommendation:** classify **Meta** in ROSTER + FLEET_MAP, keep WALTER's Tier-2 cadence label as-is (they answer different questions and both are true). Not urgent; it changes which rubric grades RAV at the next Production Review, nothing operational today.
+Under **PAT-027**, the meta-vs-utility discriminator is *authority to mutate the system's structure*. By the fleet's own test **RAV is Meta, not Utility** — and, until this document, the only Meta-authority agent with no charter. **DAEDALUS recommendation:** classify **Meta** in ROSTER + FLEET_MAP, keep WALTER's Tier-2 cadence label as-is (they answer different questions and both are true).
+
+> ✅ **RULED 8/02 (Will, three-option ruling): recommendation taken as-is** — **Meta** in ROSTER + FLEET_MAP, WALTER's Tier-2 cadence label kept, *"different questions, both true"* carried verbatim into the ROSTER row. Consequence now live: RAV is graded against the **Meta** ceiling (L3 conformance checks run · L4 builds/repairs executed clean + patterns accruing · L5 clean closeouts + roadmap) at the next Production Review, not the Utility rubric.
 
 ---
 
 ## 8 · FIRST-RUN CHECKLIST (hand this to the Codex session with §3 and §5)
 
+0. **Read `AGENTS/RAV/inbox/`. Everything present is unprocessed by definition** — there is no read-marker and no other reader, so an item that arrives between runs is invisible until this step runs. A packet older than ~30 days is a finding about the sender, not just a stale packet. *(Step added 8/03 at the scaffold: an inbox nobody reads **presents** as a live channel, which is worse than no channel — the failure mode Will's 8/02 sub-agent ruling named. The mitigation is that reading it is a numbered step in the context RAV is handed, not a convention it would have to remember.)*
 1. Pull. Check `git log` for the window — **is any agent live in the files you intend to touch?** If yes, flag instead of fixing.
 2. Work the assigned scope. **Repair-only** — no policy, no routing, no thesis (§2).
 3. For every change, run §3's three tests. **Unsure ⇒ flag.**
@@ -163,4 +186,4 @@ Under **PAT-027**, the meta-vs-utility discriminator is *authority to mutate the
 
 ---
 
-*Charter drafted by DAEDALUS. Nothing wired. Fences (a)/(b) quoted from WALTER's registry row and owned there; fence (c) and the §3 split are this document's proposals. On approval: WALTER words (c) into its row, PROME lands ROSTER, DAEDALUS scaffolds `AGENTS/RAV/` and adds the FLEET_MAP row in that order (PAT-047).*
+*Charter drafted by DAEDALUS 2026-07-30; **RATIFIED as-drafted by Will 2026-08-02**; wiring executed 2026-08-02/03 in PAT-047 order — WALTER worded (c) into its registry row, PROME landed ROSTER, DAEDALUS scaffolded `AGENTS/RAV/` and added the FLEET_MAP row. All three fences are owned in `WALTER/REGISTRY.tsv` and quoted here. Remaining: four PROME-lane shared-doc lines (§7 rows 2/3/4/6).*

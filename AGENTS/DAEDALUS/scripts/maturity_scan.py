@@ -43,6 +43,17 @@ CLASS = {
 # (OZK/ZHAO sat here months after reviving; see builds/REGISTRATION_CHECKLIST.md row 12).
 SKIP = {"ATHENA", "BARON", "CRUISE", "FERT", "REITS", "TRADES", "SENTRY"}
 
+# LIVE agents the objective floor layer CANNOT measure — excluded from grading but ANNOUNCED,
+# never silently dropped. Distinct from SKIP: SKIP = not an agent; this = an agent this
+# instrument is the wrong instrument for. Keying these into SKIP would repeat the OZK/ZHAO
+# fail-silent class on a *live* agent, which is strictly worse (PAT-074: a null result must
+# say what it did not look at). Grade these by judgment read + FLEET_MAP row only.
+JUDGMENT_ONLY = {
+    "RAV": "Codex/Will-driven — no repo CLAUDE.md or STATUS.md BY DESIGN (handed its context, "
+           "does not boot from the tree). Spec = DAEDALUS/builds/RAV_CHARTER.md; floor L0-L2 "
+           "is undefined for it, so a scanned 'L0' would be a false gap, not a finding.",
+}
+
 # Subtrees that are NOT live artifacts — pruned from recursive artifact detection (PAT-020).
 EXCLUDE_DIRS = {"archive", "_archive", "sources", "processed", "delivered",
                 "inbox", "outbox", ".git", "node_modules"}
@@ -269,8 +280,16 @@ def proposed_level(s):
     return base
 
 def main():
-    rows = [scan(n) for n in agent_dirs() if n not in SKIP]
+    rows = [scan(n) for n in agent_dirs() if n not in SKIP and n not in JUDGMENT_ONLY]
     rows.sort(key=lambda r: (r["class"], -(r["commits_30d"] or 0)))
+    # Announce what was deliberately NOT graded (PAT-074) — in BOTH output modes.
+    # ⚠️ Enumerate from the FILESYSTEM, not agent_dirs(): that helper requires a CLAUDE.md or
+    # STATUS.md (:75-77), which is exactly what a JUDGMENT_ONLY agent lacks — so sourcing this
+    # list from agent_dirs() makes the announcement dead code that prints nothing and reads as
+    # "nothing to announce." Found by RUNNING it at RAV's registration, 8/03 (PAT-074 inward,
+    # same shape as the WATT/MIDAS/VULCAN boot.py rc-blindness fixed 7/31).
+    excluded = sorted(n for n in JUDGMENT_ONLY
+                      if os.path.isdir(os.path.join(AGENTS, n)))
     if "--tsv" in sys.argv:
         print("Agent\tClass\tFloor\tProposed\tNeedsRead\tStatusLines\tKB\tPredResolved\tTrade\tTradePath\tDaysBehind\tCommits30d")
         for r in rows:
@@ -278,6 +297,8 @@ def main():
                   f"\t{'Y' if r['provisional'] else '-'}\t{r['status_lines']}"
                   f"\t{r['kb_rows']}\t{r['pred_resolved']}\t{'Y' if r['has_trade'] else '-'}"
                   f"\t{r['trade_path']}\t{r['days_behind']}\t{r['commits_30d']}")
+        for name in excluded:
+            print(f"{name}\t-\tNOT-GRADED\tjudgment-only\t-\t-\t-\t-\t-\t-\t-\t-")
         return
     print(f"# Fleet maturity scan (objective layer) — {len(rows)} agents · HEAD-relative staleness\n")
     print("| Agent | Class | Floor | →L3-5? | 30d | Conformance gaps |")
@@ -286,6 +307,8 @@ def main():
         prop = r["proposed"] + (" ⚠needs-read" if r["provisional"] else "")
         print(f"| {r['agent']} | {r['class']} | {r['floor']} | {prop} "
               f"| {r['commits_30d']} | {r['gaps']} |")
+    for name in excluded:
+        print(f"| {name} | — | **NOT GRADED** | judgment-only | — | {JUDGMENT_ONLY[name]} |")
     print("\n_Floor = objective structural presence (L0 skeleton · L1 live STATUS · L2 +structured record). "
           "→L3-5? = mechanical hint; **every L3+ is PROVISIONAL (⚠needs-read) until DAEDALUS reads the agent** "
           "(PAT-009/PAT-020). Artifact detection is recursive (live subtrees only). "

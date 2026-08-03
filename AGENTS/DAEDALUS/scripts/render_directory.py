@@ -34,10 +34,11 @@ GROUPS = {
 GROUP_ORDER = ["ACTIVE", "TIER-2", "DORMANT"]
 
 # SPECIAL agents live as PROSE in ROSTER (no table row) but ARE in FLEET_MAP. Domain hardcoded
-# (stable 2-agent set); class/level/missing still render FROM FLEET_MAP. New SPECIAL agent -> add here.
+# (small, slow-changing set); class/level/missing still render FROM FLEET_MAP. New SPECIAL agent -> add here.
 SPECIAL = {
     "DAEDALUS": "Fleet architect — design / structure / maturity / lifecycle",
     "YEYOU":    "Repo-wide reviewer (manual / branch model)",
+    "RAV":      "Deep factual/analytical reviewer + bounded repair (Codex, Will-driven)",
 }
 SPECIAL_HDR = ("SPECIAL — meta / cross-fleet (on-demand)", "\U0001F535")
 DROP = {"HERMES"}  # retired (folder removed); directory lists LIVE agents only.
