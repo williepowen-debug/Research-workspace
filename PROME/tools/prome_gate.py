@@ -126,6 +126,56 @@ def check_docket_overdue():
            "PROME/DOCKET.tsv (grade, re-date, or annotate OVERDUE + owner)")
 
 
+def check_docket_today():
+    """CLOSEOUT-ONLY, BLOCKING: PENDING rows landing TODAY, undispositioned.
+
+    WHY (2026-08-03, the leg-(b) routing gap): PROME closed out at 11:10 with
+    its own SCRATCH saying "THE ONE THING THAT MATTERS TODAY: BRENT deploy-gate
+    leg (a) grades at the 16:00 close" — and PROME was the sole routing path
+    between BRENT and TERRY. BRENT's request landed 11:45 and Will's tenor +
+    size rulings 12:50, into an inbox nobody was reading. TERRY never got the
+    size ruling and logged the item NOT DONE at its own 15:12 closeout.
+
+    Nothing existing could catch it. check_docket_overdue() scans only PAST
+    dates; GATES fired-unexecuted needs a gate to have already FIRED; an
+    inbox check would have passed (inbox was 0 at 11:10 — the packets had not
+    been sent yet). The missing question is the simple one: *is anything
+    landing today, and does it need me after I go dark?*
+
+    Cleared the same way overdue rows are — annotate the row. A row is
+    dispositioned if its STATUS or NOTES carries COVERED (name who has it), or
+    if it has already left PENDING. Deliberately BLOCKING, not advisory: the
+    whole failure mode is a true line nobody read. Cheap to satisfy, impossible
+    to skip. [[finding_mechanize_the_cap_not_the_ritual]]
+    """
+    path = ROOT / "PROME/DOCKET.tsv"
+    today = dt.date.today().isoformat()
+    undispositioned = []
+    with open(path, encoding="utf-8") as f:
+        for r in csv.reader(f, delimiter="\t"):
+            if not r or r[0].startswith("#") or len(r) < 4:
+                continue
+            if r[3].split("(")[0] != "PENDING":
+                continue
+            # A row lands today if it is dated today, or is a range spanning it.
+            start, end = r[0].split("..")[0], r[0].split("..")[-1]
+            if not re.fullmatch(r"\d{4}-\d{2}-\d{2}", end):
+                continue
+            if not (start <= today <= end):
+                continue
+            if "COVERED" in (r[3] + " " + (r[5] if len(r) > 5 else "")):
+                continue
+            owner = r[2][:28] if len(r) > 2 else "?"
+            undispositioned.append(f"{r[1][:44]} [{owner}]")
+    record(BLOCK, "DOCKET lands-today dispositioned", not undispositioned,
+           "; ".join(undispositioned[:5]) +
+           (f" (+{len(undispositioned)-5} more)" if len(undispositioned) > 5 else "")
+           or "nothing PENDING lands today",
+           "PROME/DOCKET.tsv — for EACH: grade it, or annotate COVERED:<who holds it "
+           "after you go dark>. A row whose owner is PROME and that is still PENDING at "
+           "closeout is the routing-gap class: say who covers it or do it now.")
+
+
 def check_will_queue():
     """WILL_QUEUE.md — passed needed-by dates on OPEN rows + stale reconcile stamp.
     Born 2026-07-30 (Will-directed): the operator queue decays like any surface,
@@ -286,6 +336,7 @@ def mode_closeout():
                "--all", "--quiet"], "owner STATUS is canonical")
     check_gates_tsv()          # FIRED-UNEXECUTED must never leave a session
     check_docket_overdue()
+    check_docket_today()       # the pre-fire analogue: don't go dark before today's items
     check_will_queue()
     check_heartbeat_chain()    # the ~5-amendment re-base rule, mechanized (was prose-only on 5 surfaces)
     check_dashboard_state()    # Standard+ closeouts regenerate; this catches a skipped one
