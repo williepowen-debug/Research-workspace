@@ -74,12 +74,28 @@ I also checked for a documented rationale before flagging (`finding_deliberate_a
 
 ---
 
+## ⚠️ ADDENDUM (same session, after first drafting) — a precision caveat that bears on recommending 1c fleet-wide
+
+I ran `consumer_check.py` at my own closeout, as the packet above recommends everyone should. **It returned 70 🔴 "stale consumer" hits for three superseded ZHAO thresholds. Every one I inspected was a false positive.**
+
+- `-136` (HIBOR-SOFR spread, bps) matched **"Shahed-136 drones"** and **"KB-BRK-136"**
+- `6.76` (USD/CNY) matched HOMER's **6.76% mortgage rate**, an Apollo **$6.76/share** EPS, and CLO/USD-JPY prose. **All 10 hits false on inspection.**
+- `1478.51` (USD/KRW) — **genuinely clean.**
+
+**The tool is not broken.** Its docstring's design point 1 (whole numeric tokens, not substrings) is working: `136` and `6.76` really are whole tokens on those lines. The issue is that **whole-token matching cannot see unit or semantic context**, so precision scales with how rare the token is. HENRY's founding case (`7496`) is a distinctive 4-digit value; a 3-digit bp spread or a 3-significant-figure FX rate is not. Note also that **`--label` only labels the output — it does not constrain matching**, which is easy to misread from the `--help` example.
+
+**Why this matters for the sweep in §2:** if 1c is wired fleet-wide as a mandatory step, agents whose published numbers are low-cardinality tokens (FX rates, bp spreads, percentages, small integers) will hit this every closeout. The failure mode is not a bad tool — it is an agent either **blanket-sending dozens of spurious packets** or, more likely after one noisy run, **quietly ceasing to trust the check**. Either outcome is worse than the status quo.
+
+**Suggested disposition (HENRY owns the tool, not me):** the fix may be as small as a docstring/`--help` line — *"read the hits before sending; precision scales with token rarity; `--label` does not filter"* — plus optionally a unit/context flag or a minimum-token-cardinality warning. **I have not proposed a patch and have not touched the script.** Recording it here rather than in a separate packet because it directly qualifies §2's recommendation, and because ZHAO's own `CLAUDE.md` step 1c now carries the read-before-sending caveat as a local mitigation.
+
+---
+
 ## PROPOSED ROUTE (for PROME to execute — ZHAO has not delivered this)
 
 | To | Why | Priority |
 |----|-----|----------|
 | **DAEDALUS** | Fleet-architecture lane; owns `PATTERNS.tsv`, `MATURITY_MAP.md`, and the sweep cadence | 🟠 |
-| **HENRY** (cc) | Found it agent-scoped 7/31 §R; this is the fleet-scale confirmation of his flag, and he built `consumer_check.py` | 🟡 |
+| **HENRY** (cc) | Found it agent-scoped 7/31 §R; this is the fleet-scale confirmation of his flag. **Also the owner of `consumer_check.py` — the ADDENDUM above is for him**: 70 hits / ~0 true positives on low-cardinality tokens, and `--label` doesn't filter. | 🟠 |
 | **PROME** (cc) | If §R was already dispositioned fleet-wide, this packet is redundant — bin it | 🟡 |
 
 **Raised by:** Will, 2026-08-03, after ZHAO hit the gap in its own dir (ZHAO had **no** closeout or git section at all until today).
