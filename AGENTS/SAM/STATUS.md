@@ -171,11 +171,37 @@ The carry-convexity-tail is a **WATCH-FOR-ENTRY thesis on a flat book.** At MED-
 
 ---
 
+## 🔴 PRE-REGISTRATION — INTERVENTION CHARACTER (written 2026-08-03 ~11:15 ET, **BEFORE** the Fri 8/7 15:30 ET print)
+
+*Closes `MSG-PROME-20260803-001#SAM-01`. Timestamped pre-print by design: answered after Friday, the answer is contaminated by the outcome. Falsifiable form → `thesis/PREDICTIONS.tsv` **SAM-39**.*
+
+**QUESTION:** does an officially-confirmed, publicly *pledged*, US-backstopped yen appreciation **COMPRESS** the disorderly-move tail a long-FXY convexity structure buys, or **FATTEN** it?
+
+**VERDICT: FATTEN — in yen-space only, NOT the Aug-2024 cross-asset cascade. Confidence MEDIUM.**
+
+**Mechanism (3 legs):**
+1. **Intervention ops *are* the highest-range events in the series** — own repaired data: 7/30 **5.82y**, 7/31 **3.73y**, Apr-30 5.15y, against a 60-session pre-episode max of 1.90y. A pledged, repeatable two-government regime is therefore a **high-realized-range** regime in USD/JPY, directionally aligned with long-FXY. ⚠️ *The intuitive read inverts here:* their **stated objective** is countering disorder, but their **method** — large one-sided buying — **is itself the disorderly move.*
+2. **The reaction function is asymmetric in our favour.** They act against yen *weakness*; having declared the yen **"substantially undervalued"** (Bessent 8/2) they have no political appetite to cap yen *strength*. The official put sits **under** the yen, upside uncapped.
+3. **Same-side flow.** Official buying and short-covering are *both* yen-buying; at 90.8% of record short the carry crowd is the only structural seller — fuel, not damper.
+
+**Why MEDIUM and not HIGH (the honest counterweight):**
+- **The Aug-2024 replay is NOT supported by my own evidence** — on 7/30, the largest yen move since Dec-2023, **VIX FELL 17.3%** and equity vol never transmitted. Cross-asset legs stay decoupled; SAM-31 unfired.
+- **A managed, gradual appreciation is a live alternative** that pays a convexity structure nothing — and it **cuts at my own leg (1)**: if the yen keeps strengthening unaided (156.80 on 8/3), officials need not act, so my mechanism *requires official action that may prove unnecessary*.
+- Oil de-escalation removes Phase-1 yen pressure, further reducing the need to intervene.
+
+**Base rate (measured, not asserted):** **0/60** sessions ≥2.5y in the 60 before 7/30; **2/250** over the prior year (~0.8%/session) → naive P(≥1 in ~33 remaining sessions) ≈ **23%**. SAM-39's 55% is a **discriminating** mark (~+32pp), not consensus-tracking — and held deliberately below enthusiasm given the documented over-confidence cluster (SAM-08 @90%, SAM-20 @60%, both FAILED).
+
+**→ CONVERSION-RULE IMPACT: NONE. The GATE-SAM-30 resolver map is UNCHANGED** (≤−153K = CONFIRM/enter · −140K..−153K = decompose legs · past −140K = DE-LOAD, revert MEDIUM). The resolver measures whether the **fuel** is intact; this verdict measures whether the **payoff mechanism** survives. Different questions — **a fatten read does not license loosening the fuel test.** Explicitly *not* relaxing the rule on an unpriced mechanism read: that is the exact shape of the SAM-30 → SAM-36 <12h whipsaw.
+
+**Out of scope, unresolved:** **pricing.** A fattened tail at a fat price is not an edge. FXY vol was unreadable 8/3 (degraded snapshot — pre-open, stale underlying, thin wings; KB-183 = read sign not level). **Distribution is SAM's call; price is TERRY's.**
+
+---
+
 ## PREDICTIONS
 
-**4 OPEN — SAM-28** (≥1 tail-route fires ≥+3% FXY by Sep-18, 40%) · **SAM-29** (net does NOT cover below −108K by Sep-18, 65%) · **SAM-31** (yen-haven channel re-couples by Sep-18, 35%) · **SAM-33** (no BOJ emergency long-end capping through Dec-31, 72%). **Scoreboard 14 CONFIRMED / 12 FAILED / 1 special.** Canonical → `thesis/PREDICTIONS.tsv` (read the calibration preamble before writing any new row); post-mortems → `PREDICTIONS_ARCHIVE.md`.
+**5 OPEN — SAM-28** (≥1 tail-route fires ≥+3% FXY by Sep-18, 40%) · **SAM-29** (net does NOT cover below −108K by Sep-18, 65%) · **SAM-31** (yen-haven channel re-couples by Sep-18, 35%) · **SAM-33** (no BOJ emergency long-end capping through Dec-31, 72%) · 🆕 **SAM-39** (intervention-character test — ≥1 session ≥2.5y USD/JPY range 8/4→9/18, 55%). **Scoreboard 14 CONFIRMED / 12 FAILED / 1 special.** Canonical → `thesis/PREDICTIONS.tsv` (read the calibration preamble before writing any new row); post-mortems → `PREDICTIONS_ARCHIVE.md`.
 
-⚠️ **Consider formalizing the 8/7 resolver as SAM-39 before the print** — the terms are already registered in the memo §5B; writing them as a scored row before Friday converts a disposition into a calibration datum.
+⚠️ **The 8/7 resolver is still un-scored — formalize it as SAM-40 before the print** (SAM-39 is now taken by the character test above; never-reuse numbering). The terms are already registered in the memo §5B; writing them as a scored row before Friday converts a disposition into a calibration datum.
 
 ---
 
