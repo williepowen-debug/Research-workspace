@@ -14,10 +14,12 @@
 | Fannie/Freddie Blacklist | 1,438 (⚠️ Apr-2025 vintage — re-searched 7/21, NO fresher public count; list confidential) | — | — | 🟡 1,600 / 🟠 1,800 / 🔴 2,000 | 🟠 (stale count) |
 | Miami/Palm Beach Concentration | 696 tri-county (same vintage) | — | — | ~50% of total | 🟠 |
 | Blacklist Growth Rate | UNOBSERVABLE at current disclosure (counts surface via leaks) | — | — | >10%/quarter = acceleration | ⏳ |
-| **GSE review regime (policy overlay)** | **"Limited review" ELIMINATED for most condo loans eff Aug 3 2026** — all full review | limited review available | tightening | de-facto ineligibility can grow with NO headcount change — do not read the stale count as "stable" | 🟠 NEW 7/21 |
+| **GSE review regime (policy overlay)** | ⭐ **LIVE SINCE 2026-08-03** — Limited/Streamlined Review ELIMINATED for applications dated on/after 8/3; projects **>10 units** → mandatory Full Review regardless of down payment (reserves, deferred maintenance, **open special assessments**, litigation, master insurance all interrogated). **2nd gate 2027-01-04: reserve funding 10% → 15%** of budgeted assessment income. Also: per-unit master-policy deductible capped at **$50,000** for apps dated on/after 7/1/26 | limited review available (pre-8/3) | **TIGHTENED — now in force, no longer forward-looking** | ⭐ **THE OPERATIVE THRESHOLD: unfunded repairs >$10,000/unit due within 12 months = non-warrantable flag.** CORAL's tracked assessments are **$25K–$100K/unit typical (tail $400K) = 2.5–40× that bar** → the SIRS cohort is non-warrantable **BY CONSTRUCTION.** De-facto ineligibility grows with NO headcount change — never read the stale count as "stable" | 🔴 LIVE 8/3 (was 🟠 NEW 7/21) |
+| **Warrantable vs non-warrantable spread (FL condo)** | **NOT YET MEASURED — instrument registered 8/3** | n/a | n/a | The cleaner read than the blended statewide median (which already turned +1.7% YoY). Watch **DOM · cash-share · price** diverging between warrantable and non-warrantable FL condo from Aug-2026 onward. Non-warrantable ≠ unfinanceable (Non-QM/portfolio/DSCR survive dearer) → expect a **buyer-pool/price** effect, not a transaction stop | ⏳ NEW 8/3 (HOMER-proposed, CORAL-adopted) |
 
-*Source: count TD Economics/media (Apr 2025); GSE policy via MPA/Kelley Grant (Mar-2026 standards update), pulled 7/21*
-*Last Updated: 2026-07-21 (count itself unchanged/stale-marked)*
+*Source: count TD Economics/media (Apr 2025) — **count vintage Apr-2025, stale-marked, no fresher public figure exists (list is confidential by construction)**. GSE policy: attributed to Fannie/Freddie **Lender Letter LL-2026-03 (2026-03-18)** via multiple independent trade outlets + HOMER's independent 7/31 packet.*
+⚠️ ***GSE policy rows are PRESS-TIER, not primary — `singlefamily.fanniemae.com` Cloudflare-403'd on curl+UA AND WebFetch 8/3, and Selling Guide B4-2.2-01 still shows pre-change text dated 04/02/2025. Open verification item. A same-family announcement (SEL-2026-05) may separately LOOSEN FL requirements (waiver expanded to ≤10 units, FL-specific PERS requirement retired) — summary-tier, NOT adopted, also open.***
+*Last Updated: **2026-08-03** (GSE regime row moved forward-looking → LIVE; warrantability instrument installed). Prior: 2026-07-21. **Count data vintage remains Apr-2025** — this section's touch date is NOT its data vintage, and the two are deliberately stated separately (CREED interface flag 7/27, checked and confirmed clean).*
 
 ### Association Distress
 
@@ -142,8 +144,10 @@
 | Short Interest | **4.18%** | 7 days to cover | Squeeze risk if M&A |
 | P/TBV | **~2.0x** | Premium valuation | Takeout at 2.5-2.7x? |
 
+⚠️ **STALE — Q4-2025 vintage, ~6 months old. SUPERSEDED for all credit metrics by the Q2-2026 grade (2026-08-03).** Do not cite the rows above as current. **Live SBCF credit: NCO 0.10% · NPL $86.5M/0.66% (REVERSED from $95.0M, −8.9% QoQ) · ACL 1.38% · criticized/classified 2.88% · CRE 230% / C&D 40% of bank-level RBC (UP from the 216%/32% shown above) · assets $21.4B post-Villages.** Canonical → `FL_BANK_WATCHLIST.md` row 7 + KB ML-CORAL-054. **Kept as the Q4-2025 baseline for trend comparison only** (the CRE/RBC move 216% → 230% over three quarters is itself the useful read).
+
 *Source: SBCF Q4 2025 earnings, 10-K, research documents*
-*Last Updated: 2026-02-11*
+*Last Updated (touch): 2026-08-03 — supersession banner added. **DATA VINTAGE: Q4-2025, unchanged.** The two are stated separately on purpose (CREED interface flag 7/27).* Prior touch: 2026-02-11
 
 ---
 
