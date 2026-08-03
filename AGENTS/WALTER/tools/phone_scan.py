@@ -58,8 +58,19 @@ WALTER = Path(__file__).resolve().parent.parent
 # harness point at a scratch dir without ever writing to that repo.
 # Unset in normal operation; the defaults below are what production uses.
 PHONE_DIR = Path(os.environ.get("WALTER_PHONE_DIR", LANE / "phone_inbox"))
-SEEN = Path(os.environ.get("WALTER_PHONE_SEEN", WALTER / "registry" / "phone_seen.json"))
 _TEST_MODE = "WALTER_PHONE_DIR" in os.environ
+# TEST MODE MUST ISOLATE THE SEEN-FILE TOO, not just the input dir.
+# Found 2026-08-03: _TEST_MODE only drove the banner, so `WALTER_PHONE_DIR=... --mark`
+# — the obvious way to test — wrote FIXTURE hashes into the LIVE registry/phone_seen.json,
+# silently. That is unacceptable in the one registry whose whole purpose is "never
+# silently drop a signal Will sent from his phone." A test harness that mutates the
+# production state it is testing is not a harness. An explicit WALTER_PHONE_SEEN still
+# wins, so a caller can point it anywhere on purpose.
+if _TEST_MODE:
+    _default_seen = PHONE_DIR.parent / "phone_seen.TEST.json"
+else:
+    _default_seen = WALTER / "registry" / "phone_seen.json"
+SEEN = Path(os.environ.get("WALTER_PHONE_SEEN", _default_seen))
 
 VALID_PRIORITY = {"🔴", "🟠", "🟡"}
 DEFAULT_PRIORITY = "🟡"
@@ -143,6 +154,7 @@ def main():
     print("PHONE-SIGNAL scan — RESEARCH-INTAKE/phone_inbox/")
     print("=" * 64)
     if _TEST_MODE:
+        print(f"    seen-file (isolated): {SEEN}")
         print(f"⚠️  TEST MODE — reading {PHONE_DIR} (NOT the live lane)")
 
     if not _TEST_MODE and not LANE.exists():

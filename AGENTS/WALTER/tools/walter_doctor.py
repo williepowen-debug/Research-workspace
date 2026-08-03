@@ -37,6 +37,7 @@ Checks:
   cluster_review_overdue  days since each large cluster's last coherence review (cadence prompt)
   registered_but_unrouted agent has a REGISTRY row but zero ROUTING_TABLE presence
   correction_target_declared  every `signal_type: correction` declares a resolvable `corrects:` (SIG-ID/SELF/EXTERNAL)
+  batch_manifest_open    a declared Will-batch left OPEN with un-dispositioned items (the input-side blind spot)
 
 The two delivery checks mechanize BOARD_CONSUMPTION_SPEC v0.2 §6 (the anti-rot
 safeguard for the WALTER Routing v2 delivery layer). Sync/origin state is derived
@@ -1439,6 +1440,72 @@ def check_correction_target_declared():
     return out
 
 
+
+def check_batch_manifest_open():
+    """An OPEN batch manifest with un-dispositioned items, surfaced before closeout.
+
+    Closes the ONE failure class every other check in this file is structurally blind to:
+    all 24 others measure what was DISPATCHED, where it LANDED, and whether it COMMITTED.
+    An INPUT that arrives and quietly never becomes anything is invisible to all of them
+    (7/31: a 7-image Will batch, 6 processed, the highest-consequence item invisible ~2h
+    and surfaced only because Will asked).
+
+    ⚠️ RESIDUAL, stated because a green line here must NOT be read as "nothing was
+    dropped": this can only see batches that were DECLARED. An undeclared batch is
+    invisible by construction — the same shape as keying a check on the field whose
+    absence is the defect. The INFO line says so explicitly rather than reading clean."""
+    ledger = WALTER / "registry" / "BATCH_MANIFEST.tsv"
+    if not ledger.exists():
+        return [(INFO, "no batch manifest yet — NOTE: this cannot see an UNDECLARED batch; "
+                       "green here is not evidence that no input was dropped")]
+    try:
+        lines = ledger.read_text(encoding="utf-8").splitlines()
+    except OSError as e:
+        return [(MED, f"BATCH_MANIFEST.tsv unreadable ({e})")]
+    out, open_n = [], 0
+    for i, line in enumerate(lines):
+        if not line.strip() or line.startswith("#") or line.startswith("batch_id\t"):
+            continue
+        f = line.split("\t")
+        if len(f) != 8:
+            out.append((MED, f"BATCH_MANIFEST.tsv line {i+1}: {len(f)} fields, expected 8 "
+                             f"— manifest unparseable, fix by hand"))
+            continue
+        bid, opened, source, declared, _disp, state, items, _notes = f
+        if state != "OPEN":
+            continue
+        open_n += 1
+        try:
+            dn = int(declared)
+        except ValueError:
+            out.append((MED, f"{bid}: declared={declared!r} is not an integer")); continue
+        got = set()
+        for part in items.split(";"):
+            if "=" in part:
+                try:
+                    got.add(int(part.split("=", 1)[0]))
+                except ValueError:
+                    pass
+        missing = [n for n in range(1, dn + 1) if n not in got]
+        age = ""
+        try:
+            d = dt.datetime.strptime(opened[:10], "%Y-%m-%d").date()
+            age = f", opened {(TODAY - d).days}d ago"
+        except ValueError:
+            pass
+        if missing:
+            out.append((MED, f"{bid} OPEN with {len(missing)} of {dn} un-dispositioned: "
+                             f"{missing} — {source[:60]}{age}. Every item needs a disposition "
+                             f"INCLUDING NO-ACTION; run batch_manifest.py --close {bid}"))
+        else:
+            out.append((LOW, f"{bid} fully dispositioned ({dn}/{dn}) but still OPEN{age} "
+                             f"— run --close {bid}"))
+    if not out:
+        out.append((INFO, "no OPEN batch manifests — NOTE: cannot see an UNDECLARED batch; "
+                          "green here is not evidence that no input was dropped"))
+    return out
+
+
 CHECKS = [
     ("version_drift", check_version_drift),
     ("claude_md_version_drift", check_claude_md_version_drift),
@@ -1465,6 +1532,7 @@ CHECKS = [
     ("cluster_review_overdue", check_cluster_review_overdue),
     ("registered_but_unrouted", check_registered_but_unrouted),
     ("correction_target_declared", check_correction_target_declared),
+    ("batch_manifest_open", check_batch_manifest_open),
 ]
 
 MARK = {HIGH: "✗", MED: "⚠", LOW: "·", INFO: "✓"}

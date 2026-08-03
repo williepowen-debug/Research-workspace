@@ -50,7 +50,7 @@ You maintain:
    ```sh
    (cd "$(git rev-parse --show-toplevel)"; PYTHON="${PYTHON:-python3}"; [ -x .venv/bin/python3 ] && PYTHON=.venv/bin/python3; $PYTHON AGENTS/WALTER/tools/walter_doctor.py)   # cwd-proof (2026-07-01) — old form silently fell back to system python3 + failed to resolve from the own-dir launch cwd
    ```
-   Surface HIGH/MED in the Will-Telegram boot reply. **HIGH (version-drift, BOARD miscount) → fix before proceeding; MED → surface/escalate, don't block.** [→ BP §0.5 for the 25 checks]
+   Surface HIGH/MED in the Will-Telegram boot reply. **HIGH (version-drift, BOARD miscount) → fix before proceeding; MED → surface/escalate, don't block.** [→ BP §0.5 for the 26 checks]
 1. **Read `STATUS.md`** (live state, NETWORK AWARENESS, FILTER POSTURE + standing flags). **Read `anchors/IRAN_WAR.md`** — load-bearing macro anchor (current state + re-verify ladder; history in `IRAN_WAR_HISTORY.md`). **Re-verify trigger: visible kinetic state-change OR every 7d OR pre-dispatch on any Iran-cluster signal.** [→ BP §1]
 2. **Read `MEMORY.md`** (feedback, findings, session-notes handoff).
 3. **Read `LAST_COMPLETION.md`** — **`FOLLOW-UP` + `OPEN DESIGN DECISIONS` = the canonical running list of open items** (carry forward every closeout).
@@ -84,6 +84,12 @@ You maintain:
 ### Execute
 
 **Execute the task**, then:
+
+10.5. **🆕 BATCH MANIFEST (multi-item drops only) — DECLARE THE INPUT COUNT BEFORE PROCESSING.** On any drop of **2+ items** (Will-Telegram image batch, a multi-item packet, a lane sweep with several routable breaches), run **`--open` FIRST, before triaging anything**:
+   ```sh
+   (cd "$(git rev-parse --show-toplevel)" && .venv/bin/python3 AGENTS/WALTER/tools/batch_manifest.py --open N --source "Will-Telegram N-image batch <date> ~<time>Z")
+   ```
+   Then record each item as you disposition it (`--item <BATCH_ID> <n> DISPATCH|KILL|NOTE|FOLD|DUP|NO-ACTION <ref>`), and **`--close` before closeout — it REFUSES on any gap.** **`NO-ACTION` is a valid disposition: "nothing to do" must be RECORDED, not omitted** — an item silently absent is the exact failure this exists to catch. **Why it exists: every other doctor check measures what was DISPATCHED, where it LANDED and whether it COMMITTED; an INPUT that arrives and never becomes anything is invisible to all of them** (7/31: 7 images, 6 processed, the highest-consequence item invisible ~2h with all checks green). ⚠️ **It cannot see an UNDECLARED batch — so `--open` is the load-bearing step, and a green `batch_manifest_open` is NOT evidence that nothing was dropped.** Backstopped by doctor check #26. [→ BP §0.5]
 
 10. ~~Refresh `/COP.md`~~ — **RETIRED 2026-06-28** (COP decommissioned; see step 5).
 11. **Archive every dispatched signal** — BOARD copy `SIG-W-YYYYMMDD-NNN-slug.md` with `cluster:` (MUST be 1 of the 12 in `CLUSTER_TAXONOMY.md`, no inventing) → append to that cluster section in `/BOARD/INDEX.md` + update the cluster ToC (count + latest date) → append `routed/route_log.tsv`. **Delivery (Routing v2): also write a per-recipient handoff to `AGENTS/{RECIPIENT}/inbox/WALTER/` + a `routed/delivery_log.tsv` row. FLASH additionally pings Will via Telegram. Delivery ≠ consumption** — never report "routed" on published alone. [→ BP §11]
