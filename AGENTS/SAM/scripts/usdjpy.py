@@ -62,19 +62,88 @@ INTRADAY_RANGE_CRIT = 4.0      # 🔴 intervention-grade move
 # Confirmed MOF intervention episodes (public record). Touches near these
 # dates get a MOF marker; touches NOT near these dates = "no MOF" (level was
 # hit naturally without policy response).
-# Format: (date, label_compact, size_trillion_yen)
+# Format: (date, label_compact, size_trillion_yen_or_None, actor)
 # Labels use MonYYYY (e.g. "May2026") — never "May26", which mis-reads as a
 # day-of-month ("May 26"); that exact mis-parse propagated on 2026-06-09.
+#
+# `actor` added 2026-08-03: this stopped being a MOF-only list on 7/31, when the US
+# TREASURY bought yen. Marking a US operation "MOF" would be a category error, and the
+# distinction is load-bearing — SAM's registered discriminator for the 7/31 session was
+# the BOJ current-account Tanshi gap, which reads JAPANESE fiscal factors and is
+# therefore structurally incapable of seeing a US-side op. A null print there would have
+# graded a confirmed intervention as "no op." Keep the sovereign explicit.
+#
+# `size` is None where no figure is official — never fabricate one (root rule #3).
 MOF_INTERVENTIONS = [
-    ("2022-09-22", "Sep2022", 2.84),  # first since 1998; USDJPY 145 → 140
-    ("2022-10-21", "Oct2022", 6.35),  # stealth Oct 21-24; combined Q4 2022 ¥9.2T
-    ("2024-04-29", "Apr2024", 5.5),   # first 2024 act; USDJPY 160.17 peak
-    ("2024-05-01", "May2024", 4.3),   # second 2024 act; combined Apr/May ¥9.8T
-    ("2024-07-11", "Jul2024", 5.5),   # pre-Aug 2024 unwind
-    ("2026-04-30", "Apr2026", 5.48),  # post Apr 28 BOJ hawkish hold; USDJPY 160.70 peak → 155.55 intraday low (5.15y range); first since Jul 2024
-    ("2026-05-06", "May2026", 4.3),   # Golden Week round; intraday low 155.05 (2.84y range); combined Apr/May ~¥10T (~$63.5B) — largest since 2022 per BofA
+    ("2022-09-22", "Sep2022", 2.84, "MOF"),  # first since 1998; USDJPY 145 → 140
+    ("2022-10-21", "Oct2022", 6.35, "MOF"),  # stealth Oct 21-24; combined Q4 2022 ¥9.2T
+    ("2024-04-29", "Apr2024", 5.5, "MOF"),   # first 2024 act; USDJPY 160.17 peak
+    ("2024-05-01", "May2024", 4.3, "MOF"),   # second 2024 act; combined Apr/May ¥9.8T
+    ("2024-07-11", "Jul2024", 5.5, "MOF"),   # pre-Aug 2024 unwind
+    ("2026-04-30", "Apr2026", 5.48, "MOF"),  # post Apr 28 BOJ hawkish hold; USDJPY 160.70 peak → 155.55 intraday low (5.15y range); first since Jul 2024
+    ("2026-05-06", "May2026", 4.3, "MOF"),   # Golden Week round; intraday low 155.05 (2.84y range); combined Apr/May ~¥10T (~$63.5B) — largest since 2022 per BofA
+    # --- the Jul-30/31 round (added 2026-08-03) ---
+    # 7/30: occurrence Reuters source-confirmed (NY session); ~¥8.45T is a BLOOMBERG
+    #       ESTIMATE off the BOJ projection gap, NOT a MOF figure. Hard confirm ~Aug-31
+    #       (MOF monthly, Jul-30→Aug-27 window). Size left None deliberately.
+    #       SAM's own detector grades it INTERVENTION-GRADE (5.82y intraday range).
+    ("2026-07-30", "Jul2026", None, "MOF"),
+    # 7/31: US TREASURY, not MOF. NY Fed sold EUROS for yen on Treasury's own account
+    #       through Goldman Sachs + Morgan Stanley. Officially confirmed by BOTH
+    #       governments (Bessent statement 8/2 ~19:00 ET); first joint US-Japan
+    #       yen-buying intervention in over a decade, executed under the September 2025
+    #       Joint Statement of the two finance ministers. Reuters photographed Bessent's
+    #       notepad reading "$5-10 bil" — INTENDED scale, not an executed amount, so
+    #       size stays None. Whether MOF *also* acted on 7/31 is still open.
+    ("2026-07-31", "Jul2026", None, "USTreasury"),
 ]
 INTERVENTION_WINDOW_DAYS = 3  # touch date within ±N days of intervention = match
+
+# ---------------------------------------------------------------------------
+# SOURCE-INTEGRITY LAYER (added 2026-08-03, Will-directed)
+#
+# Why this exists. The 2026-08-02 fix stopped the script appending bars it KNEW
+# were partial (the local-vs-index timezone bug). It gave the script no way to
+# notice a bar that is SILENTLY TRUNCATED but looks final — and yfinance's daily
+# FX bars are exactly that. Measured against hourly ground truth over the last 45
+# sessions: 7 rows understate the true range by >0.30y, one (2026-07-31) by 1.487y
+# — recorded 2.168y against a true 3.655y, on a session now confirmed to contain a
+# US Treasury yen-buying intervention. The bias is SYSTEMATICALLY DIRECTIONAL: the
+# daily bar almost always UNDER-states. For a detector whose entire job is to fire
+# on large ranges, that is a false-negative-biased instrument — the worst direction.
+#
+# The signature is visible in the raw data: Open ≈ Close on nearly every row
+# (7/28 163.792/163.771, 7/29 163.858/163.864, 7/31 160.179/160.183). Yahoo's daily
+# FX "Close" is a bar-boundary snapshot, not the session's last trade.
+#
+# Three layers, because fixing only the first would have left the next defect
+# equally invisible and equally permanent:
+#   L1  Derive sessions from HOURLY bars, not the daily series (fetch_hourly_sessions).
+#   L2  UPSERT recent rows instead of append-only, so a bad row can heal on the next
+#       boot. Append-only + idempotent-by-date made every bad row PERMANENT — a
+#       re-pull could not fix it, which is why the 8/2 repair silently regressed the
+#       very next day. See auto-memory finding_partial_record_written_as_final_never_heals.
+#   L3  A DISAGREEMENT alarm, not a freshness check. A staleness check compares
+#       mtime and happily passes a fresh-but-false row, so it cannot see this class
+#       at all; what catches it is two instruments disagreeing. That is literally how
+#       the 8/2 bug was found — one module printed 157.22 and another 160.71, and the
+#       disagreement was the only free alarm. See finding_freshness_check_cannot_catch_a_fresh_lie.
+#
+# Session convention: LONDON CALENDAR DAY. Chosen empirically, not by preference —
+# it reproduces the existing 5y series most closely (median |range diff| 0.071y vs
+# 0.089y for an ET-calendar grouping) AND recovers the independently-verified
+# 2026-07-31 close of 157.40 (confirmed three ways: investing.com 157.3950, the live
+# quote, and yfinance's own previousClose field). Continuity with the existing date
+# labels is preserved; no historical re-labelling.
+# ---------------------------------------------------------------------------
+
+SESSION_TZ = "Europe/London"   # yfinance labels USDJPY=X bars in London time
+REVISION_WINDOW_DAYS = 10      # L2: rows this recent are recomputed + overwritten each run
+HOURLY_LOOKBACK_DAYS = 60      # L1/L3: hourly window pulled for revision + audit
+REVISION_EPSILON = 0.005       # yen; below this a difference is rounding, not a revision
+RANGE_DISAGREEMENT_ALARM = 0.30  # L3: daily-vs-hourly range gap that trips the alarm
+FLAT_BAR_EPSILON = 0.02        # L3: |Open-Close| under this = a suspect "flat" bar
+FLAT_BAR_FRACTION_ALARM = 0.60   # L3: share of recent flat bars that trips the class alarm
 
 
 def fetch_yfinance(period="5y"):
@@ -89,6 +158,65 @@ def fetch_yfinance(period="5y"):
     except Exception as e:
         print(f"  ERROR fetching from yfinance: {e}")
         return None
+
+
+def fetch_hourly_sessions(days=HOURLY_LOOKBACK_DAYS):
+    """L1 — derive daily sessions from HOURLY bars instead of trusting the daily series.
+
+    Groups 1h bars by LONDON calendar date (see SOURCE-INTEGRITY note) and aggregates
+    O/H/L/C ourselves. Returns {date_str: (open, high, low, close)} or {} on failure.
+
+    The current (incomplete) session is dropped — same reasoning as the daily path.
+    Hourly history is bounded (~730d) while the workbook is 5Y, but that is not a
+    limitation in practice: every consumer of this file reads a RECENT window (the
+    5-day intraday-range alert, the 30/90/365d range lines), so the series only needs
+    to be hourly-accurate where hourly exists. Deep history stays on the daily source.
+    """
+    try:
+        import yfinance as yf
+        h = yf.Ticker("USDJPY=X").history(period=f"{days}d", interval="1h")
+        if h.empty:
+            return {}
+        h = h.copy()
+        h.index = h.index.tz_convert(SESSION_TZ)
+        today_str = datetime.now(h.index.tz).strftime("%Y-%m-%d")
+
+        sessions = {}
+        for day, chunk in h.groupby(h.index.strftime("%Y-%m-%d")):
+            if day >= today_str:      # current session still printing
+                continue
+            chunk = chunk.sort_index()
+            o, hi = float(chunk["Open"].iloc[0]), float(chunk["High"].max())
+            lo, cl = float(chunk["Low"].min()), float(chunk["Close"].iloc[-1])
+            if any(v != v for v in (o, hi, lo, cl)):   # NaN guard
+                continue
+            sessions[day] = (o, hi, lo, cl)
+        return sessions
+    except Exception as e:
+        print(f"  ⚠️  hourly fetch failed ({e}) — falling back to daily bars only")
+        return {}
+
+
+def write_tsv(rows):
+    """Atomically rewrite the TSV from `rows` (list of dicts, any order).
+
+    Atomic (temp + os.replace) because L2 rewrites rather than appends, and this
+    file lives in a shared repo — a half-written ledger is worse than a stale one.
+    """
+    import os, tempfile
+    rows = sorted(rows, key=lambda r: r["date"])
+    fd, tmp = tempfile.mkstemp(dir=str(WORKBOOK), prefix=".USDJPY.", suffix=".tmp")
+    try:
+        with os.fdopen(fd, "w") as f:
+            f.write(TSV_HEADER)
+            for r in rows:
+                f.write(f"{r['date']}\t{r['open']:.4f}\t{r['high']:.4f}"
+                        f"\t{r['low']:.4f}\t{r['close']:.4f}\n")
+        os.replace(tmp, USDJPY_TSV)
+    except Exception:
+        if os.path.exists(tmp):
+            os.unlink(tmp)
+        raise
 
 
 def load_tsv():
@@ -115,18 +243,25 @@ def load_tsv():
     return rows
 
 
-def merge_and_write(df):
-    """Append fully-closed daily rows to TSV. Skips today (intraday partial).
-    Returns count appended."""
-    existing_dates = set()
-    if USDJPY_TSV.exists():
-        with open(USDJPY_TSV) as f:
-            next(f, None)
-            for line in f:
-                parts = line.split("\t", 1)
-                if parts:
-                    existing_dates.add(parts[0])
-    else:
+def merge_and_write(df, hourly=None):
+    """L2 — UPSERT fully-closed sessions into the TSV. Skips today (intraday partial).
+
+    Two-pass:
+      1. APPEND any date missing from the file (daily source — this is what keeps 5Y
+         of history alive beyond the hourly window).
+      2. REVISE the last REVISION_WINDOW_DAYS: recompute from `hourly` and OVERWRITE
+         where the stored row disagrees. This is the layer that matters. The old
+         append-only/idempotent-by-date behaviour made every bad row PERMANENT — a
+         re-pull could not correct it, so the 8/2 repair regressed the next day when
+         the same source handed back the same truncated bar. Rows older than the
+         window are frozen (hourly can't reach them, and silent deep-history churn
+         would be worse than the defect).
+
+    Returns (appended, revised, revision_details).
+    """
+    hourly = hourly or {}
+    existing = {r["date"]: r for r in load_tsv()}
+    if not USDJPY_TSV.exists():
         with open(USDJPY_TSV, "w") as f:
             f.write(TSV_HEADER)
 
@@ -141,10 +276,12 @@ def merge_and_write(df):
     # strike-watch, so the failure was silent and FALSE-NEGATIVE.
     idx_tz = getattr(df.index, "tz", None)
     today_str = datetime.now(idx_tz).strftime("%Y-%m-%d")
-    new_rows = []
+
+    # ---- pass 1: append dates the file has never seen (daily source) ----
+    appended = 0
     for ts, row in df.iterrows():
         date_str = ts.strftime("%Y-%m-%d")
-        if date_str in existing_dates:
+        if date_str in existing:
             continue
         # Skip today AND anything later — USDJPY=X trades 24/5, so the current bar is
         # an intraday partial. Let it land in TSV tomorrow when the day is fully closed.
@@ -154,15 +291,93 @@ def merge_and_write(df):
         vals = [row["Open"], row["High"], row["Low"], row["Close"]]
         if any(v != v for v in vals):  # NaN != NaN
             continue
-        new_rows.append((date_str, vals[0], vals[1], vals[2], vals[3]))
+        # Prefer the hourly-derived session even on first write, so a new row never
+        # enters the ledger truncated in the first place.
+        if date_str in hourly:
+            o, hi, lo, cl = hourly[date_str]
+        else:
+            o, hi, lo, cl = vals
+        existing[date_str] = {"date": date_str, "open": o, "high": hi,
+                              "low": lo, "close": cl}
+        appended += 1
 
-    if new_rows:
-        new_rows.sort(key=lambda r: r[0])
-        with open(USDJPY_TSV, "a") as f:
-            for date_str, op, hi, lo, cl in new_rows:
-                f.write(f"{date_str}\t{op:.4f}\t{hi:.4f}\t{lo:.4f}\t{cl:.4f}\n")
+    # ---- pass 2: revise the recent window against hourly truth ----
+    cutoff = (date.today() - timedelta(days=REVISION_WINDOW_DAYS)).isoformat()
+    revisions = []
+    for date_str, (o, hi, lo, cl) in sorted(hourly.items()):
+        if date_str < cutoff or date_str not in existing:
+            continue
+        cur = existing[date_str]
+        deltas = [abs(cur["open"] - o), abs(cur["high"] - hi),
+                  abs(cur["low"] - lo), abs(cur["close"] - cl)]
+        if max(deltas) <= REVISION_EPSILON:
+            continue
+        old_range, new_range = cur["high"] - cur["low"], hi - lo
+        revisions.append((date_str, old_range, new_range,
+                          cur["close"], cl))
+        existing[date_str] = {"date": date_str, "open": o, "high": hi,
+                              "low": lo, "close": cl}
 
-    return len(new_rows)
+    if appended or revisions:
+        write_tsv(list(existing.values()))
+
+    return appended, len(revisions), revisions
+
+
+def audit_source_quality(rows, hourly):
+    """L3 — a DISAGREEMENT alarm, not a freshness check.
+
+    A staleness check compares mtime and passes a fresh-but-false row, so it is blind
+    to this entire class. Two independent instruments disagreeing is what catches it.
+
+    Two tests:
+      (a) per-row: stored range vs hourly-derived range beyond RANGE_DISAGREEMENT_ALARM.
+      (b) class-level: the Open≈Close signature. A single flat bar is unremarkable;
+          a SUSTAINED majority of flat bars means the source is snapshotting the
+          bar boundary rather than reporting the session, which is the root defect.
+          Checking the class rather than the row is what makes this durable — it will
+          fire on the NEXT variant of this bug, not just the one already found.
+
+    Prints alarms; returns True if anything tripped.
+    """
+    tripped = False
+    by_date = {r["date"]: r for r in rows}
+
+    if hourly:
+        gaps = []
+        for date_str, (_o, hi, lo, _cl) in hourly.items():
+            r = by_date.get(date_str)
+            if not r:
+                continue
+            gap = (hi - lo) - (r["high"] - r["low"])
+            if abs(gap) > RANGE_DISAGREEMENT_ALARM:
+                gaps.append((date_str, r["high"] - r["low"], hi - lo, gap))
+        if gaps:
+            tripped = True
+            gaps.sort(key=lambda g: -abs(g[3]))
+            print(f"  🔴 SOURCE DISAGREEMENT: {len(gaps)} session(s) where the stored "
+                  f"range differs from hourly by >{RANGE_DISAGREEMENT_ALARM}y")
+            for d, stored, true_r, gap in gaps[:5]:
+                direction = "UNDER" if gap > 0 else "OVER"
+                print(f"      {d}  stored {stored:.2f}y vs hourly {true_r:.2f}y "
+                      f"({gap:+.2f}y — stored {direction}-states)")
+            print("      → rows inside the revision window self-heal on this run; "
+                  "older rows need a manual pass.")
+
+    recent = sorted(rows, key=lambda r: r["date"])[-20:]
+    if len(recent) >= 10:
+        flat = [r for r in recent
+                if abs(r["open"] - r["close"]) < FLAT_BAR_EPSILON
+                and (r["high"] - r["low"]) > 0.20]
+        frac = len(flat) / len(recent)
+        if frac >= FLAT_BAR_FRACTION_ALARM:
+            tripped = True
+            print(f"  🔴 BAR-BOUNDARY SIGNATURE: {len(flat)}/{len(recent)} recent rows "
+                  f"have Open≈Close while ranging >0.20y ({frac:.0%}).")
+            print("      → the source is snapshotting the bar boundary, not reporting "
+                  "the session close. Same class as the 2026-07-31 defect.")
+
+    return tripped
 
 
 def color_for_price(close):
@@ -227,16 +442,25 @@ def print_summary(rows):
         return None, None
 
     def mof_marker(touch_date_str):
-        """Returns 'MOF <label>' if touch is within window of an intervention,
-        else 'no MOF'. Returns '' if touch_date_str is None."""
+        """Returns '<actor> <label>' if touch is within window of an intervention,
+        else 'no op'. Returns '' if touch_date_str is None.
+
+        Names the ACTOR rather than assuming MOF — since 2026-07-31 the list contains
+        a US Treasury operation, and collapsing the two sovereigns would hide exactly
+        the distinction that matters for which confirmation instrument applies.
+        Where several actors intervened inside the window, all are named.
+        """
         if not touch_date_str:
             return ""
         td = date.fromisoformat(touch_date_str)
-        for iv_date_str, label, _size in MOF_INTERVENTIONS:
+        hits = []
+        for iv_date_str, label, _size, actor in MOF_INTERVENTIONS:
             iv_d = date.fromisoformat(iv_date_str)
             if abs((td - iv_d).days) <= INTERVENTION_WINDOW_DAYS:
-                return f"MOF {label}"
-        return "no MOF"
+                tag = f"{actor} {label}"
+                if tag not in hits:
+                    hits.append(tag)
+        return " + ".join(hits) if hits else "no op"
 
     color = color_for_price(current)
     stale_tag = f" (STALE +{days_since_latest}d)" if days_since_latest > 3 else ""
@@ -291,16 +515,26 @@ def main():
     print(f"  SAM USDJPY Monitor — {now}")
     print(f"{'='*70}\n")
 
+    hourly = {}
     if not summary_only:
+        hourly = fetch_hourly_sessions()          # L1
         df = fetch_yfinance(period="5y")
         if df is None:
             print("  ⚠️  yfinance fetch failed — falling back to cached TSV")
         else:
-            appended = merge_and_write(df)
-            if appended > 0:
-                print(f"  ✓ Appended {appended} new row(s) to USDJPY.tsv")
-            else:
-                print(f"  ✓ TSV up to date (no new rows)")
+            appended, revised, revisions = merge_and_write(df, hourly)   # L2
+            bits = []
+            if appended:
+                bits.append(f"appended {appended} new row(s)")
+            if revised:
+                bits.append(f"REVISED {revised} row(s) against hourly")
+            print(f"  ✓ USDJPY.tsv — {', '.join(bits) if bits else 'up to date'}")
+            for d, old_r, new_r, old_c, new_c in revisions:
+                print(f"      ↻ {d}: range {old_r:.2f}y → {new_r:.2f}y | "
+                      f"close {old_c:.3f} → {new_c:.3f}")
+            if hourly:
+                print(f"  ✓ hourly cross-check: {len(hourly)} session(s) "
+                      f"(revision window {REVISION_WINDOW_DAYS}d)")
 
     if not refresh_only:
         rows = load_tsv()
@@ -309,6 +543,7 @@ def main():
             return 1
         print()
         print_summary(rows)
+        audit_source_quality(rows, hourly)         # L3
 
     print()
     return 0
