@@ -15,7 +15,8 @@ and the parser is broken.
 
 DESIGN CONTRACT (inherits fleet_dashboard.py's anti-rot contract):
   - GENERATED, never hand-edited. The ONE hand-written input is PROME/BRIEF.md,
-    which is judgment (the story) and cannot be parsed from a TSV.
+    which is judgment (the story, the falsifier, the disagreements) and cannot be
+    parsed from a TSV.
   - TWO CLOCKS, SHOWN SEPARATELY. Facts carry the build stamp; the story carries
     BRIEF.md's own WRITTEN stamp. A stale story must READ as stale rather than
     ride the freshness of the generated half.
@@ -25,9 +26,28 @@ DESIGN CONTRACT (inherits fleet_dashboard.py's anti-rot contract):
     the thing that mattered is worse than no briefing.
   - POINTS, never owns. Money figures come from FORGE/STATUS.md WITH its vintage,
     never re-typed here.
+  - JUDGMENT OVER DATA. v2 deliberately inverted the ratio: a page of facts cannot
+    be "dumbed down" by removing facts. The cure for density is REPLACING data
+    with judgment — and then making that judgment checkable (the falsifier).
+
+V2 (2026-08-03, Will-directed, same day):
+  + WHAT CHANGED feed (see CHANGE LOG below) · + FALSIFIER · + DISAGREEMENT
+  + decisions/chores split · - pressure chips (4-of-7 channels read "crit": a row
+  where the majority is at max has stopped discriminating) · dates 9 -> 5.
+
+CHANGE LOG DESIGN — why an append-only log and not a two-point diff:
+  a snapshot diff answers "what changed since the last BUILD", but Will asks
+  "what changed since I last LOOKED". Those differ the moment PROME rebuilds
+  twice between visits — the second build would silently show an empty delta and
+  the real news would be gone. So diffs are APPENDED to PROME/state/brief_changes
+  .jsonl with timestamps and the page renders the last N regardless of how many
+  builds happened. Dedup is by (kind, text) within a build so a re-run cannot
+  double-write [[finding_partial_record_written_as_final_never_heals]].
+  Use --no-snapshot for test builds so they never burn the baseline.
 
 USAGE
   python3 PROME/tools/will_brief.py -o /tmp/brief.html
+  python3 PROME/tools/will_brief.py --no-snapshot -o /tmp/test.html   # dry run
   (then publish via the Artifact tool — SAME URL every time. From any session
    other than the one that minted it, pass url="..." or it orphans Will's tab.
    [[finding_artifact_redeploy_same_url]])
@@ -42,14 +62,21 @@ import datetime as dt
 import html
 import json
 import re
-import subprocess
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[2]
 ET = "ET"
+SNAP = ROOT / "PROME/state/brief_snapshot.json"
+CHANGES = ROOT / "PROME/state/brief_changes.jsonl"
 
-# Sections the parser keys on in BRIEF.md. Order here is render order.
-BRIEF_SECTIONS = ["HEADLINE", "STORY", "QUESTION", "POSITION", "WATCH"]
+# Sections the parser keys on in BRIEF.md.
+BRIEF_SECTIONS = ["HEADLINE", "STORY", "QUESTION", "FALSIFIER",
+                  "DISAGREEMENT", "POSITION", "WATCH"]
+
+# WILL_QUEUE Type column -> is this a JUDGMENT call or an errand?
+# Rationale: approving capital and getting an API key are not the same species,
+# and rendering them in one list flattens the urgency of the first.
+DECISION_TYPES = {"[APPROVE]", "APPROVE", "LAUNCH", "RULE"}
 
 failures = []           # (section, owner_file, reason) -> rendered as PARSE-FAILED
 
@@ -85,9 +112,9 @@ def parse_brief():
     return written, out
 
 
-def parse_dates(limit=9):
+def parse_dates(limit=5):
     """DOCKET.tsv — forward catalysts. PENDING only, today onward, soonest first.
-    ★ in the title is PROME's own high-signal marker; surfaced as a flag."""
+    Cut 9 -> 5 in v2: anything past ~10 days is not a check-in concern."""
     p = ROOT / "PROME/DOCKET.tsv"
     today = dt.date.today().isoformat()
     rows = []
@@ -106,13 +133,11 @@ def parse_dates(limit=9):
                     "date": end,
                     "days": (dt.date.fromisoformat(end) - dt.date.today()).days,
                     "title": title[:74],
-                    "owner": (r[2] if len(r) > 2 else "").split("/")[0][:12],
                     "star": "★" in r[1],
                 })
     except Exception as e:
         return fail("the clock", "PROME/DOCKET.tsv", f"parse error: {e}") or []
     rows.sort(key=lambda x: (x["date"], not x["star"]))
-    # Collapse same-date rows so one heavy day reads as ONE day, not five lines.
     grouped, seen = [], {}
     for r in rows:
         if r["date"] in seen:
@@ -125,41 +150,42 @@ def parse_dates(limit=9):
     return grouped[:limit]
 
 
-def parse_actions(limit=6):
-    """WILL_QUEUE.md OPEN table — items where WILL is the actor. Dated first."""
+def parse_actions():
+    """WILL_QUEUE.md OPEN table, SPLIT into decisions vs chores (v2).
+    Returns (decisions, chores) — each sorted dated-first."""
     p = ROOT / "PROME/WILL_QUEUE.md"
     try:
         text = p.read_text(encoding="utf-8")
     except Exception as e:
-        return fail("what you do", "PROME/WILL_QUEUE.md", f"unreadable: {e}") or []
+        return fail("what you do", "PROME/WILL_QUEUE.md", f"unreadable: {e}") or ([], [])
     section = text.split("## OPEN", 1)[-1].split("\n## ", 1)[0]
-    out = []
+    dec, chore = [], []
     for line in section.splitlines():
         if not line.startswith("|"):
             continue
         c = [x.strip() for x in line.strip("|").split("|")]
-        if len(c) < 5 or not c[0].isdigit():
+        if len(c) < 6 or not c[0].isdigit():
             continue
-        blocked = "⛔" in line
         raw = c[3]
         d = re.search(r"\d{4}-\d{2}-\d{2}", raw)
-        item = re.sub(r"\*\*|`", "", c[1])
-        out.append({
-            "n": c[0], "item": item[:70], "kind": c[2][:9],
+        kind = re.sub(r"\*\*|`", "", c[2]).strip().upper()
+        row = {
+            "n": c[0], "item": re.sub(r"\*\*|`", "", c[1])[:70], "kind": kind,
             "due": d.group(0) if d else None,
             "due_txt": re.sub(r"\*\*", "", raw)[:26],
-            "blocked": blocked,
-            "rec": re.sub(r"\*\*|`", "", c[5] if len(c) > 5 else "")[:64],
-        })
-    if not out:
+            "blocked": "⛔" in line,
+            "rec": re.sub(r"\*\*|`", "", c[5])[:70],
+        }
+        (dec if kind in DECISION_TYPES else chore).append(row)
+    if not dec and not chore:
         fail("what you do", "PROME/WILL_QUEUE.md", "OPEN table parsed to zero rows")
-    out.sort(key=lambda x: (x["blocked"], x["due"] or "9999"))
-    return out[:limit]
+    for lst in (dec, chore):
+        lst.sort(key=lambda x: (x["blocked"], x["due"] or "9999"))
+    return dec, chore
 
 
 def parse_money():
-    """FORGE/STATUS.md header — account total + cash %, WITH the export vintage.
-    Never re-typed here; if the header shape changes this fails loud."""
+    """FORGE/STATUS.md header — account total + cash %, WITH the export vintage."""
     p = ROOT / "FORGE/STATUS.md"
     try:
         head = p.read_text(encoding="utf-8")[:4000]
@@ -172,40 +198,130 @@ def parse_money():
     if not (total and cash and vint):
         return fail("the book", "FORGE/STATUS.md",
                     "header shape changed — account total / cash / Updated not found")
-    age = (dt.date.today() - dt.date.fromisoformat(vint.group(1))).days
     return {"total": total.group(1), "cash_pct": cash.group(2),
             "vintage": vint.group(1), "marks": marks.group(1) if marks else vint.group(1),
-            "age": age}
+            "age": (dt.date.today() - dt.date.fromisoformat(vint.group(1))).days}
 
 
-def parse_channels():
-    """dashboard_state.json — the domain heat map, already canon-derived."""
-    p = ROOT / "PROME/tools/dashboard_state.json"
-    try:
-        s = json.loads(p.read_text())
-    except Exception as e:
-        return fail("pressure", "PROME/tools/dashboard_state.json", f"unreadable: {e}") or {}
-    order = {"crit": 0, "elev": 1, "watch": 2, "none": 3}
-    ch = s.get("channels") or {}
-    return dict(sorted(ch.items(), key=lambda kv: (order.get(kv[1], 9), kv[0])))
-
-
-def parse_gate_blockers():
-    """GATES.tsv — FIRED-UNEXECUTED is the one state that must never sit quietly."""
+def parse_gates():
+    """GATES.tsv — {gate_id: leading state token}. Drives both the blocker alert
+    and the change feed (a gate flipping state IS the news)."""
     p = ROOT / "PROME/GATES.tsv"
     try:
         with open(p, encoding="utf-8") as f:
             rows = [r for r in csv.reader(f, delimiter="\t")
                     if r and not r[0].startswith("#") and r[0] != "gate_id"]
     except Exception as e:
-        return fail("gates", "PROME/GATES.tsv", f"parse error: {e}") or []
-    return [r[0] for r in rows if len(r) > 5 and r[5].startswith("FIRED-UNEXECUTED")]
+        return fail("gates", "PROME/GATES.tsv", f"parse error: {e}") or {}
+    return {r[0]: r[5].split(" ")[0].split("(")[0].strip()
+            for r in rows if len(r) > 5}
+
+
+def parse_channels():
+    """dashboard_state.json — v2 no longer RENDERS these (4-of-7 read 'crit', so
+    the row stopped discriminating), but a channel CHANGING state is still news,
+    so it stays wired into the change feed only."""
+    p = ROOT / "PROME/tools/dashboard_state.json"
+    try:
+        return (json.loads(p.read_text()).get("channels") or {})
+    except Exception as e:
+        return fail("pressure (feed only)", "PROME/tools/dashboard_state.json",
+                    f"unreadable: {e}") or {}
+
+
+# ------------------------------------------------------------- the change feed
+
+def snapshot_now(gates, channels, money, dec, chore, dates):
+    return {
+        "gates": gates,
+        "channels": channels,
+        "money": {"total": money["total"], "cash": money["cash_pct"],
+                  "vintage": money["vintage"]} if money else {},
+        "queue": {r["n"]: r["item"] for r in (dec + chore)},
+        "docket": {d["date"]: d["title"] for d in dates},
+    }
+
+
+# Within one build every change shares a timestamp, so "newest first" alone leaves
+# ordering to insertion accident — the first cut buried a gate firing under a new
+# docket row. Rank decides ties: a gate moving outranks a date being registered.
+KIND_RANK = {"gate": 0, "book": 1, "pressure": 2, "queue": 3, "clock": 4}
+
+
+def diff_snapshots(old, new):
+    """Human sentences, not field diffs. Each line must read as news."""
+    ch = []
+    og, ng = old.get("gates", {}), new.get("gates", {})
+    for g, st in ng.items():
+        prev = og.get(g)
+        if prev is None:
+            ch.append(("gate", f"New gate registered: {g} ({st.lower()})."))
+        elif prev != st:
+            ch.append(("gate", f"{g} moved {prev.lower()} → {st.lower()}."))
+    for g in og:
+        if g not in ng:
+            ch.append(("gate", f"{g} left the ledger."))
+
+    oc, nc = old.get("channels", {}), new.get("channels", {})
+    word = {"crit": "critical", "elev": "elevated", "watch": "watching", "none": "quiet"}
+    for k, v in nc.items():
+        if k in oc and oc[k] != v:
+            ch.append(("pressure",
+                       f"{k} went {word.get(oc[k], oc[k])} → {word.get(v, v)}."))
+
+    om, nm = old.get("money", {}), new.get("money", {})
+    if om and nm and om.get("vintage") != nm.get("vintage"):
+        ch.append(("book", f"Fresh broker export ({nm['vintage']}): "
+                           f"${nm['total']}, {nm['cash']}% cash."))
+
+    oq, nq = old.get("queue", {}), new.get("queue", {})
+    for n, item in nq.items():
+        if n not in oq:
+            ch.append(("queue", f"Added to your list: {item}"))
+    for n, item in oq.items():
+        if n not in nq:
+            ch.append(("queue", f"Off your list: {item}"))
+
+    od, nd = old.get("docket", {}), new.get("docket", {})
+    for d, t in nd.items():
+        if d not in od:
+            ch.append(("clock", f"New date {d}: {t}"))
+    return ch
+
+
+def update_changes(new_snap, write=True):
+    """Append genuinely-new diffs, return the recent feed. First build records a
+    baseline and says so rather than inventing history."""
+    try:
+        old = json.loads(SNAP.read_text()) if SNAP.exists() else None
+    except Exception:
+        old = None
+    now = dt.datetime.now()
+    fresh = diff_snapshots(old, new_snap) if old is not None else []
+    try:
+        existing = [json.loads(l) for l in CHANGES.read_text().splitlines() if l.strip()] \
+            if CHANGES.exists() else []
+    except Exception as e:
+        return fail("what changed", str(CHANGES), f"log unreadable: {e}") or ([], old is None)
+    seen = {(e.get("kind"), e.get("text")) for e in existing[-60:]}
+    added = [{"ts": now.isoformat(timespec="minutes"), "kind": k, "text": t}
+             for k, t in fresh if (k, t) not in seen]
+    if write:
+        SNAP.parent.mkdir(parents=True, exist_ok=True)
+        if added:
+            with open(CHANGES, "a", encoding="utf-8") as f:
+                for e in added:
+                    f.write(json.dumps(e) + "\n")
+        SNAP.write_text(json.dumps(new_snap, indent=1, sort_keys=True))
+    recent = (existing + added)[-7:]
+    recent.sort(key=lambda e: (e.get("ts", ""), -KIND_RANK.get(e.get("kind"), 9)),
+                reverse=True)
+    return recent, old is None
 
 
 # ------------------------------------------------------------------ rendering
 
 def md_inline(s):
-    """Minimal, deliberately dumb markdown: **bold** and `code` only."""
     s = html.escape(s)
     s = re.sub(r"\*\*(.+?)\*\*", r"<strong>\1</strong>", s)
     s = re.sub(r"`(.+?)`", r"<code>\1</code>", s)
@@ -219,8 +335,7 @@ def md_block(s):
         if buf:
             out.append("<p>" + md_inline(" ".join(buf)) + "</p>")
             buf.clear()
-    lines = s.splitlines()
-    i = 0
+    lines, i = s.splitlines(), 0
     while i < len(lines):
         ln = lines[i].strip()
         if ln.startswith("- "):
@@ -247,10 +362,10 @@ CSS = """
      Magenta is the accent because that is literally what it signals on a chart. */
   --ground:#EDEBE4; --panel:#F6F4EF; --line:#D3CEC1; --line-soft:#E2DDD1;
   --text:#1B211F; --text-dim:#5C6360; --text-faint:#878D88;
-  --accent:#A62D72; --accent-soft:#F2DDE9;
+  --accent:#A62D72; --accent-soft:#F3DFEA;
   --water:#2F5D72;
   --good:#2E6B45; --warn:#9A6612; --crit:#A4342A;
-  --good-bg:#E2EDE5; --warn-bg:#F4E8D4; --crit-bg:#F5E0DC;
+  --warn-bg:#F4E8D4; --crit-bg:#F5E0DC;
   --serif:Georgia,'Iowan Old Style','Palatino Linotype',Palatino,serif;
   --sans:system-ui,-apple-system,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif;
   --mono:ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace;
@@ -259,35 +374,34 @@ CSS = """
   :root{
     --ground:#0D1418; --panel:#141D22; --line:#26333A; --line-soft:#1C272D;
     --text:#E4E7E5; --text-dim:#9BA6A4; --text-faint:#6F7B79;
-    --accent:#E86BA8; --accent-soft:#3A1F2E;
+    --accent:#E86BA8; --accent-soft:#33202B;
     --water:#6FA3BC;
     --good:#63C185; --warn:#DCA84A; --crit:#EC7166;
-    --good-bg:#16291E; --warn-bg:#2C2313; --crit-bg:#2E1917;
+    --warn-bg:#2C2313; --crit-bg:#2E1917;
   }
 }
 :root[data-theme="dark"]{
   --ground:#0D1418; --panel:#141D22; --line:#26333A; --line-soft:#1C272D;
   --text:#E4E7E5; --text-dim:#9BA6A4; --text-faint:#6F7B79;
-  --accent:#E86BA8; --accent-soft:#3A1F2E;
+  --accent:#E86BA8; --accent-soft:#33202B;
   --water:#6FA3BC;
   --good:#63C185; --warn:#DCA84A; --crit:#EC7166;
-  --good-bg:#16291E; --warn-bg:#2C2313; --crit-bg:#2E1917;
+  --warn-bg:#2C2313; --crit-bg:#2E1917;
 }
 :root[data-theme="light"]{
   --ground:#EDEBE4; --panel:#F6F4EF; --line:#D3CEC1; --line-soft:#E2DDD1;
   --text:#1B211F; --text-dim:#5C6360; --text-faint:#878D88;
-  --accent:#A62D72; --accent-soft:#F2DDE9;
+  --accent:#A62D72; --accent-soft:#F3DFEA;
   --water:#2F5D72;
   --good:#2E6B45; --warn:#9A6612; --crit:#A4342A;
-  --good-bg:#E2EDE5; --warn-bg:#F4E8D4; --crit-bg:#F5E0DC;
+  --warn-bg:#F4E8D4; --crit-bg:#F5E0DC;
 }
 body{margin:0;background:var(--ground);color:var(--text);font-family:var(--sans);
   font-size:16px;line-height:1.6;-webkit-font-smoothing:antialiased}
 .wrap{max-width:46rem;margin:0 auto;padding:2.5rem 1.25rem 5rem;
-  display:flex;flex-direction:column;gap:2.5rem}
+  display:flex;flex-direction:column;gap:2.4rem}
 code{font-family:var(--mono);font-size:.9em;background:var(--line-soft);
   padding:.1em .35em;border-radius:3px}
-.num{font-family:var(--mono);font-variant-numeric:tabular-nums}
 
 /* masthead ------------------------------------------------------------- */
 .mast{display:flex;flex-direction:column;gap:.5rem;
@@ -300,18 +414,34 @@ code{font-family:var(--mono);font-size:.9em;background:var(--line-soft);
   color:var(--text-faint);font-family:var(--mono)}
 .clocks .stale{color:var(--warn);font-weight:700}
 
-/* generic block -------------------------------------------------------- */
 section{display:flex;flex-direction:column;gap:.85rem}
 h2{font-size:.7rem;letter-spacing:.16em;text-transform:uppercase;margin:0;
-  color:var(--text-faint);font-weight:700;
-  display:flex;align-items:center;gap:.6rem}
+  color:var(--text-faint);font-weight:700;display:flex;align-items:center;gap:.6rem}
 h2::after{content:"";flex:1;height:1px;background:var(--line)}
 .prose{font-family:var(--serif);font-size:1.03rem;line-height:1.68}
 .prose p{margin:0 0 .9rem}
 .prose p:last-child{margin-bottom:0}
 .prose ul{margin:0;padding-left:1.1rem;display:flex;flex-direction:column;gap:.5rem}
 .pull{font-family:var(--serif);font-size:1.12rem;line-height:1.5;margin:0;
-  padding:.9rem 0 .9rem 1.1rem;border-left:3px solid var(--accent);color:var(--text)}
+  padding:.9rem 0 .9rem 1.1rem;border-left:3px solid var(--accent)}
+
+/* what changed --------------------------------------------------------- */
+.feed{list-style:none;margin:0;padding:0;display:flex;flex-direction:column}
+.ev{display:grid;grid-template-columns:5.2rem 1fr;gap:.85rem;align-items:baseline;
+  padding:.5rem 0;border-bottom:1px solid var(--line-soft);font-size:.9rem}
+.ev:last-child{border-bottom:none}
+.ev .ago{font-family:var(--mono);font-size:.7rem;color:var(--text-faint);
+  font-variant-numeric:tabular-nums;white-space:nowrap;text-transform:uppercase;
+  letter-spacing:.05em}
+.ev.new .ago{color:var(--accent);font-weight:700}
+.empty{font-size:.88rem;color:var(--text-dim);font-style:italic}
+
+/* falsifier — the one block that must not look like the others ---------- */
+.falsify{background:var(--accent-soft);border-radius:5px;padding:1rem 1.15rem;
+  display:flex;flex-direction:column;gap:.5rem}
+.falsify .lead{font-size:.68rem;letter-spacing:.14em;text-transform:uppercase;
+  color:var(--accent);font-weight:700}
+.falsify .prose{font-size:.97rem}
 
 /* clock ---------------------------------------------------------------- */
 .days{list-style:none;margin:0;padding:0;display:flex;flex-direction:column}
@@ -327,30 +457,24 @@ h2::after{content:"";flex:1;height:1px;background:var(--line)}
 .day .also{color:var(--text-faint);font-size:.78rem}
 
 /* actions -------------------------------------------------------------- */
-.acts{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:.6rem}
+.sub{font-size:.72rem;letter-spacing:.1em;text-transform:uppercase;
+  color:var(--text-dim);font-weight:700;margin:.2rem 0 -.2rem}
+.acts{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:.55rem}
 .act{display:flex;flex-direction:column;gap:.2rem;padding:.7rem .85rem;
   background:var(--panel);border:1px solid var(--line);border-radius:5px;
   border-left:3px solid var(--line)}
 .act.due{border-left-color:var(--crit)}
 .act.soon{border-left-color:var(--warn)}
+.act.call{border-left-color:var(--accent)}
 .act .top{display:flex;flex-wrap:wrap;gap:.5rem;align-items:baseline;
   justify-content:space-between}
 .act .name{font-size:.92rem;font-weight:600}
 .act .when{font-family:var(--mono);font-size:.7rem;color:var(--text-dim);white-space:nowrap}
 .act .rec{font-size:.8rem;color:var(--text-dim)}
-
-/* pressure ------------------------------------------------------------- */
-.chips{display:flex;flex-wrap:wrap;gap:.4rem}
-.chip{display:inline-flex;align-items:center;gap:.4rem;font-size:.76rem;
-  padding:.28rem .6rem;border-radius:99px;border:1px solid var(--line);
-  background:var(--panel);color:var(--text-dim)}
-.chip .dot{width:.5rem;height:.5rem;border-radius:99px;background:var(--text-faint);flex:none}
-.chip.crit{background:var(--crit-bg);color:var(--crit);border-color:transparent;font-weight:600}
-.chip.crit .dot{background:var(--crit)}
-.chip.elev{background:var(--warn-bg);color:var(--warn);border-color:transparent}
-.chip.elev .dot{background:var(--warn)}
-.chip.watch .dot{background:var(--water)}
-.chip.none .dot{background:var(--good)}
+.chores{display:flex;flex-direction:column;gap:.3rem;font-size:.86rem;color:var(--text-dim)}
+.chore{display:flex;gap:.6rem;align-items:baseline}
+.chore .nm{color:var(--text)}
+.chore .w{font-family:var(--mono);font-size:.68rem;color:var(--text-faint);white-space:nowrap}
 
 /* money ---------------------------------------------------------------- */
 .book{display:flex;flex-wrap:wrap;gap:1.6rem;align-items:flex-end;
@@ -362,11 +486,10 @@ h2::after{content:"";flex:1;height:1px;background:var(--line)}
 .vint{font-size:.7rem;color:var(--text-faint);font-family:var(--mono);flex-basis:100%}
 .vint.stale{color:var(--warn)}
 
-/* alerts / failures ---------------------------------------------------- */
 .alert{padding:.8rem 1rem;border-radius:5px;font-size:.88rem;
-  background:var(--crit-bg);color:var(--crit);border:1px solid transparent;font-weight:600}
+  background:var(--crit-bg);color:var(--crit);font-weight:600}
 .pf{padding:.8rem 1rem;border-radius:5px;background:var(--crit-bg);color:var(--crit);
-  font-size:.84rem;font-family:var(--mono);border:1px solid transparent}
+  font-size:.84rem;font-family:var(--mono)}
 footer{font-size:.72rem;color:var(--text-faint);line-height:1.7;
   border-top:1px solid var(--line);padding-top:1.1rem}
 footer code{background:none;padding:0;color:var(--text-dim)}
@@ -374,145 +497,173 @@ a{color:var(--accent)}
 @media (max-width:34rem){
   .day{grid-template-columns:4.2rem 1fr;gap:.6rem}
   .day .in{display:none}
+  .ev{grid-template-columns:4.4rem 1fr;gap:.6rem}
   .book{gap:1.1rem}
 }
 @media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
 """
 
 
-def render(brief_written, brief, dates, acts, money, channels, fired):
+def ago(iso, now):
+    try:
+        t = dt.datetime.fromisoformat(iso)
+    except ValueError:
+        return "—"
+    mins = (now - t).total_seconds() / 60
+    if mins < 90:
+        return "just now" if mins < 12 else f"{int(mins)}m ago"
+    if mins < 60 * 20:
+        return f"{int(mins // 60)}h ago"
+    d = (now.date() - t.date()).days
+    return "yesterday" if d == 1 else f"{d}d ago"
+
+
+def render(brief_written, brief, feed, first_build, dates, dec, chore, money, fired):
     now = dt.datetime.now()
-    P = []
+    P, A = [], None
     A = P.append
 
     A(f"<style>{CSS}</style>")
     A('<div class="wrap">')
 
-    # ---- masthead: headline is the ONE thing, per the "summary before detail" rule
     head = brief.get("HEADLINE", "")
-    A('<header class="mast">')
-    A('<div class="eyebrow">Desk brief</div>')
+    A('<header class="mast"><div class="eyebrow">Desk brief</div>')
     A(f"<h1>{md_inline(head) if head else 'No headline written — see PROME/BRIEF.md'}</h1>")
-    stale_story = ""
+    stale = ""
     if brief_written:
         try:
-            wd = dt.datetime.strptime(brief_written.split(" ET")[0].strip(),
-                                      "%Y-%m-%d %H:%M")
-            hrs = (now - wd).total_seconds() / 3600
-            stale_story = ' class="stale"' if hrs > 20 else ""
+            wd = dt.datetime.strptime(brief_written.split(" ET")[0].strip(), "%Y-%m-%d %H:%M")
+            stale = ' class="stale"' if (now - wd).total_seconds() / 3600 > 20 else ""
         except ValueError:
             pass
     A('<div class="clocks">')
     A(f'<span>Facts rebuilt {now:%b %-d, %-I:%M %p} {ET}</span>')
-    A(f'<span{stale_story}>Story written {html.escape(brief_written or "— NOT STAMPED")}</span>')
+    A(f'<span{stale}>Story written {html.escape(brief_written or "— NOT STAMPED")}</span>')
     A("</div></header>")
 
     if fired:
         A(f'<div class="alert">Gate fired and not acted on: {", ".join(html.escape(f) for f in fired)}'
           " — this blocks new work until it is cleared.</div>")
 
-    # ---- the story
-    A("<section>")
-    A("<h2>What is going on</h2>")
-    A(f'<div class="prose">{md_block(brief.get("STORY", ""))}</div>')
-    if brief.get("QUESTION"):
-        A(f'<p class="pull">{md_inline(" ".join(brief["QUESTION"].split()))}</p>')
+    # ---- 1. what changed (the feed) — first, because checking in is the common case
+    A("<section><h2>What changed</h2>")
+    if first_build:
+        A('<p class="empty">Baseline recorded. Changes will appear here from the next '
+          "rebuild onward — nothing is invented for a first build.</p>")
+    elif feed:
+        A('<ul class="feed">')
+        for e in feed:
+            fresh = " new" if ago(e.get("ts", ""), now) in ("just now",) else ""
+            A(f'<li class="ev{fresh}"><span class="ago">{html.escape(ago(e.get("ts",""), now))}</span>'
+              f'<span>{md_inline(e.get("text",""))}</span></li>')
+        A("</ul>")
+    else:
+        A('<p class="empty">Nothing has moved since the last rebuild.</p>')
     A("</section>")
 
-    # ---- the book
+    # ---- 2. the story + the question + the falsifier
+    A("<section><h2>What is going on</h2>")
+    A(f'<div class="prose">{md_block(brief.get("STORY",""))}</div>')
+    if brief.get("QUESTION"):
+        A(f'<p class="pull">{md_inline(" ".join(brief["QUESTION"].split()))}</p>')
+    if brief.get("FALSIFIER"):
+        A('<div class="falsify"><div class="lead">This is wrong if</div>'
+          f'<div class="prose">{md_block(brief["FALSIFIER"])}</div></div>')
+    A("</section>")
+
+    # ---- 3. where the desk disagrees — the thing only this system can show
+    if brief.get("DISAGREEMENT"):
+        A("<section><h2>Where the desk disagrees</h2>")
+        A(f'<div class="prose">{md_block(brief["DISAGREEMENT"])}</div></section>')
+
+    # ---- 4. the book
     A("<section><h2>Where you stand</h2>")
     if money:
         vs = " stale" if money["age"] > 4 else ""
         A('<div class="book">')
-        A(f'<div class="stat"><span class="v">${money["total"]}</span>'
-          '<span class="k">Account</span></div>')
-        A(f'<div class="stat"><span class="v">{money["cash_pct"]}%</span>'
-          '<span class="k">Cash</span></div>')
+        A(f'<div class="stat"><span class="v">${money["total"]}</span><span class="k">Account</span></div>')
+        A(f'<div class="stat"><span class="v">{money["cash_pct"]}%</span><span class="k">Cash</span></div>')
         A(f'<div class="vint{vs}">Broker export {money["vintage"]} · marks {money["marks"]}'
-          f' · {money["age"]}d old — not live, re-check before any fill</div>')
-        A("</div>")
+          f' · {money["age"]}d old — not live, re-check before any fill</div></div>')
     if brief.get("POSITION"):
         A(f'<div class="prose">{md_block(brief["POSITION"])}</div>')
     A("</section>")
 
-    # ---- the clock (real sequence -> ordered list is honest here)
+    # ---- 5. the clock
     A("<section><h2>What is coming</h2>")
     if dates:
         A('<ol class="days">')
         for d in dates:
             k = " key" if d["star"] or d["days"] <= 1 else ""
             when = dt.date.fromisoformat(d["date"]).strftime("%a %-m/%-d")
-            inn = "today" if d["days"] == 0 else ("tomorrow" if d["days"] == 1
-                                                  else f'{d["days"]}d')
-            also = (f' <span class="also">+{d["also"]} more</span>' if d["also"] else "")
+            inn = "today" if d["days"] == 0 else ("tomorrow" if d["days"] == 1 else f'{d["days"]}d')
+            also = f' <span class="also">+{d["also"]} more</span>' if d["also"] else ""
             A(f'<li class="day{k}"><span class="when">{when}</span>'
               f'<span class="what">{html.escape(d["title"])}{also}</span>'
               f'<span class="in">{inn}</span></li>')
         A("</ol>")
     A("</section>")
 
-    # ---- what you do
+    # ---- 6. what needs you — decisions ABOVE chores, visually different
     A("<section><h2>What needs you</h2>")
-    if acts:
-        A('<ul class="acts">')
-        for a in acts:
-            cls = ""
+    if dec:
+        A('<div class="sub">Calls only you can make</div><ul class="acts">')
+        for a in dec:
+            cls = " call"
             if a["due"]:
                 dd = (dt.date.fromisoformat(a["due"]) - dt.date.today()).days
-                cls = " due" if dd <= 0 else (" soon" if dd <= 2 else "")
-            A(f'<li class="act{cls}"><div class="top">'
-              f'<span class="name">{html.escape(a["item"])}</span>'
-              f'<span class="when">{html.escape(a["due_txt"]) if a["due_txt"] else "no date"}</span>'
-              "</div>")
+                cls = " due" if dd <= 0 else (" soon" if dd <= 2 else " call")
+            A(f'<li class="act{cls}"><div class="top"><span class="name">{html.escape(a["item"])}</span>'
+              f'<span class="when">{html.escape(a["due_txt"]) or "no date"}</span></div>')
             if a["rec"]:
                 A(f'<div class="rec">{html.escape(a["rec"])}</div>')
             A("</li>")
         A("</ul>")
+    else:
+        A('<p class="empty">No decisions waiting on you.</p>')
+    if chore:
+        A('<div class="sub">Errands</div><div class="chores">')
+        for a in chore:
+            A(f'<div class="chore"><span class="nm">{html.escape(a["item"])}</span>'
+              f'<span class="w">{html.escape(a["due_txt"]) or "no date"}</span></div>')
+        A("</div>")
     if brief.get("WATCH"):
         A(f'<div class="prose">{md_block(brief["WATCH"])}</div>')
     A("</section>")
 
-    # ---- pressure
-    if channels:
-        A("<section><h2>Where the pressure is</h2><div class=\"chips\">")
-        label = {"crit": "critical", "elev": "elevated", "watch": "watching", "none": "quiet"}
-        for name, st in channels.items():
-            A(f'<span class="chip {html.escape(st)}"><span class="dot"></span>'
-              f"{html.escape(name)} · {label.get(st, st)}</span>")
-        A("</div></section>")
-
     if failures:
         A("<section><h2>Broken on this page</h2>")
         for sec, owner, why in failures:
-            A(f'<div class="pf">PARSE-FAILED · {html.escape(sec)} — {html.escape(owner)}: '
-              f"{html.escape(why)}</div>")
+            A(f'<div class="pf">PARSE-FAILED · {html.escape(sec)} — {html.escape(owner)}: {html.escape(why)}</div>')
         A("</section>")
 
-    A("<footer>")
-    A("The story is written by PROME and carries its own date — it is judgment, not data. "
-      "Everything else is generated from canon at build time and owns nothing: "
-      "<code>PROME/DOCKET.tsv</code>, <code>PROME/WILL_QUEUE.md</code>, "
-      "<code>PROME/GATES.tsv</code>, <code>FORGE/STATUS.md</code>. "
-      "If this page and canon disagree, canon is right and the parser is broken.<br>"
-      "Money figures are a broker mirror and go stale from the moment they are written — "
-      "never fill against them. "
-      "Rebuild: <code>python3 PROME/tools/will_brief.py</code> then republish to the same URL.")
-    A("</footer></div>")
+    A('<footer>The story, the falsifier and the disagreements are PROME\'s judgment and carry '
+      "their own date. Everything else is generated from canon and owns nothing — if this page "
+      "and canon disagree, canon is right and a parser is broken. Money is a broker mirror; "
+      "never fill against it.</footer></div>")
     return "\n".join(P)
 
 
 def main():
     ap = argparse.ArgumentParser(description="Generate Will's briefing page.")
     ap.add_argument("-o", "--out", default="/tmp/will_brief.html")
+    ap.add_argument("--no-snapshot", action="store_true",
+                    help="dry run: render without burning the change-feed baseline")
     args = ap.parse_args()
 
     written, brief = parse_brief()
-    page = render(written, brief, parse_dates(), parse_actions(), parse_money(),
-                  parse_channels(), parse_gate_blockers())
-    Path(args.out).write_text(
-        f"<title>Desk brief</title>\n{page}\n", encoding="utf-8")
-    print(f"wrote {args.out} ({len(page)} bytes)"
-          + (f" · {len(failures)} PARSE-FAILED block(s)" if failures else " · clean"))
+    gates, channels = parse_gates(), parse_channels()
+    money, dates = parse_money(), parse_dates()
+    dec, chore = parse_actions()
+    fired = [g for g, s in gates.items() if s == "FIRED-UNEXECUTED"]
+
+    feed, first = update_changes(snapshot_now(gates, channels, money, dec, chore, dates),
+                                 write=not args.no_snapshot)
+    page = render(written, brief, feed, first, dates, dec, chore, money, fired)
+    Path(args.out).write_text(f"<title>Desk brief</title>\n{page}\n", encoding="utf-8")
+    print(f"wrote {args.out} ({len(page)} bytes) · {len(feed)} feed item(s)"
+          + (f" · {len(failures)} PARSE-FAILED" if failures else " · clean")
+          + (" · DRY RUN (baseline untouched)" if args.no_snapshot else ""))
 
 
 if __name__ == "__main__":

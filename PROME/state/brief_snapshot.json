@@ -1,0 +1,53 @@
+{
+ "channels": {
+  "AI capex": "elev",
+  "Credit": "crit",
+  "Energy": "crit",
+  "Equity-vol": "watch",
+  "Japan / carry": "crit",
+  "Rates": "crit",
+  "War-theater gates + housing recognition": "none"
+ },
+ "docket": {
+  "2026-08-03": "Fitch Auto Transition Report (ATR) refresh",
+  "2026-08-04": "BOJ current-account projections primary (jd20260803.xlsx)",
+  "2026-08-05": "FALCON Yanbu loadings RE-PULL",
+  "2026-08-06": "BDC Q2 marks cluster",
+  "2026-08-07": "\u2605 JPY COT attribution print (Aug-4 data, 3:30 PM ET) = GATE-SAM-30 pre-reg"
+ },
+ "gates": {
+  "GATE-BRENT-DEPLOY-V2": "LIVE",
+  "GATE-BRENT-SUSTAIN": "RESOLVED",
+  "GATE-BRK-C1": "LIVE",
+  "GATE-FALCON-001": "LIVE",
+  "GATE-HY-REKILL": "LIVE",
+  "GATE-LIQ-069": "LIVE",
+  "GATE-LIQ-072": "LIVE",
+  "GATE-LIQ-076": "LIVE",
+  "GATE-LIQ-079": "LIVE",
+  "GATE-OSPREY-001": "LIVE",
+  "GATE-RESHAPE-BC": "RESOLVED-FIRED",
+  "GATE-SAM-30": "RESOLVED",
+  "GATE-TERRY-006": "LIVE",
+  "GATE-TERRY-ARM1": "RESOLVED",
+  "GATE-TERRY-ARM2": "RESOLVED",
+  "GATE-TERRY-ARM3": "RESOLVED",
+  "GATE-VIO-110": "LAPSED",
+  "GATE-VIO-116": "RESOLVED"
+ },
+ "money": {
+  "cash": "52.80",
+  "total": "39,514.28",
+  "vintage": "2026-08-02"
+ },
+ "queue": {
+  "12": "HENRY standing boot-rule blessing",
+  "13": "FFIEC CDR account",
+  "15": "RAV charter review \u2192 formal ROSTER row",
+  "16": "Broker-export residue (was: confirms bundle \u2014 MOSTLY RESOLVED by the 8",
+  "17": "Repo public flip",
+  "19": "QQQ 687P Aug-03 \u00d73 \u2014 SELL (your stated plan 8/2)",
+  "20": "Robinhood screenshot",
+  "21": "PJM Data Miner 2 API key"
+ }
+}

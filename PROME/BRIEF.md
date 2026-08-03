@@ -6,7 +6,9 @@
 
 ⚠️ **Rewrite this at every closeout where the picture changed.** The page stamps this file's own vintage SEPARATELY from the generated facts, so a stale story shows as stale rather than passing as current (`[[finding_dated_stamp_is_a_trigger_not_a_shield]]`). If nothing changed, leave it — an unchanged-but-still-true brief is fine; a silently-wrong one is not.
 
-**Format rules:** section headers are load-bearing (the parser keys on them — `HEADLINE`, `STORY`, `QUESTION`, `POSITION`, `WATCH`). Plain sentences. No tables, no jargon that needs a second file to decode. Write it the way you would say it out loud.
+**Format rules:** section headers are load-bearing (the parser keys on them — `HEADLINE`, `STORY`, `QUESTION`, `FALSIFIER`, `DISAGREEMENT`, `POSITION`, `WATCH`). Plain sentences. No tables, no jargon that needs a second file to decode. Write it the way you would say it out loud.
+
+**⚠️ `FALSIFIER` and `DISAGREEMENT` are not optional colour — they are the checks on everything else here.** The story is PROME's judgment and can be confidently wrong. `FALSIFIER` gives Will a handle to attack it with *observable* things, never vibes — a number, a source, a date. `DISAGREEMENT` surfaces where agents actually collide, which is the one signal this system has that a generic dashboard cannot. **Never write "no disagreements" to fill the section** — if the desk genuinely agrees, say so and say why that is itself worth distrusting.
 
 <!-- ============================================================ -->
 
@@ -27,6 +29,18 @@ One thing worth seeing plainly: your oil exposure is mostly **35 USO shares**. T
 
 ## QUESTION
 Is the de-escalation real, or is the market pricing a headline the physical data does not support? Nothing resolves it cleanly — but **8/7** (Japan COT + jobs + crude positioning, all one day) and the daily Hormuz transit prints are what move the needle.
+
+## FALSIFIER
+- **Non-Iranian transits recover toward 30+/week.** They are at 22, down 27% week-over-week. That cohort — mainstream operators, not dark fleet — is the one that has to come back for a normalization to be real.
+- **The negotiation track produces an actual instrument.** Right now it is guidance only, and Tehran denied it on the record. A signed thing is different in kind from a headline, and it would argue against adding oil rather than for it.
+- **The crude curve flips to contango.** Backwardation compressed 37% today but did *not* flip — that is the specific tell that held. If it flips, the market is no longer paying up for barrels now, and the disruption premium is genuinely gone.
+
+## DISAGREEMENT
+**WALTER and the tape disagree about today.** WALTER told BRENT the Tehran denial was "the reversal catalyst" — that crude should have bounced when the deal was denied. Five hours of tape ran the other way and crude stayed down. BRENT reconciles that, not me, but you should know the desk is not of one mind about what today meant.
+
+**BRENT is holding two rails that point in opposite directions.** The main arm is long oil. It also keeps an armed-passive *short* rail — a USO bear put spread built for exactly the de-escalation case. Which one today belongs to is BRENT's call and it has not made it. That is honest rather than evasive, but it means "BRENT is bullish oil" is not currently a true sentence.
+
+**CARL's upgrade is one-sided by its own admission.** Its gas-squeeze channel went up a notch, but the opposite-signed candidate stayed armed only because *both* of its instruments failed to publish — not because it was tested and survived. An upgrade that wins by forfeit is worth less than one that wins on evidence, and CARL says so itself.
 
 ## POSITION
 About **53% cash**, so you are not over-committed and nothing forces your hand.
