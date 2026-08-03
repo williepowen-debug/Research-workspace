@@ -114,6 +114,25 @@ Yen up ~1.3% against **every** major while the dollar crosses did not move = **p
 - `jd20260804.xlsx` **cannot refute the 7/31 op.** A null there means only that **MOF did not *also* fire on 7/31** — still genuinely open, since "coordinated" may mean both. **A null must NOT be graded "candidate #2 DENIED"**; that would be a false negative on an intervention both governments have confirmed.
 - **A LARGE drain on the 8/4 file is the live upside branch:** it would evidence a **second MOF op of the round**, firing the §5C override on the narrow MOF reading too (it is already adjudicated fired on the letter via the US op).
 
+#### 🔴 GRADED SAME SESSION (2026-08-03 ~12:20 ET) — **the upside branch FIRED.** Bands above were committed at `aa3ad1980` *before* any file was opened.
+
+**🔧 REGISTERED URL WAS THE WRONG SERIES — corrected.** The playbook named `jd` (same-day / provisional / final, path `…/d_release/jd/2026/`). The **forward projection** — the file the Tanshi-gap method actually needs, and the one Bloomberg read — is a **separate `jp` series** at `…/d_release/jp/jp<YYYYMMDD>.xlsx` (**no year subdirectory**), published **~18:00 JST for the NEXT business day**. ⚠️ **The `jp` endpoint retains only the current projection**: `jp20260803.xlsx` now returns **HTTP 200 with an HTML body** (not a 404) — a clean 200 that is not the resource ([[finding_partitioned_source_returns_stale_window_at_200]]). **Consequence: the Aug-3 file carrying the ~¥8.2T figure has already rotated off and was NOT verifiable today** — the original 7/30 target is *unverified*, not refuted.
+
+| Item | Reading |
+|---|---|
+| `jp20260804.xlsx` — "for August 4 (Tue)", **Projections** col | **財政等要因 / Treasury funds and others = −114,200 億円 = −¥11.42T** |
+| Aug-4 = **T+2 from Fri 7/31** | the 7/31-session settlement |
+| Units / precision | 億円 (¥100mn); BOJ note: *"rounded off to 10 billion yen"* |
+| Provisional / Final cols | **BLANK** — Aug-4 JST has not occurred. This is a **projection only** |
+
+**Base rate, measured as pre-registered (n=31 sessions, May–Jun, own `jd` pull):** rest-of-month |median| **0.72T**; **sample max drain −7.94T** (May 7, no known op); **early-month peer group (day ≤6): median −3.32T, worst −6.21T**; sessions ≤−7.0T = **1/31**; ≤−2.0T = **8/31 (26%)**.
+
+**→ MY OWN BANDS WERE MIS-CALIBRATED, and the base-rate step caught it.** The ¥2.0T "noise floor" is meaningless — **26% of ordinary sessions clear it**. The ≥¥7.0T CORROBORATE bar would have **false-positived on May 7**. Re-stated empirically: **the honest comparison is not "10× a normal day" (that overstates it by anchoring on 7/31's −1.17T) but ~1.44× the largest ordinary fiscal day ever observed, and ~1.84× the worst early-month day.** Aug-4 is itself an early-month date, so part of −11.42T is ordinary seasonal flow.
+
+**VERDICT: −¥11.42T is genuinely anomalous — larger than every session in the visible sample by 44% — and is strong evidence that MOF ALSO intervened around the 7/31 session, i.e. a genuinely two-sovereign operation.** That is the pre-registered **second-MOF-op-of-the-round** branch, and it fires the §5C override on the narrow MOF reading as well.
+
+⚠️ **Three limits, held deliberately:** (1) **no Tanshi broker forecast** — the actual signal is the *gap*, and the BOJ projection alone cannot separate a large op from a large ordinary fiscal day (exactly the 7/11 NOT-BUILD finding); (2) **projection, not provisional/final** — re-read on the Aug-4 JST update; (3) **op-date attribution is NOT resolvable from this instrument** — a 16:00-17:00 ET Friday execution sits at/after the Tokyo value-date cutoff, so which session's op this settles cannot be pinned here. **Do not restate ¥11.42T as an intervention size** — it is a fiscal-factor line containing an op plus ordinary flows. Independent size confirm remains **MOF monthly ~Aug-31**.
+
 ---
 
 ## KEY THRESHOLDS
