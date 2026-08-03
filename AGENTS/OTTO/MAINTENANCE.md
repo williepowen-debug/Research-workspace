@@ -144,7 +144,44 @@ routine content edits. Archive to `archive/` if it grows past ~300 lines (SAM ca
 - **New `docket/WINTERKORN.md` (spec, ~250 lines).** FASTOW-pattern scoped owner. Mandate: maintain `docket/CATALYSTS.tsv` + verify forward dates against bankruptcy dockets, SEC EDGAR, rating-agency calendars, ABS pricing windows. Busy-work only — no analytical judgment. Owns write to CATALYSTS.tsv + WINTERKORN_MEMORY.md only; never touches STATUS / THESIS / CHANGELOG / PREDICTIONS / workbook / scripts. Pre-fire date verification within 7d window is the load-bearing job step (Jun-17→Jun-12 catch made cadence). Monthly baseline audit + post-miss audit with decline-memory (CALIBRATION is OTTO-owned; WINTERKORN reads but never writes).
 - **New `docket/WINTERKORN_MEMORY.md` (state, ~120 lines, seeded blank).** Inaugural — no LAST RUN history. STANDING MONITORS seeded with per-case watches (First Brands highest activity; Tricolor Ch.7 cert-blocked source pattern; SDNY criminal selective; Carvana derivative) + recurring releases (Fitch ABS Index monthly, NY Fed HDC quarterly, S&P/KBRA/Moody's surveillance) + bank-earnings cycle (named-banks subset) + ABS pricing windows (modeled). NEXT RUN HINTS includes bootstrap-specific guidance for the imminent Jun 12 First Brands UST hearing.
 - **CLAUDE.md Doc Ownership** — added 2 new rows for WINTERKORN.md + WINTERKORN_MEMORY.md; refactored `docket/CATALYSTS.tsv` row to flag WINTERKORN as maintainer (OTTO doesn't normally edit during session — applies WINTERKORN escalations).
-- **CLAUDE.md Coordination** — new `### Sub-Agents` subsection codifying the sub-agent pattern + WINTERKORN row (pattern / owns / cadence) + spawn protocol pointer. References `[[finding_subagent_naming_identity_over_functional]]` for future sub-agent naming convention.
+- **CLAUDE.md Coordination** — new `### 2026-08-03 (s017) — panel_10d.py positive control rebuilt; it was guaranteed to fail on new data
+
+**Trigger.** The scheduled monthly panel re-run pulled Exeter's newly-filed 07-30 10-Ds and reported
+`POSITIVE CONTROL … **FAIL** → every value in this run is untrustworthy; run marked INVALID`,
+condemning **9 rows that were all correct**.
+
+**Diagnosis — the control was broken by construction, not by a bug.** v1 was
+`CONTROL = ("EART 2022-3", "cnl_pct", 27.58, "10-D filed 2026-06-30")`, evaluated against
+**whatever value the latest filing returned**. That pins a pass/fail gate to a **moving quantity**:
+the moment a new 10-D lands — *the exact event the instrument exists to detect* — the control must
+fail. A control that fails on correct new data is worse than no control, because it trains the
+operator to override it, and the next override will be the one that mattered.
+
+**What changed.** `CONTROL` is now a dict carrying a **frozen archived exhibit URL**, and a new
+`run_control()` re-fetches and re-parses **that one fixed document** every run. The control now
+tests the **parser** (which must not drift) and never the **world** (which must). Control evaluation
+moved out of the per-deal loop into the summary block.
+
+**Files touched.** `scripts/panel_10d.py` (CONTROL constant + `run_control()`; removed the in-loop
+comparison), `workbook/PANEL_10D.tsv` (the 9 falsely-INVALID rows from this session's 09:56 batch
+were removed and replaced by the clean 09:58 run — same-session output, not history).
+
+**Boot-impact.** None on boot.py. The panel is a manual monthly run; it now exits clean when new
+filings arrive instead of demanding a human override.
+
+**Lessons.** (1) This is the **fourth** member of OTTO's measure-design failure family — after
+OTTO-30's press-sampling instrument, OTTO-04's blended-index metric, and OTTO-07's default-zero
+ledger — and **the first found inside a tool OTTO built *after* naming the pattern.** Naming a
+failure mode does not immunise you against it; the check is to ask of every new gate *"what does
+this do on the day the thing I am watching for actually happens?"* (2) Generalises to auto-memory
+`finding_threshold_level_is_a_measurement_not_a_constant`: a validation gate is a threshold, and
+thresholds pinned to moving quantities decay. (3) The failure direction was **loud** (marked good
+data invalid) rather than silent, which is the only reason it was caught in one run — cf.
+`finding_test_the_guard_not_just_the_guarded`.
+
+---
+
+### Sub-Agents` subsection codifying the sub-agent pattern + WINTERKORN row (pattern / owns / cadence) + spawn protocol pointer. References `[[finding_subagent_naming_identity_over_functional]]` for future sub-agent naming convention.
 - **CLAUDE.md File Structure tree** — docket/ subtree expanded from 1 entry to 3 (CATALYSTS.tsv + WINTERKORN.md + WINTERKORN_MEMORY.md).
 
 **Will-decided scope decisions (locked in spec):**

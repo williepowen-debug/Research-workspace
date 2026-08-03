@@ -76,7 +76,41 @@ PANEL = [
 ]
 
 # Positive control — must reproduce exactly or the run is INVALID.
-CONTROL = ("EART 2022-3", "cnl_pct", 27.58, "10-D filed 2026-06-30")
+#
+# ⚠ REBUILT 2026-08-03 (s017). The v1 control was ("EART 2022-3","cnl_pct",27.58)
+# compared against whatever the LATEST filing returned. That is a threshold pinned to a
+# MOVING quantity: the moment a new 10-D lands — the exact event this instrument exists
+# to detect — the control fails and marks a perfectly good run INVALID. It fired on
+# 2026-08-03 when Exeter's 07-30 filings posted (2022-3 CNL 27.58 -> 27.86) and
+# condemned 9 valid rows. Same failure family as OTTO-04/-07/-30
+# (auto-memory `finding_threshold_level_is_a_measurement_not_a_constant`).
+#
+# v2 pins the control to a FIXED ARCHIVED EXHIBIT. It re-parses that one frozen document
+# every run, so it tests the PARSER (which must not drift) and never the WORLD (which must).
+CONTROL = {
+    "deal":   "EART 2022-3",
+    "issuer": "exeter",
+    "field":  "cnl_pct",
+    "value":  27.58,
+    "label":  "10-D filed 2026-06-30 (frozen exhibit)",
+    "url":    "https://www.sec.gov/Archives/edgar/data/1931330/"
+              "000092963826002447/eart2022-3_exhibit991.htm",
+}
+
+
+def run_control():
+    """Re-parse the frozen control exhibit. Returns True/False, or None if unreachable."""
+    try:
+        txt = flatten(fetch(CONTROL["url"]))
+    except Exception as e:
+        print(f"  (control exhibit unreachable: {type(e).__name__})")
+        return None
+    v, _ = parse(txt, CONTROL["issuer"])
+    d = derive(v, CONTROL["issuer"])
+    got = d.get(CONTROL["field"])
+    if got is None:
+        return False
+    return abs(got - CONTROL["value"]) < 0.01
 
 # ── Pattern primitives ───────────────────────────────────────────────────────
 # TWO traps live in these documents, both found by getting them wrong first:
@@ -314,8 +348,6 @@ def main():
                              status=status, parse_misses=";".join(misses), source_url=url,
                              **{k: ("" if d[k] is None else d[k]) for k in
                                 ("dq_60plus_pct","cnl_pct","anl_pct","recovery_pct","ext_rate_pct")}))
-            if deal == CONTROL[0] and d.get(CONTROL[1]) is not None and control_ok is None:
-                control_ok = abs(d[CONTROL[1]] - CONTROL[2]) < 0.01
             f = lambda k: f"{d[k]:6.2f}" if d[k] is not None else "   n/d"
             print(f"  {deal:14s} {tier:5s} {fdate}  60+DQ {f('dq_60plus_pct')}  CNL {f('cnl_pct')}"
                   f"  ANL {f('anl_pct')}  REC {f('recovery_pct')}  EXT {f('ext_rate_pct')}"
@@ -341,9 +373,11 @@ def main():
                 r["status"] = "INVALID"
                 r["parse_misses"] = (r.get("parse_misses", "") + ";duplicate-metrics-across-deals").strip(";")
 
-    print(f"\n  POSITIVE CONTROL — {CONTROL[0]} {CONTROL[1]} must equal {CONTROL[2]} ({CONTROL[3]}): ", end="")
+    print(f"\n  POSITIVE CONTROL — re-parse frozen exhibit: {CONTROL['deal']} "
+          f"{CONTROL['field']} must equal {CONTROL['value']} ({CONTROL['label']}): ", end="")
+    control_ok = run_control()
     if control_ok is None:
-        print("NOT EVALUATED (control deal absent from this run) → run marked INVALID")
+        print("NOT EVALUATED (control exhibit unreachable) → run marked INVALID")
         for r in rows: r["status"] = "INVALID"
     elif control_ok:
         print("PASS ✓")

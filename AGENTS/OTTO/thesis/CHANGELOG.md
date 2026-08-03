@@ -14,7 +14,57 @@ changes (those live in `MAINTENANCE.md`).
 thesis version they moved. *(Preamble corrected 2026-07-25 — it had described the
 pre-Jun-9 layout, in which neither `thesis/THESIS.md` nor `MAINTENANCE.md` existed.)*
 
-**Format:** reverse-chronological. Each entry: `### YYYY-MM-DD — headline`, then
+**Format:** reverse-chronological. Each entry: `### 2026-08-03 — First Brands: the vote says CRAMDOWN, which is the branch consensus was writing off
+
+**Was → Is.** *Was* (s016 + fleet-wide, 7/25-7/31): the plan is "creditor-backed going in," so an outright class rejection and a cramdown fight looked like the weaker branch; ballot tallies were believed non-public until a 7/27 certification. *Is:* the tabulation was filed **2026-07-24** (Dkt 3351) and says the **secured classes accepted 100% by number AND amount at every debtor** while **Class 7 general unsecured rejected at 83 of 92 subclasses** — **confirmation requires §1129(b) cramdown at 83 debtors.** "Creditor-backed" was true of the *secured stack only*.
+
+**Trigger.** Docket-primary pull of the Kroll/Orchowski tabulation declaration and Exhibit A "Comprehensive Final Tabulation" via the CourtListener RECAP mirror of PACER 25-90399, after the Kroll web docket returned 403.
+
+**Qualification that matters more than the headline.** The 90.2% rejection rate fails through **two different prongs that mean opposite things**: on large debtors it is genuine economic opposition failing the two-thirds *amount* test (Brake Parts Inc LLC: 79.45% accepting by number, 19.97% by amount, $2.30B rejecting); on small debtors it is a **tabulation artifact** failing *numerosity* — 1 of 3 ballots accepting despite **99.99997% of amount**, because two ballots carrying **$1.00 voting amounts** voted no. OTTO does not read the 90.2% as a creditor revolt and neither should any consumer of this row.
+
+**Net effect on OTTO-32: none — held 85%.** The plan still routes 111/112 debtors → Ch.7, so both live branches (cramdown-confirm, or confirmation fails and cases convert) deliver majority-Ch.7. What changed is *timeline* risk, not *branch* risk: three trial days produced **no ruling**, and Sep 30 is the resolve date.
+
+**Touches.** `STATUS.md` (First Brands vector rewritten, timeline rows Jul 20/24/27/28-30 swept, BOTTOM LINE), `thesis/PREDICTIONS.tsv` (OTTO-32 note), `docket/CATALYSTS.tsv`, `workbook/ML.tsv` (ML-OTTO-210/211/212/213).
+
+---
+
+### 2026-08-03 — Carvana: the compressing line is the FINANCE line, and OTTO cannot yet say why
+
+**Was → Is.** *Was:* the Carvana sub-thesis held primary evidence that the **collateral** is worse than deep subprime (BLAST CNL 24.67% vs Exeter 16.70%, seasoning-controlled), with no read on whether that reaches the P&L. *Is:* Q2 shows the **finance line specifically** compressing — **Other GPU per retail unit $2,869 → $2,807 → $2,666** across three quarters, accelerating, while Adj EBITDA margin fell **12.4% → 10.4%** on a record quarter. The collateral read and the earnings read now point at the same line.
+
+**Trigger.** SEC 8-K Ex-99.1 filed 2026-07-29, decomposed per-unit rather than taken at the headline.
+
+**What OTTO explicitly does NOT conclude.** Carvana attributes the decline wholly to benchmark rates. **A 10-D reports pool performance, not the economics of the sale** — nothing in OTTO's instrument set separates rate-driven from credit-driven compression. Anyone joining "collateral worse + finance GPU down" into causation is inferring. **Conviction up on the two facts; unchanged on the mechanism linking them.**
+
+**Counter-evidence, recorded.** Retained **beneficial interests in securitizations grew 3.3%** (to $502M) against **38% unit growth** — Carvana is not warehousing a growing residual. And the **market absorbed the guide-down in three sessions** (realized −7.4%, back to −3.6% vs pre-print by 8/3), which is the systemic/repricing leg disconfirming on schedule, consistent with the standing two-leg split.
+
+**Touches.** `STATUS.md` (new Carvana POST-PRINT vector, 2 dashboard rows), `workbook/ML.tsv` (ML-OTTO-216/217/218). No prediction moved — the CARL joint discriminator is owed before any claim is written.
+
+---
+
+### 2026-08-03 — Tricolor: cooperator map goes 1 → 3, and the allocutions are being unsealed
+
+**Was → Is.** *Was:* one named cooperator (ex-COO Goodgame), with OTTO-33's best channel (the TBK syndicate roster) closed as unobtainable. *Is:* **two further cooperators named — Jerome Kollar (25-cr-584) and Ameryn Seibold (25-cr-585)**, both 7-count Informations with indictment waived (Dec 2025), and **Castel ordered their guilty-plea transcripts unsealed on 7/30.**
+
+**Trigger.** SDNY docket sweep of 1:25-cr-00579 (Dkt 115 letter, Dkt 116 memo endorsement) plus the two cooperator dockets.
+
+**Why it moves OTTO-33 60 → 68% and why only that far.** A plea **allocution names counterparties on the record**, and unlike the dead syndicate route it needs no cert-blocked docket and no press — so the *instrument* improved materially. But **neither Kollar nor Seibold scores the claim**: they are individuals, not corporate counterparties, and were first disclosed in **Dec 2025, before the 2026-07-25 window** — known-unknowns newly surfaced to OTTO, the third occurrence of the OBK/TFIN trap. Confidence rises on measurement power, not on evidence.
+
+**Touches.** `STATUS.md` (Tricolor Criminal Track vector), `thesis/PREDICTIONS.tsv` (OTTO-33 60→68%, instrument extended), `docket/CATALYSTS.tsv` (+3 rows), `workbook/ML.tsv` (ML-OTTO-214/215).
+
+---
+
+### 2026-08-03 — OTTO-34 cut 60 → 50% on its first post-creation measurement (arithmetic, not sentiment)
+
+**Was → Is.** Baseline 27.58% → **27.86%** on the 10-D filed 2026-07-30; delta **+0.28pp**, extending the decelerating series .35/.33/.30/.28. Extrapolated over the five remaining filings to December this lands **≈28.96%** — fractionally **under** the 29.0% line.
+
+**Trigger.** Scheduled monthly re-run of `scripts/panel_10d.py`.
+
+**Note.** This is the row working as designed: it was written to straddle 29.0% so it would carry calibration information, and the straddle resolved marginally unfavourable. One 0.35pp month reverses it. **Touches.** `thesis/PREDICTIONS.tsv`, `STATUS.md` (dashboard + predictions block).
+
+---
+
+### YYYY-MM-DD — headline`, then
 **Was → Is**, then **Trigger** (what evidence forced it), then **Touches** (which
 docs/predictions moved).
 

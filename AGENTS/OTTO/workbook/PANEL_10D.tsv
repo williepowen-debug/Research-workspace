@@ -35,3 +35,12 @@ run_ts	deal	tier	issuer	filing_date	months_seasoned	dq_60plus_pct	cnl_pct	anl_pc
 2026-07-25T20:17:45	EART 2024-1	DEEP	exeter	2026-04-28	26	9.37	15.53	16.0	31.64	4.88	OK		https://www.sec.gov/Archives/edgar/data/2005087/000092963826001676/eart2024-1_exhibit991.htm
 2026-07-25T20:17:45	EART 2024-1	DEEP	exeter	2026-05-28	27	9.8	16.12	15.54	34.72	5.11	OK		https://www.sec.gov/Archives/edgar/data/2005087/000092963826002071/eart2024-1_exhibit991.htm
 2026-07-25T20:17:45	EART 2024-1	DEEP	exeter	2026-06-30	28	10.26	16.7	15.92	30.89	5.71	OK		https://www.sec.gov/Archives/edgar/data/2005087/000092963826002456/eart2024-1_exhibit991.htm
+2026-08-03T09:58:50	EART 2022-2	DEEP	exeter	2026-07-30	50	14.83	26.59	20.27	27.38	5.13	OK		https://www.sec.gov/Archives/edgar/data/1920761/000092963826002814/eart2022-2_exhibit991.htm
+2026-08-03T09:58:50	EART 2022-3	DEEP	exeter	2026-07-30	48	14.08	27.86	20.17	27.88	5.2	OK		https://www.sec.gov/Archives/edgar/data/1931330/000092963826002815/eart2022-3_exhibit991.htm
+2026-08-03T09:58:50	EART 2023-1	DEEP	exeter	2026-07-30	40	11.81	22.48	20.86	23.05	5.35	OK		https://www.sec.gov/Archives/edgar/data/1964225/000092963826002819/eart2023-1_exhibit991.htm
+2026-08-03T09:58:50	EART 2024-1	DEEP	exeter	2026-07-30	29	10.81	17.22	14.97	29.57	5.96	OK		https://www.sec.gov/Archives/edgar/data/2005087/000092963826002824/eart2024-1_exhibit991.htm
+2026-08-03T09:58:50	SDART 2022-6	BROAD	santander	2026-07-15	45	10.45	12.08	5.9			OK		https://www.sec.gov/Archives/edgar/data/1943670/000119312526303515/d111626dex991.htm
+2026-08-03T09:58:50	SDART 2023-1	BROAD	santander	2026-07-15	41	9.96	10.15	6.09			OK		https://www.sec.gov/Archives/edgar/data/1959826/000119312526303541/d117184dex991.htm
+2026-08-03T09:58:50	SDART 2024-1	BROAD	santander	2026-07-15	29	9.19	9.27	7.24			OK		https://www.sec.gov/Archives/edgar/data/2004812/000119312526303563/d117519dex991.htm
+2026-08-03T09:58:50	BLAST 2024-1	CARVANA	bridgecrest	2026-07-15	29	15.57	24.67	17.35		3.84	OK		https://www.sec.gov/Archives/edgar/data/2006743/000110465926083777/tm2619815d2_ex99-1.htm
+2026-08-03T09:58:50	BLAST 2023-1	CARVANA	bridgecrest	2026-07-15	32	15.2	25.12	19.3		3.66	OK		https://www.sec.gov/Archives/edgar/data/1993328/000110465926083773/tm2619815d1_ex99-1.htm
