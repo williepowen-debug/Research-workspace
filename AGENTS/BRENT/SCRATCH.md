@@ -19,7 +19,7 @@
 
 **2. 🟠 Wed 8/5 EIA wk-7/31** — pre-register BEFORE the print, source-grade inside; **no BRT-29 grade (LESSONS #9)**. · **🔴 Fri 8/7 COT as-of 8/4 — MUST NOT STACK**; ladder from **101,016**; grade off raw `f_disagg.txt`, not Socrata.
 
-**3. 🟠 CHASE TERRY ON LEG (b)** — PROME routed it at 15:30 after a 3.5-hour delay; **TERRY had already closed out and its STATUS logs the item NOT DONE.** It has not priced anything yet.
+**3. 🟠 LEG (b) — TERRY HAS THE PACKET IN ITS OWN LANE FOR 8/4 BOOT (sent direct 8/3 ~17:15, Will-directed).** It carries both rulings, PROME's indicative 130/140 = 29.5%, the 6.2%-vs-5% OTM drift handed to TERRY as its call, the one-contract constraint, and a root-rule-#6 warning if 8/4 opens green. **Expect a price + verdict, NOT a fill.** Only chase if TERRY boots and does not act.
 
 ## ★ THE SESSION IN THREE LINES
 
@@ -84,9 +84,9 @@
 
 - **BOTH LANES ZERO.** 9 packets consumed today → 9 `board_log` rows (**128 total**), 9 `git mv`'d, reconciled 1:1.
 - **DM v1: `MSG-PROME-20260803-002` (#BRENT-01 INTEGRATED — the leg-(a) grade) and `-003` (2× ACCEPTED, due 8/13). Both RETAINED in `inbox/` correctly** — a DM moves only when every obligation is terminal.
-- **SENT (3, all → `PROME/inbox/`, all committed):** leg-(b) routing ask · the two Will rulings + the fresher transit read · **the DOCKET row-80 correction.**
+- **SENT (4, all committed):** → `PROME/inbox/` ×3 — leg-(b) routing ask · the two Will rulings + the fresher transit read · the DOCKET row-80 correction. **→ `AGENTS/TERRY/inbox/` ×1 (post-closeout, Will-directed): ACTION — price leg (b) first thing 8/4.** **⚑ SENT DIRECT, NOT VIA PROME, AND THAT IS THE LESSON OF THE DAY: today's identical ask went through PROME and sat unread ~3.5h, so TERRY was never told and closed out with the item logged NOT DONE. A coordinator hop is a place a packet can die silently. For a next-boot ACTION on a named domain agent, write its lane directly.**
 - **Outbox:** 2 audit packets (boot-doc / closeout-doc, 7/31) still open — **disposition pending in the round-2 batch, deliberately not swept.**
-- **Owed TO me:** TERRY's leg-(b) price · Will's FORGE fill-price reconcile (5th) · the war-risk-halves ruling · GIE API key · FALCON on the PortWatch partition.
+- **Owed TO me:** **TERRY's leg-(b) price — packet is IN ITS LANE for 8/4 boot, no chase needed unless it boots without acting** · Will's FORGE fill-price reconcile (5th) · the war-risk-halves ruling · GIE API key · FALCON on the PortWatch partition.
 
 ## WORKBOOK HEALTH
 
