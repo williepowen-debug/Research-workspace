@@ -1,8 +1,36 @@
 # TERRY STATUS
 
-> ## ★ CURRENT STATE — 2026-07-30 Thu ~16:00 ET. **READ THIS BLOCK FIRST; EVERYTHING BELOW IS DATED HISTORY, OLDEST FIRST.**
+> ## ★ CURRENT STATE — 2026-08-03 Mon ~11:45 ET. **READ THIS BLOCK FIRST; EVERYTHING BELOW IS DATED HISTORY, OLDEST FIRST.**
 >
-> *⚠️ **Convention fixed 2026-07-30 (RAV review).** This file was written append-below-a-dated-banner, so **the first thing any reader saw was by construction the most outdated state** — the ~10:40 banner directly below still led with three claims that later addenda the same day corrected or **withdrew in full**. My own `boot.py` prints a "STATUS head" block, it surfaced that stale banner at this morning's boot, and I read past it. **Current state now lives at the top and is rewritten in place; dated banners are demoted, never promoted.** See `CLOSEOUT.md` § "STATUS banner discipline."*
+> **Book: 🟠 ONE live TERRY card + one Will-discretionary 0DTE dying on the tape.**
+> - **`TRY-FIRE-004` — 25× TLT Sep-30 77P** (was 30). Live NBBO **0.27/0.28 = 2.4×** the $0.11563 fees-in basis · **+$586 / +202.7%** · $289 remaining at risk · 58 DTE · disarm DGS10 <4.50 vs 4.68 and moving away.
+>   **⚠️ HARVEST GATE NOT MET (needs ≥3× / $0.33) — and it is still OWED.** Will sold 5 on 7/31 at **3.23×** (+$186.68, realized ≈ +$128.87). The card says *"take at least half"* = 15. **RULED 8/3: the partial did NOT consume the gate — 10 contracts remain owed at ≥$0.33**; classified **HARVEST**, not a rule-#7 trim. Not shaved for being within a nickel. *(⚠️ The 0.38 in the 09:00 `paper_book_mark` run was a stale Friday LAST, not a quote.)*
+> - **QQQ 687P ×3, Aug-03 0DTE — Will-discretionary, NOT a card.** Basis $2.81. Marks today: **2.74 (09:45) → 1.56 (09:56) → 1.24 (10:06) → 0.70 (10:17) → 0.20 (11:02)**. **Desk-card −60% hard stop breached ~10:10 and not executed.** Disposition unknown at write-up — **first pickup item: get the fill and close Session-4.**
+>
+> **Two cards built this session, both DECISION-READY and UNARMED ($0 at risk):**
+> - **`TRY-FIRE-007`** — FXY **Sep-18 60C ×9 @ $0.50 = $450**. ⚠️ **A FRESH BUILD, not a 005 re-mark** — 005 is DEAD-terminal by its own kill rule; **PROME and SAM both mis-stated it as "shelved"** and *"the two of us agreeing was not independent confirmation, it was one stale relay read twice"* (SAM's words, accepted). **SAM's requested Sep-26/Oct tenor DOES NOT EXIST** — FXY lists 6 expiries. Gated on the **Fri 8/7 15:30 COT** (≤−153K CONFIRM). **✅ BLOCKER DISCHARGED by SAM 10:40: the BOJ decision is public 7.0–10.5h pre-open, 007 is NOT void on timing.**
+> - **`TRY-WILL-QQQ-VFADE`** — QQQ **Aug-21 680P/670P ×2 @ $2.26 = $452**, awaiting **[Approve]**. Fades the unconsolidated V (656.30→697.55, no base) into the 704–712 shelf; BE 677.74 = the 50% retrace. **Entry rule-#6 CLEAN** (green day — the first ticket of this class entered on the correct colour). ⚠️ **Thesis is Will's, UNCORROBORATED**; my own intraday read said the opposite and that is on the card. ⛔ Hard condition: **becomes the ONLY QQQ short or the card voids.**
+>
+> **🔴 OPEN AND UNRESOLVED — SAM's Flag 1, and it cuts at 007's core.** A Sep-18 expiry **monetises a GAP and nothing else** — while SAM's own 8/3 character read says the distribution has rotated **away from gaps toward slow, escorted appreciation**, because two treasuries have publicly pre-announced the direction. **Sep-18 is therefore the tenor most exposed to the scenario SAM argues became MORE likely.** I have not ruled on this. **It is the single most important open construction question on the desk** — resolve before 8/7, since Dec-18 (the only alternative) quotes 44.4% wide.
+>
+> **Day desk — Session 4 written (`daytrading/JOURNAL.md` + LEDGER row):** 7 QQQ short-dated put tickets since 7/20, **≈ −$2,268 realized**. Core finding: **four losses, four SAME-DAY re-entries, zero flat days**, size escalating (7/30: realized −$390, then bought −$1,431 the same session = 3.65× the dead ticket). **★ The cross-book finding: the 687P was +23.6% at Friday's close and NO rule said take it** — identical defect to VIXCS; the desk card has 5 loss-side checks and **zero profit-side lines**. Walk-to-zero now **3 reviews / ≈ −$6,229**, and the June hard stop has **never once been executed**. Read discipline intact (7/7 puts); risk discipline absent.
+>
+> **`TRY-FIRE-001` — HY≥280 MET since 7/27, TERRY NO FIRE, attribution RULED** (broad DM HY beta 68–84%, bank/CRE ~0% HIGH confidence). Logged as **PB-0004**, the desk's first refusal on a *met* trigger. Card STAGED, $0 at risk.
+>
+> **Desk dashboard REFRESHED 8/3** (same URL, per Will's on-request-only cadence) — added a 4th **Day Desk** tab + an **Open loops** coordination section. → `[[reference_terry_desk_dashboard]]`
+>
+> **⏰ Dated obligations:** **8/5** VIX SOQ → resolve the pre-registered VIXCS evaluation (TERRY owns) · **8/7 15:30** COT → 007 resolver · **8/12** CPI · **8/14** QQQ-VFADE time stop · **8/21** OPEX (KRE/OZK/KELYA terminal).
+>
+> **📥 UNPROCESSED INBOUND at write-up — pick these up first (all landed after this session's boot):**
+> **① `BRENT→PROME→TERRY` oil-vehicle leg-(b) pricing — Will-approved, asked "before today's close." NOT DONE.** PROME then sent a **CORRECTION: its own leg-(b) number was the WRONG TENOR; eligible tenor is MARGINAL.** ② **`AEOLUS`** — stage the reinsurance-landfall tail card, **Will-directed**. ③ **`SAM`** — blocker answer + Flag 1 (above) + a second flag. ④ 3 fresh **WALTER** signals incl. a **self-correction retiring the 7455/7491 gamma band** my own surfaces cite.
+>
+> **Still not started (flagged, not dropped):** bank-put reshape (**due 8/5** — five Aug-21 legs at 93–98%, ~$98 left of ~$2,470) · PROME Phase-2 memory embed (13 rows) · DAEDALUS `LEDGER_GLOB` placement.
+>
+> *⚠️ **Convention fixed 2026-07-30 (RAV review).** This file was written append-below-a-dated-banner, so **the first thing any reader saw was by construction the most outdated state**. **Current state lives at the top and is rewritten in place; dated banners are demoted, never promoted.** See `CLOSEOUT.md` § "STATUS banner discipline."*
+
+---
+
+> *Superseded banner — **2026-07-30 Thu ~16:00 ET.** Read the CURRENT STATE block above for the operative version.*
 >
 > **Book: 🟠 ONE live card.** `TRY-FIRE-004` — TLT Sep-30 77P ×30, **$330 at risk**. Chain mid **~0.265** (verified live 14:51 ET, bid 0.26/ask 0.27) vs $0.11 fill = **~2.4×**. **Pre-registered harvest is ≥3× ($0.33) — NOT hit, no action.** Disarm = official DGS10 close <4.50; last 4.68 and moving away. ~$170 of the $500 bank dry; $200 Kharg fence untouched.
 >
