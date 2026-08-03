@@ -4,6 +4,79 @@ Append-only. **Newest on top.** One entry per review. Metrics mirror to `LEDGER.
 
 ---
 
+## Session 4 — 7/20–8/3/2026 · the QQQ short-dated put cluster · reviewed 8/3 (live, mid-session)
+
+**⚠️ INTAKE QUALITY — "acceptable" tier, not "best."** No CSV export this session. Reconstructed from **FORGE §D-14** (ANVIL 8/2 reconcile off Will's Fidelity export + activity tab). Per-fill quantities on the 680P are **not expanded in the activity view**, and one 680P expiry row is **inferred, not observed** (FORGE labels it). Realized totals are firm because all legs are long (0 STO); the per-fill split is not. **An order-level export would nail the timestamps this review still can't see** — same gap as S2/S3.
+
+**Marks:** live yfinance chain, pulled during the session (09:45 / 09:56 / 10:06 ET). Market OPEN. Session-4's last ticket is **still open while this is being written** — flagged as such, not scored as closed.
+
+### Headline: seven tickets, one instrument, ≈ −$2,268 realized and the eighth is live and red
+
+| Ticket | Expiry | Basis | Exit | Realized |
+|---|---|---|---|---|
+| QQQ 696P | ~7/20 | — | — | **≈ −$455** |
+| QQQ 675P | Jul-30 | $391.66 | liquidated **+$1.99** | **−$389.67** |
+| QQQ 672P | Jul-31 | $416.66 | **expired worthless** | **−$416.66** |
+| QQQ 680P ×2 fills | Jul-31 | $1,013.99 | liquidated **+$8.51** | **−$1,005.48** |
+| **QQQ 687P ×3** | **Aug-03 (0DTE)** | **$841.99** | ⏳ **OPEN** | **−$470 unrealized @ 10:06** |
+
+**Realized on the class since 7/20 ≈ −$2,267.81.** With the open ticket marked live: **≈ −$2,738.**
+
+### 🔴 THE FINDING — four losses, four same-day re-entries, zero flat days
+
+This is the pattern the arithmetic alone hides. Reconstructed by date:
+
+- **7/30:** sold the 675P for **+$1.99** — realizing **−$389.67**. **The same session**, bought the 672P **and** two 680P fills for **−$1,430.65**. That is **3.65× the size of the ticket that had just died, on the day it died.**
+- **7/31:** the 672P expires worthless; the 680P is liquidated at **+$8.51**. **−$1,422.14 realized that day.** **The same session**, re-entered **687P ×3 for −$841.99.**
+- **8/3 (today):** the 687P is **−56% by 10:06 ET.**
+
+**Four consecutive tickets, each opened the same day its predecessor died. Not one flat day between them.** S3 named "revenge-build at close" as *partly corroborated, needs timestamps.* It no longer needs timestamps — the **date sequence alone convicts it**, and this time the escalation is in *size*, not just frequency.
+
+### ⭐ The most useful finding, and it is NOT a discipline failure
+
+**The 687P was +23.6% at Friday's close** (marked $3.47 vs $2.81 basis, QQQ ~688). It was a **winning trade** and there was **no rule anywhere that said take it.**
+
+That is not carelessness — it is a **missing rule class**, and it is the *identical structural defect* that cost the thesis desk **−$111.60 on `TRY-VIOLET-VIXCS`** three days earlier: every trigger keyed to the move going **further**, none keyed to simply **being in profit**. Will was ruled fleet-wide on 7/31 (`NO_HARVEST_RULE`) that every card must answer this at build time. **The day-trade book has no such rule at all.** The desk card's five checks and its hard stop are **all loss-side**; there is not one profit-side line in the document.
+
+**Cost of the gap, this ticket alone: ~$200 of a realized gain that round-tripped into a ~$470 loss.** Same defect, same week, two books, ≈ −$310 combined.
+
+### Rules scorecard — the read was fine, the risk discipline was absent
+
+| Desk-card rule | Verdict |
+|---|---|
+| **1. Puts are the edge** | ✅ **COMPLIED** — 7 of 7 tickets were puts. The side-selection discipline is holding. |
+| **2. Both-ways is a chop tactic** | ✅ N/A — one-sided throughout. |
+| **3. Size: 1R $250 / hard cap 2R ~$500** | 🔴 **VIOLATED ×2** — 680P **$1,013.99 = 2.03×** the cap; 687P **$841.99 = 1.68×**. |
+| **4. Define the loss before the fill** | 🔴 **VIOLATED** — no written invalidation or time stop on any ticket. |
+| **5. 0DTE scalps stay small** | 🔴 **VIOLATED** — the shortest-dated tickets were the **largest**, exactly inverted. |
+| **⛔ HARD STOP: no-hold-to-zero** | 🔴 **VIOLATED ×3** — 675P exited at **0.5%** of basis, 680P at **0.8%**, 672P at **$0**. All three walked to zero. |
+
+**Read discipline: intact. Risk discipline: absent.** He is picking the right side of the market and losing on structure — which is the good version of this problem, because structure is fixable and edge isn't.
+
+### Repeat-leak tally
+
+1. **Walk-to-zero — ✅✅✅ THIRD CONFIRMATION.** S2 −$2,793 (19 threads) · S3 −$1,624 (5) · **S4 −$1,811.81 (3)**. **Cumulative ≈ −$6,229 across three reviews.** This is now unambiguously the durable core leak. The hard stop written to kill it in June has **never once been executed**.
+2. **Oversizing the worst entry — ✅ CONFIRMED AGAIN.** Biggest ticket of the cluster (680P, $1,013.99) produced the biggest loss (−$1,005.48). Third review running.
+3. **Same-day re-entry after a loss — 🆕 NEW, 4-for-4.**
+4. **No profit-side rule — 🆕 NEW**, and shared with the thesis book (see above).
+
+### What improved
+
+- **Side selection**: 7/7 puts, zero forced calls. S3's both-ways-in-whipsaw wreck did not repeat.
+- **Will self-reported the trim intent on TLT** unprompted, which is how the 004 harvest got onto the record at all.
+- **The 687P read was not wrong** — QQQ did sell off into 7/31 and the position went green. Honest scoring: the entry earned money and the exit rule lost it.
+
+### Actions proposed (TERRY → Will)
+
+1. **Add a profit-side line to `QQQ_DESK_CARD.md`** — the mirror of the hard stop. Proposed: *"up ≥50% on a 0–1DTE ticket → sell at least half, immediately, no exceptions."* Would have banked ~$200 on Friday.
+2. **Enforce the existing size cap.** Two of four tickets were 1.7–2.0× a cap Will already agreed to. Nothing new to decide — just apply it.
+3. **One-ticket-per-instrument-per-day.** Kills the same-day re-entry chain at the mechanical level rather than relying on restraint on a losing day.
+4. **Order-level export** — the one intake upgrade that would close the timing questions three reviews running have punted.
+
+*⏳ Session-4 close-out owed once the 687P is disposed of: final realized number + whether the −60% hard stop was executed or breached. **This entry will be amended, not rewritten.***
+
+---
+
 ## Session 3 — 6/24–6/26/2026 (3 trading days) · reviewed 6/27 · **extends Session 2 (3 new days, same account)**
 
 **Intake:** Robinhood **CSV export** covering the full 5/1→6/26 window (520 rows). The 5/1–6/23 portion reproduces Session 2 to the penny (+$2,951.67, 148 closed threads) — which validates the method, so the new number is trustworthy. **New content = the 3 days 6/24–6/26.** **Marks:** yfinance live this session (worked, unlike S2) — used to verify intraday tape + settlement values.
