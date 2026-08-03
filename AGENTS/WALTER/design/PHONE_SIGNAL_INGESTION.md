@@ -1,6 +1,8 @@
 # PHONE→FLEET SIGNAL INGESTION — canonical spec
 
-**Version:** v1.1 · **Status:** **PART B SHIPPED 2026-07-27** (`tools/phone_scan.py`, wired at boot step **7e(f)**). **PART A (Will's PAT + iOS Shortcut) still to enact — it is the remaining critical path.**
+**Version:** v1.2 · **Status:** **PART B SHIPPED 2026-07-27; RE-VERIFIED END-TO-END 2026-08-03** (`tools/phone_scan.py`, wired at boot step **7e(f)**). **PART A (Will's PAT + iOS Shortcut) still to enact — it is the remaining critical path, and it is the ONLY remaining item.** → **copy-paste card: [`PHONE_PART_A_CARD.md`](PHONE_PART_A_CARD.md)** (Will-requested 8/3; literal values pre-filled, failure modes named).
+
+**v1.2 (2026-08-03) — receiving half RE-PROVEN + a test-isolation defect FIXED.** Re-verified against the §5 contract with fixtures (nothing written to RESEARCH-INTAKE): parses source/priority/ts · dedups · **an EDITED signal correctly RE-FIRES** · **a malformed signal is surfaced LOUDLY and still handed over.** 🔴 **DEFECT FOUND AND FIXED: `_TEST_MODE` drove only the banner, so `WALTER_PHONE_DIR=… --mark` — the obvious way to test — wrote FIXTURE hashes into the LIVE `registry/phone_seen.json`, silently.** Unacceptable in the one registry whose entire purpose is *never silently drop a signal Will sent from his phone*; **a harness that mutates the production state it is testing is not a harness.** TEST MODE now isolates the seen-file (an explicit `WALTER_PHONE_SEEN` still wins) and prints which file is in play.
 **Promoted from `inbox/` → `design/` on 2026-07-27** per PROME's instruction in the original packet ("once you've built Part B, promote this doc into `AGENTS/WALTER/design/` as the canonical spec"). Original packet text preserved verbatim below.
 
 ---
