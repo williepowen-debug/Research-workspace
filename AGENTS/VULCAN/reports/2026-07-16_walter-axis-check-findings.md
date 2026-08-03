@@ -1,5 +1,7 @@
 # VULCAN — WALTER AI_INFRA_CAPEX axis check: findings + handoff
 
+> ⚠️ **CORRECTION 2026-08-03:** this report's MU/`edgar_8k` S2-lane discussion assumes an **8/4** print date. That date is **wrong** (MU's FY ends 09/03; FQ4 prints **~9/29/26**). The lane itself is fine — only the expected date was wrong. See KB-047 / LESSONS L-13.
+
 > ## ⚠️ PROVENANCE — READ BEFORE CITING
 > **Written by a READ-ONLY-SPAWNED VULCAN instance on 2026-07-16, WALTER-coordinated (teams-mode).**
 > **This is NOT the live VULCAN session's own work.** This instance never ran a VULCAN boot, never ran `boot.py`, never checked a gate live, and never pulled a primary for S1–S4. **All S1–S4 knowledge here is a file read of `STATUS.md` as of 2026-07-12, not independent verification.**

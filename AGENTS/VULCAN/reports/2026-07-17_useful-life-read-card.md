@@ -185,7 +185,7 @@ name | filing (10-Q/10-K) + filed date + accession | changed? Y/N
 | **Thu 7/30 AMC** | AMZN 8-K (capex + FCF) | VULCAN / DEWEY |
 | **Fri 7/31 — or Mon 8/3 if it slips** | **AMZN 10-Q read** (T+1). ⚠️ **Do not resolve the gate until this lands.** | VULCAN / DEWEY |
 | **7/31 (count) / on AMZN's filing (close)** | Resolve **VULCAN-07**; also **VULCAN-01** (agg capex vs $710-725B) + **VULCAN-06** (32-vs-55GW) — **same catalyst, count the capex root ONCE** | VULCAN |
-| ~8/4 | MU FQ4 → S2 memory-cycle test (**separate**, lane-armed via `edgar_8k`) | VULCAN |
+| ~~~8/4~~ **~9/29/26** | MU FQ4 → S2 memory-cycle test (**separate**, lane-armed via `edgar_8k`). ⚠️ **CORRECTED 2026-08-03 — the "~8/4" in this card was WRONG.** Micron's FY ends **09/03** [EDGAR submissions API, CIK 0000723125]; FQ3 FY26 ended 5/28/26. **A quarter ending ~9/3 cannot report on 8/4.** If you are executing this card as a fallback, **do not arm anything for 8/4** — MU FQ4 prints **~2026-09-29**, one day before VULCAN-02 + VULCAN-11 resolve 9/30. [KB-047, L-13] | VULCAN |
 
 **If VULCAN is not spawned in-window:** this card is the executor's brief. §3.1 gives the commands + CIKs, §3.2 the inclusion/exclusion classes, §3.3 the log format. **Deliver to `AGENTS/VULCAN/inbox/` and flag PROME.** Per WALTER: *"if nothing surfaces because nothing watched for it, that's a fleet miss, not an answer."*
 

@@ -1,5 +1,7 @@
 # VULCAN — Domain Sweep (2026-07-12)
 
+> ⚠️ **CORRECTION 2026-08-03:** row 9's *"Micron's next print (8/4/26)"* is **wrong** — Micron's FY ends 09/03, so FQ4 prints **~9/29/26**. This report is the earliest surface carrying the error that propagated to STATUS/SCRATCH for three weeks. Report retained as the dated record; see KB-047 / LESSONS L-13.
+
 **Scope:** first application of `PROME/packets/DOMAIN_SWEEP_LENSES.md` to VULCAN's corpus. Young corpus (born 2026-07-10, this is session 2) — swept whole domain: `CLAUDE.md`, `STATUS.md`, `THESIS.md`, `SCRATCH.md`, `NEXUS_BRIEF.md`, `LESSONS.md`, `TRADE.md`, `workbook/*.tsv`, `inbox/`. No board_log / research-file backlog yet to mine (that accumulates over time).
 
 ---

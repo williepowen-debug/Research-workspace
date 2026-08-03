@@ -196,7 +196,8 @@ Outbox filename: `YYYY-MM-DD_to-[target]_[desc].md`. Format: Signal / Detail (2�
 | `STATUS.md` | Live state — convergence matrix, live channel reads, exit triad, BOTTOM LINE. **Primary memory.** <250 lines. |
 | `THESIS.md` | Per-channel transmission-stage tables (where the richness lives). |
 | `TRADE.md` | Domain trade ideas feeding PROME synthesis. FROZEN banner or live mtime alert — never silent-rot (blueprint §8). |
-| `boot.py` | Boot instrument: ledger staleness + predictions-due. cwd-proof; self-locating. (A semi/memory fetch instrument is a later increment.) |
+| `boot.py` | Boot instrument, **3 legs**: ledger staleness · predictions-due · **S2-series content-vintage** (advisory; prompts `semi_watch.py`, does not fetch — boot stays fast + offline-safe). cwd-proof; self-locating. rc 0 quiet / 1 REVIEW / 2 leg-failed. |
+| `tools/semi_watch.py` | **S2 instrument (built 2026-08-03).** Retains the memory-cycle series → `workbook/S2_SERIES.tsv`: DRAM spot (TrendForce DDR5/DDR4 session avgs, **range-validated** parse) + the **constituent-level** equity cross-section (memory · semicap · foundry vs AI-compute · benchmarks). ⚠️ Constituent-level **by design** — semis are priced for dispersion (KB-067), so an index-only read understates the move; do not "simplify" to SOXX. Contract prices stay in KB.tsv (quarterly, LTA-governed — not a scrapeable cadence). Fails **loud** (`ERR:` fields, never blanks or stale carry-forward). `--dry-run` · `--show N`. |
 | `SCRATCH.md` | Immediate next-session continuity — "pick up here." |
 | `NEXUS_BRIEF.md` | Curated cross-agent sync, written back every closeout (blueprint §6). |
 | `LESSONS.md` | Durable agent-level learning. |
@@ -205,6 +206,7 @@ Outbox filename: `YYYY-MM-DD_to-[target]_[desc].md`. Format: Signal / Detail (2�
 | `workbook/VX.tsv` | Vectors — channel risk indicators + state. |
 | `workbook/FLOW.tsv` | Transmission pathways. |
 | `workbook/PREDICTIONS.tsv` | Falsifiable forecasts (VULCAN-NN) + resolution tracking. |
+| `workbook/S2_SERIES.tsv` | **Append-only S2 memory-cycle series** (spot + equity cross-section), written by `semi_watch.py`. The retained history S2 lacked when it was upgraded to score 3. Vintage is **content-derived** (`asof_utc` column), never mtime. |
 | `inbox/` `outbox/` | Cross-agent messaging. |
 | `sources/` | Research corpus, briefings. |
 
