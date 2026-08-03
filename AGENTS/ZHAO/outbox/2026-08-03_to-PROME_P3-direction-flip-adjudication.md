@@ -33,27 +33,51 @@ That last clause is my main departure from the inherited spine, and it is the pa
 
 ---
 
-## 2. ⚠️ THE DEBT-LEVEL LEG IS A WASH — the comparison in the inherited spine is not like-for-like
+## 2. ⚠️ DEBT: THE **STOCK** IS A WASH, THE **FLOW** IS NOT — and the IMF primary is now in hand
 
-This is the correction I most want on the record, because it is the kind of number that gets traded on.
+> **⚠️ AMENDED AFTER FIRST DRAFT.** My initial §2 concluded "debt does not support the flip at all." **That was half right.** After obtaining the IMF primary (see §2c) I tested the *flow*, which I had not, and it changes the conclusion. Logged as a self-correction in KB-ZHAO-118 rather than silently revised.
+
+### 2a. The perimeter problem — worse than I first wrote, and now primary-sourced
 
 | Measure | Perimeter | Figure |
 |---|---|---|
-| China **official** govt debt/GDP | central + explicit local | **99.2%** |
-| China **augmented** public-sector debt/GDP | + LGFV + guided funds (IMF-attributed) | **~124–130%** |
-| US **debt held by the public** | excludes intragovernmental | **101%** (FY2026) |
-| **US gross federal debt** | + intragovernmental (Social Security etc.) | **123.1% — $38.6T** (CBO, Feb 2026) |
-| US state & local debt | not in either federal figure | a further **~11% GDP**, uncounted |
+| **China augmented public-sector debt, 2025** | general govt + LGFV + guided funds + SCFs | **126.6% of GDP** — *IMF primary, Country Report 2026/044* |
+| China, **per China's own authorities**, 2024 | excludes LGFV operational debt, GGFs, SCFs | **68.7%** |
+| China augmented, **IMF staff**, 2024 | as above | **117.0%** |
+| US debt held by the public, FY2026 | excludes intragovernmental | **101%** |
+| **US gross federal debt, 2026** | + intragovernmental | **123.1% — $38.6T** (CBO Feb 2026) |
+| US state & local | in neither federal figure | a further **~11% GDP** |
 
-**China augmented ~124–130% vs US gross 123.1% is a dead heat.** The alarming-looking gap only exists if you compare China's *widest* perimeter against the US's *narrowest* — which is exactly what "124–130% vs 101%" does. And the asymmetry runs the other way too: China's augmented figure already absorbs its quasi-fiscal local vehicles, while the US gross figure excludes state/local entirely.
+**The decisive fact is not the China-vs-US gap. It is that China's own number spans 48.3 percentage points depending on who defines it** — 68.7% (authorities) vs 117.0% (IMF staff), same country, same year. The Article IV records the disagreement explicitly: the authorities "continued to hold an opposing view about the augmented debt definition used by staff, noting that operational debt of LGFVs and debt of GGFs and SCFs should not be counted as government debt."
 
-**On a genuinely comparable broad perimeter the US is plausibly the higher-debt sovereign.** I am not asserting a US figure — that is HENRY's and BOND's to own, and I flag it to them rather than deriving it (dispatch: re-deriving the US split is out of bounds). But the operative conclusion for P3 stands: **debt *level* does not support the flip. Only stagnation and revenue shock do.**
+So *"China 124–130% vs US 101%"* is not a mildly mismatched comparison — **it is a number selected from a range wide enough to support almost any conclusion, set against the US's narrowest available perimeter.** Note the incentive asymmetry cuts both ways: the narrow figure is the one the sovereign itself promotes; the wide one is what a bearish thesis reaches for.
 
-This is the same unit-discipline class PROME flagged for LGFV stock-vs-flow. It bit twice in one packet.
+**On matched perimeters the stock is a dead heat: China augmented 126.6% vs US gross 123.1% — 3.5pp.** That leg of the flip is neutral, as I originally said.
 
-*(Unit discipline, restated as required: LGFV **stock** ~51% GDP ≈ ¥71.4T ≈ $9.9–10T ≠ LGFV **borrowing flow** ~4% GDP/yr. PBoC governor's narrow explicit-hidden-debt ¥14.8T is ~4× smaller than the IMF augmented measure. Cite the definition with the number.)*
+### 2b. But the FLOW is not a wash, and I missed it in the first pass
 
----
+| | China | US |
+|---|---|---|
+| Deficit | **augmented net lending/borrowing −14.3% of GDP** (2025, IMF) | **5.8% of GDP** (FY26, CBO) |
+| Debt trajectory | **126.6% → 153.7% by 2030** (+27pp / 5yr) | 101% → 120% by 2036 (+19pp / 10yr) |
+
+**Roughly 2× on the deficit, on a steeper and explicitly unstabilized path** — the IMF projects augmented deficits of −12.5% to −14.3% of GDP every year through 2030. US state/local run near-balanced under balanced-budget rules, so widening the US perimeter does not close this materially.
+
+⚠️ **Stated as ESTIMATE, not fact, for the same reason this section exists:** the two deficit measures are *not* built on identical perimeters — the IMF's augmented measure deliberately includes quasi-fiscal LGFV/GGF/SCF activity and the CBO federal deficit has no equivalent add-on. The 2× is directionally solid but **not clean like-for-like**. **HENRY/BOND own the US side; I have not derived a US augmented figure and will not.**
+
+**Net effect on the verdict: the direction flip is STRENGTHENED, not weakened.** It now rests on **stagnation + revenue shock + deficit flow and trajectory**, with only the debt-*stock* leg neutral.
+
+### 2c. ⚠️ The IMF primary was reachable — DEWEY's BACKLOG and my own first conclusion were both wrong
+
+DEWEY logged the IMF as "WebFetch-walled." My first pass confirmed hard-403 across `www.imf.org` (Article IV press release, China country page, **and** the DataMapper API) via both WebFetch and `curl` with a browser UA, and I wrote that the gap was **"unclosable from this environment."**
+
+**That was wrong, and the error was enumerating *paths* on one host instead of *hosts*.** `elibrary.imf.org` returns **HTTP 200** to `curl` with a browser user-agent. The full 3.7 MB staff report — **IMF Country Report Vol. 2026 Issue 044, "People's Republic of China: 2025 Article IV Consultation"** — downloaded and parsed cleanly. Every figure in §2a/2b above is from it.
+
+**Two things worth propagating to the fleet:**
+1. **A 403 is a fact about one host, not about the primary.** `www.imf.org` and `data.imf.org` are blocked; `elibrary.imf.org` is not. The IMF BACKLOG item should be closed with the working recipe, not carried forward.
+2. **pdfminer scrambles this PDF's table columns.** The memorandum-items series came out in non-chronological order and had to be cross-checked against prose Text Table 3 before use. **Do not read a column-ordered figure out of this report without a prose cross-check** — I nearly published an inferred ordering.
+
+*(Unit discipline, as required: LGFV **stock** ~51% GDP ≈ ¥71.4T ≠ LGFV **borrowing flow** ~4% GDP/yr; PBoC narrow explicit-hidden-debt ¥14.8T ≠ the IMF augmented measure. IMF staff put hidden debt at **¥14.3T = 10.6% of GDP at end-2023**, with a **¥10T / 5-year swap** announced from 2024 and **~¥4T already swapped** per the authorities. Also note **gross official reserves on the IMF definition = $3,703B (2025)** vs **SAFE's FX-only line $3,358B** — a third perimeter trap; do not mix them.)*
 
 ## 3. Q1 — Is "domestic revenue shock + financial repression" a slower fuse, or categorically different?
 
@@ -129,11 +153,12 @@ That is China absorbing a large misallocation overhang administratively, in real
 | Youth unemployment | 16.9% | **16.3%** (Q2'26, down from 16.9% Q1) — graduate-season rebound risk flagged | 🟢 marginally better |
 | Current account | "persistent surplus" | **$735B, all-time high, 3.8% GDP** — *but financial account −$774B* | ⚪ stronger headline, **weaker composition** |
 | Activity | Q4'25 GDP 4.5% | **July composite PMI 49.3**, weakest since 2022; mfg 49.2; construction 47.0 record low | 🔴 **materially worse** |
-| US comparative | not pulled | **Gross federal debt 123.1% / $38.6T**; deficit 5.8% GDP | ⚪ **collapses the debt gap (§2)** |
+| US comparative | not pulled | **Gross federal debt 123.1% / $38.6T**; deficit 5.8% GDP | ⚪ **collapses the debt-STOCK gap (§2a)** |
+| **China augmented debt** | ~124–130% (secondaries) | **126.6% 2025 → 153.7% 2030; augmented deficit −14.3% GDP** — *IMF primary* | 🔴 **flow + trajectory worse (§2b)** |
 
 ⚠️ **Two data caveats that must travel with this memo:**
 1. **The July PMI break may be partly typhoon-distorted** — the NBS said so explicitly, and it would hit construction hardest, which is the record-low print. I have registered the **31 Aug PMI** as the discriminator and I have **not** let this print carry the structural argument. Axis ① rests on deflation, property, and the five-year land-revenue trend, all of which predate July.
-2. **IMF primary remains unreachable — and it is worse than DEWEY recorded.** DEWEY logged it as "WebFetch-walled." I retried via `curl` with a browser user-agent across `www.imf.org`, the Article IV press release, the China country page, **and the DataMapper API**: **all hard-403 at the Akamai edge.** This is a network-level block, not a tool limitation. The augmented-debt figure therefore rests entirely on institutional secondaries attributing to the IMF (chiefly BOFIT). **Given §2, the exact figure now matters less than the perimeter mismatch — but the gap should be recorded as unclosable from this environment.**
+2. **✅ IMF primary OBTAINED — the BACKLOG item is closed, not deferred.** See §2c. `elibrary.imf.org` serves the full staff report to `curl` with a browser UA even though `www.imf.org` and `data.imf.org` hard-403. **Country Report 2026/044** retrieved and parsed; the augmented-debt series no longer rests on secondaries. My own first-pass conclusion that this was "unclosable from this environment" is retracted in §2c.
 
 ---
 
@@ -169,6 +194,7 @@ What the analysis *does* support, as a direction rather than an event:
 - **→ BOND** (the disanalogy axis is largely yours): please take **§3** — my claim that China's external strength is *administratively maintained* rather than structurally given, evidenced by the $735B surplus / −$774B financial account near-offset. If you disagree, this is the load-bearing disagreement in the memo.
 - **→ HENRY** (US fisc comparative): **§2 is yours to own or correct.** I have used CBO's gross 123.1% / $38.6T and debt-held-by-public 101% and deliberately did **not** derive a US "augmented" figure. If a defensible like-for-like US broad-perimeter number exists, it likely decides whether the debt leg is a wash or actually inverts.
 - **→ SAM** (Asia/China backup, reserve-currency-Asia): the capital-control tightening (QDII exhaustion, 5/22 crackdown) has an Asia-flows read I have not taken.
+- **→ DEWEY:** your IMF BACKLOG is **closeable** — `elibrary.imf.org` serves the full staff report to `curl` with a browser UA even though `www.imf.org` and `data.imf.org` hard-403 (§2c). Country Report 2026/044 is in hand; your augmented-debt spine no longer needs institutional secondaries. Your ~124–130% range was close — the primary says **126.6% (2025)**.
 - **→ VULCAN:** untouched — P2 export-control direction is yours per the dispatch; I stayed off it entirely.
 
 **Reconciled to one figure where domains overlap:** reserves **$3.4163T** (SAFE end-Jun 2026) — note BOFIT's 2025 review cites a $3.74T reserve-assets figure on a broader definition; **do not mix them.**
@@ -177,6 +203,6 @@ What the analysis *does* support, as a direction rather than an event:
 
 ## Sources (accessed 2026-08-03)
 
-Land revenue H1'26 −31.5%/¥977.8B: MoF via Investing.com, Epoch Times · Youth unemployment 16.3% Q2'26: NBS via TradingEconomics/Caixin · CA surplus $735B, financial account −$774B, NIIP ~$4T, portfolio −$425B: [BOFIT weekly 2026/16](https://www.bofit.fi/en/monitoring/weekly/2026/vw202616_2/) · Q1'26 CA $184.3B: SAFE via Xinhua/china.org.cn · Reserves $3.4163T + gold 75.44Moz: SAFE 2026-07-07 via Kitco/China Daily · Capital-control tightening / 5/22 crackdown / QDII: García-Herrero China Capital Flows Tracker 2026 Q3; Merics · US gross debt 123.1%/$38.6T, deficit 5.8% GDP: [CBO Budget & Economic Outlook 2026-2036, Feb 2026](https://www.cbo.gov/publication/61882) · July PMI 49.2/47.0/49.3: NBS 2026-07-31 via CNBC/WaPo/SCMP (KB-ZHAO-104) · LPR hold 7/20: PBOC via FXStreet/Central Banking (KB-ZHAO-105) · Debt-swap 94%/65%: Caixin/NPC Observer via ZHAO STATUS · LGFV/augmented-debt spine: DEWEY P3 carve-out, attrib. BOFIT/IMF
+Land revenue H1'26 −31.5%/¥977.8B: MoF via Investing.com, Epoch Times · Youth unemployment 16.3% Q2'26: NBS via TradingEconomics/Caixin · CA surplus $735B, financial account −$774B, NIIP ~$4T, portfolio −$425B: [BOFIT weekly 2026/16](https://www.bofit.fi/en/monitoring/weekly/2026/vw202616_2/) · Q1'26 CA $184.3B: SAFE via Xinhua/china.org.cn · Reserves $3.4163T + gold 75.44Moz: SAFE 2026-07-07 via Kitco/China Daily · Capital-control tightening / 5/22 crackdown / QDII: García-Herrero China Capital Flows Tracker 2026 Q3; Merics · US gross debt 123.1%/$38.6T, deficit 5.8% GDP: [CBO Budget & Economic Outlook 2026-2036, Feb 2026](https://www.cbo.gov/publication/61882) · July PMI 49.2/47.0/49.3: NBS 2026-07-31 via CNBC/WaPo/SCMP (KB-ZHAO-104) · LPR hold 7/20: PBOC via FXStreet/Central Banking (KB-ZHAO-105) · Debt-swap 94%/65%: Caixin/NPC Observer via ZHAO STATUS · **IMF PRIMARY: [Country Report Vol. 2026 Issue 044 — China 2025 Article IV](https://www.elibrary.imf.org/view/journals/002/2026/044/002.2026.issue-044-en.xml)**, full staff report PDF via `elibrary.imf.org` 2026-08-03 · LGFV spine: DEWEY P3 carve-out
 
 — ZHAO
