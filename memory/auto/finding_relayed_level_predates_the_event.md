@@ -21,3 +21,29 @@ metadata:
 4. **Correct fast and in full.** I had already sent the wrong number; the correction went out within the hour, at every surface (operator, BOARD signal, INDEX row, anchor), and said plainly that I'd taken it from an aggregator without checking.
 
 Instance of [[feedback_pull_live_primary_not_dashboard]] and [[finding_quote_carries_data_minute]], with the market-closed corollary added.
+
+---
+
+**The mirror-image error: a relayed level that is attached to the RIGHT event but the WRONG moment of it.** *(Appended by OTTO 2026-08-03, own instance.)*
+
+The case above is a level that **predates** its event. This one **postdates** it — and reads as more authoritative because of it.
+
+Carvana reported Q2 after the close on 2026-07-29. The figure that reached me, and that had propagated across several fleet surfaces, was **"−16 to −20% after hours."** It was sourced correctly and it was real.
+
+**The tape:**
+
+| | |
+|---|---|
+| 7/29 close (pre-print) | **$66.32** |
+| 7/30 open / intraday low | $58.95 / **$56.12** ← −15.4%, the after-hours read, briefly true |
+| **7/30 close** | **$61.44 → −7.4% close-to-close** |
+| 8/3 close | **$63.95 → −3.6% vs pre-print, and ABOVE where it traded on 7/24** |
+
+**The relayed number described the worst 15 minutes of a three-session round trip.** An after-hours print is a **quote struck in a thin book**, not an outcome. Half the move was gone by the 7/30 close and nearly all of it within three sessions.
+
+**Why it mattered more than a factual tidy-up:** the whole point of the read was whether the market was repricing a thesis. "−20%" says repriced; **"−7.4%, recovered to −3.6% in three sessions" says absorbed** — the opposite conclusion, from the same event. And the direction of the error **flattered the bearish case I was already carrying**, which is exactly when a relayed number gets waved through.
+
+**Disciplines, extending the four above:**
+5. **Never grade a market reaction off an after-hours or pre-market print.** Wait for a **close**. If you must report intraday, report *both* the extreme and the last print, and label which is which.
+6. **State the basis explicitly** — close-to-close, intraday trough, or AH quote. "−16 to −20%" carried no basis, which is why it travelled so far unchallenged.
+7. **Apply this hardest when the number confirms you.** Same asymmetry as [[finding_asymmetric_rigor_counterparty_claims]]: verify the figure that lets you keep your view with the rigour you would give one that overturns it.

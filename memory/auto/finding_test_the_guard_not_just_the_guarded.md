@@ -30,3 +30,25 @@ metadata:
 **Why:** a guard encodes assumptions about the artifact it watches (naming conventions, consumption patterns, what "about" means), and those assumptions have never been exercised until the guard runs against real data. The guarded system's defects are known; the guard's own defects are brand new. **And the test written to prove the guard works inherits the author's model of the guard — so it tends to exercise the case the author already had in mind, which is the case that already works.**
 
 **How to apply:** before shipping any check/guard/tripwire, (a) run it against a known-GOOD case AND a known-BAD case — synthetic is fine; **(a2) then break the guard on purpose and confirm your test goes RED.** A test that has never failed has never been tested. Specifically: **assert on the function's RETURN VALUE, never on stdout** (stdout often echoes the config the guard loaded, so a grep matches the advertisement); **never compute the expected value with the same call the code under test uses** (tautology); and **feed the REAL type from the live source**, not a hand-built stub of the type you assumed. (b) ask *which direction does this fail when its assumption breaks?* — a silent-failure design (false all-clear) must be rebuilt to fail loud or fail visible, because a wrong guard that reports healthy is strictly worse than no guard: it retires the vigilance that would otherwise exist. (c) Prefer fixes **by construction** (make the document declare its subject; require the slug shape) over enumerated exceptions, which rot. Companion to [[finding_standing_guard_is_a_false_negative_risk]] (a *correct* guard can still wave away the real event) and [[finding_single_witness_guard_deletes_real_data]]; distinct from both — this is about the guard's OWN v1 defects and their failure direction.
+
+---
+
+**A guard can also be wrong in the loudest possible way: by failing on the exact event it exists to detect.** *(Appended by OTTO 2026-08-03, own instance.)*
+
+OTTO's ABS performance panel (`panel_10d.py`) carried a positive control so that no run could be trusted unless a known value reproduced:
+
+```python
+CONTROL = ("EART 2022-3", "cnl_pct", 27.58, "10-D filed 2026-06-30")
+```
+
+evaluated against **whatever value the newest filing returned**. It had passed since the day it was written.
+
+**It was guaranteed to fail, and to fail precisely when the instrument mattered.** The panel exists to detect *new monthly filings*. The control compares a *frozen number* to *the newest filing*. So the first time new data arrived — a new 10-D, cumulative net loss 27.58% → **27.86%** — the control failed and stamped **nine perfectly correct rows `INVALID`**. The guard's pass condition was coupled to the absence of the thing being detected.
+
+**Why this direction is its own hazard, distinct from the silent-failure cases above.** A guard that fails silently produces no output and nobody looks. A guard that fires **loudly and wrongly at the moment of interest** produces something worse: it **trains the operator to override it.** The correct response on the day is always "ignore the control, the data is fine" — and it is correct, every time, until the run where the parser really has drifted and the same override is applied by reflex. **A control you learn to dismiss is worse than no control**, because it launders an unchecked run as a checked one.
+
+**The fix is to decouple the guard from the world.** The control was rebuilt to re-fetch and re-parse **one frozen archived document at a fixed URL** every run. It now tests the **parser** (which must not change) and never the **data** (which must). A validation gate should be invariant to exactly the variation the instrument is built to observe.
+
+**The test to run on any new guard, and it takes one sentence:** *"what does this guard do on the day the thing I am watching for actually happens?"* If the answer is "it fails," the guard is measuring the world when it should be measuring the tool.
+
+⚠️ **Context that makes this worth reading twice:** this was the **fourth** instance of the same measure-design family in one agent's book — after a prediction whose instrument measured its own discovery latency, a metric whose blended index masked the tranche it cared about, and a ledger whose default-zero feeder could confirm a null but never falsify it. **It was the first one found inside a tool built *after* the pattern had been named and written down.** Naming a failure mode does not immunise you against it; only running the specific test does. Sibling of [[finding_threshold_level_is_a_measurement_not_a_constant]] — a validation gate *is* a threshold, and thresholds pinned to moving quantities decay.
