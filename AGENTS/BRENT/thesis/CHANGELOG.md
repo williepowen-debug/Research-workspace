@@ -8,6 +8,30 @@ Tracks all changes to THESIS.md and TIMELINE.md. Reverse chronological. Each ent
 
 ---
 
+## 2026-08-03 (Mon) — **NO VERSION BUMP (v5.3 stands, CONFIRMED not amended)** · DEPLOY GATE v2 **leg (a) FIRED, the GATE did not** · a NEW discriminator instrument: **THE CURVE** · two pre-registrations graded, both survived
+
+**Why no bump:** nothing structural moved. No new channel, no conviction shift, no phase transition, no threshold breach beyond a gate leg that v5.3 already anticipated. **Today CONFIRMED the v5.3 premium-regime read on new evidence rather than changing it** — logging it here because the *evidence base* changed materially even though the *thesis text* did not.
+
+**Old view → new view:** unchanged in substance; **better instrumented.**
+
+**★ THE ADDITION THAT MATTERS — the CURVE is now a first-class discriminator for PREMIUM-UNWIND vs TERMINAL RESOLUTION, and it had never been pulled for this purpose.**
+- **WTI, same contracts both days (7/31 → 8/3):** Sep **−6.54%** · Oct −5.26% · Nov −4.18% · Dec −3.36% · Jan27 −2.79% · Feb27 −2.39% · **Mar27 −2.14%.** **The front fell 3.06× as hard as the back.**
+- **⇒ That shape IS prompt risk premium being removed** — it is *not* demand destruction (which hits deferred barrels at least as hard) and *not* a supply event (which lifts the front).
+- **⇒ BUT M1−M3 backwardation only compressed +$6.02 → +$3.77 (−37.4%) and DID NOT FLIP TO CONTANGO. Jun-17 — the one genuine signature event this regime has produced — DID flip it.** **Brent corroborates independently: +$5.70 → +$3.98, −30.2%.**
+- **⇒ THE RULE, registered forward: A RESOLUTION FLIPS THE CURVE; A DIP COMPRESSES IT.** Two instruments, one read. This is the cleanest fast-moving discriminator I have, and it does not depend on transits (whose feed is broken) or on insurance (which cannot move inside a day).
+
+**Physical leg materially better evidenced — and it deteriorated, it did not confirm a de-escalation:** **Lloyd's List Intelligence** (*Hormuz Brief*, pub. 7/29, wk 20–26 Jul) puts total transits **39 vs 82 = −52.4% WoW**, non-Iranian **22 vs 30 = −26.7%**, with an explicit *"a near-term recovery in traffic is unlikely."* **Kill-test leg 2 asks whether transits RECOVER toward >35/day; in the most recent complete week they HALVED.** ⚠️ Not blended with the 88/day PortWatch `n_total` baseline — different methods; only Lloyd's internal WoW ratio is load-bearing.
+
+**Instrument defect found, routed to FALCON:** PortWatch publishes all 25 other chokepoints through **2026-07-26** but **`chokepoint6` (Hormuz) stops at 07-23**, on clean `200`s — **the partition is broken, not the service.** Kill-test leg 2 currently cannot be graded on its designated instrument. *(My earlier framings — "FALCON didn't re-run it" 8/2, "PortWatch is stale at source" 8/3 11:15 — were both too coarse and are corrected.)*
+
+**Grades:** **DEPLOY GATE v2 leg (a) FIRED** on the close (OVX **57.20** vs the re-derived **68.97** peak = **−17.065%**, line ≤58.6245) — **but the GATE did NOT fire**, because v2 is `(a) AND (b)` on the same session and leg (b) needs a live chain at fill. **Arm NOT deployed, NOT consumed; day 12 of 20.** · **Behavioral test = CORROBORATING** (WTI settle −5.07% = 67.6% of the −7.50% analogue).
+
+**Method change, registered forward (folded into LESSONS L22 clause (c), index + prose same commit):** **a pre-registration's verdict boundary must be a NUMBER with an explicit NO-VERDICT band.** Today's test said *"materially smaller"* and never defined it; it read 64% → 84% → 77% → 67.6% intraday, so an adjective-boundary would have flipped verdict three times in fifteen hours.
+
+**Unchanged and re-stated because it bounds everything above:** **n=0 genuine physical reopenings this regime** — real-vs-fake remains UNCALIBRATED, and the dark-transit / shadow-fleet bias means every transit count is biased DOWN.
+
+---
+
 ## 2026-08-02 (Sun) — **v5.2 → v5.3 (minor): CAPACITY-IRREVERSIBLE ≠ PRICE-IRREVERSIBLE**
 
 **Trigger:** first-ever primary TTF pull (self-owed since 2026-07-27, delivered on the 6th session).
