@@ -4,6 +4,10 @@
 
 ---
 
+## ★ STANDING WILL DIRECTIVE (2026-08-03)
+**Maintain first-class tracking on MAJOR RIVER water shortages — especially where they affect SHIPPING / TRADE.** Will confirmed C6 water stays inside AEOLUS (no standalone agent for now) AND named the river→navigation→freight nexus as a priority. Coverage split: **C5 = river NAVIGATION→freight** (Rhine, Mississippi/Ohio — the RED channel now; the "affects shipping/trade" leg); **C6 = water ALLOCATION** (Colorado reservoirs/shortage-tiers/hydropower). Keep a standing scan on the major navigable trade rivers: **Rhine, Mississippi/Ohio, Yangtze, Danube, Paraná** + Panama chokepoint. An empty river read is a gap to close (the #1 guard applies to this watch).
+**Trade posture (Will-agreed 8/3):** HOLD, no build now — reinsurance-landfall tail fights my own El-Niño-suppression base case (would bleed theta in a quiet season, no edge). Pre-registered BUILD trigger: **CSU 8/5 or NOAA ~8/6-7 revise season UP, OR NHC lights a Gulf/FL system** → build reinsurance tail fast w/ TERRY (breaks the suppression thesis). C4 down-stack (property→muni/WUI) is the slower expression, REGINALD-owned (ZION the one weak name), not ready.
+
 ## NEXT SESSION — START HERE
 
 8/3 12-day catch-up done. **Two big moves: C5→4 🔴 (Rhine at 2018 all-time record low, primary-verified) + C6 water promoted Tier-2→core (Will-assigned).** Composite 13/25→**17/30**. WALTER lane (14 sigs) + all inbox drained. Next session priorities (⏰ = fixed-clock, check `CALENDAR.md`):
