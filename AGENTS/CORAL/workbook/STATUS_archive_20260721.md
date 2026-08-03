@@ -80,3 +80,48 @@ The Mar-3 "🔴 RED, cascade extending, short SSB" framing is **superseded.** Fi
 5. **❌ SSB SHORT THESIS BROKEN** — SSB closed Q1 at ~$93 (PT $115, Buy reaffirmed 6/10, $0.60 div declared); credit stable. **The 2x SSB $90P Jun 18 expired worthless.** Position closed; thesis retired on Q1 evidence.
 
 **Net:** Florida is repricing exactly as the "Coral Bleaching" mechanism predicted — at the *household/condo* level. But the banks are absorbing it so far; the loss has not transmitted to balance sheets in Q1. Honest call: durable mechanism, delayed transmission. Re-test at Q2 2026 earnings (~late Jul) and the winter-2026-27 snowbird-$ / assessment-default window (converges with MARCO's FL read).
+
+## ARCHIVED FROM STATUS.md 2026-08-03 — 7/22 EVE BKU block + 7/23 VLY gate-day detail (Q2 window closed 7-of-7; per-bank detail canonical in FL_BANK_WATCHLIST.md rows 2-3)
+
+## 7/23 — FL GATE-DAY GRADE (BENIGN) + MSI SUPPLY-SIDE LEG 🔴 RATIFIED-FIRED (PROME-spawned) — READ FIRST
+
+**⭐ AMC GATE-DAY RESULT (4:15PM ET): BENIGN — sync stays 0-of-≥2; the ≥2 bar did NOT fire.** Both AMC prints graded off primary ex-99.1, mechanically on the frozen 4-axis frame:
+- **USCB — BENIGN, 0-of-4** (acc. 0001562762-26-000082). NCO 0.05% / provision $1.3M (on 14.6% ann. loan growth, CECL-on-growth) / ACL 1.15% (declining) / NPL 0.09%. EPS $0.49 beat, >$3B assets, CET1 11.01%. ⭐ **Condo-assoc wire CLEAN: zero association/condo/HOA credit disclosure in the release** ($126M/470+ book not broken out — unobservable per ML-CORAL-046); **new CCO Garrido's first print = clean.** The purest condo→bank canary is NOT cracking.
+- **AMTB — BENIGN, 1-of-4** (acc. 0001734342-26-000071). NCO 0.08% (↓ from 0.45%) / provision $4.8M (−39% QoQ) / **ACL ratio 1.21%→1.27% = the one mechanical deteriorating axis** (build INTO improving quality — coverage ~45%→~50%, classified −14.7%, NPA −2.6%, special mention −25.9%) / migration benign. EPS $0.53 beat, CET1 11.94%. **The pre-registered thin-coverage stress point IMPROVED, did not crack.** Genuine FL-book benign (pure S-FL).
+- **SSB — PENDING** (not on EDGAR by 4:15PM; latest 8-K 7/13 officer-change; call 7/24). Graded when it files — no fabrication.
+- **Tape:** AMTB +1.65% / USCB +0.94% (mild positive on the beats) — no tape-vs-fundamentals divergence (unlike BKU/VLY earnings-line sells); regular-session softness was macro ($100-oil risk-off, KRE −0.6%). **Live bar now needs BOTH {SSB, SBCF-7/28} to deteriorate — gate-day cluster alone can no longer reach ≥2.** No rail move. Detail → `FL_BANK_WATCHLIST.md` rows 4-5; outbox → `outbox/2026-07-23_to-PROME_amc-gateday-grade.md`; KB ML-CORAL-051.
+
+---
+
+
+**⚠️ TIMING CORRECTION (verified, not assumed):** spawn premise was "~12:05AM Fri 7/24, all four printed." **Actual: Thu 7/23 ~12:15PM ET** (machine clock 16:15 UTC / 12:15 EDT internally consistent; EDGAR shows no SSB/AMTB Q2 8-K filed; web-confirmed SSB+AMTB+USCB all release **AMC 7/23 ~4PM+, calls 7/24**; VLY trading intraday $14.18, not a close). **Only VLY (BMO) has printed.** SSB/AMTB/USCB CANNOT be graded yet — grading them would fabricate non-existent data. **Gate day is ¼ resolved; needs a re-run tonight after AMC.**
+
+**VLY VERDICT: BENIGN / does-not-count — 1-of-4 pre-registered axes deteriorating (bar ≥3), AND no deterioration is FL-attributed. Sync count stays 0-of-≥2.** Primary: 8-K ex-99.1, EDGAR **acc. 0000714310-26-000036, filed 7/23/26.** Graded exactly as pre-registered, zero threshold moves.
+
+| Axis (frozen) | Q2 print | Verdict |
+|---|---|---|
+| (a) NCO | $22.0M (~17bps ann.) vs $17.5M Q1 (~14bps) / $37.8M 2Q25; up modestly QoQ, −42% YoY, level mid-teens; recoveries $5.6M | BENIGN |
+| (b) Provision / specific reserve | $29.2M vs $21.2M Q1 (+37% QoQ), <$37.8M 2Q25; "higher specific reserves on collateral-dependent loans" (**not FL-named**) + forecast + loan growth, offset by **declining CRE quantitative reserves** | **DETERIORATING (mechanical)** |
+| (c) ACL ratio | 1.18%→**1.16% (−2bps, declining)** — $ +$7.1M but ratio down on loan growth to $52.5B | BENIGN |
+| (d) Criticized/classified→NPL migration | **criticized/classified 8.1%→7.3% (−0.8pp DOWN**, mgmt-guided; call/press-tier); vs non-accrual +$30M→$462.6M (0.85→0.88%) on **3 collateral-dependent CRE loans** ($49.6M, no allocated reserves), past due +$52.3M | BENIGN (mixed) |
+
+**Not FL-attributed (independent exclusion ground):** VLY is an 8-state book, discloses no FL cut; criticized/classified *fell*; the 3 migrating CRE credits are geography-unspecified → per the exclusion rule, non-FL CRE softening does not feed the FL count. NI $170.9M / dil EPS $0.29 (adj $0.30 vs $0.31 cons = slight miss) / NIM 3.20% (+3bps) / CET1 **11.37%** (↑ from 10.91%). **Tape −2.4% intraday = the EPS line, not credit** (credit improved in aggregate — same pattern as CCBG/BKU). **No HOA/condo/association color in the VLY release** (multifamily = loan GROWTH; CRE growth = owner-occupied + select MF, not condo-assoc). Detail → `FL_BANK_WATCHLIST.md` row 3; outbox → `outbox/2026-07-23_to-PROME_fl-gateday-grade.md`.
+
+**🔴 PARCL MSI SUSTAIN CHECK — MET → LEG FIRED, WILL-RATIFIED 7/23:** fresh Parcl metro pull 7/23 (parcllabs.com/research/markets/fl/*/metro): **5 FL metros still >6.0** ~15 days after the 7/8 snapshot — **Tampa 6.96** (7/8: 6.9), **Punta Gorda 6.82** (6.9), **North Port 6.45** (6.45), **Cape Coral 6.2** (6.12), **Lakeland 6.09** (6.09). Values shifted vs 7/8 = fresh read. Per OQ#0 registration, the sustain trigger is SATISFIED → **the 🟠→🔴 supply-side price-discovery leg is FIRED (Will-ratified in-session 7/23 ~1:35PM ET).** **Absorption mechanism (VX-CORAL-BUYER-01): cash end-user/foreign capitulation-clearing** (cash share rising, investor falling) → **cash comps mark collateral DOWN → erodes SW-FL LTV cushion behind FL bank books** = the collateral-repricing leg upstream of the bank bridge. **SCOPED to the supply-side leg only — the bank-transmission rail is UNTOUCHED (stays 0-of-≥2); overall CORAL state stays 🟠 thesis-split.** ⚠️ Documented substitution: metro-level all-seller MSI, not the builder-cell basis the reg was seeded on (noted, not silent); 2 readings 15d apart = persistence, not a continuous weekly series. Thesis leg-move logged → `thesis/CHANGELOG.md` (2026-07-23) + `thesis/THESIS.md` State line. OQ#0 CLOSED (RATIFIED-FIRED).
+
+---
+
+## 7/22 EVE — BKU Q2 PRE-REG GRADE (PROME-spawned, leg 2 of the FL-sync test) — READ FIRST
+
+**VERDICT: BENIGN — 1-of-4 pre-registered axes deteriorating (bar = ≥3). BKU does NOT count as a deteriorating FL leg → synchronization count stays 0-of-≥2.** Graded exactly as pre-registered 7/21 (FL_BANK_WATCHLIST row 2), zero threshold moves. Primary: Q2 8-K ex-99.1, EDGAR acc. 0001504008-26-000076, filed 7/22/26.
+
+| Axis (frozen 7/21) | Q2 print | Verdict |
+|---|---|---|
+| (a) NCO direction/level | **11bps ann.** vs 61bps Q1 / 21bps 2Q25 ($6.4M vs $36.1M Q1) — falling, no CRE-turn evident | BENIGN |
+| (b) Provision / specific reserve | **$15.1M** vs $25.1M Q1 (−40% QoQ), ≈flat vs 2Q25; no named FL-RE specific reserve (⚠️ unattributed "higher specific reserves" phrase — 10-Q check) | BENIGN |
+| (c) ACL ratio | 0.87%→**0.91% (+4bps)** — outside ±1bp band as-written; context: build coincides w/ NPLs −19%, ACL/NPL 75.9%→97.1% | **DETERIORATING (mechanical)** |
+| (d) Criticized/classified→NPL migration | NPLs **−19% QoQ / −40% YoY** (no reversal); criticized/classified **CRE −$79.6M/−14% QoQ**; total commercial +$7M/+1% (C&I-driven, non-CRE) | BENIGN |
+
+**Tape-vs-fundamentals DISAGREE (context, not grade):** BKU closed **−4.43% at $45.94** (7/22, PROME tape note) — ugliest print reaction in the regional cohort this week — while credit was the *strongest* part of the release. Market reacted to the **earnings line**: EPS $0.97 miss (consensus ~$1.00–1.03), revenue miss (press-tier), expense creep ($1.1M single-OREO loss + $1.3M operational losses + deposit costs). NIM actually +7bps to 3.06%; NI $70.7M; CET1 12.3%. No FL-RE thesis touch: no condo-association disclosure, CRE criticized falling, no FL-RE specific reserve — nothing arms the bank-transmission rail. **Three independent FL surfaces now benign (CCBG credit 7/21 + FL labor 7/21 + BKU credit 7/22).** Next leg: **7/23 gate day (VLY BMO; SSB+AMTB+USCB AMC)** — first day the ≥2 bar could mathematically fire; rail unchanged, no state change without PROME/Will. Detail → `FL_BANK_WATCHLIST.md` row 2; outbox → `outbox/2026-07-22_to-PROME_bku-fl-sync-leg2-grade.md`; KB ML-CORAL-047.
+
+---
