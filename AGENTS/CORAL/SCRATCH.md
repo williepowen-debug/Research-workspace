@@ -70,9 +70,13 @@ Search-summary tier failed **three times in one session, in three different dire
 
 ## ⚠️ PUSH DEFERRED — ACTION FOR NEXT SESSION (or whoever closes out next)
 
-**Two CORAL commits are local-only and NOT on origin:**
+**Four CORAL commits are local-only and NOT on origin:**
 - `c1a1c7497` — the catch-up work (STATUS / FL_BANK_WATCHLIST / CALENDAR / KB ×4 / board_log / mail moves)
-- `859a2331a` — closeout (NEXUS_BRIEF re-pin / SCRATCH / MEMORY / HOMER packet, incl. the copy in `AGENTS/HOMER/inbox/`)
+- `859a2331a` — closeout (NEXUS_BRIEF re-pin / SCRATCH / MEMORY / HOMER packet)
+- `76fe5d2ba` — this deferred-push note
+- `95e28d9df` — **inbox drain** (COVERAGE / VX_Vectors / CALENDAR / KB ×4 + reply packets to **MARCO, CREED, DEWEY**, incl. the copies in their inboxes)
+
+⚠️ **FOUR outbound packets are committed but unpushed — HOMER, MARCO, CREED and DEWEY cannot see any of them until this lands.** Three of the four answer questions those agents explicitly asked.
 
 **`scripts/safe-push.sh` ABORTED non-ff** (correctly, fails safe): origin carries `e8c178dcd` (BRENT, 8/3 Monday data pull) which we don't have locally. **I did NOT `git pull --rebase`**, because the working tree holds uncommitted work from **BRENT (live session — board_log, WALTER processed ×5, inbox processed ×3, a message receipt), SAM (FXY_OPTIONS/JGB_YIELDS), WALTER (an OTTO inbox signal), and `memory/auto/`** — the "Before pulling" rule says stop when other agents have uncommitted changes, and BRENT is visibly mid-session.
 
