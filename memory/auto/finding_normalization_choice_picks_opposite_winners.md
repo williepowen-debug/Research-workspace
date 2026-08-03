@@ -31,4 +31,30 @@ Use a **ratio/dispersion** test as the tiebreak, because it is normalization-fre
 
 **Hygiene:** every "X led the move" claim — yours or an inbound one — must carry its normalization, or it cannot be checked and should not be propagated. This is a *stated-method* requirement, not a preference.
 
+---
+
+**n+1 — 2026-08-03, PROME. The same defect in a PASS/FAIL gate, where it is worse: the free parameter was a strike, and the wrong choice reported a gate as UNSATISFIABLE.**
+
+BRENT's DEPLOY GATE v2 leg (b) = *net debit ≤ 33% of spread width on a live chain*, spec'd as long **~5% OTM** / short **~12–15% OTM**. I took that band, did the arithmetic off spot, landed on **USO Oct-16 127/138**, and reported leg (b) **FAILS at 33.6% paying the spread** — "MARGINAL, a coin-flip on execution." That number went to BRENT and TERRY as the answer to *"can this gate be satisfied at all?"*
+
+It was a fact about my strikes, not about the gate:
+
+| Structure | Long/short OTM | Width | At MID | Paying FULL spread | Open interest |
+|---|---|---|---|---|---|
+| 127 / 138 *(mine)* | 3.7 / 12.7% | $11 | 26.6% | **35.0% FAIL** | **93 / 263** |
+| 130 / 140 | 6.2 / 14.4% | $10 | 23.5% | **29.5% PASS** | **5,924 / 7,292** |
+
+**The arithmetic centre of a moneyness band is not where the market is.** USO's open interest sits on round numbers; strikes between them quote wide because nothing trades there. I had computed a *liquidity* penalty and reported it as a *gate* verdict — and it pointed at "don't bother," the conclusion that requires no further work.
+
+**The rule, extending the one above:**
+
+> **Before reporting any pass/fail computed off a free parameter, VARY the parameter.** If the verdict flips across reasonable settings, the verdict is about your choice — say so, show the range, and let the owner pick. For anything priced on a chain, **liquidity picks the strike, not arithmetic**: check open interest before quoting a debit.
+
+Two sharpeners specific to the gate case, which the "led the move" instance above does not have:
+
+1. **Pass/fail hides the disagreement that a ranking exposes.** "CCC led" invites "by which lens?"; "leg (b) fails" sounds like a property of the world. **A binary verdict launders a parameter choice into a fact** — so the both-or-neither rule needs stating *louder* here, not less.
+2. **Check which way your default flatters you.** I picked the more permissive *tenor* earlier the same day (Sep-18 over the ratified Oct-16) and the more punitive *strikes* an hour later — inconsistent, and each error pointed at the answer needing less work. **Audit defaults for direction, not just correctness** — cf. [[finding-deliberate-and-unnoticed-asymmetry-look-identical]].
+
+Cost: the correction reached BRENT 22 minutes before the close, and had it not, its gate grade would have carried a leg-(b) verdict that was the opposite of true.
+
 Distinct from [[finding-composition-mask-unmask-discriminator]] (there the *reporting entity* manages the base to hide deterioration; here nobody is hiding anything — the *analyst's* lens choice manufactures the conclusion). Related: [[finding-number-carries-threshold-unit-source]], [[finding-blended-index-masks-bifurcation]], [[finding-level-vs-monthly-average-cpi-landing]].
