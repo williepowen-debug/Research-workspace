@@ -15,6 +15,19 @@ verdict: FIGURE-SET CORROBORATED ACROSS CARRIERS OF ONE NOTE / LEVEL-COHERENT WI
 narrative_channel: potus
 ---
 
+> ## ⚠️⚠️ CORRECTION 2026-08-03 — **THE "HENRY'S LIVE WARN LEVEL" HALF OF THIS SIGNAL'S HEADLINE IS RETRACTED. → `SIG-W-20260803-002`**
+>
+> **The 7,455 / 7,491 gamma band was NOT live when this signal was written.** It was scoped to `TRY-VIOLET-VIXCS`, which **exited 2026-07-30 ~09:50 ET TERMINAL** (realized −$111.60, −38.8%) — **three days before this dispatch.** The band was retired with the position.
+>
+> Verified at three independent owner-side primaries, **all of which pre-dated this signal**: PROME `ACTIVE_DECISIONS.md` row 48 (`EXITED 2026-07-30 — TERMINAL (COMPLETED)`) · VIOLET `STATUS.md` 7/31 (*"the flip-band machinery retired with it"*, posture **FLAT**) · HENRY `MEMORY.md` (*"Do NOT re-raise the VIOLET gate — dead… Any sighting of 7,496/7,455/7,491 is history"*).
+>
+> **⇒ RETRACTED: the title's *"coincides with HENRY's warn level"*, and every clause in this body treating 7,455 as a live registered gamma warn or a live VIOLET thesis-kill.** A thesis-kill cannot fire on a position that no longer exists.
+>
+> **✅ WHAT STANDS, UNCHANGED:** the Goldman CTA figure set (7,455 / 7,204 / 6,765; $7.5B → $31.5B → $185B), the multi-carrier corroboration and its stated one-note limit, and the level-coherence with the tape. **Goldman's 7,455 is a SEPARATE, LIVE OBJECT** — SPX closed 7,489.72 Friday and traded **7,577.72 (+1.17%) on 8/3**, ~123pts above it. **The independence question this signal raised was the right question; the "LIVE WARN LEVEL" clause answering it was wrong.**
+>
+> *Correction is a new signal rather than an edit because delivered handoffs cannot be edited. Recipients of this signal receive `-20260803-002` as their correction notice.*
+
+
 # 🟠 Goldman's CTA desk puts the S&P short-term trigger at **7,455** — the same number as HENRY's live warn level — with Friday's close **7,489.72 just 34.7 pts (0.46%) above it.** Flow sizes: $7.5B next week baseline → $31.5B if markets fall further → **$185B/month conditional tail.**
 
 ## 1. The note (as carried — primary not accessible)
