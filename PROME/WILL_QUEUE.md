@@ -1,6 +1,6 @@
 # WILL_QUEUE.md — the operator's open-items ledger
 **Owner:** PROME (registers, updates, retires rows; reconciles at every boot/closeout) · **Will edits freely** — anything marked/struck here is reconciled at PROME's next touch.
-**Last reconciled:** 2026-08-02 (phone session, branch `claude/prome-startup-docs-hpdy52` — row 18 CLOSED via SAM proxy spawn + Will disposition; ⚠️ merge branch before next desktop boot reads this file). Prior: 2026-07-31 (~16:45 ET closeout — FULL artifact-check swept all rows; 9 rows closed; row 18 added)
+**Last reconciled:** 2026-08-02 evening (desktop session — rows 19/20 added [QQQ Mon sale HARD-dated · Robinhood capture]; row 15 DONE [RAV ratified]; row 16 mostly-resolved by the 8/2 reconcile; phone branch confirmed merged). Prior: 2026-07-31 (~16:45 ET closeout — FULL artifact-check swept all rows; 9 rows closed; row 18 added)
 
 **Rules (v1, deliberately dumb — one markdown table until real use earns more structure):**
 - **Only items where WILL is the actor.** Types: `LAUNCH` (agent windows) · `[Approve]` (trade/proposal) · `RULE` (canon/disposition) · `BROKER` (exports/confirms) · `BUY` · `ACTION` · `READ`. Fleet work lives on DOCKET + agent boards — the moment an item stops needing Will, it leaves this file.
@@ -17,10 +17,12 @@
 
 | # | Item | Type | Needed by | Since | PROME rec | Notes |
 |---|---|---|---|---|---|---|
+| 19 | **QQQ 687P Aug-03 ×3 — SELL (your stated plan 8/2)** | ACTION | **2026-08-03 by close — HARD** | 8/2 | sell into any AM strength; by-close regardless | ITM at expiry auto-exercises into short QQQ the IRA can't hold (D-4 class, 3rd instance). TERRY frames the exit Monday AM (packet in its inbox); marked +23.6% at 7/31 close, QQQ 688.60 ≈ ATM. Fill closes FORGE D-12 |
+| 20 | **Robinhood screenshot** | BROKER | this week | 8/2 | one capture closes THREE | USO 150/165 fill debit (BRENT's ask, 3 sessions old) + USO 128C (D-5) + **WAL 77.5P at 7/20 vintage, 19 DTE (Aug-21)** — the only live-position rows the fleet can't see |
 | 12 | HENRY standing boot-rule blessing | RULE | none | 7/28 | mechanical-trigger version | artifact-checked 7/31: WALTER-lane inbox step ALREADY exists (CLAUDE.md 3a); the open half is the GENERAL inbox at boot — bless the mechanical version of that half only |
 | 13 | FFIEC CDR account | BUY | none | 7/28 | do it (5 min) | artifact-checked 7/31: still live + load-bearing — DAEDALUS STATUS names it the Will-side blocker that UNBLOCKS WAL MI3 (WAL wired a boot reminder waiting on it) |
 | 15 | RAV charter review → formal ROSTER row | RULE | none | 7/25 | ✅ DONE 8/2 | **RATIFIED as-drafted 8/2 in-session** (Meta classification + fence (c); ROSTER SPECIAL row landed `de539d32e`; DAEDALUS scaffolds `AGENTS/RAV/` → FLEET_MAP next, PAT-047 order; WALTER words fence (c) into its registry row — both packeted 8/2). Roll off ~8/9 |
-| 16 | Next broker export + confirms bundle | BROKER | none (next export) | 7/24 | — | one export resolves: off-rail confirms D-1/2/3 (AAPL/GLD/USO→35 ⇒ concentration packets fire), D-6 USO-spread account, D-7 $565+$1,500, D-10 MAIN≟IRA label, tail-rider debit, QQQ 680P figures + strike re-verify, VIXCS timestamped order (settles TERRY's S3 carry) |
+| 16 | Broker-export residue (was: confirms bundle — **MOSTLY RESOLVED by the 8/2 export + activity tab**, ANVIL `62cae1cef`) | BROKER | none | 7/24 | — | ✅ closed 8/2: D-2/D-3 confirmed (GLD 16/USO 35) · D-6 Robinhood · D-7 $1,500-landed + pending decomposed exact (+$67.71 residue) · QQQ figures (675/680 double-reversal corrected at broker record). **Still open:** D-1 AAPL 5-sh sale date/price (activity window doesn't reach) · D-10 MAIN≟IRA label · tail-rider debit → row 20 (Robinhood) · VIXCS timestamped order |
 | 17 | Repo public flip | ACTION | none | 6/30 | — | all pre-flip blockers closed since 7/4; flip ⇒ delete DESKTOP mirror backup + Phase-5 verify |
 
 ## RECENTLY DONE (rolls off ~7d)
@@ -43,7 +45,7 @@
 | BRENT Stage-A (was row 5) — RATIFIED both legs + leg-(a) CLOSE basis, implemented+verified | 7/31 | `0832c484` (STAGE-A v4 in TRADE.md; STNG veto retired; follow-ups → row 5b) |
 | Stage-A defect-② + sizing (was row 5b) — RULED C1 + half/half, implemented+verified; entry_timing contradiction resolved by phase-separation | 7/31 | `aede1959` *(hash remapped by the 11:46 rebase — was f459d824)* (v5: entry {(i)+(T)+(C)}, transit→Stage-B kill leg 2; local, push queued) |
 | Launch SAM pre-BOJ (was row 1) | 7/30 ~22:00 | Will confirmed in-session at PROME boot; SAM live in own window, 13 dirty SAM paths incl. the yen packet `git mv`'d to processed |
-| QQQ 680P — SOLD for a loss (strike corrected 675→680) | 7/30 | `be7f7bfa`; figures fold into row 16 |
+| QQQ 680P — SOLD for a loss (strike corrected 675→680) *[⛔ CORRECTED AGAIN 8/2 at the broker record: the put sold 7/30 was the 675P (−$389.67); the 680s were NEW 7/30 buys that died 7/31 — FORGE §D-14 is the record]* | 7/30 | `be7f7bfa`; superseded by ANVIL `62cae1cef` |
 | HEARTBEAT amendments #1 + #2 approved | 7/30 | `d7764309` / `8bb2ff35` |
 | env_doctor venv probe approved | 7/30 | `f5a3655c` |
 | BRENT LESSONS #21(a) — Option A ratified | 7/30 | `9523b941`; arm expiry ~8/13 docketed |
