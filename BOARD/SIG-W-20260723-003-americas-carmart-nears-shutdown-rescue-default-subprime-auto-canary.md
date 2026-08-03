@@ -13,6 +13,9 @@ info: [RED, BROCK]
 confidence: 0.85
 verify_verdict: CONFIRMED multi-source (Bloomberg primary 7/21; aggregator headline "nears shutdown" consistent with verified substance)
 verify_method: WebSearch multi-source cross-check, 2026-07-23
+status: PARTIALLY-CORRECTED
+status_ref: SIG-W-20260728-001
+status_note: Same refutation as SIG-W-20260727-019: the '$300M Silver Point rescue DEFAULTED' claim in this title is REFUTED at the primary (covenant breach waived-and-amended; no acceleration, no event of default; no 8-K Item 2.04 exists). The store closures, going-concern language and subprime-auto-canary framing are NOT affected by this tag.
 ---
 
 # America's Car-Mart (CRMT) near-demise: $300M Silver Point rescue DEFAULTED, 60 of 154 stores closed, going-concern doubt — deep-subprime auto lender collapse

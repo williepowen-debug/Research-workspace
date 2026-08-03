@@ -18,6 +18,9 @@ verify_verdict: UNVERIFIED-RELAY — routed as a dated, falsifiable market call 
 verify_method: BOARD dedupe only (zero prior hits for Karsan / jam_croissant). No primary retrieval attempted — the source is a video segment.
 routing_note: VIOLET action — vol regime is its domain and it owns the dealer-positioning/flows lens this call is made in. HENRY info (equities/VIX/Fed expectations; FOMC is inside the window). TERRY info — if a vol event lands in the named window it is a construction-timing input (rule #6 puts-on-green). RED §3.5 pull-complete → no handoff.
 dispatch_note: Routed on the ONE property that makes a low-confidence forecast worth carrying — it is DATED, it is NEAR, and it is FALSIFIABLE inside a week. A call that resolves by 7/31 costs nothing to record and can be scored. `[[feedback_dont_bank_unpassed_forecast]]` applies: this is recorded, not banked.
+status: FALSIFIED
+status_ref: VIOLET KB-VIO-127 / KB-VIO-169 (grade recorded in AGENTS/VIOLET/STATUS.md, 2026-07-31)
+status_note: This was dispatched as a DATED, FALSIFIABLE call and it has been graded by its owner: VIOLET graded KB-VIO-127 a MISS on 2026-07-31. BOTH registered HIT legs failed INSIDE the window — the '>=23 touch' leg peaked at 20.88 [7/29], the episode max, 9.2% short; the '>20 settle-and-hold' leg DID settle (20.66 [7/29], the episode's first >20 settle) and the hold leg broke the very next session (17.09 [7/30], −17.3%). The parked fall-flows half was FORMALLY DROPPED per the registration's own terms. Tagged rather than left open because a live-reading forecast is the class this mechanism exists for — and because the call being scorable at all was the reason it earned a dispatch.
 ---
 
 # Karsan (relayed): vol shock risk into month-end, vol expanding on flows into the fall — dated, near, and cheap to score
