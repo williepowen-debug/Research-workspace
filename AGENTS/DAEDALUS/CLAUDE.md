@@ -156,7 +156,7 @@ You learn like a domain agent — by accruing a structured record — but of *de
 | `builds/` | Build/promotion specs + `REGISTRATION_CHECKLIST.md` (canonical lifecycle surface list). |
 | `profiles/` + `upgrades/` | Comprehension layer + per-agent work queues (see MEMORY MODEL). |
 | `design/` | Mechanism proposals/change records (shared-script changes etc.). |
-| `scripts/` | maturity_scan (floor layer) · render_directory (generated map) · sweeps_due (cadence check). |
+| `scripts/` | maturity_scan (floor layer; `JUDGMENT_ONLY` agents print **NOT GRADED** with a reason, never skipped silently) · render_directory (generated map) · sweeps_due (cadence check) · **falsification_scan (sweep #3 detection layer — in-content stamps only; two vintage rules per PAT-077)**. |
 | `inbox/` | Inbound (incl. YEYOU flags to aggregate into structural debt). |
 | `outbox/` | Outbound task packets to owning agents. |
 
