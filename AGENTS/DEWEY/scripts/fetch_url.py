@@ -174,6 +174,12 @@ def status_only(url, timeout=30, ua=None):
             return r.status, r.headers.get("Location", "")
     except urllib.error.HTTPError as e:
         return e.code, e.headers.get("Location", "") if e.headers else ""
+    except Exception as e:
+        # DNS failure, TLS error, timeout, refused connection. A probe whose JOB
+        # is to report status must never traceback — that turns a reportable
+        # negative into a crash the caller reads as "tool broken". Found 2026-08-02
+        # on saffm.hq.af.mil while probing budget hosts for DR-3.
+        return 0, f"[transport error: {type(e).__name__}: {e}]"
 
 
 def grep(text, pattern, context=0, ignorecase=True):
