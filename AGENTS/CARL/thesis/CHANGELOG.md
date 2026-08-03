@@ -8,6 +8,29 @@ Tracks all changes to THESIS.md and PREDICTIONS.tsv. Reverse chronological. Each
 
 ---
 
+## 2026-08-03 (Mon) — **THESIS v2.6.4: V5 Gas Squeeze 3→4 EXECUTED — 51→52/70 (74%)**
+
+**The pre-authorization fired.** Will's 7/31-eve conditional (*"still ≥$4.00 at Monday 8/3's window close → EXECUTE 3→4, no further ask; retrace <$4.00 first → hold 3"*) was verified against its two registered instruments and **the condition was MET**:
+
+| Instrument | Reading | Obs date | vs $4.00 |
+|---|---|---|---|
+| AAA daily national regular | **$4.095** | 2026-08-03 (live pull) | ✅ +9.5¢ |
+| FRED GASREGW weekly | **$4.001** | w/e 2026-07-20 | ✅ +0.1¢ |
+| FRED GASREGW weekly | **$4.096** | w/e 2026-07-27 | ✅ +9.6¢ |
+
+Two consecutive FRED weeklies ≥$4.00 and rising; **no sub-$4.00 daily reading anywhere in the 7/20→8/3 window** (7/24 $4.105 · 7/31 $4.106 · 8/3 $4.095), so the retrace branch never armed. Diesel **$5.364 [8/3]** at a fresh high. **Old view:** V5=3 ("watching — the gas leg of the cost squeeze is relieving," v2.6 Jun 22). **New view:** V5=4 ("firing, with room to escalate") — the bottom-60 energy cost squeeze is re-engaged, with 2026 the first year ever to record two separate $4.00 surges.
+
+**⚠️ Two honesty notes recorded on the move, neither of which changes the arithmetic:**
+
+1. **Spec coexistence.** The V5 matrix cell's *own* v2.6 re-arm language named only a kinetic/price path (*"Brent $105-110 + pass-through"*). **Brent is $82.77 [8/3 live] — on that literal trigger V5 would NOT have re-armed.** The gate that actually fired is the later, dated, explicitly-superseding 7/16-card sustained-cross path Will ratified 7/31. Recorded in the cell rather than silently resolved; the stale price-route language is now moot (a re-arm-to-4 trigger cannot apply to a vector already at 4), so **no trigger was rewritten.**
+2. **The move is one-sided by DEFAULT, not by judgment.** The opposite-signed consumer-credit **DOWNGRADE candidate stayed ARMED** because *both* of its instruments failed to deliver on its own dated day: **Fitch ATR Apr/May/Jun 2026 are still not publicly available** (4th consecutive month; subscription index, secondary coverage frozen at March) and the **Q2 HHDC had not been released** (media advisory still unposted as of 8/3). **+1 is the honest arithmetic of what resolved; it is not a net read of the cycle** — the down-leg is pending, not refuted.
+
+**⚠️ V5-at-4 may be a short tenancy, and the trigger for that is ALREADY REGISTERED — no new threshold was set.** The 1-month fast-table carries *"AAA pump retreats below $4.00 sustained 2 weeks → V5 −1 immediate (4→3)."* That trigger is **live-at-risk from day one**: WTI **−7.29% to $78.50** and Brent **−8.16% to $82.77** [both 8/3 live] on the 8/2 de-escalation headline, with Brent round-tripping **$100.19 (7/23) → $90.12 (7/31) → $82.77 (8/3) = −17.4% off the peak.** At CARL's registered **17-18d** crude→pump lag the break reaches the pump **~8/20**, against only **9.5¢** of cushion. Logged as a dated watch on an existing rail, not as a new spec.
+
+**Surfaces touched (Check B):** THESIS header + V5 row + score header + histogram + commentary; STATUS overall line + gas row + histogram + total + narrative; this CHANGELOG; docket row pruned; NEXUS_BRIEF. KB-373.
+
+---
+
 ## 2026-07-31 (evening, 2nd pass) — CRL-28 REGISTERED · CRL-14 RETIRED (Will: "yes register")
 
 **CRL-28 (50%, OPEN):** MOHELA SAVE→RAP harm signature via **CFPB complaint rate** — 60-day rolling avg ≥2× baseline (≥55/day vs ~27/day June base) at any point Oct 1 2026–Sep 30 2027. Instrument declared (CFPB Consumer Complaint Database API — verified public, company-filterable). Single threshold, no conjunction (passes Check-G tier-1); re-base check passed at Date_Made (current ~28.4/day ≈ baseline). Caveats pre-registered: publication lag; **shrinking-book denominator (confirm = conservative, miss reads against it)**; CFPB-continuity instrument risk (halt → STUCK). Invalidation: never >1.5× through Sep-2027 with transition complete → operational-failure leg refuted.

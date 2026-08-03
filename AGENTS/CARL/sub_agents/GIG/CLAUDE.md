@@ -106,6 +106,14 @@ outbox/                                # State Vector deliveries (SV-GIG-*.md) �
 ```
 
 ## On Session Start
+**0. 📬 SCAN THE INBOX — FIRST, AND EVEN ON A NARROW SPAWN.** `ls -la AGENTS/CARL/sub_agents/GIG/inbox/*.md`
+   - **Created 2026-08-03 (Will-ruled 2026-08-02)** — every CARL sub-agent now has one; the layer used to be write-only upward. Conventions → `inbox/README.md`.
+   - **A scoped spawn is exactly where this scan gets skipped** — that is why it is step 0 and not an appendix.
+   - **Anything present is UNPROCESSED by definition.** No read-cursor, no "seen but deferred" state, nothing to rot.
+   - **⚠️ AGE IS A FINDING.** GIG boots only when spawned — historically a few times per quarter, so a packet can sit for weeks while *looking* delivered. **Check the age of everything.** Older than ~30 days ⇒ the sender has been acting on a false assumption about what GIG knows — **telling the sender outranks actioning the packet.**
+   - Integrate, then `git mv` to `inbox/processed/` — **`git mv`, never bash `mv`** (bash leaves a dangling deletion in the shared index).
+   - **CARL remains system of record** for parent-owned thresholds and CRL-* rows: **GIG proposes, CARL disposes.**
+
 
 1. Read STATUS.md
 2. Check CARL's STATUS.md for current gig-related vector state
@@ -117,6 +125,8 @@ outbox/                                # State Vector deliveries (SV-GIG-*.md) �
 
 1. Update STATUS.md
 2. If significant findings: Generate State Vector for CARL
+
+**📬 Inbox:** every packet you consumed this session is `git mv`'d to `inbox/processed/` (never bash `mv`), and anything you deliberately did NOT action is recorded as a dated **PARKED** note in `STATUS.md` — never left silently sitting. If a packet was >30d old, **say so to its sender**; that correction outranks the packet's own content.
 
 ## State Vector Protocol
 

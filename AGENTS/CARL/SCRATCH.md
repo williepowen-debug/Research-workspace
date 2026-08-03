@@ -1,81 +1,84 @@
 # CARL SCRATCH
-**Last session:** 2026-07-31 (Fri) ~20:15–21:15 ET — EVENING BOOT PASS ×2 waves (same-day re-boot after the ~16:25–19:30 main session + rulings). Wave 1: drained 4 late inbox packets, 6 BOARD signals, shipped STUE's LEDGER_GLOB, HHDC advisory check (not posted). Wave 2 (3 more packets rode in on the concurrent sessions' closeouts): OSPREY Russia-ban decree (8/15 test → ~9/22 producer-channel read), PROME V5-residue sweep (4 lines fixed), STUE glob widening to `.md` trackers. **No score change: 51/70 holds.** THESIS v2.6.3.
+**Last session:** 2026-08-03 (**Mon** — verified with `date +%A`, not asserted) ~09:45–11:15 ET — **V5 EXECUTION DAY.** The pre-authorization fired: **V5 Gas Squeeze 3→4, convergence 51→52/70 (74%), THESIS v2.6.4.** Also built the Will-ruled inbox layer for all six remaining sub-agents, attempted the Fitch ATR refresh (**no data, 4th month**), checked the HHDC advisory (**still unposted**), and processed both PROME packets.
 
-**PRIORITY-1:** **Monday 8/3 is verify-and-execute, not a re-ask: verify the close (FRED weekly w/e 8/2 + AAA daily still ≥$4.00) → EXECUTE V5 3→4 (51→52/70, touches 5 surfaces per Check B) per Will's 7/31 pre-auth. Retrace <$4.00 = sustain failed, hold 3, report it.** Same day: Fitch ATR refresh (BEFORE the HHDC; Mar 6.11% is anchored on the seasonal LOW per OTTO's panel) + first EIA diesel print of the 8/3-8/17 lag experiment. The Q2 HHDC prints INSIDE 8/4-8/11 (**advisory NOT YET POSTED as of 7/31 eve — check every boot**; modal Tue 8/4) and grades by the FROZEN CARD + its 7/31 addenda, with CRL-21's capital riding the cells per the standing 7/24 ruling. CRL-28 is REGISTERED (FROZEN-at-55/day threshold); CRL-14 RETIRED. **NOTHING awaiting Will until the HHDC prints or NFP fires a V16 trigger.**
+**PRIORITY-1:** **The vector I promoted this morning is the one most likely to un-promote.** V5 sits at 4 on a pump **9.5¢** above its downgrade line while the crude underneath it fell **17.4% in nine sessions** (Brent $100.19 7/23 → **$82.77 8/3**). The trigger is **already registered** — *AAA <$4.00 **sustained 2 weeks** → V5 −1 immediate (4→3)* — and the 17-18d lag puts arrival **~8/20**. **Pull gas every session and do NOT let a breach sit ungraded; if it breaches, the 2-week sustain clock starts at the breach, not at a session boundary.** Next real catalyst: **HHDC, window 8/4-8/11, advisory STILL UNPOSTED as of 8/3 — check it EVERY boot** (it normally posts 3-5 business days ahead, so the modal has drifted from Tue 8/4 toward **Tue 8/11**). **Fri 8/7 July NFP resolves V16's re-arm.**
 
 ---
 
-## CHANGES SINCE LAST SESSION (main 7/31 session → this evening pass)
-- **STUE's carve-out commit LANDED** — its packet, SV, and sub-agent files are all committed; nothing to sweep. Sweet packet moved to processed/ (content was integrated in the main session).
-- **BOARD 643→649 while offline (~1hr):** 6 new signals, all 7/31-dated, dispositioned this pass (see below).
-- **VIX closed 15.99** — RED FT-06 (`<16` sustain 5) clock at session 1 of 5, earliest completion ~Thu 8/6 (SIG-731-001, RED's call whether session 1 counts — margin is one cent).
-- **30Y closed 5.28% = new cycle high** (+18bp over 3 sessions; duration leg arming — BOND/HOMER/REGINALD lane).
+## CHANGES SINCE LAST SESSION (7/31 eve → 8/3 Mon)
+- **Gas HELD the cross** — AAA $4.106 (7/31) → **$4.095 (8/3)**; FRED $4.096 (w/e 7/27). The condition Will pre-authorized against was met, unambiguously, on both instruments.
+- **⚠️ CRUDE BROKE UNDERNEATH IT** — WTI **−7.29% to $78.50**, Brent **−8.16% to $82.77** [8/3 live], on an **8/2 de-escalation headline Tehran denied on the record while the tape refused to give it back.** Brent is **−17.4% off its 7/23 peak.** Diesel went the OTHER way — **$5.364, a fresh high** — consistent with the Russia-ban structural leg, not the reversible Hormuz premium.
+- **Fitch ATR: still nothing.** Apr/May/Jun/Jul 2026 unpublished for the **4th consecutive month**.
+- **HHDC advisory: still not posted.**
 
 ## WHAT HAPPENED (this session)
-1. **4 late inbox packets drained → inbox now 0 unprocessed:**
-   - **HOMER (KB-304 HPI):** figures refreshed — C-S +1.1% May (Apr revised +0.9), FHFA +2.2% record, FMHPI "Mar 0.7" trough **REVISED AWAY** (trough = Jan 0.9; acceleration flatter/longer, conclusion survives). Leading-edge caveat: C-S SA MoM negative ×3 consecutive. FHFA runs ~110bps hotter than C-S — never cite interchangeably. **Plus: Fannie MF "improvement" (0.60% Q2 10-Q) is a RECOGNITION ARTIFACT** (mod-of-forbearance per Fannie's own 10-Q, provision +49% QoQ, Freddie went the other way) → caveat on KB-302 + STATUS V3 row. Does NOT reopen CRL-03.
-   - **MARCO (Channel-1):** immigration cost-push **UNSUPPORTED FULL STOP** (pre-registered floor-controlled test NULL under both controls; no 4th attempt — CES can't see the off-payroll population). **Sep-30 FL $15 statutory impulse UNAFFECTED and stands** (KB-368 note). PROME caution honored: the "FL diagnostic STRENGTHENED" sentence NOT adopted — **and MARCO's second packet (landed mid-pass) RETRACTED it: scored MISS** (pre-reg said FL DID ≈0 if floor-driven; observed +6.89pp, June an outlier driven by the control sector; AL/LA beat FL with no floor step). CARL carried nothing → nothing to remove. **~6pp rule RE-SCOPED: stratum-means only; single-state band ~11.5pp.** Both MARCO packets → processed/. The refusal-until-scored pattern paid off within 3 hours.
-   - **STUE (ledger enforcement):** **Fix A TAKEN — `workbook/LEDGER_GLOB` created + verified** (37 sub-agent ledgers now inside `ledger_staleness` scanning; patterns on separate lines per STUE's arity warning). First run surfaced **DOC FLOW.tsv 53d stale** → TEAM DOC row noted, FROZEN-or-refresh at next DOC spawn. Fix B (consistency_check coverage for prediction-less sub-agents) → backlog row, option 2 (advisory-on-missing) leading.
-   - **STUE (Sweet):** already integrated in the main session — moved to processed/.
-2. **BOARD 6/6 dispositioned (651 rows, 0 backlog, 0 dupes):** 1 INTEGRATED — SIG-731-002 **Apple raised consumer device prices on memory cost-push** (LTA-capped hyperscalers shift the increase to non-LTA customers = consumers; "100-year flood on memory pricing," 14 products) → **KB-371**, V7 small-weight wrinkle, MU 8/4 resolves AI-vs-consumer split. 5 REFERRED (VIX/RED · Volgograd/OSPREY — channel read consistent with the diesel-lag experiment · yen/SAM · G10 liquidity/LIQUID · 30Y/BOND).
-3. **HHDC advisory checked: NOT POSTED** (newyorkfed.org advisory page + search; nothing newer than the Q1 5/12 release). Modal Tue 8/4 unconfirmed.
-4. **WAVE 2 — 3 more packets (landed with the concurrent MARCO/OSPREY/PROME closeouts):**
-   - **OSPREY 🔴:** the Russia diesel ban did **NOT lapse 7/31** — decree (~7/30, wires; primary UNVERIFIED) extends Aug-1-26→Jan-31-27, diesel exempt **Sept 1 producer-direct ONLY**, traders banned throughout. **8/15 docket row was ANSWERED → swapped for ~9/22 producer-channel read** (loadings 2-3wk lag); an 8/15 pass-through check would have been a **false negative**. Leg-1 kill-condition can't fire before Sept. Extension-at-record-crude-exports corroborates the ~30% [25-35% EST] refining-offline band. KB-372; STATUS diesel row updated ($5.353 live-pulled).
-   - **PROME 🟡:** my "every re-ask surface" claim had residue — 4 live "WILL DECISION" lines on V5 (STATUS:2/60/156 + brief:70). All 4 swept to pre-auth language (ELV:51 left — that one IS a Will ask). Monday execution was never at risk (docket/card/SCRATCH were clean).
-   - **STUE 🟡 follow-on:** LEDGER_GLOB widened with `sub_agents/*/workbook/*.md` — catches its new EXPECTED_SIGNALS_TRACKER.md (verified scanning, ok +1d). Fleet property (md trackers invisible to tsv-globbing enforcers, LIQUID too) noted on the Fix B backlog row for PROME/DAEDALUS surfacing.
-   - **STUE 🟡 31c (landed mid-wave-2): STUE HAS AN INBOX now (Will-ruled, first sub-agent with one)** — CARL is no longer the STUE letterbox; senders route direct. Scope grew: +SLABS (collateral-transmission only) + higher-ed institutional stress, no new CRL rows; "STUE proposes, CARL disposes" unchanged. TEAM row updated. **Used it immediately: the PROME audit hand-downs (items 5/6b) delivered to `sub_agents/STUE/inbox/` — verify at its ~8/5 run.**
+1. **✅ V5 3→4 EXECUTED — the pre-auth's condition verified on its own registered instruments and basis.**
+   - AAA daily national regular **$4.095 [8/3 live pull]** ≥ $4.00.
+   - FRED GASREGW **$4.001 [w/e 7/20] → $4.096 [w/e 7/27]** = two consecutive weeklies ≥$4.00, rising.
+   - **No sub-$4.00 daily reading anywhere in the 7/20→8/3 window** (7/24 $4.105 · 7/31 $4.106 · 8/3 $4.095) → the retrace branch never armed.
+   - **Convergence 51 → 52/70 (74%). THESIS v2.6.4.** Five surfaces updated; `consistency_check` Check B **caught that I'd updated STATUS's histogram but not its per-vector matrix row** — fixed, re-run **0 hard**.
+2. **⚠️ SPEC COEXISTENCE FOUND AND RECORDED, NOT SILENTLY RESOLVED.** The V5 matrix cell's *own* v2.6 re-arm language named **only** the kinetic path — *"Brent $105-110 + pass-through."* **Brent is $82.77, so on this cell's literal trigger V5 would NOT have re-armed.** The gate that actually fired is the later, dated, explicitly-superseding **7/16-card sustained-cross** path Will ratified 7/31. Both were legitimate routes; the price route was written in Jun-22 when a $4.00 cross looked unreachable. **Graded on the registered instrument and basis, not the narrative.** No trigger was rewritten — a re-arm-**to**-4 rule cannot apply to a vector already at 4.
+3. **⛔ Fitch ATR refresh → NO DATA (4th month).** Subscription index; every secondary channel still frozen at March. **Caught a SECOND recirculation trap, a different vintage from the known one:** an apparent "April" reading of **5.23% DQ / ANL 9.48%→7.90% / "all-time-high 6.39% in February"** — the source article's full text says **April 2024 / February 2024** verbatim. The year was stripped in the *snippet*, not the source. **Two stale vintages now impersonate fresh prints on this series; treat any ATR figure without an in-source month AND year as unusable.** KB-375.
+4. **📬 INBOX LAYER BUILT — all six remaining sub-agents** (DOC/GIG/PHAN/POLLY/POP/META join STUE), per Will's 8/2 ruling that **overruled** PROME's fan-down recommendation. Each got `inbox/` + `inbox/processed/` + a README on the STUE pattern, **and the scan wired into the boot card as step 0 of `On Session Start`** plus a closeout note — because an inbox nobody reads on a cadence is worse than no inbox.
+5. **Both PROME packets processed** (`git mv` → `processed/`). Round-2 residue items all closed — see below.
+6. **CRL-28 legs frozen** (residue items 3+4): invalidation leg **41/day ABSOLUTE** (was "1.5× baseline (~41/day)", which re-imported the 41-46 range ambiguity the confirm-leg freeze removed); baseline anchor corrected — **April 30.5/day is the genuine pre-transition top**, not the post-transition, lag-truncated "Jul 1-19 28.4". Neither moves a bar.
 
 ## STATUS CHANGES
 | Item | Change |
 |------|--------|
-| V3 matrix row | + 7/31 HOMER recognition-artifact caveat (do not carry "GSE MF improving" as clean) |
-| KB-304 | HPI figures refreshed; trough corrected Mar-0.7→Jan-0.9; Stale_By 9/15 |
-| KB-368 | Channel-1 UNSUPPORTED full stop; statutory impulse stands; PROME caution noted |
-| KB-371 | NEW — Apple memory cost-push into consumer devices (V7, small weight) |
-| TEAM DOC row | ⚠️ FLOW.tsv 53d stale — FROZEN-or-refresh at next DOC spawn |
-| workbook/LEDGER_GLOB | NEW — sub-agent ledgers now staleness-enforced |
+| **V5 / convergence** | **3→4; 51→52/70 (74%); THESIS v2.6.4** — THESIS header+row+histogram+commentary, STATUS overall+matrix+histogram+total+narrative, CHANGELOG, docket, CALENDAR, NEXUS_BRIEF |
+| Gas Pump row | 8/3 figures + the "w/e 8/2"→**w/e 8/3** convention correction (GASREGW is **Monday**-dated) |
+| Brent row | **$82.77 (−8.16%), −17.4% off peak**; diesel diverging UP to $5.364 |
+| V2 row | ⛔ **instrument-blocked** — 4th month no data + the 2024-vintage trap; OTTO 10-D panel named as the substitute |
+| KB | **+3: KB-373** (V5 cross completed) · **KB-374** (crude break → V5 downgrade watch) · **KB-375** (Fitch resolvability defect + trap) |
+| docket | 2 fired rows pruned; **+~8/10 Will decision (V2 instrument)** and **+~8/20 V5 downgrade watch**; HHDC row re-framed to modal 8/11; CALENDAR twin synced |
+| TEAM.md | new **📬 INBOX LAYER** section (all 7, with the cadence warning on META/POP/PHAN) |
 
 ---
 
 ## NEXT SESSION SHOULD
 
-### IMMEDIATE (Mon 8/3 — the window)
-1. **Verify the close (FRED weekly w/e 8/2 + AAA daily ≥$4.00) → EXECUTE V5 3→4 per the pre-auth — NO ASK.** Retrace = hold 3, report. (8/3 is a MONDAY.)
-2. **Fitch ATR refresh** (V2's instrument, Jan-vintage; Mar print = seasonal LOW — OTTO panel context in STATUS row) + **first EIA diesel print** of the 8/3-8/17 lag experiment (Volgograd/Perm strikes are product-bullish per OSPREY — tailwind context for the crack, noted in BOARD_LOG).
-3. **Every boot: check the NY Fed HHDC media advisory** (newyorkfed.org/newsevents/mediaadvisory — 403s to fetch, use search) — pin the exact date in 8/4-8/11.
-4. **Read DEWEY C2 (`AGENTS/DEWEY/output/2026-07-24_c2-score-cascade-cc-breach-attribution.md`) BEFORE the HHDC** — cautions pre-registered on the card (addendum #2) but the full report is unread.
+### IMMEDIATE
+1. **Pull gas FIRST.** `.venv/bin/python3 AGENTS/CARL/scripts/gas_tracker.py`. If AAA < $4.00, **start the 2-week sustain clock at that date and write the date down** — the downgrade is automatic on an already-registered rule, not a judgment call. Cushion at execution was 9.5¢.
+2. **Check the HHDC media advisory EVERY boot** (search, don't fetch — newyorkfed.org 403s). Window 8/4-8/11; **modal has drifted to Tue 8/11** because the advisory was still unposted on 8/3. It grades by the **FROZEN card + its 7/31 addenda** — do not edit the card, only dated addenda — with CRL-21's capital riding the cells per Will's standing 7/24 ruling.
+3. **Read DEWEY C2 BEFORE the HHDC** (`AGENTS/DEWEY/output/2026-07-24_c2-score-cascade-cc-breach-attribution.md`) — cautions are pre-registered on the card but the full report is still unread. **Carried from 7/31; do not let it slip a third time.**
 
 ### DATED
-5. ~~STUE hand-downs at its next run~~ **DELIVERED 7/31 eve to STUE's NEW INBOX** (`sub_agents/STUE/inbox/2026-07-31_from-CARL_prome-audit-handdowns...`) — STUE got an inbox by Will ruling 7/31 (first sub-agent with one; packet 31c). **Verify processed at STUE's ~8/5 run** (its cadence is ~5×/qtr — the docket-side verify-line is the mitigation STUE itself recommended). Content: (i) VASP category error → unblock Q#11; (ii) STATUS:182 monotone-law reword.
-6. **~8/5** Treasury Phase 1 verification (STUE) · **8/7 July NFP — V16 re-arm resolver** · **8/12 July CPI (pre-registered SOFT — do not grade pass-through)** · **~8/14 AFT v. MOHELA free docket watch** (CourtListener text via curl+browser-UA; method in the CATALYSTS row) · **8/20-21** Affirm FQ4 + Iran waiver expiry (CRL-08 45% live tail) · **~early Sept: CRMT covenant-relief expiry** (REGINALD co-owns) · **~9/22 Russia diesel producer-channel read** (REPLACED the ~8/15 lapse-or-extend row — decree ~7/30 EXTENDED the ban to Jan-31-27, producer-only Sept-1 carve-out, OSPREY packet/KB-372; an 8/15 pass-through check = false negative).
+4. **Fri 8/7 July NFP** — V16 re-arm resolver (ARMED since 7/2 on June +57K/−74K).
+5. **~8/10 WILL DECISION — re-point V2's instrument** off the blocked Fitch ATR onto **OTTO's 7-deal SEC 10-D panel** (primary, reproducible, already in the STATUS row, and it says the spring trough is over on BOTH tiers). **Surfaced, not taken — it's an instrument change.** Per `finding_audit_resolution_path_before_reattempt`, a 5th month re-attempting the same blocked path is the failure mode, not diligence.
+6. **Wed 8/12 July CPI — pre-registered SOFT on gasoline (~−2.6% MoM). DO NOT grade pass-through on it; that's a base effect.** The real test is **9/11 August CPI**.
+7. **~8/20 V5 downgrade watch** (item 1) · **~8/5** Treasury Phase 1 verification (STUE) · **~8/14** AFT v. MOHELA free-docket watch · **8/20-21** Affirm FQ4 + Iran waiver expiry (CRL-08 45% live tail) · **~early Sept** CRMT covenant-relief expiry (REGINALD co-owns) · **~9/22** Russia diesel producer-channel read · **9/30** FL $14→$15 statutory step.
 
 ### BACKLOG
-7. Fix B (consistency_check sub-agent coverage — option 2 leading) · CPI component-vol REBUILD from BLS (SIG-725-016 — cite nothing until rebuilt) · Part D lead verify (DOC/POLLY) · AMCAR Apr-vs-Jun cert pull + abs_monitor GMCAR label fix · Brier re-run at N≈20 · container-freight AEOLUS reconcile (KB-344).
-8. **DEWEY commissions OUT (Will-approved 7/31 eve, ROADMAP thread):** CARL-DR-1 recognition-artifact census ~8/18 · CARL-DR-2 charged-off-borrower destination ~8/25 · CARL-DR-3 AZO/ORLY cross-section ~8/28. Queued behind WALTER's six, one per DEWEY session. On delivery: honor the pre-registered KILL conditions as prominently as confirms; DR-1 must not touch the frozen HHDC card.
+8. Fix B (consistency_check sub-agent coverage — option 2 leading) · CPI component-vol REBUILD from BLS (SIG-725-016 — cite nothing until rebuilt) · Part D lead verify (DOC/POLLY) · AMCAR Apr-vs-Jun cert pull + abs_monitor **GMCAR label fix** (2 "AmeriCredit" CIKs are GM's PRIME book) · Brier re-run at N≈20 · container-freight AEOLUS reconcile (KB-344) · **DOC `workbook/FLOW.tsv` 53d+ stale — FROZEN-or-refresh at DOC's next spawn** (now on DOC's own card).
+9. **DEWEY commissions OUT** (Will-approved 7/31): CARL-DR-1 recognition-artifact census ~8/18 · DR-2 charged-off-borrower destination ~8/25 · DR-3 AZO/ORLY cross-section ~8/28. On delivery, honor the pre-registered KILL conditions as prominently as confirms; **DR-1 must not touch the frozen HHDC card.**
 
 ---
 
-## OUTBOX (0 new; 6 stale Apr-17 signals deferred per messaging-overhaul direction)
-## INBOX (0 unprocessed — all 4 drained this pass, moved to processed/)
+## OUTBOX (1 new)
+- `2026-08-03_to-PROME_route-to-OTTO-originate-to-degrade-vs-mix-discriminator-spec.md` — **the joint item, routed via PROME, NOT sent to OTTO directly.** Specifies exactly what I need from OTTO's collateral half to separate **originate-to-degrade (🔴 thesis-confirming)** from **mix shift (🟡 much weaker)**: within-stratum vintage curves at matched seasoning, the tier-weight series, and WA LTV/term/APR by vintage. *(6 stale Apr-17 signals still deferred per the messaging overhaul.)*
+
+## INBOX (0 unprocessed — both PROME packets drained to `processed/`)
 
 ---
 
 ## WORKBOOK HEALTH
 | File | Size | Note |
 |---|---|---|
-| STATUS.md | 248 | under cap |
-| KB.tsv | 368 lines | +1 this session (KB-371); 304/302/368 refreshed in place |
-| PREDICTIONS.tsv | 29 | 16 OPEN incl. CRL-28 · CRL-14 RETIRED |
-| CATALYSTS.tsv | 20 | 0 past-due |
-| BOARD_LOG.tsv | 651 | 0 backlog, 0 dupes (through SIG-731-006) |
-| PAPER_SLEEVE.tsv | 11 | 7 legs OPEN, marked 7/31, net +$9.43 |
-| MEMORY.md | 71 | under 100 cap |
-| LEDGER_GLOB | NEW | 37 sub-agent ledgers scanned; 1 stale (DOC FLOW.tsv → DOC next spawn) |
+| STATUS.md | 248 | at cap (250) — **trim next session before adding rows** |
+| KB.tsv | 372 | +3 (KB-373/374/375) |
+| PREDICTIONS.tsv | 29 | 16 OPEN; CRL-28 both legs now frozen absolute |
+| CATALYSTS.tsv | 20 | 2 pruned, 2 added; CALENDAR twin synced |
+| BOARD_LOG.tsv | 651 | **not dispositioned this session — BOARD diff not run** (V5 execution took priority; run at next boot) |
+| NEXUS_BRIEF.md | 94 | under the 100 provisional cap |
+| MEMORY.md | 71→~76 | under 100 cap |
 
 ---
 
 ## URGENT
-- **Monday 8/3 = V5 verify-and-execute (pre-authorized — no ask). The HHDC can land as early as Tuesday 8/4.** Fitch ATR must be refreshed before it.
-- **The frozen card + 7/31 addenda govern the HHDC grade — do not edit the card, only dated addenda.** RED's rationalization test is live on it.
-- **"CRMT defaulted" is retired language — covenant waiver, ~Sept expiry.** Do not let it re-enter synthesis.
-- **Do not carry "GSE MF improving" as a clean signal** — recognition artifact (HOMER 7/31, KB-302).
+- **V5-at-4 IS PROVISIONAL BY CONSTRUCTION.** Promoted 8/3 on a 9.5¢ cushion; crude −17.4% off peak; lag-implied pump arrival **~8/20**. The downgrade rule is already on the books — **the failure mode is not noticing the breach, not deciding what to do about it.**
+- **52/70 IS ONE-SIDED BY DEFAULT, NOT BY JUDGMENT.** The consumer-credit DOWN candidate is **ARMED and unfired only because both its instruments no-showed** (Fitch unpublished 4th month; HHDC unreleased). **Do not present 52 to anyone as a net read of the cycle** — the down-leg is pending, not refuted.
+- **Two stale Fitch vintages now impersonate fresh prints** (Jan/Feb-2026 as undated "worst in 32 years"; and a 2024 article as "April"). **No month+year in-source ⇒ unusable.**
+- **The frozen HHDC card + 7/31 addenda govern the grade — do not edit the card, only dated addenda.** RED's rationalization test is live on it.
+- **"CRMT defaulted" is retired language** — covenant waiver, ~Sept expiry. **Do not carry "GSE MF improving" as clean** — recognition artifact (KB-302).
+- **`git pull` was correctly DECLINED this session** — PROME/TERRY/SAM/OTTO hold uncommitted work outside my dir. My commits are local; **PROME owns the push train.**
