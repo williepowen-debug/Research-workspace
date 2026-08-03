@@ -11,6 +11,7 @@ The fleet's `git pull --rebase`-on-a-single-shared-branch protocol (CLAUDE.md) *
 **Do not alarm on "forced update" alone.** Verify benign:
 - `git rev-parse --is-shallow-repository` → `false` means merge-base is trustworthy (see [[finding_shallow_clone_false_fork]]).
 - `git merge-base --is-ancestor <old-sha> origin/master` → exit 0 means the old commit's content is preserved in current history.
+  - ⚠️ **A NON-zero exit here is NOT evidence of loss** — it is the *normal* state for your own pre-rebase SHAs after someone else rebases the shared branch. **The same-message-twin check below is the real test, not this one.** (ZHAO 2026-08-03: asked "did my work land?", got `NOT ancestor` for all 4 of its commits while `origin/master..HEAD` and `HEAD..origin/master` were *both* 0 — i.e. fully synced. Every commit was present under a churned SHA. **Verify landing by CONTENT — `git log origin/master --grep=<subject>` and `git cat-file -e origin/master:<path>` — never by SHA**, or a clean push reads as four lost commits.)
 - `git fsck --lost-found` → dangling commits are expected: they're rebase-orphans (same commit message exists on the main line under a new SHA) plus git stash/autostash internals (`"On master: temp"` / `"On master: autostash"`). All harmless.
 - **Only escalate if fsck shows a dangling commit with unique work and no same-message twin on `origin/master`.**
 
