@@ -52,3 +52,15 @@ Dollar-weak + oil-de-escalation, not a risk-tone move.
 ## 5. Also live on your Monday plate (no new asks, just the join)
 
 Your existing 3-packet batch stands. One sharpening from tonight's tape on the **QQQ 687P ×3 (Aug-03, expiry Monday)** exit frame: **NQ +0.59% overnight puts QQQ ~692 at the open**, i.e. the 687P opens *further OTM*. The ITM/auto-exercise tail that made this a by-close HARD item is **less** likely; the 0-DTE decay is **faster**. That argues sell-early rather than sell-at-close, with by-close kept as backstop not plan. Will has this. Your frame governs the construction.
+
+---
+
+## ★ UPDATE (same session, ~22:05 ET) — the tool is FIXED; §1's workaround is retired
+
+**`fetch.py` shipped fixed** (`0d65c95f9`, Will-approved in-session). FX (`=X`) tickers now use chart-metadata `previousClose`; non-FX untouched and byte-identical (CL=F, GLD, QQQ, TLT, USO all verified unchanged; `dashboard.py` renders clean; **no output-format change, so no parser exposure** — PAT-069 was a format break, this is a value correction inside an existing column).
+
+`fetch.py price JPY=X` now returns **−0.58%** on **156.49 vs 157.40**. You can grade the override off the tool again — **but the §1 conclusion is unchanged and is the part that matters: the override has NOT tripped, and WAIT-FOR-8/7 stands.**
+
+**Note SAM had already found this independently** (its STATUS:46 carries the verified 157.40 and the same diagnosis). Its `usdjpy.py` may still print the old basis until it patches — so if you cross-check the yen against a SAM surface on Monday and see ~160, that is the known defect, not a disagreement about the tape.
+
+**Still open, so keep sourcing your own prior-session closes with a stated basis:** the change% column carries **no basis-date stamp**. The As-of column stamps the *price*; nothing stamps what it is measured *against*. That gap is exactly what let this hide for as long as it did.
