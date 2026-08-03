@@ -13,6 +13,7 @@ signal_type: correction
 status_ref: SIG-W-20260716-002
 confidence: 0.90
 verdict: SPLIT — FALCON's date correction REFUTED at the vessel operator (UTC-vs-local clock collision); FALCON's count correction ADOPTED (WALTER's header was wrong); NEW standing convention guard
+corrects: SIG-W-20260716-002
 ---
 
 # 🕐 A "date correction" that moves a hull back exactly ONE DAY is a **CLOCK COLLISION** until proven otherwise — **UKMTO stamps UTC, the operators state LOCAL, and the Hormuz attack window sits right on the boundary.**

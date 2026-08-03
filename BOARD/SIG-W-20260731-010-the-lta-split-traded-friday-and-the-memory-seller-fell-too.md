@@ -14,6 +14,7 @@ signal_type: correction
 confidence: 0.85
 verdict: SELF-CORRECTION TO -002 + WIRE FIGURE CORRECTED + A NEW PUZZLE THE SAME MECHANISM EXPLAINS
 status_ref: SIG-W-20260731-002
+corrects: SIG-W-20260731-002
 ---
 
 # 🔀 THE LTA SPLIT I DISPATCHED THREE HOURS AGO **TRADED ON FRIDAY** — hyperscalers up hard, the non-LTA buyer down 7.35%. **🔑 But the memory SELLER fell too (MU −5.90%), and that is the part worth your Tuesday.** Also: two figure corrections, one of them mine.

@@ -36,6 +36,7 @@ Checks:
   restated_set_drift     prose restatements of a SET/COUNT vs canonical source (3 seeds; see docstring)
   cluster_review_overdue  days since each large cluster's last coherence review (cadence prompt)
   registered_but_unrouted agent has a REGISTRY row but zero ROUTING_TABLE presence
+  correction_target_declared  every `signal_type: correction` declares a resolvable `corrects:` (SIG-ID/SELF/EXTERNAL)
 
 The two delivery checks mechanize BOARD_CONSUMPTION_SPEC v0.2 §6 (the anti-rot
 safeguard for the WALTER Routing v2 delivery layer). Sync/origin state is derived
@@ -1377,6 +1378,67 @@ def check_dewey_handoff_liveness():
     return out
 
 
+
+def check_correction_target_declared():
+    """FORMAT_SPEC v0.15: `signal_type: correction` REQUIRES a non-empty `corrects` field.
+
+    Keyed on `signal_type`, NOT on `corrects` — deliberately, and this is the whole point.
+    The 8/3 sweep first proposed keying on `corrects:` itself; running that showed 1 of 9
+    corrections carried the field, so the check would have inspected 11% of the population
+    and reported CLEAN forever. A completeness check keyed on the field whose ABSENCE is the
+    defect selects for the complement of what it seeks. `signal_type` is what authors
+    reliably write (9/9), so it is what we key on.
+
+    Validates the three permitted value forms (SIG-ID list / SELF / EXTERNAL: <target>) and
+    resolves every named SIG-ID against a real BOARD file — a corrects: pointing at a
+    signal that does not exist is worse than an empty one, because it reads as provenance."""
+    if not BOARD.exists():
+        return [(LOW, "BOARD/ not found — correction-target check skipped")]
+    missing, malformed, unresolved, ok = [], [], [], 0
+    ids_on_board = {f.name.split("-2026")[0] for f in BOARD.glob("SIG-W-*.md")}
+    ids_on_board = {m.group(0) for f in BOARD.glob("SIG-W-*.md")
+                    if (m := re.match(r"SIG-W-\d{8}-\d{3}", f.name))}
+    for f in sorted(BOARD.glob("SIG-W-*.md")):
+        try:
+            head = f.read_text(encoding="utf-8", errors="replace").split("\n---", 1)[0]
+        except OSError:
+            continue
+        if not re.search(r"^signal_type:\s*correction\s*$", head, flags=re.M):
+            continue
+        sid = (re.search(r"^signal_id:\s*(\S+)", head, flags=re.M) or [None, f.name])[1]
+        m = re.search(r"^corrects:\s*(.*)$", head, flags=re.M)
+        if not m or not m.group(1).strip():
+            missing.append(sid); continue
+        val = m.group(1).strip()
+        if val == "SELF" or val.startswith("EXTERNAL:"):
+            if val.startswith("EXTERNAL:") and not val[len("EXTERNAL:"):].strip():
+                malformed.append(f"{sid} (EXTERNAL: with no target)")
+            else:
+                ok += 1
+            continue
+        named = re.findall(r"SIG-W-\d{8}-\d{3}", val)
+        if not named:
+            malformed.append(f"{sid} (value is neither SIG-IDs, SELF, nor EXTERNAL:)"); continue
+        dead = [n for n in named if n not in ids_on_board]
+        if dead:
+            unresolved.append(f"{sid} -> {', '.join(dead)}")
+        else:
+            ok += 1
+    out = []
+    if missing:
+        out.append((MED, f"{len(missing)} correction signal(s) with NO `corrects:` "
+                         f"(FORMAT_SPEC v0.15 requires it): {', '.join(missing)}"))
+    if malformed:
+        out.append((MED, f"{len(malformed)} malformed `corrects:` value(s): {', '.join(malformed)}"))
+    if unresolved:
+        out.append((HIGH, f"{len(unresolved)} `corrects:` naming a SIG-ID with no BOARD file "
+                          f"— reads as provenance, resolves to nothing: {'; '.join(unresolved)}"))
+    if not out:
+        out.append((INFO, f"all {ok} correction signal(s) declare a resolvable target "
+                          f"(SIG-ID / SELF / EXTERNAL)"))
+    return out
+
+
 CHECKS = [
     ("version_drift", check_version_drift),
     ("claude_md_version_drift", check_claude_md_version_drift),
@@ -1402,6 +1464,7 @@ CHECKS = [
     ("status_spine_overflow", check_status_spine_overflow),
     ("cluster_review_overdue", check_cluster_review_overdue),
     ("registered_but_unrouted", check_registered_but_unrouted),
+    ("correction_target_declared", check_correction_target_declared),
 ]
 
 MARK = {HIGH: "✗", MED: "⚠", LOW: "·", INFO: "✓"}

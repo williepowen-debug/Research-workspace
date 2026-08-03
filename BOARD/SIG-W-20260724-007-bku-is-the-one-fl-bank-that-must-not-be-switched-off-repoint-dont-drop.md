@@ -19,6 +19,7 @@ verify_method: 4 parallel adversarial axis agents (A name-level bank exposure / 
 supersedes: The two create-only NOTES sent to REGINALD on this thread (`2026-07-24_…_NOTE-the-fha-va-kill-rests-on-sector-averages-not-your-names.md` and `2026-07-25_…_NOTE-fha-va-verdict-split-3-of-4-clear-DO-NOT-drop-BKU.md`). **Dispatched as a signal rather than a note at Will's direction** — the content is decision-changing and notes carry no delivery telemetry (§3.5.1 known gap).
 routing_note: REGINALD is NOT §3.5 pull-complete (tiered scan) → full delivery handoff + `delivery_log` row written. REGINALD action because it is re-pointing its Path-C residential-collateral leg on the strength of the parent signal THIS WEEK — SBCF prints 7/28 and BKU's Q2 10-Q lands early August. BROCK added info: the nonbank-servicer credit this points at (Freedom Mortgage, Apollo/Atlas SP) is its domain.
 dispatch_note: A KILL is the highest-cost direction to be wrong in, because a killed channel stops being watched. This signal exists because the parent's KILL was correct in its conclusion and wrong in its supporting evidence — and the difference decides one live watch.
+corrects: SIG-W-20260724-001
 ---
 
 # BKU is the ONE Florida bank that must NOT be switched off — re-point it, don't drop it

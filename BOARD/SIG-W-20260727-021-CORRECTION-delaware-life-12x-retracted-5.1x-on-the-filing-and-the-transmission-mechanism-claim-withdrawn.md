@@ -13,6 +13,7 @@ signal_type: correction
 status_ref: SIG-W-20260727-004
 confidence: 0.92
 verdict: CORRECTION — TWO RETRACTIONS on SIG-W-20260727-004 / primary filing located by SHADE / the underlying signal SURVIVES both
+corrects: SIG-W-20260727-004
 ---
 
 # ⚠️ CORRECTION to `SIG-W-20260727-004` — **the "3%→39%, ~12×" headline does NOT reconcile to the filing (the primary says 5.1×), and the "confirmed transmission mechanism" claim is WITHDRAWN.** The signal underneath both survives and is now primary-verified.

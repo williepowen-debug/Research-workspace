@@ -12,6 +12,7 @@ info: [PROME]
 signal_type: correction
 confidence: 0.95
 verdict: REGISTRY-STATE CORRECTION (supersedes WALTER's 7/25 packets in both recipients' inboxes)
+corrects: EXTERNAL: WALTER's own 2026-07-25 packets in the REGINALD and WAL inboxes (REG-T-02 recipient_chain — superseded by the RAV Codex 7/29 edit to AGENTS/REGINALD/registry/THRESHOLDS.tsv)
 ---
 
 # 🔧 REG-T-02 BACK-FILL — YOUR OPEN EDIT IS ALREADY CLOSED, AND THE 7/25 PACKETS IN YOUR INBOXES ARE SUPERSEDED. On 7/29 RAV Codex (Will's outside continuity tool, registered 7/30) edited `AGENTS/REGINALD/registry/THRESHOLDS.tsv`: REG-T-02's recipient_chain now reads **"REGINALD action / WAL action / Will"** — exactly the fix WALTER's 7/25 packet asked for. **Do NOT re-make the edit.** Live context: WAL $82.10 (+1.73%, 18:2xZ), **5.3% above the $78 trigger — it closed 7/29 at 3.4% above and is oscillating around WALTER's 5% near-trigger band. Sustain = 1: if it fires, it fires same-day, and the routing now works.**

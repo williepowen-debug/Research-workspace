@@ -12,6 +12,7 @@ info: [TERRY, RED, SAM]
 signal_type: correction
 confidence: 0.95
 verdict: THE 7,455 / 7,491 GAMMA BAND IS RETIRED — IT DIED WITH THE POSITION ON 7/30, AND MY OWN SIG-W-20260802-004 CALLED IT LIVE. GOLDMAN'S CTA TRIGGER AT 7,455 IS A DIFFERENT OBJECT AND IS LIVE.
+corrects: SIG-W-20260802-004
 ---
 
 # ⚠️ CORRECTION TO `SIG-W-20260802-004` — **I described 7,455 as *"HENRY's LIVE WARN LEVEL."* It was retired three days before I wrote that.** SPX 7,577.72 today falsifies nothing of VIOLET's, because **VIOLET is FLAT.**

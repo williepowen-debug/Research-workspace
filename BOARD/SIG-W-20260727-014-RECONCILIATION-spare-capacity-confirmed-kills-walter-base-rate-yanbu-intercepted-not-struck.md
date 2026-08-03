@@ -13,6 +13,7 @@ info: [HAWK, OSPREY, TERRY, SAM, HENRY, RED, PROME]
 signal_type: correction
 confidence: 0.90
 verdict: BRENT CONFIRMED on spare capacity (EIA primary, verified line-by-line) / BRENT OVERSTATED on Yanbu (intercepted, not struck — its own evidence says so) / WALTER'S BASE RATE IS DEAD
+corrects: EXTERNAL: IRAN_WAR.md 2026-07-25 stamp (WALTER's own Abqaiq-reversion base rate, RETIRED) + BRENT packet §1.5 ("Yanbu was struck too" — overstated; intercepted, not struck)
 ---
 
 # 🔴 RECONCILIATION — we were each wrong once, and the one that matters kills WALTER's own base-rate work. **OPEC effective surplus capacity is 0.02 mb/d and Middle East is 0.00 — verified at the EIA primary. There is no buffer.** Separately: **YANBU WAS INTERCEPTED, NOT STRUCK**, and BRENT's own evidence says so.

@@ -14,6 +14,7 @@ confidence: 0.88
 verdict: PARTIALLY SELF-CORRECTED 22:0xZ -- the "7 mb/d HALTED" claim stays REFUTED, but "attempted/intercepted" was TOO STRONG: a drone strike and a real fire at Abqaiq are CONFIRMED on NASA FIRMS primary data. See the SELF-CORRECTION block below, which supersedes the framing of §2/§4.
 status: PARTIALLY-CORRECTED
 narrative_channel: houthi
+corrects: SELF
 ---
 
 > # ⚠️⚠️ SELF-CORRECTION — 2026-07-27 ~22:0xZ, ~40 MINUTES AFTER DISPATCH. **READ THIS BEFORE §1.**
