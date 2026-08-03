@@ -1,5 +1,5 @@
 {
- "built": "2026-07-31 22:16",
+ "built": "2026-08-02 21:15",
  "channels": {
   "AI capex": "elev",
   "Credit": "crit",
@@ -10,12 +10,8 @@
   "War-theater gates + housing recognition": "none"
  },
  "docket": [
-  "2026-07-22 Hyperscaler Q2 filings useful-life watch \u2014 VULCAN pre-regist",
-  "2026-07-29 Hyperscaler Q2 FCF (AMZN/MSFT/GOOG/META)",
   "2026-07-30 RESEARCH-INTAKE two-changes IMPLEMENTATION (entity-class Pha",
   "2026-07-31 DAEDALUS 7/28 full-directory audit \u2014 STRUCTURAL batch S1-S5 ",
-  "2026-07-31 ECI Q2 (08:30 ET)",
-  "2026-07-31 MOF monthly intervention data",
   "2026-08-01 NEXUS schema Amendment 10 FLEET PROPAGATION \u2014 one-line rule ",
   "2026-08-02 OPEC+ meeting (Aug 2) \u2014 supply-side input to the two-sided w",
   "2026-08-03 GSE limited/streamlined condo reviews ELIMINATED \u2014 full-revi",
@@ -32,6 +28,7 @@
   "2026-08-06 Round-2 audit-governance batch (PROME-owned mechanisms from ",
   "2026-08-07 CCLFX N-23C3A Q3 repurchase-cap decision \u2014 GATE-BRK-C1 resol",
   "2026-08-07 NFP July (Fri 8:30 ET)",
+  "2026-08-07 \u2605 JPY COT attribution print (Aug-4 data, 3:30 PM ET) = GATE-",
   "2026-08-12 July CPI (Wed 8/12, 08:30 ET \u2014 DATE VERIFIED, was carried fl",
   "2026-08-13 \u2605 BRENT main-arm 20-TRADING-DAY EXPIRY (~8/13; armed 7/16, 1",
   "2026-08-20 CFPB complaint re-pull, company=MOHELA \u2014 tests the SAVE wave"
@@ -79,7 +76,7 @@
   "GATE-LIQ-079": "live:LIVE",
   "GATE-OSPREY-001": "live:LIVE",
   "GATE-RESHAPE-BC": "resolved:RESOLVED-FIRED",
-  "GATE-SAM-30": "crit:FIRED-UNEXECUTED",
+  "GATE-SAM-30": "resolved:RESOLVED",
   "GATE-TERRY-006": "live:LIVE",
   "GATE-TERRY-ARM1": "resolved:RESOLVED",
   "GATE-TERRY-ARM2": "resolved:RESOLVED",
