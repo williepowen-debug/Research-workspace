@@ -1,46 +1,62 @@
-# CORAL SCRATCH — 2026-07-24 ~11:25AM ET (PROME-spawned scoped: SSB Q2 adjudication + HOA transcript-mine)
+# CORAL SCRATCH — 2026-08-03 ~11:15AM ET (Will-directed boot + 9-day catch-up)
 
 **Purpose:** Canonical ephemeral session handoff. Read at boot; rewrite at closeout. Durable findings → `MEMORY.md`/workbook; live state → `STATUS.md`.
 
 ---
 
-## CHANGES SINCE LAST SESSION (7/23 AMC gate-day re-run)
+## CHANGES SINCE LAST SESSION (7/25 scoped HOA re-check)
 
-PROME-spawned deferred-grade session. **Two headline outcomes:**
+**9-day gap. Four catalysts came and went unattended; all four now resolved or honestly marked open.**
 
-1. **SSB Q2 GRADED BENIGN (0-of-4 pre-registered axes).** Entity disambiguated first (load-bearing per spawn packet): **SSB = SouthState Corporation, NYSE:SSB**, Winter Haven FL — **NOT Seacoast Banking Corp of Florida (ticker SBCF)**, a different bank printing separately 7/28. Confirmed via CORAL's own prior CLUSTER_FL_BANK_LEG.md text ("SSB [SouthState, FL-HQ, multi-state SE]"; "CORAL short thesis retired [SSB $90P expired worthless]") and EDGAR company lookup (CIK 0000764038, "SouthState Bank Corp"). Pulled Q2 8-K direct (EDGAR acc. 0001104659-26-086278, filed 7/23 4:25PM ET; WebFetch 403'd as usual, curl+UA worked). All 4 axes graded BENIGN: NCO 6bps (↓ from 9bps Q1), provision $15.9M growth-funded (loans +$1.4B/11% QoQ, ACL ratio fell — no named specific reserve, same standard already applied to USCB), ACL 1.15% declining, NPA/classified/special-mention all down QoQ. Strictest-reading check done: even conservative provision-as-deteriorating reading is only 1-of-4.
-
-2. **Q2 SYNC-BAR IS NOW MATHEMATICALLY CLOSED — the most important state-file consequence this session.** With SSB benign, six of seven FL/near-FL Q2 surfaces are now BENIGN (CCBG, BKU, VLY, USCB, AMTB, SSB). Only SBCF (7/28) remains, and the sync diagnostic requires **≥2** synchronized deteriorating names — one bank alone cannot satisfy that bar no matter how badly it prints. **Flagged prominently to PROME/REGINALD:** SBCF 7/28 should be reframed from "gate decider" to "single-name mechanism confirm/disconfirm" feeding next quarter's baseline, not this quarter's synchronization test. This is a framing change, not a rail move (rail stays untouched, 0-of-≥2).
-
-3. **HOA transcript-mine (ML-CORAL-046) — partial, honest.** Only VLY's call transcript was live (Motley Fool, read in full — zero HOA/condo/association/SIRS mentions). AMTB and SSB calls both happened today 9AM ET but transcripts were not yet posted as of this session (~11AM ET; checked Motley Fool direct URLs, got 404s, not just absent from search). USCB's call hasn't even happened yet (11AM ET today). All 4 press releases/decks were grep-checked fresh regardless (SSB ex-99.1+ex-99.2 today; AMTB re-verified) — zero HOA/condo/association disclosure across the board, consistent null result. **Did not fabricate or guess at transcript content that doesn't exist yet.**
+1. **SBCF Q2 GRADED — the owed item, 6 days late.** BENIGN 0-of-4 off primary 8-K acc. `0001628280-26-050147`. **Q2 FL-bank window is now EMPIRICALLY closed: 7-of-7 benign, final sync 0-of-≥2.** Rail NOT met, NOT armed.
+2. **⭐ THE SESSION'S REAL FINDING: the sharpest pre-registered tell of the whole window is FALSIFIED — in the opposite direction.** The frozen tell was "SBCF nonaccrual 3rd consecutive rise >$95M + CRE-non-OO charge-off/specific reserve build." **Neither leg happened.** Nonaccrual **reversed**: $72.0M (4Q25) → $95.0M (1Q26) → **$86.5M (2Q26), −8.9%**. And it reversed on the **whole aging ladder at once** (30-89d $28.2M→$20.1M, NPL 0.75%→0.66%, NPA 0.47%→0.42%, OREO down, NCO flat 10bps) — so the **LESSONS up-migration trap explicitly does NOT apply**: that rule fires when an early bucket falls while a late one rises, and here *nothing rose*. The 100%-FL bellwether's leading edge — the closest thing CORAL had to a precursor — **turned. Bank-transmission timeline gets LATER, not earlier.** Carried as a genuine negative, not softened.
+3. **🏦 GSE financing channel went live TODAY (8/3), and it is now CORAL's sharpest live mechanism.** Limited/Streamlined Review eliminated for applications dated on/after 8/3; >10-unit projects → mandatory Full Review (reserves, deferred maintenance, open assessments, litigation, master insurance). **NEW second gate 1/4/2027: reserves 10%→15%.** ⭐ **The arithmetic:** non-warrantable flag triggers at **unfunded repairs >$10K/unit within 12mo**; CORAL's assessments are **$25K–$100K/unit (to $400K)** = **2.5–40× the threshold** → **the SIRS cohort is non-warrantable BY CONSTRUCTION.**
+4. **HOMER's rank-vs-level correction ACCEPTED — it qualifies CORAL's hardest 🔴 leg.** "FL #1 foreclosure" is a **RANK** claim; FL's *level* (0.435% in 2025) is **~31% below its own 2019**; FY26 projects ~0.58% vs a 0.63–0.72% pre-COVID band. **What survives and is genuinely anomalous: conversion SPEED** (563d, lowest since 2013; REO +33%).
 
 ## WHAT I DID THIS SESSION
 
-- Boot: CLAUDE + STATUS + SCRATCH + CLUSTER_FL_BANK_LEG + FL_BANK_WATCHLIST + CALENDAR + yesterday's grade packet, per spawn instructions.
-- Confirmed SSB entity via EDGAR company-search atom feed (CIK 0000764038, "SouthState Bank Corp", Winter Haven FL) before pulling anything — load-bearing disambiguation done first.
-- Pulled SSB 8-K ex-99.1 (press release + financial tables) and ex-99.2 (earnings presentation w/ classified/special-mention trend charts) via curl+UA; parsed HTML to text; graded mechanically against the frozen `FL_BANK_WATCHLIST.md` 4-axis read-shape (no new axes invented, no thresholds moved).
-- Ran the "strictest reading" sanity check on the one judgment call (provision growth-driven vs notable-$-increase) — verdict unaffected either way (0-of-4 vs 1-of-4, both far below the ≥3 bar).
-- Pulled live SSB price (fetch.py, $106.08 +4.77%) rather than citing a stale STATUS number.
-- WebSearched + WebFetched for USCB/VLY/AMTB/SSB Q2 call transcripts; confirmed VLY's is live (read, zero HOA hits) and AMTB/SSB's are not yet posted (404 on direct URL, not just search-absence) and USCB's call hasn't occurred yet (11AM ET today).
-- Re-verified AMTB's press release fresh (grep for hoa/condo/association — zero hits) to have an independently-confirmed null across all 4 releases this session, not just relying on yesterday's grading notes.
-- **Files:** FL_BANK_WATCHLIST.md (row 6 SSB, headline, live-window, old Q1-table SSB row), CLUSTER_FL_BANK_LEG.md (diagnostic status + reconciled-number addendum), STATUS.md (new 7/24 block + header + Signal Status line), workbook/KB.tsv (ML-CORAL-052), CALENDAR.md (7/23 row closed, SBCF row reframed), outbox `2026-07-24_to-PROME_ssb-q2-adjudication-and-hoa-transcript-mine.md`, this SCRATCH.
-- Commit local, pathspec-only. Push via `scripts/safe-push.sh` at closeout (defer if non-ff / foreign dirty tree).
+- Full boot: STATUS, SCRATCH, LESSONS, MEMORY, CALENDAR, `scripts/boot.py`, git state. **Did NOT pull** — 5 other agents had uncommitted work in-tree (protocol). Verified we were **1 behind / 7 ahead**, the one origin commit being BRENT's and untouching CORAL, so the boot read was not stale.
+- **SBCF:** entity disambiguated FIRST via EDGAR submissions API (Seacoast Banking Corp of **FLORIDA**, CIK 0000730708, Stuart FL — *not* SouthState/SSB CIK 0000764038), then pulled ex-99.1 + ex-99.2 direct (curl+UA; WebFetch 403s on SEC as always), converted to text, graded mechanically on the frozen 4-axis frame with **zero threshold moves**. Ran the strictest-reading check (2-of-4, bar ≥3 → robust). Pulled the tape independently (yfinance daily closes): $33.65 print → $35.20 8/3 = **+4.6% vs KRE +0.4%**, no divergence.
+- **Fresh primaries pulled:** Parcl 5 metro pages (8/3), citizensfla.com policies-in-force (8/3), CSU forecasting page (8/3), NHC TWO (8/3), SBCF 8-K (primary).
+- **WALTER lane DRAINED** — 10 signals read, dispositioned, logged to `board_log.tsv`, `git mv`'d to `processed/`. One `acted` (NOAA 81% very-strong El Niño → written into the STATUS hurricane row); two `skipped` with reasons (Jazan refinery, Lake Powell — outside FL).
+- **Surfaces written:** STATUS (8/3 block + header + Signal Status + 5 dashboard rows + bank table + BOTTOM LINE; **held at exactly the 250-line cap** by archiving superseded BKU/VLY blocks → `workbook/STATUS_archive_20260721.md`), FL_BANK_WATCHLIST (row 7 SBCF + headline + final sync + live window + **HOA line synced**, closing the item flagged un-synced on 7/25), CALENDAR (4 resolved, 4 added incl. the new 1/4/2027 gate), KB **ML-CORAL-054/-055/-056/-057**, NEXUS_BRIEF **re-pinned** (clears NEXUS's 7/31 CONTENT-STALE flag), outbox→HOMER (delivered to their inbox).
+- Commit `c1a1c7497`, pathspec-scoped.
+
+## ⚠️ THREE SOURCE-QUALITY CATCHES — the pattern worth carrying forward
+
+Search-summary tier failed **three times in one session, in three different directions**, and every failure was caught by fetching the underlying source and checking its date:
+
+| # | Summary claimed | Source actually said | Damage if trusted |
+|---|---|---|---|
+| 1 | Tampa MSI **4.92** | **6.99** (Parcl page direct) | Would have broken the 🔴 leg's breadth condition on a false reading |
+| 2 | CSU moved to **11/5/2** | **9/4/1** (CSU primary) | Would have manufactured a **false correction to a CORRECT dashboard row** |
+| 3 | Ocala June UR article | Article dated **2025-07-22, reporting JUNE 2025** | Would have written a **year-old figure** in as the current metro read |
+
+**#2 is the nastiest class:** a summary that induces you to "fix" something that was already right. **#3 is `finding_anniversary_article_is_a_consensus_decoy` firing live.**
 
 ## NEXT SESSION (mechanical, in order)
 
-1. **HOA transcript-mine completion (ML-CORAL-046) — the one open loop from today.** Re-pull Motley Fool (or Seeking Alpha/Investing.com as fallback) for AMTB, SSB, and USCB Q2 call transcripts later today/tonight once posted. USCB's call is 7/24 11AM ET — transcript won't exist until well after that. Grep each for hoa/condo/association/SIRS/special assessment; update this file + FL_BANK_WATCHLIST + KB with the completed 4-of-4 read. If the null result holds across all 4 transcripts too, that's the clean close of the window's last unobservable per SCRATCH's prior framing.
-2. **Tue 7/28: SBCF Q2 (AMC, call Wed 10a)** — now graded as a single-name mechanism confirm/disconfirm, NOT a sync-gate decider (gate is mathematically closed regardless). Sharpest pre-registered tell unchanged: nonaccrual 3rd consecutive rise >$95M + CRE-non-OO charge-off/specific reserve build. Read the whole aging ladder.
-3. **Wed 7/29:** BLS metro employment (June) — Ocala UR; Amendment-3 ballot-language hearing (pre-reg ML-CORAL-042/037).
-4. Carried unchanged: Bertha already dissipated (resolved 7/23); HO-premium reconcile (resolved 7/23); FL Realtors county cash-share build (done 7/23); Sep-Oct Citizens takeout dates.
+1. **Wed 8/5 — CSU hurricane update** (off the verified 9/4/1 / ACE 50 baseline) + NOAA August outlook. Tropics were empty 8/3; NOAA has 81% on a very strong El Niño Oct-Dec.
+2. **Two OPEN verification items on the GSE rule — both matter, and one cuts against my own framing.** (a) Land the **GSE primary** (LL-2026-03, 2026-03-18) — `singlefamily.fanniemae.com` Cloudflare-403'd on curl+UA *and* WebFetch, and Selling Guide B4-2.2-01 still shows pre-change text dated 04/02/2025. Try an alternate host/API per `finding_blocked_mirror_is_not_an_unreachable_primary`. (b) **SEL-2026-05 may partially LOOSEN FL requirements** (waiver expanded to ≤10 units, **FL-specific PERS requirement retired**, 50% investor-concentration limit retired). If true, "the GSE screw only tightens" is wrong. **Summary-tier, NOT adopted, flagged in STATUS + KB + the HOMER packet.**
+3. **Amendment 3 ruling** — Judge David Frank, 2nd Judicial Circuit (Leon County) heard 3 consolidated challenges 7/29, **did not rule**, set an August briefing deadline **whose date I could not confirm** (WFLA + Florida Phoenix both 403'd). **Pre-reg branch ML-CORAL-042 stays UNRESOLVED — do not score any branch until the ruling lands.** Remedy sought is a **rewrite, not removal**.
+4. **Ocala June-2026 UR — still owed.** BLS bot-blocked, FRED 403 across 3 endpoints, deptofnumbers retired. **Re-attempt via the FloridaCommerce LMS primary** (`lmsresources.labormarketinfo.com`). ⭐ Useful baseline salvaged from the decoy: Marion County's *normal* June seasonal shape is **+0.6pp** (4.3%→4.9% in 2025, education/student driven) — so a ~+0.5-0.6pp June-2026 rise is **not** signal.
+5. **Tue 8/18 — Citizens assumption round #2**, off the **278,061 (7/24)** base. ⭐ Watch closely: **depopulation has STALLED flat** (−0.07% in 3.5 weeks after −29% in five months). Takeout capacity winding down while the residual book concentrates in thin carriers = the VX-CORAL-TKOUT-01 setup.
+6. **~Aug — three FL-bank 10-Qs.** The leading-bucket detail (30-59/60-89 sub-buckets, CRE-non-OO cuts) that the 8-Ks don't carry; the nearest bank-leg observable now that Q2 is swept. REGINALD carries these as unscored too.
+7. **~Aug 20 — FL Realtors July.** Post-8/3, the sharper cut is **warrantable vs non-warrantable**, not the blended median.
+8. **Root inbox: 9 unprocessed** (below). At least MARCO 7/31 (an ANSWER to a CORAL question) and CREED 7/27 (says CORAL's pillar-4 names CREED as owner-doc and is CORAL's stalest lane) deserve a dedicated pass.
 
 ## OPEN THREADS
 
-- **Bank-transmission gate: NOT met, 0-of-≥2, and MATHEMATICALLY CLOSED for Q2** — this is a state upgrade from "gate day incomplete" to "gate day complete and closed." Pre-registrations frozen, do not re-fit.
-- **MSI supply-side leg: 🔴 FIRED + Will-ratified 7/23** — unaffected by today's bank-leg work, separate leg, still applied across all surfaces.
-- **HOA transcript-mine: 1-of-4 complete, 3-of-4 pending posting** — the one incomplete deliverable this session, honestly flagged rather than guessed.
+- **Bank-transmission rail: NOT met, NOT armed. Q2 CLOSED 7-of-7 benign, final sync 0-of-≥2** — and the sharpest pre-registered tell **falsified**. Next re-test Q3 ~late Oct; nearer observable = the ~Aug 10-Qs. **Do not re-fit the frozen frame.**
+- **🔴 MSI supply-side leg: HOLDS, sustained not intensifying.** 8/3 pull: Tampa 6.99 · Punta Gorda 6.75 · North Port 6.43 · Cape Coral 6.07 · Lakeland 6.04 — **5-of-5 >6.0 on a 3rd consecutive reading**, but **4 of 5 drifted DOWN** vs 7/23. Leg stays 🔴 as Will-ratified; characterise honestly.
+- **NEW — SBCF CRE concentration is a two-sided watch:** 224%→**230%** of bank-level RBC, C&D 35%→**40%**. Under the 300%/100% guidance, but exposure is *growing* while credit improves. Contrast EGBN de-risking 295%→268% (REGINALD).
+- **NEW — the condo→bank wire is structurally unobservable, and that is now evidenced, not asserted.** Zero HOA/condo/association/SIRS disclosure across **all seven** Q2 releases. HOA transcript-mine closed at **3-of-4** (SSB transcript never located; stale-marked, low residual value since its release+deck were already grep-clean).
+- **CORAL's hardest 🔴 leg is now qualified** (rank-vs-level). Not retired — rank deterioration and conversion speed are real — but it can no longer carry an implication of crisis-magnitude *levels*.
 
 ## MAIL STATE
 
-- `inbox/` (root): NOT scanned (narrow one-off spawn — protocol step 8/9 exemption, consistent with 7/23 session). `inbox/WALTER/`: not scanned.
-- `outbox/`: NEW `2026-07-24_to-PROME_ssb-q2-adjudication-and-hoa-transcript-mine.md` (🟡, PROME receives report directly). Prior 7/23 gate-day note, 7/22 BKU note, 7/21 muni-credit memo still in root outbox (in-flight/delivered-pending-sweep).
-- Other agent sessions may be LIVE on box — committed pathspec-only per protocol; push deferred if non-ff.
+- **`inbox/WALTER/`: DRAINED** — 10 signals consumed, logged, `git mv`'d to `processed/`.
+- **`inbox/` (root): 9 unprocessed**, all pre-dating this session: AEOLUS 7/22 · DEWEY ×4 (7/24, FHA/VA waterfall + STR trio) · MARCO ×2 (7/25) · CREED 7/27 · **MARCO 7/31 (an ANSWER to a CORAL question — SWFL convergence, third dataset, no divergence)**. **3 processed this session** (HOMER ×2, NEXUS — all acted on).
+- **`outbox/`: NEW `2026-08-03_to-HOMER_...`** — delivered to `AGENTS/HOMER/inbox/`. Prior 7/21–7/24 PROME notes still in root outbox (in-flight/delivered-pending-sweep).
+- **NEXUS 7/31 CONTENT-STALE flag: CLEARED** by the brief re-pin (their packet said the re-pinned brief *is* the acknowledgment — no reply owed).
+- Other agent sessions may be LIVE on box — committed pathspec-only; **did not pull** on protocol.
