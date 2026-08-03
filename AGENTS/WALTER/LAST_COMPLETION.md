@@ -34,8 +34,8 @@
 ## WILL_NEEDS
 
 - **🟢 `corrects:` schema change — WILL-APPROVED AND SHIPPED 8/3.** FORMAT_SPEC **v0.15** (`correction` enum + `corrects` mandatory) · CHECKLIST **v0.31** · STATE §1 · BOOT_PROTOCOL item 24 · CLAUDE.md 24→25 checks · `walter_doctor` **`correction_target_declared`** (25th check, tested in both directions) · **9/9 corrections retro-filled.** ⚠️ **The morning's diagnosis was WRONG and the fix corrects it: `corrects:` was never in the spec and `correction` was never in the enum — an UNSPECIFIED PATHWAY, not authors forgetting.** The value grammar (SIG-ID / `SELF` / `EXTERNAL:`) is data-driven: running the retro-fill first showed a SIG-ID-only design would have forced a false entry in **3 of 9**.
-- **🟡 Phone Part A** (~15 min; carried) — `phone_inbox/` still not enacted; the sweep is live and self-arms.
-- **🟡 The batch-manifest guard** — carried; RAV-QC-converged. No multi-item drop this session to exercise it.
+- **🟡 Phone Part A — STILL WILL'S, and it is now the ONLY remaining item.** A1 (GitHub PAT) + A2 (iOS Shortcut) need his account settings and his phone; WALTER cannot do either. **Everything on the fleet side is done and PROVEN:** copy-paste card shipped → `design/PHONE_PART_A_CARD.md` (literal values, blast radius stated, 404/422 failure modes named); receiving half re-verified end-to-end 8/3 (parses §5 · dedups · **re-fires on an EDITED signal** · **surfaces malformed LOUDLY, never drops**); spec → v1.2. 🔴 **Fixed a latent defect while proving it: TEST MODE drove only the banner, so `WALTER_PHONE_DIR=… --mark` wrote FIXTURE hashes into the LIVE `phone_seen.json`** — unacceptable in the one registry whose purpose is *never silently drop Will's signal*.
+- **🟢 The batch-manifest guard — WILL-APPROVED AND SHIPPED 8/3.** `tools/batch_manifest.py` (--open/--item/--close/--status) + doctor check **#26 `batch_manifest_open`** + CLAUDE.md step **10.5** + BOOT_PROTOCOL item 25. **Declare the input count BEFORE processing; `--close` REFUSES on any gap; NO-ACTION is a first-class disposition.** **Tested on 12 cases including a REPLAY OF THE ACTUAL 7/31 FAILURE** (declare 7, disposition 6, attempt close → refuses, names item 6). 🔴 **The doctor check shipped a v1 NameError only RUNNING it revealed** (n=9 on the guard-v1 pattern; empty-case passed, defect reachable only with a real OPEN batch). ⚠️ **RESIDUAL in the check's own INFO line: it sees only DECLARED batches — an undeclared one is invisible by construction, and green is NOT evidence nothing was dropped.**
 
 ## FOLLOW-UP (canonical running list — survives handoff via this file)
 
@@ -58,7 +58,7 @@
 
 ## OPEN DESIGN DECISIONS (need Will) — condensed
 
-**🟡 ACTIVE:** **phone Part A** (carried) · **the batch-manifest guard** (carried, RAV-QC-converged). *(The `corrects:` schema change is RESOLVED — Will-approved and shipped 8/3, see WILL_NEEDS.)*
+**🟡 ACTIVE:** **phone Part A** — Will's 15 min, card ready at `design/PHONE_PART_A_CARD.md`; the only open item. *(`corrects:` schema change and the batch-manifest guard both RESOLVED — Will-approved and shipped 8/3.)*
 
 **🟠 DEFERRED:** RAV run cadence · CLIMATE_MACRO sustain-vs-fold · RESEARCH-INTAKE v2 dedupe-by-story · lane `edgar_8k` watchlist scope · I4 CROSS_REFS cache · VULCAN 5-axis re-cut · LOOPS.md ownership · B5 scheduled-scan · DEWEY delivery-reliability (**now n=3 clean of 4 runs** — re-eval at n=4) · phone-signal v2 (not recommended) · IMMEDIATE-unconsumed-latency doctor severity carve.
 
