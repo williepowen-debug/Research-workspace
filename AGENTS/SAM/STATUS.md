@@ -125,9 +125,9 @@ Yen up ~1.3% against **every** major while the dollar crosses did not move = **p
 | Units / precision | 億円 (¥100mn); BOJ note: *"rounded off to 10 billion yen"* |
 | Provisional / Final cols | **BLANK** — Aug-4 JST has not occurred. This is a **projection only** |
 
-**Base rate, measured as pre-registered (n=31 sessions, May–Jun, own `jd` pull):** rest-of-month |median| **0.72T**; **sample max drain −7.94T** (May 7, no known op); **early-month peer group (day ≤6): median −3.32T, worst −6.21T**; sessions ≤−7.0T = **1/31**; ≤−2.0T = **8/31 (26%)**.
+**Base rate, measured as pre-registered (n=62 sessions, May 1 – Jul 31, own `jd` pull):** |median| **0.94T**; **sample max drain −7.94T** (May 7, no known op); **early-month peer group (day ≤6, n=10): median −2.54T, worst −6.21T**; sessions ≤−7.0T = **1/62 (1.6%)**; ≤−2.0T = **12/62 (19%)**.
 
-**→ MY OWN BANDS WERE MIS-CALIBRATED, and the base-rate step caught it.** The ¥2.0T "noise floor" is meaningless — **26% of ordinary sessions clear it**. The ≥¥7.0T CORROBORATE bar would have **false-positived on May 7**. Re-stated empirically: **the honest comparison is not "10× a normal day" (that overstates it by anchoring on 7/31's −1.17T) but ~1.44× the largest ordinary fiscal day ever observed, and ~1.84× the worst early-month day.** Aug-4 is itself an early-month date, so part of −11.42T is ordinary seasonal flow.
+**→ MY OWN BANDS WERE MIS-CALIBRATED, and the base-rate step caught it.** The ¥2.0T "noise floor" is meaningless — **19% of ordinary sessions clear it**. The ≥¥7.0T CORROBORATE bar would have **false-positived on May 7**. Re-stated empirically: **the honest comparison is not "10× a normal day" (that overstates it by anchoring on 7/31's −1.17T) but ~1.44× the largest ordinary fiscal day ever observed, and ~1.84× the worst early-month day.** Aug-4 is itself an early-month date, so part of −11.42T is ordinary seasonal flow.
 
 **VERDICT: −¥11.42T is genuinely anomalous — larger than every session in the visible sample by 44% — and is strong evidence that MOF ALSO intervened around the 7/31 session, i.e. a genuinely two-sovereign operation.** That is the pre-registered **second-MOF-op-of-the-round** branch, and it fires the §5C override on the narrow MOF reading as well.
 
