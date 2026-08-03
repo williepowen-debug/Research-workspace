@@ -1,28 +1,20 @@
 # AEOLUS STATUS
 
-**Last Updated:** 2026-07-22 ~22:40 ET (catch-up + deep-scan + WATT C3 reconcile) · **Status:** 🟠 — C4 upgraded (wildfire/insurability); C5 (Rhine + Mississippi) lead climate read; **live-C3 flag RETRACTED** (WATT primaries non-corroborated); El Niño moderate-now / very-strong-likely-Q4
+**Last Updated:** 2026-08-03 ~15:00 ET (12-day catch-up + WALTER lane drain + **C6 water promoted to core** + live 3-agent data pass) · **Status:** 🟠→🔴-leaning — **C5 Rhine at all-time record low (RED)**; **new C6 water channel** (Colorado River Final EIS live); C4 firming (Spokane WA record fire); El Niño strengthening on track
 **Class:** Market-agent (climate → economy) · **Self-level:** L2
 
-> Data is web-gathered, sourced + dated below. Per Critical Rule #3, verify against primary releases (CPC/NHC/CSU/USDA/Drewry/Artemis) before any trade use. No naked numbers.
+> Data is web-gathered, sourced + dated below. Per Critical Rule #3, verify against primary releases (CPC/NHC/CSU/USDA/WSV/USBR) before any trade use. No naked numbers.
 
 ---
 
 ## REGIME READ (the master variable)
 
-**El Niño is real and strengthening, but the CURRENT level is moderate — lower than my last read — while the FORECAST for a very-strong Q4 peak got MORE confident.** Two corrections this session against the CPC 9-Jul-2026 primary:
-- **Current Niño-3.4 = +1.2 °C** (weekly, wk of 1 Jul); **monthly ONI = +0.98 °C (AMJ)**, a rising sequence (DJF −0.37 → AMJ +0.98). My prior **+1.7 °C weekly read was UNSUPPORTED** by the CPC primary and is CORRECTED (KB-AEO-016 → CORRECTED, superseded by KB-AEO-021). A "+2.1 °C Jul-15" figure circulating in search summaries is a **confabulation** — not in any primary; not banked.
-- **The "+3 °C" / "+4 °C" tails are region/model artifacts.** CPC verbatim: Niño-1+2 = +2.7 °C, Niño-3.4 = +1.2 °C, Niño-4 = +0.5 °C — the easternmost (+2.7) is what was misread as a Niño-3.4 "+3 °C." CFSv2 +4.01 °C (KB-AEO-020) stays a documented warm-bias tail only.
+**El Niño is strengthening and now confirming on the monthly primary — on track for the very-strong Q4 peak.** As of the 8/3 pull:
+- **Official CPC weekly Niño-3.4 = +1.2 °C** (9-Jul ENSO Discussion, still the last vetted prose figure; next discussion ~**8/13**). Monthly **ONI = +0.98 °C (AMJ)**, unchanged.
+- **But the freshest monthly primary shows the strengthening is real:** OISST Niño-3.4 **June = +1.55 °C** (Apr +0.47 → May +0.94 → Jun +1.55), rising ~+0.5 °C/month. **+1.55 has crossed the "strong" (≥1.5) line on that index.** CPC still gives **81% very-strong (≥2.0) by OND 2026**, 97% persistence to spring '27 — unchanged and reinforced.
+- **⚠️ CALIBRATION CORRECTION (updates L-09):** the floating **"+2.1 °C"** I logged as a *confabulation* on 7/22 is actually **real data** — the weekly `wksst9120.for` file's Niño-3.4 column, which runs **~0.8 °C hotter than the official discussion on every region** (dataset-baseline difference, not a bad number). It is **not interchangeable** with CPC's official +1.2. Use the weekly file for **trend** (unambiguously strengthening, +0.3 °C over July), never for level. The "+3 °C" figures remain a genuine Niño-1+2 (eastern-Pacific) region conflation, correctly ignored.
 
-**But the forward odds rose:** CPC now gives **81% chance of "very strong" (≥2.0 °C) by OND 2026** (was 63% Nov-Jan), **97% persistence through early spring 2027.** El Niño Advisory in effect. Net: **moderate now, very-strong-likely by Q4** — this loads C2 (drought), C3 (heat), C5 (Panama/Rhine) for late 2026 and keeps the catastrophe channels (C1/C4) benign via shear suppression. **Count the ENSO root ONCE** — C1/C4-benign and C3/C5-stressed are the same antecedent, not five independent signals.
-
----
-
-## ⚠️ RETRACTED — the "live C3 grid emergency" (7/22 eve) did NOT corroborate
-
-**I over-fired.** My 7/22-eve live-scan surfaced (single secondary, ABC News via research agent) a claim of a **DOE EEA + §202(c) order + forecast record PJM peak 166,304 MW Thu 7/23**. **WATT checked 4 primaries the same night and found NO corroboration** (WATT 7/22 reply): (1) DOE §202(c) order index — latest PJM order is 202-26-35, **July 14**; no order ~7/22; (2) live PJM emergency board — quiet, no EEA/§202(c) posting; (3) EIA-930 — 7/22 peak **126,409 MW, 36 GW *below* mid-July**, no severe-heat signature; (4) PJM season summary — the record event was **7/2-4 only**.
-- **Diagnosis (WATT + my own KB):** true earlier-July facts (the record *was* broken 7/2 at 168,158 MW DR-adjusted; Manual 13 curtailment is real) **welded to a false 7/22 date** — `fused_true_facts_false_premise`. "First forecast to break the record" is internally inconsistent with my own KB-AEO-018. **No C3 upgrade. C3 stays 3 🟠.** Lesson L-11. WATT will run a Thu-7/23 realized-peak backstop; if a record + EEA2+/§202(c) genuinely prints, we both upgrade then.
-- **The REAL C3 move this week (WATT canonical):** not the acute leg — **P2/capacity hit max**: PJM's **2028/29 BRA cleared 7/14 at the $325 cap AND 6,831 MW short** (3rd straight at-cap, 2nd straight RTO-wide shortfall, $16.4B). That is the *cost* mechanism confirming on the annual-auction cadence (the thing that actually reprices), vs a heat-day spike that retraces. WATT's P1 (acute) has **eased to 3** as the season cooled.
-- **Storm check (Will's 7/22 ask) — stands:** the Gulf system is **Bertha**, weakening as expected; **NHC 8PM 7/22 rules out any NEW Atlantic development for 7 days** — no second storm brewing.
+**Net:** El Niño moderate-now, very-strong-likely-Q4, and now *confirming* — keeps the catastrophe channels (C1/C4-hurricane) benign via shear suppression while loading the demand/hydrology channels (C2 Midwest drought, C3 heat, **C6 Colorado**) for late 2026. **Count the ENSO root ONCE across the Western-hydrology cluster — but C5-Rhine is a SEPARATE European basin (weak/contested teleconnection); do not weld it to the same root.**
 
 ---
 
@@ -30,13 +22,14 @@
 
 | # | Channel | Score (1–5) | Local state | Independence | Key Signal | Upgrade Trigger |
 |---|---|:--:|---|---|---|---|
-| C1 | Insurance / reinsurance | 2 🟡 | benign/soft — softening *further* | El Niño-driven (shared root); insurability hinge w/ C4 | July renewals: global cat ROL **−16%**, NA **−20/25%**; Citizens FL reins. **−29% YoY** | a peak-season major landfall reverses the ROL trend |
-| C2 | Agriculture / food | 2 🟡 | benign-improving | El Niño + drought root (shared w/ C5) | corn **67%** / soy **66%** G/E (flat); drought **46.5%** (↓ from 52%) | upper-Belt flash-drought verifies OR El Niño Q4 drought |
-| C3 | Energy demand | **3 🟠** | mechanism confirmed; acute leg COOLED, **cost leg (P2) confirming** | El Niño root (shared w/ C1/C5) | **2028/29 BRA cleared 7/14 at $325 cap + 6,831 MW short** (WATT); 7/22 "live event" retracted | realized record peak w/ EEA2+ (WATT Thu backstop) OR Henry Hub break |
-| C4 | Property / physical | **3 🟠** ↑ | **UPGRADE — evidence building & buy-side pricing it** | partly independent of C1 (fire=drought not hurricane) | **NIFC PL5/5**; CA FAIR Plan 29.1% hike + first $1B assessment/30yr; buy-side pricing property→muni channel | carrier insolvency OR a >$10B single insured cat |
-| C5 | Supply chain / logistics | **3 🟠** | **lead channel — Rhine the live climate read** | drought root (shared w/ C2); El Niño Panama overhang | **Rhine Kaub Scale-4 surcharges active** (early); freight +61% YoY but *confounded* | Panama draft-trim binds transits OR Rhine below navigable minimum |
+| C1 | Insurance / reinsurance | 2 🟡 | benign/soft — softening further | El Niño root (suppress); C4 hinge | Atlantic 0%/0% 7-day, still 2 storms; CSU 9/4/1 (Aug update pending 8/5); reins ROL −16/25%; Citizens FL −29% YoY | a peak-season major landfall reverses ROL |
+| C2 | Agriculture / food | 2 🟡 ↗ | benign but **firming** | El Niño + drought root (w/ C6) | corn **63%** / soy **63%** G/E (**both ↓3-4pts**); N.Plains/Upr-Midwest flash drought **3rd wk**; drought 47.9% | G/E <55% OR El Niño Q4 drought verifies |
+| C3 | Energy demand | 3 🟠 | mechanism confirmed; acute cooled, **cost leg (P2) confirming** | El Niño root (w/ C1/C5/C6) | 2028/29 BRA at $325 cap +6,831 MW short; **PJM $555/MW-day backstop cap**; 3GW DC disconnect (correlated-control) — all WATT-canonical | realized record peak w/ EEA2+ OR Henry Hub break |
+| C4 | Property / physical | 3 🟠 ↗ | physical peril **firing hard**, insured-loss leg still soft | partly independent (fire=drought not hurricane) | **Spokane WA 640+ structures, provisional most-destructive in WA history**; NIFC PL5 sustained, YTD ~165% avg; Spain 1st-ever natl fire emergency; CA FAIR Plan 29.1% + $1B assessment | carrier insolvency OR >$10B single insured cat |
+| **C5** | Supply chain / logistics | **4 🔴** ↑ | **RED — Rhine at all-time record low** | European basin (SEPARATE root from ENSO) | **Kaub 26cm (WSV primary) = at 2018 record 25cm**; oil-barge freight **record ~€150-155/t (+233%)**; ~20% loadings; Duisburg suspension risk wk of 8/7 | sustained below min + Duisburg cutoff → 5; OR rain relief → back to 3 |
+| **C6** | Water scarcity / allocation | **3 🟠** NEW | **elevated — reservoirs near record + dated decision live** | El Niño Western-hydrology root (w/ C2/C3) | **Lake Powell 3,522ft/23% (~2-3ft above all-time low; lowest-ever SUMMER)**; Mead 1,041ft Tier-1 (proj. sub-1,038 by yr-end); **Colorado River Final EIS pub 7/31, ROD ~10/1, expiry 12/31** | shortage Tier-2 declared OR 12/31 expiry w/ no successor OR Powell breaks 3,519.92ft |
 
-**Composite: 13/25** — 3 channels 🟠 (C3, C4↑, C5), 2 channels 🟡. **C4 upgraded 2→3** (7/22 deep-scan) on realized evidence: PL5 fire season + CA FAIR-Plan stress node + buy-side pricing the property→muni channel. ENSO level corrected down (forward odds up); C3 confirmed-mechanism + live event; C5 lead the Rhine *and now Mississippi*. **State:** moderate aggregate climate-stress, **regime-driven** — the key structural read is that **physical US cat peril is elevated (fires/floods) while insured losses run below-average, pushing the repricing DOWN-STACK to the C4 property/residual layer, not reinsurance (C1).**
+**Composite: 17/30** (6 channels; was 13/25 on 5). **C5 upgraded 3→4** (Rhine record low, primary-verified); **C6 added at 3** (water promoted Tier-2→core, Will-assigned). C1/C2 benign (C2 firming), C3/C4 hold at 3 (C4 firming). **State:** aggregate climate-stress **elevated and now with one channel RED** — the lead read has migrated from "watch" to a live, primary-verified, record-level European logistics event, alongside a newly-cored Western-water channel carrying a dated Q4 catalyst.
 
 ---
 
@@ -44,70 +37,35 @@
 
 | Channel | Metric | Current | As-of | Band | Source |
 |---|---|---|---|---|---|
-| ENSO | Niño-3.4 weekly / ONI | **+1.2 °C** wkly / **+0.98 °C** ONI (AMJ) | wk 1 Jul / AMJ 2026 | 🟡 ONI (<±1.0), 🟠 wkly | NOAA CPC ENSO Disc. 9 Jul (primary) |
-| ENSO | Very-strong (≥2.0) prob by OND | **81%**; 97% persistence to spring '27 | 9 Jul 2026 | forecast | NOAA CPC |
-| C1 | Atlantic named storms 2026 | **2** — Arthur (Jun), Bertha (active, see below); ACE **~2.0** (near-climo for date) | 22 Jul 2026 | 🟢 | NHC; Wikipedia |
-| C1 | 2026 outlook (named/hurr/major) | CSU **9/4/1** (7/8 update; no Aug update yet, next 8/5); NOAA May 8-14/3-6/1-3, 55% below-normal (Aug update pending) | 8 Jul / 21 May 2026 | 🟢 below normal | CSU TCRAMS; NOAA |
-| C1 | Reinsurance ROL (July renewal) | **Soft, softening further** — global cat **−16%** (steepest since late-90s), NA **−20/25%+**; capital ~$790B | July 2026 | 🟢 benign | Guy Carpenter/Gallagher Re via Artemis |
-| C2 | US corn / soy condition (G/E) | **67% / 66%** (~flat vs 68/66 on 6/21) | 20 Jul 2026 | 🟢 (>55%) | USDA NASS Crop Progress |
-| C2 | US drought (Lower 48) | **46.5%** (↓ from 52.3%); N.Plains heat dome peaked 12 Jul (115°F MT), broke 20-21 Jul | 14 Jul 2026 | 🟡 regional | US Drought Monitor |
-| C3 | PJM acute (P1, WATT canonical) | season COOLED — 7/22 peak 126,409 MW (36 GW below mid-July); acute leg eased to 3 | 22 Jul 2026 | 🟠→easing | WATT (EIA-930) |
-| C3 | PJM capacity (P2, WATT canonical) | **2028/29 BRA cleared 7/14 at $325 CAP + 6,831 MW short** (3rd straight at-cap, 2nd RTO-wide shortfall, $16.4B) — the *cost* mechanism confirming | 14 Jul 2026 | 🟠 | WATT; PJM BRA |
-| C3 | Henry Hub / storage | $3.16/MMBtu; storage cushion intact (no fresher print) | 22 Jun 2026 | 🟢 | EIA |
-| C1/C4 | H1 2026 US insured nat-cat | **~$36B, ~25-28% below 10-yr avg, lowest H1 since 2018**; 5 straight qtrs no >$10B cat; SCS #1 but down from $40B+ | H1 2026 | 🟢 (soft) | Aon / Gallagher Re |
-| C4 | Wildfire / CA insurability | **NIFC PL5/5** (since 7/18); CA FAIR Plan 29.1% hike (eff Oct) + first $1B assessment/30yr (statewide contagion); buy-side pricing property→muni | 22 Jul 2026 | 🟠 | NIFC; CA DOI; Breckinridge/AB |
-| C4 | Water-rights (new thread) | **San Carlos Reservoir (AZ) <1% capacity**; Globe Equity Decree mechanism; unquantified | 17 Jul 2026 | 🟡 structural | WALTER SIG-016 (multi-source) |
-| C5 | Rhine at Kaub | **~40 cm (15 Jul) → 81 cm (20 Jul); Scale-4 low-water surcharges ACTIVE; loading ~460 t** — early vs normal Aug-Oct low | 15-20 Jul 2026 | 🟠 | Insurance Journal; Maersk/Hapag |
-| C5 | Container freight (Drewry WCI) | $4,547/40ft (**−2% w/w** first down-week), **+61% YoY** — but peak-season/front-loading, *not* chokepoint | 16 Jul 2026 | 🟠 (confounded) | Drewry; IndexBox |
-| C5 | Panama Canal | precautionary draft trim 49.5 ft (1 Jul) → 14.78 m (~15 Aug), El Niño-driven; **transits UNAFFECTED**, no transit restriction fcst thru 12/31 | Jun-Jul 2026 | 🟢 now / watch | Maritime Executive; ACP |
-| C5 | Mississippi / Ohio | **low-water AGAIN** (drought, "3rd time in 4yr") — navigation restricted near Cairo IL to ~10-ft drafts / 6 barges wide (vs 8) | Jul 2026 | 🟠 (verify) | AccuWeather; BargeOps — ⚠️ 2025↔26 source-date ambiguity, verify USACE/USCG LNM |
+| ENSO | Niño-3.4 wkly (official) / ONI | **+1.2 °C** wkly / **+0.98 °C** ONI (AMJ) | 9 Jul / AMJ | 🟡/🟠 | CPC ENSO Disc (primary) |
+| ENSO | Niño-3.4 monthly OISST (freshest) | **+1.55 °C (Jun)** — crossed "strong"; +0.5/mo | Jun 2026 | 🟠 | CPC sstoi.indices (primary) |
+| ENSO | Very-strong (≥2.0) prob by OND | **81%**; 97% persist to spring '27 | 9 Jul | forecast | CPC |
+| C1 | Atlantic active storms / formation odds | **0 active; 0% 2-day / 0% 7-day**; still 2 named (Arthur, Bertha) | 3 Aug 8AM EDT | 🟢 | NHC (primary) |
+| C1 | 2026 season outlook | CSU **9/4/1** (7/8; **Aug update pending 8/5**); NOAA below-normal 55% (**Aug update pending ~8/6-7**) | 7/8 / 5/21 | 🟢 | CSU; NOAA |
+| C1 | Reinsurance ROL (July renewal) | Soft, softening — global cat −16%, NA −20/25%; capital record >$700-790B | Jul 2026 | 🟢 | Gallagher/GC via Artemis |
+| C2 | US corn / soy G/E | **63% / 63%** (↓ from 67/66 on 7/19) | wk-end 7/26 | 🟡 (>55%) | USDA NASS (primary) |
+| C2 | US drought (CONUS D1-D4) | **47.9%** (↑ from 46.5%); N.Plains/Upr-Midwest flash drought 3rd wk | valid 7/28 | 🟡 | US Drought Monitor (primary) |
+| C3 | PJM acute (P1) / capacity (P2) | acute cooled; **2028/29 BRA $325 cap +6,831 MW short**; new: PJM $555/MW-day backstop, 3GW DC disconnect | Jul 2026 | 🟠 | WATT canonical |
+| C4 | Wildfire / insurability | **Spokane Complex ~640-700 structures, ~7,780 ac, 65k evac** (WA statewide emergency); NIFC **PL5** sustained; YTD ~165% avg; CA FAIR Plan 29.1% + $1B assessment | 8/1-2 | 🟠 | Spokesman/WA-EOC; NIFC; CA DOI |
+| C1/C4 | H1 2026 US insured nat-cat | ~$36B, ~25-28% below 10-yr avg, lowest H1 since 2018 | H1 2026 | 🟢 (soft) | Aon / Gallagher Re |
+| **C5** | **Rhine at Kaub** | **26.0 cm (WSV primary, 8/3 16:15 CEST) = AT the 2018 all-time record (25cm)**; oil-barge freight record ~€150-155/t (+233% vs €45 end-Jun); ~20% loadings; Duisburg suspension risk wk of 8/7 | 8/3 | 🔴 | pegelonline.wsv.de (primary); Reuters/Argus |
+| C5 | Panama Canal | draft trim 14.94m (7/24) → 14.78m (8/15); transits **~38** — **no binding restriction** | Jul-Aug | 🟢 now / watch | ACP; gCaptain/S&P |
+| C5 | Mississippi / Ohio | **~normal (~100% median @ Memphis); NO active restriction** — autumn (Sep-Nov) is the window, not Aug | early Aug | 🟢 | USACE/aggregator (verify autumn) |
+| **C6** | **Lake Powell** | **3,522.04 ft / 23.1% full** (8/2); ~2-3 ft ABOVE all-time low 3,519.92 ft (Apr-2023); **lowest-ever SUMMER level**, on track to break record Aug/Sep; ~32 ft above min power pool | 8/2 | 🟠 | USBR / lakepowell.water-data (primary) |
+| **C6** | **Lake Mead** | **1,041.10 ft / 27% full**; Tier-1 shortage; USBR projects **1,037.31 ft by 12/31 (below 2022 record)** | 7/31 | 🟠 | USBR 24-Month Study (primary) |
+| **C6** | **Colorado River guidelines** | **Final EIS PUBLISHED 7/31**; adaptive framework thru 2036, LB cuts up to 3.0 MAF (AZ-weighted); **ROD earliest ~8/30, target ~10/1; expiry 12/31** | 7/31 | 🟠 | USBR/DOI (primary) |
 
-> **Mechanism-vs-thermometer (C5):** the durable *climate* signal is the **Rhine** (early Scale-4 surcharges) + Panama El-Niño draft overhang. The **freight index is a confounded thermometer** — the +61% YoY is largely peak-season / tariff front-loading demand, and the −2% w/w says it's cresting. Do not read WCI as pure C5 climate stress.
-> **C4 data-source (standing):** NOAA NCEI billion-dollar DB discontinued (Jul 2025) → C4 cat-loss feed uses reinsurer tallies (Gallagher Re/Munich Re/Aon) + Climate Central (LESSON L-05).
-
----
-
-## HURRICANE-SEASON STATE (refresh 2026-07-22)
-
-**Basin:** one active system — **TS Bertha** (2nd named storm). Formed 7/19 NE Gulf, peaked ~60 mph; **landfall St. Bernard Parish LA ~2 pm CDT 7/22 at ~45 mph, weakening**, tracking W over TX, dissipating by Thu/Fri. Low-confidence tail: a Texas-coast reformation late 7/23 could clip Corpus Christi→Galveston as a low-end TS (Norcross/HAFS-A). Impacts: 1-4″ rain (iso 6″), surge ≤3 ft. **Minimal FL threat.** **NHC 8PM 7/22: no new Atlantic development expected for 7 days** (rules out a 2nd storm behind Bertha). [NHC/CBS/Fox/NPR, 7/22]
-- **Energy footprint — precautionary, not a supply event:** Chevron shut-in Petronius + evacuated Tubular Bells/Blind Faith; a Gulf refinery suspended some ops. BUT nat gas settled *flat* ($2.865/MMBtu, +0.2% — storm trimmed demand offsetting supply risk); LNG feedgas intact (Plaquemines rose to 3.8 Bcf/d). Routed 🟡 to BRENT — precautionary shut-ins occurred, do NOT carry Bertha as an energy-supply catalyst. [Baird/PGJ/Fox 7/20-22]
-
-**Season-to-date:** 2 named (Arthur 6/17, Bertha 7/19); **ACE ~2.0** — this is **near-climatology for the date** (almost no ACE accrues before August), *not* a below-normal signal yet. Don't read 2.0-vs-123 (123 = full-season normal).
-
-**Forecast:** CSU **9/4/1** (7/8; next update 8/5), initial seasonal ACE ~90. NOAA August update **not yet released** (due early Aug). Driver remains El Niño shear suppression. AEO-01 (below-normal season) trending CONFIRM, stays OPEN (11/30).
-
-**Pre-registered escalation lines (all currently NOT-FIRED — nothing in pipeline meets them):**
-| Trigger | Route | Priority |
-|---|---|---|
-| NHC invest ≥40% 5-day formation AND cone includes Gulf/FL/SE coast | CORAL, BRENT | 🟠 |
-| Named storm Cat 3+ threatening Gulf refining/LNG or FL landfall | CORAL, BRENT, REGINALD | 🔴 |
-| CSU/NOAA **August** update revises season UPWARD (breaks suppression thesis) | CORAL, REGINALD | 🟠 |
-| ACE tracks >90% of normal pre-Nov 30 | C1 channel-kill reversal | 🟠 |
+> **Mechanism-vs-thermometer (C5):** the record is now the *gauge* (Kaub 26cm, primary) AND the *freight* (record €/t) — no longer a confounded thermometer. Rhine is a genuine below-navigable-minimum event. ⚠️ Rain resolves this fast and has before — watch the Aug 4-10 precip response; a sustained rebound above ~78cm GlW with freight rolling off = C5 back to 3.
+> **C4 data-source (standing):** NOAA NCEI billion-$ DB discontinued (2025) → C4 cat-loss feed = reinsurer tallies + Climate Central (L-05).
+> **Lake Powell "lowest ever" is a fused-true-facts/false-premise (L-11):** the true fact (lowest-ever *summer* level) is welded to a not-yet-true claim (all-time record). Do NOT propagate "lowest ever" present-tense — it's a *projection* (Aug/Sep). Current 3,522 > record 3,519.92.
 
 ---
 
-## US CATASTROPHE STRESS (7/22 deep-scan — wildfire / flood / SCS)
+## C6 WATER — PROMOTION RECORD (2026-08-03)
 
-**The theme: physical peril elevated, insured losses below-average, repricing migrating DOWN-STACK.**
-- **Wildfire (C4/C1):** NIFC **National Preparedness Level 5/5 since 18 Jul** (max, rare mid-July); 72 uncontained large fires; ~3.9M ac YTD (~135% of 10-yr). Northwest busiest (OR 266k ac); Aspen Acres CO destroyed 160+ structures. Canadian+MN smoke pushed Chicago to AQI 511 (worst on record, 16 Jul) — Great Lakes productivity drag, not a structure-loss signal. [NIFC sitrep 7/22]
-- **Flooding (C4):** TX Hill Country flash flood 16-17 Jul (2 dead, 230 rescued, 10-20″), UT (4 dead), multi-state ≥8 — same corridor as the deadly July-2025 floods, one year on. Localized NFIP/muni, **not yet $-quantified**. Bertha adding a VA/Carolinas flood leg.
-- **Severe convective storms + H1 losses (C1):** SCS is the #1 US peril (~$26-27B H1) but **down hard from $40B+** in 2023-25. **H1 2026 US insured nat-cat ~$36B, ~25-28% below the 10-yr avg, lowest first-half since 2018; 5 straight quarters with no single cat >$10B.** [Aon/Gallagher Re, 7/22]
-- **The insurance transmission (C4 upgrade driver):** reinsurance is **softening** (−15/20% mid-year; Jan-2026 LA fires *failed to support pricing*) → risk repriced at the **primary/state-pool/policyholder** layer. **CA FAIR Plan** = the stress node: 29.1% rate hike (eff 15 Oct), **first member assessment in 30+ yrs** ($1B, recouped from all policyholders = statewide contagion), enrollment ~450k+ (+123%/3yr). **Buy-side (Breckinridge/AllianceBernstein/Milliman) is now explicitly pricing the property-value/tax-erosion → muni-rating-risk + WUI-mortgage-collateral channel** — this is my C4 line, being priced by the market. **Routed 🟠 → REGINALD/CREED** (muni/bank), FL-analog (Citizens ↔ FAIR Plan) → CORAL.
-- **This is *partly independent* of the C1-benign read:** C1 stays soft because El Niño suppresses *hurricanes*; C4 fire stress is *drought*-driven — not the same suppression root, so C4↑ and C1-soft are not contradictory, they're the down-stack story.
+**Water scarcity promoted Tier-2 → core channel C6** (Will-assigned via WALTER 7/28: *"okay lets have AEO handle that too then and tell her to put on calendar."*). Cleared my own #1-guard "empty channel = failure" test because a **standing live read now exists**: Powell/Mead elevation vs Reclamation shortage tier + the Post-2026 Colorado River guideline calendar. Canonical surfaces built this session: CLAUDE.md (channel table + discriminator + threshold rows + boot liveness), THESIS.md (C6 transmission table), **`CALENDAR.md`** (the dated ROD clock), this matrix row. **Discriminator (WALTER, hold me to it):** a dated instrument or allocation decision, not the word "drought." **Standalone-agent trigger:** sustained ~6 weeks OR AI-water join producing its own dispatches → DAEDALUS review, Will-gated. **Ogallala** stays a Tier-2 watch-note (no 2026 score-moving datum).
 
----
-
-## CORAL FL BOUNDARY HANDSHAKE — RESOLVED & INTEGRATED (7/22)
-
-CORAL's 7/21 primary reconciliation is now fully processed. Both prior figures were TOTALS at different dates; canonical FL read (CORAL owns, AEOLUS defers):
-| Metric | Canonical | As-of | Source |
-|---|---|---|---|
-| Citizens (FL) policy count | **278,246 total PIF** (273,684 personal + 4,562 commercial; ~98% personal) | Jun 30 2026 | Citizens PIF reports (primary via CORAL 7/21) |
-| Citizens premium change | −8.7% | early-May 2026 | Insurify |
-| New FL carriers entered | 17+ | early-May 2026 | Insurify |
-| **Citizens reinsurance placement** | **net ROL 8.46% vs 11.95% 2025 (−29.2% YoY)** — sharp C1 soft-market datum | 2026 renewal | Citizens via CORAL |
-
-Depop context: 2026 assumption rounds 6/16 (done), 8/18 (next). CORAL's FL-landfall insurance-flip trigger stays armed, unlikely to fire from Bertha. **Inbox item integrated → moving to processed.**
+**The AI-water join (WALTER):** water is the THIRD data-center constraint after credit (Nvidia/OpenAI ~$250B Ohio) and power (PJM 3GW disconnect) — build-out sited in AZ/TX/GA/N.VA, several water-stressed. I own the water resource; VULCAN owns AI-capex consequence; WATT the generation leg. Reconcile to one figure.
 
 ---
 
@@ -115,36 +73,38 @@ Depop context: 2026 assumption rounds 6/16 (done), 8/18 (next). CORAL's FL-landf
 
 | Channel | Standing rule | Current state @ level | FIRED? |
 |---|---|---|---|
-| C1 | Benign season (ACE <90% normal, no major landfall) by Nov 30 → channel-kill, migrate to C3/C5 | ACE ~2.0 near-climo; CSU 9/4/1; season pre-ramp | NOT-FIRED (tracking toward kill) |
-| C2 | Crop cond >60% G/E AND ENSO-neutral → channel-kill | 67% G/E but El Niño active → not neutral | NOT-FIRED |
-| C3 | CDD/HDD within ±10% normal for 4+ sessions → channel-kill | 2 EEA events in 14d; mechanism confirmed | **NOT-FIRED — confirmed mechanism, not cost** |
-| C4 | H1 cat losses <110% 10-yr avg AND non-renewals stable 2+ qtrs → channel-kill | H1 losses ~25-28% *below* avg BUT non-renewals NOT stable (FAIR Plan 29.1% hike + $1B assessment; PL5 fires) | NOT-FIRED — **upgraded 2→3** (insurability leg firing even as loss leg is benign) |
-| C5 | Panama ≥32 transits AND freight normalized 3+ sessions → channel-kill | Panama transits fine BUT Rhine Scale-4 firing | NOT-FIRED (firing side) |
+| C1 | ACE <90% normal + no major landfall by 11/30 → channel-kill, migrate to C3/C5/C6 | 0%/0% 7-day formation, 2 storms, CSU 9/4/1 | NOT-FIRED (tracking toward kill) |
+| C2 | Crop cond >60% G/E AND ENSO-neutral → channel-kill | 63% G/E but ↓ + El Niño active | NOT-FIRED (firming against kill) |
+| C3 | CDD/HDD within ±10% normal 4+ sessions → channel-kill | mechanism confirmed (P2 cost leg) | NOT-FIRED |
+| C4 | H1 cat <110% avg AND non-renewals stable 2+ qtrs → channel-kill | losses ~25-28% below avg BUT non-renewals NOT stable (Spokane, FAIR Plan, PL5) | NOT-FIRED |
+| C5 | Panama ≥32 transits AND freight normalized 3+ sessions → channel-kill | Rhine AT record low, freight at record | NOT-FIRED — **fired to 4 (RED)** |
+| C6 | Reservoirs recover above tier AND signed ROD resolves benignly → channel-kill | Powell/Mead near record, Tier-1, ROD pending | NOT-FIRED (elevated) |
 
-**Fired count:** 0/5. **Thesis-kill:** all 5 channels benign for a full season → thesis dormant (re-arms next season). C1 tracking *toward* a benign-season channel-kill (El Niño suppression is the bear-kill mechanism; watch through Nov 30 — the wildcard is any peak-season surprise landfall into a soft market).
+**Fired count: 0/6 killed; C5 fired to 4.** Thesis-kill: all channels benign a full season → dormant. C1 still tracking *toward* a benign-season kill (El Niño suppression), the standing asymmetry: a soft, still-softening reinsurance market that needs only one surprise landfall.
 
 ---
 
 ## PREDICTIONS
-All OPEN, none past trigger — `workbook/PREDICTIONS.tsv`.
-- **AEO-01** (below-normal 2026 season, 65%) — trending CONFIRM (CSU 9/4/1, ACE ~2 near-climo). Timeframe 11/30.
-- **AEO-02** (El Niño ≥strong by NDJ, 70%) — strongly trending CONFIRM (81% very-strong by OND per CPC), though current +1.2 hasn't yet hit 1.5. Timeframe 12/31.
-- **AEO-03** (reinsurance soft at Jan'27, ROL ≤+5%, 55%) — strongly trending CONFIRM (July renewals −16/25%). Timeframe 1/15/27.
-- **AEO-04** (Panama draft/transit restriction by Q4, 45%) — **soft-HIT on the draft leg** (precautionary trim to 14.78 m begun), but the *spirit* (binding transit restriction) is NOT met — transits unaffected thru 12/31. Letter-vs-spirit flagged; kept OPEN. Timeframe 12/31.
+Live — `workbook/PREDICTIONS.tsv`.
+- **AEO-01** (below-normal 2026 season, 65%) — strongly trending CONFIRM (0%/0% 7-day, CSU 9/4/1, El Niño reinforcing; **no upward revision fired**). 11/30.
+- **AEO-02** (El Niño ≥strong / Niño-3.4 ≥1.5 by NDJ, 70%) — trending CONFIRM (June OISST +1.55 already ≥1.5; official ONI +0.98 rising). 12/31.
+- **AEO-03** (reinsurance soft at Jan'27, ROL ≤+5%, 55%) — trending CONFIRM (renewals −16/25%, capital record). 1/15/27.
+- **AEO-04** (Panama draft/transit restriction by Q4, 45%) — soft-HIT draft leg (14.78m coming 8/15), transits unrestricted ~38, spirit NOT met. OPEN 12/31.
+- **AEO-05** (NEW — Rhine Kaub stays ≤40cm uneconomical-threshold through 8/15 despite forecast rain, 55%) — the Aug 4-10 precip response is the discriminator. If falsified (sustained rebound) → C5 back to 3.
+- **AEO-06** (NEW — Lake Powell breaks its all-time low 3,519.92 ft by 9/30, 70%) — currently 3,522, declining, ~2-3 ft to go; clean dated call. If falsified (monsoon/inflow lifts it) → C6 physical leg weaker than modeled.
 
 ---
 
-## OPEN / NEXT
-1. **ENSO next primary** — CPC monthly ONI + 13-Aug ENSO Discussion: does the strengthening keep pace toward the 81% very-strong OND call? (KB-AEO-021 stale-by 8/15.)
-2. **C5 Rhine is the live escalation** — Kaub into Scale-4 surcharges *early*; re-pull the gauge next session (usually deepens Aug-Oct). Watch Panama's stepped draft cuts (14.94 m 7/24, 14.78 m ~8/15) for any transit bind.
-3. **NOAA August hurricane update (~early Aug)** — the pre-registered upward-revision line; if NOAA cuts further, the C1 soft-market asymmetry sharpens again.
-4. **C3 recurrence** — 2 EEA events in 14 days; watch for a 3rd, or a Henry Hub/capacity (P2) break that would move it from mechanism to cost. WATT canonical on all power figures.
-5. **San Carlos / Western water-rights** — new C4-adjacent structural thread (FLOW-AEO-07). The macro read-through is the **Colorado Compact** (same instrument, ~20x stakes). Unquantified — needs a $-loss or water-rights-pricing datum to become a score-mover.
-6. **Crops flash-drought watch** — upper-Corn-Belt drought expansion + spotty rain behind the 7/20 front is the only thing that could flip C2; not fired.
-7. **C4 wildfire/insurability (NEW, upgraded 2→3)** — recheck the **Aug-1 NIFC seasonal outlook** (Northwest/N.Great-Basin elevated into Aug; SW moderating on monsoon). Verify the FAIR Plan enrollment (451k is Sept-2024 vintage) + reconcile the two rate filings. **Routed C4→muni to REGINALD/CREED this session**; watch for a primary-carrier solvency event or a >$10B single cat = C4→4.
-8. **C5 Mississippi** — verify the Cairo IL draft-restriction figures against live USACE/USCG LNM (2025↔26 source ambiguity) before a firm band call; both Rhine + Mississippi now in low-water.
+## OPEN / NEXT (boot priorities)
+1. **C5 Rhine rain response (8/4-10)** — does the ~20cm forecast finally hit, does Duisburg loading suspend (wk of 8/7), or does rain relieve it? Re-pull WSV Kaub. AEO-05 clock.
+2. **C6 Colorado River ROD watch** — `CALENDAR.md` next-check ~8/25 (ahead of earliest 8/30 ROD). Watch Federal Register / DOI. AEO-06 (Powell record) resolves Aug/Sep.
+3. **Hurricane updates (fixed clock):** **CSU 8/5**, NOAA ~8/6-7 — the pre-registered upward-revision escalation line. Re-pull both.
+4. **ENSO 8/13 discussion** — does official catch up to the OISST +1.55 strengthening toward the 81% very-strong call?
+5. **C2 flash-drought** — NASS print due 8/3 4PM + USDM 8/6; corn/soy 63/63 firming toward the <55% Yellow band; El Niño Q4 drought the loader.
+6. **C4 Spokane post-event tally** — confirm the WA structure-loss record + any carrier-loss estimate (>$10B or insolvency = C4→4). NIFC Aug outlook.
+7. **Routed this session:** CARL (C5 goods/food-CPI repoint + fishmeal C2), WATT (Glen Canyon hydro + Colorado River gen leg), PROME (C6 promotion + Colorado River DOCKET row), MARCO (El Niño→FL snowbird winter push, per its 7/31 narrowed lane).
 
 ---
 
 ## BOTTOM LINE
-El Niño is **strengthening but currently moderate** (Niño-3.4 +1.2 °C / ONI +0.98 °C — I corrected a prior overstated +1.7 read against the CPC primary), while the **forecast for a very-strong Q4 peak got more confident (81% ≥2.0 °C by OND)**. That combination keeps the catastrophe channels benign — **reinsurance is softening *further*** (July renewals −16 to −25%, Citizens FL −29% YoY), hurricane season is running near-climo (2 storms, ACE ~2.0, Bertha a LA rain/surge nuisance with negligible energy-infra impact) — while loading the demand/logistics channels for late 2026. **C3 is now a confirmed mechanism, not a cost event** (2 PJM EEA events in 14 days, priced live by WATT, §202(c) curtailment institutionalized — but spikes retrace intraday). **C5 stays the lead climate channel, and the live read is now the Rhine** (Kaub into Scale-4 low-water surcharges *early*), not the demand-confounded freight index. Composite **13/25** (C4 upgraded 2→3), fired count 0/5. A 7/22 deep-scan of US wildfire/flood/storm added the session's second structural read: **physical cat peril is elevated (NIFC PL5 fire season, deadly July floods, active SCS) yet insured losses are running ~25-28% below average — so the repricing is migrating DOWN-STACK to the C4 property/residual layer (CA FAIR Plan 29.1% hike + first $1B assessment in 30yr, buy-side pricing the property→muni channel), NOT to reinsurance, which keeps softening (now triple-corroborated).** The one asymmetry to keep flagging is unchanged: **a soft, still-softening reinsurance market that only needs one surprise landfall** — but the nearer-term watch is whether a primary carrier's solvency cracks under the down-stack load. CORAL's FL flip-trigger and my Gulf/FL escalation lines are armed and quiet.
+Twelve days on, the climate-stress picture has escalated on two fronts and gained a whole new channel. **C5 is now RED: the Rhine at Kaub is sitting AT its 2018 all-time record low (26 cm, verified on the German WSV primary), oil-barge freight has repriced to a record ~€150-155/t (+233% in a month), vessels are loading ~20%, and a Duisburg loading suspension looms the week of Aug 7 — a genuine below-navigable-minimum event, no longer the confounded freight thermometer.** Rain over Aug 4-10 is the one thing that relieves it, and it has before — so this is a live, fast-moving read, not a settled one. **Water scarcity is now core channel C6** (Will-assigned): Lake Powell is at its lowest-ever *summer* level (~2-3 ft above the 2023 all-time low and on track to break it by September), Mead is in Tier-1 heading below its 2022 record by year-end, and — the timely piece — **the Post-2026 Colorado River operating guidelines' Final EIS published July 31, putting a dated federal decision (ROD ~Oct 1, hard expiry Dec 31) on the calendar that nobody else in the fleet was carrying.** The regime backdrop confirms: El Niño is strengthening on the monthly primary (June OISST +1.55 °C, crossed "strong"), keeping hurricanes suppressed (Atlantic 0%/0% for 7 days, no forecaster has revised the season up) while loading the drought/hydrology channels — Midwest flash drought has pushed corn and soy to 63/63% and is still expanding. The standing structural read is unchanged and now triple-corroborated: **physical cat peril is firing hard (Spokane may be Washington's most destructive fire ever) yet insured losses run ~25-28% below average, so the repricing keeps migrating down-stack to the C4 property/residual layer, not to a still-softening reinsurance market** — the tension REGINALD flagged, with the softening the better-evidenced leg. Composite **17/30**, one channel RED, fired count 0/6 killed.

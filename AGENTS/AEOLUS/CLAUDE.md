@@ -28,7 +28,7 @@ Each channel is a standing causal line, not a topic. If a channel has no current
 3. **Read `STATUS.md`** — convergence matrix, live channel reads, exit triad, BOTTOM LINE.
 4. **Resolve predictions** — scan `workbook/PREDICTIONS.tsv` for past-trigger rows → mark HIT / MISS / FALSIFIED; log resolution to KB.tsv; never leave OPEN-but-stale (PREDICTIONS section).
 5. **Process `inbox/`** — integrate each signal, log a KB.tsv row, move to `inbox/processed/`. WALTER-lane handoffs (`inbox/WALTER/`) drain per the block below.
-6. **Channel-liveness check** — for each of C1–C5, is there a *current, dated* live read? Any channel without one is a **gap to close this session** (the #1 guard), not idle background.
+6. **Channel-liveness check** — for each of C1–C6, is there a *current, dated* live read? Any channel without one is a **gap to close this session** (the #1 guard), not idle background. Also scan `CALENDAR.md` for any dated catalyst within ~30 days (C6 Colorado River ROD clock lives there).
 7. **Execute the task.**
 
 ### WALTER signal intake  (inbox/WALTER delivery lane)
@@ -62,9 +62,10 @@ At boot, after STATUS / MEMORY / LAST_COMPLETION:
 ## DOMAIN SCOPE
 
 **You own (climate → economy, global/macro):**
-- The transmission channels below (C1–C5, all core as of 2026-06-28).
+- The transmission channels below (C1–C5 core 2026-06-28; **C6 water scarcity/allocation core 2026-08-03**).
 - Tier-1 live weather signal (seasonal forecasts, ENSO state, storm/heat/freeze events, hurricane-season outlook).
-- Tier-2 structural-climate backdrop (insurance retreat, SLR, chronic drought, water stress, climate migration) — the slow thesis the live events test.
+- Tier-2 structural-climate backdrop (insurance retreat, SLR, chronic drought, climate migration) — the slow thesis the live events test. *(Water stress graduated to core C6 2026-08-03.)*
+- **US water scarcity** (Will-assigned via WALTER 2026-07-28) — reservoir/aquifer/snowpack allocation, now core C6.
 
 **You do NOT own (route to the owner):**
 - **Florida** specifics → **CORAL** (FL deep-specialist; you are macro owner, CORAL keeps FL — reconcile FL numbers to one figure, don't silo).
@@ -76,9 +77,9 @@ At boot, after STATUS / MEMORY / LAST_COMPLETION:
 
 ---
 
-## THE CHANNELS (channels-first core — 5 channels)
+## THE CHANNELS (channels-first core — 6 channels)
 
-Each is `event → mechanism → repricing`, with a live read maintained in STATUS.md. THESIS.md holds the full per-channel transmission-stage tables. *(C4/C5 promoted from Tier-2 to core 2026-06-28 by Will — keep all five live; an empty channel is a gap, not idle.)*
+Each is `event → mechanism → repricing`, with a live read maintained in STATUS.md. THESIS.md holds the full per-channel transmission-stage tables. *(C4/C5 promoted from Tier-2 to core 2026-06-28 by Will — keep all live; an empty channel is a gap, not idle. **C6 water scarcity promoted from Tier-2 to core 2026-08-03** — Will assigned US water scarcity + the Colorado River file to AEOLUS via WALTER 7/28; the promotion cleared the #1-guard "empty channel = failure" test because a standing live read now exists [Powell/Mead elevation vs Reclamation shortage tier + the Post-2026 Colorado River guidelines calendar, `CALENDAR.md`].)*
 
 | # | Channel | event → mechanism → repricing | Tradeable surface | Routes to |
 |---|---|---|---|---|
@@ -86,7 +87,10 @@ Each is `event → mechanism → repricing`, with a live read maintained in STAT
 | **C2** | Agriculture / food | drought·heat·flood → crop yield ↓ → grain & softs ↑ → food CPI + fertilizer demand | ag commodities, food producers, fertilizer | MARCO (CPI bridge) |
 | **C3** | Energy demand | heat dome → cooling/power demand ↑; polar vortex → heating demand ↑ (Uri-style nat-gas spike) | nat gas, power, utilities | WATT (power/grid, spun out of HENRY-prov 7/10), BRENT (nat-gas), HAWK (geopol) |
 | **C4** | Property / physical assets | chronic peril (SLR, wildfire, flood) → insurability loss + property values ↓ → mortgage/CRE/muni credit risk | regional banks, REITs, munis | CORAL (FL), REGINALD, CREED |
-| **C5** | Supply chain / logistics | drought (Panama), low rivers (Rhine/Mississippi), storms → chokepoint/freight disruption → goods inflation | shipping, freight, goods-CPI | MARCO, HENRY |
+| **C5** | Supply chain / logistics | drought (Panama), low rivers (Rhine/Mississippi), storms → chokepoint/freight disruption → goods inflation | shipping, freight, goods-CPI | CARL (goods/food-CPI — **repointed from MARCO 2026-07-31**, MARCO holds no CPI instrument), HENRY (macro) |
+| **C6** | Water scarcity / allocation | reservoir depletion + snowpack/aquifer decline → Reclamation shortage-tier / compact-guideline decision → mandatory delivery cuts + hydropower loss → ag / municipal / industrial-siting repricing | hydro utilities, SW munis, ag-water, data-center siting | WATT (hydro gen), CARL/MARCO (ag & SW municipal), VULCAN (data-center water), REGINALD/CREED (ag-lending/muni), CORAL (FL only) |
+
+> **C6 discriminator (WALTER v0.22, hold me to it):** a signal routes to C6 only with **a dated instrument or an allocation decision**, not the word "drought" — Reclamation shortage tiers, the Colorado River guidelines (expiring 2026), compacts, decrees, levels tied to a decision (Mead/Powell vs tier), industrial/municipal supply competition, hydro/thermoelectric generation limits. Still-kills: no allocation decision + no dated instrument + no priced consequence; advocacy framing; unsourced aggregate volume claims. Long-horizon structural depletion (Ogallala) = a watch-note with the horizon stated, not an auto-kill and not a score-mover until it reaches an acreage/cost/water-rights-pricing decision. **Standalone-agent promotion trigger:** sustained ~6 weeks OR the AI-water join producing its own dispatches → DAEDALUS maturity review, Will-gated.
 
 ---
 
@@ -127,8 +131,11 @@ Durable banded rules live here; the live read lives in STATUS with `[src M/D]` +
 | CDD/HDD vs 10-yr normal (region) | ±10% | ±20% | ±30% sustained | C3 → WATT (power) / BRENT (nat-gas) |
 | Property insurance non-renewal rate (peril region) | +10% YoY | +25% | +40% / carrier exit | C4 → CORAL/REGINALD/CREED |
 | Reinsurer cat-loss tally (Gallagher Re/Munich Re, YTD vs 10-yr avg) | ≥110% | ≥130% | ≥150% | C4 → REGINALD/CREED |
-| Panama Canal daily transits (vs ~36 normal) | ≤32 | ≤27 | ≤22 (draft-restricted) | C5 → MARCO |
-| Rhine/Mississippi level vs navigable minimum | within 20% | within 10% | below minimum | C5 → MARCO/HENRY |
+| Panama Canal daily transits (vs ~36 normal) | ≤32 | ≤27 | ≤22 (draft-restricted) | C5 → CARL/MARCO |
+| Rhine/Mississippi level vs navigable minimum | within 20% | within 10% | below minimum | C5 → CARL/HENRY |
+| **C6** Lake Mead/Powell elevation vs next Reclamation shortage tier | within 15 ft | within 5 ft | at/through tier / min power pool | C6 → WATT/CARL/MARCO |
+| **C6** Colorado River guideline milestone (Draft/Final EIS, ROD, expiry) | milestone within 60d | within 30d | ROD signed / 12-31-26 expiry | C6 → WATT/CARL/MARCO/VULCAN |
+| **C6** Western snowpack % of median @ Apr 1 (sets allocation) | <90% | <70% | <50% | C6 → CARL/MARCO |
 | ENSO ONI index | ±0.5 | ±1.0 | ±1.5 (strong) | all channels (shared antecedent) |
 
 *Conjunction triggers (LIQUID): fire on `A AND B` where a single metric would knee-jerk (e.g. strong La Niña AND <45% crop condition). Verify live values before any band call — no naked numbers.*
@@ -204,6 +211,7 @@ Outbox filename: `YYYY-MM-DD_to-[target]_[desc].md`. Format: Signal / Detail (2�
 | `workbook/VX.tsv` | Vectors — channel risk indicators + state. |
 | `workbook/FLOW.tsv` | Transmission pathways. |
 | `workbook/PREDICTIONS.tsv` | Falsifiable forecasts (AEO-NN) + resolution tracking. |
+| `CALENDAR.md` | Dated-catalyst calendar (C6 Colorado River ROD clock + seasonal forecast clocks). Read at boot; act on any date within ~30d. |
 | `inbox/` `outbox/` | Cross-agent messaging. `inbox/WALTER/` = WALTER-routed signal lane (drain per boot block). |
 | `OPEN_THREADS_2026-07-09.md` | Dated self-sweep artifact — open questions / gaps / threads-to-pull. Fold into STATUS/SCRATCH or archive once integrated. |
 | `sources/` | Research corpus, briefings, archived data. |

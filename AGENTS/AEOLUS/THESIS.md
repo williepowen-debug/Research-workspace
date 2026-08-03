@@ -76,15 +76,31 @@
 | 3 | Freight rates spike + delivery delays | **confirmed, but confounded** — Drewry WCI +40% YoY (22-mo high); partly tariff/World Cup demand, not pure climate [6/28] |
 | 4 | Goods-price pass-through → goods CPI | open → routed to MARCO 6/28; HENRY (macro velocity) |
 
-**Tradeable surface:** shipping/freight names, goods-CPI-sensitive trades. **Owner handoffs:** goods-CPI → MARCO; macro pass-through → HENRY.
+**Tradeable surface:** shipping/freight names, goods-CPI-sensitive trades. **Owner handoffs:** goods/food-CPI → **CARL** (repointed from MARCO 2026-07-31 — MARCO holds no CPI transmission instrument after 3 pre-registered nulls; the food leg transferred MARCO→CARL Jan-2026); macro pass-through → HENRY.
 **Bidirectional flip:** *bear-kill* = chokepoints at normal capacity (Panama ≥32 transits) AND freight index normalized for 3+ sessions; *bull-confirm* = sustained draft restrictions (≤22 transits) with a freight-rate spike.
+
+## C6 — WATER SCARCITY / ALLOCATION
+
+**Line:** reservoir depletion + snowpack/aquifer decline → Reclamation shortage-tier / compact-guideline **decision** → mandatory delivery cuts + hydropower generation loss → repricing of ag allocations, SW municipal supply, industrial (data-center) siting, and the ag-lending / muni credit that sits on them.
+*Promoted Tier-2 → core 2026-08-03 by Will (via WALTER 7/28). The channel that behaves like a policy meeting, not a weather condition — dated instruments, not the word "drought." Discriminator + kill rules in CLAUDE.md §THE CHANNELS.*
+
+| Stage | Mechanism | State (confirmed/open/falsified) |
+|---|---|---|
+| 1 | Reservoir/snowpack/aquifer decline vs the level that triggers an allocation decision | **confirmed** — Lake Powell 3,522 ft / 23% full (~2-3 ft above the Apr-2023 all-time low 3,519.92 ft; lowest-ever *summer* level, on track to break the record Aug/Sep); Lake Mead 1,041 ft / 27%, Tier-1 shortage; WY2026 inflow 36% of avg [USBR 7/31-8/2] |
+| 2 | Instrument/decision milestone (shortage-tier declaration, compact/guideline EIS→ROD) | **confirmed live** — Post-2026 Colorado River guidelines: **Final EIS published 7/31/2026**; ROD earliest ~8/30, target ~10/1; 2007 Interim Guidelines expire 12/31/2026 (`CALENDAR.md`) |
+| 3 | Mandatory delivery cuts + hydropower loss reprice ag/municipal/industrial water | open — preferred alternative allows Lower-Basin cuts up to 3.0 MAF, Arizona-weighted; Glen Canyon ~32 ft above min power pool |
+| 4 | Pass-through to ag prices / SW muni fiscal / data-center siting / ag-lending + muni credit | open → WATT (hydro), CARL/MARCO (ag & SW municipal), VULCAN (data-center water), REGINALD/CREED (credit) |
+
+**Tradeable surface:** hydro-exposed utilities, SW munis, ag-water names, data-center siting. **Owner handoffs:** hydro gen → WATT; ag/food + SW municipal → CARL/MARCO; data-center water (3rd AI-capex constraint after credit + power) → VULCAN; ag-lending/muni credit → REGINALD/CREED; **FL water stays CORAL** (not imported here).
+**Shared antecedent:** El Niño drives C6 (Western hydrology) alongside C2/C3/C5 — but the European-autumn/Rhine teleconnection is weak/contested; do NOT weld C5-Rhine to the same ENSO root as C6-Colorado. Count roots per basin.
+**Bidirectional flip:** *bear-kill* = reservoirs recover above tier thresholds AND a signed ROD resolves the guideline uncertainty benignly; *bull-confirm* = a Tier-2/3 shortage declaration OR the 12/31 expiry passing with no successor regime (governance vacuum).
 
 ---
 
 ## TIER-2 BACKDROP (structural, multi-year — slow thesis, tested by Tier-1 events)
 - **Insurance retreat** (validates C1 structurally): carriers exiting CA/FL/Gulf markets.
 - **Sea-level rise / chronic flood** (feeds C4): coastal property + muni credit.
-- **Chronic drought / water stress** (feeds C2, C5): Colorado River, aquifer depletion, river-freight levels.
+- **Aquifer depletion** (feeds C6, and C2): Ogallala/High Plains — decades-horizon, carried as a watch-note with the horizon stated; not a score-mover until it reaches an acreage/cost/water-rights-pricing decision. *(Chronic drought / water stress / Colorado River graduated to core C6 2026-08-03.)*
 - **Climate migration** (→ MARCO): population shifts repricing regional housing/labor.
 
 EXPECTED_SIGNALS discipline: if the structural thesis holds, these should appear in Tier-1 events over time — their *absence* is data against the backdrop.
@@ -92,4 +108,4 @@ EXPECTED_SIGNALS discipline: if the structural thesis holds, these should appear
 ---
 
 ## CHANNEL ROSTER NOTE
-All five channels (C1–C5) are **core** as of 2026-06-28 (C4/C5 promoted from Tier-2 by Will). There are no Tier-2 expansion channels currently queued. Any *new* channel beyond C5 must be added deliberately — by an explicit promotion decision, never by drift (PAT-018). Candidate future lines if ever needed: tourism/coastal-recreation weather, water-utility stress, labor-productivity heat effects.
+Six channels **core**: C1–C3 (2026-06-28), C4/C5 promoted from Tier-2 by Will 2026-06-28, **C6 water scarcity/allocation promoted from Tier-2 by Will 2026-08-03** (assigned via WALTER 7/28; cleared the #1-guard empty-channel test because a standing live read exists — Powell/Mead vs shortage tier + the Colorado River guideline calendar). Any *new* channel beyond C6 must be added deliberately — by an explicit promotion decision, never by drift (PAT-018). Candidate future lines if ever needed: tourism/coastal-recreation weather, labor-productivity heat effects. **C6 standalone-agent promotion trigger** (WALTER): sustained ~6 weeks OR the AI-water join producing its own dispatches → DAEDALUS maturity review, Will-gated.
