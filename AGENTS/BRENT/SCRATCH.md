@@ -7,8 +7,8 @@
 ## ⏳ FIRST THING NEXT SESSION
 
 **0. 🔴 GRADE THE MONDAY TAPE AGAINST THE PRE-REGISTRATION I FROZE BEFORE THE 6 PM SUNDAY OPEN — it is in today's STATUS banner, do not re-derive it after seeing the print.**
-   - The frozen discriminator: **7/27 analogue = −7.75%** (7/24 close ~$95.8 → 7/27 close $88.36, **reproduces on my own OHLC**), but that pause had a **CAPABILITY** floor with a **flag-officer** source. **This one is POTUS-channel only, Tehran-unconfirmed.**
-   - **Move materially SMALLER than −7.75% ⇒ the market discounts the POTUS channel as I do (corroborating). Materially LARGER ⇒ the premium unwinds without me.**
+   - The frozen discriminator: ~~*7/27 analogue = −7.75%, reproduces on my own OHLC*~~ **⛔ BASELINE CORRECTED 9:20 PM — the −7.75% I first wrote was BACK-SOLVED from an INTRADAY $95.8, not the 7/24 CLOSE of $96.78. True Brent analogue = **−8.70%**. And BRENT DOES NOT PRINT OVERNIGHT (BZ=F/BNO/USO/UCO all zero Sunday bars), so the like-for-like instrument is WTI: **7/27 analogue −7.50%**. LIVE: WTI gapped −5.50%, last −4.77% = **64% of the analogue ⇒ materially smaller ⇒ registered reading CORROBORATED, preliminary — the verdict is Monday's 2:30 PM ET settle.** The 7/27 pause had a **CAPABILITY** floor with a **flag-officer** source; this one is **POTUS-channel only, Tehran-unconfirmed** — that distinction is unaffected.
+   - **Move materially SMALLER than the analogue ⇒ the market discounts the POTUS channel as I do (corroborating). Materially LARGER ⇒ the premium unwinds without me.**
    - ⛔ **EITHER WAY: A LARGE BEARISH GAP IS NOT A STAGE-A TRIGGER.** Apr-17 2026 fell **−12% intraday** on an Iranian FM's *"completely open"* and then ran **+19.7%**. P(price moves) ≠ P(the trade fires).
 
 **1. ⏳ ARM CLOCK: 11 of 20 td used. 9 sessions left — 8/3, 4, 5, 6, 7, 10, 11, 12, 13. LAST DEPLOYABLE = THU 2026-08-13.**
