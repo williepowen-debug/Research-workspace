@@ -68,16 +68,26 @@ Search-summary tier failed **three times in one session, in three different dire
 - **NEXUS 7/31 CONTENT-STALE flag: CLEARED** by the brief re-pin (their packet said the re-pinned brief *is* the acknowledgment — no reply owed).
 - Other agent sessions ARE live on box — committed pathspec-only; **did not pull** on protocol.
 
-## ⚠️ PUSH DEFERRED — ACTION FOR NEXT SESSION (or whoever closes out next)
+## ✅ PUSH RESOLVED — the train swept it (was: DEFERRED)
 
-**Four CORAL commits are local-only and NOT on origin:**
-- `c1a1c7497` — the catch-up work (STATUS / FL_BANK_WATCHLIST / CALENDAR / KB ×4 / board_log / mail moves)
-- `859a2331a` — closeout (NEXUS_BRIEF re-pin / SCRATCH / MEMORY / HOMER packet)
-- `76fe5d2ba` — this deferred-push note
-- `95e28d9df` — **inbox drain** (COVERAGE / VX_Vectors / CALENDAR / KB ×4 + reply packets to **MARCO, CREED, DEWEY**, incl. the copies in their inboxes)
+**All four CORAL commits are ON ORIGIN, and all four outbound packets are delivered.** Verified by subject + object existence 8/3 ~11:35 ET.
 
-⚠️ **FOUR outbound packets are committed but unpushed — HOMER, MARCO, CREED and DEWEY cannot see any of them until this lands.** Three of the four answer questions those agents explicitly asked.
+⚠️ **They landed under REWRITTEN HASHES** — another agent hit the same non-ff, ran `git pull --rebase`, which rebased every local commit (mine included) onto origin's tip and pushed. **The hashes I recorded earlier are orphaned; do not cite them:**
 
-**`scripts/safe-push.sh` ABORTED non-ff** (correctly, fails safe): origin carries `e8c178dcd` (BRENT, 8/3 Monday data pull) which we don't have locally. **I did NOT `git pull --rebase`**, because the working tree holds uncommitted work from **BRENT (live session — board_log, WALTER processed ×5, inbox processed ×3, a message receipt), SAM (FXY_OPTIONS/JGB_YIELDS), WALTER (an OTTO inbox signal), and `memory/auto/`** — the "Before pulling" rule says stop when other agents have uncommitted changes, and BRENT is visibly mid-session.
+| My original (orphaned) | Landed on origin as | What |
+|---|---|---|
+| `c1a1c7497` | **`1f09403e0`** | 9-day catch-up (SBCF grade, Q2 window closed) |
+| `859a2331a` | **`7f292a8c7`** | closeout + HOMER packet + NEXUS_BRIEF re-pin |
+| `95e28d9df` | **`4761ef507`** | inbox drain (9 packets) |
+| `d25cfd43c` | **`9ea9081ac`** | (the now-superseded deferral note) |
 
-**This is routine, not an incident** — serial multi-machine, same box, concurrent agents. **Resolution:** once the tree is clean outside CORAL, `git pull --rebase` then re-push; or simply let the next agent's closeout push sweep both commits (the push-train). **Never force.** ⚠️ **`AGENTS/HOMER/inbox/2026-08-03_from-CORAL_...` is committed but unpushed — HOMER will not see the packet until this lands.**
+**Packets confirmed present on origin:** HOMER ✅ · MARCO ✅ · CREED ✅ · DEWEY ✅.
+
+**What this session actually demonstrated about the push protocol (Will-directed investigation):**
+- **Non-ff has NOTHING to do with file overlap.** Git's ff-gate is on the **commit graph**, not on paths. Verified live: my unpushed work and the incoming BRENT/VULCAN commits had **zero path overlap**, and it still aborted three times. Separate directories/trees prevent *merge conflicts*; they cannot prevent *non-fast-forward rejections*. Any two agents pushing to one branch serialize, however disjoint their files.
+- **The repo is ONE clone, ONE worktree** (`git worktree list` → single entry). Agents own *directories*, not trees — which is why `git status` shows other agents' uncommitted files in my tree.
+- ⚠️ **The blocking commits are NOT from "the other machine."** They carry committer `Claude <noreply@anthropic.com>` on **UTC**, while this clone commits as `williepowen-debug` on **EDT** (18 of the last 200 commits vs 179). RED's 7/31 note says it plainly: *"concurrent VULCAN session pushing, **same box** — routine, not two-machines."*
+- **⚠️ THE TRAP I FELL INTO:** root `CLAUDE.md` and `PROME/GIT_COORDINATION.md` both frame non-ff as *"the other machine pushed"* and set the escalation tripwire at *"non-ff recurring mid-session = two machines running simultaneously, which the protocol forbids."* I hit non-ff three times, read that as the forbidden signature, and escalated + deferred. **It was routine concurrent-session traffic.** The docs' framing is stale and mis-triggers. → flagged to PROME.
+- **Fleet-standard resolution I should have used (RED, 7/31):** verify path disjointness → **`git pull --rebase --autostash`** → re-push → verify 0/0 parity. `--autostash` is the point: it stashes the dirty shared tree (including other agents' uncommitted work), rebases, and restores — RED confirmed byte-identical restoration. That directly addresses the hazard the "never pull a shared tree" rule exists to prevent.
+- **Deferring was still defensible** (VIOLET/ORACLE use it deliberately: *"Push DEFERRED — commits ride PROME's train"*) — and it worked here. But it leaves packets undelivered for an unbounded window, which for three reply packets answering direct questions is a real cost.
+- **RED's companion lesson, adopted:** *check for the literal `Pushed.` line and verify parity — a log-tail is not a push receipt.*
