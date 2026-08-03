@@ -485,7 +485,20 @@ def price_fetch(tickers, delta_threshold=0.0):
             tk = yf.Ticker(t)
             info = tk.fast_info
             curr = float(info["lastPrice"])
-            prev = float(info.get("regularMarketPreviousClose") or info.get("previousClose") or 0)
+            # FX (=X) daily bars are DATE-SHIFTED (yahoo sparse-FX index shift),
+            # so regularMarketPreviousClose — which is always the second-to-last
+            # daily bar — points at a bar whose close is NOT the prior session's
+            # close. Chart-metadata previousClose is correct for FX. Everything
+            # else (equities, futures, indices) keeps regularMarketPreviousClose,
+            # which is verified correct there; do NOT swap this globally.
+            # Verified 2026-08-02: JPY=X regMktPrev 160.183 vs true Fri close
+            # 157.395 (investing.com / WALTER SIG-004); previousClose 157.40
+            # matches. Bad basis rendered -2.40% against a true -0.68% — silent,
+            # and adjacent to a Will-gated entry trigger (GATE-SAM-30 override).
+            if t.endswith("=X"):
+                prev = float(info.get("previousClose") or info.get("regularMarketPreviousClose") or 0)
+            else:
+                prev = float(info.get("regularMarketPreviousClose") or info.get("previousClose") or 0)
             if prev != prev:  # NaN previous-close is truthy — must render N/A, not +nan%
                 prev = 0
             chg = ((curr - prev) / prev * 100) if prev else None
