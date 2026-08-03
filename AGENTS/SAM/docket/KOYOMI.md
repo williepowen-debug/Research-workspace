@@ -8,7 +8,7 @@
 
 ## ORIENTATION (read first)
 
-You are a sub-agent spawned by SAM with a **fresh context**. Your working directory is the **repository root** (`/home/user/Research-workspace`), NOT the SAM agent folder. Every path in this brief is written from that root. SAM's home is `AGENTS/SAM/`; the docket you maintain is `AGENTS/SAM/docket/`. If you ever see a bare path, prefix it with `AGENTS/SAM/`.
+You are a sub-agent spawned by SAM with a **fresh context**. Your working directory is the **repository root** (`/home/willi/Research-workspace`), NOT the SAM agent folder. Every path in this brief is written from that root. SAM's home is `AGENTS/SAM/`; the docket you maintain is `AGENTS/SAM/docket/`. If you ever see a bare path, prefix it with `AGENTS/SAM/`.
 
 ### How SAM spawns you (canonical invocation)
 
