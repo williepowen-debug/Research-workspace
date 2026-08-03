@@ -1,7 +1,63 @@
 # ZHAO STATUS
 
-**Updated:** 2026-07-16 ~16:00 ET (May TIC GRADED — China REBOUNDED to $659.3B, did not break $650B; ZHA-04 NOT FIRED, ZHA-11 SURVIVES. Full grade below §📌 JUL 16.)
-**Overall Status:** 🟠 ELEVATED, downgraded from earlier today — China TIC did NOT break $650B in May (**$659.3B, UP +$8.2B MoM**, reverses the Feb-Apr decline — genuine-exit "accelerating" framing softens to "paused/partially reversed"); **BoK HIKED +25bp to 2.75%** (first since Jan-2023) — won strengthened to ~1,478-1,485 (2mo low), OFF the >1,500 threshold; **China Q2 GDP 4.3% YoY miss** is a property story not a broad slowdown (decomposition: June IP accelerated +5.3%). Convergence Matrix re-scored to ~25/55 on today's refresh pass (Korea + LGFV vectors both eased on fresher data).
+**Updated:** 2026-08-03 ~10:15 ET (18-day catch-up sweep — first boot since 7/16. **July PMI broke: 49.2 mfg / 49.3 composite / 47.0 construction.** ZHA-14 graded NO-FIRE, ZHA-15 confidence cut but window still open, ZHA-12 upgraded. Full session below §📌 AUG 3.)
+**Overall Status:** 🟠 ELEVATED — **the domestic-demand leg deteriorated sharply while every external/financial vector eased further.** China's July PMIs broke down across the board (mfg 49.2 first contraction since Feb; new orders 48.5, lowest since 2023; **construction 47.0 = record low**; services weakest since the initial Covid lockdowns; **composite 49.3, lowest since 2022**) — this materially challenges ZHAO's own 7/16 "property story, not a broad slowdown" frame, with a live typhoon-distortion counter-caveat that August's print arbitrates. Against that: PBOC **held LPRs a 14th month** (restraint, not incapacity — it had FX room to cut), the Politburo **produced tone but no RMB figure**, the yuan is **stronger at 6.74**, Korea's won **eased through to 1,426.87** (strongest since Feb), and the **HK peg is live-verified clean** (AB HK$54,108M). No new TIC data — June TIC ~Aug 17-18 is the next hard flow test. Convergence Matrix **~26/60** (denominator up from 55 — new domestic-demand vector 5b added; the +1 net understates a **rotation**: financial vectors eased, domestic-activity vectors deteriorated).
+
+---
+
+## 📌 AUG 3 — 18-DAY CATCH-UP SWEEP (first boot since 7/16; two predictions passed their resolution dates un-graded)
+
+### 1. 🔴 THE HEADLINE — July PMIs broke broadly, and it cuts against my own 7/16 framing (KB-ZHAO-104)
+
+| Gauge | July | June | Read |
+|---|---|---|---|
+| Mfg PMI (NBS) | **49.2** | 50.3 | First contraction since Feb; missed 50.0 consensus |
+| — new orders | **48.5** | 51.2 | **Lowest since 2023** |
+| — production | 49.9 | 51.4 | First output decline in 5 months |
+| — foreign orders | contraction | expansion | Back below 50 |
+| **Construction PMI** | **47.0** | — | **RECORD LOW** |
+| Services PMI | weakest since initial Covid lockdowns | — | Broadening beyond property |
+| **Composite PMI** | **49.3** | — | **Lowest since the pandemic ended in 2022** |
+
+Output prices fell at the steepest rate in 9 months (deflationary). [NBS 7/31 via CNBC / Washington Post / SCMP / Business Standard]
+
+> ⚠️ **I am marking this against my own prior call, not around it.** On 7/16 I wrote that the Q2 GDP miss "is a property story, not a broad growth-collapse story," resting on June IP accelerating to +5.3%. **The industrial leg that carried that decomposition has now rolled over, and services + composite weakness is not confined to property.** The frame is downgraded.
+>
+> ⚠️ **COUNTER-CAVEAT, not to be dropped:** the NBS spokesperson attributed part of July's weakness to **a spate of typhoons halting project work** — a genuine transitory factor, and one that would hit construction hardest, which is exactly the record-low print. **This session does NOT resolve between (a) a broadening slowdown and (b) a weather-distorted single print over a property-centric slowdown.** The discriminator is registered: **August PMI, due ~2026-08-31** — rebound >50 favours (b), a second sub-50 print favours (a).
+
+**MIDAS seam reconciled toward MIDAS.** The registered copper↔China two-way seam had ZHAO reading "industrial leg accelerating" against MIDAS reading copper strength as structural/AI-grid demand rather than China cyclical strength. The July PMI is **consistent with MIDAS's read** (China weak, copper firm for non-China reasons) and **inconsistent with mine**. One story, and it is MIDAS's.
+
+### 2. ZHA-14 — GRADED NO-FIRE, 14 days late (KB-ZHAO-105)
+
+PBOC **held both LPRs at the 7/20 fixing** — 1yr 3.00% / 5yr 3.50%, **14th consecutive month** unchanged. Predicted a cut at 30% → **FALSE, well-calibrated miss** (the 70% branch happened; the 7/16 downgrade 35%→30% was directionally right). Reported rationale: reluctance to squeeze bank net-interest margins or pressure the yuan. **Read: restraint, not incapacity** — the 7d repo is already at a record-low 1.4% and USD/CNY is 6.74, so the PBOC had FX room to cut and declined. Policy response is routed to fiscal, not monetary.
+
+*Date-fork closed:* the fixing was **Mon 7/20 Beijing (~9:15 PM ET Sun 7/19)**, not 7/21. PROME flagged this on 7/17 and again on 7/23; the fix was never applied. Corrected this session on STATUS.md, NEXUS_BRIEF.md and PREDICTIONS.tsv row ZHA-14.
+
+### 3. ZHA-15 — confidence cut 55%→18%, but **NOT graded: my own window has not expired** (KB-ZHAO-106)
+
+Politburo economic-work meeting **held 7/30**. Readout supplies the LANGUAGE leg — leadership "pledged to roll out targeted stimulus measures and step up counter-cyclical policy adjustments," will "plan to roll out pragmatic and effective new policies in a timely manner," with the "six networks" and "AI+" initiative named as the levers — and supplies **no concrete RMB figure**. Bloomberg: officials "struck a more supportive tone but **stopped short of announcing fresh stimulus**."
+
+My registered STIMULUS threshold requires language **AND an attached RMB figure within 2 weeks of the readout**. That clock runs **7/30 → 8/13**; 10 days remain. Grading it MISS today would be grading before my own pre-registered terms expire, so it **stays OPEN** with confidence cut hard (the Politburo was the highest-probability venue for a figure and produced none). **Next-boot action: grade on or after 2026-08-13.**
+
+**NEW CATALYST from the same readout: the Fifth Plenum of the 20th CPC Central Committee is set for OCTOBER 2026** — the 15th Five-Year-Plan venue, a materially bigger policy stage than this meeting, and now the realistic home for any large fiscal number. That is a live reason a figure may be *saved* rather than *withheld*.
+
+### 4. ZHA-12 — branch (i) satisfied on both legs, 55%→80% (KB-ZHAO-107)
+
+USD/KRW **1,426.87 live** [boot.py 8/3 ~09:45 ET]; ~1,442-43 in late July = **strongest since late February**, ~**+6.96%** won strengthening over the month. BoK leg also met — it "reiterated that maintaining a tightening stance remains necessary amid persistent inflation pressures." Stays OPEN per the registered timeframe (through the Aug FX print), not graded early.
+
+⚠️ **Attribution caveat:** part of the won's strength is **SK hynix converting US-listing proceeds into won** — a one-off corporate flow, not the rate lever — and it happened **despite continued foreign selling of Korean equities** (VX-ZHAO-2.06 has not reversed). Branch (i) is level-based so it is satisfied regardless, but crediting the full ~7% move to the BoK over-reads the rate defense.
+
+⚠️ **Spec defect found and fixed.** The standing tripwire *"Korea KRW back <1,450 sustained → contagion node cooling"* is now in the money and **never defined "sustained."** Resolver registered this session: **<1,450 on every daily close for 10 consecutive business days** → earliest fire ~mid-August.
+
+### 5. Verified-and-rejected — two decoys caught, neither propagated (KB-ZHAO-110)
+
+- **"Trade truce expires August 12"** — surfaced in search and would have been a live 9-day catalyst. It is a **2025-vintage artifact** (Aug 12 **2025** was the prior deadline, extended that day to Nov 10); the carrying sources were 2025-dated. **ZHAO's registered 2026-11-10 expiry stands unchanged**, re-confirmed: the 24% reciprocal-duty suspension runs to 10 Nov 2026, and Bessent (May 2026) said the US is "not in a rush" to extend the truce that "ends in November."
+- **"China July exports −14.5% YoY to $281.8B"** — impossible on 8/3; China's July trade data does not release until ~**2026-08-07**.
+
+**NEW CATALYST:** **Xi expected in Washington to meet Trump at the White House in SEPTEMBER 2026**, with a Bessent–He Lifeng preparatory meeting ahead of it.
+
+### 6. Staleness closed this session
+HK Aggregate Balance (18d 🔴 → live), USD/CNY, USD/KRW, China FX reserves + gold, PBOC rate. **Still stale:** Guizhou/Zhengzhou bank-specific NPL (🧊 FROZEN, no primary), Korea official-vs-all-residents UST scope (VX-ZHAO-2.07), CNH-CNY spread, and the **SOFR leg** of HIBOR-SOFR (NY Fed *and* FRED both returned HTTP 403 — see dashboard note).
 
 ---
 
@@ -35,47 +91,9 @@ PROME round-4 asked ZHAO to close the gold-math destination question properly. A
 
 ---
 
-## 📌 JUL 9 — 30Y INDIRECT-BID CHINA-LEG PRE-REGISTRATION (ahead of TIC 7/16 arbiter)
+## 📌 JUL 4 + JUL 9 SECTIONS — ARCHIVED 2026-08-03
 
-**The ask (PROME 7/9 addendum to the 7/5 joint packet):** US 30Y reopen 7/9 — indirect bidders took **77.74%** of competitive accepted (vs 60.0% June, +17.8pp; dealers 10.05%; BTC 2.44; 5.058% high yield) [TreasuryDirect API, PROME/BOND-verified]. Does ZHAO's genuine-UST-exit thread (China $651.1B, 18yr low; Belgium flat = not custody migration) square with a **surging** foreign bid at the long end? Two candidate stories in the fleet framing: (a) safe-haven-transient flight, (b) Japan-institutional duration-extension (durable, spills from the Meiji-floor JGB bid).
-
-**ZHAO's China-leg verdict: the genuine-exit thread does NOT contradict the 30Y surge — because China is very unlikely to BE the surge.** Three converging reasons:
-1. **Policy posture is the opposite of duration-extension.** SAFE has explicitly directed banks to curb UST *concentration risk* (KB-ZHAO-089); PBOC's visible diversification vehicle is **gold**, not incremental UST duration — 19-month buying streak, ~2,332t (KB-ZHAO-087). A regime actively de-risking UST concentration does not plausibly rotate into MORE duration at the long end in the same window.
-2. **Reserves are growing while UST holdings shrink** — FX reserves hit $3.442T May 2026 (highest since Oct 2015) even as China's TIC print fell to an 18yr low (KB-ZHAO-089, secondary-sourced — flag for SAFE-primary verification). This is a reallocation signature (UST → gold/other FX), not a reserves crunch forcing distressed buying anywhere on the curve.
-3. **Epistemic ceiling — this cannot be fully proven either way.** China's genuine-exit read is a *holdings/stock* signal on a ~2.5-month TIC lag (latest = April); the 30Y surge is a *single-auction flow* signal from 7/9. Different instruments, different frequencies — a stock decline and a flow surge are not logically exclusive. Worse: **even May TIC (7/16) cannot close this loop** — the Treasury TIC country table has no maturity/tenor breakdown, so it can only test the *aggregate* holdings direction, never confirm or deny China's participation in a *specific* 30Y auction.
-
-**Verdict:** 🟢 China genuine-exit thesis intact and **not threatened** by the 30Y surge. The 77.74% is most likely (b)-leaning — Japan-duration-extension and/or general safe-haven flow — not PBOC reserve reallocation. **Confidence: MEDIUM** (B3/ESTIMATE — directionally well-supported by policy posture + reserve-composition logic, but the instrument mismatch means this is inference, not a direct read).
-
-**Falsifiable discriminator registered as ZHA-11** (workbook/PREDICTIONS.tsv): falsified only if May TIC shows China holdings materially **UP** (not just flat) *and* SAFE/PBOC public commentary signals a reversal of the concentration-curbing stance. Treat any resolution as suggestive, not conclusive — the instrument-mismatch ceiling in point 3 applies regardless of outcome.
-
-**Proposed handoff line to SAM (LIST only, not sent):** *"ZHAO's China leg clears the field for (b) — genuine-exit posture argues against China as the 30Y buyer, so if your Japan duration-extension case holds up, it doesn't have to compete with a China explanation. Route: ZHAO → SAM, cc PROME for the joint synthesis, priority 🟠, no urgency ahead of the 7/16 TIC arbiter."*
-
----
-
-## 📌 JUL 4 BOOT — WHAT CHANGED SINCE APR 17
-
-The April STATUS was built around a late-Feb/March Gulf shooting war (Hormuz closed, Ras Laffan/Aramco struck, Brent $108–116, "four-anchor emergency"). **Most of that has reversed.** Net re-frame:
-
-| Vector | April state | July 4 state | Direction |
-|--------|-------------|--------------|-----------|
-| **Gulf/Hormuz/oil** | Brent $108–116, Hormuz shut, LNG shock 🔴🔴 | Brent **~$72**, Hormuz recovered (Saudi 90% pre-war, UAE 3.9M bpd, >10M bpd through strait), US-Iran talks progressing | ✅ DE-ESCALATED |
-| **Trade war** | Escalation watch, "summit?" 🟠 | **May 2026 Trump-Xi truce**: tariffs 41%→31%, fentanyl 20%→10%, reciprocal-tariff suspension → Nov 10 2026, rare-earth controls postponed 1yr | ✅ DE-ESCALATED |
-| **HK peg / HIBOR** | Spread -202/-231bps, quarter-end stress 🟠 | 1-mo HIBOR **2.94%** (up, tracking Fed), spread to SOFR **~-136bps** (well inside -200 trigger), AB HK$54.0B stable | ✅ NORMALIZED |
-| **USD/CNY** | 6.90, eyeing 7.30 break | **~6.80** (below 7.00); PBOC guiding *gradual* depreciation from a stronger level; policy rate 1.4% unchanged | ✅ Yuan STRONGER (7.30 thesis weak) |
-| **China TIC** | $694.4B (Jan), $44B buffer | **$651.1B (Apr)** — Feb $693B→Mar $652B (−$41B)→Apr $651B; pinned ~$1B above $650B line 2mo, **18yr low**, SAFE-reported Treasury-line reduction, not custody migration (Belgium flat) — see 7/16 reframe below re: aggregate USD-exposure interpretation | 🔴 ESCALATED |
-| **Korea** | KRW >1,500, KOSPI worst-ever crash 🔴 | KRW **~1,530–1,550** (near 2009 lows), record foreign equity outflows (₩7.7T single session, 7–8 day streak), inflation 3.2% Jun → BoK may HIKE Jul 16 | 🔴 HOLDS |
-| **Property/LGFV** | Vanke rescue, "lost decade" 🟠 | Slow burn: Vanke ¥9.4B maturing next 6mo, whitelist loans extended to 5yr, LGFV ~60T RMB | 🟠 UNCHANGED |
-
-**Bottom line:** The systemic-emergency framing is retired. What's left is **two clean, live leads** — (1) China's UST exit has *accelerated* to the $650B threshold even as everything else calmed, and (2) Korea remains the acute Asia-contagion node. These are the two things to watch.
-
-> ⚠️ **7/9 UPDATE — the Gulf/Hormuz row above is STALE.** US–Iran truce collapsed 7/7→7/8 (US struck 80+ targets; Iran hit 3 neutral tankers in Hormuz + fired on Gulf bases); Brent spiked to $76.01 settle 7/9 (+6.28% on 7/8). BRENT/HAWK adjudicated this an ENERGY TAIL RE-ARM, capital-gated on Fri 7/10's sustain verdict. This is HAWK/BRENT's domain, not ZHAO's — flagged here only so this table isn't read as current. China/Korea leg (rows below it) is unaffected in direction.
-
-### Verification status (Jul 4 live pull):
-- **April TIC RESOLVED:** China **$651.1B** (18yr low — did NOT rebound despite record inflow month); Belgium **$454.0B** (flat vs Feb $454.7B). Belgium flat while China falls −$42B (Feb→Apr) = **genuine China exit, not Euroclear custody migration.** Latest is April; **May TIC ~Jul 16–18.**
-- **Saudi:** ~$148.8B (elevated — oil revenue recovered; sold $10.8B Mar but well above $120B). Forced-selling thesis dead → ZHA-09 likely missed.
-- Still stale: SOFR ~4.30% assumed (HIBOR-SOFR EST); Guizhou NPL 11.6% (needs refresh); property = slow burn, no fresh acute default (Vanke ¥9.4B maturing 6mo).
-
----
+Both narrative sections (JUL 9 30Y indirect-bid China-leg pre-registration; JUL 4 boot 'what changed since Apr 17') moved to `archive/STATUS_sections_jul04-jul09_archived_20260803.md` to hold the ≤250-line cap. Both were superseded — the JUL 4 table already carried two stale-row warnings, and the JUL 9 pre-registration was arbitrated by the 7/16 May TIC grade. **ZHA-11 remains OPEN and live** in the PREDICTIONS table below and in `workbook/PREDICTIONS.tsv`; only the narrative moved.
 
 ## SIGNAL DASHBOARD
 
@@ -91,23 +109,26 @@ The April STATUS was built around a late-Feb/March Gulf shooting war (Hormuz clo
 ### Currency / HK Peg
 | Metric | Value | Threshold | Status | Source |
 |--------|-------|-----------|--------|--------|
-| USD/CNY | **6.76** | >7.30 = 🟠 | 🟢 | [CONF] ZHAO boot.py live pull, 7/16 ~12PM ET (yfinance) |
-| HK Aggregate Balance | **HK$54,056M** | <$45B = 🟡 | 🟢 | [CONF] HKMA live, 18:30 16-Jul-26 (retry succeeded — direct daily-stats fetch worked). Flat vs May 28 ($53,997M). No peg defense. |
-| 1-mo HIBOR | **2.94%** | — | 🟢 | [CONF] HKAB late Jun |
-| HIBOR-SOFR Spread | **~-136bps** | >-200bps = 🟠 | 🟢 EASED | [EST] 2.94% − ~4.30% SOFR |
-| USD/KRW | **~1,478-1,485** (2mo low, post-BoK-hike) | >1,500 = BoK selling | 🟢 BELOW LINE | [CONF] ZHAO boot.py live 1,478.51 + FXStreet/TradingPedia 7/16 — was ~1,540 7/4-7/5, won strengthened ~3.5-4% (KB-ZHAO-094) |
+| USD/CNY | **6.74** | >7.30 = 🟠 | 🟢 | [CONF] ZHAO boot.py live pull, 8/3 ~09:45 ET (yfinance) — stronger still vs 6.76 on 7/16 |
+| HK Aggregate Balance | **HK$54,108M** | <$45B = 🟡 | 🟢 | [CONF] HKMA public API, daily interbank-liquidity series, **live 8/3**. Flat vs 7/31 (54,108) and 7/16 (54,056). No peg defense. Closes the 18d 🔴 STALE flag. (KB-ZHAO-108) |
+| 1-mo HIBOR | **2.65589%** | — | 🟢 | [CONF] HKMA API 8/3 — fell from the 2.94% late-Jun print on file |
+| HIBOR-SOFR Spread | **~-164bps** (widened ~28bps) | >-200bps = 🟠 | 🟢 still inside | ⚠️ **HIBOR leg [CONF] HKMA 8/3; SOFR leg [EST] ~4.30%, NOT re-verified — NY Fed *and* FRED both HTTP 403 this session.** Direction is certain (HIBOR-driven, primary-sourced); the level is not. Re-source SOFR before citing -164 as load-bearing. |
+| USD/KRW | **1,426.87** (strongest since late Feb) | >1,500 = BoK selling | 🟢 EASED THROUGH | [CONF] ZHAO boot.py live 8/3 + TradingEconomics/Wise late Jul (~1,442-43). ~+6.96% won strengthening over the month. ⚠️ Partly SK hynix listing-proceeds conversion, not purely the rate lever; foreign equity selling has NOT reversed (KB-ZHAO-107) |
 
 ### Domestic Stress
 | Metric | Value | Threshold | Status |
 |--------|-------|-----------|--------|
-| China Mfg PMI (Jun) | **50.3** (expansion 3mo) | <50 = contraction | 🟢 [CONF] AI/tech-export driven |
+| **China Mfg PMI (Jul)** | **49.2** (Jun 50.3; missed 50.0 cons.) | <50 = contraction | 🔴 **CONTRACTION** [CONF] NBS 7/31 — first sub-50 since Feb. New orders **48.5, lowest since 2023**; production 49.9 (first output decline in 5mo); foreign orders back in contraction (KB-ZHAO-104) |
+| **China Construction PMI (Jul)** | **47.0** | — | 🔴 **RECORD LOW** [CONF] NBS 7/31 — typhoon distortion bites hardest exactly here |
+| **China Composite PMI (Jul)** | **49.3** | <50 = contraction | 🔴 **lowest since 2022** [CONF] NBS 7/31 — services gauge weakest since the initial Covid lockdowns; weakness no longer confined to property |
+| China FX reserves / gold | **$3.4163T** end-Jun (-$26B MoM); gold **75.44Moz (~2,346t)**, 20th straight month | — | 🟢 [CONF] SAFE 7/7 — decline is USD-valuation, not a crunch. Gold only **8.8% of reserves** vs ~27% global CB avg → re-confirms gold is too small to be the Treasury-line destination (KB-ZHAO-109) |
 | China Q2 GDP | **+4.3% YoY** (miss vs 4.5% consensus, down from Q1's 5.0%) | <4.5% = miss | 🟠 [CONF] NBS 7/15 via FXStreet (KB-ZHAO-095) — first deceleration print of 2026 |
 | Land sales rev (H1) | **-6.5% to -27% YoY** | <-20% = RED | 🟠 [CONF] fiscal drag persists |
 | LGFV Total Debt | ~60T RMB (fresh IMF range 44-58T, definitional variance) | >65T = RED | 🟠 [CONF] cross-checked 7/16, not clearly superseded |
 | Debt swap program (2024-26 quota) | **94% utilized** (~1.62T RMB raised H1'26) | — | 🟢 [CONF] Caixin/NPC Observer 7/16 — hidden debt down 65% (14.3T→~5T RMB) since end-2023, program working better than stale data implied |
 | Regional Bank NPL (Guizhou/Zhengzhou) | 11.6% / 9.55% 🧊 FROZEN | >12% = RED | 🟠 FROZEN 7/16 — attempted refresh, no bank-specific 2026 primary found (only province-level, different metric) |
 | Small banks consolidated (2026 H1) | **130+** by Jun 4, accelerating | ZHA-06 >250 full-yr | 🟠 [CONF] NFRA via Yicai 7/16 — run-rate implies ~310+ full-year |
-| PBOC 7d repo / LPR | **1.4%** / 3.0%–3.5% | <1.0% = RED | 🟠 [CONF] LPR held 13mo |
+| PBOC 7d repo / LPR | **1.4%** / **3.00%–3.50%, HELD 14th mo** | <1.0% = RED | 🟠 [CONF] PBOC fixing **7/20** — restraint not incapacity: FX room existed (CNY 6.74), PBOC declined; cited bank NIM + yuan stability. Resolves ZHA-14 NO-FIRE (KB-ZHAO-105) |
 | PBOC gold streak | **20 months** (+14.93t Jun, largest single-mo since 2023) | — | 🟢 [CONF] reserve diversification continues — NOT the primary UST-reallocation channel (too small by size, KB-ZHAO-099/102) |
 | Korea CPI (Jun) | **3.2%** | — | 🟠 BoK HIKED +25bp to 2.75% 7/16 in response (KB-ZHAO-093) |
 | China real property (BIS index) | **~86** vs 2021 peak ~113 | below 2006 level | 🟠 [CONF] WALTER SIG-W-20260706-017, orig. Hedgeye 7/5 — 20yr gains erased |
@@ -122,7 +143,9 @@ The April STATUS was built around a late-Feb/March Gulf shooting war (Hormuz clo
 | H1 infrastructure / manufacturing investment | -2.4% / -1.2% YoY | ↓ mild |
 | H1 high-tech investment | **+4.6% YoY** (aircraft/spacecraft +23.3%, info services +15.5%) | ↑ |
 
-> **Nuance UPDATED 7/16:** the GDP miss is a **property/investment story, not a broad growth-collapse story** — retail sales and industrial production both *improved* within the quarter (industrial production hit its best print in months), while property investment fell 18%. This resolves most of the earlier copper-vs-GDP tension: MIDAS's copper strength (+10.5% vs 200dma, cited 7/12) tracks the *industrial* leg, which is accelerating — not the *property* leg, which is what actually missed. Compatible, not contradictory (KB-ZHAO-095/097; note to MIDAS in outbox). **Demand-side oil read routed to BRENT** (outbox/2026-07-16_to-BRENT_china-oil-demand-read.md, via PROME) — China's June crude imports collapsed -41.3% YoY (lowest since Oct 2016) but the causal story is multi-factor (Hormuz-war supply disruption + structural EV adoption + inventory drawdown, not primarily the GDP-linked cyclical leg) — don't over-read the import collapse as demand destruction from a weakening China.
+> ⚠️ **SUPERSEDED 8/3 — read the AUG 3 section first.** The 7/16 nuance below rested on June IP accelerating to +5.3%. **July's PMIs rolled that leg over** (mfg 49.2, new orders 48.5 lowest since 2023, services weakest since the initial Covid lockdowns, composite 49.3 lowest since 2022). The "property story, not a broad slowdown" frame is **downgraded, pending the ~8/31 August PMI** which arbitrates it against the NBS typhoon caveat. The Q2 decomposition table above remains accurate *as Q2 history*; it is no longer the current read.
+>
+> **Nuance (7/16, now superseded — retained for the audit trail):** the GDP miss is a **property/investment story, not a broad growth-collapse story** — retail sales and industrial production both *improved* within the quarter (industrial production hit its best print in months), while property investment fell 18%. This resolves most of the earlier copper-vs-GDP tension: MIDAS's copper strength (+10.5% vs 200dma, cited 7/12) tracks the *industrial* leg, which is accelerating — not the *property* leg, which is what actually missed. Compatible, not contradictory (KB-ZHAO-095/097; note to MIDAS in outbox). **Demand-side oil read routed to BRENT** (outbox/2026-07-16_to-BRENT_china-oil-demand-read.md, via PROME) — China's June crude imports collapsed -41.3% YoY (lowest since Oct 2016) but the causal story is multi-factor (Hormuz-war supply disruption + structural EV adoption + inventory drawdown, not primarily the GDP-linked cyclical leg) — don't over-read the import collapse as demand destruction from a weakening China.
 
 ---
 
@@ -131,18 +154,21 @@ The April STATUS was built around a late-Feb/March Gulf shooting war (Hormuz clo
 | # | Vector | Score | Current State | Data As-Of |
 |---|--------|-------|---------------|------------|
 | 1 | Four-Anchor UST Selling | 🟠 4 | China TIC -$41B MoM to $652B; Korea active. Gulf leg collapsed (oil recovered); Japan oscillator. | China TIC **Apr'26**; Korea **live 7/16** |
-| 2 | Korea Crisis | 🟠 3 ↓ | **UPDATED 7/16:** KRW ~1,478-1,485 (2mo low, post-BoK-hike +25bp to 2.75%) — BELOW the 1,500 active-defense line, down from the ~1,540 this row cited pre-refresh. Record foreign KOSPI outflows still the standing context; hike-defense working so far (ZHA-12). Downgraded 🔴→🟠 on the won's improvement, not a full stand-down. | **live 7/16** |
+| 2 | Korea Crisis | 🟡 2 ↓ | **UPDATED 8/3:** KRW **1,426.87** — strongest since late Feb, ~+6.96% won strengthening over the month, well inside the 1,500 line; BoK reiterating its tightening stance. ZHA-12 branch (i) satisfied on both legs (55%→80%). Downgraded 🟠→🟡. **Not a stand-down:** foreign KOSPI selling has NOT reversed, and part of the won move is SK hynix listing-proceeds conversion, not the rate lever. | **live 8/3** |
 | 3 | Custodial Arbitrage | 🟡 3 | Belgium status STALE — needs Feb–Apr refresh. **HANS now owns hub-table pulls (Belgium/Lux/Ireland/Cayman) per 7/16 division-of-labor; ZHAO awaits HANS's seam verdict, does not re-pull.** | Belgium **Mar'26** (HANS refreshing) |
 | 4 | LGFV/Banking | 🟡 2 ↓ | **UPDATED 7/16 — mixed-freshness vector, see per-input dates:** Guizhou/Zhengzhou bank-specific NPL still FROZEN (no primary found); but debt-swap program now 94% of quota utilized + hidden debt down 65% since end-2023 (materially more constructive than stale data implied) and small-bank consolidation accelerating (130+ H1, ZHA-06 upgraded to 72%). Net: downgraded 🟠→🟡 — the fresh data leans more constructive (swap program working) than concerning, though the bank-specific NPL canaries remain unconfirmed. | **mixed: NPL Feb'26 🧊 FROZEN / debt-swap Jun'26 / small-banks Jul'16** |
-| 5 | Property Zombification | 🟠 3 | Vanke ¥9.4B maturing 6mo; multi-year deleverage. H1 real estate investment -18% YoY (KB-ZHAO-097) corroborates continued severity. | Vanke **Jul 4**; BIS index **Jul 9**; FAI decomposition **Jul 15** |
-| 6 | PBOC Defensive Wall | 🟡 2 | Yuan strong ~6.76; rate 1.4%. Less defensive pressure than March. | yuan **live 7/16**; rate **Jun'26** |
-| 7 | HK Peg Channel | 🟢 1 | HIBOR normalized up; spread -136bps; AB stable (but AB pull unconfirmed past 49d — refresh attempted 7/16, blocked). | HIBOR-SOFR **late Jun'26**; AB **May 28** (unconfirmed refresh) |
+| 5 | Property Zombification | 🔴 4 ↑ | **UPGRADED 8/3:** July **construction PMI 47.0 = RECORD LOW** (KB-ZHAO-104) on top of H1 real estate investment -18% YoY. Vanke ¥9.4B maturing 6mo; multi-year deleverage. Typhoon caveat applies hardest to this vector — ~8/31 print arbitrates. | construction PMI **Jul 31**; Vanke **Jul 4**; FAI decomposition **Jul 15** |
+| 5b | **Domestic Demand / Broad Activity** *(new vector 8/3)* | 🔴 4 | **NEW — the session's headline.** Composite PMI **49.3, lowest since 2022**; services weakest since the initial Covid lockdowns; mfg new orders **48.5, lowest since 2023**. Breaks ZHAO's prior "property-only" containment frame. Discriminator vs the NBS typhoon attribution = **August PMI ~8/31**. | **Jul 31** |
+| 6 | PBOC Defensive Wall | 🟢 1 ↓ | **UPDATED 8/3:** yuan stronger still at **6.74**; 7d repo 1.4%; **LPR held a 14th month (7/20)**. Zero defensive pressure — and the hold with FX room available is *restraint*, which is a stronger signal of comfort than the level alone. | yuan **live 8/3**; LPR **Jul 20** |
+| 7 | HK Peg Channel | 🟢 1 | **LIVE-VERIFIED 8/3 via HKMA API:** AB HK$54,108M flat, no peg defense; 1M HIBOR 2.656%; spread widened to ~-164bps but still inside -200. Stale flag closed. ⚠️ SOFR leg unverified (403s). | **live 8/3** (SOFR leg [EST]) |
 | 8 | LNG/Energy Shock | 🟠 3 (↑ 7/9) | RE-ARMED: US-Iran truce collapsed 7/7-7/8, Brent $76.01 settle 7/9, Iran tanker strikes. Capital-gated on Fri 7/10 sustain verdict (BRENT/HAWK domain) — not a ZHAO-owned re-score, marked up for consistency only. | **BRENT/HAWK-owned, Jul 9** |
-| 9 | USD/CNY Defense | 🟢 1 | ~6.76, appreciation bias. | **live 7/16** |
+| 9 | USD/CNY Defense | 🟢 1 | **6.74**, appreciation bias intact. | **live 8/3** |
 | 10 | Gulf Recycling | 🟡 2 | Revenue recovering with oil exports; acute collapse over. | **BRENT/HAWK-owned, Jul 4** (not re-verified since) |
 | 11 | Gulf Infra Destruction | 🟡 2 | Rebuild underway; capacity recovering. | **BRENT/HAWK-owned, Jul 4** (not re-verified since) |
 
-**Total: ~25/55 — 🟠 ELEVATED** (down from 28/55 7/9 pre-refresh; net -3 this session on vectors 2 and 4 both downgrading on fresher, more constructive data — Korea's hike-defense working so far, LGFV debt-swap progress better than stale data implied). Risk still concentrated in vector 1 (China TIC, resolves ~4PM ET today) + vector 2 (Korea, improved but not stood down); vector 8 is a downstream flag, not a ZHAO-domain escalation.
+**Total: ~26/60 — 🟠 ELEVATED** (denominator now 60: vector 5b added 8/3. Was ~25/55 on 7/16. Net +1 on a **compositional rotation, not a level change** — the *financial/external* vectors eased further [2 Korea 3→2, 6 PBOC 2→1, 7 HK live-verified 1] while the *domestic-activity* vectors deteriorated [5 property 3→4, plus the new 5b domestic demand at 4].)
+
+> **The number moved by +1 and that badly understates what changed.** The risk **relocated**: away from currency/peg/policy-defense stress, which is now about as quiet as this matrix has scored it, and into China's real domestic economy, which just printed its weakest composite activity since 2022. A flat total across a rotation like that is the matrix working as designed, not a quiet quarter. Risk is now concentrated in vectors **5 + 5b** (domestic activity, both 🔴), with vector 1 (China TIC) dormant until June TIC ~Aug 17-18.
 
 ---
 
@@ -171,7 +197,7 @@ The April STATUS was built around a late-Feb/March Gulf shooting war (Hormuz clo
 
 ### Falsification tripwires now
 - China TIC prints >$680B for 2 consecutive months → exit thesis was noise (Feb→Mar was valuation/one-off).
-- Korea KRW back <1,450 sustained → contagion node cooling.
+- **Korea KRW back <1,450 sustained → contagion node cooling.** ⚠️ **RESOLVER SPECIFIED 8/3** — "sustained" was undefined and the tripwire went into the money (won 1,426.87) with no way to fire. Now: **<1,450 on every daily close for 10 consecutive business days.** Clock started at the first qualifying close in late July → earliest fire ~mid-August. *(Spec-defect class: a threshold with a level but no window cannot resolve.)*
 
 ---
 
@@ -184,19 +210,28 @@ The April STATUS was built around a late-Feb/March Gulf shooting war (Hormuz clo
 | **Jul 15** | China Q2 GDP — PRINTED 4.3% YoY (miss vs 4.5%, down from Q1 5.0%) [NBS] | ✅ done, logged KB-ZHAO-095 |
 | **Jul 16** | BoK policy meeting — PRINTED: HIKED +25bp to 2.75% | ✅ done, ZHA-12 forward branch open |
 | **Jul 16 ~4PM ET** | TIC May 2026 data — China/Belgium (ZHA-04) + Korea (ZHA-13) + arbiter for ZHA-11 (30Y China-leg, aggregate-only test) | 🔴 pre-registered, awaiting print |
-| **Jul 21** | China LPR decision | 🟡 pre-registered ZHA-14 (30%, DOWNGRADED — analyst consensus expects rate held rest of 2026) |
-| **Late Jul (exact date TBC)** | Politburo economic-work meeting — post-Q2-GDP-miss policy response | 🔴 pre-registered ZHA-15 (55% stimulus branch) |
-| Nov 10 2026 | Reciprocal-tariff suspension expiry (truce clock) | 🟠 |
+| **Jul 20** *(date corrected from 7/21)* | China LPR fixing — **PRINTED: HELD 3.00%/3.50%, 14th month** | ✅ done, ZHA-14 graded NO-FIRE (KB-ZHAO-105) |
+| **Jul 30** | Politburo economic-work meeting — **HELD: supportive tone, NO RMB figure** | ✅ meeting done; **ZHA-15 resolver window open to 8/13** |
+| **Jul 31** | China July PMI — **PRINTED: 49.2 mfg / 47.0 construction / 49.3 composite** | ✅ done, KB-ZHAO-104 — the session headline |
+| **Fri Aug 7** | China July trade data + SAFE FX reserves/gold (Jul) | 🟠 next hard prints |
+| **Sun Aug 9** | China July CPI / PPI | 🟡 deflation check |
+| **~Aug 13** | **ZHA-15 resolver deadline** — 2wk window from the 7/30 readout expires; grade STIMULUS vs STEADY-COURSE | 🔴 **owed self-grade, do not miss again** |
+| **~Aug 13-15** | Korea "<1,450 sustained" tripwire earliest fire (10 consecutive business-day closes) | 🟡 newly specified 8/3 |
+| **~Aug 17-18** | **June TIC** — China/Belgium (ZHA-04), Korea (ZHA-13), ZHA-11 arbiter. Tests whether May's rebound was one-off or trend change | 🔴 next hard flow test |
+| **Mon Aug 31** | **China August PMI — the (a)-broadening vs (b)-typhoon discriminator** | 🔴 registered arbiter for KB-ZHAO-104 |
+| **September 2026** | **Xi → Washington, White House summit with Trump** (Bessent–He Lifeng prep meeting ahead) — truce-extension venue | 🟠 NEW 8/3 (KB-ZHAO-110) |
+| **October 2026** | **Fifth Plenum, 20th CPC Central Committee** — 15th Five-Year-Plan venue; realistic home for any large fiscal figure | 🟠 NEW 8/3 (KB-ZHAO-106) |
+| Nov 10 2026 | Reciprocal-tariff suspension expiry (truce clock) — **RE-VERIFIED 8/3, an "Aug 12" claim was a 2025 decoy** | 🟠 |
 | ~May 2027 | Rare-earth control postponement expiry (1yr clock) | 🟡 |
 | Dec 2026 | SEC Cash Clearing mandate | 🟡 |
 
 ---
 
-## PREDICTIONS (status Jul 16)
+## PREDICTIONS (status Aug 3)
 
 | ID | Prediction | Conf | Status |
 |----|-----------|------|--------|
-| ZHA-01 | USD/CNY breaks 7.30 | 25% ↓↓ | OPEN — yuan appreciated to 6.76, thesis weak |
+| ZHA-01 | USD/CNY breaks 7.30 | 20% ↓ | OPEN — yuan appreciated further to **6.74**, thesis weaker still |
 | ZHA-02 | 10Y rises on risk-off | — | ✅ CONFIRMED (Mar) |
 | ZHA-03 | Belgium >$500B | 25% ↓ | OPEN — Belgium $454B, moving away |
 | ZHA-04 | China <$650B | 30% ↓↓ | OPEN — NOT FIRED. May $659.3B, UP +$8.2B, reverses decline (KB-ZHAO-100) |
@@ -207,14 +242,26 @@ The April STATUS was built around a late-Feb/March Gulf shooting war (Hormuz clo
 | ZHA-09 | Saudi TIC <$120B by Jun 2026 | 10% ↓ | ❌ LIKELY MISSED — Saudi ~$148.8B, oil recovered |
 | ZHA-10 | Yuan oil settlement >$5B cumulative | 40% | OPEN |
 | ZHA-11 | China NOT the 30Y 7/9 indirect-bid (77.74%) driver | 60% ↓ | OPEN — SURVIVES, not falsified. China +1.3% MoM (not "materially" up), 2nd AND-condition unmet |
-| ZHA-12 | BoK hike (delivered) succeeds as currency defense (won holds/strengthens, EASES demand-hole) | 55% | OPEN — hike delivered 7/16, won reaction favorable so far (~1,480), 4wk window |
+| ZHA-12 | BoK hike (delivered) succeeds as currency defense (won holds/strengthens, EASES demand-hole) | **80% ↑↑** | OPEN — branch (i) satisfied on BOTH legs: won **1,426.87** (strongest since late Feb, ~+6.96%/mo) and BoK reiterating tightening. Runs through the Aug FX print; not graded early (KB-ZHAO-107) |
 | ZHA-13 | Korea May TIC shows net UST SELLING (reserve defense, deepens demand-hole) | 50% | OPEN — GRADED, NEUTRAL. -$2.3B, inside ±$5B band; scope caveat (all-residents not official) |
-| ZHA-14 | PBOC cuts 1yr/5yr LPR at 7/21 fixing | 30% ↓ | OPEN — downgraded, analyst consensus expects hold through 2026 |
-| ZHA-15 | Politburo late-Jul meeting signals STIMULUS branch (concrete new fiscal measure) | 55% | OPEN — pre-registered, date TBC |
+| ZHA-14 | PBOC cuts 1yr/5yr LPR at the **7/20** fixing | 30% | ❌ **RESOLVED NO (7/20)** — HELD 3.00%/3.50%, 14th month. FALSE at 30% conf = well-calibrated miss. Graded 8/3, 14d late (KB-ZHAO-105) |
+| ZHA-15 | Politburo late-Jul meeting signals STIMULUS branch (concrete new fiscal measure + RMB figure) | **18% ↓↓** | OPEN — meeting held **7/30**: tone yes, **no RMB figure**. **NOT graded — my registered 2wk window runs to 8/13.** Grade on/after 8/13 (KB-ZHAO-106) |
 
 ---
 
 ## NEXT ACTIONS
+
+**Done Aug 3 catch-up sweep (Will-directed):** July PMI break logged + dashboard/matrix rebuilt around it (KB-ZHAO-104, new VX-6.11/6.12, new matrix vector 5b) ✓ · ZHA-14 graded NO-FIRE, 14d late (KB-ZHAO-105) ✓ · ZHA-15 confidence cut 55%→18%, held OPEN to its registered 8/13 window rather than graded early (KB-ZHAO-106) ✓ · ZHA-12 upgraded 55%→80% with the SK-hynix idiosyncratic-flow caveat attached (KB-ZHAO-107) ✓ · HK peg live-pulled from the HKMA API, 18d stale flag closed (KB-ZHAO-108) ✓ · China FX reserves/gold refreshed, gold-too-small conclusion re-confirmed on fresh data (KB-ZHAO-109) ✓ · two search decoys caught and NOT propagated — the "Aug 12 truce expiry" 2025 artifact and an impossible July-export figure (KB-ZHAO-110) ✓ · Korea "<1,450 sustained" tripwire given an actual resolver ✓ · LPR 7/21→7/20 date-fork closed on all three surfaces per PROME's un-applied 7/17+7/23 packets ✓ · calendar rebuilt with 5 new catalysts (Aug 7/9/13/17-18/31, Sept summit, Oct Fifth Plenum) ✓
+
+**Owed / next boot, in priority order:**
+1. 🔴 **Grade ZHA-15 on or after 8/13** — registered window expires; this is an owed self-grade and the ledger has now missed one resolution date already this cycle.
+2. 🔴 **Aug 31 August PMI** — the registered discriminator between a broadening China slowdown and a typhoon-distorted single print. This is the single highest-value scheduled read ZHAO owns right now.
+3. 🟠 **June TIC ~Aug 17-18** — ZHA-04/11/13. Was May's rebound a one-off or a trend change?
+4. 🟠 **P3 SOLO LEAD packet — start gate opened TODAY** (`inbox/2026-07-27_from-PROME_batch3-dispatch-P3-LEAD.md`, gate = "first boot on or after Mon 2026-08-03"). Not started this session; Will's ask was the news catch-up. **Needs a Will call on whether to run it next.**
+5. 🟡 **Inbox: 7 items pending**, incl. two PROME asks not yet answered — ratify/rewrite the RESEARCH-INTAKE lane query, and two DEWEY Batch-3 stubs (one of which the 7/27 PROME dispatch declares VOID on ownership).
+6. 🟡 **Re-source SOFR** — NY Fed and FRED both 403'd; the HIBOR-SOFR spread level (-164bps) is unverified on its SOFR leg.
+7. 🟡 Cross-flag the PMI break to **MIDAS** (copper seam reconciled toward MIDAS's read), **PROME**, **HENRY**. Outbox-write + list the route; do not deliver directly.
+
 **Done Jul 16 spawn (teams-mode, PROME-directed):** pre-registered BoK/Korea/China TIC resolver terms BEFORE the 4PM ET print (ZHA-12, ZHA-13, ZHA-04 amended; KB-ZHAO-093/094) ✓ · delivered to PROME by ~12:30PM ET, ahead of 3:30PM deadline ✓ · China Q2 GDP 4.3% miss logged + dashboard/nuance-line updated (KB-ZHAO-095) ✓ · China LPR 7/21 pre-registration added, ledger previously lacked one (ZHA-14) ✓ · Taiwan chip-diversion detention logged (KB-ZHAO-096) ✓ · USD/CNY + USD/KRW live-refreshed via boot.py ✓ · inbox fully drained, 6 items processed + git mv'd ✓ · MIDAS copper-vs-GDP discrepancy flagged, not yet reconciled — next session or PROME route.
 **Still open after this session:** HK Agg Bal still 🔴 STALE 49d+ (not pulled this session — outside today's scope); Guizhou/Zhengzhou NPL refresh; May TIC country lines still PENDING as of this write (releases ~4PM ET) — ZHA-04/11/13 all resolve then, stay available for PROME's mechanical-grade round.
 **Done Jul 9 catch-up sweep:** inbox drained (6 items — dispositions below) ✓ · 30Y China-leg pre-registration written (KB-ZHAO-090, ZHA-11) ✓ · property BIS milestone logged (KB-ZHAO-088) ✓ · genuine-exit corroboration (KB-ZHAO-089) ✓ · CLAUDE.md `domain/sources/` dead pointer fixed (D1) ✓ · Convergence Matrix vector 8 flagged stale + re-scored ✓ · STATUS/NEXUS_BRIEF refreshed ✓
@@ -228,6 +275,17 @@ The April STATUS was built around a late-Feb/March Gulf shooting war (Hormuz clo
 6. **KB-ZHAO-089 is secondary-sourced** (TradingEconomics/aggregator, not SAFE primary) — verify against SAFE/PBOC primary before citing load-bearing.
 
 ## BOTTOM LINE
+
+**AUG 3 — the risk moved rather than grew, and it moved into the real economy.** Every vector ZHAO watches for *financial* stress eased over the last 18 days: the yuan strengthened to 6.74, the PBOC held rates a 14th month **with FX room to cut and declined** (restraint, which is a stronger comfort signal than the level), Korea's won ran to 1,426.87 (strongest since February), the HK peg is live-verified clean with no intervention, and China's reserves fell only on USD valuation. On the financial side this is the quietest ZHAO's board has looked in months.
+
+**Against that, China's domestic economy printed its weakest activity since 2022.** July manufacturing PMI 49.2 (new orders 48.5, lowest since 2023), construction PMI **47.0 — a record low**, services weakest since the initial Covid lockdowns, composite 49.3. **This cuts against my own 7/16 call** that the Q2 GDP miss was "a property story, not a broad slowdown" — that read rested on June industrial production accelerating, and that leg has now rolled over. I am marking it wrong rather than reframing around it. The honest caveat is that the NBS attributed part of the weakness to typhoons halting project work, which would hit construction hardest — exactly the record-low print — so **(a) broadening slowdown and (b) weather-distorted single print are both live, and I have registered the August 31 PMI as the discriminator rather than picking now.**
+
+The policy response to all this is notably restrained on both levers: no LPR cut (ZHA-14 graded NO-FIRE) and a Politburo readout with supportive language but **no RMB figure** — though ZHA-15 stays OPEN because my own registered 2-week window runs to Aug 13, and the newly-scheduled **October Fifth Plenum** is a real reason a fiscal number may be *saved* rather than *withheld*. Two new catalysts land before that: **Xi at the White House in September**, and the **Nov 10 truce clock** which I re-verified after catching a plausible "Aug 12 expiry" claim that turned out to be a 2025 artifact.
+
+**What would change my mind:** a second sub-50 composite PMI on Aug 31 turns this from a data point into a thesis — a China demand slowdown that is no longer property-contained, arriving while Beijing is deliberately withholding both monetary and fiscal support, is the configuration that eventually forces the fiscal response ZHA-15 is waiting for and re-opens the UST/reserve channel. A rebound above 50 makes July a typhoon and leaves the 7/16 property-containment frame standing. **No new flow data until June TIC ~Aug 17-18.**
+
+---
+
 **🚩 THESIS RE-FRAMED 7/16 (Will-approved, KB-ZHAO-102):** ZHAO's China-UST thread no longer describes the $650B threshold as "genuine exit" or "de-dollarization." Corrected language: **the $650B line tracks SAFE's own narrowly-defined, TIC-visible Treasury-specific holdings — a real, mechanical, market-moving threshold that stays graded exactly as before — but a breach or non-breach is NOT a reliable signal of China's aggregate US-dollar exposure.** China's current Agency-bond holdings (~$300B, CFR/Setser custodial-routing estimate, May 2026) dwarf the ~$40B Treasury decline this thread has tracked, and "China Inc." holds more dollars off SAFE's own balance sheet (state commercial banks, policy banks, CIC, SAFE's own Buttonwood vehicle) than on it — so the SAFE-reported line shrinking substantially reflects Treasury→Agency rotation and entity-shifting to less-transparent state channels, not necessarily a reduction in China's total dollar-asset exposure. The Belgium-flat mechanical finding (custody migration, specifically, did not happen) still stands — it just no longer supports the stronger "genuine exit" claim it was previously read as confirming.
 
 May TIC graded on this corrected framing: **China's UST holdings REBOUNDED to $659.3B (+$8.2B MoM, bills-driven, LT/coupon flat), reversing the Feb-Apr decline and NOT breaking $650B** (ZHA-04 confidence 65%→42%, NOT FIRED, not falsified). ZHA-11 (China not the 30Y-auction driver) SURVIVES and strengthens (65%→68%) on the same flat-coupon evidence. Korea's leg (ZHA-13) graded NEUTRAL (-$2.3B, inside the ±$5B band) — a persistent 4-month slow-bleed, not a May-specific dump, cohering with ZHA-12 (BoK's hike, not reserve liquidation, is doing the won-defense work; won at a 2-month low post-hike). Elsewhere: China's Q2 GDP miss (4.3%) decomposes as a property story, not a broad slowdown; a same-day sweep-and-refresh pass eased the Convergence Matrix to ~25/55 on fresher Korea and LGFV-debt-swap data; HK Aggregate Balance refreshed live (54,056M, flat); Korea NPS and BIS-cadence gaps closed. Genuine remaining gaps: Guizhou/Zhengzhou bank-specific NPL (no primary found), the Canada/France Agency-custody hubs (untested, named next-session thread), Korea's official-vs-all-residents scope split (VX-ZHAO-2.07 flagged for re-sourcing). Next hard test: **Korea's official TIC line (if it ever separates from the all-residents Table 3), and June TIC (~mid-Aug) for whether May's rebound was a one-off or a trend change.**
