@@ -516,8 +516,24 @@ def price_fetch(tickers, delta_threshold=0.0):
             try:
                 hist = tk.history(period="5d")
                 results[t]["asof"] = hist.index[-1].strftime("%Y-%m-%d") if not hist.empty else None
+                # BASIS STAMP for change_pct (added 2026-08-02). `asof` stamps the
+                # PRICE; nothing stamped what the change was measured AGAINST —
+                # that unanchored denominator is the property that let the FX
+                # date-shift defect above hide in plain sight. The prev close is
+                # always the session BEFORE `asof`, verified true for BOTH
+                # branches: non-FX regularMarketPreviousClose == the second-to-last
+                # bar's close; FX previousClose == that same session's TRUE close
+                # (the shifted bar's own Close value is wrong, but its DATE LABEL
+                # is right). JSON-only by design — the rendered table is a parser
+                # contract for consumers (PAT-069), so this is additive, not shown.
+                # Same fail-safe direction as asof: never null a VALUE on a failed
+                # date lookup, only the stamp.
+                results[t]["prev_asof"] = (
+                    hist.index[-2].strftime("%Y-%m-%d") if len(hist) >= 2 else None
+                )
             except Exception:
                 results[t]["asof"] = None
+                results[t]["prev_asof"] = None
         except Exception as e:
             results[t] = {"error": str(e), "name": ALL_PRICES.get(t, t)}
 
