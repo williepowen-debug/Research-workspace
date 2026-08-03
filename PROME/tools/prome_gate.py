@@ -114,7 +114,12 @@ def check_docket_overdue():
                 continue
             end = r[0].split("..")[-1]
             if re.fullmatch(r"\d{4}-\d{2}-\d{2}", end) and end < today:
-                if "OVERDUE" not in (r[5] if len(r) > 5 else ""):
+                # The annotation lives in STATUS — PENDING(OVERDUE-annotated …) — or in
+                # NOTES; practice has used both (4 rows vs 2 on 2026-08-03). Scanning only
+                # NOTES made every status-annotated row read as unannotated, so the check
+                # reported work that was already done and hid the rows that weren't.
+                annotation = r[3] + " " + (r[5] if len(r) > 5 else "")
+                if "OVERDUE" not in annotation:
                     overdue.append(f"{r[0]} {r[1][:40]}")
     record(ADVISE, "DOCKET overdue-unannotated", not overdue,
            "; ".join(overdue[:4]) or "every past-dated PENDING row carries an OVERDUE annotation",
