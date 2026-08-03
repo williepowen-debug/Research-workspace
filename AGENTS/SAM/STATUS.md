@@ -91,6 +91,29 @@ Yen up ~1.3% against **every** major while the dollar crosses did not move = **p
 
 **Actionable trigger (unchanged):** a **disorderly ≥1.5–2%/day** move (or ~2–3 yen in 1–2 sessions). S1-A: silence ≠ safe; the next op arrives unsignalled, so catch the follow-through, not the gap. Method → `MOF_INTERVENTION_PLAYBOOK.md` S1/S1-A.
 
+### 🔧 PRE-REGISTERED BANDS — BOJ current-account pull (written 2026-08-03 ~11:40 ET, **BEFORE** opening either file)
+
+*Closes `MSG-PROME-20260803-001#SAM-02`. Bands written before the pull so tomorrow is **mechanical, not a rediscovery** — and so the read cannot be fitted to the number.*
+
+**File:** `boj.or.jp/en/statistics/boj/fm/juq/d_release/jd/2026/jd20260803.xlsx` (7/30 op, T+2 = Mon 8/3) · `…/jd20260804.xlsx` (7/31, T+2 = Tue 8/4).
+**Row:** **"Treasury funds and others"** (財政等要因) — there is **no FX-intervention line item**; a yen-buying op settles here as a **drain** (negative). Per the 7/11 NOT-BUILD scoping this is a manual read: the signal is the **gap vs private money-broker (Tanshi) forecasts**, which SAM cannot automate.
+**Reference figures to test:** BOJ Friday projection ≈ **−¥8.2T** fiscal-factors decline against broker forecasts of an **increase** → implied op ≈ **¥8.45T** (Bloomberg 7/31).
+
+| Band ("Treasury funds and others", Aug-3 settlement) | Verdict |
+|---|---|
+| Decline **≥¥7.0T** | **CORROBORATES** an op of roughly the reported scale (~15% slack for projection→actual revision + fiscal noise) |
+| Decline **¥2.0T – ¥7.0T** | **AMBIGUOUS** — an op occurred but materially smaller than reported, or ordinary fiscal flows were conflated. Decompose; **do not restate ¥8.45T** |
+| Decline **<¥2.0T**, or a net **increase** | **REFUTES the SIZE** — the ¥8.45T estimate fails on its own instrument. *(Occurrence is separately Reuters-source-confirmed; refuting size ≠ refuting the op)* |
+
+⚠️ **The ¥2.0T noise floor is a JUDGMENT, not a measurement** — the playbook calls this line "large, noisy" (tax receipts, JGB settlements, pensions) but SAM has never measured its distribution. **Pre-registered method step: compute the trailing ~60-session distribution of this row from the `jd` series first, and re-state the floor empirically before grading.** Base-rate the instrument before reading its event table.
+
+⚠️ **NOT AN INDEPENDENT WITNESS — do not launder this into "independently confirmed."** Bloomberg's ¥8.45T was **itself derived from this same BOJ projection**. Pulling the file is own-primary **verification of Bloomberg's arithmetic** (real value: replaces a relayed wire number with one SAM read itself) — it is **not** a second, independent confirmation of the operation. The genuinely independent confirm remains **MOF monthly ~Aug-31**.
+
+🔴 **SCOPE CORRECTION — this instrument is sovereign-blind (registered 2026-08-03).** It reads **Japanese** fiscal factors. The **7/31 op was the US TREASURY** (NY Fed selling euros on Treasury's own account), which does **not** appear as a Japanese fiscal factor. Therefore:
+- `jd20260803.xlsx` tests the **MOF** 7/30 op — valid as originally registered.
+- `jd20260804.xlsx` **cannot refute the 7/31 op.** A null there means only that **MOF did not *also* fire on 7/31** — still genuinely open, since "coordinated" may mean both. **A null must NOT be graded "candidate #2 DENIED"**; that would be a false negative on an intervention both governments have confirmed.
+- **A LARGE drain on the 8/4 file is the live upside branch:** it would evidence a **second MOF op of the round**, firing the §5C override on the narrow MOF reading too (it is already adjudicated fired on the letter via the US op).
+
 ---
 
 ## KEY THRESHOLDS
