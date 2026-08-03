@@ -8,6 +8,35 @@ Tracks all changes to THESIS.md and TIMELINE.md. Reverse chronological. Each ent
 
 ---
 
+## 2026-08-02 (Sun) — **v5.2 → v5.3 (minor): CAPACITY-IRREVERSIBLE ≠ PRICE-IRREVERSIBLE**
+
+**Trigger:** first-ever primary TTF pull (self-owed since 2026-07-27, delivered on the 6th session).
+
+**OLD VIEW (v5.2 corollary):** *"neither the LNG nor the product loss is reversible by the crude off-ramp — a Hormuz de-escalation round-trips the crude premium; it does not restart Ras Laffan (3-5 yr) or un-shut Jazan."*
+
+**NEW VIEW (v5.3):** **True of the FACILITY, false of the PRICE.** The capacity loss is irreversible; **the price premium is mostly Hormuz route-risk and IS reversible.** ⇒ **mark down the whole energy complex on any de-escalation branch, not the oil leg alone.**
+
+**Evidence** (`TTF=F`, ICE Dutch TTF front-month EUR/MWh, n=397 to 2025-01-02):
+
+| Window | TTF | Brent |
+|---|---|---|
+| Pre-FM run-up Feb 21 → Mar 23 | **€31.83 → €56.68 = +78.1%** | +39.8% |
+| **The FM month** Mar 24 → Apr 24 | **€54.04 → €44.86 = −17.0%** | +0.8% |
+| Hormuz closure leg Jul 11 → Jul 24 | **€51.28 → €63.58 = +24.0%** | +16.2% |
+| Post-peak Jul 24 → Jul 31 | €63.58 → €59.07 = −7.1% | −6.9% |
+
+`corr(TTF, Brent)` daily returns **+0.554 pre-closure (n=129) → +0.710 closure era (n=15, small)**. The market **never repriced the force majeure** — it was a sell-the-news; it is pricing the **route**.
+
+**Second correction shipped with it:** *"TTF softening,"* which I sent SAM for five sessions, was wrong — **€59.07 is +1.53% on the day, +1.40% over 5 sessions, 94th %ile of 2026**, i.e. off a spike high and **consolidating at an extreme**.
+
+**⚠️ Same-night qualification, recorded but NOT folded into the thesis:** EU storage (AGSI+, gas day 8/1-8/2) shows **57.11% full, net +3,038 GWh/d ⇒ 81.8% by Nov 1 at current pace**, with **Germany at 46.84% and net +56.4 GWh/d in peak injection season.** That is more consistent with the FM being **DEFERRED into under-filled storage** than **ABSORBED** — which would mean a winter layer that a reopening does not reverse, making the reversibility above only **PARTIAL**. **⛔ Held as a HYPOTHESIS, not adopted: no historical Aug-1 baseline, the applicable storage target is unverified (at 83% the pace is on track, at 90% badly behind — the same data reads either way), and attribution to Qatar is not isolated.** Resolver = the AGSI+ history endpoint.
+
+**What did NOT change:** the molecule split (CRUDE = premium · LNG/PRODUCT = supply-loss), the crude frame, the discriminator, every threshold. **A corollary retraction, not a frame change.** The Jazan/refined-product half is **untested** — gas was pulled, not product cracks.
+
+**Propagated same session:** packets to SAM + HAWK (the original finding, then the qualification ~2h later); `NEXUS_BRIEF` header, thesis-version line, SAM row and the self-owed WAITING row all corrected — three of those four were carrying the retracted claim.
+
+---
+
 ## 2026-07-30 Thu — **v5.1 → v5.2 (minor): the discriminator is MOLECULE-SCOPED** · EIA primary re-confirm caught TWO wrong relayed figures · Refining 4→5 · a catalyst-hygiene miss recovered
 
 **OLD VIEW → NEW VIEW (the version bump):**

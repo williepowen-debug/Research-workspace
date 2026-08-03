@@ -1,4 +1,4 @@
-# BRENT SCRATCH — Sun Aug 2, 2026 ~5:45 PM ET · **BOOT + FULL CLOSEOUT** (pre-globex-open; OPEC+ verified & relay corrected · WALTER spread figure refuted · weekend war-state adjudicated & pre-registered · 5 packets consumed, both lanes to ZERO)
+# BRENT SCRATCH — Sun Aug 2, 2026 ~11:30 PM ET · **BOOT + CLOSEOUT + 3 WILL-DIRECTED FOLLOW-ONS** (weekend war-state adjudicated pre-open · DEPLOY GATE v2 premise audit → my own concern REFUTED · TTF pulled → THESIS v5.3 · EU storage → same-night qualification · 5 relayed figures refuted, THREE OF THEM MINE)
 
 **Purpose:** Ephemeral session handoff — canonical "where are we / what next". Read at boot (step 2), rewritten at closeout (step 11).
 
@@ -6,93 +6,94 @@
 
 ## ⏳ FIRST THING NEXT SESSION
 
-**0. 🔴 GRADE THE MONDAY TAPE AGAINST THE PRE-REGISTRATION I FROZE BEFORE THE 6 PM SUNDAY OPEN — it is in today's STATUS banner, do not re-derive it after seeing the print.**
-   - The frozen discriminator: ~~*7/27 analogue = −7.75%, reproduces on my own OHLC*~~ **⛔ BASELINE CORRECTED 9:20 PM — the −7.75% I first wrote was BACK-SOLVED from an INTRADAY $95.8, not the 7/24 CLOSE of $96.78. True Brent analogue = **−8.70%**. And BRENT DOES NOT PRINT OVERNIGHT (BZ=F/BNO/USO/UCO all zero Sunday bars), so the like-for-like instrument is WTI: **7/27 analogue −7.50%**. LIVE: WTI gapped −5.50%, last −4.77% = **64% of the analogue ⇒ materially smaller ⇒ registered reading CORROBORATED, preliminary — the verdict is Monday's 2:30 PM ET settle.** The 7/27 pause had a **CAPABILITY** floor with a **flag-officer** source; this one is **POTUS-channel only, Tehran-unconfirmed** — that distinction is unaffected.
-   - **Move materially SMALLER than the analogue ⇒ the market discounts the POTUS channel as I do (corroborating). Materially LARGER ⇒ the premium unwinds without me.**
-   - ⛔ **EITHER WAY: A LARGE BEARISH GAP IS NOT A STAGE-A TRIGGER.** Apr-17 2026 fell **−12% intraday** on an Iranian FM's *"completely open"* and then ran **+19.7%**. P(price moves) ≠ P(the trade fires).
+**0. 🔴 MONDAY 8/3 — GRADE THE SETTLE AGAINST THE FROZEN PRE-REG. Do NOT re-derive the discriminator after seeing the print.**
+   - **Baselines (CORRECTED 8/2 21:20 — the −7.75% I first published was back-solved off an intraday quote): Brent analogue −8.70% · WTI analogue −7.50%.** **Use WTI** — Brent does not print overnight.
+   - **Materially SMALLER than the analogue ⇒ the market discounts the POTUS channel as I do (CORROBORATING). LARGER ⇒ the premium unwinds without me.**
+   - **Where it stood at 21:05 ET: WTI gapped −5.50% to $80.01 and HELD; last $80.63 = −4.77% = 64% of the WTI analogue ⇒ preliminary CORROBORATING. NOT BANKED — the verdict is the 2:30 PM ET settle.**
+   - ⛔ **A LARGE BEARISH GAP IS NOT A STAGE-A TRIGGER.** Apr-17 fell −12% intraday on an FM's *"completely open"* then ran **+19.7%**.
 
-**1. ⏳ ARM CLOCK: 11 of 20 td used. 9 sessions left — 8/3, 4, 5, 6, 7, 10, 11, 12, 13. LAST DEPLOYABLE = THU 2026-08-13.**
-   - **Leg (a): peak re-derived and UNCHANGED at 68.97 close (7/23) ⇒ line ≤58.62. OVX 7/31 CLOSE 63.04 = −8.60%. NOT MET.**
-   - ⚠️ **RE-DERIVE THE PEAK EVERY SESSION — never carry 58.62 as a constant** (it re-ratchets on fresh escalation, and an ordered energy-site strike is exactly the class that would).
+**1. 🔴 LEG (a) CAN PLAUSIBLY FIRE MONDAY — AND IF IT DOES, THE NEW DISCLOSURE BINDS.**
+   - **OVX 63.04 close · line ≤58.62 · needs −7.01%.** OVX is a **cash index, no overnight print** — ungradeable until Monday's close. **But a −4.8% crude session is exactly what crushes it: on 7/27 a −6.85% Brent day took OVX −10.9% IN ONE SESSION.**
+   - **⚠️ RE-DERIVE THE PEAK EVERY SESSION** (68.97, 7/23 close) — never carry 58.62 as a constant; it re-ratchets on fresh escalation.
+   - **IF IT FIRES:** state in figures **BEFORE any fill** — (i) Stage-A leg-(i) status (**INSTRUMENT or only guidance? currently GUIDANCE, unmet**), (ii) latest Hormuz transit count vs the **88/day** baseline, (iii) **resolving crisis or ordinary dip.** *(Added by the 8/2 audit; `TRADE.md` §DEPLOY GATE v2.)*
+   - **Clock: 11 of 20 td used. 9 left — 8/3, 4, 5, 6, 7, 10, 11, 12, 13. LAST DEPLOYABLE = THU 8/13.**
 
-**2. 🟠 Wed 8/5 — EIA wk-7/31**, first volume print overlapping the gasoline-crack move. **Pre-register BEFORE the print, with the premise's SOURCE-GRADE stated inside it.** No BRT-29 grade (LESSONS #9).
+**2. 🟠 Wed 8/5 EIA wk-7/31** (pre-register BEFORE the print, source-grade inside; no BRT-29 grade, LESSONS #9) · **🔴 Fri 8/7 COT as-of 8/4 — MUST NOT STACK**, 7/28 is closed (FUEL SPENT); grade off raw `f_disagg.txt`.
 
-**3. 🔴 Fri 8/7 — COT as-of 8/4. DO NOT let it stack; 7/28 is closed (FUEL SPENT).** Grade off raw `f_disagg.txt`, not Socrata alone.
+**3. 🟠 RESOLVE THE EU STORAGE TARGET** — one search, and it decides whether the 8/2 storage qualification stands or is withdrawn. **At 83% the fill pace is ON TRACK (+4.7%); at 90% it is badly behind (+33%).** The same data reads "fine" or "problem".
 
-## ★ THE SESSION IN TWO LINES
+## ★ THE SESSION IN THREE LINES
 
-**Market:** the weekend moved **both** tails at once — Trump **ordered** strikes on Iranian **energy infrastructure**, then cancelled them on deal "perimeters" Tehran has not confirmed. **Process:** three separate relayed figures failed verification today — PROME's OPEC Q4 pause, WALTER's WTI close, and **my own recorded OVX level** — and all three were *close enough to plausible* to have shipped unchallenged.
+**Market:** the weekend moved **both tails at once** — energy-infrastructure strikes **ORDERED**, then cancelled on deal perimeters Tehran has not confirmed; the tape then gapped **−5.5% and held**.
+**Analysis:** two Will-directed follow-ons — the **deploy-gate audit REFUTED my own concern**, and the **first-ever TTF pull forced a THESIS bump (v5.3)**.
+**Process:** **five relayed figures failed verification today and THREE were mine** — and the one that stings is that I asserted *"reproduces on my own OHLC"* for a number I had never run.
 
 ## CHANGES SINCE LAST SESSION
 
-- **🔴 WAR STATE, BOTH DIRECTIONS AT ONCE** [WALTER `SIG-W-20260802-001`, multi-wire, conf 0.80, ACTION-tagged to me]. **Ordered:** strikes on Iranian **power plants and refineries** for this weekend [WSJ via Fortune 7/31; Axios + CBS corroborate CENTCOM energy-site options]. **Cancelled** late Sat 8/1 (Truth Social) on claimed deal perimeters led by *"Immediate, Complete, and Total OPENING OF THE HORMUZ STRAIT."* **No kinetic events either side 8/1-8/2 — exchange PAUSED (3rd of the cycle; the last broke in 4 days).** Tehran has **not** confirmed; **Pezeshkian anchors publicly on the JUNE Islamabad MOU**, not Trump's parameters; Araghchi renews the *"decisive and proportionate response"* threat while calling the Oman channel *"final stages."*
-- **🛢️ OPEC+ 8/2:** **+188 kb/d September DECIDED**, completing the 1.65 mb/d 2023 voluntary unwind (Saudi +62k→10.4, Russia +62k→9.94, Iraq +26k→4.43); next meeting **Sept 6**.
-- **📈 Tape [7/31 CLOSES — no Sunday session existed at boot]:** Brent **$90.12 (+1.22%)** · WTI **$84.67 (+1.29%)** · Brent-over-WTI **+$5.45** · USO $129.17 · **OVX 63.04 (−0.63%)** · **VIX 15.99 (−6.4%)** · **OVX/VIX 3.94** · STNG $77.86 · FRO $39.37 · DHT $18.57 · HO $4.10 · RB $3.11 · XLE $59.55.
-- **📉 Fresh transit print:** Kpler via Maritime Executive 7/31 — **5 vessels crossed Hormuz 7/31, down from 22 on 7/30**; 18 tankers in 7 days, 5 Iran-linked; blockade totals 20 redirected / 2 disabled / 2 boarded.
-- **🇷🇺 OSPREY retraction:** **Sheskharis (~650 kb/d ≈ 1/5 of Russian seaborne crude) halted 7/22→7/26**, resumed on one berth.
+- **🔴 WAR STATE, BOTH DIRECTIONS** [WALTER `SIG-W-20260802-001`, multi-wire, conf 0.80]. Trump **ORDERED** strikes on Iranian **power plants and refineries** [WSJ via Fortune 7/31; Axios + CBS corroborate], then **CANCELLED** them 8/1 on claimed deal perimeters led by *"Immediate, Complete, and Total OPENING OF THE HORMUZ STRAIT."* **Exchange PAUSED 8/1-8/2 (3rd of the cycle; the last broke in 4 days).** **Tehran has NOT confirmed**; Pezeshkian anchors on the **JUNE Islamabad MOU**; Araghchi calls the Oman channel *"final stages"* while renewing the retaliation threat.
+- **📉 LIVE TAPE [CL=F, session in progress 21:05 ET]: WTI $80.63 = −4.77%; opened $80.01 (−5.50% gap), range $79.84-$81.30, ~1% off the low — GAPPED AND HELD.** ⚠️ **Brent, USO, BNO, UCO: ZERO Sunday bars.** Friday closes: Brent $90.12 · WTI $84.67 · Brent-over-WTI **+$5.45** · OVX 63.04 · VIX 15.99 · OVX/VIX **3.94**.
+- **🛢️ OPEC+ 8/2: +188 kb/d Sept DECIDED**, completing the 1.65 mb/d 2023 unwind; next meeting **Sept 6**. **Q4 pause NOT decided.**
+- **⛽ EU STORAGE [AGSI+, Will-supplied, gas day 8/1-8/2]: 57.11% full, net +3,038 GWh/d ⇒ 81.8% by Nov 1 at pace. Germany 46.84% and net only +56.4 GWh/d in peak injection season.**
 
 ## WHAT I DID
 
-**⛔ ADJUDICATED THE WEEKEND AND PRE-REGISTERED MY ANSWER BEFORE THE 6 PM GLOBEX OPEN.** **Stage-A leg (i) is NOT MET and not close:** a POTUS post asserting *"the perimeters of a deal has been agreed to,"* Tehran-unconfirmed, is textbook **LESSONS #18 RHETORICAL** — no signature, no instrument, no coordinated sovereign act.
-> **★ It is the SAME defect class I logged three days ago, pointed the other way and with capital at stake.** On 7/31 my registered diesel-ban LAPSE base case failed because I graded a **policy outcome off a minister's forward guidance** instead of the instrument (`[[finding_guidance_is_not_the_instrument]]`). **A POTUS post claiming agreed perimeters IS guidance; the instrument does not exist.** The diesel miss cost a calibration point — treating this as a Stage-A signature would **arm a SHORT into a war whose participants were firing four days ago.**
-> **⚠️ AND THE ESCALATION HALF IS THE MORE THESIS-RELEVANT ONE.** v5.2's molecule split rests on **crude staying whole**, whose single load-bearing reason is that **both sides have spared energy production infrastructure all cycle.** An **ORDER with a date** moves that class **threatened → ordered-then-withdrawn**, and Iran has now promised retaliation *specifically* against an energy-infrastructure attack. **⇒ Both tails widened in one weekend = VOL-EXPANDING, which cuts AGAINST leg (a), not toward it.**
+**① ADJUDICATED THE WEEKEND BEFORE THE OPEN.** **Stage-A leg (i) NOT MET and not close** — a POTUS post asserting agreed perimeters, Tehran-unconfirmed, is textbook **LESSONS #18 RHETORICAL**. **Same class as my 7/31 diesel miss, pointed the other way and with capital at stake** (`[[finding_guidance_is_not_the_instrument]]`). **The escalation half is the more thesis-relevant one**: v5.2 rests on both sides sparing energy production infra, and an **ORDER with a date** moves that class threatened → ordered-then-withdrawn ⇒ **both tails widened = VOL-EXPANDING, cutting AGAINST leg (a).**
 
-**⛔ THREE RELAYED FIGURES FAILED VERIFICATION — AND ONE OF THEM WAS MINE.**
-1. **PROME/ORACLE: "Q4 increases PAUSED."** ⇒ **NOT DECIDED.** The statement is **silent on Oct-Dec** and commits only to *"review global market conditions and outlook"* on **Sept 6**; the pause is delegates' **pre-meeting expectation**. *(The separate ~2 mb/d of 2022-era cuts intact **is** correct — never on this agenda.)* Verified at **two named outlets fetched independently of the memo.** Correction → `PROME/inbox/`.
-2. **WALTER `SIG-009`: WTI 7/31 close $86.80 (+3.84%) vs Brent +1.22% = a 2.62pp divergence** carrying the whole *"the market did not price it"* argument — **re-cited in TODAY's signal as "the cheapest Hormuz-pricing tell."** ⇒ **Two independent pulls give $84.67 (+1.29%). The divergence is +0.07pp — there is none.** Diagnosable: `83.59 × 1.0384 = 86.80` **exactly** (base correct) and the **7/31 intraday HIGH was $86.87** ⇒ an intraday print labelled a close, on a $5.81-range bar. **Brent's leg reproduces exactly ⇒ one leg, not a source problem.** Correction delivered **mid-session** because WALTER was live.
-3. **⚠️ MY OWN 7/31 SURFACE:** STATUS and SCRATCH both said *"OVX 65.60 (+3.39%)… vol re-bid alongside price is the OPPOSITE of the decompression leg (a) waits for."* **The CLOSE was 63.04 — OVX FELL −0.63% while Brent rose +1.22%.** The direction of travel was **TOWARD** met, and leg (a) is at **−8.60%**, not −4.89%.
-> **★ THE COMMON ROOT, AND IT IS WHY I AM WRITING IT AS ONE ITEM: all three are intraday-or-pre-decision reads shipped as settled facts, and a SPREAD built from two prices is doubly exposed — an intraday error in EITHER leg manufactures a fake divergence** (`[[finding_ohlc_verify_before_session_claims]]`). Third instance on my board this week. **I am not throwing stones from dry ground: my own 7/31 STATUS carried `WTI $85.18` off the same 10:18 AM read.**
+**② DEPLOY GATE v2 PREMISE AUDIT (Will-directed) — ⛔ MY OWN CONCERN REFUTED. NO SPEC CHANGE.** → `setups/2026-08-02_deploy-gate-v2-premise-audit.md`.
+- **Factual half TRUE:** there is no abort leg. **Harmful half FALSE.** Base-rated over 1,045 sessions (arming proxy Brent 1d ≥+3%, n=79, frozen rule incl. re-ratchet): fires **81.9%** within 20 td; the de-escalation tilt **is real** (**62.7%** of fires with crude below its arming level) **but it is the design intent working — buying the dip INSIDE a live crisis**; it delivers cheaper vol (**OVX 55.0 → 47.8**) and **IMPROVES the right tail**: `P(max Brent gain ≥15% within 63d)` **44.4% gated vs 35.3% ungated (+9.2pp)**. Robust at every arming threshold +2%→+5% and depth −10%→−20%.
+- **★ THE COUNTERFACTUAL IS THE LESSON: "fixing" it on my framing would have TIGHTENED a gate adding ~+9pp of edge, with 9 sessions on the clock, on a hypothesis that fails its own base rate. Wrong repair to the wrong defect — identical to LESSONS #21(a). n=2 on me escalating before base-rating.**
+- **What survives:** the base rate validates the gate **for DIPS** and is **silent on TERMINAL RESOLUTION (n=0)**. **The premise control already exists — Will's [Approve].** Added a **disclosure, not a leg** (direction-neutral).
 
-**★ WHAT I DID *NOT* DO — the honest half:** I did **not** over-correct WALTER's conclusion. **It survives on the Brent leg alone** (+1.22% is a small move for a claimed strike on two escorted tankers) — the instrument failed, the claim did not (`[[finding_claim_outlives_its_discredited_instrument]]`). **And "WTI did not outrun Brent" is the ABSENCE of an observation, not evidence the market DID price it.**
+**③ TTF PULLED PRIMARY — THESIS v5.2 → v5.3.** **The market NEVER repriced Ras Laffan:** TTF had already run **+78.1%** into the war's opening month **before** the 3/24 FM, then **FELL −17.0%** across the FM month (trough €38.77, 4/17). **What is in the price is HORMUZ** (+24.0% on the closure leg vs Brent +16.2%; post-peak −7.1% vs −6.9%; corr +0.554 → +0.710, n=15 small). ⇒ **CAPACITY-irreversible ≠ PRICE-irreversible; mark down the WHOLE energy complex on any de-escalation branch.** Also killed my own *"TTF softening"* wording (**94th %ile, +1.53% on the day**).
 
-**🛢️ GRADED THE OPEC+ DECISION ITSELF — NOT BEARISH, AND THE INCREMENT IS CLOSE TO FICTIONAL** (LESSONS #10, #17). Effective spare ≈ **ZERO**: EIA STEO Jul-26 puts OPEC Q3 surplus at **0.02 mb/d**, **Middle East 0.00**; IEA OMR Jul-26 leaves Saudi/Iraq/Kuwait "Effective Spare Capacity" **BLANK**. The barrels also have a **delivery** problem — Saudi's increment must leave via the Yanbu bypass with Hormuz closed; Russia's sits behind the constraint that halted Sheskharis five days. **★ The tell is that the increment DID NOT CHANGE: the same +188 kb/d for a FOURTH straight month while Brent ran +24% on the month reads as INABILITY, not restraint — mildly SUPPORTIVE of the premium thesis.** Not treating "the 2023 unwind is complete" as supply arriving.
+**④ EU STORAGE → SAME-NIGHT QUALIFICATION.** The storage picture is more consistent with **DEFERRED** than **ABSORBED** ⇒ a winter layer a reopening does **not** reverse ⇒ the fast off-ramp I gave SAM/HAWK is likely only **PARTIAL**. **⛔ Held as a HYPOTHESIS, three blockers, one decisive: no historical Aug-1 baseline · the applicable target is unverified · attribution not isolated.** Withdrawal condition stated in both packets.
 
-**📬 MAIL — BOTH LANES DRAINED TO ZERO, 5 CONSUMED, RECONCILED 1:1.** Includes a **deliberate two-row entry** for `SIG-W-20260802-001`: I read it off WALTER's **uncommitted BOARD surface** ~25 min before WALTER routed it to my lane, so it is logged **once as `BOARD_INFLIGHT` (no file moved — not mine, in flight) and once as the delivery reconciliation.** Collapsing them would have hidden that I acted before the routing existed.
+**⑤ ⛔ FIVE RELAYED FIGURES REFUTED — THREE MINE.** (1) PROME/ORACLE *"Q4 PAUSED"* → **not decided**. (2) WALTER's WTI close **$86.80** → **$84.67**; the 2.62pp "spread tell" is **+0.07pp**. (3) **My** 7/31 OVX **65.60** → close **63.04** (direction of travel was *toward* met, not away). (4) **My** *"TTF softening."* (5) **My** *"7/27 analogue −7.75%, reproduces on my own OHLC"* → **−8.70%**, back-solved off an intraday quote. **★ (5) is the worst: I asserted a verification I never ran, inside the banner where I was correcting two others for the same class.** → **LESSONS L22 added** (index + prose, same commit, `--prose` clean) and auto-memory `[[finding_record_of_an_action_is_not_the_action]]` extended to **n=6** with the self-directed form.
 
 ## NEXT SESSION (dated, future-verifiable)
 
-1. 🔴 **Mon 8/3 — grade the tape against the frozen pre-registration** (item 0 above). **Do not re-derive the discriminator after seeing the print.**
-2. 🔴 **Re-derive OVX peak + leg (a) EVERY session to 8/13.** Watch for a **re-ratchet**: a resumed energy-site order would lift the peak and reset the −15% line *upward*, which makes leg (a) *harder*, not easier.
-3. 🟠 **Wed 8/5 — EIA wk-7/31** (pre-register before the print, source-grade stated inside). **Fri 8/7 — COT as-of 8/4, must not stack.**
-4. 🟠 **~8/12 FALCON co-belligerency falsifier + July CPI · 8/13 ARM EXPIRY (hard) · ~8/15 Jazan restart · 8/4-5 FALCON Yanbu leg-3 re-pull.**
-5. 🟠 **NEW — Sept 6 OPEC+ is the ACTUAL Q4 decision point** and is now docketed. **Grade it against the STATEMENT, not delegate sourcing ahead of the meeting** — that is precisely what produced today's error.
-6. 🟠 **Carry the TTF softening to SAM + HAWK** — still owed, **6th session**. Pair with the Rhine freight datum. **This has now slipped a full week; either send it next session or write down why it is not worth sending and close it.**
-7. 🟠 **Register BRT-16 / BRT-21 successors FORWARD** (disambiguated premise; P(trigger) separate from P(consequence|trigger)). Unrushed.
-8. 🟡 **Branch-2 partial-execution rung** — 6th session owed. FALCON verified −23%/−32%, sitting exactly between my rungs.
-9. 🟡 **Resolve HOW the 7/30 tanker figures were produced** — I can show they don't reproduce, not yet why.
+1. 🔴 **Mon 8/3 settle** — grade the pre-reg (item 0). **Re-derive OVX peak + leg (a); if it fires, the disclosure binds.**
+2. 🟠 **Wed 8/5 EIA wk-7/31** · **🔴 Fri 8/7 COT as-of 8/4 (no stacking).**
+3. 🟠 **Resolve the EU storage target** (one search) → stands-or-withdraw on the 8/2 qualification. **Then run the AGSI+ history endpoint** for the Aug-1 baseline once Will's key lands.
+4. 🟠 **~8/12 FALCON co-belligerency falsifier + July CPI · 8/13 ARM EXPIRY (hard) · ~8/15 Jazan restart · 8/4-5 FALCON Yanbu leg-3 re-pull · Sep 6 OPEC+ (the real Q4 decision).**
+5. 🟠 **ASK FALCON TO RUN `hormuz_transit_watch.py`** — **its state file says last run 7/30, last data date 7/23.** My kill-test leg 2 depends on **FALCON's** instrument and it is ~10 days stale, while WALTER's Kpler press relay (5 vessels, 7/31) is **fresher than the structured feed.** Not my script to run — it writes FALCON state.
+6. 🟠 **Register BRT-16 / BRT-21 successors FORWARD** (P(trigger) separate from P(consequence|trigger)). Unrushed.
+7. 🟡 **Branch-2 partial-execution rung** — 7th session owed. FALCON verified −23%/−32%, between my rungs.
+8. 🟡 **Test Barchart's free tier for Brent overnight** — promised to Will; do not ask him to register until I confirm coverage.
+9. 🟡 **Resolve HOW the 7/30 tanker figures were produced** — I can show they don't reproduce, not why.
 
 ## OPEN THREADS / WATCHES
 
-- 🔴 **THE OFF-RAMP IS NOW A LIVE QUESTION FOR THE FIRST TIME, AND THE ANSWER IS STILL NO.** Stage-A v5 = {(i) signature AND (T) tanker liveness AND (C) crude 2-day follow-through}; transit test sits in the **kill test as leg 2**. **Leg (i) fails on a POTUS-channel claim.** ⚠️ **Legs (T) and (C) are UNTESTED because (i) never opened** — do not read "Stage A did not fire" as "the legs were checked."
-  - ⚠️ **STILL OPEN by prior ruling:** the un-anchored *"war-risk halves"* threshold (candidate: absolute *"below 2.5% of hull"*, frozen, no percentile).
-  - 🔴 **THE LIMIT THAT MUST TRAVEL WITH THE SPEC:** zero genuine physical reopenings this regime ⇒ real-vs-fake is **UNCALIBRATED**; **v5 is optimised against a PROFITABLE TRADE, not a VERIFIED REOPENING (n=2).** Do not delete that sentence from `TRADE.md`.
-- **★ TRANSITS ARE NOW THE THING TO WATCH, AND THE DIRECTION HAS FLIPPED TO UP.** Kill-test leg 2 needs **>35/day ×2 consecutive** — ~7× from the 7/31 print of 5. **If the deal parameters are real, this series turns FIRST**; it is the earliest non-rhetorical confirm available, and WALTER's "remaining-ladder #6" and my kill test converge on it independently. ⚠️ **Do NOT over-read the one-day −77% (22→5): single-day counts are noisy and my PortWatch run was 15/11/9/14/10, which makes 22 the outlier, not 5.**
-- 🔴 **The closure is OVER-DETERMINED — 4 layers.** Mines (③) and the US blockade (④) survive. **CENTCOM 7/31 counter-frame: *"Iran does not control the Strait of Hormuz… remains open to commercial maritime traffic,"* 900+ transits facilitated in two months — a DISMISSAL-IN-GENERAL of the IRGC two-tankers claim, not a specific refutation. GATE 2 stays NOT FIRED** (no vessel names on either side). ⚠️ **The "2 disabled" running total PRE-DATES the claim — not confirmation of it.**
-- 🇷🇺 **Russian crude channel: a halt, not destroyed capacity — supports v5.2.** Sheskharis −5 days but **aggregate liftings 4.16 M bpd 4wk-avg to 7/26 vs 4.21 to 7/12 = −1.2%, still near the post-invasion record. Crude is still escaping.** Corrections adopted: **Perm/Ryazan were 7/29, not the 7/30 my own banner relayed**; Volgograd/Lukoil ~15 Mt/yr added (larger than Perm's 13; damage/throughput/duration **UNESTABLISHED**).
-- ⚠️ **BLACK SEA WAR-RISK IS *UNOBSERVED* SINCE 7/21, NOT UNCHANGED** — no fresh print despite six CPC strikes in twelve days; HAWK's 10-day staleness bar **BREACHED**. **Trap: searches resurface a DEC-2025 "RU 0.65-0.8% / UA 0.5%" baseline — must NOT be read as a decline from the 7/21 level** (`[[finding_relayed_level_predates_the_event]]`).
-- 🟠 **Diesel crack: thesis stronger, entry worse.** 99.2nd %ile, desks publicly long, TERRY's crowding objection **UNREPAIRED**, card = **`NO AT THIS PRICE`**. Unchanged.
-- ⚠️ **DATELINE remains the failure mode**, not source grade. New this session: **four recirculation traps in one WALTER sweep** (Apr-7 "two-week ceasefire" now n≥3 · NBC "14-point deal" = the **June 17 Islamabad MOU** recirculating · a 2025-vintage "strikes on three nuclear sites" · an unvintaged Israeli-facility item). **The June-MOU trap is the dangerous one — carried naively it asserts the current talks already concluded.**
-- 🟡 Flows-vs-inventories shut-in gap · MRPL re-contracting falsifier.
+- 🔴 **THE OFF-RAMP IS LIVE FOR THE FIRST TIME AND THE ANSWER IS STILL NO.** Leg (i) fails on a POTUS-channel claim. ⚠️ **Legs (T) and (C) are UNTESTED because (i) never opened — do not read "Stage A did not fire" as "the legs were checked."**
+  - ⚠️ **STILL OPEN by prior ruling:** the un-anchored *"war-risk halves"* threshold (candidate: absolute *"below 2.5% of hull"*, frozen).
+  - 🔴 **n=0 on genuine physical reopenings — real-vs-fake is UNCALIBRATED; v5 is fitted to a PROFITABLE TRADE, not a VERIFIED REOPENING.** Do not delete that from `TRADE.md`. **The gate audit inherits the same limit.**
+- **★ TRANSITS ARE THE THING TO WATCH AND THE DIRECTION IS NOW UP.** Kill-test leg 2 needs **>35/day ×2 consecutive**; latest print **5 (7/31, Kpler)** vs the **88/day** baseline. **If the deal is real this series turns FIRST.** ⚠️ Don't over-read the one-day 22→5 (my PortWatch run was 15/11/9/14/10 — **22 is the outlier**).
+- 🔴 **CENTCOM 7/31 DISMISSED the IRGC two-tankers claim IN GENERAL, not specifically** (900+ transits facilitated in 2 months); **no vessel names either side ⇒ GATE 2 NOT FIRED.** The *"2 disabled"* total **pre-dates** the claim.
+- 🇷🇺 **Russian crude: a halt, not destroyed capacity — supports v5.2/5.3.** Sheskharis −5 days but liftings **4.16 vs 4.21 M bpd = −1.2%**, near the post-invasion record. **Perm/Ryazan were 7/29, not the 7/30 I relayed.** ⚠️ **Black Sea war-risk UNOBSERVED since 7/21** (HAWK's 10-day bar breached); **trap: a DEC-2025 "RU 0.65-0.8%" baseline is recirculating.**
+- 🟠 **Diesel crack: thesis stronger, entry worse.** 99.2nd %ile, desks long, crowding **unrepaired**, card **`NO AT THIS PRICE`**.
+- ⚠️ **DATELINE remains the failure mode.** New: **four recirculation traps in one WALTER sweep** — the **June-MOU one is the dangerous one** (carried naively it asserts the current talks already concluded).
+- 🟡 Flows-vs-inventories shut-in gap · MRPL re-contracting falsifier · **Jazan/product half of the v5.3 retraction is UNTESTED** (I pulled gas, not cracks).
 
 ## POSITION DECISIONS PENDING
 
-- **USO Sep-18 150/165 spread — HOLD, no action.** USO $129.17; **no spread mark taken, deliberately** — the 165C leg is thin and a screen mid would be fiction (root rule #4). ⚠️ **FORGE reconcile on the fill price STILL OWED from Will — 3rd consecutive session, open since 7/24.**
-- **Convex MAIN arm — ARMED, no capital, 9 sessions left on the 8/13 clock.** Leg (a) −8.60%, unmet.
-- **Off-ramp — ARMED-PASSIVE, entry knowingly defective; leg (i) unmet on the weekend's claim.**
-- **TERRY diesel card — `NO AT THIS PRICE`.**
-- **XLE $65C Sep-30 = LAPSE.**
+- **USO Sep-18 150/165 spread — HOLD, no action.** USO $129.17; **no spread mark taken, deliberately** (165C leg thin; root rule #4). ⚠️ **FORGE reconcile on the fill price STILL OWED from Will — 4th session, open since 7/24.**
+- **Convex MAIN arm — ARMED, no capital, 9 sessions left.** Leg (a) −8.60%, unmet, **but plausibly one session away.**
+- **Off-ramp — ARMED-PASSIVE; leg (i) unmet on the weekend claim.**
+- **TERRY diesel card — `NO AT THIS PRICE`.** · **XLE $65C Sep-30 = LAPSE.**
 
 ## MAIL STATE
 
-- **BOTH LANES ZERO.** 5 consumed → **6 board_log rows** (the extra is the deliberate `BOARD_INFLIGHT` + delivery pair for `SIG-W-20260802-001`); **5 files `git mv`'d**, reconciled against the 5 rows that name a moved file.
-- **Outbox swept for the first time under step 13a:** 3 of 5 → `outbox/delivered/` (Stage-A proposal, defect-2 respec, Friday stack — all three ruled or acknowledged). **2 left open deliberately:** the boot-doc and closeout-doc audits, whose disposition is **pending in the round-2 batch** (per `CLAUDE.md` flag C3).
-- **Sent today:** → **WALTER** (WTI close refutation, mid-session because WALTER was live) · → **PROME** (OPEC Q4 correction).
-- **Owed BY me:** TTF softening + Rhine datum → **SAM, HAWK** (6th session) · one-line loop-closure to **FALCON** on the GATE-2 answer.
-- **Owed TO me:** **Will's FORGE fill-price reconcile** (7/24) · **Will's ruling on the un-anchored war-risk-halves threshold** · NEXUS to drain its inbox (my 7/28 correction packet).
+- **BOTH LANES ZERO.** 6 consumed → **7 board_log rows** (the extra is the deliberate `BOARD_INFLIGHT` + delivery pair for `SIG-W-20260802-001`, read off WALTER's in-flight surface ~25 min before routing existed).
+- **SENT TODAY (6):** → **WALTER** (WTI refutation, mid-session; **WALTER consumed it and re-based its anchor ladder to my LEVEL formulation same night**) · → **PROME** (OPEC Q4) · → **SAM ×2** (TTF finding, then the storage qualification) · → **HAWK ×2** (same pair).
+- **Outbox:** 2 audits still open (boot-doc / closeout-doc), **disposition pending in the round-2 batch** — deliberately not swept.
+- **Owed BY me:** one-line loop-closure to **FALCON** on the GATE-2 answer · the transit-cadence ask to FALCON (item 5).
+- **Owed TO me:** **Will's FORGE fill-price reconcile** (4th session) · **Will's ruling on the war-risk-halves threshold** · **GIE API key** (Will registering) · NEXUS to drain its inbox.
 
 ## WORKBOOK HEALTH
 
-- **LIVE:** STATUS (**241 lines**, under cap — **6 lines reclaimed this session** by archiving the 7/8/7/9/7/10 banners → `workbook/STATUS_archive_20260802_jul8_jul10_preRearm.md`) · TRADE (**untouched — no position or spec moved**) · THESIS v5.2 (WTI-Brent threshold row refreshed to closes + a read-it-as-a-LEVEL caveat) · CATALYSTS (**19 rows** — 8/2 OPEC+ RESOLVED, **Sept 6 OPEC+ added forward**, 8/13 arm row refreshed) · NEXUS_BRIEF · board_log (**115 rows**) · SCRATCH.
-- **FROZEN (correct):** `workbook/` KB · VX · FLOW · GROUP_MAP — **4 files**. `thesis/TIMELINE.md` separately and correctly FROZEN 2026-07-01.
-- **Boot kit: 5 scripts, all green, 34.9s.** ✅ **Lesson-conflict check reports ZERO unresolved contradictions** — the `entry_timing` pair closed 7/31 with the Stage-A v5 phase separation. Predictions-due scan clean; **no predictions resolved or re-armed this session** (none due).
-- **⚠️ GIT — READ THIS BEFORE PULLING NEXT SESSION:** `git pull --rebase` **ABORTED at boot** — unstaged changes outside my dir (SAM ×3, WALTER anchors, BOARD). **No pull was needed: `origin ahead = 0`, local ahead = 8.** Followed pull-protocol **Option B** (commit locally, defer). **WALTER was actively mid-session throughout** — its dirty files are **in flight, not orphaned** (`[[finding_dirty_path_means_in_flight_not_orphaned]]`); **do not sweep them.**
+- **LIVE:** STATUS (**247 lines**, under cap — 3 banners added tonight, 3 archived to `workbook/STATUS_archive_20260802_jul8_jul10_preRearm.md`) · **TRADE (audit block + 8/2 stamp)** · **THESIS v5.3 + CHANGELOG** · NEXUS_BRIEF · **CATALYSTS (21 rows** — 8/2 OPEC RESOLVED; **added Sep 6 OPEC+, Mon 8/3 settle-grade, Nov 1 EU storage)** · **LESSONS.md + LESSONS_INDEX (L22 added, same commit, `--prose` exit 0)** · board_log (**116 rows**) · SCRATCH.
+- **FROZEN (correct):** `workbook/` KB · VX · FLOW · GROUP_MAP. `thesis/TIMELINE.md` separately FROZEN 2026-07-01.
+- **Boot kit: 5 scripts green (34.9s).** Lesson-conflict check **ZERO unresolved**; predictions-due **clean, none resolved this session**.
+- **🔑 KEYS:** `EIA_API_KEY` + `FRED_API_KEY` **SET** at `FORGE/tools/market-data/.env` *(note: NOT `FORGE/.env` — that path does not exist)*. **`GIE_API_KEY` pending from Will** — unlocks **both** `agsi.gie.eu` (storage) and `alsi.gie.eu` (LNG terminals).
+- **⛔ INSTRUMENT GAPS, CONFIRMED TONIGHT — none are API-key problems:** **Baker Hughes primary is HARD-DOWN from this box** (`000` on both URLs, ~5s, not the 7/31 load timeout I assumed) ⇒ BRT-26 grades off agreeing aggregators, flagged every time · **Brent has NO overnight feed** · **no Worldscale/freight feed** (why the VLCC threshold was retired 7/31) · **HY energy OAS confirmed unavailable on free data** (LIQUID, positive-controlled).
+- **GIT:** origin was **0 ahead** all session; no pull needed. ⚠️ **WALTER's `ace7a534d` swept 8 of my staged renames via a pathspec-less commit** (shared `.git/index`) — **pure R100 renames, nothing published mid-edit, nothing to revert**; WALTER disclosed it and logs it as n=2. `[[finding_concurrent_commit_index_race]]`.
