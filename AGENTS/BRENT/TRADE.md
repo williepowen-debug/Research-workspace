@@ -122,7 +122,31 @@
 >
 > **⇒ IF LEG (a) FIRES AND LEG (b) PRICES ≤33% ON A LIVE Oct-16 CHAIN → deploy packet to Will at ~$300. Will holds the [Approve]. Neither ruling authorizes a fill.**
 
-### ⏱️ Gate state — NOT FIRED, and it cannot be graded yet
+> # 🔴🔴 **GRADED 2026-08-03 ~16:20 ET — `#BRENT-01`. LEG (a) FIRED. THE GATE DID NOT.**
+>
+> | | |
+> |---|---|
+> | **Official OVX CLOSE 2026-08-03** | **57.20** *(prior close 63.04 ⇒ −9.26% on the day)* |
+> | Post-arm running peak | **68.97** (7/23) — ✅ **RE-DERIVED from the full 7/16→8/3 close series this session. Unchanged. NO RE-RATCHET** (today was a de-escalation session; nothing raised the peak). |
+> | Fire line (−15.0%, CLOSE basis, Will-frozen 7/31) | **≤ 58.6245** |
+> | **Δ from peak** | **−17.065%** |
+> | **LEG (a) VERDICT** | ✅ **FIRED — cleared by 1.42 index points / 2.07pp.** |
+>
+> ### ⛔⛔ **BUT THE GATE DID NOT FIRE, AND THE DISTINCTION IS THE WHOLE POINT.**
+> **DEPLOY GATE v2 requires `(a) AND (b)` ON THE SAME SESSION**, and **leg (b) is graded on a LIVE CHAIN AT FILL.** **TERRY closed out before it was told** (PROME's 3.5-hour routing delay, owned by PROME), so there was **no live chain, no fill, and therefore no leg (b) grade today.**
+> **⇒ 8/3 satisfied ONE leg of a two-leg AND-gate. THE ARM IS NOT DEPLOYED, NO CAPITAL MOVED, AND THE ARM IS NOT CONSUMED** — the gate fires on *"the FIRST session satisfying BOTH,"* and today was not that session. **Clock: day 12 of 20 · 8 sessions remain (8/4, 5, 6, 7, 10, 11, 12, 13) · expiry Thu 2026-08-13.**
+> ⚠️ **Leg (a) must fire AGAIN on whatever session actually fills.** Today's fire is **not banked and not carried forward.** With OVX at 57.20 against a 58.62 line there is 2.5% of cushion, but a re-escalation closes it. **That is a fact, NOT a reason to hurry — we could not have filled today under any urgency.**
+>
+> ### ✅ **THE DISCLOSURE CLAUSE WORKED, AND IT WORKED IN THE RIGHT ORDER.**
+> The v2 addition requires the three figures **IN FIGURES BEFORE THE FILL** if leg (a) fires while a de-escalation claim is live. **A de-escalation claim was live, leg (a) did fire, and the figures were staged at ~11:15 ET — five hours BEFORE the close, not assembled after.** *(i) GUIDANCE ONLY, contested · (ii) 10/day = 11.4%, and Lloyd's −52% WoW · (iii) ORDINARY DIP ~88%.* **This is the clause doing exactly the job it was written for, on its first live test.**
+>
+> ### 🔍 **VERIFICATION — two witnesses attempted, one available, and I am stating what that does and does not establish.**
+> **FRED `OVXCLS` (CBOE's official daily-close series) matches my feed EXACTLY on every prior day it publishes: 7/27 60.62 · 7/28 57.15 · 7/29 67.59 · 7/30 63.44 · 7/31 63.04 — 5 for 5, including the 63.04 the whole gate distance was measured from.** ⚠️ **FRED has NOT yet published 8/3** (it lags a day). **So the INSTRUMENT is validated; TODAY'S VALUE is single-source.** ⇒ **Re-verify 57.20 against `OVXCLS` at next boot.** *(`[[finding_loadbearing_number_must_be_reproducible]]` — a number that governs capital gets a second witness, even retroactively.)*
+> ⚠️ **DATA DEFECT IN THE FINAL BAR, FLAGGED BECAUSE IT IS IN THE EXACT BAR I GRADED ON:** the 15:55 5-minute bar returned **`H 81.19`** against `O 57.08 / L 57.06 / C 57.20` — **a 42% spike high touching neither open nor close. That is a bad tick**, the same class PROME caught in CL=F on 8/2. **It does NOT touch this grade — the gate is CLOSE-basis and I use the close** — and the close is corroborated three ways: the 5m final bar (57.20), the daily bar (57.20), and a smooth approach through 56.67 → 56.69 → 56.73 → 57.06 → 57.20. **Recorded so nobody later re-reads that bar as a genuine intraday spike.**
+>
+> **📋 COMPANION GRADE, SAME SESSION: the frozen BEHAVIORAL TEST resolved CORROBORATING** (WTI settle −5.07% = 67.6% of the −7.50% analogue) — see the block below. **Two pre-registrations graded today; both survived their own tests.**
+
+### ⏱️ Gate state at 10:23 ET — *(dated record of the pre-close read; SUPERSEDED by the 16:20 grade above)*
 
 | | |
 |---|---|
