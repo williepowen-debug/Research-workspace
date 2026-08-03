@@ -1,0 +1,42 @@
+# BRIEF.md — the narrative block for Will's briefing page
+
+**Owner:** PROME. **This file is the ONLY hand-written half of the briefing** — everything else on the page is parsed from canon at build time (`PROME/tools/will_brief.py`).
+
+**Why it exists:** the facts (dates, gates, queue, cash) generate cleanly. The *story* — what the bet is, what would break it, what actually decides it — is judgment and cannot be parsed from a TSV. Splitting them means the page can say honestly which half is fresh.
+
+⚠️ **Rewrite this at every closeout where the picture changed.** The page stamps this file's own vintage SEPARATELY from the generated facts, so a stale story shows as stale rather than passing as current (`[[finding_dated_stamp_is_a_trigger_not_a_shield]]`). If nothing changed, leave it — an unchanged-but-still-true brief is fine; a silently-wrong one is not.
+
+**Format rules:** section headers are load-bearing (the parser keys on them — `HEADLINE`, `STORY`, `QUESTION`, `POSITION`, `WATCH`). Plain sentences. No tables, no jargon that needs a second file to decode. Write it the way you would say it out loud.
+
+<!-- ============================================================ -->
+
+## WRITTEN
+2026-08-03 16:45 ET
+
+## HEADLINE
+Your oil bet got tested today and survived on the physical evidence, but the gate that would let you add to it did not fire.
+
+## STORY
+You own essentially one bet, expressed a few ways: **the Middle East stays disrupted.** Today was the first real test of it.
+
+Trump announced negotiations, Tehran denied them within half an hour, and crude fell about 5% anyway. So the market spent the session pricing a resolution. The physical data went the other direction — Hormuz transits **halved** in the most recent complete week, 39 against 82, and they now sit at roughly 11% of normal traffic. Mainstream non-Iranian operators, the cohort that would have to come back for any normalization to be real, fell 27% on their own.
+
+That gap is the whole position right now. Either the market is early and this is a dip that hands you cheap re-entry, or the disruption genuinely ends and the oil book is wrong. BRENT puts it at about 88% ordinary dip — while being honest that its evidence is blind on the remaining 12%, because nothing like a true resolution has happened yet to learn from.
+
+One thing worth seeing plainly: your oil exposure is mostly **35 USO shares**. The Sep-18 150/165 spread needs USO to rise 22.6% just to reach its long strike, so it is close to dead money. You are less positioned for a spike than the number of oil line-items suggests.
+
+## QUESTION
+Is the de-escalation real, or is the market pricing a headline the physical data does not support? Nothing resolves it cleanly — but **8/7** (Japan COT + jobs + crude positioning, all one day) and the daily Hormuz transit prints are what move the needle.
+
+## POSITION
+About **53% cash**, so you are not over-committed and nothing forces your hand.
+
+Three things live: the **TLT puts** riding to Sep-30 and behaving, the **USO shares** that took today's hit, and the **USO spread** that is realistically gone. The QQQ puts expired worthless today — that loss is already sunk and closed.
+
+Nothing needs an approval from you tonight.
+
+## WATCH
+- **The oil arm expires 8/13.** Leg (a) fired today; the gate needs both legs on the *same* session, so today's fire is not banked and must happen again on whatever day actually fills.
+- **The FXY trade is built and frozen until 8/7.** $450, nine contracts, correctly waiting on the COT print. Don't front-run it.
+- **The bank-put reshape is due 8/5 and is not built.** This is the item most likely to be missed.
+- **Overnight, watch whether the negotiation track produces an actual instrument** rather than more guidance. An instrument argues *against* adding oil; continued denials change nothing.
