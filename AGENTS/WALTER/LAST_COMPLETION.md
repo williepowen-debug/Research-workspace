@@ -16,7 +16,7 @@
 - **🧹 STALENESS SWEEP (Will-directed, 15d overdue):** 142 candidates of 662 → **5 tags, 4 INDEX markers, 137 deliberately untagged** per FORMAT_SPEC's "only actively-misleading" rule, **every non-tag recorded so the calls stay auditable.** Discharged the 7/19 record's explicit carry (Hormuz reopening scorecard → SUPERSEDED).
 - **📚 DEWEY DR-1/2/3 all delivered 8-10d early** + a self-CORRECTION + an ADDENDUM; 3 ledger rows closed; **backstop verified 14 stubs / 9 agents / ZERO misses.**
 - **📋 OTTO packet routed both items** (`-003` Tricolor cooperators 1→3 + both plea transcripts unsealed + the 8/6 conference VACATED; `-004` First Brands cramdown with the prong split preserved).
-- **Registry: 5 rows refreshed**, all 4 `registry_lag` MEDs cleared.
+- **Registry: 6 rows refreshed** (TERRY added at closeout after it committed post-refresh), all `registry_lag` MEDs cleared.
 
 ## RESULT
 
@@ -27,6 +27,7 @@
 - **🟢 PUSH CLEAN**; origin current; **0 orphans**; `orphan_check` clean; **`memory_index_check --strict --slug` (×2) PASSED** after blocking correctly on the uncommitted file pre-commit.
 - **Consumer check (1c):** evaluated — **no published NUMBER of mine was superseded this session.** The three corrections were a **retired level** (`-002`), a **refuted claim** (CRMT), and a **framing** (`-005`). ⚠️ **The retirement case is precisely the one `consumer_check` cannot express** (`--old`/`--new`, no `--retired`) — recorded as a proposal to PROME rather than worked around.
 - `trash` still not on PATH (carried; needs Will).
+- **🟡 `intake_liveness` FALSE-POSITIVES EVERY MONDAY — found at this closeout, NOT flagged to PROME because I checked the day first.** The doctor reported *"lane STALE 3d — collector likely down; flag PROME."* **It is not down.** The lane is **weekday-daily**; 7/31 was a **Friday**, so a Fri→Mon gap is 3 calendar days of expected silence — and the run history shows **the identical shape at 7/24 (Fri) → 7/27 (Mon)**. The check counts CALENDAR days against a WEEKDAY collector, so **it will fire every Monday and on every holiday**, training the reader to dismiss the one tier a real collector death would appear in. ⚠️ **Deliberately NOT patched at closeout** — it is my tool and the fix is small, but shipping an untested guard change is the exact failure `[[finding_test_the_guard_not_just_the_guarded]]` exists to prevent. **Next session: make it business-day-aware, and test it against a synthetic Monday AND a synthetic real outage before shipping.** *(This is also `[[finding_weekday_assumed_never_evaluated]]` running in the useful direction for once — `date +%A` before an escalation, not after.)*
 - **The 63-item delivered-but-unconsumed backlog is recipient-side** (PAT-028 ceiling, 11 ACTION / 52 INFO) — not WALTER-fixable.
 - **SAM / TERRY / PROME had files in flight all session — none swept, none committed.** The 8/2 `FORGE/STATUS.md` flag is **CLEARED** (clean at this boot).
 
@@ -41,6 +42,7 @@
 **🟢 RESOLVED this session:** the Monday-afternoon catalyst (resolved as a contradiction, ADDENDUM #11) · the Velos Amber outcome (`-005`, ADDENDUM #12) · **DEWEY DR-1/2/3 delivered + ledgered + backstop-verified** · the OTTO packet (both items) · the staleness sweep + the 7/19 explicit carry · all 4 `registry_lag` MEDs · the retired-gamma-band error (found, corrected at every surface, promoted to auto-memory).
 
 **🔴 FIRST ACTIONS NEXT BOOT:**
+0. **Fix `intake_liveness` to be BUSINESS-DAY aware** (see GAPS) — it will false-fire again on the very next Monday boot, and it is my tool. Test against a synthetic Monday AND a synthetic real outage before shipping.
 1. **FT-06 session 3/5 at Tuesday's close** (VIX 15.74 Monday; earliest completion ~8/6). **RED's exit semantics for FT-06 are still UNDEFINED** — owed by RED.
 2. **MU Tuesday 8/4** — presold-vs-spot fraction and price vintage (VULCAN actioned; carried since 7/31).
 3. **Transit counts.** Named in `-005` as the cheapest instrument on whether the ~−11% priced a press release or a reopening. **Pull them; do not wait for a headline.**
