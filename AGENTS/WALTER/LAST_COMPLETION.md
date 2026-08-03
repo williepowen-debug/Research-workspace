@@ -33,7 +33,7 @@
 
 ## WILL_NEEDS
 
-- **🟡 `corrects:` required on `signal_type: correction`** — a header-schema change (RULE 8 routes it to FORMAT_SPEC and structural changes to Will first). Key the doctor off `signal_type` (9/9 reliable), not the field being skipped. **Retro-fill is 8 signals, each already naming its target in prose — ~15 min. Say go.**
+- **🟢 `corrects:` schema change — WILL-APPROVED AND SHIPPED 8/3.** FORMAT_SPEC **v0.15** (`correction` enum + `corrects` mandatory) · CHECKLIST **v0.31** · STATE §1 · BOOT_PROTOCOL item 24 · CLAUDE.md 24→25 checks · `walter_doctor` **`correction_target_declared`** (25th check, tested in both directions) · **9/9 corrections retro-filled.** ⚠️ **The morning's diagnosis was WRONG and the fix corrects it: `corrects:` was never in the spec and `correction` was never in the enum — an UNSPECIFIED PATHWAY, not authors forgetting.** The value grammar (SIG-ID / `SELF` / `EXTERNAL:`) is data-driven: running the retro-fill first showed a SIG-ID-only design would have forced a false entry in **3 of 9**.
 - **🟡 Phone Part A** (~15 min; carried) — `phone_inbox/` still not enacted; the sweep is live and self-arms.
 - **🟡 The batch-manifest guard** — carried; RAV-QC-converged. No multi-item drop this session to exercise it.
 
@@ -58,7 +58,7 @@
 
 ## OPEN DESIGN DECISIONS (need Will) — condensed
 
-**🟡 ACTIVE:** **`corrects:` required on `signal_type: correction`** (new — schema change + 8-signal retro-fill, ~15 min, see WILL_NEEDS) · **phone Part A** (carried) · **the batch-manifest guard** (carried, RAV-QC-converged).
+**🟡 ACTIVE:** **phone Part A** (carried) · **the batch-manifest guard** (carried, RAV-QC-converged). *(The `corrects:` schema change is RESOLVED — Will-approved and shipped 8/3, see WILL_NEEDS.)*
 
 **🟠 DEFERRED:** RAV run cadence · CLIMATE_MACRO sustain-vs-fold · RESEARCH-INTAKE v2 dedupe-by-story · lane `edgar_8k` watchlist scope · I4 CROSS_REFS cache · VULCAN 5-axis re-cut · LOOPS.md ownership · B5 scheduled-scan · DEWEY delivery-reliability (**now n=3 clean of 4 runs** — re-eval at n=4) · phone-signal v2 (not recommended) · IMMEDIATE-unconsumed-latency doctor severity carve.
 
