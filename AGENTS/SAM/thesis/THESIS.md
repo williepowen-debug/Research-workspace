@@ -20,7 +20,7 @@
 | Yen-strengthening direction / level (multi-year) | HIGH | **MEDIUM** | Pillar 1 directional vector INVERTED post-Warsh; Pillar 3 moved FARTHER from its <145 trigger (USDJPY 161+); Pillar 4 stayed loaded but FAILED to fire on its expected catalyst (3 distinct failure modes). Pillar 2 + the structural-LEVEL argument still operate, but directional *convergence* is gone. |
 | Near-term timing (3-6mo modal path) | MEDIUM | **LOW** | Dominant catalyst spent without firing; no near-term trigger in the modal window; cross-pair yen-bid-on-risk-off channel decoupled Jun 11. Live 7d/30d/60d carry-unwind buckets in STATUS. |
 | **Carry-trade convexity TAIL (60d+)** | (not graded) | **MED-HIGH** *(v1.6.11 2026-08-02 — GATE-SAM-30 re-fire on the Jul-28 print [−163,412/90.8%, episode-deepest] through the registered flip-condition; PROVISIONAL on the 8/7 attribution print — data predates the 7/30 op + hawkish hold. Prior: MEDIUM per v1.6.5 2026-07-10 PM — SAM-36: Jul-7 print DE-LOAD [−123,778/68.8%, covered off Jun-30's 86.2%] reverted the AM's brief v1.6.4 MED-HIGH reclaim back to MEDIUM/break-even, RED #1 terms; v1.6.4 MED-HIGH (AM 7/10, SAM-30) stood <12hrs.)* | CFTC fuel BUILT through the escalation line on Jun-30 data, then COVERED sharply (largest WoW reduction in the series) on Jul-7 data — the single-anchor mechanical amplifier step reverts +8-10pp → +5pp. **✅ Full four-anchor re-pencil COMPLETED 2026-07-16 (owed item closed, MSG-002#SAM-01): 7d ~5 / 30d ~18 / 60d ~27** — net ≈ baseline, composition rotated (7d↓ cover+Phase-1 oil-yen-weakness, 60d↑ oil Phase-2 tail); amplifier +5pp (68.1% [Jul-14, SAM-37 STALL], residual ON). See STATUS § CARRY UNWIND + CHANGELOG 2026-07-16/17. |
-| Position vehicle fit | (FXY-spot+near-call) | **(a) hold-tighter-stop / (d) trim** *(vehicle-change OFF per RED #4 gate)* | A break-even MEDIUM frame does not generate enough edge to pay a vol structure's spread + theta + complexity. See § VEHICLE. |
+| Position vehicle fit | (FXY-spot+near-call) | **N/A — book is FLAT; the RED #4 gate is RETIRED 2026-08-03 (Will-approved)** | The v1.6 row asked whether to swap a *live spot holding* for a vol structure. There is no holding. Superseded by the two-question split in § VEHICLE: **instrument choice is answered (defined-risk options > spot) and ungated**; vol-cheapness is a standing TERRY pricing input, not a strategy gate. |
 
 **Current state (daily snapshot):** see `STATUS.md`. **Live carry-unwind buckets:** see `STATUS.md` § CARRY UNWIND PROBABILITY.
 
@@ -157,21 +157,26 @@ Promoted from Pillar-4/amplifier to a standalone channel. At 83.4% peak with no 
 
 ---
 
-## VEHICLE — 🔴 RE-OPENED (provisionally) 2026-08-02; the v1.6 RED-#4 gate below is SUPERSEDED
+## VEHICLE — ⚰️ THE RED #4 GATE IS RETIRED (2026-08-03, Will-approved). Replaced by the two questions it actually decomposes into.
 
-> **🔴 ADJUDICATION 2026-08-02 (METSUKE Run-13 E1 escalation — a registered gate fired and no doc said so).** The gate's own re-open condition **FIRED**: TRADE/STRATEGY state it as *"re-opens ONLY if convexity reclaims MED-HIGH (CFTC through −153K/85% OR yen-haven re-couple) OR FXY-vol prints demonstrably cheap"* — and the CFTC leg fired on the Jul-28 print. Ruling, in three parts:
+> **RULING (Will, 2026-08-03).** The gate-text divergence flagged on 8/2 — THESIS listing **one** re-open leg (vol-cheapness) where TRADE/STRATEGY listed **two** (MED-HIGH-reclaim **OR** vol-cheapness) — is resolved by **retiring the gate**, not by reconciling the wording. Three reasons, recorded so the decision is auditable:
 >
-> 1. **The vehicle question is RE-OPENED, provisionally** — carrying the same provisional status as the grade it rests on (the 8/7 print can revert it).
-> 2. **⚠️ Gate-text divergence, flagged not silently resolved:** THESIS (canonical) lists **only** the vol-cheapness condition; TRADE/STRATEGY list **MED-HIGH-reclaim OR vol-cheapness**. Those are different gates and the docs have disagreed since v1.6. I am adopting the TRADE/STRATEGY two-leg reading because it is the one the fleet has been operating on, but **the divergence itself is a defect for Will to rule on** — a canonical doc and its derived docs should not carry different trigger sets for a money-adjacent gate.
-> 3. **On a FLAT book "vehicle-CHANGE" is largely a category error.** The RED-#4 question was *"should we swap an existing spot holding for a vol structure?"* — there is no holding to swap. The live question is the **entry** vehicle, and § POSITION VIEW already answers it: **defined-risk options > spot when a trigger fires.** TERRY's Mon 8/3 TRY-FIRE-005 re-mark is consistent with that and needs no further gate.
+> 1. **The canonical one-leg text was a RATCHET.** The gate *closed* on conviction (*"a break-even MEDIUM frame does not generate enough edge to pay a vol structure's spread + theta"*) but was written to *re-open* only on price. A gate whose closing reason is absent from its opening conditions can never re-open on a recovery in the very thing that shut it. TRADE/STRATEGY's two-leg text was **not drift — it repaired an incomplete canonical text**, and the repair was never back-propagated. *(Class: [[finding_count_the_connectives_in_versus_out]] — count the connectives BOTH ways.)*
+> 2. **Its sole canonical re-open condition was effectively unobtainable.** "A clean second source" for FXY vol: CME JPY CVOL is licence-gated (~$290/mo) and the USD/JPY 25d risk-reversal has no free source — both documented in `STRATEGY.md` § Feed migration. **A gate whose only opening condition requires data we have already recorded as unavailable is a permanently-closed gate wearing a conditional's clothing.**
+> 3. **The question it gated no longer exists.** RED #4 asked: *"should we swap our existing FXY spot holding for a vol structure?"* **The book is FLAT — there is nothing to swap.** Keeping a live gate premised on a position we do not hold is exactly what produced the 8/2 incident: a registered gate fired, no document said so, and the derived docs contradicted canonical while TERRY was building an options card.
 >
-> **The vol-cheapness leg remains independently CLOSED** (KB-183: no clean second source; the FXY proxy is non-physical at extremes — the 8/2 snapshot shows Aug-21 ATM IV 13.65% against a clean CME USD/JPY index that read ~7.9 in June). That leg governs **how the structure is priced**, not whether options are the right instrument. Do not let STRATEGY's "gate stays CLOSED" note — which is about vol-cheapness — be read as closing the re-opened vehicle question.
+> **WHAT REPLACES IT — two separate questions, each with a clear owner:**
+>
+> | Question | Status | Owner |
+> |---|---|---|
+> | **(1) Instrument choice on entry** — options vs spot | **ANSWERED AND UNGATED: defined-risk options > spot when a trigger fires.** This was never governed by RED #4; it lives in § POSITION VIEW and applies whenever an entry trigger fires | **SAM** (thesis-level) |
+> | **(2) Is the vol cheap enough to pay for** | **STANDING PRICING INPUT — permanently live, never a gate on strategy.** Priced at construction against the live chain, not against a registered threshold. ⚠️ KB-183 stands: read the FXY proxy's **sign, not its level** — non-physical at extremes | **TERRY** (at construction) |
+>
+> **Consequences, stated so nothing changes silently:** the 8/2 "vehicle RE-OPENED (provisionally)" adjudication is **superseded, not reversed** — it reached the right practical answer (options are the entry vehicle) through a gate that should not have existed. **No money field moves. No entry recommendation changes: WAIT-FOR-8/7 stands. TERRY's TRY-FIRE-007 is unaffected** — its justification always came from § POSITION VIEW's entry-vehicle answer, not from this gate.
 
-*The v1.6 text below is retained as the derivation record:*
+*The v1.6 derivation record is retained below and in `V16_RED_DIALOGUE.md` § RED #4 — historical, no longer operative:*
 
-~~The vehicle-change argument assumed the convexity frame generates enough edge to justify a more efficient expression. With #1 at break-even MEDIUM, it does not — a break-even frame cannot pay a vol structure's spread + theta + complexity. **Vehicle-change options (b) FXY-vol overlay / (c) USDJPY-put = JPY-call structure do NOT propagate to finalize.**~~
-
-~~**Finalize decision-set = (a) hold 13 shares with a tighter stop / (d) trim-or-close**~~ (Will's sizing call — see § POSITION). *Original re-open condition as written at v1.6: post-CPI FXY-vol prints demonstrably cheap on a CLEAN second source.*
+~~The vehicle-change argument assumed the convexity frame generates enough edge to justify a more efficient expression. With #1 at break-even MEDIUM, it does not. Vehicle-change options (b) FXY-vol overlay / (c) USDJPY-put = JPY-call do NOT propagate to finalize.~~ ~~*Original re-open condition as written at v1.6: post-CPI FXY-vol prints demonstrably cheap on a CLEAN second source.*~~
 
 *Direction note: long yen = USDJPY DOWN = a USDJPY **put** / JPY **call**; a USDJPY call would be the wrong (short-yen) direction.*
 
@@ -231,7 +236,7 @@ Structural levels that gate thesis paths. *Current values + breach status live i
 **Sizing decisions — Will's call (v1.6 narrows them):**
 1. **Retain 13 shares with a tighter stop, or trim?** — RED's read: break-even MEDIUM = analytically a TRIM signal; finalize tilt = **(a) hold-with-tighter-stop as default / (d) trim if the bleed regime persists**, NOT hold-as-is.
 2. **Tighten the stop** from interim $55.05 → e.g. USDJPY ≥162.5 / FXY ~$55.50?
-3. **Vehicle change — OFF** (per the RED #4 gate) unless FXY-vol confirmed-cheap on a clean source.
+3. ~~**Vehicle change — OFF** (per the RED #4 gate)~~ — **the RED #4 gate is RETIRED 2026-08-03 (Will-approved).** No vehicle decision is gated. Entry instrument = **defined-risk options > spot** (§ VEHICLE / § POSITION VIEW); vol-cheapness is TERRY's pricing input at construction, not a strategy gate.
 4. Eligibility window — **LOCKED Sep 18 2026** (no decision needed; pre-registered).
 5. ~~Vol-overlay / USDJPY-put structure~~ — gated OFF.
 

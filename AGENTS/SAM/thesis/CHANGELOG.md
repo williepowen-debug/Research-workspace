@@ -8,6 +8,29 @@ Tracks all changes to THESIS.md and TIMELINE.md. Reverse chronological. Each ent
 
 ---
 
+## 2026-08-03 (Mon) — v1.6.11 STANDS, no version bump [GOVERNANCE: the RED #4 VEHICLE GATE is RETIRED, Will-approved — a structural/decision-rail change, not an analytical one]
+
+**Old view:** a live "RED #4 vehicle gate" governed whether the thesis could express itself through a vol structure rather than spot. Canonical THESIS listed **one** re-open condition (FXY-vol demonstrably cheap on a clean second source); TRADE.md and STRATEGY.md listed **two** (convexity reclaims MED-HIGH *OR* vol-cheapness). The divergence was flagged on 8/2 (METSUKE Run-13 E1) and deliberately not silently resolved — it was routed to Will as a money-adjacent defect.
+
+**New view:** **the gate is RETIRED.** Will ruled 2026-08-03 to retire rather than reconcile. Three grounds, all recorded in THESIS § VEHICLE:
+
+1. **The canonical one-leg text was a RATCHET.** The gate *closed* on conviction ("a break-even MEDIUM frame does not generate enough edge to pay a vol structure's spread + theta") but was written to *re-open* only on price. A gate whose closing reason is absent from its opening conditions can never re-open on a recovery in the thing that shut it — and conviction is exactly what recovered on 8/2. TRADE/STRATEGY's two-leg text was **not drift; it repaired an incomplete canonical text**, and the repair was never back-propagated. Class: [[finding_count_the_connectives_in_versus_out]].
+2. **Its sole canonical re-open condition was effectively unobtainable.** "A clean second source" for FXY vol — CME JPY CVOL is licence-gated (~$290/mo) and the USD/JPY 25d risk-reversal has no free source, both already documented in STRATEGY § Feed migration. A gate whose only opening condition requires data we have recorded as unavailable is a permanently-closed gate wearing a conditional's clothing.
+3. **The gated question no longer exists.** RED #4 asked whether to swap an *existing FXY spot holding* for a vol structure. **The book has been FLAT since 2026-06-29.** Keeping a live gate premised on a position we do not hold is precisely what produced the 8/2 incident: a registered gate fired, no document said so, and derived docs contradicted canonical while TERRY was building an options card.
+
+**What replaces it — two questions, separately owned:**
+
+| Question | Status | Owner |
+|---|---|---|
+| Instrument choice on entry (options vs spot) | **ANSWERED AND UNGATED — defined-risk options > spot when a trigger fires.** Lives in § POSITION VIEW; was never actually governed by RED #4 | SAM |
+| Is the vol cheap enough to pay for | **STANDING PRICING INPUT** — priced at construction against the live chain, never a strategy gate. KB-183 stands (read the FXY proxy's sign, not its level) | TERRY |
+
+**Nothing analytical moved.** No money field, no threshold, no bucket, no conviction grade, no entry recommendation — **WAIT-FOR-8/7 stands**, position FLAT. The 8/2 "vehicle RE-OPENED (provisionally)" adjudication is **superseded, not reversed**: it reached the right practical answer through a gate that should not have existed. **TERRY's TRY-FIRE-007 is unaffected** — its justification always rested on § POSITION VIEW's entry-vehicle answer, not on this gate.
+
+**Sites updated (10, swept by grep not by memory — the un-listed-sibling failure mode):** THESIS ×3 (conviction table row, § VEHICLE rewritten, sizing decision #3), TRADE.md ×3, STRATEGY.md ×3 (incl. the § vol live-read whose "gate stays CLOSED" note was the exact stale-wrong line), NEXUS_BRIEF ×1. **Deliberately left as historical derivation record:** `V16_RED_DIALOGUE.md` § RED #4, `METSUKE_MEMORY.md` run logs, and the original CHANGELOG 2026-06-22 resolution entry.
+
+---
+
 ## 2026-08-02 (Sun, REAL BOOT) — **v1.6.11 STANDS, no version bump** [proxy re-mark verified + owned; MOF op-history table AMENDED with a candidate second op]
 
 **Author:** SAM (real boot, Will-directed). Supersedes nothing in the proxy entry below — it verifies it and adds two observations the proxy could not have made. Markets: FX week reopening; all levels are Fri 7/31 closes or stamped publication vintages. **FLAT stands; nothing executed.**
