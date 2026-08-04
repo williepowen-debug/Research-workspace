@@ -119,8 +119,19 @@ def main():
     rcs.append(("power_watch", run([str(POWER_WATCH)])))
 
     print("\n--- 2. ledger staleness (workbook + TRADE.md vs STATUS) ---")
-    sw = run_alert([str(STALENESS), "WATT", "--quiet"])
-    st = run_alert([str(STALENESS), "WATT", "--trade", "--quiet"])
+    # --days 7, NOT the shared script's 30-day default. That default is tuned for
+    # "rot, not mild drift" — correct for a slow reference ledger, WRONG for this
+    # seat: VX.tsv carries the per-channel convergence SCORES and FLOW.tsv the
+    # pathways, both of which change on a normal session. On 2026-08-04 both sat
+    # 13 days / 3 half-sessions behind STATUS — carrying P1=3 against STATUS's
+    # P1=2, P3=3 against P3=4, and a "PJM_API_KEY DARK" note the key's restoration
+    # had already falsified — and this leg printed "✓ quiet" the whole time,
+    # because 13 < 30. Threshold is measured RELATIVE TO STATUS.md, so a long gap
+    # between sessions does not trip it (STATUS ages too); only genuine
+    # write-back drift does. Found by Will asking whether the prior session
+    # closed out properly (L-26).
+    sw = run_alert([str(STALENESS), "WATT", "--days", "7", "--quiet"])
+    st = run_alert([str(STALENESS), "WATT", "--trade", "--days", "7", "--quiet"])
     if sw == st == 0:
         print("  ✓ quiet (alert-contract: output only when stale/misconfigured)")
     rcs.append(("staleness", 2 if 2 in (sw, st) else (1 if 1 in (sw, st) else 0)))

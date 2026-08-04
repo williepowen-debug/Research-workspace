@@ -143,3 +143,33 @@ The thing WATT was built to catch fired, and the answer was **🟠 HOLDS, not �
 **⚠️ RATE LIMIT (standing):** PJM key is **non-member tier = 6 calls/min**. `power_watch.py` spends **1 call/run**. **Never loop the instrument; no ad hoc DM2 pulls.** This session spent exactly 1.
 
 **Open dependencies (not WATT's to do):** PROME/HENRY → 7/3 EEA2 primary verification (item 1); VULCAN → 7/22–7/31 cluster read (VULCAN-06); Will → nothing pending (PJM_API_KEY closed 7/16).
+
+---
+
+**▶ ADDENDUM 3, 2026-08-04 PM-2 — Will: *"I think our last session may have ended suddenly without a proper close out. Please investigate."* IT HALF DID. Audit done, debt paid, and the detector that hid it is fixed.**
+
+**THE VERDICT: the visible closeout was complete and correct — the invisible half wasn't.**
+- ✅ **Complete and verified:** STATUS, SCRATCH, LESSONS, NEXUS_BRIEF, KB.tsv and the PROME memo all committed `09f91c5da` at **11:48**, and **confirmed present on origin by path**, not off a `Pushed.` line. **NEXUS Amendment 10 satisfied** — brief 11:47 > STATUS 11:45, i.e. the brief was genuinely folded LAST. Delivery was **per spec**: the PROME dispatch asked for the memo in `outbox/`, not PROME's inbox (§Deliverable line 54) — so nothing was orphaned.
+- ❌ **Missed — closeout step 2's other half:** `VX.tsv` and `FLOW.tsv` untouched since **7/22**, 13 days and **three half-sessions** behind. VX carried **P1=3** vs STATUS **P1=2**, **P3=3** vs **P3=4**, and a *"leg-5 DM2 DARK — no PJM_API_KEY"* source note the restoration had already falsified. **Both now current.**
+- ❌ **Missed — boot step 6:** the delivered PROME dispatch + DEWEY stub were still sitting in `inbox/` (they had been kept there deliberately as the leg's working material). Leg is DELIVERED → both `git mv`'d to `inbox/processed/`.
+
+**FLOW gained the four pathways the last two sessions produced and never logged:** **FL-WATT-06** two-doors cost-allocation switch (WATT-08/09) · **FL-WATT-07** queue wait → sunk-shell carrying cost → **stranded time** (the KB-WATT-058 reframe) · **FL-WATT-08** power price → Projected DSCR → neocloud borrowing capacity + mandatory prepayment (CRWV §5.25, the first *filed* mechanism) · **FL-WATT-09** correlated-control (Ashburn: the disturbance came from 3 GW of load **leaving**, not arriving).
+
+**🔧 THE ROOT CAUSE, AND THE FIX (L-26).** `boot.py`'s staleness leg printed **"✓ quiet"** at every one of those boots. Not a bug — the shared `ledger_staleness.py` defaults to **`--days 30`**, correctly tuned for *"rot, not mild drift"*. **13 < 30.** That default is simply wrong for a ledger whose whole job is to change every session. **`boot.py` now passes `--days 7` to both staleness legs.** Safe because the threshold is measured **relative to STATUS.md, not in absolute time** — a long gap between sessions ages STATUS too and does not trip it; only genuine write-back drift does. Validated: `py_compile` + both legs run at the exact new invocation.
+
+**🔧 WHICH IMMEDIATELY CAUGHT A SECOND ONE (L-27).** `TRADE.md`, **23 days** behind, still read ***"No trigger crossed"*** — when **P2's trigger fired 7/14** (28/29 BRA at cap + short) and **P3's resolved 7/31** (VULCAN-06). Its blueprint-§8 banner was **true** ("no open positions") while the table under it was **false**; the banner exempted it from the alert but not from being wrong. Rewritten as a **trigger-state** table with a two-clock `Last real data refresh:` header. **Two triggers FIRED, still NO proposal — deliberately**: both fired on structural, known-in-advance prints (an annual auction, a quarterly cluster), which raises conviction but supplies no entry; a firing gate is not a thesis confirmation (TERRY Non-Negotiable #15), and P1 — the only channel that could supply a live Red band — is cold.
+
+**MARKET READ UNCHANGED.** Boot 17:37Z **rc=0, all quiet**: 0 emergency-class (1 routine DOM warning #105429), demand **112,734 MW @16Z = 83.7%** of the 134,628 MW 24h peak, DM2 **$34.00 @13:30, max $144.88 @12:20**. **Composite holds 13/20 · status holds 🟠 · no deploy-posture change · no prediction resolvable today.**
+
+**⚠️ RATE LIMIT: this session spent exactly 1 PJM call** (the single boot run). No ad hoc DM2 pulls.
+
+**▶ NEXT SESSION (unchanged from Addendum 2, re-ranked):**
+1. **FERC's ruling on the 90-day abeyance** — answers closed **8/7** (now 3 days out). Sets whether **WATT-09** resolves 8/17 or ~11/15. Still the highest-value near-term item.
+2. **WATT-06 resolves 8/15** — 11 days out, trending FALSIFIED/heat-clustered (0 emergency-class in 19 days). Do not bank it early; the bar is any EEA-1+.
+3. **Awaiting PROME:** whether the abeyance slip earns a DOCKET row (flagged in the memo as catalyst-worthy). **Also worth routing:** the `--days 30` default is a *fleet-shaped* finding — every agent with a fast-moving state ledger inherits it silently. Not my file to change (`scripts/` is shared) — flag to PROME.
+4. **PJM Expedited Interconnection Track** — targeted in place Aug-2026, check status (KB-WATT-052 tail).
+5. **P4 instrument fix** — compute spark off DM2 on-peak, or refuse to print when leg vintages differ by more than a few days (L-17).
+6. **6 unfolded WALTER signals** in `inbox/WALTER/` (SIG-009 We Energies >$7B LC collateral call is arguably mine — a power-CONTRACT mechanism; SIG-012 El Niño Q4 winter load; SIG-011 PSPS-looks-like-demand-destruction; SIG-002, -010, -018), then the older breadth items.
+7. **Open invitation to VULCAN still standing:** give me your load factor and I convert $555/MW-day to $/MWh on my basis.
+
+**GIT:** pull **not** needed — fetched and verified local is **level with origin** (0 behind; the 1 commit ahead is TERRY's, not mine, and safe-push will sweep it). SAM had uncommitted work in the tree the whole session, so the "Before pulling" stop rule was moot rather than violated. **Nothing of mine was ever orphaned.**
