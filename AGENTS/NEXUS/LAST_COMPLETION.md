@@ -105,6 +105,30 @@ Carried unverified since March, in-window now, flagged 7/31, on my owes-list twi
 
 **Calibration note worth keeping:** all three escalations worked, but **none resolved through the route I assumed** — I expected session launches and got PROME-directed proxies. The escalation path is real; my model of *how* it discharges was wrong.
 
+---
+
+# UNIT 5 — two more workflow changes, then a deliberate stop (~10:55–11:15 PM ET, Will-approved)
+*Both were proposed only because they FAILED tonight, not because they seemed prudent.*
+
+**5a. CLOSEOUT step 9c — closing fleet-freshness re-scan.** Re-run BOOT step 6's fleet-wide `git log -1` scan **immediately before commit**; anything that committed *during* the session gets read or explicitly deferred in writing, never silently inherited from the boot snapshot. ~5s.
+- **Why it had to exist:** NEXUS boots when Will says boot = **mid-fleet-activity**, so the board is written while its inputs are still moving. BOOT step 6 is a *snapshot*; without 9c the header's "Last full matrix review" asserts a completeness it structurally cannot have.
+- **Cost that forced it:** unit 4 — five late movers, three of my rows shipped as **errors** (a live position figure, a closed gap reported missing, an agent reported dark that had just published), plus a disk census that rotted **25 → 26 within the hour.**
+- ⚠️ **Escalation corollary written in:** *the more effective your escalation, the more certain this scan is to find something* — check the agents you packeted first.
+- ⚠️ **And a brake:** a late mover is not automatically a re-sweep — annotate, mark the board **delta-annotated not re-swept**, and **past ~2 patches stop and owe the next boot a proper pass.**
+
+**5b. Git step 16 — `Pushed.` does not mean YOUR work shipped.** On this shared branch the push-train always has someone else's commits queued, so `safe-push.sh` reports success **on their work** while yours sits uncommitted. In a single-agent repo the same sequence yields *"Everything up-to-date"* and you'd notice — **the push-train is precisely what hides it.**
+- **Do:** `git status --short -- AGENTS/NEXUS/` **AFTER** the push returns. Step 5's pre-commit check is structurally blind to this — it runs before the thing that fails.
+- **Cause to avoid:** `git commit -m` with **double quotes / backticks / `$`** in the message — the inner quote truncates the string and git fails with a *misleading* **`did not match any file(s) known to git`**, which reads as a pathspec problem. **Use `-F <file>`.**
+- **Live instance tonight:** exactly this, on unit 4's commit — three files sat uncommitted behind a `Pushed.` that had carried BROCK's and others' work.
+
+**Promotion:** ONE auto-memory — `finding_push_train_hides_a_failed_commit` (HOT, Git theme). Explicitly distinguished from `[[finding_stranded_commit_payload_retriage]]` (**that** = the aftermath of a commit that existed but never reached origin; **this** = the commit never existed). Generalized past git: *when a batch operation reports success, confirm the success applies to YOUR item — the louder the success message, the less it says about you specifically.*
+
+**5c. 9c's first live run found something immediately** — VULCAN committed **22:43**, three minutes after unit 4's commit. Checked: its ORCL correction is the **collateral/$7B** object, **not** the CDS spread my board carries (210-215bp) ⇒ **no live error on me.** Two PROME packets consumed and `git mv`'d to `processed/` (the first was untracked-and-in-flight at 22:30, so leaving it was correct; it committed at 22:03→e90e833ff and moved cleanly now). **Carry item (k) CLOSED: Colorado River DOCKET rows confirmed taken by PROME** — all three (~8/30 earliest ROD · 10/01 Interior target, slippable · 12/31 hard expiry), owner AEOLUS.
+
+**⏸️ INBOUND DEFERRED ON PURPOSE — VULCAN's L-15** (*"forwarding a caveated figure without executing its confirmation instruction launders PROVISIONAL into CONFIRMED at the next hop"*) is a genuine sharpening of **Disc-G**, and it matters most here because Disc-I says NEXUS is the fleet's highest fan-out surface. **Not folded tonight.** I argued an hour ago for a spec freeze until 8/12 and folding this would contradict it for no gain — nothing further publishes tonight. **Fold at next boot.**
+
+**🛑 SPEC FREEZE — DECLARED.** Six changes to `CLAUDE.md` in one evening (9b · Disc-J · CONFIRMED fired-legs-only · PROME path · 9c · step-16 post-push). Every one is justified by something that actually failed, **which is exactly how spec churn feels from the inside.** **Three have never executed once** — Disc-J's real test is the 8/12 resolution, 9b's is the next state change, 9c ran once. **No further `CLAUDE.md` edits until 8/12**, when the retrospective can be evidence-based instead of same-night. Inbounds (like L-15) queue rather than land.
+
 ## Blockers / carry-forward (next boot owes)
 1. **Credit re-pull the instant FRED answers** — DISH-guard unresolved; if still dark, chase the LIQUID packet.
 2. **8/4:** Athene Q2 = M-11 dual test (**check SHADE was scheduled or the grade is orphaned**) · marks cluster opens · AMZN 10-Q (VULCAN-07).
