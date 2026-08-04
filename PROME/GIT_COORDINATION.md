@@ -2,7 +2,7 @@
 
 **Owner:** Prome  
 **Status:** Live coordination rail; push policy updated to auto-push 2026-06-26  
-**Scope:** Prome, YEYOU, and any future agent operating in this shared repo/worktree.
+**Scope:** every agent operating in this shared repo/worktree (~30-agent fleet; PROME + YEYOU were the founding two — phrasing modernized 8/3, audit #7).
 
 ## Purpose
 

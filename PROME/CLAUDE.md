@@ -1,5 +1,5 @@
 # PROME/CLAUDE.md — Claude Code Prome Bootstrap
-**Created:** 2026-05-15 23:24 ET · **Updated:** 2026-07-01 (reconcile push rule to root auto-push canon; boot + git sections now point to their owner docs instead of restating)
+**Created:** 2026-05-15 23:24 ET · **Updated:** 2026-08-03 (stamp reconcile, spine-audit #7 — the 7/17 audit-#4 wording edit rode under the 7/01 stamp; content re-verified current against BOOT.md/root canon this run). Prior: 2026-07-01 (reconcile push rule to root auto-push canon; boot + git sections now point to their owner docs instead of restating)
 **Owner:** Prome
 **Purpose:** Primary bootstrap file for Prome operating inside Claude Code.
 

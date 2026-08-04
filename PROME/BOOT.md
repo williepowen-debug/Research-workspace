@@ -17,7 +17,7 @@
 - **Weekend / repeated-respawn rule:** on weekends or market holidays, `HEARTBEAT.md` may be used as regime orientation, but do **not** describe its levels as fresh. Say “last HEARTBEAT/Fri close” or refresh with dashboard/FRED before making a market claim. Repeated same-day Prome respawns should not rewrite `HEARTBEAT.md` or churn other state files for hygiene alone — only when a real market/system event or user decision changed.
 - **FRED citation convention:** cite observation dates, e.g. `HY OAS 280bps [FRED 5/20 close]`.
 - **No agent edits** unless Will explicitly approves.
-- **No trade execution.** Old trade rails remain verification-required until broker/Will reconciliation.
+- **No trade execution.** Trade rails are verification-required at every fire-time (root rule #4: live broker book, never STATUS marks — reconciles run per broker export, e.g. 7/30 + 8/2; the old "until broker/Will reconciliation" framing predated the first reconcile and is retired, 8/3 spine-audit #7).
 - **External/public sends require approval.**
 - **Push is auto at closeout** via ff-gated `scripts/safe-push.sh` (serial multi-machine canon, per root `CLAUDE.md` Git Protocol) — *not* per-push Will approval. Committing your own `PROME/` files is fine; **shared/root** docs still need Will scope/approval. A **non-ff abort = the other machine pushed** (serial multi-machine, routine) → **do NOT force; `git pull --rebase` + re-push**; escalate to Will only on out-of-dir conflicts or mid-session recurrence.
 - **Shared repo coordination:** when YEYOU or another agent has local/branch work, use `PROME/GIT_COORDINATION.md` before committing, merging, or pushing.
@@ -38,6 +38,7 @@ Canonical doc-ownership / trust map: `PROME/SYSTEM.md` → **Boot Trust Stack** 
    ```bash
    git status --short
    git diff --cached --name-only
+   git fetch origin   # FETCH FIRST — ahead/behind reads the LOCAL tracking ref; a fetch-less 0/0 can hide dozens of commits right after a machine switch ([[finding_fetch_before_trusting_boot_sync]]; gap closed 8/3 spine-audit #7 — the banner script fetches, but this manual fallback is exactly the no-banner path)
    git rev-list --left-right --count HEAD...origin/master
    ```
    If clean/safe, `git pull --rebase`. If dirty/untracked/staged, do not pull; read local continuity first and ask/triage.
@@ -110,7 +111,7 @@ Closeout is the write-back tail of boot: update only the owner docs whose state 
 - finding_boot_sweep_macro_regime_context — Boot sweeps should include a macro-regime-context check (current Fed Chair / BOJ Gov / key central-bank principals + statement-style); month-old Chair changes can sit un-modeled across multiple sessions if the boot baseline only covers data feeds and event calendars `[[finding_boot_sweep_macro_regime_context]]`
 - finding_revival_proxy_pattern — Step 4 of PROME/ORCHESTRAL_LAYER_DESIGN.md — foreground general-purpose subagent briefed as revival proxy for a stale persistent domain agent. Produces decision-grade catch-up + inbox-deposited revival packet for target agent to integrate on next boot. `[[finding_revival_proxy_pattern]]`
 - finding_revival_boot_doc_sweep — "When reviving an agent stale 30+ days, sweep boot docs (CLAUDE.md, MEMORY.md, CALENDAR.md, STRATEGY.md, IDENTITY.md, USER.md) alongside STATUS — staleness compounds across all of them, not just the dashboard" `[[finding_revival_boot_doc_sweep]]`
-- feedback_scan_agent_outboxes_at_boot — "When booting PROME, scan AGENTS/*/outbox/ for PROME-targeted signals — not just AGENTS/PROME/inbox/ — to close the outbox-resident signal discovery gap" `[[feedback_scan_agent_outboxes_at_boot]]`
+- feedback_scan_agent_outboxes_at_boot — "When booting PROME, scan AGENTS/*/outbox/ for PROME-targeted signals — not just the PROME inbox — to close the outbox-resident signal discovery gap" *(quoted path modernized 8/3: the memory's original text said `AGENTS/PROME/inbox/`, a tree removed 2026-07-24 — delivery surface is `PROME/inbox/` per step 6; the directive half is unchanged)* `[[feedback_scan_agent_outboxes_at_boot]]`
 - feedback_front_load_planning — "For multi-step deterministic work, surface all decisions in a pre-execution planning pass; let Will batch-approve defaults; then execute mechanical with proceed-pacing at step boundaries" `[[feedback_front_load_planning]]`
 - finding_freshness_audit_vs_caught_up — mtime/STATUS-freshness ≠ caught-up; a fresh agent can still be behind on inbox backlog AND on a pending test in its own STATUS that already resolved `[[finding_freshness_audit_vs_caught_up]]`
 - finding_gitignored_private_drop_boot_surfaced — "User-private data drops (broker/account exports) should be gitignored AND boot-surfaced — gitignore keeps them off the shared repo but also hides them from git status, so a boot-card line is the only discovery path. Privacy and discoverability are a matched pair; do one without the other and you either lose the data or leak it." `[[finding_gitignored_private_drop_boot_surfaced]]`
