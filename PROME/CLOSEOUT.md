@@ -178,7 +178,7 @@ If none triggered, skip.
 cd "$(git rev-parse --show-toplevel)" && python3 scripts/claim_check.py
 ```
 
-### Root session-end steps 1b–1d (run with the git sequence — root `CLAUDE.md` owns the full text)
+### Root session-end steps 1b–1e (run with the git sequence — root `CLAUDE.md` owns the full text; 1e = the scoped weekday claim-check adopted 2026-08-04 [DAEDALUS canon ③, Will-approved 8/3] — the standalone "Claim check" section above IS that step, now canon rather than PROME-local)
 
 - **1b orphan check:** `bash scripts/orphan_check.sh PROME` — `[likely YOURS]` → commit per carve-out ①; `[not yours]` → flag (⚠️ except `memory/auto/` files PROME wrote — path-classified `[not yours]` but carve-out ③ makes committing them MANDATORY).
 - **1c consumer check (if a published number was superseded this session):** `python3 scripts/consumer_check.py --agent PROME --old <old> --new <new>` → packet each 🔴 STALE owner, never edit their files.
