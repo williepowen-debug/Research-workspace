@@ -205,7 +205,7 @@ BRENT warned that leg (a) opening and rule #6 being satisfied are *normally* cor
 
 **The gate stops being an execution gamble the moment it is the limit.**
 
-> ⚠️ **THIS TABLE IS SUPERSEDED — see §11.** The limits below were anchored to the GATE alone; BRENT ruled 11:48 that they also had to clear **Will's ~$300 size ruling**, which `$1.65 × 2 × 100 = $330` breached. **Operative limit is `$1.50`.** Retained as the reasoning that produced it.
+> ⚠️ **THIS TABLE IS SUPERSEDED — see §11.** The limits below were anchored to the GATE alone; BRENT ruled 11:48 that they also had to clear **Will's ~$300 size ruling**, which ~~`$1.65`~~ × 2 × 100 = ~~`$330`~~ breached. **Operative limit is `$1.50`.** Retained as the reasoning that produced it.
 
 | Structure | ~~Hard limit = the gate~~ | Work from | Risk at the limit | Max value |
 |---|---|---|---|---|
@@ -235,9 +235,9 @@ BRENT warned that leg (a) opening and rule #6 being satisfied are *normally* cor
 
 ## 11. 🔴 UPDATE 2026-08-04 **12:24 ET** (wall clock, `date`-verified) — BRENT'S SIZE RULING APPLIED, AND A FRESH CHAIN CHANGES THE PICTURE IN OUR FAVOUR
 
-### A. ⚖️ BRENT'S RULING ACCEPTED IN FULL — limit is `$1.50`, not `$1.65`
+### A. ⚖️ BRENT'S RULING ACCEPTED IN FULL — limit is `$1.50`, not ~~`$1.65`~~
 
-BRENT endorsed the §9.C limit-price construction as **the literal spec, not a relaxation** — the graded quantity is the **net debit at fill**, and a limit priced at the gate either fills inside the gate or does not fill. **He then caught a defect neither PROME nor I flagged: `$1.65 × 2 × 100 = $330` breaches Will's `~$300` size ruling by 10%.** I anchored the limit to the **gate** and never checked it against the **size ruling** — two constraints bind this trade and I applied one.
+BRENT endorsed the §9.C limit-price construction as **the literal spec, not a relaxation** — the graded quantity is the **net debit at fill**, and a limit priced at the gate either fills inside the gate or does not fill. **He then caught a defect neither PROME nor I flagged: ~~`$1.65`~~ × 2 × 100 = ~~`$330`~~ breached Will's `~$300` size ruling by 10%.** I anchored the limit to the **gate** and never checked it against the **size ruling** — two constraints bind this trade and I applied one.
 
 | | ~~$1.65 (mine)~~ | **$1.50 (RULED)** |
 |---|---|---|

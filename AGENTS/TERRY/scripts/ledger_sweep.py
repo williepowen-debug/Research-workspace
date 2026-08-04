@@ -78,7 +78,16 @@ TRADE_BOOK = TERRY / "TRADE_BOOK.md"
 CARD_DIR = TERRY / "setups"
 
 # Surfaces swept by check B. Ledgers first — they are the ones that rot.
+# 🔴 CARDS ADDED 2026-08-04 — check B had the SAME blind spot check E was built
+# without: it swept the ledgers and never the cards. Found the day before the
+# VIXCS resolve, and it was load-bearing — `VIOLET_prefomc-vix-callspread` §11.D-1
+# still asserted the SUPERSEDED `beta ~0.28` (true value ~0.6 at that card's 9->6
+# DTE), and §11.D-1 is *precisely what row 3 of the pre-registered 8/5 evaluation
+# grades*. The withdrawn number was invisible to a guard reporting CLEAN, on the
+# one surface a dated obligation was about to be resolved against.
+# ⇒ A ledger rots quietly; a CARD rots while someone is about to trade off it.
 DRIFT_SURFACES = [
+    *sorted((Path("AGENTS/TERRY") / "setups").glob("*.md")),
     TERRY / "SETUPS.tsv",
     TERRY / "PAPER_BOOK.tsv",
     TERRY / "SIGNALS.tsv",

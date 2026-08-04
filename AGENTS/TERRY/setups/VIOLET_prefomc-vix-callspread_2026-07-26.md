@@ -204,7 +204,7 @@ VIX spot:                  19.49 (+4.90%)    →  19.85 (+6.84%)   ⚠️ guard 
 VIX3M:                     20.69             →  20.87
 VIX3M/VIX ratio:           1.062             →  1.051   (>1.0 OK; Fri 1.104 → compressing FAST)
 ★ VX FORWARD (8/5, by put-call parity): 19.5 →  19.6    ← THE number that prices this
-   └ forward beta to spot on today's move = ~0.28. Spot +0.36, forward +0.10.
+   └ forward beta to spot on today's move = ~~~0.28~~ — ⚠️ **a SINGLE 0.36-point intraday move, noise-dominated. Do NOT read it as the structural beta: that is `beta(tenor)`, ≈0.591 at ≤10 DTE (VIOLET OLS n=246), so ~0.6 for this card.** Spot +0.36, forward +0.10.
    └ forward 19.6 < spot 19.85 = FRONT IS BACKWARDATED TO SPOT.
 Day color (rule #6):       ❌ BREAK — VIX +6.8%, SPY +0.02% (FLAT, not green). Reason written below.
 Jazan/oil spillover check: NO GAP. Opened 18.25, session LOW 18.08 (below Fri 18.58 close), then GROUND up.
@@ -247,7 +247,7 @@ My own card says the forward "is THE number that prices this, not spot." So here
 
 1. ✅ **Moneyness is BETTER than the card assumed.** Against forward 19.6, the 20 strike is **+2.0% OTM** — essentially at-the-money on the instrument that settles it. §4 estimated +4%.
 2. ✅ **We are not the late money.** The confirm has *not* arrived on the thing we would own. A spot bid the futures curve refuses to ratify is the opposite of a repricing that ran away from us.
-3. 🔴 **Today's realized forward beta (~0.28) is far below what §4's spike-capture argument assumes.** I will not over-claim here: 0.28 is measured on a *grind, on a flat tape, that the market disbelieves* — genuine SPX-selloff spikes historically run 0.7–0.9 front-future beta, and this is a different regime. But it is a live datapoint against the premise, and it belongs on the card rather than in my head.
+3. 🔴 **Today's realized forward beta (~~~0.28~~ — ⚠️ **one intraday move; the structural figure is `beta(tenor)` ≈0.6 at this card's 9→6 DTE, see §11.G**) is far below what §4's spike-capture argument assumes.** I will not over-claim here: 0.28 is measured on a *grind, on a flat tape, that the market disbelieves* — genuine SPX-selloff spikes historically run 0.7–0.9 front-future beta, and this is a different regime. But it is a live datapoint against the premise, and it belongs on the card rather than in my head.
 
 ### ✅ ANSWERING VIOLET's open question — she flagged the bracket, I measured it
 
@@ -510,7 +510,7 @@ Pull **both legs** of the live 4-lot position: VIXW Aug-05 **20C** (long) and **
 | Exit (7/30 ~10:2x ET) | net credit **$0.45** → **$176.10** proceeds |
 | **REALIZED P/L** | **−$111.60 = −38.8% of capital at risk** |
 | Hold | 3 calendar days · 2 full sessions + exit morning |
-| Exit branch taken | **(ii) base branch** — all three strength triggers formally NOT triggered (VIX cash-session high **18.71**; VIX3M/VIX min print **1.0888**, never <1.0; no spike, so no SKEW-crash tell) |
+| Exit branch taken | **(ii) base branch** — all three strength triggers formally NOT triggered (VIX cash-session high ~~**18.71**~~ → **TRUE 19.11**; VIX3M/VIX min print ~~**1.0888**~~ → **TRUE 1.0683**, never <1.0; no spike, so no SKEW-crash tell — ⚠️ **both originals were 10:11 readings of 5m CLOSES published as settled session grades; neither correction moves any trigger, both were nowhere near 23 / 1.0**) |
 
 **⚠️ Account note:** the fill is in **Traditional IRA ⋯1326**. The card was written "MAIN book." Recorded as shown; the book-label mapping is **not** something I verified and I am not assuming it.
 
@@ -565,6 +565,51 @@ Pull **both legs** of the live 4-lot position: VIXW Aug-05 **20C** (long) and **
 
 **Review mechanics:** TERRY owns this. Resolve on **2026-08-05** off the official CBOE VIX SOQ (not yfinance spot, not the close). Un-owned-gate rule applies → this is written as an explicit pickup line in `STATUS.md`, not left to memory.
 
+---
+
+### 🔧 PRE-STAGED RESOLUTION CHECKLIST — written **2026-08-04 13:55**, the day before, so tomorrow is MECHANICAL
+
+> **Why pre-staged:** this desk's failure mode with dated gates is not getting them wrong, it is **not grading them at all** — the 7/31 diesel decree sat ungraded for four days. Everything below is decided *before* the print, so tomorrow is transcription, not judgement.
+
+**STEP 1 — get the SOQ, and only the SOQ.**
+The settlement value is the **VIX Special Opening Quotation, ticker `VRO`**, struck at the 8/5 open. ⛔ **NOT** `^VIX` spot, **NOT** the 8/5 close, **NOT** the 8/4 close. Sources in order: CBOE settlement page → `VRO` quote → CBOE VIX historical settlement file. **If VRO is unavailable, the correct output is `NO-VERDICT (settlement unobtained)` — never a spot proxy.** *(A proxy here would silently re-define the very quantity the counterfactual is written on.)*
+
+**STEP 2 — the counterfactual, one line, already computed.**
+`spread value at expiry = min(max(SOQ − 20, 0), 5)` · we banked **$0.45** ⇒ **holding beat exiting ⟺ SOQ > 20.45.**
+
+| SOQ prints | Counterfactual |
+|---|---|
+| **≤ 20.45** | exiting ≥ holding — **the pre-registered P≈20% call was right** |
+| **> 20.45** | holding would have paid more — **log it, and do NOT treat it as evidence the exit was wrong (see the EV-neutrality caveat above, which is binding)** |
+
+**⚠️ STEP 2 IS NOT A VERDICT ON THE EXIT.** We sold at the market's own fair two-sided price. **"We left $X on the table" is outcome bias and is pre-emptively rejected here, in writing, before the number exists.**
+
+**STEP 3 — grade rows 1–4 above, and ONLY those four.**
+- **Row 1** (VIOLET's fade) · **Row 2** (no-re-entry) · **Row 3** (TERRY's forward-beta) · **Row 4** (short-gamma steelman).
+- 🔴 **Row 4 grades on the PHENOMENON — "did a violent amplified down-leg occur by 8/5" — or `NO-VERDICT`.** ⛔ Never on `7,455`: that band is **retired**, and the same number is **live as a Goldman CTA trigger**. See the guard block above; it is binding.
+- ⚠️ **Row 3 note added 8/4:** §11.D-1 as originally written asserted **`beta ≈0.28`, which is SUPERSEDED.** Grade row 3 against the **corrected** claim — `beta(tenor)`, **~0.6 at this card's 9→6 DTE** — not the 0.28 the row's own pointer used to lead you to. *(That naked 0.28 sat on this card at three sites until `ledger_sweep` check B was extended to scan cards, **the day before this resolve**. The row being graded pointed at a withdrawn number.)*
+
+**STEP 4 — what must NOT be graded.**
+⛔ *"Was a dated mandatory exit a good rule."* **n=1 cannot grade a policy.** It goes to the calibration record and accumulates. Grading it tomorrow is the outcome-bias error this card already names.
+
+**STEP 5 — record.** Card §11.C (here) · `POSTMORTEMS.md` · `SETUPS.tsv` · `STATUS.md`. Then run `ledger_sweep.py` — it exits 1 if the four surfaces disagree.
+
+---
+
+### 📌 STATE OF THE WORLD AT PRE-STAGE — **2026-08-04 13:51 ET, live pull.** Context only; it grades NOTHING.
+
+| | |
+|---|---|
+| VIX | **16.54** (+4.2% on the day) |
+| VIX path | 7/29 **20.66** → 7/30 17.09 → 7/31 15.99 → 8/3 **15.86** *(window low)* → 8/4 16.54 |
+| VIX3M | 19.17 ⇒ **VIX3M/VIX ≈ 1.16**, deep contango, no stress |
+| SPX | **7,743** (+1.9%), and **+5.8% in four sessions** off the 7/29 low of 7,316 |
+| Distance to the line | SOQ > 20.45 needs **+23.6% overnight** from 16.54 |
+
+**Read, stated now so tomorrow cannot be talked into anything else:** VIX rising *today* is a **bounce off the window's lowest close**, not a trend, and the index sits **~20% below the 7/29 spike we owned.** SPX making new highs is **exactly the relief-rally path VIOLET named as how this position dies.** ⇒ **Base case is decisively `SOQ ≤ 20.45`.**
+
+⚠️ **One genuine anomaly, logged because it is against the base case and I would rather register it than have it surface tomorrow as a surprise:** **VIX +4.2% on an SPX +1.9% day — both up, which is not the normal inverse relationship.** Tomorrow is VIX expiry, so roll/pin flow is a sufficient benign explanation. **It is an observation, not a signal, and it does not move the pre-registered probability.**
+
 ### D. TWO DURABLE FINDINGS
 
 **1. 🔴 STRUCTURAL — a near-dated VIX call spread does not capture a spot spike.** The forward carries ~0.28 beta to spot at ~9 DTE. We bought the correct event, the event arrived at +13.45%, and the instrument did not pay because the strike was set against a number that barely moved. **Consequence for future construction: if the thesis is a SPOT spike, either buy a longer-dated strip (higher forward beta earlier) or set strikes against the DERIVED FORWARD, never against spot.** The card did derive the forward at entry — the failure was continuing to reason about the *trigger* (VIX ≥23 spot) in spot terms while the *payoff* lived on the forward. **The §6 management triggers were written on spot and the position settled on the forward — the same guard-spec defect I flagged on 7/27 and routed to VIOLET, which turned out to matter for the exit logic too, not just the entry guard.**
@@ -611,7 +656,7 @@ Pull **both legs** of the live 4-lot position: VIXW Aug-05 **20C** (long) and **
 
 | | Published in §11.B/§11.D-1 | **Corrected** |
 |---|---|---|
-| Forward beta to spot | **≈0.28** | **0.53** |
+| Forward beta to spot | ~~**≈0.28**~~ | ~~**0.53**~~ → 🔴 **BOTH SUPERSEDED — it is `beta(tenor)`, NOT a scalar: 0.274 (21–35 DTE) · 0.505 (11–20) · 0.591 (≤10). This card lived 9→6 DTE ⇒ ~0.6.** (VIOLET OLS ΔM1~ΔVIX, n=246, §11.G) |
 | Basis | a single **0.36-point** intraday move at the fill — noise-dominated | **fill→exit, the period that mattered:** spot 19.85→18.37 (−1.48), forward 19.60→18.81 (−0.79) |
 
 **A one-observation beta on a small move is not a structural parameter, and I published it as one.** The *direction* survives (forward moves less than spot); the magnitude does not. Corrected on: this card, `POSTMORTEMS.md`, `STATUS.md`, the VIOLET packet, and the auto-memory (which was **rewritten and re-slugged**, since its whole premise rested on this).
