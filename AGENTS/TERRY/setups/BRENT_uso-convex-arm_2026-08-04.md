@@ -2,7 +2,7 @@
 **Setup ID:** TRY-BRENT-USOARM · **Trigger class:** GATE (two-leg AND: OVX decay + priced convexity)
 **Date:** 2026-08-04 · **Chain pulled:** 10:30 ET live (`chain_fetch.py --no-cache`)
 **Thesis owner:** **BRENT** (energy/oil; v5.0 main convex arm, unfired since 7/16). Gate spec is BRENT's; **tenor + size are WILL-RULED 8/3**. TERRY owns construction only.
-**Terry verdict:** 🟡 **CONDITIONAL — CLEAN on the TERRY (construction) axis.** ⚠️ **RECOMMENDATION REVISED 8/4 12:20 (§9): `125/130 ×2` @ limit $1.65, NOT the `125/135 ×1` in §4** — BRENT ruled it and his payoff math is right; **my §4 recommendation committed the exact pathology §4 diagnoses.** Leg (b) **PASSES on the wide (30.0% worst-case) and FAILS on the recommended narrow (34.0% worst-case), passing it only at mid** — resolved by making the gate the LIMIT PRICE (§9.C), not by relaxing it. Conditional on leg (a) at the close, which is BRENT's grade and not mine.
+**Terry verdict:** 🟡 **CONDITIONAL — CLEAN on the TERRY (construction) axis.** ⚠️ **RECOMMENDATION: `125/130 ×2` @ limit ~~$1.65~~ → `$1.50` (BRENT-RULED 11:48, §11), NOT the `125/135 ×1` in §4** — BRENT ruled the flip and his payoff math is right; **my §4 recommendation committed the exact pathology §4 diagnoses.** Leg (b) **PASSES on the wide and FAILS on the narrow at worst-case ~~as of the 11:06 chain~~** — ✅ **SUPERSEDED by the 12:24 chain (§11.B): the narrow now PASSES outright at 26.0% worst-case / 16.6% at mid.** Gate is still enforced as a **LIMIT PRICE**, never relaxed. Conditional on leg (a) at the close, which is BRENT's grade and not mine.
 **Confidence in trade structure:** High. **Confidence in the thesis: not mine to hold** — and the tape has voted against it twice this week (§7).
 **Status:** DECISION-READY / **UNARMED / $0 at risk.** Will holds [Approve] (root rule #5); live broker book governs at fire (rule #4).
 
@@ -20,7 +20,7 @@ Defined-risk far-OTM USO call spread bought **after** oil vol has decayed (leg a
 | Leg | Test | Status @ 10:30 ET 8/4 | Owner |
 |---|---|---|---|
 | **(a)** | OVX ≤ −15% from the post-arm running peak 68.97 ⇒ **≤ 58.6245**, on the **CLOSE** | **OVX 54.37 (−4.95%) = −21.2% from peak.** Cushion widened from ~2.5% (8/3) to **~7.3%**. ⛔ **NOT GRADED BY TERRY** — BRENT grades at ~16:15 on the close. An intraday reading is not the gate. | BRENT |
-| **(b)** | Net debit **≤ 33.0% of spread width** (⇔ R:R ≥ 2.0:1), **live chain** | ✅ **PASS at 27.0%** paying the full bid/ask on the 10:30 chain (§4). ⚠️ **Re-graded 11:06 (§9.B): wide 30.0% PASS · narrow `125/130` 34.0% FAIL worst-case, 25.5% at mid** — gate enforced as a **limit price**. | **TERRY** |
+| **(b)** | Net debit **≤ 33.0% of spread width** (⇔ R:R ≥ 2.0:1), **live chain** | ✅ **PASS.** Graded three times on three live chains: 10:30 wide 27.0% · ~~11:06 narrow 34.0% FAIL worst-case / 25.5% mid~~ · **12:24 (§11.B) narrow `125/130` = 26.0% worst-case / 16.6% mid — PASSES OUTRIGHT, no limit-construction needed to make it pass.** Gate still enforced as a limit price. | **TERRY** |
 
 **⚠️ Leg (a) fired on the 8/3 close (57.20) but is NOT banked.** v2 requires both legs on one session; with no chain there was no leg (b), so 8/3 satisfied one leg of a two-leg AND. **The arm is neither deployed nor consumed, and leg (a) must fire AGAIN on whatever session actually fills.** Day 13 of 20; **arm expires Thu 8/13.**
 
@@ -205,10 +205,12 @@ BRENT warned that leg (a) opening and rule #6 being satisfied are *normally* cor
 
 **The gate stops being an execution gamble the moment it is the limit.**
 
-| Structure | **Hard limit = the gate** | Work from | Risk at the limit | Max value |
+> ⚠️ **THIS TABLE IS SUPERSEDED — see §11.** The limits below were anchored to the GATE alone; BRENT ruled 11:48 that they also had to clear **Will's ~$300 size ruling**, which `$1.65 × 2 × 100 = $330` breached. **Operative limit is `$1.50`.** Retained as the reasoning that produced it.
+
+| Structure | ~~Hard limit = the gate~~ | Work from | Risk at the limit | Max value |
 |---|---|---|---|---|
-| **`125/130 ×2` ← RECOMMENDED (BRENT-ruled)** | **$1.65 net debit** (33.0% of $5) | mid **$1.28** | **$330** | $1,000 |
-| `125/135 ×1` (alternative) | **$3.30 net debit** (33.0% of $10) | mid **$2.38** | $330 | $1,000 |
+| **`125/130 ×2` ← RECOMMENDED (BRENT-ruled)** | ~~**$1.65 net debit** (33.0% of $5)~~ → **`$1.50` (30.0%)** | mid **$1.28** *(11:06; **$0.83** at 12:24)* | ~~**$330**~~ → **$300** | $1,000 |
+| `125/135 ×1` (alternative) | **$3.30 net debit** (33.0% of $10) | mid **$2.38** *(11:06; **$1.93** at 12:24)* | $330 | $1,000 |
 
 **If the narrow fills at ≤$1.65, leg (b) is satisfied by construction. If it cannot fill there, there is no trade — and that is a correct outcome, not a miss.** There is genuine room to work between $1.28 and $1.65 on strikes quoting **4.08% (130C)** and **8.11% (125C)** with OI 5,996 / 3,737.
 
@@ -220,14 +222,83 @@ BRENT warned that leg (a) opening and rule #6 being satisfied are *normally* cor
 
 **USO $117.52 · WTI $76.95 (−4.22%) · OVX 54.36 (−4.97%).** Still a red day for crude with vol falling — **root rule #6 stays CLEAN.** Leg (a) still ungraded (BRENT's, on the close). **M1−M3 +$3.01 in-progress, still backwardated, no contango flip** — §5 test #1 compressing fast, **not fired.**
 
-## 10. Decision — REVISED
+## 10. Decision — ~~REVISED~~ **SUPERSEDED BY §11. Do not fill off this section.**
 
-**Proposed (BRENT-recommended):** BUY TO OPEN **2× USO Oct-16-2026 `125C/130C` call debit spread**, **limit $1.65 net debit** (work from $1.28), max loss **$330**.
-**Alternative if Will holds the ~12–15% short-leg band:** **1× `125C/135C`**, limit **$3.30**, work from $2.38.
+~~**Proposed (BRENT-recommended):** BUY TO OPEN **2× USO Oct-16-2026 `125C/130C` call debit spread**, **limit $1.65 net debit** (work from $1.28), max loss **$330**.~~ → **limit `$1.50`, max loss `$300`** (§11.A).
+**Alternative if Will holds the ~12–15% short-leg band:** **1× `125C/135C`**, limit **$3.30**, work from ~~$2.38~~ **$1.93** (12:24).
 
 **Both are conditional on leg (a) firing on the close — BRENT's grade, not mine — and on a leg (b) re-pull at the fill. The gate has NOT fired. Nothing is authorized.**
 
 **APPROVAL REQUIRED — Will must approve/reject before execution.**
 
 ---
-*Built by TERRY 2026-08-04 on BRENT's 8/4 ACTION packet (Will-directed: "tell TERRY to price leg (b) first thing tomorrow") + PROME's 8/3 15:30 rulings relay. §9–10 added 12:20 on BRENT's two rulings + his M1−M3 self-correction. Chains: `chain_fetch.py USO 2026-10-16 --type call --no-cache` at 10:30 and 11:06 ET.*
+
+## 11. 🔴 UPDATE 2026-08-04 **12:24 ET** (wall clock, `date`-verified) — BRENT'S SIZE RULING APPLIED, AND A FRESH CHAIN CHANGES THE PICTURE IN OUR FAVOUR
+
+### A. ⚖️ BRENT'S RULING ACCEPTED IN FULL — limit is `$1.50`, not `$1.65`
+
+BRENT endorsed the §9.C limit-price construction as **the literal spec, not a relaxation** — the graded quantity is the **net debit at fill**, and a limit priced at the gate either fills inside the gate or does not fill. **He then caught a defect neither PROME nor I flagged: `$1.65 × 2 × 100 = $330` breaches Will's `~$300` size ruling by 10%.** I anchored the limit to the **gate** and never checked it against the **size ruling** — two constraints bind this trade and I applied one.
+
+| | ~~$1.65 (mine)~~ | **$1.50 (RULED)** |
+|---|---|---|
+| Cost | ~~$330~~ ⛔ over `~$300` | **$300** ✅ |
+| Leg (b) | ~~33.0%~~ — on the boundary | **30.0%** ✅ 3.0pp inside |
+| Max profit | ~~$670~~ | **$700** |
+| Breakeven | ~~126.65~~ | **126.50** |
+
+**Accepted without argument — better on every axis.** *One disclosure against the ruling I am accepting: Will's number carries a tilde (`~$300`), so $330 is arguably inside it. I am treating it as hard anyway, because $1.50 is superior on every other axis and needs no tolerance argument to justify it.*
+
+### B. 🔴 THE 12:24 CHAIN — THE STRUCTURE GOT MATERIALLY CHEAPER, AND THE NARROW NOW PASSES OUTRIGHT
+
+`chain_fetch.py USO 2026-10-16 --type call --no-cache`, **three pulls at 12:22 / 12:23 / 12:24**. Spot **USO $115.96** (from $116.94 at 10:30).
+
+| Leg | Bid | Ask | Mark | Sprd% | OI | Last trade |
+|---|---|---|---|---|---|---|
+| LONG 125C | 6.10 | 6.95 | 6.53 | 13.03 | 3,737 | 11:34 |
+| SHORT 130C | 5.65 | 5.75 | 5.70 | **1.75** | 5,996 | 12:06 |
+| *(alt)* SHORT 135C | 4.35 | 4.85 | 4.60 | 10.87 | 4,405 | 11:52 |
+
+| `125/130 ×2` | net debit | leg (b) | cost |
+|---|---|---|---|
+| At mid | **$0.83** | **16.6%** ✅ | $166 |
+| **Paying the full bid/ask (worst case)** | **$1.30** | **26.0%** ✅ | **$260** |
+
+**⇒ The narrow no longer needs the limit construction to pass. It passes outright at worst-case — 7.0pp inside the line.** Net debit at mid fell **$1.28 → $0.83 (−35%)** as USO fell a further 0.84%. *(Recorded because it cuts against the story I told at 11:06: I graded the narrow FAIL at worst-case and built an entire resolution mechanism around that. Two hours later the market made the mechanism unnecessary. The mechanism was still right to build — it is what makes the gate binding on execution rather than predictive of it — but the FAIL grade it was built to solve had a shelf life of ~80 minutes.)*
+
+### C. ⚠️ A DEGENERATE QUOTE, CAUGHT AND CLEARED — the reason there are three pulls, not one
+
+The **12:22 and 12:23** pulls both returned **130C bid `5.70` = ask `5.70`, spread `0.00%`**. A locked market cannot persist in a real book, and it also **violated strike monotonicity** (130C bid `5.70` = 129C bid `5.70`; a lower-strike call must bid higher). I refused to compute a net debit off it. **By 12:24 it had resolved to a genuine `5.65 / 5.75` — the tightest two-sided quote on the strip.**
+
+**Had I graded off the 12:22 quote I would have published a worst-case of `$1.25 / 25.0%` — right verdict, wrong number, and unreproducible by anyone re-pulling.** The chain-wide scan found exactly one other locked strike (150C), so this is a per-strike feed artifact, not a broken tool. ⇒ **Adopted: a `0.00%` spread is a REJECT, not a tight market — re-pull before grading.** *(Consistent with rule #4 and with `chain_fetch.py` having no safe degraded output.)*
+
+### D. ★ AT EQUAL DEBIT %, THE NARROW STRICTLY DOMINATES — BRENT'S RULING #2 IS STRENGTHENED, AND THE WIDTH BIAS HAS TEMPORARILY VANISHED
+
+Both structures now grade at **exactly 26.0%** worst-case (`$1.30` on a $5 width ×2; `$2.60` on a $10 width ×1). Equal debit-% + equal $1,000 max value ⇒ **identical max loss `$260` and identical max profit `$740`.**
+
+| | `125/130 ×2` | `125/135 ×1` |
+|---|---|---|
+| Max loss | $260 | $260 |
+| Max profit | $740 | $740 |
+| **USO needed for max** | **130 = +12.1%** | 135 = +16.4% |
+
+**⇒ The narrow reaches the same ceiling on a 4.3pp smaller move, and is worth ≥ the wide at every price above 125. The crossover BRENT computed at 134.08 does not exist at these prices — the wide's edge came entirely from carrying a lower debit %, and that gap has closed.** The width bias he and PROME measured (friction ~$0.37–0.38 regardless of width) is real but is **currently swamped by the 130C quoting 1.75% wide** — a state of the tape, not a repeal of the finding. **Ruling #2 stands, now with no cost penalty at all.**
+
+### E. ⇒ WHAT I AM AND AM NOT DOING WITH THE LIMIT
+
+**The limit stays `$1.50` as BRENT ruled.** I am **not** unilaterally re-pricing it to the fresh worst case, even though `$1.50` now sits **$0.20 ABOVE the market's own worst case** and is therefore loose rather than tight.
+
+**Proposed to BRENT for his ruling before the close (his gate, his number):** make the limit a **rule instead of a constant** —
+
+> **`limit = MIN( $1.50 , worst-case net debit on the fire-time chain )`**
+
+It is **monotone-tightening by construction** — it can only ever lower the limit below the ruled number, never raise it — so it cannot breach the gate or the size ruling and needs no re-ratification. It also survives a moving tape, which a hardcoded number demonstrably does not: **BRENT's `$1.50` was correct against an input (`mid $1.28`) that was 80 minutes stale by the time he wrote it.** ⚠️ **It does reduce fill probability, and BRENT explicitly reserved "will it fill" as a Will question — which is exactly why I am proposing it rather than applying it.**
+
+### F. Live at 12:24 — nothing here fires anything
+
+**USO `$115.96` (−5.25%)** · leg (a) **still ungraded — BRENT's, on the close ~16:15.** Red day for crude; **root rule #6 stays CLEAN, no break invoked.** **The gate has NOT fired. $0 at risk. Nothing is authorized.**
+
+**APPROVAL REQUIRED — Will must approve/reject before execution.**
+
+---
+*Built by TERRY 2026-08-04 on BRENT's 8/4 ACTION packet (Will-directed: "tell TERRY to price leg (b) first thing tomorrow") + PROME's 8/3 15:30 rulings relay. §9–10 added on BRENT's two rulings + his M1−M3 self-correction; §11 added 12:24 on his size ruling + a fresh chain. Chains: `chain_fetch.py USO 2026-10-16 --type call --no-cache` at 10:30, 11:06 and 12:22/12:23/12:24 ET.*
+*⚠️ **Timestamp note:** §9's "12:20" and §10's stamps were written ~11:11 wall-clock and run ~+69 min fast (see STATUS ④). §11's times are `date`-verified. Earlier stamps left as written rather than silently rewritten.*
