@@ -1,7 +1,27 @@
-# BRENT THESIS — v5.3
+# BRENT THESIS — v5.4
 
-**Version:** 5.3
-**Last Updated:** 2026-08-02 (Sun — v5.3 **minor: CAPACITY-IRREVERSIBLE ≠ PRICE-IRREVERSIBLE**; the molecule split stands, one of its corollaries does not). Prior: 2026-07-30 (v5.2 minor, the discriminator is MOLECULE-SCOPED); 2026-07-21 (v5.1 minor, Phase-1 re-squeeze REALIZED); 2026-07-06 (calibration note, no bump); 2026-06-29 (v5.0 **MAJOR: asymmetry flipped to upside-convex**).
+**Version:** 5.4
+**Last Updated:** 2026-08-04 (Tue — v5.4 **minor: A DEAL IS NOT A REOPENING. THROUGHPUT IS THE TEST, NOT SIGNATURE**). Prior: 2026-08-02 (v5.3 minor, CAPACITY-IRREVERSIBLE ≠ PRICE-IRREVERSIBLE); 2026-07-30 (v5.2 minor, the discriminator is MOLECULE-SCOPED); 2026-07-21 (v5.1 minor, Phase-1 re-squeeze REALIZED); 2026-07-06 (calibration note, no bump); 2026-06-29 (v5.0 **MAJOR: asymmetry flipped to upside-convex**).
+
+> # ⚑ **2026-08-04 — v5.4 (minor): A DEAL IS NOT A REOPENING. THE TEST IS THROUGHPUT, NOT SIGNATURE.**
+>
+> **What changed.** Every reopening test I run — Stage-A **leg (i)**, the Tier-2 CONFIRM partition, BRT-17, the off-ramp — is built to detect an **INSTRUMENT**: a signature, a coordinated sovereign act, something legible you can point at. That was the right guard against **LESSONS #18 rhetorical** noise, and it has worked. **It is now insufficient, and today is the first day the gap is visible in the evidence rather than in the abstract.**
+>
+> **The evidence (2026-08-04, all same-morning).** Treasury Secretary **Bessent** [CNBC]: *"We are in talks with the Iranians and I think there is a chance we may have a deal today or tomorrow to open the strait"*, and on tolls, *"I think it would be freedom of movement."* Against that: **Baqaei** [Iranian MFA]: *"We are not negotiating with the United States at this time. Our negotiations are with Oman."* · **Rubio**: "progress," but ***"no finality yet."*** · ★ **Reuters, senior Iranian source involved in the talks: Iran expects to retain CONTROL OF INBOUND SHIPPING and VISIBILITY OVER OUTBOUND WITH THE ABILITY TO INTERVENE; outbound routing between Iran and Oman with exit clearance granted through Oman AFTER NOTIFYING IRAN; Iran's 10-point proposal carries TRANSIT FEES reported at $1–2M PER VESSEL; and Iran has stated the strait CANNOT return to pre-war arrangements in which ships passed without paying any toll.** IranWire carries Baqaei directly: **the Oman deal will not reopen Hormuz.**
+>
+> **⇒ THE FINDING: the two sides are describing DIFFERENT OBJECTS. Bessent is describing FREE PASSAGE. Iran is describing a TOLLED CORRIDOR IT CONTROLS. The party with the anti-ship missiles is describing the second one.**
+>
+> **Old view → new view.**
+> *"A signature/instrument on Hormuz is the event that ends the premium regime — so leg (i) tests for the instrument."*
+> → **"A signature is NECESSARY BUT NOT SUFFICIENT. A deal can be REAL, SIGNED and SOVEREIGN and still leave the chokepoint economically intact — because a corridor that is tolled at $1–2M/vessel and gated on Iranian clearance is the chokepoint INSTITUTIONALISED, not removed. THE TEST IS THROUGHPUT."**
+>
+> **📐 THE OPERATIONAL CONSEQUENCE, stated so it binds rather than decorates:**
+> 1. **Leg (i) firing does NOT, by itself, mean the thesis is dead.** It means an instrument exists. **The kill test's transit leg — transits >35/day ×2 consecutive — is the real adjudicator, and it was ALREADY the binding constraint** (7/31: Stage-A re-run against Jun-17 blocked on the transit leg, not the signature leg). **v5.4 makes explicit what that re-run demonstrated by accident.**
+> 2. **Read any announced deal against its TERMS, not its existence.** Registered questions for the text: *does it toll? who clears inbound? who clears outbound? is war-risk underwriting restored?* **A deal that tolls at $1–2M/vessel against a pre-war ~$250K war-risk cost has not restored the pre-war economics of a transit, and tonnage will price accordingly.**
+> 3. ⚠️ **AND THE DISCIPLINE THAT CUTS AGAINST ME: this must not become an unfalsifiable ratchet.** It would be very easy to use "a deal is not a reopening" to dismiss *every* de-escalation forever — which is exactly the shape of a thesis that cannot lose. **The guard is that the replacement test is MEASURED and PRE-REGISTERED: transits >35/day ×2 consecutive. If transits recover past that line, the thesis is falsified REGARDLESS of what the deal text says or whether a toll is being charged.** `[[finding_run_the_falsifier_before_promoting]]`
+>
+> **What did NOT change.** The molecule split · the crude premium frame · the upside-convex asymmetry · every KEY THRESHOLD · the n=0 limit (this regime has produced **zero** genuine physical reopenings, so real-vs-fake stays **UNCALIBRATED** — v5.4 sharpens the *question*, it does not supply the missing base rate).
+> **Scope note.** This is about the **crude/chokepoint** leg. It says nothing about the LNG or refined-product buckets, whose regimes are set by facility damage, not by transit rights.
 
 > **⚑ 2026-08-02 — v5.3 (minor): CAPACITY-IRREVERSIBLE ≠ PRICE-IRREVERSIBLE. THE MOLECULE SPLIT STANDS; ONE OF ITS COROLLARIES IS RETRACTED.**
 > **What changed:** v5.2 carried the corollary that *"neither the LNG nor the product loss is reversible by the crude off-ramp — a Hormuz de-escalation round-trips the crude premium; it does not restart Ras Laffan (3-5 yr)."* **My own primary TTF pull (first ever, self-owed since 7/27) says that is TRUE OF THE FACILITY AND FALSE OF THE PRICE.**

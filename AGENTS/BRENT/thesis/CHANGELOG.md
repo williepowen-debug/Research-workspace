@@ -4,7 +4,35 @@ Tracks all changes to THESIS.md and TIMELINE.md. Reverse chronological. Each ent
 
 **Versioning convention:**
 - THESIS: `vX.Y` — major (X) = structural thesis change (phase transition, thesis break, conviction reversal). Minor (Y) = refinement (updated levels, new evidence, threshold adjustment).
-- TIMELINE: not versioned numerically — entries are dated. Events marked RESOLVED with outcomes when they pass.
+- TIMELINE: not versioned numerically — entries are dated. Events marked RESOLVED with outcomes when they pass. ⛔ *(`thesis/TIMELINE.md` has been FROZEN since 2026-07-01 — forward state now lives in `docket/CATALYSTS.tsv` + this file. This convention line is retained as the historical record of how it was versioned.)*
+
+---
+
+## 2026-08-04 (Tue) — **v5.4 (MINOR): A DEAL IS NOT A REOPENING. THE TEST IS THROUGHPUT, NOT SIGNATURE.**
+
+**Trigger:** the first morning on which a **cabinet-level US official asserted an imminent Hormuz deal** while the counterparty simultaneously described **a materially different agreement** — making visible a gap that had been latent in every reopening test I run.
+
+**Old view → new view:**
+*"A signature/instrument on Hormuz is the event that ends the premium regime — so Stage-A leg (i) tests for the instrument."*
+→ **"A signature is NECESSARY BUT NOT SUFFICIENT. A deal can be real, signed and sovereign and still leave the chokepoint economically intact. THE TEST IS THROUGHPUT."**
+
+**Evidence (all 2026-08-04, same morning):**
+- **Bessent** [CNBC]: *"a chance we may have a deal today or tomorrow to open the strait"*; on tolls, *"freedom of movement."*
+- **Baqaei** [Iranian MFA]: *"We are not negotiating with the United States at this time. Our negotiations are with Oman."*
+- **Rubio**: "progress," but ***"no finality yet."***
+- ★ **Reuters** (senior Iranian source): Iran expects **inbound control + outbound visibility with the ability to intervene**; exit clearance **through Oman after notifying Iran**; **transit fees $1–2M/vessel**; the strait **cannot return to pre-war no-toll arrangements.** IranWire/Baqaei: **the Oman deal will not reopen Hormuz.**
+
+**⇒ The two sides describe DIFFERENT OBJECTS — free passage vs a tolled corridor Iran controls.** A corridor tolled at **$1–2M/vessel against a pre-war ~$250K war-risk cost** has not restored pre-war transit economics; **the chokepoint is institutionalised, not removed.**
+
+**Operational consequences (binding, not decorative):**
+1. **Leg (i) firing does NOT by itself kill the thesis** — it establishes that an instrument exists. **The kill test's transit leg (>35/day ×2 consecutive) is the real adjudicator, and it was already the binding constraint** — the 7/31 Stage-A re-run against Jun-17 blocked on the *transit* leg, not the signature leg. **v5.4 makes explicit what that re-run showed by accident.**
+2. **Read an announced deal against its TERMS, not its existence:** does it toll · who clears inbound · who clears outbound · is war-risk underwriting restored?
+3. ⚠️ **Anti-ratchet guard, registered against myself:** *"a deal is not a reopening"* could be used to dismiss every de-escalation forever — the shape of an unfalsifiable thesis. **The guard is that the replacement test is measured and pre-registered: transits >35/day ×2 consecutive. If transits clear that line, the thesis is FALSIFIED regardless of the deal text or whether a toll is charged.**
+
+**What did NOT change:** molecule split · crude premium frame · upside-convex asymmetry · every KEY THRESHOLD · the **n=0** limit (v5.4 sharpens the question; it does not supply the missing base rate).
+**Scope:** crude/chokepoint leg only — silent on LNG and refined product, whose regimes are set by facility damage.
+
+**Same-session corroboration, not load-bearing:** the physical leg deteriorated again — **MV Minoan Pioneer** struck ~20nm NE of Khasab (engine room, blackout, fire, **one seafarer missing**), the third straight day of anti-ship fire in the same box. ⚠️ Counted conservatively per LESSONS #20 (the 8/2-vs-Velos-Amber question is unresolved; **at least two distinct hulls in three days, possibly three**). **Dip confidence re-marked 88% → ~85%** — down on the diplomatic channel strengthening, only 3pp because the substance got worse for a reopening.
 
 ---
 
