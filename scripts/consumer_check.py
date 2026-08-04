@@ -339,8 +339,25 @@ def main():
                          "runtime) + PROME's own surfaces, self-INCLUSIVE (no --agent "
                          "exclusion). Non-numeric --old values match as literal text. "
                          "Run on any canon/threshold change with the OLD token.")
+    ap.add_argument("--self", dest="self_mode", action="store_true",
+                    help="INVERT the scan: check ONLY your own AGENTS/<NAME>/ for figures "
+                         "you superseded this session (needs --agent). Same grep, opposite "
+                         "scope — the cross-agent mode above cannot see intra-agent "
+                         "propagation, which was ~25 of the defects in PROME's 7/31 audit. "
+                         "Deliberately NOT age-gated: a freshly-stamped file carrying a "
+                         "stale claim is the case a staleness enforcer passes. "
+                         "⚠️ NEEDLE QUALITY MATTERS MORE HERE than in cross-agent mode: "
+                         "your own dir is dense with line refs, scores and version "
+                         "strings, so a 2-digit --old ('37') is noise-dominated — it "
+                         "matched 'market-agent.md:37', a '37/75' composite and a "
+                         "FLEET_MAP line number on the first live run. Use a distinctive "
+                         "figure (3+ significant digits) or a text token.")
     ap.add_argument("--strict", action="store_true", help="exit 1 if any STALE consumer found")
     args = ap.parse_args()
+    if args.self_mode and args.mirror_map:
+        ap.error("--self and --mirror-map are opposite scopes; run them separately")
+    if args.self_mode and not args.agent:
+        ap.error("--self needs --agent (it scans AGENTS/<NAME>/ and nothing else)")
 
     here = Path(__file__).resolve()
     workspace = here.parents[1]                       # scripts/ -> repo root (was parents[3] at AGENTS/<X>/scripts/ pre-adoption; git mv 2026-07-28)
@@ -350,7 +367,10 @@ def main():
         own_dir = None
 
     print(f"\n{'='*66}\n  CONSUMER CHECK  ·  who still carries a number you superseded?\n{'='*66}")
-    if own_dir:
+    if own_dir and not args.self_mode:
+        # Suppressed in self mode: printing "own dir excluded" directly above
+        # "SELF mode: scanning only your own dir" states both halves of a
+        # contradiction and lets the reader pick. STRICT_TEXT rule 9.
         print(f"  own dir excluded: AGENTS/{args.agent}/   "
               f"(processed/ + archive/ excluded everywhere — historical by design)")
 
@@ -381,6 +401,21 @@ def main():
         jobs.append((args.label, args.new, args.old))
 
     restrict = None
+    if args.self_mode:
+        # Reuse the existing restrict path — no new walker. Apply the SAME ext and
+        # EXCLUDE_PARTS filters the cross-agent walk uses, so processed/ and archive/
+        # stay excluded here too (a superseded value SHOULD survive in those).
+        # Scope deliberately covers the WHOLE agent dir, not STATUS/THESIS only:
+        # MARCO's own follow-up sweep found 3 more carriers past the audit's list,
+        # one of them a KB ledger, and its SCRATCH + KB were exactly what a
+        # narrative-only sweep missed (PROME addendum, 2026-07-31).
+        restrict = {p for p in own_dir.rglob("*")
+                    if p.is_file() and p.suffix.lower() in SEARCH_EXTS
+                    and not (EXCLUDE_PARTS & {q.lower() for q in p.parts})}
+        own_dir = None                      # self-INCLUSIVE: never exclude the caller
+        print(f"  SELF mode: {len(restrict)} files under AGENTS/{args.agent}/ "
+              f"(processed/ + archive/ still excluded — historical by design). "
+              f"Nothing outside your own dir is scanned.")
     if args.mirror_map:
         restrict = mirror_map_files(workspace)
         own_dir = None  # self-INCLUSIVE by definition — never exclude the caller
@@ -394,9 +429,20 @@ def main():
         total_stale += len(stale)
 
     print()
-    if total_stale:
+    if total_stale and args.self_mode:
+        # The instruction INVERTS in self mode: you are the owner, so a packet to
+        # yourself is not the fix — editing the surface is. Saying "send the owner a
+        # packet" here would be advice to do nothing.
+        print(f"  🔴 {total_stale} stale reference(s) on YOUR OWN surfaces. You are the "
+              f"owner: fix them in place this session — no packet, nobody else to tell. "
+              f"Fix by PATTERN, not by the line list above (a line-targeted sweep left a "
+              f"hit on the highest-blast-radius surface three times in one night).")
+    elif total_stale:
         print(f"  🔴 {total_stale} stale consumer reference(s). Send each owner a packet "
               f"with the refreshed value — do NOT edit their files.")
+    elif args.self_mode:
+        print(f"  ✓ clean — no surface under AGENTS/{args.agent}/ carries the superseded "
+              f"value unqualified. (Scanned the whole dir, not just STATUS/THESIS.)")
     else:
         print("  ✓ clean — every consumer is current or has it flagged superseded.")
     print(f"{'='*66}\n")
