@@ -66,6 +66,7 @@ import argparse
 import re
 import subprocess
 import sys
+from datetime import datetime
 from pathlib import Path
 
 # ---------------------------------------------------------------- surfaces
@@ -477,6 +478,100 @@ def check_superseded_drift(pairs: set[tuple[str, str]], surfaces: dict[str, str]
     return findings
 
 
+# ---------------------------------------------------------------- check E
+#
+# FUTURE-DATED STAMPS. Added 2026-08-04 after a systematic +66 to +69 minute skew
+# was found in hand-written prose timestamps across BOTH TERRY's and BRENT's
+# surfaces — card §9 stamped "8/4 12:20" on work committed 11:11; a BRENT ruling
+# packet stamped "~12:55 ET" written at 11:48. Git times matched the wall clock
+# throughout, so the COMMITS were right and only the hand-written stamps were wrong.
+#
+# 🔴 Why this is not pedantry: RISK_RULES durable finding #6 — *grade execution only
+# against SAME-TIMESTAMP marks* — exists because a 21-minute timestamp gap
+# manufactured a fake n=2 execution finding about TERRY's own limit-setting. A
+# 69-minute systematic skew is 3x that gap, written into the fill-time record we
+# would later reconstruct sequence from.
+#
+# ★ A future timestamp is NEVER legitimate, which is what makes this cheap: the
+# check needs no threshold tuning and has no judgement call in it.
+#
+# ⚠️ DELIBERATELY NARROW, and the gap is stated rather than hidden. Requiring all
+# three of {stamp keyword, today's date on the line, future time} means it will
+# MISS an inline stamp with no date beside it (e.g. card §9.D's "Live at 12:20").
+# That is the intended trade: a broad "any future HH:MM" rule fires on every
+# scheduled obligation this desk carries — "8/7 15:30 COT", "leg (a) grades ~16:15"
+# — and an alarm that fires on the normal state stops being read. That failure mode
+# has already cost this desk twice (mark_asof's "STALE 10bd", boot.py's "0 of 15").
+
+STAMP_WORDS = (
+    "updated", "sent:", "current state", "chain pulled", "as-of", "asof",
+    "revised", "update ", "closeout", "-ruled", "ruled:", "graded", "re-graded",
+    "pulled", "live at", "banner",
+)
+# If one of these shares the line, the time is describing something SCHEDULED
+# rather than something recorded. Belt-and-braces on top of the keyword gate.
+FUTURE_EVENT_WORDS = (
+    "expires", "expiry", "due ", "resolves", "resolver", "deadline", "scheduled",
+    "obligation", "grades on", "will grade", "before the close", "at the close",
+    "upcoming", "eta ", "no earlier",
+)
+TIME_RE = re.compile(r"\b([01]?\d|2[0-3]):([0-5]\d)\b")
+STAMP_SKEW_TOLERANCE_MIN = 2  # a stamp may trail write-lag by a minute or two
+
+# ★ THE STRUCTURAL RULE THAT REPLACED A KEYWORD BLACKLIST.
+# First cut gated on {stamp keyword} AND NOT {future-event keyword}. All 11
+# selftest cases passed and the LIVE run then produced two false positives on
+# real rows — "LEG (a) STILL NOT GRADED BY TERRY - BRENT's gate, on the close
+# ~16:15". It carried the stamp word "graded" and my blacklist had "at the close"
+# but not "on the close". Whack-a-mole, and it would have shipped an alarm firing
+# on this desk's normal state.
+#
+# The real distinction is STRUCTURAL, not lexical: in a genuine stamp the time
+# sits immediately after the date — "2026-08-04 ~12:55", "8/4 12:20",
+# "2026-08-04 Tue **12:30 ET**". In a scheduled-event mention the two are far
+# apart, often in different clauses of a very long ledger cell. So: require
+# ADJACENCY. That is a property of how stamps are written, not a list of words
+# someone has to keep extending.
+STAMP_ADJACENCY_CHARS = 12
+
+
+def today_tokens(now: datetime) -> tuple[str, ...]:
+    return (now.strftime("%Y-%m-%d"), f"{now.month}/{now.day}", now.strftime("%m/%d"))
+
+
+def check_future_stamps(surfaces: dict[str, str], now: datetime) -> list[str]:
+    findings: list[str] = []
+    toks = today_tokens(now)
+    cutoff = now.hour * 60 + now.minute + STAMP_SKEW_TOLERANCE_MIN
+    for name, text in surfaces.items():
+        for lineno, raw in enumerate(text.splitlines(), 1):
+            # Struck text is history by convention (same rule check B uses) — a
+            # corrected stamp must not be re-flagged as a live one.
+            line = strip_history(raw)
+            low = line.lower()
+            if not any(w in low for w in STAMP_WORDS):
+                continue
+            if any(w in low for w in FUTURE_EVENT_WORDS):
+                continue
+            # Every position where today's date ends, so adjacency can be tested.
+            date_ends = [m.end() for t in toks for m in re.finditer(re.escape(t), line)]
+            if not date_ends:
+                continue
+            for tm in TIME_RE.finditer(line):
+                if not any(0 <= tm.start() - de <= STAMP_ADJACENCY_CHARS for de in date_ends):
+                    continue  # a time floating elsewhere in the line is not this date's stamp
+                h, m = tm.group(1), tm.group(2)
+                if int(h) * 60 + int(m) > cutoff:
+                    findings.append(
+                        f"FUTURE-DATED STAMP  {name}:{lineno}  reads {int(h):02d}:{m} "
+                        f"but it is {now.strftime('%H:%M')} — a stamp cannot be in the future.\n"
+                        f"      -> read the clock (`date`), do not infer it. "
+                        f"…{line[max(0, tm.start()-60):tm.end()+40].strip()}…"
+                    )
+                    break  # one finding per line is enough to act on
+    return findings
+
+
 # ---------------------------------------------------------------- gather
 
 def gather_live():
@@ -645,6 +740,48 @@ def selftest() -> int:
        cards_from_text("c.md", "**Setup ID:** `TRY-A` ·\n**Terry verdict:** CLEAN\nlater\n"
                                "**Terry verdict (2026-01-01):** CONDITIONAL")[1].startswith("CLEAN"))
 
+    # --- check E: future-dated stamps (2026-08-04)
+    _now = datetime(2026, 8, 4, 12, 0)          # pinned: never read the real clock in a test
+    _d = _now.strftime("%Y-%m-%d")
+
+    ok("★ catches the REAL 8/4 defect — card §9 stamped 12:20 at 11:11 wall clock",
+       len(check_future_stamps({"card": f"## 9. UPDATE {_d} ~12:20 ET — BRENT RULED"}, _now)) == 1)
+    ok("catches the short-date form used in INDEX/SETUPS ('REVISED 8/4 12:20')",
+       len(check_future_stamps({"INDEX.md": "🔴 **REVISED 8/4 12:20 — BRENT RULED**"}, _now)) == 1)
+    ok("catches a packet 'Sent:' stamp running ahead (BRENT's +66min)",
+       len(check_future_stamps({"pkt": f"**Sent:** {_d} ~12:55 ET · Class: ruling"}, _now)) == 1)
+    ok("a stamp in the PAST is silent",
+       check_future_stamps({"S": f"**Updated:** {_d} 11:45 ET"}, _now) == [])
+    ok("within tolerance is silent (write-lag, not skew)",
+       check_future_stamps({"S": f"**Updated:** {_d} 12:01 ET"}, _now) == [])
+
+    # ⚠️ The FP cases. A guard that fires on this desk's normal state stops being
+    # read — that has already happened twice here (mark_asof "STALE 10bd",
+    # boot.py "0 of 15"). Every line below is real text from live TERRY surfaces.
+    ok("★ NO FP: a SCHEDULED future event on today's date is not a stamp",
+       check_future_stamps({"S": f"CURRENT STATE — {_d}: leg (a) grades on the close ~16:15"}, _now) == [])
+    ok("★ NO FP: a dated obligation on ANOTHER day ('8/7 15:30 COT')",
+       check_future_stamps({"S": "⏰ Dated obligations: **8/7 15:30** COT → 007 resolver"}, _now) == [])
+    ok("★ NO FP: a future time with no date anchor is skipped by design",
+       check_future_stamps({"S": "### D. Live at 16:15 — nothing here fires anything"}, _now) == [])
+    ok("★ NO FP: an ordinary prose line that happens to carry a time",
+       check_future_stamps({"S": f"{_d}: the 15:30 print is BRENT's to grade"}, _now) == [])
+    ok("NO FP: a STRUCK stamp is history, not a live claim",
+       check_future_stamps({"S": f"**Updated:** ~~{_d} 12:20 ET~~ -> 11:11"}, _now) == [])
+    ok("expiry/resolver wording suppresses even a keyword line",
+       check_future_stamps({"S": f"UPDATE {_d}: arm expires 16:15"}, _now) == [])
+    # ★ THE LIVE FALSE POSITIVE that the keyword-blacklist version shipped with —
+    #   real text from SETUPS.tsv:12 / TRADE_BOOK.md:32. The date sits far from the
+    #   time, in a different clause of a long ledger cell. Caught only by running
+    #   the guard against the actual ledger, never by the 11 cases above.
+    ok("★★ NO FP: the real ledger row that broke the keyword version "
+       "('graded' + 'on the close ~16:15', date far away)",
+       check_future_stamps({"SETUPS.tsv":
+           f"{_d}\tTRY-BRENT-USOARM\tUSO call spread. LEG (a) STILL NOT GRADED BY "
+           f"TERRY - BRENT's gate, on the close ~16:15. Chain pulled {_d} 11:34."}, _now) == [])
+    ok("adjacency is what does the work: same line, time moved NEXT TO the date, fires",
+       len(check_future_stamps({"S": f"Chain pulled {_d} 16:15 ET"}, _now)) == 1)
+
     print(f"\n  {'SELFTEST PASS' if not fails else f'SELFTEST FAIL ({fails})'}")
     return 1 if fails else 0
 
@@ -715,7 +852,24 @@ def run_live(since: str) -> int:
     else:
         print("  ✓ no naked superseded values" if tokens else "  ✓ nothing corrected in window — nothing to sweep")
 
-    total = len(a) + len(b) + len(c) + len(d)
+    now = datetime.now()
+    # ⚠️ E scans the ledgers AND THE CARDS. check B's DRIFT_SURFACES list excludes
+    # cards, and the 8/4 skew that motivated this check lived in a card header
+    # ("## 9. UPDATE 2026-08-04 ~12:20 ET", written 11:11). Reusing B's list would
+    # have shipped a guard blind to its own founding incident.
+    stamp_surfaces = dict(surfaces)
+    for card in sorted(CARD_DIR.glob("*.md")):
+        stamp_surfaces[f"card({card.name})"] = read(card)
+    e = check_future_stamps(stamp_surfaces, now)
+    print(f"\nE. FUTURE-DATED STAMPS — {len(stamp_surfaces)} surface(s) "
+          f"(ledgers + cards), clock now {now.strftime('%Y-%m-%d %H:%M')}")
+    if e:
+        for f in e:
+            print(f"  🔴 {f}")
+    else:
+        print("  ✓ no stamp claims a time that has not happened yet")
+
+    total = len(a) + len(b) + len(c) + len(d) + len(e)
     print(f"\n{'🔴 ' + str(total) + ' FINDING(S) — sweep before closeout' if total else '✅ CLEAN'}")
     return 1 if total else 0
 

@@ -12,7 +12,7 @@ import argparse
 import csv
 import subprocess
 import sys
-from datetime import date
+from datetime import date, datetime
 from pathlib import Path
 
 SCRIPTS_DIR = Path(__file__).resolve().parent
@@ -208,7 +208,21 @@ def ledger_sweep_summary():
 def run(args):
     print("TERRY boot card")
     print("===============")
-    print("Repo:")
+    # ⏰ WALL CLOCK FIRST — added 2026-08-04. The PRIMARY fix for the stamp-skew
+    # class, and it is prevention, not detection: on 8/4 hand-written prose stamps
+    # ran +66 to +69 minutes fast across BOTH TERRY's and BRENT's surfaces, because
+    # times were INFERRED rather than read. ledger_sweep check E is only a backstop
+    # — it can catch a future stamp only while that time is still in the future, so
+    # a stamp written at 11:11 claiming 12:20 is undetectable from 12:20 onward.
+    # The cheap, total fix is having the real clock in front of you from the start.
+    # Why it matters: RISK_RULES durable finding #6 grades execution against
+    # SAME-TIMESTAMP marks, and that rule exists because a 21-minute gap
+    # manufactured a fake execution finding. A 69-minute skew is 3x that gap.
+    now = datetime.now()
+    print(f"\n⏰ WALL CLOCK: {now.strftime('%Y-%m-%d %H:%M:%S %Z').strip()} ({now.strftime('%A')})")
+    print("   Never hand-write a time or a weekday — copy them from this line.")
+
+    print("\nRepo:")
     print("  status:", sh(["git", "status", "--branch", "--short"]).replace("\n", " | "))
     print("  ahead/behind:", sh(["git", "rev-list", "--left-right", "--count", "HEAD...origin/master"]))
 
