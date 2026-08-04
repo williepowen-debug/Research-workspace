@@ -58,7 +58,19 @@ SAM_DIR = SCRIPTS_DIR.parent
 WORKSPACE = SAM_DIR.parent.parent
 WORKBOOK = SAM_DIR / "workbook"
 CPI_TSV = WORKBOOK / "CPI.tsv"
-ENV_FILE = WORKSPACE / ".env"
+# Credential homes, searched in order.
+# ⚠️ The fleet's SINGLE HOME for API keys is FORGE/tools/market-data/.env (PROME
+# MACHINE_LOCAL.md: FRED, PJM, EIA all live there; "two homes = rotation drift").
+# This script originally read ONLY the repo-root .env, which is why ESTAT_APPID was
+# left behind when the 2026-07-01..04 credential cleanup re-homed the other three keys
+# — CPI's last successful pull was 6/29, immediately before that window, and the gap
+# went unnoticed for ~5 weeks. Read BOTH, fleet home first, so the key can live in one
+# place with everything else. (Class: [[finding_unversioned_local_secret_fails_silently]])
+ENV_FILES = [
+    WORKSPACE / "FORGE" / "tools" / "market-data" / ".env",   # fleet single home
+    WORKSPACE / ".env",                                        # legacy/local fallback
+]
+ENV_FILE = ENV_FILES[0]   # kept for message text; see load_env() for the real search
 
 API_URL = "https://api.e-stat.go.jp/rest/3.0/app/json/getStatsData"
 STATS_DATA_ID = "0003427113"  # 2020-base CPI database
@@ -74,19 +86,25 @@ TSV_HEADER = "Pulled_Date\tSeries\tReference_Month\tHeadline\tCore\tCoreCore\n"
 
 
 def load_env():
-    """Read .env at repo root if ESTAT_APPID not already in os.environ."""
+    """Load ESTAT_APPID from the first .env that defines it (fleet home first)."""
     if os.environ.get("ESTAT_APPID"):
         return
-    if not ENV_FILE.exists():
-        return
-    with open(ENV_FILE) as f:
-        for line in f:
-            line = line.strip()
-            if not line or line.startswith("#"):
-                continue
-            if "=" in line:
-                k, v = line.split("=", 1)
-                os.environ.setdefault(k.strip(), v.strip())
+    for env_path in ENV_FILES:
+        if not env_path.exists():
+            continue
+        try:
+            with open(env_path) as f:
+                for line in f:
+                    line = line.strip()
+                    if not line or line.startswith("#"):
+                        continue
+                    if "=" in line:
+                        k, v = line.split("=", 1)
+                        os.environ.setdefault(k.strip(), v.strip())
+        except OSError:
+            continue
+        if os.environ.get("ESTAT_APPID"):
+            return
 
 
 def time_code(ref_month: date) -> str:
@@ -323,7 +341,7 @@ def _report_staleness():
             print(f"       {series:<9} latest reference month {ref}  (~{months} months behind today)")
         print("       ⚠️  STATUS may carry newer figures by hand — that is the trap: the")
         print("           workbook looks maintained because another surface is current.")
-        print("       → set ESTAT_APPID (free e-Stat registration) in the repo-root .env")
+        print("       → fix: set ESTAT_APPID in the fleet .env named above.")
     except Exception as exc:                                       # noqa: BLE001
         print(f"  (staleness check unavailable: {exc})")
 
@@ -363,7 +381,14 @@ def main():
 
     if not summary_only:
         if not os.environ.get("ESTAT_APPID"):
-            print(f"  ⚠️  ESTAT_APPID not set (looked in env + {ENV_FILE})")
+            searched = " , ".join(
+                f"{p}{'' if p.exists() else ' [absent]'}" for p in ENV_FILES)
+            print("  ⚠️  ESTAT_APPID not set. Searched: os.environ , " + searched)
+            print(f"  →  Put it in the FLEET SINGLE HOME alongside FRED/PJM/EIA:")
+            print(f"         {ENV_FILES[0]}")
+            print( "         ESTAT_APPID=<id from e-Stat My Page -> API -> Issue Application ID>")
+            print( "     ℹ️  If you registered before, the ID is probably ALREADY ISSUED —")
+            print( "         My Page lists existing Application IDs; no need to make a new one.")
             # A credential failure used to end here — which made the REAL cost invisible:
             # the fetch stops, but CPI.tsv silently ROTS while STATUS keeps carrying the
             # figures by hand, so the workbook looks maintained and is not. Found 2026-08-04
