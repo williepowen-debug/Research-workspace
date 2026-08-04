@@ -74,6 +74,10 @@ RE_MONEY = re.compile(r"\$\s?([0-9][0-9,]*(?:\.[0-9]+)?)")
 PROXIMITY = 40   # chars between an instrument name and a price to attribute them
 
 SKIP_DIRS = {".git", "node_modules", ".venv", "__pycache__"}
+# Text surfaces a directory-expanded run will read (binaries/caches are pointless to scan).
+TEXT_SUFFIXES = {".md", ".tsv", ".csv", ".txt", ".py", ".sh", ".json", ".yml", ".yaml"}
+# How close a 4-digit year must sit to a bare M/D to be read as qualifying it.
+YEAR_PROXIMITY = 30
 
 
 def sh(args):
@@ -128,12 +132,34 @@ def check_file(path, checks, year):
             # the same line, not from today. Caught on the first live run: DOCKET's
             # "Q2-2024 precedent = Tue 8/6" is CORRECT (2024-08-06 was a Tuesday) and
             # assuming 2026 made it look wrong. Nearly find-replaced a right answer.
+            # ...but a year that is PART OF A COMPLETE DATE is already spoken for: it
+            # describes that date, not a bare M/D elsewhere on the line. Without this
+            # exclusion the heuristic inverts CORRECT text — live instance 2026-08-03,
+            # CARL packet line 15: "...ELIMINATED Mon 8/3 (FHFA refused the delay; 15%
+            # reserve req 2027-01-04)". The nearest year was 2027, so 8/3 resolved to
+            # 2027-08-03 (a Tuesday) and "Mon 8/3" — which is right in 2026 — was
+            # flagged as wrong. Same class as the DOCKET case above, opposite direction:
+            # there the fix was to STOP assuming today's year, here it is to stop
+            # borrowing a year that belongs to another date. (DAEDALUS, scripts/ break-fix)
+            iso_year_spans = [mm.span(1) for mm in
+                              re.finditer(r"\b(20\d{2})-\d{2}-\d{2}\b", line)]
             years = [(mm.start(), int(mm.group(1)))
-                     for mm in re.finditer(r"\b(20\d{2})\b", line)]
+                     for mm in re.finditer(r"\b(20\d{2})\b", line)
+                     if not any(s <= mm.start(1) < e for s, e in iso_year_spans)]
             for m in RE_WEEKDAY.finditer(line):
                 y = year
                 if years and "-" not in m.group(2) and len(m.group(2).split("/")) < 3:
-                    y = min(years, key=lambda t: abs(t[0] - m.start()))[1]
+                    # ...and only borrow a year that is NEAR the date. "Nearest on the line"
+                    # is unbounded, so on a long STATUS line ANY 4-digit number hijacks the
+                    # date: measured 2026-08-03, an unbounded borrow produced 271 fleet flags
+                    # of which most resolved to 2006/2022/2025 and flagged CORRECT text
+                    # (BOND STATUS:96 "Fri 7/31" -> 2025 -> "Thursday, not Fri", when 7/31
+                    # IS a Friday in 2026). A year that qualifies a date sits beside it —
+                    # the DOCKET case this heuristic was built for, "Q2-2024 precedent =
+                    # Tue 8/6", is 22 chars. Beyond the window, trust --year.
+                    near = [t for t in years if abs(t[0] - m.start()) <= YEAR_PROXIMITY]
+                    if near:
+                        y = min(near, key=lambda t: abs(t[0] - m.start()))[1]
                 d = parse_date(m.group(2), y)
                 if not d:
                     continue
@@ -205,6 +231,19 @@ def main():
 
     checks = {c.strip() for c in a.check.split(",") if c.strip()}
     files = a.paths or changed_files(a.staged)
+    # Expand directory arguments. Without this, `claim_check.py AGENTS PROME` read the two
+    # DIRECTORY names as files, failed silently on OSError, and printed
+    # "✓ 2 file(s) clean" — a whole-fleet pass claimed off zero bytes read. PAT-074: a check
+    # must be audited by what its PASS means. (DAEDALUS, scripts/ break-fix 2026-08-03)
+    expanded = []
+    for f in files:
+        p = pathlib.Path(f)
+        if p.is_dir():
+            expanded += [str(q) for q in sorted(p.rglob("*"))
+                         if q.is_file() and q.suffix.lower() in TEXT_SUFFIXES]
+        else:
+            expanded.append(f)
+    files = expanded
     files = [f for f in files if not any(s in pathlib.Path(f).parts for s in SKIP_DIRS)]
     if not files:
         if not a.quiet:
