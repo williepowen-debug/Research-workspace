@@ -69,6 +69,43 @@ ET = "ET"
 SNAP = ROOT / "PROME/state/brief_snapshot.json"
 CHANGES = ROOT / "PROME/state/brief_changes.jsonl"
 
+
+def _persist_state(n_added):
+    """Commit the two machine-written state files this tool exclusively owns.
+
+    WHY THIS EXISTS (2026-08-04, DAEDALUS flag): brief_changes.jsonl is the
+    APPEND-ONLY memory behind the brief's "since you last LOOKED" feed. Before
+    this, it was committed when somebody remembered -- twice in its whole
+    history -- so it sat dirty behind completed closeouts. Gitignoring it was
+    the other option offered and is WRONG: the feed would silently empty on a
+    machine switch, and an empty feed is indistinguishable from "nothing
+    changed" (a false negative, the dangerous direction).
+
+    A hand-commit is not a mechanism, so the generator persists its own state.
+
+    Git discipline (root CLAUDE.md): pathspec commit, explicit paths only,
+    never `git add .`/-A, never `git reset`. Fails SAFE and SILENT-ish -- a
+    reporting tool must never block or crash on a git problem.
+    """
+    import subprocess
+    paths = [str(p.relative_to(ROOT)) for p in (CHANGES, SNAP) if p.exists()]
+    if not paths:
+        return
+    try:
+        dirty = subprocess.run(["git", "status", "--porcelain", "--"] + paths,
+                               cwd=ROOT, capture_output=True, text=True, timeout=15)
+        if dirty.returncode != 0 or not dirty.stdout.strip():
+            return  # nothing to persist, or git unavailable
+        msg = (f"PROME brief state: {n_added} change row(s) + snapshot "
+               f"(auto-persisted by will_brief.py)")
+        r = subprocess.run(["git", "commit", "-m", msg, "--"] + paths,
+                           cwd=ROOT, capture_output=True, text=True, timeout=30)
+        if r.returncode != 0:
+            print(f"  [warn] brief state not committed (harmless, commit it at "
+                  f"closeout): {r.stderr.strip().splitlines()[:1]}")
+    except Exception as e:
+        print(f"  [warn] brief state not committed (harmless): {e}")
+
 # Sections the parser keys on in BRIEF.md.
 BRIEF_SECTIONS = ["HEADLINE", "STORY", "QUESTION", "FALSIFIER",
                   "DISAGREEMENT", "POSITION", "WATCH"]
@@ -313,6 +350,7 @@ def update_changes(new_snap, write=True):
                 for e in added:
                     f.write(json.dumps(e) + "\n")
         SNAP.write_text(json.dumps(new_snap, indent=1, sort_keys=True))
+        _persist_state(len(added))
     recent = (existing + added)[-7:]
     recent.sort(key=lambda e: (e.get("ts", ""), -KIND_RANK.get(e.get("kind"), 9)),
                 reverse=True)
