@@ -20,6 +20,7 @@ This desk has already killed one directory for being a fork waiting to happen (`
 **The test for anything new: does it state a fact about QQQ that survives across trades?** If it states the state of a *position*, it belongs in a card or a ledger, not here.
 
 ⚠️ **Nothing in this directory is a state surface.** `ledger_sweep.py` does not gate it, so a number copied here can rot silently. **Cite the source; do not restate it.**
+> 🔴 **Demonstrated within one commit.** The 16:10 correction updated the record table to 11 tickets and left `8 of 8` and `7/7 puts` standing two rows below it — **stale figures in the same file as their own correction, on the surface whose warning is this sentence.** Fixed 16:15. **This is the argument for citing rather than restating, made by the file against itself.**
 
 ---
 
@@ -47,7 +48,7 @@ This desk has already killed one directory for being a fork waiting to happen (`
 
 | # | Failure | Evidence |
 |---|---|---|
-| **1** | **Direction is a bias, not a read** | 8 of 8 short, into a tape that ran **+10.1% in four sessions** |
+| **1** | **Direction is a bias, not a read** | ~~8 of 8~~ → **11 of 11 short**, into a tape that ran **+10.1% in four sessions** |
 | **2** | **Size exceeds the cap before the trade is even wrong** | 687P at **$843 = 3.4R** against a **2R / $500** cap = **1.7× oversized** |
 | **3** | **No harvest — winners round-trip** | 687P was **+23.6% at Friday's close**, held through a non-trading gap, died near-worthless |
 | **4** | **The hard stop has NEVER been executed** | breached ~10:10 on 8/3, not acted on. **0 for 4 across four reviews.** |
@@ -56,7 +57,7 @@ This desk has already killed one directory for being a fork waiting to happen (`
 
 > ★ **#2–#5 are all "the rule was written and not followed," and #6 says the record could not even see all of it.** That means **more analysis will not fix this.** The fix has to be structural — see `PLAYBOOK.md`, whose central move is to stop relying on in-the-moment execution of rules this desk has a 0-for-4 record on.
 
-**What is NOT broken:** the tape-reading. 7/7 puts is a *consistent* read, and the V-fade card's thesis invalidation was **pre-registered and correct** — it named the level that would refute it, and cost **$0** when the level printed. The machinery works. The discretion is what leaks.
+**What is NOT broken:** the tape-reading. An unbroken run of puts is a *consistent* read, and the V-fade card's thesis invalidation was **pre-registered and correct** — it named the level that would refute it, and cost **$0** when the level printed. The machinery works. The discretion is what leaks.
 
 ---
 
