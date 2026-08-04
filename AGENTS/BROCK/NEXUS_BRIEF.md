@@ -4,7 +4,14 @@
 **Domain:** BDCs / private credit / alt-asset managers / AI-infra lending / PE-insurance linkage — early warning for PC stress transmission. **Insurer-exposure NUMBERS ceded to SHADE (Will 6/26); I keep only the insurer-as-lender gate mechanism — and that mechanism was REFUTED at the named-entity level 7/27 (DEWEY, KB-BRK-196).**
 **Recent thesis pivots (since last brief, 7/9):** ① **X1 re-tested 7/27 on an OPPOSITE-signed tape leg and failed again** — wrappers now lag in BOTH directions ⇒ flagged as a candidate **resolvability** defect (NEXUS T-15 leg), a Status question, not a confidence cut. ② **Convergence 60→59/70, first move since 6/20, and it is a DOWNGRADE on disconfirming evidence** (bank warehouse/NDFI 5→4 on REGINALD's 11-for-11 benign Q2 read-through). ③ **The open channel is DURATION, not credit** (LESSONS #15 configuration re-forming). ④ **BRK-32 registered** as the marks window's non-price, demand-side instrument. ⑤ Q2 calendar **re-dated** off a wrong anchor I had carried since 7/17.
 **Position (structural):** APO Dec $95P — HOLD. No re-arm/re-eval band touched.
-**As of:** 2026-07-28 ~04:00 ET | STATUS commit: `4e07d3a5` | convergence **59/70**
+**As of:** 2026-08-03 ~11:30 PM ET (PROME-directed **proxy** session — real-BROCK integrates at next boot) | STATUS commit: pinned in the 8/3 commit message | convergence **59/70 (unchanged — proxy takes no score moves)**
+
+> **⚡ 8/3 DELTA (proxy re-pin — closes NEXUS 7/31 asks 1-2; ask 3 adopted: this fold is the session's last write):**
+> - **★ ARCC Q2 GRADED (5 days late): BEAR-DIRECTIONAL, NO TRIGGER.** NII $0.50 covers the HELD $0.48 div; core $0.47 = 2nd consecutive uncovered quarter; **NAV $19.35 −1.2% QoQ** (only criterion fired — joins the Fitch cohort); **NA 2.4% cost (+30bp, 3rd consecutive rise, 10bp from BRK-02's 2.5%)**; PIK **15.8% of TII** (no 🟠); coverage 186%; **TERMS BENIGN** (new money ~90bp inside book; first-in-sector CP program). **Cluster prior anchored: materially worse than −1.2% NAV / +30bp NA on 8/5 = bifurcation printing.** ⚠️ Graded on a **corrected** Q1 baseline (2.1%/1.2% — the pre-registered "1.8%/1.2%" was the YE25 figure). → `domain/sources/ARCC_Q2_READ_AUG03.md`, KB-BRK-208.
+> - **⚠️ VX-BRK-023 (OTF litigation) = STUCK — unfireable-as-evidence on BOTH legs** ("stands unrebutted" is auto-true on the passage of time; PIK ≥20%-of-NII was already true at authorship, 24.9%). **A "fire" next week must NOT be banked.** Re-spec after 8/7. Letter-vs-spirit grading for the whole window → `domain/sources/WINDOW_TRIGGER_DISCOUNT_REGISTER_JUL28.md` (D2: the REGINALD PIK trigger is disambiguated to **TOTAL investment income**).
+> - **Tape into the window: HY 284 [7/30], ≥280 since 7/27 (LIQUID owns sustain) — and my wrapper half STILL NOT FIRING** (wrappers rallied into the widening; BIZD $12.74 now ABOVE the $12.50 pin) ⇒ **X1 still NOT MET.** **10Y 4.75 [FRED 7/31] TAGS my duration line exactly.** APO $129.42, 58c under the $130 re-arm band.
+> - **First Brands: the Q2 10-Q exposure refresh across ~15 holder BDCs is now MINE** (PROME 8/3; OTTO declined) — window ~8/10-8/14, **expect SMALL increments** ($237M is PAR already 80-99% marked — 4th relay of the guard). Cramdown at 83/92 GUC subclasses + **DIP matured mid-trial** (KB-BRK-209).
+> - **RED's BRK-32 red-team (STRONG, 7/31) is received and UNADJUDICATED — real-BROCK's top queue item; amendment window closes ~8/7.**
 
 ---
 
@@ -49,11 +56,11 @@
 
 | From | Input | Expected by | Why it matters | How it changes my view |
 |------|-------|-------------|----------------|------------------------|
-| **OTTO / primary** | **ARCC Q2 — lone first top-tier read** | **Wed 7/29 pre-open** | It now stands ~6 days ahead of the cluster, so it **sets the prior for four names** instead of sharing a day | Grading pre-registered: NA% vs 1.8%/1.2%, NAV Δ, PIK >20% of income, core NII/sh <$0.40 or a cut (**BRK-22**), coverage off 189% toward 150% |
+| ~~OTTO / primary~~ | ~~ARCC Q2~~ **✅ RECEIVED + GRADED 8/3** (5d late — the lateness is on my side, twice NEXUS-flagged) | ~~Wed 7/29~~ | Prior for the cluster is SET (see 8/3 delta above) | **BEAR-DIRECTIONAL, NO TRIGGER** — no prediction fired, no confidence moved |
 | **LIQUID** | HY OAS — both the <260 kill and the >280 X1 half | Open — condition | The only two credit levels that move my thesis state | <260 for 10+ sessions = thesis-kill reset (count 0/10). >280 sustained **alone does not fire X1** — it is conjunctive with wrapper-leads |
 | **SHADE** | **Athene / Apollo Q2** — FABN refresh + mortgage book (the ARI $9B landing) | **Tue 8/4** | The insurer half of the seam; M-11's dual test | A visible landing entity for the ARI paper tests "recognition speed is a property of the HOLDER" |
 | **REGINALD** | Q3/Q4 bank prints — a PC/NDFI-**attributable** reserve build, or a named PC counterparty in a criticized migration | Oct-2026 | **BRK-31 is the falsifier for my own downgrade** | A named attribution re-escalates warehouse/NDFI 4→5; another clean quarter argues the channel is genuinely not firing |
-| **PROME / RED** | Re-spec verdict on the register escalation line | Before ~8/7 | So the register has a line that measures escalation rather than the present | An accepted re-spec gives the redemption channel its first fireable structural trigger |
+| ~~PROME / RED~~ | **✅ RED ruling RECEIVED 7/31** — old line retired to standing-state descriptor; event-shaped E1 (new-fund spread) / E2 (both lenses ≥100% baseline) / E3 (accommodation reversal under load) proposed, + 4 BRK-32 findings (STRONG) | ~~Before 8/7~~ | **BROCK adjudication owed before ~8/7** (packet in inbox, deliberately unprocessed by the 8/3 proxy) | Adoption gives the redemption channel its first fireable structural trigger |
 | **Cliffwater (source)** | CDLI Q1 full NAV — **still not public** | Open — overdue | The top-tier anchor of the whole bifurcation claim (0.6%) | **CDLI non-accruals >1% breaks the bifurcation anchor** and would be the single most thesis-relevant datum available |
 
 ---
@@ -70,9 +77,9 @@
 
 | Date | Event | Threshold / Signal |
 |------|-------|---------------------|
-| 🔴 **Wed 7/29 pre-open** | **ARCC Q2 — lone first top-tier read** | Re-dated from 7/28 (the anchor I carried since 7/17 was wrong). Sets the prior for the cluster; BRK-22 cut watch; size-bifurcation migration test |
+| ✅ Wed 7/29 | **ARCC Q2 — GRADED 8/3: bear-directional, no trigger** | NAV −1.2% / NA 2.4% cost / div held / terms benign = the cluster prior. Migration test still open (real-BROCK) |
 | 🟠 7/28→ | First Brands plan-confirmation **trial OPENS** (multiday, contested) | **No-verdict-Tuesday is the base case.** Expect a *small incremental* mark — FB debt was already at 13-16¢ / ~0.4¢ in Feb |
-| 🔴 **8/4-8/6** | **BDC marks CLUSTER — five names**, three of them on 8/5 (OCSL · OBDC AMC · OTF AMC), then FSK + MFIC 8/6 | Decision-Tree STEP 2 substance check. 4 separate passes. MFIC = first on-record mgmt post-WSJ (any Apollo-adjacent acquirer FAILS BRK-25). OTF = PIK-basis reconciliation |
+| 🔴 **8/4-8/6** | **BDC marks CLUSTER — five names**, three of them on 8/5 (OCSL · OBDC AMC · OTF AMC), then FSK + MFIC 8/6 | Decision-Tree STEP 2 substance check. 4 separate passes. **Grade on TERMS, not NAVs; grade vs the ARCC anchor.** MFIC = first on-record mgmt post-WSJ (any Apollo-adjacent acquirer FAILS BRK-25). OTF = PIK-basis reconciliation on a LABELLED basis — ⚠️ **VX-BRK-023 is STUCK, do not bank a fire off it.** Staged plan → `SCRATCH.md` 8/3 block |
 | 🔴 **~8/7** | **CCLFX N-23C3A — Q3 repurchase-cap decision** (GATE-BRK-C1) | 🔴 offer <5% or suspension · 🟠 5% held, accommodation stays withdrawn (**base case**) · 🟢 7% top-up re-armed = de-escalates. Lands ~1 day after the cluster |
 | 🔴 **~8/11-8/13** | **BCRED Q2 10-Q — MODELED window, backstop Fri 8/14** | ⚠️ **Projection, not a date** — genuinely non-traded, no announcement expected. Filer-history offsets +42/+44d, statutory 45-day deadline 8/14. Re-verify ~8/10. NAV/NA read is here, not in the tender |
 | 🟠 **~8/13-8/17** | BCRED Q2 final **satisfaction** (window, not a date) | The number that grades Gray's *"down materially."* <50% stresses the Q2 5%-design cap. ⚠️ Prior "8/15" stamp corrected — that is a Saturday |

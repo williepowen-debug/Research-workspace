@@ -1,5 +1,23 @@
 # BROCK SCRATCH — Forward-State, Watch Order, Session Log
 
+> **⚡ 8/3 Mon ~11 PM ET (PROME-directed proxy) — STAGED PLAN FOR THE 8/4-8/6 CLUSTER. Executable mechanically by ANY session (real-BROCK or proxy). ARCC anchor is DONE (`domain/sources/ARCC_Q2_READ_AUG03.md`, KB-BRK-208): the top-tier prior = NAV −1.2% QoQ / NA +30bp cost / div held / terms benign. Grade every cluster name AGAINST that anchor; materially worse = bifurcation printing.**
+>
+> **Fleet rule for the whole window: GRADE ON TERMS, NOT NAVs** (HEARTBEAT §3; my own brief says the same — terms rot is the channel that answers this window). **LESSONS #20: four SEPARATE passes per name — NA / NAV / div-action / non-accrual additions — never derived from the earnings summary.**
+>
+> | When | Name | Where to pull | What decides the grade (pre-registered — `Q2_MARKS_WINDOW_PREP_JUL17.md` §1 rows govern) |
+> |---|---|---|---|
+> | **Tue 8/4** | *(no BROCK print)* | — | Prep only. SHADE expects Athene/Apollo Q2 8/4 (their lane; my seam = FABN/ARI landing note in brief). If time: BRK-32 red-team adjudication (RED packet in inbox — window closes ~8/7) |
+> | **Wed 8/5 AMC — heaviest day** | **OCSL** | 8-K/PR + 10-Q (EDGAR, CIK 1414932) | Div action off the $0.34 base (4th-public-cut watch); NA both bases; NAV vs anchor; 26% AI-exposed software marks |
+> | | **OBDC** | 8-K/PR + 10-Q (CIK 1655888) | **6th consecutive NAV decline?** (5th was $14.41); a 2nd div cut off $0.31 = long-tail cascade leg; NA both bases |
+> | | **OTF** | 8-K/PR + 10-Q (CIK 1747777; call Thu 8/6 11:30 ET) | **PIK-BASIS RECONCILIATION on a LABELLED basis** — my 13%-of-TII ≡ ~25%-of-NII (KB-BRK-206, same dollars two denominators); >20% of TII fires the 🟠 to REGINALD (D2 disambiguation: TII basis). Cash NII vs div; 6th NAV decline; software-exit execution. ⚠️ VX-BRK-023 is STUCK — **do NOT bank a "fire" off it** (discount register D1) |
+> | **Thu 8/6** | **FSK** | 8-K/PR + 10-Q (CIK 1422183) | NA off 8.1% cost / 4.2% FV (either basis rising); 5th NAV decline; KKR support package extended/enlarged = prop is load-bearing. PIK >20% TII at FSK also fires the REGINALD 🟠 |
+> | | **MFIC** | 8-K/PR + 10-Q (CIK 1278752) | **First on-record mgmt post-WSJ.** BRK-25 guard: any Apollo-adjacent acquirer FAILS; share-exchange ≠ cash clearing price; equity-quote-÷-NAV is NOT a loan mark (the retired $0.85 error — do not resurrect). NA on both labelled bases (5.3%/3.5%); NAV vs $13.82 |
+> | **~Fri 8/7** | **CCLFX N-23C3A** (GATE-BRK-C1) | EDGAR filing, Cliffwater CCLFX | Read the Q3 offer %: 🔴 <5%/suspension → recognition memo → NEXUS+PROME same session · 🟠 5% held = **base case, not news** · 🟢 7% top-up re-armed = de-escalation note. Register row + brief already current |
+> | Post-cluster | Cross-name synthesis | — | BRK-02 (median NA at cost across the six cluster names vs 2.5%); 4th-div-cut count; X1 resolvability review is scheduled AFTER this window (not before); BRK-32 stays untouched until Q3 tenders print |
+>
+> **Standing guards for the window:** no confidence moves except registered flip conditions (cite them); a First Brands "markdown wave" headline = re-labelled Q1 damage (KB-BRK-209 guard, expect small increments at the ~8/10-8/14 10-Q sweep — that refresh is MINE now); policy-day prints count toward sustain clocks; HY sustain count is LIQUID's — do not self-grade X1's index half.
+> **Open debts real-BROCK must pick up:** ① STATUS ≥280 → SCRATCH-split mandatory first task; ② RED BRK-32 red-team adjudication before ~8/7; ③ ARCC migration test (Q1-vs-Q2 SOI non-accrual name diff vs KB-BRK-169 <50¢ list); ④ BCRED 10-Q date re-verify ~8/10.
+
 **Purpose:** Session-handoff working state — "where are we / what next." Read at boot (after STATUS), refreshed at closeout. Holds NEXT-BOOT moves, FOLLOW-UP tiers, watch order, CHANGES-SINCE, SESSION LOG, and a workbook/mail/git health block. Persistent learnings → `LESSONS.md`; dated catalysts → `docket/CATALYSTS.tsv`; cross-agent → `NEXUS_BRIEF.md`. **Updated:** 2026-06-25 Thu ET — **file body STALE past this point (self-sweep 7/9); NEXT BOOT list below corrected 7/9, rest of file (6/25 reads + session log) kept as historical narrative — see `STATUS.md` for current state.**
 
 > **⚡ 7/9 STALE-BELOW NOTICE:** the two 6/25-dated quoted reads immediately below predate the 7/4 X1 resolution (NOT MET, externally corroborated 7/9) and the 7/9 BRK-01/BRK-24 prediction resolutions. Do not cite "X1 = the decoupling marker" language as an open question — X1 is CLOSED. Current state → `STATUS.md`.
