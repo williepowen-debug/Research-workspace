@@ -26,7 +26,8 @@ Routing (labels verbatim from docket/CALENDAR.md Jun-17 row — this script
 MEASURES the pre-registered branches; SAM adjudicates the verdict):
   (a) deficit re-opens with Brent <$100  → 🟠 Phase 1 mechanism back online
   (b) surplus persists, ME volumes recovering → 🟢 inversion is structural
-  (c) surplus persists, ME volumes still depressed → 🟡 inconclusive; defer to June TB (Jul 22)
+  (c) surplus persists, ME volumes still depressed → 🟡 inconclusive; defer to the
+      NEXT TB print (resolved at run time from docket/CATALYSTS.tsv, never hardcoded)
   ME-volume "recovering" proxy: ME crude vol YoY ≥ −20% (stated assumption,
   printed with the suggestion; not part of the pre-registered text).
 
@@ -279,7 +280,13 @@ def routing_suggestion(bal_M, me_crude, brent_spot):
         return ("(b)", f"🟢 inversion is structural — surplus persists with ME volumes recovering "
                        f"(ME crude vol YoY {me_yoy:+.1f}% vs Apr −67.2%; proxy: ≥ −20%)")
     if me_yoy is not None:
-        return ("(c)", f"🟡 inconclusive; defer to June TB (provisional Jul 22) — surplus persists "
+        # Second instance of the frozen-date-literal class fixed 2026-08-04 (the
+        # first was the "Next release" line). This read "defer to June TB
+        # (provisional Jul 22)" — a release already in the TSV by then, so the
+        # branch-(c) verdict pointed the reader six weeks into the past.
+        nxt = next_scheduled_release()
+        defer_to = f"defer to {nxt}" if nxt else "defer to the next TB print (none docketed)"
+        return ("(c)", f"🟡 inconclusive; {defer_to} — surplus persists "
                        f"but ME volumes still depressed (ME crude vol YoY {me_yoy:+.1f}%; proxy: < −20%)")
     return ("(c?)", "🟡 surplus persists; ME volume leg UNAVAILABLE — verify manually")
 

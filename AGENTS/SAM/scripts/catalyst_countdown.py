@@ -52,8 +52,36 @@ def load_catalysts():
     return catalysts
 
 
+# Last calendar year the HOLIDAYS set actually covers, DERIVED from the set so it
+# cannot disagree with it. The comment above says "Extend each calendar year" —
+# that is a remembered ritual with no mechanism, and on 2027-01-01 it fails
+# SILENTLY and in the DANGEROUS direction: with no holidays to exclude, the
+# trading-day count goes UP, so every event reads as FURTHER AWAY than it is
+# (less urgent). That inverts the deliberate fail-safe documented above, where the
+# market-agnostic union errs toward MORE urgent. Guard added 2026-08-04 — it does
+# not extend the calendar (dates must be sourced, not guessed); it makes the gap
+# announce itself instead of degrading quietly.
+HOLIDAY_COVERAGE_MAX_YEAR = max(int(d[:4]) for d in HOLIDAYS)
+
+
+def holiday_coverage_warning(today, horizon_end):
+    """Return a loud warning string if the countdown reaches past the holiday
+    calendar's coverage, else None."""
+    if horizon_end.year <= HOLIDAY_COVERAGE_MAX_YEAR:
+        return None
+    return (f"  ⚠️  HOLIDAY CALENDAR ENDS {HOLIDAY_COVERAGE_MAX_YEAR} — this countdown reaches "
+            f"{horizon_end.isoformat()}.\n"
+            f"      Trading-day counts past {HOLIDAY_COVERAGE_MAX_YEAR}-12-31 exclude NO holidays, so they "
+            f"OVER-count and read as LESS urgent than reality.\n"
+            f"      Fix: extend HOLIDAYS in catalyst_countdown.py (source the dates; do not guess "
+            f"substitute days).")
+
+
 def trading_days_between(start_date, end_date):
-    """Count weekdays excluding market holidays, exclusive of start, inclusive of end."""
+    """Count weekdays excluding market holidays, exclusive of start, inclusive of end.
+
+    ⚠️ Accurate only within HOLIDAY_COVERAGE_MAX_YEAR; beyond it this silently
+    over-counts. Callers should surface holiday_coverage_warning()."""
     if end_date <= start_date:
         return 0
     days = 0
@@ -88,6 +116,11 @@ def main():
     upcoming = []
     past = []
     horizon_cutoff = today + timedelta(days=horizon)
+
+    warn = holiday_coverage_warning(today, horizon_cutoff)
+    if warn:
+        print()
+        print(warn)
 
     for c in catalysts:
         try:
