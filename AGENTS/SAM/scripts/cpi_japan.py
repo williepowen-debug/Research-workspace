@@ -293,6 +293,41 @@ def print_comparison_note(nat_latest, tok_latest):
     print(f"  ℹ️  {note}. (CALENDAR <1.9% trigger applies as <1.95% for Tokyo.)")
 
 
+
+def _report_staleness():
+    """Say how stale CPI.tsv is when we cannot refresh it.
+
+    A broken fetcher that only reports "credential missing" understates the damage —
+    the durable harm is the workbook drifting behind published releases while every
+    other surface looks current. Best-effort and never raises: this runs on a path
+    that is already failing.
+    """
+    try:
+        from datetime import date
+        rows = [l.split("\t") for l in
+                CPI_TSV.read_text(encoding="utf-8").rstrip("\n").split("\n")[1:] if l.strip()]
+        if not rows:
+            print("  🔴 CPI.tsv is EMPTY — no CPI history at all.")
+            return
+        latest = {}
+        for r in rows:
+            if len(r) >= 3:
+                latest[r[1]] = max(latest.get(r[1], ""), r[2])   # series -> max ref month
+        print("  🔴 CPI.tsv CANNOT REFRESH — and it is drifting behind published releases:")
+        for series, ref in sorted(latest.items()):
+            try:
+                y, m = (int(x) for x in ref.split("-")[:2])
+                months = (date.today().year - y) * 12 + (date.today().month - m)
+            except ValueError:
+                months = "?"
+            print(f"       {series:<9} latest reference month {ref}  (~{months} months behind today)")
+        print("       ⚠️  STATUS may carry newer figures by hand — that is the trap: the")
+        print("           workbook looks maintained because another surface is current.")
+        print("       → set ESTAT_APPID (free e-Stat registration) in the repo-root .env")
+    except Exception as exc:                                       # noqa: BLE001
+        print(f"  (staleness check unavailable: {exc})")
+
+
 def main():
     load_env()
     refresh_only = "--refresh" in sys.argv
@@ -329,6 +364,12 @@ def main():
     if not summary_only:
         if not os.environ.get("ESTAT_APPID"):
             print(f"  ⚠️  ESTAT_APPID not set (looked in env + {ENV_FILE})")
+            # A credential failure used to end here — which made the REAL cost invisible:
+            # the fetch stops, but CPI.tsv silently ROTS while STATUS keeps carrying the
+            # figures by hand, so the workbook looks maintained and is not. Found 2026-08-04
+            # via KB-169 (tsv was ~6 weeks stale, missing 2 published releases, unnoticed).
+            # Report the staleness the credential is causing, not just the credential.
+            _report_staleness()
             return 1
         nat_data = fetch_series(AREA_NATIONAL, from_d, to_d)
         tok_data = fetch_series(AREA_TOKYO, from_d, to_d)
