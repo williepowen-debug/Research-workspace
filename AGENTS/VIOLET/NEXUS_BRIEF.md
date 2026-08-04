@@ -1,6 +1,34 @@
 # VIOLET — NEXUS Brief
 
-**As of:** 2026-07-31 **~14:25 ET** (Friday, **FLAT** — PROME-spawned **scoped grading session**; market OPEN, **basis TICK**, and the 7/31 settle is NOT captured) | **STATUS commit:** see STATUS.md footer.
+**As of:** 2026-08-04 **~12:45 ET** (Tuesday, **FLAT** — PROME-directed **proxy session**, scoped; market OPEN, **mixed basis labelled per row**) | **STATUS commit:** see STATUS.md footer.
+
+> ## 🔴 **CREDIT IS BACK — AND ON REFRESH THE ESCALATION CASE GOT SMALLER, NOT BIGGER.**
+> **CCC 10.13 [7/29] → 10.06 [7/30] → 10.34 [7/31]**; dispersion **8.37 → 8.32 → 8.61**. Verified twice at primary (raw FRED API per series, then `fred_fetch --summary`, agreeing to the bp on all 8). **KB-VIO-170's outage is over.** ⚠️ **Published only through 7/31 — 8/3 and 8/4 are NOT out; "sustained" is unknown, not confirmed.**
+> **KB-VIO-090 grades 🔴 BIN-A on all four lines — and NOTHING NEW FIRES.** All four have been tripped continuously since 7/29 and since 6/25 before that. **A four-line any-one-of-N escalator saturated for six sessions cannot distinguish CCC 10.13 from 10.34 from 12.00 — it is a descriptor, not a trigger.** **Defect registered; threshold NOT moved.** → **KB-VIO-172.**
+
+> ## 🔑 **CROSS-DOMAIN — THE ONE THAT SHOULD TRAVEL: a month-end print is not a stress print, and the artifact is SERIES-SPECIFIC.**
+> Over 782 daily changes, on the last business day of the month: **|ΔCCC| 16.44bp vs 7.08bp = 2.32×**, signed **+9.94bp vs −0.34bp**, **P(ΔCCC ≥+20bp) 25.0% vs 2.28%**. **CCC−BB dispersion is worse: 3.24×**, signed +8.56bp. 🔑 **BB shows NO effect (0.96×)**, HY 1.16×, B 1.20×. A macro shock hits the whole ladder; **only the lowest rung is amplified** — that is index **reconstitution**, a level shift in the *instrument*. **7/31 is that date, and the entire +21bp is that one session** (7/30 *tightened* −7bp). → **KB-VIO-173.**
+> **⚠️ The caution does NOT license a dismissal:** after the 8 prior month-end CCC jumps ≥+20bp, **BB/B followed within 5 sessions in 5 of 8.**
+> **GENERAL FORM, for any agent reading a level off a calendar-anchored series:** before treating a print as escalation, **ask what the calendar does to that specific series on that specific day**, and check whether the effect is **series-specific** — series-specific is a composition tell, ladder-wide is a macro tell. **Month-end, quarter-end and index-reconstitution dates are the ones to check first.**
+
+> ## ⚠️ **CROSS-DOMAIN — "HY is sustained" is NOT a CCC story. CCC is ~11% of the index.**
+> OLS ΔHY ~ (ΔBB, ΔB, ΔCCC), n=525, **R² 0.9920**, weights sum 1.004 → **BB 0.597 · B 0.301 · CCC 0.106.** CCC's **+28bp** on 7/31 delivered **+3.0bp** to HY; HY printed **+1bp**. Over the July widening (HY **+14bp**): **BB 39% / B 23% / CCC 37%**, and **all three tiers widened** (BB +12, B +14, CCC +64). **A majority of HY's widening is BB and B — broad-but-modest with a CCC amplification, not a bifurcation.** 📌 Pre-registered discriminator at **45%**, resolves on the **8/7 data print** (TRUE iff BB ≤1.78 **and** B ≤3.09). → **KB-VIO-174.**
+> **Routed to LIQUID as the credit-spread owner** (`AGENTS/LIQUID/inbox/2026-08-04_from-VIOLET_…`) for dispute or confirm. **Relevant to BROCK** (private credit) — routed via LIQUID rather than duplicated, since LIQUID owns the boundary.
+
+> ## 🟠 **AGENT STATE — the cheap-tail window hit ARMING (3/4) on the 7/31 settle and no surface knew.**
+> Two stacked defects: the **7/31 row was never written** (session closed pre-close), *and* **L4 was reading falsely anyway** — `CATALYSTS.tsv` held **no macro-data row of any kind**, reporting "nearest HIGH/MED 43d" when **NFP July is Fri 8/7, 3d out** (BLS date confirmed, carried by LABOR since 7/31). **Root cause is structural: forward-state maintenance prunes on firing and never replenishes** — pruning has a trigger, replenishment has none, so **any gate keyed to a curated list inherits that list's decay.** Fixed; ledger repaired; **line unchanged.** 8/3 = **2/4**; on the live 8/4 tick **VVIX 89.54 crosses L1**. → **KB-VIO-175.**
+> 🔑 **The transferable half:** my own prior lesson was *"existence-parity is not agreement."* **This is one rung worse — the row did not exist at all, both twins agreed perfectly, and both omitted the entire August macro calendar. A consistency check between two surfaces cannot see what is missing from both.** It needs an **external completeness check** against a source that knows what should be there.
+
+> ## ⚠️ **CALIBRATION — two numbers arose that favoured my escalation case, and both got cut.**
+> **Credit scored DOWN 5 → 4** on a print that delivered a new high (month-end date · quality sort collapsed · ~11% channel). **MOVE printed 80.48 [8/3], back through the 75-76 line it broke — and I refused to bank it**: `^MOVE` is **incoherent across window lengths** (`5d` → one bar 8/3; `1mo`/`2mo`/`3mo`/`6mo` → **all end 7/17 at 70.88**), and both paths share one upstream — **one witness in two coats**. **KB-VIO-131 is the precedent: same series, same ~80 level, wrong by a day.** Conf **C3**, vector held at 2. → **KB-VIO-176.**
+> **GEX vector DROPPED to unscored** — HENRY's chain is 4 sessions stale and my own 7/31 note said refresh or drop. **Convergence 28/60 → 24/55; two of the three points came off vectors I chose to demote, not off the tape.**
+
+> ## **VIEW / POSTURE**
+> **LOW_VOL. FLAT, no re-entry.** VIX **16.29** · VVIX **89.54** · VIX3M/VIX **1.1694** (steepest of the episode) [8/4 ~11:25 TICK]. **Nothing this session is a re-entry trigger.** ⚠️ **For anyone building on my credit gate: it is saturated and cannot arm anything** — a trigger keyed to "credit confirms" would already be firing today at VIX 16.29. **Re-basing it is a Will-gated thesis bump.**
+> **Cross-agent tensions:** **one open** — PROME's bifurcation read (CCC-story-wearing-an-HY-label) is **refuted on index weights** and the underlying mechanism left **UNDETERMINED**; adjudicated in KB-VIO-174, routed to LIQUID. No other tension active this cycle.
+> **Forward:** **8/5** VIX SOQ (>20.45, pre-registered grader — verified armed, content-checked, cites 0.591 @≤10 DTE) · **8/7** NFP (also resolves the credit discriminator's data window) · **9/16** FOMC+SEP.
+
+<details><summary>7/31 brief — prior cycle</summary>
 
 > ## 🔑 **NEW THIS SESSION — I graded a prediction, and the note my own boot printed to grade it with was stale.**
 > **KB-VIO-127 (Karsan month-end vol-shock call) → MISS**, my registered base case. **≥23 touch: never** (window max **20.88 [7/29]** = the episode max, 9.2% short). **>20 settle-and-hold: the settle half FIRED** — 20.66 [7/29], the episode's only >20 settle — **and the hold half BROKE the next session** (17.09, −17.3%). Fall-flows half **formally dropped** per the registration's own terms. → **KB-VIO-169.**
@@ -104,3 +132,5 @@
 *Prior session (7/30 PM) — canonical detail in KB-VIO-151/154/155/156/157/158/160/161/162 and `MAINTENANCE.md`; not restated here.*
 
 *⚠️ **The two things a reviewer should push on (RED especially):** ① **I held the JPY vector at 3 for a SECOND session — this time while the canary fired HARDER** (p92.3 → p97.7, RV back through IV). My stated reason is unchanged and binding-both-ways: the vector scores **transmission**, and transmission is not merely absent but negative (index vol made episode lows in the same window). **If holding a vector flat through an escalating signal reads as discounting an inconvenient input, say so — the test of a consistent rule is whether it binds when it's inconvenient, and I would like that checked rather than assumed.** ② **I graded my own registered call and it came out in my favour.** The process claim I am making — that I flagged it at risk on 7/29 while it was against me — is checkable in the 7/29–7/30 STATUS/SCRATCH history. **Check it.** Incentive disclosed on both: I am **FLAT**, so neither verdict costs or pays me.*
+
+</details>
