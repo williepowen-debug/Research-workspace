@@ -196,3 +196,32 @@ The thing WATT was built to catch fired, and the answer was **🟠 HOLDS, not �
 **⚠️ STILL OPEN AND OWED BY ME — SIG-010's three steps (WATT is the ACTION recipient).** WALTER read the post and headline card only; programme, dollar total, states, case and *the exact wording of the acknowledgment* are all unverified. Owed: **(1)** retrieve the primary court filing; **(2)** executed or **ENJOINED** — a cancellation under litigation may be reversed, which is a different signal entirely; **(3)** does any of it touch **grid-RELIABILITY / interconnection** funding vs efficiency/consumer/climate programmes — **only the first bears on my thesis and the headline does not distinguish them.** Logged ASSUMPTION, **not priced**, and it has **no established bearing on any channel** until (3) is answered. *This is deferred research, not a done item — do not let the KB row's existence read as closure.*
 
 **Nothing here changed a score.** Composite 13/20, status 🟠, P1 2 / P2 5 / P3 4 / P4 2 — all unchanged.
+
+---
+
+**▶ ADDENDUM 5, 2026-08-04 PM-2 — Will: *"yes go ahead."* SIG-010's THREE STEPS ARE DONE. The last owed item from the audit is closed.**
+
+**`KB-WATT-065/066/067`. Intake row `KB-WATT-060` marked SUPERSEDED (retained as intake record only). Packet closing the action → `WALTER/inbox/2026-08-04_from-WATT_SIG-010-closed-...`.**
+
+1. **THE PRIMARY** — a filed declaration by **Jeffrey Novak, DOE principal deputy general counsel**: *"DOE accepts that the inclusion of grants in the October notice tranche was based solely on the political identity of the grant recipient's state…"*, and not *"based on any programmatic, statutory, cost-reduction, or performance-based factor."* **284** grants met the blue-state test; **~340** proposed-but-spared were all in Trump-2024 / ≥1-Republican-senator states. **An admission by a party against interest inside a proceeding — it holds.**
+2. **EXECUTED OR ENJOINED → ~98.5% EXECUTED.** ⚠️ **The circulating "a judge ruled the $7.6B illegal" is a FUSED claim.** Actually vacated: *City of Saint Paul v. Wright* (Mehta, Jan-26) **7 grants / $27.6M**, + *American Institute of Chemical Engineers v. Wright* (stipulated judgment) **11 / $82.1M** = **18 grants, ~$109.7M = ~1.5%** of $7.5B. Plaintiff-specific vacaturs, **not** a global injunction. **Anyone carrying "struck down" is wrong by ~65× on dollars.**
+3. **DOES IT REACH GRID/INTERCONNECTION → YES.** **GDO: 25 awards cancelled, incl. $464M GRIP** for the transmission-study process on **5 HV lines across 7 Midwest states**, recipient = **MN Dept of Commerce + Great Plains Institute + MISO + SPP**. Tranche: EERE 200 · FECM 68 · **GDO 25** · MESC 6 · ARPA-E 1.
+
+**🔑 The 'and/or' resolves an apparent contradiction:** affected-state list is all-blue, yet the GRIP lines run through mostly-RED states — because the **RECIPIENT** is Minnesota while the **PLACE OF PERFORMANCE** spans red states. That is exactly the population the concession's *"recipient location and/or at least one place of performance"* defines.
+
+**⚠️ NO CHANNEL SCORE MOVES, and that is the finding, not a shortfall.** It is **MISO/SPP, not PJM** — out of my footprint. And **none of the ~$109.7M vacated is grid/transmission** (restored items are efficiency, critical minerals, solar, hydrogen, EV charging, SolSmart) ⇒ **the $464M transmission money appears to remain cancelled.** The mechanism is real and now primary-sourced — federal cost-share for transmission is a political variable, raising state-level grid-capex variance and pushing deferred cost-share toward **RATE BASE** (→ CARL consumer leg, → HENRY cost input) — but it is **breadth, not a P-channel input.** *Cf. L-19: don't promote a channel because the primary source turned out rich.*
+
+**⚠️ CARRIED, NOT RESOLVED (3 open caveats):**
+- **Count discrepancy is a POPULATION difference, not competing estimates** — 321 awards (Latitude 10/2/25) vs 223 projects (DOE release) vs 284 grants (the concession). Only 284 is the politically-defined subset. **Do not pick one.**
+- **Cancellation = Oct-2025; admission = Jul-2026** — 9-month lag; cite as separate events.
+- **INFERENCE not verified:** that the $464M GRIP sits among the **284** specifically (vs merely within the 321 tranche). Recipient-state logic makes it likely; confirming needs the grant schedule attached to the filing. **Not adjudicated.**
+- **Not established:** whether further litigation reaches the remainder, or whether DOE is appealing. **~1.5% is a FLOOR on reversals, not a final figure.**
+
+**▶ NEXT SESSION — unchanged ranking, minus this item:**
+1. **FERC abeyance ruling** — answers closed 8/7. Sets WATT-09 at 8/17 vs ~mid-Nov. Highest-value.
+2. **WATT-06 resolves 8/15** — trending FALSIFIED/heat-clustered. Don't bank early; bar is any EEA-1+.
+3. **Awaiting AEOLUS:** El Niño sign for PJM winter peak (gates any Q4 P1 successor prediction).
+4. **Awaiting PROME:** DOCKET row for the abeyance slip; the `--days 30` fleet-shaped staleness proposal; MEMORY.md at 82%.
+5. **Oracle/We Energies $7B** — confirm vs the Wisconsin PSC docket (KB-WATT-059 is PROVISIONAL, single-lineage FT).
+6. **P4 instrument fix** — spark off DM2 on-peak, or refuse to print on mismatched vintages (L-17).
+7. PJM Expedited Interconnection Track (targeted Aug-2026); older breadth items.
