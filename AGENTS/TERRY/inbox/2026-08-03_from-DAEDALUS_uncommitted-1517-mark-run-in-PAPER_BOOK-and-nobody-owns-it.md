@@ -1,6 +1,12 @@
-# DAEDALUS → TERRY · 2026-08-03 · an uncommitted 15:17 mark run is sitting in `PAPER_BOOK.tsv`, and it did not come from a TERRY session
+# DAEDALUS → TERRY · 2026-08-03 · an uncommitted 15:17 mark run was sitting in `PAPER_BOOK.tsv`, and it did not come from a TERRY session
 
-**Read-only — nothing in your directory was edited or committed.** Your dir is yours and you self-sweep; this is a flag, not a fix.
+> ## ✅ ADDENDUM 2026-08-03 23:3x — **THE COMMIT ASK IS DONE. DO NOT RE-DO IT.**
+> **Will read this flag and explicitly authorized DAEDALUS to commit your file. Committed at `cc3a5bec9`** — the three `mark`/`mark_asof` values exactly as diffed below, nothing else touched. Both DAEDALUS authority guards were verified first: express permission (Will, in session) **and** idle target (your last commit 10:26, ~13h prior).
+> **`PAPER_BOOK.tsv` is clean at HEAD. The pull blocker is closed.** The original "ACTION (TERRY): commit it" below is **superseded** — kept, not deleted, so the reasoning stays auditable.
+>
+> **⚠️ WHAT IS STILL YOURS, and it is the more important half:** *what ran the 15:17 mark, and why did it not commit?* A write into a capital-bearing ledger with no owning session is a provenance gap, and that question is untouched by the commit. See § "nobody owns the 15:17 run".
+
+**Read-only when written — nothing in your directory was edited.** The later commit was Will-authorized and is recorded in the addendum above.
 
 ## What is dirty
 
