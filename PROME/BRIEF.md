@@ -13,10 +13,10 @@
 <!-- ============================================================ -->
 
 ## WRITTEN
-2026-08-03 16:45 ET
+2026-08-03 23:15 ET
 
 ## HEADLINE
-Your oil bet got tested today and survived on the physical evidence, but the gate that would let you add to it did not fire.
+Your oil bet survived today's test on the physical evidence; the add-gate did not fire. Tonight's work made tomorrow executable: every print that lands on 8/4 now has a pre-staged card waiting for it.
 
 ## STORY
 You own essentially one bet, expressed a few ways: **the Middle East stays disrupted.** Today was the first real test of it.
@@ -26,6 +26,8 @@ Trump announced negotiations, Tehran denied them within half an hour, and crude 
 That gap is the whole position right now. Either the market is early and this is a dip that hands you cheap re-entry, or the disruption genuinely ends and the oil book is wrong. BRENT puts it at about 88% ordinary dip — while being honest that its evidence is blind on the remaining 12%, because nothing like a true resolution has happened yet to learn from.
 
 One thing worth seeing plainly: your oil exposure is mostly **35 USO shares**. The Sep-18 150/165 spread needs USO to rise 22.6% just to reach its long strike, so it is close to dead money. You are less positioned for a spike than the number of oil line-items suggests.
+
+One new fact strengthens a different bet: **Japan appears to have intervened alongside the US Treasury on Friday** — the Bank of Japan's own projections show a fiscal drain about 1.4× the largest ordinary day in months of data, which is what a second sovereign's yen-buying looks like. That makes the yen trade's setup stronger a few days before its 8/7 decision print, without changing the wait-for-8/7 plan.
 
 ## QUESTION
 Is the de-escalation real, or is the market pricing a headline the physical data does not support? Nothing resolves it cleanly — but **8/7** (Japan COT + jobs + crude positioning, all one day) and the daily Hormuz transit prints are what move the needle.
@@ -45,12 +47,12 @@ Is the de-escalation real, or is the market pricing a headline the physical data
 ## POSITION
 About **53% cash**, so you are not over-committed and nothing forces your hand.
 
-Three things live: the **TLT puts** riding to Sep-30 and behaving, the **USO shares** that took today's hit, and the **USO spread** that is realistically gone. The QQQ puts expired worthless today — that loss is already sunk and closed.
+Three things live: the **TLT puts** riding to Sep-30 and behaving (a detail from TERRY's ruling: your 7/31 harvest of 5 was one-sixth of what the card's own rule prescribed — **10 more contracts are owed a sale if the price reaches ≥$0.33 again**; it sits around $0.27-0.28 now, so no action, but the rule is armed), the **USO shares** that took today's hit, and the **USO spread** that is realistically gone. The QQQ puts expired worthless today — sunk and closed.
 
-Nothing needs an approval from you tonight.
+One approval matters tomorrow: **launching TERRY** — it prices the oil gate's second leg live, rebuilds the bank-put reshape before Wednesday's deadline, and preps the VIX settlement, all in one window.
 
 ## WATCH
+- **Tomorrow is staged, not improvised:** the Athene insurance test has a frozen grade card (SHADE), the BDC cluster has its comparison anchor and a day-by-day plan (BROCK — Ares came in "worse on every dial, breach on none"), and the yen trade is built and frozen until 8/7. None of it needs judgment calls in the morning — just execution.
 - **The oil arm expires 8/13.** Leg (a) fired today; the gate needs both legs on the *same* session, so today's fire is not banked and must happen again on whatever day actually fills.
-- **The FXY trade is built and frozen until 8/7.** $450, nine contracts, correctly waiting on the COT print. Don't front-run it.
-- **The bank-put reshape is due 8/5 and is not built.** This is the item most likely to be missed.
+- **The bank-put reshape is due 8/5** — it rides the TERRY launch; if TERRY doesn't run tomorrow, this is the item that gets missed.
 - **Overnight, watch whether the negotiation track produces an actual instrument** rather than more guidance. An instrument argues *against* adding oil; continued denials change nothing.
