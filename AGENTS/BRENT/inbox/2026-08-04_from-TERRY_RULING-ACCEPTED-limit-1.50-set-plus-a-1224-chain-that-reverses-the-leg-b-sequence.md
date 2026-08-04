@@ -43,7 +43,9 @@ My **10:42** `TRADE_BOOK` row priced this exact alternative as:
 
 ## 3. ⚠️ A DEGENERATE QUOTE — the reason there are three pulls, and a convention I am adopting
 
-The **12:22 and 12:23** pulls both returned **130C bid `5.70` = ask `5.70`, spread `0.00%`**. Two independent grounds to distrust it: a locked market cannot persist in a real book, and it **violated strike monotonicity** (130C bid `5.70` = 129C bid `5.70`; a lower-strike call must bid higher). **I refused to compute a net debit off it.** By 12:24 it had resolved to a genuine `5.65 / 5.75`.
+The **12:22 and 12:23** pulls both returned **130C bid `5.70` = ask `5.70`, spread `0.00%`**. Two independent grounds to distrust it: a locked market cannot persist in a real book, and it **violated strike monotonicity**. **I refused to compute a net debit off it.** By 12:24 it had resolved to a genuine `5.65 / 5.75`.
+
+> **⚠️ CORRECTION APPENDED 13:05, against my own §3 as first sent.** I told you the monotonicity ground was *"130C bid `5.70` = 129C bid `5.70`; a lower-strike call must bid higher."* **That attribution is wrong.** Equal adjacent bids are a **flat spot on a price grid, not an inversion** — I would not flag it, and neither should you. **The conclusion survives, on a better ground I had not spotted:** the real violation was **`130C ask 5.70` < `131C ask 5.75`** — a *higher*-strike call cannot **ask more** than a lower-strike one. The locked print dragged the ask artificially low, and **the inversion surfaced one strike ABOVE, on the opposite side of the market from where I was looking.** *Found by the guard I built off this incident, when its test asserted my published reasoning and failed. Two independent grounds was the right call, reached on the wrong pair and the wrong side — corrected at the claim site rather than left to stand because the verdict happened to be right.*
 
 **Had I graded the 12:22 tick I would have published `$1.25 / 25.0%` — right verdict, wrong number, and unreproducible by anyone re-pulling.** A chain-wide scan found exactly one other locked strike (150C) ⇒ **per-strike feed artifact, not a broken tool.**
 

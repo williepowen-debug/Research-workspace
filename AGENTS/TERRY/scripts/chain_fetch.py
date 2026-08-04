@@ -261,6 +261,100 @@ def add_moneyness(rows, spot):
     return rows
 
 
+# ---------------------------------------------------------------------------
+# Quote sanity (added 2026-08-04)
+# ---------------------------------------------------------------------------
+
+# Flag codes, terse enough for a table column.
+FLAG_LOCK    = "LOCK"    # bid == ask, both > 0 — a locked market cannot persist in a real book
+FLAG_XSD     = "XSD"     # bid > ask — crossed, definitionally broken
+FLAG_DEAD    = "DEAD"    # bid == 0 and ask == 0 — no market at all
+FLAG_NOBID   = "NOBID"   # bid == 0, ask > 0 — you cannot SELL this leg at any price
+FLAG_NONMONO = "NONMONO" # violates strike monotonicity vs an adjacent same-type strike
+
+# Defects that make a row unusable for computing a net debit. NONMONO is
+# deliberately NOT here — see the docstring below.
+HARD_FLAGS = {FLAG_LOCK, FLAG_XSD, FLAG_DEAD, FLAG_NOBID}
+
+
+def add_quote_flags(rows):
+    """Annotate each row with `quote_flag` — the guard that did not exist on 2026-08-04.
+
+    ⚠️ **WHY THIS EXISTS, stated plainly so nobody weakens it later.** On 8/4 the
+    USO Oct-16 130C returned `bid 5.70 / ask 5.70 / spread 0.00%` on two
+    consecutive live pulls. It was caught **by eye**, and only because the number
+    was needed for a live gate. Had it been graded, the desk would have published
+    a net debit of `$1.25 / 25.0%` — right verdict, wrong number, and
+    unreproducible by anyone re-pulling five minutes later.
+
+    ★ **THE TRAP IS THAT THE DEFECT RENDERS AS THE BEST-LOOKING QUOTE ON THE
+    BOARD.** `Sprd% = 0.00` is the most attractive cell in the table. Every other
+    liquidity heuristic this tool has — wide-spread flag, thin-OI flag — reads a
+    locked quote as *ideal*. A guard that only flags WIDE spreads is blind by
+    construction to the failure where the spread is impossibly NARROW.
+
+    **Failure direction is deliberate: per-row and loud, not whole-pull fatal.**
+    A 58-row chain routinely contains a dead strike somewhere; exiting non-zero on
+    any defect would make the tool unusable at fire time and it would get bypassed,
+    which is worse than no guard. Use `--legs` to make it fatal for the strikes you
+    are actually transacting (that is the fire-time invocation).
+
+    **NONMONO is ADVISORY, not hard, and that is a real judgement:** adjacent-strike
+    violations are *normal* in an illiquid strip (the same USO chain had several
+    among strikes nobody would trade). Making it fatal would produce exactly the
+    cry-wolf alarm that `mark_asof`'s "⚠ STALE 10bd" became — an alarm firing on the
+    book's normal state stops being read. It is reported because it CORROBORATES a
+    hard flag: the 130C was both LOCK **and** bid-equal to the 129C, and two
+    independent grounds is what made the call obvious.
+    """
+    for r in rows:
+        r["quote_flag"] = []
+
+    for r in rows:
+        bid, ask = r.get("bid"), r.get("ask")
+        if bid is None or ask is None:
+            continue
+        if bid > ask:
+            r["quote_flag"].append(FLAG_XSD)
+        elif bid == ask and bid > 0:
+            r["quote_flag"].append(FLAG_LOCK)
+        if bid == 0 and ask == 0:
+            r["quote_flag"].append(FLAG_DEAD)
+        elif bid == 0 and ask > 0:
+            r["quote_flag"].append(FLAG_NOBID)
+
+    # Strike monotonicity, per option type. Calls fall as strike rises; puts rise.
+    # Rows with no market at all are excluded — comparing against a 0/0 strike
+    # manufactures violations rather than finding them.
+    for tletter in {r.get("type") for r in rows}:
+        chain = [r for r in rows
+                 if r.get("type") == tletter
+                 and r.get("strike") is not None
+                 and r.get("bid") is not None and r.get("ask") is not None
+                 and not (r["bid"] == 0 and r["ask"] == 0)]
+        chain.sort(key=lambda r: r["strike"])
+        for lo, hi in zip(chain, chain[1:]):
+            if tletter == "C":
+                bad = (hi["bid"] > lo["bid"]) or (hi["ask"] > lo["ask"])
+            elif tletter == "P":
+                bad = (hi["bid"] < lo["bid"]) or (hi["ask"] < lo["ask"])
+            else:
+                continue
+            if bad:
+                for r in (lo, hi):
+                    if FLAG_NONMONO not in r["quote_flag"]:
+                        r["quote_flag"].append(FLAG_NONMONO)
+    return rows
+
+
+def flag_str(r):
+    return ",".join(r.get("quote_flag") or []) or "-"
+
+
+def has_hard_defect(r):
+    return bool(HARD_FLAGS.intersection(r.get("quote_flag") or []))
+
+
 def fmt(x, dp=2):
     return "N/A" if x is None else f"{x:.{dp}f}"
 
@@ -273,8 +367,8 @@ def display(ticker, expiry, opt_type, spot, spot_asof, rows, meta, wide_pct, thi
     print(f"Underlying: {ticker}  Spot: {fmt(spot)} (as-of {spot_asof})")
     print(f"Expiry: {expiry}  Type: {opt_type or 'all'}  Rows: {len(rows)}")
     print("Greeks (Delta/Theta): N/A — yfinance does not provide them.\n")
-    print("Strike   Mny%    T  Bid    Ask    Mark   Sprd%   IV%     Vol    OI     LastTrade")
-    print("-------  ------  -  -----  -----  -----  ------  ------  -----  -----  ----------------")
+    print("Strike   Mny%    T  Bid    Ask    Mark   Sprd%   IV%     Vol    OI     Flag      LastTrade")
+    print("-------  ------  -  -----  -----  -----  ------  ------  -----  -----  --------  ----------------")
     wide = []
     thin = []
     for r in rows:
@@ -285,10 +379,51 @@ def display(ticker, expiry, opt_type, spot, spot_asof, rows, meta, wide_pct, thi
         print(f"{fmt(r['strike']):>7}  {fmt(r.get('moneyness_pct'),1):>6}  {r['type']:<1}  "
               f"{fmt(r['bid']):>5}  {fmt(r['ask']):>5}  {fmt(r['mark']):>5}  "
               f"{fmt(r['spread_pct']):>6}  {fmt(r['iv']):>6}  "
-              f"{fmt(r['volume'],0):>5}  {fmt(r['open_interest'],0):>5}  {r.get('last_trade') or 'N/A'}")
+              f"{fmt(r['volume'],0):>5}  {fmt(r['open_interest'],0):>5}  "
+              f"{flag_str(r):<8}  {r.get('last_trade') or 'N/A'}")
     print("\nTERRY liquidity flags")
     print(f"- Wide spread rows >{wide_pct:.0f}% of mark: {len(wide)}")
     print(f"- Thin OI rows <{thin_oi:.0f} OI: {len(thin)}")
+
+    # ---- Quote sanity (2026-08-04) -------------------------------------
+    # The wide-spread flag above is blind, BY CONSTRUCTION, to the failure where
+    # the spread is impossibly NARROW. That is the whole reason this block exists.
+    counts = {}
+    for r in rows:
+        for f in (r.get("quote_flag") or []):
+            counts[f] = counts.get(f, 0) + 1
+    hard = [r for r in rows if has_hard_defect(r)]
+    print("\nTERRY quote sanity")
+    if not counts:
+        print("  ✓ no quote defects: no locked, crossed, dead or no-bid rows; strike monotonicity holds")
+    else:
+        for code in (FLAG_XSD, FLAG_LOCK, FLAG_DEAD, FLAG_NOBID, FLAG_NONMONO):
+            if code in counts:
+                mark = "🔴" if code in HARD_FLAGS else "⚠️ "
+                print(f"  {mark} {code:<8} {counts[code]:>3} row(s)")
+        if hard:
+            print(f"  🔴 {len(hard)} row(s) carry a HARD defect and MUST NOT be used to compute a net debit:")
+            for r in hard[:12]:
+                print(f"       {fmt(r['strike']):>7} {r['type']}  bid {fmt(r['bid'])} / ask {fmt(r['ask'])}"
+                      f"  [{flag_str(r)}]")
+            if len(hard) > 12:
+                print(f"       … and {len(hard)-12} more")
+        if FLAG_LOCK in counts:
+            print("  ⛔ A `0.00%` SPREAD IS A REJECT, NOT A TIGHT MARKET. Re-pull before grading.")
+        if FLAG_NONMONO in counts:
+            rate = counts[FLAG_NONMONO] / len(rows) * 100 if rows else 0.0
+            print(f"     NONMONO base rate: {counts[FLAG_NONMONO]}/{len(rows)} rows = {rate:.0f}% "
+                  f"of the displayed strip.")
+            print("     ⚠️  It flags BOTH sides of an inverted pair and does NOT say which one is "
+                  "wrong — usually the one with the OLDER lastTradeDate. Check that before blaming "
+                  "a strike.")
+            if rate >= 25:
+                print(f"     🟠 CHAIN-QUALITY READ: at {rate:.0f}% the STRIP is broadly unreliable, "
+                      "not any one strike. Trust high-OI / round-number strikes and re-pull anything "
+                      "else before it carries a number.")
+            else:
+                print("     (ADVISORY only — adjacent-strike noise is normal in an illiquid strip; "
+                      "it earns its keep as CORROBORATION of a hard flag.)")
     # Freshness guard (rule #4)
     latest = meta.get("latest_trade")
     if latest and not latest.startswith(today):
@@ -332,7 +467,22 @@ def run(args):
         rows, meta = fetch_chain(ticker, args.expiry, opt_type)
         _cache_set(cache_key, {"spot": spot, "spot_asof": spot_asof, "rows": rows, "meta": meta})
 
+    # Flags are computed on the FULL chain, before windowing — monotonicity needs
+    # a row's true neighbours, not whichever ones survived a ±window filter.
+    rows = add_quote_flags(rows)
     rows = add_moneyness(rows, spot)
+
+    # --legs is checked against the full chain too, so a leg outside the display
+    # window is still gated rather than silently reported "not found".
+    leg_rows, leg_missing = [], []
+    if args.legs:
+        for k in args.legs:
+            hit = [r for r in rows if r["strike"] is not None and abs(r["strike"] - k) < 1e-9]
+            if hit:
+                leg_rows.extend(hit)
+            else:
+                leg_missing.append(k)
+
     rows = apply_window(rows, spot, args.window, args.min_oi)
     if args.limit:
         rows = rows[: args.limit]
@@ -342,10 +492,38 @@ def run(args):
             "ticker": ticker, "expiry": args.expiry, "type": opt_type,
             "spot": spot, "spot_asof": spot_asof, "fetch_ts": datetime.now().isoformat(),
             "latest_trade": meta.get("latest_trade"), "rows": rows,
+            "legs_checked": [r["strike"] for r in leg_rows],
+            "legs_missing": leg_missing,
+            "legs_defective": [{"strike": r["strike"], "type": r["type"],
+                                "bid": r["bid"], "ask": r["ask"],
+                                "quote_flag": r["quote_flag"]}
+                               for r in leg_rows if has_hard_defect(r)],
         }, indent=2))
     else:
         display(ticker, args.expiry, opt_type, spot, spot_asof, rows, meta,
                 args.wide_spread_pct, args.thin_oi)
+
+    # ---- Fire-time leg gate --------------------------------------------
+    # Chain-wide defects are advisory (a 58-row chain routinely has a dead strike
+    # nobody would trade). The legs you are ABOUT TO TRANSACT are not advisory.
+    if args.legs:
+        bad = [r for r in leg_rows if has_hard_defect(r)]
+        if not args.json:
+            print("\nTERRY leg gate (--legs)")
+            for r in leg_rows:
+                state = "🔴 DEFECTIVE" if has_hard_defect(r) else "✓ usable"
+                print(f"  {state:<13} {fmt(r['strike']):>7} {r['type']}  "
+                      f"bid {fmt(r['bid'])} / ask {fmt(r['ask'])}  [{flag_str(r)}]")
+            for k in leg_missing:
+                print(f"  🔴 NOT LISTED  {k:>7}     — strike absent from this expiry")
+        if bad or leg_missing:
+            if not args.json:
+                print("\n⛔ EXIT 2 — a requested leg is unusable. DO NOT compute a net debit "
+                      "off this pull. Re-pull; if it persists, the leg is untradeable and that "
+                      "is a NO TRADE, not a number to work around.")
+            return 2
+        if not args.json:
+            print("  ⇒ all requested legs carry usable two-sided quotes.")
     return 0
 
 
@@ -446,6 +624,82 @@ def selftest():
             f"pandas.Timestamp not converted to local: got {_pts}, want {_local(15, 30)}")
         assert _ts_str(pd.Timestamp("2027-01-04 15:30")) == "2027-01-04 15:30", \
             "tz-naive Timestamp must pass through unchanged"
+    # ------------------------------------------------------------------
+    # QUOTE SANITY (2026-08-04) — synthetic bad-row injection.
+    # Same standard as positions_from_forge.py: assert the guard FIRES on
+    # injected defects, not merely that clean input stays clean. A guard whose
+    # only evidence is a passing run on good data has never been tested.
+    # ------------------------------------------------------------------
+    def _mk(strike, bid, ask, t="C"):
+        return {"strike": strike, "type": t, "bid": bid, "ask": ask,
+                "mark": (bid + ask) / 2, "spread_pct": None}
+
+    # (a) NO FALSE POSITIVES — a clean, strictly-monotone call strip flags nothing.
+    clean = add_quote_flags([_mk(125, 6.10, 6.95), _mk(130, 5.65, 5.75), _mk(135, 4.35, 4.85)])
+    assert all(not r["quote_flag"] for r in clean), \
+        f"false positive on a clean strip: {[(r['strike'], r['quote_flag']) for r in clean]}"
+
+    # (b) ★ THE 2026-08-04 REGRESSION — the exact rows that caused this guard to
+    #     be written. USO Oct-16 130C came back bid == ask == 5.70.
+    uso = add_quote_flags([_mk(129, 5.70, 6.15), _mk(130, 5.70, 5.70), _mk(131, 4.90, 5.75)])
+    lock_row = [r for r in uso if r["strike"] == 130][0]
+    assert FLAG_LOCK in lock_row["quote_flag"], \
+        f"THE 8/4 DEFECT WENT UNDETECTED: {lock_row['quote_flag']}"
+    assert has_hard_defect(lock_row), "a locked quote must be a HARD defect"
+    # ★ THE GUARD CORRECTED ITS AUTHOR, and the correction is the useful part.
+    # On 8/4 I reported the 130C as failing on two independent grounds: locked,
+    # AND "violating strike monotonicity because its BID equalled the 129C BID."
+    # I expected this assertion to prove the second ground was weak — equal
+    # adjacent bids are a FLAT SPOT on a price grid, not an inversion. It failed,
+    # because the row IS non-monotone for a reason I had not spotted:
+    #     130C ask 5.70  <  131C ask 5.75
+    # A HIGHER-strike call cannot ASK MORE than a lower-strike one. The locked
+    # 5.70 dragged the ask artificially low, and the inversion shows up one strike
+    # ABOVE, on the opposite side of the market from where I was looking.
+    # ⇒ Two independent grounds was the right conclusion, reached on the wrong
+    #   pair and the wrong side. Corrected at the claim site, not quietly.
+    assert FLAG_NONMONO in lock_row["quote_flag"], \
+        "the 8/4 row is non-monotone on the ASK vs the 131C — corroboration, by design"
+
+    # (b2) ... and the flat-spot property I *thought* I was testing above, pinned
+    #      separately: equal bids with a sane ask ladder must stay silent, or the
+    #      flag cries wolf on every coarsely quoted strip.
+    flat = add_quote_flags([_mk(129, 5.70, 6.15), _mk(130, 5.70, 6.10)])
+    assert all(FLAG_NONMONO not in r["quote_flag"] for r in flat), \
+        f"a flat spot must not read as an inversion: {[(r['strike'], r['quote_flag']) for r in flat]}"
+
+    # (c) A genuine inversion DOES fire: 132C bidding above 131C.
+    inv = add_quote_flags([_mk(131, 4.90, 5.75), _mk(132, 5.40, 5.90)])
+    assert all(FLAG_NONMONO in r["quote_flag"] for r in inv), \
+        f"call inversion missed: {[(r['strike'], r['quote_flag']) for r in inv]}"
+    # ... and in the opposite direction for puts, which rise with strike.
+    pinv = add_quote_flags([_mk(70, 2.00, 2.10, "P"), _mk(75, 1.50, 1.60, "P")])
+    assert all(FLAG_NONMONO in r["quote_flag"] for r in pinv), "put inversion missed"
+
+    # (d) crossed / dead / no-bid
+    xsd = add_quote_flags([_mk(100, 3.50, 3.20)])[0]
+    assert FLAG_XSD in xsd["quote_flag"] and has_hard_defect(xsd), xsd["quote_flag"]
+    dead = add_quote_flags([_mk(200, 0.0, 0.0)])[0]
+    assert FLAG_DEAD in dead["quote_flag"] and has_hard_defect(dead), dead["quote_flag"]
+    nobid = add_quote_flags([_mk(200, 0.0, 4.30)])[0]
+    assert FLAG_NOBID in nobid["quote_flag"] and has_hard_defect(nobid), nobid["quote_flag"]
+    assert FLAG_DEAD not in nobid["quote_flag"], "no-bid must not also read as dead"
+
+    # (e) A dead strike must not manufacture monotonicity violations in its
+    #     neighbours — that would be the guard generating its own findings.
+    withdead = add_quote_flags([_mk(125, 6.10, 6.95), _mk(127, 0.0, 0.0), _mk(130, 5.65, 5.75)])
+    for r in withdead:
+        if r["strike"] != 127:
+            assert FLAG_NONMONO not in r["quote_flag"], \
+                f"dead strike {127} manufactured a violation at {r['strike']}"
+
+    # (f) NONMONO alone must NOT be a hard defect — it is advisory by design.
+    assert not has_hard_defect(inv[0]), "NONMONO alone must not block a net-debit computation"
+
+    print("  quote-sanity: 7 injection cases PASS "
+          "(clean-strip / 8-4 LOCK+ASK-INVERSION regression / flat-spot silence / "
+          "call+put inversion / xsd+dead+nobid / dead-neighbour isolation / advisory-vs-hard)")
+
     print("chain_fetch.py SELFTEST: PASS")
     print(f"  rows={len(rows)} mark0={rows[0]['mark']} iv0={rows[0]['iv']}% "
           f"spread1={rows[1]['spread_pct']}% mny0={rows[0]['moneyness_pct']}% greeks=N/A latest_trade={latest_trade}")
@@ -463,6 +717,9 @@ def main():
     ap.add_argument("--limit", type=int, default=0, help="cap displayed rows (0 = no cap)")
     ap.add_argument("--wide-spread-pct", type=float, default=15.0)
     ap.add_argument("--thin-oi", type=float, default=100.0)
+    ap.add_argument("--legs", type=lambda s: [float(x) for x in s.replace(" ", "").split(",") if x],
+                    help="comma-separated strikes you intend to transact, e.g. --legs 125,130. "
+                         "EXITS 2 if any is locked/crossed/dead/no-bid or absent. The fire-time form.")
     ap.add_argument("--no-cache", action="store_true", help="force a live pull (fire-time)")
     ap.add_argument("--json", action="store_true")
     ap.add_argument("--selftest", action="store_true")
