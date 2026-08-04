@@ -68,6 +68,10 @@
 
 > **⛔ WHY v2 HAD TO CHANGE — an INSTRUMENT fact, verified 2026-08-04, not a preference.** **`^OVX`'s final intraday bar is 16:00** (7/31; 15:55 on 8/3) — **`^VIX` runs to 16:10 but OVX does NOT** — and **USO options close 16:00.** ⇒ v2's leg (a) became knowable at exactly the moment leg (b) became ungradeable. **The execution window was ZERO, not the 15 minutes assumed.** Deferring to the next open is circular (leg (a) is not banked, so N+1 would need N+1's close). **v2 was a MIXED-LATENCY BASKET WEARING A SINGLE WINDOW — the precise defect LESSONS #21(b) ratified a fix for on 7/29, which I then reproduced here on 7/30.** Full proposal, base rates, rejected alternatives and limits → `setups/2026-08-04_DEPLOY-GATE-v3-fillability-respec-PROPOSAL.md`.
 
+> **📊 8/4 CLOSE RECORDED (17:42 ET): OVX 53.45** = **−22.50%** from the 68.97 peak (re-derived, unchanged, no re-ratchet) vs the ≤58.6245 line.
+> **⇒ Under v3 this sets leg (a) for WED 8/5: ✅ MET, all session.** Leg (a2) and leg (b) grade live tomorrow. **NO FILL OCCURRED 8/4 — the deploy packet is still pending Will's [Approve]; the arm is NOT consumed.** Day 14 of 20 · **6 sessions left** · expiry Thu 8/13.
+> *(Deliberately one line, not a banner. Today's lesson is that this file's correction trail is outgrowing its current state.)*
+
 | Leg | Cadence | **FROZEN test** |
 |---|---|---|
 | **(a) Vol decompression** | **daily** | **The MOST RECENT OFFICIAL OVX CLOSE ≤ peak × 0.85**, peak = running max of **closes** since arming (**re-ratchet unchanged**). ⇒ a **STATE**, known at 09:30, holding all session. *(v2 read "this session's close" — that one phrase is the whole change.)* |
