@@ -32,12 +32,45 @@ Will's direction this session: *"start those obligations first"* — VULCAN and 
 - **Sent VULCAN a second packet the same day** correcting the 8/17 resolver, the docket/scope, and the nameplate wording, and delivering the firm number. **Nothing further owed to VULCAN.**
 
 **▶ NEXT SESSION — revised priority:**
-1. **🔴 THE PROME BATCH-3 P2 LEG** — unchanged, now the only major open thread. (See main note above for the full brief; the refuted-premise warning still stands, and my canonical US industrial figure is **8.71¢/kWh**.)
+1. ~~**THE PROME BATCH-3 P2 LEG**~~ — ✅ **DELIVERED later the same session; see ADDENDUM 2 below.** *(This line was written before Will asked me to take the leg on.)*
 2. **FERC's ruling on the 90-day abeyance** — answers closed 8/7. This is the single most informative near-term event on the P2/P3 regulatory track and it sets whether WATT-09 resolves 8/17 or ~11/15.
 3. **PJM Expedited Interconnection Track** was targeted to be in place by **Aug-2026** — check status (KB-WATT-052 tail).
 4. Then: WATT-06 (8/15), the 6 unfolded WALTER signals, and the older breadth items.
 
 **New this half-session:** KB-WATT-049..052 · L-20..L-22 · WATT-09 registered · WATT-07 HIT · WATT-08 re-dated.
+
+---
+
+**▶ ADDENDUM 2, 2026-08-04 PM — Will: *"can we do this remaining open thread?"* THE PROME BATCH-3 P2 LEG IS DELIVERED. All three still-open items are now closed.**
+
+**Memo:** `outbox/2026-08-04_to-PROME_batch3-P2-power-axis-time-to-power-is-the-cost.md`. STATUS written back the same session (PROME explicitly warned that 7/27 ran 3-for-3 on polished memos + stale STATUS).
+
+**THE HEADLINE — time-to-power prices, and it dwarfs the power price.**
+- A year of delay on a **1 GW AI data center** costs **$1.50B** (shell+electrical sunk, 10% WACC) to **$9.55B** (full stack + GPU depreciation @25%) = **$201/MWh to $1,283/MWh** at 7.446M MWh/yr (85% LF).
+- Against **US industrial retail $87.1/MWh** and **PJM wholesale ~$48/MWh** ⇒ **delay is 2.3×–14.7× the commodity.**
+- **Levelized:** PJM's **3.4-year average queue wait** carries the shell at **$5.10B/GW** = **$68/MWh over a 10-yr life = 79% of a second power bill.** *That is the literal answer to PROME's "effective cost-of-compute penalty for queue position."*
+- **The gap that IS the finding:** the queue-skip price is **capped at $555/MW-day = $27.2/MWh — 7×–47× BELOW the delay it relieves.** ⇒ backstop structurally oversubscribed; constraint is **administrative rationing, not price**; and **co-location/BTM is the market routing around a price cap**, not a tax dodge.
+
+**Q4 answered LOUDLY — and NOT as PROME expected. The ~10× SURVIVES.**
+- Capacity **10.2×** → annualized energy **9.4×** → realized 2025 output **4.1×**.
+- **It survives because TWO composition errors cancel:** **28% of the US 53 GW is battery storage producing ZERO net energy**, and **China's CFs are ~half the US's**. ⚠️ **Correcting only one side (the usual sneer at Chinese CFs) yields a WRONG ~5%** — further from truth than the naive 10×. (L-23.)
+- DEWEY's **>430 GW wind+solar VERIFIES** (434.4 = 315.07 solar + 119.33 wind, NEA 1/28/26); ~543 GW total verifies (~540 implied from 3,891 GW cumulative @ +16.1%).
+- ⚠️ **TERMINOLOGY TRAP:** China's reported **"utilization rate" 94.0%/94.7% is (1 − curtailment), NOT a capacity factor.** Real China solar CF **~15%**. (L-24.)
+- ⚠️ **NEAR-MISS I CAUGHT:** the quoted "336 TWh solar, +40%" is the **2025 INCREASE**, not the total (**1,175 TWh**). Reading it as the total implies a ~3.5% CF — the implausibility is what surfaced it. **Compute a ratio whose plausible range you know, and treat an out-of-range answer as a definition problem first.**
+- ⚠️ **UNITS ERROR flagged to PROME:** "total 2023 US consumption of 477 GW" — consumption is TWh, not GW; 477 GW is *average power* (4,183 TWh / 8,760 h). And **700 GW does not survive as a net figure** (national aggregate, duplicate-laden). Use PJM 220 GW / ERCOT 198 GW instead.
+
+**Q2 — both readings true, and NOT symmetric (L-25).** China's conversion of capacity→energy is **deteriorating** (curtailment 9.2% solar / 8.5% wind early-26; CEC solar utilization **−12%** vs 2020-23; 47% of capacity delivering ~22% of generation). **But curtailing a MWh costs ~$30–60/MWh and waiting costs $201–1,283/MWh** ⇒ **China did not build a more efficient system; it chose a form of waste ~an order of magnitude cheaper.**
+
+**THESIS REFRAME (KB-WATT-058):** the corrected SDI mechanism on my axis is **cost-per-year-of-delay, not cost-per-kWh**. The US is not overpaying for electricity — it is paying a **large, invisible carrying cost on capital that is built but cannot be energized**, which lands as deferred revenue + idle depreciating assets. **The bust channel is stranded TIME, not expensive power.**
+
+**▶ NEXT SESSION:**
+1. **FERC's ruling on the 90-day abeyance** (answers closed 8/7) — sets whether WATT-09 resolves 8/17 or ~11/15. Highest-value near-term item.
+2. **Awaiting PROME:** whether the abeyance slip earns a DOCKET row (flagged in the memo as catalyst-worthy).
+3. **PJM Expedited Interconnection Track** — targeted to be in place Aug-2026, check status.
+4. **WATT-06 (8/15)**, the **6 unfolded WALTER signals**, the **P4 instrument fix**, and the older breadth items.
+5. Open invitation to VULCAN still standing: give me your load factor and I'll convert $555/MW-day to $/MWh on my basis.
+
+**New this half-session:** KB-WATT-053..058 · L-23..L-25 · Batch-3 P2 memo delivered.
 
 ---
 
