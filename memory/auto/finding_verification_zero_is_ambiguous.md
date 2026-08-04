@@ -1,6 +1,6 @@
 ---
 name: finding_verification_zero_is_ambiguous
-description: "A check reporting no problems is consistent with two worlds — it read everything and found nothing, or it read nothing; and N surfaces agreeing is consistent with correct AND with uniformly stale. Both are invisible by construction."
+description: "A check reporting no problems is consistent with three worlds — it read everything and found nothing, it read nothing, or the broken thing was never in its list; and N surfaces agreeing is consistent with correct AND with uniformly stale. All invisible by construction."
 metadata:
   type: feedback
 ---
@@ -11,6 +11,8 @@ metadata:
 
 **② "All surfaces agree" = correct, OR uniformly stale.** A card's verdict moved to NO AT THIS PRICE in its body while its header *and all three ledgers* still said CONDITIONAL. Every state field agreed — so a cross-surface consistency check passed, having compared four copies of the same stale value. **Consistency checks are structurally blind to unanimous staleness**, which is exactly the state a correction pass produces when it updates prose and forgets the fields.
 
+**③ "Health check CLEAN" = nothing is broken, OR the broken thing was never in the checker's list.** *(SAM, 2026-08-04 — a third form: the instrument executed perfectly and still certified a dead capability.)* `MESSAGING/tools/validate.py` could not run at all — PyYAML absent from both system python and the repo `.venv` — so the ratified DM v1 lane was **non-functional on a live coded route**. `scripts/env_doctor.py` printed **`CLEAN`** on that same box, minutes later, correctly: its `REQUIRED_VENV_DEPS` is `["yfinance", "pandas"]`, scoped to market-data pulls *by design*, so a messaging outage is outside its vocabulary. Nothing failed; the scope was simply narrower than every reader assumed. Two adjacent traps in the same hour: a **CI-scoped** `scripts/requirements.txt` *did* pin `pyyaml==6.0.3` while the local venv lacked it (the workflow installs into a GitHub Actions runner, never `.venv`) — **a pin in the wrong-scope file reads as coverage and is worse than no pin**, because it answers the question falsely. **n=2 that day**, two unrelated subsystems, identical shape: a ratified capability shipped, its prerequisite was registered in no inventory, and the health check passed anyway (the other: an API key orphaned by a credential cleanup, its data silently ~6wk stale).
+
 **Why:** absence of evidence is being read as evidence of absence, at the level of the *instrument* rather than the data. Every guard has a silent-success path, and it is the same output as real success. The failure direction is the dangerous one: a wrong value invites challenge, a *missing* one closes the question.
 
 **How to apply:**
@@ -19,5 +21,6 @@ metadata:
 - **Break unanimity with an outside witness.** When N surfaces agree, compare against something *outside* the agreeing set — a card's body vs its own header, a hand-computed number vs the tool's. Agreement among copies is not corroboration ([[finding_circular_corroboration_via_state_file]]).
 - **Match on shape, not an exact enumeration**, wherever a reader's vocabulary can drift behind the file's.
 - **Expect the guard to inherit your blind spot.** The first version of the anti-drift checker matched bare numerics and reproduced the exact false-positive defect its author had diagnosed hours earlier.
+- **Read the checker's LIST before trusting its verdict — a pass certifies its scope, not your capability.** Ask "is the thing I am relying on actually in `REQUIRED`?", and check that any requirements/pin file you are citing applies to *the runtime you are in* (CI vs local venv). When you ship a capability, register its prerequisite in the health check and the machine-provisioning doc in the same pass — otherwise the first person to exercise the path is the detector.
 
 Related: [[finding_test_the_guard_not_just_the_guarded]] · [[finding_silent_blank_evades_review]] · [[finding_fail_loud_on_incomplete_data]] · [[finding_ledger_drift_behind_narrative]] · [[finding_state_token_sweep_all_surfaces]]
