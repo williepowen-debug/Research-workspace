@@ -40,7 +40,7 @@ BOOT_SEQUENCE = [
     # nobody re-read before drafting a spec. See finding_mechanize_the_cap_not_the_ritual.
     ("Lesson-Conflict Check", "lessons_check.py",      [], False),
     # Wired 2026-08-04, the session DEPLOY GATE v2 turned out to be UNFILLABLE BY CONSTRUCTION.
-    # Verifies that every registered gate/threshold/falsifier in workbook/INSTRUMENTS.tsv has an
+    # Verifies that every registered gate/threshold/falsifier in workbook/REGISTRY.tsv has an
     # instrument that (1) exists, (2) is reachable, (3) is fresh enough for its own staleness
     # budget, and (4) still PRINTS while the market it must be acted on in is open.
     #

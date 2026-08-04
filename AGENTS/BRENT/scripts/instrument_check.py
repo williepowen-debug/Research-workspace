@@ -2,7 +2,8 @@
 """
 BRENT Instrument Check — does every registered test have a WORKING instrument?
 
-Registry: workbook/INSTRUMENTS.tsv
+Registry: workbook/REGISTRY.tsv  (consolidated 2026-08-04; absorbed the former INSTRUMENTS.tsv
+          AND thresholds.py's hardcoded level tables -- one machine home for level + instrument)
 
 WHY THIS EXISTS (built 2026-08-04, after DEPLOY GATE v2 turned out to be unfillable):
 LESSONS #21 says a threshold fails on its SPEC before it fails on the world.
@@ -51,7 +52,7 @@ from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
 BRENT_DIR = Path(__file__).resolve().parent.parent
-REGISTRY = BRENT_DIR / "workbook" / "INSTRUMENTS.tsv"
+REGISTRY = BRENT_DIR / "workbook" / "REGISTRY.tsv"   # consolidated 2026-08-04; was INSTRUMENTS.tsv
 
 # When the ACTION market closes, ET. Used only for window_req=same_session_action.
 # US equity/ETF options close 16:00 ET; the broad-based ETFs (SPY/QQQ/IWM/DIA) run to 16:15.
@@ -68,7 +69,8 @@ def load_registry():
                 continue
             rows.append(line.rstrip("\n"))
     rdr = csv.DictReader(rows, delimiter="\t")
-    return [r for r in rdr if r.get("test_id")]
+    # RETIRED rows stay in the registry as the do-not-resurrect list, but are not probed.
+    return [r for r in rdr if r.get("test_id") and r.get("status", "live") != "retired"]
 
 
 # ---------------------------------------------------------------------------
@@ -137,6 +139,50 @@ def last_intraday_time_et(ticker):
         return None
 
 
+def _fred_key():
+    """Same resolution order as thresholds.py: env, then the gitignored FORGE .env."""
+    import os
+    k = os.environ.get("FRED_API_KEY", "")
+    if k:
+        return k
+    f = BRENT_DIR.parent.parent / "FORGE/tools/market-data/.env"
+    if f.exists():
+        for line in f.read_text().splitlines():
+            if line.startswith("FRED_API_KEY="):
+                return line.split("=", 1)[1].strip()
+    return ""
+
+
+def probe_fred(series):
+    """FRED observations — returns the newest observation DATE, which is the whole point:
+    a FRED series can answer 200 and still be months behind (GASREGW is weekly, BAMLH0A0HYM2
+    lags a day). Reachability alone would be a false green.
+
+    ⚠️ ADDED DURING THE 2026-08-04 CONSOLIDATION, and it was NOT cosmetic: folding the FRED
+    threshold rows into the shared registry put 10 rows in front of a checker that had no
+    fred: prober, so they all reported 🔴 DEAD on a source that works perfectly. Ten false
+    positives would have been worse than no check — it is exactly the "a structural edit can
+    silently change operational meaning" failure RAV flagged when approving this work.
+    """
+    key = _fred_key()
+    if not key:
+        return None, None, "FRED_API_KEY not found (env or FORGE/tools/market-data/.env)"
+    url = ("https://api.stlouisfed.org/fred/series/observations"
+           f"?series_id={series}&api_key={key}&file_type=json&sort_order=desc&limit=1")
+    try:
+        req = urllib.request.Request(url, headers={"User-Agent": "BRENT-instrument-check/1.0"})
+        with urllib.request.urlopen(req, timeout=20) as resp:
+            obs = json.loads(resp.read()).get("observations", [])
+        if not obs:
+            return False, None, "no observations returned"
+        d = obs[0].get("date")
+        val = obs[0].get("value")
+        last = datetime.fromisoformat(d)
+        return True, last, f"last observation {d} = {val}"
+    except Exception as e:
+        return False, None, f"unreachable: {type(e).__name__}: {e}"
+
+
 def probe_http(url):
     try:
         req = urllib.request.Request(url, headers={"User-Agent": "BRENT-instrument-check/1.0"})
@@ -176,6 +222,15 @@ def probe_chain(spec):
 
 # ---------------------------------------------------------------------------
 
+_PROBE_CACHE = {}
+
+
+def _cached(key, fn):
+    if key not in _PROBE_CACHE:
+        _PROBE_CACHE[key] = fn()
+    return _PROBE_CACHE[key]
+
+
 def evaluate(row, quick=False):
     probe = (row.get("probe") or "").strip()
     findings = []
@@ -200,11 +255,13 @@ def evaluate(row, quick=False):
     else:
         if probe.startswith("yf:"):
             need_intra = row.get("window_req") == "same_session_action"
-            ok, last_dt, detail = probe_yf(probe[3:], want_intraday=need_intra)
+            ok, last_dt, detail = _cached((probe, need_intra), lambda: probe_yf(probe[3:], want_intraday=need_intra))
+        elif probe.startswith("fred:"):
+            ok, last_dt, detail = _cached(probe, lambda: probe_fred(probe[5:]))
         elif probe.startswith("http:"):
-            ok, last_dt, detail = probe_http(probe[5:])
+            ok, last_dt, detail = _cached(probe, lambda: probe_http(probe[5:]))
         elif probe.startswith("chain:"):
-            ok, last_dt, detail = probe_chain(probe[6:])
+            ok, last_dt, detail = _cached(probe, lambda: probe_chain(probe[6:]))
         else:
             ok, detail = False, f"unknown probe grammar: {probe!r}"
         probed = True

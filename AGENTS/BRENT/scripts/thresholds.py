@@ -64,51 +64,52 @@ FRED_BASE = "https://api.stlouisfed.org/fred/series/observations"
 # (ticker, direction, level, classification, label)
 # ---------------------------------------------------------------------------
 
-MARKET_THRESHOLDS = [
-    # ── Brent futures (BZ=F)
-    ("BZ=F",  "above", 140.0, "stress",  "Brent >$140 — extreme dislocation (ATH intraweek)"),
-    ("BZ=F",  "above", 120.0, "risk",    "Brent >$120 — demand destruction accelerates, Phase 2 approaches"),
-    ("BZ=F",  "above", 100.0, "thesis",  "Brent >$100 — HAWK Scenario C confirmed, Phase 1 active"),
-    # ⚠️ v4→v5.1 CORRECTION (2026-07-28). These two rows carried RETIRED v4 framing and
-    # would have alerted in the WRONG DIRECTION — a guard worse than no guard.
-    #   - "<$85 = squeeze weakening / front-running peace" was the dead Phase-2-SHORT frame.
-    #     THESIS v5.1 grades $85×3 settles as FIRED = sustained PREMIUM (bullish). A lapse
-    #     back below $85 retires that condition; it is not evidence the squeeze is failing.
-    #   - "<$75 = THESIS BREAK" was retired at v4→v5: sub-$75 is STRUCTURAL DECOUPLING
-    #     (price detached from still-deficit physical) and is thesis-CONFIRMING.
-    #     The real downside break is <$70 AND confirmed demand collapse (THESIS v5.1 registry).
-    # Canonical registry = thesis/THESIS.md KEY THRESHOLDS. THESIS WINS on any disagreement.
-    # TODO (structural, DAEDALUS 7/28 W-class): scripts should READ that registry, not restate
-    # it. This is instance n=2 fleet-wide of the registry-restatement class.
-    ("BZ=F",  "below",  85.0, "thesis",  "Brent <$85 — $85×3 sustained-premium condition LAPSED (not a break; see THESIS v5.2)"),
-    ("BZ=F",  "below",  75.0, "thesis",  "Brent <$75 — STRUCTURAL DECOUPLING, thesis-CONFIRMING (NOT a break — '<$75 = break' RETIRED v4→v5)"),
-    ("BZ=F",  "below",  70.0, "risk",    "Brent <$70 — approaching the REAL downside break (fires only WITH confirmed demand collapse)"),
-    # ── WTI futures (CL=F)
-    ("CL=F",  "above", 100.0, "thesis",  "WTI >$100 — Phase 1 broad"),
-    ("CL=F",  "below",  70.0, "risk",    "WTI <$70 — US decoupling stress"),
-    # ── USO (position)
-    ("USO",   "below",  80.0, "risk",    "USO approaching drawdown watch"),
-    ("USO",   "below",  75.0, "risk",    "USO stop territory"),
-    # ── STNG (tanker position)
-    ("STNG",  "below",  71.50, "risk",   "STNG STOP LEVEL — exit trigger"),
-    ("STNG",  "above", 100.0, "thesis",  "STNG target zone — tanker super-cycle pricing in"),
-    # ── LNG / Cheniere
-    ("LNG",   "above", 255.0, "thesis",  "Cheniere in position zone (research BRT-10)"),
-    ("LNG",   "above", 285.0, "thesis",  "Cheniere analyst PT range — LNG beat territory"),
-    # ── Venture Global (VG — maximum leverage per BRT-10)
-    ("VG",    "above",  15.0, "thesis",  "VG benefitting from spot LNG windfall"),
-    # ── Energy ETFs (context)
-    ("XLE",   "above", 100.0, "thesis",  "Energy sector leadership confirmed"),
-    ("XOP",   "above", 150.0, "thesis",  "E&P sector broad strength"),
-    # ── Refiners (crack-spread proxies)
-    ("VLO",   "above", 160.0, "thesis",  "Refiner margins strong — crack spread wide"),
-    ("MPC",   "above", 170.0, "thesis",  "MPC — crack spread beneficiary"),
-    # ── Natgas (LNG spot cross-ref)
-    ("NG=F",  "above",   4.0, "stress",  "Natgas >$4 — Atlantic basin competition"),
-    ("NG=F",  "above",   5.0, "stress",  "Natgas >$5 — US gas market tight"),
-]
+# ---------------------------------------------------------------------------
+# ⚑ CONSOLIDATION 2026-08-04 (Will-approved, on RAV's ruling): the hardcoded
+# MARKET_THRESHOLDS / FRED_THRESHOLDS tables that used to live here are GONE.
+# Both are now READ from workbook/REGISTRY.tsv, the single machine home for a
+# test's level AND its instrument.
+#
+# This closes the standing TODO that sat at this exact spot ("scripts should
+# READ that registry, not restate it — instance n=2 fleet-wide of the
+# registry-restatement class"). The restatement had already rotted twice into
+# alerting in the WRONG DIRECTION on retired v4 framing.
+#
+# THESIS.md remains canonical PROSE. REGISTRY.tsv is canonical MACHINE state.
+# They may disagree only in wording, never in a number.
+# ---------------------------------------------------------------------------
 
-# Context tickers (quoted but no thresholds)
+import csv as _csv
+from pathlib import Path as _Path
+
+_REGISTRY = _Path(__file__).resolve().parent.parent / "workbook" / "REGISTRY.tsv"
+
+
+def _load_registry():
+    if not _REGISTRY.exists():
+        print(f"  ERROR: registry missing at {_REGISTRY} — thresholds cannot be graded", file=sys.stderr)
+        sys.exit(1)
+    lines = [l for l in _REGISTRY.read_text(encoding="utf-8").splitlines()
+             if l.strip() and not l.startswith("#")]
+    return [r for r in _csv.DictReader(lines, delimiter="\t") if r.get("test_id")]
+
+
+def _levels(source):
+    """Live, gradeable level rows for one source. Blank level = instrument-only row, skipped."""
+    out = []
+    for r in _load_registry():
+        if r["status"] != "live" or r["source"] != source or not r["level"]:
+            continue
+        out.append(r)
+    return out
+
+
+# Shapes preserved EXACTLY so the rest of this script is untouched by the move.
+MARKET_THRESHOLDS = [(r["symbol"], r["direction"], float(r["level"]), r["classification"], r["label"])
+                     for r in _levels("yf")]
+FRED_THRESHOLDS = [(r["symbol"], r["series_label"], r["direction"], float(r["level"]),
+                    r["classification"], r["label"]) for r in _levels("fred")]
+
 CONTEXT_TICKERS = ["BZ=F", "CL=F", "USO", "STNG", "LNG", "VG", "XLE", "XOP", "VLO", "MPC",
                    "NG=F", "UNG", "FRO", "EURN", "DHT", "HAL", "SLB", "CVX", "XOM", "^VIX"]
 
