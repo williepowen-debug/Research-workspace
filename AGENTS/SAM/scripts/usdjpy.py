@@ -139,6 +139,9 @@ INTERVENTION_WINDOW_DAYS = 3  # touch date within ±N days of intervention = mat
 
 SESSION_TZ = "Europe/London"   # yfinance labels USDJPY=X bars in London time
 REVISION_WINDOW_DAYS = 10      # L2: rows this recent are recomputed + overwritten each run
+                               #     override for a one-off backfill: --revise-window N
+                               #     (L3 surfaces pre-fix truncated rows OLDER than this window;
+                               #      they cannot self-heal until the window is widened once)
 HOURLY_LOOKBACK_DAYS = 60      # L1/L3: hourly window pulled for revision + audit
 REVISION_EPSILON = 0.005       # yen; below this a difference is rounding, not a revision
 RANGE_DISAGREEMENT_ALARM = 0.30  # L3: daily-vs-hourly range gap that trips the alarm
@@ -507,8 +510,29 @@ def print_summary(rows):
 
 
 def main():
+    global REVISION_WINDOW_DAYS
+
     summary_only = "--summary" in sys.argv
     refresh_only = "--refresh" in sys.argv
+
+    # One-off backfill hatch. L3 audits the full hourly lookback but L2 only
+    # rewrites inside REVISION_WINDOW_DAYS, so rows older than the window get
+    # reported every run and never repaired. Widening the window is a deliberate
+    # act (it rewrites history), so it is a flag, not a default.
+    if "--revise-window" in sys.argv:
+        i = sys.argv.index("--revise-window")
+        if i + 1 >= len(sys.argv):
+            print("  ⚠️  --revise-window needs a value in days")
+            return 2
+        try:
+            REVISION_WINDOW_DAYS = int(sys.argv[i + 1])
+        except ValueError:
+            print(f"  ⚠️  --revise-window: '{sys.argv[i + 1]}' is not an integer")
+            return 2
+        if REVISION_WINDOW_DAYS > HOURLY_LOOKBACK_DAYS:
+            print(f"  ⚠️  --revise-window {REVISION_WINDOW_DAYS}d exceeds the "
+                  f"{HOURLY_LOOKBACK_DAYS}d hourly lookback — rows older than "
+                  f"the lookback have no hourly truth to revise against")
 
     now = datetime.now().strftime("%Y-%m-%d %H:%M")
     print(f"\n{'='*70}")
