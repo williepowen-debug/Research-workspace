@@ -87,6 +87,24 @@ Carried unverified since March, in-window now, flagged 7/31, on my owes-list twi
 - **A FRED fallback ladder.** ~6 calls were spent discovering the block. The lesson is not better self-pull — **credit spreads are LIQUID's and RED's instrument, not NEXUS's.** Two failed attempts on a primary I don't own should trigger a route. Habit, not spec.
 - **More brief instrumentation.** Three rollups, **zero brief-gap defects each time**; the failure was ordering and amendment 10 fixed it. Adding measurement to a metric that keeps printing clean is how compliance theater starts. **Rollup #4's job is to ask whether the `stale` rate FELL — and if it did, cut the cadence.**
 
+---
+
+# UNIT 4 — late-mover delta (~10:20–10:40 PM ET)
+*Will: "do we feel like NEXUS has an up to date view of the agents now?" — the honest answer was NO, and checking it found three ERRORS on my board rather than three absences.*
+
+**Five agents committed AFTER my pass closed** — BROCK 21:57 · SHADE 21:51 · VULCAN 21:47 · DAEDALUS 21:22 · PROME 20:34 — **three of them PROME-directed proxies answering my own escalations within ~2h of the packets landing.** Verified at the TARGET artifacts, not off commit messages (`[[finding_record_of_an_action_is_not_the_action]]`).
+
+**Errors corrected in place (each was actively misleading, not merely stale):**
+1. **TRY-FIRE-004 = 25× TLT Sep-30 77P, not 30×** — 5 harvested at 3.23×, ZONE-3 met at fill. Verified at **TERRY STATUS line 6 *and* FORGE line 143** (two primaries). My line carried "30×" for ~4 hours post-harvest — **a live position figure, the worst class to be wrong about.**
+2. **ARCC is READ, not missing** — BROCK proxy delivered it 5 days late, closing my 4th flag: **BEAR-DIRECTIONAL, NO TRIGGER**, convergence held 59/70, APO Dec $95P HOLD (APO $129.42, 58c under the $130 re-arm band). ⇒ the cluster opens **with its pre-anchor in hand**, and under the 8/3 pre-reg counting rule ARCC is now **REPORTED ⇒ exam coverage 1 of 8.**
+3. **SHADE is neither dark nor brief-less** — Athene grade card **FROZEN before the print** (both legs, numeric bands, NO-VERDICT bands, worksheet) and **first `NEXUS_BRIEF.md` created, explicitly because NEXUS reported the board could not read it.** ⚠️ New owed, surfaced by SHADE against itself: **its ARCC Q2 pre-registration is UNGRADED** — a *different* item from BROCK's read.
+- **Census 25 → 26 on disk.** My BRIEFS_MAP line "RE-VERIFIED on disk = 25" was written ~19:45 and **rotted within the hour** — corrected, with the rot noted rather than silently overwritten. Brief-less set now **WALTER, OZK** only.
+- **M-09 annotated from VULCAN's late pass, level HELD at 62** pending my own raw read: S5 tier-2 → **CORE** (12/20 → 15/25, ⚠️ **both 60% — a new CHANNEL, not new stress**, so it does not lift M-09 by itself), **S2 2 → 3** ("where the evidence is now building" — memory/semicap equity in a bear market and decoupled from AI-compute while both price legs still rise), all 4 channels at 3, **S1 NOT-FIRED (capex net RAISED)**. ⛔ **Propagate: VULCAN's self-inherited "MU FQ4 ~8/4" is FALSE — MU prints ~9/29.**
+
+**Stated plainly in the STATUS header rather than papered over:** ⚠️ **TERRY (8/3 15:13) is still UNREAD at primary — TRY-FIRE-007 reached me only via SAM's relay and I packeted TERRY off that relay**; PROME and WALTER were **preview-truncated, not full reads**; DAEDALUS unread. Rows are **delta-annotated, not re-swept.** **The next boot owes a proper pass, not another patch** — patching a board five times in one evening is how a surface stops being trustworthy.
+
+**Calibration note worth keeping:** all three escalations worked, but **none resolved through the route I assumed** — I expected session launches and got PROME-directed proxies. The escalation path is real; my model of *how* it discharges was wrong.
+
 ## Blockers / carry-forward (next boot owes)
 1. **Credit re-pull the instant FRED answers** — DISH-guard unresolved; if still dark, chase the LIQUID packet.
 2. **8/4:** Athene Q2 = M-11 dual test (**check SHADE was scheduled or the grade is orphaned**) · marks cluster opens · AMZN 10-Q (VULCAN-07).
