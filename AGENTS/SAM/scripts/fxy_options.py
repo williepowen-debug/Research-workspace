@@ -165,13 +165,36 @@ def _iv_flag(iv_pct):
     return "🔴 stress"
 
 
+# A 25-delta risk reversal is quoted in VOL POINTS. Real OTC USD/JPY RR lives within
+# roughly +/-3 vols; an ETF proxy runs structurally steeper, but double-digit values mean
+# one wing was priced off a stale/absent/one-tick quote, not that skew is extreme.
+# Above this the number is NON-PHYSICAL and must not be read for direction at all.
+# Chosen deliberately loose (~2x the widest defensible ETF skew) so it removes garbage,
+# not signal. Provenance: SAM 2026-08-04, after the proxy printed Aug-21 +3.42 -> -77.0
+# -> -32.18 and Sep-18 -24.66 -> -5.66 -> +19.95 on three consecutive sessions --
+# the SIGN itself flipped daily, so KB-183's "read the sign, not the level" had no
+# signal left to read, yet every one of those readings was graded "ok"/"approx".
+RR_IMPLAUSIBLE_ABS = 10.0
+
+
+def rr_is_readable(rr):
+    """True only if rr is present AND physically plausible. The old code conflated
+    'computable' with 'trustworthy' -- that is the whole defect this closes."""
+    return rr is not None and abs(rr) <= RR_IMPLAUSIBLE_ABS
+
+
 def _rr_flag(rr):
     """SIGN/direction interpretation only. NOTE: FXY ETF option skew runs structurally
     much steeper than USD/JPY OTC RR, so the framework's absolute OTC thresholds
     (-0.3/-0.7 = stress) DO NOT transfer to this proxy. Track the trend vs its own
-    history; here we only read the sign + which side is bid."""
+    history; here we only read the sign + which side is bid.
+    Refuses to emit ANY direction when the value is non-physical -- printing
+    'calls bid' off a -77 vol reading is worse than printing nothing."""
     if rr is None:
         return ""
+    if not rr_is_readable(rr):
+        return (f"UNREADABLE - |RR| {abs(rr):.1f} > {RR_IMPLAUSIBLE_ABS:.0f} vols is "
+                f"non-physical (thin/stale wing). NO directional read. Price off the live chain")
     if rr <= -0.5:
         return "↓ FXY calls bid = yen-strength demand (thesis-side)"
     if rr < 0.5:
@@ -190,6 +213,10 @@ def _vol_quality(atm_iv_pct, rr25, note):
     the trailing series."""
     n = (note or "").lower()
     if rr25 is not None:
+        # Plausibility gate BEFORE the thin/approx grade: a non-physical magnitude is a
+        # data defect, not a lower-confidence reading, and must never reach calibration.
+        if not rr_is_readable(rr25):
+            return "rr_implausible"
         return "approx" if ("approx" in n or "thin" in n) else "ok"
     if atm_iv_pct is not None:
         return "rr_na"
@@ -197,6 +224,7 @@ def _vol_quality(atm_iv_pct, rr25, note):
 
 
 # Quality grades admissible into the trailing RR series.
+# NB "rr_implausible" is deliberately EXCLUDED -- it is a defect grade, not a weak one.
 CALIB_OK_QUALITY = ("ok", "approx")
 
 
