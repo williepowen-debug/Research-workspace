@@ -65,6 +65,28 @@ Carried unverified since March, in-window now, flagged 7/31, on my owes-list twi
 - **BRIEFS_MAP ★8/3 delta prepended + header bumped.** Census re-verified **25 on disk**. **Three 7/31 audit packets show CLEARED re-pins** — CORAL (names the flag and delivers the owed SBCF grade), OSPREY (landed before the OSP-03 VOID branch executed), BRENT (re-verified against `TRADE.md` and **self-declared its 131-line overage rather than hiding it**). **FALCON new trigger-(a) drift logged, deliberately NOT packeted** — 8 re-pins outstanding; a 9th adds noise, not signal.
 - **`research/` retirement bar checked, NOT swept — the bar is not met yet, and only ONE file will meet it.** Of 3 June files: `2026-06-06_e_phase_outputs` = **0 live references, hits 60d on 8/5** ⇒ the sole candidate. `2026-06-08_cpi_pre_registration` and `2026-06-17_fomc_pre_registration` are **each referenced by a live doc**, so the rule's third condition fails ⇒ **retain regardless of age.** Next sweep is a one-liner.
 
+---
+
+# UNIT 3 — workflow changes from this session's retrospective (~7:55–8:15 PM ET, Will-approved)
+*"should we make any changes to our workflow as a result of what we have encountered this session?" → four adopted, two explicitly declined.*
+
+**Adopted — all four written INLINE into `CLAUDE.md` per the spec-text rule (no behavior rule left living only in a `[[memory]]` tag):**
+
+| # | Change | Where | Would have caught |
+|---|---|---|---|
+| **1** | **CLOSEOUT step 9b — cross-surface STATE check.** Steps 9/10 verify each surface *internally*; nothing verified a state change reached *every* surface. If a convergence/prediction/confirmed row changed **STATE** (CONTESTED · STUCK · RETIRED · FALSIFIED · RE-SCOPED · owner change · resolvability defect · threshold re-spec — **not** a pure Conf-% move), name every surface carrying it and verify each. NEXUS triangle = STATUS ↔ `CONFIRMED.md` ↔ `PREDICTIONS_MONITOR.md` (+ BRIEFS_MAP for brief state). ⚠️ Run it **from the change, not from the files** — surfaces that agree because none was updated pass an agreement check and fail this one (`[[finding_verification_zero_is_ambiguous]]` ②). | CLOSEOUT, placed **after 9a** (initial insert landed before it; relocated) | **The C-36 defect, this session** |
+| **2** | **Synthesis Discipline J — no standing probability without a registered falsifier.** Any probability carried across sessions needs a named outcome, on a named instrument, by a named date, that FORCES a move — **re-checked at every re-mark, not only at registration.** Construction requirements are what make it real: symmetric magnitudes · a numeric NO-VERDICT band · a **non-renewable** clause on any NO-VERDICT branch · and an explicit note that a repeated no-move under a branch that should have moved is a self-protection tell. *If you cannot state what would force the number to move, it is a mood, not an estimate.* | new §J after Disc-I | **The split's 3-pass gap** — T-18, one tension row, carried a falsifier the whole time the fleet's most-consumed number did not |
+| **3** | **`CONFIRMED.md` holds FIRED LEGS ONLY.** A forward/unfired leg goes to `PREDICTIONS_MONITOR.md` with instrument + threshold + date; the confirmed row *links* to it. Legacy mixed rows get the forward leg its **own status cell** and an explicit statement of which legs the headline conf % covers. | WHAT YOU OWN table | **C-05** — March→August, two audit flags, and unresolvable from birth; both defects hidden by the row's 99% header |
+| **4** | **PROME's inbox is `PROME/inbox/`, NOT `AGENTS/PROME/inbox/`** — the latter is a regrowth artifact PROME clears at boot, so a packet there is never delivered. ⚠️ Noted that **the wrong form circulates in peers' brief text** ⇒ *do not copy a path out of a peer's file; delivery proves the path, not the citation.* | CROSS-AGENT SIGNALS §You send | **My regrowth today** — caught by the pre-commit sanity check, not by knowing the path |
+
+**+ three ANTI-PATTERN lines** mirroring 1–3 (standing probability w/o falsifier · forward claim in a confirmed row · updating one surface of a multi-surface change and stopping).
+
+**Promotion:** ONE auto-memory — `finding_live_claim_in_a_closed_container_is_invisible` (a forward claim parked in a DONE artifact inherits its status; **sweeps key on the container**, so it rots in plain sight and passes every audit; generalizes to open questions in closed tickets, TODOs in merged PRs, pending items under RESOLVED headers). **Tell registered: if the tense of the claim disagrees with the tense of the container, the claim is in the wrong file.** Dedup-checked against `finding_redated_falsifier_inherits_premise`, `finding_premise_residue_survives_date_fix`, `finding_canonical_surfaces_stale_inbox_carries_live_state` — distinct, all linked. HOT index (authoring is the unpredictable moment), *Doc & state-file hygiene (cont.)*. Changes 1/2/4 needed **no** memory — their classes are already covered (`finding_doc_mirror_consistency_check`, `finding_prereg_verdict_boundary_must_be_a_number`, `finding_dead_path_regrows_unless_senders_repointed`); the gap was **invocation, not knowledge**, which is why all three became sequence steps instead.
+
+**DECLINED, with reasons recorded so they aren't re-proposed:**
+- **A FRED fallback ladder.** ~6 calls were spent discovering the block. The lesson is not better self-pull — **credit spreads are LIQUID's and RED's instrument, not NEXUS's.** Two failed attempts on a primary I don't own should trigger a route. Habit, not spec.
+- **More brief instrumentation.** Three rollups, **zero brief-gap defects each time**; the failure was ordering and amendment 10 fixed it. Adding measurement to a metric that keeps printing clean is how compliance theater starts. **Rollup #4's job is to ask whether the `stale` rate FELL — and if it did, cut the cadence.**
+
 ## Blockers / carry-forward (next boot owes)
 1. **Credit re-pull the instant FRED answers** — DISH-guard unresolved; if still dark, chase the LIQUID packet.
 2. **8/4:** Athene Q2 = M-11 dual test (**check SHADE was scheduled or the grade is orphaned**) · marks cluster opens · AMZN 10-Q (VULCAN-07).
@@ -75,5 +97,6 @@ Carried unverified since March, in-window now, flagged 7/31, on my owes-list twi
 ## Files
 - **NEXUS (unit 1):** STATUS.md (full re-anchor) · PREDICTIONS_MONITOR.md (8/3 pass block + 7/28 prune) · signals_archive/PREDICTIONS_PASS_LOG_20260627_20260724.md (7/28 block appended) · board_log.tsv (+2) · brief_fallback_log.tsv (+2) · inbox moves ×3 · this file.
 - **NEXUS (unit 2):** CONFIRMED.md (C-36 CONTESTED **defect fix** + C-05 STUCK/re-spec) · research/2026-08-03_split_and_coverage_prereg.md (**new, frozen**) · STATUS.md (split falsifier + T-19 threshold pointers; 177/200) · BRIEFS_MAP.md (★8/3 delta + header).
+- **NEXUS (unit 3):** **CLAUDE.md** (closeout 9b · Disc-J · CONFIRMED fired-legs-only · PROME path warning · 3 anti-patterns) · this file.
 - **Cross-dir (carve-out ①, 3 packets):** PROME · LIQUID · **TERRY** inboxes.
 - **Memory (carve-out ③):** `memory/auto/finding_count_what_published_before_reading_the_verdict.md` (new) + `memory/auto/MEMORY.md` index row.

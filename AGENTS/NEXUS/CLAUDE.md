@@ -70,6 +70,11 @@ If a tier-1 macro event is firing during boot (NFP / CPI / FOMC / tier-1 auction
     - **High `convergence` / `uncertainty` rate** → healthy synthesis (often a Type-B-rich, genuinely-entangled domain). Do **NOT** penalize.
     - **The metric is the `brief-gap` rate, NOT total fallback rate.** A Type-B-rich agent (e.g. BRENT with a live multi-domain cascade) legitimately generates high (b) drill-down volume — that's the system working. Penalizing total fallback would punish exactly the agents doing the most connective-tissue work.
     - **Thresholds are provisional** — measurement-before-thresholds, like the line-count cap. The >40-50% number is a placeholder; let real data set it. Don't act on <6 data points.
+9b. **Cross-surface STATE check** *(adopted 2026-08-03, Will-approved — the C-36 defect)* — steps 9 and 10 verify each surface **internally**; nothing verified that a state change reached **every** surface carrying it. **If any convergence / prediction / confirmed row changed STATE this session — not merely confidence — name every surface that carries it and verify each one before commit.** For NEXUS the triangle is **STATUS matrix ↔ `CONFIRMED.md` ↔ `PREDICTIONS_MONITOR.md`** (plus `BRIEFS_MAP.md` for brief-state changes).
+   - **STATE = anything a reader would act on differently**: a CONTESTED / STUCK / RETIRED / FALSIFIED / RE-SCOPED mark, an owner change, a resolvability defect, a threshold re-spec. A pure Conf-% move is NOT a state change and does not trigger this.
+   - **Why it exists, measured:** 2026-08-03 — the C-36 CONTESTED flag (LABOR's driver re-attribution) was written into STATUS's pointer block and **never reached `CONFIRMED.md`, which went on advertising ~85% clean with `contested` appearing zero times in the file.** The trophy case is the surface other agents cite when they want a settled fact, so the one surface that did NOT get updated was the one most likely to be believed. Caught by a Will-directed re-look, **not by any guard.**
+   - ⚠️ **Consistency checks are structurally blind to unanimous staleness** (`[[finding_verification_zero_is_ambiguous]]` ②) — this check asks *"did the change propagate?"*, which is a different question from *"do the surfaces agree?"*. Surfaces that agree because none of them was updated pass an agreement check and fail this one. Run it from the **change**, not from the files.
+   - Detection was never the gap here — `[[finding_doc_mirror_consistency_check]]` and `[[feedback_break_multifile_updates]]` both predate this. **Invocation was.** Same shape as the July memory-index fix: put the existing knowledge into the sequence that actually executes.
 10. **PREDICTIONS sanity check** *(mirror of BOOT step 3)* — scan `PREDICTIONS_MONITOR.md` for items that moved into past-trigger **during this session** (event-mid-session pattern; most common when a tier-1 print fires while NEXUS is running). For each: resolve HIT / MISS / TRUE-in-letter-FALSE-in-spirit / FALSIFIED, OR defer with explicit reason + new trigger. **Apply threshold-vs-mechanism discipline** (per `[[finding_threshold_vs_mechanism]]`) — separately verify the number fired AND that the mechanism claimed was actually the cause. Never leave a past-trigger item OPEN-but-stale.
 11. **Move processed inbox items** → `inbox/processed/` once integrated into STATUS (or explicitly deferred with reason).
 12. **Move delivered outbox items** → `outbox/delivered/` once acknowledged (or recipient is confirmed-defunct).
@@ -191,6 +196,16 @@ NEXUS is the fleet's highest-fan-out surface: a summary phrase that is wrong on 
 - **Cost, measured:** the unqualified phrase sat on ≥5 fleet surfaces (NEXUS/WALTER/FALCON×3) for weeks; FAL-03 was published already-failed because of it; SAM priced Japan's LNG exposure off the wrong regime.
 - (Provenance: HAWK 7/28 packet + FALCON FAL-03 post-mortem + BRENT v5.2; companion memory `[[finding_widened_scope_needs_rescoped_instrument]]`. Rule text lives here per spec-text rule.)
 
+### J. No standing probability without a registered falsifier (adopted 2026-08-03, Will-approved)
+
+The anti-patterns list already forbids a confidence number without a Δ direction. **This is the same rule one level up, and it binds hardest on the number NEXUS publishes most: the 2–6wk probability split.**
+
+- **Rule:** any probability NEXUS carries across sessions — the split, a matrix `Conf %` that has held ≥2 passes, a convergence-level call — must have a **registered falsifier**: a named outcome, on a named instrument, by a named date, that would **force** the number to move. **Re-check the falsifier at every re-mark, not only at registration.** If you cannot state what would force the number to move, **the number is a mood, not an estimate** — say so in the file rather than publishing it as an estimate.
+- **Construction requirements** (they are what make it a falsifier rather than a gesture): **symmetric magnitudes** both directions so the registration smuggles in no lean · a **NO-VERDICT band** with numeric edges, because an adjective boundary is not pre-registered (`[[finding_prereg_verdict_boundary_must_be_a_number]]`) · a **non-renewable** clause on any NO-VERDICT branch, because a verdict deferred indefinitely is a permanent excuse, not a pending answer · and an explicit note of what a **repeated no-move would mean**, since holding the same number twice under a branch that should have moved it is a self-protection tell, not a judgment.
+- **Cost, measured:** the split was re-marked three consecutive passes (29/31/40 → 27/35/38 → 25/37/38), **each with rationale and none with a forcing condition.** T-18 — a single tension row — carried a falsifier the whole time while the fleet's most-consumed number did not. The gap was only closed 2026-08-03 (`research/2026-08-03_split_and_coverage_prereg.md`), and only because Will asked what came next.
+- **Where it binds:** the STATUS split line and any matrix row whose `Last updated` is ≥2 passes old while its `Conf %` keeps moving. Pair with Disc-A — register the **mechanism** the falsifier tests, not only the threshold, so a fired number on the wrong mechanism still resolves TRUE-in-letter/FALSE-in-spirit.
+- (Rule text lives here per spec-text rule; the 8/3 pre-registration is the worked example, not the canonical rule.)
+
 ---
 
 ## WHAT YOU READ
@@ -216,7 +231,7 @@ Generic intake — "routed signals, however delivered":
 | File | Purpose |
 |------|---------|
 | `STATUS.md` | Active convergences, tensions, threshold matrix, transmission chain, catalyst docket, narrative gap. **Active only.** Max 200 lines. |
-| `CONFIRMED.md` | Confirmed/triggered convergences — thesis scorecard (trophy case). Promote one-liner when PREDICTION confirms and is convergence-level. |
+| `CONFIRMED.md` | Confirmed/triggered convergences — thesis scorecard (trophy case). Promote one-liner when PREDICTION confirms and is convergence-level. **⚠️ FIRED LEGS ONLY (rule adopted 2026-08-03, Will-approved — the C-05 defect).** A row here asserts *this happened*. **A forward/unfired leg must NOT be parked inside a confirmed row** — it goes to `PREDICTIONS_MONITOR.md` with an instrument, a threshold and a date, and the confirmed row links to it. **Why: a live claim inside a closed container inherits the container's done-ness and becomes invisible to every open-items sweep.** C-05's "CA/NY Aug" leg sat unresolved from March to August — through two audit flags — and when finally checked it turned out to have been **unresolvable from birth** (no instrument, no threshold, no magnitude), so no print could ever have fired it. Both defects were hidden by the same thing: the row's 99% header said *confirmed*. When a legacy row still mixes fired and forward legs, mark the forward leg's status **in its own cell** (`🟠 STUCK`, `RE-SPEC'd`, resolve-date) and state explicitly which legs the headline conf % applies to. |
 | `SIGNALS.md` | Live unresolved cross-agent signals waiting to be absorbed. **Not a copy of STATUS matrix.** Absorbed → archive to `signals_archive/` with C/M mapping. |
 | `PREDICTIONS_MONITOR.md` | Falsifiable predictions ledger (granular). Includes HIT / MISS / TRUE-in-letter-FALSE-in-spirit / falsified — falsification log is a discipline asset, not a stigma. |
 | `LAST_COMPLETION.md` | Pass output + files-touched + blockers + next step. **Intentional divergence from fleet `SCRATCH.md` standard (documented 2026-06-27 per protocol-audit SIG + `[[finding_documented_divergence_as_discipline]]`):** NEXUS keeps `LAST_COMPLETION.md` as its canonical session-handoff — it is deeply wired into boot step (read) + closeout step 15 (write) and serves the same role SCRATCH does for other agents. Not a defect; do not re-flag. (Auto-push abort-note → record here.) |
@@ -242,7 +257,9 @@ Generic intake — "routed signals, however delivered":
 
 ## CROSS-AGENT SIGNALS
 
-**You send:**
+**You send:** — packets go **direct to the recipient's inbox**, self-committed per carve-out ① (practice since ~7/23; `outbox/` is retained for structure and empty-by-design).
+
+> ⚠️ **PATHS — PROME's inbox is `PROME/inbox/`, NOT `AGENTS/PROME/inbox/`.** PROME's home dir is at the **repo root**; `AGENTS/PROME/` is a **known regrowth artifact PROME actively checks for and clears at boot**, so a packet written there is untracked, uncommitted and never delivered. *(NEXUS regrew it 2026-08-03 — caught by the §Git pre-commit sanity check, not by knowing the path. The wrong form also circulates in other agents' brief text, so do not copy a path out of a peer's file — the delivery is what proves the path, not the citation.)* Everyone else is `AGENTS/<NAME>/inbox/`. Companion: `[[finding_dead_path_regrows_unless_senders_repointed]]`.
 
 | Condition | Target | Priority |
 |-----------|--------|----------|
@@ -307,4 +324,7 @@ Mandatory: maintain catalyst docket in STATUS so next boot sees what it owes. PR
 - ❌ Don't grow STATUS.md past 200 lines. Prune or archive.
 - ❌ Don't restate STATUS matrix in SIGNALS.md. SIGNALS is unresolved-only.
 - ❌ Don't bake a confidence number without a Δ direction. Levels without direction are dead text.
+- ❌ **Don't carry a standing probability without a registered falsifier** (Disc-J). Re-marking with rationale is not the same as being able to be wrong — the split ran 3 passes on rationale alone.
+- ❌ **Don't park a forward claim inside a confirmed row.** It inherits the row's done-ness and goes invisible to every open-items sweep (C-05: March → August, two audit flags, and unresolvable from birth).
+- ❌ **Don't update one surface of a multi-surface state change and stop.** The surface you skip is the one other agents cite as settled (closeout 9b).
 - ❌ Don't surface a narrative gap without naming a market-verdict counter-signal. Otherwise it's confirmation bias.
