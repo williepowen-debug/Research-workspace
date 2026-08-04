@@ -2,7 +2,7 @@
 **Setup ID:** TRY-BRENT-USOARM · **Trigger class:** GATE (two-leg AND: OVX decay + priced convexity)
 **Date:** 2026-08-04 · **Chain pulled:** 10:30 ET live (`chain_fetch.py --no-cache`)
 **Thesis owner:** **BRENT** (energy/oil; v5.0 main convex arm, unfired since 7/16). Gate spec is BRENT's; **tenor + size are WILL-RULED 8/3**. TERRY owns construction only.
-**Terry verdict:** 🟡 **CONDITIONAL — CLEAN on the TERRY (construction) axis.** Leg (b) **PASSES**. Conditional on leg (a) at the close, which is BRENT's grade and not mine.
+**Terry verdict:** 🟡 **CONDITIONAL — CLEAN on the TERRY (construction) axis.** ⚠️ **RECOMMENDATION REVISED 8/4 12:20 (§9): `125/130 ×2` @ limit $1.65, NOT the `125/135 ×1` in §4** — BRENT ruled it and his payoff math is right; **my §4 recommendation committed the exact pathology §4 diagnoses.** Leg (b) **PASSES on the wide (30.0% worst-case) and FAILS on the recommended narrow (34.0% worst-case), passing it only at mid** — resolved by making the gate the LIMIT PRICE (§9.C), not by relaxing it. Conditional on leg (a) at the close, which is BRENT's grade and not mine.
 **Confidence in trade structure:** High. **Confidence in the thesis: not mine to hold** — and the tape has voted against it twice this week (§7).
 **Status:** DECISION-READY / **UNARMED / $0 at risk.** Will holds [Approve] (root rule #5); live broker book governs at fire (rule #4).
 
@@ -20,7 +20,7 @@ Defined-risk far-OTM USO call spread bought **after** oil vol has decayed (leg a
 | Leg | Test | Status @ 10:30 ET 8/4 | Owner |
 |---|---|---|---|
 | **(a)** | OVX ≤ −15% from the post-arm running peak 68.97 ⇒ **≤ 58.6245**, on the **CLOSE** | **OVX 54.37 (−4.95%) = −21.2% from peak.** Cushion widened from ~2.5% (8/3) to **~7.3%**. ⛔ **NOT GRADED BY TERRY** — BRENT grades at ~16:15 on the close. An intraday reading is not the gate. | BRENT |
-| **(b)** | Net debit **≤ 33.0% of spread width** (⇔ R:R ≥ 2.0:1), **live chain** | ✅ **PASS at 27.0%** paying the full bid/ask — see §4. | **TERRY** |
+| **(b)** | Net debit **≤ 33.0% of spread width** (⇔ R:R ≥ 2.0:1), **live chain** | ✅ **PASS at 27.0%** paying the full bid/ask on the 10:30 chain (§4). ⚠️ **Re-graded 11:06 (§9.B): wide 30.0% PASS · narrow `125/130` 34.0% FAIL worst-case, 25.5% at mid** — gate enforced as a **limit price**. | **TERRY** |
 
 **⚠️ Leg (a) fired on the 8/3 close (57.20) but is NOT banked.** v2 requires both legs on one session; with no chain there was no leg (b), so 8/3 satisfied one leg of a two-leg AND. **The arm is neither deployed nor consumed, and leg (a) must fire AGAIN on whatever session actually fills.** Day 13 of 20; **arm expires Thu 8/13.**
 
@@ -70,7 +70,7 @@ BRENT warned that leg (a) opening and rule #6 being satisfied are *normally* cor
 
 **Skew pays you to spread it:** the short 135 leg sells **IV 50.76** while the long 125 buys **49.08** — you are selling **1.68 vols richer** than you buy. Measured, not asserted.
 
-**Vehicle tailwind nobody has written down:** WTI is **backwardated, M1−M3 +$3.77** (PROME 8/3 15:18). USO is a front-month roll vehicle, so backwardation is **positive roll yield** — the usual contango drag on USO runs the *other* way over a 74-day hold. ⚠️ Derived from the M1−M3 figure, **not measured on USO's own roll schedule**; directional, not a number to bank.
+**Vehicle tailwind nobody has written down:** WTI is **backwardated, M1−M3 ~~+$3.77~~ → ✅ CORRECTED 8/4 to +$4.66** (BRENT self-correction 11:35 — his 8/3 curve table was pulled mid-session and written as if it were settles; the Brent leg was roll-exposed on top of it. **The number is BRENT's, not PROME's — PROME relayed it accurately.**). **The error ran in my favour: +$4.66 is MORE positive roll yield than +$3.77, so this tailwind was understated.** USO is a front-month roll vehicle, so backwardation is **positive roll yield** — the usual contango drag on USO runs the *other* way over a 74-day hold. ⚠️ Derived from the M1−M3 figure, **not measured on USO's own roll schedule**; directional, not a number to bank.
 
 ### ⚠️ THE SPEC DEPARTURE, STATED IN FIGURES RATHER THAN CARRIED SILENTLY
 
@@ -117,7 +117,7 @@ BRENT warned that leg (a) opening and rule #6 being satisfied are *normally* cor
 
 - **Max loss budget:** the debit — **$228–270, capped at $300** by the Will ruling. **0.68% of the ~$39.5k book.** $200 held back. Defined-risk: no stop is required and none is used.
 - **Invalidation (thesis, BRENT's own discriminators — measurable, not narrative):**
-  1. **M1−M3 backwardation flips to CONTANGO.** Currently **+$3.77**, compressed 37.4% from +$6.02 but **NOT flipped** — Jun-17 flipped, and that is the signature of prompt premium being genuinely priced out. A flip kills the premise.
+  1. **M1−M3 backwardation flips to CONTANGO.** ⚠️ **THIS IS A KILL LINE AND IT CARRIED A WRONG NUMBER UNTIL 8/4 — ~~+$3.77, compressed 37.4%~~ → the 8/3 settle was +$4.66, compressed 22.6% from +$6.02.** Corrected by BRENT's own `consumer_check.py --old 3.77` at his closeout, inside the hour, on a card that may be approved today. **The error ran in my favour — the curve sat FURTHER from a contango flip than this card claimed, so the invalidation was further from tripping, not closer.** *(A kill line must carry the true number regardless of which way the error runs: misquoted toward the flip, the trade gets killed early on a figure that was never real. Same class as VIOLET carrying HENRY's stale gamma flip for 5 days.)* **📅 LIVE 8/4 ~11:10, explicitly IN-PROGRESS not a settle: WTI M1−M3 +$3.01, Brent Oct−Dec +$3.09 — cumulative −50.0% / −45.8% across two sessions. STILL BACKWARDATED. NO CONTANGO FLIP. Front/back ≈3.07×, same signature two sessions running.** ⇒ **Test #1 is compressing FAST but has NOT fired.** Re-grade on the close before any ticket — do not bank an intraday figure as a settle, which is the whole lesson of the correction above. Jun-17 *did* flip, and that is the signature of prompt premium genuinely being priced out.
   2. **Hormuz transits recover toward >35/day sustained.** Currently **10/day = 11.4%** of the 88/day baseline, `capacity_tanker` 0 DWT; Lloyd's List Intelligence has the most recent complete week at **39 vs 82 = −52.4% WoW**. ⚠️ Do not convert 39/wk to 5.6/day against the 88/day baseline — different series, blending forbidden by BRENT's own baseline doc. The valid figure is the **WoW ratio**.
   3. ⚠️ **Honest counter BRENT states against himself:** GPS jamming / AIS spoofing / dark transits bias **every** count down, so a dark-led recovery would be **partly invisible** to test 2.
 - **Gap/event risk:** this position is **long** convexity — a gap is the payoff, not the risk. The real risk is **decay with no gap**, which is the modal outcome and is exactly what §6 is written against.
@@ -162,4 +162,72 @@ BRENT warned that leg (a) opening and rule #6 being satisfied are *normally* cor
 **APPROVAL REQUIRED — Will must approve/reject before execution.**
 
 ---
-*Built by TERRY 2026-08-04 on BRENT's 8/4 ACTION packet (Will-directed: "tell TERRY to price leg (b) first thing tomorrow") + PROME's 8/3 15:30 rulings relay. Routed to BRENT and PROME. Chain: `chain_fetch.py USO 2026-10-16 --type call --no-cache`, 10:30 ET.*
+
+## 9. 🔴 UPDATE 2026-08-04 ~12:20 ET — BRENT RULED BOTH QUESTIONS. **THE RECOMMENDATION FLIPS TO `125/130 ×2`, AND MY §4 RECOMMENDATION WAS WRONG.**
+
+### A. ★ I committed the exact error I had just diagnosed one section earlier
+
+**BRENT's ruling #2, and he is right:** leg (b) scores the wide spread **better** (27.0% vs 30.0%) because it is cheaper per unit of width — **and the wide spread is the worse trade.** My §4 "CONSTRUCTION FINDING" says in the abstract that leg (b) rewards cheapness over quality and must never be read as a ranking. **I then recommended the structure leg (b) scored higher.** That is not an analogy for the pathology; **it is the pathology, live, in the structure I built.**
+
+**His payoff table, at my own debits, settles it:**
+
+| USO | ≈WTI | %move | `125/135 ×1` | `125/130 ×2` | narrow edge |
+|---|---|---|---|---|---|
+| 126.50 | 82.7 | +8.0% | −$120 | **$0** | +$120 |
+| **130.00** | **85.0** | **+10.9%** | **+$230** | **+$700** | **★ +$470** |
+| 132.00 | 86.3 | +12.6% | +$430 | +$700 | +$270 |
+| **134.70** | 88.1 | +15.0% | +$700 | +$700 | **crossover** |
+| 135.00 → 148 | 88.3+ | +15.2%+ | +$730 | +$700 | −$30 |
+
+**⇒ THE WIDE NEVER BEATS THE NARROW BY MORE THAN $30. THE NARROW BEATS THE WIDE BY UP TO $470.**
+
+**And the thesis-shape answer I asked for and got wrong: USO 130 ≈ WTI ~85 ≈ last Friday's close ($84.67).** The narrow structure reaches **maximum value on a simple round-trip back to 7/31** — no new highs, no thesis landing, just this week's two-session gap reversing. The wide needs **USO 135 ≈ WTI ~88.4**, *above* where the week started. **I anchored on the thesis-lands world (Brent $95–100 ⇒ USO 140–148); BRENT's own registered ~85–88% ORDINARY DIP says the modal good outcome is the round-trip — and that is precisely the zone where the narrow pays $700 and the wide pays $230.**
+
+**Ruling #1 also ratified:** leg (b) is a **FLOOR and a VETO, never a ranking** — *"a larger pass means CHEAPER, not BETTER."* BRENT located the defect more precisely than I did: **the spec is not silent on strike selection — the moneyness band selects and leg (b) can only reject. The actual defect is that the band has no LIQUIDITY QUALIFIER**, which is what put 124/134 on OI 144/203. He has proposed a paired amendment to Will (loosening: nearest listed strike meeting a liquidity bar; tightenings: long leg capped at **8.0% OTM**, departure stated in figures = now mandatory). **My +1.8pp departure is accepted for today.**
+
+### B. 🔴 BUT THE FRESH CHAIN CHANGES THE GATE ANSWER — and I am not relaxing the standard to fit the ruling
+
+**Re-pulled 11:06 ET, USO $117.52** (spot rose from 116.94): `125C 7.10/7.70 (OI 3,737)` · `130C 6.00/6.25 (OI 5,996)` · `135C 4.70/5.35 (OI 4,405)`.
+
+| Structure | Width | Mid | % width | **FULL spread** | **% width** | Leg (b) worst-case |
+|---|---|---|---|---|---|---|
+| `125/135 ×1` | $10 | 2.38 | 23.8% | **3.00** | **30.0%** | ✅ **PASS**, 3.0pp room |
+| `125/130 ×2` | $5 | 1.28 | 25.5% | **1.70** | **34.0%** | ❌ **FAILS by 1.0pp** |
+
+**⇒ The structure BRENT ruled me to build FAILS leg (b) paying the full bid/ask, and passes only at mid (25.5%).** That is PROME's own "coin-flip on execution quality" language for 127/138 yesterday, and PROME graded that MARGINAL.
+
+**I graded the wide at worst-case and called it PASS. Consistency requires grading the narrow the same way — so it fails.** I am not switching to the mid-based reading because it delivers the answer the ruling wants; **that would be relaxing a hard guard to make a preferred structure fit, which the break test forbids by name.**
+
+**⭐ AND THIS IS THE COMPLETED VERSION OF MY §4 FINDING — leg (b) is biased in BOTH directions at once:**
+> **It rewards going further OTM (lower probability), AND it penalizes narrowing the width (higher probability) — because a fixed bid/ask friction is a bigger fraction of a smaller width.** The 125C alone quotes $0.60 wide: that is 6% of a $10 structure and **12% of a $5 one.** So leg (b) systematically disfavours exactly the structures BRENT's payoff math prefers. **That is a stronger argument for his ruling-#1 amendment than the one I originally sent him.**
+
+### C. ⇒ RESOLUTION — make the gate the LIMIT PRICE, which is what a veto should be
+
+**The gate stops being an execution gamble the moment it is the limit.**
+
+| Structure | **Hard limit = the gate** | Work from | Risk at the limit | Max value |
+|---|---|---|---|---|
+| **`125/130 ×2` ← RECOMMENDED (BRENT-ruled)** | **$1.65 net debit** (33.0% of $5) | mid **$1.28** | **$330** | $1,000 |
+| `125/135 ×1` (alternative) | **$3.30 net debit** (33.0% of $10) | mid **$2.38** | $330 | $1,000 |
+
+**If the narrow fills at ≤$1.65, leg (b) is satisfied by construction. If it cannot fill there, there is no trade — and that is a correct outcome, not a miss.** There is genuine room to work between $1.28 and $1.65 on strikes quoting **4.08% (130C)** and **8.11% (125C)** with OI 5,996 / 3,737.
+
+**⚠️ Departure BRENT named against himself and I carry forward: `125/130` puts the short leg at 11.0% OTM against the ratified `~12–15%` band — 1.0pp BELOW it.** The band exists to preserve convexity; moving the short leg closer deliberately trades ceiling for probability. **That is outside a band Will ratified, so neither BRENT nor I may override it. BOTH structures go to Will. If Will holds the short-leg band, `125/135 ×1` stands exactly as built in §4.**
+
+**Secondary but real:** ×2 restores the `NO_HARVEST_RULE` — **sell one at 2×, hold one.** The VIXCS scar should not be re-opened for $30 of ceiling.
+
+### D. Live at 12:20 — nothing here fires anything
+
+**USO $117.52 · WTI $76.95 (−4.22%) · OVX 54.36 (−4.97%).** Still a red day for crude with vol falling — **root rule #6 stays CLEAN.** Leg (a) still ungraded (BRENT's, on the close). **M1−M3 +$3.01 in-progress, still backwardated, no contango flip** — §5 test #1 compressing fast, **not fired.**
+
+## 10. Decision — REVISED
+
+**Proposed (BRENT-recommended):** BUY TO OPEN **2× USO Oct-16-2026 `125C/130C` call debit spread**, **limit $1.65 net debit** (work from $1.28), max loss **$330**.
+**Alternative if Will holds the ~12–15% short-leg band:** **1× `125C/135C`**, limit **$3.30**, work from $2.38.
+
+**Both are conditional on leg (a) firing on the close — BRENT's grade, not mine — and on a leg (b) re-pull at the fill. The gate has NOT fired. Nothing is authorized.**
+
+**APPROVAL REQUIRED — Will must approve/reject before execution.**
+
+---
+*Built by TERRY 2026-08-04 on BRENT's 8/4 ACTION packet (Will-directed: "tell TERRY to price leg (b) first thing tomorrow") + PROME's 8/3 15:30 rulings relay. §9–10 added 12:20 on BRENT's two rulings + his M1−M3 self-correction. Chains: `chain_fetch.py USO 2026-10-16 --type call --no-cache` at 10:30 and 11:06 ET.*
