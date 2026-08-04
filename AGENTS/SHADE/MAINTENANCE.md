@@ -4,6 +4,14 @@ Structural-change log for SHADE architecture: docs/scripts/protocol/schema chang
 
 ---
 
+### 2026-08-03 (eve) — PROME-directed PROXY session: NEXUS_BRIEF stood up; 8/4 grade card pre-registered
+- **Trigger:** PROME-directed proxy run (SHADE dark since 7/27) the night before the Athene Q2 print — NEXUS had flagged the M-11 DUAL-test grade as orphan-risk and `NEXUS_BRIEF.md` as MISSING.
+- **New standing surface:** `NEXUS_BRIEF.md` (first edition) — the CLAUDE.md spawn protocol had deferred it "until STATUS is current"; that deferral is now closed. **Protocol delta for real-SHADE: refresh `NEXUS_BRIEF.md` at every closeout** (read→write-back symmetry), per the VULCAN/CARL schema.
+- **New pre-registration artifact:** `2026-08-04_athene-q2-m11-grade-card.md` — frozen-before-print grade card for the M-11 DUAL test (FABN canary refresh + PRED-CREED-010 mortgage-line check), with numeric bands, source order, NO-VERDICT bands, and a fill-in worksheet. Bands not previously registered are marked DERIVED-TONIGHT with derivations. Lives at SHADE root (dated, single-event); archive to `research/` after the leg-2 FINAL grade lands.
+- **Mail:** 1 root-lane item drained (NEXUS 7/28 seam synthesis) → board_log row + `git mv` to `processed/`. Both lanes CLEAN.
+- **STATUS structural changes:** §0f added (proxy delta + discrepancy log); Last-Updated header prepended. §0d/§0e deliberately NOT retired (PAT-055 retirement left to real-SHADE's own closeout).
+- **Files touched:** `STATUS.md`, `SCRATCH.md` (prepended block only — 7/27 handoff untouched), `MAINTENANCE.md`, `board_log.tsv`, `NEXUS_BRIEF.md` (new), `2026-08-04_athene-q2-m11-grade-card.md` (new), 1 moved inbox file. No other agent's files touched; no outbound packets (the NEXUS ask is answered by the brief itself, which NEXUS reads directly).
+
 ### 2026-07-27 — Catch-up boot: both mail lanes drained; new primary-research artifact; new discovery route recorded (with its limit)
 - **Trigger:** Will catch-up boot (7-day gap). `inbox/WALTER/` had accumulated **10 unprocessed signals** since 7/21 and `inbox/` root held **5** (two of which — DEWEY's double-jeopardy map 21:57 and PROME's weld-2 amendment 22:11 — landed *after* the 7/20 closeout at ~21:30 and had never been seen).
 - **Mail:** all **15** logged to `board_log.tsv` with reasoned dispositions and `git mv`'d to the respective `processed/` dirs. **Both lanes now CLEAN.** Created `inbox/processed/` (did not previously exist for the root lane).

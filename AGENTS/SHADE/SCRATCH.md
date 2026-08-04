@@ -1,4 +1,15 @@
 # SHADE SCRATCH.md — Ephemeral Session State
+
+## ⬆️ 2026-08-03 ~22:00 ET — PROME-DIRECTED PROXY BLOCK (prepended; the 7/27 handoff below is UNTOUCHED and still canonical for thesis state)
+
+**A PROME-directed proxy session staged tomorrow's Athene Q2 M-11 DUAL test the night before the print.** Not a SHADE session — no thresholds, confidences, prices, or thesis state were moved. What it did:
+1. 🔴 **READ FIRST TOMORROW: `2026-08-04_athene-q2-m11-grade-card.md` — FROZEN pre-print.** Both legs banded numerically (leg 1 FABN canary: ≤+48 stable / ≥+58 widening / >250bp-or-pulled-syndication RED; leg 2 mortgage line: Δ≥+$7.0B landed / +$2–7B partial / <+$2B ambiguous-NOT-miss per §2.8; NO-VERDICT bands for missing day-one disclosures). Execute its §4 15-minute procedure, fill §5, board_log row, packets to CREED + NEXUS. **DERIVED-TONIGHT bands may be tightened from the organic-drift check BEFORE reading the print, never after.**
+2. **First `NEXUS_BRIEF.md` created** (NEXUS had reported it missing; board couldn't read SHADE). Refresh it at closeout from now on.
+3. **Inbox: NEXUS 7/28 M-11 seam packet drained** (acted; board_log 2026-08-04T01:48Z row; → `processed/`). Both lanes CLEAN.
+4. **STATUS §0f added** (proxy-session delta + discrepancy log vs coordination-layer framing). §0d/§0e NOT retired — PAT-055 retirement is real-SHADE's own closeout call.
+5. ⚠️ **STILL OWED, in order: ① 8/4 grade card execution → ② ARCC Q2 pre-reg grade (print 7/29, 5 days overdue) → ③ leg-2 FINAL from ATH 10-Q when filed → ④ Egan-Jones 8/12.** Item 0a of the 7/27 NEXT SESSION list below is exactly the 8/4 task and is now fully staged.
+
+---
 **Rewritten:** 2026-07-27 ~14:15 ET (Will catch-up boot, Monday — 7-day gap: 15-item mail drain [both lanes CLEAN] + Delaware Life restatement pulled to PRIMARY + vector #1 moved to FIRING + live tape refreshed + one negative result that keeps the Athene wall standing)
 **Amended:** 2026-07-27 ~19:45 ET — **post-crash re-boot. NOTHING WAS LOST.**
 **CLOSED OUT:** 2026-07-27 ~23:10 ET — Will-directed (final). *(Two earlier closeouts at ~22:10 and ~22:45 were reopened — the first for the FABN canary rebuild, the second for 3 packets that landed after the commit. Both lanes clean at final.)*
