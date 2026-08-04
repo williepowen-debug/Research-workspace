@@ -71,6 +71,40 @@ Day colour is a cheap, fast stand-in for that question. It is not the question i
 - Match expiry to catalyst + confirmation lag; avoid buying too little time for slow-moving credit theses.
 - If the trade needs a roll to work, the roll rule must be part of the original plan.
 
+## Durable findings — EMBEDDED FROM AUTO-MEMORY 2026-08-04
+
+*Phase-2 three-tier memory restructure (Will-approved 7/28; PROME embed packet 7/31). These 13 rows no longer auto-load at boot — **they live here because this is the file that gets opened under pressure and `MEMORY.md` is not.** Same reason the root-rule-#6 break test was promoted here on 7/27. `[[slug]]` links point at the memory files, which are unchanged.*
+
+### Capital & deployment
+
+1. **Deploy on a fired trigger, never on the calendar.** Will deploys fresh capital **only** on a fired trigger — never on mechanical book-maintenance. Funds are limited; **preserving dry powder is a position.** `[[feedback_deploy_on_trigger_not_calendar]]`
+2. **A cooldown gate is not uniform — MAIN arm vs HEDGE.** A vol/cooldown gate blocks fresh **main-arm** capital (paying vega on a new directional bet). It does **not** automatically block a small **pre-approved, defined-risk hedge** with fixed max loss. Different economics, different gate applicability — say which one you are applying. `[[finding_cooldown_gate_differential_main_vs_hedge]]`
+3. **Two-stage fill approval.** Will **[Approve in principle]** unblocks TERRY's live re-mark work; the final Will **[Approve]** on the one-line ticket is the actual execute authorization. Preserves rule #5 at lower Will-attention cost per stage. **Stage one is never permission to fill.** `[[finding_fill_in_principle_vs_final_approve_pattern]]`
+
+### Marks, basis & position truth
+
+4. **Position cost-basis and P/L from a state file are NOT authoritative.** Confirm with Will. Recorded fills can be wrong and have failed to reconcile. `[[feedback_position_cost_basis_not_authoritative]]`
+5. **Option marks carried forward in state files go phantom.** Pull the **live chain** (last/bid/ask) at every decision point and sanity-check against moneyness and DTE. This is Non-Negotiable #3 with a named failure mode. `[[finding_option_marks_need_live_chain]]`
+6. **Grade execution only against SAME-TIMESTAMP marks.** Comparing a fill to marks pulled at a different time in a moving market **manufactures a fake execution finding.** Establish the fill timestamp **first**, then compare like with like. *(This rule exists because I published a behavioural conclusion about my own limit-setting, n=2, built entirely on a 21-minute timestamp gap. n was actually 0.)* `[[finding_grade_execution_only_against_same_timestamp_marks]]`
+
+### Structure & vehicle selection
+
+7. **Match the vehicle to the OPEN transmission channel.** In a regime-suppressed tape (low VIX, tight spreads, gamma damping), single-name equity puts **bleed even when the thesis validates on substance.** A duration expression of the same view (TLT puts when the long-rate channel is open) **compounds** instead. `[[feedback_put_vs_duration_expression]]`
+8. **The variance-risk-premium collapse is NOT uniform — long-put tails split by asset class.** Rates (TLT) pay the **full** vol tax; single names (HBAN) are structurally **cheap except into earnings**. Use when pricing or justifying any long-premium tail. `[[finding_vrp_split_rates_vs_singlename]]`
+
+### Management & exits
+
+9. **★ Every profit zone needs its own harvest rule.** Management triggers keyed to the move going **further** leave **no rule that fires when the position is merely profitable.** Add a **P/L-keyed harvest** — and check the trigger variable is one the **profit zone actually reaches.** *(This is `NO_HARVEST_RULE`, Will-ruled fleet-wide 7/31. It is the root cause of the desk's only realized loss: −$111.60 on `TRY-VIOLET-VIXCS`, where every §6 trigger was keyed to spot going further and none to being in profit.)* `[[finding_profit_zone_needs_its_own_harvest_rule]]`
+10. **Surface the MARK before recommending a cleanup exit.** When recommending cleanup of near-dated theta-killers, state the execution mark first (vol regime, IV percentile, spot vs recent range). **At an unfavourable mark, propose a pre-registered window-trigger with backstop dates — not a mechanical close-now.** `[[feedback_exit_recommendations_need_mark_context]]`
+11. **A collapsed conditional leg means the stop is DISARMED — that is a risk-control gap, not a sizing question.** When a hard trigger's conditional leg goes permanently true/false after a binary event (e.g. an AND-condition leg collapses post-BOJ), the stop is **functionally disarmed** and needs immediate re-spec. ⚠️ **"No sizing recommendation yet" must never quietly mean "ride unprotected."** *(Will, 2026-06-18, on SAM's post-BOJ AND-stop collapse — he distinguished the two explicitly.)* `[[finding_risk_control_separate_from_sizing]]`
+12. **A fired kill-switch is held, not re-litigated.** When a pre-registered kill-switch fires against a framework that was paying: **hold the verdict**, log the counterfactual cost as a **datum on the switch**, and queue refinements for the next calibration pass. **Never retro-apply.** `[[finding_registered_killswitch_cost_datum]]`
+
+### Ledger hygiene
+
+13. **Demote a dormant ledger by verification, not by assumption.** Before freezing an agent ledger: verify **live consumers** and **cross-agent counterparties** first; triage by **Group, not ID-range**; use `UNVERIFIED-RETIRED` for LLM-sourced rows; and **re-verify your correction's own provenance.** `[[finding_workbook_demote_by_verification]]`
+
+---
+
 ## Postmortem Tags
 
 Use these in `POSTMORTEMS.md`:

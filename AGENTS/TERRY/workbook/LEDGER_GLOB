@@ -1,0 +1,6 @@
+# LEDGER_GLOB — ledger locations for scripts/ledger_staleness.py (PAT-075 / TERRY-S1 mechanism).
+# DO NOT DELETE: this file IS the enforcement wiring. TERRY's ledgers live at top
+# level + daytrading/ by design (path-referenced across 5 surfaces; moving them
+# to satisfy a scanner would be backwards — DAEDALUS audit 2026-07-30 S1).
+*.tsv
+daytrading/*.tsv
