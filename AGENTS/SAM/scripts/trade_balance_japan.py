@@ -451,6 +451,35 @@ def selftest():
 
 # ---------------------------------------------------------------- main
 
+def next_scheduled_release():
+    """Next Japan-TB event from docket/CATALYSTS.tsv — the maintained dated feed
+    catalyst_countdown.py already reads. Resolved at RUN TIME, never hardcoded:
+    a literal date here goes stale silently and still exits 0, which is exactly
+    what this replaced (a frozen "Next: May provisional Wed Jun 17" that was
+    still being printed in August, for a release already in the TSV).
+    Returns a display string, or None if the docket carries no future TB row."""
+    cat = SAM_DIR / "docket" / "CATALYSTS.tsv"
+    if not cat.exists():
+        return None
+    today = jst_today().isoformat()
+    best = None
+    try:
+        with open(cat) as f:
+            f.readline()  # header
+            for line in f:
+                parts = line.rstrip("\n").split("\t")
+                if len(parts) < 2:
+                    continue
+                d, event = parts[0].strip(), parts[1].strip()
+                if "trade balance" not in event.lower() or d < today:
+                    continue
+                if best is None or d < best[0]:
+                    best = (d, event)
+    except OSError:
+        return None
+    return f"{best[1]} — {best[0]} 08:50 JST" if best else None
+
+
 def expected_latest_month():
     """Most recent statistic month whose provisional could exist. Provisional
     lands ~mid/late following month — probe (today − 1mo) then (today − 2mo)."""
@@ -558,8 +587,10 @@ def main():
     if not found_new:
         latest = sorted(tsv_rows().keys())
         latest_str = f"{latest[-1][0]} ({latest[-1][1]})" if latest else "none"
-        print(f"  ⚪ No new trade-balance release. Latest in TSV: {latest_str}."
-              f"  Next: May provisional Wed Jun 17 08:50 JST (~7:50 PM ET Tue Jun 16).")
+        nxt = next_scheduled_release()
+        nxt_str = (f"  Next: {nxt}." if nxt
+                   else "  Next: no future Japan-TB row in docket/CATALYSTS.tsv.")
+        print(f"  ⚪ No new trade-balance release. Latest in TSV: {latest_str}.{nxt_str}")
     print()
     return 0
 

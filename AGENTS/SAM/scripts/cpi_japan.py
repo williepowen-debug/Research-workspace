@@ -291,24 +291,60 @@ def print_summary_for(series_name, by_month):
     return vals
 
 
-def print_comparison_note(nat_latest, tok_latest):
-    """If both series available for same month or adjacent months,
-    print the National-vs-Tokyo comparison line."""
-    if not nat_latest or not tok_latest:
+def print_comparison_note(nat_by_month, tok_by_month):
+    """Tokyo-vs-National core-core. Two DIFFERENT figures share that name —
+    print both, each labelled with its own basis, so neither can be restated
+    as the other:
+
+      PAIRED — same reference month in BOTH series. This is the canonical
+               "Tokyo vs National gap" (KB-169). Only this one is a gap.
+      LEAD   — Tokyo's newest month, which National has not published yet.
+               Tokyo leads National by ~1 month BY CONSTRUCTION, so this is a
+               leading read. Differencing it against an older National month
+               manufactures a number that collides with PAIRED.
+
+    Fixed 2026-08-04. Before: this took the two *latest* value-dicts — the
+    reference month was discarded by print_summary_for, so the same-month
+    check the old docstring promised was structurally impossible — differenced
+    them whatever months they were, and labelled the result a gap. On
+    2026-08-04 that printed +0.3pp (Tokyo Jul 2.0 vs National Jun 1.7) while
+    the canonical paired figure was +0.2pp (Tokyo Jun 1.9 vs National Jun 1.7).
+    """
+    if not nat_by_month or not tok_by_month:
         return
-    n_cc = nat_latest.get("core_core")
-    t_cc = tok_latest.get("core_core")
-    if n_cc is None or t_cc is None:
-        return
-    diff = t_cc - n_cc
-    # Tokyo running below National by ~30-40bp historically; flag if it inverts
-    if diff < -0.2:
-        note = f"Tokyo {diff:+.1f}pp below National core-core — expected pattern (~30-40bp gap)"
-    elif diff > 0.1:
-        note = f"⚠️ Tokyo {diff:+.1f}pp ABOVE National core-core — pattern inverted, leading-indicator hawkish"
+
+    def cc(by_month, month):
+        return (by_month.get(month) or {}).get("core_core")
+
+    def months_with_cc(by_month):
+        return [m for m in by_month if cc(by_month, m) is not None]
+
+    # --- PAIRED: latest month carrying core-core in BOTH series (ISO YYYY-MM sorts)
+    common = sorted(set(months_with_cc(nat_by_month)) & set(months_with_cc(tok_by_month)))
+    if common:
+        m = common[-1]
+        n_cc, t_cc = cc(nat_by_month, m), cc(tok_by_month, m)
+        diff = t_cc - n_cc
+        # Tokyo runs ~30-40bp BELOW National historically; flag an inversion.
+        if diff < -0.2:
+            note = f"Tokyo {diff:+.1f}pp BELOW National — expected pattern (~30-40bp)"
+        elif diff > 0.1:
+            note = f"⚠️ Tokyo {diff:+.1f}pp ABOVE National — pattern INVERTED, leading-indicator hawkish"
+        else:
+            note = f"Tokyo {diff:+.1f}pp vs National — narrower than the typical 30-40bp; Tokyo softness closing"
+        print(f"  ℹ️  PAIRED {m} core-core (Tokyo {t_cc:.1f} / National {n_cc:.1f}): {note}")
     else:
-        note = f"Tokyo gap {diff:+.1f}pp — narrower than typical 30-40bp; Tokyo softness may be closing"
-    print(f"  ℹ️  {note}. (CALENDAR <1.9% trigger applies as <1.95% for Tokyo.)")
+        print("  ℹ️  PAIRED core-core: no reference month published in both series — no gap figure this run.")
+
+    # --- LEAD: Tokyo ahead of National. Explicitly NOT a gap.
+    nat_months, tok_months = months_with_cc(nat_by_month), months_with_cc(tok_by_month)
+    if nat_months and tok_months:
+        nat_max, tok_max = max(nat_months), max(tok_months)
+        if tok_max > nat_max:
+            print(f"  ℹ️  LEAD {tok_max} Tokyo core-core {cc(tok_by_month, tok_max):.1f} "
+                  f"— National {tok_max} unpublished (latest {nat_max}). "
+                  f"Leading read, NOT a gap: do not difference across months.")
+    print("      (CALENDAR <1.9% trigger applies as <1.95% for Tokyo.)")
 
 
 
@@ -424,9 +460,11 @@ def main():
             }
 
     print()
-    nat_latest = print_summary_for("National", nat_data)
-    tok_latest = print_summary_for("Tokyo   ", tok_data)
-    print_comparison_note(nat_latest, tok_latest)
+    print_summary_for("National", nat_data)
+    print_summary_for("Tokyo   ", tok_data)
+    # Pass the full by-month maps, not the latest value-dicts: the comparison
+    # needs reference months to tell a PAIRED gap from a LEAD read.
+    print_comparison_note(nat_data, tok_data)
 
     print()
     return 0
