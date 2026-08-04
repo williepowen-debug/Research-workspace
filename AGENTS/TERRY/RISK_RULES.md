@@ -105,6 +105,27 @@ Day colour is a cheap, fast stand-in for that question. It is not the question i
 
 13. **Demote a dormant ledger by verification, not by assumption.** Before freezing an agent ledger: verify **live consumers** and **cross-agent counterparties** first; triage by **Group, not ID-range**; use `UNVERIFIED-RETIRED` for LLM-sourced rows; and **re-verify your correction's own provenance.** `[[finding_workbook_demote_by_verification]]`
 
+### Gates & grading cadence
+
+14. **★ SEPARATE A STRUCTURE PROPERTY FROM A MOMENT PROPERTY, AND GRADE EACH ON ITS OWN CLOCK.**
+
+    | | Examples | When to grade |
+    |---|---|---|
+    | **Structure property** — a fact about the trade | strike exists in the expiry · two-sided quotes / OI · quote sanity (no `LOCK`/`XSD`/`DEAD`/`NOBID`) · moneyness band · tenor in spec · max loss | **any time.** Stable. |
+    | **Moment property** — a fact about *now* | net debit · debit as % of width · IV · spread% · mark · R:R at the current price | **ONCE, at fire.** |
+
+    **On a multi-leg `AND` gate whose legs resolve at different times, the early leg is assessed for READINESS before fire, and its VALUE is graded once — at the moment the last leg resolves.** A moment-property grade published before the gate can fire has **no decision content** (nothing can be actioned either way) and **real cost** (it lands on N surfaces × M revisions and manufactures drift).
+
+    🔴 **The incident, 2026-08-04.** `TRY-BRENT-USOARM` leg (b) — net debit ≤33.0% of width — was graded **five times in one morning by three agents** while leg (a) could not resolve until the 16:15 close: **27.0 → 34.0 → 38.0 → 26.0 → 31.0**, i.e. **three FAILs and two PASSes on the same structure.** ★ **Had anyone acted on PROME's 11:38 read of `38.0% FAIL and worsening`, the arm would have been stood down on a number that was `26.0%` forty-six minutes later.** Nothing was mis-measured — every grade was correct *at its timestamp*. **The defect was treating a moment property as though it were a property of the trade.**
+
+    **Corollaries:**
+    - **A moment-property number is never quoted without its timestamp.** "Leg (b) = 26.0%" is not a fact about the trade; "26.0% on the 12:24 chain" is.
+    - **Do not chase it.** If the number moves after you have recorded it, that is the number behaving normally — **re-writing the card to the newest print is the very behaviour that caused the drift.**
+    - **A gate spec that tests a moment property must name its measurement moment** (this one does: *"live chain **at fill**"*). If it does not, that is a spec defect to route to its owner, not to resolve by picking a moment.
+    - **Empirical half-life at this desk: ~40 minutes.** Leg (b) moved **5.0pp in 37 minutes** on 8/4. Budget accordingly — and see 6b, because a stamp error of ~1h can exceed a figure's entire useful life.
+
+15. **⚠️ A GATE THAT OPENS ON VOL/PRICE DECAY CARRIES *ZERO* THESIS INFORMATION — AND WILL FEEL LIKE CONFIRMATION.** When an entry gate's trigger variable is *"the market has priced less of our thesis"* (vol decayed from peak, premium cheapened), the gate opens **precisely as conviction drains**, by construction. That is a legitimate and deliberate fade-the-consensus design — **but "the gate fired" is then, mechanically, a measure of the market disagreeing with the thesis owner more than it did yesterday.** ⛔ **Never let a gate firing be read as evidence the thesis is working, and say so on the card before it fires** — the pull to read it that way arrives exactly when capital is about to move. *(8/4: USO leg (a)'s cushion widened 2.5% → 7.3% on the same morning BRENT cut his own dip confidence 88% → 85%. Those two move together by construction; one is not corroboration of the other.)*
+
 ---
 
 ## Postmortem Tags

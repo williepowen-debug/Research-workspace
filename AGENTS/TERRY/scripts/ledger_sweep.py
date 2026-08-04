@@ -502,6 +502,27 @@ def check_superseded_drift(pairs: set[tuple[str, str]], surfaces: dict[str, str]
 # scheduled obligation this desk carries — "8/7 15:30 COT", "leg (a) grades ~16:15"
 # — and an alarm that fires on the normal state stops being read. That failure mode
 # has already cost this desk twice (mark_asof's "STALE 10bd", boot.py's "0 of 15").
+#
+# 🔴 THE GAP IS NOT THEORETICAL, AND IT IS THE COMMON CASE — DEMONSTRATED WITHIN
+# THE HOUR. Writing the card section that adopts RISK_RULES #14, I stamped its
+# footer "§12 added 13:35" at a wall clock of 13:32. A future stamp, inferred
+# rather than read, in the very commit that adds the rule against inferring them —
+# and this check ran CLEAN over it, because "13:35" sits nowhere near a date token.
+#
+# ⇒ Structured stamps (banner headers, packet `Sent:` lines, card `Date:` /
+#   `Chain pulled:`) ARE date-adjacent and ARE caught. Free-prose stamps
+#   ("§12 added 13:35", "re-marked at 11:30", "Live at 12:20") are NOT, and they
+#   are the majority of what actually gets written. Treat coverage as
+#   "structured stamps only" and do not read a clean E as "no skew".
+#
+# QUEUED, NOT BOLTED ON: the plausible extension is to allow adjacency to an
+# AUTHORING VERB ("added|written|sent|pulled|stamped|recorded") as well as to a
+# date — "§12 added 13:35" has the verb 7 chars away, while the live false
+# positive "…GRADED BY TERRY — …on the close ~16:15" has its verb ~50 chars away,
+# so adjacency would still do the work. It is deliberately NOT implemented here:
+# v1 of this check shipped a lexical rule that passed 11 selftests and then broke
+# on live data, and bolting a second lexical rule on under a 16:15 gate is how
+# that happens twice. Extend it with the live ledger in hand, not in a hurry.
 
 STAMP_WORDS = (
     "updated", "sent:", "current state", "chain pulled", "as-of", "asof",

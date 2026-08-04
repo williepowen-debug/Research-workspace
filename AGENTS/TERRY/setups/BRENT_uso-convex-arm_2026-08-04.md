@@ -300,5 +300,43 @@ It is **monotone-tightening by construction** — it can only ever lower the lim
 **APPROVAL REQUIRED — Will must approve/reject before execution.**
 
 ---
-*Built by TERRY 2026-08-04 on BRENT's 8/4 ACTION packet (Will-directed: "tell TERRY to price leg (b) first thing tomorrow") + PROME's 8/3 15:30 rulings relay. §9–10 added on BRENT's two rulings + his M1−M3 self-correction; §11 added 12:24 on his size ruling + a fresh chain. Chains: `chain_fetch.py USO 2026-10-16 --type call --no-cache` at 10:30, 11:06 and 12:22/12:23/12:24 ET.*
+
+## 12. 🔴 TWO GRADING RULES ADOPTED BEFORE THE CLOSE — READ BOTH BEFORE ACTING ON LEG (a)
+
+### A. **LEG (b) WILL NOT BE RE-GRADED BEFORE FIRE. THIS CARD'S 26.0% IS DATED, NOT STALE.**
+
+Leg (b) was graded **five times this morning by three agents**, while leg (a) could not resolve until the 16:15 close:
+
+| Time | Grader | `125/130 ×2` worst case | Verdict |
+|---|---|---|---|
+| 10:30 | TERRY | *(wide only)* | — |
+| 11:06 | TERRY | 34.0% | ⛔ FAIL |
+| 11:38 | PROME | 38.0% | ⛔ FAIL "and worsening" |
+| **12:24** | **TERRY** | **26.0%** | ✅ **PASS** |
+| 13:01 | TERRY *(incidental, `--legs` test)* | 31.0% | ✅ PASS |
+
+**Every one of those was correct at its timestamp. Not one of them could be acted on**, because the gate is `(a) AND (b)` and (a) does not exist until the close.
+
+★ **Had anyone acted on the 11:38 `38.0% FAIL and worsening`, this arm would have been stood down on a number that was `26.0%` forty-six minutes later.** The debit moved **5.0pp in 37 minutes**; its empirical half-life at this desk is **~40 minutes.**
+
+**⇒ `RISK_RULES.md` #14 adopted: net debit is a MOMENT property, not a structure property.** What is stable and *is* graded now — strikes exist, OI 3,737 / 5,996, two-sided quotes, quote sanity clean on both legs, tenor and size in spec — is **READINESS, and it PASSES.** The **value** gets one grade, **at fire**.
+
+⛔ **So: do not "update" this card to the newest print. Chasing the number is the behaviour that caused this morning's drift.** The fire-time invocation is:
+```
+python3 AGENTS/TERRY/scripts/chain_fetch.py USO 2026-10-16 --type call --no-cache --legs 125,130
+```
+**It exits 2 if either leg is locked/crossed/dead/no-bid — the guard that did not exist at 12:22 this morning.**
+
+### B. ⚠️ **IF LEG (a) FIRES ON THE CLOSE, THAT IS NOT EVIDENCE THE THESIS IS WORKING. IT IS THE OPPOSITE, BY CONSTRUCTION.**
+
+Leg (a) fires when **OVX has decayed ≥15% from its peak.** Leg (b) got easier because **USO fell another 5%.** Both legs open **as the market prices *less* of BRENT's supply-loss thesis.**
+
+**That is the design, and it is a good one** — this is a deliberate fade of de-escalation, so of course the entry cheapens as conviction drains. **But it means the gate firing carries ZERO thesis information.**
+
+> **On the same morning: leg (a)'s cushion widened `2.5% → 7.3%` while BRENT cut his own dip confidence `88% → 85%`. Those two moved together by construction. One is not corroboration of the other.**
+
+⛔ **Written here BEFORE the close deliberately, because the pull to read a firing gate as confirmation arrives exactly when capital is about to move** — and the tape has now voted against this thesis three consecutive sessions. **The thesis case must stand on BRENT's evidence (the curve refusing to flip to contango, the physical leg, the tolled-corridor reading), never on the fact that his entry got cheap.** *(`RISK_RULES.md` #15. Construction-side observation about the GATE's information content — not a re-underwriting of the oil thesis, which is BRENT's and is not mine to grade.)*
+
+---
+*Built by TERRY 2026-08-04 on BRENT's 8/4 ACTION packet (Will-directed: "tell TERRY to price leg (b) first thing tomorrow") + PROME's 8/3 15:30 rulings relay. §9–10 added on BRENT's two rulings + his M1−M3 self-correction; §11 added 12:24 on his size ruling + a fresh chain; §12 added **13:32** (grading cadence + gate-information; time read from `date`, and it was **13:35 as first written** — a future stamp, in the commit that adds the rule against them). Chains: `chain_fetch.py USO 2026-10-16 --type call --no-cache` at 10:30, 11:06 and 12:22/12:23/12:24 ET.*
 *⚠️ **Timestamp note:** §9's "12:20" and §10's stamps were written ~11:11 wall-clock and run ~+69 min fast (see STATUS ④). §11's times are `date`-verified. Earlier stamps left as written rather than silently rewritten.*
