@@ -1,7 +1,9 @@
 # NEXUS LAST COMPLETION
-**Session:** 2026-08-03 Mon ~5:45–~7:00 PM ET (Will-direct boot, **1 unit**: 3-day re-anchor off the 7/31 pass). *Prior session (7/31, 5 units incl. the fleet brief audit + COT pass) → git history of this file.*
+**Session:** 2026-08-03 Mon ~5:45 PM – ~11:55 PM ET (Will-direct boot, **7 units**: 3-day re-anchor · follow-through · 4 workflow changes · late-mover delta · 2 more changes + freeze · coherence sweep · closeout). *Prior session (7/31, 5 units incl. the fleet brief audit + COT pass) → git history of this file.*
 
 ## Headline: split 27/35/38 → **25/37/38** — Grind takes the tape and a new **two-sovereign policy floor under the yen**; Break gives up oil and the FL bank rail; **Unresolved deliberately HELD, because five instruments went dark in the week the exam opens** (T-19)
+
+> **Second headline, and it is the one worth reading first:** the analytical pass was the *smaller* half. The evening's durable output is **six `CLAUDE.md` behavior changes, three auto-memories, a registered falsifier for the split, and a coherence sweep that found three real defects — two of them older than tonight.** Every change traces to something that measurably failed in-session. **Three of the six have executed once or not at all**, which is why the pass ends with a declared **spec freeze until 8/12** and two inbound critiques deliberately left unadjudicated.
 
 ## Boot
 Origin **0/0 synced, no pull needed**. `AGENTS/TERRY/PAPER_BOOK.tsv` dirty and outside my dir — TERRY's session ran 15:13 today ⇒ **in-flight, not orphaned** (`[[finding_dirty_path_means_in_flight_not_orphaned]]`); left untouched. Multi-day re-anchor path taken first (fleet-wide `git log -1` over 38 STATUS + 25 briefs) — moved since 7/31: WALTER · BRENT · TERRY · SAM · ZHAO · OTTO · CORAL · CARL · AEOLUS (8/3) + ORACLE · FALCON (8/2). Brief census **25/25 on disk**, unchanged.
@@ -161,6 +163,21 @@ Carried unverified since March, in-window now, flagged 7/31, on my owes-list twi
 **I added three protocol steps tonight** (9b, 9c, the step-16 sub-bullet). Honest self-assessment: 9c and the step-16 item *are* attachments to existing sites (9c is the closeout mirror of boot 6's scan, per the file's own symmetry framing; step 16 already existed) — but **9b is a genuinely new step, and none of the three has any invocation register, so nothing verifies they actually RUN.** That is the same defect one level up from the one they were built to fix, and it is a fair hit. **Queued, not acted on** — the freeze holds and nothing publishes tonight.
 
 **Two inbounds now queued for next boot:** VULCAN's **L-15** (relayed-figure caveat-stripping — sharpens Disc-G) and DAEDALUS's **unwired-check principle** (asks whether tonight's steps should be attachments or registry rows rather than new protocol text). **Both are challenges to work done tonight; neither gets folded same-night.**
+
+---
+
+# UNIT 7 — CLOSEOUT (~11:50 PM ET). **9b caught a live gap on its first real run — my own new rule, unapplied to the row that generated it.**
+
+**9b (cross-surface STATE check) — FIRST REAL RUN, AND IT FIRED.**
+- **C-36 CONTESTED** → present on **both** surfaces (STATUS ×7, `CONFIRMED.md` ×1). ✅ propagated.
+- **C-05 STUCK / re-spec** → 🔴 **FAILED THE CHECK.** The re-spec'd forward leg — instrument, threshold, NO-VERDICT band, resolve date — **existed only inside the `CONFIRMED.md` row.** `PREDICTIONS_MONITOR.md`'s only C-05 mention was **PRED-02, the Wave-1 leg that fired**. So tonight's own rule (*"CONFIRMED holds fired legs only; forward legs go to PREDICTIONS_MONITOR"*) **was not applied to the very row that generated it** — I re-spec'd it *in place* instead of moving it, which is the same defect in a better costume. **FIXED:** the leg is now **PRED-48** in the ACTIVE/FORWARD-LOOKING table (frozen baseline CA 1.9 / NY 1.7 [w/e 7/11], precondition ✅ / observable ❌, ~25%, resolves 10/01), and C-05 is reduced to its **two fired legs plus a pointer**, with a `do not re-inline` warning documenting the defect.
+- ⇒ **9b earned itself on run one, against its own author.** That is the strongest evidence available that the step is real rather than ceremonial.
+
+**Remaining closeout steps:** **9** STATUS sanity ✓ (**178/200**; threshold table correctly ordered BREACHED→PROXIMATE→NOT CONFIRMING at lines 101/113/121; Δ-convention held — no row bumped without a material move; docket rebuilt 8/4→9/22; all newly-cited paths existence-checked incl. the new prereg file). **9a** rollup #3 ✓ (run in unit 1: 19 `stale` / 1 structural `brief-gap` ⇒ **zero brief-quality defects, 2nd consecutive**; forward test set for #4). **9c** ✓ (final scan clean — no movers since `9553217d3`). **10** PREDICTIONS ✓ (nothing moved past-trigger; the 8/3 pass block + 7/28 archive prune done in unit 1; **PRED-48 added this unit**). **11** inbox ✓ — **all lanes EMPTY** (3 items processed: 2 PROME + the earlier WALTER pair). **12** outbox ✓ empty-by-design. **13** signals archive ✓ (7/28 pass block archived). **14** promotion scan ✓ — **2 auto-memories** (`finding_count_what_published_before_reading_the_verdict`, `finding_live_claim_in_a_closed_container_is_invisible`, `finding_push_train_hides_a_failed_commit` = **3**), both index checks passing `--slug`-scoped. **15** this file. **16** git + **post-push verification** (the step added tonight — ran clean on its own first use).
+
+**Session shape: 7 units.** 3-day re-anchor → follow-through (falsifier + C-36 fix + TERRY root count + C-05) → 4 workflow changes → late-mover delta (3 errors) → 2 more workflow changes + freeze → coherence sweep (3 defects, 2 older than tonight) → closeout (9b's first catch).
+
+**🛑 The freeze stands and is now load-bearing:** six `CLAUDE.md` behavior changes tonight, **three of which have still executed exactly once or not at all.** Two inbounds queued rather than folded (VULCAN L-15 · DAEDALUS unwired-check principle) — **both are critiques of tonight's work, which is exactly why they should not be adjudicated tonight.**
 
 ## Blockers / carry-forward (next boot owes)
 1. **Credit re-pull the instant FRED answers** — DISH-guard unresolved; if still dark, chase the LIQUID packet.
