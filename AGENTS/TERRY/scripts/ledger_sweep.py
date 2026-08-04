@@ -95,9 +95,46 @@ DRIFT_SURFACES = [
 # The (?<!-) guards matter: "GATE-CLOSED/ADJUDICATION-PENDING" describes the GATE, not the
 # card, and "0-fired" is a count. A hyphenated compound is a different noun — reading the
 # state out of one is the substring error this whole script exists to prevent.
+#
+# 🔴 `DEAD` WAS MISSING UNTIL 2026-08-04, and its absence is why the TRY-FIRE-005
+# defect survived. On 8/4 `SETUPS.tsv` read `CONDITIONAL || SHELVED` while
+# `INDEX.md` read `🔴 DEAD — terminal, killed by its own kill rule`. SHELVED parsed;
+# DEAD did not. Check A needs >=2 surfaces carrying a state to compare, so with one
+# side parsing to None it returned ZERO findings — and printed ✓.
+# ★ An unknown state word does not make a surface DISAGREE; it makes the surface
+#   VANISH. The more terminal and unusual the state, the likelier it drops out —
+#   exactly backwards from where the risk is. See check F, which now catches the
+#   general case so the next missing word is found without knowing it in advance.
 STATES: list[tuple[str, str]] = [
     (r"NO\s+AT\s+THIS\s+PRICE", "NO_AT_THIS_PRICE"),
+    # ⚠️ TRAILING guard too, and it was needed IMMEDIATELY. Adding DEAD with only the
+    # leading `(?<!-)` produced a false positive on its FIRST live run: TRY-FIRE-007's
+    # INDEX cell reads "005 is DEAD-terminal per its own kill rule" — a state word
+    # about a DIFFERENT card — and DEAD outranks CONDITIONAL, so 007 was reported as
+    # disagreeing with itself. `(?!-)` clears it while 005's own cells still parse
+    # ("DEAD —" em-dash, "DEAD (terminal)", "DEAD / TERMINAL"). This is the same
+    # hyphenated-compound class this block already warns about for GATE-CLOSED.
+    # 🔴 KNOWN, NOT FIXED: the general case is CROSS-CARD LEAKAGE — any cell that
+    #    discusses another card can donate that card's state word here, and priority
+    #    order then lets the most TERMINAL word win regardless of whose it is. It is
+    #    pre-existing and broader than DEAD; recorded rather than papered over.
+    (r"(?<!-)\bDEAD\b(?!-)", "DEAD"),
     (r"(?<!-)\bCLOSED\b", "CLOSED"),
+    # 🔴 DELIBERATELY *NOT* ADDED: SUPERSEDED / EXPIRED / PENDING / APPROVED / PROPOSED /
+    # REJECTED / DRAFT — TRADE_BOOK.md's own documented Status Values. I added all seven
+    # to clear a check-F finding and it REGRESSED the sweep on its first run:
+    # TRY-BRENT-USOARM began reporting SUPERSEDED, because that card's header contains the
+    # ordinary English "✅ SUPERSEDED by the 12:24 chain" — a claim about a stale GRADE,
+    # not about the card — and SUPERSEDED outranked its real CONDITIONAL.
+    # ★ THE RULE THIS BUYS: this vocabulary may only contain words this desk uses AS A
+    #   STATE CLAIM. Those seven double as ordinary prose verbs in almost every cell we
+    #   write, so admitting them trades a silent MISS for a confident WRONG ANSWER —
+    #   strictly worse. Widening the vocabulary to clear a finding is the same move as
+    #   widening COMPATIBLE, which this file forbids by name.
+    # ⇒ The correct response to a check-F finding is to fix the SURFACE or the EXTRACTOR
+    #   (as was done for TRADE_BOOK's column index and the card-dialect regex), or to
+    #   leave it flagged for a human. Check F's job is to SURFACE unreadable claims, never
+    #   to be silenced by teaching the parser to guess.
     (r"\bLAPSED\b", "LAPSED"),
     (r"\bRETIRED\b", "RETIRED"),
     (r"\bPARKED\b", "PARKED"),
@@ -188,10 +225,35 @@ def cards_from_text(name: str, text: str) -> tuple[str | None, str | None]:
     """(setup_id, current verdict cell) from a card file. FIRST verdict line only."""
     m = re.search(r"\*\*Setup ID:\*\*\s*`?([A-Z0-9-]+)`?", text)
     sid = m.group(1) if m else None
-    v = re.search(r"\*\*Terry verdict[^*]*:?\*\*\s*:?\s*(.+)", text)
-    if not v:
-        v = re.search(r"\*\*Terry verdict[^:]*:\s*(.+?)\*\*", text)
-    return sid, (v.group(1).strip() if v else None)
+    # TWO CARD DIALECTS, and the order matters. Found 2026-08-04 by check F.
+    #   (i) label-then-verdict:  **Terry verdict:** 🟡 **CONDITIONAL — …**
+    #  (ii) verdict-INSIDE-bold: **Terry verdict (2026-07-17): CONDITIONAL — …**
+    # The old code tried (i) first with `[^*]*` after the label, which on a dialect-(ii)
+    # card happily ran THROUGH the verdict to the closing `**` and captured the PROSE
+    # AFTER IT. `TRY-FIRE-004`'s card returned "What improved vs the 7/16 NO-ADD: …" as
+    # its verdict — parsing to no state, so 004's card silently contributed nothing to
+    # check A. Same signature as the other two 8/4 bugs: a surface present in the
+    # output, absent from the comparison, under a green tick.
+    # ⚠️ ANCHOR AT THE FIRST OCCURRENCE, THEN PICK THE DIALECT — never the reverse.
+    # My first attempt ordered the two patterns by SPECIFICITY and searched the whole
+    # document with each in turn. That instantly broke the diesel card: its CURRENT
+    # verdict is dialect (i) at line 6 ("NO AT THIS PRICE … *(current, as of 7/30)*"),
+    # but a dialect-(ii) line 149 lines further down ("**Terry verdict: CONDITIONAL —
+    # thesis confirmed…**", dated history) matched first and won. A whole-document
+    # search silently reorders the file's own governing convention — FIRST verdict is
+    # current, later ones are history — which is the one rule this extractor exists to
+    # implement. Locate the first label, then decide which dialect it is.
+    head = re.search(r"\*\*Terry verdict", text)
+    if not head:
+        return sid, None
+    tail = text[head.start():]
+    for pat in (r"\*\*Terry verdict[^:*]*:\s*([^*]+?)\s*\*\*",     # (ii) verdict inside the bold
+                r"\*\*Terry verdict[^*]*:?\*\*\s*:?\s*(.+)",       # (i)  label, then verdict
+                r"\*\*Terry verdict[^:]*:\s*(.+?)\*\*"):           # legacy fallback
+        v = re.match(pat, tail)
+        if v:
+            return sid, v.group(1).strip()
+    return sid, None
 
 
 def setups_tsv_states(text: str) -> dict[str, str]:
@@ -237,7 +299,24 @@ def index_md_states(text: str) -> dict[str, str]:
 
 
 def trade_book_states(text: str) -> dict[str, str]:
-    """LAST row naming an id wins — earlier rows are dated history."""
+    """LAST row naming an id wins — earlier rows are dated history.
+
+    🔴 COLUMN INDEX FIXED 2026-08-04. This read `cells[5]` with the comment
+    "# Status column". TRADE_BOOK.md rows are NOT uniform — 8 rows carry 7 cells
+    and 2 carry 6 — so on a 6-cell row `cells[5]` is the trailing FILE PATH, which
+    parses to no state at all. Effect: **`TRY-BRENT-USOARM` contributed NOTHING to
+    check A while check A printed "✓ all surfaces agree" for it** — and that is the
+    id whose TRADE_BOOK row was found two revisions stale on 8/4.
+
+    ★ I diagnosed that miss as "check A only compares state TOKENS, not structure."
+    That was true in general and WRONG as the cause here: the surface was not being
+    read at all. A hardcoded positional index silently degrades to garbage the
+    moment a row's column count varies, and garbage parses to None, and None is
+    indistinguishable from silence.
+
+    The file path is reliably LAST, so the status column is `cells[-2]` — anchored
+    to the end, which is stable under a leading-column change too.
+    """
     out: dict[str, str] = {}
     for line in text.split("\n"):
         cells = md_cells(line)
@@ -245,7 +324,7 @@ def trade_book_states(text: str) -> dict[str, str]:
             continue
         ids = SETUP_ID_RE.findall(cells[1]) if len(cells) > 1 else []
         if len(set(ids)) == 1:
-            out[ids[0]] = cells[5]          # Status column
+            out[ids[0]] = cells[-2]         # Status column — anchored to the END, never a fixed index
     return out
 
 
@@ -475,6 +554,100 @@ def check_superseded_drift(pairs: set[tuple[str, str]], surfaces: dict[str, str]
                 + "".join(f"        {loc}\n" for loc in naked[:8])
                 + f"      -> annotate or correct each, or the ledger outlives the correction."
             )
+    return findings
+
+
+# ---------------------------------------------------------------- check F
+#
+# UNPARSEABLE-vs-SILENT. The single most valuable check here, because it is the one
+# that finds the NEXT bug rather than the last one.
+#
+# Check A compares state claims across surfaces and needs >=2 claims to say anything.
+# A cell that carries text but matches no word in STATES yields None — which is
+# byte-identical, to check A, to a surface that said nothing. So a surface can
+# silently DROP OUT of every comparison and check A still prints "✓ all surfaces
+# agree." Two live instances on 2026-08-04, both found only by hand:
+#   1. TRY-FIRE-005 — INDEX said "DEAD", not in the vocabulary => vanished. The
+#      SHELVED-vs-DEAD contradiction was invisible for weeks.
+#   2. TRY-BRENT-USOARM — trade_book_states read a hardcoded cells[5], which on a
+#      6-cell row is the FILE PATH => vanished. That id's TRADE_BOOK row was two
+#      revisions stale while check A reported agreement.
+#
+# ★ Different bugs, identical signature: a surface present in the output, contributing
+#   nothing to the comparison, under a green tick. "Everything agrees" and "I could
+#   not read any of it" must never render the same (`finding_verification_zero_is_ambiguous`).
+#
+# It flags a NON-EMPTY cell that yields no state. Empty cells stay silent — absence
+# is legitimate; unreadability is not.
+
+# Cells that legitimately carry no state: a bare file path, a scaffold row.
+UNPARSEABLE_EXEMPT = re.compile(r"^\s*[`'\"]?[\w/.\-]+\.md[`'\"]?\s*$|^\s*N/?A\b", re.I)
+
+
+def check_unparseable_claims(claims: dict[str, dict[str, str]]) -> list[str]:
+    findings: list[str] = []
+    for sid in sorted(claims):
+        for surface, cell in sorted(claims[sid].items()):
+            body = cell.strip()
+            if not body or UNPARSEABLE_EXEMPT.match(body):
+                continue
+            if state_of(cell) is not None:
+                continue
+            findings.append(
+                f"UNREADABLE STATE CLAIM  {sid}  on {surface}: the cell has text but matches no "
+                f"known state, so it contributes NOTHING to check A and its agreement is UNVERIFIED "
+                f"(not confirmed).\n      -> add the word to STATES, or fix the extractor's column. "
+                f"cell={body[:90]!r}"
+            )
+    return findings
+
+
+# ---------------------------------------------------------------- check G
+#
+# STRUCTURE FINGERPRINT. Check A compares STATE tokens; on 8/4 all five surfaces
+# said "CONDITIONAL" while strike, size, limit, cost and breakeven disagreed —
+# unanimous agreement on the token is what a token-level check cannot see.
+#
+# ⚠️ Scoped to STRIKES and EXPIRY only, deliberately. A ledger cell legitimately
+# names a recommended structure AND its alternatives AND its superseded history, so
+# "extract the quantity" is ill-defined for most keys. These two are taken from the
+# FIRST non-struck mention — the headline structure — which is well-defined. Adding
+# `limit`/`qty` here would re-litigate values check B already owns, on cells full of
+# alternatives; that is how a checker earns ~123 false positives (consumer_check.py).
+STRIKES_RE = re.compile(r"\b(\d{2,4})\s*([CP])?\s*/\s*(\d{2,4})\s*([CP])\b")
+EXPIRY_RE = re.compile(
+    r"\b((?:Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)-\d{1,2}(?:-\d{4})?)\b", re.I)
+
+
+def fingerprint(cell: str) -> dict[str, str]:
+    """First non-struck strike-pair and expiry — the headline structure, not every
+    structure the cell happens to discuss."""
+    txt = strip_history(cell)
+    fp: dict[str, str] = {}
+    m = STRIKES_RE.search(txt)
+    if m:
+        fp["strikes"] = f"{m.group(1)}/{m.group(3)}"
+    e = EXPIRY_RE.search(txt)
+    if e:
+        fp["expiry"] = e.group(1).title()
+    return fp
+
+
+def check_structure_agreement(claims: dict[str, dict[str, str]]) -> list[str]:
+    findings: list[str] = []
+    for sid in sorted(claims):
+        seen: dict[str, dict[str, str]] = {}
+        for surface, cell in sorted(claims[sid].items()):
+            for k, v in fingerprint(cell).items():
+                seen.setdefault(k, {})[surface] = v
+        for key, bysurf in sorted(seen.items()):
+            vals = set(bysurf.values())
+            if len(vals) > 1:                      # silent unless two surfaces both assert AND differ
+                detail = " · ".join(f"{s}={v}" for s, v in sorted(bysurf.items()))
+                findings.append(
+                    f"STRUCTURE DRIFT  {sid}  surfaces agree on STATE but disagree on {key.upper()}: "
+                    f"{detail}\n      -> the state token is not the trade. Sweep them together."
+                )
     return findings
 
 
@@ -761,6 +934,66 @@ def selftest() -> int:
        cards_from_text("c.md", "**Setup ID:** `TRY-A` ·\n**Terry verdict:** CLEAN\nlater\n"
                                "**Terry verdict (2026-01-01):** CONDITIONAL")[1].startswith("CLEAN"))
 
+    # --- checks F + G (2026-08-04). ⚠️ ACCEPTANCE WAS PRE-REGISTERED WITH WILL
+    #     BEFORE THIS WAS BUILT: it must catch (a) the TRADE_BOOK structure drift
+    #     and (b) the TRY-FIRE-005 SHELVED defect, tested on REAL historical text —
+    #     and if it failed, the checker gets fixed, never the COMPATIBLE set.
+    #     Both root causes turned out to be different from what I had recorded.
+
+    # (a) ★ THE REAL 8/4 005 PAIR, verbatim from HEAD 7466191a4~1.
+    _005 = {"TRY-FIRE-005": {
+        "SETUPS.tsv": "CONDITIONAL || SHELVED",
+        "INDEX.md": "🔴 DEAD — 7/10 COT print resolved DENY; never entered, $0 at risk; "
+                    "terminal per its own kill rule",
+    }}
+    ok("★ 005: DEAD now parses (it did not, which is why the defect survived)",
+       state_of(_005["TRY-FIRE-005"]["INDEX.md"]) == "DEAD")
+    ok("★ 005: SHELVED-vs-DEAD is now a check-A finding (was ZERO findings, printed ✓)",
+       len(check_state_agreement(_005)) == 1)
+
+    # (b) ★ THE REAL 8/4 TRADE_BOOK COLUMN BUG — a 6-cell row whose cells[5] is the path.
+    _tb6 = ("| 2026-08-04 | TRY-BRENT-USOARM — USO Oct-16-2026 125C/135C call debit spread x1 "
+            "| BRENT | CONDITIONAL — leg (b) passes | PENDING — awaiting Will [Approve] "
+            "| `setups/BRENT_uso-convex-arm_2026-08-04.md` |")
+    ok("★ TRADE_BOOK 6-cell row yields the STATUS, not the file path (silent data loss)",
+       "PENDING" in trade_book_states(_tb6)["TRY-BRENT-USOARM"])
+    _tb7 = ("| 2026-07-30 | TRY-FIRE-004 x | owner | thesis | verdict | FIRED/ACTIVE "
+            "| `setups/f.md` |")
+    ok("7-cell row still yields the STATUS (no regression on the majority shape)",
+       trade_book_states(_tb7)["TRY-FIRE-004"] == "FIRED/ACTIVE")
+
+    # (c) check F — unparseable must be distinguishable from silent
+    ok("★ F: a cell with text but no known state is FLAGGED, not silently skipped",
+       len(check_unparseable_claims({"TRY-X": {"INDEX.md": "🔴 ZOMBIFIED — some new word"}})) == 1)
+    ok("F: a bare file path is exempt (legitimately carries no state)",
+       check_unparseable_claims({"TRY-X": {"TB": "`setups/x.md`"}}) == [])
+    ok("F: an empty cell is silent — absence is legitimate, unreadability is not",
+       check_unparseable_claims({"TRY-X": {"TB": "   "}}) == [])
+    ok("F: a parseable cell is silent",
+       check_unparseable_claims({"TRY-X": {"INDEX.md": "🟡 CONDITIONAL — awaiting"}}) == [])
+
+    # (d) check G — the 8/4 structure drift, with the STATE token agreeing on both sides
+    _drift = {"TRY-BRENT-USOARM": {
+        "TRADE_BOOK.md": "CONDITIONAL — USO Oct-16-2026 125C/135C call debit spread x1 @ $2.50",
+        "INDEX.md": "CONDITIONAL — REVISED: `125C/130C ×2` @ LIMIT $1.65",
+    }}
+    ok("★★ G: catches the REAL 8/4 drift — both surfaces say CONDITIONAL, strikes differ",
+       len(check_structure_agreement(_drift)) == 1)
+    ok("G: agreeing surfaces are silent",
+       check_structure_agreement({"T": {"a": "125C/130C ×2", "b": "the 125/130 spread"}}) == [])
+    ok("★ G: NO FP — a cell naming the recommendation AND its alternative uses the FIRST "
+       "(headline) structure, which is how both surfaces are written",
+       check_structure_agreement({"T": {
+           "SETUPS.tsv": "RECOMMENDED: 125C/130C x2 @ $1.50. ALTERNATIVE: 125C/135C x1 @ $3.30",
+           "INDEX.md": "`125C/130C ×2` @ LIMIT $1.50. Alternative: `125/135 ×1` @ $3.30"}}) == [])
+    ok("★ G: NO FP — a STRUCK superseded structure is history, not a competing claim",
+       check_structure_agreement({"T": {
+           "a": "~~125C/135C ×1~~ -> 125C/130C ×2", "b": "125C/130C ×2"}}) == [])
+    ok("G: expiry drift is caught too",
+       len(check_structure_agreement({"T": {"a": "Oct-16-2026 125/130", "b": "Sep-18 125/130"}})) == 1)
+    ok("G: silent when only ONE surface asserts a structure (surfaces differ in verbosity)",
+       check_structure_agreement({"T": {"a": "125C/130C ×2", "b": "CONDITIONAL, see card"}}) == [])
+
     # --- check E: future-dated stamps (2026-08-04)
     _now = datetime(2026, 8, 4, 12, 0)          # pinned: never read the real clock in a test
     _d = _now.strftime("%Y-%m-%d")
@@ -890,7 +1123,23 @@ def run_live(since: str) -> int:
     else:
         print("  ✓ no stamp claims a time that has not happened yet")
 
-    total = len(a) + len(b) + len(c) + len(d) + len(e)
+    f = check_unparseable_claims(claims)
+    print(f"\nF. UNREADABLE STATE CLAIMS — is a surface silently dropping out of check A?")
+    if f:
+        for x in f:
+            print(f"  🔴 {x}")
+    else:
+        print("  ✓ every non-empty claim parsed — check A's ✓ means COMPARED, not merely unread")
+
+    g = check_structure_agreement(claims)
+    print(f"\nG. STRUCTURE FINGERPRINT — strikes/expiry, where the STATE token agrees but the trade may not")
+    if g:
+        for x in g:
+            print(f"  🔴 {x}")
+    else:
+        print("  ✓ no surface disagrees with another on strikes or expiry")
+
+    total = len(a) + len(b) + len(c) + len(d) + len(e) + len(f) + len(g)
     print(f"\n{'🔴 ' + str(total) + ' FINDING(S) — sweep before closeout' if total else '✅ CLEAN'}")
     return 1 if total else 0
 
