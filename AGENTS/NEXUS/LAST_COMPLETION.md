@@ -129,6 +129,39 @@ Carried unverified since March, in-window now, flagged 7/31, on my owes-list twi
 
 **🛑 SPEC FREEZE — DECLARED.** Six changes to `CLAUDE.md` in one evening (9b · Disc-J · CONFIRMED fired-legs-only · PROME path · 9c · step-16 post-push). Every one is justified by something that actually failed, **which is exactly how spec churn feels from the inside.** **Three have never executed once** — Disc-J's real test is the 8/12 resolution, 9b's is the next state change, 9c ran once. **No further `CLAUDE.md` edits until 8/12**, when the retrospective can be evidence-based instead of same-night. Inbounds (like L-15) queue rather than land.
 
+---
+
+# UNIT 6 — post-change coherence sweep of `CLAUDE.md` (~11:25–11:45 PM ET, Will-directed)
+*"we changed CLAUDE.md a lot — make sure the changes are playing nice together and working."* **This is a VERIFICATION pass, not a spec change, so it does not breach the 5c freeze — and the repairs below don't either: a freeze that preserves broken text is the wrong freeze. No NEW behavior was added.**
+
+**Method:** full read of all 341 lines + three mechanical checks — every `[[memory]]` tag resolved against `memory/auto/`, every backticked file path existence-checked, step numbering/ordering enumerated.
+
+**Clean:** all 19 `[[memory]]` tags resolve to real files (the 20th, bare `[[memory]]`, is prose). Anti-patterns internally consistent. Disc A–J all present and individually coherent. 9b vs 9c are genuinely different checks (cross-surface propagation vs fleet freshness) with no overlap. Δ-convention, the STALE overlay and Disc-J are mutually compatible.
+
+**🔴 THREE REAL DEFECTS — two predate tonight, one I introduced:**
+
+1. **EXECUTE step 8 named only 5 of 10 disciplines** — and this is the worst of the three because it is the *executable* step. It listed A–E and **never grew when F, G, H and I were adopted** (F ~6/8, G ~7/17, H 7/24, I 7/31), so for weeks the step that says *"apply the Synthesis Disciplines"* pointed at **half of them.** The §SYNTHESIS DISCIPLINES section was correct throughout — the defect was purely in the index into it, which is exactly the shape that survives review (both parts look right in isolation). **Fixed:** all ten now enumerated by letter + handle, plus an explicit *"this roster MUST be extended whenever a discipline is added below."* **Not tonight's churn — tonight's changes are what made me look.**
+2. **Step 14 pointed at `memory/MEMORY.md`, which does not exist** (real path `memory/auto/MEMORY.md`). A **dead pointer inside the promotion step itself**, survived only because whoever ran it knew better — textbook `[[finding_dead_path_regrows_unless_senders_repointed]]`. **Fixed**, plus the HOT-vs-`INDEX_COLD.md` tier choice and the dedup-before-create default made explicit at the point of use.
+3. **Disc-J's "where it binds" clause could NEVER FIRE — my own defect, written hours earlier.** It read *"any matrix row whose `Last updated` is ≥2 passes old **while** its `Conf %` keeps moving."* Under the Δ-column convention a `Conf %` move **is** a material change and **bumps `Last updated`** — so the two halves are mutually exclusive and the condition is unsatisfiable. **A rule that cannot fire is worse than no rule: it reads as covered.** **Fixed** to *"any matrix row re-marked on ≥2 consecutive passes"* — which is the case I actually meant and the one where a forcing condition is most owed.
+
+**🟠 TWO AMBIGUITIES FIXED:**
+4. **"Step 5's pre-commit sanity check"** (new step 16 text) was a bare cross-list reference — NEXUS's own step 5 is BOOT/`SIGNALS.md`, while the check meant is **root CLAUDE.md §Before committing step 5.** This is precisely the numbering-collision the root file warns about; now named with its list.
+5. **9c said "re-run BOOT step 6's scan"** — but that scan lives in a sub-bullet framed as the **multi-day re-anchor** path, so on a same-day session there is nothing to "re-run" and the wording could license skipping it. Now explicit: **run it EVERY session, unconditionally.**
+
+**🟡 THREE NOTED, NOT CHANGED:** the CLOSEOUT framing gained its missing **BOOT 6 → CLOSEOUT 9c** pairing and a warning that **`9` appears twice** (EXECUTE *write findings* vs CLOSEOUT *STATUS sanity*) — both load-bearing, both cited, so disambiguation beats renumbering. TERRY's `SIGNAL_COMBINATION` cite given its full path. **Left alone:** step 12's outbox move is vestigial (outbox is empty-by-design since carve-out ①) — a harmless no-op, not worth a freeze exception.
+
+**Verification after fixes:** all paths resolve except expected bare-filename generics; the single remaining `memory/MEMORY.md` hit is inside the correction note *documenting* the old path, not pointing at it. 341 lines.
+
+**The transferable observation:** two of the three real defects were **indexes into correct content** — a discipline list and a file pointer — not the content itself. **A spec rots at its pointers before it rots at its rules**, and the pointer is the half that executes.
+
+**⚠️ 9c fired again on this very commit — DAEDALUS at 23:01/23:07 — and what it caught is a CRITIQUE OF TONIGHT'S APPROACH, recorded rather than waved off.** DAEDALUS built a `CHECKS.tsv` invocation register (**0 NEXUS rows — no direct conflict**) and wrote this into its playbook:
+
+> *"A register with no invocation site is the same defect wearing the auditor's badge."* · **"THE FIX FOR AN UNWIRED CHECK IS ALMOST NEVER A NEW PROTOCOL STEP — it is attaching it [to an existing site]."**
+
+**I added three protocol steps tonight** (9b, 9c, the step-16 sub-bullet). Honest self-assessment: 9c and the step-16 item *are* attachments to existing sites (9c is the closeout mirror of boot 6's scan, per the file's own symmetry framing; step 16 already existed) — but **9b is a genuinely new step, and none of the three has any invocation register, so nothing verifies they actually RUN.** That is the same defect one level up from the one they were built to fix, and it is a fair hit. **Queued, not acted on** — the freeze holds and nothing publishes tonight.
+
+**Two inbounds now queued for next boot:** VULCAN's **L-15** (relayed-figure caveat-stripping — sharpens Disc-G) and DAEDALUS's **unwired-check principle** (asks whether tonight's steps should be attachments or registry rows rather than new protocol text). **Both are challenges to work done tonight; neither gets folded same-night.**
+
 ## Blockers / carry-forward (next boot owes)
 1. **Credit re-pull the instant FRED answers** — DISH-guard unresolved; if still dark, chase the LIQUID packet.
 2. **8/4:** Athene Q2 = M-11 dual test (**check SHADE was scheduled or the grade is orphaned**) · marks cluster opens · AMZN 10-Q (VULCAN-07).
