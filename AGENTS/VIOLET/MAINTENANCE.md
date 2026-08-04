@@ -216,6 +216,25 @@ Log material structural changes only — not routine content edits. Template ado
 
 ---
 
+## 2026-08-04 — Inbound backlog cleared, forward feed replenished from the canonical ledger, NEXUS amd-10 adopted
+
+**Trigger:** Will-directed full currency pass ("update your domain with updated data, news, etc."). Three structural items surfaced alongside the analytical work, all rooted in the same defect class: **surfaces that decay because nothing triggers their replenishment.**
+
+**What changed:**
+- **`CLAUDE.md` write-back step 12 — NEXUS Amendment 10 adopted** (ratified 2026-07-31 fleet-wide; reached VIOLET 8/4 via PROME propagation). The brief fold is now specified as the session's **LAST** write-back — after the final STATUS write, immediately before git commit — with the checkable form (brief commit timestamp ≥ last STATUS commit timestamp) written on the line. **This is an ORDERING rule, not a refresh reminder:** the 7/31 fleet audit found 5-of-5 content-stale briefs had refreshed *and then kept working*, and zero had skipped the refresh — so the habit everyone already had does not close the gap.
+- **`workbook/CATALYSTS.tsv` replenished from `PROME/DOCKET.tsv`, not from my own surfaces.** +July CPI **8/12** (date VERIFIED in DOCKET:67), +COT **8/7** (report-date 8/4 — the first post-dating the yen move), +KB-VIO-174's credit discriminator as a dated row. Fired rows pruned (7/31 BOJ, 7/31 COT, 8/3 KB-VIO-126 hook). `CALENDAR.md` twin re-synced and verified with `catalyst_countdown.py`.
+- **Stale grading note corrected in the same session it was written.** The NFP 8/7 row's note (added 8/4 AM) hardcoded *"July CPI is NOT added: no confirmed date found anywhere in the fleet"* — false, and it would have printed at the moment a prediction resolved. This is the **KB-VIO-169 stale-note class, n=4**.
+- **Inbound backlog cleared:** 7 WALTER board signals (backlog to 7/30) logged to `board_log.tsv` with dispositions and `git mv`'d to `inbox/WALTER/processed/`; 4 PROME/DAEDALUS packets consumed to `inbox/processed/`, with their open deliverables transferred to the STATUS RESEARCH QUEUE so consumption does not lose them.
+- **Dead rows retired from the STATUS dashboard:** HENRY's gamma-flip and put/call-wall rows (bands ~7,453/7,465 against spot 7,752 = ~290pts stale, pointing the wrong way), independently confirming WALTER's own SIG-W-20260803-002 self-correction.
+
+**Files touched:** `CLAUDE.md`, `workbook/CATALYSTS.tsv`, `CALENDAR.md`, `STATUS.md`, `board_log.tsv`, `inbox/**` (11 files moved), `workbook/KB.tsv` (+6, 2 closed).
+
+**Boot-impact:** `catalyst_countdown.py` now prints three imminent rows (8/5 SOQ, 8/7 NFP, 8/7 COT) plus July CPI at 6d — **cheap_tail's L4 leg no longer decays to ⬜ after NFP fires**, because CPI 8/12 re-boxes it. No script behaviour changed.
+
+**Lessons:** ⚠️ **I searched my own surfaces and published a scope-negative about the whole fleet.** "No confirmed July CPI date exists anywhere" was false — the canonical ledger had it verified the entire time. **Refusing to invent the date was right and is not what went wrong**; failing to consult `DOCKET.tsv` was. A scope-negative is the claim that stops anyone else looking, so it needs the counterparty standard. **PROME is building a boot-time DOCKET-vs-CATALYSTS diff so replenishment finally gets the trigger it lacks** — until then, treat `PROME/DOCKET.tsv` as consultable, not as someone else's file.
+
+---
+
 *Entries dated **2026-06-10 and earlier** live in `archive/MAINTENANCE_ARCHIVE.md` (archived 2026-07-30 on the cap).*
 
 *Created: 2026-06-10. Log structural changes at write-back (CLAUDE.md step 13a). Cap ~300 lines — archive overflow to `archive/MAINTENANCE_ARCHIVE.md`, now **enforced at boot** by `check_maintenance_cap()`.*
