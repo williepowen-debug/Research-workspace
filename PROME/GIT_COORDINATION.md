@@ -106,7 +106,7 @@ git add -- PROME/<newfile>
 git commit -m "PROME: <subject>" -- PROME/<modified> PROME/<newfile>
 ```
 
-Push is auto at closeout via ff-gated `scripts/safe-push.sh` (see Push Discipline below + root `CLAUDE.md` Git Protocol). Non-ff abort = **routine** (serial multi-machine): don't force — `git pull --rebase` + re-push; escalate to Will only on the tripwire signatures in Push Discipline. Shared/root-doc commits still need Will scope.
+Push is auto at closeout via ff-gated `scripts/safe-push.sh` (see Push Discipline below + root `CLAUDE.md` Git Protocol). Non-ff abort = **routine** (usually a concurrent same-box session, not the other machine — see Push Discipline; serial multi-machine): don't force — `git pull --rebase` + re-push; escalate to Will only on the tripwire signatures in Push Discipline. Shared/root-doc commits still need Will scope.
 
 ## Push Discipline
 
@@ -116,7 +116,7 @@ Push is **automated at closeout** via `scripts/safe-push.sh`, predicated on **se
 2. Pushes only on a clean **fast-forward**; **aborts cleanly if origin has commits we don't** (never force, never pull a shared tree).
 3. One closeout push sweeps all agents' local commits — the push-train, now automated.
 
-**Non-ff abort (updated 2026-07-01):** = the other machine pushed since this clone last pulled — **routine** under serial multi-machine. Do NOT force; `git pull --rebase` + re-push. **Tripwire (escalate to Will, consider per-agent branches):** rebase conflicts outside your own dir, or non-ff recurring mid-session — the signatures of two machines running simultaneously, which the protocol forbids. Fully reversible (revert the closeout step + restore the manual line = one commit).
+**Non-ff abort (re-based 2026-08-03, CORAL packet + RED 7/31 precedent, Will-approved; prior 2026-07-01 framing said "the other machine"):** = **another SESSION pushed since this clone last fetched — usually a concurrent agent on the SAME box** (verified: same-box committers, zero path overlap; non-ff is a COMMIT-GRAPH property, not a file-path one — separate trees cannot prevent it, only per-agent branches could). Do NOT force; `git pull --rebase --autostash` + re-push — `--autostash` stashes the dirty tree (others' work included), rebases, restores byte-identical (RED-verified); check incoming commits don't touch the dirty paths first. Confirm the literal `Pushed.` line — a log tail is not a push receipt — and note the sweep **rewrites unpushed commit hashes** (verify by subject when a recorded hash goes missing). **Tripwire (escalate to Will, consider per-agent branches):** rebase conflicts outside your own dir, or non-ff **persisting through a completed rebase→re-push cycle** — bare mid-session recurrence is routine concurrent traffic, and the old tripwire's false fire cost an unnecessary escalation (CORAL 8/3). **Post-`git mv` assertion (WALTER 8/3, adopted):** after any commit containing a rename, run `git status --porcelain -- AGENTS/<ME>/ | grep '^ D\|^D '` — a stranded deletion = a FAILED commit, not residue (a rename is TWO paths; typed pathspecs alone don't guarantee both halves).
 
 **YEYOU exception (Decision C, Will 2026-06-26):** YEYOU is a repo-wide reviewer on a branch model — it stays **manual/branch** (commits and branches locally, does **not** auto-push) until Will reviews.
 

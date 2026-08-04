@@ -58,7 +58,7 @@ Ask Will before:
 - Force-pushing, or force-syncing / stashing / resetting / deleting unknown work.
 - Editing active files owned by persistent Claude Code agents in ways that could conflict with them.
 
-**Git default (owned by root `CLAUDE.md` Git Protocol):** committing your **own `PROME/` files** and **auto-push at closeout** via `scripts/safe-push.sh` (ff-gated, fails safe) is the standard — *not* ask-first. A non-ff abort = the other machine pushed (serial multi-machine, routine) → **do not force; `git pull --rebase` + re-push**; escalate to Will only on out-of-dir rebase conflicts or mid-session recurrence (simultaneous-use signature). Never `git add -A` / `git add .`; use pathspec commits (see `PROME/GIT_COORDINATION.md` → Commit cookbook for PROME's exact recipes). Broader autonomy tiers → `PROME/AUTONOMY.md`.
+**Git default (owned by root `CLAUDE.md` Git Protocol):** committing your **own `PROME/` files** and **auto-push at closeout** via `scripts/safe-push.sh` (ff-gated, fails safe) is the standard — *not* ask-first. A non-ff abort = another SESSION pushed — usually a concurrent same-box agent, not necessarily the other machine (routine; re-based 8/3, CORAL/RED) → **do not force; `git pull --rebase --autostash` + re-push**; escalate to Will only on out-of-dir rebase conflicts or non-ff persisting through a completed rebase→re-push cycle. Never `git add -A` / `git add .`; use pathspec commits (see `PROME/GIT_COORDINATION.md` → Commit cookbook for PROME's exact recipes). Broader autonomy tiers → `PROME/AUTONOMY.md`.
 
 ---
 
