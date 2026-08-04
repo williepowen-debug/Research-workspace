@@ -4,6 +4,51 @@ Append-only. **Newest on top.** One entry per review. Metrics mirror to `LEDGER.
 
 ---
 
+## Session 5 — 2026-08-04 · **three more 0DTE QQQ puts, all worthless — found from broker truth, not from intake**
+
+> **Reviewed 2026-08-04 ~16:10 ET, after the close. Source: Will's Fidelity + Robinhood captures (~15:40), Will-confirmed "this is it" — the book is complete.**
+> ⚠️ **These tickets were NOT in the intake.** Session 4 closed this morning believing the class was 8 tickets and ≈ −$3,081. **It was not.** Three further 0DTE puts were opened on 8/4 itself and are only visible because Will sent the broker screens. **The review loop did not surface them; a position capture did.**
+
+### The 8/4 tickets
+
+| Ticket | Acct | Qty | Basis | Close | Realized | Self-reconciles? |
+|---|---|---|---|---|---|---|
+| **QQQ 693P Aug-04 (0DTE)** | Fido | 2 | $657.33 | $2.00 | **−$655.33** | ✅ $3.29×2×100 ✓ |
+| **QQQ 698P Aug-04 (0DTE)** | Fido | 2 | $489.33 | $2.00 | **−$487.33** | ✅ $2.45×2×100 ✓ |
+| **QQQ 712P Aug-04 (0DTE)** | RH | 1 | ≈$119 | ≈$2 | **≈ −$117** | ⚠️ derived from −98.32% |
+| **8/4 realized** | | **5** | **≈$1,266** | **≈$6** | **≈ −$1,259.66** | |
+| *QQQ 720P Aug-06* | Fido | 1 | $443.66 | $417 live | *−$26.66 unrealized* | ✅ $4.44×1×100 ✓ |
+| *IWM 301P Aug-06* | Fido | 2 | $231.32 | $248 live | *+$16.68 unrealized* | ✅ $1.16×2×100 ✓ |
+
+*⚠️ Figures read from broker screenshots. Three of four self-validate (cost/share × qty = total, and cost − value = stated G/L). The Robinhood line shows only return, so its basis is back-computed. **I misread the 693P basis as $857.33 on first pass and caught it on the arithmetic** — treat all of these as broker-derived, not broker-confirmed.*
+
+### 🔴 THE FINDING — the same-day re-entry pattern did not continue. It escalated.
+
+Session 4's convicted leak was **four losses / four same-day re-entries — one re-entry per session.** On 8/4 that became **THREE separate 0DTE put tickets in a single session**, and every one expired worthless.
+
+**The context they were opened into:**
+- **QQQ closed +3.2%** — the strongest up-day of the recovery, and its **fourth** consecutive up-session
+- the **687P from the prior day was being closed at a loss the same morning**
+- **`TRY-WILL-QQQ-VFADE`'s hard condition was live** — *"becomes the ONLY QQQ short — no adds, no 0-DTE tickets alongside, or the card is void by its own terms."* **Three 0-DTE tickets voided it independently of its 712 price invalidation.**
+- `QQQ_DESK_CARD.md` **§4b (P1/P2) was written this morning** off the 687P postmortem
+
+**⇒ Class totals, corrected:** **≈ 11 closed tickets + 1 live** since 7/20 · **realized ≈ −$4,311 to −$4,371** (was ≈ −$3,081). **Walk-to-zero adds ≈ −$1,260 — all three were held to expiry.**
+
+**⇒ Direction: 11 of 11 short**, across a window in which QQQ rose **+10.1% in four sessions.**
+
+### What is NOT in the loss column
+
+- **`IWM 301P` is +7.21%** — bought today at $1.16, marked $1.24. **The only green index short in the book**, and the one ticket of the day whose entry was into weakness rather than after it.
+- ⚠️ **It is 2 DTE with no harvest order on it.** That is the 687P shape exactly (+23.6% Friday → worthless Monday). **`qqq/PLAYBOOK.md` G3 would have a resting sell-half at entry.** Flagged to Will 8/4; his call.
+
+### The process finding, which is separate from the trading
+
+**The day-desk review loop is fed by `inbox/WILL/` drops and did not see these tickets.** Session 4 was closed this morning with a total that was **~$1,260 too small**, and I published that figure to `STATUS.md` and to a brand-new `qqq/README.md`. **A review loop that can close a session while a third of the day's tickets are invisible to it is measuring intake, not activity** — `finding_count_measures_intake_not_domain`.
+
+⇒ **The fix is not more review cadence. It is that a position capture must precede any session close.** Proposed, not adopted — needs Will.
+
+---
+
 ## Session 4 — 7/20–8/3/2026 · the QQQ short-dated put cluster · reviewed 8/3 (live, mid-session)
 
 > ## ✅ SESSION 4 CLOSED — 2026-08-04. **The open ticket resolved, and it resolved the worst way available.**
