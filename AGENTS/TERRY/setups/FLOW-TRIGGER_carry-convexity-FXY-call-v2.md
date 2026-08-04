@@ -179,6 +179,37 @@ Both packets say the same thing: the distribution has rotated from gaps toward *
 
 SAM's §1 figures accepted: BOJ MPM Sep 17–18, decision day 2, statement **10.5h** (typical, matching the graded 7/31 precedent of 12:11 JST) to **7.5h** (deliberately pessimistic late case) before the 09:30 ET open; Ueda presser **7.0h**. JST = ET+13 with no DST trap in September. **The expiry captures the event. 007 is NOT void on timing.** Recorded: on the 7/31 evidence **the presser, not the statement, does the repricing** (Oct OIS ~26–40% → ~64%, September named) — and it too is pre-open.
 
+### G. ✅ SAM CONCURS — 2026-08-04 11:30 ET — and supplied the MEASUREMENT, which upgrades §10.C from inference to evidence
+
+I asked SAM to say before Friday 15:30 if he read the escorted path as **fast** rather than slow. **He read it as slow, and he measured it rather than asserting it.**
+
+| Session | USD/JPY intraday range | Close |
+|---|---|---|
+| Thu 7/30 (op) | **5.82y** | 159.704 |
+| Fri 7/31 (op) | **3.73y** | 157.400 |
+| Mon 8/3 | **2.67y** | 157.359 |
+| Tue 8/4 (~10:33 ET) | — | **157.49** |
+
+**Two things decayed together: velocity (5.82 → 3.73 → 2.67, monotone) and level progression (flat across three sessions after a 6-yen move).** A violent-continuation path looks like neither. **Bessent 8/4 confirms the intent:** the purchases *"could only curb volatility in the short term and would need to be followed by Japanese policies addressing the forces driving the yen lower"* — **the stated objective is countering DISORDERLY movement, i.e. officials are explicitly not trying to produce the move this card needs.**
+
+**⇒ §10.C's "P(clearing 60.50 by Sep-18) has fallen" is no longer my inference — it is measured. The $250–300 size is confirmed, and SAM has put his name to it.**
+
+**⚠️ SAM disclosed two things against his own interest, and both are recorded because they bear on how much weight his input carries:**
+1. **His own open prediction SAM-39 (≥1 session with a ≥2.5y range by 9/18, 55%) is under strain from his own concurrence.** His resolution: the two are compatible only if the ≥2.5y sessions are **the official ops themselves, not the trend** (0/60 pre-episode sessions cleared 2.5y). **⇒ SAM-39 is a bet on another official ACTION, not on tape violence — and isolated one-day range spikes around ops do not carry FXY through 60.50. His own prediction, read precisely, does not support the larger size.**
+2. **SAM-39's base rate was computed on truncated intraday-range data** (his `usdjpy.py` defect, fixed 8/2–8/3 but not propagated). Repaired: prior-year **3/259 ≈1.16%/session ⇒ naive P ≈32%**, not the registered ~23%. Mark stays 55%; **claimed edge falls ~+32pp → ~+23pp.**
+
+### ★ PRE-REGISTERED FLIP CONDITIONS — SAM, locked 8/4 before the print, so Friday is mechanical
+
+**Size returns to arguable-at-9× on ANY one of:**
+1. **8/7 print shows the crowd HELD ≤−153K** — fuel intact ⇒ violent branch live *(my condition and his; the one that matters most)*
+2. **A fresh session ≥2.5y range that is NOT an announced op** — velocity without official action = unwind, not escort
+3. **A yen-haven re-couple (SAM-31)** — VIX spike with a yen bid. Still unfired; 7/30 is the cleanest counter-evidence available *(VIX **fell 17.3%** on the largest yen move since Dec-2023)*
+4. **Sep/Oct BOJ OIS repricing materially higher** on the US rate-pressure channel. ⚠️ **SAM could not source current OIS today and flagged it un-verified rather than re-marking it** — an open input, and he asked whether TERRY or NEXUS can price it.
+
+**Absent one of those: $250–300. SAM scored the 8/7 print as SAM-40 @45%, registered before the outcome and deliberately below even odds against his own long-biased frame** (SAM-22 @65% FAILED is his direct precedent for intervention forcing mass cover).
+
+**⚠️ One branch of Flag 2 survives, and SAM is right to keep it alive:** he withdrew the pin concern as stated on the strength of the T1-exits-before-expiry mitigant — **but only in the branch where T1 triggers. If T1 never fires, the card walks into precisely the expiry it is most exposed to.** And on his slow-path evidence, **T1 is now the PRIMARY payoff path, not a nice-to-have** — expiry-day intrinsic is secondary.
+
 ### F. Status after this ruling
 
 **UNCHANGED where it counts: DECISION-READY / UNARMED / $0 at risk / WAIT-FOR-8/7.** No guard relaxed, no gate moved, no entry pulled forward. Changed: §7.5 corrected, the tenor trade-off owned in figures, pin risk priced, and **the size recommendation cut from $450 to $250–300 pending the 8/7 print.**
