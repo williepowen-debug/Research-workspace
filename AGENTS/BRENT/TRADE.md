@@ -24,9 +24,14 @@
 
 | Position | Type | Status | Note |
 |----------|------|--------|------|
-| **USO** | Shares (2) | **HELD** | Token long (~$258 at 7/21 $128.85). *(Row restored 7/21 — Will caught the omission: the shares were in the domain-scope record but missing from this table. Broker book = position truth; FORGE mirror last reconciled 7/16.)* |
-| **STNG** | Shares (2) | **HELD** | Token long (~$159 at 7/21 $79.66). War-risk/ton-mile beneficiary; BRT-15 lesson — reopen is NOT uniformly tanker-bearish. |
-| **XLE $65C Sep 30** | Call (2) | **LAPSE** | Deep-OTM (~20% to strike), ~$0 salvage. Its narrow re-escalation-snap path fired Jun 27-28 (kinetic test) and did NOT pay. Now the deep-OTM **backstop** to the convex arm below — do NOT defend/add; re-arm only on a DURABLE ceasefire collapse. |
+> ## ⛔⛔ **CORRECTED 2026-08-04 — THIS TABLE UNDERSTATED THE BOOK'S LARGEST OIL POSITION BY 17.5×, AND I FLAGGED IT MYSELF TWO DAYS AGO AND DID NOT FIX IT.**
+> **`USO Shares (2)` was wrong. It is 35 SHARES, CONFIRMED BY WILL** [FORGE broker export 8/2]. My own 8/3 SCRATCH says verbatim: *"⚠️ USO EQUITY IS 35 SHARES, not the '2' my POSITIONS table carried since 7/21."*
+> **I recorded the discrepancy in a handoff file and never corrected the canonical surface — so for two days I cited "~$4,076 of undefended USO length" in packets to TERRY, PROME and Will while THIS table, the one that owns position status, said ~$258.** `[[finding_record_of_an_action_is_not_the_action]]` — **noting a defect is not fixing it, and the note let me believe it was handled.**
+> ⚠️ **Marks below are NOT current. See the vintage tag on every row.**
+
+| **USO** | Shares **35** | **HELD** | **qty 35 + cost $121.88 = ✅ Will-CONFIRMED, Fidelity IRA •1326** `[broker export 8/2, marks = Fri 7/31 close]`. **★ THIS IS THE BOOK'S LARGE UNDEFENDED OIL RISK (~$4,072 live), not a token long** — the $300 convex arm is the small defined one. Latest tranche in the activity tab: 7/29 BOUGHT −$643.40 (≈5 sh @ ~$128.68). ⚠️ **P&L HAS FLIPPED SIGN SINCE THE EXPORT: FORGE carries +6.0% / $4,520.95 at the 7/31 mark; at USO ~$116.3 it is −4.5% / ~$4,072 = −$449.** **Not a trim recommendation (root rule #7 — thesis intact).** |
+| **STNG** | Shares (2) — ⚠️ **UNVERIFIED** | **HELD** | War-risk/ton-mile beneficiary; BRT-15 lesson — a reopen is NOT uniformly tanker-bearish. ⛔ **STNG APPEARS NOWHERE IN FORGE** — not in the Fidelity IRA export, so qty and cost are carried from my own 7/21 note (~$159 at $79.66) and have **never been broker-verified**. Presumed Robinhood. **Added to the single-capture ask below.** |
+| **XLE $65C Sep 30** | Call (2) | **LAPSE** | `[broker export 8/2]` **cost $2.28 · mark $0.76 · −66.6%** (recovered from −76.7% on 7/30). Its narrow re-escalation-snap path fired Jun 27-28 and did NOT pay; it captured ~12% of the crude move. Deep-OTM **backstop** to the convex arm — do NOT defend/add; re-arm only on a DURABLE ceasefire collapse. ⚠️ *Stale note corrected: this row said "~20% to strike"; at XLE ~$58.7 the strike is **10.8% OTM**, ~57 DTE.* |
 | **CF $130C Jun 18** | Call (1) | **EXPIRED WORTHLESS (Jun 18)** | Closed; record only. |
 
 **No flat-price length (no new longs, no fresh shorts).** A fresh short fights both the priced-in reopening and the new upside skew; flat-price longs are the wrong vehicle for a tail (theta). Express via convexity only.
