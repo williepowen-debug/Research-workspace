@@ -91,4 +91,55 @@ The 6/26 mandate was *"reshape = recycle decaying premium, **no new net risk**"*
 - Non-Negotiable #1: PROPOSE-only. #2: max loss defined per shape (§4). #3: all marks live-pulled this session. #4: position truth = FORGE 8/2 reconcile + explicit DARK fence on the Robinhood leg.
 - Zero thresholds moved; zero orders placed; no TERRY ledger state cells altered beyond the INDEX/SETUPS registration of this memo.
 
+---
+
+## 7. 🔴 RECONCILIATION — main TERRY session, 2026-08-04 15:58 (`date`-verified). **D6 CLOSES, a 5th leg appears, and this card CORRECTS my own advice to Will.**
+
+Will supplied **both** broker captures (Fidelity + Robinhood) at ~15:40 and confirmed *"this is it"* — **the book is complete.** That resolves the fence this memo was built behind.
+
+### ✅ D6 CLOSES — the DARK leg is not there
+
+**The Robinhood options list is: `QQQ 712P 8/4` · `VLY 14P 8/21` · `USO 150/165 9/18` · `KRE 25P 1/15/27`. There is NO `WAL 77.5P Aug-21`.** ⇒ **D6 is discharged — nothing further is owed by Will on it.** WAL puts in the book are `67.5P` and `70P`, both **Sep-18**, both Fidelity. *(Whether the 77.5P was closed, expired, or mis-recorded is a records question, not a live-capital one — no decision depended on it, exactly as §1 fenced it.)*
+
+### 🆕 A FIFTH Aug-21 LEG NOBODY HAD — `VLY $14P`
+
+| | |
+|---|---|
+| Position | **VLY 14P Aug-21 ×1**, Robinhood · ≈$40 cost → ≈$15 value (−62.50%) |
+| Live chain 15:55 | spot **14.85** · bid **0.05** / ask 0.25 · OI **324**, vol **302** · `--legs 14` → ✅ **usable** |
+| Salvage | **$5 gross ≈ $4.35 net** |
+
+★ **And it inverts the treatment, because it is the only leg with a live path to value:** VLY needs **−5.8%** to pay. OZK needs −14.2%, KRE −23.1%, KELYA −50.4%. **⇒ It is the one leg where "ride" is a real argument rather than a lottery ticket** — though the desk's own attribution of record (bank/CRE ~0bp, HIGH confidence) gives it no thesis support. **At $4.35 either choice is defensible: include it if the D1 ticket is being placed anyway; do not place a separate ticket for it.**
+
+### 🔴 THIS CARD CORRECTS ME, AND THE ERROR WAS MINE
+
+At ~15:20 I told Will, from the Fidelity screenshot alone: *"NO RESHAPE — let them expire; you cannot reshape $48–63 across 8–9 contracts."* **The conclusion was right and the disposition was wrong.**
+
+| | My read (marks) | This card (bids) |
+|---|---|---|
+| KRE 60P ×3 | "$3" | **$0 — NOBID, unsellable at any price** |
+| KELYA 7.5P ×1 | *misread as Jan-2026* | **$0 — NOBID.** It is Aug-21; basis/value match this card exactly |
+| OZK 45P ×4 + 42.5P ×1 | "$45" | **$45 gross ≈ $41.75 net — SELLABLE** |
+
+**I read MARKS off a screenshot; this card pulled BIDS off live chains.** *A mark is what it is worth; a bid is what you can get.* That is this desk's own paper-book fill rule — **bid for sells, never mid** — and I broke it while quoting a disposition. **"Let them all expire" would have forfeited ~$42 of recoverable cash for nothing.**
+
+⇒ **D1 stands as this card wrote it. My advice is withdrawn and replaced by it.**
+
+### ★ The `NOBID` flag shipped this morning is what made this card right
+
+`chain_fetch.py` had **no quote sanity of any kind** before 8/4. Without the `NOBID` flag, KRE ×3 reads at its **$0.01 mark = $18 of "salvage"** that cannot be sold at any price, and KELYA the same. **The flag turned two phantom line-items into $0 on the first afternoon it existed** — and this memo also records that the `0.00%`-spread REJECT rule was armed and correctly did not fire. First live payoff of the morning's build.
+
+### Corrected leg table — five legs, both accounts, Will-confirmed complete
+
+| Leg | Acct | Qty | Bid | Realizable | Disposition |
+|---|---|---|---|---|---|
+| OZK 45P Aug-21 | Fido | 4 | 0.10 | **$40** | **SELL (D1)** |
+| OZK 42.5P Aug-21 | Fido | 1 | 0.05 | **$5** | **SELL (D1)** |
+| VLY 14P Aug-21 | RH | 1 | 0.05 | **$5** | **sell-if-ticketing, or ride** — only leg needing <10% |
+| KRE 60P Aug-21 | Fido | 3 | **0.00** | $0 | **let die** — no decision exists |
+| KELYA 7.5P Aug-21 | Fido | 1 | **0.00** | $0 | **let die** |
+| **Total** | | **10** | | **≈$50 gross / ≈$45 net** | |
+
+**Unchanged:** the reshape as chartered on 6/26 is **DEAD** — §4's funding arithmetic is untouched by any of the above, and every (b) shape remains ≥90% fresh capital behind the X1 banner.
+
 **APPROVAL REQUIRED — Will must approve/reject before execution.**
