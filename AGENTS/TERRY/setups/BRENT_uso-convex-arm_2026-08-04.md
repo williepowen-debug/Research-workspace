@@ -121,7 +121,30 @@ BRENT warned that leg (a) opening and rule #6 being satisfied are *normally* cor
   2. **Hormuz transits recover toward >35/day sustained.** Currently **10/day = 11.4%** of the 88/day baseline, `capacity_tanker` 0 DWT; Lloyd's List Intelligence has the most recent complete week at **39 vs 82 = −52.4% WoW**. ⚠️ Do not convert 39/wk to 5.6/day against the 88/day baseline — different series, blending forbidden by BRENT's own baseline doc. The valid figure is the **WoW ratio**.
   3. ⚠️ **Honest counter BRENT states against himself:** GPS jamming / AIS spoofing / dark transits bias **every** count down, so a dark-led recovery would be **partly invisible** to test 2.
 - **Gap/event risk:** this position is **long** convexity — a gap is the payoff, not the risk. The real risk is **decay with no gap**, which is the modal outcome and is exactly what §6 is written against.
-- **Concentration — N_eff = 1, and it is the sharpest thing on this card.** The book owns this view **four** ways once this is added: **USO 35 shares** (~$4,200; PROME 8/2 reconcile, *not a live pull*), the **USO Sep-18 150/165 spread**, **STNG**, and this. **Every leg dies on the same event — a genuine Hormuz reopening.** Size to independent views, never to the count of reasons. Concur with BRENT and PROME.
+- **Concentration — N_eff = 1, and it is the sharpest thing on this card.** ~~The book owns this view **four** ways once this is added: **USO 35 shares** (~$4,200; PROME 8/2 reconcile, *not a live pull*), the **USO Sep-18 150/165 spread**, **STNG**, and this.~~
+  🔴 **CORRECTED 2026-08-04 15:50 AGAINST A FULL TWO-ACCOUNT BROKER READ (Will-confirmed) — the count was wrong in BOTH directions: it named a position that is not held and missed two that are.**
+
+  | Oil expression | Value | Cost | On the old list? |
+  |---|---|---|---|
+  | **USO 35 units** | **$4,057.55** | $4,266.90 | ✅ (est. ~$4,200 — close) |
+  | **USO `Oct-16` 135C ×2** | **$910.00** | $1,421.33 | 🔴 **MISSING** |
+  | USO Sep-18 150/165 call debit spread ×1 *(Robinhood)* | ~$65 | ~$300 | ✅ |
+  | **XLE Sep-30 65C ×2** | **$98.00** | $455.35 | 🔴 **MISSING** |
+  | ~~STNG~~ | — | — | 🔴 **NOT IN THE BOOK** |
+  | *this card, proposed* | *+$300* | | |
+
+  **⇒ FIVE live oil expressions, not four — `$5,131` at market — and this card would be the sixth.** **Every leg still dies on the same event: a genuine Hormuz reopening.** *(Broker-verified 8/4 across Fidelity + Robinhood; Will confirmed "this is it" — the book is complete. Supersedes the 8/2 PROME reconcile, which was an estimate and is why STNG survived on this line.)*
+
+  ★ **And the proportion belongs on the card: we are debating a `$300` convex tranche sitting on top of `$4,058` of LINEAR USO shares — 11.6% of the account, no defined risk on the largest leg.** That is not mine to rule on (share exposure is Will's/BRENT's), but sizing the convex arm without it stated is sizing against the wrong denominator. **Size to independent views, never to the count of reasons.** Concur with BRENT and PROME.
+
+- 🔴 **THE ALTERNATIVE STRUCTURE `125C/135C ×1` IS UNAVAILABLE — DO NOT FILL IT. (Found 8/4 15:45 from broker truth, Will-confirmed.)** Will is **long `USO Oct-16 135C ×2`**. Selling a 135C does not create a short leg — **it closes half an existing long.**
+
+  | | Intended | What would actually execute |
+  |---|---|---|
+  | Book after | 125/135 debit spread, defined risk | **long 1× 125C + long 1× 135C** |
+  | Risk | capped both ends | more premium at risk, **no short leg** |
+
+  **⇒ The fallback is struck.** ✅ **The RECOMMENDED `125C/130C ×2` is UNAFFECTED** — it never touches the 135 strike, so BRENT's ruling #2 survives intact and this is one more argument for it. ⚠️ **If Will holds the ratified ~12–15% short-leg band, the answer is now NO TRADE, not "fall back to the wide"** — that option no longer exists in this account. *(Rule #6, position truth: this is exactly the failure the rule exists to prevent — a structure that prices correctly and executes into something else.)*
   - ⚠️ **Live consequence of today's tape:** the same −4.5% session is punishing all three existing legs. With USO at 116.94, the **Sep-18 150 strike is 28% OTM with 45 DTE.** Not this card's problem to solve, but Will should not read a new leg as diversification.
 
 ## 6. Target / management

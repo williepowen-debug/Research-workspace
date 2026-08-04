@@ -154,6 +154,22 @@ STATES: list[tuple[str, str]] = [
     (r"\bARMABLE\b", "ARMABLE"),
     (r"\bARMED\b", "ARMED"),
     (r"NO\s+TRADE\b", "NO_TRADE"),
+    # 🔴 DECISION-READY TRIED AND REVERTED, 2026-08-04 15:52 — the SECOND time today a
+    # vocabulary addition regressed the sweep, and the reason is different from the first.
+    # Check F correctly flagged TRY-RESHAPE-BC as carrying an unreadable state, and
+    # DECISION-READY passed the prose test cleanly (uppercase 12x, only ever a state;
+    # lowercase 14x, only ever prose). Adding it still broke things: cards are written
+    # "CONDITIONAL — DECISION-READY, UNARMED", so the new token collided with an existing
+    # one and check A reported TRY-BRENT-USOARM and TRY-FIRE-007 as disagreeing with
+    # themselves. They do not disagree — they say ONE state in TWO words at different
+    # granularity.
+    # ★ THE REAL DEFECT IS IN THE SURFACES, NOT THE VOCABULARY: SETUPS.tsv writes bare
+    #   "DECISION-READY" where the cards write "CONDITIONAL". Normalise the WORDING and
+    #   the token becomes safe to add. Doing that at 15:52 with a 16:15 gate live is how
+    #   a cosmetic fix breaks a trading surface, so it is deferred, not forgotten.
+    # ⛔ And adding (CONDITIONAL, DECISION_READY) to COMPATIBLE would have been the
+    #   forbidden move by name — teaching the checker that two words mean the same thing
+    #   instead of making the ledgers say the same thing.
     (r"\bCONDITIONAL\b", "CONDITIONAL"),
     (r"\bSTAGED\b", "STAGED"),
     (r"\bCLEAN\b", "CLEAN"),
