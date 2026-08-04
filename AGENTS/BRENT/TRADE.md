@@ -224,14 +224,22 @@
 | | Sep (M1) | Oct | Nov (M3) | Dec | Jan27 | Feb27 | Mar27 (M7) |
 |---|---|---|---|---|---|---|---|
 | 7/31 | 84.67 | 81.49 | 78.65 | 76.44 | 74.88 | 73.74 | 72.88 |
-| 8/3 | 79.13 | 77.20 | 75.36 | 73.87 | 72.79 | 71.98 | 71.32 |
-| **chg** | **−6.54%** | −5.26% | −4.18% | −3.36% | −2.79% | −2.39% | **−2.14%** |
+| 8/3 | 80.34 | 77.90 | 75.68 | 73.94 | 72.78 | 71.94 | 71.29 |
+| **chg** | **−5.11%** | −4.41% | −3.78% | −3.27% | −2.80% | −2.44% | **−2.18%** |
 
-**★ The front fell 3.06× as hard as the back.** That shape is the signature of **prompt risk premium being removed** — it is NOT demand destruction (which hits deferred barrels at least as hard) and NOT a supply event (which lifts the front). **M1−M3 backwardation compressed +$6.02 → +$3.77 = −37.4% in one session.** **Brent agrees independently: M1−M3 +$5.70 → +$3.98 = −30.2%.** Two instruments, one read.
+> ### ⛔ **CORRECTED 2026-08-04 — THE 8/3 ROW WAS AN INTRADAY READ WRITTEN AS A SETTLE. The figures above are now SETTLES, verified on two independent pulls.**
+> **What was wrong:** the 8/3 row read `79.13 / … / 71.32` with the front at **−6.54%**, the back at **−2.14%**, a **3.06×** ratio and M1−M3 at **+$3.77 (−37.4%)**. Those were **in-progress bar values pulled during the 8/3 session**, not closes — 79.13 sits inside that day's actual range (`O 80.10 H 81.30 L 78.43 C 80.34`).
+> **How it was caught:** re-pulling the strip at the 8/4 boot returned a different 8/3 column for the same contracts. **My own 8/3 work also contradicted itself and nobody noticed** — the behavioral test in this same file graded off a WTI settle of **$80.38**, while the curve table three sections away said **$79.13** for the same contract on the same day. *(Third instance this week — `[[finding_ohlc_verify_before_session_claims]]`.)*
+> **⚠️ AND THE BRENT LEG WAS ROLL-EXPOSED ON TOP OF IT:** Brent Sep (`BZU26`) expired after 7/31, so an M1−M3 spread spanning the roll compares different contracts. **Re-derived like-for-like on Oct−Dec, present on both days.**
+> **★ THE CONCLUSION IS UNCHANGED AND THE CORRECTED NUMBERS SUPPORT IT SLIGHTLY BETTER.** The error flattered the "premium coming out" half (2.34× is front-loaded, but less dramatically than 3.06×) and *understated* the "did not flip" half — the curve sat at **+$4.66**, further from contango than the +$3.77 reported. **And the two instruments now agree far more closely than the bad figures did: −22.6% vs −20.2% (was −37.4% vs −30.2%),** which is itself evidence the correction is right.
+
+**★ The front fell 2.34× as hard as the back.** That shape is the signature of **prompt risk premium being removed** — it is NOT demand destruction (which hits deferred barrels at least as hard) and NOT a supply event (which lifts the front). **M1−M3 backwardation compressed +$6.02 → +$4.66 = −22.6% in one session.** **Brent agrees independently, like-for-like Oct−Dec: +$5.70 → +$4.55 = −20.2%.** Two instruments, one read.
+
+**📅 UPDATED 8/4 (⚠️ IN-PROGRESS READING ~11:10 ET, NOT A SETTLE — labelled as such precisely because that is the defect corrected above):** WTI M1−M3 **+$3.01**, Brent Oct−Dec **+$3.09**. **Cumulative compression from 7/31: WTI −50.0%, Brent −45.8% across two sessions.** **STILL BACKWARDATED. STILL NO CONTANGO FLIP.** Front/back 8/3→8/4 ≈ **3.07×** — same signature, second session running. **Re-grade on the close before citing.**
 
 **Half 2 — and it is decisive: NOTHING COMPLETED.**
 
-- 🔴 **THE CURVE DID NOT FLIP.** It is **still +$3.77 backwardated** M1−M3. **Jun-17 — the one genuine signature event this regime has produced — took the curve into CONTANGO.** Today removed ~37% of the front spread and **left crisis structure fully intact.** A resolution flips the curve; a dip compresses it.
+- 🔴 **THE CURVE DID NOT FLIP.** It is **still +$4.66 backwardated** M1−M3 *(corrected 8/4 from +$3.77 — see the correction box above; the true figure is FURTHER from contango, so this leg is stronger than as-written)*. **Jun-17 — the one genuine signature event this regime has produced — took the curve into CONTANGO.** 8/3 removed ~23% of the front spread and **left crisis structure fully intact.** A resolution flips the curve; a dip compresses it.
 - 🔴 **PHYSICAL: zero movement.** Transits 11.4% of baseline, **0 DWT of tanker capacity on the last published day.**
 - 🔴 **INSTITUTIONAL: zero movement.** Hormuz AWRP **7.5-10% of hull** vs 1-3% pre-escalation; **$3-10M per transit on a $100M tanker vs ~$250K pre-war = 12-40×**; Lloyd's List reports Gulf war-risk *"topping double-digit millions of dollars per trip."* No P&I resumption notice. [Marsh/S&P 7/22 · The National 7/17 · Al Jazeera 7/23 · Lloyd's List LL1156586]
 - 🔴 **THE ENFORCEMENT WAR NEVER PAUSED — the pause is STRIKES-ONLY.** Two UKMTO-class incidents inside the "quiet" window: **8/1 a tanker STRUCK off Lima** (engine room damaged, not under command) and **8/2 2037Z UKMTO Advisory 103-26**, explosion close to a tanker 20-21NM NE of Khasab; Kuwait engaged Iranian drones 8/1. **Live anti-ship fire in the strait ~36 hours ago.**

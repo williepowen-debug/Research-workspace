@@ -24,7 +24,7 @@
 ## ★ THE SESSION IN THREE LINES
 
 **Market:** WTI settled **−5.07%** on a deal Tehran denied on the record; **OVX collapsed to 57.20 (−9.26%)** and **DEPLOY GATE v2 leg (a) FIRED** — but the gate did not, because leg (b) needs a live chain at fill and there was none.
-**Analysis:** **the CURVE is a new discriminator and it answered the hard question** — the front fell 3.06× the back (premium coming out) **but backwardation did NOT flip to contango** (Jun-17 did) ⇒ **ORDINARY DIP ~88%, not resolution.**
+**Analysis:** **the CURVE is a new discriminator and it answered the hard question** — the front fell 2.34× the back (premium coming out) **but backwardation did NOT flip to contango** (Jun-17 did) ⇒ **ORDINARY DIP ~88%, not resolution.** *(ratio corrected 8/4 from 3.06× — intraday-as-settle; verdict unchanged.)*
 **Process:** **two pre-registrations graded, both survived** — and grading them found a **third defect in the same one pre-reg**, which became **L22 clause (c)**.
 
 ## CHANGES SINCE LAST SESSION
@@ -42,7 +42,8 @@
 
 **② THE DISCLOSURE CLAUSE WORKED ON ITS FIRST LIVE TEST, IN THE RIGHT ORDER** — the three figures were staged **~11:15 ET, five hours BEFORE the close**, not assembled after a fire. **(i)** guidance-only/contested · **(ii)** 10/day = 11.4%, 0 DWT, Lloyd's −52% WoW · **(iii)** ORDINARY DIP **~88%** (raised from 85% on the Lloyd's evidence, deliberately only 3pp).
 
-**③ ★ PULLED THE CURVE — A DISCRIMINATOR I HAD NEVER USED FOR THIS.** WTI front **−6.54%** vs Mar-27 **−2.14%** = **3.06×** ⇒ prompt premium coming out. **BUT M1−M3 compressed +$6.02 → +$3.77 (−37.4%) and DID NOT FLIP to contango — Jun-17 did.** Brent agrees independently (−30.2%). **⇒ A RESOLUTION FLIPS THE CURVE; A DIP COMPRESSES IT.** → THESIS CHANGELOG (no version bump — v5.3 CONFIRMED, not amended).
+**③ ★ PULLED THE CURVE — A DISCRIMINATOR I HAD NEVER USED FOR THIS.** WTI front **−5.11%** vs Mar-27 **−2.18%** = **2.34×** ⇒ prompt premium coming out. **BUT M1−M3 compressed +$6.02 → +$4.66 (−22.6%) and DID NOT FLIP to contango — Jun-17 did.** Brent agrees independently, like-for-like Oct−Dec (−20.2%). **⇒ A RESOLUTION FLIPS THE CURVE; A DIP COMPRESSES IT.** → THESIS CHANGELOG (no version bump — v5.3 CONFIRMED, not amended).
+> ⛔ **FIGURES CORRECTED 2026-08-04 (was 3.06× · +$3.77 / −37.4% · Brent −30.2%): the 8/3 curve column was an INTRADAY read written as a SETTLE, and the Brent leg was ROLL-EXPOSED on top of it (Brent Sep expired after 7/31).** Caught by re-pulling the strip at 8/4 boot. **⚠️ Note the irony and do not lose it: item ④ below records me catching a Brent roll artifact in the headline % that same session — I caught the roll on one figure and missed it on the curve in the same file, and the intraday-vs-settle error was sitting next to a behavioral test I had correctly graded off the $80.38 SETTLE.** Verdict UNCHANGED; corrected curve is **further** from contango.
 
 **④ ⛔ CAUGHT A ROLL ARTIFACT IN MY OWN PUBLISHED FIGURE.** I reported Brent **−7.46%** in the boot report; `BZ=F` had rolled **Sep→Oct**, so I compared Friday's Sep against today's Oct. **Like-for-like Oct: −5.30%.** The roll inflated the decline ~2.2pp. **A CONTRACT change masquerading as a PRICE change.** WTI unaffected (`CL=F`=`CLU26`, matches Friday to the cent) — **and WTI governs the test by pre-registration, so Brent's friendlier number was NOT promoted.**
 
