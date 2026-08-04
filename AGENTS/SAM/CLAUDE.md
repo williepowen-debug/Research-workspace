@@ -110,6 +110,7 @@ Write a single `.md` file to `outbox/` per signal:
 **Priority:** 🔴/🟠/🟡
 ```
 - HERMES is retired: deliver a signal by writing the `.md` packet directly to the target agent's `inbox/` (coordinators PROME/WALTER route); reserve `outbox/` for PROME-action requests
+- ⚠️ **PROME's inbox is `PROME/inbox/` — NEVER `AGENTS/PROME/inbox/`.** PROME's home dir is `PROME/`, not `AGENTS/PROME/` (root CLAUDE.md § scope note); the `AGENTS/PROME/` tree was **removed 2026-07-24** and `PROME/inbox/` is the **sole** PROME delivery surface (Will-ruled 7/24, DM v1 spec). Writing to `AGENTS/PROME/inbox/` **recreates a dead tree**; nothing is lost (PROME migrates-and-flags it) but **it costs a session of latency every time**. SAM did this on 8/3 (regrow #4) and **again twice on 8/4 (regrow #5) — after PROME had already flagged it in writing**, because the flag arrived as a legacy inbox packet that the MAIL rule above says not to read at boot. *(Fixed here 2026-08-04 so the path lives in the protocol, not in a packet nobody reads.)*
 - **Write a signal when:** a threshold fires, a prediction resolves, or analysis produces an actionable insight
 - **Do NOT write for:** routine STATUS updates or data that only affects your own vectors
 
