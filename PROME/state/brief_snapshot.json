@@ -9,11 +9,11 @@
   "War-theater gates + housing recognition": "none"
  },
  "docket": {
-  "2026-08-03": "Fitch Auto Transition Report (ATR) refresh",
   "2026-08-04": "BOJ current-account projections primary",
   "2026-08-05": "Tricolor criminal: defense Rule 17 subpoena deadline on the Ch.7 TRUSTEE (",
   "2026-08-06": "BDC Q2 marks cluster",
-  "2026-08-07": "\u2605 JPY COT attribution print (Aug-4 data, 3:30 PM ET) = GATE-SAM-30 pre-reg"
+  "2026-08-07": "\u2605 JPY COT attribution print (Aug-4 data, 3:30 PM ET) = GATE-SAM-30 pre-reg",
+  "2026-08-09": "Architecture SECOND WAVE (Will-approved 7/28; T2-b ALREADY SHIPPED 7/28 ev"
  },
  "gates": {
   "GATE-BRENT-DEPLOY-V2": "LIVE",
