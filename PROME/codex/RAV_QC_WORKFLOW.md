@@ -18,7 +18,7 @@ RAV findings are review leads until PROME checks the current tree. Cross-vendor/
 ## Transmission Chain
 
 1. **RAV observes from the mirror.** RAV refreshes the read-only mirror, inspects the current repo state, and records exactly what was and was not checked.
-2. **RAV records durable findings.** Small reviews go directly into `PROME/codex/RAV_QC_LEDGER.md`. Larger reviews get a dated detail report under `PROME/codex/findings/` and a linked ledger row.
+2. **RAV records durable findings.** *(RECONCILED with charter §5, 2026-08-03 EVE per DAEDALUS ruling — the charter wins on drift: **`AGENTS/RAV/runs/` is the RUN deliverable home** [one report per run, affirmative Flags section]; the LEDGER below is the DISPOSITION surface and stays PROME's.)* Small reviews go directly into `PROME/codex/RAV_QC_LEDGER.md`. Larger reviews get a dated detail report under `AGENTS/RAV/runs/` and a linked ledger row.
 3. **PROME verifies.** PROME checks each open RAV row against the live tree before acting on it.
 4. **PROME routes or rejects.** If real, PROME assigns owner/severity and routes a packet or queue item. If false/stale/non-actionable, PROME marks the row rejected or superseded.
 5. **Owners fix their own surfaces.** WALTER fixes WALTER, SAM fixes SAM, ORACLE fixes ORACLE, and so on. RAV should not bypass owner ownership unless Will explicitly scopes that edit.
@@ -42,7 +42,7 @@ Statuses:
 - `Routed`: PROME sent it to an owner or queue.
 - `Fixed`: Owner/PROME fixed it and the artifact was verified.
 - `Rejected`: PROME checked and found the issue false or non-actionable.
-- `Superseded`: Later repo state made the row obsolete.
+- `SUPERSEDED`: Later repo state made the row obsolete. *(Re-cased 8/3 per STATE_VOCABULARY canon — machine-read tokens are UPPER; PAT-075.)*
 - `Watch`: Not actionable yet, but worth checking again.
 
 Severity should reflect operational risk, not novelty.

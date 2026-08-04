@@ -55,6 +55,7 @@ Active + Tier-2 domain owners and meta-agents with live folders. Full verified c
 | OZK | [`OZK/`](./OZK/) | Credit (Bank OZK single-name specialist — revived 2026-07-18 on its Q2 gate exactly as pre-registered; ROSTER flipped 7/22; this row moved from Dormant 7/25 registration sweep) |
 | WALTER | [`WALTER/`](./WALTER/) | Synthesis / Ops |
 | WATT | [`WATT/`](./WATT/) | Energy / Commodities (power/grid: PJM stress → price → cost) |
+| RAV | [`RAV/`](./RAV/) | Meta — deep factual/analytical reviewer + bounded repair (Codex, Will-driven) |
 | YEYOU | [`YEYOU/`](./YEYOU/) | Meta — repo-wide reviewer (manual/branch) |
 | ZHAO | [`ZHAO/`](./ZHAO/) | Funding / Macro (China — UST demand / capital flows / Korea; reactivated 2026-07-05) |
 

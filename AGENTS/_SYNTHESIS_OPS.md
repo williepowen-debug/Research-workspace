@@ -31,6 +31,7 @@ Canonical paths remain `AGENTS/<NAME>/` for active agents. Prome is the orchestr
 | Agent | Path | Role |
 |---|---|---|
 | DAEDALUS | [`DAEDALUS/`](./DAEDALUS/) | Fleet architect — design/structure/maturity/lifecycle (on-demand). |
+| RAV | [`RAV/`](./RAV/) | Meta — deep factual/analytical reviewer + bounded repair (Codex, Will-driven). |
 | YEYOU | [`YEYOU/`](./YEYOU/) | Repo-wide reviewer (manual/branch model). |
 
 ## Archived / dormant
