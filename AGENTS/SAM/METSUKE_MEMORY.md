@@ -479,6 +479,8 @@ Track **declines-per-10-runs** here. A long streak of 100% acceptance is ambiguo
 
 *Forward-looking context to bias the next run. SAM seeds these between runs; METSUKE may also write at end-of-run when a future condition is anticipated.*
 
+- 🔧 **SEEDED BY SAM 2026-08-04 PM — Run-12 flag #5 (CAL-DRIFT) carries a STALE FIGURE; do not apply it verbatim.** That flag is still owed an apply pass and its text says the Sep 17-18 BOJ MPM lands on the boundary **"at ~77% unpriced."** **It is ~60%** as of 8/4 (Sep OIS ~23% → ~39.7%; cumulative basis, as-of 8/3, wire-corroborated). **The flag's SUBSTANCE stands** — the Sep 17-18 MPM genuinely is missing from TRADE Key Dates and L255 genuinely mis-enumerates the window — **apply the substance, but write ~60%, not ~77%.** ⚠️ Also carry the sign: the route pays on **SURPRISE**, so the repricing makes that leg **weaker**, not "more load-bearing." *(Found by RAV QC — SAM's own propagation sweep missed this file.)*
+
 ### Inaugural-run hints (Jun 1 2026 baseline state of trade docs) — CONSUMED Run 1
 
 *Run 1 verified these hints against current state-of-truth and converted to concrete flags. Retained here for reference of what the hints caught vs missed. Replaced by post-Run-1 hints below at Run 2.*
