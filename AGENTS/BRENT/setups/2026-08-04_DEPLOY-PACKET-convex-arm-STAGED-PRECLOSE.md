@@ -1,5 +1,10 @@
 # 📋 DEPLOY PACKET — CONVEX ARM · **STAGED PRE-CLOSE 2026-08-04 ~12:55 PM ET**
 
+> # ⛔ **SUPERSEDED 2026-08-04 14:0x ET — DO NOT ACT ON THIS FILE.**
+> **Live packet → `2026-08-04_DEPLOY-PACKET-convex-arm-v3-GATE-LEGS-a-a2-MET.md`.**
+> **Why:** §0 below poses the fillability question as OPEN and states *"I am deliberately not proposing the fix."* **It has since been answered and ratified.** The unverified 16:00-vs-16:15 question in §0/§24 is **RESOLVED: `^OVX`'s final bar is 16:00** (`^VIX` runs to 16:10; **OVX does not**) ⇒ **the v2 window was ZERO minutes, not 15**, and **DEPLOY GATE v3** was ratified by Will the same afternoon (`TRADE.md §DEPLOY GATE v3`).
+> **RETAINED UNEDITED as the dated record** that the disclosure clause was staged ~3 hours before any fire, and that the fix was **declined at midday** rather than proposed on the afternoon it would have enabled a fill. **Its two blank verdict lines are left blank on purpose** — they were never graded under v2, and back-filling them now would manufacture a history that did not happen.
+
 > # ⛔ **THIS IS NOT A FIRE, NOT A GRADE, AND NOT A REQUEST TO APPROVE ANYTHING YET.**
 > **Leg (a) grades on the 16:00 CLOSE (Will-frozen 7/31, close basis). The close does not exist. Leg (b) grades on a re-pulled chain at fill.** Both verdict lines below are **deliberately blank.**
 >

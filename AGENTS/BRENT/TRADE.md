@@ -63,7 +63,26 @@
 
 ---
 
-### ⚑⚑ DEPLOY GATE v2 — **RATIFIED BY WILL 2026-07-30 (Option A). SUPERSEDES the `{ratio <2.89 AND OVX <44.2}` cooldown gate in full.**
+### ⚑⚑⚑ DEPLOY GATE **v3** — ✅ **RATIFIED BY WILL 2026-08-04. THIS IS THE LIVE GATE.** *(v2 below is retained as the base spec + dated record; v3 changes leg (a)'s MEASUREMENT MOMENT and adds leg (a2). Everything else in v2 stands unchanged.)*
+
+> **⛔ WHY v2 HAD TO CHANGE — an INSTRUMENT fact, verified 2026-08-04, not a preference.** **`^OVX`'s final intraday bar is 16:00** (7/31; 15:55 on 8/3) — **`^VIX` runs to 16:10 but OVX does NOT** — and **USO options close 16:00.** ⇒ v2's leg (a) became knowable at exactly the moment leg (b) became ungradeable. **The execution window was ZERO, not the 15 minutes assumed.** Deferring to the next open is circular (leg (a) is not banked, so N+1 would need N+1's close). **v2 was a MIXED-LATENCY BASKET WEARING A SINGLE WINDOW — the precise defect LESSONS #21(b) ratified a fix for on 7/29, which I then reproduced here on 7/30.** Full proposal, base rates, rejected alternatives and limits → `setups/2026-08-04_DEPLOY-GATE-v3-fillability-respec-PROPOSAL.md`.
+
+| Leg | Cadence | **FROZEN test** |
+|---|---|---|
+| **(a) Vol decompression** | **daily** | **The MOST RECENT OFFICIAL OVX CLOSE ≤ peak × 0.85**, peak = running max of **closes** since arming (**re-ratchet unchanged**). ⇒ a **STATE**, known at 09:30, holding all session. *(v2 read "this session's close" — that one phrase is the whole change.)* |
+| **(a2) Live non-reversal** 🔻**NEW TIGHTENING** | **minute** | **At the moment of the ticket, OVX must PRINT ≤ the SAME frozen line.** **EXISTENCE form** — fill at any moment it holds; **never fill while it does not.** |
+| **(b) Structure economics** | **minute** | **UNCHANGED** — net debit **≤33.0% of width**, live chain, **at fill**. |
+
+- **🔻 DIRECTION-NEUTRALITY per the ratified #21(b) rule.** v3 **loosens** (it makes the gate fillable at all), so it ships with **two tightenings**: **① leg (a2) is new** — v2 required **ONE** reading below the line, v3 requires **TWO INDEPENDENT** ones (an official close **and** a live print at the ticket) ⇒ **on the evidentiary axis v3 is STRICTER than v2**; **② clearance EXPIRES at the end of the next session** — leg (a) banks for **exactly one session** and **never accumulates**; unfilled, it must re-qualify off a fresh close.
+- **📊 BASE-RATED BEFORE ADOPTION** (LESSONS #21), `^OVX`+`BZ=F` 2007-07-30→2026-08-04, n=4,729, 113 de-overlapped episodes: fire rate **68.1%**/20td · Brent entry slippage from filling one session later **median −0.04%** · OVX at fill **+3.3%** (second-order on a **vertical** — L15) · **P(max Brent +15% within 63d) 38.2% → 39.5%, +1.3pp ⇒ the tail is NOT degraded.** Leg (a2) in existence form **blocks 7.8%** of fire sessions (the strict "≤line at every moment" form blocks 66.2% and was rejected).
+- ⛔ **THE DISCLOSED COST, carried on the spec so it is not lost with the proposal doc: on 31.2% of fire sessions OVX CLOSES BACK ABOVE THE LINE.** Roughly **one fill in three** lands on a day whose own close would not have qualified. **That is the real loosening.** Bounded by (a2); did not show up as tail damage; **ratified with this on the table.**
+- ⚠️ **NOT INDEPENDENTLY VERIFIED:** USO **options'** 16:00 close (OVX's 16:00 IS verified). If USO options run to 16:15 the v2 window was 15 minutes rather than zero — **still unfillable for an [Approve]-gated discretionary trade, so v3 is unaffected**, but the defect statement would soften.
+- ⚠️ **AND THE AUDIT THAT CLEARED v2 NEVER TESTED THIS:** my 8/2 premise-check (*"THE GATE IS SOUND"*) base-rated **daily closes** — i.e. **it modelled v3's cadence, not v2 as written.** It validated a gate nobody could execute. **A spec can pass every test of statistical merit while failing on its execution window.**
+- **⛔ A FIRING GATE CARRIES ZERO THESIS INFORMATION** (TERRY, 8/4 13:35, adopted): leg (a) fires because OVX **decayed**; leg (b) passes because USO **fell**. **Both legs open as the market prices LESS of this thesis.** **A gate that fires is not evidence the trade is right** — the thesis case must stand on the curve, the physical leg and the tolled-corridor reading. **Will's [Approve] at fire remains the premise control.**
+
+---
+
+### ⚑⚑ DEPLOY GATE v2 — **RATIFIED BY WILL 2026-07-30 (Option A). SUPERSEDES the `{ratio <2.89 AND OVX <44.2}` cooldown gate in full.** ⚠️ **SUPERSEDED IN PART 2026-08-04 BY v3 ABOVE — leg (a)'s measurement moment only. Read v3 first; everything else below is LIVE.**
 
 > **⛔ WHY THE OLD GATE IS GONE — and it is NOT the reason I first escalated.** I told Will the gate *"may be unfireable by construction."* **That was false: it was met on 50.4% of the prior year's sessions and last opened 7/06.** The real defect: **the gate and this arm's own trigger are MUTUALLY EXCLUSIVE BY CONSTRUCTION** — the arm arms on **escalation**, the gate opened on **calm**. Over 753 sessions the gate was open on **0 of 38 escalation days (0.0%)** vs **78.5% of all others**. **No threshold choice fixes an anti-correlation.** Secondary defect: the gate priced **vega** while LESSONS #15 mandates a **vertical spread precisely because a spread neutralises vega** — at spec moneyness the debit rises only **+13.5%** from the old line (44.2) to OVX 63.8 and **asymptotes above ~90% IV**, versus **+140%** for the naked call the plan bans. **The gate was correctly specified for the instrument this plan forbids.** Full analysis + limitations → `setups/2026-07-30_LESSONS21a-cooldown-gate-respec-PROPOSAL.md`. Class → `[[finding_compound_gate_jointly_unsatisfiable]]`.
 
@@ -75,7 +94,7 @@
 
 | Leg | **FROZEN test** | Controls |
 |---|---|---|
-| **(a) Vol decompression** | **OVX ≤ −15.0% from its running peak measured SINCE THE ARMING DATE — ✅ CLOSE BASIS, Will-ruled 2026-07-31 (peak AND line both on closes; intraday readings are NOT the gate)** | "Don't buy the panic tick" — measured *relative to this crisis*, never against a calm-market absolute, never a percentile |
+| **(a) Vol decompression** ⚠️ *(measurement moment SUPERSEDED by v3 — the −15.0% level, the close basis and the re-ratchet are UNCHANGED and still live)* | **OVX ≤ −15.0% from its running peak measured SINCE THE ARMING DATE — ✅ CLOSE BASIS, Will-ruled 2026-07-31 (peak AND line both on closes; intraday readings are NOT the gate)** ⚠️ **v3 reads this against the MOST RECENT official close rather than "this session's" close, and pairs it with the new live non-reversal leg (a2). Will's close-basis ruling is NOT reversed — under v3 an intraday print can only ever BLOCK a fill, never cause one.** | "Don't buy the panic tick" — measured *relative to this crisis*, never against a calm-market absolute, never a percentile |
 | **(b) Structure economics** | **Net debit ≤ 33.0% of spread width** (⇔ **R:R ≥ 2.0:1**), from a **LIVE CHAIN** at fill | The thing the vol legs were proxying for, measured directly. Also catches bad strike selection and blown-out crisis bid/ask |
 
 - **⏳ EXPIRY:** if neither leg fires inside 20 td, **the arm EXPIRES UN-DEPLOYED** and requires a **FRESH** Tier-1/Tier-2 event to re-arm. *(v1 had NO expiry — "ARMED-and-HOT" could persist indefinitely. This is the single biggest tightening in the package.)*
