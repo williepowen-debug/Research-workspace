@@ -111,7 +111,7 @@ The 005 card's structure was **58C ×6 + 59C ×20**, with the 59C as the 20-lot 
 2. **🔴 The term structure does NOT clearly confirm SAM's "near-tenor compressed" verdict, and I will not claim it does.** Aug-21 → Sep-18 ATM IV by strike: **58: 12.31 → 13.43 (+1.12)** · **57: 13.97 → 13.53 (−0.44)** · 59: 11.72 → 14.09 (+2.37, but Sep vol=9). **Mixed, roughly flat, ~1 vol upward at the money.** SAM's *structural* argument stands on its own logic; **the vol surface has not yet priced it.** *(Read the other way, this is mildly bullish for entry: Sep-18 carries a named BOJ meeting with ~77% unpriced hike mass for ~1 vol over a month that contains no such event — which is cheap, not rich. I am flagging both directions and asserting neither.)*
 3. **No informational edge in the catalyst.** SAM's §5.1, adopted here in full: the intervention was announced to us and to the entire options market in the same public statement.
 4. **One session of follow-through** (§3).
-5. **Effective-N:** this is a **genuinely new axis** for the book — the live book is duration-short + energy + banks. **N_eff += 1, no shared falsifier with any existing leg.** Sizing at $450 is ~1.1% of the ~$39.5k book.
+5. **Effective-N:** ~~this is a **genuinely new axis** for the book — the live book is duration-short + energy + banks. **N_eff += 1, no shared falsifier with any existing leg.**~~ **🔴 THIS CLAIM IS WRONG AND IS CORRECTED 2026-08-04 — see §10.B. NEXUS refuted it the same evening I wrote it: 007 and `TRY-FIRE-004` now share the POLICY-AUTHORITY root (the rates leg and the FX leg have distinct instruments and distinct falsifiers, but a single policy reversal moves both). ⇒ `N_eff += ~0.5, NOT +1`, and 004+007 are ~1.5 roots, not 2.** Sizing at $450 is ~1.1% of the ~$39.5k book — **but it was sized against a diversification claim that does not hold** (§10.B).
 
 ## 8. Root rule #6 (day colour) at fire
 
@@ -124,11 +124,64 @@ Long FXY is the **call** side ⇒ the clean day is a **RED FXY day**. FXY is **g
 
 This card is **decision-ready and parked** until **Fri 2026-08-07 3:30 PM ET**. On a CONFIRM print I will re-pull the chain live and bring a one-line ticket:
 
-> **BUY 9 × FXY Sep-18-2026 $60 CALL @ $0.50 limit — $450 at risk, max loss $450.**
+> ~~**BUY 9 × FXY Sep-18-2026 $60 CALL @ $0.50 limit — $450 at risk, max loss $450.**~~
+> **🔴 SIZE SUPERSEDED 2026-08-04 (§10.C): the recommendation is now `5–6 × @ $0.50 = $250–300`, not 9 × / $450**, because §7.5's `N_eff += 1, no shared falsifier` was refuted by NEXUS (004 and 007 share the policy-authority root ⇒ `+~0.5`) and the modal winning path re-weighted toward *grind-too-slow*. **9 × returns only on an 8/7 print showing the short crowd HELD** (positioning intact ⇒ unwind fuel still loaded).
 
-**Open items before any fire:** ① SAM confirms the BOJ Sep-18 announcement timing in writing (§3) · ② live chain re-pull (rule #4) · ③ root-rule-#6 day-colour check (§8) · ④ Will [Approve].
+**Open items before any fire:** ~~① SAM confirms the BOJ Sep-18 announcement timing in writing (§3)~~ **✅ CLOSED 8/3, see §10.E** · ② live chain re-pull (rule #4) · ③ root-rule-#6 day-colour check (§8) · ④ Will [Approve] · **⑤ 🆕 size ruled per §10.C off the 8/7 COT print.**
 
 **APPROVAL REQUIRED — Will must approve/reject before execution.**
 
 ---
-*Built 2026-08-03 ~10:20 ET off SAM's 09:30 packet. All marks live-pulled this session and barred from use at fill. Supersedes nothing — `TRY-FIRE-005` remains DEAD and archived.*
+
+## 10. 🔴 RULING — 2026-08-04 ~11:10 ET · SAM's Flag 1 + Flag 2 CLOSED, NEXUS's root count adopted
+
+*My own `STATUS.md` called Flag 1 "the single most important open construction question on the desk" and demanded a ruling before 8/7. Here it is. **Card stays UNARMED, $0 at risk; nothing below fires anything.***
+
+### A. ⚠️ FIRST — SAM and NEXUS are ONE vote, not two, and I am saying so against my own convenience
+
+Both packets say the same thing: the distribution has rotated from gaps toward **escorted, managed appreciation**, so a Sep-18 expiry is exposed to the scenario that became *more* likely. SAM derives it from a character read; NEXUS from a root-map merge, and NEXUS explicitly claims independence (*"corroborating from the root side, not re-reporting"*).
+
+**They share an antecedent: the 7/30 two-sovereign op and Bessent's 8/2 forward commitment. One fact, two framings. Count it as ONE vote.**
+
+**This is the same test I applied to SAM and PROME yesterday** when they both called 005 "shelved" — *"the two of us agreeing was not independent confirmation, it was one stale relay read twice"* (SAM's words, accepted). **Applying it only to evidence I dislike would make it a rhetorical device rather than a rule**, so it gets applied here, where the evidence points somewhere uncomfortable for a card I built.
+
+**⇒ ONE vote — but a strong one**, because the inference is short: a publicly pre-announced, forward-committed two-sovereign put under the yen implies *managed* rather than *violent* appreciation directly. It does not need corroboration to be sound.
+
+### B. 🔴 THE CORRECTION I OWE ON MY OWN CARD — §7.5's "N_eff += 1, no shared falsifier" is WRONG
+
+**NEXUS (8/3 19:30):** the Fed's hawkish hold, the BOJ's hawkish hold and the US Treasury's yen purchase are **one coordinated policy stance expressed through three instruments — 1 vote, never 3.** Break-relevant roots go ~4-5 → ~4, with **R1 (policy-authority) and R6 (FX) now merged on the FX axis.**
+
+**Consequence, stated plainly: `TRY-FIRE-004` (TLT Sep-30 77P) rides the policy-authority root and 007 rides the FX axis of that same root. They are ~1.5 roots, not 2. A single policy reversal moves both.** The merge is *partial* — distinct instruments, distinct falsifiers — so this is not "the same trade twice." But **"no shared falsifier with any existing leg" was false when I wrote it**, and I wrote it as the justification for the size. Corrected at the claim site in §7.5.
+
+### C. ✅ FLAG 1 — RULED: **KEEP Sep-18. But the framing is imprecise, and the honest consequence is a RE-PRICE, not a note.**
+
+**1. "A Sep-18 expiry monetises a GAP and nothing else" is not quite right, and the imprecision matters.** A long call monetises a **LEVEL by a DATE**, not a gap. Escorted appreciation pays this card perfectly well **if it is fast enough to clear BE 60.50 by Sep 18.** The exposure is not to *grind-vs-gap*; it is to **grind-too-slow**. That is a rate question, and it deserves to be priced as one rather than accepted as a binary.
+
+**2. The grind path is ALREADY monetised — by the harvest rule, not by the expiry.** §6 T1 (`NO_HARVEST_RULE`, and this was the first card built under it) sells **at least half at 2× / $1.00 bid, keyed to the position's own mark and explicitly not conditional on the BOJ.** An escorted appreciation that lifts FXY through ~59.5–60 pays that harvest **on the way up, whether or not the BOJ ever delivers.** So the card does **not** read as "captures the September catalyst generally" — SAM's stated worry — because the exit that collects the escorted path is already written and is not event-keyed.
+
+**3. What IS genuinely exposed, and it is unavoidable at this tenor:** a grind that arrives *late* — FXY 59–60.4 on Sep-18 — pays **zero**, having been right about direction for six weeks. The menu is binary (FXY lists 6 expiries; no Sep-26, no October) and **Dec-18's 44.4% quoted spread remains a real and sufficient disqualifier**: on a ~$450 ticket the friction exceeds the value of +13 weeks. **Keeping Sep-18 is therefore choosing a known, bounded, stated weakness over an unbounded execution cost.** That is the trade-off, owned, as SAM asked.
+
+**4. 🔴 THE CONSEQUENCE SAM AND NEXUS ACTUALLY EARN — and it is not a note, it is a number.** If the distribution has rotated toward slower/managed appreciation, then **P(clearing 60.50 by Sep-18) has FALLEN.** The card's §-payoff line (FXY 62 ≈ 4×, FXY 64 ≈ 8×) is unchanged as *arithmetic* but its *probability weighting is now lower than at build*. **⇒ The expected value of this card is lower today than it was yesterday, and it was sized at $450 against a diversification claim (§7.5) that §10.B just refuted.**
+
+> **⇒ SIZING PUT BACK TO WILL, and it is the ruling that matters:** at `N_eff += ~0.5` rather than `+1`, and with the modal winning path re-weighted toward "too slow," **I no longer defend $450 as the right size on this card. My recommendation on 8/7 will be $250–300 (5–6 contracts) unless the COT print materially changes the distribution** — i.e. a print showing the crowd **held** (positioning intact ⇒ the unwind fuel is still loaded ⇒ the violent branch is live), which is exactly the discriminator NEXUS names. **A print showing the crowd covered into the op argues the Break-aligned leg is partly spent and cuts the other way.**
+
+**This is a re-price, not a veto. 007 remains a coherent card and the thesis got *better* while the convexity got *worse* — NEXUS's phrase, and it is the right one.**
+
+### D. ✅ FLAG 2 — PRICED, not dismissed (SAM asked for one or the other in writing)
+
+**Pin risk is REAL and it is ADVERSE, and the reason is arithmetic:** ~33.5K OI at a round strike on a monthly opex is a pin magnet, and **a pin at exactly $60 pays this card $0** — the 60C is worth nothing at 60.00. So the crowding does not merely dampen travel; **it clusters the distribution on the one price where we get nothing.**
+
+**Mitigant, and it is already in the structure:** the **2× harvest at $1.00 exits before expiry day.** Pin risk is an *expiry-day* phenomenon; a plan that collects at 2× on the way up never reaches it. **⇒ If this card is ever relying on expiry-day intrinsic value, the management plan has already been broken** — which makes T1 load-bearing rather than decorative, and is one more reason not to let it be waived under pressure.
+
+**Honest other side, SAM's own:** the crowding is *why the market exists* — the 60C went from "bid $0.00 / ask $0.50, 200% spread, no real market" in July to a 10.5% spread on OI 33,541. **We are buying liquidity that only exists because the strike is crowded.** Both effects are real; they do not cancel, they apply at different times — the liquidity helps at entry and at the harvest, the pin hurts only at expiry.
+
+### E. Blocker — CLOSED ✅
+
+SAM's §1 figures accepted: BOJ MPM Sep 17–18, decision day 2, statement **10.5h** (typical, matching the graded 7/31 precedent of 12:11 JST) to **7.5h** (deliberately pessimistic late case) before the 09:30 ET open; Ueda presser **7.0h**. JST = ET+13 with no DST trap in September. **The expiry captures the event. 007 is NOT void on timing.** Recorded: on the 7/31 evidence **the presser, not the statement, does the repricing** (Oct OIS ~26–40% → ~64%, September named) — and it too is pre-open.
+
+### F. Status after this ruling
+
+**UNCHANGED where it counts: DECISION-READY / UNARMED / $0 at risk / WAIT-FOR-8/7.** No guard relaxed, no gate moved, no entry pulled forward. Changed: §7.5 corrected, the tenor trade-off owned in figures, pin risk priced, and **the size recommendation cut from $450 to $250–300 pending the 8/7 print.**
+
+---
+*Built 2026-08-03 ~10:20 ET off SAM's 09:30 packet. All marks live-pulled this session and barred from use at fill. Supersedes nothing — `TRY-FIRE-005` remains DEAD and archived. §10 ruling added 2026-08-04 on SAM's two flags + NEXUS's root count.*

@@ -552,6 +552,15 @@ Pull **both legs** of the live 4-lot position: VIXW Aug-05 **20C** (long) and **
 | **3** | **TERRY's forward-beta structural finding** (§11.D-1) | TERRY | a further spot move again fails to lift the 8/5 forward proportionally | forward beta rises materially as expiry nears (it should — beta→1 at settle) |
 | **4** | **The short-gamma steelman** (VIOLET §4③ / HENRY: net GEX −$39.4B/−$59.2B, spot 136–149pts below flip) | HENRY | no violent amplified down-leg by 8/5 | a second leg down gets amplified exactly as warned — **this was the strongest argument for patience and it deserves an honest grade** |
 
+> ### 🔴 GUARD ADDED 2026-08-04, ONE DAY BEFORE THE RESOLVE — **row 4 cannot be graded off a gamma-flip level, and `7,455` is now TWO DIFFERENT OBJECTS.**
+>
+> **WALTER `SIG-W-20260803-002` (a correction to its own `-20260802-004`), verified at three owner-side primaries — VIOLET STATUS, PROME `ACTIVE_DECISIONS` row 48, HENRY MEMORY:**
+> - **The `7,455 / 7,491 / 7,496` gamma band was RETIRED on 7/30 when this position exited.** It has **no live source** — HENRY superseded the chain it came from. Row 4's *"spot 136–149pts below flip"* is a **point-in-time registration figure, not a level I may re-measure against tomorrow.**
+> - **⚠️ `7,455` ALSO NAMES A LIVE OBJECT: Goldman's CTA short-term trigger.** Same number, different thing, still active. **Reaching for "7,455" tomorrow binds the wrong object roughly half the time** — and it would bind it in the direction that makes row 4 look cleanly resolved. *(Cf. `finding_relabeled_number_viral_stat` and `finding_reconcile_match_on_key_not_substring` — match on the KEY, never the number.)*
+> - **SPX 7,577.72 (8/3) is ABOVE the whole retired band.** ⛔ **Do not read that as row 4 resolving TRUE.** A thesis-kill cannot fire on a position that no longer exists (WALTER's words, and they cut both ways): the same print is also the **relief-rally path VIOLET named as how this position dies**, so the naive read and the honest read point opposite ways.
+>
+> **⇒ HOW ROW 4 ACTUALLY GETS GRADED:** on whether **a violent amplified down-leg occurred by 8/5** — the *phenomenon* HENRY predicted — evidenced by realized SPX path and VIX behaviour, **not** by comparing spot to a flip level that no longer has a publisher. If HENRY has published a refreshed flip, that is a **new** measurement and must be cited as such with its own date. **If no live flip level exists, row 4 grades on the phenomenon or it grades NO-VERDICT — it does not grade on a retired number.**
+
 **What does NOT get graded on 8/5:** *"was a dated mandatory exit a good rule."* **That needs n>1.** One trade cannot grade a policy, and grading it on this draw is the outcome-bias error. It goes to the calibration record and accumulates.
 
 **Review mechanics:** TERRY owns this. Resolve on **2026-08-05** off the official CBOE VIX SOQ (not yfinance spot, not the close). Un-owned-gate rule applies → this is written as an explicit pickup line in `STATUS.md`, not left to memory.
