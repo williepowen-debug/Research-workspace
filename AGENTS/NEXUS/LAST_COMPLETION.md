@@ -32,6 +32,39 @@ STATUS sanity ✓ (**176/200**; Δ-convention held — no row bumped without a m
 - **→ PROME** 🔴 — **Athene grade orphans 8/4, 2nd flag** (SHADE dark since 7/27 + brief-less; asked to schedule-or-re-own on 7/31, no evidence it happened; a Q2 insurer print read 3 days late loses the FABN-refresh window that makes it a *test*) · C-36 CONTESTED **accepted** · ARCC 4th flag · AEOLUS Colorado-River DOCKET row confirm · T-19 FYI.
 - **→ LIQUID** 🟠 — read the 8/3 CCC/HY print; three-branch discriminator supplied (in-line-with-DISH ⇒ guard holds · materially more ⇒ healing candidate · **widens THROUGH** ⇒ strongest credit datum of the window). Explicitly **not** a re-litigation of T-12 — RED's ruling and LIQUID's beta attribution are both carried as standing.
 
+---
+
+# UNIT 2 — Will-directed follow-through (~7:10–7:50 PM ET)
+*"suggest next steps for NEXUS" → "ok go ahead". Four items: one defect I created this session, one routing obligation I skipped, the analytical work, and two hygiene closures.*
+
+## 2a. 🔴 DEFECT (mine, from unit 1) — C-36's CONTESTED flag never reached `CONFIRMED.md`
+I wrote the flag into STATUS's pointer block and stopped. **`CONFIRMED.md:18` still read C-36 at ~85% with zero mention of "contested"** — verified by grep, `contested` count = 0 in the whole file. The one-surface-updated class: the trophy case advertised a clean confirmation of a label LABOR's FOMC-language grade had put under active challenge that same day. **FIXED** — row retitled to *"LEVEL confirmed; the POLICY-PATH LABEL is CONTESTED,"* conf cell split (`~85% on the level · label CONTESTED`), the full contest recorded (verbatim-identical labor sentence · presser 0-of-6 · ECI's knock-on · HEN-42 · the 3-flagged term-premium axis incl. ORACLE's declared blind-spot), **BOND named as adjudicator**, and an explicit ⛔ *do not cite C-36 as settled evidence FOR a policy-path attribution until BOND rules — cite it for the level.* Level EXTENDED since promotion (30Y 5.28 on 8/2, a cycle high printed INTO a 2.3% equity rally) and that is now recorded too.
+
+## 2b. 🔒 THE SPLIT NOW HAS A REGISTERED FALSIFIER — frozen before the 8/4 open
+`research/2026-08-03_split_and_coverage_prereg.md`. **The gap it closes: three passes of re-marking (29/31/40 → 27/35/38 → 25/37/38) each with rationale and NONE with a forcing condition.** T-18 had a falsifier; the split did not.
+- **Exam frozen at 8 instruments, 2 marked DISCRIMINATORS** (HHDC · CCLFX). No member may be added or removed after the freeze.
+- **T-19's coverage threshold as a NUMBER: benign requires ≥6 of 8 REPORTED *and* both discriminators — below either bar it is NO-VERDICT, not benign.**
+- **Counting rule: REPORTED = published AND read at primary.** Published-but-unread does not count ⇒ **ARCC is NOT reported despite printing 7/29**, which is what makes the 4th ARCC flag consequential rather than decorative.
+- **Four branches, resolve once at the 8/12 close, magnitudes symmetric (≥8pp each way) so the registration smuggles in no lean.** Branch 1 (sat + benign) ⇒ Unresolved CUT ≥8pp, with the explicit note that **a third consecutive hold at 38 under that branch is a self-protection tell, not a judgment.**
+- **⚠️ The guard I most wanted: branch 3 (NO-VERDICT) is NON-RENEWABLE.** A second firing at ~8/26 is not a coverage problem, it is an answer — **T-15's "no-print-by-design" resolving TRUE** ⇒ Unresolved CONVERTS rather than holds, and I owe a re-spec onto instruments that publish (candidates named in advance: OTTO's 10-D panel · BRK-32 · external comps). *An unmeasurable question held open forever is the same failure as a benign print booked without coverage — it just fails slower.*
+- **Anti-rationalization guard adopted from CARL's frozen HHDC card and made SYMMETRIC:** >1 paragraph explaining why any print doesn't count ⇒ route to RED. 8/12 CPI excluded by construction (pre-registered SOFT on gasoline; real test 9/11). Pointers wired into STATUS §split and §T-19.
+
+## 2c. → TERRY — the root count I owed and skipped
+My own Disc-F is explicit that a convergence handed to TERRY without its root count invites over-sizing. I re-marked the root map at 6:15 PM and **did not route the consequence**, with **TRY-FIRE-007 decision-ready on exactly the root that moved.** Packet sent. The load-bearing claim:
+> **007 is NOT a diversifier against the Break branch — it is ALIGNED with it.** Disorderly carry unwind (Break) and escorted appreciation (Grind/policy-floor) are opposite *stories* on the **same root, same direction, same instrument.** Sizing 007 as a hedge against a bear-branch position sizes one root twice, and the legs co-move rather than offset.
+
+Plus: the two-sovereign put sits UNDER the yen ⇒ **thesis better, convexity worse** (a policy-floored appreciation grinds rather than gaps, and a Sep-18 expiry monetises a gap) — corroborating SAM's independent flag from the root side. And 004+007 = **~1.5 roots, not 2** (authority shared, mechanisms separable). Stated what I am NOT claiming (not a bad card, not a resize call, merge is partial) and invited disagreement on the merge.
+
+## 2d. C-05 "CA/NY Aug" — CHECKED, and the check found a RESOLVABILITY DEFECT, not a data gap
+Carried unverified since March, in-window now, flagged 7/31, on my owes-list twice. **Two web searches (DOL/ETA + state primaries) could not resolve it — because as registered it names no instrument, no threshold and no magnitude.** "CA/NY Aug" is a bare forward assertion; **no August print could have resolved it either way.** Per `[[finding_resolvability_defect_is_status_not_confidence]]` that is a **STATUS change (STUCK), not a confidence cut** — so it is now marked 🟠 STUCK and **RE-SPEC'd** rather than carried a third pass.
+- **What the check DID establish: precondition ✅, observable ❌.** All federal extensions (PEUC/PUA/FPUC) expired 2025 ⇒ exhaustees roll off with **no backstop**; CA/NY/IL/CT run depleted trust funds (CA federal loan balance $21.6B YE-24 → $21.8B YE-25 → **$22.1B projected YE-26**). But **CA insured unemployment rate 1.9 / NY 1.7 [w/e 7/11, DOL] = mid-pack**, both under NJ 2.7 / PR 2.6 / RI 2.3 / MA 2.2. No wave visible going into the window.
+- **Re-spec (provisional, LABOR may sharpen):** resolves ✅ if **CA or NY IUR ≥2.3 sustained ≥3 consecutive weeks within 8/1→9/30**; ❌ if neither reaches 2.0; **NO-VERDICT band 2.0–2.3.** Instrument = DOL ETA weekly state IUR. **Resolve 10/01.**
+- ⛔ The 99% has always applied to the FIRED FL legs only and is untouched.
+
+## 2e. Hygiene closed
+- **BRIEFS_MAP ★8/3 delta prepended + header bumped.** Census re-verified **25 on disk**. **Three 7/31 audit packets show CLEARED re-pins** — CORAL (names the flag and delivers the owed SBCF grade), OSPREY (landed before the OSP-03 VOID branch executed), BRENT (re-verified against `TRADE.md` and **self-declared its 131-line overage rather than hiding it**). **FALCON new trigger-(a) drift logged, deliberately NOT packeted** — 8 re-pins outstanding; a 9th adds noise, not signal.
+- **`research/` retirement bar checked, NOT swept — the bar is not met yet, and only ONE file will meet it.** Of 3 June files: `2026-06-06_e_phase_outputs` = **0 live references, hits 60d on 8/5** ⇒ the sole candidate. `2026-06-08_cpi_pre_registration` and `2026-06-17_fomc_pre_registration` are **each referenced by a live doc**, so the rule's third condition fails ⇒ **retain regardless of age.** Next sweep is a one-liner.
+
 ## Blockers / carry-forward (next boot owes)
 1. **Credit re-pull the instant FRED answers** — DISH-guard unresolved; if still dark, chase the LIQUID packet.
 2. **8/4:** Athene Q2 = M-11 dual test (**check SHADE was scheduled or the grade is orphaned**) · marks cluster opens · AMZN 10-Q (VULCAN-07).
@@ -40,6 +73,7 @@ STATUS sanity ✓ (**176/200**; Δ-convention held — no row bumped without a m
 5. **Carried:** **C-05 "CA/NY Aug" UI-exhaustion leg — in-window and UNVERIFIED since March, 2nd pass carried** · `research/` June-file retirement bar ~8/5 · 9a rollup #4 after amendment-10 propagation.
 
 ## Files
-- **NEXUS:** STATUS.md (full re-anchor) · PREDICTIONS_MONITOR.md (8/3 pass block + 7/28 prune) · signals_archive/PREDICTIONS_PASS_LOG_20260627_20260724.md (7/28 block appended) · board_log.tsv (+2) · brief_fallback_log.tsv (+2) · inbox moves ×3 · this file.
-- **Cross-dir (carve-out ①, 2 packets):** PROME · LIQUID inboxes.
+- **NEXUS (unit 1):** STATUS.md (full re-anchor) · PREDICTIONS_MONITOR.md (8/3 pass block + 7/28 prune) · signals_archive/PREDICTIONS_PASS_LOG_20260627_20260724.md (7/28 block appended) · board_log.tsv (+2) · brief_fallback_log.tsv (+2) · inbox moves ×3 · this file.
+- **NEXUS (unit 2):** CONFIRMED.md (C-36 CONTESTED **defect fix** + C-05 STUCK/re-spec) · research/2026-08-03_split_and_coverage_prereg.md (**new, frozen**) · STATUS.md (split falsifier + T-19 threshold pointers; 177/200) · BRIEFS_MAP.md (★8/3 delta + header).
+- **Cross-dir (carve-out ①, 3 packets):** PROME · LIQUID · **TERRY** inboxes.
 - **Memory (carve-out ③):** `memory/auto/finding_count_what_published_before_reading_the_verdict.md` (new) + `memory/auto/MEMORY.md` index row.
