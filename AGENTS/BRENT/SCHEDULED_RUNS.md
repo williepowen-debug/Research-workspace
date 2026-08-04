@@ -7,9 +7,11 @@
 
 | Routine ID | Name | Cron (UTC) | Local | Model | Prompt vintage |
 |---|---|---|---|---|---|
-| `trig_01DHTJWiUSVYXY9vUeto57qr` | BRENT Monday Market Open | `45 13 * * 1` | Mon 9:45 AM ET | claude-sonnet-5 | 2026-08-03 |
-| `trig_014CDR4kjWtc29mYxXspGAHF` | BRENT Wednesday EIA | `0 15 * * 3` | Wed 11:00 AM ET | claude-sonnet-5 | 2026-08-03 |
-| `trig_01GBVYAq5TwPc6JQ4hbfYYMe` | BRENT Friday Close | `0 18 * * 5` | Fri 2:00 PM ET | claude-sonnet-5 | 2026-08-03 |
+| `trig_01DHTJWiUSVYXY9vUeto57qr` | BRENT Monday Market Open | `45 13 * * 1` | Mon 9:45 AM ET | claude-sonnet-5 | 2026-08-04 |
+| `trig_014CDR4kjWtc29mYxXspGAHF` | BRENT Wednesday EIA | `0 15 * * 3` | Wed 11:00 AM ET | claude-sonnet-5 | 2026-08-04 |
+| `trig_01GBVYAq5TwPc6JQ4hbfYYMe` | BRENT Friday Close | `0 18 * * 5` | Fri 2:00 PM ET | claude-sonnet-5 | 2026-08-04 |
+
+**2026-08-04 amendment (PROME, executing BRENT's own ratification-packet request §4 — same-pass mirror per this file's rule):** all three prompts extended with the prediction-row fence: *"Never grade, resolve, or re-mark a BRT-xx prediction row (e.g. BRT-26, BRT-29): report the reading and flag it — resolution happens ONLY in a live BRENT session; a routine 'helpfully' resolving one corrupts the calibration record, and calibration damage is not repairable after the fact."* Friday additionally carries the BRT-26 specific: *no weekly Baker Hughes print is a resolution date — every print is a breach-WATCH.* Header stamps bumped in all three prompts; API updates verified HTTP 200 at 19:13Z, `updated_at` confirmed on each. No other prompt text changed.
 
 ## Design contract of the 2026-08-03 refresh (what the prompts now do)
 
