@@ -254,19 +254,53 @@ def check_heartbeat_chain():
     The rule lived in prose on 5+ surfaces and in no script until 2026-07-30
     (DAEDALUS FORGE-audit follow-up, gap (a)) — it held at chain=4 on memory,
     twice. Advisory: warn at 4 (plan the re-base), and at >=5 the rule's own
-    trip has occurred. [[finding_mechanize_the_cap_not_the_ritual]]"""
+    trip has occurred. [[finding_mechanize_the_cap_not_the_ritual]]
+
+    ⚠️ 2026-08-04 REPAIR — this check was BLIND from the 7/31 re-base until now.
+    v1 matched only `> ## AMENDMENT #N`; the 7/31 re-base changed the house style
+    to `> **AMENDMENT #N`, so it counted ZERO against a header that declared
+    "Chain: 2" and printed a confident ✅ PASS. A heading-format change silently
+    disarmed the one mechanism enforcing the re-base rule.
+
+    Two fixes, because swapping the regex alone would just re-arm the same trap
+    the next time the style moves:
+      (a) match either style (and any future `#`-heading depth);
+      (b) CROSS-CHECK the count against the header's own self-declared
+          "Chain: N". The file states the answer in prose; v1 never read it.
+          Disagreement is not resolvable from inside this check, so it reports
+          UNVERIFIABLE and trips on max(counted, declared) — fail-loud, never a
+          confident number it cannot stand behind.
+    [[finding_test_the_guard_not_just_the_guarded]] · the "return a confident
+    answer where 'cannot evaluate' is the honest one" class (PROME 2026-08-04)."""
     path = ROOT / "HEARTBEAT.md"
     try:
-        n = len(re.findall(r"^> ## AMENDMENT #\d+", path.read_text(encoding="utf-8"), re.M))
+        text = path.read_text(encoding="utf-8")
     except Exception as e:
         record(ADVISE, "HEARTBEAT chain length", False, f"unreadable: {e}", "HEARTBEAT.md")
         return
+    # Either heading style: "> ## AMENDMENT #1 —" (pre-7/31) or "> **AMENDMENT #1 —" (current).
+    counted = len(re.findall(r"^>\s*(?:#{1,6}\s*|\*\*)?AMENDMENT\s*#\d+", text, re.M))
+    # The header states the chain in prose: "... Chain: 2." — v1's missing positive check.
+    m = re.search(r"^\*\*Amendments append.*?Chain:\s*(\d+)", text, re.M)
+    declared = int(m.group(1)) if m else None
+
+    src = "HEARTBEAT.md Cadence section (re-base = draft -> Will approval -> archive verbatim)"
+    if declared is not None and declared != counted:
+        record(ADVISE, "HEARTBEAT amendment chain (<4)", False,
+               f"UNVERIFIABLE — counted {counted} amendment block(s) but the header declares "
+               f"Chain: {declared}. One of them is wrong and this check cannot say which: "
+               f"either the header is stale or the block format moved again. Tripping on the "
+               f"larger ({max(counted, declared)}) so the re-base rule fails LOUD, not silent",
+               src + " · reconcile the header stamp against the blocks before trusting either")
+        return
+
+    n = counted
     ok = n < 4
-    detail = (f"chain at {n} amendment(s)" +
-              ("" if ok else " — re-base rule trips at ~5: plan it into the next substantive session"
-               if n == 4 else " — the ~5 trip HAS OCCURRED: re-base (draft->Will->archive-verbatim) is due"))
-    record(ADVISE, "HEARTBEAT amendment chain (<4)", ok, detail,
-           "HEARTBEAT.md Cadence section (re-base = draft -> Will approval -> archive verbatim)")
+    detail = (f"chain at {n} amendment(s)"
+              + ("" if declared is None else " (header-declared count agrees)")
+              + ("" if ok else " — re-base rule trips at ~5: plan it into the next substantive session"
+                 if n == 4 else " — the ~5 trip HAS OCCURRED: re-base (draft->Will->archive-verbatim) is due"))
+    record(ADVISE, "HEARTBEAT amendment chain (<4)", ok, detail, src)
 
 
 def check_dashboard_state():
