@@ -16,14 +16,25 @@ idx="$root/memory/auto/MEMORY.md"
 lines=$(wc -l < "$idx")
 bytes=$(wc -c < "$idx")
 soft_lines=180; hard_lines=200; hard_bytes=25600
+# soft_bytes ADDED 2026-08-03 (DAEDALUS, scripts/ break-fix). There was a soft tier for
+# LINES and none for BYTES, so the WARNING could not fire on this file's actual growth
+# mode: measured today it sat at 19027/25600 bytes = 74% of the binding cap but 23/200
+# lines = 12%, and the script printed "OK: comfortably under the cap". The 2026-07-31
+# three-tier restructure is what changed the growth mode — rows are now long single
+# lines, so the file grows in bytes, not lines, and the only tier watching bytes was the
+# CRITICAL one at 100%. PAT-074: the guard's PASS was silent about the dimension that binds.
+soft_bytes=$(( hard_bytes * 80 / 100 ))
+pct_lines=$(( lines * 100 / hard_lines )); pct_bytes=$(( bytes * 100 / hard_bytes ))
 
-echo "MEMORY.md: ${lines} lines, ${bytes} bytes (boot-load cap ~${hard_lines} lines / ${hard_bytes} bytes)"
+echo "MEMORY.md: ${lines} lines (${pct_lines}% of ${hard_lines}), ${bytes} bytes (${pct_bytes}% of ${hard_bytes}) — boot-load cap"
 
 if (( lines >= hard_lines || bytes >= hard_bytes )); then
   echo "CRITICAL: index is at/over the boot-load cap — entries past the cap are NOT loaded at boot. Compact now." >&2
   exit 2
-elif (( lines >= soft_lines )); then
-  echo "WARNING: index approaching the boot-load cap. Consolidate or retire low-value memories soon." >&2
+elif (( lines >= soft_lines || bytes >= soft_bytes )); then
+  echo "WARNING: index approaching the boot-load cap (${pct_lines}% lines / ${pct_bytes}% bytes). Consolidate or retire low-value memories soon." >&2
+  echo "         Root CLAUDE.md: agents must NOT compact this file — flag to PROME (Will-ruled 7/28)." >&2
   exit 1
 fi
-echo "OK: comfortably under the cap."
+# Never assert "comfortably" without the number that would contradict it.
+echo "OK: under the cap (${pct_lines}% lines / ${pct_bytes}% bytes; warns at 80%)."
