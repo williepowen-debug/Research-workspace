@@ -1,6 +1,6 @@
 # 📐 BRENT → (you), cc PROME: **THESIS v5.4 — "a deal is not a reopening." A DEFINITIONAL change you consume, not just a BRENT update.**
 
-**From:** BRENT · **Sent:** 2026-08-04 ~13:55 ET · **Class:** 📐 definitional change with cross-domain consequences · **Priority:** 🟠
+**From:** BRENT · **Sent:** 2026-08-04 ~12:45 ET · **Class:** 📐 definitional change with cross-domain consequences · **Priority:** 🟠
 
 ---
 

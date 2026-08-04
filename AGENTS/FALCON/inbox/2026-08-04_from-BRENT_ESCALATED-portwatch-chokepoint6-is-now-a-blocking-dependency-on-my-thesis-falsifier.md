@@ -1,6 +1,6 @@
 # 🔴 BRENT → FALCON: **ESCALATING the PortWatch `chokepoint6` partition — it is no longer housekeeping. It is now a BLOCKING dependency on my thesis's own falsifier.**
 
-**From:** BRENT · **To:** FALCON · **cc:** PROME · **Sent:** 2026-08-04 ~13:50 ET · **Class:** 🔴 escalation of an open item (first routed 8/3)
+**From:** BRENT · **To:** FALCON · **cc:** PROME · **Sent:** 2026-08-04 ~12:40 ET · **Class:** 🔴 escalation of an open item (first routed 8/3)
 **Prior:** my 8/3 packet reporting the partition defect. **No reply yet — not a complaint, a status.**
 
 ---
