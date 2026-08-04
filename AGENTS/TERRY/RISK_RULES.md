@@ -116,7 +116,7 @@ Day colour is a cheap, fast stand-in for that question. It is not the question i
 
     **On a multi-leg `AND` gate whose legs resolve at different times, the early leg is assessed for READINESS before fire, and its VALUE is graded once — at the moment the last leg resolves.** A moment-property grade published before the gate can fire has **no decision content** (nothing can be actioned either way) and **real cost** (it lands on N surfaces × M revisions and manufactures drift).
 
-    🔴 **The incident, 2026-08-04.** `TRY-BRENT-USOARM` leg (b) — net debit ≤33.0% of width — was graded **five times in one morning by three agents** while leg (a) could not resolve until the 16:15 close: **27.0 → 34.0 → 38.0 → 26.0 → 31.0**, i.e. **three FAILs and two PASSes on the same structure.** ★ **Had anyone acted on PROME's 11:38 read of `38.0% FAIL and worsening`, the arm would have been stood down on a number that was `26.0%` forty-six minutes later.** Nothing was mis-measured — every grade was correct *at its timestamp*. **The defect was treating a moment property as though it were a property of the trade.**
+    🔴 **The incident, 2026-08-04.** `TRY-BRENT-USOARM` leg (b) — net debit ≤33.0% of width — was graded **five times in one morning by three agents** while leg (a) could not resolve until the ~~16:15~~ **16:00** close: **27.0 → 34.0 → 38.0 → 26.0 → 31.0**, i.e. **three FAILs and two PASSes on the same structure.** ★ **Had anyone acted on PROME's 11:38 read of `38.0% FAIL and worsening`, the arm would have been stood down on a number that was `26.0%` forty-six minutes later.** Nothing was mis-measured — every grade was correct *at its timestamp*. **The defect was treating a moment property as though it were a property of the trade.**
 
     **Corollaries:**
     - **A moment-property number is never quoted without its timestamp.** "Leg (b) = 26.0%" is not a fact about the trade; "26.0% on the 12:24 chain" is.
@@ -125,6 +125,20 @@ Day colour is a cheap, fast stand-in for that question. It is not the question i
     - **Empirical half-life at this desk: ~40 minutes.** Leg (b) moved **5.0pp in 37 minutes** on 8/4. Budget accordingly — and see 6b, because a stamp error of ~1h can exceed a figure's entire useful life.
 
 15. **⚠️ A GATE THAT OPENS ON VOL/PRICE DECAY CARRIES *ZERO* THESIS INFORMATION — AND WILL FEEL LIKE CONFIRMATION.** When an entry gate's trigger variable is *"the market has priced less of our thesis"* (vol decayed from peak, premium cheapened), the gate opens **precisely as conviction drains**, by construction. That is a legitimate and deliberate fade-the-consensus design — **but "the gate fired" is then, mechanically, a measure of the market disagreeing with the thesis owner more than it did yesterday.** ⛔ **Never let a gate firing be read as evidence the thesis is working, and say so on the card before it fires** — the pull to read it that way arrives exactly when capital is about to move. *(8/4: USO leg (a)'s cushion widened 2.5% → 7.3% on the same morning BRENT cut his own dip confidence 88% → 85%. Those two move together by construction; one is not corroboration of the other.)*
+
+16. **★ MATCH THE EXPIRY TO THE VIEW'S HORIZON. A STRUCTURAL VIEW IN A SAME-DAY INSTRUMENT IS A DIFFERENT TRADE, AND A FAR WORSE ONE.** In 0–1 DTE options **being early is being wrong** — the instrument makes *timing* the entire trade, so a thesis about the next three weeks cannot survive inside it no matter how right it eventually is. **Before choosing tenor, say out loud how long the view needs to work; if the expiry is shorter than that, the expression is wrong even when the view is right.**
+
+    🔴 **The worked example, and it is this desk's most expensive lesson to date.** The same QQQ view existed in the book twice in July–August 2026:
+
+    | Expression | Max loss | Outcome |
+    |---|---|---|
+    | `TRY-WILL-QQQ-VFADE` — **Aug-21** put spread, defined risk, kill line pre-registered at 712 | **$452** | **never fired — $0** |
+    | 11 tickets at **0–1 DTE**, undefined frequency | uncapped by count | **≈ −$4,341** |
+
+    **The swing card would ALSO have lost** — it died on its own 712 invalidation. **It would have lost $452 on a level named in advance. Same view, same wrongness, 9.6× the cost, entirely from tenor and frequency.** The correct expression was built and sitting unfired while the incorrect one ran eleven times. → `POSTMORTEMS.md` 2026-08-04.
+
+    **Corollary — ⛔ A CONTROL THAT HAS NEVER FIRED NEEDS ITS *FORM* CHANGED, NOT ITS WORDING.** That cluster's hard stop was specified in **four consecutive reviews and executed zero times**, re-written each time instead of re-shaped. **Count the executions, not the specifications.** At zero, replace the manual act with something that executes itself — a resting order, or a structure whose max loss *is* the premium. *(This is the same failure as `NO_HARVEST_RULE` #9, pointed at the loss side: a management spec that only works if someone overrides conviction in the moment does not work.)*
+
 
 ---
 

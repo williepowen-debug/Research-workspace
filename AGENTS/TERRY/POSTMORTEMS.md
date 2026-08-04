@@ -35,6 +35,46 @@ Card pre-built 7/10 ~11:15 ET (Will-authorized), gated on that afternoon's 3:30 
 
 ---
 
+## 2026-08-04 — **THE QQQ SHORT-DATED PUT CLUSTER** (11 tickets, 7/20 → 8/4) — CLOSED, REALIZED ≈ **−$4,341**
+**Instruments:** QQQ puts, 0–1 DTE, strikes 672 / 675 / 680 ×2 / 687 ×3 / 693 ×2 / 696 / 698 ×2 / 712 — across Fidelity and Robinhood.
+**Thesis owner:** **Will** (his own tape read; uncorroborated — no domain agent consulted on any of the 11).
+**Outcome:** **11 of 11 short into a tape that rose +10.1% in four sessions.** ≈ −$4,311 to −$4,371 realized. One live remnant (`QQQ 720P Aug-06 ×1`).
+**Tags:** `EVENT_MISALIGNED` (primary) · `OVERSIZED` · `NO_INVALIDATION` · `THESIS_RIGHT_BAD_TIMING` (partial — see §2)
+
+> **Will, 2026-08-04, unprompted and recorded in his own words:** *"the mistake is mine. I was stubborn and kept placing puts not believing the rally."*
+> **Logged at his instruction.** It is the correct attribution on direction and it is **not the whole diagnosis** — the rest of this entry is what the figures say beyond it.
+
+### 1. ★ THE FINDING — the view was not the expensive part. The TENOR was.
+
+The identical view existed in the book **twice**, expressed two ways:
+
+| Same view, two expressions | Max loss | Outcome |
+|---|---|---|
+| `TRY-WILL-QQQ-VFADE` — QQQ **Aug-21** 680P/670P ×2, defined risk, kill line pre-registered at 712 | **$452** | **never fired — $0** |
+| 11 tickets, **0–1 DTE**, undefined frequency, no executed stop | uncapped by count | **≈ −$4,341** |
+
+**The swing card would ALSO have lost** — it dies today on its own 712 invalidation. **But it would have lost $452, capped, on a level named in advance.** Same view, same wrongness, **9.6× the cost — entirely from tenor and frequency.**
+
+⇒ **A multi-week structural thesis was expressed through same-day instruments.** With 0DTE, *being early is being wrong* — the instrument makes timing the entire trade, so a view about the next three weeks cannot survive in it. **The correct expression was already built and sitting unfired while the incorrect one ran eleven times.**
+
+### 2. What was NOT wrong
+
+The direction was a **minority-probability view, not an unreasonable one.** Measured the same day (`qqq/RESEARCH.md`): the near-highs V cohort is **n=3 ex-bubble, 2 up / 1 down**, and **2022-03-18 matched this configuration and delivered −21.9% over three months.** That path is real. **Do not file this as "the read was stupid."** It was a live minority branch **sized as though it were the base case.**
+
+### 3. 🔴 The desk's share, and it is mine
+
+- **The hard stop was specified in four consecutive reviews and executed ZERO times.** I re-wrote the same manual stop each time rather than changing its *form*. I noted on 8/4 that *"a rule that has never once fired is a note, not a rule"* — **and then left it as a manual stop for the fifth time.** A control that requires overriding conviction in the moment was never going to fire in the moment.
+- **The review loop never saw three of the eleven.** Session 4 closed 8/4 on a total **~$1,260 too small**, published to `STATUS.md` and to a new `qqq/README.md`. **The gap was closed by Will's broker capture, not by the process.** ⇒ *measuring intake, not activity.*
+- **The profit-side gap was diagnosed and left unfixed until after it cost money.** The 687P was **+23.6% at Friday's close** with no rule that said take it. `QQQ_DESK_CARD.md` §4b was written the morning *after*.
+
+### 4. What changed as a result
+
+**Structural, because four of the five failure modes were "a rule was written and not followed":** `qqq/PLAYBOOK.md` **G1–G5** — risk computed before the ticket, one ticket per session, a **resting** harvest order at entry, loss capped by structure rather than intention, and a written refutation required after three same-direction tickets. **Plus `RISK_RULES.md` #16** (below): match the expiry to the view's horizon.
+
+⚠️ **The record cannot be scored yet.** Eleven tickets with one direction, variable size, no executed stops and no harvest = **eleven observations with eight uncontrolled variables.** Re-examine at **n≥10 clean tickets under G1–G5**.
+
+---
+
 ## Template
 
 ```markdown

@@ -19,6 +19,20 @@
 
 ## The leaks (ranked by VERIFIED damage)
 
+0. **🔴 CONVICTION HELD THROUGH DISCONFIRMATION — ≈ −$4,341, the single most expensive tendency on this page. Session 5, 2026-08-04. Will's own attribution, logged at his instruction:**
+
+   > *"the mistake is mine. I was stubborn and kept placing puts not believing the rally."*
+
+   **The record: 11 of 11 QQQ tickets short, into a tape that rose +10.1% in four sessions.** Four losses → four same-day re-entries, escalating on 8/4 to **three separate 0DTE tickets in one session**, all held to expiry worthless.
+
+   ⚠️ **BUT THE ATTRIBUTION IS ONLY HALF RIGHT, AND THE OTHER HALF IS WHERE THE MONEY IS.** The direction was a **minority-probability view, not an unreasonable one** — the near-highs V cohort is **n=3 ex-bubble, 2 up / 1 down**, and **2022-03-18 matched this exact configuration and delivered −21.9% over three months** (`qqq/RESEARCH.md`). **It was a live minority branch sized as though it were the base case.**
+
+   ★ **What actually cost the money was TENOR, not conviction.** The identical view existed in the book twice: as `TRY-WILL-QQQ-VFADE` (**Aug-21** spread, **$452** max, pre-registered kill at 712 — **never fired, $0**) and as 11 tickets at **0–1 DTE** (**≈ −$4,341**). **The swing card would ALSO have lost** — it died on its own 712 line today. **Same view, same wrongness, 9.6× the cost.** In 0DTE, *being early is being wrong*; the instrument makes timing the whole trade.
+
+   **⇒ The rule is not "be less stubborn." It is: if the view is structural, the expiry must be structural.** → `RISK_RULES.md` **#16** · postmortem → `POSTMORTEMS.md` **2026-08-04**.
+
+   **Detection note, and it is a desk failure not a trading one:** three of the eleven tickets were **invisible to this review loop** and surfaced only from a broker capture. Session 4 closed on a total **~$1,260 too small**. *Proposed, not adopted: a position capture must precede any session close.*
+
 1. **Holding losers to $0 expiry — ✅✅ CONFIRMED REPEAT (2 reviews).** **S2: −$2,793 / 19 threads** (QQQ 6/11 694P −554, 6/17 735C −412, 6/16 744C −366…). **S3: −$1,624 / 5 threads** (MRVL 6/26 260P −720, QQQ 6/25 705P −651, USO/WEN calls). Winners exit in minutes; directional losers get walked to zero. In S3 this also wore an **overnight costume** (4W/13L — multi-day holds carried to $0, *not* a separate overnight problem). Two reviews running = this is the durable core leak, not a one-off. *(The real content of old Rule 5; NOT about overnight-vs-intraday.)*
 2. **Buying premium AFTER the move (peak-IV chase).** MRVL 277.5P @ $13 = **$1,300 after a −9.4% flush** (open, the worst risk on the book); QQQ 6/24 715 straddle bought into the 6/23 crash; index bounce-forces (715C, USO 113C). Top-ticks IV in the direction of an already-made move.
 3. **Oversizing the worst entries.** Biggest bet = worst entry: MRVL **$1,300** = 10× its SMCI **$135** sibling. Size inversely correlated with entry quality.

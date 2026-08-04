@@ -19,7 +19,7 @@ Defined-risk far-OTM USO call spread bought **after** oil vol has decayed (leg a
 
 | Leg | Test | Status @ 10:30 ET 8/4 | Owner |
 |---|---|---|---|
-| **(a)** | OVX ≤ −15% from the post-arm running peak 68.97 ⇒ **≤ 58.6245**, on the **CLOSE** | **OVX 54.37 (−4.95%) = −21.2% from peak.** Cushion widened from ~2.5% (8/3) to **~7.3%**. ⛔ **NOT GRADED BY TERRY** — BRENT grades at ~16:15 on the close. An intraday reading is not the gate. | BRENT |
+| **(a)** | OVX ≤ −15% from the post-arm running peak 68.97 ⇒ **≤ 58.6245**, on the **CLOSE** | **OVX 54.37 (−4.95%) = −21.2% from peak.** Cushion widened from ~2.5% (8/3) to **~7.3%**. ⛔ **NOT GRADED BY TERRY** — BRENT grades at ~~16:15~~ **16:00** on the close. An intraday reading is not the gate. | BRENT |
 | **(b)** | Net debit **≤ 33.0% of spread width** (⇔ R:R ≥ 2.0:1), **live chain** | ✅ **PASS.** Graded three times on three live chains: 10:30 wide 27.0% · ~~11:06 narrow 34.0% FAIL worst-case / 25.5% mid~~ · **12:24 (§11.B) narrow `125/130` = 26.0% worst-case / 16.6% mid — PASSES OUTRIGHT, no limit-construction needed to make it pass.** Gate still enforced as a limit price. | **TERRY** |
 
 **⚠️ Leg (a) fired on the 8/3 close (57.20) but is NOT banked.** v2 requires both legs on one session; with no chain there was no leg (b), so 8/3 satisfied one leg of a two-leg AND. **The arm is neither deployed nor consumed, and leg (a) must fire AGAIN on whatever session actually fills.** Day 13 of 20; **arm expires Thu 8/13.**
@@ -175,7 +175,7 @@ BRENT warned that leg (a) opening and rule #6 being satisfied are *normally* cor
 ## 8. Decision
 
 **Leg (b) verdict: ✅ PASS — 27.0% of width paying the full bid/ask, 6.0pp inside the 33.0% line, on the two most liquid strikes in the region.**
-**Leg (a): NOT graded here — BRENT grades it on the 16:15 close. The gate has NOT fired.**
+**Leg (a): NOT graded here — BRENT grades it on the 16:00 close. The gate has NOT fired.**
 
 **Proposed:** BUY TO OPEN **1× USO Oct-16-2026 125C/135C call debit spread**, limit **$2.50 net debit**, do-not-chase above **$3.30**. Max loss $250–270.
 **Named alternative on request:** 2× **125C/130C** @ $1.50 = $300 — lower ceiling, higher probability, and it can harvest partially.
@@ -318,7 +318,7 @@ It is **monotone-tightening by construction** — it can only ever lower the lim
 
 ### F. Live at 12:24 — nothing here fires anything
 
-**USO `$115.96` (−5.25%)** · leg (a) **still ungraded — BRENT's, on the close ~16:15.** Red day for crude; **root rule #6 stays CLEAN, no break invoked.** **The gate has NOT fired. $0 at risk. Nothing is authorized.**
+**USO `$115.96` (−5.25%)** · leg (a) **still ungraded — BRENT's, on the close ~16:00.** Red day for crude; **root rule #6 stays CLEAN, no break invoked.** **The gate has NOT fired. $0 at risk. Nothing is authorized.**
 
 **APPROVAL REQUIRED — Will must approve/reject before execution.**
 
@@ -328,7 +328,7 @@ It is **monotone-tightening by construction** — it can only ever lower the lim
 
 ### A. **LEG (b) WILL NOT BE RE-GRADED BEFORE FIRE. THIS CARD'S 26.0% IS DATED, NOT STALE.**
 
-Leg (b) was graded **five times this morning by three agents**, while leg (a) could not resolve until the 16:15 close:
+Leg (b) was graded **five times this morning by three agents**, while leg (a) could not resolve until the 16:00 close:
 
 | Time | Grader | `125/130 ×2` worst case | Verdict |
 |---|---|---|---|
@@ -363,3 +363,44 @@ Leg (a) fires when **OVX has decayed ≥15% from its peak.** Leg (b) got easier 
 ---
 *Built by TERRY 2026-08-04 on BRENT's 8/4 ACTION packet (Will-directed: "tell TERRY to price leg (b) first thing tomorrow") + PROME's 8/3 15:30 rulings relay. §9–10 added on BRENT's two rulings + his M1−M3 self-correction; §11 added 12:24 on his size ruling + a fresh chain; §12 added **13:32** (grading cadence + gate-information; time read from `date`, and it was **13:35 as first written** — a future stamp, in the commit that adds the rule against them). Chains: `chain_fetch.py USO 2026-10-16 --type call --no-cache` at 10:30, 11:06 and 12:22/12:23/12:24 ET.*
 *⚠️ **Timestamp note:** §9's "12:20" and §10's stamps were written ~11:11 wall-clock and run ~+69 min fast (see STATUS ④). §11's times are `date`-verified. Earlier stamps left as written rather than silently rewritten.*
+
+---
+
+## 13. 🔴 DEPLOY GATE **v3** RATIFIED (BRENT, Will-approved 8/4) — AND MY "16:15" WAS WRONG
+
+### A. ⛔ THE CORRECTION, AND IT IS MINE
+
+**`^OVX`'s final 5m bar is `16:00`. Not 16:15.** *(`^VIX` runs to 16:10; OVX does not. BRENT pulled the bars rather than inherit my figure.)*
+
+**I asserted 16:15 and propagated it to five surfaces** — this card, `INDEX.md`, `SETUPS.tsv`, `TRADE_BOOK.md`, `STATUS.md` — and stated it to Will repeatedly through the session.
+
+★ **The consequence is not cosmetic: under v2 the execution window was ZERO minutes, not fifteen.** Leg (a) needed the OVX **close** and leg (b) needed a **live chain**, both on one session — and the chain dies at the same instant the close prints. **v2 was an unfillable gate and nobody noticed, because a "tight but workable 15 minutes" is exactly the belief that stops you checking.**
+
+⚠️ **It failed in the COMFORTING direction.** BRENT's framing, adopted: *neither of us should carry an exchange-hours fact we have not pulled* — he had it flagged `UNVERIFIED` in his own SCRATCH and could equally have inherited mine. **Corrected on every surface; struck, not silently rewritten.**
+
+### B. ✅ v3 — what actually changed, and it fixes the zero-minute window
+
+| Leg | Cadence | Test |
+|---|---|---|
+| **(a)** vol decompression | **daily** | **MOST RECENT official OVX close** ≤ peak × 0.85 (**≤ 58.6245**). A **STATE** — known at 09:30, holding all session. *(v2 said "this session's close"; that phrase was the whole defect.)* |
+| **(a2)** live non-reversal 🔻**NEW** | **minute** | At the ticket, **OVX must PRINT ≤ the same frozen line.** Fill any moment it holds; **never while it doesn't.** |
+| **(b)** structure economics | **minute** | **UNCHANGED — mine.** ≤33.0% of width, live chain, **at fill.** |
+
+**Root cause (BRENT's own):** v2 was a **mixed-latency basket wearing a single window** — leg (a) daily, leg (b) minute. **Base-rated before proposing** (2007→2026, n=4,729, 113 episodes): fire rate 68.1%/20td · slippage from filling a session later **−0.04%** · tail 38.2% → 39.5% · leg (a2) blocks 7.8%. ⛔ **Disclosed cost, ratified with it on the table: on 31.2% of fire sessions OVX closes back ABOVE the line.**
+
+### C. ⇒ WHAT THIS MEANS NOW — the arm did **not** expire tonight
+
+**BRENT's machine-read at 13:57: (a) MET** (8/3 close 57.20 ≤ 58.6245) · **(a2) MET** (OVX 53.20, session high 56.50, line never breached today) · **(b) mine, at the ticket.**
+
+**⇒ Under v3 leg (a) is a daily STATE, so it is known at 09:30 and holds all session.** The "fill it in the last fifteen minutes or lose the day" framing is gone — **and with the market now closed, the live question moves to the next session, not to a missed window.**
+
+✅ **BRENT explicitly confirms `RISK_RULES` #14 and says v3 encodes it: he is NOT asking for a pre-close leg-(b) number and will NOT treat my 12:24 `26.0%` as banked.** The cadence rule adopted this afternoon survived contact with its own thesis owner.
+
+### D. One check ADDED to the ticket sequence
+
+```
+python3 AGENTS/TERRY/scripts/chain_fetch.py USO 2026-10-16 --type call --no-cache --legs 125,130
+```
+**PLUS: confirm `^OVX` prints ≤ 58.6245 at the moment the chain is priced (leg a2).** It held all session with a **2.12-point** cushion at the session high — **but it is a HARD VETO, not a formality. If OVX is above the line there is no fill regardless of what the chain says.**
+
+**APPROVAL REQUIRED — Will must approve/reject before execution. $0 at risk; nothing armed.**
