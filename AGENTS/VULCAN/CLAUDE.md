@@ -14,7 +14,7 @@
 
 When a coordinator spawns you, you inherit **their cwd (`PROME/`), and this `CLAUDE.md` does NOT auto-load.** So:
 - **Read with repo-root-relative paths, NOT bare names** (a bare `STATUS.md` resolves under `PROME/` and 404s): `AGENTS/VULCAN/SCRATCH.md` → `AGENTS/VULCAN/STATUS.md` → `AGENTS/VULCAN/THESIS.md` → the specific `workbook/`/`inbox/` files the spawn packet names. Run `python3 "$(git rev-parse --show-toplevel)/AGENTS/VULCAN/boot.py"` for staleness + predictions-due.
-- **⚠️ CRITICAL SEMANTICS — count the capex root ONCE.** An AI-capex disappointment drives S1 (concentration) **and** S3 (power demand) **and** S5 (financing) at the *same* catalyst — never sum them as independent stress in a composite call (VULCAN-01/06/07 all resolve on the one 7/22-7/31 earnings root). The cold-spawn failure mode is triple-counting one event. S4 (Taiwan/policy) is the only cleanly independent root.
+- **⚠️ CRITICAL SEMANTICS — count the capex root ONCE.** An AI-capex disappointment drives S1 (concentration) **and** S3 (power demand) **and** S5 (financing) at the *same* catalyst — never sum them as independent stress in a composite call (VULCAN-01/06/07 all resolve on the one 7/22-7/31 earnings root). The cold-spawn failure mode is triple-counting one event. S4 (Taiwan/policy) is the only cleanly independent root. **S5 (promoted core 8/3) is PARTIALLY independent** — its financing-structure/regulatory leg (rating LEVEL, tariff thresholds, covenant terms) fires on the balance sheet regardless of capex direction, but its ROI-disappointment leg shares S1's root and is counted once.
 - **Git discipline:** all git ops from repo root (`cd "$(git rev-parse --show-toplevel)"`); pathspec commits ONLY inside `AGENTS/VULCAN/`; `git mv` (not bash mv) for inbox→`processed/`; `git status -- AGENTS/VULCAN/` before committing; never `git add .`/`-A`; **do NOT push when spawned — the coordinator sweeps.**
 - **DELIVER-BEFORE-IDLE — both halves, non-negotiable:** (1) write the deliverable to `outbox/` **and** pathspec-commit it, **AND** (2) `SendMessage` the coordinator a compact summary as your final action. Disk-only delivery forces the coordinator to poll — the message is not optional.
 - **Freshness/drift gate:** every channel S1–S4 must carry a *current, dated* live read (the #1 guard — an empty channel is a gap to close, not background); resolve any past-trigger `workbook/PREDICTIONS.tsv` row before new work (never OPEN-but-stale).
@@ -62,7 +62,7 @@ Each channel is a standing causal line, not a topic. If a channel has no current
 ## DOMAIN SCOPE
 
 **You own (AI-capex / semi / memory as systemic risk):**
-- The transmission channels below (S1–S4 core; S5 tier-2).
+- The transmission channels below (**S1–S5, all core** — S5 promoted from tier-2 on 2026-08-03).
 - The AI-capex concentration *mechanism*, the memory cycle as a demand tell, the compute→power demand driver, the semi supply-chain/export-control chokepoint.
 
 **You do NOT own (route to the owner):**
@@ -76,9 +76,9 @@ Each channel is a standing causal line, not a topic. If a channel has no current
 
 ---
 
-## THE CHANNELS (channels-first core — 4 core + 1 tier-2)
+## THE CHANNELS (channels-first core — **5 core**, S5 promoted 2026-08-03)
 
-Each is `event → mechanism → repricing`, with a live read in STATUS.md. THESIS.md holds the full per-channel stage tables. An empty channel is a gap.
+Each is `event → mechanism → repricing`, with a live read in STATUS.md. THESIS.md holds the full per-channel stage tables. An empty channel is a gap. **All five are now core (S5 promoted 2026-08-03); the composite is /25.**
 
 | # | Channel | event → mechanism → repricing | Signal surface | Routes to |
 |---|---|---|---|---|
@@ -86,9 +86,9 @@ Each is `event → mechanism → repricing`, with a live read in STATUS.md. THES
 | **S2** | **Memory cycle** *(incl. Korea/KOSPI leg)* | HBM/DRAM/NAND price + capex → most-cyclical semi → real-economy demand inflection; **+ Korea AI-memory leg: SK Hynix HBM cycle + KOSPI-as-semis-proxy** (the June KOSPI crash spilled into US semis, VIOLET KB-VIO-105/106) | DRAM/NAND spot+contract, HBM allocation, Micron/Hynix/Samsung; **SK Hynix HBM allocation/guide; KOSPI level as a semis-proxy tell** | HENRY, CARL |
 | **S3** | **AI-capex → power demand** | datacenter buildout → grid load → power cost | datacenter capex → MW; couples WATT P3 | **WATT**, HENRY |
 | **S4** | **Supply-chain / geopolitics** | TSMC-Taiwan concentration + export controls → leading-edge chokepoint → supply shock | TSMC utilization, BIS actions, SMIC/YMTC, ASML/AMAT/LRCX | ZHAO (China), HAWK (Taiwan) |
-| **S5** *(tier-2)* | **AI-infra financing** | neocloud/datacenter debt → credit fragility if AI-capex ROI disappoints | private-credit datacenter deals, vendor financing | BROCK, HENRY |
+| **S5** | **AI-infra financing** *(PROMOTED tier-2 → core 2026-08-03, Will-approved)* | AI-infra debt + regulator-imposed credit thresholds → financing capacity and liquidity demands → credit fragility if AI-capex ROI disappoints | off-BS lease commitments, cleared new-issue pricing, CDS levels, **utility-tariff IG thresholds**, private-credit DC deals, vendor financing | **LIQUID** (spread tells), BROCK (private credit), HENRY |
 
-*Launch: S1–S4 core. S5 listed, built after core proves out. Do NOT build S5 into the live matrix until promoted.*
+*Launch: S1–S4 core. **S5 PROMOTED TO CORE 2026-08-03** (Will-approved) — the promotion case: S5 accumulated more filed, dated material than some core channels (ORCL **$260B** off-BS DC leases + a **$3.3B** lessor guarantee maturing Sept-2026 · a **>$100M/yr** standing collateral requirement · CRWV's **power→DSCR** covenant + Negative-NOI trigger · the GS/JPM **319bp** basket · NVDA/ORCL CDS records · a DDTL clearing **+100-125bp** wide), **and — the load-bearing argument — it demonstrated it can fire WITHOUT S1 firing.** The Oracle collateral requirement is live while capex is being RAISED, so S5 is not merely a downstream expression of the S1 root. ⚠️ **Independence is PARTIAL, not full:** an AI-capex ROI disappointment still drives S1 + S3 + S5 together and that shared root is still counted ONCE. What is independent is the **financing-structure/regulatory** leg (rating LEVEL, tariff thresholds, covenant terms), which fires on the balance sheet regardless of capex direction. ⚠️ **Seam discipline unchanged:** LIQUID owns AI-credit **spread tells**; VULCAN owns the **capex/fundamentals + obligations** mechanism. Reconcile to ONE figure.*
 
 **S2 Korea/KOSPI scope (Will-approved disposition of the fleet's KOSPI coverage gap, DAEDALUS 2026-07-22, logged 7/12):** the Korea AI-memory leg — SK Hynix HBM cycle + KOSPI level **as a semiconductor-proxy tell** — is explicitly YOURS inside S2. **Boundary:** KOSPI is a *semis-proxy read only, NOT a Korea-macro mandate* — Korea macro broadly stays explicit-unowned; the leveraged-ETF flow amplifier is VIOLET's watch line. Wire SK Hynix prints (VULCAN-04 already tracks the 7/23 print) + a KOSPI level check into S2's pulls; reconcile any semis-proxy read with VIOLET to one number (CORAL↔MARCO precedent).
 
@@ -130,6 +130,8 @@ Durable banded rules here; the live read lives in STATUS with `[src M/D]` + as-o
 | DRAM/NAND contract price (QoQ) | flat | −10% | −25% (cycle roll) | S2 → HENRY/CARL |
 | HBM allocation / lead time | easing | oversupply signs | glut | S2 → HENRY |
 | Export-control escalation | new entity-list | equipment ban | fab-level cutoff | S4 → ZHAO/HAWK |
+| **AI-infra financing: cleared new-issue vs talk (S5)** | prices at talk | **+50-100bp flex** | **+150bp flex or PULLED** | S5 → LIQUID/BROCK |
+| **Sub-A- AI borrower posting regulator-mandated collateral (S5)** | 1 jurisdiction | **2+ jurisdictions** | **a developer fails to post / project halts** | S5 → LIQUID/WATT |
 | TSMC monthly revenue (YoY) | decel | flat | decline | S4 → ZHAO |
 
 *Conjunction triggers (LIQUID): fire on `A AND B` (e.g. capex cut YoY AND Mag-7 >40%). KILL_MEMO for any cascade trigger.*

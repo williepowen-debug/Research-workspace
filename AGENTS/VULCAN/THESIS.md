@@ -107,9 +107,30 @@ WATT's two seam datums [WATT STATUS P3 row, KB-WATT-012..014]: **PJM-official 32
 
 **Repricing:** the semi-supply consequence of ZHAO's China events + HAWK's Taiwan geopolitics. **First pull (2026-07-12):** TSMC May'26 monthly revenue +30.1% YoY (record) — no chokepoint stress on the revenue line; June print delayed to 7/13/26 (typhoon), VULCAN-05 resolves there. **The export-control picture is NOT simply tightening** — it is genuinely two-sided: the US *eased* (BIS approved H200 sales to China 1/13/26, ~10 buyers cleared by 5/14/26, though paired with a 25% tariff), while Taiwan is *tightening* from the other end — weighing a Foreign Trade Act amendment to criminalize unauthorized AI-chip exports to all of China (undated), with a first concrete enforcement event 7/1/26 (Keelung court detained 3 Super Micro/Albatron execs — Taiwan's first criminal AI-chip-diversion probe). No fixed-date resolver exists for the Taiwan legislative side; monitoring item. Kinetic Taiwan = HAWK cross-flag; China macro = ZHAO — **route-out: neither may have this dated 7/1 event logged from the semiconductor angle.**
 
-## S5 — AI-infra financing (tier-2, not yet in the live matrix)
+## S5 — AI-infra financing — **PROMOTED tier-2 → CORE 2026-08-03** (Will-approved)
 
-Neocloud/datacenter debt + vendor financing → credit fragility if AI-capex ROI disappoints. Couples to BROCK (private credit) + HENRY (FCF). **Build only after S1–S4 prove out.**
+| Stage | Mechanism | State |
+|---|---|---|
+| 1 | AI buildout is funded by debt, off-BS leases and vendor/lessor guarantees rather than operating cash | **confirmed, and larger than the headline names** — ORCL alone: **$260B** off-BS DC lease commitments (FY27-29 commencement, 15-19yr) + **$3.3B** lessor-borrowing guarantee **maturing Sept-2026**; FY26 capex $55.7B vs $32.0B OCF = **−$23.7B** structural gap [FY26 10-K Note 9] |
+| 2 | The obligations sit where no leverage ratio computes them | **confirmed** — on balance sheet these look like ordinary levered tech issuers; ⚠️ the **NVDA→OpenAI ~$250B backstop is filed NOWHERE** (entire filed guarantee book **$3.5B gross / $712M escrowed**), so the headline node is the wrong one |
+| 3 | Financing capacity is contractually tied to operating inputs, not just leverage | **confirmed, filed** — CRWV's $8.5B DDTL 4.0 re-marks its sizing model for **hedge/SOFR rates and POWER only** (§5.25 Power Cost Protection; §5.23 ≥95% hedging), resolving to **Projected DSCR ≥1.20x** (1.15x maint.), + a **"Negative NOI Event"** repaying **two months before** the first projected-negative month ⇒ **power price → borrowing capacity.** *(Couples S3.)* |
+| **3b** | **Regulators write IG thresholds into utility tariffs ⇒ a standing liquidity demand independent of capex** | **🔑 THE INDEPENDENCE LEG. Live.** WI PSC rule (**April 2026**): any DC developer rated **below A-** posts guarantees before service — **>$100M/yr** in deposits/LCs. **NOT downgrade-triggered:** ORCL was already **BBB**, the rule predates the 7/9 cut by 3 months, and ORCL **sued 6/19**. ⇒ **rating LEVEL, not migration, is binding** |
+| 4 | Price of access repricing before access is lost | **elevated** — CRWV $2.6B DDTL **cleared +100-125bp wide of talk** (S+550/OID 96-97/**YTM 10.44%**) **at full size**; NVDA 5Y CDS **40→68→~82bp record**, ORCL **~210-215bp record**; GS/JPM **shortable** basket 319bp (18 equal-wtd **neoclouds**) vs HY 279 |
+| 5 | Access actually lost → project halts / default | **NOT reached** — no default, no pulled deal, aggregate IG/HY benign, ORCL contesting in court rather than failing to post |
+
+**Repricing:** AI-infra credit spreads (→ **LIQUID**, who owns the spread tells), private-credit marks (→ BROCK), FCF/valuation (→ HENRY), project feasibility (→ WATT).
+
+### Why it was promoted, and the one argument that carried it
+
+The weak case is volume — S5 accreted more filed, dated material in a week than some core channels hold. **That alone would not justify promotion; it would justify a longer sub-read.**
+
+**The argument that carried it: S5 demonstrated it can fire while S1 is NOT firing.** The Oracle collateral requirement is live *while hyperscaler capex is being raised* — it fires on the **balance sheet and the tariff**, not on capex direction. A channel that can only fire when S1 fires is not independent (that is precisely why obsolescence and the returns-case stayed **sub-reads**). S5 cleared that bar; they have not.
+
+⚠️ **Independence is PARTIAL and must be stated every time:** the **ROI-disappointment leg** still shares S1's antecedent — an AI-capex disappointment drives S1 + S3 + S5 at once and **that root is still counted ONCE**. Only the **financing-structure/regulatory leg** is independent.
+
+⚠️ **Scored 3, not 4, and the reason is sourcing rather than severity:** the two strongest datums are the weakest-sourced. The DDTL terms have **no filing at all** — CRWV's last 8-K of any kind is 6/18, and the terms first become verifiable at its **Q2 10-Q (~Aug)** [KB-068]. And the ORCL headline **did not survive verification**: the "$7B" is uncorroborated and its causation was backwards [KB-069]. **Do not score on numbers that verification just corrected.**
+
+**Upgrade triggers → 4:** a cleared AI-infra new issue flexing **+150bp or pulled** · a **second jurisdiction** writing an IG threshold into a tariff · CRWV's Q2 10-Q disclosing terms **worse** than trade press.
 
 ---
 
