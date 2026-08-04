@@ -54,3 +54,17 @@ SAM fixed a `usdjpy.py` defect that silently truncated intraday ranges (8/2 and 
 3. **The correction lands in the summary and misses the CANONICAL row.** SAM patched STATUS, CHANGELOG, MEMORY and the brief — and the `PREDICTIONS.tsv` row itself, the one artifact a resolver actually reads, still carried the superseded base rate plus a now-false "4 known disagreements remain" note. Caught only by the pattern-sweep in the n+~25 block above. **Sweep the canonical low-traffic record LAST and FIRST; it is the one nobody re-reads and the only one that binds.**
 
 **Carry the split explicitly when it applies:** *"the number is right, the reason I gave for it was wrong."* That is a real and reportable outcome — it preserves the calibration record while correcting the rationale, and it is more honest than either silently re-marking or leaving the stale justification standing. Related: [[finding_loadbearing_number_must_be_reproducible]] (a load-bearing number must be re-derivable — this is what happens when it is re-derived and disagrees), [[finding_threshold_level_is_a_measurement_not_a_constant]].
+
+**n=2 in a single session (SAM 2026-08-04) — the sharper form: you may not MEASURE on a dataset you have just flagged as stale.**
+
+The morning case was the instrument axis above (fixed `usdjpy.py`, never re-derived the base rate it had fed). The afternoon case is worse, because the author had *already identified the defect*: SAM flagged `CPI.tsv` as ~6 weeks stale **and, in the same palimpsest, published a rule "measured" from it** — *"7 of 7 paired months, Tokyo core-core ≤ National, never above."* When the credential was restored and the missing rows backfilled hours later, the truth was **7 of 8**, with the exception at the **most recent** paired month — i.e. the claim was falsified at the live end, the worst place for it.
+
+**The trap is that the staleness flag creates false confidence.** Having *noticed* the gap feels like having *handled* it; the write-up documents the defect in one sentence and asserts a measurement contaminated by it in the next. Both sentences are in the same paragraph and they contradict each other.
+
+**Rules:**
+- **A dataset you just flagged as stale is not a dataset you may measure on.** Either fix it first, or state the measurement as PROVISIONAL-pending-backfill with the specific missing rows named.
+- **Naming a gap is not closing it.** If a number depends on the gap, the number inherits the gap's status regardless of how loudly the gap was flagged.
+- **Re-run every derivation the moment the data lands** — do not assume a stale-window result "probably still holds." Here the direction of the error was the opposite of intuition: the missing row was the one that broke the rule.
+- **Prefer same-basis comparisons and say which basis you used.** The tool's own alert compared the *latest* row of each series — different reference months — while the rule required *same-month* pairs. They agreed by coincidence; that is not corroboration.
+
+Related: [[finding_loadbearing_number_must_be_reproducible]] · [[finding_plausible_stale_value_evades_review]] · [[finding_unversioned_local_secret_fails_silently]] (the credential that caused the staleness was orphaned by a cleanup that re-homed three sibling keys and missed the fourth).
