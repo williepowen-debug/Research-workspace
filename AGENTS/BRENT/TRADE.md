@@ -213,7 +213,31 @@
 
 ---
 
-### (iii) RESOLVING CRISIS, OR ORDINARY DIP? — ★ **ORDINARY DIP, with a real but wholly unverified de-escalation impulse. NOT a terminal resolution. ~85% → ✅ RAISED TO ~88% on the 12:40 transit refresh.**
+### (iii) RESOLVING CRISIS, OR ORDINARY DIP? — ★ **ORDINARY DIP. NOT a terminal resolution. 🔻 RE-MARKED 2026-08-04: 88% → ~85%.**
+
+> ## 🔻 **2026-08-04 ~13:00 ET — CONFIDENCE RE-MARKED 88% → ~85%, AND THE RECORDING FAILURE IS THE FIRST THING TO SAY.**
+>
+> ⛔ **I re-marked this figure in conversation with Will at ~11:20 and did not write it to any surface for ~100 minutes.** TERRY caught it by noticing my ruling packet cited **~85%** while every file of mine still said **~88%** — **flagged reciprocally, an hour after I corrected a stale number of TERRY's on its own card.** **A confidence that lives only in conversation is not registered** — root CLAUDE.md's *file > verbal* rule, broken by the agent who spent the morning correcting other people's stale numbers. `[[finding_record_of_an_action_is_not_the_action]]`
+>
+> **⬇️ WHY DOWN 3pp — the diplomatic leg genuinely strengthened:**
+> - **BESSENT (Treasury Sec., CNBC, 8/4 AM): *"We are in talks with the Iranians and I think there is a chance we may have a deal today or tomorrow to open the strait."*** Asked about tolls, he said he believed it would be **"freedom of movement."** **This is a materially stronger channel than the Trump Truth Social posts I had been discounting** — cabinet-level, named, with a dated timeline.
+> - **RUBIO the same morning: "progress" in the Hormuz talks with Iran and Oman.** A second cabinet officer.
+> - These are the most advanced talks of the cycle, and **I am not going to pretend otherwise because the conclusion is inconvenient.**
+>
+> **⬆️ WHY ONLY 3pp — the SUBSTANCE of what is being negotiated got CLEARER AND WORSE FOR A REOPENING:**
+> - ⛔ **Tehran denied the premise the same morning. Baqaei: *"To avoid any misunderstanding… We are not negotiating with the United States at this time. Our negotiations are with Oman."*** Bessent says *"we are in talks with the Iranians."* **Those are not compatible statements about the same morning.**
+> - ⛔ **Rubio walked back Bessent's own timeline within hours: "no finality yet."**
+> - ★★ **REUTERS, same morning, senior Iranian source: Iran expects to keep CONTROL OF INBOUND SHIPPING and VISIBILITY OVER OUTBOUND WITH THE ABILITY TO INTERVENE; outbound routes between Iran and Oman with exit clearance granted through Oman AFTER NOTIFYING IRAN. Iran's 10-point proposal carries TRANSIT FEES reported at $1–2M PER VESSEL. Iran has stated the strait CANNOT return to pre-war arrangements where ships passed without paying any toll.** IranWire carries Baqaei directly: **the Oman deal will not reopen Hormuz.**
+> - ⇒ **BESSENT IS DESCRIBING FREE PASSAGE. IRAN IS DESCRIBING A TOLLED CORRIDOR IT CONTROLS. Those are different objects, and the party with the anti-ship missiles is describing the second one.**
+> - ★ **THE FRAMING THAT MATTERS FOR THE BOOK: "will there be a deal?" is the WRONG QUESTION. "Does a deal restore THROUGHPUT?" is the right one — and even the OPTIMISTIC version on the table does not obviously return transits to 88/day with war-risk at 7.5–10% of hull PLUS a $1–2M toll.** A tolled, Iranian-controlled corridor is **the chokepoint being institutionalised, not removed.**
+> - 🚢 **THE PHYSICAL LEG WENT THE WRONG WAY AGAIN OVERNIGHT: MV MINOAN PIONEER** (Liberian-flagged, Greek-owned) struck ~20nm NE of Khasab en route Sohar→Fujairah — **direct hit to the engine room, complete electrical blackout, fire in the accommodation block, ONE SEAFARER MISSING.** Origin unconfirmed. **Third straight day of anti-ship fire in the same ~20nm box.** ⚠️ **Counted conservatively per LESSONS #20: the 8/2-vs-Velos-Amber question is STILL unresolved and may be one event, so my count is AT LEAST TWO distinct hulls in three days, possibly three.** Minoan Pioneer is unambiguously separate. **UKMTO primary not yet reached.**
+> - 📉 **THE CURVE STILL WILL NOT FLIP** — see the corrected curve block above. Two sessions have removed **50%** of the front spread and left it **backwardated at +$3.01** *(8/4 intraday)*. **Jun-17, the one genuine signature event of this regime, FLIPPED it.**
+>
+> **⇒ NET −3pp, deliberately small and symmetric with the +3pp of 8/3.** The diplomatic channel strengthened by roughly as much as the substance weakened. ⚠️ **The n=0 limit is UNTOUCHED: this regime has produced ZERO genuine physical reopenings, so real-vs-fake remains UNCALIBRATED. I am reading a dip off structure and physics, not off a base rate of resolutions, because none exists.**
+>
+> ⚠️ **THE COUNTER I CANNOT FULLY ANSWER, in TERRY's words:** *is OVX at 54 the decay leg (a) was designed to buy, or the market correctly concluding the event is over?* **At n=0 I cannot resolve that from evidence, which is exactly why the premise control is Will's [Approve] and not a threshold.**
+>
+> *(The 8/3 block below is the DATED RECORD of the 85% → 88% move and stays as written.)*
 
 > **⏫ CONFIDENCE MOVED, AND THE REASON IS NARROW ON PURPOSE: 85% → ~88%.** The increment comes **entirely from the PHYSICAL leg becoming better-evidenced** — Lloyd's List Intelligence puts transits at **−52% WoW** in the most recent complete week and states a near-term recovery is unlikely, which is an independent, higher-quality confirmation of the leg I previously had only PortWatch and press relays on. **NOTHING about the DIPLOMATIC leg changed** — the Oman track is still genuinely the most advanced of the cycle, and **the n=0 limit on real reopenings is untouched.** ⚠️ **I am deliberately not moving further than 3pp: the dark-transit/shadow-fleet bias (above) is a live argument against the physical read, and a better-measured version of evidence I already held is worth a small update, not a large one.**
 
