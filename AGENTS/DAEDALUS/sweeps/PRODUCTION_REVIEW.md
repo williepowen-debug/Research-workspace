@@ -36,8 +36,23 @@ git log --after="$LAST 00:00" --pretty=format:"%s" | sed -E 's/^([A-Z]+).*/\1/' 
 | **New or refined pattern** | `PATTERNS.tsv` |
 | **Cross-agent observation** | **note it / route via `outbox/`** — never edit their files here |
 
+### 3b. Coverage + check-register pass (added 2026-08-03 — the two cheapest steps in this playbook)
+
+**Run the coverage doctor** — it is INFO-severity and roster-derived, so a review cadence is its correct home, not a boot step:
+```
+python3 "$(git rev-parse --show-toplevel)/scripts/lane_coverage_check.py"
+```
+It reads `PROME/ROSTER.md` at runtime, so it does **not** rot as the roster changes; its findings are coverage FACTS to relay (route to WALTER/PROME), never alarms to action here. **Why it lives here:** it was built 2026-07-16 and wired to nothing, so its findings sat unread for 18 days — including that both single-name bank specialists (OZK, WAL) have no autonomous lane, because *a spinout does not inherit one*. Any promotion or spinout since the last review is a reason to expect a new INFO row.
+
+**Review `CHECKS.tsv`** — every row's `Invoked_by` and `Last_verified_run`. Three questions, in order:
+1. Did anything land in `scripts/` since the last review **without** a row? (a new check with no row is the register's own blind spot)
+2. Is any row still `UNWIRED` that is not `MANUAL-BY-DESIGN`? **An UNWIRED load-bearing check is a finding, not a backlog item.**
+3. Does any row's `Null_meaning` still describe behaviour the script no longer has? (a fixed check with a stale null-meaning is worse than no row — it certifies a guarantee that lapsed)
+
+> ⚠️ **This step exists because the register would otherwise become the thing it measures.** `CHECKS.tsv` was created 2026-08-03 off the finding that two load-bearing checks had no invocation site; a register with no invocation site is the same defect wearing the auditor's badge. **The fix for an unwired check is almost never a new protocol step — it is attaching it to a step that already fires.** Adding steps is what produced the invocation problem; prefer folding into an existing conditional step, a sweep, or a harness hook (the only invocation model an agent cannot skip by forgetting).
+
 ### 4. Record
-REGISTRY `last_run` + `last_findings`; the Run Log below; STATUS/EVOLUTION if material; PATTERNS if it taught something durable.
+REGISTRY `last_run` + `last_findings`; the Run Log below; STATUS/EVOLUTION if material; PATTERNS if it taught something durable. **`CHECKS.tsv` rows touched this pass** (state changes, new rows, corrected null-meanings).
 
 ### 5. Regenerate the directory
 After any FLEET_MAP row change, regenerate the readable fleet directory so it stays in sync with the source:
