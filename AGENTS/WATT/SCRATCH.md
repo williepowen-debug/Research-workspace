@@ -25,7 +25,7 @@ Will's direction this session: *"start those obligations first"* — VULCAN and 
 6. **6 WALTER signals still unfolded** (in `inbox/WALTER/`): Oracle→We Energies **>$7B letter-of-credit** collateral call on the BBB− downgrade breaching an A− tariff threshold (SIG-009 — *a power-CONTRACT mechanism, arguably mine*); NOAA **81% very-strong El Niño Oct-Dec** (SIG-012 — Q4 winter-load input); PNW wildfire ignition-liability + the **PSPS-looks-like-demand-destruction** trap (SIG-011); Nvidia/OpenAI guarantee (SIG-002); SIG-010, SIG-018.
 7. Older, still open: Hut8 Beacon Point MW + TSMC-AZ fab timing; full WSJ Trump/utilities residential-bill text; EIA-923 PJM-fleet heat-rate; the "1-year-early" reconcile vs PJM's published 2026 summer peak.
 
-**⚠️ GIT:** did **NOT** pull this session — SAM and TERRY had uncommitted work in the tree (the "Before pulling" stop rule). Committed locally; **push deferred**. Sweep next session once the tree is clean.
+**GIT:** did **NOT** pull this session — SAM and TERRY had uncommitted work in the tree (the "Before pulling" stop rule). **Push went out anyway and succeeded** — `safe-push.sh` was a clean fast-forward sweeping 6 commits (3 mine + PROME/SHADE's); pushing never touches anyone's uncommitted work, only the "pull" half of the protocol was blocked. **Verified on origin by hash AND by path** (both packets + the memory file + PREDICTIONS.tsv statuses), not just off the `Pushed.` line. ⚠️ **Still un-pulled** — next session starts behind origin; pull first.
 
 **⚠️ RATE LIMIT (standing):** PJM non-member = 6 calls/min; `power_watch.py` spends 1/run. **This session spent 3** (1 boot + 2 deliberate range pulls). Never loop.
 
