@@ -26,12 +26,28 @@ True crush measurement = IV_before vs IV_after each historical print → needs a
 - Realized move vs. move the puts *needed* to pay. Consistently smaller ⇒ structurally buying overpriced event vol ⇒ crush confirmed indirectly.
 - **Limit:** proxies crush via realized-vs-implied move, not direct IV. Defensible, not exact.
 
-### Part C — Data wall (blocked)
-Historical IV surface required. Flagged, not attempted.
+### Part C — Data wall — 🪦 **KILLED 2026-08-04 (Will-decided). DO NOT REVIVE without a funding decision.**
+Historical IV surface required; **paid data.** Will 2026-08-04: *"I don't think I want to buy data unless cheap + worth it."*
+
+**Verdict: not worth it, and the reason is that it is largely redundant before it is expensive.**
+- **Part B answers substantially the same question for free** — realized-vs-implied move is an indirect but defensible read on chronic crush.
+- The **live** IV need is already covered by `scripts/chain_fetch.py` (bid/ask/IV/OI on demand at fire time). Part C buys *history*, and history is what Part B proxies.
+- The one durable finding this lane has produced is already promoted and in use: **`RISK_RULES.md` durable finding #8 — the VRP collapse is NOT uniform; rates (TLT) pay the full vol tax, single names are structurally cheap except into earnings.** That is the actionable half, and it did not require a paid surface.
+
+⇒ **Killed, not parked.** Revive only if a historical IV surface arrives cheap or bundled — and then only with a stated question it would answer that Part B could not.
+
+### ⚠️ Part B — THE FREE ONE, AND IT WAS NEVER RUN. Found by the 2026-08-04 audit sweep.
+**This is the real finding of the audit on this lane.** For weeks the tracked open item was *"Part C is BLOCKED on paid data"* — while **Part B, which is free and answers substantially the same question, sat marked "pending" and was never picked up.** The lane looked blocked-by-money when it was actually blocked-by-nobody-starting-it.
+*(Cf. `finding_audit_resolution_path_before_reattempt` — a long-open question is usually blocked by the PATH, not by missing data.)*
+
+**Status: QUEUED, and it is now the only live piece of this plan.** Needs only free price history (yfinance): last 6–8 earnings dates per name, realized 1-day post-print move vs the move the puts needed to pay.
+**Relevance is current, not historical:** `TRY-FIRE-002` and `TRY-FIRE-003` are both PRINT-class cards that will face this exact question again, and the **bank-put reshape** turns on what to reshape *into*.
+⚠️ **Part A's targets are SPENT** — WAL/OZK 7/21 and HBAN 7/23 have printed. Part B's output is the generalizable half: a construction rule (enter post-crush / put spreads / avoid print-spanning expiries / size for crush).
 
 ## Deliverable
 One-page finding: (1) per-name verdict on the current book before 7/21–7/23; (2) proxy read on chronic buy-into-crush pattern; (3) one construction-rule candidate: enter post-crush / put spreads / avoid print-spanning expiries / size for crush.
 
 ## Results log
 - **Part A — 2026-07-17:** see `IV_CRUSH_PARTA_2026-07-17.md` (appended this session).
-- Part B: pending.
+- **Part B: QUEUED 2026-08-04** (was "pending" and unstarted for weeks while Part C's paid-data block was the item being tracked — see above).
+- **Part C: 🪦 KILLED 2026-08-04, Will-decided.**

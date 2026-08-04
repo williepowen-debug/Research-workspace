@@ -6,6 +6,23 @@ Append-only. **Newest on top.** One entry per review. Metrics mirror to `LEDGER.
 
 ## Session 4 — 7/20–8/3/2026 · the QQQ short-dated put cluster · reviewed 8/3 (live, mid-session)
 
+> ## ✅ SESSION 4 CLOSED — 2026-08-04. **The open ticket resolved, and it resolved the worst way available.**
+>
+> **Will (8/4): the 8/3 QQQ 687P ×3 was CLOSED AT A LOSS, "almost worthless."** ⚠️ **`[FILL_PRICE_UNKNOWN]` — exact fill not supplied; do not treat the estimate below as a broker figure.** Basis **$2.81 × 3 × 100 = $843**. Against the last observed mark of **$0.20 (11:02)**, recovery was ≈ **$0–60** ⇒ **loss ≈ −$783 to −$843.**
+>
+> **⇒ Session-4 window total moves from ≈ −$2,268 (7 closed tickets) to ≈ −$3,051 to −$3,111.** The −$2,268 was *realized* only; this ticket was still open and is therefore **additive, not included.**
+> **⇒ Walk-to-zero now 4 reviews / ≈ −$7,012 to −$7,072** (was 3 / ≈ −$6,229).
+>
+> ### 🔴 The three things this outcome actually establishes
+>
+> **① THE PROFIT-SIDE GAP IS NOW CONFIRMED BY OUTCOME, NOT HYPOTHESIS.** On 8/3 I wrote the cross-book finding that *"the 687P was +23.6% at Friday's close and NO rule said take it"* — and flagged that this card had **five loss-side checks and zero profit-side lines.** It has now gone from **+23.6% to near-total loss.** That is no longer a structural observation about the card; it is a **measured cost**. ⇒ **Rules P1/P2 added to `QQQ_DESK_CARD.md` §4b.** Same root cause as `TRY-VIOLET-VIXCS` (−$111.60): every trigger keyed to the move going *further*, none to being in profit.
+>
+> **② THE HARD STOP HAS NOW NEVER BEEN EXECUTED — 4 REVIEWS, ZERO TIMES.** The −60% line was breached **~10:10 on 8/3** and not acted on; the ticket then went to ~zero exactly as the rule predicts. The stop was written in June specifically to kill the walk-to-zero behaviour, and **the behaviour has survived every review since.** ⚠️ **A rule that has never once been executed is not a rule — it is a note.** This is the single most repeated finding on the day desk and it is now `4th_CONFIRM`.
+>
+> **③ SIZE: $843 = 3.4R against a 2R = $500 cap.** The cap was an unratified "empirical default" until today, which is precisely why it did not bind. **Ratified 8/4 (Will): the unit is DOLLARS, 1R ≡ $250.** Under the confirmed rule this ticket was **1.7× oversized before it was ever wrong** — and it sat in the same session as the 7/30 ticket at **$1,431 = 5.7R**.
+>
+> **Not scored as a rule-following failure of the *analysis*:** the read was a put on a stretched tape, consistent with the desk's one genuine edge (7/7 puts across the review). **The loss is entirely on size and management, not on direction.** That distinction is the reason this desk is worth keeping at all — and the reason the fix is two mechanical lines, not a change of view.
+
 **⚠️ INTAKE QUALITY — "acceptable" tier, not "best."** No CSV export this session. Reconstructed from **FORGE §D-14** (ANVIL 8/2 reconcile off Will's Fidelity export + activity tab). Per-fill quantities on the 680P are **not expanded in the activity view**, and one 680P expiry row is **inferred, not observed** (FORGE labels it). Realized totals are firm because all legs are long (0 STO); the per-fill split is not. **An order-level export would nail the timestamps this review still can't see** — same gap as S2/S3.
 
 **Marks:** live yfinance chain, pulled during the session (09:45 / 09:56 / 10:06 ET). Market OPEN. Session-4's last ticket is **still open while this is being written** — flagged as such, not scored as closed.
