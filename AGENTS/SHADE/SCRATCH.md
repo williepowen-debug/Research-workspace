@@ -1,5 +1,19 @@
 # SHADE SCRATCH.md — Ephemeral Session State
 
+## ⬆️ 2026-08-04 ~10:45 ET — PROME-DIRECTED PROXY BLOCK #2: **THE CARD WAS EXECUTED. FULL NO-VERDICT DAY.**
+
+**Read `2026-08-04_athene-q2-m11-grade-card.md` §5 / §5a / §5b first — the worksheet is filled and the matrix cell is picked.** Still not a SHADE session: no thresholds, confidences, prices or thesis state moved. STATUS §0g carries the full delta.
+
+1. **Both legs NO-VERDICT (day-one); §3 cell = leg-1 NO-VERDICT × leg-2 NO-VERDICT. Deferred, NOT orphaned.** Leg 2 is **not even PROVISIONAL** — the ATH Q2 10-Q is unfiled and the mortgage line is absent from all four 8/4 artifacts (APO 8-K `…-000036`, ATH 8-K `…-000047`, APO EX-99.1, `Q2'26 Financial Supplement.xlsx`). No cell was manufactured to avoid an empty one.
+2. 🔑 **THE CARD ITSELF WAS WRONG ON LEG 1's DATE, and that is the session's real output.** The FABN peer table lives in a **standalone quarterly FI Investor Presentation** (Item-7.01 8-K + ir.athene.com), **never in earnings materials** — **13 events since Feb-2023, ZERO on an earnings date.** Band N fires, but its "a missing slide is itself a datum" consequence is **unsupportable here** → NO-VERDICT-**BY-CONSTRUCTION**, and **explicitly withheld from NEXUS/R10** (asked NEXUS to ensure any board row says *deferred*, not *unmeasurable*). **Lesson: pre-register against the instrument's PUBLICATION CADENCE, not the event date.**
+3. 🔴 **NEXT DATES — put these on the calendar, both are within ~2 weeks:** **leg 2 ≈ 8/6–8/10** (ATH Q2 10-Q + Athene's own financial supplement, which file together) → **leg 1 ≈ 8/12–8/18** (Q2-2026 FI Investor Presentation). Re-check EDGAR CIK 0001527469 + ir.athene.com **daily from 8/6**.
+4. ✅ **Organic-drift check run; the pre-authorized floor raise was DECLINED.** Q4-25→Q1-26 drift **+$1,159M** < $2.0B → **PARTIAL floor stands. No band moved.** Exact Q1 baseline **verified at primary: $93,077M**.
+5. ⚠️ **Two mis-citation traps now live in the fleet — guard them:** (a) funding-agreement inflows **$5,718M ≠ FABN issuance** (aggregate includes FABR/FHLB/direct/LT-repo; **never** compare to the $2.0B FABN-only figure); (b) **+$19,332M total-investments growth is NON-DIAGNOSTIC** for the ARI landing (organic inflows $22.1B fully explain it).
+6. **Packets:** CREED ✅ · NEXUS ✅ · **PROME correctly NOT sent** (gated on the RED bar / ≥+58bp band; neither fired).
+7. ⚠️ **STILL OWED, unchanged and now more overdue: ① the ARCC Q2 pre-reg grade — print was 7/29, now 6 days** (`research/ARCC_Q2_2026_PREREGISTRATION_2026-07-27.md`) → ② leg-2 FINAL at the ATH 10-Q → ③ leg-1 refresh at the Q2 FI deck → ④ Egan-Jones 8/12. **⑤ NEW: re-verify $34.5B FABN o/s, $28.2B FHLB, $2.0B Q1 FABN issuance at primary — they did not surface in this session's Q1-10-Q search and are carried unverified.**
+
+---
+
 ## ⬆️ 2026-08-03 ~22:00 ET — PROME-DIRECTED PROXY BLOCK (prepended; the 7/27 handoff below is UNTOUCHED and still canonical for thesis state)
 
 **A PROME-directed proxy session staged tomorrow's Athene Q2 M-11 DUAL test the night before the print.** Not a SHADE session — no thresholds, confidences, prices, or thesis state were moved. What it did:

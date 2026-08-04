@@ -1,4 +1,6 @@
 # Athene/Apollo Q2 2026 — M-11 DUAL-test grade card
+> ✅ **EXECUTED 2026-08-04 ~10:45 ET** (PROME-directed proxy). **Verdict: FULL NO-VERDICT DAY — both legs deferred, neither orphaned.** Worksheet §5 filled from 4 primary artifacts · **no band moved** (the one pre-authorized raise was checked and correctly declined: Q4→Q1 organic drift +$1,159M < $2.0B) · **no confidence touched** · packets to CREED + NEXUS. ⚠️ **Read §5a before citing leg 1: this card's leg-1 grade DATE was mis-specified** — the FABN slide has never appeared on an earnings day. Real grade dates: **leg 2 ≈ 8/6–8/10 (ATH Q2 10-Q)**, **leg 1 ≈ 8/12–8/18 (Q2-2026 FI Investor Presentation)**.
+
 **FROZEN 2026-08-03 ~21:50 ET — BEFORE the print.** Written by a PROME-directed proxy session (SHADE dark since 7/27); every threshold below cites SHADE's own registered files. Items marked **⚠️ DERIVED-TONIGHT** were NOT previously registered and are derived here with the derivation shown — tomorrow's grader may tighten them from primary data but must not loosen them after seeing the print.
 
 **Event:** Apollo/Athene Q2 2026 earnings + FI materials, **Monday 2026-08-04** (registered as "T+8, confirmed date" — STATUS §0e, 7/27).
@@ -93,7 +95,7 @@ Compare **penalty to penalty** (deck methodology vs deck methodology), never lev
 |---|---|---|---|
 | **Leg 1 STABLE (≤+48bp)** | Governance-benchmark instance: transfer visible, funding calm. M-11 opacity leg weakens for this instance; funding leg unchanged. | **The M-11 result:** perimeter opacity confirmed on a named $9B deal while funding stays calm — recognition-integrity thesis supported without any stress print. | Report leg 1 only; flag leg 2 pending. |
 | **Leg 1 WIDENING (≥+58bp)** | Funding-cost leg strengthens; opacity leg weakens. Mixed — report both, no netting. | Both legs of M-11 strengthen — the strongest composite reading. Packet PROME same-day. | Report leg 1; leg 2 pending. |
-| **Leg 1 NO-VERDICT** | Leg 2 only; note the FABN slide's absence as a disclosure datum. | Note BOTH halves unmeasurable day-one — that itself feeds R10 (recognition-perimeter). | Full NO-VERDICT day: say so loudly to NEXUS/PROME; the grade is deferred, NOT orphaned. |
+| **Leg 1 NO-VERDICT** | Leg 2 only; note the FABN slide's absence as a disclosure datum. | Note BOTH halves unmeasurable day-one — that itself feeds R10 (recognition-perimeter). | ⬅️ **THIS CELL — SELECTED 2026-08-04 ~10:45 ET.** Full NO-VERDICT day: say so loudly to NEXUS/PROME; the grade is deferred, NOT orphaned. ⚠️ **But do NOT route it to R10 as the cell's middle-column text suggests:** per §5a both absences are **schedule artifacts** (FI deck never lands on earnings day, 13-for-13; 10-Q lands ~8/6–8/10), not perimeter opacity. **Deferred, not a finding.** |
 
 ---
 
@@ -105,22 +107,51 @@ Compare **penalty to penalty** (deck methodology vs deck methodology), never lev
 5. Packets (carve-out ①): **CREED** (010 Athene-leg reading, numbers only, no confidence move) · **NEXUS** (M-11 dual reading vs this card) · **PROME** only if RED bar or the widening band fires.
 6. If leg 2 was PROVISIONAL/NO-VERDICT: calendar the ATH 10-Q re-check; finalize on filing.
 
-## 5. FILL-IN WORKSHEET (blank until the print)
+## 5. FILL-IN WORKSHEET — **EXECUTED 2026-08-04 ~10:45 ET** (PROME-directed proxy; SHADE dark since 7/27)
+
+**Artifacts read, exhaustively, before any cell was written** (all four are the entire 8/4 disclosure set):
+① APO 8-K `0001858681-26-000036` [filed 2026-08-04] · ② ATH 8-K `0001527469-26-000047` [filed 2026-08-04] — **both carry the identical earnings presentation** `agmearningsrelease2q2026.htm` · ③ APO EX-99.1 press release `erex9912q2026.htm` · ④ **`Q2'26 Financial Supplement.xlsx`** (ir.apollo.com, 8 sheets). Full-text/all-cell scans for `mortgage`, `FABN`, `ACRA`, `designat`, `peer`, `basis point`. **ATH Q2 10-Q NOT filed** (data.sec.gov submissions API, CIK 0001527469 — last 10-Q `0001527469-26-000028`, 2026-05-07).
 
 | # | Quantity | Pre-print baseline | **Q2 print value** | Source + date | Band/verdict |
 |---|---|---|---|---|---|
-| 1 | 5Y FABN peer penalty | +43–48bp (deck 5/14) / ≈+40bp (NPORT) | ___ | ___ | ___ |
-| 2 | 5Y FABN absolute spread | T+123 (5/14) | ___ | ___ | ___ |
-| 3 | Q2 FABN gross issuance | $2.0B (Q1'26) | ___ | ___ | ___ |
-| 4 | FABN outstanding | $34.5B (3/31) | ___ | ___ | ___ |
-| 5 | FHLB advances | $28.2B (3/31) | ___ | ___ | ___ |
-| 6 | Mortgage loans, exact Q1 baseline | ~$93B (verify) | ___ | ATH Q1-26 10-Q | — |
-| 7 | Mortgage loans, Q2 | expect ~$102B if consolidated | ___ | ___ | Δ = ___ → band ___ |
-| 8 | Consolidated total investments Δ | — | ___ | ___ | ___ |
-| 9 | ACRA/Designated-Buyer disclosure? | none (§2.8 gap open) | ___ | ___ | ___ |
-| 10 | Organic mortgage-book QoQ drift (Q4→Q1) | NOT REGISTERED — pull first | ___ | ATH Q1-26 10-Q | floor check |
+| 1 | 5Y FABN peer penalty | +43–48bp (Q1'26 FI deck, 5/15) / ≈+40bp (NPORT) | **NOT DISCLOSED day-one** — no FABN spread or peer-comparison table in any 8/4 artifact | 4-artifact scan, 8/4/26 | **Band N → NO-VERDICT** *(see ⚠️ §5a — by construction, not by omission)* |
+| 2 | 5Y FABN absolute spread | T+123 (5/15) | **NOT DISCLOSED day-one** | same | NO-VERDICT (carry T+123) |
+| 3 | Q2 FABN gross issuance | $2.0B (Q1'26, 10-Q MD&A) | **NOT DISCLOSED — FABN not broken out.** ⚠️ Nearest printed figure is the **funding-agreement aggregate**: 2Q'26 **$5,718M** (vs 1Q'26 $8,531M, −33% QoQ; 2Q'25 $11,707M, −51% YoY; 4Q'25 trough $2,800M) | Q2'26 Financial Supplement, "RS Flows and IA", printed series, 8/4/26 | ⚠️ **NOT like-for-like** — the aggregate is FABN **+ FABR + direct FA + FHLB + LT repo** (its own fn.1). **Never compare $5,718M to the $2.0B FABN-only figure.** |
+| 4 | FABN outstanding | $34.5B (3/31) | **NOT DISCLOSED day-one** | — | carry baseline |
+| 5 | FHLB advances | $28.2B (3/31) | **NOT DISCLOSED day-one** | — | carry baseline |
+| 6 | Mortgage loans, exact Q1 baseline | ~$93B (verify) | **$93,077M (3/31/26)** ✅ VERIFIED AT PRIMARY *(12/31/25: $91,918M)*. Related-party line $1,557M; consol-VIE line $2,031M — the registered line is the **$93,077M primary line** | ATH Q1-26 10-Q `0001527469-26-000028`, condensed consol. balance sheet, filed 5/7/26 | — (SHADE's "~$93B" rounds correctly) |
+| 7 | Mortgage loans, Q2 | expect ~$102B if consolidated | **NOT DISCLOSED day-one** — absent from all four artifacts; the registered instrument (ATH Q2 10-Q) is unfiled | 4-artifact scan + EDGAR submissions API, 8/4/26 | **Δ = not computable → NO-VERDICT (day-one)** |
+| 8 | Consolidated total investments Δ | — | **+$19,332M QoQ** — total investments incl. related parties $357,810M (1Q'26) → **$377,142M** (2Q'26), +5.4%. Net invested assets $300,290M → $314,090M (+$13,800M) | Q2'26 Financial Supplement, "Reconciliation_NIA and Alts", **printed series** (not derived by subtraction), 8/4/26 | ⚠️ **NON-DIAGNOSTIC.** 2Q'26 gross organic inflows $22,069M / net flows +$11,928M fully account for it. Balance-sheet growth **neither confirms nor excludes** a $9B ARI landing. |
+| 9 | ACRA/Designated-Buyer disclosure? | none (§2.8 gap open) | **NONE.** No allocation, designation or portion disclosure in any 8/4 artifact (only routine ADIP/ACRA NCI flow lines) | 4-artifact scan, 8/4/26 | **§2.8 landing-entity gap stays OPEN** — unchanged, neither closed nor confirmed material |
+| 10 | Organic mortgage-book QoQ drift (Q4→Q1) | NOT REGISTERED — pull first | **+$1,159M** ($91,918M → $93,077M). All-three-lines basis: +$1,121M ($95,544M → $96,665M) | ATH Q1-26 10-Q `0001527469-26-000028`, filed 5/7/26 — **pre-print instrument only** | ✅ **FLOOR CHECK RESULT: $1.159B < $2.0B → the $2.0B PARTIAL floor STANDS. No band moved.** *(The card's one pre-authorized raise was conditional on drift >~$2B. It is not. Timestamped 2026-08-04 ~10:45 ET.)* |
 
-**Verdicts:** Leg 1 = ___ · Leg 2 (PROVISIONAL/FINAL) = ___ · M-11 matrix cell = ___ · Packets sent: CREED ___ / NEXUS ___ / PROME ___
+**Verdicts:** Leg 1 = **NO-VERDICT (band N, day-one)** · Leg 2 = **NO-VERDICT (day-one)** — neither PROVISIONAL nor FINAL; nothing to provisionally grade · M-11 matrix cell = **row "Leg 1 NO-VERDICT" × col "Leg 2 NO-VERDICT"** → *"Full NO-VERDICT day: say so loudly to NEXUS/PROME; the grade is deferred, NOT orphaned."* · Packets sent: CREED **✅** / NEXUS **✅** / PROME **n/a — neither the RED bar nor the ≥+58bp widening band fired, so the card's conditional PROME packet is correctly NOT sent** (reported to PROME directly instead, this being a PROME-directed run).
+
+**Consequences applied (card-stated only, nothing else moved):** kill-path-1 **stays YELLOW** (RED bar unmet — no spread print, no pulled syndication; the deck narrative in fact reports issuance "across FABR and FABN programs", though that is narrative and grades nothing) · the withdrawn "widening ~+15bp" claim **STAYS RETIRED** (not re-established, not refuted — untested) · §2.8 thread **stays THEORETICAL-OPEN**. **No confidence touched:** M-11 55% is NEXUS's, PRED-CREED-010 70% is CREED's.
+
+---
+
+### 5a. ⚠️ WHERE THIS CARD'S PRE-REGISTRATION FAILED — leg 1's grade date was wrong, and band N's consequence text is unsupportable
+
+**The card assumed the FABN peer-penalty slide would appear on 8/4. It was never going to.** Athene publishes the FABN spread/peer table in a **standalone quarterly Fixed Income Investor Presentation**, furnished under its own Item-7.01 8-K and posted to ir.athene.com — **not** in the earnings materials, and **never on earnings day.** The May artifact this card cites is titled **"Q1 2026 Fixed Income Investor Presentation"**, furnished **2026-05-15** (8-K `0001527469-26-000032`) — i.e. **8 days after** the Q1 10-Q (5/7), not "5/14–15 alongside the print."
+
+Cadence, EDGAR full-text search, CIK 0001527469, exact phrase *"Fixed Income Investor Presentation"* (27 hits), pulled 2026-08-04:
+`2023-02-22 · 2023-05-18 · 2023-08-16 · 2023-11-09 · 2024-02-21 · 2024-05-09 · 2024-08-08 · 2024-11-14/15 · 2025-02-13 · 2025-05-12 · 2025-08-12 · 2026-02-19 · 2026-05-15` — **zero of thirteen landed on an earnings date.**
+
+**Consequences for the grade:**
+1. **Band N fires, but its consequence sentence is wrong for this instance.** "A missing slide is itself a datum — the May deck carried it; note if the disclosure disappears" reads absence as disclosure-quality evidence. **Here it carries none:** absence on earnings day is the 13-for-13 historical norm. This is **NO-VERDICT-BY-CONSTRUCTION**, and must not be routed to NEXUS/R10 as a recognition-perimeter datum. *(Recording the defect rather than smoothing it: this is the same class as SHADE's own 7/27 retraction #5 — an untested path assumption about when an artifact exists.)*
+2. **Leg 1's real grade date is ~2026-08-12 to 08-18** (Q2-2025 analogue: 10-Q 8/7 → FI deck 8/12; Q1-2026: 10-Q 5/7 → FI deck 5/15). Re-check ir.athene.com and CIK 0001527469 8-Ks daily from **8/10**.
+3. **Leg 2's real grade date is ~2026-08-06 to 08-10.** ATH Q2 10-Q filing dates: 2025-08-07 · 2024-08-08 · 2023-08-07 · 2022-08-09 · 2021-08-05. Athene's own financial supplement (which does carry the mortgage-loan line) was filed **with** the Q1 10-Q on 5/7 — expect the same pairing.
+4. **Method note for the next freeze:** a grade card must check the **publication cadence of the instrument**, not just the event date. This card banded the numbers correctly and dated the source wrongly.
+
+**Other errata (cosmetic, changed nothing):** the header says "**Monday** 2026-08-04" — 8/4 is a **Tuesday** (Apollo's own release: "Tuesday, August 4, 2026"); the **date** governs and was correct. Separately, at the source rather than in this card: Athene's 5/15/26 8-K body says the call took place "today, May 15, **2025**" — a typo in Athene's filing; the artifact is 2026-vintage.
+
+### 5b. NET-NEW at a primary, not previously registered — the Q1 10-Q already named the acquirer
+
+ATH Q1-26 10-Q `0001527469-26-000028`, related-party note: *"Apollo Commercial Real Estate Finance, Inc. (ARI) – On January 27, 2026, **we** entered into a definitive agreement to acquire an approximately $9 billion portfolio of commercial mortgage loans from ARI. The purchase price is based on **99.7%** of the total commitment amounts of the loans... **The transaction closed on April 24, 2026.**"
+
+- **Second-primary confirmation** of the close date and the 99.7% (SHADE had these from the 8-K `0001193125-26-177686` + EX-99.1 only).
+- **AHL names itself as acquirer in its own 10-Q, with no designation/portion language.** This does **not** resolve §2.8 — designation is by private notice and may occur at or after close, and a 10-Q related-party note is not an allocation disclosure — but it is the first time the **registered resolution instrument** has spoken on this deal, and it spoke in Athene's own name. Register as a **weak prior toward the LANDED branch**, not as evidence for it.
 
 ---
 
