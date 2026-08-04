@@ -173,3 +173,26 @@ The thing WATT was built to catch fired, and the answer was **🟠 HOLDS, not �
 7. **Open invitation to VULCAN still standing:** give me your load factor and I convert $555/MW-day to $/MWh on my basis.
 
 **GIT:** pull **not** needed — fetched and verified local is **level with origin** (0 behind; the 1 commit ahead is TERRY's, not mine, and safe-push will sweep it). SAM had uncommitted work in the tree the whole session, so the "Before pulling" stop rule was moot rather than violated. **Nothing of mine was ever orphaned.**
+
+---
+
+**▶ ADDENDUM 4, 2026-08-04 PM-2 — Will: *"anything else left unaddressed or incomplete?"* YES — boot step 6. The 6 WALTER signals are now PROCESSED (they had been carried across 3 sessions).**
+
+**KB-WATT-059..064 logged, all 6 `git mv`'d to `inbox/WALTER/processed/`. `inbox/WALTER/` is now empty of unprocessed signals for the first time since 7/23.**
+
+| Signal | Verdict | Row |
+|---|---|---|
+| **SIG-009** Oracle >$7B LC ← We Energies | **The seam runs BOTH ways** — CRWV is power PRICE → DSCR → borrowing capacity; this is credit RATING → tariff covenant → collateral call. ⚠️ single-lineage FT, **not verified** | KB-WATT-059 |
+| **SIG-010** federal energy grants cancelled by 2024 vote | ⚠️ **WATT was the ACTION recipient — the 3 requested steps are still NOT DONE.** See below | KB-WATT-060 |
+| **SIG-011** PNW wildfire | Took only the **PSPS-looks-like-demand-destruction** read-guard; WECC, out of footprint, does not touch P1 | KB-WATT-061 |
+| **SIG-012** NOAA 81% very strong El Niño Oct-Dec | **Sign may be INVERTED for my footprint** — routed to AEOLUS | KB-WATT-062 |
+| **SIG-018** Oracle/Pentagon "up to $7B" | 10-yr **ceiling**, not revenue. ⚠️ **Must NOT be netted against SIG-009's $7B** — unrelated objects | KB-WATT-063 |
+| **SIG-002** FLASH Nvidia $250B guarantee / 10-GW Ohio | **The largest single load yet attached to the Door A/B switch, and it's IN PJM.** A **CREDIT** de-rate, not a demand de-rate | KB-WATT-064 |
+
+**🔑 The one that changes a read: SIG-002.** The 10-GW Ohio campus is in **PJM** (already joined at FL-WATT-09) and is now the largest single load attached to the $555/MW-day switch. If a 10-GW load is financed on a guarantee written *precisely because the offtaker is sub-IG*, then **Door B lands on a counterparty whose credit is the reason the structure exists at all** — that strengthens the Door-B-degrades-AI-capex-ROI leg **without** changing WATT-08's registered ~65%. **P3 stays 4** (its upgrade trigger is spent; next rung needs IPP guidance RAISED, not reaffirmed). ⚠️ The guarantee is an **ongoing negotiation** — no filing, no confirmation, **do not size it.**
+
+**⚠️ SIG-012 — I did NOT carry a direction, deliberately.** The advertisement behind it names "power grids" as a threat, but a strong El Niño conventionally means **MILDER eastern-US winters**, which would **LOWER** PJM winter peak. **The naive read may be sign-inverted.** Packet to AEOLUS: `AEOLUS/inbox/2026-08-04_from-WATT_el-nino-sign-for-PJM-winter-peak-the-naive-read-may-be-inverted.md` — asked for the sign for **PJM winter peak specifically** (+ peak-vs-load-shape, + any hydro/gas leg touching P4). **This gates any Q4 P1 successor prediction:** WATT-06 (8/15) and WATT-02 (9/7) both expire *before* the Oct-Dec window, so a winter re-escalation call registered on an inverted sign would manufacture a MISS I'd have earned by not asking.
+
+**⚠️ STILL OPEN AND OWED BY ME — SIG-010's three steps (WATT is the ACTION recipient).** WALTER read the post and headline card only; programme, dollar total, states, case and *the exact wording of the acknowledgment* are all unverified. Owed: **(1)** retrieve the primary court filing; **(2)** executed or **ENJOINED** — a cancellation under litigation may be reversed, which is a different signal entirely; **(3)** does any of it touch **grid-RELIABILITY / interconnection** funding vs efficiency/consumer/climate programmes — **only the first bears on my thesis and the headline does not distinguish them.** Logged ASSUMPTION, **not priced**, and it has **no established bearing on any channel** until (3) is answered. *This is deferred research, not a done item — do not let the KB row's existence read as closure.*
+
+**Nothing here changed a score.** Composite 13/20, status 🟠, P1 2 / P2 5 / P3 4 / P4 2 — all unchanged.
