@@ -8,7 +8,7 @@ Distinct from `thesis/CHANGELOG.md`, which logs **analytical** changes (thesis-v
 
 ---
 
-## 2026-08-04 — `boj_ois.py` BUILT (Will-approved) · `fxy_options.py` plausibility gate · MOF weekly cadence adjudicated · `usdjpy.py --revise-window`
+## 2026-08-04 — `boj_ois.py` BUILT (Will-approved) · **generated TOOL INVENTORY in boot** · `fxy_options.py` plausibility gate · MOF weekly cadence adjudicated · `usdjpy.py --revise-window`
 
 **Why (all four trace to one session's failures, not a tidy-up):**
 
@@ -29,7 +29,13 @@ Distinct from `thesis/CHANGELOG.md`, which logs **analytical** changes (thesis-v
 
 **4. `scripts/usdjpy.py` — `--revise-window N` backfill hatch.** L3 audited the full 60d hourly lookback but L2 only rewrote inside 10d, so pre-fix truncated rows were re-reported every run and could **never self-heal** — a standing alarm decaying into background noise. Widening rewrites history, so it is a **flag, not a default**. One-off `--revise-window 90` repaired 59 sessions (all under-stating); 1366 rows in/out, second run revises 0, alarm clears.
 
-**Boot impact:** +1 script (~6s). **Docs:** `CLAUDE.md` (boot step 7 sweep list, manual-fallback source entry with the cumulative-basis + 2025-vintage warnings, FILES table, auto-pulled TSV list), `MEMORY.md` infra queue item 5 closed.
+**5. `scripts/boot.py` — GENERATED TOOL INVENTORY (Will-directed).** A future SAM boot had no way to see what tooling *exists* short of reading source or trusting a hand-written list — and a hand-written list rots **silently**: an unwired script never runs, never prints, and a later session rebuilds it or does its job by hand. Added `tool_inventory()` / `print_tool_inventory()`, derived from `scripts/*.py` at run time and cross-checked against `BOOT_SEQUENCE`:
+- **`boot.py --tools`** — full table (name · boot-wired? · one-line purpose parsed from the module docstring), no network, no writes. **Exits 1 on drift** so it can gate a check.
+- **Every normal boot** prints `Tools: N in scripts/ (M boot-wired) — full list: boot.py --tools`, and flags drift **in both directions**: on-disk-but-unwired (boot never runs it → invisible to future sessions) and wired-but-absent (boot references a ghost). **Silent when clean**, so it adds no noise.
+- Verified on all three branches (orphan / missing / clean) plus exit codes 0 and 1.
+- **Deliberately NOT mirrored as a list in `CLAUDE.md`** — CLAUDE.md points at the command instead. Duplicating it would reintroduce exactly the rot this removes. *(Class: mechanize the check, don't ritualize it.)*
+
+**Boot impact:** +1 script (~6s) and a generated inventory line. **Docs:** `CLAUDE.md` (boot step 7 sweep list, manual-fallback source entry with the cumulative-basis + 2025-vintage warnings, FILES table, auto-pulled TSV list), `MEMORY.md` infra queue item 5 closed.
 
 ---
 

@@ -20,6 +20,7 @@ Usage:
 """
 
 import subprocess
+import re
 import sys
 import time
 from datetime import datetime
@@ -92,9 +93,100 @@ def run_script(name, script_path, args, timeout=60):
         return False, f"  ERROR: {e}", elapsed
 
 
+# ---------------------------------------------------------------------------
+# TOOL INVENTORY — generated from disk, never hand-maintained.
+#
+# WHY GENERATED (Will-directed 2026-08-04): a future SAM boot must be able to see what
+# tooling EXISTS without reading the source or trusting a hand-written list. A static
+# inventory in CLAUDE.md rots the moment someone adds a script — and the failure is
+# SILENT: an unwired script never runs, never prints, and a later session rebuilds it
+# or does its job by hand. (SAM did exactly that on 8/4, sourcing BOJ OIS pricing by
+# ad-hoc web search.) So the list is derived from the scripts directory at run time and
+# cross-checked against BOOT_SEQUENCE; the check cannot go stale because there is
+# nothing to keep up to date.
+# ---------------------------------------------------------------------------
+
+def _one_line_purpose(path):
+    """One-line purpose from the module docstring.
+
+    Scripts here open with a title line ("SAM JGB Yield Monitor") that is sometimes the
+    whole purpose and sometimes just a name. Rules, in order:
+      1. title carries a separator ("SAM BOJ OIS Monitor - market-implied ...") -> take
+         the part after it;
+      2. otherwise take the next non-empty line (the usual "Fetches ..." summary);
+      3. otherwise fall back to the title itself.
+    """
+    try:
+        text = path.read_text(encoding="utf-8", errors="replace")
+    except OSError:
+        return "(unreadable)"
+    m = re.search(r'"""(.*?)"""', text, re.S)
+    if not m:
+        return "(no docstring)"
+    lines = [ln.strip() for ln in m.group(1).strip().split("\n")]
+    lines = [ln for ln in lines if ln]
+    if not lines:
+        return "(empty docstring)"
+    title = lines[0]
+    for sep in ("\u2014", " - ", ": "):          # em dash, hyphen, colon
+        if sep in title:
+            tail = title.split(sep, 1)[1].strip()
+            if tail:
+                return tail[:78]
+    if len(lines) > 1:
+        return lines[1][:78]
+    return title[:78]
+
+
+def tool_inventory():
+    """Return (rows, orphans, missing).
+    rows    = [(script_name, wired?, purpose)] for everything on disk
+    orphans = on disk but NOT in BOOT_SEQUENCE  -> boot never runs it, invisible
+    missing = in BOOT_SEQUENCE but NOT on disk  -> boot references a ghost
+    """
+    wired = {name for _, name, _, _, _ in BOOT_SEQUENCE}
+    on_disk = sorted(p.name for p in SCRIPTS_DIR.glob("*.py") if p.name != "boot.py")
+    rows = [(n, n in wired, _one_line_purpose(SCRIPTS_DIR / n)) for n in on_disk]
+    orphans = [n for n in on_disk if n not in wired]
+    missing = sorted(wired - set(on_disk))
+    return rows, orphans, missing
+
+
+def print_tool_inventory(full=True):
+    """Full table on demand; drift warnings ALWAYS (they are silent when clean)."""
+    rows, orphans, missing = tool_inventory()
+    if full:
+        print(f"\n{'='*72}")
+        print("  SAM TOOL INVENTORY  (generated from scripts/ — not a maintained list)")
+        print(f"{'='*72}\n")
+        print(f"  {'Script':<26}{'Boot':<7}Purpose")
+        print(f"  {'-'*68}")
+        for name, is_wired, purpose in rows:
+            print(f"  {name:<26}{'✓' if is_wired else '—':<7}{purpose}")
+        print(f"\n  {len(rows)} tool(s); {sum(1 for r in rows if r[1])} boot-wired.")
+        print("  Run any of them directly: .venv/bin/python3 AGENTS/SAM/scripts/<name>")
+    if orphans:
+        print(f"\n  🔴 {len(orphans)} SCRIPT(S) ON DISK BUT NOT BOOT-WIRED — boot never runs")
+        print( "     these, so a future session will not know they exist:")
+        for n in orphans:
+            print(f"       {n}")
+        print( "     → add to BOOT_SEQUENCE, or record in CLAUDE.md why it is manual-only.")
+    if missing:
+        print(f"\n  🔴 {len(missing)} SCRIPT(S) IN BOOT_SEQUENCE BUT NOT ON DISK:")
+        for n in missing:
+            print(f"       {n}")
+    return orphans, missing
+
+
 def main():
     quick = "--quick" in sys.argv
     verbose = "--verbose" in sys.argv
+
+    # Inventory-only mode: what tooling exists, no network, no writes.
+    if "--tools" in sys.argv:
+        orphans, missing = print_tool_inventory(full=True)
+        print()
+        return 1 if (orphans or missing) else 0
 
     start_time = time.time()
     now = datetime.now()
@@ -168,6 +260,14 @@ def main():
 
     print(f"\n  Total boot time: {total_time:.1f}s")
     print(f"  Date: {now.strftime('%Y-%m-%d')} | Day: {now.strftime('%A')}")
+
+    # Tooling visibility: one always-on line so a future boot knows the full toolset
+    # exists and how to list it, plus loud drift warnings (silent when clean).
+    inv_rows, _, _ = tool_inventory()
+    print(f"  Tools: {len(inv_rows)} in scripts/ "
+          f"({sum(1 for r in inv_rows if r[1])} boot-wired) — "
+          f"full list: boot.py --tools")
+    print_tool_inventory(full=False)
 
     failures = [r for r in results if r[1] == "FAIL"]
     if failures:

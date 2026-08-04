@@ -50,6 +50,11 @@
 - ✅ **FXY vol proxy GATED (fix, not just a flag).** `fxy_options.py` gained `RR_IMPLAUSIBLE_ABS = 10` vols: non-physical RRs now grade `rr_implausible`, are excluded from self-calibration, and print "UNREADABLE — NO directional read" instead of a confident "calls bid." **30 of 114 historical readings (26%) were non-physical and graded "ok" — incl. a −141.50 — and had been feeding the trailing calibration.** Column re-graded downgrade-only; boundary cases tested (±10.0 in, 10.01 out). *Root class: the grader conflated **computable** with **trustworthy**.*
 - **FXY vol proxy is now demonstrably unreadable, not merely "degraded"** — the 25d RR *sign* flips on consecutive days at both live tenors (Aug-21 +3.42→−77.0→−32.18; Sep-18 −24.66→−5.66→+19.95). KB-183 says read the sign; there is no stable sign. Told STATUS to route TERRY to the live chain instead.
 
+## Tooling — how to find out what exists
+
+**Never assume, and never trust a hand-written list. Run:** `.venv/bin/python3 AGENTS/SAM/scripts/boot.py --tools`
+Generated from `scripts/` at run time (name · boot-wired? · purpose), so it cannot go stale. Every boot also prints a tool count and **flags drift in both directions**. **Check it before building any script or doing a pull by hand** — the 8/4 BOJ-OIS failure was, at root, not knowing what already existed. *(12 tools, all boot-wired, as of 2026-08-04 — that count is a fact about that date, not a maintained figure; ask the command.)*
+
 ### NEXT SESSION (Wed 8/5)
 
 1. **Re-pull `jd20260804.xlsx`** (the ACTUAL vs the −11.42T projection) — 404'd today, durable archive so it will appear. Also still hunting **Tanshi broker forecasts** on the wires (the gap IS the signal; the BOJ line alone cannot separate an op from a big fiscal day).
