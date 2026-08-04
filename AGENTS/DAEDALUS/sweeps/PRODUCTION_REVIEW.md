@@ -44,6 +44,12 @@ python3 "$(git rev-parse --show-toplevel)/scripts/lane_coverage_check.py"
 ```
 It reads `PROME/ROSTER.md` at runtime, so it does **not** rot as the roster changes; its findings are coverage FACTS to relay (route to WALTER/PROME), never alarms to action here. **Why it lives here:** it was built 2026-07-16 and wired to nothing, so its findings sat unread for 18 days — including that both single-name bank specialists (OZK, WAL) have no autonomous lane, because *a spinout does not inherit one*. Any promotion or spinout since the last review is a reason to expect a new INFO row.
 
+**Run the canon-conformance check** — finds docs that *prescribe* a command root canon forbids:
+```
+python3 "$(git rev-parse --show-toplevel)/scripts/canon_check.py"
+```
+Suppresses same-line prohibitions, historical/mail surfaces, dormant agents' docs, and any doc that forbids the command elsewhere in itself (a doc with a stance is explaining, not instructing). **Re-verify its `PROHIBITIONS` table against root `CLAUDE.md` § Git Protocol on this pass** — the table is a restatement of prose canon, so if canon adds a prohibition the table does not know.
+
 **Review `CHECKS.tsv`** — every row's `Invoked_by` and `Last_verified_run`. Three questions, in order:
 1. Did anything land in `scripts/` since the last review **without** a row? (a new check with no row is the register's own blind spot)
 2. Is any row still `UNWIRED` that is not `MANUAL-BY-DESIGN`? **An UNWIRED load-bearing check is a finding, not a backlog item.**
