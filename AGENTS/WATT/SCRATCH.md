@@ -1,5 +1,36 @@
 # WATT — SCRATCH (next-session pickup)
 
+**2026-08-04 AM — FIFTH SESSION (Will-directed, 13-day catch-up). Two obligations cleared; the big research leg is gate-open and UNSTARTED.**
+
+Will's direction this session: *"start those obligations first"* — VULCAN and AEOLUS before the PROME P2 leg. Done, both with real primary-sourced answers rather than acknowledgment notes.
+
+**Scores: P1 3→2, P3 3→4. Composite 13/20 — flat for the THIRD session while composition went 4/5/3/2 → 3/5/3/2 → 2/5/4/2.** The flat total is the least informative number on the page (L-14 again).
+
+- **P1 3→2 🟡 COLD.** 19 days, zero emergency-class postings. Demand 101,714 MW = 75.6% of a 134,628 MW 24h peak that is itself ~28 GW under mid-July. **WATT-03 → MISS**, **WATT-04 → HIT** (industrial retail 8.71¢ May vs 8.66¢ Apr; **8.71¢ is now my canonical P2 retail figure**, supersedes 8.66¢ and DEWEY's "~9¢").
+- **P3 3→4 🔴.** VULCAN-06 resolved → the WoodMac 55GW high side is capex-funded. Fired my registered trigger, which is now **SPENT — do not re-fire.** ⚠️ Score ≠ triad: P3's standing rule ("queue > 2× peak") is still NOT-FIRED.
+- ✅ **`PJM_API_KEY` restored** — leg-5 DM2 live and it earned its keep day one.
+
+**⚠️ TWO INSTRUMENT DEFECTS, ONE ROOT CAUSE (the session's keeper findings — L-16, L-17):** the EIA ICE proxy now lags **~13 days**. (1) It could not resolve its own prediction: on 8/4 the file still ends at deliv **7/22**, so 11 of WATT-03's 26 window days were never published by its 8/2 check date — I resolved across the gap with DM2 verified hourly (264/264 rows, max single hour $397.87) rather than grading MISS on absent data. **DM2 is now the resolution instrument of record for P1 price predictions.** (2) It inflates the P4 spark spread ~47% (+$43.86 reported vs **+$29.84** same-vintage) by pairing a deliv-7/22 power leg with 8/4 gas. **I did NOT score that delta against P4's "compresses 50%" trigger — it's a basis change (ICE peak OTC vs DM2 RT on-peak), not a market move.**
+
+**Obligations cleared (packets written + committed):**
+- **→ VULCAN** — VULCAN-06 consumed (P3 3→4); **shared demand figure agreed as a CATEGORY CORRECTION**: `~55 GW nameplate interconnection ceiling / ~32 GW firm coincident-peak` — two bases, one number each, never netted or averaged (L-18; funding the nameplate does NOT firm it). Hedge read on CRWV: no sourced %, but they mandated ≥95% on RATES and **nothing** on power while writing a defined term for "Excess Unhedged Power Costs" + a §5.25 covenant + a trailing-3-month mark ⇒ **unhedged tail is real ⇒ live transmission**. Flagged that the Negative NOI Event bites on a *projection* ~5 months ahead of any operating loss. FERC door: **Door B ~65%**, registered as **WATT-08**.
+- **→ AEOLUS** — Colorado River hydro leg **SIZED, and their anchor corrected on both legs** (L-19). Glen Canyon does NOT stop at 3,490 ft (**630 MW remains**); the binding cliff is **Hoover at Mead 1,035 ft** — capacity **1,274 → 382 MW**, Mead at **1,041 ft = ~6 ft margin**, USBR projects 1,037 ft by 12/31 — and 1,035 is an **economic** threshold in USBR's own words. **But the sizing killed the story:** −27.6% of combined generation already gone, Palo Verde still averaging **$24/MWh** ⇒ too small to reprice as energy. Real loss is **capacity/ancillary (~892 MW)** and WECC has no market to price it into. **Verdict: Tier-2 candidate, NOT core-channel promotion.**
+
+**▶ PICK UP HERE (priority order):**
+1. **🔴 THE PROME BATCH-3 P2 LEG — gate-open since this boot, still UNSTARTED.** `inbox/2026-07-27_from-PROME_batch3-dispatch-P2-power.md` (kept in inbox deliberately, with DEWEY's 7/24 stub, as the leg's working material). Deliverable: memo → `outbox/` to PROME + same-session STATUS write-back. **Do not rebuild on the refuted "China's cheaper electricity" premise** — it's wrong on price (US industrial **8.71¢** vs China ~9.7¢/~11.6¢), right on **capacity/speed/queue**. The four questions, and PROME's loud-flag request on whether **543-vs-53 GW survives conversion to actual generation** (capacity ≠ dispatchable; >430 GW of China's add is wind+solar). **Re-verify 543/53 GW and the 700 GW queue at run time.**
+2. **WATT-07's 8/3 abeyance sub-deadline passed UNCHECKED** — needs a FERC eLibrary EL25-49 pull to see whether PJM filed a 45-day abeyance request. If it did, the 8/17 resolution slips ~45 days. Cheap, dated, and I told VULCAN I'd check it.
+3. **Firm-curtailable-adjusted demand number** — the open half of the VULCAN shared figure. Needs a defensible curtailable share (DOE §202(c) + PJM Manual 13, ≥50 MW on 15-min notice). Told VULCAN not to wait on it.
+4. **Instrument fix (P4):** compute spark off DM2 on-peak, or refuse to print when leg vintages differ by more than a few days.
+5. **WATT-06 (8/15)** trending hard toward FALSIFIED/heat-clustered — 19 days clear. **WATT-02 (9/7)** same direction. **WATT-08 (12/31)** new.
+6. **6 WALTER signals still unfolded** (in `inbox/WALTER/`): Oracle→We Energies **>$7B letter-of-credit** collateral call on the BBB− downgrade breaching an A− tariff threshold (SIG-009 — *a power-CONTRACT mechanism, arguably mine*); NOAA **81% very-strong El Niño Oct-Dec** (SIG-012 — Q4 winter-load input); PNW wildfire ignition-liability + the **PSPS-looks-like-demand-destruction** trap (SIG-011); Nvidia/OpenAI guarantee (SIG-002); SIG-010, SIG-018.
+7. Older, still open: Hut8 Beacon Point MW + TSMC-AZ fab timing; full WSJ Trump/utilities residential-bill text; EIA-923 PJM-fleet heat-rate; the "1-year-early" reconcile vs PJM's published 2026 summer peak.
+
+**⚠️ GIT:** did **NOT** pull this session — SAM and TERRY had uncommitted work in the tree (the "Before pulling" stop rule). Committed locally; **push deferred**. Sweep next session once the tree is clean.
+
+**⚠️ RATE LIMIT (standing):** PJM non-member = 6 calls/min; `power_watch.py` spends 1/run. **This session spent 3** (1 boot + 2 deliberate range pulls). Never loop.
+
+---
+
 **2026-07-22 EVE — FOURTH SESSION (Will-directed, 6-day catch-up). Thesis RECOMPOSED acute→structural.**
 
 The heat broke and the two channels moved in opposite directions — that's the whole session:
