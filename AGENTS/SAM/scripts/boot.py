@@ -54,6 +54,7 @@ BOOT_SEQUENCE = [
     ("USDJPY History",             "usdjpy.py",            [], "USDJPY",       False),
     ("JGB Yields",                 "jgb_yields.py",        [], "JGB YIELDS",   False),
     ("JGB Auctions",               "jgb_auctions.py",      [], "JGB AUCTIONS", False),
+    ("BOJ OIS (hike pricing)",     "boj_ois.py",           [], "BOJ OIS",      False),
     ("CFTC JPY Positioning",       "cftc_jpy.py",          [], "CFTC",         False),
     ("MOF Weekly Flows",           "mof_flows.py",         [], "MOF FLOWS",    False),
     ("GPIF Portfolio / Flows",     "gpif_flows.py",        [], "GPIF",         False),
@@ -138,6 +139,7 @@ def main():
                 "IMMINENT", "HIGH PRIORITY",
                 "Latest", "LATEST", "NEW:",
                 "VOL PROXY", "ATM IV", "25d RR",  # surface the FXY vol read
+                "🎯", "IN-WINDOW", "unpriced", "Data as of",  # surface the BOJ OIS read
             )
             lines = output.splitlines()
             shown = False

@@ -8,6 +8,31 @@ Distinct from `thesis/CHANGELOG.md`, which logs **analytical** changes (thesis-v
 
 ---
 
+## 2026-08-04 — `boj_ois.py` BUILT (Will-approved) · `fxy_options.py` plausibility gate · MOF weekly cadence adjudicated · `usdjpy.py --revise-window`
+
+**Why (all four trace to one session's failures, not a tidy-up):**
+
+**1. `scripts/boj_ois.py` — NEW, boot-wired.** SAM sourced BOJ hike pricing by ad-hoc web search. On 8/4 that failed twice in one session: two of three searches returned **2025-vintage** BOJ content reading as current (incl. a "42% October" conflicting with SAM's verified ~64%), and after failing to source it SAM **asserted a direction anyway** and had the **sign backwards** (route 1 is hawkish-*of-priced* — it pays on SURPRISE, so a RISE in priced probability SHRINKS the edge).
+- Source: `centralbank.watch/bank-of-japan/`, **server-rendered HTML** (no JS, no JSON API — probed, 404), instrument **3m-TONA futures**.
+- **Asserts the CUMULATIVE basis on the page every run and HARD-STOPS without it** — an unverified basis is precisely what produced the sign error. Stored deltas are meaningless if the basis moves silently.
+- **Derives what the thesis needs**, not just what the page shows: per-meeting **marginal** = cum(k) − cum(k−1), and **unpriced surprise room** = 100 − cum(k). First run reproduced the hand-computed **60.3% Sep unpriced**.
+- **Two-clock (PAT-044):** source's own `as_of_date` stored separately from `pulled_at`; if as-of has not advanced it writes **nothing** (no fabricated fresh rows — `finding_partitioned_source_returns_stale_window_at_200`). Idempotent by (as_of_date, meeting_date).
+- **Sanity gates** (the FXY lesson — *computable ≠ trustworthy*): probs in [0,100], cut+hold+hike ≈ 100, cumulative must be **non-decreasing by construction**, meeting dates not before as-of, runaway-parse cap. Failures grade `suspect`, never silently pass.
+- **Alert bar is NOT invented here** — it reuses the existing **>5pp named-driver** bar from THESIS § CARRY-UNWIND PROBABILITY METHOD (per the standing rule that script thresholds must match THESIS definitions).
+- **15 guard branches unit-tested including every negative case** (basis removed, basis partial, as-of absent, cumulative decreasing, sum≠100, out-of-range, empty parse, meeting-predates-as-of).
+- Boot: added to `BOOT_SEQUENCE` after JGB Auctions (~6s); `boot.py` `key_markers` extended so the vintage, the in-window row, the surprise-room line and the single-source caveat surface — same pattern already used for the FXY vol read.
+- New file: `workbook/BOJ_OIS.tsv`.
+
+**2. `scripts/fxy_options.py` — plausibility gate.** `_vol_quality` conflated **computable** with **trustworthy**: any RR it could calculate graded `ok`. Added `RR_IMPLAUSIBLE_ABS = 10` vols (deliberately loose — ~2× the widest defensible ETF skew, so it removes garbage not signal). Non-physical readings now grade `rr_implausible`, are excluded from `CALIB_OK_QUALITY`, and print **"UNREADABLE … NO directional read"** instead of a confident "calls bid". **Impact: 30 of 114 historical RR readings (26%) were non-physical and graded `ok` — worst −141.50 — and had been feeding the trailing self-calibration.** `Vol_Quality` re-graded **downgrade-only** (the ok/approx split depends on a note that is not stored and cannot be faithfully recomputed).
+
+**3. `docket/RELEASES.md` — MOF weekly cadence corrected Sat–Fri → Sun–Sat.** Adjudicated against the **primary**, not by preference: MOF's own period strings in `workbook/MOF_FLOWS.tsv` are **6-of-6 Sunday→Saturday**. RELEASES.md's rule was the error; STATUS/CALENDAR were right. ⇒ the Aug-6 "wk 7/26-8/1" label is correct and the 3rd-week BND-11 confirm reads as written — cleared **before** the print.
+
+**4. `scripts/usdjpy.py` — `--revise-window N` backfill hatch.** L3 audited the full 60d hourly lookback but L2 only rewrote inside 10d, so pre-fix truncated rows were re-reported every run and could **never self-heal** — a standing alarm decaying into background noise. Widening rewrites history, so it is a **flag, not a default**. One-off `--revise-window 90` repaired 59 sessions (all under-stating); 1366 rows in/out, second run revises 0, alarm clears.
+
+**Boot impact:** +1 script (~6s). **Docs:** `CLAUDE.md` (boot step 7 sweep list, manual-fallback source entry with the cumulative-basis + 2025-vintage warnings, FILES table, auto-pulled TSV list), `MEMORY.md` infra queue item 5 closed.
+
+---
+
 ## 2026-08-02 — `usdjpy.py` timezone bug fixed (silent false-negative in the disorder detector) · STATUS compressed 409 → 179 · BOJ pre-registration archived
 
 **Trigger:** SAM real boot 8/2 (Will-directed). Boot output showed the threshold monitor and the USDJPY history module disagreeing on the level (157.22 vs 160.71) — chased to a data-integrity bug, then the owed compression pass ran.
