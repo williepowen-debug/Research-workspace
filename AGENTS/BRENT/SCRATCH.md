@@ -1,82 +1,82 @@
-# BRENT SCRATCH — Wed Aug 5, 2026 **~00:3x ET** (⏰ `date`-verified) · **SESSION 5: THE RAV PILOT RECONCILIATION — THE CONSOLIDATION SHIPPED AND LEFT ITS OWN POINTERS BEHIND**
+# BRENT SCRATCH — Wed Aug 5, 2026 **~03:0x ET** (⏰ `date`-verified) · **SESSION 5: THE STRUCTURE SESSION — TWO UNEXECUTABLE GATES FIXED, AND THE DOC THAT WAS SUPPOSED TO SHRINK HAD BEEN GROWING**
 
 **Purpose:** Ephemeral session handoff — canonical "where are we / what next". Read at boot (step 2), rewritten at closeout (step 11).
 
-> # ⛔ **NO MARKET DATA WAS PULLED AFTER THE 8/4 CLOSE. NO THESIS CHANGE. NO POSITION CHANGE. `$0` MOVED.**
-> **This was an INFRASTRUCTURE session. Every tape figure in STATUS/NEXUS_BRIEF is an 8/4 close — re-pull at boot (LESSONS #5).**
+> # ⛔ **NO MARKET DATA AFTER THE 8/4 CLOSE. NO THESIS CHANGE. NO POSITION CHANGE. `$0` MOVED.**
+> **Every tape figure in STATUS/NEXUS_BRIEF is an 8/4 close — re-pull at boot (LESSONS #5).**
 
 ---
 
 ## ⏳ FIRST THING NEXT SESSION
 
-**1. 🟠 WED 8/5 10:30 ET — EIA WPSR (wk 7/31).** Pre-registration is **FROZEN** (`setups/2026-08-04_EIA-wk0731-prereg.md`) — **do not write to it before the print; grade in the ADDENDUM only.** The cloud routine fires 11:00 and **records/flags, never grades.**
+**1. 🟠 TODAY, WED 8/5 10:30 ET — EIA WPSR (wk 7/31).** Pre-registration **FROZEN** (`setups/2026-08-04_EIA-wk0731-prereg.md`) — **do not write to it before the print; grade in the ADDENDUM only.** ⚠️ **The cloud routine already ran ~11:31 and CORRECTLY graded nothing** — all sources still capped at wk-7/24 because the print had not happened. **That is a non-event, not a miss.**
 
-**2. 🔴 DO *NOT* RE-SURFACE THE DEPLOY.** Will declined 8/4 eve, **STANDING**: *"I am happy enough with the current USO calls we have without adding another one."* v3's legs **will** re-clear at the open — **that is not new state and does not reach Will.** What I own is the **8/13 arm-expiry disposition** (re-arm vs retire). Nothing before.
+**2. 🔴 DO *NOT* RE-SURFACE THE DEPLOY.** Will declined 8/4 eve, **STANDING**. v3's legs re-clearing is **not new state**. What I own is the **8/13 arm-expiry disposition**.
 
-**3. 🟠 RE-VERIFY THE 8/4 OVX CLOSE (53.45) AGAINST FRED `OVXCLS`.** It had **not** published 8/4 as of 22:32 ET (latest row 8/3 @ 57.20) ⇒ **still single-witness on value.** *(The PROME conflict itself is RESOLVED — see below.)*
+**3. 🔴 FRI 8/7 — COT as-of 8/4.** Ladder from **101,016**. **Raw `f_disagg.txt`, NOT Socrata. MUST NOT STACK.**
 
-**4. 🔴 FRI 8/7 — COT as-of 8/4.** Ladder from **101,016**. **Raw `f_disagg.txt`, NOT Socrata. MUST NOT STACK.**
+## ★ THE SESSION IN FOUR LINES
 
-## ★ THE SESSION IN THREE LINES
-
-**Ran:** Will handed me RAV's `brent-state-replacement-pilot-plan.txt` — the plan for the consolidation I had **already executed** in session 3. So I reconciled **the shipped branch against the plan**, WP by WP, rather than against my own memory of it.
-**Found:** the pilot delivered WP1–WP6 — **and left two of its own ownership pointers stale**, plus a headline metric that measured the flattering thing. **Both pointers fixed; the metric restated honestly.**
-**Wrote:** the **WP0 baseline artifact that never existed** — RAV's WP7 QC had no auditable answer to *"did duplicate live threshold homes decrease?"* because the before/after numbers lived only in **this file**, which is rewritten every session.
+**Reconciled** the shipped RAV pilot against RAV's own plan → found **two stale ownership pointers** it left behind and that its headline metric measured **enrollment, not consolidation**.
+**Fixed two gates that could not be executed** — `GATE-V3-A2` (my own check's false red) and **Stage-A Leg T** (real, Will-ruled → v6). **Blocking 7 → 5; zero window-infeasible rows remain.**
+**Measured the thing nobody had measured:** the pilot whose goal was *"flatten boot"* had left `CLAUDE.md` **bigger**. ⇒ **split the operating docs from [`RULINGS.md`](RULINGS.md)**, and **folded v2 into v3** so the live gate is one spec, not a delta.
+**Hot context 317 KB → 300 KB. Nothing deleted — moved out of boot context.**
 
 ## CHANGES SINCE LAST SESSION
 
-- **✅ THE OVX CONFLICT IS RESOLVED, AND IT IS THE INTRADAY-AS-CLOSE CLASS AGAIN.** PROME's **53.08** is the **open/high of the 15:30 5m bar**; the daily close is **53.45**. Mechanically diagnosable — same class as WALTER's WTI $86.80 (8/2) and three of my own this week. **Not a feed disagreement.** Gate verdict unaffected throughout (both ≪ 58.6245).
-- **⛔ TWO STALE OWNERSHIP POINTERS — MINE, SHIPPED 8/4, FIXED 8/5.** `CLAUDE.md:216` and `thresholds.py:7` **both still declared `thesis/THESIS.md` the canonical threshold registry**, four days after the pilot moved the machine home to `REGISTRY.tsv`. `thresholds.py` carried **two contradictory ownership declarations in one file** (docstring vs L78) and pointed readers at *"the tables below"* that the same commit had **deleted**.
-- **📉 NO NEW TAPE.** Last prints are 8/4 closes: USO **$115.78** · Brent **$79.12** · WTI **$75.41** · OVX **53.45** · VIX **16.50**. Overnight 8/4 22:35: Brent **$78.79** (−0.72%), WTI **$74.95** — still leaking, third-consecutive-down-session picture intact.
-- **🔴 BOOT FINDINGS UNCHANGED:** 7 blocking instrument rows · Cushing **18.60M** (below the 20.0M floor, Path-B breached) · refinery util **97.2%** · gasoline demand **−0.25% YoY**.
+- **✅ OVX 8/4 CLOSE CONFIRMED TWO-WITNESS: FRED `OVXCLS` published 53.45** — exactly my figure. **PROME's 53.08 was the open/high of the 15:30 5m bar**, i.e. an intraday print quoted as a close. **Conflict RESOLVED, not smoothed.**
+- **✅ STAGE-A LEG T v6 — WILL-RULED.** v5 graded day-0 **close-to-close** while sizing fires **tranche 1 on day 0** ⇒ **zero-minute window**, the DEPLOY GATE v2 defect in a second ratified gate. **Now: prior close → live print, graded ONCE at/after 14:00 ET. Window 120 min.** Threshold 1.0%, composite and sign-discarding **unchanged**.
+- **✅ DEPLOY GATE v2 FOLDED INTO v3.** The live gate was written as a *delta* on v2 — reading it meant applying a patch mentally. **Now one self-contained block, 73 → 40 lines.**
+- **✅ OPERATING DOCS SPLIT FROM THE RECORD.** `CLAUDE.md` 252 → 237 ln, **38.9 → 30.2 KB (−22%, below the pre-pilot baseline for the first time)**. `TRADE.md` 688 → 651 ln.
+- **⚠️ INFRA, from my own cloud routine:** it found a **stale local master in detached HEAD, 50-commit divergence from origin with NO common ancestor**, and repointed it. No data lost, flagged to PROME. **Worth knowing — that state silently makes an agent work against a phantom repo.**
 
 ## WHAT I DID
 
-**① RECONCILED THE SHIPPED PILOT AGAINST RAV'S PLAN.** WP1 ✅ (location deviates — `workbook/REGISTRY.tsv`, not `registry/TESTS.tsv`; deliberate, the retirement ratchet applied to itself, **declared** so QC finds it) · WP2 ✅ · WP3 🟡 partial · WP4 ✅ (9 human boot actions, inside RAV's 7–9) · WP5 ✅ · WP6 ✅ · **WP0 ⛔ was never done** · WP7 is RAV's.
-**② ⛔ FOUND AND FIXED RAV'S RISK #1, REALIZED — IN THE OWNERSHIP *CLAIMS*, NOT THE DATA.** Both pointers were **CORRECT WHEN WRITTEN** — ratified by the **F3 ruling of 7/31, whose entire subject was ownership** (*"one table, one home, boot reads the pointer"*). **F3 fixed the question once; the pilot moved the answer; nothing re-asked it.** ★ **A stale pointer with a citation defends itself** — reviewing it surfaces the ruling saying it is right. **No check caught either:** `lessons_check`, `instrument_check` and the prose/index drift check all probe **levels and instruments**; **nothing probes "does this file name the right owner."**
-**③ ⛔ MY OWN HEADLINE METRIC MEASURED THE FLATTERING THING.** I reported *"coverage 15 → 46 registered tests."* That counts **enrollment in the registry, not migration of the level into it.** **10 of 47 rows carry no machine-readable level**; 6 of those have a working instrument and their level simply **never moved**. **And `eia_weekly.py` is a FOURTH threshold home the pilot never touched** — `CUSHING_MIN = 20.0` and `UTIL_SQUEEZE = 95.0` **both fired red at this boot**, and refinery util has **no registry row at all**. **Honest restatement: 3 homes → 1 for the rows `thresholds.py` already owned; unchanged for EIA-, gate-, falsifier- and prediction-sourced rows.**
-**④ WROTE `workbook/PILOT_STATE_REPLACEMENT_MEASUREMENT.md`** (108 ln) — WP0 baseline **reconstructed from git** (pre-pilot `fbd3c100f`), not memory. Carries the findings **against** the pilot and the two QC warnings for RAV.
-**⑤ ⛔ C6 CAUGHT A SECOND LIVE ONE IN `NEXUS_BRIEF`, AND IT WAS A PARTIAL FIX DESCRIBED AS DONE.** The **NEXT DECISION POINT** block was still publishing **DEPLOY GATE v2 as the governing rule** — one day after v3 superseded it, and one day after that file's own header recorded C6 catching *exactly this defect* in the **gate block**. **The gate block was rewritten 8/4; this block was not.** ✅ Rewritten to v3 + the DECLINED action-state.
-**⑥ AUTO-MEMORY:** created `[[finding_ownership_claim_is_last_to_move]]` (dedup-checked against `dead_path_regrows` and `governance_doc_stale_default_drift` — **neither covers it**; those are about dead PATHS and stale DEFAULTS, this is a moved OWNER).
+**① RECONCILED THE SHIPPED PILOT AGAINST RAV'S PLAN** (WP-by-WP; WP0 had never been done → wrote `workbook/PILOT_STATE_REPLACEMENT_MEASUREMENT.md` from git, not memory).
+**② ⛔ FOUND RAV'S RISK #1 REALIZED — IN THE OWNERSHIP *CLAIMS*, NOT THE DATA.** `CLAUDE.md` and `thresholds.py` both still named THESIS canonical 4 days after the pilot moved the machine home. **Both were CORRECT WHEN WRITTEN** (F3, 7/31) — **F3 fixed the question once, the pilot moved the answer, nothing re-asked it. A stale pointer with a citation defends itself.** → `[[finding_ownership_claim_is_last_to_move]]`
+**③ ⛔ MY OWN HEADLINE METRIC MEASURED THE FLATTERING THING** — *"coverage 15 → 46"* counted **enrollment**, not migration. **10 of 47 rows have no machine-readable level**; **`eia_weekly.py` is a FOURTH threshold home the pilot never touched** (2 hardcodes fired red at boot; refinery util has **no registry row at all**).
+**④ FIXED THE `GATE-V3-A2` FALSE RED** — added a **reading basis** (`:final` / `:any` / `:atHHMM`) to `window_req`; bare = `:final`, **fail-safe**, so the loosening must be declared per row. **Falsified 7/7** — the ORIGINAL v2 defect still fires, so the check was **not** weakened.
+**⑤ LEG T v6 — and the OBVIOUS fix was REFUTED before I proposed it.** A naive live-at-the-ticket `T` **BLOCKS Jun-17, the one analogue that made money, at 4 of 6 morning checks.** ★ **`T` is a MAGNITUDE THAT GROWS THROUGH THE SESSION ⇒ a full-session threshold is systematically too high at any partial-session moment — a UNITS MISMATCH, not a level to re-tune.** **66.1% of sessions flip the verdict intraday** ⇒ tightening **T1 (one grade only)** is forced by data, not caution; **T2** keeps the close basis binding on tranche 2.
+**⑥ MEASURED THE ACCUMULATION AND SPLIT THE DOCS.** ★ **The retirement ratchet governs STATE and says nothing about PROSE** — so specs get replaced while the prose *about* each replacement accumulates. → `[[finding_anti_ratchet_governs_state_not_prose]]`
+**⑦ NOTIFIED THE OWNERS:** TERRY (Leg T v6 changes its ticket rail; T1 binds it at the moment of grading) · PROME (proposal of record, marked RULED).
 
 ## NEXT SESSION (dated, future-verifiable)
 
-1. 🟠 **Wed 8/5 10:30 EIA** — addendum only · **Fri 8/7 COT**, ladder from 101,016, no stacking.
-2. 🟠 **Re-verify 8/4 OVX 53.45 against FRED `OVXCLS`** (had not published as of 8/4 22:32).
-3. ✅ **DONE 8/5 — `GATE-V3-A2` FALSE RED FIXED.** Root cause: the check could not express *"needs the FINAL value"* vs *"needs SOME qualifying value"*, so it computed every same-session window from the LAST print. **Fix: `window_req: same_session_action[:BASIS]`** — `:final` measures from the last print, `:any` (existence form) from the first; **bare = `:final`, fail-safe**, unknown basis → 🔴 not a guess. Extended an existing column, no new one (**`supersedes: instrument_check window logic v1, single-basis`**). ✅ **Falsified 4/4 before shipping — the ORIGINAL v2 defect still fires 🔴 both bare and `:final`, so the check was NOT weakened**; `:any` = 390min ✅; garbage basis = 🔴. **Blocking 7 → 6, exactly one red removed and it was the false one.** ⚠️ **`TANKER-LIVENESS` stays a GENUINE 🔴, now explicitly `:final`** — its registry note says in terms **not** to relabel it `:any` to clear the red.
-4. 🟠 **Decide the WP3 residual (Will/RAV):** move the 6 orphaned levels into `REGISTRY.tsv` and make `eia_weekly.py` a registry consumer — or **narrow the registry header's "EVERY registered test" claim** to what actually shipped. **Doing neither leaves an over-claiming single-source-of-truth banner.**
-5. 🟠 **The 5 UNMEASURABLE registered tests need owner decisions, not standing reds:** PortWatch → **FALCON** (still silent, **12d stale**, blocking the thesis falsifier) · EU storage → **GIE key from Will** · **HY energy OAS** and **war-risk** → probably honest **retirement**. *A permanent red is decoration — same disease as the crack line retired 7/31.*
-6. 🟠 **`INCIDENTS.tsv` scope ruling** — now 6 days stale, 3–4 vessel strikes unlogged; RF-043 already logs an FSRU so the "facility-only" scope contradicts itself. **Decide and add a pointer row either way.**
-7. 🟡 **NEXUS_BRIEF VIEW + CALIBRATION are stale and flagged** (`VIX 19.7` / `OVX 70.27` vs 8/4's 16.50 / 53.45). **Content pass owed.**
-8. 🟡 **5 predictions are structurally unresolvable** (BRT-07/12/16/17/21) and **invisible to the due-scan by construction.** Register successors FORWARD.
-9. 🟡 **Candidate, needs a rationale read before anyone touches it:** SPR *"floor"* = **252.4M** in THESIS (§6241 statutory) vs **400.0** in `eia_weekly.py` (*"near operational floor"*). **147.6M under one word.** May be two legitimately different objects — **do not find-and-replace** (`[[finding_deliberate_and_unnoticed_asymmetry_look_identical]]`).
+1. 🟠 **Wed 8/5 10:30 EIA** — addendum only · **Fri 8/7 COT**, ladder 101,016, no stacking.
+2. 🟠 **Retire the 3 unmeasurable rows that are MINE** — `STAGE-A-AIS` (no instrument, never existed) · `HY-ENERGY-OAS` (no free feed, fleet-wide dark) · `WAR-RISK-HALVES` (no feed AND no anchor). **Blocking 5 → 2.** *A permanent red is decoration.* **PortWatch (FALCON) and EU storage (Will's GIE key) are the only two genuinely pending someone else.**
+3. 🟠 **Close the WP3 residual (Will's call, put to him 8/5):** either make `eia_weekly.py` a registry consumer and move the 6 orphaned levels in, **or narrow the registry header's "EVERY registered test" claim** to what actually shipped. **Doing neither leaves an over-claiming single-source-of-truth banner.**
+4. 🟡 **`TRADE.md` still has interleaved dated blocks** (the 8/3 disclosure instance, the resolved behavioral test at ~342). **They need HEADINGS introduced before extraction is safe** — live plan content resumes mid-block with no boundary. Smaller job now the gate is clean.
+5. 🟡 **NEXUS_BRIEF VIEW + CALIBRATION still stale** (`VIX 19.7` / `OVX 70.27` vs 8/4's 16.50 / 53.45) — **content pass owed; compression rides with it, not before it.**
+6. 🟠 **`INCIDENTS.tsv` scope ruling** — 6 days stale, 3–4 vessel strikes unlogged; RF-043 logs an FSRU under a "facility-only" scope that therefore contradicts itself.
+7. 🟡 **5 predictions structurally unresolvable** (BRT-07/12/16/17/21), invisible to the due-scan by construction. Register successors FORWARD.
+8. 🟡 **SPR "floor" candidate:** **252.4M** (THESIS, §6241 statutory) vs **400.0** (`eia_weekly.py`, "near operational floor"). **147.6M under one word.** May be two legitimate objects — **read the rationale, do not find-and-replace.**
 
 ## OPEN THREADS / WATCHES
 
-- 🔴 **PortWatch `chokepoint6` dead since 7/23 — still BLOCKING the thesis falsifier. FALCON has not answered.**
-- 🔴 **n=0 genuine physical reopenings — real-vs-fake UNCALIBRATED.**
-- ⚠️ **QC WARNING FOR RAV, carried:** `instrument_check --quick` reports **5** blocking, the full run **7**. `--quick` skips intraday pulls so it **cannot detect `WINDOW_INFEASIBLE`** — the flagship class. **Compare full-to-full.**
-- ⚠️ **TERRY's sizing note, adopted:** any future tranche sizes on top of **$4,058 of LINEAR USO shares = 11.6% of the account, no defined risk on the largest leg.**
-- 🟠 Diesel crack card `NO AT THIS PRICE` · un-anchored *"war-risk halves"* threshold **still open** · Velos Amber vs UKMTO 103-26 **still unreconciled**.
-- 🟡 EU storage (**GIE key pending**) · Jazan/product half of the v5.3 retraction **untested** · **46 routine-authored commits unaudited**.
+- 🔴 **PortWatch `chokepoint6` dead since 7/23 (13d) — still BLOCKING the thesis falsifier. FALCON has not answered.**
+- 🔴 **n=0 genuine physical reopenings — real-vs-fake UNCALIBRATED.** Every Stage-A number is fitted to a sample containing **no instance of the event the playbook exists to trade.**
+- ⚠️ **QC WARNING FOR RAV:** `instrument_check --quick` **cannot detect `WINDOW_INFEASIBLE`** (it skips intraday pulls) — the flagship class. **Compare full-to-full, never quick-to-full.**
+- ⚠️ **Leg T v6 limits that must travel:** n=1 analogue intraday (**Apr-17 cannot be re-run**, 5m history starts 5/11) · **14:00 is NOT empirically better than 15:00** (2 vs 5 sessions at n=59) · every intraday grading time carries a **3–9% false-pass**.
+- ⚠️ **TERRY's sizing note:** any future tranche sizes on top of **$4,058 of LINEAR USO = 11.6% of the account, no defined risk on the largest leg.**
+- 🟠 Diesel crack card `NO AT THIS PRICE` · Velos Amber vs UKMTO 103-26 **still unreconciled** · **46 routine-authored commits unaudited**.
 
 ## POSITION DECISIONS PENDING
 
 - **NONE REQUIRING ACTION. `$0` at risk from this arm.** Convex arm **ARMED, NOT deployed, DECLINED (standing)**; expires **8/13**.
-- **★ THE REAL RISK IS UNCHANGED AND UNDEFENDED: USO 35 shares ≈ $4,058 = 11.6% of the account, linear, no defined risk.** **Not a trim recommendation** (root rule #7 — thesis intact), but it is where the exposure actually sits.
-- **5 live oil expressions, ~$5,131** `[broker-verified 8/4]`. **USO Oct-16 135C ×2** — HELD, −36.0%. **USO Sep-18 150/165** — HOLD, ~29% OTM at 45 DTE, effectively a lapse. **XLE Sep-30 65C ×2** — LAPSE, −78.5%. ⛔ **STNG is a TRACKED TICKER, not a holding.**
+- **★ THE REAL RISK IS UNCHANGED AND UNDEFENDED: USO 35 shares ≈ $4,058 = 11.6% of the account, linear, no defined risk.** Not a trim recommendation (root rule #7 — thesis intact), but that is where the exposure actually sits.
+- **5 live oil expressions, ~$5,131** `[broker-verified 8/4]`. **USO Oct-16 135C ×2** HELD −36.0% · **USO Sep-18 150/165** HOLD (~29% OTM, effectively a lapse) · **XLE Sep-30 65C ×2** LAPSE −78.5%. ⛔ **STNG is a TRACKED TICKER, not a holding.**
 
 ## MAIL STATE
 
-- **INBOX: 1** — `MSG-PROME-20260803-003` (2 obligations, **ACCEPTED, due 8/13**, correctly retained — **not consumed this session**, no ledger row owed).
-- **Outbox: 2** — the 7/31 boot/closeout audits, **loops NOT demonstrably closed** (pending PROME's round-2 batch) ⇒ correctly left top-level, not swept to `delivered/`.
-- **Owed TO me:** **FALCON on PortWatch** (blocking) · **Will: GIE key**, the war-risk-halves ruling, **8/13 disposition**.
-- **Owed BY me:** nothing routed this session. ⚠️ **Consider a packet to PROME on the intraday-as-close OVX finding** — it is PROME's figure and the class has now bitten three agents in four days.
+- **INBOX: 1** — `MSG-PROME-20260803-003` (2 obligations, **ACCEPTED, due 8/13**, correctly retained, not consumed this session).
+- **SENT (3):** → PROME (Leg T proposal, **marked RULED**, swept to `outbox/delivered/`) · → TERRY (Leg T v6 execution rail) · PROME inbox copy annotated RULED.
+- **Outbox: 2** — the 7/31 boot/closeout audits, loops **not** demonstrably closed (pending PROME round-2) ⇒ correctly left top-level.
+- **Owed TO me:** **FALCON on PortWatch** (blocking) · **Will: GIE key**, the war-risk-halves ruling, the WP3 call, **8/13 disposition**.
 
 ## WORKBOOK HEALTH
 
-- **LIVE:** `TRADE.md` (GATE v3 · positions corrected · fallback STRUCK) · STATUS (**245 ln**, inside the 250 cap, current-state block at top) · **`workbook/REGISTRY.tsv` (47 rows — ⚠️ 10 with no machine-readable level)** · **`workbook/PILOT_STATE_REPLACEMENT_MEASUREMENT.md` (NEW, 108 ln)** · THESIS v5.4 · TRACKER · SCHEDULED_RUNS · EIA pre-reg (frozen) · board_log (138) · SCRATCH.
-- ⚠️ **`NEXUS_BRIEF.md` = 122 ln, OVER its provisional 100-line cap** (it was already 120 at session start — the 8/4 handoff's *"109 ln, back inside cap"* was wrong). **Not compressed this session ON PURPOSE:** the schema says compress upward from **VIEW / FORWARD CATALYSTS**, and VIEW is exactly the section I just flagged as **stale and owed a content re-verify** — compressing an unverified section would bake the staleness in rather than fix it. **Compression rides with the content pass (NEXT SESSION #7), not before it.**
-- **RETIRED/REMOVED:** `workbook/INSTRUMENTS.tsv` (absorbed) · `ledger_staleness` (de-wired) · `thresholds.py` hardcoded tables.
-- **Boot re-run clean after the fix: 6 checks, 59.2s.** Lesson-conflict **0** · predictions-due **clean** · **Instrument Check = FINDINGS, now 6 blocking (was 7)** — the 5 no-instrument/stale rows **+ `TANKER-LIVENESS`, all genuine.**
-- **GIT:** 3 commits this session, path-scoped, pushed. **1 auto-memory created** (carve-out ③, self-committed).
+- **LIVE:** `TRADE.md` (**651 ln** — GATE v3 self-contained, Leg T v6, positions correct) · STATUS (**246 ln**, inside the 250 cap) · **`RULINGS.md` (NEW, 152 ln — the dated record, NOT boot-read)** · `workbook/REGISTRY.tsv` (47 rows; ⚠️ **10 with no machine-readable level**) · `PILOT_STATE_REPLACEMENT_MEASUREMENT.md` · THESIS v5.4 · TRACKER · board_log · SCRATCH.
+- ⚠️ **`NEXUS_BRIEF.md` over its 100-ln cap** — deliberately not compressed; the schema compresses upward from VIEW, which is the section flagged as needing re-verification. **Compression rides with the content pass.**
+- **HOT CONTEXT: 317 KB → 300 KB.** `CLAUDE.md` **38.9 → 30.2 KB**; BOOT section 43 → 31 ln, rationale 18 → 7, **human actions unchanged at 9**.
+- **Boot 58.1s, 6 checks.** Lesson-conflict **0** · prose/index drift **0** · predictions-due clean · **Instrument Check FINDINGS, 5 blocking (was 7) — every red removed was a FALSE one.**
+- **GIT:** 6 commits this session, path-scoped, all pushed (one routine rebase, verified by subject + against origin). **2 auto-memories created** (carve-out ③, self-committed).
