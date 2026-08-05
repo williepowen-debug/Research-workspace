@@ -2,7 +2,7 @@
 
 **For:** Will **[Approve]** · **From:** BRENT · **Structure:** TERRY (`TRY-BRENT-USOARM`) · **Independent check:** PROME
 **Written:** 2026-08-04 Tue **13:59 ET** (⏰ `date`-verified — my hand stamps have run **+66 min fast**; TERRY 12:31 §7. Every clock figure below is machine-read.)
-**Arm clock:** day **13 of 20** · 7 sessions after today · **expiry Thu 2026-08-13**
+**Arm clock:** ⚑ **REFRESHED FOR A WED 8/5 FILL (2026-08-04 ~18:0x ET, post-close).** **Day 14 of 20 · 6 sessions remain (8/5, 6, 7, 10, 11, 12, 13) · expiry Thu 2026-08-13.**
 
 > # ⛔ **NOTHING HERE HAS FILLED. NO CAPITAL HAS MOVED.**
 > **Will's "approved" (13:5x ET) ratified DEPLOY GATE v3 — the SPEC. It is NOT a fill authorization.** A fire still requires **[Approve] on this packet** with leg (b) priced at the ticket. **I am not treating a spec ratification as covering an execution.**
@@ -28,8 +28,8 @@ That packet asked, unverified: *"do USO options close 16:00 or 16:15?"* **Pulled
 
 | Leg | Test | Reading | Verdict |
 |---|---|---|---|
-| **(a)** vol decompression | most recent official OVX close ≤ **58.6245** | **8/3 close 57.20** *(−17.065% from the 68.97 peak; two witnesses — my feed **and** FRED `OVXCLS`)* | ✅ **MET, all session** |
-| **(a2)** live non-reversal | OVX prints ≤ **58.6245** at the ticket | **53.20** (13:40 bar) · **session high 56.50** ⇒ **never breached the line at any point today** | ✅ **MET** |
+| **(a)** vol decompression | most recent official OVX close ≤ **58.6245** | ⚑ **8/4 CLOSE 53.45** *(−22.50% from the 68.97 peak — re-derived from the full 7/16→8/4 close series, unchanged, **no re-ratchet**)*. *(Superseded the 8/3 close 57.20 this row carried when first written.)* | ✅ **MET for all of WED 8/5**, with **8.8%** of cushion |
+| **(a2)** live non-reversal | OVX prints ≤ **58.6245** at the ticket | ⏳ **GRADES LIVE WEDNESDAY — NOT BANKED.** 8/4's intraday (53.20, session high 56.50, line never breached) is a **dated record, not a clearance**: v3 banks leg (a) for exactly one session and **never** banks (a2). | ⏳ **AT THE TICKET** |
 | **(b)** structure economics | net debit ≤ **33.0%** of width, live chain | TERRY **12:24**: `125/130 ×2` = **26.0%** worst case | ⏳ **GRADES AT THE TICKET — NOT BANKED** |
 
 **Peak 68.97 (7/23) RE-DERIVED this session from the full 7/16→8/4 close series. Unchanged. No re-ratchet.**
@@ -37,6 +37,22 @@ That packet asked, unverified: *"do USO options close 16:00 or 16:15?"* **Pulled
 ⚠️ **Leg (b) is deliberately NOT graded here, and that is TERRY's ruling, not my omission.** TERRY adopted `RISK_RULES #14` today: **net debit is a MOMENT property, not a STRUCTURE property.** It was graded **5× this morning by three of us** — `34.0% FAIL → 38.0% FAIL-and-worsening → 26.0% PASS → 31.0% PASS` — **every one correct at its timestamp, not one actionable.** ★ **Had anyone acted on the 11:38 "38.0% FAIL and worsening," this arm would have been stood down on a number that was 26.0% forty-six minutes later.** **Structure legs all PASS now; the value grades once, at fire.**
 
 ---
+
+## 1b. ⚠️ WHAT MUST HAPPEN BEFORE THIS CAN FILL — and one event risk inside the window
+
+**This packet was written 8/4 13:59 ET against INTRADAY prices. It is refreshed to the 8/4 CLOSES below, but three things are still live-only and must be pulled AT THE TICKET:**
+
+| Item | Owner | When |
+|---|---|---|
+| **leg (a2)** — OVX prints ≤ 58.6245 | **BRENT** | at the ticket. **A hard veto: above the line ⇒ no fill, whatever the chain says.** |
+| **leg (b)** — net debit ≤33.0% of width, live chain | **TERRY** | once, at fire (`RISK_RULES #14`). **The 12:24 26.0% is NOT banked.** |
+| **Strike currency** — `125/130` was chosen against **USO ~$116** | **TERRY** | at the ticket. **8/4 close $115.78.** If USO gaps materially the moneyness — and the ~1.3pp band departure — moves with it. |
+
+**📊 8/4 OFFICIAL CLOSES (superseding the intraday figures elsewhere in this packet):** USO **$115.78** (−5.19%) · Brent **$79.12** (−5.55%) · WTI **$75.41** (−6.14%) · OVX **53.45** (−6.56%) · STNG **$76.40** (−1.76%) · VIX **16.50** (+4.04%). **Third consecutive down session.**
+
+> ### 🔴 **EVENT RISK INSIDE THE FILL WINDOW: EIA WPSR (week 7/31) PRINTS WED 10:30 ET.**
+> **It lands before any plausible fill and it moves USO directly.** The pre-registration is **FROZEN** (`setups/2026-08-04_EIA-wk0731-prereg.md`) and **grades in its ADDENDUM only** — the print must not be re-read to justify a fill.
+> **This is Will's to weigh, not mine to resolve:** fill **before** 10:30 and you take the print as an open risk on a fresh position; fill **after** and you have more information but the entry has moved. **I am not recommending a side, and "get in before the number" is a chase.**
 
 ## 2. ⚖️ THE MANDATORY DISCLOSURE — three figures, before any fill *(v2 clause, extended by THESIS v5.4; carried forward unchanged from the 12:55 staging)*
 
