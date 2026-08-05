@@ -213,8 +213,9 @@ If a cross-agent threshold breaches during your work, append to `AGENTS/SIGNALS.
 
 ## KEY THRESHOLDS
 
-> # ➡️ **THE CANONICAL THRESHOLD REGISTRY IS `thesis/THESIS.md` § KEY THRESHOLDS. READ IT THERE. DO NOT RE-CREATE A TABLE IN THIS FILE.**
-> **`scripts/thresholds.py` already declares THESIS canonical** (*"THESIS WINS on any conflict"*) and grades against it every boot. **This file used to carry a SECOND table, and the two had silently diverged in both directions** — boot read one, the enforcer read the other. **F3, Will-ruled 2026-07-31: one table, one home, boot reads the pointer.**
+> # ➡️ **CANONICAL MACHINE STATE = [`workbook/REGISTRY.tsv`](workbook/REGISTRY.tsv)** — every registered test's level + instrument, graded every boot by `thresholds.py`, probed by `instrument_check.py`. **CANONICAL PROSE = `thesis/THESIS.md` § KEY THRESHOLDS** (what each metric MEANS and why its level was chosen; it holds **no** live state). **DO NOT RE-CREATE A TABLE IN THIS FILE.**
+> **F3, Will-ruled 2026-07-31:** this file used to carry a SECOND table and the two had silently diverged in both directions — boot read one, the enforcer read the other. **One table, one home, boot reads the pointer.**
+> ⛔ **REPOINTED 2026-08-04 (session 4) — AND THE STALE POINTER WAS AN ARTEFACT OF THE FIX ITSELF.** This block previously read *"THE CANONICAL THRESHOLD REGISTRY IS `thesis/THESIS.md`"* and cited `thresholds.py`'s docstring as its evidence. **Both were true on 7/31 and both went stale the same afternoon**, when the RAV state-replacement pilot moved the machine home to `REGISTRY.tsv`, deleted `thresholds.py`'s hardcoded tables and stripped THESIS's `Status` column — **without repointing the boot doc or the docstring it cited.** ⚠️ **A pointer that was correct when written is the hardest stale surface to see: the F3 ruling fixed the ownership question ONCE, the pilot moved the answer, and nothing re-asked it.** **This is RAV's Risk #1 realized — *"creates a new registry but leaves every old fact home live"* — found by reconciling the shipped branch against RAV's own plan, not by any check.**
 
 ### 📋 DATED RECORD — what the retired table held and where each row went (2026-07-31)
 

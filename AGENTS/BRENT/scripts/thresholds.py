@@ -4,11 +4,22 @@ BRENT Threshold Monitor
 Pulls live oil/energy market prices (yfinance) and economic data (FRED) and
 compares against BRENT's two-phase oil thesis thresholds.
 
-CANONICAL THRESHOLD REGISTRY = `thesis/THESIS.md` § KEY THRESHOLDS. THESIS WINS on any
-disagreement with the tables below — they are a RESTATEMENT, and a restatement rots.
-(The old header credited `workbook/VX.tsv`, which has been FROZEN since 2026-06-14; that
-mis-citation is how two retired v4 Brent rows survived to 7/28. Corrected 2026-07-28.)
-Re-verify these against THESIS whenever the thesis version bumps.
+CANONICAL MACHINE STATE = `workbook/REGISTRY.tsv` — this script READS it (see the
+consolidation note ~L68) and holds NO threshold table of its own.
+CANONICAL PROSE = `thesis/THESIS.md` § KEY THRESHOLDS — meaning and rationale, no live state.
+They may disagree only in wording, never in a number.
+
+⛔ THIS DOCSTRING SAID THE OPPOSITE UNTIL 2026-08-04 (session 4). It read "CANONICAL
+THRESHOLD REGISTRY = thesis/THESIS.md ... THESIS WINS on any disagreement with the tables
+below — they are a RESTATEMENT, and a restatement rots." Correct when written; stale the
+moment the RAV pilot deleted those tables and moved the machine home here — so the file
+carried TWO CONTRADICTORY OWNERSHIP DECLARATIONS, this one and the L78 note, for a day.
+It also referred readers to "the tables below," which no longer exist.
+(Earlier history, retained: the pre-7/28 header credited `workbook/VX.tsv`, FROZEN since
+2026-06-14 — that mis-citation is how two retired v4 Brent rows survived to 7/28.)
+★ THE PATTERN, THREE TIMES IN THIS ONE DOCSTRING: the ownership claim is the LAST thing
+updated when ownership moves, because the refactor changes the CODE and the claim lives
+in a comment nothing executes.
 
 Color key:
   BREACHED  = threshold crossed
