@@ -139,6 +139,68 @@ def last_intraday_time_et(ticker):
         return None
 
 
+def first_intraday_time_et(ticker):
+    """EARLIEST clock time this ticker prints — the moment an EXISTENCE-form test first
+    becomes evaluable. Taken as the MAX across recent complete sessions of each session's
+    FIRST bar, i.e. the LATEST that trading has actually opened.
+
+    ⚠️  Deliberately the CONSERVATIVE choice in the same direction as its `last_` twin:
+    a LATER assumed open means a SMALLER computed window, so an error here understates
+    the window and over-reports the defect. Both helpers must fail toward ALARMING, never
+    toward COMFORTING — that asymmetry is the whole point of this script
+    (`[[finding_test_the_guard_not_just_the_guarded]]`).
+    Bars are labelled by their START, so the first bar's label IS the first print time —
+    no +5min adjustment here, unlike `last_intraday_time_et`.
+    """
+    try:
+        import yfinance as yf
+        i = yf.Ticker(ticker).history(period="10d", interval="5m", prepost=False)
+        if i.empty:
+            return None
+        i.index = i.index.tz_convert("America/New_York")
+        days = sorted({x.date() for x in i.index})
+        complete = days[:-1] if len(days) > 1 else days
+        if not complete:
+            return None
+        return max(min(x for x in i.index if x.date() == d) for d in complete).strftime("%H:%M")
+    except Exception:
+        return None
+
+
+# ---------------------------------------------------------------------------
+# ⚑ READING BASIS (added 2026-08-05) — `window_req` = "same_session_action[:BASIS]".
+#
+# WHY: v1 computed EVERY same-session window as `action_close − LAST print`. That is the
+# right test only for a reading that needs the instrument's FINAL value. It produced a
+# FALSE 🔴 on DEPLOY GATE v3 leg (a2) — an EXISTENCE-form test ("OVX must PRINT ≤ the line
+# at the ticket"), which is evaluable and actionable from the opening bell. v1 reported a
+# 0-minute window on a leg whose real window is ~6.5 HOURS, on the gate ratified the day
+# before. A false red on a live gate is corrosive twice over: it makes the flagship class
+# noisy, and a permanently-red row decays into decoration — the exact disease that retired
+# the `crack >$30` line on 7/31.
+#
+#   :final  the test needs the instrument's FINAL/closing value, or a session aggregate
+#           not known until the close (e.g. a close-to-close % move).
+#           window = action_close − LAST print.
+#   :any    EXISTENCE form — satisfied by ANY qualifying print during the session, so it is
+#           evaluable from the open.  window = action_close − FIRST print.
+#
+# ⛔ A BARE `same_session_action` (no suffix) IS TREATED AS `:final`. That is deliberate and
+# fail-safe: an undeclared row keeps firing the conservative red rather than silently
+# passing. The LOOSENING must be declared PER ROW, never inferred — otherwise this fix
+# would quietly weaken the check on every row that predates it, which is precisely the
+# "did a red disappear because the scanner got weaker?" failure RAV's WP7 asks about.
+# ---------------------------------------------------------------------------
+
+def needs_same_session(row):
+    return (row.get("window_req") or "").split(":", 1)[0].strip() == "same_session_action"
+
+
+def window_basis(row):
+    parts = (row.get("window_req") or "").split(":", 1)
+    return parts[1].strip().lower() if len(parts) == 2 and parts[1].strip() else "final"
+
+
 def _fred_key():
     """Same resolution order as thresholds.py: env, then the gitignored FORGE .env."""
     import os
@@ -254,7 +316,7 @@ def evaluate(row, quick=False):
         add(AMBER, "SKIPPED", "network probe skipped (--quick)")
     else:
         if probe.startswith("yf:"):
-            need_intra = row.get("window_req") == "same_session_action"
+            need_intra = needs_same_session(row)
             ok, last_dt, detail = _cached((probe, need_intra), lambda: probe_yf(probe[3:], want_intraday=need_intra))
         elif probe.startswith("fred:"):
             ok, last_dt, detail = _cached(probe, lambda: probe_fred(probe[5:]))
@@ -304,22 +366,37 @@ def evaluate(row, quick=False):
                     + ("  [gate/falsifier ⇒ blocking, not advisory]" if hard else ""))
 
     # 4. FEASIBLE — the window check
-    if row.get("window_req") == "same_session_action" and not quick and probe.startswith("yf:"):
+    if needs_same_session(row) and not quick and probe.startswith("yf:"):
         co = (row.get("co_instrument") or "").strip()
         if co:
-            inst_t = last_intraday_time_et(probe[3:])
+            basis = window_basis(row)
             act_t = ACTION_CLOSE_ET.get(co, ACTION_CLOSE_ET["_default"])
+            if basis == "any":
+                # EXISTENCE form: evaluable from the first print, so the window opens there.
+                inst_t = first_intraday_time_et(probe[3:])
+                anchor = f"first {probe[3:]} print {inst_t} ET"
+            elif basis == "final":
+                inst_t = last_intraday_time_et(probe[3:])
+                anchor = f"last {probe[3:]} print {inst_t} ET"
+            else:
+                add(RED, "WINDOW_BASIS_UNKNOWN",
+                    f"window_req declares basis '{basis}', which this script does not implement "
+                    f"— expected ':final' or ':any'. NOT graded rather than graded on a guess")
+                inst_t = None
+                anchor = ""
             if inst_t:
                 mins = (int(act_t[:2]) * 60 + int(act_t[3:])) - (int(inst_t[:2]) * 60 + int(inst_t[3:]))
+                tag = f"[basis={basis}]"
                 if mins <= 0:
                     add(RED, "WINDOW_INFEASIBLE",
-                        f"instrument's last print {inst_t} ET is at/after the {co} action close {act_t} ET "
+                        f"{tag} instrument's {anchor} is at/after the {co} action close {act_t} ET "
                         f"⇒ {mins}min window: the test becomes knowable only once it can no longer be acted on")
                 elif mins < 30:
                     add(AMBER, "WINDOW_TIGHT",
-                        f"only {mins}min between the last {probe[3:]} print ({inst_t}) and the {co} close ({act_t})")
+                        f"{tag} only {mins}min between the {anchor} and the {co} close ({act_t})")
                 else:
-                    add(GREEN, "WINDOW_OK", f"{mins}min of actionable window after the last print ({inst_t} ET)")
+                    add(GREEN, "WINDOW_OK",
+                        f"{tag} {mins}min of actionable window from the {anchor} to the {co} close ({act_t})")
 
     return findings, probed, detail
 
