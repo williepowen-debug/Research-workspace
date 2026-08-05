@@ -21,6 +21,8 @@ Grouped directory views live in `AGENTS/_INDEX.md`; the canonical topology map l
 
 **Run model (all agents):** every agent is a Claude Code session — launch it from its own dir (`cd AGENTS/<NAME> && claude`), or PROME spawns it via teams-mode when orchestrating (mode-split rule → `PROME/ORCHESTRATION_PLAYBOOK.md`). Live vs Tier-2 vs dormant classification → `PROME/ROSTER.md` (single source of truth — dormant/retired agents do not launch unless Will revives). **Exceptions:** CREED = explicit-permission only; DAEDALUS = on-demand meta-agent (PROME/Will). *(The old per-agent "Spawn?" column — OpenClaw-era "Persistent (Telegram)" framing — was retired 2026-07-01; the spawnable-vs-persistent split no longer exists.)*
 
+> **⚠️ The table below is a ROUTING subset, not the roster.** It lists the agents in the canonical transmission chains — **~20 rows against 30 live ACTIVE agents** — so a name's absence here means "not on a named chain," never "not active." Roster membership and **responsibility class** are owned by **`PROME/ROSTER.md`**, which as of the **2026-08-05 Phase 1 taxonomy pass** splits the live roster into five descriptive classes: **ORGANIZING / SERVICE · REVIEW / QC · DOMAIN ACTIVE · PROVISIONAL ACTIVE · EVENT-DRIVEN SPECIALIST**. Read class there; **do not mirror per-agent classes into this table** — a duplicated high-churn field rots independently, which is the failure that pass exists to fix. Classes are **descriptive only** (no routing, boot-priority, grading or read-obligation effect), and neither `PROVISIONAL ACTIVE` nor `EVENT-DRIVEN SPECIALIST` is a demotion.
+
 | Agent | Domain | Chain |
 |-------|--------|-------|
 | LABOR | Employment, claims | Credit |

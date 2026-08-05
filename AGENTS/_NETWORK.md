@@ -182,5 +182,9 @@ flowchart LR
 
 - `AGENTS.md` owns compact roster, spawn restrictions, and canonical transmission chains.
 - `AGENTS/_INDEX.md` owns grouped directory navigation.
-- This file owns the live topology map.
+- This file owns the live topology map — **specifically the MARKET-TRANSMISSION topology** (who moves what to whom as a thesis propagates).
+
+> **⚠️ Two topologies, one repo — do not read this map as an org chart.** *(Phase 1 taxonomy pass, 2026-08-05.)* Market-transmission topology (this file) and **governance/review topology** (who owns, reviews, corrects and escalates) are **different graphs over the same agents**, and an agent's position in one says nothing about its position in the other. Worked example: **HAWK** is a synthesis *hub* here — `{OSPREY, FALCON} → HAWK → BRENT` — yet it is `DOMAIN ACTIVE`, not organizing, because that synthesis is **inside** its domain and carries no fleet-coordination authority. Conversely **NEXUS** does cross-agent synthesis as a *service* and barely appears in the transmission chains below.
+>
+> **Responsibility class is owned by `PROME/ROSTER.md`** (five descriptive classes as of 2026-08-05: ORGANIZING / SERVICE · REVIEW / QC · DOMAIN ACTIVE · PROVISIONAL ACTIVE · EVENT-DRIVEN SPECIALIST). Read it there — **do not mirror per-agent classes into this file.** The explicit governance/review map is **Phase 2** work owned by DAEDALUS / WALTER / NEXUS in their own surfaces, not by this file. Classes are descriptive only and change no routing here.
 - Runtime architecture / operating model → root `CLAUDE.md` ("How The System Works") + `PROME/SYSTEM.md`. *(`AGENTS_DIRECTORY.md` retired → `archive/` 2026-06-30.)*

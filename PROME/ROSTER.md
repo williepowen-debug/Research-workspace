@@ -3,47 +3,107 @@
 
 **Method:** classification by **30/60-day git-commit activity** (the "is it actually running" signal) + STATUS mtime + self-declared domain — *not* a prose guess. Re-verify by re-running the activity map (`git log --since=<60d> --pretty=%s | grep -cE '^NAME'` per agent) and diffing against this table.
 
-> Root `CLAUDE.md` carries the short Active/Tier-2 lists for boot orientation. **This file is the full verified classification + the evidence.** When they disagree, re-run the pass and reconcile.
+> **★ PHASE 1 TAXONOMY PASS EXECUTED 2026-08-05** (roster-responsibility migration, RAV plan v4 → Will-ruled Phase 0 → RAV preflight → this pass). The flat `ACTIVE — persistent domain owners (30)` bucket is now split into five descriptive classes. **Membership is unchanged: 30 agents in, 30 agents out, verified by name-set diff — this pass re-labels, it does not add, remove, promote or demote anyone.** Rulings artifact: `PROME/proposals/2026-08-04_roster-phase0-ruling-table-RULED.md`. Preflight: `PROME/inbox/2026-08-05_from-RAV_roster-phase0-preflight-addendum.md`. **Out of scope by ruling and untouched:** TIER-2, DORMANT, RETIRED, ARCHIVE SOURCES, SPECIAL, TOOL-CLASS, spinouts, coverage notes, transmission chain.
+
+> Root `CLAUDE.md` carries the short Active/Tier-2 lists for boot orientation. **This file is the full verified classification + the evidence.** When they disagree, re-run the pass and reconcile. ⚠️ **As of the 8/5 Phase 1 pass the root mirror is one taxonomy behind by design** — it is auto-injected fleet-wide and therefore **Will-gated**; the matching edit is drafted at `PROME/proposals/2026-08-05_root-claudemd-mirror-edit-DRAFT.md` and awaits Will's ruling. Root's *membership* list is still correct; only the bucket taxonomy is newer here.
 
 ---
 
-## ACTIVE — persistent domain owners (30)
-Verified by recent commit cadence; each runs as its own Claude Code session.
+### ROSTER RESPONSIBILITY MODEL — ruled 2026-08-04 by Will
+*(source: RAV roster-responsibility plan v4, accepted 8/4; rulings: `PROME/proposals/2026-08-04_roster-phase0-ruling-table-RULED.md`; preflight: `PROME/inbox/2026-08-05_from-RAV_roster-phase0-preflight-addendum.md`)*
+
+**Column ownership — put the fact in the owner file and POINT; do not restate.**
+
+| Fact | Owner file |
+|---|---|
+| Agent existence · human bucket · cadence posture | `PROME/ROSTER.md` *(this file)* |
+| Class / authority type · maturity level · next structural gap | `AGENTS/DAEDALUS/FLEET_MAP.tsv` → generated `FLEET_DIRECTORY.md` |
+| Routing / delivery status | `AGENTS/WALTER/REGISTRY.tsv` + routing table |
+| Synthesis-read requirement · brief schema/order invariants | `AGENTS/NEXUS/templates/NEXUS_BRIEF_SCHEMA.md` |
+| Will-facing priority / decision state | `PROME/WILL_QUEUE.md` · `GATES.tsv` · `DOCKET.tsv` · `BRIEF.md` |
+| Off-repo routine schedule / state | PROME if PROME-deployed; **domain owner** for state + registered alert lines |
+| Recurring-sweep cadence / service rules | `AGENTS/DAEDALUS/sweeps/REGISTRY.tsv` (checked by `sweeps_due.py`) — **not ROSTER prose** |
+
+**Ownership rule:** every recurring responsibility or shared figure needs **one owner of record, one accountable artifact, and one escalation path**; **overlap is allowed** where agents reconcile to the owner-of-record figure/state rather than siloing (root canon: CORAL↔MARCO, AEOLUS↔CORAL — reconcile to one figure, never silo).
+
+⚠️ **Labels below are DESCRIPTIVE ONLY.** They do not change routing, boot priority, DAEDALUS grading, WALTER delivery, or NEXUS read obligations until an explicit later operational ruling. **Neither `PROVISIONAL ACTIVE` nor `EVENT-DRIVEN SPECIALIST` is a demotion or a statement of lesser authority** — the first means the agent exists and should run with proof criteria still pending; the second describes catalyst/print-driven *cadence and scope*, not standing. Both carry real analytical authority in their lanes.
+
+**Cadence and authority are separate fields only where they diverge or could mislead** — the qualifying set is marked with an **Authority** column below. Where one label carries both truthfully (the `DOMAIN ACTIVE` bucket), the omission is **deliberate**, not missing.
+
+⚠️ **MIRROR — Will-gated:** this file's active list is mirrored into root `CLAUDE.md:26`, which is **auto-injected fleet-wide**. Any roster-taxonomy change owes that mirror a matching edit, **drafted by PROME and ruled by Will — never applied silently.** This pair has rotted before (WP-W2 read "still open" 9 days past its own closing commit `37ee2748e`; OZK lagged to 7/25). Nav-class mirrors that also need alignment: `AGENTS/_INDEX.md` (canonical roster table) and root `AGENTS.md` (20-row agent table) — navigation surfaces, **not** the same class as auto-injected root canon.
+
+---
+
+## ACTIVE (30) — split by responsibility class
+*Phase 1 taxonomy pass, 2026-08-05. Previously one flat bucket headed "persistent domain owners (30)", which mixed domain owners, organizing/service agents, a review lane, event-driven specialists and newborns under a header claiming all thirty were persistent domain owners.* Verified by recent commit cadence; each runs as its own Claude Code session.
 
 > **The count column is a vintage snapshot (as-of the header date), NOT live** — it rots within days (re-run the Method command to refresh). **Classification is the signal, not the raw count.** *(Vintage-stamp added 2026-07-10 — same "hardcoded-Current value silently rots" defect DAEDALUS fixed in CARL's sub-agent CLAUDE.md files the same day.)*
 
+### ORGANIZING / SERVICE (3)
+*Produces a consumed system service without being a domain owner.*
+
+| Agent | Domain | Authority (≠ cadence) | 30d commits (as-of 2026-07-10) |
+|---|---|---|---:|
+| PROME | Coordinator / chief of staff | Operator rail — decision/approval gates, Will-facing synthesis; **not** the owner of every mechanism | 322 |
+| WALTER | Signal & news routing | Intake / delivery / BOARD; schema + routing rulings escalate to PROME | 229 |
+| NEXUS | Cross-agent synthesis | Dense cross-agent synthesis + brief schema and freshness/order invariants | 18 |
+
+### REVIEW / QC (1)
+*Reviews work; read-only or bounded-repair depending on lane. YEYOU and RAV are review agents too but sit in **SPECIAL**, outside ACTIVE.*
+
+| Agent | Domain | Authority (≠ cadence) | 30d commits (as-of 2026-07-10) |
+|---|---|---|---:|
+| RED | Adversarial red-team | Challenge / counter-case / falsification triggers; **not** domain ownership | 44 |
+
+### DOMAIN ACTIVE (17)
+*Standing source-detail and thesis owners. One label carries both cadence and authority here — deliberately.*
+
 | Agent | Domain | 30d commits (as-of 2026-07-10) |
 |---|---|---:|
-| PROME | Coordinator / chief of staff | 322 |
-| WALTER | Signal & news routing | 229 |
 | SAM | Japan — BOJ / JGB / carry | 85 |
 | LIQUID | HY / credit spreads / liquidity | 76 |
 | VIOLET | VIX / vol term structure / vol-of-vol | 74 |
 | BRENT | Oil — Brent / WTI | 61 |
-| RED | Adversarial red-team | 44 |
 | HENRY | Macro velocity / market trends | 44 |
 | CARL | Consumer & credit-transmission macro | 42 |
 | LABOR | Labor market (claims / JOLTS / NFP) | 41 |
 | BROCK | Private credit / BDC / non-traded credit | 36 |
-| HAWK | Geopolitical synthesis (cross-war reconciliation, oil-decoupling thesis, war-risk/shipping) + dormant book (Taiwan/Venezuela/trade/chokepoints/defense/sanctions) — theaters split out 7/12††† | 35 |
-| TERRY | Trade construction / risk scoring | 33 |
+| HAWK | Geopolitical synthesis (cross-war reconciliation, oil-decoupling thesis, war-risk/shipping) + dormant book (Taiwan/Venezuela/trade/chokepoints/defense/sanctions) — theaters split out 7/12††† ‡ | 35 |
+| TERRY | Trade construction / risk scoring ‡‡ | 33 |
 | REGINALD | Regional banks | 32 |
 | MARCO | Florida migration / tourism (FL sub; reconcile w/ CORAL) | 32 |
-| ORACLE | Prediction-market diagnostics | 31 |
+| ORACLE | Prediction-market diagnostics ‡‡‡ | 31 |
 | BOND | US bond-market structure / auctions / rates | 30 |
 | CORAL | Florida (whole-state, 10 pillars) | 23 |
 | SHADE | Insurer-lender / PE-insurance-captive | 21 |
-| NEXUS | Cross-agent synthesis | 18 |
 | ZHAO | China macro — UST demand / capital flows / Korea | 13† |
-| AEOLUS | Climate → economy (macro; insurance/ag/energy-demand channels) | 5 |
-| WATT | Power/grid — PJM stress → wholesale price → industrial/data-center cost | new†† |
-| VULCAN | AI-capex / semiconductor / memory cycle → systemic risk (concentration, memory, power-demand, Taiwan chokepoint) | new†† |
-| MIDAS | Metals — monetary (gold/silver: debasement, real-rates) + industrial (copper/PGM: growth, China, supply) | new†† |
-| OSPREY | Russia/Ukraine war theater — energy-strike campaign, crude-vs-products channel, shadow-fleet kinetic strikes, Baltic/Black-Sea ports | new††† |
-| FALCON | US/Israel/Iran-Gulf war theater — A/B/C/D ladder, Hormuz, Gulf targeting, Bab-al-Mandab/Houthi, Baghdad watch | new††† |
-| HOMER | Housing — asset market + housing credit structure (pipeline, GSE+CMBS multifamily, builders, HPI, mortgage-rate surface) | new††† |
-| OZK | Bank OZK specialist (RESG construction / classified-migration watch) | revived†††† |
-| WAL | Western Alliance Bancorp specialist (Office/B1-migration/MI3 idiosyncratic bear; thesis-of-record v2.3) | new††††† |
+
+> **‡ HAWK** — kept `DOMAIN ACTIVE`, not organizing: its synthesis is **inside** the geopolitical/oil-risk domain (reconciling OSPREY/FALCON), not a fleet-coordination function (RAV preflight, contested row 2).
+> **‡‡ TERRY** — **ruled `DOMAIN ACTIVE` 2026-08-05 (Will), overriding the preflight's `ORGANIZING / SERVICE` placement.** Trade construction is its domain and it holds **canon authority**: root `CLAUDE.md` names TERRY the *canonical owner* of trade-construction rules (`AGENTS/TERRY/RISK_RULES.md`), whose numbered Non-Negotiables are a **stable API** that live fire-cards cite by number. An agent that owns canon in its lane is a domain owner. *(RAV's delivered addendum still shows the superseded placement — see the correction note in `PROME/inbox/`.)*
+> **‡‡‡ ORACLE** — `DOMAIN ACTIVE`, not service: it owns a substantive information domain with external signal content, not merely a workflow service (RAV preflight recommendation, accepted).
+
+### PROVISIONAL ACTIVE (7)
+*Exists and should run; proof criteria not fully met. **Not a demotion** — see the model block above.*
+
+| Agent | Domain | Authority (≠ cadence) | 30d commits (as-of 2026-07-10) |
+|---|---|---|---:|
+| AEOLUS | Climate → economy (macro; insurance/ag/energy-demand channels) | Full domain authority; DAEDALUS `L2` w/ spawn-cadence debt + missing falsification surface | 5 |
+| WATT | Power/grid — PJM stress → wholesale price → industrial/data-center cost | Full domain authority; proof criteria pending | new†† |
+| VULCAN | AI-capex / semiconductor / memory cycle → systemic risk (concentration, memory, power-demand, Taiwan chokepoint) | Full domain authority; proof criteria pending | new†† |
+| MIDAS | Metals — monetary (gold/silver: debasement, real-rates) + industrial (copper/PGM: growth, China, supply) | Full domain authority; proof criteria pending | new†† |
+| OSPREY | Russia/Ukraine war theater — energy-strike campaign, crude-vs-products channel, shadow-fleet kinetic strikes, Baltic/Black-Sea ports | Full theater authority; proof criteria pending | new††† |
+| FALCON | US/Israel/Iran-Gulf war theater — A/B/C/D ladder, Hormuz, Gulf targeting, Bab-al-Mandab/Houthi, Baghdad watch | Full theater authority; **DAEDALUS `L3` + live signal flow** — stronger than the other newborns, provisional only because maturity/consumption proof is still settling | new††† |
+| HOMER | Housing — asset market + housing credit structure (pipeline, GSE+CMBS multifamily, builders, HPI, mortgage-rate surface) | Full domain authority; proof criteria pending | new††† |
+
+> ⚠️ **Cross-reference, do not re-derive:** five of these seven — **AEOLUS · MIDAS · OSPREY · VULCAN · WATT** — are DAEDALUS's own **F5 finding** (2026-08-03: *"5 agents carry a live thesis and NO falsification surface … all 5 my builds, one blueprint cause"*), reached independently. **DAEDALUS has already ruled the disposition: a dated retrofit trigger, NOT an instant demotion** (PAT-075 grandfathering — nobody loses a level on the day a rule lands). The retrofit trigger is DAEDALUS's lane at Phase 2; this label must not be read as duplicating or pre-empting it.
+
+### EVENT-DRIVEN SPECIALIST (2)
+*Narrow agents expected to run around print/catalyst/event windows. **Cadence and scope description — NOT lower authority.***
+
+| Agent | Domain | Authority (≠ cadence) | 30d commits (as-of 2026-07-10) |
+|---|---|---|---:|
+| OZK | Bank OZK specialist (RESG construction / classified-migration watch) | **Real analytical authority** in-lane, DAEDALUS `L4`; cadence is print-driven (revival gate → Q2 print) | revived†††† |
+| WAL | Western Alliance Bancorp specialist (Office/B1-migration/MI3 idiosyncratic bear; thesis-of-record v2.3) | **Real analytical authority** in-lane, owner of its thesis-of-record; cadence is print-driven | new††††† |
 
 > **AEOLUS** built + wired by DAEDALUS 2026-06-28 (spec: `AGENTS/DAEDALUS/builds/AEOLUS_SPEC.md`). *(Stale "no commit history yet" note removed 7/9 — self-commits exist 6/28 + 7/9 catch-up `564d689d`; row reconciled.)* Macro climate owner; CORAL keeps Florida (boundary handshake RESOLVED 7/9: AEOLUS global/macro, CORAL FL-canonical, reconcile-to-one-number).
 > **† ZHAO** reactivated 2026-07-05 (Will-approved) after ~2.5mo dormancy — the "13" = the 7/4 reactivation burst (8: STATUS rewrite, KB-076…087, VX/FLOW/PREDICTIONS refresh, `boot.py`, `NEXUS_BRIEF.md`) + the 7/9 catch-up (~5), not yet steady multi-week cadence — recount next pass. Domain is load-bearing: China genuine UST exit ($651.1B, 18yr low) feeds the long-end flow question *(demand-hole refuted at flow level 7/9 — live thread = who-is-the-transient-bid, ZHA-11, TIC 7/16 arbiter)*; Korea (KRW ~1,530) feeds SAM. Ran 7/9 catch-up (China-leg pre-reg, activity current). DAEDALUS maturity-profile + NEXUS BRIEFS_MAP add routed 2026-07-05.
