@@ -43,8 +43,14 @@ mixing tenor conventions mid-series is exactly the specification error thesis
 v3.8 is about. Weeklies are a separate, later extension — not a silent addition.
 
 Usage:
-  .venv/bin/python3 AGENTS/VIOLET/scripts/vx_history.py --build      # full 2013→now
-  .venv/bin/python3 AGENTS/VIOLET/scripts/vx_history.py --build --from-year 2024
+  .venv/bin/python3 AGENTS/VIOLET/scripts/vx_history.py --build      # full 2013→now — USE THIS
+
+⚠️ `--build` REWRITES the ledger from `--from-year`; **it is not an incremental
+append**, and the flag reads as though it were. `--build --from-year 2026`
+replaced 28,555 rows with 1,933 and exited 0 with a success line (2026-08-04,
+recovered from git). A truncation guard now refuses any build producing <90% of
+the existing row count unless `--allow-shrink` is passed. **To refresh, just run
+`--build` with no year.**
 """
 from __future__ import annotations
 
@@ -104,7 +110,10 @@ def main(argv=None) -> int:
     ap = argparse.ArgumentParser(description=__doc__,
                                  formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("--build", action="store_true")
-    ap.add_argument("--from-year", type=int, default=FIRST_YEAR)
+    ap.add_argument("--from-year", type=int, default=FIRST_YEAR,
+                    help="REWRITES the ledger from this year — this is NOT an incremental append")
+    ap.add_argument("--allow-shrink", action="store_true",
+                    help="permit a build that produces <90%% of the existing row count")
     a = ap.parse_args(argv)
     if not a.build:
         ap.print_help()
@@ -130,6 +139,24 @@ def main(argv=None) -> int:
     if not rows:
         print("NO DATA — aborting rather than truncating the ledger", file=sys.stderr)
         return 1
+
+    # ⚠️ TRUNCATION GUARD (added 2026-08-04, after it happened to me).
+    # `--build` REWRITES the whole ledger from `--from-year`; it does NOT append.
+    # So `--build --from-year 2026`, which reads like "just refresh the recent
+    # part", silently replaced 28,555 rows (2013→) with 1,933 (2025-04→) — a
+    # 93% data loss that exited rc=0 with a cheerful success line. The existing
+    # `if not rows` guard only catches TOTAL failure; partial truncation is the
+    # far likelier and quieter version. Recovered from git; guarded here so the
+    # next caller cannot repeat it.
+    if LEDGER.exists():
+        prior = max(0, sum(1 for _ in LEDGER.open()) - 1)
+        if prior and len(rows) < prior * 0.9 and not a.allow_shrink:
+            print(f"🔴 REFUSING TO WRITE — this build produces {len(rows)} rows but the "
+                  f"existing ledger has {prior}.", file=sys.stderr)
+            print(f"   `--build` REWRITES from --from-year (currently {a.from_year}); it does not append. "
+                  f"Omit --from-year for the full history, or pass --allow-shrink if the "
+                  f"shrink is genuinely intended.", file=sys.stderr)
+            return 1
 
     rows.sort(key=lambda r: (r["trade_date"], r["expiry"]))
     with LEDGER.open("w", newline="") as f:

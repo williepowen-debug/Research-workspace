@@ -267,6 +267,25 @@ Log material structural changes only — not routine content edits. Template ado
 
 ---
 
+## 2026-08-04 (night) — Four mechanisms built; MOVE finally has an owner; and I truncated a ledger and guarded it
+
+**Trigger:** Will — *"can we do those steps outside of the DAEDALUS packet"*, i.e. clear the standing not-built backlog.
+
+**What changed:**
+- **`scripts/move.py` (NEW, boot-wired).** MOVE had **no script at all**. `CANARY_MAP.md` has carried *"investing.com primary; yf ^MOVE unreliable as sole source"* as **prose since 7/30** with nothing implementing it, so every read went through the source the map already called unreliable — and I carried "confirm-3 BROKEN" for five sessions while MOVE was above its line every one of them (KB-VIO-177). Now: investing.com `__NEXT_DATA__` **PRIMARY**, yfinance retained **only to disagree with** (it may flag, never promote), ledger `workbook/MOVE.tsv` (22 sessions on first run), threshold lines printed against every registered level. **Delivered a print I did not have: 77.56 [8/4].**
+- **`scripts/grading_note_check.py` (NEW, boot-wired).** Catalyst notes are what boot prints *at the moment a prediction resolves*; nothing checked them (n=4, one citing a **retracted** forward beta on the next prediction due). Resolves every `KB-VIO-nnn` cited in a note against `KB.tsv` and flags SUPERSEDED/CORRECTED/STALE/missing. ⚠️ **Deliberately not figure-matching** — `consumer_check.py` returned 9-of-9 false positives on bare strings, and a check that cries wolf gets ignored. **Scope stated in-code: closes the citation half of the class, not the prose half.**
+- **`scripts/thesis_bump_check.py` (NEW, boot-wired, ADVISORY).** Counts KB rows since the thesis's own version date, weighted by retractions. Built because **v3.8 asserted "the family closes at five fields" while my own STATUS asserted a sixth, the same day, and no check in this agent could see it** — a missed thesis bump ages nothing and reddens nothing.
+- **`scripts/closeout_guard.py` (NEW).** Aggregates the blocking contracts and **refuses a clean exit while any is RED**; wired into `CLAUDE.md` as write-back step **13b**. ⚠️ **Boot warns, closeout blocks — deliberate.** Built because on 8/4 boot printed `🔴 CANARY_MAP STALE — 2` and the session read it and did nothing, the **fourth** such incident on that one file. The thesis check is **non-blocking on purpose**: blocking on a counter that cannot see a semantic contradiction would train the operator to bypass the guard, and a guard you learn to skip is worse than none.
+- **⚠️ `scripts/vx_history.py` — I TRUNCATED THE LEDGER AND THEN GUARDED IT.** `--build --from-year 2026` reads like "refresh the recent part"; it **rewrites the whole file**, and it replaced **28,555 rows with 1,933** — a 93% loss that exited **rc=0 with a success line**. Recovered from git, rebuilt in full (**28,582 rows, 2013-05-20 → 2026-08-03**), then added a **truncation guard** refusing any build under 90% of the existing row count without `--allow-shrink`, plus a de-trapped docstring. **Verified by re-running the exact destructive command: it now refuses and the ledger survives.**
+
+**Files touched:** `scripts/{move,grading_note_check,thesis_bump_check,closeout_guard,vx_history,boot}.py` · `CLAUDE.md` (step 13b + FILES row) · `CANARY_MAP.md` (MOVE row now names a real instrument) · `workbook/{MOVE.tsv (new),VX_TERM_HISTORY.tsv,FLOW.tsv}` · `STATUS.md` · packet → `AGENTS/LIQUID/inbox/`.
+
+**Boot-impact:** 11 stages → **14**, all green, ~106s. New keyword markers so MOVE and the two checks survive output collapse.
+
+**Lessons:** 🔑 **Every one of tonight's four builds replaces a rule that already existed in prose.** The MOVE source order was written in CANARY_MAP; the grading-note check was named in my own research queue; the closeout blocker was the diagnosis I wrote this morning; the thesis bump is in my CLAUDE.md step 9. **None of them were being done.** `finding_mechanize_the_cap_not_the_ritual` is now the dominant recurring class in this agent, and the tell is always the same: a documented rule with no mechanism is performed as often as someone remembers. ⚠️ **And the truncation is the counter-lesson: a guard's own first run is what fails.** I built four guards tonight and destroyed a ledger with a fifth tool in between — **`if not rows` caught total failure and was blind to the far likelier partial kind.** Guard the quiet failure mode, not the loud one.
+
+---
+
 *Entries dated **2026-06-10 and earlier** live in `archive/MAINTENANCE_ARCHIVE.md` (archived 2026-07-30 on the cap).*
 
 *Created: 2026-06-10. Log structural changes at write-back (CLAUDE.md step 13a). Cap ~300 lines — archive overflow to `archive/MAINTENANCE_ARCHIVE.md`, now **enforced at boot** by `check_maintenance_cap()`.*

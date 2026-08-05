@@ -34,6 +34,12 @@ BOOT_SEQUENCE = [
     ("Credit gate (FRED · KB-VIO-096 block; BIN-A STUCK)", "fred_fetch.py", ["--summary"], True),
     ("VIX options positioning",     "vix_options.py", [], False),
     ("CFTC COT VIX positioning",    "cftc_cot.py", ["--boot"], False),
+    # MOVE has an OWNER now. `CANARY_MAP.md` has carried "investing.com primary;
+    # yf ^MOVE unreliable as sole source" as PROSE since 7/30 with no script
+    # implementing it — so every read went through the source the map already
+    # called unreliable, and I carried "confirm-3 BROKEN" for five sessions while
+    # MOVE was above its line every one of them (KB-VIO-177). Built 8/4.
+    ("MOVE rates-vol (investing.com PRIMARY; built 8/4)", "move.py", ["--boot"], True),
     ("JPY carry-vol canary (scope 7/11; built 7/16)", "jpy_vol.py", ["--boot"], True),
     ("OVX oil-vol→equity-vol transmission canary (built 7/17)", "ovx.py", ["--boot"], True),
     ("Cheap-tail window alert (operator decision surface; built 7/23)", "cheap_tail.py", ["--boot"], True),
@@ -49,6 +55,14 @@ BOOT_SEQUENCE = [
     # SCHEMA.tsv", a ritual with no mechanism (KB-VIO-165). First run found 11
     # violating rows, one unchallenged for 109 days.
     ("KB schema conformance (built 7/30 PM)", "validate_workbook.py", ["--boot"], False),
+    # Catalyst notes are what boot PRINTS at the moment a prediction resolves, and
+    # nothing ever checked them — 4 instances by 8/4, one of which cited a
+    # RETRACTED forward beta on the next prediction due (KB-VIO-169). Built 8/4.
+    ("Grading-note citations (built 8/4)", "grading_note_check.py", ["--boot"], False),
+    # ADVISORY. v3.8 asserted "the family closes at five fields" while my own
+    # STATUS asserted a sixth, same day — and no check in this agent could see it,
+    # because a missed thesis bump ages nothing and reddens nothing. Built 8/4.
+    ("Thesis currency (advisory; built 8/4)", "thesis_bump_check.py", ["--boot"], False),
 ]
 
 KEY_MARKERS = (
@@ -65,6 +79,8 @@ KEY_MARKERS = (
     "CREDIT GATE", "VERDICT", "CCC", "Bin-A", "🟢",  # fred credit-gate summary (🟢 = block-lifted verdict)
     "JPY VOL", "FXY confirm",  # jpy_vol carry canary (RV spine + IV leg)
     "OVX", "oil-vol", "transmission channel", "CO-MOVE",  # ovx oil-vol→equity-vol canary
+    "MOVE [", "PRIMARY investing.com", "CROSS-CHECK", "UNCORROBORATED", "F1 (KB-VIO-116)", "confirm-3",  # move.py
+    "GRADING-NOTE", "thesis 3", "retraction",  # grading-note + thesis-currency checks
     "CHEAP-TAIL", "🟣", "ARMING", "VVIX cheap", "VIX complacency", "SKEW divergence",  # cheap-tail window alert
     "event-boxed", "OPERATOR DECISION", "Vehicle discipline", "SPREADS", "Rates-vol", "EVENT-BOXED", "Route: PROME",
     "⚠️",

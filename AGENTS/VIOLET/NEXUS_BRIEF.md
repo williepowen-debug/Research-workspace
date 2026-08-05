@@ -1,6 +1,6 @@
 # VIOLET — NEXUS Brief
 
-**As of:** 2026-08-04 **~23:15 ET** (Tuesday, **FLAT** — Will-directed currency pass + BIN-A re-base + **staleness sweep**; **8/4 SETTLE basis**) | **STATUS commit:** see STATUS.md footer.
+**As of:** 2026-08-05 **~00:05 ET** (Tuesday, **FLAT** — Will-directed currency pass + BIN-A re-base + **staleness sweep**; **8/4 SETTLE basis**) | **STATUS commit:** see STATUS.md footer.
 
 > ## 🔴 **CROSS-DOMAIN — SKEW COLLAPSED TO A 3-YEAR LOW ON THE 8/4 SETTLE, AND IT IS THE INVERSE OF MY CORE SIGNAL.**
 > **126.41, −13.55 pts / −9.68% in one session — the 6th-largest 1-day drop in three years and effectively the 3-year low** (0.3rd pct of n=734; 3y min 125.77). Verified at **two sources agreeing exactly**: CBOE `last_trade_time` **2026-08-04T17:00:18** (prev_day_close 139.96) and yfinance. → **KB-VIO-186.**

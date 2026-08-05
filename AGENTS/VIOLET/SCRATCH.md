@@ -172,3 +172,34 @@ Corrected my own **"refresh `VX_M1_HISTORY` before grading the SOQ"** instructio
 4. 🟡 **Grading-note sweep mechanism** (n=4). Not built. · **Staleness-contract closeout blocker** (n=4 on CANARY_MAP). Not built. · **Thesis-bump check** (new, above). Not built.
 5. 🟡 **Issue-level HY breadth — 6th ask to LIQUID.**
 6. ⚪ **`equity_positioning.py`** not built · **H4** time-gated to ~September (4 rows) · `IMPLIED_CORR` permanently missing 8/3 · `VX_M1_HISTORY`/`VX_TERM_HISTORY` at 7/29.
+
+---
+
+## ADDENDUM 5 — 8/4 ~23:59 ET (Will: "do those steps outside of the DAEDALUS packet")
+
+**Cleared the not-built backlog. Four mechanisms built and tested in BOTH directions; DAEDALUS packet untouched per Will.**
+
+| Built | What it ends |
+|---|---|
+| **`move.py`** (boot-wired) | MOVE had **no script at all**. investing.com PRIMARY, yfinance may only flag. Ledger `MOVE.tsv`, 22 sessions. **Gave me a print I did not have: 77.56 [8/4].** |
+| **`grading_note_check.py`** (boot-wired) | Catalyst notes citing RETRACTED KB rows (n=4). **Not figure-matching** — that produced 9-of-9 FPs in `consumer_check`. |
+| **`thesis_bump_check.py`** (boot-wired, advisory) | A missed thesis bump ages nothing and reddens nothing — the 8/4 case was invisible to every check I had. |
+| **`closeout_guard.py`** (CLAUDE.md step 13b) | **Boot warns; closeout BLOCKS.** Built because boot printed `🔴 CANARY_MAP STALE` this morning and the session did nothing — n=4 on one file. |
+
+**All four verified in the failure direction**, not just the green one: retracted-citation → 🔴 rc=1 · stale thesis → 🔴 rc=1 · one red child → guard blocks · missing scripts → does NOT false-block · the advisory child red → correctly does NOT block.
+
+### ⚠️ AND I DESTROYED A LEDGER IN THE MIDDLE OF BUILDING GUARDS
+`vx_history.py --build --from-year 2026` reads like "refresh the recent part." **It rewrites the whole file** — 28,555 rows → 1,933, a **93% loss that exited rc=0 with a success line.** Recovered from git, rebuilt in full (**28,582 rows, 2013-05-20 → 2026-08-03**), added a **truncation guard** (<90% of existing rows ⇒ refuse unless `--allow-shrink`), de-trapped the docstring, and **re-ran the exact destructive command to confirm it now refuses.**
+🔑 **The script already HAD a guard — `if not rows`, which catches TOTAL failure and is blind to the partial kind that is far likelier and far quieter.** Guard the quiet failure mode, not the loud one.
+
+### 🔑 THE PATTERN ACROSS ALL FOUR BUILDS
+**Every one replaced a rule that already existed in prose.** MOVE's source order was written in `CANARY_MAP`. The grading-note check was in my own research queue. The closeout blocker was this morning's diagnosis. The thesis bump is CLAUDE.md step 9. **None were being done.** A documented rule with no mechanism is performed as often as someone remembers.
+
+### MARKET NOTE — MOVE has turned
+**83.02 [7/31 peak] → 80.48 → 77.56 [8/4], −6.6% in two sessions.** Still through every registered line (F1 +5.15, confirm-3 +2.06), so **confirm-3 stays UN-BROKEN** — but **the leg I called "the one independent vector genuinely strengthening" this afternoon is now fading, and I am recording that the same day I banked the level.** ⚠️ **KB-VIO-131's registered lesson is about this exact series: MOVE's confirm can survive on LEVEL while its DIRECTION reverses.** Vector held at 3 — not raised, not cut.
+
+### ALSO
+**LIQUID 6th ask SENT — and as an addressed packet for the first time** (4 of the prior 5 went as NEXUS_BRIEF cross-domain lines, which may be the entire explanation for the silence). Framed with the new reason it matters: **my substitute for breadth was the retired KB-VIO-090 dispersion line, so I now have no instrument separating a broad HY widening from a CCC-cohort artifact.** Offered a clean "no such data" as an acceptable closing answer.
+
+### STILL OPEN (unchanged, and deliberately)
+**DAEDALUS ratchet packet** (Will scoped it out tonight) · **rising-vol design** (PROME offered to scope rates-vol; Will-gated) · **`equity_positioning.py`** NAAIM+ICI — **not built, and I did not build it unasked**: it is a new data-source integration rather than a mechanism replacing an existing rule, so it is a different class from tonight's four · **H4** time-gated to ~September (4 rows) · `IMPLIED_CORR` permanently missing 8/3 · **`VX_M1_HISTORY.tsv` has no writer** — it is a one-off derivation input from 7/30, not a maintained ledger, and should be labelled as such rather than chased for freshness.
