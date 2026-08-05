@@ -183,7 +183,7 @@ If a cross-agent threshold breaches during your work, append to `AGENTS/SIGNALS.
 - Energy credit: HY energy OAS, E&P debt stress, energy-specific credit
 - Refinery operations: turnaround schedules, utilization rates, product yield
 - Two-phase oil thesis: squeeze timing → flush timing
-- **Positions:** USO (2 shares + potential adds), STNG (2 shares), oil-related options
+- **Positions:** **USO 35 shares** (the book's large undefended oil leg) · **USO Oct-16 135C ×2** · **USO Sep-18 150/165 spread** · **XLE Sep-30 65C ×2** — **5 live oil expressions, ~$5,131 at market** `[broker-verified 2026-08-04, Fidelity + Robinhood, Will-confirmed complete]`. ⛔ **STNG IS NOT A POSITION — removed 8/4 after being carried in error 7/21→8/4.** It stays a **TRACKED TICKER** (a leg of the Stage-A tanker-liveness composite). **Tracking ≠ owning.** **`TRADE.md` is canonical; refresh here only when the broker record moves.**
 - **Research:** US-listed beneficiaries of sustained high oil (E&P, services, infrastructure)
 
 **You do NOT own:**
