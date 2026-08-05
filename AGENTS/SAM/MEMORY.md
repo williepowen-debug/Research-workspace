@@ -76,7 +76,7 @@ Generated from `scripts/` at run time (name · boot-wired? · purpose), so it ca
 
 **⛔ DO NOT:** re-mark on the 8/6 auction alone · bump the THESIS version pre-8/7 · re-tune the resolver map at scoring time · write packets to `AGENTS/PROME/` (dead path — it's `PROME/inbox/`, now in CLAUDE.md).
 
-**Owed / deferred:** PROME asks from the 8/4 packet (`MESSAGING/requirements.txt` → `MACHINE_LOCAL.md`; `env_doctor` scoping; **laptop PyYAML still broken**) · `catalyst_countdown.py` 2027 holidays (guard is loud, dates need *sourcing*) · Aug-21 National July CPI = first **2025-BASE** print (re-baseline first; read `cpi_japan.py`'s **PAIRED** line, never **LEAD**, as "the gap") · KB-202 (KURA autonomous) · KB-152 → route Q2-actuals to BROCK/HANS · Japan-LNG/JKM · Batch-3 P3-Asia · May TIC · evals re-baseline · TB ~L394 cites a pruned "CALENDAR Jun-17 row" (provenance only).
+**Owed / deferred:** PROME asks from the 8/4 packet (`MESSAGING/requirements.txt` → `MACHINE_LOCAL.md`; `env_doctor` scoping; 🔧 **the box still missing PyYAML is the one that is NOT `WilliePOwen`** — SAM wrote "laptop" repeatedly on 8/4 and that was BACKWARDS: `MACHINE_LOCAL.md` line 7 maps hostname `WilliePOwen` → LAPTOP, which is where the install already ran. **Say it by HOSTNAME, not nickname** — that mapping is itself only "believed, Will to confirm") · `catalyst_countdown.py` 2027 holidays (guard is loud, dates need *sourcing*) · Aug-21 National July CPI = first **2025-BASE** print (re-baseline first; read `cpi_japan.py`'s **PAIRED** line, never **LEAD**, as "the gap") · KB-202 (KURA autonomous) · KB-152 → route Q2-actuals to BROCK/HANS · Japan-LNG/JKM · Batch-3 P3-Asia · May TIC · evals re-baseline · TB ~L394 cites a pruned "CALENDAR Jun-17 row" (provenance only).
 
 ---
 
