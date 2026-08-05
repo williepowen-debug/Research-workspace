@@ -29,11 +29,15 @@ Curated long-term insights on VIX, volatility regimes, and credit-vol transmissi
 
 **Canonical episode database with VIX paths and full tell-lists: `thesis/VIX_THESIS.md` § CRISIS ANALOGS.** This table is the boot-time classification aid: *which analog class is the live event?*
 
+⚠️ **Source-citation discipline (added 2026-08-04, staleness sweep).** Each row now names its underlying corpus under `research/`. **Reason: a reference-count sweep found all seven crisis-analog source files at ZERO inbound references** — they were retirement candidates under the >60d rule purely because **this table used them without citing them.** The framework was live and its evidence base looked dead. **A live doc that cites nothing makes its own sources look retirable** — cite the corpus, or a future sweep deletes the ground under the framework.
+
+⚠️ **Gap noted, not closed (2026-08-04): the 4 Aug 2026 SKEW configuration has no analog here.** SKEW at a 3-year low (126.41, 0.3rd pct) with VIX 16.50 and the index at a record close — crash protection dumped INTO a melt-up, the inverse of the coiled spring, and *not* the catalogued "SKEW crash during a vol spike" (there was no spike). **Recorded as an unmatched configuration rather than forced into the nearest row.** → KB-VIO-186.
+
 | Episode | Trigger class | Credit lead? | Lesson |
 |---|---|---|---|
-| Feb 2018 Volmageddon | Technical — short-vol crowdedness unwind | No | Positioning unwinds need no credit component; watch vol-product structure, not spreads |
-| Mar 2020 COVID | Exogenous macro shock | Yes, near-simultaneous (shock compresses lead time to days) | Macro shock + credit stress = vol explosion; lead-time discipline breaks in exogenous shocks |
-| Feb 2021 meme squeeze | Idiosyncratic / single-stock | No | Single-stock vol can bleed into index vol without systemic content |
+| Feb 2018 Volmageddon | Technical — short-vol crowdedness unwind | No | Positioning unwinds need no credit component; watch vol-product structure, not spreads. *Sources: `research/crisis_analogs/feb2018_vix_spike.md` + `.csv`; M1:M2 study `research/2026-06-01_feb2018_m1m2_volmageddon_analog.md`* |
+| Mar 2020 COVID | Exogenous macro shock | Yes, near-simultaneous (shock compresses lead time to days) | Macro shock + credit stress = vol explosion; lead-time discipline breaks in exogenous shocks. *Sources: `research/crisis_analogs/mar2020_pandemic.md` + `.csv`* |
+| Feb 2021 meme squeeze | Idiosyncratic / single-stock | No | Single-stock vol can bleed into index vol without systemic content. *Sources: `research/crisis_analogs/feb2021_meme_stocks.md` + `.csv`* |
 | Nov 2024 → Apr 2025 cluster | Coiled spring released by external policy shock (tariffs) | No — credit was AT TIGHTS (complacency peak), did not lead | Compressed vol+credit + elevated SKEW = fragility; the tail (VIX 50+) required the external catalyst. Only back-to-back cluster in 19yr. Full study: `research/2024-11_2025-01_cluster_analog.md` |
 | Mar 2026 stress episode | Macro-geopolitical Fed-trap convergence, VIX-led | HY widened to 3.46 but did NOT sustain | Vol can fire and fully retrace (31→18 in 3wk) when credit doesn't confirm; credit non-confirmation = event, not regime |
 | **Jun 2026 NFP-shock + concentration unwind** | Consensus-miss macro trigger + AI/factor concentration amplifier (**Path B**) | **No — credit flat through the +40% spike** | Vol events can fire WITHOUT credit confirmation via breadth/concentration cascade (KB-VIO-071). Mechanism-agnostic L1 paid at td-4; all three mechanism-discriminator layers (L2-L4) failed silently — a novel mechanism bypasses discriminators, never base rates (KB-VIO-070, `research/2026-06-09_l1_l4_stack_postmortem.md`) |

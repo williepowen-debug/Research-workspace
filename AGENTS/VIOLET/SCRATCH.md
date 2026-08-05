@@ -100,3 +100,29 @@ The 8/3 credit print **published late (~16:05 ET, >4h past T+1), it did not fail
 - **Chase pre-2023 OAS history before ratification** — DEWEY and LIQUID both hold FRED code. **I would rather delay than ratify on ~7 episodes**, and I said so in the proposal.
 - **8/7 still grades KB-VIO-174 on the 8/7 data print** — 8/3 is *consistent with* TRUE (BB 1.67, B 2.95) but grading it early would score a paraphrase of my own registration.
 - **Re-check FRED after 16:00, not at 15:00.**
+
+---
+
+## ADDENDUM 2 — 8/4 ~21:00 ET (Will: staleness sweep)
+
+**Full report: `reports/2026-08-04_staleness-sweep.md`.**
+
+### 🔴 THE SWEEP FOUND A MARKET EVENT, NOT JUST DOC ROT
+**SKEW collapsed to 126.41 on the 8/4 settle — −13.55 / −9.68%, 6th-largest 1-day drop in 3 years, effectively the 3-year low** (0.3rd pct; 3y min 125.77). Verified at CBOE (`last_trade_time` 2026-08-04T17:00:18) **and** yfinance, agreeing exactly. My dashboard carried 139.96 [8/3]; the print had been public since 17:00. → **KB-VIO-186**.
+🔑 **The configuration is the inverse of my core signal:** SKEW crashed while **VIX and VVIX both ROSE**, into a record index close. Crash protection **dumped into the high** — the coiled spring **unwinding**, and *not* the catalogued "SKEW crash during a vol spike" because **there was no spike.** ⚠️ **Name the metric:** daily 126.41 vs **20d-avg regime 144.44, NOT terminated** (one repeat breaks it). `final_5d_change` **−16.57** vs the R11 threshold −2.0.
+⚠️ **How it was missed: I closed out at 15:00 having correctly LABELLED "SKEW publishes 17:00" — and never came back. A labelled gap is not a filled gap. Third instance today** (MOVE five sessions, FRED retracted within the hour, SKEW this).
+
+### FIXED
+Dashboard rebuilt on **8/4 SETTLE** (`--supersede`); all four canary ledgers re-run (**cheap-tail 2/4 → 1/4**, L3 now missing by 13.59 after missing by 0.04 on 8/3 — **the 7/31 ARMING 3/4 is confirmed as the episode high-water mark**); **`CANARY_MAP.md`'s five stale `CURRENT` cells refreshed** (MOVE carried *no current value at all* while it made an episode high); Skew vector **2 → 1**, score **21 → 20/55**; `FLOW.tsv` row for the BIN-A send; `KB-VIO-001..005` → STALE (scoped: structural rows of the same vintage left ACTIVE).
+
+### THE ONE JUDGMENT CALL — I overrode the retirement rule deliberately
+Seven crisis-analog source files matched **all three** retirement conditions (>60d, not boot-read, `refs=0` verified twice). **I did not archive them** — they are the evidence base under the *live* CRISIS ANALOGS framework, and I had written hours earlier that the analog table was load-bearing for the SKEW read. 🔑 **The zero-ref count was the real finding: the table used its sources without citing them.** Fixed by adding citations to each analog row. **General form now in MEMORY: a live doc that cites nothing makes its own sources look retirable.**
+
+### THE PATTERN TO ACT ON
+**`boot.py` printed `🔴 CANARY_MAP STALE 'CURRENT' CELLS — 2` this morning and I read it and did nothing.** Every one of those cells already confessed a *prior* staleness incident. **n=4 on one file. Detection was never the gap — acting on it is.** The fix is a closeout step that **refuses to complete while a staleness contract is red**, not a better alert. Not built.
+
+### NEXT SESSION — added
+1. **Refresh `VX_M1_HISTORY.tsv` BEFORE grading the 8/5 SOQ** — it is 4 sessions stale (7/29) and the grade cites the 0.591 forward beta derived from it.
+2. **Watch the SKEW 20d-avg:** 144.44 and falling 1pt/session. **Below 140 = R12-class regime termination**, which is a thesis-level event, not a dashboard update.
+3. **Artifacts are 5 days stale** and today cleared their own refresh trigger several times over. **Flagged to Will, not republished unasked.**
+4. **EuroHY/EM_HY** still 7/31.
