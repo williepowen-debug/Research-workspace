@@ -46,6 +46,7 @@ Usage:
 import argparse
 import csv
 import json
+import re
 import sys
 import urllib.request
 from datetime import datetime, timedelta, timezone
@@ -378,10 +379,26 @@ def evaluate(row, quick=False):
             elif basis == "final":
                 inst_t = last_intraday_time_et(probe[3:])
                 anchor = f"last {probe[3:]} print {inst_t} ET"
+            elif re.fullmatch(r"at\d{4}", basis):
+                # FIXED-TIME grade: the spec names a clock time to grade at, ONCE.
+                # (Stage-A Leg T v6, Will-ruled 2026-08-05.) The window opens at that
+                # time — but never EARLIER than the instrument's first print, because a
+                # grade time before the open is not gradeable at all.
+                g = f"{basis[2:4]}:{basis[4:6]}"
+                fp = first_intraday_time_et(probe[3:])
+                if fp and (int(fp[:2]) * 60 + int(fp[3:])) > (int(g[:2]) * 60 + int(g[3:])):
+                    add(RED, "WINDOW_GRADE_BEFORE_OPEN",
+                        f"[basis={basis}] spec grades at {g} ET but {probe[3:]}'s first print is {fp} ET "
+                        f"— the instrument does not exist yet at the graded moment")
+                    inst_t = None
+                    anchor = ""
+                else:
+                    inst_t = g
+                    anchor = f"specified grade time {g} ET ({probe[3:]} open {fp} ET)"
             else:
                 add(RED, "WINDOW_BASIS_UNKNOWN",
                     f"window_req declares basis '{basis}', which this script does not implement "
-                    f"— expected ':final' or ':any'. NOT graded rather than graded on a guess")
+                    f"— expected ':final', ':any' or ':atHHMM'. NOT graded rather than graded on a guess")
                 inst_t = None
                 anchor = ""
             if inst_t:

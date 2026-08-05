@@ -1,3 +1,6 @@
+> # ✅✅ **RULED BY WILL 2026-08-05 — PROPOSAL ACCEPTED IN FULL AND IMPLEMENTED. THIS PACKET IS THE RECORD, NOT A PENDING ASK.**
+> **Ruled: (a) grade ONCE at/after 14:00 ET · (b) T1 + T2 as a both-or-neither pair.** Implemented in `AGENTS/BRENT/TRADE.md` (Leg T v6 + sizing), `LESSONS.md` #18/#19 box + `LESSONS_INDEX.tsv` (C2, same commit), and `workbook/REGISTRY.tsv` (`window_req: same_session_action:at1400`) via a new `:atHHMM` basis in `instrument_check.py`, **falsified 7/7**. **`TANKER-LIVENESS` cleared: blocking 6 → 5, zero window-infeasible rows remain.** **No PROME action required — routed for the record.**
+
 ## 2026-08-05 — To: PROME (for WILL — spec ruling required)
 **Signal:** STAGE-A LEG T IS UNEXECUTABLE BY CONSTRUCTION — the same zero-minute-window defect as DEPLOY GATE v2, in a second ratified gate. **The obvious fix is REFUTED by measurement.** Proposal + paired tightenings below.
 **Priority:** 🟠 — no capital at risk (Stage A has never fired), but this is a **live ratified entry gate** that cannot be executed as written.
