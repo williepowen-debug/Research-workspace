@@ -5,6 +5,17 @@
 #   scripts/instrument_check.py  — probes every row's instrument for existence/reachability/freshness/window
 #   thesis/THESIS.md             — carries PROSE + a POINTER here. It must NOT carry a second live table.
 #
+# ⚑ window_req VOCABULARY — 'same_session_action[:BASIS]'. BASIS names WHICH MOMENT makes the
+#   test knowable, which is what instrument_check's window feasibility (4) is measured from:
+#     :final     needs the closing/final value or a session aggregate -> window = action close - LAST print
+#     :any       EXISTENCE form, any qualifying print satisfies it    -> window = action close - FIRST print
+#     :atHHMM    spec names a clock time to grade at, ONCE            -> window = action close - HHMM
+#   A BARE 'same_session_action' IS READ AS :final. Deliberate and fail-safe — an undeclared row keeps
+#   firing the conservative red. THE LOOSENING MUST BE DECLARED PER ROW, NEVER INFERRED, or a basis fix
+#   would silently weaken the check on every row that predates it. Unknown basis -> WINDOW_BASIS_UNKNOWN,
+#   never a guess. Grade time before the instrument's open -> WINDOW_GRADE_BEFORE_OPEN.
+#   Rationale + falsification record -> ../RULINGS.md#reading-basis
+#
 # WHY THIS FILE EXISTS (consolidation 2026-08-04, Will-approved on RAV's ruling):
 # A threshold's identity lived in THREE places — THESIS §KEY THRESHOLDS (canonical prose),
 # thresholds.py's hardcoded MARKET_/FRED_THRESHOLDS (which its own docstring called "a RESTATEMENT,
