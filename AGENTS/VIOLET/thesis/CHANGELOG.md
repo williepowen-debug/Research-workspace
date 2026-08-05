@@ -6,6 +6,30 @@ Trigger to log here: any closeout that updates `thesis/VIX_THESIS.md`.
 
 ---
 
+## v3.9 — 2026-08-04 · **ESTIMATOR INDEPENDENCE · a level gate decays into description · the NULL is part of the spec**
+
+**OLD VIEW (v3.8):** A registered line is a specification and the family closes at five fields — LEVEL + INSTRUMENT + MECHANISM + ESTIMATOR + SCOPE/WINDOW. A line decays through any one of them. The ESTIMATOR field asked: *is this estimator correct?*
+
+**NEW VIEW (v3.9):** The family still closes at five fields — **but the ESTIMATOR field carries a second question that v3.8 never asked: can this estimator FAIL INDEPENDENTLY of the thing it is testing?** An estimator that is perfectly correct and structurally dependent on its own subject is uninformative no matter how well the other four fields are specified.
+
+⚠️ **This corrects my own framing from earlier the same day.** STATUS and the NEXUS brief called estimator-independence *"a sixth spec field."* **Wrong — ESTIMATOR is already field 4.** It is a new failure mode inside an existing field. Recorded because a spurious sixth field would have implied v3.8 was incomplete when it was not.
+
+**Three instances, one session:** KB-VIO-126's condition 2 was `VIX/√ρ`, derived from condition 1's own input, so a two-condition test was structurally one · the OVX ratio cannot distinguish numerator from denominator collapse and printed FIRE for five sessions while oil-vol fell 21% · and the BIN-A null compared a multi-day episode against a single-day baseline.
+
+**ALSO NEW — a level-based gate decays into a description and can invert into an anti-signal.** `KB-VIO-090` **RETIRED (Will-ratified)**: its four level lines fired on **95.5% of all days across 29.6 years at 0.97× baseline**. A level set at the then-current value ages *into* the regime rather than out of it. **BIN-A is now `STUCK`** — broken tree, no validated replacement, answers nothing. **Its permanent scope label, ratified independently of any numbers: tail/convexity detector, NOT a direction forecast, no demonstrated edge below VIX 20.**
+
+**ALSO NEW — the null is part of the spec.** The candidate replacement scored **p=0.030** against a naive binomial and **p=0.27** against a matched-length random-placement null. Same data, opposite conclusions. **A registered line must state what it is tested AGAINST.**
+
+**ALSO NEW — a stated limitation is not a discount already applied.** 2.25× on 3 years became 1.20× and not significant on 29.6 years. The thin-sample caveat was on the face of the packet and the number was still wrong.
+
+**Prediction resolutions this cycle:** KB-VIO-126 hook GRADED (benign branch loses; suppression read survives its falsifier — survival, not confirmation) · KB-VIO-127 GRADED MISS (registered base case).
+
+**Unmatched analog logged, not forced:** SKEW 126.41 at a 3-year low while VIX and VVIX rose into a record index close — the inverse of the coiled spring, and not the "crash during a vol spike" pattern because there was no spike.
+
+**Unchanged:** transmission paths A/B · L1 canonical base-rate table · KB-VIO-123 tree structure · regime definitions · GEX-suppression mechanism · the five-field family itself.
+
+---
+
 ## v3.8 — 2026-07-30 (a registered line is a SPECIFICATION: the family closes at five fields · a pre-registered tree earns its keep by contradicting the tape · fix defects as MECHANISM)
 
 - **Bumped from:** v3.7 (2026-07-28). **Trigger:** the 7/29 post-FOMC formal stand-down grade + the 7/30 mandatory-exit session — a registered-trigger calibration wave, not a mechanism change.

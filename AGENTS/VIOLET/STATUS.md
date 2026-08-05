@@ -191,11 +191,11 @@
 
 ## THESIS CONNECTION
 
-**v3.8 — SHIPPED 7/30.** Spec family: **LEVEL + INSTRUMENT + MECHANISM + ESTIMATOR + SCOPE/WINDOW**, plus 7/31's addition — **a threshold needs a RECORD THAT CAN CHANGE ITS MIND.**
+**v3.9 — SHIPPED 8/4.** Spec family: **LEVEL + INSTRUMENT + MECHANISM + ESTIMATOR + SCOPE/WINDOW**, plus 7/31's addition — **a threshold needs a RECORD THAT CAN CHANGE ITS MIND.**
 
-**Today's addition, and it is the estimator field biting twice in one session:** ① **KB-VIO-126's condition 2 was derived from its condition 1's input** — a two-condition test that was structurally a one-condition test wearing two labels, and I only saw it while grading. ② **The OVX canary's ratio has disagreed with its own level for four consecutive sessions**, because a ratio cannot distinguish numerator collapse from denominator collapse. 🔑 **Both are the same defect: an ESTIMATOR that cannot fail independently of the thing it is supposed to test.** A threshold can be perfectly specified in level, instrument, mechanism, scope and window and still be uninformative if its estimator is not independent of its own inputs.
+**Today's addition (now shipped as thesis v3.9) — the ESTIMATOR field biting three times in one session:** ① **KB-VIO-126's condition 2 was derived from its condition 1's input** — a two-condition test that was structurally a one-condition test wearing two labels, and I only saw it while grading. ② **The OVX canary's ratio has disagreed with its own level for four consecutive sessions**, because a ratio cannot distinguish numerator collapse from denominator collapse. 🔑 **All the same defect: an ESTIMATOR that cannot fail independently of what it measures.** ⚠️ **I first called this a sixth spec field — wrong, ESTIMATOR is already field 4.** It is a new **failure mode** inside an existing field, and the distinction matters: a spurious sixth field would imply v3.8's family was incomplete when it was not.
 
-*Core hypothesis: `thesis/VIX_THESIS.md` **v3.8**. POV log: `thesis/CHANGELOG.md`.*
+*Core hypothesis: `thesis/VIX_THESIS.md` **v3.9**. POV log: `thesis/CHANGELOG.md`.*
 
 ---
 

@@ -1,5 +1,7 @@
 # VIOLET — staleness / open-items sweep · 2026-08-04 ~21:00 ET
 
+> ⚠️ **§2 UPDATED ~23:00 ET.** Between this sweep and closeout, Will ruled the BIN-A re-base and the Artifacts were republished — **five rows below are now CLOSED and are marked so in place.** The rest of the report is as written at 21:00.
+
 **Scope as given (Will):** *"a sweep for any stale/old data in VIOLET. Anything open/incomplete?"* Mechanical, not from memory: file inventory by git vintage, ledger last-rows, date-stamp scan across every live surface, KB lifecycle audit, reference-count scan on `research/`, and the boot staleness contracts.
 
 > ## 🔴 THE HEADLINE: the sweep found a live market event, not just doc rot.
@@ -27,13 +29,13 @@
 
 | Priority | Item | State |
 |---|---|---|
-| 🔴 | **BIN-A re-base ruling** | Delivered 8/4 to `outbox/` + `PROME/inbox/`. **Awaiting Will.** `KB-VIO-090` untouched. If ratified I owe: implementation in `fred_fetch.py`, `PROME/GATES.tsv` registration, and repointing ~8 surfaces citing the old lines |
+| ✅ | ~~**BIN-A re-base ruling**~~ **CLOSED 8/4 ~22:00.** Will ruled a **split**: retirement ratified and **executed** (`KB-VIO-090` SUPERSEDED, BIN-A → `STUCK`, `fred_fetch.py` emits no verdict, surfaces repointed); **numbers NOT ratified — and I then withdrew them myself** on re-derivation (p=0.27). **No `GATES.tsv` row — BIN-A never had one.** → KB-VIO-187 |
 | 🔴 | **8/5 SOQ grade** — tomorrow | Official CBOE SOQ, line >20.45. From 16.50 needs **+24.0%**. Score all four items; **two repaired premises under it**, not one |
 | 🔴 | **8/7 triple header** | NFP 8:30 · COT report-date 8/4 15:30 (first that post-dates the yen move) · **KB-VIO-174 credit bands resolve on the 8/7 data print** — grade mechanically, do not re-derive |
 | 🟠 | **DAEDALUS ratchet packet — UNANSWERED** | 5 days old. `TRADE.md:112–117` arms 1-of-3, stands down 3-of-3. Owe either the rationale-on-the-line or `P(all three benign \| escalated)`. **Pairs with the re-base and the rising-vol gate — one connective-counting discipline, do them together** |
-| 🟠 | **Rising-vol design (Option 1)** | Sequenced 3rd. ⚠️ **The re-base changed its premise: no credit-keyed trigger has a measured edge at VIX 16.5**, so its trigger must come from another channel |
-| 🟠 | **Re-run the re-base on pre-2023 history if it can be found** | Rests on **~7 episodes, no credit crisis in sample**. FRED truncation survives an authenticated API call (KB-VIO-185). DEWEY/LIQUID may hold older pulls |
-| 🟠 | **Will-facing Artifacts — 5 days stale** | Both last refreshed **7/30**. Their own trigger is *material vol shift · post-FOMC · material agent-state change*, and today cleared it several times over (SKEW 3y low, MOVE re-banked, canary stand-down, credit retrace, re-base). **Not refreshed — flagging rather than republishing unasked** |
+| 🟠 | **Rising-vol design (Option 1)** | Still 3rd, and **its premise is now settled against the credit channel on 29.6 years, not 3**: no credit-keyed trigger has a measured edge below VIX 20 (VIX<20 bucket p=0.31). **Its trigger must come from elsewhere — PROME has offered to scope rates-vol, Will-gated.** |
+| ✅ | ~~**Re-run on pre-2023 history**~~ **DONE 8/4 ~22:00 — the history was found.** PROME's Wayback route extends to **all four tier series**, each to 1996-12-31, **zero stitch mismatches**. Stitched **n=7,726 / 29.6y** incl. 2008/2011/2015-16/2020. **KB-VIO-185's wall retired within hours of filing it.** |
+| ✅ | ~~**Will-facing Artifacts stale**~~ **REPUBLISHED 8/4 ~22:30** to their existing URLs, live bands only (design/taxonomy/title/favicon unchanged). ⚠️ **Both publishes blocked until the live version was fetched** — each turned out byte-identical to the repo baseline, so nothing was overwritten, **but the fetch surfaced two stale lines my edits had not reached.** |
 | 🟡 | **MOVE feed source order** | Registered defect: yfinance is primary and unreliable; invert to investing.com primary / yfinance cross-check. **Not built** |
 | 🟡 | **Grading-note sweep** | n=4 instances. No mechanism asserting `CATALYSTS.tsv` note figures still match their KB source. **Not built** |
 | 🟡 | **Issue-level HY breadth** | **6th ask** to LIQUID. The discriminator between broad widening and a CCC-cohort artifact |
@@ -44,7 +46,7 @@
 
 - `IMPLIED_CORR.tsv` is **missing 8/3** — no boot ran that day and `^COR*` has no daily history, so it is **permanently unrecoverable**. The 8/4 `+27.5% d/d` reads against an 8/3 close of 5.64 recovered only from CBOE's `prev_day_close`.
 - **EuroHY / EM_HY** still 7/31 — not re-pulled since.
-- `VX_M1_HISTORY.tsv` / `VX_TERM_HISTORY.tsv` last **7/29** — 4 sessions stale. Not load-bearing today (the 0.591 forward beta is derived and registered), but the 8/5 SOQ grade cites that beta, so **refresh before grading**.
+- `VX_M1_HISTORY.tsv` / `VX_TERM_HISTORY.tsv` last **7/29** — 4 sessions stale. Not load-bearing today (the 0.591 forward beta is derived and registered), and the 8/5 SOQ grade cites that beta. ⛔ **Corrected later the same evening: do NOT re-derive before grading.** 0.591 is the *registered hypothesis* and is itself one of the four things being graded — re-deriving and grading against the new number would move the goalpost. **Refresh the ledger after the grade, as separate hygiene.**
 - **FRED credit history is capped at ~3 years** (2023-08-07) across 4 access paths incl. an authenticated API call → KB-VIO-185.
 
 ## 3. THE JUDGMENT CALL I MADE — and why I overrode the retirement rule

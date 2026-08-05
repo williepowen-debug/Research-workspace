@@ -1,4 +1,4 @@
-# VIX THESIS (v3.8 — a registered line is a SPECIFICATION: the family closes at five fields, and defects get fixed as MECHANISM, 2026-07-30)
+# VIX THESIS (v3.9 — an ESTIMATOR must be able to fail INDEPENDENTLY of what it measures; a level-based gate decays into description; and the NULL is part of the spec, 2026-08-04)
 
 VIOLET's core framework: Credit-vol relationship is **regime-dependent, crisis-type-dependent, and directionally asymmetric**. Operational signal stack runs L1 (population framework, real-money) over L2-L4 calibration filters. Two transmission paths now formal: standard credit-led, and concentration-unwind parallel.
 
@@ -9,6 +9,22 @@ VIOLET's core framework: Credit-vol relationship is **regime-dependent, crisis-t
 ## CHANGELOG
 
 > Canonical "old view → new view" per-bump log lives in `thesis/CHANGELOG.md`. This section is the in-body version history.
+
+**v3.9 (2026-08-04) — ESTIMATOR INDEPENDENCE · a level gate decays into description · the NULL is part of the spec (full entry: CHANGELOG.md)**
+- **⚠️ FIRST, A CORRECTION TO MY OWN FRAMING FROM EARLIER THE SAME DAY.** I wrote on STATUS and in the NEXUS brief that estimator-independence was *"a sixth spec field beside LEVEL/INSTRUMENT/MECHANISM/SCOPE/WINDOW."* **That was wrong: ESTIMATOR is already field 4 of v3.8's five.** This is **not a new field — it is a new FAILURE MODE inside an existing one**, and the distinction matters because a sixth field would imply the v3.8 family was incomplete when it was not. **The family still closes at five.**
+- **THE NEW MODE: an estimator must be able to FAIL INDEPENDENTLY of the thing it is testing.** v3.8 asked whether an estimator was *correct*. That is not enough. Three instances in one session:
+
+  | Instance | The estimator | Why it cannot fail independently |
+  |---|---|---|
+  | **KB-VIO-180** | KB-VIO-126's condition 2, *"single-stock vol falls"*, measured as `VIX/√ρ` | **Derived from condition 1's own input.** A two-condition test was structurally a **one-condition test wearing two labels** — and I only saw it while grading |
+  | **KB-VIO-178** | the OVX canary's `OVX/VIX` ratio | **A ratio cannot distinguish numerator collapse from denominator collapse.** It printed FIRE for five consecutive sessions while oil-vol fell **−21%** |
+  | **KB-VIO-187** | the **null** used to test the BIN-A replacement | a naive binomial compared a **multi-day episode** against a **single-day** baseline — the test could not fail for the right reason |
+
+- **A LEVEL-BASED GATE DECAYS INTO A DESCRIPTION, AND CAN INVERT INTO AN ANTI-SIGNAL (KB-VIO-090 RETIRED, Will-ratified 2026-08-04).** `KB-VIO-090`'s four level lines fired on **95.5% of all days over 29.6 years at 0.97× the baseline** — noise. On the 3-year window they looked *worse* than noise (80.9%, **0.78×**). 🔑 **The mechanism is that a level set at the then-current value ages into the regime rather than out of it**: BB ≥1.73 fired on 94.2% of 27 years, HY ≥2.85 on 93.2%, and the two genuinely selective legs each added **+0.1pp** of marginal coverage because whenever they fired the loose ones already had. **The gate's output was its two least informative conditions.** Confirmed live on 8/3 when BB and HY both un-fired on a **6–7bp** tightening. **BIN-A is now `STUCK`** — the old tree is broken and no validated replacement exists, so it answers nothing, which is the honest state rather than a gap.
+- **🔑 THE NULL IS PART OF THE SPECIFICATION.** The BIN-A replacement I derived scored **p=0.030** against a naive binomial and **p=0.27** against a matched-length random-placement null — **same data, same threshold, opposite conclusions.** Choosing the wrong null would have shipped a registered threshold the fleet cites. **A registered line must state what it is being tested AGAINST, not only what it fires on.**
+- **AND: A STATED LIMITATION IS NOT A DISCOUNT ALREADY APPLIED.** I published **2.25×** in good faith with the thin-sample caveat on its face; on a 29.6-year sample it is **1.20×** and not significant. **Flagging a small sample does not shrink the estimate — only a bigger sample does.** The caveat was right and the number was still wrong, and it had already reached a packet, a STATUS banner and a cross-agent brief.
+- **AN UNMATCHED ANALOG CONFIGURATION, recorded rather than forced (KB-VIO-186).** SKEW **126.41** — a 3-year low, −9.68% in one session — **while VIX and VVIX both ROSE, into a record index close.** That is the **inverse** of the coiled spring (principle 6), and it is **not** the catalogued "SKEW crash during a vol spike" because there was no spike. **No analog row fits it. Logged as unmatched.**
+- **No change to:** transmission paths A/B · the L1 canonical base-rate table · the KB-VIO-123 tree's structure · regime definitions · the GEX-suppression mechanism · the five-field specification family itself.
 
 **v3.8 (2026-07-30) — A registered line is a SPECIFICATION: the family closes at five fields · a pre-registered tree earns its keep by contradicting the tape · fix defects as MECHANISM (full entry: CHANGELOG.md)**
 - **THE SPECIFICATION STANDARD, now closed and named.** Four instances in eight sessions promote this from a recurring KB row into the framework's grading rule. **Every registered line must carry all five fields, and it decays through any one of them:**

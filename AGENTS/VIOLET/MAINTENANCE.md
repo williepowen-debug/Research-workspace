@@ -252,6 +252,21 @@ Log material structural changes only — not routine content edits. Template ado
 
 ---
 
+## 2026-08-04 (late) — Thesis v3.8 → v3.9, and a correction to my own framing from six hours earlier
+
+**Trigger:** Will's "anything else open?" sweep surfaced that **v3.8's headline claim was falsified by my own finding the same day** — v3.8 says *"the family closes at five fields"*, and I had spent the afternoon writing that estimator-independence was **a sixth field**.
+
+**What changed:**
+- **`thesis/VIX_THESIS.md` → v3.9** + full `thesis/CHANGELOG.md` entry (old view → new view).
+- ⚠️ **AND THE CORRECTION IS THE FIRST BULLET OF THE BUMP:** calling it a sixth field was **wrong — ESTIMATOR is already field 4 of v3.8's five.** It is a new **failure mode inside an existing field**, not a new field. **A spurious sixth field would have implied v3.8's family was incomplete when it was not.** Corrected on STATUS and NEXUS_BRIEF too, where I had published the wrong framing hours earlier.
+- Version propagated to STATUS, both Artifacts (republished), and the brief.
+
+**Boot-impact:** none — no script or threshold changed. Framework version only.
+
+**Lessons:** **A thesis bump is the closeout step most likely to be skipped, because nothing fires when it is missed** — no ledger goes stale, no boot check reddens, and the framework simply keeps asserting a claim its own agent has already disproved. **It surfaced here only because Will asked a second time.** And the substantive lesson from the bump itself: **an estimator that cannot fail independently of what it measures is uninformative however well the other four fields are specified** — three instances in one session (a derived second condition, a ratio that cannot separate its own numerator from its denominator, and a null that compared a multi-day episode to a single-day baseline).
+
+---
+
 *Entries dated **2026-06-10 and earlier** live in `archive/MAINTENANCE_ARCHIVE.md` (archived 2026-07-30 on the cap).*
 
 *Created: 2026-06-10. Log structural changes at write-back (CLAUDE.md step 13a). Cap ~300 lines — archive overflow to `archive/MAINTENANCE_ARCHIVE.md`, now **enforced at boot** by `check_maintenance_cap()`.*

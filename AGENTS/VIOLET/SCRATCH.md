@@ -122,7 +122,7 @@ Seven crisis-analog source files matched **all three** retirement conditions (>6
 **`boot.py` printed `🔴 CANARY_MAP STALE 'CURRENT' CELLS — 2` this morning and I read it and did nothing.** Every one of those cells already confessed a *prior* staleness incident. **n=4 on one file. Detection was never the gap — acting on it is.** The fix is a closeout step that **refuses to complete while a staleness contract is red**, not a better alert. Not built.
 
 ### NEXT SESSION — added
-1. **Refresh `VX_M1_HISTORY.tsv` BEFORE grading the 8/5 SOQ** — it is 4 sessions stale (7/29) and the grade cites the 0.591 forward beta derived from it.
+1. ⛔ **CORRECTION TO MY OWN INSTRUCTION — do NOT re-derive the forward beta before grading the 8/5 SOQ.** I wrote *"refresh `VX_M1_HISTORY.tsv` before grading"* earlier, and that is ambiguous in the direction that corrupts a pre-registered grade. **The beta is one of the FOUR THINGS BEING GRADED, not a tool used to grade.** The registered hypothesis is **0.591 @ ≤10 DTE** (n=246, derived 7/30, registered before the outcome). **Grade against 0.591.** Re-deriving on fresh data and grading against the new number would be moving the goalpost mid-test — the exact failure pre-registration exists to prevent. ✅ **Refreshing the ledger is still worth doing — as SEPARATE hygiene, after the grade, for future work.** It is 4 sessions stale (7/29).
 2. **Watch the SKEW 20d-avg:** 144.44 and falling 1pt/session. **Below 140 = R12-class regime termination**, which is a thesis-level event, not a dashboard update.
 3. **Artifacts are 5 days stale** and today cleared their own refresh trigger several times over. **Flagged to Will, not republished unasked.**
 4. **EuroHY/EM_HY** still 7/31.
@@ -150,3 +150,25 @@ Seven crisis-analog source files matched **all three** retirement conditions (>6
 ⚠️ **Scope: this does NOT falsify credit-to-vol transmission.** Path A rests on other evidence. It says **this detector, on this construction, is indistinguishable from noise** once the sample is honest and the null is right.
 
 **NEXT:** return leg to PROME sent. **No numbers to register; BIN-A stays `STUCK` and nothing is blocked behind it.**
+
+---
+
+## ADDENDUM 4 — 8/4 ~23:15 ET (Will: "anything else open?")
+
+**Inbox: EMPTY, both lanes** (top-level + WALTER). 40 + 41 files in `processed/`. **Outbox: one file at top level**, which is correct — the BIN-A return leg was sent minutes ago and is not yet confirmed consumed. Moved two confirmed-delivered packets to `delivered/` (the rule is *top level = NOT YET DELIVERED*, and I had left them sitting). **Boot: 11/11 green**, and the CANARY_MAP contract that was RED this morning is now silent. **Git clean and pushed.**
+
+### 🔑 THE ONE REAL THING THE SECOND SWEEP FOUND: a thesis bump was owed and nothing would ever have flagged it
+**v3.8's headline is *"the family closes at five fields."* I spent the afternoon writing that estimator-independence was a SIXTH field — i.e. my own live surfaces were asserting my framework was incomplete, while the framework asserted it was closed.** Neither surface was stale by any check I run: both were fresh, internally consistent, and contradicting each other.
+⚠️ **And on writing the bump I found my own framing was wrong: ESTIMATOR is already field 4.** It is a **new failure MODE inside an existing field**, not a new field. Corrected in the bump's first bullet and on STATUS/NEXUS_BRIEF. **Shipped v3.9.**
+🔑 **A thesis bump is the closeout step most likely to be silently skipped, because NOTHING FIRES when it is missed** — no ledger ages, no boot check reddens. The framework just keeps asserting something its own agent has disproved. **It surfaced only because Will asked a second time.** *(Candidate mechanism, not built: a boot check comparing the newest thesis version against the newest CHANGELOG entry date vs. the KB's newest thesis-triggering row.)*
+
+### ALSO DONE
+Corrected my own **"refresh `VX_M1_HISTORY` before grading the SOQ"** instruction — ambiguous in the direction that corrupts a pre-registered grade. **0.591 is the REGISTERED hypothesis and is one of the four things being graded; re-deriving and grading against a new number moves the goalpost.** Grade on 0.591; refresh the ledger afterwards as separate hygiene. Fixed on SCRATCH, LAST_COMPLETION and the sweep report. · Sweep report §2 rows closed in place (BIN-A ruling, pre-2023 history, Artifacts). · Both Artifacts republished at v3.9.
+
+### GENUINELY STILL OPEN (nothing owed to Will)
+1. 🟠 **DAEDALUS ratchet packet — unanswered, 5 days.** `TRADE.md:112–117` arms 1-of-3, stands down 3-of-3.
+2. 🟠 **Rising-vol design** — premise now settled against the credit channel on 29.6y. **PROME offered to scope rates-vol as the alternative trigger; Will-gated, not taken.**
+3. 🟡 **MOVE feed source order** — invert to investing.com primary. Not built.
+4. 🟡 **Grading-note sweep mechanism** (n=4). Not built. · **Staleness-contract closeout blocker** (n=4 on CANARY_MAP). Not built. · **Thesis-bump check** (new, above). Not built.
+5. 🟡 **Issue-level HY breadth — 6th ask to LIQUID.**
+6. ⚪ **`equity_positioning.py`** not built · **H4** time-gated to ~September (4 rows) · `IMPLIED_CORR` permanently missing 8/3 · `VX_M1_HISTORY`/`VX_TERM_HISTORY` at 7/29.

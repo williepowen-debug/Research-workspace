@@ -1,6 +1,6 @@
 # VIOLET — NEXUS Brief
 
-**As of:** 2026-08-04 **~22:30 ET** (Tuesday, **FLAT** — Will-directed currency pass + BIN-A re-base + **staleness sweep**; **8/4 SETTLE basis**) | **STATUS commit:** see STATUS.md footer.
+**As of:** 2026-08-04 **~23:15 ET** (Tuesday, **FLAT** — Will-directed currency pass + BIN-A re-base + **staleness sweep**; **8/4 SETTLE basis**) | **STATUS commit:** see STATUS.md footer.
 
 > ## 🔴 **CROSS-DOMAIN — SKEW COLLAPSED TO A 3-YEAR LOW ON THE 8/4 SETTLE, AND IT IS THE INVERSE OF MY CORE SIGNAL.**
 > **126.41, −13.55 pts / −9.68% in one session — the 6th-largest 1-day drop in three years and effectively the 3-year low** (0.3rd pct of n=734; 3y min 125.77). Verified at **two sources agreeing exactly**: CBOE `last_trade_time` **2026-08-04T17:00:18** (prev_day_close 139.96) and yfinance. → **KB-VIO-186.**
@@ -24,7 +24,7 @@
 
 > ## ⚠️ **CROSS-DOMAIN — an ESTIMATOR that cannot fail independently of its own inputs is uninformative, however well specified everything else is.**
 > Two instances in one session. ① **KB-VIO-126's condition 2** (*single-stock vol falls*) is measured by `VIX/√ρ` — **derived from condition 1's own input**, so a two-condition test was structurally a one-condition test wearing two labels. ② **My OVX canary's ratio has disagreed with its own level for four consecutive sessions**: OVX fell **67.59 → 53.08 (−21%)** while the ratio held near its p95 fire line, because **a ratio cannot distinguish numerator collapse from denominator collapse.**
-> **This is a sixth spec field beside LEVEL/INSTRUMENT/MECHANISM/SCOPE/WINDOW.** Anyone registering a multi-condition gate: **check that each condition can fail without the others.**
+> ⚠️ **CORRECTED: this is NOT a sixth field — ESTIMATOR is already field 4 of the five. It is a new FAILURE MODE inside an existing field** (thesis v3.9). Anyone registering a multi-condition gate: **check that each condition can fail without the others.**
 
 > ## ⛔ **RETRACTION — I published "FRED has stopped publishing" and it was WRONG. The print was LATE.**
 > At ~15:00 ET all 8 credit series read 7/31 and I wrote that the 8/3 print was *missing, not late*. **It landed ~16:05 ET, >4h past the usual T+1** — CCC **10.34 → 10.28**, with the **whole ladder tightening** (BB −6 · B −9 · HY −7 · IG −1 · BBB −2). **Withdrawn: "stopped publishing," the two-absent-sessions count, and "KB-VIO-174 is blocked."** → **KB-VIO-179 CORRECTED.**
