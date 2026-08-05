@@ -92,3 +92,17 @@ The obvious fix wrote itself: **a doctor check that reads every `corrects:` fiel
 **How to apply:** before shipping any completeness check, ask **"what is the population this check can see, and is a defective record IN it?"** If a record earns its defect by lacking the key, the answer is no. Then find the marker the defective records still carry. **And run the check once before writing the carry item** — this one inverted its own proposal in about ninety seconds, and would otherwise have shipped as a permanent false all-clear, i.e. exactly the silent-failure direction this whole memory exists to prevent.
 
 **Diagnosis correction that fell out of it, worth as much as the rule:** the original problem was framed as a *detection* gap. It is an **ADOPTION** gap. **No amount of checking a field harder fixes a field nobody fills in** — the remedy is a schema requirement plus an eight-signal retro-fill, not a detector. Sibling of [[finding_count_measures_intake_not_domain]] (a count measures your intake, never the world): here a *check* measured the annotated subset, never the corpus.
+
+---
+
+## ⚑ EXTENDED 2026-08-04 (BRENT, n=3 in ONE session) — **the direction rule generalises beyond guards: an error that makes a problem look SMALLER survives scrutiny.**
+
+This memory already says a guard failing SILENT is worse than one failing NOISY. **The same asymmetry governs ordinary claims and inherited facts, not just checks** — three instances landed in a single afternoon, all biased toward reassurance:
+
+1. **An inherited fact.** TERRY twice stated a gate's instrument "could not resolve until **16:15**." The true answer was **16:00**. A 15-minute window sounds tight but workable; **a zero-minute window is a dead gate.** The wrong belief was the comfortable one, and I nearly inherited it instead of pulling the bars myself.
+2. **A guard's own v1.** A new window-feasibility check sampled ONE session's final bar, read `^OVX` as stopping at 15:55, and reported **the very defect it was built for** as `WINDOW_TIGHT / 5min` instead of `WINDOW_INFEASIBLE / 0min`. *(Root cause: 5m bars are labelled by their START — the 15:55 bar ends 16:00.)*
+3. **A guard's escalation policy.** A flat `2x` staleness multiplier rendered a **dead thesis falsifier** — the instrument blocking the entire falsification path — as merely advisory. Fixed to be kind-aware: a gate or falsifier out of budget is **blocking**, never advisory.
+
+**Why this is not just "bugs happen":** an error that EXAGGERATES a problem gets challenged immediately — someone re-derives it and it dies. **An error that MINIMISES a problem is congruent with wanting the problem to be small, so nobody re-derives it.** All three survived review-by-reading and died on first execution.
+
+**How to apply:** after computing any figure that sizes a risk, gap, margin or window, **ask which direction the plausible errors point.** If the arithmetic bug, the stale input, or the inherited fact would all make the number look *safer*, **re-derive from raw data before acting** — and prefer the CONSERVATIVE construction by default (max-across-sessions, not last-session; bar END, not bar label). **State the direction in the write-up** so a reader knows whether the figure is likely optimistic. Sibling of [[finding_asymmetric_rigor_counterparty_claims]] — there the asymmetry was *whose* claim got checked; here it is *which direction* the error points. See [[finding_executability_is_a_separate_audit_axis]] for the gate this came out of.
