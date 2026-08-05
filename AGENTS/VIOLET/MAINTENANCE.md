@@ -235,6 +235,23 @@ Log material structural changes only — not routine content edits. Template ado
 
 ---
 
+## 2026-08-04 (PM) — BIN-A demolished, its replacement withdrawn, and the FRED wall removed
+
+**Trigger:** Will ruled the BIN-A re-base as a **split** (relayed via PROME): retire the level lines now, hold the numbers pending re-derivation. Then the re-derivation withdrew the numbers entirely.
+
+**What changed:**
+- **`scripts/fred_fetch.py`** — `BINA_LINES = {}` **by ratified decision**, with ~25 lines of in-code rationale so a future reader cannot mistake it for a bug and "restore" it. Prints `⛔ BIN-A: STUCK` instead of a verdict. ⚠️ **The `KB-VIO-096` Bin-B block is a separate mechanism and was verified still evaluating** after the change — I checked rather than assumed.
+- **`scripts/boot.py`** — credit-gate stage relabelled to stop advertising a retired tree.
+- **`workbook/KB.tsv`** — `KB-VIO-090` → SUPERSEDED with the retirement + permanent scope label; **`KB-VIO-187`** files the long-sample re-derivation.
+- **Surfaces repointed by pattern** (STATUS, NEXUS_BRIEF, CANARY_MAP, TRADE, thesis/CHANGELOG, VIX_THESIS) — ⚠️ **`research/`, `outbox/delivered/` and `reports/` deliberately left alone**: they are records of what was true when written, and editing them would falsify the trail. **The sent proposal got a SUPERSEDED banner rather than a rewrite**, for the same reason.
+- **Both Will-facing Artifacts republished** to their existing URLs (live bands only; design, taxonomy, title, favicon unchanged).
+
+**Boot-impact:** the credit gate no longer emits a BIN-A escalation verdict. **That is the intended state, not a regression** — anything reading for one should read `STUCK`.
+
+**Lessons:** ⚠️ **A stated limitation is not a discount already applied.** I published 2.25× in good faith with the thin-sample caveat on its face; the caveat was right and the number was still wrong. Only a bigger sample corrects a small-sample estimate. ⚠️ **And the null matters more than the sample size:** the naive binomial said p=0.030 and the matched-length random-placement null said p=0.27 — the naive test compared a multi-day episode against a single-day baseline. **Choosing the wrong null would have shipped a threshold the fleet cites.**
+
+---
+
 *Entries dated **2026-06-10 and earlier** live in `archive/MAINTENANCE_ARCHIVE.md` (archived 2026-07-30 on the cap).*
 
 *Created: 2026-06-10. Log structural changes at write-back (CLAUDE.md step 13a). Cap ~300 lines — archive overflow to `archive/MAINTENANCE_ARCHIVE.md`, now **enforced at boot** by `check_maintenance_cap()`.*

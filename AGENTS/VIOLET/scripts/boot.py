@@ -31,7 +31,7 @@ VENV_PY = WORKSPACE / ".venv" / "bin" / "python3"
 BOOT_SEQUENCE = [
     # (label, script, args, slow)
     ("Live thresholds + daily log", "thresholds.py", [], False),
-    ("Credit gate (FRED · KB-VIO-090/096)", "fred_fetch.py", ["--summary"], True),
+    ("Credit gate (FRED · KB-VIO-096 block; BIN-A STUCK)", "fred_fetch.py", ["--summary"], True),
     ("VIX options positioning",     "vix_options.py", [], False),
     ("CFTC COT VIX positioning",    "cftc_cot.py", ["--boot"], False),
     ("JPY carry-vol canary (scope 7/11; built 7/16)", "jpy_vol.py", ["--boot"], True),

@@ -87,8 +87,8 @@ The 8/3 credit print **published late (~16:05 ET, >4h past T+1), it did not fail
 ### THE DERIVATION — five results, two of them against my own proposal
 1. **The current tree is an ANTI-SIGNAL, not merely saturated.** any-1-of-4 fires **80.9% of all days**; P(VIX +50% in 21d) after a fire is **12.2% vs 15.7% unconditional = 0.78×.**
 2. **Its output is its two loosest legs.** BB≥1.73 fires **75.4%** of days, HY≥2.85 **72.7%**; the two *selective* legs (CCC, dispersion) contribute **+0.1pp each** because whenever they fire the loose ones already are.
-3. **The delta leg works.** ΔCCC(5)≥**48bp** (p95, month-end-excluded) = 2.01×; **with a ladder-wide confirm** (ΔBB≥14 or ΔB≥18, both p90) = **2.25×**. N=5 from where sd stops growing ~√N; dwell M=**21** from where lift dies (5d 4.85× / 21d 2.01× / 42d 0.99× / 63d 0.76×).
-4. ⚠️ **The commissioned shape is REFUTED.** PROME proposed `CCC≥9.65 AND ΔCCC≥X`. **The level gate destroys the signal**: 2.25× → **0.98×**, ~7 episodes → ~3. It selects the recent regime (high CCC, falling VIX) — exactly where credit widening did *not* produce vol. **Recommendation: retire the level legs, don't re-base them.**
+3. ⛔ **[WITHDRAWN ~22:00 — see ADDENDUM 3] The delta leg works.** ΔCCC(5)≥**48bp** (p95, month-end-excluded) = 2.01×; **with a ladder-wide confirm** (ΔBB≥14 or ΔB≥18, both p90) = **2.25×**. N=5 from where sd stops growing ~√N; dwell M=**21** from where lift dies (5d 4.85× / 21d 2.01× / 42d 0.99× / 63d 0.76×).
+4. ✅ **[STILL HOLDS] The commissioned shape is REFUTED.** PROME proposed `CCC≥9.65 AND ΔCCC≥X`. **The level gate destroys the signal**: 2.25× → **0.98×**, ~7 episodes → ~3. It selects the recent regime (high CCC, falling VIX) — exactly where credit widening did *not* produce vol. **Recommendation: retire the level legs, don't re-base them.**
 5. 🔴 **The edge is conditional on VIX ≥20 and there is NONE below it.** By bucket: <15 **0.00×** · 15-20 **1.10×** · 20-25 **6.35×** · 25+ 3.45×. **So the re-base does NOT unblock the rising-vol design at VIX 16.4.** It stops the tree firing falsely (80.7% → 4.3% of days) and stops it being an anti-signal — it does not buy an armable trigger today.
 
 **Day-one test PASSED:** on 8/3 data ΔCCC is **+27bp** (21 short of 48) and the ladder is *tightening*, so the proposal does not fire against the state at re-base.
@@ -126,3 +126,27 @@ Seven crisis-analog source files matched **all three** retirement conditions (>6
 2. **Watch the SKEW 20d-avg:** 144.44 and falling 1pt/session. **Below 140 = R12-class regime termination**, which is a thesis-level event, not a dashboard update.
 3. **Artifacts are 5 days stale** and today cleared their own refresh trigger several times over. **Flagged to Will, not republished unasked.**
 4. **EuroHY/EM_HY** still 7/31.
+
+---
+
+## ADDENDUM 3 — 8/4 ~22:00 ET (Will: "do 1 + 2")
+
+**⛔ I WITHDREW MY OWN PROPOSAL. The retirement is executed; the numbers are not ratified and should not be.**
+
+**Will ruled a SPLIT** (and PROME had already relayed the same ruling into my inbox, slightly tighter: **hold the numbers entirely and mark BIN-A `STUCK`**, rather than registering them provisionally — I followed PROME's, which is the formally ratified version, because a reader who sees a fresh number cites it while a reader who sees `STUCK` goes looking).
+
+**① RETIREMENT — EXECUTED.** Four level lines dead. `fred_fetch.py` emits **no BIN-A verdict** (`BINA_LINES = {}` by ratified decision, with the whole rationale in-code so nobody "restores" it). **The KB-VIO-096 Bin-B block is a separate mechanism and survives — verified live.** Surfaces repointed by pattern: STATUS, NEXUS_BRIEF, CANARY_MAP, TRADE, thesis/CHANGELOG, VIX_THESIS, boot.py stage label. **Historical records in `research/`, `outbox/delivered/`, `reports/` deliberately NOT rewritten.**
+
+**② 🔑 THE WALL FELL, AND THEN IT KILLED MY OWN NUMBERS.** PROME's Wayback route (`id_` raw-snapshot form) was demonstrated only on headline HY; **I checked all four tier series and all four recovered to 1996-12-31, zero mismatches on every overlap** (92/209/77/4 rows). Stitched **n=7,726, 29.6 years**, with 2008/2011/2015-16/2020. **KB-VIO-185's "3-year wall" retired within a day of my filing it** — `finding_declared_data_wall_needs_fleet_memory_check`, n=4.
+
+**③ ⛔ AND THE RE-DERIVATION WITHDREW MY PROPOSAL.**
+- **Retirement got stronger:** old tree fires **95.5% of all days at 0.97×** — noise, not just an anti-signal.
+- **Thresholds moved a lot:** X **48 → 74bp**; confirm legs **14/18 → 20/28bp.** The 3y window truncated the tail (no crisis in it), so **my proposed lines were systematically too low.**
+- **The edge dissolved:** **2.25× → 1.20%** day-level; episode level **10/47 = 21.3%** vs a **matched-length random-placement null of 17.1% → p = 0.27, NOT significant.** ⚠️ The naive binomial p=0.030 is the **wrong test** (multi-day episode vs single-day baseline).
+- **VIX<20:** 3/14 episodes, p=0.31. **§6(c) survives a 10× larger sample and is stronger.**
+
+**🔑 THE METHOD LESSON, and it is about my own work: a stated limitation is not a discount already applied.** I published 2.25× in good faith *with* the thin-sample caveat on its face. **The caveat was right and the number was still wrong.** Only a bigger sample corrects a small-sample estimate — flagging it does not. **Third structural correction against my own interest today** (MOVE banked, breadth refused, my own tree withdrawn).
+
+⚠️ **Scope: this does NOT falsify credit-to-vol transmission.** Path A rests on other evidence. It says **this detector, on this construction, is indistinguishable from noise** once the sample is honest and the null is right.
+
+**NEXT:** return leg to PROME sent. **No numbers to register; BIN-A stays `STUCK` and nothing is blocked behind it.**

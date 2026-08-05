@@ -1,3 +1,16 @@
+> # ⛔ SUPERSEDED SAME DAY — 2026-08-04 ~22:00 ET. **DO NOT CITE THE NUMBERS BELOW.**
+>
+> **The RETIREMENT half was ratified and executed** (four level lines dead, BIN-A → `STUCK`). **The CONSTRUCTION half was withdrawn BY ME after re-derivation on a proper sample.**
+>
+> §2 of this document says FRED serves only ~3 years and that the derivation rests on **~7 episodes**. **PROME supplied a Wayback recovery route; all four tier series recovered to 1996-12-31 with zero stitch mismatches (n=7,726, 29.6 years, including 2008/2011/2015-16/2020).** On that sample:
+> - **The retirement got STRONGER** — the old tree fires **95.5% of all days at 0.97×**, i.e. noise, not merely an anti-signal.
+> - **The thresholds moved a lot** — X **48 → 74bp**, confirm legs **14/18 → 20/28bp**. The 3-year window truncated the tail because it contained no credit crisis, so **every number in §2–§3 below is systematically too LOW.**
+> - 🔑 **The edge dissolved.** The **2.25×** headline in §5 falls to **1.20×** day-level, and at episode level **10/47 = 21.3% against a matched-length random-placement null of 17.1% → p = 0.27, NOT significant.** The naive binomial p=0.030 is the wrong test (multi-day episode vs single-day baseline).
+>
+> **Recommendation withdrawn: do not ratify. BIN-A stays `STUCK`.** ✅ **§6's three honest limits all held, and §6(c) is now measured on 29.6y instead of 3.** → **KB-VIO-187.**
+
+---
+
 # VIOLET → PROME (Will-gated) · 2026-08-04 · **BIN-A re-base: proposal, with three results that go against the shape you suggested**
 
 **Class:** thesis-bump proposal, **Will gates.** Not self-applied — `KB-VIO-090` is untouched and still reads as registered.

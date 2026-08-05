@@ -143,14 +143,43 @@ NAMES = {
     "DGS2": "2Y", "DGS10": "10Y", "DFII10": "TIPS10",
 }
 
-# Credit-gate lines (KB-VIO-090 tree / KB-VIO-096 block).
+# Credit-gate lines (KB-VIO-096 block).
 BINB_BLOCK_LINE = 9.55          # CCC >= this => Bin-B block ACTIVE; < this => block LIFTS
-BINA_LINES = {                  # any one tripped => Bin-A escalation
-    "CCC >= 9.65": ("CCC", 9.65),
-    "BB >= 1.73": ("BB", 1.73),
-    "HY >= 2.85": ("HY", 2.85),
-    "CCC-BB disp >= 8.00": ("DISP", 8.00),
-}
+
+# ⛔ BIN-A IS **STUCK** — the four level lines were RETIRED 2026-08-04 (Will-ratified,
+#    relayed via PROME). They are NOT commented-out-pending-return; they are dead.
+#
+#    WHY (KB-VIO-184, n=784 obs / ~630 firing days — this rests on DAYS, not on the thin
+#    episode count): any-1-of-4 fired on **80.7% of all days** and scored **0.78x** the
+#    baseline on P(VIX +50% within 21d) — 12.2% vs 15.7% unconditional. It was not merely
+#    saturated, it was an ANTI-SIGNAL. Its output was its two loosest legs (BB >= 1.73 fired
+#    75.4% of days, HY >= 2.85 72.7%), while the two selective legs (CCC, dispersion) each
+#    added +0.1pp of marginal coverage. Confirmed live on 2026-08-03: BB and HY both un-fired
+#    on a 6-7bp tightening because their lines had been set at the then-current June-2026
+#    value (KB-VIO-183).
+#
+#    STATE = **STUCK**, not RETIRED and not REPLACED (STATE_VOCABULARY). The old tree is
+#    broken AND the replacement is not validated, so BIN-A currently answers NOTHING.
+#    Emitting a fresh number here would swap one confident answer for another thinly-derived
+#    one. A reader who sees STUCK goes looking; a reader who sees a number cites it.
+#
+#    THE CANDIDATE REPLACEMENT IS **NOT REGISTERED** and must not be coded here until Will
+#    ratifies the numbers: dCCC(5 sessions) >= 48bp (p95, month-end-excluded) AND
+#    [dBB(5) >= 14bp OR dB(5) >= 18bp], dwell 21 sessions, no level gate. Held pending
+#    re-derivation on pre-2023 history (Wayback recovery path, PROME 2026-08-04).
+#
+#    ⚠️ PERMANENT SCOPE LABEL, ratified independently of the numbers and travelling with
+#    BIN-A wherever it goes: **tail/convexity detector, NOT a direction forecast. No
+#    demonstrated edge below VIX 20.** It fires at mean VIX 23.66 vs 17.30 unconditional
+#    (COINCIDENT, not leading) and mean forward-21d return is -3.77% — P(+50%) doubles while
+#    the MEAN is negative. Never sell it as "vol is going up."
+BINA_LINES = {}                 # ⛔ STUCK — intentionally empty; see the block above.
+BINA_STUCK_NOTE = (
+    "BIN-A **STUCK** since 2026-08-04 — the four level lines were retired as an anti-signal "
+    "(fired 80.7% of days, 0.78x baseline; KB-VIO-184). Replacement derived but NOT ratified "
+    "(thin: ~7 episodes, no credit crisis in the 3y window). BIN-A answers nothing right now. "
+    "Scope when it returns: tail/convexity detector, no demonstrated edge below VIX 20."
+)
 
 
 def credit_summary(*, force: bool = False) -> dict:
@@ -170,18 +199,23 @@ def credit_summary(*, force: bool = False) -> dict:
         vals["DISP"] = disp
 
     print("\n" + "=" * 60)
-    print("  CREDIT GATE SUMMARY (KB-VIO-090 tree / KB-VIO-096 block)")
+    print("  CREDIT GATE SUMMARY (KB-VIO-096 block · BIN-A = STUCK)")
     print("=" * 60)
     asof = dates.get("CCC", "?")
     for name in ["HY", "CCC", "BB", "B", "BBB", "IG", "EuroHY", "EM_HY"]:
         if name in vals:
             print(f"  {name:7s} {vals[name]:>6.2f}   [{dates.get(name, '?')}]")
     if disp is not None:
-        print(f"  {'CCC-BB':7s} {disp:>6.2f}   (Bin-A line 8.00)")
+        print(f"  {'CCC-BB':7s} {disp:>6.2f}")
 
-    # Verdict
+    # Verdict. BIN-A is STUCK — it emits no escalation verdict at all (BINA_LINES is empty
+    # by ratified decision, not by accident). The KB-VIO-096 block is a SEPARATE mechanism
+    # and survives the retirement, so it still evaluates below.
     tripped = [label for label, (k, lvl) in BINA_LINES.items()
                if k in vals and vals[k] >= lvl]
+    print("-" * 60)
+    print(f"  ⛔ BIN-A: STUCK [since 2026-08-04] — no escalation verdict is emitted.")
+    print(f"     {BINA_STUCK_NOTE}")
     print("-" * 60)
     if tripped:
         verdict = "🔴 BIN-A ESCALATION — " + "; ".join(tripped)
