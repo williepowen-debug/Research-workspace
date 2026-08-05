@@ -1,12 +1,12 @@
 # BRENT STATUS
 
-**Last real data refresh: 2026-08-04** · **Surface written: 2026-08-04 Tue 14:06 ET (⏰ `date`-verified — DEPLOY GATE v3 ratified; second write of the day)** · *(prior: 2026-08-04 ~1:20 PM ET — the Bessent session; 2026-08-03 ~4:25 PM ET — leg-(a) grade)*
+**Last real data refresh: 2026-08-04** · **Surface written: 2026-08-05 Wed ~00:1x ET (⏰ `date`-verified — session 5, INFRASTRUCTURE ONLY: RAV pilot reconciliation. NO market data pulled after the 8/4 close, NO thesis change, NO position change.)** · *(prior: 2026-08-04 14:06 ET — DEPLOY GATE v3 ratified; 2026-08-04 ~1:20 PM ET — the Bessent session; 2026-08-03 ~4:25 PM ET — leg-(a) grade)*
 
 ---
 
 # ⚡ CURRENT STATE — *read this first. Everything below is dated history, newest first.*
 
-**As of 2026-08-04 17:4x ET** (⏰ `date`-verified) · **Registry of all thresholds/tests → [`workbook/REGISTRY.tsv`](workbook/REGISTRY.tsv)** *(the single machine home; this block is a human summary, not a second registry)*
+**As of 2026-08-05 ~00:1x ET** (⏰ `date`-verified) · **Registry of all thresholds/tests → [`workbook/REGISTRY.tsv`](workbook/REGISTRY.tsv)** *(the single machine home; this block is a human summary, not a second registry)* ⚠️ **TAPE BELOW IS 8/4 CLOSES — no data pulled after them; re-pull at next boot (LESSONS #5).**
 
 | | |
 |---|---|
@@ -15,7 +15,8 @@
 | **ACTIVE GATE** | **DEPLOY GATE v3** (Will-ratified 8/4; v2 was unfillable — `^OVX` prints to 16:00, USO options close 16:00, zero window). **leg (a) ✅ MET for 8/5** (8/4 close **53.45** ≤ **58.6245**) · **leg (a2)** live non-reversal at the ticket · **leg (b)** graded once, at fire, by TERRY. |
 | **ACTION STATE** | ⛔ **WILL DECLINED THE DEPLOY (8/4 eve).** *"I am happy enough with the current USO calls we have without adding another one."* **A STANDING decline of adding a new oil spread — not a same-day pass.** ⇒ **No fill. $0 at risk. The arm runs QUIETLY to its 8/13 expiry**, then the un-fired disposition (re-arm vs retire) is mine to put to Will. **PROME will NOT re-present on daily re-clearing — and v3's legs WILL re-clear at the 8/5 open. Bare re-clearing is NOT new state.** Escalation only on materially NEW state (a peak-re-ratcheting escalation, or the frame-breaker carve-out). ✅ **This is the correct outcome under my own standing refusal: an arm expiring un-deployed is not a miss.** |
 | **⛔ BLOCKERS** | **5 registered tests are UNMEASURABLE** (`instrument_check`): PortWatch Hormuz transits **dead since 7/23** — *currently blocking the thesis falsifier, escalated to FALCON* · real-time AIS **never held** · HY energy OAS **no free feed** · war-risk **no feed and no anchor** · EU storage **GIE key pending from Will**. **Each needs an owner decision or honest retirement — a permanent red is decoration.** |
-| **SUPERSESSIONS** | DEPLOY GATE **v2 → v3** (8/4) · the `OVX<44.2 AND ratio<2.89` cooldown gate **RETIRED 7/30** · `crack >$30` and `VLCC >WS200` **RETIRED 7/31** · THESIS threshold **Status column removed 8/4** (registry owns it) · `ledger_staleness` **de-wired from boot 8/4**. |
+| **SUPERSESSIONS** | DEPLOY GATE **v2 → v3** (8/4) · the `OVX<44.2 AND ratio<2.89` cooldown gate **RETIRED 7/30** · `crack >$30` and `VLCC >WS200` **RETIRED 7/31** · THESIS threshold **Status column removed 8/4** (registry owns it) · `ledger_staleness` **de-wired from boot 8/4** · **8/5: `CLAUDE.md` + `thresholds.py` REPOINTED to `REGISTRY.tsv`** — both still named THESIS canonical 4 days after the pilot moved the machine home; **correct when written (F3, 7/31), stale the afternoon the answer moved, and no check probes file ownership claims.** |
+| **✅ RESOLVED 8/5** | **The 8/4 OVX conflict was an intraday-as-close, not a feed disagreement.** PROME's **53.08** is the open/high of the **15:30 5m bar**; the daily close is **53.45** (my figure). ⚠️ **Still single-witness on value — FRED `OVXCLS` had not published 8/4 as of 22:32 ET 8/4** (latest row 8/3 @ 57.20). **Re-verify next boot.** Gate verdict unaffected — both ≪ 58.6245. |
 | **NEXT DECISION** | **Will: [Approve]/[Decline] the fill.** Then **Wed 8/5 10:30 EIA WPSR** (pre-reg FROZEN — grade in the addendum only) · **Fri 8/7 COT** as-of 8/4, ladder from 101,016, raw `f_disagg.txt`, must not stack. |
 
 > ⚠️ **A FIRING GATE CARRIES ZERO THESIS INFORMATION** (TERRY, adopted onto the spec): leg (a) fires because OVX *decayed*, leg (b) eased because USO *fell*. **Both legs open as the market prices LESS of this thesis.** The case rests on the curve, the physical leg and the tolled-corridor reading — never on a cheap entry. **THE CLOCK IS NOT EVIDENCE.**
