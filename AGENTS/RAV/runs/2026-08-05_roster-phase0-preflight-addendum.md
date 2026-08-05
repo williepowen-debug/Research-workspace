@@ -115,3 +115,21 @@ Recommended wording refinements:
 Go for Phase 1 drafting after Will/PROME accepts the minor wording refinements above.
 
 Do not start Phases 3-4. Do not make labels operational. Do not silently edit root `CLAUDE.md`; draft the mirror change and send it to Will as already ruled.
+
+## Correction Block - 2026-08-05
+
+This addendum preserves RAV's original 2026-08-04 preflight text above, including the now-superseded placement of TERRY under `ORGANIZING / SERVICE`.
+
+Correction: TERRY is `DOMAIN ACTIVE`, not `ORGANIZING / SERVICE`.
+
+Reason: TERRY owns trade construction / canonical risk-rule authority in its lane. Root canon names TERRY the canonical owner of trade-construction rules, and live trade cards cite TERRY's numbered rules as a stable API. An agent that owns canon in its lane is a domain owner.
+
+Corrected Phase 1 bucket set:
+
+- `ORGANIZING / SERVICE`: PROME, WALTER, NEXUS
+- `REVIEW / QC`: RED
+- `DOMAIN ACTIVE`: SAM, LIQUID, VIOLET, BRENT, HENRY, CARL, LABOR, BROCK, HAWK, TERRY, REGINALD, MARCO, ORACLE, BOND, CORAL, SHADE, ZHAO
+- `PROVISIONAL ACTIVE`: AEOLUS, WATT, VULCAN, MIDAS, OSPREY, FALCON, HOMER
+- `EVENT-DRIVEN SPECIALIST`: OZK, WAL
+
+This correction does not change the original artifact's audit value; it records the later Will/PROME/RAV ruling needed to consume it safely.
