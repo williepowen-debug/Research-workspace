@@ -19,7 +19,7 @@
 | Challenger June | **45,849** lowest since Dec-25; AI #1 4th mo (31%) | ⬇️ announcement layer STOOD DOWN (level), AI structural |
 | Long-term unemployed | **1.9M, 27.3% share, +286K YoY** | ⬆️🔴 freeze cost accumulating — strongest new bearish datum |
 | Household survey | Emp −507K (FT-led −514K) | ⬇️ HH weakness beyond the supply story — watch 2nd print |
-| Mfg employment surveys | ISM 49.7 ↑ (best since Jan-25) vs S&P Global "fastest cuts since May-20" | ⚠️ live survey divergence; BLS realized +3K sides with ISM |
+| Mfg employment surveys | 🔴 **THE DIVERGENCE IS CLOSED — all three now agree UP.** ISM **52.8** (Jul, expansion); S&P Global flash July employment **rose 1st time in 3 mo** (the "fastest cuts since May-20" outlier turned 7/24); BLS realized mfg +3K | ⬆️ **This row previously read "ISM 49.7 ↑ vs S&P fastest cuts = ⚠️ live survey divergence." Both legs superseded** — swept 8/5 (a miss from this session's own first pass) |
 | 🔴 **ISM Mfg employment (Jul, 8/3)** | **52.8** (+3.1 from 49.7) — **expansion for the first time in 33 months**; PMI 55.6 = highest since May-2022; **60% of panelists hiring** | ⬆️🔴 **LAB-06 ❌ FALSIFIED.** The survey freeze leg is dead on the mfg side |
 | 🔴 **ISM Svs employment (Jun) — CORRECTED 8/5** | **51.2** (+3.3 from 47.9) — **expansion for the first time in four months**. *This file carried **47.4** and "4th straight mo contracting" from 7/6 to 8/5 — wrong, and wrong in sign* | ⬆️🔴 **The survey thaw started in JUNE SERVICES.** I was a month late; the mfg print is the SECOND expansion, not the first |
 | **🆕 ADP July (8/5)** | **+44K** vs 70K cons (weakest since Jan); June rev 98→**95K**; edu/health **+36K = 82% of the gain**; leisure −11K; goods −3K; job-changer pay **7.0%** (from 6.6) | ⬇️ **COUNTER to the thaw — but pre-committed NO re-grade (card §2c).** Breadth is bad; ADP's own economist cites *"supply constraints"* |
@@ -29,7 +29,7 @@
 
 ---
 
-## CONVERGENCE MATRIX (Jul 2 re-grade — 16 LABOR-owned vectors)
+## CONVERGENCE MATRIX (**15 live** LABOR-owned vectors · last re-grade **2026-08-05**) *(header said "16" and "Jul 2 re-grade" while the summary line said 15 — v9 was merged into v6 on Jul 2 and the header never followed; fixed 8/5)*
 
 > **Jul-2 re-grade:** freeze deepened but the *announcement* layer stood down and DOGE/Hormuz faded → honest score **37/75** (15 live vectors after the v6/v9 merge; ≈41/80 like-for-like on the Jun-16 16-vector basis, vs 48/80 then. Recounted 12:35 — the first-pass 40 had left the merged vector's points in the total). New columns per DAEDALUS BATCH_02: **Indep** = independence/shared-root note (don't multi-count); **If-falsified → ACTION** = what to do when the vector's read breaks (from TRADE §3, reorganized by vector).
 
@@ -63,7 +63,7 @@
 
 ---
 
-## SIGNAL DASHBOARD (Jul 2 refresh — all verified vs primaries unless tagged)
+## SIGNAL DASHBOARD  ·  ⚠️ **This header used to read "all verified vs primaries unless tagged." That claim was FALSE for a month** — the ISM Svs June row was two secondary web reads under a `[CONF]` tag (→ L-12). **A header asserting a verification standard the rows don't meet is worse than no header**, so the standard now lives per-row: **`[CONF]` = a NAMED PRIMARY; anything else says what it is.** Rows re-audited 2026-08-05.
 
 | Indicator | Value | Source | Status |
 |---|---|---|---|
@@ -90,7 +90,7 @@
 | KELYA | **$15.23** `[CONF live 7/23]` — **SUPERSEDES the $13.00 (7/2) mark this row used to carry** (audit E1: two prices for one instrument sat in this file, 29d and $2.23 apart). Matches the EXIT RULES DTE≤30 write-off checkpoint. ⚠️ **Not a live quote — pull fresh before any position action (root rule 4).** | [CONF] 7/23 checkpoint | ⚪ |
 | **FL UR June** | **4.7%** (−0.1pp MoM from 4.8 May unrevised; +0.9pp YoY, Jun-25 3.8; among 8 states lower MoM, only AL+KY rose MoM). **Cross-corrob:** CCBG (81%-FL bank) Q2 printed benign 7/21 — [CONF CORAL 7/21 entry, figure not duplicated] = independent datum supporting the marginal-counter read (bank-side FL stress not confirming; synchronization 0-of-≥2) | [CONF] BLS LAUS June 2026 (7/21 10:00 ET) | 🟡 T-11 not fired; FL stress paused MoM, elevated YoY |
 
-*Not currently tracking (last refresh ≤2026-06-23 — demoted 7/24 as monthly-slow, unlikely to move the read):* staffing Q1 tier-split, ASA index, CPS response. Reopen on demand or at next print.
+*Not currently tracking (last refresh ≤2026-06-23 — demoted 7/24 as monthly-slow):* staffing tier-split, **ASA index**, CPS response. 🔴 **REOPEN THE ASA INDEX (flagged 8/5):** it was demoted as "unlikely to move the read" when the read was a *deepening freeze*. That premise is gone — with the canary triple at 3-for-3 recovery, TEMPHELPS expanding and JOLTS hires up, **the staffing-industry index is now a direct independent test of the thaw**, and L-01 says the *industry* series is canonical over the company tier. Pull it at the next closeout.
 
 ---
 
@@ -115,7 +115,7 @@
 
 ## FED TRAP & THESIS
 
-**Stagflation mix sharpened:** payrolls weak (+57K) but wages re-accelerating (3.5%) and the U-3 gauge suppressed by supply-shrink — the market read it as "Fed holds off on **hiking**" (10Y ~flat, no dovish repricing). The Fed's employment gauge (U-3) is being mechanically flattered while the quantity side deteriorates: policy stays boxed. Real test: June CPI **Jul 14** (HENRY). Thesis state: freeze-deepening (see BOTTOM LINE).
+**Stagflation mix sharpened:** payrolls weak (+57K) but wages re-accelerating (3.5%) and the U-3 gauge suppressed by supply-shrink — the market read it as "Fed holds off on **hiking**" (10Y ~flat, no dovish repricing). The Fed's employment gauge (U-3) is being mechanically flattered while the quantity side deteriorates: policy stays boxed. ~~Real test: June CPI **Jul 14** (HENRY).~~ **← DEAD POINTER, struck 8/5: that date passed three weeks ago and the line still presented it as the forward test.** The live policy tests are **~Aug 19 minutes** (which make my 7/29 grade final) and **~Aug 21 Jackson Hole** — both in the calendar. Thesis state: **superseded — see the 8/5 header; the freeze is thawing on the hiring side.**
 
 > **⚠️ REGIME FOLD 7/24 (NEXUS routing, folded same-session per the deferred-fold rule):** the "hold off on hiking" framing above is the **7/2 tape** and is now superseded. **It is a HIKE regime.** Sept-hike odds **52% → >80%** (Warsh hawkish 7/20); Fed-hike-2026 **71.5%** = the crowd's firm base case [ORACLE via NEXUS 7/24]; the rates complex re-labeled its driver **policy-path** (BOND/HENRY/LIQUID). June FOMC minutes corroborate the direction: *"A few participants commented that... there was a case for raising the target range."*
 >
@@ -133,7 +133,7 @@
 
 ---
 
-## DANGER WINDOW: Q3 2026 (rows graded through 2026-07-31)
+## DANGER WINDOW: Q3 2026 (rows graded through **2026-08-05**)
 
 | Window | Cohort / Test | Status |
 |---|---|---|
