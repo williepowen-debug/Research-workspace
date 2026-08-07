@@ -8,6 +8,39 @@ Tracks all changes to `WAL/THESIS.md`. Reverse chronological. Mirrors format of 
 
 ---
 
+## 2026-08-07 — **GRADE RECORD, NO VERSION BUMP: V1a MI3 ran for the first time and DISCONFIRMED. No weights moved.**
+
+**Deliberately not a version bump.** This entry records a *pre-registered grade being executed* and one *factual correction*. **No probability, weight, EV or PT changed.** The re-mark this result calls for is a **v2.4 proposal (P7), Will-gated** — see below for why it was not taken here.
+
+**Trigger:** Will registered the FFIEC CDR PWS account 2026-08-07, clearing a blocker that had stood 4+ months. MI3 pulled the same day for **both** available 2026 quarters plus 10 quarters of history (REST/JWT `RetrieveFacsimile`, SDF, ID_RSSD 3138146). Grade → `MI3_FIRST_RUN_2026-08-07.md`; series → `workbook/MI3_SERIES.tsv`.
+
+### The grade (strictly off the frozen v2.1 calibration table, no spec edited before or after)
+
+| Quarter | MI3 (RCON2746 ÷ item 4) | Band | Verdict |
+|---|---|---|---|
+| **Q1-2026** | **23.88%** | `<24%` | **V1 PLATEAUED** *(12bps below the boundary — near, but unambiguously below)* |
+| **Q2-2026** | **21.20%** | `<24%` | **V1 PLATEAUED** *(280bps below — unambiguous)* |
+
+**Concordant across both quarters.** Pre-registered exit rules: **Bear-fast KILL → FIRED** (MI3 <25%, on the exact carrying instrument the rule named). **Bear-fast TIME-BOX → DISSOLVED** (purpose discharged; the ~Sep 1 forcing date is gone).
+
+### What made the grade trustworthy, and what it overturned
+
+- **The 24.2% baseline reproduces exactly** at 12/31/2025 = **24.24%** on the identical basis. Had it not, the correct output would have been a basis dispute, not a verdict.
+- ★ **MI3 has never reached 25% in twelve quarters** (all-time high 24.24%, never within **76bps** of its own trigger; the ≥27% hard-confirm band sits 276bps above the all-time high). **The falsifier was not merely un-run — on the actual data it was never close to firing at any point in the observable record.**
+- ★ **"Growing" was never a property of this series.** Since 2025Q1 it oscillates in a ~3pp band with no direction. The 2024 rise was two discrete step-changes.
+- ★ **`THESIS.md`'s "+8.7pp over 2 quarters" was wrong by 3×** — the span is **six** quarters. Levels reproduce, interval does not. **Corrected in THESIS.md this session as a factual fix (P10); no weights touched.**
+- **Q2's numerator fell in absolute dollars** (−$175M / −6.4% over two quarters) while C&I grew — the decline is substantive, not denominator dilution.
+
+### ⚠️ Why NO re-mark was taken here
+
+The frozen table's **status** column graded cleanly. Its **implication** column did not survive the version change: for `<24%` it reads *"bear shifts back toward 30%"*, written against **v2.1→v2.2** when "the bear" was a *single* weight. Under **v2.3** the bear is **split** (fast 10% + medium 16% = 26%), so applying it mechanically would **RAISE** total bear weight on a **disconfirming** result — plainly the wrong sign. Executing that would have been improvisation dressed as a frozen grade.
+
+**→ v2.4 proposals, all Will-gated, none applied:** **P7** retire or fold bear-fast (recommend folding into bear-medium or a material cut; total bear must **not** rise on a disconfirmation) · **P8** repair the MI3 denominator spec (RCON2746 spans items 4 **and** 9; the spec divides by item 4 only — ⚠️ re-basing changes the *level*, never this verdict: both bases are far below 25% in both quarters) · **P9** retire the calibration table's implication column, keep its status column as the calibration record.
+
+⚠️ **Scope fence carried into every surface: V1a ≠ V1.** MI3 measures CRE **not secured by real estate**. The $99M, the office book, the classified balance and the appraisal are in the **secured** book, untouched — and the same-day Q2 10-Q read *added* evidence to V1b-magnitude (OREO office property count 15 → 22). **Do not read "V1a disconfirmed" as "V1 disconfirmed."**
+
+---
+
 ## v2.3 — 2026-07-25 — **POST-Q2 SECOND-DATA-POINT RE-MARK. The bear WEAKENED and the margin of safety COMPRESSED.**
 
 **Trigger:** WAL Q2 2026 print (8-K acc **0001628280-26-049001**, AMC 7/21; call 7/22 noon ET), graded in two stages against a frame frozen 7/10-7/20 → `../REGINALD/reports/2026-07-21_WAL_Q2_grade.md`, `../REGINALD/reports/2026-07-22_WAL_Q2_stage2_grade.md`. **Verdict: NOT the surprise tier, NO FIRE.** This entry is the deferred re-mark those grades scheduled.

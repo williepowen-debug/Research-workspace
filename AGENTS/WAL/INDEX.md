@@ -2,7 +2,7 @@
 **Start here on cold boot.** Standalone agent since **2026-07-25** (promoted from `AGENTS/REGINALD/WAL/`, Will-approved 7/22; review → `../DAEDALUS/builds/wal_promotion/PROMOTION_REVIEW.md`). Boot protocol → `CLAUDE.md` (auto-loads when launched from this dir).
 
 **Canonical tokens (MIRROR — sync at closeout, never originate here):**
-**Thesis v2.3** (2026-07-25, post-Q2 re-mark — **UNCHANGED at the 8/7 Q2 10-Q read; the v2.3.1 condition was evaluated and does NOT fire**) · Bear-fast 10% / Bear-medium 16% / Base 40% / Bull 27% / Tail 7% · **EV $73.92** · **PT $52-74** ([Bear-fast low, EV], pinned) · **WAL-01 25% / WAL-02 50%** (formerly REG-24/25, OPEN to Q3; both carry an 8/7 note-only append — **specs Will-gated, unedited**) · KB **163 rows / 16 groups** (+18 on 8/7 from the Q2 10-Q primary read; data clock 0d) · Positions → `POSITIONS.md` (Sep-18 $67.5P + $70P core) · ⛔ **Q2 10-Q FILED 7/31 → frame leg EXPIRED-UNWRITTEN / VOID; read UNFRAMED 8/7** → `Q2_10Q_READ_2026-08-07.md` · **Next event: FFIEC Q2 PDD ~Aug (⏱ time-box ~Sep 1)**, then 13Fs ~Aug 14
+**Thesis v2.3** (2026-07-25, post-Q2 re-mark — **UNCHANGED at the 8/7 Q2 10-Q read; the v2.3.1 condition was evaluated and does NOT fire**) · Bear-fast 10% / Bear-medium 16% / Base 40% / Bull 27% / Tail 7% · **EV $73.92** · **PT $52-74** ([Bear-fast low, EV], pinned) · **WAL-01 25% / WAL-02 50%** (formerly REG-24/25, OPEN to Q3; both carry an 8/7 note-only append — **specs Will-gated, unedited**) · KB **170 rows / 16 groups** (+25 on 8/7: MI3 first-run 164-170 + Q2 10-Q read 146-163; data clock 0d) · Positions → `POSITIONS.md` (Sep-18 $67.5P + $70P core) · ⛔ **Q2 10-Q FILED 7/31 → frame leg EXPIRED-UNWRITTEN / VOID; read UNFRAMED 8/7** → `Q2_10Q_READ_2026-08-07.md` · ★★ **V1a MI3 RAN 8/7, FIRST EVER — DISCONFIRMING** (Q1-26 23.88% · Q2-26 21.20%, both `<24%` PLATEAUED; **bear-fast KILL FIRED**, **~Sep 1 time-box DISSOLVED**; 10% weight NOT re-allocated → **v2.4 proposal P7**) → `MI3_FIRST_RUN_2026-08-07.md` · **Next event: 13Fs ~Aug 14**, then Q3 print ~mid-Oct; ⏱ **FFIEC JWT expires 11/5**
 
 ---
 
@@ -22,7 +22,7 @@
 | **OREO** ⬅ **NEW 8/7** | $126M but property **count 15 → 22 (+47%)**, "primarily **office**"; Q2 valuation losses **zero** | 🟠 WAL is taking title to office (KB-WAL-155) |
 | **Capital-return pivot** | $5B loan guide cut "to prioritize share repurchases" + **$150M H2 buyback**; NII floor 12-14% absorbing an assumed Sept 25bp hike | 🟢 bull leg |
 | Offsets carried | Fee guide cut 20-25%→13-17%; deposit-cost guide $8B→$6B | 🟠 |
-| **V1a MI3** | **NEVER TESTED** — FFIEC PDD un-run ~2.5mo | ⬜ unknown both directions |
+| **V1a MI3** ⬅ ★★ **8/7** | **TESTED AT LAST — DISCONFIRMED.** Q1-26 **23.88%** · Q2-26 **21.20%**, both `<24%` PLATEAUED. **12 quarters: never once reached 25%** (high 24.24%, never within 76bps of its own trigger); oscillates with no trend since 2025Q1 | 🟢 **bear-fast KILL FIRED · time-box DISSOLVED.** ⚠️ **V1a ≠ V1** — the secured office book is untouched (KB-WAL-164/166/170) |
 | Short interest | 4.91% float [FINRA 6/30] — never cite boot-tool yfinance SI | 🟠 crowded short |
 | Spot vs model | **$81.77** [2026-08-07 intraday] — now **just BELOW Base top $82**, so the base case no longer implies a decline on its own arithmetic; overvaluation vs EV $73.92 = **10.6%** (was 12.4% at $83.11). Buffer to the $78 threshold **+$3.77 (+4.8%)**, compressed from 6.5%. Sell-side PTs post-Q2 ($90 JPM / $98 Citi) sit ABOVE our EV | — |
 
@@ -47,7 +47,8 @@
 | 3 | `MEMORY.md` | Session handoff + first-boot mandates |
 | 4 | `SCENARIOS.md` v2.3 | Ranges (⚠️ strike-by-strike sections May-vintage — rebuild owed) |
 | 5 | `workbook/KB.tsv` + `KB_INDEX.md` | **163-row** evidence base, 16 groups (Q2 106-127; insider 128-133; news 134-139; Q1 10-Q primary 140-145; **Q2 10-Q primary 146-163**) |
-| 6 | `Q2_10Q_READ_2026-08-07.md` ⬅ **NEW** | The Q2 10-Q primary read + **the frame-void record** + the v2.3.1 verdict + 6 proposals |
+| 6 | `MI3_FIRST_RUN_2026-08-07.md` ⬅ ★★ **NEW** | The first-ever V1a MI3 grade + 12-quarter series + the KILL/time-box outcomes + P7-P10 |
+| 7 | `Q2_10Q_READ_2026-08-07.md` ⬅ **NEW** | The Q2 10-Q primary read + **the frame-void record** + the v2.3.1 verdict + P1-P6 |
 
 ## File Map
 
@@ -61,6 +62,7 @@
 | `SCENARIOS.md` v2.3 | Scenario branches + ranges |
 | `workbook/KB.tsv` + `KB_INDEX.md` | Canonical evidence store + group navigator |
 | `workbook/PREDICTIONS.tsv` | WAL-01/02 (formerly REG-24/25) + future WAL predictions |
+| `workbook/MI3_SERIES.tsv` ⬅ **NEW 8/7** | 12-quarter MI3 series (RCON2746 ÷ item 4) + NDFI item 9a, two-clock header. **Standing quarterly pull** — next Q3-2026 Call Report ~Oct-Nov |
 | `POSITIONS.md` | Option legs (canonical; broker-data only) |
 | `MEMORY.md` | Session handoff, Feedback, Findings |
 
@@ -99,7 +101,7 @@
 3. **Other LAM/Leucadia-era credits inventory** — call-transcript review done (Q2 clean twice, KB-WAL-124). ⚠️ **The DEF 14A pass is still NOT done — and the 2026 proxy was filed 2026-04-22 and has never been read** (our INSIDER rows predate it). It also carries the cash-settled-RSU plan terms behind KB-WAL-129 and the beneficial-ownership table.
 4. **Cantor residual quarterly tracking** — ⬅ **PARTIALLY CLOSED 8/7.** The Q2 10-Q re-confirms the three primary figures ($98.5M facility / $29.6M specific allowance / $26.1M Q1 charge-off) and adds **"no additional charge-offs" in Q2** (KB-WAL-148). ⚠️ **But the Q2 disclosure is NARROWER than Q1's** — the $3.5M remaining allowance, the ~$70M residual carrying value and the $13M/$64M senior-lien position are all ABSENT. **Ledger tie-out still owed at the Q3 10-Q.** *(Candidate tie logged, not asserted: the Q2 MD&A's "$64 million of loans with more-than-insignificant deterioration" matches the protective-lien magnitude exactly.)*
 5. **Lender-finance quality-of-names** (2,000 obligors) — V3 residual, unresolved since Q1. ⚠️ **PRIORITY RESTORED 8/7:** the "contracting by management choice" premise that justified deprioritising this **is refuted at the Q2 10-Q** — NDFI grew to **25.9% of HFI (a new high)** with all three sub-lines up QoQ (KB-WAL-146). V3's 1/5 is under challenge; the quality-of-names question is live again.
-6. **MI3/FFIEC — ★ the premise may be wrong.** We have been waiting ~2.5mo on a *fleet-level PDD integration*; the 7/25 news sweep notes **WAL's own Call Report is directly downloadable from the FFIEC CDR** (+ a free UBPR for peer percentiles). **Try the direct pull before the ~Sep 1 time-box trips.** Highest-leverage open item on the board — it resolves a 10% weight either direction.
+6. ~~**MI3/FFIEC**~~ — ✅ **CLOSED 2026-08-07. The pull ran; MI3 graded DISCONFIRMING on both 2026 quarters + 10 of history.** The 7/25 hunch was right — WAL's own Call Report is directly retrievable — but the recorded recipe was **SOAP-vintage and dead** (legacy tokens expired 2/28/26); the live service is **REST + JWT**, header literally `Authentication:`. **Successor threads:** (a) ⏱ **JWT expires 11/5**, before the Q4 report — Will-side regeneration; (b) `.env` is laptop-only, desktop has no creds; (c) **peer-cohort MI3 is now cheap** — the same call for the comparison set would settle whether 21.20% is high or low vs peers (**REGINALD's lane**, flagged to them); (d) UBPR percentiles still unexplored.
 7. ~~**Form 4 post-print insider sweep**~~ — ✅ **CLOSED 7/25.** Complete EDGAR Form 4/144 scan 3/1-7/25 → `sources/INSIDER_SCAN_WAL_2026-07-25.md`, KB-WAL-128..133. Zero buying confirmed; V4 ratified 3/5. **Converted to a standing monthly watch — and Form 144 must be pulled with Form 4** (a departing officer's liquidation is invisible to Form 4 alone).
 8. **EPS basis tie-out** — ✅ **CLOSED 8/7 on the basis leg, OPEN on the consensus leg.** The 10-Q pins Q2 **GAAP = adjusted = $2.36** (both non-GAAP adjustments are Q1-only), so the basis fork that made Q1 ambiguous does not exist at Q2 (KB-WAL-149). **The consensus leg cannot be closed by any filing** — it needs a dated vendor snapshot on-or-before 2026-07-21.
 9. **WAL-02 invalidation-clause defect** — **awaiting Will's call; HARDENED 8/7.** The 37bps that makes the invalidation unreachable is now **A1-confirmed at the 10-Q** (Q2 NCO $55.0M = 0.37%, and zero fraud charge-offs in Q2, so total = ex-fraud) — KB-WAL-158. Row still 50%/OPEN, spec **unedited** (graded row); a dated note-only append was added to the TSV.

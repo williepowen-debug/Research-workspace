@@ -207,9 +207,21 @@ OZK IQHQ Aug maturity is the next discrete event window for confirmation/denial.
 
 Pattern flag, tracked — not promoted to standalone bear-trigger without a second corroborating departure.
 
-### Outstanding V1 PRIMARY TEST — MI3 Call Report (mid-May, FFIEC PDD bulk ~May 14-16)
+### ~~Outstanding~~ ✅ **EXECUTED** V1 PRIMARY TEST — MI3 Call Report
 
-WAL's MI3 ratio (RCON2746 / Item 4) was 24.2% per prior screen and growing (15.5% → 24.2% — +8.7pp over 2 quarters, fastest in cohort even though absolute level is near cohort median). **This is V1's primary falsifier and it has not yet run.** Per v2.0 → v2.1 refinement, V1 weight is restored pending this test.
+> ## ✅ **THIS TEST RAN 2026-08-07 — FIRST TIME EVER — AND IT DISCONFIRMED.**
+> **Q1-2026 MI3 = 23.88% · Q2-2026 MI3 = 21.20%.** Both in the `<24%` → **"V1 plateaued"** band of the frozen table below. **Bear-fast KILL FIRED; ~Sep 1 time-box DISSOLVED.**
+> ⚠️ **The 10% bear-fast weight is NOT yet re-allocated — that is v2.4 proposal P7, Will-gated.** Full grade + 12-quarter series → `MI3_FIRST_RUN_2026-08-07.md` · `workbook/MI3_SERIES.tsv`. See CHANGELOG 2026-08-07.
+
+**⚠️ CORRECTION applied 2026-08-07 (factual fix, no weights touched — proposal P10).** This paragraph previously read: *"WAL's MI3 ratio (RCON2746 / Item 4) was 24.2% per prior screen and growing (15.5% → 24.2% — **+8.7pp over 2 quarters**, fastest in cohort…)."* Verified against the primary:
+
+- **The levels reproduce exactly** — 12/31/2025 = **24.24%** (the "24.2%"), 6/30/2024 = **15.51%** (the "15.5%"), delta **+8.73pp**. ✅
+- **The interval does not** — 6/30/2024 → 12/31/2025 is **SIX quarters, not two**. ❌ The error made the trend look **3× steeper** than it was: **+1.46pp/quarter**, not +4.37pp.
+- **And the series is not a trend at all.** MI3 has **never reached 25% in 12 quarters** (all-time high 24.24%, never within 76bps of its own trigger), and since 2025Q1 it **oscillates in a ~3pp band with no direction**: 24.06 → 22.48 → 21.97 → 24.24 → 23.88 → 21.20. The 2024 rise was **two discrete step-changes**, not acceleration.
+
+**Corrected statement:** *WAL's MI3 ratio (RCON2746 / Item 4) rose from 15.51% (6/30/2024) to a peak of 24.24% (12/31/2025) over six quarters via two step-changes, then fell to 23.88% (3/31/2026) and 21.20% (6/30/2026). It never reached the 25% trigger in any of the twelve quarters on record.* Per v2.0 → v2.1 refinement V1 weight was restored pending this test; **the test has now run.**
+
+⚠️ **Scope fence: V1a ≠ V1.** MI3 measures CRE-purpose lending **not secured by real estate**. The $99M life-science credit, the office book, the classified balance and the pending appraisal are all in the **secured** book and are untouched by this result.
 
 **v2.1 MI3 calibration table (per RED §12.1 widened):**
 
