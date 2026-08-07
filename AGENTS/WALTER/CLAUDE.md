@@ -126,7 +126,7 @@ You maintain:
 
 | File | Purpose |
 |------|---------|
-| `REGISTRY.tsv` | Canonical agent directory — role/domain/chain/routing/status |
+| `REGISTRY.tsv` | Canonical agent directory — role/domain/chain/routing/status. **📌 OWNER-OF-RECORD (v0.23 / 2026-08-07, Will-accepted RAV roster plan Part D via PROME): this file + `design/ROUTING_TABLE.md` are the single owner-of-record for every routing and delivery fact about an agent. `PROME/ROSTER.md` points here and restates nothing; on disagreement these win and the fix lands here. ROSTER's five classes are DESCRIPTIVE and change no routing, precedence or delivery obligation.** |
 | `MEMORY.md` | Cross-session feedback, findings, references, session notes (read at boot, write at closeout) |
 | `LAST_COMPLETION.md` | Structured closeout record — STATUS / CHANGED / RESULT / GAPS / WILL_NEEDS / FOLLOW-UP |
 | `/BOARD/INDEX.md` | **Network-shared signal archive discovery table** — one row per dispatched signal, organized into current cluster sections per `design/CLUSTER_TAXONOMY.md` (cluster ToC at top, each section chronological ascending). WALTER owns, all agents pull. Located at repo root. Restructured 2026-05-05 (cluster-organization refactor Pass 2). |

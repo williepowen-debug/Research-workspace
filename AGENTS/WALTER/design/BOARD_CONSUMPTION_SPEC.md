@@ -1,6 +1,6 @@
 # BOARD Delivery + Consumption Spec
 
-**Version:** v0.12
+**Version:** v0.13
 **Created:** 2026-04-20 (v0.1 consumption-only) · **Extended:** 2026-06-17 (v0.2 delivery layer) · **Clarified:** 2026-06-18 (v0.3–v0.5 Quick-WALTER tightening) · **Collapsed:** 2026-06-26 (v0.6 single-machine platform-collapse — OpenClaw cut)
 **Owner:** WALTER
 **Status:** **Single-machine (desktop CC) since 2026-06-26 — OpenClaw cut; `delivered` is uniform (committed + on-origin); Quick-WALTER retired.** Delivery layer SHIPPED; consumption = Phase 2 self-apply (see §8). Approved-in-principle by Will + PROME + ORC (2026-06-17); v0.6 collapse Will-ratified 2026-06-26 (`design/OPENCLAW_CUTOVER_PLAN.md`).
@@ -167,6 +167,41 @@ A recipient that runs a **complete** `/BOARD/` diff-scan at boot — one that di
 **Effect on the §3.5.1 telemetry gap:** this **shrinks the exposure rather than instrumenting it.** Notes remain un-instrumented — but by construction they now carry nothing whose loss changes a decision, so the un-instrumented lane stops being a risk surface and becomes what it was always described as: courtesy context. **The `note_log.tsv` escalation trigger in §3.5.1 stays armed and unchanged**, but its expected trigger rate should fall, because the actionable traffic that was driving note volume now leaves through the dispatch path. **If note volume does NOT fall after this change, that is evidence the test is being applied too loosely — re-read §3.5.3 before adding a ledger.**
 
 **This DOES change behaviour** (unlike §3.5.1, which was a clarification). It does not move any agent in or out of `PULL_COMPLETE`, and it does not alter the dispatch mechanics themselves — it changes **which lane content enters**, and it strictly increases the share of decision-relevant traffic that carries delivery telemetry.
+
+---
+
+### 3.6 🔴 CORRECTION LIFECYCLE — who owns which half (added v0.13, 2026-08-07; encodes Will-accepted RAV roster-plan Ruling #4 via PROME 2026-08-05)
+
+**The split, stated so it is written rather than remembered:**
+
+| Half | Owner | What it means |
+|---|---|---|
+| **Downstream PROPAGATION of a corrected figure** | **THE PUBLISHER** of the figure | The agent that published a number owes the packets to whoever is citing it. Mechanism = root `CLAUDE.md` step 1c (`consumer_check.py` + a packet per 🔴 STALE owner). **WALTER is the publisher for figures WALTER publishes, and no one else's.** |
+| **BOARD/signal correction LINKAGE** | **WALTER** | When a dispatched signal is corrected, WALTER links the corrected signal to the original **at every BOARD surface**, so that no consumer can arrive at the stale signal and read it clean. |
+
+**⇒ These are NOT the same job and neither substitutes for the other.** A publisher can packet every downstream holder and still leave a stale BOARD signal that a future reader discovers cold; WALTER can link every BOARD surface and still leave a live agent citing the dead number in its own files.
+
+**WALTER's linkage obligation is THREE surfaces, not one** *(this is the operative requirement — a `corrects:` header alone is not linkage, because it only points FORWARD and the reader arriving at the stale signal never sees it — the one-way-pointer defect found in the 8/3 staleness sweep, where two signal TITLES asserted a corporate default that never happened and sat untagged 6 and 11 days **while the correction already existed**)*:
+
+1. **The correcting signal's `corrects:` header** — SIG-ID (or a list), `SELF`, or `EXTERNAL:` per `SIGNAL_FORMAT_SPEC` v0.15. Mandatory on `signal_type: correction`; enforced by `walter_doctor` `correction_target_declared`.
+2. **The corrected signal's INDEX row** — append a visible back-marker naming the correcting SIG-ID and stating **in one line what is now wrong**. The INDEX is the discovery surface; a reader scanning the cluster must see it without opening the file.
+3. **The corrected signal's FILE** — a banner immediately after the YAML front matter, same content. A reader who arrives by direct link, grep or an old citation never touches the INDEX.
+
+**⚠️ State what SURVIVES, not only what broke.** Both markers must say which half of the original still stands. A marker reading only "CORRECTED" invites the reader to discard a sound argument along with a bad figure — the 7/24 calibration-vs-verdict lesson, applied to the linkage layer. *(Worked example: `SIG-W-20260807-001` corrects a DATE across four signals whose arguments are entirely unaffected, and every marker says so explicitly.)*
+
+**Never edit the original's substance.** Markers are additive. The historical record is what lets a reader see that the correction *happened*.
+
+#### 3.6.1 Backfill sweep — cadence, so it is not a remembered ritual
+
+**The correction-link backfill (finding pre-existing dispatched signals whose corrections were never linked) runs as a NAMED STEP OF THE EXISTING STALENESS SWEEP, on that sweep's ~14-day cadence** — not as a separate calendar item.
+
+**Why folded rather than free-standing:** the staleness sweep already walks every BOARD signal, already has a doctor check enforcing its cadence (`staleness_sweep_overdue`), and already produces an adjudication record in `registry/STALENESS_SWEEP_*.tsv`. **A second sweep with its own cadence would be a second thing to forget** — `finding_mechanize_the_cap_not_the_ritual`: a deferrable obligation wants an existing enforced hook, not a new one.
+
+**Trigger (either fires it):** (a) the next staleness sweep, whichever comes first on the 14d cadence; (b) **immediately, out of cadence, whenever a correction is dispatched whose target is more than one signal** — because that is the case where the linkage load is largest and the chance of a missed surface is highest.
+
+**The sweep step:** for every signal carrying `signal_type: correction`, confirm its target(s) carry back-markers at BOTH surfaces (INDEX row + file banner). Record non-linkages and the reason, the same way the staleness sweep records deliberate non-tags — **an unrecorded skip is indistinguishable from an oversight.**
+
+⚠️ **Known limit, stated: this sweep can only find corrections that DECLARED themselves.** A correction dispatched without `signal_type: correction` is invisible to it. That is an **adoption** gap, not a detection gap, and it is exactly the trap of the 8/3 proposal — *never key a completeness check on the field whose absence is the defect*. The enum + mandatory `corrects:` shipped 8/3 (FORMAT_SPEC v0.15) with all 9 then-existing corrections retro-filled, so adoption is currently 100%; **if that ever slips, the sweep under-reports silently.**
 
 ---
 

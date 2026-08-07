@@ -1,6 +1,8 @@
-# WALTER Routing Table v0.22
+# WALTER Routing Table v0.23
 
 Default routing rules. WALTER uses this table to determine recipients and precedence when classifying incoming information. These are defaults — WALTER can override based on context, safety net triggers, or MINIMIZE state.
+
+> **📌 OWNER-OF-RECORD FOR ROUTING & DELIVERY FACTS (added v0.23, 2026-08-07 — Will-accepted RAV roster plan Part D, via PROME 2026-08-05).** **This table + `AGENTS/WALTER/REGISTRY.tsv` are the single owner-of-record for every routing and delivery fact about an agent** — who receives what, at what precedence, on which chain, and through which delivery lane. **`PROME/ROSTER.md` POINTS here and restates nothing**; where ROSTER and these two surfaces disagree, **these win**, and the fix belongs here. ROSTER's five descriptive classes (ORGANIZING/SERVICE · REVIEW/QC · DOMAIN ACTIVE · PROVISIONAL ACTIVE · EVENT-DRIVEN SPECIALIST) are **descriptive only and change no routing, precedence or delivery obligation** — do not read a class label as a routing input. *(`REGISTRY.tsv` is a bare TSV with a machine-parsed header row and cannot carry a prose statement without breaking its readers, so the statement lives here and in `WALTER/CLAUDE.md`'s KEY DESIGN FILES row.)*
 
 **Canonical domain vocabulary:** The `Domain` column uses codes from `SIGNAL_FORMAT_SPEC.md` Domain Vocabulary section (v0.3, Apr 11). Don't invent new domain codes here without updating FORMAT_SPEC first per the canonical-source rule in `WALTER/CLAUDE.md`.
 
