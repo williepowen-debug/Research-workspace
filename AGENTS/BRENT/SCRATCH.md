@@ -1,4 +1,4 @@
-# BRENT SCRATCH — Fri Aug 7, 2026 **~19:5x ET** *(+ Will-requested evening NEWS SWEEP appended ~20:2x ET, same session — findings folded into OPEN THREADS and item 5 below; STATUS carries the full sweep on the 8/7 banner)* · **SESSION 6: THE ADJUDICATION SESSION — THE BAND HELD AND STOPPED MEANING ANYTHING, AND THE ARM'S GATE WAS NEVER THE CONSTRAINT**
+# BRENT SCRATCH — Fri Aug 7, 2026 **~19:5x ET** *(+ **20:xx ET WILL RULING: THE ARM IS RETIRED** — implemented across TRADE/STATUS/REGISTRY/RULINGS/CATALYSTS/BRIEF)* *(+ Will-requested evening NEWS SWEEP appended ~20:2x ET, same session — findings folded into OPEN THREADS and item 5 below; STATUS carries the full sweep on the 8/7 banner)* · **SESSION 6: THE ADJUDICATION SESSION — THE BAND HELD AND STOPPED MEANING ANYTHING, AND THE ARM'S GATE WAS NEVER THE CONSTRAINT**
 
 **Purpose:** Ephemeral session handoff — canonical "where are we / what next". Read at boot (step 2), rewritten at closeout (step 11).
 
@@ -8,8 +8,8 @@
 
 ## ⏳ FIRST THING NEXT SESSION
 
-**1. 🔴 THU 8/13 — ARM DISPOSITION IS DUE TO WILL.** Memo is written and delivered (`outbox/2026-08-07_to-PROME_cot-adjudication-arm-disposition.md` §②). **Recommendation: RETIRE, lean ~70%.** **If Will has not ruled by 8/13, put it to him directly — do NOT let it lapse silently, which is the exact failure the expiry row exists to stop.**
-**2. 🔴 DO *NOT* RE-SURFACE THE DEPLOY.** Will declined 8/4 eve, **STANDING.** v3's legs cleared on **5 of the last 5 sessions** and that is **not** new state. **The only live question is retire-vs-re-arm.**
+**1. ✅ CLOSED 8/7 — WILL RULED *RETIRE*.** The arm is **RETIRED**, six days ahead of the 8/13 expiry, **UN-DEPLOYED, `$0` ever at risk.** **Nothing is owed on it and there is NO live deploy gate on this surface.**
+**2. ⛔ TWO THINGS NOT TO DO NEXT SESSION, AND THEY ARE THE REAL RISKS NOW.** **(a) DO NOT GRADE R1.** `OVX close >68.97` is a **NAMED CANDIDATE on the 8/7 memo, NOT a registered condition** — and it is the drift risk precisely because it is written down, single-instrument and visible at every boot. **Re-arming requires a FRESH Will ruling.** **(b) DO NOT RE-SURFACE THE 8/4 FILL DECLINE** — still STANDING, untouched by the retirement, two separate decisions.
 **3. 🔴 FRI ~8/14 — COT as-of 8/11. THE MOST IMPORTANT PRINT OF THE CYCLE SO FAR**, for two independent reasons: it is the **first post-8/6-escalation positioning read**, and it is the print that **settles the band coin-flip** (see below). **Ladder from 102,560. Raw `f_disagg.txt`, code `067651`. MUST NOT STACK.**
 **4. 🟠 Wed 8/12 — FALCON co-belligerency FALSIFIER decision date** (registered 7/30).
 **5. 🟠 BAKER HUGHES — RECORD THE 8/14 PRINT AND DO NOT LET IT STACK.** 8/7 = **454 oil rigs (+3 WoW)**, the **largest weekly build of the sequence**; the gap to the frozen **457** line is now **THREE** (was 6). Ladder **452 → 450 → 451 → 454**. **BRT-26 stays OPEN — breach-WATCH, not a resolution (window end-Q3).** ⚠️ **The primary is 403-blocked by Akamai, 4th straight week unreached — 454 rests on 3 agreeing SECONDARIES. If it breaches on secondaries alone, say so on the grade.**
@@ -42,9 +42,9 @@
 ## NEXT SESSION (dated, future-verifiable)
 
 1. 🔴 **8/13 arm disposition to Will** · 🔴 **~8/14 COT as-of 8/11, ladder from 102,560, no stacking** · 🟠 **8/12 FALCON falsifier date.**
-2. 🟠 **RETIRE the 3 `NO_INSTRUMENT` rows that are MINE** — `STAGE-A-AIS` · `HY-ENERGY-OAS` · `WAR-RISK-HALVES`. **Blocking 5 → 2. THIRD CARRY — do it or say why not.** *A permanent red is decoration.*
+2. 🟠 **RETIRE the 3 `NO_INSTRUMENT` rows that are MINE** *(blocking is now **4**, not 5 — `GATE-V3-B` cleared BY the arm retirement, exactly as item 4 predicted; retiring these 3 takes it to **1**)* — `STAGE-A-AIS` · `HY-ENERGY-OAS` · `WAR-RISK-HALVES`. **Blocking 5 → 2. THIRD CARRY — do it or say why not.** *A permanent red is decoration.*
 3. 🟠 **Fix the `http:`-probe blind spot properly:** `instrument_check` reads `http:` freshness from `last_verified` **by design** (PortWatch serves clean 200s on a stale partition) ⇒ **a HEALED source stays red until a human re-stamps.** Boot said "15d stale" on 8/7 for a series that recovered ~8/3. **Correct fix: probe the FeatureServer query path, not the dataset page.** *(Retirement ratchet: this EXTENDS `probe_http`, supersedes nothing.)*
-4. 🟠 **`GATE-V3-B` stale-stamp** — deliberately NOT re-stamped (a bare bump on an ungraded chain violates C6). It clears when the gate is graded at a fire, or when the arm retires. **If the arm retires 8/13, this row retires with it.**
+4. ✅ **`GATE-V3-B` stale-stamp — CLOSED 8/7, and by the predicted route.** I wrote *"if the arm retires 8/13, this row retires with it"*; Will retired the arm the same evening and the row went with it. **Never re-stamped, so C6 was never breached.** *(Worth keeping as a small confirmation that naming a red's EXIT CONDITION beats re-stamping it.)*
 5. 🟠 **`INCIDENTS.tsv` scope ruling** — now **9 days** stale; Minoan Pioneer (8/4), GasLog Shanghai (8/1), Velos Amber (8/3) unlogged; RF-043 logs an FSRU under a facility-only scope that therefore contradicts itself.
 6. 🟡 **NEXUS_BRIEF VIEW + CALIBRATION content pass** still owed; compression rides with it, not before it.
 7. 🟡 **5 predictions structurally unresolvable** (BRT-07/12/16/17/21) — register successors FORWARD.

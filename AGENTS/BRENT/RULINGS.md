@@ -31,7 +31,31 @@
 
 ## DEPLOY GATE — THE FULL LINEAGE (cooldown → v1 → v2 → v3) {#deploy-gate}
 
-**Live spec → `TRADE.md` §DEPLOY GATE v3, self-contained.** Record only. **v2 was folded into v3 on 2026-08-05** — before that, reading the live gate meant reading two versions and applying the diff in your head.
+### ⛔ **2026-08-07 — WILL RULED: THE ARM IS RETIRED. THERE IS NO LIVE DEPLOY GATE.** *(six days ahead of the 8/13 expiry)*
+
+**Terms of record, verbatim class:** `RETIRED 2026-08-07 by Will ruling, ahead of 8/13 expiry; R1 named-not-registered; frame-breaker + playbooks survive; 8/4 decline untouched.`
+
+**BRENT recommended RETIRE (lean ~70%) in `outbox/2026-08-07_to-PROME_cot-adjudication-arm-disposition.md` §②; Will ruled the same day.** The arm expired **UN-DEPLOYED** with **`$0` ever at risk.**
+
+**★ THE RULING'S LOAD-BEARING FINDING — AND IT IS THE ONE WORTH CARRYING FORWARD: THE GATE WAS NEVER THE CONSTRAINT.** Legs (a)+(a2) cleared on **5 of the last 5 sessions** (OVX closes 57.20 · 53.45 · 51.48 · 57.34 · **55.80** against the ≤**58.6245** line) **and the arm still did not fire.** The binding constraint was the operator's standing decline, not the spec. **A gate that clears daily and is declined daily does not produce a trade — it produces a daily [Approve] prompt.** ⇒ **when an arm fails to fire, first ask WHICH constraint bound; re-speccing a gate that was already open is work aimed at the wrong object.**
+
+**The re-arm bar was measured, not asserted:** the **8/6 escalation** — the strongest new event of the window — took OVX to a **57.34** close, **−16.9% below the 68.97 post-arm peak and 11.63 index points short of re-ratcheting.** Over the arm's life OVX fell **68.97 → 55.80 = −19.1%** ⇒ **fillability improved; evidence did not.**
+
+⛔ **EXPLICITLY NOT THE REASONS, RECORDED SO THEY CANNOT BE BACK-FITTED: THE CLOCK, AND A CHEAP ENTRY.** The arm was retired because the case never improved while the gate stood open — **not because time ran out.** *(BRENT refused the "it expires 8/13, so take it" argument on 8/3, 8/4 and 8/7; the retirement must not now be read as that argument winning late.)*
+
+**NO RE-ARM CONDITION IS REGISTERED.** **R1** (OVX close **>68.97**, self-resetting, single-instrument, measured every boot) · **R2** (PortWatch transits **≤2/day ×3 consecutive**) · **R3** (the frame-breaker) are **NAMED CANDIDATES ON THE MEMO ONLY.** ⚠️ **R1 is the drift risk precisely because it is written, measurable and boot-visible — it is NOT a tripwire and must not be graded.** **Re-arming requires a FRESH Will ruling on the written, base-rated spec** (68.1% fire rate/20td, n=113 de-overlapped episodes — **preserved, not deleted; the expensive work is done**).
+
+**SURVIVES the retirement:** the **FRAME-BREAKER carve-out** (confirmed destroyed capacity → deploys on leg (b) alone) · **Stage-A** · the **OFF-RAMP playbook** incl. the COT-conditioned sizing modifier. **Retiring the arm did not disarm the book's response to a real event** — that was the counterweight in the memo and it is the reason the lean was 70% and not higher.
+
+**Will's 8/4 FILL decline is STANDING and is NOT revisited by this ruling** — two separate decisions.
+
+**Registry effect, same day:** `GATE-V3-A` · `GATE-V3-A2` · `GATE-V3-B` all → `status=retired` (rows KEPT as the do-not-resurrect record per the retirement ratchet). **`GATE-V3-B`'s stale-stamp blocker cleared BY the retirement** — blocking rows **6 → 4**, registered tests **47 → 43**.
+
+**⚠️ LEFT UNRULED ON PURPOSE, NOT DROPPED:** the **COT-band spec gap** (does the fuller-size branch **revert** on un-fire, or is it latched? does a band clearing by **1,512** against a **9,264** median weekly move need re-basing?) is **`WILL_QUEUE` row 35, needed-by ~8/14** — BRENT's own do-not-carry-past date. **Nothing applied.**
+
+---
+
+**Live spec → ⛔ NONE. `TRADE.md` §DEPLOY GATE v3 is now the RETIRED spec, kept as the dated record.** *(Was: the live gate, self-contained.)* Record only. **v2 was folded into v3 on 2026-08-05** — before that, reading the live gate meant reading two versions and applying the diff in your head.
 
 **⛔ WHY THE ORIGINAL `{ratio <2.89 AND OVX <44.2}` COOLDOWN GATE IS GONE (2026-07-30) — and it is NOT the reason I first escalated.** I told Will the gate *"may be unfireable by construction."* **That was false: it was met on 50.4% of the prior year's sessions and last opened 7/06.** The real defect: **the gate and this arm's own trigger are MUTUALLY EXCLUSIVE BY CONSTRUCTION** — the arm arms on **escalation**, the gate opened on **calm.** Over 753 sessions the gate was open on **0 of 38 escalation days (0.0%)** vs **78.5% of all others**. **No threshold choice fixes an anti-correlation.** Secondary defect: it priced **vega** while LESSONS #15 mandates a **vertical spread precisely because a spread neutralises vega** — at spec moneyness the debit rises only **+13.5%** from the old line (44.2) to OVX 63.8 and **asymptotes above ~90% IV**, versus **+140%** for the naked call the plan bans. **The gate was correctly specified for the instrument this plan forbids.** → `[[finding_compound_gate_jointly_unsatisfiable]]`
 **v2's three tightenings** shipped with that loosening per #21(b): ① the 20-td expiry (new) · ② the leg-(b) economics floor (new — v1 had no test of what the trade actually costs) · ③ the re-ratcheting peak (new).
