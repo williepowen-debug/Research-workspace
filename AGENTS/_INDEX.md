@@ -22,7 +22,7 @@ Active + Tier-2 agents and meta-agents with live folders. Full verified classifi
 
 > **This table groups by SUBJECT (Credit / Energy / Funding / Synthesis) — that is a different axis from RESPONSIBILITY CLASS.** As of the **2026-08-05 Phase 1 taxonomy pass**, `PROME/ROSTER.md` splits the live roster into five descriptive classes — **ORGANIZING / SERVICE · REVIEW / QC · DOMAIN ACTIVE · PROVISIONAL ACTIVE · EVENT-DRIVEN SPECIALIST** — and **owns that assignment.** Read it there; do not infer responsibility class from the group column here, and **do not mirror the per-agent class into this table** (a duplicated high-churn field rots independently — the failure this pass exists to fix). Labels are **descriptive only**: they change no routing, boot priority, grading or read obligation. Neither `PROVISIONAL ACTIVE` nor `EVENT-DRIVEN SPECIALIST` is a demotion.
 >
-> *Historical note: this table previously described its members as "Active + Tier-2 **domain owners**," carrying the same flattening the Phase 1 pass corrected in ROSTER — several rows here (NEXUS, WALTER, RED, TERRY, ORACLE) are service, review or trade-construction lanes rather than uniform domain owners.*
+> *Historical note: this table previously described its members as "Active + Tier-2 **domain owners**," carrying the same flattening the Phase 1 pass corrected in ROSTER — several rows here (NEXUS, WALTER, RED) are organizing/service or review lanes rather than uniform domain owners. (TERRY and ORACLE were listed in this parenthetical until 8/6 — removed, Will-directed review: the same Phase 1 pass rules both **DOMAIN ACTIVE**, TERRY explicitly overriding the preflight's service bucket.)*
 
 | Agent | Canonical path | Primary group |
 |---|---|---|

@@ -3,14 +3,14 @@
 
 **Method:** classification by **30/60-day git-commit activity** (the "is it actually running" signal) + STATUS mtime + self-declared domain — *not* a prose guess. Re-verify by re-running the activity map (`git log --since=<60d> --pretty=%s | grep -cE '^NAME'` per agent) and diffing against this table.
 
-> **★ PHASE 1 TAXONOMY PASS EXECUTED 2026-08-05** (roster-responsibility migration, RAV plan v4 → Will-ruled Phase 0 → RAV preflight → this pass). The flat `ACTIVE — persistent domain owners (30)` bucket is now split into five descriptive classes. **Membership is unchanged: 30 agents in, 30 agents out, verified by name-set diff — this pass re-labels, it does not add, remove, promote or demote anyone.** Rulings artifact: `PROME/proposals/2026-08-04_roster-phase0-ruling-table-RULED.md`. Preflight: `PROME/inbox/2026-08-05_from-RAV_roster-phase0-preflight-addendum.md`. **Out of scope by ruling and untouched:** TIER-2, DORMANT, RETIRED, ARCHIVE SOURCES, SPECIAL, TOOL-CLASS, spinouts, coverage notes, transmission chain.
+> **★ PHASE 1 TAXONOMY PASS EXECUTED 2026-08-05** (roster-responsibility migration, RAV plan v4 → Will-ruled Phase 0 → RAV preflight → this pass). The flat `ACTIVE — persistent domain owners (30)` bucket is now split into five descriptive classes. **Membership is unchanged: 30 agents in, 30 agents out, verified by name-set diff — this pass re-labels, it does not add, remove, promote or demote anyone.** Rulings artifact: `PROME/proposals/2026-08-04_roster-phase0-ruling-table-RULED.md`. Preflight: `PROME/inbox/processed/2026-08-05_from-RAV_roster-phase0-preflight-addendum.md` (durable copy: `AGENTS/RAV/runs/2026-08-05_roster-phase0-preflight-addendum.md`). **Out of scope by ruling and untouched:** TIER-2, DORMANT, RETIRED, ARCHIVE SOURCES, SPECIAL, TOOL-CLASS, spinouts, coverage notes, transmission chain.
 
 > Root `CLAUDE.md` carries the short Active/Tier-2 lists for boot orientation. **This file is the full verified classification + the evidence.** When they disagree, re-run the pass and reconcile. ✅ **Root mirror RECONCILED 2026-08-05 (Will-approved in-session)** — root `CLAUDE.md:26` now names the five descriptive classes and points here for the per-agent assignment, deliberately *without* re-listing agents by class (a duplicated high-churn field rots independently — root points, it does not mirror the churny part). Draft + rationale: `PROME/proposals/2026-08-05_root-claudemd-mirror-edit-DRAFT.md`.
 
 ---
 
 ### ROSTER RESPONSIBILITY MODEL — ruled 2026-08-04 by Will
-*(source: RAV roster-responsibility plan v4, accepted 8/4; rulings: `PROME/proposals/2026-08-04_roster-phase0-ruling-table-RULED.md`; preflight: `PROME/inbox/2026-08-05_from-RAV_roster-phase0-preflight-addendum.md`)*
+*(source: RAV roster-responsibility plan v4, accepted 8/4; rulings: `PROME/proposals/2026-08-04_roster-phase0-ruling-table-RULED.md`; preflight: `PROME/inbox/processed/2026-08-05_from-RAV_roster-phase0-preflight-addendum.md` (durable copy: `AGENTS/RAV/runs/2026-08-05_roster-phase0-preflight-addendum.md`))*
 
 **Column ownership — put the fact in the owner file and POINT; do not restate.**
 
@@ -30,7 +30,7 @@
 
 **Cadence and authority are separate fields only where they diverge or could mislead** — the qualifying set is marked with an **Authority** column below. Where one label carries both truthfully (the `DOMAIN ACTIVE` bucket), the omission is **deliberate**, not missing.
 
-⚠️ **MIRROR — Will-gated:** this file's active list is mirrored into root `CLAUDE.md:26`, which is **auto-injected fleet-wide**. Any roster-taxonomy change owes that mirror a matching edit, **drafted by PROME and ruled by Will — never applied silently.** This pair has rotted before (WP-W2 read "still open" 9 days past its own closing commit `37ee2748e`; OZK lagged to 7/25). Nav-class mirrors that also need alignment: `AGENTS/_INDEX.md` (canonical roster table) and root `AGENTS.md` (20-row agent table) — navigation surfaces, **not** the same class as auto-injected root canon.
+⚠️ **MIRROR — Will-gated:** this file's active list is mirrored into root `CLAUDE.md:26`, which is **auto-injected fleet-wide**. Any roster-taxonomy change owes that mirror a matching edit, **drafted by PROME and ruled by Will — never applied silently.** This pair has rotted before (WP-W2 read "still open" 9 days past its own closing commit `37ee2748e`; OZK lagged to 7/25). Nav-class mirrors that also need alignment: `AGENTS/_INDEX.md` (canonical roster table) and root `AGENTS.md` (31-row agent table — count corrected 8/6, was mis-stated "20-row" from authoring) — navigation surfaces, **not** the same class as auto-injected root canon.
 
 ---
 
