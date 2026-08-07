@@ -439,6 +439,30 @@ CALIBRATION declined-classes checked first: none declined. Sources fetched: MOF 
 
 ## NEXT RUN HINTS
 
+> ### 🔒 SAM PRE-EDIT — 2026-08-07 ~14:3x ET, AFTER Run 15 returned. **These two supersede the Run-15 hints below.**
+> *Run 15 wrote its hints before SAM ruled on its own escalations, so two of them describe a state that no longer
+> exists. Seeded here because **KOYOMI maintains `CATALYSTS.tsv`** — an un-guarded future sync is the documented
+> way a corrected value gets "restored." (Same vector SAM guarded on 8/4.)*
+>
+> **① BND-11 / PENDING #1 — RULED. The ball is NOT with SAM.** Run-15's hint says *"if SAM sets new terms…"* —
+> **SAM is not setting new single-week terms.** Ruling: the 3-week test is **SPENT/INCONCLUSIVE** and the
+> **single-week form is STOOD DOWN**, because its ≥+¥500B bar sits at **0.49σ** of the weekly series' own
+> dispersion (σ ≈ ¥1.02T, n=26) — inside noise. Fresh single-week terms would repeat the defect. A **4-week
+> rolling-sum** replacement is **proposed to BOND**, and **BOND ratifies** (BND-11 is BOND's gate).
+> **→ Run 16: do NOT add a forward MOF-weekly gate row, and do NOT wait on SAM for terms.** The ≥¥1.5T *stress*
+> line is separate and stays live. Re-open only if BOND ratifies terms and SAM relays them.
+>
+> **② Route-4 "COLD" / PENDING #3 — RULED and PROPAGATED. Do not restore "COLD".** Route 4 is re-rated
+> **COLD → LIVE-but-UNFIRED (~5% → ~7-8%/60d)** on the 8/7 NFP, already written into the **Aug-12 US CPI** and
+> **Sep-16 FOMC** rows in **both** `CALENDAR.md` and `CATALYSTS.tsv`. **⚠️ If a future run sees "COLD" anywhere in
+> the docket, it is a regression — do not treat it as the baseline and do not re-introduce it.** The guard clause
+> must survive verbatim in substance: **not fired — the tripwire is an FOMC walk-back of the Jun-17 dots, not a
+> market repricing.** Both PENDING #1 and #3 may be marked CLOSED at Run 16.
+>
+> **③ Standing, and it applies to every hint in this file:** never hand-carry a percentage, a route weight or a
+> grade forward in a hint. Cite the owning artifact (`workbook/BOJ_OIS.tsv`, `thesis/PREDICTIONS.tsv`, STATUS)
+> and re-read it. Run-15's own ✅-CLEARED entry below is the worked example of why.
+
 - ✅ **CLEARED (Run 15) — the "~77%/~60% unpriced" hint above is now moot.** The Sep-18 BOJ MPM figure has been repriced twice more since it was written (8/4 → ~60%, 8/6 → band ~40-54%) and is now carried as an explicit band in **both** CATALYSTS.tsv and CALENDAR.md (Run 15 also caught that CALENDAR had silently missed the 8/4 correction entirely — fixed this run). **Do not treat this hint as still describing the live figure** — check `workbook/BOJ_OIS.tsv`'s latest `as_of_date` row for the current number every time, never hand-carry a percentage forward in a hint.
 - **⚡ Next run's first job (if after the 3:30 PM ET 8/7 print lands): migrate the CFTC row.** Fri 8/7 (Aug-4 data) is the attribution print AND the pre-registered entry resolver (memo §5B terms: ≤−153K held = CONFIRM/enter · −140K-to−153K = decompose legs · past −140K = DE-LOAD/revert MEDIUM). **Carry the "provisional" caveat's resolution explicitly** — state which way it resolved *against the registered §5B terms*, not just the raw number, or the grade's provenance is lost.
 - **RECENTLY RESOLVED prune eligibility (>7d rule) after Run 15:** the four Jul-31 rows (Tokyo CPI, BOJ MPM, Ueda presser, MOF monthly) + the Jul-31 CFTC row are **exactly 7d as of Run 15 (Aug-7) — NOT pruned this run** (rule is strictly >7d). **They become eligible starting Aug-8.** Also by Aug-8/9, the two new Aug-6 RECENTLY RESOLVED rows (JGB 30Y, MOF weekly) and the Aug-4/Aug-2 rows are all still well within the window — don't touch them yet.
@@ -463,4 +487,5 @@ CALIBRATION declined-classes checked first: none declined. Sources fetched: MOF 
 ### 🛡️ STANDING RUBBER-STAMP GUARD (SAM-owned metric, instituted 2026-07-02 performance review)
 Track **declines-per-10-runs** here. A long streak of 100% acceptance is ambiguous between "well-calibrated proposer" and "rubber-stamping SAM" — the declines are the evidence that adjudication is real. **If 10 consecutive runs pass with zero SAM declines/modifications, the next run's apply pass must include an explicit adversarial read of at least 2 accepted items (write the reasoning here).**
 - Tally as of Run-12: **Run-12 — SAM amended the CFTC-gate CALIBRATION ruling** (kept KOYOMI's row but reversed the prior 'EXCLUDED' stance → active adjudication, not a rubber-stamp). Prior: Jul-10 CFTC gate-row DECLINED (Run-11); TB-in-TSV conflict adjudicated (Run-11); Run-9 CFTC-row retention directive. Streak clock not triggered.
+- **Run-15 (2026-08-07) — recorded honestly AGAINST the guard's purpose: ZERO declines, ZERO modifications to KOYOMI's own edits.** SAM accepted the run as delivered (migrations, prune, OIS band de-staling, the CALENDAR-missed-the-8/4-correction catch) and ruled on the two escalations *on top of* it — **but ruling on an escalation is not a decline**, and counting it as one would be exactly the self-flattery this guard exists to prevent. **Streak: 1 of 10.** *(Mitigating, not exculpating: Run 15 escalated rather than decided on both analytical items, which is the behaviour the spec asks for — there was genuinely little to decline. The guard still counts it.)*
 
