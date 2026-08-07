@@ -20,10 +20,10 @@ LABOR vector → threshold → target agent(s) → priority. Thresholds referenc
 |---|---|---|---|---|
 | T-01 | Initial claims | >250K sustained (4+ wk MA) | CARL, REGINALD | 🔴 |
 | T-02 | Initial claims | >300K single print | REGINALD (all ORANGE banks → RED), HENRY | 🔴 |
-| T-03 | U-3 | ≥4.7% (grade JOINTLY with LFPR — participation-driven moves don't count, L-06) | CARL, HENRY | 🟠 |
-| T-04 | U-3 | ≥5.0% | HENRY (structural bid break), REGINALD | 🔴 |
+| T-03 | **EPOP** *(re-specced 2026-08-07, BD-15)* | **EPOP fell ≥0.3pp over 3 months.** ~~U-3 ≥4.7%~~ — retired: a U-3 LEVEL bar fired in **65.4%** of all months since 1990 and separated recession from non-recession by only **+12.9pp**. The EPOP leg: base **11.7%**, in-recession **64.5%**, out **7.6%** = **+56.9pp**. Population denominator ⇒ immune to the participation artifact | CARL, HENRY | 🟠 |
+| T-04 | **EPOP** *(re-specced 2026-08-07, BD-15)* | **EPOP fell ≥0.5pp over 6 months AND ≥0.3pp over 3 months** (conjunction base-rated JOINTLY, not multiplied: base **8.2%**, in-rec **58.1%**, out **4.4%** = **+53.6pp**). ~~U-3 ≥5.0%~~ retired — it fired in **58.1%** of all months since 1990, separation only **+13.8pp**. Compound chosen over the single 6-month leg because a 🔴 that escalates REGINALD to RED needs the lower false-positive rate (4.4% vs 9.1%) | HENRY (structural bid break), REGINALD | 🔴 |
 | T-05 | NFP | ≥+200K ×3 consecutive (revised series) | FORGE — **Kill A** trigger for bearish labor theses | 🔴 |
-| T-06 | NFP | <100K single print + ≥0.2pp U-3 jump | CARL, REGINALD, HENRY | 🟠 |
+| T-06 | NFP + slack | **NFP <100K AND (U-3 rose ≥0.2pp OR EPOP fell ≥0.3pp over 3 months)** *(re-specced 2026-08-07, BD-15)*. The OR-leg exists because the U-3 leg alone was **blocked two consecutive months** (Jul-2 +57K and Aug-7 −23K, U-3 falling both times on a shrinking labour force). Base **12.1%**, in-rec **71.0%**, out **7.6%** = **+63.3pp** — strictly better than the old spec's 7.8% / 54.8% / 4.2% / +50.7pp on capture **and** separation | CARL, REGINALD, HENRY | 🟠 |
 | T-07 | WARN pipeline | accel >50K/mo cumulative MoM | CARL (consumer conversion), REGINALD (sector-specific) | 🟠 |
 | T-08 | Healthcare NFP | net-negative print (aggregate, not hospital-only) | CARL (consumer discretionary), REGINALD (healthcare REIT exposure) | 🟠 |
 | T-09 | AI-displacement (Challenger AI-cited %) | >40% sustained 2+ months | CARL, HENRY (tech employment concentration) | 🟠 |

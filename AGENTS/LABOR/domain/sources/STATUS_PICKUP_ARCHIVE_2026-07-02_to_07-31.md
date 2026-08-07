@@ -282,3 +282,13 @@ June resolved the bifurcation — into a **deeper freeze on a shrinking labor fo
 | 🔒 **Aug 3–7** | **THE WEEK IS PRE-REGISTERED — SIX prints, one frozen card** → `docket/GRADING_CARD_20260803_to_0807.md` | **Grade off the card, not the tape.** 🔴 **Headline finding, established BEFORE the week: the freeze-thaw check (my own bull-side kill) is INERT for this cluster** — leg 1 needs **≥150K ×2 consecutive** and June is **+57K**, so the pair (Jun, Jul) cannot complete on 8/7 at any July value; **earliest possible fire ~Sep 4.** Legs are therefore pre-committed **individually**: if July NFP ≥150K w/ LFPR flat-or-rising, or hires >5.5M, I say **"leg banked, gate cannot fire"** — a gate that *can't* fire yields **no information**, not a negative result. If **2 of 4** I-1 conditions land (hires >5.3M · NFP ≥150K · ISM ≥50.0 · Challenger AI collapsing), **the freeze thesis is breaking and I say so that week** rather than waiting a month for the formal gate |
 
 | ~**Aug 6** | **Challenger July** | 🆕 **Now double-loaded:** T-09 AI-share re-arm needs >40% ×2 — **and this is the honest re-grade test for vector 5**, which the KFRC counter put AT RISK. AI share <25% or not-#1 → **cut vector 5 to 3** |
+
+## ARCHIVED 2026-08-07 round 14 (C1 cap) — verbatim
+
+
+| **Undated / slow channels** | Q2 earnings: layoff-cohort revenue (LAB-10) + AI-narrative 2nd cycle (LAB-11) · severance exhaustion from the H1 announcement wave → CC/claims conversion · CA/NY UI exhaustion cohort (Aug) | **LOADED — and after LAB-17 ❌ these carry essentially the whole bearish burden**, since every *dated* claims-side channel is now closed |
+
+## ARCHIVED 2026-08-07 round 15 (C1 cap) — verbatim
+
+
+| 🆕 **Challenger July (8/6)** | **33,429** — **lowest monthly total in 2 years**, −27% m/m, −46% YoY; **AI 10,970 = 32.8%, #1 for the 5th straight month**; hiring plans **16,095** (+47% m/m), YTD 107,500 (+25%); tech 9,867 (YTD 149,023, +67%) | ⬇️ level 🔴 AI share. **Card Band B → vector 5 HOLDS at 4** (share persists, does not collapse); **level <40K → vector 2 → 1.** Andrew Challenger, verbatim: *"while AI is shifting the labor market, it is not dismantling it"* |
