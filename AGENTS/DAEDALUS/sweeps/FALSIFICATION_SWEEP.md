@@ -38,3 +38,14 @@
 |---|---|---|---|
 | 2026-07-11 | VIOLET/LIQUID/HENRY/SAM (PROME-directed pilot, pre-registry) | 4/4 agents had falsification-surface rot (see Purpose) | Instances fixed in-session by owners; process ownership → this sweep (registered 7/12) |
 | **2026-08-03** | **RUN #1 (first registered), +2d over cadence.** 32 surfaces / 19 agents, fleet-wide. Solo — fan-out barred by session rules, so detection was **mechanized** (`scripts/falsification_scan.py`, new) | **9 STALE-FLAGGED · 1 UNSTAMPED · 4 WITHDRAWN on read.** F1 REGINALD ×7 per-bank theses 105-125d unbannered (parent + validation doc both correctly bannered — PAT-068 shape) · F2 HENRY validation layer 38d **(recurrence)** · F3 LIQUID pivot log 39d **(recurrence)** · F4 HAWK EXIT_PROTOCOL unstamped · **F5 = the finding, and it is DAEDALUS's: 5 agents (AEOLUS/MIDAS/OSPREY/VULCAN/WATT) have a live thesis and NO falsification surface — all 5 my builds, one blueprint cause.** Instrument found **5 defects in itself** first (all one family) | Packets → REGINALD/HENRY/LIQUID · F4 **held** to the overdue HAWK sunset ruling · F5 → blueprint change + 8/5 ladder question · Full run doc: `runs/2026-08-03_FALSIFICATION_SWEEP_01.md` |
+
+---
+
+## F5 v2 (adopted 2026-08-07, off the Production Review re-reads — apply from run #2)
+
+Run #1's F5 ("live thesis, NO falsification surface" — AEOLUS/MIDAS/OSPREY/VULCAN/WATT) was substantially a **detector artifact**: the scan keyed on kill-tree-shaped *naming* and could not see falsification discipline expressed in local forms — WATT's `EXIT / INVALIDATION` triad (a resolved MISS graded through it), OSPREY's numbered thesis-kill routes (known-defective, owner correctly refusing self-repair pending Will-gated rules asks), AEOLUS's per-channel bidirectional flips (one channel already marked `falsified-direction`), MIDAS's in-thesis "What KILLS v2" block (kill-cond #3 exercised and resolved). Only VULCAN was genuinely rail-less.
+
+**Spec from run #2:**
+1. **F5 v2 predicate = "no surface, OR a surface with no evidenced fire path"** — a surface that has never graded/killed anything and cannot show how it would is flagged; a local-form surface with a resolved falsification through it is NOT.
+2. **New disposition class: `LIVE-DEFECTIVE-ESCALATED`** — a surface the owner found broken and correctly refused to self-repair (amending your own falsifier to be harder to trigger is the self-approval that must not happen). This is *good* behavior; route the pending ruling, never flag the agent.
+3. **"No datable surface" ≠ "no falsification discipline."** The dated-surface gap is real (none of the four local forms is datable-by-inspection — the scan's declared STATUS-embedded coverage gap) and the fix is **extract-and-stamp** (blueprint §4, 8/7): give the existing rail a dated home; author-from-scratch only on genuinely rail-less agents (VULCAN class).

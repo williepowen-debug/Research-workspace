@@ -103,7 +103,7 @@ Shared structural floor; class-specific ceiling. The class also tells you which 
 **Ceiling (L3–L5) by class:**
 | | Market | Utility | Meta |
 |---|---|---|---|
-| **L3** | convergence matrix + exit rules + predictions resolving | role rubric applied consistently | conformance checks run; FLEET_MAP current |
+| **L3** | convergence matrix + exit rules + predictions resolving **+ dated falsification surface** *(8/7, grandfathered — blueprint §4)* | role rubric applied consistently | conformance checks run; FLEET_MAP current |
 | **L4** | TRADE.md feeding proposals; signals flowing | output consumed by others | builds/retirements executed clean; PATTERNS accruing |
 | **L5** | clean closeouts, zero YEYOU flags (**waivable-when-dormant** — Will 7/22, SPEC §5), current | same | same + EVOLUTION roadmap live |
 
