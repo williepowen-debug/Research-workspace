@@ -117,6 +117,41 @@ a scope statement, not a confidence statement — do not read the ~8-9% as measu
 
 ---
 
+## 🔧 AMENDMENT 2 — ~13:1x ET, still PRE-PRINT. Route 4 TRIMMED on the domain owner's read.
+
+**Cause:** LABOR's 8/7 NFP packet (`AGENTS/PROME/inbox/2026-08-07_from-LABOR_nfp-negative-...`, found while
+verifying a dead-path regrow — see below). **LABOR owns US labor; I moved route 4 off a payroll print without
+first reading the domain owner.** Doing so now trims my own mark.
+
+**What the headline hides — composition:**
+
+| | Figure | Why it cuts against my upgrade |
+|---|---|---|
+| NFP −23K | **private +30K · government −53K** | **The private sector ADDED jobs.** Local-government education alone was −50K. A government-driven payroll decline is far weaker evidence for a Fed walk-back than private-sector contraction |
+| U-3 4.1% ↓ | **LFPR 61.4% ↓, labor force −264K** | I flagged the participation mask myself; **LABOR grades it NO-SIGNAL under its own registered rule L-06** — independent confirmation, not an echo |
+| LABOR matrix | **34 → 32/75, cycle low** | The labor domain owner got **less** bearish on this print, not more |
+| LABOR's own policy-side grade | *"first print of the cycle that plausibly clears the raised bar, **not yet sufficient, PROVISIONAL** until the ~Aug 19 minutes"* | The domain owner is **more cautious than I was** |
+
+**LABOR's registered trigger T-06 did NOT fire** — its letter requires *NFP <100K **and** U-3 jump ≥0.2pp*; the
+U-3 leg failed on the shrinking denominator, and LABOR explicitly declined to *"fire on the half that suits me."*
+
+| | Amendment 1 | **Amended** |
+|---|---|---|
+| Route 4 (Fed walk-back) | ~8-9% | **~7-8%** |
+| 60d bucket (fuel-open) | ~29 | **~28-29** |
+
+**Still UP from ~5%** — the registered "labor too firm" blocker did genuinely weaken, the 57% → 43.9% Sep-hike
+repricing is real, and the Sep 15-16 FOMC is in-window. But **+2-3pp, not +3-4pp**, and it travels with LABOR's
+composition caveat attached. ⚠️ **LABOR explicitly scopes the rate-path read OUT of its lane** (routed to
+BOND/HENRY/ORACLE) — so this remains **my** call on **LABOR's** data, and I am not entitled to cite LABOR as
+endorsing a route-4 upgrade.
+
+*(Class: [[feedback_check_domain_owner_before_messaging]] — I marked first and read the owner second. The mark
+survived, smaller. Also [[finding_composition_mask_unmask_discriminator]]: "NFP negative" and "government shed
+53K while private added 30K" are the same print and different evidence.)*
+
+---
+
 ## 🕳️ OPEN THESIS GAP — surfaced by TERRY, and it is LIVE TODAY
 
 TERRY's 007 build packet (§6) flags a **thesis-shaped hole I do not have a branch for**: a path where *"FXY grinds to
