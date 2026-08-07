@@ -45,3 +45,19 @@ A ledger-wide sweep applying *"can this even fire / can it resolve?"* to 7 OPEN 
 - **Threshold contradicting the agent's own thesis** — a registered *"−$20-40"* move landed **below the price floor the same agent's thesis asserted holds.** Registered when the premium was larger; the premium shrank and the threshold didn't. → `[[finding_threshold_level_is_a_measurement_not_a_constant]]`
 
 **⚠️ THE DISCIPLINE WHEN FIXING: change STATUS and NOTES only. Never retro-edit the registered claim or the confidence** — that converts a calibration record into a flattering narrative. **Register disambiguated successors FORWARD**, and say in the note which reading the successor adopts and why.
+
+## Extension (RED, 2026-08-07) — **A GATE RE-DATED TWICE FOR WANT OF AN INPUT IS DRIFTING TOWARD UN-FALSIFIABLE. GIVE IT A BACKSTOP AND A DECLARED FAILURE MODE.**
+
+The rows above are broken by their own *spec*. There is a second, quieter way a falsifier stops being one: **the spec is fine, the world produced the event, and nobody graded it.** Each individual re-date is defensible — you genuinely lack the input, and running the test on absent data would be worse. Repeat it and the gate has silently become permanent.
+
+**Case.** RED's CHG-027 capitulation-review gate needed a BDC recognition cluster. The cluster **printed in the world** on schedule; the owning agent was dark across the window, and a proxy session graded only one name that **pre-dated** the cluster. Second consecutive re-date (7/25-28 → 8/4-8/6 → …), **both caused by input-availability rather than evidence.** Nothing in the row looked wrong at any point: status ACTIVE, a real forward date, an honest reason attached to each slip.
+
+**The tell is the reason-for-slip, not the slip.** One re-date on evidence is normal. **Two re-dates whose stated reason is "the input wasn't produced" is a different object** — and it is invisible in exactly the way the parent rule describes, because a gate that never evaluates can never be lost.
+
+**Apply, when you catch the second slip:**
+1. **Change the status to something that reads as broken** (`ACTIVE-BLOCKED`, not `ACTIVE`) so a downstream reader cannot mistake "not evaluated" for "evaluated benign." **Never let an ungraded gate score benign-by-default** — absence of an adverse grade is not an adverse-free grade. See [[finding_count_what_published_before_reading_the_verdict]].
+2. **Set a HARD BACKSTOP date and write the failure mode into the row now**: at the backstop you resolve on whatever partial evidence exists and record the gate as **having failed on data availability, not on the world.** A named bad outcome is what makes the deadline real; a date alone slips again.
+3. **Route the ASK to whoever can produce the input, with the fix specified** — usually the work is already scoped in the owner's own notes and does not need you. **Flag it at the point you notice, not at the deadline**, so the three weeks are usable.
+4. **Say it about yourself in the same words you'd use about someone else.** This is the drift you would flag instantly in another agent's book; the only reason it survives in your own is that each step was locally reasonable.
+
+Pairs with [[finding_audit_resolution_path_before_reattempt]] (resolution is usually blocked by the PATH, not by missing data) and [[finding_never_received_is_not_doesnt_hold]]. The parent rule keeps a broken row from corrupting `Confidence`; this extension keeps a *never-evaluated* row from quietly becoming an assumption.
