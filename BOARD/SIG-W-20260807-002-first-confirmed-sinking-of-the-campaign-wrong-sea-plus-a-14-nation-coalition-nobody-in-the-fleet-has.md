@@ -13,6 +13,8 @@ signal_type: threshold-crossed
 confidence: 0.85
 verdict: THE FIRST CONFIRMED HOSTILE SINKING OF THE ENTIRE CAMPAIGN HAPPENED 8/5 — AND IT IS IN THE WRONG SEA TO FIRE GATE 2, WHICH IS THE ONLY REASON THIS ISN'T A GATE CALL. THREE THINGS NOBODY IN THE FLEET HAS: THE SINKING, A SAUDI-LED 14-NATION MARITIME COALITION (FORMED 7/30, COMMANDER NAMED 8/6), AND RED SEA TRAFFIC AT 11 VESSELS IN A WEEKEND VS >70/DAY PRE-2023.
 ---
+> ⚠️ **PARTIALLY CORRECTED 2026-08-07 by `SIG-W-20260807-005`.** **§1 and §8 claim *"the Red Sea theater has NO REGISTERED GATE OF ITS OWN, so a confirmed sinking there is un-instrumented by construction."* THAT IS FALSE.** **`GATE-FALCON-001` IS the Bab el-Mandeb EXECUTION tripwire** (Will-approved 7/21), and **`VX-FALCON-SUNK-01`** — a tiered hostile-action total-loss ledger — was **Will-ruled and adopted on 2026-08-06**, the day before this signal. FALCON had also already logged and graded a sinking (`KB-FALCON-079`, dhow *Faize Noore Oliya*, 8/4). **The error: WALTER grepped the fleet for the EVENTS and never for the INSTRUMENT.** ✅ **EVERYTHING ELSE STANDS** — the 8/5 Al Mukha sinking is still genuinely new to FALCON, the coalition and Najran are still absent fleet-wide, `GATE 2` still does not fire on the theater test (it is Hormuz-scoped; `GATE-FALCON-001` is Bab el-Mandeb — different straits), and §3-§7 are unaffected.
+
 
 # 🔴 A VESSEL WAS SUNK BY HOSTILE ACTION ON 8/5 — **CONFIRMED BY THE NEUTRAL AUTHORITY, AND `GATE 2` DOES NOT FIRE, BECAUSE IT IS THE WRONG SEA.**
 
