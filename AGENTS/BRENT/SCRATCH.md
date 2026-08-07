@@ -1,82 +1,79 @@
-# BRENT SCRATCH — Wed Aug 5, 2026 **~19:5x ET** *(stamp corrected 8/6 Will-directed review: this closeout committed 19:59 ET and describes daytime work — the "~03:0x ⏰ date-verified" stamp was carried forward from the overnight RAV-pilot closeout. Numbering note: that overnight session self-labels **session 4** in its own artifacts but its closeout also claimed "session 5" — the RAV pilot = session 4, THIS is session 5)* · **SESSION 5: THE STRUCTURE SESSION — TWO UNEXECUTABLE GATES FIXED, AND THE DOC THAT WAS SUPPOSED TO SHRINK HAD BEEN GROWING**
+# BRENT SCRATCH — Fri Aug 7, 2026 **~19:5x ET** · **SESSION 6: THE ADJUDICATION SESSION — THE BAND HELD AND STOPPED MEANING ANYTHING, AND THE ARM'S GATE WAS NEVER THE CONSTRAINT**
 
 **Purpose:** Ephemeral session handoff — canonical "where are we / what next". Read at boot (step 2), rewritten at closeout (step 11).
 
-> # ⛔ **NO MARKET DATA AFTER THE 8/4 CLOSE. NO THESIS CHANGE. NO POSITION CHANGE. `$0` MOVED.**
-> **Every tape figure in STATUS/NEXUS_BRIEF is an 8/4 close — re-pull at boot (LESSONS #5).**
+> # ✅ **TAPE IS 8/7 CLOSES (markets closed for the weekend). `$0` MOVED. NO GATE FIRED. NO THRESHOLD MOVED. NO POSITION CHANGED. NO PREDICTION RESOLVED.**
 
 ---
 
 ## ⏳ FIRST THING NEXT SESSION
 
-**1. 🟠 TODAY, WED 8/5 10:30 ET — EIA WPSR (wk 7/31).** Pre-registration **FROZEN** (`setups/2026-08-04_EIA-wk0731-prereg.md`) — **do not write to it before the print; grade in the ADDENDUM only.** ⚠️ **The cloud routine already ran ~11:31 and CORRECTLY graded nothing** — all sources still capped at wk-7/24 because the print had not happened. **That is a non-event, not a miss.**
-
-**2. 🔴 DO *NOT* RE-SURFACE THE DEPLOY.** Will declined 8/4 eve, **STANDING**. v3's legs re-clearing is **not new state**. What I own is the **8/13 arm-expiry disposition**.
-
-**3. 🔴 FRI 8/7 — COT as-of 8/4.** Ladder from **101,016**. **Raw `f_disagg.txt`, NOT Socrata. MUST NOT STACK.**
+**1. 🔴 THU 8/13 — ARM DISPOSITION IS DUE TO WILL.** Memo is written and delivered (`outbox/2026-08-07_to-PROME_cot-adjudication-arm-disposition.md` §②). **Recommendation: RETIRE, lean ~70%.** **If Will has not ruled by 8/13, put it to him directly — do NOT let it lapse silently, which is the exact failure the expiry row exists to stop.**
+**2. 🔴 DO *NOT* RE-SURFACE THE DEPLOY.** Will declined 8/4 eve, **STANDING.** v3's legs cleared on **5 of the last 5 sessions** and that is **not** new state. **The only live question is retire-vs-re-arm.**
+**3. 🔴 FRI ~8/14 — COT as-of 8/11. THE MOST IMPORTANT PRINT OF THE CYCLE SO FAR**, for two independent reasons: it is the **first post-8/6-escalation positioning read**, and it is the print that **settles the band coin-flip** (see below). **Ladder from 102,560. Raw `f_disagg.txt`, code `067651`. MUST NOT STACK.**
+**4. 🟠 Wed 8/12 — FALCON co-belligerency FALSIFIER decision date** (registered 7/30).
 
 ## ★ THE SESSION IN FOUR LINES
 
-**Reconciled** the shipped RAV pilot against RAV's own plan → found **two stale ownership pointers** it left behind and that its headline metric measured **enrollment, not consolidation**.
-**Fixed two gates that could not be executed** — `GATE-V3-A2` (my own check's false red) and **Stage-A Leg T** (real, Will-ruled → v6). **Blocking 7 → 5; zero window-infeasible rows remain.**
-**Measured the thing nobody had measured:** the pilot whose goal was *"flatten boot"* had left `CLAUDE.md` **bigger**. ⇒ **split the operating docs from [`RULINGS.md`](RULINGS.md)**, and **folded v2 into v3** so the live gate is one spec, not a delta.
-**Hot context 317 KB → 300 KB. Nothing deleted — moved out of boot context.**
+**Graded the COT off my own primary pull and FUEL SPENT HELD — then measured the margin and found the verdict is now noise.** Clears by **1,512** against a **9,264** median weekly move; **P(a week adds ≥+1,513) = 48.4%**. **The band survived and stopped being an instrument in the same session.**
+**Drafted the arm disposition and the argument turned out not to be about the gate at all:** legs (a)+(a2) cleared **5 of 5** sessions and it still didn't fire ⇒ **the constraint was never the gate.** Recommendation **RETIRE**.
+**Unblocked and graded the thesis falsifier** — PortWatch healed upstream, I re-verified it myself, `KILL-LEG2-TRANSIT` = **NOT FALSIFIED** (window max 6 vs a >35 bar). **Blocking 6 → 5.**
+**Drained the inbox to ZERO** (7 items) including the DM's two obligations **6 days early** — and **corrected PROME's diagnosis while adopting its conclusion** on the USO basis.
 
 ## CHANGES SINCE LAST SESSION
 
-- **✅ OVX 8/4 CLOSE CONFIRMED TWO-WITNESS: FRED `OVXCLS` published 53.45** — exactly my figure. **PROME's 53.08 was the open/high of the 15:30 5m bar**, i.e. an intraday print quoted as a close. **Conflict RESOLVED, not smoothed.**
-- **✅ STAGE-A LEG T v6 — WILL-RULED.** v5 graded day-0 **close-to-close** while sizing fires **tranche 1 on day 0** ⇒ **zero-minute window**, the DEPLOY GATE v2 defect in a second ratified gate. **Now: prior close → live print, graded ONCE at/after 14:00 ET. Window 120 min.** Threshold 1.0%, composite and sign-discarding **unchanged**.
-- **✅ DEPLOY GATE v2 FOLDED INTO v3.** The live gate was written as a *delta* on v2 — reading it meant applying a patch mentally. **Now one self-contained block, 73 → 40 lines.**
-- **✅ OPERATING DOCS SPLIT FROM THE RECORD.** `CLAUDE.md` 252 → 237 ln, **38.9 → 30.2 KB (−22%, below the pre-pilot baseline for the first time)**. `TRADE.md` 688 → 651 ln.
-- **⚠️ INFRA, from my own cloud routine:** it found a **stale local master in detached HEAD, 50-commit divergence from origin with NO common ancestor**, and repointed it. No data lost, flagged to PROME. **Worth knowing — that state silently makes an agent work against a phantom repo.**
+- **🔴 8/6 RE-ESCALATION — the biggest new state since the 8/4 decline: Iranian-parliament Hormuz toll/blockade draft; Brent +3.83%, OVX +11.38%.** ⚠️ **It did NOT re-ratchet the OVX peak** — 57.34 close is **−16.9% below 68.97**, 11.63 points short. **That is the single most load-bearing fact in the retire recommendation.**
+- **✅ PortWatch `chokepoint6` HEALED UPSTREAM** (backfilled through 8/2 on its own; the 7/23 stall was an IMF partition lag, not a query defect on either side). **13-day blocker cleared.**
+- **✅ FRED `OVXCLS` 8/4 = 53.45, my figure exactly** — the carried single-witness item is CLOSED, and 8/5 (51.48) / 8/6 (57.34) are now two-witness too.
+- **✅ TERRY corrected my "graded 5× with four verdicts"** — impossible on a PASS/FAIL test; it is **2 FAILs / 3 PASSes**, and the wording was inherited from TERRY's own rule. **T1 unaffected.**
+- **✅ PROME ruled my detached-HEAD report: SHALLOW-CLONE FALSE FORK**, no upstream rewrite, my fix was right.
 
 ## WHAT I DID
 
-**① RECONCILED THE SHIPPED PILOT AGAINST RAV'S PLAN** (WP-by-WP; WP0 had never been done → wrote `workbook/PILOT_STATE_REPLACEMENT_MEASUREMENT.md` from git, not memory).
-**② ⛔ FOUND RAV'S RISK #1 REALIZED — IN THE OWNERSHIP *CLAIMS*, NOT THE DATA.** `CLAUDE.md` and `thresholds.py` both still named THESIS canonical 4 days after the pilot moved the machine home. **Both were CORRECT WHEN WRITTEN** (F3, 7/31) — **F3 fixed the question once, the pilot moved the answer, nothing re-asked it. A stale pointer with a citation defends itself.** → `[[finding_ownership_claim_is_last_to_move]]`
-**③ ⛔ MY OWN HEADLINE METRIC MEASURED THE FLATTERING THING** — *"coverage 15 → 46"* counted **enrollment**, not migration. **10 of 47 rows have no machine-readable level**; **`eia_weekly.py` is a FOURTH threshold home the pilot never touched** (2 hardcodes fired red at boot; refinery util has **no registry row at all**).
-**④ FIXED THE `GATE-V3-A2` FALSE RED** — added a **reading basis** (`:final` / `:any` / `:atHHMM`) to `window_req`; bare = `:final`, **fail-safe**, so the loosening must be declared per row. **Falsified 7/7** — the ORIGINAL v2 defect still fires, so the check was **not** weakened.
-**⑤ LEG T v6 — and the OBVIOUS fix was REFUTED before I proposed it.** A naive live-at-the-ticket `T` **BLOCKS Jun-17, the one analogue that made money, at 4 of 6 morning checks.** ★ **`T` is a MAGNITUDE THAT GROWS THROUGH THE SESSION ⇒ a full-session threshold is systematically too high at any partial-session moment — a UNITS MISMATCH, not a level to re-tune.** **66.1% of sessions flip the verdict intraday** ⇒ tightening **T1 (one grade only)** is forced by data, not caution; **T2** keeps the close basis binding on tranche 2.
-**⑥ MEASURED THE ACCUMULATION AND SPLIT THE DOCS.** ★ **The retirement ratchet governs STATE and says nothing about PROSE** — so specs get replaced while the prose *about* each replacement accumulates. → `[[finding_anti_ratchet_governs_state_not_prose]]`
-**⑦ NOTIFIED THE OWNERS:** TERRY (Leg T v6 changes its ticket rail; T1 binds it at the moment of grading) · PROME (proposal of record, marked RULED).
+**① COT AS-OF 8/4 GRADED OFF MY OWN RAW `f_disagg.txt`** (code `067651`, report-date in-row, totals reconcile exactly; Socrata agrees; **7/7 anchor unrevised**). **Shorts 101,016 → 102,560; cumulative −26,512 ≤ −25,000 ⇒ ✅ FUEL SPENT HOLDS; fuller-size branch stays live.** PROME's relay reproduced **exactly** on every figure.
+**② ⛔ AND THE VERDICT IS WORTH LESS THAN THE MARGIN THAT PRODUCED IT.** Clears by **1,512** vs a **median 9,264** weekly move = **16% of one ordinary week**. **P(week adds ≥+1,513) = 77/159 = 48.4% all-history, 26/52 = 50.0% last year.** ⇒ **a coin flip to invert at the next print, on noise alone.** `[[finding_effect_below_instrument_detection_floor]]`
+**③ NAMED A SPEC GAP AND DID NOT FIX IT (zero new thresholds without Will):** the modifier is **one-way with no ratchet** — it can un-fire and **no rule says what happens then.** Put to Will.
+**④ ARM DISPOSITION DRAFTED — RETIRE (~70%).** ★ **The gate was never the constraint** (5-of-5 clears, no fire) · the strongest new event **failed the re-arm bar by 11.63 OVX points** · OVX **−19.1%** over the arm's life ⇒ **fillability improved, evidence did not** · **N_eff ≈ 1** on 5 expressions / $5,131. **Proposed R1/R2/R3 re-arm conditions — Will-gated, NOTHING registered.** ⛔ **Explicitly excluded: the clock and a cheap entry.**
+**⑤ FALSIFIER UNBLOCKED AND GRADED** — re-verified FALCON's backfill on my own FeatureServer pull (all 7 dates exact), **`KILL-LEG2-TRANSIT` NOT FALSIFIED** (max 6 = 17.1% of the bar; deepening not recovering). `last_verified` 7/23 → 8/2.
+**⑥ INBOX → ZERO, 7 items, 7 ledger rows.** DM's **both obligations INTEGRATED 6 days early**: **XLE DEMOTED** (three sessions both directions + the six-week −78.5% realized test, not PROME's one-day 12%) · **static Brent→USO conversion RULED NOT ADEQUATE** — and **I corrected PROME's causal diagnosis while adopting its conclusion: the Brent-WTI basis is second-order and today points the OTHER WAY ($5.19 WIDER than 8/3's $3.83, yet the ratio ROSE); the first-order term is USO's ROLL YIELD in backwardation.**
+**⑦ LEG T `1.63` vs `1.68` RULED BY RE-DERIVATION** — daily bars reproduce **1.630%** to three decimals ⇒ **1.63 = daily-close = the calibration anchor; 1.68 = 5m-bar last print.** **Two instruments, not two answers. Both retained, both labelled.**
 
 ## NEXT SESSION (dated, future-verifiable)
 
-1. 🟠 **Wed 8/5 10:30 EIA** — addendum only · **Fri 8/7 COT**, ladder 101,016, no stacking.
-2. 🟠 **Retire the 3 unmeasurable rows that are MINE** — `STAGE-A-AIS` (no instrument, never existed) · `HY-ENERGY-OAS` (no free feed, fleet-wide dark) · `WAR-RISK-HALVES` (no feed AND no anchor). **Blocking 5 → 2.** *A permanent red is decoration.* **PortWatch (FALCON) and EU storage (Will's GIE key) are the only two genuinely pending someone else.**
-3. 🟠 **Close the WP3 residual (Will's call, put to him 8/5):** either make `eia_weekly.py` a registry consumer and move the 6 orphaned levels in, **or narrow the registry header's "EVERY registered test" claim** to what actually shipped. **Doing neither leaves an over-claiming single-source-of-truth banner.**
-4. 🟡 **`TRADE.md` still has interleaved dated blocks** (the 8/3 disclosure instance, the resolved behavioral test at ~342). **They need HEADINGS introduced before extraction is safe** — live plan content resumes mid-block with no boundary. Smaller job now the gate is clean.
-5. 🟡 **NEXUS_BRIEF VIEW + CALIBRATION still stale** (`VIX 19.7` / `OVX 70.27` vs 8/4's 16.50 / 53.45) — **content pass owed; compression rides with it, not before it.**
-6. 🟠 **`INCIDENTS.tsv` scope ruling** — 6 days stale, 3–4 vessel strikes unlogged; RF-043 logs an FSRU under a "facility-only" scope that therefore contradicts itself.
-7. 🟡 **5 predictions structurally unresolvable** (BRT-07/12/16/17/21), invisible to the due-scan by construction. Register successors FORWARD.
-8. 🟡 **SPR "floor" candidate:** **252.4M** (THESIS, §6241 statutory) vs **400.0** (`eia_weekly.py`, "near operational floor"). **147.6M under one word.** May be two legitimate objects — **read the rationale, do not find-and-replace.**
+1. 🔴 **8/13 arm disposition to Will** · 🔴 **~8/14 COT as-of 8/11, ladder from 102,560, no stacking** · 🟠 **8/12 FALCON falsifier date.**
+2. 🟠 **RETIRE the 3 `NO_INSTRUMENT` rows that are MINE** — `STAGE-A-AIS` · `HY-ENERGY-OAS` · `WAR-RISK-HALVES`. **Blocking 5 → 2. THIRD CARRY — do it or say why not.** *A permanent red is decoration.*
+3. 🟠 **Fix the `http:`-probe blind spot properly:** `instrument_check` reads `http:` freshness from `last_verified` **by design** (PortWatch serves clean 200s on a stale partition) ⇒ **a HEALED source stays red until a human re-stamps.** Boot said "15d stale" on 8/7 for a series that recovered ~8/3. **Correct fix: probe the FeatureServer query path, not the dataset page.** *(Retirement ratchet: this EXTENDS `probe_http`, supersedes nothing.)*
+4. 🟠 **`GATE-V3-B` stale-stamp** — deliberately NOT re-stamped (a bare bump on an ungraded chain violates C6). It clears when the gate is graded at a fire, or when the arm retires. **If the arm retires 8/13, this row retires with it.**
+5. 🟠 **`INCIDENTS.tsv` scope ruling** — now **9 days** stale; Minoan Pioneer (8/4), GasLog Shanghai (8/1), Velos Amber (8/3) unlogged; RF-043 logs an FSRU under a facility-only scope that therefore contradicts itself.
+6. 🟡 **NEXUS_BRIEF VIEW + CALIBRATION content pass** still owed; compression rides with it, not before it.
+7. 🟡 **5 predictions structurally unresolvable** (BRT-07/12/16/17/21) — register successors FORWARD.
+8. 🟡 **SPR "floor" candidate: 252.4M (THESIS, §6241 statutory) vs 400.0 (`eia_weekly.py`).** 147.6M under one word. **Read the rationale, do not find-and-replace.**
+9. 🟡 **WP3 residual** (Will's call): make `eia_weekly.py` a registry consumer, or narrow the registry header's "EVERY registered test" claim.
 
 ## OPEN THREADS / WATCHES
 
-- 🔴 **PortWatch `chokepoint6` dead since 7/23 (13d) — still BLOCKING the thesis falsifier. FALCON has not answered.**
-- 🔴 **n=0 genuine physical reopenings — real-vs-fake UNCALIBRATED.** Every Stage-A number is fitted to a sample containing **no instance of the event the playbook exists to trade.**
-- ⚠️ **QC WARNING FOR RAV:** `instrument_check --quick` **cannot detect `WINDOW_INFEASIBLE`** (it skips intraday pulls) — the flagship class. **Compare full-to-full, never quick-to-full.**
-- ⚠️ **Leg T v6 limits that must travel:** n=1 analogue intraday (**Apr-17 cannot be re-run**, 5m history starts 5/11) · **14:00 is NOT empirically better than 15:00** (2 vs 5 sessions at n=59) · every intraday grading time carries a **3–9% false-pass**.
-- ⚠️ **TERRY's sizing note:** any future tranche sizes on top of **$4,058 of LINEAR USO = 11.6% of the account, no defined risk on the largest leg.**
-- 🟠 Diesel crack card `NO AT THIS PRICE` · Velos Amber vs UKMTO 103-26 **still unreconciled** · **46 routine-authored commits unaudited**.
+- 🔴 **THE COT BAND IS NOW NOISE-DOMINATED.** ~50% chance the 8/11 print inverts the verdict on nothing. **Two questions with Will: does the fuller-size branch REVERT on un-fire, or is it latched? And is a band with a 16%-of-one-week margin worth grading at all?**
+- 🔴 **n=0 genuine physical reopenings — real-vs-fake still UNCALIBRATED.** Every Stage-A number is fitted to a sample containing no instance of the event the playbook exists to trade.
+- ⚠️ **LEG T'S UNITS MISMATCH IS NAMED BUT NOT CLOSED** — v6 grades a LIVE PRINT against a threshold calibrated on DAILY CLOSES. **93.2% agreement (n=59) is what bounds it; re-check that number if the gate ever fires.**
+- ⚠️ **FALCON's structural caveat retained:** PortWatch's **5-8d publication lag eats ~half a 10-td kill window even when healthy.** And Marsh Hormuz hull premium is still **7.5-10% (7/22)** with **no downtick through the deal-pricing week** = a non-confirmation of normalisation. *(Trap: the beinsure "12× premiums" item ranks fresh and is **16 MAR 2026**.)*
+- ⚠️ **TERRY's FXY corollary adopted:** when a leg is chosen on liquidity, **the OI half is structural and may be quoted ahead; the SPREAD half is a moment property and must be re-pulled at the ticket.**
+- 🟠 Velos Amber vs UKMTO 103-26 **still unreconciled** · diesel crack card `NO AT THIS PRICE` · **46 routine-authored commits unaudited.**
 
 ## POSITION DECISIONS PENDING
 
-- **NONE REQUIRING ACTION. `$0` at risk from this arm.** Convex arm **ARMED, NOT deployed, DECLINED (standing)**; expires **8/13**.
+- **NONE REQUIRING ACTION. `$0` at risk from this arm.** Convex arm **ARMED, NOT deployed, DECLINED (standing)**; **expires 8/13; disposition recommendation = RETIRE, with Will.**
 - **★ THE REAL RISK IS UNCHANGED AND UNDEFENDED: USO 35 shares ≈ $4,058 = 11.6% of the account, linear, no defined risk.** Not a trim recommendation (root rule #7 — thesis intact), but that is where the exposure actually sits.
-- **5 live oil expressions, ~$5,131** `[broker-verified 8/4]`. **USO Oct-16 135C ×2** HELD −36.0% · **USO Sep-18 150/165** HOLD (~29% OTM, effectively a lapse) · **XLE Sep-30 65C ×2** LAPSE −78.5%. ⛔ **STNG is a TRACKED TICKER, not a holding.**
+- **5 live oil expressions, ~$5,131** `[broker-verified 8/4]`. **USO Oct-16 135C ×2** · **USO Sep-18 150/165** (~29% OTM, effectively a lapse) · **XLE Sep-30 65C ×2 −78.5% — now formally DEMOTED as a vehicle class, not just as a position.** ⛔ **STNG is a TRACKED TICKER, not a holding.**
 
 ## MAIL STATE
 
-- **INBOX: 1** — `MSG-PROME-20260803-003` (2 obligations, **ACCEPTED, due 8/13**, correctly retained, not consumed this session).
-- **SENT (3):** → PROME (Leg T proposal, **marked RULED**, swept to `outbox/delivered/`) · → TERRY (Leg T v6 execution rail) · PROME inbox copy annotated RULED.
-- **Outbox: 2** — the 7/31 boot/closeout audits, loops **not** demonstrably closed (pending PROME round-2) ⇒ correctly left top-level.
-- **Owed TO me:** **FALCON on PortWatch** (blocking) · **Will: GIE key**, the war-risk-halves ruling, the WP3 call, **8/13 disposition**.
+- **✅ INBOX: 0.** All 7 processed 8/7 (5 acted / 2 noted); **7 files moved == 7 ledger rows.** DM receipts filed via `msg.py`, message re-validated **0 errors**.
+- **SENT (1):** → PROME, `2026-08-07_to-PROME_cot-adjudication-arm-disposition.md` (the session deliverable).
+- **Outbox: 3** — the 7/31 boot/closeout audits (loops not demonstrably closed, correctly left top-level) + tonight's memo.
+- **Owed TO me:** **Will — the 8/13 arm disposition · the GIE/AGSI+ key · the war-risk-halves ruling · the WP3 call · the FORGE fill-price reconcile on the Sep-18 150/165 (open since 7/24, now 14 days).**
 
 ## WORKBOOK HEALTH
 
-- **LIVE:** `TRADE.md` (**651 ln** — GATE v3 self-contained, Leg T v6, positions correct) · STATUS (**246 ln**, inside the 250 cap) · **`RULINGS.md` (NEW, 152 ln — the dated record, NOT boot-read)** · `workbook/REGISTRY.tsv` (47 rows; ⚠️ **10 with no machine-readable level**) · `PILOT_STATE_REPLACEMENT_MEASUREMENT.md` · THESIS v5.4 · TRACKER · board_log · SCRATCH.
-- ⚠️ **`NEXUS_BRIEF.md` over its 100-ln cap** — deliberately not compressed; the schema compresses upward from VIEW, which is the section flagged as needing re-verification. **Compression rides with the content pass.**
-- **HOT CONTEXT: 317 KB → 300 KB.** `CLAUDE.md` **38.9 → 30.2 KB**; BOOT section 43 → 31 ln, rationale 18 → 7, **human actions unchanged at 9**.
-- **Boot 58.1s, 6 checks.** Lesson-conflict **0** · prose/index drift **0** · predictions-due clean · **Instrument Check FINDINGS, 5 blocking (was 7) — every red removed was a FALSE one.**
-- **GIT:** 6 commits this session, path-scoped, all pushed (one routine rebase, verified by subject + against origin). **2 auto-memories created** (carve-out ③, self-committed).
+- **LIVE:** `TRADE.md` · `STATUS.md` (**249 ln, inside the 250 cap** — 2 banners archived to `workbook/STATUS_archive_20260807_aug02_1715.md` to hold it) · `RULINGS.md` · `workbook/REGISTRY.tsv` (⚠️ **10 rows still with no machine-readable level**) · THESIS v5.4 · TRACKER · board_log · SCRATCH.
+- **Boot 18.1s, 6 checks.** Lesson-conflict **0** · prose/index drift **0** · predictions-due clean · **Instrument Check FINDINGS, 6 blocking at boot → 5 after this session's PortWatch clear.**
+- ⚠️ **`NEXUS_BRIEF.md` still over its 100-ln cap** — content pass owed; compression rides with it.
