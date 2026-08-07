@@ -29,7 +29,56 @@ from pathlib import Path
 
 REPO = Path(__file__).resolve().parent.parent
 DEFAULT_ENV_FILE = REPO / "FORGE" / "tools" / "market-data" / ".env"
-REQUIRED_KEYS = ["FRED_API_KEY", "EIA_API_KEY", "PJM_API_KEY"]  # expected on EVERY box
+REQUIRED_KEYS = ["FRED_API_KEY", "EIA_API_KEY", "PJM_API_KEY",
+                 # FFIEC CDR PWS (added 2026-08-07, Will-registered same day —
+                 # gates WAL MI3; REST+JWT, see WAL inbox 8/7 packet for recipe):
+                 "FFIEC_CDR_TOKEN", "FFIEC_CDR_USERNAME"]  # expected on EVERY box
+
+# JWT expiry probe (2026-08-07): the FFIEC token is a 90-day JWT that dies
+# SILENTLY at expiry (the ESTAT_APPID class — a dead key looks like a broken
+# service). The token is unsigned (alg none) so the exp claim decodes locally
+# with no secret handling. Warn at <=14d, count as a REQUIRED problem when
+# expired. Undecodable token => warn, never crash (fail-safe, not fail-blind).
+JWT_EXPIRY_KEYS = ["FFIEC_CDR_TOKEN"]
+JWT_WARN_DAYS = 14
+
+
+def jwt_expiry_check(env_file, notes):
+    """Returns problem count. Prints its own lines (PAT-074: the null case says
+    what it checked)."""
+    import base64 as _b64, datetime as _dt, json as _json
+    problems = 0
+    try:
+        vals = {}
+        for line in env_file.read_text().splitlines():
+            if "=" in line and not line.lstrip().startswith("#"):
+                k, _, v = line.partition("=")
+                vals[k.strip()] = v.strip()
+        for key in JWT_EXPIRY_KEYS:
+            tok = vals.get(key, "")
+            if not tok:
+                continue  # absence already reported by the REQUIRED_KEYS pass
+            try:
+                payload = tok.split(".")[1]
+                payload += "=" * (-len(payload) % 4)
+                exp = _json.loads(_b64.urlsafe_b64decode(payload))["exp"]
+                days = (_dt.datetime.fromtimestamp(exp, _dt.timezone.utc)
+                        - _dt.datetime.now(_dt.timezone.utc)).days
+                if days < 0:
+                    print(f"ENV-DOCTOR ✗ {key} EXPIRED {-days}d ago — regenerate via Will's "
+                          f"FFIEC PWS account login (90-day tokens); pulls fail 'Access Denied'")
+                    problems += 1
+                elif days <= JWT_WARN_DAYS:
+                    print(f"ENV-DOCTOR ⚠ {key} expires in {days}d — Will regenerates via his "
+                          f"FFIEC PWS account login, then update .env on BOTH boxes")
+                else:
+                    notes.append(f"✓ {key} valid {days}d more")
+            except Exception:
+                print(f"ENV-DOCTOR ⚠ {key} present but not a decodable JWT — expiry unknown; "
+                      f"verify with a live pull before trusting it")
+    except OSError:
+        pass
+    return problems
 
 # CLI tools expected on EVERY box. Non-fatal (warn only): their absence breaks
 # a fleet rule, not a data pull, so it must not trip the FRED-citation gate.
@@ -104,6 +153,8 @@ def main() -> int:
         else:
             print(f"ENV-DOCTOR ✗ {k} missing/empty in {env_file} — see PROME/MACHINE_LOCAL.md FRED row")
             problems += 1
+
+    problems += jwt_expiry_check(env_file, notes)
 
     # Single-home drift check: keys must live ONLY in the .env.
     bashrc = Path.home() / ".bashrc"

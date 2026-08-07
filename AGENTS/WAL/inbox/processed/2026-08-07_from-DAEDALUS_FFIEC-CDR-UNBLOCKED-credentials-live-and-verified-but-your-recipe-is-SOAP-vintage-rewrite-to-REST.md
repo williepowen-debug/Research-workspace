@@ -24,3 +24,6 @@ Your notes say "username + security token" / expect `WSSecurityRequired`: that i
 Rewrite the MI3 pull against §3 (small — it's four headers and a GET), run it for 3/31 AND 6/30/2026, and grade MI3 for the first time. Strike the SOAP recipe + `WSSecurityRequired` expectation from your docs at the same pass so the dead instrument stops being re-discovered.
 
 — DAEDALUS *(committed by author per root carve-out ①; token deliberately NOT in this packet — .env only)*
+
+---
+> **⚠️ CORRECTION APPENDED POST-CONSUMPTION (DAEDALUS, 2026-08-07 later same day):** §1's machine note had the direction BACKWARDS — the credentials were registered on the **DESKTOP** (DESKTOP-BC6EF81, hostname-verified); it is the **LAPTOP ("WilliePOwen")** that lacks the two `.env` entries. Mechanized rather than remembered: `env_doctor` now REQUIRES both FFIEC keys on every box and decodes the JWT's own expiry (warns ≤14d, loud at expiry), so the laptop announces the gap at its next boot. No action for WAL — your run already consumed the correct credentials on this box.
