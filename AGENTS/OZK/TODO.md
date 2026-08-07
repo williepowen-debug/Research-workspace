@@ -24,7 +24,7 @@ First-ever 10-Q primary read. Findings → KB-210 (debt-on-debt), KB-211 (collat
 | # | Proposal | Owner of the call | Blocked on |
 |---|---|---|---|
 | **P-OZK-1** | Re-base MI3 to `RCON2746 ÷ (item 4 + item 9)`, or keep item 4 and document it as a structurally non-overlapping basis | REGINALD (owns the ML-REG screen) | REGINALD's screen re-run |
-| **P-OZK-2** | Disposition of the "**37.6% / worst in screen / ML-REG baseline**" line, live in **4 surfaces** incl. root `CLAUDE.md` | Will + REGINALD | ditto — **one figure, one owner**; deliberately NOT corrected unilaterally |
+| **P-OZK-2** | Disposition of the "**37.6% / worst in screen / ML-REG baseline**" line, live in **4 OZK-local surfaces** (`AGENTS/OZK/CLAUDE.md:16` + §DOMAIN SCOPE, `LESSONS.md`, `STATUS.md`, `THESIS.md`) | Will + REGINALD | ditto — **one figure, one owner**; deliberately NOT corrected unilaterally. *(⚠️ 8/7: originally logged as "incl. root `CLAUDE.md`" — wrong, root has zero hits; PROME grep-corrected. **Lower urgency than first reported**, no fleet-doc exposure.)* |
 | **P-OZK-4** | Re-specify THESIS kill-§1 on a bucket-invariant measure (30-89 + nonaccrual + OREO) instead of the transit bucket | **Will** (threshold change) | Will's ruling; criterion text left verbatim |
 | **P-OZK-5** | Fix **OZK-03**'s scope slippage — written on *RESG-segment* NCO, tracked on *bank-wide* NCO, and **no filing carries a RESG NCO rate** | **Will / PROME** (live frame wording) | resolves Feb-2027 — fix EARLY, not at the grade |
 | *(P-OZK-3)* | Route the debt-on-debt charge-off datum to BROCK as **UNATTRIBUTED** — not a grade of their flip (a) | BROCK | ✅ **done** — outbox signal written |
