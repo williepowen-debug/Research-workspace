@@ -1,5 +1,40 @@
 # MIDAS — SCRATCH (next-session pickup)
 
+**2026-08-07 GOLD-RISE ADJUDICATION SESSION (PROME-spawned, Will in-session, ~19:2x-20:0x ET, mkts CLOSED).** Woke after a **15-day dark gap** (last real session 7/23) on WALTER's `SIG-W-20260807-004`. Adjudicated the nascent M1 watch, refreshed all four channels, drained 8 inbox items, found and fixed a defect in my own instrument.
+
+**🔴 M1 v2 KILL-CONDITION #3 = FIRED. MIDAS's first fired kill-condition (fired-count 0/4 -> 1/4).**
+Registered spec (THESIS.md:51, frozen): *gold rises through RISING real yields sustained 3+ weeks*.
+**Window 7/17 -> 8/7 = exactly 3wk: DFII10 2.31 -> 2.43 (+12bp), cycle high 2.47 [7/31]; gold $4,012.70 -> $4,401.30 (+9.68%).**
+- **Leg A (7/17->7/31):** yields **+16bp to a 2.47 cycle high**, gold *still* +0.9% = textbook DIVERGE, mild.
+- **Leg B (7/31->8/7):** yields **-4bp**, gold **+8.70%**. Arguable as CONVERGE until magnitude: **beta -0.0513%/bp (R^2=0.023, n=647 daily 2024-01->2026-08)** => +8.70% needs **-170bp**; -4bp explains **~2.4%**.
+- **8/7 NFP day (-23K):** nominal **-1bp** (^TNX 4.67->4.66), breakeven **-1bp** (T10YIE 2.26->2.25) => **real yield ~FLAT**, gold **+3.76%**. The "payrolls miss -> yields fell -> gold rose" story is **refuted by the tape**. Not breakevens either: **T10YIE FELL 3bp** (2.28 [7/31] -> 2.25 [8/7]) while gold rose 8.7%.
+- **Grade 3 🟠**, conservative end of the registered "3-4" band. Composite **6/20 -> 7/20**. Escalated **BOND + LIQUID** (packets sent).
+
+**🔧 INSTRUMENT DEFECT — self-found, fixed, and the session's sharpest process finding.** `metals_watch.py` returned **rc=0 "CONVERGE"** at boot *while the registered test was firing*. Its M1 window is a **fixed trailing ~90d** anchored 4/10 (gold $4,761.90): a 3-week decoupling at the window's end is invisible at 4x the detection width — a false negative in the exact trigger the 7/17 polarity flip made the script exist for. **Added leg 5b (registered 3-week window), wired into rc; NOT a new threshold** (3+wk is the already-registered Will-approved spec — the instrument just didn't match it). **Now returns rc=1**, independently reproducing my hand grade. Both windows print; the disagreement IS the finding. -> KB-031, **L-11**.
+
+**⚠️ LABEL CORRECTION I OWED UPWARD:** I'd been relaying **"DFII10 new SERIES high"** (from BOND, also carried by RED) since 7/17. **Wrong.** Full-series pull (n=5,752, 2003->2026-08-06): all-time **3.15 [2008-11-21]**, post-2020 **2.52 [2023-10-25]**, post-2024 **2.47 [2026-07-31]**. So 2.47 = a **~2.75-year high**, not a series high; nor were 2.36/2.37. Routed to **BOND** (owner) noting RED carries it. **Does NOT change the M1 verdict** (grade turns on direction+magnitude, not the label) -> KB-030.
+
+**BROAD BID, NOT HAVEN FLIGHT (independent corroboration, no real-yield input):** **GSR FELL** 71.46 [7/17] -> **68.99** [8/7]; silver **+10.4%** vs gold +8.8% since 7/23 — in a risk-off bid silver LAGS and GSR RISES. **8/4: Pt +8.0%, Pd +8.4%, silver +4.1%, gold +1.5% in one session.** A fear bid does not lift platinum 8% in a day. **DXY 99.60 [8/7], falling from 101.51 [7/27].** Flagged to LIQUID *explicitly so it is not consumed as a risk-off datum*; EndGame gold leg still **NOT a confirm** (needs DXY squeeze UP >102-103). -> KB-032.
+
+**Marks — 8/7 CLOSES (mkts closed):** gold **$4,401.30** · silver **$63.80** · copper **$6.59** · Pt **$1,757.40** · Pd **$1,383.00** · **GSR 68.99** · DFII10 **2.43 [8/6]** (cycle high 2.47 [7/31]) · **LME Cu 226,650t [8/6] = -9.2% vs 2yr median** (CROSSED BELOW; was +16.4% on 7/22), -43.7% off the Apr peak.
+
+**Matrix: M1 2->3 🟠 (only move, on its registered trigger). M2 1 ⚪ · I1 1 ⚪ · I2 2 🟡 held** — each moved materially in price, none crossed a registered band. Honest gaps recorded rather than fudged: **I1 bands are all one-sided/downside and structurally cannot score a tightening regime (L-13)**; the **8/4 PGM +8% single session is UNEXPLAINED** (recorded, not back-fitted).
+
+**▶ PICK UP HERE (8/7):**
+1. **🔴 MON 8/10 — DFII10 for 8/7 publishes.** Closes the one PROVISIONAL leg of the grade. Confirm + re-stamp the kill rail.
+2. **🔴 WGC Q2 GDT — OVERDUE, and now the weakest link.** It is kill-cond **#2** (<100t) and sits **UNMEASURED** while a *different* leg of the same triad has fired. ⚠️ The triad reads "1 fired, 2 clear, **1 unmeasured**" — do NOT let "NOT-FIRED" on leg 2 read as "clear." Excel 403-walled (L-09); WGC web pages carry the figures.
+3. **MIDAS-06 registered** — DIVERGE persistence test, resolves **8/28**. Numeric branches both directions + explicit INDETERMINATE band + a VOID branch if DFII10 <2.20 (per L-10/L-12).
+4. **ZHAO LPR date-fork — day 21, STILL OPEN.** ZHAO STATUS/NEXUS/ZHA-14 still carry 7/21 vs correct 7/20 Beijing; PROME's 7/17 fix unprocessed; ZHA-14 ungraded (= HOLD). Re-flagged PROME 8/7. **Do NOT edit ZHAO's files.**
+5. **The 8/4 PGM +8% move** — find the cause or record it as permanently unattributed.
+6. **Sulfur/acid Tier-2 (WALTER SIG-003)** — narrow ownership TAKEN (acid -> copper processing cost under I1); **uranium leg DECLINED** (no coverage; unowned -> PROME). Owed: a **like-for-like Platts SPOT** print (current figures are OSP/KSP *contract* prices — different instrument, L-14). Aug shows a **first easing**: Kuwait KSP $950 (Jul) -> **$865** (Aug, -9%); Adnoc flat $1,000.
+7. **NEXUS Amendment 9 revert condition MET** (I carry a thesis version AND >=3 live edges) -> likely owe the **full** brief schema next refresh. Stayed compact tonight for time; flagged NEXUS.
+8. **Will-gated, flagged NOT added:** (a) kill-cond-#3 continuity boundary (L-12); (b) an I1 upside/tightening band (L-13).
+9. Carryover: China Cu imports -41.3% base-effect (ZHAO's series); COT weekly-cadence leg; WPIC Pt-deficit PROV.
+
+**GLD note (Will):** 16 sh = **15.0% of the account**, largest non-cash holding [PROME/ANVIL 8/2]; GLD **$398.47 [8/7]** => ~$6,375, ~+6.7% on the $373.59 blend. Position sits on the **right side** of my fired signal with a **32.7% cushion** to the $3,317 falsifier. Caution recorded, not a recommendation: a premium regime is the most volatile in BOTH directions (my own ledger: Jan-2026 blow-off $5,318.40 [1/29] gave back 22.7%), and size went on **into strength** (10->13->16 across 7/30-31, off-rail). **~98% of the melt-up week is unexplained by real rates.** Sizing/hedging = **TERRY**, decision = Will. Analysis only.
+
+---
+
 **2026-07-23 MIDAS-05 GRADE SESSION (PROME-spawned, ~12:35 PM ET, ON-TIME — grade due ~7/23).** Graded the owed LPR prediction, reconciled the date-fork, refreshed all marks (7/23 live intraday, US mkts open). *(Spawn prompt initially gave a wrong "Fri 7/24 midnight" premise; PROME corrected to Thu 7/23 midday — grade is on-time, not day-late.)*
 
 **MIDAS-05 = NO-FIRE (correct null; KB-027, PREDICTIONS resolved).** China LPR **HELD** 7/20 Beijing (1Y 3.00%/5Y 3.50%, 14th consecutive month, fully expected — Reuters poll 23/23 hold; PBoC via CNBC/People's Daily 7/20) yet copper **RALLIED +4%** over the 2 sessions post-fixing (HG=F $6.299 [7/20] → $6.511 [7/21 endpoint] vs the $6.26 anchor; actual 7/17 settle $6.22 → +4.7%), eased to $6.3435 [7/23]. I1 yellow (HOLD+copper−5%) did NOT fire; no ZHAO/HENRY flag. **Discrimination (mirror of MIDAS-04):** copper rallied THROUGH a no-stimulus hold = structural/AI-grid demand, NOT China policy/cyclical. Brier-equiv ~0.02 (P(fire)~0.15 pre-reg, outcome 0).

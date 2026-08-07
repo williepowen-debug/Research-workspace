@@ -294,6 +294,54 @@ def main():
     else:
         failures.append("divergence-calc: missing real-yield or gold leg")
 
+    # --- 5b. M1 kill-condition #3 window (3-WEEK / 21d) — added 2026-08-07 ---
+    # WHY: leg 5's window is a FIXED trailing ~90d. Registered v2 kill-cond #3
+    # (THESIS.md:51) is "gold rises through RISING real yields sustained 3+ WEEKS".
+    # A 90d lookback is ~4x the detection window, so a 3-week decoupling at the
+    # END of the window is arithmetically invisible — leg 5 returned CONVERGE
+    # (rc=0) on 2026-08-07 while the registered 3-week test was firing
+    # (gold +9.7% / DFII10 +12bp, 7/17->8/7). That is a FALSE NEGATIVE in the
+    # exact trigger the 7/17 polarity flip made this script's whole job.
+    # This leg is NOT a new threshold: 3+wk is the already-registered,
+    # Will-approved spec. It makes the instrument match the spec. (LESSON L-11)
+    kc3_state = None
+    if latest_y and fut and "error" not in fut.get("GC=F", {"error": 1}):
+        try:
+            from datetime import date as _d
+            obs_y = [o for o in fetch.fred_fetch("DFII10", limit=60)
+                     if o.get("value") not in (None, "", ".")]
+            latest_d = _d.fromisoformat(obs_y[0]["date"])
+            y_then = next((o for o in obs_y
+                           if (latest_d - _d.fromisoformat(o["date"])).days >= 21), None)
+            hist3 = fetch.price_history(["GC=F"], days=30)["GC=F"]
+            if "error" in hist3:
+                raise ValueError(hist3["error"])
+            rows3 = [r for r in hist3["history"]
+                     if (latest_d - _d.fromisoformat(r["date"])).days >= 21]
+            if y_then and rows3:
+                g_then, g_then_d = rows3[-1]["close"], rows3[-1]["date"]
+                g_now = fut["GC=F"]["price"]
+                dy_bp = (float(latest_y["value"]) - float(y_then["value"])) * 100
+                dg_pct = (g_now - g_then) / g_then * 100
+                if dy_bp > 0 and dg_pct > 0:
+                    kc3_state = ("KILL-COND-#3 SHAPE PRESENT (gold UP through RISING real "
+                                 "yields over 3wk = debasement-premium reassertion) — REVIEW/escalate")
+                elif dy_bp <= 0 and dg_pct > 0:
+                    kc3_state = ("classic inverse over 3wk (yields down, gold up) — but CHECK MAGNITUDE: "
+                                 f"empirical beta ~-0.05%/bp means {dy_bp:+.0f}bp explains only "
+                                 f"{abs(-0.0513 * dy_bp):.2f}% of the {dg_pct:+.1f}% move")
+                else:
+                    kc3_state = "no kill-cond-#3 shape (gold flat/down over 3wk)"
+                print(f"\n  M1 KILL-COND-#3 WINDOW (registered 3-WEEK test, {g_then_d} -> {latest_y['date']}):")
+                print(f"    DFII10: {y_then['value']} [{y_then['date']}] -> {latest_y['value']}  ({dy_bp:+.0f}bp)")
+                print(f"    Gold (GC=F): ${g_then:,.2f} -> ${g_now:,.2f}  ({dg_pct:+.1f}%)")
+                print(f"    State: {kc3_state}")
+            else:
+                failures.append("kc3-window: insufficient history")
+        except Exception as e:
+            failures.append(f"kc3-window: {e}")
+            print(f"\n  ERROR kill-cond-#3 window FAILED: {e}", file=sys.stderr)
+
     # --- 6. LME copper stocks (I1 inventory leg — westmetall scrape) ---
     lme_latest = None
     lme_band = None
@@ -331,15 +379,21 @@ def main():
     g_s = (f"gold ${fut['GC=F']['price']:,.2f}" if fut and "error" not in fut.get("GC=F", {"error": 1}) else "gold FETCH-FAIL")
     gsr_s = f"GSR {gsr:.2f} ({gsr_band})" if gsr else "GSR FETCH-FAIL"
     div_s = divergence_state or "divergence FETCH-FAIL"
+    kc3_s = f" · KC#3(3wk): {kc3_state}" if kc3_state else ""
     lme_s = (f"LME Cu {lme_latest[1]:,}t{f' ({lme_vs_median_pct:+.0f}% vs 2yr-med, {lme_band})' if lme_band else ''} [{lme_latest[0]}]"
              if lme_latest else "LME Cu FETCH-FAIL")
-    print(f"\n  Metals leg: {y_s} · {g_s} · {gsr_s} · {lme_s} · M1: {div_s}\n")
+    print(f"\n  Metals leg: {y_s} · {g_s} · {gsr_s} · {lme_s} · M1: {div_s}{kc3_s}\n")
 
     rc = 0
     if failures:
         print(f"  metals_watch.py: {len(failures)} leg(s) FAILED: {'; '.join(failures)}", file=sys.stderr)
         rc = 2
-    elif gsr_band in ("YELLOW", "ORANGE", "RED") or (divergence_state and divergence_state.startswith("DIVERGE")):
+    elif (gsr_band in ("YELLOW", "ORANGE", "RED")
+          or (divergence_state and divergence_state.startswith("DIVERGE"))
+          # 2026-08-07: the registered 3-week kill-cond-#3 window now also trips
+          # REVIEW. Without this, the 90d leg alone gates rc and returns 0 while
+          # the actual registered test fires (see leg 5b comment).
+          or (kc3_state and kc3_state.startswith("KILL-COND-#3 SHAPE PRESENT"))):
         # POLARITY FLIPPED 2026-07-17 (both M1 v2 catalyst tests resolved, v2
         # SURVIVED — MIDAS-03 CPI 7/14 + MIDAS-04 China-GDP 7/15; see header block
         # + SCRATCH.md). CONVERGE (gold re-coupled, inverse to real rates) is now
