@@ -4,7 +4,7 @@
 **Domain:** Adversarial cross-cutting counter-signal — no domain data of my own; I steelman the bull case against every agent's bear thesis and grade cross-agent challenges. Edges: RECEIVES from every domain agent (their STATUS + outbox); SENDS to PROME (OUTBOX alerts), domain agents (formal challenges via `challenges/` + inbox).
 **Thesis version:** S28 (8/7 — two mechanical executions; no discretionary re-mark)
 **Recent pivot:** the bull case had its best week of the cycle **on RED's own registered instruments**, not on narrative. Three top counter-signal rows changed sign in one week — the largest one-week reversal in RED's book.
-**As of:** 2026-08-07 ~8:50 PM ET (S28c closeout, re-folded after the E3 re-spec; brief folded LAST per NEXUS Amendment 10) | memos: `PROME/inbox/2026-08-07_from-RED_ft01-refired-composition-question-answered-plus-chg027-blocked.md` · `AGENTS/VIOLET/inbox/2026-08-07_from-RED_kb-vio-174-branch-label-contradicts-its-own-condition.md` · `CHALLENGE_IMPACT_LEDGER.md`
+**As of:** 2026-08-07 ~9:15 PM ET (S28/28b/28c DAY CLOSED — brief folded LAST per NEXUS Amendment 10; fold is the session final write) | memos: `PROME/inbox/2026-08-07_from-RED_ft01-refired-composition-question-answered-plus-chg027-blocked.md` · `AGENTS/VIOLET/inbox/2026-08-07_from-RED_kb-vio-174-branch-label-contradicts-its-own-condition.md` · `CHALLENGE_IMPACT_LEDGER.md`
 
 ---
 

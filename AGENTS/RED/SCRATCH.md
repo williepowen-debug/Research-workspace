@@ -18,7 +18,7 @@
 ## GIT STATE (one line)
 -->
 
-**Session 28 + 28b — Fri 2026-08-07 ~3:45–6:30 PM ET (Will-directed boot + full execute/write-back; then S28b: "chase the BDC cluster grades so CHG-027 unblocks")** — 7-day catch-up. Three pre-registered clocks adjudicated, **two fired against my own book and were executed without argument**. **HOLD 72→70 (FT-01 RE-FIRED, symmetric −2) / net-bear 68→66 (SKEW kill, Acute 15→13 → Managed 30).**
+**Session 28 / 28b / 28c — Fri 2026-08-07 ~3:45–9:15 PM ET, CLOSED OUT (Will-directed boot + full execute/write-back → S28b "chase the BDC cluster grades so CHG-027 unblocks" → S28c "do the E3 re-spec")** — 7-day catch-up. Three pre-registered clocks adjudicated, **two fired against my own book and were executed without argument**. **HOLD 72→70 (FT-01 RE-FIRED, symmetric −2) / net-bear 68→66 (SKEW kill, Acute 15→13 → Managed 30).**
 
 ## CHANGES SINCE (S27 closeout 7/31 ~2:15 PM → this boot)
 - **HY round-tripped the entire July widening.** 285 [7/31] → 278 [8/3] → 273 [8/4] → 275 [8/5] → **271 [8/6]** = four consecutive <280, firing FT-01's re-arm. The 5-session ≥280 run that had everyone (me included) writing "credit widened" lasted 7/27-7/31 and gave it all back.
@@ -73,8 +73,16 @@
 - **WAL V4 window closes ~8/13** (2nd C-suite departure watch).
 - **The bear's LEVELS vs FLOWS split** is the frame to carry: CCC >1000 ×9, 30Y near 19-yr highs, OVX 55.80 — all levels intact while every flow reversed. If levels start following flows, the thesis is in real trouble; if flows come back to levels, last week was noise.
 
+## CLOSEOUT CHECKS (all run S28c)
+- **`ledger_staleness.py RED`** — clean, no stale-ledger alert.
+- **`claim_check --check weekday`** — 1 flag, **verified FALSE POSITIVE and deliberately NOT reworded**: `CATALYSTS.tsv:53` reads *"Tue-Wed 9/15-16"*, which is correct (9/15 Tue, 9/16 Wed, both computed); the regex paired the second weekday with the first date across a range label. Routed to DAEDALUS as a fleet-wide FP class — the danger is that the cheapest way to clear it is to damage an accurate, primary-verified row. ML-RED-143.
+- **`consumer_check --agent RED --old 72 --old 68 --old 15 --old 28`** — 13,074 candidates, **zero certified-stale**; every hit is bare-2-sig-fig noise, the documented FP mode. **No packets sent.** Targeted self-grep instead: the only surviving "HOLD 72 / net-bear 68" strings are an S27 OUTBOX log entry and two CHANGELOG *old view → new view* lines, all historical by construction. No stale current assertion anywhere.
+- **`memory_index_check --strict --slug …`** — 0 blocking (both S28 memories committed and indexed).
+- **`orphan_check RED`** — only `[not yours]` entries (TERRY, live concurrently). Nothing swept.
+- **Inbox: EMPTY.** BROCK's packet filed to `processed/` once they committed it.
+
 ## PENDING WILL-DECISIONS
 - None new. Carried: broker-confirm at convenience (OZK Jul-17 $42.5P ×2 expired dead-OTM).
 
 ## GIT STATE (one line)
-On master; HEAD was level with origin at boot (0/0, fetch-verified) so **no pull was taken** — LABOR's staged deletions and SAM's modified CFTC_JPY.tsv were dirty in-tree and left untouched. S28 committed path-scoped to `AGENTS/RED/` + self-authored packets under carve-out ①.
+On master, HEAD = origin (fetch-verified 0/0 at close). Boot was already level so **no pull was taken** — LABOR's staged deletions and SAM's dirty `CFTC_JPY.tsv` left untouched all day. Committed path-scoped to `AGENTS/RED/` across S28/28b/28c + 4 self-authored packets (PROME ×2, BROCK ×2, VIOLET, DAEDALUS) under carve-out ① + 2 auto-memories under carve-out ③; every push verified with the literal `Pushed.` line **and** a 0/0 parity re-check afterward.
