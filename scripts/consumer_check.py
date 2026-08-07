@@ -80,6 +80,52 @@ CONTEXT = 2  # lines either side of a hit to scan for a marker
 # number-like span: 1,234.56 / 7496 / 7,496 / 0.02
 NUM_RE = re.compile(r"\d[\d,_]*(?:\.\d+)?")
 
+# ------- unit/specificity gating (2026-08-07, VIOLET c7d3a07b1: 9-of-9 FP) -------
+# Bare-string number matching is ~100% false-positive on short figures: `10.13`
+# matched OTTO's subprime loss rate, a REGINALD 10-K exhibit number and SAM options
+# rows in one scan. Root canon 1c carries an interim "a 🔴 is a CANDIDATE" stopgap
+# whose stated retirement trigger is THIS fix. Three mechanisms, in order:
+#   1. --unit / --series context: a hit is 🔴 STALE only when the unit token sits
+#      within UNIT_WINDOW chars of the matched number, or a series word is on the
+#      line. Without that context the hit demotes to 🟠 CANDIDATE.
+#   2. Specificity gate: a needle with ≤ MIN_SIG_DIGITS significant digits and no
+#      unit/series context can never be 🔴 — always 🟠 (a 2-sig-fig figure is
+#      noise-dominated in any large corpus).
+#   3. Runtime collision demotion: a context-less needle whose would-be-stale hits
+#      span > COLLISION_FILE_CAP distinct files demotes to 🟠 with the measured
+#      count — the tool base-rates its own needle instead of trusting it
+#      ([[finding_base_rate_the_instrument_before_its_event_table]] at run time).
+# 🟠 CANDIDATE prints the hits but never the send-packets instruction: confirm
+# same series AND unit, then re-run with --unit/--series for the 🔴 verdict.
+UNIT_WINDOW = 8          # chars either side of the matched number
+MIN_SIG_DIGITS = 3       # ≤2 sig digits ⇒ never 🔴 without unit/series context
+COLLISION_FILE_CAP = 4   # context-less needle in >4 distinct files ⇒ 🟠
+
+
+def sig_digits(tok: str) -> int:
+    """Significant digits of a numeric token: digits minus leading zeros.
+    '10.13'->4  '8.37'->3  '37'->2  '0.5'->1  '207500'->6 (trailing zeros kept:
+    they narrow the match space in a corpus grep even if not 'significant')."""
+    digits = re.sub(r"\D", "", tok)
+    return len(digits.lstrip("0"))
+
+
+def context_ok(line: str, hit_values: set, units, series) -> bool:
+    """True if the line carries the declared unit adjacent to a matched number,
+    or a declared series word anywhere on the line."""
+    low = line.lower()
+    if series and any(s.lower() in low for s in series):
+        return True
+    if units:
+        for m in NUM_RE.finditer(line):
+            if normalize(m.group(0)) not in hit_values:
+                continue
+            hood = (line[max(0, m.start() - UNIT_WINDOW):m.start()]
+                    + line[m.end():m.end() + UNIT_WINDOW]).lower()
+            if any(u.lower() in hood for u in units):
+                return True
+    return False
+
 
 def normalize(tok: str) -> str:
     """'7,496' -> '7496'; '7496.0' -> '7496'. Used on BOTH needle and haystack."""
@@ -240,16 +286,26 @@ def mirror_map_files(workspace: Path) -> set:
 
 
 def scan(workspace: Path, needles, own_dir: Path | None, current=None,
-         restrict: set | None = None):
-    """-> (stale_live, mail, handled). Classification order matters.
+         restrict: set | None = None, units=None, series=None):
+    """-> (stale_live, candidate, mail, handled). Classification order matters.
 
     Needles that are purely numeric use whole-value token matching (the VIOLET
     substring lesson). Non-numeric needles (mirror-map mode: retired path
     pairings, renamed sections, dead tokens like 'FORGE/PORTFOLIO.md') match as
-    literal substrings — canon changes are textual at least as often as numeric."""
-    stale, mail, handled = [], [], []
+    literal substrings — canon changes are textual at least as often as numeric;
+    text needles are exempt from all three numeric-noise gates.
+
+    🟠 CANDIDATE (2026-08-07) = a live-surface hit the tool cannot certify as the
+    same series: no unit/series context on the line, a ≤2-sig-digit needle, or a
+    context-less needle spanning >COLLISION_FILE_CAP files. Printed, never
+    packet-instructed."""
+    stale, cand, mail, handled = [], [], [], []
+    units = units or []
+    series = series or []
     num_wanted = {normalize(str(n)) for n in needles if NUM_RE.fullmatch(str(n).strip())}
     txt_wanted = {str(n) for n in needles if not NUM_RE.fullmatch(str(n).strip())}
+    weak_nums = {n for n in num_wanted if sig_digits(n) < MIN_SIG_DIGITS}
+    have_ctx = bool(units or series)
     for path in iter_files(workspace, own_dir, restrict):
         try:
             text = path.read_text(errors="ignore")
@@ -264,7 +320,9 @@ def scan(workspace: Path, needles, own_dir: Path | None, current=None,
         for i, line in enumerate(lines):
             if is_blob(line):
                 continue
-            hits = (num_wanted & line_values(line)) | {n for n in txt_wanted if n in line}
+            num_hits = num_wanted & line_values(line)
+            txt_hits = {n for n in txt_wanted if n in line}
+            hits = num_hits | txt_hits
             if not hits:
                 continue
             rec = (rel, i + 1, sorted(hits), line.strip()[:140])
@@ -277,26 +335,86 @@ def scan(workspace: Path, needles, own_dir: Path | None, current=None,
             # 3. sent/received mail is point-in-time; correcting it helps nobody
             elif surface_of(rel) == "MAIL":
                 mail.append(rec)
-            # 4. a live surface carrying it unqualified -> this is the real find
+            # 4. live surface, unqualified — certify the series before crying stale
+            elif txt_hits:
+                stale.append(rec)          # text needles: exact by construction
+            elif have_ctx:
+                if context_ok(line, num_hits, units, series):
+                    stale.append(rec)
+                else:
+                    cand.append(rec + ("no unit/series context on line",))
+            elif num_hits <= weak_nums:
+                cand.append(rec + (f"needle <{MIN_SIG_DIGITS} sig digits",))
             else:
-                stale.append(rec)
-    return stale, mail, handled
+                stale.append(rec)          # provisional; collision pass below
+    # Runtime collision demotion (context-less numeric needles only)
+    if not have_ctx and stale:
+        files_by_needle = {}
+        for rel, _ln, hits, _txt in stale:
+            for h in hits:
+                if h in num_wanted:
+                    files_by_needle.setdefault(h, set()).add(rel)
+        noisy = {n for n, fs in files_by_needle.items() if len(fs) > COLLISION_FILE_CAP}
+        if noisy:
+            kept = []
+            for rec in stale:
+                rel, ln, hits, txt = rec
+                nh = set(hits) & num_wanted
+                if nh and nh <= noisy:
+                    cand.append(rec + (
+                        f"noise-dominated: needle in {len(files_by_needle[sorted(nh)[0]])} files"
+                        " — mass propagation or collision; re-run with --unit/--series",))
+                else:
+                    kept.append(rec)
+            stale = kept
+    return stale, cand, mail, handled
 
 
 def read_ledger(ledger: Path):
-    """PUBLISHED.tsv -> {metric: (current_value, [superseded values])}."""
+    """PUBLISHED.tsv -> {metric: (current_value, [superseded values])}.
+
+    Schema: header-aware — needs columns metric/value/asof by name (positional
+    0/1/2 fallback for headerless variants); `suppress_until` honoured if present.
+    `asof` is a DATE or ISO TIMESTAMP (2026-07-31 or 2026-07-31T14:05) — ISO
+    strings sort correctly as text, and a timestamp sorts after its bare date.
+
+    SAME-DAY SUPERSESSION FIX (2026-08-07 — LABOR 7/31b via HENRY/PROME): the old
+    sort was (asof, value), so two rows with one asof tie-broke on the VALUE
+    string and the check could resolve 'current' to the EARLIER append — silently
+    inverting a same-day supersession. Tie-break is now (asof, file_line_order):
+    append order is authoritative within a day. Duplicate (metric, asof) pairs
+    get a ⚠️ so the tie-break is visible, never silent."""
     if not ledger.exists():
         return {}
-    rows = [l.split("\t") for l in ledger.read_text().strip().split("\n")[1:] if l.strip()]
-    by_metric = {}
-    for r in rows:
-        if len(r) >= 3:
-            by_metric.setdefault(r[0], []).append((r[2], r[1]))  # (asof, value)
+    raw = [l for l in ledger.read_text().strip().split("\n") if l.strip()]
+    if not raw:
+        return {}
+    header = [h.strip().lower() for h in raw[0].split("\t")]
+    def col(name, default):
+        return header.index(name) if name in header else default
+    c_metric, c_value, c_asof = col("metric", 0), col("value", 1), col("asof", 2)
+    c_supp = header.index("suppress_until") if "suppress_until" in header else None
+    today = __import__("datetime").date.today().isoformat()
+    by_metric, seen_pairs = {}, set()
+    for idx, l in enumerate(raw[1:]):
+        r = l.split("\t")
+        if len(r) <= max(c_metric, c_value, c_asof):
+            continue
+        metric, value, asof = r[c_metric], r[c_value], r[c_asof]
+        if (metric, asof) in seen_pairs:
+            print(f"  ⚠️  duplicate (metric, asof) in {ledger.name}: {metric} @ {asof} — "
+                  f"append order used as the tie-break; give the later row a timestamp asof to disambiguate.")
+        seen_pairs.add((metric, asof))
+        supp = r[c_supp].strip() if (c_supp is not None and len(r) > c_supp) else ""
+        by_metric.setdefault(metric, []).append((asof, idx, value, supp))
     out = {}
     for metric, entries in by_metric.items():
-        entries.sort()                      # by asof
-        current = entries[-1][1]
-        superseded = [v for _, v in entries[:-1] if normalize(v) != normalize(current)]
+        entries.sort(key=lambda e: (e[0], e[1]))    # (asof, file_line_order)
+        current, supp = entries[-1][2], entries[-1][3]
+        if supp and supp > today:
+            print(f"  ⏸  {metric}: suppress_until {supp} on the current row — skipped this run.")
+            continue
+        superseded = [v for _, _, v, _ in entries[:-1] if normalize(v) != normalize(current)]
         # de-dup, keep the most recent few — old values stop being cited
         seen, keep = set(), []
         for v in reversed(superseded):
@@ -307,12 +425,18 @@ def read_ledger(ledger: Path):
     return out
 
 
-def report(label, current, olds, stale, mail, handled):
+def report(label, current, olds, stale, cand, mail, handled):
     print(f"\n  ── {label} · superseded {', '.join(map(str, olds))} → current {current}")
     if stale:
         print(f"     🔴 STALE ON A LIVE SURFACE — send the owner a packet ({len(stale)})")
         for p, ln, hits, txt in stale:
             print(f"        {p}:{ln}  [{', '.join(hits)}]")
+            print(f"           {txt}")
+    if cand:
+        print(f"     🟠 CANDIDATE — series NOT certified; confirm same series AND unit, "
+              f"then re-run with --unit/--series. NO packet on a 🟠. ({len(cand)})")
+        for p, ln, hits, txt, why in cand:
+            print(f"        {p}:{ln}  [{', '.join(hits)}]  ({why})")
             print(f"           {txt}")
     if mail:
         owners = sorted({p.split('/')[1] for p, *_ in mail if '/' in p})
@@ -320,7 +444,7 @@ def report(label, current, olds, stale, mail, handled):
               f"{': ' + ', '.join(owners) if owners else ''})")
     if handled:
         print(f"     🟢 already flagged superseded / shown next to the new value ({len(handled)})")
-    if not (stale or mail or handled):
+    if not (stale or cand or mail or handled):
         print("     ✓ no consumer carries a superseded value.")
 
 
@@ -352,6 +476,13 @@ def main():
                          "matched 'market-agent.md:37', a '37/75' composite and a "
                          "FLEET_MAP line number on the first live run. Use a distinctive "
                          "figure (3+ significant digits) or a text token.")
+    ap.add_argument("--unit", action="append", default=[],
+                    help="unit token that must sit adjacent to the matched number "
+                         "(repeatable: %%, bp, $, x, ×, contracts …). With --unit/--series, "
+                         "context-confirmed hits are 🔴 and the rest 🟠 CANDIDATE.")
+    ap.add_argument("--series", action="append", default=[],
+                    help="series word that must appear on the hit line (repeatable: "
+                         "'CCC', 'OAS', 'gamma' …). Alternative context to --unit.")
     ap.add_argument("--strict", action="store_true", help="exit 1 if any STALE consumer found")
     args = ap.parse_args()
     if args.self_mode and args.mirror_map:
@@ -422,13 +553,19 @@ def main():
         print(f"  mirror-map mode: {len(restrict)} files (SYSTEM.md table, parsed at "
               f"runtime, + PROME surfaces + stewarded root docs; self-inclusive)")
 
-    total_stale = 0
+    total_stale, total_cand = 0, 0
     for label, current, olds in jobs:
-        stale, mail, handled = scan(workspace, olds, own_dir, current, restrict)
-        report(label, current, olds, stale, mail, handled)
+        stale, cand, mail, handled = scan(workspace, olds, own_dir, current, restrict,
+                                          units=args.unit, series=args.series)
+        report(label, current, olds, stale, cand, mail, handled)
         total_stale += len(stale)
+        total_cand += len(cand)
 
     print()
+    if total_cand and not total_stale:
+        print(f"  🟠 {total_cand} CANDIDATE(s), zero certified-stale. A 🟠 is a prompt to "
+              f"LOOK, never a packet: confirm same series AND unit at the hit, then "
+              f"re-run with --unit/--series for the 🔴 verdict.")
     if total_stale and args.self_mode:
         # The instruction INVERTS in self mode: you are the owner, so a packet to
         # yourself is not the fix — editing the surface is. Saying "send the owner a
@@ -440,6 +577,8 @@ def main():
     elif total_stale:
         print(f"  🔴 {total_stale} stale consumer reference(s). Send each owner a packet "
               f"with the refreshed value — do NOT edit their files.")
+    elif total_cand:
+        pass  # the 🟠 footer above is the verdict — never print "clean" beside it
     elif args.self_mode:
         print(f"  ✓ clean — no surface under AGENTS/{args.agent}/ carries the superseded "
               f"value unqualified. (Scanned the whole dir, not just STATUS/THESIS.)")
