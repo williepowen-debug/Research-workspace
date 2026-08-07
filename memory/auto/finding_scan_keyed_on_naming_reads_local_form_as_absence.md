@@ -1,0 +1,19 @@
+---
+name: finding_scan_keyed_on_naming_reads_local_form_as_absence
+description: a scanner keyed on how a surface is NAMED/shaped reads "surface I cannot recognize" as "surface does not exist" — absence-of-recognizable-form ≠ absence-of-thing; before reporting N agents lack X, re-read a sample for X expressed in LOCAL forms, and fix by extract-and-stamp, never rebuild-over-a-working-thing
+metadata:
+  type: finding
+---
+
+**A detection instrument that matches on canonical naming or file shape silently converts "expressed in a form I don't recognize" into "does not exist" — and the resulting finding reads as a capability gap in the SCANNED agents when it is a vocabulary gap in the SCANNER.**
+
+**Worked case (2026-08-03 → corrected 2026-08-07, DAEDALUS Falsification Sweep F5).** The sweep's headline finding: *5 agents carry a live thesis and NO falsification surface* — encoded same-week into a ladder requirement and a blueprint amendment. Production-Review re-reads four days later: **4 of the 5 HAD live, exercised falsification discipline**, expressed in local forms the scanner could not name — an `EXIT / INVALIDATION` triad (WATT — which had graded a real MISS *through* it, with the registered migration executing as pre-written), numbered thesis-kill routes (OSPREY — known-defective and the owner correctly refusing self-repair), per-channel bidirectional flip rows with one already marked `falsified-direction` (AEOLUS), an in-thesis "What KILLS v2" block with an exercised kill condition (MIDAS). Only 1 of 5 was genuinely missing the thing. The scanner had matched kill-tree-shaped FILE NAMING.
+
+**Why it is dangerous beyond one bad sweep row:** the finding fed a *standard* the same day (an L3 requirement), so grading against the blind detector would have mis-set grades, not just sweep rows — and the natural "fix" (make each agent author the canonical-shaped surface) would have **rebuilt over four working rails**, destroying local forms the fleet's own floor-not-ceiling principle protects.
+
+## How to apply
+
+- **Before reporting "N agents lack X" off any scan, re-read a SAMPLE of the N for X expressed in local vocabulary** — the scan's negative is a claim about its own pattern set until a human read confirms it. Sibling of `[[finding_verification_zero_is_ambiguous]]` ("never in its scope" branch) and `[[finding_count_measures_intake_not_domain]]` (a CLAUDE.md-only grep measures homing, not knowledge).
+- **Split the finding into its two real parts:** (a) does the DISCIPLINE exist (judgment read), (b) is it on a surface the instrument can SEE/DATE (mechanical). Only (b) was true here — and (b) is still worth fixing, because an unfindable rail can't be freshness-checked.
+- **The retrofit form follows from the split: EXTRACT-AND-STAMP** — give the existing local-form thing a findable/datable handle (one stamp line, a pointer, a canonical filename alias) — **never author-from-scratch over a thing that works.** Authoring fresh is only correct for the genuinely-missing residue.
+- **Spec the v2 predicate on function, not shape:** "no surface, OR a surface with no evidenced fire path" flags the decorative rail correctly and stops flagging working local forms. And keep a disposition class for *live-but-known-defective-and-owner-escalated* — an owner refusing to self-amend its own falsifier (because the amendment would make it harder to trigger) is exhibiting the discipline, not lacking it.
