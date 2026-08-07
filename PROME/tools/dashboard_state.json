@@ -1,5 +1,5 @@
 {
- "built": "2026-08-05 23:14",
+ "built": "2026-08-06 23:12",
  "channels": {
   "AI capex": "elev",
   "Credit": "crit",
@@ -12,11 +12,6 @@
  "docket": [
   "2026-08-04 BDC Q2 marks cluster \u2014 RE-DATED (was 7/25..7/28; 7/25 is a S",
   "2026-08-04 NY Fed Q2 Household Debt & Credit report \u2014 DATE UNANNOUNCED,",
-  "2026-08-05 CSU hurricane-season forecast update \u2014 AEOLUS trigger + REIN",
-  "2026-08-05 FALCON Yanbu w/c-7/27 PRINT re-check \u2014 GATE-FALCON-001 leg-3",
-  "2026-08-05 Treasury Phase 1 first-batch VERIFICATION \u2014 did ~500K defaul",
-  "2026-08-05 Tricolor criminal: defense Rule 17 subpoena deadline on the ",
-  "2026-08-05 VIXCS pre-registered exit-evaluation resolves \u2014 hold-beat-ex",
   "2026-08-06 Architecture SECOND WAVE (Will-approved 7/28; T2-b ALREADY S",
   "2026-08-06 Athene Q2-2026 10-Q + Athene financial supplement (file TOGE",
   "2026-08-06 DAEDALUS boot-class consult DUE",
@@ -30,6 +25,7 @@
   "2026-08-07 Tricolor criminal: privilege-log schedule ladder (8/7 \u2192 8/14",
   "2026-08-07 \u2605 JPY COT attribution print (Aug-4 data, 3:30 PM ET) = GATE-",
   "2026-08-12 Athene Q2-2026 Fixed Income Investor Presentation (standalon",
+  "2026-08-12 FALCON leg-3 WEEKLY sweep #1 under the ratified P-2 wording ",
   "2026-08-12 July CPI (Wed 8/12, 08:30 ET \u2014 DATE VERIFIED, was carried fl",
   "2026-08-13 \u2605 BRENT main-arm 20-TRADING-DAY EXPIRY (~8/13; armed 7/16, 1",
   "2026-08-17 BLAST 10-D panel hook (OTTO\u2194CARL cross-agent read)",
@@ -62,7 +58,7 @@
   "TERRY": "ok",
   "VIOLET": "ok",
   "VULCAN": "ok",
-  "WAL": "ok",
+  "WAL": "watch",
   "WALTER": "ok",
   "WATT": "ok",
   "ZHAO": "ok"
@@ -99,12 +95,11 @@
  },
  "one": "the credit level leg is FORMALLY CONFIRMED (RED: policy-day prints count; 281\u2192284\u2192287\u2192284, widening PAUSED at print #4) \u2014 on the narrower BANK-ABSENT thesis, explicitly NOT X1, and the June bull-counter (FT-01) exited the same prints; the labor leg withdrew from the hike story twice in one day (ECI composition DENY + the FOMC's own language grading labor a *satisfied side-constraint* \u2014 the hawkish driver is inflation persistence) while the term-premium axis collected its third independent flag (30Y 5.244% [7/29] highest since 2007; BOND adjudicates the regime label \u2014 do not re-label ahead of it); Japan re-fired its entry gate on the crowd's own positioning (JPY net \u2212163,412 = 90.8% of peak, taken BEFORE the suspected \u00a58.45T intervention and the hawkish hold \u2014 the board's ONE FIRED-UNEXECUTED); the AI-capex equity-punishment leg died on its own confirming print (HEN-36 4-of-4 at primaries, de-rate falsified 2-2 \u2192 credit-side thesis); and the evening agent wave was a *retraction wave* \u2014 MARCO demoted its spine channel on a third pre-registered null, HOMER rewrote multifamily as two recognition regimes, CARL retired CRL-14 on arithmetic and registered its successor. Book unchanged ~$630; duration is still the only thing paying.",
  "pending": [
-  "** LAUNCH FALCON \u2014 approved, do the launch [row 26, due 8/6]",
-  "Robinhood capture \u2014 closes FOUR [row 20]",
+  "** Robinhood capture \u2014 closes FOUR + unfences reshape 5th leg [row 20]",
   "BRENT spec amendment + width-bias [row 27]",
   "HENRY boot-rule [row 12]",
   "FFIEC [row 13]",
-  "public flip aging 37d [row 17]"
+  "public flip aging 38d [row 17]"
  ],
  "split": "",
  "v": 1
