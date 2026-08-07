@@ -37,7 +37,7 @@
 | Branch | Trigger | Read → node |
 |---|---|---|
 | **PROMOTE (hawkish) — "energy-washout-doesn't-show / core sticky"** | **core MoM ≥+0.3%** (shelter/supercore sticky; energy relief does NOT bleed into core) | Hawkish dots (SEP 3.8% '26) validated; H-4-L hardens; Sep/Oct hike odds rise; **RATES CHANNEL ARMS (10Y toward 4.5→4.8).** This promotes the mid-July node. If C/WFC also print soft (NIM/credit) → compound into KRE/financials. |
-| **DEMOTE (inverse-feedback / dovish)** | **core MoM ≤+0.2%** (energy washout + core cooling) | Dots look like over-tightening into a slowdown (SEP GDP 2.2%, NFP +57K, ISM Svs emp 47.4); inverse-feedback begins; dovish-relief rally, vol crush. Benign for the node. |
+| **DEMOTE (inverse-feedback / dovish)** | **core MoM ≤+0.2%** (energy washout + core cooling) | Dots look like over-tightening into a slowdown (SEP GDP 2.2%, NFP +57K, ~~ISM Svs emp 47.4~~ **[CORRECTED 2026-08-06 per LABOR 8/5 packet: actual June ISM Svs employment = 51.2, an EXPANSION +3.3pp — the figure was wrong in SIGN; this evidence stack is one item lighter and the missing item pointed the other way]**); inverse-feedback begins; dovish-relief rally, vol crush. Benign for the node. |
 | **Boundary (read the internals)** | core +0.2% headline BUT hot **supercore (core services ex-housing)** | The ambiguous "washout-doesn't-show" case — top-line soft, sticky-services hot. Grade the supercore, not the headline. [HEN-32 single-month-subcomponent discipline.] |
 
 **Gamma interaction (HENRY-retained gamma layer):**

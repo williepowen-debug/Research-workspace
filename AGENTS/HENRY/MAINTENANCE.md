@@ -144,3 +144,16 @@
 - **What changed (structural):** (1) `board_log.tsv` **CREATED** (v0.2 WALTER signal-intake log; boot step 3a appends here). (2) `board_log.tsv` + `NEXUS_BRIEF.md` + `MAINTENANCE.md` + `scripts/` + `evals/` + `KB_ARCHIVE.tsv` **added to the CLAUDE.md FILES table** (were missing). (3) Workbook/domain refreshed to the post-FOMC 3-axis regime: VX.tsv (LIVE block + de-RED war relics + **gamma/GEX refresh**), FLOW.tsv (cascade Status→dormant; **gamma loop DORMANT→LIVE** on the sourced flip), MARKET_DATA.tsv (6/23 row), ECON_CALENDAR.md (July docket + FOMC fix), `THESIS_VALIDATION.md` (**3-axis reframe** — retired the falsified SPX>7,100 kill leg), KB.tsv (6 catch-up rows ML-HEN-137..142 + 3 superseded-row flags). (4) **Gamma/GEX levels REFRESHED** from free trackers (gamma flip 6,902→~7,448; Net GEX→negative); CTA absolute levels kept retired-stale (paywalled, NOT fabricated). Research: `research/2026-06-23_cta_gamma_levels_sourcing.md`.
 - **Gate update:** the DEFERRED block above — FOMC 6/17 has PASSED; evals 01/02 baselined 6/15 (2/3 PASS, case 03 pending). The CLAUDE.md boot/closeout wiring is **UNBLOCKED but UNAPPLIED** — flag to Will/PROME before applying (eval re-baseline trigger; never silent-ship).
 - **Boot-impact:** board_log.tsv is now a live boot-step-3a artifact; gamma/GEX rows now carry sourced values (conf ~0.75). Everything else = content refresh.
+
+## 2026-08-06 — Catch-up session structural changes (PROME-directed; rulings packet 7/31 cited in commits)
+| Change | Where | Class |
+|---|---|---|
+| Cascade $ magnitudes → labeled UNSOURCED (5 figures) | CLAUDE.md CORE METHODOLOGY · domain/REFERENCE_TABLES.md · workbook/FLOW.tsv rows 006-009 | Will ruling §1 (a) |
+| 0DTE every-session mandate DROPPED; "65%" demoted unsourced; STATUS "0DTE PENDING" gap closed as RETIRED | CLAUDE.md OUTPUT RULES + CORE METHODOLOGY · STATUS VOL REGIME | Will ruling §2 (a) |
+| ECON_CALENDAR ECI q/q >1.2% row RETIRED as dated record | domain/ECON_CALENDAR.md:107 | Will ruling §3 (a) |
+| TRADE.md closed as an output class — macro-expression sketches only, trade-shaped → TERRY | CLAUDE.md FILES table | Will ruling §4 (a) |
+| USD/JPY level ladder (>160/162/165) RETIRED → single velocity tripwire \|Δ\|≥2%/day + consume-SAM | CLAUDE.md KEY THRESHOLDS · STATUS ACTIVE THRESHOLDS | Will ruling §5 + SAM 8/2 ruling (adopt-what-SAM-prescribes) |
+| THESIS_VALIDATION.md → SUPERSEDED banner (successors: STATUS §INVALIDATION TRIAD + PREDICTIONS.tsv); boot.py banner guard added to leg (e), tested both branches | workbook/THESIS_VALIDATION.md · scripts/boot.py | DAEDALUS F2 disposition (recurrence class, 4-of-4 pilot 7/11) |
+| NEXUS Amendment 10 ordering rule added (brief fold = last write-back) — also closes the audit-S3 "no closeout owner for NEXUS_BRIEF" gap | CLAUDE.md Write-back step 10 | Fleet propagation 8/4 |
+| JULY_NODE_PRELOAD ISM Svs emp 47.4 → corrected 51.2 EXPANSION (sign error, LABOR 8/5) | JULY_NODE_PRELOAD_2026-07-06.md:40 | Correction |
+| Known OPEN: consumer_check.py same-day-supersession inversion (LABOR 7/31b) — tool now at root scripts/, OUTSIDE my write scope; fix plan (sort on (asof, file_line_order) + document ISO-timestamp asof + warn on dup pairs) flagged to PROME | scripts/consumer_check.py (root) | Blocked-by-scope |
