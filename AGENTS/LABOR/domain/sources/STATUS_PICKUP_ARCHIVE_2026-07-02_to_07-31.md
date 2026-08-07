@@ -292,3 +292,33 @@ June resolved the bifurcation — into a **deeper freeze on a shrinking labor fo
 
 
 | 🆕 **Challenger July (8/6)** | **33,429** — **lowest monthly total in 2 years**, −27% m/m, −46% YoY; **AI 10,970 = 32.8%, #1 for the 5th straight month**; hiring plans **16,095** (+47% m/m), YTD 107,500 (+25%); tech 9,867 (YTD 149,023, +67%) | ⬇️ level 🔴 AI share. **Card Band B → vector 5 HOLDS at 4** (share persists, does not collapse); **level <40K → vector 2 → 1.** Andrew Challenger, verbatim: *"while AI is shifting the labor market, it is not dismantling it"* |
+
+## ARCHIVED 2026-08-07 — the intra-session PICKUP block, superseded by the closeout version (verbatim)
+
+
+
+
+**🔴 Aug 7 session (Will-directed boot; full C1–C6 write-back run on Will's ruling that my stated read is the record — matrix re-graded, not pre-approved).** *(The 8/5 pickup block archived verbatim → `domain/sources/STATUS_PICKUP_ARCHIVE_2026-07-02_to_07-31.md`; all six of its items are discharged — ISM Svs graded, Challenger + claims graded, NFP graded in card §2f order, 1c packets sent, BD-11 now due, and item 5's self-warning is answered in item 6 below.)*
+
+
+
+1. 🔴 **BD-11 IS DUE TODAY — the freeze-thaw gate spec revision.** Its condition was *"after the Aug 7 print"* and that print has landed. **Three defects to fix, one of them new**: ×2-consecutive-on-revised lags a month by construction; the legs were never jointly base-rated at registration; and 🆕 **the lag is state-dependent — it stretches as revisions worsen** (the 7/31 "earliest fire ~Sep 4" estimate was itself too optimistic because June fell 57→20K). **Do not carry this a second session; it is the item most likely to rot.**
+
+2. ✅ **LAB-10 — DONE 2026-08-07** (was this line's top item). Resolved ❌ at as-made 75% off a frozen definition card. **The three-session flag was a misdiagnosis: it was unresolvable, not un-prioritised** — which is now §C gate #15. **No successor item; the row is closed.** ⚠️ **Remaining OPEN book is 4 rows** (LAB-03 7%, LAB-08 65%, LAB-11 50%, LAB-12 30%) — **LAB-08 is the only one ≥60% and it resolves off QCEW on Aug 28.**
+
+3. 🔴 **Register the two threshold gaps this print exposed** — both are *live measurement gaps*, not quiet all-clears: ① **government payrolls total** (July −53K, of which **local gov't education −50K**) has **no threshold and no vector**; T-13 is scoped to federal. Adding a 16th vector re-bases /75, so it is next-session work (→ BD-17). ② **continuing claims has no UP-side fire threshold** (→ BD-16). ③ **T-06 is unfireable in its own target regime** — its U-3 leg has blocked a genuinely weak print two months running (→ BD-15).
+
+4. **Owed packets, not yet sent:** **PROME/NEXUS** escalation on the I-1 failure + the matrix re-base (card §1.3/§5 pre-committed routing). *(CARL, HENRY, REGINALD and RED went out 8/7 and are committed.)*
+
+5. **Sep 4 NFP is the re-test, and its questions are already written:** does −23K survive revision; does the labor force stop shrinking; does the LFPR decline (−0.7pp since January) continue. **Aug 28 QCEW, 10:00 ET, outranks it** — it tests whether the *level* has been wrong all year, and vector 8 is now a 🔴 on exactly that.
+
+6. ⚠️ **The self-warning from 8/5, answered honestly.** I wrote *"do not repeat it on Friday by discounting a strong NFP as 'supply'."* **Friday printed weak, so that specific trap never sprang — and the mirror trap is the live one now: do not over-read a weak NFP as demand collapse when the labor force shrank 264K in the same month.** My discriminator failed in *both* directions this month. **The honest position is that I cannot currently separate demand weakness from supply shrink, and I should say so rather than pick the one that suits the book.**
+
+7. **Inbox: 16 packets + 1 WALTER SIG.** New since 8/5: **`2026-08-06_from-will-review`** (three reconcile items — knowns-count contradiction, mean-Brier propagation, the "saved 0.060" claim; **all three actioned this session**). Full inbox protocol still owed as its own spawn. ⚠️ **The WALTER SIG has now parked SIX sessions — escalate to PROME, do not re-park.**
+
+
+
+
+## ARCHIVED 2026-08-07 — slow/context dashboard row (verbatim)
+
+| **Slow / context rows (merged 8/7 — 4 rows to 1, values preserved verbatim in archive)** | **WARN cumulative 2,954 notices / 270,641 workers** `[EST aggregator 7/23 — 15 DAYS STALE, refresh owed]`; July announcement tape thin (25 cos / 13,532). **Labor share:** Comp/GDI **51.00%** Q1-26 = record low since 1947; profit share 12.24% [CONF BEA 3rd est Jun 25]. **KELYA $15.23** `[CONF 7/23 checkpoint]` — ⚠️ **not a live quote, pull fresh before any position action (root rule 4)**; DTE≤30 write-off fired 7/23, next touch = **Aug 21 expiry**. **FL UR 4.7%** [CONF BLS LAUS June, 7/21] (−0.1pp MoM, +0.9pp YoY) — **T-11 NOT fired**, both legs moving away | mixed | 🟠 WARN / 🟠 labor share / ⚪ KELYA / 🟡 FL |
