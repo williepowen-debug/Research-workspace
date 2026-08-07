@@ -2,7 +2,7 @@
 **Start here on cold boot.** Standalone agent since **2026-07-25** (promoted from `AGENTS/REGINALD/WAL/`, Will-approved 7/22; review → `../DAEDALUS/builds/wal_promotion/PROMOTION_REVIEW.md`). Boot protocol → `CLAUDE.md` (auto-loads when launched from this dir).
 
 **Canonical tokens (MIRROR — sync at closeout, never originate here):**
-**Thesis v2.3** (2026-07-25, post-Q2 re-mark) · Bear-fast 10% / Bear-medium 16% / Base 40% / Bull 27% / Tail 7% · **EV $73.92** · **PT $52-74** ([Bear-fast low, EV], pinned) · **WAL-01 25% / WAL-02 50%** (formerly REG-24/25, OPEN to Q3 — WAL-02's Q2 window SPENT at 37bps) · KB **145 rows / 16 groups** (Q2 cycle + insider sweep + news sweep + Q1 10-Q primary pull, all 7/25; data clock 0d) · Positions → `POSITIONS.md` (Sep-18 $67.5P + $70P core) · **Next event: Q2 10-Q ~Aug 7-10**, then FFIEC Q2 PDD ~Aug
+**Thesis v2.3** (2026-07-25, post-Q2 re-mark — **UNCHANGED at the 8/7 Q2 10-Q read; the v2.3.1 condition was evaluated and does NOT fire**) · Bear-fast 10% / Bear-medium 16% / Base 40% / Bull 27% / Tail 7% · **EV $73.92** · **PT $52-74** ([Bear-fast low, EV], pinned) · **WAL-01 25% / WAL-02 50%** (formerly REG-24/25, OPEN to Q3; both carry an 8/7 note-only append — **specs Will-gated, unedited**) · KB **163 rows / 16 groups** (+18 on 8/7 from the Q2 10-Q primary read; data clock 0d) · Positions → `POSITIONS.md` (Sep-18 $67.5P + $70P core) · ⛔ **Q2 10-Q FILED 7/31 → frame leg EXPIRED-UNWRITTEN / VOID; read UNFRAMED 8/7** → `Q2_10Q_READ_2026-08-07.md` · **Next event: FFIEC Q2 PDD ~Aug (⏱ time-box ~Sep 1)**, then 13Fs ~Aug 14
 
 ---
 
@@ -17,12 +17,14 @@
 | **ACL/NPL coverage** | **96% — below 100%** | 🔴 |
 | **CRE-NOO gross charge-offs** | $32.0M — 5-quarter high (grind signature, diluted in $58.7B book) | 🟠 |
 | Special Mention | $316M (−$87M / −22% QoQ) | 🟢 |
-| EPS / NIM | $2.36 / NIM 3.53% flat; AOCI −$451M improved +$5M; CET1 11.0%. Revenue $995.7M (*below* Q1's $1.018B) | 🟢 base-case — ⚠️ **but the CONSENSUS is contested 3 ways** ($2.33 beat / $2.36 meet / ~$2.37 slight miss). Tie out at the Q2 10-Q (KB-WAL-115/139) |
+| EPS / NIM | **$2.36 GAAP = $2.36 adjusted** ⬅ **A1-pinned at the 10-Q 8/7** (both non-GAAP adjustments are Q1-only, so no Q2 adjusted figure exists) / NIM 3.53% flat; CET1 11.0%. Revenue $995.7M (*below* Q1's $1.018B) | 🟢 base-case — the BASIS question is **dissolved** (KB-WAL-149). ⚠️ **The CONSENSUS remains contested 3 ways** ($2.33 / $2.36 / ~$2.37) and is **structurally unresolvable from any filing** — needs a dated vendor snapshot ≤2026-07-21 (KB-WAL-139) |
+| **NDFI book** ⬅ **NEW 8/7** | **$15,812M = 25.9% of HFI — a NEW HIGH share** (vs 25.2% at 3/31). All three sub-lines GREW QoQ; PE funds +15.6% | 🔴 **refutes KB-WAL-121's "shrinking" claim and V3's 1/5 rationale** — score held, re-exam proposed (KB-WAL-146) |
+| **OREO** ⬅ **NEW 8/7** | $126M but property **count 15 → 22 (+47%)**, "primarily **office**"; Q2 valuation losses **zero** | 🟠 WAL is taking title to office (KB-WAL-155) |
 | **Capital-return pivot** | $5B loan guide cut "to prioritize share repurchases" + **$150M H2 buyback**; NII floor 12-14% absorbing an assumed Sept 25bp hike | 🟢 bull leg |
 | Offsets carried | Fee guide cut 20-25%→13-17%; deposit-cost guide $8B→$6B | 🟠 |
 | **V1a MI3** | **NEVER TESTED** — FFIEC PDD un-run ~2.5mo | ⬜ unknown both directions |
 | Short interest | 4.91% float [FINRA 6/30] — never cite boot-tool yfinance SI | 🟠 crowded short |
-| Spot vs model | **$83.11** [7/24 close] **above Base top $82** → base case still implies decline; overvaluation 12.4% vs EV. Sell-side PTs post-Q2 ($90 JPM / $98 Citi) sit ABOVE our EV | — |
+| Spot vs model | **$81.77** [2026-08-07 intraday] — now **just BELOW Base top $82**, so the base case no longer implies a decline on its own arithmetic; overvaluation vs EV $73.92 = **10.6%** (was 12.4% at $83.11). Buffer to the $78 threshold **+$3.77 (+4.8%)**, compressed from 6.5%. Sell-side PTs post-Q2 ($90 JPM / $98 Citi) sit ABOVE our EV | — |
 
 ## Data Update Rules
 
@@ -44,7 +46,8 @@
 | 2 | `THESIS.md` **v2.3** + top `CHANGELOG.md` entry | Current framework + what last moved and why |
 | 3 | `MEMORY.md` | Session handoff + first-boot mandates |
 | 4 | `SCENARIOS.md` v2.3 | Ranges (⚠️ strike-by-strike sections May-vintage — rebuild owed) |
-| 5 | `workbook/KB.tsv` + `KB_INDEX.md` | 145-row evidence base, 16 groups (Q2 106-127; insider 128-133; news 134-139; 10-Q primary 140-145) |
+| 5 | `workbook/KB.tsv` + `KB_INDEX.md` | **163-row** evidence base, 16 groups (Q2 106-127; insider 128-133; news 134-139; Q1 10-Q primary 140-145; **Q2 10-Q primary 146-163**) |
+| 6 | `Q2_10Q_READ_2026-08-07.md` ⬅ **NEW** | The Q2 10-Q primary read + **the frame-void record** + the v2.3.1 verdict + 6 proposals |
 
 ## File Map
 
@@ -89,20 +92,21 @@
 
 *Dead pointers struck 7/17 audit: `research/HIDDEN_CRE|JEFFERIES|SSFA/` never existed — V1 material → `../REGINALD/domain/sources/` + THESIS; V2 → `FRAUD/`; V3 → STATUS V3 table.*
 
-## Open Threads (re-triaged by owner at session #1, 2026-07-25)
+## Open Threads (re-triaged session #1 2026-07-25; **updated session #2 2026-08-07**)
 
 1. ~~**Q2 KB ingest or freeze call**~~ — ✅ **CLOSED 7/25: INGESTED.** 22 rows (106-127) off the 8-K/EX-99.2/call; data clock 82d → 0d. Column-drift on 056/057 fixed in the same pass.
 2. **Strike-by-strike position architecture rebuild** — SCENARIOS May-vintage sections (first-boot mandate, still open; Sep-18 expiry is the forcing date).
 3. **Other LAM/Leucadia-era credits inventory** — call-transcript review done (Q2 clean twice, KB-WAL-124). ⚠️ **The DEF 14A pass is still NOT done — and the 2026 proxy was filed 2026-04-22 and has never been read** (our INSIDER rows predate it). It also carries the cash-settled-RSU plan terms behind KB-WAL-129 and the beneficial-ownership table.
-4. **Cantor residual quarterly tracking** — three-figure reconcile RESOLVED at Q2 (KB-WAL-123: $98.6M revolver / ~$70M residual / $64M protective liens = distinct bases). **Ledger tie-out still owed at the Q3 10-Q footnote.**
-5. **Lender-finance quality-of-names** (2,000 obligors) — V3 residual, unresolved since Q1. *Lower priority post-Q2: V3 re-scored 2→1, the book is contracting by management choice (KB-WAL-121).*
+4. **Cantor residual quarterly tracking** — ⬅ **PARTIALLY CLOSED 8/7.** The Q2 10-Q re-confirms the three primary figures ($98.5M facility / $29.6M specific allowance / $26.1M Q1 charge-off) and adds **"no additional charge-offs" in Q2** (KB-WAL-148). ⚠️ **But the Q2 disclosure is NARROWER than Q1's** — the $3.5M remaining allowance, the ~$70M residual carrying value and the $13M/$64M senior-lien position are all ABSENT. **Ledger tie-out still owed at the Q3 10-Q.** *(Candidate tie logged, not asserted: the Q2 MD&A's "$64 million of loans with more-than-insignificant deterioration" matches the protective-lien magnitude exactly.)*
+5. **Lender-finance quality-of-names** (2,000 obligors) — V3 residual, unresolved since Q1. ⚠️ **PRIORITY RESTORED 8/7:** the "contracting by management choice" premise that justified deprioritising this **is refuted at the Q2 10-Q** — NDFI grew to **25.9% of HFI (a new high)** with all three sub-lines up QoQ (KB-WAL-146). V3's 1/5 is under challenge; the quality-of-names question is live again.
 6. **MI3/FFIEC — ★ the premise may be wrong.** We have been waiting ~2.5mo on a *fleet-level PDD integration*; the 7/25 news sweep notes **WAL's own Call Report is directly downloadable from the FFIEC CDR** (+ a free UBPR for peer percentiles). **Try the direct pull before the ~Sep 1 time-box trips.** Highest-leverage open item on the board — it resolves a 10% weight either direction.
 7. ~~**Form 4 post-print insider sweep**~~ — ✅ **CLOSED 7/25.** Complete EDGAR Form 4/144 scan 3/1-7/25 → `sources/INSIDER_SCAN_WAL_2026-07-25.md`, KB-WAL-128..133. Zero buying confirmed; V4 ratified 3/5. **Converted to a standing monthly watch — and Form 144 must be pulled with Form 4** (a departing officer's liquidation is invisible to Form 4 alone).
-8. **EPS basis tie-out** — ⬅ **NEW.** The $2.36/$2.33 Q2 EPS pair is sourced only to the CHANGELOG v2.3 entry, appears in neither grade report, and its GAAP-vs-adjusted basis is unpinned (KB-WAL-115). Tie out to EX-99.1 at the Q2 10-Q pass.
-9. **WAL-02 invalidation-clause defect** — ⬅ **NEW, awaiting Will's call.** The stated invalidation ("≤35bps in BOTH Q2 and Q3") became unreachable when Q2 printed 37bps. Row otherwise fine at 50%. Not edited unilaterally — it is a graded row.
+8. **EPS basis tie-out** — ✅ **CLOSED 8/7 on the basis leg, OPEN on the consensus leg.** The 10-Q pins Q2 **GAAP = adjusted = $2.36** (both non-GAAP adjustments are Q1-only), so the basis fork that made Q1 ambiguous does not exist at Q2 (KB-WAL-149). **The consensus leg cannot be closed by any filing** — it needs a dated vendor snapshot on-or-before 2026-07-21.
+9. **WAL-02 invalidation-clause defect** — **awaiting Will's call; HARDENED 8/7.** The 37bps that makes the invalidation unreachable is now **A1-confirmed at the 10-Q** (Q2 NCO $55.0M = 0.37%, and zero fraud charge-offs in Q2, so total = ex-fraud) — KB-WAL-158. Row still 50%/OPEN, spec **unedited** (graded row); a dated note-only append was added to the TSV.
+9b. **WAL-01 bucket + carrying-instrument defect** — ⬅ **ESCALATED 8/7, awaiting Will's call.** The tie-out meant to resolve it **widened** it: three candidate buckets (Office / Life sciences / **Construction & land dev**), **no 10-Q publishes office-classified at all**, and the spec's "Q3 10-Q **Schedule O**" names a *Call Report* schedule that does not exist in a 10-Q (KB-WAL-150/151).
 11. **Court-docket monitoring — NOT SET UP for any of three live matters** ⬅ **NEW 7/25.** (a) WAL v. Jefferies/LAM, NY Supreme (NYSCEF is free) · (b) **Jefferies v. WAL, NY state, filed ~7/1 — we did not know it existed** (KB-WAL-135) · (c) WAL v. Cantor Group V, **LA Superior 25STCV24263** (KB-WAL-137). Forward V2 is entirely litigation and we run blind on dockets; entries lead the 10-Q footnote by weeks.
 12. **$99M property — no pre-filing instrument** ⬅ **NEW 7/25.** The appraisal is our most-dated catalyst with no carrying filing. If the property can be identified, county records (NOD / deed / lease memoranda) would fire before any SEC filing — and mgmt says a prospective tenant is evaluating space, which would leave a recorded lease trail.
-13. **Never examined:** 13F/13G institutional flow (3 events in 2026; Q2 13Fs ~Aug 14) · FR Y-9C as a second instrument on CRE/NDFI · life-science lab-market vacancy data as the appraisal base rate · Federal Register watch on the AOCI Cat III/IV rule (STATUS carries it as "pending" with no instrument).
+13. **Never examined:** 13F institutional flow (Q2 13Fs ~Aug 14) — ⚠️ **the two 7/31 13Gs do NOT advance it: they are a Vanguard legal-entity restructuring, not accumulation, and their two percentages must NOT be added (overlapping affiliates named in both) — KB-WAL-160** · FR Y-9C as a second instrument on CRE/NDFI · life-science lab-market vacancy data as the appraisal base rate · Federal Register watch on the AOCI Cat III/IV rule (STATUS carries it as "pending" with no instrument).
 10. ~~Synthesis-files gitignore decision~~ — RESOLVED: all `.md` synthesis tracked; ignore semantics carried to `AGENTS/WAL/` at promotion (WP-W1, 7/25).
 
 ---
