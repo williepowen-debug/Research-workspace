@@ -227,8 +227,8 @@ This is a **structural headwind** to the timing thesis. Regulatory forbearance w
 ### 10. The "Macro Event" Catalyst May Not Arrive
 
 **What the Thesis Needs:**
-- Claims >300K sustained (currently 231K spike, reverting)
-- U-3 >5.0% (currently 4.3%)
+- Claims >300K sustained (currently 231K spike, reverting) *[STALE — 199K as of 8/1/2026]*
+- ~~U-3 >5.0% (currently 4.3%)~~ → **EPOP fell ≥0.5pp/6m AND ≥0.3pp/3m** *(corrected 2026-08-07 S28, LABOR BD-15 re-spec — flagged by LABOR against this exact line. The old line was stale twice: the threshold moved off U-3 entirely, and the level is **4.1%**, not 4.3%. **Why it moved: a U-3 level bar at ≥5.0% was true in 58.1% of all months since 1990 — a description of the world, not a trigger, separating recession from non-recession by only +13.8pp. The EPOP conjunction base-rates at 8.2% overall and 4.4% outside recessions, separation +53.6pp.** ⚠️ Note for anyone reading the old line as "not yet fired": on LABOR's constant-participation upper bound (**U-3 5.13%** vs 4.1% headline, gap widened monotonically from +0.08pp in January) the retired 5.0% bar is **already through** — LABOR deliberately wired it to nothing, and it is an UPPER BOUND, not an estimate.)*
 - Consumer spending collapse (still positive)
 - Credit event at another regional bank (hasn't happened)
 - Japan repatriation crisis (Takaichi won, markets shrugged)

@@ -11,6 +11,21 @@ Reverse-chronological log of **structural** changes to RED's docs, folders, sche
 
 ---
 
+## 2026-08-07 (S28) — CATALYSTS.tsv blank-row repair + 4 forward rows; NEXUS Amendment 10 brief-fold ordering adopted
+
+**Trigger:** S28 write-back (W4/W9) + PROME fleet-propagation packet `2026-08-04_from-PROME_nexus-amendment-10-brief-fold-ordering.md`.
+
+**What changed:**
+1. **`docket/CATALYSTS.tsv` — pre-existing blank row removed** (was line 40 in the committed file, confirmed against `git show HEAD:`). It predates this session; found when a schema check threw on it. File is now 60 rows, all NF=9. *A blank row is invisible to eyeball review and throws any strict TSV reader — worth the 5-second check at every write-back.*
+2. **4 forward rows added:** `2026-08-11` FT-06 earliest completion (with the DIET-guard disposition **pre-decided before the print**) · `2026-08-19` July FOMC minutes (makes LABOR's 7/29 grade final) · **`2026-08-21` CHG-027 HARD BACKSTOP** (self-imposed; carries its own declared failure mode) · `2026-08-28` QCEW preliminary benchmark (largest scheduled labor risk in the window).
+3. **Two rows re-statused:** the `2026-08-04` BDC cluster row → **`BLOCKED`** (printed but never graded — see CHANGELOG S28 ⑥); the `2026-08-07` CHG-044 amendment window → `resolved` (closed with no response, explicitly not scored as vindication).
+4. **`registry/FALSIFICATION_TRIGGERS.tsv`** — FT-01 `exit_source` rewritten for the re-fire + composition adjudication; **FT-06 `exit_source` now carries the broken-streak-resets ruling** so the semantics live with the trigger rather than only in STATUS prose. **`docket/WATCHLINES.tsv`** — WL-03 re-armed as FT-01's live exit.
+5. **NEXUS Amendment 10 ADOPTED:** the `NEXUS_BRIEF.md` fold is now the session's **LAST** write-back — after the final STATUS write, immediately before git commit (checkable form: brief commit timestamp ≥ STATUS commit timestamp). Executed that way this session. *Rationale worth keeping: the 7/31 fleet audit found 5-of-5 content-stale briefs had refreshed and then kept working — refreshing is not the fix, ordering is.*
+
+**Files touched:** `docket/CATALYSTS.tsv`, `docket/WATCHLINES.tsv`, `registry/FALSIFICATION_TRIGGERS.tsv`, `NEXUS_BRIEF.md`, `MAINTENANCE.md`.
+
+**Boot-impact:** `boot.py` DUE-scan and catalyst countdown now surface the 8/11 / 8/19 / 8/21 / 8/28 rows; the BLOCKED status makes the ungraded BDC gate visible at boot instead of reading as a benign pending row. No schema or boot-path change — `CLAUDE.md` needs no edit.
+
 ## 2026-07-24 (S25, evening) — FOMC framework versioned to v1.1; docket re-anchored ±2 months; KB.tsv stray blank line removed
 
 **Trigger:** CARL inbox packet falsifying a load-bearing premise in `research/FOMC_FRAMEWORK_JUL28-29_2026.md` (shipped ~6h earlier in S24) + LABOR packet correcting a docket date + adding a fleet-unowned FOMC leg.
