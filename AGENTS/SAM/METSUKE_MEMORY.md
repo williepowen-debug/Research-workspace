@@ -442,6 +442,29 @@ Context: First post-Run-3 sweep. Two material passes since Run 3 watermark — (
 
 *SAM-owned. METSUKE does NOT edit this section. Records SAM's pattern of which flag categories SAM accepts/applies vs declines, and what makes the difference. Lets METSUKE bias future reporting toward what SAM actually treats as drift.*
 
+### After Run 14 (2026-08-07) — the thesis-break run. **Recorded honestly, including where the metric breaks down.**
+
+- **Apply rate is the wrong metric this run and I am not going to flatter it.** Of Run-14's flags: **4 applied
+  individually** (the wrong-not-stale set), **~36 neither applied nor declined** — they were **dispositioned
+  wholesale** by a structural ruling (compress-to-history). Counting those as "declined" would understate
+  METSUKE; counting them as "applied" would be false. **They were superseded by a decision the flags themselves
+  forced.** Cumulative S/N is not meaningfully updatable from this run.
+- **The single most valuable thing Run 14 did was REFUSE to decide.** Escalation #1 named the compress-vs-correct
+  call, said explicitly it was SAM's judgment and not a diff, and predicted that leaving it undecided would make
+  Run 15 re-flag the whole totality. **That is exactly right, and it is the behaviour to keep** — a propose-only
+  agent that had "helpfully" started rewriting sections would have destroyed the audit trail of a thesis break.
+- **Best individual catch: the leg-1 SPF row (TRADE L188).** Not because it was stale, but because the cell
+  *already contained the correct read in its own text* — it said margin-driven covering was "the **modal**
+  expectation, not a tail (SAM-22)" while its header said "Tail — materially further out" and the resolver
+  carried ~25%. **METSUKE surfaced an internal contradiction SAM had walked past on every sweep since 8/2.**
+  **Bias future runs toward this class: a cell whose body contradicts its own header/label.** That is worth more
+  than ten stale numbers.
+- **Money-field discipline: clean again (0 escalations), and independently re-verified by SAM after the edits.**
+  Fourteen runs, zero money-field errors — this constraint is working and does not need tightening.
+- **DO-NOT-TOUCH reporting is now a REQUIRED section, not a nicety.** Run 14 volunteered it; on a thesis break it
+  is what stops the symmetric error (over-correcting live content that merely sits near dead content). **Keep
+  producing it every run.**
+
 ### After Run 2 (cumulative n=27; Run 1 + Run 2)
 
 - **Run 2 apply rate: 100% (8/8).** No declines. Cumulative S/N: 26/27 = 96.3%. Maintains "precision-over-recall" discipline — METSUKE did not pad TRADE flags despite STRATEGY also being clean on framing.
@@ -484,6 +507,35 @@ Track **declines-per-10-runs** here. A long streak of 100% acceptance is ambiguo
 ## NEXT RUN HINTS
 
 *Forward-looking context to bias the next run. SAM seeds these between runs; METSUKE may also write at end-of-run when a future condition is anticipated.*
+
+> ### 🔒 SAM PRE-EDIT — 2026-08-07 ~16:4x ET, AFTER Run 14 returned. **This is the answer to your own escalation #1.**
+>
+> **You wrote:** *"Recommend deciding this before the next mechanical sweep — otherwise Run 15 just re-flags the same totality."* **Correct, and here is the decision.**
+>
+> **🔴 RULING: `TRADE.md` and `STRATEGY.md` are COMPRESSED-TO-HISTORY, not corrected in place.** Both now carry a
+> top-of-file **HISTORICAL banner** (commit `342d42b4b`). Correcting ~40 cells would have produced a meticulously
+> accurate description of a structure that will never be opened — cost without value — and would have left both
+> docs *looking* live. Same call STATUS made the same day when it **deleted** its watch-for-entry list.
+>
+> **→ WHAT THIS MEANS FOR RUN 15 — read before sweeping:**
+> - ⛔ **DO NOT re-flag the ~30 STALE-MARK sites** (conviction grade, buckets 8/23/32, amplifier +8-10pp, CFTC
+>   90.8%/−163,412, the ~60% Sep-unpriced cluster). **They are knowingly-stale historical text under a banner.**
+>   Re-flagging them is not a catch — it is the failure mode you predicted. **A banner-governed doc is not drift.**
+> - ✅ **DO flag anything that CONTRADICTS the banner** — i.e. text that would still mislead a reader who *has*
+>   read it. That is the live test now, not staleness.
+> - ✅ **DO flag any NEW live-frame language** written after 2026-08-07. That would be genuine re-infection.
+> - ✅ **The DO-NOT-TOUCH set you identified is ratified**: EWJ/TLT/Japan-banks watchlists · Pillar 2 / JGB
+>   demand-vacuum + Meiji ~4.0% floor · oil-in-yen mechanism · all money fields. **Keep grading these normally** —
+>   they are live content inside a historical document, and over-correcting them is the symmetric error.
+>
+> **Your four "wrong-not-stale" items were ALL applied** (007 stand-down · −153K/85% VOID · leg-1 row FIRED ·
+> Sep-18 reframed). **Escalation #3 accepted:** CALENDAR is canon again for CAL-DRIFT (KOYOMI Run-15 ran 8/7).
+>
+> ⚠️ **The 2026-08-04 hint below about "~60%, not ~77%" is now DOUBLY stale** — the figure moved again on 8/6 and
+> is now a **band, ~40-54%**, with the Sep/Oct split **not identified**. **Do not hand-carry any percentage from a
+> hint. Read `workbook/BOJ_OIS.tsv`'s latest `as_of_date` row.** *(Third time this one number has gone stale in a
+> hint or on a forward surface — the lesson is the hand-carrying, not the number.)*
+
 
 - 🔧 **SEEDED BY SAM 2026-08-04 PM — Run-12 flag #5 (CAL-DRIFT) carries a STALE FIGURE; do not apply it verbatim.** That flag is still owed an apply pass and its text says the Sep 17-18 BOJ MPM lands on the boundary **"at ~77% unpriced."** **It is ~60%** as of 8/4 (Sep OIS ~23% → ~39.7%; cumulative basis, as-of 8/3, wire-corroborated). **The flag's SUBSTANCE stands** — the Sep 17-18 MPM genuinely is missing from TRADE Key Dates and L255 genuinely mis-enumerates the window — **apply the substance, but write ~60%, not ~77%.** ⚠️ Also carry the sign: the route pays on **SURPRISE**, so the repricing makes that leg **weaker**, not "more load-bearing." *(Found by RAV QC — SAM's own propagation sweep missed this file.)*
 
