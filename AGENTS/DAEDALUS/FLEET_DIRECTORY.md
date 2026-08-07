@@ -13,7 +13,7 @@
 | NEXUS | Utility | L4 | Cross-agent synthesis | L5 (YEYOU leg WAIVED-while-dormant, Will 7/22): residual polish (closeo… |
 | RED | Utility | L4 | Adversarial red-team | Optional label polish + YEYOU-clean -> L5 |
 | SAM | Market | L4 | Japan — BOJ / JGB / carry | BOTTOM LINE -> STATUS<250 -> 5-pt table (~8 rows) -> staleness lines =… |
-| LIQUID | Market | L4 | HY / credit spreads / liquidity | L4->L5: thin 5-pt overlay + Independence col — everything else cleared |
+| LIQUID | Market | L4 | HY / credit spreads / liquidity | L4->L5 (re-cut 8/7 EVE): (a) the routing leg for hy_oas_watch (~15 lines |
 | VIOLET | Market | L4 | VIX / vol term structure / vol-of-vol | L5 (YEYOU leg WAIVED-while-dormant, Will 7/22): owner lands predictions… |
 | BRENT | Market | L4 | Oil — Brent / WTI | L4->L5 re-cut 7/28: one closeout cycle w/ derived surfaces agreeing w/… |
 | HENRY | Market | L4 | Macro velocity / market trends | §2 handle table (the single named blocker) |
