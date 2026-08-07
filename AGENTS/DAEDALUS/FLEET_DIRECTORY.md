@@ -21,7 +21,7 @@
 | LABOR | Market | L5 | Labor market (claims / JOLTS / NFP) | HOLD L5 (FIRST MARKET L5, ratified 7/25) — sustain: clean closeouts |
 | BROCK | Market | L4 | Private credit / BDC / non-traded credit | L4->L5: YEYOU leg only — agent-side blockers ALL clear 7/27 |
 | HAWK | Market | L4 | Geopolitical synthesis (cross-war reconciliation, oil-decoupling thesis, war-risk/shipping) + dormant book (Taiwan/Venezuela/trade/chokepoints/defense/sanctions) — theaters split out 7/12††† ‡ | L4 HOLDS. L5 gated on the falsification rail, which is now the single n… |
-| TERRY | Utility | L4 | Trade construction / risk scoring ‡‡ | L5: one full cycle w/ gate-grader discipline holding (no surface carrie… |
+| TERRY | Utility | L4 | Trade construction / risk scoring ‡‡ | L5 (re-cut 8/7 PM per profile refresh |
 | REGINALD | Market | L4 | Regional banks | PROMOTE L4->L5 on verify: post-print THESIS refresh executed |
 | MARCO | Market | L4 | Florida migration / tourism (FL sub; reconcile w/ CORAL) | BOTTOM LINE (10min) -> 5-pt/Independence handle pass -> PREDICTIONS_ARC… |
 | ORACLE | Utility | L4 | Prediction-market diagnostics ‡‡‡ | L5: §2 CONTRACT block (cheap) |
