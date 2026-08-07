@@ -9,7 +9,7 @@
 | 7/29 | 287 |
 | 7/30 | 284 |
 | **7/31** | **285** — a FIFTH consecutive ≥280 print |
-| **8/3 (Mon)** | **278** — first close <280 since 7/26 |
+| **8/3 (Mon)** | **278** — first close <280 since Fri 7/24 *(corrected 8/6 review — said "since 7/26", a Sunday with no print; the ≥280 run is 7/27-7/31)* |
 | **8/4 (Tue)** | **273** — second consecutive <280 |
 
 (8/1-8/2 = weekend, no prints. The "widening PAUSED at print #4" read now resolves as: paused 7/30, resumed 7/31 to 285, then REVERSED −12bp over 8/3-8/4.)

@@ -1,6 +1,6 @@
 # FALCON — GATE-FALCON-001 Leg-3 Re-Pull Adjudication: Yanbu Loadings vs the Frozen −36% Bar (the 8/1-2 re-pull)
 **PROXY RUN — phone-session spawn (PROME-directed, Will in-session); real-FALCON integrates at next boot.**
-**As of:** 2026-08-02 ~14:40 ET (Saturday) · **Author:** FALCON (revival-proxy) · **Trigger:** the 8/1-2 re-pull FALCON itself scheduled (`KB-FALCON-066`; SCRATCH NEXT-SESSION item 5; HEARTBEAT §1 "tightest margin on the board")
+**As of:** 2026-08-02 ~14:40 ET (Sunday *[weekday corrected 8/6 review — said Saturday]*) · **Author:** FALCON (revival-proxy) · **Trigger:** the 8/1-2 re-pull FALCON itself scheduled (`KB-FALCON-066`; SCRATCH NEXT-SESSION item 5; HEARTBEAT §1 "tightest margin on the board")
 
 ---
 
