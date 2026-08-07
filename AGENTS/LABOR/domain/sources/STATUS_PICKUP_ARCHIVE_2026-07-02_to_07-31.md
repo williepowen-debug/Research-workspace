@@ -227,3 +227,58 @@ June resolved the bifurcation — into a **deeper freeze on a shrinking labor fo
 | **Big-tech WARN cluster (7/6)** | 8 software/internet firms ~7,725 filed Apr–Jul (Meta ~4,665 the anchor) + MSFT ~5,700 announced; chips quiet | ⬇️🔴 tech white-collar/AI displacement in HARD filings → LAB-11/AI-capex node |
 
 > **Rehomed / cross-tracked (not LABOR-active):** **LAB-04** FL foreclosures +75%+ YoY, 75% conf, **REHOMED→CORAL 7/9** (CARL pickup limbo closed; CORAL's mandate already covers FL foreclosure-by-metro). Not resolved — CORAL owns the clock now, register under CORAL's own IDs. Employment-signature cross-flag preserved. LABOR-side accelerant WEAKENED at hand-off (FL claims quiet, not top-10 IUR). Handover packet delivered to CORAL 7/9 (consumed).
+
+## ARCHIVED 2026-08-07 round 7 — the v1 freeze-thaw defect bullets, superseded by the v2 spec block (verbatim)
+
+
+  - ✅ **STATUS 2026-08-07 — THE WINDOW IS CLOSED AND THE GATE'S BLINDNESS COST NOTHING, BY LUCK.** I base-rated this gate jointly on 7/31 and found it **could not fire on Aug 7 at any value of the data** (leg 1 needs ≥150K ×2 *consecutive* on the **revised** series; the pair was (Jun, Jul) and June was +57K). I flagged that as leaving my formal bull-side exit **blind in the week I was most exposed to a hot outcome.** **The week came in cold instead: July printed −23K and June revised DOWN to +20K.** So the blindness was real, correctly diagnosed, and **never tested** — `[[finding_verification_zero_is_ambiguous]]`: a gate that did not fire in a month it *could* not fire produces **no information**, and I am not recording this as the gate working.
+
+  - 🔴 **The defect is now WORSE than diagnosed, and this is a real finding rather than a restatement.** Leg 1 requires two consecutive ≥150K prints on the revised series. The revised run is **63 / 20 / −23**, so the pair must be built from **September and October data at the earliest** — the ~Sep 4 estimate in the 7/31 base-rating was **itself too optimistic**, because it assumed June would hold near +57K and it fell to +20K. **A falsification rule keyed to a ×2-consecutive condition on a series that is being revised down every month drifts further out of reach the worse the data gets.** That is the opposite of what a bull-side kill is for.
+
+  - ✅ **BD-11 IS NOW DUE — the "after the Aug 7 print" condition is met as of today.** Per card §1.4 the gate was **not** re-cut mid-window (silently loosening a falsification rule while its window is open is thesis protection), and it was not. **The window is now closed, so the revision is owed and is registered as this session's top build item.** Three defects to fix, not two: (a) ×2-consecutive-on-revised lags by design; (b) the three legs were never base-rated jointly at registration; (c) 🆕 **the lag is state-dependent — it stretches as revisions worsen.**
+
+  - ⚠️ **I-1's verdict from 8/5 STANDS on the letter and I am not re-opening it** (2 of 4 landed: hires 5,348K ✓, ISM Mfg 52.8 ✓). **But both were survey/intentions measures and both hard counts have since gone the other way** — NFP −23K, Challenger AI persisting at 32.8%. **What that teaches is a card-design lesson, not a scoring one: a 2-of-4 implication test whose conditions are not balanced between intentions and realized counts can fire on the intentions half alone.** Three of I-1's four conditions (hires, ISM, Challenger-AI) are survey or announcement data; only NFP is a realized count. → **L-13.**
+
+## ARCHIVED 2026-08-07 round 8 (C1 cap) — verbatim
+
+
+*(Prior framing, Jul 2:)* The announcement-vs-realization bifurcation largely RESOLVED — not into a break, but into a **deeper freeze**: announcements cooled hard (Challenger −53% m/m) while realization stayed frozen (claims/layoffs at lows, hires at lows, quits 1.9%). What's NEW is the **supply side**: the labor force shrank 720K in one month and wages re-accelerated — so weak payroll growth no longer maps cleanly to demand weakness, and **U-3 is now structurally suppressed as a stress gauge** (breakeven payrolls falling toward ~0-50K). The demand-vs-supply attribution question governs every threshold we own that is denominated in U-3. *(CORE TENSION de-duplicated 8/7 under the C1 cap: the ISM-Mfg-July, ADP-July and big-tech-WARN rows lived here AND in the SIGNAL DASHBOARD / matrix v5 — the fuller copies were kept, these archived verbatim.)*
+
+## ARCHIVED 2026-08-07 round 9 (C1 cap) — closed PENDING-INPUTS + graded calendar rows, verbatim
+
+
+| ✅ 7/28–7/31 | HENRY · NEXUS ×2 · PROME ×4 · MARCO ×3 · RED | **12 packets, ALL DISCHARGED** — dispositions archived → `domain/sources/STATUS_PICKUP_ARCHIVE_2026-07-02_to_07-31.md` | ✅ **Closed 7/31–8/5.** Headlines still load-bearing: HENRY's 3.5% ECI middle band **adopted** into KEY THRESHOLDS; PROME's Band-B audit verified and fixed pre-print, **but its prescribed fix would have inverted the card** — an auditor's fix still needs carrying through; PROME round-2 **REVERSED** my German-PMI strike (→ **L-11**), and that counter proved right on 8/3; MARCO Channel-1 demotion adopted, his 6pp/3.2pp re-scope a verified **NO-OP**; PROME 7/31b's 4 Will-rulings **all implemented** (quarterly cards → next ECI 10/30; B5b no-closeout-gate; push-by-session-type; `PUBLISHED.tsv` built) |
+
+| ✅ **8/4** | **PROME** | NEXUS schema **Amendment 10** — brief fold is the session's LAST write-back | ✅ **ACTIONED** — installed in `CLAUDE.md` C1 8/5 and **honored this session** (brief committed after the final STATUS write) |
+
+| ✅ **8/6** | **Will-directed commit review** | Three reconcile items: knowns-count contradiction (R6), mean-Brier propagation ~0.0015, the *"saved 0.060"* claim | ✅ **ALL THREE ACTIONED 8/7** — see the scoreboard + L-12 amendment. The knowns-count version I retired is **"only 3 known"**; the honest reconstruction is **two free parameters** |
+
+| ✅ **Wed Aug 5, 10:00 — GRADED 8/7** | **ISM Services July** | **Employment 47.4** (−3.8) — *"returned to contraction territory after only one month in expansion"*; PMI 54.1, Business Activity 59.1 (+3.7), New Orders 57.2 (+2.1). **Demand accelerated while employment contracted.** → **vector 3 HOLDS at 2** per the 8/5 pre-commitment |
+
+| ✅ **Thu Aug 6 — GRADED 8/7** | **Claims w/e Aug 1** + **Challenger July** | **199K / MA 198,750** = Band B; the **6th MA decline was mechanically pre-computed on the card 7/31** (~215K roll-off) and is **NOT** reported as information ✅. **CC 1,801K, +19K, first rise in 5 weeks.** **Challenger 33,429**, AI **32.8%** #1 5th mo, hiring plans **+47% m/m** |
+
+## ARCHIVED 2026-08-07 round 10 (C1 cap) — verbatim
+
+
+| ✅ **Aug 5 / Aug 6 — GRADED 8/7 (owed from sessions that never ran)** | ISM Services July · Challenger July · claims w/e Aug 1 | **ISM Svs emp 47.4** (−3.8, back to contraction) → **my 8/5 pre-commitment fires: vector 3 HOLDS at 2** ✅ · **Challenger 33,429** (2-yr low), **AI 32.8% #1 5th mo** → Band B, **v5 holds at 4**; level <40K → **v2 → 1** · **Claims 199K / MA 198,750** → Band B; **CC 1,801K, first rise in 5 wks** |
+
+| ✅ 🔴 **Aug 7 — GRADED SAME DAY** | **NFP July + U-3** — the pre-declared discriminator | **−23,000**; revisions **−103K**; 3-mo avg **+20K**. **Card Band F.** **LAB-13 ❌** (healthcare +22K) → Brier 0.09. **T-06 NOT FIRED** — NFP leg satisfied, U-3 leg failed (fell 0.1pp on LFPR 61.4%). ⚠️ **THE DISCRIMINATOR DID NOT DISCRIMINATE:** payrolls negative *and* labor force −264K in the same month, so demand-weakness and supply-shrink both fired and L-06 forbids resolving it on U-3. **Owed answer: I don't have one, and the next real tests are QCEW 8/28 and NFP 9/4** |
+
+## ARCHIVED 2026-08-07 round 11 (C1 cap) — verbatim
+
+
+| ✅ **Jun 30 – Jul 31 — ALL GRADED (13 rows collapsed 7/31 PM)** | JOLTS May (LAB-16 ✅) · NFP June **+57K / −74K revisions / U-3 4.2% artifact** (LAB-02 ❌, Kill A reset) · ISM Svs emp 47.4 · claims 7/9, 7/16, **7/23 187K**, **7/30 197K → LAB-17 ❌** · FL UR 4.7% **T-11 not fired** · RHI + **KFRC Q2 → canary triple 3-for-3, vector 14 → 1** · S&P flash employment turned · **FOMC 7/29 labor-language → branch (a), implication refuted** · **ECI Q2 → DENY branch, 0.4pp wedge** | **All graded; nothing live hangs on them.** Grades: `domain/sources/FOMC_LABOR_LANGUAGE_GRADE_20260729.md` · frozen cards → `docket/graded/` · detail in Signal Dashboard + `domain/sources/` |
+
+| ✅ **Jul 6 – Aug 5 — ALL GRADED, 3 rows collapsed 8/7** | Late-July WARN-cohort claims test (**LAB-17**) · the 8-firm big-tech WARN cluster (~7,725 filed Apr–Jul, chips QUIET) · ISM Mfg July · JOLTS June · ADP July | **LAB-17 ❌** — 197K vs the required ≥327K; failed on **cohort SIZING, not mechanism** (all cohorts under the L-08 detectability floor, marked LAPSED-LOW in `WARN_COHORT.tsv`), Brier 0.09 · **LAB-06 ❌** — ISM emp 52.8, Brier as-made 0.64 · **JOLTS hires 5,348K** → vector 4 4→3; **layoffs 1.1% so the bear path did NOT open** · **ADP +44K** → no re-grade (§2c). 🔴 **Live residual: MSFT/ZeniMax 763 hard-filed, effective Sep 4** → `WARN_COHORT.tsv` + the Sep-4 CATALYSTS row. Full verbatim rows → `domain/sources/STATUS_PICKUP_ARCHIVE_2026-07-02_to_07-31.md` |
+
+| ✅ **Mon–Wed Aug 3–5 — GRADED (3 rows collapsed 8/7)** | ISM Mfg July · JOLTS June · ADP July | **ISM emp 52.8** (+3.1, expansion for the 1st time in 33 months; PMI 55.6 highest since May-2022) → **LAB-06 ❌**, headline Brier as-made **0.64**, the 20% pre-print re-registration logged as a separate diagnostic 0.04 · **JOLTS hires 5,348K** (+96K; May revised UP 5,170→5,252K), quits **2.0%**, openings −178K, **layoffs rate 1.1% FLAT** → vector 4 4→3 · **ADP +44K** (weakest since Jan; edu/health = 82% of the gain) → **logged only, §2c pre-committed**. Verbatim → archive |
+
+## ARCHIVED 2026-08-07 round 12 (C1 cap) — verbatim
+
+
+## ARCHIVED 2026-08-07 round 13 (C1 cap) — consumed calendar rows, verbatim
+
+
+| 🔒 **Aug 3–7** | **THE WEEK IS PRE-REGISTERED — SIX prints, one frozen card** → `docket/GRADING_CARD_20260803_to_0807.md` | **Grade off the card, not the tape.** 🔴 **Headline finding, established BEFORE the week: the freeze-thaw check (my own bull-side kill) is INERT for this cluster** — leg 1 needs **≥150K ×2 consecutive** and June is **+57K**, so the pair (Jun, Jul) cannot complete on 8/7 at any July value; **earliest possible fire ~Sep 4.** Legs are therefore pre-committed **individually**: if July NFP ≥150K w/ LFPR flat-or-rising, or hires >5.5M, I say **"leg banked, gate cannot fire"** — a gate that *can't* fire yields **no information**, not a negative result. If **2 of 4** I-1 conditions land (hires >5.3M · NFP ≥150K · ISM ≥50.0 · Challenger AI collapsing), **the freeze thesis is breaking and I say so that week** rather than waiting a month for the formal gate |
+
+| ~**Aug 6** | **Challenger July** | 🆕 **Now double-loaded:** T-09 AI-share re-arm needs >40% ×2 — **and this is the honest re-grade test for vector 5**, which the KFRC counter put AT RISK. AI share <25% or not-#1 → **cut vector 5 to 3** |
