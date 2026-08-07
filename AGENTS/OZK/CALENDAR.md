@@ -1,6 +1,6 @@
 # OZK CALENDAR
 
-**Last Updated:** 2026-07-22 (Q2 print+call RESOLVED, both stages graded; Q3 call added as the mgmt-self-set "92-day" RaDD report-back; Aug row synced to the 7/18-approved 52%) | **View:** Forward-looking + recently-resolved. Past events pruned weekly.
+**Last Updated:** 2026-08-07 (Q2 Call Report window RESOLVED — pre-registered LOG-ONLY pull executed, zero grade moves; Aug IQHQ row OZK-09 figure corrected 52%→45% to match the 7/23 Will-approved re-mark, which this file had lagged for 15 days). Prior 2026-07-22 (Q2 print+call RESOLVED, both stages graded; Q3 call added as the mgmt-self-set "92-day" RaDD report-back) | **View:** Forward-looking + recently-resolved. Past events pruned weekly.
 
 ---
 
@@ -33,8 +33,8 @@
 
 | Date | Event | What to Check | Threshold / Signal |
 |------|-------|---------------|-------------------|
-| **~Aug 1-10** | Q2 Call Report (FFIEC, REPDTE 20260630) | Log-only vs supplement basis (Z6 — never re-grades); CRE-specific NCO (OZK-01 archive note); past-due/NCO basis fork check | Documentation, no grade moves. |
-| **Aug 2026** | **IQHQ RaDD loan MATURITY** ⚠️ (re-confirmed from Q1 transcript 7/4; **7/22 call: multi-year extension+recap IN NEGOTIATION, sponsor+mezz lender engaged, terms not final; mgmt expects pass-rated outcome; interest paid from interest reserves; "~92d" → Q3-call disclosure — Aug likely passes without a public print**) → `IQHQ_PLAYBOOK.md` | Watch for executed-extension disclosure (8-K/press unlikely per mgmt cadence); interest-reserve exhaustion; mezz-lender identity surfacing | Weighted EL $140M (22% of ACL). B fires = specific reserve $140-195M. D = $275-360M loss. **P($140M+ recognition) = 52% [OZK-09, re-marked 7/18 Will-approved; 68% was the pre-refinement figure].** Weights A20/B50/C12/D18 unchanged; A-color up 7/22, re-mark discussion queued. |
+| **~Aug 1-10 ✅ RESOLVED 8/7** | Q2 Call Report (FFIEC, REPDTE 20260630) — **PULLED**, 18-qtr series, RSSD 107244 verified at primary | **Scope honored exactly — zero grade/threshold/probability moves.** ① Basis fork **stable +7bps** both quarters (CR $323.7M/0.99% vs suppl. $298M/0.92%; Q1 CR $487.5M/1.48% reproduced EXACT) ② CRE-specific NCO H1-26 **0.50% ann.** (Q2 0.78%) — OZK-01 archive note discharged ③ 🔴 **MI3 37.6% baseline does NOT reproduce at 18 qtrs; live 9.35%** ④ 🔴 `RIAD5409` **$42.4M debt-on-debt charge-offs, first nonzero in 18 qtrs** ⑤ ⚖️ kill-§1 **ADJUDICATED** | → `CALL_REPORT_2026Q2_LOG.md` · `workbook/CALL_REPORT_SERIES.tsv`. 5 proposals P-OZK-1..5 Will/PROME-gated, **not applied**. |
+| **Aug 2026** | **IQHQ RaDD loan MATURITY** ⚠️ (re-confirmed from Q1 transcript 7/4; **7/22 call: multi-year extension+recap IN NEGOTIATION, sponsor+mezz lender engaged, terms not final; mgmt expects pass-rated outcome; interest paid from interest reserves; "~92d" → Q3-call disclosure — Aug likely passes without a public print**) → `IQHQ_PLAYBOOK.md` | Watch for executed-extension disclosure (8-K/press unlikely per mgmt cadence); interest-reserve exhaustion; mezz-lender identity surfacing | Weighted EL $140M (22% of ACL). B fires = specific reserve $140-195M. D = $275-360M loss. **P($140M+ recognition) = 45% [OZK-09, re-marked 52%→45% on 7/23, Will-approved; 68%→52% on 7/18 was the prior step].** Weights **A30/B45/C8/D17** (re-weighted 7/23). **Option-2 event-anchored recognition window FROZEN 7/23** — recognition counts through the Q4'26 print if no executed extension; an executed A/C takeout with <$140M resolves FALSE immediately. *(This row read "52% / A20/B50/C12/D18" until 8/7 — a stale mirror of the canonical `PREDICTIONS.tsv` OZK-09 row, not a second decision. Nothing was re-marked on 8/7.)* |
 
 ## OCTOBER
 
@@ -43,6 +43,12 @@
 | **Oct 1, 2026** | **$350M sub notes reprice** | 2.75% fixed → SOFR+209bps (~6.4%). Tier 2 capital −20% for 12mo. Mgmt "no plans to redeem or replace." **Not discussed on the 7/22 Q2 call (checked both transcripts).** | +$12.8M/yr interest (~$0.09 EPS annual drag). NIM headwind not in most street models. |
 | **~Oct 2026** | **★ Q3 earnings + call — mgmt's self-set "92-day" RaDD report-back** (Hamblen 7/22) | RaDD extension terms (executed? curtailment? new equity? mezz treatment?); **SpecMention $616M reversal-rate test** (Gleason's churn claim); NCO vs "back under industry" FY guide; provision "drift down" test; $330M pending-sale credit resolution | Extension WITH curtailment/paydown = A-solid; extension w/o cure + reserve = B; SpecMention sits/migrates INTO classified = adverse-selection hardens. |
 | **Oct 2026** | Affinius Capital $2.7B bond maturity ⚠️ | Refi ability, NDFI stress. Corporate exposure unverified, but **asset-level co-lending CONFIRMED 7/6** (777 Industrial: OZK holds $95M of Affinius/SqMile-originated note, as-market underwater; SqMile ~$100M junior under OZK's Southline senior) [KB-203]. | Failure to refi = discrete OZK catalyst via the co-lending/takeout channel. |
+
+## NOVEMBER
+
+| Date | Event | What to Check | Threshold / Signal |
+|------|-------|---------------|-------------------|
+| **~Nov 1-10** | **Q3 2026 Call Report (FFIEC, REPDTE 20260930)** — recipe now proven, RSSD **107244** | Re-run `workbook/CALL_REPORT_SERIES.tsv`: **`RIAD5409`** (does the debt-on-debt charge-off run continue, or was H1 a one-off?) · `RCON2746` balance · MI3 both bases · past-due basis fork (does +7bps hold a 3rd quarter?) · 30-89 → nonaccrual/OREO transit | **LOG-ONLY again — Z6 never re-grades off this source.** ⚠️ **FFIEC JWT expires 2026-11-05** — renewal is a Will action (PWS login); check before the pull. |
 
 ---
 

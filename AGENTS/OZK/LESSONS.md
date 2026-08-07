@@ -14,9 +14,23 @@
 **Rule 1:** Decompose OZK CIB/NDFI by sub-segment before assessing risk. Don't treat it as monolithic.
 **Rule 2:** Verbal-only disclosures (earnings call transcript) that don't appear in written Mgmt Comments PDFs are the leading signal. Watch for disclosures that vanish between spoken and written form — they're telling you what management doesn't want formalized.
 
-### [Analysis] — Hidden CRE Methodology
+### [Analysis] — Hidden CRE Methodology ⚠️ **RECIPE DEFECTIVE FOR OZK — read the amendment below before using**
 **How to screen:** Pull FFIEC Call Report Schedule RC-C Part I. Item 4 = C&I loans. Memo Item 3 (RCON2746) = "Loans to finance CRE not secured by RE." Ratio = Memo3/Item4. Flag if >20%.
 **Key finding:** OZK worst in screen at 37.6%. WAL ratio is GROWING (15.5% → 24.2%), only bank with upward trend.
+
+> **⚠️ AMENDMENT 2026-08-07 — the recipe above has a denominator defect, and its OZK result does not reproduce.**
+> **(1) The denominator is wrong for OZK.** `RCON2746`'s own FFIEC definition places its balance in RC-C items **4 AND 9**. For OZK the whole balance is in **item 9.a**: `RCONPV09` ("Other loans to nondepository financial institutions") ≡ `RCON2746` **to the dollar in all six quarters the Memo-10 breakdown exists** (Q1-25 → Q2-26). Dividing by item 4 divides the numerator by a base that contains ~none of it. **Always report BOTH bases, labeled.** *(WAL hit the same defect the same day — its proposal P8. There it over-states; here it is a category mismatch.)*
+> **(2) The 37.6% does not reproduce at any of 18 quarters, on either basis.** Recipe basis: 294.93% (Q1-22) → **9.35%** (Q2-26). Fuller basis: 67.00% → **5.46%**. OZK is now **below the screen's own >20% flag** for two consecutive quarters.
+> **(3) Scope guard.** MI3 measures CRE-purpose lending **NOT secured by real estate**. It says nothing about the secured book — RESG, IQHQ/RaDD, classified balances, the 11 tracked credits. **Do not read a MI3 collapse as a CRE-thesis weakening.**
+> Working → `CALL_REPORT_2026Q2_LOG.md` §3 · series → `workbook/CALL_REPORT_SERIES.tsv`. Disposition of the 37.6% line is REGINALD's (they own the screen) — proposals P-OZK-1/2, Will/PROME-gated, not applied.
+
+### [Process] — Reproduce the Baseline Before You Grade Against It
+**Mistake:** Two independent 2026-08-07 first-run Call Report pulls each found their recorded baseline wrong — OZK's 37.6% MI3 unreproducible at 18 quarters; WAL's "+8.7pp over **2** quarters" actually **6** quarters, making the trend look 3× steeper than it was. Both had been load-bearing for months, in multiple surfaces, with the recipe written down the whole time.
+**Rule:** Before a number grades anything, recompute it from the primary on its stated basis. If the levels don't reproduce, the correct output is a **basis dispute, not a verdict.** Two-endpoint claims ("X → Y, fastest in cohort") must carry the **interval** and be checked against the full series — the shape of a series is not recoverable from its endpoints. **The recipe being recorded is not the check being run.**
+
+### [Process] — A Threshold on a Transit Bucket Is Mis-Specified
+**Mistake:** THESIS kill-criterion §1 graded *past-due* (a bucket credits pass **through**) and fired at Q2-2026 — in a quarter when the 30-89 bucket emptied −88% **into** nonaccrual, OREO and charge-off, with NPA **+31.9% QoQ**. The criterion's literal condition and its stated meaning ("the migration pipeline is not flowing") pointed in **opposite directions**.
+**Rule:** Threshold a **stock**, not a **transit bucket**. Before pre-registering a level, ask: *can this measure fall because the underlying got better, AND fall because it got worse?* If yes, it cannot grade. Pair it with a bucket-invariant companion (30-89 + nonaccrual + OREO), or with the destination buckets, so the direction is recoverable. ⚠️ **And when such a criterion does fire, adjudicate the mechanism before recording the kill — the decomposition that settles it is usually in the Call Report and absent from the supplement.**
 
 ### [Analysis] — Distinguish Classification Levels
 Three levels of CRE masking:
@@ -37,4 +51,4 @@ All three can coexist at the same bank. OZK's 37.6% MI3 baseline means classific
 
 ---
 
-*Last reviewed: 2026-04-24 (seeded from REGINALD/LESSONS.md during spinout)*
+*Last reviewed: 2026-08-07 (Q2 Call Report LOG-ONLY session — MI3 recipe amendment + 2 new process rules). Prior: 2026-04-24 (seeded from REGINALD/LESSONS.md during spinout).*

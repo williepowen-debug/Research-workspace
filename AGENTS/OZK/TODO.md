@@ -1,9 +1,9 @@
 # OZK — Research TODO / Backlog
 
-**Last updated:** 2026-07-22 (**Q2 print cycle CLOSED** — both stages graded, 5 resolved mean Brier 0.1987; queue now = DAEDALUS-sweep remainder, OZK-09 re-mark discussion, insider re-pull, Call Report ~Aug, NDFI regime monitor, SI field). Prior 7/20: firedrill Z1–Z10 ADDENDUM A + $154M Z2 freeze.
+**Last updated:** 2026-08-07 (**Q2 Call Report window CLOSED** — pre-registered LOG-ONLY pull executed, zero grade moves; DAEDALUS sweep items 1-4 all closed; inbox cleared, 5 packets → processed/; **new queue = 5 Will/PROME-gated proposals P-OZK-1..5**, frame-spec fixes, insider re-pull). Prior 2026-07-22 (**Q2 print cycle CLOSED** — both stages graded, 5 resolved mean Brier 0.1987; queue now = DAEDALUS-sweep remainder, OZK-09 re-mark discussion, insider re-pull, Call Report ~Aug, NDFI regime monitor, SI field). Prior 7/20: firedrill Z1–Z10 ADDENDUM A + $154M Z2 freeze.
 **Source:** Follow-up threads identified during Threads 1 and 2 deep dives; plus subdir hygiene queue added Apr 23 (now cleared).
 
-**Strategic framing (updated 7/6):** Position book is stale/not-managed (May lines expired unlogged; Aug 21 lines unverified — per Will's 7/4 steer). Research focus until Jul 21 = Q2-print preparation: the pre-registered OZK-05→09 reads govern conviction (OZK-07 discriminator above all). Bluerock trade gate stays parked pending a fresh TI+ NAV mark.
+**Strategic framing (updated 2026-08-07):** **Position question is CLOSED, not deferred** — book reconciled to `FORGE/STATUS.md` (8/2 ANVIL: **$45P ×4 + $42.5P ×1, Aug-21**) and **Will RULED RIDE on 8/4**: the residual rides to the 8/21 OPEX and is **not a re-present item**. Do not re-open it; do not propose rolls or exits. Research focus = the **Aug IQHQ maturity window** (mgmt guided "~92 days" → the Q3 call, so Aug likely passes without a public print) then the **Q3 print/call ~Oct** — the self-set report-back that tests every bull claim on record. Bluerock trade gate stays parked pending a fresh TI+ NAV mark. *(Prior 7/6 framing said the book was stale/unverified — true then, resolved now.)*
 
 ### ✅ DONE (2026-07-06 PM): Atrium PDF obtained + fully extracted
 Will provided it same session → `raw/Atrium_Life_Science_Reckoning_OZK_2025Q4.pdf` (67pp, **~Q4'25 vintage** — the memo had mislabeled it 2026). Read visually (image-only), pp 10-16 + 27-62. KB-201 VERIFIED; KB-117 SUPERSEDED (it was the garbled one — real Atrium RaDD as-market = $1.06B); KB +7 (203-209). Extraction → `research/threads/ATRIUM_LIFESCI_ASSET_MAP.md`. Follow-ups below.
@@ -16,6 +16,24 @@ Will provided it same session → `raw/Atrium_Life_Science_Reckoning_OZK_2025Q4.
 
 ### ✅ Read the Q1 2026 Form 10-Q — DONE 2026-07-18
 First-ever 10-Q primary read. Findings → KB-210 (debt-on-debt), KB-211 (collateral-dependent marking), KB-212 (nonaccrual→60-89d migration + $465M past-due), KB-213 (Tier-2 $280M confirm). Armed OZK-05→09; drove v1.5 recognition-timing refinement. Full extract in scratchpad; key facts folded into STATUS/THESIS/IQHQ_PLAYBOOK.
+
+### 🆕 NEW (2026-08-07) — Q2 Call Report session output
+
+**⚠️ FIVE PROPOSALS AWAIT WILL/PROME. None applied — the 8/7 session moved zero grades, thresholds, probabilities or weights (pre-registered LOG-ONLY scope).** Working → `CALL_REPORT_2026Q2_LOG.md`; delivery packet → `PROME/inbox/2026-08-07_from-OZK-spawn_callreport-sitting-delivery.md`.
+
+| # | Proposal | Owner of the call | Blocked on |
+|---|---|---|---|
+| **P-OZK-1** | Re-base MI3 to `RCON2746 ÷ (item 4 + item 9)`, or keep item 4 and document it as a structurally non-overlapping basis | REGINALD (owns the ML-REG screen) | REGINALD's screen re-run |
+| **P-OZK-2** | Disposition of the "**37.6% / worst in screen / ML-REG baseline**" line, live in **4 surfaces** incl. root `CLAUDE.md` | Will + REGINALD | ditto — **one figure, one owner**; deliberately NOT corrected unilaterally |
+| **P-OZK-4** | Re-specify THESIS kill-§1 on a bucket-invariant measure (30-89 + nonaccrual + OREO) instead of the transit bucket | **Will** (threshold change) | Will's ruling; criterion text left verbatim |
+| **P-OZK-5** | Fix **OZK-03**'s scope slippage — written on *RESG-segment* NCO, tracked on *bank-wide* NCO, and **no filing carries a RESG NCO rate** | **Will / PROME** (live frame wording) | resolves Feb-2027 — fix EARLY, not at the grade |
+| *(P-OZK-3)* | Route the debt-on-debt charge-off datum to BROCK as **UNATTRIBUTED** — not a grade of their flip (a) | BROCK | ✅ **done** — outbox signal written |
+
+1. **OZK-09 carrier risk (frame-spec check, no action taken).** The $140M+ threshold is credit-specific; OZK's filings are aggregate and name no credits (the Call Report confirmed this the hard way). Carrier is likely the **earnings-call transcript**, not a filing. Pre-register that, and that a no-attribution outcome = **resolvability defect → STATUS `STUCK`, not a confidence cut.** ⚠️ **OZK-09's 45% and the Option-2 FROZEN ruling are untouched and stay untouched.**
+2. **OZK-04 note (not a defect):** its numerator is our own `SEVEN_CREDIT` roster, not a filing line — gradeable only if the roster is current at the Feb-2027 print. Keep it fresh or the frame can't grade.
+3. **PAT-044 / ledger hygiene (DAEDALUS item 5, partial):** `workbook/CALL_REPORT_SERIES.tsv` ships with a two-clock header from birth. **Still queued:** two-clock headers on `KB.tsv` + `PREDICTIONS.tsv`, `ledger_staleness.py` boot wiring, `PREDICTIONS_ARCHIVE` seed (5 resolved rows).
+4. **⏰ FFIEC JWT expires 2026-11-05** — renewal is a **Will action** (PWS account login). The Q3 Call Report window is **~Nov 1-10**, i.e. *straddling the expiry*. **Check the token before that pull.** `env_doctor` now self-announces the gap; the laptop lacks both `.env` keys entirely.
+5. **Q3 Call Report re-run (~Nov, LOG-ONLY again):** does `RIAD5409` keep printing (regime) or was H1-26 a one-off? Does the past-due basis fork hold at +7bps a third quarter? Does MI3 keep falling?
 
 ### 🆕 NEW (2026-07-18) — carried forward
 1. ✅ **Jul-21/22 Q2 earnings — FULLY GRADED (Stage-1 7/21, Stage-2 7/22).** OZK-07★ TRUE + OZK-05 TRUE → conviction HELD 🔴🔴; OZK-01/06/08 FALSE; mean Brier 0.1987; OZK-09 OPEN w/ A-extend color (RaDD extension/recap in negotiation, "92 days" → Q3). → `workbook/Q2_2026_SCORING_CARD.md`. **Spawned follow-ups:** (a) DAEDALUS-sweep remainder — THESIS kill-criterion §1 adjudication + PAT-044 headers + ledger_staleness wiring + PREDICTIONS_ARCHIVE (packet in inbox/); (b) OZK-09 re-mark discussion w/ Will; (c) insider re-pull post-window; (d) Q2 Call Report log ~Aug 1-10 (Z6 never re-grades); (e) Q3 watch-adds: SpecMention $616M reversal rate, NCO vs "back under industry" guide, $330M pending-sale credit, mods counter (unanswered at Q2), Portal 405/777 (did NOT appear in Q2 substandard table).

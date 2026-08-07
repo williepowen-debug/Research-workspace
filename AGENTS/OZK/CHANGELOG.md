@@ -15,6 +15,36 @@ A new entry must describe:
 
 ---
 
+## 2026-08-07 — Q2 Call Report LOG-ONLY pull: kill-§1 adjudicated + MI3 37.6% baseline contradicted by primary (NO THESIS version bump — v1.5 stands; no weights, thresholds or probabilities moved)
+
+### Summary
+First-ever OZK FFIEC Call Report series pull (18 quarters, ID_RSSD **107244** verified at the primary, FDIC cert 110), run under the **pre-registered LOG-ONLY scope** in `CALENDAR.md` ("~Aug 1-10 … Documentation, no grade moves"; **Z6 never re-grades off this source**). Two `THESIS.md` sections changed; **both are records, not judgments about weight.**
+
+### What changed
+1. **Kill-criterion §1 — "Current state" stamp refreshed and the criterion ADJUDICATED.** The stamp read *"None fired (2026-04-23)"* and had been false since the 7/21 print. Now a per-criterion table with evidence.
+2. **§MEMO ITEM 3 — CONTRADICTED-BY-PRIMARY banner added.** The section's own text, table rows and KB anchors are **left intact**.
+
+### Why it changed
+DAEDALUS 7/22 production-review sweep item 2 (kill-§1 adjudication owed) + the pre-registered Q2 Call Report window, both discharged this session off FFIEC CDR primary data.
+
+### Old view vs new view
+| | Old | New |
+|---|---|---|
+| **Kill §1** | "None fired (2026-04-23)" | **FIRED-LITERAL / ADJUDICATED NON-DISCONFIRMING-ON-MECHANISM.** Q2 past-due $298M (supplement) / $323.7M (Call Report) — both <$400M, so it fired on every basis. But the decline is **entirely the 30-89 transit bucket** (−88%) while nonaccrual ROSE and OREO nearly doubled; **NPA +31.9% QoQ**. Migration-through, not pipeline-stop — the ambiguity OZK-06 pre-registered. The criterion grades a transit bucket ⇒ **mis-specified**. |
+| **MI3 / hidden CRE** | OZK **37.6%**, worst in the REGINALD screen, ML-REG baseline | **Does not reproduce at any of 18 quarters on either documented basis.** Recipe basis 294.93% → **9.35%**; fuller basis 67.00% → **5.46%**. Live Q2-26 = **9.35%**, below the screen's own >20% flag. Cause: OZK's entire Memo-3 balance sits in RC-C **item 9.a**, not item 4 (`RCONPV09` ≡ `RCON2746` to the dollar, 6/6 quarters). |
+| **Kill §2 basis** | "0.56% — 1bp above the ≤55bps line" | Same figure, basis now named: **0.56% average-loans / 0.55% period-end** (exactly AT the line on the latter). Q2's 0.69% is 0.69% on both ⇒ **OZK-05 robust, not re-opened.** |
+
+### Explicitly NOT changed
+**No prediction re-graded** (`PREDICTIONS.tsv` untouched) · **no threshold, probability or scenario weight moved** — OZK-09 45%, weights A30/B45/C8/D17, weighted EL ~$129M, the ≤55bps line, the $400M kill-§1 line and the **Option-2 recognition-window ruling (FROZEN 7/23)** all stand · **kill §1's own criterion text is verbatim unchanged** pending Will's ruling on P-OZK-4 · the 37.6% figure, its table row and its KB anchors are **not deleted** (REGINALD owns the screen — one figure, one owner). Five proposals **P-OZK-1…5** are Will/PROME-gated and **not applied**.
+
+### Position implication
+**None. Zero position actions and zero recommendations this session.** `POSITIONS.md` corrected to *mirror* `FORGE/STATUS.md` (8/2 ANVIL reconcile: **45P ×4 + 42.5P ×1, Aug-21**) with Will's **8/4 RIDE ruling** cited — a record fix, not a trade.
+
+### Evidence
+`CALL_REPORT_2026Q2_LOG.md` (full working) · `workbook/CALL_REPORT_SERIES.tsv` (18 quarters, machine-readable) · every figure carries REPDTE + MDRM item code.
+
+---
+
 ## 2026-07-23 — OZK-09 re-mark 52%→45% + IQHQ scenario reweight + recognition-window ruling (sub-doc level; NO THESIS version bump — v1.5 stands)
 
 ### Summary

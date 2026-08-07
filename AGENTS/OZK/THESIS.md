@@ -99,13 +99,18 @@ Under-provisioned ~35-40% vs peers while running charge-offs at 3x the norm. The
 
 ## MEMO ITEM 3 — HIDDEN CRE
 
+> ## 🔴 **CONTRADICTED BY PRIMARY — 2026-08-07. Read this before citing anything in this section.**
+> The **37.6%** figure below **does not reproduce at any of 18 quarters** (2022-03-31 → 2026-06-30) on either documented basis, pulled from the FFIEC CDR primary this session (ID_RSSD 107244, RSSD verified at the primary). On the recorded recipe (`RCON2746 ÷ RCON1766`) the series runs **294.93% → 9.35%**; on the fuller basis (÷ items 4+9) **67.00% → 5.46%**. **Live: Q1-26 = 12.81% · Q2-26 = 9.35%** — *below the screen's own >20% flag threshold for two consecutive quarters.*
+> Structural cause: **OZK's entire Memo-3 balance sits in RC-C item 9.a, not item 4** — `RCONPV09` ≡ `RCON2746` to the dollar in all six quarters the breakdown exists. The item-4 denominator therefore contains ~none of the numerator (same defect class as WAL's P8, worse here).
+> **Nothing in this section has been edited or deleted** — the screen is REGINALD's, and one figure needs one owner. Evidence, both bases and proposals **P-OZK-1 / P-OZK-2** (Will/PROME-gated, **not applied**) → **`CALL_REPORT_2026Q2_LOG.md` §3**; series → `workbook/CALL_REPORT_SERIES.tsv`. ⚠️ **This does NOT weaken the CRE thesis** — MI3 measures CRE-purpose lending *not secured by real estate*; RESG, IQHQ/RaDD, the classified balance and all 11 tracked credits are in the **secured** book and are untouched by it.
+
 | Metric | OZK | WAL | Metropolitan (failed) | Flag |
 |--------|-----|-----|-----------------------|------|
-| Memo3/C&I ratio | **37.6%** [KB-OZK-018] | 24.2% | 39.6% | >20% |
-| Trend | ↓ Structural | ↑ GROWING | — | |
+| Memo3/C&I ratio | **37.6%** [KB-OZK-018] 🔴 *see banner — primary gives 9.35% at Q2-26* | 24.2% *(WAL agent reproduced 24.24% at 12/31/25 from primary 8/7; live 21.20% Q2-26)* | 39.6% | >20% |
+| Trend | ↓ Structural | ↑ GROWING *(refuted 8/7 — oscillating, no trend; the "+8.7pp over 2 quarters" was 6 quarters)* | — | |
 | True CRE (on-B/S) | 71.5% | ~59% | — | |
 
-OZK has the **worst absolute Memo Item 3 ratio** in the screen [KB-OZK-020] — comparable to Metropolitan Capital which failed Jan 30, 2026. The ratio is structurally declining (C&I growing faster, diluting) rather than actively worsening like WAL. But at 37.6%, the absolute level means a massive amount of CRE risk sits in the "C&I" label where regulators and analysts aren't looking for it.
+OZK has the **worst absolute Memo Item 3 ratio** in the screen [KB-OZK-020] — comparable to Metropolitan Capital which failed Jan 30, 2026. The ratio is structurally declining (C&I growing faster, diluting) rather than actively worsening like WAL. But at 37.6%, the absolute level means a massive amount of CRE risk sits in the "C&I" label where regulators and analysts aren't looking for it. *(🔴 The "structurally declining" half of this paragraph is confirmed and then some — the decline is far larger than "diluting" implies: the numerator itself fell **−$771.8M / −64.2%** over the four quarters to Q2-26. The "worst absolute" half rests on the 37.6% the primary does not reproduce.)*
 
 **FDIC API confirms reclassification (Mar 23):** C&I doubled (+153%, $1.36B → $3.43B) over 8 quarters while construction fell 36.9% ($12.3B → $7.8B) [KB-OZK-019]. ~46% of construction decline migrated to C&I. This is OZK-specific quantitative proof, not just industry H.8 inference.
 
@@ -170,7 +175,17 @@ Concentrated kill criteria. If any of these fire, the short's foundation is dama
 
 **5. Office / life sci structural turn.** Office cap rates compress to <8.00% (vs current 9.10%) OR Sorrento Mesa vacancy declines materially (vs current 35%). The vacancy-bottleneck argument (see WEAKNESSES.md C2) breaks if demand returns structurally. Not a near-term risk given the data, but worth monitoring JLL / CBRE quarterlies.
 
-**Current state (2026-04-23):** None fired. Past-due doubled Q1 (confirming), NCO 0.57% in-line with guide (neutral — awaiting Q2 conversion), IQHQ 3.3% leased with Aimco suit active (confirming), sub-notes disposition unchanged, cap rates stable-to-widening.
+**Current state (2026-08-07 — stamp refreshed; prior stamp read "2026-04-23 · None fired", false since the 7/21 print):**
+
+| # | State | Evidence |
+|---|---|---|
+| **1** | ⚖️ **FIRED-LITERAL / ADJUDICATED NON-DISCONFIRMING-ON-MECHANISM** | Q2 past-due **$298M** [supplement, 7/21] and **$323.7M / 0.99%** [Call Report, `RCON1406`+`1407`+`1403`, REPDTE 20260630] — both **<$400M**, so the literal condition fired on **every** basis. But the decline is **entirely the 30-89 transit bucket** (`RCON1406` $190,947K → $23,273K, −88%) while **nonaccrual ROSE** (`RCON1403` $296,575K → $300,416K) and **OREO nearly doubled** (`RCON2150` $149,570K → $288,135K); **NPA +31.9% QoQ** ($446.1M → $588.6M). Migration-through, not pipeline-stop — the ambiguity OZK-06's note pre-registered. Full decomposition + implied roll-forward → `CALL_REPORT_2026Q2_LOG.md` §6. ⚠️ **The criterion grades a transit bucket and is therefore mis-specified; a bucket-invariant re-spec is PROPOSAL P-OZK-4, Will-gated, NOT applied — the criterion's text above is unchanged.** |
+| **2** | 🔴 **NOT fired — moved AGAINST the kill** | Q2 NCO **0.69% ann.** (Call Report `RIAD4635−4605` YTD-differenced = **$56,254K**; 0.69% on both period-end and RC-K average loans) — above the ≤55bps line, not below it. ⚠️ Q1's recorded "0.56% — 1bp above" is **average-loans basis**; period-end gives **0.55%**, exactly AT the line. Basis now stated; figure unchanged. |
+| **3** | 🟡 **NOT fired** | No >250K SF RaDD lease; no 4th-round sponsor equity. 7/22 call: multi-year extension + recap **in negotiation**, "remain pass-rated", interest from interest reserves, "~92 days" → Q3 call. Intent, not a cure (Z10). |
+| **4** | 🟢 **NOT fired** | Sub-notes disposition unchanged; not discussed on the 7/22 call (both transcripts checked). |
+| **5** | 🟢 **NOT fired** | Cap rates stable-to-widening; Sorrento Mesa vacancy not materially improved. |
+
+*Call Report figures logged under the pre-registered LOG-ONLY scope (CALENDAR "~Aug 1-10"; **Z6 never re-grades off this source**). No prediction was re-graded, no threshold moved, no weight changed by this pass.*
 
 ---
 
