@@ -210,7 +210,7 @@ git add -- PROME/<newfile> && git commit -m "PROME: <subject>" -- PROME/<modifie
 git add -- memory/auto/<slug>.md memory/YYYY-MM-DD.md && git commit -m "PROME: <subject>" -- memory/YYYY-MM-DD.md memory/auto/<slug>.md memory/auto/MEMORY.md
 ./scripts/safe-push.sh                                   # AUTO-PUSH at closeout — ff-gated, fails safe (serial multi-machine, Will 7/1)
 # ⚠️ POST-PUSH VERIFY — do NOT assume it landed:
-#    "Pushed." (exit 0) = good · "ABORT: non-ff" = other box pushed → do NOT force; `git pull --rebase` + re-push (routine; escalate only on out-of-dir conflicts / mid-session recurrence) · "Nothing to push" when you expected commits = you forgot to commit, go back
+#    "Pushed." (exit 0) = good · "ABORT: non-ff" = another SESSION pushed, usually a concurrent same-box agent → do NOT force; `git pull --rebase --autostash` + re-push (routine per root canon 8/3; escalate only on out-of-dir rebase conflicts, or non-ff PERSISTING through a completed rebase→re-push cycle — bare recurrence is ordinary traffic) · "Nothing to push" when you expected commits = you forgot to commit, go back
 git status --short --branch                              # final: confirm clean tree + "ahead 0, behind 0" BEFORE reporting "synced to origin"
 ```
 
