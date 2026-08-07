@@ -2,8 +2,8 @@
 
 **Setup ID:** TRY-FIRE-007 · **Date:** 2026-08-03 · **Trigger class:** PRINT/CONFIRM discriminator (weekly CFTC COT release)
 **Thesis owner:** SAM (`AGENTS/SAM/thesis/THESIS.md` v1.6.11 — carry-convexity tail **MED-HIGH, provisional on the 8/7 print**; SAM position FLAT)
-**Terry verdict:** 🟡 **CONDITIONAL** — structure is clean and the vehicle is now genuinely tradeable; the card is gated entirely on the **Fri 2026-08-07 3:30 PM ET** COT resolver.
-**Confidence in trade structure:** Medium-High · **Status:** 🟢 **DECISION-READY, UNARMED, $0 at risk. DO NOT FIRE.**
+**Terry verdict:** 🔴 **DEAD (terminal)** — the 2026-08-07 15:30 ET COT print resolved the card's own §2 map to **DENY**. ~~🟡 CONDITIONAL — structure is clean and the vehicle is now genuinely tradeable; the card is gated entirely on the Fri 2026-08-07 3:30 PM ET COT resolver.~~ *(verdict moved 2026-08-07 16:3x ET — see §11)*
+**Confidence in trade structure:** Medium-High *(construction axis, unchanged — the card died on its THESIS gate, not on its structure)* · **Status:** 🔴 **DEAD — never armed, never fired, `$0` at risk from build to death. ⛔ NO Monday re-mark. Do not arm. A re-arm requires a fresh build, not a revival (§11).**
 
 > ## ⚠️ THIS IS A FRESH BUILD, NOT A RE-MARK — AND THAT IS A CORRECTION TO TWO INCOMING PACKETS
 >
@@ -215,4 +215,87 @@ I asked SAM to say before Friday 15:30 if he read the escorted path as **fast** 
 **UNCHANGED where it counts: DECISION-READY / UNARMED / $0 at risk / WAIT-FOR-8/7.** No guard relaxed, no gate moved, no entry pulled forward. Changed: §7.5 corrected, the tenor trade-off owned in figures, pin risk priced, and **the size recommendation cut from $450 to $250–300 pending the 8/7 print.**
 
 ---
-*Built 2026-08-03 ~10:20 ET off SAM's 09:30 packet. All marks live-pulled this session and barred from use at fill. Supersedes nothing — `TRY-FIRE-005` remains DEAD and archived. §10 ruling added 2026-08-04 on SAM's two flags + NEXUS's root count.*
+
+## 11. 🔴 RESOLVER VERDICT — 2026-08-07, after the 15:30 ET CFTC print. **THE CARD IS DEAD. §8 of SAM's skeleton is FILLED.**
+
+*Written 2026-08-07 ~16:3x ET (`boot.py` wall clock 16:24:55, Friday), **after** the US close. Every level below carries its as-of date; nothing here is a live price.*
+
+### A. The print — the number, and the branch it fires on THIS card's map
+
+| Field | Value | Source |
+|---|---|---|
+| JPY noncommercial net, **Aug-4 data** | **−45,473** | SAM `cftc_jpy.py` + independent hand-parse of raw `cftc.gov/dea/newcot/deafut.txt`, both 2026-08-07 ~15:4x ET |
+| % of the −180K peak | **25.3%** (was 90.8% on Jul-28 data) | ditto |
+| WoW change | **+117,939** — longs **+45,957**, shorts **−71,982** | ditto |
+| Open interest | 419,393 (from 432,366, **−12,973**) | ditto |
+
+**Against §2's pre-registered map, which I do not re-tune at scoring time:**
+
+| Branch | Line | This print | Fired? |
+|---|---|---|---|
+| CONFIRM | ≤ −153K | −45,473 | ❌ missed by **107,527 contracts** |
+| NOT-CONFIRMED | −140K … −153K | −45,473 | ❌ |
+| **DENY (terminal)** | **≥ −140K** | **−45,473 — through the line by 94,527** | ✅ **FIRED** |
+
+> **⇒ `TRY-FIRE-007` IS DEAD, TERMINAL, BY ITS OWN PRE-REGISTERED KILL RULE.** §2: *"card **DIES** (terminal, like 005 — fresh build required, no revival)."* §5 invalidation: *"8/7 print ≥ −140K ⇒ **DENY ⇒ card dies terminal.** No revival."*
+> **⛔ There is no Monday re-mark. The §2-of-SAM's-packet chain — resolver → TERRY Monday re-mark → Will [Approve] — was conditional on a CONFIRM. It does not run.**
+
+**Two names, one branch — stated so nobody reconciles them later.** SAM's resolver calls this branch **DE-LOAD**; this card calls it **DENY**. Same number, same fire, different consequence by design: DE-LOAD is a *thesis-grade* disposition (revert MEDIUM), DENY is a *card-lifecycle* disposition (terminal). **The card's map governs the card.** They are not in conflict and neither was re-tuned.
+
+### B. What SAM graded — cited, not re-adjudicated
+
+**Thesis truth is SAM's, not mine** (HARD BOUNDARY 3). Recorded here by citation, from `inbox/2026-08-07_from-SAM_RESOLVER-COMPLETE-DE-LOAD-leg1-fired-STAND-DOWN-007.md`:
+
+- A **second registered rule** fired, and it is stricter than the resolver map: **THESIS leg-1 SPF** — *"CFTC covers below −108K / 60% line → frame → LOW."* −45,473 / 25.3% is through it by **62,527 contracts / 34.7pp**. **⇒ the convexity-tail frame is LOW — a thesis-BREAK condition met, not a downgrade of degree.**
+- **SAM-40 ❌ FAILED** (the ~25% branch fired; his 45% CONFIRM modal missed). **SAM-29 ❌ RESOLVED FALSE.**
+- Mechanism: **position REVERSAL, not liquidation** — OI barely moved (−12,973) while net swung +117,939; shorts covered 71,982 **and** longs added 45,957. **Prior record WoW cover was +31,314 (Jul-7); this is 3.8×.**
+- ⛔ **SAM's instruction, adopted verbatim: "007 STANDS DOWN. No Monday re-mark. Do not arm."**
+
+**What this does to the card's own reasoning:** the §10.C ruling said the frame was migrating to *positioning-dominant*. The positioning leg is what evaporated. **A positioning-dominant frame with no positioning is not a thin frame; it is not a frame** (SAM's line, and it is the correct construction read too — there is nothing left for the 60C to be long OF).
+
+### C. ★ THE FLIP CONDITIONS, GRADED — all four, because they were pre-registered
+
+Locked by SAM on 8/4 **before** the print (§10 ★ block), so this is transcription:
+
+| # | Condition | Grade |
+|---|---|---|
+| **1** | 8/7 print shows crowd **HELD ≤−153K** | ❌ **FALSE, decisively.** −45,473 = 25.3%, not ≥85%. The one that mattered most |
+| **2** | fresh session ≥2.5y range that is **not** an announced op | ❌ **UNFIRED** — SAM: 3 sessions in, 0 qualifying (0.75 / 0.58 / 1.01y vs a 2.5y bar) |
+| **3** | yen-haven re-couple (SAM-31) | ❌ **UNFIRED.** 8/7 is fresh counter-evidence: **VIX 14.97 (−1.2%) with equities rallying** on a −23K payroll — bad-news-is-good-news, not risk-off |
+| **4** | Sep/Oct BOJ OIS repricing materially higher | ⚠️ **AGAINST, not merely unfired.** Sep 17-18 cumulative **39.7% → 45.6%** (as-of 8/6) = **fourth consecutive adverse move.** The route is hawkish-***of-priced***; rising priced probability **destroys** the surprise room it pays on |
+
+**0 of 4. The size question ("does it return to 9×?") is moot — but it is worth recording that it was answered NO on every independent leg, not just by the one that killed the card.**
+
+### D. 🔴 THE COUNTERFACTUAL, IN FIGURES — what an early fire would have cost. **This is my axis, so I measured it rather than accept the assertion.**
+
+SAM's packet says *"had it been acted on, we would be long into this print."* True, and here is the number:
+
+| | At build, 2026-08-03 10:13 ET | **At the 2026-08-07 close (16:26 fetch, freshest trade 15:57)** |
+|---|---|---|
+| FXY spot | 58.60 | **58.24** (−0.6%) |
+| Sep-18 **60C** | bid 0.45 / ask **0.50** / mark 0.47 | **bid 0.20 / ask 0.30 / mid 0.25** |
+| Quoted spread | **10.5%** | **40% of mid** |
+
+**A fire at the $0.50 limit would mark ≈ −50% at mid and ≈ −60% at the exitable bid, four sessions in, with the thesis now graded LOW.** At the recommended 5–6× that is ≈ **−$150 to −$180**; at the ~~9× / $450~~ size I originally defended, ≈ **−$270**. **`$0` was at risk instead.**
+
+**⇒ TWO GUARDS DID REAL WORK AND BOTH SHOULD BE NAMED:**
+1. **§8, root rule #6's break test** — *"⛔ As of this build I do NOT hold a measurement that refutes the proxy … no break, no early fire. 'The window is closing' is a chase, not a break."* SAM credits this (he cites it as my "§5"; the text is **§8**) as the reason the §5C override that fired **on the letter** on 8/3 was not acted on. **This is the first time the ratified 7/27 break test has demonstrably prevented a loss rather than merely governed one.**
+2. **Will's pre-print Monday-gating ruling** (SAM packet §2, recorded 8/7 AM **before the number existed**) plus SAM's WAIT-FOR-8/7. Three independent brakes, all pre-registered, none of them a judgement made after the number landed.
+
+### E. ⚠️ ONE CONSTRUCTION FINDING AGAINST MYSELF — the vehicle argument rested on a MOMENT property
+
+The whole §4 case for the 60C over 005's 58C/59C ladder was liquidity: *"the 60C … is now OI 33,541 (7.3× next strike) at a **10.5% spread** — the vehicle changed underneath the card."* **That spread is 40% today, on a strip `chain_fetch` grades 35% NONMONO = broadly unreliable.**
+
+**`RISK_RULES` #14 lists "two-sided quotes / OI" as a STRUCTURE property (gradable any time) and "spread%" as a MOMENT property (grade once, at fire). I used a moment property — the 10.5% quote — as a structural argument for vehicle SELECTION, four days ahead of any possible fill.** OI (33,541) is genuinely structural and did the honest half of the work; the spread number did not, and I did not separate them.
+
+**Honest other side, stated because it cuts against my own finding:** a strike's liquidity is partly *contingent on the thesis being live* — spreads widen when nobody wants the strike any more, so some of the 10.5% → 40% move is the thesis dying, not a measurement error at build. **Both are true. The rule that survives: when a vehicle is chosen on liquidity, split the claim into the OI half (structural, quotable ahead) and the spread half (moment, re-pull at fire) — and never let the moment half carry the selection argument.** → `RISK_RULES` #14 corollary.
+
+### F. Status, and what is owed
+
+- **CARD: 🔴 DEAD (terminal).** Never armed, never fired. **`$0` at risk from build (8/3) to death (8/7) — the entire life of the card.** Book stays **FLAT** on this axis.
+- **No capital moved. No threshold moved. No guard relaxed.** The only thing this session changed is that a resolved gate is now recorded as resolved on every surface that advertised it.
+- **A re-arm requires a fresh build and a NEW number** (INDEX rule: never reuse an id). 005 → 007 → the next one is not 007 again.
+- **Owed by SAM, still open and NOT closed by this print:** §6's named branch + exit rule for *"yen strengthens but BOJ does nothing"* — the hole two independent passes found. **Moot for this cycle, live for the next card built on this thesis.** Carried on my side so it is not lost when the card is archived.
+
+---
+*Built 2026-08-03 ~10:20 ET off SAM's 09:30 packet. All marks live-pulled this session and barred from use at fill. Supersedes nothing — `TRY-FIRE-005` remains DEAD and archived. §10 ruling added 2026-08-04 on SAM's two flags + NEXUS's root count. **§11 resolver verdict added 2026-08-07 after the 15:30 print — card DEAD, terminal.***

@@ -1,7 +1,8 @@
 # FIRE CARDS — Ladder & Comparison
 > **Master registry of ALL cards (live/staged/archived) → `setups/INDEX.md`.** This file is the fire-card (001-004/006) side-by-side comparison detail only.
 
-**Updated:** 2026-07-17 ~15:45 ET (**TRY-FIRE-006 PRE-BUILT** — Kharg-strand energy tail, flow-anchored, $200 tranche; built ≠ armed, blocked on a FALCON Kharg-loadings data-source freeze) · **Owner:** TERRY · **Status:** live cards **PROPOSE-ONLY**, **$500 max-loss/card** (006 = separate $200 tranche), **0 fired live**. **Live ladder = 001-004, 006 · 005 = SHELVED/dead.**
+**Updated:** 2026-08-07 ~16:4x ET (**TRY-FIRE-007 added and immediately recorded DEAD** — its 8/7 15:30 COT resolver fired the DENY branch. ⚠️ **007 was absent from this file for its entire 4-day life** — a fire-card id that never appeared on the fire-card ladder. Fixed here; see the §007 block below.) · **Owner:** TERRY · **Status:** live cards **PROPOSE-ONLY**, **$500 max-loss/card** (006 = separate $200 tranche). **★ 1 fired live** (TRY-FIRE-004, 7/20 — the "0 fired live" line stood ~2 weeks after that stopped being true). **Live ladder = 001-004, 006 · 005 = DEAD · 007 = DEAD (2026-08-07).**
+*(Prior stamp: 2026-07-17 ~15:45 ET — TRY-FIRE-006 PRE-BUILT, Kharg-strand energy tail, flow-anchored, $200 tranche; built ≠ armed, blocked on a FALCON Kharg-loadings data-source freeze.)*
 Living index of the staged fire cards. Standing rule (Will 6/26): fresh capital deploys ONLY on a fired trigger — never pre-position. Update this doc when a card is added/fired/invalidated.
 
 **The cards:**
@@ -11,6 +12,7 @@ Living index of the staged fire cards. Standing rule (Will 6/26): fresh capital 
 - `FLOW-TRIGGER_duration-TLT-put.md` — TRY-FIRE-004 (duration/TLT puts, flow/velocity-discriminator-gated — spec routed by PROME 7/6, ID-corrected 7/8, card built + 7/9 arm-#1 DEAD recorded; 7/9 PM red-team patch re-scoped thesis + invalidations, card stays ALIVE)
 - ~~`_archive/FLOW-TRIGGER_carry-convexity-FXY-call.md` — TRY-FIRE-005~~ — 🔴 **SHELVED 2026-07-10 (DENY on the Jul-7 COT print; no entry made, $0 at risk); ARCHIVED 2026-07-17.** Dead per its own kill rule; re-arm needs a fresh build, not a revival. See § below.
 - `FLOW-TRIGGER_kharg-strand-USO-call.md` — TRY-FIRE-006 (energy supply-loss tail, flow-anchored on Kharg EXPORT-loadings; USO call spread, $200 tranche; PRE-BUILT 7/17 per PROME Will-approved packet — built ≠ armed, blocked on FALCON Kharg-loadings source freeze). See § below.
+- `FLOW-TRIGGER_carry-convexity-FXY-call-v2.md` — TRY-FIRE-007 (carry-convexity ENTRY v2, FXY Sep-18 60C; a **fresh build**, not a 005 revival) — 🔴 **DEAD 2026-08-07 (DENY on the Aug-4-data COT print; never armed, never fired, `$0` at risk).** See § below.
 
 ---
 
@@ -81,3 +83,27 @@ Arms on ANY ONE of 3 discriminators (BND-11 acute 7/9 reopen / VX-BND-05 10Y-sus
 **Target:** FXY calls (2026-08-21 expiry, 58C+59C ladder) · **Trigger class:** **PRINT/CONFIRM** (today's 3:30 PM ET Jul-7-data CFTC COT print) · **Thesis owner:** SAM (THESIS.md v1.6.4, GATE-SAM-30 fired, MED-HIGH, net EV ~+1.3%) · **Confidence in structure:** MEDIUM (thesis MED-HIGH, taxed by IV-over-realized richness — see card).
 **Covering-check gate (exact):** Jul-7-data print ≤−153K → CONFIRM → Will [Approve]; ≥−140K → DENY → shelve; between → NOT-CONFIRMED → no entry today, gate stays live to next weekly print.
 **2026-07-10 ~11:15 ET state:** card BUILT, gate PENDING (awaiting 3:30 PM ET print). Sizing pre-computed: 6× 58C ($180) + 20× 59C ($300) = $480/$500 cap. FXY green today (+0.41%, $56.71) — rule #6 break flagged with both fire-today / wait-for-red-day branches in ZONE 1. Full spec → `_archive/FLOW-TRIGGER_carry-convexity-FXY-call.md`.
+
+---
+
+## TRY-FIRE-007 (carry-convexity ENTRY v2 — FXY calls) — 🔴 DEAD
+
+**Card:** `FLOW-TRIGGER_carry-convexity-FXY-call-v2.md` · **Built:** 2026-08-03 · **Died:** 2026-08-07 · **Trigger class:** PRINT/CONFIRM (weekly CFTC COT) · **Thesis owner:** SAM · **Lifetime capital at risk: `$0`.**
+
+**Target:** FXY **Sep-18-2026 $60C**, single leg — ~~9× / $450~~ → recommended **5–6× / $250–300** after the 8/4 size cut. *(A **fresh build**, not a `TRY-FIRE-005` revival: 005 was DEAD-terminal by its own kill rule, and both PROME and SAM mis-stated it as "shelved.")*
+
+**How it died — its own §2 map, applied without re-tuning:**
+
+| Branch | Line | 2026-08-07 15:30 ET print (Aug-4 data) | |
+|---|---|---|---|
+| CONFIRM | ≤ −153K | **−45,473** | ❌ missed by 107,527 contracts |
+| NOT-CONFIRMED | −140K … −153K | | ❌ |
+| **DENY (terminal)** | **≥ −140K** | | ✅ **FIRED** — through by 94,527 |
+
+**−45,473 = 25.3% of the −180K peak** (was −163,412 / **90.8%** at build). **WoW +117,939** — longs +45,957, shorts −71,982, on OI that barely moved (−12,973) ⇒ a **position REVERSAL, not liquidation**, and **3.8× the prior record weekly cover** (+31,314, Jul-7).
+
+**⛔ No Monday re-mark. Book stays FLAT. A re-arm needs a fresh build and a NEW id** — 005 → 007 → the next one is not 007 again.
+
+**What it cost, measured rather than assumed:** an 8/3 fire at the $0.50 limit marks **≈ −50% at mid / −60% at the exitable bid** on the 8/7 close (60C 0.20/0.30 vs 0.45/0.50 at build; FXY 58.60 → 58.24). **≈ −$150–180** at the recommended size. **`$0` was at risk instead**, because three pre-registered brakes held: card **§8**'s root-rule-#6 break test, Will's **pre-print** Monday-gating ruling, and SAM's WAIT-FOR-8/7.
+
+**★ The ladder-level lesson, and it is about this file:** 007 lived four days, carried a dated gate, and **never appeared on the fire-card ladder at all.** `INDEX.md` and `SETUPS.tsv` both had it; the surface named *"fire cards"* did not. **A registry that is authoritative for 001–006 and silently partial for 007 is worse than one that is obviously incomplete** — nobody greps a file they believe is complete. *(Same class as the 005 `SHELVED` defect: `INDEX.md` was right and the other tracker was the liar.)*

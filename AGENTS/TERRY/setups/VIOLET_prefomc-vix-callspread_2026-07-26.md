@@ -610,6 +610,72 @@ The settlement value is the **VIX Special Opening Quotation, ticker `VRO`**, str
 
 ⚠️ **One genuine anomaly, logged because it is against the base case and I would rather register it than have it surface tomorrow as a surprise:** **VIX +4.2% on an SPX +1.9% day — both up, which is not the normal inverse relationship.** Tomorrow is VIX expiry, so roll/pin flow is a sufficient benign explanation. **It is an observation, not a signal, and it does not move the pre-registered probability.**
 
+---
+
+### ✅ C-RESOLVED — **2026-08-07 ~16:4x ET.** The pre-registered evaluation is GRADED. **⏰ Two days late; the delay is logged below, not glossed.**
+
+> **Graded off the frozen §11.C spec. Nothing in the spec was re-tuned at scoring time; STEP 1–4 were run in order as written on 8/4.**
+> ⚠️ **Late.** The resolver date was **Wed 2026-08-05**; this grade is written **Fri 2026-08-07** post-close. The desk was dark 8/5–8/6. **The card's own §11.C anticipated exactly this failure mode** — *"this desk's failure mode with dated gates is not getting them wrong, it is **not grading them at all**"* — and the pre-staged checklist is the only reason two dark days cost nothing but latency. **The mechanism worked; the invocation was late. That is the same detection-vs-invocation split this desk keeps re-learning.**
+
+#### STEP 1 — the settlement
+
+| | |
+|---|---|
+| **VIX SOQ (`VRO`), 2026-08-05** | **17.10** |
+| Source | `VRO` settlement series, pulled **2026-08-07 16:2x ET**. This is the card's **registered source #2** ("CBOE settlement page → **`VRO` quote** → CBOE historical settlement file") |
+| ⚠️ Source-quality caveat | **CBOE primary returned HTTP 404 at both registered paths from this session's fetcher**, and the CDN `VIX_History.csv` served a file ending **1997-10-03**. Per `finding_blocked_mirror_is_not_an_unreachable_primary` that is a fact about **these mirrors from this box**, not about the primary — but it leaves the settlement on **ONE witness**, and I am saying so rather than implying two |
+| Sanity cross-check *(not a second witness)* | 17.10 sits **inside `^VIX`'s own 8/5 range** — O 16.15 / H 18.43 / L 15.48 / C 15.81 — above the cash open, which is where an SOQ struck from SPX option **opening** prices normally lands. Consistent; not corroboration |
+
+> **★ THE VERDICT IS INVARIANT ACROSS EVERY CANDIDATE WITNESS — which is why the single-witness caveat cannot change it.** The line is **20.45**. The SOQ is **17.10** (**−3.35 / −16.4%** below). Even the most generous proxy available — the **8/5 intraday HIGH of 18.43**, which §11.C's STEP 1 expressly **forbids** using — falls **2.02 short**. **There is no reading of that week's tape on which holding beat exiting.** *(Stated so the caveat is honest without being used to manufacture doubt about a verdict it cannot reach.)*
+
+#### STEP 2 — the counterfactual (line fixed 7/30, not re-derived)
+
+`spread value at expiry = min(max(SOQ − 20, 0), 5)` = `min(max(17.10 − 20, 0), 5)` = **$0.00.**
+We banked **$0.45**. ⇒ **Exiting beat holding by the full $0.45/spread = $180 on the 4-lot.** The spread expired **worthless**.
+
+**⇒ ✅ TERRY's pre-registered `P ≈ 20%` that SOQ > 20.45 was on the CORRECT SIDE.** Scored, not defended: one observation to the calibration record. A ~20% mark on an event that did not occur is a correct-side call and **nothing more** — it is not evidence of skill at n=1, and a 20% event failing to happen is the *expected* outcome 80% of the time.
+
+> #### ⛔ STEP 2 IS STILL NOT A VERDICT ON THE EXIT — and the caveat binds HARDER now that it favours us
+>
+> We exited at the market's own fair two-sided price (20C OI 7,487 / 25C OI 13,369), which makes the exit **EV-NEUTRAL BY CONSTRUCTION.** **"We saved $180 by exiting" is the identical outcome-bias error as "we left $X on the table," with the sign flipped** — and it is the one this desk would actually be tempted by, because it flatters. **The 8/5 print does not make the exit wise.** It was pre-emptively rejected in writing on 7/30, before the number existed, precisely so it could not be walked back today. **Rejected again, on the record, now that the number is known and friendly.**
+
+#### STEP 3 — rows 1–4, and only those four
+
+| # | Claim | Owner | **Grade** | Evidence |
+|---|---|---|---|---|
+| **1** | VIOLET's **FADE** verdict (KB-VIO-144) | VIOLET | ✅ **TRUE** | VIX never printed >20.45 after the 7/29 spike. Closes: 7/29 **20.66** → 7/30 17.09 → 7/31 15.99 → 8/3 15.86 → 8/4 16.50 → 8/5 **15.81** (SOQ 17.10). **Highest print anywhere in the 7/30→8/5 window: 18.43 intraday 8/5 — still 2.02 under the line.** No second down-leg materialized |
+| **2** | VIOLET's **NO-RE-ENTRY** instruction | VIOLET | ✅ **TRUE** | The 8/5 20C/25C **settled at $0.00**. A re-entry at *any* price on *any* day would have lost **100% of the new debit** rather than recovering the −$111.60. **No re-entry window existed that paid.** ⚠️ Scope: this grades re-entry into **this structure and expiry**, which is what row 2 names — it says nothing about a longer-dated expression |
+| **3** | TERRY's **forward-beta** finding (§11.D-1) | TERRY | ⚠️ **NO-VERDICT — and the defect is in the ROW, which is mine** | See below |
+| **4** | The **short-gamma steelman** (VIOLET §4③ / HENRY) | HENRY | ✅ **TRUE — no violent amplified down-leg by 8/5** | SPX off the 7/29 low **7,316.15**: 7,437.63 → 7,489.72 → 7,600.50 → 7,736.52 → **7,723.55** (8/5 close) = **+5.6% in five sessions.** Largest single-session drawdown in the whole window: **−0.17%** (8/5 vs 8/4 close). VIX 20.66 → 15.81 across it. **The amplification HENRY warned about had no down-leg to amplify** |
+
+##### 🔴 Row 3 — NO-VERDICT, for TWO independent reasons, and the second one is the finding
+
+**(a) No instrument.** The 8/5 VX forward was never captured between the 7/30 exit and settlement — the position was closed, so no chain marks exist, and the contract has since expired, so the series is not retrievable now. Per `finding_verification_zero_is_ambiguous` this is **"no measurement," not "no effect,"** and it must not be recorded as a quiet pass.
+
+**(b) ★ THE ROW COULD NOT HAVE DISCRIMINATED EVEN WITH PERFECT DATA. I wrote a test whose FALSE branch is TRUE BY CONSTRUCTION.** Row 3 as registered: *"FALSE if forward beta rises materially as expiry nears **(it should — beta→1 at settle)**."* **The parenthetical concedes it in the row's own text.** A futures contract converging to its settlement is not evidence about beta(tenor); it is the definition of a settlement. The endpoint arithmetic shows the trap rather than escaping it: forward **18.82** (7/30 exit) → **17.10** (settle) = −1.72, against spot **18.35 → ~16.15** (8/5 open) = −2.20 ⇒ ratio **0.78**, comfortably above the ~0.6 VIOLET's OLS assigns the ≤10 DTE bucket. That *reads* as "beta rose materially" ⇒ row 3 FALSE — **and it would have read that way no matter what the market did.**
+
+⛔ **I am NOT publishing 0.78 as a beta measurement.** It is a two-point endpoint ratio taken *through* the convergence window, computed across two differently-constructed quantities (an open-struck SOQ vs a cash-index open). **This card already carries a documented incident about publishing precision beyond what was measured** (18.71 → 19.11, 1.0888 → 1.0683, §11.F). Repeating it inside the grade of a row about measurement discipline would be its own punchline.
+
+**✅ WHAT IS UNAFFECTED: the underlying finding §11.D-1 is NOT in doubt.** It was established at the fill by same-chain put-call parity and independently re-derived by VIOLET's `ΔM1~ΔVIX` OLS at n=246. **The FINDING stands; the ROW that was supposed to test it was defective.** *(Cf. `finding_claim_outlives_its_discredited_instrument` — the instrument failing is not the claim failing.)*
+
+**⇒ DURABLE LESSON, and it generalises past this card: a pre-registered row must have BOTH branches reachable.** Before locking a row, ask the inverse of the escalation-line test — not *"would it fire on day one?"* but **"could the FALSE branch have failed to fire?"** If the answer is no, the row is a description wearing a test's clothing. **This one shipped with its own defect written in a parenthesis and nobody caught it for eight days, including me, twice.**
+
+##### On row 4 — the guard that changed the reasoning without changing the answer
+
+⛔ **I did not reach for `7,455`.** The 8/4 guard is binding: that band is **retired** (no live publisher) and the same number is **live as a Goldman CTA trigger**. The easy route — *"SPX 7,723 is miles above the retired band ⇒ row 4 TRUE"* — reaches **the same verdict by an illegitimate path**, binding the wrong object roughly half the time. **★ That is the most instructive thing in this grade: a guard whose only effect is to change the REASONING while the ANSWER stays put is exactly the kind nobody notices is working, and exactly the kind that matters on the day the two answers diverge.**
+
+**And an honest statement of what row-4-TRUE does and does not mean:** HENRY's steelman was **the strongest argument for patience** and it did not pay — **one observation against the CALL.** It is not a verdict on the *mechanism*: the underlying condition (net GEX −$39.4B / −$59.2B, spot 136–149pts below flip) was measured on 7/23-vintage chains, was never re-measured, and may simply have ceased to hold. **Grading a call is not grading a model.**
+
+#### STEP 4 — what was NOT graded, and stays not-graded
+
+⛔ ***"Was a dated mandatory exit a good rule."*** **n=1 cannot grade a policy.** It goes to the calibration record and accumulates. **This is the row the friendly print makes tempting, and it is refused for the third time on this card.**
+
+#### ⇒ EVALUATION CLOSED. **PB-0003 closes with it.**
+
+**Final ledger of this card:** realized **−$111.60 / −38.8%** · pre-registered counterfactual **resolved: exiting ≥ holding** · **P≈20% correct-side** · rows **1 ✅ · 2 ✅ · 3 ⚠️ NO-VERDICT (row defect, TERRY) · 4 ✅** · **the exit rule remains ungraded and needs n>1.**
+
+---
+
 ### D. TWO DURABLE FINDINGS
 
 **1. 🔴 STRUCTURAL — a near-dated VIX call spread does not capture a spot spike.** The forward carries ~0.28 beta to spot at ~9 DTE. We bought the correct event, the event arrived at +13.45%, and the instrument did not pay because the strike was set against a number that barely moved. **Consequence for future construction: if the thesis is a SPOT spike, either buy a longer-dated strip (higher forward beta earlier) or set strikes against the DERIVED FORWARD, never against spot.** The card did derive the forward at entry — the failure was continuing to reason about the *trigger* (VIX ≥23 spot) in spot terms while the *payoff* lived on the forward. **The §6 management triggers were written on spot and the position settled on the forward — the same guard-spec defect I flagged on 7/27 and routed to VIOLET, which turned out to matter for the exit logic too, not just the entry guard.**

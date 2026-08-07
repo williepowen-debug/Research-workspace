@@ -180,3 +180,49 @@ The dated exit did precisely what it was written to do: it closed a losing conve
 
 ### PENDING — resolves 2026-08-05 (pre-registered, card §11.C)
 Counterfactual line, fixed before the outcome: **holding beat exiting iff the 8/5 VIX SOQ prints >20.45.** TERRY pre-registered **P ≈ 20%**. ⚠️ **The exit was transacted at the market's own fair value, so it is EV-neutral by construction — the 8/5 print alone does NOT grade the mandatory-exit rule** (that needs n>1). What 8/5 legitimately grades: VIOLET's fade verdict, her no-re-entry call, TERRY's forward-beta finding, and HENRY's short-gamma amplification steelman.
+
+---
+
+## 2026-08-07 — **TRY-FIRE-007 (FXY carry-convexity calls) — PROCESS postmortem, NO TRADE.** Killed by its own pre-registered gate. `$0` at risk, build to death.
+
+**Thesis right/wrong:** **wrong, and graded so by its owner.** SAM's carry-convexity tail was built on a record-short JPY crowd (−163,412 = **90.8%** of the −180K peak, Jul-28 data). The Aug-4 print showed **−45,473 = 25.3%** — the crowd did not merely thin, it **reversed** (WoW +117,939 on OI that barely moved: shorts covered 71,982 *and* longs added 45,957). SAM's THESIS leg-1 SPF also fired ⇒ **frame → LOW, a thesis-BREAK.** SAM-40 ❌ · SAM-29 ❌. *(Cited, not re-adjudicated — thesis truth is SAM's.)*
+
+**Timing right/wrong:** **right, and it is the only reason this line reads `$0` instead of `−$180`.** The card was built 8/3 and parked. Three brakes, all pre-registered *before* the number existed, all held:
+1. **Card §8 — the root-rule-#6 break test.** *"As of this build I do NOT hold a measurement that refutes the proxy … no break, no early fire. 'The window is closing' is a chase, not a break."* SAM credits this as the reason the §5C override that fired **on the letter** on 8/3 was not acted on. ★ **This is the first time the Will-ratified 7/27 break test has demonstrably PREVENTED a loss rather than merely governed one.** It has been cited on cards for eleven days; this is its first outcome.
+2. **Will's Monday-execution ruling**, recorded 8/7 AM pre-print.
+3. **SAM's WAIT-FOR-8/7** entry recommendation, never overridden.
+
+**Structure right/wrong:** ⚠️ **one real defect, and it is mine.** The whole §4 case for the 60C over 005's 58C/59C ladder was liquidity — *"OI 33,541 at a **10.5% spread**."* `RISK_RULES` **#14** classifies OI as a **structure** property (gradable any time) and **spread% as a MOMENT property** (grade once, at fire). **I let the moment half carry a vehicle-SELECTION argument four days ahead of any possible fill.** It quotes **40%** today. *Honest other side, because it cuts against my own finding:* a strike's liquidity is partly **contingent on the thesis being live** — spreads widen when nobody wants the strike — so part of 10.5% → 40% is the thesis dying, not a build-time measurement error. **Both are true.**
+
+**Sizing right/wrong:** **right, and it was corrected against my own interest before it mattered.** On 8/4 I struck my own §7.5 `N_eff += 1` claim after NEXUS showed 004 and 007 share the policy-authority root, and cut ~~9× / $450~~ → **5–6× / $250–300**. The cut never had to be tested, but the reasoning that produced it was sound and independently measured by SAM.
+
+**Rule violated:** none. **Lesson (and it is a rule, not a note):** ★ **when a vehicle is chosen on LIQUIDITY, split the claim — the OI half is structural and may be quoted ahead; the SPREAD half is a moment property and must be re-pulled at fire. Never let the moment half carry the selection argument.** → `RISK_RULES` #14 corollary.
+
+**Cost, measured rather than assumed:** at build (8/3 10:13) FXY 58.60, Sep-18 60C 0.45/0.50 mark 0.47. At the **8/7 close** (`chain_fetch` 16:26; **market closed — a settled-session quote, not a live price**) FXY 58.24, 60C **0.20/0.30 mid 0.25**. An 8/3 fire at the $0.50 limit marks **≈ −50% at mid, ≈ −60% at the exitable bid** ⇒ **≈ −$150–180** at the recommended size, **≈ −$270** at the 9× I originally defended. **`$0` was at risk instead.**
+
+**Loop closed:** SETUPS.tsv · setups/INDEX.md · TRADE_BOOK.md (revision row) · FIRE_CARDS_LADDER.md (§007 added — **it had been absent for the card's entire life**) · card §11 · STATUS. **A re-arm needs a fresh build and a NEW id.**
+
+> ⚠️ **A second, smaller finding worth its own line: `FIRE_CARDS_LADDER.md` never listed 007 at all.** The card lived four days carrying a dated gate on a file whose header claims to be the fire-card comparison view. **A registry that is authoritative for 001–006 and silently partial for 007 is worse than one that is obviously incomplete — nobody greps a file they believe is complete.** Same class as the 005 `SHELVED` defect, where `INDEX.md` was right and the other tracker was the liar.
+
+---
+
+## 2026-08-07 — **TRY-VIOLET-VIXCS — the pre-registered evaluation, RESOLVED.** *(Appendix to the 2026-07-30 postmortem above; the trade's P&L is unchanged at −$111.60 / −38.8%.)*
+
+**⏰ Graded two days late.** Resolver date was **Wed 8/5**; this is **Fri 8/7**, desk dark 8/5–8/6. **Logged, not glossed** — and the card's own §11.C named this exact failure mode (*"this desk's failure mode with dated gates is not getting them wrong, it is not grading them at all"*). **The pre-staged checklist is the only reason two dark days cost latency and nothing else.** Detection was never the gap; invocation was — for the third time.
+
+**The number:** **VIX SOQ (`VRO`) 2026-08-05 = 17.10** vs the frozen line **>20.45** ⇒ `min(max(17.10−20,0),5)` = **$0.00**. We banked **$0.45** ⇒ **exiting beat holding by the full $0.45/spread = $180** on the 4-lot. **TERRY's pre-registered `P≈20%` was on the correct side** — **one** calibration observation, not a vindication: a 20% event failing to occur is the expected outcome 80% of the time.
+
+> ⛔ **AND THE CAVEAT BINDS HARDER NOW THAT IT FAVOURS US.** We exited at the market's own fair two-sided price ⇒ the exit is **EV-neutral by construction**. **"We saved $180 by exiting" is the identical outcome-bias error as "we left $X on the table," with the sign flipped** — and it is the one this desk would actually be tempted by, because it flatters. It was rejected in writing on 7/30 before the number existed; **rejected again now that the number is known and friendly.** ⛔ **The dated-mandatory-exit RULE is still not graded and still needs n>1.** Refused for the third time on this card.
+
+**Rows 1–4:** **1 ✅ TRUE** (VIOLET's fade — VIX never printed >20.45 after 7/29; window max **18.43** intraday 8/5, still **2.02** under) · **2 ✅ TRUE** (no-re-entry — the structure settled **$0.00**, so a re-entry at any price on any day lost 100% of the new debit) · **3 ⚠️ NO-VERDICT** · **4 ✅ TRUE** (short-gamma steelman — SPX **7,316.15** low 7/29 → **7,723.55** 8/5 close = **+5.6% in five sessions**, largest single-session drawdown in the window **−0.17%**, VIX 20.66 → 15.81; **the amplification HENRY warned about had no down-leg to amplify**).
+
+**🔴 THE FINDING, and it is against myself — ROW 3 WAS A DEFECTIVE TEST.** Two independent reasons it cannot be graded:
+- **(a) No instrument.** The 8/5 forward was never captured after the 7/30 exit; the contract has since expired. Per `finding_verification_zero_is_ambiguous` this is **"no measurement," not "no effect"** — it must not be recorded as a quiet pass.
+- **(b) ★ It could not have discriminated even with perfect data.** The row reads *"FALSE if forward beta rises materially as expiry nears **(it should — beta→1 at settle)**."* **The parenthetical concedes it.** A futures contract converging to settlement is the definition of a settlement, not evidence about `beta(tenor)`. The endpoint arithmetic demonstrates the trap rather than escaping it (18.82 → 17.10 forward vs 18.35 → ~16.15 spot ⇒ ratio **0.78** > the ~0.6 OLS bucket) — **and it would have read that way whatever the market did.** ⛔ I am **not** publishing 0.78 as a beta measurement: a two-point endpoint ratio taken *through* the convergence window, across two differently-constructed quantities. **This card already carries a documented incident about publishing precision beyond what was measured** (18.71 → 19.11, 1.0888 → 1.0683).
+- **✅ The §11.D-1 FINDING is unaffected** — established at the fill by same-chain put-call parity and re-derived by VIOLET's OLS at n=246. **The ROW was defective, not the finding** (`finding_claim_outlives_its_discredited_instrument`).
+
+**⇒ DURABLE LESSON: a pre-registered row must have BOTH branches reachable.** Before locking one, ask the inverse of the escalation-line test — not *"would it fire on day one?"* but **"could the FALSE branch have failed to fire?"** If the answer is no, it is a description wearing a test's clothing. **This row shipped with its own defect written in a parenthesis and nobody caught it for eight days, including me, twice.**
+
+**★ AND THE THING THAT WORKED, recorded because it is invisible by design:** row 4's 8/4 guard forbade grading on the retired **7,455** band (same number now live as a Goldman CTA trigger). The easy route — *"SPX 7,723 is miles above it ⇒ row 4 TRUE"* — reaches **the same verdict by an illegitimate path.** **A guard whose only effect is to change the REASONING while the ANSWER stays put is exactly the kind nobody notices is working — and exactly the kind that matters on the day the two answers diverge.**
+
+**Evaluation CLOSED. `PB-0003` closes with it.** Final ledger: realized −$111.60 · counterfactual **exiting ≥ holding** · **P≈20% correct-side** · rows **1 ✅ · 2 ✅ · 3 ⚠️ NO-VERDICT · 4 ✅** · **the exit rule remains ungraded.**
