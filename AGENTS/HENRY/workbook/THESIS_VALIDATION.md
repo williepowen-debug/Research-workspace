@@ -1,6 +1,8 @@
-# Thesis Validation Criteria & Dependencies
+# SUPERSEDED 2026-08-06 — Thesis Validation Criteria & Dependencies
 
-*Confirm/invalidate scaffold for HENRY's live thesis + cascade & cross-agent dependencies. **Canonical live thesis = STATUS.md**; this file is the falsification layer. Reframed 2026-06-23 to the post-FOMC 3-axis regime — the prior "Loaded Machine / Credit-Primary" binary is preserved as a dated HISTORICAL log at the bottom.*
+> **SUPERSEDED 2026-08-06.** Successors: **`AGENTS/HENRY/STATUS.md` § INVALIDATION TRIAD** (whole-thesis kill — standing rule vs literal state, refreshed every session with as-of stamps) **+ § THESIS** (live 3-axis read) **+ `AGENTS/HENRY/workbook/PREDICTIONS.tsv`** (per-prediction Invalidation criteria, wired into the boot.py due-scan). **Do not cite anything below as a live criterion** — every gate in this file is written against the 6/17 FOMC / 6/22-23 AI-unwind world and every one of its dated tests (6/25 PCE, 7/14 CPI, HEN-35) has since resolved. Disposition: DAEDALUS Falsification Freshness Sweep #1 finding F2 (8/3 packet), HENRY-chosen dead-state 8/6 — a second live falsification copy is itself the rot mechanism (this file went stale twice: 7/11 pilot 4-of-4, again at 38d); the falsification function is absorbed by the session-maintained successors above. `boot.py` guards this banner.
+
+*Historical record below — confirm/invalidate scaffold as of 2026-06-23. **Canonical live thesis = STATUS.md**; this file WAS the falsification layer. Reframed 2026-06-23 to the post-FOMC 3-axis regime — the prior "Loaded Machine / Credit-Primary" binary is preserved as a dated HISTORICAL log at the bottom.*
 
 ---
 

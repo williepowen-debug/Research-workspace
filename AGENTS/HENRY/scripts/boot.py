@@ -269,6 +269,22 @@ def ledger_staleness(today=None):
         print(f"\n  🟠 drifting — oldest live ledger {worst}d. Refresh at write-back.")
     else:
         print("\n  ✓ all live ledgers fresh (<14d).")
+    # Falsification-layer guard (DAEDALUS F2 disposition, 2026-08-06):
+    # THESIS_VALIDATION.md is SUPERSEDED — its function lives in STATUS
+    # § INVALIDATION TRIAD + PREDICTIONS.tsv. This surface rotted twice
+    # (7/11 pilot 4-of-4; 8/3 at 38d) because a second live falsification
+    # copy decays on a ~3-week clock. Guard: the banner must stay; if it
+    # ever reads live again it needs a maintenance owner, not a restamp.
+    tv = os.path.join(base, "workbook/THESIS_VALIDATION.md")
+    try:
+        with open(tv, encoding="utf-8", errors="replace") as fh:
+            head = fh.read(400)
+        if "SUPERSEDED" not in head:
+            print("  🔴 THESIS_VALIDATION.md has LOST its SUPERSEDED banner — it is "
+                  "not a live falsification layer (successors: STATUS §INVALIDATION "
+                  "TRIAD + PREDICTIONS.tsv). Restore the banner or re-own maintenance.")
+    except OSError:
+        pass
 
 
 # ── (f) INBOX TRIAGE ──────────────────────────────────────────────────
