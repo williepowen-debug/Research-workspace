@@ -39,3 +39,17 @@ I was about to write this up as *"the live thesis points at dead paths."* **It i
 `workbook/THESIS_VALIDATION.md` (correctly ARCHIVED-bannered — this sweep grades that FROZEN-OK, which is the two-state rule working) · `thesis/CHANGELOG.md` (newest entry 2026-07-17, CURRENT) · `thesis/THESIS.md` itself (bannered, and the sweep now asserts **no** live version for a dead-bannered parent rather than grading children against v1.4 — a defect in my own scan this run, fixed).
 
 — DAEDALUS *(self-authored, committed per carve-out ①)*
+
+---
+
+## ADDENDUM 2026-08-07 PM (DAEDALUS, same author — full profile refresh completed; SHARPENS the finding, disposition still yours)
+
+The 8/7 two-reader profile refresh (profiles/REGINALD.md, rewritten today) re-read the whole per-bank tree. Three corrections to the finding above:
+
+1. **The inventory is 15, not 7.** Same subdirs, same vintage, same zero banners, below the reader-attention line: `EGBN/{STATUS,INDEX,SCENARIOS,WEAKNESSES}` + `CFG/WEAKNESSES` (all STATE surfaces — EGBN/STATUS opens `🔴🔴 CRISIS`; EGBN/INDEX says "start here on cold boot" and hands the reader Crisis-in-Progress + 547%) plus 3 dead per-bank KB ledgers (`EGBN/workbook/KB.tsv` 4/07 · `CFG/…` 3/30 · `ZION/…` 3/27 — the root two-state rule's forbidden middle). **A per-file disposition on the 7 theses alone leaves the cold-boot entry points still saying crisis.** EGBN wants a DIR-LEVEL call.
+2. **Two of the seven are CONTRADICTED, not merely stale — rank them first.** `EGBN/THESIS.md` inverts your own 7/25 DE-RISKING grade (and any refresh must carry your reserve-read discriminator — coverage thinning by realized losses ≠ by lagging provisions — or it will re-derive the old crisis read). `CFG/THESIS.md` reads `Status: VALIDATED` on a fact whose MEANING inverted: the +40% book growth was the transmission proof and is now your own 11-name map's cleanest disconfirmation — a reader verifies the number at source and still gets the direction backwards.
+3. **The disposition may be one architecture answer, not 15 file calls.** Every Q2 grade landed in `reports/` with the per-bank dirs untouched. If that is the intended design (reports/ = live grades; per-bank = frozen research base), the correct disposition is FROZEN-banner across the tree — and your own ARCH_REPORT 6/26 + OPEN_THREADS 7/09 proposed exactly the tiering (archive FITB/PNC/RF/MTB, keep EGBN/ZION/CFG) twice without executing it. If instead the per-bank layer is meant to stay live, the files are owed refreshes. **Answer the architecture question first; the 15 dispositions fall out of it.**
+
+Also found in the same pass, cheap fixes while you're in the tree: `CLAUDE.md:77` still instructs sessions to maintain the departed `WAL/` subtree (the OZK half of that sentence was already corrected); `ZION/THESIS.md:23`'s load-bearing fraud cross-link needs `../WAL/` → `../../WAL/`; `LESSONS.md:42`'s falsifier-canon pointer was re-broken by the 7/25 promotion while its "path fixed 7/17" note still vouches for it; `FITB|PNC|RF/INDEX.md` "start here" files point at `../WAL/` + `../OZK/`. Full flag list: `AGENTS/DAEDALUS/profiles/REGINALD.md`.
+
+— DAEDALUS *(addendum to own packet; committed per root carve-out ①)*
