@@ -1,119 +1,54 @@
-# FALCON SCRATCH — 2026-07-30 Thu **SESSION CLOSED ~15:00 ET** (boot + news → marks · correction · staleness sweep · inbox drain — four increments)
+# FALCON SCRATCH — 2026-08-06 Thu **COMMISSIONED REAL SESSION CLOSED ~23:55 ET** (Will-approved 8/5, PROME-spawned 22:30; window re-derivation · D→75 proposal · leg-3 OVERDUE ruling · ratification · full inbox drain)
 
-> ## 📌 PROXY-RUN ADDENDUM 2026-08-02 ~14:50 ET (phone-session spawn; read STATUS.md's proxy block + `reports/2026-08-02_yanbu-leg3-repull-adjudication.md` FIRST at next boot)
-> Leg-3 re-pull (NEXT-SESSION item 5) DONE: **NOT FIRED, band −19%/−32% vs −36%; no w/c 7/27 dark-capable print exists yet → re-pull again 8/4-5, fire line pre-staged in KB-FALCON-072.** Sinking watch RESOLVED no-sink (KB-075). GasLog Shanghai struck in HORMUZ 8/1 (KB-073, third LNG kinetic event). IRGC 7/31 two-tankers claim = guard, KB-074. Co-belligerency falsifier: open, day 4, quiet. Both inbox items processed + board-logged. **ZERO mark moves. NOT done, still owed: NEXUS_BRIEF refresh · WARRISK re-pull (due 8/3) · everything else in NEXT SESSION below.** Committed path-scoped, NO push (spawned mid-session).
+> **CLOSEOUT VERIFIED:** falsification **thesis-kill 0/7, nothing fired** · settle-clock **NONE LIVE → 12b no-op** · marks **UNCHANGED B5/C35/D60 · 43/50 · P23/K15/R13, consistent across STATUS/SCRATCH/NEXUS_BRIEF** · both mail lanes **DRAINED** (5 root + 9 WALTER, 14 board_log rows, all `git mv`'d) · strike ledger **swept thru 8/6** (zero facility rows — all-maritime week) + `ANALYSIS_2026-08-06.md` **regenerated on its own dated trigger** · state-token sweep: superseded window text ("4-8d after week-end" / "8/6-8/10") purged from live surfaces (STATUS leg-3 row, this file); dated reports stand as snapshots.
+> ⚠️ **WARRISK still deliberately firing at the 7-day gate:** re-pulled 8/6 — Marsh 7/22 7.5-10% is STILL the newest primary; data clock NOT advanced; attempted-clock stamped 8/6. It keeps firing until Marsh prints — correct. **New trap registered: beinsure "12x + $20bn DFC backstop" = 16 MARCH 2026.**
 
-> **CLOSEOUT VERIFIED:** falsification **thesis-kill 0/7, NOTHING FIRED** (checked against the rail rewritten this session) · settle-clock **NONE LIVE → step 12b no-op** · marks **consistent across all four canonical surfaces** · both mail lanes **DRAINED** · strike ledger **swept through 7/30** · state-token sweep **clean** (one live catch: `FRESH_LEG_BASELINE` row 2 carried a stale newest-print, 7/19=15/88 → corrected to 7/23=10/88).
-> ⚠️ **ONE ALERT LEFT DELIBERATELY FIRING:** `WARRISK.tsv` reads **⚠️ STALE +8d** at the 7-day gate. **That is the gate working, not a defect** — the Marsh/Platts 7/22 figure is genuinely 8 days old and **I re-pulled today and confirmed no newer primary exists.** Per this file's own rule I did **NOT** advance the data clock and did **NOT** widen `--days` to silence it; the third `Last re-pull ATTEMPTED` clock records the check. **It will keep firing until Marsh publishes — that is correct.** Re-pull due **8/3**.
-
-**Purpose:** Ephemeral session handoff — read at boot (step 2), rewritten at closeout (step 13). Durable learnings → `MEMORY.md`; cross-agent twin → `NEXUS_BRIEF.md`.
+**Purpose:** ephemeral handoff — read at boot (step 2), rewritten at closeout (step 13).
 
 ---
 
 ## CURRENT MARKS (one line)
-- Scenario **B 5 / C 35 / D 60** · Convergence **43/50** (**P 23/25 · K 15/20 · R 13/20** — 🔴 **R1 and R2 have LEFT THE FLOOR**; only R3 remains at 1) · Kinetic **US-Iran RESUMED (heavy wave 7/29)** / Iran launching **daily** / **FIRST FATALITY 7/30 (Kuwait)** · **FAL-03 FAILED, FAL-04 OPEN @ 62% closes Aug 20** · Scoreboard **1C / 2F / 1 OPEN**.
-- **⚠️ UNLIKE 7/27, THE NUMBERS DID MOVE.** Do not carry forward any 7/27 mark.
-- **PM increment: marks UNCHANGED by the inbox pass** — nothing in the four items was a mark-mover (BRENT's was an analysis request; Damietta is out of scope; Ghazal fires nothing; Nasr-2 is claim-only). **Convergence stays 43/50.**
+- **B 5 / C 35 / D 60 · Convergence 43/50 (P 23/25 · K 15/20 · R 13/20)** — HELD this session, no change proposed · **FAL-04 OPEN @ 62%, day 7/21, closes Aug 20** · Scoreboard 1C/2F/1 OPEN · **Strikes-only pause #3 day ~6; maritime enforcement never paused.**
 
-## CHANGES SINCE LAST SESSION (7/29 → 7/30)
+## CHANGES SINCE 7/30 (integrated 8/2+8/4+8/5 proxies — RATIFIED — plus tonight)
+- **🔴 LEG-3 RELAY BASIS CORRECTED (Will-directed 8/6 review, KB-078):** "4-8d after week-end" was week-START arithmetic mislabeled. **Pinned: week-END anchor, +1-2d relay lag (n=2), tail ~+4d → w/c-7/27 window was 8/3-8/4, and NO-PRINT as of 8/6 is OVERDUE.** Projection drift (8/4-5 → 8/5-8/7 → 8/6-8/10) diagnosed: window re-derived from "now" each session — LESSONS item + auto-memory `finding_expected_window_rederived_from_now_drifts` written. **Leg-3 NOT FIRED** (no instrument; w/c-7/20 band −19/−32% stands). Cadence now **weekly sweep + event-driven on publication** — no more daily window-chasing.
+- **🔴 FIRST VESSEL LOST:** dhow **Faize Noore Oliya SUNK 8/4** (14 crew safe) — D→75 trip (a) letter NOT met (dhow ≠ tanker, proxy reading ratified). **Minoan Pioneer** (bulker, Hormuz 8/4 22:00Z): fire/blackout, **third engineer MISSING = potential second fatality** (verified distinct from Velos Amber 8/3). **NCC Wafa + Daisy: CLAIM-ONLY** (8 Saudi-linked hulls claimed since 7/22).
+- **🔴 PortWatch chokepoint6 BACKFILLED thru 8/2** — BRENT's blocking dependency RESOLVED (reply packet sent). **Transits 2-6/day, tankers 0-2 = DEEPENING band.** Bypass HOLDING 106,906 t/d vs floor 20,875.
+- **Theater:** energy strikes ORDERED 7/31 → CANCELLED 8/1 (class now THREATENED→ORDERED→WITHDRAWN — shorter fuse next time); Tehran denied deal parameters on record while both sides affirm Oman channel "final stages" (NO date → Diplomacy holds 3); **Iran parliament drafting blockade codification** (tolls to 7% cargo value) [Fars 8/6]; Riyadh "evaluating options" [FDD/LWJ 8/6]; Brent $90.21→~$79.4 (8/5 settle, **within $1.4 of the <$78 fade — NOT met, flagged**)→**$83.35 +5.01% 8/6** [own pull], OVX 57.34.
+- **Inbox:** DEWEY interceptor economics integrated (KB-077: floor = replenishment RATE; Patriot↔Caine = multi-year shared-line queue, label kept "vector NOT fact"); ORACLE v3 lines synced; **NEXUS Amendment-10 adopted** (brief fold = LAST write-back — now in CLAUDE.md step 14); **FAL-03 distribution gap closed — pointer packets to HENRY + CARL** (7/30 correction had reached only SAM/BRENT).
 
-### 🔴 THE HEADLINE IS NOT THE WAR NEWS — IT IS THAT MY OWN KILL-SWITCH WAS ALREADY TRIPPED WHEN I WROTE IT
-- **FAL-03 RESOLVED FAILED on day 4 of a 21-day window**, on two routes with completely different characters:
-  - **(b) JAZAN** — Aramco **SHUT** the 400 kbpd refinery **7/27**, restart tentatively **8/15** [Reuters citing IIR 7/28]. Genuine in-window development, a real miss. ⚠️ Only 4 days elapsed; the ≥7d leg **realizes 8/3**.
-  - **(a) RAS LAFFAN** — QatarEnergy **force majeure on LNG live since 2026-03-24**, ~12.8 Mtpa ≈ **17% of Qatar's export capacity**, **3-5 YEAR** repair, extended to **Asian** buyers 7/28. **ALREADY TRUE AT REGISTRATION.**
-- **⇒ FAL-03 could never have resolved CONFIRMED. I published an already-tripped kill-switch as OPEN and kept exporting the thesis it guarded. A RESEARCH failure, not a calibration failure — the 58% was never a real number.**
-- **Root cause 1 — I asserted an unchecked negative.** My own published R2: *"None current (Bapco + Ras Laffan were March)."* I knew the strike; **I treated a March EVENT as a closed STATE and never asked whether the FM had been LIFTED.** An event has a date; **a force majeure has a DURATION.**
-- **Root cause 2 (the generalizable one) — I WIDENED THE SCOPE AND KEPT A NARROW INSTRUMENT.** The 58% was derived off `STRIKES.tsv`, an **oil-complex STRIKE ledger** that structurally cannot see an **LNG force majeure**. The "ZERO across 109 days" was an artifact of the instrument's blind spot. **Forward rule adopted + auto-memory written.**
-- **Fifth wording-wedge instance:** HAW-10 locus → HAW-14 catalyst → HAW-15 mechanism → FAL-01 actor → **FAL-03 MOLECULE + EVENT-vs-STATE.**
-- **No rescue attempted** — a crude-only reading and a "newly declared" reading were both available and **both refused as unregistered.** Mirror of FAL-01, where I refused an unregistered *output-loss* requirement. **The discipline has to cut both ways.**
-
-### 🎯 THESIS CORRECTED — it is MOLECULE-SPLIT, and that is now the export
-- **CRUDE ✅ premium regime HOLDS** (zero confirmed crude barrels offline · Petroline **operational**, ~5 mb/d available · Yanbu loading ~3.3 mb/d · **Brent $90.21 / WTI $84.45** own pull 7/30, ~10% *below* the 7/23 $100.69 peak *through* a heavy strike wave and a shut refinery).
-- **GAS/LNG 🔴 supply-loss since MARCH** · **REFINED PRODUCT 🔴 supply-loss since 7/27.**
-- **Fleet phrasing fix ADOPTED (HAWK's): "zero confirmed *CRUDE* barrels offline."** Propagated to STATUS, NEXUS_BRIEF, THESIS.md, TIMELINE.md.
-
-### 🔥 THE WAR RESUMED
-- **7/28** Iran broke the pause — IRGC ballistics at a US base in **Jordan**, intercepted. **7/29 overnight** US **and Saudi** struck Tehran-backed sites in **Iraq**. **7/29 ~22:00 ET** CENTCOM **"heavy wave," DOZENS of IRGC targets**; 3 civilians killed at Qeshm. **7/30** Jordan intercepts five more; **KUWAIT struck, one worker killed — FIRST FATALITY OF THE EXCHANGE.**
-- **🔑 The TARGET SET is the finding, not the tempo:** *"military command centers, missile and drone facilities, coastal surveillance and defense sites, and maritime capabilities."* **The energy complex has now been spared across the RESUMPTION as well as the original 13 nights** — the load-bearing input to FAL-04's 62%. ⚠️ Cuts both ways on Hormuz: striking the *enforcement apparatus* aims at **reopening** the strait.
-- **Diplomacy did NOT collapse** — Iran hosted Hormuz calls with **Saudi + Oman** 7/28; Trump "good talks." **I HELD the Diplomacy vector at 3 deliberately: my registered threshold needs "talks collapse AND strikes resume" and only ONE leg fired.**
-
-### ✅ THINGS THAT CLOSED CLEANLY
-- **GATE-FALCON-001 leg-3: the 7/29 flagged basis risk is RESOLVED, not just flagged.** AGBI 7/28 pins *"Red Sea exports averaged 4.7 million bpd"* Mar-Jun = **TOTAL LIQUIDS**. The alarming **−42.6% "crude-only"** read was crude-2.7 vs a **total-liquids** 4.7 — apples-to-oranges. Correctly scaled ≈ **−32%**. **All bases land −23% to −32%, under the frozen −36% bar. NOT FIRED, verified.** (`KB-FALCON-066`)
-- **HAWK's boot.py refutation ACCEPTED** — my *"last touched 7/9 so live"* inference was wrong; **the mtime was the FREEZE commit.** Same family as `[[finding_mtime_is_corrupted_by_git_sync]]`.
-- **War-risk re-pull (my own 7-day boot gate fired on schedule): NO NEWER PRIMARY EXISTS.** Hormuz stays **7.5-10%** [Marsh/Platts 7/22]. **Did NOT advance the data clock** — added a third `Last re-pull ATTEMPTED` clock instead, because *"old because nothing newer was published"* ≠ *"old because nobody looked."*
-
-### 🧹 SELF-DIRECTED STALENESS SWEEP (Will: *"take care of ourselves first before we send messages outward"*) — 15 defects closed
-**The sweep found more than the news did, and one finding was sitting in my own boot instructions.**
-- **🔴 A HARDCODED THRESHOLD THAT FAILS FALSE-NEGATIVE — the worst class found.** The bypass collapse floor is **30% of a rolling 60-day mean** and had drifted **15,684 → 16,224 → 20,105 (+28% in 14 days)**, while `THESIS.md`, `TIMELINE.md`, `BYPASS_INTEGRITY_BASELINE.md` **and `CLAUDE.md` boot step 5b-3** all carried it as a constant. **A stale LOW floor is the dangerous direction: throughput of ~18,000 reads *above* the stale 15,684 (no alarm) and *below* the true 20,105 (alarm) — the gauge stays silent through a real collapse.** All four de-hardcoded. *(Throughput itself rose ~43% to 100,068 t/d — the bypass is absorbing MORE, which is the strongest quantitative statement of the crude thesis this repo holds.)*
-- **🔴 `VX.tsv` HAD LOGGED NOTHING SINCE 7/23** — through a 13-night campaign, a pause, a break and a resumption. 7 vectors refreshed; **the Kuwait fatality was in no vector at all.** ISR-01 given a **VERIFIED-DORMANT** stamp — *"no update"* and *"checked, unchanged"* are indistinguishable in a `Last_Updated` column.
-- **🔴 `VX-FALCON-GASLNG-01` CREATED — the first FALCON-originated vector, and its ABSENCE was the failure.** Every inherited vector tracks **kinetic events against oil**, so a 4-month LNG force majeure had no row, no threshold, no staleness affordance. **It was unrepresentable, not merely unnoticed.**
-- **🔴 `FLOW.tsv` untouched since spinout; every pathway ran through oil price or a chokepoint.** Added `FLOW-FALCON-01` (LNG → FM → Asian/European winter inventory) and `FLOW-FALCON-02` (**refinery outage → PRODUCT cracks — crude-BEARISH**, the sign-flip channel).
-- **🔴 `LESSONS.md` had ZERO FALCON-authored items after 18 days and TWO failed predictions.** Added 3. **A post-mortem is not a lesson until it lives where boot step 3 reads it** — `PREDICTIONS.tsv` Outcome fields are not read at boot.
-- **🔴 `EXIT_PROTOCOL.md` REWRITTEN — it was March-vintage throughout, not just mis-numbered.** The 7/27 banner flagged an orphaned "Scenario A"; on reading, the rail gated thesis-exit on **Fujairah repairs** and **ADNOC cold-restart** (neither live) with a D-watch list of **Kent letter / PSAB / Jebel Ali**. **Its own dated trigger ("when FAL-03 resolves") fired, so the banner is DISCHARGED, not re-stamped.** Thesis-kill is now **0/7 and MOLECULE-SCOPED**.
-- **🔴 `THESIS.md` v2.0 → v2.1** — header *and body*. v2.0's core sentence ("failed to take barrels off the market") was **false without a molecule qualifier and had been since March**; ⓶ was labelled **DORMANT** while already fired; R was stated as 8/20 with "R1-R3 all at the floor."
-- **`CLAUDE.md` FILES table was describing SPINOUT state, not current state** — 8 rows (STRIKES "4 rows, backfill owed" → 31 rows swept through 7/30; KB "0 rows" → 66; board_log "header only"; VX "7 rows"; FLOW "11 rows"). **A systematic class, not isolated typos.**
-- Also: **`IRAQ_PMF_DISCRIMINATOR_REVIEW.md`** (12d stale, said *unfired* — it is now **firing on the actor axis**; and `baghdad_watch.py` printed QUIET on 7/30, **three days after Iraq-launched drones hit Abqaiq** = live proof of its own dead-channel finding) · **`PREDICTIONS_ARCHIVE.md`** (FAL-01 + FAL-03 post-mortems, absent) · **`CHANGELOG.md`** (v2.1 entry; flagged that the header says *reverse* chronological while practice is ascending) · **`SOURCES.md`** (untouched since spinout — IIR, AGBI, LNG Prime, NASA FIRMS, CTP/ISW, PortWatch FeatureServer all missing) · **`MEMORY.md`** (4 durable findings) · **`ANALYSIS_2026-07-27.md`** + **`FAL-01_REREGISTRATION_SCAFFOLD.md`** bannered with **dated** regeneration triggers.
-
-## WHAT I DID THIS SESSION
-- Full day-by-day gap sweep 7/27→7/30 per LESSONS item 2, plus a **mechanism** sweep (LESSONS item 4) that is exactly what surfaced the Jazan shutdown and the Petroline status.
-- **Verified WALTER's and HAWK's Ras Laffan claim independently before acting on it** — they are **ONE antecedent, not two** (`[[finding_shared_antecedent_independence_test]]`).
-- Resolved FAL-03 FAILED with a full post-mortem; registered **FAL-04** with three named defects closed.
-- Re-marked scenarios + convergence + the full P/K/R split; updated STRIKES.tsv (Jazan status + swept mark → 7/30), WARRISK.tsv, 6 KB rows, THESIS.md, TIMELINE.md.
-- **Drained BOTH mail lanes** (6 WALTER + 2 root), 8 `board_log.tsv` rows, all `git mv`'d.
-- Delivered **3 packets**: SAM (🔴 correction), BRENT (🔴 acute), PROME outbox (cc RED/HAWK/WALTER/NEXUS).
-
-### 📬 PM INCREMENT — inbox drained (4 items, 3 arrived mid-session) + BRENT's owed reply delivered
-- **🔴 ANSWERED BRENT's item 3** (the one reply he said was owed; he was holding a Stage A-bis re-spec on it). **Q: does degrading Iran's Hormuz ENFORCEMENT apparatus raise P(transit normalisation absent a deal)? A: YES, materially — but for a NARROWER mechanism, with a hard cap.**
-  - **The closure is OVER-DETERMINED — 4 layers, and the 7/29 wave touches ONE.** Declaratory closure survives free; **mines are untouched** (you cannot bomb a minefield clear); **the US blockade is AMERICAN and still live** (18 redirected / 2 disabled / 2 boarded, UANI 7/28).
-  - **The real mechanism is ASYMMETRIC NORMALISATION:** the US blockade targets *Iranian* barrels, Iran's closure targets *everyone else's* — so non-Iranian traffic can resume **with no sovereign act and nothing to announce.** Grind to ~30-50% of baseline over weeks, not a snap. **P(sustained >50% recovery, 10+d, no signature act, 30d) ≈ 15-20%, up from ~5% — judgment, labelled as such, no false precision.**
-  - **🎯 The deliverable was the OBSERVABLE ORDER: war-risk premium LEADS, transit count LAGS** (underwriters price *demonstrated* safe passage). **Registered as watch line #2 on `WARRISK.tsv` — the exact MIRROR of my existing origin-migration falsifier: Hormuz leg FALLING while WC Saudi stays FLAT.** Same instrument, same two legs, opposite direction — so his question was already instrumented and needed nothing built.
-  - **🔑 Solved his design problem:** a **JWC/Lloyd's listing revision or P&I re-entry is a DATED, PUBLISHED, VERIFIABLE INSTITUTIONAL act that is NOT a sovereign act** — it restores the anchor his Stage-A signature requirement provided, without a government announcing anything.
-  - **⚠️ Gave him the paired tightening he asked to be held to, and I found it live:** a **UKMTO advisory "Strait of Hormuz is now open and blockade operations have ceased," threat level lowered to MODERATE — dated 18 JUNE 2026** (verified at primary: *"Jun 18, 2026, 21:57 GMT+1"*), i.e. MOU-era, six weeks stale, blockade resumed 7/14. **It is an INSTITUTIONAL PRIMARY, has exactly the shape a transit-only gate keys on, and needs no sovereign act — so dropping the signature requirement removes the only guard that catches it.** Third institutional-grade stale-vintage trap in three days. **Source QUALITY does not protect against DATELINE error — it makes it worse, because a good source disarms scrutiny.**
-- **⚖️ DAMIETTA FSRU adjudicated OUT OF SCOPE on two independent grounds** — geography (Egypt/Med is not my theater) **and** molecule (FAL-04 is crude/condensate-only; this is LNG *import* infrastructure). ⚠️ **But it is the SECOND kinetic strike on LNG infrastructure of the war — the exact class I named as my blind spot 3 days ago, arriving IN-shape/OUT-of-scope.** **Fleet gap FLAGGED, not claimed: Egypt/Med has no registered owner.** Routed to HAWK/PROME; **I did not take it** — taking an unowned theater is the scope-creep the war-agent split exists to prevent.
-- **🛢️ NCC GHAZAL turn-back** logged **Conf C3** — graded on UKMTO/AIS per WALTER, not the Saree claim (UKMTO confirms only crew+vessel safe, consistent with a turn-back *and* a miss). **A turned-back tanker is enforcement succeeding WITHOUT a hit** = the premium mechanism in its purest form, and why Bab is −56% while R3 sits at the floor. Fires nothing.
-- **🛡️ GUARD SET on the IRGC "Nasr 2" claim** (two hangars + **a FUEL STORAGE TANK** at Ali Al Salem). **CLAIM-ONLY**, adversary source, own-operation, documented re-claim pattern on that exact base. **NOT a hit, NOT a STRIKES.tsv row, did NOT enter the re-mark** — logged at D4 precisely so a later session cannot absorb it by repetition. **The confirmed Kuwait datum is the FATALITY, nothing else.**
-- **⬆️ Adopted BRENT's upgraded Abqaiq diagnosis over my own** — I had "7 mb/d = nameplate re-labelled"; his is sharper and correct: **verbatim 2019 PBS/AP material fused onto the 7/27/2026 event.** No named 2026 source puts any number on Abqaiq.
-- **KB-FALCON-067..071** · **4 board_log rows** · **both mail lanes DRAINED.**
+## WILL-GATED PROPOSALS PENDING (delivered to PROME 8/6 — do not self-apply)
+1. **P-1 window restatement** → PROME syncs GATES FALCON-001 + DOCKET row 20 cells (supersedes "opens ~8/6, extend 8/8-8/10").
+2. **P-2 fire-line wording:** KB-072 line → "first dark-fleet-capable weekly print for any week commencing on/after 7/27, same frozen baselines."
+3. **P-3 D→75 sunk-vessel class, Option A:** trip (a) tanker letter UNCHANGED; register `VX-FALCON-SUNK-01` (dhow / SOLAS-non-tanker / tanker tiers; class-(ii) loss → same-day re-mark proposal; class-(iii) → trip (a) fires; sinking-with-fatalities compounds the ratchet). Flag: trip registered at D=65, D now 60 — read →75 as absolute destination, confirm.
 
 ## NEXT SESSION (dated, future-verifiable)
-1. **🔴 DOES JAZAN RESTART ON 8/15?** Now the highest-value number on the board — decides whether the product-side loss is a 19-day blip or a regime. **Also: on 8/3 the ≥7d duration realizes** regardless.
-2. **🔴 Is 7/29 a one-off wave or a resumed NIGHTLY tempo?** D 60 vs 70 turns on exactly this. Check the strike-night count daily.
-3. **🔴 A SECOND fatality — especially a US one.** The 7/30 Kuwait death crossed the casualty threshold; the ratchet is what follows. **This is the single most likely character-change trigger.**
-4. **GATE-FALCON-001 leg-2** — TANKER-SPECIFIC **BAB** transits, ≥2 print-days sub-~8/day. ⚠️ **Do NOT fire it on Hormuz prints** (Hormuz tankers are now 2-4/day, but that is the wrong theater — `[[finding_theater_check_before_gate_check]]`).
-5. **Leg-3 re-pull 8/1-2** for a 7DMA holding more post-strike days (the basis question is closed; only the freshness remains).
-6. **War-risk re-pull again by 8/3** — treat 7.5-10% as a **FLOOR**, not a current read.
-7. **RED's red-team on FAL-04's 62%** — I asked for it explicitly and framed the attack for them: *is crude-only scoping rigour, or a retreat to a claim I can win?* **Treat as a real test.**
-8. **Ask SAM whether JKM/TTF actually repriced.** If Asian gas absorbed a 17% Qatari outage for four months **without** repricing, that **partially rescues the premium frame on the molecule I just conceded** — a genuinely two-way test I do not own.
-9. ✅ **`workbook/EXIT_PROTOCOL.md` REWRITTEN 2026-07-30 — closed, not deferred a third time.** Its own trigger fired when FAL-03 resolved. Next rewrite trigger: **FAL-04 resolving / a 5th axis / a dated Oman framework / 2026-09-01.**
-10. **`ANALYSIS_2026-07-27.md` REGENERATION — bannered 7/30 but NOT regenerated; still owed.** ⚠️ Nothing watches this file's staleness (boot 5c grades `STRIKES.tsv` only). **Dated trigger: the next session that adds or status-changes a STRIKES.tsv row, or 2026-08-06, whichever first.**
-11. **`reports/` has NO retirement or staleness rule at all** (7 files, 7/12-7/29) — noticed during the sweep, not fixed. Root CLAUDE.md's >60-day archive rule would not bite for weeks, but there is no boot-time affordance either. Decide a rule or accept it explicitly.
-12. **Re-review the Iraq/PMF discriminator** on any further Iraq-origin kinetic event, or by **2026-08-13**.
+1. **🔴 Minoan Pioneer engineer** — confirmed dead = SECOND fatality/first mariner → the ratchet fires; check first.
+2. **🔴 NCC Wafa / Daisy damage confirmation** — any tanker confirmed LOST fires trip (a) on its letter → acute same session.
+3. **🔴 Jazan restart 8/15** — decides the product leg (blip vs regime); STRIKES row status-change = ANALYSIS regeneration trigger.
+4. **Leg-3:** weekly sweep + event-driven pull only (no window-chasing). If Will approves P-2, the fire line covers any week on/after 7/27.
+5. **Pause #3 watch:** pause #2 broke in 4 days (HAW-06); day-by-day gap sweep from 8/6.
+6. **Co-belligerency falsifier:** LOWERS-evidence accrues **8/12** if Iraq-corridor quiet on oil targets holds.
+7. **Iraq/PMF discriminator re-review by 8/13** (standing).
+8. **WARRISK re-pull by 8/13** (7-day gate; it will keep firing until Marsh prints — that is correct).
+9. **FAL-04 closes 8/20** — the Jazan restart leg cannot fire it (product, excluded); only NEW crude/condensate loss can.
+10. Still unresolved from 7/30 list: RED red-team on FAL-04's 62%; SAM JKM/TTF repricing question (two-way test).
+11. `reports/` retirement rule — still undecided (10 files now); decide or accept explicitly.
 
 ## OPEN THREADS / WATCHES
-- 🔴 **Jazan restart 8/15** — the number that decides the product leg
-- 🔴 **First fatality (Kuwait 7/30)** — the ratchet; watch for a second, and for any US casualty
-- 🔴 **Two counter-moving wars AND two counter-moving molecules** in one file — the P/K/R split handles the first; the molecule split is now the second axis
-- 🟠 **R3 is the last floor row standing** (no ≥72h suspension at a named terminal). R1 and R2 have gone. **R3 is effectively the whole surviving thesis.**
-- 🟠 **Yanbu** — 92% of Saudi seaborne crude, defended by a **consumable** interceptor; **the Petroline is the undefendable route to the same objective** (claim-only, line operational as of 7/28)
-- 🟠 **WC Saudi war-risk 0.1%** — the transit→origin falsifier, still the cheapest early warning of a crude-side P→R conversion
-- 🟠 **Iraq/PMF firing on the ACTOR axis** — US+Saudi struck Iraq 7/29; watch for a *damaging* follow-on
-- 🟡 **MRPL "avoid Hormuz AND Red Sea" tender precedent** — a buyer-side avoidance channel my hull-counting gauges structurally miss. WALTER's registered test: 2+ more Indian refiners within 3-4 weeks
-- 🟡 **Magnitude gap unchanged** — no shuttle-run volume series exists anywhere
-- 🟢 bypass **HOLDING** (100,068 t/d vs 20,105 floor, thru 7/24) · Hormuz **10/88** thru 7/23 · baghdad quiet · kharg 0 = **uninformative, not a strand**
+- 🔴 **Second fatality watch** (Kuwait 7/30 death + Minoan Pioneer missing engineer)
+- 🔴 **Sunk-vessel escalation channel** (first loss 8/4; instrument pending Will P-3)
+- 🟠 **R3 still the whole surviving thesis** (no ≥72h suspension at a named terminal; crude-scoped zero now 118 days — ANALYSIS_2026-08-06)
+- 🟠 **Yanbu/Petroline** exposure unchanged; interceptor floor = RATE not stock (DEWEY, KB-077)
+- 🟠 **Relay channel degraded** — the w/c-7/27 print may never publish (mild-print bias / dark-fleet estimate collapse); absence ≠ loadings signal
+- 🟡 **Iran parliament bill** — codification = deal-structure written into law; watch passage vs shelving
+- 🟢 bypass HOLDING · kharg 0 = uninformative · baghdad 3 generic/0 REVIEW
 
-## PREDICTIONS DUE / DECISIONS PENDING
-- **FAL-04 OPEN, closes 2026-08-20.** Nothing due before then, but **the Jazan restart leg can move it any day**.
-- **Will decision PENDING (soft):** the re-mark **B 5 / C 35 / D 60 + convergence 43/50** is applied as my own call. Cleanly revertible.
-- **⚠️ Flagged for Will explicitly:** the FAL-03 failure is a research failure, not a calibration failure, and **the scoreboard line (1C/2F) understates it.** I would rather that be visible than tidy.
+## MAIL STATE (one line)
+- **Root: DRAINED** (5 → processed) · **WALTER lane: DRAINED** (9 → processed) · 14 board_log rows · **Outbound (carve-out ①, all committed): PROME delivery · BRENT chokepoint6 reply · HENRY + CARL FAL-03 pointers.**
 
-## MAIL STATE (one line per surface)
-- **Inbox (root): DRAINED** (BRENT co-belligerency, HAWK legacy-scripts refutation) — both `acted`, `git mv`'d. **WALTER lane: DRAINED** — 6 signals (004, 006, 006-CORRECTION, 011, 013, 20260730-001), all logged and `git mv`'d. **8 board_log rows.**
-- **Outbox:** `2026-07-30_to-PROME_fal03-failed-already-true-at-registration-remark.md` (🔴, cc RED/HAWK/WALTER/NEXUS).
-- **Packets authored into others' inboxes (committed per carve-out ①):** → **SAM** (🔴 LNG correction — the heaviest read-through) · → **BRENT** (🔴 Jazan shut + molecule split + leg-3 basis closed).
-- ⚠️ **Re-learned 7/27's lesson the easy way this time: checked mail at boot AND the lane was already loaded — SIG-W-20260730-001 had arrived 09:42 the same morning.**
-
-## AUTO-MEMORY WRITTEN THIS SESSION (step 15 promotion scan)
-- `finding_widened_scope_needs_rescoped_instrument` — widening a prediction's scope while keeping the old base-rate instrument can make it **already-failed at registration**, invisibly from inside the derivation
+## AUTO-MEMORY WRITTEN
+- `finding_expected_window_rederived_from_now_drifts` — pin the anchor, consume the window, never re-derive from "now"; an empty look past the window is a channel finding.
 
 ## PENDING PUSH / GIT
-- All work committed path-scoped to `AGENTS/FALCON/` + two self-authored packets (SAM, BRENT) per carve-out ①. Orphan check run. **Spawned-mode? NO — live session, auto-push at closeout per protocol.**
+- All work committed path-scoped `AGENTS/FALCON/` + 4 carve-out-① packets (PROME, BRENT, HENRY, CARL) + auto-memory (carve-out ③). **Spawned-mode: PROME-directed with explicit "do NOT push — PROME's closeout sweeps." NO push.**
