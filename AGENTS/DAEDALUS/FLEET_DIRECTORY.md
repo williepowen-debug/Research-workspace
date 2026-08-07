@@ -37,7 +37,7 @@
 | FALCON | Market | L4 | US/Israel/Iran-Gulf war theater — A/B/C/D ladder, Hormuz, Gulf targeting, Bab-al-Mandab/Houthi, Baghdad watch | L4->L5: process the 8/6 Will-ruling write-back tail FIRST (VX-FALCON-SU… |
 | HOMER | Market | L2 | Housing — asset market + housing credit structure (pipeline, GSE+CMBS multifamily, builders, HPI, mortgage-rate surface) | L3: convergence handles + HOM-01 resolving (~7/30) + start the scaffold… |
 | OZK | Market | L4 | Bank OZK specialist (RESG construction / classified-migration watch) | HOLD L4 (legs STRENGTHENED 8/7: 3 outbound signals, routing restraint e… |
-| WAL | Market | L3 | Western Alliance Bancorp specialist (Office/B1-migration/MI3 idiosyncratic bear; thesis-of-record v2.3) | L4 on: 10-Q pre-reg frame executed BEFORE the ~Aug 7-10 filing (mandate… |
+| WAL | Market | L3 | Western Alliance Bancorp specialist (Office/B1-migration/MI3 idiosyncratic bear; thesis-of-record v2.3) | L3->L4 RE-CUT 8/7 PM (prior gate named a PERMANENTLY UNREACHABLE act —… |
 
 ## 🟡 TIER-2 — spawned as needed
 
