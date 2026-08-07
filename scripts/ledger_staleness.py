@@ -158,6 +158,37 @@ MARKER_RES = [
     for k in STATIC_BANNER_MARKERS
 ]
 
+# Recognizer hardening 2026-08-07 (TERRY isolation-tested reproduction, 2026-08-04
+# packet — 7 ledgers fleet-wide silently exempted by NON-banner text, incl. BROCK
+# VX_HISTORY at +140d invisible because a DATA ROW said "permanently frozen").
+# Unifying mechanism TERRY proved: for a TSV whose line 1 is a column header, any
+# status word in the first few DATA rows exempted the whole ledger. Three new
+# banner-FORM rules (a banner is a FORM, not a keyword — PAT-059 extended):
+#  5. BANNER REGION ENDS AT THE DATA BOUNDARY — scanning stops at the first
+#     non-comment line containing a tab (the column-header or first data row).
+#     A bare-column-header file has an EMPTY banner region (BROCK/CARL-PHAN/
+#     LABOR/SAM class). Genuine banners front-load ABOVE the data by convention
+#     (survey 7/22: all 46 genuine banners sit on line 1).
+#  6. A MARKER AFTER A TAB IS A CELL VALUE, NOT A BANNER — each scanned line is
+#     truncated at its first tab before marker search (kills commented-out data
+#     rows and Status/notes cells: HAWK 🪦 RETIRED rows, LABOR SUPERSEDED note
+#     cell). Also: a marker immediately followed by "ROWS"/"ENTRIES" is a
+#     row-retention POLICY sentence, not a file banner (TERRY line-5 class:
+#     "# RETIRED rows are kept, never deleted").
+#  7. A LINE-1 LIVE DECLARATION DOMINATES LATER MARKERS (TERRY rule c) — if
+#     line 1 declares the file live ("... LIVE (not frozen)", "⚠️ LIVE-BUT-NOT-
+#     BOOT-READ ...", "NOT FROZEN"), no later line can exempt it. Guards that
+#     keep the 7/22 revert case reverted: a LIVE token in a POINTER PHRASE
+#     ("LIVE SUCCESSOR/HOME(S)/CANONICAL" — BRENT FLOW/VX pointer lines, HAWK
+#     split-note) does NOT count as a self-declaration; and a valid un-negated
+#     banner marker ON LINE 1 ITSELF beats a live token on the same line
+#     ("# SUPERSEDED — live at <path>" stays exempt).
+# Validated 2026-08-07: TERRY's 5-line isolation matrix re-run against the fix +
+# full-fleet before/after diff (workbook + trade modes) — exactly the 7 wrongly-
+# exempt ledgers flip to tracked, zero genuine banners lost.
+ROW_POLICY_RE = re.compile(r"(?:RETIRED|FROZEN|SUPERSEDED|ARCHIVED)\s+(?:ROWS?|ENTRIES)\b")
+LINE1_LIVE_RE = re.compile(r"NOT\s+FROZEN\b|(?<![\w/-])LIVE\b(?!\s+(?:SUCCESSORS?|HOMES?|CANONICAL))")
+
 # Trade/position surfaces scanned under --trade (default glob stays workbook/*.tsv).
 TRADE_GLOBS = ["TRADE.md", "trade/TRADE.md", "TRADE_BOOK.md", "POSITIONS.md"]
 
@@ -218,24 +249,46 @@ def report_unmatched(agent_dir, name, pats, decl, quiet):
     return 0
 
 
+def _line_has_marker(u_line):
+    """Un-negated, un-glued banner marker in the pre-tab portion of ONE uppercased
+    line, within MARKER_COL_CAP, and not a row-retention policy sentence (rule 6)."""
+    scan = u_line.split("\t", 1)[0]
+    if ROW_POLICY_RE.search(scan):
+        return False
+    for rx in MARKER_RES:
+        m = rx.search(scan)
+        if m and m.start() < MARKER_COL_CAP:
+            return True
+    return False
+
+
 def is_frozen(path):
-    """True if the header (first ~6 lines) declares the surface intentionally static.
+    """True if the banner region declares the surface intentionally static.
     Named is_frozen for call-site compatibility; recognizes the whole dead-banner set.
-    Banner-FORM rules (2026-07-22 hardening, see MARKER_RES comment): "Status: LIVE"
-    wins; marker must start within MARKER_COL_CAP of its line; negated/glued
-    mentions don't count."""
+    Banner-FORM rules (2026-07-22 hardening + 2026-08-07 TERRY hardening, see the
+    MARKER_RES / ROW_POLICY_RE comments): "Status: LIVE" wins; a line-1 live
+    declaration wins unless line 1 itself carries a marker; scanning stops at the
+    data boundary; a marker after a tab is a cell value; negated/glued/row-policy
+    mentions don't count; marker must start within MARKER_COL_CAP of its line."""
     try:
         with open(path, "r", encoding="utf-8", errors="replace") as f:
             lines = [f.readline() for _ in range(6)]
         head = "".join(lines).upper()
         if LIVE_DECL_RE.search(head):
             return False
+        u1 = lines[0].upper() if lines else ""
+        # Rule 7: line-1 live declaration dominates later markers — unless line 1
+        # itself carries a valid marker (same-line conflict → the marker wins).
+        if LINE1_LIVE_RE.search(u1.split("\t", 1)[0]) and not _line_has_marker(u1):
+            return False
         for line in lines:
             u = line.upper()
-            for rx in MARKER_RES:
-                m = rx.search(u)
-                if m and m.start() < MARKER_COL_CAP:
-                    return True
+            # Rule 5: banner region ends at the first non-comment line containing
+            # a tab (column-header row or first data row).
+            if "\t" in u and not u.lstrip().startswith("#"):
+                break
+            if _line_has_marker(u):
+                return True
         return False
     except OSError:
         return False
