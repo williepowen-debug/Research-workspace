@@ -267,12 +267,44 @@ def check_cron_liveness():
 
 
 # ── RESEARCH-INTAKE lane liveness (boot step 7e) ────────────────────────────
+def _missed_weekday_runs(last_run_date, today):
+    """Weekdays STRICTLY AFTER last_run_date through today inclusive — i.e. how many
+    days the weekday-daily collector was expected to run and (as far as this file
+    knows) did not.
+
+    Why this exists: the check previously counted CALENDAR days against a WEEKDAY
+    collector, so a Friday run read as 3d stale on Monday and fired a MED every
+    single Monday and after every holiday. That trains the reader to dismiss the one
+    tier a real collector death appears in. Found at the 2026-08-03 closeout by
+    checking `date +%A` before escalating to PROME, and deliberately NOT patched
+    that night — shipping an untested guard change is the failure
+    `finding_test_the_guard_not_just_the_guarded` exists to prevent.
+
+    ⚠️ KNOWN LIMIT, stated rather than silently accepted: US market holidays are not
+    modelled (no holiday calendar dependency, and `finding_holiday_calendar_domain_mismatch`
+    warns that the obvious library omits Good Friday anyway). A holiday therefore still
+    counts as a missed run. That is the FALSE-POSITIVE direction, which is the correct
+    way for this to fail — it over-reports at most a handful of days a year, versus a
+    false NEGATIVE that would hide a dead collector."""
+    if last_run_date > today:
+        return 0
+    n, d = 0, last_run_date + dt.timedelta(days=1)
+    while d <= today:
+        if d.weekday() < 5:
+            n += 1
+        d += dt.timedelta(days=1)
+    return n
+
+
 def check_intake_liveness():
     """Health self-alarm for the RESEARCH-INTAKE collection lane (WALTER's consumer
     per PROME 2026-06-29). Reads the on-disk liveness.json (boot step 7e re-pulls
     the lane fresh + runs intake_scan for the significance gate — this check is the
-    boot-time backstop that alarms if the collector died). Staleness >2 calendar
-    days (weekday-daily cadence, spans a weekend) = collector likely down → flag PROME."""
+    boot-time backstop that alarms if the collector died).
+
+    Staleness is measured in MISSED WEEKDAY RUNS, not calendar days — the collector
+    is weekday-daily, so a Fri→Mon gap is 1 missed run, not 3 (see
+    `_missed_weekday_runs`). >2 missed weekday runs = collector likely down → flag PROME."""
     lane = Path("/home/willi/Research-Intake")
     lv = lane / "liveness.json"
     seen = WALTER / "registry" / "intake_seen.json"
@@ -287,15 +319,19 @@ def check_intake_liveness():
         out.append((MED, f"liveness.json unreadable: {type(e).__name__}: {e}"))
         return out
     lr = live.get("last_run_utc", "")
+    age = missed = None
     try:
-        age = (dt.datetime.now(dt.timezone.utc)
-               - dt.datetime.fromisoformat(lr.replace("Z", "+00:00"))).days
+        lrt = dt.datetime.fromisoformat(lr.replace("Z", "+00:00"))
+        now = dt.datetime.now(dt.timezone.utc)
+        age = (now - lrt).days
+        missed = _missed_weekday_runs(lrt.date(), now.date())
     except (ValueError, AttributeError):
-        age = None
-    if age is None:
+        pass
+    if missed is None:
         out.append((MED, "last_run_utc missing/unparseable"))
-    elif age > 2:
-        out.append((MED, f"lane STALE {age}d (last_run {lr}) — collector likely down; flag PROME "
+    elif missed > 2:
+        out.append((MED, f"lane STALE — {missed} missed weekday run(s), {age} calendar days "
+                        f"(last_run {lr}) — collector likely down; flag PROME "
                         f"(exception-only; boot 7e re-pulls, this is the on-disk backstop)"))
     if live.get("status") not in ("ok", None):
         out.append((MED, f"lane status={live.get('status')}"))
@@ -307,8 +343,8 @@ def check_intake_liveness():
                         "(run tools/intake_scan.py --mark; first boot would push all still-true conditions)"))
     if not out:
         nfeeds = len(live.get("jobs", {}))
-        out.append((INFO, f"lane live (last_run {lr}, {age}d, {nfeeds} feeds ok); "
-                        f"gate via boot-7e intake_scan.py"))
+        out.append((INFO, f"lane live (last_run {lr}, {age}d / {missed} missed weekday run(s), "
+                        f"{nfeeds} feeds ok); gate via boot-7e intake_scan.py"))
     return out
 
 
