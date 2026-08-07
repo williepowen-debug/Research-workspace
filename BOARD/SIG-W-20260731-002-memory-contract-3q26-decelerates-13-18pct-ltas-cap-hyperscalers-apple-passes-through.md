@@ -14,6 +14,8 @@ signal_type: threshold-adjacent
 confidence: 0.88
 verdict: CONFIRMED-PRIMARY-AND-CORPORATE-DISCLOSURE
 ---
+> ⚠️ **DATE CORRECTED 2026-08-07 by `SIG-W-20260807-001` — the "MU 8/4" resolver named in this signal is WRONG.** Micron's fiscal Q4 ends ~09/03 and prints **late September** (unannounced; ~9/29 on prior-year cadence). Verified at the EDGAR primary (CIK 0000723125: `fiscalYearEnd=0903`; last 10-Q period 2026-05-28; **most recent 8-K of any kind 6/24**, so no 8/4 earnings report exists). **The argument in this signal is UNAFFECTED — only the date is.** Every listen-for below survives and resolves in late September.
+
 
 # 🧠 THE MEMORY CYCLE IS STILL UP AND HAS STOPPED ACCELERATING — 3Q26 server DRAM contract +13-18% QoQ against 2Q26's +58-63%, with TrendForce naming the cause as **CONSUMER demand weakening**, hyperscalers **shielded by long-term agreements**, and Apple **paying up and passing it to consumers on 14 products**. `VULCAN-02` stands (no roll). The STATUS characterization "accelerating UP" does not.
 

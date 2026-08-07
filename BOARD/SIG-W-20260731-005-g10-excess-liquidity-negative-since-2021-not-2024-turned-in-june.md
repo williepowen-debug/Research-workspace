@@ -14,6 +14,8 @@ signal_type: threshold-crossed
 confidence: 0.75
 verdict: CLAIM CONFIRMED / TWO CORRECTIONS — BASELINE UNDERSTATED, VINTAGE ~6 WEEKS STALE
 ---
+> ⚠️ **DATE CORRECTED 2026-08-07 by `SIG-W-20260807-001` — the "MU 8/4" resolver named in this signal is WRONG.** Micron's fiscal Q4 ends ~09/03 and prints **late September** (unannounced; ~9/29 on prior-year cadence). Verified at the EDGAR primary (CIK 0000723125: `fiscalYearEnd=0903`; last 10-Q period 2026-05-28; **most recent 8-K of any kind 6/24**, so no 8/4 earnings report exists). **The argument in this signal is UNAFFECTED — only the date is.** Every listen-for below survives and resolves in late September.
+
 
 # 🌊 THE G10 EXCESS LIQUIDITY LEADING INDICATOR HAS TURNED NEGATIVE — and both numbers in the post that carried it are wrong in ways that matter: **it is the first negative reading since the 2021 inflation shock, not since 2024** (rarer than claimed), **and it turned in mid-to-late JUNE, not today** (~6 weeks old). It leads by 3-6 months, which puts the transmission window at roughly **September–December 2026**.
 

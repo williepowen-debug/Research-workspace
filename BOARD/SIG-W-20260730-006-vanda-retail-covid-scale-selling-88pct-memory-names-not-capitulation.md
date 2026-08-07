@@ -14,6 +14,8 @@ signal_type: threshold-crossed
 confidence: 0.87
 verdict: CONFIRMED (figure + composition at multiple outlets) — the chart's implied "capitulation" frame CORRECTED by its own underlying data
 ---
+> ⚠️ **DATE CORRECTED 2026-08-07 by `SIG-W-20260807-001` — the "MU 8/4" resolver named in this signal is WRONG.** Micron's fiscal Q4 ends ~09/03 and prints **late September** (unannounced; ~9/29 on prior-year cadence). Verified at the EDGAR primary (CIK 0000723125: `fiscalYearEnd=0903`; last 10-Q period 2026-05-28; **most recent 8-K of any kind 6/24**, so no 8/4 earnings report exists). **The argument in this signal is UNAFFECTED — only the date is.** Every listen-for below survives and resolves in late September.
+
 
 # 📉 RETAIL SOLD −$243M OF SINGLE STOCKS ON 7/28 — ONE OF ONLY FOUR SESSIONS LOWER SINCE 2019, LAST COMPARABLE 17 MAR 2020 — **BUT 88% OF IT WAS FOUR MEMORY NAMES (MU, Sandisk, STX, WDC), sold while the S&P closed +0.2%.** This is NOT broad retail capitulation. It is retail selectively exiting the MEMORY COMPLEX at COVID-crash-day magnitude, on the exact day memory equities were crushed — a THIRD instrument class (flows) confirming the memory de-rate, after price (MU −8.85% 7/28) and credit (the CDS complex).
 

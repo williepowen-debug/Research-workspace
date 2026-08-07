@@ -16,6 +16,8 @@ verdict: SELF-CORRECTION TO -002 + WIRE FIGURE CORRECTED + A NEW PUZZLE THE SAME
 status_ref: SIG-W-20260731-002
 corrects: SIG-W-20260731-002
 ---
+> ⚠️ **DATE CORRECTED 2026-08-07 by `SIG-W-20260807-001` — the "MU 8/4" resolver named in this signal is WRONG.** Micron's fiscal Q4 ends ~09/03 and prints **late September** (unannounced; ~9/29 on prior-year cadence). Verified at the EDGAR primary (CIK 0000723125: `fiscalYearEnd=0903`; last 10-Q period 2026-05-28; **most recent 8-K of any kind 6/24**, so no 8/4 earnings report exists). **The argument in this signal is UNAFFECTED — only the date is.** Every listen-for below survives and resolves in late September.
+
 
 # 🔀 THE LTA SPLIT I DISPATCHED THREE HOURS AGO **TRADED ON FRIDAY** — hyperscalers up hard, the non-LTA buyer down 7.35%. **🔑 But the memory SELLER fell too (MU −5.90%), and that is the part worth your Tuesday.** Also: two figure corrections, one of them mine.
 
