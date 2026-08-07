@@ -149,3 +149,81 @@
 
 | ~~JOLTS May~~ | ~~Openings 7.594M 2-yr high vs hires 5.170M flat~~ | ~~⬇️ post-don't-hire GAP widened (LAB-16 ✅)~~ **SUPERSEDED 8/4 — and the May hires level itself revised UP +82K** |
 
+
+
+## NEXT SESSION PICKUP
+
+**🔴 Aug 5 session (Will-directed boot). ⏭️ CARRY INTO THURSDAY — three prints in 48h and the thesis is on the wrong side of two of them:**
+1. ⏳ **GRADE ISM SERVICES JULY FIRST — it is owed and pre-committed.** Printed 10:00 ET 8/5, not indexed when this was written. **Bands already committed above: ≥50 → vector 3 → 1; <50 → holds at 2.** Grade it off the ISM primary release, **not** a secondary — that is the entire lesson of this session (L-12).
+2. 🔴 **Thu 8/6 is double-loaded and both legs are live: Challenger July (~7:30) + claims w/e Aug 1 (8:30).** Bands frozen in card §2e/§2d. **Challenger is the honest re-grade test for vector 5** (AI share <25% or not-#1 → cut to 3) — and vector 5 is one of only **two 🔴 vectors left in the book**. **Claims: the 4-wk MA falls a 6th straight week unless the print is ≥~215K** (w/e Jul 4 rolls out) — **do NOT report that decline as new information**, it is mechanically baked in (card §3).
+3. 🔴 **Fri 8/7 NFP is now the most important print in this book.** It is the discriminator between *demand thaw* and *hiring into a shrunken labor force*. **Grade in card §2f order and do not skip step 1** (revised back-months first, L-02), then **U-3 JOINTLY with LFPR** (L-06) — a participation-driven move is NO-SIGNAL in either direction. **LAB-13 resolves here** (15% posted; the card requires scoring at the **as-made 30%**, git-verified, not the walked-down value).
+4. **Owed follow-through from this session:** ① **1c consumer packets on the ISM Svs 47.4 correction** — it was published and carries the wrong sign, so REGINALD/CARL/NEXUS/WALTER may hold it; ② **PROME/NEXUS escalation packet** on the I-1 failure (card §1.3/§5); ③ **BD-11** freeze-thaw gate spec revision, **owed AFTER 8/7, not before** (§1.4 — no mid-window re-cut).
+
+
+## ARCHIVED 2026-08-07 (C1 line cap) — verbatim
+
+
+| **S&P Global Mfg June (final)** | PMI 53.9 (flash 55.7 revised down); **employment "fastest fall since May-20; ex-pandemic since Oct-09"** (final CONFIRMED flash); sub-index ~47.0 | [CONF] S&P PDFs Jun 23 + Jul 1; sub-index [EST] FT 2nd-hand | ⚠️ diverges from ISM+BLS |
+
+June resolved the bifurcation — into a **deeper freeze on a shrinking labor force**, not a break and not strength. Payrolls +57K missed badly and April/May were revised **down 74K** (the "hard data revising up" bull story is dead; Kill A reset to zero-of-three). But this is not (yet) the demand-break either: claims printed a benign 208K (w/e Jul 11) *below year-ago levels*, Challenger cuts collapsed to the lowest since Dec-2025, WARN plateaued, JOLTS layoffs sit at 1.1%. Nobody is firing; nobody is hiring (hires 3.3%, openings at a 2-year high nobody fills); and now the labor force itself shrank 720K in a month — the pre-registered immigration-supply signature (U-3 down + wages up + participation down) firing in national data. That mix makes **U-3 structurally unreliable as a stress gauge** (LAB-02 died on exactly that; LAB-12 cut 55→30%), sharpens the stagflation mix (weak quantities, wages 3.5% and re-accelerating, Fed debate about *hiking* not cutting), and moves the bearish burden onto flows we can date: the **WARN-surge cohort hitting claims in late July (LAB-17, pre-registered)**, Q2 earnings testing the layoff cohort (LAB-10/11), and the **Aug 28 QCEW benchmark** (LAB-08, downward-revision regime just resumed). Freeze cost is accumulating where it's hardest to reverse — long-term unemployed 1.9M, 27.3% of all unemployed and rising. Honest convergence: **37/75, ~49% of max** — less bearish *breadth* than June 16, more bearish *depth*.
+
+> *Dated-historical BOTTOM LINE updates (7/6 ISM-Svs + big-tech WARN · 7/23 LAB-17 window-opener · 7/24 hike-regime fold) **archived verbatim 7/31 PM** under the C1 line cap → `domain/sources/STATUS_PICKUP_ARCHIVE_2026-07-02_to_07-31.md`. The 7/24 block in particular was **struck as wrong on mechanism** by the 7/29 FOMC grade — see FED TRAP.*
+
+**Jul 23 – Jul 24 sessions (ARCHIVED 7/31 per the C1 line cap):** full verbatim → `domain/sources/STATUS_PICKUP_ARCHIVE_2026-07-02_to_07-31.md`. **Jul 23:** LAB-17 window-opener graded (187K, 57-yr low; LAB-17 35→5%, LAB-03 20→10%); MSFT WA-ESD WARN verified FILED (605, eff 9/4); RHI Q2 graded (in-line, UP-guide → T-12 NOT armed); T-11 NOT FIRED (FL UR 4.7%). **Jul 24:** froze `GRADING_CARD_20260730.md`; pre-registered the FOMC labor-language leg; KFRC date corrected to 7/27 AMC; hike-regime folded into FED TRAP; **ECI 7/31 docket gap found + added**; ECI/AHE composition flag routed to CARL + HENRY; the 7-audit housekeeping heptalogy. **Still-live carry:** the `AGENTS/SIGNALS.md` self-commit protocol change (Will-ratified 7/24) is recorded in `CLAUDE.md` §Outbox Protocol + auto-memory `feedback_shared_log_row_author_commits` — root CLAUDE.md still carries the older blanket rule, a **documented divergence** PROME/Will own.
+
+**Jul 2 – Jul 20 sessions (ARCHIVED 7/31 per the C1 line cap + C5 age rule):** full verbatim entries → `domain/sources/STATUS_PICKUP_ARCHIVE_2026-07-02_to_07-31.md`. Covered: Jul-2 matrix rebuild (48/80→37/75, KEY THRESHOLDS re-homed, LAB-02 ❌ / LAB-16 ✅ / **LAB-17 registered at 30%**); Jul-9 AM claims catch-up + 2 WALTER SIGs drained; Jul-9 PM `form4_scanner.py` + `job_postings_tracker.py` builds and the LAB-04→CORAL handover; Jul-10 KB.tsv revived LIVE, `warn_texas.py` repointed to the TWC primary (caught ZeniMax 158), `docket/WARN_COHORT.tsv` created; **Jul-20** pre-print insider re-run (WAL/ZION/OZK — all HOLD, 0 new open-market sells, OZK gap resolved via the FDIC cert-110 backend) + the PROME-seeded self-sweep that first caught the stale-claims-spine class. **Open code debt from Jul-20:** the FDIC OZK path is still run MANUALLY — not integrated into `form4_scanner.py` (tool remains SEC-EDGAR-only with a fail-loud warning); tracked in `BUILD_DEBT.md`. **Still-live carries lifted out of that block so they don't archive silently:** (a) **monthly carries owed** — staffing tier-split / ASA index (next prints); (b) **HH-survey June weakness** (−507K, FT-led) still needs 2nd-print confirmation before weighting — **resolves Aug 7 NFP** (`[[feedback_single_month_subcomponent_skepticism]]`); (c) **Greenwood Leflore MS closure gate was dated Jul 31 = TODAY, unchecked this session**, and the Temple board count from the same 7/6 MSFT sweep is still uncounted; (d) RESEARCH-INTAKE carries ICSA/CCSA with lines at exactly T-01/T-02 (250K/300K) = a machine-independent claims backstop, level-based only — sessions still own the 4-wk MA read.
+
+**Jul 31 AM / PM / EVE sessions (ARCHIVED 2026-08-05 per the C1 line cap):** full verbatim → `domain/sources/STATUS_PICKUP_ARCHIVE_2026-07-02_to_07-31.md`. Covered: both owed grades cleared (FOMC 7/29 labor-language → branch (a) on the letter with its implication REFUTED, **PROVISIONAL until minutes ~Aug 19**; KFRC Q2 → canary triple 3-for-3, vector 14 → 1); LAB-06 repriced 80→20% pre-print; all 4 Will-ruled items implemented (C2a quarterly cards · B5b RULED-NO-GATE · push-by-session-type · `PUBLISHED.tsv` built); Aug 3–7 cluster frozen; graded cards → `docket/graded/`; 1c round 4-of-4. **Still-live carries lifted out so they do not archive silently:** (a) the KFRC *"~18% YoY job orders"* figure is **SECONDARY-ONLY** — do not let it become load-bearing; (b) **LAB-10 sits at 75%**, a threshold call in the category where LABOR is 0/3 at high confidence, window OPEN NOW — **grade against actual Q2 prints before 9/30**; (c) 1b/1c/1d are still absent from C1–C6 and `WARN_COHORT.tsv` still has no closeout writer; (d) the `AGENTS/SIGNALS.md` self-commit divergence from root CLAUDE.md remains a documented PROME/Will item.
+
+## ARCHIVED 2026-08-07 round 2 (C1 cap) — verbatim
+
+
+| ICE enforcement / immigration supply shock | **Signature CONFIRMED in national aggregates:** LF −720K, NILF +832K, LFPR 61.5% (−0.3pp), U-3 ↓ mechanically, AHE ↑ 3.5% — the exact pre-registered supply-shrink pattern | Supply cut suppresses U-3 / lifts wages — opposite sign to demand-weakness thesis | Breakeven payrolls falling (~0-50K?) = re-benchmark what "weak NFP" means; vector 11 demand slice unchanged |
+
+| Wage-compression backdrop (WALTER SIG-007, verified) | Comp/GDI **51.00%** Q1-26 = series record low since 1947 [CONF BEA 3rd est Jun 25]; −5.6pp since 2000; domestic profit share 12.24% GDI (highest since 1950-Q4); real aggregate comp FELL Q1 | Distribution/structural, not a cyclical employment signal | Context for CARL (consumer capacity) + LAB-12-class wage dynamics; measure-dependent — cite the BEA comp/GDI series specifically |
+
+## ARCHIVED 2026-08-07 round 3 (C1 cap) — verbatim
+
+
+| ✅ **Late July (claims w/e Jul 18 + Jul 25)** | WARN surge cohort (Spirit-led, mid-June) + **big-tech RIF cluster** (LinkedIn 606 eff Jul 13, Meta ~4,665 eff Jul 22, Intuit 910 eff Jul 31) hit the r=0.78 lag window → **LAB-17** | **CLOSED — LAB-17 ❌ FALSIFIED 7/31.** Leg 1 (7/23): 187K→rev 188K, a 22K *fall*. Leg 2 (7/30): **197K vs the required ≥327K**; 4-wk MA **202,750**, 32,250 *further* from the 235K bar. Failed on **cohort SIZING, not the mechanism** — all three cohorts sit below the L-08 detectability floor and are now marked LAPSED-LOW in `WARN_COHORT.tsv`. Scored as-made 30% → Brier 0.09 |
+
+| ✅ **Jul 6 – Jul 9 + the big-tech WARN cluster (merged 8/5)** | 8 software/internet firms posted involuntary RIFs Apr–Jul (~7,725: Meta/Intuit/Oracle/LinkedIn/Snap/Cloudflare/ServiceNow/Salesforce) + MSFT ~5,700 announced, **chips QUIET** — a WAVE, not idiosyncratic → `BIGTECH_WARN_CLUSTER_20260706.md` · claims w/e Jul 4 **215K** (drift) · **WA ESD 605 + ZeniMax TX 158 = 763 hard-filed** | All GRADED. 🔴 **The ISM-Svs leg of this row said "June emp 47.4, freeze CONFIRMED on the survey layer" — FALSE, corrected 8/5: it was 51.2, an EXPANSION.** The hard-filing leg is unaffected and still carries the AI/tech-displacement axis. MSFT/ZeniMax **eff 9/4** is the live residual → `WARN_COHORT.tsv` + the Sep-4 CATALYSTS row |
+
+| ✅ **Aug 3 / Aug 4 / Aug 5 — GRADED 8/5** | ISM Mfg July · JOLTS June · ADP July | **ISM emp 52.8 → LAB-06 ❌ (Band A)** · **JOLTS hires 5,348K → Band 2 thawing, vector 4→3; layoffs 1.1% so the bear path did NOT open** · **ADP +44K → no re-grade (§2c)**. 🔴 **Card §4 implication I-1 FAILED (2 of 4)** |
+
+| ✅ **Mon Aug 3** | **ISM Mfg July — GRADED 8/5** | **Employment 52.8** (+3.1), PMI 55.6 → **card Band A → LAB-06 ❌ FALSIFIED.** Modal call was *"B-or-A, A slightly favoured"* — **A landed**, and **both upstream leads (German PMI, S&P flash) were RIGHT**; I under-weighted them. Headline Brier as-made **0.64**; the 20% pre-print diagnostic **0.04**, separate, not in the mean |
+
+| ✅ **Tue Aug 4** | **JOLTS June — GRADED 8/5** | Hires **5,348K** = card hires-Band 2 → vector 4 **→ 3**; May revised **UP** +82K; quits **2.0%**; openings −178K; **layoffs rate 1.1% flat → the ≥1.2% bear-revival did NOT fire.** Card I-1 condition (hires >5.3M) **✅ LANDED** |
+
+| ✅ **Wed Aug 5** | **ADP July — LOGGED, no re-grade (card §2c)** | **+44K** vs 70K cons, weakest since Jan; June rev 98→**95K**; **edu/health = 82% of the gain**; changers pay 7.0%. The cold print of the week, pre-committed non-actionable a week before it landed |
+
+## ARCHIVED 2026-08-07 round 4 (C1 cap) — verbatim dashboard rows
+
+
+| **WARN cumulative** | **2,954 / 270,641** [EST aggregator 7/23] (+296 / +19,930 vs Jul 2 = ~950/day, modestly above the ~575/day plateau pace but below the T-07 50K/mo line; concentration: software/cloud/cyber per tracker). July *announcement* tape thin: 25 cos / 13,532 (MSFT 4,664 largest); this wk: Magic Leap ~200, Pixar 116, K&L Gates 10% non-lawyer, Amazon AGI-unit (count undisclosed) | [EST] LayoffAlert.org/layoffhedge 7/23 (prior [CONF] Jul 2: 2,658/250,711) | 🟠 |
+
+| Labor share (context) | Comp/GDI **51.00%** Q1-26, record low since 1947 (series-specific); real comp fell Q1; profit share 12.24% GDI | [CONF] BEA 3rd est Jun 25 (verified via NIPA T1.10) | 🟠 structural |
+
+| KELYA | **$15.23** `[CONF live 7/23]` — **SUPERSEDES the $13.00 (7/2) mark this row used to carry** (audit E1: two prices for one instrument sat in this file, 29d and $2.23 apart). Matches the EXIT RULES DTE≤30 write-off checkpoint. ⚠️ **Not a live quote — pull fresh before any position action (root rule 4).** | [CONF] 7/23 checkpoint | ⚪ |
+
+| **FL UR June** | **4.7%** (−0.1pp MoM from 4.8 May unrevised; +0.9pp YoY, Jun-25 3.8; among 8 states lower MoM, only AL+KY rose MoM). **Cross-corrob:** CCBG (81%-FL bank) Q2 printed benign 7/21 — [CONF CORAL 7/21 entry, figure not duplicated] = independent datum supporting the marginal-counter read (bank-side FL stress not confirming; synchronization 0-of-≥2) | [CONF] BLS LAUS June 2026 (7/21 10:00 ET) | 🟡 T-11 not fired; FL stress paused MoM, elevated YoY |
+
+## ARCHIVED 2026-08-07 round 5 (C1 cap) — FED TRAP historical blocks, verbatim
+
+
+**Stagflation mix sharpened:** payrolls weak (+57K) but wages re-accelerating (3.5%) and the U-3 gauge suppressed by supply-shrink — the market read it as "Fed holds off on **hiking**" (10Y ~flat, no dovish repricing). The Fed's employment gauge (U-3) is being mechanically flattered while the quantity side deteriorates: policy stays boxed. ~~Real test: June CPI **Jul 14** (HENRY).~~ **← DEAD POINTER, struck 8/5: that date passed three weeks ago and the line still presented it as the forward test.** The live policy tests are **~Aug 19 minutes** (which make my 7/29 grade final) and **~Aug 21 Jackson Hole** — both in the calendar. Thesis state: **superseded — see the 8/5 header; the freeze is thawing on the hiring side.**
+
+> ~~**The sign flip for my lane: benign claims prints now FEED the hike path.** The 187K 57-year low was **hawkish fuel** into FOMC 7/29... the hike case rests on a labor-tightness premise built from exactly the three gauges I've flagged as artifacts.~~ **← WRONG ON MECHANISM. CORRECTED 7/31 off the FOMC primary text.** *(Struck, not deleted: this was the standing read for 7 days and was routed to CARL/HENRY/RED inside it.)*
+
+**LABOR's input into CPI week — 7/9 forward-frame block (collapsed 7/31, all five of its dated gates now resolved):** the standing read it established still holds and is carried in BOTTOM LINE — *if CPI surprises hot, the labor-side explanation is supply-driven wage scarcity + energy pass-through, not an overheating jobs market; claims/JOLTS do not support a demand-pull story.* **ECI 7/31 has since upgraded that from assertion to evidence** (composition-controlled wages decelerating while AHE accelerates). Gates 1-3 (claims 7/18, 7/25, MSFT WA WARN) graded; 4-5 (NFP Aug 7, QCEW Aug 28) remain live in the calendar.
+
+## ARCHIVED 2026-08-07 round 6 (C1 cap) — de-duplicated CORE TENSION rows + rehomed note, verbatim
+
+
+| 🔴 **ISM Mfg employment (Jul, 8/3)** | **52.8** (+3.1 from 49.7) — **expansion for the first time in 33 months**; PMI 55.6 = highest since May-2022; **60% of panelists hiring** | ⬆️🔴 **LAB-06 ❌ FALSIFIED.** The survey freeze leg is dead on the mfg side |
+
+| **🆕 ADP July (8/5)** | **+44K** vs 70K cons (weakest since Jan); June rev 98→**95K**; edu/health **+36K = 82% of the gain**; leisure −11K; goods −3K; job-changer pay **7.0%** (from 6.6) | ⬇️ **COUNTER to the thaw — but pre-committed NO re-grade (card §2c).** Breadth is bad; ADP's own economist cites *"supply constraints"* |
+
+| **Big-tech WARN cluster (7/6)** | 8 software/internet firms ~7,725 filed Apr–Jul (Meta ~4,665 the anchor) + MSFT ~5,700 announced; chips quiet | ⬇️🔴 tech white-collar/AI displacement in HARD filings → LAB-11/AI-capex node |
+
+> **Rehomed / cross-tracked (not LABOR-active):** **LAB-04** FL foreclosures +75%+ YoY, 75% conf, **REHOMED→CORAL 7/9** (CARL pickup limbo closed; CORAL's mandate already covers FL foreclosure-by-metro). Not resolved — CORAL owns the clock now, register under CORAL's own IDs. Employment-signature cross-flag preserved. LABOR-side accelerant WEAKENED at hand-off (FL claims quiet, not top-10 IUR). Handover packet delivered to CORAL 7/9 (consumed).
