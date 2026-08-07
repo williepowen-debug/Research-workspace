@@ -1,11 +1,32 @@
 # WAL — NEXUS Brief
 
-**Status:** 🟠 BEAR NARROWED, NOT DEAD — v2.3 post-Q2 re-mark holds unchanged through the Q2 10-Q read: broadening DISCONFIRMED (0 new office migrations; REG-26 disconfirmed), thesis marked DOWN against the non-confirming print (EV $68.93→$73.92, overvaluation 18.8%→12.4%); residual bear = idiosyncratic office tail + reserve thinness, resolution dated to the $99M appraisal + Q3 10-Q. ⚠️ **The Q2 10-Q (8/7) did NOT settle the residual — it widened the key spec question and refuted the rationale behind one convergence score.**
+**Status:** 🟠 BEAR NARROWED FURTHER, NOT DEAD — ★★ **2026-08-07: the V1a MI3 falsifier RAN FOR THE FIRST TIME EVER and DISCONFIRMED** (Q1-26 23.88% · Q2-26 21.20%, both `<24%` PLATEAUED; **bear-fast KILL FIRED**, ~Sep 1 time-box **DISSOLVED**). ⚠️ **V1a ≠ V1 — the secured office book is UNTOUCHED and the thesis weights are UNCHANGED pending Will (v2.4 proposal P7).** Prior framing, still standing: v2.3 post-Q2 re-mark holds unchanged through the Q2 10-Q read: broadening DISCONFIRMED (0 new office migrations; REG-26 disconfirmed), thesis marked DOWN against the non-confirming print (EV $68.93→$73.92, overvaluation 18.8%→12.4%); residual bear = idiosyncratic office tail + reserve thinness, resolution dated to the $99M appraisal + Q3 10-Q. ⚠️ **The Q2 10-Q (8/7) did NOT settle the residual — it widened the key spec question and refuted the rationale behind one convergence score.**
 **Domain:** Western Alliance Bancorporation (NYSE: WAL) — single-name deep coverage: thesis + calibration record, print grading off frozen frames, FRAUD/ litigation arc (WAL v. Jefferies $126.4M + Cantor), MI3 watch. **NOT mine:** cohort/KRE/peer banks → REGINALD; OZK → OZK; First Brands docket → OTTO; private credit → BROCK.
 **Thesis framing:** v2.3 "compounder with concentrated CRE tail risk" — Bear-fast 10 / Bear-medium 16 / Base 40 / Bull 27 / Tail 7; EV $73.92; PT $52-74 (pinned [Bear-fast low, EV]). **v2.3.1 was pre-registered as a conditional re-mark; the condition was evaluated 8/7 and DOES NOT FIRE — no successor version is owed.**
-**As of:** 2026-08-07 — **owner re-pin, WAL session #2.** STATUS pin: **`b43c8d3a8`**. *(Supersedes the 7/25 standup pin, which NEXUS correctly classified 🟠 CONTENT-STALE at 7 commits' drift on 7/31 — packet consumed, all five missing items folded below.)*
+**As of:** 2026-08-07 — **owner re-pin, WAL session #2 (second fold, same day, after the MI3 scope extension).** STATUS pin: **`07bebc54f`**. *(Supersedes the 7/25 standup pin, which NEXUS correctly classified 🟠 CONTENT-STALE at 7 commits' drift on 7/31 — packet consumed, all five missing items folded below.)*
 
 ---
+
+## ★★ THE BIG ONE (2026-08-07): a 4-month-dark primary falsifier ran, and disconfirmed
+
+**Will cleared the FFIEC CDR blocker; MI3 pulled the same day for both 2026 quarters plus 10 of history.**
+
+| | MI3 (`RCON2746` ÷ item 4) | Frozen band | Pre-registered outcome |
+|---|---:|---|---|
+| **Q1-2026** | **23.88%** | `<24%` | **V1 PLATEAUED** |
+| **Q2-2026** | **21.20%** | `<24%` | **V1 PLATEAUED** |
+
+**Concordant. ✅ Bear-fast KILL FIRED** (on the exact instrument the rule named). **✅ ~Sep 1 time-box DISSOLVED** — purpose discharged, not waived.
+
+**★ What the 12-quarter series overturned, and why other agents should care:** `10.89 · 10.16 · 16.80 · 15.51 · 16.00 · 21.85 · 24.06 · 22.48 · 21.97 · 24.24 · 23.88 · 21.20`. **MI3 has never reached 25% in twelve quarters** — all-time high 24.24%, **never within 76bps of its own trigger** — and since 2025Q1 it oscillates with no trend. **The "24.2% and growing, fastest in cohort" framing carried since March was a two-endpoint artifact:** both levels reproduce exactly, but the span was **six** quarters, not the two the record claimed. *A falsifier carried 10% of a thesis for four months on a firing condition the data had never plausibly reached.*
+
+> ### ⚠️ SCOPE FENCE — the most likely mis-consumption of this result
+> **V1a ≠ V1. "WAL's hidden-CRE falsifier disconfirmed" is one keystroke from "WAL's CRE thesis disconfirmed," and the second is FALSE.**
+> MI3 measures CRE-purpose lending **not secured by real estate**. The **$99M life-science credit, the office book, the classified balance and the pending appraisal are all in the SECURED book and are untouched.** V1b-magnitude stays **4/5** — and the same-day Q2 10-Q read *added* to it (OREO office property count **15 → 22**). WAL's bear narrowed again; it is now **entirely** the secured office tail plus reserve thinness.
+
+⚠️ **Weights are UNCHANGED and consumers must not adjust them.** The 10% bear-fast weight was **not** re-allocated: that is un-pre-registered, and the frozen table's *implication* column ("bear shifts back toward 30%") is v2.1-vintage — under v2.3's **split** bear it would **RAISE** total bear on a **disconfirmation**. → **v2.4 proposal P7, Will-gated.** WAL will signal when he rules.
+
+**Unsettled and explicitly not mine:** **cohort position.** Whether 21.20% is high or low *versus peers* has never been re-tested. The CDR pull is now cheap (one loop over a bank list) — **routed to REGINALD** with the recipe and its two traps.
 
 ## Recent pivot (required)
 
@@ -23,7 +44,7 @@ The **Q2 10-Q filed 2026-07-31**, seven days before the ~Aug 7-10 window this br
 
 | Finding | Direction | Consumer relevance |
 |---|---|---|
-| ★ **NDFI grew to $15,812M = 25.9% of HFI, a new high share** (vs 25.2% at 3/31); **all three sub-lines up QoQ**, PE funds fastest at **+15.6%** | **Refutes** the A2 call claim that the book is "shrinking by management choice" — the rationale behind V3's 2/5→1/5 cut | **REGINALD:** this is a live NDFI/CCLFX cohort datum. **Score held at 1/5, re-examination proposed to Will** — do not treat 1/5 as settled |
+| ★ **NDFI grew to $15,812M = 25.9% of HFI, a new high share** (vs 25.2% at 3/31); **all three sub-lines up QoQ**, PE funds fastest at **+15.6%**. ⬆ **8/7: INDEPENDENTLY CORROBORATED** — the FFIEC Call Report's item 9a ties to the 10-Q **to the dollar** in both quarters, and extends the record to **12 quarters rising in 11, monotonic since 2024Q1** | **Refutes** the A2 call claim that the book is "shrinking by management choice" — the rationale behind V3's 2/5→1/5 cut. Now backed by **two independent primaries across three years** | **REGINALD:** live NDFI/CCLFX cohort datum. **Score held at 1/5, re-examination proposed to Will** — do not treat 1/5 as settled |
 | ★ **WAL-01's bucket question WIDENED, not closed** — hybrid label (*"life science laboratory/office CRE loan"*), Life sciences ($418M) still separate from Office ($2,139M), nonaccrual arithmetic points at a **third** bucket (Construction & land dev), and **no 10-Q publishes office-classified at all** | Spec risk ↑ | Anyone citing WAL-01 (office classified >$500M) should know its **only** carrying instrument is a deck slide image, and that its spec's *"Q3 10-Q Schedule O"* leg is **void** (Schedule O is a Call Report schedule) |
 | ★ **Jefferies complaint AMENDED May 2026** — negligence, promissory estoppel, unjust enrichment added to breach + fraud | Litigation escalation in the pleading, not the P&L | **OTTO / BROCK:** material WAL v. Jefferies development |
 | ★ **NO Jefferies countersuit disclosed; NO recovery-to-date figure** | Clean negative, with a stated limit | The $25M Point Bonita counterclaim (secondary-sourced) is **not in the filing**. ⚠️ Note 15 carries a blanket *"routine…not material"* clause, so **absence cannot distinguish non-existence from immateriality** |
@@ -55,8 +76,8 @@ The **Q2 10-Q filed 2026-07-31**, seven days before the ~Aug 7-10 window this br
 
 | From | What | Expected by |
 |---|---|---|
-| **Will** | **① FFIEC CDR registration (unblocks MI3) · ② ruling on the two prediction-spec defects · ③ ratify-or-reject v2.3.1 · ④ V3 1/5 re-examination** | **⏱ ① is dated: ~Sep 1** |
-| FFIEC | Q2 Call Report PDD → first-ever MI3 test | ~Aug 2026 window (Q2 filings were due ~7/30) |
+| **Will** | ~~① FFIEC CDR registration~~ ✅ **DONE 8/7** → **① ★ v2.4 disposition of bear-fast's 10% (P7)** · ② ruling on the two prediction-spec defects · ③ ratify-or-reject v2.3.1 · ④ V3 1/5 re-examination · ⑤ MI3 denominator basis (P8) | **⏱ FFIEC JWT expires 2026-11-05 — before the Q4 Call Report** |
+| ~~FFIEC~~ | ~~Q2 Call Report PDD → first-ever MI3 test~~ | ✅ **RUN 2026-08-07.** Now a **standing quarterly pull** — next Q3-2026 ~Oct-Nov |
 | SEC EDGAR | Q2 13Fs (institutional flow — **still genuinely unexamined**) | ~Aug 14 2026 |
 | WAL mgmt | $99M life-sci appraisal → charge-down or cure. ⚠️ **No known carrying filing** | Q3 2026 |
 | SEC EDGAR | Q3 print (~mid-Oct) + Q3 10-Q (~late Oct) — WAL-01/02 resolution, migration N=2, Cantor ledger tie-out | ~Oct 2026 |
@@ -67,12 +88,15 @@ The **Q2 10-Q filed 2026-07-31**, seven days before the ~Aug 7-10 window this br
 - **With the cohort read:** WAL bear remains explicitly **idiosyncratic** — if any consumer generalizes WAL stress to regionals, that contradicts Hyp A. Route cohort claims to REGINALD. ⬅ **New 8/7:** the NDFI growth finding is the one datum here with genuine cohort reach — hand it to REGINALD rather than generalizing it here.
 - **With the crowded short (4.91% float):** bearish framing that ignores squeeze mechanics overstates near-term downside; the pop-discipline stack exists for this.
 - ⬅ **New 8/7 — with anyone citing WAL's grading heritage:** WAL is the fleet's frozen-frame reference, and **this quarter it recorded a VOID leg rather than a grade.** Cite the miss with the method; a heritage claim that omits it is the wrong signal.
-- ⬅ **New 8/7 — with anyone citing V3 at 1/5:** the score is **held but under challenge** on a refuted rationale. Do not consume 1/5 as settled.
+- ⬅ **New 8/7 — with anyone citing V3 at 1/5:** the score is **held but under challenge** on a rationale now refuted by **two independent primaries across twelve quarters**. Do not consume 1/5 as settled.
+- ⬅ **New 8/7 — with anyone citing the MI3 result:** carry the **V1a ≠ V1** fence and the **weights-unchanged** note together. A one-line composite reading "WAL's primary CRE falsifier disconfirmed" would be materially wrong about the secured office book, which is where the whole residual bear now lives.
 
 ## FORWARD CATALYSTS
 
-FFIEC MI3 window (~Aug, **⏱ time-box ~Sep 1**) → Q2 13Fs (~Aug 14) → $99M appraisal (Q3, uninstrumented) → Sep-18 expiry ($67.5P/$70P core, TERRY lane) → Q3 print (~mid-Oct) → Q3 10-Q (~late Oct) → H2 buyback execution (Q2 near-stopped at $2.3M; $179.6M authorization remains) → capital-rules final (AOCI Cat III/IV).
+~~FFIEC MI3 window~~ ✅ **RUN 8/7** → **Q2 13Fs (~Aug 14)** → $99M appraisal (Q3, uninstrumented) → Sep-18 expiry ($67.5P/$70P core, TERRY lane) → Q3 print (~mid-Oct) → Q3 10-Q (~late Oct) → H2 buyback execution (Q2 near-stopped at $2.3M; $179.6M authorization remains) → capital-rules final (AOCI Cat III/IV).
 
 ---
 
-*Schema R3 + amendment 7. **Amendment 10 observed:** this fold is the session's LAST write, committed AFTER the final STATUS commit (`b43c8d3a8`). First WAL brief 2026-07-25 (standup); **first owner re-pin 2026-08-07 (session #2)** — closes the 🟠 CONTENT-STALE classification NEXUS raised 7/31. Per that packet's ACTION line, this re-pinned brief IS the acknowledgment and no reply packet is owed. **A brief-fold step has been added to WAL's closeout sequence** (packet ACTION item 2). BRIEFS_MAP row confirmed present in the ★7/31 census — thank you.*
+*Schema R3 + amendment 7. **Amendment 10 observed:** this fold is the session's LAST write, committed AFTER the final STATUS commit (`07bebc54f` — re-pinned from `b43c8d3a8` when the MI3 scope extension moved STATUS again).*
+
+* First WAL brief 2026-07-25 (standup); **first owner re-pin 2026-08-07 (session #2)** — closes the 🟠 CONTENT-STALE classification NEXUS raised 7/31. Per that packet's ACTION line, this re-pinned brief IS the acknowledgment and no reply packet is owed. **A brief-fold step has been added to WAL's closeout sequence** (packet ACTION item 2). BRIEFS_MAP row confirmed present in the ★7/31 census — thank you.*
