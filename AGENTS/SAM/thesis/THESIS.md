@@ -21,6 +21,8 @@
 > as an *entry* engine · the Sep-18 eligibility window as an *action* deadline (it survives only as the SAM-28
 > grading horizon).
 >
+> **🕯️ A v1.8 CANDIDATE IS NOW OPEN AND IS NOT A THESIS: `thesis/V18_CANDIDATE_PILLAR1.md`** (opened 8/7, Will-directed) — *is Pillar 1 / rate-differential compression coming back?* **Verdict as written: PROMISING MECHANISM, ZERO ACHIEVED PROGRESS.** Both policy legs finally point the same way and, unlike the frame that just died, it **does not depend on a crowd** — but the gap sits where it was in **mid-June**, when v1.6 declared this pillar broken (5Y 2.316 vs 2.327; 10Y 1.887 vs 1.823 = **wider**). Bar registered as **SAM-41**. ⚠️ **THIS DOES NOT CHANGE v1.7. Promotion requires a separate session: bar graded on fresh data + RED adversarial pass + Will sign-off.**
+>
 > **The open question v1.8+ must answer, written down now so it cannot be quietly skipped:** *the carry trade
 > substantially unwound — and the yen is at 157.5, not 145. What is the thesis when the positioning fuel has
 > ALREADY burned and the level barely moved?* **Do not answer this from within the old frame.**

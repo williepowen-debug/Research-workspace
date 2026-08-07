@@ -9,6 +9,58 @@ Tracks all changes to THESIS.md and TIMELINE.md. Reverse chronological. Each ent
 ---
 
 
+
+## 2026-08-07 (later) — 🕯️ **v1.8 CANDIDATE OPENED: "Is Pillar 1 coming back?" — NOT a version change, NOT a thesis**
+
+**THESIS stays v1.7 (retired, no successor).** Will asked directly whether rate-differential compression is
+returning; the analysis was worth preserving, so it is written up as a **candidate** in
+`thesis/V18_CANDIDATE_PILLAR1.md` with an explicit guard at the top against exactly the thing a well-written
+candidate enables — becoming the thesis by default.
+
+**VERDICT AS WRITTEN: PROMISING MECHANISM, ZERO ACHIEVED PROGRESS.**
+
+**The measurement, which is the whole entry:**
+
+| Date | 5Y gap | 10Y gap | |
+|---|---|---|---|
+| **2026-06-18** | **2.327** | **1.823** | the day v1.6 declared Pillar 1 broken |
+| 2026-07-31 | 2.416 | 1.944 | 10Y peak |
+| **2026-08-07** | **2.316** | **1.887** | today |
+
+**Today ≈ mid-June.** 5Y materially identical; **10Y is WIDER by 6.4bp than when the pillar was pronounced dead.**
+The July widening has retraced ~82% (5Y) / ~47% (10Y) — **and that is the entire move. Nothing has been won.**
+
+⚠️ **The framing trap this entry exists to record:** anchored to the **7/31 peak** the gap is "compressing
+nicely"; anchored to **June** nothing has happened. The peak is the wrong anchor — it is a July extreme produced
+by the very hawkish hold this candidate is supposed to be recovering from. **Anchor to June.**
+
+**Case FOR:** ① for the first time this cycle both legs move the same way (Fed Sep hike odds **57% → 43.9%**;
+BOJ Sep cumulative **45.6%**, and the TFX curve shows a **pull-forward**, terminal unchanged — it compresses the
+*near* gap, which is what prices carry); ② the registered "labor too firm" blocker weakened; ③ **structurally the
+strongest point: Pillar 1 does not need a crowd** — the thing that killed the convexity frame does no damage here.
+
+**Case AGAINST (currently wins):** ① no achieved compression (above); ② the registered tripwire — an **FOMC
+walk-back of the Jun-17 dots** — **has not fired**, and Warsh's regime is intact (3 hawkish dissents 7/29);
+③ one payroll with adverse composition (private +30K vs government −53K; U-3 fell on participation = NO-SIGNAL
+per LABOR L-06); ④ **CH-004** — the already-priced portion does not pay; ⑤ **SAM is 0-for-2 on this exact pillar**
+(SAM-08 @90%, SAM-20 @60%, both FAILED).
+
+**Bar registered as SAM-41 @40%** — June-anchored, and *"sustained"* **defined** as 5 consecutive closes so it
+cannot be graded on an intraday tag: **5Y gap <2.25% OR 10Y <1.80% by 2026-10-31.** ⚠️ The level bar and the FOMC
+tripwire are **separate; neither substitutes for the other.** Kill conditions written (Sep FOMC reaffirms the
+dots · a new WIDE · Japan inflation rolls over).
+
+**Recorded so it is not improvised later — the vehicle would be DIFFERENT.** Without a crowd to squeeze, a
+Pillar-1 rally is a **grind, not a spike**: spot / long-dated, **not** the short-dated convexity structure we were
+building (options bleed theta on a grind). **Inherits NOTHING from the retired frame** — not the Sep-18 window,
+not the −153K/85% line (VOID), not the trigger list, not TRY-FIRE-007 (stood down).
+
+**Open data needs, flagged rather than papered over:** the US leg of the table is **Yahoo secondary** and needs a
+**Treasury/FRED primary** re-pull; the US/JGB pairs are **not perfectly synchronous** (MOF publication lag), so
+direction is safe and 1bp precision is not; the Fed leg should be derived from **SOFR futures** to match the
+BOJ leg's TFX-primary footing; and **SAM-41's base rate is UNMEASURED** — 40% is judgment, not calibration.
+
+
 ## 2026-08-07 — v1.6.11 → **v1.7** · ⚰️ **CARRY-CONVEXITY TAIL RETIRED TO LOW. Leg-1 SPF fired — a registered thesis-BREAK condition is MET.**
 
 **Trigger:** CFTC JPY COT, Aug-4 data, released Fri 8/7 15:30 ET.
