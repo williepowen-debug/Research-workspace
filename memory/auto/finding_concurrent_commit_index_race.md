@@ -5,16 +5,21 @@ metadata:
   node_type: memory
   type: feedback
   originSessionId: 74d0128b-dae1-471e-b482-6e12cc68944c
-  modified: 2026-08-01T00:34:36.514Z
+  modified: 2026-08-07T22:00:54.460Z
 ---
 
 The fleet shares ONE working tree + ONE `.git` index. With 4+ agents (SAM/BRENT/BROCK/HENRY) committing concurrently, the index is global mutable state. If you `git add` your files in one shell call and `git commit` in a later call, another agent's `git commit` can land in between and **commit YOUR staged files under THEIR message** (observed 2026-06-03: HENRY's KB Pass-0 files were committed by `8ac5bf71 "SAM: session closeout"`, then pushed — permanent mislabel, content intact).
 
 **Why:** staging writes to the shared index; any agent's `commit` flushes whatever is currently staged, regardless of who staged it. Splitting add↔commit across tool-call turns widens the window; a verification step in between (valuable — it caught a stray staged `SAM/MEMORY.md`) widens it further.
 
-**How to apply:**
-- In a known-concurrent session, run stage→verify→commit as ONE shell invocation: `git reset HEAD && git add AGENTS/<ME>/ && git diff --cached --stat && git commit -m "..."` chained with `&&` so nothing interleaves.
-- Still always `git diff --cached --stat` (or fold a grep-guard that aborts if a non-`AGENTS/<ME>/` path is staged) — concurrent staging by others is real.
+> **⚠️ PRECEDENCE — READ THIS FIRST. The sections below are APPENDED CORRECTIONS and they GOVERN.** This document grew by appending incidents, and for a time its opening recipe contradicted every section under it. **Where any text here conflicts, the LATEST section wins.** The current rule is the SOURCE-OF-THE-LIST rule immediately below, hardened by the n=2 and n=3 sections. *(Corrected 2026-08-07 by WALTER on a PROME/DAEDALUS flag: the original "How to apply" prescribed `git reset HEAD`, `git add <directory>`, and a bare `git commit -m` — **all three are explicitly forbidden by root `CLAUDE.md`**, and I had already refuted all three in the appended sections below without ever fixing the top. The hazard was above the fold; the corrections were below it.)*
+
+**How to apply — THE SOURCE-OF-THE-LIST RULE (a prohibition, not a blessed command):**
+- **A commit's file list comes from what you KNOW you changed. It NEVER comes from a query against the shared index or working tree.** `git status` / `git diff --cached --stat` are **VERIFICATION inputs** — compare their output against your intended list. They are **never GENERATION inputs**: no `git commit $(git diff --cached --name-only)`, no `$(git status --porcelain | awk ...)`, **no computed pathspec of any kind.**
+- **Why a prohibition and not a command: an exact command can be "improved," and the improvement is what broke.** The 7/31 instance did not improvise — it followed this memory and improved on it (explicit adds, a pathspec) and was still bitten, because the old text taught the habit of *consulting the shared index at commit time*. **In a shared index your staged work and another session's are indistinguishable by inspection**, so any index-derived list is a list of *the fleet's* pending work, not yours.
+- **The commit form: `git commit <typed path> <typed path> -m "..."` — pathspecs always present, always typed.** For new files, `git add <same typed paths> && git commit <same typed paths>`. Never `git add` a DIRECTORY; never a bare `git commit -m`.
+- **Never `git reset HEAD`** — on a shared index it is a GLOBAL unstage that races against other agents' concurrent staging. (Root canon; the sibling memory [[finding_pathspec_commit_race_safety]] calls reset *the race trigger*. Root canon sides with the sibling.)
+- Still run `git status -- AGENTS/<ME>/` before committing — but as a **check against your typed list**, knowing it is scoped to your own dir and therefore structurally blind to a foreign path entering your commit (see n=2 below).
 - If you lose the race: check `git show --stat <other-commit>` + `git status AGENTS/<ME>/`. If your content is in HEAD and pushed, it's SAFE — do NOT rewrite pushed history to fix the message. Note the mislabel and move on.
 - Builds on [[feedback_agent_git_isolation]] + [[feedback_check_staged_before_commit]] + [[finding_push_train_pattern]].
 
