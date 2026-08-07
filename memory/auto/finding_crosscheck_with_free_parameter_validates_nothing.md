@@ -5,7 +5,7 @@ metadata:
   node_type: memory
   type: feedback
   originSessionId: a6915382-0f01-4c86-a253-590c75e1934b
-  modified: 2026-08-05T14:27:28.086Z
+  modified: 2026-08-07T15:39:06.456Z
 ---
 
 A cross-check that **cannot fail is not evidence** — it is a ritual that manufactures confidence and launders a bad input into a "confirmed" tag.
@@ -13,7 +13,8 @@ A cross-check that **cannot fail is not evidence** — it is a ritual that manuf
 **Incident (LABOR, 2026-08-05).** `ISM Services June employment` was carried as **47.4, "sub-50, 4th straight month contracting"** for a month, tagged `[CONF]`. The actual figure was **51.2 — an expansion, +3.3pp**: wrong in **sign**, not magnitude. The source tag was the whole failure: *"2 independent web reads + arithmetic cross-check (4 sub-indexes avg 54.0)."*
 
 - **"Two independent web reads" is one source.** Secondary aggregators copy each other; agreement between two of them is one observation reported twice. No primary was ever opened.
-- **The cross-check had two free parameters.** The ISM headline is the mean of four sub-indexes; only two were known correctly, so the check **back-solved the rest to fit**. True 51.2 → implies Supplier Deliveries 54.3. False 47.4 → implies 58.1. **Both "pass."**
+- **The cross-check had two free parameters and one wrong input.** *(Made precise 2026-08-07 against the pre-correction git blob, after a review found two mutually exclusive versions of this count in circulation — see the note below.)* The ISM headline is the mean of four sub-indexes (Business Activity · New Orders · Employment · Supplier Deliveries). At check time the checker held the **headline 54.0 correctly**, **Business Activity at a WRONG 56.1** (actual 55.4), **Employment 47.4** (the value under test, wrong), and **New Orders and Supplier Deliveries not at all.** Of the three sub-indexes other than the one being tested, **zero were held correctly** — so the check could not even produce a single implied value, let alone a falsifying one.
+- ⚠️ **The tidy illustration is not the incident.** The often-quoted demonstration — *"true 51.2 → implies Supplier Deliveries 54.3; false 47.4 → implies 58.1; both pass"* — only computes with **exactly one** unknown, and it was constructed after the fact using the *corrected* sub-index values. It is a fair illustration of the one-unknown case and a **false reconstruction** of what actually happened, which was worse. **Generalizable lesson in its own right: when writing up a process failure, check whether your worked example is reachable from the inputs you actually had at the time** — a clean demonstration built from post-correction values makes the failure look more rigorous than it was, and it propagates (this one reached four packets, a lessons file, a brief and this memory before anyone re-derived it).
 
 **Why:** freshness gates, propagation sweeps (`consumer_check`), staleness alerts and format audits all test *whether a number moved or spread* — **none tests whether it was ever right.** A wrong-at-entry figure sails through every one of them indefinitely (see [[finding_freshness_check_cannot_catch_a_fresh_lie]]). Worse, a *plausible* wrong number that continues the current narrative is the least likely to be re-examined ([[finding_plausible_stale_value_evades_review]]). Cost here was not the digit: it was a month of the wrong story — the thaw this figure would have flagged in June was not noticed until a different sector's print in August.
 
