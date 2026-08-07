@@ -3,12 +3,14 @@
 
 ## CASCADE ORDER
 
-| Order | Strategy | AUM | Trigger | Speed |
+> ⚠️ **AUM column = UNSOURCED mechanism illustrations, not tested facts** (Will-ruled 7/31, implemented 2026-08-06 — PROME rulings packet §1; DEWEY confirmed the quanta are not publicly sourceable, per NEXUS_BRIEF). Trigger CONDITIONS stay; never cite the $ figures as measurements. The SPX levels in the Trigger column are Mar-2026 relics — pull live via `gamma_flip.py`, never from here.
+
+| Order | Strategy | AUM *(UNSOURCED)* | Trigger | Speed |
 |-------|----------|-----|---------|-------|
 | 1 | Fast Vol-Control | Multi-$T | 10-day realized vol | Immediate |
-| 2 | Short-Term CTAs | ~$100B | 50-DMA breach (6,883) | Days |
-| 3 | Medium-Term CTAs | ~$200B | 6,707 close below → $80B | 1-4 weeks |
-| 4 | Longer-Duration CTAs | ~$200B+ | ~6,494 sustained below | Weeks |
+| 2 | Short-Term CTAs | ~$100B | 50-DMA breach (6,883 — Mar relic) | Days |
+| 3 | Medium-Term CTAs | ~$200B | 6,707 (Mar relic) close below → $80B | 1-4 weeks |
+| 4 | Longer-Duration CTAs | ~$200B+ | ~6,494 (Mar relic) sustained below | Weeks |
 | 5 | Risk Parity | ~$1T | Cross-asset correlation | Monthly |
 
 ## LEADING INDICATOR SEQUENCE

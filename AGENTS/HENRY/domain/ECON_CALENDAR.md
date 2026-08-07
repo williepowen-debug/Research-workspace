@@ -104,7 +104,7 @@
 | NFP | <100K | Labor cracking |
 | ISM Mfg | <49 | Contraction confirmed |
 | Claims | >250K sustained | LABOR trigger fired |
-| ECI QoQ | >1.2% | Wage-price spiral risk |
+| ~~ECI QoQ~~ | ~~>1.2%~~ | **RETIRED 2026-08-06 as a dated record (Will-ruled 7/31, PROME rulings packet §3): cannot fire — private-wage q/q has sat in a 0.8-1.0 band for seven quarters (LABOR, BLS-primary). Was audit-flag B2 UNRULED. Any replacement is a NEW registration with base rates. Note: BLS re-weights ECI from Dec-2026 data; 2026-10-30 is the last print on the current basis** |
 
 ---
 

@@ -42,7 +42,8 @@ You own the "velocity" layer — when stress from other agents (LABOR employment
 6. **Research detail → `research/` (deep dives, prompts, outputs) or `domain/sources/` (external source material)**
 7. **Cross-agent signals → write `.md` packet directly to the target agent's `inbox/`** (coordinators PROME/WALTER route; `outbox/` = PROME-action requests only)
 8. **Before finishing → update `MEMORY.md`** — rewrite Session Notes using the template (CHANGES SINCE / LAST SESSION / NEXT SESSION). Add any new Feedback/Findings. Prune stale entries. Promote patterns to LESSONS.md and remove from memory. Cap at 100 lines. **Audience: next HENRY instance.**
-9. **Before finishing → overwrite `LAST_COMPLETION.md`** — Will-facing session closeout. Sections: header (session label + status), CHANGED (files), RESULT (one line), Session Work, GAPS / Still pending, COMMITS (hashes + messages), NEXT SESSION FOLLOW-UP (catalyst dates Will cares about), THESIS SNAPSHOT (frozen at close), WILL_NEEDS. **Audience: Will reads after close. Overwritten each session.**
+9. **Before finishing → overwrite `LAST_COMPLETION.md`** — Will-facing session closeout. Sections: header (session label + status), CHANGED (files), RESULT (one line), Session Work, GAPS / Still pending, COMMITS (hashes + messages), NEXT SESSION FOLLOW-UP (catalyst dates Will cares about), THESIS SNAPSHOT (frozen at close), WILL_NEEDS. **Keep the honest-scope block** — adopted as the fleet pattern (Will ruling 7/31 §6; fleet mechanization rides the PROME enforcer patch — do not build bespoke). **Audience: Will reads after close. Overwritten each session.**
+10. **NEXUS_BRIEF fold = the session's LAST write-back** — after the final STATUS write, immediately before git commit (checkable: brief commit timestamp ≥ last STATUS commit timestamp). NEXUS schema Amendment 10, RATIFIED 7/31 Will-approved, propagated to HENRY 8/4. A brief refreshed mid-session and left while STATUS work continues is the fleet's dominant content-stale mechanism — ordering, not remembering, closes it.
 
 **Role split — do not duplicate:**
 - `LAST_COMPLETION.md` = Will closeout. Session-scoped, session-overwritten. Commits, thesis snapshot, explicit asks. **This is a DELIBERATE Will-facing close summary — NOT the fleet-retired session-handoff pattern (that role is `MEMORY.md`). Do not "retire" it on a protocol audit** (documented per PROME 2026-06-27 audit; `[[finding_documented_divergence_as_discipline]]`).
@@ -92,7 +93,7 @@ If a cross-agent threshold breaches during your work, append to `AGENTS/SIGNALS.
 ### Stale Data Rules
 - **VX.tsv:** Skip rows marked [STALE]. Only read rows from last 5 trading days. If >50% stale, note it and move on — don't waste context.
 - **STATUS.md values >24h old:** Pull live data via web_search before citing. Never present stale dashboard values as current.
-- **VOL REGIME:** Maintain a 5-line block in STATUS.md: current VIX, term structure shape (contango/backwardation/flat), vol-control threshold status, 0DTE share, GEX regime. Update every session.
+- **VOL REGIME:** Maintain a block in STATUS.md: current VIX, term structure shape (contango/backwardation/flat), vol-control threshold status, GEX regime. Update every session. *(0DTE share DROPPED from this mandate — Will-ruled 7/31, implemented 2026-08-06 [PROME rulings packet §2]: no sourced 0DTE feed exists, and a mandate for an unobtainable field cannot stand. If a sourced feed ever appears, re-registration is fresh.)*
 
 ---
 
@@ -158,7 +159,7 @@ Static reference only. **Current levels live in `STATUS.md`** — pull from ther
 | ISM Mfg | <47 | Deep contraction |
 | 10Y Yield | >5.0% | Term premium crisis (LIQUID link) |
 | HY OAS | >320 / >400 / >500 | Credit-equity transmission (Y/O/R) |
-| USD/JPY | >160 / >162 / >165 | Carry unwind (→ SAM) |
+| USD/JPY | **velocity, not level: \|Δ\| ≥2%/day either direction = escalate** | Carry — **SAM owns the call; consume SAM's re-marks** (SAM STATUS § CARRY UNWIND / NEXUS_BRIEF), don't maintain a parallel level table. *(The old >160/>162/>165 keys read the unwind BACKWARDS — rising USD/JPY = carry-BUILD; the unwind is fast yen APPRECIATION. Self-flagged 7/31; SAM ruled 8/2 [GATE-SAM-30 memo §6, routed via PROME]; re-keyed to SAM's prescribed single velocity tripwire 2026-08-06 per ruling ⑤'s adopt-what-SAM-prescribes clause.)* |
 
 ---
 
@@ -167,11 +168,14 @@ Static reference only. **Current levels live in `STATUS.md`** — pull from ther
 HENRY's core framework is the **systematic cascade sequence** — mechanical selling layers that fire in order based on price/vol levels, not fundamentals.
 
 **Cascade Order (each layer adds selling pressure):**
-1. **Vol-Control** (HOURS) — VIX >23-24 → $200-400B AUM reduces equity proportional to vol
-2. **Short-Term CTAs** (DAYS) — SPX < 50-DMA → ~$100B flips net short, algorithmic
-3. **Medium-Term CTAs** (WEEKS) — SPX < medium trigger sustained → ~$80B gross selling over 1-4 weeks
-4. **Long-Term CTAs** (MONTHS) — SPX < long trigger → remaining CTAs flip, $40-60B
-5. **Risk Parity** (MONTHS) — Cross-asset correlation spike → ~$1T AUM forced reduction
+
+> ⚠️ **The five dollar magnitudes below are UNSOURCED mechanism illustrations, not tested facts** — demoted per Will ruling 7/31 (PROME rulings packet §1), implemented 2026-08-06. NEXUS_BRIEF's own record: DEWEY confirmed the precise CTA/levered-ETF/vol-control quanta are *not publicly sourceable*. **The trigger CONDITIONS stay live; the $ figures illustrate ordering and rough scale only — never cite them as measurements.** Same demotion applies to the copies in `domain/REFERENCE_TABLES.md` and `workbook/FLOW.tsv` Pathway cells.
+
+1. **Vol-Control** (HOURS) — VIX >23-24 → $200-400B *(UNSOURCED)* AUM reduces equity proportional to vol
+2. **Short-Term CTAs** (DAYS) — SPX < 50-DMA → ~$100B *(UNSOURCED)* flips net short, algorithmic
+3. **Medium-Term CTAs** (WEEKS) — SPX < medium trigger sustained → ~$80B *(UNSOURCED)* gross selling over 1-4 weeks
+4. **Long-Term CTAs** (MONTHS) — SPX < long trigger → remaining CTAs flip, $40-60B *(UNSOURCED)*
+5. **Risk Parity** (MONTHS) — Cross-asset correlation spike → ~$1T *(UNSOURCED)* AUM forced reduction
 
 **Specific CTA trigger levels + gamma flip + put wall are DYNAMIC — pull them LIVE, do not read them from any file in this repo.**
 - **Canonical live source: `scripts/gamma_flip.py`** (CBOE-direct, run at boot via `boot.py`; `--days 35` for the definitive read) **+ `workbook/PUBLISHED.tsv`** for the last published values and their dates.
@@ -182,11 +186,11 @@ HENRY's core framework is the **systematic cascade sequence** — mechanical sel
 
 **Credit-Primary Rule (H4):** Equity CANNOT bottom until HY OAS peaks. Credit leads equity by 2-3 sessions. Rate of change matters more than absolute level.
 
-**0DTE Gamma Feedback:** With 65% of SPX volume in 0DTE, below the gamma flip dealers amplify moves. Below the put wall = intraday feedback loop bounded only by circuit breakers (-7% L1).
+**0DTE Gamma Feedback:** A large share of SPX option volume is 0DTE — ⚠️ **the "65%" figure formerly asserted here is UNSOURCED and demoted** (Will-ruled 7/31, implemented 2026-08-06, PROME rulings packet §2; no public feed verifies it — same ruling dropped the every-session 0DTE-share mandate). Mechanism stands: below the gamma flip dealers amplify moves. Below the put wall = intraday feedback loop bounded only by circuit breakers (-7% L1).
 
 **Key insight:** Fundamentals ignite, but gamma determines terminal velocity. The cascade is mechanical — no discretion, no sentiment, just triggers.
 
-*Full cascade detail → `workbook/FLOW.tsv` | Validation criteria → `workbook/THESIS_VALIDATION.md`*
+*Full cascade detail → `workbook/FLOW.tsv` | Invalidation criteria → `STATUS.md` § INVALIDATION TRIAD + `workbook/PREDICTIONS.tsv` (per-prediction falsifiers). `workbook/THESIS_VALIDATION.md` is SUPERSEDED 2026-08-06 — historical only.*
 
 ---
 
@@ -229,7 +233,7 @@ US-Iran status is evolving — oscillating between escalation (Hormuz blockade, 
 | `workbook/VX_HISTORY.tsv` | Archived slow-moving vectors (quarterly refresh source) |
 | `workbook/FLOW.tsv` | Cascade/transmission mechanics — 10-column REGINALD schema (ID/Name/Speed/Layer/Status/Trigger/Current_Position/Pathway/Key_Insight/Cross_Links/Last_Updated). |
 | `workbook/MARKET_DATA.tsv` | Sparse EOD snapshots of headline levels (SPX/VIX/Brent/Gas/10Y/USDJPY/HY_OAS/CCC_OAS/KRE/APO). Append a row on EOD refresh days. Not exhaustive — use for time-series cross-reference. |
-| `workbook/THESIS_VALIDATION.md` | Thesis confirmation/invalidation criteria + cascade dependencies + cross-agent dependencies |
+| `workbook/THESIS_VALIDATION.md` | **SUPERSEDED 2026-08-06** (DAEDALUS falsification-freshness F2, 8/3 — the layer was 38d behind its thesis, a 4-of-4-pilot recurrence). Successors: `STATUS.md` § INVALIDATION TRIAD (whole-thesis kill, refreshed every session) + § THESIS axes + `workbook/PREDICTIONS.tsv` Invalidation column (boot due-scan). Historical record only; boot.py guards the banner |
 | `workbook/KB_ARCHIVE.tsv` | Archived KB rows pruned from KB.tsv. Historical. |
 | `board_log.tsv` | WALTER signal-intake log (v0.2: timestamp_read/signal_id/disposition/source/notes). **Boot step 3a appends here.** |
 | `NEXUS_BRIEF.md` | Peer-facing cross-domain brief (NEXUS + domain agents read at their boot). Refresh at closeout. |
@@ -243,4 +247,4 @@ US-Iran status is evolving — oscillating between escalation (Hormuz blockade, 
 
 `archive/` and `workbook/*.md` files are historical — session logs, audits, old analyses. Don't load at boot.
 
-`TRADE.md` is the domain's tradeable output — convergence threshold matrix, position recommendations, vol structure trades. **Generated on trade-related spawns, not persistent.** Prior versions archived in `archive/reports_mar17/` for reference; do not cite their levels as current.
+`TRADE.md` — **RETIRED as an output class (Will-ruled 7/31, implemented 2026-08-06 — PROME rulings packet §4; the C6 contradiction closes in the memory's favor, `feedback_henry_macro_focus_not_positions`).** HENRY produces **macro-expression sketches only**; anything trade-shaped (strikes, sizing, position recommendations, "tradeable output") routes to **TERRY** like every other agent. No live TRADE.md exists; prior versions in `archive/reports_mar17/` are historical — do not cite their levels or their "position recommendations" framing.
