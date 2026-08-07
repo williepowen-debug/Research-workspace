@@ -56,10 +56,6 @@
 | Memory-migration date (was row 3) — RULED pull-to-today, EXECUTED same session | 7/31 | `7b7727f0` (index split) + `5cce6942` (embeds); hot index 62% of cap |
 | BRENT Stage-A (was row 5) — RATIFIED both legs + leg-(a) CLOSE basis, implemented+verified | 7/31 | `0832c484` (STAGE-A v4 in TRADE.md; STNG veto retired; follow-ups → row 5b) |
 | Stage-A defect-② + sizing (was row 5b) — RULED C1 + half/half, implemented+verified; entry_timing contradiction resolved by phase-separation | 7/31 | `aede1959` *(hash remapped by the 11:46 rebase — was f459d824)* (v5: entry {(i)+(T)+(C)}, transit→Stage-B kill leg 2; local, push queued) |
-| Launch SAM pre-BOJ (was row 1) | 7/30 ~22:00 | Will confirmed in-session at PROME boot; SAM live in own window, 13 dirty SAM paths incl. the yen packet `git mv`'d to processed |
-| QQQ 680P — SOLD for a loss (strike corrected 675→680) *[⛔ CORRECTED AGAIN 8/2 at the broker record: the put sold 7/30 was the 675P (−$389.67); the 680s were NEW 7/30 buys that died 7/31 — FORGE §D-14 is the record]* | 7/30 | `be7f7bfa`; superseded by ANVIL `62cae1cef` |
-| HEARTBEAT amendments #1 + #2 approved | 7/30 | `d7764309` / `8bb2ff35` |
-| env_doctor venv probe approved | 7/30 | `f5a3655c` |
 | BRENT LESSONS #21(a) — Option A ratified | 7/30 | `9523b941`; arm expiry ~8/13 docketed |
 | LIQUID full closeout + shutdown | 7/30 | HEAVY closeout `1b39f0e6`, terminated 20:47 |
 | LIQUID+REGINALD spawn: attribution + inbox passes + stale sweeps | 7/30 | BANK-ABSENT verdict → HEARTBEAT Am.#2 |

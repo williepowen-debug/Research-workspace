@@ -1,5 +1,5 @@
 {
- "built": "2026-08-07 15:58",
+ "built": "2026-08-07 18:52",
  "channels": {
   "AI capex": "elev",
   "Credit": "crit",
@@ -22,7 +22,9 @@
   "2026-08-07 Tricolor criminal: privilege-log schedule ladder (8/7 \u2192 8/14",
   "2026-08-07 \u2605 JPY COT attribution print (Aug-4 data, 3:30 PM ET) = GATE-",
   "2026-08-08 CREED L3-gate session: grade PRED-001 (July Trepp DQ \u2014 resol",
-  "2026-08-10 OZK short non-print sitting: PROME 7/25 framespec-latent-bug",
+  "2026-08-08 DEWEY spawn window \u2014 nearest dated item = WALTER DR-4 deadli",
+  "2026-08-08 HOMER recovery spawn \u2014 PAT-089 instance 3: FIVE self-registe",
+  "2026-08-08 REGINALD recovery session \u2014 top dark-agent priority (dark si",
   "2026-08-12 Athene Q2-2026 Fixed Income Investor Presentation (standalon",
   "2026-08-12 FALCON leg-3 WEEKLY sweep #1 under the ratified P-2 wording ",
   "2026-08-12 July CPI (Wed 8/12, 08:30 ET \u2014 DATE VERIFIED, was carried fl",
@@ -66,7 +68,7 @@
  "gates": {
   "GATE-BRENT-DEPLOY-V2": "live:LIVE",
   "GATE-BRENT-SUSTAIN": "resolved:RESOLVED",
-  "GATE-BRK-C1": "live:LIVE",
+  "GATE-BRK-C1": "resolved:RESOLVED",
   "GATE-FALCON-001": "live:LIVE",
   "GATE-HY-REKILL": "live:LIVE",
   "GATE-LIQ-069": "live:LIVE",
@@ -95,7 +97,8 @@
  },
  "one": "the credit level leg is FORMALLY CONFIRMED (RED: policy-day prints count; 281\u2192284\u2192287\u2192284, widening PAUSED at print #4) \u2014 on the narrower BANK-ABSENT thesis, explicitly NOT X1, and the June bull-counter (FT-01) exited the same prints; the labor leg withdrew from the hike story twice in one day (ECI composition DENY + the FOMC's own language grading labor a *satisfied side-constraint* \u2014 the hawkish driver is inflation persistence) while the term-premium axis collected its third independent flag (30Y 5.244% [7/29] highest since 2007; BOND adjudicates the regime label \u2014 do not re-label ahead of it); Japan re-fired its entry gate on the crowd's own positioning (JPY net \u2212163,412 = 90.8% of peak, taken BEFORE the suspected \u00a58.45T intervention and the hawkish hold \u2014 the board's ONE FIRED-UNEXECUTED); the AI-capex equity-punishment leg died on its own confirming print (HEN-36 4-of-4 at primaries, de-rate falsified 2-2 \u2192 credit-side thesis); and the evening agent wave was a *retraction wave* \u2014 MARCO demoted its spine channel on a third pre-registered null, HOMER rewrote multifamily as two recognition regimes, CARL retired CRL-14 on arithmetic and registered its successor. Book unchanged ~$630; duration is still the only thing paying.",
  "pending": [
-  "** WAL spec bundle [row 32]",
+  "** OSPREY\u2194Will rules session [row 33]",
+  "WAL spec bundle [row 32]",
   "Robinhood capture [row 20]",
   "BRENT spec amendment + width-bias [row 27]",
   "HENRY boot-rule [12]",
