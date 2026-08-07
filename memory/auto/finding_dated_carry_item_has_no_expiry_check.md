@@ -1,6 +1,6 @@
 ---
 name: finding_dated_carry_item_has_no_expiry_check
-description: "A carried item with a DATE in it never self-reports as wrong: a crossed threshold produces an event, but a date that simply passes produces nothing and keeps sitting on the list looking pending. State items get re-checked at boot; dated items do not."
+description: "A carried ASSERTION never self-reports as wrong — it is a string, and reading it does not evaluate it. Dates that expire and ownership claims like 'nobody owns X' both survive forever in your own notes. State gets re-derived because checking IS using; carried claims do not. Widened from dates 2026-08-07."
 metadata: 
   node_type: memory
   type: feedback
@@ -22,5 +22,15 @@ metadata:
 - **At boot, diff every dated carry item against today** before working the list. It is one pass and it is the only thing that catches this class.
 - **A date sourced from an agent's prose (yours or another's) is UNVERIFIED until checked against the issuer's own calendar.** This one originated in VULCAN's 7/12 STATUS and was restated four times without re-derivation, then propagated to WALTER, then into four dispatched signals. **Nobody re-derived it because everybody had seen it before.**
 - **Prefer verification by ABSENCE where it is available** — it is the strongest form and usually the cheapest. EDGAR showed MU's most recent 8-K of *any* kind was 6/24, so no 8/4 earnings report exists. That is dispositive in a way "the fiscal calendar suggests late September" is not.
+
+## ⚠️ SCOPE WIDENED SAME DAY — it is not about DATES, it is about every carried ASSERTION (WALTER, 2026-08-07, hours after writing the above)
+
+**I wrote this memory about dates, committed it, and then repeated the identical failure on a non-date within the same session.** I had told Will three times across four sessions that **gold was "unowned by any agent."** Will corrected it: **MIDAS owns metals, gold included** — and MIDAS's row in **`AGENTS/WALTER/REGISTRY.tsv`, the file WALTER owns and refreshes at every boot**, reads verbatim *"monetary (**gold**/silver/GSR/CB buying)."* **The owner was named in my own routing surface the entire time.**
+
+**⇒ The mechanism is identical and the date framing was too narrow.** A date is just the easiest example of the real class: **an assertion carried forward in your own notes is a STRING. Reading it does not evaluate it.** State items (levels, thresholds, registries) get re-derived at boot **because checking them is the same act as using them**; a carried *claim* — an ownership, a gap, a "nobody tracks X," a "this is blocked" — is re-read verbatim forever and **never re-tested by being read.**
+
+**🔑 The cost is the REMEDY, not the filing.** *"Gold is unowned"* selects **find an owner / raise a governance question** — work that did not need doing, and which I escalated three times. *"Gold's owner is dormant through an 8.7% move in its core channel"* selects **route it and wake the owner** — one dispatch. **A wrong attribution does not merely misfile a datum; it picks the wrong fix, and the wrong fix is expensive precisely because it looks like diligence.**
+
+**Added discipline:** any claim of the form **"X is unowned / nobody tracks X / there is no owner for X / X is blocked"** is a **QUERY against a surface you can actually run** — a registry grep, a file check — **not a recollection.** Run it before asserting it, and again before carrying it forward. The claim is cheapest to check at exactly the moment it feels most settled.
 
 **Related:** [[finding_weekday_assumed_never_evaluated]] and [[finding_date_gate_beats_weekday_name]] cover dates that are wrong *when written*; this one covers dates that were merely **unexamined** and then **expired**. [[finding_canonical_surfaces_stale_inbox_carries_live_state]] is the delivery half — the correction existed and was sitting unprocessed. [[finding_expected_window_rederived_from_now_drifts]] is the mirror image: there the anchor moves when it should be pinned; here it is pinned and nobody checks whether the pin is still in the future.
