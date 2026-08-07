@@ -8,6 +8,42 @@ Tracks all changes to THESIS.md and TIMELINE.md. Reverse chronological. Each ent
 
 ---
 
+
+## 2026-08-07 — v1.6.11 → **v1.7** · ⚰️ **CARRY-CONVEXITY TAIL RETIRED TO LOW. Leg-1 SPF fired — a registered thesis-BREAK condition is MET.**
+
+**Trigger:** CFTC JPY COT, Aug-4 data, released Fri 8/7 15:30 ET.
+
+**OLD VIEW (v1.6.11, 8/2 → 8/7):** carry-convexity tail at **MED-HIGH**, flagged PROVISIONAL. Positioning fuel at **90.8%** of the −180K cycle peak, amplifier **+8-10pp** ON, residual ON, buckets **~8/23/32**. Entry recommendation: WAIT-FOR-8/7, then enter on a CONFIRM.
+
+**NEW VIEW (v1.7):** ⚰️ **frame RETIRED to LOW. No entry, ever, on this frame. No successor frame declared.**
+
+| | Jul-28 data | **Aug-4 data** |
+|---|---|---|
+| Net non-commercial | −163,412 | **−45,473** |
+| % of −180K peak | 90.8% | **25.3%** |
+| WoW | −11,287 (build) | **+117,939 (cover)** |
+| Longs / shorts | 101,271 / 264,683 | **147,228 / 192,701** |
+| Open interest | 432,366 | 419,393 (**−12,973 only**) |
+
+**Why this is a break and not a downgrade:** the THESIS leg-1 SPF, written **2026-06-22** and unchanged since, reads *"CFTC covers below −108K / 60% line → frame → LOW."* Actual: **−45,473 / 25.3% — through by 62,527 contracts and 34.7pp, 42 days before the Sep-18 horizon.** ⚠️ The §5B resolver's *"past −140K = revert MEDIUM"* was written contemplating a **7/10-style de-load at 68.8%**, which does **not** trip leg-1. This print does. **Applying both registered rules as written yields LOW.** Nobody should read "DE-LOAD → MEDIUM" off the resolver map and stop — that understates it by a full grade.
+
+**Mechanism — position REVERSAL, not liquidation.** OI moved only −12,973 while net swung +117,939: shorts covered 71,982 (−27.2%) **and** longs added 45,957 in the same week. The Aug-4 vintage spans **7/30, 7/31, 8/3, 8/4** — the entire two-sovereign intervention window. A max-short crowd took a ~5.3% adverse move (163.8 → 155.2) and folded. **This is SAM-22's mechanism (intervention → mass cover) delivering.** SAM-22 previously FAILED as a *prediction*; its mechanism has now fired, and it was **one of the two reversion paths named in advance** on 8/2 and 8/4 (the other being the 7/10 <12h whipsaw).
+
+**Predictions:** **SAM-40 FAILED** (45% CONFIRM modal missed; the ~25% DE-LOAD branch fired; resolver run on the letter, terms frozen 8/4, **not re-tuned at scoring time**). **SAM-29 FAILED** (leg-1). Scoreboard **14/12/1 → 14 CONFIRMED / 14 FAILED / 1 special**. SAM-28 very likely to fail; **deliberately NOT graded early.**
+
+**Buckets — full four-anchor re-pencil, fuel plugged in: ~8/23/32 → ~3/8/13.** Two named drivers: ① fuel collapse → amplifier and residual both **OFF**; ② route 6 (residual positioning cascade) **~10% → ~2-3%** — *a carry unwind requires a carry position to unwind, and it just unwound.* ⚠️ **The five non-fuel anchors were computed and COMMITTED BEFORE the print** (`REPENCIL_2026-08-07_PREPRINT.md`, `ce71c5cbf`) specifically so the fuel outcome could not contaminate them.
+
+**Other anchor moves folded in this session (all pre-print):** route 1 BOJ hawkish-of-priced ~11-12% → ~7-8% (Sep unpriced ~77% → band ~40-54%, own TFX 3m-TONA primary derivation); route 4 Fed walk-back **COLD → LIVE-but-UNFIRED** ~5% → ~7-8% (8/7 NFP; trimmed from ~8-9% on LABOR's composition read — private +30K vs government −53K); route 5 oil/MOU ~10-11% → ~8-9%, **proxy-marked** per BRENT v5.4 (throughput is the test; the instrument is dark); route 2 MOF ~10% → ~8%; route 3 risk-off unchanged.
+
+**WHY NOT v2.0:** a major bump asserts a replacement structure, and there isn't one. **Inventing a successor frame in the same hours as the print that killed the old one is the improvisation these rails exist to prevent.** v1.7 records the retirement and leaves the successor blank. **The question v1.8+ must answer, written down so it cannot be skipped:** *the carry trade substantially unwound — and the yen is at 157.5, not 145. What is the thesis when the positioning fuel has already burned and the level barely moved?*
+
+**Position: FLAT throughout. $0 at risk. Nothing executed, ever, on this frame.** The MED-HIGH grade carried a PROVISIONAL flag from award; WAIT-FOR-8/7 held; Will's Monday-execution ruling was pre-registered the morning of the print **before the number existed**; and the §5C override that fired **on the letter** on 8/3 was deliberately not acted on. Had it been taken, the book would have been long into this.
+
+**Calibration lesson (the one to carry):** the failure was **not** missing the mechanism — SAM named SAM-22 explicitly as a way the grade could die. **The failure was pricing a named mechanism at 25% while holding a MED-HIGH grade the same document called PROVISIONAL.** *Naming a risk and then under-weighting it is a distinct error from not seeing it.*
+
+**Also this session (non-thesis):** BND-11 single-week resolver **stood down** (bar at 0.49σ of its own series noise); 8/6 JGB 30Y auction **PASSED** (BTC 3.864×, Pillar 2 unaffected); SAM-31 still unfired (today's yen bid was dollar-side — yen mid-pack vs majors); BOJ `jd` archive path appears **dead**, so the SAM-39 base rate is not currently reproducible.
+
+
 ## 2026-08-04 (Tue) — v1.6.11 STANDS, no version bump [SAM boot: one new prediction, one base-rate correction, two anchors moving in opposite directions]
 
 **Old view → New view, by item:**
