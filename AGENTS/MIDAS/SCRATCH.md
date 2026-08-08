@@ -18,10 +18,15 @@
 - **4-branch numeric 8/14 frame written as PROPOSED-NOT-REGISTERED** (FRAGILE / ABSORBED / SQUEEZE-EXHAUSTION / INDETERMINATE, with priors). Becomes **MIDAS-07 only if Will registers it.** I registered nothing.
 - ⚠️ **Pull bug caught on read-back:** a `like '%GOLD%'` filter mixed **MICRO GOLD** into 6 of 15 weeks. Re-pulled with exact market-name match. **Always filter COT on the exact contract name.**
 
+**⚖️ WILL RULINGS 2026-08-07 ~20:4x ET (via PROME), applied this closeout:**
+- **① MIDAS-07 REGISTERED** — the 8/14 gold-COT fragility frame is now a live row in `workbook/PREDICTIONS.tsv` (Made_Date 8/7, resolves **Fri 8/14** on the print, data as-of 8/11). **FROZEN exactly as drafted — do NOT re-tune any boundary before the print, however tempting the tape looks.** Stays in MY ledger, NOT `PROME/GATES.tsv` (grading frame, not an action-gate). ⚠️ **Known ambiguity recorded at registration:** branches **(b) ABSORBED and (c) SQUEEZE-EXHAUSTION are NOT mutually exclusive** — if both fire on 8/14, **report the joint satisfaction and ask Will to adjudicate precedence; do NOT resolve it unilaterally.**
+- **② L-12 / L-13 / L-15 = QUEUED, NOT RULED** (WILL_QUEUE row). Carried as **AWAITING-WILL** in STATUS OPEN item 9. **Apply nothing** until rulings arrive via PROME. Until L-13 is ruled, a live copper tightening still scores ⚪ and Option D cannot move a score.
+- **③ Sequence:** Mon 8/10 rider → **MIDAS-07 (8/14)** → **MIDAS-06 (8/28)**; **Option C (THESIS v2→v3) is a LATER session, after 8/14 feeds it.**
+
 **▶ PICK UP HERE (post-B/A):**
 1. **MON 8/10 — DFII10 for 8/7 publishes. THE MONDAY RIDER** (couldn't run tonight — T+1). ~15 min: one `fred_fetch`, close the PROVISIONAL leg of the kill-cond-#3 grade, re-stamp the kill rail.
-2. **🔴 FRI 8/14 — the decisive COT print.** Grade against the proposed frame **if Will registers it**; otherwise read descriptively.
-3. **Will-ruling queue is now THREE:** (a) L-12 kill-cond-#3 continuity boundary · (b) L-13 I1 upside band · **(c) NEW L-15 revision-blindness** — should a kill-cond keyed to a revisable estimate re-grade prior periods on a new vintage?
+2. **🔴 FRI 8/14 — the decisive COT print. `MIDAS-07` is REGISTERED and grades on it.** Pull full-size COMEX gold on an **exact market-name match** (not `like '%GOLD%'` — that bug corrupted 6 of 15 weeks on first pull), then grade the frozen branches.
+3. **Will-ruling queue = THREE, all AWAITING-WILL:** (a) L-12 continuity boundary · (b) L-13 I1 upside band · (c) L-15 revision-blindness. **Queued 8/7, not ruled — apply nothing.**
 4. **Option C (THESIS v2->v3) is now much better fed** — B refreshed the CB row and A refreshed the COT row of the v2 mechanism scoreboard. Two of six rows are current. **PROME said C runs a LATER session after 8/14.**
 5. Unchanged carryover: ZHAO date-fork (day 21), the 8/4 PGM +8%, sulfur Platts spot print, NEXUS full-schema debt.
 
