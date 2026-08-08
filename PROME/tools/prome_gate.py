@@ -122,7 +122,14 @@ def check_docket_overdue():
                 if "OVERDUE" not in annotation:
                     overdue.append(f"{r[0]} {r[1][:40]}")
     record(ADVISE, "DOCKET overdue-unannotated", not overdue,
-           "; ".join(overdue[:4]) or "every past-dated PENDING row carries an OVERDUE annotation",
+           # ⚠️ 2026-08-08: truncation must ANNOUNCE itself. The 8/3 audit found this
+           # check's column-scan bug AND named its 4-item display cap as the mechanism
+           # that let false positives crowd out 4 real rows — only the column half was
+           # fixed. A silent cap reads as "that's all of them."
+           # [[finding_display_filter_gating_safety_net]]
+           "; ".join(overdue[:4]) +
+           (f" (+{len(overdue)-4} more)" if len(overdue) > 4 else "")
+           or "every past-dated PENDING row carries an OVERDUE annotation",
            "PROME/DOCKET.tsv (grade, re-date, or annotate OVERDUE + owner)")
 
 
@@ -245,7 +252,11 @@ def check_will_queue():
     if actionable > 20:
         problems.append(f"CAP: {actionable} actionable rows (>20) — PROME over-routing")
     record(ADVISE, "WILL_QUEUE fresh + nothing due/passed/aging", not problems,
-           "; ".join(problems[:5]) or "stamp current; nothing due today, passed, aging, or overdue for roll-off",
+           # ⚠️ 2026-08-08: same silent-cap class as check_docket_overdue above —
+           # measured live at this boot, 14 roll-off-eligible rows displayed as 4.
+           "; ".join(problems[:5]) +
+           (f" (+{len(problems)-5} more)" if len(problems) > 5 else "")
+           or "stamp current; nothing due today, passed, aging, or overdue for roll-off",
            "PROME/WILL_QUEUE.md (act on DUE TODAY; reconcile PASSED; date/decline AGING)")
 
 
