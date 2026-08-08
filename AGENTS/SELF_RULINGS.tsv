@@ -1,0 +1,14 @@
+# --- SELF-RULINGS DIGEST: one row per specification question an agent ruled itself under the DELEGATION TIER. Rule: AGENTS/DAEDALUS/BLUEPRINTS/DELEGATION_TIER.md (ADOPTED Will in-session 2026-08-07, forum slate S8). Shared cross-agent log, AGENTS/SIGNALS.md class.
+# --- WHO WRITES: the RULING AGENT appends its own row AT RULING TIME and commits that row itself, path-scoped, under root CLAUDE.md Git Protocol carve-out ②. PROME READS this file at boot and rolls new rows into Will's digest. PROME NEVER AUTHORS A ROW. A digest assembled from packets fails whenever the packet is not sent (measured 2026-08-07: 0 orphans in 932 ledgered handoff deliveries vs a still-live orphan rate in the unledgered packet lane) — binding the record to the act of ruling removes that failure mode instead of detecting it.
+# --- HOW TO APPEND: use `python3 "$(git rev-parse --show-toplevel)/scripts/tsv_append.py"` — never printf. Two printf-format ledger corruptions in two days birthed that tool (2026-07-20).
+# --- AN UNRECORDED SELF-RULING IS A VIOLATION OF THE TIER, NOT AN EXERCISE OF IT. No row = the ruling was not authorised.
+# --- COLUMN SPEC (binding from this header; do not improvise a variant):
+# ---   date          ISO YYYY-MM-DD. The date the ruling was made, not the date the question was raised.
+# ---   agent         Agent name, uppercase, as it appears in PROME/ROSTER.md.
+# ---   question      ONE sentence. The question settled, in the form it was asked.
+# ---   ruling        ONE sentence. What was ruled. STRICT_TEXT rules 1-3: one instruction, active voice, named actor.
+# ---   tests_passed  ONLY valid value is `1-5 PASS`. This column is an ATTESTATION, not a score — any single test failure sends the question to Will, so a row cannot exist with a lower value. A row carrying anything else is a defect to escalate, not a partial ruling.
+# ---   record_path   Repo-relative path:line of the dated SELF-RULED block in the file the ruling changed. The block, not the changed text.
+# ---   riders_applied  `R1,R2,R3` (subset, comma-joined, no spaces) or `n/a`. Riders are MANDATORY on any ruling touching a prediction, threshold, or kill condition: R1 date the re-spec · R2 preserve superseded text verbatim in place · R3 no confidence/probability/weight move in the same edit.
+# --- FALSIFIER (verbatim from the blueprint): if within 60 days ANY self-ruling is reversed by Will, the tier narrows or dies. ONE reversal, not a rate. Grade 2026-10-06; the reversal count is read from this file against Will's rulings.
+date	agent	question	ruling	tests_passed	record_path	riders_applied
