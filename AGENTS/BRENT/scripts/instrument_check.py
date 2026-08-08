@@ -48,6 +48,7 @@ import csv
 import json
 import re
 import sys
+import urllib.parse
 import urllib.request
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
@@ -267,6 +268,54 @@ def probe_http(url):
         return False, None, f"unreachable: {type(e).__name__}: {e}"
 
 
+def probe_arcgis(spec):
+    """ArcGIS FeatureServer probe — returns the REAL newest datapoint date.
+
+    Grammar: arcgis:<query-endpoint-url>|<where-clause>|<date-field>
+
+    ⚑ WHY THIS EXISTS (2026-08-07, BRENT). `probe_http` deliberately derives freshness
+    from `last_verified` because PortWatch serves clean 200s on a stale partition
+    (`finding_partitioned_source_returns_stale_window_at_200`). That is correct and stays.
+    But it has a FALSE-RED twin nobody had named: a source that HEALS stays red until a
+    HUMAN re-stamps `last_verified`. chokepoint6 recovered ~2026-08-03 and boot was still
+    reporting "15d stale" on 08-07 — five days of a red on a healthy series, which is the
+    same disease as a green on a dead one: a confident answer over an inadequate scope.
+
+    The fix is not to trust the 200 — it is to STOP PROBING THE LANDING PAGE AND QUERY THE
+    DATA. This asks the FeatureServer for the max date in the partition and reports it, so
+    freshness comes from the SERIES, never from a human stamp and never from reachability.
+
+    supersedes: none — EXTENDS the probe grammar (retirement ratchet). `http:` rows are
+    untouched and keep their fail-safe last_verified semantics.
+    """
+    try:
+        parts = spec.split("|")
+        if len(parts) != 3:
+            return None, None, f"bad arcgis grammar (want url|where|datefield): {spec!r}"
+        url, where, datefield = (x.strip() for x in parts)
+        q = {"where": where, "outFields": datefield,
+             "orderByFields": f"{datefield} DESC", "resultRecordCount": "1", "f": "json"}
+        req = urllib.request.Request(url + "?" + urllib.parse.urlencode(q),
+                                     headers={"User-Agent": "BRENT-instrument-check/1.0"})
+        with urllib.request.urlopen(req, timeout=30) as resp:
+            body = json.loads(resp.read())
+        if body.get("error"):
+            return False, None, f"service error: {body['error'].get('message', '?')}"
+        feats = body.get("features") or []
+        if not feats:
+            # A 200 with zero rows is the partition-stale shape — FAIL LOUD, never "fresh".
+            return False, None, "HTTP 200 but the partition returned ZERO rows for this where-clause"
+        raw = feats[0]["attributes"].get(datefield)
+        if raw is None:
+            return False, None, f"newest row has no {datefield}"
+        # ArcGIS date fields are epoch-millis
+        last = (datetime.utcfromtimestamp(raw / 1000) if isinstance(raw, (int, float))
+                else datetime.fromisoformat(str(raw)[:10]))
+        return True, last, f"newest datapoint {last.date()} (queried live, not last_verified)"
+    except Exception as e:
+        return False, None, f"unreachable: {type(e).__name__}: {e}"
+
+
 def probe_chain(spec):
     try:
         import yfinance as yf
@@ -323,6 +372,8 @@ def evaluate(row, quick=False):
             ok, last_dt, detail = _cached(probe, lambda: probe_fred(probe[5:]))
         elif probe.startswith("http:"):
             ok, last_dt, detail = _cached(probe, lambda: probe_http(probe[5:]))
+        elif probe.startswith("arcgis:"):
+            ok, last_dt, detail = _cached(probe, lambda: probe_arcgis(probe[7:]))
         elif probe.startswith("chain:"):
             ok, last_dt, detail = _cached(probe, lambda: probe_chain(probe[6:]))
         else:

@@ -62,7 +62,14 @@ CUSHING_MIN = 20.0          # M bbl — operational minimum / WTI dislocation
 CUSHING_WATCH = 25.0        # M bbl — approaching minimum
 UTIL_SQUEEZE = 95.0         # % — crack squeeze territory
 GAS_YOY_PHASE2 = -5.0       # % — Phase 2 demand destruction trigger
-SPR_FLOOR = 400.0           # M bbl — near SPR operational floor
+SPR_FLOOR = 400.0           # M bbl — OPERATIONAL drawdown WATCH level. NOT a legal floor.
+#   ⚑ LABELLED 2026-08-07 (BRENT) — this and THESIS's 252.4M are TWO DIFFERENT OBJECTS, not a
+#   conflict: 252.4M is the §6241 STATUTORY minimum; 400.0 is an operational watch line. The
+#   147.6M gap was two questions wearing one word. Both are correct; both are now labelled.
+#   ⚠️ AND THIS LINE IS CURRENTLY DECORATION: SPR is 304.8M, so 400.0 is PERMANENTLY BREACHED
+#   and fires red at every boot — the same F4 disease Will retired `crack >$30` for on 7/31.
+#   NOT retired unilaterally: this file's hardcoded levels are the WP3 registry-consumer
+#   residual and that is Will's call. Flagged in THESIS §KEY THRESHOLDS. supersedes: none.
 
 
 def find_latest_eia_file():
