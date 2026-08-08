@@ -1,5 +1,32 @@
 # MIDAS — SCRATCH (next-session pickup)
 
+**2026-08-07 SECOND PASS SAME EVENING — Option B then A (PROME-directed, Will picked; A/B order inverted per PROME rec).**
+
+**B = WGC Q2 CB pull: kill-cond #2 NOT FIRED.** Q2 2026 = **288.9t** vs the **<100t** line = **2.89x**, **+62.4% YoY** (Q2-25 177.9t), **strongest Q2 in the series**. Buyers Poland +51t, PBoC +33t (largest since Q4'23), Uzbekistan +16t, Kazakhstan +15t, Jordan/Czech +6t; sellers Russia -22t, Turkey -4t, Bundesbank -1t. **The M1 rail's unmeasured leg is closed: now 1 fired / 3 measured-and-clear.** [WGC gold.org GDT Q2 central-banks page, primary; KB-034]
+
+**⚠️ THE BIG FIND, which I did not go looking for: WGC REVISED Q1 2026 from 244t -> 57t (-187.2t, -76.8%).** Verbatim: *"New data and analysis led to a sizable revision to our Q1 central bank demand estimate from 244t to 57t."* Second-sourced on the main GDT Q2 report (table Q1 56.5t + Q2 288.9t; reconciles to the stated **H1 345t = lowest first half since 2022**). Three consequences:
+1. **KB-019 (Q1 243.7t CONF, pulled 7/12) is SUPERSEDED** — annotated in place, KB-035 records it. A CONF stamp certifies the PULL, not the permanence of an ESTIMATE.
+2. **The revised 56.5t is BELOW my 100t kill line** — it did not fire only because the threshold grades a quarter once at publication and never re-grades on revision. **Revision-blindness = L-15, Will-gated fix, added to the Will-ruling queue as item (c).**
+3. **The CB-floor support I gave Will in the 8/7 GLD note was OVERSTATED** — corrected in the B/A memo. Floor is **intact but thinner**: strong Q2, but the weakest H1 since 2022.
+**Synthesis:** gold's 3wk decoupling happened in the weakest CB half-year since 2022 => the melt-up is **NOT central-bank-driven**. Strengthens DIVERGE, weakens "solid floor underneath."
+
+**A = gold COT baseline (data as of Tue 8/4).** OI **371,551** · net NC long **197,634** · **net/OI 53.2%** · NC short **29,379 (40-week LOW)**.
+- **The two normalizations DISAGREE and that is the finding:** absolute net is **-21.3% below** the 1/13 blow-off peak (251,238) => "not extreme"; but **net/OI 53.2% is ABOVE the Jan peak's 47.6%** because OI is **-29.6%** (371,551 vs 527,455) => "more crowded than the top." Reporting BOTH — picking one manufactures a verdict from a denominator choice.
+- **The 8/4 week was SHORT-COVERING, not fresh money:** price +1.46% while **OI FELL 13,052**; NC short -8,173, NC long only +7,391. net/OI jumped +5.9pp in one week.
+- June "unwind fuel" flag **NOT resolved — more loaded**; but short fuel is now largely **spent** (NC short at a 40-wk low), so that mechanism can't repeat at scale.
+- ⚠️ **LIMIT: as-of Tue 8/4 = melt-up day 1 only. Excludes 8/5-8/7 (+7.5%). Decisive print Fri 8/14 (data Tue 8/11).**
+- **4-branch numeric 8/14 frame written as PROPOSED-NOT-REGISTERED** (FRAGILE / ABSORBED / SQUEEZE-EXHAUSTION / INDETERMINATE, with priors). Becomes **MIDAS-07 only if Will registers it.** I registered nothing.
+- ⚠️ **Pull bug caught on read-back:** a `like '%GOLD%'` filter mixed **MICRO GOLD** into 6 of 15 weeks. Re-pulled with exact market-name match. **Always filter COT on the exact contract name.**
+
+**▶ PICK UP HERE (post-B/A):**
+1. **MON 8/10 — DFII10 for 8/7 publishes. THE MONDAY RIDER** (couldn't run tonight — T+1). ~15 min: one `fred_fetch`, close the PROVISIONAL leg of the kill-cond-#3 grade, re-stamp the kill rail.
+2. **🔴 FRI 8/14 — the decisive COT print.** Grade against the proposed frame **if Will registers it**; otherwise read descriptively.
+3. **Will-ruling queue is now THREE:** (a) L-12 kill-cond-#3 continuity boundary · (b) L-13 I1 upside band · **(c) NEW L-15 revision-blindness** — should a kill-cond keyed to a revisable estimate re-grade prior periods on a new vintage?
+4. **Option C (THESIS v2->v3) is now much better fed** — B refreshed the CB row and A refreshed the COT row of the v2 mechanism scoreboard. Two of six rows are current. **PROME said C runs a LATER session after 8/14.**
+5. Unchanged carryover: ZHAO date-fork (day 21), the 8/4 PGM +8%, sulfur Platts spot print, NEXUS full-schema debt.
+
+---
+
 **2026-08-07 GOLD-RISE ADJUDICATION SESSION (PROME-spawned, Will in-session, ~19:2x-20:0x ET, mkts CLOSED).** Woke after a **15-day dark gap** (last real session 7/23) on WALTER's `SIG-W-20260807-004`. Adjudicated the nascent M1 watch, refreshed all four channels, drained 8 inbox items, found and fixed a defect in my own instrument.
 
 **🔴 M1 v2 KILL-CONDITION #3 = FIRED. MIDAS's first fired kill-condition (fired-count 0/4 -> 1/4).**
