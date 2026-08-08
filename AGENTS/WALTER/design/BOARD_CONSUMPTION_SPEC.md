@@ -1,6 +1,6 @@
 # BOARD Delivery + Consumption Spec
 
-**Version:** v0.14
+**Version:** v0.15
 **Created:** 2026-04-20 (v0.1 consumption-only) · **Extended:** 2026-06-17 (v0.2 delivery layer) · **Clarified:** 2026-06-18 (v0.3–v0.5 Quick-WALTER tightening) · **Collapsed:** 2026-06-26 (v0.6 single-machine platform-collapse — OpenClaw cut)
 **Owner:** WALTER
 **Status:** **Single-machine (desktop CC) since 2026-06-26 — OpenClaw cut; `delivered` is uniform (committed + on-origin); Quick-WALTER retired.** Delivery layer SHIPPED; consumption = Phase 2 self-apply (see §8). Approved-in-principle by Will + PROME + ORC (2026-06-17); v0.6 collapse Will-ratified 2026-06-26 (`design/OPENCLAW_CUTOVER_PLAN.md`).
@@ -170,6 +170,38 @@ A recipient that runs a **complete** `/BOARD/` diff-scan at boot — one that di
 
 ---
 
+#### 3.5.5 🔴 TERRY — ownership-keyed action routing, and NO info-cc (added v0.15, 2026-08-07; **Will-CONFIRMED in-session**, ruled by the owning desk in `FORUM/2026-08-07_system-review/06_proposals/07_TERRY_routing-disposition.md`)
+
+**Both halves or neither. The volume cut is what pays for the action obligation.**
+
+> **A dispatch goes on `action: TERRY` if and only if it meets one of three tests. There is NO `info:` delivery to TERRY.**
+>
+> **T-1 — NAMED INSTRUMENT.** It names, or bears directly on the level of, a registered TERRY instrument: a live or staged `setup_id`, its underlying ticker, a card gate / kill line / invalidation / harvest level, a numbered `RISK_RULES` rule, or a load-bearing `SIGNALS.tsv` row.
+> **T-2 — CORRECTION OR RETRACTION.** It corrects, retracts or retires **a number or level that any TERRY surface cites**, whether or not it names TERRY.
+> **T-3 — CLOSED-MARKET EVENT.** A non-price event landing while the market is closed, on an underlying TERRY holds or has staged.
+
+**Why this desk and not the RED exemption** (the question was live and the answer is specific, so it is written here rather than inferred): RED's exemption works because RED has a **complete self-generated interrupt** — its whole-`INDEX` BOARD diff regenerates the notification that ending delivery removes. **TERRY has no BOARD differ.** Every TERRY boot instrument (`boot.py`, `snapshot.py`, `chain_fetch.py`, `risk_calc.py`, `paper_book_mark.py`) reads a price, a chain or a ledger; none reads the BOARD or any other agent's state. So *"TERRY re-pulls at fire time"* is true of **prices** and false of **facts about the world** — and the asymmetry decides it: an unread info-cc costs a skimmed minute, an undelivered retraction costs a live card graded against a number that was retired last week. **T-2 is the test TERRY structurally cannot self-source** — `consumer_check.py` scans publisher→consumer *inside* the fleet, and WALTER relays third-party numbers no fleet agent ever published, so that check is blind to the class by construction.
+
+**Deliberately excluded, and this is the guard against over-actioning:** general positioning colour · theater/war signals with no TERRY instrument attached (`IRAN_HORMUZ` was 53% of the old lane) · anything whose only connection is *"relevant to sizing."* §3.5.3's wording governs: **fires / falsifies / re-points — never "is relevant to."**
+
+**Accepted, priced miss (n=1 of 32, ~3%):** an *anti-action* signal — one whose purpose is to stop a trade, e.g. `SIG-W-20260731-009` (*"no card action is implied and none is recommended"*, plus a date-trap warning) — fails all three tests. **It is not rescued by widening T-2**, because widening a definition to make one case pass is the move the desk's own guards forbid. If the class recurs at **n≥3 in 30 days** it earns its own numbered test on its own evidence.
+
+**Discretionary override — logged, counted, and billed.** WALTER may send outside T-1/T-2/T-3 when judgement says to. Because there is no `info:` lane to TERRY, **any non-qualifying send IS an override.** Record it by prefixing the `delivery_log` `notes` cell with the token **`TERRY-OVERRIDE`** plus a one-line reason — countable by grep, no new file, no new register (same additive-marker idiom as §3.7). **Trigger: >10% of TERRY-lane dispatches in a trailing 30 days ⇒ the tests are cut too narrow and the rule returns to the forum. Widen only by adding a numbered test with its own falsifier — never by loosening an existing one.**
+
+⚠️ **Boundary granularity, flagged on day one rather than discovered at the first override.** The projected lane volume is ~9–11 dispatches per *quarter*, so a trailing-30-day window will typically hold **~3**, at which a single override reads as **33%** and the 10% ratio is unevaluable ([[finding_prereg_verdict_boundary_must_be_a_number]]). **Operative form until the lane produces ≥10 dispatches in a 30-day window: every override is logged and reported to TERRY inside that window, and the ratio test activates at n≥10.** This preserves the intent — an escape hatch with a bill attached — without inventing a different threshold. **Raised to PROME/TERRY for confirmation; if they set a different denominator, that wording replaces this paragraph.**
+
+**Falsifier — symmetric, numeric, and NOT renewable (this is the half that protects Will, so it travels with the rule):**
+
+> **If the S1 owner-unconsumed line ever names TERRY even once — an `action:` item unconsumed >72h — this desk cannot carry an action obligation at its launch cadence, and the correct disposition was the exemption after all. REVERT TO THE RED-CLASS EXEMPTION. Do not tune the tests.**
+
+TERRY boots ~15 days in 38; an action line it cannot clear at that cadence is not attention, it is a second backlog wearing a priority label — the BOND shape this review convened to fix.
+
+**Anti-ratchet payment, measured:** 32 deliveries/quarter → ~9–11. **Net −21 to −23 deliveries and −32 `delivery_log` rows per quarter**, adding no file, no script, no invocation site and no register. It kills outright more than it converts.
+
+**Scope:** TERRY only. This is a **desk-scoped instantiation**, not the general ownership rule — the general form (extend §3.5.4 from *ask* to *ownership* fleet-wide) remains an unratified proposal (`06_proposals/01_WALTER_routing-lane-proposals.md` P2) and must not be inferred from this section.
+
+---
+
 ### 3.6 🔴 CORRECTION LIFECYCLE — who owns which half (added v0.13, 2026-08-07; encodes Will-accepted RAV roster-plan Ruling #4 via PROME 2026-08-05)
 
 **The split, stated so it is written rather than remembered:**
@@ -292,6 +324,22 @@ timestamp_read	signal_id	disposition	source	notes
 | `deferred` | Will revisit — use `notes` for when/why. |
 | `info-only` | Named in `info`; read for awareness, no action expected. |
 | `skipped` | Judged irrelevant despite routing — rare; paper trail for routing-disagreement audit. |
+
+### 5.1 FILED ≠ CONSUMED — an undeclared `git mv` is not a consumption record (added v0.15, 2026-08-07; TERRY's §8 defect against the S7 proposal, PROME-directed to record now)
+
+**The pending P3/S7 proposal** (`06_proposals/01_WALTER_routing-lane-proposals.md`) would redefine the consumption record as **the `git mv` itself**, on the grounds that it carries an author, a timestamp and a message. **The author half does not hold in this repo, and TERRY produced the counterexample from its own lane.**
+
+Commit `9be6a5ee6` (2026-07-10, *"WALTER 7/11: BOARD-consumption cleanup — archive stale/aware handoffs"*) moved **six items out of TERRY's inbox into TERRY's `processed/`**: `SIG-W-20260627-002`, `-20260628-004`, `-008`, `-009`, `-010`, `-20260702-001`. **A WALTER session filed TERRY's mail.** None of the six appears on any TERRY surface. Under the redefinition all six would read as TERRY consumption — and this is worse than the §3.5.2 spawned-instance case, because there at least *somebody read the item*.
+
+**It cannot be filtered by authorship, structurally:** every agent in this fleet commits as the same git identity (`williepowen-debug <williepowen@gmail.com>`, verified on that commit). `git log --author` cannot separate a WALTER sweep from a TERRY consumption **anywhere in this repo**. The only remaining discriminator is prose in the commit subject — a recogniser over free text, which is the class that recurs.
+
+**Therefore, binding on any future build of the git-derived record:**
+
+> **A `git mv` into `processed/` is a CONSUMPTION record only when the moving commit DECLARES the consuming agent** — a `consume:<AGENT>` token in the subject, or a one-line append to `processed/.consumed.tsv` written by the mover. **A move with no declaration is `FILED`, not `CONSUMED`.**
+
+Two states, machine-distinguishable, and **no new ledger for the 14 recipients P3 correctly refuses to burden.** Without it, S7 would hand S1 a measurement that reports six items as read by a desk that never opened them — and S1's entire value is that its output is a **fact**, not a status.
+
+**Status: recorded, not built.** The S7 implementation is next-session work; this section exists so the constraint is in the spec *before* the build, not discovered after it. **The consumption numbers in the 2026-08-07 forum posts predate this distinction and do not separate FILED from CONSUMED** — they should be read as an upper bound on consumption until the declaration ships.
 
 ---
 
