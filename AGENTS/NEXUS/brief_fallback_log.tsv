@@ -36,3 +36,4 @@ date	agent	cause	note
 2026-08-03	WALTER	brief-gap	Brief-less by design (own BOARD spec) but load-bearing this window - carried the -001 deal-claim-vs-MFA-denial spine and the -005 VELOS AMBER resolution; read raw STATUS. NOT a brief defect, structural.
 2026-08-03	FALCON	stale	Brief pinned 7/30 while STATUS moved 8/2 = trigger (a). Did NOT drill raw STATUS this pass - BRENT brief covered the FALCON-relevant content (Velos Amber, GATE 2 not fired, transits). Re-pin owed; logged not packeted (8 re-pins already outstanding from the 7/31 audit).
 2026-08-07	BROCK	stale	brief 8/3 (proxy) vs STATUS 8/7 — cluster + CCLFX grades consumed at raw STATUS
+2026-08-07	MIDAS	convergence	Will-directed live-session analysis (BRENT+MIDAS spawns); raw STATUS + in-flight packet read pre-commit, fold executed post-commit 20:34; brief was folded 19:47 (Amendment 10 honored) and agrees
