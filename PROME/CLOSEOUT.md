@@ -105,7 +105,7 @@ Use this as the manual write-back feature. Do not auto-edit every surface; updat
 - Update `Updated:` timestamp
 - Adjust `Pending Work` table — mark completed, add new, update priorities
 - Update `Active Decision Layer` table (✅ / ⚠️ / ❌)
-- Update `Next Best Action` — one concrete move
+- ~~Update `Next Best Action` — one concrete move~~ **RETIRED 2026-08-08 (Will-ruled): `Next Best Action` is FROZEN to a pointer banner.** Do NOT write directives into it. The forward-move write-back is the `SCRATCH.md` full rewrite (★ NEXT SESSION + operator card), which this procedure already covers above. *(That duplication is exactly why the section rotted for ~6 closeouts — this line was the instruction telling sessions to maintain a second copy.)*
 
 ### `PROME/ACTIVE_DECISIONS.md` — surgical update (only if a decision moved)
 
