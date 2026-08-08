@@ -29,6 +29,34 @@
 
 ---
 
+## ⚑ 2026-08-07 — **THE DAY+2 LATENCY CEILING — REGISTERED AS A DESIGN RULE (Will-approved as proposed).** {#day2-latency-ceiling}
+
+**THE RULE:** **No Stage-A ENTRY leg may require data that resolves later than day+2** (day 0 = the announcement/signature session). Any candidate leg resolving **day+3 or later is STRUCTURALLY DISQUALIFIED FROM ENTRY**, however good a discriminator it is, and belongs in the **kill-test / tranche-2 / continuation** role instead.
+
+**WHY — LATENCY IS A CLIFF, NOT A SLOPE.** Measured on the Jun-17 analogue, Brent re-pulled from primary 2026-08-07:
+
+| Entry discipline | Entry | 8-session | Best | Sign |
+|---|---|---:|---:|---|
+| Announcement-based (6/18) | $79.85 | **+10.92%** | +11.57% | ✅ |
+| **Leg-C-gated — v5 as written (6/23)** | **$77.08** | **+7.07%** | +7.70% | ✅ |
+| ~~Transit-gated — the retired leg (6/26)~~ | $71.99 | **−5.99%** | +0.58% | ⛔ **LOSS** |
+
+**Brent fell −6.6% in the three sessions BETWEEN the last two entries.** The trade's entire edge lives in a **~3-session window between roughly day+2 and day+6.** ⇒ **two sessions of lag costs 3.85pp and KEEPS THE SIGN; five sessions costs the whole trade AND INVERTS IT.** **There is no smooth trade-off to tune along — the move happens INSIDE the gap, so a gate resolving on the wrong side of it does not degrade the trade, it REVERSES it.**
+
+**⚑ WHY A RULE AND NOT A REMEMBERED LESSON — THE THREE-INSTANCE PROVENANCE.** The same error has now been shipped in **three separate ratified specs**:
+- **v1 Stage-A (7/21)** — three verification legs with response times spanning **days-to-weeks** forced into ONE 3-day window.
+- **Defect ② (v4, 7/31)** — the transit leg: a **day-0** trigger gated on a **day+5** confirmation. `{(i) AND (ii-A)}` inside 48h occurred on **0 of 2 analogues and 0 of 145 closure-regime days.**
+- **DEPLOY GATE v2 (8/4)** — a **mixed-latency basket wearing a single window**: leg (a) daily, leg (b) minute ⇒ a **ZERO-MINUTE** execution window.
+**A latency ceiling is the guard that would have caught all three AT DRAFT TIME.** It restates LESSONS #21(b)'s window-matching principle **as a number**, which is what makes it checkable rather than merely agreeable.
+
+**⚠️ HONEST LIMITS, CARRIED VERBATIM FROM THE PROPOSAL AND NOT SOFTENED BY RATIFICATION:** **n=1** for the profitable analogue (Jun-17) · **Apr-17 cannot be re-run intraday** (5m history starts 5/11) · **the day+2 boundary is read off ONE event's price path, not base-rated across many.** **⇒ THIS IS A DESIGN CONSTRAINT, NOT A FITTED PARAMETER.** It says *where a leg may live*, never *what its level should be*. **If a future session wants day+2 moved, that requires base-rating across events — not a re-read of Jun-17.**
+
+**Retirement ratchet: `supersedes: none`** — ADDS one design constraint; retires nothing. It is a **draft-time admission test for new legs**, not a runtime check, so it costs no boot attention.
+
+*Proposal of record: `outbox/2026-08-07_to-PROME_optionA-defect2-ALREADY-CLOSED-plus-validation.md` §③ — proposed and ratified the same evening.*
+
+---
+
 ## DEPLOY GATE — THE FULL LINEAGE (cooldown → v1 → v2 → v3) {#deploy-gate}
 
 ### ⛔ **2026-08-07 — WILL RULED: THE ARM IS RETIRED. THERE IS NO LIVE DEPLOY GATE.** *(six days ahead of the 8/13 expiry)*

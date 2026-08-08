@@ -416,6 +416,13 @@
 
 ## ✅✅✅ STAGE-A v5 — **LIVE ENTRY GATE. WILL-RATIFIED 2026-07-31 (~12:5x PM ET).**
 
+> ### 🔻 **BINDING DESIGN CONSTRAINT ON THIS GATE — THE DAY+2 LATENCY CEILING. Will-registered 2026-08-07.**
+> **NO ENTRY LEG MAY REQUIRE DATA THAT RESOLVES LATER THAN DAY+2.** A leg resolving day+3 or later is **structurally disqualified from ENTRY** — however good a discriminator it is — and belongs in the **kill-test / tranche-2 / continuation** role.
+> **⛔ THIS IS AN ADMISSION TEST FOR ANY FUTURE LEG. Apply it BEFORE drafting, not after** (same discipline as `lessons_check --concept`). It is why the transit leg cannot come back to entry, and it would have blocked v1's days-to-weeks basket and DEPLOY GATE v2's zero-minute window at draft time.
+> **★ LATENCY IS A CLIFF, NOT A SLOPE:** Leg-C-gated entry (day+2) **+7.07%**; transit-gated entry (day+5) **−5.99%**. Brent fell **−6.6% in the three sessions between them** — the edge lives in a **~3-session window from ~day+2 to ~day+6**, so a slow gate does not degrade this trade, it **INVERTS** it.
+> ⚠️ **Limits travel with it: n=1 profitable analogue, Apr-17 not re-runnable intraday, boundary read off one price path. A DESIGN CONSTRAINT, NOT A FITTED PARAMETER — moving day+2 requires base-rating across events, not a re-read of Jun-17.**
+> **Full reasoning + the three-instance provenance → [`RULINGS.md#day2-latency-ceiling`](RULINGS.md#day2-latency-ceiling).**
+
 > ### **STAGE A = (i) signature/sovereign-action AND (T) tanker liveness AND (C) crude 2-day follow-through.**
 > **⛔ THE TRANSIT LEG IS NO LONGER AN ENTRY CONDITION.** It moves to the **Stage-B KILL TEST** (below), which already duplicated it with a properly matched 10-trading-day window.
 >

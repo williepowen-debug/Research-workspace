@@ -62,7 +62,7 @@ CUSHING_MIN = 20.0          # M bbl — operational minimum / WTI dislocation
 CUSHING_WATCH = 25.0        # M bbl — approaching minimum
 UTIL_SQUEEZE = 95.0         # % — crack squeeze territory
 GAS_YOY_PHASE2 = -5.0       # % — Phase 2 demand destruction trigger
-SPR_FLOOR = 400.0           # M bbl — OPERATIONAL drawdown WATCH level. NOT a legal floor.
+SPR_FLOOR = None            # ⛔ RETIRED 2026-08-07 BY WILL RULING — F4 permanently-breached class.
 #   ⚑ LABELLED 2026-08-07 (BRENT) — this and THESIS's 252.4M are TWO DIFFERENT OBJECTS, not a
 #   conflict: 252.4M is the §6241 STATUTORY minimum; 400.0 is an operational watch line. The
 #   147.6M gap was two questions wearing one word. Both are correct; both are now labelled.
@@ -282,13 +282,30 @@ def status_for_gas_yoy(val):
 
 
 def status_for_spr(val):
+    """SPR readout — DESCRIPTIVE ONLY. No alert level. (Will ruling 2026-08-07.)
+
+    ⛔ THE WHOLE OPERATIONAL ALERT LADDER IS RETIRED, NOT JUST THE 400.0 RED.
+    Will ruled the 400.0M watch line out as F4 (permanently breached => alerts on nothing
+    in either direction), same class as `crack >$30` and `VLCC >WS200`. Implementing that
+    ruling exposed a SECOND hardcoded level one line below it — `val < 420` -> amber —
+    which is the SAME OBJECT at a different number and is ALSO permanently breached
+    (SPR 304.8M). Retiring only the red would have DEMOTED a permanent alert to a permanent
+    amber and let me record the ruling as executed while the decoration survived.
+    `[[finding_record_of_an_action_is_not_the_action]]`
+
+    ⚑ I EXTENDED THE RULING BY ONE LEVEL AND FLAGGED IT rather than doing it silently:
+    Will ruled on "the 400.0M row"; I am also retiring the 420 amber because it is the same
+    permanently-breached watch under a different constant. Reversible in one line if Will
+    disagrees — the levels are recorded in the retired registry row SPR-OPERATIONAL-400.
+
+    WHAT SURVIVES: the LEVEL and the WoW change are still printed every boot. Retiring an
+    alert is not retiring the observation. A real SPR tripwire = a NEW REGISTRATION with a
+    level base-rated against the current regime. The §6241 STATUTORY floor (252.4M) is a
+    DIFFERENT OBJECT and stays live in THESIS §KEY THRESHOLDS.
+    """
     if val is None:
         return "⚪", "unknown"
-    if val < SPR_FLOOR:
-        return "🔴", f"<{SPR_FLOOR}M — near operational floor"
-    if val < 420:
-        return "🟠", "drawn down from crisis releases"
-    return "🟢", "normal"
+    return "⚪", "level only — operational alert ladder RETIRED 2026-08-07 (F4); statutory floor 252.4M is separate and live"
 
 
 def fetch_live_metrics():
