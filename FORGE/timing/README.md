@@ -1,3 +1,5 @@
+> ⚠️ **FROZEN 2026-08-09 (FORGE audit M4, Will-approved batch): this corpus is dated research, not maintained — do not cite as current.** Root `CLAUDE.md` Key Directories row pending Will-gated fix. Original README below.
+
 # FORGE/timing/
 
 Cross-agent timing research. Where are we in each transmission chain relative to historical analogs?
