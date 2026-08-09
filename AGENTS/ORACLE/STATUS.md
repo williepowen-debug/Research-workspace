@@ -1,78 +1,111 @@
 # ORACLE STATUS
 
-> **PROXY RUN 2026-08-02 — phone-session spawn (PROME-directed, Will in-session); real-ORACLE integrates at next boot.** This rewrite executes the PROME 7/31 audit packet (inbox, processed this session): DEEPENING framing purged (×4, retractions preserved inline below), v3 threshold collapsed to ONE, deal-majority claim retracted, bases labeled. Kalshi script lane DOWN this box (broken `cryptography` import + no creds) — Kalshi figures below are manual unauthenticated curls, stamped.
-
-**Updated:** 2026-08-02 (Sat, ~18:36Z / 14:36 ET; markets closed — equity/rates levels orientation-only) — **Benign wave across the Iran/oil board on OPEC+ day:** OPEC+ 8/2 meeting resolved **+188k bpd for September** (completes the 1.65mbpd voluntary-cut unwind; Q4 increases PAUSED; next mtg Sept 6 — The National 8/2). Crowd consistent: Hormuz-normal-Dec31 **58.5%** (Δ1d **+11.0**, deep $6.7M) — first sub-45 disruption print of the series; Aug WTI-$100 **22.0%** (Δ1d **−15.5**); US-invade-Iran **20.5%** (Δ1d −5.0); NEH **78.5%** (Δ1d +6.0). Fed board FLAT (aggregate 66.5%, Sept-specific 56.5%) **while 30Y made a new cycle high 5.28% (WALTER SIG-W-20260731-006)** — measured non-response corroborates the term-premium attribution; BOND has the action. Hormuz weekly re-pin DONE (due today): `week-of-august-3` pinned, **next re-pin due 2026-08-09**.
+**Updated:** 2026-08-09 (Sun, 21:58Z / 17:58 ET; US equity/rates markets CLOSED — prediction markets trade 24/7, so every figure below is a live weekend pull) — **PROME-directed session: Hormuz re-pin (docket, due today) + Kalshi liveness verification.** **THE 8/2 BENIGN WAVE FULLY RETRACED AND OVERSHOT, AND THE CROWD LANDED ON BRENT'S SIDE OF THESIS v5.4.** Hormuz-normal-by-Dec-31 **49.5%** (Δ1d −7.5, Δ7d −9.0, deep $7.6M) — and 48.5% on a 22:0xZ confirm re-pull, i.e. **still moving during this session**. Aug WTI-$100 **10.5%** (Δ7d −11.5). Deal channel de-rated in the same week it produced its loudest headlines: deal-top **24.0%** (Δ7d −10.0), enrichment-end **17.0%** (Δ7d −10.5). v3 spread **+40.0pp**, re-widened to the series high. **Fed hike board COLLAPSED** — Sept-specific 56.5%→**35.5%** (Δ7d −20.0), crossing its registered <45% rung. **✅ Kalshi self-pull LIVE on this box** (rc=0, signed, 12 rows) — the 8/2 "lane down" was machine-local.
 **Domain:** Prediction-market monitoring (Polymarket + Kalshi) — crowd-implied probabilities & crowd-vs-thesis divergence
-**Data:** live via `scripts/polymarket.py pull --log` (+ `scripts/kalshi.py pull --log` when the lane is up). Series → `workbook/ODDS_LOG.tsv` / `KALSHI_ODDS_LOG.tsv`. Derived → `workbook/DISRUPTION_SUPPLY_SPREAD.tsv` (**v3-aug-wti-supply-leg**, 8/2: +19.5pp). Cross-agent surface → `NEXUS_BRIEF.md`. Metrics → `PREDICTION_MARKET_METRICS.md`.
-**State:** 🟡 — no live 🔴. Fed hike-risk is a durable 6-week trend parked ON its re-break line (not "calm" — see blind-spot); oil/war axis moved benignly on OPEC+ day; v3 spread instrument still whippy/degraded. Term-premium blind-spot acknowledged and corroborated on fresh data.
+**Data:** live via `scripts/polymarket.py pull --log` **and** `scripts/kalshi.py pull --log` (both LIVE this session). Series → `workbook/ODDS_LOG.tsv` / `KALSHI_ODDS_LOG.tsv`. Derived → `workbook/DISRUPTION_SUPPLY_SPREAD.tsv` (**v3-aug-wti-supply-leg**, 8/9: **+40.0pp**). Cross-agent surface → `NEXUS_BRIEF.md`. Metrics → `PREDICTION_MARKET_METRICS.md`.
+**State:** 🟠 — six tracked markets breached >10pp in 7 days on real volume (not month-end mechanics). No 🔴: the moves are coherent and benign-to-neutral in direction, and the one contrarian leg is thin. **No threshold moved, no gate registered, no trade implied this session.**
 
 ---
 
 ## Alerts (read first)
 
-**🟠 FED — durable 6-week trend parked ON the line; term-premium blind-spot CORROBORATED on fresh data.** *[RETRACTED framing preserved per fleet convention — prior STATUS (7/31) said: "Sept-mtg-specific hike market is deepening +4/1d", "DEEPENING post-FOMC". Retracted by KB-ORC-058: the 56.5% was the TAIL of a ~6-week +30-40pp climb (launch 5/14, three gap-ups since 6/13); the 7/29 FOMC hold paused it 2 days of 6 weeks. Prior "Δ7d −5.0" was spike-based; base-to-base 7/22-close 59.5% → 7/31-close 66.5% = **+7pp over 9 days, close-basis** — aggregate ON the >66% re-break line, not retreating.]* **8/2 re-pull (WALTER SIG-W-20260731-006 ask): aggregate 66.5% (Δ1d −1.0, $6.1M); Sept-mtg-specific 56.5% (Δ1d −3.0, $2.4M vol, liq deepened $347.7K→$887.4K)** — hike odds FLAT/soft **while 30Y closed 5.28%, a new cycle high (+18bp in 3 sessions)**. Measured non-response = the 7/30 decomposition HOLDS: the long-end move is **term premium, not policy path**. My instruments do not price that axis — **do NOT read this board as "rates calm per ORACLE"; BOND has the regime-label action.** Basis label (audit fix 4c): 7/31's "by-Sept 55.5% < Sept-specific 56.5%" was close-vs-intraday mixing; on close-basis cumulative ≥ component held (52.5 ≤ 55.5). 8/2 closes: by-Sept 57.5% ≥ Sept-specific 56.5% ✓. → LIQUID, HENRY; BOND, NEXUS (blind-spot). (KB-ORC-052/056/058.)
+**🟠 HORMUZ — the crowd priced NO DEAL, NO REOPENING and NO BARRELS LOST, all in one week.** The single most important thing on this board is that these three moved *together*:
 
-**🟡 OIL/HORMUZ — benign wave on OPEC+ day; v3 spread +19.5pp, BOTH legs eased.** OPEC+ 8/2: **+188k bpd Sept** (Saudi +62k→10.4mbpd, Russia +62k→9.94mbpd, Iraq +26k, Kuwait +16k, Kazakhstan +10k, Algeria +6k, Oman +5k) — completes the 2023 voluntary-cut unwind; **Q4 increases paused**, ~2mbpd of 2022 cuts intact; next mtg **Sept 6** (The National 8/2; July closes ran Brent +24% / WTI +21% on the month). Crowd: Hormuz-normal-Dec31 **58.5%** (Δ1d +11.0, deep) → disruption leg **41.5%**, first sub-45 print; Aug WTI-$100 **22.0%** (Δ1d −15.5, Δ7d −28.0; liq deepened to $40.9K; 6-day range ~22–50.5% — whipsaw per KB-ORC-059). **Spread 41.5 − 22.0 = +19.5pp** (7/31: +22.0) — collapsed slightly but via the DISRUPTION leg easing = **benign direction**, not a supply-story flip. Barrel-tell steady: Kalshi Iran-crude Jul >2.0mbpd **86%** (manual curl 18:36Z; resolves 8/12). Brent Jul settle-ref closed ~99% = resolved YES >$85. **ONE live v3 threshold (audit fix 2, stale >30%/>40% line KILLED on all surfaces): deepen = Aug WTI-$100 >45% SUSTAINED ≥3 reads; breakdown = <20% sustained; real loss = Iran-crude <2.0mbpd.** → HAWK, BRENT, FALCON. (KB-ORC-053/059/060/061, VX-ORC-04.)
+| Leg | 8/2 | 8/9 21:58Z | Δ7d | Depth |
+|---|--:|--:|--:|---|
+| Hormuz traffic normal by Dec 31 | 58.5% | **49.5%** | **−9.0** | $7.6M vol / $253.5K liq — **deep** |
+| WTI $100 (Aug) — supply-loss leg | 22.0% | **10.5%** | **−11.5** | $194.6K vol / $21.5K liq |
+| US-Iran deal 2026 (top leg) | 33.5% | **24.0%** | **−10.0** | $98.0K vol / $11.4K liq |
+| Iran ends enrichment by Dec 31 | 26.5% | **17.0%** | **−10.5** | $1.6M vol / $70.1K liq |
+| US invade Iran before 2027 | 20.5% | **16.5%** | −3.0 | $57.9M vol / $890.4K liq |
+| **v3 spread (disruption − supply)** | +19.5pp | **+40.0pp** | — | re-widened to series high (+40.5pp, 7/17) |
 
-**🟡 IRAN AXIS — RETRACTION applied: bimodal narrowed toward the DEAL side, NOT majority.** *[RETRACTED claim preserved: 7/31 surfaces said deal-tail 35.0% was "now majority over invade-tail 23.5%, first time this month". Defects (PROME audit item 3): (i) 35.0% is not a majority; (ii) deal already led invade on 7/24 (31.0 vs 29.5, KB-ORC-054) so "first time this month" was false; (iii) not like-for-like — 35.0% is the top LEG of a multi-outcome components market vs a clean binary.]* **What survives, verified: bimodal narrowed toward the DEAL side** — 8/2: deal-top **33.5%** (Δ1d +4.5, $93.6K), US-invade-Iran **20.5%** (Δ1d −5.0, deep $54.4M), Iran-ends-enrichment 26.5% (Δ1d +2.0). War-tempo quiet: Iran-shipping daily 35.5% (⚠$17 liq, noise), Houthi-Israel-Aug31 10.0% (Δ1d −20.0, ⚠thin), Iran-regime-fall 7.5%. **Aug coverage gaps persist:** Iran-mil-vs-Gulf-State Aug daily STILL not open (re-searched 18:34Z); Houthi-shipping Aug still not open. → HAWK, BRENT, FALCON. (KB-ORC-054 + retraction.)
+**Read: an indefinite low-throughput grind, held as a RISK PREMIUM rather than a shortage.** WIDE spread = premium not shortage. The crowd made this call *against* a week of "framework very close" and "no fees, initial 60 days" (8/7) reporting — which is precisely the discrimination **BRENT THESIS v5.4** was built to make (*a deal is not a reopening; the test is THROUGHPUT, not signature*). ⛔ **The <20% BREAKDOWN line is NOT declared fired** — 1-of-1 reads below 20, "sustained" unmet. → HAWK, BRENT, FALCON. (KB-ORC-062, VX-ORC-04.)
 
-**🟠 COMPLACENCY EXTENDING.** NEH **78.5%** (Δ1d +6.0, Δ7d +2.0; 7/31: 73.5%) — new leg up on the OPEC+/Iran-calm wave. Best-asset-S&P 67.0% intact. → RED, VIOLET. (VX-ORC-05.)
+**🟠 NEW INSTRUMENT CLASS — a forward-looking real-money THROUGHPUT gauge now exists, and BRENT says he lacks one.** The 7/31 note recorded "no Aug-31 cumulative ladder exists." Two are now open and pinned:
+- **Avg daily transits at end-August** ($43.5K event): 0-20/day **73.5% (Δ7d +22.5)** · 20-40 17.0% (−13.5) · 40-60 9.5% · 60-80 1.9% · **80+ 0.4%**. Bucket-midpoint EV, normalized for the 102.3% overround = **18.5 transits/day = 21.0% of the canonical 88/day baseline, down from 26.1/day (29.7%) a week ago.**
+- **"≥N ships on ANY single day by Aug 31"** ($78.4K event): ≥30 **29.5%** (Δ7d −23.0) · ≥40 21.0% · ≥50 13.0% · ≥60 11.0% · **≥80 3.9%** · ≥100 2.3%. Crowd prices ~30% that even ONE August day reaches a third of normal.
 
-**🟡 CLARITY ACT — fade STALLED, bounced.** 24.5%(7/31) → **30.0%** (8/2; Δ1d +0.5, Δ7d −7.5 — the Δ7d still reflects the prior fade; the 2-day move is **+5.5pp**, deep $3.7M). Something moved on the recess/dispute front into Aug-10 — watch for news; >5pp move rule already met on the 2-day window. → BROCK, RED. (KB-ORC-055 continuation.)
+These agree with the **realized** series (PortWatch 7/27-8/2 = 4·4·6·2·6·3·2, BRENT's own 8/7 primary re-pull), not with the deal narrative. BRENT's v5.4 calls throughput decisive *and* calls itself blocked for want of an instrument ("I own no transit instrument… escalated to FALCON as BLOCKING", NEXUS_BRIEF 8/7); PortWatch is backward-looking and lags — **these are forward-looking and refresh daily.** ⚠️ **Depth disclosure:** event volume is real, but the resting book is **inverted** — deep ($17-23K) on legs priced near zero, thin ($3.4K) on the modal leg, because nobody takes the other side of a high-transit leg. → BRENT, FALCON, HAWK. (KB-ORC-063.)
 
-**🟡 KALSHI TELLS (manual curls 18:36Z — script lane down):** US-credit-downgrade-2026 last **11.0¢** (prev-day 9.9¢; 7/31 session logged 6.0%) = **+5pp/2d on last-trade basis** (bid-ask 8.2–11.0, mid ~9.6 — label bases; $72.6K vol) — small but *credibility-axis adjacent*, same direction as the 30Y move. July U3 >4.2% **44%** (prev-day 50; 7/31: 56) = **−12pp/2d** into the Aug-7 print — labor crowd got less hawkish fast. Recession 7.0% steady; corp-bankruptcy >750 83% steady. → BOND/NEXUS (downgrade), LABOR/HENRY (U3).
+**🟡 THE ONE LEG THAT ROSE — and a correction to my own label.** "0 ships transit Hormuz on **any date** by Aug 31" = **24.1% (Δ7d +13.1)**, up from 10.5% on 8/2 — a near-doubling, and the only Iran/oil leg that rose. ⛔ **My watchlist called this a "CLOSURE proxy / full stoppage." It is not.** The criterion is **ONE calendar day with zero transits** — and against a realized series whose minimum was **2**, that bar is nearly touched already. So it is the **low tail of a grinding series, not a supply-destruction gauge**, and it does *not* contradict the WTI-$100 leg falling in the same week. Label corrected in `watchlist.tsv`; the tool's context-column rule is unchanged. ⚠️ Thin book ($1.8K) vs real lifetime volume ($63.9K) → **flag, not a mark; ≥3-day re-check.** (KB-ORC-067.)
+
+**🟠 ENTROPY DIAGNOSTIC — the diplomatic markets COLLAPSED while the outcome market EXPANDED to maximum uncertainty.** Per `PREDICTION_MARKET_METRICS.md` §2/§5:
+
+| Market | H (8/2 → 8/9) | dH | k | Read |
+|---|---|--:|--:|---|
+| Iran ends enrichment Dec 31 | 0.8342 → 0.6577 | **−0.1765** | **12.54σ** | collapse toward NO (liq $70.1K — not thin) |
+| US-Iran deal (top leg) | 0.9200 → 0.7950 | **−0.1249** | **7.03σ** | collapse toward NO |
+| **Hormuz normal by Dec 31** | 0.9791 → **0.9999** | **+0.0209** | **3.01σ** | **EXPANSION to the 1.0-bit maximum** |
+| US invade Iran | 0.8622 → 0.6461 | −0.0857 | 2.91σ | below the k=3 line — WATCH only |
+| Nothing Ever Happens | 0.7509 → 0.7118 | −0.0391 | 0.99σ | no anomaly, ordinary drift |
+
+**Interpretation: the crowd RESOLVED "will there be a deal?" toward NO, and that made "will the strait reopen?" MORE uncertain, not less.** Signature and throughput are being priced as **different objects** — v5.4's central claim, in information-theoretic form. The deepest Hormuz contract on the board ($7.6M) is now a literal coin flip. ⚠️ **NOT called informed flow** (§5 guardrail): every move has ample same-week public news — the SNSC 6-7 demand list incl. war reparations (`SIG-W-20260809-008`) and two Aramco strikes on 8/9 (`-003` Jizan #2, `-007` Berri/Al Jubail, first Persian Gulf coast hit this cycle). ⚠️ **No σ is quoted for Aug WTI-$100** despite it showing the largest single dH (−0.2755): its series is n=4 (v3 regime began 7/31) — an insufficient base reported as insufficient. (KB-ORC-064.)
+
+**🔻 FED — the registered <45% dovish-restoration rung is CROSSED and the 6-week climb has REVERSED.** Sept-mtg-specific **35.5%** (Δ7d **−20.0**, $4.4M vol, $505.6K liq); aggregate hike-2026 **54.5%** (Δ7d −12.0) — now well below the >66% re-break line it sat *on* for two weeks; by-Oct cumulative **47.0%** (−16.5); no-cuts **85.8%** (−3.0); 1-cut **10.5%** (+4.0). Liquidity stayed real throughout → not a thin-book artifact. Entropy 0.9878→0.9385 = the market is becoming *more certain* there is no September hike. This resolves the direction of the trend KB-ORC-058 re-framed: it did not merely pause at the FOMC, it reversed. **No threshold moved — the <45% rung was already registered (SCRATCH 8/2 item 5); I am recording its crossing, which is its purpose.** ⚠️ **BLIND-SPOT STANDS AND IS MORE LOAD-BEARING NOW, NOT LESS:** my instruments price the **policy path only**. Kalshi's US-credit-downgrade-2026 kept **climbing** through the same week (11.0¢ 8/2 → **14.0%** 8/9, signed pull) — the credibility axis moved the **opposite** way. ⛔ **Do NOT read this board as "rates calm per ORACLE."** BOND owns the regime label. → LIQUID, HENRY, BOND, NEXUS. (VX-ORC-08.)
+
+**✅ KALSHI LANE LIVE — the 8/2 "DOWN" flag was MACHINE-LOCAL, diagnosed to the path.** `kalshi.py pull --log` rc=0, 12 rows logged, **signed** path confirmed. Mechanism: the script loads the RSA key **at module import** (`load_pem_private_key`, line 40) and signs every GET (`KALSHI-ACCESS-KEY/-TIMESTAMP/-SIGNATURE`, lines 45-63) — so absent creds or a broken `cryptography` kill it at *import*, exactly the 8/2 symptom. On this box: creds present + chmod 600 (dated Jun 27), `cryptography` 41.0.7 imports clean, no `KALSHI_*` env overrides, `kalshi.py status` returns `exchange_active: true`. ⇒ **Not auth, not endpoint, not script rot — the 8/2 session ran on the laptop, which lacks the cred dir and has a broken `cryptography`.** **Record Kalshi lane state as PER-BOX, never as a fleet fact.** Laptop repair remains owed and is machine-local. (KB-ORC-065.)
+
+**🟡 BOJ RE-PIN (owed since 7/31) — and a FALSE DIVERGENCE killed before it shipped.** Pinned Sept ($220.9K) + Oct ($17.4K) decision events. Sept: no-change 57.5% / **+25bp 42.5%**. Oct: no-change 43.5% / **+25bp 56.5%**. WALTER `SIG-W-20260809-010` relays *"swap rates ~80% odds on a 25bp BOJ hike **to 1.25%** in October"* — naively a 23.5pp divergence. ⛔ **It is a BASIS MISMATCH, not a divergence:** the swap figure is **cumulative-level**, the Polymarket leg is **per-meeting**. Like-for-like, Polymarket-implied cumulative-by-October = 42.5% + (57.5% × 56.5%) = **75.0%** vs ~80% ⇒ **corroboration** (KL well under 0.01 bits). ⚠️ Two caveats travel: the swap number is a **relay** and WALTER marks the JGB leg "NOT PULLED AT PRIMARY" — SAM/BOND verify at primary; and the cumulative arithmetic assumes the Oct leg is unconditional-as-written, which is my *reading* of the rules. → SAM, BOND. (KB-ORC-066.)
+
+**🟡 CLARITY ACT — the 8/2 bounce fully reversed into the 8/10 deadline.** 30.0% (8/2) → **20.5%** (Δ7d −8.5, deep $5.5M vol / $143.0K liq). The base case (not signed in 2026) is firming with one day to the recess deadline. → BROCK, RED.
+
+**🟠 COMPLACENCY AT A NEW HIGH — against six >10pp repricings.** NEH **80.5%** (Δ7d +2.5; 73.5% 7/31 → 78.5% 8/2 → 80.5%), best-asset-S&P 68.5%. The crowd is simultaneously repricing hard *and* pricing "nothing happens." Cross-reads to `SIG-W-20260809-009` (BofA Bull & Bear **9.7**, 5th ≥9.5 reading since 2002) — **VIOLET/HENRY own that adjudication, not me.** → RED, VIOLET. (VX-ORC-05.)
 
 ---
 
-## Signal Dashboard (live 2026-08-02T18:33Z, Polymarket unless noted)
+## Signal Dashboard (live 2026-08-09T21:58Z, Polymarket unless noted)
 
 | Market | Tier | Prob | Δ1d | Δ7d | Vol | Liq | Read |
 |--------|:--:|--:|--:|--:|--:|--:|------|
-| **Fed: HIKE in 2026** (aggregate) | T1 | **66.5%** | −1.0 | +2.0 | $6.1M | $201.4K | ON the >66% re-break line; 6-wk trend intact (KB-058 framing) |
-| **Fed: HIKE at Sept mtg (specific)** | T1 | **56.5%** | −3.0 | +3.0 | $2.4M | $887.4K | tail of 6-wk climb; FLAT vs 30Y new high = term-premium corroborated |
-| Fed: HIKE by Sept mtg (cumulative) | T1 | 57.5% | −3.0 | +1.5 | $611.7K | $100.8K | close-basis ≥ Sept-specific ✓ (bases labeled) |
-| Fed: HIKE by Oct mtg (cumulative) | T1 | 64.0% | −1.5 | +1.0 | $350.7K | $107.1K | steady |
-| **Fed: NO cuts 2026** | T1 | **88.8%** | +0.2 | +4.1 | $6.8M | $183.0K | firming; dovish tell <70% not fired |
-| Fed: 1 cut 2026 | T1 | 6.5% | — | −2.0 | $2.3M | $100.6K | fading |
-| Fed funds end-2026 (dist, top) | T1 | 35.9% | +5.8 | +8.5 | $1.4M | $4.6K | ⚠thin |
-| US inflation >5% 2026 | T1 | 13.5% | — | −2.0 | $297.7K | $10.7K | steady |
-| July CPI modal (top) | T1 | 41.5% | — | +5.5 | $49.6K | $16.5K | 8/12 print |
-| **US recession 2026** | T1 | **9.5%** | −2.0 | −2.5 | $1.7M | $35.6K | (Kalshi 7.0%) — eased on the benign wave |
-| Major bank bailout <2027 | T1 | 7.5% | — | −3.5 | $4.0K | $633 | ⚠thin |
-| US bank failure by Dec 31 2026 | T2 | 72.5% | — | −1.5 | $4.6K | $3.2K | ⚠thin — ANY-bank base-rate |
-| Which banks fail EOY (top) | T1 | 4.0% | +1.3 | −0.2 | $8.2K | $5.5K | ⚠thin, no name priced |
-| US unemployment ladder (top) | T1 | 10.0% | −0.3 | −2.1 | $121.9K | $1.5K | ⚠thin ⏮stale-date |
-| **Hormuz normal by Dec 31** | T1 | **58.5%** | **+11.0** | +0.5 | $6.7M | $312.7K | 🟡 disruption leg 41.5% — first sub-45 print, deep |
-| China invade Taiwan <2027 | T1 | 4.0% | — | +0.4 | $39.4M | $604.9K | deep, low |
-| China GDP 2026 (sub-5% top) | T1 | 86.5% | — | +1.0 | $215.4K | $51.7K | ⏮stale-date |
-| **WTI $100 (Aug) — war premium** | T2 | **22.0%** | **−15.5** | **−28.0** | $73.6K | $40.9K | whipsaw (6d range ~22–50.5%); live line = **>45% sustained ≥3 reads** ONLY |
-| US invade Iran <2027 | T2 | **20.5%** | −5.0 | — | $54.4M | $1.1M | deep, escalate leg retreating further |
-| US-Iran deal 2026 (top) | T2 | 33.5% | +4.5 | +4.0 | $93.6K | $28.0K | top LEG of components mkt — NOT a binary; no majority claim |
-| Iran targets shipping (Aug daily, top) | T2 | 35.5% | −3.0 | — | $109 | $17 | ⚠thin ⏳0d — noise |
-| US declares war on Iran <2027 | T2 | 4.5% | — | −1.0 | $770.1K | $106.7K | narrow mechanism, low |
-| Iran ends enrichment by Dec 31 | T2 | 26.5% | +2.0 | −2.5 | $1.5M | $61.9K | creeping up |
-| **Iranian regime FALL <2027** | T2 | **7.5%** | −1.0 | −1.0 | $23.7M | $725.6K | deep gauge, easing |
-| Venezuela: Delcy out Dec31 | T2 | 6.5% | −1.0 | −2.0 | $176.1K | $14.3K | easing |
-| **Hormuz weekly (week-of-Aug-3, 75-99 modal)** | T2 | **36.5%** | +1.0 | — | $297 | $3.7K | ⚠VERY thin fresh pin (event $792); centered one bucket HIGHER than prior week |
-| Hormuz 0-ships closure by Aug31 | T2 | 10.5% | +3.0 | — | $1.3K | $14.1K | ⚠thin — closure tail low |
-| Bab el-Mandeb closed by Dec31 | T2 | 17.5% | — | −5.5 | $233.2K | $58.7K | fading |
-| Houthi mil-action vs Israel by Aug31 | T2 | 10.0% | −20.0 | — | $2.5K | $11.3K | ⚠thin — retraced its debut print (31% was single-print) |
-| Russia-Ukraine ceasefire Dec31 | T2 | 33.5% | — | −2.0 | $2.1M | $122.8K | steady |
-| BOJ July decision (top) | T2 | 100.0% | — | — | $348.7K | — | ⛔RESOLVED — replace owed (next-mtg market) |
-| AI bubble burst 2026 | T2 | 19.9% | −2.5 | +3.9 | $2.3M | $26.2K | steady |
-| **Clarity Act signed 2026** | T2 | **30.0%** | +0.5 | −7.5 | $3.7M | $47.2K | 🟡 fade STALLED: +5.5pp/2d bounce into Aug-10 |
-| MicroStrategy bankruptcy <2027 | T2 | 3.9% | — | −0.1 | $191.0K | $10.0K | control |
-| US debt default <2027 | T2 | 2.9% | +0.1 | −0.7 | $16.2K | $5.2K | ⚠thin, control |
-| Mamdani freezes NYC rents <2027 | T2 | 82.2% | +0.5 | −7.2 | $284.0K | $5.9K | drifting off |
-| **Nothing Ever Happens 2026** | T3 | **78.5%** | **+6.0** | +2.0 | $709.5K | $43.7K | 🟠 complacency extending |
-| Best asset 2026 (S&P top) | T3 | 67.0% | −1.5 | +3.5 | $182.2K | $18.2K | elevated |
-| FL: Cat-4 hurricane <2027 | T3 | 24.5% | — | +2.0 | $335.7K | $2.1K | ⚠thin |
-| FL: Cat-5 hurricane <2027 | T3 | 10.0% | — | −2.0 | $138.7K | $850 | ⚠thin |
+| **Hormuz normal by Dec 31** | T1 | **49.5%** | **−7.5** | **−9.0** | $7.6M | $253.5K | 🟠 48.5% on 22:0xZ re-pull — moving live; H=0.9999 bits (coin flip) |
+| **Hormuz avg daily transits end-Aug (0-20)** | T2 | **73.5%** | +18.0 | **+22.5** | $18.6K | $3.4K | ★NEW throughput gauge; EV 18.5/day = 21.0% of 88 |
+| Hormuz ≥30 ships any day by Aug31 | T2 | 29.5% | −17.0 | −23.0 | $17.2K | $11.2K | ★NEW; ≥80 leg only 3.9% |
+| **Hormuz 0-ships on ANY date by Aug31** | T2 | **24.1%** | — | **+13.1** | $63.9K | $2K | ⚠thin — ONE zero-day, NOT closure (label corrected) |
+| Hormuz weekly (week-of-Aug-10) | T2 | 41.5% | −0.5 | — | $133 | $1.3K | ⚠VERY thin $647 event — PLACEHOLDER, not a call |
+| **WTI $100 (Aug) — supply leg** | T2 | **10.5%** | — | **−11.5** | $194.6K | $21.5K | <20% on 1 read only — breakdown NOT declared |
+| US invade Iran <2027 | T2 | 16.5% | +1.0 | −3.0 | $57.9M | $890.4K | deep; escalation tail easing, k=2.91σ WATCH |
+| **US-Iran deal 2026 (top leg)** | T2 | **24.0%** | −7.5 | **−10.0** | $98.0K | $11.4K | entropy collapse 7.03σ — deal de-rated |
+| **Iran ends enrichment by Dec 31** | T2 | **17.0%** | −3.5 | **−10.5** | $1.6M | $70.1K | entropy collapse **12.54σ** — sharpest on the board |
+| Iranian regime FALL <2027 | T2 | 6.5% | — | −1.0 | $24.5M | $794.7K | deep gauge, easing |
+| US declares war on Iran <2027 | T2 | 4.5% | — | −0.5 | $776.1K | $91.7K | narrow mechanism, low |
+| Iran targets shipping (Aug daily, top) | T2 | 23.5% | +8.0 | +6.0 | $3.6K | $478 | ⚠thin ⏳0d — noise |
+| **Saudi mil-action vs Yemen by Aug31** | T2 | **68.5%** | +15.0 | — | $1.8K evt | $5.0K | ★NEW (opened 8/7-8/8); by-Aug-15 50.5% ⚠very thin |
+| Bab el-Mandeb closed by Dec31 | T2 | 16.5% | −1.0 | −1.5 | $283.4K | $59.7K | steady |
+| Houthi mil-action vs Israel by Aug31 | T2 | 5.5% | −1.0 | −4.5 | $73.7K | $10.6K | faded from the 31% debut print |
+| **Fed: HIKE at Sept mtg (specific)** | T1 | **35.5%** | — | **−20.0** | $4.4M | $505.6K | 🔻 <45% rung CROSSED; 6-wk climb reversed |
+| **Fed: HIKE in 2026** (aggregate) | T1 | **54.5%** | — | **−12.0** | $7.0M | $338.8K | well below the >66% re-break line |
+| Fed: HIKE by Sept mtg (cumulative) | T1 | 35.5% | — | −20.0 | $736.7K | $85.6K | tracks the specific leg |
+| Fed: HIKE by Oct mtg (cumulative) | T1 | 47.0% | −0.5 | −16.5 | $408.3K | $93.2K | easing |
+| **Fed: NO cuts 2026** | T1 | **85.8%** | +0.5 | −3.0 | $7.1M | $143.3K | first softening in weeks; <70% tell NOT fired |
+| Fed: 1 cut 2026 | T1 | 10.5% | — | +4.0 | $2.5M | $198.3K | re-rating the hawkish tail |
+| Fed funds end-2026 (dist, top) | T1 | 35.3% | −1.3 | +2.5 | $1.4M | $4.9K | ⚠thin |
+| US inflation >5% 2026 | T1 | 12.5% | — | −1.0 | $299.2K | $14.5K | steady |
+| July CPI modal (top) | T1 | 39.5% | −4.5 | −2.0 | $73.3K | $13.8K | ⏳3d — 8/12 print |
+| **US recession 2026** | T1 | **7.5%** | −0.5 | −2.0 | $1.7M | $40.1K | (Kalshi 6.0%) — converged, calm |
+| Major bank bailout <2027 | T1 | 7.5% | — | — | $4.0K | $663 | ⚠thin |
+| US bank failure by Dec 31 2026 | T2 | 69.5% | — | −3.0 | $5.0K | $2.9K | ⚠thin — ANY-bank base-rate |
+| Which banks fail EOY (top) | T1 | 3.7% | +0.3 | +0.8 | $8.3K | $4.3K | ⚠thin, no name priced |
+| US unemployment ladder (top) | T1 | 10.2% | — | +0.3 | $122.9K | $2.1K | ⚠thin ⏮stale-date |
+| China invade Taiwan <2027 | T1 | 3.9% | +0.1 | −0.2 | $39.6M | $754.8K | deep, low |
+| China GDP 2026 (sub-5% top) | T1 | 88.5% | — | +2.0 | $218.8K | $48.4K | ⏮stale-date |
+| **BOJ September decision (no-change)** | T2 | **57.5%** | — | −8.0 | $88.9K | $7.3K | ★re-pin; +25bp leg 42.5% |
+| **BOJ October decision (+25bp)** | T2 | **56.5%** | −1.0 | +9.0 | $7.0K | $740 | ⚠thin; cumulative-by-Oct = 75.0% ≈ swaps ~80% |
+| Russia-Ukraine ceasefire Dec31 | T2 | 34.5% | −0.5 | +1.0 | $2.1M | $101.4K | steady |
+| **Clarity Act signed 2026** | T2 | **20.5%** | −1.0 | **−8.5** | $5.5M | $143.0K | 8/2 bounce fully reversed into 8/10 |
+| AI bubble burst 2026 | T2 | 14.1% | −0.1 | −5.9 | $2.3M | $27.6K | fading |
+| MicroStrategy bankruptcy <2027 | T2 | 3.5% | — | −0.4 | $191.8K | $8.3K | control |
+| US debt default <2027 | T2 | 3.1% | — | +0.1 | $16.2K | $4.1K | ⚠thin, control |
+| Venezuela: Delcy out Dec31 | T2 | 13.5% | — | +4.0 | $184.4K | $9.4K | firming |
+| Mamdani freezes NYC rents <2027 | T2 | 75.6% | −3.0 | −6.1 | $284.3K | $4.4K | ⚠thin, drifting off |
+| **Nothing Ever Happens 2026** | T3 | **80.5%** | −1.0 | +2.5 | $722.5K | $33.4K | 🟠 new series high |
+| Best asset 2026 (S&P top) | T3 | 68.5% | — | +1.5 | $185.0K | $20.6K | elevated |
+| FL: Cat-4 hurricane <2027 | T3 | 20.0% | — | −4.5 | $339.9K | $2.0K | ⚠thin |
+| FL: Cat-5 hurricane <2027 | T3 | 11.5% | −1.5 | +1.5 | $139.2K | $607 | ⚠thin |
 
-**Kalshi corroboration (2026-08-02T18:36Z, MANUAL unauthenticated curls — script lane down this box, no creds + broken `cryptography`):** recession NBER-26 7.0% (prev-day 9.0); US-credit-downgrade last 11.0¢ / bid-ask 8.2–11.0 (7/31 logged 6.0 — +5pp/2d last-trade basis); corp-bankruptcy >750 83% steady; Iran-crude Jul >2.0mbpd 86% steady (⚠OI 408, resolves 8/12); Brent >$85 Jul settle-ref CLOSED ~99% = YES; July CPI >3.3% 64% (prev 60); July U3 >4.2% 44% (prev 50; 7/31: 56 — −12pp/2d into 8/7 print); Fed >4.00%-after-July finalized 1%. Rows appended manually to `KALSHI_ODDS_LOG.tsv` with `manual-curl` note.
+**Kalshi corroboration (2026-08-09T21:58Z — SIGNED `kalshi.py pull --log`, lane LIVE, 12 rows logged):** recession NBER-26 **6.0%** (vol 3.2M, OI 895.1K) vs PM 7.5% — cross-platform agreement, 1.5pp apart; **US-credit-downgrade-2026 14.0%** (OI 33.0K; 8/2: 11.0¢ — **+3pp/7d, still climbing on the credibility axis while hike odds collapsed**); July CPI YoY >3.3% 58.0% / >3.4% 20.0% / >3.5% 7.0% (⏳8/12); **July U3 >4.2% 41.0% FINALIZED** (8/7 print settled it — the 8/2 read of 44% into the print was close); corp-bankruptcy >750 83.0% steady; **Iran-crude Jul >2.0mbpd 86.0% steady** (⚠OI 412 thin, resolves 8/12 — this is the "real loss" tell); Brent >$85 Jul-settle-ref 99.0% FINALIZED YES.
 
-**Movers / coverage:** NOT run this session (proxy scope: audit fixes + Hormuz re-pin + OPEC read). Coverage next due ~Aug 7 (weekly, last ran 7/31).
+**Movers / coverage:** NOT run this session (scope: Hormuz re-pin + Kalshi liveness). **Coverage sweep OVERDUE** — last ran 7/31, weekly cadence ⇒ due since ~8/7.
 
 Δ in pp. ⚠thin = liq < $5K (no marks on one print; ≥3-day re-check). ⏮ = live market w/ stale endDate. ⛔ = display-quirk false-RESOLVED on daily/ladder events. ⏳ = near-dated resolution.
 
@@ -82,30 +115,35 @@
 
 | # | Market | Score | Status | Key Signal | Upgrade Trigger |
 |---|--------|:--:|:--:|------------|-----------------|
-| 1 | Iran → oil supply regime | 2 | 🟡 | OPEC+ +188k Sept + Q4 pause (8/2); Hormuz-normal 58.5% (+11/1d deep); Aug $100 22.0% (−15.5/1d, whipsaw); v3 spread +19.5pp — both legs eased, benign direction; barrel-tell 86% steady | **Aug WTI-$100 >45% sustained ≥3 reads** (the ONE live deepen line) OR <20% sustained (breakdown) OR Iran-crude <2.0mbpd |
-| 2 | Fed path (6-wk trend, parked on line) | 3 | 🟠 | *[retracted: "Sept-specific DEEPENING" — KB-058: tail of 6-wk climb; FOMC = 2-day pause]* Aggregate 66.5% ON >66% line (+7pp base-to-base 7/22→7/31, close-basis, 9d); Sept-specific 56.5% flat 8/2 | Sept-specific >60% OR <45% OR aggregate sustained >66% break OR a 2026 hike prints |
-| 3 | Term-premium / credibility (**BLIND-SPOT**) | ? | ⚠️ | 30Y 5.28% new cycle high 8/1-8/2 (WALTER SIG-W-20260731-006; +18bp/3 sessions) while hike odds FLAT = attribution corroborated on fresh pull; Kalshi credit-downgrade +5pp/2d same direction | route to BOND/NEXUS; ORACLE cannot upgrade this itself — **never** "rates calm per ORACLE" |
-| 4 | Risk-on / complacency (EXTENDING) | 1 | ⚪ | NEH 78.5% (+6/1d); best-asset-S&P 67.0% intact | NEH <30% OR gold takes best-asset lead |
-| 5 | Iran-axis (narrowed toward DEAL side — no majority claim) | 1 | ⚪ | US-invade 20.5% (−5/1d deep); deal-top 33.5% (+4.5/1d, components-mkt leg); enrichment-end 26.5% | Aug daily-events open deep OR US-invade back >30% |
-| 6 | CLARITY Act (Aug-10 deadline) | 3 | 🟠 | 30.0% — fade STALLED, +5.5pp/2d bounce; deep $3.7M | signed → resolve; not-signed by 8/10 → base case confirmed; >5pp 2-day move already hit — watch for the news |
-| 7 | Recession (converged, calm) | 1 | ⚪ | PM 9.5% (−2/1d) / Kalshi 7.0% — eased further on benign wave | market turns up OR fleet re-arms cyclical axis |
+| 1 | Iran → oil supply regime | 2 | 🟡 | No deal + no reopening + no barrels lost, priced together. Hormuz-normal 49.5% (−9.0/7d, deep); Aug WTI-$100 10.5% (−11.5); spread **+40.0pp** (series high) = premium not shortage; crowd-implied end-Aug throughput **18.5/day = 21.0% of 88** (was 29.7% 7d ago); Iran-crude 86% steady | **Aug WTI-$100 <20% on ≥3 reads** (breakdown CONFIRMED — a benign regime note, not an alert) OR >45% sustained ≥3 reads (deepen) OR Iran-crude <2.0mbpd (real loss) |
+| 2 | **Throughput vs signature (v5.4 test)** | 3 | 🟠 | ★NEW instrument class. Two forward-looking ladders both moved AWAY from reopening in the deal channel's loudest week: 0-20 transits/day **73.5% (+22.5/7d)**; ≥80-on-any-day **3.9%**. Agrees with realized PortWatch (4·4·6·2·6·3·2), not the narrative | a sustained lift in the 20-40/40-60 buckets, OR ≥30-any-day back >45%, = the first crowd-priced reopening signal. **BRENT/FALCON own the adjudication** |
+| 3 | Fed path (**reversed**) | 2 | 🟡 | Sept-specific **35.5% (−20.0/7d)** — registered <45% rung CROSSED; aggregate 54.5% (−12.0) below the >66% line; entropy falling = more certain of NO hike; liquidity real throughout | a 2026 hike prints OR Sept-specific back >60% OR aggregate re-breaks >66% |
+| 4 | Term-premium / credibility (**BLIND-SPOT**) | ? | ⚠️ | Kalshi credit-downgrade 11.0¢→**14.0%** (+3pp/7d) **while** the policy-path board collapsed — the two axes moved in OPPOSITE directions this week, which sharpens rather than resolves the blind spot | route to BOND/NEXUS; ORACLE cannot upgrade this itself — **never** "rates calm per ORACLE" |
+| 5 | Risk-on / complacency | 1 | 🟠 | NEH **80.5%** (new series high) against six >10pp repricings in the same week; best-asset-S&P 68.5%; BofA B&B 9.7 (`SIG-009`, VIOLET/HENRY adjudicate) | NEH <30% OR gold takes best-asset lead |
+| 6 | Iran-axis (both tails compressed) | 1 | ⚪ | US-invade 16.5% (−3.0, k=2.91σ watch); deal-top 24.0% (−10.0, 7.03σ collapse); enrichment-end 17.0% (−10.5, 12.54σ collapse). The MIDDLE — grinding disruption — got fatter | Aug daily events open deep OR US-invade back >30% |
+| 7 | CLARITY Act (Aug-10 deadline) | 2 | 🟡 | **20.5%** (−8.5/7d, deep $5.5M) — the 8/2 bounce fully reversed; base case firming with 1 day left | signed → resolve YES; not-signed by 8/10 → base case confirmed |
+| 8 | Recession (converged, calm) | 1 | ⚪ | PM 7.5% / Kalshi 6.0% — 1.5pp apart, both eased | market turns up OR fleet re-arms cyclical axis |
 
 ---
 
 ## Maintenance flags
 
-- **✅ HORMUZ WEEKLY RE-PIN DONE 2026-08-02 (was due today).** `week-of-july-27` retired (resolving; exit: 50-74 42.5% / 75-99 39.2% +18.7/7d — up-traffic shift) → `week-of-august-3` pinned (modal 75-99 36.5%; ⚠$792 event vol). **NEXT RE-PIN DUE 2026-08-09** (literal date, per audit fix 4e — pin week-of-aug-10 when it opens).
-- **⚠️ BOJ July decision RESOLVED — replacement owed** (next-BOJ-meeting market not yet searched; carried to next session).
-- **⚠️ AUG COVERAGE GAPS persist (re-searched 8/2 18:34Z):** Iran-military-vs-Gulf-State Aug daily NOT open; Houthi-shipping Aug daily NOT open. Houthi-vs-Israel Aug-31 pin retraced to 10.0% (−20/1d, thin — debut 31% was a single print).
-- **⚠️ Kalshi lane DOWN on this box:** `kalshi.py` dies on `cryptography`/`_cffi_backend` import AND `~/.config/kalshi/` creds absent. Manual unauthenticated curls to `api.elections.kalshi.com/trade-api/v2/markets/<ticker>` WORK (used 18:36Z). Real-ORACLE: verify creds/env on next boot before trusting the "creds present" memory line.
-- **THRESHOLD HYGIENE (audit fix 2 closed):** the stale ">30%/>40% (v3)" deepen line is KILLED on STATUS / NEXUS_BRIEF / VX-ORC-04. **Live: >45% sustained ≥3 reads (deepen) / <20% sustained (breakdown) / Iran-crude <2.0mbpd (real loss).** Provenance: KB-ORC-059 (Will-directed PM #3, 7/31 — same-day retune of the AM pair; unambiguous, no adjudication needed).
-- **🟡 RED** — still owed current fleet recession probability (GDP/NBER-comparable), carried since 6/13. Not urgent (crowd 7-9.5%, calm).
-- **v2 candidates open:** forward-curve depth on daily rows; Kalshi coverage analog; 30d-drift flag on `movers`; `/events` tag-based novelty suppression.
+- **✅ HORMUZ WEEKLY RE-PIN DONE 2026-08-09 (was due today, literal-date gate honored).** `week-of-august-3` retired → `week-of-august-10` pinned. **NEXT RE-PIN DUE 2026-08-16** (literal date).
+- **⛔ MY 8/2 WEEKLY PIN WAS FALSIFIED — recorded, not quietly replaced.** On 8/2 I pinned `week-of-august-3` at modal **75-99 (36.5%)** on a **$792** event and wrote *"centered one bucket HIGHER than prior week."* It resolved today with modal **25-49 (56.5%)** and 75-99 at **1.2%**, on an event that deepened 62× to $49.2K. The thin pin carried the **prior week's anchor, not information**, and I published a directional read off it. **The new pin has the same defect ($647 event) — its entry read is logged as a PLACEHOLDER, explicitly not a call.**
+- **✅ KALSHI LANE LIVE ON THIS BOX** (signed, rc=0). 8/2 "DOWN" = machine-local (laptop: no cred dir + broken `cryptography`). **Record lane state PER-BOX, never as a fleet fact.** Laptop repair owed, machine-local.
+- **⚠️ WTI MONTH-ROLL CANNOT BE EXECUTED — no September WTI-$100 market exists** (searched 22:0xZ; only the August family + a thin week-of-Aug-10 ladder). The Aug supply leg **expires 2026-09-01** and will age the v3 spread out unless a Sept market opens. Re-search every session until it does.
+- **⚠️ NEW INSTRUMENT DEFECT (named, NOT fixed, no threshold touched):** the v3 supply leg is a **month-stamped intraday-touch** contract, so **the spread widens MECHANICALLY on time decay** as each month runs out — part of the +40.0pp is calendar, not risk. Escalated to PROME. The directional read survives because two independent throughput ladders corroborate it.
+- **✅ BOJ replacement pinned** (owed since 7/31) — Sept + Oct events. Basis trap documented in `watchlist.tsv` so nobody re-derives the false 56.5-vs-80 divergence.
+- **⚠️ AUG COVERAGE GAPS — 4th consecutive check, still absent:** Iran-military-vs-Gulf-State Aug daily NOT open; Houthi-shipping Aug daily NOT open (re-searched 8/9 22:0xZ). **Partial fill:** new `Saudi military action vs Yemen` event pinned (opened 8/7-8/8, ⚠$1.8K).
+- **⚠️ COVERAGE SWEEP OVERDUE** — last 7/31, weekly cadence, due since ~8/7. Run at next closeout.
+- **THRESHOLD HYGIENE:** unchanged this session. Live v3 lines remain **>45% sustained ≥3 reads (deepen) / <20% sustained (breakdown) / Iran-crude <2.0mbpd (real loss)** — KB-ORC-059. **Nothing moved, nothing registered.**
+- **🟡 RED** — still owed current fleet recession probability (GDP/NBER-comparable), carried since 6/13. Not urgent (crowd 6-7.5%, calm).
+- **✅ INBOX DRAINED:** PROME 8/2 (OPEC Q4-pause correction — applied, KB-ORC-061 marked CORRECTED) + PROME 8/4 (NEXUS Amendment 10 brief-fold ordering — adopted; brief written last this session).
 
 ---
 
 ## BOTTOM LINE
 
-**OPEC+ day landed benign and the crowd agrees:** +188k bpd for September completes the voluntary-cut unwind with a Q4 pause (~2mbpd of 2022 cuts intact, next mtg Sept 6), and the whole Iran/oil board eased in sync — Hormuz-normal +11/1d to 58.5% (deep), Aug WTI-$100 −15.5/1d to 22.0%, US-invade −5/1d to 20.5%, NEH +6/1d to 78.5%. v3 spread +19.5pp with BOTH legs easing = benign-direction move, and the only live deepen line is **>45% sustained ≥3 reads**. **The Fed board did NOT ease:** aggregate 66.5% still ON its re-break line, Sept-specific 56.5% (tail of a 6-week climb — the "deepening post-FOMC" framing is retracted, KB-ORC-058), and hike odds sat FLAT while the 30Y printed a new cycle high 5.28% — which is exactly the term-premium signature WALTER flagged; BOND owns that axis and **this board cannot clear it.** Audit packet fully applied: 4 DEEPENING purges, threshold collapsed to one, deal-majority retracted (bimodal narrowed toward the DEAL side — deal-top 33.5% vs invade 20.5%, not like-for-like, no majority), bases labeled, broken spread row annotated, Hormuz re-pin date-gated (next: 2026-08-09). Watch next: CLARITY bounce (+5.5pp/2d into Aug-10), Kalshi credit-downgrade +5pp/2d, U3 −12pp/2d into the 8/7 print.
+**The crowd spent this week pricing out the deal and pricing out the reopening at the same time — and pricing out a supply loss right alongside them.** Hormuz-normal fell −9.0pp to 49.5% on the deepest contract on the board; the deal leg fell −10.0 and enrichment-end −10.5 with entropy collapses of 7.03σ and 12.54σ; and the supply-loss leg fell −11.5 to 10.5%, taking the v3 spread back to its series high of +40.0pp — **wide spread = premium, not shortage.** What is left priced is an indefinite low-throughput grind: two newly-opened throughput ladders put crowd-expected end-August traffic at **18.5 transits/day, 21.0% of the 88 baseline** and falling, and give a single day at 91% of normal a **3.9%** chance. **That is BRENT's THESIS v5.4 — a deal is not a reopening, the test is throughput not signature — being confirmed by real money in the very week the deal channel was loudest, and it arrives on an instrument BRENT has said he does not have.** The Hormuz distribution fattened at *both* tails (normalization down, one-zero-day up to 24.1%), so the honest label is a **variance increase, not a directional call** — which is exactly what the entropy expansion to 0.9999 bits says. Separately the **Fed board reversed hard** (Sept-specific −20.0pp through its registered <45% rung) while Kalshi's credit-downgrade tell kept climbing — the policy-path and credibility axes moved in **opposite** directions, which sharpens the blind spot rather than clearing it; **BOND owns that.** **Kalshi self-pull is LIVE and signed on this box** — the 8/2 outage was the laptop, not the code. **No threshold moved, no gate registered, no trade implied.**
 
-*Re-pull: `python3 AGENTS/ORACLE/scripts/polymarket.py pull --log` + `python3 AGENTS/ORACLE/tools/disruption_supply_spread.py` (+ Kalshi via manual curl while the script lane is down)*
+*Re-pull: `python3 AGENTS/ORACLE/scripts/polymarket.py pull --log` + `python3 AGENTS/ORACLE/scripts/kalshi.py pull --log` + `python3 AGENTS/ORACLE/tools/disruption_supply_spread.py`*
