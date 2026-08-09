@@ -61,7 +61,7 @@ Agent state lives at `AGENTS/<NAME>/STATUS.md`. Position truth is **off-repo** (
 |------|---------|
 | AGENTS/ | All agent domains, STATUS files, knowledge bases |
 | FORGE/ | Structured position surface (`STATUS.md`; `PORTFOLIO.md` = frozen Feb-2026 snapshot, historical only) + market-data tools, signals, research/timing corpora. Retired execution ledger + per-trade KRE/WAL/OZK folders → `FORGE/_archive/` |
-| FORGE/timing/ | Thesis timing research, convergence timeline, research corpus |
+| FORGE/timing/ | FROZEN research corpus (bannered 2026-08-09) — historical timing/convergence research; cite as history, never current |
 | FORGE/tools/market-data/ | Live data CLI: `python3 fetch.py price KRE`, `python3 dashboard.py` |
 | memory/ | Daily session notes (YYYY-MM-DD.md) |
 | PROME/ | Coordinator state (SCRATCH, STATUS, ROSTER, GATES.tsv, DOCKET.tsv, AUTONOMY) |
