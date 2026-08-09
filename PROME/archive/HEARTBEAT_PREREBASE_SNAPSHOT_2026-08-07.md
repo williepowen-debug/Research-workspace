@@ -1,3 +1,5 @@
+> ⚠️ **ARCHIVED PRE-RE-BASE SNAPSHOT — superseded by the 2026-08-07 re-base, which SHIPPED (Will-approved in-session). Nothing below is current state; the body below this banner is the byte-faithful pre-re-base copy, so its header reads like a live HEARTBEAT. (S5 disposition banner, added 2026-08-09.)**
+
 # HEARTBEAT.md
 **Base:** 2026-07-31 (Fri EOD — Prome, **RE-BASED at 4 amendments + the evening agent wave** per the Cadence rule, Will-approved in-session. The prior 7/30 base + its 4-amendment chain preserved **verbatim** → `PROME/archive/HEARTBEAT_PREREBASE_SNAPSHOT_2026-07-31.md`, cksum-verified. Carried claims re-verified against owner files/commits. Levels carry [as-of] stamps — market is CLOSED (Fri evening); ⚠️ **FRED went down at the source 7/31 early afternoon** — before citing any FRED level as current, confirm the data-DATE advanced, not just that the call returned (KB-VIO-170; the intake lane captured HY 284 [7/30] pre-outage).)
 **Amendments append below this line; re-base per the Cadence rule. Chain: 4.**

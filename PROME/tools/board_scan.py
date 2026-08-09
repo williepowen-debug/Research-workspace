@@ -83,6 +83,9 @@ def clean(s, n=104):
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--advance", action="store_true", help="write cursor to newest scanned")
+    ap.add_argument("--ack-actions", action="store_true",
+                    help="with --advance: advance cursor even past ACTION lines "
+                         "(use ONLY after dispositioning them)")
     ap.add_argument("--since", default=None, help="YYYYMMDD floor, overrides cursor")
     ap.add_argument("--audit", default=None, help="YYYYMMDD — report every ACTION line for PROME")
     args = ap.parse_args()
@@ -155,10 +158,18 @@ def main():
             print(f"   {sid} [{','.join(acts) or '—'}] {clean(hl, 80)}")
 
     if args.advance:
-        newest = max(f"SIG-W-{sig_key(p.name)[0]}-{sig_key(p.name)[1]:03d}" for p in new)
-        CURSOR.parent.mkdir(parents=True, exist_ok=True)
-        CURSOR.write_text(newest + "\n", encoding="utf-8")
-        print(f"\ncursor → {newest}")
+        if action and not args.ack_actions:
+            # S3 crash-safety (7/28 live incident, fixed 8/9): advancing past an
+            # undispositioned ACTION line + a crash before disposition = orphaned
+            # signal. Withhold the cursor; the line re-surfaces next scan.
+            print(f"\n⚠️  cursor NOT advanced — {len(action)} ACTION line(s) above are "
+                  f"undispositioned. After dispositioning, re-run with "
+                  f"--advance --ack-actions to move the cursor.")
+        else:
+            newest = max(f"SIG-W-{sig_key(p.name)[0]}-{sig_key(p.name)[1]:03d}" for p in new)
+            CURSOR.parent.mkdir(parents=True, exist_ok=True)
+            CURSOR.write_text(newest + "\n", encoding="utf-8")
+            print(f"\ncursor → {newest}")
 
     return 1 if action else 0
 

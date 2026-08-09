@@ -346,7 +346,14 @@ def check_symmetry():
     boot = (ROOT / "PROME/BOOT.md").read_text(errors="ignore")
     close = (ROOT / "PROME/CLOSEOUT.md").read_text(errors="ignore")
     seq = boot.split("## Boot Sequence", 1)[-1].split("## Conditional Modules")[0]
-    boot_reads = set(re.findall(r"`((?:PROME/)?[A-Z][A-Za-z_]+\.(?:md|tsv))`", seq))
+    # T2-c v1 (DAEDALUS ruling 7/28, shipped 8/9): harvest ONLY lines carrying an
+    # explicit `Read` directive (case-sensitive word). Mention-harvesting registered
+    # pointers and even retirement notices as reads (the TODAY.md phantom class).
+    # Contract: a mandatory boot read carries the word "Read" on its line in BOOT.md.
+    boot_reads = set()
+    for ln in seq.splitlines():
+        if re.search(r"\bRead\b", ln):
+            boot_reads.update(re.findall(r"`((?:PROME/)?[A-Z][A-Za-z_]+\.(?:md|tsv))`", ln))
     sym = close.split("## Boot↔Closeout symmetry", 1)[-1].split("\n## ", 1)[0]
     missing = sorted(s for s in boot_reads
                      if Path(s).name not in sym and s not in sym)

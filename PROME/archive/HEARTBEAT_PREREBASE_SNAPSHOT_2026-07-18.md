@@ -1,3 +1,5 @@
+> ⚠️ **ARCHIVED PRE-RE-BASE SNAPSHOT — superseded by the 2026-07-18 re-base, which SHIPPED (Will-approved in-session). Nothing below is current state; the body below this banner is the byte-faithful pre-re-base copy, so its header reads like a live HEARTBEAT. (S5 disposition banner, added 2026-08-09.)**
+
 # HEARTBEAT.md
 **Base:** 2026-07-11 (Prome — **RE-BASED post-sustain-DENY**, doc-audit item 6, Will-approved in-session. The prior 6/25 base + its 15-amendment chain + superseded narrative are preserved **verbatim** → `PROME/archive/HEARTBEAT_PREREBASE_SNAPSHOT_2026-07-10.md`. Every claim below re-verified against its owner file at re-base; levels carry their [as-of] stamps — weekend, Fri-close vintage, refresh before citing as current.)
 **Amendments append below this line; re-base per the Cadence rule.**

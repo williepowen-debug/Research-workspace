@@ -3,7 +3,7 @@
 // PURPOSE: boot-read/protocol docs accumulate canon-contradicting claims between
 // Will-triggered deep audits (the 7/1 24-file audit found 9 of 24 files carrying
 // rot, incl. a boot-read STATUS with a canon-contradicting push directive). This
-// is the standing catch-all: 5 read-only readers over the 10-file spine set vs
+// is the standing catch-all: 7 read-only readers over the 14-file spine set vs
 // enumerated canon anchors. Companion to the deterministic canon-change mirror
 // sweep (PROME/SYSTEM.md → Canonical → Mirrors map, CLOSEOUT Chunk-3 trigger).
 //
@@ -13,23 +13,26 @@
 // (checked at boot step 8 / closeout Chunk 3). Update the stamp after each run.
 // OUTPUT: consolidated per-file verdicts; PROME applies fixes same-session
 // (pathspec commits; shared docs Will-gated) and re-stamps STATUS.
-// COST: ~5 agents, roughly 1/5 of the 7/1 verify round.
+// COST: ~7 agents, roughly 1/4 of the 7/1 verify round.
 
 export const meta = {
   name: 'spine-audit',
   description: 'Weekly reconciliation of PROME boot-read/protocol docs against canon anchors',
-  phases: [{ title: 'Audit', detail: '5 readers x 2 spine files vs canon anchors' }],
+  phases: [{ title: 'Audit', detail: '7 readers x 2 spine files vs canon anchors' }],
 }
 
-const REPO = '/home/willi/Research-workspace'
-// args must be a JSON OBJECT ({ today: "YYYY-MM-DD" }). The 7/28 run passed it
-// as a JSON-encoded STRING and readers ran UNSTAMPED — so self-defend: parse a
-// string arg, then validate the date shape either way.
+// args must be a JSON OBJECT ({ today: "YYYY-MM-DD", repo?: "/abs/path" }). The
+// 7/28 run passed it as a JSON-encoded STRING and readers ran UNSTAMPED — so
+// self-defend: parse a string arg, then validate the date shape either way.
 let ARGS = args
 if (typeof ARGS === 'string') { try { ARGS = JSON.parse(ARGS) } catch (e) { ARGS = null } }
 const TODAY = (ARGS && typeof ARGS.today === 'string' && /^\d{4}-\d{2}-\d{2}$/.test(ARGS.today))
   ? ARGS.today
   : 'UNSTAMPED — ask PROME to pass args as a JSON object { today: "YYYY-MM-DD" }'
+// S4 fix (8/9): repo path from args with fallback — was hardcoded only.
+const REPO = (ARGS && typeof ARGS.repo === 'string' && ARGS.repo.startsWith('/'))
+  ? ARGS.repo
+  : '/home/willi/Research-workspace'
 
 // The spine set: every doc PROME boot-reads or operates the session from,
 // paired 2-per-reader. Keep in sync with PROME/BOOT.md's boot sequence.
@@ -39,6 +42,10 @@ const GROUPS = [
   ['PROME/STATUS.md', 'PROME/SCRATCH.md'],
   ['PROME/ACTIVE_DECISIONS.md', 'HEARTBEAT.md'],
   ['PROME/GIT_COORDINATION.md', 'PROME/SYSTEM.md'],
+  // S4 coverage fix (DAEDALUS 7/28 audit, shipped 8/9): the four omitted
+  // protocol/spine docs join as two pairs — 7 readers / 14 files.
+  ['PROME/HANDOFF.md', 'PROME/AUTONOMY.md'],
+  ['PROME/MACHINE_LOCAL.md', 'PROME/COMPLETION_SPEC.md'],
 ]
 
 const CANON = `CANON ANCHORS (read these FIRST; they win on any conflict):
