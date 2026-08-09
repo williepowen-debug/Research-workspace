@@ -1,5 +1,6 @@
 # COMPLETION SPEC — Sub-Agent Report Standard
 
+**Created:** ~2026-05 · **Updated:** 2026-08-09 (spine-audit #8 — header stamp ADDED per the 8/9 stamp canon [file had none while carrying a 7/31 migration]; §6 routing examples re-based to WAL's 7/25 promotion out of REGINALD)
 **Purpose:** Every spawned sub-agent writes this block at the END of its work. Prome reads it to update live owner files (`PROME/STATUS.md`, `PROME/SCRATCH.md`, `PROME/ACTIVE_DECISIONS.md`, routing inboxes) without parsing the full agent output.
 
 ---
@@ -54,10 +55,10 @@ FOLLOW-UP: ARESSI data drops Wed — spawn BROCK again to integrate when availab
 3. If FOLLOW-UP is not "None" → capture the next action in the owner file (`PROME/SCRATCH.md` for immediate continuity, `PROME/STATUS.md` for work queue, or an agent inbox for routed domain work).
 4. If the work produced a system/process decision, log it in the appropriate live owner file. Trade/portfolio decisions go to FORGE/TERRY + broker truth *(the legacy `PROME/TRADE_DECISIONS.md` log was archived 2026-06-30)*; non-trade architecture/state decisions go to `PROME/STATUS.md`/`PROME/HANDOFF.md` as appropriate.
 5. If STATUS is ❌ BLOCKED → surface to Will immediately.
-6. **Post-completion routing** — scan RESULT for cross-agent references. If agent A's output names agent B (e.g., "OTTO mapped exposure chain → WAL → REGINALD should integrate"), write a routing signal to `AGENTS/{B}/inbox/` with the key finding. This is Tier 1 — no proposal needed.
+6. **Post-completion routing** — scan RESULT for cross-agent references. If agent A's output names agent B (e.g., "OTTO mapped a Western Alliance exposure chain → **WAL** should integrate" — WAL is its own agent since 2026-07-25, promoted out of REGINALD), write a routing signal to `AGENTS/{B}/inbox/` with the key finding. This is Tier 1 — no proposal needed.
 
    Examples:
-   - OTTO maps First Brands → Barclays → Apollo → WAL → route to REGINALD inbox
+   - OTTO maps First Brands → Barclays → Apollo → WAL → route to **WAL** inbox (WAL promoted out of REGINALD 7/25 — example re-based 8/9)
    - SAM flags independent Fed-cut JPY path → route to NEXUS inbox
    - BRENT updates NOPI estimate → route to HENRY inbox (demand destruction)
    - Any agent shifts scenario probability → route to RED inbox

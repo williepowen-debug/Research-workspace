@@ -1,9 +1,9 @@
 # AUTONOMY TIERS
 
-**Created:** 2026-03-25 · **Updated:** 2026-07-01 PM (de-OpenClaw refresh executed — hygiene pass, Will-approved: stale TOSCANINI/OpenClaw capability examples replaced, dead pointers re-anchored, change log brought current; earlier 7/1: git/commit/push autonomy explicitly ceded to root `CLAUDE.md` Git Protocol)
+**Created:** 2026-03-25 · **Updated:** 2026-08-09 (spine-audit #8: header git note DEMOTED to a bare pointer per the 8/9 T1-a census pattern — its restated copy carried the pre-8/3 non-ff rule [no `--autostash`, plus the retired "simultaneous-use signature" escalation class that produced a false escalation, CORAL 8/3]; a reader acting on it would falsely escalate routine concurrent pushes. Scope manifest: header note + this stamp only.) Prior: 2026-07-01 PM (de-OpenClaw refresh; git/commit/push autonomy explicitly ceded to root `CLAUDE.md` Git Protocol)
 **Purpose:** What Prome can do without asking, what needs approval, and the gray zone.
 
-> **Git / commit / push autonomy is owned by root `CLAUDE.md` Git Protocol** (auto-push at closeout via ff-gated `safe-push.sh`; non-ff abort = **routine** under serial multi-machine — `git pull --rebase` + re-push, escalate only on simultaneous-use signatures), **not this doc** — don't re-add a git rule here. This file owns the *general* Tier 1/2/3 logic below.
+> **Git / commit / push autonomy is owned by root `CLAUDE.md` Git Protocol** (auto-injected canon — recovery commands and escalation conditions live THERE, deliberately not restated here; demoted to pointer 8/9, spine-audit #8), **not this doc** — don't re-add a git rule here. This file owns the *general* Tier 1/2/3 logic below.
 > *(The March-era OpenClaw staleness warning is retired — this file was de-OpenClaw refreshed 2026-07-01. Tier logic unchanged; capability examples now current.)*
 
 ---

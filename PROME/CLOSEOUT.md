@@ -116,7 +116,7 @@ Update only the owner doc whose state actually changed:
 - **1b orphan check:** `bash scripts/orphan_check.sh PROME` — `[likely YOURS]` → commit per carve-out ① (⚠️ `memory/auto/` files PROME wrote are path-classified `[not yours]` but carve-out ③ makes committing them MANDATORY).
 - **1c consumer check** (if a published number was superseded): `python3 scripts/consumer_check.py --agent PROME --old <old> --new <new>` → packet each 🔴 owner, never edit their files.
 - **1d memory-index check** (if auto-memory written): `python3 scripts/memory_index_check.py --strict --slug <slug>` — the `--slug` form, never bare `--strict`.
-- **1e claim check:** `python3 scripts/claim_check.py` — **rc=1 means LOOK, not find-replace** (its first live flag was a *correct* prior-year date). Known limits: can't tell mention from use; cross-repo hashes read `missing`; placeholders flag.
+- **1e claim check** (canon scope, root 1e): `python3 scripts/claim_check.py --check weekday PROME/DOCKET.tsv PROME/GATES.tsv PROME/WILL_QUEUE.md PROME/STATUS.md` — the measured decision-class scope; a bare no-args run is a *different*, broader check (changed-files, all classes) and fine as an extra, not a substitute *(scope drift fixed 8/9, audit #8)*. **rc=1 means LOOK, not find-replace** (its first live flag was a *correct* prior-year date). Known limits: can't tell mention from use; cross-repo hashes read `missing`; placeholders flag.
 
 ```
 cd "$(git rev-parse --show-toplevel)"                    # ⚠️ STEP 0: ALL git ops + safe-push from repo root —

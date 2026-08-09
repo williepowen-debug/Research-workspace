@@ -106,7 +106,7 @@ git add -- PROME/<newfile>
 git commit -m "PROME: <subject>" -- PROME/<modified> PROME/<newfile>
 ```
 
-Push is auto at closeout via ff-gated `scripts/safe-push.sh` (see Push Discipline below + root `CLAUDE.md` Git Protocol). Non-ff abort = **routine** (usually a concurrent same-box session, not the other machine — see Push Discipline; serial multi-machine): don't force — `git pull --rebase` + re-push; escalate to Will only on the tripwire signatures in Push Discipline. Shared/root-doc commits still need Will scope.
+Push is auto at closeout via ff-gated `scripts/safe-push.sh` (see Push Discipline below + root `CLAUDE.md` Git Protocol). Non-ff abort = **routine** (usually a concurrent same-box session, not the other machine — see Push Discipline; serial multi-machine): don't force — `git pull --rebase --autostash` + re-push (full form + caveats in Push Discipline below); escalate to Will only on the tripwire signatures in Push Discipline. Shared/root-doc commits still need Will scope.
 
 ## Push Discipline
 

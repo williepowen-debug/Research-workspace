@@ -45,7 +45,8 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[2]
 
 GATES_STATES = ("LIVE", "FIRED-UNEXECUTED", "RESOLVED", "LAPSED", "RETIRED")
-GATES_AGE_DAYS = 5          # BOOT step-3 rule: LIVE row last_checked >5d → refresh/flag
+# GATES_AGE_DAYS retired 8/9 — the >5d raw-age rule was RETIRED by the 8/7
+# consumed_by ruling (forum S2/ABN, Will-adopted); staleness keys on consumed_by.
 DASH_STALE_HOURS = 72       # dashboard self-declares red past this
 
 BLOCK, ADVISE = "BLOCKING", "advisory"
@@ -88,19 +89,26 @@ def check_gates_tsv():
             bad_tokens.append(f"{gate} leads '{lead[:20]}'")
         if state.startswith("FIRED-UNEXECUTED"):
             fired.append(gate)
-        if state.startswith("LIVE") and len(r) > 6:
-            m = re.match(r"(\d{4}-\d{2}-\d{2})", r[6])
-            if m:
-                age = (today - dt.date.fromisoformat(m.group(1))).days
-                if age > GATES_AGE_DAYS:
-                    stale_live.append(f"{gate} {age}d")
+        if state.startswith("LIVE"):
+            # consumed_by discipline (forum S2/ABN ruling 8/7, Will-adopted; check
+            # re-keyed 8/9 — spine-audit #8 found the ruling propagated to none of
+            # its three surfaces): staleness keys on the consumed_by field, NOT raw
+            # last_checked age (that >5d rule is RETIRED — it over-reported by design;
+            # a LIVE row with a future consumer or PRICE:/EVENT:/NONE is quiet).
+            cb = r[8] if len(r) > 8 else ""
+            m = re.match(r"(\d{4}-\d{2}-\d{2})", cb)
+            if m and dt.date.fromisoformat(m.group(1)) < today:
+                stale_live.append(f"{gate} consumer-date {m.group(1)} passed")
+            elif not cb.strip():
+                stale_live.append(f"{gate} consumed_by EMPTY (required since 8/7)")
     record(BLOCK, "GATES fired-unexecuted", not fired,
            "; ".join(fired) or "none", "PROME/GATES.tsv (clear or escalate SAME session)")
     record(BLOCK, "GATES token vocabulary", not bad_tokens,
            "; ".join(bad_tokens) or f"{len(rows)} rows all lead with enumerated tokens",
            "PROME/GATES.tsv header STATES line")
-    record(ADVISE, f"GATES live-row age ≤{GATES_AGE_DAYS}d", not stale_live,
-           "; ".join(stale_live) or "all fresh", "PROME/GATES.tsv (refresh or flag owner)")
+    record(ADVISE, "GATES consumed_by (consumer passed / cell empty)", not stale_live,
+           "; ".join(stale_live) or "all LIVE rows have live consumers or declared NONE",
+           "PROME/GATES.tsv (resolve at the consumer, re-date, or declare NONE)")
 
 
 def check_docket_overdue():

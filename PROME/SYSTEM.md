@@ -26,7 +26,7 @@ Core rule:
 
 *(`AGENTS.md` + `USER.md` are **explicit boot-reads**, not injected — see the next table. `SOUL.md` + `IDENTITY.md` were deleted root-level in the 2026-06-30 public-prep cleanup.)*
 
-> ⚠️ **`HEARTBEAT.md` is NOT injected (OpenClaw vestige).** It was auto-loaded under the always-on VPS model; in Claude Code it is NOT in PROME's boot context — PROME must explicitly `Read` it. It is a **PROME-facing regime memo only**: PROME writes it, PROME reads it. Domain agents (incl. NEXUS) do **not** boot-read it (verified 2026-06-27: 19/20 agent CLAUDE.md have zero HEARTBEAT references). See `BOOT.md`'s market-data freshness gate.
+> ⚠️ **`HEARTBEAT.md` is NOT injected (OpenClaw vestige).** It was auto-loaded under the always-on VPS model; in Claude Code it is NOT in PROME's boot context — PROME must explicitly `Read` it. It is a **PROME-facing regime memo only**: PROME writes it, PROME reads it. Domain agents (incl. NEXUS) do **not** boot-read it (verified 2026-06-27: 19/20 agent CLAUDE.md had zero HEARTBEAT references — ⚠️ a ~20-agent-era census; the 2026-07 cohort [WATT/VULCAN/MIDAS/OSPREY/FALCON/HOMER/WAL] was never censused. The rule stands by design, but re-verify the count before citing it as evidence — flagged 8/9, audit #8). See `BOOT.md`'s market-data freshness gate.
 
 ### Read at boot / when resuming
 
@@ -177,7 +177,7 @@ Default to compact tool output so long sessions don't bloat the transcript. *(Re
 - Read targeted excerpts before whole files: prefer bounded `read`, `sed -n '1,120p'`, or focused greps.
 - For large diffs, show stat/name-only first; print hunks only for files being actively reviewed.
 - For generated reports/artifacts, write to file and summarize rather than pasting full content into chat.
-- For agent freshness checks, use mtimes + headers/top sections first; deep-read only when decision-relevant.
+- For agent freshness checks, read **content vintage first** — the file's own `Updated:`/two-clock header — never mtime-first (git sync restamps mtimes toward false-fresh, `[[finding_mtime_is_corrupted_by_git_sync]]`; bullet re-based 8/9, audit #8); deep-read only when decision-relevant.
 - Escalate freely to full reads/diffs when correctness, safety, or editing requires it. This is a default, not a blind constraint.
 
 ---
