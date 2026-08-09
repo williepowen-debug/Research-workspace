@@ -1,418 +1,179 @@
-<title>The Mid-July Convergence</title>
+<title>The Mid-July Convergence — Frozen Scorecard</title>
 <style>
-  :root{
-    --bg:#0d1117; --panel:#151b22; --panel2:#1b232c; --line:#28323d;
-    --ink:#e7eef5; --ink2:#9aa7b4; --ink3:#6c7783;
-    --accent:#eaa63f;            /* the hinge / signal — used sparingly */
-    --sev-crit:#f0503a; --sev-high:#f2870d; --sev-med:#e3bf46; --sev-low:#46b17e;
-    --ax-rates:#5b8def; --ax-credit:#b57bef; --ax-labor:#25b7a4; --ax-ai:#e069b0; --ax-energy:#c1934f;
-    --shadow:0 1px 0 rgba(0,0,0,.4), 0 8px 24px -12px rgba(0,0,0,.5);
-    --serif:Georgia,"Times New Roman",serif;
-    --sans:system-ui,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
-    --mono:ui-monospace,"SF Mono","Cascadia Code",Menlo,Consolas,monospace;
+  :root {
+    --bg: #f6f7f4;
+    --card: #ffffff;
+    --ink: #212836;
+    --muted: #5b6472;
+    --line: #d8dcd4;
+    --accent: #3d5a80;
+    --benign: #4a7c59;
+    --benign-bg: #eaf2ec;
+    --fired: #a05e1a;
+    --fired-bg: #f7eede;
+    --neutral: #6b7280;
+    --neutral-bg: #eef0f2;
+    --stamp: #8a2f2f;
+    --stamp-bg: #f6e9e9;
   }
-  @media (prefers-color-scheme: light){
-    :root{
-      --bg:#f4f6f8; --panel:#ffffff; --panel2:#eef1f5; --line:#dbe1e8;
-      --ink:#141b23; --ink2:#525d6a; --ink3:#8b96a2;
-      --accent:#b9741a;
-      --sev-crit:#d63a2a; --sev-high:#d0700a; --sev-med:#b08a12; --sev-low:#2f9767;
-      --ax-rates:#3567c9; --ax-credit:#8a48c7; --ax-labor:#0e8f80; --ax-ai:#c0468b; --ax-energy:#9a6f2c;
-      --shadow:0 1px 2px rgba(20,30,45,.06), 0 10px 26px -16px rgba(20,30,45,.28);
+  :root:not([data-theme="light"]) { }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #15181d; --card: #1c2027; --ink: #dde1e6; --muted: #99a1ad;
+      --line: #333a44; --accent: #82a5c9; --benign: #7fb08d; --benign-bg: #22302a;
+      --fired: #cf9a55; --fired-bg: #33291c; --neutral: #9aa1ab; --neutral-bg: #262b32;
+      --stamp: #d98282; --stamp-bg: #332222;
     }
   }
-  :root[data-theme="dark"]{
-    --bg:#0d1117; --panel:#151b22; --panel2:#1b232c; --line:#28323d;
-    --ink:#e7eef5; --ink2:#9aa7b4; --ink3:#6c7783; --accent:#eaa63f;
-    --sev-crit:#f0503a; --sev-high:#f2870d; --sev-med:#e3bf46; --sev-low:#46b17e;
-    --ax-rates:#5b8def; --ax-credit:#b57bef; --ax-labor:#25b7a4; --ax-ai:#e069b0; --ax-energy:#c1934f;
-    --shadow:0 1px 0 rgba(0,0,0,.4), 0 8px 24px -12px rgba(0,0,0,.5);
+  :root[data-theme="dark"] {
+    --bg: #15181d; --card: #1c2027; --ink: #dde1e6; --muted: #99a1ad;
+    --line: #333a44; --accent: #82a5c9; --benign: #7fb08d; --benign-bg: #22302a;
+    --fired: #cf9a55; --fired-bg: #33291c; --neutral: #9aa1ab; --neutral-bg: #262b32;
+    --stamp: #d98282; --stamp-bg: #332222;
   }
-  :root[data-theme="light"]{
-    --bg:#f4f6f8; --panel:#ffffff; --panel2:#eef1f5; --line:#dbe1e8;
-    --ink:#141b23; --ink2:#525d6a; --ink3:#8b96a2; --accent:#b9741a;
-    --sev-crit:#d63a2a; --sev-high:#d0700a; --sev-med:#b08a12; --sev-low:#2f9767;
-    --ax-rates:#3567c9; --ax-credit:#8a48c7; --ax-labor:#0e8f80; --ax-ai:#c0468b; --ax-energy:#9a6f2c;
-    --shadow:0 1px 2px rgba(20,30,45,.06), 0 10px 26px -16px rgba(20,30,45,.28);
-  }
-
-  *{box-sizing:border-box}
-  body{background:var(--bg);color:var(--ink);font-family:var(--sans);line-height:1.5;
-    -webkit-font-smoothing:antialiased;margin:0;}
-  .wrap{max-width:1080px;margin:0 auto;padding:40px 22px 90px;}
-
-  /* ---- header ---- */
-  .eyebrow{font-family:var(--mono);font-size:11.5px;letter-spacing:.22em;text-transform:uppercase;
-    color:var(--ink3);display:flex;gap:10px;align-items:center;flex-wrap:wrap;}
-  .eyebrow .dot{width:6px;height:6px;border-radius:50%;background:var(--accent);box-shadow:0 0 0 3px color-mix(in srgb,var(--accent) 22%,transparent);}
-  h1{font-family:var(--serif);font-weight:700;letter-spacing:-.01em;line-height:1.02;
-    font-size:clamp(34px,6vw,60px);margin:14px 0 6px;text-wrap:balance;}
-  h1 em{font-style:italic;color:var(--accent);}
-  .lede{color:var(--ink2);font-size:clamp(15px,2vw,17.5px);max-width:64ch;margin:0 0 4px;}
-  .meta{font-family:var(--mono);font-size:12px;color:var(--ink3);margin-top:14px;display:flex;gap:16px;flex-wrap:wrap;}
-  .meta b{color:var(--ink2);font-weight:600;}
-
-  /* ---- model band ---- */
-  .band{display:grid;grid-template-columns:1.15fr 1fr;gap:14px;margin:30px 0 8px;}
-  @media(max-width:720px){.band{grid-template-columns:1fr;}}
-  .card{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:18px 18px 16px;box-shadow:var(--shadow);}
-  .card h3{margin:0 0 10px;font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--ink3);font-weight:700;}
-  .hinge{border-color:color-mix(in srgb,var(--accent) 45%,var(--line));
-    background:linear-gradient(180deg,color-mix(in srgb,var(--accent) 9%,var(--panel)),var(--panel));}
-  .hinge .big{font-family:var(--serif);font-size:23px;line-height:1.15;margin:2px 0 8px;}
-  .hinge .big b{color:var(--accent);}
-  .hinge p{margin:0;color:var(--ink2);font-size:13.5px;}
-  .hinge .trg{font-family:var(--mono);font-size:12px;color:var(--ink);background:var(--panel2);
-    border:1px solid var(--line);border-radius:7px;padding:7px 9px;margin-top:11px;}
-  .fork{display:flex;flex-direction:column;gap:10px;}
-  .scn{display:flex;gap:11px;align-items:flex-start;font-size:13.5px;}
-  .scn .tag{font-family:var(--mono);font-size:10.5px;font-weight:700;letter-spacing:.05em;padding:3px 7px;border-radius:5px;white-space:nowrap;margin-top:1px;}
-  .scn.bear .tag{color:#fff;background:var(--sev-crit);}
-  .scn.base .tag{color:var(--bg);background:var(--sev-low);}
-  .scn span{color:var(--ink2);}
-  .scn b{color:var(--ink);}
-
-  .disc{font-size:12.5px;color:var(--ink3);margin:16px 2px 0;border-left:2px solid var(--line);padding-left:12px;}
-  .disc b{color:var(--ink2);}
-
-  /* ---- controls / legend ---- */
-  .controls{position:sticky;top:0;z-index:5;background:color-mix(in srgb,var(--bg) 88%,transparent);
-    backdrop-filter:blur(8px);border-bottom:1px solid var(--line);margin:26px -22px 6px;padding:12px 22px;
-    display:flex;gap:8px;flex-wrap:wrap;align-items:center;}
-  .controls .lbl{font-family:var(--mono);font-size:10.5px;letter-spacing:.14em;text-transform:uppercase;color:var(--ink3);margin-right:2px;}
-  .fbtn{font-family:var(--sans);font-size:12px;font-weight:600;color:var(--ink2);cursor:pointer;
-    background:var(--panel);border:1px solid var(--line);border-radius:20px;padding:5px 12px 5px 10px;
-    display:inline-flex;align-items:center;gap:7px;transition:all .15s;}
-  .fbtn:hover{border-color:var(--ink3);color:var(--ink);}
-  .fbtn .sw{width:9px;height:9px;border-radius:50%;background:var(--c);}
-  .fbtn[aria-pressed="true"]{background:color-mix(in srgb,var(--c) 16%,var(--panel));border-color:var(--c);color:var(--ink);}
-  .fbtn:focus-visible{outline:2px solid var(--accent);outline-offset:2px;}
-  .fbtn.reset{color:var(--ink3);}
-
-  /* ---- timeline ---- */
-  .phase{margin-top:30px;}
-  .phase-h{display:flex;align-items:baseline;gap:14px;flex-wrap:wrap;padding:0 2px 12px;border-bottom:1px solid var(--line);}
-  .phase-h .kn{font-family:var(--mono);font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--ink3);}
-  .phase-h h2{font-family:var(--serif);font-size:22px;margin:0;font-weight:700;letter-spacing:-.01em;}
-  .phase-h .rng{font-family:var(--mono);font-size:12px;color:var(--ink3);margin-left:auto;}
-  .phase.knot .phase-h h2{color:var(--accent);}
-  .phase.knot .phase-h{border-color:color-mix(in srgb,var(--accent) 40%,var(--line));}
-  .phase.knot .phase-h .kn{color:var(--accent);}
-
-  .row{display:grid;grid-template-columns:74px 1fr;gap:0;border-bottom:1px solid var(--line);}
-  .row:last-child{border-bottom:none;}
-  .date{font-family:var(--mono);font-size:12.5px;color:var(--ink2);padding:15px 10px 15px 2px;font-variant-numeric:tabular-nums;
-    border-right:1px solid var(--line);letter-spacing:-.01em;white-space:nowrap;}
-  .date small{display:block;color:var(--ink3);font-size:10.5px;letter-spacing:.02em;margin-top:2px;}
-  .ev{padding:13px 4px 13px 15px;border-left:3px solid var(--sv);position:relative;transition:opacity .18s;}
-  .ev .top{display:flex;align-items:baseline;gap:9px;flex-wrap:wrap;}
-  .ev .name{font-size:14.5px;font-weight:600;color:var(--ink);letter-spacing:-.005em;}
-  .ev.star .name::before{content:"★";color:var(--accent);margin-right:6px;font-size:12px;vertical-align:1px;}
-  .pill{font-family:var(--mono);font-size:9.5px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;
-    padding:2px 6px;border-radius:4px;color:var(--ax);background:color-mix(in srgb,var(--ax) 15%,transparent);
-    border:1px solid color-mix(in srgb,var(--ax) 32%,transparent);white-space:nowrap;}
-  .xtag{font-family:var(--mono);font-size:9.5px;font-weight:700;letter-spacing:.05em;padding:2px 6px;border-radius:4px;
-    color:var(--ink2);background:var(--panel2);border:1px solid var(--line);white-space:nowrap;}
-  .ev .watch{font-size:13px;color:var(--ink2);margin:5px 0 0;max-width:74ch;}
-  .ev .watch b{color:var(--ink);font-weight:600;}
-  .ev .own{font-family:var(--mono);font-size:10.5px;color:var(--ink3);margin-top:5px;letter-spacing:.03em;}
-  .ev.dim{opacity:.16;}
-
-  footer{margin-top:44px;padding-top:18px;border-top:1px solid var(--line);font-size:12px;color:var(--ink3);font-family:var(--mono);line-height:1.7;}
-  footer b{color:var(--ink2);}
-  /* ---- tabs ---- */
-  .tabs{display:flex;gap:2px;margin:26px 0 2px;border-bottom:1px solid var(--line);}
-  .tab{font-family:var(--sans);font-size:14px;font-weight:600;color:var(--ink3);cursor:pointer;background:none;
-    border:none;border-bottom:2px solid transparent;padding:10px 16px;margin-bottom:-1px;transition:color .15s,border-color .15s;}
-  .tab:hover{color:var(--ink);}
-  .tab[aria-selected="true"]{color:var(--ink);border-bottom-color:var(--accent);}
-  .tab:focus-visible{outline:2px solid var(--accent);outline-offset:2px;border-radius:4px;}
-  .panel[hidden]{display:none;}
-
-  /* ---- calendar (Month view) ---- */
-  .cal-intro{color:var(--ink2);font-size:14.5px;line-height:1.55;max-width:72ch;margin:22px 0 14px;}
-  .cal-intro b{color:var(--ink);}
-  .cal-legend{display:flex;gap:16px;flex-wrap:wrap;font-family:var(--mono);font-size:11px;color:var(--ink3);margin-bottom:14px;}
-  .cal-legend span{display:inline-flex;align-items:center;gap:6px;}
-  .cal-legend .d{width:8px;height:8px;border-radius:50%;}
-  .cal-scroll{overflow-x:auto;padding-bottom:4px;}
-  table.cal{width:100%;min-width:820px;border-collapse:separate;border-spacing:0;table-layout:fixed;}
-  table.cal th.dow{font-family:var(--mono);font-size:10px;letter-spacing:.16em;text-transform:uppercase;color:var(--ink3);
-    text-align:left;padding:4px 9px 8px;font-weight:600;width:14.28%;}
-  table.cal td{vertical-align:top;border:1px solid var(--line);height:118px;padding:7px 8px;background:var(--panel);}
-  table.cal td.wknd{background:var(--panel2);}
-  table.cal td.off{background:transparent;border-color:color-mix(in srgb,var(--line) 45%,transparent);}
-  table.cal td.off .dnum{opacity:.4;}
-  .chead{display:flex;justify-content:space-between;align-items:baseline;margin-bottom:6px;gap:6px;}
-  .dnum{font-family:var(--mono);font-size:13px;font-weight:600;color:var(--ink2);font-variant-numeric:tabular-nums;white-space:nowrap;}
-  .knotlabel{font-family:var(--mono);font-size:8.5px;letter-spacing:.1em;text-transform:uppercase;color:var(--accent);font-weight:700;white-space:nowrap;}
-  table.cal td.marquee{border-color:color-mix(in srgb,var(--accent) 48%,var(--line));
-    background:linear-gradient(180deg,color-mix(in srgb,var(--accent) 13%,var(--panel)),var(--panel));
-    box-shadow:inset 0 0 0 1px color-mix(in srgb,var(--accent) 22%,transparent);}
-  table.cal td.marquee .dnum{color:var(--accent);}
-  .cev{display:flex;gap:6px;align-items:flex-start;font-size:11px;line-height:1.3;color:var(--ink2);margin-top:5px;}
-  .cev .cd{width:6px;height:6px;border-radius:50%;background:var(--csv);flex:none;margin-top:4px;}
-  .cev.big{color:var(--ink);font-weight:600;}
-  @media (prefers-reduced-motion: reduce){*{transition:none !important;}}
+  body { background: var(--bg); color: var(--ink); margin: 0;
+         font: 16px/1.55 "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, serif; }
+  main { max-width: 46rem; margin: 0 auto; padding: 2.5rem 1.25rem 4rem; }
+  .stamp { display: inline-block; border: 2px solid var(--stamp); color: var(--stamp);
+           background: var(--stamp-bg); padding: .3rem .7rem; font: 700 .8rem/1.2 ui-monospace, "SF Mono", Consolas, monospace;
+           letter-spacing: .08em; text-transform: uppercase; transform: rotate(-1deg); border-radius: 2px; }
+  h1 { font-size: 1.9rem; line-height: 1.2; margin: 1rem 0 .25rem; text-wrap: balance; }
+  .sub { color: var(--muted); font-size: .95rem; margin: 0 0 1.5rem; }
+  h2 { font-size: 1.05rem; letter-spacing: .05em; text-transform: uppercase;
+       font-family: ui-sans-serif, system-ui, sans-serif; color: var(--accent);
+       border-bottom: 1px solid var(--line); padding-bottom: .35rem; margin: 2.2rem 0 .8rem; }
+  .headline { background: var(--card); border: 1px solid var(--line); border-left: 4px solid var(--accent);
+              padding: 1rem 1.2rem; border-radius: 4px; margin: 1.2rem 0; }
+  .headline p { margin: .4rem 0; }
+  table { width: 100%; border-collapse: collapse; font-family: ui-sans-serif, system-ui, sans-serif;
+          font-size: .88rem; background: var(--card); border: 1px solid var(--line); border-radius: 4px; }
+  .tablewrap { overflow-x: auto; margin: .8rem 0; }
+  th { text-align: left; font-size: .72rem; text-transform: uppercase; letter-spacing: .06em;
+       color: var(--muted); padding: .5rem .7rem; border-bottom: 1px solid var(--line); }
+  td { padding: .5rem .7rem; border-bottom: 1px solid var(--line); vertical-align: top; }
+  tr:last-child td { border-bottom: none; }
+  .chip { display: inline-block; font: 600 .7rem/1.4 ui-monospace, "SF Mono", Consolas, monospace;
+          padding: .1rem .5rem; border-radius: 99px; white-space: nowrap; }
+  .c-benign { color: var(--benign); background: var(--benign-bg); }
+  .c-fired  { color: var(--fired);  background: var(--fired-bg); }
+  .c-na     { color: var(--neutral); background: var(--neutral-bg); }
+  .date { font: 500 .8rem/1.5 ui-monospace, "SF Mono", Consolas, monospace; color: var(--muted); white-space: nowrap; }
+  .foot { color: var(--muted); font-size: .85rem; border-top: 1px solid var(--line);
+          margin-top: 2.5rem; padding-top: 1rem; }
+  .gap { background: var(--fired-bg); border: 1px solid var(--line); border-left: 4px solid var(--fired);
+         padding: 1rem 1.2rem; border-radius: 4px; }
+  em.q { font-style: italic; color: var(--muted); }
 </style>
+<main>
+  <span class="stamp">Frozen scorecard · 2026-08-09 · historical record</span>
+  <h1>The Mid-July Convergence</h1>
+  <p class="sub">Pre-registered 2026-07-05/06 · graded 2026-08-09 · nothing on this page is live state.
+     Canonical dated rows were <code>PROME/DOCKET.tsv</code> throughout; this page is the node's tombstone.</p>
 
-<div class="wrap">
-  <div class="eyebrow"><span class="dot"></span> Fleet catalyst convergence map · systemic-risk desk</div>
-  <h1>The Mid-July <em>Convergence</em></h1>
-  <p class="lede">Roughly fifty dated catalysts land in one four-week window. This is the shape of it — what fires, when, and the single condition that decides whether any of it matters.</p>
-  <div class="meta">
-    <span><b>Window</b> 6 Jul – 8 Aug 2026</span>
-    <span><b>As of</b> Mon 6 Jul — 7/6 prints resolved</span>
-    <span><b>View, not canon</b> — canonical dates live in each agent's ledger + PROME/DOCKET.tsv</span>
+  <div class="headline">
+    <p><strong>The verdict the node pre-registered for itself came true: it passed benign.</strong>
+       The hinge (June CPI, 7/14) printed the energy-washout cool trough; duration caught a bid, the bank
+       prints read benign, the gamma tripwire never armed, and the credit-bear stayed armed-but-unfired
+       through the window — the BASE/pass scenario, essentially as written.</p>
+    <p><strong>The honest headline is what the node did not contain:</strong> the month's biggest event —
+       the formal Hormuz closure of 7/11–12, the energy 🔴 re-arm confirmed 7/16, and the first live
+       capital deployed 7/20 — <strong>entered from outside the pre-registration entirely.</strong>
+       The node watched CPI, banks, and the rates demand-hole; the regime-mover was the war theater,
+       for which it had no knot. <em class="q">(A second post-script: the HY&gt;280 credit level leg did
+       eventually confirm — on 7/31, after the node's window closed, and bank-absent in attribution.)</em></p>
   </div>
 
-  <div class="tabs" role="tablist">
-    <button class="tab" role="tab" aria-selected="true" data-tab="timeline">Timeline</button>
-    <button class="tab" role="tab" aria-selected="false" data-tab="calendar">Month view</button>
+  <h2>Knot 1 — Tue 7/14 · the hinge</h2>
+  <div class="tablewrap"><table>
+    <tr><th>Pre-registered</th><th>Outcome</th><th>Verdict</th></tr>
+    <tr><td>June CPI — hot core promotes the node; soft → it passes</td>
+        <td>Cool trough; the energy washout showed. Node not promoted.</td>
+        <td><span class="chip c-benign">PASS-BENIGN</span></td></tr>
+    <tr><td>Big-bank kickoff JPM/WFC/C same morning ("compound vol")</td>
+        <td>Benign prints; no compound-vol event.</td>
+        <td><span class="chip c-benign">PASS-BENIGN</span></td></tr>
+    <tr><td>Gamma tripwire — CPI gap under the 7,437–7,471 flip re-arms −GEX</td>
+        <td>Never tripped; SPX held above the flip through the window.</td>
+        <td><span class="chip c-benign">NOT-FIRED</span></td></tr>
+  </table></div>
+
+  <h2>Knot 2 — 7/16 &amp; 7/21–22 · demand-hole + credit super-cluster</h2>
+  <div class="tablewrap"><table>
+    <tr><th>Pre-registered</th><th>Outcome</th><th>Verdict</th></tr>
+    <tr><td>May TIC (China sub-$650B / composition test)</td>
+        <td>Released 7/14; graded 7/16 as TRY-FIRE-004 arm-#3: mechanical sign-test fire (China −$0.1B / Japan −$2.8B), economically flat, deepen-only.</td>
+        <td><span class="chip c-fired">FIRED-WEAK</span></td></tr>
+    <tr><td>WAL Q2 (7/21 AMC) — bank-put (c) fire gate</td>
+        <td>REGINALD Stage-1: ex-fraud NCO 37bps NEUTRAL; REG-26 DISCONFIRMED; leg resolved NOT-FIRED 7/21.</td>
+        <td><span class="chip c-benign">NOT-FIRED</span></td></tr>
+    <tr><td>OZK / ALLY / FL State Emp / LPR / BoK / SYF / COF / 40Y JGB / GOOGL</td>
+        <td>All printed inside the window without firing a node trigger; ALLY pin held (benign morning print); LPR graded and closed; the Meiji demand-floor had already confirmed real flow at the 7/7 30Y JGB (BTC 4.55×).</td>
+        <td><span class="chip c-benign">PASS-BENIGN</span></td></tr>
+  </table></div>
+
+  <h2>Knot 3 — 7/23–29 · realization, marks, Fed</h2>
+  <div class="tablewrap"><table>
+    <tr><th>Pre-registered</th><th>Outcome</th><th>Verdict</th></tr>
+    <tr><td>LAB-17 claims 7/23 + 7/30 (WARN conversion, 4wk-MA ≥235K)</td>
+        <td>Stayed sub-escalation through the window; no conversion fire.</td>
+        <td><span class="chip c-benign">NOT-FIRED</span></td></tr>
+    <tr><td>BDC marks 7/25–28 · ARCC 7/28 (first top-tier wrapper read)</td>
+        <td>The wrapper half had already graded LAGS/NOT-FIRING pre-node (BROCK, 7/4, triple-validated); the marks window passed without a wrapper-led fire; T-15 graded on TERMS, not NAVs.</td>
+        <td><span class="chip c-benign">NOT-FIRED</span></td></tr>
+    <tr><td>First Brands Ch.7 confirmation ~7/28</td>
+        <td>Filed 7/28; GATE-BRK-C1 later resolved 🟠 ORANGE (the wrong ~8/7 date on both surfaces was owned on the GATES row).</td>
+        <td><span class="chip c-fired">FIRED-ORANGE</span></td></tr>
+    <tr><td>FOMC 7/28–29 (dots-vs-pricing)</td>
+        <td>Hawkish hold, 9–3. The long end did not break.</td>
+        <td><span class="chip c-na">RESOLVED</span></td></tr>
+    <tr><td>Hyperscaler Q2 FCF 7/29–31 (HEN-36 capex-cliff confirm)</td>
+        <td>HEN-36 confirmed 4-of-4 — but the equity de-rate leg falsified 2-2; thesis migrated to its credit face (LIQUID/VULCAN).</td>
+        <td><span class="chip c-fired">SPLIT</span></td></tr>
+  </table></div>
+
+  <h2>Tail — 7/30–8/8 · BOJ + the August read</h2>
+  <div class="tablewrap"><table>
+    <tr><th>Pre-registered</th><th>Outcome</th><th>Verdict</th></tr>
+    <tr><td>BOJ MPM + FY2027 plan 7/31</td>
+        <td>As-priced; no node trigger.</td>
+        <td><span class="chip c-benign">PASS-BENIGN</span></td></tr>
+    <tr><td>Aug freeze read: ISM 8/3 · JOLTS 8/4 · NFP-July 8/7</td>
+        <td>NFP −23K — first negative print of the cycle (revisions −103K) — yet LABOR's frozen card graded it structural/measurement, not cyclical: matrix 32/75, T-06 correctly NOT fired. The freeze deepened without firing a cyclical kill.</td>
+        <td><span class="chip c-fired">PRINTED-NEGATIVE / NO-KILL</span></td></tr>
+  </table></div>
+
+  <h2>Scenario grade</h2>
+  <div class="tablewrap"><table>
+    <tr><th>Scenario</th><th>Grade</th></tr>
+    <tr><td><strong>BASE / pass</strong> — CPI shows the washout, duration bid, banks fine, marks maskable, credit-bear armed-but-unfired</td>
+        <td><span class="chip c-benign">REALIZED</span> — essentially as written</td></tr>
+    <tr><td><strong>BEAR fire</strong> — hot CPI → duration cracks → credit substance → consumer/regional transmission</td>
+        <td><span class="chip c-na">DID NOT OCCUR</span> in the window</td></tr>
+  </table></div>
+
+  <h2>What the tracker itself got wrong</h2>
+  <div class="gap">
+    <p><strong>The tracker stopped being maintained after 7/9</strong> — a stale-vintage warning was bolted on
+    7/20, and its own "retire ~8/1" instruction was honored 2026-08-09, eight days late, by the deletion pass
+    that produced this page. The four pre-load packets (A: NEXUS correlation-collapse · B: BROCK bank→BDC ·
+    C: SAM+ZHAO demand-hole · D: HENRY FCF pre-load) returned into <em>owner surfaces</em> — C's joint read
+    landed 7/9, D graded at the hyperscaler prints, HENRY's GCVR codified out of the window's risk analysis —
+    but the tracker never folded a single return. Lesson, already canon:
+    a view surface that duplicates canonical rows rots the moment attention moves; DOCKET remained correct
+    throughout while this page's predecessor drifted.</p>
   </div>
 
-  <div id="tab-timeline" class="panel">
-  <div class="band">
-    <div class="card hinge">
-      <h3>The hinge</h3>
-      <div class="big"><b>June CPI — Tue 14 Jul.</b> Everything upstream is prologue; everything downstream reads off it.</div>
-      <p>The first inflation print with June's Brent-$71 energy collapse in it — and it lands the same morning as the big-bank earnings kickoff, on a razor-thin gamma cushion.</p>
-      <div class="trg">▶ PROMOTION TRIGGER — a <b>hot</b> core CPI promotes this whole node from background to active bandwidth. A <b>soft</b> print and it likely passes benign, like the X1 gate did.</div>
-    </div>
-    <div class="card">
-      <h3>The two-outcome fork</h3>
-      <div class="fork">
-        <div class="scn bear"><span class="tag">FIRE</span><span><b>Hot CPI</b> → duration cracks (10Y → 4.8, gamma flips negative) → the 21st &amp; 28th credit prints show <b>substance</b> → transmission finally arrives, via the consumer/regional path — not the HY/wrapper path X1 was watching.</span></div>
-        <div class="scn base"><span class="tag">PASS</span><span><b>Soft CPI</b> → the energy washout shows, duration catches a bid, banks fine, marks maskable on shrinking bases → node passes; the credit-bear stays armed but unfired.</span></div>
-      </div>
-    </div>
-  </div>
+  <h2>What survived the node</h2>
+  <p>Durable artifacts born inside it: the <strong>TRY-FIRE-004 duration card</strong> (pre-built 7/6 on the
+  node's own discriminator ranking; armed 7/13, first live capital 7/20) · <strong>HENRY's Gamma-Cushion
+  Validity Rule</strong> (+GEX cushions only on-axis moves; off-axis duration shocks get zero offset) ·
+  the <strong>one-root discipline</strong> (China/Korea/JGB/US-long-end = one term-premium overlay, not 3–4
+  votes — the X1 lesson applied forward) · the JGB-7/7 → 10Y-7/8 → 30Y-7/9 sequencing read, reconciled
+  across SAM/BOND/LIQUID.</p>
 
-  <p class="disc"><b>Convergence discipline —</b> the credit-recognition prints (banks 14th → OZK/ALLY/SYF/COF 21st → BDC/ARCC/First-Brands 28th) are <b>one correlated axis with three at-bats, not a dozen independent votes.</b> And the overlays are fewer than they look: <b>the rates/long-end demand-hole is ONE term-premium root</b> — China/Korea flows, the JGB gauntlet, and the US-30Y are correlated expressions, not separate votes (7/6 x-domain synthesis graded the "4-way convergence" a pre-armed watch, not a thread). So the genuinely independent axes are just four: the <b>rates demand-hole</b>, the <b>credit-recognition</b> cluster, the <b>labor freeze</b>, and the <b>AI-capex correction</b>. Both a rates break <em>and</em> a credit break = real two-root convergence; one alone = size down. <em>(7/6: the AI-credit canary NOT-FIRED — it reversed — so the credit axis has de-escalated at the front.)</em></p>
-
-  <div class="controls" id="filters" role="group" aria-label="Filter by transmission axis">
-    <span class="lbl">Trace an axis</span>
-  </div>
-
-  <div id="timeline"></div>
-  </div><!-- /tab-timeline -->
-
-  <div id="tab-calendar" class="panel" hidden>
-    <p class="cal-intro">The month as a page — the ~20 prints that matter most, on their dates. The three <b>amber cells are the convergence knots</b>, and they line up: all three fall on a Tuesday. <b>14 Jul is the hinge</b> the whole month keys off. Weekend columns are dimmed (markets closed).</p>
-    <div class="cal-legend">
-      <span><span class="d" style="background:var(--sev-crit)"></span> critical</span>
-      <span><span class="d" style="background:var(--sev-high)"></span> high</span>
-      <span><span class="d" style="background:var(--sev-med)"></span> medium</span>
-      <span><span class="d" style="background:var(--accent)"></span> knot day</span>
-    </div>
-    <div class="cal-scroll"><div id="cal-grid"></div></div>
-  </div>
-
-  <footer>
-    <b>Severity</b> <span style="color:var(--sev-crit)">▮</span> critical &nbsp; <span style="color:var(--sev-high)">▮</span> high &nbsp; <span style="color:var(--sev-med)">▮</span> medium &nbsp; <span style="color:var(--sev-low)">▮</span> low — mirrors each agent's own 🔴🟠🟡🟢.
-    &nbsp;·&nbsp; <b>★</b> = a knot-defining print. &nbsp;·&nbsp; <b>FL</b>/<b>ASIA</b> = cross-cutting tags on Will's priority geographies.<br>
-    Built 5 Jul 2026 from a fleet-wide sweep of agent catalyst + prediction ledgers; refreshed 6 Jul (7/6 prints resolved · demand-hole = one-root correction · the JGB→10Y→30Y rates sequence). Dates carry each owner's confidence; several marked ~est — verify closer in. Retire after the 28–31 Jul knot resolves.
-  </footer>
-</div>
-
-<script>
-(function(){
-  var AX = {
-    rates:{c:'var(--ax-rates)',label:'Rates / duration'},
-    credit:{c:'var(--ax-credit)',label:'Credit recognition'},
-    labor:{c:'var(--ax-labor)',label:'Labor / consumer'},
-    ai:{c:'var(--ax-ai)',label:'AI-capex / vol'},
-    energy:{c:'var(--ax-energy)',label:'Energy'}
-  };
-  var SEV={crit:'var(--sev-crit)',high:'var(--sev-high)',med:'var(--sev-med)',low:'var(--sev-low)'};
-  var PHASES=[
-    {id:'runup',kn:'Run-up',name:'The approach',rng:'6 – 13 Jul',knot:false},
-    {id:'k1',kn:'Knot 1',name:'The hinge day',rng:'Tue 14 Jul',knot:true},
-    {id:'mid',kn:'Interval',name:'Fire gate & the demand hole',rng:'15 – 20 Jul',knot:false},
-    {id:'k2',kn:'Knot 2',name:'The recognition super-cluster',rng:'21 – 22 Jul',knot:true},
-    {id:'k3',kn:'Knot 3',name:'Realization, marks & the Fed',rng:'23 – 29 Jul',knot:true},
-    {id:'tail',kn:'Tail',name:'BOJ & the August macro read',rng:'30 Jul – 8 Aug',knot:false}
-  ];
-  var E=[
-    // RUN-UP
-    {p:'runup',d:'Mon 6',ax:'labor',sv:'low',t:'ISM Services PMI (June)',o:'LABOR',w:'✅ RESOLVED — Employment <b>47.4</b> (4th month sub-50, right AT the &lt;47 line): freeze deepening confirmed, not yet realization. Demand fine (54.0).'},
-    {p:'runup',d:'Mon 6',ax:'labor',sv:'low',t:'MSFT round-2 → big-tech WARN wave',o:'LABOR',w:'✅ ~5,700 announced (hit the ~5.5K ceiling; 0 WARN filed yet) — but a <b>WAVE</b> underneath: 8 software firms, ~7,725 US since April. LAB-11 → survey-to-hard-data.'},
-    {p:'runup',d:'Mon 6',ax:'rates',sv:'high',t:'CFTC COT (Jun-30 data)',o:'SAM · HENRY',w:'Net JPY short vs −146K — a <b>build &gt;−153K</b> reclaims the carry-convexity tail.',x:['ASIA']},
-    {p:'runup',d:'Tue 7',ax:'rates',sv:'high',star:true,t:'JGB 30Y auction — leads the US 30Y read',o:'SAM · BOND',w:'Is the Meiji-Yasuda ~4% super-long bid <b>real flow</b> or announcement? BTC/tail vs Jun-10. <b>Now the leading read-through into the US 30Y 7/9</b> — a tail = correlation pre-arm (moves the term-premium leg, NOT the foreign-composition leg). Result ~late 6 Jul ET.',x:['ASIA']},
-    {p:'runup',d:'7–9',ax:'rates',sv:'crit',star:true,t:'UST mini-refunding — 3Y · 10Y-r 7/8 · 30Y-r 7/9',o:'BOND · LIQUID',w:'<b>The live gate.</b> 30Y reopen 7/9 into a <b>~5.00</b> tape (poked intraday 7/6) + record dealer inventory, and <b>no Fed coupon backstop</b> (post-QT the Fed buys bills only). The <b>10Y reopen 7/8 is the mid-gate</b> — a soft JGB/30Y is real only if the 10Y confirms. BND-11 acute → arms the pre-built TERRY duration card.'},
-    {p:'runup',d:'Tue 8',ax:'energy',sv:'crit',t:'EIA STEO (July)',o:'BRENT',w:'First balance/price-path revision post-signing — down to the realized ~$71 from the old closed-Hormuz $105.'},
-    {p:'runup',d:'Tue 8',ax:'rates',sv:'med',t:'June FOMC minutes',o:'BOND · HENRY',w:'Hike-dissent breadth; hawkish minutes re-rate the ~29% July-hike odds.'},
-    {p:'runup',d:'Thu 9',ax:'rates',sv:'med',t:'JGB 5Y auction',o:'SAM',w:'Belly demand post-BOJ-hike; forward-path repricing.',x:['ASIA']},
-    {p:'runup',d:'Thu 9',ax:'labor',sv:'med',t:'Initial claims (w/e 7/4)',o:'LABOR',w:'⚠️ Holiday-week distortion — pre-committed <b>no re-grade</b> on this print alone.'},
-    {p:'runup',d:'Fri 10',ax:'ai',sv:'med',t:'SK Hynix ADR Nasdaq listing',o:'VIOLET',w:'Semis capital-rotation event (SK Hynix ~60% HBM share) — single-source, verify.'},
-    {p:'runup',d:'Sat 11',ax:'energy',sv:'high',t:'OPEC MOMR (July)',o:'BRENT',w:'Monthly demand/supply framing into the de-escalated tape.'},
-    {p:'runup',d:'Sun 12',ax:'credit',sv:'low',t:'Tegna merger expected close',o:'BARON',w:'Range Jul–Dec; needs FCC waiver. Low signal (dormant coverage).'},
-    // KNOT 1
-    {p:'k1',d:'Tue 14',ax:'rates',sv:'crit',star:true,t:'June CPI — THE HINGE',o:'HENRY · CARL · LIQUID',w:'First CPI with the Brent-$71 collapse in it. <b>Soft core</b> → dots look like over-tightening; <b>hot</b> → higher-for-longer hardens and the node promotes. 8:30 ET.'},
-    {p:'k1',d:'Tue 14',ax:'credit',sv:'high',star:true,t:'Big-bank earnings kickoff — JPM / WFC / C',o:'OTTO · REGINALD',w:'CONFIRMED same morning as CPI (MTB follows 7/15). First hard Q2 bank credit-quality read; a hot CPI + bank prints = <b>compound vol</b>. Last shot for a 6th Tricolor-exposed bank (OTTO-30).'},
-    {p:'k1',d:'Tue 14',ax:'rates',sv:'med',t:'JGB 20Y auction',o:'SAM',w:'Insurer-demand test broadening to 20Y — same day as US CPI.',x:['ASIA']},
-    {p:'k1',d:'Tue 14',ax:'ai',sv:'high',t:'Gamma tripwire (armed)',o:'VIOLET · HENRY',w:'SPX sits only <b>~15–50 pts above the 7,437–7,471 flip</b>. A CPI gap under it re-arms negative gamma = Gate B. <b>Per the GCVR (HENRY):</b> +GEX cushions only <em>level</em> moves — NOT the rate-led duration shock a hot CPI is — and a gap clearing the flip flips <b>+GEX → −GEX (cushion → amplifier)</b>. The "gamma cushion" is the wrong comfort here.'},
-    // MID
-    {p:'mid',d:'Wed 15',ax:'credit',sv:'med',t:'M&T Bank (MTB) Q2',o:'OTTO',w:'Wilmington Trust custodial wind-down language — OTTO-31 hard signal. 8am ET.'},
-    {p:'mid',d:'Wed 15',ax:'credit',sv:'high',t:'Fitch Auto ABS Index (June)',o:'OTTO · CARL',w:'60+ DQ / net-loss trajectory toward the OTTO-04 25% CNL trigger; watch summer re-deterioration off the tax-refund low.'},
-    {p:'mid',d:'Wed 15',ax:'labor',sv:'crit',t:'Treasury student-loan Phase-1 (~500K)',o:'CARL',w:'Servicing handoff begins — a multi-quarter rolling load, <b>not</b> a July cliff (AWG/TOP enforcement separately paused).'},
-    {p:'mid',d:'Wed 15',ax:'credit',sv:'high',t:'Insurance Q2 — UNH (ELV 7/16)',o:'CARL',w:'MLR / benefit-cost ratio; MA membership culling — CRL-22 re-accel / K-shape selection.'},
-    {p:'mid',d:'Wed 15',ax:'labor',sv:'crit',t:'June CPI — fresh fruit & veg leg',o:'MARCO · CARL',w:'ES-MARCO-08 food fork: F&V holds ≳5% <b>while</b> pump falls = freight driver exiting, labor re-weights up.',x:['FL']},
-    {p:'mid',d:'Wed 15',ax:'credit',sv:'med',t:'June CMBS DQ (Fitch) + MF starts',o:'RED',w:'Breaks the headline-vs-flow tie; down-tier creep discriminator.'},
-    {p:'mid',d:'Thu 16',ax:'credit',sv:'high',t:'ATTOM Q2 foreclosures',o:'CARL',w:'V10 acceleration — Q1 REO +45% YoY nationally, <b>FL +108%</b>; inflecting on rate-of-change, normalizing on level.',x:['FL']},
-    {p:'mid',d:'Thu 16',ax:'credit',sv:'high',star:true,t:'WAL Q2 — bank-put (c) FIRE GATE',o:'REGINALD · PROME · TERRY',w:'The one live fire-gate in the node. ~est date (WAL unannounced — verify); needs the live broker book at fire-time.'},
-    {p:'mid',d:'Thu 16',ax:'rates',sv:'crit',t:'BoK (Bank of Korea) decision',o:'ZHAO · SAM',w:'KRW ~1,530 near 2009 lows, record KOSPI outflows — a <b>hike</b> = active FX defense intensifying.',x:['ASIA']},
-    {p:'mid',d:'16–18',ax:'rates',sv:'crit',t:'May TIC — China / Belgium',o:'ZHAO · LIQUID · SAM',w:'First <b>sub-$650B</b> China print fires ZHA-04 — genuine exit progressing vs stalling. Demand-hole masked by record +$206B April inflow: who absorbs?',x:['ASIA']},
-    {p:'mid',d:'Fri 17',ax:'credit',sv:'med',t:'FL Realtors June — condo supply',o:'MARCO · REGINALD',w:'Months-supply <b>&gt;9.0</b> again = distress re-engaging; &lt;8.5 = absorption confirmed.',x:['FL']},
-    {p:'mid',d:'Fri 17',ax:'ai',sv:'high',t:'July opex — HEN-35 resolve',o:'HENRY · VIOLET',w:'The literal VIX-&gt;23 cascade call resolves (trending miss) — but the underlying froth thesis deepened; track separately.'},
-    {p:'mid',d:'Mon 20',ax:'credit',sv:'med',t:'First Brands — plan voting deadline',o:'OTTO',w:'Creditor ballots, 6pm ET — class rejection puts the 7/28 confirmation at risk; acceptance = clean path.'},
-    // KNOT 2
-    {p:'k2',d:'Tue 21',ax:'credit',sv:'crit',star:true,t:'OZK Q2 (AMC; call 7/22)',o:'REGINALD · PROME',w:'The classified-vs-RESG discriminator (conviction-governing); Seattle deed-in-lieu reserve build vs the $15–30M fail-band. Pre-registered reads OZK-05→09.',x:['FL']},
-    {p:'k2',d:'Tue 21',ax:'credit',sv:'med',t:'ALLY Financial Q2 (7:30 ET)',o:'OTTO · CARL',w:'Carvana-sourced-loan DQ commentary; retail-auto NCO — prime/subprime bifurcation check.'},
-    {p:'k2',d:'Tue 21',ax:'labor',sv:'high',star:true,t:'FL State Employment (June)',o:'LABOR · CORAL',w:'LABOR T-11 — <b>FL UR &gt;5.0%</b> or renewed rise (already 4.8%, above the US, 7 straight rises). Same day as OZK.',x:['FL']},
-    {p:'k2',d:'Tue 21',ax:'rates',sv:'med',t:'China LPR',o:'ZHAO',w:'Held 13 months — a <b>cut</b> = easing-bias step as the demand-hole widens.',x:['ASIA']},
-    {p:'k2',d:'Wed 22',ax:'credit',sv:'high',t:'SYF Q2 (COF ~7/22–24, AXP 7/24)',o:'CARL',w:'Axis-A unsecured consumer — CRL-24 trigger = SYF card NCO <b>&gt;5.5%</b> + ACL coverage down.'},
-    {p:'k2',d:'Wed 22',ax:'rates',sv:'high',t:'JGB 40Y auction',o:'SAM · BOND',w:'The most-stressed tenor for lifer non-re-entry (highest J-ICS sensitivity) — BTC/tail vs the soft May-27.',x:['ASIA']},
-    {p:'k2',d:'Wed 22',ax:'ai',sv:'high',t:'GOOGL earnings',o:'HENRY',w:'First mega-tech Q2 print — the AI-capex read begins.'},
-    {p:'k2',d:'Wed 22',ax:'rates',sv:'high',t:'20Y reopening (10Y TIPS 7/23)',o:'BOND',w:'Vs the strong 6/16 20Y (BTC 2.75) — a reversal = long-end demand fade confirming.'},
-    {p:'k2',d:'Wed 22',ax:'labor',sv:'high',t:'Builder Q2 — DHI (PHM 7/23)',o:'CARL',w:'Gross-margin / incentive / "K-shape" language — KB Home already crushed (op-margin 8.6→2.5%).'},
-    {p:'k2',d:'Wed 22',ax:'rates',sv:'med',t:'Japan June trade balance',o:'SAM',w:'The clean Phase-1-inversion test — export-led vs import-led branch.',x:['ASIA']},
-    // KNOT 3
-    {p:'k3',d:'Thu 23',ax:'labor',sv:'crit',star:true,t:'Claims (w/e 7/18) — LAB-17 opens',o:'LABOR · CARL · REGINALD',w:'THE dated near-term test: does the mid-June WARN surge convert? <b>4-wk MA ≥235K</b> = cohort converting (r=0.78, ~6-wk lag).'},
-    {p:'k3',d:'Thu 23',ax:'rates',sv:'med',t:'ECB Governing Council',o:'BOND · LIQUID',w:'2nd 2026 hike? QT language — EU-rates leg, converge the xccy read.'},
-    {p:'k3',d:'Thu 24',ax:'credit',sv:'high',t:'AXP Q2 + Subchapter-V cliff',o:'CARL',w:'Premium-consumer NCO; the SubV §122 small-biz-bankruptcy eligibility cliff (+67% YoY context).'},
-    {p:'k3',d:'Fri 24',ax:'rates',sv:'med',t:'Japan National CPI (June)',o:'SAM',w:'Follows sticky Tokyo core-core 1.9 — subsidy-wedge + BOJ-mechanism watch.',x:['ASIA']},
-    {p:'k3',d:'Fri 25',ax:'credit',sv:'crit',star:true,t:'BDC Q2 marks / 10-Q cycle (FSK/OBDC/OTF/ARCC/BCRED)',o:'BROCK · LIQUID · NEXUS',w:'Four separate passes — NAV / non-accrual / div-action. NAV catch-down + CDLI-FSK gap persisting = the K-split transmitting; a <b>4th public-BDC div cut</b> = cascade.'},
-    {p:'k3',d:'27–28',ax:'rates',sv:'high',t:'Month-end Treasury auctions (2Y/5Y/7Y)',o:'BOND · LIQUID',w:'Two coupons same day — indirect <b>&lt;60% at 2+ tenors</b> = foreign-bid fade confirmed as trend.'},
-    {p:'k3',d:'Tue 28',ax:'credit',sv:'crit',star:true,t:'ARCC Q2 — first top-tier read',o:'BROCK · CARL',w:'The cleanest wrapper-leading signal — top-tier non-accrual trajectory, NAV, PIK, coverage, BRK-22 cut watch.'},
-    {p:'k3',d:'Tue 28',ax:'credit',sv:'crit',star:true,t:'First Brands Ch.7 confirmation',o:'OTTO · BROCK · REGINALD',w:'Realized auto-fraud credit <b>event</b> landing inside the marks window → BROCK $237M exposure across 15 BDCs; recoveries ~zero. Judge Lopez, 9am CT. [high-conf dated]'},
-    {p:'k3',d:'Tue 28',ax:'energy',sv:'crit',t:'OPEC JMMC',o:'BRENT',w:'First JMMC post-Vienna — Q3 production posture / quota-compliance signal.'},
-    {p:'k3',d:'Wed 29',ax:'credit',sv:'high',t:'Tricolor trial-scheduling hearing',o:'OTTO',w:'Does the Oct-19 fraud-surface date hold or slip to Feb-2027 (Chu delay motion)?'},
-    {p:'k3',d:'28–29',ax:'rates',sv:'crit',star:true,t:'FOMC (no dots)',o:'HENRY · VIOLET · BOND',w:'Hold ~70–81% priced — the story is dots-vs-pricing if 7/2 NFP + 7/14 CPI shifted the Sep/Oct hike odds. Warsh presser only.'},
-    {p:'k3',d:'29–31',ax:'ai',sv:'crit',star:true,t:'Hyperscaler Q2 FCF (AMZN/MSFT/GOOG/META)',o:'HENRY',w:'HEN-36 — does free cash flow actually <b>compress</b> against the capex guide? The fundamental grounding of the AI-capex-correction thesis.'},
-    // TAIL
-    {p:'tail',d:'Thu 30',ax:'labor',sv:'crit',star:true,t:'Claims (w/e 7/25) — LAB-17 closes',o:'LABOR',w:'Resolve by the Aug-6 print — 4-wk MA ≥235K = LAB-17 ✅ (WARN→claims framework confirmed); still ~215–225K = ❌ re-test.'},
-    {p:'tail',d:'Thu 30',ax:'rates',sv:'med',t:'JGB 2Y auction',o:'SAM',w:'Front-end demand — reads BOJ near-term, same day as MPM Day 1.',x:['ASIA']},
-    {p:'tail',d:'Fri 31',ax:'rates',sv:'crit',star:true,t:'BOJ MPM (July) + FY2027 plan',o:'SAM · BOND',w:'Outlook Report meeting — the <b>FY2027 purchase-plan</b> decision is the JGB-supply read; SAM-34 hold @85% (re-mark if July-hike pricing &gt;40%).',x:['ASIA']},
-    {p:'tail',d:'Fri 31',ax:'rates',sv:'high',t:'Tokyo July CPI',o:'SAM',w:'Releases the morning of the BOJ decision — same-day input to the hold-vs-hike read.',x:['ASIA']},
-    {p:'tail',d:'Fri 31',ax:'rates',sv:'high',t:'MOF monthly intervention data',o:'SAM · PROME',w:'Hard-confirm of the 7/2 no-strike adjudication (ambush regime = wires can miss a real op).',x:['ASIA']},
-    {p:'tail',d:'Fri 31',ax:'credit',sv:'crit',t:'ABS subordinate rating actions',o:'CARL · REGINALD · LIQUID',w:'EART / AMCAR / SDART junior tranches — <b>downgrades → forced selling</b> (EART Class E CE already breached).'},
-    {p:'tail',d:'Fri 31',ax:'credit',sv:'high',t:'Q2 PE/PC tender publications',o:'BROCK · LIQUID',w:'Retroactive 2nd-gate resolver — a 2nd-<b>manager</b> PE-wrapper gate here = cross-asset contagion confirm.'},
-    {p:'tail',d:'Sat 1',m:'Aug',ax:'labor',sv:'med',t:'H-2A cert data / Banxico remittances',o:'MARCO · CARL',w:'Remittance count YoY = cleanest SDL-01 senders-decline readout.',x:['FL']},
-    {p:'tail',d:'Mon 3',m:'Aug',ax:'labor',sv:'high',t:'ISM Manufacturing (July)',o:'LABOR',w:'Employment sub-index <b>≥50</b> = LAB-06 breach (falsifies the freeze-through-2026 hold); &lt;48 = re-deepening.'},
-    {p:'tail',d:'Tue 4',m:'Aug',ax:'labor',sv:'high',t:'JOLTS (June)',o:'LABOR',w:'Hires <b>&lt;5.0M</b> = T-10 arm; layoffs rate ≥1.2% = the firing side waking.'},
-    {p:'tail',d:'Wed 5',m:'Aug',ax:'labor',sv:'med',t:'ADP (July)',o:'LABOR',w:'Private payrolls <b>&lt;50K</b> = freeze deepening materially; breadth = pre-NFP tell.'},
-    {p:'tail',d:'Wed 5',m:'Aug',ax:'rates',sv:'high',t:'Quarterly Refunding Announcement',o:'BOND',w:'Coupon-size guidance — an upsizing = term-premium supply shock (May said steady "several quarters").'},
-    {p:'tail',d:'Thu 6',m:'Aug',ax:'labor',sv:'med',t:'Challenger (July) + JGB 30Y',o:'LABOR · SAM',w:'AI share <b>&gt;40%</b> again = T-09 re-arm; total re-spike >80K = announcement layer back.'},
-    {p:'tail',d:'Fri 7',m:'Aug',ax:'labor',sv:'crit',star:true,t:'NFP (July) + U-3',o:'LABOR · CARL',w:'The freeze-read <b>2nd print</b> — payrolls vs the revised 148/129/57 trend; V16 re-arm resolver. T-06 = &lt;100K + U-3 jump ≥0.2pp. 8:30 ET.'},
-    {p:'tail',d:'Sat 8',m:'Aug',ax:'labor',sv:'high',t:'BLS July NFP — Florida detail',o:'MARCO · LABOR',w:'Does FL leisure &amp; hospitality stay negative once the World Cup rolls off (post-Jul-19)? ES-MARCO-01.',x:['FL']}
-  ];
-
-  // build axis filter buttons
-  var fbar=document.getElementById('filters');
-  var active=null;
-  Object.keys(AX).forEach(function(k){
-    var b=document.createElement('button');
-    b.className='fbtn'; b.setAttribute('aria-pressed','false'); b.style.setProperty('--c',AX[k].c);
-    b.innerHTML='<span class="sw"></span>'+AX[k].label;
-    b.onclick=function(){ active = (active===k)?null:k; syncFilter(); };
-    b.dataset.ax=k; fbar.appendChild(b);
-  });
-  var rb=document.createElement('button');
-  rb.className='fbtn reset'; rb.textContent='Reset';
-  rb.onclick=function(){active=null;syncFilter();};
-  fbar.appendChild(rb);
-
-  function syncFilter(){
-    document.querySelectorAll('#filters .fbtn[data-ax]').forEach(function(b){
-      b.setAttribute('aria-pressed', b.dataset.ax===active ? 'true':'false');
-    });
-    document.querySelectorAll('.ev').forEach(function(ev){
-      if(!active){ev.classList.remove('dim');}
-      else ev.classList.toggle('dim', ev.dataset.ax!==active);
-    });
-  }
-
-  // render timeline
-  var tl=document.getElementById('timeline');
-  PHASES.forEach(function(ph){
-    var sec=document.createElement('section');
-    sec.className='phase'+(ph.knot?' knot':'');
-    sec.innerHTML='<div class="phase-h"><span class="kn">'+ph.kn+'</span>'+
-      '<h2>'+ph.name+'</h2><span class="rng">'+ph.rng+'</span></div>';
-    E.filter(function(e){return e.p===ph.id;}).forEach(function(e){
-      var row=document.createElement('div'); row.className='row';
-      var xtags=(e.x||[]).map(function(t){return '<span class="xtag">'+t+'</span>';}).join('');
-      row.innerHTML=
-        '<div class="date">'+e.d+'<small>'+(e.m||'Jul')+'</small></div>'+
-        '<div class="ev'+(e.star?' star':'')+'" data-ax="'+e.ax+'" '+
-          'style="--sv:'+SEV[e.sv]+';--ax:'+AX[e.ax].c+'">'+
-          '<div class="top"><span class="name">'+e.t+'</span>'+
-            '<span class="pill">'+e.ax+'</span>'+xtags+'</div>'+
-          '<p class="watch">'+e.w+'</p>'+
-          '<div class="own">'+e.o+'</div>'+
-        '</div>';
-      sec.appendChild(row);
-    });
-    tl.appendChild(sec);
-  });
-
-  // ---- tabs ----
-  var tabBtns=document.querySelectorAll('.tab');
-  tabBtns.forEach(function(t){
-    t.onclick=function(){
-      tabBtns.forEach(function(x){x.setAttribute('aria-selected','false');});
-      t.setAttribute('aria-selected','true');
-      document.getElementById('tab-timeline').hidden=(t.dataset.tab!=='timeline');
-      document.getElementById('tab-calendar').hidden=(t.dataset.tab!=='calendar');
-    };
-  });
-
-  // ---- calendar (Month view) ----
-  var cells=[{m:'jun',d:28},{m:'jun',d:29},{m:'jun',d:30}];
-  for(var ci=1;ci<=31;ci++) cells.push({m:'jul',d:ci});
-  cells.push({m:'aug',d:1});
-  var SEVC={crit:'var(--sev-crit)',high:'var(--sev-high)',med:'var(--sev-med)',low:'var(--sev-low)',done:'var(--ink3)'};
-  var MQ={14:'Knot 1',21:'Knot 2',28:'Knot 3'};
-  var CEV={
-    2:[{n:'NFP +57K · resolved',s:'done'}],
-    6:[{n:'ISM Svc: emp 47.4 ✓',s:'done'},{n:'MSFT WARN wave ✓',s:'done'},{n:'CFTC COT tonight',s:'high'}],
-    7:[{n:'JGB 30Y (leads 7/9)',s:'high'}],
-    8:[{n:'US 10Y reopen (gate)',s:'high'},{n:'EIA STEO',s:'crit'}],
-    9:[{n:'UST 30Y reopen',s:'crit'}],
-    14:[{n:'CPI — THE HINGE',s:'crit',big:1},{n:'Big banks: JPM/WFC/C',s:'high'}],
-    15:[{n:'Student-loan Phase 1',s:'crit'},{n:'Fitch Auto ABS',s:'high'}],
-    16:[{n:'WAL Q2 · fire gate',s:'high'},{n:'BoK decision',s:'crit'},{n:'May TIC (China)',s:'crit'}],
-    17:[{n:'FL condo supply',s:'med'}],
-    20:[{n:'First Brands vote',s:'med'}],
-    21:[{n:'OZK Q2',s:'crit',big:1},{n:'ALLY Q2',s:'med'},{n:'FL jobs (T-11)',s:'high'},{n:'China LPR',s:'med'}],
-    22:[{n:'JGB 40Y',s:'high'},{n:'GOOGL',s:'high'},{n:'SYF / COF',s:'high'}],
-    23:[{n:'LAB-17 claims open',s:'crit'},{n:'ECB',s:'med'}],
-    24:[{n:'AXP · Japan CPI',s:'med'}],
-    27:[{n:'Treasury 2Y/5Y',s:'high'},{n:'BDC 10-Q cycle',s:'crit'}],
-    28:[{n:'ARCC Q2',s:'crit',big:1},{n:'First Brands Ch.7',s:'crit'},{n:'FOMC begins',s:'crit'},{n:'OPEC JMMC',s:'crit'}],
-    29:[{n:'FOMC decision',s:'crit'},{n:'Hyperscaler FCF →',s:'crit'}],
-    30:[{n:'LAB-17 claims close',s:'crit'}],
-    31:[{n:'BOJ MPM + FY27 plan',s:'crit'},{n:'ABS rating actions',s:'crit'}]
-  };
-  var DOW=['Sun','Mon','Tue','Wed','Thu','Fri','Sat'];
-  var ch='<table class="cal"><thead><tr>';
-  DOW.forEach(function(d){ch+='<th class="dow">'+d+'</th>';});
-  ch+='</tr></thead><tbody>';
-  cells.forEach(function(c,i){
-    if(i%7===0) ch+='<tr>';
-    var col=i%7, wknd=(col===0||col===6), off=(c.m!=='jul'), isM=(c.m==='jul'&&MQ[c.d]);
-    var cls=[]; if(off)cls.push('off'); if(wknd&&!off)cls.push('wknd'); if(isM)cls.push('marquee');
-    ch+='<td class="'+cls.join(' ')+'"><div class="chead"><span class="dnum">'+c.d+
-        (c.m==='aug'?'&nbsp;Aug':(c.m==='jun'?'&nbsp;Jun':''))+'</span>'+
-        (isM?'<span class="knotlabel">'+MQ[c.d]+'</span>':'')+'</div>';
-    if(c.m==='jul'&&CEV[c.d]) CEV[c.d].forEach(function(e){
-      ch+='<div class="cev'+(e.big?' big':'')+'"><span class="cd" style="--csv:'+SEVC[e.s]+'"></span>'+e.n+'</div>';
-    });
-    ch+='</td>';
-    if(col===6) ch+='</tr>';
-  });
-  ch+='</tbody></table>';
-  document.getElementById('cal-grid').innerHTML=ch;
-})();
-</script>
+  <p class="foot">Source of record: <code>PROME/archive/MID_JULY_NODE.md</code> (tracker, archived 2026-08-09)
+  · canonical dated rows: <code>PROME/DOCKET.tsv</code> · grades cited from owner surfaces (REGINALD, LABOR,
+  BROCK, HENRY, SAM, RED) as recorded in PROME state files at freeze time. Converted to a frozen scorecard
+  at the same URL per the Will-approved rider (7/29) executed in the 2026-08-09 deletion pass. No further
+  updates will be made to this page.</p>
+</main>
