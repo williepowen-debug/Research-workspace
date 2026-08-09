@@ -1,279 +1,157 @@
 # PROME CLOSEOUT
 
-**Created:** 2026-05-18 · **Updated:** 2026-08-08 (boot mechanical sweep: **Boot↔Closeout symmetry — new "named in the Boot Sequence but NOT boot reads" block** clearing the 5-surface standing `prome_gate` advisory [`PROME/CLAUDE.md` · `SYSTEM.md` · `CLOSEOUT.md` · `MACHINE_LOCAL.md` · **`TODAY.md`, retired 7/1 and nonexistent**], each with its real reason. **The finding underneath is the check's semantics, now written on the block:** `check_symmetry()` scans BOOT.md's Boot Sequence for backticked filenames, so it registers MENTIONS not READS — a retirement notice trips it identically to a mandatory read. Stamp bumped per this line's own section-adds-bump-by-default rule.) Prior 2026-08-03 EVE (spine-audit #7: Chunk-4 memory recipe — daily log added to `git add` [untracked-first-session case errored]; stamp re-synced AGAIN — the 7/31 "Closeout-class fleet memories" section rode in under the 7/28 stamp, the exact class this line narrates fixing on 7/28; that is two consecutive stamp misses on material adds, so treat section-adds as stamp-bumping by default). Prior 2026-07-28 (spine-audit #6 minors: stamp re-synced [the 7/27 claim-check section rode in under the 7/24 stamp — this line's own convention violated]; Chunk-4 sequence now names root steps 1c consumer-check + 1d memory-index-check; Skip-rules carve-out list completed to the root ONLY-three [② shared-log rows + ③ mandatory memory/auto self-commit were absent]). Prior 2026-07-24 (mirror-sweep for the orphan-detector adoption: Skip-rules `AGENTS/<other>/` line now carries the root-canon self-authored-packet carve-out + step-1b pointer). Prior 2026-07-17 (spine-audit #4 stamp-bump: the 7/11 body edits [Chunk-3 de-conflict note · SCRATCH format contract · dashboard symmetry row] never bumped this line — content itself re-verified accurate). Prior 2026-07-10 (doc-audit fixes: GATES.tsv write-back contract added [symmetry + Write-Back + File-ownership rows] · DOCKET.tsv File-ownership row · FLEET_SCAN row retired-pointer · Updated-stamp convention adopted — bump this line on material edits)
+**Created:** 2026-05-18 · **Updated:** 2026-08-09 (**T2-a spine prune, Will-approved batch: 287→~160 lines.** Scope manifest: Chunk-4 git prose demoted to root-canon pointers [root `CLAUDE.md` is auto-injected — the full protocol is always in context]; File-ownership table MERGED into the Write-Back Contract; claim-check narrative compressed; mention-registry block retired [`check_symmetry()` v1 anchors on `Read`-directive lines now — one `TODAY.md` one-way row survives because it rides BOOT step 2's Read line]; auto-push rationale de-triplicated. ADDED: stamp canon + deferred-decision write-back row [governance batch]. Zero rule-content changes except as named. Prior stamp history → `git log` on this file.)
 **Owner:** Prome
-**Purpose:** Repeatable session-end procedure to keep Prome's state files consistent across sessions. Run before `/clear`, `/new`, or session handoff.
+**Purpose:** Repeatable session-end procedure. Run before `/clear`, `/new`, or session handoff.
 
-> Companion to `PROME/BOOT.md` (session start) and `PROME/CLAUDE.md` (CC-Prome bootstrap). Follow root `CLAUDE.md` for git protocol details.
+> Companion to `PROME/BOOT.md` (session start) + `PROME/CLAUDE.md` (bootstrap). **Git protocol canon = root `CLAUDE.md` (auto-injected; not restated here).**
 
 ---
 
 ## When to run
 
-- Before `/clear` or `/new`
-- Before stepping away from a long session
-- After any session that produced state changes worth persisting
-
-Skip for casual one-off exchanges with no artifacts.
+Before `/clear` or `/new` · before stepping away from a long session · after any session that produced state changes worth persisting. Skip for casual one-off exchanges with no artifacts.
 
 ---
 
 ## Pre-closeout (~1 min)
 
-1. `git status --short` — review what's changed
-2. **Foreign uncommitted work is fine and does NOT block closeout** — pathspec commits + `safe-push.sh` never touch another agent's tree (see Chunk 4). The real pre-commit check is that you are about to commit only your own `PROME/` scope (+ any Will-approved per-instance paths, e.g. `memory/`) — *not* that the tree is otherwise clean. The former `AGENTS/PROME/` tree was removed 2026-07-24 (Will-ruled; `PROME/inbox/` is the sole delivery surface) — if it reappears, that's a sender-routing regression: migrate contents to `PROME/inbox/`, flag the sender (see BOOT.md step 6).
-3. Mentally list this session's artifacts: proposals decided, files written, prototypes run, decisions made
-4. Check transcript hygiene: if the session produced huge tool dumps, preserve the durable result in files/memory and avoid restating raw output. Prefer compact summaries unless full output matters.
-5. Decide closeout scope:
+1. `git status --short` — review what changed.
+2. **Foreign uncommitted work does NOT block closeout** — pathspec commits + `safe-push.sh` never touch another agent's tree. The real check: you are about to commit only your own `PROME/` scope (+ Will-approved per-instance paths, e.g. `memory/`). If `AGENTS/PROME/` reappears, that's a sender-routing regression: migrate contents to `PROME/inbox/`, flag the sender (BOOT step 6).
+3. List this session's artifacts; check transcript hygiene (preserve durable results in files, not restated dumps); pick the tier:
 
 | Tier | When | Touches | Commit? |
 |---|---|---|---|
-| **Bounce** | Mid-day restart for config/tmux/clear/branch; you're coming right back within the hour | SCRATCH addendum (3-5 lines) | Optional 1-line checkpoint (see procedure below) |
-| **Light** | Short session paused for hours; 1-2 artifacts; audit can wait for end-of-day Standard | SCRATCH full rewrite + STATUS surgical | Optional |
-| **Standard** *(default)* | End-of-thread or end-of-day; multi-artifact session | All Chunk 1 + Chunk 2 daily log (+ auto-memory if a lesson earned) + Chunk 4 commit + `safe-push.sh` | Yes, auto-push |
-| **Heavy** | Pattern-discovery session; new designs/patterns to fold | Standard + design-docs + Chunk 3 residuals | Yes, auto-push |
+| **Bounce** | Mid-day restart; back within the hour | SCRATCH addendum (3-5 lines) | Optional 1-line checkpoint |
+| **Light** | Short session paused for hours; 1-2 artifacts | SCRATCH full rewrite + STATUS surgical | Optional |
+| **Standard** *(default)* | End-of-thread / end-of-day | Chunk 1 + Chunk 2 (+ auto-memory if earned) + Chunk 4 + auto-push | Yes |
+| **Heavy** | Pattern-discovery session | Standard + design docs + Chunk 3 full sweep | Yes |
 
-End-of-day always runs at least Standard so the audit trail catches up. 10 Bounces + 1 end-of-day Standard = no audit gap, just a rollup HANDOFF entry covering the day. *(Chunk 3 is trigger-gated at ANY tier, not Heavy-only — a fired trigger this session [e.g. spawned-agent release, autonomy-grant change] runs its Chunk-3 step even on a lighter closeout; Heavy just makes the full residual sweep standard. Spine-audit de-conflict 7/11, mirroring Chunk 2's "not a Heavy-only step" note.)*
-
-**Bounce procedure (the truly minimal):** append 3-5 lines to `PROME/SCRATCH.md` — (a) what just happened, (b) what's pending, (c) next-session entry point. No STATUS, no HANDOFF, no daily log, no auto-memory. **Optional but recommended — a 1-line checkpoint commit** so the addendum survives a non-clean resume (crash / `git checkout` / reset): `cd "$(git rev-parse --show-toplevel)" && git commit -m "PROME: bounce checkpoint" -- PROME/SCRATCH.md` (~5s; repo-root cwd per root canon step 0). Without it the SCRATCH addendum is uncommitted working-tree state that a bad resume can lose. Total time: ~30-40 seconds.
+End-of-day always runs at least Standard. **Chunk 3 is trigger-gated at ANY tier** — a fired trigger (spawned-agent release, autonomy change, …) runs its step even on a lighter closeout. **Bounce procedure:** append 3-5 lines to `PROME/SCRATCH.md` (what happened / what's pending / next entry point); recommended checkpoint commit from repo root: `git commit -m "PROME: bounce checkpoint" -- PROME/SCRATCH.md`.
 
 ---
 
-> **⚡ Mechanical tail in one shot (adopted 2026-07-28, Will-approved — DAEDALUS T2-b):** `cd "$(git rev-parse --show-toplevel)" && python3 PROME/tools/prome_gate.py closeout` — position-agreement · GATES fired/vocabulary · DOCKET overdue · dashboard-state · orphan_check, plus printed reminders for the two MANUAL root steps (1c consumer_check w/ `--mirror-map` on canon changes · 1d memory_index_check `--slug`). rc=1 only on BLOCKING failures. The judgment writes (HANDOFF/SCRATCH/memory) remain below — the gate replaces none of them. New mechanical checks go in the SCRIPT, not this prose.
+> **⚡ Mechanical tail in one shot (T2-b):** `cd "$(git rev-parse --show-toplevel)" && python3 PROME/tools/prome_gate.py closeout` — the scripted checks + printed reminders for the two MANUAL root steps (1c consumer_check, 1d memory_index_check). rc=1 only on BLOCKING failures. The judgment writes below are not replaced. **New mechanical checks go in the SCRIPT, not this prose.**
 
 ## Boot↔Closeout symmetry
 
-Closeout is the **write-back tail** of boot (auto-memory `[[finding_closeout_as_writeback_tail]]`). What `BOOT.md` reads, this procedure writes back. Each pairing should round-trip on a Standard closeout; a boot-read surface with no closeout write goes stale silently.
+Closeout is the **write-back tail** of boot (`[[finding_closeout_as_writeback_tail]]`): what BOOT reads, this writes back; a boot-read surface with no closeout write goes stale silently. *(Machine-checked every boot: `check_symmetry()` anchors on BOOT's `Read`-directive lines since 8/9 — a mandatory boot read carries the word `Read` on its BOOT.md line and must appear in this section.)*
 
 | Surface | Boot (read) | Closeout (write-back) |
 |---|---|---|
 | `HANDOFF.md` | boot: continuity read | Chunk 1 — append/rotate concise continuity entry when session affects future Prome state |
 | `SCRATCH.md` | boot: hot-state + operator card | Chunk 1 — full rewrite (incl. operator card: date/catalysts/near-gates). **Format contract (7/11):** the cautions "Pending Will:" line is parsed by the Fleet-Ops dashboard — keep the exact label `Pending Will:` and `·`-separated items, one line |
 | `ACTIVE_DECISIONS.md` | boot: decisions read | Chunk 1 — surgical if a decision moved |
-| `PROME/GATES.tsv` | boot: fire-ledger gate (step 3 — any `FIRED-UNEXECUTED` row blocks new work) | Chunk 1 — surgical: register any action-gate approved this session (record-vs-reality rule); flip state on any verdict that landed; refresh `last_checked` on rows touched. **A row must never leave a session `FIRED-UNEXECUTED` without an escalation note** |
+| `PROME/GATES.tsv` | boot: fire-ledger gate (step 3) | Chunk 1 — surgical: register any action-gate approved this session; flip state on any landed verdict; refresh `last_checked` on rows touched. **A row must never leave a session `FIRED-UNEXECUTED` without an escalation note** |
 | `STATUS.md` | boot: health/queue read | Chunk 1 — surgical |
 | `HEARTBEAT.md` | boot: market-data / regime gate (step 5) | per Write-Back Contract — update after a regime-level change or >48h stale (market week); **commit is Will-gated** (shared doc) |
 | `memory/YYYY-MM-DD.md` | on-demand | Chunk 2 — create/append |
-| `PROME/DOCKET.tsv` | boot: fire-time gate input (step 5) | Chunk 1 — paired with the operator card: any catalyst date that moved/resolved this session updates its DOCKET row (canonical; SCRATCH/HEARTBEAT are views) |
-| **Fleet-Ops dashboard** (Will-facing artifact, born 7/11) | not a boot read — Will's comprehension surface | **Standard+ closeouts:** regenerate `python3 PROME/tools/fleet_dashboard.py -o <scratchpad>/fleet_dashboard.html` → republish via Artifact tool **to the recorded URL** (in the script header — pass `url=` from any session that didn't mint it, else it orphans Will's tab). Generated-only, points-into-canon, fail-loud parsers; its age badge covers gaps between sessions |
+| `PROME/DOCKET.tsv` | boot: fire-time gate input (step 5) | Chunk 1 — paired with the operator card: any catalyst date that moved/resolved updates its DOCKET row (canonical; SCRATCH/HEARTBEAT are views) |
+| **Fleet-Ops dashboard** | not a boot read — Will's comprehension surface | **Standard+ closeouts:** regenerate `python3 PROME/tools/fleet_dashboard.py -o <scratchpad>/fleet_dashboard.html` → republish via Artifact **to the recorded URL** (in the script header — pass `url=`, else it orphans Will's tab) |
 
 **Intentionally one-way (no closeout write-back, by design):**
-- `FLEET_SCAN.md` — superseded historical snapshot (retired from boot reads, doc-audit 7/10); no closeout write-back and no refresh — current fleet-state reads are `ROSTER.md` + DAEDALUS `FLEET_MAP.tsv`.
-- COMM mailbox + inbox / agent-outbox scan — ACKed / routed *inline during the session*, not deferred to closeout.
-- **OPEN-predictions resolution / forward-catalyst firing** — domain-agent-owned (NEXUS / ORACLE / LABOR), not a PROME closeout surface. PROME's only forward-state write-back is rolling the **operator-card catalyst list in `SCRATCH`** (the closeout counterpart to BOOT step-8's forward-state scan) — it does not resolve predictions.
-
-**Named in the Boot Sequence but NOT boot reads — no write-back owed (registered 2026-08-08 to clear a standing `prome_gate` advisory):**
-> ⚠️ **Read the check's actual semantics before adding rows here.** `check_symmetry()` (`PROME/tools/prome_gate.py`) regex-scans BOOT.md's `## Boot Sequence` section for backticked `Name.md`/`PROME/Name.tsv` tokens and asks whether each appears in this section. **It registers MENTIONS, not READS** — a pointer, a conditional-read note, even a *retirement notice* trips it identically to a mandatory boot read. So this list doubles as a mention-registry, and a row here means "correctly has no write-back," never "PROME reads this every boot." Don't infer a read obligation from membership.
-- `PROME/CLAUDE.md` · `PROME/SYSTEM.md` — BOOT step 6 conditional reads, "only for implementation work." Auto-injected (CLAUDE) / on-demand architecture reference (SYSTEM); neither carries per-session state, so there is nothing to write back.
-- `PROME/CLOSEOUT.md` — BOOT step 6 names it as the pre-`/clear` pointer. This file *is* the closeout procedure; a symmetry row for it would be self-referential.
-- `PROME/MACHINE_LOCAL.md` — cited in BOOT step 5 as env_doctor's inventory canon. Written back **event-driven, not per-session**: a row moves when a key/timer/tool changes on a box (e.g. the PJM key, 8/3), which is a Chunk-3 trigger, not a Standard-closeout step.
-- `TODAY.md` — **RETIRED 2026-07-01; the file does not exist.** It appears in BOOT step 2 only inside its own retirement note ("absorbed the old `TODAY.md`") — the operator card lives in `SCRATCH.md`, which has its own symmetry row above. Recorded here rather than de-backticked in BOOT.md so the history stays legible: the token is a correct historical reference, and the check simply cannot tell that from a live read. *(Root canon 1e's rule generalises — reword a flagged quote only to stop a pattern-match, never to erase the record.)*
+- `FLEET_SCAN.md` — superseded historical snapshot; no refresh (fleet state = `ROSTER.md` + DAEDALUS `FLEET_MAP.tsv`).
+- COMM mailbox / inbox / agent-outbox scans — ACKed/routed *inline during the session*, never deferred to closeout.
+- OPEN-predictions resolution / forward-catalyst firing — domain-agent-owned (NEXUS/ORACLE/LABOR). PROME's only forward-state write-back is the operator-card catalyst list in SCRATCH.
+- `TODAY.md` — **retired 2026-07-01; the file does not exist.** It appears on BOOT step 2's Read line only inside its own retirement note (correct historical reference; reword a flagged quote only to stop a pattern-match, never to erase the record).
 
 ---
 
-## Prome Write-Back Contract
+## Prome Write-Back Contract *(File-ownership reference merged in, 8/9)*
 
-Use this as the manual write-back feature. Do not auto-edit every surface; update only the owner doc whose state actually changed.
+Update only the owner doc whose state actually changed:
 
 | If this changed | Write back to | Rule |
 |---|---|---|
-| Immediate next-session state **+ operator card** (date/catalysts/near-gates) | `PROME/SCRATCH.md` | Full rewrite for Standard/Heavy; Bounce may append 3–5 lines. |
-| Cross-runtime continuity / decisions Will made | `PROME/HANDOFF.md` | Concise top entry only if future Prome needs it; keep latest 3–5 live. |
-| Non-terminal decision state | `PROME/ACTIVE_DECISIONS.md` | Surgical row update; if unknown, mark `DEFERRED` / reconcile, never infer execution. |
-| Action-gate approved / fired / resolved / lapsed | `PROME/GATES.tsv` | Register the same session it's approved; resolve the same session the verdict lands. Owners' KBs stay canonical for full logic — GATES is the coordination index so an owner freezing can't orphan a fired gate (`[[finding_fired_gate_needs_owner_independent_ledger]]`). |
-| Agent/system health or work queue | `PROME/STATUS.md` | Surgical update; avoid repeating HEARTBEAT/SCRATCH market narrative. |
-| Regime/thresholds/near gates | `HEARTBEAT.md` | PROME **owns the content** — update after regime-level changes or when >48h stale (market week). But `HEARTBEAT.md` is a **shared doc — committing it is Will-gated** (root `CLAUDE.md`): scope it + get Will's OK, don't sweep it into your `PROME/` closeout commit. |
-| Forward catalyst date moved / resolved / slid | `PROME/DOCKET.tsv` | Update the row (canonical) **and run `scripts/firetime_check.py` on its citing artifacts** — a date change can break artifact logic (7/1 WAL sequencing case): full re-read on any flag. |
-| Daily activity / file changes | `memory/YYYY-MM-DD.md` | Append durable session log. |
-| Durable insight / lesson | `MEMORY.md` or auto-memory | Promote sparingly; avoid activity logs. |
+| Next-session state + operator card | `PROME/SCRATCH.md` | Full rewrite (Standard/Heavy); Bounce appends 3-5 lines |
+| Cross-runtime continuity / Will's decisions | `PROME/HANDOFF.md` | Concise top entry only if future Prome needs it; keep latest 3-5, archive the rest |
+| Non-terminal decision state | `PROME/ACTIVE_DECISIONS.md` | Surgical row; if state unknown, mark `DEFERRED`/reconcile, never infer execution |
+| Action-gate approved / fired / resolved | `PROME/GATES.tsv` | Register the session it's approved; resolve the session the verdict lands (`[[finding_fired_gate_needs_owner_independent_ledger]]`) |
+| **Decision DEFERRED this session** | `PROME/DOCKET.tsv` | **Register a dated row at creation** (deferral class, reconsider-by date) — a deferral without a ledger row has no read-path (the 46-day-limbo class; governance batch 8/9) |
+| Agent/system health or work queue | `PROME/STATUS.md` | Surgical; no market narrative (that's SCRATCH/HEARTBEAT) |
+| Regime / thresholds / near gates | `HEARTBEAT.md` | PROME owns content; **commit Will-gated** (shared doc) — scope it, get OK, never sweep it into the PROME commit |
+| Forward catalyst date moved / resolved | `PROME/DOCKET.tsv` | Update the row **and run `scripts/firetime_check.py` on citing artifacts** — DATE flag ⇒ full logic re-read, never find-replace |
+| Daily activity | `memory/YYYY-MM-DD.md` | Append durable session log; **commit at closeout** (outside `PROME/` — Chunk 4 recipe) |
+| Durable insight / lesson | auto-memory (`memory/auto/`) | Promote sparingly; index row in `MEMORY.md`; **self-commit mandatory** (root carve-out ③, step 1d) |
+| Boot sequence / conditional modules | `PROME/BOOT.md` | Only if they changed |
+| Architecture / Boot Trust Stack / doc ownership | `PROME/SYSTEM.md` | Only if a file was retired/created or ownership moved (Chunk-3 trigger) |
+| Autonomy grant/revoke | `PROME/AUTONOMY.md` **+ `PROME/CLAUDE.md` Ask-First** | Change-log alone never reaches the next boot — propagate to the auto-loaded surface |
+| Prototype learnings | `PROME/ORCHESTRAL_LAYER_DESIGN.md` or SCRATCH v_next | Pick one home, not both |
+| `PROME/FLEET_SCAN.md` | — | Don't touch (superseded snapshot) |
+| Root `CLAUDE.md`, `HEARTBEAT.md` commit, other shared | — | Flag to Will; never auto-edit |
 
-**Default:** if no owner state changed, do not write back. State bloat is worse than a quiet closeout.
+**Default:** if no owner state changed, do not write back — state bloat is worse than a quiet closeout.
 
----
-
-## Chunk 1 — State files (Light / Standard / Heavy; Bounce skips except SCRATCH addendum)
-
-### `PROME/SCRATCH.md` — full rewrite
-
-- **What just happened:** bullet list of session accomplishments
-- **Current git state:** behavior-language (e.g., "clean, synced to origin"), NOT hash references — hashes decay 2–3 commits within 48h
-- **Next planned work:** concrete entry point for next session
-- **Cautions:** in-flight items, fragile state, known-stale assumptions
-
-### `PROME/STATUS.md` — surgical update (not rewrite)
-
-- Update `Updated:` timestamp
-- Adjust `Pending Work` table — mark completed, add new, update priorities
-- Update `Active Decision Layer` table (✅ / ⚠️ / ❌)
-- ~~Update `Next Best Action` — one concrete move~~ **RETIRED 2026-08-08 (Will-ruled): `Next Best Action` is FROZEN to a pointer banner.** Do NOT write directives into it. The forward-move write-back is the `SCRATCH.md` full rewrite (★ NEXT SESSION + operator card), which this procedure already covers above. *(That duplication is exactly why the section rotted for ~6 closeouts — this line was the instruction telling sessions to maintain a second copy.)*
-
-### `PROME/ACTIVE_DECISIONS.md` — surgical update (only if a decision moved)
-
-Boot-readable decision index (**the closeout write-back for the `ACTIVE_DECISIONS.md` boot read**). Update a row whenever a non-terminal decision changed this session — new decision, state transition (DRAFT→PROPOSED→WILL_APPROVED), owner change, backstop met, executed/closed. Skip if no decision moved. Without this write-back the index silently goes stale — boot reads it but nothing refreshes it.
-
-### `PROME/HANDOFF.md` — append/rotate concise continuity entry (Standard / Heavy only)
-
-Cross-runtime Prome continuity role. Light skips unless future Prome state materially changed. Keep latest 3–5 entries live; archive older entries to `PROME/archive/`. NOT the place for full session narrative (that's SCRATCH / daily memory).
-- **What landed** — one-line referents per artifact; point at SCRATCH/memory for headlines
-- **Files edited** — compact list only when relevant
-- **Decisions Will made this session** if they affect future behavior
-- **Decisions needed from Will** if still active
-- **Risks / blockers**
-- **Next suggested work** (one-line pointer to SCRATCH, not a full restate)
-- **Rules held to** (autonomy / scope verification)
-
-**Doc-ownership separation (canonical homes):**
-- **SCRATCH** = session narrative + next-session entry point (full headlines, "what just happened")
-- **STATUS** = state tables only (agent health, Pending Work status, Active Decision Layer freshness); no narrative
-- **HANDOFF** = concise cross-runtime continuity; references SCRATCH/memory for detail
-
-**Checkpoint:** if any of these three files restate the same fact, drop it from STATUS and HANDOFF, keep it in SCRATCH. Cross-reference rather than duplicate.
+**Stamp canon (adopted 8/9, governance batch):** an `Updated:` stamp carries a **scope manifest** — what this update covers, not only when. Material section-adds bump the stamp by default (two consecutive stamp misses on material adds, 7/28 + 8/3). A peer-facing surface synced only **partially** carries a **mixed-vintage banner** naming which sections are current (HENRY `LAST_COMPLETION` block = the adopted pattern).
 
 ---
 
-## Chunk 2 — Memory (Standard / Heavy; Light + Bounce skip)
+## Chunk 1 — State files (Light/Standard/Heavy; Bounce = SCRATCH addendum only)
 
-### `memory/YYYY-MM-DD.md` — daily session log
+- **`SCRATCH.md` full rewrite:** what happened · git state in behavior-language (never hashes — they decay) · next-session entry point · cautions.
+- **`STATUS.md` surgical:** stamp, work-queue table, decision-layer freshness. ~~Next Best Action~~ **FROZEN 2026-08-08 (Will-ruled): pointer banner only — do NOT write directives into it** (the duplicated-surface rot class; forward moves live in SCRATCH).
+- **`ACTIVE_DECISIONS.md` surgical** if a decision moved (boot pairs with it — unwritten = silently stale).
+- **`HANDOFF.md` (Standard/Heavy):** concise entry — what landed, Will's decisions, decisions needed, risks, next pointer, rules held. Keep 3-5 entries live.
+- **Doc-ownership separation:** SCRATCH = narrative + entry point · STATUS = state tables only · HANDOFF = concise continuity. If two restate a fact, keep it in SCRATCH and cross-reference.
 
-Per the Boot Trust Stack (`PROME/SYSTEM.md`): daily session detail goes here, not in root `KERNELS.md` (the thesis-spine reference).
-- Create if doesn't exist for today
-- Bullet log: what was done, files changed, prototypes tested, key decisions
-- Append (don't overwrite) if multiple sessions land on the same date
+## Chunk 2 — Memory (Standard/Heavy)
 
-### Auto-memory (`memory/auto/` — git-tracked, public-bound; `~/.claude/.../memory/` is a symlink to it) — trigger-gated: run on ANY Standard+ session that earned a durable lesson (not a Heavy-only step); skip otherwise
-
-**Save only if:**
-- Surprising or non-obvious lesson
-- Validates or invalidates a pattern (record from success AND failure)
-- Not derivable from current code state
-- Not an activity log (those go in `memory/YYYY-MM-DD.md`)
-
-**Do NOT save:**
-- "Today we did X" recaps
-- Code conventions, file paths, architecture (derivable)
-- Debugging recipes (commit message is authoritative)
-
-Format: frontmatter (name, description, type) + body. For `feedback` / `project` types include **Why:** and **How to apply:** lines so future-you can judge edge cases. Add a one-line entry to `MEMORY.md` index — never write memory content into the index itself.
-
-**Checkpoint:** if no surprising lessons, skip auto-memory entirely. Memory bloat hurts more than memory absence.
-
----
+- **`memory/YYYY-MM-DD.md`:** bullet log of the day (append if it exists).
+- **Auto-memory (`memory/auto/`), trigger-gated any Standard+:** save only surprising/non-obvious lessons, pattern validations/invalidations, things not derivable from code — never activity recaps or derivable conventions. Frontmatter + **Why/How-to-apply** for feedback/project types; one-line `MEMORY.md` index row (append, never rewrite). No lesson → skip; memory bloat hurts more than absence.
 
 ## Chunk 3 — Optional residuals (trigger-gated)
 
-Run only if specific triggers fired this session:
+- **Doc retired/created** → update Boot Trust Stack (`SYSTEM.md`).
+- **Canonical doc changed** → walk its Mirror-Map row (`SYSTEM.md` → Canonical → Mirrors) BEFORE commit; mechanized: `python3 scripts/consumer_check.py --mirror-map --old <OLD-TOKEN>`.
+- **DOCKET row changed** → `firetime_check.py` on citing artifacts (DATE flag ⇒ full logic re-read).
+- **Spine-audit stamp >7d** (STATUS header) → run `PROME/tools/spine_audit.workflow.js` or hand it to next boot in SCRATCH.
+- **Autonomy change** → AUTONOMY.md log + propagate to `PROME/CLAUDE.md` Ask-First (the surface boot actually reads).
+- **Named teams-mode spawns** → **release at closeout** (`shutdown_request`) — never park warm across the boundary (`[[feedback_warm_parked_agent_collision]]`).
+- **Sub-agents ran** → diff their outputs against PROME owner docs; promote unpropagated facts before commit (`[[feedback_subagent_propagation_gap]]`).
+- **New external surface discovered** → `reference` auto-memory.
 
-- **Doc-ownership drift:** if a file was retired or created, update the Boot Trust Stack in `PROME/SYSTEM.md` (BOOT.md just points there)
-- **Canon-doc change → mirror sweep:** if a **canonical** doc changed this session (git/push protocol, machine model, HY-watch mechanism, position truth, roster, docket, trigger bands), walk its row in the **Mirror Map** (`PROME/SYSTEM.md` → Canonical → Mirrors) and verify each listed mirror BEFORE commit — deterministic sweep, not grep-and-hope. Canonical wins on drift.
-- **Docket change → fire-time re-check:** if a `PROME/DOCKET.tsv` row changed, run `python3 scripts/firetime_check.py` on that row's citing artifacts; any DATE flag ⇒ full logic re-read (never find-replace).
-- **Weekly spine audit:** if the `PROME/STATUS.md` header "Last spine audit" stamp is >7d old at closeout, run `PROME/tools/spine_audit.workflow.js` (or explicitly hand it to next boot in SCRATCH).
-- **Design-doc feedback:** if a prototype produced learnings, update the relevant design doc OR park as a v_next todo in SCRATCH — pick one home, not both
-- **Autonomy change:** if Will granted/revoked permission, update the `PROME/AUTONOMY.md` change log **AND** propagate any behavior-changing grant/revoke into the auto-loaded `PROME/CLAUDE.md` "Ask First / Do Not Do Autonomously" section — that's the surface boot actually reads (BOOT.md does not read `AUTONOMY.md`; the change-log alone never reaches the next boot)
-- **Spawned teams-mode agents:** if you named/teams-mode-spawned agents this session, **release them** (`shutdown_request`) at closeout — never park them warm across the boundary (same-name collision + cleanup-sweep-kill risk, `[[feedback_warm_parked_agent_collision]]`). Workflow / one-shot subagents auto-complete; this applies only to named spawns.
-- **Sub-agent output propagation:** if sub-agents ran (research spawns, fleet-scanner, apply-on-behalf), diff their outputs (KB / STATUS / findings) against PROME's owner docs and **promote any unpropagated fact or catalyst before commit** (`[[feedback_subagent_propagation_gap]]`) — a fact that lived only in a sub-agent's return is otherwise lost.
-- **External-system reference:** if a new external surface was discovered, save as `reference` auto-memory
+## Chunk 4 — Git + report (Standard/Heavy; Light optional)
 
-If none triggered, skip.
-
----
-
-## Chunk 4 — Git + report (Standard / Heavy; Light optional; Bounce skips)
-
-### Claim check (advisory, ~2s — run BEFORE the git sequence)
+**Root session-end steps 1b-1e** (root `CLAUDE.md` owns the full text):
+- **1b orphan check:** `bash scripts/orphan_check.sh PROME` — `[likely YOURS]` → commit per carve-out ① (⚠️ `memory/auto/` files PROME wrote are path-classified `[not yours]` but carve-out ③ makes committing them MANDATORY).
+- **1c consumer check** (if a published number was superseded): `python3 scripts/consumer_check.py --agent PROME --old <old> --new <new>` → packet each 🔴 owner, never edit their files.
+- **1d memory-index check** (if auto-memory written): `python3 scripts/memory_index_check.py --strict --slug <slug>` — the `--slug` form, never bare `--strict`.
+- **1e claim check:** `python3 scripts/claim_check.py` — **rc=1 means LOOK, not find-replace** (its first live flag was a *correct* prior-year date). Known limits: can't tell mention from use; cross-repo hashes read `missing`; placeholders flag.
 
 ```
-cd "$(git rev-parse --show-toplevel)" && python3 scripts/claim_check.py
-```
-
-### Root session-end steps 1b–1e (run with the git sequence — root `CLAUDE.md` owns the full text; 1e = the scoped weekday claim-check adopted 2026-08-04 [DAEDALUS canon ③, Will-approved 8/3] — the standalone "Claim check" section above IS that step, now canon rather than PROME-local)
-
-- **1b orphan check:** `bash scripts/orphan_check.sh PROME` — `[likely YOURS]` → commit per carve-out ①; `[not yours]` → flag (⚠️ except `memory/auto/` files PROME wrote — path-classified `[not yours]` but carve-out ③ makes committing them MANDATORY).
-- **1c consumer check (if a published number was superseded this session):** `python3 scripts/consumer_check.py --agent PROME --old <old> --new <new>` → packet each 🔴 STALE owner, never edit their files.
-- **1d memory-index check (if any auto-memory was written/edited):** `python3 scripts/memory_index_check.py --strict --slug <slug>` per memory — the `--slug` form, never bare `--strict` at closeout.
-
-Mechanical checks for the error classes that **memory demonstrably does not catch**: a **weekday** asserted against a date that isn't that weekday · a **git hash** cited as provenance that no reader can reach · an instrument quoted at its **ETF's magnitude** instead of its own · a **dead repo path** in backticks. Born 2026-07-27 (Will-directed) after a measurement pass showed the fleet's mechanical detectors fire reliably while auto-memory lessons don't — *two* errors shipped that session were in classes already sitting in PROME's own index.
-
-**rc=1 means LOOK, not find-replace.** Its own first live run proves why: it flagged DOCKET's `Q2-2024 precedent = Tue 8/6`, which is **correct** — 2024-08-06 *was* a Tuesday and the checker had assumed the current year. Reading before editing is what stopped a right answer being "fixed." (That case is now handled — bare `M/D` inherits the nearest 4-digit year on the line — but the discipline stands for the next class it gets wrong.)
-
-Known limits, so a flag is weighed not obeyed: it cannot tell **mention from use** (quoting a bad hash while *explaining* it is bad still flags); cross-repo hashes (RESEARCH-INTAKE) read as `missing`; deliberate placeholders (`..._2026-07-2X.md`) flag as dead pointers.
-
-### Git sequence
-
-```
-cd "$(git rev-parse --show-toplevel)"                    # ⚠️ STEP 0 (root CLAUDE.md Before-committing item 0): ALL git ops + safe-push
-                                                         #    from repo root — from PROME/'s launch cwd, `git status -- PROME/ memory/`
-                                                         #    SILENTLY FALSE-PASSES (pathspecs are cwd-relative). Spine-audit catch 7/1.
-git status --short                                       # overview of everything that changed this session
-git status -- PROME/ memory/                             # ⚠️ MANDATORY pre-commit check (root CLAUDE.md "Before committing" item 5):
-                                                         #    no dangling deletions (bash-mv residue), no forgotten new files, nothing staged outside scope
-# modified files — path-scoped commit, NO staging step (never `git reset HEAD`):
+cd "$(git rev-parse --show-toplevel)"                    # ⚠️ STEP 0: ALL git ops + safe-push from repo root —
+                                                         #    from PROME/'s cwd, `git status -- PROME/` SILENTLY false-passes
+git status --short
+git status -- PROME/ memory/                             # mandatory pre-commit check (root item 5): no dangling deletions,
+                                                         #    no forgotten new files, nothing staged outside scope
+# modified files — path-scoped commit, no staging step (never `git reset HEAD`):
 git commit -m "PROME: <subject>" -- PROME/<file> PROME/<file>
 # new untracked files — atomic add+commit of EXPLICIT paths (never `git add PROME/` as a directory):
 git add -- PROME/<newfile> && git commit -m "PROME: <subject>" -- PROME/<newfile>
-# mixed modified + new files: add only new explicit paths first, then commit all explicit paths:
-git add -- PROME/<newfile> && git commit -m "PROME: <subject>" -- PROME/<modified> PROME/<newfile>
-# ⚠️ Chunk 2 outputs live OUTSIDE PROME/ — commit them too, or the memory/daily-log you just wrote never ships:
-# (daily log added to the git add too, 8/3 audit #7: on the FIRST session of a day memory/YYYY-MM-DD.md is new-untracked and a commit pathspec on an untracked file errors — fails loud, but the old recipe broke on the most common fresh-day case)
+# Chunk 2 outputs live OUTSIDE PROME/ — commit them too (first session of a day: daily log is new-untracked, add it):
 git add -- memory/auto/<slug>.md memory/YYYY-MM-DD.md && git commit -m "PROME: <subject>" -- memory/YYYY-MM-DD.md memory/auto/<slug>.md memory/auto/MEMORY.md
-./scripts/safe-push.sh                                   # AUTO-PUSH at closeout — ff-gated, fails safe (serial multi-machine, Will 7/1)
-# ⚠️ POST-PUSH VERIFY — do NOT assume it landed:
-#    "Pushed." (exit 0) = good · "ABORT: non-ff" = another SESSION pushed, usually a concurrent same-box agent → do NOT force; `git pull --rebase --autostash` + re-push (routine per root canon 8/3; escalate only on out-of-dir rebase conflicts, or non-ff PERSISTING through a completed rebase→re-push cycle — bare recurrence is ordinary traffic) · "Nothing to push" when you expected commits = you forgot to commit, go back
-git status --short --branch                              # final: confirm clean tree + "ahead 0, behind 0" BEFORE reporting "synced to origin"
+./scripts/safe-push.sh
+git status --short --branch                              # final: clean tree + "ahead 0, behind 0" BEFORE reporting synced
 ```
 
-**Never `git reset HEAD`** — shared `.git/index` makes it a global unstage that races concurrent agents (auto-memory `[[finding_pathspec_commit_race_safety]]`, incident `8ac5bf71`). The scoped `git status -- PROME/ memory/` in the sequence above **is** root `CLAUDE.md`'s mandatory pre-commit check (item 5) — run it every time; see root `CLAUDE.md` "Before committing" for the full 5-step protocol.
+**Auto-push:** `safe-push.sh` is the closeout tail — ff-gated, fails safe, sweeps the push-train. **POST-PUSH VERIFY:** the literal `Pushed.` line ("Nothing to push" when you expected commits = you forgot to commit). Non-ff abort = **routine** → `git pull --rebase --autostash` + re-push; escalation rules = root canon (out-of-dir conflicts, or non-ff persisting through a completed rebase→re-push cycle). Commit style: `PROME: <short one-liner>`; **`-m` before `--`** (everything after `--` is a pathspec).
 
-**Auto-push at closeout (Will 2026-06-26; premise updated to serial multi-machine 2026-07-01).** Run `./scripts/safe-push.sh` as the closeout tail — it ff-gates the push and safely sweeps the push-train (`[[finding_push_train_pattern]]`). It **fails safe**: a non-fast-forward ABORT = the other box pushed since this clone last pulled → do not force; `git pull --rebase` + re-push (**routine** under serial multi-machine). Escalate to Will only on out-of-dir rebase conflicts or mid-session recurrence — the signatures of two machines running simultaneously, which the protocol forbids. The script never pulls/touches a shared working tree, so other agents' uncommitted edits are never at risk. *CANONICAL since 2026-06-26 — soak passed, Tier-1 promoted: root `CLAUDE.md` + `PROME/GIT_COORDINATION.md` + `[[feedback_defer_push_coordinate]]` all say auto-push-at-closeout. Lazy-sweep complete 2026-06-27 — all active domain agents on auto-push except 2 intentional holdouts (**TERRY** self-sweep, **WALTER** architectural); **YEYOU** is manual/branch (special, non-domain). Canonical record: root `CLAUDE.md` Git Protocol + HANDOFF/archive (the terminal ACTIVE_DECISIONS row was removed 7/1 per its own rules).*
-
-Commit message style: subject = `PROME: <short one-liner>`; body explains WHY not WHAT when useful. **Option order matters:** put `-m` before `--`; everything after `--` is treated as a pathspec.
-
-Other agents' uncommitted work outside `PROME/` does NOT block the push — `safe-push.sh` pushes only committed work and never touches the tree. It will sweep any other agent's committed-but-unpushed commits (the push-train — expected/correct). Only a non-ff abort stops it — routine under serial multi-machine: `git pull --rebase` + re-push (escalate to Will only on out-of-dir conflicts or mid-session recurrence).
-
-### Session summary to Will
-
-One short message:
-- **What landed:** 1–2 lines, concrete artifacts
-- **What's pending:** anything carrying forward
-- **Next session entry point:** one line, points at SCRATCH
+**Session summary to Will:** what landed (1-2 lines) · what's pending · next-session entry point (points at SCRATCH).
 
 ---
 
 ## Skip rules
 
-- **Operator card (date/catalysts/near-gates)** — now part of `PROME/SCRATCH.md`'s full rewrite; the standalone `TODAY.md` was retired 2026-07-01 (it held no unique state — ~95% duplicated SCRATCH/STATUS/ACTIVE_DECISIONS and rotted daily on its date title).
-- **`PROME/HANDOFF.md`** — cross-runtime Prome continuity. Update only when the session changes future Prome state; keep it concise and rotate/archive older entries.
-- **`AGENTS/<other>/` files** — **default: never** (other agents own their state). **Root canon "the ONLY three" carve-outs (full text in root `CLAUDE.md` Git Protocol; ① 2026-07-23 · ② 2026-07-25 · ③ 2026-07-27):** ① a packet **PROME authored** into another agent's `inbox/` is PROME's to commit — and must be (recipient named in subject; step 1b catches forgotten ones); ② a **shared-log row PROME authored** (`AGENTS/SIGNALS.md` class) is PROME's to commit, path-scoped; ③ **auto-memory files PROME authored/appended (`memory/auto/`) MUST be self-committed** + verified via step 1d (`--slug` form). **Bounded exception beyond those:** PROME may commit another agent's OWN files ONLY as a **Will-approved, per-instance apply-on-behalf action** — touching only the specific approved files and naming the authorization in the commit body. Absent explicit Will approval, never.
-- **Root `CLAUDE.md` / shared files** — flag to Will, don't auto-edit. Will-approval gates the change.
-
----
+- **Operator card** — part of SCRATCH's rewrite (standalone `TODAY.md` retired 2026-07-01).
+- **`AGENTS/<other>/` files** — default **never** (owners own their state). Exceptions = root canon's **ONLY-three carve-outs** (① self-authored inbox packets — must commit · ② self-authored shared-log rows · ③ `memory/auto/` self-commit mandatory; full text root `CLAUDE.md` Git Protocol) + **Will-approved per-instance apply-on-behalf** (specific files, authorization named in the commit body).
+- **Root `CLAUDE.md` / shared files** — flag to Will; Will-approval gates the change.
 
 ## Cross-session behavioral rules
 
-- **Behavior-language over hash-pinning** in state files (hashes go stale within 48h)
-- **Verify state before propagating** — check ground truth, don't restate from prior surface text
-- **Chunked updates** — sequence with checkpoints, don't batch 4–5 file edits in one pass
-- **`trash` over `rm`** for deletions
-
----
-
-## File-ownership reference
-
-| File | Closeout action |
-|---|---|
-| `PROME/SCRATCH.md` | Full rewrite |
-| `PROME/STATUS.md` | Surgical update |
-| `PROME/ACTIVE_DECISIONS.md` | Surgical if a decision moved (boot decisions-read pair) |
-| `PROME/GATES.tsv` | Surgical if any gate state moved (register / resolve / lapse; refresh `last_checked`; never leave `FIRED-UNEXECUTED` standing) |
-| `PROME/DOCKET.tsv` | Surgical if a catalyst date moved/resolved + run `firetime_check.py` on citing artifacts (DATE flag ⇒ full logic re-read) |
-| `PROME/HANDOFF.md` | Append/rotate concise cross-runtime continuity entry when needed |
-| `memory/YYYY-MM-DD.md` | Create or append; **commit at closeout** (outside `PROME/` — see Chunk 4 git sequence) |
-| `memory/auto/` (auto-memory; `~/.claude/.../memory/` is a symlink to it) | Selective add only; **commit + push at closeout** (canonical git-tracked home is `memory/auto/`, outside `PROME/` — see Chunk 4) |
-| `PROME/BOOT.md` | Only if boot sequence / conditional modules changed |
-| `PROME/SYSTEM.md` | Only if architecture / Boot Trust Stack (doc-ownership) changed |
-| `PROME/AUTONOMY.md` | Only if autonomy changed |
-| `PROME/FLEET_SCAN.md` | Don't touch — superseded historical snapshot (fleet state = `PROME/ROSTER.md` + DAEDALUS `FLEET_MAP.tsv`; doc-audit 7/10) |
-| `PROME/ORCHESTRAL_LAYER_DESIGN.md` | Only if prototypes produced feedback |
-| Root `CLAUDE.md`, `HEARTBEAT.md`, other shared | Flag to Will; don't auto-edit unless explicitly approved |
+- **Behavior-language over hash-pinning** in state files (hashes decay within 48h).
+- **Verify state before propagating** — ground truth, not prior surface text.
+- **Chunked updates** with checkpoints, not 4-5-file batches.
+- **`trash` over `rm`.**
 
 ---
 
