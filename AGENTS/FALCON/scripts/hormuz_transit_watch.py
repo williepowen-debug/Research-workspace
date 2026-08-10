@@ -56,8 +56,39 @@ CHOKEPOINT = "chokepoint6"          # Strait of Hormuz
 #     as "the baseline" is a range-max-as-average error — it is what made a 17% print look like 11%.
 # DISCIPLINE (unchanged, now better founded): cite "15/88" inline, never a bare %, never blend series.
 BASELINE = 88                        # TTM pre-war median, PortWatch — see provenance block above
-FRESH_LEG_BAR = 18                   # <=18/day = countable fresh leg (row 2)
+# ============================ FIRE BAR — RE-SPECIFIED 2026-08-10 ============================
+# SUPERSEDED VALUE, PRESERVED: FRESH_LEG_BAR = 18  ("<=18/day = countable fresh leg", row 2).
+# WHY IT WAS RETIRED (self-audit item 4, Will-approved via PROME — a SCRIPT-LOCAL grading bar,
+# NOT a registered GATES.tsv number; nothing Will-gated is touched here):
+#   The bar was set when the series lived near it. The series has since moved an ORDER OF
+#   MAGNITUDE: prints for 2026-07-27..08-02 ran 2-6 total/day, tankers 0-2. EVERY future print
+#   is therefore at-or-below 18, so rc=1 would fire on EVERY OBSERVATION.
+#   ⇒ AN ALARM THAT CANNOT FAIL TO FIRE CARRIES NO INFORMATION.
+#   Worse, it was semantically INVERTED against my own frozen reading bands
+#   (FRESH_LEG_BASELINE.md): "<10/day = DEEPENING · 7-14 = bypass-carries [modal] · >~18 = LEAKING".
+#   18 is the boundary of the LEAKING/recovery band — so the alarm nominally marked the condition
+#   I would read as IMPROVEMENT, while the deterioration band (<10) had no trigger at all.
+# NEW DERIVATION: alert on a BAND TRANSITION, not a level cross. The bands are unchanged and
+# remain canonical in domain/FRESH_LEG_BASELINE.md; this script now reports which band the newest
+# print sits in and fires only when that band CHANGES versus the last logged print. A level bar on
+# a collapsed series is a constant; a band transition is an event.
+#   ⚠️ Do NOT re-introduce a bare level bar without re-deriving it against the CURRENT series.
+#   This is the MIDAS 90d-vs-3wk class: the number did not drift, the WORLD moved past it.
+BAND_EDGES = (10, 14, 18)            # <10 DEEPENING | 10-14 BYPASS-CARRIES | 14-18 MIXED | >18 LEAKING
+BAND_NAMES = ("DEEPENING", "BYPASS-CARRIES", "MIXED", "LEAKING")
+FRESH_LEG_BAR = 18                   # RETAINED for the printed reference line only — NOT a trigger
 STALE_DAYS = 10                      # dataset lag alarm (normal lag ~5-8d)
+
+
+def band_of(n_total):
+    """Return the frozen FRESH_LEG_BASELINE.md reading band for a daily total."""
+    if n_total < BAND_EDGES[0]:
+        return BAND_NAMES[0]
+    if n_total < BAND_EDGES[1]:
+        return BAND_NAMES[1]
+    if n_total <= BAND_EDGES[2]:
+        return BAND_NAMES[2]
+    return BAND_NAMES[3]
 STATE_PATH = Path(__file__).resolve().parent / "hormuz_transit_watch_state.json"
 
 
@@ -119,28 +150,36 @@ def main():
           f"pre-crisis), tankers {newest['n_tanker']} — print is {age}d old"
           f"{' ⚠️ STALE (>' + str(STALE_DAYS) + 'd, check endpoint/lag)' if age > STALE_DAYS else ' (normal publication lag ~5-8d)'}")
 
+    # ---- BAND-TRANSITION LOGIC (re-specified 2026-08-10; see the FIRE BAR block above) ----
+    newest_band = band_of(newest["n_total"])
+    prev_band = state.get("last_band")
     new_rows = [r for r in rows if last_seen is None or r["date"] > last_seen]
-    review = [r for r in new_rows if r["n_total"] <= FRESH_LEG_BAR]
-    for r in rows[:7]:
-        marker = " ⚠️ REVIEW: at/below 18/day fresh-leg bar" \
-            if r in review else ""
-        print(f"  {r['date']}: total {r['n_total']:>3}  tanker "
-              f"{r['n_tanker']:>3}{marker}")
 
-    if review:
-        print(f"⚠️ {len(review)} new print(s) at/below the {FRESH_LEG_BAR}/day "
-              f"fresh-leg bar — REVIEW against FRESH_LEG_BASELINE.md row 2; "
-              f"disposition is FALCON's call, this script does not fire legs.")
+    print(f"  band: {newest_band}"
+          f"{'' if prev_band is None else f'  (previous logged band: {prev_band})'}"
+          f"   [bands: <{BAND_EDGES[0]} DEEPENING | {BAND_EDGES[0]}-{BAND_EDGES[1]} "
+          f"BYPASS-CARRIES | {BAND_EDGES[1]}-{BAND_EDGES[2]} MIXED | >{BAND_EDGES[2]} LEAKING]")
+
+    for r in rows[:7]:
+        print(f"  {r['date']}: total {r['n_total']:>3}  tanker "
+              f"{r['n_tanker']:>3}   [{band_of(r['n_total'])}]")
+
+    transition = prev_band is not None and newest_band != prev_band
+    if transition:
+        print(f"⚠️ BAND TRANSITION: {prev_band} → {newest_band} on the {newest['date']} "
+              f"print — REVIEW against domain/FRESH_LEG_BASELINE.md; disposition is "
+              f"FALCON's call, this script does not fire legs.")
     elif new_rows:
-        print(f"{len(new_rows)} new print(s) since last run — none at/below "
-              f"the fresh-leg bar.")
+        print(f"{len(new_rows)} new print(s) since last run — band unchanged "
+              f"({newest_band}).")
     else:
-        print("No new prints since last run.")
+        print(f"No new prints since last run — band {newest_band}.")
 
     state = {"last_seen_date": newest["date"],
+             "last_band": newest_band,
              "last_run": datetime.now(timezone.utc).isoformat(timespec="seconds")}
     STATE_PATH.write_text(json.dumps(state, indent=1) + "\n")
-    return 1 if review else 0
+    return 1 if transition else 0
 
 
 if __name__ == "__main__":

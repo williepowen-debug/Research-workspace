@@ -112,7 +112,21 @@ def main():
                         key=lambda it: it["pub"], default=None)
         last = (f"{newest_it['pub']:%Y-%m-%d} ({newest_it['title']})"
                 if newest_it else "unknown")
-        print(f"Baghdad channel: QUIET — last embassy alert {last}, 0 new")
+        # ⚠️ CAVEAT ADDED 2026-08-10 (self-audit item 7). The 7/18 re-source found this
+        # feed to be a CONFIRMED DEAD FALSE-QUIET CHANNEL (34 days silent straight through
+        # an ordered-departure) and DEMOTED it to a positive-alert backstop only. That
+        # demotion lived in CLAUDE.md boot 5b and domain/IRAQ_PMF_DISCRIMINATOR_REVIEW.md
+        # — but this script kept printing an unqualified "QUIET", i.e. it still spoke with
+        # its PRE-DEMOTION voice. A boot reader (or a future me at 2am) can read that as an
+        # all-clear on CONFIRM-D discriminator #5. Put the caveat where the NUMBER is read,
+        # not only where the number is documented.
+        print(f"Baghdad channel: QUIET — last embassy alert {last}, 0 new\n"
+              f"   ⚠️ BACKSTOP ONLY — this feed is a CONFIRMED false-quiet channel "
+              f"(demoted 2026-07-18). SILENCE IS NOT EVIDENCE and this line is NOT an "
+              f"all-clear on the PMF/Kataib Hezbollah discriminator.\n"
+              f"   PRIMARY read = web_search on CTP/ISW Iran Update (daily) + Shafaq; "
+              f"see domain/IRAQ_PMF_DISCRIMINATOR_REVIEW.md. This channel can only "
+              f"CONFIRM an alert, never clear one.")
 
     seen.update(it["guid"] for it in new)
     state = {"seen": sorted(seen)[-500:],
