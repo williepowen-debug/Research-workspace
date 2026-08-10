@@ -11,7 +11,7 @@
 | Item | State | Owner |
 |---|---|---|
 | **`HAW-18` → FAILED eff. 2026-08-04** | **RESOLVED this session.** Thesis untouched — see §2 | HAWK, ruling to Will |
-| **`VX-HAWK-TRADE-02` FIRED 🟡→🟠** | New country tariffs across 60 partners + Canada 50%, **both effective 8/19** | HAWK; routing owed to CARL/MARCO/REGINALD |
+| **`VX-HAWK-TRADE-02` FIRED 🟡→🟠** | **TWO actions, TWO dates (resolved at primaries 8/10): Section 301 (60 economies) EFFECTIVE 2026-07-24 — ALREADY LIVE 17 DAYS; Section 338 (Canada +50%) EFFECTIVE 2026-08-19** | HAWK; packets sent to CARL/MARCO/REGINALD |
 | **`VX-HAWK-SULPHUR-01` band-basis defect** | Bands don't state FCA vs delivered; the two straddle Orange/Red. **Held ORANGE, ruling routed** | Will |
 | **Marsh primary unfetched** | The Gulf premium *and* my capacity arithmetic are one named individual, 403 at both mirrors | FALCON volunteered |
 | **August STEO — 2027 recovery columns** | **Tue 8/11** — decides the convexity window's LENGTH | HAWK |
@@ -74,7 +74,7 @@
 
 | Row | State | Re-sweep result |
 |---|---|---|
-| **`TRADE-02`** Broad tariffs | **🟠 ORANGE ← 🟡** | **🔴 FIRED.** Section 301 forced-labor finalized 7/23 across **80+ partners** (10%/12.5% on 60 ≈ **99.4% of US imports**) + Section 338 **+50% Canada**; **both effective 8/19**. The row carried "status quo, no new country action" since 6/20 — **now false.** Broad, not China-specific: do not merge with TRADE-01 |
+| **`TRADE-02`** Broad tariffs | **🟠 ORANGE ← 🟡** | **🔴 FIRED — and it is TWO actions on TWO dates, resolved at primaries.** **Section 301** (forced labor, 60 economies; 10%/12.5%; ~99.4% of US imports) **EFFECTIVE 12:01 ET 2026-07-24 — it has been LIVE 17 DAYS** [USTR; FR dockets USTR-2026-0265/0266, notice published 7/28; Global Trade Alert]. **Section 338** (Canada +50%, proclamations 7/20) **EFFECTIVE 12:01 ET 2026-08-19**; USMCA preference does NOT exempt. The row carried "status quo, no new country action" since 6/20 — **false, and one leg had already been live for 11 days when I re-swept.** ⚠️ **UNRESOLVED: whether autos/motor vehicles are IN or OUT of the 338 annex — sources conflict; flagged to all three recipients, asserted to none.** Broad, not China-specific: do not merge with TRADE-01 |
 | **`SULPHUR-01`** Gulf sulphur→copper | 🟠 held | **ESCALATED on content:** sulfur **+269% YoY, +11.28% MoM** (8/7); SX-EW ops at **30-60 days** of acid inventory; no DRC miner FM. ⚠️ **BAND-BASIS DEFECT (8th of the family): bands don't say FCA or DELIVERED**, and the carried values ($615-630 FCA vs $900 delivered) straddle Orange/Red. **Held rather than self-approving an escalation on my own ambiguity.** Ruling routed |
 | **`IRAQ-01`** Iraq production | 🔴 held | **Explicit dated negative** — no lift located; the **3/20 FM on all foreign-operated fields** is still the extant record. Scale now on the row: Basra output **3.3M → 900k bpd**. 🔗 **This is a material input to the OPEC spare collapse in §4 — the dormant book was holding a load-bearing piece of the convexity argument and nobody had connected them** |
 | **`FININFRA-01`** Gulf fin-infra | 🟠 held | Berri/Al Jubail 8/9 is **industrial, not financial** — band NOT fired. Countervailing: Gulf sovereign bonds **rebounded**; six global institutions built permanent licensed operations through the war. 🎯 **⇒ Gulf financial infrastructure has DECOUPLED from Gulf kinetic risk — an independent, non-insurance witness for the transit-decomposition thesis** |
