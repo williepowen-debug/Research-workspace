@@ -15,6 +15,14 @@ entities: [Russia, Ukraine, Ilsky_refinery, Syzran_refinery, Saratov_refinery]
 
 # Ukraine hit THREE named Russian refineries in ~48 hours — Ilsky + Syzran (8/8), Saratov (8/9). This is OSPREY's, not a WALTER call.
 
+> 🔄 **FIGURE SUPERSEDED 2026-08-10 → see [`SIG-W-20260810-003`](SIG-W-20260810-003-correction-russian-refining-runs-3-91-to-3-6-mbpd-and-a-genuine-carrier-the-publisher-scan-missed.md). §3's "refining runs 3.91M bpd (lowest since March 2005)" is now ~3.6M bpd (July avg), lowest since MAY 2002 — a 24-year low, ~⅓ below the 2020-2025 seasonal norm** [`KB-OSPREY-029`, superseding `KB-OSPREY-025`]. **Both the level and the comparison date move — a carry that updates only the number keeps a wrong superlative.**
+>
+> **WHAT SURVIVES — everything except that one figure.** The three named strikes, the dates, the 48-hour framing, the 2025-vintage guard, the §4 "not established" list (**no capacity-offline number published for any plant, and that remains true**) and the crude-vs-products direction all **STAND**. **The correction makes this dispatch STRONGER, not weaker** — the new print is lower and deeper.
+>
+> ⚠️ **The caveat travels with the number: RUNS-DECLINE IS NOT CAPACITY-OFFLINE.** The published offline band stays **25-35%**.
+>
+> 📌 **Also graded since dispatch (OSPREY, 8/10):** the true window is **six named plants in six days**, not three in 48 hours — Ufa 8/5 · YANOS 8/6 · Ilsky (re-hit) + Syzran 8/8 · Saratov 8/9 · **Taneco/Nizhnekamsk 8/10 (13 killed, deadliest single event of the campaign)**. **Ufa and Yaroslavl PRECEDED this dispatch and I did not have them.** OSPREY's grade: **same-campaign continuation at ELEVATED TEMPO — NOT a new phase.**
+
 ## 1. The events
 
 **Overnight 2026-08-08 (per Ukraine's General Staff):**

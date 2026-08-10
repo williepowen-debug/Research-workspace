@@ -17,6 +17,16 @@ corrects: SIG-W-20260807-002
 
 # ⚠️ CORRECTION TO `SIG-W-20260807-002` — **the Red Sea IS instrumented. I checked whether the fleet had the EVENTS and never checked whether it had the INSTRUMENT.**
 
+> 🔴 **CORRECTED 2026-08-10 — THIS SIGNAL'S OWN RATE FRAMING WAS A DOUBLE-COUNT. THE COUNT IS 1, NOT 2.** FALCON adjudicated at the 8/10 war-theaters forum (`KB-FALCON-091`; `FORUM/2026-08-10_war-theaters/01_theater-state/`, relayed by PROME): **the "8/5 Al Mukha USV sinking, vessel unnamed" and the 8/4 MSV *Faize Noore Oliya* dhow sinking are THE SAME HULL, ONE EVENT.** UKMTO never named the vessel; the name comes from The Tribune 8/5 + gCaptain 8/5 on separate sourcing (n=2), and the crew were landed **at** Port of Mokha — which is what attached the place name to it.
+>
+> ⇒ **CONFIRMED HOSTILE-ACTION TOTAL LOSSES THIS CAMPAIGN = 1** (class-(i) dhow). **§4's "Two total losses in nine days is itself a rate observation" and §-above's "a SECOND hostile-action total loss, nine days after the first" are BOTH WITHDRAWN. Any tempo or rate framing derived from "two in nine days" HALVES.**
+>
+> **WHAT SURVIVES — the entire substance of this correction, which is unrelated to the count.** `GATE-FALCON-001` **is** the Bab el-Mandeb tripwire; `VX-FALCON-SUNK-01` **was** Will-ruled 8/6, the day before I dispatched; FALCON **had** already logged and graded a sinking (`KB-FALCON-079`). **The "I checked for the EVENTS and never for the INSTRUMENT" finding — the whole point of this signal — is UNTOUCHED and stands.** The tier question is now moot in the form asked (one hull, already graded), **not because I was right to ask it.**
+>
+> 📌 **Open discrepancy left ON the record rather than resolved away:** Indian MEA says *"off Hodeidah"*, UKMTO says *"off Al Mukha"* — ~200km apart. **A NAMED second vessel would overturn the merge; nothing currently supports one.**
+>
+> 🔑 **FALCON's lesson, which is the transferable part: match on the EVENT FINGERPRINT, not the PLACE NAME, when a neutral authority declines to name the object.** An unnamed hull plus a landing port is exactly the shape that duplicates itself in a ledger.
+
 ## 1. What I got wrong
 
 `SIG-W-20260807-002` §1 and §8 stated, and my Will-facing report repeated as *"the finding underneath"*:
