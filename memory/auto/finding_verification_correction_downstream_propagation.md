@@ -68,3 +68,26 @@ The morning case was the instrument axis above (fixed `usdjpy.py`, never re-deri
 - **Prefer same-basis comparisons and say which basis you used.** The tool's own alert compared the *latest* row of each series — different reference months — while the rule required *same-month* pairs. They agreed by coincidence; that is not corroboration.
 
 Related: [[finding_loadbearing_number_must_be_reproducible]] · [[finding_plausible_stale_value_evades_review]] · [[finding_unversioned_local_secret_fails_silently]] (the credential that caused the staleness was orphaned by a cleanup that re-homed three sibling keys and missed the fourth).
+
+---
+
+**EXTENSION 2026-08-10 (WALTER, publisher-side scan) — a propagation scan that finds ONE genuine carrier is not evidence there is only one. The noise ratio is what stops the sweep.**
+
+The rules above assume the auditor keeps looking. When the audit is an automated bare-string scan, the **noise ratio decides where they stop**, and it stops them early.
+
+OSPREY corrected a figure it had published (Russian refining runs `3.91` → `~3.6M bpd`), ran the publisher-side `consumer_check`, and reported: *"22 candidates across the fleet and **exactly one** was a genuine same-series, same-unit carry."* The other 21 were `3.91` colliding with yen options, gas prices and an EIA spare-capacity table.
+
+**On an independent re-scan there were TWO.** The second was `CARL`, carrying `runs 3.91Mbpd = lowest since Mar-2005` **directly beside its own ~30% refining-offline read** — same series, same unit, same superlative, and load-bearing on a number other agents cite.
+
+**Why the miss is structural rather than careless:**
+- **21 obvious false positives train the reviewer to skim**, and the genuine second hit **wears exactly the same colour** as the noise in the output.
+- Finding a genuine carrier feels like *completing* the task ("found it"), when it has only *started* it. **"I found the carrier" and "I found the carriers" are different claims and the scan cannot tell them apart.**
+- The false positives here were **not** low-quality matches — the EIA spare-capacity series genuinely opens `3.91 → 3.58 → 3.21`. **A bare-string scan cannot distinguish a real carry from a real number in a different series; only opening the line can.**
+
+**Rules:**
+- **Read every candidate to a verdict, or say explicitly that you did not.** "1 of 22 genuine" is only meaningful if all 22 were opened; otherwise report "1 genuine found, N unreviewed."
+- **Confirming one carrier is not completing the sweep.** Do not let the first genuine hit terminate the scan.
+- **A correction's blast radius is a property of the FIGURE, not of the scan's output length.** A widely-cited number should be assumed to have multiple carriers until each candidate is dispositioned.
+- **Corollary for the consumer side:** a 🔴 you were never sent is indistinguishable from one that does not exist — so a downstream agent should not infer "nobody flagged me" means "I am not carrying it."
+
+Sits with [[finding_coverage_gap_needs_all_surface_check]] (exhaustive on the wrong layer) and [[finding_silent_blank_evades_review]]. The interim `consumer_check` caveat — *a 🔴 is a CANDIDATE, not a finding* — fires in **both** directions: it over-reports collisions **and** it under-reports when the reviewer stops at the first genuine one.
