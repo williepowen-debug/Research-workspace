@@ -9,3 +9,5 @@ gamma_flip_35d	7465	2026-07-29	cboe 7881 contracts
 net_gex_35d_Bn	-59.2	2026-07-29	$B per 1%
 gamma_flip_14d	7458	2026-07-31	CBOE 3210 contracts; 14d ONLY -- 35d NOT run this session, do NOT cross-compare against the 35d series above
 net_gex_14d_Bn	-3.6	2026-07-31	$B per 1%; 14d. Like-for-like vs 7/29 14d (-39.4) = amplifier ~disengaged
+gamma_flip_35d	7666	2026-08-10	cboe 7939 contracts
+net_gex_35d_Bn	38.1	2026-08-10	$B per 1%
