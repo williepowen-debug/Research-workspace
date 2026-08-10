@@ -1,5 +1,10 @@
 # HAWK — Political Sustainability Model (Kent Resignation) | Created Mar 20 from STATUS.md
 
+> 🧊 **FROZEN 2026-08-10 — not maintained; historical only, do not cite as current.** Last substantive edit **2026-03-20 (143 days)**.
+>
+> **NOTHING SUPERSEDES THIS FILE, and that is stated deliberately rather than left implied.** It models the political sustainability of the war following the **Kent resignation of 2026-03-17** — a single dated event, five months old, whose cascade thresholds (*"2nd break = cascade threshold crossed"*) never resolved and were never re-checked. **US domestic political sustainability is not in HAWK's DOMAIN SCOPE** (cross-war synthesis + dormant book) and was not reassigned at the 2026-07-12 split, so there is **no live home to redirect a reader to.** Treat as a dated snapshot of March reasoning. **If the war's domestic-political leg ever becomes decision-relevant again, it needs a new owner and a new instrument — not a refresh of this file.**
+
+
 ## Kent Resignation — War Legitimacy Fracture
 
 **Event:** NCTC Director Joseph Kent resigned Mar 17. Letter publicly released.

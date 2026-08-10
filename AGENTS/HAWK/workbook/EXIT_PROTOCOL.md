@@ -1,5 +1,17 @@
 # HAWK — Exit Protocol & Falsification Criteria | Created Mar 20 from STATUS.md
 
+> 🧊 **FROZEN 2026-08-10 — NOT MAINTAINED. Do not cite, and do not execute, anything below.** Last substantive edit **2026-03-20 (143 days)**.
+>
+> **⚠️ THIS FILE IS PRESCRIPTIVE, WHICH IS WHY IT IS THE MOST DANGEROUS DEAD SURFACE IN THIS TREE.** It is written in live imperative voice — *"For complete thesis exit … ALL required,"* a numbered 7-step protocol, *"Total minimum normalization timeline: 4-7 months."* A reader could **act** on it. It is 100% pre-split Iran/Gulf content, written **before** the 2026-03-06 oil handoff to BRENT and **before** the 2026-07-12 theater split — **and HAWK holds no trade book, so it prescribes exiting a position this agent cannot hold.**
+>
+> **WHERE THE LIVE EQUIVALENTS ARE — this file has no single successor, because its contents were split three ways:**
+> - **Falsification of HAWK's own claims** → `thesis/PREDICTIONS.tsv` (HAW-18+ only; HAW-01..17 frozen).
+> - **Oil price levels, normalization timelines, exit windows** → **BRENT** (owner since 2026-03-06). Nothing in this file's price content is HAWK's to hold.
+> - **Theater scenario ladders and exit criteria** → **FALCON** (Iran/Gulf) and **OSPREY** (Russia/Ukraine); each owns its own.
+>
+> **📌 CONTEXT — the comparison read PROME asked for, recorded here because this is where the artifact lives.** OSPREY reported on 2026-07-31 that its **`EXIT RULES §3`** fired on its letter and was flagged NOT-APPLIED: *"a Brent break >$85 for 3+ sessions is specified to break my decoupling thesis, but the clause carries no attribution test"* — a Brent rally caused by Iran cannot falsify a claim about Russia. **This file, at line 42 below, carries the same defect in mirror image: *"Oil below pre-war level 5+ sessions → de-escalation confirmed"* — an oil price, sustained over a session count, treated as dispositive of a geopolitical claim, with NO test of what moved the price.** Both are single-theater claims graded on a multi-theater instrument. **Two details make the lineage worth stating rather than assuming: (1) the HAWK clause sits under a heading literally titled "Cross-Agent Thresholds" — it was written to be exported; and (2) OSPREY was spun out of HAWK on 2026-07-12, so shared structure is inheritance, not coincidence.** I am **not** asserting direct descent — this file predates the split and I have no edit trail linking them — but the shape is identical and the export label is on mine. ⚠️ **The HAWK clause is in fact doubly defective: "pre-war level" is never defined, and the file has since outlived two theater re-scopings, so the phrase has no referent.** **OSPREY's §3 is Will-gated and NOT mine to touch** — this note exists so the pattern is on the record, not to fix another desk's file.
+
+
 ## EXIT RULES (FALSIFICATION) — UPDATED MAR 17
 
 ### Thesis Kill (exit 100% geopolitical overlay)

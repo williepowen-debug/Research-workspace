@@ -1,3 +1,7 @@
+> 🧊 **FROZEN 2026-08-10 — not maintained; historical only, do not cite as current.** Single entry, **2026-04-20 (112 days)**.
+>
+> **What it records is a one-off boot run in which all five legacy scripts FAILED.** Those scripts (`scripts/war_monitor.py`, `thresholds.py`, `catalyst_countdown.py`, `oil_infrastructure.py`, `sanctions_tracker.py`) were **FROZEN 2026-07-09** and are **not wired into HAWK's boot** — see `CLAUDE.md` FILES table, which warns they exit `rc=0` while printing confidently stale constants. **The live boot sequence is `CLAUDE.md` § SPAWN PROTOCOL steps 0-8**, which invokes no script but `scripts/ledger_staleness.py` (repo-root). ⚠️ **Do not read this log's failures as the current state of anything** — it is a snapshot of a wiring that no longer exists.
+
 
 ## Boot Sequence — 2026-04-20 17:42 ET
 

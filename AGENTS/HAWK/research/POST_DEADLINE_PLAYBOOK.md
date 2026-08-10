@@ -1,5 +1,10 @@
 # HAWK — POST-DEADLINE PLAYBOOK (Apr 22–24)
 
+> 🧊 **FROZEN 2026-08-10 — NOT MAINTAINED. Do not execute anything below.** Created **2026-06-26 in its last edit, for an execution window of 2026-04-22 to 04-24 (110+ days closed)**.
+>
+> **⚠️ PRESCRIPTIVE, like `workbook/EXIT_PROTOCOL.md`:** its stated purpose is *"Execute Wed AM through Fri close without re-thinking strategy"* — it is designed to be followed under time pressure, which is exactly the condition in which a reader will not check its date. Its trigger (*"Apr 21 8pm ET ceasefire lapse without extension"*) resolved in April; its pre-scenario marks (D 75 / C 20 / B 5) and its Brent reference ($95.42, Apr 20) are four months stale. **Live homes: FALCON for Iran/Gulf scenario execution; BRENT for any price level; TERRY for trade construction. HAWK holds no book and executes nothing.**
+
+
 **Created:** 2026-04-20 evening | **Trigger:** Apr 21 8pm ET ceasefire lapse without extension
 **Pre-scenario:** D 75% / C 20% / B 5% | **Brent close Apr 20:** $95.42 [CONF TE]
 **Use:** Execute Wed AM through Fri close without re-thinking strategy. Read BOTTOM LINE, then section matching current hour.

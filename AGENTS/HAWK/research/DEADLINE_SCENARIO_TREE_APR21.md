@@ -1,5 +1,10 @@
 # HAWK — CEASEFIRE DEADLINE SCENARIO TREE (Apr 21 8pm ET)
 
+> 🧊 **FROZEN 2026-08-10 — not maintained; historical only, do not cite as current.** Built **2026-04-20 (112 days)** for a **72-hour horizon that closed on 2026-04-24**.
+>
+> **Its subject — the Apr 21 8pm ET ceasefire deadline — resolved 111 days ago**, and the war has since passed through the June MOU, the 2026-07-12 theater split, and the current Iran-Oman temporary-route negotiation. **Live home: FALCON owns Iran/Gulf scenario ladders** (its B/C/D marks and convergence composite). HAWK's forward catalysts live in `STATUS.md` §7 and `NEXUS_BRIEF.md`. **Read as a record of how this desk reasoned about a deadline, not as a scenario tree for any live one.**
+
+
 **Built:** 2026-04-20 evening EDT
 **Horizon:** Apr 20 PM → Apr 24 AM (~72 hours post-deadline)
 **Deadline resolution:** Apr 21 8pm ET (per STATUS/KB-HAWK-136/THESIS v1.2 — CNN/AajTV confirm; Apr 22 is Round 2 Islamabad, NOT the expiry). Apr 22 talks sit POST-deadline.
