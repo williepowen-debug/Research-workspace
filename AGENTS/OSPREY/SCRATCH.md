@@ -1,76 +1,58 @@
-# OSPREY SCRATCH — 2026-07-31 evening (full session after a 7-day dark period)
+# OSPREY SCRATCH — 2026-08-10 (war-theaters forum, PROME-orchestrated, teams-mode)
 
-**Purpose:** Ephemeral session handoff — canonical "where are we / what next." Read at boot (step 2), rewritten in full at closeout. Disposable. Learnings → `MEMORY.md`; cross-agent twin → `NEXUS_BRIEF.md`.
+**Purpose:** Ephemeral session handoff — the canonical "where are we / what next" file. Read at boot (SPAWN PROTOCOL step 2), rewritten in full at closeout. Disposable: rewritten every session, not appended to. Persistent learnings live in `MEMORY.md`; the cross-agent twin is `NEXUS_BRIEF.md`; this file is the bridge between OSPREY sessions.
+
+> ⚠️ **SESSION TYPE: WATCH-ONLY FORUM. No threshold, mark, gate or ledger row was moved.** Every mark-affecting item below is a **candidate awaiting Will**, not a state. Do not read any "candidate" line as applied.
+> **The session's substance lives in `FORUM/2026-08-10_war-theaters/` — this file is the pointer, not the record.** My three posts: `01_theater-state/01_OSPREY_*`, `02_cross-theater-coupling/01_OSPREY_*`, `03_synthesis/02_OSPREY_*` and `03_synthesis/03_OSPREY_*`. Canonical joint output: `03_synthesis/04_HAWK_joint-synthesis-FINAL-v2.md`.
 
 ---
 
-## HEADLINE: OSP-01 FAILED — and the reason is a governance defect, not a research one
-**Sheskharis** (Novorossiysk, Transneft), a **Russian** crude-export terminal moving **~1/5 of Russia's seaborne crude exports**, halted loadings **7/22-7/26** and resumed on **one berth**. My STATUS said "Channel 2 unchanged, non-countable attribution HOLDS" the entire time, and BRENT + HAWK consumed that read for nine days. Bloomberg published it **7/24 — the same day I ran a CPC day-5 gate check.**
-**Root cause: attention capture by a registered gate.** `GATE-OSPREY-001` made CPC (Kazakh, **pre-registered by me as non-countable**) a daily dated named obligation; nothing made the un-gated Russian terminals an obligation at all. → `LESSONS.md` item 5, auto-memory `finding_registered_gate_captures_attention` (committed).
-
 ## CURRENT MARKS (one line)
-Channels: refineries/products **4 🔴** (band re-derived ~30%, 25-35%) · crude-export terminals **4 🔴** (Sheskharis halted+resumed-partial; CPC re-halted 7/30, **not resumed 7/31**) · shadow-fleet tankers **3 🟠** · Brent ref [defer to BRENT].
+- Channel state: refineries/products **4 🔴** · crude-export terminals **4 🔴** · shadow-fleet tankers **3 🟠** · Brent ref ~$84.91 live 8/10 08:32 ET [PROME pull — **defer price to BRENT**]
+- **All three carried unchanged from 7/31.** Marks were *read* against fresh primaries this session, not moved.
 
-## CHANGES SINCE LAST SESSION (7/24 → 7/31)
-- **CPC reopened 7/27** (SPMs unrepaired, no FM → **willingness-bounded confirmed**, my 7/23 read, HAWK credits it) → **re-halted 7/30** on a **6th strike in 12 days**, 3rd shutdown in a month. Not resumed as of 7/31.
-- **Sheskharis** halted 7/22-7/26 — the miss above.
-- **Refinery campaign escalated hard:** Tyumen 7/25 (~2,000km, production halted, deep diesel hydrotreater) · Rostov/Taganrog + Sarapul + Yaroslavl 7/27 · **Perm 7/29 (>13 Mt/yr, deepest refinery strike) + Ryazan 7/29 (Rosneft, ~5% of national processing) same night** · **Volgograd 7/31 (~15 Mt/yr — largest of the wave)**.
-- **Fuel-export ban EXTENDED by decree, Aug 1 → Jan 31 2027** — did NOT lapse 7/31 as I had published.
-- **Golden Leo** sank 7/26 — ⚠️ **Russian** strike on a **grain** ship, NOT a Ukrainian shadow-fleet event.
-- Crude exports **4.16 M bpd** 4wk to 7/26 (vs 4.21 to 7/12) — still near record.
+## CHANGES SINCE LAST SESSION (7/31 → 8/10, 10 days dark)
+- **★ 8/8 — Ukraine agreed with senior US officials not to strike CPC infrastructure or non-Russian tankers** [Bloomberg 8/8; Kyiv Post, Ukrainska Pravda 8/8]. Safe passage for hulls not Russian-owned, not carrying Russian cargo, not Ukraine-sanctioned; points of contact established. ⚠️ **Ukraine has publicly confirmed nothing** — only "a US official." *(First met as an RT item on an aggregator; survived only because RT was relaying Bloomberg.)*
+- **CPC resumed 7/27** (three dated primaries — Bloomberg/Astana Times/kursiv — **closing PROME's 7/31 no-primary finding**), briefly re-suspended 7/31, loading from ~8/1 at **~730 kb/d vs ~1.6 M bpd plan (~45–49%)**. Tengiz **454 kb/d 7/31 vs 961 June (−53%)**. Batumi rail workaround ~24 kb/d ≈ **5% mitigation**. CPC charter rates **doubled to $338,000/day** [Times of Central Asia 8/7].
+- **Refinery campaign at its heaviest tempo of the war: six named plants in six days** — Ufa 8/5 · Yaroslavl/YANOS 8/6 · Ilsky + Syzran 8/8 · Saratov 8/9 · **Taneco/Nizhnekamsk 8/10 (13 killed, 75 wounded — deadliest single event of the campaign)**. ⚠️ **No capacity-offline figure published for any of the six.**
+- **Refining runs 3.6 M bpd in July — lowest since May 2002 (24-yr low), ~⅓ below the 5.3–5.6 seasonal norm** [EA Analytics via Bloomberg, Moscow Times 8/3]. Supersedes my 3.91/Mar-2005 anchor.
+- **Seaborne crude exports 3.9 M bpd** (4wk to 8/2), first sub-4M in six weeks [Bloomberg 8/4]. ⚠️ **SIGN: this is evidence the strike campaign PAUSED, not that supply is failing** — the lull is over, so the mechanism predicts exports rise.
 
 ## WHAT I DID THIS SESSION
-- Strike ledger swept 7/23→**7/31**, mark advanced, **+10 rows** (incl. the 7/7 Blue Stream gas backfill and the Golden Leo attribution-correction row). Ledger now 60 lines.
-- **Graded all three due predictions on frozen specs:** OSP-01 **FAILED**, OSP-02 **CONFIRMED**, OSP-03 **FAILED**. Registered **OSP-04** (DARK-mark row, owed since 7/12) and **OSP-05** (RED's rotation test, base-rate-checked at registration = 0-of-3).
-- **Re-derived the canonical refining band** (~30%, 25-35%) — same numbers, stronger basis: runs 3.91 M bpd (lowest since Mar 2005) + IEA >20% floor + FT 20-40% envelope. Proxy caveat attached.
-- **Closed three externally-flagged structural gaps:** gas/LNG (`VX-OSPREY-GAS-01` + `FLOW-OSPREY-01`), vol/credit (`FLOW-OSPREY-02`, open since spinout), VX staleness (19d).
-- **Cleared the whole mail backlog:** 7 root packets + 17 WALTER signals → `board_log.tsv` + `git mv` to processed.
-- Packets out: 🔴 BRENT (retraction), 🔴 CARL (re-dated route-out), 🟡 WALTER (consumer_check refresh), PROME (session report — ⚠️ **amended post-write: its war-risk ask was WITHDRAWN and fixed in-session**).
-- **Rebuilt the war-risk surface** after Will asked me to look into it: the escalation was wrong, the instrument was under-sourced. See OPEN THREADS.
+- Full theater refresh at live-dated primaries; **eight vintage traps rejected** (Baird 25-Jan · Insurance Business 1-Dec-2025 · beinsure 2-Feb · Maritime Executive 15-Jan · Yahoo/Bloomberg "16-month low" **7-Jan-2025** · marinelink Primorsk 23-Mar · the Ust-Luga/Unecha "half capacity" arc = **August 2025** · a search summary asserting refinery outages on dates *in the future*).
+- **Adjudicated GATE-OSPREY-001 against the frozen spec: leg (b) FIRED 7/24 STANDS; legs (a) SPM structural and (c) Tengiz FM both UNFIRED** — both negatives rest on rejected vintage (SPM-2 damage = Dec-2025; Tengiz FM = 22-Jan-2026 GTES-4 fire). **No severity leg fired while dark.**
+- **Ran the LESSONS-item-5 rule explicitly:** swept the un-gated Russian terminals (Primorsk, Ust-Luga, Vysotsk, Sheskharis) separately from any CPC check. **Negative for 8/1–8/10**, with the two false-positive traps named in writing.
+- Three forum posts + a synthesis addendum. **Pre-registered a coupling hypothesis before reading FALCON, then reported it refuted** and replaced it with **leverage-over-attacker**, which the joint synthesis adopted as the fleet's coupling mechanism.
+- **Pulled the EIA STEO primary and re-dated the fleet's central convexity claim** — extracted `compare.pdf` with `pdfminer` after a general reader failed, recovered the column headers, and showed **0.02 mb/d is a TROUGH, not a terminal value** (surplus recovers to ~2.2 mb/d annual in 2027). HAWK verified independently and **retracted its capacity-removal trajectory as a confirmed extraction artifact.**
+- Updated `workbook/WARRISK.tsv`: **attempt clock 7/31 → 8/10, data clock deliberately NOT advanced (still 7/21)**, plus an absence row for 8/1–8/10. **Refused a tempting "~2%" figure** — relay-sourced from an agricultural outlet and quoted on a bulk carrier in an Odesa-grain piece, i.e. wrong book entirely.
 
 ## NEXT SESSION (dated, future-verifiable)
-1. **★ Did the CPC 7/30 halt persist?** If it runs to **~2026-08-13** it fires **OSP-05's R2 leg** (sustained >2wk interdiction) — the nearest-to-firing rotation signal. **This is the single highest-value check next session.**
-2. **Verify the Chevron/CPC conflict:** Chevron's CEO said 7/31 that CPC is "flowing, ships loading this week" while the operator says loadings are suspended. **Not logged as a resumption.** Resolve against the operator or the Kazakh energy ministry, not the earnings call.
-3. **By 8/2:** confirm no independent >40% refining print lands 8/1-8/2 — OSP-03 was graded FAILED two days early and I accepted that residual risk in writing. **If one appears, re-open and re-grade rather than defending the call.**
-4. **RUN THE NEW CHANNEL-2 RULE:** sweep the un-gated Russian terminals (Primorsk, Ust-Luga, Vysotsk, Sheskharis) **explicitly and in writing**, separately from any CPC check. This is the LESSONS-item-5 fix and it only works if it is actually executed.
-5. **Resolve the Volgograd recirculation trap** — `RU-20260514-VOLGOGRAD` carries a low-conf May date; today does NOT resolve it (the conflated "later strike" predates today). Needs a **dated-primary re-check, not a merge**.
-6. **By 8/31:** OSP-04 resolves (are floating storage + Urals discount still DARK?). **By 8/24:** OSP-05.
-7. Un-rowed residual: **Kstovo 6/24.** Unverified: Tuymazy pump pipeline affiliation; **Rostov 7/27 terminal cargo class** (do not score until confirmed).
+1. **★ ~8/17 — THE 8/8 UNDERSTANDING'S FIRST FALSIFIER. Any Ukrainian strike on CPC infrastructure or on a non-Russian tanker breaks it.** This is the single highest-value check and it replaces the (now-resolved) CPC-persistence check. If it holds, Channel-2/3 downgrade case matures at ~8/24.
+2. **TD6 pull (Baltic route 135,000mt CPC→Augusta, assessed daily).** Registered as fleet candidate #16 — the **early, non-Marsh directional read** on HAWK's pre-registered assurance test. Pre-shock anchor exists: CPC charters doubled to $338,000/day, dated 8/7, **before** the understanding. ⚠️ **FREIGHT — direction only, NEVER a level, never a substitute for an AWRP print.**
+3. **~8/24 — Channel-2/3 downgrade checkpoint** (candidate #5, awaiting Will). Contingent on the 8/8 understanding holding. **Do not pre-apply.**
+4. **~9/8 — grade the institutional-artifact falsifier on MY OWN leverage-mechanism replacement.** *If the CPC understanding survives to ~9/8 **and** produces a written or institutional artifact — a published Ukrainian commitment, a standing notification mechanism, a third-party monitoring role — then my "structureless suspension" reading is **WRONG** and the theaters are converging, not diverging.* **The observable is a document or a standing mechanism, NOT a quiet absence of strikes.** This is mine to grade and it is the only test that can falsify the coupling account rather than merely track the event.
+5. **Deferred own-lane mechanical work, Will/PROME-cleared to do at a solo closeout:** (a) the **8/7 DAEDALUS self-rule packet** — repair the decorative thesis-kill at `CLAUDE.md:153` under `DELEGATION_TIER.md`, with the mandatory dated ruling block + `AGENTS/SELF_RULINGS.tsv` row (**an unrecorded self-ruling is a violation of the tier**); (b) the **kill-rail audit stamp** — `Kill rail audited: 2026-07-31 (defects :153/:159 Will-gated, NOT-APPLIED flags standing)`. Both deliberately skipped in the forum as falsifier-surface edits.
+6. **Tue 8/11 — August STEO.** ⚠️ **Read the 2027 RECOVERY columns, not the trough.** July and June are identical to one decimal across 2025–26, so **a stable trough reads "confirmed," never "vindicated."** The live question is whether the 2027 recovery shifts — that's where the convexity window's length lives, and where an un-audited Gulf-war assumption is buried (the recovery is ~99% Middle East).
 
 ## OPEN THREADS / WATCHES
-- 🔴 **CPC halted since 7/30, unresumed** — watch resumption AND the ~8/13 R2 date.
-- 🟠 **Black Sea war-risk: no print since 7/21, 10-day bar BREACHED — but the surface is FIXED, not escalated.** ⚠️ **I retracted my own "may be structurally unobservable" read the same session:** it came from a ONE-outlet search set, not a market limit. AWRP is **event-driven observable** (prints on step-changes). Now `workbook/WARRISK.tsv` (auto-graded, two-clock header) + boot step 5a-2 at `--days 7` + source set 1→8 + Baltic **TD6** (135kt CPC→Augusta) as a daily continuous tripwire. **The no-print finding SURVIVED re-testing against 8 outlets — it got stronger. Still: never report "unobserved" to BRENT as "unchanged."**
-- 🟠 **Thesis-kill `:153` is decorative** (DAEDALUS was right — no 60-day all-quiet window has ever existed). Fix proposed, **Will-gated, NOT self-applied** — re-scoping my own kill to be easier to satisfy is exactly the move that shouldn't be self-approved.
-- 🟠 GATE-OSPREY-001 stays FIRED (a fired gate does not un-fire). Legs (a) SPM damage and (c) Tengiz FM still unfired.
-- 🟡 Backlog: EU/Druzhba still thin (2026 Druzhba dispute + Slovak-Ukraine oil dispute now visible); strike-feed automation still unbuilt — the 7-day dark period is exactly what it would cover.
-
-## ★ FALSIFICATION CHECK (closeout step 12) — run in full 7/31, and it found a RULE DEFECT
-
-**Channel-kills (EXIT RULES §1): none fire, all three clearly alive.** Newest in-channel rows — Ch1 `product-crack` **7/31** (Volgograd), Ch2 `crude-export(terminal)` **7/30** (CPC), Ch3 `shadow-fleet(tanker)` **7/30**. Kill clocks are 30/30/21 days; none is close. Recorded as *checked*, not assumed.
-
-**🔴 EXIT RULES §3 APPEARS TO HAVE FIRED DURING THE DARK PERIOD AND I NEVER EVALUATED IT — and I think the RULE, not the thesis, is what's wrong.**
-> §3: *"Brent sustains a break >$85 for 3+ sessions with ≥2 institutional legs (BRENT-owned call) → decoupling thesis broken, re-mark all three channels' Brent-relevance upward."*
-
-Brent crossed **$100 intraday 7/23**, fell **below $90 by ~7/27**, and is in the **~$86-92** range 7/31 *(conflicting prints in one search — do NOT bank a level; **Brent's lane, BRENT's call**)*. On any of those figures **Brent has held >$85 for well over 3 sessions.** On the letter, §3 fired ~a week ago and all three channels' Brent-relevance should have been re-marked upward.
-
-**I am NOT re-marking, and I am not silently ignoring it either. The defect: §3 has NO ATTRIBUTION CLAUSE, and the rest of my framework treats attribution as fundamental.** My decoupling thesis is that *Russia's refinery campaign frees crude and therefore does not bid Brent*. The >$85 break was driven by **FALCON's theater** (Houthi strikes on Saudi tankers in the Red Sea, Hormuz near-halt) — my own standing THEATER-ATTRIBUTION GUARD says so explicitly. **A Brent rally caused by Iran does not falsify a claim about Russia.** As written, §3 would have me mark my own thesis broken on someone else's war.
-
-This is the `finding_threshold_spec_fails_before_world` class: the threshold fails on its own specification before the world gets a vote. **It is also the second decorative/defective falsifier found in my own EXIT RULES in one session** (with DAEDALUS's `:153` finding) — that pattern is itself the signal, and it suggests the whole section deserves a pass rather than two spot fixes.
-
-**NOT self-amended — deliberately.** Adding an attribution clause makes my own falsifier *harder to trigger*, which is precisely the change that must not be self-approved. **→ Folded into the same Will-gated rules session as the `:153` thesis-kill re-scope.** Until ruled: §3 is **flagged NOT-APPLIED with the reason recorded here**, so nobody reads the un-re-marked channels as an oversight.
+- 🔴 **The 8/8 CPC/non-Russian-tanker understanding** — fragile by construction: a restraint free to grant is free to revoke, and **no physical fact changed on 8/8**. Ladder: **8/17 existence · 8/24 durability · 9/8 institutionalisation.**
+- 🟠 **Black Sea war-risk: NO PRINT SINCE 7/21 — gap now 20 days.** Data clock un-advanced; attempt clock 8/10. **"UNOBSERVED" IS NOT "UNCHANGED" — never report it to BRENT as flat.** Diagnosis is **event-driven observable** (prints on step-changes), **NOT** the "structurally unobservable" claim I withdrew on 7/31. Fleet ask is a **source upgrade, not a scope limit** (candidate #9).
+- 🟠 **GATE-OSPREY-001 stays FIRED** (leg b). Legs (a)/(c) verified UNFIRED 8/10 → **row holds as-is; PROME owes only a re-dated `last_checked`** (its 8/5 flag). Still owed from my 7/24 packet: reconcile my STATUS Channel-2 upgrade-trigger wording ("sustained multi-week halt") to GATES ("≥5 sessions") — **GATES governs.**
+- 🟠 **Two Will-gated falsifier defects, still unruled and NOT self-applied:** thesis-kill `:153` (now delegated — see NEXT SESSION 5a) and **EXIT RULES §3's missing attribution clause** (row 33b, **Will-gated, not delegable — an exit rule fails test 3**). §3 remains **flagged NOT-APPLIED** with the reason recorded, so nobody reads the un-re-marked channels as an oversight.
+- 🟡 EU/Druzhba still thin. Strike-feed automation still unbuilt — **two 7-to-10-day dark periods in three weeks is exactly what it would cover.**
+- 🟡 Un-rowed residual: Kstovo 6/24. Unverified: Tuymazy pump affiliation; **Rostov 7/27 terminal cargo class (do not score)**; `RU-20260514-VOLGOGRAD` May date (needs a dated-primary re-check, **not a merge**).
 
 ## PREDICTIONS DUE / DECISIONS PENDING
-- **None due.** OSP-01/02/03 all resolved this session; OSP-04 (8/31) and OSP-05 (8/24) are the only live rows.
-- **Pending Will (2, was 3):** (a) thesis-kill `:153` re-scope; (b) `EXIT RULES §3` missing attribution clause. ⚠️ **Both are falsifier changes that would make my own thesis HARDER to kill — that is precisely why neither is self-applied.**
-- **WITHDRAWN — war-risk surface.** I escalated it as "may be structurally unobservable, needs a source upgrade or a scope limit." **That was wrong: it was a one-outlet search set, not a market limit.** Fixed in-session instead — `workbook/WARRISK.tsv` (auto-graded, two-clock header), boot step 5a-2 at `--days 7`, source set 1→8, and Baltic **TD6** (135kt CPC→Augusta) registered as a daily continuous proxy. **Instrumentation, not a falsifier — so self-applying was appropriate here and is NOT precedent for (a) or (b).**
+- **OSP-04** (DARK aggregates un-refreshed) — closes **8/31**. Tracking CONFIRMED; nothing refreshed floating storage or the Urals discount in my window.
+- **OSP-05** (RED rotation test) — closes **8/24**. **0-of-3 today; R2 RECEDED.** Two candidates pending Will: **3a** reprice 40% → ~20–25% (confidence move, reason = R2 receded); **3b** **R3 flagged RESOLVABILITY-DEFECTIVE** — it needs an attribution this desk cannot independently perform. **⚠️ 3b is a STATUS question and must NOT be absorbed into the probability.** If R3 is unresolvable, OSP-05 is effectively **2-of-2 on {R1,R2}** — harder than registered.
+- ⚠️ **EXPIRED UNEVALUATED — recorded, not deleted** (`finding_dated_carry_item_has_no_expiry_check` class): my 7/31 SCRATCH item 3 — *"By 8/2: confirm no independent >40% refining print lands 8/1–8/2; if one appears, re-open and re-grade OSP-03 rather than defending the call."* **The window passed on 8/2 and nobody checked it.** OSP-03 stands FAILED on a call graded two days early with the residual risk accepted in writing. **Cheap to close: one dated search of 8/1–8/2 independent aggregates.** Do it before citing OSP-03's calibration.
+- **Awaiting Will (candidates, not states):** refining band re-centre ~30% → **~33%** (band 25–35% held, basis re-stamped to 3.6/May-2002) ⚠️ **the runs-vs-capacity proxy caveat MUST ride with it** — it is load-bearing for a crack trade; Channel-2/3 downgrade (#5); OSP-05 3a/3b; TD6 registration (#16).
 
 ## MAIL STATE (one line per surface)
-- Inbox (root): **EMPTY** — 7 packets processed → `inbox/processed/` (11 total).
-- WALTER lane: **EMPTY** — 17 signals dispositioned → `board_log.tsv` (22 rows) → `inbox/WALTER/processed/` (22 total).
-- **BOARD index (boot step 6b): SCANNED AND CLEAN 7/31 — this is a "checked, unchanged," NOT a "not checked."** Parsed all **645** BOARD rows; **20 name OSPREY as a recipient (all time), 0 unlogged.** Also ran the inverse check prompted by tonight's lesson — RU-UA-theater keywords in rows where OSPREY is **absent** from recipients: 3 hits, **all keyword false positives** (Iran anchor 7/23 = FALCON; climate-ad 7/25 + Rhine levels 7/28 = AEOLUS, matched on "refiner"). **No theater content routed without me.** ⚠️ Two scope limits on that zero, stated so nobody over-reads it: (a) it scans INDEX **rows**, not signal **bodies** — a Russia mention buried in a signal filed under another cluster would not surface; (b) the base-rate check that makes the zero credible is 645-parsed/20-matched — a **first attempt returned 3 false "unlogged" hits** because it extracted every SIG-ID appearing anywhere on an OSPREY line, including IDs quoted inside other rows' text. Parse the **recipients column**, never grep the line.
-- Outbox: 7/31 PROME session report (undelivered until PROME processes).
-- Delivered this session: BRENT inbox + CARL inbox (self-authored, committed under carve-out ①).
+- **Inbox (root): 4 packets UNPROCESSED** — 7/31 PROME review *(finding #1 now RESOLVED this session — the 7/27 CPC reopening has dated primaries; still needs the KB-011→KB-025 supersession one-liner to BRENT/CARL/HAWK)*, 8/5 PROME gates-refresh flag, 8/7 DAEDALUS falsification-rail retrofit, 8/7 PROME self-rule packet. **Not `git mv`'d — the forum barred git.**
+- **WALTER lane: 8 signals unprocessed.** `SIG-W-20260809-004` (three refineries) **graded in the forum** — same-campaign continuation at elevated tempo, and the true window is **six plants in six days**, larger than the signal. The other 7 are Iran/Gulf-theater and route to FALCON on disposition.
+- **Outbox: clear.** All cross-agent output this session went via forum posts + PROME.
 
-## PENDING PUSH / GIT
-- Auto-memory `finding_registered_gate_captures_attention` + `MEMORY.md` index row committed separately (carve-out ③); `memory_index_check --strict --slug` passes.
-- Session files committed pathspec `AGENTS/OSPREY/` + the two self-authored inbox packets, then `scripts/safe-push.sh`.
+## PENDING PUSH / GIT (if any)
+- **I ran NO git commands this session** (charter §5 — three concurrent writers on one index). **PROME commits my pathspec**, including this file. Forum tree committed by PROME at `422f8b8ef` (Ph1), `806d4ad64` (Ph2), `cfff46b0f` (final).
+- **Owed at my next SOLO closeout** (normal auto-push applies again): inbox `git mv` to `processed/`, the KB-025 supersession packet, and items 5a/5b above.
