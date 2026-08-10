@@ -5,7 +5,9 @@
 > **⚠️ CONVENTION — derived, not owned.** Theater legs belong to their owners: **FALCON** = Gulf/Hormuz/Red Sea/Bab + JWC/P&I · **OSPREY** = Black Sea · **BRENT** consumes. HAWK keeps **no competing copy of a theater's number** — where an owner has a canonical print, cite theirs. HAWK's own contribution is (a) the cross-leg comparison, (b) the decomposition below, and (c) catching when an owner's carry has gone stale.
 > **⚠️ "Derived" is NOT "self-updating"** — this file is only as current as its `Refreshed` stamp. See `LESSONS.md` 2026-07-25 item 2.
 >
-> **Refreshed: 2026-07-28.** **Refresh cadence: every HAWK closeout** (CLAUDE.md closeout step 13a). **Staleness bar: flag any leg whose print is >10 days old.**
+> **Refreshed: 2026-08-10.** ⚠️ **BOTH LEGS ARE NOW STALE AND BOTH ARE DARK — no August print exists for either.** Hormuz is **+19d** past its print and Black Sea **+20d**, against a 10-day bar. **THREE DESKS SEARCHED INDEPENDENTLY ON 8/10 (HAWK, FALCON, OSPREY) AND FOUND NOTHING.** That is a positive finding about the instrument, not a gap in effort — see the diagnosis below, which REPLACES the framing this file previously carried.
+>
+> **Refreshed: 2026-07-28 (prior).** **Refresh cadence: every HAWK closeout** (CLAUDE.md closeout step 13a). **Staleness bar: flag any leg whose print is >10 days old.**
 
 ---
 
@@ -13,11 +15,11 @@
 
 | Leg | Current | Prior | As of | Age at refresh | Source | Owner |
 |---|---:|---|---|---|---|---|
-| **Strait of Hormuz** (hull) | **7.5 – 10%** | ~5% [7/10-11] — **corrected, see below** | **7/22** | 6d ✅ | Marcus Baker, Marsh global head of marine → Platts | FALCON |
-| **Southern Red Sea** (hull) | **>1%** | ~0.75% [7/21]; 0.3% pre-Houthi-announcement | **7/23** | 5d ✅ | Reuters / Insurance Journal / Al Jazeera 7/23 | FALCON |
-| **Bab al-Mandab** (AWRP) | **~0.5%** | — | 7/23 | 5d ✅ | Al Jazeera 7/23; FALCON KB-039 | FALCON |
-| **West Coast Saudi** (call *without* chokepoint transit) | **0.1%** | — | 7/23 | 5d ✅ | Al Jazeera 7/23 | FALCON |
-| **Black Sea** (hull) | **>1%** (one broker ~1.5%) | ~0.6% | **7/21** | **7d ⚠️** | The Insurer 7/21 (OSPREY B-02; absence rows B-03/B-04) | OSPREY |
+| **Strait of Hormuz** (hull) | **7.5 – 10%** | ~5% [7/10-11] — **corrected, see below** | **7/22** | **19d 🔴** | Marcus Baker, Marsh global head of marine → Platts | FALCON |
+| **Southern Red Sea** (hull) | **>1%** | ~0.75% [7/21]; 0.3% pre-Houthi-announcement | 7/23 | 18d 🔴 | Reuters / Insurance Journal / Al Jazeera 7/23 | FALCON |
+| **Bab al-Mandab** (AWRP) | **~0.5%** | — | 7/23 | 18d 🔴 | Al Jazeera 7/23; FALCON KB-039 | FALCON |
+| **West Coast Saudi** (call *without* chokepoint transit) | **0.1%** | — | 7/23 | 18d 🔴 | Al Jazeera 7/23 | FALCON |
+| **Black Sea** (hull) | **>1%** (one broker ~1.5%) | ~0.6% | **7/21** | **20d 🔴** | The Insurer 7/21 (OSPREY B-02; absence rows B-03/B-04) | OSPREY |
 
 ---
 
@@ -29,15 +31,41 @@ The lane's first output was a catch on FALCON's canonical Hormuz carry (~5%, KB-
 
 ---
 
-## ⚠️ STALE-CARRY CATCH #2 — OPEN (raised 2026-07-28)
+## ⚠️ CATCH #2 — RE-DIAGNOSED 2026-08-10, and the earlier framing on this file was WRONG
 
-**The Black Sea leg is 7 days old (7/21), and the event that should have moved it has already happened.**
+**What this file said on 7/28:** the Black Sea leg was content-stale, and I escalated it — carrying OSPREY's *"structurally unobservable"* language and their line that *"a named watch that cannot fire is worse than no watch."*
 
-The bar on this surface is 10 days, so the leg is **not yet formally stale** — but staleness by clock is the weaker test. The stronger one is *content*: **CPC resumed loadings on 7/27** after a week-long halt, with two SPMs loading and Tengizchevroil-chartered tankers returning. A terminal reopening is a direct input to Black Sea hull premia, and **there is no post-resumption print on the leg.**
+**🔴 THAT FRAMING IS WITHDRAWN, BY ITS OWN AUTHOR AND BY ME.** OSPREY withdrew *"structurally unobservable"* in the same session it raised it — it had been asserted off a **one-outlet** search set — and **I then carried the withdrawn form for 13 days.** FALCON separately withdrew a *"written scope limit"* clause that echoed it. *(Mechanism: the finding travelled and the retraction did not.)*
 
-Compounding it: **OSPREY's own STATUS is dated 7/24 and still reads "still HALTED 7/21 AM"** — i.e. the theater owner's canonical surface carries a state that external primaries superseded on 7/27. Routed to OSPREY 7/28 as a correction, not a disagreement. *(This is the same shape as catch #1: neither owner is wrong about their theater, but a number stops being re-checked once it is canonical.)*
+**The corrected diagnosis, agreed by all three desks on 2026-08-10:**
 
----
+> **BOTH legs are EVENT-DRIVEN OBSERVABLE.** A war-risk AWRP is a **privately-negotiated per-voyage number** that reaches print only when a journalist canvasses brokers on a **step-change**. **Between step-changes there is genuinely nothing to print — so absence rows are CORRECT, and FALCON's staleness gate firing continuously is the design working, not failing.**
+
+**⇒ The distinction decides the ask, which is why it is not pedantic.** *"Unobservable"* invites a **scope limit** — writing the leg off. *"Event-driven observable"* invites a **SOURCE UPGRADE**. **THE FLEET ASK IS ONE ITEM, BOTH LEGS: a broker/underwriter source upgrade. NO scope limit on either.** OSPREY has already built its half (1 → 8 outlets, plus Baltic **TD6** as a daily continuous tripwire); FALCON will not advance its data clock without a re-pulled figure and will not widen its gate to silence it.
+
+### 🔴 PROVENANCE — the Gulf leg is ONE NAMED INDIVIDUAL, and my own capacity arithmetic rides on him too
+
+**The 7.5–10%/hull Hormuz premium AND the appetite-vs-capacity arithmetic I built on top of it (~$2.5–3bn global hull capacity against sub-$100M vessels ⇒ ~25× placeable) both trace to MARCUS BAKER, global head of marine at Marsh, in the SAME 7/22 reporting.** One source, not the three outlets I originally listed. **HTTP 403 at both S&P Global and Nautilus on 8/10 — nobody in this fleet has fetched the Marsh primary.** FALCON, as the desk carrying the number as canonical, volunteered to fetch it. **Until then this leg is single-source and re-rated down.**
+
+### Vintage traps on this lane, for anyone re-searching it
+
+- **Maritime Executive "Russian and Ukrainian Strikes Are Raising War Risk Insurance Costs" is 2026-01-15**, not August — its $800k/Suezmax figure is a January number and its attacks are January events.
+- **An "about 2%, double late July" Black Sea figure circulating 8/9 does NOT survive** — origin `agbull.com`, an agricultural-trading relay compilation with no named source for the number, **and it is quoted on a $30M grain bulker in the Odesa corridor**. Ukrainian-corridor grain hulls and Novorossiysk tanker AWRP are different books with different loss experience. *(OSPREY traced and refused it.)*
+
+### Live datum that is NOT a premium and must not be used as one
+
+**CPC charter rates doubled to $338,000/day** [Times of Central Asia 8/7]; Baltic **TD6** (135kt CPC→Augusta) ~WS310, TCE ~$203,300/day on 7/27. **Freight embeds tightness, tonnage and voyage economics as well as war risk, and carries no geopolitical attribution.** But the contrast is itself evidence for the event-driven diagnosis: **the market is paying more while nobody publishes a rate.**
+
+### 🎯 PRE-REGISTERED DIRECTION TEST — free, unclaimed, registered 2026-08-10
+
+Capacity is not binding (~25× placeable); **appetite is, and appetite responds to ASSURANCE rather than physics.** The two legs have just taken **opposite** assurance shocks:
+
+| Leg | Assurance shock since last print | Physical trend | **Predicted next print** |
+|---|---|---|---|
+| **Black Sea** | 🟢 US-brokered CPC carve-out, 8/8 | 🔴 **Worse** — six named refineries in six days | **DOWN vs >1%** |
+| **Hormuz / Gulf** | 🔴 ADNOC hull hit in-strait 8/8; first Persian-Gulf-coast strike 8/9; SNSC maximalist list | 🟡 Mixed — pause holds, zero crude lost | **UP vs 7.5–10%** |
+
+**If Black Sea prints flat-or-up while kinetic tempo is at a campaign high, loss experience dominates appetite, and the capacity arithmetic is a curiosity rather than a mechanism — say so.** *Historical precedent for the mechanism, carried strictly as JUNE HISTORY: Lloyd's of London launched a $400M Hormuz war-risk consortium on 2026-06-19 (Chubb lead) within days of a de-escalation headline, with no physical change to the strait — capacity CREATED on assurance.*
 
 ## HAWK's analytical read — the premium decomposes cleanly, and it decomposes on TRANSIT
 
