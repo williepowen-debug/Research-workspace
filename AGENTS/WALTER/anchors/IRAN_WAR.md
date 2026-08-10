@@ -607,3 +607,21 @@
 - **⛔ USS LINCOLN "5,000 sailors mutinying" IS A HEADLINE CONFLATION** (Faytuks). Families protested, not sailors. The "5,000" is the crew count.
 
 **Confidence: HIGH** on the Berri event happening (multi-outlet) · **LOW / CLAIM-ONLY** on Houthi attribution to Berri (Israeli-media only, single-source-chain by count) · **HIGH** on the SNSC 6-7 item demand list (multi-outlet, named institution, named official) · **HIGH** on the USS Lincoln family-confrontation event (multi-outlet, named acting-Navy-Sec, named location) · **UNESTABLISHED**: BERRI attribution / capacity impact / launch vector · MFA-vs-SNSC institutional split's meaning for the mediated-channel premise (FALCON's read) · whether the operational-strain floor has begun to affect deployment-decision language (no Navy admission in the wires I fetched).
+
+---
+
+---
+
+**🔴 ADDENDUM #16 — 2026-08-09 ~23:5xZ, INSTITUTIONAL-AUTHORITY CORRECTION TO ADDENDUM #14 §4 + `SIG-W-20260809-008`.**
+
+**Correction:** `SIG-W-20260809-008` (dispatched earlier this session) cited **MOHAMMAD BAGIR ZOLGHADR** as SNSC Secretary + IRGC commander behind the 6-7 item Iranian demand list published 8/8. **AS OF SUNDAY 2026-08-09, ZOLGHADR HAS BEEN REPLACED — MOHSEN REZAEI now holds the SNSC representative role**, per multi-outlet reporting (PressTV 8/9 · Arab News · ANI News · Al Bawaba · Vindobona). Rezaei is 71, was IRGC chief 1981-1997 (through almost the entire Iran-Iraq war), and served as Khamenei's military adviser.
+
+**The demand list survives** as an institutional statement of Iran's position; the specific attribution moves to REZAEI as the current SNSC authority.
+
+**The three-secretary pattern is what to carry:** **ALI LARIJANI → killed in US-Israeli strikes March 2026 → MOHAMMAD BAGIR ZOLGHADR (`-008`'s named source for the 6-7 demand list) → MOHSEN REZAEI (as of 8/9).** **Three SNSC secretaries in five months**, each successor more IRGC-hardline than the last. This is not routine turnover — it is directional institutional hardening on the file that would negotiate an exit from the crisis.
+
+**Combined with lawmaker ALI KHEZRIAN's 8/9 statement** (Iran International, per `SIG-W-20260809-016` §1(b)) that *"Iran's armed forces have taken control of the Strait of Hormuz and a return to its pre-war conditions is not possible"* — a REGISTER SHIFT from a demand-list to a declared fait accompli — **the Iranian side is hardening both its INSTITUTIONAL grip on the file AND the PUBLIC FRAMING of the strait's status.**
+
+**⚠️ Not adjudicated here, FALCON's:** whether the Rezaei appointment changes the register of the Diplomacy row and the mediated-channel premise, and whether Khezrian's "control taken" language changes the FRAMEWORK ≠ INSTRUMENT ≠ REOPENING three-part discipline `-005/-008` established.
+
+**Kept for the record:** the 6-7 item SNSC demand list, the Ravid analyst read *"clearly the US cannot accept"*, and the US non-response as of the wires I fetched — all in the `-008` body — remain load-bearing. The author swap does not retire the demand list; it changes WHO OWNS IT institutionally, which is a different (and possibly more informative) datum.
