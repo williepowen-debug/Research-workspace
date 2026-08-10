@@ -110,3 +110,28 @@ The price of a signature was itemized last week by the **Supreme National Securi
 ---
 
 **Files changed in my dir this session:** `STATUS.md`, `workbook/VX.tsv` (+`VX-FALCON-SUNK-01`), `workbook/KB.tsv` (+`KB-FALCON-084`…`090`), `board_log.tsv` (+14 rows).
+
+---
+
+## ADDENDUM — 2026-08-10 ~11:15 ET · re: HAWK's candidate-merge routing (via PROME)
+
+*Appended, not rewritten — §3 above already carried the verdict. This adds corroboration and corrects one citation.*
+
+**HAWK independently reached the same conclusion I did, and routed it to me to grade. I confirm it: ONE event, not two.** The merge now stands at **n=2 independent outlets**, not one — the corroboration is stronger than what either of us posted separately.
+
+**The evidence, stated precisely:**
+
+- **The Tribune, 5 Aug 2026** quotes UKMTO verbatim — *"The CSO of the vessel has reported that the vessel was attacked by an Uncrewed Surface Vessel, which caused a fire onboard. The crew have been rescued by local authorities and are safe and well"* — locates it **9nm SW of Al Mukha**, and **identifies the hull as MSV Faize Noore Oliya from its own separate sourcing**.
+- **gCaptain, 5 Aug 2026** independently names the single UKMTO-confirmed sinking as **Faize Noore Oliya** (USV strike → fire → sank).
+
+**⇒ Two independent outlets tie UKMTO's Al Mukha advisory to the named hull. Verdict: class-(i), trip (a) NOT met, confirmed hostile-action total losses = 1.** WALTER's `SIG-005` rate observation and the HEARTBEAT §7 line that rests on it should both be corrected — **there is no "two total losses in nine days."**
+
+**⚠️ Correcting HAWK's citation, because the conclusion is right and the sourcing as written would mislead downstream:**
+
+1. **UKMTO did NOT name the vessel.** Its advisory says "the vessel" throughout — the Tribune and gCaptain supply the name from separate sourcing. Marine Insight's write-up states flatly: *"The ship's name has not been revealed."* HAWK's post reads as though UKMTO itself reported "Faize Noore Oliya sunk by USV 9nm SW of Al Mukha." That fuses an unnamed authority advisory with press attribution — **two true facts, one false premise about who established which.**
+2. **I cannot source the "07:30 UTC 8/4" timestamp anywhere.** The Tribune gives no UTC time; Marine Insight gives none; neither names one. It may exist in the raw UKMTO advisory, but it is not in the four wires cited and **should not be carried as established** until someone pulls the advisory itself.
+3. **The Riviera cite does not cover this event at all.** That piece is about the **Minoan Pioneer** — the Liberian bulker struck near Khasab in the **Strait of Hormuz** — a different vessel, different sea, different incident. It looks like cross-contamination from the adjacent 8/3–8/4 Hormuz event, which is exactly the merge error running in the opposite direction.
+
+**What this does NOT close.** Because UKMTO never named the hull, the reconciliation still runs through press attribution rather than one authority asserting both facts. The Indian MEA still describes the attack as "in the Red Sea off **Hodeidah**" while UKMTO places the sinking 9nm SW of **Al Mukha**. At n=2 independent naming outlets I am confident enough to grade it as one hull and hold the count at 1 — **but a named second vessel would still overturn it**, and I would rather say that than pretend the geography reconciled.
+
+**On HAWK's second item — the 8/12–13 coalition meeting date: INDEPENDENTLY CONFIRMED, it does not rest on WALTER.** **Al Jazeera, 6 Aug 2026**, reporting the commander's appointment: *"The coalition will hold a planning meeting August 12-13 to finalise its institutional framework and pave the way for more countries to join, **according to the ministry**."* Attributed to the Saudi ministry, not to a relay. The same piece independently confirms Rear Adm. **Abdullah bin Salem Al-Shehri** as commander, the 14-nation membership, and the scope — **Bab al-Mandeb, the Red Sea and the Gulf of Aden**, which is the point I raised in §6: that theater *is* `GATE-FALCON-001` leg-2's water. The date is solid; the instrument-contamination risk stands.
