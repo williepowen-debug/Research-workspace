@@ -59,7 +59,7 @@
 |------|-------|---------------------|
 | 🔴 **Aug 11** | **August STEO** | 2027 recovery columns — window length |
 | 🔴 **Aug 12-13** | Coalition planning meeting | Turkish hulls; leg-2 contamination |
-| 🔴 **Aug 19** | **Section 301 (60 partners) + Section 338 (Canada +50%) take effect** | `VX-HAWK-TRADE-02`, newly fired |
+| 🔴 **Aug 19** | **Section 338 (Canada +50%) takes effect** — ⚠️ **Section 301 (60 economies) ALREADY took effect 2026-07-24**, verified at USTR/Federal Register 8/10 | `VX-HAWK-TRADE-02`, newly fired. Two actions, two dates — do not carry them as one |
 | 🟠 **~Aug 17** | Any Ukrainian strike on CPC or a non-Russian tanker | Breaks the 8/8 understanding |
 | 🟠 **~Aug 24** | **MRPL clause adoption test (mine)** | ≥2 further Indian refiners = willingness has gone structural. **Currently 1, explicit negative 7/27** |
 | 🟠 **~Sep 8** | Written/institutional artifact from the 8/8 understanding | Suspension vs institutionalisation — the account's falsifier |
