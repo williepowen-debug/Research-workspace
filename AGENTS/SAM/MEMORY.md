@@ -31,15 +31,27 @@
 
 ## Session Notes
 
-### CHANGES SINCE LAST SESSION (Tue 8/4 close → Fri 8/7 boot)
+### CHANGES SINCE LAST SESSION (Fri 8/7 close → Mon 8/10 boot)
 
-- **JGB 30Y auction 8/6 FIRM** (BTC 3.864×, tail 1.5bp) — the Meiji ~4.0% floor held its live test; belly softness did NOT spread to the super-long. Long end rallied ~7bp.
-- **MOF weekly wk 7/26-8/1 = +¥478B** — reverses 2 SELL weeks but misses the ≥+¥500B durable bar by ¥22B. Dead middle.
-- **Sep BOJ OIS repriced again**, 39.7% → 45.6% (8/6) — a 4th consecutive move against route 1.
-- **Brent retraced UP** to $82-83 from the 8/4 $79.98 low.
-- **8/7 AM: US NFP −23K with −103K net revisions**; Sep Fed *hike* odds 57% → 43.9%.
+- **🔴 Yen SOLD OFF and it is yen-side, not dollar-side.** USD/JPY 157.745 close → **159.34 (+1.00%)**; the yen is the **weakest of every major** (GBP/JPY +1.09, EUR/JPY +0.84, AUD/JPY +0.77, CHF/JPY +0.70) on a dollar that moved only +0.29%. **Exact mirror of Friday**, which was dollar-side yen *strength* with the yen mid-pack.
+- **🔴 Brent +5.03% to $87.75** on a weekend Hormuz cluster: 8/8 ADNOC tanker struck in the southern corridor (UAE FM + GCC attribute to Iran) · 8/9 lawmaker Khezrian declares the armed forces have "taken control" and pre-war conditions are not returning · 8/9 Rezaei (IRGC chief 1981-97) replaces Zolghadr at the SNSC — **third SNSC secretary in five months, each more hardline.**
+- **Yen-weak + oil-up together = oil-in-yen Phase 1 operating exactly as written** (terms-of-trade hit on a ~90% ME-oil-dependent importer ⇒ yen-NEGATIVE). Not the Phase-2 haven bid.
+- **VIX 15.45 (+3.69%)** — up, but not a risk-off regime at that level. SAM-31 unfired; **third failed re-couple test in 12 days.**
+- **No new CFTC print** (next Fri 8/14, Aug-11 data) and **no new MOF weekly** (next Thu 8/13). BOJ OIS as-of 8/7 (Sep 45.8%) **predates the weekend cluster.**
+- **Iran's demand list hardened institutionally** — SNSC (not MFA), six-to-seven items including **war reparations**; Axios reads it as one the US "clearly cannot accept" ⇒ ultimatum shape, not opening bid.
 
-### LAST SESSION (Fri 8/7 — THE PRINT DAY. The frame broke.)
+### LAST SESSION (Mon 8/10 — first boot after the break. Nothing re-armed; two findings, one staleness.)
+
+- **🟢 Verified the 8/7 print's COHORT COMPOSITION at the TFF primary — it strengthens Friday's read.** I had graded "position REVERSAL, not liquidation" off the **aggregate and flat OI alone**. Pulled `FinFutWk.txt`: **lev-money short −42,159 · asset-mgr short −38,463 · other-rept long +36,262**, dealers absorbing. **Every speculative book turned at once** ⇒ intervention-forced cover, and the "one big fund blew up" explanation is **ruled out**. *A reconciliation request from another agent produced a finding about my own print that I had not gone looking for.*
+- **🟢 The JGB CASH curve independently corroborates the 8/7 TFX futures finding.** Week to 8/7: **2Y +10.4bp (1.507 → 1.611, highest in the tracked series)** while **30Y −5.7bp, 40Y −5.2bp**. Front-end bear / long-end bull = **hike PULL-FORWARD, not term premium** — same conclusion the 3m-TONA derivation reached from a different market. **Two instruments, two markets, one conclusion.** Also 🟢 for Pillar 2: the super-long rallying while the front sells off is the Meiji ~4.0% floor working, the same week its 8/6 auction passed.
+- **🔧 WALTER caught a staleness I did not.** STATUS § CHANNELS·BOJ still read *"Oct ~64%, Sep ~23%"* — a **7/31 vintage that survived two repricings while the live table directly above it in the same file said 45.6%.** **Fourth surface for that one number.** Fixed, and added a standing guard: **never restate a BOJ-pricing figure in prose; cite the table.** ⚠️ The general lesson is that **a stale prose line sitting above a fresh table is invisible to me and obvious to a reader** — my own 8/4 and 8/7 sweeps both walked past it.
+- **Answered the wire-vs-pricing question with two different answers, deliberately.** Kyodo says a Sep hike is "all but locked in"; pricing says 45.8%. **(a)** my ~23% was stale — WALTER's reading #1 correct as to my surface; **(b)** 45.8% is still **not** "locked in" — his reading #2 correct as to the wire. **Both halves were true about different objects.** Resisted the pull to pick one.
+- **🟠 Pushed WALTER's `-014` UP the ladder — it arrived ROUTINE and is the batch's most decision-relevant item.** ESF Q1-2026: euro assets $13.13B but only **$5.74B in cash**; a repeat US-side op at the notepad's "$5-10 bil" uses **88-175% of the fungible cash leg alone**. **The US leg of the two-sovereign regime has a balance-sheet ceiling.** Flagged as a **CEILING CANDIDATE, not a measured constraint** — Q1 predates the op by 4 months and **FIMA repo capacity may bind instead**, which is now the highest-value open item on the intervention file.
+- **Processed all 10 queued WALTER signals** (5 acted / 3 noted / 2 info-only), logged with dispositions, `git mv`'d to processed, and sent one consolidated reply answering all three asks at primary rather than three acknowledgements.
+- **Moved the closed 8/3 intervention-character pre-registration out of STATUS** → `thesis/INTERVENTION_CHARACTER_2026-08-03_PREREGISTRATION.md` (consumer check run first: **nothing outside STATUS cited it by section name**). Recorded at the move which of its three legs died with the frame (leg 3, the crowded-short fuel) and which are frame-independent (legs 1-2) — **which is why SAM-39 is graded on its own terms and not retired alongside the thesis.** STATUS 249 → 232 lines.
+- **Held the line on re-animation.** A yen-weak, oil-up day is the **modal path for a retired frame**, not an event. Recorded it as tape, not as signal; no bucket re-mark, no route-5 EV change (FAL-01 unfired — fire not sinking, no confirmed bpd offline; 7/21 and 7/23 both ran risk-premium-not-supply and round-tripped).
+
+### PRIOR SESSION (Fri 8/7 — THE PRINT DAY. The frame broke.)
 
 - **🔴 THE 8/7 CFTC PRINT KILLED THE THESIS. Net −45,473 = 25.3%** of the −180K peak, from 90.8%. WoW **+117,939** on ~flat OI = **position REVERSAL, not liquidation** — 3.8× the largest prior weekly cover, inside the intervention window. **Leg-1 SPF fired** (through −108K/60% by 62,527 contracts, 42 days early) → **THESIS v1.6.11 → v1.7, carry-convexity tail RETIRED TO LOW.** SAM-29 + SAM-40 both FAILED → **14/14/1**. Buckets ~8/23/32 → **~3/8/13**. **Position FLAT throughout; $0 ever at risk; nothing was ever executed on this frame.**
 - **The calibration lesson, and it is not "I missed it":** SAM-22's mechanism (intervention → mass cover) was **named in writing on 8/2 AND 8/4** as one of two ways the grade could die. I then priced it at **~25%** while holding a MED-HIGH grade the same document called **PROVISIONAL**. *Naming a risk and then under-weighting it is a distinct error from not seeing it* — promoted to auto-memory.
@@ -55,7 +67,13 @@
 - **⚠️ NEAR-MISS worth carrying: the candidate FILE was left untracked while six surfaces shipped pointers to it.** `git commit <path>` commits modified TRACKED files and silently ignores new ones — root CLAUDE.md says so and I used the modified-file recipe on a new file anyway. Same shape as the auto-memory failure: **the index reaches origin, the content does not, and the pointers make the gap look covered.** Caught by the post-push `git status -- AGENTS/SAM/`. **That step earned its place today.**
 - **Consumer pass: the ~60% figure is UNSEARCHABLE by numeric token.** 879 hits, essentially all false positives (`60d window`, `$60M/week`, `60K views`). **A bare 2-sig-fig number cannot be consumer-checked** — its propagation control must be editorial (publish the band + caveat) not a grep. High-information tokens (163412, 90.8) found **3 genuine consumers**: WALTER REGISTRY, NEXUS STATUS, TERRY's card. Packets sent to the first two; TERRY covered by the stand-down.
 
-### NEXT SESSION — the frame is gone; do not rebuild it by reflex
+### NEXT SESSION (from 8/10) — the frame is gone; do not rebuild it by reflex
+
+**⚡ TIER 0 — what 8/10 added to the queue:**
+0a. **SAM-39 status: 5 window sessions (8/4-8/10), NONE qualifying; widest 1.92y (8/7 close), today 1.79y.** The 8/7 closed-figure verify owed from last session is **DONE** — 158.576/156.652 = 1.924y, below the 2.5y bar. ⚠️ Minor feed discrepancy noted, not resolved: yfinance gives 8/7 as 1.730y vs the workbook's 1.924y. **Both are below the bar so it did not matter today — but resolve the feed before a session lands NEAR 2.5y**, because then it will.
+0b. **The FIMA question is now the highest-value open item on the intervention file.** If FIMA repo upsizing funds future ops, the ESF Q1 snapshot is **not** the binding constraint and the "US has a balance-sheet ceiling" read is wrong. **Do not carry the ceiling as established until this is settled.**
+0c. **Re-pull BOJ OIS.** The 8/7 as-of predates the weekend Hormuz cluster and the Kyodo story. ⚠️ **A move is NOT a re-mark trigger by itself** — the registered bar is ≥5pp on Sep, and route 1's sign means a rise SHRINKS the edge.
+0d. **Watch whether the yen giveback continues.** 10d since the 160 touch and USD/JPY is 0.4% below the zone, moving back toward it. **If it re-enters 160+, the two-sovereign regime's credibility is being tested in public** — that is a genuinely new question, not a re-arm of the old frame, and §5's ESF/FIMA ceiling is the thing that would decide it.
 
 **⚡ TIER 1 — the successor question:**
 1. **🕯️ The v1.8 CANDIDATE is open and written up: `thesis/V18_CANDIDATE_PILLAR1.md` (Will-directed, 8/7).** *Is Pillar 1 coming back?* **Verdict: PROMISING MECHANISM, ZERO ACHIEVED PROGRESS** — both policy legs finally point the same way and it **does not need a crowd** (so the thing that killed the convexity frame is irrelevant to it), **but the differential sits where it was in mid-June and the 10Y gap is WIDER than when v1.6 declared the pillar broken.** Bar = **SAM-41** (5Y <2.25% or 10Y <1.80%, **5 consecutive closes**, by 10/31; today 6.6bp/8.7bp away). ⚠️ **It is NOT v1.8 and NOT a thesis — promotion needs a separate session: bar graded on fresh data + RED adversarial pass + Will sign-off.** ⛔ **Do not let a well-written candidate become the thesis by default** — that is the exact discipline that protected the book on 8/7. **The other candidate (does a de-crowded JPY short change the distribution of future yen moves?) is still unwritten.**
@@ -66,35 +84,22 @@
 **TIER 2 — open loops:**
 4. **BOJ `jd` archive path appears DEAD** (n=3 failed sessions, every registered pattern, including one my own confirmation doc calls canonical). ⚠️ **`jd20260731` also 404s, and it must exist** — the SAM-39 base rate (n=62) was measured from it. **Consequence: that base rate is not currently reproducible.** Do proper path discovery, not another blind retry.
 5. **`boj_ois.py` TFX second-source gate** — today's finding is only durable if reproducible. Script queue.
-6. **SAM-39 still open** (4 sessions, none qualifying; 8/7 was 1.924y, widest since 8/3, session incomplete — verify the closed figure). **SAM-28 will very likely fail at 9/18; do NOT grade it early.**
+6. **SAM-39 still open — 5 window sessions (8/4-8/10), none qualifying; widest 1.92y (8/7 closed, verify DONE), today 1.79y.** **SAM-28 will very likely fail at 9/18; do NOT grade it early.**
 7. **BND-11:** await BOND's ratification of the 4-week rolling terms. Do not re-add a forward MOF-weekly gate row meanwhile.
 8. **P3-Asia Batch-3** (PROME, gate open since 8/3) — still in inbox, un-executed, deliberately not swept.
 
-**⛔ DO NOT:** re-arm anything on a CFTC re-build through −153K/85% (that line is **void**, a reclaim condition inside a dead frame) · re-derive modal bands or stops for a structure that will never open · treat Sep-18 as a "retire-check" (it is now only the SAM-28/39 grading date) · quote Sep unpriced as a point estimate.
+**TIER 3 — cheap infra, still open:**
+9. **🆕 Boot inbox alert — count + oldest age + titles, NOT processing.** ~20 lines. Respects the MAIL rule ("don't process inbox at normal spawn") while killing the silent-staleness failure that cost a day on 8/4. **Mechanize the cap, not the ritual.** *(Still unbuilt as of 8/10; the legacy inbox is at 3 packets, oldest 14d.)*
+10. **METSUKE apply pass** (9 flags + 3 escalations) — see TIER 1 item 3.
+
+**⛔ DO NOT:** re-arm anything on a CFTC re-build through −153K/85% (that line is **void**, a reclaim condition inside a dead frame) · re-derive modal bands or stops for a structure that will never open · treat Sep-18 as a "retire-check" (it is now only the SAM-28/39 grading date) · quote Sep unpriced as a point estimate · **restate a BOJ-pricing figure in prose anywhere — cite the table** (added 8/10; that number has now gone stale on four surfaces, see [[finding_plausible_stale_value_evades_review]] § EXTENSION) · **read a yen-weak + oil-up day as an event** — it is the *modal path* for the retired frame, and logging it as a signal is how a dead structure gets re-animated · **carry the "US intervention has a balance-sheet ceiling" read as established** until the FIMA-capacity question is settled.
 
 ## Tooling — how to find out what exists
 
 **Never assume, and never trust a hand-written list. Run:** `.venv/bin/python3 AGENTS/SAM/scripts/boot.py --tools`
 Generated from `scripts/` at run time (name · boot-wired? · purpose), so it cannot go stale. Every boot also prints a tool count and **flags drift in both directions**. **Check it before building any script or doing a pull by hand** — the 8/4 BOJ-OIS failure was, at root, not knowing what already existed. *(12 tools, all boot-wired, as of 2026-08-04 — that count is a fact about that date, not a maintained figure; ask the command.)*
 
-### NEXT SESSION (Wed 8/5 → the 8/7 print) — TIERED. Tier 1 exists to protect one decision.
-
-**⚡ TIER 1 — the 8/7 print is the only thing that moves the book:**
-1. **🔴 SETTLE FRIDAY-vs-MONDAY EXECUTION *BEFORE* THE PRINT — Will's call, SAM proposes.** CFTC lands **15:30 ET; the US close is 16:00.** A CONFIRM under memo §5B ("entry on TERRY live re-mark + Will [Approve]") means either a **30-minute Friday window in thin FXY options**, or **Monday 8/10 with weekend gap risk** (yen reopens Sunday-night Asia). Decided at 15:31 under a fired gate, this is the SAM-30→SAM-36 whipsaw shape. It is free to decide now and unfixable after.
-2. **Pre-compute the four-anchor re-pencil for every anchor EXCEPT fuel.** Route-5 (oil decaying) and BOJ-surprise (room shrinking) have BOTH already moved **down**; 60d ~32 is flagged **known-generous**. Running the re-pencil in the same session as an entry decision = evaluating a CONFIRM against buckets I already believe are too high. Leave one slot; plug the fuel leg in Friday.
-3. **Drain the legacy inbox (7 packets, oldest 8d) BEFORE 8/7.** No longer housekeeping: it demonstrably carried a **live blocking question on a live card** (TERRY's 007 tenor ask) that sat unread ~1 day and surfaced only by accident.
-4. **Verify the OIS *cumulative* basis at a primary TONA source.** "~60% unpriced" is now load-bearing across ~8 surfaces and sets route 1's SIGN — resting on **one source + one wire**, basis explicitly unverified. Thinnest evidence under the most-propagated number of 8/4.
-
-**TIER 2 — scheduled:**
-5. **Thu 8/6 triple:** 30Y auction (**live test** — Meiji ~4.0% floor is 1.8bp away and the 10Y just cleared at a 6bp tail) · MOF weekly wk 7/26-8/1 = **BND-11 3rd-week TRANSIENT confirm** · **`jd20260804` re-pull** (404'd 8/4; durable archive, it will appear).
-6. **🔴 Fri 8/7 15:30 ET — THE print.** Run the resolver **ON THE LETTER**; SAM-40 scores it; **do not let MED-HIGH shade the fuel test and do not re-tune the map at scoring time.** Then re-pencil (fuel plugged in) + **modal-band re-derivation** (METSUKE E2).
-7. **Verify 8/4's CLOSED intraday range** (SAM-39; 0.75y was *partial*). Re-run **`boj_ois.py`** — ≥5pp Sep move = the registered named-driver bar; still single-source, corroborate before re-marking.
-
-**TIER 3 — cheap infra, real payoff:**
-8. **🆕 Boot inbox alert — count + oldest age + titles, NOT processing.** ~20 lines. Respects the MAIL rule ("don't process inbox at normal spawn") while killing the silent-staleness failure that cost a day on 8/4. Mechanize the cap, not the ritual.
-9. **METSUKE apply pass** (9 flags + 3 escalations) — now safe: the ~60% guard is seeded in its NEXT RUN HINTS so flag #5 can't re-introduce ~77%.
-
-**⛔ DO NOT:** re-mark on the 8/6 auction alone · bump the THESIS version pre-8/7 · re-tune the resolver map at scoring time · write packets to `AGENTS/PROME/` (dead path — it's `PROME/inbox/`, now in CLAUDE.md).
+*(The pre-8/7 tiered block — settle Friday-vs-Monday execution · pre-compute the non-fuel re-pencil · drain the legacy inbox · verify the OIS cumulative basis · the 8/6 triple · run the resolver on the letter — is **fully spent** and was pruned 2026-08-10. Every Tier-1 item executed; full text in git history. Its one still-open infra item is carried forward as TIER 3 above.)*
 
 **Owed / deferred:** ✅ **PROME dispositioned BOTH 8/4 asks (packet 8/4 ~17:0x, processed).** `MACHINE_LOCAL.md` recipe now carries `MESSAGING/requirements.txt` ✅; **the `env_doctor` scoping call went to DAEDALUS, not PROME** — DAEDALUS owns repo-root `scripts/` since 7/31 (Will-ruled), so **don't chase PROME for it.** `ESTAT_APPID` recorded **PRESENT** (SAM fixed it 35min after sending the packet). 🔧 **The box still missing PyYAML is `DESKTOP-BC6EF81`, NOT `WilliePOwen`** — SAM wrote "laptop" repeatedly on 8/4 and had it BACKWARDS (this box IS the laptop and is fixed); PROME independently confirmed. **State it by HOSTNAME, never nickname.** Same for `ESTAT_APPID`: desktop column is ❓UNKNOWN, `.env` is gitignored so neither restore travels — both are one command at the next machine switch) · `catalyst_countdown.py` 2027 holidays (guard is loud, dates need *sourcing*) · Aug-21 National July CPI = first **2025-BASE** print (re-baseline first; read `cpi_japan.py`'s **PAIRED** line, never **LEAD**, as "the gap") · KB-202 (KURA autonomous) · KB-152 → route Q2-actuals to BROCK/HANS · Japan-LNG/JKM · Batch-3 P3-Asia · May TIC · evals re-baseline · TB ~L394 cites a pruned "CALENDAR Jun-17 row" (provenance only).
 
