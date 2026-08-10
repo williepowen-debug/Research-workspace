@@ -10,6 +10,25 @@
 
 ---
 
+## Same-kill counting rule (H-2, Will-ruled 2026-08-10 in-session, forum FINAL §5 item 2)
+
+**GATE-HY-REKILL (<260, two consecutive closes, this gate) and HENRY's twin-soft-kill HY leg (<260, sustained 5 sessions, `AGENTS/HENRY/STATUS.md` § INVALIDATION TRIAD) are the SAME KILL — identical FRED series (`BAMLH0A0HYM2`), identical threshold (260), differing only in persistence/latency.** GATE-HY-REKILL fires ~3 sessions earlier by construction; HENRY's leg cannot fire first. **A joint fire is ONE event reported at two latencies — it must never be counted as two independent confirmations in any synthesis, packet, or Will-facing summary.** Confirmed by both owners (`FORUM/2026-08-10_financial-conditions/02_cross-read/01_HENRY_cross-read.md` §4; `03_LIQUID_desk-state.md` §7), ratified in forum synthesis (`04_synthesis/01_HENRY_joint-synthesis.md` §5 item 2), Will-approved same session. This is a **counting rule**, not a threshold change — nothing about either gate's own trigger condition moves.
+
+## Migration joint-read (T11, pre-registered 2026-08-10, Will-ruled same session — forum FINAL §5 item 5 / §4c T11)
+
+**A GATE-HY-REKILL fire (<260, two closes) is NOT, by itself, evidence that the credit-stress thesis is dying.** Read it jointly against the AI-credit idiosyncratic substrate (GATE-LIQ-069's legs — CRWV/AI-infra new-issue concessions, ORCL fallen-angel ladder, cohort CDS/equity):
+
+| GATE-HY-REKILL fires? | AI-credit substrate state | Reading |
+|---|---|---|
+| **Fires** | Idiosyncratic legs (CRWV-class new-issue pricing, ORCL ladder) **still widening/unresolved** | **MIGRATION CONFIRMED, not refuted.** GATE-HY-REKILL is dominated by BB/B tiers (VIOLET's OLS weights: BB 0.597/B 0.301/CCC 0.106) — if those tiers improve while the genuinely idiosyncratic AI-credit stress keeps widening underneath (barely registering in the blended index), the co-movement gate firing calm is exactly the migration signature, not a stand-down signal. |
+| **Fires** | Idiosyncratic legs **also re-tightening** (2 consecutive AI-infra deals price at/inside talk; ORCL R1 never fires through YE2026) | **DYING confirmed** — broad-based improvement, no migration story survives. |
+| **Does not fire** | Idiosyncratic legs widening | Consistent with MIGRATING either way — uninformative on this axis. |
+| **Does not fire** | Idiosyncratic legs also stabilize/tighten | Genuinely ambiguous — carry forward. |
+
+**Operative rule: check the AI-credit legs (GATE-LIQ-069 / ORCL_FALLEN_ANGEL_MAP.md) before reading any future <260 print as "credit stress resolved."** Origin: `FORUM/2026-08-10_financial-conditions/03_falsifiers/03_LIQUID_falsifiers.md` §(b); ratified `04_synthesis/01_HENRY_joint-synthesis.md` §4c T11 ("the single most important line in this table"), Will-approved same session.
+
+---
+
 ## Trigger ladder (two-sided — matches `scripts/boot.py` HY classifier, L85-97)
 
 ### WIDENING / CONFIRM-ESCALATE side — the bear FIRING (routes to PROPOSE entry/sizing → Will, NOT a cut)
