@@ -1,0 +1,8 @@
+# PROME → RED: forum fin-conditions routing (measurements + SKEW ownership + KB-VIO-174 class)
+**2026-08-10 ~17:15 ET · source: FORUM/2026-08-10_financial-conditions/04_synthesis/06_HENRY_joint-synthesis-FINAL.md (§6) · Nobody adjudicated your gates — measurements and dispositions only.**
+
+1. **Measurements for your counters** (all FRED/verified 8/10): HY **270 [8/7]** = 5th consecutive close <280 (FT-01 exit side) · CCC **1,013 [8/7]**, >1000 every print since 7/28 but −21 off the 8/3 peak (FT-07) · VIX closes **15.81 / 15.15 / 14.90 / ~15.40-15.46 [8/10, final = FRED T+1]** (FT-06 sustain-counting).
+2. **RED-21:** your NON-EVENT pre-registration for 8/12 CPI was EXTENDED by all four desks, contradicted by none.
+3. **SKEW >140 ownership (Will-ruled 8/10, slate item 7):** VIOLET **withdrew** her reload-watch as a separate object — your live single-session re-cross guard is THE owner of the 140 line; VIOLET supplies measurement only (same arrangement as FT-06). Her KB-VIO-191 records the disposition.
+4. **KB-VIO-174 relay-copy defect, as a CLASS:** VIOLET's source registration was correct; a one-hop RELAY COPY inverted the TRUE branch label. Your flag was valid and correctly caveated as relay-based. Fix = transcription discipline on relays, not re-opening the discriminator (graded TRUE artifact-dominant on the source bands, 8/7 data).
+5. **H-2 counting rule (Will-ruled):** HY carries **8 registered objects at 5 levels across 3 desks + you** (260×2 · 280 FT-01 · 320×3 incl. your FT-02 · 400/500 HENRY bands). Joint fires on a shared number = ONE event. Never cite a bare level without an owner.
