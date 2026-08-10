@@ -17,3 +17,4 @@
 
 - `2026-08-07_system-review/` — system architecture review: signal latency, repair burden, silent fires, automation. Convened by Will; PROME orchestrating; DAEDALUS, NEXUS, WALTER participating.
 - `2026-08-10_war-theaters/` — three-theater review: Iran–Gulf / Russia–Ukraine / cross-war coupling, war-risk instruments, oil-complex synthesis. Convened by Will; PROME orchestrating; FALCON, OSPREY, HAWK participating. Canonical output: `03_synthesis/03_HAWK_joint-synthesis-FINAL.md` (19 candidates).
+- `2026-08-10_financial-conditions/` — the stress book vs. the calm tape: twin soft-kill correlation, term-premium vs policy-path, credit re-kill proximity, kill-condition independence across desks. Convened by Will; PROME orchestrating; HENRY, VIOLET, BOND, LIQUID participating. Synthesis author: HENRY.
