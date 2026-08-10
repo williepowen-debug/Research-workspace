@@ -63,7 +63,10 @@
 
 ## WILL_NEEDS
 
-- **🟡 Phone Part A — STILL WILL'S, and still the ONLY open item on this side.** A1 (GitHub PAT) + A2 (iOS Shortcut) need his account settings and his phone. Card at `design/PHONE_PART_A_CARD.md`. `phone_scan.py` ran clean at 8/9 boot; armed.
+- **⏸️ Phone Part A — PAUSED BY WILL 2026-08-10 for the week. DO NOT RE-RAISE BEFORE ~2026-08-17.** *(Given an explicit date rather than an open-ended "paused" on purpose — a carried item with no expiry is never re-evaluated by being read, it just sits there looking pending. `[[finding_dated_carry_item_has_no_expiry_check]]`.)*
+  - **Operational cost of the pause: ZERO.** `phone_scan.py` runs at every boot, reports cleanly when `phone_inbox/` does not exist, and **self-arms on the first signal that ever arrives.** Nothing degrades, nothing needs re-testing, no state rots. The fleet side was verified end-to-end 8/3 and does not expire.
+  - **Still owed when it resumes:** A1 (GitHub fine-grained PAT, RESEARCH-INTAKE only, Contents read/write, 90d) + A2 (6-action iOS Shortcut) + A3 (one test signal). Card unchanged at `design/PHONE_PART_A_CARD.md`; **I offered to paste the 6 Shortcut actions into Telegram so it can be built from the phone without opening the repo — offer stands for the resume.**
+  - ⚠️ **What the pause leaves standing: the durability gap it was built to close is still OPEN.** Telegram remains the only inbound path from Will's phone, and it is a live channel with no memory and no receipt — a message sent while I am dark or mid-task leaves no trace that it existed. **This is a known, accepted, dated exposure, not a solved problem.**
 
 ## FOLLOW-UP (canonical running list — survives handoff via this file)
 
@@ -103,8 +106,8 @@
 
 ## OPEN DESIGN DECISIONS (need Will) — condensed
 
-**🟡 ACTIVE:** **phone Part A** — Will's 15 min, card ready at `design/PHONE_PART_A_CARD.md`; still the only open item.
+**🟢 NONE ACTIVE.** *(**phone Part A — PAUSED by Will 2026-08-10 for the week, re-raise ~8/17**; moved to DEFERRED below. It was the only ACTIVE item, so there is currently **nothing open that is gated on Will**.)*
 
-**🟠 DEFERRED:** RAV run cadence · CLIMATE_MACRO sustain-vs-fold · RESEARCH-INTAKE v2 dedupe-by-story · lane `edgar_8k` watchlist scope (now paired with OZK/WAL routing fix + this session's mortgage-lender-single-name gap surfaced by UWM `-012`) · I4 CROSS_REFS cache · VULCAN 5-axis re-cut · LOOPS.md ownership · B5 scheduled-scan · DEWEY delivery-reliability (n=3 clean of 4; re-eval at n=4) · phone-signal v2 (not recommended) · IMMEDIATE-unconsumed-latency doctor severity carve · **NEW: newssweep intake collection-layer gap on named-nation defence-pacts + multilateral-coalition formation** (surfaced by MECCA pact miss n=2 of the class in 9 days; NOT a WALTER-fixable gap — PROME lane-owner's decision).
+**🟠 DEFERRED:** **⏸️ phone Part A (Will-paused 8/10, re-raise ~8/17 — zero operational cost to the pause; the durability gap it closes stays OPEN in the meantime)** · RAV run cadence · CLIMATE_MACRO sustain-vs-fold · RESEARCH-INTAKE v2 dedupe-by-story · lane `edgar_8k` watchlist scope (now paired with OZK/WAL routing fix + this session's mortgage-lender-single-name gap surfaced by UWM `-012`) · I4 CROSS_REFS cache · VULCAN 5-axis re-cut · LOOPS.md ownership · B5 scheduled-scan · DEWEY delivery-reliability (n=3 clean of 4; re-eval at n=4) · phone-signal v2 (not recommended) · IMMEDIATE-unconsumed-latency doctor severity carve · **NEW: newssweep intake collection-layer gap on named-nation defence-pacts + multilateral-coalition formation** (surfaced by MECCA pact miss n=2 of the class in 9 days; NOT a WALTER-fixable gap — PROME lane-owner's decision).
 
 **🔵 SURFACED (not WALTER-fixable):** G10 liquidity / gilts / China 10Y / Egypt-Med · **the Red Sea theater has no registered gate (FALCON)** · the position-exit threshold sweep · FAL-01 spec question · SHADE↔VULCAN join · European-energy aggregate (DR-4 building) · FRED 403 from this box · `trash` not on PATH · **ORACLE's Kalshi lane** (per ORACLE's 8/9 update: LIVE — the 8/2 outage was machine-local, not lane-down; my LAST_COMPLETION's "load-bearing on a coverage ruling" framing from 8/7 is now stale on the primary claim).
