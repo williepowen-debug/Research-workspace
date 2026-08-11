@@ -146,6 +146,14 @@ STATIC_BANNER_MARKERS = ["FROZEN", "RETIRED", "NOT CURRENT", "DO NOT CITE", "NOT
 #     (not frozen)" — a LIVE declaration, col 63).
 #  4. Markers glued by hyphen OR slash don't count ("refresh-or-FROZEN",
 #     "FROZEN-PENDING", "a FROZEN/NOT-CURRENT banner" — VULCAN/WATT §8 citation).
+#  4b. NARROWED 2026-08-11 (staleness sweep #3, CARL/PHAN reader finding): a
+#     LINE-INITIAL marker with a hyphen-SUFFIXED qualifier IS a banner —
+#     "# FROZEN-VINTAGE 2026-07-10 — carried into DOSSIER.md" (3 PHAN ledgers
+#     false-flagged +31d). Guard #4 was aimed at markers glued as the SECOND
+#     token of a compound; a front-loaded FROZEN-<qualifier> is the opposite
+#     shape. Mid-line glued forms (prose-cited FROZEN-PENDING, refresh-or-FROZEN)
+#     still rejected: the allowance requires the marker to be the line's first
+#     word after comment/emphasis chars.
 # NOTE: no line-leading-LIVE override — tried and REVERTED same-day: it wrongly
 # un-froze BRENT FLOW/VX via their "# LIVE HOMES/# LIVE SUCCESSOR" pointer lines.
 # Validated 2026-07-22: fleet diff = false-FROZENs flip to tracked (list in
@@ -249,12 +257,23 @@ def report_unmatched(agent_dir, name, pats, decl, quiet):
     return 0
 
 
+# Rule 4b (2026-08-11, sweep #3): a line-INITIAL single-word marker with a
+# hyphen-SUFFIXED qualifier is a banner ("# FROZEN-VINTAGE 2026-07-10 — …"),
+# not a glued mention. Only comment/emphasis/emoji chars may precede it — any
+# preceding WORD ("refresh-or-FROZEN", prose-cited "… FROZEN-PENDING …") still
+# fails, which is what guard #4 exists for.
+LINE_INITIAL_QUALIFIED_RE = re.compile(
+    r"^[^A-Z0-9]{0,12}(?:FROZEN|RETIRED|SUPERSEDED|ARCHIVED)-[A-Z]")
+
+
 def _line_has_marker(u_line):
     """Un-negated, un-glued banner marker in the pre-tab portion of ONE uppercased
     line, within MARKER_COL_CAP, and not a row-retention policy sentence (rule 6)."""
     scan = u_line.split("\t", 1)[0]
     if ROW_POLICY_RE.search(scan):
         return False
+    if LINE_INITIAL_QUALIFIED_RE.match(scan):
+        return True
     for rx in MARKER_RES:
         m = rx.search(scan)
         if m and m.start() < MARKER_COL_CAP:
