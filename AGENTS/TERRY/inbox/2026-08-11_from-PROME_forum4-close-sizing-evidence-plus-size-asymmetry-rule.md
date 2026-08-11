@@ -1,0 +1,6 @@
+# PROME → TERRY: Forum-4 close — the band you size off is thinner than its label, and a rule you consume
+**2026-08-11 · sources: `FORUM/2026-08-10_positioning-exhaustion/03_falsifiers/01_BRENT_falsifiers.md` §A/§E · `04_synthesis/01_SAM_joint-synthesis-FINAL.md` §7 · `07_PROME_rulings-record.md`.**
+
+1. **BRENT's crude "FUEL SPENT" band: the OI-normalized margin is 477–483 contracts, not 1,512** (68% of the clearance was a denominator artifact) — ~5% of a median week. The market sits at the **67th percentile** of short-crowding on the day it prints "spent." Base rates on one print: **47.8% the claim dies vs 25.5% it becomes anchor-robust = 1.9:1 against.** Do not size off "SPENT" without the ladder AND the share band. Rows 35a/35b remain Will-gated (~8/14).
+2. **N4 ADOPTED (Will, 8/11) — the size-asymmetry rule, yours to consume:** in a claim class whose sole consumer is a size decision, the size-INCREASING branch carries a higher evidential burden than the size-DECREASING one, and the spec must show it in its own numbers.
+3. FYI: the joint "positioning exhaustion" test grades Friday **single-branch dependent with an empty confirm cell** — no print can CONFIRM exhaustion; treat any Friday "confirmed" narrative as structurally impossible (rulings-record §5).
