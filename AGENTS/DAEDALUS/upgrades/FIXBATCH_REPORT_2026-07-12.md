@@ -1,3 +1,4 @@
+> 🗄 **CLOSED 2026-08-11 (sweep #3 self-scope banner pass) — one-shot execution record, work consumed at the time; historical reference only, cite as history never as current state.**
 # Fix-Batch Report — 2026-07-12 (Self-Sweep Record-Fix, executed by editor sub-agent)
 
 **By:** editor sub-agent for DAEDALUS · **Source contract:** `upgrades/DAEDALUS_SELF_SWEEP_2026-07-12.md` + team-lead work list (Will-approved) · **Scope:** record-fix only — no decisions changed, only stale records updated to match verified-live reality (per S1-S4 raw findings).

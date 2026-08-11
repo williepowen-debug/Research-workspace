@@ -17,7 +17,13 @@ The boot cadence-check surfaces it when >21d since `last_run`. Run on demand any
 (cd "$(git rev-parse --show-toplevel)" && .venv/bin/python3 scripts/ledger_staleness.py --all --quiet)
 # trade / position surfaces (--trade added 2026-07-04, PAT-035)
 (cd "$(git rev-parse --show-toplevel)" && .venv/bin/python3 scripts/ledger_staleness.py --trade --all --quiet)
+# --strict leg (added 2026-08-11, run #3): name-exempt surfaces (archive/history/…)
+# reviewed as CANDIDATES once per sweep — deliberate exemptions are never LOOKED at
+# otherwise (SAM FLOW_ARCHIVE sat +74d exempt-by-name with a +39d unnamed sibling).
+# Exempt-class flags are candidates for the owner's judgment, NOT defects.
+(cd "$(git rev-parse --show-toplevel)" && .venv/bin/python3 scripts/ledger_staleness.py --all --strict --quiet)
 ```
+> ⚠️ **A zero-flag `--trade` pass certifies ~24 hardcoded-name files, not the fleet** (16 agents print "no ledgers found" only in non-quiet; silent under `--quiet`). Until the fail-loud/report-unmatched patch ships, read a clean trade pass as "the 24 matched files are clean," never "the fleet's position surfaces are clean." (Run #3 finding.)
 Staleness is measured **vs each agent's own STATUS.md** (default 30d threshold). Declared-static surfaces are auto-exempt — the recognizer scans the header block for `FROZEN | RETIRED | NOT CURRENT | DO NOT CITE | NOT MAINTAINED | ARCHIVED`.
 
 > **Self-inclusion (2026-07-12, PAT-050):** `AGENTS/DAEDALUS/` is IN SCOPE — check own ledger-class surfaces (FLEET_MAP row currency, upgrades/ batch-doc banners vs dispositions, outbox flat-files vs `delivered/`) the same way. The 7/12 self-sweep found 9 dead outbox files + a 2-week-stale self-row precisely because this sweep never looked inward.
@@ -28,7 +34,7 @@ Staleness is measured **vs each agent's own STATUS.md** (default 30d threshold).
 | **Dormant / archive-source** | no *self-authored* commits (dir commits from WALTER/PROME routing ≠ self-editing — verify via `git log`), STATUS.md months old | **FREEZE in place** — prepend a **condition-cited** banner: `FROZEN <date> — <surface-level reason, e.g. "not maintained since <date>; refresh/unfreeze when <condition>">`. **NEVER cite agent lifecycle state ("<agent> dormant/retired") as the reason — it goes FALSE the day the agent revives while the freeze itself usually stays right (PAT-057; the OZK 7/4 banners are the cautionary instance, my own).** Revival playbooks must include a FROZEN-banner re-sweep step |
 | **Live agent** | recent self-authored commits / active STATUS | **owner freeze-or-refresh** — route a task-packet; **never direct-edit a live agent's surface** |
 | **Scaffold-correct** | 0 trades / honestly-empty (e.g. TERRY TRADE_BOOK) | not rot — skip |
-| **Already-routed** | check BATCH docs + prior run-log rows | don't re-route |
+| **Already-routed** | check BATCH docs + prior run-log rows — **AND the recipient's last SELF-authored commit (dark-recipient gate, run #3 / MARCO)**: a packet into an inbox not drained since the packet's date is UNDELIVERED-IN-EFFECT and the finding stays OPEN, whatever the routing history says. Three MARCO dispatches by three route shapes reached zero sessions | don't re-route the same way; if the recipient is dark, escalate the SPAWN, not the packet |
 
 ### 3. Disposition & authority
 - **Detection is autonomous** (read-only). **All mutations are approval-gated** unless standing pre-approval exists (see below).

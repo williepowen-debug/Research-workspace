@@ -1,3 +1,4 @@
+> 🗄 **CLOSED 2026-08-11 (sweep #3 self-scope banner pass) — one-shot execution record, work consumed at the time; historical reference only, cite as history never as current state.**
 # CODEX Cross-Model Review — 2026-07-12 (Will-directed, first of its kind)
 
 **Method:** OpenAI Codex CLI 0.143.0 (`codex exec --sandbox read-only`, repo root, self-contained briefing prompt carrying today's ground truth + fleet-convention false-positive guards). Reviewed today's session work: OSPREY/FALCON/HOMER/HAWK-recut in full, registration surface consistency, DAEDALUS's rewritten files, CARL post-shed, BRENT fix-in-context. ~218K Codex tokens. Raw trace: session scratchpad (990KB); final report extracted below verbatim.

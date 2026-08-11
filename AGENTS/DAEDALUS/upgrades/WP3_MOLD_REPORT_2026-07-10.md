@@ -1,3 +1,4 @@
+> 🗄 **CLOSED 2026-08-11 (sweep #3 self-scope banner pass) — one-shot execution record, work consumed at the time; historical reference only, cite as history never as current state.**
 # WP3 — PHAN Demotion to Dossier — MOLD Report
 
 **Date:** 2026-07-10 · **Editor:** MOLD (DAEDALUS sub-editor) · **Authority:** Will-approved PHAN demotion (DAEDALUS `upgrades/CARL_SUBAGENT_AUDIT_2026-07-10.md`)

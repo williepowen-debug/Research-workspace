@@ -1,3 +1,4 @@
+> 🗄 **CLOSED 2026-08-11 (sweep #3 self-scope banner pass) — one-shot execution record, work consumed at the time; historical reference only, cite as history never as current state.**
 # WP1 — TALOS Report: CARL Sub-Agent CLAUDE.md Fixes (2026-07-10)
 
 **Agent:** TALOS (editor, under DAEDALUS) · **Scope:** `AGENTS/CARL/sub_agents/{STUE,HOMER,DOC,GIG,POLLY,POP}/CLAUDE.md` ONLY · **Driver:** `upgrades/CARL_SUBAGENT_AUDIT_2026-07-10.md`
