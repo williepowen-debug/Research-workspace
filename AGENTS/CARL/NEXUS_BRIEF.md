@@ -85,7 +85,7 @@
 | ~Aug 13 | Treasury Phase 1 verification (STUE — past-due, spawn owed) | Custody-vs-enforcement; CRL-14 context (55%/STUCK) |
 | ~Aug 15 | **Jazan 400 kbpd restart watch** (FALCON: product side = SUPPLY-LOSS since 7/27; 8/9 second Jizan strike puts the date in doubt) | Restart = product blip ends; no restart = supply-loss regime → diesel/crack leg extends |
 | 🔴 **~Aug 17** | **OTTO 10-D filings: V2's re-pointed instrument first read + originate-to-degrade discriminator hook + diesel-experiment FINAL grade** | V2 legs must be at Will BEFORE this date; panel directional until then. Print 1 already RISING (+3.5¢ w/e 8/3) |
-| 🟠 **Tue 8/19** | **Canada Section 338 +50% EFFECTIVE** (KB-377) | Consumer-facing annex (dairy/alcohol/clothing/furniture); USMCA no exemption; autos coverage UNRESOLVED — verify annex before sizing |
+| 🟠 **Wed 8/19** | **Canada Section 338 +50% EFFECTIVE** (KB-377) | Consumer-facing annex (dairy/alcohol/clothing/furniture); USMCA no exemption; autos coverage UNRESOLVED — verify annex before sizing |
 | 🔴 **~Aug 20** | **V5 DOWNGRADE WATCH** | Registered rule: *AAA <$4.00 sustained 2wk → 4→3*. **8/10: $4.0091 = 0.9¢ cushion, clock NOT started**; crude round-tripping ($87.6) |
 | Aug 20-21 | Affirm FQ4 + Klarna Q2 (PHAN) · Iran waiver expiry | BNPL reads · **CRL-08 live tail (45%)** — Brent >$85-90 condition met again at ~$87.6 |
 | 🔴 **Fri 9/4** | **August NFP — V16 escalate-to-5 resolver, month 2** (KB-376) | Registered fast-table: NFP <0 sustained 2+ months → V16 5. July was −23K; sign decides |
