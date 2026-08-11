@@ -70,4 +70,7 @@ Live filename discovery still returns `FY2026_Q2`. **DOL has not published Q3.**
 ⚠️ **PROME routing:** the dead `AGENTS/PROME/` path has **zero hits** in MARCO's own docs — the 7/31 regression was in the delivery act, not a stale pointer. Nothing to repoint. **`PROME/inbox/` is the sole surface.**
 
 ## PUSH STATE
-*(filled at commit — see closeout)*
+Four commits, pushed in two tranches, **origin verified 0/0 after each — and verified by PATH, not by the `Pushed.` line** (`git diff origin/master HEAD -- AGENTS/MARCO/` empty):
+`a2fb0f914` session work · `67463a2af` NEXUS_BRIEF (Amendment-10 ordered, after the STATUS commit) · `f7de86cda` CALENDAR twin · `72fcfaad5` LABOR + PROME packets (carve-out ①).
+**Sent:** **LABOR** — the count-tell break, the July quantity in both directions, and both traps (series inversion + the −2,203K/"2.2M" collision), with one optional grep ask. **PROME** — s21 closeout, the fourth calibration event self-reported, and their three packets actioned.
+⚠️ **Not mine, flagged not swept:** `BOARD/INDEX.md` + `BOARD/SIG-W-20260811-002-…` uncommitted on this box (WALTER, in flight). **A new WALTER signal exists — expect it in the inbox lane next boot.**
