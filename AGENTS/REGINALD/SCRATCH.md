@@ -18,19 +18,7 @@
 
 ---
 
-## 2026-07-17 — Boot + CFG print read + tripwire fire-fade + 3-packet integration
-
-**Noticed during the session:**
-- **The tripwire's pre-registered driver-decomp rule earned its keep.** VX-REG-18.04 technically hard-fired 7/13 (3 consec >3.6×: 3.607/3.606/3.613 — all within 0.013 of the line) then reset 7/14. Without the 6/25-built decomp rule ("HY-tightening=beta=no escalate") I'd have faced a judgment call on escalating a marginal, already-faded fire; the rule pre-decided it. The design lesson: the escalation clause keying on the DRIVER (CCC-led vs HY-led), not just the level, is what kept a denominator artifact from becoming a false 🔴 to LIQUID/BROCK.
-- **CFG −3.27% the day AFTER a clean beat** — on a broad risk-off tape (SPY −1%, KRE −2.1%, VIX +9.8%). Post-beat profit-taking + beta. Watch that Monday: a WAL/OZK sell-off into/after the print needs the same beta-vs-substance decomposition before reading it as thesis-confirming.
-- **Brent +$11.67/wk and the 7/10 "sustain verdict" framing is overtaken** — the question was whether $76 sustains; the tape answered with $87.67. HAWK/BRENT own the verdict; my STATUS rows now carry the escalation read (oil leg FIRING).
-- **WALTER's BB/B sub-index gap flag (SIG-717-003) is worth remembering when citing REG-T-03/04:** blended HY at 8.3 pctile while CCC at 87.8 pctile — the blended >320/>350 triggers may lag a tail-led break. Not actionable now; lane fix is PROME's.
-
-**Threads carried (ROADMAP):** 7/21 double-print grading (frames done, ALLY pin added); POSITIONS broker refresh gate; BROCK bank→BDC map fill (CFG data now in hand); post-7/21 rewrite buckets.
-
----
-
-*(7/10 section pruned 2026-07-30 — >2wk. ★ NOT a routine prune: its "the two-clock header silences its own nag" note was **promoted to MEMORY lesson 14** after the 7/30 sweep proved it live at +119d on VX.tsv. It had sat here unpromoted for 20 days. Threads it carried are in ROADMAP.)*
+*(7/17 section pruned 2026-08-10 — >3wk, per the lesson-14 discipline this time (same-session promote-or-delete, no unpromoted control-notes left behind): **the one live note — WALTER's BB/B sub-index gap on REG-T-03/04 — was PROMOTED to `registry/NOTES.md` §REG-T-03/04** before deletion; the other three (tripwire decomp design lesson, CFG beta-vs-substance, Brent overtaken) were already canon in ROADMAP/brief/STATUS. 7/10 section pruned 7/30 — its "two-clock header silences its own nag" note became MEMORY lesson 14 after sitting unpromoted 20 days.)*
 
 ## TEMPLATE FOR FUTURE DAYS
 
