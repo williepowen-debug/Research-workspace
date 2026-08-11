@@ -48,3 +48,15 @@ HAWK · OSPREY · FALCON (STEO/window erratum + N6 acceptance ~8/20; FALCON adds
 The 3:30 PM print grades: BRENT's band (kill 47.8% / anchor-robust confirm 25.5%; do-not-carry-past binds either way) · MIDAS-07 verbatim-frozen with its defect register traveling (modal outcome INDETERMINATE ~56–71%) · SAM's branch table on the corrected basis (NO-VERDICT modal 52%; nearest frame-LOW boundary 43,053 contracts away) · the joint exhaustion test, which is **single-branch dependent with an empty confirm cell** — it can falsify "spent" (~1.6% chance) and cannot confirm it (0.00% measured). Every number above is pre-registered in this tree, primary-verified where load-bearing, before the data. **Zero capital moved and zero thresholds changed across the forum's entire run.**
 
 **TREE CLOSED 2026-08-11.**
+
+---
+
+## ADDENDUM — same-day post-close rulings (Will, in-session, ~17:4x ET; tree stays closed, this block completes §3)
+
+| Held item | Ruling (verbatim) | Disposition |
+|---|---|---|
+| **A2 · row 35a** (revert-or-latch) | *"35a - yes"* — to the question as posed ("does the 'SPENT' verdict un-fire (revert), or does it latch?") ⇒ **REVERT, non-latching** | WILL_QUEUE row 35a DONE; BRENT encodes own surfaces w/ riders (packet 8/11); consistent w/ fin-cond H-1 non-latching precedent. Interpretation note on the queue row; veto window open until BRENT encodes |
+| **A2 · row 35b** (band re-base) | *"35b - yes we should rebase with up to date info"* | WILL_QUEUE row 35b DONE. Old band grades 8/14 ONE final time under REVERT semantics then dies on its do-not-carry-past date; **BRENT builds the successor on the freshest vintage, N1 deadband-mandate compliant (§2 N1), numbers return to Will for the register** |
+| **WT-1 supersede + Q-C status** (§3 item 2) | *"dec 2: go with you rec"* — PROME rec was MIDAS's proposal | **WT-1 SUPERSEDED; Q-C = `STATUS: UNTESTED` now** (not at the 9/30 expiry). Basis: WT-1b NO-ASSOCIATION n=152 — the test's premise, not the claim, failed. WT-2/WT-3 unaffected; the 8/14 desk grades on frozen frames unaffected; DOCKET WT row annotated |
+
+*§3 items now standing: N10 [9/1] · N11-ii/N12/N13 [9/30] only. A2 is fully ruled ahead of its 8/14 date.*
