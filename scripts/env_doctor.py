@@ -32,7 +32,10 @@ DEFAULT_ENV_FILE = REPO / "FORGE" / "tools" / "market-data" / ".env"
 REQUIRED_KEYS = ["FRED_API_KEY", "EIA_API_KEY", "PJM_API_KEY",
                  # FFIEC CDR PWS (added 2026-08-07, Will-registered same day —
                  # gates WAL MI3; REST+JWT, see WAL inbox 8/7 packet for recipe):
-                 "FFIEC_CDR_TOKEN", "FFIEC_CDR_USERNAME"]  # expected on EVERY box
+                 "FFIEC_CDR_TOKEN", "FFIEC_CDR_USERNAME",
+                 # e-Stat app ID (added 2026-08-11, PROME 8/9 packet — gates SAM
+                 # cpi_japan.py; key registered "SAM", MACHINE_LOCAL row 24):
+                 "ESTAT_APPID"]  # expected on EVERY box
 
 # JWT expiry probe (2026-08-07): the FFIEC token is a 90-day JWT that dies
 # SILENTLY at expiry (the ESTAT_APPID class — a dead key looks like a broken
@@ -151,7 +154,7 @@ def main() -> int:
         if k in names:
             notes.append(f"✓ {k} present in .env")
         else:
-            print(f"ENV-DOCTOR ✗ {k} missing/empty in {env_file} — see PROME/MACHINE_LOCAL.md FRED row")
+            print(f"ENV-DOCTOR ✗ {k} missing/empty in {env_file} — restore recipe: PROME/MACHINE_LOCAL.md, the row naming {k}")
             problems += 1
 
     problems += jwt_expiry_check(env_file, notes)
