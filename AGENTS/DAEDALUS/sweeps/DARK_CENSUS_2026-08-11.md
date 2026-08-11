@@ -21,4 +21,4 @@
 
 Dormant/exempt, uncounted: SENTRY, BARON, ATHENA, FERT, CRUISE, YEYOU (revival-pending by design).
 
-**Dispositions of record (8/11):** MARCO mooted (online, Will in-session) · AEOLUS/DEWEY/HANS spawn asks → PROME rollup (dispositioned `6f7dc02be`) · census structure (forum-as-liveness) → PROME FYI, sharpens the standing dark-agent boot-priority proposal. Next census: run #4 (~9/1) or on-demand.
+**Dispositions of record (8/11):** MARCO mooted (online, Will in-session; its session was observed unfreezing its own denominator same-day) · AEOLUS/DEWEY/HANS spawn asks → PROME rollup (dispositioned `6f7dc02be`) · **CREED (row 2) added late — the rollup omitted it despite rank #2: its PRED-010 resolution window (~8/6-8/10) passed while dark, the 006+010 joint grade is starving, and a HOMER 🔴 kill-correction sits unread; profile anatomy refreshed 8/11 (my side), the L3 grading read needs a CREED session — spawn-worthy** · census structure (forum-as-liveness) → PROME FYI, sharpens the standing dark-agent boot-priority proposal. Next census: run #4 (~9/1) or on-demand.
