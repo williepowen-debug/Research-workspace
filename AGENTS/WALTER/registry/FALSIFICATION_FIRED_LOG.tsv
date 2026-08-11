@@ -1,3 +1,4 @@
 trigger_id	fired_date	metric_value_at_fire	dispatched_signal_id	sustain_confirmation
 RED-FT-01	2026-06-04	275	SIG-W-20260604-001	sustain=3-met-275-271-272
 RED-FT-07	2026-06-04	947	SIG-W-20260604-002	sustain=1-met-binary-fire-overdue-detection-since-5-29
+RED-FT-06	2026-08-11	15.28	SIG-W-20260811-001	sustain=5-met-15.81-15.15-14.90-15.46-15.28-streak-restart-after-8-4-break-16.50-per-ML-RED-129
