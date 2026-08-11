@@ -92,7 +92,7 @@ A stability check (same state, same `DID`, six consecutive months, TTU control, 
 
 ## What this does and does not license
 
-**Does NOT license:** "immigration restriction does not raise wages." This test cannot support that. It is a 14-state, one-window, two-sector design with a ~6pp detection floor.
+**Does NOT license:** "immigration restriction does not raise wages." This test cannot support that. It is a 14-state, one-window, two-sector design whose 80%-power MDE on the pre-registered stratum-mean difference is **~8.8pp** (1.96×SE = 6.15pp is the *significance* threshold for that same statistic, not a power floor, and neither bounds a single state's gap — that band is ~11.53pp). *(Corrected 2026-08-11: this line still read "~6pp detection floor" — the exact phrase the 7/31 fix round retired — contradicting finding 3 twenty lines above in this same file. Last straggler from PROME's round-2 verify.)*
 
 **Does license:** MARCO has now failed **three** pre-registered attempts to demonstrate Channel-1 transmission — produce CPI (ES-MARCO-08, resolved toward freight), FL wage divergence (falsified by its own panel), and this floor-controlled specification. Per the consequence pre-committed on 7/25, **the correct response is to downgrade the claim, not to hunt a fourth instrument.**
 

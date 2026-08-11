@@ -10,6 +10,7 @@ Two layers:
        catalyst_countdown.py   what's due / passed-but-still-listed
        predictions_due.py      OPEN predictions + expected-signals past/near window
        staleness.py            STATUS / VX dashboard drift
+       ledger_staleness.py     every workbook ledger vs the two-state rule (shared)
   2. DATA FETCHERS (run when their output is stale; skip when current) —
        banxico_reverse.py · h2a_pull.py · slaughter_pull.py
      Each is wrapped defensively (SAM pattern): per-fetcher timeout, non-fatal on
@@ -40,10 +41,17 @@ BASELINES = MARCO_DIR / "baselines"
 TOOLS = MARCO_DIR / "tools"
 
 # Read-only awareness scripts — always run, shown in full (they ARE the brief).
+# (label, path, extra_args)
 AWARENESS = [
-    ("Catalyst Countdown",   SCRIPTS_DIR / "catalyst_countdown.py"),
-    ("Predictions Due Scan", SCRIPTS_DIR / "predictions_due.py"),
-    ("Staleness Check",      SCRIPTS_DIR / "staleness.py"),
+    ("Catalyst Countdown",   SCRIPTS_DIR / "catalyst_countdown.py", []),
+    ("Predictions Due Scan", SCRIPTS_DIR / "predictions_due.py", []),
+    ("Staleness Check",      SCRIPTS_DIR / "staleness.py", []),
+    # staleness.py covers STATUS + VX only. The shared fleet checker covers every
+    # workbook ledger (FLOW/ML/KB/MIGRATION_PROXIES) against the two-state rule.
+    # Wired 2026-08-11 after DAEDALUS measured FLOW+ML at +59d three times
+    # (7/25 sweep, 8/4 WATT, 8/7 production review) with zero references to it
+    # anywhere under AGENTS/MARCO/ — detection existed, invocation never did.
+    ("Ledger Staleness",     WORKSPACE / "scripts" / "ledger_staleness.py", ["MARCO"]),
 ]
 
 # Data fetchers: (label, script, output_file, cadence_days, timeout_s, vintage_fn)
@@ -116,12 +124,12 @@ def file_age_days(path):
     return (time.time() - path.stat().st_mtime) / 86400.0
 
 
-def run_script(path, timeout):
+def run_script(path, timeout, args=()):
     if not path.exists():
         return "MISSING", f"  SKIP: {path.name} not found", 0.0
     start = time.time()
     try:
-        r = subprocess.run([str(VENV_PY), str(path)], capture_output=True,
+        r = subprocess.run([str(VENV_PY), str(path), *args], capture_output=True,
                            text=True, timeout=timeout, cwd=str(WORKSPACE))
         out = r.stdout
         if r.returncode != 0 and r.stderr:
@@ -169,9 +177,9 @@ def main():
     results = []
 
     # ---- Layer 1: read-only awareness ----
-    for label, path in AWARENESS:
+    for label, path, extra in AWARENESS:
         print(f"\n  ⏳ {label}…", flush=True)
-        status, out, el = run_script(path, 60)
+        status, out, el = run_script(path, 60, extra)
         if out.strip():
             print(out if (verbose or True) else "")  # awareness always shown full
         results.append((label, status, el))
