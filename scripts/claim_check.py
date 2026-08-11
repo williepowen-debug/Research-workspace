@@ -51,6 +51,9 @@ ABBR = {d[:3].lower(): i for d, i in zip(
     ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"], range(7))}
 DAYMAP = {**DAYS, **ABBR}
 DAYNAMES = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
+# Exact day tokens (for validating the LEADING half of a "Tue-Wed" pair — a
+# prefix-word like "Satellite-" must not read as Sat via the [:3] shortcut).
+DAYTOKENS = set(DAYS) | {"mon", "tue", "tues", "wed", "thu", "thur", "thurs", "fri", "sat", "sun"}
 
 # day-name immediately before a date: "Fri 2026-07-25", "Mon 7/28", "Tuesday 7/28"
 RE_WEEKDAY = re.compile(
@@ -164,7 +167,41 @@ def check_file(path, checks, year):
                 if not d:
                     continue
                 want = DAYMAP.get(m.group(1).lower()[:3])
-                if want is not None and d.weekday() != want:
+                if want is None:
+                    continue
+                # Two-day-range label guard (RED 8/7, ML-RED-143): "Tue-Wed 9/15-16"
+                # pairs the SECOND weekday with the FIRST date — a correct,
+                # primary-verified label flagged wrong, and the cheapest edit that
+                # silences it damages the label. When this weekday is the trailing
+                # half of a Day-Day pair: grade the LEADING day against the start
+                # date, and grade THIS day against the END of a D/D-D range if one
+                # is written (keeps power: "Tue-Thu 9/15-16" still flags on Thu vs
+                # 9/16=Wed); with no range end, the trailing half is ungradeable —
+                # skip it, never grade it against the start.
+                pre = re.search(r"([A-Za-z]{3,9})[-–—]$", line[: m.start()])
+                lead_want = (DAYMAP.get(pre.group(1).lower()[:3])
+                             if pre and pre.group(1).lower() in DAYTOKENS else None)
+                if lead_want is not None:
+                    if d.weekday() != lead_want:
+                        flags.append((rel, n, "weekday",
+                                      f"“{pre.group(1)}-{m.group(0).strip()}” — range start "
+                                      f"{d.isoformat()} is a {DAYNAMES[d.weekday()]}, "
+                                      f"not {pre.group(1)}"))
+                    endm = re.match(r"[-–—](\d{1,2}(?:/\d{1,2})?)(?!\d)", line[m.end():])
+                    if endm:
+                        tok = endm.group(1)
+                        try:
+                            ed = (datetime.date(d.year, *map(int, tok.split("/")))
+                                  if "/" in tok else d.replace(day=int(tok)))
+                        except ValueError:
+                            ed = None
+                        if ed and ed.weekday() != want:
+                            flags.append((rel, n, "weekday",
+                                          f"“{m.group(0).strip()}-{tok}” — range end "
+                                          f"{ed.isoformat()} is a {DAYNAMES[ed.weekday()]}, "
+                                          f"not {m.group(1)}"))
+                    continue
+                if d.weekday() != want:
                     flags.append((rel, n, "weekday",
                                   f"“{m.group(0).strip()}” — {d.isoformat()} is a "
                                   f"{DAYNAMES[d.weekday()]}, not {m.group(1)}"))

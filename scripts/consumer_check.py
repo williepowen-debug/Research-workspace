@@ -421,6 +421,12 @@ def read_ledger(ledger: Path):
             if normalize(v) not in seen:
                 seen.add(normalize(v))
                 keep.append(v)
+        if len(keep) > 5:
+            # Scan-scope cap must announce itself (PROME 8/8 silent-display-cap
+            # sweep): a reader told "superseded A, B, C, D, E" believes that is
+            # the whole set; the dropped tail was never scanned at all.
+            print(f"  ◦ {metric}: scanning the 5 most recent superseded values; "
+                  f"{len(keep) - 5} older value(s) NOT scanned (pass them via --old to include).")
         out[metric] = (current, keep[:5])
     return out
 

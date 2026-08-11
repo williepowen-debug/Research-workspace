@@ -192,14 +192,26 @@ def git_time(path):
         return None
 
 
+# A first path segment that reads as a hostname ("cftc.gov", "www.federalreserve.gov")
+# marks the token as an external URL, not a repo path (PROME 8/8, class 1: the CFTC
+# raw-COT endpoint flagged DEAD POINTER). Bias toward flagging: the skip applies
+# ONLY when no repo entry of that name exists, so a real repo dir can never be
+# waved through by looking host-like.
+HOST_RE = re.compile(r"^[\w-]+(?:\.[\w-]+)*\.[A-Za-z]{2,6}$")
+
+
 def extract_repo_paths(text):
     """Backtick-quoted repo-relative paths with a file extension."""
     out = set()
     for tok in re.findall(r"`([^`\n]{4,120})`", text):
         tok = tok.strip().rstrip(".,;:")
         if re.match(r"^[A-Za-z0-9_][\w./-]*\.(md|tsv|py|sh|json|txt|csv)$", tok) and "/" in tok:
-            if not tok.startswith(("http", "~", "$")):
-                out.add(tok)
+            if tok.startswith(("http", "~", "$")):
+                continue
+            first = tok.split("/", 1)[0]
+            if HOST_RE.match(first) and not os.path.exists(os.path.join(REPO, first)):
+                continue  # external URL written without a scheme
+            out.add(tok)
     return sorted(out)
 
 
@@ -207,6 +219,21 @@ def check_artifact(path, docket_rows, covered_dates, today):
     rel = os.path.relpath(path, REPO) if os.path.isabs(path) else path
     full = path if os.path.isabs(path) else os.path.join(REPO, path)
     flags, infos = [], []
+    # Target-level lifecycle retry (same class as the cited-pointer fix below,
+    # one level up): a DOCKET row cites an artifact; the owner git-mv's it to
+    # processed/ (inbox) or delivered/ (outbox) when actioned. Check the moved
+    # file rather than flagging UNREADABLE — a missing artifact in NEITHER
+    # lifecycle home still fails loud.
+    if not os.path.exists(full):
+        head, base = os.path.split(full)
+        for sub in ("processed", "delivered"):
+            twin = os.path.join(head, sub, base)
+            if os.path.exists(twin):
+                infos.append(f"artifact filed to {sub}/ — checked there (update the docket "
+                             f"artifact cell at next touch)")
+                full = twin
+                rel = os.path.relpath(twin, REPO)
+                break
     try:
         text = open(full, encoding="utf-8", errors="replace").read()
     except OSError as e:
@@ -235,16 +262,28 @@ def check_artifact(path, docket_rows, covered_dates, today):
                 or (agent_home is not None
                     and os.path.exists(os.path.join(agent_home, p))))
 
-    dead = set()
+    # inbox→processed/ lifecycle (PROME 8/8, class 2, n≥5): a report cites a
+    # packet; the recipient git-mv's it to processed/ when actioned; the citation
+    # "dies" BECAUSE the system worked. Before declaring a pointer dead, retry
+    # with processed/ inserted before the basename — resolves ⇒ designed
+    # disposition, reported as a · note (never a ⚠️ flag).
+    def _processed_twin(p):
+        head, base = os.path.split(p)
+        if not base or head.rstrip("/").endswith("processed"):
+            return None
+        twin = os.path.join(head, "processed", base) if head else os.path.join("processed", base)
+        return twin if _resolves(twin) else None
+
+    dead, moved = set(), set()
     for line in text.splitlines():
         if DEAD_OK_RE.search(line):
             continue
         for p in extract_repo_paths(line):
             if not _resolves(p):
-                dead.add(p)
+                (moved if _processed_twin(p) else dead).add(p)
         for m in BARE_PATH_RE.finditer(line):
             tok = m.group(0).rstrip(".,;:/")
-            if any(c in tok for c in "<>{}*$") or tok in dead:
+            if any(c in tok for c in "<>{}*$") or tok in dead or tok in moved:
                 continue
             segs = tok.split("/")
             # Extension-less token whose tail segments are all CAPS/digits is an
@@ -256,10 +295,14 @@ def check_artifact(path, docket_rows, covered_dates, today):
             prefix2 = "/".join(segs[:2])
             full_missing = bool(re.search(r"\.\w{2,4}$", tok)) and not _resolves(tok)
             prefix_missing = len(segs) >= 2 and not _resolves(prefix2)
-            if prefix_missing or full_missing:
+            if full_missing and _processed_twin(tok):
+                moved.add(tok)
+            elif prefix_missing or full_missing:
                 dead.add(tok if full_missing else prefix2)
     for p in sorted(dead):
         flags.append(f"DEAD POINTER: `{p}` does not exist")
+    for p in sorted(moved):
+        infos.append(f"cited packet now in processed/ — designed disposition, not rot: `{p}`")
 
     # 2. Date drift vs docket — FUTURE dates only (past dates are provenance,
     #    not fire-path claims), skipping option expiries and annotation lines.
@@ -303,6 +346,8 @@ def check_artifact(path, docket_rows, covered_dates, today):
                 if near:
                     seen.add(d)
                     names = "; ".join(f"{r['catalyst']} ({r['start']})" for r in near[:2])
+                    if len(near) > 2:
+                        names += f" (+{len(near) - 2} more rows in ±45d)"
                     flags.append(f"DATE DRIFT: artifact says {d} ({m.group(0)!r}) — matches no "
                                  f"docket row but is near: {names}. VERIFY + full logic re-read.")
 

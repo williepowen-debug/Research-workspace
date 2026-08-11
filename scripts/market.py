@@ -30,7 +30,8 @@ def options_chain(symbol, expiry=None):
         print(f"No options data for {symbol}")
         return
     if expiry is None:
-        print(f"\n{symbol} option expiries: {', '.join(dates[:10])}")
+        more = f" (+{len(dates) - 10} more)" if len(dates) > 10 else ""
+        print(f"\n{symbol} option expiries: {', '.join(dates[:10])}{more}")
         return
     chain = t.option_chain(expiry)
     print(f"\n=== {symbol} {expiry} CALLS (near ATM) ===")
