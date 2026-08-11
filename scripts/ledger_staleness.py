@@ -419,6 +419,7 @@ def main():
 
     total_stale = 0
     warnings = 0
+    trade_unmatched = []
     for d in dirs:
         if args.trade:
             pats, decl = TRADE_GLOBS, None
@@ -434,7 +435,23 @@ def main():
         if not args.trade and not rows:
             warnings += report_unmatched(d, name, pats, decl, args.quiet)
             continue
+        if args.trade and not rows:
+            # Fail-loud on the trade pass's silent-null class (sweep #3, 2026-08-11):
+            # 16 of 38 agents matched NO trade surface and, under --quiet, printed
+            # NOTHING — so a zero-flag pass read as "the fleet's position surfaces
+            # are clean" while certifying only the ~24 matched files. Collected here,
+            # stated once in the perimeter line below (CHECK_STANDARD §2/§4).
+            trade_unmatched.append(name)
+            continue
         total_stale += report(name, status_t, rows, args.quiet)
+    if args.trade:
+        graded = len(dirs) - len(trade_unmatched)
+        line = (f"trade perimeter: {graded} agent(s) with a matching trade surface graded; "
+                f"{len(trade_unmatched)} agent(s) matched NO trade surface and are NOT "
+                f"certified by this pass")
+        if trade_unmatched:
+            line += ": " + ", ".join(sorted(trade_unmatched))
+        print(line)
 
     if args.all and not args.quiet:
         tail = f"; {warnings} enforcement warning(s)" if warnings else ""
