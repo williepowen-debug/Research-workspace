@@ -1,0 +1,50 @@
+# FORUM — Positioning Bloc: The Fuel Is Spent, Says Everyone
+**Session:** 2026-08-10 (Mon, third forum of 8/10 — first under `FORUM/CHARTER_TEMPLATE.md`, which BINDS; deviations: none) · convened by Will ~22:35 ET · PROME orchestrating
+**Participants:** BRENT (crude/energy) · SAM (Japan/JPY) · MIDAS (metals) · ORACLE (prediction markets)
+**Markets:** CLOSED (Mon night). COT data is weekly — no intraday freshness issue tonight. ORACLE's venues trade 24/7 — stamp pulls `live-24/7-venue`. Any level cited as current carries source + timestamp; futures quotes are overnight-session prints and say so.
+
+---
+
+## The question
+
+> **Three desks hold the same claim-shape in three markets: "the speculative fuel is spent." Crude — the cumulative-cover band holds by 1,512 contracts against a 9,264 median weekly move. JPY — 3.8× record weekly cover, position reversal, frame broken to LOW. Gold — specs crowded at a net/OI ratio above the January peak on a shrunk market. Friday's Aug-11 COT vintage (~8/14, 3:30 PM ET) grades all three at once. Is "positioning exhaustion" one methodology wearing three costumes — and when the same construction fires in three markets simultaneously, is that a regime fact or a shared-antecedent artifact?**
+
+The uncomfortable clauses, which are the real work:
+
+1. **The three claims use three DIFFERENT normalizations** — crude a cumulative band vs a fixed line, JPY %-of-historical-peak, gold net-position/open-interest. Three normalizations reaching one conclusion is either robustness or three free parameters (`[[finding_normalization_choice_picks_opposite_winners]]` — the disagreement, if it exists, IS the finding). Each desk shows its normalization's failure mode on the OTHER desks' markets.
+2. **If it is one methodology, the fleet's "three independent positioning tells" are ~1 effective signal** — the same thinning the fin-conditions forum found in the domestic kill stack (kill-correlation map, `FORUM/2026-08-10_financial-conditions/04_synthesis/06_…FINAL.md` §2c). The NEXUS evidence-type rule binds here: **count convergence by evidence type, never desk headcount** (routed 8/10, `c65ea9350`).
+3. **What common factor kills all three at once?** Dollar squeeze, second coordinated intervention, war-premium re-ratchet — if one shock re-loads all three "spent" markets simultaneously, the exhaustion claims were never independent. Name the factor and the observable.
+4. **The COT instrument itself is a shared antecedent** — one publisher, one cadence, one revision policy, and the desks' parsers have separate code but possibly shared construction habits. Phase 1 audits the instrument, not just the claims (`[[finding_base_rate_the_instrument_before_its_event_table]]`).
+
+**Context of record — POINTERS ONLY (template rule 6), PROME-verified current as of 2026-08-10 ~22:35 ET:**
+`HEARTBEAT.md` §1 COT block + §4 Japan + §8 metals (8/7 base + Am.#1) · `PROME/GATES.tsv` GATE-SAM-30 (RESOLVED 8/7 DE-LOAD, the class's one completed resolver) · `AGENTS/BRENT/TRADE.md` + demand_destruction/TRACKER.md (Line 10 flag standing) · `AGENTS/SAM/thesis/THESIS.md` v1.7 (frame LOW) · MIDAS M1/composite + MIDAS-07 frozen frame (its surfaces) · `AGENTS/ORACLE/watchlist.tsv` + 8/9 re-pin packet (`PROME/inbox/processed/2026-08-09_from-ORACLE_…`) · `PROME/DOCKET.tsv` 8/14 rows (crude coin-flip · MIDAS-07 · queue row 35 needed-by). **Levels live in those files with their own stamps — cite from there or re-pull; never from this block.**
+
+## Phases and threads
+
+| Thread | Phase | Mode | Order |
+|---|---|---|---|
+| `01_desk-state/` | 0 | **BLIND, parallel** — `P0_<AGENT>_<slug>.md`, no ordinal | none |
+| `02_cross-read/` | 1 | turns | **BRENT → MIDAS → ORACLE → SAM** (instrument owners first, external cross-check, then the resolved desk closes) |
+| `03_falsifiers/` | 2 | parallel (declared — fin-conditions showed turn order adds nothing here) | none |
+| `04_synthesis/` | 3 | draft + dissent | **SAM drafts** (the only desk that has run this claim-class through a completed pre-registered resolver — and owns the 14/14/1 calibration miss from it); one concur/dissent each from BRENT/MIDAS/ORACLE; PROME verification post; FINAL revised in place; PROME rulings-record closes |
+
+**Phase 0 — blind desk-state (+ owed mechanical work, per template).** Do NOT read sibling session posts or session-fresh working files before your own post lands. Fleet canon (HEARTBEAT, GATES, DOCKET, processed packets) is fair. Each desk drains its unprocessed inbox, refreshes its own stale gates on frozen specs, and posts: current positioning claim AS REGISTERED (quote your own letter), the normalization it uses, what the 8/14 print does to it mechanically, and your desk-specific items below.
+
+- **BRENT:** the standing 8/14 do-not-carry-past date and queue-row-35 band question (state, don't rule) · adjudicate the TRACKER Line 10 WTI−Brent status cell your own Monday routine flagged (surface hygiene, your live-session edit per SCHEDULED_RUNS design) · tomorrow's STEO is YOURS (2027 recovery columns — war-theaters #18/#19); state tonight what you'll read.
+- **SAM:** the successor-thesis question is your declared next-session FIRST job (HEARTBEAT §4) — Phase 0 IS that session: what's the thesis when the fuel burned and the level barely moved? · fin-conditions packet in your inbox if unprocessed (JPY drift, Kyodo-vs-OIS gap).
+- **MIDAS:** discharge the DFII10 2.40 [8/7] rider (packet in inbox) · gold-COT crowding baseline restated with its construction shown · MIDAS-07 frame is FROZEN — state it, touch nothing.
+- **ORACLE:** fin-conditions packet (consume-not-own + the shared-packet-as-independent-confirmation finding — it is this forum's question in miniature) · the overdue coverage sweep (last 7/31, weekly cadence) · the v3 supply-leg 9/1 death + no-September-market instrument-succession question: bring OPTIONS, the decision stays PROME/Will. ⚠️ **Kalshi is DARK on this box** (laptop: creds absent + broken `cryptography` — your own 8/9 diagnosis). Do NOT debug it; Polymarket via web is fine; your 8/9 signed Kalshi pull is the standing vintage.
+
+**Phase 1 — cross-read (turns).** Read all P0 posts. Answer the forum question. Audit the OTHER desks' normalizations — show where yours fails on their market. Every shared metric reconciles to ONE figure with ONE named owner. `re:` convention for disagreements.
+
+**Phase 2 — falsifiers (parallel).** Each desk: (a) numeric kills for its own exhaustion claim; (b) **pre-registered branch reads for the 8/14 COT print** — what each branch does to YOUR claim and which branches move the OTHER desks' claims the same direction (the correlation test, stated before the data); (c) BRENT additionally: 8/11 STEO branches; others: STEO NO-READ unless justified in one line. Spec text only; nothing registers live without Will.
+
+**Phase 3 — synthesis.** SAM drafts: the answer (one methodology or three), the effective-signal count with provenance, the common-factor kill map, the 8/14 pre-registration table, ranked Will-gated candidates **with the bottom third KILLED or DEFERRED (template rule 8)**, and **the verdict's own withdrawal test — dated + numeric (rule 9)**. One concur/dissent each. PROME verifies load-bearing figures at primaries. FINAL in place. Rulings-record closes the tree.
+
+## Rules (binding — template cited, not restated)
+
+`FORUM/CHARTER_TEMPLATE.md` rules 1–12 in full. Highlights that bite tonight: **zero capital, zero thresholds moved by anyone** · gates adjudicated only by owners on frozen specs · **absent owners get packets, never adjudications** — RED (scenario weights consume these reads), LIQUID (EndGame DXY control), BOND (term-premium/credibility — ORACLE's divergence finding), HENRY, NEXUS (convergence counting), HAWK/FALCON/OSPREY (war theaters feed crude), WALTER all border this forum · participants do not commit, PROME commits at phase boundaries (⚠️ a live CARL session shares this box tonight — one more reason participant git stays barred) · deliver-before-idle ≤200-word SendMessage per phase.
+
+## Why now
+
+The Aug-11 COT vintage lands Friday 8/14 3:30 PM ET and is simultaneously: crude's coin-flip settler AND do-not-carry-past date, the first post-escalation JPY read, MIDAS-07's frozen grading frame, and queue row 35's needed-by. Three desks' claims grade on one print. This forum pre-registers the joint read four days BEFORE it, instead of narrating after — and states tonight, on the record, what would count as the three claims failing together.
