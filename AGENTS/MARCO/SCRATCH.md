@@ -33,7 +33,14 @@ Live filename discovery still returns `FY2026_Q2`. **DOL has not published Q3.**
 - **HOMER (7/31) — "FL #1 for foreclosures" is a RANK claim.** FL's 2025 level (0.435%) is **~31% below its own 2019** (0.63%) and FL ranked **#8 in 2023**. Qualifier applied to all three surfaces that carried it. Directly relevant: *a foreclosure rate below its own 2019 level is weak support for a migration-outflow story.*
 - **DAEDALUS (8/7), PROME ×3, AEOLUS (8/3)** — all actioned or logged; see below.
 
-### 5. Infrastructure — the defect measured three times and never fixed
+### 5. VX stale sweep #2 — all three loaded rows pulled, and two came back against the thesis
+**Loaded-status stale rows 3 → 0.**
+- **🔴 `TX-03` BREACHED → ELEVATED.** TX Comptroller primary (`data.texas.gov` `vfba-b57j`, 11 border cities, live through July): **aggregate +4.75% YTD, 10 of 11 positive. El Paso +9.7%** — the "$55-62M deficit / 60% pension funding" city. **Pharr +5.4%** — the "S&P negative outlook" city. BREACHED is a compound band needing "sustained decline + business closures + **municipal stress**"; the municipal leg is now **measured and absent**. ⚠️ Kept separate: this is **total** receipts, not **cross-border shopper share** — the 40%→15-28% claim is untouched; nominal not real; and the labor/construction leg was **not** refreshed (carried at 50%).
+- **🟠 `NV-01` — the bodies-down/dollars-up substitution inverted, for the month.** LVCVA PDF primary: visitors −0.5% but **ADR −4.4%, RevPAR −4.9%, gaming −0.7%**. Three deflators applied: LVCVA blames a weak **concert** calendar (mix, not demand), **H1 YTD dollars are still positive**, and ADR comes from a ~75% survey sample. **Durable leg is air: −9.3% Jun / −6.7% YTD.** Band **not** re-marked — see open threads.
+- **🟡 `1.03` — the band is unscorable and that is the finding.** "$X loss" never says against what; three bases give **−$8.3B / −$24.6B / ≈−$39B**. The carried "$5.7-8.3B" was a **2025** figure. US Travel's 2026 forecast is a **gain** (+1.6%), which would read NORMAL — **not adopted**, because MARCO's realized arrivals disagree (Apr −14.1%). Conf 70%→50%.
+- ⚠️ **Two search-layer date decoys caught:** a "Las Vegas visitors −11.3% in June" headline (primary says **−0.5%**) and a WTTC "$12.5BN lost **this year**" release that is **dated May 2025 about calendar 2025**. Both would have shipped as fresh 2026 figures.
+
+### 6. Infrastructure — the defect measured three times and never fixed
 `ledger_staleness` had **zero references anywhere under `AGENTS/MARCO/`** across three measurements (7/25 sweep, 8/4 WATT, 8/7 review). **Wired into `boot.py`** (needed an `extra_args` plumb through `run_script`). **`ML.tsv` frozen with a banner** — it was failing the two-state rule in *both* directions. `FLOW.tsv` (+59d) is now in the legitimate state (b): LIVE with a boot alert. STATUS footer **v2.0 → v3.1** (1.1 versions of drift, flagged since 7/10). PROME's last round-2 straggler (`RESULTS.md:95` "~6pp detection floor" → ~8.8pp) corrected. **My own docket integrity checker then caught my own off-vocabulary priorities** on the two new rows — the 7/31 guard earning its keep against its author.
 
 ## NEXT SESSION
@@ -42,9 +49,11 @@ Live filename discovery still returns `FY2026_Q2`. **DOL has not published Q3.**
 3. **🟡 Aug 15 — Banxico state-of-origin map: the data is ALREADY LIVE.** CE99 carries Abr-Jun 2026 (verified 8/11). This is a pull, not a wait. SDL-01 spatial test.
 4. **🟠 Aug 18 — FL Citizens** (pause-vs-floor) **and** re-check OFLC H-2A Q3.
 5. **🔴 Aug 19 — Section 338 Canada tariff effective.** ⚠️ Autos carve-out **unresolved** (HAWK's own flag) — verify the proclamation annex before sizing anything auto-exposed.
-6. **VX: 3 stale loaded rows NOT refreshed** — `1.03` (70d), `TX-03` (64d), `NV-01` (64d). **NV-01 is the cheapest and most refreshable** (LVCVA monthly). TX-03's staleness is at least *consistent* with Channel 4's MED-LOW/UNVERIFIED mark.
-7. **Carried and still open:** MCO via BTS T-100 (s16→s21, blocks MAR-24 *and* MAR-22) · **the FL-$ hole ($600M–$1.2B) is still scope-mismatched and underived** — MARCO's single biggest forward claim, do not re-cite · KB.tsv 2 duplicate IDs (T1-F) · FL migration divergence vs BofA (the only genuinely open CORAL item) · H-2A offer-premium-above-AEWR needs a pay-unit filter first.
-8. **Do NOT hunt a fourth wage instrument.** v3.0 pre-commits against it.
+6. **🔴 DECIDE CHANNEL 4's FATE — rebuild condition #2 ran and answered.** TX border receipts came back **+4.75% YTD, 10 of 11 cities positive** = **stabilization**, and the pre-written rule says stabilization ⇒ **LOW confirmed or channel retired**. Do not let a run-and-answered test sit as if pending. Remaining unrun: EMMA/MSRB + rating actions, AZ DOR (Nogales), CBP crossing counts.
+7. **`NV-01`'s BREACHED band still rests on UNREFRESHED Canadian data** — LVCVA publishes no nativity split, so June's total-LAS refresh cannot re-mark it. Needs **carrier-level LAS capacity** (AC/WestJet/Flair/Porter).
+8. **`VX-1.03` needs a basis decision** — pick ONE meaning of "loss" (YoY / vs-forecast / vs-2019) and re-band. NTTO June (~8/15) resolves forecast-vs-realized.
+9. **Carried and still open:** MCO via BTS T-100 (s16→s21, blocks MAR-24 *and* MAR-22) · **the FL-$ hole ($600M–$1.2B) is still scope-mismatched and underived** — MARCO's single biggest forward claim, do not re-cite · KB.tsv 2 duplicate IDs (T1-F) · FL migration divergence vs BofA (the only genuinely open CORAL item) · H-2A offer-premium-above-AEWR needs a pay-unit filter first.
+10. **Do NOT hunt a fourth wage instrument.** v3.0 pre-commits against it.
 
 ## OPEN THREADS
 | Item | Status |
@@ -56,7 +65,10 @@ Live filename discovery still returns `FY2026_Q2`. **DOL has not published Q3.**
 | Channel-1 transmission | ⚫ **CLOSED as UNDEMONSTRATED (v3.0)** — 3 pre-registered nulls; reopen only on a non-payroll instrument |
 | MCO pax via BTS T-100 | 🟠 carried s16→s21; blocks two predictions |
 | FL migration divergence (+22,517 vs BofA Q1'26) → CORAL | 🟠 carried from 7/9 — **the only genuinely open CORAL item**; CORAL confirms not unilaterally resolvable |
-| VX 3 stale loaded rows (1.03 / TX-03 / NV-01) | 🟠 **NEW 8/11** — flagged, not refreshed. NV-01 cheapest |
+| 🔴 **Channel 4 — rebuild condition #2 RAN and said STABILIZATION** | **NEW 8/11.** TX border receipts +4.75% YTD, 10/11 cities positive, El Paso +9.7%, Pharr +5.4% — the pre-written rule ⇒ **LOW confirmed or retire**. **Needs an explicit decision next session** |
+| 🟠 **`NV-01` band carried on unrefreshed Canadian data** | **NEW 8/11.** Total-LAS refreshed (bodies flat, dollars inverted for the month, air −9.3%); the BREACHED band is on the **Canadian** leg and LVCVA publishes no nativity split. Needs carrier capacity data |
+| 🟡 **`VX-1.03` band unscorable until "loss" is defined** | **NEW 8/11.** −$8.3B / −$24.6B / ≈−$39B for the same world depending on basis. Conf 70%→50% |
+| 🟠 **NV dollars leg inverted — is the substitution exhausting?** | **NEW 8/11.** June ADR −4.4%/RevPAR −4.9%/gaming −0.7% vs a carried bodies-down-**dollars-up** read; H1 YTD still positive and June had a weak concert calendar. **August print is the check.** If it persists, NV has moved to the next stage of the pattern MARCO expects in FL |
 | KB.tsv 2 duplicate IDs (T1-F) | 🟠 carried from 7/31 |
 | H-2A offer-premium-above-AEWR (pre-reg §5) — needs pay-unit filter | 🟠 carried |
 | ES-MARCO-09 World Cup reversal | 🟠 leans FAIL; NTTO June ~Aug 15 |
