@@ -74,7 +74,7 @@ Before ending, complete in order:
 - [ ] **★ Derived / secondary surfaces (silent-rot class — boot does NOT read these, so they rot invisibly):** `NEXUS_BRIEF.md` · `POSITIONS.md` marks/context · Convergence Matrix (STATUS) · `DECK_EVIDENCE.md`. **Write-back symmetry:** after any price / catalyst / gate-or-thesis-state change this session, refresh-or-consciously-skip **each** — don't assume the STATUS top-line covered them. The 7/20 seeded sweep found exactly this rot ($81.88/$87.67 stale marks + a de-listed HBAN catalyst) living here, caught only by an external sweep, never by closeout. On any gate/thesis-state flip, run the **state-token sweep** (`grep -rn "<old value>" AGENTS/REGINALD/` for old value gone + new value landed) across ALL surfaces, not just STATUS/SCRATCH. *(Added 2026-07-20 — [[finding_status_spine_staleness_under_appended_top]], [[finding_state_token_sweep_all_surfaces]], [[finding_seeded_selfsweep_secondary_surface_rot]].)*
 - [ ] **CALENDAR.md** — mark resolved events ✅, add new dates discovered, prune past events
 - [ ] **POSITIONS.md** — update if broker data was received this session (skip if not)
-- [ ] **Bank STATUS files** (WAL/) — update if WAL-specific work was done (skip if not). OZK is now a top-level peer agent at `../OZK/` — REGINALD no longer owns OZK/STATUS.md.
+- [ ] **Bank STATUS files** — WAL and OZK are both top-level peer agents (`../WAL/` since 7/25, `../OZK/` since 7/22) — REGINALD owns NO per-bank STATUS files anymore; the local `WAL/` subtree was `git mv`'d out. Cross-flag peers via their inbox, never edit their files. *(Stale WAL/ maintenance instruction removed 8/10 per DAEDALUS profile flag.)*
 - [ ] **Thesis drift-grep** (per Orchestrator audit 6/8; hardened to class-fix 6/8 PM): run on **any thesis-level change — a version bump (vX.Y/vX.Y.Z), a framing/claim retirement, or an EV/PT/probability change** (the trigger is NOT version-bump-only: the 6/8 PM cohort-Hyp-A resolution had no bump yet still left stale stragglers). **Recursively grep your own agent dir — not a hand-enumerated file list** (enumerating re-commits the instance-not-class error: the next sub-entity file — BROCK-style per-fund, a future spinout, a new workbook doc — slips identically until someone hand-adds it). Sweep three things: the **old value** (lingering anywhere), the **new value** (confirm it landed everywhere), and the **version label** (anything not bumped — this is how ../WAL/STATUS.md sat a full version behind, caught 6/8 PM):
   ```
   # ⚠️ EXAMPLE ONLY, and the example itself went stale — kept because the METHOD is the point, not these tokens.
@@ -96,6 +96,7 @@ Before ending, complete in order:
 - [ ] **ROADMAP.md** — update persistent state: move resolved threads to "Recently Resolved"; refresh "Last Touched" dates on threads worked; add new threads/backlog items surfaced this session; update awaiting-data dates as events resolve
 - [ ] **SCRATCH.md** — prune aggressively. Promote useful entries to KB / ROADMAP / MEMORY / STATUS. Delete what's done. Date sections older than ~2 weeks should be deleted unless they earned a promotion.
 - [ ] **Research retirement** — flag any `research/` file where ALL three hold: (a) mtime >60 days (`find AGENTS/REGINALD/research/ -maxdepth 3 -mtime +60 -type f ! -name README.md`), (b) NOT in boot-read set (STATUS/MEMORY/CALENDAR/SCRATCH/ROADMAP/CLAUDE.md), (c) NOT referenced in a current STATUS or ROADMAP thread. Files meeting all three: `git mv AGENTS/REGINALD/research/<file> AGENTS/REGINALD/archive/research/<file>`. Rule: **>60d + not boot-read + not referenced → archive**.
+- [ ] **★ NEXUS brief fold — the session's LAST write-back** (Amendment 10, Will-approved 2026-07-31, propagated 8/4): rebuild/refresh `NEXUS_BRIEF.md` **after the final STATUS write, immediately before git commit** — checkable form: the brief's commit timestamp ≥ the session's last STATUS commit. The 7/31 fleet audit found 5-of-5 content-stale briefs had *refreshed mid-session and then kept working* — only the ordering constraint closes it. Spec: `AGENTS/NEXUS/templates/NEXUS_BRIEF_SCHEMA.md` §4.1.
 - [ ] **Git** — commit own files per root CLAUDE.md §Git Protocol (pathspec `AGENTS/REGINALD/`, run from repo root) + auto-push via `scripts/safe-push.sh` (ff-gated; non-ff → `git pull --rebase`, never force).
 
 **Discipline overlay (applies throughout closeout — per Orchestrator audit 6/8):**
@@ -224,21 +225,20 @@ If a cross-agent threshold breaches during your work, append to `AGENTS/SIGNALS.
 
 ---
 
-## HIDDEN CRE METHODOLOGY (Original Discovery)
+## HIDDEN CRE METHODOLOGY (Original Discovery) — ⚠️ SCREEN CONTRADICTED AT PRIMARY 2026-08-07, RE-RUN OWED
 
-Banks hide CRE exposure in C&I via FFIEC Schedule RC-C Memo Item 3 (RCON2746). Screen:
-1. Pull Call Report RC-C Part I → Item 4 (C&I)
-2. Find Memo Item 3 (loans secured by real estate but classified as C&I)
-3. Ratio >20% = flag for hidden CRE
+Banks hide CRE exposure in C&I via FFIEC Schedule RC-C Memo Item 3 (RCON2746). **v1 recipe (Memo3 ÷ item-4 C&I, flag >20%) has a denominator defect:** RCON2746's balance sits in items **4 AND 9** per its own FFIEC definition, and how much sits where varies by bank — so v1 ratios are not cross-bank comparable. Found 8/7 by OZK-spawn + WAL-spawn independently (same day, same schedule).
 
-| Bank | Hidden CRE Ratio | Note |
+| Bank | v1 ratio (DO NOT CITE) | 8/7 primary status |
 |------|------------------|------|
-| OZK | 37.6% | Worst in screen |
-| WAL | 24.2% | Growing (15.5% → 24.2%), mgmt confirmed relabeling |
-| EGBN | 23.7% | |
-| Clean: ZION 1.8%, SSB 0.9% | | |
+| OZK | ~~37.6%~~ | **Does NOT reproduce at any of 18 quarters** (recipe basis 294.93%→**9.35%** Q2-26 — entire Memo-3 in item 9.a). Bucket-migration finding survives: ~$490M debt-on-debt book intact, first-ever C/Os printed Q2-26 ($42.4M YTD). |
+| WAL | 24.2% | **Reproduces exactly** (24.24% at 12/31/25); live **21.20%** Q2-26, never ≥25% in 12 quarters → PLATEAUED; "growing fastest" was a 6-quarter two-endpoint artifact. |
+| EGBN | 23.7% | Unverified on the new evidence — treat as v1-basis only. |
+| Clean: ZION 1.8%, SSB 0.9% | | Unverified on the new evidence. |
 
-Metropolitan Capital failed with 61% true CRE (labeled 10.7%). Three masking levels: extend-and-pretend, mark-to-model, **classification** (our discovery).
+**Owed: cohort re-run on ONE uniform basis, both bases reported** (REST/JWT recipe → `AGENTS/WAL/outbox/2026-08-07_to-REGINALD_mi3-ran-first-time...`; creds in `FORGE/tools/market-data/.env`, JWT expires 2026-11-05). Scope guard: MI3 = CRE *not secured* by RE — secured books (WAL office, OZK RESG) untouched by any of this.
+
+Metropolitan Capital failed with 61% true CRE (labeled 10.7%). Three masking levels: extend-and-pretend, mark-to-model, **classification** (our discovery) — the masking taxonomy stands; the per-bank ratio table above does not.
 
 ---
 

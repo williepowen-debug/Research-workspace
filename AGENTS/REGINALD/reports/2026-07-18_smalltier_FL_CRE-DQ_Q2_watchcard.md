@@ -109,3 +109,19 @@
 1. **BKU headline inverts the detail** — *"Criticized and Classified Loans: Increased $7 million"* while **CRE criticized FELL $79.6M**; the rise is ≈$86.6M of **C&I**.
 2. **BKU's clean NPA is partly DEFINITIONAL** — verbatim: government-insured residential 90+DPD-still-accruing are *"excluded from non-performing loans."* The ~$197M buyout paper is invisible in the 0.66% NPA by construction. Primary confirmation of WALTER's 7/25 point. Warehouse basis reconcile: WALTER's +40% YoY is **period-end**, BKU's +19% YoY is **average** — both true, don't mix bases.
 3. **AMTB resi is a denominator artifact** — SFR nonaccrual +320% YoY in dollars, but the **RATE fell 1.72%→1.63%→1.60%** as the book grew +29%/6mo by acquisition. No rate-level deterioration. WALTER's disclosure-gap watch survives on **composition** grounds only (is any of it government-insured?) — trigger Q2 10-Q ~Aug.
+
+---
+
+# ✅ RESULT-2 — COMPLETED 2026-08-10 (appended; NO threshold above was edited)
+
+**Full grade → `reports/2026-08-10_SBCF_Q2_grade_watchcard_completion.md`.** The Q2 10-Qs are now filed (SBCF 8/4 · BKU 8/6 · SSB 7/31), so the PRIMARY metric became readable — SBCF scored FULLY on primary, and BKU's 7/25 PENDING-10-Q leg is closed.
+
+| Name | Final class | The primary-metric read |
+|---|---|---|
+| **SBCF** | **REVERT** (0-of-4 BUILD legs) | CRE 30-89 **$12.48M → $7.09M** (−43%); seasoned 60-89 **$7.8M → $1.02M CLEARED**; CRE nonaccrual **$55.8M → $43.4M**, below the Q4 start; total accruing PD fell too (not CRE-specific — the one growing line is *residential* nonaccrual, i.e. broad) |
+| **BKU** | **REVERT — now confirmed on primary** | CRE 30-89 **$23.4M → $0** (60-89 stayed empty) — the Q1 spike evaporated entirely; textbook quarter-end timing |
+| **SSB** | **REVERT/HOLD stands** | Nonaccrual ~flat $297.2M; commercial nonaccrual −$10.4M; no label→cash-flow conversion. *(Classified-$ QoQ + current% still unread — vintage-table sum, dedicated pass; disclosed spec defect: the "<~95% accrual" BUILD bar sits above its own 87.3% baseline — scored on intent.)* |
+| **AMTB** | **REVERT** (fully scored 7/25) | unchanged |
+
+## AGGREGATE: **LUMPINESS CONFIRMED — FINAL** (4-of-4 REVERT; provisional tag removed 8/10)
+**Severity stays concentrated at OZK/EGBN; the CRE-DQ creep does NOT broaden tier-wide.** The named flip-risk (hot leading buckets at the 10-Qs) resolved the other way — BKU's leading bucket went to zero.

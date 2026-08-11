@@ -1,5 +1,7 @@
+> ⚠️⚠️ **FROZEN 2026-08-10 — do NOT "start here."** This index hands a cold-boot reader the April Crisis-in-Progress frame (and a 547% concentration figure that is contradicted at primary — live is **267.6%**, EGBN's own Q2 disclosure). The live EGBN read is **DE-RISKING THROUGH REALIZED LOSS** (7/25 Q2 grade). Start at `AGENTS/REGINALD/STATUS.md`; grade at `reports/2026-07-25_EGBN_Q2_grade_plus_FL_smalltier_watchcard_fill.md`. *(DAEDALUS F1 8/7 addendum; disposition 8/10.)*
+
 # EGBN — Agent Index
-**Start here on cold boot.**
+**Start here on cold boot.** *(SUPERSEDED — see banner)*
 
 **Created:** 2026-04-06 | **Thesis:** Crisis-in-Progress (CRE + DOGE compound)
 

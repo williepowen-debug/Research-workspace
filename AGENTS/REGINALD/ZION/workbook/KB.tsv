@@ -1,3 +1,4 @@
+# FROZEN 2026-08-10 — not maintained; AGENTS/REGINALD/STATUS.md is canonical, do not cite rows as current (DAEDALUS F1 disposition)
 ID	Date	Group	Entity	Fact	Source	Conf	Epistemic	Status	Stale_By	DerivedFrom	Vectors	Notes
 KB-ZION-001	2026-03-27	FRAUD_CANTOR	Exposure	Stupin/Cantor exposure ~$60M via California Bank & Trust subsidiary	ZION Q3 2025 8-K	A1	EMPIRICAL	ACTIVE			→V2	
 KB-ZION-002	2026-03-27	FRAUD_CANTOR	ChargeOff	$50M charged off Q3 2025 (83% of exposure). Immediate recognition.	ZION Q3 2025 earnings	A1	EMPIRICAL	ACTIVE			→V2	

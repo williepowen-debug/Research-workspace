@@ -1,5 +1,7 @@
+> ⚠️⚠️ **FROZEN 2026-08-10 — the 🔴🔴 CRISIS header below is NOT the live read.** EGBN's live read since the 7/25 Q2 grade is **DE-RISKING THROUGH REALIZED LOSS** (CRE conc 267.6% below the 300% line, NPA 1.17%, CET1 14.58%, new CEO Curley) → `reports/2026-07-25_EGBN_Q2_grade_plus_FL_smalltier_watchcard_fill.md` + `AGENTS/REGINALD/STATUS.md` Matrix row. Do NOT cite anything below as current. *(DAEDALUS 8/7: this file was a cold-boot entry trap; disposition 8/10.)*
+
 # EGBN STATUS
-**Last Updated:** 2026-04-10 | **Status:** 🔴🔴 CRISIS (Pre-existing + DOGE acceleration + Leadership vacuum)
+**Last Updated:** 2026-04-10 | **Status:** 🔴🔴 CRISIS (Pre-existing + DOGE acceleration + Leadership vacuum) *(SUPERSEDED — see banner)*
 **Price:** $27.01 (Apr 9, +1.20%) | **Assets:** $10.5B
 **HQ:** Bethesda, MD | **Geography:** 100% DC Metro (MD, DC, VA)
 **KB:** 19 rows, 5 groups | **Earnings:** ~Apr 22-25 (unconfirmed)

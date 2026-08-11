@@ -1,3 +1,5 @@
+> ⚠️⚠️ **FROZEN 2026-08-10 — and CONTRADICTED, not merely stale.** This April "Crisis-in-Progress" frame is **inverted by REGINALD's own 7/25 Q2 grade: DE-RISKING THROUGH REALIZED LOSS** (`reports/2026-07-25_EGBN_Q2_grade_plus_FL_smalltier_watchcard_fill.md`) — CRE concentration 295→**267.6%** (below the 300% supervisory line), NPA 1.31→1.17%, CET1 +78bps, coverage 109.01%. **Carry the discriminator before any refresh: ACL coverage thinning because reserves are CONSUMED BY DISPOSITION (realized loss, de-risking) is the OPPOSITE read from coverage thinning because provisions LAG deterioration — same arithmetic, opposite meaning.** Re-deriving the crisis read from the ratios below without that discriminator is the known failure mode. Live state = `AGENTS/REGINALD/STATUS.md`. Do NOT cite anything below as current. *(DAEDALUS F1 8/3+8/7; disposition 8/10.)*
+
 # EGBN — The Crisis-in-Progress Thesis
 **Last Updated:** 2026-04-06
 

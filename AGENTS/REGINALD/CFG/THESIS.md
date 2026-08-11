@@ -1,5 +1,7 @@
+> ⚠️⚠️ **FROZEN 2026-08-10 — and the "VALIDATED" status below is CONTRADICTED IN MEANING.** The $12.5B (+40% YoY) exposure figure verifies at source, but its *direction* inverted: book growth was this file's transmission proof, and it is now the **cleanest DISCONFIRMATION in REGINALD's 7/25 11-name map** — CFG's PC book *grew* to **$12.85B** into a 6.0% TTM PC default cycle **while provision fell and ACL coverage rose to 152%**, i.e. banks are NOT provisioning against the PC channel. A reader who re-verifies the number gets the old direction backwards. Live state = `AGENTS/REGINALD/STATUS.md`; map = `AGENTS/BROCK/inbox/2026-07-25_from-REGINALD_bank-to-BDC-readthrough-map-Q2-COMPLETE.md`; resolution rides BROCK's `BRK-31` at the Q3/Q4 prints. *(DAEDALUS F1 8/3+8/7; disposition 8/10.)*
+
 # CFG — Fund Finance Transmission Thesis
-**Created:** 2026-03-29 | **Updated:** 2026-03-30 | **Status:** VALIDATED — 10-K confirms exposure $12.5B (+40% YoY)
+**Created:** 2026-03-29 | **Updated:** 2026-03-30 | **Status:** VALIDATED *(see banner — meaning inverted)* — 10-K confirms exposure $12.5B (+40% YoY)
 
 ---
 

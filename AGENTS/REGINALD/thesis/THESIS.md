@@ -540,6 +540,6 @@ Key escalation triggers: LABOR claims >300K (all ORANGE→RED), CARL HY OAS >350
 
 ---
 
-*Bank-level detail → `OZK/THESIS.md`, `WAL/THESIS.md`, `CFG/THESIS.md`, `ZION/THESIS.md`*
+*Bank-level detail → `../../OZK/` and `../../WAL/` (both promoted to top-level agents, 7/22 and 7/25 — local subtrees removed), `CFG/THESIS.md`, `ZION/THESIS.md` (both FROZEN 8/10)*
 *Scoring methodology → `BANK_EXPOSURE_MATRIX.md`*
 *Current data → `workbook/VX.tsv`, `workbook/KB.tsv`, `workbook/FLOW.tsv`*

@@ -1,3 +1,5 @@
+> ⚠️ **FROZEN 2026-08-10 — per-bank research base, NOT maintained.** Predates the 6/8 cohort→Hyp-A resolution and two earnings cycles. Live state = `AGENTS/REGINALD/STATUS.md`; Q2 grades = `reports/`. Do NOT cite anything below as current. Any `../WAL/` or `../OZK/` path inside refers to the PROMOTED agents, now `AGENTS/WAL/` / `AGENTS/OZK/`. *(DAEDALUS F1 sweep 8/3 + 8/7 addendum; disposition 8/10: FROZEN across the per-bank tree — reports/ carries live grades.)*
+
 # ZION — Thesis
 **Last Updated:** 2026-03-27
 
@@ -20,4 +22,4 @@ The question: Is WAL right that their collateral is better than ZION's, or are t
 ## Key Research
 
 - `FRAUD/ZION_AUDIT_COMPARISON.md` — side-by-side audit opinion/CAM comparison
-- WAL fraud docs: `../WAL/FRAUD/AUDITOR_NEXUS.md`
+- WAL fraud docs: `../../WAL/FRAUD/AUDITOR_NEXUS.md` *(re-pointed 8/10 — WAL promoted to `AGENTS/WAL/` 7/25)*
