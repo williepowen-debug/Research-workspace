@@ -88,6 +88,17 @@ def jwt_expiry_check(env_file, notes):
 # (name, why, fallback-hint)
 EXPECTED_CLIS = [
     ("trash", "rule #11 trash > rm (package: trash-cli)", "use `gio trash <file>` until installed — NEVER rm"),
+    # MACHINE_LOCAL row 19 — NB installed ≠ authed (the 7/2 verified trap): this
+    # probe catches only a MISSING binary; auth state is in the NOT-checked perimeter.
+    ("gh", "GitHub API/PR/secrets ops (plain git still works)", "install + `gh auth login` per MACHINE_LOCAL"),
+]
+
+# Expected on EVERY box (unlike host-keyed MACHINE_EXTRAS). Warn tier — the
+# Telegram lane is messaging, and BLOCKING stays market-data-scoped (8/7 ruling).
+# (label, home-relative glob, consequence) — inventory sweep 2026-08-11.
+GLOBAL_EXTRAS = [
+    ("telegram channel tokens", ".claude/channels/telegram*",
+     "WALTER/PROME Telegram delivery fails (MACHINE_LOCAL row 13)"),
 ]
 
 # Venv-dep probe (added 2026-07-30, Will-approved — TERRY flag: this script
@@ -101,6 +112,12 @@ EXPECTED_CLIS = [
 VENV_DIR = REPO / ".venv"
 REQUIRED_VENV_DEPS = ["yfinance", "pandas"]
 EXPECTED_VENV_DEPS = ["bs4", "pdfminer"]
+# MESSAGING tier (ruled 2026-08-07, built 8/11 — SAM PyYAML outage: 'CLEAN'
+# printed on a box where DM v1 could not run): NON-BLOCKING by design — never
+# widens the BLOCKING set (its market-data lean is deliberate). PyYAML ships
+# as package dir `yaml`. NB: scripts/requirements.txt pins pyyaml but is
+# CI-SCOPED (feeds GH Actions, never .venv) — a pin there is NOT coverage.
+MESSAGING_VENV_DEPS = [("yaml", "PyYAML — MESSAGING/DM v1 lane dark without it; fix: .venv/bin/pip install pyyaml")]
 
 
 def venv_dep_present(name: str) -> bool:
@@ -173,6 +190,12 @@ def main() -> int:
         else:
             print(f"ENV-DOCTOR ⚠ [{host}] expected machine-local item ABSENT: {label} ({p})")
 
+    for label, pat, why in GLOBAL_EXTRAS:
+        if list(Path.home().glob(pat)):
+            notes.append(f"✓ {label}")
+        else:
+            print(f"ENV-DOCTOR ⚠ expected item ABSENT on every box: {label} (~/{pat}) — {why}")
+
     # Venv-dep probe: the layer whose absence produced the 7/30 false-clean.
     if not VENV_DIR.is_dir():
         print(f"ENV-DOCTOR ✗ venv MISSING at {VENV_DIR} — market-data tools cannot self-heal; "
@@ -193,15 +216,38 @@ def main() -> int:
                 print(f"ENV-DOCTOR ⚠ venv dep `{dep}` missing — some agent scripts break; "
                       f"fix: .venv/bin/pip install {dep if dep != 'pdfminer' else 'pdfminer.six'}")
 
+    # MESSAGING tier — advisory, never counted in `problems` (BLOCKING stays
+    # market-data-scoped by the 8/7 ruling).
+    if VENV_DIR.is_dir():
+        for dep, why in MESSAGING_VENV_DEPS:
+            if venv_dep_present(dep):
+                notes.append(f"✓ venv dep `{dep}` (MESSAGING tier)")
+            else:
+                print(f"ENV-DOCTOR ⚠ [MESSAGING, non-blocking] venv dep `{dep}` missing — {why}")
+
     for cli, why, hint in EXPECTED_CLIS:
         if shutil.which(cli):
             notes.append(f"✓ `{cli}` on PATH")
         else:
             print(f"ENV-DOCTOR ⚠ `{cli}` not on PATH — {why}; {hint}")
 
+    # Perimeter statement (ruled 2026-08-07 — a CLEAN over an unstated scope
+    # certifies nothing): printed on every non-quiet run, and on quiet runs
+    # whenever something failed, so no verdict ships scope-free.
+    perimeter = (f"perimeter — checked: fleet .env keys ({len(REQUIRED_KEYS)}) · FFIEC JWT expiry · "
+                 f"~/.bashrc single-home drift · machine extras[{host}] · venv deps "
+                 f"(REQUIRED {'/'.join(REQUIRED_VENV_DEPS)} · expected {'/'.join(EXPECTED_VENV_DEPS)} · "
+                 f"MESSAGING non-blocking {'/'.join(d for d, _ in MESSAGING_VENV_DEPS)}) · "
+                 f"CLIs {'/'.join(c for c, _, _ in EXPECTED_CLIS)} · "
+                 f"global extras ({'/'.join(l for l, _, _ in GLOBAL_EXTRAS)}) "
+                 f"| NOT checked: agent-local .envs · MESSAGING service state · `gh` auth state "
+                 f"(installed ≠ authed) · scripts/requirements.txt (CI-scoped pin file, not .venv coverage)")
     if not quiet:
         for n in notes:
             print(f"ENV-DOCTOR {n}")
+    if not quiet or problems:
+        print(f"ENV-DOCTOR {perimeter}")
+    if not quiet:
         print(f"ENV-DOCTOR: {'CLEAN' if problems == 0 else str(problems) + ' REQUIRED missing'} on {host}")
     return 1 if problems else 0
 

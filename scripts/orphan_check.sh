@@ -30,21 +30,33 @@
 #   router (PROME); the fallback instruction is flag-to-PROME = the router.
 # - Paths containing spaces mangle in the awk $NF split; fleet packet
 #   filenames never contain spaces.
-# - PROME's home dir is PROME/ (not AGENTS/PROME/), so a PROME run lists
-#   PROME's own in-flight files as [not yours]; PROME is also the flag-to
-#   target, so it reads its own report. Domain agents are unaffected.
+# - (FIXED 2026-08-11, PROME 8/4 defect report) PROME's home dir is PROME/
+#   (not AGENTS/PROME/) — the run was structurally blind to the one agent
+#   root canon 1b tells to run it, labeling PROME's own files [not yours]
+#   with a do-not-commit instruction. HOME_DIR now keys on the agent name.
 # ---------------------------------------------------------------------------
 set -euo pipefail
 
 ME="${1:?usage: orphan_check.sh <AGENT_NAME>   (e.g. orphan_check.sh LIQUID)}"
 cd "$(git rev-parse --show-toplevel)"
 
+# Home dir: domain agents live at AGENTS/<NAME>/; PROME's home is PROME/.
+HOME_DIR="AGENTS/${ME}/"
+[ "$ME" = "PROME" ] && HOME_DIR="PROME/"
+
+# Second owned lane, if any: DAEDALUS owns repo-root scripts/ (Will-ruled
+# 2026-07-31 via PROME) — without this, its own closeouts read scripts/ edits
+# as [not yours] + do-not-commit, the same un-actionable-output defect as the
+# PROME case above.
+LANE2=""
+[ "$ME" = "DAEDALUS" ] && LANE2="^scripts/"
+
 # Every uncommitted path outside my own agent dir (deduped — porcelain emits a
 # rename/delete pair as two lines for the same file).
-HITS=$(git status --porcelain | awk '{print $NF}' | grep -v "^AGENTS/${ME}/" | sort -u || true)
+HITS=$(git status --porcelain | awk '{print $NF}' | grep -v "^${HOME_DIR}" | { [ -n "$LANE2" ] && grep -v "$LANE2" || cat; } | sort -u || true)
 
 if [ -z "$HITS" ]; then
-  echo "✓ orphan check clean — nothing uncommitted outside AGENTS/${ME}/"
+  echo "✓ orphan check clean — nothing uncommitted outside ${HOME_DIR}"
   exit 0
 fi
 
@@ -53,7 +65,7 @@ fi
 MINE=$(echo "$HITS" | grep -iE "_from-${ME}_|_to-[A-Z]+_.*${ME}|/${ME}_" || true)
 OTHER=$(echo "$HITS" | grep -ivE "_from-${ME}_|_to-[A-Z]+_.*${ME}|/${ME}_" || true)
 
-echo "⚠️  uncommitted files outside AGENTS/${ME}/:"
+echo "⚠️  uncommitted files outside ${HOME_DIR}:"
 [ -n "$MINE" ]  && echo "$MINE"  | sed 's/^/     [likely YOURS] /'
 [ -n "$OTHER" ] && echo "$OTHER" | sed 's/^/     [not yours]    /'
 
