@@ -1,5 +1,5 @@
 # ORCHESTRATION PLAYBOOK
-**Created:** 2026-06-26 | **Updated:** 2026-07-09 (+§Standard Fable session — session-design guide, Will-directed; Codex cross-vendor lane; verification tiers; record-vs-reality rule) | **Owner:** Prome | **Companion to:** `PROME/ORCHESTRAL_LAYER_DESIGN.md` (fleet-scan/ranking layer)
+**Created:** 2026-06-26 | **Updated:** 2026-08-10 (+§Mode C — forum canonized as the third mode, Will-approved in-session; template = `FORUM/CHARTER_TEMPLATE.md`) | Prior: 2026-07-09 (+§Standard Fable session — session-design guide, Will-directed; Codex cross-vendor lane; verification tiers; record-vs-reality rule) | **Owner:** Prome | **Companion to:** `PROME/ORCHESTRAL_LAYER_DESIGN.md` (fleet-scan/ranking layer)
 **Purpose:** Operating rules for running a multi-agent session. Read when Will says "let's orchestrate" / before spawning >1 agent. Born from the 2026-06-26 debrief: the orchestration layer works, but we were paying live-orchestration prices for fan-out work and absorbing a fragile-concurrency tax.
 
 ---
@@ -24,6 +24,8 @@ Every multi-agent task is one of two modes. **Decide the mode BEFORE spawning.**
 
 **If ANY is false → Mode B (live).** When unsure, default to Mode A for the parallel-identical part and Mode B only for the decision spine.
 
+> **A third mode exists since 2026-08-07: Mode C — forum** (deliberative synthesis in a shared append-only tree). It is NOT a variant of A or B — see §Mode C below for when it applies.
+
 > **6/26 lesson:** ~70% of the agent-work (self-reports, sweeps, applies) was Mode-A work run as Mode B — I babysat 5 live agents, chased idle ones, and ate index races for tasks a Workflow would have serialized and collected cleanly. Mode-split that work and the same output is ~2× cheaper and quieter.
 
 ---
@@ -37,6 +39,25 @@ Don't pick one mode for the whole session. The common shape:
 3. **Live-orchestrate the decision spine** (Mode B) — route emergent findings, present Will-decisions, handle handoffs/amendments.
 
 6/26 done right would have been: scout → **Workflow** the triage + sweeps + arch-reports + Tier-1 applies → **live** only for the gate-cluster routing, the BROCK/SHADE spin-ups, and the addendum approval.
+
+---
+
+## Mode C — Forum (deliberative synthesis; canonized 2026-08-10, Will-approved)
+
+**Born 2026-08-07, Will-convened.** Neither fan-out (the posts are interdependent) nor live orchestration of PROME's decision spine (the deliberation itself IS the work): N domain agents write into one append-only tree (`FORUM/YYYY-MM-DD_<slug>/`), read each other's posts the moment they land, and converge on a jointly-owned synthesis with dissent on the record. PROME orchestrates phases, verifies load-bearing figures at primaries, and is sole committer.
+
+**Use when** (any one): the question is cross-desk AND the desks' claims or kills may be **correlated** (shared antecedents, same-kill detection) · the bloc must **pre-register before a catalyst cluster** · Will convenes a **system review**. **Not for:** single-owner questions (packet/spawn), routine grading (owner session), calendar ritual. **Will convenes; PROME may propose.**
+
+**Why it earns its cost — evidence from the first 3 sessions (94 posts, full-read assessment 8/10):**
+- **Same-day peer replication kills false numbers before they ship:** OSPREY re-extracting HAWK's STEO PDF between draft and FINAL changed the Will-facing headline from "the absorber is gone" to "a dated convexity window" (war-theaters `03_synthesis/03_OSPREY_…`). As a packet, the wrong version reaches Will.
+- **Shared-antecedent detection needs the whole post-set on disk at once:** three desks citing one HY series / one ORACLE packet as "independent" confirmation is only computable with simultaneous visibility (fin-conditions FINAL §7 → BOND's C-36 concession, 4 legs → 2 evidence types, same day).
+- **Blind Phase 0 manufactures real independence:** LIQUID's judgmental ~1.5 effective signals vs HENRY's measured 1.3, computed blind — the only genuinely independent convergence in that forum.
+- **The dissent structure produces author-self-vetoes** — forum 1: three authors vetoed their own proposals; forum 3: the two sharpest catches were against the synthesis author's own draft.
+- **Owner records reverse aggregate labels:** the TERRY routing question, nearly settled 2-for-exemption on aggregate data, reversed by the owner's own consumption record in-thread (forum 1 `06_proposals/07`).
+
+**Measured costs (same assessment):** restatement volume (~1.5MB / 94 posts / 4 days; the headline finding restated ≥8×) and **candidate accumulation feeding Will's ruling backlog** — the pruning rule (template rule 8) exists for this. Compression to Will-facing form is PROME's job and does not scale past a few sessions/week.
+
+**Mechanics canon = `FORUM/README.md` + `FORUM/CHARTER_TEMPLATE.md`** (binding: blind Phase 0 · declared cross-read order · one concur/dissent per desk · PROME verification post · in-place FINAL revision · no live levels in charters · pruning rule · dated withdrawal test on the verdict · rulings-record post closes the tree). Concurrency: participant git barred, PROME commits at phase boundaries — zero index races across 3 sessions, incl. against concurrent Will-owned sessions.
 
 ---
 
