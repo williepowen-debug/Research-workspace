@@ -59,7 +59,7 @@ These had **zero fleet coverage** (verified at the counterparty standard). Will 
 
 **⚠️ STILL UNOWNED — declined by STUE, no owner anywhere. Do NOT write "X owns it."**
 
-- **Fiscal / rates read-through of mass forgiveness** (discharging ≥$220B of principal). **STUE owns the TRIGGER (register S1 — did it happen), not the read-through.** STUE has no edge in rates or fiscal and would be manufacturing an opinion. **BOND/MARCO-scale; unassigned as of 7/31, routed to PROME.**
+- **Fiscal / rates read-through of mass forgiveness** (discharging ≥$220B of principal). **STUE owns the TRIGGER (register S1 — did it happen), not the read-through.** STUE has no edge in rates or fiscal and would be manufacturing an opinion. ⚠️ **RULED 2026-08-02 (PROME, inbox packet processed 8/10): BOND-conditional watch-row.** BOND is offered a row that activates only on STUE's own S1 trigger firing (forgiveness happens); if BOND declines on its own no-edge grounds, it falls to *declared out-of-fleet blind spot* — either way the unowned state ends. STUE's S1 register is now load-bearing for BOND's row.
 
 ⚠️ **CAPACITY CONDITION on the two absorptions (recorded 7/31, not a formality).** STUE is already the largest sub-agent (27 files, ~1.6× the next) and was **invisible to both fleet coherence enforcers until today**. **Adding domains without adding capability is how surface-rot returns** — that is the whole lesson of the 7/31 pass. The enforcement fix (CARL `LEDGER_GLOB`) is requested and **should land before these grow past a watch-row.** If either becomes a real workstream, raise capability or raise it to DAEDALUS — do not silently absorb.
 
@@ -101,7 +101,7 @@ These had **zero fleet coverage** (verified at the counterparty standard). Will 
 - ⚠️ **Mar 19 2026 = the ED/Treasury partnership ANNOUNCEMENT, not an operational handoff.** Do not read it as completed
 - **Phase 1 scope = ~500K defaulted accounts (launch wave), NOT all ~9M** — ramps gradually via Fiscal Service CSP [CRS R48962]. *(Scope corrected 2026-06-09; the ~9M framing was wrong.)*
 - **Phase 1 execution UNCONFIRMED** — press framed Treasury "contacting 500K by July"; July closed with **no primary launch-day confirmation**. Verification due **~Aug 5**
-- ⚠️ **Custody ≠ enforcement.** This is a servicing/collections custody handoff, NOT involuntary-collections resumption. Do not conflate (CRL-14 SPLIT rests on this)
+- ⚠️ **Custody ≠ enforcement.** This is a servicing/collections custody handoff, NOT involuntary-collections resumption. Do not conflate (the enforcement/attribution split originally reasoned through CRL-14 — retired 7/31, superseded by CRL-28 — still governs)
 - Involuntary collections (AWG + Treasury Offset) — **PAUSED since Jan 16 2026, indefinitely.** Reported expectation "late summer or fall," **no ED commitment, no corroborated restart date** → threshold **STUCK**
 - Phase 2: non-defaulted portfolio · Phase 3: full takeover including FAFSA (planned, no public dates)
 - Legal challenges to authority; GOP bill introduced to codify
@@ -297,7 +297,7 @@ CARL's workbook holds the canonical student loan entries. STUE is the sub-agent;
 - CRL-04: Student 90+ DQ >10% — **CONFIRMED 2026-05-12** (NY Fed Q1 2026 = 10.3%). *2nd print grades in the Q2 HHDC window*
 - CRL-05: CC 90+ DQ >GFC 13.74% via cascade — OPEN 85% (Q1 2026 = 13.1%). **Breach window = the Q2 HHDC, release date unannounced, window 2026-08-04..08-11.** ⚠️ *not "~mid-Aug"* — see the HHDC warning under Key Signals. **Read the cascade RE-SCOPE below before attributing a breach to us**
 - CRL-13: SAVE non-selection >35% — OPEN 75% (Oct 1 2026 **first-tranche** read → full population Q1 2027)
-- CRL-14: MOHELA-caused defaults >500K — **shown OPEN 65% in the parent ledger; STUE proposed 55% + Status OPEN→STUCK on 7/25 (Will-approved), packet delivered, NOT YET APPLIED.** Read the parent row's live value, but know the delta exists
+- CRL-14: MOHELA-caused defaults >500K — **RETIRED 2026-07-31, SUPERSEDED BY CRL-28** (retire+replace, Will-ruled 7/31 opt-a). ⚠️ **Corrected 2026-08-10 (PROME round-2 audit item 1)** — this line previously read "OPEN 65% ... NOT YET APPLIED," telling a spawned STUE the parent was stale in the **opposite direction from reality** (it had already been applied AND superseded). CRL-28 = MOHELA CFPB-complaint borrower-harm signature (60-day rolling avg, `company=MOHELA`, student-loan products), **THRESHOLD FROZEN at 55/day (absolute)**, window Oct 1 2026 – Sep 30 2027
 
 > ⚠️ **Cascade attribution — RE-SCOPED 2026-07-24 (DEWEY C2). Do not carry the broad claim.**
 > **Survives:** each ~50pt score-band drop ≈ **doubles** the 90+ rate; SL-delinquent borrowers' own CC 90+ went **1.03%→5.96%** (Dec'24→Jun'25).

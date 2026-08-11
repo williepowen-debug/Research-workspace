@@ -1,10 +1,16 @@
 # STUE STATUS
 
-**Last Updated:** 2026-07-31 (coherence pass · news sweep · **architecture hardening + scope extension** — **no threshold moved all session; one MISSED event recovered**) | **Data vintage:** 2026-07-25, w/ *Sweet* 9th Cir refreshed to 7/17 | **Status:** 🔴 CRITICAL — mechanism intact, enforcement gated. **CRL-04 CONFIRMED** (NY Fed Q1 2026 90+ DQ **10.3%**). **FSA primary (Jun 23) now carries the default wall: ~9M borrowers / $220B as of Mar 31 2026, +1.3M QoQ.** SAVE→RAP waves launched Jul 1 on schedule and the notice window **COMPRESSED ~3 months** (all notices by Dec 31 2026, not Mar 2027). **AFT v. MOHELA is STAYED by court order** — discovery frozen since Oct 2025; the litigation leg of CRL-14 cannot fire in its own window.
+**Last Updated:** 2026-08-10 (inbox processing · Treasury/MOHELA verification sweep — **no threshold moved; three inbox packets applied; verdicts INCONCLUSIVE on both catalyst checks**) | **Data vintage:** 2026-07-25 core dashboard, w/ *Sweet* 9th Cir at 7/17, Treasury row re-checked 2026-08-10 (still inconclusive, new Aug-7 development logged) | **Status:** 🔴 CRITICAL — mechanism intact, enforcement gated. **CRL-04 CONFIRMED** (NY Fed Q1 2026 90+ DQ **10.3%**). **FSA primary (Jun 23) now carries the default wall: ~9M borrowers / $220B as of Mar 31 2026, +1.3M QoQ.** SAVE→RAP waves launched Jul 1 on schedule and the notice window **COMPRESSED ~3 months** (all notices by Dec 31 2026, not Mar 2027). **AFT v. MOHELA is STAYED by court order** — discovery frozen since Oct 2025. ⚠️ **CRL-14 was RETIRED 2026-07-31, superseded by CRL-28** (frozen 55/day CFPB-complaint threshold, window Oct 1 2026–Sep 30 2027); mentions of "CRL-14" below the fold are historical record of the 7/25→7/31 session that produced that retirement, not the live row — corrected fleet-wide 2026-08-10, PROME round-2 audit.
 
-> **Data vintage:** dashboard refreshed 2026-07-25 from primary sources (FSA GENERAL-26-38, NY Fed Q1 HHDC, D.D.C. docket 1:24-cv-02460, CFPB complaint API, MOHELA/Nelnet servicer FAQs). Prior file was a Jun-9 snapshot carrying five passed-but-unverified events; all now resolved or re-dated below. Live parent context → CARL `STATUS.md` (**2026-07-31 — CURRENT. CARL closed out later the same day and adopted all five 7/25 packets plus the 7/31 *Sweet* finding; CRL-14 is now 55% + STUCK. Nothing owed in either direction** — see ROUTED TO PARENT).
+> ## 📌 SESSION CLOSEOUT 2026-08-10 — NEXT-SESSION HANDOFF (read first)
 >
-> ## 📌 SESSION CLOSEOUT 2026-07-31 — NEXT-SESSION HANDOFF (read first)
+> **Three inbox packets processed** (CARL VASP/monotone-law hand-down 7/31; PROME round-2 audit CRL-14→CRL-28 residue 7/31; PROME U3/inbox-layer ruling 8/2) — all applied, moved to `inbox/processed/`. **Tomorrow (8/11) is the Q2 HHDC's fallback Tuesday** (modal was 8/4, which passed with no advisory found in this session's scope — not re-checked tonight, out of task scope) — **do not let a stale STATUS read as current going into that print.**
+>
+> **Both spawn-tasked catalyst checks came back INCONCLUSIVE, not confirmed clean:**
+> - **Treasury Phase 1 (docketed 8/13):** the original "500K by July" wave is still unconfirmed at the primary level — but a **NEW Aug 7 2026 development** (Treasury "Default Resolution Hub" + vendor-partnership announcement, secondary-sourced) shifts the shape of the question. **Recommend re-scoping the 8/13 row, not pruning it** — see § Treasury Transfer.
+> - **AFT v. MOHELA docket (8/14):** CourtListener returned **403 to WebFetch on every attempt** (2 docket-ID variants + a search page) — the free-RECAP route this row depends on was unreachable this session, not confirmed-quiet. Web search found no news of Doc 54's content. **Do not prune 8/14 on tonight's null** — it's an access failure, not a resolved docket. See § Servicer Performance.
+>
+> ## 📌 SESSION CLOSEOUT 2026-07-31 — NEXT-SESSION HANDOFF (archival, prior session)
 >
 > **Domain: nothing moved. Architecture: a lot did.** No threshold, no confidence, no thesis change all session. Nine defects were found and fixed — **five traced to one root cause: mutable data duplicated across files with no declared owner.**
 >
@@ -148,7 +154,8 @@ What the 7/25 session changed is **not the mechanism but the enforcement and att
 | — **Stay #2 (settlement) — the operative one** | **Mar 20 2026 minute order stayed proceedings "to allow the parties time to explore a negotiated resolution"; parties "engaged in good-faith discussions"; stay extended 60d by JOINT request** [Doc **52**, Joint Status Report 5/18/26 — **free in RECAP**, pulled 7/25] | 🔴 **NEW** |
 | — Next step | **Doc 54 filed 7/17/26** = the joint report proposing a schedule. **PACER-only (~$0.30, ~3pp)** — says either *another extension* (talks live) or *merits schedule* (talks failed). **Only remaining unknown on this docket.** | 🟠 **buy** |
 | — Class certification | **NEVER FILED** — no class-cert motion or ruling has ever appeared on the docket | 🟠 |
-| — ⚠️ Implication for attribution | A settlement typically means **no admission of liability, no public discovery record, no class cert** ⇒ the likeliest path **forecloses** the servicer-attributed default evidence CRL-14's instrument needs. Measurability gets *worse*, not better. | 🔴 |
+| — ⚠️ Implication for attribution | A settlement typically means **no admission of liability, no public discovery record, no class cert** ⇒ the likeliest path **forecloses** the servicer-attributed default evidence CRL-28's instrument needs (attribution question is unchanged by the CRL-14→CRL-28 retire+replace). Measurability gets *worse*, not better. | 🔴 |
+| 🆕 **2026-08-10 free-check attempt (Will declined the PACER $0.30 buy, per 7/31)** | **NO CHANGE FOUND — but ⚠️ this is a blocked-mirror result, not a confirmed-quiet docket.** `courtlistener.com` returned **HTTP 403 to WebFetch on 3 separate URL attempts** (two docket-ID variants + a search-results page) — the exact free-RECAP-text route this row's docket asks for was unreachable this session. Web search surfaced **no news of Doc 54's content, a settlement, or any post-7/17 filing** — but a null search result is weaker evidence than a blocked primary being reachable-but-silent. **Doc 54 remains the only unknown; status unchanged (STAYED, settlement negotiation, last confirmed filing 7/17).** Do not read tonight's null as "confirmed still stayed" — it's "couldn't check the primary, and secondary is silent too." | ⚠️ **inconclusive — try RECAP via a different route next session** |
 | Maldonado v. MOHELA | Mar 2026 — violated CA Student Borrower BoR + UCL | 🔴🔴 precedent stands |
 | Settlement | NONE | — |
 
@@ -156,10 +163,13 @@ What the 7/25 session changed is **not the mechanism but the enforcement and att
 | Metric | Value | Status |
 |--------|-------|--------|
 | Phase 1 scope | **~500K defaulted accounts** = launch wave, NOT all ~9M; ramps gradually via Fiscal Service CSP [CRS R48962] | 🟠 |
-| Phase 1 execution | **NO launch-day primary located.** Press (Apr–Jun) frames Treasury "contacting 500K by July." July has closed without confirmation. | 🟠 **verify 8/5** |
+| Phase 1 execution — "500K by July" wave | **STILL NO launch-day primary located.** Secondary reporting (Forbes 4/22, College Investor, Yahoo) uniformly frames it as "expected by July" / future tense — none pins a completed-transfer date. **INCONCLUSIVE, not confirmed either way**, as of this check. | 🟠 **re-verified 2026-08-10, still open** |
+| 🆕 **Aug 7 2026 — Treasury announced NEW steps (not the July wave's confirmation)** | Yahoo News (dated Fri 8/7/26; via search) + corroborating secondary coverage: Treasury unveiled a **"Default Resolution Hub"** — centralized borrower point-of-contact — and is **"seeking to partner with vendors"** for collections/rehab support. Language is **prospective** ("moving forward," "new plans"), describing **infrastructure build-out that PRECEDES actual collections activity**, not evidence the July batch already moved. [Yahoo News 2026-08-07, via WebSearch — primary Treasury.gov release not located; WebFetch 403s courtlistener.com AND could not confirm a distinct treasury.gov press release URL] | 🟠 **NEW — changes the shape of the 8/13 verification, does not resolve it** |
 | Nature of handoff | **Servicing/collections CUSTODY — not enforcement resumption.** Do not conflate. | ⚠️ |
 | Phase 2 / Phase 3 | Planned, no public dates | 🟡 |
 | Legal authority | Disputed; GOP bill introduced to codify the transfer | 🔴 |
+
+> ⚠️ **2026-08-10 verdict on Phase 1 launch: INCONCLUSIVE.** Free web search found no primary confirming the ~500K account wave actually transferred/borrowers were contacted in July as originally framed. **But the question itself may now be the wrong one to close on 8/13**: the Aug 7 "Default Resolution Hub" + vendor-partnership announcement suggests Treasury's own framing has shifted from a discrete "500K by July" batch toward an ongoing operational build-out — a July yes/no answer may never surface cleanly. **Recommend CARL do NOT prune the 8/13 row outright; re-scope it** to "has the Default Resolution Hub gone live / have vendor partnerships been named?" rather than continuing to chase the original July figure. AWG/TOP involuntary collections still show no restart signal in this sweep — custody-build-out ≠ enforcement, unchanged.
 
 ### Borrower Defense (Sweet v. McMahon)
 | Metric | Value | Status |
@@ -199,7 +209,7 @@ A grep found **six** different "score drop from student-loan delinquency" figure
 | −100 pts | **Near-prime** (~2M borrowers) | H2 2025 | FICO | ✅ valid — **cohort-specific**, in TIMELINE.tsv |
 | **−171 pts** | ⚠️ **NOT a cohort figure — it is the TOP of a −87 to −171 RANGE** (760+ → 590) | **Mar 2025** | **NY Fed Liberty Street Mar 2025** (per `CASCADE.tsv` Stage 4) | 🟠 **sourced, but see below** |
 
-**The pattern is monotone and it is the mechanism, not noise:** the better the starting score, the further there is to fall — superprime-end **−171** > near-prime **−100** > defaulters **−91** > average **−62**. **A spread of figures here is EXPECTED. What was wrong was presenting them unlabelled.**
+⚠️ **CORRECTED 2026-08-10 (PROME audit item 2, CARL hand-down — inbox packet processed): the "monotone law" claim below is WRONG and is struck.** The **−91** defaulter figure reflects a **worse-cohort mechanism** (defaulters vs. merely-delinquent) — the *opposite* axis from "better starting score falls further" — and **−57** was omitted from the ordering entirely. **These are not points on one monotone scale.** The table above is correct; read each row's own cohort/window on its own terms and do not construct a cross-cohort ranking from them. **A spread of figures here is EXPECTED. What was wrong was presenting them unlabelled** — but the generalization that followed compounded the error rather than fixing it.
 
 ⚠️ **The −171 defect is narrower and more specific than "unsourced" — I checked and my first read of it was wrong.** `CASCADE.tsv` Stage 4 carries it correctly as **"−87 to −171 pts, 760+→590"** attributed to **NY Fed Liberty Street Economics, Mar 2025**. The figure is sourced. **The actual defects are two:**
 1. **Range collapse.** `CLAUDE.md` states it as *"Superprime borrowers losing −171 pts when payments resume"* — **a single point estimate for a named cohort, when the source gives a −87 to −171 BAND.** The file quotes the worst end as if it were the finding.
@@ -238,7 +248,7 @@ A grep found **six** different "score drop from student-loan delinquency" figure
 
 ⚠️ **Caveats, carried verbatim rather than smoothed:**
 - **Aggregate-corroborated, NOT FHA-isolated-proven.** Nobody has shown the FHA DQ rise is student-loan-*caused* rather than co-moving.
-- **A confound of similar size sits in the same series:** the **VASP termination gap** — VA's foreclosure-avoidance program ended 5/1/25, its replacement (PCP) didn't open until 6/15/26 = a **~13-14 month backstop gap** (>10K veterans lost homes, ~90K seriously past due). **Do not attribute the whole move to student loans.**
+- ⚠️ **CORRECTED 2026-08-10 (CARL hand-down, PROME audit item 1 — inbox packet processed) — struck, was a CATEGORY ERROR.** The prior claim that the VASP termination gap is "a confound of similar size in the same series" was wrong on **both halves**, at its own cited source (DEWEY `2026-07-24_fha-va-loss-waterfall.md`): the **11.88%** figure is **FHA-only** MBA NDS (the ~900bps FHA-vs-conventional spread is only computable if so), while **VASP is a VA program** — different series, not an in-series confound at all. And the VA leg is **much milder**, not similar size: DEWEY `:69` — PFSI VA 60+ **1.7%** vs FHA **8.0%**. **Candidate REAL in-series confound:** HUD ML 2025-06 mandatory partial-claim waterfall (defers loss as an MMI receivable — genuinely distorts the FHA series). Data hook: HUD FHA Neighborhood Watch geographic cut (DEWEY `:89` items 3-4, scoped, never pulled — coordinate with HOMER).
 - **Urban Institute reads the same data as "back to 2017-18 levels"**, with the thin-equity framing only partly supported (95%+ LTV FHA share actually *declined*).
 
 **Consequence for the CASCADE ladder:** Stage 6 (mortgage) is modelled as **Apr–Dec 2027, 0.5–1M, +0.1–0.3pp — a projection.** The FHA data suggests it may already be **underway**, ~9-18 months earlier than the ladder says. **That is a re-dating question STUE cannot settle alone** — it needs the isolation test above. Logged as open question #11, **not** applied to the ladder.
@@ -263,13 +273,15 @@ A grep found **six** different "score drop from student-loan delinquency" figure
 | **Oct** | MOHELA notice waves complete (per MOHELA FAQ) | MOHELA cohort fully noticed; complaint/failure tell should be legible |
 | **Dec 31 2026** | **All SAVE notices issued (COMPRESSED from Mar 2027)** | Every borrower's 90-day clock started |
 | **~Mar 2027** | Last selection deadlines → final auto-enrollments | **CRL-13 full population** |
-| **Q3–Q4 2026** | Post-transition DQ wave (**CRL-14 window**) | Now rests on **operational failure only** — litigation + garnishment legs both gated |
+| **Q3–Q4 2026** | Post-transition DQ wave (**CRL-28 window opens Oct 1** — CRL-14's successor, retired+replaced 7/31) | Now rests on **operational failure only** — litigation + garnishment legs both gated |
 | **TBD — event-driven** | AFT v. MOHELA stay lifts → joint status report → schedule | No date; watch docket 1:24-cv-02460 |
 
 ---
 
 ## ROUTED TO PARENT — ✅ **ALL ADOPTED** (closed 2026-07-31 PM)
 
+> ⚠️ **Post-dated 2026-08-10:** the CRL-14 row below is now doubly-superseded — adopted as 55%+STUCK on 7/25, then **RETIRED and replaced by CRL-28** later the same evening (7/31, Will-ruled opt-a "yes register"). The table is left as the historical record of the 7/25 exchange; do not read "✅ 55% + Status STUCK" as CRL-14's current state — CRL-14 no longer has a current state, CRL-28 does (frozen 55/day, window Oct 1 2026–Sep 30 2027).
+>
 > **CARL closed out on 7/31 and integrated everything. Nothing is owed in either direction.** Verified against the parent's committed files, not against a claim of processing:
 >
 > | Routed item | Parent state now |
@@ -335,13 +347,13 @@ A grep found **six** different "score drop from student-loan delinquency" figure
 >
 > ⚠️ **CAPACITY CONDITION, recorded as a condition and not a courtesy.** STUE is the largest sub-agent (27 files, ~1.6× the next) and was **invisible to both fleet coherence enforcers until today.** **Adding domains without adding capability is precisely how the rot this session spent a day fixing comes back.** The CARL `LEDGER_GLOB` fix is requested and should land **before** either of these grows past a watch-row.
 
-### 🔴 STILL UNOWNED — declined by STUE, no owner anywhere. With PROME 7/31
+### ✅ FORMERLY UNOWNED — declined by STUE, all now dispositioned (U1/U2 absorbed 7/31, U3 ruled 8/2)
 
-> ⚠️ **U1 and U2 were ABSORBED by STUE on Will's 7/31 ruling — see the block above. What remains below is genuinely ownerless.** Checked at the counterparty standard rather than assumed (`[[finding_scope_negative_needs_the_counterparty_standard]]` — *"it's absent/undefined" is the claim that stops anyone looking*). **Writing "X owns it" here would have been fiction.**
+> ⚠️ **U1 and U2 were ABSORBED by STUE on Will's 7/31 ruling — see the block above.** **U3 (below) was RULED 2026-08-02 — BOND-conditional watch-row — closing the last open row in this table.** Checked at the counterparty standard rather than assumed (`[[finding_scope_negative_needs_the_counterparty_standard]]` — *"it's absent/undefined" is the claim that stops anyone looking*). **Writing "X owns it" here would have been fiction** at the time this table was built; it no longer is.
 
 | # | Gap | Evidence of the gap | Why it matters |
 |---|---|---|---|
-| **U3** | **Mass forgiveness as a fleet-level policy risk** | Only hits are **2 retired STUE archive files** + an unrelated OTTO doc | Seeded as **S1** inside STUE, but the *fiscal / rates* read-through (≥$220B of defaulted principal) is nobody's — that is a BOND/MARCO-scale question, not a STUE one |
+| **U3** | **Mass forgiveness as a fleet-level policy risk** | Only hits are **2 retired STUE archive files** + an unrelated OTTO doc | ✅ **RULED 2026-08-02 (PROME) — BOND-conditional watch-row, not unowned anymore.** BOND holds a row that activates only on STUE's S1 trigger (forgiveness happens); BOND-decline → declared blind spot either way. Fiscal/rates read-through (≥$220B of defaulted principal) is a BOND/MARCO-scale question, not STUE's |
 
 ---
 
@@ -358,7 +370,7 @@ A grep found **six** different "score drop from student-loan delinquency" figure
 8. **Which Tuesday does the Q2 HHDC land on — Aug 4 or Aug 11?** Base rate says 4 (3 of 4 prior Q2s = first Tuesday) but no advisory had posted as of 7/31. **Resolves itself within days**; check `newyorkfed.org/newsevents/mediaadvisory/2026/` daily. *The answer sets the deadline on the un-processed cascade-attribution packet.*
 9. **🆕 Does DOE seek cert in *Sweet*?** The 7/17 loss leaves only a discretionary SCOTUS petition, and DOE has not said. **No stay → discharges are proceeding regardless**, so this is a tail-risk watch, not a live gate. → watch PPSL / 9th Cir docket 26-1136.
 10. **🆕 Harvest the TCF/Protect Borrowers study STUE already half-cites.** *"Trump's Student Loan Delinquency Crisis, Unmasked"* (Granville, TCF + PB, **published Feb 20 2026**, nationally-representative credit panel, data = first 3 quarters of 2025) is where STUE's carried **25% DQ rate** and **13M EOY projection** come from — **but its cohort-severity and demographic cuts were never harvested**: **−57pt** avg score drop, **three-quarters of delinquent borrowers pushed into "deep subprime,"** **7.9M entered delinquency** in 3 quarters, **Black and Native borrowers ~50%** DQ, **Pell recipients 27%**. ⚠️ **NOT new** — a 5-month-old study, flagged so it is not mistaken for a July datum. The **−57pt** figure is a *third* score-drop number alongside FICO's **−62** (H2 2025) and the **−69** derivative cite: **different sources, windows and panels — reconcile before citing any of them as "the" number.** *Backlog item, not a threshold move.*
-11. **🆕 🔴 Is the FHA delinquency rise student-loan-CAUSED, or co-moving?** The single highest-value open question STUE has, because it decides whether **CASCADE Stage 6 (mortgage) re-dates from Apr-Dec 2027 to ALREADY UNDERWAY** — a ~9-18 month pull-forward of the thesis's most consequential stage. **What would settle it:** an FHA-isolated cut — DQ rates for FHA borrowers *with* vs *without* student debt, same vintage, same LTV band. **The confound that must be netted out first is the VASP gap** (VA backstop absent 5/1/25 → 6/15/26), which sits in the same series and is of similar size. **Do not treat "FHA is rising and student debt is concentrated there" as causation — that is the same co-movement error that produced the over-sized CC cascade claim.** Owner: CARL/DEWEY hold the evidence; STUE holds the student-debt side. → § CHANNEL 5.
+11. **🆕 🔴 Is the FHA delinquency rise student-loan-CAUSED, or co-moving?** The single highest-value open question STUE has, because it decides whether **CASCADE Stage 6 (mortgage) re-dates from Apr-Dec 2027 to ALREADY UNDERWAY** — a ~9-18 month pull-forward of the thesis's most consequential stage. **What would settle it:** an FHA-isolated cut — DQ rates for FHA borrowers *with* vs *without* student debt, same vintage, same LTV band. **CORRECTED 2026-08-10: the VASP precondition was a false blocker (category error — VASP is a VA program, not an in-series FHA confound, and the VA leg is much milder, not similar size — see § CHANNEL 5 above) and is REMOVED.** The real in-series confound to net out first is **HUD ML 2025-06's mandatory partial-claim waterfall** (unpulled — HUD FHA Neighborhood Watch geographic cut). **Do not treat "FHA is rising and student debt is concentrated there" as causation — that is the same co-movement error that produced the over-sized CC cascade claim.** Owner: CARL/DEWEY hold the evidence; STUE holds the student-debt side. → § CHANNEL 5.
 12. **🆕 Source the score-drop band properly.** Pull the **NY Fed Liberty Street Mar 2025** piece behind the **−87 to −171** figure and check whether a post-on-ramp update exists — it is the oldest and largest number in the score set and it anchors the top of the cascade. → § SCORE-DROP RECONCILIATION.
 
 ---
@@ -379,4 +391,4 @@ A grep found **six** different "score drop from student-loan delinquency" figure
 
 ---
 
-*Sub-agent of CARL. Parent is system of record for CRL-04/05/13/14 — STUE keeps no own predictions ledger. Latest state vector: **SV-STUE-2026-07-31-01**. Expected-signals register: `workbook/EXPECTED_SIGNALS_TRACKER.md`.*
+*Sub-agent of CARL. Parent is system of record for CRL-04/05/13/28 (CRL-14 retired 7/31, superseded by CRL-28) — STUE keeps no own predictions ledger. Latest state vector: **SV-STUE-2026-08-10-01**. Expected-signals register: `workbook/EXPECTED_SIGNALS_TRACKER.md`.*
