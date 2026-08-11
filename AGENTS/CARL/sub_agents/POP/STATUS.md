@@ -13,6 +13,28 @@
 
 > 📡 **News sweep 2026-07-10 → `state_vectors/SV-POP-2026-07-10-01.md`** (feeds Jul-24 refresh, NOT applied here): CIT STRUCK Sec-122 (May 7, non-parties still pay pending appeal); Jul-24 cliff likely → Sec-301 12.5%/46-countries replacement (USTR Jul-20 deadline), not relief; June Sub-V +28% YoY / H1 +50% (growth-rate decel continues, level stays high); NFIB May 95.3 / Unc 91 (fresh); China effective ~35% (Sec122+Sec301) — 125-145% was transient 2025 peak.
 
+---
+
+## 📌 ADDENDUM 2026-08-10 (ad-hoc dossier spawn — CRL-16/CRL-17 evidence pull, NOT a refresh)
+
+Full detail: `state_vectors/SV-POP-2026-08-10-01.md`. Rows above this addendum remain Apr-17 vintage — do not cite as current. This addendum does not update the dashboard rows.
+
+**CRL-16 bar (SB-related provisions +25% YoY, Q2'26) — NOT SUPPORTED as a distinct SB channel.** None of HBAN/ZION/OZK separately discloses a small-business provision line.
+
+| Bank | Q2'26 total provision | YoY | Attribution (mgmt) | SB breakout? |
+|---|---|---|---|---|
+| HBAN | $132M | +28% | Loan growth + higher NCOs; criticized-asset ratio *declining* | No [HBAN PR 7/23/26] |
+| ZION | $3M | vs –$1M Q2'25 | "Benign credit environment" | No — flat/benign, refutes acceleration [ZION 7/26/26] |
+| OZK | $45.6M | +29.5% | CRE office/life-sciences distress, not commercial/SB | No [OZK PR/call 7/22/26] |
+
+Two of three cross +25% in TOTAL provision but attribute it to non-SB drivers; treating either as SB-provision evidence would be an unlabeled proxy swap. Absence of SB breakout at all three names is itself the finding.
+
+**Sub-V July 2026 (Epiq AACER, pub. 8/6/26):** 234 filings, **+24% YoY** (vs 188 Jul'25), **–9% MoM** vs June's 257. Deceleration continues: Feb +91% → Jun +28% → **Jul +24%**. Commercial Ch-11 (all sizes) 666, –27% YoY, but Jul'25 comp includes >300 filings from one large healthcare-system bankruptcy (base-effect artifact, not clean signal).
+
+**NFIB July optimism releases tomorrow, Tue 8/11 — not pulled this pass; CARL catches it at morning boot sweep.** June print was 97.4 (POP-P02 already MISSED against it).
+
+---
+
 **Status (as of Apr-17):** 🔴 CRITICAL — NFIB Uncertainty BREACHED >90; profit trend -25pp; tariff regime changed (IEEPA struck, Section 122 10% active)
 
 ## ⚠️ THRESHOLD BREACHES THIS REFRESH (Apr 17)
