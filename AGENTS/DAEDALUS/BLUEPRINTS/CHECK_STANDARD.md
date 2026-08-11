@@ -1,0 +1,42 @@
+# CHECK STANDARD — how a standing check earns trust (fleet build standard)
+
+**Owner:** DAEDALUS · **Created:** 2026-08-11 (Will-approved 8/9 via PROME governance batch — mechanism 3 of the 7/31 governance rulings; §1 generalizes the `scripts/firetime_allowlist.tsv` precedent) · **Scope:** binds NEW standing checks at build time and existing `scripts/` checks at next material edit. Companion registries: `STRICT_TEXT.md` (output text) · `STATE_VOCABULARY.md` (state tokens) · `CHECKS.tsv` (the per-check register this standard is enforced through).
+
+A standing check is only as trustworthy as its quiet runs. Every rule below exists because a specific fleet check violated it and the violation was measured — sources cited per rule.
+
+---
+
+## 1. Known-false-positive suppression = an expiry-dated REGISTER, never a pattern widening
+
+Every standing check with recurring known-benign flags gets a register file (the `firetime_allowlist.tsv` form):
+
+| Register row carries | Why |
+|---|---|
+| `artifact · flagged-token · expiry · date-added · reason-with-verification-evidence` | A future reader must be able to re-verify without archaeology |
+
+- **Expired rows RE-FLAG themselves.** A clean quiet run therefore means *genuinely clean*, and the register doubles as a standing alarm. No permanent suppressions, by design.
+- **Suppression-by-regex/pattern is FORBIDDEN** (PAT-035 enforcer-blindness: the next *genuine* instance hides behind the same pattern). Registration is per-instance and dated.
+- **Registration ≠ suppression of a class:** a row that names a checker DEFECT (e.g. URL-as-path, fixed 8/11) carries "retire this row when the fix lands" — and the fix-shipper retires it (6 rows retired 8/11 on exactly this contract).
+- **A malformed register row suppresses NOTHING and says so** — a broken allowlist must never hide flags (fail-loud, `load_allowlist` precedent).
+- The cheapest edit that silences a flag must never damage correct text: **if the only way to clear a flag is to make a right row less right, the CHECK is defective** — fix the check, register the instance meanwhile (RED ML-RED-143, the two-day-range class).
+- Riders that cite this pattern when built: HENRY leg-(g) child · `PUBLISHED.tsv` concept-matching known-FP handling (LABOR BD-09, ruled 7/31).
+
+## 2. A check states its own PERIMETER in its output
+
+`✓ CLEAN` over an unstated scope certifies nothing (finding_verification_zero_is_ambiguous; SAM's PyYAML outage printed CLEAN on a box where DM v1 could not run — ruled 8/7). Output names what was checked AND the known not-checked ("checked: market-data deps, 6 keys · NOT checked: messaging, agent-local"). A null result states what it searched.
+
+## 3. No guard ships unverified (PAT-074, adopted 8/3)
+
+Before a check leaves the author's desk: **(a)** its intended flag line was *watched printing* on a real capable case, and **(b)** its clean line was watched on a clean case. `py_compile` and `rc=0` are not evidence. Four instances in five days of guards certifying health they never checked preceded this rule; first use caught the fifth.
+
+## 4. Truncation announces itself
+
+Any output cap — display (`[:N]` lists) or **scan-scope** (checking only the most recent K values) — prints "`(+N more)`" / "`N older value(s) NOT scanned`". A capped list with no suffix tells its reader "that's all of them" (PROME 8/8: WILL_QUEUE reported 4 roll-off rows when there were 14; consumer_check's `keep[:5]` was silently narrowing its own scan). Scope-caps are the worse subclass: they change *what the check certifies*, not just what it shows.
+
+## 5. On-FAIL, name the owner and the next move
+
+A flag nobody can act on is alert fatigue. Each failure line carries (or the check's header names) the owning surface and the fix path ("restore recipe: MACHINE_LOCAL.md, the row naming the key"). Never a hardcoded pointer that fits only the first key it was written for (env_doctor "FRED row" defect, fixed 8/11). `CHECKS.tsv` gains a per-check on-FAIL column at the next register pass (PAT-084).
+
+## 6. Failure-direction is chosen, and stated
+
+Every discriminator biases somewhere. State which way: a missed URL is noise, a missed real dead pointer is a fire-path break ⇒ bias toward flagging (firetime URL guard skips ONLY when no repo entry of that name exists). A guard against a known FP class is a standing false-negative risk (finding_standing_guard_is_a_false_negative_risk) — which is why §1 forbids pattern-suppression and why an FP-class fix narrows the check instead of widening the skip.
