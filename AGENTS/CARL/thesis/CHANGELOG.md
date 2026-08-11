@@ -8,6 +8,18 @@ Tracks all changes to THESIS.md and PREDICTIONS.tsv. Reverse chronological. Each
 
 ---
 
+## 2026-08-10 (Mon eve) — **THESIS v2.6.5: V16 Employment 3→4 EXECUTED + V2 instrument RE-POINTED — 52→53/70 (76%)**
+
+**V16 Employment Structural Rot 3→4 (Will-approved live in-session).** The Jul-2 re-arm (v2.6.1, ARMED with resolver *"July NFP negative OR another sharp-decel-with-down-revision"*) resolved on its own letter — **both branches at once**: July NFP **−23K = first negative print of the cycle** (BLS USDL-26-1291, primary pulled direct) AND **−103K down-revisions** (May 129→63K, June 57→20K). 3-mo avg +20K/mo; AHE 3.2% YoY (lowest since May 2021); LFPR 61.4% (−0.7pp since Jan, BLS's own sentence). Honest splits carried: local-gov-edu −50K excluded as FISCAL (LABOR base-rate ruling); retail trade −19K (club/supercenters −21K) = the K-shape-axis datum; still rot-not-break (layoffs 1.1% flat; survey layer thawed). **Old→new: V16 3→4; 52→53/70; histogram 4-row 8→9 / 3-row 5→4; critical avg 3.83→3.92.** New downgrade branch written *provisional* (2-consecutive-bounce mirror of the Jun-6 cut basis — Will review at next matrix pass). Surfaces: THESIS header/§5/matrix/histogram/commentary/upgrade-path/evolution + STATUS overall/matrix/histogram/total/NOW/bottom-line + this entry. KB-376.
+
+**V2 instrument RE-POINTED (Will-approved, docketed decision ~8/10):** registered instrument moves off the **blocked Fitch ATR** (4th month unpublished; two stale-vintage recirculation traps, KB-375) onto **OTTO's 7-deal SEC 10-D panel**. Leg arithmetic NOT transplanted (fixed panel ≠ index — deal-level YoY conflates seasoning): operational leg spec OWED via the CARL↔OTTO discriminator thread before the ~8/17 filings, surfaced to Will before registration. TTM<6.0% leg RETIRED as index-specific; cure-reversal leg carries; until registered the panel reads directionally (currently: post-trough climb both tiers = downgrade NOT firing). KB-378.
+
+**Evolution-list repair:** the v2.6.4 bullet was missing from THESIS §Thesis Evolution (8/3 omission) — added retroactively alongside v2.6.5, marked as an 8/10 addition.
+
+**No prediction confidence changes.** Corrections applied to KB-152 (Tricolor cooperators 1→3, trial 1/25/27), KB-364 (AHE trajectory descriptors retired — LABOR supersession), KB-366 (CVNA −7.4% realized, not −16/20%; hook re-registered ~8/17), KB-371 (MU resolver ~late-Sept, not 8/4; iPhone BOM magnitude add), KB-372 (Russia runs ~3.6M bpd, lowest since May 2002). KB-377 registers the live tariff regime (Sec-301 effective 7/24; Canada 338 effective 8/19) — reverses the "USTR missed its deadline" framing on CRL-23's second conjunct. BOARD 48-signal backlog cleared (41 REFERRED / 4 INTEGRATED / 3 INFO_ONLY; reconcile 0/0).
+
+---
+
 ## 2026-08-03 (Mon) — **THESIS v2.6.4: V5 Gas Squeeze 3→4 EXECUTED — 51→52/70 (74%)**
 
 **The pre-authorization fired.** Will's 7/31-eve conditional (*"still ≥$4.00 at Monday 8/3's window close → EXECUTE 3→4, no further ask; retrace <$4.00 first → hold 3"*) was verified against its two registered instruments and **the condition was MET**:
