@@ -37,9 +37,11 @@ The successor regime to the 2007 Interim Guidelines — governs Lake Powell + La
 
 | ~Date | Event | Channel | Note |
 |---|---|---|---|
-| **2026-08-05** | CSU (Klotzbach) seasonal hurricane update | C1 | prior 9/4/1 (7/8); pre-registered escalation line if revised UPWARD |
-| early Aug | NOAA August seasonal hurricane update | C1 | prior May outlook below-normal (55%); pre-registered upward-revision line |
-| **2026-08-13** | NOAA CPC monthly ENSO Discussion + ONI update | ENSO/all | tests the 81% very-strong-OND call; pull CPC PRIMARY (ensodisc.pdf / oni.ascii.txt), not secondaries (L-09) |
+| ~~2026-08-05~~ | ~~CSU (Klotzbach) seasonal hurricane update~~ | C1 | ✅ **DONE 8/5 — HELD at 9/4/1**, unchanged from 7/8. CSU's 2nd-lowest August NS outlook ever. **Escalation line NOT fired.** |
+| ~~2026-08-06~~ | ~~NOAA August seasonal hurricane update~~ | C1 | ✅ **DONE 8/6 — revised DOWN** to 7-13 / 2-6 / 0-2, **75% below-normal** (from 55%). **Escalation line fired BACKWARDS.** |
+| **🔴 2026-08-13** | NOAA CPC monthly ENSO Discussion + ONI update | ENSO/all | **TOMORROW.** Does official prose catch up to ONI MJJ **+1.39** / OISST Jul **+2.03**? Does 81% very-strong-OND hold? Pull CPC PRIMARY (ensodisc.pdf / oni.ascii.txt), not secondaries (L-09). **⇒ Owed to WATT as a routed delta.** |
+| **🔴 ~2026-08-20** | **CPC DJF 2026-27 seasonal temperature outlook** | C3/C2 → WATT, MARCO | **NEW — the highest-value dated item on this calendar.** Footprint-specific for *this* winter; **supersedes the composite reads in both the 8/12 WATT and MARCO packets** (L-14: a season-specific forecast beats an average of eight past winters). ⚠️ Attempted 8/12, could not extract — classify **PUBLIC-AND-UNFETCHED, not unavailable.** **Owed to WATT and MARCO.** |
+| **2026-08-24** | **Brent >$85 sustain — grading check (MARCO's threshold, AEOLUS watching)** | C3-adjacent | Run began 8/10 (8/10 $87.72 · 8/11 $89.29 bars · 8/12 $88.71 front-month futures, provisional). Condition = **sustained >$85 for 2+ wks, graded on SETTLEMENTS**. ⚠️ **Label the instrument on every crude figure; basis is diverging (~$10 futures-vs-dated-spot) and BRENT rules the canonical instrument — do NOT re-adjudicate basis.** Packet MARCO either way. |
 | ~mid-month | USDA NASS Crop Progress (weekly in season) | C2 | corn/soy G/E + drought monitor |
 | ~2026-08-15 | Panama ACP draft step-down 14.94 m → 14.78 m | C5 | precautionary; watch for any binding TRANSIT restriction (AEO-04) |
 | Sept–Nov | Lower Mississippi low-water season | C5 | normal now (Aug); the autumn window is where it would fire |

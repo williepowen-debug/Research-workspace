@@ -52,6 +52,7 @@ At boot, after STATUS / MEMORY / LAST_COMPLETION:
 1. **Update `STATUS.md`** — matrix scores, live reads (sourced + dated), exit triad fired-count, refreshed BOTTOM LINE.
 2. **Log to workbook** — new facts → `KB.tsv`; vector state changes → `VX.tsv`; new/confirmed pathways → `FLOW.tsv`; new forecasts → `PREDICTIONS.tsv` (AEO-NN).
 3. **Writeback `NEXUS_BRIEF.md`** — curated cross-agent sync (every closeout). `outbox/` only for 🔴 crisis (async).
+   > **⏱️ ORDERING (NEXUS schema Amendment 10, ratified 2026-07-31 Will-approved; propagated to me by PROME 8/4, adopted 8/12): the brief fold is the session's LAST write-back — after your final STATUS write, immediately before git commit.** Checkable form: the brief's commit timestamp ≥ your last STATUS commit timestamp. **Refreshing the brief early and then continuing to work is the fleet's dominant content-stale mechanism** — the 7/31 audit found 5-of-5 stale briefs *had* refreshed and then kept working; zero had skipped it. Only the ordering constraint closes it. Schema questions → NEXUS, not PROME.
 4. **Continuity** — append a dated note to `SCRATCH.md` (next-session pickup); add any new durable lesson to `LESSONS.md`.
 5. **Git** — commit own files per root CLAUDE.md §Git Protocol (pathspec `AGENTS/AEOLUS/`) + auto-push via `scripts/safe-push.sh` (ff-gated; non-ff → `git pull --rebase`, never force). (See GIT PROTOCOL below.)
 
