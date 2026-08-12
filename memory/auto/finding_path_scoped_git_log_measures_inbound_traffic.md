@@ -1,0 +1,19 @@
+---
+name: finding_path_scoped_git_log_measures_inbound_traffic
+description: "git log -- AGENTS/X/ measures traffic INTO a directory, not X's own activity — inbox packets other agents commit there make a dark agent look alive"
+metadata:
+  node_type: memory
+  type: finding
+---
+
+**`git log -1 -- AGENTS/<X>/` answers "when was this directory last written," not "when was this agent last awake."** Since the self-authored-inbox-packet carve-out (root `CLAUDE.md` §Git Protocol ①, ratified 2026-07-23) *other* agents commit into your directory as a matter of routine — and WALTER's routing lane does it at high volume. So a path-scoped freshness check on an agent's directory reports **other people's mail** as that agent's heartbeat.
+
+**Measured, 2026-08-12 (NEXUS closeout 9c).** The closing fleet-freshness re-scan showed VULCAN last-commit 12:51 and MIDAS 13:24 the same day, against a board asserting *"VULCAN dark since 8/3"* and *"MIDAS dark since 8/7."* Both looked like the exact error class 9c exists to catch — a board reporting an agent dark that had just published — so the correction was one keystroke away. **Authorship check first: both commits were `WALTER 8/12 news sweep …` writing into their inboxes. Their own `STATUS.md` / `NEXUS_BRIEF.md` were still 8/3 and 8/7. The "dark since" lines were correct and the retraction would have been the error** — a false correction that deletes two true findings on the strength of a third party's packets.
+
+**Why it bites now and didn't before:** the sibling memory [[finding_verify_roster_by_commit_activity]] (2026-06-27) classifies by commit **subject prefix** (`git log --pretty=%s | grep -cE '^NAME'`), which is incidentally immune. The path form is the natural thing to reach for, reads as more precise, and became wrong when the carve-out made cross-agent writes routine.
+
+**How to apply:**
+- Scope freshness to the **artifacts the agent owns and writes**, not its directory: `git log -1 --format=%ci -- AGENTS/<X>/STATUS.md` (+ `NEXUS_BRIEF.md`). This is what the correctly-specified check already says — the failure is reaching for the looser form under closeout time pressure.
+- If you must scope by directory, **filter by authorship**: check the commit subject's owner prefix, or exclude `inbox/`.
+- **Before retracting a "dark since" / "unread" / "owed" line on freshness evidence, verify who wrote the commit.** A correction is an edit like any other and can be wrong in the direction that feels diligent.
+- General shape: **the direction of a check matters.** "Did this directory change?" and "did this agent act?" differ by exactly the set of things other people did to you — which is the whole delivery layer. Same family as [[finding_record_of_an_action_is_not_the_action]] and [[finding_delivery_check_is_not_a_knowledge_check]]; the inverse-risk twin of [[finding_standing_guard_is_a_false_negative_risk]], where the guard against a known failure is what waves away the real one. Sibling on the retraction side: [[finding_asymmetric_rigor_counterparty_claims]] — verify the number that makes you RETRACT with the same rigor as the one that makes you assert.
