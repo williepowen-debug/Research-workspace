@@ -26,6 +26,10 @@
 
 Flow per agent: **COMPREHEND (profile) → DECOMPOSE (upgrade card) → SECTION-TASKS.**
 
+> **★ MANDATORY COMPANION — persist the reader deliverables (PAT-100, adopted 2026-08-12).** Every Mode-A fan-out writes a `*_READER_REPORTS.md` beside its synthesis carrying **(a)** each reader's raw tables verbatim, **(b)** a pointer map of where each slice landed, **(c)** **every reader's not-read / coverage-limit list.** The synthesis alone is NOT persistence: conclusions land in files while the evidence and coverage limits die with the session — and that failure is *selective*, so the output looks complete and survives a self-check. **(c) is the expensive half:** once conclusions are summarized, nobody can see what was never checked, and the next pass trusts cells nobody verified. **Corollary: a reader's flagged caveat is a BLOCKER on the claim it qualifies, not a footnote under it** — resolve it before the claim leaves your desk (8/12: a forwarded REG-T claim carried an explicitly-flagged unresolved caveat; checking it inverted the finding). *(n=3 — 8/11 DARK_CENSUS, 8/11 PAT-093, 8/12 RED audit — every one found by Will asking, never by my own closeout.)*
+>
+> **Reader-ops floor (measured, 10-of-12 across three fan-outs):** readers idle holding their results even with an explicit deliver-before-idle instruction in the prompt. **The instruction does not work; the chase does.** A fan-out is not complete when the spawns return — chase every silent reader.
+
 ## The section-task lifecycle (7 steps)
 
 For one agent, one blueprint section (operating against the Profile from Step 0):
