@@ -49,6 +49,7 @@ FRED_SERIES = [
     ("BAMLH0A0HYM2", "HY OAS", 100, "bps"),
     ("BAMLH0A3HYC", "CCC OAS", 100, "bps"),
     ("ICSA", "Initial Claims", 0.001, "K"),
+    ("T5YIFR", "5y5y Breakeven", 1, "%"),
 ]
 # registry metric vocabulary -> live-value resolution (units match registry: bps / K / level)
 METRIC_MAP = {
@@ -57,6 +58,11 @@ METRIC_MAP = {
     "CCC-OAS": ("fred", "BAMLH0A3HYC", "value", 100),
     "BRENT-PAPER": ("yf", "BZ=F", "price", 1),
     "INITIAL-CLAIMS": ("fred", "ICSA", "value", 0.001),
+    # FT-09 expectations-unanchor line (added 2026-08-12, audit R17 / PROME amendment 2 —
+    # it sat 24bps from firing while rendering "unmapped metric, manual check" on WALTER's
+    # auto-fire path. CORE-CPI-3MO-ANN (FT-08) stays unmapped by design: a release-derived
+    # 3-month compound has no FRED series, and failing loud is correct for it.
+    "BREAKEVEN-5Y5Y": ("fred", "T5YIFR", "value", 1),
 }
 NEAR_PCT = 0.03  # within 3% of threshold = NEAR
 
@@ -103,7 +109,11 @@ def eval_line(value, op, thr, sustain, src_type, key, scale, fred):
     dist = value - thr
     near = abs(dist) <= abs(thr) * NEAR_PCT
     sustain_n = int(sustain) if str(sustain).isdigit() else 1
-    detail = f"live {value:,.2f} vs {op}{thr:,.0f} (dist {dist:+,.2f})"
+    # thresholds are printed at the precision they were REGISTERED at: a .0f here rendered
+    # FT-09's 2.55 as ">3" (2026-08-12) — a 24bp-away line reading as 69bp-away. Sub-unit
+    # thresholds keep 2dp; bps/K thresholds stay integer so the credit lines read unchanged.
+    thr_s = f"{thr:,.2f}" if abs(thr) < 100 and thr != int(thr) else f"{thr:,.0f}"
+    detail = f"live {value:,.2f} vs {op}{thr_s} (dist {dist:+,.2f})"
     if hit and sustain_n > 1 and src_type == "fred":
         trail = fred_trail(key, scale, fred, sustain_n)
         if len(trail) >= sustain_n and all(cmp_op(t, op, thr) for t in trail):
@@ -134,8 +144,9 @@ def section_tape(prices, fred):
         if obs and "value" in obs[0]:
             v = float(obs[0]["value"]) * scale
             prev = float(obs[1]["value"]) * scale if len(obs) > 1 else None
-            delta = f" ({v - prev:+,.0f})" if prev is not None else ""
-            print(f"   {label:<22} {v:>10,.0f}{unit}{delta}  [FRED {obs[0]['date']}]")
+            dp = 2 if abs(v) < 100 else 0   # sub-100 series (breakevens, yields) need decimals; bps/K do not
+            delta = f" ({v - prev:+,.{dp}f})" if prev is not None else ""
+            print(f"   {label:<22} {v:>10,.{dp}f}{unit}{delta}  [FRED {obs[0]['date']}]")
 
 
 def section_triggers(prices, fred, verbose):

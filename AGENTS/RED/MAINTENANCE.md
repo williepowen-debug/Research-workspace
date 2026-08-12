@@ -11,6 +11,22 @@ Reverse-chronological log of **structural** changes to RED's docs, folders, sche
 
 ---
 
+## 2026-08-12 (S29d/e) — DAEDALUS audit + PROME amendments: FT-08 machine form corrected, FT-09 wired into boot.py, WAL V4 docket row added
+
+**Trigger:** `AGENTS/DAEDALUS/upgrades/RED_AUDIT_2026-08-12.md` (18 findings, Will-directed) + PROME's three amendments (durable record in DAEDALUS's inbox; relayed to RED as an addendum packet) + PROME's prune-scan R4 delta packet.
+
+**What changed:**
+1. **`registry/FALSIFICATION_TRIGGERS.tsv` — FT-08 machine form CORRECTED (audit R7c).** Was `CORE-CPI-MOM >= 0.4, sustain 1` with the AND-leg (3-mo ann ≥3.0%) stranded in the notes column *beside the sentence explaining why single-leg firing is noise*. boot.py and WALTER read machine columns only → **the row fired on exactly what its own registration forbade.** Now `CORE-CPI-3MO-ANN >= 3.0, sustain 1` — the 3-month annualized figure **is** the conjunction as one machine-readable quantity, so no consumer can fire a half-test. Instrument basis written into the row (R7a). Defect was self-created ~3h after ML-RED-144 diagnosed the class.
+2. **`scripts/boot.py` — `T5YIFR` added to `FRED_SERIES` + `METRIC_MAP` (audit R17, promoted to hours-tier by PROME amendment 2).** FT-09 was 24bps from firing while rendering `unmapped metric, manual check`. **`CORE-CPI-3MO-ANN` deliberately left unmapped** — a release-derived 3-month compound has no FRED series and failing loud is correct for it; recorded as a decision, not an omission.
+3. **`scripts/boot.py` — numeric precision fixed in two formatters, a defect introduced by change 2 and caught before commit.** Thresholds printed at `.0f` rendered FT-09's 2.55 as **`>3`** (a 24bp-away line displaying as 69bp-away), and the FRED tape printed `2%` for 2.31%. Evaluation was correct throughout; only display rounded. Thresholds now print at registered precision (2dp when sub-100 and non-integer, else integer); tape at 2dp for sub-100 series. **Regression-verified: HY 272bps / CCC 1,023bps / claims 199K unchanged.**
+4. **`docket/CATALYSTS.tsv` — WAL V4 row added for 8/13 (audit R5).** Named the next binding test in four narrative surfaces with no docket row; boot.py §3 iterates `status=pending` only, so **the T-1 catalyst RED called binding would not have printed.** Verified now printing ⏰ T-1. Violation of RED's own W4 mirror rule.
+
+**Boot-impact:** §① tape gains a `5y5y Breakeven` row; §② now evaluates FT-09 live (**8 of 9** hard triggers auto-evaluated, up from 7 — FT-08 stays manual by design). CLAUDE.md:59's full-coverage claim is closer but still not literally true; queued with the hygiene batch.
+
+**DEFERRED, deliberately, per PROME's sequencing:** R3 dispute-marking **HELD for BRENT's basis ruling** (one relabeling pass after the ruling, not a marking pass before it — the four existing ⚠️ marks stay); **amendment 3's ACTION-MAGNITUDE column** and R2/R7b/R8/R9/R4/R10-R18 → **dedicated hygiene session.** Absorbing an 18-finding list into a live catalyst day is the R2 failure mode itself.
+
+---
+
 ## 2026-08-12 (S29) — two NEW registry triggers (FT-08 core CPI, FT-09 5y5y breakeven); FT-06 fired and exposed a magnitude spec-gap; KB-RED-067 doubly corrected
 
 **Trigger:** S29 write-back (W4/W6/W9) on a live catalyst day + PROME packet `2026-08-11_from-PROME_forum4-close-weights-inputs-and-corrected-references.md` (MIDAS DFII10 flag) + DAEDALUS packet `2026-08-11_..._weekday-range-guard-shipped`.
