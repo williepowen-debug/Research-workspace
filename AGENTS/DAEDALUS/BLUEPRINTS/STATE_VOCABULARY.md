@@ -51,6 +51,21 @@
 - Nuance rides a parenthetical, not a new token: `HIT (letter; thesis-partial)`, `MISS (direction right, magnitude short)`. Narrative outcomes go in the Outcome/Notes column — **the Status cell holds ONLY a registry token.**
 - **Historical rows are never rewritten** — grades stand verbatim as made; the registry binds new ledgers and new rows in ledgers that adopt it.
 
+## Class 4 — Queue / disposition states (added 2026-08-12; provenance: LABOR L-16 via PROME — one wrong word re-queued a finished judgment SIX times)
+
+*The defining defect: LABOR's SIG-006 was parked six times across six sessions while its 7/31 board_log row already held a complete merits assessment — the filing token was `deferred`, which is NON-TERMINAL, so finished work re-entered the queue five more times. The interface property this class adds: **every disposition token is marked TERMINAL or NON-TERMINAL, and queue tooling may enforce that mechanically** (a NON-TERMINAL token on a row older than ~2 sessions is a re-queue candidate; a TERMINAL token never re-queues).*
+
+| Canonical token | Meaning | Terminal? |
+|---|---|---|
+| `QUEUED` | Awaiting assessment | NON-TERMINAL |
+| `DEFERRED <until/condition>` | **Not yet assessed**, deliberately postponed — must carry a re-look date or condition | NON-TERMINAL |
+| `NO-ACTION <date>` | **Assessed on merits; nothing warranted. Do not re-queue.** The token L-16 was missing | TERMINAL |
+| `DONE <date>` | Assessed and acted; record where | TERMINAL |
+
+- The trap this exists to kill: using `DEFERRED` to mean "I looked, nothing to do." That is `NO-ACTION`. `DEFERRED` asserts the assessment has NOT happened yet.
+- **Local richness protected (PAT-015):** WALTER's KILL/DISPATCH/FOLD lane vocabulary and any agent's richer disposition ladder stay canonical locally (WALTER's spec is its own, unchanged) — this class binds NEW queue/board_log-shaped surfaces and the cross-agent handle, per the standing scope rule above.
+- Fleet cross-check candidate (registered, not yet run): grep queues/board_logs for `deferred` rows older than ~2 sessions whose notes read like completed assessments — LABOR's n=6 says the class is not rare.
+
 ---
 
 ## Enforcement map (who reads these tokens)
@@ -60,5 +75,6 @@
 | 1 (banners) | `ledger_staleness.py` recognizer | Recognize canonical + legacy set; SUPERSEDED addition owed (rides TERRY-S1 session) |
 | 2 (gates) | greps in sweeps/audits/screens (no single enforcer) | Any NEW check greps the canonical spellings + documents which legacy spellings it covers |
 | 3 (predictions) | boot due-scans, scoreboard tooling (per-agent) | New ledgers ship with the token enum in their header comment |
+| 4 (queue/disposition) | queue re-scan tooling, board_log audits (per-agent today; no single enforcer) | New queue surfaces ship the enum + TERMINAL marking in their header comment; any re-queue tooling keys on the TERMINAL flag, never on token spelling |
 
 **Build-time check (REGISTRATION_CHECKLIST row 15):** new agents' state-bearing surfaces use canonical tokens; DAEDALUS verifies at registration. Blueprint variants cite this file — they do not restate the tables.
