@@ -23,7 +23,7 @@
 ## 1. FINDINGS — ranked
 
 ### 🔴 I-1 — CONFIRMED — The ledger cannot represent gas/LNG losses at all, and records them as **zero** — while my own thesis says gas/LNG is the leg in supply-loss
-**Rows `RF-030`, `RF-004`, `RF-016` (+ `RF-033`) · owner: WILL/PROME to rule the schema · NOT edited**
+**Rows `RF-030`, `RF-004`, `RF-016` · owner: WILL/PROME to rule the schema · NOT edited** ⚑ *(this line originally read "(+ RF-033)" — **WRONG, corrected in the ADDENDUM**: RF-033's zero is a documented anti-double-count, not a unit failure. See also the ADDENDUM's I-9: `capacity_bpd` is a SECOND column with the same disease.)*
 
 `bpd_offline_est` is a **liquids** unit. Three **ACTIVE** rows describe large non-liquid capacity losses and therefore carry **`0`**:
 
@@ -78,8 +78,9 @@ Worst: `RF-004` South Pars 146d · `RF-005` Bazan 145d · `RF-009` Kirishi 139d 
 ### 🟡 I-5 — CONFIRMED — The `0` token carries **at least four** distinct meanings
 **owner: MINE · REPORTED**
 
-Across the 21 rows using `0`: **(a) restored/resolved** — 11 RESOLVED rows · **(b) attacked but undamaged** — 2 `ATTACKED_INFRA_INTACT` (RF-019 Kharg strike-2, RF-034 Barakah) · **(c) deliberately zeroed to prevent double-count** — RF-044 Jazan, RF-019 Kharg · **(d) real loss the unit cannot express** — RF-030, RF-004, RF-016 (finding I-1).
-**⇒ Four meanings, one token, no key.** Combined with I-4's blanks, the column has **six** states and documents none of them.
+Across the 21 rows using `0`: **(a) restored/resolved** — 11 RESOLVED rows · **(b) attacked but undamaged** — 2 `ATTACKED_INFRA_INTACT` (**RF-019 Kharg strike-2**, RF-034 Barakah) · **(c) deliberately zeroed to prevent double-count** — **RF-044 Jazan, RF-033 VTTI Fujairah** · **(d) real loss the unit cannot express** — RF-030, RF-004, RF-016 (finding I-1).
+⚑ **MEMBERSHIP CORRECTED in the ADDENDUM: category (c) originally listed "RF-044 Jazan, RF-019 Kharg." RF-019 belongs in (b), not (c)** — its note says *"oil infra AGAIN spared… 90% export capacity is standing,"* so its zero is genuine-no-damage. **RF-033 is the actual second instance of (c), and it documents itself.** Four categories, count unchanged; two memberships wrong on the first pass.
+**⇒ Four meanings, one token, no key.** Combined with I-4's blanks, the column has **six** states and documents none of them. ⛔ **And per the ADDENDUM's I-9, `capacity_bpd` is a SECOND column with the same six-state disease — 39 numeric / 7 zero / 7 blank — which this finding did not cover.**
 
 ### 🟡 I-6 — MIXED — No facility key: repeat strikes are invisible to mechanical matching; the anti-double-count convention **works where applied** but is not applied everywhere
 **owner: MINE · REPORTED**
@@ -88,8 +89,8 @@ Across the 21 rows using `0`: **(a) restored/resolved** — 11 RESOLVED rows · 
 
 | group | rows | verdict |
 |---|---|---|
-| **Jazan** | RF-039 `400,000` + RF-044 **`0`** | ✅ **CORRECT** — deliberate zero, no double-count |
-| **Kharg** | RF-002 `1,500,000` + RF-019 **`0`** | ✅ **CORRECT** |
+| **Jazan** | RF-039 `400,000` + RF-044 **`0`** | ✅ **CORRECT** — deliberate zero, explicitly documented |
+| **Kharg** | RF-002 `1,500,000` + RF-019 **`0`** | ✅ **CORRECT, but RE-CLASSIFIED in the ADDENDUM** — this is an **INFRA-INTACT** zero (*"oil infra AGAIN spared"*), **not** an anti-double-count zero. My original category was wrong. |
 | **CPC Marine Terminal** | RF-038 `1,300,000` + RF-042 **`(blank)`** | ⚠️ **LATENT** — same terminal, 6th strike. Blank ≠ deliberate zero. **If anyone fills that blank, it double-counts 1.3M bpd.** |
 | **Dos Bocas** | RF-003 `100,000` + RF-020 `50,000` | 🟡 **CANDIDATE double-count of up to 50,000 bpd** — one refinery; a coke-warehouse strike on an already-100k-offline plant may not be additive. **Needs judgment ⇒ reported, not resolved.** |
 | Mina Abdullah / Mina Al-Ahmadi | RF-007, RF-014 | ✅ **FALSE POSITIVE** — different Kuwaiti plants |
@@ -117,7 +118,7 @@ Across the 21 rows using `0`: **(a) restored/resolved** — 11 RESOLVED rows · 
 | **P-1** | ID continuity | ✅ **CLEAN.** RF-001…RF-053, **0 missing, 0 duplicate.** |
 | **P-2** | Schema integrity | ✅ **CLEAN.** 15 columns on **54 of 54** non-comment lines. |
 | **P-3** | **Over-count from RESOLVED rows — my own stated hypothesis** | ✅ **REFUTED BY MEASUREMENT.** I expected restored capacity to inflate the sum. **All 11 RESOLVED rows carry `0`** and contribute **nothing**. The error runs the *other* way (I-4, under-count). **Recording this because a hypothesis I formed and then disproved is worth more than one I never tested.** |
-| **P-4** | Anti-double-count convention | ✅ **2 of 2 correct where applied** (Jazan, Kharg). |
+| **P-4** | Anti-double-count convention | ✅ **2 of 2 correct where applied** — ⚑ **MEMBERSHIP CORRECTED in the ADDENDUM: the two are `RF-044` Jazan and `RF-033` VTTI, NOT Jazan and Kharg.** Kharg's zero is infra-intact. Verdict unchanged, membership wrong on first pass. |
 | **P-5** | Scope ruling (floating assets) | ✅ **CLEAN and genuinely good.** The 8/7 ruling resolves the FSRU-vs-ship ambiguity with a functional test, correctly admits RF-043, correctly **excludes** three in-transit vessels, and **explicitly declines to redefine HAWK's boundary unilaterally.** Self-consistent on re-read. |
 | **P-6** | COMPLETE-check (side effects in notes) | **3 candidates → 1 real (I-7), 1 valid (`RF-033` "see RF-012" — RF-012 exists), 1 unresolved candidate (`RF-042` "folded into", not chased).** |
 | **P-7** | `last_verified` parseability | ✅ **CLEAN.** 53/53 parse; none blank. |
@@ -142,3 +143,58 @@ Across the 21 rows using `0`: **(a) restored/resolved** — 11 RESOLVED rows · 
 **⇒ No aggregate over this file is currently quotable.** That is the single recommendation I would put in front of Will: **not a fix, a usage constraint — until the schema carries units and a staleness budget, this ledger is a good EVENT RECORD and is not a CAPACITY MEASURE, and nothing in it should be summed into a number that reaches a decision.**
 
 ★ **And the pattern from Companion A holds a third time: a number whose BASIS moved while its label stayed still. F-1 was a retracted input inside a derived figure; F-2/F-3 were two bases registered as one test; I-1 is a unit that never matched the scope its own header declares.**
+
+---
+
+# ADDENDUM — 2026-08-12 ~19:1x ET · PROME flagged `RF-033`; reading it produced **two corrections to this report** and one new finding
+
+**PROME's catch:** I counted 3 ACTIVE-storing-zero rows in I-1 and mentioned `RF-033` only in a parenthetical without testing it. **PROME counted 4 and asked which of three explanations held. Reading the row resolved it — and it was none of the three.**
+
+## ✅ CORRECTION 1 — **I-1's scope is 3 rows, not 4. `RF-033` does NOT belong in it, and my parenthetical was wrong.**
+
+`RF-033`'s own note explains its zero **explicitly**:
+> *"…(export-disruption context; **left out of `bpd_offline_est` to avoid double-count with RF-012 bypass**)"*
+
+**⇒ `RF-033` is a documented ANTI-DOUBLE-COUNT zero — I-5 category (c) — not a unit-representation failure.** The row is **correct and self-documenting.** I-1 stands at exactly **RF-030, RF-004, RF-016**, and I have removed the `(+ RF-033)` claim.
+
+## ✅ CORRECTION 2 — **I mis-classified `RF-019` Kharg, and the convention count was wrong**
+
+Companion A/B said the anti-double-count convention was *"2-for-2 where applied (Jazan, Kharg)."* **Reading `RF-019` shows that is wrong:** it carries `capacity_bpd = 1,500,000` with `bpd_offline_est = 0` and `status = ATTACKED_INFRA_INTACT`, and its note says *"oil infra AGAIN spared… 90% export capacity is standing."*
+**⇒ Kharg's zero is a genuine INFRA-INTACT zero (category b), not an anti-double-count zero.** The convention is **2-for-2 where applied — `RF-044` Jazan and `RF-033` VTTI** — and Kharg was never an instance of it. **P-4 is unchanged in verdict (2 of 2 correct) and changed in membership.**
+
+## 🟠 NEW — I-9 — CONFIRMED — `capacity_bpd` is a **second** column with the identical disease, and I never audited it
+
+PROME asked whether I-1 generalizes to *"the ledger cannot represent non-production assets."* **I tested that and it is NOT the right generalization** — the cross-tab refutes it: **9 of 13 non-production rows DO carry a `capacity_bpd`** (CPC, Primorsk, Novorossiysk export terminals all quote a bpd throughput).
+
+**The real generalization is narrower in cause and wider in reach: there is no UNIT FIELD, so any asset not naturally denominated in barrels/day stores as `0`.**
+
+| `capacity_bpd` state | rows |
+|---|---:|
+| numeric | **39** |
+| **`0`** | **7** |
+| **blank** | **7** |
+
+**The 7 zeros, read individually:**
+
+| row | asset | natural unit | why `0` |
+|---|---|---|---|
+| RF-004 | South Pars | bcf/d (gas field) | **wrong unit** |
+| RF-016 | Habshan | bcf/d (gas processing) | **wrong unit** |
+| RF-030 | Ras Laffan | **MTPA (LNG)** | **wrong unit** |
+| RF-034 | Barakah | **MW (nuclear)** | **wrong unit** |
+| RF-011 | Ust-Luga | throughput — its own note quotes *"up to 40% of RU oil exports"*, a **percentage** | **wrong unit** |
+| RF-033 | VTTI Fujairah | storage/throughput | **wrong unit** |
+| **RF-037** | KOC offshore platform | **bpd IS the right unit** — note calls it *"the FIRST production-CLASS asset struck"* | ⛔ **capacity simply UNKNOWN, stored as 0** |
+
+**⇒ `capacity_bpd = 0` conflates *wrong-unit* (6 rows) with *unknown* (1 row) — and adds 7 blanks on top.** Same six-state failure as `bpd_offline_est`, in a column my sweep never opened.
+⛔ **Coverage admission: Companion B audited `bpd_offline_est` and reported the ledger's quantitative problem as if it were one column. It is two.** The verdict is unchanged and slightly strengthened — **not a capacity measure** — but the schema fix in I-1 must cover **both** columns, and must separate *unmeasurable-in-this-unit* from *unknown*.
+
+## 🟡 One dated carry-item surfaced by the same read
+`RF-033`'s note holds an open item from **2026-05-31 (73 days)**: *"Borouge petrochemical + Emirates Global Aluminium collateral damage reported in prior BRENT STATUS — **UNVERIFIED** in the 2026-05-31 source pass; **not logged as separate facilities pending confirmation**."* **Honest discipline when written; nobody has returned to it in 73 days.** An I-2-class instance with a name.
+
+## What this addendum changes for a Will ruling
+- **I-1 scope: 3 rows** (RF-030 / RF-004 / RF-016), not 4.
+- **The schema ask now covers TWO columns** (`capacity_bpd` *and* `bpd_offline_est`) and must distinguish **wrong-unit** from **unknown**.
+- **Verdict unchanged:** still a good **event record**, still **not a capacity measure**, still **no quotable aggregate.**
+
+★ **Worth recording plainly: PROME's flag was one row, and reading it overturned two of my own classifications and opened a column I had not looked at. My sweep read 53 rows and still generalized from the column I happened to audit.** `[[finding_verification_zero_is_ambiguous]]` — **a check certifies its SCOPE, not your capability** — this time on my own audit rather than on my data.
