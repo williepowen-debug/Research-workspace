@@ -64,7 +64,7 @@
 4. **🟠 8/12-13 Saudi coalition framework meeting** — institutional framework + open accession; resolves within ~36h of dispatch.
 5. **🟠 CARL has FOUR open asks** (`-002` seam / `-004` gasoline framing / `-006` cumulative-vs-rate / `-007` **does it even want the retail-footprint channel**) **+ `KB-372`.** CARL is **pull-complete — no handoff exists, BOARD-on-origin is the only channel.**
 6. **🟠 HOMER** — which foreclosure metric variant; split starts from completions given the 563-day timeline. **Dark since 7/31 and now holds 3 of today's items.**
-7. **🟠 MIDAS dark ~20 days** while gold ran to **$4,484.90**.
+7. **🟢 MIDAS — CORRECTED 2026-08-12: NOT dark.** Own session **8/07** (MIDAS-07 registered, WGC Q2 CB kill-condition graded NOT FIRED, gold COT baseline) + inbox drained 8/10 ⇒ **5 days, not 20.** ⚠️ **I carried "dark ~20 days" across three sessions and repeated it to Will in the 8/12 boot report before re-deriving it — an inherited carry-forward, `[[finding_dated_carry_item_has_no_expiry_check]]`, which I promoted myself.** Live MIDAS item is now `SIG-W-20260812-013`: **gold MINER EQUITIES are a 0-hit channel fleet-wide** and MIDAS's charter (metals as macro tells) may deliberately exclude them — the ask is a scoping call, not a number.
 8. **🟠 BRENT** — is the crude non-response real once the in-line CPI is netted out? + the still-owed Red Sea leg (`-20260807-002`).
 9. **🟠 PROME forum carry items** (8/8 packet, still unprocessed in `inbox/`): §3.5 warrant re-point · **S1 build** · S7 under §5.1 · `entities:` mandatory at dispatch (applied on all 7 today; spec change still owed) · bounded-cell fix.
 10. **🟠 Two lane defects for PROME** (unchanged): unbound `bank failure` keyword n=3/n=4 · evergreen-URL dedup failure.
