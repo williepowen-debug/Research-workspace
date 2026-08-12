@@ -52,6 +52,12 @@ AWARENESS = [
     # (7/25 sweep, 8/4 WATT, 8/7 production review) with zero references to it
     # anywhere under AGENTS/MARCO/ — detection existed, invocation never did.
     ("Ledger Staleness",     WORKSPACE / "scripts" / "ledger_staleness.py", ["MARCO"]),
+    # Built 2026-08-12 after session 21 produced FOUR instances of "the fix cleared the
+    # region, not the file" — a brief section stale 11 days past its own test's resolution,
+    # a git mv half-committed, duplicated stamp residue surviving a rewrite of its own line,
+    # and (not machine-checkable) an analytical overclaim. Detection was never the gap;
+    # invocation was — same lesson as the memory-index check.
+    ("Version / Residue Drift", SCRIPTS_DIR / "version_drift_check.py", []),
 ]
 
 # Data fetchers: (label, script, output_file, cadence_days, timeout_s, vintage_fn)

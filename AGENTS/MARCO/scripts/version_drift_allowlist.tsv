@@ -1,0 +1,15 @@
+# version_drift_check.py known-false-positive REGISTER (CHECK_STANDARD §1, DAEDALUS blueprint)
+#
+# Per-instance and DATED. Pattern/regex suppression is FORBIDDEN — the next genuine instance
+# would hide behind the same pattern (PAT-035 enforcer-blindness).
+# EXPIRED ROWS RE-FLAG THEMSELVES BY DESIGN, so a quiet run means genuinely quiet.
+# A malformed row suppresses NOTHING and the check says so out loud.
+#
+# artifact = <path>:<line>  ·  token = the flagged value (e.g. v2.4, or dup:As of)
+# Re-verify at expiry: line numbers drift, so confirm the row still names what you think.
+artifact	token	expiry	date_added	reason_with_verification_evidence
+MAINTENANCE.md:13	v2.0	2026-11-12	2026-08-12	LEGITIMATE HISTORY: this row is the MAINTENANCE ledger's own RECORD of the FINDINGS.md version-drift defect, quoting the wrong value it tracks. Verified 8/12 by reading the row — it is a defect report, not a canonical claim. NB the row is itself stale (it says FINDINGS read v2.0; FINDINGS actually read v2.5 until fixed 8/12) — retire this register row when the MAINTENANCE row is closed.
+MAINTENANCE.md:13	v2.4	2026-11-12	2026-08-12	Same row as above; the regex catches both version tokens in the sentence. Same verification.
+MAINTENANCE.md:20	v2.6	2026-11-12	2026-08-12	LEGITIMATE HISTORY: records the 7/2 SDL-01 magnitude re-mark that shipped AT v2.6. Verified 8/12 — a dated past-tense event, not a claim about the current canonical version.
+MAINTENANCE.md:128	v2.4	2026-11-12	2026-08-12	LEGITIMATE HISTORY: describes MARCO_SKELETON.md (v1.0) being superseded by THESIS.md as it stood at v2.4. Verified 8/12 — correct as written for its vintage.
+MEMORY.md:57	v2.4	2026-11-12	2026-08-12	LEGITIMATE HISTORY: the session-14 handoff-staleness lesson, which records NEXUS_BRIEF being stuck at v2.4 as the WORKED EXAMPLE of the very defect. Verified 8/12 — rewriting this token would destroy the lesson's evidence (CHECK_STANDARD §1: if the only way to clear a flag is to make a right row less right, the CHECK is defective).

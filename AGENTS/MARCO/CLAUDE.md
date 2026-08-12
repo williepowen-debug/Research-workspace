@@ -218,7 +218,7 @@ After close: move `thread.md` content to `sub_agents/[NAME]/threads/archive/YYYY
 | `STATUS.md` | Live state — dashboard, active situations, predictions. **Primary daily memory.** |
 | `SCRATCH.md` | **Canonical session handoff** (ephemeral — overwritten each session). CHANGES SINCE / WHAT I DID / NEXT SESSION / OPEN THREADS / mail state. Boot read 2 → write 10. |
 | `MEMORY.md` | **Persistent MARCO-specific learnings** (durable — characteristic analytic error, source-quality map, operational caveats). The tier between SCRATCH (overwritten) and auto-memory (transferable only). Boot read 3 → prune/promote 12. |
-| `thesis/THESIS.md` | **Canonical versioned thesis** (v2.5) — core claim, 5 transmission channels, conviction by channel. |
+| `thesis/THESIS.md` | **Canonical versioned thesis** (**v3.1** — Channel 1 demoted from spine, Channel 4 MED-LOW and split) — core claim, 5 transmission channels, conviction by channel. *(v2.5 → v3.1, 2026-08-12: this row is in the file MARCO boot-loads and was **6 versions adrift**. Do not hand-maintain — `scripts/version_drift_check.py` now guards it at boot.)* |
 | `thesis/CHANGELOG.md` | Thesis version-transition log (old view → new view). |
 | `thesis/TIMELINE.md` | Dated event spine — resolved events + forward branch points. |
 | `thesis/PREDICTIONS.tsv` | Full prediction detail (moved from top-level 2026-05-31). |
@@ -235,6 +235,7 @@ After close: move `thread.md` content to `sub_agents/[NAME]/threads/archive/YYYY
 | `scripts/catalyst_countdown.py` | Reads `docket/CATALYSTS.tsv` → calendar-day countdown; flags PASSED-but-listed + DUE-within-horizon. |
 | `scripts/predictions_due.py` | Free-text Timeframe/Expected-By parser (Q/H/FY/month-range) → flags OPEN predictions + active expected-signals past/near window. Fails LOUD on unparseable. |
 | `scripts/staleness.py` | STATUS header-date + VX.tsv per-row `Last Updated` drift check. |
+| `scripts/version_drift_check.py` | **Residue guard (boot step, built 2026-08-12)** — the "a section-scoped fix does not clear a FILE" class. Three checks: **V** a line claiming the *canonical* thesis version while disagreeing with `thesis/THESIS.md` · **C** the same `**Label:**` twice in one line (stamp residue) · **B** a staged deletion with no matching add (the `git mv` half-commit — you path-scoped the DESTINATION). **ADVISORY: exit 0 whether or not it flags** (`--strict` exits 1 for gates). Known-FP register: `scripts/version_drift_allowlist.tsv`, per-instance and **expiring**, never pattern suppression. ⚠️ **A flag is a prompt to LOOK — a correctly-dated history line ("v2.7 retired the thermometer") is RIGHT; never find-replace a version token.** Two candidate classes were **measured and deliberately NOT built** (forward-language-vs-passed-date, 21/21 FP; resolved-ID-written-as-pending, 2/2 FP) — re-measure before reviving either. |
 | `domain/sources/` | Research archives, STATUS backups |
 | `inbox/` | Inbound signals from other agents. Process when spawned for it. |
 | `outbox/` | PROME-action requests only. Signals to other agents → write directly to their `inbox/`. |

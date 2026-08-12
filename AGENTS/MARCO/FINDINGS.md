@@ -65,7 +65,7 @@ Each section below is a **thesis bucket**. Under each bucket: the research docs 
 Live values drift between sessions; this navigator deliberately does **not** carry them (single-source-of-truth — restating values here is exactly the staleness this file is meant to prevent). Read the owner doc:
 
 - **Current dashboard, active situations, thesis-inflection block** → `STATUS.md`
-- **Canonical thesis (v2.5), 5 transmission channels, conviction-by-channel, kill conditions** → `thesis/THESIS.md` · version-transition log → `thesis/CHANGELOG.md` · dated event spine → `thesis/TIMELINE.md`
+- **Canonical thesis (v3.1 — Channel 1 DEMOTED from spine, Channel 4 MED-LOW and split), 5 transmission channels, conviction-by-channel, kill conditions** → `thesis/THESIS.md` · version-transition log → `thesis/CHANGELOG.md` · dated event spine → `thesis/TIMELINE.md` *(version corrected v2.5 → v3.1 on 2026-08-12: this navigator line had been **6 versions adrift** and is boot-read. Found by `scripts/version_drift_check.py`, built the same day for exactly this class.)*
 - **Predictions** (full detail + resolutions) → `thesis/PREDICTIONS.tsv`
 - **Live indicator vectors** → `workbook/VX.tsv` · knowledge base → `workbook/KB.tsv` · transmission/cascade mechanics → `workbook/FLOW.tsv`
 - **Forward catalysts / dates** → `docket/CATALYSTS.tsv` (machine feed) + `docket/CALENDAR.md` (countdown)
