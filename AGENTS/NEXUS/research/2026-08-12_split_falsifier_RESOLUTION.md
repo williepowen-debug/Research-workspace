@@ -102,3 +102,28 @@ The frozen T-15 claim — *"no-print-by-design"* — **did not resolve TRUE.** T
 ---
 
 *Frozen sections of the 8/3 registration (§§1-4) were not edited. This file grades against them. Pointer lives in STATUS §T-19 and §LAST RUN. Next evaluation ~2026-08-28 per §5.*
+
+---
+
+## ⚠️ ADDENDUM — 2026-08-12 pass B (~18:1x ET). **§5's BRANCH A IS UNREACHABLE. The spec text above is NOT edited.**
+
+Base-rated at primary after this file was written (`BAMLH0A0HYM2` / `BAMLH0A3HYC`, 422 sessions, 2025-01-02 → 2026-08-11 — **FRED was never blocked; §5's parenthetical saying so was a false diagnosis**):
+
+| §5 branch | Jointly, rolling windows |
+|---|---:|
+| **A — RECOGNITION → Break UP ≥6pp** | **0 / 418 = 0.0%. Never satisfied in 19 months.** |
+| **B — BETA → Break DOWN ≥6pp** | 359 / 418 = **85.9%** |
+
+**Cause is structural: the ratio's denominator IS branch A's other instrument.** HY widening pushes CCC/HY down, so A demands two anti-correlated conditions at once (7/28-7/30: HY widest 284-287, ratio lowest 3.530-3.542; 8/6-8/11: HY tightest 270-272, ratio highest 3.752-3.761). **No threshold choice repairs it.**
+
+⇒ **The four construction checks above verified MAGNITUDE symmetry and never verified SATISFIABILITY symmetry.** A registration symmetric in what it pays, asymmetric in what it can pay out.
+
+⛔ **DISCLOSED, NOT MOVED — §5 is frozen and grades 8/28 exactly as written.** Re-cutting a bear-side forcing condition 11 days after freezing it, in the direction favouring a call already flagged as worth 5pp to its author, is goalpost-moving.
+
+✅ **What survives review:** branch **C**'s second clause (*"ratio ≥3.60 while HY never reaches 280"*) **names the 8/12 state exactly** — the registration did not miss this case, it anticipated it — and the **non-renewable** clause converts a likely double-C into a **forced T-12 re-spec by ~9/11**, off the candidate list already named pre-data.
+
+**Pre-committed, pre-resolution:** expected outcome **branch C**; a C **scores nothing** and must be written **EARNED** with both levels quoted; **if A fires anyway the ≥6pp is taken without re-litigating these base rates.** **Reachability base-rating is now permanent in the construction set.**
+
+✅ **Also verified pass B, and it cuts the other way:** the adverse call §2 rests on **reproduces exactly at primary** (7/16 → 8/11: HY +1bp, CCC +53bp, ratio 3.579 → 3.761), and REGINALD's ≥3.60 line base-rates at **16/422 = 3.8%** — genuinely discriminating. **The "I could not verify at primary" attack handed to RED is withdrawn.**
+
+Full working → `2026-08-12b_falsifier_base_rate_audit.md`.
