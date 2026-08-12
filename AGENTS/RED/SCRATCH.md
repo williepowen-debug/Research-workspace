@@ -1,13 +1,25 @@
 # RED SCRATCH — Canonical Session Handoff
 
-<!-- TEMPLATE (rewrite in place at W5 every session; git history versions this file):
-## CHANGES SINCE (what moved while RED was offline)
-## WHAT I DID
-## NEXT SESSION (dated, priority-ordered)
-## OPEN THREADS
+<!-- TEMPLATE — rewrite in place at W5 every session; git history versions this file.
+     Section order (headings written WITHOUT the "##" here ON PURPOSE — see below):
+       1. CHANGES SINCE   — what moved while RED was offline
+       2. WHAT I DID
+       3. NEXT SESSION    — dated, priority-ordered
+       4. OPEN THREADS
+       5. PENDING WILL-DECISIONS
+       6. GIT STATE       — one line
 
-## PENDING WILL-DECISIONS
-## GIT STATE (one line)
+     !! DO NOT restore the "##" prefixes to the list above. !!
+     They were verbatim copies of the live body headings until 2026-08-12, which made every
+     heading-anchored edit AMBIGUOUS: a scripted insert anchored on "## OPEN THREADS" matched
+     THIS BLOCK first and wrote the content inside the comment. It happened three times on
+     8/12; one instance was committed and pushed (4b3bb1b55) with two carry-forward threads
+     rendering as nothing while present in the file.
+     No check can see that class — claim_check, ledger_staleness, orphan_check and a content
+     grep all PASS on a file whose content is commented out. (ML-RED-155)
+
+     If you script an edit to this file: anchor on a body-unique string, and verify placement
+     by heading OFFSET (which occurrence), never by presence.
 -->
 
 **Session 29 — Wed 2026-08-12 ~10:36 AM–12:15 PM ET, CLOSED OUT (Will-directed boot on a live catalyst day; July CPI printed 08:30, graded ~3h later).** **HOLD 70→69 / net-bear 66→60.** One mechanical fire with a disclosed magnitude defect, one labelled discretionary −4, both the same direction. **Full Stagflation Spiral is no longer sole-modal.**
