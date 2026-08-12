@@ -255,10 +255,9 @@ One paragraph max. Where is the market right and we're wrong? What are we filter
 ### Archive
 | Directory | Purpose |
 |-----------|---------|
-| `archive/handoffs/` | **FROZEN S17 (2026-06-10)** — historical RED_001-016 handoffs; superseded by SCRATCH.md (git history versions it). Do not add new entries. |
-| `archive/status_snapshots/` | STATUS.md versions over time |
-| `archive/` | Old reports, superseded files |
-| `archive/RED_SKELETON.md` | **RETIRED** Feb-2026 counter-evidence skeleton — superseded by `workbook/VX.tsv` (per-target counter-evidence vectors) + STATUS bull-case steelman. Historical reference only; do **not** rebuild or treat as live. |
+| `archive/` | **LIVE destination for the retirement rule, recreated 2026-08-12 (Will-ruled).** >60d + not boot-read + not referenced by a live doc → `git mv` here. **Nothing in it is live.** Read `archive/README.md` first — it records what was archived, what was deliberately held back, and why the directory had to be recreated. |
+| ~~`archive/handoffs/`~~ · ~~`archive/status_snapshots/`~~ · ~~`archive/RED_SKELETON.md`~~ | ⚠️ **DELETED 2026-06-30 by `1cb18fbc3` (fleet-wide public-prep prune, 38 RED files). These paths do NOT exist — the rows above claimed them for six weeks after the content was gone.** The prune's *"0-ref"* premise was **false** for `RED_SKELETON.md` (cited in this table AND `MEMORY.md`) and for `status_snapshots/STATUS_2026-04-02.md` (a **live markdown link in boot-read `MEMORY.md`**). **All 38 files remain recoverable at `1cb18fbc3^`** — the content was never lost, only the pointers broke. The prune is not reversed here; restoring any file is a Will/PROME call. |
+| ~~`archive/RED_SKELETON.md`~~ *(gone — see the row above)* | **RETIRED** Feb-2026 counter-evidence skeleton — superseded by `workbook/VX.tsv` (per-target counter-evidence vectors) + STATUS bull-case steelman. ⚠️ **The FILE no longer exists** (deleted 2026-06-30 with the rest of the prune); this row survived it by six weeks and is exactly the reference that disproves the prune's *"0-ref"* premise. Recover with `git show 1cb18fbc3^:AGENTS/RED/archive/RED_SKELETON.md`. **Do not rebuild and do not treat as live** — the retirement verdict stands, only the path claim was false. |
 
 ### Workbook (Permanent Memory)
 

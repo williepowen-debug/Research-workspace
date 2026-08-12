@@ -6,7 +6,7 @@
 
 ## Analytical Findings
 - **NDFI RESOLVED (Apr 5):** Q3 $1.32T vs Q4 domestic $1.411T vs Q4 consolidated $1.569T. Timing+scope issue. Use $1.411T domestic (RCONJ454) as standard. Total committed ~$4.2T (Whalen). Growth +35% YoY. REGINALD had correction in NDFI_HIDDEN_CRE_HYPOTHESIS.md that RED never read.
-- [CCC Concentration](archive/status_snapshots/STATUS_2026-04-02.md) — CCC OAS >1000 is cable/media/healthcare, not broad systemic. Downgraded as indicator Mar 31.
+- **CCC Concentration** — CCC OAS >1000 is cable/media/healthcare, not broad systemic. Downgraded as indicator Mar 31. ⚠️ *(Source was `archive/status_snapshots/STATUS_2026-04-02.md`, a LIVE LINK IN THIS BOOT-READ FILE that pointed at nothing from 2026-06-30 to 2026-08-12 — deleted by the `1cb18fbc3` prune on a "0-ref" premise this very line disproves. Recoverable: `git show 1cb18fbc3^:AGENTS/RED/archive/status_snapshots/STATUS_2026-04-02.md`.)*
 - [CDX/Cash Divergence](research/CEASEFIRE_FADE_PROTOCOL.md) — 8+ weeks of CDX/cash HY divergence. HY OAS now TIGHTENED to 316 (from 342). May have resolved wrong way for HYG puts.
 - ~~**Dual Transmission (Apr 5):**~~ **REVISED → Buffer Depletion Framework.** "Oil bypasses employment" was wrong. Correct: "Depleted buffers + any shock (oil, tariffs, student loans) → accelerated DQ at the margin." Employment is necessary but not sufficient. 2022 proves it: same oil, different buffer, different outcome. Oil is accelerant, not independent path. Debate with Prome produced this revision — see challenges/DEBATE_OIL_TRANSMISSION_2026-04-05.md.
 
@@ -160,7 +160,7 @@
 - DB Asset Allocation: financials positioning -1.5 to -2z vs consensus +20-40% earnings. Squeeze risk on beat.
 
 ## Cleanup Done (Apr 5)
-- RED_SKELETON.md — RETIRED Apr 5 (deleted from active root; Feb-12-vintage copy retained at `archive/RED_SKELETON.md`). VX.tsv is the live counter-evidence system. CLAUDE.md "live reference" mentions cleaned up S16 (6/2) — it had still been cited as rebuildable/for-deep-work; now marked retired-archive-only.
+- RED_SKELETON.md — RETIRED Apr 5 (deleted from active root; Feb-12-vintage copy ⚠️ **NOT retained — deleted 2026-06-30 by `1cb18fbc3`; recover with `git show 1cb18fbc3^:AGENTS/RED/archive/RED_SKELETON.md`**). VX.tsv is the live counter-evidence system. CLAUDE.md "live reference" mentions cleaned up S16 (6/2) — it had still been cited as rebuildable/for-deep-work; now marked retired-archive-only.
 - counter-evidence/ — Cleaned. Only KRE_BULL_CASE.md retained (substantive 18K analysis). CARL/SAM logs deleted.
 - competing-hypotheses/ — DELETED. Probabilities tracked in thesis/CHANGELOG.md. Git history preserved.
 - Debate framework: HY OAS debate (Apr 5) is the new model. File-based, structured, produced concrete position changes.

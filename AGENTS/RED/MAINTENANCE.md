@@ -11,6 +11,25 @@ Reverse-chronological log of **structural** changes to RED's docs, folders, sche
 
 ---
 
+## 2026-08-12 (S30) — `archive/` recreated (Will-ruled) + 14 files retired into it + the dead-path pointers repaired (T8 / audit R4+R14)
+
+**Trigger:** Will's ruling — *"RED should have its own archive"* — which unblocked T8. Audit R4 (dead `archive/` paths) + R14 (archive backlog) + PROME's prune-scan delta.
+
+**What changed.**
+- **`archive/` recreated** with a `README.md` that records what it is, what was archived, what was **held back**, and why the directory had to be recreated at all.
+- **14 files `git mv`'d in** from `challenges/`, `reports/`, `research/` — every one verified unreferenced under **both** a loose and a strict reading of *"referenced by a live doc"*.
+- **Dead-path pointers repaired** in `CLAUDE.md` (FILES table) and `MEMORY.md` (a **live markdown link in a boot-read file**), repointed to `git show 1cb18fbc3^:…` rather than left claiming paths that do not exist.
+
+**⚠️ The prune's premise was false, and the pointers outlived the content by six weeks.** `1cb18fbc3` (2026-06-30, *"prune dead 0-ref agent archives, public-prep track A"*) deleted **38 RED files**. Two were demonstrably referenced: **`archive/RED_SKELETON.md`** (cited in `CLAUDE.md`'s own table AND `MEMORY.md`) and **`archive/status_snapshots/STATUS_2026-04-02.md`** (a live markdown link in boot-read `MEMORY.md`). **All 38 remain recoverable at `1cb18fbc3^` — the content was never lost, only the pointers broke.** **The prune is NOT reversed**: it was a deliberate public-prep decision that is not RED's to undo, and restoring any file is a Will/PROME call.
+
+**⚑ THE FINDING, and it inverts the audit's own estimate.** The audit reported *"5 of 5 oldest spot-checked UNREFERENCED."* **True of those five, and badly unrepresentative: a full check of all 33 candidates found 19 REFERENCED (58%).** The cause is structural — **age correlates with reference-status** (old files are old precisely because nothing kept pointing at them), so **ranking by age and sampling the head over-estimates the unreferenced share**. **Acting on the extrapolation would have retired 19 files that live surfaces cite.** Same family as ML-RED-163: *a rate computed on a ranked head is a claim about the head, not the population.* ML-RED-175.
+
+**Held back deliberately:** `challenges/KRE_EXECUTIVE_SUMMARY.md` qualifies on the strict reading but is **one half of the R13 name collision** — two documents sharing a basename with **opposite verdicts** (45% *"WILL LOSE MONEY"* vs `workbook/`'s 75% *"A-"*). **Archiving one half while the other stays live makes the collision worse**: the survivor would carry no signal that a contradicting twin exists. Resolve the collision (T11), then retire.
+
+**Boot-impact: NONE.** No boot step reads `archive/`. `schema_check.py` unaffected (it maps files explicitly). **Retirement backlog after this pass: 19 referenced files stay in place; the >60d rule is now satisfiable because a destination exists.**
+
+---
+
 ## 2026-08-12 (S30) — disposition-ledger obligation moved off the retired lane + `boot.py` §⑤ makes it checkable (T10 / audit R6)
 
 **Trigger:** Audit R6 — *"the disposition-ledger obligation stayed attached to the retired lane."*
