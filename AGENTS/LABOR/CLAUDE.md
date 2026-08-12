@@ -95,6 +95,17 @@ Mail is direct file drops (HERMES retired — no delivery daemon):
 - **Inbox:** `inbox/` — inbound signals; senders write `.md` packets here directly (coordinators PROME/WALTER route). Move to `inbox/processed/` after integration.
 - **Outbox:** `outbox/` — ONLY for requests needing PROME action.
 
+🔴 **RECIPIENT PATHS — get these right or the packet reaches the repo and reaches nobody.** *(Installed 2026-08-12 from SAM's 8/7 routing alert; this is the fix that was routed on 8/7 and did not land until now.)*
+
+| Recipient | ✅ Correct path | ⛔ Dead / wrong |
+|---|---|---|
+| **PROME** | **`PROME/inbox/`** — PROME's home dir is `PROME/`, at the repo root | **`AGENTS/PROME/`** — **the tree was REMOVED 2026-07-24 (Will-ruled). It does not exist.** |
+| Any domain agent | `AGENTS/<NAME>/inbox/` | — |
+| WALTER-lane deliveries to me | `AGENTS/LABOR/inbox/WALTER/` | — |
+
+> ⚠️ **Why this lives in `CLAUDE.md` and not in a note.** Writing to a non-existent path **does not fail** — `git add` creates it, the commit succeeds, and from the sender's side the packet looks delivered. **`orphan_check.sh` cannot catch it either**: the file is committed, so it is not an orphan. The only signal is that nobody ever replies. On 2026-08-07 SAM found **two LABOR packets stranded at `AGENTS/PROME/`**, one of which carried a **six-session escalation** (`SIG-W-20260727-006`) that PROME had therefore never seen. SAM had made the identical mistake three times, and **the correction only stuck once the path went into SAM's own `CLAUDE.md`** — because the flag itself arrived as an inbox packet, and the MAIL rule above says don't read inbox at normal boot. **A routing fix delivered by the broken channel cannot fix the channel.** *(Both stranded packets were migrated by PROME at `86aa38645` and are in `PROME/inbox/processed/`; verified 2026-08-12.)*
+> **Before writing any cross-agent packet: `ls` the destination directory.** If it does not already exist, you have the wrong path — do not create it.
+
 ### Inbox Processing Protocol (when spawned for it)
 1. **Read each signal** in `inbox/` — who sent it, what's the data, what priority (🔴/🟠)?
 2. **Cross-reference workbook** — check `KB.tsv` (live) + `PREDICTIONS.tsv` (live) for related vectors; `VX.tsv` + `FLOW.tsv` are **FROZEN 2026-06-26** (historical cross-ref only, superseded by STATUS Convergence Matrix per C3). Does this connect to something you already track?
@@ -104,7 +115,7 @@ Mail is direct file drops (HERMES retired — no delivery daemon):
 6. **Mark processed** — move signal file to `inbox/processed/`
 
 ### Outbox Protocol
-When you need to signal another agent, write a single .md packet directly to the target agent's `inbox/` (`outbox/` only for PROME-action requests):
+When you need to signal another agent, write a single .md packet directly to the target agent's `inbox/` (`outbox/` only for PROME-action requests). **Check the destination against the RECIPIENT PATHS table above first — `PROME/inbox/`, never `AGENTS/PROME/`.**
 - **Filename:** `YYYY-MM-DD_to-[target]_[short_description].md`
 - **Format:**
 ```
