@@ -108,21 +108,36 @@ def canonical_version():
 
 
 def load_allowlist():
-    """Per-instance, dated, expiring. A malformed register suppresses NOTHING (§1)."""
-    rows, problems = {}, []
+    """Per-instance, dated, expiring. A malformed register suppresses NOTHING (§1).
+
+    Registered rows are keyed on (file, token, ANCHOR-substring) — NOT on a line number.
+    v1 keyed on `path:line` and broke the same day it shipped: editing MEMORY.md shifted its
+    lines, every registered row stopped matching, and correctly-registered historical
+    references re-flagged as if new. A line number is not an identity. The anchor is a
+    distinctive substring of the line, so a row survives edits ELSEWHERE in the file but
+    stops matching if the flagged sentence itself is rewritten — which is the behaviour we
+    want, since a rewritten sentence deserves a fresh look. Expiry still forces
+    re-verification, so this is per-instance registration, not pattern suppression.
+    """
+    rows, problems = [], []
     if not ALLOWLIST.exists():
         return rows, problems
     today = datetime.date.today()
     for n, raw in enumerate(ALLOWLIST.read_text().splitlines(), 1):
         if not raw.strip() or raw.lstrip().startswith("#"):
             continue
-        parts = raw.split("\t")
-        if len(parts) < 5:
-            problems.append(f"L{n}: needs 5 tab-separated fields, got {len(parts)} "
-                            f"— SUPPRESSES NOTHING")
+        parts = [p.strip() for p in raw.split("\t")]
+        if len(parts) < 6:
+            problems.append(f"L{n}: needs 6 tab-separated fields "
+                            f"(file, token, anchor, expiry, date_added, reason), "
+                            f"got {len(parts)} — SUPPRESSES NOTHING")
             continue
-        artifact, token, expiry, added, reason = (p.strip() for p in parts[:5])
-        if artifact.lower() == "artifact":
+        fil, token, anchor, expiry, added, reason = parts[:6]
+        if fil.lower() == "file":
+            continue
+        if not anchor:
+            problems.append(f"L{n}: empty anchor ({fil} · {token}) — SUPPRESSES NOTHING "
+                            f"(an anchorless row would suppress a whole file+token class)")
             continue
         try:
             exp = datetime.date.fromisoformat(expiry)
@@ -130,11 +145,16 @@ def load_allowlist():
             problems.append(f"L{n}: bad expiry {expiry!r} — SUPPRESSES NOTHING")
             continue
         if exp < today:
-            problems.append(f"L{n}: EXPIRED {expiry} ({artifact} · {token}) "
+            problems.append(f"L{n}: EXPIRED {expiry} ({fil} · {token}) "
                             f"— re-flagging by design; re-verify or re-date")
             continue
-        rows[(artifact, token)] = reason
+        rows.append((fil, token, anchor, reason))
     return rows, problems
+
+
+def registered(allow, rel, token, line):
+    """True if this exact instance is registered and unexpired."""
+    return any(f == rel and t == token and a in line for f, t, a, _ in allow)
 
 
 def scan_text(canon, allow):
@@ -146,16 +166,13 @@ def scan_text(canon, allow):
         for n, line in enumerate(p.read_text(errors="replace").split("\n"), 1):
             for m in CANON_CLAIM.finditer(line):
                 got = next((g for g in m.groups() if g), None)
-                if got and got != canon:
-                    key = (f"{rel}:{n}", f"v{got}")
-                    if key in allow:
-                        continue
+                if got and got != canon and not registered(allow, rel, f"v{got}", line):
                     v_hits.append((rel, n, got, line.strip()))
             labels = [m.group(1) for m in FIELD_LABEL.finditer(line)]
             dup = [k for k, v in collections.Counter(labels).items() if v > 1]
             if dup:
-                key = (f"{rel}:{n}", "dup:" + ",".join(sorted(dup)))
-                if key not in allow:
+                token = "dup:" + ",".join(sorted(dup))
+                if not registered(allow, rel, token, line):
                     c_hits.append((rel, n, dup, line.strip()))
     return v_hits, c_hits
 
