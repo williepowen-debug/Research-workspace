@@ -1,3 +1,10 @@
+# ⚠️ FIRE-ONLY LOG — NOT AUTHORITATIVE FOR CURRENT TRIGGER STATE. Banner added 2026-08-12 by WALTER on DAEDALUS's 6c array audit (inbox/2026-08-12_from-DAEDALUS_autofire-array-audit-6c-has-no-executable.md, finding 1).
+# WHAT THIS FILE RECORDS: the moment a trigger FIRED. WHAT IT CANNOT RECORD: un-fires, re-arms and re-fires — the 5-column schema has no row type for them, so a reader who treats the newest row per trigger_id as CURRENT STATE will be wrong across any completed round trip.
+# KNOWN MISSING EVENTS (RED's own registry is canonical; read AGENTS/RED/registry/FALSIFICATION_TRIGGERS.tsv exit_source for the true state):
+#   RED-FT-01 UN-FIRED 2026-07-31 (S27, on 281/284/287+284; +2 executed) and RE-FIRED 2026-08-07 (S28, on 278/273/275/271, sustain-3 met at the 8/05 print; -2 executed, giving the +2 back).
+#   ⇒ The RED-FT-01 row below reads "fired 2026-06-04" and a machine would conclude it has been continuously fired since June, ACROSS a complete un-fire/re-fire cycle in which real weight moved TWICE.
+# ALSO NOT PARSED BY ANYTHING: RED's exit quad (exit_op/exit_threshold/exit_sustain/exit_source) is written by RED, referenced in no spec, and read by no code on either side — boot step 6c is a HUMAN read-loop. tools/staleness_sweep.py's docstring instructs a human to cross-check against this file; that instruction inherits this staleness.
+# ⇒ UNTIL AN UN-FIRE ROW TYPE OR AN EXECUTABLE EXISTS: cite this log ONLY for "did X ever fire, and on what print" — never for "is X fired now."
 trigger_id	fired_date	metric_value_at_fire	dispatched_signal_id	sustain_confirmation
 RED-FT-01	2026-06-04	275	SIG-W-20260604-001	sustain=3-met-275-271-272
 RED-FT-07	2026-06-04	947	SIG-W-20260604-002	sustain=1-met-binary-fire-overdue-detection-since-5-29

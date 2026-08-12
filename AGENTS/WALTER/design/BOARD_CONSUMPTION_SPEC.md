@@ -1,6 +1,6 @@
 # BOARD Delivery + Consumption Spec
 
-**Version:** v0.16
+**Version:** v0.17
 **Created:** 2026-04-20 (v0.1 consumption-only) · **Extended:** 2026-06-17 (v0.2 delivery layer) · **Clarified:** 2026-06-18 (v0.3–v0.5 Quick-WALTER tightening) · **Collapsed:** 2026-06-26 (v0.6 single-machine platform-collapse — OpenClaw cut)
 **Owner:** WALTER
 **Status:** **Single-machine (desktop CC) since 2026-06-26 — OpenClaw cut; `delivered` is uniform (committed + on-origin); Quick-WALTER retired.** Delivery layer SHIPPED; consumption = Phase 2 self-apply (see §8). Approved-in-principle by Will + PROME + ORC (2026-06-17); v0.6 collapse Will-ratified 2026-06-26 (`design/OPENCLAW_CUTOVER_PLAN.md`).
@@ -86,6 +86,23 @@ Push is **not** automatic blanket WALTER authority (see §7). The one standing a
 ---
 
 ### 3.5 Pull-complete recipient exemption — skip inbox delivery (added v0.7, 2026-07-04)
+
+> **🔴 §3.5.6 — THE EXEMPTION'S FAILURE MODE HAS NOW MATERIALISED, DISCLOSED BY THE EXEMPT RECIPIENT ITSELF (recorded 2026-08-12; NO BEHAVIOUR CHANGE PROPOSED — this is a RECORD, and the disposition is Will's).**
+>
+> **What happened.** RED disclosed (`inbox/2026-08-12_from-RED_ft06-exit-defined…`, logged as its own `ML-RED-150`) that on 8/12 it **did not run its boot step 1.5 — the whole-INDEX BOARD scan — which has been RED's SOLE WALTER CHANNEL since the 7/09 pull-complete exemption.** Two signals addressed `action: [RED]` (`SIG-W-20260811-001` IMMEDIATE, `SIG-W-20260810-004` PRIORITY) sat unread while RED closed out, committed and pushed. **RED caught it only because Will asked whether it had processed its inbox, and RED checked its own boot sequence instead of answering from the inbox directory.**
+>
+> **🔑 THE STRUCTURAL POINT, IN RED'S OWN WORDS, AND IT IS ABOUT THE EXEMPTION AND NOT ABOUT RED:** *"there is no push to remind you, so skipping it is **silent by construction**… **an empty `inbox/` is not evidence the BOARD channel was consumed — different surfaces, and only one of them announces itself.**"*
+>
+> ⚠️ **This is the exemption's warrant inverted.** §3.5 rests on *"their own complete whole-INDEX BOARD-diff IS the pull."* That is a claim about a **step the recipient runs**, and **the exemption simultaneously removes the only artifact that would show the step was skipped.** For a non-exempt recipient an unconsumed handoff sits visibly in `inbox/WALTER/` and surfaces in `walter_doctor`'s `delivered_but_unconsumed`; **for an exempt recipient there is nothing to be unconsumed, so a skipped scan and a clean scan are INDISTINGUISHABLE on every surface either side keeps.** ⇒ **`delivered_but_unconsumed` reading zero for CARL/RED/PROME is not evidence of consumption; it is a definitional consequence of the exemption.**
+>
+> **What does NOT change, and why I am not proposing a change:** the exemption was Will-approved on measured evidence (complete-scan tooling + zero action-line appearances), **WALTER's side executed correctly here** — BOARD and `route_log` were written and the mechanism worked as specified — and **the outcome was benign**: RED graded FT-06 independently off the FRED primary and reached the identical answer. **But RED itself named why that is not a defence: *"that is convergence, and it is luck about the CONTENT of the channel I skipped, not evidence the step was unnecessary,"*** and the signal it did not read **also carried an owed action that luck did not cover.**
+>
+> **⚠️ AND THE PRECEDING SENTENCE IS THE ONE TO CARRY, because the tempting reading of this episode is the wrong one:** a benign outcome on a skipped step is the strongest available argument for skipping it again.
+>
+> **Options, for Will — recorded, none adopted:** **(a)** leave as-is and treat this as recipient-side discipline (status quo); **(b)** a lightweight self-check on the recipient side — the exempt agent asserts *"BOARD scan run, N new since cursor"* in its own closeout, giving the step an artifact without reintroducing a handoff; **(c)** narrow the exemption to non-ACTION dispatches only, which is already true for PROME (v0.12, info-only) but not for CARL or RED. **⚠️ (b) is the only one that closes the telemetry gap without adding delivery volume — and it is a change to ANOTHER agent's boot protocol, so it is not WALTER's to make.**
+>
+> *(Filed under §3.5 rather than §3.5.1 because that sub-section scopes what the exemption COVERS; this records what the exemption CANNOT SEE. Sits with `[[finding_verification_zero_is_ambiguous]]` — a zero certifies the check's SCOPE, not the world — and with `[[finding_deferral_rule_hides_its_own_cost]]`.)*
+
 
 A recipient that runs a **complete** `/BOARD/` diff-scan at boot — one that dispositions **every unrecorded `SIG-W` across all of INDEX** (not a tiered/selective subset) — already has a **complete pull**. For such an agent the per-recipient `inbox/WALTER/` handoff is redundant with its own scan (both are fed the same BOARD entry), so **WALTER SKIPS the `inbox/WALTER/` handoff + the `delivery_log` delivery row for it.** The BOARD entry + `route_log` row are still written (the signal is published + audit-logged as normal); only the redundant push-delivery to that agent is skipped.
 

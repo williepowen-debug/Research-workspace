@@ -1,2 +1,9 @@
+# ⚠️ FIRE-ONLY LOG — NOT AUTHORITATIVE FOR CURRENT TRIGGER STATE. Banner added 2026-08-12 by WALTER on DAEDALUS's 6c array audit (finding 1). Same defect class as FALSIFICATION_FIRED_LOG.tsv; see that file's banner.
+# LAST WRITE IS 2026-05-11 — three months. That is NOT evidence no REG-T trigger has fired since; it is evidence nothing has been written here.
+# STRUCTURAL LIMITS ON THE REG-T SIDE (DAEDALUS, routed to PROME for REGINALD's queue — recorded here because they fire on WALTER's boot 6c):
+#   (a) REGINALD/registry/THRESHOLDS.tsv has NO exit_* columns AT ALL (8 of 8 rows) — structurally incapable of carrying an exit, so no un-fire is even expressible.
+#   (b) ZERO instrument/basis prose in that file: REG-T-01 (KRE-PRICE <60) and REG-T-02 (WAL-PRICE <78) never say CLOSE vs INTRADAY, and both are sustain-1, so the basis IS the test.
+#   (c) REG-T-03 (HY-OAS >320 sustain 3) DUPLICATES RED-FT-02 exactly, with a different action chain ⇒ ONE HY crossing fires TWO rows. WALTER's existing HY double-dispatch guard (CLAUDE.md step 6c/7e) covers the >=280 lane-vs-dashboard case, NOT this one at 320. Fire once; name both rows.
+# ⇒ Cite ONLY for "did X ever fire, and on what print" — never for "is X fired now."
 trigger_id	fired_date	metric_value_at_fire	dispatched_signal_id	sustain_confirmation
 REG-T-02	2026-05-11	76.95	SIG-W-20260511-037	sustain=1-met-binary-fire

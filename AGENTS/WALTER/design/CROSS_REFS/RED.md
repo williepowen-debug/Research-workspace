@@ -22,7 +22,7 @@ For dispatch-time orientation:
 | **Competing hypotheses + probabilities** | `AGENTS/RED/STATUS.md` "COMPETING HYPOTHESES" | After major thesis-revision events |
 | **Bull-case steelman (RED's core duty)** | `AGENTS/RED/STATUS.md` "BULL CASE STEELMAN" | Refreshed each session |
 | **Falsification criteria (free-text)** | `AGENTS/RED/STATUS.md` "FALSIFICATION CRITERIA" | When new criterion added |
-| **Falsification criteria (machine-readable)** | `AGENTS/RED/registry/FALSIFICATION_TRIGGERS.tsv` (8-col) | New row OR threshold tuned |
+| **Falsification criteria (machine-readable)** | `AGENTS/RED/registry/FALSIFICATION_TRIGGERS.tsv` (**12-col** — *corrected 2026-08-12; said 8-col since the `exit_op`/`exit_threshold`/`exit_sustain`/`exit_source` quad was added. ⚠️ **"machine-readable" is aspirational: NO code on either side parses the exit columns**, and boot 6c is a human read-loop*) | New row OR threshold tuned OR **exit defined/changed** |
 | **Falsification watch (event-type)** | `AGENTS/RED/CALENDAR.md` "FALSIFICATION WATCH" | New calendar event added |
 | **Position vulnerability** | `AGENTS/RED/STATUS.md` "POSITION VULNERABILITY" | Live tape moves |
 | **Exit-window framework** | `AGENTS/RED/STATUS.md` "EXIT-WINDOW FRAMEWORK" (Will-approved 2026-05-06) | After Will direction |
