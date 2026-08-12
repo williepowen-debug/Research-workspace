@@ -1,6 +1,6 @@
 # FLEET DIRECTORY — what every agent is, does, and is missing
 
-> **GENERATED — DO NOT EDIT.** Rendered from `PROME/ROSTER.md` (existence · domain · status) + `AGENTS/DAEDALUS/FLEET_MAP.tsv` (class · maturity · missing/next) by `AGENTS/DAEDALUS/scripts/render_directory.py`. Edit the **sources**, then regenerate — hand-edits are overwritten. Generated 2026-08-11.
+> **GENERATED — DO NOT EDIT.** Rendered from `PROME/ROSTER.md` (existence · domain · status) + `AGENTS/DAEDALUS/FLEET_MAP.tsv` (class · maturity · missing/next) by `AGENTS/DAEDALUS/scripts/render_directory.py`. Edit the **sources**, then regenerate — hand-edits are overwritten. Generated 2026-08-12.
 
 *One source of truth per column (PAT-006): **what it does** + **status** ← ROSTER (PROME); **class** + **maturity level** + **missing/next** ← FLEET_MAP (DAEDALUS). "Missing / next" is a truncated one-liner — full gap detail in `FLEET_MAP.tsv` + `upgrades/<AGENT>_CARD.md`. Dormant agents are un-graded → blank grade cells. PROME graded 2026-07-28 (Will-ratified, judgment-read only — the scripted floor cannot see a root-level agent).*
 
@@ -11,7 +11,7 @@
 | PROME | Meta | L4 | Coordinator / chief of staff | L5 on: 7/31-8/2 batch executed |
 | WALTER | Utility | L4 | Signal & news routing | L5 on remaining criteria (YEYOU leg WAIVED-while-dormant per Will 7/22… |
 | NEXUS | Utility | L4 | Cross-agent synthesis | L5 (YEYOU leg WAIVED-while-dormant, Will 7/22): residual polish (closeo… |
-| RED | Utility | L4 | Adversarial red-team | Optional label polish + YEYOU-clean -> L5 |
+| RED | Utility | L4 | Adversarial red-team | L4->L5 re-cut 8/12: (a) addendum-closeout subset defined in CLAUDE.md |
 | SAM | Market | L4 | Japan — BOJ / JGB / carry | BOTTOM LINE -> STATUS<250 -> 5-pt table (~8 rows) -> staleness lines =… |
 | LIQUID | Market | L4 | HY / credit spreads / liquidity | L4->L5 (re-cut 8/7 EVE): (a) the routing leg for hy_oas_watch (~15 lines |
 | VIOLET | Market | L4 | VIX / vol term structure / vol-of-vol | L5 (YEYOU leg WAIVED-while-dormant, Will 7/22): owner lands predictions… |
