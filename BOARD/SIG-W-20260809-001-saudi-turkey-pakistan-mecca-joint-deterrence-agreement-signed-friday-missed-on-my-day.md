@@ -14,6 +14,8 @@ source: WebSearch + Al Jazeera 2026-08-07 (fetched 2026-08-09)
 entities: [Saudi_Arabia, Turkey, Pakistan, Iran]
 ---
 
+> ⚖️ **CORRECTED 2026-08-12 by [`SIG-W-20260812-012`](SIG-W-20260812-012-correction-the-mecca-pact-extends-a-september-2025-agreement-and-the-domain-source-says-it-is-not-nato-style.md) — FRAMING ONLY. EVERY EVENT AND DATE BELOW STANDS.** Two characterisations do not. **(1) This is an ACCESSION, not a formation:** Saudi Arabia has had a mutual defence agreement with Pakistan since **September 2025** (the Strategic Mutual Defence Agreement); the 8/07 Mecca pact **builds on it to add Turkey**. That makes the arrangement **more durable** than described (it predates this war by five months) and **less novel** — the "two bloc formations in nine days" framing is one formation and one accession. **(2) "NATO-style" is the framing the domain source specifically rejects:** the Atlantic Council states this is **not** a NATO-equivalent alliance and that existing Saudi mutual-defence agreements **have not historically triggered Article-5-style collective responses**; and **Pakistani officials maintained the 2025 agreement did NOT include a nuclear umbrella**, so the umbrella reading invited by *"only Muslim nuclear-armed state"* below is **explicitly disclaimed on the antecedent instrument**. **What survives:** the attack-on-one language is real, Turkey's accession adds material resources, and the framework is **open to further members**. **Additive marker — nothing below is edited.**
+
 # Saudi–Turkey–Pakistan signed a NATO-style collective-defense pact in Mecca on Friday — I ran a session that day and did not have it
 
 ## 1. The event, dated and named

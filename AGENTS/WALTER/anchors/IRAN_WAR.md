@@ -641,3 +641,36 @@
 **Source grade:** Iranian state media (Mizan) + a Basij deputy, relayed by a single aggregator. **Single-channel, self-serving on exactly the question at issue, and a claim about a FUTURE act rather than an event.** Weight accordingly; `narrative_channel` is state-domestic, a class this anchor's 7-value enum does not cover.
 
 **Next re-verify unchanged: ~2026-08-14 on the banner clock, or immediately on any Iran-cluster dispatch.**
+
+---
+
+**🟠 ADDENDUM #18 — 2026-08-12 ~17:4xZ (Will-directed news sweep; fired on this anchor's own "pre-dispatch on any Iran-cluster signal" trigger). ENFORCEMENT QUANTIFIED — NO STATE CHANGE ON EITHER THEATER. Dispatched `SIG-W-20260812-011` PRIORITY → FALCON, BRENT action / HAWK, OSPREY, RED info.**
+
+**🔴 THIS ANCHOR'S §5(b) BLOCKADE TALLY WAS FOUR VINTAGES STALE.** The 7/27 stamp carries *"12 vessels redirected / 2 disabled / 2 boarded."* CENTCOM's own tally, **as-of 2026-08-09**, is:
+
+| As-of | Redirected | Disabled | Boarded |
+|---|---:|---:|---:|
+| 2026-07-26 | 12 | 2 | 2 |
+| 2026-08-02 | 20 | — | — |
+| 2026-08-03 | 44 *(Iran International; unmatched to a CENTCOM statement — treat as indicative)* | — | — |
+| **2026-08-09** | **55** | **2** | **2** |
+
+**🔑 THE DECOMPOSITION IS THE POINT, AND IT SURVIVES ONLY BECAUSE CENTCOM PUBLISHES ALL THREE COUNTS IN ONE STATEMENT: redirects ×4.6 in two weeks; the kinetic legs have not moved once.** A blockade that redirects fifty-five ships and disables two is **working by COMPLIANCE** — masters turning around rather than being made to. **That is a different object from a shooting blockade, and it is the opposite of what the rising headline number implies read alone.**
+
+**⇒ This SHARPENS counterweight (b) rather than softening it:** the blockade is not merely "still in effect," it is **intensifying on the compliance leg** — which cuts against any reading of the pause as de-escalation. **And it is a SOURCED negative on the kinetic leg, not an unobserved one**, because the flat 2/2 is reported, not merely absent.
+
+**🚨 GATE 2 — evidence pointing AWAY from firing.** Forty-three additional redirects produced **zero** additional disabled or boarded vessels ⇒ the enforcement path that generates incidents is **not converging** on the mine-detonation/hostile-sinking event GATE 2 measures. **FALCON adjudicates; this anchor records.**
+
+**Two mechanisms not previously held here:** **>30 vessels allowed through carrying HUMANITARIAN AID** — a published exemption lane is a negotiating surface, not just a carve-out — and **>20 US warships in theater.**
+
+**📉 THE TELL SET HAS A FRESH PRINT AND IT DOES NOT BREAK.** **8 vessels crossed Monday 8/10 [Kpler]; 7 Tuesday lunchtime local [MarineTraffic — 2 oil tankers, 1 gas, 3 bulk, 1 cargo, ALL INBOUND]** ⇒ **~7–8/day, INSIDE this anchor's stated ~7–13/day floor band.** ⚠️ **The outbound leg is unstated, and for an export question that is the half that matters.**
+
+**⚠️ BASELINE DISCREPANCY INSIDE THIS FILE — FLAGGED, NOT FIXED: today's reporting gives the pre-war average as 120/day. This anchor carries 88/day, and 130/day and 70/day also appear in it. FOUR pre-war baselines are now in the record, a ~35% swing in any collapse-ratio quoted off them. BRENT/FALCON own picking one with a source and retiring the rest — I am not choosing between them, and until one is chosen NO percentage-collapse figure should be quoted from this file.**
+
+**🚢 THE BYPASS IS OPERATING AND FALCON'S STANDING SHUTTLE-RUN ASK HAS ITS FIRST QUANTIFIED DATUM** (logged as a live WALTER intake watch in `SIG-W-20260727-022`): Bloomberg 8/11 — **a dozen ships conducting SHIP-TO-SHIP transfers OUTSIDE Hormuz, satellite-imaged, with some tankers crossing DARK.** This updates `SIG-W-20260717-013`, where a 7/16 STS report was carried as *"the opposite, weakly"* — **a month on, it is no longer weak.** ⚠️ **"A dozen" is not a series, and dark transits are invisible to AIS by construction, so any vessel-tracking count is a FLOOR, never a level.** **This is the leading mechanism candidate for the crude non-response recorded in `SIG-W-20260812-001`: barrels that leave by STS still reach the market, and a market that can see that will not price a closure the way a naive transit count suggests.**
+
+**🇮🇷 IRAN'S NEW SNSC SECRETARY MAKES HIS FIRST HORMUZ STATEMENT AND IT IS HARD:** the Strait **remains closed as long as the US does not change its behaviour.** This is **Rezaei** — the third SNSC secretary in five months (Larijani killed March → Zolghadr → Rezaei 8/09), the institutional-hardening pattern recorded in ADDENDUM #16. **The pattern's implicit prediction was that each successor is harder than the last, and this is consistent with it.** ⚠️ **n=1, market-wire relay, no primary text read ⇒ record the THREAD CONTINUING, not the PATTERN VALIDATED.**
+
+**⚠️ WHAT THIS ADDENDUM DOES NOT DO:** no state change on either theater · **GATE 1 (FAL-01) untouched** — no production/export infrastructure event · the pause, the Oman channel and the Saudi–Houthi leg are all unchanged from the 8/07 banner · **`cnn.com` returns HTTP 451 to this box**, so the Kpler/MarineTraffic figures are relay-of-a-relay and are the weakest leg here (the CENTCOM tally is separately corroborated across four outlets *plus* CENTCOM's own account and stands on its own) · **and it is UNCHECKED whether "disabled" was quietly re-scoped across two weeks of statements — if it were, the flat kinetic leg is an artifact and the whole decomposition weakens.**
+
+**Next re-verify unchanged: ~2026-08-14 on the banner clock, or immediately on any Iran-cluster dispatch.**
