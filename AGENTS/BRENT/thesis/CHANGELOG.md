@@ -8,6 +8,50 @@ Tracks all changes to THESIS.md and TIMELINE.md. Reverse chronological. Each ent
 
 ---
 
+## 2026-08-12 (Wed) — **v5.5 (MINOR): v5.4 NOW HAS A PRICE SHADOW, AND IT IS NOT MADE OF PORTWATCH.**
+
+**Trigger:** a PROME-directed instrument-basis reconcile — "Brent" had become two numbers ~$10 apart, quoted unlabeled on three fleet surfaces. **The reconcile was meant to be a labeling chore. It produced a new instrument and closed a standing methodological hole.**
+
+**Old view → new view:**
+*"v5.4's throughput-not-signature test is measured by PortWatch transit counts, and every corroborating instrument I hold is either PortWatch or priced off PortWatch (ORACLE's ladders included — which is why I downgraded them on 8/10 from 'independent confirmation' to 'not contradicted')."*
+→ **"There is a second, market-priced, PortWatch-independent expression of exactly the same claim: the DATED-BRENT-minus-FRONT-FUTURES prompt premium. Cargo buyers price the chokepoint; paper does not. The spread between them IS the war premium, and it moves the way v5.4 says it should."**
+
+**⇒ The addition is EVIDENTIARY, not structural.** v5.4's claim is unchanged. What changed is that it can now be tested against a series I did not build and do not control.
+
+### The evidence
+
+**New tracked series (adopted 8/12, ⛔ NOT a registered threshold — no level, no trigger, no registry row; a threshold needs its own N1 build):**
+`PROMPT_PREMIUM(t) = Dated Brent (FRED DCOILBRENTEU) − ICE front-month settle (BZ=F)`
+**Base-rated before adoption — n=50 sessions, 6/1→8/11: mean +1.20 · median +1.26 · sd 3.10 · range −3.27 … +7.20.**
+
+**★ A CLEAN REGIME BREAK ON 2026-07-21:**
+- **6/18 → 7/20: NEGATIVE on 21 of 21 sessions** (−0.50 to −3.27). Paper above physical — an ordinary, well-supplied prompt.
+- **7/21 → 8/11: POSITIVE on 16 of 16.** +2.84 · **+4.63 (7/23)** · +6.83 (7/31) · **+7.20 (8/5, cycle max)** · +5.02 (8/10) · +4.35 (8/11).
+
+**⛔⛔ AND THE PEAK LANDED AT THE PRICE LOW — this is the load-bearing observation:** on **8/5** the front-month settle was **$79.45**, the bottom of the ~15% selloff driven by Bessent's *"deal today or tomorrow"* remarks — **and the physical prompt premium hit its widest of the entire cycle (+$7.20) on that same day.**
+**⇒ THE DEAL TALK REPRICED PAPER AND DID NOT REPRICE A SINGLE BARREL.** That is v5.4's exact claim — *a deal is not a reopening; the test is throughput, not signature* — expressed by a market I do not run, on the specific day the signature narrative was strongest.
+
+**★ THE SECOND EVIDENCE LEG — 2026-07-23, four independent records on one date:**
+| record | value |
+|---|---|
+| **Hormuz transits (PortWatch `chokepoint6`)** | **`n_total = 0` — the cycle's ONLY zero-transit day** |
+| **Dated Brent (physical spot)** | **$105.32 — cycle peak** (= EIA STEO's "~$105 on July 23", confirmed) |
+| **ICE front-month settle** | **$100.69 — cycle peak** |
+| Oct-26 contract `BZV26` | $94.26 |
+
+**⇒ THE PHYSICAL PROMPT PEAKED ON THE DAY THE STRAIT PRINTED ZERO — and the further out the curve, the less of the chokepoint was priced ($11.06 of prompt premium over my own tracked deferred contract).** The mechanism v5.4 asserts is visible in the price strip on the one day it mattered most.
+
+### ⛔ What this does NOT do — recorded so it cannot be over-read later
+
+- **It is not a trade and it is not a trigger.** No level, no gate, no capital. Zero thresholds moved by this entry.
+- **It does not resolve the n=0-genuine-reopenings calibration gap.** The series has never observed a real reopening either; it is fitted to the same event-free sample as everything else in the kit.
+- **Two regimes in n=50 means the unconditional mean is NOT a usable central tendency.** Do not quote +1.20 as "normal" — quote the regime.
+- ⚠️ **The 7/23 zero-transit day was found by a PREDICTION MARKET, not by my instruments.** My own graded throughput window opened **7/24** — one row too late — and I can prove the off-by-one because today's pull reproduces my recorded ten-print sequence exactly. **v5.4's throughput record had a hole precisely where its story is strongest.** The correct lesson is not "trust markets"; it is **`[[finding_verification_zero_is_ambiguous]]` — "no zero-transit day" was never a finding, it was the edge of my scope.** A resolved market is a **pointer to a pull**, never a substitute for one.
+
+**Instrument-basis canon ruled the same session** (bare "Brent $X" banned; graded state = ICE front-month settle with the contract named; thesis/war-premium claims get a separate Dated Brent row; `BZ=F` is continuous and rolled Sep-26→Oct-26 on ~8/3, so a continuous series is not a contract). **Full ruling → `demand_destruction/TRACKER.md` 8/12 ⚖️ RULING #2 banner.**
+
+---
+
 ## 2026-08-04 (Tue) — **v5.4 (MINOR): A DEAL IS NOT A REOPENING. THE TEST IS THROUGHPUT, NOT SIGNATURE.**
 
 **Trigger:** the first morning on which a **cabinet-level US official asserted an imminent Hormuz deal** while the counterparty simultaneously described **a materially different agreement** — making visible a gap that had been latent in every reopening test I run.

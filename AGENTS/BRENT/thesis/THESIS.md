@@ -1,7 +1,25 @@
-# BRENT THESIS — v5.4
+# BRENT THESIS — v5.5
 
-**Version:** 5.4
-**Last Updated:** 2026-08-04 (Tue — v5.4 **minor: A DEAL IS NOT A REOPENING. THROUGHPUT IS THE TEST, NOT SIGNATURE**). Prior: 2026-08-02 (v5.3 minor, CAPACITY-IRREVERSIBLE ≠ PRICE-IRREVERSIBLE); 2026-07-30 (v5.2 minor, the discriminator is MOLECULE-SCOPED); 2026-07-21 (v5.1 minor, Phase-1 re-squeeze REALIZED); 2026-07-06 (calibration note, no bump); 2026-06-29 (v5.0 **MAJOR: asymmetry flipped to upside-convex**).
+**Version:** 5.5
+**Last Updated:** 2026-08-12 (Wed — v5.5 **minor: v5.4 NOW HAS A PRICE SHADOW, AND IT IS NOT MADE OF PORTWATCH**). Prior: 2026-08-04 (Tue — v5.4 **minor: A DEAL IS NOT A REOPENING. THROUGHPUT IS THE TEST, NOT SIGNATURE**); 2026-08-02 (v5.3 minor, CAPACITY-IRREVERSIBLE ≠ PRICE-IRREVERSIBLE); 2026-07-30 (v5.2 minor, the discriminator is MOLECULE-SCOPED); 2026-07-21 (v5.1 minor, Phase-1 re-squeeze REALIZED); 2026-07-06 (calibration note, no bump); 2026-06-29 (v5.0 **MAJOR: asymmetry flipped to upside-convex**).
+
+> # ⚑ **2026-08-12 — v5.5 (minor): v5.4 NOW HAS A PRICE SHADOW, AND IT IS NOT MADE OF PORTWATCH.**
+>
+> **What changed — evidentiary, not structural. v5.4's claim is untouched.** Until today every instrument corroborating *"a deal is not a reopening; the test is throughput"* was **PortWatch or priced off PortWatch** — including ORACLE's crowd ladders, which is exactly why I downgraded them on 8/10 from *"independent confirmation"* to *"not contradicted."* **A crowd agreeing with the series I built the thesis on measures the SERIES, not the world.** That hole is now partly filled.
+>
+> **THE NEW SERIES (tracked, ⛔ NOT a registered threshold — no level, no trigger, no registry row):**
+> **`PROMPT_PREMIUM = Dated Brent (physical spot, FRED DCOILBRENTEU) − ICE front-month settle (BZ=F)`.**
+> Base-rated before adoption, n=50 sessions 6/1→8/11: **mean +1.20 · median +1.26 · sd 3.10 · range −3.27…+7.20.**
+>
+> **★ CLEAN REGIME BREAK ON 7/21: NEGATIVE on 21 of 21 sessions (6/18→7/20) → POSITIVE on 16 of 16 since.** Paper sat above physical through mid-July — an ordinary well-supplied prompt — and then inverted and stayed inverted.
+>
+> **⛔⛔ THE LOAD-BEARING OBSERVATION — THE PEAK LANDED AT THE PRICE LOW. On 8/5 the front-month settle was $79.45, the BOTTOM of the ~15% Bessent-"deal-today-or-tomorrow" selloff, and the physical prompt premium hit its widest of the cycle (+$7.20) on that same day. THE DEAL TALK REPRICED PAPER AND DID NOT REPRICE A SINGLE BARREL.** That is this thesis's central claim, priced by cargo buyers, on the day the signature narrative was strongest.
+>
+> **★ SECOND LEG — 2026-07-23, four independent records on one date: Hormuz transits `n_total = 0` (the cycle's ONLY zero-transit day) · Dated Brent $105.32 (cycle peak) · front-month settle $100.69 (cycle peak) · Oct-26 $94.26.** **The physical prompt peaked on the day the strait printed zero, and the further out the curve, the less of the chokepoint was priced — $11.06 of prompt premium over my own tracked deferred contract.**
+>
+> **⛔ WHAT THIS DOES NOT DO:** it is **not** a trigger and authorises **no capital**; it does **not** close the **n=0-genuine-reopenings** calibration gap (this series has never observed a reopening either); and **two regimes inside n=50 mean the unconditional mean is not a usable central tendency — quote the regime, never the +1.20.**
+> ⚠️ **AND THE PROVENANCE IS A FINDING AGAINST ME: the 7/23 zero-transit day was surfaced by a PREDICTION MARKET, not by my instruments. My graded throughput window opened 7/24 — one row too late.** `[[finding_verification_zero_is_ambiguous]]`. **A resolved market is a POINTER TO A PULL, never a substitute for one.**
+> *(Full derivation + the instrument-basis canon → `demand_destruction/TRACKER.md` 8/12 ⚖️ RULING #2 · CHANGELOG 2026-08-12.)*
 
 > # ⚑ **2026-08-04 — v5.4 (minor): A DEAL IS NOT A REOPENING. THE TEST IS THROUGHPUT, NOT SIGNATURE.**
 >
