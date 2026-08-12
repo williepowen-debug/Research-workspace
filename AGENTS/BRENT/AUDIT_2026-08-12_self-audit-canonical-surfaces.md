@@ -40,13 +40,14 @@ The 8/7 "closes" `Brent $82.27 / WTI $77.08` were intraday prints, corrected 8/1
 |---|---:|---:|---|
 | USO/Brent ratio | 1.4340 | **1.4121** | — |
 | ratio drift vs 1.3966 @7/23 | +2.68% / 15d | **+1.11% / 15d** | **2.4× too fast** |
-| USO $165 ⇒ Brent | ~$115.1 | **~$116.85** | understated **$1.75** |
-| **break-even USO $153.65 ⇒ Brent** | **~$107.2** | **~$108.81** | **understated $1.61** |
+| USO $165 ⇒ Brent | ~$115.1 | **~$116.85** | understated **$1.79** |
+| **break-even USO $153.65 ⇒ Brent** | **~$107.2** | **~$108.81** | **understated $1.67** |
 
-**Downstream:** the live **USO Sep-18 150/165** spread needs Brent **~$1.61 further** than the card said to break even. **The error flattered the book** — it made the position look closer to paying off than it is.
+**Downstream:** the live **USO Sep-18 150/165** spread needs Brent **~$1.67 further** than the card said to break even. **The error flattered the book** — it made the position look closer to paying off than it is.
+> ⚑ **DELTA BASIS CORRECTED 2026-08-12 (PROME verification, and it runs AGAINST me).** I first reported **$1.61 / $1.75**, measured against the **rounded figures printed on the card** ($107.2 / $115.1). PROME reported **$1.67 / $1.79**, measured against **what the published ratio actually yields** ($107.1435 / $115.0581). **PROME's basis is the correct one and I have adopted it:** comparing to the rounded printed number **launders the card's own rounding into the delta.** *(The card printed `1.4340`; 117.98/82.27 is `1.434059`, i.e. `1.4341` — so the card was already rounded the wrong way.)* **⇒ the understatement was slightly LARGER than I self-reported.**
 ✅ **What survives, checked not assumed:** the ruling itself (*no Brent translation from a stored ratio*) is **strengthened** — this is a second, independent way the frozen number rotted. The **roll-yield diagnosis holds on corrected numbers**: corrected Brent−WTI is **$5.37**, still wider than PROME's $3.83 on 8/3 while the ratio rose anyway. Vehicle conclusion (USO HOLDS) never depended on this.
 **Fix applied:** recomputed, superseded text preserved verbatim, **no strike/threshold/size moved.**
-★ **Why it matters beyond the $1.61: this is the SAME bad print I already corrected once, publicly, on 8/10. My correction covered the display value and not the computation. `[[finding_verification_correction_downstream_propagation]]`**
+★ **Why it matters beyond the $1.67: this is the SAME bad print I already corrected once, publicly, on 8/10. My correction covered the display value and not the computation. `[[finding_verification_correction_downstream_propagation]]`**
 
 ### 🔴 F-2 — CONFIRMED — Two LIVE registry rows assert the same event on different instruments and disagree 5.1% of the time
 **`workbook/REGISTRY.tsv` rows `MKT-BZ-F-ABOVE-100` and `FRED-DCOILBRENTEU-ABOVE-100` · owner: WILL to rule (registry change) · NOT edited**
@@ -58,6 +59,8 @@ Both `status=live`. One grades front-month **futures**, the other **dated spot**
 | **ABOVE-100** | **13 / 254** | **5.1%** | spot breached, futures not — **13 of 13** |
 | **ABOVE-120** | **9 / 254** | **3.5%** | spot breached, futures not — 9 of 9 |
 | ABOVE-140 | 0 / 254 | 0.0% | — |
+
+> ⚑ **DENOMINATOR RECONCILED 2026-08-12 (PROME verification) — CITE THE COUNT, NOT THE RATE.** **PROME's numerators reproduce mine EXACTLY: 13 / 9 / 0, all one-directional ⇒ the disagreeing SET is agreed by both desks.** Only the denominator differs — **mine 254, PROME's 247**, so the rates read 5.1%/3.5% vs 5.3%/3.6%. Mine is the **strict intersection of both series' printing days** (FRED 260 valued rows ∩ 259 `BZ=F` sessions; 5 futures-only days incl. 8/12, 6 FRED-only days). **I cannot see PROME's construction, so I am NOT claiming its 247 is wrong** — `[[finding_reconcile_mismatch_does_not_say_which_side_is_wrong]]`. ⇒ **This finding goes to Will as a COUNT with its denominator stated (13 of 254), never as a bare percentage.** The finding is unaffected either way.
 
 **Nothing in the registry says which governs.** A boot grading run can therefore report "Brent >$100 BREACHED" and "Brent >$100 NOT BREACHED" in the same pass, and on 7/24 it would have.
 ⛔ **This is TODAY'S OWN RULING'S BLIND SPOT.** I ruled the instrument basis per surface for prose, packets and the tape — **and never opened the machine registry.** The defect I spent the session on was sitting inside the file that is supposed to be the single source of machine truth.
