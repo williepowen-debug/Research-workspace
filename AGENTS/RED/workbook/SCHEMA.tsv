@@ -6,8 +6,8 @@ KB.tsv	Entity	String	Free text (canonical preferred)	Yes	Most specific entity th
 KB.tsv	Fact	String	Free text (one atomic claim)	Yes	The claim — precise, sourced, quantified
 KB.tsv	Source	String	Free text with date	Yes	Where the claim came from
 KB.tsv	Conf	String	A1-F6 Admiralty digraph	Yes	Source reliability (A-F) x info credibility (1-6)
-KB.tsv	Epistemic	Categorical	EMPIRICAL;ESTIMATE;ASSUMPTION	Yes	Nature of claim
-KB.tsv	Status	Categorical	ACTIVE;CONFIRMED;STALE;SUPERSEDED;CORRECTED	Yes	Lifecycle state
+KB.tsv	Epistemic	Categorical	EMPIRICAL;ESTIMATE;ASSUMPTION;FACT;MEASURED;ANALYSIS;ASSESSMENT;HYPOTHESIS;STRUCTURAL;VERIFIED — plus legacy singletons (MARKET-STATE;VERIFIED-PRIMARY;REPORT;FILING;PRE-REGISTERED;VERIFIED-MULTI-SOURCE-INDEPENDENT;VERIFIED-TWO-INDEPENDENT-SOURCES)	Yes	Nature of the claim. *** 17 distinct values on 85 rows — a WIDER drift than the Status column the audit flagged, and it was NOT flagged. Case-normalised 2026-08-12 (FACT 4 + Fact 7 -> FACT 11). The schema previously allowed only 3 values while the file used 18: the vocabulary is genuinely richer (MEASURED vs EMPIRICAL vs ASSESSMENT are real distinctions), so the CONTRACT is widened here rather than the data flattened. Prefer the first ten; do not invent new ones. ***
+KB.tsv	Status	Categorical	ACTIVE;CONFIRMED;SUPERSEDED;CORRECTED;REVISED;INVALIDATED;RESOLVED;STALE — plus low-count legacy values (DISPUTED-DEMOTED;VERIFIED;ADOPTED-AS-RULE;UNGRADED;PRE-REGISTERED;PENDING) tolerated, NOT to be extended	Yes	Lifecycle state. *** CASE-NORMALISED TO UPPER 2026-08-12 (S30, audit R8): the file carried ACTIVE x31 AND Active x18 — a split that was TEMPORALLY CLEAN (every row after 7/5 was lowercase), so an exact-match consumer silently dropped the 18 NEWEST live rows while reporting success. 50 cells case-folded across Status+Epistemic; case-only, no semantic change. WRITE UPPERCASE. ***
 KB.tsv	Stale_By	Date	YYYY-MM-DD or empty	No	Expected review/expiration date
 KB.tsv	DerivedFrom	String	Comma-separated KB-RED-NNN	No	Parent KB entries (provenance)
 KB.tsv	Vectors	String	VX-RED-NNN or →AGENT refs	No	Thesis connections and cross-agent links
@@ -16,7 +16,7 @@ VX.tsv	ID	String	VX-RED-NNN	Yes	Unique counter-evidence vector identifier
 VX.tsv	Name	String	Free text	Yes	Counter-evidence vector name
 VX.tsv	Target	String	Agent name or PORTFOLIO	Yes	Which thesis this challenges
 VX.tsv	Counter_Evidence	String	Free text	Yes	The specific counter-evidence
-VX.tsv	Strength	Categorical	WEAK;MODERATE;MODERATE-STRONG;STRONG;COMPELLING	Yes	Current strength assessment
+VX.tsv	Strength	Categorical	WEAK;MODERATE;MODERATE-STRONG;MODERATE-BULL;STRONG;COMPELLING;FLIPPED-BEAR;FIRED — plus RESOLVED-* terminal states (RESOLVED;RESOLVED-BEAR;RESOLVED-FLIPPED;RESOLVED-CONVERGED;RESOLVED-CONFIRMED;RESOLVED-MECHANICAL)	Yes	*** CONFLATION DOCUMENTED 2026-08-12 (S30), not silently fixed: 13 distinct values on 25 rows, and the column carries TWO different axes — an evidentiary STRENGTH (WEAK..COMPELLING) and a LIFECYCLE state (RESOLVED-*, FIRED, FLIPPED-BEAR). A consumer asking "how strong is this vector" cannot distinguish a weak live vector from a resolved one. Splitting it is a schema change with 25 rows of migration and belongs in its own dated pass; recorded here so the next reader does not mistake the mess for meaning. ***
 VX.tsv	Bull_Wt	Integer	0-100	Yes	Probability this signal supports bull case
 VX.tsv	Bear_Wt	Integer	0-100	Yes	Probability this signal supports bear case
 VX.tsv	Flip_If	String	Free text	Yes	Condition that would flip this vector
@@ -28,23 +28,23 @@ ML.tsv	ML_ID	String	ML-RED-NNN	Yes	Unique finding identifier (append-only)
 ML.tsv	Date	Date	YYYY-MM-DD	Yes	Date of finding
 ML.tsv	Session	String	RED-NNN	Yes	Session that produced this finding
 ML.tsv	Entity	String	Agent name or topic	Yes	What was analyzed
-ML.tsv	Category	Categorical	CHALLENGE;METHODOLOGY;SYNTHESIS;ERROR;OBSERVATION;BASELINE	Yes	Type of finding
+ML.tsv	Category	Categorical	CHALLENGE;CHALLENGE-GRADE;METHODOLOGY;SYNTHESIS;ERROR;OBSERVATION;BASELINE;CALIBRATION	Yes	Type of finding. CHALLENGE-GRADE and CALIBRATION added to the contract 2026-08-12 — both were already in use.
 ML.tsv	Finding	String	Free text (1-2 sentences)	Yes	Core finding condensed
 ML.tsv	Data_Quote	String	Free text or empty	No	Key numbers supporting the finding
 ML.tsv	Source	String	Free text	No	Data source
-ML.tsv	Status	Categorical	OPEN;RESOLVED;STRUCTURAL;SUPERSEDED	Yes	Resolution state
+ML.tsv	Status	Categorical	OPEN;RESOLVED;ACTIVE;STRUCTURAL;SUPERSEDED;LOGGED;CONFIRMED;DELIVERED;RULED — plus qualified compounds (RESOLVED-CONVERGED;RESOLVED-CORRECTED;RESOLVED-VERIFIED;RESOLVED-VINDICATED;RESOLVED-RE-ANCHORED;GRADED-ACTIVE;PRE-REGISTERED)	Yes	Resolution state. 19 distinct on 167 rows; ACTIVE (61, the single most common) was never in the old contract. *** DO NOT embed dates in this column — OPEN-GRADED-7/29 and PENDING-7/27 are legacy defects: a date belongs in Notes, not in a categorical. ***
 ML.tsv	Confidence	Float	0.0-1.0	No	Confidence in finding
-ML.tsv	Thesis_Impact	Categorical	CONSISTENT;CONTRADICTS;NEUTRAL;MODIFIES	No	Impact on bear thesis
+ML.tsv	Thesis_Impact	String	Free text	No	*** REDECLARED FROM Categorical TO String 2026-08-12 (S30, audit R8). The old contract named 4 values; the file carries 104 DISTINCT VALUES ON 167 ROWS, most of them full sentences recording what the finding did to the weights. That is not drift to be flattened — it is the actual, useful content of the column, and several rows are the only prose record of why a weight moved. The contract was wrong, not the data. A consumer must treat this as prose; the machine-readable weight deltas live in registry/FALSIFICATION_TRIGGERS.tsv action_magnitude and in thesis/CHANGELOG.md. ***
 ML.tsv	KB_Links	String	KB-RED-NNN refs	No	Related KB entries
 ML.tsv	Cross_Links	String	ML-RED-NNN refs	No	Related ML entries
 ML.tsv	Notes	String	Free text	No	Resolution details, lessons learned
 CHALLENGES.tsv	CHG_ID	String	CHG-RED-NNN	Yes	Unique challenge identifier
 CHALLENGES.tsv	Date	Date	YYYY-MM-DD	Yes	Date challenge issued
 CHALLENGES.tsv	Target	String	Agent, position, or thesis	Yes	What is being challenged
-CHALLENGES.tsv	Grade	String	Letter grade A+ to F	Yes	Overall assessment grade
+CHALLENGES.tsv	Grade	Categorical	WEAK;WEAK-MOD;MODERATE;MODERATE-STRONG;STRONG;COMPELLING;CRITICAL;PARTIALLY CONFIRMED — legacy letter grades (A-;B+;B-) are FROZEN, do not write new ones	Yes	*** REDECLARED 2026-08-12: the old contract said "Letter grade A+ to F" but 40 of 46 rows use the counter-evidence STRENGTH scale from CLAUDE.md (WEAK/MODERATE/STRONG/COMPELLING). Two different scales were living in one column. The strength scale is canonical; the 5 letter-graded rows are pre-2026-05 legacy. ***
 CHALLENGES.tsv	Key_Finding	String	Free text	Yes	Core finding
-CHALLENGES.tsv	Status	Categorical	ACTIVE;RESOLVED;SUPERSEDED	Yes	Current status
-CHALLENGES.tsv	Resolved_Date	Date	YYYY-MM-DD or empty	No	When resolved
+CHALLENGES.tsv	Status	Categorical	ACTIVE;ACTIVE-GRADED;ACTIVE-CONCEDED;RESOLVED;RESOLVED-CONVERGED;RE-TARGETED;SUPERSEDED — plus qualified variants (RESOLVED-CONVERGED-DEEPER;-DIRECTIONALLY;-BIDIRECTIONAL;WEAKENED;STRENGTHENED-IN-FLIGHT;LIVE-RE-ANCHORED)	Yes	Current status. 12 distinct vs 3 declared. The convergence variants encode a real and load-bearing distinction (RESOLVED-CONVERGED means the counterparty absorbed the challenge, which is the adversarial cycles success case and is NOT the same as RESOLVED) — contract widened, data untouched. *** EVERY ACTIVE ROW MUST CARRY A DATE IN Resolved_Date: an undated ACTIVE row is invisible to the boot DUE-scan BY CONSTRUCTION and ages silently (CHG-RED-010 sat 120d; ML-RED-125). ***
+CHALLENGES.tsv	Resolved_Date	Date	YYYY-MM-DD or empty	No	When resolved, or the registered re-review date for an ACTIVE row. *** KNOWN DEFECT, 5 rows (DAEDALUS completeness sweep 2026-08-12): some cells carry a date FOLLOWED BY A PARENTHETICAL, e.g. "2026-09-15 (re-anchored: first CCLFX Q3 DEMAND disclosure ~early Sept)". A parser must split on the first space and must not assume the cell is a bare date. The rationale is worth keeping, so the CONTRACT documents the shape rather than the data being stripped — but do NOT write new prose here; put it in Resolution. ***
 CHALLENGES.tsv	Resolution	String	Free text	No	How it was resolved
 CHALLENGES.tsv	KB_Links	String	KB-RED-NNN refs	No	Related KB entries
 CHALLENGES.tsv	VX_Links	String	VX-RED-NNN refs	No	Related VX entries
@@ -54,12 +54,12 @@ PREDICTIONS.tsv	Date_Made	Date	YYYY-MM-DD	Yes	When prediction was made
 PREDICTIONS.tsv	Prediction	String	Free text	Yes	The falsifiable prediction
 PREDICTIONS.tsv	Confidence	String	0-100%	Yes	Confidence level
 PREDICTIONS.tsv	Timeframe	String	Date or range	Yes	When it should resolve
-PREDICTIONS.tsv	Status	Categorical	ACTIVE;CONFIRMED;MISSED;INVALIDATED	Yes	Current status
+PREDICTIONS.tsv	Status	Categorical	ACTIVE;RESOLVED	Yes	Lifecycle state ONLY — whether the prediction has resolved, NOT whether it was right. *** FIXED 2026-08-12 (S30, audit R8): RED-21 carried Status=CORRECT, a third convention and a CATEGORY ERROR — correctness belongs in the Outcome column, which already read "RESOLVED CORRECT...". Set to RESOLVED; nothing lost. The old schema declared ACTIVE;CONFIRMED;MISSED;INVALIDATED, which the file has NEVER used. ***
 PREDICTIONS.tsv	Date_Resolved	Date	YYYY-MM-DD or empty	No	When resolved
 PREDICTIONS.tsv	Outcome	String	Free text	No	What actually happened
 PREDICTIONS.tsv	Invalidation	String	Free text	Yes	What would prove this wrong
 PREDICTIONS.tsv	Notes	String	Free text	No	Lessons learned
-FLOW.tsv	ID	String	FLOW-RED-NNN	Yes	Unique break-pathway identifier
+FLOW.tsv	ID	String	FLOW-RED-NNN	Yes	Unique break-pathway identifier. *** FLOW.tsv is FROZEN 2026-07-05 and its FIRST PHYSICAL LINE IS THE FREEZE BANNER, not the header — a header-keyed parser will read the banner as the column row. Read the header from line 2. STATUS.md + VX.tsv + CHALLENGES.tsv are canonical for live transmission-break logic. ***
 FLOW.tsv	Name	String	Free text	Yes	Break pathway name
 FLOW.tsv	Speed	String	Duration estimate	Yes	How fast the break propagates
 FLOW.tsv	Status	Categorical	INTACT;WEAKENING;BREAKING;BROKEN	Yes	Current pathway state
@@ -76,10 +76,37 @@ VX_HISTORY.tsv	Old_BullWt	Integer	0-100	No	Previous bull weight
 VX_HISTORY.tsv	New_BullWt	Integer	0-100	No	New bull weight
 VX_HISTORY.tsv	Reason	String	Free text	Yes	What drove the change
 FALSIFICATION_TRIGGERS.tsv	trigger_id	String	RED-FT-NN	Yes	Unique trigger identifier
-FALSIFICATION_TRIGGERS.tsv	metric	String	Canonical metric name (HY-OAS;BRENT-PAPER;INITIAL-CLAIMS;VIX;CCC-OAS)	Yes	Metric being watched
+FALSIFICATION_TRIGGERS.tsv	metric	String	Canonical metric name: HY-OAS;CCC-OAS;BRENT-PAPER;INITIAL-CLAIMS;VIX;CORE-CPI-3MO-ANN;BREAKEVEN-5Y5Y	Yes	Metric watched. boot.py METRIC_MAP resolves 6 of 7; CORE-CPI-3MO-ANN is release-derived and graded MANUALLY by design (fails loud, audit R17).
 FALSIFICATION_TRIGGERS.tsv	threshold_op	Categorical	<;>;<=;>=;==	Yes	Comparison operator
-FALSIFICATION_TRIGGERS.tsv	threshold_value	Numeric	bps for OAS;USD for Brent;K for claims;index level for VIX	Yes	Numeric threshold
-FALSIFICATION_TRIGGERS.tsv	sustain_window	Integer	Days (1=single-print event)	Yes	Sustain days required to fire trigger
-FALSIFICATION_TRIGGERS.tsv	action	Categorical	IMMEDIATE-FALSIFY;PATH-B-CONFIRM;ADD-POSITION;BRT-15-INVALID;LABOR-RE-ARM;MANAGED-DECLINE-CONFIRM;EARLY-STRESS	Yes	Action taken on cross
+FALSIFICATION_TRIGGERS.tsv	threshold_value	Numeric	bps for OAS;USD for Brent;K for claims;index level for VIX;percent for CPI and breakevens	Yes	Numeric threshold
+FALSIFICATION_TRIGGERS.tsv	sustain_window	Integer	Observations (1=single-print event)	Yes	Consecutive qualifying observations required to fire. A BROKEN streak RESETS the count (S28 ruling, ML-RED-129) - the re-run is a new clock.
+FALSIFICATION_TRIGGERS.tsv	action	Categorical	IMMEDIATE-FALSIFY;PATH-B-CONFIRM;ADD-POSITION;BRT-15-INVALID;LABOR-RE-ARM;MANAGED-DECLINE-CONFIRM;EARLY-STRESS;STAGFLATION-RE-ARM;EXPECTATIONS-UNANCHOR	Yes	Action label taken on cross. NOTE: the label alone is only HALF a registration - see action_magnitude.
+FALSIFICATION_TRIGGERS.tsv	instrument_basis	String	Free text; must name series/venue + publication cadence + which date governs the sustain count	Yes	ADDED 2026-08-12 (S30, audit R7a + PROME Amendment 3). Exact instrument the threshold resolves against. MUST state N5 scope explicitly: futures rows carry SETTLEMENT-vs-daily-bar semantics (WALTER SIG-W-20260811-002, Will 8/11); cash/derived rows state that N5 (i)/(ii) do NOT bind rather than assuming the exemption silently.
+FALSIFICATION_TRIGGERS.tsv	state	Categorical	ARMED;FIRING-BANKED;FIRED-BANKED;UN-FIRED;BLOCKED	Yes	ADDED 2026-08-12 (S30, audit R7b). Current lifecycle state, machine-readable. EXISTS BECAUSE the FIRED_LOG answers only "did X ever fire", never "is X fired now" (per its own banner). BANKED = the weight move was already executed; do not double-count on continued firing.
+FALSIFICATION_TRIGGERS.tsv	action_magnitude	String	Signed weight/confidence deltas (e.g. "STAG -2 / MANAGED +2", "CONF -2"), or explicit NONE with a reason	Yes	ADDED 2026-08-12 (S30, PROME Amendment 3). The PRE-REGISTERED size of the move. Born from ML-RED-144: FT-06 registered a DIRECTION with no MAGNITUDE, so the -2 was set post-data by analogy - which removes the discretion about WHETHER to move and leaves all of it about HOW MUCH, where the outcome lives. An empty cell here is a visible half-registration AT REGISTRATION TIME instead of at fire time. Position actions (ADD-POSITION) carry NONE for weights: they are Will/TERRY proposals, not RED weight actions.
 FALSIFICATION_TRIGGERS.tsv	recipient_chain	String	Action/info routing chain (RED action / AGENT info / Will)	Yes	Dispatch routing on fire
-FALSIFICATION_TRIGGERS.tsv	falsification_thesis_ref	String	Path to STATUS.md or CALENDAR.md anchor	Yes	Where the thesis-falsification rule is documented (added 2026-05-06 Turn 3 RED↔WALTER LIAISON; 8-col schema cosigned with WALTER for at-dispatch evaluation)
+FALSIFICATION_TRIGGERS.tsv	falsification_thesis_ref	String	Path to STATUS.md or CALENDAR.md anchor	Yes	Where the thesis-falsification rule is documented (added 2026-05-06 Turn 3 RED-WALTER LIAISON)
+FALSIFICATION_TRIGGERS.tsv	exit_op	Categorical	<;>;<=;>=;==;UNDEFINED	Yes	Reversal operator. Added 2026-07-29 (S27, exit-semantics ruling). As of 2026-08-12 S30 NO ROW IS UNDEFINED - all 9 exits are registered.
+FALSIFICATION_TRIGGERS.tsv	exit_threshold	Numeric	Same units as threshold_value; or UNDEFINED	Yes	Reversal threshold. DELIBERATELY NOT the symmetric re-cross: a bare re-cross un-fires on the first wiggle back, which is the noise the fire own sustain window exists to filter.
+FALSIFICATION_TRIGGERS.tsv	exit_sustain	Integer	Observations; or UNDEFINED	Yes	Consecutive observations required to un-fire.
+FALSIFICATION_TRIGGERS.tsv	exit_source	String	Free text: derivation, base rates, ruling history	Yes	Why this exit and not another. Carries the fire/un-fire history for the row.
+../docket/CATALYSTS.tsv	date	Date	YYYY-MM-DD or YYYY-MM-XX for month-known/day-unknown	Yes	Catalyst date. THE CANONICAL forward-catalyst backbone; CALENDAR.md is its narrative mirror and must not diverge in event SET (W4 mirror rule).
+../docket/CATALYSTS.tsv	window	Categorical	imminent;near;far	Yes	Proximity band
+../docket/CATALYSTS.tsv	event	String	Free text	Yes	What happens
+../docket/CATALYSTS.tsv	bear_signal	String	Free text	No	What a bear-confirming outcome looks like
+../docket/CATALYSTS.tsv	bull_signal	String	Free text	No	What a bull-confirming outcome looks like
+../docket/CATALYSTS.tsv	red_threshold	String	Free text, numeric where possible	No	RED-specific decision line for this catalyst
+../docket/CATALYSTS.tsv	priority	String	Free text emoji/severity tag	No	Display priority in boot.py countdown
+../docket/CATALYSTS.tsv	status	Categorical	pending;resolved;expired;superseded	Yes	boot.py step 3 iterates status=pending ONLY - a catalyst with any other status is INVISIBLE to the countdown. A binding test with no pending row will not be surfaced (audit R5, live instance 2026-08-12).
+../docket/CATALYSTS.tsv	notes	String	Free text	No	Outcome once resolved; provenance; date-verification trail
+../docket/WATCHLINES.tsv	WL_ID	String	WL-NN	Yes	Watch-line identifier. SOFT/DISPLAY ONLY - hard pre-registered triggers live in registry/FALSIFICATION_TRIGGERS.tsv, which is WALTER auto-fire surface. NEVER add a display row to the registry.
+../docket/WATCHLINES.tsv	Metric	String	Canonical metric name	Yes	Metric watched
+../docket/WATCHLINES.tsv	Source_Type	Categorical	yf;fred	Yes	Data source family
+../docket/WATCHLINES.tsv	Source_Key	String	Ticker or FRED series id	Yes	Exact series. NOTE this SOFT surface fully specifies its instrument, which the HARD registry did not until 2026-08-12 (audit R7a inversion).
+../docket/WATCHLINES.tsv	Field	String	price;value	Yes	Field read from the source
+../docket/WATCHLINES.tsv	Scale	Numeric	Multiplier applied to the raw value	Yes	e.g. 100 to convert FRED percent to bps
+../docket/WATCHLINES.tsv	Op	Categorical	<;>;<=;>=	Yes	Comparison operator
+../docket/WATCHLINES.tsv	Threshold	Numeric	Scaled units	Yes	Display threshold
+../docket/WATCHLINES.tsv	Sustain	Integer	Observations	Yes	Sustain for display purposes
+../docket/WATCHLINES.tsv	Label	String	Free text	Yes	One-line description shown in boot.py
+../docket/WATCHLINES.tsv	Notes	String	Free text	No	Provenance and history

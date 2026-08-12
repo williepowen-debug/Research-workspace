@@ -11,6 +11,33 @@ Reverse-chronological log of **structural** changes to RED's docs, folders, sche
 
 ---
 
+## 2026-08-12 (S30) — SCHEMA.tsv refreshed against measured reality + `scripts/schema_check.py` shipped (T6 / audit R8 + DAEDALUS sweep item 3)
+
+**Trigger:** Audit R8 ("a co-signed contract that silently drifted") + DAEDALUS's completeness-sweep rider on `CHALLENGES.Resolved_Date`. **T5 widened the gap** — the registry went to 15 columns against a schema documenting 8 — so T6 could not slip.
+
+**What changed.**
+- **`workbook/SCHEMA.tsv` 84 → 111 rows.** Registry block rewritten 8 → **15** columns (the `exit_*` quad, undocumented since 7/29, plus S30's `instrument_basis`/`state`/`action_magnitude`). **`docket/CATALYSTS.tsv` (65 rows) and `docket/WATCHLINES.tsv` (12 rows) gained coverage — they had NONE.**
+- **Value domains re-declared against MEASURED usage** in 11 columns. **Disposition split by kind rather than flattened wholesale.**
+- **`scripts/schema_check.py` NEW** — read-only structural conformance check, exit 1 on drift.
+
+**DATA fixed (only where genuinely wrong):**
+- **KB.tsv `Status` + `Epistemic` case-folded to upper — 50 cells.** `ACTIVE` 31 + `Active` 18 → **49**. The split was *temporally clean* (every row after 7/5 lowercase), so an exact-match consumer **silently dropped the 18 newest live rows while reporting success.** ⚠️ **`Epistemic` was worse than the audit found and was never flagged: 18 distinct values on 85 rows against 3 declared, same case split (`FACT` 4 / `Fact` 7).** Case-only — **proven**: 25 lines changed, **0 of them non-case**.
+- **PREDICTIONS.tsv RED-21 `Status` `CORRECT` → `RESOLVED`.** A category error, not a vocabulary choice: correctness already lived in `Outcome` (`"RESOLVED CORRECT. BLS USDL-26-1378…"`). Status domain is now exactly `ACTIVE;RESOLVED`.
+
+**CONTRACT widened (where the vocabulary is legitimately richer — data untouched):**
+- **`ML.Thesis_Impact` redeclared Categorical → String.** 4 values declared; **104 distinct on 167 rows**, mostly full sentences. For several rows it is *the only prose record of why a weight moved* — flattening would destroy information. The contract was wrong, not the data.
+- **`CHALLENGES.Grade`** — the contract said "letter grade A+ to F" while **40 of 46 rows use the WEAK…COMPELLING strength scale**. Two incompatible scales in one column; strength is canonical, 5 letter-graded rows frozen as pre-05/2026 legacy.
+- `CHALLENGES.Status` (12 distinct — `RESOLVED-CONVERGED` encodes a real adversarial-cycle outcome), `ML.Status` (19), `ML.Category` (+`CHALLENGE-GRADE`, `CALIBRATION`), `KB.Status`/`KB.Epistemic`.
+- **`CHALLENGES.Resolved_Date`** — DAEDALUS's 5 prose-in-a-date-field rows: **shape documented** (split on first space) rather than the rationale stripped; new prose forbidden.
+- **`VX.Strength` conflation DOCUMENTED, deliberately NOT fixed** — 13 values across **two axes** (strength `WEAK…COMPELLING` vs lifecycle `RESOLVED-*`/`FIRED`) on 25 rows. Splitting it is a 25-row migration and belongs in its own dated pass; recorded so the next reader doesn't mistake the mess for meaning.
+- **`FLOW.tsv`** — noted that line 0 is the FROZEN banner, so a header-keyed parser reads the banner as the header.
+
+**Boot-impact: NONE** (no boot step reads SCHEMA.tsv). **Verified:** `schema_check.py` reports **10 of 10 files conform exactly and in order**, and was tested **both directions** — induced drift (removed one KB column) → exit **1** with the correct diagnosis; restored → exit **0**.
+
+**⚠️ INCIDENT DURING THIS PASS — a fourth member of the S30 tooling class, and the most dangerous.** The first attempt used `csv.reader`/`csv.writer` on KB.tsv and PREDICTIONS.tsv. **Python's csv module treats a literal `"` inside a TSV cell as field quoting**, so a read-modify-write round-trip **silently rewrote PREDICTIONS RED-08's `Outcome` cell from `"` to `W`** — a row the pass was not editing. **The tell was a diff LARGER THAN THE EDIT: 6 rows changed for a 1-row edit.** Restored via `git checkout` (uncommitted) and redone with raw tab splitting. Quote counts: **ML 36 · CHALLENGES 10 · KB 6 · PREDICTIONS 6**; the registry has **0**, which is the only reason S30's two earlier csv round-trips on it were safe — **verified field-by-field against a pre-change backup, 0 unintended changes.** **Rule now in the checker's docstring: never use the csv module on these TSVs.** ML-RED-168.
+
+---
+
 ## 2026-08-12 (S30) — FALSIFICATION_TRIGGERS.tsv re-spec: 12 → 15 columns, 7 UNDEFINED exits closed (T5 / audit R7a-R7b / PROME Amendment 3)
 
 **Trigger:** DAEDALUS audit R7 (a: no instrument-basis column; b: no state column) + PROME Amendment 3 (action-magnitude column) + WALTER's `SIG-W-20260811-002` §5 N5 ask, which converges independently on the same file.
