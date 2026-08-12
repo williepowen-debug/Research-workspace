@@ -4,6 +4,43 @@
 
 ---
 
+## 2026-08-12 ~4:45 PM ET — S30 (T5): NO WEIGHT MOVED, but the registry that governs every future weight move was re-specced — and the base-rate pass corrected two published specifics behind the S29 −4
+
+**Confidence 69 (=). Net-bear 60 (=). All six hypothesis weights unchanged.** This entry exists because the new **A4** conditional makes W3 mandatory on any *registered-trigger state* change, not only on weight changes — and this session changed trigger state on all nine rows. **Under the old protocol this would have lived in a TSV and reached no analytical surface.**
+
+**What changed structurally.** `registry/FALSIFICATION_TRIGGERS.tsv` 12 → 15 columns: `instrument_basis`, `state`, `action_magnitude` (PROME Amendment 3 + audit R7a/R7b). **Seven `UNDEFINED` exits closed pre-data.** Every trigger now carries its magnitude at registration — **ML-RED-144 closed**, and the class it named ("a trigger that registers a direction but not a magnitude is only half pre-registered") can no longer recur silently, because the empty cell is now visible at registration time instead of at fire time.
+
+**⚑ THE ANALYTICAL CONTENT IS THE BASE-RATE PASS, AND IT IS THE FIRST ONE I HAVE EVER RUN ON MY OWN REGISTRY.** Nine triggers, each measured on *its own sustain window* (not single-obs), 380–400 FRED observations apiece:
+
+| Trigger | Sustained base rate | Verdict |
+|---|:--:|---|
+| FT-01 `HY<280 s=3` | 21.8% | sound |
+| FT-02 `HY>320 s=3` | 10.1% | sound — reachable, last obtained ~3/30/26 |
+| **FT-07 `CCC>930 s=1`** | **32.5%** | 🔴 **fires on a one-in-three state, with no sustain window — and the *display-only* WL-06 (`CCC>1000`, 6.8%) is ~5× more selective. A hard auto-fire row less discriminating than the soft line that never reaches WALTER.** |
+| **FT-04 `Brent<75 s=3`** | **64.5%** | 🔴 **would have been firing two-thirds of the last 18 months — a regime DESCRIPTOR before the 2026 war, an event only inside it** (`finding_escalation_line_needs_delta_not_level`: it would have fired on day one) |
+| FT-03 `Brent>130 s=5` | 0.0% | never reached in-sample; carries no information until it does |
+| FT-09 `5y5y>2.55 s=5` | 0.0% | **threshold sits ABOVE the 18-month sample max of 2.41** — detects a regime break and nothing short of one |
+| FT-05 `claims>250 s=1` | **2.8%** clean | the obvious base rate (23.2%) is COVID-contaminated; the clean post-2022-07 window is 2.8% |
+
+**Neither FT-07 nor FT-04 was re-cut, deliberately.** A threshold change in the same session the bear lost six points is indistinguishable from moving goalposts, whatever the arithmetic says. Flagged in-row, queued as a dated pass. ML-RED-160.
+
+**⚑ AND ONE AGAINST MY OWN BOOK, which is the one that matters.** The FT-06 exit I set pre-data on 8/12 has a **27.0%** base rate against the fire's **6.9%** on identical 5-obs windows — **the bear-restoring un-fire is ~4× easier to trip than the bull fire.** I base-rated the 7/23–7/29 regime window, which was honest but partial, and never ran the full sample. **That asymmetry systematically favours this book. The line is NOT being moved** — re-cutting a pre-registration after it charged me, in the direction that helps me, is precisely what the registry exists to prevent. **It is the RATCHET I filed against CARL one day earlier (CHG-045: "a dollar leg must be able to FIRE the kill, not only block it"), sign-flipped, and mine.** ML-RED-161.
+
+**⚠️ TWO PUBLISHED SPECIFICS BEHIND THE S29 −4 ARE WRONG, AND I FOUND THEM BY ADVERSARIALLY TESTING MY OWN CLAIM.** I wrote that 5y5y *"did not move 10bps through the largest oil shock in the series."* Measured:
+
+| Window | Brent (spot) range | 5y5y move |
+|---|---|---|
+| **Apr 2026** | $98.63 → **$138.21** ($39.58) | **13bp** |
+| Jul 2026 | $81.23 → $105.32 ($24.09) | **13bp** |
+
+**① "Largest oil shock in the series" is FALSE — April was 64% larger. ② "Did not move 10bps" is FALSE on the shock window (13bp); true only on the narrower 3-week window I actually quoted. ③ "Inert" is also wrong** — monthly means trough at 2.115 [Mar-26] and sit at 2.293 [Aug-26] (+10.6bp), yet Aug-2025 was 2.325, so the 12-month net is flat-to-down: **range-bound 2.02–2.41, neither inert nor drifting.**
+
+**⇒ THE CONCLUSION SURVIVES AND IS BETTER EVIDENCED THAN WHAT I PUBLISHED: a second, 64%-larger oil shock produced the identical 13bp non-response.** KB-RED-086 is **stronger**. **The −4 stands and is not re-litigated.** But three specifics reached the page wrong, and *"the conclusion is unaffected"* does not excuse imprecision in the sentence that carried a six-point weight move. Corrected on both live surfaces; the dated S29 narrative left intact.
+
+**Old view → new view:** *"5y5y did not move 10bps through a first-ever $100 Brent settle — the largest oil shock in the series"* → **"5y5y moved ≤13bp through EACH of the two largest oil shocks in the series, the larger of which was April 2026, and has never printed above 2.41 in 18 months. Better evidence, worse original wording, same conclusion."** ML-RED-162; related ML-RED-159/160/161.
+
+---
+
 ## 2026-08-12 ~1:15 PM ET — S29d ADDENDUM: Policy Rescue 2→4 / Managed 34→32 on ORACLE's answer. Net-bear UNCHANGED at 60 — a stale-carry correction, NOT a thesis move
 
 ***⚠️ This entry was OWED at S29d and was not written until S29f — the W3 gap that the new ADDENDUM CLOSEOUT (W-A) spec exists to prevent, caught by its own A4 conditional within an hour of the spec being written. A hypothesis weight moved and the analytical drift-log did not hear about it for two hours. Logged with its own lateness rather than backdated.***

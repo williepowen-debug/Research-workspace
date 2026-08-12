@@ -11,6 +11,28 @@ Reverse-chronological log of **structural** changes to RED's docs, folders, sche
 
 ---
 
+## 2026-08-12 (S30) — FALSIFICATION_TRIGGERS.tsv re-spec: 12 → 15 columns, 7 UNDEFINED exits closed (T5 / audit R7a-R7b / PROME Amendment 3)
+
+**Trigger:** DAEDALUS audit R7 (a: no instrument-basis column; b: no state column) + PROME Amendment 3 (action-magnitude column) + WALTER's `SIG-W-20260811-002` §5 N5 ask, which converges independently on the same file.
+
+**What changed.** `registry/FALSIFICATION_TRIGGERS.tsv`: **12 → 15 columns.** Added `instrument_basis`, `state`, `action_magnitude`, **inserted after `action`** (positions 7-9); `exit_*` moves from 9-12 to 12-15. All existing columns keep their relative order; no column renamed, no row added or removed (9 rows).
+- **`instrument_basis`** — exact series/venue/basis + publication cadence + which date governs the sustain count. **N5 scope stated per row rather than assumed**: cash/derived series (HY OAS, CCC OAS, ICSA, VIXCLS, T5YIFR) say explicitly that N5 (i)/(ii) do not bind them.
+- **`state`** — closed set `ARMED` / `FIRING-BANKED` / `FIRED-BANKED` / `UN-FIRED` / `BLOCKED`. Aimed at the banner on WALTER's own `FALSIFICATION_FIRED_LOG.tsv` (*"cite this log ONLY for 'did X ever fire', never for 'is X fired now'"*) — `state` answers the second question in a machine-readable cell.
+- **`action_magnitude`** — the pre-registered size, or explicit `NONE` with a reason. Closes ML-RED-144.
+- **Exits:** 7 rows moved off `UNDEFINED` (FT-02/03/04/05/07/08/09), all set pre-data. **`UNDEFINED` no longer appears in the file.**
+
+**Files touched.** `registry/FALSIFICATION_TRIGGERS.tsv` (the change) · `STATUS.md` §11 + falsification-table note + priority 0 · `thesis/CHANGELOG.md` (A4-mandated) · `OUTBOX.md` (RED-TO-PROME-...-013) · `NEXUS_BRIEF.md` (2 corrections, in-place, still 100/100 lines) · `workbook/ML.tsv` (ML-RED-159..162) · packets to `AGENTS/WALTER/inbox/` and `AGENTS/BRENT/inbox/` (carve-out ①).
+
+**Boot-impact: NONE, and this was verified functionally rather than by inspection.** `boot.py` is header-keyed (`dict(zip(head,row))`), so column count and position are irrelevant to it; WALTER's step 6b/6c is a human read-loop. Re-ran `boot.py` after the change: **all 9 triggers still evaluate, 15/15 fields on every line, 10 lines total (no embedded newlines).**
+
+**⚠️ LANDMINE FOUND BEFORE IT FIRED — record this, it generalizes.** `boot.py`'s `tsv()` keeps a row only if `len(row) >= len(head) - 2`. **Adding 3 header columns without widening all 9 data rows would have failed `12 >= 13` on every row and printed an EMPTY trigger section — no error, no warning, no exit code**, on the very scan that decides whether a pre-registered falsifier fired. **A parser tolerance written to survive dirty data becomes a silent-failure amplifier under schema change, because the two are indistinguishable to it.** ML-RED-159; promoted to auto-memory.
+
+**Why the columns went mid-file and not appended:** the actual consumption path is WALTER's *human* read-loop, and `state`/`action_magnitude` are useless to a human sitting behind `exit_source`, which on FT-06 is ~1,900 characters. Checked for positional parsers before choosing (boot.py header-keyed; WALTER human; their FIRED_LOG banner states the exit quad is parsed by no code on either side), and **notified WALTER before the change landed** with an explicit offer to move the columns to the end if any positional reader exists on their side.
+
+**Not done in this pass, deliberately:** FT-07's sustain=1 (32.5% base rate) and FT-04's regime-descriptor level (64.5%) are flagged in-row but **not re-cut** — threshold changes belong in their own dated pass, and re-cutting bear-side thresholds in the session the bear lost six points is indistinguishable from moving goalposts. Queued.
+
+---
+
 ## 2026-08-12 (S29f) — ADDENDUM CLOSEOUT (W-A) spec added to CLAUDE.md; Amendment 10 reconciled
 
 **Trigger:** DAEDALUS audit R2 (root cause of R2/R3) + PROME's sequencing guidance + RED's own per-ending self-audit of 2026-08-12.
