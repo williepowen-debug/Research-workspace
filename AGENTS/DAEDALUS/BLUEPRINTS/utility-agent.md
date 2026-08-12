@@ -54,6 +54,8 @@ The floor above is shared; the ceiling is per-role. Each agent's rubric, output,
 
 *The calibration column is the role's truth-loop — the utility analogue of a market predictions ledger. Build it to the role's cadence; never force a market shape.*
 
+> **Forum-4 canon (Will-ratified 2026-08-11) binds utility outputs too:** **N3** reference-discipline bundle (any published comparison — ≥2 references, same-variable percentiles, commensurability, epoch+sample-with-reason) and **N7** defect-register-travels-at-grade-time (any graded label ships with its append-only register). Canonical mirror text → `market-agent.md` §3/§5; cite, don't restate. **N5** (futures-bar/capture-time) is WALTER-owned — `SIG-W-20260811-002`.
+
 ---
 
 ## CLASS DISCRIMINATOR (resolves meta-vs-utility — PAT-027)
