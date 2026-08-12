@@ -11,6 +11,22 @@ Reverse-chronological log of **structural** changes to RED's docs, folders, sche
 
 ---
 
+## 2026-08-12 (S29f) — ADDENDUM CLOSEOUT (W-A) spec added to CLAUDE.md; Amendment 10 reconciled
+
+**Trigger:** DAEDALUS audit R2 (root cause of R2/R3) + PROME's sequencing guidance + RED's own per-ending self-audit of 2026-08-12.
+
+**What changed:** `CLAUDE.md` gains a **§ADDENDUM CLOSEOUT (W-A)** block after W10, running at **every session ending after the first in the same day**. 3-step always-floor (A1 STATUS addendum · A2 SCRATCH addendum · A3 commit+push) + 6 conditionals each keyed to a checkable FACT, of which **A4 is load-bearing**: *any* weight / confidence / registered-trigger-state change makes **W3 and W8 MANDATORY**. Plus a one-question self-check with the explicit rider that **"they already know via another route" is not routing**.
+
+**⚠️ Amendment 10 RECONCILED, not overridden:** *"the NEXUS_BRIEF fold goes LAST"* is now **per-ENDING, not per-day**. It was authored for single-ending sessions and is self-refuting in a multi-ending one — on 8/12 the brief declared itself folded-last while four further endings and several commits followed. NEXUS_BRIEF footer updated to flag the revision.
+
+**Evidence base (measured, in the spec):** S29 ended five times; each addendum ran ~3 of 10 W-steps; **W8 skipped 4-of-4, W3 3-of-4**. The repair became its own session (T14).
+
+**Boot-impact: NONE on boot** — this is a write-back-side addition only; boot steps 0-9a unchanged. Sessions that end once are unaffected. **Fleet:** DAEDALUS holds this as a PAT candidate (RED validates, fleet inherits after one clean multi-ending day = audit L5 gate (a)).
+
+**Immediate catch by the new rule:** A4 run against 8/12's own record found the **S29d Policy Rescue 2→4 / Managed 34→32 move had never reached `thesis/CHANGELOG.md`.** Entry written same session with its lateness disclosed rather than backdated.
+
+---
+
 ## 2026-08-12 (S29d/e) — DAEDALUS audit + PROME amendments: FT-08 machine form corrected, FT-09 wired into boot.py, WAL V4 docket row added
 
 **Trigger:** `AGENTS/DAEDALUS/upgrades/RED_AUDIT_2026-08-12.md` (18 findings, Will-directed) + PROME's three amendments (durable record in DAEDALUS's inbox; relayed to RED as an addendum packet) + PROME's prune-scan R4 delta packet.

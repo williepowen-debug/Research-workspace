@@ -81,6 +81,29 @@ W8. **Reports & routing** — long reports → `reports/` or `challenges/`; PROM
 W9. **Structural change** (file created/retired/moved, schema change, protocol/CLAUDE.md amendment, tooling) → `MAINTENANCE.md` entry (Trigger / What changed / Files touched / Boot-impact). Analytical changes stay in `thesis/CHANGELOG.md`.
 W10. **Git:** commit own files per root CLAUDE.md §Git Protocol (pathspec `AGENTS/RED/`) + auto-push via `scripts/safe-push.sh` (ff-gated; non-ff → `git pull --rebase`, never force).
 
+### ADDENDUM CLOSEOUT (W-A) — run at **every session ending after the first in the same day**
+
+*Added 2026-08-12 (S29f) after DAEDALUS's architecture audit named this the root cause of its two worst findings. **The write-back above is specified for a session that ends ONCE. S29 ended FIVE times** (S29 / b / c / d / e — Will reopens, a packet lands, an audit arrives, a catalyst resolves). **Measured, not estimated: each addendum ran ~3 of the 10 W-steps. W8 (routing) was skipped 4 times out of 4 — including the addendum that moved a hypothesis weight — and W3 was skipped 3 of 4.** The repair (T14) had to be a separate session of its own. **The gap GREW while the audit was being fixed**, which is why this is a spec and not a resolution to be more careful.*
+
+**THE FLOOR — always, no judgment call (3 steps):**
+- **A1.** `STATUS.md` addendum block (mirror of W1) — the top-of-file state line must be current *for this ending*, not the day's first.
+- **A2.** `SCRATCH.md` addendum section (mirror of W5) — the handoff must carry it, or the next boot reads a partial day.
+- **A3.** Commit + push (mirror of W10).
+
+**THE CONDITIONALS — each keyed to a FACT, so it is checkable rather than remembered:**
+- **A4. 🔴 Did a weight, a confidence number, or a registered-trigger state change? → W3 (`thesis/CHANGELOG.md`) AND W8 (`OUTBOX.md` + `NEXUS_BRIEF.md`) are MANDATORY.** Not "if notable." **This is the step that failed every single time**, and what it stranded was a live weight move PROME's decision rails consume.
+- **A5.** Wrote a workbook row? → W6. · **A6.** Changed a file, schema, tool or protocol? → W9 (`MAINTENANCE.md`). · **A7.** Found a transferable lesson? → W7. · **A8.** Opened/resolved a DUE row? → W2. · **A9.** Added/resolved a dated catalyst? → W4.
+
+**THE ONE-QUESTION SELF-CHECK — ask it out loud at the end of every addendum:**
+> *"Did this addendum change a number, a date, or a state that another agent consumes?"*
+> **If yes, W8 is not optional — and "they already know via another route" is NOT routing.** *(Live proof, 8/12: PROME knew the audit contents because they wrote amendments to it, and the OUTBOX gap was still real — the weight change reached nobody by the channel that feeds the rails.)*
+
+**⚠️ AMENDMENT 10 RECONCILED — "the NEXUS_BRIEF fold goes LAST" is per-ENDING, not per-day.** It was written for single-ending sessions and is self-refuting in a multi-ending one: on 8/12 the brief declared itself folded-last while four more endings and several commits followed it. **Fold the brief at the end of every addendum that changed state.** A brief fresh at ending #1 and stale by ending #5 was not folded last — it was folded *early*.
+
+**Anti-pattern to avoid on the other side:** do **not** make the addendum closeout as heavy as the full one, or it gets skipped whole and the floor is lost too. The floor is deliberately three steps; the weight of the pass comes from A4 alone.
+
+*(Fleet: DAEDALUS holds this as a PAT candidate — RED validates, fleet inherits after one clean multi-ending day. That clean day is also the audit's L5 gate (a).)*
+
 **Discipline overlay (applies throughout write-back):** one source of truth per metric — own it in the owner doc, reference it from the other. Stale-marked > carried-forward-as-current — if you can't refresh a value, mark it `[STALE <date>]`, don't present it as live. Don't let prior-session narrative substitute for fresh measurement — re-pull, then write. **A dated section stamp is a TRIGGER, not a shield (7/31 sweep, 20 items): any section header stamp older than the previous session forces re-read-or-restamp at write-back — "(7/24)" on a live table is an instruction to re-pull, not provenance that excuses the rows.** (The 7/31 proof: a "145.95 (7/23)" anchor masked a live 2-of-4 SKEW kill-clock for 8 days; a "(7/24)" priorities section survived two sessions carrying a pre-FOMC framework as pending.) *(→ auto-memory `[[finding_dated_stamp_is_a_trigger_not_a_shield]]`)*
 
 ### Doc-Mirror table (canonical → display; check at W4, canonical wins)

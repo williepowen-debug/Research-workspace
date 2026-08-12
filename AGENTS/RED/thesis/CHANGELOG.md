@@ -4,6 +4,28 @@
 
 ---
 
+## 2026-08-12 ~1:15 PM ET — S29d ADDENDUM: Policy Rescue 2→4 / Managed 34→32 on ORACLE's answer. Net-bear UNCHANGED at 60 — a stale-carry correction, NOT a thesis move
+
+***⚠️ This entry was OWED at S29d and was not written until S29f — the W3 gap that the new ADDENDUM CLOSEOUT (W-A) spec exists to prevent, caught by its own A4 conditional within an hour of the spec being written. A hypothesis weight moved and the analytical drift-log did not hear about it for two hours. Logged with its own lateness rather than backdated.***
+
+**Confidence 69 (=). Net-bear 60 (=). Weights: Policy Rescue 2→4, Managed Decline 34→32. Sum 100.**
+
+**What happened.** ORACLE answered the ask RED routed in S29 and the premise had already lapsed: **Fed-hike-2026 71.5% → 54.5% (−17.0pp)**, same Polymarket contract with **continuity clean** — same slug, question and endDate, and the contract *deepened* rather than aged ($4.57M → $7.30M volume). **Kalshi-corroborated at 57.0% book mid** (RED declined the 60.0% last trade on ORACLE's own warning: above the ask, 35 contracts). September-meeting-specific reads **33.5% / 35.0%** across the two venues — 1.5pp apart on the day, the strongest cross-platform agreement on that board.
+
+**⚠️ THE ATTRIBUTION IS THE FINDING, AND IT CUTS AGAINST HOW I FRAMED THE ASK.** ORACLE's daily closes: 74.0 [7/24, RED's consumption — **live and correct at the time**] → 76.5 [7/28] → **61.5 [7/30, −15.0 post-FOMC hold]** → **54.5 [8/8, −9.0 the day after the July payroll print]** → 54.5 [8/12 16:43Z, **−5.0 intraday on today's CPI**]. **The 7/30 FOMC + 8/8 payrolls window is −12.0pp = 71% of the move; today's CPI is −5.0pp = 29%.** I built the entire ask around core at 1.61% 3-mo annualized — **and it moved the contract last, and least.** So this **corrects a stale carry**; it is **not** new evidence from today's print, and marking it as CPI-driven would be a correct weight off a mis-attributed mechanism. **My premise lapsed 2026-07-30 — thirteen days before I asked.**
+
+**Why +2 and not more.** Adopting ORACLE's explicit do-not-over-read: **a hike remains the MODAL 2026 outcome on both platforms, and "no cuts in 2026" is 85.6%.** The crowd moved from *"a hike is the firm base case"* to *"a hike is a coin flip that leans yes, and a cut is nearly off the table."* **What died is the ≥2/3 base case, not the hawkish regime** — that is a de-rating of hike *conviction*, not the opening of a rescue path.
+
+**Funded from Managed Decline (34→32)** — a less-locked Fed makes the grind less certain, which is the bucket that should pay. **Net-bear is UNCHANGED at 60** (Stag 34 + Acute 13 + War 13): the mass moved **within the non-bear side**, and a stale-carry correction is not a thesis move.
+
+**Graded on my own record, since I asked to be.** I wrote before having the number that if it had fallen materially, Policy Rescue at 2% would be stale **in the direction that makes my book look more bearish than the evidence supports.** ✅ That is exactly the case. My alternative branch — *"if it held, a Fed locked through a 1.6% core is a tightening-side policy-error risk feeding Managed Decline"* — **did not obtain.**
+
+**⚑ And the defect was publisher-side, which ORACLE owned unprompted:** they published the correction three times (66.5% to LIQUID/HENRY on 7/31; 54.5% in their 8/9 STATUS and NEXUS_BRIEF) and **RED was on none of those routes** — their signal table routes Fed moves to LIQUID and lists RED only under *"odds diverge >20pp."* They did not run `consumer_check.py` on 7/31 or 8/9. Their words: ***"The measurement was never missing. The routing was."*** RED is now a standing route on the contract. **LABOR carries the same stale 71.5% in three places** (packeted separately by ORACLE).
+
+**Old view → new view:** *"Policy Rescue 2%, dead — hike remains the base case; held and flagged as possibly stale rather than moved on an unmeasured premise"* → **"Policy Rescue 4% — the hike path de-rated by 17pp on a deeper, cross-venue-corroborated contract, and I was carrying a figure that had lapsed 13 days before I thought to ask. Net-bear untouched: this is what a stale carry costs, not what the CPI proved."** ML-RED-154.
+
+---
+
 ## 2026-08-12 ~11:30 AM ET — S29: FT-06 FIRED + the NON-EVENT registration nearly hid the real event; Stagflation 40→34 (no longer sole-modal), Managed 30→34, Soft 2→4; HOLD 70→69, net-bear 66→60
 
 **Confidence 70→69 (−1, discretionary). Net-bear 66→60 (−6). One mechanical fire with a disclosed magnitude defect, one labelled discretionary move, both in the same direction.**
