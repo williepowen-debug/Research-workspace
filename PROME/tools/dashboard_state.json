@@ -1,5 +1,5 @@
 {
- "built": "2026-08-11 17:56",
+ "built": "2026-08-12 00:29",
  "channels": {
   "AI capex": "elev",
   "Credit": "crit",
@@ -11,13 +11,9 @@
   "War theaters + housing recognition": "none"
  },
  "docket": [
-  "2026-08-04 NY Fed Q2 Household Debt & Credit report \u2014 DATE UNANNOUNCED,",
   "2026-08-07 Tricolor criminal: privilege-log schedule ladder (8/7 \u2192 8/14",
   "2026-08-08 DEWEY spawn window \u2014 nearest dated item = WALTER DR-4 deadli",
   "2026-08-08 HOMER recovery spawn \u2014 PAT-089 instance 3: FIVE self-registe",
-  "2026-08-08 REGINALD recovery session \u2014 top dark-agent priority (dark si",
-  "2026-08-11 DEFERRAL (first entry of the 8/9 read-path rule): CARL CRL-2",
-  "2026-08-11 FT-06 earliest completion (restart 2-of-5 at 8/6) + BCRED wi",
   "2026-08-12 Athene Q2-2026 Fixed Income Investor Presentation (standalon",
   "2026-08-12 FALCON leg-3 WEEKLY sweep #1 under the ratified P-2 wording ",
   "2026-08-12 July CPI (Wed 8/12, 08:30 ET \u2014 DATE VERIFIED, was carried fl",
@@ -112,14 +108,16 @@
  },
  "one": "the resolver week ended with every heavyweight gate adjudicated and zero fired-unexecuted: labor printed its first negative NFP of the cycle (\u221223K, revisions \u2212103K) without firing a cyclical kill; Japan's carry frame BROKE to LOW on its own pre-registered resolver (COT position REVERSAL 3.8\u00d7 record cover \u2014 the crowd capitulated INTO the intervention window; TERRY's 007 died unarmed with a measured \u2248$150\u2013180 save); credit's bull-counter re-fired (FT-01, RED HOLD 70 / net-bear 66) with HY 11bp from the re-kill while CCC supplies only 13% of the flow; the banks' dramatic numbers deflated at the first-ever Call-Report falsifier runs while their boring numbers worsened (WAL MI3 kill fired, V1a\u2260V1 fence; OZK write-down-not-repay-down); the oil deploy arm was RETIRED by ruling with the thesis intact \u2014 a week of deal headlines churned four fee terms and moved throughput by nothing; and gold fired MIDAS's first-ever kill-condition the bullish way: +9.68%/3wk THROUGH a 2.75-yr real-yield high = debasement-premium reassertion, a broad hard-asset bid (silver outran gold, PGMs led), explicitly NOT an EndGame signature at DXY 99.60. Book unchanged, $0 moved all week by PROME rails; duration + gold are the two things paying, and they are tonight the same macro view priced in two assets.",
  "pending": [
-  "** CARL launch [his next spawn, declared]",
-  "RED launch [rec post-CPI 8/12]",
+  "** RED launch [rec post-CPI 8/12]",
   "CREED launch [aging]",
+  "row 44 CARL kill-rule",
+  "rows 42/43 [fence-\u2461 w/ P-OZK-2",
+  "REG-15]",
   "S1 build-or-lapse [9/7]",
-  "rules rows 40/41 + design batch",
+  "rows 40/41 + design batch",
   "row 39 branches",
   "item-8 reconsider [8/24]",
-  "N12 quarantine-N [set N by 9/30]",
+  "N12 quarantine-N [9/30]",
   "Robinhood [20]",
   "public flip [17, 43d]",
   "JWT [31]",
