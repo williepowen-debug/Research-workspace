@@ -11,6 +11,22 @@ Reverse-chronological log of **structural** changes to RED's docs, folders, sche
 
 ---
 
+## 2026-08-12 (S29) — two NEW registry triggers (FT-08 core CPI, FT-09 5y5y breakeven); FT-06 fired and exposed a magnitude spec-gap; KB-RED-067 doubly corrected
+
+**Trigger:** S29 write-back (W4/W6/W9) on a live catalyst day + PROME packet `2026-08-11_from-PROME_forum4-close-weights-inputs-and-corrected-references.md` (MIDAS DFII10 flag) + DAEDALUS packet `2026-08-11_..._weekday-range-guard-shipped`.
+
+**What changed:**
+1. **`registry/FALSIFICATION_TRIGGERS.tsv` — 2 rows APPENDED, 1 row updated.** **RED-FT-08** (`CORE-CPI-MOM >= 0.4`, sustain 1, action `STAGFLATION-RE-ARM`, +3 — compound: also requires 3-mo annualized ≥3.0%) and **RED-FT-09** (`BREAKEVEN-5Y5Y > 2.55`, sustain 5, action `EXPECTATIONS-UNANCHOR`, +4). Both registered **PRE-DATA** so the S29 −6 Stagflation move reverses on registered lines rather than by argument. **RED-FT-06 marked FIRED** (8/11 close).
+2. **⚠️ Registry spec-gap DISCLOSED, not silently patched: FT-06's `action` column named a DIRECTION but no MAGNITUDE** (`MANAGED-DECLINE-CONFIRM`), unlike FT-01 (−2) and the SKEW kill (−2). The −2 was set **post-data** by analogy and is labelled as such in STATUS, the registry notes, CHANGELOG, OUTBOX and NEXUS_BRIEF. **Structural follow-up owed: audit the whole registry for other direction-only actions before the next one fires** — the hole is invisible until a trigger fires. Logged in SCRATCH NEXT SESSION #3. ML-RED-144.
+3. **`workbook/KB.tsv` — KB-RED-067 CORRECTED on two axes** and `Stale_By` pushed 2026-08-15 → 2026-09-15. (a) the dead **"DFII10 series high" label** (post-2024 / ~2.75-yr high; all-time 3.15 [11/2008]; owner **BOND**) — flagged by MIDAS via PROME; (b) a **stale LEVEL** nobody flagged (2.37-2.39 vs an actual **2.43 [FRED 8/10]**), found only as a side effect of chasing the label, three days before its own Stale_By. **The same string in `thesis/CHANGELOG.md`, `workbook/ML.tsv`, an outbox packet and `research/FOMC_FRAMEWORK_JUL28-29_2026.md` was DELIBERATELY LEFT INTACT** — those are dated historical records, and rewriting them would damage an accurate account of what was believed when (same principle as the S28 `claim_check` false-positive ruling). ML-RED-149.
+4. **`docket/CATALYSTS.tsv`** — rows 48 (July CPI) and 58 (FT-06) resolved with outcomes; **3 forward rows appended**: ~8/17 CARL V2 on OTTO's 10-D panel · Fri 9/11 Aug CPI (RED-FT-08's first live test) · Nov 2026 HHDC (CHG-RED-045 resolution).
+5. **`workbook/CHALLENGES.tsv`** — **CHG-RED-045** opened (CARL HHDC kill-rule, resolves Nov HHDC).
+6. **Auto-memory:** 1 NEW (`finding_hypothesis_needs_an_instrument_for_its_defining_mechanism`) + **2 EXTENDED IN PLACE** rather than created — `finding_prereg_verdict_boundary_must_be_a_number` (the ACTION-magnitude half of the same defect) and `finding_standing_guard_is_a_false_negative_risk` (the scoped-exemption-read-wider form). **Dedup-before-create honoured: 3 findings, 1 new index row**, against a MEMORY.md sitting at 72% of its byte cap. Edits done in-place via python to preserve the harness hardlinks (verified: inode unchanged).
+
+**Boot-impact:** `boot.py` §2 now evaluates **9** registry triggers instead of 7 — **verified by running it after the edit, not assumed.** FT-08 and FT-09 are not in `boot.py`'s metric map, and it degrades correctly: both render **`⚪ RED-FT-0x <METRIC> — unmapped metric, manual check`**, which is an explicit instruction rather than a silent `n/a`. **They must be graded MANUALLY** — FT-08 at the Fri 9/11 CPI release, FT-09 on the daily breakeven check (FRED `T5YIFR`) — **until someone wires `T5YIFR` into the `FRED_SERIES` map**; `CORE-CPI-MOM` is a release-derived MoM figure and is probably not worth wiring at all. Recorded as a known, correctly-signposted gap. ⚠️ **Also observed on the same run: FT-06 renders `FIRING … sustain '5' needs trail/judgment`** — its VIX source is the live price feed, which carries no close-trail, so boot.py **cannot auto-count a sustain window for it.** That is why this session's fire was graded by hand against FRED `VIXCLS` closes; **do not read boot.py's FT-06 line as a completed sustain count.** Boot steps and CLAUDE.md FILES tables otherwise unchanged; no files created, moved or retired.
+
+---
+
 ## 2026-08-07 (S28) — CATALYSTS.tsv blank-row repair + 4 forward rows; NEXUS Amendment 10 brief-fold ordering adopted
 
 **Trigger:** S28 write-back (W4/W9) + PROME fleet-propagation packet `2026-08-04_from-PROME_nexus-amendment-10-brief-fold-ordering.md`.
