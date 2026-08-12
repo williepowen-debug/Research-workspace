@@ -5,6 +5,9 @@
 ## WHAT I DID
 ## NEXT SESSION (dated, priority-ordered)
 ## OPEN THREADS
+
+- **⚠️ AWAITING BRENT'S CRUDE BASIS RULING — a figure I quoted six times today is carrying the wrong instrument label.** PROME's 8/12 packet to BRENT (`62f01b36c`) names RED as one of three surfaces quoting unlabeled crude: my *"first-ever $100.19 Brent **settle**"* is **true on spot basis, false on settle basis**. "Brent" is two numbers ~$10 apart — BRENT's ICE front-futures settle canon **$82.27 [8/7]** vs FRED dated/spot **$96.95 [7/31]**, EIA spot **~$105 [7/23]**, MARCO bars **$100.69 [7/23]**. **My $100.19 matches none of them exactly and I do not know which instrument produced it.** Entered S24, propagated to ~8 live surfaces. **The S29 conclusion is basis-INVARIANT** (KB-086/FT-09 key on the breakeven, not on crude; a larger spot shock makes the claim *stronger*) — **the −6 is not at risk.** Marked disputed; **did NOT pick a replacement number** — the ruling is BRENT's and PROME routed the correction to come from them. ⚠️ **Live branch to not pre-empt:** PROME asks BRENT to kill the $100+ spot prints loudly if they are a yahoo-sparse-index artifact, which would make my figure not merely mislabeled but **wrong**. ML-RED-153.
+- **⚠️ Detection-pattern worry worth carrying:** two instrument-label defects surfaced in one session — the DFII10 level (found by chasing someone else's label flag) and this crude basis (found by reading a packet addressed to a *different agent*). **Neither was found by my own review.** Both were in load-bearing figures.
 ## PENDING WILL-DECISIONS
 ## GIT STATE (one line)
 -->
