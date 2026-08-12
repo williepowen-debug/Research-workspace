@@ -11,6 +11,26 @@ Reverse-chronological log of **structural** changes to RED's docs, folders, sche
 
 ---
 
+## 2026-08-12 (S30) — disposition-ledger obligation moved off the retired lane + `boot.py` §⑤ makes it checkable (T10 / audit R6)
+
+**Trigger:** Audit R6 — *"the disposition-ledger obligation stayed attached to the retired lane."*
+
+**The defect.** RED's `board_log.tsv` rule lived in **boot step 5.5**, the `inbox/WALTER/` lane, which went **NO-OP on 2026-07-09** when WALTER granted RED the §3.5 pull-complete exemption. **Boot step 1.5 — the whole-BOARD scan that BECAME RED's sole WALTER channel on that same date — carried no ledger obligation at all.** For 34 days the rule governed a channel receiving nothing while the channel receiving everything was ungoverned. Result: `board_log.tsv` dormant **8/07 → 8/12** while RED consumed **two action-addressed signals** unlogged. ⚠️ **The S29 remedy fixed *running* step 1.5 and not *recording* it — which is why the gap survived its own fix.**
+
+**What changed.**
+- **`CLAUDE.md` boot 1.5** now carries the obligation as its canonical home: the row schema, the disposition vocabulary (`acted`/`noted`/`deferred`/`info-only`/`skipped`), `source=BOARD`, and the reason it moved.
+- **`CLAUDE.md` boot 5.5** demoted to a forward-pointer rather than deleted — *a reader landing there from an old reference needs to be sent forward, not left with silence.*
+- **`CLAUDE.md` boot 9** notes that `boot.py` now grades the obligation.
+- **`scripts/boot.py` — NEW section ⑤ `BOARD DISPOSITION GAP`.** Compares the newest BOARD signal **addressed to RED** (`action:`/`info:` header scan, reading only files newer than the last logged disposition) against the newest `board_log` row.
+
+**⚑ Why a CHECK and not just a relocated rule.** A moved rule is still a remembered ritual, and the original failed precisely because **nothing checked it** (`[[finding_mechanize_the_cap_not_the_ritual]]`). **And why NOT a staleness alert, for two independent reasons:** `board_log.tsv` is **excluded fleet-wide** from `ledger_staleness`'s outside-glob warning **by design** (~15 agents carry it at top level; counting it would false-fire across the fleet), **and** age cannot distinguish *"no signals arrived"* from *"signals arrived and went unlogged"* — it would fire every quiet week and stay **silent in the exact failure mode**.
+
+**Verified both directions** (the T2 standard — functionally, not by inspection): clean state prints **🟢 nothing addressed to RED is undispositioned**; reproducing the 8/07 state prints **🔴 27 RED-addressed signal(s) … 3 are action:**. `board_log.tsv` restored byte-identical after the test.
+
+**Boot-impact:** one new section at the end of `boot.py` (~+1s, reads only BOARD files newer than the last disposition). No existing section changed.
+
+---
+
 ## 2026-08-12 (S30) — VX.tsv review-or-carry pass + PAT-044 two-clock header closes the staleness blind spot (T7 / audit R9)
 
 **Trigger:** Audit R9 (VX = "the one genuinely stale ledger… silent-rot middle, no banner") + RED's own standing open thread that `ledger_staleness.py RED` ran CLEAN while VX was stale.

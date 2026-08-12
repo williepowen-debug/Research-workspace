@@ -236,6 +236,67 @@ def section_due_scan():
         print(f"   • {r['CHG_ID']} ({age}d, {r['Target']}): {r['Key_Finding'][:70]}")
 
 
+def section_board_gap(verbose):
+    """⑤ BOARD-vs-board_log gap — the boot-1.5 disposition obligation, made checkable.
+
+    WHY THIS AND NOT A STALENESS ALERT (audit R6, fixed S30 2026-08-12): board_log.tsv is
+    EXCLUDED fleet-wide from ledger_staleness's outside-glob warning by design (~15 agents
+    carry it at top level), and staleness would be the wrong signal anyway — it cannot tell
+    "no signals arrived" from "signals arrived and went unlogged", and it would false-fire
+    in any quiet week. This compares the two things that actually matter: the newest BOARD
+    signal ADDRESSED TO RED against the newest board_log disposition. It is silent when
+    nothing is owed and loud in exactly the failure mode (2 action-addressed signals
+    consumed 8/12, zero logged).
+    """
+    print("\n⑤ BOARD DISPOSITION GAP (boot 1.5 obligation — log what you consume)")
+    log = RED / "board_log.tsv"
+    last = ""
+    try:
+        rows = [l.split("\t") for l in log.read_text(encoding="utf-8").rstrip("\n").split("\n")[1:]]
+        last = max((r[0][:10] for r in rows if r and r[0]), default="")
+    except OSError:
+        print("   ⚠️  board_log.tsv unreadable — cannot grade the disposition obligation")
+        return
+    board = REPO / "BOARD"
+    sigs = sorted(board.glob("SIG-W-*.md")) if board.is_dir() else []
+    if not sigs:
+        print("   ⚠️  BOARD/ not found or empty — cannot grade")
+        return
+    newer, addressed = [], []
+    for p in sigs:
+        m = re.match(r"SIG-W-(\d{4})(\d{2})(\d{2})-", p.name)
+        if not m:
+            continue
+        d = f"{m.group(1)}-{m.group(2)}-{m.group(3)}"
+        if d <= last:
+            continue
+        newer.append((d, p))
+    for d, p in newer:                       # only read files newer than the last disposition
+        try:
+            head = p.read_text(encoding="utf-8", errors="replace")[:1200]
+        except OSError:
+            continue
+        for line in head.splitlines():
+            low = line.lower()
+            if low.startswith(("action:", "info:")) and "RED" in line:
+                addressed.append((d, low.split(":")[0], p.name))
+                break
+    print(f"   last board_log disposition : {last or '(none)'}")
+    print(f"   BOARD signals newer than it: {len(newer)}   of which RED-addressed: {len(addressed)}")
+    if not addressed:
+        print("   🟢 nothing addressed to RED is undispositioned")
+        return
+    act = [a for a in addressed if a[1] == "action"]
+    icon = "🔴" if act else "🟡"
+    print(f"   {icon} {len(addressed)} RED-addressed signal(s) newer than the last disposition"
+          f"{' — ' + str(len(act)) + ' are action:' if act else ' (info only)'}")
+    for d, kind, name in (addressed if verbose else addressed[:6]):
+        print(f"      {d}  {kind:<6} {name[:78]}")
+    if not verbose and len(addressed) > 6:
+        print(f"      … +{len(addressed) - 6} more (--verbose)")
+    print("   → consume, then append a row to board_log.tsv (timestamp/signal_id/disposition/source/notes)")
+
+
 def main():
     verbose = "--verbose" in sys.argv
     print("=" * 72)
@@ -246,6 +307,7 @@ def main():
     section_triggers(prices, fred, verbose)
     section_catalysts(verbose)
     section_due_scan()
+    section_board_gap(verbose)
     print("\nDone. (read-only — no state written; resolve DUE rows at W2)")
 
 
