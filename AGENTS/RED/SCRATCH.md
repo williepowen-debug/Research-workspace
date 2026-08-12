@@ -22,7 +22,7 @@
      by heading OFFSET (which occurrence), never by presence.
 -->
 
-**Session 29 — Wed 2026-08-12 ~10:36 AM–12:15 PM ET, CLOSED OUT (Will-directed boot on a live catalyst day; July CPI printed 08:30, graded ~3h later).** **HOLD 70→69 / net-bear 66→60.** One mechanical fire with a disclosed magnitude defect, one labelled discretionary −4, both the same direction. **Full Stagflation Spiral is no longer sole-modal.**
+**Session 29 / 29b / 29c / 29d / 29e / 29f — Wed 2026-08-12 ~10:36 AM–2:30 PM ET, CLOSED OUT (Will-directed boot on a live catalyst day → BOARD scan → crude-basis defect → DAEDALUS audit + ORACLE's answer → PROME amendments → post-audit plan T14/T2/T9).** **A six-ending day — which is itself the evidence base for the new ADDENDUM CLOSEOUT spec written in it.** **HOLD 70→69 / net-bear 66→60.** One mechanical fire with a disclosed magnitude defect, one labelled discretionary −4, both the same direction. **Full Stagflation Spiral is no longer sole-modal.**
 
 ## CHANGES SINCE (S28c closeout 8/7 ~9:15 PM → this boot)
 
@@ -74,18 +74,20 @@
 
 ## NEXT SESSION (dated, priority-ordered)
 
-0. **🔴 RUN BOOT STEP 1.5 FIRST, before EXECUTE, even on a catalyst day.** S29 skipped it and it held an IMMEDIATE action-signal. **The live-event override keeps the session OPEN; it does not license skipping the remaining READ steps.** Check `BOARD/INDEX.md` (b1-b4) + `WALTER/registry/FALSIFICATION_FIRED_LOG.tsv`.
-1. **🔴 ORACLE's Fed-hike-2026 number** — the single most decision-relevant datum I do not have. Gates whether Policy Rescue at 2% is under-marked for the mirror of the reason Stagflation was over-marked. Ask is routed; chase it if no reply.
-2. **🔴 Audit every remaining hypothesis bucket for a registered instrument on its DEFINING mechanism.** Stagflation went ~4 months without one. Managed Decline, Acute, War, Soft Landing, Policy Rescue — **do the same check before the next sweep.** This is the session's transferable finding and it is unfinished work, not a lesson.
-3. **🟠 Audit the registry for other direction-only triggers** (action named, magnitude absent) before the next one fires. FT-06 was found only by firing.
-4. **🟠 ~8/17 CARL V2 on OTTO's 7-deal 10-D panel** — grade the follow-through **there**, not on the HHDC. Their re-point pre-dates the print and I credited it as a commitment; this is where that gets tested.
-5. **🟠 ~8/15 Q2 FFIEC MI3** — **confirm cadence FIRST** (ML-RED-064) **and classify unpublished-vs-unfetched before calling it blocked** (ML-RED-136). Do not repeat the EGBN error.
-6. **🟡 ~8/13 WAL V4 window closes** (2nd C-suite departure) · **~8/19 July FOMC minutes** (makes LABOR's grade final; watch for "payroll gains had strengthened this year" being walked back after −103K) · **~8/21 Jackson Hole** · **8/21 OZK/KRE Aug puts expire**.
-7. **🔴 Fri 8/28 QCEW** — largest scheduled labor risk, and the **pre-committed decision date for Soft Landing's GROWTH leg**. The inflation leg already moved it 2→4 today; **that did not consume this decision.**
-8. **Daily:** HY vs 280 (**8bps**, re-armed — a re-widen is BEAR evidence) · **USDJPY vs 160 (0.78, nearest)** · CCC vs 1000 (×12) · SKEW vs 140 (**RED owns this line now**) · OVX vs 45 · **5y5y vs 2.55 (24bps, NEW)** · core CPI vs FT-08 at Fri 9/11.
-9. **~10/7:** pre-write the Sept-CPI core decision tree for Wed 10/14 (CHG-028's real test). Unchanged and still owed.
+0. **🔴 RUN BOOT STEP 1.5 FIRST, before EXECUTE, even on a catalyst day.** S29 skipped it and it held an IMMEDIATE action-signal. **The live-event override keeps the session OPEN; it does not license skipping the remaining READ steps.** `BOARD/INDEX.md` (b1-b4) + `WALTER/registry/FALSIFICATION_FIRED_LOG.tsv`.
+1. **🟠 RESUME THE POST-AUDIT PLAN AT T5** (Will: "pick up on T5 after I reboot us"). Full registry re-spec — **instrument-basis + state + action-magnitude columns** (PROME Amendment 3), sweeping FT-01..FT-07 for other direction-only actions **and undefined exits** (ML-RED-151: the hole is both halves of the round trip). Closes ML-RED-144. ⚠️ **NOTIFY WALTER BEFORE IT LANDS** — co-signed surface, consumed mechanically, column count changing. T6 unblocks after.
+2. **🔴 WAL V4 window CLOSES 8/13 — resolve the docket row either way at W2.** No second departure disclosed as of 8/12 → tracking EXPIRES-UNFIRED. Do not let it lapse undispositioned (the CHG-RED-010 class sat 120d).
+3. **🟠 8/15 CHG-RED-043 re-review** · **🟡 ~8/15 Q2 FFIEC MI3** (confirm cadence FIRST, ML-RED-064; classify *unpublished* vs merely *unfetched* before calling it blocked, ML-RED-136) · **🟡 ~8/17 CARL V2 on OTTO's 10-D panel** — grade the follow-through THERE, not on the HHDC.
+4. **🟠 Watch for BRENT's crude basis ruling — it unblocks T4.** ONE relabeling pass after the ruling, not a marking pass before it. The four existing ⚠️ marks stay.
+5. **🟡 ~8/19 July FOMC minutes** (makes LABOR's grade final; watch whether "payroll gains had strengthened this year" gets walked back after −103K) · **~8/21 Jackson Hole** · **8/21 OZK/KRE Aug puts expire** · **8/24 CHG-042 re-review**.
+6. **🔴 Fri 8/28 QCEW** — largest scheduled labor risk AND the **pre-committed decision date for Soft Landing's GROWTH leg**. The inflation leg already moved it 2→4; **that did NOT consume this decision.**
+7. **Daily:** HY vs 280 (**8bps**, re-armed — a re-widen is BEAR evidence now) · **USDJPY vs 160 (0.78 — nearest live watchline)** · **5y5y vs 2.55 (24bps — now auto-evaluated)** · CCC vs 1000 (×12) · SKEW vs 140 (RED owns the line) · VIX vs the **new FT-06 exit ≥18 s=5** · OVX vs 45.
+8. **~10/7:** pre-write the Sept-CPI core decision tree for Wed 10/14 (CHG-028's real test). Unchanged, still owed.
 
 ## OPEN THREADS
+
+- **📋 THE POST-AUDIT PLAN IS THE STANDING QUEUE — 12 tasks, 3 closed (T14/T2/T9), resumes at T5 by Will's instruction.** Blocked: T4 (BRENT ruling) · T6 (needs T5) · T11 (needs T8). Available: T5, T7, T8, T10, T12, T13. Full task detail is in the session task list; the audit itself is `AGENTS/DAEDALUS/upgrades/RED_AUDIT_2026-08-12.md` with PROME's three amendments relayed in `inbox/processed/2026-08-12_from-DAEDALUS_audit-addendum-three-amendments-resequence.md`.
+- **⚠️ T7 (VX) has a hidden gap worth carrying: `ledger_staleness.py RED` runs CLEAN while 21 of 25 VX vectors are unreviewed (15 at 6/2 = 71d, one at 4/5 = 129d).** The staleness checker does not read VX's `Last_Reviewed` column, so RED's own boot-time alert is blind to the single genuinely stale ledger. Fix the check, not just the file.
 
 - **⚠️ AWAITING BRENT'S CRUDE BASIS RULING — a figure I quoted six times today is carrying the wrong instrument label.** PROME's 8/12 packet to BRENT (`62f01b36c`) names RED as one of three surfaces quoting unlabeled crude: my *"first-ever $100.19 Brent **settle**"* is **true on spot basis, false on settle basis**. "Brent" is two numbers ~$10 apart — BRENT's ICE front-futures settle canon **$82.27 [8/7]** vs FRED dated/spot **$96.95 [7/31]**, EIA spot **~$105 [7/23]**, MARCO bars **$100.69 [7/23]**. **My $100.19 matches none of them exactly and I do not know which instrument produced it.** Entered S24, propagated to ~8 live surfaces. **The S29 conclusion is basis-INVARIANT** (KB-086/FT-09 key on the breakeven, not on crude; a larger spot shock makes the claim *stronger*) — **the −6 is not at risk.** Marked disputed; **did NOT pick a replacement number** — the ruling is BRENT's and PROME routed the correction to come from them. ⚠️ **Live branch to not pre-empt:** PROME asks BRENT to kill the $100+ spot prints loudly if they are a yahoo-sparse-index artifact, which would make my figure not merely mislabeled but **wrong**. ML-RED-153.
 - **⚠️ Detection-pattern worry worth carrying:** two instrument-label defects surfaced in one session — the DFII10 level (found by chasing someone else's label flag) and this crude basis (found by reading a packet addressed to a *different agent*). **Neither was found by my own review.** Both were in load-bearing figures.
@@ -99,21 +101,21 @@
 - **EGBN Q3 (~late Oct)** is still the single print that decides CHG-027; branches registered, execute without re-deriving.
 - **June MF-starts print** — **28 days on the MISSING DATA list.** Apply ML-RED-136 (unfetched vs unavailable) or retire it. Do not let it sit a third month.
 
-## CLOSEOUT CHECKS (all run S29)
+## CLOSEOUT CHECKS (S29f — full write-back, day close)
 
-- **`claim_check --check weekday`** on CATALYSTS.tsv + CALENDAR.md + STATUS.md — **✓ 3 files clean.** DAEDALUS's range-guard fix (my form, shipped 8/11) works: the `Tue-Wed 9/15-16` specimen that was my S28 false positive now passes without the row being damaged.
-- **`ledger_staleness.py RED`** — clean, no stale-ledger alert.
-- **TSV schema check** — ML 14 / KB 13 / VX 12 / CHALLENGES 11 / registry 12 / PREDICTIONS 10 / VX_HISTORY 7 columns, all conforming after 11 row edits + 12 appends.
-- **`consumer_check`** — run for the superseded weights; see git-state line.
-- **`memory_index_check --strict --slug`** — run for this session's auto-memory.
-- **`orphan_check RED`** — run at close.
-- **Inbox: 5 packets consumed → `processed/`.**
+- **W2 loop-closure — CLEAN.** `boot.py` DUE-scan: **no ACTIVE prediction past its timeframe**; all five ACTIVE challenges carry resolution dates (CHG-042 8/24 · CHG-043 8/15 · CHG-044 ACTIVE-CONCEDED 9/15 · CHG-045 11/15 · CHG-027 ACTIVE-GRADED, EGBN Q3). W2 rule compliance holds since 7/31.
+- **`claim_check --check weekday`** — ✓ clean across CLAUDE.md / STATUS / SCRATCH / CALENDAR / CHANGELOG / CATALYSTS.
+- **`ledger_staleness.py RED`** — rc=0, no alert. ⚠️ **But see the OPEN THREADS note: it does not read VX's `Last_Reviewed`, so it is blind to the one ledger that IS stale.** Recorded rather than treated as an all-clear.
+- **`consumer_check --agent RED --old 2 --old 34`** (+ `--self`) — 21,442 / 1,041 candidates, **zero certified-stale**; single- and double-digit needles are the documented FP mode. **No packets sent.** Targeted grep run instead: every remaining hit is a *transition* string ("Rescue 2→4", "Managed 34→32"), which is a correct description of the change — **no live surface asserts a superseded weight as current.**
+- **`memory_index_check --strict --slug finding_a_file_that_examples_its_own_structure_is_ambiguous`** — 0 blocking. **`check_memory_length.sh`** — 73% of byte cap, under the 80% warn.
+- **Inbox: EMPTY** (7 packets consumed and filed to `processed/` across the day — PROME ×4, CARL, DAEDALUS ×2, ORACLE).
+- **⚑ Boot step 1.5 (BOARD scan) was SKIPPED at boot and run only when Will asked.** Fixed forward as NEXT SESSION #0. The empty inbox above is **not** evidence that channel was consumed — different surfaces.
 
 ## PENDING WILL-DECISIONS
 
-- **None new.** Carried: broker-confirm at convenience (OZK Jul-17 $42.5P ×2 expired dead-OTM).
-- **FYI, not a decision:** this is the second consecutive session in which the bull case won on RED's own registered instruments, and net-bear has gone 68 → 66 → 60 in five sessions. **The adversarial edge is intact — the moves are all documented, symmetric and reversible on registered lines — but if Will wants the bear steelmanned harder against my own downgrades, this is the moment to say so.**
+- **None blocking.** Carried: broker-confirm at convenience (OZK Jul-17 $42.5P ×2 expired dead-OTM).
+- **FYI, standing:** net-bear has gone **68 → 66 → 60** in five sessions and the bull case has now won two consecutive sessions **on RED's own registered instruments**. Every move is documented, symmetric and reversible on registered lines (FT-08/FT-09 are live re-arms). **If you want the bear steelmanned harder against my own downgrades, say so** — I will not manufacture it unprompted, because that is the contrarian failure mode, not the adversarial one.
 
 ## GIT STATE (one line)
 
-On master; boot pull was already up to date (`Already up to date.`), working tree clean at boot. Committed path-scoped to `AGENTS/RED/` + 2 self-authored packets (CARL, ORACLE) under carve-out ① + 1 auto-memory under carve-out ③; push verified with the literal `Pushed.` line and a parity re-check.
+On master, parity **0/0** verified after each push; committed path-scoped to `AGENTS/RED/` across S29–S29f + 3 self-authored packets (CARL, ORACLE, WALTER) under carve-out ① + 2 auto-memories under carve-out ③; every push confirmed with the literal `Pushed.` line **and** a fetch-verified 0/0 re-check.

@@ -1,5 +1,5 @@
 # RED STATUS
-**Last Updated:** 2026-08-12 ~1:20 PM ET (**Session 29 / 29b / 29c / 29d** — live catalyst day; July CPI graded 3h after the print, then three addenda: BOARD scan, crude-basis defect, and a DAEDALUS architecture audit + ORACLE's answer). Prior: 2026-08-07 ~4:00 PM (S28/28b/28c — FT-01 re-fire, SKEW kill, CHG-027 unblocked, E3 re-spec). **HOLD 70→69 (−1, discretionary) / net-bear 66→60 (Stagflation 40→34; FT-06 FIRED mechanical −2, core+breakeven evidence −4). S29d: Policy Rescue 2→4 / Managed 34→32 on ORACLE's answer — net-bear UNCHANGED at 60, a stale-carry correction inside the non-bear side.** **Role:** Adversarial Analysis / Thesis Stress-Tester.
+**Last Updated:** 2026-08-12 ~2:30 PM ET (**Session 29 / 29b / 29c / 29d / 29e / 29f — CLOSED OUT** — live catalyst day; July CPI graded 3h after the print, then three addenda: BOARD scan, crude-basis defect, and a DAEDALUS architecture audit + ORACLE's answer). Prior: 2026-08-07 ~4:00 PM (S28/28b/28c — FT-01 re-fire, SKEW kill, CHG-027 unblocked, E3 re-spec). **HOLD 70→69 (−1, discretionary) / net-bear 66→60 (Stagflation 40→34; FT-06 FIRED mechanical −2, core+breakeven evidence −4). S29d: Policy Rescue 2→4 / Managed 34→32 on ORACLE's answer — net-bear UNCHANGED at 60, a stale-carry correction inside the non-bear side.** **Role:** Adversarial Analysis / Thesis Stress-Tester.
 
 ---
 
@@ -135,10 +135,11 @@
 
 ---
 
-## TOP ADVERSARIAL PRIORITIES (rewritten 8/12)
+## TOP ADVERSARIAL PRIORITIES (rewritten 8/12, closeout vintage)
 
+0. **📋 THE POST-AUDIT PLAN IS THE STANDING WORK QUEUE — 12 tasks, 3 closed, resumes at T5.** DAEDALUS's 18-finding architecture audit (**L4 HOLDS**) + PROME's three amendments. **Closed 8/12: T14** (audit R2 — the unrouted weight change finally reached PROME), **T2** (comment-shadowing bug killed at source), **T9** (ADDENDUM CLOSEOUT spec — the root cause, which caught a live instance of itself within the hour). **Next: T5** — full registry re-spec (instrument-basis + state + **action-magnitude** columns, PROME Amendment 3); closes my own ML-RED-144 and unblocks T6. ⚠️ **T5 must notify WALTER BEFORE it lands** — the registry is a co-signed surface consumed mechanically and the column count is changing. **Blocked:** T4 (BRENT's crude basis ruling) · T6 (needs T5) · T11 (needs T8). **Available:** T5, T7, T8, T10, T12, T13.
 1. **🔴 Register an instrument for every hypothesis's DEFINING mechanism.** Stagflation was modal for ~4 months with no expectations instrument. The two new falsifiers above close it for Stagflation; **audit the other five buckets for the same hole before the next sweep.** This is the session's transferable finding.
-2. **🟠 Policy Rescue's 2% rests on an unverified premise.** Pull ORACLE's current Fed-hike-2026 number against a 1.6% 3-mo core. If it has moved materially, this bucket is under-marked. **Do not move it on assumption.**
+2. **✅ RESOLVED SAME DAY — Policy Rescue was under-marked and is now 4%.** ORACLE answered: Fed-hike-2026 **71.5%→54.5%**, Kalshi-corroborated. ⚠️ **The premise had lapsed 7/30, thirteen days before I asked, and 71% of the move predates today's CPI** — a stale-carry correction, not the CPI-driven move I framed the ask around. **Standing lesson, not a closed item: I was not a registered consumer of a figure I carried as a load-bearing scenario premise.** ORACLE owned the routing half unprompted (*"the measurement was never missing, the routing was"*). **Audit every other externally-sourced number this book leans on for the same defect.**
 3. **🟠 Answer owed to CARL on HHDC (§CHG-045) — sent this session, pre-data.** Also owed: the containment rebuttal they invited (routed) and the mortgage-transition caveat test (routed; **their "transitions are unaffected" claim is NOT verified** — a servicer-transfer gap removes a whole book, which is non-random by construction).
 4. **🟠 WL-07 (USDJPY >160) is 0.78 away — the nearest live watchline on the board.** SAM's object; watch, don't grade.
 5. **🟡 FT-01 re-arm at ≥280 is 8bps away** (272). A re-widen is BEAR evidence now — the mirror of two weeks ago.
