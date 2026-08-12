@@ -38,7 +38,10 @@ WB = ROOT / "workbook"
 # file -> header line index (FLOW.tsv line 0 is its FROZEN banner, not the header)
 FILES = {
     "KB.tsv": (WB / "KB.tsv", 0),
-    "VX.tsv": (WB / "VX.tsv", 0),
+    # VX.tsv line 0 is its two-clock LIVE banner (added S30/T7) — same shape as FLOW.tsv's
+    # freeze banner. The banner is what makes ledger_staleness.py read a CONTENT vintage
+    # instead of git time, which is the whole point; the cost is this skip.
+    "VX.tsv": (WB / "VX.tsv", 1),
     "ML.tsv": (WB / "ML.tsv", 0),
     "CHALLENGES.tsv": (WB / "CHALLENGES.tsv", 0),
     "PREDICTIONS.tsv": (WB / "PREDICTIONS.tsv", 0),

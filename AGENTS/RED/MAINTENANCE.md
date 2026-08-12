@@ -11,6 +11,25 @@ Reverse-chronological log of **structural** changes to RED's docs, folders, sche
 
 ---
 
+## 2026-08-12 (S30) — VX.tsv review-or-carry pass + PAT-044 two-clock header closes the staleness blind spot (T7 / audit R9)
+
+**Trigger:** Audit R9 (VX = "the one genuinely stale ledger… silent-rot middle, no banner") + RED's own standing open thread that `ledger_staleness.py RED` ran CLEAN while VX was stale.
+
+**What changed.**
+- **`workbook/VX.tsv` — 13 of 25 rows touched: 6 MEASURED (instrument pulled, `Flip_If` graded leg by leg), 7 CARRIED.** Carried rows' `Last_Reviewed` **deliberately NOT bumped**; each carries an explicit `CARRIED` marker naming its owner and the instrument that would move it, plus a 2026-09-12 re-review.
+- **VX-RED-013 RETIRED** (`WEAK` → `RESOLVED-SUPERSEDED`) at **129 days**, the oldest row in the ledger: its premise *"Sanctions expire Apr 11"* resolved on 2026-04-11 and the Russia ban now runs to 2027-01-31, so its central contingency expired four months before anyone looked. Retired rather than re-dated — re-dating preserves a live-looking row whose contingency no longer exists.
+- **`workbook/VX_HISTORY.tsv` +2 rows** (VX-013 retirement; VX-017 evaluated-no-change, logged because the flip condition was *graded and found ungradeable*).
+- **`workbook/CHALLENGES.tsv` — both dangling cross-links cleared** (CHG-RED-024 → `VX-RED-022` + `KB-RED-041`; CHG-RED-027 → `VX-RED-022`). These are the **only** gaps in otherwise contiguous sequences (VX 001-026, KB 001-086) — the signature of an ID **cited in a link whose row was never authored**, not a deleted row. Refs removed from the ref-only link columns; the fact recorded in `Resolution` so the claim is not silently erased.
+- **`workbook/VX.tsv` gains a PAT-044 two-clock banner at line 0**; **`scripts/schema_check.py` FILES map updated to `skip=1`** for it (same shape as FLOW.tsv).
+
+**⚑ The staleness blind spot, and the repair site was not where RED had it filed.** The standing thread said *"fix the check, not just the file."* **Right about the diagnosis, wrong about the repair site:** `ledger_staleness.py` has *preferred* an in-content two-clock date since 2026-07-22 and falls back to git-commit time only when none is present — and VX.tsv had none while being committed regularly, so it graded permanently fresh. **The fix needed no shared-code edit and no PROME dependency: write the header.** Set to **2026-06-02, the OLDEST LIVE row's `Last_Reviewed`, NOT the pass date**, so the alert stays lit while 7 live vectors remain carried. **Before: `rc=0`, no VX line. After: `⚠️ STALE +72d … → 1 stale`.**
+
+**Boot-impact:** boot step 9a now surfaces VX as stale (intended). `schema_check.py` still reports **10 of 10 conform**. No boot step parses VX.tsv.
+
+**⚠️ Deferred on purpose, and grouped so it is not lost:** every `Flip_If` threshold in VX needs the `instrument_basis` treatment the falsification registry got in T5 — **VX-017 proved an unlabeled threshold is ungradeable** (three instruments, three answers). That is a threshold change and belongs in its own dated pass, alongside FT-07's `sustain=1` and `VX.Strength`'s strength/lifecycle conflation.
+
+---
+
 ## 2026-08-12 (S30) — SCHEMA.tsv refreshed against measured reality + `scripts/schema_check.py` shipped (T6 / audit R8 + DAEDALUS sweep item 3)
 
 **Trigger:** Audit R8 ("a co-signed contract that silently drifted") + DAEDALUS's completeness-sweep rider on `CHALLENGES.Resolved_Date`. **T5 widened the gap** — the registry went to 15 columns against a schema documenting 8 — so T6 could not slip.
