@@ -43,6 +43,26 @@ The fleet's **adversarial analyst** — the honesty mechanism. Steelman the stro
 
 **Line-ending reality (replaces the old profile's CRLF table — that table is WRONG):** there is NO stable convention. Two silent whole-file flips in 5 days (LF→CRLF 8/7, CRLF→LF 8/12; VX/CATALYSTS/CHALLENGES). Current: **everything LF except WATCHLINES.tsv (CRLF).** A section-task must re-measure, never trust a stated convention. The 6/23 binary-mode edit guard still applies to whatever is CRLF at read time.
 
+### 2b. BOOT ↔ WRITE-BACK step map (the symmetric spine — read this instead of re-opening `CLAUDE.md:36-82`)
+
+**Every named path verified to resolve, 8/12.** `boot.py`'s docstring checked against its code, not assumed.
+
+| BOOT | Target | ↔ | W-step | Touches |
+|---|---|---|---|---|
+| 0 | `git pull` (root protocol) | | **W1** | `STATUS.md` — weights (every weight dated), challenges, counter-signals, FT statuses; ≤200 ln local cap, overflow → `reports/` |
+| 1 | `MEMORY.md` | ↔ W7 | **W2** | `PREDICTIONS.tsv` + `CHALLENGES.tsv` — resolve every DUE row; **ACTIVE rows MUST carry a resolution date** (ML-RED-125 rule) |
+| **1.5** | `/BOARD/INDEX.md` b1-b4 + cross-ref `WALTER/registry/FALSIFICATION_FIRED_LOG.tsv` vs own registry — **SOLE WALTER channel; carries NO ledger obligation (§4-D5)** | | **W3** | `thesis/CHANGELOG.md` — old view → new view |
+| 2 | `STATUS.md` | ↔ W1 | **W4** | `docket/CATALYSTS.tsv` (canonical) + `CALENDAR.md` (narrative twin) — **doc-mirror check, canonical wins** |
+| 3 | `CALENDAR.md` + CATALYSTS (`pending`, ~14d) + DUE-scan PREDICTIONS/CHALLENGES | ↔ W2/W4 | **W5** | `SCRATCH.md` full rewrite from in-file template |
+| 4 | `thesis/CHANGELOG.md` (last 2-3) | ↔ W3 | **W6** | `workbook/` — ML (append-only) · KB · VX + VX_HISTORY · CHALLENGES · ~~FLOW~~ (**dead leg by design, frozen**) |
+| 5 | `SCRATCH.md` | ↔ W5 | **W7** | `MEMORY.md` + auto-memory promotion scan; verbose → `MEMORY_ARCHIVE.md` |
+| **5.5** | `inbox/WALTER/` — **NO-OP since 7/9; holds the ONLY board_log mandate (the orphan)** | | **W8** | `reports/` · `challenges/` · `OUTBOX.md` · **`NEXUS_BRIEF.md` whenever state moved** ⚠️ *sits late — the addendum casualty (§4-D1)* |
+| 6 | mode select (Targeted / Sweep / Ad Hoc) | | **W9** | `MAINTENANCE.md` (structural only) |
+| 7 · 8 | target agents' STATUS (first 50 ln) · `PROME/STATUS.md` | | **W10** | git, pathspec `AGENTS/RED/` + `safe-push.sh` |
+| 9 · 9a | `scripts/boot.py` (cwd-proof) · `scripts/ledger_staleness.py RED --quiet` (cwd-proof) — **separate steps; boot.py does NOT call 9a, correctly** | | | |
+
+**Addenda truncate from the bottom:** W1/W2/W5/W6 survive a re-closeout; **W3/W7/W8/W9 do not.** That ordering is why NEXUS_BRIEF and OUTBOX are the chronic casualties and MEMORY loses its one-liners (§4-D1).
+
 ## 3. Per-dimension (utility floor) — all conformant or better
 
 CONTRACT :22-28 ✓ · role rubric `thesis/FRAMEWORK.md` applied visibly every session ✓ · structured record = best-in-fleet (7 TSVs, RED-unique adversarial schema — VX bull/bear+Flip_If, FLOW break-pathways, CHALLENGES dispute ledger; **NOT DARWIN debt, do not generic-ize**) · calibration loop = PREDICTIONS 8W/12C + CHALLENGE_IMPACT_LEDGER (2/24=8.3% harmful-revision rate, arithmetic verified; ⚠️ population stops at CHG-043, stamp 7/31) · authority = no cross-fleet write power, conformant · boot cwd-proof ✓ (9/9a verified live).
