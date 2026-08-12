@@ -1,3 +1,5 @@
+> ⚠️ **STALE-VINTAGE — frozen at 2026-03-10 (bannered 2026-08-12 stale-sweep).** Q1-2026 framework: 3-layer CRE exposure (visible / hidden-classification / off-balance-sheet). **Framework holds** and is still the canonical mental model (extend-and-pretend / mark-to-model / classification via Memo Item 3) — but any per-bank Memo-3 ratios below are **CONTRADICTED at the FFIEC primary 2026-08-07** (OZK 37.6% dead at any of 18 quarters; WAL 24.24% reproduces but plateaued <24%); do NOT cite the ratios. Live state = STATUS.md §Hidden CRE + LESSONS.md.
+
 # Three-Layer CRE Exposure Architecture
 **Created:** 2026-03-10 | **Source:** W&D 10-K + Unicus Research + Whalen FDIC + Memo Item 3 research
 

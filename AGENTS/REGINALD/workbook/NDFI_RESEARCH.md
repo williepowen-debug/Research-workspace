@@ -1,3 +1,5 @@
+> ⚠️ **STALE-VINTAGE — frozen at 2026-03-10 (bannered 2026-08-12 stale-sweep).** Q1-2026 research snapshot: Whalen $4.2T NDFI framing, Manhattan CRE below-COVID-lows read, and the Feb-Mar dealer figures below. Do NOT cite the numbers as current — the industry-wide $4.2T NDFI headline held (STATUS Convergence table), but the CFG/WAL/OZK/Manhattan-CRE specifics predate the entire Q1-Q2 earnings arc and the 8/7 MI3 rebase. Framework/mechanism thinking held; per-name figures did not. Live state = STATUS.md.
+
 # Whalen $4.2T NDFI + Manhattan CRE Research
 **Created:** 2026-03-10 | **Source:** Whalen/Daily Reckoning (FDIC Q4 2025), Evercore ISI (Mar 6)
 

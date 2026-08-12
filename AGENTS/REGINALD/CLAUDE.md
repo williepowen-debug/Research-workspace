@@ -292,7 +292,7 @@ Metropolitan Capital failed with 61% true CRE (labeled 10.7%). Three masking lev
 | `workbook/FLOW.tsv` | Transmission mechanics — 10-column schema (ID/Name/Speed/Layer/Status/Trigger/Current_Position/Pathway/Key_Insight/Cross_Links/Last_Updated). 22 rows. |
 | `workbook/THESIS_VALIDATION.md` | Thesis confirmation/invalidation criteria + dependency maps |
 | `workbook/OTTO_INTEL.md` | Cross-agent intel from OTTO (307 lines) |
-| `workbook/VX_HISTORY.tsv` | Archived slow-moving vectors — **header-only, never populated** (noted 7/17 audit; populate or retire at the post-7/21 workbook pass) |
+| ~~`workbook/VX_HISTORY.tsv`~~ | **RETIRED 2026-08-12 stale-sweep** → `archive/workbook/VX_HISTORY.tsv`. Header-only, never populated in 5+ months; concept was "archived slow-moving vectors" that never had a live consumer. Do not resurrect without a demand path. |
 | `SUB_AGENTS.md` | Sub-agent coordination (CREED, TEX, RENO, BELT). Note: BROCK, CORAL, and OZK are top-level peer agents, not sub-agents (CORAL promoted 2026-06-19). |
 | `domain/FL_MIGRATION_REFERENCE.md` | FL migration -93% data + Hormuz cascade table (static reference) |
 | `earnings_briefs/` | Earnings analysis files (VLY Q1 etc.) |

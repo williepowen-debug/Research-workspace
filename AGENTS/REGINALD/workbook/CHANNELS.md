@@ -1,3 +1,5 @@
+> ⚠️ **STALE-VINTAGE — frozen at 2026-03-17 (bannered 2026-08-12 stale-sweep). DO NOT cite the Channel-A ratios as current.** MI3/hidden-CRE cells below (OZK 37.6% / WAL 24.2% / EGBN 547%) are **CONTRADICTED at the FFIEC primary 2026-08-07** — OZK 37.6% reproduces at NONE of 18 quarters (live 9.35%); WAL 24.24% reproduces but live 21.20%, never ≥25% in 12 quarters; EGBN unverified. See STATUS §Hidden CRE. NDFI/PE percentages (Channel B) are unrefreshed. Framework mapping (A=CRE-driven vs B=PC-driven at OZK/WAL) held; ratio cells did not. Live channel state = STATUS.md.
+
 # Dual Bank Failure Channel Map
 **Created:** 2026-03-17 | **Source:** SIG-2026-03-17-005 (WGA NDFI/PE chart)
 
