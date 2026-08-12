@@ -125,6 +125,21 @@
 
 ---
 
+## §4b — ROUTING RECONCILIATION (added after a 5th completeness pass; PAT-102)
+
+**Every reader ended its report with a ranked "what I'd route" list. I never reconciled the owner-facing packet against those rankings — six findings landed in `profiles/RED.md` and never reached RED's fix-list, including red-comms's own ranked #4.** Nothing was lost (all six were retrievable from the profile) which is precisely why it survived four earlier passes: *a finding filed in the durable layer reads as handled.* Routed late 8/12 via `AGENTS/RED/inbox/2026-08-12_from-DAEDALUS_audit-completeness-sweep-6-items-my-packet-dropped.md`.
+
+| # | Finding | Reader | Was in | Was NOT in | Verified on disk 8/12 |
+|---|---|---|---|---|---|
+| 1 | **`outbox/` has no `delivered/`** — 25 of 36 fleet dirs have one; the lane is receipt-less by construction (PROME reads in place by path) so this is the only way to close the ambiguity class | red-comms, **its own ranked #4** | profile §2 | RED packet | ✅ 8 loose files, no `delivered/`; 25/36 count reproduced exactly |
+| 2 | **`reports/` dead cohort, unbannered** — two-state violation, same class as board_log/VX which I DID route | red-comms | profile §2 | RED packet | ✅ last touch 2026-06-11 (62d) |
+| 3 | **`Resolved_Date` carries prose in a date field** — belongs with the R8 SCHEMA item; I carried only the Status-domain drift | red-workbook | profile §2 (as a "convention") | RED packet R8 | ✅ 5 rows with parenthetical prose |
+| 4 | **20 of ~30 archive candidates never reference-checked** — the archive work is ~3× the audit's implied scope | red-comms | profile §4-D8 | RED packet | ✅ (blocked anyway — no `archive/` dir exists) |
+| 5 | `research/__pycache__/` untracked | red-comms | — | RED packet (sent Zone.Identifier only) | ✅ |
+| 6 | `counter-evidence/` vestigial but its file IS MEMORY-referenced → keep | red-comms | profile §2 | RED packet | ✅ no-action classification |
+
+**Method fix (PAT-102):** when a fan-out feeds more than one output surface, reconcile the owner-facing surface against **each reader's own ranked route list, item by item**. The readers had already sorted their findings by what needed routing — that ranking was the checklist, and not using it was the failure.
+
 ## §5 — Reader-ops record (method finding)
 
 **3-for-3 idled holding without delivering, despite an explicit deliver-before-idle instruction in every prompt** — the same 3-for-3 as the 8/7 first wave, after which the instruction was added precisely to fix this. **The instruction does not work; the chase does** (all three delivered complete, first chase, no quality loss). Treat the chase as a standing step of every fan-out, and do not count a fan-out as complete on the spawn returning. *(8/11 sweep: 4-of-6 same behavior. Cumulative: 10-of-12 readers across three fan-outs.)*
