@@ -53,7 +53,7 @@
 
 **Retirement ratchet: `supersedes: none`** — ADDS one design constraint; retires nothing. It is a **draft-time admission test for new legs**, not a runtime check, so it costs no boot attention.
 
-*Proposal of record: `outbox/2026-08-07_to-PROME_optionA-defect2-ALREADY-CLOSED-plus-validation.md` §③ — proposed and ratified the same evening.*
+*Proposal of record: `outbox/delivered/2026-08-07_to-PROME_optionA-defect2-ALREADY-CLOSED-plus-validation.md` §③ — proposed and ratified the same evening.*
 
 ---
 
@@ -63,7 +63,7 @@
 
 **Terms of record, verbatim class:** `RETIRED 2026-08-07 by Will ruling, ahead of 8/13 expiry; R1 named-not-registered; frame-breaker + playbooks survive; 8/4 decline untouched.`
 
-**BRENT recommended RETIRE (lean ~70%) in `outbox/2026-08-07_to-PROME_cot-adjudication-arm-disposition.md` §②; Will ruled the same day.** The arm expired **UN-DEPLOYED** with **`$0` ever at risk.**
+**BRENT recommended RETIRE (lean ~70%) in `outbox/delivered/2026-08-07_to-PROME_cot-adjudication-arm-disposition.md` §②; Will ruled the same day.** The arm expired **UN-DEPLOYED** with **`$0` ever at risk.**
 
 **★ THE RULING'S LOAD-BEARING FINDING — AND IT IS THE ONE WORTH CARRYING FORWARD: THE GATE WAS NEVER THE CONSTRAINT.** Legs (a)+(a2) cleared on **5 of the last 5 sessions** (OVX closes 57.20 · 53.45 · 51.48 · 57.34 · **55.80** against the ≤**58.6245** line) **and the arm still did not fire.** The binding constraint was the operator's standing decline, not the spec. **A gate that clears daily and is declined daily does not produce a trade — it produces a daily [Approve] prompt.** ⇒ **when an arm fails to fire, first ask WHICH constraint bound; re-speccing a gate that was already open is work aimed at the wrong object.**
 
