@@ -625,3 +625,19 @@
 **⚠️ Not adjudicated here, FALCON's:** whether the Rezaei appointment changes the register of the Diplomacy row and the mediated-channel premise, and whether Khezrian's "control taken" language changes the FRAMEWORK ≠ INSTRUMENT ≠ REOPENING three-part discipline `-005/-008` established.
 
 **Kept for the record:** the 6-7 item SNSC demand list, the Ravid analyst read *"clearly the US cannot accept"*, and the US non-response as of the wires I fetched — all in the `-008` body — remain load-bearing. The author swap does not retire the demand list; it changes WHO OWNS IT institutionally, which is a different (and possibly more informative) datum.
+
+---
+
+**🟡 ADDENDUM #17 — 2026-08-12 ~16:0xZ (Will-Telegram 2-image batch item 2/5, First Squawk relaying Iranian state media). LEADERSHIP-VISIBILITY THREAD ONLY — no state change on either theater. NOT dispatched: this is a modest update to a question this anchor already tracks, and the anchor is its home.**
+
+**The datum, as relayed:** Iranian state media says **the president recently met Supreme Leader Mojtaba Khamenei** to discuss economic and military affairs; separately a **Basij deputy tells Mizan (judiciary agency) that footage of Khamenei "out in public and in meetings with commanders" WILL BE RELEASED IN FUTURE.**
+
+**🔑 WHY IT LANDS HERE AND NOWHERE ELSE — this anchor already tracks Mojtaba's visibility as an OPEN question:** the existing entries record that he *"has NOT appeared in public since 2/28,"* *"skipped his own father's AND wife's funeral,"* was *"present/visible around his father's funeral 7/3-4, then went dark again,"* and was *"BARRED from the 7/9 Mashhad burial."* **This is the regime addressing that question directly for the first time in the record.**
+
+**🔑 THE PROMISE IS THE TELL, NOT THE FOOTAGE.** A state apparatus announcing that footage of the leader *in public and with commanders* will be released **at some future date** is evidence that no such footage currently exists to release — and a **meeting readout is the standard instrument for asserting a leader is functioning without showing him.** Both legs are consistent with the visibility gap this anchor has carried since February; **neither closes it.** ⇒ **Thread updated, NOT resolved. Do not record Mojtaba as having appeared in public — nothing here says he has.**
+
+**⚠️ STANDING GUARD, ADDED ON MY OWN NEAR-MISS (n=1, recorded so it does not repeat): "SUPREME LEADER MOJTABA KHAMENEI" IS NOT A SUCCESSION HEADLINE — IT IS THE FIVE-MONTH-OLD STATUS QUO.** Ali Khamenei was **assassinated 2026-02-28**; the Assembly of Experts elected **Mojtaba on ~2026-03-09**. I read this wire as a possible succession bombshell before checking, and **this anchor's own history file had the answer.** ⇒ **Any "this is an enormous NEW fact" reaction to an Iran wire is an ANCHOR QUERY first, exactly as any "nobody owns X" claim is a REGISTRY query.** The inverse of the date-trap: not an old event misread as new, but **an established state misread as a state CHANGE** — and it fails in the expensive direction, because it would have routed a non-event as IMMEDIATE.
+
+**Source grade:** Iranian state media (Mizan) + a Basij deputy, relayed by a single aggregator. **Single-channel, self-serving on exactly the question at issue, and a claim about a FUTURE act rather than an event.** Weight accordingly; `narrative_channel` is state-domestic, a class this anchor's 7-value enum does not cover.
+
+**Next re-verify unchanged: ~2026-08-14 on the banner clock, or immediately on any Iran-cluster dispatch.**
