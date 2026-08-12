@@ -16,4 +16,12 @@ The missing NO-VERDICT band is the half people skip: without it, every ambiguous
 
 **How to apply:** when writing any pre-registration, state the boundary as figures before the window opens — e.g. `≤70% = CONFIRMING · ≥90% = REFUTING · 70–90% = NO VERDICT`. Then ask the well-formedness questions, all of which are answered by *doing* rather than re-reading: **does the instrument actually trade in the grading window · does the threshold have a numeric value · did the "I verified it" claim actually run?** All three defects here were invisible to careful re-reading and instantly visible to a pull or to writing the number down — so the fix is a checklist at authoring time, not reading the draft more carefully.
 
+**The other half of the same defect: the ACTION also needs a number.** A pre-registration has two sides — the **condition** that fires it and the **action** it commits you to — and this canon only ever policed the condition.
+
+**RED, 2026-08-12.** A registry of seven falsification triggers. Two of them named a magnitude (`-2`), one named only a direction: `MANAGED-DECLINE-CONFIRM`. The condition was fully specified and fired cleanly and mechanically — VIX below 16 on five consecutive closes, verified against the canonical source. Then the author had a fired trigger, no registered number, and **set the magnitude by analogy to a neighbouring trigger after seeing the data.**
+
+**A trigger that registers a direction but not a magnitude is only half pre-registered.** It removes the discretion about *whether* to move and leaves the entire discretion about *how much* — **which is where the outcome actually lives.** Nobody notices, because the condition half looks rigorous and fires on schedule; the hole is invisible until the trigger fires for the first time. Registries accumulate these silently: the direction-only entries read as complete next to their numbered siblings.
+
+**How to apply:** when auditing a registry, grep the ACTION column, not the threshold column. Any entry whose action is a *label* (`CONFIRM`, `RE-ARM`, `INVALIDATE`, `ESCALATE`) rather than a *quantity* is a half-registration — fix it before it fires, because after it fires the only honest option is to set the number post-hoc and say so out loud.
+
 Distinguish from [[finding_threshold_spec_fails_before_world]], which asks whether a spec *can fire* in the world you are in. This asks whether the spec is *even well-formed*. Related: [[finding_escalation_line_needs_delta_not_level]], [[finding_record_of_an_action_is_not_the_action]].

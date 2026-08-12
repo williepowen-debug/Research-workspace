@@ -26,4 +26,14 @@ It was resolved instead on evidence independent of anything previously written: 
 
 **Corollary on instruments:** a thermal signature is not a damage measurement. The resolution was in the reporting all along — *"VIIRS from the 27th pass put it at a **70MW fire**, and **100MW+ flaring** at multiple sites"* — fire and flaring measured separately, flaring larger, and the operator had **deliberately begun** emergency flaring. **At any plant that flares, the biggest number on the screen may be the safety system working.** Compare against the *emergency* baseline, not the *routine* one.
 
+**A third form, and the cheapest to fall into: a guard that is CORRECT but SCOPED, silently read wider than it was written.**
+
+**RED, 2026-08-12.** A CPI print was pre-registered fleet-wide as a **NON-EVENT** — correctly, and for a written reason: the registration sat under a falsifier whose subject was the *oil-to-core pass-through channel*, and the *energy* line's softness was pure base-effect arithmetic (it landed exactly as derived, and was scored as arithmetic rather than evidence). Four desks extended the registration; none contradicted it.
+
+Then the release arrived and, for the first twenty minutes of grading, **"NON-EVENT" was treated as covering the whole print.** It covered the energy line and one channel. **Core inflation generally was never inside that scope — and core was the adverse datum**, running at target on every horizon and cutting directly against the author's own modal hypothesis.
+
+**Expanding your own guard past its written scope, in the direction that protects your book, is worse than never writing the guard** — because the guard supplies the *authority* to stop looking, and it was earned honestly on the part it does cover.
+
+**⇒ RULE: when an exemption, NON-EVENT or guard fires, state its SCOPE in the same breath, and grade everything outside that scope at full weight in the same session.** The test is one question asked out loud: *what, specifically, does this guard NOT cover?* An exemption that cannot answer that has already become general.
+
 Related: [[finding_theater_check_before_gate_check]] · [[finding_analogue_asset_class_must_match]] · [[feedback_single_source_liveevent_is_a_lead]] · [[finding_relayed_level_predates_the_event]]
