@@ -16,7 +16,8 @@
 3. **RED's net-bear 60 is NOT two independent bull wins.** Soft core + anchored 5y5y = ONE disinflation fact at two tenors (PROME caveat, packeted to NEXUS for the re-anchor). RED's own FT-06 magnitude defect is disclosed, not hidden.
 4. **T7 (8/19 minutes) carries two riders:** LABOR's read shares the MEETING with the minutes (statement vs minutes = one antecedent, never two instruments — correcting PROME's own 8/10 packet) · grade participants against their **7/29 vintage (111K/−74K)** — they had not seen the 8/7 print.
 5. **The 6/30 prune was mine and it was wrong** — 33 defects across 10 agents, all packeted. If an owner replies disputing a row, believe the owner: classification was in-context but remote.
-6. **Standing, unchanged:** `gh` NOT authenticated · ESTAT_APPID missing on THIS desktop (known per-box) · Kalshi LIVE here / dark on laptop · `Co-Authored-By` trailer unruled · R1 (OVX >68.97) named-not-registered — never grade it · firetime residue = 6 OTTO/Colorado flags, owner-lane.
+6. **Two figures kill-on-sight (HOMER, 8/12 — fold into HEARTBEAT's list at the next Will-gated touch):** "Trepp multifamily **7.69% is a new high**" — it is NOT, April-2026's **7.71% stands 2bps above** · the "**~700 South Florida / 1,438 statewide non-warrantable buildings**" figure — undated in its carrier and unverified at primary (Fannie's unavailable-projects list is the primary; nobody has pulled it). Neither should propagate.
+7. **Standing, unchanged:** `gh` NOT authenticated · ESTAT_APPID missing on THIS desktop (known per-box) · Kalshi LIVE here / dark on laptop · `Co-Authored-By` trailer unruled · R1 (OVX >68.97) named-not-registered — never grade it · firetime residue = 6 OTTO/Colorado flags, owner-lane.
 
 ## What landed this session (detail → memory/2026-08-12.md)
 
