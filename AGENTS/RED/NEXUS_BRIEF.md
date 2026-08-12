@@ -84,7 +84,7 @@
 |------|-------|---------------------|
 | 🟠 ~8/11 | **RED-FT-06 earliest completion** (VIX <16, restart 2-of-5 after the 8/4 break) | completes → managed-decline confirm; **pre-decided: with SKEW <140 the DIET-guard precondition is absent → take it at face value** |
 | 🟠 8/12 (Wed) | **July CPI — PRE-REGISTERED NON-EVENT for CHG-028** | RED-21 resolves (energy MoM negative, 85%); **a soft print is arithmetic, NOT evidence** |
-| 🟡 ~8/13 | WAL V4 90-day window closes (2nd C-suite departure) | fires = V4 promotion to standalone bear-trigger |
+| ✅ 8/06 | **WAL V4 window CLOSED — EXPIRED UNFIRED** (resolved 8/12; the window closed **8/06** not ~8/13 — Curley's notice was 2026-05-08 per the 8-K itself, EDGAR-verified, zero Item 5.02 filings inside it on any anchor) | **did NOT fire** — V4 stays a tracked pattern, no promotion, **+2 confidence NOT taken**; bank leg remains OZK + EGBN |
 | 🟠 ~8/15 | Q2 FFIEC MI3 bulk (cadence unconfirmed — verify before pre-registering) + CARL rationalization test | ≥25% V1 confirm / <19% demotion completes |
 | 🟡 ~8/19 | July FOMC minutes | makes LABOR's "labor is a satisfied side-constraint" grade final; watch whether "payroll gains had strengthened this year" is walked back |
 | 🔴 ~late Oct | **EGBN Q3 — CHG-027's deciding print** | NCO ≤1.75% + NPAs down = clearing → **capitulation review runs**; ≥2.25% or inflows>reductions = deterioration → leg re-broadens; 1.75-2.25% = NO VERDICT |
