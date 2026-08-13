@@ -106,3 +106,37 @@ Under the **live** spec, UWM does not fire and the watch is correctly 🟠. Unde
 **Zero capital. Zero thresholds moved. Nothing in this file is live.**
 
 — HOMER, 2026-08-13
+
+---
+
+# ✅ RATIFICATION RECORD — Will, 2026-08-13 (two rulings, same day)
+
+**This file is no longer a draft. The spec below is LIVE, encoded in `docket/CATALYSTS.tsv` row 11.**
+
+| Question | Ruling |
+|---|---|
+| **Q1 — retroactivity** | **OPTION (b):** ratify §3 **and** set the row 🔴 as a **labelled one-time SEEDING decision** on UWM 8/6. ⛔ **Not a trigger firing — no registered trigger has ever fired on this watch.** The new spec was **not** applied retroactively as a trigger. |
+| **Q2 — Class Z** | ⚠️ **First ruled UNADDRESSED** (encoded as NOT ratified, hours earlier) → then **RATIFIED** on a second same-day ruling. **Z is LIVE.** The interim "not ratified" text is preserved verbatim in the docket row per the rider — it is the record of a real interim state, not an error to erase. |
+| **Q3 — base-rating** | **Not ruled.** Ratification therefore recorded **PROVISIONAL on the A–G numbers**, with a dated obligation to anchor them against 2019–2026 capital actions and dividend changes at PFSI / RKT / UWMC / LDI / Onity **before the spec is cited as load-bearing in any packet or trade rail.** **Z is exempt by construction** — it has no numeric threshold. |
+
+## Class Z as encoded
+
+**Trigger:** any event **not already captured by A–G** in which an **accountable attestor** states **in writing** that the entity's own **solvency, capital adequacy, or ability to continue as a going concern** is in question.
+
+- **Accountable attestor = the issuer** (filing, release, or prepared remarks/transcript), **its independent auditor**, a **prudential or securities regulator**, or an **NRSRO**. Nobody else.
+- **Must concern this entity's CURRENT condition** — not the sector, not a peer, not a hypothetical.
+- ⛔⛔ **Z CANNOT BE FIRED WITHOUT THE VERBATIM ATTESTING SENTENCE AND ITS SOURCE DOCUMENT WRITTEN INTO THE ROW. No quote, no fire.** **This is the operational substitute for the number Z cannot have** — it converts "someone called it serious" into a checkable artifact, and it is what keeps the softest class in the spec auditable.
+
+**Qualifying examples** (non-exhaustive — that is the point): auditor going-concern qualification or emphasis-of-matter; management's ASC 205-40 substantial-doubt disclosure; a covenant **waiver** obtained to *avoid* a breach (class B is the breach itself); a regulator-directed capital action, capital-plan rejection or supervisory agreement; an NRSRO publication citing going-concern/capital-adequacy risk **without** an accompanying rating action (an action is class A).
+
+**🚫 Z no-verdict:** ⛔ **boilerplate and standing risk factors — the single largest false-positive source**, since nearly every 10-K carries going-concern-adjacent language and risk text repeated unchanged from a prior period is by definition not a current-condition statement; sector or peer commentary; analyst, press, short-seller or social-media characterisation; **and HOMER's own inference, which is never an attestation.**
+
+**⚠️ Accepted weaknesses, recorded at ratification rather than discovered later:** Z imports a third party's judgment rather than measuring anything, and *"characterises in writing"* is a looser boundary than a threshold — **so Z may admit false positives A–G would exclude. It was ratified with those costs known and stated.** **Z is a residual, not a shortcut:** if an event fits A–G, score it there.
+
+## Standing state after ratification
+
+- **Row is 🔴 SEEDED.** The word **SEEDED** must travel with the colour. Correct phrasing anywhere it is cited: *"HOMER's servicer watch is 🔴 by a Will-ruled seeding decision on the UWM recapitalization; no registered trigger has fired."*
+- **First genuine firing = the next class A–G or Z event occurring after 2026-08-13**, logged explicitly as distinct from the seed.
+- **Open obligation:** base-rate the four A–G numbers (Q3 above).
+
+**Zero capital. No threshold outside this ratified re-spec was moved.**
