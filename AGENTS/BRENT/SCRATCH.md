@@ -17,6 +17,16 @@
 
 ---
 
+## 📋 DOMAIN-REVIEW PROPOSAL MEMO — **AWAITING WILL/PROME GREEN-LIGHT. BUILD NOTHING OFF IT.**
+
+**→ [`../../PROME/inbox/2026-08-13_from-BRENT_domain-review-proposals.md`](../../PROME/inbox/2026-08-13_from-BRENT_domain-review-proposals.md)** *(mirror: `outbox/2026-08-13_to-PROME_domain-review-proposals.md`)*
+**6 ranked proposals + 3 retirements, all UNAPPROVED.** ⛔ **Nothing in it is registered, built or researched. Do NOT execute any of it on a fresh boot without an explicit green-light** — a proposal memo read at boot is exactly the kind of artifact a next session mistakes for a work queue.
+**Ranked:** ① STEO vintage ladder *(backfillable to n=6 — all six `{mar..aug}26_base.xlsx` archives verified HTTP 200 this session; it grades the tenor conclusion I published TODAY off a single vintage move)* · ② re-verify RF-012 ADCOP + RF-002 Kharg *(3.0M of 4.774M asserted offline, 118-123d stale; ADCOP is the Hormuz BYPASS and its likeliest finding cuts AGAINST my own book)* · ③ VOID the 5 STUCK predictions *(with the anti-laundering test attached)* · ④ **PROMPT_PREMIUM: argued AGAINST a trigger** — stays observational, revisit at n≥100 single-regime or first genuine reopening · ⑤ row-27 width-bias re-spec *(not urgent — retired arm — but must land BEFORE any re-arm)* · ⑥ EU-storage question scoped to a kill-or-keep crude-transmission test.
+**Retirements:** `LAST_COMPLETION.md` freeze *(it declares its own conflict with CLAUDE.md; the spawn-contract template is the real fix — PROME's call)* · the 5 STUCK rows · `research/PRODUCT_SIDE_DECOUPLING_THESIS.md` **only** *(0 live refs — the other five demand_destruction files are CITED, `HOARDING.md` by 12; a blanket sweep would have been wrong)*.
+**Routed not built:** the transient-500 silent-gap class (n=3) → fleet infra, DAEDALUS `CHECK_STANDARD`, deliberately NOT a BRENT retry wrapper.
+
+---
+
 ## ⏳ FIRST THING NEXT SESSION — **IT IS FRIDAY 8/14 AND IT IS SEQUENCED**
 
 > ### 🔴 **THE CARD IS ALREADY BUILT. USE IT, DO NOT RE-DERIVE.**
