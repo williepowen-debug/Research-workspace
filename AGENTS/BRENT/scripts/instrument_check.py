@@ -316,6 +316,62 @@ def probe_arcgis(spec):
         return False, None, f"unreachable: {type(e).__name__}: {e}"
 
 
+def probe_gie(spec):
+    """GIE AGSI+ / ALSI+ probe — returns the REAL newest gas-day, not a reachability 200.
+
+    Grammar: gie:<api-url>          e.g. gie:https://agsi.gie.eu/api/data/eu
+
+    ⚑ WHY THIS EXISTS (2026-08-13, BRENT). The `EU-STORAGE` row sat 🔴 NO_INSTRUMENT from
+    2026-08-02, blocked on a GIE API key that was never the gate. GIE denies by USER-AGENT
+    and its denial text MISNAMES ITS OWN DISCRIMINATOR: a short/plain UA gets
+    `{"error":"access denied","message":"Invalid or missing API key"}` — so an 11-day
+    blocker was created by a server error string, not by a missing credential. An identical
+    URL with a full browser UA returns the full dataset, keyless. Reproduced by PROME
+    2026-08-12 and again by BRENT 2026-08-13 (bare UA -> the key error; browser UA -> data).
+    `[[finding_audit_resolution_path_before_reattempt]]` — blocked by the PATH, not the data.
+
+    TWO FAIL-LOUD GUARDS, both from measured failure shapes:
+      1. `total == 0` — AGSI/ALSI answer HTTP 200 with an EMPTY payload on a malformed
+         query AND on a UA denial. A 200 is therefore NEVER evidence here; `total` is.
+      2. Freshness comes from the newest `gasDayStart` IN THE PAYLOAD, never from
+         `last_verified` and never from the 200 — the `probe_arcgis` lesson applied to a
+         second source.
+
+    ⚠️ CAVEAT THAT TRAVELS WITH EVERY USE: keyless-via-browser-UA is UNDOCUMENTED behavior
+    and can tighten without notice. The official free GIE key remains the robust path
+    (Will queue row 37 — HARDENING ONLY, no longer blocking). If this probe starts
+    returning the key error again, that is the tightening, not a regression to diagnose.
+
+    supersedes: none — EXTENDS the probe grammar (retirement ratchet), like `arcgis:`.
+    """
+    # Full browser UA is LOAD-BEARING, not cosmetic — see docstring. Do not shorten it.
+    BROWSER_UA = ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
+                  "(KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36")
+    try:
+        req = urllib.request.Request(spec.strip(), headers={"User-Agent": BROWSER_UA})
+        with urllib.request.urlopen(req, timeout=30) as resp:
+            if resp.status != 200:
+                return False, None, f"HTTP {resp.status}"
+            body = json.loads(resp.read())
+        if body.get("error"):
+            return False, None, (f"GIE error: {body.get('message', '?')} "
+                                 f"(⚠️ if this says 'API key', check the User-Agent FIRST — "
+                                 f"GIE's error text misnames its own gate)")
+        # Guard 1: HTTP 200 with total:0 is the malformed-query / denial shape. Fail loud.
+        if int(body.get("total") or 0) == 0:
+            return False, None, "HTTP 200 but total=0 — empty payload, treat as a FAILURE not as data"
+        rows = body.get("data") or []
+        if not rows:
+            return False, None, "HTTP 200, total>0, but data[] is empty"
+        # Guard 2: freshness from the payload's own newest gas day.
+        last = datetime.fromisoformat(str(rows[0].get("gasDayStart"))[:10])
+        full = rows[0].get("full")
+        return True, last, (f"newest gas day {last.date()}, full={full}% "
+                            f"(queried live, total={body.get('total')}; keyless via browser UA)")
+    except Exception as e:
+        return False, None, f"unreachable: {type(e).__name__}: {e}"
+
+
 def probe_chain(spec):
     try:
         import yfinance as yf
@@ -374,6 +430,8 @@ def evaluate(row, quick=False):
             ok, last_dt, detail = _cached(probe, lambda: probe_http(probe[5:]))
         elif probe.startswith("arcgis:"):
             ok, last_dt, detail = _cached(probe, lambda: probe_arcgis(probe[7:]))
+        elif probe.startswith("gie:"):
+            ok, last_dt, detail = _cached(probe, lambda: probe_gie(probe[4:]))
         elif probe.startswith("chain:"):
             ok, last_dt, detail = _cached(probe, lambda: probe_chain(probe[6:]))
         else:
@@ -469,6 +527,64 @@ def evaluate(row, quick=False):
     return findings, probed, detail
 
 
+INCIDENTS = BRENT_DIR / "refinery_damage" / "INCIDENTS.tsv"
+INCIDENT_ACTIVE_BUDGET_D = 60   # ACTIVE >=60d unverified => re-verify-or-downgrade
+
+
+def check_incident_staleness(today=None):
+    """I-2 — ACTIVE incident rows are a PRESENT-TENSE CAPACITY CLAIM with no expiry check.
+
+    Adopted 2026-08-13, Will-ruled 2026-08-12 as BRENT spec'd it: `status=ACTIVE` and
+    `last_verified` older than 60 days => RE-VERIFY-OR-DOWNGRADE, surfaced at boot.
+
+    ⚑ WHY THIS LIVES HERE AND IS NOT A TENTH SCRIPT (retirement ratchet — the rider Will
+    honored): `instrument_check.py` already answers exactly this question for registry
+    rows — "is the thing this file asserts still fresh enough to assert?" An incident row
+    saying ACTIVE is the same claim shape as a threshold row saying live. supersedes: none
+    — EXTENDS this script to a second ledger.
+
+    THE MEASUREMENT THAT FORCED IT (audit 2026-08-12b, I-2): 23 ACTIVE rows, MEDIAN
+    last_verified age 124 days, max 146; 18 unverified >=90d, and those 18 carry
+    4,774,000 of 6,474,000 bpd = 74% of the asserted ACTIVE total. The highest-confidence
+    rows (source_tier A-1) were the stalest. If any of those facilities restarted, the file
+    says offline and NOTHING would flag it. `[[finding_dated_carry_item_has_no_expiry_check]]`
+    — a carried assertion is a string; reading it never grades it.
+
+    ⛔ THIS FLAGS, IT NEVER EDITS. Re-verification is research, not a mechanical fix, and
+    downgrading a row on a timer would fabricate a restart nobody observed.
+    ⚠️ AND IT IS NOT A CAPACITY MEASURE: the bpd totals printed here are the LEDGER'S OWN
+    asserted numbers, reported to rank the re-verify queue. Per the standing verdict
+    (Will-ruled fleet-wide 2026-08-12) NO AGGREGATE OVER INCIDENTS.tsv IS QUOTABLE — it is
+    an EVENT RECORD, not a capacity measure. Do not lift these figures onto any surface.
+    """
+    if not INCIDENTS.exists():
+        return []
+    today = today or datetime.today()
+    stale = []
+    with open(INCIDENTS, newline="", encoding="utf-8") as fh:
+        hdr = None
+        for line in fh:
+            if line.startswith("#") or not line.strip():
+                continue
+            f = line.rstrip("\n").split("\t")
+            if hdr is None:
+                hdr = f
+                continue
+            r = dict(zip(hdr, f))
+            if (r.get("status") or "").strip() != "ACTIVE":
+                continue
+            lv = (r.get("last_verified") or "").strip()
+            try:
+                age = (today - datetime.fromisoformat(lv[:10])).days
+            except Exception:
+                stale.append((r.get("id", "?"), r.get("facility", "?"), None, lv or "(blank)"))
+                continue
+            if age >= INCIDENT_ACTIVE_BUDGET_D:
+                stale.append((r.get("id", "?"), r.get("facility", "?"), age, lv))
+    stale.sort(key=lambda x: (x[2] is not None, -(x[2] or 0)))
+    return stale
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--quick", action="store_true", help="skip network probes")
@@ -522,6 +638,22 @@ def main():
                         print(f"     {AMBER} {x['test_id']}: {g['code']} — {g['msg']}")
         if not blocking and not warn:
             print(f"\n  {GREEN} all registered tests have a reachable, fresh, feasible instrument.")
+
+        # I-2 — INCIDENTS.tsv ACTIVE staleness budget (adopted 2026-08-13, Will-ruled 8/12).
+        inc = check_incident_staleness()
+        if inc:
+            print(f"\n  {AMBER} INCIDENTS.tsv — {len(inc)} ACTIVE rows past the "
+                  f"{INCIDENT_ACTIVE_BUDGET_D}d re-verify budget "
+                  f"(ACTIVE is a PRESENT-TENSE claim; re-verify or downgrade):")
+            for rid, fac, age, lv in inc[:8]:
+                aged = f"{age}d" if age is not None else f"unparseable last_verified {lv!r}"
+                print(f"     {AMBER} {rid} {fac[:38]:38s} last verified {lv} ({aged})")
+            if len(inc) > 8:
+                print(f"     … and {len(inc)-8} more (run with --json or read the ledger)")
+            print(f"     ⚠️  Flags only — never auto-edits. Downgrading on a timer would "
+                  f"fabricate a restart nobody observed.")
+            print(f"     ⛔ NO AGGREGATE OVER INCIDENTS.tsv IS QUOTABLE — event record, "
+                  f"not a capacity measure (Will-ruled fleet-wide 2026-08-12).")
 
         # Anti-false-clean disclosure. A pass means nothing without this.
         print(f"\n  {'-'*74}")
