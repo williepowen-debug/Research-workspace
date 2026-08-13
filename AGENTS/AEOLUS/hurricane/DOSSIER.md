@@ -26,6 +26,20 @@
 
 ---
 
+## 1b. ACE — the peril instrument, now live
+
+| | value |
+|---|---:|
+| **2026 season-to-date ACE** | **3.09** (Arthur 0.40 · Bertha 2.24 · Cristobal 0.44) |
+| 1991-2020 normal (full season) | 122.6 |
+| **To-date normal for Aug 13** | **~13.2** (only ~10.8% of seasonal ACE has accrued by now) |
+| **2026 vs to-date normal** | **23.4%** — 7th-lowest of the 30 years |
+| AEO-01 criterion | season-end **< 110.3** |
+
+⚠️ **Do NOT quote "2.5% of normal."** That compares a season-to-date total against a full-season normal and is mostly the calendar.
+
+---
+
 ## 2. SEASON OUTLOOKS — both August updates revised AGAINST an active season
 
 | Source | 2026 forecast | Date | Move |
@@ -75,14 +89,17 @@ If yes, **AEO-01 is verifying by mechanism rather than by silence** — a materi
 
 ## 6. PREDICTIONS
 
-- **AEO-01** — 2026 Atlantic season finishes below-normal (**ACE <90% of normal AND ≤7 hurricanes**), 65%, resolves **11/30**. **Strengthening via mechanism.** ⚠️ **Half of its resolution criterion is ACE, and I have no verified ACE source — see the declared gap in `SOURCES.md`.**
+- **AEO-01** — 2026 Atlantic season finishes below-normal (**season-end ACE < 110.3 AND ≤7 hurricanes**), **RAISED 65% → 80% on 8/13**, resolves **11/30**.
+  **Season-to-date ACE 3.09 vs a to-date normal of ~13.2 = 23.4%, 7th-lowest of 1991-2020.** Base rate: **5 of the 6 lowest Aug-13 seasons finished below 90% of normal.**
+  🔑 **The one exception points my way:** 1998 (2.84 to-date → **147.8%** final) reversed because the 1997-98 El Niño **ended** and La Niña developed mid-season, removing the shear. **2026's El Niño is strengthening toward historic** — the mechanism that broke that analogue is running the other way.
+  ⚠️ **Independence caveat, and it is why this is 80% not 90%:** the low to-date ACE is **caused by** the same El Niño shear AEO-01 already rests on. **Same mechanism observed, not a second witness.** What changed is that it is now *measured* rather than *forecast*.
 - **AEO-03** — property-cat reinsurance still soft at the **Jan-2027** renewal (ROL ≤+5% YoY), 55%, resolves **1/15/27**. Trending CONFIRM.
 
 ---
 
 ## OPEN QUESTIONS / GAPS
 
-1. **🔴 Close the ACE instrument gap.** A live threshold band with no resolvable source, on a metric that resolves **half of AEO-01**. **First job in this folder.**
+1. ✅ **ACE instrument CLOSED 8/13 — by computing it, not finding it.** 1991-2020 normal **122.6** (NHC HURDAT2); 2026 season-to-date **3.09** (NHC ATCF b-decks). AEO-01's criterion is now a number: **season-end ACE < 110.3**. Method + validation in `SOURCES.md`.
 2. **AL92 track** — the only current candidate to become a Gulf/FL system, and NHC expects it to weaken.
 3. **Peak-season tell** (§5) — track shear-outs vs formations through mid-Oct.
 4. **Jan-2027 renewal** — AEO-03's resolution; watch Artemis/Guy Carpenter from December.

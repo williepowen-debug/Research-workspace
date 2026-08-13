@@ -126,7 +126,7 @@ Durable banded rules live here; the live read lives in STATUS with `[src M/D]` +
 
 | Metric | Yellow | Orange | Red | Routes to → |
 |---|---|---|---|---|
-| ACE (Accumulated Cyclone Energy) vs normal | ≥110% | ≥130% | ≥150% + landfall | C1 → CORAL/REGINALD |
+| ACE vs normal — **1991-2020 Atlantic normal = 122.6, computed from NHC HURDAT2 8/13** *(bands: Yellow ≥134.8 · Orange ≥159.4 · Red ≥183.9)*. ⚠️ **Compare season-to-date only against the TO-DATE normal** (~10.8% of seasonal ACE has accrued by Aug 13) | ≥110% | ≥130% | ≥150% + landfall | C1 → CORAL/REGINALD |
 | Reinsurance rate-on-line (Jan/Jun renewal) | +5% YoY | +15% | +25% | C1 → SHADE/REGINALD |
 | US crop condition (good/excellent %) | <55% | <45% | <35% | C2 → MARCO |
 | CDD/HDD vs 10-yr normal (region) | ±10% | ±20% | ±30% sustained | C3 → WATT (power) / BRENT (nat-gas) |

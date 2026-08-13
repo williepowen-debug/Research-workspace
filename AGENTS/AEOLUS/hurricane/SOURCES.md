@@ -43,11 +43,40 @@ Issues **early Apr / early Jun / early Jul / early Aug**. **Verified 2026:** ini
 
 ⚠️ **BOTH August updates revised AGAINST an active season.** My pre-registered escalation line *"CSU or NOAA revise UP"* did not merely fail to fire — **it fired backwards.** Record revisions in both directions; a trigger that can only fire one way is not a test.
 
-### ⚠️ ACE — INSTRUMENT GAP, DECLARED
-**ACE is my Yellow/Orange/Red peril band and I do NOT have a verified live source for it.**
-`https://tropical.colostate.edu/Realtime/index.html` returned a **6.5 KB near-empty shell** on 8/13 — likely a frame or JS-rendered page.
-**Candidates to test next session:** CSU Real-time subpages · NOAA **AOML/HRD** seasonal summaries · Klotzbach's public postings.
-> **Until a source is verified, do NOT quote an ACE figure.** The threshold row is live in `../CLAUDE.md` with **no instrument behind it** — that is the defect class where a registry names a concept the tooling can't resolve. **Closing this is the first job in this folder.**
+### ✅ ACE — GAP CLOSED 2026-08-13. **Compute it; do not scrape it.**
+
+CSU's real-time page is a dead end (**404**, 6.5 KB shell). **The fix was to stop looking for a page that reports ACE and compute it from NHC best-track data**, which makes both legs primary, reproducible, and base-rateable.
+
+**ACE** = Σ v²/10⁴ over 6-hourly synoptic times (00/06/12/18 UTC) for systems at **TS/HU/SS status and ≥34 kt**.
+
+#### Leg 1 — the DENOMINATOR (1991-2020 normal) ✅ computed 8/13
+```bash
+curl -sL "https://www.nhc.noaa.gov/data/hurdat/hurdat2-1851-2024-040425.txt" -o hurdat.txt
+```
+**Result: 1991-2020 Atlantic ACE normal = `122.6`.**
+✅ **Validation the parse is correct:** the same computation returns **14.4 mean named storms and 7.2 mean hurricanes** — which match NOAA's *published* 1991-2020 normals (14 / 7). **If those two match, the ACE figure is trustworthy.** Re-run this check after any HURDAT2 re-release.
+⚠️ **HURDAT2 is finalised post-season and currently ends 2024** — it is the denominator source, never the current-season source.
+
+#### Leg 2 — the NUMERATOR (season to date) ✅ computed 8/13
+```bash
+curl -sL "https://ftp.nhc.noaa.gov/atcf/btk/"            # lists bal<NN><YYYY>.dat
+curl -sL "https://ftp.nhc.noaa.gov/atcf/btk/bal012026.dat"
+```
+Parse `tau == 0` rows, dedupe by timestamp, apply the same status/≥34 kt filter.
+**2026 season to date = `3.09`** — Arthur 0.40 · Bertha 2.24 · Cristobal 0.44 · three INVEST decks at 0.00.
+⚠️ **b-decks include INVEST (AL9x) entries that contribute 0** — keep them in the loop, they are not errors.
+
+#### The bands, now anchored to a real number
+| | % of normal | **ACE units** |
+|---|---:|---:|
+| **AEO-01 criterion** | <90% | **<110.3** |
+| Yellow | ≥110% | 134.8 |
+| Orange | ≥130% | 159.4 |
+| Red (+landfall) | ≥150% | 183.9 |
+
+#### 🔑 The seasonal-accrual base rate — without it, "% of normal" mid-season is meaningless
+**Only ~10.8% of seasonal ACE has normally accrued by Aug 13** (median 10.0%, range 0.5–29.5%). So a normal season stands at **~13.2** on this date; **2026 is at 3.09 = 23.4% of the to-date normal**, ranking **7th-lowest of the 30 years**.
+⚠️ **Never compare season-to-date ACE against the FULL-season normal** — "2.5% of normal" on 8/13 sounds like collapse and is mostly just the calendar.
 
 ---
 
@@ -72,5 +101,6 @@ Issues **early Apr / early Jun / early Jul / early Aug**. **Verified 2026:** ini
 | Percentages without the prose | 8/13: **80% + "expected to weaken."** The prose had the mechanism. |
 | `CurrentStorms.json` is all-basin | Filter before saying "Atlantic." |
 | Active basin ⇒ hard market | **Peril ≠ loss.** Opposite directions right now. |
-| Quoting ACE | **No verified source yet — see the declared gap above.** |
+| Comparing to-date ACE to the FULL-season normal | **Only ~10.8% accrues by Aug 13.** Use the to-date normal (~13.2), not 122.6. |
+| Scraping a page for ACE | **Compute it from HURDAT2 + ATCF b-decks.** CSU's real-time page is a 404 shell. |
 | A quiet season kills the thesis | It kills **C1's read only**; migrate to C3/C5/C6 and say so. |
