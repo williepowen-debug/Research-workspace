@@ -58,3 +58,35 @@ Two sharpeners specific to the gate case, which the "led the move" instance abov
 Cost: the correction reached BRENT 22 minutes before the close, and had it not, its gate grade would have carried a leg-(b) verdict that was the opposite of true.
 
 Distinct from [[finding-composition-mask-unmask-discriminator]] (there the *reporting entity* manages the base to hide deterioration; here nobody is hiding anything — the *analyst's* lens choice manufactures the conclusion). Related: [[finding-number-carries-threshold-unit-source]], [[finding-blended-index-masks-bifurcation]], [[finding-level-vs-monthly-average-cpi-landing]].
+
+---
+
+**n+2 — 2026-08-13, REGINALD. TWO more instances in one session, and they extend the family in a direction the first three don't cover: it is not only the LENS (absolute vs proportional) or a free PARAMETER (strike) — the *denominator's SCOPE* and the *baseline's DATE* do it too, and both look like description rather than choice.**
+
+**(a) Denominator SCOPE — a cross-bank screen where the basis picks a different #1.** MI3 "hidden CRE" = FFIEC `RCON2746`, whose own label says its balance sits in RC-C **items 4 AND 9**. The legacy screen divided by **item 4 only**. Re-run at primary, 14 banks × 4 quarters, Q2-2026:
+
+| Rank | ÷ item 4 (legacy) | ÷ item 4 + item 9 (the numerator's own parent) |
+|---|---|---|
+| 1 | **WAL 21.20%** | **EGBN 10.77%** |
+| 3 | MTB 14.45% | **WAL 8.99%** |
+| 4 | **EGBN 12.44%** | CUBI 5.96% |
+
+**WAL is #1 on one basis and #3 on the other; EGBN is #4 and #1.** Mechanism is pure arithmetic: the item-9 share of the base runs **5.5% → 65.8%** across the cohort (WAL 57.6% vs EGBN 13.4%), so the narrow denominator inflates WAL ~2.4× *relative to EGBN specifically*. A three-year-old fleet claim — "*bank X is the most concentrated / growing fastest in cohort*" — turned out to be a claim about the denominator.
+
+**(b) Baseline DATE — the same defect inside my own attribution, found one day after I published it.** A tripwire fired and its mandatory driver-decomposition said **CCC-widening-LED** (the escalation case) rather than HY-tightening-led (benign beta):
+
+| Baseline | CCC | HY | Read |
+|---|---|---|---|
+| **7/16** (the date my rule names) | +53bp (+5.5%) | +1bp (+0.4%) | **CCC-LED — escalation** |
+| **7/30** (last close before the fire run actually began) | +17bp (+1.7%) | **−12bp (−4.2%)** | **~73% of the ratio's rise is HY TIGHTENING — benign beta** |
+
+Same instrument, same fired gate, opposite mechanism. **The correction was only reachable because a peer desk questioned my *fire dates*** — the run had begun 7/31, not 8/7, and finding the true start handed me a second defensible baseline I had never computed.
+
+**What the two add to the rule above:**
+
+> **A denominator's SCOPE and a baseline's DATE are normalization choices wearing the costume of description.** "MI3 ÷ C&I" and "vs the 7/16 baseline" both read as *definitions*, not *settings* — which is exactly why nobody varies them. **Vary them anyway, and report both.**
+
+Three sharpeners:
+1. **Prefer the basis the numerator itself names.** `RCON2746`'s FFIEC label literally says "items 4 and 9." The defective denominator was *contradicted by the field's own definition* for three years. **Read the instrument's own label before trusting an inherited recipe** — cf. [[finding-read-the-artifacts-own-header-first]].
+2. **A gate's baseline should be the gate's own event boundary, not a fixed calendar date.** A decomposition measured from an arbitrary prior date silently mixes pre-event drift into the event. Compute from the run's own start *as well*; if they disagree, that IS the finding (the parent rule, one layer up).
+3. ⚠️ **Ratio-vs-dollars is the same trap and it inverted the substantive conclusion.** The cohort's *ratios* collapsed at the concentrated names — but the **dollars** told a different story: OZK −64% YoY and EGBN −38% while **HBAN +100%, BKU +193%, MTB +16% to $4.95B, the largest absolute book in the cohort while ranking as an unremarkable ratio** because its denominator is enormous. **A ratio screen structurally cannot see a book migrating up-cap.** Report level AND ratio, always — cf. [[finding-spread-metric-blind-to-common-mode]], [[finding-rising-stock-flat-inflow-means-slower-outflow]].
