@@ -6,8 +6,10 @@ VX-CREED-1.01	2026-02	11.40	ORANGE	Fell on loan modifications
 VX-CREED-1.01	2026-04	11.69	ORANGE	March not captured in the inherited series
 VX-CREED-1.01	2026-05	11.53	ORANGE	—
 VX-CREED-1.01	2026-06	11.57	ORANGE	+4bps, ticked back UP. Range-bound ~11.4-11.7 for five months after the January spike.
+VX-CREED-1.01	2026-07	11.91	ORANGE	+34bps MoM — largest single-month move since January's spike. Still 9bps below the >12 RED trigger.
 VX-CREED-1.02	2026-05	7.55	ORANGE	Overall CMBS DQ, headline
 VX-CREED-1.02	2026-06	7.35	ORANGE	-20bps but CURE-FLATTERED — a large lodging cure (-79bps) masked office and MF both rising
+VX-CREED-1.02	2026-07	7.86	ORANGE	+51bps headline, driven by matured-balloon refi failure (66% of $6.0B newly delinquent). Maturity-adjusted figure NOT published this month (gap confirmed on both CREED's and HOMER's side).
 VX-CREED-1.03	2026-03	7.15	ORANGE	MF CMBS DQ — HOMER-owned as of 2026-07-27; series retained for the CREED dashboard path only
 VX-CREED-1.03	2026-04	7.71	RED	All-time high for the series
 VX-CREED-1.03	2026-05	6.95	ORANGE	Large-loan cure
@@ -15,6 +17,7 @@ VX-CREED-1.03	2026-06	7.23	ORANGE	+28bps, RESUMED rising — reversed the May cu
 VX-CREED-1.04	2026-06	6.91	YELLOW	Retail CMBS DQ, +30bps
 VX-CREED-1.05	2026-06	5.22	GREEN	Lodging CMBS DQ, -79bps — the cure that pulled the June headline down
 VX-CREED-1.06	2026-06	1.20	GREEN	Industrial CMBS DQ, -11bps
+VX-CREED-1.06	2026-07	1.13	GREEN	-7bps — the only one of five major property types down in July
 VX-CREED-2.01	2026-01	17.11	ORANGE	Office special servicing — rose 47bps to 17.11% in January. *** THE JANUARY AND JUNE VALUES ARE IDENTICAL AND BOTH AUTHENTIC — a coincidence of level, NOT a recirculated figure. This identity is exactly what triggered CREED's 7/20 conflation flag, which was subsequently RETRACTED (KB-CREED-011). Preserved here so the coincidence is visible in the series rather than rediscovered as a suspected error. ***
 VX-CREED-2.01	2026-05	16.75	ORANGE	Fell 91bps on a large office loan returning to master servicer + denominator effects — illustrates why SS is the noisier series
 VX-CREED-2.01	2026-06	17.11	ORANGE	+36bps. 89bps below the >18 S1 trigger. NOT fired.
