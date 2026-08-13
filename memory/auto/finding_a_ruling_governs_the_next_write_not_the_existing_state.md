@@ -1,0 +1,29 @@
+---
+name: finding_a_ruling_governs_the_next_write_not_the_existing_state
+description: "Ruling a convention changes what gets written NEXT and touches nothing already on disk — measured same-day: a fleet-wide ban was true of 64% of its author's own surfaces hours after he wrote it. Pair every new convention with a retroactive sweep, or the stock of violations outlives the rule."
+metadata: 
+  node_type: memory
+  type: feedback
+  originSessionId: caf3458a-6c5d-41b6-8f8e-67f8a322e6a1
+  modified: 2026-08-13T00:26:56.228Z
+---
+
+A newly-ruled convention acts on **future writes only**. Nothing in a normal fleet kit scans existing state for violations of a rule at the moment that rule is made. So the **flow** gets cleaner while the **stock** of violations sits untouched — and because the rule now exists, everyone reads the area as handled.
+
+**Measured, 2026-08-12, all in one evening:**
+- BRENT ruled the crude instrument-basis canon, wrote it, and packeted seven desks. Its own audit hours later measured **54 of 150 crude figures on its live surfaces still unlabeled — the ban was true of 64% of them, not 100%.**
+- Inside the very packet that banned quoting a live bar as a settle, BRENT **committed the 4th instance of that class in six days.** Maximum rule; no prevention.
+- PROME corrected a claim in `HEARTBEAT` §3 and left the identical retired claim live in §5 and the thresholds list — the same shape as the audit finding it was relaying at that moment.
+- Two ledger columns kept storing `0` for events their unit could not express, months after the scope that admitted those events was written into the header.
+
+**Why the failure is structural, not carelessness** (BRENT's own words, and they generalize): *"A ruling changes what I write next. It does not touch what is already written, and nothing in my kit scans for it."*
+
+**Why:** rules act on **attention**, which is the resource already exhausted at the moment of the error. That makes a written rule the *weakest* prevention available — weaker than making the error impossible to express, weaker than failing loudly at the moment of the act, weaker than automatic detection soon after. Fleets default to writing rules because rules are the cheapest thing to write, not because they work best.
+
+**How to apply:**
+1. **Pair every newly-ruled convention with a retroactive sweep of existing state, in the same session.** Ruling without sweeping leaves a violation stock that now looks governed. If the sweep can't run that session, say what the current compliance rate is — "ruled, and currently true of 64%" is honest; "ruled" alone is not.
+2. **Prefer structure over rule.** If a value must carry its unit, make the capture function return the unit so a bare value is unwritable. That converts an attention problem into an impossibility.
+3. **Find your own violations mechanically, not by re-reading.** Grep the strings you replaced and classify each hit as retirement-context vs live-claim; re-derive numbers from primaries rather than re-reading them. Re-reading does not catch what you just wrote — you skim your own text.
+4. **Never rely on the erring party's attention.** Every real catch in the evening above was external. Self-discipline is not a mechanism.
+
+Related: [[finding_banner_is_a_warning_not_a_fix]] (a banner buys time on a *known* stale doc; this is the unknown stock behind a *new* rule) · [[finding_verification_correction_downstream_propagation]] · [[finding_retired_threshold_has_no_publisher]] · [[finding_dated_carry_item_has_no_expiry_check]] · [[finding_anti_ratchet_governs_state_not_prose]].
