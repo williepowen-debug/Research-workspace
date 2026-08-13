@@ -62,14 +62,19 @@ from datetime import datetime
 
 def _load_dotenv():
     """Populate os.environ from a gitignored .env next to this file. Secrets
-    (e.g. EIA_API_KEY) live there and are never committed. Existing env wins."""
+    (e.g. EIA_API_KEY) live there and are never committed. Existing NON-EMPTY
+    env wins; an empty-string env var must not shadow the file (2026-08-13:
+    an exported `FRED_API_KEY=` made the tool warn key-missing while the .env
+    held a valid key — empty means unset here)."""
     envp = Path(__file__).parent / ".env"
     if envp.exists():
         for line in envp.read_text().splitlines():
             line = line.strip()
             if line and not line.startswith("#") and "=" in line:
                 k, v = line.split("=", 1)
-                os.environ.setdefault(k.strip(), v.strip())
+                k, v = k.strip(), v.strip()
+                if not os.environ.get(k):
+                    os.environ[k] = v
 
 
 _load_dotenv()
