@@ -48,7 +48,7 @@ At boot, after STATUS/MEMORY — run the glob + `git mv` from repo root (cwd-pro
 2. For each: read it, decide disposition, append a row to the existing 11-col `board/BOARD_LOG.tsv` (Channels_Touched=INBOX_WALTER), then `git mv` the file to `inbox/WALTER/processed/`.
 3. Let acted items inform the session. **Installed 2026-07-09** (PROME 7/4 rollout ask) — first drain cleared a 31-file backlog (22 archived-with-note as pre-6/26-session-boundary stale, 9 dispositioned live).
 8. **Scan inbox** — `ls inbox/` (exclude `processed/`). Report count + senders. Do NOT process — just awareness.
-9. **Check peer/sub-agent STATUS files if relevant** — `../BROCK/STATUS.md`, `../CORAL/STATUS.md`, `../OZK/STATUS.md`, `../WAL/STATUS.md`, **`../CREED/STATUS.md`** (all top-level; CREED runs live at `AGENTS/CREED/` — corrected 7/17 audit, the local `sub-agents/CREED/` copy is a FROZEN Feb fossil)
+9. **Check peer/sub-agent STATUS files if relevant** — `../BROCK/STATUS.md`, `../CORAL/STATUS.md`, `../OZK/STATUS.md`, `../WAL/STATUS.md`, **`../CREED/STATUS.md`** (all top-level; CREED runs live at `AGENTS/CREED/`)
 9b. **BOARD diff scan** (per WALTER LIAISON Turn 2 lock) — pull `/BOARD/INDEX.md` + `/BOARD/SIG-W-*.md` since last `board/BOARD_LOG.tsv` row. Three-tier scope:
     - **(a) Action-recipient unconditional** — `grep '^to:.*REGINALD' /BOARD/SIG-W-*.md` since last-session — read all hits.
     - **(b) cluster_mediating unconditional** — `grep 'cluster_mediating: true' /BOARD/SIG-W-*.md` since last-session — read all hits.
@@ -290,7 +290,7 @@ Metropolitan Capital failed with 61% true CRE (labeled 10.7%). Three masking lev
 | `workbook/THESIS_VALIDATION.md` | Thesis confirmation/invalidation criteria + dependency maps |
 | `workbook/OTTO_INTEL.md` | Cross-agent intel from OTTO (307 lines) |
 | ~~`workbook/VX_HISTORY.tsv`~~ | **RETIRED 2026-08-12 stale-sweep** → `archive/workbook/VX_HISTORY.tsv`. Header-only, never populated in 5+ months; concept was "archived slow-moving vectors" that never had a live consumer. Do not resurrect without a demand path. |
-| `SUB_AGENTS.md` | Sub-agent coordination (CREED, TEX, RENO, BELT). Note: BROCK, CORAL, and OZK are top-level peer agents, not sub-agents (CORAL promoted 2026-06-19). |
+| `SUB_AGENTS.md` | Sub-agent + peer coordination directory. **All four local sub-agent trees (BELT, CREED, TEX, RENO) now archived** — BELT/CREED 8/13, TEX/RENO earlier. ⚠️ **BELT's revival gate — "revive only on a mortgage-DQ catalyst" — is still LIVE and lives there.** BROCK/CORAL/OZK/WAL are top-level peers. |
 | `domain/FL_MIGRATION_REFERENCE.md` | FL migration -93% data + Hormuz cascade table (static reference) |
 | `earnings_briefs/` | Earnings analysis files (VLY Q1 etc.) |
 | `sources/` | External source docs (Trepp CMBS, Metropolitan Capital, Wright) |
@@ -301,6 +301,5 @@ Metropolitan Capital failed with 61% true CRE (labeled 10.7%). Three masking lev
 | `AGENTS/BROCK/STATUS.md` | BROCK | BDC/private credit (top-level peer agent) |
 | `AGENTS/CORAL/STATUS.md` | CORAL | Florida-specific state (top-level peer agent, promoted 2026-06-19) |
 | `AGENTS/OZK/STATUS.md` | OZK | Single-name bank deep coverage (top-level peer agent) |
-| `../CREED/STATUS.md` | CREED | CRE market-level state — **LIVE at top level `AGENTS/CREED/` (corrected 7/17; local `sub-agents/CREED/` = FROZEN Feb fossil)** |
-| `archive/sub-agents/TEX/` | TEX | Texas stress — **DEAD POINTER FIXED 2026-07-09**: no live STATUS.md, already archived (research/sources subdirs only) |
-| `archive/sub-agents/RENO/` | RENO | Nevada stress — **DEAD POINTER FIXED 2026-07-09**: no live STATUS.md, already archived (research/sources subdirs only) |
+| `../CREED/STATUS.md` | CREED | CRE market-level state — LIVE at `AGENTS/CREED/`. Local copy archived 8/13 → `archive/sub-agents/CREED/`. |
+| `archive/sub-agents/` | BELT · CREED · TEX · RENO | Archived local sub-agent trees — research/sources only, no live STATUS. **Read only if a revival gate fires** (`SUB_AGENTS.md`). |

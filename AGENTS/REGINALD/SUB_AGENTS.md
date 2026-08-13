@@ -10,11 +10,11 @@ REGINALD is the convergence point for regional-bank stress. Domain coverage that
 
 | Agent | Domain | Where | Status |
 |-------|--------|-------|--------|
-| **CREED** | CRE / CMBS market-level (DQ, special servicing, maturity wall) | `AGENTS/CREED/` — **top-level Tier-2 agent** (STATUS updated 7/4) | 🟢 LIVE — read `../CREED/STATUS.md`; local `sub-agents/CREED/` = FROZEN Feb fossil (bannered 7/17), workbook TSVs frozen 7/9 |
+| **CREED** | CRE / CMBS market-level (DQ, special servicing, maturity wall) | `AGENTS/CREED/` — **top-level Tier-2 agent** | 🟢 LIVE — read `../CREED/STATUS.md`. Local copy **archived 2026-08-13 → `archive/sub-agents/CREED/`** (Feb fossil; FROZEN banners preserved as the record, incl. the 7/4 Will-routed freeze-legacy provenance). |
 | **BROCK** | BDC / private credit | `AGENTS/BROCK/` — top-level peer | 🟢 LIVE |
 | **CORAL** | Florida (condo/HOA/SIRS, Citizens, FL-bank exposure) | `AGENTS/CORAL/` — top-level peer (promoted 2026-06-19) | 🟢 LIVE |
 | **OZK** | Single-name bank deep coverage | `AGENTS/OZK/` — top-level peer | 🟢 LIVE (REGINALD cross-reads; positions OZK-owned) |
-| **BELT** | Mortgage-DQ belt (MS/LA/MD) | `sub-agents/BELT/` | 🧊 FROZEN shell (Feb vintage, bannered 7/17) — revive only on a mortgage-DQ catalyst |
+| **BELT** | Mortgage-DQ belt (MS/LA/MD) | `archive/sub-agents/BELT/` *(archived 2026-08-13)* | 🧊 FROZEN shell (Feb vintage) — **revive only on a mortgage-DQ catalyst.** ⚠️ **The revival gate outlives the shell's location — archiving the tree does NOT retire the condition.** |
 | **RENO** | Nevada stress | `archive/sub-agents/RENO/` | ⬜ ARCHIVED (research/sources only, no live STATUS) |
 | **TEX** | Texas/Florida stress | `archive/sub-agents/TEX/` | ⬜ ARCHIVED (research/sources only, no live STATUS) |
 
@@ -31,4 +31,4 @@ CREED → VX-REG-3.01, 9.01-9.03, 13.01-13.02 · BROCK → VX-REG-2.03, 9.04, 12
 
 ---
 
-*Last updated: 2026-07-17 (audit rewrite; prior 2026-02-16)*
+*Last updated: **2026-08-13** — BELT + CREED local fossil trees `git mv`'d to `archive/sub-agents/` (Will-directed: REGINALD should not be burdened by unnecessary dated context). **Both rows kept**; paths re-pointed; **BELT's revival condition preserved verbatim.** Prior: 2026-07-17 (audit rewrite; prior 2026-02-16).*
