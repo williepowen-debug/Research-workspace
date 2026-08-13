@@ -8,6 +8,9 @@ Changes from v2:
  - Delta threshold filtering (only emit on significant change)
  - Audit logging for debugging
  - Security fix: FRED_API_KEY required (no fallback)
+ - 2026-08-13 history integrity (SIG-W-20260813-002): null/missing bars are
+   named per-ticker (null_bars/missing_sessions/complete), CLI exits 3 on an
+   incomplete series; start/end + period_change_pct sign inversion fixed
 
 Usage:
  python3 fetch.py price KRE APO WAL              # specific tickers
@@ -466,6 +469,34 @@ def eia_retail_power_price(sectors=("IND", "RES"), state="US", months=3):
 # Prices (yfinance)
 # ---------------------------------------------------------------------------
 
+# --- Session-integrity layer (2026-08-13, WALTER SIG-W-20260813-002) ---
+# The price source intermittently returns NULL bars for real trading sessions,
+# and sometimes omits the row entirely — non-deterministic, not query-form-
+# dependent (4 query forms x 2 symbols re-ran clean on the same dates).
+# Reproduced live at build time: a 15d ^TNX pull was missing Fri 2026-07-31
+# (a session that printed 10Y high 4.747) with no error of any kind. A
+# silently short series turns max/streak/"has X ever happened" computations
+# into confident false negatives, so history results carry an explicit
+# integrity account (null_bars / missing_sessions / complete) instead of a
+# clean-looking short list.
+
+US_MARKET_HOLIDAYS = {
+    # NYSE full closures (observed dates). EXTEND ANNUALLY: a missing weekday
+    # in a year not covered here reads as a MISSING SESSION (loud) — the
+    # fail-safe direction is a false alarm, never a silently excused gap.
+    # 2025-01-09 = National Day of Mourning (Carter funeral), NYSE closed.
+    "2024-01-01", "2024-01-15", "2024-02-19", "2024-03-29", "2024-05-27",
+    "2024-06-19", "2024-07-04", "2024-09-02", "2024-11-28", "2024-12-25",
+    "2025-01-01", "2025-01-09", "2025-01-20", "2025-02-17", "2025-04-18",
+    "2025-05-26", "2025-06-19", "2025-07-04", "2025-09-01", "2025-11-27",
+    "2025-12-25",
+    "2026-01-01", "2026-01-19", "2026-02-16", "2026-04-03", "2026-05-25",
+    "2026-06-19", "2026-07-03", "2026-09-07", "2026-11-26", "2026-12-25",
+    "2027-01-01", "2027-01-18", "2027-02-15", "2027-03-26", "2027-05-31",
+    "2027-06-18", "2027-07-05", "2027-09-06", "2027-11-25", "2027-12-24",
+}
+
+
 def price_fetch(tickers, delta_threshold=0.0):
     """Fetch current prices for a list of tickers with optional delta filtering."""
     import yfinance as yf
@@ -558,35 +589,76 @@ def price_fetch(tickers, delta_threshold=0.0):
 
 
 def price_history(tickers, days=30):
-    """Fetch daily close history for tickers. Returns dict of ticker -> [{date, close}]."""
+    """Fetch daily close history for tickers. Rows are CHRONOLOGICAL (oldest
+    first). Each ticker result carries an integrity account:
+      null_bars         dates the source returned WITHOUT a Close (excluded
+                        from history — the dates are named, not swallowed)
+      missing_sessions  span-interior weekdays with NO bar at all that are not
+                        in the US holiday table — each one is a real session
+                        the source may have dropped; verify before trusting
+                        any max/streak/ever-happened claim
+      holiday_gaps      span-interior missing weekdays that ARE US market
+                        holidays (expected; listed for the record)
+      complete          True only if null_bars and missing_sessions are empty
+    Limits: gaps at the span EDGES are undetectable from inside the pull;
+    weekend bars (crypto) and non-US calendars are not checked."""
+    import math
+    from datetime import timedelta
     import yfinance as yf
     results = {}
     period = f"{days}d"
     for t in tickers:
         try:
             tk = yf.Ticker(t)
-            hist = tk.history(period=period)
+            hist = tk.history(period=period).sort_index()
             if hist.empty:
                 results[t] = {"error": "no data", "name": ALL_PRICES.get(t, t)}
                 continue
-            rows = []
+            rows, null_bars = [], []
             for date, row in hist.iterrows():
+                close = row.get("Close")
+                if close is None or (isinstance(close, float) and math.isnan(close)):
+                    null_bars.append(date.strftime("%Y-%m-%d"))
+                    continue
+                vol = row.get("Volume", 0)
+                vol = 0 if vol is None or (isinstance(vol, float) and math.isnan(vol)) else int(vol)
                 rows.append({
                     "date": date.strftime("%Y-%m-%d"),
-                    "close": round(float(row["Close"]), 2),
-                    "volume": int(row.get("Volume", 0)),
+                    "close": round(float(close), 2),
+                    "volume": vol,
                 })
+            if not rows:
+                results[t] = {"error": f"no usable bars — all {len(null_bars)} returned bars NULL",
+                              "null_bars": null_bars, "name": ALL_PRICES.get(t, t)}
+                continue
+            # Span-interior gap scan: every weekday between the first and last
+            # returned bar must either have a bar or be a known holiday.
+            bar_dates = {d.strftime("%Y-%m-%d") for d in hist.index}
+            missing_sessions, holiday_gaps = [], []
+            d, last = hist.index[0].date(), hist.index[-1].date()
+            while d <= last:
+                ds = d.isoformat()
+                if d.weekday() < 5 and ds not in bar_dates:
+                    (holiday_gaps if ds in US_MARKET_HOLIDAYS else missing_sessions).append(ds)
+                d += timedelta(days=1)
             results[t] = {
                 "name": ALL_PRICES.get(t, t),
                 "days": len(rows),
                 "history": rows,
                 "high": round(float(hist["Close"].max()), 2),
                 "low": round(float(hist["Close"].min()), 2),
-                "start": rows[-1]["close"] if rows else None,
-                "end": rows[0]["close"] if rows else None,
+                # start = OLDEST close, end = NEWEST. Labels were inverted
+                # until 2026-08-13 (rows are chronological but start read
+                # rows[-1]), which sign-flipped period_change_pct.
+                "start": rows[0]["close"],
+                "end": rows[-1]["close"],
+                "null_bars": null_bars,
+                "missing_sessions": missing_sessions,
+                "holiday_gaps": holiday_gaps,
+                "complete": not null_bars and not missing_sessions,
             }
-            if results[t]["start"] and results[t]["end"]:
-                pct = (results[t]["end"] - results[t]["start"]) / results[t]["start"] * 100
+            if rows[0]["close"]:
+                pct = (rows[-1]["close"] - rows[0]["close"]) / rows[0]["close"] * 100
                 results[t]["period_change_pct"] = round(pct, 2)
         except Exception as e:
             results[t] = {"error": str(e), "name": ALL_PRICES.get(t, t)}
@@ -656,17 +728,29 @@ def display_history(results):
     for t, d in results.items():
         if "error" in d:
             print(f"\n {t} ({d.get('name', '')}): ERROR — {d['error']}")
+            if d.get("null_bars"):
+                print(f"   null bars: {', '.join(d['null_bars'])}")
             continue
         chg = f"{d.get('period_change_pct', 0):+.2f}%" if d.get("period_change_pct") is not None else "N/A"
         print(f"\n {t} ({d['name']}) — {d['days']}d range: ${d['low']} – ${d['high']} Period: {chg}")
         print(f" {'Date':<14} {'Close':>10} {'Volume':>14}")
         print(f" {'-'*40}")
-        # Show most recent 10 rows to keep output manageable
-        for row in d["history"][:10]:
+        # Rows are chronological — show the NEWEST 10 (until 2026-08-13 this
+        # sliced [:10], showing the OLDEST 10 while claiming most-recent)
+        if d["days"] > 10:
+            print(f" ... ({d['days'] - 10} older rows)")
+        for row in d["history"][-10:]:
             vol = f"{row['volume']:,}" if row["volume"] else "—"
             print(f" {row['date']:<14} ${row['close']:>9,.2f} {vol:>14}")
-        if d["days"] > 10:
-            print(f" ... ({d['days'] - 10} more rows)")
+        if d.get("null_bars") or d.get("missing_sessions"):
+            print(f" ⚠️  INCOMPLETE SERIES — a dropped session is invisible in the rows above;")
+            print(f"     do NOT compute max/streak/ever-happened claims off this pull.")
+            if d.get("null_bars"):
+                print(f"     null bars (returned without a close): {', '.join(d['null_bars'])}")
+            if d.get("missing_sessions"):
+                print(f"     missing sessions (weekday, no bar, not a holiday): {', '.join(d['missing_sessions'])}")
+        elif d.get("holiday_gaps"):
+            print(f" (gaps {', '.join(d['holiday_gaps'])} = US market holidays — expected)")
 
 
 def display_snapshot(price_results, fred_data):
@@ -722,6 +806,16 @@ def cmd_price(tickers, flags):
             print(json.dumps(hist, indent=2))
         else:
             display_history(hist)
+        # Fail LOUD on an incomplete series (SIG-W-20260813-002): rc=3 so
+        # scripted consumers cannot mistake a silently short pull for clean
+        # data. Human-readable detail is in the fields/display; stderr note
+        # keeps --json stdout parseable.
+        bad = [t for t, d in hist.items()
+               if "error" not in d and not d.get("complete", True)]
+        if bad:
+            print(f"fetch.py: exit 3 — incomplete history for {', '.join(bad)} "
+                  f"(see null_bars / missing_sessions)", file=sys.stderr)
+            sys.exit(3)
         return
 
     if flags["json"]:
