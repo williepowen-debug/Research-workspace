@@ -161,3 +161,114 @@
 - finding_pandas_column_method_collision — "pandas columns named like DataFrame methods (skew, var, std, count, min, max, mean, rank, diff, size) silently return the METHOD via dot-access — bracket-index every financial-series column"
 - finding_expiry_dated_suppression_register — "Pattern for suppressing known-benign monitor flags without rot: a TSV register where every row carries a MANDATORY expiry date; past expiry the row stops suppressing and raises its own flag, so no suppression can outlive its verification. Validated twice same-day 2026-07-11 (firetime allowlist + dashboard parked-agents)."
 - finding_composite_least_reliable_at_extreme_amplitude — a composite is least reliable at the amplitude that makes you want to cite it: extreme events shrink the analogue set to n=1-2, and a composite mean governs the distribution MIDDLE, never the tail being priced (AEOLUS 8/12, 3 hits one session; credit AEOLUS)
+
+## Demoted from HOT — 2026-08-12 flow-rule pass (Will-approved; PROME-executed per the standing flow rule; index rows only, memory FILES unchanged; rollback = move a row back to `MEMORY.md`)
+### Git / multi-machine
+- finding_two_machine_partition_clean_merge
+- finding_stranded_commit_payload_retriage
+- finding_curated_worktree_branch_landing
+- finding_git_crash_object_corruption_recovery
+- finding_forced_update_rebase_churn
+- finding_shallow_clone_false_fork
+- finding_difftree_multihash_tree_diff_false_positive
+- finding_backtick_command_substitution_in_commit_message
+### Verify before acting
+- feedback_verify_etf_vs_fx
+- feedback_verify_treasury_security_type
+- feedback_ocr_verify_input_first
+- finding_confabulated_counterparty_position
+- finding_verify_roster_by_commit_activity
+- finding_history_scrub_verify_by_content_not_pickaxe
+- finding_daedalus_encode_existing_needs_live_read
+- finding_first_session_falsifies_build_assertions
+- finding_verify_runtime_context_before_tool_broken
+- finding_credential_scrub_envstripped_verify
+- finding_triage_summary_compression_inversion
+- finding_verify_fix_against_capable_case
+- finding_theater_check_before_gate_check
+- finding_analogue_asset_class_must_match
+- finding_weekday_assumed_never_evaluated — n=3
+- finding_date_gate_beats_weekday_name
+### Prediction & calibration
+- finding_rebased_metric_check_made_date — if the NEW metric was already true at Made_Date, retire+replace
+- finding_threshold_spec_fails_before_world
+- finding_n_of_m_test_needs_intentions_realized_balance — tag each condition INTENTIONS/REALIZED; require one of each
+- finding_gross_flow_cannot_test_a_net_claim — base-rate a proxy/target split: rare-and-now = REGIME, not a bad measure
+- feedback_dont_bank_unpassed_forecast
+- finding_count_the_connectives_in_versus_out — enter any-1-of-N, exit all-N = a RATCHET
+- finding_policy_day_print_counts_in_sustain_window
+- finding_escalation_line_needs_delta_not_level — would it fire on DAY ONE? then it's a descriptor
+- feedback_date_specificity_weakest_link
+- finding_resolvability_defect_is_status_not_confidence — STUCK, not a confidence cut
+- finding_prereg_branch_label_can_contradict_its_condition — check the branch LABEL against the sign of its CONDITION; grade the condition, NO-CALL if they disagree
+- finding_named_risk_underweighted_is_its_own_error — you WROTE the caveat then priced it low; a PROVISIONAL grade must show up in the NUMBER, not just the prose
+- finding_priced_probability_destroys_surprise_room — track the UNPRICED remainder, not the level
+- finding_expected_window_rederived_from_now_drifts — pin the anchor; consume, never re-derive; past it = channel finding
+- finding_pre_decision_condition_vs_rationale — delivering into someone's pre-registration: report CONDITION and RATIONALE separately, adjudicate neither
+### Numbers & staleness
+- finding_level_vs_monthly_average_cpi_landing
+- finding_blended_index_masks_bifurcation
+- feedback_yoy_baseeffect_use_multiyear_stack
+- finding_series_reconstruction_extension
+- finding_derived_surface_band_rot
+- finding_ratio_gauge_denominator_branch
+- finding_flow_sign_vs_program_direction
+- finding_selfstamp_estimate_drift
+- finding_decouple_idiosyncratic_from_systemic_leg
+- finding_proxy_segment_masks_trigger_series
+- finding_curve_shape_policypath_vs_termpremium
+- finding_fill_rate_misread_as_recovery_price
+### Cross-agent coordination
+- finding_liaison_convergence_pattern
+- feedback_adversarial_brief_for_pair_teams
+- finding_domain_agent_steelman_backstop
+- feedback_consolidate_domain_pressure
+- finding_nexus_brief_drafting_cross_check
+- finding_fleet_selfreport_convergence
+- finding_sibling_agent_protocol_drift
+- finding_retraction_culture_cluster_ratio
+### Doc & state-file hygiene
+- finding_refresh_not_retire_perentity_profiles
+- finding_framing_precision_overlay
+- finding_pov_changelog_pattern
+- finding_schema_conformance_not_clean_text
+- finding_path_b_trim_pattern
+- finding_dead_path_regrows_unless_senders_repointed
+- finding_premise_residue_survives_date_fix
+- finding_followup_audit_pass
+- finding_mechanize_the_cap_not_the_ritual — a deferrable cap wants a boot check, not a remembered ritual
+- feedback_audit_behavioral_ranking
+- finding_doc_mirror_consistency_check
+- finding_documented_divergence_as_discipline
+- finding_governance_doc_stale_default_drift
+- finding_status_spine_staleness_under_appended_top
+- finding_passive_surface_rot_push_not_dashboard
+- finding_roster_change_propagates_to_all_surfaces
+- finding_reconcile_match_on_key_not_substring
+- finding_test_the_guard_not_just_the_guarded — a guard's own v1 fails on first RUN
+- finding_owned_surface_without_a_ledger_destroys_history — ownership ≠ retention
+- finding_proposed_rule_must_be_canon_tested — canon-test a NEW rule before downstream is written against it; off-repo plans escape canon_check by construction
+- finding_ownership_claim_is_last_to_move — when the canonical OWNER moves, the docs saying who owns it go stale and defend themselves with the ruling that made them right
+### Evidence & source quality
+- finding_migration_tally_inventory_incomplete
+- finding_insurer_entity_scope_trap
+- finding_count_measures_intake_not_domain
+- finding_discovery_tool_wrong_slice_false_zero
+- finding_magnitude_ranked_discovery_blind_to_deep_slow
+- finding_refuted_claim_citation_vs_fact_failure
+- finding_designation_date_lags_event_date
+- finding_edgar_entity_hit_direction_and_doctype
+- finding_relabeled_number_viral_stat
+- finding_credit_absorbed_vs_liquidity_transmission
+### Infra & tooling
+- finding_offrepo_routine_prompt_rot — mirror in a registry; thresholds read from files at run time
+- feedback_weight_plumbing_by_target_scale
+- feedback_script_labels_match_thesis
+- feedback_flag_friction_realtime
+- finding_webfetch_pdf_saves_despite_parse_error
+- finding_automem_hardlink_inplace_edit
+- finding_unversioned_local_secret_fails_silently — check the secret before debugging the service
+- finding_artifact_redeploy_same_url
+- finding_representative_leg_by_recency_not_magnitude
+- finding_stale_executable_exits_clean — RUN legacy tooling before judging it
+- finding_holiday_calendar_domain_mismatch — USFederalHolidayCalendar has no Good Friday
