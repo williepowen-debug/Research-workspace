@@ -12,6 +12,23 @@
 
 ---
 
+## ✅✅ 35b RULED BY WILL — 2026-08-12 evening, relayed by PROME at session close. **RECORDED HERE BECAUSE A FRESH SESSION BOOTS ON THIS FILE, NOT PROME'S.**
+
+**WILL RULED ALL THREE OF MY RECOMMENDATIONS AS PROPOSED:** **(a)** adopt the successor spec (trailing-8wk-median base · 1.0-median-unit bar · ±0.5 deadband · two-leg agreement) · **(b)** **Leg B GATING**, accepting the 33.6% NO-VERDICT rate · **(c)** **effective AFTER the 8/14 grade.** Full spec → [`setups/2026-08-12_35b-COT-successor-band-N1-build.md`](setups/2026-08-12_35b-COT-successor-band-N1-build.md).
+
+> ### ⛔⛔ **THE 8/14 ORDER OF OPERATIONS IS LOAD-BEARING AND MUST NOT COLLAPSE. DO THESE IN ORDER:**
+> **1️⃣ GRADE THE INCUMBENT BAND ONE FINAL TIME** on the Aug-11 vintage under **35a REVERT semantics**, ladder from **102,560**, raw `f_disagg.txt`, code `067651`, `report_date` verified in-row.
+> **2️⃣ WRITE THE RE-GRADE DOWN. IT MUST BE WRITTEN, NOT ASSUMED.** ⚠️ **A WoW re-gross of just +1,513 UN-FIRES the fuller-size modifier — P = 47.4% all-history (n=234) / 50.0% last 52wk. Under REVERT it switches off SILENTLY. If nobody writes the grade, the branch's state is simply unknown and TERRY may size off a stale LIVE.**
+> **3️⃣ ONLY THEN register the successor.** ⛔ **NEVER run incumbent and successor on the same vintage.**
+> *(Order is also on the DOCKET 8/14 row so a fresh session cannot collapse it. If this file and the docket disagree, re-derive from the build file — do not guess.)*
+
+## 📋 TWO SELF-AUDITS RAN 8/12 EVENING — 16 findings total. **DO NOT RE-LITIGATE; DO NOT PRE-EMPT WILL.**
+
+- **Canonical surfaces → [`AUDIT_2026-08-12_self-audit-canonical-surfaces.md`](AUDIT_2026-08-12_self-audit-canonical-surfaces.md)** — 7 findings. **F-1 (fixed):** the 8/7 retraction never reached the derived Brent→USO arithmetic; break-even was understated **$1.67** on a LIVE position. **F-5 (fixed):** 11 dead outbox pointers.
+- **INCIDENTS ledger → [`AUDIT_2026-08-12b_INCIDENTS-ledger-sweep.md`](AUDIT_2026-08-12b_INCIDENTS-ledger-sweep.md)** — 9 findings, **ZERO edits by design.** ⛔ **VERDICT TO HONOUR: the ledger is a good EVENT RECORD and is NOT a CAPACITY MEASURE. No aggregate over it is quotable until the schema carries units.**
+- ⛔ **WITH WILL, DO NOT PRE-EMPT: F-2 · F-3 · F-4 · F-7 · I-1 · I-2 · I-3 · I-6 · I-7.** PROME is presenting six of them as **ONE convention** (a value whose basis or unit moved while its label stayed still), not nine spec calls. **My "EXTEND `instrument_check.py`, don't build a tenth script" recommendation carried.**
+- 🟡 **STILL OPEN, no rush (PROME offered it back):** RF-033's fourth-zero question is **resolved** (documented anti-double-count) — what remains is **I-9**, the `capacity_bpd` column: 7 zeros conflating *wrong-unit* (6) with *unknown* (1, RF-037 KOC), plus 7 blanks.
+
 ## ⏳ FIRST THING NEXT SESSION
 
 1. **🔴 THE 8/11 EIA STEO WRITE-BACK — item ①, THE ONE PINNED ITEM I DID NOT DO.** Not blocked; **de-prioritised** against PROME's own ⑥/Cushing/⑦ ordering and I ran out of session. **READ THE 2027 RECOVERY COLUMNS, NOT THE 0.0 TROUGH.** A trough non-move is *"confirmed,"* never *"vindicated."* **~99.6% of the 2027 supply increment is MIDDLE EAST ⇒ EIA's window-closing forecast embeds an un-audited assumption that FALCON's theater de-impairs. If the 2027 path slips, my tenor tolerance rises.** Write back to STATUS/CATALYSTS/TRACKER (my P2 §F carried-work declaration).
