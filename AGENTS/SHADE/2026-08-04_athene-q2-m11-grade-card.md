@@ -160,3 +160,93 @@ ATH Q1-26 10-Q `0001527469-26-000028`, related-party note: *"Apollo Commercial R
 2. **"Mortgage book grows ~+10%"** — MATCHES SHADE's registered §6 row (+~10%, $93B→~$102B). No discrepancy.
 3. **"PRED-CREED-010 sits at 70%"** — matches; but it is **CREED's ledger**, resolves on the **10-Q** (which may lag 8/4), and its branch verdict is **joint with PRED-006 (mid-Sept)** — the 8/4 day-one read may legitimately be PROVISIONAL or NO-VERDICT.
 4. **M-11 at 55%** is NEXUS's row and confidence, not SHADE's; SHADE reports legs, never the composite.
+
+---
+
+## 7. ✅ FINAL GRADES — executed 2026-08-13 ~13:00 ET by **real-SHADE** (first real session since 7/27)
+
+> **Both legs are now GRADED against the frozen §1/§2 bands. NO BAND WAS MOVED.** The 8/4 outcome (`EXECUTED → NO-VERDICT (day-one), both legs deferred`) is hereby **CLOSED**: leg 2 FINAL from the ATH Q2 10-Q (filed 8/10), leg 1 FINAL from the Q2-2026 FI Investor Presentation (furnished **today, 8/13**). §5a's re-forecast of the grade dates — leg 2 ≈8/6–8/10, leg 1 ≈8/12–8/18 — **was right on both.**
+
+### 7.1 Instruments (both are the registered ones, no substitutes)
+
+| Leg | Instrument | Identifier | Filed/furnished |
+|---|---|---|---|
+| 2 | **Athene Holding Ltd 10-Q, q/e 6/30/26** | `0001527469-26-000056` | **2026-08-10** |
+| 1 | **"Athene Fixed Income Investor Presentation August 2026"** (Item-7.01 8-K + ir.athene.com) | 8-K `0001527469-26-000063`; deck `Q2+2026+Fixed+Income+Investor+Presentation_FINAL.pdf` | **2026-08-13** (FI investor call 9:00 a.m. ET) |
+
+✅ **§5a's method lesson is VALIDATED, not just asserted:** the FI deck landed on its own Item-7.01 cadence — **14 events, still ZERO on an earnings date.** Prior: 5/15 (Q1) → 8/13 (Q2) = 90 days; 10-Q→deck lag 5/7→5/15 = 8d, 8/10→8/13 = 3d.
+
+### 7.2 🟢 LEG 1 — FABN peer-penalty canary: **BAND "≤ +48bp" → STABLE.** The penalty NARROWED ~12bp.
+
+Deck slide *"Athene's Superior Financial Metrics are Not Fully Reflected in Secondary Spreads"*, row **"5-year FABN Secondary Credit Spread to US Treasury"**. ⚠️ **Spread source is stated on the slide: "J.P. Morgan data as of August 7, 2026"** — the observation date is **8/7/26**, not 8/13.
+
+| Deck | Athene | CRBG | EQH | PFG | LNC | Peer avg | **Penalty (avg)** | Penalty (range) |
+|---|---|---|---|---|---|---|---|---|
+| **Q1'26** (furn. 5/15/26) | **T+123** | T+80 | T+80 | T+75 | *(not in set)* | 78.33 | **+44.7bp** | **+43 to +48** |
+| **Q2'26** (furn. 8/13/26), **like-for-like** (Q1's peer set) | **T+110** | T+73 | T+82 | T+76 | — | 77.00 | **+33.0bp** | **+28 to +37** |
+| **Q2'26, as published** (4 peers, LNC added) | T+110 | T+73 | T+82 | T+76 | **T+89** | 80.00 | **+30.0bp** | **+21 to +37** |
+
+✅ **The registered baseline reproduces EXACTLY.** 123−80 = +43, 123−75 = +48 ⇒ the card's "+43–48bp" is confirmed as Athene's own arithmetic, not a paraphrase.
+
+**VERDICT: band ≤ +48bp = STABLE — on every basis, and not marginally** (+33.0 like-for-like, +30.0 as-published, vs a +48 band top). The +49–57 INCONCLUSIVE and ≥+58 WIDENING bands are **nowhere near**.
+
+**Card-stated consequences applied, and nothing else:**
+- Kill-path-1 **stays YELLOW.** RED bar (>250bp **or** pulled syndication) **unmet** — T+110 is 140bp inside it.
+- The withdrawn *"widening ~+15bp"* claim **STAYS RETIRED.** It is now not merely untested but **actively contradicted**: the penalty moved the other way by −11.7bp like-for-like.
+- **No threshold, band or confidence moved.**
+
+🔑 **Decomposition — Athene tightened; the peers barely did.** Athene **−13bp** (123→110) vs like-for-like peer avg **−1.3bp** (78.33→77.00). ⇒ **~11.7bp of the 13bp is Athene-specific outperformance**, not a beta move in FABN spreads generally. On its own terms this is a **clean negative result for SHADE's kill-path-1 funding-cost thesis, and it is recorded as such.**
+
+⚠️ **Two guards on this slide, both mechanism-relevant:**
+1. **The peer set CHANGED — Athene added LNC**, the widest peer at T+89. Adding it lifts the peer average and **cuts the reported penalty by 3.0bp** (30.0 as-published vs 33.0 like-for-like). **Immaterial to the band**, and no accusation is made — but it is the measured entity setting its own comparison set, which is SHADE's registered **allocation-discretion** through-line. **Always report the like-for-like figure alongside the published one.**
+2. **The RBC row is stale in BOTH decks** — footnote 5: *"RBC ratios are as of December 31, 2025."* The values are byte-identical across the Q1 and Q2 decks (Athene 441% / CRBG 430-440% / EQH ~475% / PFG 406%). **Never read 441% as a 6/30/26 figure.**
+
+### 7.3 🟠 LEG 2 — mortgage-loan line / ARI landing: **BAND "+$2.0B ≤ Δ < +$7.0B" → PARTIAL.** Short of LANDED by **$103M**.
+
+| Quantity | Value | Source |
+|---|---|---|
+| Mortgage loans, net of allowances — **Q1 baseline (3/31/26)** | **$93,077M** | ATH Q1-26 10-Q `…-000028` (verified 8/4) |
+| Mortgage loans, net of allowances — **Q2 print (6/30/26)** | **$99,974M** | **ATH Q2-26 10-Q `0001527469-26-000056`**, condensed consol. balance sheet |
+| **Δ (registered primary line)** | **+$6,897M (+7.41%)** | derived from the two primaries above |
+| Δ, all-three-lines basis | **+$6,916M** ($96,665M → $103,581M) | related-party $1,557→$1,549M; consol-VIE $2,031→$2,058M |
+
+**VERDICT: PARTIAL.** Both bases land in the same band; the reading is **robust to basis choice**. Registered expectation was +~10% / ~$102B — the print is **$99,974M**, a ~$2B undershoot of that expectation.
+
+🔴 **7.3a — THE FINDING OF THIS GRADE: the verdict turns on a $0.3B error in the card's own input, not on the print.**
+
+The Q2 10-Q related-party note prices the deal for the first time:
+
+> *"**Apollo Commercial Real Estate Finance, Inc. (ARI)** – On April 24, 2026, **we** completed the purchase of a commercial mortgage loan portfolio, **including accrued interest, for $8.7 billion** from ARI."*
+
+**The transaction was $8.7B, not $9.0B.** The card's LANDED floor was derived as *"$7.0B ≈ 78% of $9B, mirroring the 'wholly or largely' branch-2 language."* Against the **actual** size:
+
+| Basis | Arithmetic | Reads |
+|---|---|---|
+| **Frozen letter** (Δ ≥ $7,000M) | $6,897M < $7,000M, short by **$103M (1.5%)** | **PARTIAL** |
+| **Floor's stated intent** (≥78% of the book) | 78% × $8,700M = **$6,786M**; Δ = $6,897M ⇒ **79.3%** | **LANDED** |
+
+⚠️ **THE LETTER GOVERNS. THE BAND IS NOT MOVED — the card forbids moving any band after seeing the print, and this session did not.** But the divergence is reported at every surface, because **"PARTIAL" must not be read downstream as "the assets did not show up."** They largely did. `finding_confidence_priced_against_thesis_not_letter`, run as the inversion test: had the floor been written as a **ratio** rather than a **level**, this grades LANDED. **Method lesson for the next freeze: when a band is derived as a percentage of a quantity you have not yet verified, register the RATIO and resolve the denominator at grade time — a level silently hard-codes an unverified input.**
+
+**7.3b — Mandatory §2 follow-ups (Δ < +$7.0B), all run:**
+
+| # | Check | Result |
+|---|---|---|
+| 1 | Consolidated total investments rose ~the book's size anyway? | $321,081M (12/31/25) → **$333,842M** (6/30/26). Rose — but **NON-DIAGNOSTIC**, as on 8/4: organic inflows swamp it. |
+| 2 | **ACRA / Designated-Buyer allocation disclosure?** | **NONE.** Full-text scan for `designat` returns only hedging-instrument XBRL tags. **§2.8 registered closure condition NOT met.** |
+| 3 | Matching jump in "Investment funds" / consol-VIE lines? | **NO.** Consol-VIE mortgage line **FELL** $2,140M → $2,058M; related-party mortgage +$63M. **No sidecar landing is visible.** |
+| 4 | Apollo 10-Q Retirement Services segment cross-check | ⚠️ **NOT RUN this session — outstanding.** |
+
+**7.3c — Residual arithmetic, with the caveats that make it non-probative:**
+$93,077M + $8,700M = $101,777M expected on a full landing with zero other change; actual **$99,974M** ⇒ residual **−$1,803M**. Applying Q4→Q1 organic drift (+$1,159M) ⇒ residual **−$2,962M**.
+⚠️ **This is NOT evidence of a §2.8 diversion, and must not be cited as such.** Four unmeasured effects sit inside it: (a) the $8.7B **includes accrued interest**, so not all of it is loan principal; (b) transitional floating-rate CRE loans **amortize and prepay fast** — a quarter of runoff on a $100B book is material; (c) **CECL day-one allowance** on acquired loans reduces the net carrying value; (d) **Q2 organic drift is unobserved** and need not equal Q1's. **The instrument cannot separate these — exactly the ambiguity §2 pre-registered.**
+
+**7.3d — §2.8 landing-entity gap: still OPEN, but the diversion branch is now WEAKLY DISFAVORED.** Athene has spoken on this deal **in its own name in three primaries** — Q1 10-Q, Q2 10-Q ("**we** completed the purchase"), and the Q2 FI deck (*"Athene's notable 2Q transaction activity included **ARI commercial mortgage loan deployment**"*) — with **zero designation or portion language in any of them**, and the consolidated mortgage line moved **+$6.9B against an $8.7B purchase**. ⚠️ **The gap does NOT close**: no affirmative allocation disclosure exists, and §2.8 designation is by private notice. But "a material portion was routed elsewhere" now requires the diverted assets to be invisible in *both* the VIE and related-party lines **while** the primary line absorbed 79% of the book. **Moved from THEORETICAL-OPEN → OPEN, diversion branch weakly disfavored.** *(SHADE's own registered thread; no other agent's confidence touched.)*
+
+### 7.4 §3 matrix cell — FINAL
+
+**Leg 1 STABLE (≤+48bp) × Leg 2 PARTIAL** ⇒ the cell reading: ***"THE M-11 RESULT: perimeter opacity confirmed on a named $9B deal while funding stays calm — recognition-integrity thesis supported without any stress print."***
+
+⚠️ **SHADE qualifies its own matrix text before NEXUS uses it.** The cell was written for a materially-invisible landing. **What actually happened is a largely-VISIBLE landing (79% of the book in the registered line) with funding calm** — so *"perimeter opacity confirmed"* **overstates it.** The honest reading: **the recognition perimeter mostly HELD on this deal.** The residual opacity is real but narrow — the ~$1.8B unexplained residual is **unattributable** (7.3c), and the §2.8 allocation remains undisclosed. **Recommend NEXUS record the cell as "leg-1 STABLE × leg-2 PARTIAL, perimeter largely held, residual unattributable" rather than the cell's stock sentence.** M-11's 55% is NEXUS's to move or not; **SHADE does not move it.**
+
+### 7.5 Confidence discipline — unchanged, stated explicitly
+**M-11 (55%) NOT touched** — NEXUS's row. **PRED-CREED-010 (70%) NOT touched** — CREED's ledger; figures routed, verdict is CREED's. **No SHADE band, threshold or confidence moved by this grade.**

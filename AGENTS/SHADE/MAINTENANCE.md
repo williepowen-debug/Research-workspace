@@ -111,3 +111,13 @@ Structural-change log for SHADE architecture: docs/scripts/protocol/schema chang
 - **STATUS COMPRESSED 363 → 304** (DAEDALUS PAT-055 ask #3). Retired graded §0 catch-up deltas (§0a 6/28, §0b 7/9, §0c 7/20, §0 6/21) → `archive/STATUS_section0_deltas_retired_2026-07-27.md`, left a pointer, kept only §0d/§0e live. **Standing rule installed: retire the oldest §0 delta at every closeout** so the section stops accreting. Still above the ~250 cap — next candidate is §2 (72 lines, June-vintage), deliberately NOT restructured unread at closeout.
 - **STATUS gains §10b** — DAEDALUS L2→L3 promotion + the two still-open owner-lane asks (PREDICTIONS.tsv with confidences at registration = the L4-path item; standing FIRED-triad table) + the standing single-name/disclosure-class composite guard.
 - **Mail** — 3 late packets triaged at closeout (WALTER SIG-027 info-only, SIG-028 noted as CRE counter-evidence, DAEDALUS acted). Both lanes clean.
+
+## 2026-08-13 (real-SHADE)
+- **CREATED** `research/ATHENE_FUNDING_MIX_ENCUMBRANCE_SHIFT_2026-08-13.md` — primary funding-mix/encumbrance analysis + the kill-path-1 identification defect + item-⑤ verification record.
+- **EXTENDED** `2026-08-04_athene-q2-m11-grade-card.md` with **§7 FINAL GRADES**. Frozen §1–§6 bands left byte-unchanged; §7 appended, not edited into. No band moved.
+- **RETIRED** STATUS **§0d** (2026-07-27 Delaware Life delta, ~20.7k chars) → appended verbatim to `archive/STATUS_section0_deltas_retired_2026-07-27.md`, replaced in STATUS by a pointer. Standing PAT-055 rule (retire the oldest §0 delta at every closeout). Live deltas now **§0e → §0i**.
+- **ADDED** STATUS **§0i**; header stamp updated 8/4 → 8/13.
+- **REWROTE** `SCRATCH.md` (8/4 block and earlier retained below as history).
+- **board_log.tsv** +7 rows (2 grade, 1 verification, 1 research, 1 live-tape, 1 calendar-binary, 2 inbox... 7 total incl. CREED).
+- ⚠️ **STRUCTURAL DEBT FLAGGED, not fixed: `STATUS.md` is 420 lines vs the ~250-line cap** in the spawn protocol. §0i is large by necessity (two FINAL grades + a resolved binary). **Compression is next session's first structural task**; §2 (72 lines, June-vintage) remains the standing candidate.
+- ⚠️ **TOOLING GAP RECORDED:** `FORGE/tools/market-data/fetch.py` exposes only `price`/`prices`/`fred` — **no history/closes subcommand**, so SHADE cannot pull the close series its own sign-leg rule requires. Flagged to PROME; not a SHADE-owned file.
