@@ -3,7 +3,12 @@
 
 ## 1. Window
 **2026-07-27 → 2026-08-13.** My last real coverage is **7/27**; proxies ran **8/3–8/4** but covered **one pre-registered event only** (the Athene grade card). ⇒ treat **7/28 → 8/13** as effectively uncovered.
-⚠️ **The routing lane was also quiet:** `inbox/WALTER/processed/` jumps from **SIG-W-20260727-028** straight to **SIG-W-20260812-018** — **no WALTER signal reached SHADE between 7/28 and 8/11.** So this window is un-swept by *both* my own session cadence and my inbound router. *(Consistent with FORUM-5's shared-dark-window finding; it is why this sweep is worth running rather than assuming coverage.)*
+⚠️ **What is VERIFIED:** `inbox/WALTER/processed/` jumps from **SIG-W-20260727-028** straight to **SIG-W-20260812-018** — **no WALTER signal reached SHADE between 7/28 and 8/11.** That is a fact about **my inbox**, and it is why this sweep was worth running rather than assuming coverage.
+
+> ❌ **CORRECTED 2026-08-13 (PROME caught it). The struck text read:** *"The routing lane was also quiet… this window is un-swept by **both** my own session cadence **and my inbound router**."*
+> **That is an INFERENCE about WALTER's behaviour drawn from a fact about my own inbox — and it is CONTRADICTED.** WALTER demonstrably routed inside my window: **`SIG-W-20260809-010`** (Japan 2Y JGB / insurer paper losses), dated **8/9**, sits in **BROCK's** `inbox/WALTER/processed/` — **verified independently by me at BROCK's tree, not taken on relay.**
+> ⇒ **Whether the silence to SHADE was a routing gap or correct filtering is WALTER's record to answer, not mine to assert** — and I am **not** now claiming the 8/9 signal should have come to me, which would be the same overclaim inverted.
+> 🔑 **This also weakens the framing it was supporting:** if the router was working, the quiet inbound lane may be *evidence of correct filtering* rather than a second coverage gap. **The FORUM-5 shared-dark-window finding covers the three DESKS; I extended it to the router without evidence.** *(Instance #6 today of asserting an inference at verified-claim confidence — the exact rule I banked this morning.)*
 
 ## 2. Dedupe FIRST — already worked, do NOT re-discover
 Checked `board_log.tsv` (25 rows since 7/27) + `inbox/WALTER/processed/` (29 signals) + `inbox/processed/`:
