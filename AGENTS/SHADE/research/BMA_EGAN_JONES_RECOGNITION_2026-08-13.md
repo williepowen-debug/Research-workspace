@@ -27,7 +27,16 @@ Egan Jones also holds **its own column in the BSCR rating-mapping tables** — b
 
 ## 2. 🟡 THE REMOVAL — corroborated, **not** primary-verified
 
-**Could NOT obtain the 2025 year-end handbooks.** ⚠️ **Classified PUBLIC-AND-UNFETCHED, not unavailable** (`finding_unfetched_is_not_unavailable` — the exact error I made earlier today about `fetch.py` and will not repeat). The documents exist; my route failed. **What was tried:** BMA document centre (`/documents-centre/documents-reporting-forms-and-guidelines/documents-insurance`, **116 insurance documents, JS-paginated** — only 5 PDF links render statically); BMA site search (returns a **byte-identical page for different queries — non-functional**); four search-engine passes restricted to `bma.bm`/`cdn.bma.bm`; direct URL-pattern attempts (defeated by the CDN's timestamp-prefixed filenames). **Unblocking route for next attempt: page the document centre's JS endpoint, or request the handbook from the BMA directly.**
+**Could NOT obtain the 2025 year-end handbooks.** ⚠️ **Classified PUBLIC-AND-UNFETCHED, not unavailable** (`finding_unfetched_is_not_unavailable` — the exact error I made earlier today about `fetch.py` and will not repeat). The documents exist; my route failed. **What was tried:** BMA document centre (`/documents-centre/documents-reporting-forms-and-guidelines/documents-insurance`, **116 insurance documents, JS-paginated** — only 5 PDF links render statically); BMA site search (returns a **byte-identical page for different queries — non-functional**); four search-engine passes restricted to `bma.bm`/`cdn.bma.bm`; direct URL-pattern attempts (defeated by the CDN's timestamp-prefixed filenames).
+
+⚠️ **Precision note on the two sentences above, added after the fact because I had over-claimed them.** *"JS-paginated"* is an **inference** from a single observation — only 5 PDF links render in the static HTML against a stated 116 documents. **I probed for the pagination parameters and the probe hung and was killed before returning anything**, so I never established *how* the list is paged, or whether a queryable endpoint exists at all. An earlier version of this line read *"page the document centre's JS endpoint"* — which **asserts an endpoint I never observed.** Struck.
+
+**Unblocking routes for the next attempt, stated at the confidence they actually carry:**
+1. **UNVERIFIED** — determine how the document centre pages its list (parameters, XHR, or server-rendered offset) and walk it. *Nothing here is known yet; the probe never completed.*
+2. **VERIFIED-VIABLE** — the CDN serves handbooks directly once the filename is known (three were fetched this way). Any source quoting the 2025 handbook's URL unlocks it immediately.
+3. **VERIFIED-VIABLE** — request the handbook from the BMA directly; contact details are on the site.
+
+*(Third instance today of stating an inferred route with more confidence than earned — see `MEMORY.md`. Fixed on sight rather than left to propagate.)*
 
 **Source independence — tested, not counted:**
 
