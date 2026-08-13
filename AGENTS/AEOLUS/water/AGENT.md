@@ -33,7 +33,12 @@
 | `kaub_q` / `duisburg_ruhrort_q` / `emmerich_q` / `maxau_q` / `worms_q` / `mainz_q` | m3_s | `WSV-PEGELONLINE-<ST>-Q` | **discharge — physically conserved and DATUM-INDEPENDENT**, unlike stage. Prefer it for cross-era comparison. |
 | `rhine_freight_eur_t` | EUR_per_t | *(no verified source — see SOURCES)* | Rotterdam→S-of-Kaub barge rate |
 | `snowpack_upper_colorado` | pct_median | `NRCS-SNOTEL` | **seasonal — near-zero Jun–Sep, correctly empty** |
-| `panama_transits` | count | `ACP` | as published |
+| `yichang_stage` / `hankou_stage` / `datong_stage` | m | `CJH-<STATION>` | Yangtze; parse the `var sssq` JSON |
+| `yichang_q` / `hankou_q` / `datong_q` | m3_s | `CJH-<STATION>-Q` | Yangtze discharge |
+| `three_gorges_level` | m | `CJH-SANXIA` | reservoir level |
+| `budapest_stage` / `baja_stage` / `mohacs_stage` | cm | `OVF-<STATION>` | Danube; **local datum, negatives normal** |
+| `rosario_stage` / `santafe_stage` / `corrientes_stage` | m | `UNL-FICH-<STATION>` | Paraná; **Rosario = the grain-export gauge** |
+| `panama_transits` | count | `ACP-MONTHLY-OPS-SUMMARY` | **oceangoing transits daily average** — NOT arrivals; monthly |
 
 **Use these names exactly.** A new instrument needs AEOLUS's approval — **do not invent one.**
 

@@ -136,6 +136,40 @@ curl -s "https://www.pegelonline.wsv.de/webservices/rest-api/v2/stations/KAUB/WV
 ⚠️ **No verified source for barge FREIGHT rates.** The ~€150/t figures in my dossier are trade-press relays (PJK/Bloomberg via gCaptain/Insurance Journal), **not a primary I can re-pull.** Finding a resolvable freight series is an open gap.
 **Benchmarks:** 2018 all-time low **25 cm** (October) · **≤40 cm** = uneconomical navigation.
 
+### ✅ YANGTZE — gap closed 2026-08-13 (Changjiang Water Resources Commission, the issuing agency)
+```bash
+curl -sL "http://www.cjh.com.cn/sqindex.html" \
+ | python3 -c "
+import re,sys,json,datetime
+s=sys.stdin.read()
+d=json.loads(re.search(r'var sssq = (\[.*?\]);', s, re.S).group(1))
+for x in d: print(x['stnm'], x.get('z'), 'm', x.get('q') or x.get('oq') or '-', 'm3/s')
+"
+```
+⚠️ **The page embeds a clean JSON array (`var sssq = [...]`) — parse that, do not scrape the HTML table.** 14 stations, `z` = level (m), `q` = discharge (m³/s), `tm` = epoch ms.
+**Verified 2026-08-13 16:00 UTC:** **Yichang 宜昌 44.43 m / 17,800 m³/s** · **Hankou 汉口 (Wuhan) 20.61 m / 27,600** · **Datong 大通 10.06 m / 31,100** · Shashi 沙市 34.90 · Jiujiang 九江 14.51 · **Three Gorges Reservoir 三峡水库 157.30 m** (outflow 14,900).
+**Navigation-relevant stations: Yichang (below Three Gorges), Hankou (Wuhan industrial reach), Datong (the standard downstream gauge).**
+⚠️ `www.cjw.gov.cn` does **not** resolve; **`cjh.com.cn` is the working host.** ⚠️ Page is GB/UTF-8 mixed — decode defensively.
+
+### ✅ DANUBE — gap closed 2026-08-13 (OVF, Hungarian national water directorate)
+```bash
+curl -sL "https://www.vizugy.hu/index.php?mapModule=OpVizallas&mapData=VizmerceLista"
+```
+**Verified 2026-08-13 (18:00 local):** **Budapest 24 cm** · **Baja −4 cm** · **Mohács 10 cm** · Adony −73 cm (Danube km 1598.110).
+⚠️ **Values are cm against each station's own local datum — negative is normal, not "below empty."** Same trap as the Rhine.
+🔴 **OPEN SUB-GAP: I have NOT pulled the Hungarian low-water reference values (`LKV` = *legkisebb vízállás*, lowest recorded level).** The site exposes LKV stations, so the reference exists. **Until pulled, a Danube level has no comparison baseline and must NOT be called "low" or "record."** *(This is the same defect that made the Duisburg leg unfalsifiable — do not repeat it.)*
+⚠️ Danube is **multi-national**; Hungary is one reach. Austria `ehyd.gv.at` (200) and Serbia `hidmet.gov.rs` (200) both respond and are unexplored.
+
+### ✅ PARANÁ — gap closed 2026-08-13 (UNL-FICH, Facultad de Ingeniería y Ciencias Hídricas)
+```bash
+curl -sL "https://fich.unl.edu.ar/cim/rios/parana/alturas"
+```
+Whole-basin table: `station | river | current (m) | Δ | previous | ALERT level | EVACUATION level`. **The alert/evacuation columns are published thresholds — this source ships its own reference levels**, unlike the Danube one.
+**Verified 2026-08-13:** **Rosario 3.02 m** (Δ −0.01; alert 5.00) · **Santa Fe 3.18** (−0.02; alert 5.30) · Corrientes 3.28 (−0.08; alert 6.50) · Villa Constitución 2.47 · Diamante 3.36 · Barranqueras 3.29.
+🔑 **Rosario is the one that matters** — the Up-River port cluster around Rosario handles the large majority of Argentine grain and soy-product exports, so Paraná stage there is a **grain-logistics cost** variable (→ **CARL**, **MARCO**).
+⚠️ **The published thresholds are FLOOD levels (alert/evacuation), NOT low-water navigation limits.** For the low-water direction I still need a draft/navigation reference — **open sub-gap.**
+⚠️ **Current reading is NOT a low-water event:** 3.02 m at Rosario is mid-range; INA described late-July levels as within normal parameters. **This channel is not firing** — recorded so a future reader does not assume it was opened because something was wrong.
+
 ### Mississippi / Ohio
 USACE Rivergages + NWS AHPS + USGS NWIS (§3). ⚠️ **Autumn (Sep–Nov) is the window** — an August "normal" is not evidence of a benign season. I retracted a "firing" read on 7/22 for exactly this.
 
