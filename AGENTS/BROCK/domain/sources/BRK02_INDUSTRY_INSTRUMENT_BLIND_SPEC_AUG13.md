@@ -1,7 +1,10 @@
 # BRK-02 — INDUSTRY NON-ACCRUAL INSTRUMENT: BLIND DEFINITION-MATCH SPEC
 
-**Author:** BROCK · **Date:** 2026-08-13 Thu · **Status:** 🔴 **PRE-REGISTERED, AWAITING WILL'S RATIFICATION.** Not live as the resolver until ratified.
-**Authority:** Ruling ⑤, `PROME/proposals/2026-08-13_private-credit-batch-RULED.md` — blind spec RATIFIED as recommended with my three constraints folded in. **Cite that artifact; do not reconstruct it.**
+**Author:** BROCK · **Date:** 2026-08-13 Thu · **Status:** ✅ **RATIFIED BY WILL 2026-08-13 — THIS IS THE RESOLVER OF RECORD FOR BRK-02.**
+**Ratification:** FORUM 5 slate item, approved as recommended — rulings-record `FORUM/2026-08-13_private-credit-recognition/04_synthesis/03_PROME_rulings-record.md` (commit `408110c0d`); batch artifact ⑤ `PROME/proposals/2026-08-13_private-credit-batch-RULED.md` updated. **Cite those; do not reconstruct.**
+⚠️ **Branch B5 of the P2 branch set ("spec still unratified at 9/30 ⇒ NO-VERDICT by default") is now MOOT and cannot fire.** All other branches stand unchanged.
+⚠️ **The §4 metadata-only rule survives ratification and still binds:** the C4 availability check runs on publication calendars / listing pages / prior-edition dates ONLY. **Opening the report body before resolution contaminates the blindness this spec exists to protect.**
+**⚠️ TWO DISTINCT RATIFICATIONS, in sequence — do not read them as one:** **(1) the METHOD** was ratified earlier on 8/13 by ruling ⑤ in `PROME/proposals/2026-08-13_private-credit-batch-RULED.md` (*"write the blind spec, basis criteria only, zero values"*, with my three constraints folded in) — that authorized me to WRITE this document. **(2) THIS DOCUMENT** was then ratified as a FORUM 5 slate item, which is what makes it the **resolver of record**. **A reader who conflates them will think the spec was ratified before it existed.**
 **Predecessor rulings on the same prediction:** ① name set = SCRATCH six (basis, not outcome) · ⑤(a) proxy scope guard RATIFIED.
 
 > ## ⛔ BLINDNESS DECLARATION
