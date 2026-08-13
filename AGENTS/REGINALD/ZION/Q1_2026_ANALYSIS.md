@@ -1,5 +1,8 @@
 # ZION Q1 2026 — REGINALD ANALYSIS
 
+> ⚠️ **DEAD-FIGURE BANNER, added 2026-08-13 (MI3 cohort re-run).** This file cites the **OZK `37.6%` Memo3/C&I ratio**, which is **KILL-ON-SIGHT — it has no reproducible provenance at ANY quarter** (WAL checked 18, REGINALD checked 4). Live OZK: **9.35% legacy basis / 5.46% uniform basis** at 6/30/2026, ranking **5th of 14**, with MI3 dollars **−64% YoY**. ⚠️ **The `>20%` flag this file reasons against is RETIRED** (`registry/NOTES.md` 2026-08-13): its basis is not cross-bank comparable, and the two bases invert the rank. **Canonical → `reports/2026-08-13_MI3_cohort_rerun.md` + `workbook/MI3_COHORT.tsv`.** Text below preserved verbatim as the historical record — do NOT find-replace it, and do not cite it as current.
+
+
 **Source:** ZION earnings release + 8-K supplemental tables + full Quartr call transcript (Apr 20, 2026 AMC; call 5:30 PM ET).
 **Mined:** Apr 20 PM session, immediately post-call. 8-K pulled via StockTitan mirror (EDGAR direct blocked 403). Full verbatim transcript preserved at `sources/transcript_Q1_2026.md`. Deck pending Round 2.
 **Ticker:** ZION | **Price:** $63.02 close (+0.47%) → **$62.01 AH (-1.6%)** on rev miss + NII miss.

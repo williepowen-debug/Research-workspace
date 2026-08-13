@@ -1,5 +1,8 @@
 # OZK THESIS — Bank OZK Deep Dive
 
+> ⚠️ **DEAD-FIGURE BANNER, added 2026-08-13 (MI3 cohort re-run).** This file cites the **OZK `37.6%` Memo3/C&I ratio**, which is **KILL-ON-SIGHT — it has no reproducible provenance at ANY quarter** (WAL checked 18, REGINALD checked 4). Live OZK: **9.35% legacy basis / 5.46% uniform basis** at 6/30/2026, ranking **5th of 14**, with MI3 dollars **−64% YoY**. ⚠️ **The `>20%` flag this file reasons against is RETIRED** (`registry/NOTES.md` 2026-08-13): its basis is not cross-bank comparable, and the two bases invert the rank. **Canonical → `reports/2026-08-13_MI3_cohort_rerun.md` + `workbook/MI3_COHORT.tsv`.** Text below preserved verbatim as the historical record — do NOT find-replace it, and do not cite it as current.
+
+
 **Created:** 2026-02-25  
 **Updated:** 2026-02-25 23:00 UTC — **10-K VERIFIED** ✅  
 **Status:** COMPLETE — Ready for Position  

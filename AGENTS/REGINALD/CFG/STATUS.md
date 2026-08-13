@@ -1,4 +1,7 @@
 # CFG STATUS
+
+> ⚠️ **DEAD-FIGURE BANNER, added 2026-08-13 (MI3 cohort re-run).** This file cites the **OZK `37.6%` Memo3/C&I ratio**, which is **KILL-ON-SIGHT — it has no reproducible provenance at ANY quarter** (WAL checked 18, REGINALD checked 4). Live OZK: **9.35% legacy basis / 5.46% uniform basis** at 6/30/2026, ranking **5th of 14**, with MI3 dollars **−64% YoY**. ⚠️ **The `>20%` flag this file reasons against is RETIRED** (`registry/NOTES.md` 2026-08-13): its basis is not cross-bank comparable, and the two bases invert the rank. **Canonical → `reports/2026-08-13_MI3_cohort_rerun.md` + `workbook/MI3_COHORT.tsv`.** Text below preserved verbatim as the historical record — do NOT find-replace it, and do not cite it as current.
+
 **Last Updated:** 2026-04-16 (post-Q1 earnings) | **Status:** 🟠→🔴 THESIS VALIDATED + FHLB FLIPPED
 **Price:** $64.78 (Apr 16, -0.63%) | **Assets:** $227.9B | **Total Loans:** $143.7B
 **Q1 2026 EPS:** $1.13 (vs $1.09 est = +$0.04 beat) | **CET1:** 10.5% reported / **9.3% AOCI-adjusted** (1.2% gap)
