@@ -314,17 +314,53 @@ def _make_run_fetch(base_fetch=_fetch_chain, retries=1, sleep_s=0.5):
     return fetch
 
 
+def _wf_event_key(row):
+    """Dedup key for would-fire counting: the INSTRUMENT the event fired into.
+
+    A would-fire EVENT is a card reaching would-fire state — not a ledger row.
+    Rows multiply per event by construction (the documented PB-0001/PB-0002 pair =
+    two rows, ONE observation of TRY-FIRE-004; the RULING-D split PB-0002a/PB-0002b
+    = one fill, two rows), so counting rows inflated the Phase-2 counter to 5/6 on
+    2026-08-07 when the distinct-event count was 3 (flagged in the ledger's own
+    banner that day; fix authorized by Will 2026-08-13).
+
+    Key = parsed (root, expiry, legs) — qty EXCLUDED (x45/x25/x5 are tranches of
+    one event, never three events). Expiry is resolved against the row's OPENED
+    date, not today: "Sep-30" written in July must key to 2026-09-30 forever, even
+    when this runs after that date has passed — otherwise a Jan-inferred year flip
+    splits a key mid-window. Fallbacks when the structure is unparseable: card_id,
+    then paper_id with any split-letter suffix stripped (PB-0002a -> PB-0002).
+
+    ⚠️ Known tie-break, DOWNWARD by design: two genuinely different cards firing
+    into the identical instrument inside one 90d window would collapse to one
+    event. Under-counting cannot false-trip the Will-pinned gate; a late trip
+    costs attention timing, a false trip spends a $1,500/mo conversation on
+    arithmetic. The conservative direction is the safe one for this gate."""
+    opened = _asof_date(row.get("opened"))
+    parsed = parse_legs(row.get("structure"), opened)
+    if parsed:
+        return ("instr", parsed["root"], parsed["expiry"], tuple(parsed["legs"]))
+    cid = (row.get("card_id") or "").strip()
+    if cid:
+        return ("card", cid)
+    pid = (row.get("paper_id") or "").strip()
+    return ("pid", re.sub(r"^([A-Za-z]+-\d+)[a-z]$", r"\1", pid))
+
+
 def would_fire_90d(rows, today):
-    """Trailing-90-day would-fire count = the Phase-2 volume-gate metric
-    (PAPER_BOOK_DESIGN.md §Phase 2; gate opens at PHASE2_GATE_COUNT). Counts every
-    row (OPEN or CLOSED — a card that fired and closed still fired) whose `opened`
-    date falls in the trailing 90 days."""
-    n = 0
+    """Trailing-90-day DISTINCT would-fire events = the Phase-2 volume-gate metric
+    (PAPER_BOOK_DESIGN.md §Phase 2; gate opens at PHASE2_GATE_COUNT). An event is
+    counted once regardless of how many rows record it (see _wf_event_key); a card
+    that fired and closed still fired. Returns (distinct_events, raw_rows) so the
+    display can show both — the raw count stays visible precisely because it is
+    the number that was wrong."""
+    events, raw = set(), 0
     for r in rows:
         d = _asof_date(r.get("opened"))
         if d is not None and 0 <= (today - d).days <= 90:
-            n += 1
-    return n
+            raw += 1
+            events.add(_wf_event_key(r))
+    return len(events), raw
 
 
 def compute_mark(match, today, now_str):
@@ -432,12 +468,13 @@ def run(args):
     for pid, struct, note in problems:
         print(f"  ⚠ UNMARKED {pid} {struct} — {note} (prior mark kept, not fabricated)")
 
-    gate = would_fire_90d(rows, today)
+    gate, raw_rows = would_fire_90d(rows, today)
     if gate >= PHASE2_GATE_COUNT:
         gate_msg = "— ★ GATE TRIPPED: Phase-2 salaried-desk trigger met (PAPER_BOOK_DESIGN.md §Phase 2 — confirm salary tranche w/ Will)"
     else:
         gate_msg = "(un-tripped; Phase 1 shadow-only)"
-    print(f"\nPhase-2 volume gate: would-fire (90d) {gate}/{PHASE2_GATE_COUNT} {gate_msg}")
+    dup_note = f" [{raw_rows} rows; splits/twins dedup to events]" if raw_rows != gate else ""
+    print(f"\nPhase-2 volume gate: would-fire (90d) {gate}/{PHASE2_GATE_COUNT} distinct events{dup_note} {gate_msg}")
     print_scoring_gate(rows)
 
     if args.dry_run:
@@ -590,15 +627,63 @@ def selftest():
     except RuntimeError:
         pass
 
-    # would_fire_90d: counts opened-in-window rows (OPEN or CLOSED), ignores old/blank
+    # would_fire_90d: DISTINCT events, not rows (fix authorized 2026-08-13; the 8/7
+    # live ledger printed 5/6 on a distinct-event count of 3 — that exact shape is
+    # the regression case below). Window/blank handling unchanged.
     tref = date(2026, 7, 24)
     wf_rows = [
-        {"opened": "2026-07-17 16:00 ET", "status": "OPEN"},    # 7d ago -> in
-        {"opened": "2026-07-20 09:50 ET", "status": "CLOSED"},  # 4d ago, closed -> in
-        {"opened": "2026-04-01 10:00 ET", "status": "CLOSED"},  # 114d ago -> out
-        {"opened": "", "status": "OPEN"},                        # blank -> out
+        {"paper_id": "PB-1", "structure": "TLT Sep-30 77P x45",
+         "opened": "2026-07-17 16:00 ET", "status": "OPEN"},    # 7d ago -> in
+        {"paper_id": "PB-2", "structure": "KRE Dec-18 68P x2",
+         "opened": "2026-07-20 09:50 ET", "status": "CLOSED"},  # 4d ago, closed -> in
+        {"paper_id": "PB-3", "structure": "SPY Jan-16 500C x2",
+         "opened": "2026-04-01 10:00 ET", "status": "CLOSED"},  # 114d ago -> out
+        {"paper_id": "PB-4", "structure": "WAL 2026-09-18 67.5P x1",
+         "opened": "", "status": "OPEN"},                        # blank -> out
     ]
-    assert would_fire_90d(wf_rows, tref) == 2, would_fire_90d(wf_rows, tref)
+    assert would_fire_90d(wf_rows, tref) == (2, 2), would_fire_90d(wf_rows, tref)
+
+    # ★ REGRESSION — the live 2026-08-07 ledger shape: 5 rows in window, 3 events.
+    # PB-0001 + PB-0002a + PB-0002b are three rows of ONE observation (same TLT
+    # Sep-30 77P; the documented pair + the RULING-D split); qty differs and must
+    # not split the key.
+    live_shape = [
+        {"paper_id": "PB-0001", "card_id": "TRY-FIRE-004-ZONE2/3",
+         "structure": "TLT Sep-30 77P x45", "opened": "2026-07-17 16:00 ET"},
+        {"paper_id": "PB-0002a", "card_id": "TRY-FIRE-004-ZONE3-FILL",
+         "structure": "TLT Sep-30 77P x5 (HARVEST TRANCHE)", "opened": "2026-07-20 09:50 ET"},
+        {"paper_id": "PB-0002b", "card_id": "TRY-FIRE-004-ZONE3-FILL",
+         "structure": "TLT Sep-30 77P x25 (REMAINING TRANCHE)", "opened": "2026-07-20 09:50 ET"},
+        {"paper_id": "PB-0003", "card_id": "TRY-VIOLET-VIXCS-ZONE2-FILL",
+         "structure": "VIX (VIXW) Aug-05 20C/25C call debit spread x4", "opened": "2026-07-27 11:38 ET"},
+        {"paper_id": "PB-0004", "card_id": "TRY-FIRE-001-HY280",
+         "structure": "KRE Dec-18 68P x2 (~8-12% OTM per card ZONE-1)", "opened": "2026-07-30 13:02 ET"},
+    ]
+    got = would_fire_90d(live_shape, date(2026, 8, 13))
+    assert got == (3, 5), got
+
+    # Key stability across an expiry passing: "Sep-30" opened in July and its ISO
+    # twin "2026-09-30" must collapse to ONE event even when counted AFTER Sep-30
+    # (expiry resolves against the row's OPENED date, never today).
+    post_expiry = [
+        {"paper_id": "PB-A", "structure": "TLT Sep-30 77P x45", "opened": "2026-07-17 16:00 ET"},
+        {"paper_id": "PB-B", "structure": "TLT 2026-09-30 77P x25", "opened": "2026-07-20 09:50 ET"},
+    ]
+    got2 = would_fire_90d(post_expiry, date(2026, 10, 5))
+    assert got2 == (1, 2), got2
+
+    # Fallbacks: unparseable structure -> card_id; no card_id -> paper_id with the
+    # split-letter suffix stripped (PB-0009a/PB-0009b -> one event).
+    fb = [
+        {"paper_id": "PB-0009a", "card_id": "", "structure": "not parseable",
+         "opened": "2026-07-20 09:00 ET"},
+        {"paper_id": "PB-0009b", "card_id": "", "structure": "also not parseable",
+         "opened": "2026-07-20 09:00 ET"},
+        {"paper_id": "PB-0010", "card_id": "TRY-X-CARD", "structure": "garbage",
+         "opened": "2026-07-21 09:00 ET"},
+    ]
+    got3 = would_fire_90d(fb, tref)
+    assert got3 == (2, 3), got3
 
     print("paper_book_mark.py SELFTEST: PASS")
     return 0

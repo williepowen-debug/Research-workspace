@@ -26,15 +26,20 @@
 #      staleness-flagged. The equity curve is NOT continuous — never pretend it is.
 # will_decision key: APPROVED / PASSED / NO-DECISION. The PASSED subset = the refusal-
 #   calibration 'ghost' (did the discipline to say no save or cost money).
-# 🔴 WOULD-FIRE COUNT IS INFLATED — READ BEFORE ACTING ON THE PHASE-2 GATE (flagged 2026-08-07):
-#   would_fire_90d() counts ROWS (status OPEN or CLOSED) with `opened` in window. It therefore
-#   DOUBLE-COUNTS (a) the documented PB-0001/PB-0002 pair — two rows, ONE observation of
-#   TRY-FIRE-004 — and now (b) the RULING-D split PB-0002a/PB-0002b, which is ONE fill, not two
-#   would-fire events. Both children deliberately keep the ORIGINAL opened stamp so this is
-#   visible and dateable rather than silent.
-#   ⇒ The tool printed `would-fire (90d) 5/6` on 2026-08-07. The DISTINCT-CARD count is 3.
-#   ⛔ The gate (6) is NOT changed and must not be — it is Will-pinned (2026-07-24). The COUNTER
-#   is what is wrong. Do NOT let this trip Phase 2 on arithmetic. Owed build, routed 2026-08-07.
+# ✅ WOULD-FIRE COUNT FIXED 2026-08-13 (Will-authorized; was flagged 2026-08-07 as INFLATED):
+#   would_fire_90d() now counts DISTINCT would-fire EVENTS, keyed on the parsed instrument
+#   (root, expiry, legs — qty excluded; expiry resolved against the row's OPENED date so a
+#   key never flips year mid-window). This collapses both documented duplicate classes:
+#   the PB-0001/PB-0002 pair (two rows, ONE observation of TRY-FIRE-004) and the RULING-D
+#   split PB-0002a/PB-0002b (one fill, two rows). Was `5/6` rows on 8/7; prints `3/6 distinct
+#   events [5 rows]` on 8/13 — the raw row count stays displayed because it is the number
+#   that was wrong. The 8/7 live shape is a permanent selftest regression case.
+#   ⛔ The gate (6) is UNCHANGED — Will-pinned (2026-07-24). Only the counter changed.
+#   ⚠️ Known tie-break, DOWNWARD by design: two different cards firing into the identical
+#   instrument in one window collapse to one event — an under-count cannot false-trip the
+#   gate; the conservative direction is the safe one. Split children keep ORIGINAL opened
+#   stamps (a partial exit is not a new open) — that convention is unchanged and is now
+#   harmless to the counter.
 # Marking: paper_book_mark.py marks OPEN rows at chain MID + flags STALE (>N business
 #   days). Fill rule reference + full spec: PAPER_BOOK_DESIGN.md.
 paper_id	card_id	opened	will_decision	structure	entry_fill	entry_basis	risk_$	thesis	invalidation	mark	mark_asof	status	close_date	close_fill	pnl_$	pnl_pct	notes	lane	antecedent
