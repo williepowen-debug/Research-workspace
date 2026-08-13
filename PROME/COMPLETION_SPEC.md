@@ -1,13 +1,13 @@
 # COMPLETION SPEC — Sub-Agent Report Standard
 
-**Created:** ~2026-05 · **Updated:** 2026-08-09 (spine-audit #8 — header stamp ADDED per the 8/9 stamp canon [file had none while carrying a 7/31 migration]; §6 routing examples re-based to WAL's 7/25 promotion out of REGINALD)
+**Created:** ~2026-05 · **Updated:** 2026-08-13 (delivery method 1 RE-KEYED from overwrite-in-place `LAST_COMPLETION.md` to a DATED outbox memo — BRENT domain-review flag, PROME-lane fix: an overwritten file whose NAME promises currency is the `finding_completion_stamp_skip_reads_as_current` rot mechanism, and it duplicated live state that each agent's own SCRATCH/STATUS canonically holds [BRENT's opened by declaring that conflict]. Dated memos are what live practice already used. Existing `LAST_COMPLETION.md` files: no longer required — owners may freeze/banner their copy at their next closeout [BRENT's freeze Will-approved 8/13]; HENRY's "LAST_COMPLETION block" mixed-vintage banner pattern cited in CLOSEOUT stamp canon is a PATTERN name, unaffected) · Prior: 2026-08-09 (spine-audit #8 — header stamp ADDED per the 8/9 stamp canon [file had none while carrying a 7/31 migration]; §6 routing examples re-based to WAL's 7/25 promotion out of REGINALD)
 **Purpose:** Every spawned sub-agent writes this block at the END of its work. Prome reads it to update live owner files (`PROME/STATUS.md`, `PROME/SCRATCH.md`, `PROME/ACTIVE_DECISIONS.md`, routing inboxes) without parsing the full agent output.
 
 ---
 
 ## Required: TWO delivery methods (belt and suspenders)
 
-**1. Write to file** — overwrite `AGENTS/{your-agent-name}/LAST_COMPLETION.md`:
+**1. Write to file** — a **DATED delivery memo** at `AGENTS/{your-agent-name}/outbox/{YYYY-MM-DD}_to-PROME_{slug}.md` (and, when the work answers a PROME task packet, a copy/packet to `PROME/inbox/`). Never an overwrite-in-place status file: a file whose name promises currency reads as current-and-wrong the first closeout it skips (`finding_completion_stamp_skip_reads_as_current`), and it forks live state your own SCRATCH/STATUS canonically owns. The memo ends with this block:
 ```
 ## COMPLETION — {agent name} — {date}
 STATUS: ✅ DONE | ⚠️ PARTIAL | ❌ BLOCKED
