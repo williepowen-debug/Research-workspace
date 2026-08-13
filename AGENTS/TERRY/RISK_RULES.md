@@ -143,6 +143,16 @@ Day colour is a cheap, fast stand-in for that question. It is not the question i
 
 17. **★ THE SIZE-INCREASING BRANCH CARRIES THE HIGHER EVIDENTIAL BURDEN — fleet rule N4, Will-ratified 2026-08-11, consumed 2026-08-13 (PROME forum-4 close packet).** In a claim class whose **sole consumer is a size decision**, the branch that INCREASES size must clear a higher bar than the branch that DECREASES it — **and the spec must show the asymmetry in its own numbers**, not assert it in prose. *(The worked instance is the reason the rule exists: BRENT's crude "FUEL SPENT" fuller-size branch rested on an OI-normalized margin of **477–483 contracts (~5% of a median week), not the 1,512 its label implied** — 68% of the clearance was a denominator artifact — at the **67th percentile** of short-crowding, base rates **1.9:1 against** the claim surviving. Consumption details incl. 35a non-latching revert + 35b band death after its final 8/14 grade → `SIGNALS.tsv` row `FORUM4-35AB-FUELSPENT`.)*
 
+18. **★ A PRINT NEVER JUSTIFIES A DEEP-OTM STRIKE — MATCH THE STRIKE TO THE EVENT'S REALIZED ENVELOPE, OR TAKE THE TENOR PAST THE PRINT.** *(Promoted from `options/IV_CRUSH_PARTB_2026-08-13.md`, Will-approved 2026-08-13 — the `options/` pipeline's first promotion to a numbered rule.)* Measured, not asserted: regional-bank singles (WAL/OZK/HBAN/ZION), 32 prints Oct-24→Jul-26 — realized 1-day reaction-session moves run **median ~2–3%, max 9.7%, 0 of 32 ≥10%**, while the July book held **12.7–15.5% OTM** strikes through prints. **A single ordinary print cannot reach a >10%-OTM strike on these names.**
+
+    - **(a)** A strike **>10% OTM may not cite an upcoming print as its catalyst** — the print cannot pay it. Its real catalyst is multi-quarter transmission, so its tenor must span quarters (#16's horizon test, now with the event's measured size).
+    - **(b)** If the print IS the intended catalyst, the strike belongs **inside the realized envelope** (median 2–3%, p95 ≲9%) — and there the crush tax is real (Part A: the event premium concentrates **+10–16 vol pts in front-month deep-OTM strikes**), so prefer a **spread that SELLS the rich deep wing** rather than paying it.
+    - **(c)** Size a print-spanning long option against its **post-print mark**, not its pre-print hope.
+    - ⚠️ **Regime-conditional, and the rule says so:** the sample contains no crisis print — Mar-2023-class gaps (SVB/FRC; WAL ~−47% intraday 3/13/23) exceeded this envelope. Holding a deep strike through a print is a bet that **the regime break lands ON the scheduled date**; if that is genuinely the trade, write it on the card as that bet, in those words, and size it as a tail-timing lottery.
+    - **Scope:** the numbers are name-class-specific (regional-bank singles). Before applying the 10% line to another sector, **re-measure the envelope** — the tool is re-runnable (`options/partb_realized_moves.py`).
+
+    **First consumers:** `TRY-FIRE-002` and `TRY-FIRE-003` (PRINT-class, staged) at build time.
+
 
 ---
 
