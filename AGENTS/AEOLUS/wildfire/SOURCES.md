@@ -19,14 +19,15 @@
 ⚠️ **The URL is stable but the CONTENT is replaced monthly** — the file is not versioned. **Record the issue date with any figure you take from it**, or you will cite a superseded outlook from a live-looking URL (`finding_dated_stamp_is_a_trigger_not_a_shield`).
 **Verified (Aug-1 issuance):** above-normal potential across the western/north-central US, **newly expanding into TX, OK and the Lower Mississippi Valley.**
 
-### Drought — the fuel-state driver ✅ verified 8/13
-```bash
-curl -s -H "Accept: application/json" \
- "https://usdmdataservices.unl.edu/api/USStatistics/GetDroughtSeverityStatisticsByAreaPercent?aoi=us&startdate=7/28/2026&enddate=8/11/2026&statisticsType=1"
-```
-Returns weekly rows for `CONUS` **and** `Total` (US + PR) — **read the `areaOfInterest` field; they differ by ~8pp and are easy to confuse.**
-**Verified CONUS (valid 8/11):** `none 26.38 · d0 73.62 · d1 50.38 · d2 29.50 · d3 10.27 · d4 1.04`
-⚠️ The human-facing `droughtmonitor.unl.edu` pages return **"the tabular data did not load"** to a fetch tool. **Use the API above** — the web page failing is not the data being unavailable.
+### Drought — the fuel-state driver → **`../water/SOURCES.md` § 1 is the canonical home**
+
+⚠️ **MOVED 2026-08-13 (Will-directed). Do not re-add the pull commands here.**
+
+Drought was originally filed in this folder because it was the instrument I was using for fire that session. **That was a misfiling: drought is not wildfire's instrument.** It is the shared upstream input to **four** channels — **C2** crops, **C4** fire fuel state, **C5** river navigation, **C6** reservoir inflow. Keeping it under one consumer made it invisible to the other three and allowed the same dataset to produce different reads in two places.
+
+**Current state (valid 8/11): CONUS D1–D4 `50.38%`, D0–D4 `73.62%`, every tier up WoW.**
+
+🔑 **The fire-specific discipline, which stays here:** a national drought number is **not** a fire signal. **Pull the state/county cut and confirm the geography overlaps the fire exposure.** On 8/13 the deterioration was in **OK / TX Panhandle**, which firmed the fire outlook — while **crops in the corn belt independently refused to confirm.** Same dataset, opposite verdicts, decided entirely by geography.
 
 ---
 

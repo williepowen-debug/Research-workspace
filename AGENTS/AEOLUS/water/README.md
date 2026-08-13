@@ -1,61 +1,72 @@
-# AEOLUS · WATER — domain workspace
+# AEOLUS · WATER — hydrology (drought · water levels · allocation)
 
-**Created:** 2026-08-13 (Will-directed reorganization) · **Owner:** AEOLUS
-**Channel mapping:** **C6 = water ALLOCATION** (core channel) · **C5 = river NAVIGATION → freight** (the shipping/trade leg)
+**Created:** 2026-08-13 · **Scope broadened same day** (Will: *"I was thinking this would handle drought, water levels, etc."*) · **Owner:** AEOLUS
 
 ---
 
-## WHY THIS FOLDER EXISTS
+## WHAT THIS FOLDER IS
 
-Water is the one AEOLUS domain that spans **two channels with different mechanisms**, and the split matters enough that Will named it directly in the standing directive (2026-08-03):
+**The physical state of water across the US and the major trade basins** — and the **shared upstream input** that sets conditions on four separate channels.
 
-> *Maintain first-class tracking on MAJOR RIVER water shortages — especially where they affect SHIPPING / TRADE.*
+> **`water/` is the hydrological twin of `../regime/`.** `regime/` holds the **atmospheric** driver (ENSO); `water/` holds the **hydrological** state it produces. **Neither is a channel and neither gets a score** — they are the roots that the channels' signs are derived *from*, and counting a root once is the whole job of the Independence column (**L-02**).
 
-| | **C6 — ALLOCATION** | **C5 — NAVIGATION** |
+### The correction that produced this scope (Will, 2026-08-13)
+
+The first build scoped this folder to **allocation + navigation** only, and filed **drought (USDM) inside `wildfire/SOURCES.md`** — because that was where I happened to be using it that session. **That was a misfiling of a shared instrument into one consumer's folder.** Drought is not wildfire's instrument. It is upstream of **four** channels at once:
+
+```
+                    ┌─→ C2  crops / food            (soil moisture → yield)
+   DROUGHT ─────────┼─→ C4  wildfire fuel state     (fuel dryness → fire potential)
+   (USDM, PDSI,     ├─→ C5  river navigation        (low flow → barge draft)
+    soil moisture)  └─→ C6  reservoir allocation    (low inflow → shortage tier)
+```
+
+**Filing a shared input under one consumer makes it invisible to the other three.** It also let the same dataset produce a *different* read in two places without anyone noticing — the exact failure the reconcile-to-one-figure rule exists to prevent.
+
+## SCOPE — what lives here
+
+| Layer | Instruments | Feeds |
 |---|---|---|
-| **Mechanism** | reservoir depletion → shortage-tier / compact decision → mandatory delivery cuts + hydropower loss | low river stage → barge draft limits → freight cost ↑ → goods/industrial cost |
-| **Instrument** | reservoir **elevation** vs a decision threshold | **gauge level** vs navigable minimum, + freight rate |
-| **Repricing** | hydro utilities, SW munis, ag-water, data-center siting | shipping, freight, goods-CPI, European industrials |
-| **Speed** | quarters (policy clock) | weeks (physical clock) |
-| **Live example** | Colorado: Powell/Mead vs Hoover 1,035 ft, ROD ~10/1 | Rhine at Kaub, 12–13 cm, through its all-time low |
+| **Drought** | USDM (D0–D4), Palmer/PDSI, soil moisture | **C2 · C4 · C5 · C6** |
+| **Snowpack** | NRCS SNOTEL basin % of median (Apr-1 sets allocation) | C6 · C2 |
+| **Streamflow** | USGS NWIS gauges — **incl. Lees Ferry, the compact division point** | C6 · C5 |
+| **Reservoirs** | USBR elevation — Powell, Mead | **C6** (allocation) |
+| **River stage** | WSV/PEGELONLINE (Rhine), USACE (Mississippi/Ohio) | **C5** (navigation) |
+| **Groundwater** | USGS NWIS well levels; Ogallala as long-horizon | C2 · watch-note only |
+| **Allocation policy** | Reclamation shortage tiers, Colorado Post-2026 Guidelines, compacts | **C6** |
 
-⚠️ **These are SEPARATE ANTECEDENTS and must not be stacked.** The Colorado is driven by the **ENSO / Western-hydrology** root shared with C2/C3; the **Rhine is a European basin with an independent root.** Counting them as convergent evidence is precisely the shared-antecedent error the convergence matrix's Independence column exists to prevent (**L-02**).
+**Major navigable trade rivers under Will's standing directive (2026-08-03):** **Rhine · Mississippi/Ohio · Yangtze · Danube · Paraná** + the **Panama** chokepoint. *An empty river read is a gap to close, not idle background.*
 
-## SCOPE — what lands here
+**Not mine — route, don't deep-dive:** hydro **generation** → **WATT** (I own the water, WATT owns the MW) · ag/municipal **cost** → **CARL/MARCO** · data-center **capex** → **VULCAN** · ag-lending/muni **credit** → **REGINALD/CREED** · **Florida** → **CORAL**.
 
-**Mine:**
-- **Colorado River system** — Powell, Mead, Reclamation shortage tiers, the Post-2026 Operating Guidelines (ROD + 12/31/26 expiry), compact/decree questions.
-- **Major navigable trade rivers** (Will's standing watch): **Rhine · Mississippi/Ohio · Yangtze · Danube · Paraná**, + the **Panama** chokepoint.
-- **Western snowpack** as the allocation-setting input (Apr-1 % of median).
-- **Industrial/municipal water competition** — including **data-center water** as the third AI-siting constraint after credit and power.
+## ⚠️ THE TWO SPLITS THAT MUST NOT BLUR
 
-**Not mine — route, don't deep-dive:**
-- Hydro **generation** economics → **WATT** (I own the water resource, WATT owns the MW).
-- Ag/food and SW municipal **cost** consequences → **CARL** / **MARCO**.
-- Data-center **capex** consequence → **VULCAN** (I own the resource constraint).
-- Ag-lending / muni **credit** → **REGINALD / CREED**.
-- **Florida** water → **CORAL**. Do not import Colorado framing to FL.
+**① C6 allocation vs C5 navigation — different mechanisms, different clocks.**
 
-## THE C6 DISCRIMINATOR (binding — WALTER v0.22)
+| | **C6 ALLOCATION** | **C5 NAVIGATION** |
+|---|---|---|
+| Mechanism | reservoir depletion → shortage-tier/compact decision → delivery cuts + hydropower loss | low stage → barge draft limits → freight ↑ → goods/industrial cost |
+| Instrument | reservoir **elevation** vs a decision threshold | **gauge level** vs navigable minimum + freight rate |
+| Clock | **quarters** (policy) | **weeks** (physical) |
 
-A signal routes to C6 **only with a dated instrument or an allocation decision** — never on the word "drought." Shortage tiers, the Colorado guidelines, compacts, decrees, levels tied to a decision, supply competition, generation limits. **Still-kills:** no allocation decision + no dated instrument + no priced consequence; advocacy framing; unsourced aggregate volume claims. Long-horizon structural depletion (Ogallala) is a **watch-note with the horizon stated** — not an auto-kill, and not a score-mover until it reaches an acreage / cost / water-rights-pricing decision.
+**② Colorado and the Rhine are SEPARATE ANTECEDENTS.** The Colorado runs on the **ENSO / Western-hydrology** root shared with C2/C3; the **Rhine is an independent European basin.** ⚠️ **Never stack them as convergent evidence.**
 
-## 🔴 THE SOURCING RULE THIS FOLDER EXISTS TO ENFORCE (L-15)
+## 🔴 THE SOURCING RULE THIS FOLDER ENFORCES (L-15)
 
 **Use the issuing agency. Never a tracker.**
 
-On 2026-08-12 I published Lake Powell at **3,524.20 ft, "risen 2.2 ft"** from a `lakepowellwaterlevel`-class tracker. The **USBR primary** said **3,520.37 ft, having fallen every day for 15 days** — wrong by **3.83 ft and wrong on the trend sign**, which made my stated conclusion the exact inverse of the truth. I was grading a prediction against a **0.45 ft** margin using sources that disagreed by **3.83 ft**.
+On 2026-08-12 I published Lake Powell at **3,524.20 ft, "risen 2.2 ft"** from a tracker. The **USBR primary** said **3,520.37 ft, having fallen every day for 15 days** — wrong by **3.83 ft and wrong on the trend sign**, which made my conclusion the exact inverse of the truth. I was grading against a **0.45 ft** margin using sources that disagreed by **3.83 ft**.
 
-> **Rule: before grading any threshold, ask what the margin is and what the source spread is. If spread ≥ margin, a secondary is not "less precise" — it is UNUSABLE.**
+> **Before grading any threshold: what is the margin, and what is the source spread? If spread ≥ margin, a secondary is UNUSABLE — not merely less precise.**
 
-**Also: never cite percent-full.** The 19%-vs-23.1% conflict that cost me a session came from trackers using different capacity bases. **Elevation is the threshold instrument.** The percent figure was a number I never needed.
+**And never cite percent-full.** The 19%-vs-23.1% conflict that cost me a session came from trackers using different capacity bases. **Elevation is the threshold instrument.**
 
 ## FILES
 
 | File | Purpose |
 |---|---|
 | `README.md` | this charter |
-| `DOSSIER.md` | consolidated live state — Colorado system, rivers, the open questions |
-| `SOURCES.md` | **verified working pull commands** for every primary. Copy-paste, don't reconstruct. |
+| `DOSSIER.md` | live hydrological state — drought, levels, flows, the Colorado system, rivers |
+| `SOURCES.md` | **verified working pull commands** — copy-paste, never reconstruct |
 
-⚠️ **The central `workbook/` remains canonical.** KB / VX / FLOW / PREDICTIONS rows live in `AGENTS/AEOLUS/workbook/` with the normal `KB-AEO-NN` / `AEO-NN` IDs. **Do not fork a second ledger in here** — this folder holds synthesis and method, the workbook holds the permanent record. Cite KB IDs from the dossier.
+⚠️ **Central `workbook/` stays canonical** — no forked ledger here.

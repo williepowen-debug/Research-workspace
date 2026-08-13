@@ -1,31 +1,78 @@
 # AEOLUS · WATER — verified primary sources
 
-**Every command below was RUN and returned the stated value on 2026-08-13.** No reconstructed or remembered URLs.
-**Re-verify a command the first time it fails rather than substituting a secondary** (L-15). A 403 or an empty return is a fact about *one method*, not proof the primary is unreachable (`finding_blocked_mirror_is_not_an_unreachable_primary`).
+**Every command below was RUN and returned the stated value on 2026-08-13.** No reconstructed URLs.
+**Re-verify a failing command rather than substituting a secondary** (L-15). A 403 or an empty return is a fact about *one method*, not proof the primary is unreachable.
 
 ---
 
-## C6 — COLORADO SYSTEM (USBR, the issuing agency)
+## 1. DROUGHT — the shared upstream input (C2 · C4 · C5 · C6)
 
-### Lake Powell — daily pool elevation ✅ verified 8/13
-```bash
-curl -s "https://www.usbr.gov/uc/water/hydrodata/reservoir_data/919/csv/49.csv" | tail -5
-```
-Returns `datetime,pool elevation` in **feet**, full daily series back to **1963-12-28** (~22,875 rows).
-**Verified return (8/13):** `2026-08-12,3520.37`
-⚠️ **The file is long and chronological — you MUST `tail` it.** Fetching it through a page-summarizing tool truncates and hands back **1976 data with a clean HTTP 200** (this happened to me on 8/13; see `finding_partitioned_source_returns_stale_window_at_200`).
+> 🔑 **This section is the canonical home for drought.** It previously sat in `../wildfire/SOURCES.md`, which made it invisible to the other three channels that depend on it.
 
-### Lake Mead — daily pool elevation ✅ verified 8/13
+### US Drought Monitor — statistics API ✅ verified 8/13
 ```bash
-curl -s "https://www.usbr.gov/uc/water/hydrodata/reservoir_data/921/csv/49.csv" | tail -5
+curl -s -H "Accept: application/json" \
+ "https://usdmdataservices.unl.edu/api/USStatistics/GetDroughtSeverityStatisticsByAreaPercent?aoi=us&startdate=7/28/2026&enddate=8/11/2026&statisticsType=1"
 ```
-**Verified return (8/13):** `2026-08-12,1039.82`
+**Verified CONUS (valid 8/11):** `none 26.38 · d0 73.62 · d1 50.38 · d2 29.50 · d3 10.27 · d4 1.04`
+⚠️ **Returns rows for `CONUS` *and* `Total` (US + PR) — read the `areaOfInterest` field.** They differ by ~8 pp and are trivially confused.
+⚠️ **The human-facing `droughtmonitor.unl.edu` pages return *"the tabular data did not load"* to a fetch tool.** The web page failing is **not** the data being unavailable — use the API.
+**Cadence:** valid Tuesday 8 a.m. ET, **released Thursday.** New map ≈ every Thursday morning.
 
-### Storage (acre-feet) — datatype 17, same pattern
+### State/county granularity — same API, swap `aoi`
+`aoi=CO` (state postal) or a county FIPS. **Use this before claiming a drought signal reaches a specific crop belt or fire geography** — the 8/13 C2-vs-C4 discrimination turned entirely on *where* the deterioration was (OK/TX Panhandle, not the corn belt).
+
+### Palmer Drought Severity Index (CPC)
+`https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/cdus/palmer_drought/`
+Longer-memory index than USDM. **Better for multi-season persistence; worse for current conditions.**
+
+### Soil moisture (CPC monitoring)
+`https://www.cpc.ncep.noaa.gov/products/Soilmst_Monitoring/` — the direct **crop-yield** link; leads USDM at the agricultural margin.
+
+---
+
+## 2. SNOWPACK — sets the following year's allocation
+
+**NRCS SNOTEL / National Water and Climate Center** ✅ page reachable 8/13 (225 KB)
+`https://www.nrcs.usda.gov/resources/data-and-reports/sno-tel-and-snow-course-data-and-products`
+Interactive basin reports: `https://nwcc-apps.sc.egov.usda.gov/imap`
+
+**Read Apr-1 basin % of median as the allocation-setting figure.**
+⚠️ **Seasonal — near-zero Jun–Sep.** In August this is *correctly* empty; do not log it as a gap.
+🔑 **The basin that matters for Powell is the UPPER Colorado** — and it sits near the ENSO dipole pivot where the signal is weak. See `DOSSIER.md` § "El Niño does not refill the Colorado."
+
+---
+
+## 3. STREAMFLOW — USGS NWIS ✅ verified 8/13
+
 ```bash
-curl -s "https://www.usbr.gov/uc/water/hydrodata/reservoir_data/919/csv/17.csv" | tail -3
+curl -s "https://waterservices.usgs.gov/nwis/dv/?format=json&sites=09380000&parameterCd=00060&startDT=2026-08-01&endDT=2026-08-12" \
+ | python3 -c "
+import json,sys
+t=json.load(sys.stdin)['value']['timeSeries'][0]
+print(t['sourceInfo']['siteName'])
+for v in t['values'][0]['value'][-5:]: print(' ', v['dateTime'][:10], v['value'], 'cfs')
+"
 ```
-*Use only if storage is genuinely needed. **Elevation is the threshold instrument** — see README.*
+**Verified: `COLORADO RIVER AT LEES FERRY, AZ` — 7,930 cfs on 2026-08-12.**
+
+🔑 **Lees Ferry (`09380000`) is the single most informative gauge in this folder.** It is the **Upper/Lower Basin compact division point**, and because it sits just below Glen Canyon Dam **it measures Glen Canyon's releases directly** — i.e. **the water that refills Lake Mead.** It converts the Powell↔Mead coupling from an inference into a measurement.
+
+**Key params:** `00060` discharge (cfs) · `00065` gauge height · `72019` groundwater depth.
+**Other useful sites:** `07289000` Mississippi at Vicksburg · `05331000` Mississippi at St. Paul · `09521000` Colorado at Yuma.
+**Site search:** `https://waterdata.usgs.gov/nwis`
+
+---
+
+## 4. RESERVOIRS — USBR (the issuing agency)
+
+### Powell (919) and Mead (921) — daily pool elevation ✅ verified 8/13
+```bash
+curl -s "https://www.usbr.gov/uc/water/hydrodata/reservoir_data/919/csv/49.csv" | tail -5   # Powell
+curl -s "https://www.usbr.gov/uc/water/hydrodata/reservoir_data/921/csv/49.csv" | tail -5   # Mead
+```
+**Verified:** Powell `2026-08-12,3520.37` · Mead `2026-08-12,1039.82`. Datatype `49` = elevation (ft), `17` = storage (af).
+⚠️ **The files are long and chronological — you MUST `tail`.** A page-summarizing fetch truncates a 22k-row file and returns **1976 data with a clean HTTP 200**.
 
 ### Seasonal base rate — REQUIRED before extrapolating any rate (L-16)
 ```bash
@@ -42,38 +89,29 @@ for name,sid in [("POWELL",919),("MEAD",921)]:
         if a and b: print(f"   {y}: Aug12 {a:.2f} -> Sep30 {b:.2f}  ({b-a:+.2f})")
 EOF
 ```
-**Why this is not optional:** on 8/13 the current-rate extrapolation was **right for Powell and badly wrong for Mead**. Powell falls Aug→Sep every year; **Mead RISES in 4 of 5** as downstream demand drops and Powell releases arrive. Skipping this would have produced a false 🔴 on the Hoover threshold in its first week.
+⚠️ **A base rate is only valid while the mechanism generating it still holds.** Mead's Aug→Sep *rise* is driven by Glen Canyon releases — and **2026 releases are at a 9-year low** (§3). **Check Lees Ferry before trusting Mead's seasonal pattern.**
 
-### Colorado River Post-2026 Guidelines — the policy clock
-- Program page: `https://www.usbr.gov/ColoradoRiverBasin/` · DOI newsroom for the ROD
-- **Federal Register** is the authoritative notice venue: search *"Colorado River"* + *"Record of Decision"*
-- Milestones → `../CALENDAR.md` (Final EIS **published 7/31/26**; earliest legal ROD **~8/30**; stated target **~10/1**; **12/31/26 hard expiry**)
+### Colorado Post-2026 Guidelines — the policy clock
+`https://www.usbr.gov/ColoradoRiverBasin/` · DOI newsroom · **Federal Register** (search *"Colorado River"* + *"Record of Decision"*) → milestones in `../CALENDAR.md`.
 
 ---
 
-## C5 — RIVER NAVIGATION
+## 5. RIVER STAGE — navigation (C5)
 
-### Rhine at Kaub (WSV / PEGELONLINE — the German federal primary) ✅ verified 8/13
+### Rhine at Kaub (WSV/PEGELONLINE, German federal primary) ✅ verified 8/13
 ```bash
 curl -s "https://www.pegelonline.wsv.de/webservices/rest-api/v2/stations/KAUB/W/measurements.json?start=P3D" \
  | python3 -c "import json,sys; d=json.load(sys.stdin); print(d[-1]); print('min',min(x['value'] for x in d),'max',max(x['value'] for x in d))"
 ```
-Values in **cm**, 15-minute cadence. **Verified return (8/13 15:15 CEST): 13.0 cm**; 3-day range **10–17 cm**.
-Swap `KAUB` for other stations (`DUISBURG-RUHRORT`, `KOELN`, `EMMERICH`). **Kaub is the binding shoal** — it is the reference gauge for loading economics.
-**Benchmarks:** 2018 all-time low **25 cm** (set in October) · **≤40 cm** = uneconomical navigation (AEO-05's threshold).
+**Verified 8/13 15:15 CEST: 13.0 cm**; 3-day range **10–17 cm**. Values in **cm**, 15-min cadence.
+Swap `KAUB` for `DUISBURG-RUHRORT`, `KOELN`, `EMMERICH`. **Kaub is the binding shoal.**
+**Benchmarks:** 2018 all-time low **25 cm** (October) · **≤40 cm** = uneconomical navigation.
 
 ### Mississippi / Ohio
-USACE Rivergages + NWS AHPS. **Autumn (Sep–Nov) is the window** — an August reading of "normal" is not evidence of a benign season. I retracted a "firing" read on 7/22 for exactly this.
+USACE Rivergages + NWS AHPS + USGS NWIS (§3). ⚠️ **Autumn (Sep–Nov) is the window** — an August "normal" is not evidence of a benign season. I retracted a "firing" read on 7/22 for exactly this.
 
-### Panama Canal
-ACP advisories to shipping — `https://pancanal.com`. ⚠️ **AEO-04 resolves on a binding transit/draft RESTRICTION announcement, not on a scheduled draft step-down.** Do not grade the step-down as the event.
-
----
-
-## SNOWPACK (sets the following year's allocation)
-
-USDA NRCS **SNOTEL / NWCC** basin % of median — `https://www.nrcs.usda.gov/wps/portal/wcc/home/`
-**Read Apr-1 % of median as the allocation-setting figure.** ⚠️ **Upper Colorado Basin is the inflow basin that matters** — and it sits near the ENSO dipole pivot where the signal is weak (see `DOSSIER.md` § "El Niño does not refill the Colorado").
+### Panama
+ACP advisories — `https://pancanal.com`. ⚠️ **AEO-04 resolves on a binding transit/draft RESTRICTION, not a scheduled draft step-down.**
 
 ---
 
@@ -81,6 +119,7 @@ USDA NRCS **SNOTEL / NWCC** basin % of median — `https://www.nrcs.usda.gov/wps
 
 | Source | Why |
 |---|---|
-| `lakepowellwaterlevel.com`, `lakebrief.com` and similar trackers | **Disagreed with the USBR primary by 3.83 ft on 8/12 and inverted the trend sign.** Cost me a published wrong conclusion. |
-| Any **percent-full** figure | Different capacity bases across sources (19% vs 23.1% for the same lake, same week). **Cite elevation.** |
-| Page-summarizing fetch of the USBR CSVs | Truncates a 22k-row file and returns **1976 data with HTTP 200**. Use `curl … \| tail`. |
+| `lakepowellwaterlevel.com`, `lakebrief.com` and similar | **Disagreed with USBR by 3.83 ft on 8/12 and inverted the trend sign.** Cost a published wrong conclusion. |
+| Any **percent-full** figure | Different capacity bases across sources (19% vs 23.1%, same lake, same week). **Cite elevation.** |
+| Page-summarizing fetch of USBR CSVs | Truncates and returns **1976 data with HTTP 200**. Use `curl … \| tail`. |
+| `droughtmonitor.unl.edu` HTML tables | Returns a load error to fetch tools. **Use the statistics API.** |
