@@ -16,6 +16,10 @@
 5. **`PRED-CREED-006` (MBA Q2 CM/MF, ~mid-Sept)** is the item that finally settles the joint verdict with `010` (Athene leg graded PARTIAL this session, Δ +$6.9B, $103M short of LANDED). Do not grade `010` again standalone — it's already at its terminal interim state pending `006`.
 6. **`VX-CREED-9.03` office vacancy is now 2 cycles Q1-stale** (flagged 7/27, still stale 8/13). If a clean Moody's Q2 print still isn't locatable, say so explicitly a second time rather than let a third cycle pass silently.
 7. **Eval suite has a known defect, unfixed.** `CLAUDE.md`'s ALWAYS-LOADED traps block names ARI (trap #1) and the MBA $775B line (trap #5) verbatim, which VOIDs `case_01`/`case_02` on contamination by construction. If the next session touches the eval suite or `CLAUDE.md`'s traps block, consider whether to anonymize the traps' named entities or loosen the contamination rule to permit citing CLAUDE.md's own loaded text. Not urgent — flagged, not blocking.
+8. **FORUM 5 owed items — two self-administered tests, both DOCKET-tracked, due 9/30.** From `FORUM/2026-08-13_private-credit-recognition/` (CLOSED, ruled 8/13, rulings-record `04_synthesis/03_PROME_rulings-record.md`, commit `408110c0d`):
+   - **W1 (CREED leg):** establish whether `VX-CREED-3.01` (maturity-adjusted CMBS DQ) is genuinely unpublished for July/August or merely unfetched — same discipline SHADE's Bermuda test just validated at cost against its own "unreachable" claim. Run a real search pass (not just the Connect-CRE-infogram channel used for the headline July pull) before concluding it's absent again.
+   - **K5 (dark-cadence protocol test), DEFERRED to this desk, self-administered, no Will ruling needed:** if CREED gets spawned at least once inside a full ~30-day Trepp print cycle and still fails to log/grade the print, that falsifies "dark-cadence is spawn-timing" and reveals a protocol defect instead (boot-check not firing correctly). Run this the next time a spawn genuinely lands mid-cycle — don't force it artificially.
+   - **MBA/August-Trepp branch specs** (5 limits on the 006 print + 5 branches on August DQ) stand as registered in `FORUM/.../03_falsifiers/P2_CREED_kill-specs-and-cluster-branches.md` — nothing further to do until the prints land.
 
 ## 🟡 STATE AT HANDOFF (2026-08-13)
 
@@ -40,6 +44,8 @@
 | 6 | **Eval suite contamination-check defect** | flagged, not fixed | next `CLAUDE.md` traps-block edit or next eval run |
 | 7 | **SHADE's 8/13 reply packet, uncommitted** | in CREED's inbox, SHADE's to commit | watch it clear on its own; don't touch |
 | 8 | **CORAL's standing FL feed** | accepted 8/3, no slice sent yet | send when a loan-level/metro Trepp pull is reachable, not from a secondary-aggregate pull |
+| 9 | **FORUM 5 W1 (CREED leg)** | owed, due 9/30 | establish `VX-CREED-3.01` genuinely-unpublished vs merely-unfetched — see NEXT-BOOT item 8 |
+| 10 | **FORUM 5 K5 (dark-cadence protocol test)** | deferred to CREED, self-administered, due 9/30 | run inside a genuine mid-cycle spawn — see NEXT-BOOT item 8 |
 
 ## ⚫ STANDING TRAPS — re-read these before writing any number down
 
