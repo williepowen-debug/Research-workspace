@@ -91,6 +91,36 @@
 - **Glen Canyon @ Powell 3,490 ft** = a **~52% derate, not a cliff** (~630 MW vs 1,320 at 3,700). Generation ceases *below* 3,490.
 - **Most of the loss is already realized:** combined generation **−27.6% vs the 2016 peak** (−6,285,948 MWh/yr, EIA). **Two-thirds of the decline predates any threshold being touched** — a threshold-watching frame misses it.
 
+### 🔴 THE FINAL EIS CUT NUMBERS — added 8/13 (Will-flagged; my own file did not carry them)
+
+**16–20% cuts for California, Arizona and Nevada through 2028.** Lower Basin (incl. Mexico) could lose **1.5 MAF in both 2027 and 2028**:
+
+| State | Cut |
+|---|---|
+| **Arizona** | **−760,000 AF** |
+| California | −440,000 AF |
+| Nevada | −50,000 AF |
+| **Upper Basin (CO/NM/UT/WY)** | **no mandatory reduction — voluntary conservation only** |
+
+⚠️ **Note the asymmetry: the Upper Basin, whose runoff fills Powell, takes no mandatory cut; the Lower Basin absorbs all of it.**
+⚠️ **Source layer: trade/news coverage of the Final EIS (CNN 7/31, HCN, ICN, NBC, The Hill) — I have NOT opened the EIS document. B1 until pulled from the primary.**
+
+> **My own gap, recorded because it is the useful part.** My `CALENDAR.md` carried only *"up to 3.0 MAF, Arizona carrying the largest cut share, California shielded"* with an explicit self-note that I had not read the alternatives. **I registered a dated instrument, watched its date, and never read its contents** — until a Reddit post proved more specific than my file on an instrument I own.
+
+### ⚠️ STRUCTURAL — an inflow term my model does not contain (added 8/13)
+
+**California irrigation may be partly feeding the Colorado, and SGMA will reduce it.**
+
+- **Lo & Famiglietti 2013 (GRL):** Central Valley irrigation initiates an anthropogenic loop — **summer precipitation +15%**, with a corresponding **Colorado River streamflow increase of ~30%.**
+- **SGMA:** critically-overdrafted basins must reach groundwater sustainability by **2040**; **500,000–1,000,000 acres** of San Joaquin Valley farmland projected fallowed/retired/repurposed by then.
+
+**Three caveats, all load-bearing:**
+1. **Model, not observation.** Single coarse-resolution GCM with **parameterized convection**; the later literature finds such schemes **may overestimate remote precipitation responses** vs convection-permitting runs. **Read ~30% as a plausible upper bound, not a central estimate.**
+2. **🔑 Timeline mismatch, and it is decisive.** SGMA lands in **2040**; the cuts are **2027–28**. **This feedback cannot be driving the current cuts.** Any framing implying it does is wrong on the clock.
+3. **Why it still matters:** it is an **independent antecedent — anthropogenic land use, not ENSO** — so it does not double-count against the ENSO root, and it points the **same direction** as the dipole-pivot guard below. **My inflow model has snowpack and ENSO terms and no term for anthropogenic precipitation recycling.**
+
+⇒ **Status: structural, Tier-2, horizon stated (2040).** It graduates past a pure watch-note under my own C6 discriminator because **SGMA has reached an acreage decision**. It is **not** a score-mover. → **KB-061.**
+
 ### ⚠️ El Niño does NOT refill the Colorado
 The robust El Niño wet signal is the **Southwest / Lower Basin**. **Powell's inflow is UPPER Basin**, near the ENSO precipitation **dipole pivot** where the signal is weak and sign-ambiguous. **The wet anomaly lands downstream of the reservoir that needs it.** *(B2 — a do-not-assume, not a directional call.)*
 ⇒ **The ROD (~10/1) and the 12/31 expiry are decided at the hydrological bottom; relief arrives spring-2027 at the earliest. The policy clock and the hydrology clock are two quarters out of phase.**
@@ -115,6 +145,7 @@ The robust El Niño wet signal is the **Southwest / Lower Basin**. **Powell's in
 
 ### Other watched rivers
 - **Mississippi / Ohio** — ~normal. **Autumn (Sep–Nov) is the window.**
+  > ⚠️ **STRUCTURAL headwind added 8/13, not a current read.** DeAngelis et al. 2010 (JGR-Atmos) find 20th-century **July precipitation rose 15–30% downwind of the Ogallala, from eastern Kansas through Indiana**, with timing/month/pattern consistent with post-WWII irrigation history; a 2015 J.Hydromet study reports observational evidence of Great Plains irrigation enhancing Midwest summer precipitation. **That rain falls into the Mississippi basin.** The Ogallala is **fossil water** that cannot meaningfully recharge, so the subsidy is finite. ⇒ **A slow structural headwind on the low-water seasons that produce 2022-style barge disruptions.** ⚠️ **I have NOT quantified the share of Mississippi flow and will not assert one; the decline is DECADAL. Tier-2 note with the horizon stated — NOT a C5 score-mover.** Unlike SGMA, the Ogallala has **not** reached an acreage/pricing decision, so it stays a watch-note under the C6 discriminator. → **KB-062.**
 - **Yangtze · Danube · Paraná** — ⚠️ **no current read. Open gaps under Will's standing directive.**
 - **Panama** — **8/13: the ACP primary was checked and returned a documented NEGATIVE, which is the first real data on this gap.** The Advisories-to-Shipping index's newest entry is **A-46-2024 (FY2025 December)**; Notices-to-Shipping for 2026 lists **only the standing N-01…N-13 permanent notices.** ⇒ **No 2026 advisory imposing a draft or transit restriction is published at the issuing authority.** ⚠️ **Neither page publishes a transit COUNT**, so the `panama_transits` instrument is **still not sourced** — the "~38 transits" figure carried above has **no primary behind it in `SOURCES.md`** and should be treated as unverified until one is registered. **AEO-04 resolves on a binding restriction; none is published — but "not published on these two pages" is narrower than "does not exist."**
 

@@ -20,7 +20,12 @@ The successor regime to the 2007 Interim Guidelines — governs Lake Powell + La
 | **🔴 ~2026-10-01** | **Interior's stated target to sign Record of Decision** | PENDING — STATED TARGET, slippable (federal EIS processes slip routinely; DOCKET `SLID` state exists for this) | MED |
 | **2026-12-31** | **2007 Interim Guidelines EXPIRE** — the hard backstop (a missed deadline is itself an event) | PENDING | HIGH |
 
-**Preferred alternative in the Final EIS:** an "adaptive decision framework" through 2036; allows Lower-Basin shortages **up to 3.0 MAF** in dry years, **Arizona carrying the largest cut share**, California shielded at smaller shortage levels. Federally-framed rather than a fully-agreed 7-state deal — the Upper/Lower Basin split stayed unresolved into the final plan. *(I have NOT read the full alternatives; this is the summary read. Grade the eventual ROD against the pre-registered range, not a narrated-after-the-fact frame.)*
+**Preferred alternative in the Final EIS:** an "adaptive decision framework" through 2036; allows Lower-Basin shortages **up to 3.0 MAF** in dry years, **Arizona carrying the largest cut share**, California shielded at smaller shortage levels. Federally-framed rather than a fully-agreed 7-state deal — the Upper/Lower Basin split stayed unresolved into the final plan.
+
+> ✅ **NUMBERS ADDED 2026-08-13 — this line previously said "I have NOT read the full alternatives" and stayed that way for 13 days.**
+> **16–20% cuts for CA / AZ / NV through 2028.** Lower Basin (incl. Mexico) could lose **1.5 MAF in both 2027 and 2028**: **Arizona −760,000 AF · California −440,000 AF · Nevada −50,000 AF**. **Upper Basin (CO/NM/UT/WY): no mandatory reduction, voluntary conservation only** — note the asymmetry, since it is the Upper Basin's runoff that fills Powell.
+> ⚠️ **Source layer is trade/news coverage of the EIS, not the document — B1 until pulled from the primary.** Grade the eventual ROD against these figures, not against a narrated-after-the-fact frame. → **KB-060.**
+> 🔑 **Process note worth keeping:** I registered this dated instrument, tracked its date faithfully, and never read its contents — the gap surfaced only because Will passed me an outside post that was more specific than my own file. **Watching a catalyst's DATE is not the same as reading its CONTENT.**
 
 **Transmission (multi-owner — reconcile to one figure, don't silo):**
 - **Hydropower** — Glen Canyon (Powell) + Hoover (Mead) generation falls with head pressure → **WATT** (Powell ~32 ft above minimum power pool 3,490 ft as of 8/2).
