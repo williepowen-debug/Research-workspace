@@ -17,7 +17,19 @@
 
 ---
 
-## 📋 DOMAIN-REVIEW PROPOSAL MEMO — **AWAITING WILL/PROME GREEN-LIGHT. BUILD NOTHING OFF IT.**
+## ✅ SLATE EXECUTED 2026-08-13 (Will-approved) — **P1 · P2 · P3 · retirements · P4 ALL DONE. P5/P6 REMAIN QUEUED.**
+
+**→ Delivery: [`../../PROME/inbox/2026-08-13_from-BRENT_slate-execution-steo-ladder-and-two-refuted-rows.md`](../../PROME/inbox/2026-08-13_from-BRENT_slate-execution-steo-ladder-and-two-refuted-rows.md)**
+- **P1 STEO ladder** → [`setups/2026-08-13_STEO-vintage-ladder-P1.md`](setups/2026-08-13_STEO-vintage-ladder-P1.md). **Deferral pattern CONFIRMED** (recovery-start pushed out twice in five vintages; 27Q1 revised down 4 consecutive times). ⛔ **AND IT FORCED A SAME-DAY RETRACTION of my own morning claim** — "the assumption HARDENED (100.0%, was ~99.6%)" is **WRONG**; ME share is ~100% in ALL SIX vintages, a structural constant, and I presented noise as a change. **EIA defers the START, never writes down the SIZE** ⇒ timing edge only.
+- **P2 RF-012 + RF-002** → **BOTH REFUTED, 3.0M bpd of asserted-offline removed.** ADCOP (the Hormuz **bypass**) is working ⇒ **barrels through the strait ≠ barrels lost**, which **weakens the supply-loss reading of v5.4's throughput leg** (not the premium/tolled-corridor leg). Kharg's oil infra was **spared**; today's outage is a **blockade** = out of ledger scope, routed to HAWK. **I-2 stale 19 → 17.**
+- **P3** → anti-laundering test **voided 1 of 5**, not 5. `BRT-21` VOID · `BRT-16` NOT-FIRED-PRECONDITION · **`BRT-17` HIT** (voiding it would have discarded a correct call) · `BRT-07`/`BRT-12` open, re-dated with outer bounds. **ZERO rows remain STUCK.**
+- **Retirements** → `LAST_COMPLETION.md` **FROZEN** (banner → SCRATCH; ⛔ the spawn-contract template is **PROME's** fix and I did **not** patch around it) · `research/PRODUCT_SIDE_DECOUPLING_THESIS.md` archived.
+- **P4** → PROMPT_PREMIUM disposition recorded on its own surface (`demand_destruction/TRACKER.md` ⑥ block): **observational, no trigger**, revisit at **n≥100 single-regime or first genuine reopening**, and **the cost of the decision written down** so it is auditable against me later.
+- ⏳ **STILL QUEUED, NOT THIS SESSION: P5** (row-27 width-bias re-spec — must land BEFORE any re-arm) · **P6** (EU-storage kill-or-keep). **Transient-500 class routed PROME-side to DAEDALUS — build nothing.**
+
+---
+
+## 📋 *(superseded)* DOMAIN-REVIEW PROPOSAL MEMO — **NOW EXECUTED, see above. Kept for the ranking rationale.**
 
 **→ [`../../PROME/inbox/2026-08-13_from-BRENT_domain-review-proposals.md`](../../PROME/inbox/2026-08-13_from-BRENT_domain-review-proposals.md)** *(mirror: `outbox/2026-08-13_to-PROME_domain-review-proposals.md`)*
 **6 ranked proposals + 3 retirements, all UNAPPROVED.** ⛔ **Nothing in it is registered, built or researched. Do NOT execute any of it on a fresh boot without an explicit green-light** — a proposal memo read at boot is exactly the kind of artifact a next session mistakes for a work queue.
@@ -91,6 +103,6 @@
 
 ## WORKBOOK HEALTH
 
-- **LIVE:** `TRADE.md` · `STATUS.md` (**246 ln, inside the 250 cap — WATCH IT, it grew this session**) · `RULINGS.md` · `workbook/REGISTRY.tsv` (**40 rows, 21 cols uniform**) · **THESIS v5.5** · `docket/CATALYSTS.tsv` · `refinery_damage/INCIDENTS.tsv` (**schema v2, 53 rows × 22 cols, +1 owed for Novorossiysk**) · TRACKER · board_log (**190 rows, +8**) · SCRATCH.
+- **LIVE:** `TRADE.md` · `STATUS.md` (🔴 **248 ln — TWO LINES FROM THE 250 CAP. ARCHIVE OVERFLOW NEXT SESSION BEFORE WRITING ANYTHING NEW TO IT**; oldest dated blocks → `workbook/STATUS_archive_*.md`, which is the pattern already in use) · `RULINGS.md` · `workbook/REGISTRY.tsv` (**40 rows, 21 cols uniform**) · **THESIS v5.5** · `docket/CATALYSTS.tsv` · `refinery_damage/INCIDENTS.tsv` (**schema v2, 53 rows × 22 cols, +1 owed for Novorossiysk**) · TRACKER · board_log (**190 rows, +8**) · SCRATCH.
 - **Boot 20.0s, 6 checks.** Lesson-conflict **0** · prose/index drift **0** · predictions-due clean · **Instrument Check: 1 blocking at boot → 0 after the EU-STORAGE wire**, 2 warnings (`BRT-26-RIGS`, `COT-FUEL`, both clear Friday), **+ the new I-2 advisory (19 rows)**.
 - **Data pulled this session, all own primaries:** GIE AGSI+ `agsi.gie.eu/api/data/eu` + ALSI+ · EIA STEO v2 `COPS_OPEC` / `COPS_OPEC_R05` / `COPR_OPEC` / `T3_STCHANGE_WORLD` · CFTC raw `f_disagg.txt` (code 067651) + Socrata `72hh-3qpy` (400 rows, 2018-12-11→2026-08-04) · EIA weekly via boot.

@@ -1,4 +1,16 @@
-> ⚠️ **PROTOCOL NOTE:** my own `CLAUDE.md` step 11 retired `LAST_COMPLETION.md` in favour of `SCRATCH.md` as the canonical handoff. **This file exists because the 8/12 spawn contract explicitly required it.** `SCRATCH.md` remains canonical — read it, not this. Flagging the conflict rather than silently picking a side.
+# FROZEN 2026-08-13 — not maintained; `SCRATCH.md` is canonical, do not cite rows as current
+
+> ⛔ **FROZEN 2026-08-13** (Will-approved, PROME slate item 3). **This file is a HISTORICAL RECORD of the 2026-08-12 audit completion. It is NOT a handoff surface and must not be read as current state.**
+>
+> ### ➡️ **THE CANONICAL SESSION HANDOFF IS [`SCRATCH.md`](SCRATCH.md). READ THAT.**
+>
+> **Why it was frozen rather than deleted:** it is the completion record of the 8/12 canonical-surfaces + INCIDENTS audits, including the REV-4 addendum that overturned two of my own classifications and opened the `capacity_bpd` column (I-9). **That provenance is worth keeping; its role as a handoff is not.**
+>
+> **The defect this closes — two handoff surfaces, one canonical.** My own `CLAUDE.md` step 11 retired `LAST_COMPLETION.md` in favour of `SCRATCH.md`, and the file was then **resurrected by the 2026-08-12 spawn contract**, which explicitly required it. So a retired surface came back to life through a channel my closeout protocol does not govern — and for a day the repo carried two "latest state" files with no rule saying which wins.
+>
+> ⚠️ **THE ROOT CAUSE IS NOT IN THIS FILE AND IS NOT MINE TO PATCH: it is the spawn-contract template.** Freezing this file stops the *symptom*; if the template still asks for `LAST_COMPLETION.md`, the next spawn recreates it. **PROME owns that fix and is handling it PROME-side (Will-ruled 2026-08-13). I was explicitly told not to patch around it, and I have not** — no shim, no auto-redirect, no template edit from my lane. `[[finding_a_ruling_governs_the_next_write_not_the_existing_state]]`
+>
+> *(Superseded banner, preserved verbatim: "⚠️ **PROTOCOL NOTE:** my own `CLAUDE.md` step 11 retired `LAST_COMPLETION.md` in favour of `SCRATCH.md` as the canonical handoff. **This file exists because the 8/12 spawn contract explicitly required it.** `SCRATCH.md` remains canonical — read it, not this. Flagging the conflict rather than silently picking a side.")*
 
 ```
 ## COMPLETION — BRENT — 2026-08-12  [REV 4 — INCIDENTS.tsv sweep, closing the gap named in REV 3]
