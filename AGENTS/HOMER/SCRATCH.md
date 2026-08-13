@@ -41,7 +41,7 @@
 ## ⚠️ OPEN / UNSETTLED — do not publish these as settled
 
 1. **HOM-01: one early-kill arm fired. The 8/31 FMHPI July print decides it.** Grade on **that release's own as-published figures for BOTH months** — NOT against the +2.1% on record. Year-verify (trap has hit 3× on this series, in both directions).
-2. **HOM-02 resolver 1 still unreleased — but DUE, not overdue.** MBA NDS runs ~6wks post-quarter (Q4-25→2/12, Q1-26→5/14) ⇒ Q2-2026 lands mid-to-late Aug. **Same "instrument lag ≠ agent failure" class as row 46.**
+2. **HOM-02: one early-kill arm fired (Q2). Q3 ~mid-Nov decides.** ★★ **The composition tell is the finding, not the −9bps:** total DQ fell 7bps while **FC inventory rose 3bps and 90-day rose 1bp** — MBA NDS **excludes loans in foreclosure**, so the headline improved *because* distress migrated later. **This is the registered measurement risk, visible a quarter before HUD ML 2026-08 binds 9/21.** ⛔ It does NOT rescue the prediction and was not used to. **STANDING RULE EARNED: never read an FHA DQ decline as relief without checking FC inventory + the 90-day bucket in the SAME release.**
 3. **Row 45 is a DRAFT and the live spec still governs.** Three ratification questions open: **retroactivity to UWM 8/6** (it would fire twice; I did NOT fire it; recommended a *labelled seeding decision*), **Class Z substance backstop** (flagged, deliberately not encoded), and ⚠️ **the numbers are reasoned, NOT base-rated** — the draft's weakest point, stated as such.
 4. **CORAL's $10,000/unit critical-repair threshold NOT CONFIRMED** — a *scoped* negative (not in Full Review B4-2.2-02); likely home **B4-2.1-03 Ineligible Projects, unchecked.** Her 2.5×–40× arithmetic rests on it. **Whoever gets there first.**
 5. **`singlefamily.fanniemae.com` is a GENUINE Cloudflare wall** (403 to curl+UA *and* WebFetch) — unlike the EDGAR/Freddie UA class. **`selling-guide.fanniemae.com` is open and carries the operative text.** `mba.org` 403s both clients ⇒ MBA apps run on two date-verified secondaries by necessity.
@@ -49,7 +49,7 @@
 
 ## NEXT SESSION
 
-1. **MBA Q2-2026 NDS — check FIRST.** Due now. HOM-02 resolver 1 of 3.
+1. ✅ **DONE 8/13 — MBA Q2-2026 NDS RELEASED (~12:00 ET) AND GRADED.** FHA SA total DQ **11.79%** (−9bps QoQ). **Confirm leg NOT MET** (21bps short of 12.00%); **EARLY-KILL ARM 1 OF 2 FIRED.** ⇒ **🔴 Q3-2026 NDS (~mid-Nov) IS NOW THE DECIDER — if it also declines QoQ, HOM-02 CLOSES MISSED EARLY.** Status OPEN, no confidence move.
 2. **NAHB HMI August (~8/17)** · **ATTOM July monthly (~mid-Aug)** · **PMMS Thu 8/20** · **MBA apps Wed 8/19** (watch the **YoY** legs).
 3. **🔴 FMHPI July data ~8/31 — the HOM-01 decision point.** Issuer path: `freddiemac.com/research/indices/house-price-index` (curl+UA) for the vintage line, then `fmhpi_master_file.csv`.
 4. **Fannie/Freddie JULY monthlies ~8/25-28** — second datapoint on the mod-suppression test. **This is now the highest-value recurring pull I own.**
@@ -62,4 +62,4 @@
 - **Cohort convergence still the sharpest thing on the board:** TX syndicator paper >50% of the pipeline · Trepp MF driver naming Texas · Arbor REO above delinquencies. **Three independent instruments, one 2021-22 floating-rate Sun Belt vintage.**
 - **⚠️ TWO measurement breaks now sit in my docket** (Ginnie APM 26-06 · NY Fed VantageScore). **The instruments under this domain are being re-based faster than its prediction windows run** — that pairing is itself a finding.
 - ⚠️ **NOT MINE, FLAGGED TO PROME, DO NOT TOUCH: `memory/auto/auto/` exists** and holds one memory (`finding_bare_since_date_drops_same_day_commits.md`). The harness memory path symlinks to `memory/auto/`, so **a file one level deeper is invisible to it — that memory will never load for anyone.** Some agent's write used the wrong path. Flagged, not fixed: it is not my file.
-- **`STATUS.md` at 242/250 lines.** Compressed the 7/24+7/17 BOTTOM LINE entries this session to restore headroom. **Next compression candidate: the 7/31-eve entry.**
+- **`STATUS.md` at 238/250.** Compressed the **7/31-eve** block this session (findings preserved in `MULTIFAMILY.tsv` / `LESSONS.md` / OPEN ITEMS). **Next candidate: the 7/31 marquee entry.** Compressed the 7/24+7/17 BOTTOM LINE entries this session to restore headroom. **Next compression candidate: the 7/31-eve entry.**
