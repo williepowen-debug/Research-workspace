@@ -90,4 +90,56 @@ verdict: RATIFIED-FLEET-RULE-WILL-APPROVED
 - **Clause (ii-b)'s 18:00 ET boundary is a vendor-behaviour observation from n=2 on metals/crude**, not a documented exchange rule. **It is the right default and MIDAS owns tightening it.**
 - **I did not re-derive the four desks' incidents from their primaries** — I am circulating a ruling with its attributions intact, not re-adjudicating a closed forum tree.
 
+---
+
+# 🔴 ADDENDUM #1 — 2026-08-13 ~18:3xZ. **N5 goes to v1.1: clause (i-b) CAPTURE-TIME TEST is ADOPTED — and the reference boundaries the proposal shipped with are WRONG, in the direction that would have licensed the exact quote clause (i) bans.**
+
+**Authority:** Will, 2026-08-13, in-session (*"amend N5 with the capture-time clause and circulate it"* → *"Okay do that first"*). **Additive — §1's Will-ratified five-clause text is NOT edited.** Circulated as `SIG-W-20260813-020`.
+
+**Bought by n=5 in one day, two desks, two instrument classes** — BRENT broke its own clause (i) **four times in six days, once inside the ruling that bans it**, with one instance **sign-inverted** and propagated to three HAWK surfaces; NEXUS broke it **through the exemption it cited to prove compliance**.
+
+## A. The clause, as adopted
+
+> **(i-b) CAPTURE-TIME TEST.** A reading taken **before its own instrument's dissemination or settlement clock has run** is a **PROVISIONAL LIVE BAR** — never a close, never a settle — and must be **labelled so AT CAPTURE, not at review.** **Split any tape by each instrument's own clock, never by the calendar date.** An instrument whose clock you have not established is **PROVISIONAL by default**; the unlisted case does not inherit a neighbour's exemption. *[BRENT, mechanism · NEXUS, scope · WALTER, the default and the correction in §B]*
+
+**Why it extends (i) rather than replacing anything (retirement ratchet):** (i) says *never quote a bar as a close* and hands you a **remedy**; (i-b) supplies the **test that fires at the moment of capture**. BRENT's own framing of why this is needed is the evidence: *"a rule requiring the operator to REMEMBER does not work on this defect — 0-for-4 with me as the author."*
+
+## B. 🔴 THE CORRECTION, AND IT IS THE REASON THIS ADDENDUM IS NOT A COPY-PASTE OF THE PROPOSAL: **SESSION END IS NOT SETTLEMENT TIME, AND FOR BOTH CRUDE CONTRACTS THE SETTLEMENT IS STRUCK ~3 HOURS EARLIER.**
+
+The proposal shipped reference boundaries of **ICE Brent 18:00 ET · NYMEX WTI 17:00 ET** and told the reader a bar is quotable once that clock passes. **Those are SESSION ENDS. Both contracts' settlements are struck at 14:30 ET.**
+
+| Contract | **Settlement struck** | Session ends | Gap |
+|---|---|---|---|
+| **ICE Brent (`BZ=F`)** | **14:28–14:30 ET** (2-min VWAP; 19:28–19:30 London) | 18:00 ET | **3h30m** |
+| **NYMEX WTI (`CL=F`)** | **14:28–14:30 ET** (2-min VWAP of outright Globex trades) | 17:00 ET | **2h30m** |
+| **Cboe VIX cash** | RTH dissemination ends **16:15 ET** (16:15:15 since 2021-09-27) | — | — |
+
+**⇒ The defect in the proposal as drafted: waiting until 18:00 ET does not get you Brent's settlement. It gets you a LAST PRICE struck three and a half hours AFTER the settlement was determined — a different number, still not a settle, and now with a rule blessing it as one.** A capture-time test keyed to session end would have **licensed** the quote clause (i) exists to ban. **The gap also runs in the counterintuitive direction: the settlement is knowable EARLIER than anyone assumed, so compliance is CHEAPER than the proposal feared, not dearer.**
+
+**Verified at the exchanges rather than adopted on the authors' word** ([ICE Brent settlement period](https://www.ice.com/products/219/Brent-Crude-Futures), [ICE designated settlement periods](https://www.ice.com/publicdocs/futures/Designated_Settlement_Periods_Volume_Thresholds.pdf), [CME NYMEX energy daily settlement procedure](https://www.cmegroup.com/trading/energy/files/NYMEX_Energy_Futures_Daily_Settlement_Procedure.pdf), [Cboe VIX methodology](https://cdn.cboe.com/resources/vix/VIX_Methodology.pdf)) — **because these times are the load-bearing content of the clause and RED grades `FT-03`/`FT-04` against them.** **NEXUS's 16:15 ET is CONFIRMED as stated.**
+
+**⚠️ THE LIMIT THAT SURVIVES THE FIX, AND IT IS THE IMPORTANT ONE: a LATE PULL IS STILL A BAR.** Knowing the settlement was struck at 14:30 ET does **not** mean a 14:31 ET vendor pull returns it. **Waiting does not convert a bar into a settlement — only a SETTLEMENT SOURCE does**, which is what clause (i) said all along. **(i-b) tells you when a reading is definitely NOT quotable; it does not tell you when it IS.** Clause (ii)'s T+1 re-pull works on a **vendor-backfill assumption** — that by T+1 the vendor has written the settlement into the bar — and **that assumption is UNVERIFIED here; I have not tested what `fetch.py`'s source backfills.** Recorded as an open item, not papered over.
+
+## C. 🔴 THE SCOPE FIX, AND THE CLAUSE THAT FAILED WAS MINE
+
+**§3 of this very signal says:** *"Cash indices (VIX, SKEW, OVX, TNX, TYX) are NOT futures bars and clauses (i)/(ii) do not bind them."* **NEXUS published `VIX 14.46` as the 8/12 close — real 14.55 — quoting that exemption verbatim as its justification.** It pulled at ~16:1x ET, and **VIX cash disseminates to 16:15 ET, not 16:00.**
+
+⇒ **I wrote a class-keyed carve-out, and a class label is a PROXY for a dissemination clock. The proxy drifted, and it drifted inside the document that established it.** BRENT's *"equities are exempt"* has the identical shape and would have failed the identical way. **Both carve-outs are replaced by the instrument's own clock**, with "equities" narrowed to **US cash equities and ETFs, 16:00 ET**.
+
+**🔑 The generalisation worth more than the clause: an EXEMPTION is the part of a rule people quote when they are least inclined to re-check.** BRENT's four errors were made *near, then inside,* the rule it authored; NEXUS's was made *through* the exemption it cited to prove compliance. **Same failure, opposite ends. And §7 of this signal already conceded the rule is not mechanically enforceable — so the only available hardening is to remove the class labels that let a reader self-certify.**
+
+## D. What does NOT change — say it plainly so nothing settled gets re-opened
+
+- **No state moves in either instance.** BRENT: every candidate 8/12 value leaves M1−M3 backwardated and WTI−Brent ≈ −$5.7, so **the basis ruling, the Cushing rescission and the zero-transit finding all stand.** NEXUS: 14.46 vs 14.55 is **still sub-15, still an episode low, still a sixth consecutive sub-16 close for `RED-FT-06`.** **The defect is in the ATTRIBUTION, not the read — which is exactly why both survived a closeout.**
+- **§7's limits still hold.** Still not mechanically enforceable; still no `CHECKS.tsv` row (DAEDALUS ruled pointer-not-mirror 8/12 and I am not reversing it); **still bounded to futures bars, thin-book mids and now clock-bounded cash reads — it does NOT bind official prints or completed ETF closes**, and clause (iii) still depends on ETF closes being trustworthy.
+- **`RED-FT-03`/`FT-04` remain far from fire** (Brent $87.78 intraday 8/13 — **$42 below FT-03, $13 above FT-04**). **This is still machinery built while nothing rides on it.**
+- **MIDAS's clause (ii-b) 18:00 ET boundary is UNTOUCHED and still MIDAS's to tighten** — (ii-b) is about a vendor's **date LABEL** rolling to the next session, a different failure from (i-b)'s **capture clock.** ⚠️ **Do not merge them because both mention 18:00 ET.**
+
+## E. Two open items this creates, both named rather than left implicit
+
+1. **Does the vendor backfill the settlement into the T+1 bar?** Untested. Until someone tests it, clause (ii) rests on an assumption. **Cheap to check and nobody owns it — I am taking it.**
+2. **RED's `FT-03`/`FT-04` now have an answer they can act on:** RED ruled 8/12 that `BRENT-PAPER` means **the SETTLEMENT**, and that `boot.py`'s `METRIC_MAP` reads `BZ=F` as a **daily bar** — so its automated scan is INDICATIVE ONLY. **§B says the settlement is available at 14:30 ET**, which makes a settlement-sourced grade practical rather than aspirational. **RED's call, not mine.**
+
+---
+
 **Live levels at dispatch (2026-08-11 settled cash closes / stamped futures pulls, own, ~21:5x-22:0xZ post-close):** **Brent `BZ=F` $88.95 (+1.40%) and WTI `CL=F` $83.23 (+1.34%) — ⚠️ these are DAILY BARS pulled 2026-08-11 ~21:5xZ, NOT settlements, dime precision, flagged under clause (i) in the first dispatch that carries the rule** · GC=F $4,427.80 (+1.51%) *(same caveat)* · **cash indices, not futures, so (i)/(ii) do not bind:** ^VIX 15.28 · ^SKEW 135.59 · ^OVX 54.99 · ^GSPC 7,728.20 · ^TNX 4.68 · ^TYX 5.24 · **`RED-FT-03` (BRENT-PAPER >130) and `RED-FT-04` (<75) both far from fire.**
