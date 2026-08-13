@@ -14,6 +14,21 @@ event_window: closed
 verify_research_verdict: CONFIRMED-MINOR-CALIBRATION
 ---
 
+> ## ⚠️ **BASIS CORRECTED 2026-08-13 — READ BEFORE USING THIS SIGNAL IN ANY COMPARISON. `corrected_by: SIG-W-20260813-010`. Additive marker; nothing below is edited.**
+>
+> **WHAT IS WRONG:** this signal labels the GSE multifamily serious-delinquency metric **"90+ day"** — in the title, throughout the body, and explicitly in the line *"Standard 90+ day metric — Fannie + Freddie define 'serious delinquency' as 90+ days for multifamily reporting."* **Both issuers' own footnotes say 60+, on UPB.** Verified at primary 2026-08-13 by **HOMER** (pdfminer extraction, June-2026 monthly reports):
+> - **Fannie Mae** (Monthly Summary, fn 11 / Table 7 note): *"Multifamily seriously delinquent loans are **60 days or more** past due"*, rate computed on **UPB**.
+> - **Freddie Mac** (Monthly Volume Summary, Table 6 endnote): based on **UPB** of loans *"**two monthly payments or more** past due or in the process of foreclosure."*
+> - **90+ is the SINGLE-FAMILY basis, and single-family is measured by loan COUNT, not UPB.** The signal imported the single-family convention onto the multifamily series.
+>
+> **✅ WHAT SURVIVES — and it is nearly all of it:** **every figure in this signal is correct and none changes.** Freddie **0.48%** matches Freddie's own Table 6 exactly (Oct-2025 and Nov-2025). Fannie **0.75%**, the **~0.80% 2010 peak**, the **5bps-below** gap, the YoY moves, and the core contrast — **Freddie has breached its own prior peak while Fannie has not** — all stand. **This is a definitional error on correct numbers, which is the more dangerous form, not the less: nothing looks wrong, so nobody re-derives it.**
+>
+> **🔴 WHERE IT ACTUALLY BITES — INSIDE THIS SIGNAL'S OWN DISPATCH NOTES:** the body compares GSE multifamily against **Trepp CMBS multifamily 6.98%** and calls it a **"10× scale gap."** **Trepp is a 30+ day metric over a different universe; GSE is 60+ on UPB.** Labelled "90+," that spread reads as a far larger credit gap than exists, because part of it is pure definition. **The correct discipline, which is HOMER's standing rule: compare DIRECTIONS across these series, never LEVELS** — and that rule only works if each leg is labelled right.
+>
+> **📌 ONE FIGURE IS UNVERIFIED BY EITHER OF US, AND IS NOT REFUTED:** *"Freddie's prior Great-Recession peak ~0.39%."* HOMER briefly published that this was refuted and **has withdrawn that** — the refutation rested on Freddie's Table 6, which spans **Jun-2025 → Jun-2026 only, and thirteen months cannot refute a ~2010 value.** **Status: UNVERIFIED, NOT REFUTED.** ⚠️ It is the anchor for *"already BREACHED"*, and neither WALTER nor HOMER has sourced it to a primary — **if you cite "already breached," cite that limitation with it.**
+>
+> *(Filename retained deliberately: the `-90d-sdq-` slug is wrong and re-teaches the wrong basis to anyone grepping BOARD by name — flagged as a known cost. Renaming would break the INDEX link and every existing citation, so the banner carries the correction instead. Raised by HOMER; the trade-off is WALTER's call.)*
+
 # Fannie Multifamily 90+d Serious Delinquency 0.75% Nov 2025 — 5bps Below 2010 Housing-Bust Peak; Freddie Already BREACHED Its 2010 Peak at 0.48%
 
 **Verbatim claim (verified — Fannie Mae + Freddie Mac monthly summaries):**
