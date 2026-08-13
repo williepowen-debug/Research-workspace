@@ -1,7 +1,7 @@
 # BROCK SCRATCH — Forward-State, Watch Order, Session Log
 
 **Purpose:** Session-handoff working state — "where are we / what next." Read at boot (after STATUS), refreshed at closeout. Holds NEXT-BOOT moves, open debts, watch order, FOLLOW-UP tiers, SESSION LOG, and a workbook/mail/git health block. Persistent learnings → `LESSONS.md`; dated catalysts → `docket/CATALYSTS.tsv`; cross-agent → `NEXUS_BRIEF.md`; superseded STATUS narrative → `domain/sources/STATUS_SESSION_BLOCKS_ARCHIVE_AUG13.md`.
-**Updated:** 2026-08-13 Thu ~1:00 PM ET — **REBUILT in the mandated SCRATCH-split.** The 6/25-vintage body that carried a "STALE-BELOW" banner for 49 days is retired to `archive/SCRATCH_STALE_BODY_TO_JUN25.md`; ⚠️ *per `[[finding_banner_is_a_warning_not_a_fix]]` a banner is not a fix — the 7/9 notice made the rot feel handled and it then sat through eleven sessions.*
+**Updated:** 2026-08-13 Thu ~19:0x ET — **CLOSEOUT.** Rebuilt in the mandated SCRATCH-split, then carried the full day: FORUM 5 (drafter) · BRK-02 spec ratified · news sweep · two inbox drains. ⚠️ *The 6/25-vintage body that carried a STALE-BELOW banner for 49 days is retired to `archive/SCRATCH_STALE_BODY_TO_JUN25.md` — per `[[finding_banner_is_a_warning_not_a_fix]]`, the 7/9 notice made the rot feel handled and it then sat through eleven sessions.*
 
 ---
 
@@ -18,6 +18,12 @@
    - ⛔ **③ NEXT SESSION — DRAFT ONLY, DO NOT ENCODE. Whether ASIF joins BRK-30's five-fund OR is WILL-GATED.** 🔑 **PROME's reasoning, and it is the same conflict class as the BRK-02 name set: adding a sixth fund to an OR-gate makes firing EASIER, and the addition is POST-DATA.** ⇒ **draft the proposal with the D2-style disclosure (state the tilt before the recommendation, write down the rejected reading), Will rules.** ⚠️ **DO NOT ENCODE ANY MEMBERSHIP CHANGE BEFORE THAT RULING.** *(This would be n=7 of my too-easy-to-fire-bearish class if I banked it myself.)*
    - ✅ **Handled by PROME, nothing owed by me:** the FSK *"raised to $0.44"* precision gap (STATUS carries it; **the closed forum tree stays closed**; PROME's closeout logs it as post-close errata provenance) · the **CRMT Sept-7** DOCKET row (PROME registers at closeout).
    - ⚠️ **GUARD RE-ARMED: "62 cents on the dollar" is circulating in trade press.** Same shape as the KB-BRK-103 error I refuted — a **pro-rata FILL RATE**, redeemed **at NAV**, misread as a price. **Never let it enter a surface as a price; it would resolve BRK-25 on a number that does not exist.**
+
+## 🧠 AUTO-MEMORY PROMOTION CANDIDATE — FLAGGED TO PROME, **NOT WRITTEN** (8/13)
+
+**No auto-memory was written this session** (so the `memory_index_check` step correctly did not run). **One genuinely fleet-transferable lesson surfaced and is parked here rather than added unilaterally**, because `MEMORY.md` is a shared index near its byte cap and the flow rule makes demotion PROME's to execute — adding a row at closeout without a go is the wrong direction.
+
+**Candidate:** `finding_internal_vs_external_instrument_defect` — **two defect classes that look identical on a dashboard and need opposite responses.** **INTERNAL** = the spec is broken (back-fitted threshold, auto-true clause, mis-derived bound); found by AUDIT of your own files; repaired by RE-SPEC; → `STUCK`. **EXTERNAL** = the spec is internally sound and *the world may not emit the observable*; **cannot be found by audit and cannot be repaired by re-speccing**; resolves only by **counting the misses**, and the cheap enumeration that tests it is almost never run. ⚠️ **The tell that you are in the external case: you have asserted a surface is absent without ever enumerating the surfaces that exist** — BRK-25's no-print count of 2 with no denominator, and SHADE's Bermuda claim that died to one paginated walk. **Both desks held the same shape and neither had tested it.** *(Provenance: BROCK 8/13, FORUM 5 §2/§2a; validated live when SHADE's registered falsifier fired on its own claim the same day.)*
 
 ## 🔒 STANDING TESTS FROM FORUM 5 — carried on my surface (all four Will-approved 8/13)
 
