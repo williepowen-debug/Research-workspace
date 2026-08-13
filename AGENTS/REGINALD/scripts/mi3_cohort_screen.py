@@ -108,8 +108,30 @@ COHORT = [
     ("CUBI", 2354985, "CUSTOMERS BANK",                 "NDFI-heavy control"),
 ]
 
-QUARTERS = ["6/30/2025", "12/31/2025", "3/31/2026", "6/30/2026"]
-YOY_PAIRS = {"6/30/2026": "6/30/2025"}   # extend as quarters roll
+# ⚠️ CONTIGUOUS BY REQUIREMENT, NOT BY CONVENIENCE (Will-approved 2026-08-13).
+# The original grid was Q2-25 · Q4-25 · Q1-26 · Q2-26 — it SKIPPED 2025Q3, which is the
+# quarter containing OZK's entire -36% MI3 step. Every figure published off that grid was
+# measured ACROSS a discontinuity it could not show, and two-thirds of the headline
+# "-64% YoY" turned out to be one quarter. A gapped window CANNOT distinguish a STEP from
+# a TREND. Keep this list CONTIGUOUS when rolling it forward; add at the front, drop at
+# the back, never sample.
+QUARTERS = [
+    "9/30/2023", "12/31/2023", "3/31/2024", "6/30/2024",
+    "9/30/2024", "12/31/2024", "3/31/2025", "6/30/2025",
+    "9/30/2025", "12/31/2025", "3/31/2026", "6/30/2026",
+]
+# Same quarter, prior year — derived from QUARTERS so it cannot drift out of sync.
+YOY_PAIRS = {q: p for q, p in zip(QUARTERS[4:], QUARTERS[:-4])}
+
+# ★ STEP DETECTOR (Will-approved 2026-08-13). A reporting/classification change and an
+# economic runoff look identical at the endpoints and completely different quarter to
+# quarter: a re-designation moves the LABEL in one quarter while the BOOK barely moves.
+# Flags |QoQ MI3| > 25% while |QoQ total loans| < 5%. This is a PROMPT TO LOOK, never a
+# finding — it cannot distinguish a legitimate re-designation from a disclosure narrowing,
+# and the Call Report alone never will. Calibrated on the OZK 2025Q3 event (MI3 -36.0%,
+# total loans -0.4%), which it must catch.
+STEP_MI3_PCT = 25.0
+STEP_LOANS_PCT = 5.0
 
 # ⚠️ INSTRUMENT RESOLUTION (finding_registry_names_a_concept_tool_resolves_an_instrument).
 # "Item 4" and "item 9" are CONCEPTS; the MDRM carrying them depends on the FORM:
@@ -130,7 +152,8 @@ TOTAL_CODES = ["2122"]
 ASSET_CODES = ["2170"]
 
 COLS = ["ticker", "rssd", "name", "cohort_reason", "quarter", "status", "mi3_zero_class",
-        "mi3_k", "mi3_yoy_pct", "item4_k", "item9a_k", "item9b_k", "item9_k",
+        "mi3_k", "mi3_qoq_pct", "mi3_yoy_pct", "loans_qoq_pct", "step_flag",
+        "item4_k", "item9a_k", "item9b_k", "item9_k",
         "v1_pct", "v1a_pct", "item9_share_of_base_pct",
         "total_loans_k", "total_assets_k",
         "num_mdrm", "denom_v1_mdrm", "denom_v1a_mdrm", "repro_vs_prior"]
@@ -471,8 +494,32 @@ def main():
                     rec["item9_share_of_base_pct"] = round(100.0 * i9 / (i4 + i9), 1)
             rows.append(rec)
 
-    # YoY on the DOLLARS — first-class, computed here so no analyst has to remember.
+    # ★ QoQ + step detector — computed on the CONTIGUOUS grid, which is the whole point
+    # of making it contiguous. A gapped grid cannot compute a QoQ at all.
     idx = {(r["ticker"], r["quarter"]): r for r in rows}
+    qpos = {q: i for i, q in enumerate(QUARTERS)}
+    for r in rows:
+        i = qpos[r["quarter"]]
+        if i == 0:
+            continue
+        prev = idx.get((r["ticker"], QUARTERS[i - 1]))
+        if not prev:
+            continue
+        if isinstance(r.get("mi3_k"), int) and isinstance(prev.get("mi3_k"), int):
+            if prev["mi3_k"] == 0:
+                r["mi3_qoq_pct"] = "N-A-ZERO-BASE"
+            else:
+                r["mi3_qoq_pct"] = round(100.0 * (r["mi3_k"] / prev["mi3_k"] - 1), 1)
+        if isinstance(r.get("total_loans_k"), int) and isinstance(prev.get("total_loans_k"), int) \
+                and prev["total_loans_k"]:
+            r["loans_qoq_pct"] = round(
+                100.0 * (r["total_loans_k"] / prev["total_loans_k"] - 1), 1)
+        m, l = r.get("mi3_qoq_pct"), r.get("loans_qoq_pct")
+        if isinstance(m, float) and isinstance(l, float):
+            r["step_flag"] = ("STEP-CANDIDATE" if abs(m) > STEP_MI3_PCT
+                              and abs(l) < STEP_LOANS_PCT else "")
+
+    # YoY on the DOLLARS — first-class, computed here so no analyst has to remember.
     for r in rows:
         base_q = YOY_PAIRS.get(r["quarter"])
         prev = idx.get((r["ticker"], base_q)) if base_q else None

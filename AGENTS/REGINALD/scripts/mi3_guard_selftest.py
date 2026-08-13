@@ -72,10 +72,24 @@ def main():
     expect_trip("T5 coverage short by one bank-quarter (silent drop)",
                 lambda: m.coverage_guard(copy.deepcopy(rows)[:-1]))
 
+    # ⚠️ The mutated row MUST be one that EXISTS in the prior committed vintage, or the
+    # guard correctly classifies it NEW and the test silently passes on a false negative.
+    # Found 2026-08-13 when the grid was extended to 12 contiguous quarters: row[0] became
+    # a brand-new quarter and T6 stopped tripping. A positional pick is not a stable
+    # selector once the row set can grow — select by MEMBERSHIP in the prior vintage.
+    prior_keys = set(m.load_prior())
+    target = next((i for i, r in enumerate(rows)
+                   if (r["ticker"], r["quarter"]) in prior_keys
+                   and r["status"] in m.SCORED_STATUSES), None)
+    if target is None:
+        print("selftest cannot run T6/T7: no overlap with the prior committed vintage",
+              file=sys.stderr)
+        return 2
+
     def restated():
         r = copy.deepcopy(rows)
-        r[0]["v1_pct"] = 37.6
-        r[0]["mi3_k"] = 999999
+        r[target]["v1_pct"] = 37.6
+        r[target]["mi3_k"] = 999999
         return r
 
     expect_trip("T6 published cell stops reproducing, UNDECLARED (the 37.6% class)",

@@ -103,3 +103,48 @@ FDIC `LNCOMRE`, 14 quarters, independent of my tooling:
 **Owed:** a packet to the four desks that received this morning's cohort figures (**NEXUS · WAL · OZK · RED**) carrying the qualification in row 3 and the downgrade in row 4. **No figure is retracted; one interpretation is.**
 
 *— REGINALD, 2026-08-13. Paths: FFIEC CDR `RetrieveFacsimile` PDF (pdfminer, hand-read) · FDIC BankFind `api.fdic.gov` · SEC EDGAR submissions API. All pulled 2026-08-13.*
+
+---
+
+# 7. ADDENDUM — THE CONTIGUOUS GRID RAN, AND IT PARTLY WALKS BACK §3's ALARM
+
+**Added 2026-08-13 after Will approved the instrument fix.** The screen now runs **12 contiguous quarters (2023Q3 → 2026Q2), 14 banks, 168 bank-quarters**, with a **step detector** (`|QoQ MI3| > 25%` while `|QoQ total loans| < 5%`). **`repro_guard`: 56 REPRODUCES, 112 NEW, zero restatements — a third independent confirmation of every previously published cell.** Guard falsifier re-run: **8/8** (one test had to be repaired first — see §7.3).
+
+## 7.1 ★ THE OZK STEP IS REAL — AND IT IS NOT ANOMALOUS. Base rate **17 / 154 = 11.0%**, across **7 of 14 banks**.
+
+Ranked by absolute dollars:
+
+| # | Bank | Quarter | MI3 from → to ($K) | Δ $K | QoQ | loans QoQ |
+|---|---|---|---:|---:|---:|---:|
+| 1 | **WAL** | 2024Q1 | 899,159 → 1,481,601 | **+582,442** | +64.8% | +1.8% |
+| 2 | **WAL** | 2024Q4 | 1,609,970 → 2,047,935 | **+437,965** | +27.2% | +0.5% |
+| 3 | **OZK** | **2025Q3** | 1,202,101 → 769,920 | **−432,181** | **−36.0%** | −0.5% |
+| 4 | VLY | 2024Q3 | 66,513 → 492,134 | +425,621 | +639.9% | −0.3% |
+| 5 | OZK | 2026Q1 | 721,546 → 489,284 | −232,262 | −32.2% | +2.0% |
+| 6 | ZION | 2025Q4 | 406,727 → 256,829 | −149,898 | −36.9% | +1.0% |
+| 7-17 | EGBN ×4 · BKU ×4 · ZION · SSB ×2 | — | — | −115k … +99k | — | — |
+
+**What this does to §3, stated against my own alarm:**
+- **The step detector works** — it catches the OZK 2025Q3 event it was calibrated on, first try.
+- ⚠️ **But OZK's step is the THIRD largest, not the first, and steps are ordinary in this line.** **11% of all bank-quarters** show one; **9 of 17 are UP, 8 are DOWN**, so there is no systematic "disclosure narrowing" pattern to point at.
+- **⇒ §3's alarm is DOWNGRADED from "a suspicious event at OZK" to "an ordinary instance of a cohort-wide instrument property."** The *"disclosing less about a larger book"* observation still stands as a **description of OZK's numbers**; it no longer stands as **evidence that OZK did something unusual.** `finding_base_rate_the_instrument_before_its_event_table` — I built the event table first and base-rated it second, and the base rate is what corrected me.
+- **The de-risking reading stays UNRESOLVED** (§6 unchanged): a lower base rate would have made it suspicious, and this one makes it ordinary — **neither makes it de-risking.**
+
+## 7.2 ★ THE BIGGER FINDING, AND IT IS NOT ABOUT OZK: **RCON2746 IS A STEP-PRONE LINE, COHORT-WIDE.**
+
+**One in nine bank-quarters shows a >25% move in memo item 3 while the loan book barely moves.** That is a property of the *line*, not of any bank on it.
+
+**Consequences that outrun the OZK question:**
+1. **MI3 LEVEL comparisons across time are unreliable for every bank in the cohort** — not just across banks (the denominator defect that retired the `>20%` flag this morning) but **within a single bank over time.** Two defects, both now measured.
+2. ⚠️ **WAL owns the two largest steps in the cohort, both UPWARD, and they sit inside the series WAL scores its own thesis on.** The "15.5% → 24.2%" rise that fed my Convergence Matrix for months **contains `+$582M` (2024Q1) and `+$438M` (2024Q4) step-candidates.** WAL's 8/7 conclusion (**PLATEAUED, never ≥25% in 12 quarters**) is a statement about *levels* and is unaffected — but any *trajectory* claim off that series now has to survive this. **Packeted to WAL; its call, its row.**
+3. **This is a second, independent reason the `>20%` flag retirement was correct** — and a reason I did not have this morning.
+
+## 7.3 THE SELFTEST CAUGHT ITS OWN FRAGILITY, WHICH IS WHY IT EXISTS
+
+Extending the grid **broke test T6** (the 37.6%-class reproduction guard). Cause: the test mutated `rows[0]` **positionally**, and after the extension `rows[0]` became a *brand-new* quarter absent from the prior committed vintage — so the guard correctly classified it `NEW` and the test passed nothing. **A positional selector is not stable once the row set can grow.** Fixed to select by **membership in the prior vintage**. **The guard was never wrong; the test was** — and a falsifier that fails loudly when its own assumptions move is doing precisely the job it was written for.
+
+## 7.4 WHAT CHANGED FOR ANYONE HOLDING MY FIGURES
+
+**No published figure moved** — 56/56 previously published cells reproduce. **Two interpretations moved:** OZK's step is downgraded from *anomalous* to *ordinary-for-this-line* (§7.1), and a **new** cohort-wide instrument caveat is added (§7.2). Packets: **OZK** (the task packet on the 2025Q3 question, now correctly framed) and **WAL** (§7.2 item 2). NEXUS/RED already hold the §6 qualification.
+
+*— REGINALD, 2026-08-13 addendum. Grid 2023Q3–2026Q2 contiguous, 168 bank-quarters, FFIEC CDR; guards 8/8.*
