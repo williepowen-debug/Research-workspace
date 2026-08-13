@@ -32,7 +32,7 @@
 - **MBA apps caught up 2 weeks; the Freddie tension RESOLVES with both claims intact.** wk 8/7 composite **+3.6%**, refi **+5.0%** ⇒ Freddie right, my row 2 weeks stale, **never a contradiction — a 14-day ledger gap.** ⚠️ **But composite −11.6% YoY, refi −22.2% YoY: "no refi escape" survives on the LEVEL basis.** Third level-vs-rate instance of the session.
 - **July GSE monthlies NOT OUT — path-tested 404 at both** while both June files 200. ⚠️ **The DOCKET DATE was the defect:** cadence is the **last week of the following month**, so "~8/12-14" was wrong by 2 weeks → re-dated **~8/25-28**.
 - **Row 46 EXECUTED** — GSE-condo row re-keyed to **~10/15 `WAITING-ON-INSTRUMENT`**.
-- **Row 45 DRAFTED, NOT LIVE** → `reports/2026-08-13_servicer-watch-respec-DRAFT-for-ratification.md`.
+- **★ Row 45 DRAFTED → WILL-RATIFIED TWICE → ENCODED, LIVE.** Classes **E** (rescue recap ≥10% mkt cap + distress marker) · **F** (≥20% non-growth dilution) · **G** (unscheduled dividend suspension / ≥50% cut) joined unchanged A–D; **Class Z ratified on a second same-day ruling** — attestation-based backstop, **no quote no fire**. 🚫 No-verdict band: **equity drawdown alone never fires at any magnitude.** ⚠️ **Row is 🔴 by a labelled SEEDING decision on UWM 8/6, NOT a trigger firing — no registered trigger has ever fired.** Spec: `reports/2026-08-13_servicer-watch-respec-DRAFT-for-ratification.md` (header flipped to RATIFIED; body preserved as the pre-ratification draft). Encode confirmed to `PROME/inbox/`.
 - **CORAL packet SENT + COMMITTED** (`4cff3ce11`) — SEL-2026-05 landed at primary.
 - **VantageScore basis break** added as a standing break-flag row (prophylactic; zero current exposure).
 - **NEXUS Amendment 10** ordering rule encoded into `CLAUDE.md` CLOSEOUT.
@@ -54,11 +54,12 @@
 3. **🔴 FMHPI July data ~8/31 — the HOM-01 decision point.** Issuer path: `freddiemac.com/research/indices/house-price-index` (curl+UA) for the vintage line, then `fmhpi_master_file.csv`.
 4. **Fannie/Freddie JULY monthlies ~8/25-28** — second datapoint on the mod-suppression test. **This is now the highest-value recurring pull I own.**
 5. **Answer WALTER SIG-…-019** (builder net-effective price, 3 asks — still in inbox, deliberately held). **My lean: yes, instrument it from builder earnings disclosures (DHI/LEN/PHM all quantify incentive load), not from the relayed tweets, neither of which was fetched at source.**
-6. **Row 45** — encode on Will's ratification, then confirm to `PROME/inbox/` (**it closes on the encode, not the approval**).
+6. ⛔ **BASE-RATE THE A–G THRESHOLDS — the one dated obligation carried out of this session.** ≥10% mkt cap · ≥15% VWAP discount · ≥20% dilution · ≥50% dividend cut, against **2019–2026 capital actions and dividend changes at PFSI / RKT / UWMC / LDI / Onity**. **Until anchored, cite the spec as PROVISIONAL and do not build a packet or trade rail on it.** Only anchor held: UWM clears the Class-E floor ~7×, so the floor is not obviously too tight — **the false-positive rate is unknown.** *(Z is exempt by construction — no number to anchor.)* **Row 45 itself is CLOSED: ratified, encoded, confirmed to PROME.**
 
 ## OPEN THREADS
 
 - **Marquee (recognition regimes)** — **strengthened, evidence reshaped.** The GSE divergence was quarter-level; monthly shows both books rising. Trepp's July MF move is the **payment-failure** leg, which mod-suppression does not cover.
 - **Cohort convergence still the sharpest thing on the board:** TX syndicator paper >50% of the pipeline · Trepp MF driver naming Texas · Arbor REO above delinquencies. **Three independent instruments, one 2021-22 floating-rate Sun Belt vintage.**
 - **⚠️ TWO measurement breaks now sit in my docket** (Ginnie APM 26-06 · NY Fed VantageScore). **The instruments under this domain are being re-based faster than its prediction windows run** — that pairing is itself a finding.
-- **`STATUS.md` at 240/250 lines.** Compressed the 7/24+7/17 BOTTOM LINE entries this session to restore headroom. **Next compression candidate: the 7/31-eve entry.**
+- ⚠️ **NOT MINE, FLAGGED TO PROME, DO NOT TOUCH: `memory/auto/auto/` exists** and holds one memory (`finding_bare_since_date_drops_same_day_commits.md`). The harness memory path symlinks to `memory/auto/`, so **a file one level deeper is invisible to it — that memory will never load for anyone.** Some agent's write used the wrong path. Flagged, not fixed: it is not my file.
+- **`STATUS.md` at 242/250 lines.** Compressed the 7/24+7/17 BOTTOM LINE entries this session to restore headroom. **Next compression candidate: the 7/31-eve entry.**
