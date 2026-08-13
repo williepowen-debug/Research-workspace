@@ -2,7 +2,7 @@
 
 **Purpose:** curated synthesis writeback, refreshed **every closeout** (CLOSEOUT step 3). Compact routing-first variant (NEXUS Amendment 9, Will-approved 7/31). `outbox/`/direct-inbox is 🔴 crisis only.
 
-**Last writeback: 2026-08-13 CLOSEOUT — FINAL FOLD, written after the last STATUS edit per Amendment 10 ordering, immediately before git.**
+**Last writeback: 2026-08-13 CLOSEOUT — RE-FOLDED 15:20 after three post-fold commits. ⚠️ My first fold satisfied Amendment 10's *letter* (brief timestamp == STATUS timestamp) while violating its spirit: I folded, then kept working for two hours. That is the exact failure the amendment cites — 5-of-5 stale briefs in the 7/31 audit *had* refreshed and then continued. The timestamp test cannot catch it. Re-folded with what came after.**
 **WAITING-FOR:** **Powell record break (~1-2 days)** · **C5 trigger, 5 of 10 days, fires ~8/18** · CPC DJF outlook **~8/20** (owed WATT + MARCO) · Colorado **ROD ~8/25-30** · Brent grading **8/24** (owed MARCO)
 
 ---
@@ -49,3 +49,17 @@ Danube: level, no reference, **said nothing** (a gap). Paraná: level, no refere
 - **New structure:** five domain workspaces with a one-way **observations → findings → synthesis** contract, and on-demand sub-agents whose deliverable is a **file, not a message** (a worker idled twice without reporting; changing the *channel* fixed what more instruction had not).
 - **Today produced more corrections of my own work than new findings** — six, listed in `LESSONS.md` L-15…L-26. **Every one was caught by going to a primary or computing a distribution.** The common shape: **a number without its reference, or a finding without its caveat, reads as complete.**
 - **Predictions:** AEO-06 → **95%**, AEO-01 → **80%**, **AEO-11 new** (70%), AEO-10 basis replaced and tier lowered. **AEO-01's raise is capped at 80% deliberately** — the low ACE is *caused by* the same El Niño shear the prediction already rests on, so it is the same mechanism **observed**, not a second witness.
+
+---
+
+## ⚠️ ADDED AT RE-FOLD — three process findings from after the first fold, all fleet-general
+
+**1. A disposition log is not a reply — the asker is not automatically a recipient (L-27).**
+WALTER's `SIG-W-20260812-017` put a question directly to me. **I answered it to WATT and VULCAN, wrote "ASK #4 ANSWERED" in my `board_log.tsv`, and sent WALTER nothing.** From inside my file the loop looked closed — there is a disposition row, it says answered, it names the packet. From WALTER's side the question was simply unanswered. ⚠️ **Worse than a plain miss, because the record conceals it:** a future audit of my lane processing reads "acted / ANSWERED" and stops. **If a routed signal contains an ASK addressed to you by name, the reply goes to the ASKER — routing the substance to the domain owner is necessary and not sufficient.** Anyone running a WALTER lane has this exposure.
+
+**2. When an orchestrator does domain work directly, the domain's observation layer silently under-records (L-28).**
+My `water/` folder gained five bodies of work; **one** came from a spawned worker and landed in the domain log, **four** were mine and went straight to central `KB.tsv`. **The cause is structural: my `AGENT.md` disciplines spawned WORKERS into writing the observation layer, and nothing disciplines the orchestrator.** **The contract binds whoever DID the work, not whoever was spawned.** Relevant to any agent running a layered or sub-agent structure.
+
+**3. 🔑 The meta-finding, and the reason both of the above survived my closeout.**
+**Orphan check, consumer check and ledger-staleness all passed** on a day with **two delivery failures and three unlogged domains.** Each answers a question I had already thought to ask. **Both gaps were found only because Will asked a question I had not.**
+⇒ Built `AGENTS/AEOLUS/scripts/domain_log_check.py` (closeout step 2b) — flags a domain touched but silent, or one whose channels gained central KB rows while its own log gained none. **Negative-tested against the real failure, and it found two more live gaps on its first run.** Kept in my own dir rather than root `scripts/`; **if other agents adopt the domain-folder pattern it is worth promoting, and PROME owns that call.**
