@@ -1,5 +1,7 @@
 # AEOLUS · WATER — worker run report
 
+> ⚠️ **This report covers ONE worker run (Rhine). It is NOT a summary of the folder's day.** `water/` also gained the Colorado EIS shortage matrix, the Panama transit instrument, the Danube LKV references and the Paraná distribution on 2026-08-13 — **all AEOLUS-direct work, not worker runs**, so none appear below. **For the folder's state read `DOSSIER.md`; this file only ever describes the most recent worker run.**
+
 **run_date: 2026-08-13** · **scope: RHINE ONLY** (WSV/PEGELONLINE primary, six verified stations)
 **Data timestamp: 2026-08-13T17:45:00+02:00** (latest 15-min observation at every station)
 
