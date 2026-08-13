@@ -54,6 +54,12 @@ AGENTS/WAL/sources/*.pdf
 AGENTS/WAL/sources/10k_*/
 AGENTS/WAL/sources/q[1-4]_*/*
 !AGENTS/WAL/sources/q[1-4]_*/*.md
+# REGINALD per-bank subtree archived 2026-08-13 (Will-approved retirement R2) — the single-* rules above match one path segment, so the move un-ignored ~17 binaries; same semantics at the archive path (REGINALD flagged, PROME applied per the WAL same-changelist precedent). ⚠ git mv silently re-scopes depth-anchored ignore rules — git status immediately after any tree move.
+AGENTS/REGINALD/archive/per-bank/*/sources/*.pdf
+AGENTS/REGINALD/archive/per-bank/*/sources/*.xlsx
+AGENTS/REGINALD/archive/per-bank/*/sources/10k_*/
+AGENTS/REGINALD/archive/per-bank/*/sources/q[1-4]_*/*
+!AGENTS/REGINALD/archive/per-bank/*/sources/q[1-4]_*/*.md
 
 # Local large/source artifacts — keep raw statutory PDFs out of Git
 AGENTS/SHADE/sources/athene_statutory_2026-06-15/*.pdf
