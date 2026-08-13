@@ -48,11 +48,22 @@ curl -s https://www.usbr.gov/uc/water/hydrodata/reservoir_data/919/csv/49.csv | 
 
 `water/` · `wildfire/` · `seismic/` — each with **`README.md`** (charter), **`DOSSIER.md`** (live state), **`SOURCES.md`** (**verified working pull commands**). Wired into `CLAUDE.md` § FILES.
 
+**FIVE folders** (3 built first pass, `regime/` + `hurricane/` added same day after a second Will pass):
+
 | Folder | Channel mapping | Boot obligation |
 |---|---|---|
+| **`regime/`** | **ENSO — the MASTER VARIABLE, not a channel** (root, so it gets no score: counting it once is the Independence column's whole job) | **read FIRST** (L-06) |
 | `water/` | **C6 allocation** (Colorado) + **C5 navigation** (Rhine + Will's major-river watch) | normal |
+| **`hurricane/`** | **C1's physical PERIL leg — NOT its own channel** | normal |
 | `wildfire/` | **C4's physical PERIL leg — NOT its own channel** (Will-ruled; a separate score would double-count against C4 property) | normal |
 | `seismic/` | volcanic + earthquake → C2 / C1-C4 / C5 / C3 | 🟡 **NONE — event-triggered watch** |
+
+**No `insurance/` folder — Will-ruled.** Each peril folder owns its own **peril → insured-loss handoff**, rather than a third home for the same cat-loss/ROL/residual-pool figures. `hurricane/` and `wildfire/` are structural twins carrying the same discipline: **PERIL AND LOSS ARE DIFFERENT INSTRUMENTS** (ACE ≠ ROL; acres ≠ cat losses), and both currently point **opposite ways**.
+
+**🔑 `regime/` closed today's open RONI question — and the answer is load-bearing.** Pulled `RONI.ascii.txt`: **RONI MJJ = +0.98 vs ONI MJJ = +1.39.** Computed the offset series: **ONI−RONI is NOT constant — it has grown every decade** (1950s −0.17 → 2000s +0.01 → 2010s +0.22 → **2020s +0.44**), which is tropical-mean warming showing up inside the instrument. **So CPC's "+2.5 RONI historic" ≈ +2.9 ONI at today's offset** — vs ONI peaks of +2.37 (1997) and **+2.59 (2015, the record)**. ⚠️ **Do NOT carry a fixed conversion forward** — the offset drifted from +0.09 (1997) to +0.59 (2023) *within* peak events.
+⚠️ **The under-appreciated read, and it cuts AGAINST alarm:** ONI +1.39 is nearly "strong" but **RONI +0.98 is squarely moderate** — the *dynamical* event is weaker than the raw SST implies. Since teleconnections respond to gradients/convection (which is why CPC frames in RONI), **keying composites to ONI may be over-calling the response.** **Registered as an open question, NOT silently applied** — re-deriving channel signs against RONI is real work and would likely *soften* several reads.
+
+**⚠️ NEW DECLARED GAP (`hurricane/SOURCES.md`): I have no verified live ACE source.** `tropical.colostate.edu/Realtime/` returned a 6.5 KB empty shell. **ACE is a live threshold band in CLAUDE.md AND half of AEO-01's resolution criterion — a registered metric with no resolvable instrument.** **Do not quote an ACE figure until this is closed; it is the first job in that folder.**
 
 **Two rulings from Will this session, both encoded:**
 1. **Seismic is an event-triggered watch, NOT a core channel.** It has **5 armed numeric triggers (S-1…S-5)** and **no standing live-read obligation** — **quiet is the expected state and an empty dossier there is CORRECT.** Explicitly exempted from the #1 guard in the boot sequence. **Audit it by checking triggers/sources resolve, never by entry count.** *(Reason: zero prior material; a core channel with a permanently-empty read is the DARWIN failure mode, and a cold-start scaffold grades worse than none.)*

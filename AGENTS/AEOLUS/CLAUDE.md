@@ -229,9 +229,14 @@ Three topic folders, each with the same three files: **`README.md`** (charter �
 
 | Folder | Channel mapping | Status |
 |---|---|---|
+| **`regime/`** | **ENSO & teleconnections — the MASTER VARIABLE.** Not a channel: the **shared antecedent** that sets the sign on C1/C2/C3/C5/C6 | **CORE — read FIRST every pass** (L-06) |
 | `water/` | **C6 = allocation** (Colorado/reservoirs) · **C5 = navigation** (Rhine, Mississippi, + Will's standing major-river watch) | **CORE** — normal boot-liveness obligation |
+| **`hurricane/`** | **the physical PERIL leg of C1** — *not* a separate channel | **CORE** (via C1) — normal obligation |
 | `wildfire/` | **the physical PERIL leg of C4** — *not* a separate channel | **CORE** (via C4) — normal obligation |
 | `seismic/` | volcanic + earthquake → **C2** (VEI 6+ climate forcing), **C1/C4** (cat loss), **C5** (ash/aviation), **C3** (energy infra) | 🟡 **EVENT-TRIGGERED WATCH — NOT a core channel** |
+
+> **`regime/` is deliberately NOT a channel and gets no matrix row or score.** A scored channel can be double-counted; **ENSO is the ROOT**, and counting it once across every channel it drives is the entire point of the Independence column (**L-02**). It holds the four-baseline reconciliation (**ONI / RONI / OISST-monthly / weekly — all live, none interchangeable**), which is the single most error-prone thing I handle: **6 of 17 lessons are ENSO-method lessons.**
+> **`hurricane/` and `wildfire/` are structural twins** — the peril legs of C1 and C4 respectively. **Neither gets its own score**, because a separate score would double-count the same event against its parent channel. **There is deliberately NO `insurance/` folder** (Will-ruled 8/13): each peril folder owns its own **peril → insured-loss handoff**, rather than a third folder holding the same cat-loss / ROL / residual-pool figures a third time. **Both carry the same central discipline: PERIL AND LOSS ARE DIFFERENT INSTRUMENTS** (ACE ≠ ROL; acres ≠ cat losses), and as of 8/13 they point in **opposite directions** on both perils.
 
 > ⚠️ **`seismic/` is deliberately exempt from the #1 guard.** It has **no standing live-read obligation**; **quiet is the expected state**, and an empty dossier there is *correct*, not a gap. It carries **5 named numeric triggers (S-1…S-5)** instead. **Audit it by checking the triggers and sources still resolve — never by entry count.** Promotion to a core channel (C7) requires ≥3 trigger fires in ~6 months or a single VEI 6+ event → DAEDALUS review, Will-gated. *(Rationale: seismic began with zero prior material; a core channel with a permanently-empty read is the DARWIN failure mode this charter exists to prevent, and a cold-start scaffold grades worse than none.)*
 
