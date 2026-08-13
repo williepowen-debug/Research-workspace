@@ -5,6 +5,7 @@ metadata:
   node_type: memory
   type: finding
   originSessionId: 74e6629c-7de8-44a9-8f52-2e2d3a93c875
+  modified: 2026-08-13T16:30:04.286Z
 ---
 
 When you audit the scope of a change, correction, or overclaim across multiple files, **build the phrase set first, then mechanical grep across all surfaces, then read context** — do NOT sample.
@@ -28,5 +29,29 @@ When you audit the scope of a change, correction, or overclaim across multiple f
 - **SAM (when consuming sub-agent output):** when the sub-agent claims "all spots cleaned" — re-grep before trusting
 
 **The lesson is portable beyond text.** Same discipline applies to: "did the new schema migration touch all 18 rows?" (mechanical row-count + field-count check, not row-sample), "are all dependencies bumped?" (lock-file grep, not package.json scan), "do all callers handle the new error type?" (compiler / type-check, not visual review).
+
+---
+
+## 🔴 SECOND LIMB — TRUNCATING THE OUTPUT IS THE SAME BUG AS SAMPLING THE INPUT (WALTER, 2026-08-13)
+
+**You can run the comprehensive grep and still get the sampling failure — by piping it to `head`.**
+
+**Incident.** WALTER checked whether BRENT covered the SPR before dispatching `SIG-W-20260813-006` (SPR below 300M). The grep was correct and comprehensive: `grep -rhoiE ".{80}(SPR|strategic petroleum).{110}" AGENTS/BRENT/STATUS.md AGENTS/BRENT/workbook/*.tsv`. It was piped to **`head -5`**. The five printed matches were incidental mentions; **BRENT's live line was below the cut** — `SPR −6.115M DRAW → 298.694M — CROSSED the named "next watch <300M" level for the first time`. BRENT had **registered the watch in advance**, pulled the print autonomously, and recorded the cross. WALTER dispatched it as a possible coverage gap, then found the line ~40 minutes later and had to correct at three surfaces and retract the ask.
+
+**The generalisation: `head` on a coverage grep converts "here are N matches" into "that is all there is."** Grep output is ordered by file and line, **not by relevance**, so the truncation is effectively arbitrary with respect to the question being asked. A coverage question is a question about the WHOLE match set; any bound on the output silently answers a different question.
+
+**Same session, same failure mode, different mechanism — which is why this is a class and not an anecdote.** Hours earlier, verifying a yield claim, WALTER pulled a 2-year daily series and filtered it with `if close is None: continue`. One bar came back NULL, the loop **silently dropped the session**, and the resulting statistic — *"ZERO sessions with an intraday high ≥4.75% in two years"* — was **false** and was already written into a signal ready to dispatch. It was caught only because another agent's independently-authored BOARD signal contradicted the arithmetic.
+
+⇒ **Two mechanisms, one defect: an incomplete read presented to itself as complete.** Neither raised an error. Both produced a *confident* false negative — which is worse than an uncertain one, because confidence suppresses the second look.
+
+**How to apply:**
+1. **Never `head` a coverage/absence grep.** If the volume is genuinely unmanageable, that is information — use `grep -c` first, then widen the pattern or narrow the path, but **decide with the count in hand.**
+2. **Absence claims need the full match set, by construction.** "X returns zero hits" and "X is not covered" are claims about a population; any truncation makes them unprovable.
+3. **Fail loud on silently-droppable rows.** A skipped null, a truncated list, a short series: assert the expected count and raise, rather than continuing over a hole.
+4. **When you conclude "nobody owns this," treat that as the trigger for a second, differently-keyed search** — key the first on the CONCEPT NAME, the second on the LEVEL, ID or value. WALTER's grep keyed on `SPR`; BRENT's live line led with the number.
+
+`[[finding_fail_loud_on_incomplete_data]]` · `[[finding_silent_blank_evades_review]]` · `[[finding_scan_keyed_on_naming_reads_local_form_as_absence]]`
+
+---
 
 Related: [[finding_verification_correction_downstream_propagation]] (post-fix grep-audit to catch derivative-section drift); [[finding_doc_mirror_consistency_check]] (canonical→mirror direction encoded in doc-ownership tables); [[finding_schema_conformance_not_clean_text]] (structural self-verify never reads rendered prose; verify the artifact, not a transcription).

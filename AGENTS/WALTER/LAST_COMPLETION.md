@@ -1,84 +1,82 @@
 # WALTER — LAST COMPLETION
 
-**Session:** 2026-08-12 Wed, **SESSION 2** — boot 16:14Z on Will-Telegram *"Hi WALTER please boot up"* (after the ~16:00Z Tier-2 close of session 1); RESEARCH-INTAKE lane sweep → Will-directed news sweep → **three 9-image Telegram batches** (17:14Z / 17:27Z / 18:08Z); closed on Will's *"okay lets close out here"* ~19:0xZ. **US markets OPEN the entire session.**
-**Closeout tier:** **Tier-2 FULL** (Will signalled stop; second Tier-2 of the day, no deferred breadcrumbs outstanding).
+**Session:** 2026-08-13 Thu — boot 14:38Z on Will-Telegram *"Hi WALTER please boot up - today is 8/13/26"*; **six image batches** (14:57Z 11img · 15:19Z 8img · 15:48Z 11img · 16:02Z 10img · 16:18Z 10img, plus the recovered overnight batch #8); closed on Will's *"okay lets close out here"* 16:28Z. **US markets OPEN throughout.**
+**Closeout tier:** **Tier-2 FULL** (Will signalled stop; no deferred breadcrumbs outstanding).
 
 ---
 
 ## STATUS
 
-**🟢 GREEN.** Doctor **0 HIGH / 0 MED at every checkpoint** — 4 MEDs opened mid-session by *other agents' activity* and were cleared by reading their STATUS, not by silencing the check. BOARD **700→708**. Origin **0 ahead / 0 behind, verified BY CONTENT**. **0 orphans** across 3 delivery reconciles. All 5 batch manifests declared-before-triage and closed complete.
+**🟢 GREEN.** Doctor **0 HIGH / 0 MED at every checkpoint**. BOARD **713→720**. Origin **0 ahead / 0 behind, verified BY CONTENT** after every push. **0 orphans** across 6 delivery reconciles. **All 6 batch manifests declared-before-triage and closed complete — 52/52 items dispositioned.**
 
 ## RESULT
 
-**Session 2: 8 DISPATCH · 26 KILL · 5 DUP · 1 FOLD · 1 NO-ACTION.** *(Day total: BOARD 693→708, 15 dispatches, 32 kills, 8 manifests, 2 anchor addenda.)*
+**8 DISPATCH · 28 KILL · 9 DUP · 2 FOLD · 1 self-CORRECTION.**
 
 | # | Prec | Action → Info | What |
 |---|---|---|---|
-| `-008` | PRIORITY | VULCAN → HENRY, WATT, RED | Micron at KeyBanc 8/10: supplies **<half** of data-centre DRAM demand, customers **price-insensitive**, **LTAs to 2030+ may reach ~half of revenue** — answers the *fraction* half of VULCAN's own presold-vs-spot question, **not the vintage half, which is the half that decides it** |
-| `-009` | PRIORITY | REGINALD → LIQUID, RED | **INOCULATION** — the **$6.6T** stablecoin figure is **Treasury's April-2025 conditional**, via the **bank lobby**, relabelled a Citi warning on the **exact one-year anniversary**; FDIC deposits up a **7th straight quarter** |
-| `-010` | PRIORITY | VULCAN, WATT → LIQUID, HENRY, BROCK, RED | **CoreWeave Q2: capex $35-39B vs revenue $12.4-13.2B (~3×), $626M GAAP loss, +16-18% — and the 10-Q VULCAN named as its blocker has PRINTED.** The lane did not carry it |
-| `-011` | PRIORITY | FALCON, BRENT → HAWK, OSPREY, RED | Blockade tally **12→20→44→55** redirects, **disabled/boarded FLAT at 2/2** — compliance not kinetics, and a **sourced** negative; GATE 2 evidence pointing away |
-| `-012` | ROUTINE | FALCON → HAWK, BRENT | Mecca pact is an **accession** to a Sept-2025 agreement, **not** NATO-style per the domain source; coalition is **43 nations**, not 14 |
-| `-013` | ROUTINE | MIDAS → LIQUID, HENRY | **Gold miner equities = 0-hit channel fleet-wide**; the number **deliberately not carried** (stale by construction). The ask is a scoping call |
-| `-014` | ROUTINE | FALCON → HAWK, RED | **The Supreme Leader invoked the MOU as LIVE two days after we logged it "formally repudiated"** — bears on a FALCON flip reading *"formal MOU withdrawal"* |
-| `-015` | ROUTINE | CARL → AEOLUS, HENRY, BRENT | **$12B farm aid is a component of a $95B package**, passed 216-214, **Senate-stalled**; farm channel 108d stale, **FERT dormant** |
-
-**Corrections executed at all three surfaces** (`corrects:` header + INDEX back-marker + file banner) on **`-20260809-001`**, **`-20260807-002`** and **`-20260716-002`**.
+| `-001` | PRIORITY | CARL, LABOR → RED, HENRY | **RECOVERED** — ISM Employment 52.8, crossed 50 after **33 months**; PMI 55.6 four-year high; `ISM` = zero fleet hits while CARL's own routing row names it |
+| `-002` | PRIORITY | PROME, RED → BOND, HENRY, LIQUID, TERRY | **Price source returns intermittent NULL bars; skip-nulls turns that into a confident false negative.** Found by making the error myself |
+| `-003` | PRIORITY | BOND, HENRY → LIQUID, RED, CARL | July MTS **−$432.3B EXACT**, but interest has **NOT** passed Medicare ($931.4B vs $954.5B) and the record is **mostly a Saturday** |
+| `-004` | ROUTINE | BRENT → FALCON, HAWK, MARCO | DPA invoked to force Sable/Santa Ynez back online over state objection — artifact 5 months old, **routed on the precedent not the 50 kbpd** |
+| `-005` | ROUTINE | FALCON, BRENT → HAWK, OSPREY, RED | FT: Iran **prolonging, not maximising damage** — zero new facts, routed as a mechanism for our own zero-barrels-offline anomaly; INDETERMINATE |
+| `-006` | PRIORITY | BRENT → FALCON, HAWK, RED, MARCO | **SPR 298.7M — below 300M first time since JANUARY 1983**, 20-week streak, −116.7M since 3/20. **⚠️ SELF-CORRECTED 40 min later** |
+| `-007` | PRIORITY | FALCON, BRENT → HAWK, OSPREY, RED, MARCO | Iran publishes a **named Gulf energy target list** — routed because it points OPPOSITE to `-005` 90 minutes earlier |
+| `-008` | ROUTINE | BRENT → ZHAO, HAWK, MARCO, RED | China official crude balance overstates stockbuilding **~6×** vs satellite — data-integrity on a **residual** series |
 
 ## CHANGED
 
-- **BOARD** +8 signals; INDEX rows appended with **placement verified by reading dates in sequence**, counts + ToC updated (IRAN_HORMUZ 125→128 · AI_INFRA_CAPEX 53→55 · BANK_COLLATERAL 102→103 · CONSUMER_STAGFLATION 109→110 · POSITIONING_VALUATION 96→97; **TOTAL 708**).
-- **`anchors/IRAN_WAR.md`** ADDENDUM **#18** — the blockade series, the transit-tell refresh, the four-baseline discrepancy, the STS/bypass datum, Rezaei's first Hormuz statement.
-- **`CLAUDE.md`** boot step **6b corrected: 15 → 17 triggers**, with an instruction to *count the rows* rather than carry a number.
-- **`REGISTRY.tsv`** 5 rows (HOMER · AEOLUS · ORACLE · LABOR · self).
-- **`STATUS.md`** lead regenerated · NETWORK AWARENESS regenerated from the refreshed registry · **`SESSION_LOG.md`** prepended **with a line-count assertion** (that file was truncated once earlier today).
-- **`MEMORY.md`** 4 findings added, banner refreshed, session notes rewritten (117→~127, overage declared).
-- Logs: route +8, delivery +25, kill +26, 5 batch manifests.
+- **BOARD** +7 signals (+`-001` recovered) — INDEX rows appended with placement verified by reading dates in sequence; counts + ToC updated (MISC 17→18 · FED_FRAMEWORK 45→46 · HYDROCARBON_INFRA 38→40 · IRAN_HORMUZ 129→131 · ASIA_CHINA 37→38; **TOTAL 720**).
+- **`SIG-W-20260813-006` CORRECTED at all three §3.6 surfaces** — `corrects: SELF` header + file banner + INDEX back-marker + create-only CORRECTION handoffs to all 4 recipients.
+- **`registry/DEEP_RESEARCH_FLAGGED_LOG.tsv`** — DR-4 + DR-5 **RESOLVED**; **CARL-C3 + CARL-DR-1 rows CREATED** (neither commission ever went through the REQ path).
+- **`REGISTRY.tsv`** 6 rows across the day (REGINALD · BRENT · DAEDALUS · AEOLUS · TERRY · self + DEWEY).
+- **`STATUS.md`** lead regenerated · routing block regenerated · SESSION LOG breadcrumb prepended.
+- **Auto-memory `finding_comprehensive_grep_over_sampling`** extended with a **second limb** (truncating the OUTPUT is the same bug as sampling the INPUT), carrying both of today's instances.
+- Logs: route +8, delivery +35, kill +28, 6 batch manifests.
 
 ## GAPS
 
-- **🟢 PUSH CLEAN — 0 ahead / 0 behind, verified BY CONTENT** (INDEX total, new kill rows and the correction back-markers each grepped on `origin/master`).
-- **🔴 FOUR OF FIVE PUSH CYCLES FAILED ON `SSL connection timeout`** while plain HTTPS to github.com answered **200 in 0.38s** — this box's **git transport** specifically, not general egress. Each succeeded on retry; nothing lost.
-- **🔴 I NEARLY ACCEPTED A FALSE CLEAR: `git cat-file -e origin/master:<path>` returned OK on paths that existed from EARLIER commits while the current commit had not landed.** Caught by the ahead/behind count. **Promoted to MEMORY** — path existence is not a push receipt, and it is the same defect class as the check I shipped on 7/27.
-- **Consumer check (1c):** no *published figure* of mine was superseded. **But three carried AGENT-STATE claims were false and were corrected at source** (MIDAS/HOMER/OSPREY) — not a `consumer_check` class, since they are assertions rather than figures, which is exactly why nothing caught them.
-- **Orphan check:** foreign files are **REGINALD's workbook + `HEARTBEAT.md`** — `[not yours]`, **not swept**, flagged here for PROME. DAEDALUS's staged renames in the shared index were left untouched by typed pathspecs.
-- **MEMORY ~127 lines vs the 100 cap — DECLARED**, nothing pruned because nothing qualified: no fix of mine shipped, and the three candidate checks are recorded **UNBUILT**, which is precisely the state that must not be pruned.
+- **🟢 PUSH CLEAN — 0 ahead / 0 behind, verified BY CONTENT after each of 6 pushes.** No SSL failures today (yesterday's 4-of-5 git-transport problem did **not** recur).
+- **🔴 THE SESSION'S OWN DEFECT, TWICE:** an incomplete read presented to itself as complete — once via a skip-nulls loop over a NULL price bar, once via `head -5` on a coverage grep. **Both produced confident false negatives; neither raised anything.** One was caught by another agent's signal, one by re-running my own grep. Promoted to auto-memory.
+- **Consumer check (1c):** no *published figure* of mine was superseded. The `-006` correction was a **framing/ask** retraction, not a figure change — every number in it stands and cross-validates to the barrel against BRENT's independent pull.
+- **Orphan check:** foreign uncommitted files are **HOMER STATUS + workbook, `PROME/state/board_cursor.txt`, `memory/auto/MEMORY.md`** — `[not yours]`, **not swept**, flagged here for PROME.
+- **FRED still 403s from this box** (blocked `-002`'s DGS30 confirmation; the basis argument had to be inferred).
 - **`trash` still not on PATH** (carried; needs Will).
 
 ## WILL_NEEDS
 
-**🟢 NOTHING GATED ON WILL.** Two things he may want to rule on, neither blocking: **(1) DEWEY has no runner and DR-4 is due ~8/14** (item 9 below). **(2) The office-vacancy list has no publisher** — if he knows the source it becomes usable and goes to CREED.
+**🟢 NOTHING GATED ON WILL.** One thing he may want to note, not blocking: **five separate artifacts from the single 7/31 session** circulated as current today. If the feed keeps recirculating one peak session, that is a collection-side property worth knowing about, not a market signal.
 
 ## FOLLOW-UP (canonical running list — survives handoff via this file)
 
-**🟢 RESOLVED 2026-08-12 (session 2):** **`RED-FT-06`'s EXIT is DEFINED** (VIX ≥18 s=5, pre-data) — the three-session ask is **CLOSED** · boot 6b array corrected to **17 triggers** · **three false agent-state claims corrected** (MIDAS/HOMER/OSPREY) · the OSPREY CPC ask **partly discharged** (OSPREY published it 8/10; what remains is the Kazakh-ministry leg and whether the ~8/17 falsifier keys on a NEW strike given CPC was already attacked in July).
+**🟢 RESOLVED 2026-08-13:** **DEWEY HAS A RUNNER** — DR-4 (2d early), DR-5 (5d early), C3 and CARL-DR-1 all delivered; the 8/12 "~10 commissions, no scheduled executor" flag is **CLOSED on delivery** (cadence question remains) · the orphaned overnight dispatch is **fully recovered and on origin** · `RED-FT-06` exit, boot-6b 17-trigger array and the three false agent-state claims all remain closed from 8/12.
 
 **🔴 FIRST ACTIONS NEXT BOOT:**
-1. **⏰ FIVE STANDING CHECKS (the fifth is new, and it is this session's own finding):**
-   **(a)** **DIFF EVERY DATED ITEM AGAINST TODAY** — a date that simply passes produces nothing and sits there looking pending.
+1. **⏰ SIX STANDING CHECKS — the sixth is new and it is this session's own finding:**
+   **(a)** **DIFF EVERY DATED ITEM AGAINST TODAY.**
    **(b)** any **"no owner / no gate / nobody tracks X"** claim is a **REGISTRY-layer** query, never recall.
-   **(c)** **GREP THE OWNERS BEFORE THE WEB — now n=15.**
-   **(d)** any ***"this is an enormous NEW fact"*** reaction to a long-running-theater wire is an **ANCHOR QUERY** first — **and it must be RUN, not cited.** Both directions fired on the same subject hours apart today.
-   **(e) 🆕 every *"agent X is dark / owes me Y / hasn't covered Z"* claim is a `git log -1 -- AGENTS/X/` or STATUS-header read AT THE MOMENT OF WRITING** — never a recollection, **and never inherited from my own previous closeout.** n=3 in one session, one of them repeated to Will before checking.
-2. **🔴 VULCAN must read the CRWV 10-Q** — it named the document as its blocker, the document printed, and VULCAN is dark since 8/03. Highest-value open item on the board.
-3. **🔴 FALCON — two asks:** GATE 2 posture given 43 extra redirects produced **zero** extra disabled/boarded (`-011`); and does the Supreme Leader invoking the MOU as *breached* move a Diplomacy flip whose trigger reads *"formal MOU withdrawal"* (`-014`)?
-4. **🔴 BRENT — rule the pre-war Hormuz transit baseline.** **Four sit in our own anchor (88 / 120 / 130 / 70 per day)** and **no collapse-ratio should be quoted from that file until one is chosen.** Plus: is the two-session crude non-response real once the in-line CPI is netted out, and the still-owed Red Sea leg from `-20260807-002`?
-5. **🟠 `BRENT-PAPER` settlement-vs-daily-bar (FT-03/FT-04)** — the last open half of the RED thread.
-6. **🟠 CARL** — four asks open from S1 + `KB-372` + the farm-input channel (**FERT dormant**, sector 108d stale). **PULL-COMPLETE: BOARD-on-origin is the only channel.**
-7. **🟠 REGINALD** (stablecoin channel + community-tier migration; natural home **~8/15 FFIEC MI3**) · **WATT** (CRWV 1.5→8 GW against the 32-vs-55 GW reconciliation) · **MIDAS** (miner equities in scope or deliberately out — **either answer closes it**) · **HOMER** (foreclosure metric variant; **returned 8/12, NOT dark**) · **CREED** (the unattributed office-vacancy list, upstream of REG-T-07).
-8. **🟠 PROME — THREE lane defects now:** unbound `bank failure` keyword (**n=5**) · evergreen-URL dedup failure · **🆕 the lane's EIA feed reads `Cushing 20.955M` while BRENT's own wk-8/7 pull has 22.566M** — a week behind its own publisher. Plus the OZK/WAL routing override and the 8/8 forum carry items (§3.5 warrant re-point · S1 build · S7 under §5.1 · `entities:` mandatory · bounded-cell fix).
-9. **🟠 DEWEY HAS NO RUNNER AND DR-4 IS DUE ~8/14.** Three of my six 7/30 commissions never ran (**DR-4** European energy ~8/14 · **DR-5** LNG ~8/17 · **DR-6** CRMT ~8/22, deliberately ahead of the early-Sept covenant), and CARL's **C3** shares the ~8/14 window with PROME's ruling that C3 goes first. **~10 open commissions across four agents and no scheduled executor.** Delivery itself is healthy — the 8/02 batch was **13/13** on claimed stubs. **Will's call.**
-10. **🟠 THREE CANDIDATE CHECKS, RECORDED AND UNBUILT** *(recorded so they are not re-discovered — the batch-manifest precedent took 10 days to notice it was already fixed)*: **(i)** assert each BOARD cluster section's `SIG-W-YYYYMMDD` sequence is **non-decreasing** (would have caught both of last week's placement defects; placement now hand-verified five sessions running); **(ii)** **agent-state staleness** — flag any `"<AGENT> dark"` / `"<AGENT> owes"` string whose named agent has committed since the claim was written (would have caught all three of today's); **(iii)** **push receipt by content**, not path existence.
+   **(c)** **GREP THE OWNERS BEFORE THE WEB — now n=18**, and it changed the outcome **three times today**.
+   **(d)** any ***"this is an enormous NEW fact"*** reaction to a long-running-theater wire is an **ANCHOR QUERY** first, **run not cited**.
+   **(e)** every ***"agent X is dark / owes me Y"*** claim is a `git log -1 -- AGENTS/X/` **at the moment of writing** — and **exclude WALTER's own delivery commits**, which is what makes a dark agent's directory look active.
+   **(f) 🆕 NEVER TRUNCATE A COVERAGE OR ABSENCE GREP.** No `head` on a "does anyone hold this?" search — grep output is ordered by file, not relevance, so any bound silently answers a different question. **And when you conclude "nobody owns this," run a SECOND search keyed differently** — the first on the concept NAME, the second on the LEVEL or ID. My `SPR` grep missed BRENT's line because BRENT led with the number.
+2. **🔴 VULCAN must read the CRWV 10-Q** — verified genuinely dark since 8/03 (its recent directory commits are all WALTER deliveries). **Highest-value open item on the board, now 10 days old.** Note VULCAN's 8/03 STATUS already contains the G10-liquidity correction and the SOX-peak work — it did that before going dark.
+3. **🔴 FALCON — three now:** GATE 2 posture on 43 extra redirects with zero extra disabled/boarded (`-011`); the MOU-as-live question (`-014`); and **🆕 which reading of `-007` governs — deterrent instrument (consistent with `-005`) or escalation-to-damage (kills it) — DECIDED BEFORE the next kinetic event**, because the reconciling reading makes `-005` unfalsifiable in practice.
+4. **🔴 BRENT — the transit baseline is STILL unruled** (88/120/130/70 per day, four in our own anchor; **no collapse-ratio quotable until one is chosen**) — and **two unattributed Hormuz-flow charts arrived today** that could not settle it, which is exactly why it matters. Plus: `-008`'s destocking-weight question · the `-006` exchange-vs-sale re-check against Mar–Aug draws · Sable's current production.
+5. **⏰ 8/15 — DOES JAZAN RESTART ON SCHEDULE?** FALCON calls it *"the highest-value number on the board."* **Two days out.**
+6. **🟠 PROME — three lane defects** (unbound `bank failure` n=5 · evergreen-URL dedup · lane EIA a week behind its own publisher) + the OZK/WAL routing override + **🆕 `-002`'s ask: should `fetch.py`'s history path assert session count and FAIL LOUD on nulls?** One line at the source protects every consumer.
+7. **🟠 RED** — re-pull the `RED-FT-06` sustain window against a second call (cheap; the ledger names its five values) · `BRENT-PAPER` settlement-vs-daily-bar.
+8. **🟠 Others:** **CARL** (4 asks from S1 + farm channel, FERT dormant) · **REGINALD** (stablecoin channel; ~8/15 FFIEC MI3) · **WATT** (CRWV 1.5→8 GW vs the 32-vs-55 GW reconciliation) · **MIDAS** (miner equities in or out) · **CREED** (office-vacancy list, upstream of REG-T-07) · **ZHAO** (`-008` reconcile with BRENT; and its VX-2.07 Korea UST-scope vector is flagged STALE, with a 7/30 USD-selling intervention that bears on it).
+9. **🟠 DEWEY — DR-6 (CRMT lender web) still PENDING**, ~8/22 deadline, **early-Sept covenant is the hard ceiling**. ⚠️ **And the sequencing defect DEWEY surfaced against itself: CARL-DR-1 (~8/18) was written to reference DR-6's output (~8/22) — unsatisfiable in queue order.** PROME's sequencing view.
+10. **🟠 THREE CANDIDATE CHECKS, RECORDED AND UNBUILT** *(unchanged from 8/12, none built today)*: **(i)** assert each BOARD cluster's `SIG-W-YYYYMMDD` sequence is non-decreasing; **(ii)** agent-state staleness (flag `"<AGENT> dark"` strings whose agent has committed since); **(iii)** push receipt by content, not path existence. **🆕 (iv) a fourth candidate: flag any `head`/`tail` on a grep whose output feeds an absence claim** — today's defect, and probably not mechanizable.
 
-**🟠 Held / carried:** `note_log.tsv` trigger armed (**0 notes again — five sessions running**) · **the Iran anchor is now ~700 lines with #5-#18 — migration candidate at the next major re-stamp, and today added two addenda** · IMMEDIATE-unconsumed-latency doctor check · standing structural gaps: G10 liquidity · gilts · China 10Y.
-- **Owed by others:** **VULCAN** the Goldman/JPM AI-credit basket pull (open since 7/27) · **BROCK** First Brands DIP-forbearance + August BDC Q2 10-Q refresh · **DEWEY** DR-4 (~8/14) · **PROME** the ORACLE self-pull question.
-- **Testables / calendar:** **8/12-13 coalition meeting (resolving now)** · ~8/13-17 BCRED · **DR-4 ~8/14** · **8/14 CFTC** · **~8/14 anchor re-verify** · ~8/15 FFIEC MI3 · **~8/17 staleness sweep + OSPREY CPC falsifier + phone Part A re-raise** · 8/19 Canada tariffs + S338 · 8/21 CHG-027 · ~8/28 QCEW · ~8/31 MOF monthly · early-Sept CRMT covenant · 9/15-16 FOMC · **~9/29 MU FQ4 — one day before VULCAN-11 resolves** · ~10/01 Colorado ROD · **~11/09 Tartous/Hmeimim transition completes** · 2027-01-25 Tricolor trial.
+**🟠 Held / carried:** `note_log.tsv` trigger armed (**0 notes again — six sessions running**) · **the Iran anchor is ~700 lines with #5-#18; no addendum written today** (nothing met the bar — the two candidate state-changes both verified as 16-day-old events FALCON already held) · **anchor re-verify due ~8/17**, inside window all day · IMMEDIATE-unconsumed-latency doctor check · standing structural gaps: **G10 liquidity (partially closed — VULCAN holds the indicator)** · gilts · China 10Y.
+- **Owed by others:** **VULCAN** the Goldman/JPM AI-credit basket pull (open since 7/27) · **BROCK** First Brands DIP-forbearance + August BDC Q2 10-Q refresh · **PROME** the ORACLE self-pull question.
+- **Testables / calendar:** **~8/14 anchor re-verify window opens** · **8/14 CFTC** · **🔴 8/15 JAZAN RESTART** · ~8/15 FFIEC MI3 · **~8/17 staleness sweep + OSPREY CPC falsifier + phone Part A re-raise** · ~8/18 CARL-DR-1 nominal deadline · 8/19 Canada tariffs + S338 + FOMC minutes · 8/21 CHG-027 · **~8/22 DR-6** · ~8/28 QCEW · ~8/31 MOF monthly · **~9/10 August MTS — the clean test of `-003`'s calendar-artifact read** · early-Sept CRMT covenant · 9/15-16 FOMC · **~9/29 MU FQ4** · ~10/01 Colorado ROD · ~11/09 Tartous/Hmeimim · 2027-01-25 Tricolor trial.
 
 ## OPEN DESIGN DECISIONS (need Will) — condensed
 
 **🟢 NONE ACTIVE.**
 
-**🟠 DEFERRED:** **⏸️ phone Part A — Will-PAUSED 8/10, re-raise ~8/17** *(`phone_scan.py` clean again today; the lane stays armed and self-arming. **Note the case did NOT strengthen this session — Telegram delivered reliably across all 27 images and 4 replies; it was GIT that failed four times.** Recording that honestly rather than reusing yesterday's argument.)* · **DEWEY runner/cadence — now materially sharper than a preference: ~10 Will-approved commissions and a dated item two days out, with no executor** · RAV run cadence · CLIMATE_MACRO sustain-vs-fold · RESEARCH-INTAKE v2 dedupe-by-story · lane `edgar_8k` scope (+ OZK/WAL routing fix) · I4 CROSS_REFS cache · VULCAN 5-axis re-cut · LOOPS.md ownership · B5 scheduled-scan · DEWEY delivery-reliability *(re-verified clean this session — 13/13 on the 8/02 batch's claimed stubs)* · phone-signal v2 (not recommended) · IMMEDIATE-unconsumed-latency severity carve · **newssweep collection gap on named-nation defence-pacts + multilateral-coalition formation** (PROME's as lane owner) · **should step-16's push-deferral rule be narrowed?** *(not exercised today.)*
+**🟠 DEFERRED:** **⏸️ phone Part A — Will-PAUSED 8/10, re-raise ~8/17** *(`phone_scan.py` clean again; lane self-arming. **The case did NOT strengthen today — Telegram delivered all 50 images across six batches without loss, and git pushed cleanly six times.** Recording that honestly rather than reusing a stale argument.)* · **DEWEY cadence — the "no executor" half is now RESOLVED**, so what remains is scheduling, not capability · RAV run cadence · CLIMATE_MACRO sustain-vs-fold · RESEARCH-INTAKE v2 dedupe-by-story · lane `edgar_8k` scope (+ OZK/WAL routing fix) · I4 CROSS_REFS cache · VULCAN 5-axis re-cut · LOOPS.md ownership · B5 scheduled-scan · phone-signal v2 (not recommended) · IMMEDIATE-unconsumed-latency severity carve · **newssweep collection gap on named-nation defence-pacts** · **🆕 should the batch-manifest tool record a `re-send` disposition class?** *(Not proposed as work — observed: **6 md5-identical re-sends across two batches today**, one of an item killed 90 minutes earlier, all caught by hash. The hashing is doing real work and is currently ad-hoc rather than part of the tool.)*
 
-**🔵 SURFACED (not WALTER-fixable):** G10 liquidity / gilts / China 10Y · **the Red Sea theater has no registered gate (FALCON)** · the position-exit threshold sweep · FAL-01 spec question · SHADE↔VULCAN join · **European-energy aggregate — this is DR-4's subject and DR-4 has not run** · FRED 403 from this box · `trash` not on PATH · **VIOLET's STATUS lead still reads `[8/4 SETTLE]`** · **🆕 this box's GIT-TRANSPORT SSL timeouts** (4 of 5 cycles today; plain HTTPS is fine, so this is narrower than the "intermittent egress" I recorded yesterday) · **🆕 the office-vacancy list has no publisher.**
+**🔵 SURFACED (not WALTER-fixable):** G10 liquidity *(partially closed — VULCAN holds the indicator with a correction)* / gilts / China 10Y · **the Red Sea theater has no registered gate (FALCON)** · the position-exit threshold sweep · FAL-01 spec question · SHADE↔VULCAN join · **FRED 403 from this box** *(blocked a confirmation today)* · `trash` not on PATH · **VIOLET's STATUS lead still reads `[8/4 SETTLE]`** · **the office-vacancy list has no publisher** · **🆕 an intermittent-NULL-bar problem in the price source** — base rate unknown, vendor-vs-CDN-vs-this-box undiagnosed, and this box already has a FRED 403 and an intermittent git-SSL fault, so a local cause is live and untested.
