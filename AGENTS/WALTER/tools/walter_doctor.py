@@ -791,10 +791,20 @@ def check_deep_research_pending_overdue():
     out, n_pending = [], 0
     with ledger.open(errors="replace") as f:
         for row in csv.DictReader(f, delimiter="\t"):
-            if (row.get("disposition") or "").strip().upper() != "PENDING":
+            disp = (row.get("disposition") or "").strip().upper()
+            # Terminal BLACKLIST, not an open-state whitelist. Was `!= "PENDING"`,
+            # which silently skipped QUEUED and PARTIAL: on 2026-08-13 two rows
+            # (REQ-DEWEY-20260702-007 / -009) sat QUEUED 35d and 30d past their
+            # deadlines while this check printed "no overdue deep-research flags".
+            # QUEUED is *more* forgotten than PENDING, and the docstring above
+            # promises exactly that class. A whitelist misses every open state
+            # nobody thought to add; a terminal blacklist over-reports instead,
+            # which is the right failure direction for a health check.
+            if disp.startswith("RESOLVED") or disp.startswith("DROPPED"):
                 continue
             n_pending += 1
             sig = (row.get("signal_id") or "?").strip()
+            lbl = disp or "NO-DISPOSITION"
             m = re.search(r"\d{4}-\d{2}-\d{2}", row.get("deadline") or "")
             if m:  # real date deadline → overdue if passed
                 try:
@@ -802,15 +812,15 @@ def check_deep_research_pending_overdue():
                 except ValueError:
                     continue
                 if dl < TODAY:
-                    out.append((MED, f"{sig}: deep-research flag PENDING past deadline "
+                    out.append((MED, f"{sig}: deep-research flag {lbl} past deadline "
                                     f"{dl.isoformat()} ({_age_days(dl)}d overdue) — run it or drop it"))
             else:  # no date (deadline=open/blank) → stale if flagged >30d ago
                 fm = re.search(r"\d{4}-\d{2}-\d{2}", row.get("flagged_date") or "")
                 if fm and _age_days(dt.date.fromisoformat(fm.group(0))) > 30:
-                    out.append((MED, f"{sig}: deep-research flag PENDING (deadline=open) flagged "
+                    out.append((MED, f"{sig}: deep-research flag {lbl} (deadline=open) flagged "
                                     f"{_age_days(dt.date.fromisoformat(fm.group(0)))}d ago — disposition it"))
     if not out:
-        return [(INFO, f"no overdue deep-research flags ({n_pending} PENDING)")]
+        return [(INFO, f"no overdue deep-research flags ({n_pending} open)")]
     return out
 
 
