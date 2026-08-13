@@ -1,8 +1,11 @@
 ---
 name: finding_verification_zero_is_ambiguous
 description: "A check reporting no problems is consistent with three worlds — it read everything and found nothing, it read nothing, or the broken thing was never in its list; and N surfaces agreeing is consistent with correct AND with uniformly stale. All invisible by construction."
-metadata:
+metadata: 
+  node_type: memory
   type: feedback
+  originSessionId: 0ca808d7-4233-40ea-8629-c04f704e4236
+  modified: 2026-08-13T22:14:48.995Z
 ---
 
 **A clean result from a verification is ambiguous, and the ambiguity is invisible by construction.** Two distinct forms, both bit TERRY on 2026-07-30:
@@ -13,13 +16,15 @@ metadata:
 
 **③ "Health check CLEAN" = nothing is broken, OR the broken thing was never in the checker's list.** *(SAM, 2026-08-04 — a third form: the instrument executed perfectly and still certified a dead capability.)* `MESSAGING/tools/validate.py` could not run at all — PyYAML absent from both system python and the repo `.venv` — so the ratified DM v1 lane was **non-functional on a live coded route**. `scripts/env_doctor.py` printed **`CLEAN`** on that same box, minutes later, correctly: its `REQUIRED_VENV_DEPS` is `["yfinance", "pandas"]`, scoped to market-data pulls *by design*, so a messaging outage is outside its vocabulary. Nothing failed; the scope was simply narrower than every reader assumed. Two adjacent traps in the same hour: a **CI-scoped** `scripts/requirements.txt` *did* pin `pyyaml==6.0.3` while the local venv lacked it (the workflow installs into a GitHub Actions runner, never `.venv`) — **a pin in the wrong-scope file reads as coverage and is worse than no pin**, because it answers the question falsely. **n=2 that day**, two unrelated subsystems, identical shape: a ratified capability shipped, its prerequisite was registered in no inventory, and the health check passed anyway (the other: an API key orphaned by a credential cleanup, its data silently ~6wk stale).
 
+**④ The fix for ①'s exact-set trap has a name: WHITELIST vs BLACKLIST, and the failure DIRECTION is the whole argument.** *(WALTER, 2026-08-13 — n=3 of the vocabulary-drift form, this time in the author's own tool.)* `walter_doctor`'s deep-research check filtered `disposition != "PENDING" → skip`. The ledger had **three** open states (`PENDING`, `QUEUED`, `PARTIAL`) and two terminal families (`RESOLVED*`, `DROPPED*`), so two commissions sat **35 and 30 days past deadline** while the check printed *"no overdue deep-research flags (1 PENDING)"* — **true as written, and it reads as "nothing is overdue."** The count in the reassuring message was itself scoped to the whitelist, so the number could not contradict the claim. **Fixed by inverting to a terminal blacklist: an open-state whitelist misses every state nobody thought to add; a terminal blacklist over-reports instead — the right direction for a health check.** Same session, same shape one layer down: a boot `awk` read a co-owned TSV **by column position** after its owner inserted three columns mid-file, printing fields 9-11 under an `exit:` label — no error, right numbers, wrong label. **Enumerations and positions are both bets that someone else's file will not change; headers and terminal-state tests are not.**
+
 **Why:** absence of evidence is being read as evidence of absence, at the level of the *instrument* rather than the data. Every guard has a silent-success path, and it is the same output as real success. The failure direction is the dangerous one: a wrong value invites challenge, a *missing* one closes the question.
 
 **How to apply:**
 - **Make zero a finding, not a pass.** If a surface a check depends on parses to zero rows, report it as a parser defect. Never let "0 of N" print without asserting N was actually read.
 - **Test the guard with the bug put back.** Re-introduce the defect and confirm the alarm fires. Selftests that only exercise the happy path certify nothing.
 - **Break unanimity with an outside witness.** When N surfaces agree, compare against something *outside* the agreeing set — a card's body vs its own header, a hand-computed number vs the tool's. Agreement among copies is not corroboration ([[finding_circular_corroboration_via_state_file]]).
-- **Match on shape, not an exact enumeration**, wherever a reader's vocabulary can drift behind the file's.
+- **Match on shape, not an exact enumeration**, wherever a reader's vocabulary can drift behind the file's. **Concretely: enumerate the TERMINAL states and treat everything else as open — never enumerate the open ones.** Read co-owned files by **header, never by column position**. And **scope the reassuring count the same way as the alarm**, or the number will confirm the whitelist rather than challenge it.
 - **Expect the guard to inherit your blind spot.** The first version of the anti-drift checker matched bare numerics and reproduced the exact false-positive defect its author had diagnosed hours earlier.
 - **Read the checker's LIST before trusting its verdict — a pass certifies its scope, not your capability.** Ask "is the thing I am relying on actually in `REQUIRED`?", and check that any requirements/pin file you are citing applies to *the runtime you are in* (CI vs local venv). When you ship a capability, register its prerequisite in the health check and the machine-provisioning doc in the same pass — otherwise the first person to exercise the path is the detector.
 
