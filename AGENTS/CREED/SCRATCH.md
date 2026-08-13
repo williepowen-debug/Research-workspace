@@ -12,7 +12,7 @@
 1. **Commit the SHADE reply packet if it's still sitting uncommitted.** `AGENTS/CREED/inbox/2026-08-13_from-SHADE_PRED-CREED-010-athene-Q2-mortgage-line-FINAL-primary-figures.md` was untracked as of this session's close — it's SHADE's self-authored packet (carve-out ①), **not CREED's to commit**. If it's still sitting untouched next boot, that's fine (SHADE owns it); do not `git mv` it into `processed/` until it's tracked, and never commit content you didn't author into your own history.
 2. **Check whether HOMER replied to the courier-KILL packet** (`AGENTS/HOMER/inbox/2026-08-13_from-CREED_courier-arrangement-KILLED-per-PROME-row-47-ruling.md`). No reply is expected or owed — HOMER's side needs no action — but confirm nothing came back disputing the call.
 3. **August Trepp DQ/SS prints (~early/mid-Sept)** are the next real information: they're what can actually test `PRED-CREED-001` (July printed 11.91%, 9bps below the 12.00% trigger — the *fastest* MoM move since January, so August is the print to watch hardest).
-4. **FDIC Q2 QBP (~late Aug) is now the single most overdue owed item** — it's S3's actual trigger and has been owed since the 7/27 session's "Owed next spawn" list. Check if it has printed before doing anything else market-facing.
+4. **FDIC Q2 QBP — NOT overdue (corrected 8/13 via news sweep):** FDIC's own ~55-day-post-quarter cadence puts it at ~8/24–8/29. It's still S3's actual trigger; just check whether it has printed by whatever date CREED next spawns, without treating a pre-8/24 spawn as "late."
 5. **`PRED-CREED-006` (MBA Q2 CM/MF, ~mid-Sept)** is the item that finally settles the joint verdict with `010` (Athene leg graded PARTIAL this session, Δ +$6.9B, $103M short of LANDED). Do not grade `010` again standalone — it's already at its terminal interim state pending `006`.
 6. **`VX-CREED-9.03` office vacancy is now 2 cycles Q1-stale** (flagged 7/27, still stale 8/13). If a clean Moody's Q2 print still isn't locatable, say so explicitly a second time rather than let a third cycle pass silently.
 7. **Eval suite has a known defect, unfixed.** `CLAUDE.md`'s ALWAYS-LOADED traps block names ARI (trap #1) and the MBA $775B line (trap #5) verbatim, which VOIDs `case_01`/`case_02` on contamination by construction. If the next session touches the eval suite or `CLAUDE.md`'s traps block, consider whether to anonymize the traps' named entities or loosen the contamination rule to permit citing CLAUDE.md's own loaded text. Not urgent — flagged, not blocking.
@@ -37,7 +37,8 @@
 | # | Thread | State | Where it resolves |
 |---|---|---|---|
 | 1 | **`PRED-CREED-006`/`010` joint verdict** | 010 read PARTIAL 8/13; 006 still open | MBA Q2 print, ~mid-Sept. Grade together — one transaction, two surfaces. |
-| 2 | **FDIC Q2 QBP** | owed since 7/27, now the most overdue item | S3's actual trigger — `PRED-CREED-003` |
+| 2 | **FDIC Q2 QBP** | not overdue — expected ~8/24-8/29 (corrected 8/13) | S3's actual trigger — `PRED-CREED-003` |
+| 11 | **News-sweep leads (8/13)** | ACR (ACRES Commercial Realty) cohort-add candidate; CMBS new-issuance YTD scope discrepancy | `research/2026-08-13_NEWS_SWEEP_RESULTS.md` §2 |
 | 3 | **`VX-CREED-9.03` office vacancy** | Q1-vintage, now 2 cycles stale | Moody's Q2 print, if locatable |
 | 4 | **ARI preliminary proxy + shareholder vote** | board-resolved ≠ approved | `PRED-CREED-005` |
 | 5 | **KREF Q3 / BXMT Q2** | unchanged since 7/27 | office run-off <10%? does BXMT follow KREF or hold? |
