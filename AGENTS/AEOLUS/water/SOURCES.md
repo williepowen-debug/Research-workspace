@@ -119,6 +119,20 @@ curl -s "https://www.pegelonline.wsv.de/webservices/rest-api/v2/stations/KAUB/W/
 ```bash
 curl -s "https://www.pegelonline.wsv.de/webservices/rest-api/v2/stations.json?waters=RHEIN" | python3 -c "import json,sys;[print(s['shortname'], s.get('km')) for s in json.load(sys.stdin)]"
 ```
+### 🔴 WSV FORECAST endpoint — registered 2026-08-13 (found by the water worker, verified by AEOLUS)
+```bash
+curl -s "https://www.pegelonline.wsv.de/webservices/rest-api/v2/stations/KAUB/WV/measurements.json" \
+ | python3 -c "import json,sys;[print(x['timestamp'][:16],x['value']) for x in json.load(sys.stdin) if x.get('type')=='forecast']"
+```
+**Available at `KAUB`, `DUISBURG-RUHRORT`, `EMMERICH` only — HTTP 404 at Maxau, Worms, Mainz** (verified).
+⚠️ **NOT listed in the station's `timeseries` array** (which shows only `Q` and `W`) — **undiscoverable from metadata; found by direct probe.**
+⚠️ **HORIZON IS SHORT AND THE WORKER'S REPORT OVERSTATED IT.** My verification pull returned **25 forecast points spanning 8/13→8/15 only (~2 days)**. The run report quoted **8/17** values and a *"Kaub rebounds to 11"* shape; **those are NOT reproducible in my pull, which shows Kaub falling monotonically to 7.0 cm on 8/15 with no rebound in range.** **Adopt the endpoint; do NOT adopt the 8/17 figures.** Re-pull and state the actual horizon each time.
+
+### DISCHARGE `Q` — datum-independent, available at all six
+`/stations/<ST>/Q/measurements.json` — m³/s, 15-min. Kaub ~492 m³/s (8/13). **Prefer discharge for cross-era comparison**, since stage depends on a `gaugeZero` that has been re-referenced at some stations.
+
+⚠️ **PROVENANCE GAP on the carried "40 cm uneconomical" line.** That figure has **no source recorded in this file** — it is carried, not verified. The authority's own navigation references are **`GlW` (Kaub 77 cm)** and **`TuGLW` (190 cm)**. **The 40 cm line is retained as an unprovenanced working figure and is explicitly NOT the basis of any trigger.**
+
 ⚠️ **No verified source for barge FREIGHT rates.** The ~€150/t figures in my dossier are trade-press relays (PJK/Bloomberg via gCaptain/Insurance Journal), **not a primary I can re-pull.** Finding a resolvable freight series is an open gap.
 **Benchmarks:** 2018 all-time low **25 cm** (October) · **≤40 cm** = uneconomical navigation.
 

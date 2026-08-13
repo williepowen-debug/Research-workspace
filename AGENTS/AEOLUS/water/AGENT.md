@@ -30,6 +30,7 @@
 | `mainz_stage` | cm | `WSV-PEGELONLINE-MAINZ` | km 498.3 |
 | `duisburg_ruhrort_stage` | cm | `WSV-PEGELONLINE-DUISBURG-RUHRORT` | **km 780.8 — the station named in the C5 upgrade trigger** |
 | `emmerich_stage` | cm | `WSV-PEGELONLINE-EMMERICH` | km 851.9, Dutch border |
+| `kaub_q` / `duisburg_ruhrort_q` / `emmerich_q` / `maxau_q` / `worms_q` / `mainz_q` | m3_s | `WSV-PEGELONLINE-<ST>-Q` | **discharge — physically conserved and DATUM-INDEPENDENT**, unlike stage. Prefer it for cross-era comparison. |
 | `rhine_freight_eur_t` | EUR_per_t | *(no verified source — see SOURCES)* | Rotterdam→S-of-Kaub barge rate |
 | `snowpack_upper_colorado` | pct_median | `NRCS-SNOTEL` | **seasonal — near-zero Jun–Sep, correctly empty** |
 | `panama_transits` | count | `ACP` | as published |

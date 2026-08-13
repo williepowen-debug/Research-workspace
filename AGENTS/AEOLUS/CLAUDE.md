@@ -159,7 +159,11 @@ Durable banded rules live here; the live read lives in STATUS with `[src M/D]` +
 | **A** | **Kaub** (km 546.2 — the binding shoal) | **daily mean ≤ 25 cm** | **WSV `NNW`** (Niedrigster Niedrigwasserstand), set **2018-10-22** |
 | **B** | **Duisburg-Ruhrort** (km 780.8 — lower-Rhine port reach) | **daily mean ≤ 153 cm** | **WSV `NNW`**, set **2018-10-23** |
 
-**Both numbers are the issuing authority's own record-low values, not mine** — pulled from `stations/<ST>/W.json?includeCharacteristicValues=true`. **FROZEN as published** (re-check `validFrom` if WSV republishes). `daily mean` = mean of that calendar day's 15-min readings.
+**Both numbers are the issuing authority's own record-low values, not mine** — pulled from `stations/<ST>/W.json?includeCharacteristicValues=true`. **FROZEN as published** (re-check `validFrom` if WSV republishes).
+
+⚠️ **GRADE ON UNROUNDED DAILY MEANS.** `daily mean` = mean of that calendar day's 15-min readings, **NOT rounded**. `water/workbook/SERIES.tsv` stores means rounded to whole cm for readability, and **a true mean of 25.4 rounds to 25 and would read as satisfying a threshold it does not meet.** *(Caught by the water worker on 2026-08-13, hours after I wrote this trigger. No such case exists in the current window — the nearest is 25.72 on 8/08, which fails on both bases — but the hazard is live at every future grading.)*
+
+⚠️ **DATUM CAVEAT — unresolved, and load-bearing on a 12 cm margin.** Each gauge publishes a `gaugeZero` with its own `validFrom`, and **Kaub's is 2019-11-01 — AFTER its 2018-10-22 record.** The API does not state whether historic `NNW` values were re-referenced to the current datum. Kaub's 25 cm matches the independently carried figure, so it is at least self-consistent, but **treat cross-era margins of a few cm as approximate, not exact.**
 
 **Why a conjunction across these two stations:** it requires the constraint to span **235 km of the navigable profile** — the binding shoal *and* the lower-Rhine port reach — rather than a single local shoal effect. Either alone is a gauge reading; both together is a river-wide event.
 

@@ -1,79 +1,93 @@
-# water/ — RUN REPORT
+# AEOLUS · WATER — worker run report
 
-**run_date: 2026-08-13** · **run type: step-6 dry-run of the sub-agent architecture**
-
-> ⚠️ **RECONSTRUCTED BY AEOLUS FROM THE WORKER'S ARTIFACTS — the worker did not deliver a return.**
-> It completed clean file work and then idled **twice** without reporting, including once after being asked directly. **Everything below is verified against the files on disk and against an independent manual pull AEOLUS took before spawning** — it is not the worker's own account, and it is labelled as such rather than presented as one.
-> **This is why `RUN_REPORT.md` now exists as a required file write:** the deliverable must be an artifact, never a message.
+**run_date: 2026-08-13** · **scope: RHINE ONLY** (WSV/PEGELONLINE primary, six verified stations)
+**Data timestamp: 2026-08-13T17:45:00+02:00** (latest 15-min observation at every station)
 
 ---
 
 ## observations_added
 
-**28 rows → `workbook/SERIES.tsv`** (53 → 81) · **2 rows → `workbook/LOG.tsv`** (3 → 5)
+**38 rows → `workbook/SERIES.tsv`** · **5 rows → `workbook/LOG.tsv`**
 
-| Instrument | Rows | Span | Note |
-|---|---|---|---|
-| `lees_ferry_q` | 11 | 8/01–8/11 | back-filled the daily series that was previously held only as an Aug 1-12 mean |
-| `powell_storage` | 15 | 7/29–8/12 | volumetric leg alongside elevation (`USBR-919-17`) |
-| `mead_elev` | 2 | 8/05–8/06 | extended the series two days earlier than AEOLUS's 8/07 start |
+- Daily values for **8/07–8/13** at all six stations, instruments `maxau_stage`, `worms_stage`, `mainz_stage`, `kaub_stage`, `duisburg_ruhrort_stage`, `emmerich_stage`. All `cm`, source `WSV-PEGELONLINE-<STATION>`.
+- **4 rows skipped as already present** — `kaub_stage` 8/10, 8/11, 8/12, 8/13. Append-only respected; nothing overwritten or reordered. 7-column schema validated across the whole file before write.
+- **8/06 deliberately NOT recorded** — the `P7D` window opens at 18:00, so only 24 of 96 intervals exist. Too partial to be a daily value.
+- **Recording convention: daily mean of the 15-min observations, rounded to whole cm.** This is *inferred, not documented* — it reproduces the three pre-existing full-day Kaub rows exactly (8/10 16.51→17, 8/11 14.61→15, 8/12 11.32→11), which is an independent confirmation of the prior worker's method. Partial days are flagged in `notes` with their sample count.
 
 ## threshold_state
 
-| Threshold | Value | Margin | State |
-|---|---|---|---|
-| Powell vs all-time low **3,519.92 ft** | **3,520.37** (8/12) | **+0.45 ft** | **NOT FIRED** |
-| **Mead vs Hoover 1,035 ft** *(binding)* | **1,039.82** (8/12) | **+4.82 ft** | **NOT FIRED** |
-| Powell vs min power pool 3,490 ft | 3,520.37 | +30.37 ft | **NOT FIRED** |
-| Kaub vs 40 cm / 25 cm | 13.0 cm (8/13) | **through both** | **breached** — C5 already scored |
-| USDM CONUS D1–D4 | 50.38% (valid 8/11) | — | reported, not graded |
+*Values and margins only. No grading, no trigger call.*
+
+| Station | current (cm) | 7d min–max | **7d trend** (daily mean 8/07→8/12) |
+|---|---:|---|---|
+| MAXAU | **294** | 292–328 | 318.6 → 298.1 = **−20.5 cm** (−4.09/d) |
+| WORMS | **−15** | −15–13 | 8.0 → −10.3 = **−18.4 cm** (−3.67/d) |
+| MAINZ | **110** | 109–128 | 124.1 → 110.8 = **−13.4 cm** (−2.67/d) |
+| **KAUB** | **13** | 10–28 | 24.2 → 11.3 = **−12.8 cm** (−2.57/d) |
+| **DUISBURG-RUHRORT** | **134** | 134–153 | 145.4 → 136.8 = **−8.7 cm** (−1.73/d) |
+| EMMERICH | **−11** | −11–0 | −5.7 → −10.4 = **−4.6 cm** (−0.93/d) |
+
+**KAUB vs the two benchmarks:**
+- vs **2018 all-time low 25 cm** → **12 cm BELOW** *(and the 25 cm figure is now primary-verified — see findings)*
+- vs **40 cm uneconomical navigation** → **27 cm BELOW**
+- vs **GlW 77 cm** (WSV's own navigation reference level) → **64 cm below**
+
+**DUISBURG-RUHRORT (the trigger station):** **134 cm**, 7-day trend **−8.7 cm (−1.73 cm/d)**, **currently sitting exactly at its 7-day minimum**. It is **19 cm below its all-time low of 153 cm (2018-10-23)**. Its 7-day *maximum* was 153 — i.e. **it fell through the record inside this window**. *Trigger not interpreted — AEOLUS's call.*
+
+**All six stations return `stateMnwMhw: "low"`** — the API's own classification field.
 
 ## changes
 
-- **USBR has NOT posted 8/13.** Both 919/49 and 921/49 still end **2026-08-12**, byte-identical to the prior pull, **no revision.** ⚠️ **The worker reported this rather than inventing a value** — the single most important behaviour in this run.
-- **Powell daily declines 7/29→8/12: 15 of 15 negative**, mean **−0.158 ft/day**, range −0.11 to −0.23.
-- **Powell storage −124,474 af in 14 days** (5,406,671 → 5,282,197), ≈ **−8,891 af/day**.
-- **Lees Ferry 8/01–8/11 range 7,720–7,950 cfs — no trend within the window.** ⇒ **the 42% deficit is a LEVEL, not a still-deteriorating slope.** Useful distinction I did not have.
+**The headline: the answer to "still falling, stabilising, or recovering?" is FALLING — at all six stations, with no station yet stabilised — but the forecast splits the basin in two.**
 
-## proposed_findings *(worker proposes · AEOLUS adjudicates)*
+1. **Measured, last 7 days: every station falling.** The gradient is **steepest upstream and shallowest downstream** — Maxau −4.09 cm/d → Emmerich −0.93 cm/d. The drawdown is still propagating down-basin; the top of the reach is not yet easing.
+2. **🔴 FOUR of six gauges are now BELOW their published all-time lows** — not just Kaub, which is how this section previously read:
 
-**① The 3,519.92 ft record threshold, verified at the primary — ✅ ADOPTED.**
-Full-series scan of `USBR-919-49` confirms the **post-1980 minimum is 3,519.92 ft on 2023-04-13**; 8/12's 3,520.37 ranks **6th-lowest on record**, the five below it all from 2023-04-09→04-15.
-🔑 **And it caught a trap: the file's absolute minimum is 3,394.50 ft on 1964-05-11 — initial reservoir fill, NOT the operative record.** A naive `min()` over the series returns the wrong number. **I had been carrying 3,519.92 without ever verifying it myself.**
+| Station | current | all-time low (`NNW`) | margin |
+|---|---:|---|---:|
+| WORMS | −15 | 2 (2018-10-20) | **−17** |
+| **KAUB** | 13 | 25 (2018-10-22) | **−12** |
+| **DUISBURG-RUHRORT** | 134 | 153 (2018-10-23) | **−19** |
+| EMMERICH | −11 | −1 (2022-08-18) | **−10** |
+| MAINZ | 110 | 110 (1947-11-02) | **±0** — *7d min of 109 is 1 cm through* |
+| MAXAU | 294 | 231 (1885-01-28) | +63 |
 
-**② No 2026 Panama restriction advisory exists — ✅ ADOPTED, and it closes my oldest open gap.**
-ACP's Advisories-to-Shipping index newest entry is **A-46-2024**; 2026 Notices-to-Shipping carry only standing **N-01…N-13**. **No 2026 draft or transit RESTRICTION advisory published**, and no transit count published on either page.
-⇒ Directly relevant to **AEO-04** (Panama reinstates a draft/transit restriction by Q4 2026, 45%), which had been **unverified two sessions running**. ⚠️ **This is evidence the condition has not occurred — it does NOT resolve the prediction, which runs to 12/31.**
+3. **MAINZ is sitting exactly on its 1947 record**, and has already dipped 1 cm through it intraday. Not previously tracked.
+4. **EMMERICH has gone flat while everything upstream still falls** — −10/−11 cm every day since 8/08, oscillating 1 cm. It is the only station that has stopped moving, and it is doing so *below* its own record.
+5. **New instrument found — WSV publishes an official FORECAST** (below). It is the first forward-looking read this folder has had on the Rhine.
 
-**③ Powell has its own Aug→Sep base rate, and its driver check passes — ✅ ADOPTED with a caveat I am adding.**
-`Aug 12 → Sep 30`: **−6.48 / −4.84 / −4.22 / −4.47 / −7.86 ft** (2021-25). **5 of 5 decline, mean −5.57 ft.**
-The worker's reasoning: unlike Mead's Aug→Sep *rise*, this base rate is **not contingent on Glen Canyon releases arriving — Powell is the reservoir those releases drain.** So the L-18 driver check **passes here in the opposite direction from AEO-10's**: Mead's generating mechanism has changed, Powell's has not.
-⚠️ **AEOLUS's addition, which the worker correctly did not make:** if anything, a **low-release year drains Powell more SLOWLY** than the sample, so the base rate is *conservative* for 2026 — a caveat **against** AEO-06's margin. It survives easily (0.45 ft required vs a 4.22 ft weakest analogue), but **the caveat should have been stated when I raised AEO-06 to 95% and was not.**
+| forecast (init 2026-08-13T07:00) | now | min | **8/17** | shape |
+|---|---:|---:|---:|---|
+| **KAUB** | 13 | **6** (8/14–15) | **11** | falls further, then **partial rebound** |
+| **DUISBURG-RUHRORT** | 134 | 129 | **129** | **monotonic decline** |
+| **EMMERICH** | −11 | −15 | **−15** | **monotonic decline** |
+
+⇒ **The binding shoal is forecast to trough near 6 cm and recover slightly; the two downstream stations are forecast to keep falling.** A Kaub-only read over the next four days would say "stabilising" and would be wrong about the lower Rhine.
+
+## proposed_findings
+
+*Proposals only — AEOLUS adjudicates and owns any `KB-AEO-NN` row.*
+
+1. **The 25 cm Kaub benchmark is now PRIMARY-VERIFIED, not carried.** Station metadata returns `NNW = 25.0 cm, occurrences: ["2018-10-22"]` and `NW = 25.0 cm` for the 2010-11→2020-10 reference decade. The figure this folder has been carrying is confirmed at the issuing agency and now has an exact date. *(Source: `stations/KAUB.json?includeCharacteristicValues=true`.)*
+2. **The Rhine low-water event is basin-wide, not a Kaub shoal effect.** Four of six gauges below all-time lows across **490 km** of reach (Worms km 443 → Emmerich km 852). This is a materially stronger statement than "Kaub broke its record."
+3. **WSV publishes an official ~4-day water-level forecast** at `/stations/<S>/WV/measurements.json` (`type=forecast`, with an `initialized` field). Available at **KAUB, DUISBURG-RUHRORT, EMMERICH**; **HTTP 404** at Maxau, Worms, Mainz. ⚠️ **It is NOT listed in the station's `timeseries` array** (which shows only `Q` and `W`) — it is undiscoverable from metadata alone and was found by direct probe. **Recommend registering it in `SOURCES.md` §5.**
+4. **A discharge series `Q` exists at all six stations** (m³/s, 15-min) — e.g. **Kaub 492 m³/s at 17:30**. Discharge is the physically conserved quantity and is **datum-independent**, unlike stage. **Recommend registering it**; it would sidestep the datum caveat below entirely. No instrument name exists for it in the vocabulary — AEOLUS's to name.
+5. **`GlW` / `TuGLW` are the authority's own navigation-economics reference levels**, and are a better-grounded basis than the carried "40 cm uneconomical" figure, whose provenance is not recorded in `SOURCES.md`. Kaub `GlW = 77 cm`, `TuGLW = 190 cm` (assured fairway depth at GlW). **Recommend AEOLUS decide whether the 40 cm line should be re-keyed onto `GlW`** — flagged, not acted on.
+6. **Precision hazard on the newly re-specified C5 trigger.** `SERIES.tsv` stores daily means **rounded to whole cm**, but the trigger tests `daily mean ≤ 25 cm`. **A true mean of 25.4 rounds to 25 and would read as satisfying a threshold it does not meet.** No such case occurs in this window — the nearest is **25.72 on 8/08**, which fails on both bases — but **grade the trigger on unrounded means.** Unrounded values are in `DOSSIER.md` §3 and recomputable from the API.
 
 ## gaps
 
-| Instrument | Status |
-|---|---|
-| `powell_elev` / `mead_elev` **for 8/13** | **PUBLIC-AND-UNFETCHED — not yet posted by USBR.** Not a failure. |
-| `panama_transits` | **No transit count published on either ACP page.** Genuinely unavailable, not unfetched. |
-| `usdm_*`, `kaub_stage` | Not re-pulled this run (already current: USDM valid 8/11, Kaub 8/13). **Not flagged by the worker — an omission.** |
-| `snowpack_upper_colorado` | Correctly absent — seasonally near-zero in August. |
-| USBR 24-month-study projection error | **Still not base-rated.** AEO-10's 2.1 ft buffer still has no error bar. |
+1. **⚠️ DATUM CAVEAT — unresolved, and load-bearing on a 12 cm margin.** Each gauge publishes its own `gaugeZero` with a `validFrom`: **Kaub's is 2019-11-01, i.e. AFTER its 2018-10-22 record**; Maxau's is 2017-07-18 against an **1885** record; Mainz's is 2019-11-01 against a **1947** record. **The API does not state whether historic `NNW` values were re-referenced to the current datum.** Kaub's 25 cm matches the independently carried/reported 2018 value, so it is at least self-consistent — but **cross-era margins of a few cm should not be treated as exact.** This bears directly on the Mainz "exactly at its 1947 record" reading. *Unresolved: I could not find a datum-history endpoint.*
+2. **EMMERICH has missing observations** — 91–94 of 96 expected 15-min records on 8/08, 8/09, 8/10, 8/11 (and 23 of 24 on 8/06). Values are tightly banded (−11 to −9), so the effect on daily means is sub-cm, but the gaps are real and not explained by the API. The other five stations returned complete 96/96 days.
+3. **🔴 NO VERIFIED FREIGHT SOURCE — nothing reported as measured.** `rhine_freight_eur_t` remains an instrument with no primary behind it. The **~€150/t vs ~€20 normal**, the **~16% of normal loadings (~800 t vs 5,100 t)**, and the **Kiel Institute German Q3 GDP −0.1/−0.2%** figures carried in the dossier are **unverified trade-press relays (PJK/Bloomberg via gCaptain/Insurance Journal)** — **not re-pullable, not measured, and not entered into `SERIES.tsv`.** I did not search for a substitute. Registering a resolvable freight series remains an open gap.
+4. **No forecast at MAXAU, WORMS, MAINZ** — `WV/measurements.json` returns **HTTP 404** at those three. Reported as the API's actual behaviour; no substitute sought.
+5. **Not attempted this run (out of the Rhine-only scope):** Colorado system (Powell/Mead/Lees Ferry), USDM drought, snowpack, Mississippi/Ohio, Panama, Yangtze/Danube/Paraná. **No instrument in scope failed to pull** — all six stations returned HTTP 200 with distinct content (md5-verified, since three responses had identical byte counts).
+6. **`SOURCES.md` not edited** — it was already modified in the working tree when I started, and the new endpoints in `proposed_findings` (3) and (4) are registrations for AEOLUS to make, not substitutions. Proposed, not written.
 
 ---
 
-## AEOLUS verification of this run
+### ⚠️ One reconciliation flag for AEOLUS
 
-| Check | Result |
-|---|---|
-| Containment — wrote only inside `water/` | **PASS** |
-| No git commands | **PASS** |
-| Values vs AEOLUS's independent pre-spawn pull | **PASS** — Lees Ferry 8/10 `7950`, 8/11 `7940`, Powell storage 8/12 `5,282,197.21` all exact |
-| Instrument vocabulary | **PASS** — 0 invented names |
-| Field integrity (7 cols) | **PASS** |
-| Append-only, no overwrite, no duplicate `(date,instrument)` | **PASS** |
-| **No fabrication when data was absent** | **PASS** — reported USBR's missing 8/13 rather than inventing it |
-| Did not score, fire a trigger, or resolve a prediction | **PASS** |
-| **Delivered its return** | **FAIL** — idled twice without reporting |
+`DOSSIER.md` §3 now contains **two different 7-day trend figures** because AEOLUS wrote a trigger section into the same file while this run was in progress. They are **not in conflict**: my table is **daily mean 8/07 → daily mean 8/12**; the "Full profile, 7-day change" line is **spot 8/06 → spot 8/13**. Hence Maxau reads **−20.5** in one and **−32** in the other. **Both are correct on their own basis; neither is a revision of the other.** I added an explicit basis note between them rather than deleting either. **Recommend picking one basis as canonical** so the number does not drift as it travels.
 
-**Verdict: the contract holds; the delivery channel does not.** Fix applied to all five briefs — **the report is now a required file write, and the message is a courtesy.**
+*No git commands run. No files written outside `AGENTS/AEOLUS/water/`. No channel scored, no trigger fired or graded, no prediction resolved.*
