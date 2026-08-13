@@ -1,6 +1,29 @@
 # TERRY STATUS
 
-> ## ★ CURRENT STATE — 2026-08-07 Fri **16:24 ET** (`boot.py` WALL CLOCK line, copied not inferred — the fix built 8/4 after three hand-written stamps ran ~+66 min fast). **MARKET CLOSED. READ THIS BLOCK FIRST; EVERYTHING BELOW IS DATED HISTORY, OLDEST FIRST.**
+> ## ★ CURRENT STATE — 2026-08-13 Thu **11:01 ET** (`date` wall clock, copied not inferred — and the session opened on a weekday catch: Will's boot prompt said "WEDS 8/13"; the clock says 8/13 is THURSDAY; Will confirmed Thursday. `claim_check` class, caught at the prompt). **MARKET OPEN. READ THIS BLOCK FIRST; EVERYTHING BELOW IS DATED HISTORY, OLDEST FIRST.**
+>
+> **Book: 🟠 ONE live TERRY position (`004`, 25× TLT Sep-30 77P). NO capital moved. `$0` at risk on every proposal. This was an INBOX session (Will-directed): 7 packets → 0, four surfaces written, nothing proposed, nothing armed.**
+>
+> - **⚠️ `TRY-FIRE-004` IS NOW UNDERWATER: 77P mid `0.085` (paper-book mark, live chain 10:43 ET) = `0.735×` the $0.11563 fees-in basis.** Gate trajectory extends: 2.4× (7/30) → 1.82× (8/4) → 1.254× (8/7) → **0.735× (8/13)** — the ≥3× harvest gate (10 ct owed) keeps moving AWAY. TLT not re-snapshot this session; disarm line is DGS10 <4.50 (4.68 at last read, 8/7). **No action — a gate is not shaved for being far, and the position's kill is the disarm line, not the mark.** *(First session the remaining 25 lots mark below basis; noted as a fact, not a trigger — no rule keys on mark-vs-basis.)*
+>
+> **📥 INBOX 7 → 0 (oldest 8/7), item by item:**
+> - **PROME 8/7 — routing disposition (c) CONFIRMED by Will; this line is the requested close-the-loop record.** Action-routing on T-1/T-2/T-3 with the logged ≤10% WALTER override; info-cc to this desk killed; my symmetric falsifier recorded (one S1 naming TERRY for an unconsumed action item → revert, no tuning); amendments A1–A4 absorbed as binding spec notes. Canonical record: `FORUM/2026-08-07_system-review/06_proposals/07+08`.
+> - **NEXUS 8/7 — my one-vote challenge is CORRECT: the antecedents are NOT separable.** His R1↔R6 merge derives from the 7/30 op + Bessent 8/2, so SAM+NEXUS was one observation read twice. Adopted into his own convergence practice: *corroboration ≠ a second vote unless the antecedent sets are disjoint, and the sender states which.* Record closed; nothing owed.
+> - **WALTER `SIG-W-20260807-002` (IMMEDIATE, info):** first CONFIRMED sinking of the campaign (8/5, USV, 9nm off Al Mukha) — **wrong sea for Gate 2** (Bab el-Mandeb, not Hormuz, per the anchor's own 7/27 guard); 14-nation Saudi-led coalition (US not a member — "expected to join," do not carry "excludes"); Gate 1 (FAL-01) still firm-negative through an escalating target set. **Context only, no TERRY action — consumed as delivered.**
+> - **WALTER `SIG-W-20260811-002` (IMMEDIATE, declared OVERRIDE) — fleet rule N5 ADOPTED → `RISK_RULES` 6c:** *a futures bar is a QUOTE until something external says it is a SETTLEMENT.* Promoted as **6b's price-side sibling** (6b polices the clock you stamp, N5 the price). Desk exposure low (ETF chains + cash indices); the bind is any `CL=F`/`BZ=F`-gated arm. **Override graded CORRECT to send** — a method rule is in the un-re-pullable class, which is the exemption's own rationale; n=1 vs the ≤10% ratio, no gate widened.
+> - **PROME 8/11 ×2 (forum-4 close + 35a/35b ruling) — consumed to TWO surfaces:** fleet rule **N4 → `RISK_RULES` #17** (in a claim class whose sole consumer is a size decision, the size-INCREASING branch carries the higher evidential burden, shown in the spec's own numbers) · the sizing context → **`SIGNALS.tsv` row `FORUM4-35AB-FUELSPENT`**: BRENT's "FUEL SPENT" margin is **477–483 contracts OI-normalized, not 1,512** (1.9:1 against), 35a is **non-latching**, 35b's band **grades 8/14 once more then DIES** — until the successor registers there is **NO live crude positioning modifier to size off**, and no Friday print can CONFIRM exhaustion (empty confirm cell, structurally).
+> - **AEOLUS 8/12 — STAND DOWN accepted; the CATTAIL loop is closed on his side too.** His build trigger **fired backwards** (CSU 8/5 HELD; NOAA 8/6 revised DOWN, 75% below-normal); NHC's two 80% systems fail the Gulf/FL letter and he graded the letter. **RNR is PRE-REGISTERED as the contingent vehicle, deliberately UNPRICED** — arming = Gulf/FL landfall or credible Gulf/FL track, AEOLUS packets same-session, TERRY prices on fresh chains then. FL-primary puts/KIE/short-shares DEAD. Resolution row appended to `SETUPS.tsv` (8/4 evidence row untouched). Nothing owed, no clock.
+>
+> **⏰ Dated obligations:** **8/14 (tomorrow, Fri):** QQQ-VFADE time stop — card already VOID (8/4, hard-condition breach + 712), formally close it out at the stop · BRENT's 8/14 print = 35b band's **final** grade + 35a revert check (BRENT's grade, my sizing consumption) · **8/21 OPEX** — KRE/OZK/KELYA terminal; OZK residual RIDES per Will's 8/4 D1 ruling. *(8/12 CPI printed while the desk was dark; nothing on this book was gated on it.)*
+> **⏳ Carried, unchanged from 8/7:** bank-put reshape dark leg (`WAL 77.5P`, Robinhood, WILL_QUEUE row 20) · SAM's owed §6 branch ("yen strengthens, BOJ does nothing") · my owed builds: `would_fire_90d` distinct-count fix (prints 5/6, true 3) + `options/` Part B · stale signals not addressed in this inbox-only session (NEXUS PIN 28d, `TCH-WAL` >21d re-verify-or-retire, `SIG-W-020` RECONFIRM triage).
+>
+> **⛔ NOTHING PROPOSED, NOTHING ARMED, NO THRESHOLD MOVED.**
+
+---
+
+> *Superseded banner — **2026-08-13 Thu 11:01 ET.** Read the CURRENT STATE block above for the operative version.*
+>
+> ## ~~★ CURRENT STATE~~ — 2026-08-07 Fri **16:24 ET** (`boot.py` WALL CLOCK line, copied not inferred — the fix built 8/4 after three hand-written stamps ran ~+66 min fast). **MARKET CLOSED. READ THIS BLOCK FIRST; EVERYTHING BELOW IS DATED HISTORY, OLDEST FIRST.**
 >
 > **Book: 🟠 ONE live TERRY position (`004`, 25× TLT Sep-30 77P). NO capital moved. `$0` at risk on every proposal. This was a GRADING session — two past-due pre-registered gates, both now scored. Inbox 9 → 0.**
 >
