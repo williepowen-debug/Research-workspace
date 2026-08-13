@@ -157,7 +157,12 @@ curl -sL "https://www.vizugy.hu/index.php?mapModule=OpVizallas&mapData=VizmerceL
 ```
 **Verified 2026-08-13 (18:00 local):** **Budapest 24 cm** · **Baja −4 cm** · **Mohács 10 cm** · Adony −73 cm (Danube km 1598.110).
 ⚠️ **Values are cm against each station's own local datum — negative is normal, not "below empty."** Same trap as the Rhine.
-🔴 **OPEN SUB-GAP: I have NOT pulled the Hungarian low-water reference values (`LKV` = *legkisebb vízállás*, lowest recorded level).** The site exposes LKV stations, so the reference exists. **Until pulled, a Danube level has no comparison baseline and must NOT be called "low" or "record."** *(This is the same defect that made the Duisburg leg unfalsifiable — do not repeat it.)*
+✅ **SUB-GAP CLOSED 8/13 — the LKV reference is a queryable ArcGIS service, and it ships the authority's own above/below flag.**
+```bash
+curl -s "https://terkeptar.vizugy.hu/server/rest/services/Vizugy_hu/LKV_folyok/MapServer/0/query?where=VizfolyasNev%3D%27Duna%27&outFields=Nev,Fkm,Vizallas,LKV,LKVIdopont,LKV_viszony&returnGeometry=false&f=json"
+```
+Returns **44 Danube stations from Ingolstadt (km 2457, Germany) to Novo Selo (km 834)** — far beyond the Hungarian reach. Fields: `Vizallas` current cm · **`LKV` lowest-ever cm** · `LKVIdopont` the date it was set · `LNV` highest-ever · `Nullpont` gauge-zero elevation · **`LKV_viszony`** = the authority's own −1/+1 below/above-LKV flag.
+⚠️ **EXCLUDE LKV dates of 1799-12-31 / 1884-12-31 / 1894-12-31 — they are null-date sentinels, not real records** (5 of 44 stations). Filter on the year before using an LKV.
 ⚠️ Danube is **multi-national**; Hungary is one reach. Austria `ehyd.gv.at` (200) and Serbia `hidmet.gov.rs` (200) both respond and are unexplored.
 
 ### ✅ PARANÁ — gap closed 2026-08-13 (UNL-FICH, Facultad de Ingeniería y Ciencias Hídricas)
@@ -167,8 +172,14 @@ curl -sL "https://fich.unl.edu.ar/cim/rios/parana/alturas"
 Whole-basin table: `station | river | current (m) | Δ | previous | ALERT level | EVACUATION level`. **The alert/evacuation columns are published thresholds — this source ships its own reference levels**, unlike the Danube one.
 **Verified 2026-08-13:** **Rosario 3.02 m** (Δ −0.01; alert 5.00) · **Santa Fe 3.18** (−0.02; alert 5.30) · Corrientes 3.28 (−0.08; alert 6.50) · Villa Constitución 2.47 · Diamante 3.36 · Barranqueras 3.29.
 🔑 **Rosario is the one that matters** — the Up-River port cluster around Rosario handles the large majority of Argentine grain and soy-product exports, so Paraná stage there is a **grain-logistics cost** variable (→ **CARL**, **MARCO**).
-⚠️ **The published thresholds are FLOOD levels (alert/evacuation), NOT low-water navigation limits.** For the low-water direction I still need a draft/navigation reference — **open sub-gap.**
-⚠️ **Current reading is NOT a low-water event:** 3.02 m at Rosario is mid-range; INA described late-July levels as within normal parameters. **This channel is not firing** — recorded so a future reader does not assume it was opened because something was wrong.
+✅ **SUB-GAP CLOSED 8/13 — derive the low-water reference from the station's own history rather than looking for a published one.**
+```bash
+curl -sL "https://fich.unl.edu.ar/cim/rios/historico/39"     # 39 = Rosario; 366 daily records
+```
+Returns `date | time | level | Δ | — | previous`. **Trailing-year distribution at Rosario (13/08/2025 → 13/08/2026):** min **1.08** · P05 **1.34** · P10 **1.40** · P25 **1.60** · median **2.14** · P75 **2.44** · max **3.03**.
+**Use P10 ≈ 1.40 m as the working low-water reference** until a navigation-draft reference is found.
+⚠️ **One year is a SHORT base.** The 2021 crisis went far lower — reporting has Rosario near **0.08 m** in May 2020 and 2021 as the lowest since **1944**, with basin discharge ~6,200 m³/s against a ~17,000 normal and a 1944 record of ~5,800. **A trailing-year percentile is a rank within a benign year, not a historic reference.**
+🔴 **CORRECTION to my own read from earlier today: 3.02 m is NOT "mid-range" — it is the 99th percentile of the trailing year** (max 3.03, median 2.14). **The Paraná is near the TOP of its recent range, not the middle.** I characterised it as mid-range before pulling the distribution; **the distribution is what made the read possible, and it reversed the adjective.** **This channel is not firing, and it is not close to firing.**
 
 ### Mississippi / Ohio
 USACE Rivergages + NWS AHPS + USGS NWIS (§3). ⚠️ **Autumn (Sep–Nov) is the window** — an August "normal" is not evidence of a benign season. I retracted a "firing" read on 7/22 for exactly this.

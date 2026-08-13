@@ -131,3 +131,8 @@ date	instrument	value	unit	source	pulled_at	notes
 2026-08-13	rosario_stage	3.02	m	UNL-FICH-ROSARIO	2026-08-13	grain-export gauge; delta -0.01; published ALERT level 5.00 (flood, not low-water)
 2026-08-13	santafe_stage	3.18	m	UNL-FICH-SANTAFE	2026-08-13	delta -0.02
 2026-08-13	corrientes_stage	3.28	m	UNL-FICH-CORRIENTES	2026-08-13	delta -0.08
+2026-08-13	danube_stations_below_lkv	13	count	OVF-LKV-ARCGIS	2026-08-13	consecutive Hungarian stations Vac km1679.5 -> Mohacs km1446.9 below their 2018-dated LKV; +Pfelling (Bavaria)
+2026-08-13	mohacs_vs_lkv	-40	cm	OVF-LKV-ARCGIS	2026-08-13	deepest breach; LKV 50 set 2018-10-26
+2026-08-13	budapest_vs_lkv	-9	cm	OVF-LKV-ARCGIS	2026-08-13	LKV 33 set 2018-10-24
+2026-08-13	rosario_trailing_yr_p10	1.4	m	UNL-FICH-ROSARIO-HIST	2026-08-13	working low-water reference; 366-day distribution
+2026-08-13	rosario_trailing_yr_min	1.08	m	UNL-FICH-ROSARIO-HIST	2026-08-13	trailing-year min - NOT a historic low; 2021 crisis went far lower
