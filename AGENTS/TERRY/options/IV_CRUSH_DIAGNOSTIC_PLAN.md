@@ -1,5 +1,5 @@
 # EARNINGS IV-CRUSH DIAGNOSTIC — research plan
-**Created:** 2026-07-17 · **Owner:** TERRY · **Status:** Part A run 2026-07-17; Parts B/C pending
+**Created:** 2026-07-17 · **Owner:** TERRY · **Status:** ✅ **PLAN COMPLETE 2026-08-13 — Part A run 7/17 · Part B run 8/13 (`IV_CRUSH_PARTB_2026-08-13.md`) · Part C KILLED 8/4 (Will).** No live parts remain.
 **Scope class:** SIDE construction study, subordinate to the thesis system. Informs *how to express* a thesis, not whether it's right. Does NOT arm anything.
 
 ## Question
@@ -49,5 +49,5 @@ One-page finding: (1) per-name verdict on the current book before 7/21–7/23; (
 
 ## Results log
 - **Part A — 2026-07-17:** see `IV_CRUSH_PARTA_2026-07-17.md` (appended this session).
-- **Part B: QUEUED 2026-08-04** (was "pending" and unstarted for weeks while Part C's paid-data block was the item being tracked — see above).
+- **Part B — ✅ RUN 2026-08-13 (Will-directed):** see `IV_CRUSH_PARTB_2026-08-13.md` + re-runnable `partb_realized_moves.py`. **Headline: 0 of 32 prints (4 names × 8 quarters, Oct-24→Jul-26) reached even 10%, vs held strikes needing 12.7–15.5% — the needed move is outside the entire realized envelope, not just "consistently smaller." Confirmed, with a regime-conditional caveat (no crisis print in sample).** Construction-rule CANDIDATE recorded there; not yet promoted. *(Was "pending" 7/17→8/4 and QUEUED 8/4→8/13 — the audit's blocked-by-nobody-starting-it diagnosis was correct; the run took under an hour.)*
 - **Part C: 🪦 KILLED 2026-08-04, Will-decided.**
