@@ -90,3 +90,27 @@ Three sharpeners:
 1. **Prefer the basis the numerator itself names.** `RCON2746`'s FFIEC label literally says "items 4 and 9." The defective denominator was *contradicted by the field's own definition* for three years. **Read the instrument's own label before trusting an inherited recipe** — cf. [[finding-read-the-artifacts-own-header-first]].
 2. **A gate's baseline should be the gate's own event boundary, not a fixed calendar date.** A decomposition measured from an arbitrary prior date silently mixes pre-event drift into the event. Compute from the run's own start *as well*; if they disagree, that IS the finding (the parent rule, one layer up).
 3. ⚠️ **Ratio-vs-dollars is the same trap and it inverted the substantive conclusion.** The cohort's *ratios* collapsed at the concentrated names — but the **dollars** told a different story: OZK −64% YoY and EGBN −38% while **HBAN +100%, BKU +193%, MTB +16% to $4.95B, the largest absolute book in the cohort while ranking as an unremarkable ratio** because its denominator is enormous. **A ratio screen structurally cannot see a book migrating up-cap.** Report level AND ratio, always — cf. [[finding-spread-metric-blind-to-common-mode]], [[finding-rising-stock-flat-inflow-means-slower-outflow]].
+
+---
+
+**n+3 — 2026-08-13, REGINALD, same day as n+2. The family has one more member and it is the one that hid a real event: the SAMPLING GRID.**
+
+n+2 said a denominator's SCOPE and a baseline's DATE are normalization choices wearing the costume of description. **So is the set of periods you pull.**
+
+A quarterly screen ran on `Q2-25 · Q4-25 · Q1-26 · Q2-26` — four quarters, one gap. It reported a bank's exposure **−64% YoY**, and the figure was arithmetically exact and independently reproduced at two sources. Then an adversarial re-check on a **contiguous** grid:
+
+| | |
+|---|---|
+| What the gapped grid showed | a −64% decline over a year |
+| What the contiguous grid showed | **eleven quarters flat in a band, then −36% in ONE quarter (the skipped one), then drift** |
+
+**Two-thirds of the "trend" was a single step, and the step sat in the quarter the grid did not sample.** A gapped window **cannot distinguish a STEP from a TREND** — not "does so poorly," *cannot*, because the discriminating observation is the one it never takes.
+
+> **A sampling grid is not a cost decision, it is a hypothesis about what varies smoothly.** Pull contiguously whenever a level shift and a trend would mean different things — which is nearly always for reported/regulatory data, where a definitional change makes a step and an economic change makes a slope.
+
+**And the fix immediately paid a second time, in the opposite direction — base-rate the step before believing it.** With 12 contiguous quarters × 14 entities the same detector fired **17 / 154 = 11.0% of period-transitions across half the entities**. So the "anomalous" step was **ordinary for that line**, and the alarm built on it had to be downgraded the same hour. **The grid that reveals an event is also the only thing that can tell you the event is common.** Cf. [[finding-base-rate-the-instrument-before-its-event-table]] — I built the event table first and base-rated it second, twice in one day.
+
+Three carry-overs:
+1. **Endpoints reproducing is not the check.** All four gapped-grid endpoints reproduced exactly at a second agency. **Reproducibility of the endpoints says nothing about the path**, and the meaning lives in the path.
+2. ⚠️ **Extending a grid can silently disarm a test that indexes by POSITION.** The falsifier's reproduction test mutated `rows[0]`; after the extension `rows[0]` was a *new* period absent from the prior vintage, so the guard correctly classified it NEW and the test passed **nothing**. **The guard was never wrong — the test was.** Select fixtures by MEMBERSHIP (is this row in the prior baseline?), never by index, once the row set can grow.
+3. **The correction came from someone else's cheap question** ("could the tool just be broken?"), not from the instrument. Twice that day. **A question about your own instrument that you have not asked is not a gap in the tool — it is a gap in the review.**
