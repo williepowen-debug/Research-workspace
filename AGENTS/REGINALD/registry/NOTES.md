@@ -50,3 +50,23 @@ Different questions of the same series ⇒ different levels are correct, not a c
 2. **Blended-index tail-lag (SIG-717-003, WALTER 7/15; promoted from SCRATCH 8/10):** the blended HY index can sit at a benign percentile while the CCC constituent sits at a stressed one (measured 7/15: blended at the 8.3 pctile of its 3-yr range, CCC at 87.8) — so a tail-led credit break may fire late against these blended-level triggers. Companion instrument = the CCC/HY RATIO tripwire `VX-REG-18.04` (spec pinned to the ratio 7/30), which is the tail-sensitive leg; sub-index (BB/B) collection is a fleet gap flagged to PROME by WALTER.
 
 **Downstream-of-bank caveat (7/30 attribution, standing):** HY sits DOWNSTREAM of bank credit in my chain — an HY move without a bank-credit leg is not my chain firing. Before treating any HY level as bank transmission, run the bank-credit cross-check (`reports/2026-07-30_bank-side-HY-attribution.md`).
+
+---
+
+# SCHEMA CHANGE 2026-08-13 — audit-convention encode (8 cols → 13, APPEND-ONLY)
+
+**Authority:** `PROME/proposals/2026-08-12_audit-convention-RULED.md` (Will-approved 2026-08-12, FLEET SCOPE) — *"a stored value must carry its unit and basis; a threshold must name the instrument that grades it (a continuous series is not a contract); and 'zero' must be distinguishable from 'unknown' and from 'not applicable.'"* Encode requested of REGINALD via PROME's 2026-08-13 spawn brief off DAEDALUS's `THRESHOLDS.tsv` findings (**zero exit conditions · zero instrument/basis columns**).
+
+**⚠️ FLAG-BEFORE-ENCODE — the tension I resolved, stated rather than assumed.** DAEDALUS's own REGINALD profile records **"THRESHOLDS 8-col contract"** as a HELD invariant and **"NOTES.md is a companion, never folds into the TSV."** The convention needs machine-readable per-row instrument/basis; NOTES is prose keyed by `trigger_id` and only two rows carry entries. **Resolution: APPEND-ONLY extension.** Columns 1-8 are **byte-identical to `de75ab659`** (verified by `cut -f1-8` diff), so the 8-col contract survives as an exact prefix and any positional reader is unaffected; the five new columns are appended at the end. **No level, operator, sustain window, action, recipient chain or thesis ref moved.** Grep for script consumers before the edit returned **zero** — this file is read by humans and packets only.
+
+| New column | Carries |
+|---|---|
+| `grading_instrument` | The named series/tool that grades the row. *A continuous series is not a contract* — so the row names FRED `BAMLH0A0HYM2`, not "HY OAS." |
+| `value_unit` | Unit of `threshold_value` (USD / bps / percent / thousands of persons / USD billions). |
+| `value_basis` | What the number measures — close vs intraday, SA vs NSA, rate vs balance, first-release vs revised. |
+| `sustain_unit` | **The defect this closes:** `sustain_window` was a bare integer meaning *daily closes* on REG-T-01/02/03/04/08, *weekly prints* on REG-T-05, *monthly prints* on REG-T-07 and *quarterly prints* on REG-T-06. One column, four different clocks, none written down. |
+| `exit_condition` | What un-fires the row. Previously **every row was a one-way auto-fire with no recorded un-fire**, so a fired row could only ever be un-fired by undocumented judgment. |
+
+**Exit conditions are NEW SPEC, pre-registered here, and are deliberately conservative.** Construction rule, applied uniformly: exit requires the metric back on the benign side **by a stated margin** (5% hysteresis on the two price rows; 20bp on HY; a proportionate step on the rest) sustained for a window **≥ the entry window**, graded on the **same instrument** as entry. This is asymmetric by design — harder to un-fire than to fire — because a fired row escalates other agents and an oscillating gate would thrash the whole chain. **These are not levels moved: no entry threshold changed, and before this edit the exit was not "something else," it was *nothing*.** They are gradeable and executable inside the window their instruments quote (`finding_executability_is_a_separate_audit_axis`). If any owner on a recipient chain thinks an exit is mis-set, argue it before it fires, not after.
+
+**Not registered, deliberately.** MI3 / hidden-CRE has **no row in this registry** and I did not add one on the day I re-ran the screen. The cohort re-run (`reports/2026-08-13_MI3_cohort_rerun.md`) found the legacy `>20%` flag catches one name on the legacy basis and **zero on the uniform basis** — so a new MI3 trigger would need its base rate and separation established first, and *"don't build it"* is a real answer (`finding_base_rate_the_threshold_before_building_it`). Recorded as a candidate on ROADMAP, not as a gate.

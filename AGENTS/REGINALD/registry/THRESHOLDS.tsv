@@ -1,9 +1,9 @@
-trigger_id	metric	threshold_op	threshold_value	sustain_window	action	recipient_chain	threshold_thesis_ref
-REG-T-01	KRE-PRICE	<	60	1	ALL-ALL-ACUTE	REGINALD action / ALL-AGENTS info / Will	STATUS.md#kre-acute-trigger
-REG-T-02	WAL-PRICE	<	78	1	V1V3-ACCELERATE	REGINALD action / WAL action / Will	STATUS.md#wal-v1v3-thesis
-REG-T-03	HY-OAS	>	320	3	CREDIT-CANARY-FIRED	REGINALD action / CARL info	STATUS.md#hy-oas-canary
-REG-T-04	HY-OAS	>	350	3	ISSUANCE-FREEZE	REGINALD action / LIQUID action / Will	STATUS.md#hy-oas-issuance-freeze
-REG-T-05	INITIAL-CLAIMS	>	300	1	ORANGE-TO-RED	REGINALD action / CARL LABOR info	STATUS.md#claims-trigger
-REG-T-06	FHLB-ADVANCES	>	700	3	EARLY-CRISIS	REGINALD action / LIQUID info	STATUS.md#fhlb-early-crisis
-REG-T-07	OFFICE-CMBS-DQ-TREPP	>	15	3	CRE-ACCELERATE	REGINALD action / CREED info / BROCK SHADE info	STATUS.md#cmbs-cre-transmission
-REG-T-08	SOFR-IORB	>	15	3	LIQUID-FHLB-SPIKE	REGINALD action / LIQUID action / Will	STATUS.md#sofr-iorb-fhlb
+trigger_id	metric	threshold_op	threshold_value	sustain_window	action	recipient_chain	threshold_thesis_ref	grading_instrument	value_unit	value_basis	sustain_unit	exit_condition
+REG-T-01	KRE-PRICE	<	60	1	ALL-ALL-ACUTE	REGINALD action / ALL-AGENTS info / Will	STATUS.md#kre-acute-trigger	scripts/market.py -> Yahoo Finance ticker KRE	USD	regular-session close, unadjusted, per-share	consecutive daily closes	KRE >= 63.00 on 3 consecutive daily closes (entry level +5% hysteresis)
+REG-T-02	WAL-PRICE	<	78	1	V1V3-ACCELERATE	REGINALD action / WAL action / Will	STATUS.md#wal-v1v3-thesis	scripts/market.py -> Yahoo Finance ticker WAL	USD	regular-session close, unadjusted, per-share	consecutive daily closes	WAL >= 81.90 on 3 consecutive daily closes (entry level +5% hysteresis)
+REG-T-03	HY-OAS	>	320	3	CREDIT-CANARY-FIRED	REGINALD action / CARL info	STATUS.md#hy-oas-canary	FRED series BAMLH0A0HYM2 (ICE BofA US High Yield Index OAS)	bps	option-adjusted spread, daily close, ~1 business-day publication lag	consecutive daily closes	HY-OAS <= 300 on 5 consecutive daily closes
+REG-T-04	HY-OAS	>	350	3	ISSUANCE-FREEZE	REGINALD action / LIQUID action / Will	STATUS.md#hy-oas-issuance-freeze	FRED series BAMLH0A0HYM2 (ICE BofA US High Yield Index OAS)	bps	option-adjusted spread, daily close, ~1 business-day publication lag	consecutive daily closes	HY-OAS <= 330 on 5 consecutive daily closes
+REG-T-05	INITIAL-CLAIMS	>	300	1	ORANGE-TO-RED	REGINALD action / CARL LABOR info	STATUS.md#claims-trigger	FRED series ICSA (weekly initial claims, seasonally adjusted)	thousands of persons	weekly SA headline print, first release; revisions do NOT retro-fire	consecutive weekly prints	ICSA <= 275 on 3 consecutive weekly prints
+REG-T-06	FHLB-ADVANCES	>	700	3	EARLY-CRISIS	REGINALD action / LIQUID info	STATUS.md#fhlb-early-crisis	FHLB Office of Finance Combined Financial Report, system advances line	USD billions	system-wide period-end advances balance, all 11 banks combined	consecutive quarterly prints	FHLB-ADVANCES <= 650 on 2 consecutive quarterly prints
+REG-T-07	OFFICE-CMBS-DQ-TREPP	>	15	3	CRE-ACCELERATE	REGINALD action / CREED info / BROCK SHADE info	STATUS.md#cmbs-cre-transmission	Trepp monthly CMBS Delinquency Report, OFFICE sector (see registry/NOTES.md REG-T-07)	percent	30+ day delinquency RATE on office CMBS balance; NOT special-servicing rate; NOT Fitch overall	consecutive monthly prints	OFFICE-CMBS-DQ-TREPP <= 13.5 on 3 consecutive monthly prints
+REG-T-08	SOFR-IORB	>	15	3	LIQUID-FHLB-SPIKE	REGINALD action / LIQUID action / Will	STATUS.md#sofr-iorb-fhlb	FRED series SOFR minus FRED series IORB	bps	daily published SOFR less interest on reserve balances, same trade date	consecutive daily prints	SOFR-IORB <= 8 on 5 consecutive daily prints

@@ -225,20 +225,17 @@ If a cross-agent threshold breaches during your work, append to `AGENTS/SIGNALS.
 
 ---
 
-## HIDDEN CRE METHODOLOGY (Original Discovery) — ⚠️ SCREEN CONTRADICTED AT PRIMARY 2026-08-07, RE-RUN OWED
+## HIDDEN CRE METHODOLOGY (Original Discovery) — ✅ COHORT RE-RUN SHIPPED 2026-08-13
 
-Banks hide CRE exposure in C&I via FFIEC Schedule RC-C Memo Item 3 (RCON2746). **v1 recipe (Memo3 ÷ item-4 C&I, flag >20%) has a denominator defect:** RCON2746's balance sits in items **4 AND 9** per its own FFIEC definition, and how much sits where varies by bank — so v1 ratios are not cross-bank comparable. Found 8/7 by OZK-spawn + WAL-spawn independently (same day, same schedule).
+Banks hide CRE exposure in C&I via FFIEC Schedule RC-C Memo Item 3 (RCON2746). **Canonical numbers, method, and every caveat now live in `reports/2026-08-13_MI3_cohort_rerun.md` (14 banks × 4 quarters, 56/56 rows at the FFIEC primary, both bases) + `workbook/MI3_COHORT.tsv` (machine-readable) + `scripts/mi3_cohort_screen.py` (reproducible).** Do not restate per-bank ratios here — one source of truth per metric; this section keeps only what a reader must know *before* opening them:
 
-| Bank | v1 ratio (DO NOT CITE) | 8/7 primary status |
-|------|------------------|------|
-| OZK | ~~37.6%~~ | **Does NOT reproduce at any of 18 quarters** (recipe basis 294.93%→**9.35%** Q2-26 — entire Memo-3 in item 9.a). Bucket-migration finding survives: ~$490M debt-on-debt book intact, first-ever C/Os printed Q2-26 ($42.4M YTD). |
-| WAL | 24.2% | **Reproduces exactly** (24.24% at 12/31/25); live **21.20%** Q2-26, never ≥25% in 12 quarters → PLATEAUED; "growing fastest" was a 6-quarter two-endpoint artifact. |
-| EGBN | 23.7% | Unverified on the new evidence — treat as v1-basis only. |
-| Clean: ZION 1.8%, SSB 0.9% | | Unverified on the new evidence. |
+1. **Two bases, always report both.** `v1` = Memo3 ÷ item 4 (legacy, kept for continuity against v1-vintage records). `v1a` = Memo3 ÷ (item 4 + item 9) = the numerator's OWN stated parent, and **the only basis valid for cross-bank claims** — item-9 share of the base runs 5.5%→65.8% across the cohort, so **the basis choice inverts the rank** (WAL is #1 on v1 and #3 on v1a; EGBN is #4 and #1).
+2. **`37.6%` (OZK) is KILL-ON-SIGHT** — no reproducible provenance at any quarter. But 4 of the 5 legacy cells reproduce to 2 decimals at the 12/31/2025 vintage, so it is a **single-cell data defect**, *not* a screen-level one. The screen-level defect is item 1's denominator.
+3. **"Item 4" and "item 9" are CONCEPTS, not MDRMs.** FFIEC 031 filers (foreign offices — CFG/MTB/HBAN/FLG/VLY/AMTB here) report **RCFD** series and do **not** print the item-4 or item-9b totals; a naive `RCON1766` screen returns `None` for them, which reads as "no hidden CRE." The script resolves by fallback chain and records the MDRM chain used per row. **Zero ≠ unknown ≠ not-applicable** — a reported `RCON2746 = 0` (SBCF, AMTB) is data; a missing part is never coerced to 0.
+4. ⚠️ **Scope fence, V1a ≠ V1:** MI3 = CRE *not secured* by RE. Secured books (WAL office + the $99M life-science credit, OZK RESG) are a different object and untouched by any of it.
+5. **Instrument:** FFIEC CDR **REST + JWT** (header is literally `Authentication:`; a 403 is a WAF/UA block — use `curl`, don't debug the token). Creds `FORGE/tools/market-data/.env`, **JWT expires 2026-11-05**.
 
-**Owed: cohort re-run on ONE uniform basis, both bases reported** (REST/JWT recipe → `AGENTS/WAL/outbox/2026-08-07_to-REGINALD_mi3-ran-first-time...`; creds in `FORGE/tools/market-data/.env`, JWT expires 2026-11-05). Scope guard: MI3 = CRE *not secured* by RE — secured books (WAL office, OZK RESG) untouched by any of this.
-
-Metropolitan Capital failed with 61% true CRE (labeled 10.7%). Three masking levels: extend-and-pretend, mark-to-model, **classification** (our discovery) — the masking taxonomy stands; the per-bank ratio table above does not.
+Metropolitan Capital failed with 61% true CRE (labeled 10.7%). Three masking levels: extend-and-pretend, mark-to-model, **classification** (our discovery) — **the masking taxonomy and the bucket-migration mechanism STAND** (a mechanism finding outlives its discredited ratio); the old per-bank ratio table does not, and has been replaced by the re-run above.
 
 ---
 
