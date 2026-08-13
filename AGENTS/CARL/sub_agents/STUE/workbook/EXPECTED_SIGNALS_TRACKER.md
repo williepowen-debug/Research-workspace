@@ -1,4 +1,4 @@
-# LIVE — Last real data refresh: 2026-07-31 | Staleness sweep (no data): 2026-08-10 | Next: NY Fed Q2 HHDC (modal Tue 2026-08-04)
+# LIVE — Last real data refresh: 2026-08-13 | Staleness sweep (no data): 2026-08-10 | Next: CFPB re-pull ~2026-08-20 (ES-02), then FSA quarterly ~Sep (ES-01/04/06 together)
 # STRUCK 2026-08-10 (PROME round-2 audit item 4, inbox packet processed): the "THIS FILE IS
 # CURRENTLY UNENFORCED" banner below was FALSE as of this check — CARL shipped the .md-widening
 # LEDGER_GLOB fix the same evening it was requested (7/31), verified scanning. Wrong-in-the-safe-
@@ -26,7 +26,9 @@
 | **ES-STUE-05** | **🆕 SLABS transmission — deterioration reaches the trusts** (private SL + FFELP) | private-trust CNL +25bps / +50bps / +100bps; any tranche CE breach = R | Trustee/servicer reports · EDGAR ABS-EE / 10-D · rating actions | Quarterly, on filing | ⚠️ **PRIOR REGISTERED BEFORE LOOKING: probably WILL NOT APPEAR — and that is the expected result.** FFELP is ~97% federally guaranteed (extension/prepay risk, not credit); private SLABS sit on a different, largely cosigned pool that is **not** the ~9M defaulted cohort. **Absence CONFIRMS the prior and closes the question. An APPEARANCE is the surprise** — and would be the first tradeable expression the domain has ever produced |
 | **ES-STUE-06** | **🆕 Higher-ed closures feed the borrower-defense pipeline** | Title IV HCM list +10% / +25% / a major-chain closure | FSA Data Center quarterly (**already pulled** — HCM institutions ship alongside portfolio data) | Quarterly (~Sep) | 🟡 Weak signal by design. Absence just means the BD pipeline stays at its ~271K run-rate; **no thesis consequence.** Registered so the newly-absorbed domain has a row-shape, not because it is load-bearing |
 
-**Standing read (2026-07-31, registration):** **ES-02 = ALREADY-NULL-ONCE** (wave-1 no spike, partial read). **ES-03 resolves in ~4 days.** ES-01/04/06 all resolve on the **same FSA Q2 print (~Sep)** — ⚠️ *that is a single point of failure: one delayed release blinds three signals at once* (cf. register S4, publisher shock). ES-05 unexamined.
+**Standing read (updated 2026-08-13):** **ES-03 RESOLVED — APPEARED at the Y band** (see fired log). **ES-02 = ALREADY-NULL-ONCE and is the only dated item left this month (~Aug 20)** — a second null makes CRL-28 a no-mechanism question. **ES-01/04/06 still all resolve on the same ~Sep FSA print** — ⚠️ *the single point of failure is now the ONLY live cluster: one delayed release blinds three signals at once* (cf. register **S4**). ES-05 (SLABS) unexamined.
+
+> 🆕 **S4 fired for the first time, 2026-08-13 — and it fired as an instrument defect, exactly as registered.** The Q2 HHDC workbook carries **two** student flow-into-90+ series that had agreed to **±0.01pp for five consecutive quarters** and then **split by +0.39pp in 26:Q2 alone**: Pg 14 (by loan type) **7.83%** vs Pg 28 (by age, 4Q moving sum) **7.44%** — ~40× the historical maximum gap. **Canonical = Pg 14 (7.83%).** The Pg-28 row that STATUS had been carrying as "transition rate into 90+ (4Q moving sum)" is **retired, not refreshed**, because a series that was a safe stand-in for five quarters stopped being one without announcing it. ⚠️ **The thesis reading is NOT sensitive to this** (both halve off 16.19%) — logged because next quarter someone will otherwise "fix" 7.83% to 7.44% and manufacture a revision. *This is what S4 was seeded for: "a publisher change is an instrument failure that looks like a world change."*
 
 ## Response protocol
 
@@ -41,6 +43,7 @@
 | ES-ID | Date | Band | Outcome (APPEARED / DID_NOT_APPEAR) | Notes |
 |---|---|---|---|---|
 | ES-STUE-02 | 2026-07-19 | — | **DID_NOT_APPEAR (partial)** | SAVE wave-1, Jul 1-19: **539 complaints ≈ 28.4/day vs June 27.0/day — no escalation.** ⚠️ Partial read only (5-6d lag); re-check ~Aug 20. First entry in this log, back-dated at registration |
+| **ES-STUE-03** | **2026-08-11** (checked 8/13) | **🟡 Y — "holds ≥10%"** | ✅ **APPEARED** | **NY Fed HHDC 2026:Q2, STUE direct pull.** Student 90+ **stock 10.34% → 10.60%** ⇒ the Y band ("holds ≥10%") is satisfied; O (>11%) and R (>12%) are **not**. **CRL-04 is not a single-print artifact.** ⚠️ **The row's paired instruction — "pair with the flow reading, stock-up/flow-down is the live ambiguity this print resolves" — is what earned its keep**: flow into 90+ fell **10.86% → 7.83%**, a 2nd consecutive halving, resolving the ambiguity to **COHORT EXHAUSTION** (not on-ramp slack, not seasonality — neither survives two quarters). **The signal APPEARED at its weakest band while the mechanism behind it decayed** — which is exactly the case a bare threshold-check would have mis-reported as confirmation. Y ⇒ log + STATUS row, no routing required; routed to CARL anyway as part of the packet reply |
 
 ## How to use
 

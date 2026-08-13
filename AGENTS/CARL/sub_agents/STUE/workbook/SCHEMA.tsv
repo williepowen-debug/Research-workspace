@@ -32,3 +32,10 @@ CASCADE.tsv	Est_DQ_Impact	String	Estimated additional DQ from this stage
 CASCADE.tsv	CARL_Vector	String	Which convergence vector this feeds
 CASCADE.tsv	Confidence	String	Confidence in this stage firing
 CASCADE.tsv	Source	String	Data source or analytical basis
+EXPECTED_SIGNALS_TRACKER.md	ES-ID	string	Expected-signal identifier, ES-STUE-NN. Absence-is-data register.
+EXPECTED_SIGNALS_TRACKER.md	Signal	string	What SHOULD appear if the thesis transmits. Prior must be registered BEFORE the check runs.
+EXPECTED_SIGNALS_TRACKER.md	Bands	string	Yellow / Orange / Red trigger levels for the signal.
+EXPECTED_SIGNALS_TRACKER.md	Instrument	string	The published series that resolves it, incl. publication-lag caveats.
+EXPECTED_SIGNALS_TRACKER.md	Cadence	string	How often the row is checked.
+EXPECTED_SIGNALS_TRACKER.md	Implication_if_ABSENT	string	What a null result MEANS. The point of the register: a null only counts as evidence if the prior was registered first.
+EXPECTED_SIGNALS_TRACKER.md	Fired_log	string	Resolved rows: ES-ID / Date / Band / APPEARED or DID_NOT_APPEAR / Notes.

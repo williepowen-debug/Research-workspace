@@ -71,7 +71,8 @@ These had **zero fleet coverage** (verified at the counterparty standard). Will 
 
 **Delinquency / Default:**
 - FSA Data Center quarterly updates — **Q1 2026 released Jun 23 2026** (EA GENERAL-26-38, data as of Mar 31). **Next: Q2 ~Sep** (2nd default-stock print; settles the 9.0M-vs-9.5M press gap; refreshes the stale 18.6% cut)
-- NY Fed Quarterly Report on Household Debt (30+, 90+ DQ by age cohort) — ⚠️ **Do NOT carry "~8/15" — it is a Saturday.** **Q2 base rate: 1st or 2nd Tuesday of August, 11:00 ET, four years running** (Aug 2 '22 · Aug 8 '23 · Aug 6 '24 · Aug 5 '25; 3 of 4 = first Tuesday) ⇒ **2026 modal Tue Aug 4, fallback Tue Aug 11.** The **media advisory posts T-5 to T-7** — that is what converts the estimate to a date. *(newyorkfed.org 403s WebFetch; reach the advisory via search.)*
+- NY Fed Quarterly Report on Household Debt (HHDC) — **Q2 2026 PRINTED Tue Aug 11 2026** (the *fallback* Tuesday; the band held, the modal Aug-4 point estimate missed). **Base rate now 5 years: Q2 lands on the 1st or 2nd Tuesday of August, 11:00 ET** (Aug 2 '22 · Aug 8 '23 · Aug 6 '24 · Aug 5 '25 · **Aug 11 '26**) — **3 of 5 first Tuesday, so publish the BAND and treat the mode as colour.** ⚠️ **Retrieval, learned the hard way — do not repeat the advisory-watch:** `newyorkfed.org` **403s WebFetch**, but the data files are on a **deterministic URL** and need no advisory at all: `curl` + browser User-Agent → `newyorkfed.org/medialibrary/interactives/householdcredit/data/xls/HHD_C_Report_<YYYY>Q<N>.xlsx`. **Poll that path; do not hunt for a media advisory.** *(STUE spent two sessions watching for an advisory it never found, and the print landed anyway.)*
+  - **Which sheet is canonical** (register **S4** — settled 2026-08-13): **Pg 12** = 90+ *stock* share by loan type · **Pg 13** = new delinquent (30+) by loan type · **Pg 14** = new seriously delinquent (90+) by loan type ⇐ **cite Pg 13/14 for flow.** ⚠️ **Pg 28** (student transition by age, 4Q moving sum) tracked Pg 14 within ±0.01pp for five quarters and then **diverged +0.39pp in 26:Q2** — it is **not** an interchangeable stand-in. **Never silently substitute one for the other.**
 - Default count trajectory — **~9.0M / $220B as of Mar 31 2026** (FSA primary; 6.0M Aug'25 → 7.7M Dec → ~9.0M Mar, **+1.3M QoQ**). The **13M EOY-2026** (TCF) projection needs *acceleration*: current pace implies ~11.6M
 - **Cure channel (track the offset, not just the inflow):** 2.6M gross Q1 DRG transfers vs +1.3M net stock rise ⇒ **~1.3M/qtr exits** (rehab / consolidation / discharge / cure). Durability is an open question
 - Active repayment 31+ DQ rate — 18.6% by dollar, **Dec 2025 [STALE — not restated in the Jun-23 release]**
@@ -100,7 +101,9 @@ These had **zero fleet coverage** (verified at the counterparty standard). Will 
 **Treasury Transfer:**
 - ⚠️ **Mar 19 2026 = the ED/Treasury partnership ANNOUNCEMENT, not an operational handoff.** Do not read it as completed
 - **Phase 1 scope = ~500K defaulted accounts (launch wave), NOT all ~9M** — ramps gradually via Fiscal Service CSP [CRS R48962]. *(Scope corrected 2026-06-09; the ~9M framing was wrong.)*
-- **Phase 1 execution UNCONFIRMED** — press framed Treasury "contacting 500K by July"; July closed with **no primary launch-day confirmation**. Verification due **~Aug 5**
+- ⛔ **Phase 1 execution — QUESTION RETIRED 2026-08-13 as unanswerable.** Four months produced no launch-day primary, and Treasury's Aug-7 framing moved from a discrete batch to an ongoing build-out (a "Default Resolution Hub" + vendor procurement, all future tense), so a clean July yes/no will likely never surface. **Best primary read: NOT transferred** — `fiscal.treasury.gov/debt-management/resources/federal-student-loans` (**Last Updated May 18 2026**) still says Treasury *"**helps** the U.S. Department of Education, Federal Student Aid **collect** defaulted loans"* = the standing assisting role, not custody. ⚠️ Page vintage predates the July wave ⇒ strong negative evidence, not proof.
+  - **The two registered successor instruments** (dated, primary, binary — which press-chasing never gave us): ① does that Fiscal Service page move past **May 18 2026** and change its "helps…collect" language to custody/management? ② do **vendor awards** appear (USAspending / SAM.gov / Fiscal Service procurement) and does a real borrower-facing **"Default Resolution Hub"** exist? → STATUS open question #14.
+  - ⚠️ **THREE TRAPS, all live:** **(a) "Default Resolution HUB" ≠ "Default Resolution GROUP"** — the *Group* is ED/FSA's decades-old default unit with a live phone number on that same page; evergreen explainers about it read exactly like evidence the Hub launched. **(b) "Treasury posted plans to the Federal Register" is NOT SUPPORTED** — it appeared only in **WebSearch-generated summaries**, is absent from the underlying article, and an FR full-text search for the phrase across all of 2026 returns **zero**. *A search summary is not a source, and a fabricated-but-checkable provenance claim is worse than vagueness because it stops people checking.* **(c) Press count creep** — 9.2M (Mar) → 9.5M (Jul) → 10M (Aug 7), while the same Aug-2026 articles still recycle **"$180B / 11%"** (*Dec 2025* figures). **Primary wins: 9.00M / $220.3B / >13%.**
 - ⚠️ **Custody ≠ enforcement.** This is a servicing/collections custody handoff, NOT involuntary-collections resumption. Do not conflate (the enforcement/attribution split originally reasoned through CRL-14 — retired 7/31, superseded by CRL-28 — still governs)
 - Involuntary collections (AWG + Treasury Offset) — **PAUSED since Jan 16 2026, indefinitely.** Reported expectation "late summer or fall," **no ED commitment, no corroborated restart date** → threshold **STUCK**
 - Phase 2: non-defaulted portfolio · Phase 3: full takeover including FAFSA (planned, no public dates)
@@ -123,9 +126,11 @@ These had **zero fleet coverage** (verified at the counterparty standard). Will 
 
 | Metric | Last-known value | **As of** | Yellow | Orange | Red | Source |
 |--------|---------|---------|--------|--------|-----|--------|
-| 90+ DQ Rate | **10.3%** 🔴 RED breached | **Q1 2026** (rel 5/12) | >6% | >8% | >10% | NY Fed |
-| 30+ DQ Rate | 16.3% | Q4 2025 *(not restated in Q1 release)* | >12% | >15% | >18% | NY Fed |
-| Borrowers in Default | **~9.0M / $220B** 🟠 ORANGE | **Mar 31 2026** (FSA GENERAL-26-38) | >5M | >8M | >10M | FSA |
+| 90+ DQ Rate (**stock**) | **10.60%** 🔴 RED breached — **2nd consecutive >10% print** | **Q2 2026** (rel Tue 8/11) | >6% | >8% | >10% | NY Fed Pg 12 |
+| **Flow INTO 90+ (student)** | **7.83%** — 16.19% (Q4'25) → 10.86% (Q1) → **7.83%**, halved twice ⇒ **COHORT EXHAUSTION** | **Q2 2026** | **>10.3%** | **>11.6%** | **>12.9%** | NY Fed Pg 14 |
+| 30+ DQ Rate | 16.3% | Q4 2025 *(not restated since)* | >12% | >15% | >18% | NY Fed |
+| Borrowers in Default | **9.00M / $220.3B** 🟠 ORANGE | **Mar 31 2026** = FY2026 Q2 (FSA `PortfoliobyLoanStatus`, *Federally Managed* tab, *Cumulative in Default*) | >5M | >8M | >10M | FSA |
+| ↳ ⚠️ **`[FLAG: uncertain — Will to review]` these bands fail the same base-rate test as the 90+ row** | The **pre-pandemic peak was 7.90M** (FY2020 Q2) and the series was **above the >5M Yellow band continuously from ~FY2018**, so **Yellow carries no information** and **Orange (>8M) was ~6 quarters from tripping on the pre-COVID trend alone.** Only **Red (>10M)** is above anything the series has ever printed. **Re-derive against a composition-adjusted baseline (open question #17) — do not re-cut them off 2015–19, which is the contaminated window.** ⚠️ **Perimeter, every time:** *Federally Managed* (9.00M) ≠ *Direct Loan* (7.20M) — mixing them is what produces the false "defaults nearly doubled from ~5M" | — | — | — | — | *(added 8/13)* |
 | Active Repayment DQ (by $) | 18.6% **[STALE]** | Dec 2025 | >10% | >15% | >20% | FSA |
 | SAVE Non-Selection Rate | TBD — first read ~Oct 1 2026 (first tranche only) | — | >20% | >35% | >50% | ED/FSA |
 | Servicer Bill Failure Rate † | 2.5M missed / 800K DQ — **🔴 on missed-bills, 🟡 on manufactured-DQ** | 2025 cumulative | >500K | >1M | >2M | DOE/MOHELA |
@@ -135,6 +140,15 @@ These had **zero fleet coverage** (verified at the counterparty standard). Will 
 > **† `[FLAG: uncertain — Will to review]` — this row's bands do not declare their instrument.** The value carries **two** quantities (2.5M missed bills, 800K manufactured DQ) and the >500K/>1M/>2M bands measure only one of them. Read against missed bills the row is **breached (🔴)**; read against manufactured DQ it is **Yellow**. Both readings are recorded above rather than one being silently chosen — a 3x-apart disagreement is not a rounding call. **Resolve by declaring the instrument, not by picking a colour.** *(Found 2026-07-31; the row rendered with no status marker at all since build.)*
 >
 > **Colour-token fix 2026-07-31:** the default row read `🔴 ORANGE` — emoji and word disagreed, and 9.0M sits in the **>8M Orange** band. Corrected to 🟠.
+>
+> ### 🔴 BAND PROVENANCE — the flow row's bands are BASE-RATED; the 90+ stock row's are NOT (2026-08-13)
+>
+> ⚠️ **REVISED SAME DAY after Will challenged the baseline these bands are cut from. Read this whole block as provisional.**
+>
+> **Flow into 90+ (new row) — bands derived from 2015–2019:** mean **9.51%**, range **8.59–10.27%**, sd **0.44** ⇒ **+2σ/+5σ/+8σ** = **Y >10.3% · O >11.6% · R >12.9%**. Current **7.83%** ⇒ **🟢 well clear**.
+> ⚠️ **BUT 2015–19 IS NOT A CLEAN REGIME** — it is the tail of a for-profit-driven plateau, and the flow was **already declining** through it (2012–19 trend **−0.037pp/qtr**). Wider context: **10.10%** (2012–14) · **9.51%** (2015–19) · **8.11%** (2008–11) · **6.94%** (2004–07). **Today's 7.83% is ~2008–2011 levels — below every year 2010–2019 but ABOVE the mid-2000s.** **Bands are KEPT as a working scale, flagged as baseline-contested, and get re-cut when open question #17 lands.** *(Method note: `[[finding_base_rate_the_threshold_before_building_it]]` says base-rate before shipping — it does **not** say the first window you pick is the right one.)*
+>
+> ⚠️ **The 90+ stock row's `>10%` RED band is weak as a CRISIS marker** — the balance share sat above 10% for **31 consecutive quarters (12:Q3–20:Q1)**, so the threshold does not separate crisis from that era. **That much stands and is routed to CARL.** ⚠️ **What does NOT stand is the follow-on "and today is therefore below normal":** the 2015–19 mean of **11.12%** is a **contaminated peak** (for-profit enrollment peaked 2010 and halved by 2020; ~10% of students, ~50% of defaults; cohorts hit repayment 2012–16). Against **2003–07 (6.66%)** today's **10.60%** is **+3.94pp**. **Quote 10.60% with a RANGE of baselines, never with one** — and **do NOT re-colour the row unilaterally** (bands mirror the parent's prediction; STUE proposes, CARL disposes). Full working, including what was withdrawn → `STATUS.md` § **THE BASELINE PROBLEM**. Routed to CARL 2026-08-13.
 
 ## DOC OWNERSHIP — one source of truth per metric (added 2026-07-31)
 
@@ -198,7 +212,15 @@ workbook/                    # Domain logs (TSV exports)
                              #     AND whenever a STATUS catalyst fires.
                              #   STATE_DQ = FROZEN 2026-07-10 (banner in file; do not cite as current)
                              #   SCHEMA = column definitions
-research/                    # EMPTY — contents retired to archive/ on 2026-07-10.
+research/                    # ⚠️ NO LONGER EMPTY (2026-08-13). Holds the archived source
+                             #   workbooks behind the baseline check — FSA PortfoliobyLoanStatus
+                             #   + NY Fed HHD_C_Report_2026Q2 — plus README_2026-08-13_baseline-check.md
+                             #   giving exact sheet/column/tab for every figure and the retrieval
+                             #   route (both hosts 403 WebFetch; curl + browser UA works).
+                             #   ⚠️ DO NOT retire these under the >60d sweep until open question
+                             #   #16 grades (~Sep) — they ARE the comparison base.
+                             #   (prior note, still true of everything else:)
+                             #   EMPTY as of 2026-07-10 — contents retired to archive/.
                              #   Landing zone for NEW sourced research only.
 domain/                      # StudentLoan_Data_2026-02.md only (Feb-2026 pre-STUE compilation).
                              #   Spawn data-refresh outputs were retired to archive/.
