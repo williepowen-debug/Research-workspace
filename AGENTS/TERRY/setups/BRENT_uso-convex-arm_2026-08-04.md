@@ -2,9 +2,9 @@
 **Setup ID:** TRY-BRENT-USOARM · **Trigger class:** GATE (two-leg AND: OVX decay + priced convexity)
 **Date:** 2026-08-04 · **Chain pulled:** 10:30 ET live (`chain_fetch.py --no-cache`)
 **Thesis owner:** **BRENT** (energy/oil; v5.0 main convex arm, unfired since 7/16). Gate spec is BRENT's; **tenor + size are WILL-RULED 8/3**. TERRY owns construction only.
-**Terry verdict:** 🟡 **CONDITIONAL — CLEAN on the TERRY (construction) axis.** ⚠️ **RECOMMENDATION: `125/130 ×2` @ limit ~~$1.65~~ → `$1.50` (BRENT-RULED 11:48, §11), NOT the `125/135 ×1` in §4** — BRENT ruled the flip and his payoff math is right; **my §4 recommendation committed the exact pathology §4 diagnoses.** Leg (b) **PASSES on the wide and FAILS on the narrow at worst-case ~~as of the 11:06 chain~~** — ✅ **SUPERSEDED by the 12:24 chain (§11.B): the narrow now PASSES outright at 26.0% worst-case / 16.6% at mid.** Gate is still enforced as a **LIMIT PRICE**, never relaxed. Conditional on leg (a) at the close, which is BRENT's grade and not mine.
+**Terry verdict:** 🔴 **DEAD (terminal) 2026-08-13 — ARM EXPIRED UNFIRED on day 20 of 20; Will ruled let-expire in session.** Leg (b) is **UNPASSABLE** on the 11:39 ET live chain: USO **126.11**, net debit **37.6% at MID / 58.0% paying the full bid/ask** vs the ≤33.0% gate — intrinsic on the 125/130 alone is **$1.11 = 22.2% of width** before any time value. Legs (a)/(a2) PASS (OVX 50.08, well under 58.6245) — **the death is purely priced-out: the move the arm was built to catch (USO 115.96 → 126.11, +8.8%) arrived 8/5–8/13 while the card sat DECISION-READY with no [Approve].** Not fired late, not chased. `$0` at risk from build to death. **Death record §12; latency finding routed to BRENT same session.** *(was 8/4: 🟡 CONDITIONAL — CLEAN on the TERRY construction axis; recommendation `125/130 ×2` @ limit `$1.50` BRENT-ruled 11:48; leg (b) 26.0% worst-case / 16.6% mid on the 12:24 chain, passing outright — full grading history preserved in §§2–11.)*
 **Confidence in trade structure:** High. **Confidence in the thesis: not mine to hold** — and the tape has voted against it twice this week (§7).
-**Status:** DECISION-READY / **UNARMED / $0 at risk.** Will holds [Approve] (root rule #5); live broker book governs at fire (rule #4).
+**Status:** 🔴 **DEAD (terminal) 2026-08-13 — arm expired unfired, `$0` at risk from build to death.** *(was: DECISION-READY / UNARMED / $0 at risk; Will held [Approve] per root rule #5 — the approval was never granted and the gate-passing window closed under it. See §12.)*
 
 > **Capital:** **~$300 this tranche, ~$200 held back — WILL-RULED 2026-08-03.** Inside the existing `~$300 Tier-1 + ~$200 Tier-2` spec, so a sizing decision, not a spec change. The **~$500 defined max-loss cap is unchanged.**
 > **⚠️ Do NOT confuse with the existing USO Sep-18 150/165 spread** (filled 7/24, ~$300 at risk, HOLD). Different position, different premise.
@@ -404,3 +404,23 @@ python3 AGENTS/TERRY/scripts/chain_fetch.py USO 2026-10-16 --type call --no-cach
 **PLUS: confirm `^OVX` prints ≤ 58.6245 at the moment the chain is priced (leg a2).** It held all session with a **2.12-point** cushion at the session high — **but it is a HARD VETO, not a formality. If OVX is above the line there is no fill regardless of what the chain says.**
 
 **APPROVAL REQUIRED — Will must approve/reject before execution. $0 at risk; nothing armed.**
+
+---
+
+## 12. DEATH RECORD — 2026-08-13 ~11:45 ET (arm day 20 of 20)
+
+**DEAD (terminal). Arm expired unfired; Will ruled let-expire in session.** No revival — fresh exposure at these levels is a NEW card on BRENT's re-based positioning band (post-8/14), per the 005/007 discipline.
+
+| | 8/4 12:24 grade | 8/13 11:39 live chain | Verdict |
+|---|---|---|---|
+| USO spot | 115.96 | **126.11** (+8.8%) | the move arrived unapproved |
+| Leg (b) net debit, mid | $0.83 = 16.6% | **$1.88 = 37.6%** | 🔴 FAIL |
+| Leg (b) net debit, worst-case | $1.30 = 26.0% | **$2.90 = 58.0%** (125C ask 10.75 − 130C bid 7.85) | 🔴 FAIL |
+| Intrinsic floor | $0 (OTM) | **$1.11 = 22.2% of width** | passability dead by arithmetic while USO > ~126.65... at worst-case; at mid the time value already kills it |
+| Leg (a) daily state / (a2) live | MET / MET (13:57) | **MET / MET** (OVX 50.08 vs 58.6245) | 🟢 — death is priced-out, not vol-gated |
+
+**Counterfactual, measured both ways (not asserted):** an 8/4 fill at worst-case $1.30 (limit $1.50) marks **$1.88 at mid (+45%/+25%)** and **$0.85 exitable at the touch (negative)** today. ⛔ **Modest at mid, negative at the touch — NOT a large miss.** TERRY's in-session "~$3+" intrinsic estimate was wrong and corrected on the record (an intrinsic floor settles passability, it does not price a spread; the short 130C carries 64 DTE of time value against the long).
+
+**Why no fire on the last day:** filling required chasing the $1.50 limit to ~$1.90+ to catch a move already made — the root-rule-#6 break test's named chase ("the window is closing"). The gate performed correctly on every day it ran, including this one, where its job was to say no.
+
+**Finding routed to BRENT (2026-08-13 packet):** the card was DECISION-READY 8/4→8/13 — 9 of 20 arm days — with a measured, passing gate and no [Approve]/[Reject]. A dated arm gating on a MOMENT property (#14) needs a **DECISION-BY mechanism** distinct from its expiry: either a decision-by date or a standing [Approve in principle] stage. The expiry date alone applies pressure only on day 20, when the moment property has long since moved.

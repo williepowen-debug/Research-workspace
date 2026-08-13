@@ -226,3 +226,23 @@ Counterfactual line, fixed before the outcome: **holding beat exiting iff the 8/
 **★ AND THE THING THAT WORKED, recorded because it is invisible by design:** row 4's 8/4 guard forbade grading on the retired **7,455** band (same number now live as a Goldman CTA trigger). The easy route — *"SPX 7,723 is miles above it ⇒ row 4 TRUE"* — reaches **the same verdict by an illegitimate path.** **A guard whose only effect is to change the REASONING while the ANSWER stays put is exactly the kind nobody notices is working — and exactly the kind that matters on the day the two answers diverge.**
 
 **Evaluation CLOSED. `PB-0003` closes with it.** Final ledger: realized −$111.60 · counterfactual **exiting ≥ holding** · **P≈20% correct-side** · rows **1 ✅ · 2 ✅ · 3 ⚠️ NO-VERDICT · 4 ✅** · **the exit rule remains ungraded.**
+
+---
+
+## 2026-08-13 — TRY-BRENT-USOARM — died UNFIRED at arm expiry; the move arrived during the approval window
+
+**What died:** USO Oct-16 125C/130C ×2 @ $1.50 limit ($300 max loss), BRENT's v5.0 main convex arm. Built 8/3-8/4, gate v3 (a: OVX daily state · a2: live non-reversal · b: net debit ≤33.0% of width at fill), arm window 20 days, expired 2026-08-13. Will ruled let-expire in session. **$0 at risk from build to death.**
+
+**Thesis right/wrong:** RIGHT, on BRENT's axis — USO 115.96 → 126.11 (+8.8%) inside the arm window, through the card's own 126.50 breakeven zone. Not TERRY's grade to make beyond noting the tape.
+**Timing right/wrong:** the GATE timed it correctly — leg (a) fired 8/3, leg (b) passed at 12:24 on 8/4 (26.0% worst-case, 7.0pp inside the line). The fire-ready state existed and was measured on the record.
+**Structure right/wrong:** RIGHT. Clean on every construction axis; never retracted.
+**Sizing right/wrong:** moot — never filled. The ×2/$300 spec was two-constraint clean after BRENT's 11:48 ruling.
+**What actually killed it:** neither thesis, timing, structure, nor sizing. **The card sat DECISION-READY for 9 of its 20 arm days with no [Approve]/[Reject], and the move repriced leg (b) from 26.0% to 37.6%-at-mid/58.0%-worst-case — unpassable by intrinsic arithmetic alone (spot−125 = $1.11 = 22.2% of width).** On expiry day the correct action was refusal: filling would have required chasing a $1.50 limit to ~$1.90+ mid to catch a move already made — the exact chase the root-rule-#6 break test names.
+
+**Counterfactual, measured both ways (11:39 chain vs the 8/4 12:24 grade):** 8/4 fill at worst-case $1.30 (or the $1.50 limit) → 8/13 **mid $1.88** (+45% / +25%) but **exitable at the touch $0.85** (negative). ⛔ **A modest miss at mid and a loss at the touch — NOT the large miss it feels like. Do not cite this episode as "latency cost us a multiple."** (TERRY's own in-session estimate of "~$3+" from intrinsic reasoning was wrong and is corrected here: an intrinsic floor settles *passability* — correct use — but does not *price* a spread whose short leg still carries 64 DTE of time value.)
+
+**Rule violated:** none. **Lesson (routed to BRENT, his gate design):** a dated arm whose fire condition is a MOMENT property (RISK_RULES #14, half-life ~40 min) cannot depend on a human approval loop measured in days with only an EXPIRY date for pressure. Either a **DECISION-BY date** distinct from arm expiry, or a standing **[Approve in principle]** stage (durable finding 3) so a passing gate can fill inside its own half-life. The gate itself performed perfectly — including refusing the fill on the last day.
+
+**Tags:** `GOOD_PROCESS_BAD_OUTCOME` (and the outcome-cost is measured small; arguably good-process-fine-outcome).
+
+**Open design question, routed to the owed paper-book counter fix, NOT retro-actioned:** all v3 legs read MET at 13:57 on 8/4 — does an approval-gated arm in that state constitute a PAPER_BOOK would-fire row? Creating one retroactively today would violate the fill rule (fills at trigger timestamp); the question is whether the *next* such state auto-logs.
