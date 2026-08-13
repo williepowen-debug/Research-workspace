@@ -16,4 +16,6 @@ metadata:
 2. When planning a move, **grep `.gitignore` for the path being moved** and re-scope matching rules in the same changelist (the WAL precedent: "same semantics at the new path").
 3. `git check-ignore -v <old-path-example>` vs `<new-path-example>` proves the mechanism in seconds — verify both ways before and after.
 
+**n+1, the mirror image (REGINALD, same day 2026-08-13): the hazard is UNTRACKED-only.** The second archive move of the day (sub-agent fossils, 33 files, same operation) produced ZERO un-ignores — because those files were tracked. Tracked files are immune to ignore-rule re-scoping (ignore rules govern what git *starts* tracking, not what it already tracks); untracked files are exactly what a depth-anchored rule stops shielding. So the post-move `git status` check is mandatory either way, but the risk profile is knowable in advance: `git ls-files <dir> | wc -l` vs a `find` count tells you how much of the tree is exposed before you move it.
+
 Related: [[finding_pathspec_wildcard_ending_at_directory_matches_nothing]] (same single-segment-glob surprise in git pathspecs), [[finding_pathspec_rename_needs_both_paths]], [[finding_gitignored_private_drop_boot_surfaced]] (the discoverability half of ignored files).
