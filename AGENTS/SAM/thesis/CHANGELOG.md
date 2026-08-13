@@ -8,6 +8,20 @@ Tracks all changes to THESIS.md and TIMELINE.md. Reverse chronological. Each ent
 
 ---
 
+## 2026-08-13 — 🔧 CALIBRATION-RECORD CORRECTION + docket drift repair. **NO version change: THESIS v1.7 stands, no analytical view moved.**
+
+**Old view → new view: none.** Recorded here anyway because two of the three items corrupt the *audit trail itself*, which is what this file exists to protect.
+
+**1. 🔧 THE OPEN-PREDICTION COUNT WAS WRONG ON EVERY SURFACE — 5 OPEN, not 4.** **SAM-41 had been live and uncounted for six days.** It was registered **2026-08-07 post-closeout** (Will-directed, the v1.8 candidate's bar): it received a `PREDICTIONS.tsv` **row** but never reached a **count**. Surfaces corrected: `STATUS.md` ×2 · `PREDICTIONS.tsv` preamble · `THESIS.md` § PREDICTIONS · `NEXUS_BRIEF.md`. ⚠️ **THESIS § PREDICTIONS carried two errors at once** — it also still read scoreboard **14/12/1**, predating the 8/7 double-failure (SAM-29 + SAM-40) → corrected to **14/14/1**. **Why this matters beyond bookkeeping: a calibration record that omits an open prediction cannot be scored honestly**, and the omitted one is always the most recently registered — i.e. the least likely to be remembered and the most likely to be load-bearing. **Standing guard written into the TSV header: a prediction registered AFTER the closeout sweep is precisely the one the sweep cannot see — re-run the count from the file, never carry it forward by hand.** *(Same shape as the 8/7 near-miss where the v1.8 candidate FILE was untracked while six surfaces shipped pointers to it: the content exists, the index says it is covered, and the index is what readers trust.)*
+
+**2. ⚰️ DOCKET DRIFT REPAIRED — the Sep-18 "convexity-tail window-end retire-check" was still a LIVE GATE in both docket files.** It **cannot fire**: leg-1 fired on the 8/7 print (−45,473 / 25.3%) and retired the frame **42 days early**. STATUS has carried that correction since 8/7; **it was never propagated into `docket/CALENDAR.md` or `docket/CATALYSTS.tsv`.** Re-scoped to a **SAM-28 / SAM-39 GRADING row** — kept, not deleted, because those two predictions still resolve on that date. ⚠️ Explicit instruction added: **do NOT run the ≥80%-fuel retire test; its precondition is a live frame.**
+
+**3. 🔧 BOJ-pricing restatements DELETED rather than refreshed** (Sep-18 docket row + STATUS § CHANNELS·BOJ). The figure repriced a **third** time on 8/12 (own `workbook/BOJ_OIS.tsv`) and had already gone stale on **four** separate surfaces through 8/10. **A refreshed figure would have re-staled within days; deletion is the fix for a prose restatement of a weekly-moving number.** Live pricing now lives in the TSV and the STATUS market table only. ⚠️ Recorded for consumers: **a wire quoting "~75-80% for September" is quoting something nearer the OCTOBER cumulative** — verified 8/13 against own primary.
+
+**Session context (no re-marks):** US CPI 8/12 in line (3.4% / 2.5% core) ⇒ **route 4 unchanged, LIVE-but-UNFIRED**; JGB long end sold off to 30Y **3.989%** — ⚠️ **a ROUND-TRIP, not a fresh test of the Meiji ~4.0% floor (8/4 printed 3.990)**; the 8/7→8/12 curve shape inverted to a long-end-led bear steepener **but the full 7/31→8/12 stretch is still net flattening = pull-forward intact**, so Monday's read survives on the longer window. Buckets **~3/8/13 UNCHANGED**; amplifier + residual **OFF**; **book FLAT**.
+
+---
+
 
 
 ## 2026-08-07 (later) — 🕯️ **v1.8 CANDIDATE OPENED: "Is Pillar 1 coming back?" — NOT a version change, NOT a thesis**

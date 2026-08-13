@@ -11,3 +11,6 @@ as_of_date	meeting_date	cum_hike_pct	hold_pct	cut_pct	marginal_hike_pct	unpriced
 2026-08-10	2026-09-17	43.00	57.00	0.00	43.00	57.00	cumulative-from-today	3m-TONA-futures	centralbank.watch	1.00	ok	2026-08-10T22:47
 2026-08-10	2026-10-28	76.30	23.70	0.00	33.30	23.70	cumulative-from-today	3m-TONA-futures	centralbank.watch	1.00	ok	2026-08-10T22:47
 2026-08-10	2026-12-17	91.00	8.90	0.00	14.70	9.00	cumulative-from-today	3m-TONA-futures	centralbank.watch	1.00	ok	2026-08-10T22:47
+2026-08-12	2026-09-17	49.00	51.00	0.00	49.00	51.00	cumulative-from-today	3m-TONA-futures	centralbank.watch	1.00	ok	2026-08-13T16:20
+2026-08-12	2026-10-28	81.90	18.10	0.00	32.90	18.10	cumulative-from-today	3m-TONA-futures	centralbank.watch	1.00	ok	2026-08-13T16:20
+2026-08-12	2026-12-17	93.90	6.10	0.00	12.00	6.10	cumulative-from-today	3m-TONA-futures	centralbank.watch	1.00	ok	2026-08-13T16:20
