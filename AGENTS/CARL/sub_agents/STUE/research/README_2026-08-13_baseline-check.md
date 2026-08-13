@@ -20,3 +20,24 @@
 **Trend method:** OLS on FY2016 Q4 – FY2020 Q2 (n=15, the clean pre-COVID window), slope **+0.119M/qtr**, extrapolated 24 quarters to FY2026 Q2 ⇒ counterfactual **10.7M** vs actual **9.0M** = **−16.2%**.
 
 **Retention:** keep until the FY2026 Q3 FSA print (~Sep 2026) resolves open question #16, then re-evaluate under the >60d retirement sweep. **Do not archive before #16 grades** — these are the comparison base.
+
+---
+
+## PM ADDITION — the #17 answer (exposure adjustment)
+
+| File | Source | Pulled |
+|---|---|---|
+| `FSA_DLPortfoliobyDelinquencyStatus_pulled-2026-08-13.xls` | `…/library/DLPortfoliobyDelinquencyStatus.xls` | 2026-08-13 |
+| `FSA_DLPortfoliobyRepaymentPlan_pulled-2026-08-13.xls` | `…/library/DLPortfoliobyRepaymentPlan.xls` | 2026-08-13 (**pulled, UNEXAMINED — it is the instrument for open question #18**) |
+
+**Exposure shares** — `FSA_PortfoliobyLoanStatus…xls`, **`Federally Managed`** tab. Dollar columns are paired `($, recipients)` from col index 2: In-School · Grace · **Repayment** · Deferment · **Forbearance** · Cumulative-in-Default · Other. Share = status ÷ sum of the seven.
+- 2015–19 avg: **repayment 53.8%**, forbearance 10.0% · FY2026 Q2: **repayment 38.5%**, forbearance 29.5%.
+
+**Exposure-adjusted delinquency** — `FSA_DLPortfoliobyDelinquencyStatus…xls`, **`FedManagedPortbyDelinquencyStat`** tab. Dollar columns from index 2: Current · 31-90 · 91-180 · 181-270 · 271-360 · Transferring-to-Default.
+- **in-repayment base** = sum of all six · **90+** = last four ÷ base.
+- 2015–19 avg **7.97%** → FY2026 Q2 **10.95%** = **1.37×**.
+
+**Independent cross-check:** FSA exposure share applied to the NY Fed headline ⇒ 20.55% → 26.82% = **1.31×**.
+⚠️ **Fiscal-quarter mapping matters:** FSA FY Q1 ends Dec (prior calendar year), Q2 = Mar, Q3 = Jun, Q4 = Sep. **FY2026 Q2 = calendar 2026 Q1.** Applied, not assumed.
+
+⚠️ **Two caveats that ride with any quote of this finding:** the in-repayment base **excludes** the defaulted stock (which grew 5.2M→9.0M just before the reading, making the result *conservative*), and **selection into forbearance is uncontrolled** (open question #18 — the main threat).
