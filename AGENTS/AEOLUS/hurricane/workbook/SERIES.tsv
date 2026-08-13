@@ -1,0 +1,6 @@
+date	instrument	value	unit	source	pulled_at	notes
+2026-08-05	csu_named_storms	9	count	CSU-Klotzbach	2026-08-13	HELD from 7/8; 2nd-lowest Aug NS outlook ever
+2026-08-05	csu_hurricanes	4	count	CSU-Klotzbach	2026-08-13	
+2026-08-05	csu_major_hurricanes	1	count	CSU-Klotzbach	2026-08-13	
+2026-08-06	noaa_below_normal_prob	75	pct	NOAA-CPC	2026-08-13	CUT from 55%
+2026-08-13	nhc_atlantic_active	1	count	NHC-CurrentStorms	2026-08-13	TD Cristobal; AL92/AL94 are disturbances not storms

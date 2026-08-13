@@ -223,9 +223,51 @@ Outbox filename: `YYYY-MM-DD_to-[target]_[desc].md`. Format: Signal / Detail (2�
 | `OPEN_THREADS_2026-07-09.md` | Dated self-sweep artifact — open questions / gaps / threads-to-pull. Fold into STATUS/SCRATCH or archive once integrated. |
 | `sources/` | Research corpus, briefings, archived data. |
 
+### 🔑 THE LAYER CONTRACT *(Will-approved 2026-08-13 — design: `design/2026-08-13_subagent-architecture.md`)*
+
+**Three layers, and the flow is ONE-WAY. This is the anti-drift mechanism — STATUS never holds a number that isn't traceable down the stack.**
+
+```
+  OBSERVATIONS  →  FINDINGS  →  SYNTHESIS  →  Will / other agents
+  <domain>/workbook/  workbook/KB.tsv   STATUS.md     packets, NEXUS_BRIEF
+  sub-agent owns   │  AEOLUS adjudicates │ AEOLUS owns
+```
+
+| Layer | Holds | Lives in |
+|---|---|---|
+| **SYNTHESIS** | convergence matrix, scores, exit triad, BOTTOM LINE | **`STATUS.md`** — the *synthesized* view with key data points, **not** the primary record |
+| **FINDINGS** | sourced, dated, durable conclusions — **frequently cross-domain** | **`workbook/KB.tsv`** — central, live, **never split by domain** |
+| **OBSERVATIONS** | time series + event logs — the raw domain tracking | **`<domain>/workbook/SERIES.tsv` · `LOG.tsv`** (+ domain-specific) |
+
+⚠️ **KB.tsv is NOT split by folder, deliberately.** 11 of its rows carry multiple channel tags and the highest-value rows are the cross-domain syntheses — a folder split would fragment exactly the rows that justify having a knowledge base. **Observations are keyed by `(date, instrument)` and need no ID scheme; only findings have IDs, and those stay `KB-AEO-NN` centrally.**
+⚠️ **Domain ledgers are declared in `workbook/LEDGER_GLOB`** (`*/workbook/*.tsv`). **Without that declaration `scripts/ledger_staleness.py` silently skips them** — the LEDGERS-OUTSIDE-GLOB failure mode. **If you add a domain folder, add its glob.**
+
+### 🔑 THE SHARED-INPUT RULE *(the fix for the 8/13 misfiling — Will-caught)*
+
+**An observation lives in the folder that OWNS the instrument, never in a folder that CONSUMES it.**
+
+| Instrument | Owner | Consumers |
+|---|---|---|
+| USDM drought | **`water/`** | C2 · C4 · C5 · C6 |
+| ENSO indices | **`regime/`** | C1 · C2 · C3 · C5 · C6 |
+| Reservoirs, streamflow, river stage | **`water/`** | C6 · C5 |
+| NIFC PL / acreage | **`wildfire/`** | C4 |
+| NHC / CSU / NOAA seasonal | **`hurricane/`** | C1 |
+
+**Consumers CITE, never copy.** *(Drought originally sat under `wildfire/` because that was where I was using it — which made it invisible to its other three consumers and let one dataset produce two unreconciled reads.)*
+
+### SUB-AGENT SPAWNING *(on-demand — Will-ruled)*
+
+**Spawn a domain worker when ANY of:** a dated catalyst is in its window · its dossier is stale vs its instrument cadence · a threshold is near firing · an inbox signal routes to it · I need depth I don't have. **No trigger ⇒ no spawn, and that is correct** (`seismic/` will usually not spawn). **Record in SCRATCH which domains spawned and why**, so a quiet domain is a visible decision rather than an oversight.
+
+**Each folder's `AGENT.md` is the spawn brief.** Model: **ANVIL** (PROME's reconcile clerk) — no thesis, no decisions, no roster seat, no inbox, not routed to by WALTER.
+
+> ⛔ **WORKER HARD LIMITS (encoded in every `AGENT.md`).** A worker **never** writes outside its folder — not `STATUS.md`, `KB.tsv`, `PREDICTIONS.tsv`, or another agent's dir. **Never scores a channel, fires a trigger, or resolves a prediction.** **Never routes to another agent.** **Never substitutes a source** — a failed `SOURCES.md` command is *reported*, not worked around. **Findings are PROPOSAL-ONLY; AEOLUS adjudicates.**
+> **Why: a worker's error must cost a rejected proposal, never a corrupted ledger.** The failure to fear is a confident wrong number entering the record unadjudicated (Critical Rule #3) — which is the 8/12 tracker error with automation behind it.
+
 ### DOMAIN WORKSPACES *(created 2026-08-13, Will-directed)*
 
-Three topic folders, each with the same three files: **`README.md`** (charter — scope, channel mapping, triggers, routing), **`DOSSIER.md`** (live consolidated state), **`SOURCES.md`** (**verified working pull commands** — copy-paste, never reconstruct).
+Five topic folders. Each carries: **`README.md`** (charter — scope, mapping, triggers, routing), **`DOSSIER.md`** (live state, with a PAT-044 two-clock header), **`SOURCES.md`** (**verified working pull commands** — copy-paste, never reconstruct), **`AGENT.md`** (the spawn brief), **`workbook/`** (observations).
 
 | Folder | Channel mapping | Status |
 |---|---|---|

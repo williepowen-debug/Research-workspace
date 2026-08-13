@@ -1,0 +1,6 @@
+date	type	identifier	magnitude_or_alert	location	trigger_fired	routed_to	notes
+2026-08-10	earthquake	M7.4	7.4	5 km S of San Jose del Palmar, Colombia	NO		Choco; low insured density
+2026-07-17	earthquake	M7.3	7.3	52 km W of Puerto Madero, Mexico	NO		offshore Chiapas
+2026-07-28	earthquake	M6.8	6.8	Kumamoto Region, Japan	NO	SAM	USGS-named event; industrially dense; SAM's geography
+2026-08-13	volcano	Great Sitkin	WATCH/ORANGE	Alaska	NO		High threat, not Very High - S-5 needs BOTH legs
+2026-08-13	volcano	Kilauea	ADVISORY/YELLOW	Hawaii	NO		Very High threat but only ADVISORY

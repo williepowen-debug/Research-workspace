@@ -1,0 +1,22 @@
+date	instrument	value	unit	source	pulled_at	notes
+2026-DJF	roni	-0.91	degC	CPC-RONI.ascii	2026-08-13	Nino3.4 minus tropical-mean anom
+2026-JFM	roni	-0.76	degC	CPC-RONI.ascii	2026-08-13	Nino3.4 minus tropical-mean anom
+2026-FMA	roni	-0.44	degC	CPC-RONI.ascii	2026-08-13	Nino3.4 minus tropical-mean anom
+2026-MAM	roni	-0.04	degC	CPC-RONI.ascii	2026-08-13	Nino3.4 minus tropical-mean anom
+2026-AMJ	roni	0.49	degC	CPC-RONI.ascii	2026-08-13	Nino3.4 minus tropical-mean anom
+2026-MJJ	roni	0.98	degC	CPC-RONI.ascii	2026-08-13	Nino3.4 minus tropical-mean anom
+2026-AMJ	oni	0.95	degC	CPC-oni.ascii	2026-08-13	official level/classification; ERSSTv5 revises
+2026-MJJ	oni	1.39	degC	CPC-oni.ascii	2026-08-13	official level/classification; ERSSTv5 revises
+2026-05	nino34_monthly	0.94	degC	CPC-sstoi.indices	2026-08-13	1991-2020 baseline; col4
+2026-06	nino34_monthly	1.55	degC	CPC-sstoi.indices	2026-08-13	1991-2020 baseline; col4
+2026-07	nino34_monthly	2.03	degC	CPC-sstoi.indices	2026-08-13	1991-2020 baseline; col4
+2026-05	nino12_monthly	1.81	degC	CPC-sstoi.indices	2026-08-13	the figure misquoted as 3.4
+2026-06	nino12_monthly	2.83	degC	CPC-sstoi.indices	2026-08-13	the figure misquoted as 3.4
+2026-07	nino12_monthly	3.56	degC	CPC-sstoi.indices	2026-08-13	the figure misquoted as 3.4
+2026-07-15	nino34_weekly	2.1	degC	CPC-wksst9120.for	2026-08-13	1991-2020 baseline; col3
+2026-07-22	nino34_weekly	2.2	degC	CPC-wksst9120.for	2026-08-13	1991-2020 baseline; col3
+2026-07-29	nino34_weekly	2.3	degC	CPC-wksst9120.for	2026-08-13	1991-2020 baseline; col3
+2026-08-05	nino34_weekly	2.6	degC	CPC-wksst9120.for	2026-08-13	1991-2020 baseline; col3
+2026-08-13	verystrong_prob_ond	90	pct	CPC-ensodisc	2026-08-13	'>90%' NH fall/winter 26-27; was 81% on 7/9
+2026-08-13	historic_prob_ond	69	pct	CPC-ensodisc	2026-08-13	'+2.5C or more 3-mo RONI' exceeding all events back to 1950
+2026-08-13	oni_minus_roni	0.41	degC	derived-CPC	2026-08-13	NOT constant: 1950s -0.17 -> 2020s +0.44

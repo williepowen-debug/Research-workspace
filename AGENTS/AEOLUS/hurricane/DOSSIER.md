@@ -1,6 +1,11 @@
 # AEOLUS · HURRICANE — live dossier
 
 **As-of: 2026-08-13.** Consolidated from KB-AEO-048/055 + the C1 rows. **C1 score: 2 🟡 — escalation line NOT fired.**
+
+> **Last real data refresh: 2026-08-13**  ·  **Dossier written: 2026-08-13**
+> *Two-clock header (PAT-044) — `scripts/ledger_staleness.py` reads the first line. **The data date, not the edit date**: a hygiene edit must NOT bump it.*
+> **Observations → `hurricane/workbook/SERIES.tsv`** · findings → central `workbook/KB.tsv` · synthesis → `STATUS.md`. **Flow is one-way.**
+> **Feeds:** C1
 **We are in peak season (mid-Aug → mid-Oct).**
 
 ---

@@ -1,6 +1,11 @@
 # AEOLUS · WILDFIRE — live dossier
 
 **As-of: 2026-08-13.** Consolidated from KB-AEO-030/031/032/037/056.
+
+> **Last real data refresh: 2026-08-13**  ·  **Dossier written: 2026-08-13**
+> *Two-clock header (PAT-044) — `scripts/ledger_staleness.py` reads the first line. **The data date, not the edit date**: a hygiene edit must NOT bump it.*
+> **Observations → `wildfire/workbook/SERIES.tsv`** · findings → central `workbook/KB.tsv` · synthesis → `STATUS.md`. **Flow is one-way.**
+> **Feeds:** C4
 **C4 score: 3 🟠 ↗** — peril leg firming, insured-loss leg soft, **upgrade trigger NOT fired.**
 
 ---

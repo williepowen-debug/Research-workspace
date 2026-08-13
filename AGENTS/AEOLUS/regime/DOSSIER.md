@@ -2,6 +2,11 @@
 
 **As-of: 2026-08-13**, all figures CPC primary. Consolidated from KB-AEO-016/021/038/045/046/053/054 + VX-19/20.
 
+> **Last real data refresh: 2026-08-13**  ·  **Dossier written: 2026-08-13**
+> *Two-clock header (PAT-044) — `scripts/ledger_staleness.py` reads the first line. **The data date, not the edit date**: a hygiene edit must NOT bump it.*
+> **Observations → `regime/workbook/SERIES.tsv`** · findings → central `workbook/KB.tsv` · synthesis → `STATUS.md`. **Flow is one-way.**
+> **Feeds:** C1 · C2 · C3 · C5 · C6 (root: owns the ENSO indices)
+
 ---
 
 ## 1. STATE — four instruments, all correct, none interchangeable

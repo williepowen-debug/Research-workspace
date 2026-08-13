@@ -2,6 +2,11 @@
 
 **First read: 2026-08-13** (folder created same day). **Status: 🟡 event-triggered watch — no trigger currently fired.**
 
+> **Last real data refresh: 2026-08-13**  ·  **Dossier written: 2026-08-13**
+> *Two-clock header (PAT-044) — `scripts/ledger_staleness.py` reads the first line. **The data date, not the edit date**: a hygiene edit must NOT bump it.*
+> **Observations → `seismic/workbook/SERIES.tsv`** · findings → central `workbook/KB.tsv` · synthesis → `STATUS.md`. **Flow is one-way.**
+> **Feeds:** C1 · C2 · C3 · C4 (on trigger only)
+
 > **This dossier's normal state is "nothing to report."** Absence of recent entries is the expected condition, not neglect — see `README.md`. **Audit the triggers and sources, not the entry count.**
 
 ---

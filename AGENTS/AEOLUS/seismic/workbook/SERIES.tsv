@@ -1,0 +1,5 @@
+date	instrument	value	unit	source	pulled_at	notes
+2026-08-13	usgs_significant_30d	12	count	USGS-significant_month	2026-08-13	0 tsunamis; 2x M7+ fired NO trigger
+2026-08-13	usgs_max_mag_30d	7.4	Mw	USGS-significant_month	2026-08-13	Colombia 8/10
+2026-08-13	usgs_volcano_elevated	5	count	USGS-volcanoApi-elevated	2026-08-13	1 WATCH/ORANGE, 4 ADVISORY/YELLOW
+2026-08-13	gvp_weekly_items	23	count	GVP-WeeklyVolcanoRSS	2026-08-13	week 7/30-8/5; no stratospheric injection

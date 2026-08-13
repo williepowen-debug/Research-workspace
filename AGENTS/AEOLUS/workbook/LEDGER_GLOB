@@ -1,0 +1,11 @@
+# AEOLUS ledger declaration — read by scripts/ledger_staleness.py
+# Globs are relative to AGENTS/AEOLUS/. Whitespace-separated, '#' comments allowed.
+#
+# Central ledgers (findings + calibration — the permanent record):
+workbook/*.tsv
+#
+# Domain OBSERVATION workbooks (added 2026-08-13, Will-approved sub-agent architecture).
+# These live outside workbook/*.tsv by design — one per domain folder — so they MUST be
+# declared here or the staleness enforcer silently skips them (the LEDGERS-OUTSIDE-GLOB
+# failure mode the script warns about).
+*/workbook/*.tsv

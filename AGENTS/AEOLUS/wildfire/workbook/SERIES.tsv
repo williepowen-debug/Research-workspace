@@ -1,0 +1,7 @@
+date	instrument	value	unit	source	pulled_at	notes
+2026-08-12	nifc_preparedness_level	5	level	NIFC-NFN	2026-08-13	at PL5 since 7/18 = 26 days
+2026-08-12	nifc_acres_ytd	6447442	acres	NIFC-NFN	2026-08-13	155% of 10-yr avg
+2026-08-12	nifc_fires_ytd	46509	count	NIFC-NFN	2026-08-13	126% of 10-yr avg
+2026-08-12	nifc_acres_pct_10yr_avg	155	pct	NIFC-NFN	2026-08-13	ACREAGE - not the cat-loss RED band
+2026-08-12	nifc_large_fires_uncontained	101	count	NIFC-NFN	2026-08-13	
+2026-06-30	h1_us_insured_natcat	36	USD_bn	Aon/GallagherRe	2026-08-13	~25-28% BELOW 10-yr avg; lowest H1 since 2018
