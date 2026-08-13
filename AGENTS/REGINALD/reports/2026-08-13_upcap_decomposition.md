@@ -24,7 +24,7 @@
 | FLG | −15.2% | −17.5% | −5.0% | −4.8% | $519M | BOOK-EXPANSION |
 | ZION | −22.6% | +2.0% | +2.5% | +0.2% | $401M | BOOK-EXPANSION |
 | EGBN | −37.5% | −23.7% | −14.0% | −8.8% | $244M | BOOK-EXPANSION *(genuine decline)* |
-| OZK | −64.2% | −16.1% | −1.3% | +0.6% | $1,202M | BOOK-EXPANSION *(genuine decline)* |
+| OZK | −64.2% | −16.1% | −1.3% | +0.6% | $1,202M | BOOK-EXPANSION ⚠️ *(was: "genuine decline" — **DOWNGRADED to UNRESOLVED same day** by the adversarial verification, `2026-08-13_OZK_MI3_adversarial_verification.md`: the −64% spans a **−36% single-quarter STEP at 2025Q3** with the loans staying in item 4 — only the memo designation moved)* |
 | BKU | +193.5% | +6.3% | −0.1% | −1.6% | **$81M** | **SMALL-BASE — NOT SCORED** |
 | SSB | +35.8% | +6.9% | +7.7% | +4.4% | **$55M** | **SMALL-BASE — NOT SCORED** |
 | SBCF | — | +20.5% | +24.0% | +33.9% | $0 | N-A-ZERO-BASE |
@@ -69,7 +69,7 @@ What is *not* marginal about MTB: it holds the **largest absolute MI3 book in th
 | This morning's *"5 of 8 grew MI3 faster than their loan book"* | **STANDS as arithmetic, DISSOLVES as evidence.** Two of the five are small-base; two more are whole-book expansion (HBAN, CUBI); WAL is +3pp. The pattern was real and it was not what it looked like. |
 | "The hidden-CRE screen has emptied out" (8/13 AM) | **UNCHANGED and now better supported** — the ratio fell *and* the dollar behaviour underneath it is benign. |
 | **Bucket-migration MECHANISM (the original discovery)** | **UNCHANGED — and note it was never tested here.** This decomposition tests *cross-sectional YoY co-movement*, not the item-4 → item-9.a migration that the mechanism names. **Do not read "no relabel signature" as "no bucket migration."** Different instrument, different question. |
-| OZK / EGBN | **De-risking CONFIRMED on a second axis:** their MI3 *and* secured CRE books are both shrinking (OZK −64.2% / −16.1%; EGBN −37.5% / −23.7%). Not migration — contraction. |
+| OZK / EGBN | ⚠️ **AMENDED 2026-08-13 (adversarial verification, same day).** Superseded text read *"De-risking CONFIRMED on a second axis"*. **For OZK that is DOWNGRADED to UNRESOLVED:** the MI3 fall is not a smooth runoff — it is a **−36% single-quarter step at 2025Q3** in the same quarter C&I rose $540M, its largest jump ever, on a **flat total book**. Charge-offs ($42.4M), repayment, reclassification-to-secured and item-9 migration are **all refuted**; what is left is that the loans never moved and only the CRE-purpose memo designation did. **A bank whose C&I book doubles while its memo-3 disclosure falls 64% is disclosing LESS about a LARGER book — that is not, on its face, de-risking.** ⚠️ **My own QUARTERS grid skips 2025Q3 and could not see the step.** **EGBN's de-risking grade is UNAFFECTED** — it rests on the 7/25 Q2 primary read (coverage, CRE concentration 295→268%, CET1 +78bps), not on this axis. Original observation, still true as reported values: their MI3 *and* secured CRE books are both shrinking (OZK −64.2% / −16.1%; EGBN −37.5% / −23.7%). Not migration — contraction. |
 | Cohort re-cut (due before the 11/07 run) | **The case for re-cutting is now WEAKER.** It rested on the dollars pooling at the clean benchmarks; the pooling is explained by those banks getting bigger. **My recommendation: keep the cohort as-is and revisit only if 2026Q3 reproduces MTB's mix-shift.** Ruling still Will's/PROME's. |
 
 ## 5. LIMITS — the ones declared in advance, restated because the verdict is negative
