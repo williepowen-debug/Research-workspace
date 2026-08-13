@@ -46,7 +46,35 @@ import sys
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 AGENT_DIR = os.path.dirname(HERE)
+REPO_ROOT = os.path.dirname(os.path.dirname(AGENT_DIR))
 SERIES = os.path.join(AGENT_DIR, "workbook", "S2_SERIES.tsv")
+
+
+def _reexec_under_venv() -> None:
+    """Re-exec under the repo venv if this interpreter lacks yfinance.
+
+    ⚠️ 2026-08-13: the equity cross-section — the ENTIRE leading-indicator leg,
+    and the evidence S2's score-3 rests on — silently degraded to 8x
+    `ERR:yfinance-missing` because yfinance lives ONLY in `.venv/`, while this
+    file's own USAGE block, boot.py's printed recipe and CLAUDE.md all said bare
+    `python3`. The instrument failed loud (as designed) and the RECIPE was wrong,
+    so a correct-looking run wrote a row with no equity leg in it. Fixing the
+    three doc strings is not enough — the next reader invokes it from memory or
+    from a spawn packet. Make the tool itself immune to how it is called.
+    """
+    try:
+        import yfinance  # noqa: F401
+        return
+    except ImportError:
+        pass
+    venv_py = os.path.join(REPO_ROOT, ".venv", "bin", "python")
+    if os.environ.get("VULCAN_SEMI_WATCH_REEXEC") or not os.path.exists(venv_py):
+        return  # already retried, or no venv — fall through and ERR loudly
+    os.environ["VULCAN_SEMI_WATCH_REEXEC"] = "1"
+    os.execv(venv_py, [venv_py, os.path.abspath(__file__)] + sys.argv[1:])
+
+
+_reexec_under_venv()
 
 SPOT_URL = "https://www.trendforce.com/price/dram/dram_spot"
 
