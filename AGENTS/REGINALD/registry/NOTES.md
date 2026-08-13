@@ -70,3 +70,79 @@ Different questions of the same series ⇒ different levels are correct, not a c
 **Exit conditions are NEW SPEC, pre-registered here, and are deliberately conservative.** Construction rule, applied uniformly: exit requires the metric back on the benign side **by a stated margin** (5% hysteresis on the two price rows; 20bp on HY; a proportionate step on the rest) sustained for a window **≥ the entry window**, graded on the **same instrument** as entry. This is asymmetric by design — harder to un-fire than to fire — because a fired row escalates other agents and an oscillating gate would thrash the whole chain. **These are not levels moved: no entry threshold changed, and before this edit the exit was not "something else," it was *nothing*.** They are gradeable and executable inside the window their instruments quote (`finding_executability_is_a_separate_audit_axis`). If any owner on a recipient chain thinks an exit is mis-set, argue it before it fires, not after.
 
 **Not registered, deliberately.** MI3 / hidden-CRE has **no row in this registry** and I did not add one on the day I re-ran the screen. The cohort re-run (`reports/2026-08-13_MI3_cohort_rerun.md`) found the legacy `>20%` flag catches one name on the legacy basis and **zero on the uniform basis** — so a new MI3 trigger would need its base rate and separation established first, and *"don't build it"* is a real answer (`finding_base_rate_the_threshold_before_building_it`). Recorded as a candidate on ROADMAP, not as a gate.
+
+---
+
+# MI3 HIDDEN-CRE SCREEN — HARDENING + FLAG DISPOSITION (2026-08-13, PROME follow-up, Will-directed)
+
+**Why this section is in the registry file:** the 8/13 re-run was correct partly because the operator hand-caught the traps *in flight*. That is not a control. This records what moved out of session memory and into the instrument, plus the two judgment calls that are mine and not the script's. **Instrument:** `scripts/mi3_cohort_screen.py` (runbook now lives in its header — cohort definition + rationale, quarters convention, credentials, cadence, and the five traps). **Falsifier:** `scripts/mi3_guard_selftest.py`.
+
+## What is now enforced by the tool rather than remembered
+
+| Guard | Catches | Behaviour |
+|---|---|---|
+| `coverage_guard` | a bank-quarter silently dropped from the run | **exit 2, nothing written** |
+| `schema_guard` | a blank/None in a scored cell — the class that would render a 031-filer's unresolved `RCON1766` as an implied **zero**, i.e. *"six banks have no hidden CRE"* | **exit 2, nothing written** |
+| `repro_guard` | **the 37.6% class** — a previously published bank-quarter that no longer reproduces against the prior **committed** vintage (read from `git show HEAD:`, never the working tree) | **exit 2**, unless the restatement is DECLARED via `--accept-restatement "<why + source>"`, which records it on the row and in the summary |
+
+Real FFIEC amendments happen, so restatement is *allowed* — but it can never be *silent*. **The defect that poisoned the OZK cell for months was found by archaeology; it is now found by the machine on the next run.**
+
+**Fail-loud, never fail-partial.** Output is written to `.tmp` + `os.replace` only after all three guards pass, so a tripped guard leaves the previous good vintage in place rather than a half-written one.
+
+**State vocabulary (8/12 convention).** `status` ∈ {OK, OK-V1-ONLY | NOT-REPORTED, DENOM-MISSING, PULL-FAILED}; scored statuses must carry every required cell, unscored statuses must carry **none**. `mi3_zero_class` ∈ {REPORTED-ZERO, NONZERO, UNKNOWN} — SBCF and AMTB file a **reported 0**, which is data, not a gap. A YoY off a zero base is recorded `N-A-ZERO-BASE`: **a third state, not a missing number.**
+
+**Standard output is dual-basis AND absolute dollars, by construction.** `MI3_COHORT.tsv` carries `v1_pct`, `v1a_pct`, `item9_share_of_base_pct`, `mi3_k` and `mi3_yoy_pct` on every row; the script also generates `workbook/MI3_COHORT_SUMMARY.md`, which ranks the cohort **three ways** (v1 · v1a · dollar level) and auto-emits a warning whenever the two bases disagree on the top name or the largest absolute book is not the top ratio. **The up-cap migration is visible in default output — an analyst cannot fail to compute it, because nobody computes it.**
+
+> ## ★ BASIS-NAMING RULE (binding on every claim sourced from this screen)
+> **No cross-bank statement without its basis named.** `v1a` (÷ item 4 + item 9) governs **all** cross-bank claims. `v1` (÷ item 4) is retained **only** for continuity against v1-vintage records and is **not cross-bank comparable**. And **never quote a ratio without its dollars.**
+
+**Guards are falsified, not assumed.** `mi3_guard_selftest.py` asserts each guard trips on the exact defect it exists to catch (8 cases: 5 trip, 1 declared-restatement passes, 1 no-false-positive on the live output). **8/8 at 2026-08-13.** A guard nobody has watched fail is an assumption. Re-run it whenever the script changes.
+
+## ★ RULING 1 (mine, owner-lane) — the legacy `>20%` v1 flag is **RETIRED as a cross-bank screen**
+
+**Status: RETIRED 2026-08-13, not re-scoped and not silently kept.** Two independent reasons, either sufficient:
+
+1. **Its basis is non-comparable.** The flag reads `v1`, and the item-9 share of the base ran **5.5% → 65.8%** across the cohort at 2026Q2. The flag therefore ranks banks partly by their funding/bucket mix. It is the defect, not a victim of it.
+2. **It no longer discriminates.** At 2026Q2 it catches **one** name (WAL 21.20%, falling), and on the uniform basis it catches **none** (cohort max EGBN 10.77%).
+
+**What "retired" means concretely:** no surface may cite a `>20%` MI3 hit as a signal; `v1_pct` stays in the TSV as a continuity column only. **No level was moved** — this flag was never in `THRESHOLDS.tsv`; it lived inside the screen's own recipe, which is why it outlived its own validity without a publisher (`finding_retired_threshold_has_no_publisher`). It is now retired **in writing, with a date and a reason**, where a reader travelling against the link will find it.
+
+## ★ RULING 2 (mine) — **no successor threshold is registered. Spec + base rate only; the numbers go to Will, not the registry.**
+
+Base rate over the 56 scored bank-quarters (2025Q2 · 2025Q4 · 2026Q1 · 2026Q2):
+
+| `v1a` cut | Fires | Rate | Banks that ever clear it |
+|---|---:|---:|---|
+| >5% | 22/56 | 39.3% | CFG · CUBI · EGBN · MTB · OZK · VLY · WAL |
+| >7.5% | 14/56 | 25.0% | EGBN · MTB · OZK · WAL |
+| >10% | 9/56 | 16.1% | EGBN · MTB · OZK · WAL |
+| >12% | 4/56 | 7.1% | EGBN · OZK |
+| >15% | 4/56 | 7.1% | EGBN · OZK |
+| >20% | 2/56 | 3.6% | EGBN · OZK |
+| >25% | 0/56 | **0.0%** | — |
+
+Distribution: min 0.00 · p25 1.70 · median 4.34 · p75 8.99 · p90 10.77 · max 23.46.
+
+**⚠️ And the reason I am NOT proposing a level off that table — it is the more important finding:**
+
+| Per-bank `v1a` spread across the 4 quarters | |
+|---|---|
+| **EGBN 10.77 → 23.46 = 12.69pp · OZK 5.46 → 21.83 = 16.37pp** | the two widest |
+| Every other bank | **≤ 2.15pp** (WAL 1.31 · MTB 0.88 · CUBI 1.10 · VLY 0.62 · CFG 1.01 · FLG 1.65 · BKU 2.15 · HBAN 1.05 · ZION 0.84 · SSB 0.16 · SBCF/AMTB 0.00) |
+
+**Any cross-sectional level between ~12% and ~20% fires on exactly two banks' own quarter-to-quarter volatility and on nothing else.** That is not a screen, it is a re-description of EGBN and OZK — and it would have been very easy to publish as one, because the base-rate table alone looks respectable at those cuts.
+
+**`n=56` is also not 56 independent observations.** Twelve of fourteen banks move less than 2.2pp across a full year, so the series are strongly autocorrelated and the **effective n is nearer 14** — well short of what a level calibration needs (`finding_base_rate_the_instrument_before_its_event_table`, `finding_cohort_too_small_to_move_the_index`).
+
+**Recommendation of record — "don't build it" is the answer, for now:**
+- **Do NOT register a `v1a` level trigger.** ≥25% has fired 0/56 (jointly unsatisfiable on this record); 12–20% is two-bank noise; ≤10% fires a sixth of the time on names nobody calls stressed.
+- **The promising successor is a WITHIN-BANK CHANGE instrument, not a level** — e.g. a sustained multi-quarter rise in a bank's own `v1a`, which is what the *original* discovery (classification migration) was actually about. **Data requirement before it can be spec'd: ≥12 quarters** so a change threshold can be base-rated against its own history. The pull is cheap and cached; the quarters are not yet there.
+- **Any level, when it comes, goes to Will as a numbers proposal with its base rate and separation attached — never straight into `THRESHOLDS.tsv`.**
+
+## ⚠️ OPEN QUESTION — carried, not solved: does the up-cap finding change the COHORT?
+
+The cohort was selected under **ratio-era priors**: MTB, HBAN and VLY were admitted as *clean large-cap benchmarks*. The 2026Q2 run then found **MTB holding the largest absolute MI3 book in the cohort ($4.95B, ~2× WAL's) and HBAN's dollars up 100% YoY** — i.e. the names admitted as the control group are where the dollars went.
+
+**If the screen's question is "which bank is most concentrated," the current cohort is fine. If it is "where is hidden CRE pooling," the selection rule is measuring the wrong population** and a size-ranked or dollar-ranked frame is the right one (`finding_ranked_head_sample_is_not_the_population` — a cohort chosen by the ranked head of one metric cannot answer a question about a different metric).
+
+**Deliberately not closed this session**, because re-cutting the cohort mid-instrument would silently change what every prior figure means. **Read-path so it cannot rot:** carried on ROADMAP as a dated thread and named in the script header beside `COHORT` (*"do not silently grow the list"*), so the next runner meets the question at the point of temptation. **Decide it before the 2026Q3 run**, so any change lands on a quarter boundary with both cohorts reported once.

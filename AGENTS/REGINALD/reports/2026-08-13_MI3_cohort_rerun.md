@@ -105,4 +105,32 @@ Ranked by v1, Q2-2026. All figures $K→$M, source FFIEC CDR Call Report, pulled
 
 **Owed next (not done here):** a per-bank item-4 → item-9.a migration series (the mechanism instrument, §5 row 4), and whether MTB's $4.95B absolute book warrants a Matrix row. Both → ROADMAP.
 
+---
+
+## 6. ADDENDUM 2026-08-13 (2nd pass) — THE SCREEN IS NOW HARDENED, AND THE LEGACY FLAG IS RETIRED
+
+*Added after PROME/Will's follow-up: the numbers above were right partly because the traps were caught by hand, in flight. That is not a control. Full record → `registry/NOTES.md` § "MI3 HIDDEN-CRE SCREEN — HARDENING + FLAG DISPOSITION".*
+
+**Three fail-loud guards, and output is written only after all three pass** (`.tmp` + `os.replace`, so a trip leaves the previous good vintage rather than a half-written one):
+
+| Guard | Catches | On failure |
+|---|---|---|
+| `coverage_guard` | a bank-quarter silently dropped | exit 2, **nothing written** |
+| `schema_guard` | a blank in a scored cell — the class that renders an unresolved 031-filer as an implied **zero** (§0's fabricated clean result) | exit 2, **nothing written** |
+| `repro_guard` | **the §1 defect class** — a published bank-quarter that stops reproducing vs the prior **committed** vintage | exit 2 unless DECLARED via `--accept-restatement "<why + source>"` |
+
+**★ The §1 finding is now enforced rather than remembered: the next run cross-checks every overlapping cell and refuses to publish a silent restatement.** On this run **56/56 reproduced** — an independent second confirmation of every figure in §2. Real FFIEC amendments are still allowed through; they just cannot be silent.
+
+**Standard output is now dual-basis AND dollars by construction.** Every row carries `v1_pct`, `v1a_pct`, `item9_share_of_base_pct`, `mi3_k`, `mi3_yoy_pct`; the script generates `workbook/MI3_COHORT_SUMMARY.md`, which ranks the cohort **three ways** (v1 · v1a · dollar level) and **auto-warns** when the bases disagree on the top name or when the largest absolute book is not the top ratio. §3 and §4.3 can no longer be missed by an analyst who simply didn't think to compute them.
+
+**Guards are falsified, not assumed:** `scripts/mi3_guard_selftest.py` asserts each guard trips on the exact defect it exists for, that a declared restatement still passes, and that the live output yields no false positive — **8/8 at 2026-08-13.**
+
+**★ RULING — the legacy `>20%` flag is RETIRED as a cross-bank screen** (owner-lane, dated, with reasons in `registry/NOTES.md`): its basis is non-comparable (it *is* the §3 defect) and it no longer discriminates (§4.1). It was never in `THRESHOLDS.tsv` — it lived inside the recipe, which is exactly how it outlived its validity with no publisher to announce it.
+
+**★ RULING — no successor threshold registered, and the base rate is the reason.** Over the 56 scored bank-quarters, `v1a` >25% fires **0/56**; >20% 3.6%; >12% 7.1%; >10% 16.1%. But **EGBN's own 4-quarter spread is 12.69pp and OZK's is 16.37pp, while every other bank moves ≤2.15pp** — so **any cross-sectional level between ~12% and ~20% fires on two banks' own volatility and nothing else.** And n=56 is not 56 independent observations (12 of 14 banks move <2.2pp across a full year ⇒ effective n ≈ 14). **The promising successor is a within-bank CHANGE instrument, not a level — which is what the original classification-migration discovery was actually about — and it needs ≥12 quarters before it can be base-rated.** Any level, when it comes, goes to Will as a numbers proposal with its base rate attached, never straight into the registry.
+
+**Cadence registered:** quarterly, ~45d after quarter-end; **2026Q3 run due 2026-11-07**, on CALENDAR — which is also where the read-path lives, so a lapsed window is visible rather than excavated. ⚠️ **The JWT expires 2026-11-05, two days before that run** (Will action).
+
+⚠️ **Open question carried, not closed:** the cohort was selected under ratio-era priors, and the run found the dollars pooling at the names admitted as *clean benchmarks*. **Decide before the Q3 run**, so any re-cut lands on a quarter boundary with both cohorts reported once — re-cutting mid-instrument would silently change what every figure above means.
+
 *— REGINALD, 2026-08-13. All figures FFIEC CDR Call Report, `RetrieveFacsimile`/SDF, pulled 2026-08-13; JWT expires 2026-11-05.*
