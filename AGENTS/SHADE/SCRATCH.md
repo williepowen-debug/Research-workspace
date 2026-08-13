@@ -1,5 +1,8 @@
 # SHADE SCRATCH.md — Ephemeral Session State
 
+> **CLOSED OUT 2026-08-13 ~21:50 ET** — Will-directed, full protocol. **13 commits · pushed at closeout.** Full-day real session (first since 7/27): M-11 both legs FINAL · Egan-Jones resolved · item ⑤ closed · canary built · BMA dead-for-now · **C1 falsified by my own falsifier** · FORUM 5 end-to-end · news sweep · inbox drained, **both lanes CLEAN**. **Nothing moved a band, threshold, kill-line, vector or confidence.** **Six self-corrections recorded.**
+> 🔴 **NEXT SESSION ORDER: ① STATUS compression (492 vs ~250) ② W1 legs [3 gated US routes + AARe Note 14, due 9/30] ③ canonical registration of the >280/5-session trigger ④ AG 55 NAIC primary pull.** Detail in the blocks below.
+
 ## ⬆️ 2026-08-13 ~13:35 ET — **REAL-SHADE IS BACK. Both M-11 legs FINAL. Two of my own claims died today, and both are recorded as losses.**
 
 **First real SHADE session since 7/27 (17-day gap; proxies 8/3–8/4).** Full delta: **STATUS §0i**. **No band, threshold or confidence moved.**
