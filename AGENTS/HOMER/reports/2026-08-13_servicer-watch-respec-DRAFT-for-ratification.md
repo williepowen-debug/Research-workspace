@@ -1,6 +1,11 @@
-# Nonbank Servicer Credit Watch — RE-SPEC **DRAFT**, pre-registered, awaiting Will's ratification
+# Nonbank Servicer Credit Watch — RE-SPEC ✅ **RATIFIED AND LIVE** (was: draft awaiting ratification)
 
-**Status:** ⛔ **DRAFT — NOT LIVE.** The superseded spec governs until Will rules.
+> ✅ **STATUS AS OF 2026-08-13: RATIFIED BY WILL AND ENCODED. THIS IS NO LONGER A DRAFT.**
+> **Classes E, F, G and Z are LIVE** in `docket/CATALYSTS.tsv` row 11. The row is **🔴 by a labelled SEEDING decision, not a trigger firing.**
+> **Read the RATIFICATION RECORD at the foot of this file before citing anything above it** — §3 was ratified as written, and **§4's Class Z, which the body below says is "NOT encoded," WAS subsequently ratified.**
+> ⚠️ **The body text below is preserved verbatim as the pre-ratification draft** (per the preserve-superseded-text rider) — **it is a record of what was proposed, not a statement of what is live.** The filename likewise keeps its `-DRAFT-` slug so existing citations resolve; the slug is historical, the status is not.
+
+**Superseded status line, verbatim:** *"⛔ **DRAFT — NOT LIVE.** The superseded spec governs until Will rules."*
 **Authority:** Will, 2026-08-12, rule batch row 45, relayed via PROME (`PROME/proposals/2026-08-12_rule-batch-RULED.md`). ⚠️ That was a **batch approval off PROME recommendations** — Will's authority, **not** his individual attention on this row. Ratification of the text below is a separate act.
 **Drafted:** 2026-08-13 by HOMER · **Live surface it would amend:** `docket/CATALYSTS.tsv` row 11
 **Riders honored:** dated re-spec · superseded text preserved verbatim · **no threshold moved in this edit** · own surface only · zero capital.
