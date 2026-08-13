@@ -139,8 +139,38 @@ curl -s "https://www.pegelonline.wsv.de/webservices/rest-api/v2/stations/KAUB/WV
 ### Mississippi / Ohio
 USACE Rivergages + NWS AHPS + USGS NWIS (§3). ⚠️ **Autumn (Sep–Nov) is the window** — an August "normal" is not evidence of a benign season. I retracted a "firing" read on 7/22 for exactly this.
 
-### Panama
-ACP advisories — `https://pancanal.com`. ⚠️ **AEO-04 resolves on a binding transit/draft RESTRICTION, not a scheduled draft step-down.**
+### 🔴 Panama — INSTRUMENT GAP CLOSED 2026-08-13
+
+**The instrument is the ACP *Monthly Canal Operations Summary*, published as a numbered Advisory to Shipping.** It carries **oceangoing transits, daily average** — exactly the quantity my threshold bands use.
+
+**✅ Verified 2026-08-13:**
+```bash
+curl -sL -A "Mozilla/5.0 (research)" \
+ "https://pancanal.com/wp-content/uploads/2026/04/ADV-14-2026-Monthly-Canal-Operations-Summary-April-2026-.pdf" -o adv.pdf
+python3 -c "from pdfminer.high_level import extract_text; print(' '.join(extract_text('adv.pdf').split()))"
+```
+**Returns (April 2026 data, advisory dated 2026-05-08):**
+
+| | Daily Average | High | Low | Total |
+|---|---:|---:|---:|---:|
+| **Oceangoing transits** | **38.70** | 42 | 31 | 1,161 |
+| Arrivals | 40.5 | 54 | 29 | — |
+
+By class: 6.37 (<91′ beam) · 22.07 (91-107′) · 10.27 (Neopanamax). Booking slots 317 available / 273 used (86.12%).
+
+⚠️ **Read TRANSITS (38.70), not ARRIVALS (40.5).** They sit adjacent in the same block and my threshold is on transits.
+✅ **This also anchors the "~36 normal" in my threshold table, which had no provenance.** April 2026 actual = **38.70/day**.
+
+#### 🔴 DO NOT SCRAPE THE ADVISORIES INDEX — it is silently stale
+
+`https://pancanal.com/en/advisories-to-shipping/` is **JS-rendered**. **Both `curl` and `WebFetch` return a server-rendered fragment ending at `A-46-2024`** — while `A-14-2026` demonstrably exists at HTTP 200. **The list renders as complete, so its incompleteness is invisible.**
+
+⚠️ **Two fetch tools agreeing is NOT corroboration here** — they share the same blind spot (neither executes JS). **An absence claim from that index is a claim about the index, not about ACP.** *(This produced a wrong published finding on 2026-08-13 — see L-24, KB-067.)*
+
+**Retrieval that works:** direct PDF URL, or a web search for `"Monthly Canal Operations Summary" pancanal <month> 2026`. **Filenames are NOT predictable** — the advisory number does not increment monthly and the trailing-dash convention varies, so brute-forcing the filename fails. **Discover, then fetch.**
+
+#### AEO-04 resolution — spec tightened
+**AEO-04 resolves on a binding transit/draft RESTRICTION, not a scheduled draft step-down.** Two places a restriction would appear: **(a)** its own numbered Advisory to Shipping, **(b)** the monthly summary's transit figures falling into my bands (**≤32 Yellow · ≤27 Orange · ≤22 Red**, vs the now-anchored ~38.7 baseline). **Check (b) monthly — it is retrievable; (a) needs discovery because the index cannot be trusted.**
 
 ---
 

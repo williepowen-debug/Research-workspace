@@ -132,7 +132,7 @@ Durable banded rules live here; the live read lives in STATUS with `[src M/D]` +
 | CDD/HDD vs 10-yr normal (region) | ±10% | ±20% | ±30% sustained | C3 → WATT (power) / BRENT (nat-gas) |
 | Property insurance non-renewal rate (peril region) | +10% YoY | +25% | +40% / carrier exit | C4 → CORAL/REGINALD/CREED |
 | Reinsurer cat-loss tally (Gallagher Re/Munich Re, YTD vs 10-yr avg) | ≥110% | ≥130% | ≥150% | C4 → REGINALD/CREED |
-| Panama Canal daily transits (vs ~36 normal) | ≤32 | ≤27 | ≤22 (draft-restricted) | C5 → CARL/MARCO |
+| Panama Canal daily transits — **oceangoing transits, daily average** *(baseline ANCHORED 8/13: **38.70/day**, ACP Monthly Canal Operations Summary A-14-2026, April 2026 data; previously an unsourced "~36")* | ≤32 | ≤27 | ≤22 (draft-restricted) | C5 → CARL/MARCO |
 | Rhine/Mississippi level vs navigable minimum | within 20% | within 10% | below minimum | C5 → CARL/HENRY |
 | **C6 — BINDING** Lake **Mead** elevation vs **Hoover 1,035 ft** (economic threshold) | within 15 ft | within 10 ft | **at/below 1,035 ft** | C6 → WATT/CARL/MARCO |
 | **C6** Lake **Powell** elevation vs min power pool 3,490 ft / all-time low 3,519.92 ft | within 15 ft | within 5 ft | at/through min power pool | C6 → WATT/CARL/MARCO |
