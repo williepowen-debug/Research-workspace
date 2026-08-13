@@ -1,7 +1,21 @@
-# BRENT THESIS — v5.5
+# BRENT THESIS — v5.6
 
 **Version:** 5.5
-**Last Updated:** 2026-08-12 (Wed — v5.5 **minor: v5.4 NOW HAS A PRICE SHADOW, AND IT IS NOT MADE OF PORTWATCH**). Prior: 2026-08-04 (Tue — v5.4 **minor: A DEAL IS NOT A REOPENING. THROUGHPUT IS THE TEST, NOT SIGNATURE**); 2026-08-02 (v5.3 minor, CAPACITY-IRREVERSIBLE ≠ PRICE-IRREVERSIBLE); 2026-07-30 (v5.2 minor, the discriminator is MOLECULE-SCOPED); 2026-07-21 (v5.1 minor, Phase-1 re-squeeze REALIZED); 2026-07-06 (calibration note, no bump); 2026-06-29 (v5.0 **MAJOR: asymmetry flipped to upside-convex**).
+**Last Updated:** 2026-08-13 (Thu — v5.6 **minor: THE BYPASS WORKS, SO A TRANSIT COUNT IS NOT A BARREL COUNT**). Prior: 2026-08-12 (Wed — v5.5 **minor: v5.4 NOW HAS A PRICE SHADOW, AND IT IS NOT MADE OF PORTWATCH**). Prior: 2026-08-04 (Tue — v5.4 **minor: A DEAL IS NOT A REOPENING. THROUGHPUT IS THE TEST, NOT SIGNATURE**); 2026-08-02 (v5.3 minor, CAPACITY-IRREVERSIBLE ≠ PRICE-IRREVERSIBLE); 2026-07-30 (v5.2 minor, the discriminator is MOLECULE-SCOPED); 2026-07-21 (v5.1 minor, Phase-1 re-squeeze REALIZED); 2026-07-06 (calibration note, no bump); 2026-06-29 (v5.0 **MAJOR: asymmetry flipped to upside-convex**).
+
+> # ⚑ **2026-08-13 — v5.6 (minor): THE HORMUZ BYPASS IS OPERATING, SO A TRANSIT COUNT IS NOT A BARREL COUNT.**
+>
+> **What changed — INTERPRETIVE, and it CUTS AGAINST MY OWN BOOK. v5.4's claim survives; how its adjudicator must be READ does not.**
+> **v5.4 promoted the transit test to *THE* adjudicator.** Today's re-verification of `RF-012` (I-2 queue) found the **ADCOP Habshan–Fujairah pipeline — the UAE's primary Hormuz bypass, 1.5M bpd — is OPERATING**, not offline as my ledger had asserted for 118 days. UAE crude+condensate ran **~3.7 mb/d in June 2026** with Abu Dhabi loadings **~4.0 mb/d Jun 1-29**, and the source names ADCOP itself as the enabling route *"reducing reliance on the Strait of Hormuz"* [Gulf News 2026-07-02, citing Kpler/Vortexa/Bloomberg]. **You cannot load ~4 mb/d out of Abu Dhabi with the 1.5M bypass down AND the strait impaired.**
+>
+> ⇒ **`BARRELS THROUGH THE STRAIT` ≠ `BARRELS LOST TO THE MARKET`.** A low PortWatch transit count is consistent with **barrels rerouting overland**, not only with barrels disappearing. **The transit leg therefore measures ACCESS COST AND ROUTING, not net supply loss** — and every prior reading of mine that treated a low count as a supply-loss proxy was reading it too strongly.
+>
+> **What this DOES kill:** the **supply-loss** interpretation of the throughput leg. ⛔ Do not cite a low transit count as evidence of barrels removed from the market.
+> **What this does NOT touch, and it is the leg v5.4 actually rests on:** the **PREMIUM / TOLLED-CORRIDOR** frame. *"A deal is not a reopening; the test is throughput, not signature"* was always a claim about **whether access is normalised**, not about destroyed capacity — and a corridor that forces 1.5M bpd overland **is** a tolled corridor. **v5.3's CAPACITY-IRREVERSIBLE ≠ PRICE-IRREVERSIBLE distinction anticipated exactly this.** ✅ **The prompt premium (v5.5) is unaffected and is now the better-behaved leg**: it is priced by cargo buyers and does not care which route the barrel took.
+>
+> ⚠️ **`KILL-LEG2-TRANSIT` IS NOT RE-SPECIFIED AND ITS LETTER IS UNTOUCHED.** transits >35/day ×2 consecutive still falsifies. **A bypass makes the test CONSERVATIVE, not wrong** — reopening still shows up as transits returning. **No threshold moved. Re-levelling it would be a NEW registration with base rates, not a maintenance edit.**
+>
+> **⇒ HONEST NET: this is thesis-WEAKENING on the supply leg and thesis-NEUTRAL on the premium leg, and I am recording it in that direction rather than the flattering one.** The finding came from re-verifying my own stalest large row and it made my case smaller. `[[finding_asymmetric_rigor_counterparty_claims]]` — **verify the number that makes you RETRACT.**
 
 > # ⚑ **2026-08-12 — v5.5 (minor): v5.4 NOW HAS A PRICE SHADOW, AND IT IS NOT MADE OF PORTWATCH.**
 >

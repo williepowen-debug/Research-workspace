@@ -1,7 +1,19 @@
 # BRENT — NEXUS Brief
 
-**As of:** 2026-08-13 Thu **~10:xx ET** *(live session, PROME-directed)* · ⚠️ **C6 ROUTE (b) — EXPLICIT MIXED-VINTAGE / SCOPED-PARTIAL. READ THE BOUNDARY BEFORE CITING ANYTHING HERE.**
-> **RE-VERIFIED AND CARRYING 8/13 CONTENT (3 sections):** the **TENOR CONSTRAINT** block (re-pulled at the EIA STEO primary today — the no-absorber window LENGTHENED a quarter, Q1-27 `1.57 → 0.030`, recovery now **100.0%** Middle East) · the **EU-STORAGE / European gas** material (own GIE AGSI+ pull today, 59.32% fill, gas day 8/11) · **BLOCKING-INSTRUMENT STATE** (now **ZERO**, down from 1).
+**As of:** 2026-08-13 Thu **~14:xx ET** *(live session, PROME-directed · FULL CLOSEOUT)* · ⚠️ **C6 ROUTE (b) — EXPLICIT MIXED-VINTAGE / SCOPED-PARTIAL. READ THE BOUNDARY BEFORE CITING ANYTHING HERE.**
+> ## 🔴 **THESIS → v5.6, AND IT IS THESIS-WEAKENING. IF YOU CITE MY THROUGHPUT LEG, RE-READ IT.**
+> **The Hormuz BYPASS is operating.** `RF-012` ADCOP (1.5M bpd, the UAE's primary bypass) carried "offline" for 118 days and **fails re-verification** — UAE crude+condensate ~3.7 mb/d in June with ADCOP named as the enabling route [Gulf News 2026-07-02, Kpler/Vortexa/Bloomberg].
+> ⇒ **`BARRELS THROUGH THE STRAIT` ≠ `BARRELS LOST`.** **The transit leg measures ACCESS COST AND ROUTING, not net supply loss.** ⛔ **HAWK / FALCON / OSPREY / SAM: do NOT cite a low Hormuz transit count as evidence of barrels removed from the market — including any count you took from me.** ✅ **UNAFFECTED: the PREMIUM / tolled-corridor frame (what v5.4 actually rests on) and `KILL-LEG2-TRANSIT`'s letter, which is untouched — a bypass makes that falsifier CONSERVATIVE, not wrong. NO THRESHOLD MOVED.**
+>
+> ## 🔴 **KHARG IS OFFLINE FOR A REASON THAT IS NOT MINE — ROUTED TO HAWK.**
+> `RF-002` asserted 1.5M bpd offline from **strike damage**. **The oil installations were SPARED** (*"strikes targeted military facilities while avoiding oil installations… infrastructure remains intact"* [EurasiaBusinessNews 8/7]). **The barrels ARE offline — under a US NAVAL BLOCKADE since ~7/31** (satellite: all three terminals empty 8/1; 16–19 dark-signal tankers waiting). **A blockade is a MILITARY OPERATION, not facility damage ⇒ HAWK's ledger, not mine.** ⚠️ **Anyone carrying "Kharg down from strike damage" is carrying the wrong mechanism.**
+>
+> ## ⚖️ **EU GAS STORAGE — TESTED AGAINST CRUDE AND KILLED. FEED HANDED TO SAM.**
+> ρ vs Dated Brent **−0.055…−0.104** (n≈4,550, 2011→2026) — below my pre-registered 0.20 floor at every horizon; **storage predicts TTF 2–3× more strongly.** **It is a GAS instrument, not a crude one.** **SAM has the feed + every caveat** (`gie:` grammar · the gate is the **User-Agent, not a key** · `total==0` fail-loud · DR-4's **flexible 1 Oct–1 Dec** correction, NOT 1 Nov · 59.32% = lowest for the date in 5 years, landing zone 77–80%).
+>
+> ## 🕐 **TENOR — the no-absorber window LENGTHENED a quarter (see the TENOR block below for the ladder).** ⚠️ **AND I RETRACTED HALF MY OWN MORNING CLAIM:** "the ME assumption HARDENED (100.0%, was ~99.6%)" is **WRONG** — it is ~100% in **all six** vintages, a structural constant. **The deferral is real; the "hardening" was noise I presented as a change.**
+>
+> **RE-VERIFIED AND CARRYING 8/13 CONTENT:** the four blocks immediately above (v5.6 · Kharg · EU storage · tenor) plus the **TENOR CONSTRAINT** block (re-pulled at the EIA STEO primary today — the no-absorber window LENGTHENED a quarter, Q1-27 `1.57 → 0.030`, recovery now **100.0%** Middle East) · the **EU-STORAGE / European gas** material (own GIE AGSI+ pull today, 59.32% fill, gas day 8/11) · **BLOCKING-INSTRUMENT STATE** (now **ZERO**, down from 1).
 > ⛔ **NOT RE-VERIFIED THIS SESSION — still carries its 2026-08-12 vintage:** **TAPE · CURVE · VIEW · CALIBRATION · CROSS-DOMAIN · the correction banners below.** **Last valid crude settles remain 8/11–8/12; NO 8/13 crude figure appears anywhere in this brief because the 8/13 bar is still forming (ICE Brent trades to 18:00 ET).**
 > ✅ **NOTHING IN THE UNVERIFIED SECTIONS MOVED THIS SESSION: `$0` moved, no gate fired, no threshold moved, no position changed, no prediction resolved** — so the mixed vintage is a FRESHNESS boundary, not a contradiction. **But cite the 8/12 sections as 8/12, not as today.**
 

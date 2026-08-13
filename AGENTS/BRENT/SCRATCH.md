@@ -1,6 +1,14 @@
-# BRENT SCRATCH — Thu Aug 13, 2026 **~10:xx ET** *(live session, PROME-directed)* · **THE SESSION WHERE AN 11-DAY BLOCKER TURNED OUT TO BE A SERVER ERROR STRING LYING ABOUT ITS OWN GATE**
+# BRENT SCRATCH — Thu Aug 13, 2026 **~14:xx ET** *(live session, PROME-directed · FULL CLOSEOUT RUN)* · **THE SESSION WHERE AN 11-DAY BLOCKER WAS A SERVER ERROR STRING LYING ABOUT ITS OWN GATE — AND THEN MY OWN STALEST BIG ROW MADE MY THESIS SMALLER**
 
 **Purpose:** Ephemeral session handoff — canonical "where are we / what next". Read at boot (step 2), rewritten at closeout (step 11).
+
+> # 🔴🔴 **FIRST READ NEXT BOOT — FRIDAY 2026-08-14, AND IT IS SEQUENCED. DO NOT IMPROVISE IT.**
+> ### **→ [`setups/2026-08-14_COT-friday-card-incumbent-final-grade-then-35b-register.md`](setups/2026-08-14_COT-friday-card-incumbent-final-grade-then-35b-register.md) — THE CARD IS BUILT. USE IT, DO NOT RE-DERIVE.**
+> **1️⃣ INCUMBENT GRADES THE Aug-11 VINTAGE ONCE, FINAL TIME** — pre-computed to ONE boundary: **8/11 MM gross shorts ≤ `104,072` ⇒ SPENT HOLDS · ≥ `104,073` ⇒ SPENT UN-FIRES** (a WoW re-gross of just **+1,513**; P ≈ 47-50%).
+> **2️⃣ WRITE THE VERDICT DOWN — EITHER WAY, INCLUDING "SPENT HOLDS."** ⛔ Under 35a REVERT the modifier is a STATE re-read every print, not a latch: **it switches off SILENTLY and TERRY may size off a stale `LIVE`. A re-affirmation is a grade; silence is not.**
+> **3️⃣ ONLY THEN register the 35b successor** — base `122,904` · **median unit `9,160` FROZEN** (basis n=235, 2022-02-08→2026-08-04) · Leg-A bar `113,745` · deadband `109,165–118,325` · Leg-B OI-share ≤ `4.909%`. ⛔ **NEVER run incumbent and successor on the same vintage.**
+> **Pull:** raw `f_disagg.txt`, code `067651`, **MM short = field 15, OI = field 8**, `report_date` verified IN-ROW. `cot_grade.py --expect 2026-08-11`; **exit 3 = WAIT, do not grade last week's row.**
+> **Also Friday:** 🟠 **Baker Hughes** — grades **BRT-26** vs the frozen **457**, inherited **454 = 3 to the line**. **TWO INDEPENDENT PULLS; if it breaches on aggregators alone, SAY SO ON THE GRADE.**
 
 > # 🔴 **`$0` MOVED. NO GATE FIRED (there is no live gate). NO THRESHOLD MOVED. NO POSITION CHANGED. NO PREDICTION RESOLVED.**
 > **ALL FIVE PROME RIDERS LANDED, ahead of the Fri 8/14 deadline. BLOCKING INSTRUMENT ROWS `1 → 0`. INBOX `8 → 0` (8 moved == 8 ledger rows).**
@@ -17,7 +25,7 @@
 
 ---
 
-## ✅ SLATE EXECUTED 2026-08-13 (Will-approved) — **P1 · P2 · P3 · retirements · P4 ALL DONE. P5/P6 REMAIN QUEUED.**
+## ✅ SLATE EXECUTED 2026-08-13 (Will-approved) — **P1 · P2 · P3 · P4 · P6 · retirements ALL DONE. ONLY P5 REMAINS QUEUED.**
 
 **→ Delivery: [`../../PROME/inbox/2026-08-13_from-BRENT_slate-execution-steo-ladder-and-two-refuted-rows.md`](../../PROME/inbox/2026-08-13_from-BRENT_slate-execution-steo-ladder-and-two-refuted-rows.md)**
 - **P1 STEO ladder** → [`setups/2026-08-13_STEO-vintage-ladder-P1.md`](setups/2026-08-13_STEO-vintage-ladder-P1.md). **Deferral pattern CONFIRMED** (recovery-start pushed out twice in five vintages; 27Q1 revised down 4 consecutive times). ⛔ **AND IT FORCED A SAME-DAY RETRACTION of my own morning claim** — "the assumption HARDENED (100.0%, was ~99.6%)" is **WRONG**; ME share is ~100% in ALL SIX vintages, a structural constant, and I presented noise as a change. **EIA defers the START, never writes down the SIZE** ⇒ timing edge only.
@@ -25,7 +33,9 @@
 - **P3** → anti-laundering test **voided 1 of 5**, not 5. `BRT-21` VOID · `BRT-16` NOT-FIRED-PRECONDITION · **`BRT-17` HIT** (voiding it would have discarded a correct call) · `BRT-07`/`BRT-12` open, re-dated with outer bounds. **ZERO rows remain STUCK.**
 - **Retirements** → `LAST_COMPLETION.md` **FROZEN**, and ✅ **THE ROOT CAUSE IS FIXED SO THE FREEZE IS TERMINAL**: PROME re-keyed `COMPLETION_SPEC.md` delivery method 1 from the overwrite-in-place file to a **dated outbox memo** (commit `047e4fb79` — **I verified it at the artifact, not on report**). **No future spawn contract asks for the file, so it cannot be resurrected as it was on 8/12.** I flagged it and did **not** patch around it from my lane. · `research/PRODUCT_SIDE_DECOUPLING_THESIS.md` archived.
 - **P4** → PROMPT_PREMIUM disposition recorded on its own surface (`demand_destruction/TRACKER.md` ⑥ block): **observational, no trigger**, revisit at **n≥100 single-regime or first genuine reopening**, and **the cost of the decision written down** so it is auditable against me later.
-- ⏳ **STILL QUEUED, NOT THIS SESSION: P5** (row-27 width-bias re-spec — must land BEFORE any re-arm) · **P6** (EU-storage kill-or-keep). **Transient-500 class routed PROME-side to DAEDALUS — build nothing.**
+- **P6 EU-STORAGE → ✅ KILLED for crude** → [`setups/2026-08-13_P6-eu-storage-crude-transmission-PREREG.md`](setups/2026-08-13_P6-eu-storage-crude-transmission-PREREG.md). Pre-registered before the pull; **ρ vs Dated Brent −0.055…−0.104, below the 0.20 floor at every horizon; storage predicts TTF 2–3× more strongly.** ⛔ **I tried to refute my own KILL — the deepest tail throws ρ=−0.373 (clears the bar) and I did NOT take it** (not pre-registered · effective n≈7 episodes not 767 rows · the two dominant episodes are the shared-antecedent case my prereg flagged). **Feed routed to SAM** with every caveat attached. **AEOLUS cc PARKED at `outbox/pending_routing/` — PROME holds the delivery while their session is live; do NOT deliver it.**
+- **⚖️ THESIS → v5.6** — the ADCOP finding is thesis-level: **a transit count is NOT a barrel count.** Kills the supply-loss reading of the throughput leg; **premium/tolled-corridor frame and `KILL-LEG2-TRANSIT`'s letter both UNTOUCHED.** Logged to `thesis/CHANGELOG.md`.
+- ⏳ **STILL QUEUED — ONE ITEM ONLY: P5** (row-27 width-bias re-spec — not urgent, `$0` at risk on a RETIRED arm, **but it must land BEFORE any re-arm** or a fresh ruling silently inherits a known-defective liquidity leg). ✅ **P6 is DONE — see above; this line said 'P6 queued' for one edit-cycle and that was the very contradiction class I spent today closing.** **Transient-500 class routed PROME-side to DAEDALUS — build nothing.**
 
 ---
 

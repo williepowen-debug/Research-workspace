@@ -8,6 +8,22 @@ Tracks all changes to THESIS.md and TIMELINE.md. Reverse chronological. Each ent
 
 ---
 
+## 2026-08-13 (Thu) — **v5.6 (MINOR): THE HORMUZ BYPASS IS OPERATING, SO A TRANSIT COUNT IS NOT A BARREL COUNT.**
+
+**Trigger:** re-verification of `refinery_damage/INCIDENTS.tsv` row `RF-012` (ADCOP Habshan-Fujairah, the UAE's primary Hormuz bypass) under the I-2 staleness budget adopted the same day. The row had asserted **1,500,000 bpd OFFLINE for 118 days** on source_tier A-2.
+
+**OLD VIEW (v5.4/v5.5):** the transit test is *THE* adjudicator, and a low PortWatch transit count reads as impaired throughput — implicitly, as barrels not reaching the market.
+
+**NEW VIEW (v5.6):** the bypass is **OPERATING**. UAE crude+condensate ~3.7 mb/d in June 2026, Abu Dhabi loadings ~4.0 mb/d Jun 1-29, with ADCOP named as the enabling route [Gulf News 2026-07-02, citing Kpler/Vortexa/Bloomberg]. ⇒ **`barrels through the strait` != `barrels lost`.** The transit leg measures **ACCESS COST AND ROUTING**, not net supply loss.
+
+**WHY IT MATTERS / DIRECTION:** ⛔ **THIS IS THESIS-WEAKENING ON THE SUPPLY LEG** and is recorded in that direction rather than the flattering one. Prior readings that treated a low transit count as a supply-loss proxy were too strong. **Thesis-NEUTRAL on the premium/tolled-corridor leg**, which is what v5.4 actually rests on — a corridor forcing 1.5M bpd overland *is* a tolled corridor, and v5.3's CAPACITY-IRREVERSIBLE != PRICE-IRREVERSIBLE anticipated it. The v5.5 prompt premium is unaffected and is now the better-behaved leg (priced by cargo buyers, route-agnostic).
+
+**WHAT DID NOT CHANGE:** `KILL-LEG2-TRANSIT`'s letter (>35/day x2 consecutive) is **UNTOUCHED** — a bypass makes the falsifier CONSERVATIVE, not wrong. **No threshold moved. No level re-specified.** Re-levelling would be a NEW registration with base rates.
+
+**PROVENANCE:** `RF-012` now `RESOLVED` / offline 0 / `ZERO-RESTORED` / re-tiered B-1, with the full evidence and the two sources I REFUSED (GEM's `Status: Operating` is a project-lifecycle field, not an outage flag; Wikipedia carries only the 2012 commissioning) recorded on the row. Sibling finding the same pass: `RF-002` Kharg's oil installations were **spared** (the outage is a naval blockade = out of ledger scope, routed to HAWK) — surfaced by the `facility_key` added that morning, which exposed RF-002 and RF-019 asserting opposite things about one facility for ~4 months.
+
+---
+
 ## 2026-08-12 (Wed) — **v5.5 (MINOR): v5.4 NOW HAS A PRICE SHADOW, AND IT IS NOT MADE OF PORTWATCH.**
 
 **Trigger:** a PROME-directed instrument-basis reconcile — "Brent" had become two numbers ~$10 apart, quoted unlabeled on three fleet surfaces. **The reconcile was meant to be a labeling chore. It produced a new instrument and closed a standing methodological hole.**
