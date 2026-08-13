@@ -82,6 +82,32 @@ Traced to the last pre-reconcile vintage (`f74117049`, 7/10), which **had no qua
 ## Not started, per instruction
 **#5 change-instrument spec** (waits on ⑤ — and ⑤'s negative result changes what it should measure) · **cohort re-cut** (sequenced after ⑤; see above) · **`REG-T-01` re-spec** (tabled, zero-threshold slate) · **`REG-T-06` FHLB instrument** (flagged above).
 
+## ⚠️ ONE SIDE EFFECT OF R2 I CANNOT FIX MYSELF — `.gitignore` needs one line (PROME's file)
+
+Archiving the per-bank subtree **un-ignored a set of large binaries that were correctly ignored before the move.** The root `.gitignore` rule is
+
+```
+AGENTS/REGINALD/*/sources/*.pdf
+AGENTS/REGINALD/*/sources/10k_*/
+AGENTS/REGINALD/*/sources/q[1-4]_*/*
+```
+
+A single `*` matches **one** path segment, so it matched `AGENTS/REGINALD/CFG/sources/…` and **does not match** `AGENTS/REGINALD/archive/per-bank/CFG/sources/…`. Verified with `git check-ignore -v` on both paths: the old path is ignored by line 48, the new path is ignored by nothing.
+
+**Effect:** a handful of earnings PDFs / 10-K source dirs now show as untracked in `git status` for **every agent on this box**, which is exactly the noise that makes `orphan_check` output hard to read and invites someone to sweep files that are deliberately un-tracked.
+
+**Fix is one line in the root `.gitignore` — a shared file, so I did not touch it** (root protocol: flag to PROME). Suggested, matching the existing style:
+
+```
+AGENTS/REGINALD/archive/per-bank/*/sources/*.pdf
+AGENTS/REGINALD/archive/per-bank/*/sources/*.xlsx
+AGENTS/REGINALD/archive/per-bank/*/sources/10k_*/
+AGENTS/REGINALD/archive/per-bank/*/sources/q[1-4]_*/*
+!AGENTS/REGINALD/archive/per-bank/*/sources/q[1-4]_*/*.md
+```
+
+⚠️ **The generalizable bit, worth more than the fix:** **`git mv`-ing a directory silently re-scopes every `.gitignore` rule that referenced it by depth.** Any archive/promotion/spinout move can un-ignore files this way, and nothing warns you — the files simply appear. **Whoever runs the next agent promotion or archive sweep should `git status` immediately after the move**, which is the only place this is visible.
+
 ## Carried, still unfixed
 `STATUS.md` is **253 lines vs its own ≤250 cap** (251 at session start, +2 across three passes). Flagged for the third time rather than fixed — compacting the oldest headlines is editing history and should be a deliberate act, not a closeout side effect.
 
