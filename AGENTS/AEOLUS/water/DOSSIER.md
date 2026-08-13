@@ -91,21 +91,44 @@
 - **Glen Canyon @ Powell 3,490 ft** = a **~52% derate, not a cliff** (~630 MW vs 1,320 at 3,700). Generation ceases *below* 3,490.
 - **Most of the loss is already realized:** combined generation **−27.6% vs the 2016 peak** (−6,285,948 MWh/yr, EIA). **Two-thirds of the decline predates any threshold being touched** — a threshold-watching frame misses it.
 
-### 🔴 THE FINAL EIS CUT NUMBERS — added 8/13 (Will-flagged; my own file did not carry them)
+### 🔴 THE FINAL EIS SHORTAGE MATRIX — PRIMARY-VERIFIED 8/13
 
-**16–20% cuts for California, Arizona and Nevada through 2028.** Lower Basin (incl. Mexico) could lose **1.5 MAF in both 2027 and 2028**:
+**Source: USBR Post-2026 Final EIS, Executive Summary (`P26_FEIS_ExecSummary_508.pdf`), downloaded and text-extracted 2026-08-13.**
 
-| State | Cut |
+> ⚠️ **The EIS does not publish "the cuts." It publishes a MATRIX of maximum shortage by ALTERNATIVE.** Any single triple quoted as "the plan" has silently picked a cell.
+
+**Maximum shortage (maf)** — *"any modeled reduction to the ability of an entitlement holder to exercise an entitlement":*
+
+| Alternative | Total LB | Arizona | California | Nevada |
+|---|---:|---:|---:|---:|
+| No Action | 0.60 | 0.47 | 0.00 | 0.03 |
+| Basic Coordination | 1.48 | 1.15 | 0.00 | 0.08 |
+| Enhanced Coordination | 3.00 | 0.93 | 1.47 | 0.10 |
+| Maximum Operational Flexibility | 4.00 | 1.93 | 1.28 | 0.20 |
+| Supply Driven (LB Priority) | 2.10 | 1.22 | 0.44 | 0.09 |
+| Supply Driven (LB Pro Rata) | 2.10 | 0.92 | 0.76 | 0.07 |
+| **🔴 REPRESENTATIVE PREFERRED** | **3.6** | **1.96** | **0.90** | **0.21** |
+
+**Separately, the Preferred Alternative's operational sideboard:** *"Lower Basin Shortage Guidelines: **Up to 3.0 maf** to provide protection of critical infrastructure at Hoover Dam."* ⚠️ **A sideboard is not the modeled maximum — 3.0 and 3.6 are two numbers doing different jobs. My CALENDAR's "up to 3.0 MAF" was right about the sideboard and silent about the 3.6.**
+
+**Distribution rule (2027-28):** shortages **up to 1.5 maf** are distributed by a **Lower-Division-States-developed distribution**; shortages **exceeding 1.5 maf** revert to **priority**. After 2028, priority governs unless agreements are reached. ⚠️ **1.5 maf is a DISTRIBUTION-METHOD BREAKPOINT, not a cut volume.**
+
+#### 🔴 The news layer does not survive the primary — three specific corrections
+
+Widely reported as *"AZ −760k AF, CA −440k AF, NV −50k AF, 16-20% through 2028."* Against the table above:
+
+| Claim | Verdict |
 |---|---|
-| **Arizona** | **−760,000 AF** |
-| California | −440,000 AF |
-| Nevada | −50,000 AF |
-| **Upper Basin (CO/NM/UT/WY)** | **no mandatory reduction — voluntary conservation only** |
+| **Arizona 0.76 maf** | **Appears nowhere in the Arizona row.** It is **California's** value under Supply Driven (LB Pro Rata) — consistent with a **row/column transposition** in the relay chain. |
+| **California 0.44 maf** | Real, but belongs to **Supply Driven (LB Priority)** — **not the preferred alternative.** |
+| **Nevada 0.05 maf** | **Appears nowhere** in the Nevada row. |
+| **"16–20% cuts"** | **No basis.** The only 16%/20% figures in the ES are *"percent of modeled futures that meet the preferred minimum performance"* — an unrelated quantity. |
 
-⚠️ **Note the asymmetry: the Upper Basin, whose runoff fills Powell, takes no mandatory cut; the Lower Basin absorbs all of it.**
-⚠️ **Source layer: trade/news coverage of the Final EIS (CNN 7/31, HCN, ICN, NBC, The Hill) — I have NOT opened the EIS document. B1 until pulled from the primary.**
+⇒ **Against the Representative Preferred Alternative the reporting UNDERSTATES by AZ 2.6× · CA 2.0× · NV 4.2× · Total 2.4×.** The headline triple **spans different columns**, so it describes no alternative that exists.
 
-> **My own gap, recorded because it is the useful part.** My `CALENDAR.md` carried only *"up to 3.0 MAF, Arizona carrying the largest cut share, California shielded"* with an explicit self-note that I had not read the alternatives. **I registered a dated instrument, watched its date, and never read its contents** — until a Reddit post proved more specific than my file on an instrument I own.
+⚠️ **Scope of this check, stated because a zero is ambiguous:** I read the **Executive Summary only** — not Volumes I–III or the technical appendices. **I can say these figures are unsupported by the ES; I cannot say they appear nowhere in the EIS.**
+
+> **Two of my own failures, both worth keeping.** (1) I registered this dated instrument, tracked its date faithfully, and never read its contents (**L-20**). (2) My first automated check reported the news figures as "PRESENT" because it tested value-membership across the whole table rather than membership in the **state's row** — **a table is not a set** (**L-21**).
 
 ### ⚠️ STRUCTURAL — an inflow term my model does not contain (added 8/13)
 
