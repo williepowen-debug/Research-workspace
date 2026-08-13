@@ -420,3 +420,42 @@ HY OAS [FRED `BAMLH0A0HYM2`, pulled 8/13 ~12:55 ET]: 2.85 (7/31) → **2.78 (8/3
 ### ⑦ Cross-desk + mail
 **CREED's packet crossed in flight with mine** — both desks pulled the same 10-Q independently and reached **identical figures and the identical PARTIAL grade**, both independently found the **$8.7B** correction, and **both independently refused to move the band.** ⚠️ **Independence bookkeeping, against interest: same filing = a shared antecedent = ONE vote on the underlying fact** (`finding_shared_antecedent_independence_test`; NEXUS Disc-F/H). What *is* independent: the **extraction/arithmetic reproduced** across two pulls, and the **band-discipline judgment**. **Do not report this as independent corroboration of the landing.**
 **Mail: BOTH LANES CLEAN.** 4 processed (WALTER ×2, CREED, DEWEY). **Outbound 3:** CREED · NEXUS · BROCK. **DEWEY DR-5:** the SHADE leg (post-Damietta war-risk insurance) is an **explicit negative — not found**; the Apollo/Energos FSRU ownership is **fund-level, not an insurer general account** → **watch marker only, no thread opened.** **WALTER `SIG-W-20260813-010`** (GSE multifamily SDQ is 60+ not 90+): **info-only — SHADE carries no GSE delinquency figure**; the SHADE CRE route is the MBA *holdings* series via CREED, untouched by a delinquency-basis label.
+
+---
+
+## 0j. 2026-08-13 ~18:35 ET — **RULED BATCH EXECUTED: canary BUILT (③), BMA lead RE-SCOPED (④)**
+
+**Authority:** `PROME/proposals/2026-08-13_private-credit-batch-RULED.md` (Will, in-session batch approval, 2026-08-13) — **cited, not reconstructed.** Both SHADE rows executed in the same resident session. **No band, threshold, kill-line, vector or confidence moved by either.**
+
+### ③ Supply-adjusted canary — **BUILT and REGISTERED, not yet graded**
+
+**→ `instruments/FABN_SUPPLY_ADJUSTED_CANARY_SPEC_2026-08-13.md`** (dated spec).
+🔒 **Companion, not replacement — ruled constraint, restated inside the spec so it cannot be lost:** the price canary stands untouched at **+33.0bp like-for-like**, kill-path-1 **YELLOW**, RED bar **>250bp or a pulled/failed syndication**. **The companion cannot by itself move kill-path-1 to RED.**
+
+**Three components, all quarterly, all primary:** **S1** FABN gross issuance (10-Q **MD&A** — ⚠️ never the inflows table, whose aggregate is 4.8× the FABN-only figure) · **S2** unsecured share of funding-agreement stock = FABN ÷ (FABN+FABR+direct+FHLB) · **S3** months since the last **publicly syndicated** FABN issuance (FI deck).
+
+**Frozen baseline (recorded, NOT graded):** S1 **$2.0B → ~$1.2B** (Q2 derived, ±$0.1B, tie-out to the printed $5,718M passes) · S2 **40.7% → 38.2% → 36.2%** (−4.5pp in six months) · S3 **~11 months**. **All three trend the same way.** Q2-26 sits in the **(B) SUPPLY WITHDRAWN** cell — **ungraded.**
+
+**First graded reading: Q3-2026**, and **a quarter is INCOMPLETE until both instruments land** — 10-Q (~11/5–11/10) then FI deck on its own Item-7.01 cadence (~11/10–11/18, **never** an earnings date, 14-for-14). *This encodes the 8/4 leg-1 defect as a rule.*
+⚠️ **No numeric bands in v1, deliberately** — two quarters of history cannot base-rate a threshold, and a band invented now would be back-fitted to the only data that exists (`finding_base_rate_the_threshold_before_building_it`). Bands register after **≥4 quarters**, as a dated re-spec, never after seeing the quarter they would grade. **Output is a placed PAIR, never a composite scalar — the divergence IS the information.**
+❌ **Registered limits (limits, not to-do items):** cannot establish **rationing** (FABR/FHLB all-in cost undisclosed ⇒ optimization and rationing are observationally equivalent) · cannot **size encumbrance** (S2 is liability-side — **never quote it as an encumbrance ratio**) · cannot separate Athene-specific from FABN-market-wide withdrawal · **S3 is issuer-narrated** from an incentive-flagged source, so S1/S2 carry the weight.
+
+### ④ BMA / Egan-Jones — 🔴 **RE-SCOPED. The removal is in the WRONG INSURER CLASS for SHADE.**
+
+**→ `research/BMA_EGAN_JONES_RECOGNITION_2026-08-13.md`.** Verdict: **not killed, not escalated — downgraded and re-scoped.**
+
+✅ **BASELINE VERIFIED AT PRIMARY.** Pulled and pdfminer-extracted three BMA handbooks from `cdn.bma.bm` (2024 **Long-Term**; 2024 + 2023 General Business). All three carry ¶C2.3i(b)(i) verbatim: *"The additional BMA named rating agencies are Dominion Bond Rating Service, **Egan Jones Rating Company**, Japan Credit Rating Agency and Kroll Bond Rating Agency."* Egan Jones also holds **its own column** in the BSCR rating-mapping tables. 🔑 **And the grid footnote reads *"As determined by the SEC"* — supplying the causal link between the 8/12 SEC action and the BMA channel that no media source draws.**
+
+🔴 **THE FINDING: Class 4/3B/3A are GENERAL BUSINESS — property & casualty.** Bermuda **long-term (life/annuity)** registrations are **Class C/D/E** under a **separate** handbook. **Athene Life Re and the ACRA 1/ACRA 2 sidecars ($142.1B retroceded) are LONG-TERM reinsurers.** **No source — Bloomberg, Royal Gazette, Insurance Journal, SFA — addresses the Long-Term handbook at all.**
+
+| Claim | State |
+|---|---|
+| Removed from the **2025 General Business** handbook | 🟡 **CORROBORATED** (n=2 independent), not primary-verified |
+| Removed from the **2025 Long-Term** handbook — **the SHADE-relevant one** | ⬜ **UNKNOWN — nobody has reported it either way** |
+| **Present** in the **2024 Long-Term** handbook | ✅ **VERIFIED AT PRIMARY** |
+
+⚠️ **Had I escalated on the media framing, SHADE would have carried a general-business regulatory change as a life-insurer capital event** — `finding_fused_true_facts_false_premise` (true removal, wrong perimeter) + `finding_cross_entity_comparison_needs_same_perimeter`.
+⚠️ **Source independence tested, not counted: five apparent outlets collapse to TWO.** Bloomberg is the origin; Bloomberg Law is the same newsroom; Insurance Journal carries the Bloomberg story; the SFA piece, **when fetched, names no document, no list and no date.** Only the **Royal Gazette** (Claire Shefchik, 1/28) is original reporting — and it is the only source that names the instrument.
+⚠️ **2025 handbooks: PUBLIC-AND-UNFETCHED, NOT unavailable** (`finding_unfetched_is_not_unavailable` — the error I made about `fetch.py` this morning and did not repeat). BMA doc centre is JS-paginated (116 docs, 5 static links); BMA site search returns a **byte-identical page for different queries**. Unblocking route recorded.
+**Ladder: 🟢 INVESTIGATION, unchanged.** Neither a *new-application denial* nor a *General Business de-listing* is a registered rung, and **EJR retains NRSRO class (ii) INSURANCE COMPANIES.** The two channels are **not** conflated, per the ruling.
+**Next test, one grep:** the **2025 Long-Term** handbook, ¶C2.3i(b)(i), for "Egan" — baseline for the diff is now established. ⚠️ **And the second-order question the disclosure cannot answer: did any Bermuda long-term insurer ever ELECT Egan-Jones?** Election is optional and **elections are not public**; EJR says it has **no Bermuda-headquartered clients**. **A recognition change with zero electors is a non-event.**

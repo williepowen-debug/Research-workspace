@@ -43,3 +43,39 @@ The Q2 10-Q prices the deal for the first time: ***"we completed the purchase…
 **GAPS:** Apollo Q2 10-Q RS cross-check not run · BMA de-recognition media-only · encumbrance not sized · STATUS at 420 lines vs the ~250 cap. *(Former gap "sign leg unread — no tooling" is RETRACTED: the tooling existed, I mis-invoked it; leg now graded NOT MET.)*
 **WILL_NEEDS:** Nothing to decide. Two SHADE claims died today; nothing moved closer to a trade.
 **FOLLOW-UP:** ① primary BMA pull ② Apollo RS segment ③ STATUS compression ④ PROME: supply-adjusted canary (held for Will's batch, do NOT build) ⑤ MBA Q2 ~mid-Sept for the joint 006/010 verdict.
+
+---
+
+# ADDENDUM — RULED BATCH EXECUTED, 2026-08-13 ~18:35 ET
+
+**Authority:** `PROME/proposals/2026-08-13_private-credit-batch-RULED.md` ③ + ④ — cited, not reconstructed. Both executed in the resident session. **No band, threshold, kill-line, vector or confidence moved.**
+
+## ③ Supply-adjusted canary — BUILT, REGISTERED, NOT GRADED
+`instruments/FABN_SUPPLY_ADJUSTED_CANARY_SPEC_2026-08-13.md`. All four ruled constraints honoured and **restated inside the spec** so they survive the file being read alone: companion-not-replacement (price canary **+33.0bp**, kill-path-1 **YELLOW** untouched) · **no band or kill-line moved in the build commit** · spec pre-registered **before** first graded reading · and I added one the ruling implied — **it cannot by itself move kill-path-1 to RED.**
+
+**S1** issuance (10-Q MD&A only) · **S2** unsecured share of funding-agreement stock · **S3** public-syndication recency.
+**Frozen baseline:** $2.0B → **~$1.2B** · 40.7% → 38.2% → **36.2%** · **~11 months**. All three one direction ⇒ Q2-26 sits in **(B) supply-withdrawn**, **ungraded**. **First graded reading Q3-2026**, incomplete until *both* the 10-Q and the FI deck land.
+
+⚠️ **One design choice you should see, since it is a deviation from how SHADE usually ships an instrument: no numeric bands in v1.** Two quarters of S1/S2 cannot base-rate a threshold, and a band written now would be fitted to the only data in existence. Bands register after **≥4 quarters** as a dated re-spec, never after seeing the quarter they would grade. **Not a defect in the approved design — flagging it as a scope choice rather than encoding a number I would be inventing.**
+
+## ④ BMA / Egan-Jones — 🔴 RE-SCOPED, and the re-scope is the result
+`research/BMA_EGAN_JONES_RECOGNITION_2026-08-13.md`. **Not verified, not killed — the framing was wrong.**
+
+✅ **Baseline VERIFIED AT PRIMARY** (three BMA handbooks pulled and extracted): Egan Jones IS a named rating agency in the 2024 **Long-Term** and the 2023/2024 General Business handbooks, ¶C2.3i(b)(i), with its own BSCR mapping column. 🔑 **The grid footnote reads *"As determined by the SEC"* — the causal link between the 8/12 SEC action and the BMA channel, which no media source draws.**
+
+🔴 **But: Class 4/3B/3A are GENERAL BUSINESS — property & casualty. Athene Life Re and the ACRA sidecars are LONG-TERM (Class C/D/E), under a separate handbook that no source addresses.** So the lead that arrived as *"BMA revoked recognition — bites the insurer capital channel"* is really *"a P&C handbook dropped it; the life handbook is unexamined."* **Escalating on the media framing would have put a general-business regulatory change on SHADE's board as a life-insurer capital event.**
+
+⚠️ Also: **n=2 independent sources, not 5** — Bloomberg Law is the same newsroom, Insurance Journal carries the Bloomberg story, and the SFA piece **names no document, no list and no date when actually fetched.** Only the Royal Gazette is original reporting, and it is the only one naming the instrument.
+⚠️ **2025 handbooks: PUBLIC-AND-UNFETCHED, not unavailable** — BMA doc centre is JS-paginated, BMA site search returns a byte-identical page for different queries. Route recorded for the next attempt; **I am not calling it blocked.**
+
+**Ladder 🟢 unchanged; the two channels are not conflated, per your rider.**
+
+**Ask back (one grep, not a session):** the **2025 Long-Term** handbook, ¶C2.3i(b)(i). Absent → registered domain item, escalate; present → dead for SHADE. ⚠️ And the question no disclosure answers: **election is optional and elections are not public** — EJR says it has **no Bermuda-headquartered clients**, so **a recognition change with zero electors is a non-event.**
+
+## COMPLETION (addendum)
+**STATUS:** COMPLETE — ruled rows ③ and ④ both executed; ③ confirms as built, ④ returns a re-scope rather than a verify-or-kill binary.
+**CHANGED:** `instruments/FABN_SUPPLY_ADJUSTED_CANARY_SPEC_2026-08-13.md` (new) · `research/BMA_EGAN_JONES_RECOGNITION_2026-08-13.md` (new) · `STATUS.md` §0j · `SCRATCH.md` · `board_log.tsv` (+2).
+**RESULT:** Canary baseline **S1 $2.0B→~$1.2B · S2 40.7%→36.2% (−4.5pp) · S3 ~11mo**, first graded read **Q3-26**. BMA: Egan Jones primary-verified **present** in the 2024 Long-Term handbook; reported 2025 removal is **General Business only**; **n=2** independent sources.
+**GAPS:** 2025 Long-Term handbook unfetched (public, route recorded) · Bermuda rating-agency *elections* not public · Apollo Q2 10-Q RS cross-check still not run · STATUS now ~500 lines vs the ~250 cap.
+**WILL_NEEDS:** Nothing. Neither row moved anything; ④ removed a false escalation rather than adding a real one.
+**FOLLOW-UP:** ① one grep of the 2025 Long-Term handbook ② Apollo RS segment ③ STATUS compression (now urgent) ④ canary Q3-26 read, both instruments ⑤ MBA Q2 ~mid-Sept.
