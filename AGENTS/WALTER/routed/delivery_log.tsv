@@ -1558,3 +1558,12 @@ timestamp_routed	signal_id	recipient	role	recipient_platform	precedence	handoff_
 2026-08-13T16:55:00Z	SIG-W-20260813-005	BRENT	action	claude-code	ROUTINE	AGENTS/BRENT/inbox/WALTER/SIG-W-20260813-005-ft-iran-prolonging-not-damaging-frame.md	delivered	
 2026-08-13T16:55:00Z	SIG-W-20260813-005	HAWK	info	claude-code	ROUTINE	AGENTS/HAWK/inbox/WALTER/SIG-W-20260813-005-ft-iran-prolonging-not-damaging-frame.md	delivered	
 2026-08-13T16:55:00Z	SIG-W-20260813-005	OSPREY	info	claude-code	ROUTINE	AGENTS/OSPREY/inbox/WALTER/SIG-W-20260813-005-ft-iran-prolonging-not-damaging-frame.md	delivered	
+2026-08-13T17:20:00Z	SIG-W-20260813-006	BRENT	action	claude-code	PRIORITY	AGENTS/BRENT/inbox/WALTER/SIG-W-20260813-006-spr-below-300m-first-since-january-1983.md	written_not_delivered_pending_push	RED skipped per spec 3.5 pull-complete.
+2026-08-13T17:20:00Z	SIG-W-20260813-006	FALCON	info	claude-code	PRIORITY	AGENTS/FALCON/inbox/WALTER/SIG-W-20260813-006-spr-below-300m-first-since-january-1983.md	written_not_delivered_pending_push	
+2026-08-13T17:20:00Z	SIG-W-20260813-006	HAWK	info	claude-code	PRIORITY	AGENTS/HAWK/inbox/WALTER/SIG-W-20260813-006-spr-below-300m-first-since-january-1983.md	written_not_delivered_pending_push	
+2026-08-13T17:20:00Z	SIG-W-20260813-006	MARCO	info	claude-code	PRIORITY	AGENTS/MARCO/inbox/WALTER/SIG-W-20260813-006-spr-below-300m-first-since-january-1983.md	written_not_delivered_pending_push	
+2026-08-13T17:30:00Z	SIG-W-20260813-007	FALCON	action	claude-code	PRIORITY	AGENTS/FALCON/inbox/WALTER/SIG-W-20260813-007-iran-named-gulf-energy-target-list.md	written_not_delivered_pending_push	RED skipped per spec 3.5 pull-complete.
+2026-08-13T17:30:00Z	SIG-W-20260813-007	BRENT	action	claude-code	PRIORITY	AGENTS/BRENT/inbox/WALTER/SIG-W-20260813-007-iran-named-gulf-energy-target-list.md	written_not_delivered_pending_push	
+2026-08-13T17:30:00Z	SIG-W-20260813-007	HAWK	info	claude-code	PRIORITY	AGENTS/HAWK/inbox/WALTER/SIG-W-20260813-007-iran-named-gulf-energy-target-list.md	written_not_delivered_pending_push	
+2026-08-13T17:30:00Z	SIG-W-20260813-007	OSPREY	info	claude-code	PRIORITY	AGENTS/OSPREY/inbox/WALTER/SIG-W-20260813-007-iran-named-gulf-energy-target-list.md	written_not_delivered_pending_push	
+2026-08-13T17:30:00Z	SIG-W-20260813-007	MARCO	info	claude-code	PRIORITY	AGENTS/MARCO/inbox/WALTER/SIG-W-20260813-007-iran-named-gulf-energy-target-list.md	written_not_delivered_pending_push	
