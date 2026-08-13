@@ -42,8 +42,10 @@
 
 *(`outbox/` is EMPTY and that is the point — per LESSONS, a packet in `outbox/` is UNDELIVERED by definition; the recipient's `inbox/` is the wire.)*
 
+⚠️ **Check-design fix made this session:** my closeout delivery-verification tested `inbox/<file>` only, and **flagged the WALTER packet as MISSING when WALTER had simply consumed it** — consumption `git mv`s the file to `inbox/processed/`. **A successful delivery therefore read as a failure.** Correct test: **`inbox/` OR `inbox/processed/`** (and confirm it is tracked). Recorded in `LESSONS.md`.
+
 - **CORAL** — SEL-2026-05 landed at PRIMARY: two Selling Guide sections DELETED (`B4-2.2-01` Limited Review, `B4-2.2-04` Geographic-Specific/FL PERS), the working host path, my own framing corrected (≤10-unit waiver is real but lands on a cohort **disjoint** from the SIRS towers), and one figure I could **not** confirm — her $10,000/unit threshold.
-- **WALTER** — `SIG-W-20260511-039` labels GSE **multifamily** DQ as **90+ days**; both issuers' footnotes say **60+ on UPB** (90+/by-count is single-family). Its **figures are correct**, which makes the mislabel more dangerous. Also withdrew my own wrong-reasoned retraction of that signal's 0.39% GFC-peak figure.
+- **WALTER** ✅ **CONSUMED SAME DAY** (WALTER commit `068195300` filed it to `inbox/processed/` ~1h after delivery) — `SIG-W-20260511-039` labels GSE **multifamily** DQ as **90+ days**; both issuers' footnotes say **60+ on UPB** (90+/by-count is single-family). Its **figures are correct**, which makes the mislabel more dangerous. Also withdrew my own wrong-reasoned retraction of that signal's 0.39% GFC-peak figure.
 - **PROME ×2** — (a) row 45/46 **encode confirmed** with the SEEDED-not-fired routing ask; (b) `memory/auto/auto/` holds a memory the harness can never load (**not mine, not touched**).
 - **CARL** — MBA Q2 NDS out; **FHA 11.88% is stale on two live dashboards** (`CARL/STATUS.md:38`, `STUE/STATUS.md:462`) and the *superlative* breaks too (11.79% is the **second**-highest since Q2-2021, not the highest). **The load-bearing half is the caveat: the decline is migration, not relief.**
 
