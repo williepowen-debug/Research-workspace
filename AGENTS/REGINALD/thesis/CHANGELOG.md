@@ -246,5 +246,26 @@ The thesis evolved through multiple sessions prior to formal change tracking. Ke
 
 ---
 
-*Thesis → `THESIS.md`*
-*Timeline → `TIMELINE.md`*
+## ⛔ 2026-08-13 — v1.4 RETIRED. THIS CHANGELOG IS CLOSED FOR THESIS-DOCUMENT ENTRIES.
+
+**Change:** `THESIS.md` (v1.4, last substantive update 2026-04-16) `git mv`'d to `archive/thesis_THESIS_v1.4_2026-04-16.md`; a **pointer stub** left at the original path so inbound links do not dangle. **`STATUS.md` is now CANONICAL for thesis state.**
+**Authority:** Will-ruled in-session 2026-08-13, on REGINALD's own retirement proposal R1, option (ii) — logged here because this file's own rule says *any* change to `THESIS.md` requires a CHANGELOG entry, and retiring it is the largest such change there will ever be.
+
+**Old view → new view:**
+
+| v1.4 asserted (2026-04-16) | The live view at retirement |
+|---|---|
+| *"Eight independent channels, six at 🔴+, Status 🔴🔴🔴 CRITICAL, conviction HIGH"* | **🟠 ELEVATED**, and narrowed to **concentration at OZK/EGBN, NOT tier-wide** — five independent confirmations (cohort NCO decomp 6/8 → Hyp A · CRE-DQ-by-tier drill 6/20 · EGBN Q2 de-risking 7/25 · FL small-tier watch-card 4-of-4 REVERT 8/10 · benign large-cap Q2 cohort) |
+| Channel 2 "Hidden CRE" 🔴, per-bank ratio table | **Measured EMPTY as a cross-bank screen** (8/13 cohort re-run, 168 bank-quarters at the FFIEC primary). The legacy `>20%` flag is **RETIRED** — its basis is not cross-bank comparable **and** `RCON2746` is a step-prone line (17/154 = 11.0% of bank-quarters), so it is unreliable across time too. The **mechanism** (bucket migration) survives; the ratio does not. |
+| Credit transmission live | **`BANK-ABSENT`, conf ~0.8** (7/30 attribution, unretracted) — HY sits downstream of bank credit in this chain |
+| WAL / OZK deep coverage in-thesis | **Peer agents since 7/25 and 7/22** — `../WAL/`, `../OZK/` own their own theses |
+
+**Why RETIRED and not REFRESHED:** it had carried *"full refresh scheduled post-Jul-21"* since 2026-07-10 and lost to live work every session — but the deciding reason is **disagreement, not staleness.** A stale document is a maintenance cost; **a stale document that argues the opposite of the live view is a liability**, and a banner does not stop a reader lifting the channel table. **The eight-channel frame earned its retirement by being tested and narrowed, which is a success.**
+
+⚠️ **Do not resurrect an eight-channel document.** A successor, if ever wanted, is a **v2.0** written from `STATUS.md`'s narrowed claims — a 2–3 channel document, not a refresh of this one.
+**This file stays as history and is not deleted.** `TIMELINE.md` remains live *(⚠️ carries v1.4-vintage figures — read against STATUS)*, so a TIMELINE change still earns an entry here.
+
+---
+
+*~~Thesis → `THESIS.md`~~ → **RETIRED 2026-08-13. Thesis state → `../STATUS.md` (canonical). Archived original → `../archive/thesis_THESIS_v1.4_2026-04-16.md` (history only).***
+*Timeline → `TIMELINE.md` (still live)*
