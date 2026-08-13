@@ -1,6 +1,7 @@
 # BRK-32 — Queue-Amplitude Spec (the companion measure to BRK-30)
 
 **Written:** 2026-07-27 · **Author:** BROCK · **Status:** REGISTERED, baseline FROZEN pending BCRED final
+> ⚠️ **DATED POPULATION ANNOTATION — added 2026-08-13, LETTER AND BASELINES UNCHANGED (PROME-ruled).** **The population was UNDERCOUNTED at registration.** **Ares Strategic Income Fund (ASIF, ~$23B) was a live sixth expression point of the same Q2-2026 wave** — Q2 demand **14.4%** of shares o/s at 4/30/26, 5% cap held, **~34.7%** filled pro rata *(secondary; SC TO-I/A at **CIK 1918712** is primary and **UNREAD**)* — **and it existed unregistered when this lens was frozen on 7/27 over five funds.** My own 6/26 shared-antecedent verdict called the wave *"ONE wave with FIVE expression points."* **The count was wrong.** 🔒 **The frozen L1/L2 baselines and the 86%/61%-of-baseline rule are NOT changed by this annotation** — adding a fund to a frozen baseline mid-flight is the X1 error and is barred. **This is a recorded KNOWN COVERAGE LIMIT, not a re-spec:** L1/L2 are computed over a five-fund population that was **not the full population at freeze time**. Discovered post-freeze by a news sweep rather than by the instrument's owner → `domain/sources/2026-08-13_NEWS_SWEEP_RESULTS.md` §1.
 **Purpose:** close the spec-vs-spirit gap in BRK-30 without re-basing BRK-30 mid-flight.
 
 ---
