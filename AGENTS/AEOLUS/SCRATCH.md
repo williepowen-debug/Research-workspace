@@ -13,7 +13,40 @@
 
 ## NEXT SESSION — START HERE
 
-*(2026-08-12 revival session — this block supersedes the 8/3 block below, which is retained for the standing Will directive at the top and for history.)*
+*(2026-08-13 — this block supersedes the 8/12 block below. Standing Will river/water directive at the top of this file is UNCHANGED and still governs.)*
+
+**All six channels carry a current dated read — the #1 guard is satisfied. C2 and C4 are CLOSED, not stale.** Don't re-open them as gaps; they were refreshed at primaries 8/13.
+
+### 🔴 FIRST JOB — the Powell record watch. It is ~2-3 days out and it is a one-line check.
+```
+curl -s https://www.usbr.gov/uc/water/hydrodata/reservoir_data/919/csv/49.csv | tail -5
+```
+**3,520.37 ft on 8/12; the all-time low is 3,519.92 ft; it has fallen every day since 7/29 at ~0.19 ft/day.** The day it prints **below 3,519.92**: resolve **AEO-06 HIT**, upgrade **C6 → 4**, route WATT/CARL/MARCO. ⚠️ **Do NOT pre-fire it** — the trigger is written as "breaks 3,519.92 ft" and 0.45 ft away is imminent, not fired. This is the same held-on-the-letter discipline I applied to C5 and C4 this session.
+
+> ⚠️ **Use the USBR primary, never a tracker.** On 8/12 I published **3,524.20 ft "rising"** off `lakepowellwaterlevel`-class secondaries; the primary said **3,520.37 falling**. Wrong by 3.83 ft **and wrong on the sign** — see **L-15**. `KB-047` is marked CORRECTED, `KB-050` carries the primary.
+
+### Then, in order:
+1. **⏰ CPC DJF 2026-27 seasonal outlook (~8/20)** — ⚠️ **PUBLIC-AND-UNFETCHED** (extraction failed 8/12; NOT unavailable). **Today made it more valuable, not less:** with a 69% historic-event probability there is no analogue set left to average, so a season-specific forecast is the only non-extrapolated input. **Owed to WATT and MARCO — both told it's coming.**
+2. **⏰ Panama ACP draft step-down 8/15** — **AEO-04's instrument, unverified TWO sessions running. My oldest open gap; close it.** Note the resolution criterion is a binding *transit/draft restriction announcement*, not the scheduled step-down itself.
+3. **C6 ROD watch** — next-check **~8/25**, ahead of earliest legal ROD **8/30**. Federal Register / DOI. `CALENDAR.md`.
+4. **C2 conjunction watch — this is the interesting one.** The C2 kill rule is `>60% G/E AND ENSO-neutral`, and the **crop leg now SATISFIES it** (corn 61 / soy 62, wk-end 8/09) while ENSO goes historic. If crops hold >60% through an historic El Niño autumn that is **not a quiet channel — it is a falsification of the C2 mechanism**, and it must be graded as one rather than left to idle.
+5. **C5 Rhine** — Kaub 12-13 cm (8/13, WSV). Only the **Duisburg cutoff** leg takes C5 to 5; reduced loading ≠ suspension. Low-water risk flagged into October.
+6. **C1 peak-season tell** — mid-Aug→mid-Oct: do 80% systems keep shearing apart before 60°W? NHC now names *"strong upper-level winds and dry air"* on AL92 — that is the El Niño mechanism in a storm-level forecast, and it is AEO-01 verifying by mechanism rather than by silence.
+7. **8/24 — Brent >$85 grading check owed to MARCO** (settlements, 2+ wks from 8/10). ⚠️ Label the instrument on every crude figure; **BRENT rules the basis, do not re-adjudicate.**
+
+**Routed 8/13:** WATT (ENSO step-change + Powell retraction + Mead coupling + ERCOT water-disclosure answer), MARCO (ENSO supersedes composite; snowbird sign stands but amplitude-unreliable), PROME (row 48 encode CONFIRMED — closes the row; declared one deviation), DEWEY (the Rhine leg DR-4 said it didn't pull).
+
+**⚠️ Declared to PROME and awaiting a read:** encoding row 48 I widened **Orange on the Mead row from 5 ft → 10 ft** (a 5-ft Orange on a ~4.8-ft margin skips Orange entirely). I called it a mechanical consequence of the re-key, **flagged it rather than letting it be discovered**, and offered to revert. **If PROME/Will say revert, revert without arguing.**
+
+**Three new lessons: L-15** (source spread ≥ margin ⇒ secondary is unusable, not imprecise), **L-16** (base rates fail in BOTH directions — they hardened AEO-06 and killed a false 🔴 on Mead the same day), **L-17** (a probability crossing out-of-sample changes the KIND of claim; report the derived-read downgrade in the same breath).
+
+**Housekeeping:** `PREDICTIONS.tsv` ragged rows (AEO-01..04 at 10 fields) padded to the 12-col schema. ⚠️ **`KB.tsv` still has 19 rows at 14 fields vs a 13-col header — pre-existing, NOT introduced by me, and not yet diagnosed.** Worth one pass to find whether it's a stray tab or a real schema drift.
+
+---
+
+### ⬇️ SUPERSEDED — the 8/12 pickup block, retained as history.
+
+*(2026-08-12 revival session — superseded by the 8/13 block above.)*
 
 **Revival done. 9 days dark. Priorities were: unblock WATT (done), MARCO premise (done + I found a bigger error of my own), staged trade (dead-legged and marked), CSU/NOAA recovery (done).**
 
@@ -49,6 +82,19 @@ Standing data sources: CPC **primary** (ENSO — ensodisc.pdf/oni.ascii.txt/ssto
 ---
 
 ## SESSION LOG (newest first)
+
+### 2026-08-13 — CPC step-change + a self-caught source error that inverted a prediction's sign
+All six channels current for the first time since 8/03; **C2 and C4 stale-flags CLEARED** at primaries. **Composite unchanged 17/30 — and I flagged in STATUS that the number is now hiding the movement rather than describing it: four channels sit just under a written trigger.**
+- **🔴 ENSO STEP-CHANGE (CPC 8/13 primary, fetched twice).** Very-strong **81% → >90%** for NH fall/winter 2026-27, **plus a NEW 69% chance of a HISTORIC event exceeding every El Nino back to 1950** (+2.5 °C, 3-month RONI, OND). **Two different kinds of claim** — the second puts majority odds on an **out-of-sample** outcome, which *destroys the analogue set* every composite in my file averages over. So the regime got more important and my derived reads got **less** reliable, simultaneously (**L-17**). RONI is also the instrument that answers my own L-09 baseline problem — **did NOT convert RONI→ONI**, series unpulled. KB-053, VX-20.
+- **🔴 SELF-CAUGHT SOURCE ERROR — my 8/12 Powell figure was wrong by 3.83 ft AND wrong on the trend sign.** I published **3,524.20 ft "rose 2.2 ft, AEO-06 tracking against me"** off a **tracker secondary**. USBR primary: **3,520.37 ft on 8/12, fallen every one of 15 days since 7/29.** The conclusion was the exact inverse of the truth. **Powell is 0.45 ft from its all-time low.** KB-047 → **CORRECTED**; KB-050 carries the primary. **L-15: when source spread ≥ the margin you're grading against, a secondary is unusable, not imprecise.** My own 8/12 SCRATCH had already said "USBR primary pull needed" — I deferred it one session and reasoned off the deferred source in the meantime.
+- **★ BASE RATES FAILED IN BOTH DIRECTIONS ON THE SAME DAY (L-16), and the third finding only exists because I ran both.** **Powell:** hardened — every one of the last 5 years fell Aug→Sep, *smallest* decline **9.4×** the required 0.45 ft ⇒ **AEO-06 raised 70% → 95%, PROVISIONAL → EMPIRICAL**, likely resolves in days. **Mead:** the base rate **killed a false 🔴** — −0.12 ft/day extrapolates to a breach of the Hoover 1,035 ft threshold in ~40 days, but **Mead RISES Aug→Sep in 4 of 5 years**; I would have called a false Red on the threshold Will approved the previous day, in its first week ⇒ **AEO-10 (80%, no breach through 12/31)**. **Third finding:** Mead's autumn rise is *fed by Powell releases* and Powell is empty ⇒ **one coupled system with a lag, not two independent witnesses**, and **USBR projects Mead below every one of its last 5 seasonal paths** — the checkable observable, routed to WATT. FLOW-11.
+- **✅ ROW 48 ENCODED — closes the PROME row.** C6 threshold split into two rows, **Mead-vs-Hoover-1,035 marked BINDING**, superseded row preserved verbatim, dated re-spec. **Declared one deviation to PROME rather than letting it be found:** widened Orange on the Mead row 5 ft → 10 ft (a 5-ft Orange on a ~4.8-ft margin skips Orange entirely); offered to revert.
+- **C2 vs C4 — same drought data, opposite verdicts, and the discrimination kept both scores honest.** USDM crossed **50% D1-D4** (50.38%, every tier up WoW) — but deterioration is **OK / TX Panhandle**, and crops **independently refuse to confirm** (corn 61 / soy 62, **6 pts above my band**). So drought feeds **fire**, not the corn belt. **C4 held at 3** because **155% is ACREAGE and my RED band is a CAT-LOSS instrument** (insured losses still ~25-28% *below* average — that divergence IS the C4 thesis). **C2 held at 2.** KB-056, VX-22.
+- **Four channels HELD against pressure to move them**, each on the letter of a written trigger — C6 (record 0.45 ft away), C5 (Duisburg leg unconfirmed), C4 (instrument mismatch), C2 (one benign print). **Noted the C2 kill rule is now HALF-SATISFIED** (crop leg >60%) — if crops hold through an historic El Nino autumn that is a **mechanism falsification to be graded**, not a quiet channel.
+- **Guard registered against a read most people will reach for:** **a record El Nino does NOT refill the Colorado** — the reliable wet signal is the **Lower** Basin; Powell's inflow is **Upper** Basin, near the ENSO dipole pivot. **ROD (~10/1) and 12/31 expiry are decided at the bottom; relief arrives spring-2027 — the policy and hydrology clocks are two quarters out of phase.** KB-054, FLOW-12.
+- **C1 suppression now visible in storm-level reasoning, not just seasonal outlooks:** NHC 8/13 has AL92 at 80%/80% but *"expected to weaken… strong upper-level winds and dry air"* — that IS the El Nino shear mechanism. AL94 30/50; ex-AL93 is TD Cristobal near the Azores. **No Gulf/FL system; escalation line NOT fired.** KB-055.
+- **DEWEY DR-4 gap closed back to them:** their report declares "Rhine logistics — not pulled"; that leg is mine and I had it at the primary. Sent it with both limits attached (magnitude unpulled; **European basin — do NOT weld to the ENSO root**). Also checked my own surfaces for their inverted "gas prices falling" premise — **nothing of mine carried it.** KB-057.
+- **Routed:** WATT, MARCO, PROME, DEWEY. **Housekeeping:** PREDICTIONS ragged rows padded to schema; KB.tsv 14-vs-13-field raggedness noted as pre-existing and **not** mine.
 
 ### 2026-08-12 — REVIVAL (PROME-directed, Will-approved): WATT unblocked, self-caught inversion, staged trade dead-legged
 9 days dark; AEOLUS was the fleet's one live blocking dependency. **Delivered 4 packets, all committed under carve-out ①.**

@@ -134,10 +134,16 @@ Durable banded rules live here; the live read lives in STATUS with `[src M/D]` +
 | Reinsurer cat-loss tally (Gallagher Re/Munich Re, YTD vs 10-yr avg) | ≥110% | ≥130% | ≥150% | C4 → REGINALD/CREED |
 | Panama Canal daily transits (vs ~36 normal) | ≤32 | ≤27 | ≤22 (draft-restricted) | C5 → CARL/MARCO |
 | Rhine/Mississippi level vs navigable minimum | within 20% | within 10% | below minimum | C5 → CARL/HENRY |
-| **C6** Lake Mead/Powell elevation vs next Reclamation shortage tier | within 15 ft | within 5 ft | at/through tier / min power pool | C6 → WATT/CARL/MARCO |
+| **C6 — BINDING** Lake **Mead** elevation vs **Hoover 1,035 ft** (economic threshold) | within 15 ft | within 10 ft | **at/below 1,035 ft** | C6 → WATT/CARL/MARCO |
+| **C6** Lake **Powell** elevation vs min power pool 3,490 ft / all-time low 3,519.92 ft | within 15 ft | within 5 ft | at/through min power pool | C6 → WATT/CARL/MARCO |
 | **C6** Colorado River guideline milestone (Draft/Final EIS, ROD, expiry) | milestone within 60d | within 30d | ROD signed / 12-31-26 expiry | C6 → WATT/CARL/MARCO/VULCAN |
 | **C6** Western snowpack % of median @ Apr 1 (sets allocation) | <90% | <70% | <50% | C6 → CARL/MARCO |
 | ENSO ONI index | ±0.5 | ±1.0 | ±1.5 (strong) | all channels (shared antecedent) |
+
+> **C6 RE-KEY — encoded 2026-08-13, ruled by Will (batch) 2026-08-12; ruling of record `PROME/proposals/2026-08-12_rule-batch-RULED.md` row 48. Defect fix at the primary, not a judgment move.**
+> **Superseded row, preserved verbatim:** `| **C6** Lake Mead/Powell elevation vs next Reclamation shortage tier | within 15 ft | within 5 ft | at/through tier / min power pool | C6 → WATT/CARL/MARCO |`
+> **Why:** the old row treated Mead and Powell as one interchangeable metric keyed to shortage tiers, and my live read anchored on **Powell** (~32 ft of margin above min power pool). Per Final EIS **Technical Appendix 15**, that is the *comfortable* reservoir and 3,490 ft is a **~52% derate, not a cliff** — Glen Canyon still holds ~630 MW there. The **binding** constraint is **Hoover at Mead 1,035 ft**, an *economic* threshold: capacity 1,274 MW → 382 MW, below which operating cost exceeds the value of the power produced. Mead has **~5 ft** of margin against it, not 32. Split into two rows so the binding metric cannot be satisfied by reading the slack one. *(Found in my own row and reported rather than self-adjudicated — the ruling records that explicitly.)*
+> **Orange widened to "within 10 ft" on the Mead row only** — a 5-ft Orange band on a 5-ft margin would skip Orange entirely and jump Yellow→Red. **No other band moved in this edit** (batch rider).
 
 *Conjunction triggers (LIQUID): fire on `A AND B` where a single metric would knee-jerk (e.g. strong La Niña AND <45% crop condition). Verify live values before any band call — no naked numbers.*
 
