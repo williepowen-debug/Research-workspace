@@ -23,7 +23,7 @@
 
 ## ⚠️ TWO RETRACTIONS OF MY OWN PUBLISHED CLAIMS
 
-1. **"post-GFC high is defensible on the MONTHLY series"** — **FALSE.** Freddie Table 6 has **Sep-2025 at 0.51%, an exact tie.** Not a new high on *either* series. The **"0.39% monthly prior peak" is contradicted by all 13 months (0.42–0.51%) — RETIRED.** ⚠️ Supportable line is only *"ties Sep-2025, top of a 13-month range."* **Do not invert it into an opposite superlative.**
+1. **"post-GFC high is defensible on the MONTHLY series"** — **FALSE.** Freddie Table 6 has **Sep-2025 at 0.51%, an exact tie.** Not a new high on *either* series. ⚠️ **The "0.39% monthly prior peak" is UNVERIFIED BY ME, NOT REFUTED** — my first wording ("contradicted… RETIRED") was withdrawn later the same session: `consumer_check` traced it to BOARD/SIG-W-20260511-039 where it is a **~2010 GFC-era** peak called "already BREACHED," and a 13-month file cannot refute that. **The Sep-2025 tie carries the finding on its own.** ⚠️ Supportable line is only *"ties Sep-2025, top of a 13-month range."* **Do not invert it into an opposite superlative.**
 2. **"FRED_API_KEY is empty"** — **FALSE, and the mechanism is reusable.** My grep pattern `FRED[A-Z_]*=` ends at the `=` and **echoed back my own redaction mask, which I read as absence.** Key present (len 32); `fetch.py fred` works. **New-key ask WITHDRAWN before cost.** ⚠️ Not PROME's guessed cause (wrong file) — I had the right file. **Rule: a redacting command's output is never evidence about the redacted value; test by LENGTH.**
 
 ## WHAT ELSE LANDED
