@@ -13,6 +13,49 @@
 
 ## NEXT SESSION — START HERE
 
+*(2026-08-13 closeout. Supersedes everything below. Standing Will river/water directive at the top of this file is UNCHANGED.)*
+
+### 🔴 TWO DATED THINGS FIRE WITHIN DAYS — check both first
+
+1. **POWELL RECORD BREAK — ~1-2 days out.** `curl -s https://www.usbr.gov/uc/water/hydrodata/reservoir_data/919/csv/49.csv | tail -3`
+   **3,520.37 ft (8/12) vs the 3,519.92 record; falling every day since 7/29.** On the print: resolve **AEO-06 HIT (95%)**, **C6 → 4**, route WATT/CARL/MARCO. **Do not pre-fire.**
+2. **C5 TRIGGER — fires ~8/18 if the forecast holds.** Needs **Kaub daily mean ≤25 cm AND Duisburg-Ruhrort ≤153 cm on 10 CONSECUTIVE days**; **at 5 of 10**, run began **8/09**. ⚠️ **Grade on UNROUNDED daily means** — SERIES stores rounded cm and 25.4 rounds to 25. On firing: **C5 → 5**, resolve **AEO-11 (70%)**.
+
+### Then
+3. **⏰ CPC DJF 2026-27 outlook (~8/20)** — still **PUBLIC-AND-UNFETCHED**, owed to **WATT and MARCO**. Highest-value dated item I hold; with a 69% historic-event probability there is no analogue set left to average.
+4. **C6 ROD watch ~8/25**, ahead of earliest 8/30. Grade the ROD **against the alternatives MATRIX**, naming which alternative it adopts — never against a headline triple.
+5. **8/24 — Brent >$85 grading check owed to MARCO** (settlements).
+6. **Base-rate USBR's 24-month-study projection error** — AEO-10's 80% rests on a 2.1 ft buffer with no error bar.
+7. **Retrieve the current ACP Monthly Canal Operations Summary** — discover by search, **never** the advisories index (JS-rendered, silently stale).
+
+### ⚠️ STATE OF THE FILE — what changed structurally today
+
+**Five domain workspaces** (`regime/ water/ hurricane/ wildfire/ seismic/`), each with README · DOSSIER · SOURCES · AGENT · workbook. **Layer contract: observations → findings → synthesis, one-way.** `KB.tsv` is NOT split by domain; domain workbooks hold **observations** (137 rows in `water/`). **Sub-agents spawn on-demand; `RUN_REPORT.md` is the deliverable, not the message.**
+
+**THREE registered thresholds could not fire as written and are now instrumented:**
+- **ACE** — computed from HURDAT2 + ATCF. Normal **122.6**; 2026 STD **3.09**. ⚠️ **Never compare season-to-date to the FULL-season normal** — only ~10.8% accrues by Aug 13, so use ~13.2.
+- **C5 Duisburg leg** — was a station name with no level. Now WSV `NNW` **25 / 153**, 10-day conjunction.
+- **Panama** — ACP Monthly Ops Summary, **38.70 transits/day** (Apr-26). ⚠️ Read **TRANSITS**, not the adjacent **ARRIVALS** (40.5).
+
+**Plus two more found and closed same day:** Danube `LKV` (ArcGIS, ships its own below/above flag) and Paraná (derive from the station's own 366-day history; **P10 ≈ 1.40 m** working low-water line).
+
+### 🔑 THE ONE THING TO CARRY FORWARD ANALYTICALLY
+
+**Rhine and Danube are ONE event, not two.** Rhine records set **2018-10-22/23**, Danube **2018-10-24/26** — same drought, same week. **13 consecutive Danube stations below record (233 km) + 4 of 6 Rhine gauges.** **Count the European basin root ONCE.** It is still separate from the ENSO root.
+**Paraná runs the OTHER way** — 99th percentile of its trailing year. Not firing, not near firing. **A high Paraná is good for grain logistics.**
+
+### ⚠️ SIX CORRECTIONS OF MY OWN WORK TODAY — read L-15 through L-26
+
+Powell wrong by 3.83 ft and inverted (tracker vs USBR) · dropped a worker's hedge when relaying · mis-flagged a WALTER signal that was correct · called the Paraná "mid-range" at the 99th percentile · adopted news EIS figures that understated cuts 2-4× · a base rate whose driving mechanism had changed. **All caught by going to a primary or computing a distribution.** The pattern: **a number without its reference, or a finding without its caveat, reads as complete.**
+
+### Owed / open
+**WATT** (CPC DJF; Lees Ferry weekly — it LEADS Mead) · **MARCO** (CPC DJF; 8/24 Brent) · **CARL/REGINALD** (EIS matrix delivered, replies open) · **SAM** (Kumamoto question) · **WALTER/DEWEY** (delivered, no reply needed).
+**Still open:** re-derive channel signs against **RONI** not ONI (would likely SOFTEN several reads) · no verified **freight** source anywhere · Danube is multi-national and Austria/Serbia are unexplored · `KB.tsv` has 19 pre-existing 14-field rows vs a 13-col header (**not mine, undiagnosed**).
+
+---
+
+### ⬇️ SUPERSEDED — earlier 8/13 block, retained as history.
+
 *(2026-08-13 — this block supersedes the 8/12 block below. Standing Will river/water directive at the top of this file is UNCHANGED and still governs.)*
 
 **All six channels carry a current dated read — the #1 guard is satisfied. C2 and C4 are CLOSED, not stale.** Don't re-open them as gaps; they were refreshed at primaries 8/13.
@@ -123,6 +166,18 @@ Standing data sources: CPC **primary** (ENSO — ensodisc.pdf/oni.ascii.txt/ssto
 ---
 
 ## SESSION LOG (newest first)
+
+### 2026-08-13 (PM) — Will-directed: 5 domain workspaces built, sub-agent architecture shipped, THREE dead thresholds found and instrumented
+Long session. **The through-line: Will kept asking me to close gaps, and each gap turned out to be a threshold that could not fire.**
+- **STRUCTURE.** Built `water/ wildfire/ seismic/` then `regime/ hurricane/` — five workspaces, each README · DOSSIER · SOURCES · AGENT · workbook. **`water/` broadened to HYDROLOGY** when Will caught that I had filed **drought under `wildfire/`** — a shared input filed under one of its four consumers, invisible to the other three. **Rule added: never file a multi-channel input under one of its consumers.**
+- **SUB-AGENT ARCHITECTURE (design → approved → built → dry-run).** Layer contract **observations → findings → synthesis, ONE-WAY**. `KB.tsv` deliberately NOT split by domain (11 rows are multi-channel; the best rows are the cross-domain syntheses; and 5 early rows have `DerivedFrom` in the `Vectors` column, so a migration would silently misfile). **No migration — purely additive.** `LEDGER_GLOB` added or the staleness enforcer silently skips all 11 new ledgers.
+- **TWO WORKER RUNS.** #1 did clean work and **idled twice without delivering** → fixed architecturally: **`RUN_REPORT.md` is the deliverable, the message is a courtesy** (L-19). #2 (Rhine) **delivered file + message**, and its report was excellent: caught a **precision hazard in the trigger I had written hours earlier** (SERIES rounds to whole cm; 25.4 → 25 would falsely satisfy ≤25), found the **WSV forecast endpoint** (undiscoverable from metadata), and flagged a **datum caveat** load-bearing on a 12 cm margin. **I rejected one claim as non-reproducible** (its 8/17 forecast values; my pull spans 8/13-15 only).
+- **🔴 THREE REGISTERED THRESHOLDS COULD NOT FIRE AS WRITTEN.** **ACE** (no source → computed from HURDAT2+ATCF, normal **122.6**, 2026 STD **3.09**); **C5 Duisburg leg** (named a station, no level → WSV `NNW` **25/153**, 10-day conjunction, base-rated [1,1,5]); **Panama** (no retrieval path → ACP Monthly Ops Summary, **38.70 transits/day**). **Plus two more found and closed same day:** Danube `LKV`, Paraná distribution. **A named threshold reads like a threshold.**
+- **🔴 EUROPEAN BASIN-WIDE.** Rhine **4 of 6** gauges below their records (Mainz exactly on its 1947 mark); Danube **13 CONSECUTIVE stations** below theirs, Vác→Mohács **233 km**, deepest −40 cm. ⚠️ **Rhine records 2018-10-22/23, Danube 2018-10-24/26 — ONE event, count ONCE.** **Paraná runs the other way: 99th percentile of its trailing year.**
+- **COLORADO EIS PULLED AT THE PRIMARY.** The news triple **spans different columns and describes no alternative that exists**; the Preferred Alternative is **AZ 1.96 / CA 0.90 / NV 0.21 maf**, understated by **2.0-4.2×**. Routed to CARL/MARCO/REGINALD/WATT **by measured exposure** — REGINALD's Mead figure was **26 ft and 5 months stale**.
+- **SIX SELF-CORRECTIONS (L-15…L-26).** Powell off by 3.83 ft *and inverted* (tracker vs USBR) · base rate whose driver had changed · dropped a worker's hedge when relaying · mis-flagged a WALTER signal that was **correct** · called the Paraná "mid-range" at the 99th percentile · adopted news EIS figures unverified. **Every one caught by going to a primary or computing a distribution.**
+- **Predictions:** AEO-06 → **95%** · AEO-01 → **80%** (ACE base rate: 5 of 6 quietest Aug-13 seasons finished below normal; the 1998 exception reversed *because ENSO flipped to La Niña*, which points my way) · **AEO-11 NEW** (C5 trigger fires by 8/31, 70%) · AEO-10 basis replaced, tier lowered.
+- **Workbook:** KB 59→71 · VX 22→25 · FLOW 11→12 · PREDICTIONS 9→11 · **`water/workbook/SERIES.tsv` 137 observation rows** (a layer that did not exist this morning). Two auto-memories written.
 
 ### 2026-08-13 — CPC step-change + a self-caught source error that inverted a prediction's sign
 All six channels current for the first time since 8/03; **C2 and C4 stale-flags CLEARED** at primaries. **Composite unchanged 17/30 — and I flagged in STATUS that the number is now hiding the movement rather than describing it: four channels sit just under a written trigger.**

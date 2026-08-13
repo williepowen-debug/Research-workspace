@@ -25,3 +25,17 @@ Found four times in one day (RED, 2026-08-12), and the pattern is *not* "a desk 
 - **Continuous front-month series are not contracts** — they splice across rolls, so a price move spanning a roll is partly an instrument change.
 - **An intraday read of a T+1-published series is PROVISIONAL**: it may *indicate*, only a published observation may *complete* a count. This generalises the futures-bar rule onto any cash/derived series — the "cash index is exempt" reading is too broad.
 - Related: [[finding_number_carries_threshold_unit_source]] · [[finding_threshold_level_is_a_measurement_not_a_constant]] · [[finding_escalation_line_needs_delta_not_level]] · [[finding_relayed_level_predates_the_event]].
+
+---
+
+**AEOLUS extension, 2026-08-13 — the degenerate case: a registered threshold whose instrument resolves to NOTHING AT ALL.** The parent finding is *ambiguous* instrument (two readers, two answers). The worse variant is *absent* instrument — a gate that **cannot fire under any data**, because nothing defines firing. **Found three times in one AEOLUS session, all live, all months old:**
+
+- **ACE band** (`≥110/130/150% of normal`) — no source. The one page that reports it returns a 404 shell. Half of a prediction's resolution criterion.
+- **C5 upgrade trigger** — read *"sustained below minimum AND Duisburg cutoff."* It **named a station and never defined a level.** The channel had been held at 4 for two sessions "pending the Duisburg leg" — while Duisburg had been **below its all-time record for six days.** The leg was never *unconfirmed*; it was **unmeasured because undefined**, and the vagueness read as caution.
+- **Panama AEO-04** — resolution criterion named "ACP announces a restriction" with **no retrieval path**; the threshold table carried an unsourced *"~36 normal."*
+
+**Why all three stayed invisible for months: a named threshold READS like a threshold.** A registry row with a number in it looks complete, and the reader's eye stops there. **Nobody asks "if this fired, what would I open?"**
+
+**The audit that finds them, and it is cheap:** for every registered threshold, **name the exact command that returns its number.** If you cannot write the command, the gate is decorative. **Three of AEOLUS's thresholds failed that test in one afternoon.**
+
+**And the fix is often to COMPUTE rather than locate.** ACE closed by computing it from NHC HURDAT2 + ATCF best-track (normal 122.6) instead of hunting a publisher — which turned out strictly better: reproducible, self-validating (the same parse returns NOAA's published storm/hurricane normals), and **base-rateable**, so *"2.5% of normal"* mid-season could be corrected to the honest *"23% of the TO-DATE normal."* **A scraped total can never tell you that.**
