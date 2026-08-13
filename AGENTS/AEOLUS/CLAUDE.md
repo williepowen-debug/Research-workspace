@@ -51,6 +51,17 @@ At boot, after STATUS / MEMORY / LAST_COMPLETION:
 
 1. **Update `STATUS.md`** — matrix scores, live reads (sourced + dated), exit triad fired-count, refreshed BOTTOM LINE.
 2. **Log to workbook** — new facts → `KB.tsv`; vector state changes → `VX.tsv`; new/confirmed pathways → `FLOW.tsv`; new forecasts → `PREDICTIONS.tsv` (AEO-NN).
+
+2b. **🔴 DOMAIN LOG CHECK — mandatory, ~2 seconds** *(added 2026-08-13 after L-28)*
+```bash
+python3 AGENTS/AEOLUS/scripts/domain_log_check.py
+```
+**Flags any domain folder that was TOUCHED today but whose event log gained no row, and any folder whose channels gained central `KB.tsv` rows while its own log stayed silent.** Advisory (exit 0 always) — **the loudness is the control, not the exit code.**
+
+> ⚠️ **Why this exists, and why no other check catches it.** On 2026-08-13 `water/` gained five bodies of work. The **one** done by a spawned worker landed in `water/workbook/LOG.tsv`; the other four were done by **me** directly, went straight to central `KB.tsv`, and never touched the domain log. **`AGENT.md` disciplines WORKERS into writing the observation layer. Nothing disciplines the orchestrator.** Orphan check, consumer check and ledger-staleness all passed that day — **none of them asks whether the domain layer recorded what the domain did.**
+> **The contract binds whoever DID the work, not whoever was spawned.** If you do domain work directly, write the domain's observation layer exactly as a worker would have.
+> *(On its first run this check found two live gaps — `wildfire/` and `hurricane/` — that I had not noticed.)*
+> **`seismic/` is exempt from the touched-but-silent test by design** — quiet is its expected state.
 3. **Writeback `NEXUS_BRIEF.md`** — curated cross-agent sync (every closeout). `outbox/` only for 🔴 crisis (async).
    > **⏱️ ORDERING (NEXUS schema Amendment 10, ratified 2026-07-31 Will-approved; propagated to me by PROME 8/4, adopted 8/12): the brief fold is the session's LAST write-back — after your final STATUS write, immediately before git commit.** Checkable form: the brief's commit timestamp ≥ your last STATUS commit timestamp. **Refreshing the brief early and then continuing to work is the fleet's dominant content-stale mechanism** — the 7/31 audit found 5-of-5 stale briefs *had* refreshed and then kept working; zero had skipped it. Only the ordering constraint closes it. Schema questions → NEXUS, not PROME.
 4. **Continuity** — append a dated note to `SCRATCH.md` (next-session pickup); add any new durable lesson to `LESSONS.md`.

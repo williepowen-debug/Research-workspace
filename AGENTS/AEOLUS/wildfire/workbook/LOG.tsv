@@ -1,3 +1,6 @@
 date	event	detail	source	pulled_at	routed_to
 2026-08-01	nifc_outlook	Aug outlook expands above-normal potential into TX, OK and the Lower Mississippi Valley	NIFC-outlook	2026-08-13	AEO-09
 2026-08-02	spokane_complex	~640-700 structures destroyed / 3 fires / ~5,390 ac; provisionally most destructive in WA history	Spokesman/WA-EOC	2026-08-13	REGINALD
+2026-08-13	drought_ownership_moved	USDM drought pull commands MOVED to water/SOURCES.md - drought is a shared input to C2/C4/C5/C6 and was misfiled here, invisible to its other three consumers. wildfire/ keeps only the fire-specific discipline + a pointer	AEOLUS-direct	2026-08-13	water/
+2026-08-13	drought_fire_vs_crop_discrimination	USDM D1-D4 crossed 50% (50.38%, valid 8/11, every tier up WoW) BUT deterioration is OK/TX Panhandle, not the corn belt - so the same dataset firms the C4 peril leg and leaves C2 unconfirmed (corn 61/soy 62 G/E, 6 pts above band). Both scores HELD	USDM-API + NASS	2026-08-13	KB-AEO-056
+2026-08-13	nifc_refresh	PL5 sustained 26 days; 6,447,442 acres YTD = 155% of 10-yr avg; 101 uncontained large fires; Aug outlook expands into TX/OK/Lower Mississippi. C4 HELD at 3 - 155% is an ACREAGE figure, the RED band is a CAT-LOSS instrument, insured losses still ~25-28% BELOW avg	NIFC-NFN	2026-08-13	AEO-09

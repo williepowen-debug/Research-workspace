@@ -48,6 +48,9 @@
 
 Powell wrong by 3.83 ft and inverted (tracker vs USBR) · dropped a worker's hedge when relaying · mis-flagged a WALTER signal that was correct · called the Paraná "mid-range" at the 99th percentile · adopted news EIS figures that understated cuts 2-4× · a base rate whose driving mechanism had changed. **All caught by going to a primary or computing a distribution.** The pattern: **a number without its reference, or a finding without its caveat, reads as complete.**
 
+### ✅ NEW CLOSEOUT CHECK — run it, it already caught two things I missed
+`python3 AGENTS/AEOLUS/scripts/domain_log_check.py` — **wired into CLOSEOUT step 2b.** Flags a domain folder that was touched but whose event log stayed silent, and a folder whose channels gained central KB rows while its own log gained none. **Advisory, ~2s.** ⚠️ **Negative-tested against the real 8/13 failure** (strip water/'s rows → it flags on both tests). **On its first live run it found gaps in `wildfire/` and `hurricane/` that I had not noticed.** `seismic/` exempt from the touched-but-silent test — quiet is its expected state.
+
 ### Owed / open
 **WATT** (CPC DJF; Lees Ferry weekly — it LEADS Mead) · **MARCO** (CPC DJF; 8/24 Brent) · **CARL/REGINALD** (EIS matrix delivered, replies open) · **SAM** (Kumamoto question) · **WALTER/DEWEY** (delivered, no reply needed).
 **Still open:** re-derive channel signs against **RONI** not ONI (would likely SOFTEN several reads) · no verified **freight** source anywhere · Danube is multi-national and Austria/Serbia are unexplored · `KB.tsv` has 19 pre-existing 14-field rows vs a 13-col header (**not mine, undiagnosed**).
