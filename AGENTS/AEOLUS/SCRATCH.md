@@ -44,6 +44,28 @@ curl -s https://www.usbr.gov/uc/water/hydrodata/reservoir_data/919/csv/49.csv | 
 
 ---
 
+## ★ NEW STRUCTURE (2026-08-13, Will-directed) — three domain workspaces
+
+`water/` · `wildfire/` · `seismic/` — each with **`README.md`** (charter), **`DOSSIER.md`** (live state), **`SOURCES.md`** (**verified working pull commands**). Wired into `CLAUDE.md` § FILES.
+
+| Folder | Channel mapping | Boot obligation |
+|---|---|---|
+| `water/` | **C6 allocation** (Colorado) + **C5 navigation** (Rhine + Will's major-river watch) | normal |
+| `wildfire/` | **C4's physical PERIL leg — NOT its own channel** (Will-ruled; a separate score would double-count against C4 property) | normal |
+| `seismic/` | volcanic + earthquake → C2 / C1-C4 / C5 / C3 | 🟡 **NONE — event-triggered watch** |
+
+**Two rulings from Will this session, both encoded:**
+1. **Seismic is an event-triggered watch, NOT a core channel.** It has **5 armed numeric triggers (S-1…S-5)** and **no standing live-read obligation** — **quiet is the expected state and an empty dossier there is CORRECT.** Explicitly exempted from the #1 guard in the boot sequence. **Audit it by checking triggers/sources resolve, never by entry count.** *(Reason: zero prior material; a core channel with a permanently-empty read is the DARWIN failure mode, and a cold-start scaffold grades worse than none.)*
+2. **Wildfire stays inside C4** as the peril leg.
+
+**My own call, not Will's — flag if you disagree:** the central `workbook/` stays **canonical**; folders hold synthesis and method only. **Never fork a ledger into a domain folder** (breaks the `KB-AEO-NN` ID scheme and makes cross-channel queries lie).
+
+**Seismic went live with real data, and 0/5 triggers fired — which is the discriminator working.** Baseline 8/13: 12 significant quakes/30d incl. **M7.4 Colombia** and **M7.3 Mexico** — **both fired nothing** (low insured density). 5 US volcanoes elevated; **Great Sitkin WATCH/ORANGE but only High threat, Kilauea Very High but only ADVISORY — neither satisfies S-5's two legs.** GVP week 7/30-8/5: 23 items, no stratospheric injection ⇒ no C2 consequence.
+⚠️ **One item routed out: M6.8 Kumamoto, Japan (7/28)** — USGS-named, industrially dense, **SAM's geography**. Sent to SAM **as a question with an explicit "I have magnitude/date/place and nothing else"** — did NOT reason from the 2016 Kumamoto supply-chain precedent. Likely already covered; sent because assuming coverage is the worse failure.
+⚠️ **Recorded a non-link on purpose:** Puracé (Cauca) erupting + M7.4 San José del Palmar (Chocó) are both "Colombia" and are **not** connected. Logged so a later reader doesn't rediscover the pair and infer a mechanism.
+
+---
+
 ### ⬇️ SUPERSEDED — the 8/12 pickup block, retained as history.
 
 *(2026-08-12 revival session — superseded by the 8/13 block above.)*

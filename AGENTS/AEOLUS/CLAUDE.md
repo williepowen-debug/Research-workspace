@@ -28,7 +28,7 @@ Each channel is a standing causal line, not a topic. If a channel has no current
 3. **Read `STATUS.md`** — convergence matrix, live channel reads, exit triad, BOTTOM LINE.
 4. **Resolve predictions** — scan `workbook/PREDICTIONS.tsv` for past-trigger rows → mark HIT / MISS / FALSIFIED; log resolution to KB.tsv; never leave OPEN-but-stale (PREDICTIONS section).
 5. **Process `inbox/`** — integrate each signal, log a KB.tsv row, move to `inbox/processed/`. WALTER-lane handoffs (`inbox/WALTER/`) drain per the block below.
-6. **Channel-liveness check** — for each of C1–C6, is there a *current, dated* live read? Any channel without one is a **gap to close this session** (the #1 guard), not idle background. Also scan `CALENDAR.md` for any dated catalyst within ~30 days (C6 Colorado River ROD clock lives there).
+6. **Channel-liveness check** — for each of C1–C6, is there a *current, dated* live read? Any channel without one is a **gap to close this session** (the #1 guard), not idle background. Also scan `CALENDAR.md` for any dated catalyst within ~30 days (C6 Colorado River ROD clock lives there). ⚠️ **`seismic/` is NOT part of this check** — it is an event-triggered watch with no standing read obligation (see FILES § Domain workspaces).
 7. **Execute the task.**
 
 ### WALTER signal intake  (inbox/WALTER delivery lane)
@@ -222,6 +222,20 @@ Outbox filename: `YYYY-MM-DD_to-[target]_[desc].md`. Format: Signal / Detail (2�
 | `inbox/` `outbox/` | Cross-agent messaging. `inbox/WALTER/` = WALTER-routed signal lane (drain per boot block). |
 | `OPEN_THREADS_2026-07-09.md` | Dated self-sweep artifact — open questions / gaps / threads-to-pull. Fold into STATUS/SCRATCH or archive once integrated. |
 | `sources/` | Research corpus, briefings, archived data. |
+
+### DOMAIN WORKSPACES *(created 2026-08-13, Will-directed)*
+
+Three topic folders, each with the same three files: **`README.md`** (charter — scope, channel mapping, triggers, routing), **`DOSSIER.md`** (live consolidated state), **`SOURCES.md`** (**verified working pull commands** — copy-paste, never reconstruct).
+
+| Folder | Channel mapping | Status |
+|---|---|---|
+| `water/` | **C6 = allocation** (Colorado/reservoirs) · **C5 = navigation** (Rhine, Mississippi, + Will's standing major-river watch) | **CORE** — normal boot-liveness obligation |
+| `wildfire/` | **the physical PERIL leg of C4** — *not* a separate channel | **CORE** (via C4) — normal obligation |
+| `seismic/` | volcanic + earthquake → **C2** (VEI 6+ climate forcing), **C1/C4** (cat loss), **C5** (ash/aviation), **C3** (energy infra) | 🟡 **EVENT-TRIGGERED WATCH — NOT a core channel** |
+
+> ⚠️ **`seismic/` is deliberately exempt from the #1 guard.** It has **no standing live-read obligation**; **quiet is the expected state**, and an empty dossier there is *correct*, not a gap. It carries **5 named numeric triggers (S-1…S-5)** instead. **Audit it by checking the triggers and sources still resolve — never by entry count.** Promotion to a core channel (C7) requires ≥3 trigger fires in ~6 months or a single VEI 6+ event → DAEDALUS review, Will-gated. *(Rationale: seismic began with zero prior material; a core channel with a permanently-empty read is the DARWIN failure mode this charter exists to prevent, and a cold-start scaffold grades worse than none.)*
+
+> ⚠️ **The central `workbook/` stays CANONICAL.** Domain folders hold **synthesis and method**; KB / VX / FLOW / PREDICTIONS rows keep their `KB-AEO-NN` / `AEO-NN` IDs in `workbook/`. **Never fork a second ledger inside a domain folder** — it would break the ID scheme and make cross-channel queries lie.
 
 ---
 
