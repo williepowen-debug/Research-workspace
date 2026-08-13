@@ -51,9 +51,10 @@ Each channel is a standing causal line, not a topic. If a channel has no current
 
 1. **Update `STATUS.md`** — matrix scores, live reads (sourced + dated), exit triad fired-count, refreshed BOTTOM LINE.
 2. **Log to workbook** — new facts → `KB.tsv`; vector state changes → `VX.tsv`; new/confirmed pathways → `FLOW.tsv`; new forecasts → `PREDICTIONS.tsv` (VULCAN-NN).
-3. **Writeback `NEXUS_BRIEF.md`** — curated cross-agent sync (every closeout). `outbox/` only for 🔴 crisis (async).
+3. **Falsification check** — re-read `workbook/EXIT_PROTOCOL.md`. Re-evaluate the **thesis-kill leg count** (a count that never moves is a count nobody is checking) and honour its **dated rewrite trigger**.
 4. **Continuity** — append a dated note to `SCRATCH.md`; add any new durable lesson to `LESSONS.md`.
-5. **Git** — commit own files per root CLAUDE.md §Git Protocol (pathspec `AGENTS/VULCAN/`) + auto-push via `scripts/safe-push.sh` (ff-gated; non-ff → `git pull --rebase`, never force).
+5. **Writeback `NEXUS_BRIEF.md` — ⚠️ THIS IS THE SESSION'S LAST WRITE-BACK**, after your final `STATUS.md` write and immediately before the git commit (NEXUS schema **Amendment 10**, ratified 2026-07-31 Will-approved; propagated to VULCAN by PROME 2026-08-04). **Checkable form: the brief's commit timestamp ≥ your last STATUS commit timestamp.** *Why it is an ORDERING rule and not a reminder to refresh: the 7/31 fleet audit found 5-of-5 content-stale briefs had refreshed and then kept working — **zero** had skipped the refresh. Refreshing mid-session and continuing is the dominant staleness mechanism; only the ordering constraint closes it.* Schema questions → NEXUS, not PROME. `outbox/` stays 🔴-crisis-only (async).
+6. **Git** — commit own files per root CLAUDE.md §Git Protocol (pathspec `AGENTS/VULCAN/`) + auto-push via `scripts/safe-push.sh` (ff-gated; non-ff → `git pull --rebase`, never force).
 
 > **Boot↔Closeout symmetry:** what you read at boot (SCRATCH, STATUS, PREDICTIONS), you write back at closeout. The anti-rot force.
 
@@ -199,7 +200,7 @@ Outbox filename: `YYYY-MM-DD_to-[target]_[desc].md`. Format: Signal / Detail (2�
 | `THESIS.md` | Per-channel transmission-stage tables (where the richness lives). |
 | `TRADE.md` | Domain trade ideas feeding PROME synthesis. FROZEN banner or live mtime alert — never silent-rot (blueprint §8). |
 | `boot.py` | Boot instrument, **3 legs**: ledger staleness · predictions-due · **S2-series content-vintage** (advisory; prompts `semi_watch.py`, does not fetch — boot stays fast + offline-safe). cwd-proof; self-locating. rc 0 quiet / 1 REVIEW / 2 leg-failed. |
-| `tools/semi_watch.py` | **S2 instrument (built 2026-08-03).** Retains the memory-cycle series → `workbook/S2_SERIES.tsv`: DRAM spot (TrendForce DDR5/DDR4 session avgs, **range-validated** parse) + the **constituent-level** equity cross-section (memory · semicap · foundry vs AI-compute · benchmarks). ⚠️ Constituent-level **by design** — semis are priced for dispersion (KB-067), so an index-only read understates the move; do not "simplify" to SOXX. Contract prices stay in KB.tsv (quarterly, LTA-governed — not a scrapeable cadence). Fails **loud** (`ERR:` fields, never blanks or stale carry-forward). `--dry-run` · `--show N`. |
+| `tools/semi_watch.py` | **S2 instrument (built 2026-08-03).** Retains the memory-cycle series → `workbook/S2_SERIES.tsv`: DRAM spot (TrendForce DDR5/DDR4 session avgs, **range-validated** parse) + the **constituent-level** equity cross-section (memory · semicap · foundry vs AI-compute · benchmarks). ⚠️ Constituent-level **by design** — semis are priced for dispersion (KB-067), so an index-only read understates the move; do not "simplify" to SOXX. Contract prices stay in KB.tsv (quarterly, LTA-governed — not a scrapeable cadence). Fails **loud** (`ERR:` fields, never blanks or stale carry-forward). `--dry-run` · `--show N`. ⚠️ **2026-08-13: the equity leg needs `yfinance`, which lives ONLY in the repo `.venv/` — this table, the tool's USAGE block and `boot.py` all used to say bare `python3`, and under it the ENTIRE cross-section wrote `ERR:yfinance-missing`.** Fixed **at the tool** (it now re-execs under `.venv/bin/python`), so any invocation works — but **treat a partial run as a FAILED run, never a degraded one: the leg that breaks is the one carrying the newest evidence, so partial failure is biased toward preserving your priors.** [L-16] |
 | `SCRATCH.md` | Immediate next-session continuity — "pick up here." |
 | `NEXUS_BRIEF.md` | Curated cross-agent sync, written back every closeout (blueprint §6). |
 | `LESSONS.md` | Durable agent-level learning. |
@@ -208,6 +209,7 @@ Outbox filename: `YYYY-MM-DD_to-[target]_[desc].md`. Format: Signal / Detail (2�
 | `workbook/VX.tsv` | Vectors — channel risk indicators + state. |
 | `workbook/FLOW.tsv` | Transmission pathways. |
 | `workbook/PREDICTIONS.tsv` | Falsifiable forecasts (VULCAN-NN) + resolution tracking. |
+| `workbook/EXIT_PROTOCOL.md` | **The kill rail (authored 2026-08-13, discharging the Market-L3 requirement).** Thesis-kill legs with levels/instruments/windows/from-states · per-channel kill + **migration path** · the live bidirectional flip · the disconfirming set · a **dated rewrite trigger**. **STATUS's triad stays canonical for firing STATE; this file holds what kills the THESIS. Neither restates the other — where a kill condition is a registered prediction, this file cites the ID.** Re-read at every closeout. |
 | `workbook/S2_SERIES.tsv` | **Append-only S2 memory-cycle series** (spot + equity cross-section), written by `semi_watch.py`. The retained history S2 lacked when it was upgraded to score 3. Vintage is **content-derived** (`asof_utc` column), never mtime. |
 | `inbox/` `outbox/` | Cross-agent messaging. |
 | `sources/` | Research corpus, briefings. |
