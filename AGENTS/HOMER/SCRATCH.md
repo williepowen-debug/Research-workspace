@@ -38,6 +38,17 @@
 - **NEXUS Amendment 10** ordering rule encoded into `CLAUDE.md` CLOSEOUT.
 - **`RATES.tsv` sourcing convention adopted:** **issuer is PRIMARY** (Freddie for PMMS, Treasury for DGS), FRED = documented mirror via the **sanctioned `fetch.py fred` path only.**
 
+## SENT THIS SESSION — all committed, all verified present in the recipient's inbox
+
+*(`outbox/` is EMPTY and that is the point — per LESSONS, a packet in `outbox/` is UNDELIVERED by definition; the recipient's `inbox/` is the wire.)*
+
+- **CORAL** — SEL-2026-05 landed at PRIMARY: two Selling Guide sections DELETED (`B4-2.2-01` Limited Review, `B4-2.2-04` Geographic-Specific/FL PERS), the working host path, my own framing corrected (≤10-unit waiver is real but lands on a cohort **disjoint** from the SIRS towers), and one figure I could **not** confirm — her $10,000/unit threshold.
+- **WALTER** — `SIG-W-20260511-039` labels GSE **multifamily** DQ as **90+ days**; both issuers' footnotes say **60+ on UPB** (90+/by-count is single-family). Its **figures are correct**, which makes the mislabel more dangerous. Also withdrew my own wrong-reasoned retraction of that signal's 0.39% GFC-peak figure.
+- **PROME ×2** — (a) row 45/46 **encode confirmed** with the SEEDED-not-fired routing ask; (b) `memory/auto/auto/` holds a memory the harness can never load (**not mine, not touched**).
+- **CARL** — MBA Q2 NDS out; **FHA 11.88% is stale on two live dashboards** (`CARL/STATUS.md:38`, `STUE/STATUS.md:462`) and the *superlative* breaks too (11.79% is the **second**-highest since Q2-2021, not the highest). **The load-bearing half is the caveat: the decline is migration, not relief.**
+
+⚠️ **Still owed, deliberately held:** **WALTER `SIG-W-20260812-019`** (builder net-effective price, 3 asks). **Lean: yes, instrument it — but from builder earnings disclosures (DHI/LEN/PHM all quantify incentive load), NOT from the two relayed screenshots, neither of which was fetched at source.**
+
 ## ⚠️ OPEN / UNSETTLED — do not publish these as settled
 
 1. **HOM-01: one early-kill arm fired. The 8/31 FMHPI July print decides it.** Grade on **that release's own as-published figures for BOTH months** — NOT against the +2.1% on record. Year-verify (trap has hit 3× on this series, in both directions).
