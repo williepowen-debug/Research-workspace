@@ -70,6 +70,14 @@ proposed_findings:   <candidate KB rows w/ sources — PROPOSALS only, AEOLUS ad
 gaps:                <instruments not pulled + the exact error text>
 ```
 
+🔴 **WRITE THE REPORT TO A FILE. THAT FILE IS THE DELIVERABLE.**
+
+**Your LAST file write must be `AGENTS/AEOLUS/regime/RUN_REPORT.md`**, containing the five fields above plus a `run_date:` line. **Overwrite it each run** — it holds the most recent run only.
+
+**Then also send the same content as your final message.** But the **file is authoritative**; the message is a courtesy.
+
+⚠️ **Why it works this way — measured, not theoretical.** On the 2026-08-13 dry-run the worker did clean file work and then idled **twice** without returning anything, including once after being asked directly. **A message is ephemeral and the orchestrator cannot distinguish "finished silently" from "died mid-run."** A file is durable, diffable, survives a crashed worker, and **its absence is itself detectable**. So the deliverable is an artifact, never a message.
+
 ⚠️ **`gaps` is not an admission of failure — it is a required output.** A silent gap is worse than a reported one. **Report a failed pull rather than a worked-around one, every time.**
 
 ## OPEN QUESTIONS AEOLUS WANTS PROGRESS ON

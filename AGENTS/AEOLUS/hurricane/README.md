@@ -57,6 +57,9 @@ I have graded this on the letter **twice this month** and both times it held:
 |---|---|
 | `README.md` | this charter |
 | `DOSSIER.md` | live basin state, season outlooks, the peril↔loss divergence |
+| `AGENT.md` | Spawn brief for a domain worker — scope, instrument vocabulary, hard limits, return contract. |
+| `RUN_REPORT.md` | **The deliverable of the most recent worker run** (overwritten each run). Absent = no run, or a run that died. |
+| `workbook/SERIES.tsv` `LOG.tsv` | **Observations** — time series + dated events. Keyed by `(date, instrument)`; append-only. |
 | `SOURCES.md` | verified pull commands + what failed |
 
 ⚠️ **Central `workbook/` stays canonical** — no forked ledger here.

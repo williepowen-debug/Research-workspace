@@ -1,0 +1,6 @@
+date	event	detail	source	pulled_at	routed_to
+2026-07-31	colorado_final_eis	Post-2026 Operating Guidelines Final EIS published + Federal Register NOA	USBR/DOI	2026-08-13	
+2026-08-13	powell_record_watch	3520.37 ft = 0.45 ft above all-time low, falling every day since 7/29 (~0.19 ft/d)	USBR-919-49	2026-08-13	AEO-06
+2026-08-13	lees_ferry_9yr_low	Aug releases 7,862 cfs = lowest of 9 yrs, -42.4% vs mean; measures the Powell->Mead coupling directly	USGS-09380000	2026-08-13	WATT
+2026-08-13	powell_record_threshold_verified	USBR 919/49 primary confirms 3519.92 ft on 2023-04-13 as the post-1980 minimum; 2026-08-12 3520.37 ft ranks 6th-lowest, 0.45 ft above. 15 consecutive daily declines 7/29-8/12, mean -0.158 ft/d, range -0.11 to -0.23.	USBR-919-49	2026-08-13	
+2026-08-13	acp_no_2026_restriction_advisory	ACP primary re-checked: Advisories-to-Shipping index newest entry is A-46-2024 (FY2025 Dec); Notices-to-Shipping 2026 lists only standing N-01..N-13. No 2026 draft or transit RESTRICTION advisory published; no transit count published on either page.	ACP	2026-08-13	AEO-04 instrument gap

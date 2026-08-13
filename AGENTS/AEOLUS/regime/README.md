@@ -54,6 +54,9 @@
 |---|---|
 | `README.md` | this charter — the baseline rules and standing disciplines |
 | `DOSSIER.md` | live regime state + the ONI↔RONI reconciliation + per-channel sign table |
+| `AGENT.md` | Spawn brief for a domain worker — scope, instrument vocabulary, hard limits, return contract. |
+| `RUN_REPORT.md` | **The deliverable of the most recent worker run** (overwritten each run). Absent = no run, or a run that died. |
+| `workbook/SERIES.tsv` `LOG.tsv` | **Observations** — time series + dated events. Keyed by `(date, instrument)`; append-only. |
 | `SOURCES.md` | **verified working pull commands** for all four indices |
 
 ⚠️ **Central `workbook/` stays canonical** — no forked ledger here.

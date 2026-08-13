@@ -60,6 +60,9 @@ C4 runs on **two legs that are currently pointing in opposite directions:**
 |---|---|
 | `README.md` | this charter |
 | `DOSSIER.md` | live peril + insurability state, and the season's open questions |
+| `AGENT.md` | Spawn brief for a domain worker — scope, instrument vocabulary, hard limits, return contract. |
+| `RUN_REPORT.md` | **The deliverable of the most recent worker run** (overwritten each run). Absent = no run, or a run that died. |
+| `workbook/SERIES.tsv` `LOG.tsv` | **Observations** — time series + dated events. Keyed by `(date, instrument)`; append-only. |
 | `SOURCES.md` | verified pull commands + the discontinued-series warning |
 
 ⚠️ **The central `workbook/` remains canonical** — KB / VX / FLOW / PREDICTIONS rows keep their `KB-AEO-NN` IDs in `AGENTS/AEOLUS/workbook/`. **Do not fork a second ledger here.**

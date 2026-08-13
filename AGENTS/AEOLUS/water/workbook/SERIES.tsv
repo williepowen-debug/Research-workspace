@@ -1,0 +1,82 @@
+date	instrument	value	unit	source	pulled_at	notes
+2026-07-29	powell_elev	3522.58	ft	USBR-919-49	2026-08-13	
+2026-07-30	powell_elev	3522.41	ft	USBR-919-49	2026-08-13	
+2026-07-31	powell_elev	3522.27	ft	USBR-919-49	2026-08-13	
+2026-08-01	powell_elev	3522.16	ft	USBR-919-49	2026-08-13	
+2026-08-02	powell_elev	3522.04	ft	USBR-919-49	2026-08-13	
+2026-08-03	powell_elev	3521.88	ft	USBR-919-49	2026-08-13	
+2026-08-04	powell_elev	3521.73	ft	USBR-919-49	2026-08-13	
+2026-08-05	powell_elev	3521.59	ft	USBR-919-49	2026-08-13	
+2026-08-06	powell_elev	3521.43	ft	USBR-919-49	2026-08-13	
+2026-08-07	powell_elev	3521.25	ft	USBR-919-49	2026-08-13	
+2026-08-08	powell_elev	3521.12	ft	USBR-919-49	2026-08-13	
+2026-08-09	powell_elev	3520.95	ft	USBR-919-49	2026-08-13	
+2026-08-10	powell_elev	3520.72	ft	USBR-919-49	2026-08-13	
+2026-08-11	powell_elev	3520.58	ft	USBR-919-49	2026-08-13	
+2026-08-12	powell_elev	3520.37	ft	USBR-919-49	2026-08-13	0.45 ft above all-time low 3519.92 (2023-04-13)
+2026-08-07	mead_elev	1040.4	ft	USBR-921-49	2026-08-13	
+2026-08-08	mead_elev	1040.34	ft	USBR-921-49	2026-08-13	
+2026-08-09	mead_elev	1040.24	ft	USBR-921-49	2026-08-13	
+2026-08-10	mead_elev	1040.09	ft	USBR-921-49	2026-08-13	
+2026-08-11	mead_elev	1039.95	ft	USBR-921-49	2026-08-13	
+2026-08-12	mead_elev	1039.82	ft	USBR-921-49	2026-08-13	4.82 ft above Hoover economic threshold 1035
+2026-08-12	lees_ferry_q	7930	cfs	USGS-09380000-00060	2026-08-13	daily mean
+2018-08-12	lees_ferry_q_aug1_12_mean	14425	cfs	USGS-09380000-00060	2026-08-13	Aug 1-12 mean
+2019-08-12	lees_ferry_q_aug1_12_mean	14933	cfs	USGS-09380000-00060	2026-08-13	Aug 1-12 mean
+2020-08-12	lees_ferry_q_aug1_12_mean	14000	cfs	USGS-09380000-00060	2026-08-13	Aug 1-12 mean
+2021-08-12	lees_ferry_q_aug1_12_mean	12483	cfs	USGS-09380000-00060	2026-08-13	Aug 1-12 mean
+2022-08-12	lees_ferry_q_aug1_12_mean	11953	cfs	USGS-09380000-00060	2026-08-13	Aug 1-12 mean
+2023-08-12	lees_ferry_q_aug1_12_mean	16575	cfs	USGS-09380000-00060	2026-08-13	Aug 1-12 mean
+2024-08-12	lees_ferry_q_aug1_12_mean	12408	cfs	USGS-09380000-00060	2026-08-13	Aug 1-12 mean
+2025-08-12	lees_ferry_q_aug1_12_mean	12400	cfs	USGS-09380000-00060	2026-08-13	Aug 1-12 mean
+2026-08-12	lees_ferry_q_aug1_12_mean	7862	cfs	USGS-09380000-00060	2026-08-13	Aug 1-12 mean; 2026 = lowest of 9 yrs, -42.4% vs 2018-25 mean
+2026-07-28	usdm_conus_none	32.08	pct	USDM-API-CONUS	2026-08-13	valid date; released Thu
+2026-07-28	usdm_conus_d0d4	67.92	pct	USDM-API-CONUS	2026-08-13	valid date; released Thu
+2026-07-28	usdm_conus_d1d4	47.89	pct	USDM-API-CONUS	2026-08-13	valid date; released Thu
+2026-07-28	usdm_conus_d2d4	28.3	pct	USDM-API-CONUS	2026-08-13	valid date; released Thu
+2026-07-28	usdm_conus_d3d4	10.0	pct	USDM-API-CONUS	2026-08-13	valid date; released Thu
+2026-07-28	usdm_conus_d4	0.86	pct	USDM-API-CONUS	2026-08-13	valid date; released Thu
+2026-08-04	usdm_conus_none	29.05	pct	USDM-API-CONUS	2026-08-13	valid date; released Thu
+2026-08-04	usdm_conus_d0d4	70.95	pct	USDM-API-CONUS	2026-08-13	valid date; released Thu
+2026-08-04	usdm_conus_d1d4	48.54	pct	USDM-API-CONUS	2026-08-13	valid date; released Thu
+2026-08-04	usdm_conus_d2d4	28.57	pct	USDM-API-CONUS	2026-08-13	valid date; released Thu
+2026-08-04	usdm_conus_d3d4	9.51	pct	USDM-API-CONUS	2026-08-13	valid date; released Thu
+2026-08-04	usdm_conus_d4	0.95	pct	USDM-API-CONUS	2026-08-13	valid date; released Thu
+2026-08-11	usdm_conus_none	26.38	pct	USDM-API-CONUS	2026-08-13	valid date; released Thu
+2026-08-11	usdm_conus_d0d4	73.62	pct	USDM-API-CONUS	2026-08-13	valid date; released Thu
+2026-08-11	usdm_conus_d1d4	50.38	pct	USDM-API-CONUS	2026-08-13	valid date; released Thu
+2026-08-11	usdm_conus_d2d4	29.5	pct	USDM-API-CONUS	2026-08-13	valid date; released Thu
+2026-08-11	usdm_conus_d3d4	10.27	pct	USDM-API-CONUS	2026-08-13	valid date; released Thu
+2026-08-11	usdm_conus_d4	1.04	pct	USDM-API-CONUS	2026-08-13	valid date; released Thu
+2026-08-10	kaub_stage	17.0	cm	WSV-PEGELONLINE-KAUB	2026-08-13	
+2026-08-11	kaub_stage	15.0	cm	WSV-PEGELONLINE-KAUB	2026-08-13	
+2026-08-12	kaub_stage	11.0	cm	WSV-PEGELONLINE-KAUB	2026-08-13	
+2026-08-13	kaub_stage	13.0	cm	WSV-PEGELONLINE-KAUB	2026-08-13	3-day range 10-17cm; 2018 all-time low was 25cm
+2026-08-01	lees_ferry_q	7730	cfs	USGS-09380000-00060	2026-08-13	daily mean
+2026-08-02	lees_ferry_q	7720	cfs	USGS-09380000-00060	2026-08-13	daily mean
+2026-08-03	lees_ferry_q	7880	cfs	USGS-09380000-00060	2026-08-13	daily mean
+2026-08-04	lees_ferry_q	7900	cfs	USGS-09380000-00060	2026-08-13	daily mean
+2026-08-05	lees_ferry_q	7920	cfs	USGS-09380000-00060	2026-08-13	daily mean
+2026-08-06	lees_ferry_q	7910	cfs	USGS-09380000-00060	2026-08-13	daily mean
+2026-08-07	lees_ferry_q	7920	cfs	USGS-09380000-00060	2026-08-13	daily mean
+2026-08-08	lees_ferry_q	7770	cfs	USGS-09380000-00060	2026-08-13	daily mean
+2026-08-09	lees_ferry_q	7770	cfs	USGS-09380000-00060	2026-08-13	daily mean
+2026-08-10	lees_ferry_q	7950	cfs	USGS-09380000-00060	2026-08-13	daily mean
+2026-08-11	lees_ferry_q	7940	cfs	USGS-09380000-00060	2026-08-13	daily mean
+2026-08-05	mead_elev	1040.61	ft	USBR-921-49	2026-08-13	
+2026-08-06	mead_elev	1040.5	ft	USBR-921-49	2026-08-13	
+2026-07-29	powell_storage	5406671.64	af	USBR-919-17	2026-08-13	datatype 17 = storage (af)
+2026-07-30	powell_storage	5397036.24	af	USBR-919-17	2026-08-13	
+2026-07-31	powell_storage	5389108.73	af	USBR-919-17	2026-08-13	
+2026-08-01	powell_storage	5382884.72	af	USBR-919-17	2026-08-13	
+2026-08-02	powell_storage	5376099.66	af	USBR-919-17	2026-08-13	
+2026-08-03	powell_storage	5367060.68	af	USBR-919-17	2026-08-13	
+2026-08-04	powell_storage	5358594.86	af	USBR-919-17	2026-08-13	
+2026-08-05	powell_storage	5350700.6	af	USBR-919-17	2026-08-13	
+2026-08-06	powell_storage	5341687.03	af	USBR-919-17	2026-08-13	
+2026-08-07	powell_storage	5331557.49	af	USBR-919-17	2026-08-13	
+2026-08-08	powell_storage	5324248.71	af	USBR-919-17	2026-08-13	
+2026-08-09	powell_storage	5314699.84	af	USBR-919-17	2026-08-13	
+2026-08-10	powell_storage	5301796.78	af	USBR-919-17	2026-08-13	
+2026-08-11	powell_storage	5293951.81	af	USBR-919-17	2026-08-13	
+2026-08-12	powell_storage	5282197.21	af	USBR-919-17	2026-08-13	

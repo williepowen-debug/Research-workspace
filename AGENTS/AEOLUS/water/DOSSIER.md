@@ -1,7 +1,11 @@
 # AEOLUS · WATER — live dossier
 
-**As-of: 2026-08-13.** All figures primary (USDM API / USBR / USGS NWIS / WSV).
-Consolidated from KB-AEO-035/036/041/044/047-052/054/056.
+**As-of: 2026-08-13.** All figures primary (USDM API / USBR / USGS NWIS / WSV). Consolidated from KB-AEO-035/036/041/044/047-052/054/056.
+
+> **Last real data refresh: 2026-08-13**  ·  **Dossier written: 2026-08-13**
+> *Two-clock header (PAT-044) — `scripts/ledger_staleness.py` reads the first line. **The data date, not the edit date**: a hygiene edit must NOT bump it.*
+> **Observations → `water/workbook/SERIES.tsv`** · findings → central `workbook/KB.tsv` · synthesis → `STATUS.md`. **Flow is one-way.**
+> **Feeds:** C2 · C4 · C5 · C6 (root: owns drought + reservoirs + streamflow + river stage)
 
 ---
 
@@ -37,6 +41,24 @@ Consolidated from KB-AEO-035/036/041/044/047-052/054/056.
 | Colorado ROD | Final EIS published 7/31 | 7/31 | earliest ROD **~8/30** · target **~10/1** · **expiry 12/31/26** |
 
 **Powell has fallen on every one of the 15 days 7/29 → 8/12** (mean −0.157 ft/day). **It should break its all-time low within days.**
+
+#### 8/13 second pass — re-pull at 15:10 UTC, USBR has NOT posted 8/13
+
+- **USBR 919/49 and 921/49 both still end 2026-08-12.** Powell **3,520.37**, Mead **1,039.82** — **byte-identical to yesterday's pull, no revision.** The record-break print is not yet available; **8/13 elevations do not exist at the primary as of this pass.**
+- **The 3,519.92 threshold is now verified AT the primary, not carried.** Full-series scan of 919/49: the **post-1980 minimum is 3,519.92 ft on 2023-04-13**, and 2026-08-12's **3,520.37 ranks 6th-lowest on record** (the five below it are all 2023-04-09 → 04-15). *(The file's absolute minimum, 3,394.50 on 1964-05-11, is initial-fill and is **not** the operative record.)*
+- **Daily declines 7/29→8/12: 15 of 15 negative**, mean **−0.158 ft/day**, range **−0.11 to −0.23**; the two largest single-day drops are the two most recent bracketing days (8/10 −0.23, 8/12 −0.21). **Rate stated, not extrapolated** (L-16).
+- **Powell storage now logged alongside elevation** (919/17): **5,406,671 af (7/29) → 5,282,197 af (8/12)** = **−124,474 af in 14 days, ≈ −8,891 af/day.** The volumetric leg of the same drawdown; elevation remains the threshold instrument.
+- **Lees Ferry back-filled daily** (8/01–8/11 were previously held only as the Aug 1-12 mean). Range **7,720–7,950 cfs**, **no trend within the window** — the 42% deficit is a *level*, not a still-deteriorating slope.
+
+##### ⚠️ Powell has its OWN Aug→Sep base rate — and it points the same way as the current slope
+
+`Aug 12 → Sep 30` change, USBR 919/49:
+
+| 2021 | 2022 | 2023 | 2024 | 2025 |
+|---|---|---|---|---|
+| −6.48 | −4.84 | −4.22 | −4.47 | −7.86 |
+
+**5 of 5 years decline; mean −5.57 ft.** Unlike Mead's Aug→Sep *rise*, this base rate is **not** contingent on Glen Canyon releases arriving — **Powell is the reservoir those releases drain**, so a low-release year is if anything a *weaker* drawdown than the sample. **The driver check (L-16) is therefore satisfied in the opposite direction from AEO-10's**: the mechanism behind Mead's base rate has changed, the mechanism behind Powell's has not. **Stated as an observation — AEOLUS grades.**
 
 ### 🔴 NEW 8/13 — the Powell↔Mead coupling is now MEASURED, not inferred
 
@@ -94,7 +116,9 @@ The robust El Niño wet signal is the **Southwest / Lower Basin**. **Powell's in
 ### Other watched rivers
 - **Mississippi / Ohio** — ~normal. **Autumn (Sep–Nov) is the window.**
 - **Yangtze · Danube · Paraná** — ⚠️ **no current read. Open gaps under Will's standing directive.**
-- **Panama** — draft step-down **8/15**; ~38 transits, no binding restriction. **AEO-04 unverified two sessions — my oldest open gap.**
+- **Panama** — **8/13: the ACP primary was checked and returned a documented NEGATIVE, which is the first real data on this gap.** The Advisories-to-Shipping index's newest entry is **A-46-2024 (FY2025 December)**; Notices-to-Shipping for 2026 lists **only the standing N-01…N-13 permanent notices.** ⇒ **No 2026 advisory imposing a draft or transit restriction is published at the issuing authority.** ⚠️ **Neither page publishes a transit COUNT**, so the `panama_transits` instrument is **still not sourced** — the "~38 transits" figure carried above has **no primary behind it in `SOURCES.md`** and should be treated as unverified until one is registered. **AEO-04 resolves on a binding restriction; none is published — but "not published on these two pages" is narrower than "does not exist."**
+
+**Rhine at Kaub, 8/13 re-pull (17:00 CEST):** **13.0 cm**, unchanged from the 15:15 reading. Intraday 8/13 **10–14 cm**; 8/12 **10–13 cm** (the logged 8/12 point of 11.0 sits inside that band). **Still through both the 40 cm uneconomical line and the 25 cm 2018 record.**
 
 ---
 
@@ -119,6 +143,7 @@ Water is the **third constraint on AI data centers after credit and power**. **N
 2. **🔴 Base-rate USBR's 24-month-study projection error** — AEO-10's 80% currently rests on a 2.1 ft buffer with **no error bar**.
 3. **Track Lees Ferry weekly** — it is the leading indicator for Mead, ahead of Mead's own elevation.
 4. **ROD watch ~8/25**, ahead of the earliest legal ROD 8/30.
-5. **Panama 8/15** — close AEO-04's instrument gap.
-6. **Yangtze / Danube / Paraná** — no live read; gaps under the standing directive.
+5. **Panama 8/15** — ⚠️ **the gap is now specific, not vague: `SOURCES.md` has no command that returns a transit COUNT.** The ACP advisory/notice pages carry restriction *documents*, not the daily transit number. **AEO-04 needs either a registered count source or re-specification onto the published-advisory instrument that does exist.** *(Checked 8/13; the negative is logged in `workbook/LOG.tsv`.)*
+6. **Yangtze / Danube / Paraná** — ⚠️ **no live read AND no entry in `SOURCES.md`.** These cannot be pulled without registering a primary first — **the blocker is a missing source registration, not a missed pull.** Gaps under the standing directive.
+6b. **Mississippi has a working primary but no registered instrument.** USGS `07289000` Vicksburg discharge returns cleanly — **349,000 cfs on 8/12** — but **gauge height (`00065`) returns an empty `timeSeries`** at the daily-values service, and no Mississippi name exists in the observation vocabulary. **Needs an instrument name before it can be logged.**
 7. **Upper-Basin snowpack for winter 2026-27** — the leg that tests the dipole-pivot guard. CPC DJF outlook (~8/20) is the first read; Apr-1 resolves it.

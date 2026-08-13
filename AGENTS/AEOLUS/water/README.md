@@ -67,6 +67,9 @@ On 2026-08-12 I published Lake Powell at **3,524.20 ft, "risen 2.2 ft"** from a 
 |---|---|
 | `README.md` | this charter |
 | `DOSSIER.md` | live hydrological state — drought, levels, flows, the Colorado system, rivers |
+| `AGENT.md` | Spawn brief for a domain worker — scope, instrument vocabulary, hard limits, return contract. |
+| `RUN_REPORT.md` | **The deliverable of the most recent worker run** (overwritten each run). Absent = no run, or a run that died. |
+| `workbook/SERIES.tsv` `LOG.tsv` | **Observations** — time series + dated events. Keyed by `(date, instrument)`; append-only. |
 | `SOURCES.md` | **verified working pull commands** — copy-paste, never reconstruct |
 
 ⚠️ **Central `workbook/` stays canonical** — no forked ledger here.

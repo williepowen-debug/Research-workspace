@@ -62,6 +62,9 @@ Volcanoes and earthquakes are **not weather**. They belong to AEOLUS only where 
 | File | Purpose |
 |---|---|
 | `README.md` | this charter — scope, triggers, promotion/kill |
+| `AGENT.md` | Spawn brief for a domain worker — scope, instrument vocabulary, hard limits, return contract. |
+| `RUN_REPORT.md` | **The deliverable of the most recent worker run** (overwritten each run). Absent = no run, or a run that died. |
+| `workbook/SERIES.tsv` `LOG.tsv` | **Observations** — time series + dated events. Keyed by `(date, instrument)`; append-only. |
 | `SOURCES.md` | **verified working pull commands** (all three tested 8/13) |
 | `DOSSIER.md` | baseline state + anything a trigger has caught |
 
