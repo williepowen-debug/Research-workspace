@@ -36,12 +36,15 @@ Will confirms 6/19: SSB $90P **was a real position, believed sold** (can't recal
 
 ## Bank Puts (LIVE) — reconciled to FORGE 7/16 broker export
 
+> ⚠️ **CORRECTION 2026-08-13 (book-vs-thesis reconciliation, Will-ruled slate item #1).** Two rows below carried **false "trimmed" notes** for four weeks. **Neither trim happened.** Both were unit-mismatch artifacts of the 7/16 reconcile — a count of **rows** written into a sentence about a count of **contracts** and labelled as a size decision. **Root rule #7 ("trimming = thesis broken") was NEVER triggered on KRE or HBAN**, and the missing rationale was missing because there was no decision to record. Root cause: the 6/19-vintage ledger self-declared CANONICAL while recording **zero quantities**, so a row-count stood in for a contract-count. **Quantities below are unchanged and broker-sourced; only the false notes are corrected.** Full trace → `reports/2026-08-13_book-vs-thesis-reconciliation.md` §5.
+
+
 | Ticker | Strike | Expiry | Qty | Notes |
 |---|---|---|---|---|
 | KRE | $60P | Aug-21-2026 | 3 | tail-risk insurance (deep-OTM vs ~$77 tape) |
 | KRE | $60P | Sep-30-2026 | 2 | |
-| KRE | $60P | Dec-18-2026 | 5 | (2 + 3 margin) — Dec-18 trimmed 7→5 per 7/16 reconcile |
-| HBAN | $16P | Oct-16-2026 | 2 | ⚡ **EXIT-thesis dust** (Will ruled 7/18) — $20 residual, rides to expiry, do NOT re-enter; trimmed 4→2 per 7/16 reconcile |
+| KRE | $60P | Dec-18-2026 | 5 | (2 + 3 margin) — ⚠️ **CORRECTED 2026-08-13: NO TRIM EVER HAPPENED.** Superseded text read *"Dec-18 trimmed 7→5 per 7/16 reconcile"* — that compared **7 KRE ROWS across ALL FOUR expiries** (three of them already expired) in the pre-reconcile file `f74117049`, which had **no quantity column at all**, against **5 CONTRACTS on ONE expiry**. Rows vs contracts. **Root rule #7 was never triggered; there was no size decision to record.** |
+| HBAN | $16P | Oct-16-2026 | 2 | ⚡ **EXIT-thesis dust** (Will ruled 7/18) — $20 residual, rides to expiry, do NOT re-enter. ⚠️ **CORRECTED 2026-08-13: NO TRIM.** Superseded text read *"trimmed 4→2 per 7/16 reconcile"*; the **"4" appears nowhere in this ledger at any vintage**, and the recorded quantity went **1 un-quantified row → 2 contracts**, i.e. UP. Same unit-mismatch class as the KRE row above. |
 
 ## Credit / Convergence (LIVE)
 

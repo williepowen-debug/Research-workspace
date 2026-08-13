@@ -104,7 +104,7 @@ Before ending, complete in order:
 - **STALE-marked > carried-forward-as-current.** If you can't refresh a value this session, mark it `[STALE]` with the date — don't present it as live. Stale-with-date is honest; carried-forward-without-flag is data fiction. *Prevents:* the SCENARIOS EV-math drift caught 6/2 (was pinned to 5/21 spot for 12 days without staleness flag).
 - **Verify-before-propagate** for any count / scope / absence / staleness claim across files/commits (per auto-memory `[[feedback_verify_counts_before_propagating]]`).
 
-**Thesis management:** Master thesis lives in `thesis/THESIS.md` (versioned, v1.3+). Forward calendar in `thesis/TIMELINE.md`. Changes tracked in `thesis/CHANGELOG.md`. Read thesis files for deep context — they are NOT read at every boot, only when the task requires thesis-level understanding. **Rule: Any time you modify THESIS.md or TIMELINE.md, you MUST append an entry to CHANGELOG.md** documenting: what changed, why, old view vs new view. Bump the version number (minor for refinements, major for structural thesis changes).
+**Thesis management:** ⛔ **`thesis/THESIS.md` is RETIRED 2026-08-13 (Will-ruled, retirement R1) — `STATUS.md` is now CANONICAL for thesis state.** The path survives as a pointer stub so inbound links don't dangle; the v1.4 original is at `archive/thesis_THESIS_v1.4_2026-04-16.md`, history only. It was retired rather than refreshed because it *argued the opposite of the live view* (eight channels / 🔴🔴🔴 CRITICAL vs a narrowed 🟠 concentration-not-tier read). Forward calendar still in `thesis/TIMELINE.md`; changes tracked in `thesis/CHANGELOG.md`. **Do not resurrect an eight-channel document** — a successor, if wanted, is a v2.0 written from STATUS's narrowed claims. Read thesis files for deep context — they are NOT read at every boot, only when the task requires thesis-level understanding. **Rule: Any time you modify THESIS.md or TIMELINE.md, you MUST append an entry to CHANGELOG.md** documenting: what changed, why, old view vs new view. Bump the version number (minor for refinements, major for structural thesis changes).
 
 **MAIL:** Do NOT process inbox on normal spawns. Inbox processing is a separate task — wait to be spawned specifically for it.
 
@@ -161,7 +161,7 @@ If a cross-agent threshold breaches during your work, append to `AGENTS/SIGNALS.
 | **STATUS.md** | Current prices, threshold status, signal dashboard, convergence matrix scores, sub-agent summary. Snapshot — tables and levels, minimal prose. | Research detail (→ bank folders), catalyst dates (→ CALENDAR), session history (→ MEMORY), position detail (→ POSITIONS) |
 | **POSITIONS.md** | Thesis-relevant positions — strikes, expiries, contracts. Updated from broker screenshots. | Price levels (→ STATUS), thesis rationale (→ bank THESIS files) |
 | **CALENDAR.md** | Forward-looking dates + thresholds. Pure table. Pruned weekly. | Narrative or analysis. Just dates, what to check, signal thresholds, who cares. |
-| **thesis/THESIS.md** | Structural thesis, channels, convergence framework, conviction. Slow-moving. | Daily market updates. Only changes when thesis-level shifts occur. |
+| ~~**thesis/THESIS.md**~~ ⛔ **RETIRED 2026-08-13 → pointer stub** | — | **`STATUS.md` owns thesis state now.** Archived original: `archive/thesis_THESIS_v1.4_2026-04-16.md`. |
 | **thesis/TIMELINE.md** | Event narratives, branch point resolution, forward progression. | Current market levels (→ STATUS) or position details (→ POSITIONS) |
 | **thesis/CHANGELOG.md** | What changed in THESIS/TIMELINE, why, old vs new view. | Current state — this is history, not the snapshot. |
 | **MEMORY.md** | Cross-session memory: feedback from Will, data source findings, session handoff (CHANGES SINCE / LAST SESSION / NEXT SESSION). | Recaps of STATUS data. If it's already in STATUS, don't repeat here. |
@@ -266,7 +266,7 @@ Metropolitan Capital failed with 61% true CRE (labeled 10.7%). Three masking lev
 
 | File | Purpose |
 |------|---------|
-| `thesis/THESIS.md` | Master convergence thesis **v1.4 — STALE-VINTAGE-bannered 7/10, rewrite to v1.5 post-7/21** — 10 sections: channels/clusters, 3-layer architecture, loss quantification, what's priced in, validation scorecard. |
+| `thesis/THESIS.md` | ⛔ **RETIRED 2026-08-13 — POINTER STUB ONLY; `STATUS.md` is thesis-canonical.** Archived original `archive/thesis_THESIS_v1.4_2026-04-16.md` *(was: master convergence thesis v1.4, 10 sections: channels/clusters, 3-layer architecture, loss quantification, what's priced in, validation scorecard. |
 | `thesis/TIMELINE.md` | Forward-looking catalyst calendar — week-by-week events, branch points, "our view," position calendar. |
 | `thesis/CHANGELOG.md` | Thesis evolution audit trail — what changed, why, old vs new view. |
 | `STATUS.md` | Live state — sub-agent dashboard, FHLB, watchlist. **Primary snapshot.** ≤250 lines. |
