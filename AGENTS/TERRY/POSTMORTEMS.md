@@ -246,3 +246,21 @@ Counterfactual line, fixed before the outcome: **holding beat exiting iff the 8/
 **Tags:** `GOOD_PROCESS_BAD_OUTCOME` (and the outcome-cost is measured small; arguably good-process-fine-outcome).
 
 **Open design question, routed to the owed paper-book counter fix, NOT retro-actioned:** all v3 legs read MET at 13:57 on 8/4 — does an approval-gated arm in that state constitute a PAPER_BOOK would-fire row? Creating one retroactively today would violate the fill rule (fills at trigger timestamp); the question is whether the *next* such state auto-logs.
+
+---
+
+## 2026-08-13 — TRY-WILL-QQQ-VFADE — died VOID before it could die wrong; closed a day ahead of its time stop
+
+**What died:** QQQ Aug-21 680P/670P debit spread ×2 @ $2.26 = $452 max loss. Will's own tape read (fade the unconsolidated V into the 704–712 shelf), built 8/3, labelled UNCORROBORATED on the card from the first line. Never approved, never armed. **$0 at risk from build to death.** Formally closed 2026-08-13 on Will's instruction, one day ahead of the 8/14 time stop.
+
+**Thesis right/wrong:** WRONG on the card's own window — QQQ 697 (build) → 712+ (invalidation, 8/4) → 730.01 (closure, 11:59 live). The V never based. *(Scope: this grades the card's window, not the person — and the fade instinct's one real moment, the 687P at +23.6% on the 8/1 close, is already banked as the profit-side-gap finding in `QQQ_DESK_CARD` §4b.)*
+**Timing right/wrong:** the entry was rule-#6 clean (first ticket of its class on the correct day-colour). The tape then went the other way immediately.
+**Structure right/wrong:** RIGHT, and this is the card's whole value: defined risk, kill pre-registered at a named level (712), hard condition written against the owner's own book (ONLY QQQ short), time stop dated. Every control fired exactly as written.
+**Sizing right/wrong:** $452 vs the 2R/$500 cap — inside, correctly.
+**What actually killed it:** both kills at once, 8/4 — the 0DTE tickets voided the hard condition AND the 712 line went. It was dead before any approval decision was ever required.
+
+**Counterfactual, measured at closure (QQQ 730.01, 680P 0.26/0.28 · 670P 0.17/0.18):** an approved 8/3 fill would mark **$0.08–0.10 vs $2.26 = ≈−$432 / −96% unmanaged**; the pre-registered 712 kill would have exited it earlier at a partial loss. **The kill line bounds even the counterfactual — that is what a pre-registered invalidation is for.**
+
+**The durable point is already a rule and this closes its loop:** `RISK_RULES` #16 carries this card as its worked example — the identical view ran simultaneously as 11 tickets at 0–1 DTE (≈−$4,341, uncapped by count) and as this $452 defined-risk card (never fired, $0). **Same view, same wrongness, 9.6× the cost — tenor and frequency were the expensive part.** Nothing new to adopt; the closure makes the example's ledger entry complete.
+
+**Tags:** `THESIS_WRONG` (window-scoped) · `GOOD_PROCESS_BAD_OUTCOME` does NOT apply — the outcome was good ($0); the process produced a correct refusal by construction.

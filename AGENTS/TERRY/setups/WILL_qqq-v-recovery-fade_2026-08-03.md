@@ -3,7 +3,7 @@
 **Setup ID:** TRY-WILL-QQQ-VFADE · **Date:** 2026-08-03 ~11:10 ET
 > ⚠️ **ID collision avoided:** `TRY-WILL-QQQFADE` is already owned by the **PARKED 7/30 card** (`WILL_qqq-downtrend-putspread_2026-07-30.md`, Sep-18 645P/620P). That card is **not dead** — see §4b, which reconciles the two rather than quietly duplicating it.
 **Thesis owner:** ⚠️ **WILL** — this is Will's own tape read. **No domain agent has confirmed a QQQ short.** HENRY (market structure) and VIOLET (vol) have not been consulted and do not own this. Graded on structure and levels only; the directional call is Will's and is labelled as such throughout.
-**Terry verdict:** 🟡 **CONDITIONAL — CLEAN STRUCTURE, UNPROVEN THESIS.** The expression is sound and the entry timing is rule-#6 clean. The conditionality is entirely about §7.
+**Terry verdict:** 🔴 **DEAD (terminal) — VOID 2026-08-04, formally CLOSED 2026-08-13 (Will-directed, one day ahead of the 8/14 time stop).** Two independent kills fired the same day, 8/4: **① the hard condition breached** (three 0DTE QQQ puts opened alongside — the card's own terms: *"becomes the ONLY QQQ short or the card is void"*) and **② the 712 invalidation line was taken out.** Never approved, never armed, **`$0` at risk from build to death.** **Counterfactual measured at closure (11:59 ET live chain, QQQ 730.01): the 680/670 ×2 marks $0.08–0.10 vs the $2.26 build ⇒ an 8/3 approval would sit ≈−$432/−96% unmanaged; the pre-registered 712 kill would have cut it earlier at a partial loss — the kill line bounds the counterfactual too.** Closure record at end of card. *(was 8/3: 🟡 CONDITIONAL — CLEAN STRUCTURE, UNPROVEN THESIS; the expression was sound, entry rule-#6 clean, conditionality entirely §7.)*
 **Confidence in trade structure:** High · **Confidence in thesis:** Not mine to grade.
 
 ---
@@ -127,3 +127,23 @@ Fade the **unconsolidated V-recovery** off the 7/29 low (656.30 → 697.55, +6.3
 
 ---
 *Built 2026-08-03 ~11:10 ET on live marks, barred from use at fill. Thesis is Will's and is not corroborated by any domain agent — see §7.*
+
+---
+
+## CLOSURE RECORD — 2026-08-13 ~12:00 ET (Will-directed, one day ahead of the 8/14 time stop)
+
+**DEAD (terminal). VOID since 2026-08-04 on two independent kills, both that day:**
+
+1. **Hard-condition breach:** three 0DTE QQQ puts (693P ×2 / 698P ×2 / 712P ×1) opened alongside on 8/4 — the card's own terms said *"becomes the ONLY QQQ short or the card is void."* Voided independently of price.
+2. **Price invalidation:** the 712 line (Jul 22–24 shelf) was taken out the same day.
+
+Never approved, never armed, `$0` at risk from build to death. The 8/14 time stop was never reached; it is closed a day early because there was nothing left for it to time-stop.
+
+| | Build 8/3 | Closure 8/13 11:59 live |
+|---|---|---|
+| QQQ | ~697 | **730.01** (+4.7%) |
+| 680P/670P ×2 | $2.26 debit ($452) | **$0.08–0.10** (680P 0.26/0.28 · 670P 0.17/0.18) |
+
+**Counterfactual: an approved 8/3 fill sits ≈−$432 / −96% unmanaged; the pre-registered 712 kill would have exited earlier at a partial loss — the kill line bounds even the counterfactual.** Every control on this card fired exactly as written; the card's value was that it defined the loss before asking for one.
+
+**Ledger note:** this card is `RISK_RULES` #16's worked example (the $452 defined-risk twin of the ≈−$4,341 0DTE cluster — same view, 9.6× cost difference from tenor and frequency alone). Postmortem: `POSTMORTEMS.md` 2026-08-13.
