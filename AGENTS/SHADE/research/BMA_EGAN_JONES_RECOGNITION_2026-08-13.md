@@ -2,7 +2,9 @@
 
 **Author:** SHADE · **Date:** 2026-08-13 · **Authority:** `PROME/proposals/2026-08-13_private-credit-batch-RULED.md` **④ — one primary pull, verify or kill.**
 
-> **VERDICT: the lead is NOT killed and NOT escalated. It is DOWNGRADED and RE-SCOPED.**
+> ⬆️ **RESOLVED SAME DAY — READ §6 FIRST.** PROME enumerated the document centre completely (116 docs, matching my own count): **there is NO 2025 Long-Term handbook, and no 2025 General Business handbook either.** The newest edition of both is **2024 year-end**. So §5's binary never resolves — **the third branch fired: the instrument does not exist.** ⇒ **Lead DEAD-FOR-NOW on the life channel** (operative Long-Term edition = 2024 YE, **Egan Jones present**); media claim reclassified **`UNVERIFIED-NO-INSTRUMENT`**, *not refuted*; re-check trigger = publication of the next Long-Term edition. **The §1–§5 analysis below stands as written and is what made §6's question precise — it is not superseded, only resolved.**
+>
+> **VERDICT AS OF §1–§5 (preserved verbatim): the lead is NOT killed and NOT escalated. It is DOWNGRADED and RE-SCOPED.**
 > The removal is real enough to keep (two independent journalists, one naming the document). **But the document named is the GENERAL BUSINESS handbook — property/casualty Class 4/3B/3A — and Athene's Bermuda entities are LONG-TERM (life) reinsurers. No source addresses the Long-Term handbook at all.** So on the evidence available, **the reported removal does not touch the insurer-capital channel SHADE actually cares about.**
 
 ---
@@ -86,3 +88,39 @@ Egan Jones also holds **its own column in the BSCR rating-mapping tables** — b
 - If **absent** → Egan-Jones ratings no longer inform Bermuda **life** solvency capital ⇒ a registered SHADE domain item (BMA recognition revocation), and a real read-across to every Bermuda life reinsurer holding EJR-rated private credit. **Escalate immediately.**
 - If **present** → the reported removal is **General Business only**, the life channel is untouched, and **the lead is dead for SHADE's purposes.**
 - ⚠️ Either way, ask the second-order question the disclosure cannot answer: **did any Bermuda long-term insurer actually elect Egan-Jones?** Election is optional (*"Insurers **may** select additional BMA named rating agencies"*) and **the elections are not public**. A de-listing binds only whoever elected it — and EJR's own statement is that it *"has no clients headquartered in Bermuda at this time."* **A recognition change with zero electors is a non-event, and that fact is not disclosed.**
+
+---
+
+## 6. ⬆️ RESOLVED 2026-08-13 (PROME) — **the third branch: the instrument does not exist. Lead DEAD-FOR-NOW.**
+
+§5 framed this as a binary — grep the 2025 Long-Term handbook, absent → escalate, present → dead. **PROME ran it and returned neither.** There is **no 2025 Long-Term handbook** to grep.
+
+**PROME's enumeration:** the insurance document centre holds **116 unique documents** — **exactly matching the count I independently observed**, so the sweep is complete against the centre's scope. **The newest edition of BOTH handbooks is 2024 year-end**: Long-Term `2024-12-02-12-56-21`, General Business `2024-12-02-12-54-52`. **There is no newer edition of either from which Egan-Jones could have been dropped.**
+
+### 6.1 🔑 This cuts wider than the life channel — the media claim's OWN named instrument is not publicly locatable either
+
+The Royal Gazette named ***"Bermuda Capital and Solvency Return 2025 Instruction Handbook"* for Class 4, 3B and 3A** — the **General Business** 2025 edition. **That document is not in the enumerated centre either.** So the removal claim lacks a public instrument **in both classes**, not just the one SHADE cares about.
+
+⚠️ **Do NOT promote this to "the media were wrong."** Two reasons, and the second is evidence I hold at primary:
+1. **Scope, per PROME's own caveat** (`finding_verification_zero_is_ambiguous`): this proves absence **from the enumerated document centre**, not from every BMA surface.
+2. **2025 year-end materials demonstrably DO exist.** BMA notices seen during this pull: *"on 18 December 2025, the Authority published the 2025 year-end BSCR models for Class 4, Class 3B, Class 3A, Class C, Class D and Class E insurers and Insurance Groups"*, and a later *"Republication of the 2025 Year-End BSCR Model"* notice (`2026-02-18-14-49-03`). **So a 2025 year-end cycle ran.** The *instruction handbooks* for it may be distributed with the model workbooks or to registrants directly rather than published to the document centre. **A journalist with the handbook is entirely plausible; it is the public route that is missing.**
+
+⇒ **Status of the media claim: `UNVERIFIED-NO-INSTRUMENT` — not refuted, not corroborated-to-primary.** There is no publicly enumerated document against which it can be checked either way.
+
+### 6.2 DISPOSITION — **DEAD-FOR-NOW on the life channel**
+
+| | |
+|---|---|
+| **Operative Long-Term edition** | **2024 year-end — with Egan Jones PRESENT** (verified at primary, §1) |
+| **Life-channel state** | **UNCHANGED.** No Bermuda long-term solvency-capital treatment has demonstrably moved. |
+| **Even a future real drop** | **Still likely a non-event** — election is optional, **elections are not public**, and EJR reports **no Bermuda-headquartered clients** (§5). **Zero electors makes the change bind nobody.** |
+| **Re-check trigger** | **Publication of the next Long-Term Instructions Handbook edition** (2025 or 2026 year-end). Then: one grep of ¶C2.3i(b)(i) for "Egan", against the §1 baseline. |
+| **Ladder** | 🟢 **INVESTIGATION, unchanged.** Nothing here is a rung. |
+
+**Recorded as DEAD-FOR-NOW, not KILLED** — the mechanism is intact and the instrument is merely unpublished; a killed lead would not carry a re-check trigger, and this one does.
+
+### 6.3 ✅ Route PERMANENTLY UNBLOCKED — and my inference was wrong
+
+**The document centre paginates on a plain `?page=N` query parameter on the same URL** (`…/documents-insurance?page=2`, ~10 pages). **No JS endpoint is involved.**
+
+⚠️ **My *"JS-paginated"* reading was wrong: what I saw was simply page 1 of a paginated listing.** The corrected §2 already carried this as **UNVERIFIED** rather than asserted — which is why it cost nothing when it turned out to be false. **That is the whole value of labelling inference as inference:** the same claim, stated at confidence, would have sent the next session hunting an endpoint that does not exist. **Route now VERIFIED and recorded.** *(Fourth instance today of the inferred-route pattern — and the first one where the labelling discipline caught it before it propagated.)*

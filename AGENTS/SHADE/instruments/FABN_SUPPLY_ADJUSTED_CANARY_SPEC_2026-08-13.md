@@ -104,6 +104,12 @@ All three are **quarterly**, all from **primary filings**, all **stock-and-flow 
 
 ---
 
+## 7a. ✅ v1 NO-BANDS — **ACCEPTED by PROME 2026-08-13**
+
+The §7 decision to ship v1 **without numeric bands** was flagged to PROME as a scope choice rather than encoded silently. **PROME accepted it explicitly:** declining to fit a threshold to **n=2 quarters** is **fleet canon** (`finding_base_rate_the_threshold_before_building_it`), **not a defect in the approved design**. Bands register at **≥4 quarters as a dated re-spec**, exactly as specified. The **REGISTERED-NOT-GRADED** state and the **cannot-alone-move-kill-path-1-to-RED** constraint were both confirmed correct.
+
+⇒ **§7's no-band posture is now ratified, not provisional.** Nothing in this spec changes; this section records that the flag was raised, ruled on, and closed.
+
 ## 8. Provenance and change control
 - **Spec frozen 2026-08-13.** Any change is a **dated re-spec** preserving superseded text verbatim; never edited in place after a reading.
 - **Approval:** batch approval, not individually argued — if a defect in the design *as approved* surfaces during use, **flag to PROME before encoding**, per the ruling's own rider.
