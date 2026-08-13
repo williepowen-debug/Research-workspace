@@ -80,3 +80,41 @@ date	instrument	value	unit	source	pulled_at	notes
 2026-08-10	powell_storage	5301796.78	af	USBR-919-17	2026-08-13	
 2026-08-11	powell_storage	5293951.81	af	USBR-919-17	2026-08-13	
 2026-08-12	powell_storage	5282197.21	af	USBR-919-17	2026-08-13	
+2026-08-07	maxau_stage	319.0	cm	WSV-PEGELONLINE-MAXAU	2026-08-13	daily mean of 15-min obs (n=96)
+2026-08-08	maxau_stage	305.0	cm	WSV-PEGELONLINE-MAXAU	2026-08-13	daily mean of 15-min obs (n=96)
+2026-08-09	maxau_stage	308.0	cm	WSV-PEGELONLINE-MAXAU	2026-08-13	daily mean of 15-min obs (n=96)
+2026-08-10	maxau_stage	305.0	cm	WSV-PEGELONLINE-MAXAU	2026-08-13	daily mean of 15-min obs (n=96)
+2026-08-11	maxau_stage	305.0	cm	WSV-PEGELONLINE-MAXAU	2026-08-13	daily mean of 15-min obs (n=96)
+2026-08-12	maxau_stage	298.0	cm	WSV-PEGELONLINE-MAXAU	2026-08-13	daily mean of 15-min obs (n=96)
+2026-08-13	maxau_stage	296.0	cm	WSV-PEGELONLINE-MAXAU	2026-08-13	daily mean of 15-min obs (n=72); PARTIAL day through 17:45 CEST
+2026-08-07	worms_stage	8.0	cm	WSV-PEGELONLINE-WORMS	2026-08-13	daily mean of 15-min obs (n=96)
+2026-08-08	worms_stage	4.0	cm	WSV-PEGELONLINE-WORMS	2026-08-13	daily mean of 15-min obs (n=96)
+2026-08-09	worms_stage	-3.0	cm	WSV-PEGELONLINE-WORMS	2026-08-13	daily mean of 15-min obs (n=96)
+2026-08-10	worms_stage	-5.0	cm	WSV-PEGELONLINE-WORMS	2026-08-13	daily mean of 15-min obs (n=96)
+2026-08-11	worms_stage	-7.0	cm	WSV-PEGELONLINE-WORMS	2026-08-13	daily mean of 15-min obs (n=96)
+2026-08-12	worms_stage	-10.0	cm	WSV-PEGELONLINE-WORMS	2026-08-13	daily mean of 15-min obs (n=96)
+2026-08-13	worms_stage	-13.0	cm	WSV-PEGELONLINE-WORMS	2026-08-13	daily mean of 15-min obs (n=72); PARTIAL day through 17:45 CEST
+2026-08-07	mainz_stage	124.0	cm	WSV-PEGELONLINE-MAINZ	2026-08-13	daily mean of 15-min obs (n=96)
+2026-08-08	mainz_stage	124.0	cm	WSV-PEGELONLINE-MAINZ	2026-08-13	daily mean of 15-min obs (n=96)
+2026-08-09	mainz_stage	118.0	cm	WSV-PEGELONLINE-MAINZ	2026-08-13	daily mean of 15-min obs (n=96)
+2026-08-10	mainz_stage	116.0	cm	WSV-PEGELONLINE-MAINZ	2026-08-13	daily mean of 15-min obs (n=96)
+2026-08-11	mainz_stage	112.0	cm	WSV-PEGELONLINE-MAINZ	2026-08-13	daily mean of 15-min obs (n=96)
+2026-08-12	mainz_stage	111.0	cm	WSV-PEGELONLINE-MAINZ	2026-08-13	daily mean of 15-min obs (n=96)
+2026-08-13	mainz_stage	112.0	cm	WSV-PEGELONLINE-MAINZ	2026-08-13	daily mean of 15-min obs (n=72); PARTIAL day through 17:45 CEST
+2026-08-07	kaub_stage	24.0	cm	WSV-PEGELONLINE-KAUB	2026-08-13	daily mean of 15-min obs (n=96)
+2026-08-08	kaub_stage	26.0	cm	WSV-PEGELONLINE-KAUB	2026-08-13	daily mean of 15-min obs (n=96)
+2026-08-09	kaub_stage	21.0	cm	WSV-PEGELONLINE-KAUB	2026-08-13	daily mean of 15-min obs (n=96)
+2026-08-07	duisburg_ruhrort_stage	145.0	cm	WSV-PEGELONLINE-DUISBURG-RUHRORT	2026-08-13	daily mean of 15-min obs (n=96)
+2026-08-08	duisburg_ruhrort_stage	142.0	cm	WSV-PEGELONLINE-DUISBURG-RUHRORT	2026-08-13	daily mean of 15-min obs (n=96)
+2026-08-09	duisburg_ruhrort_stage	144.0	cm	WSV-PEGELONLINE-DUISBURG-RUHRORT	2026-08-13	daily mean of 15-min obs (n=96)
+2026-08-10	duisburg_ruhrort_stage	144.0	cm	WSV-PEGELONLINE-DUISBURG-RUHRORT	2026-08-13	daily mean of 15-min obs (n=96)
+2026-08-11	duisburg_ruhrort_stage	140.0	cm	WSV-PEGELONLINE-DUISBURG-RUHRORT	2026-08-13	daily mean of 15-min obs (n=96)
+2026-08-12	duisburg_ruhrort_stage	137.0	cm	WSV-PEGELONLINE-DUISBURG-RUHRORT	2026-08-13	daily mean of 15-min obs (n=96)
+2026-08-13	duisburg_ruhrort_stage	136.0	cm	WSV-PEGELONLINE-DUISBURG-RUHRORT	2026-08-13	daily mean of 15-min obs (n=72); PARTIAL day through 17:45 CEST
+2026-08-07	emmerich_stage	-6.0	cm	WSV-PEGELONLINE-EMMERICH	2026-08-13	daily mean of 15-min obs (n=96)
+2026-08-08	emmerich_stage	-10.0	cm	WSV-PEGELONLINE-EMMERICH	2026-08-13	daily mean of 15-min obs (n=92); PARTIAL day
+2026-08-09	emmerich_stage	-10.0	cm	WSV-PEGELONLINE-EMMERICH	2026-08-13	daily mean of 15-min obs (n=94); PARTIAL day
+2026-08-10	emmerich_stage	-10.0	cm	WSV-PEGELONLINE-EMMERICH	2026-08-13	daily mean of 15-min obs (n=94); PARTIAL day
+2026-08-11	emmerich_stage	-10.0	cm	WSV-PEGELONLINE-EMMERICH	2026-08-13	daily mean of 15-min obs (n=91); PARTIAL day
+2026-08-12	emmerich_stage	-10.0	cm	WSV-PEGELONLINE-EMMERICH	2026-08-13	daily mean of 15-min obs (n=96)
+2026-08-13	emmerich_stage	-11.0	cm	WSV-PEGELONLINE-EMMERICH	2026-08-13	daily mean of 15-min obs (n=72); PARTIAL day through 17:45 CEST

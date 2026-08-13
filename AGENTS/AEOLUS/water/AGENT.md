@@ -24,7 +24,13 @@
 | `powell_storage` | af | `USBR-919-17` | daily (optional) |
 | `lees_ferry_q` | cfs | `USGS-09380000-00060` | daily |
 | `usdm_conus_none` / `_d0d4` / `_d1d4` / `_d2d4` / `_d3d4` / `_d4` | pct | `USDM-API-CONUS` | weekly (valid Tue, released Thu) |
-| `kaub_stage` | cm | `WSV-PEGELONLINE-KAUB` | 15-min → record daily |
+| `kaub_stage` | cm | `WSV-PEGELONLINE-KAUB` | 15-min → record daily. **The binding shoal** (km 546.23) |
+| `maxau_stage` | cm | `WSV-PEGELONLINE-MAXAU` | km 362.3, upper Rhine |
+| `worms_stage` | cm | `WSV-PEGELONLINE-WORMS` | km 443.4 |
+| `mainz_stage` | cm | `WSV-PEGELONLINE-MAINZ` | km 498.3 |
+| `duisburg_ruhrort_stage` | cm | `WSV-PEGELONLINE-DUISBURG-RUHRORT` | **km 780.8 — the station named in the C5 upgrade trigger** |
+| `emmerich_stage` | cm | `WSV-PEGELONLINE-EMMERICH` | km 851.9, Dutch border |
+| `rhine_freight_eur_t` | EUR_per_t | *(no verified source — see SOURCES)* | Rotterdam→S-of-Kaub barge rate |
 | `snowpack_upper_colorado` | pct_median | `NRCS-SNOTEL` | **seasonal — near-zero Jun–Sep, correctly empty** |
 | `panama_transits` | count | `ACP` | as published |
 
@@ -55,7 +61,9 @@
 | Powell vs all-time low **3,519.92 ft** | 0.45 ft above, falling ~0.19 ft/day |
 | **Mead vs Hoover 1,035 ft** *(the BINDING one)* | 4.82 ft above |
 | Powell vs min power pool 3,490 ft | ~30 ft above |
-| Kaub vs 40 cm uneconomical / 25 cm 2018 record | **through both** |
+| Kaub vs **25 cm** (WSV `NNW`, 2018-10-22) | **13 cm — 12 BELOW the record** |
+| Duisburg-Ruhrort vs **153 cm** (WSV `NNW`, 2018-10-23) | **134 cm — 19 BELOW the record** |
+| **C5 trigger: consecutive days BOTH below their NNW** | **5 of 10 required** (run began 2026-08-09) — report the COUNT, do not grade |
 | USDM CONUS D1–D4 | 50.38% |
 
 ## RETURN FORMAT (exactly this)

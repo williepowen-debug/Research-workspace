@@ -104,7 +104,22 @@ curl -s "https://www.pegelonline.wsv.de/webservices/rest-api/v2/stations/KAUB/W/
  | python3 -c "import json,sys; d=json.load(sys.stdin); print(d[-1]); print('min',min(x['value'] for x in d),'max',max(x['value'] for x in d))"
 ```
 **Verified 8/13 15:15 CEST: 13.0 cm**; 3-day range **10–17 cm**. Values in **cm**, 15-min cadence.
-Swap `KAUB` for `DUISBURG-RUHRORT`, `KOELN`, `EMMERICH`. **Kaub is the binding shoal.**
+**Station names VERIFIED against `stations.json?waters=RHEIN` on 2026-08-13** (36 Rhine stations; these 6 confirmed):
+
+| shortname | Rhine-km | role |
+|---|---|---|
+| `MAXAU` | 362.3 | upper Rhine |
+| `WORMS` | 443.4 | |
+| `MAINZ` | 498.3 | |
+| **`KAUB`** | **546.2** | **the binding shoal — reference gauge for loading economics** |
+| **`DUISBURG-RUHRORT`** | **780.8** | **the station named in the C5 upgrade trigger** |
+| `EMMERICH` | 851.9 | Dutch border |
+
+⚠️ **`KOELN` is NOT a valid shortname in the API** — do not use it. List stations with:
+```bash
+curl -s "https://www.pegelonline.wsv.de/webservices/rest-api/v2/stations.json?waters=RHEIN" | python3 -c "import json,sys;[print(s['shortname'], s.get('km')) for s in json.load(sys.stdin)]"
+```
+⚠️ **No verified source for barge FREIGHT rates.** The ~€150/t figures in my dossier are trade-press relays (PJK/Bloomberg via gCaptain/Insurance Journal), **not a primary I can re-pull.** Finding a resolvable freight series is an open gap.
 **Benchmarks:** 2018 all-time low **25 cm** (October) · **≤40 cm** = uneconomical navigation.
 
 ### Mississippi / Ohio

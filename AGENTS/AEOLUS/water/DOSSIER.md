@@ -152,17 +152,89 @@ The robust El Niño wet signal is the **Southwest / Lower Basin**. **Powell's in
 
 ## 3. 🔴 RIVER NAVIGATION (C5)
 
-### Rhine at Kaub — record broken, still broken
+### 🔴 Rhine — SIX-STATION READ, 8/13 17:45 CEST (WSV/PEGELONLINE primary)
 
-| | |
+**Previously this section was Kaub-only. The full six-station pull shows the low-water event is basin-wide, and that FOUR gauges are below their published all-time lows — not just Kaub.**
+
+| Station | km | **Current** | 7d min–max | 7d trend (8/07→8/12 daily means) | **All-time low (NNW)** | **vs NNW** |
+|---|---|---|---|---|---|---|
+| MAXAU | 362.3 | 294 | 292–328 | 318.6→298.1 = **−20.5** (−4.09/d) | 231 (1885-01-28) | **+63** |
+| WORMS | 443.4 | −15 | −15–13 | 8.0→−10.3 = **−18.4** (−3.67/d) | 2 (2018-10-20) | **−17** |
+| MAINZ | 498.3 | 110 | 109–128 | 124.1→110.8 = **−13.4** (−2.67/d) | 110 (1947-11-02) | **±0** *(7d min 109 = 1 cm through)* |
+| **KAUB** | **546.2** | **13** | **10–28** | 24.2→11.3 = **−12.8** (−2.57/d) | **25 (2018-10-22)** | **−12** |
+| **DUISBURG-RUHRORT** | **780.8** | **134** | **134–153** | 145.4→136.8 = **−8.7** (−1.73/d) | **153 (2018-10-23)** | **−19** |
+| EMMERICH | 851.9 | −11 | −11–0 | −5.7→−10.4 = **−4.6** (−0.93/d) | −1 (2022-08-18) | **−10** |
+
+*All values cm. Current = `/W/currentmeasurement.json`. **All six return `stateMnwMhw: "low"`** — the API's own classification.*
+
+> ⚠️ **BASIS NOTE — two trend figures appear in this section and they are NOT in conflict.** The table above is **daily mean 8/07 → daily mean 8/12** (full days only). The *"Full profile, 7-day change"* line further down is **spot 8/06 → spot 8/13**. Different windows and different statistics, so Maxau reads **−20.5** here and **−32** there. **Both are correct on their own basis; neither is a revision of the other.** Quote the basis whenever either number travels. *(Flagged by the water worker on finding the two side by side — same metric, two surfaces.)*
+
+**Every station is still falling; none has stabilised.** The gradient is **steepest upstream** (Maxau −4.09 cm/d) and **shallowest downstream** (Emmerich −0.93 cm/d) — the drawdown is propagating down-basin, not yet easing at the top.
+
+**Trigger-leg daily means, measured** *(observation only — AEOLUS grades, see the re-specified trigger below)*:
+
+| date | Kaub mean | ≤25? | Duisburg mean | ≤153? | joint |
+|---|---:|---|---:|---|---|
+| 8/07 | 24.17 | ✅ | 145.43 | ✅ | **BOTH** |
+| 8/08 | **25.72** | ❌ | 141.91 | ✅ | no — **run break** |
+| 8/09 | 21.12 | ✅ | 143.85 | ✅ | **BOTH** |
+| 8/10 | 16.51 | ✅ | 143.73 | ✅ | **BOTH** |
+| 8/11 | 14.61 | ✅ | 140.14 | ✅ | **BOTH** |
+| 8/12 | 11.32 | ✅ | 136.76 | ✅ | **BOTH** |
+| 8/13 | 11.53 | ✅ | 135.65 | ✅ | **BOTH** *(partial, n=72 to 17:45)* |
+
+⚠️ **PRECISION HAZARD on the new trigger.** `SERIES.tsv` stores daily means **rounded to whole cm** (the pre-existing convention). The trigger tests `daily mean ≤ 25 cm`. **A true mean of 25.4 rounds to 25 and would read as satisfying a threshold it does not meet.** No such case occurs in this window — the nearest is **25.72 on 8/08**, which fails on both the rounded and unrounded value — but **the trigger should be graded on unrounded means**, which are recomputable from the API and are given above.
+
+🔑 **The 25 cm benchmark is now PRIMARY-VERIFIED, not carried.** Station metadata returns Kaub `NNW = 25.0 cm, occurred 2018-10-22` and `NW = 25.0` for the 2010-11→2020-10 reference decade. **Kaub 13 cm is 12 cm below it and 64 cm below `GlW` 77 cm** (the reference low-water level fairway depths are guaranteed against).
+
+⚠️ **DATUM CAVEAT, load-bearing on a 12 cm margin.** Each gauge publishes a `gaugeZero` with its own `validFrom` — **Kaub's is 2019-11-01, i.e. AFTER its 2018 record date**; Maxau's is 2017 against an 1885 record. **The API does not state whether historic NNW values were re-referenced to the current datum.** The Kaub 25 cm figure matches the carried/reported 2018 value, so it is at least self-consistent — but **cross-era margins of a few cm should not be treated as exact.** Unresolved; see gaps.
+
+### 📉 WSV publishes an official FORECAST — new instrument, found 8/13
+
+`/stations/<S>/WV/measurements.json` returns `type=forecast`, `initialized 2026-08-13T07:00`, ~4-day horizon. **Available at KAUB, DUISBURG-RUHRORT, EMMERICH; HTTP 404 at MAXAU, WORMS, MAINZ.** ⚠️ **It is NOT listed in the station's `timeseries` array** (which shows only `Q` and `W`) — undiscoverable from metadata alone.
+
+| Station | now | forecast min | **8/17 end** | shape |
+|---|---|---|---|---|
+| **KAUB** | 13 | **6** (8/14–15) | **11** | falls further, then **partial rebound** |
+| **DUISBURG-RUHRORT** | 134 | 129 | **129** | **monotonic decline** |
+| **EMMERICH** | −11 | −15 | **−15** | **monotonic decline** |
+
+⇒ **The binding shoal is forecast to trough ~6 cm and recover slightly; the two downstream stations are forecast to keep falling.** A Kaub-only read would call this "stabilising" and miss that Duisburg and Emmerich are not.
+
+### Cost/loading layer — ⚠️ UNVERIFIED, trade-press relay only
+| Loadings | ~16% of normal (~800 t vs 5,100 t) |
 |---|---|
-| **Level** | **12–13 cm** (WSV, 8/13 15:15 CEST); 3-day range **10–17 cm** |
-| **Prior all-time low** | **25 cm** (2018, set in **October** — 2026 did it in **August**) |
-| **Loadings** | **~16% of normal** (~800 t vs 5,100 t) |
-| **Freight** | **~€150/t** vs ~€20 normal |
-| **Macro cost** | **German Q3 GDP −0.1/−0.2% (€1.2–2.3B)** — Kiel Institute |
+| Freight | ~€150/t vs ~€20 normal |
+| Macro cost | German Q3 GDP −0.1/−0.2% (€1.2–2.3B) — Kiel Institute |
 
-**Held at 4, not 5:** the upgrade trigger's second leg is a **Duisburg cutoff**, and **reduced loading is not a suspension.** Relief needs weeks of rain; risk flagged **into October**.
+⚠️ **None of these three is re-pullable from a registered primary.** `SOURCES.md` has **no verified freight source**; `rhine_freight_eur_t` remains an instrument with no source. **Do not treat these as measured.**
+
+### 🔴 8/13 — the trigger is re-specified, and BOTH stations are below their all-time records
+
+**The WSV publishes official navigation reference values per station** (`stations/<ST>/W.json?includeCharacteristicValues=true`). **These are the authority's own numbers, not mine:**
+
+| Station | now (8/13) | **NNW** *(record low)* | GlW *(nav. reference)* | MNW *(mean low)* | MW *(mean)* |
+|---|---:|---:|---:|---:|---:|
+| **Kaub** (km 546) | **13** | **25** *(2018-10-22)* | 77 | 65 | 208 |
+| **Duisburg-Ruhrort** (km 781) | **134** | **153** *(2018-10-23)* | 227 | 201 | 394 |
+
+🔴 **Kaub is 12 cm below its all-time record. Duisburg-Ruhrort is 19 cm below its all-time record.** Duisburg is **93 cm below GlW**, the level German navigation planning is built around.
+✅ **My "25 cm 2018 record" for Kaub is independently confirmed by the WSV's own `NNW`** — and now dated precisely to **2018-10-22**.
+
+**Full profile, 7-day change (8/13):** Maxau **294** (−32) · Worms **−15** (−26) · Mainz **110** (−13) · **Kaub 13** (−8) · **Duisburg 134** (−19) · Emmerich **−11** (−8). **All six falling; three sitting exactly at their 7-day minimum.** *(Negative readings at Worms/Emmerich are **below gauge datum**, a local reference mark — not "below empty.")*
+
+#### The re-specified C5 → 5 trigger
+
+**Old:** *"sustained below minimum AND Duisburg cutoff."* **It named a station and never defined a level — unfalsifiable as written.** I held C5 at 4 for two sessions "pending the Duisburg leg," and **Duisburg has been below its all-time record since 8/07.** The leg was never unconfirmed; it was **unmeasured because undefined.**
+
+**New:** **Kaub daily mean ≤ 25 cm AND Duisburg-Ruhrort daily mean ≤ 153 cm, on 10 consecutive days.** Both thresholds are the WSV's own `NNW`.
+
+**Base rate, 31 days to 8/13:** joint-below on **7 of 31 days**, runs of **[1, 1, 5]**.
+**State: 5 of 10 consecutive days** (run began **2026-08-09**) — **NOT FIRED.** At the current trajectory it would fire ~**8/18**.
+
+⚠️ **Stated plainly because the trigger now measures something different:** the old leg aimed at an **operational** event (loading suspension); the new one measures **hydrological persistence across 235 km of the navigable reach.** I traded an unverifiable economic leg for a verifiable physical one. **A separate operational leg stays UNARMED — there is no resolvable barge-freight or transit-suspension feed** (see `SOURCES.md`).
+
+**Held at 4, not 5** — now for a stated, checkable reason rather than a vague one. Relief needs weeks of rain; risk flagged **into October**. *(Duisburg level + trend now measured above — **AEOLUS grades the trigger, this folder does not.**)*
 
 **The unpriced join (→ DEWEY, delivered 8/13):** EU gas storage is at a five-year low (**59.32%**, ~10–13 pp light), dangerous *conditional on a cold winter*. **The Rhine adds a second conditional — even a normal winter draws harder if the barge leg is impaired, because the substitutes for gas move by water.** ⚠️ Mechanism A2; **magnitude unpulled and not asserted.**
 

@@ -147,6 +147,27 @@ Durable banded rules live here; the live read lives in STATUS with `[src M/D]` +
 
 *Conjunction triggers (LIQUID): fire on `A AND B` where a single metric would knee-jerk (e.g. strong La Niña AND <45% crop condition). Verify live values before any band call — no naked numbers.*
 
+### 🔴 C5 → 5 UPGRADE TRIGGER — re-specified 2026-08-13 (Will-directed: *"fix the Duisburg trigger — give it an actual threshold"*)
+
+**Superseded text, preserved verbatim:** *"sustained below minimum AND Duisburg cutoff"*
+**Defect:** it named a station and never defined a level. **It was unfalsifiable as written** — I held C5 at 4 for two sessions "pending the Duisburg leg" on a leg that could not fire because nothing defined firing. Same class as the ACE gap in `hurricane/`: **a registered gate with no instrument behind it.**
+
+**NEW TRIGGER — fires when BOTH, on 10 consecutive days:**
+
+| Leg | Station | Threshold | Source of the number |
+|---|---|---|---|
+| **A** | **Kaub** (km 546.2 — the binding shoal) | **daily mean ≤ 25 cm** | **WSV `NNW`** (Niedrigster Niedrigwasserstand), set **2018-10-22** |
+| **B** | **Duisburg-Ruhrort** (km 780.8 — lower-Rhine port reach) | **daily mean ≤ 153 cm** | **WSV `NNW`**, set **2018-10-23** |
+
+**Both numbers are the issuing authority's own record-low values, not mine** — pulled from `stations/<ST>/W.json?includeCharacteristicValues=true`. **FROZEN as published** (re-check `validFrom` if WSV republishes). `daily mean` = mean of that calendar day's 15-min readings.
+
+**Why a conjunction across these two stations:** it requires the constraint to span **235 km of the navigable profile** — the binding shoal *and* the lower-Rhine port reach — rather than a single local shoal effect. Either alone is a gauge reading; both together is a river-wide event.
+
+**Base rate (31-day window to 2026-08-13, WSV primary):** joint-below occurred on **7 of 31 days**, in runs of **[1, 1, 5]**. A 10-day run is **2× the current run and 10× any prior run** in the window.
+**State at write time: 5 of 10 consecutive days (run began 2026-08-09) — NOT FIRED.** *(Deliberately un-breached at write time, per the rule below.)*
+
+⚠️ **What this trigger now measures, stated plainly because it changed:** the old leg was meant to capture an **operational** event (loading suspension); the new one measures **hydrological persistence across the full reach**. That is a real substitution — I traded an unverifiable economic leg for a verifiable physical one. **A separate operational leg stays UNARMED until I have a resolvable source** (no verified barge-freight or transit-suspension feed exists — see `water/SOURCES.md`).
+
 ---
 
 ## EXIT / INVALIDATION (Falsification)
