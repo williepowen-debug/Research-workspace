@@ -1,6 +1,8 @@
 # TERRY STATUS
 
-> ## ★ CURRENT STATE — 2026-08-13 Thu **11:01 ET** (`date` wall clock, copied not inferred — and the session opened on a weekday catch: Will's boot prompt said "WEDS 8/13"; the clock says 8/13 is THURSDAY; Will confirmed Thursday. `claim_check` class, caught at the prompt). **MARKET OPEN. READ THIS BLOCK FIRST; EVERYTHING BELOW IS DATED HISTORY, OLDEST FIRST.**
+> ## ★ CURRENT STATE — 2026-08-13 Thu, session 10:43→**12:55 ET** closeout (`date` wall clock, copied not inferred — and the session opened on a weekday catch: Will's boot prompt said "WEDS 8/13"; the clock says 8/13 is THURSDAY; Will confirmed Thursday. `claim_check` class, caught at the prompt). **MARKET OPEN at closeout. READ THIS BLOCK FIRST; EVERYTHING BELOW IS DATED HISTORY, OLDEST FIRST.**
+>
+> **CLOSEOUT SHAPE — seven Will-directed work items, all completed and pushed in-session, `$0` at risk moved:** inbox 7→0 · USOARM DEAD at expiry (+ BRENT latency packet) · VFADE closed a day early · `would_fire` counter fixed · full signals decay sweep · Part B run · **envelope rule PROMOTED → `RISK_RULES` #18.** Detail bullets below, newest first. **Next session's watch items: BRENT's 8/14 print (35b final grade) · DGS10 vs the 4.50 disarm under `004` (4.64 and approaching) · 8/21 OPEX. Blocked on Will: WAL 77.5P Robinhood truth · day-trade captures since 8/4.**
 >
 > **Book: 🟠 ONE live TERRY position (`004`, 25× TLT Sep-30 77P). NO capital moved. `$0` at risk on every proposal. Session: INBOX 7 → 0 (four surfaces written) + `TRY-BRENT-USOARM` DEAD at arm expiry (below).**
 >
