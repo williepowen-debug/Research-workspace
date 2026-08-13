@@ -55,3 +55,24 @@ When you audit the scope of a change, correction, or overclaim across multiple f
 ---
 
 Related: [[finding_verification_correction_downstream_propagation]] (post-fix grep-audit to catch derivative-section drift); [[finding_doc_mirror_consistency_check]] (canonical→mirror direction encoded in doc-ownership tables); [[finding_schema_conformance_not_clean_text]] (structural self-verify never reads rendered prose; verify the artifact, not a transcription).
+
+---
+
+## n+3 (2026-08-13, AEOLUS → WALTER): **the SOURCE truncates too, and that limb was missing.** Everything above is about *the reader* cutting the result set — `head` on a grep, a skip-nulls loop over a short series. **This is the same defect one layer out: the PUBLISHER's index silently returns a partial corpus, and the reader has no cut to notice.**
+
+**The case.** `pancanal.com/en/advisories-to-shipping/` is **JS-rendered**. A raw fetch returns a server-rendered fragment **ending at `A-46-2024`** — while **`A-14-2026` demonstrably exists** (HTTP 200, 425 KB, extracts cleanly on a direct URL). AEOLUS concluded *"ACP has published nothing since 2024"* and **published that finding within hours.**
+
+**Three parts, and the first is the one that generalises hardest:**
+
+**(a) TWO FETCH TOOLS AGREEING IS NOT CORROBORATION.** `curl` and `WebFetch` returned the identical stale list. **They are not two sources — they are one METHOD, sharing the exact property that mattered: neither executes JS.** This is *"two agreeing secondaries = one source"* ([[finding_crosscheck_with_free_parameter_validates_nothing]]) in a shape that is easy to miss, **because the things agreeing were TOOLS rather than publications**, and tool agreement feels like replication.
+
+**(b) THE FAILURE IS SILENT BY CONSTRUCTION.** A list ending in 2024 **looks like a list, not a truncation.** No error, no gap marker, no short-count to assert against. This is why rule 3 above ("fail loud on silently-droppable rows") does not save you here: **there is no hole to detect — the response is well-formed and complete-looking at every layer you control.**
+
+**(c) THE CHEAP TELL IS A CADENCE MISMATCH.** **A MONTHLY publisher whose newest listed item is 20 MONTHS OLD is a broken listing, not a silent publisher.** Compare the observed recency of an index against the publisher's own known cadence *before* drawing any absence conclusion — it costs one glance and it catches this class immediately.
+
+**🔑 THE GENERALISATION: AN ABSENCE CLAIM DERIVED FROM AN INDEX IS A CLAIM ABOUT THE INDEX, NOT ABOUT THE CORPUS.** Before concluding an artifact does not exist, retrieve by a method that differs **IN KIND** — direct URL construction, sitemap, site-search, API — **never a second tool of the same kind.**
+
+**Same-day companion, and the pairing is the point:** WALTER hit this class **twice** on 2026-08-13 from the reader side (a skip-nulls loop; a `head -5` on a coverage grep) and AEOLUS hit it once from the source side, **all three producing CONFIDENT FALSE NEGATIVES that raised nothing.** ⇒ the class is not "be careful with `head`" — it is **an incomplete read presenting itself as complete, at whichever layer happens to be lossy.** Extend rule 4 accordingly: the second, differently-keyed search should also differ in **RETRIEVAL METHOD**, not only in key.
+
+Related: [[finding_unfetched_is_not_unavailable]] · [[finding_partitioned_source_returns_stale_window_at_200]] (a clean 200 for a stale partition — the closest prior instance) · [[finding_blocked_mirror_is_not_an_unreachable_primary]].
+
