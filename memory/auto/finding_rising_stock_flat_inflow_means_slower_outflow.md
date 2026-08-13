@@ -5,7 +5,7 @@ metadata:
   node_type: memory
   type: finding
   originSessionId: 8d29eb7a-a690-4165-acd1-10f1c645b638
-  modified: 2026-08-13T01:26:27.440Z
+  modified: 2026-08-13T11:43:08.643Z
 ---
 
 **A stock and a flow are different claims, and a divergence between them is ambiguous by construction.** Any stock obeys `Δstock = inflow − outflow`. So a stock that rises while some reported flow measure falls has *two* possible causes — more coming in, or less going out — and they carry opposite meanings. Reading the divergence as deterioration silently assumes the outflow rate is constant. **It usually isn't, and the thing that changed the outflow is often the very reported measure you're contrasting it against.**
@@ -25,4 +25,12 @@ The decomposition killed most of it. The bureau also publishes the **flow into 9
 - **Run the analog on the same measure, not the same story.** "The GFC also had a big stock divergence" is not the test; "the GFC's *inflow* was rising monotonically and ours is flat" is.
 - Cuts both ways: a *falling* stock with flat inflow means the drain sped up — which is exactly how genuine deterioration gets flushed off a reported surface and looks like improvement.
 
-Related: [[finding_cross_entity_comparison_needs_same_perimeter]] (its "test the stock-vs-flow twin" limb, pointed at one entity across time) · [[finding_gross_flow_cannot_test_a_net_claim]] · [[finding_ratio_gauge_denominator_branch]] (sibling: the OTHER way a headline ratio moves without the underlying moving) · [[finding_composition_mask_unmask_discriminator]] · [[finding_registry_names_a_concept_tool_resolves_an_instrument]]
+**SECOND INSTANCE, and it adds a selection trap (2026-08-13, DEWEY CARL-DR-1).** Same decomposition, different book: Fannie Mae's single-family serious-delinquency *rate* was **flat at 0.58%**, while the underlying flow showed **additions +7.7% YoY** and the ending stock **+7.9%**. The rate held only because removals absorbed the inflow — of which 38,150 loans were removed by *modification/workout* and 14,885 by *sale*. **The reported rate was the net of a deteriorating inflow and a large discretionary removal channel, and the inflow was the honest series.**
+
+**The trap: you can only run this decomposition where the publisher ITEMISES REMOVALS — and that is not randomly distributed.** Fannie discloses a full flow table (beginning / additions / removals by type / ending) because it is a conserved GSE under disclosure obligations no private lender carries. Most issuers publish the *stock* only. So:
+
+- Where the decomposition is **possible**, the entity is typically the most transparent in its class — and transparent entities tend to have **smaller** artifacts, because disclosure disciplines the behaviour.
+- **Measurability is therefore correlated with the effect being small.** A modest measured artifact in the most transparent book is **weak evidence** about the least transparent ones, and reporting it as a class-wide result inverts the inference. In the live case the measured wedge (~22.5bps) came in below a pre-registered kill threshold (~50bps) — and the correct call was *"this is one leg, and selection runs against the kill,"* not *"the artifact is small."*
+- **Corollary worth acting on:** before commissioning a census of this shape, ask **which entities publish a removals table at all.** That question determines where the thing can ever be *measured* rather than *asserted*, and it is far cheaper to answer than the census.
+
+Related: [[finding_cross_entity_comparison_needs_same_perimeter]] (its "test the stock-vs-flow twin" limb, pointed at one entity across time) · [[finding_gross_flow_cannot_test_a_net_claim]] · [[finding_ratio_gauge_denominator_branch]] (sibling: the OTHER way a headline ratio moves without the underlying moving) · [[finding_composition_mask_unmask_discriminator]] · [[finding_registry_names_a_concept_tool_resolves_an_instrument]] · [[finding_verification_zero_is_ambiguous]] (kin: a check certifies its SCOPE, not your capability) · [[finding_private_by_construction_unverifiable]]
