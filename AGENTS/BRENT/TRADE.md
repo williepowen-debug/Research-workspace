@@ -43,6 +43,46 @@
 | **XLE $65C Sep 30** | Call**s (2)** | **LAPSE** | `[broker export 8/4, Will-confirmed complete]` **mkt $98 · cost $455.35 · −78.5%** *(the 8/2 figures — cost $2.28 / mark $0.76 / −66.6% — were per-contract off a partial export; TERRY's 8/4 reconcile is position-level and is the one to cite)* (recovered from −76.7% on 7/30). Its narrow re-escalation-snap path fired Jun 27-28 and did NOT pay; it captured ~12% of the crude move. Deep-OTM **backstop** to the convex arm — do NOT defend/add; re-arm only on a DURABLE ceasefire collapse. ⚠️ *Stale note corrected: this row said "~20% to strike"; at XLE ~$58.7 the strike was **10.8% OTM**.* **⚑ RE-READ 2026-08-10: XLE closed $60.18 (+4.66%) ⇒ the 65 strike is now **8.0% OTM**, ~51 DTE.** ⛔ **THIS DOES NOT UN-DEMOTE XLE** — the 8/7 demotion rested on three sessions of capture in BOTH directions plus a six-week realized integral, not on the distance to strike. **A leg getting closer to its strike is not evidence the vehicle was correctly chosen.** ⚠️ **Option MARKS below are `[STALE 8/4 broker export]` — I re-pulled the UNDERLYINGS today, not the chains; do not read the dollar marks as live.** |
 | **CF $130C Jun 18** | Call (1) | **EXPIRED WORTHLESS (Jun 18)** | Closed; record only. |
 
+---
+
+## 🔴 CONCENTRATION ARITHMETIC — **MY HALF, DONE 2026-08-14. OWED SINCE 7/30, AND THE 8/14 BROKER RECONCILE MADE IT BIGGER.**
+
+> **⛔ SCOPE, DECLARED FIRST: I state the EXPOSURE FACTS and the INDEPENDENCE READ. I do NOT rule on size — that is TERRY's, and the sizing half is packeted to TERRY this session.** *(Root rule #7 also binds: none of this is a trim recommendation. The thesis is intact; a concentration measurement is not a thesis signal.)*
+>
+> **Trigger: the 8/14 broker reconcile (`FORGE/STATUS.md`, commit `184a96100`, ANVIL-verified) surfaced `USO $135C Oct-16 ×2` as NEW since 8/2 — on no PROME rail, no TERRY card, no owner agent.** ★ **So the book acquired a THIRD USO-linked line, adding $1,421.33 of basis to a view already expressed twice, WITHOUT PASSING ANY SIZING RAIL.** That is the finding; the ratios below are the size of it.
+
+**BASIS: all figures from the single 2026-08-14 broker capture (one consistent vintage, not spliced).** Live USO is `$126.43` and XLE `$61.92` `[2026-08-14 ~14:4x ET — PROVISIONAL LIVE BAR, markets open, N5 (i-b); NOT used in the arithmetic]`.
+
+| Leg | Basis | Mkt (8/14) | Share of oil sleeve | Risk shape |
+|---|---:|---:|---:|---|
+| **USO 35 sh** | $4,265.80 | **$4,397.05** | **74.70%** | 🔴 **LINEAR, UNDEFENDED — no floor** |
+| **USO Oct-16 $135C ×2** | $1,421.33 | $1,210.00 | 20.56% | defined ($1,421.33 max loss) |
+| **USO Sep-18 150/165 ×1** | $300.00 | $85.00 | 1.44% | defined ($300.00 max loss) |
+| **XLE Sep-30 $65C ×2** | $455.35 | $194.00 | 3.30% | defined ($455.35 max loss) |
+| **TOTAL** | **$6,442.48** | **$5,886.05** | 100% | **−$556.43 / −8.64%** |
+
+### The three numbers that answer the question
+
+| | |
+|---|---:|
+| **USO-linked share of the oil sleeve** | **96.70%** ($5,692.05 of $5,886.05) — **XLE is the only non-USO leg and it is 3.30%** |
+| **Oil sleeve as % of DEPLOYED positions** (both brokers, ≈$19,875) | **29.6%** |
+| **Oil sleeve as % of TOTAL book** (positions + cash, ≈$36,682) | **16.0%** |
+
+### N_eff — and the two answers are different, which is the point
+
+- **Effective number of LINES (Herfindahl, 1/ΣSᵢ² on market value): `1.66`.** Four lines behave like one-and-two-thirds because one leg is three-quarters of the sleeve.
+- **⛔ Effective number of independent VIEWS: `N_eff = 1`, UNCHANGED SINCE 8/4.** **All four legs are long crude direction and ALL FOUR DIE ON THE SAME EVENT — a genuine Hormuz reopening / durable de-escalation.** TERRY's ratified rule is *size to independent VIEWS, never to the count of reasons*, and adding a fourth leg to a one-view sleeve raises exposure without adding diversification. **The 135C did exactly that, unrailed.**
+- ⚠️ **AND THE HONEST QUALIFIER, WHICH RUNS AGAINST THE ALARM: `N_eff = 1` was ALREADY the standing read on 8/4 with these same legs (minus the then-unknown 135C). This is not a NEW correlation finding — it is the same finding with a bigger number attached, and I am not dressing a re-measurement as a discovery.**
+
+### What is actually new, stated plainly
+
+1. **🔴 74.70% of the oil sleeve is an UNDEFENDED LINEAR LEG.** The three option legs together carry `$2,176.68` of fully-defined max loss; the 35 shares carry **no floor at all**. **The book's oil risk is not the convex arms — it is the stock, and it always was.** *(Standing since 8/4; restated because the ratio moved.)*
+2. **🔴 The 135C ×2 entered on no rail.** No TERRY card, no PROME gate, no owner agent, fill date/price unobtainable from a positions view. **It is now the SECOND-largest oil leg at 20.56% of the sleeve** — a line that would have required a card if anyone had proposed it.
+3. **🟠 Two of the four legs expire inside ~5 weeks** (XLE 9/30, USO spread 9/18) and both are deep underwater (−57.4%, −71.67%). **Their $755.35 of combined basis is largely spent; they are not meaningful forward exposure and should not be counted as if they were.** ⇒ **the FORWARD oil sleeve is effectively the 35 shares + the Oct-16 135C = `$5,607.05`, i.e. `95.3%` of it in two USO lines.**
+
+⛔ **NO POSITION CHANGED. NO THRESHOLD MOVED. `$0` AT RISK FROM ANY GATE — there is no live gate.** **→ sizing half packeted to TERRY 2026-08-14.**
+
 **No flat-price length (no new longs, no fresh shorts).** A fresh short fights both the priced-in reopening and the new upside skew; flat-price longs are the wrong vehicle for a tail (theta). Express via convexity only.
 
 ---

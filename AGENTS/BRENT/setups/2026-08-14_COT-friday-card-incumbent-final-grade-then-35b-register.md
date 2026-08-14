@@ -108,6 +108,23 @@ Socrata `72hh-3qpy` under contract code **`067651` spans a 2022 RENAME**:
 
 ---
 
+---
+
+## 3b. ✅ MARKED 2026-08-14 — THE 5-SESSION FILL-DEBIT ASK IS ANSWERED, BROKER-CONFIRMED
+
+**USO Sep-18 150/165 call spread — NET DEBIT = `$300.00` EXACTLY.** `[CONF, Robinhood positions capture 2026-08-14, back-computed from −$215.00 / −71.67%, tight to ±$0.02; record = FORGE/STATUS.md 8/14 reconcile commit `184a96100`, ANVIL-verified]`
+
+| | |
+|---|---:|
+| Net debit (broker-confirmed) | **$300.00** |
+| Current value | **$85.00** |
+| Unrealized | **−$215.00 / −71.67%** |
+| Max profit | ~**$1,200** at USO ≥$165 (≈4:1) |
+
+✅ **This CONFIRMS the 7/25 "~$300 net debit" verbal estimate rather than correcting it** — the estimate was right, it had simply never been broker-verified, and it sat as an open ask across **5 sessions / 20 days** (queue row 20, open since 7/24). ⛔ **NOTHING MOVES ON THIS: the debit was already the number every card and packet used, so no break-even, strike, size or threshold changes. What changed is the EVIDENCE GRADE — `[EST, verbal]` → `[CONF, broker]`.** ⚠️ **RESIDUE, NAMED SO IT IS NOT MISTAKEN FOR CLOSED: exact fill DATE/TIME and PER-LEG prices are still unavailable — a positions view cannot show them, and only an activity-tab capture can.** *(The max-profit figure derives from the confirmed debit: 15-wide − $3.00 = $12.00 = $1,200. The card's earlier ~$1,135 / ~3.1× was computed off the ~$365 pre-fill quote and is superseded, not corrected — the fill was better than the quote.)*
+
+---
+
 ## 4. CLOSING CHECK — three things that must all be true before Friday's session ends
 1. **The incumbent's final verdict is WRITTEN** — `SPENT holds` or `SPENT un-fires`, in figures, with the 8/11 shorts number beside it. Not inferred.
 2. **The successor is registered with `median_unit` marked FROZEN and its basis stated**, or explicitly NOT registered with a reason.
