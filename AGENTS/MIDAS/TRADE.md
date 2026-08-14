@@ -9,6 +9,8 @@
 *(Banner-compliant per blueprint §8 / PAT-023: a trade surface carries a FROZEN/NOT-CURRENT banner OR a live mtime alert — never the silent-rot middle. Exempts the surface until MIDAS opens its first idea; `boot.py` runs `ledger_staleness.py MIDAS --trade` regardless.)*
 
 
+> ⚠️ **THE 8/07 BLOCK BELOW CARRIES SUPERSEDED FIGURES ($4,401.30 · +9.68% · +12bp · −4bp · +8.70%). Preserved VERBATIM by the dated-re-spec rider — do NOT cite it as current. Corrected figures are in the 8/14 update directly beneath it.**
+
 **2026-08-07 update — M1's tradeable trigger has FIRED (still NO MIDAS position).** The v2 tradeable trigger named in the 7/23 update — *a sustained (3+wk) DIVERGE (gold rising through rising real yields = premium reassertion)* — **fired on 8/7**: gold **$4,401.30** (+9.68% over the 3wk window 7/17->8/7) through DFII10 **+12bp** (2.31 -> 2.43) including a **2.47 cycle high [7/31]**. The magnitude test is what makes it a signal rather than a rates bid: empirical beta **-0.0513%/bp** (R^2=0.023, n=647) means the -4bp of the melt-up week explains **~2.4%** of a +8.70% move. M1 **2 -> 3 (Orange)**.
 
 **What that does and does NOT mean for the book:**

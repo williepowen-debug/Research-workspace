@@ -54,6 +54,8 @@
 
 ---
 
+> ⚠️ **EVERYTHING BELOW THIS LINE IS A DATED HISTORICAL RECORD. The 8/07 entries carry SUPERSEDED metals marks** (gold $4,401.30 · silver $63.80 · 3wk +9.68% · +12bp · cushion 32.7%), re-based by **HEARTBEAT Am.#2 (8/10)** to gold **$4,340.70** · silver **$63.33** · **+8.18%** · **+9bp** · cushion **30.9%**. **Preserved verbatim by the dated-re-spec rider — do NOT cite as current.** See the 8/14 entry above.
+
 **2026-08-07 GOLD-RISE ADJUDICATION SESSION (PROME-spawned, Will in-session, ~19:2x-20:0x ET, mkts CLOSED).** Woke after a **15-day dark gap** (last real session 7/23) on WALTER's `SIG-W-20260807-004`. Adjudicated the nascent M1 watch, refreshed all four channels, drained 8 inbox items, found and fixed a defect in my own instrument.
 
 **🔴 M1 v2 KILL-CONDITION #3 = FIRED. MIDAS's first fired kill-condition (fired-count 0/4 -> 1/4).**
