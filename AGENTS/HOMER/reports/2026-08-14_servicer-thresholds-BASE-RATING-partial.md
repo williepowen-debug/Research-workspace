@@ -187,7 +187,17 @@ The near-miss makes the point precisely: **Oaktree's Dec-2020 private placement 
 | (d) Dividend cut ≥50% / suspension | **2** | LDI 2022-05-10; UWMC 2026-08-05 |
 | (d-ii) …unscheduled | **2 of 2 = 100%** | neither pre-announced as policy |
 
-⚠️⚠️ **THE DIVIDEND DENOMINATOR IS 3, NOT 5.** **RKT never had a regular dividend** (specials only) and **Onity has NEVER paid one at all** ⇒ **neither was ever at risk of cutting one.** Only **PFSI, LDI, UWMC** ever ran a policy. ⇒ **2 suspensions / 3 at-risk companies over ~18.7 at-risk company-years.** **Computing this over n=5 understates the conditional rate by ~40% — in the direction that flatters the spec, exactly as I predicted before the data arrived, and now confirmed on TWO names rather than one.**
+⚠️⚠️ **THE DIVIDEND DENOMINATOR IS 3, NOT 5.** **RKT never had a regular dividend** (specials only) and **Onity has NEVER paid one at all** ⇒ **neither was ever at risk of cutting one.** Only **PFSI, LDI, UWMC** ever ran a policy. ⇒ **2 suspensions / 3 at-risk companies.**
+
+> ⚠️⚠️ **CORRECTION APPLIED 2026-08-14, VERIFICATION PASS (PROME-prompted) — I MADE THE SAME MISTAKE INSIDE MY OWN CORRECTION.** This sentence first read ***"over ~18.7 at-risk company-years… computing this over n=5 understates the conditional rate by ~40%"*** *(superseded text preserved verbatim per the rider)*. ⛔ **The 18.7 is the sum of the three names' full PUBLIC windows (7.6 + 5.5 + 5.6) — NOT the windows in which a dividend policy actually existed.** **A company cannot be "at risk of cutting" in years when it paid nothing.**
+>
+> **Correct at-risk windows (policy existed → cut, or → today):** **PFSI 6.79y** (initiated 2019-10-31, still paying) · **LDI 0.99y** (initiated 2021-05-13, **suspended 2022-05-10** — LDI ran a dividend policy for barely ONE year of its 5.5-year listing, and that gap is where almost all the error sits) · **UWMC 5.50y** (initiated 2021-02-03, suspended 2026-08-05). ⇒ **TOTAL 13.3 at-risk company-years.**
+>
+> ⇒ **Conditional rate = 2 / 13.3 = 0.151 per at-risk company-year, NOT 2 / 18.7 = 0.107. I understated it by 29%.**
+>
+> ★★ **AND THE UNDERSTATEMENT RAN IN EXACTLY THE DIRECTION I WAS WARNING ABOUT — I inflated a denominator with non-at-risk time inside the very paragraph whose point is that inflating this denominator flatters the spec.** **Correcting WHICH companies count (n=5→3) was necessary and insufficient: it does nothing if you then count YEARS THEY WERE NOT AT RISK.** *(Third instance of this class today — the n=5 denominator, this at-risk-years figure, and the §2 conjunction-vs-disjunction framing. **The lesson: an error can survive its own correction. Re-derive the corrected figure from primaries; do not compute it from the numbers already on the page.**)*
+
+**The n=5 point still stands and is now the SECOND of two compounding denominator inflations rather than the only one.**
 
 ### ⛔ What is owed now
 
