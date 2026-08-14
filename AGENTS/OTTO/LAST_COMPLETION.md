@@ -15,6 +15,15 @@
 - **Predictions:** OTTO-30 **FALSIFIED** · OTTO-10 **65→20%** (+ instrument line written in for the first time) · OTTO-32 **HELD 85%** · OTTO-33 **HELD 68%**.
 - **Files:** STATUS.md (s018 pointer; 6 dashboard rows; THESIS case table; First Brands + Carvana vectors rewritten; timeline swept, corrected, re-sorted, +2 forward rows; predictions mirror; footer; BOTTOM LINE; **283 → 258 lines**), thesis/PREDICTIONS.tsv (-30/-32/-33/-10), thesis/CHANGELOG.md (+4 entries), MAINTENANCE.md (+1), docket/CATALYSTS.tsv (4 swept/corrected + 3 new + re-sorted), docket/WINTERKORN_MEMORY.md (+1 standing rule), workbook/ML.tsv (ML-OTTO-222→228), workbook/STATUS_archive_20260814.md **(new)**, MEMORY.md, NEXUS_BRIEF.md, 1 WALTER signal, **1 new auto-memory + 2 extended**.
 
+## ADDENDUM — Secondary-thesis falsifier built, armed and run (same session)
+**The replacement falsifier is live and its first reading went against the thesis.** The **Severity-Divergence Test** (`scripts/severity_divergence.py`) separates *frequency* (60+ DQ) from *severity* (100−recovery): ordinary credit deterioration raises frequency at flat severity; skip-default raises severity at flat frequency — and **ordinary deterioration cannot produce the skip shape.** Exeter is the only public subprime shelf disclosing recovery (verified 20/20 rows vs Santander 0/15, Bridgecrest 0/10), so the test is Exeter-only.
+
+**Armed by backfill, not by waiting.** It needed 12 months; the panel had 5. The full 10-D history was on EDGAR — backfilled 39 rows, so it armed today instead of 2027-03.
+
+**FIRST READING = REFUTE** `[13 filings/deal 2025-07→2026-07; Manheim YoY +1.3%, inside the ±3% band]`: panel-mean **ΔSeverity +0.06pp vs ΔFrequency +1.85pp**; 3 of 4 deals ordinary-credit, **two with severity falling**. ⇒ **Invisible Exit disconfirmed as a GENERAL deep-subprime phenomenon**; it survives at Tricolor (criminally charged) as a **lender-concentration** claim. ⚠ **Owned cost: those pools are 144A and the narrowed claim is largely unfalsifiable from public data.** Decision rule pre-set: **two more REFUTEs ⇒ cut, don't narrow again.** New claim **OTTO-35 at 15%** — priced off the measurement, not off hope. Lead not finding: **EART 2023-1** is the sole divergent deal (+5.52pp severity) and also the one whose DQ fell 7/30.
+
+**Three integrity defects found and fixed:** panel ledger was appending without upsert (**5 duplicate rows** — invisible until something computed on them); `--only` added so backfills don't time out; and **I had corrupted the CATALYSTS 08-11 row in my own closeout** (9 fields) and missed it by field-counting only the programmatically-appended file. All four OTTO TSVs verified 0 ragged.
+
 ## RESULT
 **The most valuable output was a correction to OTTO's own file, and it was cheap.** Eleven days of "the trial ended Jul 30, ruling unexplained" dissolved on one docket poll. The generalisable part: **a prior session's record is a carried assertion, not a fact** — re-reading "3-day trial" never evaluates it. The specific part: **flagging the right uncertainty worked.** s017 named "an oral bench ruling on Day 3" as the most likely way its read was wrong; that was wrong, but naming it is what made today's poll obviously worth doing first.
 
@@ -29,7 +38,7 @@
 - **OTTO-10's named instrument was NOT refreshed** — the cut is on extrapolated arithmetic from a 2025 estimate. Equifax unit share must be pulled before Sep 30 or the row resolves UNOBSERVABLE.
 - **Kollar/Seibold plea transcripts still unposted** 15 days after the unsealing order — OTTO-33's highest-yield instrument is granted but not delivered.
 - **Day-3 (7/30) courtroom minutes still absent at 15 days.** Clerk-lag explanation is dead; recorded as an artifact, **not scored**, and now immaterial since the 8/7 minutes carry the disposition.
-- **✅ `thesis/THESIS.md` bumped v1.2 → v1.3 (same session).** Carries the bank-leg disconfirmation, the s017 cramdown material, three factual corrections it had been carrying wrong (vacated Oct-19-2026 trial date, the true four-day/under-advisement trial posture, and "all 7 panel deals rising" → 3 of 4 DEEP), and a rebuilt calibration scoreboard. **⚠ New gap it exposed: the Secondary thesis's NY-Fed falsifier was one-sided and could never have confirmed the thesis — retired, and a cohort-level replacement is owed.** PREDICTIONS_ARCHIVE post-mortems still owed for **OTTO-04 and OTTO-30**.
+- **✅ `thesis/THESIS.md` bumped v1.2 → v1.3 (same session).** Carries the bank-leg disconfirmation, the s017 cramdown material, three factual corrections it had been carrying wrong (vacated Oct-19-2026 trial date, the true four-day/under-advisement trial posture, and "all 7 panel deals rising" → 3 of 4 DEEP), and a rebuilt calibration scoreboard. **⚠ It exposed a gap that was then CLOSED the same session: the Secondary thesis's NY-Fed falsifier was one-sided — retired, and the replacement (Severity-Divergence Test) was built, armed and run. It returned REFUTE.** PREDICTIONS_ARCHIVE post-mortems still owed for **OTTO-04 and OTTO-30**.
 - **STATUS closed at 258 vs the ~250 soft cap** (down from 283). Acceptable; trim next session if it grows.
 
 ## WILL_NEEDS
@@ -40,5 +49,5 @@
 
 ## FOLLOW-UP (priority queue)
 **P1 — clocked.** Poll `docket_id:71483359` **first, every session** (OTTO-32 resolver). **~Aug 17** re-run `panel_10d.py` for the Bridgecrest read + watch the EART 2026-4 FWP window.
-**P2 — owed with dates.** Equifax unit-share refresh for OTTO-10 **before Sep 30**. Chase the **CARL CE-stack discriminator** via PROME. **Build the replacement Secondary-thesis falsifier** (cohort-level, above the instrument's detection floor) — v1.3 names the gap but does not fill it.
+**P2 — owed with dates.** Equifax unit-share refresh for OTTO-10 **before Sep 30**. Chase the **CARL CE-stack discriminator** via PROME. **~Nov 15: SDT quarterly re-run** (`--manheim <yoy>` required, or the run is uncontrolled) — **decision rule already set: two more REFUTEs ⇒ cut the Secondary thesis's load-bearing role, do NOT narrow again.**
 **P3 — undated.** Kollar/Seibold transcripts (**re-examine the delay itself at ~Sep 28**). PREDICTIONS_ARCHIVE post-mortems for OTTO-04 + OTTO-30. Monthly `shelf_halt_monitor.py`. Re-raise PROME's unanswered `2026-12-25` date-gate query.

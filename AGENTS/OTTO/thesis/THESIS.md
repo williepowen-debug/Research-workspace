@@ -5,6 +5,10 @@
 **Conviction (decomposed):**
 - **Pattern / direction: HIGH** — 4 confirmed cockroaches in 8 months, recurring mechanism, no falsifying counter-evidence. The cockroach pattern is mechanistically over-determined.
 - **Secondary-thesis MECHANISM: MEDIUM-HIGH → HIGH (2026-07-25)** — the DQ-chain bypass is no longer OTTO's inference. The **superseding 8-count indictment** vs Chu (unsealed 2026-06-24) charges that Tricolor executives *"manipulated delinquent loan data to make non-performing loans appear current"* **and** *"pledged the same collateral to multiple lenders simultaneously"* — both OTTO mechanisms, as federal criminal allegations, backed by **18 U.S.C. §225** (10-yr-to-life mandatory minimum, dormant a decade) and a **cooperating ex-COO**. Conviction on *transmission* is unchanged; this raises conviction on *mechanism*.
+  - **⭐ SPLIT 2026-08-14 — the Secondary mechanism has two claims and they now diverge sharply. Do not quote one conviction for both.**
+    - **(a) The mechanism operated AT TRICOLOR: HIGH, unchanged.** Criminally charged, cooperator-corroborated, industrially evidenced (30K missing vehicles).
+    - **(b) The mechanism is a GENERAL deep-subprime phenomenon: MEDIUM → LOW, disconfirmed on first measurement.** The purpose-built **Severity-Divergence Test** ran on 13 months of Exeter 10-D data (2025-07 → 2026-07, Manheim-controlled) and returned **REFUTE**: delinquency rose **+1.85pp** while loss severity moved **+0.06pp** — losses arriving through the ordinary DQ chain at stable collateral recovery, the *opposite* of the skip signature. Three of four deals individually; two showed severity **falling**.
+    - ⇒ **The Invisible Exit narrows from an industry-wide claim to a LENDER-CONCENTRATION claim.** ⚠ **And that narrowing has a cost OTTO must own: the concentrated pools are 144A with no public performance data, so the narrowed version is largely unfalsifiable from public sources.** A thesis that survives by retreating to where it cannot be measured is weaker than it looks, and this one just did that once. **If the SDT returns REFUTE again on the next two quarterly runs, the honest move is to cut (a)'s load-bearing role in the Primary thesis, not to keep narrowing.**
 - **Fraud-recovery magnitude (idiosyncratic): HIGH** — Tricolor ~3% vehicle recovery, ABS notes <10¢, First Brands debt 0.4¢ second-lien. Deep-subprime 2022 impairment now **primary-source confirmed >25%** (Exeter EART 2022-3 CNL **27.86%** on the 10-D filed 2026-07-30; was 27.58% at the Jul-4 read).
 - **Systemic-funding-transmission magnitude: LOW / DISCONFIRMED (Jul 4)** — the expectation that fraud-discovery transmits into a broad subprime-ABS funding freeze / repricing is **falsified**: subprime BBB spreads TIGHTENED to +140bps (EART 2026-3, vs +190 Mar), issuance is robust and upsized ($1.2bn), Exeter earned its 1st-ever AAA, and Ally near-prime credit is *improving*. (OTTO-05 FALSIFIED; OTTO-28 FALSIFIED-on-window.)
 - **⭐ Bank-contagion-transmission magnitude: LOW / DISCONFIRMED (2026-08-14) — NEW IN v1.3, and it is the most important change in this version.** The expectation that fraud-discovery *keeps surfacing new bank counterparties* is **falsified**. `[CONF SEC EDGAR FTS q="Tricolor", complete scan of the whole window 2026-04-15 → 08-14, run-stamped 2026-08-14]` **Zero new US bank names.** Every institution on OTTO's list disclosed *before* the window opened. **OTTO-30 FALSIFIED** on a check pre-registered three weeks earlier.
@@ -99,7 +103,54 @@ OTTO has framed the picture since s015 as *deep-subprime bleeds while broad subp
 - **Recovery ratio rebounds above 40%** sustained for 2+ quarters — would suggest skip prevalence is normalizing.
 - ~~**Q2 2026 NY Fed HDC** shows auto transition-to-90+ accelerating in line with ABS-level stress~~ — **⭐ THIS TEST RAN ON 2026-08-11 AND DID NOT FIRE.** `[CONF NY Fed HHDC 2026Q2]` Auto transition into 90+ moved **+3.3bp QoQ to 3.0028%** (Q1 2.9697%; Q2-25 2.9352%) — a first 3.00%+ print, but **basis points**, while OTTO's deep-subprime 10-D panel sits at **10.8-14.8% 60+ DQ** and DEEP annualized net loss runs **18.85% vs BROAD 6.41%**. Auto stock grew to a record **$1.713T (+1.66% QoQ)** *while total household debt FELL* ($18.784T → $18.771T). **The divergence held and widened. The falsifier is retired as tested-and-not-fired.**
   - **⚠ BUT — and this constrains the thesis, not just the test — this falsifier was BADLY SPECIFIED and must not be re-armed as written.** A cohort measured in tens of thousands of skip-defaults **cannot move a $1.713T aggregate**, so the aggregate could never have confirmed the Secondary thesis; it could only ever fail to contradict it. **Ruling (2026-08-14): the NY Fed consumer aggregate is a NON-CONTRADICTION CHECK ONLY and OTTO stops citing it as confirming evidence.** A one-sided instrument is weak evidence, and pretending otherwise is how a thesis becomes unfalsifiable. *(auto-memory `[[finding_cohort_too_small_to_move_the_index]]`.)*
-  - **What a PROPERLY specified replacement looks like** (owed, not yet built): a test on the **skip-dense cohort itself**, not the national aggregate — e.g. geographic concentration (TX/FL/CA border-county ABS pool strata), or the CNL-to-DQ divergence ratio at the deal level, where the effect is above the instrument's detection floor. Until that exists, **the Secondary thesis's independent falsifiability rests on the recovery-ratio and deep-subprime-CNL conditions below.**
+  - **✅ REPLACEMENT BUILT, ARMED AND RUN 2026-08-14 — see the SEVERITY-DIVERGENCE TEST immediately below.** *(The owed item is discharged. The geographic-stratification idea sketched here was dropped after base-rating it: 10-Ds report pool aggregates with no state breakdown, so a geographic test would need issuance-prospectus state mixes across only 4 same-issuer deals — n far too small to separate. "Don't build it" was the right answer for that variant.)*
+
+---
+
+### ⭐ THE SEVERITY-DIVERGENCE TEST (SDT) — the armed Secondary-thesis falsifier
+*Built 2026-08-14. Implementation: [`../scripts/severity_divergence.py`](../scripts/severity_divergence.py) (self-tested, 10-case positive control).*
+
+**The discriminator.** Separate **frequency** from **severity**, because the two competing explanations move them differently:
+
+| | frequency (60+ DQ) | severity (100 − recovery) |
+|---|---|---|
+| **Ordinary credit deterioration** | **UP** — more bad borrowers | **flat** — same collateral, same repo |
+| **Skip-default / Invisible Exit** | **flat** — never enters the 30→60→90 roll | **UP** — the vehicle is gone, recovery ≈ 0 |
+
+**So "severity rising while frequency is flat" is the mechanical fingerprint of skip, and ordinary credit deterioration cannot produce it** — more bad borrowers necessarily means more delinquency. That asymmetry is the whole test.
+
+**Instrument.** SEC EDGAR Form 10-D Ex-99.1 monthly servicer reports, **Exeter (EART) only** — verified 2026-08-14 as **the sole public subprime shelf disclosing a recovery rate** (exeter 20/20 rows; Santander 0/15; Bridgecrest 0/10). Deals: EART 2022-2, 2022-3, 2023-1, 2024-1. Fields `recovery_pct`, `dq_60plus_pct`, monthly, in percentage points — **different denominators, so only their CHANGES are compared, never their ratio.** Common-mode control: **Manheim Used Vehicle Value Index YoY**.
+
+**Pre-registered boundary** (numbers + an explicit no-verdict band; base-rated *before* the thresholds were set — pooled monthly recovery SD **2.12pp**, so at n=12 2×SE = **1.23pp** and the +2.00pp line clears it with ~60% margin, ≈ a 7.4pp move in the skip share of defaults):
+- **CONFIRM** — panel-mean ΔSeverity **≥ +2.00pp** AND ΔFrequency **≤ +0.50pp** AND |Manheim YoY| ≤ 3%
+- **REFUTE** — panel-mean ΔSeverity **≤ +0.50pp** AND ΔFrequency **≥ +1.00pp** AND |Manheim YoY| ≤ 3%
+- **NO VERDICT** — anything else, incl. <12 months, <3 deals, or |Manheim YoY| > 3%
+
+**Detection floor, stated rather than assumed:** minimum detectable skip-share change **4.5% at n=12**, 7.0% at n=5. Below it the test returns NO VERDICT, not a false negative.
+
+#### 🔴 FIRST READING (2026-08-14) — **REFUTE.** This cuts against the Secondary thesis.
+`[CONF SEC 10-D, 13 monthly filings/deal, 2025-07-25 → 2026-07-30; Manheim YoY +1.3% (Jul-2026, inside band)]`
+
+| Deal | ΔSeverity | ΔFrequency | signature |
+|---|---|---|---|
+| EART 2022-2 | **−3.59** | +2.11 | ordinary-credit |
+| EART 2022-3 | **−1.73** | +1.75 | ordinary-credit |
+| EART 2023-1 | **+5.52** | +1.56 | *(divergent — see lead below)* |
+| EART 2024-1 | +0.05 | +1.97 | ordinary-credit |
+| **panel mean** | **+0.06** | **+1.85** | **REFUTE** |
+
+**Over twelve months, deep-subprime delinquency rose ~1.9pp while loss severity did not move at all.** Losses are arriving through the ordinary 30→60→90 chain at stable collateral recovery — **the opposite of the Invisible-Exit signature.** Three of four deals show it individually, and two show severity *falling*.
+
+**What this does and does not kill — the distinction is load-bearing:**
+- **NOT killed: the mechanism at Tricolor.** That is criminally charged (superseding indictment, Jun 24 2026) and independently evidenced (30K missing vehicles, Vervent Fresh Start). Nothing here touches it.
+- **KILLED on first measurement: the Invisible Exit as a GENERAL deep-subprime phenomenon.** If skip-default were materially and growingly present across ordinary deep-subprime pools, it would show here, and it does not.
+- ⇒ **The thesis narrows to: the Invisible Exit is a LENDER-CONCENTRATION effect, not an industry-wide one.** It operates where the cohort is deliberately concentrated (Tricolor: 75% undocumented, 68% no credit score) — and **those pools are 144A with no public performance data**, so the narrowed claim is, by construction, largely unfalsifiable from public sources. **That is a genuine weakness and is recorded as one, not smoothed over.**
+
+**🟡 One lead, explicitly not a finding: EART 2023-1** is the sole deal with the divergent signature (**severity +5.52pp** on the tightest recovery series in the panel), and it is **the same deal whose 60+ DQ fell −0.16pp on the 7/30 filing** — the anomaly that broke the "all deals rising" claim. One deal of four, and a servicing transfer or pool-specific event would look identical. **Watch it; do not build on it.**
+
+**⚠ Scope limit, stated up front.** Exeter is deep subprime but is **not known to be immigrant-concentrated.** The SDT measures the **mechanism**, not the **cohort**. A CONFIRM would evidence "collateral-less default is growing in deep subprime" — the fingerprint — and would **not** by itself establish the immigrant channel.
+
+**Cadence:** re-run quarterly on a rolling 12-month window (next ~2026-11-15), and after any panel refresh. Live forward claim → **OTTO-35**.
   - *Second-order observation, recorded as hypothesis not conclusion:* pct-of-balance 90+ **fell** to 5.49% (Q1 5.60%) while the transition rate **rose** — mechanically, balances are leaving the 90+ bucket faster than they enter, i.e. **faster charge-off**, which is what skip-defaults imply. **[EST] — not separable from ordinary seasonal charge-off timing with this data.** Same refusal-to-join discipline as the Carvana finance-GPU read.
 - **2022-vintage *deep-subprime* CNL stays below 22%** through Sep 30 — would suggest the cohort skip-effect has been overstated. *(Already refuted for the deep-subprime tranche — Exeter 2022 at 27.58% Jul 4; a blended-index reading below 22% would instead reflect composition, not a weaker skip-effect.)*
 

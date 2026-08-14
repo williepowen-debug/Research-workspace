@@ -46,6 +46,7 @@ Usage:
 """
 
 import json
+import os
 import re
 import sys
 import time
@@ -312,6 +313,14 @@ def main():
     if "--history" in sys.argv:
         want = int(sys.argv[sys.argv.index("--history") + 1])
     dry = "--dry-run" in sys.argv
+    # --only <substr>  → restrict the run to deals whose name contains <substr>
+    # (case-insensitive). Added 2026-08-14: a full --history backfill is 9 deals x N
+    # filings of rate-limited EDGAR fetches and times out interactive runs. The
+    # severity-divergence falsifier reads Exeter ONLY (sole issuer disclosing a
+    # recovery rate), so it needs `--only EART` rather than a whole-panel pull.
+    only = None
+    if "--only" in sys.argv:
+        only = sys.argv[sys.argv.index("--only") + 1].lower()
     run_ts = datetime.now().strftime("%Y-%m-%dT%H:%M:%S")
 
     print(f"\n{'='*104}\n  OTTO 10-D Performance Panel — {run_ts}   ({want} filing(s)/deal)")
@@ -319,6 +328,8 @@ def main():
 
     rows, control_ok = [], None
     for deal, phrase, tier, issuer in PANEL:
+        if only and only not in deal.lower():
+            continue
         if issuer not in SPECS:
             rows.append(dict(run_ts=run_ts, deal=deal, tier=tier, issuer=issuer, status="UNSUPPORTED",
                              parse_misses="no field spec for issuer", filing_date="", months_seasoned="",
@@ -387,13 +398,51 @@ def main():
 
     if dry:
         print("\n  [--dry-run] nothing written\n"); return 0
-    new = not LEDGER.exists()
-    with LEDGER.open("a") as fh:
-        if new:
-            fh.write("\t".join(COLUMNS) + "\n")
-        for r in rows:
-            fh.write("\t".join(str(r.get(c, "")) for c in COLUMNS) + "\n")
-    print(f"\n  Appended {len(rows)} row(s) to {LEDGER.name}\n")
+
+    # ── UPSERT on (deal, filing_date), atomic write ──────────────────────────
+    # Was a blind append. Re-running against an already-recorded filing wrote a
+    # DUPLICATE row — 5 of them existed by 2026-08-14, all the 07-15 SDART/BLAST
+    # filings, from the s017 re-run. Harmless to eyeball, NOT harmless to any
+    # statistic computed off this ledger: duplicates silently inflate n and
+    # double-weight one month. Found while base-rating the severity-divergence
+    # falsifier, which reads exactly these columns. Key is (deal, filing_date)
+    # because that pair identifies one servicer report; last write wins, so a
+    # re-parse after a parser fix supersedes rather than accumulates.
+    existing, order = {}, []
+    if LEDGER.exists():
+        with LEDGER.open() as fh:
+            lines = [ln.rstrip("\n") for ln in fh if ln.strip()]
+        if lines and lines[0].split("\t")[0] == COLUMNS[0]:
+            lines = lines[1:]
+        for ln in lines:
+            parts = ln.split("\t")
+            if len(parts) != len(COLUMNS):        # field-count the WHOLE file
+                print(f"  ⚠ RAGGED ROW skipped ({len(parts)} of {len(COLUMNS)} fields): {ln[:60]}…")
+                continue
+            rec = dict(zip(COLUMNS, parts))
+            k = (rec["deal"], rec["filing_date"])
+            if k not in existing:
+                order.append(k)
+            existing[k] = rec
+
+    added = replaced = 0
+    for r in rows:
+        k = (str(r.get("deal", "")), str(r.get("filing_date", "")))
+        if k in existing:
+            replaced += 1
+        else:
+            added += 1
+            order.append(k)
+        existing[k] = {c: str(r.get(c, "")) for c in COLUMNS}
+
+    tmp = LEDGER.with_suffix(".tsv.tmp")
+    with tmp.open("w") as fh:
+        fh.write("\t".join(COLUMNS) + "\n")
+        for k in order:
+            fh.write("\t".join(existing[k].get(c, "") for c in COLUMNS) + "\n")
+    os.replace(tmp, LEDGER)                       # atomic; never a half-written ledger
+    print(f"\n  {LEDGER.name}: {added} new row(s), {replaced} replaced, "
+          f"{len(order)} total (upsert on deal+filing_date)\n")
     return 0
 
 

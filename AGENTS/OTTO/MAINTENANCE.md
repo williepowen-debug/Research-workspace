@@ -14,6 +14,27 @@ routine content edits. Archive to `archive/` if it grows past ~300 lines (SAM ca
 
 ---
 
+## 2026-08-14 (session 018b) — Severity-Divergence Test built; panel ledger upsert fix; three integrity defects found
+
+**Trigger:** v1.3 of the thesis named an owed item — the retired NY Fed falsifier had been one-sided and needed a properly-scoped replacement. Building it required touching the panel ledger, which surfaced defects.
+
+**What changed:**
+1. **`scripts/severity_divergence.py` — NEW.** The armed Secondary-thesis falsifier. Frequency-vs-severity discriminator, pre-registered numeric boundary with an explicit NO-VERDICT band, two-sided Manheim common-mode gate, and a **10-case synthetic positive control that tests the ARITHMETIC and never the WORLD** (the s017 lesson encoded directly: the old panel control was pinned to a moving quantity, so new data necessarily failed it).
+2. **`scripts/panel_10d.py` — upsert fix.** Was a blind append; **5 duplicate rows existed** (all the 07-15 SDART/BLAST filings, from the s017 re-run). Now upserts on `(deal, filing_date)`, writes via `.tmp` + `os.replace` (atomic), and field-counts the whole file on read. Added `--only <substr>` so a `--history` backfill can target one issuer — a 9-deal × 15-filing pull is ~160 rate-limited EDGAR fetches and times out interactive runs.
+3. **Exeter history backfilled** (39 new rows, 21 replaced, 79 total; panel control PASS). This is what **armed the falsifier immediately** rather than waiting until 2027-03 for 12 forward months.
+4. **`docket/CATALYSTS.tsv` ragged row repaired** — see Lessons.
+
+**Files touched:** `scripts/severity_divergence.py` (new), `scripts/panel_10d.py`, `workbook/PANEL_10D.tsv`, `docket/CATALYSTS.tsv`, plus the analytical surfaces (→ CHANGELOG).
+
+**Boot-impact:** none on boot time. The SDT is a **quarterly** run, docketed ~2026-11-15, not a boot step — it needs a Manheim reading supplied by hand and should not run unattended.
+
+**Lessons — three integrity defects, and the third is the instructive one:**
+- **Backfill beats waiting.** The test looked like it needed 7 more months of forward data. The full 10-D history was on EDGAR the whole time. **Ask "can I backfill?" before accepting an arming delay.**
+- **Duplicates are invisible until something computes on them.** Five duplicate rows sat in the ledger looking fine; they only mattered because a statistic was finally being computed off those columns. Any append-only ledger that will ever be a *statistical input* needs an upsert key from day one.
+- ⚠ **I corrupted a TSV row in my own closeout an hour earlier and did not notice.** An Edit replaced only the *prefix* of a notes cell, orphaning the original tail and its trailing `date_class` into 9th and 8th fields. **I had run a field-count check that session — on `ML.tsv` only, the file I appended to programmatically.** The file I edited **by hand** went unchecked, which is exactly backwards: a hand edit inside a tab-delimited cell is the *likelier* way to introduce a stray tab. **Standing rule: field-count EVERY tsv touched in a session, hand-edited ones first.** Verified after fix — CATALYSTS 0 / PREDICTIONS 0 / ML 0 / PANEL_10D 0 ragged.
+
+---
+
 ## 2026-08-14 (session 018) — Unobservable catalyst rows re-keyed to observable outputs; STATUS archive #5
 
 **Trigger:** three catalyst rows fired between boots (2026-08-05 Rule 17 subpoena deadline, 2026-08-07 defense privilege log, plus the 8/14 and 8/21 steps of the same chain) and **all of them swept EMPTY** — not because nothing happened, but because **every one was keyed to a party-to-party discovery obligation that structurally cannot produce a docket entry.** Rule 17 applications are routinely ex parte or sealed and service needs no docket entry; privilege logs are exchanged between parties and are never filed. `[CONF CourtListener docket_id 72046761 — zero entries 2026-08-01..08-14]`

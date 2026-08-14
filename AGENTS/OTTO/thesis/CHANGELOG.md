@@ -16,6 +16,22 @@ pre-Jun-9 layout, in which neither `thesis/THESIS.md` nor `MAINTENANCE.md` exist
 
 **Format:** reverse-chronological. Each entry: `### YYYY-MM-DD — headline`, then **Was → Is**, **Trigger**, **Touches**, and any calibration note. *(Un-fused from the first entry heading 2026-08-14 — the sentence had been concatenated onto an entry title since the v1.2 pass, so the newest entry always inherited the words "Format: reverse-chronological. Each entry:" as part of its heading.)*
 
+### 2026-08-14 — The Invisible Exit is disconfirmed as a GENERAL phenomenon; it survives only as a lender-concentration claim
+
+**Was → Is.** *Was:* the Secondary thesis asserted that skip-default is a material, industry-wide driver of subprime auto loss — "a material fraction of subprime auto loans... exits through skip-default rather than 30/60/90-day delinquency," with conviction **HIGH on mechanism** since the Jun-24 indictment. *Is:* **the mechanism is confirmed at Tricolor and DISCONFIRMED as a general deep-subprime phenomenon**, on the first reading of a purpose-built test. Conviction splits: **(a) mechanism at Tricolor HIGH, unchanged** (criminally charged, 30K missing vehicles); **(b) mechanism as a general deep-subprime effect MEDIUM → LOW.**
+
+**Trigger.** The **Severity-Divergence Test**, built this session to replace the retired one-sided NY Fed falsifier, returned **REFUTE** on its first run. `[CONF SEC 10-D, Exeter EART ×4, 13 monthly filings 2025-07-25 → 2026-07-30; Manheim UVVI YoY +1.3%, inside the ±3% common-mode band]` **Panel-mean ΔSeverity +0.06pp against ΔFrequency +1.85pp** — over twelve months deep-subprime delinquency rose ~1.9pp while loss severity did not move at all. Three of four deals show the ordinary-credit signature individually and **two show severity falling**.
+
+**Why that is evidence and not noise.** The test's discriminator is an asymmetry, not a correlation: ordinary credit deterioration raises **frequency** at flat **severity** (more bad borrowers, same collateral); skip-default raises **severity** at flat **frequency** (the vehicle is gone, and the loan never enters the 30→60→90 roll). **Ordinary deterioration cannot produce the skip shape.** Thresholds were base-rated *before* they were set — pooled monthly recovery SD 2.12pp ⇒ minimum detectable skip-share change **4.5% at n=12** — so the null here is a measured null, not an absence of looking.
+
+**Touches.** `thesis/THESIS.md` (conviction decomposition split (a)/(b); the whole § "What would falsify the Secondary Thesis" rewritten around the armed SDT + first reading), `thesis/PREDICTIONS.tsv` (**OTTO-35** created at 15%), `docket/CATALYSTS.tsv` (quarterly re-run docketed ~2026-11-15 with its decision rule pre-set), `STATUS.md` (dashboard row + predictions mirror + boot pointer), `scripts/severity_divergence.py` (new), `scripts/panel_10d.py` (upsert fix), `workbook/ML.tsv` ML-OTTO-229→232.
+
+**⚠ The uncomfortable part, recorded rather than smoothed.** The thesis survived by narrowing — from "industry-wide" to "operates where the cohort is deliberately concentrated." That narrowing is defensible on the evidence (Tricolor really was 75% undocumented / 68% no credit score), **but the concentrated pools are 144A with no public performance reporting, so the narrowed claim is largely unfalsifiable from public sources.** A thesis that retreats to where it cannot be measured is weaker than it looks, and this one just did that once. **Decision rule pre-set so it is not re-litigated later: if the SDT returns REFUTE on the next two quarterly runs, cut the Secondary thesis's load-bearing role in the Primary thesis — do NOT narrow the claim a second time.**
+
+**🟡 Lead, explicitly not a finding.** EART 2023-1 is the sole divergent deal (**severity +5.52pp**) and is also the deal whose 60+ DQ **fell** −0.16pp on the 7/30 filing. n=1 of 4; a servicing transfer or pool-specific event would look identical. Watch it; do not build on it.
+
+---
+
 ### 2026-08-14 — THESIS bumped v1.2 → v1.3 (version-bump record)
 
 **Was → Is.** *Was:* canonical `thesis/THESIS.md` at **v1.2 (2026-07-25)**, two sessions behind — it carried neither the s017 First-Brands-cramdown material nor any of s018, and contained three statements that had become **factually wrong**. *Is:* **v1.3**, current as of 2026-08-14.
