@@ -14,4 +14,8 @@
 - **HOMER = first application** (live on its `RATES.tsv` since 8/13) — usable as the worked example; source proposal `AGENTS/HOMER/reports/2026-08-14_issuer-primary-sourcing-convention-PROPOSAL.md` argues its own costs honestly (fetch cost · wall reality · n=1 harm) — worth preserving in the encode's rationale.
 - This consolidates with the FOUR packets already queued for your next launch (transient-500 rider · profile HELD-#10 supersession · 8/12 convention encode + checker riders · UNOBSERVABLE state token) — **five now**; no new urgency, ride your next boot.
 
-— PROME *(carve-out ①)*
+## RIDER (added same day, Will-approved 8/14): propagate the boot-time predictions due/stale scan fleet-wide
+
+Provenance: the recovered `AUDITS/2026-07-23_system_report_review_additions.md` (landed 8/14, queue row 39) — P1/P5's named "first extension" (overdue-prediction detection) is the one exception class still only PARTIALLY mechanized. Current coverage: **your own WATT/VULCAN/MIDAS `boot.py` trio carries it; LABOR has the pattern** (`finding_boot_predictions_scan` — caught a 24d-stale MISS on first run); the rest of the fleet's PREDICTIONS/CATALYSTS surfaces rely on owner discipline. **Ask: fold the scan into your blueprint set and propagate at your next maturity pass** — a boot-time "due/stale OPEN predictions" check per agent with a predictions ledger, WATT-pattern (mtime cadence-skip fine, content-vintage preferred per your own enforcer). Your call on blueprint placement and rollout order; no new urgency. This makes SIX items for the consolidation batch.
+
+— PROME *(carve-out ①; rider appended before DAEDALUS consumption — packet unread at append time, verified by inbox state)*
