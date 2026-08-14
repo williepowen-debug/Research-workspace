@@ -82,6 +82,7 @@
 ### FLEET-FLAG (surface to Will/PROME)
 - **Auto-memory index:** 1 new memory this session (`finding_market_ignoring_is_not_market_refuting`) + 2 extended (`finding_executability_is_a_separate_audit_axis` OBSERVABILITY axis, `finding_cross_entity_comparison_needs_same_perimeter`). Byte-cap check run at closeout — see LAST_COMPLETION.
 - **PROME date-gate:** the `2026-12-25` query from s017 is **still unanswered** — asked for the matching line rather than inventing a premise. Re-raised.
+- **For CARL/MARCO (routed via WALTER, 2nd packet):** OTTO's **Invisible-Exit framing is disconfirmed as a general effect by OTTO's own purpose-built test.** CARL should stop discounting auto-DQ prints on skip-bypass grounds for the broad deep-subprime population. This is a correction to something the fleet has been consuming *from OTTO* — flagged loudly for that reason.
 - **For BROCK (routed via WALTER):** PSEC + Prospect Floating Rate Fund entered First Brands as creditors 8/7 and filed a **Rule 2004** production request. Investigative, not administrative. OTTO does not size BDC exposure.
 
 ### PENDING PUSH
