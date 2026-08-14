@@ -66,6 +66,39 @@
 - **Local richness protected (PAT-015):** WALTER's KILL/DISPATCH/FOLD lane vocabulary and any agent's richer disposition ladder stay canonical locally (WALTER's spec is its own, unchanged) — this class binds NEW queue/board_log-shaped surfaces and the cross-agent handle, per the standing scope rule above.
 - Fleet cross-check candidate (registered, not yet run): grep queues/board_logs for `deferred` rows older than ~2 sessions whose notes read like completed assessments — LABOR's n=6 says the class is not rare.
 
+## Class 5 — Zero / UNKNOWN / not-applicable distinction (added 2026-08-14; ruling: `PROME/proposals/2026-08-12_audit-convention-RULED.md` §Ruling 1; provenance: BRENT AUDIT_2026-08-12b I-1/I-4/I-5, first-application vocabulary in BRENT's 8/13 encode-confirm packet)
+
+*The defining defect: `0` in a quantitative column can mean six different things — a real measured zero, a restored-to-zero, an intact-and-untouched zero, an anti-double-count zero, an unmeasured cell, or a wrong-unit cell — and a blank is a seventh. BRENT hit all six on one file (INCIDENTS): a 77-MTPA LNG force majeure stored as `0` in a `bpd` column, 13 blank rows summing as zeros in downstream reads, and one `0` token carrying four meanings on adjacent rows. The interface property this class adds: **a quantitative column MUST carry a state token beside its value; `0` alone is not a claim.** New quantitative columns ship with the enum in their header; legacy grandfathered per standing scope rule.*
+
+| Canonical token | Meaning | The distinction it protects |
+|---|---|---|
+| `MEASURED` | A real, measured number — **including a genuine measured 0** | Zero-as-observed is a datum, not a gap |
+| `ZERO-RESTORED` | 0 because the facility was restored / the incident RESOLVED | Distinguishes "back to normal" from "never damaged" |
+| `ZERO-INTACT` | 0 because nothing was damaged — attacked-and-spared, or a watch row with no loss | Preserves that an event was evaluated and produced no loss |
+| `ZERO-NODOUBLECOUNT` | **Deliberately** 0: quantity already carried on an earlier row for the same key | Prevents an anti-double-count from being aggregated as absence |
+| `UNKNOWN` | Unit is right; nobody has ever measured it. **NOT zero.** | Kills the silent-zero-from-blank aggregation defect |
+| `NA-WRONG-UNIT` | Asset is real but **not denominable in this column's unit** — read the paired unit/qty column | Kills the 77-MTPA-in-bpd class |
+| `UNLOGGED` | Blank: never published or attempted. **NOT zero, NOT unknown-after-looking.** | Distinguishes "we did not try" from "we tried, no answer" |
+
+- **Adopted spellings verbatim from BRENT's first application** (his ASK: canonical vs local — the distinctions are the ruling, spellings were not). Rename-in-place is prohibited by the anti-ratchet rider: existing legacy blanks and bare `0`s are grandfathered; the class binds NEW quantitative columns and any column undergoing a next-write.
+- **A candidate 8th token — quiescent watch row (event never occurred vs event evaluated with zero loss)** — is deliberately NOT added on n=1. If a second desk hits the distinction, promote per PAT-089. Until then, BRENT-style watch rows use `ZERO-INTACT`.
+- **In force immediately, no encode needed (fleet-binding restatement from the ruling):** no aggregate over a column carrying these tokens is quotable until the schema declares its unit — the tokens make units visible, they do not make the file summable.
+- **Local richness protected (PAT-015):** rich domain vocabularies (BRENT's `facility_key`, MIDAS's provenance ladder, any richer categorical alongside the token) stay canonical locally; this class binds only the state-token beside the number.
+
+## Class 6 — Source-authority distinction (added 2026-08-14; ruling: `PROME/proposals/2026-08-14_rows-49-50-RULED.md` §Row 49; provenance: HOMER 2026-08-14 issuer-primary-sourcing PROPOSAL, first application on `AGENTS/HOMER/RATES.tsv` from 2026-08-13)
+
+*The defining defect: a mirror-as-primary delivers correct numbers stripped of the issuer's caveats. HOMER's live example (8/13): FRED's bare `6.67%` PMMS print vs Freddie's release carrying "applications rising" — same number, materially different read.* **This class is the state-token half of the convention; the writing rule lives in `STRICT_TEXT.md` rule 6 (issuer-primary-where-reachable).**
+
+| Canonical token | Meaning | Attached to |
+|---|---|---|
+| `PRIMARY` | Cited to the issuer of record (Freddie for PMMS, Treasury for DGS, USBR for Powell, etc.) | Any load-bearing figure |
+| `MIRROR` | Cited to an aggregator (FRED, Yahoo, vendor cache) — issuer reachable but not read | Non-load-bearing figures; mirror is acceptable |
+| `MIRROR-WALLED` | Cited to an aggregator because the issuer is unreachable (403, paywall, no API) — carry the wall note | Load-bearing figures where the primary is genuinely blocked |
+
+- **Next-write-only** — no retroactive sweep; existing citations grandfathered; the token governs each figure's next write.
+- **The "where reachable" carve-out is load-bearing (`finding_blocked_mirror_is_not_an_unreachable_primary`):** `MIRROR-WALLED` is legitimate; using `MIRROR` when the issuer IS reachable is the defect this class kills. A 403 is a fact about ONE host — try the API and enumerate before writing `MIRROR-WALLED`.
+- **Load-bearing = writes into a THRESHOLD, a prediction letter, a Will-facing synthesis, or a downstream agent's inbox.** Prose citations in research/audit narratives are exempt (STRICT_TEXT scope rule).
+
 ---
 
 ## Enforcement map (who reads these tokens)
@@ -76,5 +109,7 @@
 | 2 (gates) | greps in sweeps/audits/screens (no single enforcer) | Any NEW check greps the canonical spellings + documents which legacy spellings it covers |
 | 3 (predictions) | boot due-scans, scoreboard tooling (per-agent) | New ledgers ship with the token enum in their header comment |
 | 4 (queue/disposition) | queue re-scan tooling, board_log audits (per-agent today; no single enforcer) | New queue surfaces ship the enum + TERMINAL marking in their header comment; any re-queue tooling keys on the TERMINAL flag, never on token spelling |
+| 5 (zero/UNKNOWN/NA) | `basis_check` (BRENT's F-7, ruled the convention's enforcement arm; scans NON-dated blocks only per BRENT's dated-history-exempt canon) — extend an existing checker where possible per anti-ratchet rider; a fleet-shared home is a follow-on question, not part of this encode | New quantitative TSV columns ship the enum in a header comment; existing columns adopting the class name what they supersede |
+| 6 (source authority) | No dedicated enforcer today — reader-side convention; a fleet grep for `PRIMARY|MIRROR|MIRROR-WALLED` on threshold rows is a candidate follow-on | New citations on load-bearing figures carry one of the three tokens; HOMER `RATES.tsv` is the first-application worked example |
 
 **Build-time check (REGISTRATION_CHECKLIST row 15):** new agents' state-bearing surfaces use canonical tokens; DAEDALUS verifies at registration. Blueprint variants cite this file — they do not restate the tables.
