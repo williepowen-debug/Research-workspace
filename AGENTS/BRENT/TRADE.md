@@ -658,6 +658,10 @@ Will ruled **Option B (harvest + tenor only)** on 2026-07-30. **Stage A entry is
 > **⚠️⚠️ THE INTERACTION THAT MATTERS MOST, AND IT MUST NOT BE BURIED: the harvest rule governs the exit of a trade that, under the unchanged entry spec, MAY NOT BE ENTERABLE.** The STNG veto blocked both observed analogues. **So Option B fixes what happens after a fire, on a gate that has not yet permitted one.** *(Stated precisely, not dramatised: with zero true positives in the sample it is unknown whether a genuine physical reopening would crush tanker rates and release the veto — it might. But on the evidence that exists, entry is the binding constraint and it is still open.)*
 > **⇒ This is not an argument that B was wrong — B captures the money whenever a fire does happen, and it was the correct single step. It is a flag that the playbook is still not functional END-TO-END, and the remaining decision is a live one.** Options A and C from the proposal remain on the table: `setups/2026-07-30_offramp-stageA-v3-tanker-question-PROPOSAL.md`.
 **Sizing modifier (COT-conditioned):** if the squeeze fuel is SPENT by then (cumulative MM gross-short cover ≥−25K off the 129,072 base) → the flush has less covering-bid cushion → fuller size within the cap; if fuel largely intact (~119K standing) → covering slows the flush → smaller/wider structure.
+> ## ⛔ **LIVE STATE AS OF 2026-08-14 — READ THIS BEFORE SIZING OFF THE LINE ABOVE.**
+> **The band in that sentence is the INCUMBENT and it is RETIRED.** It graded the 8/11 vintage one final time and **UN-FIRED** (shorts `110,638` vs a ≤`104,072` bar). ⇒ **THE FULLER-SIZE BRANCH IS OFF.**
+> **The live band is now `COT-FUEL-35B`** (registered 2026-08-14, `supersedes: COT-FUEL`), and **its first read is `NO-VERDICT`** ⇒ **sizing DEFAULTS TO THE BASE CASE.**
+> ⇒ **BOTH ROUTES LAND ON THE SAME PLACE: normal size within cap. There is no reading of today's print that supports fuller size.** Full grade + successor spec in the § below.
 
 > ## ✅✅ **35a — RULED BY WILL 2026-08-11, ENCODED HERE 2026-08-12: THE MODIFIER IS `REVERT` / NON-LATCHING.**
 > **THE RULE, IN ONE SENTENCE: the fuller-size branch UN-FIRES if cumulative MM gross shorts rise back above −25,000 off the frozen 129,072 base. It is a STATE, re-read at every print — never a latch, never a ratchet.**
@@ -688,6 +692,44 @@ Will ruled **Option B (harvest + tenor only)** on 2026-07-30. **Stage A entry is
 > ⛔⛔ **THE CAVEAT THAT MUST TRAVEL WITH THIS VERDICT ANYWHERE IT IS CITED: THIS VINTAGE IS AS-OF TUE 8/4 AND THEREFORE PRE-DATES THE 8/6 RE-ESCALATION** (Iranian-parliament Hormuz toll/blockade draft; Brent **+3.83%**, OVX **+11.38%** — my own 8/7 pulls). **A "no re-stack" read on 8/4 data says NOTHING about post-8/6 positioning. The first post-escalation read is the Aug-11 vintage, posting ~Fri 8/14.** **Do not carry this forward as a live positioning state past 8/14.**
 >
 > ⚠️ **CARRY THE COUNTERWEIGHT WHENEVER CITING "SPENT": 101,016 of 129,072 = 78.3% of gross shorts ARE STILL STANDING** *(8/4 update: **102,560 = 79.5% standing** — the counterweight got LARGER, not smaller)*. The band measures **cumulative cover off the base**, not the absolute level — "SPENT" means the accelerant that was going to fire *has fired*, **not** that the short is gone. **The frozen band governs the verdict** (no re-spec mid-grade), but a fuller-size decision taken off the band alone, without this sentence, would overstate the case.
+
+> ---
+> ### 🔴🔴 **FINAL GRADE 2026-08-14 ON THE AS-OF-8/11 VINTAGE — ⛔ `FUEL SPENT` **UN-FIRES**. THE FULLER-SIZE BRANCH IS **OFF**. THE INCUMBENT BAND IS NOW DEAD.**
+> **Own raw `f_disagg.txt` pull, `report_date` verified IN-ROW, re-pulled INDEPENDENTLY a second time before grading — both pulls identical.**
+>
+> | | |
+> |---|---:|
+> | MM gross SHORTS, 8/11 | **110,638** |
+> | Frozen SPENT boundary | **≤ 104,072** |
+> | **Margin** | ⛔ **6,566 contracts PAST it** |
+> | Cumulative vs the 7/7 base 129,072 | **−18,434** *(bar: ≤ −25,000)* |
+> | WoW vs 8/04 (102,560) | **+8,078** |
+> | Open interest | 1,892,429 *(+5,613)* |
+>
+> ### ⛔ **VERDICT: `SPENT` UN-FIRES ⇒ THE MODIFIER SWITCHES OFF ⇒ THE BRANCH REVERTS TO THE BASE CASE (normal size within cap).**
+> ★★ **THE 8/7 SPEC GAP I NAMED AND DID NOT FIX IS THE ONE THAT JUST BOUND.** Line 685 above says verbatim: *"the modifier is written as a one-way read and says NOTHING about what happens if it UN-FIRES… no rule exists for that."* **Will ruled it REVERT on 8/11, three days before the print that needed it.** ⇒ **The rule existed by exactly three days. Had 35a not been encoded, this print would have hit a band with no defined behaviour and the honest answer would have been "undefined," mid-flight.**
+> ★★ **AND THE COIN FLIP LANDED ON THE UN-FIRE SIDE — AT 5.3× THE FLIP DISTANCE.** The 8/7 base rate said P(a week adds ≥+1,513) = 48.4% all-history / 50.0% last-52wk. **It added +8,078.** ⇒ **`[[finding_effect_below_instrument_detection_floor]]` is vindicated in the sharpest possible way: the 1,512-contract margin really was noise, and the very next print erased it five times over.**
+> ⛔⛔ **THE SILENT-UNFIRE HAZARD WAS REAL, NOT THEORETICAL. Under 35a REVERT this modifier is a STATE RE-READ EVERY PRINT, NOT A LATCH — it switches off with nobody told. Had this grade not been written, TERRY could have sized off a stale `LIVE`. A re-affirmation is a grade; silence is not — and here silence would have been WRONG, not merely unverified.**
+> ✅ **THE 8/4 CAVEAT ON LINE 688 RESOLVES EXACTLY AS WRITTEN:** it said the 8/4 vintage pre-dated the 8/6 re-escalation and *"do not carry this forward as a live positioning state past 8/14."* **The first post-escalation read moved BOTH legs — shorts +8,078, OI +5,613.** ⇒ **THE RE-ESCALATION BROUGHT THE SHORTS BACK; IT DID NOT FINISH THEM OFF.**
+> ⚠️ **COUNTERWEIGHT, UPDATED AND NOW POINTING THE SAME WAY AS THE VERDICT: 110,638 of 129,072 = `85.7%` of gross shorts ARE STILL STANDING** (was 79.5% on 8/4). **The accelerant did not fire; it re-loaded.**
+> ⛔ **NO THRESHOLD MOVED. Every figure is the card's frozen letter. `$0` moved, no position changed, no capital authorised.**
+> ⇒ **THE INCUMBENT DIES HERE.** `COT-FUEL` marked `retired` in [`workbook/REGISTRY.tsv`](workbook/REGISTRY.tsv), superseded text preserved verbatim.
+>
+> ---
+> ### ⚖️ **SUCCESSOR REGISTERED: `COT-FUEL-35B` — and its first read is `NO-VERDICT`**
+> **Registered ONLY after the grade above was written. ⛔ The two bands NEVER ran on the same vintage.** Spec of record → [`setups/2026-08-12_35b-COT-successor-band-N1-build.md`](setups/2026-08-12_35b-COT-successor-band-N1-build.md); Will-ruled 2026-08-12.
+>
+> | leg | spec (FROZEN) | 8/11 read | verdict |
+> |---|---|---:|---|
+> | **Leg A** (raw) | SPENT ≤ **113,745**; NO-VERDICT deadband **109,165–118,325** | **110,638** | **NO-VERDICT** *(inside deadband)* |
+> | **Leg B** (OI-share, **GATING**) | SPENT ≤ **4.909%** | **5.8463%** | **NOT-SPENT** |
+> | **JOINT** | both legs must AGREE | — | ⇒ **`NO-VERDICT`** |
+>
+> ✅ **`NO-VERDICT` IS A REAL ANSWER — it defaults sizing to the BASE CASE, the conservative branch.** The 33.6% NO-VERDICT rate was accepted on the record when Will approved the spec.
+> ★ **THE TWO BANDS AGREE IN DIRECTION WHILE DISAGREEING IN FORM: the incumbent says "not spent any more," the successor says "we do not know, and the honest default is small." NEITHER SAYS EXHAUSTED — and nothing here reads "positioning exhaustion CONFIRMED." The forum-4 §5 JOINT test's confirm cell is EMPTY and stays empty.**
+> ⛔ **`median_unit = 9,160` REGISTERED **FROZEN**, basis n=235 (2022-02-08→2026-08-04). DO NOT RE-MEASURE PER PRINT.** The window is a free parameter worth **1,508 contracts** across three defensible choices — ~the incumbent's entire fatal margin. **Re-basing it is a NEW N1 BUILD and a fresh Will ruling, never a maintenance step.**
+> ⛔ **SIZING MODIFIER ONLY — NEVER reuse this spec as an ENTRY trigger without a fresh build.** Silence defaults conservative, which is acceptable for sizing and **not** for entry.
+> ⚠️ **WILL'S FOUR DISCLOSED NON-CLAIMS TRAVEL WITH THE REGISTRATION:** no out-of-sample test · **n=0 genuine physical reopenings** · no price validation (a positioning **DESCRIPTOR**, never shown to predict) · the vintage limit, **which just bound and is recorded above**.
 
 **Interaction with the convex arm: mutually exclusive.** A hardened off-ramp IS the up-arm's disarm condition — it auto-disarms, this arms. The two are never live simultaneously.
 **Authority:** pre-negotiated PROPOSAL — on trigger I pull a live chain and bring Will a one-line fill for fast **[Approve/No]**. NOT auto-fire. Rule #6 note: the announcement day is a violent RED day for oil; if the gap consumes most of the move at the open, prefer the first stabilization bounce for the fill rather than chasing the hole.
