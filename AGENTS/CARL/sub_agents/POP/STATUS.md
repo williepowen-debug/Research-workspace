@@ -6,7 +6,7 @@
 > **Dispositioned:** P01 ❌ MISSED (commercial Ch-11 H1 +28% vs a >40% bar) · P02 ❌ MISSED at 80% (NFIB June **97.4, +2.1, nearing its 52-yr average** — the sub-95 call was upgraded into the reversal) · P03 70→**15%** (Sub-V decelerating: Feb +91% → June +28%, H1 level still +50%) · P06 50→**55%** (monotonicity fix).
 > **⚠️ Coherence bug found:** P06 (>5% SBA default) at 50% vs CARL's CRL-15 (>6.5%, same series/date) at 65% — impossible. Both fixed (P06→55, CRL-15→35). Nested thresholds must be checked for monotonicity **across** parent and sub-agent ledgers.
 > **Headline for the parent: the small-business surface is a genuine counter-signal — level high, rate-of-change easing.** Parent trims applied: CRL-15 65→35, CRL-17 55→40, CRL-16 60→35.
-> **Still owed as ad-hoc dossier items** (not blocking the demote): P04 QSR-closure data pull · the 9 tagged IEEPA occurrences (~20% effective, not 125-145%) · ML-POP-17..23 field drift.
+> **Still owed as ad-hoc dossier items** (not blocking the demote): ~~P04 QSR-closure data pull~~ **✅ DONE 2026-08-14 — P04 resolved ❌ MISSED, see the 8/14 addendum below** · the 9 tagged IEEPA occurrences (~20% effective, not 125-145%) · ML-POP-17..23 field drift (7 rows at 16 fields vs 17, verified still open 8/14).
 > **Rows below are 2026-04-17 vintage — do not cite as current.** Spawn trigger from here: Sub-V/SBA/NFIB shock, or the Q3 Epiq release (~Oct) for P03.
 
 > ⚠️ **STALE-VINTAGE BANNER (2026-07-10 honesty pass):** All values below are **Apr-17-vintage unless individually marked**. Do **not** cite any dashboard row as current. This was a tag-only sweep — no web pulls, no value updates, no prediction resolution. Rows contradicted by parent CARL facts carry `[SUPERSEDED ...]`; the China IEEPA 125-145% figure carries `[FLAGGED WRONG ...]`; past-dated catalysts still listed as upcoming carry `[PASSED]`. Real refresh + P01-P08 resolution happen at the Jul-24 spawn.
@@ -32,6 +32,34 @@ Two of three cross +25% in TOTAL provision but attribute it to non-SB drivers; t
 **Sub-V July 2026 (Epiq AACER, pub. 8/6/26):** 234 filings, **+24% YoY** (vs 188 Jul'25), **–9% MoM** vs June's 257. Deceleration continues: Feb +91% → Jun +28% → **Jul +24%**. Commercial Ch-11 (all sizes) 666, –27% YoY, but Jul'25 comp includes >300 filings from one large healthcare-system bankruptcy (base-effect artifact, not clean signal).
 
 **NFIB July optimism releases tomorrow, Tue 8/11 — not pulled this pass; CARL catches it at morning boot sweep.** June print was 97.4 (POP-P02 already MISSED against it).
+
+---
+
+## 📌 ADDENDUM 2026-08-14 (boot pass — NFIB July recovered + POP-P04 resolved; NOT a refresh)
+
+Full detail: `state_vectors/SV-POP-2026-08-14-01.md`. Rows below this addendum remain Apr-17 vintage — do not cite as current. This addendum does not update the dashboard rows.
+
+**🔴 Handoff failure.** The 8/10 SV deferred the NFIB July print to CARL's 8/11 morning sweep. CARL's 8/11 session went to the Q2 HHDC landing and never caught it — `NFIB` appears nowhere in CARL's tree past the June figure. Unrecorded 8/11 → 8/14. *A deferral inside a delivered artifact is not a delivery.*
+
+**NFIB July 2026 (rel 8/11/26) — counter-signal STRENGTHENED:**
+
+| Metric | July | Chg | POP band | Read |
+|---|---|---|---|---|
+| **Optimism** | **99.8** | **+2.4** | <95 = 🟡 → **🟢** | 11-mo high; **above** the 52-yr avg of 98.0 |
+| **Profit trend** | **−16%** net | **+4pt** | — | Was −25% (Mar), "worst since COVID" — recovered 9pts |
+| Uncertainty | 91 | +2 | >90 = 🟡 | Still breaching; far from 🟠 95; not accelerating |
+| Employment Idx | 102.1 | ↑ | — | Ends four straight monthly declines |
+| #1 problem | Labor quality 27% | +8 | — | **Inflation-as-top-problem fell 1st time this year, to 14%** |
+
+The profit-trend leg is the one that bites: POP's dashboard used the −25% March reading as the *explicit substitute* for a missing 2026 owner-comp survey. That substitute has improved four months running. **CRL-17 (40%, deadline 9/30) — POP's read is that a further trim is warranted; CARL disposes.** *(Sourcing caveat: nfib.com 403s to WebFetch and curl+UA; four agreeing secondaries — ABA Banking Journal 8/11, CNBC, Haver, Trading Economics. Headline High confidence, components Medium. Not primary-verified.)*
+
+**POP-P04 ❌ MISSED** (resolved 8/14, 45 days past window; was 95% and left TRACKING at the 7/24 demote). Confirmed H1-2026 closures **390 vs a 700 bar**: Wendy's **289** (H1 gross US; units 5,805 3/28 → 5,724 6/30, Q2 opened 21 ⇒ Q2 gross 102) + Papa John's **101** (NA program-to-date, PZZA Q2'26 call) + Pizza Hut **unmeasurable**. **Robust** — crediting Pizza Hut its full announced 250 still gives 640 < 700.
+
+- **D1 basis undefined:** "closures confirmed in H1" never distinguished announced from effected. On the announcement basis (750-800) it was already true on **2026-04-17, the day it was upgraded to 95%** — vacuous rather than correct. Either reading denies it a win.
+- **D2 no published instrument on one leg:** YUM discloses no Pizza Hut U.S. unit count (Q2'26 10-Q: Division 19,985 vs 19,768 YoY, **+1% growing**; only US granularity is a rounded "70% outside the U.S."). **Same failure class as CRL-16's 8/10 MISS.**
+- **🔭 Forward:** YUM signed definitive agreements Q2'26 to divest Pizza Hut Ex-China (held for sale $730M/$262M at 6/30/26, completion Aug 2026). Reporting gets **permanently worse**. **Do not write future thresholds naming Pizza Hut units** — build QSR bars on WEN/PZZA only.
+- **Downstream correction:** the **944-1,049** "chain closures confirmed" figure carried above and relayed to CARL is an **announcement total**; realized H1 across the three largest legs is **390**. FLOW-POP-05 personal-guarantee sizing should use realized counts.
+- **Traps caught:** the circulating "Wendy's 234 in six months" (5/12/26) covers **Q4'25+Q1'26**, not H1 2026 · the "~5,996 Pizza Hut US units" figure is **derived** from the rounded 70%, not reproducible · an "NFIB July" search hit returned a **2023** article with a plausible full component table.
 
 ---
 
