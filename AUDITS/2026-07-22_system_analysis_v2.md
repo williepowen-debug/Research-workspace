@@ -2,7 +2,7 @@
 **Provenance:** External review commissioned/received by Will; delivered as `Research_Workspace_System_Analysis_v2.docx` (Will's Downloads, handed to PROME 2026-07-25 evening session). Text extracted from the .docx by PROME (tables flattened to line runs by extraction — consult the original .docx for table layout).
 **Evidence snapshot:** 2026-07-22 · **v2 revision:** 2026-07-23.
 **Consumption:** `AUDITS/2026-07-25_system_report_CONSUMPTION.md` (PROME verification + commentary) · `AUDITS/2026-07-25_system_report_DISPOSITIONS.md` (per-recommendation ledger).
-**Note:** the report cites `AUDITS/2026-07-23_system_report_review_additions.md` — that file lives in the reviewer's workspace, NOT this repo.
+**Note (superseded 2026-08-14, WILL_QUEUE row 39):** ~~the report cites `AUDITS/2026-07-23_system_report_review_additions.md` — that file lives in the reviewer's workspace, NOT this repo~~ — **both reviewer originals were recovered from orphaned branch `claude/research-workspace-report-u8irzq` and landed 2026-08-14 (Will-ruled):** the cited review-additions file now lives at `AUDITS/2026-07-23_system_report_review_additions.md`, and the reviewer's **native-markdown original of this very report** lives at `AUDITS/2026-07-22_system_analysis_report_v2.md` — **that file is now CANONICAL for content** (real tables, `*[v2]*` markers intact); this extraction copy remains only as the record of what the .docx handed to PROME contained.
 
 ---
 
