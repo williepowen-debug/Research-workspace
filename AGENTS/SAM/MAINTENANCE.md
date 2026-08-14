@@ -310,6 +310,7 @@ Closed out the workbook audit (Will's "finish the workbook"). Three parts:
 **2. v1.5 consistency scan (LIVE rows):** verdict — KB is in good shape; v1.5 was already well-propagated in the earlier 2026-05-28 KB cleanup (the `KB-172` synthesis row + numerous `RECONCILED 2026-05-28` notes). Two unambiguous data-staleness refreshes applied: `KB-127` (Inflection-2 scenario repointed from dead 'April hike' → Jun 16) and `KB-135` (30Y-10Y spread refreshed 131bp Feb-8 → ~117bp May-27). Per-insurer Feb-8 "repatriation risk/timeline" rows (091/095/097/099/101…) carry stale framing but are globally caveated by `KB-172` — individual rewrite folds into the deferred `insurers/<name>.md` retire-vs-refresh decision; NOT touched here.
 
 **3. archive/ graveyard cleanup (Will: trash 5 scaffolding + 2 superseded .md):** verified STAGING content fully integrated (STAGING_B industry data → KB-059/062; STAGING_A SK-refiner → KB_ARCHIVE ×12) before deleting. **Trashed (gio trash) 7 files:** KB_STAGING_A/B(.md + _FORMATTED.tsv), KB_BACKUP_10rows.tsv, FRAMEWORK_IMPLEMENTATION_FEB11.md, INSURER_UST_TRANSMISSION_ANALYSIS.md (superseded by research/outputs/LIFE_INSURER_UST_DEEP_DIVE.md). **Kept as deep archive:** ML.tsv (master session log — only copy), VX_HISTORY.tsv (threshold time-series), SAM_WORKBOOK.xlsx (legacy Excel master).
+> 🔧 **RE-POINTED 2026-08-14 (PROME prune-scan 8/12, FALSE_PRESERVATION).** All three "kept" files were later deleted by **`c819a955c`** (2026-06-30, *"cut 0-ref archives (track A)"*) — **not** by the 6/30 prune `1cb18fbc3`, and **not** by this 5/28 pass. `workbook/archive/` **does not exist on disk.** The "only copy" flag on `ML.tsv` now resolves to **git history only**: recover with `git show c819a955c^:AGENTS/SAM/workbook/archive/ML.tsv` (verified present 8/14 — 3 files at that tree: ML.tsv · VX_HISTORY.tsv · SAM_WORKBOOK.xlsx). The root archive's `ML_ARCHIVE_2026-01.tsv` is a **different file** — not a substitute. *Superseded text above preserved verbatim per the remedy riders.*
 
 **Files:** KB.tsv (119 rows), KB_ARCHIVE.tsv (56 rows), 7 archive/ deletions. **Boot-impact: none.**
 
@@ -580,7 +581,7 @@ Same-evening continuation of the folder cleanup logged below. Five additional wo
 - `LAST_COMPLETION.md` (Apr 11 stale; absorbed by MEMORY.md "LAST SESSION" block) — `git rm`
 - `SIGNAL_INTAKE.md` (Apr 8 stale; thesis now v1.4) — added top-banner `⚠️ STALE` note pointing readers to THESIS/STATUS as canonical; file preserved for WALTER routing reference pending messaging-system overhaul decision
 
-**Pass 2a — workbook staging moved to workbook/archive/:**
+**Pass 2a — workbook staging moved to workbook/archive/:** ⚠️ **`workbook/archive/` is GIT-HISTORY-ONLY as of 2026-08-14** — the 7 staged files below were trashed 5/28 after verify-integration (disclosed at the 5/28 entry above); the remaining 3 were cut by **`c819a955c`** (6/30, *"cut 0-ref archives (track A)"* — **not** `1cb18fbc3`). Full 10-file tree recoverable at `git show 52724b88a:AGENTS/SAM/workbook/archive/<file>`; the 3 survivors also at `c819a955c^:` (both verified 8/14).
 - `KB_STAGING_A.md`, `KB_STAGING_A_FORMATTED.tsv`, `KB_STAGING_B.md`, `KB_STAGING_B_FORMATTED.tsv` (Mar 30 unresolved staging)
 - `KB_BACKUP_10rows.tsv` (Mar 30)
 - `ML.tsv` (Mar 17), `VX_HISTORY.tsv` (Mar 17)
@@ -592,7 +593,7 @@ Same-evening continuation of the folder cleanup logged below. Five additional wo
 
 **Files touched (`AGENTS/SAM/` only):**
 - Trashed: `recon/`, `domain/`, `sources/`, `session_archive/`, `LAST_COMPLETION.md`, 7 inbox files, 2 Apr-era outbox files
-- Moved: 7 workbook staging files → `workbook/archive/`; 3 May 21 outbox files → `outbox/delivered/`
+- Moved: 7 workbook staging files → `workbook/archive/` *(⚠️ **that directory no longer exists — git-history-only since `c819a955c` 6/30**; see the re-pointer at Pass 2a above. Recovery: `git show 52724b88a:AGENTS/SAM/workbook/archive/<file>`)*; 3 May 21 outbox files → `outbox/delivered/`
 - Edited: `SIGNAL_INTAKE.md` (banner), `MAINTENANCE.md` (this entry)
 
 **Boot impact:**
