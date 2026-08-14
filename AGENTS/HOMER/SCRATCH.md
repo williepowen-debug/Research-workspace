@@ -1,78 +1,100 @@
-# HOMER SCRATCH — 2026-08-13 (Thu) — Will-directed session
+# HOMER SCRATCH — 2026-08-14 (Fri) — PROME-directed follow-through session
 
 **Purpose:** Canonical ephemeral session handoff. Read at boot; rewrite at closeout. Durable findings → `MEMORY.md`/workbook; live state → `STATUS.md`.
 
-**Shape:** Booted clean (git 0/0, no pull needed, ledgers all 8/12-fresh). Will worked the slate live: GSE monthly pull → inbox → PMMS → row-45 draft → standing items. **Two registered instruments came back, two of my own claims were retracted, and the inbox drained 9 → 2.**
+**Shape:** Short follow-through off yesterday's heavy session. **The tasking I was handed was one session stale on two of its five items** — I verified before acting and did not re-do closed work. The session's real output is **one reconciliation, three residue fixes, an honest non-delivery, and a clean guard run.**
 
 **Rules honored: zero thresholds moved · zero confidence moved · zero capital · superseded text preserved verbatim everywhere · nothing fired retroactively.**
 
 ---
 
-## ★ THE FINDING — the mod-suppression test came back, and it points the predicted way
+## ★ THE FINDING — the FL price sign conflict is reconciled, and WALTER's own lead hypothesis is refuted
 
-**Fannie MF *monthly* SDQ ROSE +2bps to 0.60% in June** — the first post-modification month. My docket row 6 asked this in advance, in writing: *does 0.60% hold once the modified portfolio is absorbed, or drift back up?* **It drifted up.**
+**WALTER `SIG-W-20260813-017`:** CORAL carries **FL statewide SF median $432,000, +4.9% YoY (June, FL Realtors)**; Zillow ZHVI has **all six FL counties in the national top-50 NEGATIVE the same month** (Palm Beach −1.3 · Miami-Dade −1.6 · Duval −1.7 · Orange −2.2 · Hillsborough −2.6 · Broward −3.6).
 
-**The monthly series dates and sizes the mod, which the quarterly cannot:**
-`Jun-25 0.61 → … → Mar-26 0.78 (peak) → Apr 0.64 (−14) → May 0.58 (−6) → Jun 0.60 (+2)`
-⇒ a **nine-month monotonic uptrend, notched by a two-month step-down, now resuming.**
+**★ Both correct, different objects:** a **mix statistic** (midpoint of what transacted) vs a **mix-controlled index** (consistent housing stock).
 
-**Freddie MF monthly rose +4bps to 0.51%.** ★★ **BOTH BOOKS ROSE IN JUNE — so the Q2 "two GSEs moved in opposite directions" asymmetry, which is what the marquee finding was built on, is a QUARTER-LEVEL TIMING ARTIFACT of Fannie's mod. At monthly resolution the underlying direction is COMMON.** The finding survives and strengthens; **its evidence changes shape, and that must be said rather than letting the tidier version stand.**
+**★★ WALTER named PERIMETER as the thing to check FIRST — statewide vs six counties — and it is REFUTED, not deprioritized:**
+> **Miami-Dade is simultaneously −1.6% on ZHVI and +29.14% YoY in $1M+ sales in the same month** (MIAMI REALTORS).
+**The same geography carries both signs ⇒ the split cannot be geographic.**
 
-⚠️ **One small month. Directionally consistent, NOT a confirmation.** And it is **not established the modified portfolio is fully absorbed by June** — if it ran into May, +2bps *understates* the inflow.
-✅ Basis: both GSEs 60+/UPB, **confirmed identical** ⇒ directly comparable to each other; **Trepp (30+) still is not.**
+**Two independent distortions inflate the +4.9%, both documented by the publisher:**
+1. **Upward mix shift**, corroborated at three geographies — Miami-Dade $1M+ **+29.14%**; Sarasota-Bradenton SF >$1M **+38.4%** and $2M–$3M **+218.8%**; statewide Q2 condo/TH $1M+ **+29.5%** — against total SF closed sales of only **+9.3%**.
+2. **Weak base, stated by Florida Realtors themselves:** *"June 2025 was a particularly weak sales month, which helped make this year's percentage gains appear larger"*; director of economic development **Jennifer Warner** places sales *"more closely tracking 2023 levels."*
 
-## ⚠️ TWO RETRACTIONS OF MY OWN PUBLISHED CLAIMS
+⛔ **This does NOT say CORAL's figure is wrong.** It says the figure **cannot carry the inference "FL prices are rising 4.9%."**
+⚠️ **The ZHVI leg is screenshot-sourced and UNCONFIRMED AT PRIMARY** — WALTER reached neither ResiClub nor Zillow, and neither did I. ZHVI smoothing/revision, contract-vs-close timing and property-type coverage are **not excluded** as contributors. **Corroborated, not closed.**
+✅ **One-figure rule deliberately NOT invoked** — two different metrics; both stand with bases named. Reconciling to one number would destroy the finding.
 
-1. **"post-GFC high is defensible on the MONTHLY series"** — **FALSE.** Freddie Table 6 has **Sep-2025 at 0.51%, an exact tie.** Not a new high on *either* series. ⚠️ **The "0.39% monthly prior peak" is UNVERIFIED BY ME, NOT REFUTED** — my first wording ("contradicted… RETIRED") was withdrawn later the same session: `consumer_check` traced it to BOARD/SIG-W-20260511-039 where it is a **~2010 GFC-era** peak called "already BREACHED," and a 13-month file cannot refute that. **The Sep-2025 tie carries the finding on its own.** ⚠️ Supportable line is only *"ties Sep-2025, top of a 13-month range."* **Do not invert it into an opposite superlative.**
-2. **"FRED_API_KEY is empty"** — **FALSE, and the mechanism is reusable.** My grep pattern `FRED[A-Z_]*=` ends at the `=` and **echoed back my own redaction mask, which I read as absence.** Key present (len 32); `fetch.py fred` works. **New-key ask WITHDRAWN before cost.** ⚠️ Not PROME's guessed cause (wrong file) — I had the right file. **Rule: a redacting command's output is never evidence about the redacted value; test by LENGTH.**
+## ⚠️ THE TASKING WAS STALE — AND THE NEAR-MISS IS THE LESSON
+
+PROME's list asked me to **draft** the servicer re-spec (row 45) and **re-key** the GSE-condo row (row 46). **Both were Will-ratified, encoded and confirmed to PROME on 8/13.** Verified on disk (`docket/CATALYSTS.tsv` rows 11 and 15; `reports/2026-08-13_…-DRAFT-for-ratification.md` header reads **RATIFIED AND LIVE**) **before** touching anything.
+
+★ **Acting on the tasking as written would have produced a duplicate draft of a live spec and could have re-opened a Will-ratified decision as though still pending.** ⇒ **A coordinator's task list is a snapshot of what the coordinator knew at write time; on a fast-moving day it can be stale in the direction of asking for work already done.** Cost of the check: one file read.
+
+## ★ THREE RESIDUE FIXES ON MY OWN SURFACES (all found by grepping for the superseded string, not by trusting earlier fix passes)
+
+1. **`STATUS.md` header ② carried a retraction that had itself been WITHDRAWN.** The "0.39% monthly prior peak is contradicted by every month in the file and is RETIRED" wording was withdrawn later on 8/13 — the withdrawal reached `SCRATCH` and `NEXUS_BRIEF` but **not the header**, and stood there a full day. **Live state: 0.39% is UNVERIFIED BY ME, NOT REFUTED** (it traces to WALTER `SIG-W-20260511-039` as a **~2010** GFC-era peak called "already BREACHED"; a 13-month file cannot refute it). **The Sep-2025 tie carries the finding alone.**
+2. **`STATUS.md:17` still carried "94% multifamily"** for the BANC block — corrected on this file 7/31 and on `NEXUS_BRIEF` 8/12, but **this paragraph was missed in both passes and carried the stale figure 14 more days.** Now **95.8%** ($491.9M MF + $300.6M MF construction = $792.5M of $827.0M). **Third surface, second time it survived a fix pass aimed at it.**
+3. **OPEN ITEM 1 read "FMHPI June print PENDING — first action next session"** two days after it was graded (8/12). Struck with the live state.
+★ **Same class every time: a correction lands on the working files and dies before it reaches the dashboard.**
+
+## ✅ PAT-089 GUARD — CLEAN, AND ONE ROW RE-LABELLED
+
+**No lapsed 8/13–8/14 rows.** The one near-due row is now labelled so it cannot read overdue-and-unworked:
+- **ATTOM July monthly:** checked ATTOM's own index 8/14 — **the most recent MONTHLY report is MAY-2026 data, published 6/11.** No June monthly (mid-year substituted, normal cadence), no July monthly yet. ⇒ **INSTRUMENT LAG, not a missed pull** — exactly Will's row-46 general ruling. Re-keyed `~mid-to-late Aug`, superseded key preserved. **Next check with NAHB HMI ~8/17; if still absent ~8/25, re-key to "cadence BROKEN — investigate."**
+- ⚠️ **Two-date fact RECORDED, not "fixed":** ATTOM's index dates the Mid-Year report **2026-07-15**; my rows carry **Jul 16** (PRNewswire). Both defensible (site-post vs wire). **Do not silently rewrite either** without deciding which basis this domain cites.
+- Untouched and correct: **FMHPI July decider 8/31** · **HUD ML 2026-08 mandatory 9/21** · GSE July monthlies ~8/25-28 · NAHB HMI ~8/17.
+
+## ★★ BASE-RATING — HALF DISCHARGED, AND IT ARGUES AGAINST MY OWN SPEC
+
+**Full evidence → `reports/2026-08-14_servicer-thresholds-BASE-RATING-partial.md`.** Covered at PRIMARY (SEC EDGAR, UA header): **LDI + Onity**. **NOT covered: PFSI / RKT / UWMC** — the larger half, and the half containing the motivating UWM event; commissioned same session, **did not return in window.**
+⛔ **NO THRESHOLD RE-ANCHORED. SPEC STAYS PROVISIONAL. No packet, no trade rail until the panel is complete.**
+
+**★ HEADLINE — it points at the CONJUNCTION, not the levels:** across **6 capital actions in 13.1 company-years, ZERO cleared BOTH** the ≥10%-of-market-cap gate **AND** the ≥15%-discount gate.
+- The near-miss proves it rather than softening it: **Oaktree's Dec-2020 placement into Ocwen priced −14.8% vs the 10-day VWAP at closing (−26.5% vs prior close)** — unmistakably distress-priced — **but at 4.3% of market cap it never reached the discount test.**
+- The two deals that *were* ≥10% of market cap carried **no discount at all** (2021 warrant strike **+3.3% ABOVE** VWAP; 2024 preferred has **no** common-referenced price ⇒ **N/A, not zero**).
+⇒ **The two gates select DISJOINT events** — `finding_compound_gate_jointly_unsatisfiable`. **Base-rate Class E JOINTLY and CONDITIONALLY; do not tune either number first.**
+⚠️ **NOT a verdict** — n small, three names missing, UWM clears the size gate ~7×.
+
+**★ TWO SPEC DEFECTS NO THRESHOLD MOVE CAN FIX:**
+1. **Class F scope gap.** F reads *"≥20% dilution of existing COMMON."* **Onity raised ZERO registered common equity in 7.6 years** (no 424B at all; every issuance a §4(a)(2) private placement; both S-3s resale-only) **while diluting twice off the tape** — 12.0% warrants (2021, on $285M notes at a 12.3% OID; net-settled 2025 for 5.4% with Onity *paying* $3.5M) and a **$52.79M preferred = 22.6% of market cap with 0% common dilution** (non-convertible). **A common-only screen scores a serial diluter as CLEAN.**
+2. **Class E names no MEASUREMENT DATE.** The same Oaktree deal reads **−10.3%** at announcement and **−14.8%/−26.5%** at issuance 4½ months later — **the answers straddle the 15% line**, so the undated test decides nothing. **Load-bearing; must be ruled.**
+
+**✅ CONFIRMED IN ADVANCE, AT PRIMARY:** Onity's FY2025 10-K — *"We have never declared or paid cash dividends on our common stock"* — **never**, not "not since" ⇒ **0 to numerator AND 0 to denominator**; including it would bias the rate **downward, i.e. flatter my spec.** Only **LDI** was ever eligible: **5.5 company-years, 1 event** (2022-05-10, $0.08→$0.00, **unscheduled** ⇒ **would fire Class G as written**).
+**★ Governance-marker gap:** Onity's Series B converts into **two board seats on six quarters of dividend arrears** — a **contingent** control transfer invisible to a screen reading voting rights today. E's "governance concessions" should be read to include contingent rights.
+⚠️ **Windows primary-verified:** RKT public **Aug-2020**, UWMC **Jan-2021**, LDI **Feb-2021**. Combined **13.1 company-years, not 15.2.**
+⚠️ **MY BRIEFING PREMISE WAS WRONG AND THE VERIFY INSTRUCTION CAUGHT IT:** I briefed *"Ocwen 1-for-15 reverse split Aug-2023."* **It was AUGUST 2020** (effective 8/13/20, authorized shares 200M→13.33M, no raise attached). All Onity per-share figures are **post-split** — `finding_per_share_figures_break_across_splits`, seeded by me with the wrong year.
 
 ## WHAT ELSE LANDED
 
-- **PMMS 8/13 = 6.67%, −2bps — five-week rising streak BREAKS.** Still ORANGE; 6.72 and 7.0% uncrossed. 15Y 5.96%, 2nd straight fall; the 8/6 divergence **resolved in the 15Y's direction** (n=1, NOT promoted).
-- **MBA apps caught up 2 weeks; the Freddie tension RESOLVES with both claims intact.** wk 8/7 composite **+3.6%**, refi **+5.0%** ⇒ Freddie right, my row 2 weeks stale, **never a contradiction — a 14-day ledger gap.** ⚠️ **But composite −11.6% YoY, refi −22.2% YoY: "no refi escape" survives on the LEVEL basis.** Third level-vs-rate instance of the session.
-- **July GSE monthlies NOT OUT — path-tested 404 at both** while both June files 200. ⚠️ **The DOCKET DATE was the defect:** cadence is the **last week of the following month**, so "~8/12-14" was wrong by 2 weeks → re-dated **~8/25-28**.
-- **Row 46 EXECUTED** — GSE-condo row re-keyed to **~10/15 `WAITING-ON-INSTRUMENT`**.
-- **★ Row 45 DRAFTED → WILL-RATIFIED TWICE → ENCODED, LIVE.** Classes **E** (rescue recap ≥10% mkt cap + distress marker) · **F** (≥20% non-growth dilution) · **G** (unscheduled dividend suspension / ≥50% cut) joined unchanged A–D; **Class Z ratified on a second same-day ruling** — attestation-based backstop, **no quote no fire**. 🚫 No-verdict band: **equity drawdown alone never fires at any magnitude.** ⚠️ **Row is 🔴 by a labelled SEEDING decision on UWM 8/6, NOT a trigger firing — no registered trigger has ever fired.** Spec: `reports/2026-08-13_servicer-watch-respec-DRAFT-for-ratification.md` (header flipped to RATIFIED; body preserved as the pre-ratification draft). Encode confirmed to `PROME/inbox/`.
-- **CORAL packet SENT + COMMITTED** (`4cff3ce11`) — SEL-2026-05 landed at primary.
-- **VantageScore basis break** added as a standing break-flag row (prophylactic; zero current exposure).
-- **NEXUS Amendment 10** ordering rule encoded into `CLAUDE.md` CLOSEOUT.
-- **`RATES.tsv` sourcing convention adopted:** **issuer is PRIMARY** (Freddie for PMMS, Treasury for DGS), FRED = documented mirror via the **sanctioned `fetch.py fred` path only.**
-
-## SENT THIS SESSION — all committed, all verified present in the recipient's inbox
-
-*(`outbox/` is EMPTY and that is the point — per LESSONS, a packet in `outbox/` is UNDELIVERED by definition; the recipient's `inbox/` is the wire.)*
-
-⚠️ **Check-design fix made this session:** my closeout delivery-verification tested `inbox/<file>` only, and **flagged the WALTER packet as MISSING when WALTER had simply consumed it** — consumption `git mv`s the file to `inbox/processed/`. **A successful delivery therefore read as a failure.** Correct test: **`inbox/` OR `inbox/processed/`** (and confirm it is tracked). Recorded in `LESSONS.md`.
-
-- **CORAL** — SEL-2026-05 landed at PRIMARY: two Selling Guide sections DELETED (`B4-2.2-01` Limited Review, `B4-2.2-04` Geographic-Specific/FL PERS), the working host path, my own framing corrected (≤10-unit waiver is real but lands on a cohort **disjoint** from the SIRS towers), and one figure I could **not** confirm — her $10,000/unit threshold.
-- **WALTER** ✅ **CONSUMED SAME DAY** (WALTER commit `068195300` filed it to `inbox/processed/` ~1h after delivery) — `SIG-W-20260511-039` labels GSE **multifamily** DQ as **90+ days**; both issuers' footnotes say **60+ on UPB** (90+/by-count is single-family). Its **figures are correct**, which makes the mislabel more dangerous. Also withdrew my own wrong-reasoned retraction of that signal's 0.39% GFC-peak figure.
-- **PROME ×2** — (a) row 45/46 **encode confirmed** with the SEEDED-not-fired routing ask; (b) `memory/auto/auto/` holds a memory the harness can never load (**not mine, not touched**).
-- **CARL** — MBA Q2 NDS out; **FHA 11.88% is stale on two live dashboards** (`CARL/STATUS.md:38`, `STUE/STATUS.md:462`) and the *superlative* breaks too (11.79% is the **second**-highest since Q2-2021, not the highest). **The load-bearing half is the caveat: the decline is migration, not relief.**
-
-⚠️ **Still owed, deliberately held:** **WALTER `SIG-W-20260812-019`** (builder net-effective price, 3 asks). **Lean: yes, instrument it — but from builder earnings disclosures (DHI/LEN/PHM all quantify incentive load), NOT from the two relayed screenshots, neither of which was fetched at source.**
+- **Inbox 6 → 1.** Filed to `processed/` via `git mv`: PROME rows-45/46 packet (fully executed 8/13), CREED courier-KILLED packet (owed back: nothing), WALTER SIG-010 (my own packet returned as a fleet correction — nothing owed), SIG-016 (Seattle office — **correctly not mine**, CREED owns non-MF CMBS per the promotion seam), SIG-017 (actioned above).
+- **Survivor: WALTER `SIG-W-20260812-019`** (builder net-effective price) — **held a SECOND session, deliberately, with a dated escalate-or-kill.** Lean unchanged: **instrument it from builder earnings disclosures (DHI/LEN/PHM quantify incentive load in their own primaries), NOT from the two relayed screenshots, neither fetched at source.** ⛔ **A third silent hold is a drop — escalate or kill next session.**
+- **Issuer-primary sourcing convention written up as a fleet PROPOSAL** → `reports/2026-08-14_issuer-primary-sourcing-convention-PROPOSAL.md`. **HOMER-local and PROVISIONAL until Will rules.** Argues against itself: costs a fetch; issuer walls are real (`singlefamily.fanniemae.com`, `mba.org` both 403) so the rule must ship with a **"where reachable"** carve-out; **n=1 on demonstrated harm**; recommends **next-write-only**, no retroactive sweep.
+- **`STATUS.md` 237 → 240 lines** after folding the five-paragraph 7/31 BOTTOM LINE block into one (pattern already used for 7/31-eve and 7/24+7/17). Headroom restored.
 
 ## ⚠️ OPEN / UNSETTLED — do not publish these as settled
 
-1. **HOM-01: one early-kill arm fired. The 8/31 FMHPI July print decides it.** Grade on **that release's own as-published figures for BOTH months** — NOT against the +2.1% on record. Year-verify (trap has hit 3× on this series, in both directions).
-2. **HOM-02: one early-kill arm fired (Q2). Q3 ~mid-Nov decides.** ★★ **The composition tell is the finding, not the −9bps:** total DQ fell 7bps while **FC inventory rose 3bps and 90-day rose 1bp** — MBA NDS **excludes loans in foreclosure**, so the headline improved *because* distress migrated later. **This is the registered measurement risk, visible a quarter before HUD ML 2026-08 binds 9/21.** ⛔ It does NOT rescue the prediction and was not used to. **STANDING RULE EARNED: never read an FHA DQ decline as relief without checking FC inventory + the 90-day bucket in the SAME release.**
-3. **Row 45 is a DRAFT and the live spec still governs.** Three ratification questions open: **retroactivity to UWM 8/6** (it would fire twice; I did NOT fire it; recommended a *labelled seeding decision*), **Class Z substance backstop** (flagged, deliberately not encoded), and ⚠️ **the numbers are reasoned, NOT base-rated** — the draft's weakest point, stated as such.
-4. **CORAL's $10,000/unit critical-repair threshold NOT CONFIRMED** — a *scoped* negative (not in Full Review B4-2.2-02); likely home **B4-2.1-03 Ineligible Projects, unchecked.** Her 2.5×–40× arithmetic rests on it. **Whoever gets there first.**
-5. **`singlefamily.fanniemae.com` is a GENUINE Cloudflare wall** (403 to curl+UA *and* WebFetch) — unlike the EDGAR/Freddie UA class. **`selling-guide.fanniemae.com` is open and carries the operative text.** `mba.org` 403s both clients ⇒ MBA apps run on two date-verified secondaries by necessity.
-6. **Carried forward unchanged:** $160B+ MF maturity wall still PROVISIONAL, re-source owed to CREED · Trepp July mat-adj UNGRADED (do not substitute) · "7.69% is a new high" is FALSE (Apr-26 7.71%) · TX $1.15B single-source on level · GSE MF band re-spec still owed · Parcl/Reventure = cross-check flags only.
+1. **HOM-01: one early-kill arm fired. The 8/31 FMHPI July print decides it.** Grade on **that release's own as-published figures for BOTH months** — NOT against the +2.06% on record. **Year-verify** (the trap has hit 3× on this series, both directions).
+2. **HOM-02: one early-kill arm fired (Q2). Q3 ~mid-Nov decides.** The composition tell is the finding, not the −9bps. **Standing rule: never read an FHA DQ decline as relief without checking FC inventory + the 90-day bucket in the SAME release.**
+3. **A–G thresholds NOT anchored — half the panel base-rated, and it found a CONJUNCTION problem plus two scope defects.** See above. **PROVISIONAL; no packet, no trade rail.**
+4. **FL composition mask corroborated, not closed** — ZHVI leg unconfirmed at primary.
+5. **CORAL's $10,000/unit critical-repair threshold NOT CONFIRMED** — scoped negative (not in Full Review `B4-2.2-02`); likely `B4-2.1-03 Ineligible Projects`, unchecked. Her 2.5×–40× arithmetic rests on it. **Whoever gets there first.**
+6. **Carried forward unchanged:** $160B+ MF maturity wall PROVISIONAL, re-source owed to CREED · Trepp July mat-adj UNGRADED (do not substitute) · "7.69% is a new high" is FALSE (Apr-26 7.71%) · TX $1.15B single-source on level · **GSE MF band re-spec still owed** (mod-suppressible metric) · Parcl/Reventure = cross-check flags only.
+7. ⚠️ **NOT MINE, STILL FLAGGED, DO NOT TOUCH: `memory/auto/auto/`** holds one memory the harness can never load (path one level too deep). Some agent's write used the wrong path. **Flagged to PROME 8/13; not my file.**
 
 ## NEXT SESSION
 
-1. ✅ **DONE 8/13 — MBA Q2-2026 NDS RELEASED (~12:00 ET) AND GRADED.** FHA SA total DQ **11.79%** (−9bps QoQ). **Confirm leg NOT MET** (21bps short of 12.00%); **EARLY-KILL ARM 1 OF 2 FIRED.** ⇒ **🔴 Q3-2026 NDS (~mid-Nov) IS NOW THE DECIDER — if it also declines QoQ, HOM-02 CLOSES MISSED EARLY.** Status OPEN, no confidence move.
-2. **NAHB HMI August (~8/17)** · **ATTOM July monthly (~mid-Aug)** · **PMMS Thu 8/20** · **MBA apps Wed 8/19** (watch the **YoY** legs).
+1. ⛔ **FINISH THE BASE-RATING — PFSI / RKT / UWMC, the missing half.** Then, in this order: **(a) base-rate Class E's CONJUNCTION** (both gates jointly + conditionally — the LDI/Onity half found 0-of-6 clearing both, so the conjunction is the live question, not the levels); **(b) rule the two scope/definition defects** — Class F's common-only dilution screen and Class E's undated discount measurement; **(c) only then** re-anchor or explicitly re-affirm the four numbers. Apply the verified windows (RKT Aug-2020, UWMC Jan-2021, LDI Feb-2021) and **exclude Onity from the dividend denominator entirely.**
+2. **NAHB HMI August (~8/17)** — and re-check **ATTOM July monthly** in the same pass.
 3. **🔴 FMHPI July data ~8/31 — the HOM-01 decision point.** Issuer path: `freddiemac.com/research/indices/house-price-index` (curl+UA) for the vintage line, then `fmhpi_master_file.csv`.
-4. **Fannie/Freddie JULY monthlies ~8/25-28** — second datapoint on the mod-suppression test. **This is now the highest-value recurring pull I own.**
-5. **Answer WALTER SIG-…-019** (builder net-effective price, 3 asks — still in inbox, deliberately held). **My lean: yes, instrument it from builder earnings disclosures (DHI/LEN/PHM all quantify incentive load), not from the relayed tweets, neither of which was fetched at source.**
-6. ⛔ **BASE-RATE THE A–G THRESHOLDS — the one dated obligation carried out of this session.** ≥10% mkt cap · ≥15% VWAP discount · ≥20% dilution · ≥50% dividend cut, against **2019–2026 capital actions and dividend changes at PFSI / RKT / UWMC / LDI / Onity**. **Until anchored, cite the spec as PROVISIONAL and do not build a packet or trade rail on it.** Only anchor held: UWM clears the Class-E floor ~7×, so the floor is not obviously too tight — **the false-positive rate is unknown.** *(Z is exempt by construction — no number to anchor.)* **Row 45 itself is CLOSED: ratified, encoded, confirmed to PROME.**
+4. **Fannie/Freddie JULY monthlies ~8/25-28** — second datapoint on the mod-suppression test. **Highest-value recurring pull I own.**
+5. **WALTER SIG-019: escalate or kill.** No third silent hold.
+6. **PMMS Thu 8/20 · MBA apps Wed 8/19** (watch the **YoY** legs).
 
 ## OPEN THREADS
 
-- **Marquee (recognition regimes)** — **strengthened, evidence reshaped.** The GSE divergence was quarter-level; monthly shows both books rising. Trepp's July MF move is the **payment-failure** leg, which mod-suppression does not cover.
+- **Marquee (recognition regimes)** — strengthened, evidence reshaped: the GSE divergence was quarter-level; monthly shows **both books rising**. Trepp's July MF move is the **payment-failure** leg, which mod-suppression does not cover.
 - **Cohort convergence still the sharpest thing on the board:** TX syndicator paper >50% of the pipeline · Trepp MF driver naming Texas · Arbor REO above delinquencies. **Three independent instruments, one 2021-22 floating-rate Sun Belt vintage.**
-- **⚠️ TWO measurement breaks now sit in my docket** (Ginnie APM 26-06 · NY Fed VantageScore). **The instruments under this domain are being re-based faster than its prediction windows run** — that pairing is itself a finding.
-- ⚠️ **NOT MINE, FLAGGED TO PROME, DO NOT TOUCH: `memory/auto/auto/` exists** and holds one memory (`finding_bare_since_date_drops_same_day_commits.md`). The harness memory path symlinks to `memory/auto/`, so **a file one level deeper is invisible to it — that memory will never load for anyone.** Some agent's write used the wrong path. Flagged, not fixed: it is not my file.
-- **`STATUS.md` at 238/250.** Compressed the **7/31-eve** block this session (findings preserved in `MULTIFAMILY.tsv` / `LESSONS.md` / OPEN ITEMS). **Next candidate: the 7/31 marquee entry.** Compressed the 7/24+7/17 BOTTOM LINE entries this session to restore headroom. **Next compression candidate: the 7/31-eve entry.**
+- **⚠️ TWO measurement breaks sit in my docket** (Ginnie APM 26-06 · NY Fed VantageScore). **The instruments under this domain are being re-based faster than its prediction windows run** — that pairing is itself a finding.
+- **★ NEW: the composition-mask class is now the single most frequent defect in this domain** (LGI headline ASP · NAR median level-vs-rate · Freddie mix-suppressed blend · Fannie mod-suppression · now FL median vs ZHVI). **It always arrives as "the number is fine, so the story is fine."** The number usually *is* fine. **KB-HOMER-013.**
