@@ -1,5 +1,5 @@
 {
- "built": "2026-08-13 18:16",
+ "built": "2026-08-14 17:32",
  "channels": {
   "AI capex": "elev",
   "Credit": "crit",
@@ -12,11 +12,8 @@
  },
  "docket": [
   "2026-08-07 Tricolor criminal: privilege-log schedule ladder (8/7 \u2192 8/14",
-  "2026-08-08 DEWEY spawn window \u2014 nearest dated item = WALTER DR-4 deadli",
   "2026-08-12 FALCON leg-3 WEEKLY sweep #1 under the ratified P-2 wording ",
-  "2026-08-12 Saudi 14-nation coalition FIRST planning meeting (SIG-002 ca",
   "2026-08-14 Forum-4 WITHDRAWAL TESTS grading riders (Will-ruled batch 8/",
-  "2026-08-14 MIDAS-07 gold-COT grade \u2014 WILL-REGISTERED 2026-08-07 in-sess",
   "2026-08-15 Jazan restart window (BRENT watch; 2nd Houthi strike 15d apa",
   "2026-08-17 BLAST 10-D panel hook (OTTO\u2194CARL cross-agent read)",
   "2026-08-19 BOND C-36 adjudication backstop (NEXUS 8/7 escalation): if B",
@@ -75,6 +72,7 @@
   "ZHAO": "ok"
  },
  "gates": {
+  "GATE-BRENT-COT-35B": "live:LIVE",
   "GATE-BRENT-DEPLOY-V2": "resolved:RETIRED",
   "GATE-BRENT-SUSTAIN": "resolved:RESOLVED",
   "GATE-BRK-C1": "resolved:RESOLVED",
@@ -97,27 +95,23 @@
   "GATE-VIO-116": "resolved:RESOLVED"
  },
  "levels": {
-  "CCC OAS": 1014.0,
+  "CCC OAS": 1024.0,
   "Cushing": 22.566,
-  "HY OAS": 272.0,
-  "USD/JPY": 159.256,
-  "VIX": 14.55
+  "HY OAS": 271.0,
+  "USD/JPY": 159.0
  },
- "one": "five days re-shaped the book's story without moving the book: three forums closed and a fourth ran start-to-finish under the new charter, and every verdict pointed the same way \u2014 the fleet's instruments were measuring fewer independent things than their labels claimed (positioning = one measurement, three views, zero external check; the fin-conditions kills = ~1.5 effective signals; and stagflation \u2014 the modal bucket since ~May \u2014 had no instrument on its own defining mechanism until RED pulled 5y5y forwards for the first time on 8/12 and found them at 2.31%, unmoved through a $100 prompt barrel, a Hormuz closure, and +14.7% YoY energy: Stag is no longer sole-modal, net-bear 66\u219260 on registered, reversible lines). Meanwhile the physical side got MORE stressed \u2014 ADNOC attack 8/8, Brent futures +6.6% to ~$87.72 [8/10 ICE settle, BZV26.NYM \u2014 PROME-verified], dated barrels near $100, the 14-nation coalition meeting TODAY \u2014 while the priced side stayed calm: July CPI on-consensus (+0.1% MoM / 3.4% YoY, core +0.2% / 2.5%) = RED's pre-registered NON-EVENT landed, VIX printed five straight sub-16 closes (FT-06 managed-decline FIRED 8/11), HY sits quiet at 272. Consumer: first CC 90+ decline off the 15-yr high (12.92%, 100% denominator-driven \u2014 DQ dollars ROSE; CARL's full-thesis kill rule is 1-of-2 with the decision on Will's queue). The bear that survives the week is a real-rate grind, not an inflation spiral: the 30Y sat at 5.25 through a soft core print \u2014 disinflation buys no rate relief \u2014 and duration + gold remain the two paying legs, the same macro view priced in two assets.",
+ "one": "SPENT",
  "pending": [
-  "** broker export",
-  "row 20 Robinhood",
-  "17 public flip [46d]",
-  "39 branches",
-  "31 JWT [11/05]",
-  "S1 [9/7]",
-  "item-8 [8/24]",
-  "N12 [9/30]",
-  "gh auth",
-  "Co-Authored-By trailer",
-  "APO monetize option [open, no deadline]",
+  "** activity-tab capture",
+  "STNG",
+  "Robinhood event-contracts/T",
+  "MAIN-book confirm",
+  "TERRY sizing conversation [open option]",
   "REGINALD hidden-CRE sitting [before 11/07]",
-  "SHADE spawn-or-deferral RESOLVED (ran today)"
+  "broker export [normal cadence]",
+  "N12 [9/30]",
+  "S1 [9/7]",
+  "item-8 [8/24]"
  ],
  "split": "",
  "v": 1
