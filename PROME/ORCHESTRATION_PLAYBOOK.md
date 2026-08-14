@@ -167,6 +167,7 @@ Cross-domain findings go to the agent that owns the domain, even if another surf
 ---
 
 ## Quick checklist before spawning
+0. **Freshness from GROUND TRUTH, never narrative (Will-directed 2026-08-14):** `python3 PROME/tools/agent_freshness.py --agent <NAME>` — **rc=1 ⇒ STOP: drain the listed from-<NAME> packets out of `PROME/inbox/` and inspect any dirty paths BEFORE writing the brief.** SCRATCH's spawn-queue lines and HANDOFF watch lists are closeout snapshots that rot within hours on multi-window days; a brief written against undrained packets tasks work that may already be Will-ratified (8/14 case: HOMER's encode-confirms sat unread while PROME briefed rows 45/46 as pending — the agent was fresh, PROME's model of it was not). The fleet-wide sweep runs at every boot via `prome_gate` (`--gate` mode); own-surface age is a lower bound, not caught-up proof (`[[finding_freshness_audit_vs_caught_up]]`).
 1. **Scout done?** Do I know the work-list, the owners, the diff?
 2. **Mode?** Run the decision test → Mode A (fan-out/Workflow) for the parallel-identical part, Mode B (live) only for the decision spine.
 3. **Delivery contract** in every prompt? (deliver-before-idle)

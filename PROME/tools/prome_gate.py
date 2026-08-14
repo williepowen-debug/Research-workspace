@@ -383,6 +383,12 @@ def mode_boot():
     run_script(ADVISE, "firetime (owner-routed flags persist)", [sys.executable,
                "scripts/firetime_check.py", "--window", "7", "--quiet"],
                "scripts/firetime_allowlist.tsv · DATE flag = full logic re-read, never find-replace")
+    # 8/14 Will-directed: agent staleness reads come from ground truth, not narrative.
+    # rc=1 = unread from-agent packets sit in PROME/inbox — PROME's model of those
+    # agents is stale regardless of what SCRATCH's spawn-queue prose says.
+    run_script(ADVISE, "agent freshness (ground-truth vs narrative)", [sys.executable,
+               "PROME/tools/agent_freshness.py", "--gate"],
+               "run agent_freshness.py --agent <NAME> before ANY launch brief; drain first")
     check_gates_tsv()
     check_docket_overdue()
     check_will_queue()
