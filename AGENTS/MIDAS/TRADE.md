@@ -17,13 +17,18 @@
 - **Will already carries the exposure off-rail:** GLD 16 sh = **15.0% of the account**, largest non-cash holding [PROME/ANVIL 8/2 FORGE reconcile]. So the practical question is **not** "should we get long gold" — it is **sizing an existing 15% position in a regime my own signal just called more volatile**. That is a TERRY/Will question; my input is in the 8/7 memo (③).
 - **Falsifier for anyone building on this:** gold back below **~$4,050** (7/31 pre-melt-up shelf) while DFII10 holds **>=2.40** re-instates the "re-coupled/capped" frame and takes M1 to 2. Registered as **MIDAS-06**, resolves **8/28**.
 
+**2026-08-14 update — figures above are RE-BASED; `MIDAS-07` graded INDETERMINATE; still NO MIDAS position.**
+- ⚠️ **The 8/7 numbers in the block above are superseded by HEARTBEAT Am.#2 (8/10, Will-approved) — they were unsettled bars.** Corrected: gold **$4,340.70** (not $4,401.30), 3wk **+8.18%** (not +9.68%) through **+9bp** (not +12bp); leg-B **+7.20%** against **−7bp**, which at beta −0.0513%/bp explains **~0.4%** of it. **The trigger still FIRED and the magnitude case is STRONGER, not weaker** — real yields rose across the window, the wrong direction for a rates-bid explanation. **Superseded text preserved above verbatim, not rewritten.**
+- **Falsifier correction that matters to anyone building a card off this:** the 8/18-line above cites MIDAS-06's branch (a) at **`gold >= $4,401.30`** — **that close never printed on the corrected record.** The boundary is **WILL_QUEUE row 51**, unruled, and it is **outcome-determinative** (at the 8/13 close it fires on $4,340.70 and not on $4,401.30). ⛔ **Do not build a card on MIDAS-06's branch (a) until row 51 is ruled.** The **downside** falsifier (~$4,050 while DFII10 ≥2.40) is unaffected and stands.
+- **New, and it belongs on any card:** the 8/11 COT shows the premium now has a **measurable spec-funded component** — OI **+7.74%** in one week on **fresh longs while shorts ADDED**, with crowding in the **top 5% of the 1986–2026 record** (net/OI 54.44% vs 26.3% median). **This is not a fired trigger and I am not treating it as one** — `MIDAS-07` graded **(d) INDETERMINATE** and no score moved. But "entry arriving late in a fast move" (the 8/7 caveat) now has positioning evidence behind it, and that is material to **sizing an existing 15% position**. Sizing = **TERRY**, decision = **Will**. **MIDAS proposes nothing and takes nothing.**
+
 ---
 
 ## Candidate expressions (thesis → instrument, not yet proposed)
 
 | Channel | Direction | Candidate surface | Trigger to propose |
 |---|---|---|---|
-| M1 | long debasement | gold exposure (GLD / miners) on the real-rate divergence | ✅ **TRIGGER FIRED 8/7** (divergence confirmed + quantified: +9.68%/3wk vs +12bp; beta test isolates ~98% as unexplained by real rates). -> TERRY for construction, Will for approval. MIDAS takes no position. |
+| M1 | long debasement | gold exposure (**GLD / metal only — miner equities ruled OUT OF SCOPE 8/14**, KB-039) | ✅ **TRIGGER FIRED 8/7** (divergence confirmed + quantified: **+8.18%/3wk vs +9bp** — re-based 8/14 per Am.#2, was +9.68%/+12bp; beta test still isolates **~95%+** as unexplained by real rates). -> TERRY for construction, Will for approval. MIDAS takes no position. ⚠️ **`MIDAS-07` (8/14) = INDETERMINATE — no confirmation added, and the premium is now partly spec-funded (see 8/14 update).** |
 | M2 | GSR | gold/silver ratio trade | GSR extreme (>95 risk-off or <75 risk-on) |
 | I1 | growth read | copper exposure (CPER) as China-growth expression | demand inflection confirmed w/ LME |
 | I2 | supply tail | PGM supply-shock tail | SA/Russia disruption (HAWK) |

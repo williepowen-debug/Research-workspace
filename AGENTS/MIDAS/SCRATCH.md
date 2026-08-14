@@ -1,5 +1,27 @@
 # MIDAS — SCRATCH (next-session pickup)
 
+**2026-08-14 MIDAS-07 GRADE SESSION (PROME-directed spawn, ~14:20–16:0x ET, after a 7-day dark gap 8/7→8/14).** Catch-up (4 inbox items, both WALTER asks answered) then the frozen gold-COT frame graded on the 15:30 print. **Zero capital. Zero thresholds moved. Zero self-rulings.**
+
+**🔴 `MIDAS-07` = (d) INDETERMINATE — the pre-registered MODAL outcome, taken on the frame's letter.** COT as-of **8/11** [raw `deafut.txt`, code-keyed 088691, vintage verified in-row, totals reconciled]: **OI 400,309 · NC long 250,936 · NC short 32,996 · net 217,940 · net/OI 54.44%**; gold $4,383.00 [8/11]. **WoW: OI +28,758 (+7.74%) · net +20,306 · short +3,617 · ratio +1.25pp.**
+- **(a) FRAGILE 1-of-3:** OI **PASS** by 309 contracts; net **FAIL** by **7,060 (3.2%)**; ratio FAIL (54.44% vs 56%). ⚠️ **The two failing legs were not independent** — net=225,000 at OI=400,309 ⇒ ratio 56.21%, so the 3-leg conjunction was really a 2-leg test. **(b)** failed the ratio only (price leg passed on every candidate date — no discretion). **(c)** failed both. **No joint satisfaction ⇒ no Will adjudication owed.**
+- **SUBSTANCE (NOT a branch verdict): the "spent fuel" read is DEAD.** Shorts **ADDED** (+3,617) — the reverse of the 8/4 price-up/OI-down covering week; the build is **fresh longs** (+23,923 NC, +6,520 nonreportable). My registered line *"if (a) fires, OI is up 7.7% = the fuel was replaced"* met its number (+7.74%) **without the branch firing** ⇒ **the frame is quieter than the tape.** That is the pre-registered **D-4** defect — recorded, NOT repaired.
+- **Crowding, full 1986–2026 record (n=1,929): net/OI 54.44% vs median 26.3%, p95 48.9%, max 57.7% = top-5%, 3.3pp off the extreme.**
+- **No score moved: M1 3 🟠, composite 7/20.** (d) = hold. Escalation clause is keyed to (a), which didn't fire ⇒ **no TERRY route**; fresh-leverage goes to Will as an **observation**.
+
+**🔴 SELF-CORRECTION — 3 published base rates were computed on the WRONG WINDOW (→ KB-042, L-18).** I ran my gold analysis on the **449-week (2018+) window SAM pulled for JPY**; CFTC publishes gold back to **1986-01-15 (n=1,929, 4.3× longer)**. "P(ΔOI≥+28,449 | OI≤400k) = **0-of-19, never observed**" → **20 of 1,103 = 1.81%** (max +67,010 [2009]) — **and it then happened on the very next print** (2018+ window now 1-of-20 = 5.0%). "P(c)=0.00%, **structurally unreachable**" → **WRONG: 299 occurrences, min 3,174**; correct claim = **REGIME-EXTINCT, none since 2009-01-13**. ✅ **What held: the rule-of-three 95% bound of 15.8% I published instead of quoting 0 — it contains both the corrected rate AND the outcome.** **Consumer-check routed to PROME/BRENT/SAM** (BRENT's joint-cell "CORRELATED CONFIRM" was declared identically empty on my P(c)=0).
+
+**⚖️ PROVENANCE CORRECTION I OWED (PROME caught it):** the 8/7 gold re-base $4,401.30→**$4,340.70** is **HEARTBEAT Amendment #2 (8/10, Will-approved)**, NOT my discovery — it reached me 4 days late because I was dark, and my independent re-derivation (+8.17% vs Am.#2's +8.18%) was **corroboration**. Also superseded and now swept: silver $63.80→**$63.33**, cushion 32.7%→**30.9%**, 3wk yield leg +12bp→**+9bp**. → L-17: *coming back from a gap, diff your load-bearing numbers against rulings issued DURING the gap BEFORE re-deriving anything.*
+
+**▶ PICK UP HERE (8/14):**
+1. **🔴 WILL_QUEUE row 51 — `MIDAS-06` branch (a) cites a phantom print** (`gold >= $4,401.30 (the 8/7 close)`; that close never existed post-Am.#2). **OUTCOME-DETERMINATIVE:** at the 8/13 close branch (a) **fires on $4,340.70, not on $4,401.30.** Must be ruled **before 8/28 and COLD**. PROME rec = re-key preserving letter-intent. **Will rules; do not touch.**
+2. **L-12 must be ruled before MIDAS-06 (8/28)** — self-rulable, deliberately deferred today (tuning-to-tape guard, PROME-endorsed). **L-13** likewise. Rule both in a **non-grading** session.
+3. **MIDAS-06 grades 8/28** — prep only.
+4. **Confirm BRENT/SAM consumed the corrected base rates** (KB-042).
+5. **Owed:** Pt/Pd settlement clocks PROVISIONAL (L-16); no settlement SOURCE for metals in `fetch.py`; ZHAO date-fork day 28; 8/4 PGM +8% still unexplained (Pd has since given back 3.7%); sulfur Platts spot; NEXUS full schema.
+6. **New instruments this session:** `cot_gold.py` (release-day-safe COT puller — closes the weekly-cadence gap open since 7/12) and `grade_midas07.py` (mechanical branch evaluator, written pre-print).
+
+---
+
 **2026-08-07 SECOND PASS SAME EVENING — Option B then A (PROME-directed, Will picked; A/B order inverted per PROME rec).**
 
 **B = WGC Q2 CB pull: kill-cond #2 NOT FIRED.** Q2 2026 = **288.9t** vs the **<100t** line = **2.89x**, **+62.4% YoY** (Q2-25 177.9t), **strongest Q2 in the series**. Buyers Poland +51t, PBoC +33t (largest since Q4'23), Uzbekistan +16t, Kazakhstan +15t, Jordan/Czech +6t; sellers Russia -22t, Turkey -4t, Bundesbank -1t. **The M1 rail's unmeasured leg is closed: now 1 fired / 3 measured-and-clear.** [WGC gold.org GDT Q2 central-banks page, primary; KB-034]
