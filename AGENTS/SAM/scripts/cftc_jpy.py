@@ -37,7 +37,23 @@ HEADERS = {"User-Agent": "Mozilla/5.0 (SAM-Research)"}
 JPY_NAME = "JAPANESE YEN - CHICAGO MERCANTILE EXCHANGE"
 
 # Historical reference points
-JUL_2024_PEAK_NET = -180000   # peak JPY net short pre-unwind
+# ⚠️ BASIS NOTE (2026-08-14) — THIS CONSTANT IS ON A RETIRED BASIS AND IS LEFT
+# DELIBERATELY UNCHANGED. The forum-4 falsifier pass (2026-08-11) corrected SAM's
+# reference extremum THREE times and settled on the publisher's FULL record:
+#     R = -188,077 [2007-06-26], OI 352,299, n = 1,354 back to 2000-08-29
+# superseding -184,223 (an epoch AND an undisclosed 2018+ window) and -180,000
+# (a rounding). Corrected labels: 8/4 = 24.2% (not 25.3%) · 7/28 = 86.9% (not
+# 90.8%) · the 7/10 fire = 82.5%, i.e. 2.5pp BELOW the 85% its own label invoked.
+#
+# WHY THE CONSTANT STAYS -180000 ANYWAY: the `Pct_of_Jul24_Peak` column is a
+# DISPLAY BASIS, not a gate — "ALL CONTRACT GATES UNAFFECTED" (forum-4 §1.2).
+# Re-basing it here would silently change the meaning of one column across ~100
+# historical rows and leave the series half-converted, which is the
+# partial-record-written-as-final failure class. The corrected percentage is
+# computed at grade time in scripts/grade_8_14_branch.py, which carries R.
+#
+# ⛔ NEVER cite this column's output as "% of peak" in prose. It is legacy-basis.
+JUL_2024_PEAK_NET = -180000   # RETIRED BASIS — see BASIS NOTE above; true R = -188,077
 WARN_NET = -150000            # SAM alert level
 
 TSV_HEADER = "Date\tOI\tNoncomm_Long\tNoncomm_Short\tNoncomm_Net\tChange_Long\tChange_Short\tChange_Net\tPct_of_Jul24_Peak\n"
