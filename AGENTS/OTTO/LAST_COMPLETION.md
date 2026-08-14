@@ -29,7 +29,7 @@
 - **OTTO-10's named instrument was NOT refreshed** — the cut is on extrapolated arithmetic from a 2025 estimate. Equifax unit share must be pulled before Sep 30 or the row resolves UNOBSERVABLE.
 - **Kollar/Seibold plea transcripts still unposted** 15 days after the unsealing order — OTTO-33's highest-yield instrument is granted but not delivered.
 - **Day-3 (7/30) courtroom minutes still absent at 15 days.** Clerk-lag explanation is dead; recorded as an artifact, **not scored**, and now immaterial since the 8/7 minutes carry the disposition.
-- **`thesis/THESIS.md` still v1.2** — now **two sessions** behind; owes the s017 cramdown material *and* the s018 both-legs-disconfirmed shape. PREDICTIONS_ARCHIVE post-mortems owed for **OTTO-04 and OTTO-30**.
+- **✅ `thesis/THESIS.md` bumped v1.2 → v1.3 (same session).** Carries the bank-leg disconfirmation, the s017 cramdown material, three factual corrections it had been carrying wrong (vacated Oct-19-2026 trial date, the true four-day/under-advisement trial posture, and "all 7 panel deals rising" → 3 of 4 DEEP), and a rebuilt calibration scoreboard. **⚠ New gap it exposed: the Secondary thesis's NY-Fed falsifier was one-sided and could never have confirmed the thesis — retired, and a cohort-level replacement is owed.** PREDICTIONS_ARCHIVE post-mortems still owed for **OTTO-04 and OTTO-30**.
 - **STATUS closed at 258 vs the ~250 soft cap** (down from 283). Acceptable; trim next session if it grows.
 
 ## WILL_NEEDS
@@ -40,5 +40,5 @@
 
 ## FOLLOW-UP (priority queue)
 **P1 — clocked.** Poll `docket_id:71483359` **first, every session** (OTTO-32 resolver). **~Aug 17** re-run `panel_10d.py` for the Bridgecrest read + watch the EART 2026-4 FWP window.
-**P2 — owed with dates.** Equifax unit-share refresh for OTTO-10 **before Sep 30**. Chase the **CARL CE-stack discriminator** via PROME. `thesis/THESIS.md` → **v1.3**.
+**P2 — owed with dates.** Equifax unit-share refresh for OTTO-10 **before Sep 30**. Chase the **CARL CE-stack discriminator** via PROME. **Build the replacement Secondary-thesis falsifier** (cohort-level, above the instrument's detection floor) — v1.3 names the gap but does not fill it.
 **P3 — undated.** Kollar/Seibold transcripts (**re-examine the delay itself at ~Sep 28**). PREDICTIONS_ARCHIVE post-mortems for OTTO-04 + OTTO-30. Monthly `shelf_halt_monitor.py`. Re-raise PROME's unanswered `2026-12-25` date-gate query.

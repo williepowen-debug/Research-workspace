@@ -9,12 +9,32 @@ prediction-confidence moves of note, new transmission rows, case-status escalati
 NOT routine dashboard refreshes (those live in STATUS) and NOT structural doc/folder
 changes (those live in `MAINTENANCE.md`).
 
-**Versioning:** OTTO's canonical thesis is `thesis/THESIS.md` (**v1.2 as of 2026-07-25** — absorbed the four s016 thesis-level moves: Secondary-mechanism conviction upgrade, the RP-OTT-1.6 diligence mechanism, the broad-tier qualification, and the OTTO-04 re-base + Carvana split);
+**Versioning:** OTTO's canonical thesis is `thesis/THESIS.md` (**v1.3 as of 2026-08-14** — the s018 bump: the **bank-contagion transmission leg joins the funding leg as DISCONFIRMED** (OTTO-30 falsified), Secondary-thesis falsifier #2 **ran, did not fire, and was re-specified as unsound** (a one-sided instrument), plus three factual corrections carried since v1.2 — the vacated Oct-19-2026 Tricolor trial date, the First Brands trial's true four-day/under-advisement posture, and the wrong "all 7 panel deals rising" claim — and a rebuilt calibration scoreboard naming **measure-design as the dominant failure family**. *Prior: v1.2 2026-07-25 absorbed the four s016 moves; v1.1 2026-07-04; v1.0 2026-06-09.*);
 `STATUS.md` § THESIS is a live-state mirror. Entries here are dated and may cite the
 thesis version they moved. *(Preamble corrected 2026-07-25 — it had described the
 pre-Jun-9 layout, in which neither `thesis/THESIS.md` nor `MAINTENANCE.md` existed.)*
 
-**Format:** reverse-chronological. Each entry: `### 2026-08-14 — OTTO-30 falsified: the "cockroach spreads to a 6th bank" transmission claim is DEAD, and it died on a pre-registered test
+**Format:** reverse-chronological. Each entry: `### YYYY-MM-DD — headline`, then **Was → Is**, **Trigger**, **Touches**, and any calibration note. *(Un-fused from the first entry heading 2026-08-14 — the sentence had been concatenated onto an entry title since the v1.2 pass, so the newest entry always inherited the words "Format: reverse-chronological. Each entry:" as part of its heading.)*
+
+### 2026-08-14 — THESIS bumped v1.2 → v1.3 (version-bump record)
+
+**Was → Is.** *Was:* canonical `thesis/THESIS.md` at **v1.2 (2026-07-25)**, two sessions behind — it carried neither the s017 First-Brands-cramdown material nor any of s018, and contained three statements that had become **factually wrong**. *Is:* **v1.3**, current as of 2026-08-14.
+
+**Trigger.** The v1.2 doc was flagged as owed in two consecutive closeouts (s017, s018) and the drift had passed from *incomplete* to *wrong* — the failure mode where a canonical doc keeps being cited because nobody re-reads what it actually says.
+
+**What changed — four things, in order of consequence.**
+1. **The BANK-CONTAGION transmission leg is added to the conviction decomposition as DISCONFIRMED.** With the funding leg already dead (Jul 4), **both** systemic-transmission channels are now measured and closed, while pattern + fraud-recovery magnitude are untouched. A consequence line was added telling readers plainly: *stop citing OTTO for "auto fraud transmits to banks."*
+2. **Secondary-thesis falsifier #2 retired as tested-and-not-fired — and re-specified as unsound.** The NY Fed Q2 print (8/11) did not fire it, but the deeper finding is that **it never could have confirmed the thesis**: a skip cohort cannot move a $1.713T aggregate, so the instrument was one-sided. A properly-scoped cohort-level replacement is now explicitly **owed**, and the doc says so rather than quietly claiming falsifiability it does not have.
+3. **Three factual corrections.** The Tricolor trial is **Jan 25 2027** (v1.2 carried the vacated Oct 19 2026 date, in two places); the First Brands confirmation trial ran **four days and has been UNDER ADVISEMENT since Aug 7**; and v1.2's **"all 7 panel deals have risen every month"** is wrong — **3 of 4 DEEP**, EART 2023-1 fell 0.16pp.
+4. **Calibration scoreboard rebuilt** (9 resolved, 4/9 confirmed) with the clustering stated plainly — **every falsification sits on a transmission or measurement claim, none on the fraud-pattern claim** — plus **measure-design named as the dominant failure family (5 instances, 2 built after naming the pattern)** and a **break-condition scope amendment**: the break condition is written entirely on the fraud leg and therefore could not register either transmission disconfirmation. Rather than patch a clause in, the doc now declares two separable claims with two scoreboards, and marks the transmission claim **retired, not weakened**.
+
+**Touches.** `thesis/THESIS.md` (header, conviction decomposition, ONE-LINER, case table, Secondary falsifiers + tier qualification, transmission chain stages 4-5 + critical observation, why-now driver 1, risk matrix, break condition, calibration scoreboard, failure-pattern synthesis, cross-agent links, footer stamp — **the v1.1 footer stamp that had been contradicting the v1.2 header is also fixed**), `STATUS.md` § THESIS mirror (v1.2 → v1.3, both "owed" flags cleared), this file's versioning preamble.
+
+**Lesson worth keeping.** The doc did not drift because anyone disagreed with it — it drifted because **it is read as a pointer and edited as a record.** The three factual errors all had correct values sitting in STATUS on the same day. `[[finding_doc_mirror_consistency_check]]` catches *set* mismatches between canonical and mirror; it does not catch a canonical doc that is merely **old**. A version stamp two sessions behind is itself the tripwire — treat it as one.
+
+---
+
+### 2026-08-14 — OTTO-30 falsified: the "cockroach spreads to a 6th bank" transmission claim is DEAD, and it died on a pre-registered test
 
 **Was → Is.** *Was* (since 2026-04-15): the Tricolor fraud would surface a **new** US bank counterparty by Q2-2026 earnings — the Cockroach thesis's bank-transmission leg, held at 45% until Jul 25 and 12% thereafter. *Is:* **FALSIFIED.** A complete EDGAR full-text scan of the entire window (2026-04-15 → 08-14) returns **zero new US bank names**. The named-bank list closes at **7** (JPM, Fifth Third, Regions, MTB, OBK, TFIN + Barclays-UK), every one of which disclosed *before* the window opened.
 
@@ -22,7 +42,7 @@ pre-Jun-9 layout, in which neither `thesis/THESIS.md` nor `MAINTENANCE.md` exist
 
 **Touches.** `thesis/PREDICTIONS.tsv` (OTTO-30 → FALSIFIED), STATUS § SIGNAL DASHBOARD (named-banks row → 🟢 closed) + § PREDICTIONS, `docket/CATALYSTS.tsv` (Aug-31 resolve row closed early), `workbook/ML.tsv` ML-OTTO-223.
 
-**What this does and does NOT mean.** It kills the *bank-count* transmission channel, **not** the fraud thesis: Tricolor's mechanism is criminally charged, recovery is ~3%, and the $113M gridlock is unresolved. **The Cockroach thesis has now been disconfirmed on BOTH of its systemic-transmission legs** — funding (OTTO-05, spreads tightened) and bank-contagion (OTTO-30, no new names) — while remaining intact on **pattern and fraud-recovery magnitude**. That asymmetry is the honest 2026 shape of this thesis and `thesis/THESIS.md` (still v1.2) is owed an update saying so.
+**What this does and does NOT mean.** It kills the *bank-count* transmission channel, **not** the fraud thesis: Tricolor's mechanism is criminally charged, recovery is ~3%, and the $113M gridlock is unresolved. **The Cockroach thesis has now been disconfirmed on BOTH of its systemic-transmission legs** — funding (OTTO-05, spreads tightened) and bank-contagion (OTTO-30, no new names) — while remaining intact on **pattern and fraud-recovery magnitude**. That asymmetry is the honest 2026 shape of this thesis. **✅ Paid same session: `thesis/THESIS.md` bumped to v1.3 — see the version-bump entry above.**
 
 **Calibration.** The 45→12% cut on 7/25 was made by **measuring** the instrument, and it pointed the right way three weeks before resolution — the process worked. The counter-lesson is the **known-unknown trap**, which fired **twice inside this single prediction** (OBK, then TFIN): both were names new to OTTO whose *first* disclosure predated the window. **A forward-discovery claim must be graded on a counterparty's FIRST disclosure date, never on the date of the filing that surfaced it.**
 
