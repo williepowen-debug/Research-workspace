@@ -1,93 +1,85 @@
 # CRUISE — STATUS
 
-*Last updated: 2026-07-02 (live refresh + earnings integration — all Big 3 reported; NCLH solvency framing corrected)*
+*Last updated: 2026-08-14 Fri (return from 6-week dark period — first spawn since 7/2; both live catalysts FIRED in absentia)*
 
-> **Regime note:** The 2026-03 boot thesis (Hormuz closed → fuel spike → CCL breaks) has **decoupled in price** — Gulf de-escalated (MOU 6/17, strait degraded not sealed), Brent at a 4-mo low ($71). The live front-of-book thesis is now **demand-side**: a K-shaped consumer-affordability split — now **confirmed in the actual earnings** (all Big 3 reported: RCL 109% load factor, NCLH FY guide slashed, CCL Med/Europe softness) — with **NCLH's relative weakness** (slashed guidance + high leverage, *not* solvency) the sharpest edge. **BUT the fuel channel is dormant, not dead** (Will directive, 7/2): this war *oscillates* — HAWK's re-escalation tail actually **fattened 22%→36%** after the Jun 27-28 US–Iran kinetic exchange, and BRENT is deliberately positioned **upside-convex** on a fuel re-spike (near-record-short positioning = amplified if it fires). **CCL's unhedged fuel exposure is therefore kept ARMED as dormant convexity** — see the Fuel Re-Escalation Watch below.
+> **⚠️ Dark-period disclosure:** CRUISE was dark 7/3 → 8/14 (42 days). During that window the two live trigger conditions from the 7/2 STATUS **both fired** and were not read:
+> - **CRU-03 fuel re-arm:** Brent breached $85 on 7/17 and spiked $100.69 on 7/23; the "arm CCL" band ($85–90) has held with oscillation since. **CRU-03 → FAILED.**
+> - **NCLH Q2 catalyst (CRU-04):** tape signature 7/29-30 (−11.8% gap on 36.5M vol) consistent with a bearish Q2 print. **CRU-04 → PARTIALLY (8-K verification owed).**
+> Both are **Will-decision items** — flagged in packet `outbox/2026-08-14_to-WILL_dark-period-triggers-both-fired.md`.
+
+---
 
 ## Signal Dashboard
 
 | Metric | Value | State | Source |
 |--------|-------|-------|--------|
-| CCL price | **$27.91** (−2.14% d) | 🟡 | [CONF] FORGE fetch Jul 2 |
-| RCL price | **$296.30** (−3.26% d) — near record highs | 🟢 | [CONF] FORGE fetch Jul 2 |
-| NCLH price | **$19.78** (−4.31% d) — weakest of Big 3 | 🟠 | [CONF] FORGE fetch Jul 2 |
-| Bunker fuel / Brent | **$71.36** (4-mo low) spot — tail **ARMED** | 🟡 | [CONF BRENT Jul 1]; re-escalation tail live |
-| Consumer travel demand (K-shape) | **45% skip summer / 49% on cost** | 🟠 | [CONF] WALTER SIG Jun 21 |
-| Gulf itineraries / war-risk insurance | **Degraded not sealed, ~75% transits** | 🟠 | [CONF HAWK Jun 26] |
-| NCLH fundamentals | **FY guide cut $2.38→$1.45-1.79; leverage 5.3x; covers interest ~2.3x** | 🟠 | [CONF] SEC 8-K Q1'26 |
-
-*No clean pre-conflict (Feb-28) price baseline loaded — operators graded on absolute level + tape behavior, not % moves.*
-
----
-
-## The Live Thesis — Demand-Side K-Shape
-
-WALTER SIG-W-20260621-005 (Jun 21) is the load-bearing signal: **45% of consumers skipping a summer vacation, 49% citing cost**, while premium/committed leisure holds. This maps directly onto the tape:
-
-- **RCL ($296, premium)** — resilient, near record highs. Premium customer intact.
-- **CCL / NCLH (value end)** — where the affordability squeeze bites first. NCLH weakest.
-- **The dispersion IS the signal.** Not a sector-wide crash — a bifurcation. CARL owns the consumer channel (holds ACTION); CRUISE is the cruise-specific read.
+| CCL price | **$28.28** (−0.44% d) — up-drift $27→$29 area past 45d despite fuel doubling | 🟡 | [CONF] FORGE fetch 8/14 |
+| RCL price | **$306.43** (−1.11% d) — off Aug-5 peak $327 but +$10 vs 7/2 | 🟢 | [CONF] FORGE fetch 8/14 |
+| NCLH price | **$19.07** (−2.43% d) — weakest of Big 3; still below the 7/28 pre-earnings high | 🟠 | [CONF] FORGE fetch 8/14 |
+| **Brent (front-month)** | **$88.26** — inside the 7/2 arm-CCL band ($85–90); spike $100.69 on 7/23 | 🟠 | [CONF] FORGE 8/14; BRENT STATUS 8/13 |
+| Bunker fuel trigger | **CRU-03 FAILED — trigger BREACHED 7/17, sustained** | 🟠 | Ladder VX-CRU-02, Will-gate un-ruled |
+| NCLH Q2 tape signature | **−11.8% gap 7/29-30 on 36.5M vol = bearish-earnings pattern** | 🟠 | FORGE tape 8/14; 8-K primary owed |
+| RCL Q2 tape signature | **+9.9% gap 7/24-28 on 3-4M vol = bullish-earnings pattern** | 🟢 | FORGE tape 8/14; 8-K primary owed |
+| K-shape tape dispersion | **RCL+9.9% vs NCLH−11.8% in 5 sessions = 20+ pp** | 🟠 | Widened vs 7/2 "confirmed but muted" |
+| Gulf itineraries / war-risk | Winter 26-27 season stays cancelled; no re-hardening in 8/14 refresh | 🟠 | HAWK 8/10 forum; unchanged from 7/2 |
 
 ---
 
-## Operator Profiles
+## The Live Thesis — K-Shape WIDENING + Fuel Tail FIRED
 
-### Royal Caribbean (RCL) — Premium, Resilient
-- $296.30, near record highs. Trades like a leadership name, not a distressed one.
-- **Q1 FY26: 109% load factor** (above double occupancy), record prices, bookings ahead YoY. Med/Mexico dipped on geopolitics then recovered.
-- Better hedged than CCL. Premium/committed-leisure customer = insulated from the value-end squeeze.
+Two updates to the 7/2 read, both push in the same direction:
 
-### Carnival (CCL) — Record Results, Europe the Watch Item
-- $27.91. **Q2 FY26 (Jun 23): RECORD rev/yields, adj net income +20%, deposits $9.0B**, FY yields guided +3.2%, exceeded Mar guide by $100M — yet stock fell −5.75% (sell-the-news + Med/European booking softness from geopolitics).
-- **Fuel-spike bear thesis is dead** for now: unhedged, but Brent 4-mo low = margin help; costs ex-fuel in line. (Kept armed as dormant convexity.)
-- $24B debt a structural overhang; the live watch item is Med/Europe demand.
+**1. K-shape dispersion has WIDENED in the tape.** The 7/2 read called it "confirmed but muted." The Q2-print tape (still pending 8-K verification) shows:
+- **RCL: +9.9% gap-up 7/24 → 7/28** ($293.54 → $322.50) on 3–4M vol vs typical 2M. Peaked $327.42 on 8/5. Classic beat/raise signature.
+- **NCLH: −11.8% gap-down 7/29 → 7/30** ($21.22 → $18.72) on 36.5M vol vs typical 15M. Classic miss/guide-cut signature.
+- **20+ pp dispersion in 5 sessions.** Premium leg is confirmed strengthening; value/turnaround leg is confirmed weakening. **The K-shape thesis (VX-CRU-03) is now stronger than 7/2.**
 
-### Norwegian (NCLH) — The Sharpest Short (relative weakness, not solvency)
-- $19.78, weakest of the Big 3. **Q1 FY26 (May 4): LOWERED FY guide to adj EPS $1.45-1.79** (from $2.38), yields turning negative (−1.0% cc), self-inflicted Norwegian-brand turnaround.
-- **CORRECTED 7/2:** the March "interest coverage ~0.86x / interest>income" was a **category error.** Primary 8-Ks show NCLH is **profitable** (Q1 net income +$105M) and covers interest **~2.3x EBIT**. The risk is **leverage (5.3x, debt $15.2B) + slashed guidance**, NOT solvency — a **de-rating** short, not a cash-bleed short.
-- Catalyst: NCLH Q2 (~early Aug) — does the de-rating persist? (CRU-04)
+**2. The fuel re-arm ladder FIRED and held.** The 7/2 STATUS registered a Will-gated ladder ("Brent sustained >$85–90 = arm CCL"). Brent breached that band on 7/17, spiked $100.69 on 7/23, and past-45-session mean is $85.97 with 22/50 sessions ≥$85 and 12/50 ≥$90. **The trigger has been fireable for ~4 weeks and CRUISE was dark for the entire window.**
 
----
+BUT — one nuance that MATTERS for CCL: **the fuel tape has NOT priced through into CCL's stock.** CCL is $28.28, up-drift from $27 despite Brent doubling from $71 to $88. Bookings/deposits are absorbing so far. This is either:
+- (a) The market pricing CCL's Q2 record ($9B deposits, +3.2% yield guide) as sufficient buffer, OR
+- (b) A LAG — CCL doesn't refresh guidance until Q3, so the pass-through doesn't hit the tape until then.
 
-## Gulf / Itinerary Situation — De-escalated (owner: HAWK)
-
-- Islamabad MOU signed Jun 17; Hormuz **"degraded not sealed," ~75% pre-war transits** by late June.
-- HAWK scenario: B-Deal-Reopen 34% / **C-Grind-Armed-Stalemate 44% (base)** / D-Reescalation 22%.
-- **Residual leg:** war-risk insurance still **not lifted** (~$8M/transit; liner normalization "months" away).
-- **Winter 2026-27 season — CONFIRMED cancelled/rerouted** by MSC, Celestyal, TUI, Explora, Costa (pivots to Med/Caribbean/Canaries) even as oil transit normalized ~75% (cruise war-risk is a higher bar than tankers). **But the Big 3 are more Europe- than Gulf-exposed** — this hits the European/luxury lines, not primarily CCL/RCL/NCLH.
+Either way, the *option* is cheaper today than the ladder assumed it would be at trigger.
 
 ---
 
-## ⚡ Fuel Re-Escalation Watch (added 7/2 — Will directive: keep eye on fuel)
+## Operator Profiles (updated 8/14)
 
-The 2026-03 fuel-spike thesis is **dormant, not dead.** Both owner-agents corroborate a live tail:
-- **HAWK (war):** base rate is *oscillation* ("expect reversals; don't chase them"). D-Reescalation tail **22% → 36%** after the Jun 27-28 US–Iran kinetic exchange + VLCC *Kiku* hit. Lebanon clause live; sharpest trigger = Iran "second step" goes kinetic (HAW-14 fail).
-- **BRENT (fuel):** thesis v5.0 = **asymmetry UPSIDE-CONVEX** — forward expression is *defined-risk long-convexity, deploy-on-trigger (ARMED)*. Near-record-**short** Brent positioning ⇒ any re-escalation is *amplified* (short-covering). Counter: first "deficit-closing" print (7/1) softened the up-tail modestly; P(Brent<$75, 1–2wk) = 0.70.
+### Royal Caribbean (RCL) — Premium leg CONFIRMED STRENGTHENING
+- **$306.43** (off the 8/5 peak $327 but +$10 vs 7/2's $296).
+- **Q2 FY26 tape signature: +9.9% gap 7/24-28 on 3-4M vol** — bullish print. **8-K primary VERIFICATION OWED.**
+- Premium/committed-leisure customer clearly intact and rewarded.
 
-**Why CRUISE cares:** CCL is **unhedged on fuel** → the highest-beta cruise expression of a fuel re-spike. It is the cruise-sector analog of BRENT's XLE convexity — cheap optionality on the same tail.
+### Carnival (CCL) — Fuel-convexity ARMED, not yet expressed
+- **$28.28** — up-drift past 45d **despite Brent doubling**. Unhedged fuel exposure did not translate to tape stress; deposits/bookings absorbed.
+- **Fuel-convexity trigger fireable since ~7/17.** Will-decision. See packet + `TRADE.md` #2.
+- Q2 (6/23) still the reference: record rev/yields, deposits $9.0B, FY yields +3.2%. Watch item = does the fuel pass-through show up in a preannouncement or the Q3 (Sep) print.
 
-**Re-arm ladder** (defer price to BRENT, war to HAWK — *levels proposed, Will to set final*):
-
-| Level | Trigger | Action |
-|---|---|---|
-| 👀 Watch | Brent reclaims **>$75 sustained**, OR HAWK D fattens further, OR COT (Fri 7/3) shows short-covering | Alert; re-rate VX-CRU-02 |
-| 🔫 Arm CCL | Brent sustained **>$85–90**, OR **HAW-15** crude-export pivot fires, OR HAWK "second-step" kinetic | Deploy CCL put (see TRADE) — Will [Approve] at fire |
-
-**Boot cadence:** every spawn — pull live Brent + check HAWK D-scenario + BRENT thesis version. **Deploy on trigger, not calendar.**
+### Norwegian (NCLH) — De-rating catalyst FIRED IN TAPE
+- **$19.07** — weakest of Big 3, still below the 7/28 pre-earnings high ($21.22).
+- **Q2 FY26 tape signature: −11.8% gap 7/29-30 on 36.5M vol** — bearish print. **8-K primary VERIFICATION OWED.**
+- **CRU-04 (the deploy catalyst for TRADE #1 NCLH puts) has fired in tape.** Whether it fully confirms depends on 8-K. Downgrade path exists: if the gap was ex-dividend or one-off, thesis reverts.
+- The 7/2 correction stands (NOT solvency; covers interest ~2.3x EBIT). This is a de-rating/relative-weakness short.
 
 ---
 
-## Port City Economic Exposure (structural, unchanged)
+## ⚡ Fuel Re-Escalation Watch — TRIGGER STATE UPDATE
 
-| Port | Economic Impact | Jobs |
-|------|----------------|------|
-| PortMiami | $61.4B | 311K+ |
-| Port Canaveral | ~$3.5B | 20K+ |
-| Galveston | ~$1-1.5B | 5-8K direct |
-| New Orleans | ~$700-800M | ~7K |
-| **US Total (CLIA)** | — | **290K** |
+**Ladder state (7/2 baseline, 8/14 read):**
 
-Transmission (largely dormant now that itineraries are recovering): single ship cancellation = $100-400K lost local spend/port call; shore-excursion operators 80-90% cruise-dependent.
+| Level | Trigger | Status 8/14 | Ruling |
+|---|---|---|---|
+| 👀 Watch | Brent >$75 sustained | **TRIPPED 7/13** ($83.30 first crossing since 7/2) | passed through |
+| 🔫 Arm CCL | Brent sustained **>$85–90** OR HAW-15 fires OR HAWK "second-step" kinetic | **BREACHED 7/17** ($84.95→$88.10 next session); **held with oscillation** through 8/14 | **Will-gated — packet 8/14** |
+
+**BRENT context (v5.6, 8/13):** the thesis is "PROMPT PREMIUM stays intact via tolled-corridor pricing; SUPPLY-LOSS reading weakened by ADCOP bypass operating." Prompt premium +$4.35 (Dated $93.26 vs futures $88.91). Backwardated across the strip. WTI-Brent −$5.71.
+
+**HAWK context (8/10):** 13-day dark, three-agent forum (HAWK/OSPREY/FALCON) resulted in "19 candidates routed to Will." Not a re-derived HAWK read; CRUISE flags but does not price.
+
+**Why CRUISE cares now:** CCL unhedged. If the deploy authorization comes AND the tape lag closes, the position is cheaper than the ladder assumed it would be at trigger — but the ladder is 6 weeks old and Brent has oscillated the whole time. Two live risks that push the OTHER way:
+- CCL tape has ignored Brent's move so far → market may keep ignoring.
+- BRENT's own thesis WEAKENED on supply-loss (v5.6 8/13) → the up-tail is priced differently now than on 7/2.
 
 ---
 
@@ -95,35 +87,35 @@ Transmission (largely dormant now that itineraries are recovering): single ship 
 
 | # | Target/Vector | Score | Status | Key Signal | Upgrade Trigger |
 |---|--------------|-------|--------|------------|-----------------|
-| 1 | Consumer demand K-shape (VX-CRU-03) | 3 | 🟠 | CONFIRMED-but-muted: RCL 109% LF / NCLH guide slashed / CCL Europe soft | NCLH Q2 re-slash OR broad value-end guide-down |
-| 2 | NCLH relative weakness (VX-CRU-05) | 3 | 🟠 | FY guide cut to $1.45-1.79 + leverage 5.3x (covers interest ~2.3x — NOT solvency) | NCLH Q2 re-slash + leverage climbs |
-| 3 | Gulf itinerary / war-risk insurance (VX-CRU-04) | 3 | 🟠 | Degraded not sealed; insurance still elevated | New route disruptions OR insurance re-hardens |
-| 4 | CCL stock stress (VX-CRU-01) | 2 | 🟡 | No acute distress; fuel driver lapsed | Value-end demand cracks + $24B debt strain |
-| 5 | Bunker fuel — spot low, tail ARMED (VX-CRU-02) | 2 | 🟡 | Brent 4-mo low, BUT HAWK D-tail 22→36, BRENT upside-convex, near-record-short | Brent reclaims >$75 sustained (watch) → >$85–90 or HAW-15/HAWK-kinetic (arm CCL) |
+| 1 | Consumer demand K-shape (VX-CRU-03) | 4 | 🔴 | STRENGTHENED in tape: RCL +9.9% gap vs NCLH −11.8% gap in 5 sessions | 8-K primaries confirm the tape; broader value-end guide-downs |
+| 2 | NCLH relative weakness (VX-CRU-05) | 4 | 🔴 | Q2 tape gap −11.8% on 36.5M vol; 8-K owed | 8-K confirms re-slash of guide → RED |
+| 3 | Bunker fuel — trigger BREACHED (VX-CRU-02) | 4 | 🟠→🔴 | Brent $88, sustained >$85 for ~4 weeks, spike $100.69 | Sustained >$90 AND Will-authorizes deploy → RED |
+| 4 | CCL stock stress (VX-CRU-01) | 2 | 🟡 | No tape stress despite fuel doubling; up-drift $27→$29 | CCL preannouncement OR Q3 guide-lower |
+| 5 | Gulf itinerary / war-risk insurance (VX-CRU-04) | 3 | 🟠 | Winter 26-27 season stays cancelled; no new re-hardening | HAWK D-tail widens OR new-route cancellations |
 
-**Summary:** Total ~13/25 (was 29/40 in Mar). Domain de-escalated from acute stress to a **watch on the demand-side bifurcation** — K-shape now **confirmed in the earnings but muted** (sector at record demand), **fuel tail re-armed not retired**, and the **NCLH solvency scare corrected** (relative-weakness short). No vector at RED.
+**Summary:** ~17/25 (was ~13/25 on 7/2). Domain elevated from "watch on demand-side bifurcation" to **two vectors at 🔴 (K-shape widened, NCLH tape-fired) + one at 🟠 mid-transition to 🔴 (fuel breached, Will-gated)**. First 🔴s since the 7/2 refresh.
 
 ---
 
 ## Exit Rules (Falsification)
 
-1. **Thesis kill (demand):** Q2'26 earnings show all three operators with firm/growing bookings AND no premium-vs-value dispersion → K-shape thesis dead, stand down.
-2. **NCLH short (de-rating):** relative-weakness short (slashed guide + leverage), not solvency — coverage verified ~2.3x. Deploy on the Q2 catalyst if the de-rating persists; **kill it if NCLH raises guidance or yields turn positive** (CRU-04).
-3. **Gulf re-arm:** if war-risk insurance re-hardens or new-route cancellations resume → re-elevate VX-CRU-04.
-4. **Time-based:** Q2 2026 earnings (late Jul/Aug) = mandatory thesis check and first hard demand read.
+1. **K-shape thesis kill (VX-CRU-03):** NCLH 8-K shows guide RAISED or yields turned positive → K-shape converges, VX-CRU-05 dies with it.
+2. **NCLH short kill (TRADE #1 / CRU-06):** as above (K-shape kill implies this) — OR the 7/29-30 gap was ex-dividend / one-off cause.
+3. **Fuel arm kill (TRADE #2 / VX-CRU-02):** Brent breaks and holds <$80 for 2+ weeks AND HAWK D-tail compresses AND CCL announces fuel hedging.
+4. **Time-based:** Q3 FY26 earnings (Sep-Oct) = mandatory thesis check. If CCL guides FY yields firm despite $80+ fuel, the fuel-pass-through hypothesis needs re-basing.
 
 ---
 
 ## Key Gaps / Next Steps
 
-- ✅ ~~Verify NCLH interest coverage~~ — DONE 7/2 (primary 8-Ks: ~2.3x EBIT; the March estimate was a category error, corrected).
-- ✅ ~~Recheck Winter 2026-27 Mid-East season~~ — DONE 7/2 (confirmed cancelled/rerouted; Big 3 more Europe-exposed).
-- **NCLH & RCL Q2 FY26 earnings (~early Aug)** = next hard demand read + NCLH de-rating test (CRU-04). CCL Q3 ~late Sep. Pin exact dates.
-- **Pre-conflict price baseline** — load Feb-28 refs so operator moves can be quantified, not just leveled.
-- No cruise/tourism NETWORK_GROUP exists — flagged to PROME; using CONSUMER + `sub:CRUISE` provisionally.
+- **NCLH Q2 FY26 8-K** — VERIFICATION OWED (tape says bearish, primary unread). This is the single load-bearing gap. If Will authorizes NCLH deploy, this must be pulled first.
+- **RCL Q2 FY26 8-K** — VERIFICATION OWED (tape says bullish; corroborates K-shape).
+- **Will ruling on the fuel-arm ladder** — the 7/2 ladder said "levels proposed, Will to set final." Now that levels have been in-band for 4 weeks, the ladder needs either ratified-and-fired or retired.
+- **Boot cadence gap** — CRUISE was dark 42 days while two catalysts fired. Flag PROME for calendar/heartbeat cadence.
+- **No cruise NETWORK_GROUP** in vocabularies — flagged to PROME on 7/2, still using CONSUMER + `sub:CRUISE` provisionally.
 
 ---
 
 ## BOTTOM LINE
 
-CRUISE woke up armed for a war that's de-escalating and a fuel spike that reversed — the March bear thesis (CCL unhedged fuel, Gulf season dead, NCLH solvency) is largely **spent or corrected**. With all Big 3 now reported, the live read is a **confirmed-but-muted demand K-shape**: the sector is at **record demand** (CCL record Q2, RCL 109% load factor, $9B deposits), with weakness concentrated in **Europe/Med** and at the **value/turnaround end (NCLH)**. The sharpest edge is **NCLH as a relative-weakness / de-rating short** — now backed by *actual* slashed guidance, but it's leverage + guidance risk, **not** the solvency scare the March file implied (it covers interest ~2.3x). Fuel spot is low but the re-escalation tail stays **armed** (CCL dormant convexity). Next test: NCLH/RCL Q2 (~early Aug).
+CRUISE returned from a 42-day dark period to find **both live catalysts have fired**: the K-shape thesis has WIDENED in the tape (RCL +9.9% earnings gap vs NCLH −11.8% earnings gap — 20+ pp of dispersion in 5 sessions, 8-K verification owed), and the 7/2 fuel-arm ladder was tripped when Brent breached $85 on 7/17 and spiked $100.69 on 7/23, with the trigger band held for ~4 weeks. **Two Will-decision items are live and un-ruled**: (1) authorize the NCLH puts deploy (TRADE #1) now that its tape catalyst has fired, or wait for 8-K primary confirmation; (2) ratify or retire the fuel-arm ladder (TRADE #2 CCL puts), given the trigger has been fireable for weeks. One notable non-move: CCL has up-drifted despite Brent doubling, so the fuel-convexity option may still be cheaper than the ladder assumed. Flagged to Will in `outbox/2026-08-14_to-WILL_dark-period-triggers-both-fired.md`.
