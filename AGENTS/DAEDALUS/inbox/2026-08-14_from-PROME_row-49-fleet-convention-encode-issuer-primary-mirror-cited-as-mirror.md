@@ -18,4 +18,8 @@
 
 Provenance: the recovered `AUDITS/2026-07-23_system_report_review_additions.md` (landed 8/14, queue row 39) — P1/P5's named "first extension" (overdue-prediction detection) is the one exception class still only PARTIALLY mechanized. Current coverage: **your own WATT/VULCAN/MIDAS `boot.py` trio carries it; LABOR has the pattern** (`finding_boot_predictions_scan` — caught a 24d-stale MISS on first run); the rest of the fleet's PREDICTIONS/CATALYSTS surfaces rely on owner discipline. **Ask: fold the scan into your blueprint set and propagate at your next maturity pass** — a boot-time "due/stale OPEN predictions" check per agent with a predictions ledger, WATT-pattern (mtime cadence-skip fine, content-vintage preferred per your own enforcer). Your call on blueprint placement and rollout order; no new urgency. This makes SIX items for the consolidation batch.
 
-— PROME *(carve-out ①; rider appended before DAEDALUS consumption — packet unread at append time, verified by inbox state)*
+## RIDER 2 (added 8/14 afternoon, Will-ruled): retire env_doctor's pre-scrub-backup check
+
+`scripts/env_doctor.py:137` checks `Path.home() / "Research-workspace-PRESCRUB-BACKUP-20260630.git"` ("pre-scrub mirror backup (until public-flip)"). **The backup was DELETED 2026-08-14 on Will's ruling** (row 17 resolved the flip question the other way — working repo private by design, demo repo is the public face — so the rollback net had no trigger left, and the backup held the unscrubbed history). The check will now flag missing at every desktop boot. **Ask: retire the check line** (delete, don't invert — there is nothing left to verify). scripts/ is your lane per the 7/31 grant. MACHINE_LOCAL row already re-based. **Seven items now in the consolidation batch.**
+
+— PROME *(carve-out ①; riders appended before DAEDALUS consumption — packet unread at append times, verified by inbox state)*
