@@ -8,6 +8,19 @@ Tracks all changes to THESIS.md and TIMELINE.md. Reverse chronological. Each ent
 
 ---
 
+## 2026-08-14 (Fri) — **NO THESIS VERSION CHANGE (stays v5.6). SPEC/REGISTRY EVENT ONLY: the COT positioning band UN-FIRED, died, and was replaced.**
+
+**Logged here because it is a threshold-lifecycle change other surfaces cite, NOT because the thesis moved. THESIS remains v5.6 and no thesis claim, level or falsifier is touched.**
+
+- **INCUMBENT `COT-FUEL` — FINAL GRADE, then RETIRED.** 8/11 vintage: MM gross shorts **110,638** vs the frozen **≤104,072** bar ⇒ **`FUEL SPENT` UN-FIRES by 6,566 contracts** (cum vs the 7/7 base 129,072 = **−18,434**, against −25,000; WoW re-gross **+8,078**; OI 1,892,429). **Old view → new view: "fuller-size branch LIVE" → "modifier OFF, revert to base case."**
+- **SUCCESSOR `COT-FUEL-35B` — REGISTERED** (Will-ruled 8/12), *after* the grade was written; **the two bands never ran on the same vintage.** base 122,904 · **median_unit 9,160 FROZEN** (n=235, 2022-02-08→2026-08-04) · Leg-A ≤113,745 · deadband 109,165–118,325 · Leg-B OI-share ≤4.909% **GATING**. **First read: JOINT `NO-VERDICT`** ⇒ sizing defaults to base case.
+- ★ **WHY IT MATTERS BEYOND THE BAND:** the 8/7 session recorded a **spec gap** — *"the modifier says NOTHING about what happens if it UN-FIRES; no rule exists for that"* — and named it rather than fixing it. **Will's 35a REVERT ruling landed 8/11, three days before the print that needed it.** A named-but-unfixed gap was closed by exactly three days.
+- ★ **AND THE 8/7 NOISE-FLOOR CALL WAS VINDICATED HARD:** that session base-rated the band's 1,512-contract margin as a **coin flip** (48.4% all-history / 50.0% last-52wk to invert at the next print). **The next print moved +8,078 — 5.3× the flip distance.** `[[finding_effect_below_instrument_detection_floor]]`
+- ⚠️ **DIRECTIONAL READ, stated as positioning and NOT as a thesis input:** **85.7% of gross shorts are still standing** (was 79.5% on 8/4). **The re-escalation brought shorts BACK; the accelerant did not fire, it re-loaded.** ⛔ **This is a positioning DESCRIPTOR with no price validation and n=0 genuine reopenings — it does not move the thesis and is not being used to.**
+- ⛔ **Nothing published reads "positioning exhaustion CONFIRMED" — and the forum-4 §5 JOINT confirm cell is **EMPTY-IN-REGIME, not structurally empty** — ⚑ corrected same-day 2026-08-14 on MIDAS's own retraction: its `P(c)=0.00 / NC short <20,000 never in 449 weeks` was computed on an INHERITED 449-week window; the full CFTC COMEX gold series (1986-01-15, n=1,929) shows **299 occurrences**, most recent **2009-01-13**. ⇒ the cell is empty **because of the current regime (17.5 years)**, which a sufficient regime change could populate — NOT unreachable. **Weaker, more honest, and the practical near-term conclusion is unchanged: the 8/11 print did NOT populate it (MIDAS NC short 32,996, shorts ADDED +3,617, moving AWAY).****
+
+---
+
 ## 2026-08-13 (Thu) — **v5.6 (MINOR): THE HORMUZ BYPASS IS OPERATING, SO A TRANSIT COUNT IS NOT A BARREL COUNT.**
 
 **Trigger:** re-verification of `refinery_damage/INCIDENTS.tsv` row `RF-012` (ADCOP Habshan-Fujairah, the UAE's primary Hormuz bypass) under the I-2 staleness budget adopted the same day. The row had asserted **1,500,000 bpd OFFLINE for 118 days** on source_tier A-2.
