@@ -14,7 +14,57 @@ changes (those live in `MAINTENANCE.md`).
 thesis version they moved. *(Preamble corrected 2026-07-25 — it had described the
 pre-Jun-9 layout, in which neither `thesis/THESIS.md` nor `MAINTENANCE.md` existed.)*
 
-**Format:** reverse-chronological. Each entry: `### 2026-08-03 — First Brands: the vote says CRAMDOWN, which is the branch consensus was writing off
+**Format:** reverse-chronological. Each entry: `### 2026-08-14 — OTTO-30 falsified: the "cockroach spreads to a 6th bank" transmission claim is DEAD, and it died on a pre-registered test
+
+**Was → Is.** *Was* (since 2026-04-15): the Tricolor fraud would surface a **new** US bank counterparty by Q2-2026 earnings — the Cockroach thesis's bank-transmission leg, held at 45% until Jul 25 and 12% thereafter. *Is:* **FALSIFIED.** A complete EDGAR full-text scan of the entire window (2026-04-15 → 08-14) returns **zero new US bank names**. The named-bank list closes at **7** (JPM, Fifth Third, Regions, MTB, OBK, TFIN + Barclays-UK), every one of which disclosed *before* the window opened.
+
+**Trigger.** The pre-registered falsification check written into the row on 2026-07-25, run 2026-08-14 once its gate (small-bank Q2 10-Q deadline ~08-14) closed. `[CONF SEC EDGAR FTS q="Tricolor", run-stamped 2026-08-14, 31 hits, complete scan]`
+
+**Touches.** `thesis/PREDICTIONS.tsv` (OTTO-30 → FALSIFIED), STATUS § SIGNAL DASHBOARD (named-banks row → 🟢 closed) + § PREDICTIONS, `docket/CATALYSTS.tsv` (Aug-31 resolve row closed early), `workbook/ML.tsv` ML-OTTO-223.
+
+**What this does and does NOT mean.** It kills the *bank-count* transmission channel, **not** the fraud thesis: Tricolor's mechanism is criminally charged, recovery is ~3%, and the $113M gridlock is unresolved. **The Cockroach thesis has now been disconfirmed on BOTH of its systemic-transmission legs** — funding (OTTO-05, spreads tightened) and bank-contagion (OTTO-30, no new names) — while remaining intact on **pattern and fraud-recovery magnitude**. That asymmetry is the honest 2026 shape of this thesis and `thesis/THESIS.md` (still v1.2) is owed an update saying so.
+
+**Calibration.** The 45→12% cut on 7/25 was made by **measuring** the instrument, and it pointed the right way three weeks before resolution — the process worked. The counter-lesson is the **known-unknown trap**, which fired **twice inside this single prediction** (OBK, then TFIN): both were names new to OTTO whose *first* disclosure predated the window. **A forward-discovery claim must be graded on a counterparty's FIRST disclosure date, never on the date of the filing that surfaced it.**
+
+---
+
+### 2026-08-14 — The consumer aggregate is demoted from evidence to a non-contradiction check
+
+**Was → Is.** *Was:* NY Fed HHDC auto figures were carried in the SIGNAL DASHBOARD alongside the ABS panel and read as part of the Invisible-Exit evidence base. *Is:* **the consumer aggregate can never CONFIRM the Secondary thesis** — the skip cohort is far too small to move a $1.713T stock — so it is a **non-contradiction check only**, and OTTO stops citing it as confirming evidence.
+
+**Trigger.** Q2-2026 HHDC (published 2026-08-11): auto transition into 90+ moved **+3.3bp QoQ to 3.0028%** (a first 3.00%+ print) while OTTO's deep-subprime 10-D panel sits at **10.8-14.8% 60+ DQ** and DEEP annualized net loss runs **18.85% vs BROAD 6.41%**. The divergence held and widened — which is what the thesis predicts, and precisely why the aggregate cannot be the instrument.
+
+**Touches.** STATUS § SIGNAL DASHBOARD (three NY-Fed rows + an explicit RULING row), `docket/CATALYSTS.tsv` (2026-08-11 row), `workbook/ML.tsv` ML-OTTO-224. Applies auto-memory `[[finding_cohort_too_small_to_move_the_index]]`.
+
+**Second-order note, recorded as hypothesis not conclusion.** Pct-of-balance 90+ **fell** to 5.49% while the transition rate **rose** — mechanically, balances are leaving the bucket faster than they enter, i.e. faster charge-off, which is what skip-defaults imply. **[EST] — not separable from ordinary seasonal charge-off timing with this data.** Same refusal-to-join discipline as the Carvana finance-GPU read.
+
+---
+
+### 2026-08-14 — Carvana: the tape rejected the read, and the read did not change
+
+**Was → Is.** *Was* (s017): "the guide-down was absorbed in three sessions" — CVNA −3.6% vs the pre-print close. *Is:* CVNA **$75.92**, **+14.5% ABOVE the pre-print close**, +18.7% off the level STATUS carried, and only −7.4% from Gotham's split-adjusted $82.01. **The s017 framing was understated to the point of being wrong in spirit.**
+
+**Trigger.** Live quote 2026-08-14 against the s017 dashboard value.
+
+**Touches.** STATUS § SIGNAL DASHBOARD (CVNA price row), § THESIS case table, § Carvana vector; s017 Carvana block archived to `workbook/STATUS_archive_20260814.md`.
+
+**The distinction being defended.** **Nothing has contradicted the finance-GPU series** (Other GPU/unit $2,869 → $2,807 → $2,666, accelerating) — **it has been ignored.** Those are different things, and a rising tape does not retire an instrument. What the price *does* refute is any near-term **timing** claim, and OTTO holds none on Carvana. Conviction on collateral quality is unchanged; conviction on the related-party allegation is unchanged; **the systemic/timing leg keeps disconfirming on schedule.**
+
+---
+
+### 2026-08-14 — OTTO-10 cut 65% → 20%, and the row finally names its instrument
+
+**Was → Is.** *Was:* subprime origination share falls below 13% by Sep 30 2026, 65%, against a baseline of "14.7% (2025 est)" and **no named instrument**. *Is:* **20%**, with the instrument written in — **Equifax subprime UNIT share** (ML-OTTO-027 / VX-OTTO-055: 16.5% → 15.2% → 14.7%).
+
+**Trigger.** The row's own series is **decelerating** (−1.3pp, then −0.5pp), extrapolating to ~14.2% for 2026 against a <13% line. Cut on arithmetic — the same discipline applied to OTTO-34 on 2026-08-03.
+
+**Touches.** `thesis/PREDICTIONS.tsv` (OTTO-10 confidence + instrument line), STATUS § PREDICTIONS, `workbook/ML.tsv` ML-OTTO-228.
+
+**The near-miss that is the real entry.** The NY Fed **<620 DOLLAR share is 16.13% and rising**, which read carelessly satisfies OTTO-10's invalidation ("stays >14%") on the spot. **It was not used.** Units ≠ dollars and Equifax ≠ NY Fed CCP — and the divergence is **mechanically real**: average subprime balance rose $22,800 → $24,575, so **dollar share can rise while unit share falls and both series are correct simultaneously.** The defect the near-miss exposed is that **the row named no instrument at all**, which is exactly what made grading it off the wrong series available. Applies `[[finding_cross_entity_comparison_needs_same_perimeter]]` and `[[finding_hypothesis_needs_an_instrument_for_its_defining_mechanism]]`.
+
+---
+
+### 2026-08-03 — First Brands: the vote says CRAMDOWN, which is the branch consensus was writing off
 
 **Was → Is.** *Was* (s016 + fleet-wide, 7/25-7/31): the plan is "creditor-backed going in," so an outright class rejection and a cramdown fight looked like the weaker branch; ballot tallies were believed non-public until a 7/27 certification. *Is:* the tabulation was filed **2026-07-24** (Dkt 3351) and says the **secured classes accepted 100% by number AND amount at every debtor** while **Class 7 general unsecured rejected at 83 of 92 subclasses** — **confirmation requires §1129(b) cramdown at 83 debtors.** "Creditor-backed" was true of the *secured stack only*.
 

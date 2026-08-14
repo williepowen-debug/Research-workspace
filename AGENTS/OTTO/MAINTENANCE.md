@@ -14,6 +14,25 @@ routine content edits. Archive to `archive/` if it grows past ~300 lines (SAM ca
 
 ---
 
+## 2026-08-14 (session 018) — Unobservable catalyst rows re-keyed to observable outputs; STATUS archive #5
+
+**Trigger:** three catalyst rows fired between boots (2026-08-05 Rule 17 subpoena deadline, 2026-08-07 defense privilege log, plus the 8/14 and 8/21 steps of the same chain) and **all of them swept EMPTY** — not because nothing happened, but because **every one was keyed to a party-to-party discovery obligation that structurally cannot produce a docket entry.** Rule 17 applications are routinely ex parte or sealed and service needs no docket entry; privilege logs are exchanged between parties and are never filed. `[CONF CourtListener docket_id 72046761 — zero entries 2026-08-01..08-14]`
+
+**What changed:**
+1. **`docket/CATALYSTS.tsv` — the whole 8/7→9/4 privilege chain collapsed into ONE row** at a modeled **2026-09-04**, keyed to *"first DOCKETED output"* (in camera submission, motion to compel, privilege dispute, or an order resolving one) rather than to the private exchanges. The 8/5 Rule 17 row is annotated **unobservable-by-construction** and explicitly **not re-armed on a date**.
+2. **Two new rows added:** `2026-08-07` (First Brands trial **Day 4** — closing arguments, matter under advisement; the day OTTO did not know existed) and `2026-09-15` (**First Brands confirmation ruling**, `modeled`, poll-every-session — the row that decides OTTO-32).
+3. **`2026-08-06` NY Fed row re-dated to `2026-08-11`** and pinned to the actual publication.
+4. **`2026-07-28` trial row corrected** — the trial was four days, not three.
+5. **`workbook/STATUS_archive_20260814.md` created** (5th STATUS archive): s017 boot-pointer + the s017 Carvana post-print vector, both with supersession banners naming exactly what in them went stale and what still stands. STATUS **283 → 258 lines**.
+
+**Files touched:** `docket/CATALYSTS.tsv`, `STATUS.md`, `workbook/STATUS_archive_20260814.md`, `docket/WINTERKORN_MEMORY.md` (PENDING item).
+
+**Boot-impact:** boot step 5 stops re-flagging three rows that can never be graded. **This is the point:** a catalyst that cannot be observed through OTTO's only channel is an alert-fatigue generator, and repeated "unswept" flags on it train the operator to skim the section where a real miss would appear.
+
+**Lessons:** **Fifth member of OTTO's measure-design failure family** (OTTO-30's instrument, OTTO-04's metric, OTTO-07's default-zero ledger, s017's panel positive control) — and the **second built AFTER naming the pattern**. The recurring test being failed is `[[finding_executability_is_a_separate_audit_axis]]`: *can this rule be graded with the instruments I actually have, inside the window it quotes?* Ask it **when the row is written**, not when it fires empty. Corollary recorded on the rows themselves: **absence of a docket entry is not evidence of absence** when the underlying obligation never produces one.
+
+---
+
 ## 2026-07-25 (session 016, Will-directed) — 10-D performance panel built; Fitch dependency retired
 
 **Trigger:** Fitch's index reached OTTO only through a trade-press mirror that decayed to March-2026 data. Free alternatives were tested the same day and are closed — **S&P's tracker returns HTTP 403; KBRA's full indices spreadsheet requires an ABS Premium subscription** (KBRA's free preview gives tier-separated MoM deltas at a ~2.5-week lag, useful but no levels). Will directed building the panel.
