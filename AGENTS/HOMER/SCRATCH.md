@@ -46,16 +46,31 @@ PROME's list asked me to **draft** the servicer re-spec (row 45) and **re-key** 
 - ⚠️ **Two-date fact RECORDED, not "fixed":** ATTOM's index dates the Mid-Year report **2026-07-15**; my rows carry **Jul 16** (PRNewswire). Both defensible (site-post vs wire). **Do not silently rewrite either** without deciding which basis this domain cites.
 - Untouched and correct: **FMHPI July decider 8/31** · **HUD ML 2026-08 mandatory 9/21** · GSE July monthlies ~8/25-28 · NAHB HMI ~8/17.
 
-## ★★ BASE-RATING — HALF DISCHARGED, AND IT ARGUES AGAINST MY OWN SPEC
+## ★★★ BASE-RATING — ✅ COMPLETED (full panel), AND IT CORRECTS MY OWN MID-SESSION READ
 
-**Full evidence → `reports/2026-08-14_servicer-thresholds-BASE-RATING-partial.md`.** Covered at PRIMARY (SEC EDGAR, UA header): **LDI + Onity**. **NOT covered: PFSI / RKT / UWMC** — the larger half, and the half containing the motivating UWM event; commissioned same session, **did not return in window.**
-⛔ **NO THRESHOLD RE-ANCHORED. SPEC STAYS PROVISIONAL. No packet, no trade rail until the panel is complete.**
+**Full evidence → `reports/2026-08-14_servicer-thresholds-BASE-RATING-partial.md` — read §8 FIRST** *(the `-partial-` slug is historical; earlier citations point at it, so it was not renamed)*. **All five names at PRIMARY: 12 capital actions, 32.3 company-years.**
+⛔ **NOTHING RE-ANCHORED. SPEC STILL PROVISIONAL. No packet, no trade rail.**
 
-**★ HEADLINE — it points at the CONJUNCTION, not the levels:** across **6 capital actions in 13.1 company-years, ZERO cleared BOTH** the ≥10%-of-market-cap gate **AND** the ≥15%-discount gate.
-- The near-miss proves it rather than softening it: **Oaktree's Dec-2020 placement into Ocwen priced −14.8% vs the 10-day VWAP at closing (−26.5% vs prior close)** — unmistakably distress-priced — **but at 4.3% of market cap it never reached the discount test.**
-- The two deals that *were* ≥10% of market cap carried **no discount at all** (2021 warrant strike **+3.3% ABOVE** VWAP; 2024 preferred has **no** common-referenced price ⇒ **N/A, not zero**).
-⇒ **The two gates select DISJOINT events** — `finding_compound_gate_jointly_unsatisfiable`. **Base-rate Class E JOINTLY and CONDITIONALLY; do not tune either number first.**
-⚠️ **NOT a verdict** — n small, three names missing, UWM clears the size gate ~7×.
+⚠️⚠️ **I PUBLISHED A WRONG FRAME EARLIER TODAY AND CORRECTED IT WITHIN THE SESSION.** On the LDI+Onity half I wrote *"the two gates select disjoint events"* and reached for `finding_compound_gate_jointly_unsatisfiable`. **Too crude.** **Class E's distress marker is a THREE-WAY DISJUNCTION** — (i) ≥15% below the 10-day VWAP, **OR** (ii) governance concessions, **OR** (iii) issuer/investor/agency describing it as liquidity/capital/going-concern support. **E is NOT jointly unsatisfiable. I base-rated a CONJUNCTION THAT WAS ACTUALLY A DISJUNCTION.**
+★ **LESSON, and it is the transferable part: base-rate the gate's ACTUAL boolean structure, not the structure you remember writing.** *(The instinct was right; it was pointed at the wrong join.)*
+
+**★★ THE CORRECTED FINDING — narrower, and much more useful:**
+**Class E DOES fire on UWM 8/6 — through markers (ii) and (iii), NOT the price marker.**
+- **Marker (i) is DEAD WEIGHT: 0 of 12.** Never fired on any name in any year — **and it FAILS OUTRIGHT on the event that motivated the whole re-spec.** UWM's preferred was issued **at $1,000 par** (no market reference at all) with warrants struck **$6.00/$2.00 vs a $1.84 close and $1.872 10-day VWAP — ABOVE market.**
+- ⇒ **A price-discount screen would have scored the most punitive financing in this cohort's history as BENIGN.**
+- **Why: none of the 12 was a discounted marketed offering** — par-value preferred, two all-stock mergers, an at-par PIPE, a pass-through IPO, a rights offering priced *above* market, two private placements, an ATM. **The 10-day-VWAP construct does not appear anywhere in this cohort's record.**
+- ✅ **What works:** size gate **5 hits**; marker (ii) governance **2 hits, the right 2**; marker (iii) issuer description **1 hit, the right 1**.
+
+**⛔ THREE SPEC DEFECTS NEED A WILL RULING (all scope/definition — no threshold move fixes any):**
+**(A)** **E's price marker is inert** → re-spec (candidates: **warrant coverage as a share of ECONOMIC float**; use-of-proceeds language) or **drop it** and rely on (ii)+(iii).
+**(B)** **F screens dilution "of existing COMMON"** → misses Onity's non-convertible preferred entirely.
+**(C)** ★ **NEW — G's "unscheduled" carve-out must require ADVANCE disclosure.** UWM bundled its suspension with the transaction **the same day**; a literal reading of *"tied to a disclosed strategic transaction"* could **exempt the very event the class exists to catch.** **A shareholder had zero notice.**
+
+**⚠️⚠️ DIVIDEND DENOMINATOR IS 3, NOT 5.** RKT never paid a regular dividend (3 unscheduled specials; FY2024 10-K: *"no dividend authorized or declared during 2024 or 2023"* — omission-by-silence, never a declared cut) and **Onity never paid one at all.** Only **PFSI / LDI / UWMC** were ever at risk ⇒ **2 suspensions / 3 companies / ~18.7 at-risk company-years, both unscheduled (100%).** **n=5 understates the conditional rate ~40%, in the direction that flatters the spec** — predicted before the data, **confirmed on two names.**
+**✅ G's false-positive risk looks LOW:** PFSI **never cut in 27 straight quarters**, raised +50% to $0.30, and **held it through Q2-2026 with net income −84% YoY, 2% annualized ROE, stock BELOW BOOK** ($76.99 vs $83.49 BVPS). **A distressed servicer DEFENDING its dividend is the base case.**
+**★ NEW INSTRUMENT the data volunteered, in no class today — NON-FUNDING DEBT/EQUITY.** UWMC: **1.90× → 3.18× → 6.13×** while equity fell $1,748M → $985.3M **and the dividend sat at $0.10 to the very last quarter.** ⇒ **The payout LAGGED; leverage LED by two quarters.** The **terminated** Two Harbors deal (killed Q1-26 when TWO's *own* shareholders failed to deliver a majority; zero shares issued) sits exactly in that window — a **rejected first attempt to fix the balance sheet with stock.**
+**⚠️ MEASUREMENT TRAP on 2 of 5 names:** RKT ran an Up-C to 2025-06-30 and **UWMC still does — Class A is only 21% of economic shares.** The UWMC package is **69% of the ECONOMIC cap but 325% of the Class A cap.** **Always use economic shares.**
+**✅ PFSI is a HARD confirmed negative on raises**, not "none found": its 1,094-filing index has **no S-3, no S-1, no 424B5/424B2, no FWP** — **with no shelf on file a cash equity raise was not mechanically possible.** It went the other way: **−33.9% shares outstanding, $1.84B repurchased.**
 
 **★ TWO SPEC DEFECTS NO THRESHOLD MOVE CAN FIX:**
 1. **Class F scope gap.** F reads *"≥20% dilution of existing COMMON."* **Onity raised ZERO registered common equity in 7.6 years** (no 424B at all; every issuance a §4(a)(2) private placement; both S-3s resale-only) **while diluting twice off the tape** — 12.0% warrants (2021, on $285M notes at a 12.3% OID; net-settled 2025 for 5.4% with Onity *paying* $3.5M) and a **$52.79M preferred = 22.6% of market cap with 0% common dilution** (non-convertible). **A common-only screen scores a serial diluter as CLEAN.**
@@ -77,7 +92,7 @@ PROME's list asked me to **draft** the servicer re-spec (row 45) and **re-key** 
 
 1. **HOM-01: one early-kill arm fired. The 8/31 FMHPI July print decides it.** Grade on **that release's own as-published figures for BOTH months** — NOT against the +2.06% on record. **Year-verify** (the trap has hit 3× on this series, both directions).
 2. **HOM-02: one early-kill arm fired (Q2). Q3 ~mid-Nov decides.** The composition tell is the finding, not the −9bps. **Standing rule: never read an FHA DQ decline as relief without checking FC inventory + the 90-day bucket in the SAME release.**
-3. **A–G thresholds NOT anchored — half the panel base-rated, and it found a CONJUNCTION problem plus two scope defects.** See above. **PROVISIONAL; no packet, no trade rail.**
+3. **A–G thresholds NOT anchored — full panel now base-rated; it found THREE scope/definition defects and an inert price marker (0-of-12).** ⚠️ **My mid-session "conjunction" framing was WRONG and is corrected above — Class E's marker is a DISJUNCTION.** **PROVISIONAL; no packet, no trade rail.**
 4. **FL composition mask corroborated, not closed** — ZHVI leg unconfirmed at primary.
 5. **CORAL's $10,000/unit critical-repair threshold NOT CONFIRMED** — scoped negative (not in Full Review `B4-2.2-02`); likely `B4-2.1-03 Ineligible Projects`, unchecked. Her 2.5×–40× arithmetic rests on it. **Whoever gets there first.**
 6. **Carried forward unchanged:** $160B+ MF maturity wall PROVISIONAL, re-source owed to CREED · Trepp July mat-adj UNGRADED (do not substitute) · "7.69% is a new high" is FALSE (Apr-26 7.71%) · TX $1.15B single-source on level · **GSE MF band re-spec still owed** (mod-suppressible metric) · Parcl/Reventure = cross-check flags only.
@@ -85,7 +100,7 @@ PROME's list asked me to **draft** the servicer re-spec (row 45) and **re-key** 
 
 ## NEXT SESSION
 
-1. ⛔ **FINISH THE BASE-RATING — PFSI / RKT / UWMC, the missing half.** Then, in this order: **(a) base-rate Class E's CONJUNCTION** (both gates jointly + conditionally — the LDI/Onity half found 0-of-6 clearing both, so the conjunction is the live question, not the levels); **(b) rule the two scope/definition defects** — Class F's common-only dilution screen and Class E's undated discount measurement; **(c) only then** re-anchor or explicitly re-affirm the four numbers. Apply the verified windows (RKT Aug-2020, UWMC Jan-2021, LDI Feb-2021) and **exclude Onity from the dividend denominator entirely.**
+1. ⛔ **BASE-RATING IS DONE — WHAT'S OWED NOW IS A WILL RULING ON THREE SPEC DEFECTS, IN THIS ORDER:** **(A)** Class E's **price marker is inert (0-of-12)** and failed on the motivating event → re-spec it around **warrant coverage as a share of ECONOMIC float** and/or **use-of-proceeds language**, or **drop it** and rely on markers (ii)+(iii) which did the whole job; **(B)** Class F's **common-only dilution screen** (misses Onity's preferred); **(C)** Class G's **"unscheduled" carve-out must require ADVANCE disclosure** (UWM's same-day bundle could exempt itself). **Only after (A)-(C)** re-anchor or explicitly re-affirm the four numbers — **with the dividend denominator set to 3 (PFSI/LDI/UWMC only)** and the verified windows. ★ **Also put to Will: adopt NON-FUNDING DEBT/EQUITY as a new leading class?** It led UWM's dividend by two quarters and is in no class today.
 2. **NAHB HMI August (~8/17)** — and re-check **ATTOM July monthly** in the same pass.
 3. **🔴 FMHPI July data ~8/31 — the HOM-01 decision point.** Issuer path: `freddiemac.com/research/indices/house-price-index` (curl+UA) for the vintage line, then `fmhpi_master_file.csv`.
 4. **Fannie/Freddie JULY monthlies ~8/25-28** — second datapoint on the mod-suppression test. **Highest-value recurring pull I own.**
