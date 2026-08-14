@@ -1,11 +1,12 @@
 # CRUISE — STATUS
 
-*Last updated: 2026-08-14 Fri (return from 6-week dark period — first spawn since 7/2; both live catalysts FIRED in absentia)*
+*Last updated: 2026-08-14 Fri (return from 6-week dark; both catalysts fired in absentia; NCLH Q2 8-K primary pulled and CONFIRMS the tape read)*
 
-> **⚠️ Dark-period disclosure:** CRUISE was dark 7/3 → 8/14 (42 days). During that window the two live trigger conditions from the 7/2 STATUS **both fired** and were not read:
+> **⚠️ Dark-period disclosure:** CRUISE was dark 7/3 → 8/14 (42 days). During that window the two live trigger conditions from the 7/2 STATUS **both fired**:
 > - **CRU-03 fuel re-arm:** Brent breached $85 on 7/17 and spiked $100.69 on 7/23; the "arm CCL" band ($85–90) has held with oscillation since. **CRU-03 → FAILED.**
-> - **NCLH Q2 catalyst (CRU-04):** tape signature 7/29-30 (−11.8% gap on 36.5M vol) consistent with a bearish Q2 print. **CRU-04 → PARTIALLY (8-K verification owed).**
-> Both are **Will-decision items** — flagged in packet `outbox/2026-08-14_to-WILL_dark-period-triggers-both-fired.md`.
+> - **NCLH Q2 catalyst (CRU-04):** tape signature 7/29-30 (−11.8% gap on 36.5M vol) → **8-K PRIMARY PULLED 8/14 (filing dated 7/30, acc 0001171843-26-005050): CONFIRMS the tape read.** Q2 itself BEAT its own guide (Adj EPS $0.48 vs $0.38; Adj EBITDA $666M vs $632M; Net Yield −2.6% CC vs −3.6% guide), but the FORWARD guide was CUT: **FY26 Adj EPS re-guided to ~$1.50 (from prior $1.45–$1.79 = essentially the low end after a Q2 beat), Q3 CC yield −8.9% (step-function worse than Q1 −1.0% / Q2 −2.6%), "below optimal for next 12 months," mgmt names Norwegian-brand execution + Middle East conflict.** **CRU-04 → CONFIRMED, CRU-06 → CONFIRMED same-day.**
+> - **Bonus primary read:** NCLH Q2 fuel/mt **$888 net of 52% hedges** (was $659 = +35% YoY). **CCL is unhedged per 7/2 STATUS** → the same primary points at CCL taking a bigger P&L hit than NCLH.
+> Both trades remain **Will-decision items** — original packet + follow-up 8-K read at `outbox/2026-08-14_to-WILL_dark-period-triggers-both-fired.md` + `outbox/2026-08-14_to-WILL_nclh-q2-8k-confirms.md`.
 
 ---
 
@@ -18,7 +19,9 @@
 | NCLH price | **$19.07** (−2.43% d) — weakest of Big 3; still below the 7/28 pre-earnings high | 🟠 | [CONF] FORGE fetch 8/14 |
 | **Brent (front-month)** | **$88.26** — inside the 7/2 arm-CCL band ($85–90); spike $100.69 on 7/23 | 🟠 | [CONF] FORGE 8/14; BRENT STATUS 8/13 |
 | Bunker fuel trigger | **CRU-03 FAILED — trigger BREACHED 7/17, sustained** | 🟠 | Ladder VX-CRU-02, Will-gate un-ruled |
-| NCLH Q2 tape signature | **−11.8% gap 7/29-30 on 36.5M vol = bearish-earnings pattern** | 🟠 | FORGE tape 8/14; 8-K primary owed |
+| NCLH Q2 tape signature | **−11.8% gap 7/29-30 on 36.5M vol = bearish-earnings pattern** | 🟠 | FORGE tape 8/14 |
+| **NCLH Q2 8-K primary** | **Q2 BEAT + FORWARD guide CUT (FY EPS to low end, Q3 CC yield -8.9%)** | 🔴 | SEC 8-K 7/30 acc 0001171843-26-005050 |
+| **NCLH Q2 fuel/mt (net of 52% hedges)** | **$888 (+35% YoY from $659) — RED-band on VX-CRU-02 scale** | 🔴 | SEC 8-K 7/30 Ex 99.1 |
 | RCL Q2 tape signature | **+9.9% gap 7/24-28 on 3-4M vol = bullish-earnings pattern** | 🟢 | FORGE tape 8/14; 8-K primary owed |
 | K-shape tape dispersion | **RCL+9.9% vs NCLH−11.8% in 5 sessions = 20+ pp** | 🟠 | Widened vs 7/2 "confirmed but muted" |
 | Gulf itineraries / war-risk | Winter 26-27 season stays cancelled; no re-hardening in 8/14 refresh | 🟠 | HAWK 8/10 forum; unchanged from 7/2 |
@@ -56,11 +59,17 @@ Either way, the *option* is cheaper today than the ladder assumed it would be at
 - **Fuel-convexity trigger fireable since ~7/17.** Will-decision. See packet + `TRADE.md` #2.
 - Q2 (6/23) still the reference: record rev/yields, deposits $9.0B, FY yields +3.2%. Watch item = does the fuel pass-through show up in a preannouncement or the Q3 (Sep) print.
 
-### Norwegian (NCLH) — De-rating catalyst FIRED IN TAPE
+### Norwegian (NCLH) — De-rating catalyst CONFIRMED AT PRIMARY
 - **$19.07** — weakest of Big 3, still below the 7/28 pre-earnings high ($21.22).
-- **Q2 FY26 tape signature: −11.8% gap 7/29-30 on 36.5M vol** — bearish print. **8-K primary VERIFICATION OWED.**
-- **CRU-04 (the deploy catalyst for TRADE #1 NCLH puts) has fired in tape.** Whether it fully confirms depends on 8-K. Downgrade path exists: if the gap was ex-dividend or one-off, thesis reverts.
-- The 7/2 correction stands (NOT solvency; covers interest ~2.3x EBIT). This is a de-rating/relative-weakness short.
+- **Q2 FY26 8-K (filed 7/30, acc 0001171843-26-005050) — PULLED 8/14, CONFIRMS the tape read.**
+  - **Q2 itself BEAT its own guide:** Adj EPS $0.48 (guide $0.38), Adj EBITDA $666M (guide $632M), Net Yield −2.6% CC (guide −3.6%), cost per Capacity Day 150bps better than guide.
+  - **FORWARD guide was CUT** — the real story: FY26 Adj EPS ~$1.50 (was $1.45–$1.79 range = essentially the low end after a Q2 beat = de-facto cut); FY26 CC yield ~−5%; **Q3 CC yield −8.9%** (step-function worse than Q1 −1.0% / Q2 −2.6%).
+  - **Booking commentary:** "remains below its optimal booked position for the next 12 months"; cites Norwegian-brand execution challenges + ongoing Middle East conflict.
+  - **Fuel:** Q2 fuel/mt $888 net of hedges (+35% YoY from $659), 52% hedged FY26.
+  - **Balance sheet:** Total debt $15.0B, Net Debt $14.8B, Net Leverage 5.3x (unchanged). Elected to cash-settle 2027 exchangeable notes (−4M diluted shares).
+  - **CEO quote:** "still in the early stages of our turnaround" — multi-quarter fix.
+- **CRU-04 CONFIRMED (upgrade from PARTIALLY on tape) — CRU-06 CONFIRMED same-day.** VX-CRU-05 upgraded 🟠 → 🔴.
+- The 7/2 solvency correction stands (~2.1x interest coverage at Q2 primary; de-rating, not cash bleed).
 
 ---
 
@@ -87,13 +96,13 @@ Either way, the *option* is cheaper today than the ladder assumed it would be at
 
 | # | Target/Vector | Score | Status | Key Signal | Upgrade Trigger |
 |---|--------------|-------|--------|------------|-----------------|
-| 1 | Consumer demand K-shape (VX-CRU-03) | 4 | 🔴 | STRENGTHENED in tape: RCL +9.9% gap vs NCLH −11.8% gap in 5 sessions | 8-K primaries confirm the tape; broader value-end guide-downs |
-| 2 | NCLH relative weakness (VX-CRU-05) | 4 | 🔴 | Q2 tape gap −11.8% on 36.5M vol; 8-K owed | 8-K confirms re-slash of guide → RED |
-| 3 | Bunker fuel — trigger BREACHED (VX-CRU-02) | 4 | 🟠→🔴 | Brent $88, sustained >$85 for ~4 weeks, spike $100.69 | Sustained >$90 AND Will-authorizes deploy → RED |
-| 4 | CCL stock stress (VX-CRU-01) | 2 | 🟡 | No tape stress despite fuel doubling; up-drift $27→$29 | CCL preannouncement OR Q3 guide-lower |
-| 5 | Gulf itinerary / war-risk insurance (VX-CRU-04) | 3 | 🟠 | Winter 26-27 season stays cancelled; no new re-hardening | HAWK D-tail widens OR new-route cancellations |
+| 1 | NCLH relative weakness (VX-CRU-05) | 4 | 🔴 | 8-K CONFIRMS de-rating: FY EPS re-guided to low end, Q3 CC yield -8.9% (step-function), mgmt "early stages of turnaround" | Guide re-slashed further OR leverage climbs from 5.3x → 5 |
+| 2 | Bunker fuel — trigger BREACHED, primary CONFIRMED (VX-CRU-02) | 4 | 🔴 | NCLH primary: fuel/mt $888 net of 52% hedges (+35% YoY); Brent $88.26 sustained | Brent >$95 sustained AND CCL preannouncement OR Q3 print with fuel drag | 
+| 3 | Consumer demand K-shape (VX-CRU-03) | 4 | 🔴 | NCLH 8-K names Norwegian-brand + Middle East as demand drags; RCL beat mirrors dispersion | RCL 8-K corroborates premium-beat; broader value-end guide-downs |
+| 4 | CCL stock stress (VX-CRU-01) | 2 | 🟡 | No tape stress despite fuel doubling; up-drift $27→$29 | CCL preannouncement OR Q3 guide-lower (Sep report) |
+| 5 | Gulf itinerary / war-risk insurance (VX-CRU-04) | 3 | 🟠 | Winter 26-27 season stays cancelled; NCLH mgmt cites conflict as demand drag → cross-vector | HAWK D-tail widens OR new-route cancellations |
 
-**Summary:** ~17/25 (was ~13/25 on 7/2). Domain elevated from "watch on demand-side bifurcation" to **two vectors at 🔴 (K-shape widened, NCLH tape-fired) + one at 🟠 mid-transition to 🔴 (fuel breached, Will-gated)**. First 🔴s since the 7/2 refresh.
+**Summary:** ~18/25 (was ~13/25 on 7/2). Domain elevated to **three vectors at 🔴 (K-shape, NCLH de-rating, fuel)**. NCLH and fuel both promoted 🟠→🔴 on the 8-K primary read.
 
 ---
 
@@ -108,8 +117,9 @@ Either way, the *option* is cheaper today than the ladder assumed it would be at
 
 ## Key Gaps / Next Steps
 
-- **NCLH Q2 FY26 8-K** — VERIFICATION OWED (tape says bearish, primary unread). This is the single load-bearing gap. If Will authorizes NCLH deploy, this must be pulled first.
-- **RCL Q2 FY26 8-K** — VERIFICATION OWED (tape says bullish; corroborates K-shape).
+- ✅ ~~**NCLH Q2 FY26 8-K**~~ — DONE 8/14. Confirms de-rating; VX-CRU-05 → 🔴; CRU-04/06 CONFIRMED.
+- **RCL Q2 FY26 8-K** — VERIFICATION OWED (tape says bullish; corroborates K-shape). Next-spawn priority.
+- **CCL Q3 preannouncement or preview** — the fuel-P&L question sits at CCL specifically (unhedged); needs a company voice, not just NCLH's proxy.
 - **Will ruling on the fuel-arm ladder** — the 7/2 ladder said "levels proposed, Will to set final." Now that levels have been in-band for 4 weeks, the ladder needs either ratified-and-fired or retired.
 - **Boot cadence gap** — CRUISE was dark 42 days while two catalysts fired. Flag PROME for calendar/heartbeat cadence.
 - **No cruise NETWORK_GROUP** in vocabularies — flagged to PROME on 7/2, still using CONSUMER + `sub:CRUISE` provisionally.
@@ -118,4 +128,4 @@ Either way, the *option* is cheaper today than the ladder assumed it would be at
 
 ## BOTTOM LINE
 
-CRUISE returned from a 42-day dark period to find **both live catalysts have fired**: the K-shape thesis has WIDENED in the tape (RCL +9.9% earnings gap vs NCLH −11.8% earnings gap — 20+ pp of dispersion in 5 sessions, 8-K verification owed), and the 7/2 fuel-arm ladder was tripped when Brent breached $85 on 7/17 and spiked $100.69 on 7/23, with the trigger band held for ~4 weeks. **Two Will-decision items are live and un-ruled**: (1) authorize the NCLH puts deploy (TRADE #1) now that its tape catalyst has fired, or wait for 8-K primary confirmation; (2) ratify or retire the fuel-arm ladder (TRADE #2 CCL puts), given the trigger has been fireable for weeks. One notable non-move: CCL has up-drifted despite Brent doubling, so the fuel-convexity option may still be cheaper than the ladder assumed. Flagged to Will in `outbox/2026-08-14_to-WILL_dark-period-triggers-both-fired.md`.
+CRUISE returned from a 42-day dark to find both live catalysts fired, and the NCLH Q2 8-K pulled 8/14 CONFIRMS the tape read cleanly: **Q2 itself was a beat, but the forward guide was cut** — FY26 Adj EPS re-guided to ~$1.50 (essentially the low end of the prior $1.45–$1.79 range = de-facto cut after a Q2 beat), Q3 CC yield **−8.9%** (step-function worse than Q1 −1.0% / Q2 −2.6%), and management explicitly names both Norwegian-brand execution and the Middle East conflict as demand drags with the company "still in the early stages of our turnaround." The de-rating short thesis (TRADE #1) is now primary-verified and VX-CRU-05 upgraded 🟠 → 🔴. **Bonus read from the same primary:** NCLH's fuel/mt hit **$888 even after 52% hedges** — CCL is unhedged per 7/2 STATUS, so the same primary points at CCL taking a bigger fuel P&L hit than NCLH, which reinforces TRADE #2 (CCL puts) even as CCL's own tape has yet to price it. **Both trades remain Will-decision items** — original packet + follow-up 8-K read in `outbox/`. Next-spawn priorities: RCL Q2 8-K (verify premium leg), CCL preannouncement watch.

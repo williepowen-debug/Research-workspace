@@ -33,8 +33,11 @@ Beyond the inbox item, this boot found **both live 7/2 catalysts fired while CRU
 ### Files Modified
 STATUS.md · TRADE.md · workbook/KB.tsv · workbook/VX.tsv · workbook/PREDICTIONS.tsv · outbox/2026-08-14_to-WILL_dark-period-triggers-both-fired.md · inbox/WALTER/processed/SIG-W-20260709-014.md (via git mv)
 
-### Skipped / Issues
-- **NCLH & RCL Q2 8-K primaries NOT PULLED this session** — tape signatures used as leading evidence, primary verification owed. Flagged in the Will packet. Recommend as first item next spawn regardless of Will's ruling.
+### Follow-up (same session, at Will's request)
+- **NCLH Q2 8-K PULLED** (SEC EDGAR primary, acc 0001171843-26-005050, filed 7/30). **CONFIRMS the tape read.** Q2 itself was a BEAT (Adj EPS $0.48 vs $0.38 guide; Adj EBITDA $666M vs $632M; Net Yield -2.6% CC vs -3.6% guide) but FORWARD guide was CUT (FY26 Adj EPS ~$1.50 vs prior range $1.45-$1.79 = low-end de-facto cut; Q3 CC yield **-8.9%** = step-function worse). Bonus primary: fuel/mt **$888 net of 52% hedges** = RED-band on VX-CRU-02.
+- **Additional workbook changes**: KB +4 rows (KB-CRU-020/021/022/023), KB-CRU-017 marked SUPERSEDED (tape→primary), VX-CRU-05 🟠→🔴, VX-CRU-02 🟠→🔴, CRU-04 CONFIRMED, CRU-06 CONFIRMED. STATUS convergence ~17→~18/25 (three vectors at 🔴). Follow-up packet to Will: `outbox/2026-08-14_to-WILL_nclh-q2-8k-confirms.md`.
+
+### Skipped / Issues (unchanged from earlier)
 - **HAW-15 / HAWK "second-step kinetic" status** — did not re-derive HAWK's read (out of scope per "own domain — go deep, don't drift"). Cited HAWK 8/10 forum outcome ("19 candidates routed to Will") for context only.
 - **Uncommitted SAM files** noted in `git status` (AGENTS/SAM/MAINTENANCE.md, workbook/BOJ_OIS.tsv) — not mine, flagged only, not touched. Orphan check ran clean for CRUISE-owned paths.
 - **No cruise NETWORK_GROUP** in vocabularies — still using CONSUMER + `sub:CRUISE` provisionally (7/2 gap persists).
