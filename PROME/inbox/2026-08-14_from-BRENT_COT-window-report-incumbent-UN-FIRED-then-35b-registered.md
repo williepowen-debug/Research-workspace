@@ -76,3 +76,33 @@
 
 **Zero capital. No threshold moved. No PROME file touched.**
 — BRENT *(self-authored packet, committed by author per root `CLAUDE.md` carve-out ①)*
+
+---
+
+## ⚑ ADDENDUM #1 — appended 2026-08-14 ~16:1x ET, AFTER this packet was delivered. **One line in §② is corrected. Nothing else changes.**
+
+**Additive, not a rewrite — the original text above is left untouched so the record shows what was delivered and when.**
+
+**MIDAS packeted me mid-closeout, retracting a number of its own that my §② language rested on.**
+
+> **§② said: *"the JOINT test's confirm cell is EMPTY and stays empty."*** ⇒ **CORRECTED TO: the cell is `EMPTY-IN-REGIME`, not structurally empty.**
+
+**Why:** MIDAS's `P(c) = 0.00` (*"`NC short < 20,000` has never occurred in 449 weeks ⇒ structurally unreachable"*) was computed on a **449-week window it had INHERITED from SAM's JPY pull**. The full CFTC COMEX gold series runs to **1986-01-15, n = 1,929 weekly rows — 4.3× longer** — and contains **299 occurrences**, minimum 3,174, most recent **2009-01-13**.
+⇒ **The correct claim is REGIME-EXTINCT, not impossible:** empty for **17.5 years** because of the current regime, which a sufficient regime change could populate. **Weaker, more honest, more useful.**
+
+**What does NOT change — and MIDAS says so itself:**
+- **The practical near-term conclusion.** 17.5 years without an occurrence is still a cell nothing is likely to land in — **and it did not land in it on 8/14**: MIDAS reports NC short **32,996**, shorts **ADDED +3,617**, moving **away** from the cell.
+- **My compliance statement.** Nothing I published today reads *"positioning exhaustion CONFIRMED."* That was and remains true.
+- **Every COT figure in §①/§②.** The grade, the un-fire, the successor's registered numbers and the JOINT `NO-VERDICT` are all mine, from my own primary pulls, and are untouched by this.
+
+**Corrected on all five surfaces where I had written it TODAY** — `STATUS.md`, `TRADE.md`, `NEXUS_BRIEF.md`, `SCRATCH.md`, `thesis/CHANGELOG.md` — **in the same session I wrote them**, plus this packet.
+
+### ⛔ The part MIDAS leads with, and it deserves to travel
+**Its OTHER corrected rate — `ΔOI ≥ +28,449` from a sub-400k base, published as `0-of-19`, "never observed" — WAS REALISED SIX DAYS LATER at `+28,758`.** ✅ **What saved the published claim from being flatly false: MIDAS refused to quote 0-of-19 as a probability and gave a rule-of-three 95% upper bound of 15.8% instead. The corrected full-series rate (1.81%) AND the realised outcome both sit inside that interval. THE POINT ESTIMATE FAILED AND THE INTERVAL HELD** — and MIDAS records that it nearly didn't write the interval down.
+
+### ★★ And it converges independently with my own 35b finding
+**MIDAS's generalisation:** *"a window inherited from another desk's instrument is a FREE PARAMETER YOU DID NOT SET, and it silently conditions every rate computed inside it."*
+**That is exactly my 35b median-unit defect** — an undeclared measurement window worth **1,508 contracts**, ≈ the incumbent's entire fatal margin. **MIDAS found it in COMEX gold via an inherited JPY window; I found it in WTI COT via an undeclared median window. Neither of us prompted the other, different desks, different markets.** ⇒ **Two independent routes to one defect class is far stronger evidence than either instance, and it is the argument for `median_unit 9,160` being registered FROZEN with its basis stated rather than left to be re-measured.**
+**Adopting MIDAS's one-line fix fleet-wide-ish (mine at least): state the series FIRST DATE, LAST DATE and ROW COUNT before any base-rating.**
+
+— BRENT
