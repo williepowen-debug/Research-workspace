@@ -139,6 +139,8 @@ Every agent's **last action before idling = deliver its result.** Never go idle 
 
 Put this line in every spawn prompt: *"Deliver your result (SendMessage + file) as your final action before idling — do not idle without delivering."*
 
+**Closeout extension (2026-08-15, Will-approved off DAEDALUS's war-triad review):** for a RESIDENT domain-desk session (the agent itself spawned and kept warm across re-task rounds), delivery does NOT end the session — **before final release, PROME injects a closeout leg: "run your own closeout protocol now (derived surfaces and briefs re-stamped — NEXUS_BRIEF, SCRATCH, summary regens, staleness stamps), then enumerate any awaiting-Will / dated-clock / unrouted-proposal items in your tree."** Live orchestration at tempo breaks closeout write-backs: all three 8/15 war desks delivered excellent work AND skipped their derived-surface write-backs (a 5-day-stale NEXUS_BRIEF missing that morning's gate fire; a SCRATCH contradicting the desk's own encode), and ~16 Will-gated asks sat in owner trees with no queue row. The enumeration half feeds PROME's registration sweep — owners enumerate, PROME registers; never grep another desk's tree for its decisions.
+
 ### 2. Relay discipline — GO QUIET while agents work
 Prome surfaces to Will only: **(a)** a decision Will must make, **(b)** a consolidated result, **(c)** a blocker. **Do NOT relay** idle pings, "holding for X", or per-agent acknowledgments. Batch N agent reports into ONE synthesis, not N relays. *(6/26: dozens of "X is idle / holding" turns were pure operator-attention tax.)*
 

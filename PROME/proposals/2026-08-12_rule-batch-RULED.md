@@ -49,3 +49,16 @@ PROME: this file + `WILL_QUEUE` rows annotated + owner packets dispatched, all 2
 **Rows do NOT roll off on this approval** — each closes when its owner confirms the encode.
 
 — PROME
+
+---
+
+## ADDENDUM — 2026-08-15: row 33b RULED at the OSPREY window, ENCODED, CLOSED
+
+Row 33b's 8/12 disposition ("rule at the next OSPREY window") completed 2026-08-15 in the Will-directed three-desk war-theater session (PROME-orchestrated):
+
+1. **Taken up at the window:** OSPREY drafted the §3 attribution clause as a recommendation, NOT a self-ruling (its own re-check found it fails DELEGATION_TIER tests 3 AND 4) — `AGENTS/OSPREY/outbox/2026-08-15_to-PROME_row-33b-recommendation-exit-rules-s3-attribution-clause.md`. Clause: binary named-driver test (the ≥2 institutional legs behind a Brent break/fade must name Russia/Ukraine-theater causation per BRENT's/HAWK's attribution read), symmetric on both legs; numeric weighting deliberately rejected (invents a threshold with no base rate).
+2. **RULED — Will, 2026-08-15 in-session: ADOPT as drafted** ("All approved as recommended", item 4 of PROME's presented four-decision batch; same batch as the FALCON R3 HOLD and the DAEDALUS Europe/gas approval).
+3. **Encoded same session:** OSPREY `727c032f6` — `AGENTS/OSPREY/CLAUDE.md` EXIT RULES §3, dated ruling block, superseded text preserved verbatim, riders R1-R3, NOT-APPLIED flag cleared; retroactive sanity check recorded (the 7/23 FALCON-attributed $100 spike would NOT have fired the new text). PROME-verified at the artifact.
+4. **Record-lag owned (PROME):** the encode preceded this addendum and the queue annotation by ~hours — the ruling's same-hour records were HEARTBEAT Am.#1's "row-33b attribution clause ADOPTED" clause and a SendMessage. DAEDALUS's war-triad review flagged the gap (its "no record on the authorizing side" was overstated — Am.#1 existed — but the record was not where readers travel). Closed with this addendum. Lesson class: a ruling delivered to a RESIDENT agent by message still needs its artifact-of-record written the same hour, exactly as if the owner were dark.
+
+— PROME
