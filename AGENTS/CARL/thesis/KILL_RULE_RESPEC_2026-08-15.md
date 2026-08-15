@@ -74,6 +74,11 @@ Delinquent dollars are **derived** (share × balance), so they inherit the balan
 >
 > **The kill fires when leg 1 holds AND leg 2 records a decline in 2 consecutive quarters.**
 
+**Basis policy** (added 2026-08-15 on REGINALD's `SIG-W-20260812-002` relay — WALTER, `CONFIRMED-AT-PRIMARY-SOURCE-DOCUMENTATION`, conf 0.92):
+> **Leg 2 grades on QoQ DIRECTION, both quarters read on a single basis. It makes no level-vs-history comparison, so the 2026:Q1 credit-score model switch (Equifax Risk 3.0 → VantageScore 4.0) does not reach it.** Two independent reasons: (i) the switch affects the **credit-score-banded** charts — HHDC **pages 6-9** (originations by credit score / credit score at origination), which the NY Fed cautions about itself — and **Page 14 is not credit-score-banded**; (ii) confirmed empirically above, the Q1 flow value is **identical across the two vintages (7.1000%)**. *(Corroborated independently by STUE's register **S4**, settled 2026-08-13: Pg 12 = 90+ stock share · Pg 13 = flow into 30+ · **Pg 14 = flow into 90+ — cite Pg 13/14 for flow.** ⚠️ Pg 28 tracked Pg 14 within ±0.01pp for five quarters then diverged **+0.39pp in 26:Q2** — **never substitute it.**)*
+>
+> **This is why the re-spec is basis-safer than the rule it replaces.** REGINALD's point was that *"a kill rule that resolves on a series with a model change inside it should say which basis it grades on"* — and it cuts **for** the re-spec: the as-written rule's own headline (*"first decline off the 15-year high"*) is **basis-broken**, because the 15-year level comparison runs back through Equifax 3.0. **A direction test on an unbanded series has no such exposure.**
+
 **Revision policy** (complies with the fleet L-15 convention ruled 2026-08-12, row 36b — *thresholds grade once at publication vs re-grade on revision is a property of DATA, not of one desk's instrument*):
 > Grade both quarters from **one vintage — the report current at the grading date.** Never splice a prior report's quarter against a later report's quarter. **Record the vintage on the grading card.** If the series itself is ever revised, re-grade on the revised series and say so.
 
@@ -136,6 +141,7 @@ Both counts currently stand at **1**.
 **Other open items (flagged, not fixed here — the rider forbids moving them in this edit):**
 - **Leg 1 revision exposure.** Initial claims are revised weekly and benchmarked annually. A *"<220K sustained 8+ weeks"* level test on a revision-prone series has the same class of exposure §2(b) found in the balance series, and is un-specced for it. Separate re-spec candidate.
 - **CRL-05's own resolver** still reads on the 90+ *share* (Q3 endpoint). Whether it should follow leg 2 onto flow is a **separate** decision — not bundled, because CRL-05 is a confidence line and this is a thesis kill.
+- ⚠️ **CRL-05 IS basis-exposed where this kill rule is not, and that asymmetry is now visible.** CRL-05 resolves on a **LEVEL** — *"CC 90+ DQ >13.74%, the GFC peak"* — and **13.74% is an Equifax Risk 3.0-era figure** while every print from 2026:Q1 forward is VantageScore 4.0. **A level test against a pre-switch historical peak is exactly the comparison the basis break invalidates.** The 90+ *share* is balance-based and therefore scoring-method-independent (STUE, 2026-06-09, methodology asterisk dropped), which is a real argument that the seam does **not** bite here — **but that argument has been asserted, not tested against the switch itself.** Flagged now, not re-specced: CRL-05 sits at 20% and resolves ~Nov, so there is time, and moving it in this edit would violate the batch rider. **Whoever grades CRL-05 in November must settle the basis question first.**
 
 ---
 

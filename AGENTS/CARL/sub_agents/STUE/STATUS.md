@@ -459,7 +459,7 @@ A grep found **six** different "score drop from student-loan delinquency" figure
 
 | Datum | Value | Source |
 |---|---|---|
-| FHA total DQ | **11.88%** — highest since Q2-2021, **+126bps YoY** | MBA NDS Q1-2026 |
+| FHA total DQ | **11.79%** (−9bps QoQ, **+122bps YoY**) — **SECOND-highest since Q2-2021; Q1-2026's 11.88% remains the peak.** ⛔ **NOT RELIEF — MIGRATION.** MBA NDS total DQ **excludes loans in foreclosure**, so a borrower moving delinquent→foreclosure leaves the numerator and the measure improves while nothing about their situation does. Same release: **FC inventory +3bps to 0.67%, 90-day +1bp to 1.43%** (MBA: *"more loans moved into later stages"*). Declines uniform across conventional/FHA/VA (−3/−9/−10bps) = seasonality, not FHA relief. ⚠️SECONDARY (mba.org 403s; HousingWire 8/13). **Standing rule: never read an FHA DQ decline as relief without checking FC inventory AND the 90-day bucket in the same release.** | MBA NDS **Q2-2026** (CARL hand-down 8/15, from HOMER 8/13; prior 11.88% Q1-2026) |
 | FHA serious DQ | **+212bps YoY**; foreclosure inventory highest since Q4-2018 | MBA NDS |
 | FHA-vs-conventional spread | **~900bps** | MBA NDS |
 | Student-debt concentration in FHA | **~30% of FHA borrowers carry student debt** — >10pp above non-FHA | DEWEY 7/24 |
