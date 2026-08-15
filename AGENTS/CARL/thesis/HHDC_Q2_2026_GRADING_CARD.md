@@ -196,3 +196,39 @@ Recorded now so none of it can be reached for *after* seeing the data — in eit
 **Source-text discrepancy flagged, not propagated:** the report's prose reads *"$85 billion (1.1%) uptick in the first quarter"* — inconsistent with its own data sheet (**$5.474T → $5.559T = +$85B = +1.6%, Q1→Q2**) and mislabeled as Q1 inside a Q2 report. Data sheet used.
 
 **Written through to:** `thesis/PREDICTIONS.tsv` (CRL-05, CRL-20) · `thesis/CHANGELOG.md` · `STATUS.md` · `workbook/KB.tsv` (KB-CARL-382) · this addendum. **Routed:** PROME · REGINALD · RED · STUE · HOMER · DOC.
+
+---
+
+## §8 ADDENDUM — 2026-08-15 (Sat): **GUARD #4 WAS GRADED WRONG. Q1 *WAS* REVISED.** The grade survives; one headline figure becomes vintage-dependent.
+
+**Appended under the freeze rule — the original §4 checklist verdict above stays visible and is NOT edited.**
+
+**What the card said:** *"④ Q1 unrevised ✓"*, supported in CHANGELOG by *"13.1→13.12% is precision; 4.8→4.76%, $18.784T, 59.16K foreclosures, 10.34% student 90+ all reconcile to the locked baseline."*
+
+**What is true:** the Q2 report carries its own footnote — ***"2026Q2 report includes a revision to 2026Q1 credit card balances outstanding"*** (`HHD_C_Report_2026Q2.xlsx`, Page 3 Data). Pulling the Q1 vintage directly (`HHD_C_Report_2026Q1.xlsx`, curl+UA, 2026-08-15):
+
+| 2026Q1 figure | Q1 report | Q2 report | Revised? |
+|---|---|---|---|
+| CC 90+ **share** | 13.1200% | 13.1200% | **no** |
+| CC **flow into 90+** | 7.1000% | 7.1000% | **no** |
+| CC **balance** | **$1.2520T** | **$1.2420T** | **YES — −$10B** |
+| Total debt | $18.7940T | $18.7840T | **YES — −$10B** |
+
+**⚠️ HOW THE GUARD FAILED — the mechanism, because it is reusable.** Every figure in the supporting list was read **out of the Q2 report** and checked against a baseline that had **itself been sourced from the Q2 report.** A revision check that reads only the new vintage is **circular by construction** — it cannot detect a revision, and it returns ✓ with full confidence. **Detecting a revision requires opening the OLD report.** Guard #4's text (*"If Q1 is revised, grade against the revised Q1, and say so"*) never specified where the revision check gets its comparison, and that omission is the whole defect.
+
+**CONSEQUENCE — bounded, and the grade stands:**
+- ✅ **CRL-05's cut is unaffected.** It resolves on the 90+ **share**, and the share was **not** revised — the −20bps delta is exact.
+- ✅ **The discriminator cell is unaffected.** Cell B rested on transitions, which were **not** revised.
+- ✅ **The substantive half of guard #4 was in fact honored** — both quarters were pulled from the Q2 xlsx, so the grade *was* run against the revised Q1. What failed is the **reporting** half (*"and say so"*), which was answered with its opposite.
+- ⚠️ **ONE HEADLINE FIGURE IS NOW VINTAGE-DEPENDENT AND MUST ALWAYS BE STATED WITH ITS BASIS.** The *"delinquent dollars ROSE $0.23B"* claim — the load-bearing sentence of the whole decomposition, the thing that let the card say *"the numerator did not improve"* — is derived (share × balance) and therefore inherits the balance revision:
+
+| Basis | Q1 → Q2 delinquent CC dollars | Reads as |
+|---|---|---|
+| **Same-vintage** (both quarters from the Q2 report) — **CORRECT, and what the card used** | $162.95B → $163.18B | **+$0.23B, ROSE** |
+| Cross-vintage (Q1 report's Q1 vs Q2 report's Q2) — naive | $164.26B → $163.18B | **−$1.08B, FELL** |
+
+**The sign reverses.** The card's figure is the correct one, but anyone recomputing it from the Q1 report gets the opposite answer and would read the decomposition as *supporting* the benign case. The balance-growth claim also halves cross-vintage (+$21.0B/+1.69% → +$11.0B/+0.88%). **From here: cite the $0.23B only with "same-vintage (Q2 report)" attached.**
+
+**Where this went:** it is the decisive evidence in `thesis/KILL_RULE_RESPEC_2026-08-15.md` §2(b) — a dollar-keyed kill leg would carry a $10B revision against a $0.23B signal (43×), which is why the re-spec keys leg 2 to the **flow** series (unrevised across this vintage pair) rather than to dollars. **The error and the fix are the same finding.**
+
+*Discovered 2026-08-15 while drafting the row-44 re-spec, by pulling the Q1 xlsx to check whether the transition series was revision-stable. Not discovered by any check that was running.*
