@@ -1,5 +1,9 @@
 # OSPREY THESIS — v0.1 (spinout-seed, 2026-07-12)
 
+> ⚠️ **STALENESS BANNER, added 2026-08-15 (closeout hygiene pass, DAEDALUS war-triad review flag) — this file is materially out of date and a v0.2 pass is still OWED, not done here.** The "decoupling read" below cites **"Brent has stayed ~$76-79"** — as of this session, Brent has run **$86-100+ since ~7/23** (per BRENT and CLAUDE.md EXIT RULES §3's own >$85 rail), so that specific sentence is FALSE as written and must not be cited as current. The three-channel framework and cross-agent links below remain the live model (STATUS.md is the current instance); only the **price anchor and the "decoupling" framing built on it** are known-stale. Do not silently patch — this banner exists so the next real pass fixes the whole "decoupling read" paragraph against current levels rather than a single number.
+
+
+
 **Status: v0.1 SPINOUT-SEED.** Built at OSPREY's creation from HAWK's existing STATUS/SUMMARY/outbox content only — not a fresh research pass. Owner firms this up at first live sessions. Unlike FALCON (which inherits a mature, versioned THESIS.md wholesale from HAWK — HAWK's thesis corpus was 100% Iran-theater), OSPREY has no equivalent inherited document: HAWK's Russia coverage lived as an "off-core" STATUS paragraph + the energy-strike ledger's analysis layer, not a standalone thesis file. This is that content promoted to a first thesis document, not new research.
 
 ---
