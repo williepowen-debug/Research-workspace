@@ -140,7 +140,7 @@ Maintain the three-channel dashboard in STATUS.md (see current instance there). 
 
 ## EXIT RULES (Falsification) — Russia-coded. **v1.0, firmed 2026-07-12 PM (round-2, PROME-directed; was thin-at-launch)** — owner refines further as live incidents test these.
 
-**Kill rail audited: 2026-08-10** — §1 channel-kills exercised and checked this session (none fire); **§2 `:153` thesis-kill REPAIRED under `DELEGATION_TIER` (dated ruling block below)**; **§3 cross-agent threshold remains WILL-GATED with its NOT-APPLIED flag standing** (missing attribution clause — see §3). *Stamp discipline per DAEDALUS 2026-08-07: this records an AUDIT, not a clean re-derivation — the rail still carries one known unrepaired defect and must not be read as certified healthy. Re-stamp as `re-derived` only once §3 is ruled.*
+**Kill rail re-derived: 2026-08-15** — §1 channel-kills checked 8/10 and again 8/15 (none fire; Channel-3 nearest its own clock at 16/21 days as of 8/15); **§2 `:153` thesis-kill REPAIRED under `DELEGATION_TIER`** (dated ruling block below); **§3 cross-agent threshold RULED 2026-08-15** (Will, in-session via PROME — attribution clause adopted, dated ruling block in §3). *Stamp upgraded from `audited` to `re-derived` per DAEDALUS's 2026-08-07 discipline — the rail's one previously-known unrepaired defect (§3's missing attribution clause) is now closed; both prior open items (§2, §3) carry dated ruling blocks in place.*
 
 *(OSPREY does NOT inherit `workbook/EXIT_PROTOCOL.md` — that file is 100% Iran-coded and went to FALCON per build spec §2b. This section is the Russia-coded falsification layer; `thesis/THESIS.md` §"What would change this thesis" defers here — single home, don't duplicate.)*
 
@@ -163,8 +163,17 @@ Each kill requires BOTH legs (a strike-pause alone is see-saw noise — MEMORY.m
 - **Model-falsification (kills the framework, not the theater):** if a genuine world-crude-supply event occurs (a Channel-2/3 Upgrade Trigger fires on confirmed physical disruption) and Brent does NOT reprice (no >$5 sustained move within 5 sessions, BRENT-verified), the channel model's core market-relevance premise is broken — escalate to Will + HAWK before continuing to use the model; do not patch silently.
 
 ### 3. Cross-Agent Thresholds
-- Brent sustains a break >$85 for 3+ sessions with ≥2 institutional legs (BRENT-owned call) → decoupling thesis broken, re-mark all three channels' Brent-relevance upward.
-- Brent fades and holds <pre-campaign baseline for 5+ sessions → de-escalation confirmed, channels can be marked toward dormant even without a formal ceasefire.
+
+**RULED 2026-08-15 (Will, in-session via PROME — rule-batch row 33b follow-through, on OSPREY's own routed recommendation):** *Does §3 require the institutional legs behind a Brent break/fade to name Russia/Ukraine-theater causation, or does it fire on the letter regardless of which war drove the move?*
+→ **ADOPTED as drafted: a binary named-driver test, added symmetrically to both legs.** §3 now reads:
+- Brent sustains a break >$85 for 3+ sessions with ≥2 institutional legs (BRENT-owned call) **AND at least one of those legs names Russia/Ukraine-theater causation as a primary driver (per BRENT's or HAWK's own attribution read) — not solely Gulf/Hormuz or another theater's driver** → decoupling thesis broken, re-mark all three channels' Brent-relevance upward. If the break's institutional legs are dominated by a different theater's driver, this leg does NOT fire for OSPREY's channels on that occasion; it may still separately fire under another theater's own exit-rule text.
+- Brent fades and holds <pre-campaign baseline for 5+ sessions **AND the fade's institutional legs are not dominated by a different theater's driver** → de-escalation confirmed, channels can be marked toward dormant even without a formal ceasefire.
+
+Riders: **R1** dated 2026-08-15. **R2** superseded text preserved verbatim below. **R3** no confidence/threshold/mark moved in this edit — zero capital, spec text only.
+
+SUPERSEDED 2026-08-15 (prior text, unconditional, no attribution clause):
+> "Brent sustains a break >$85 for 3+ sessions with ≥2 institutional legs (BRENT-owned call) → decoupling thesis broken, re-mark all three channels' Brent-relevance upward.
+> Brent fades and holds <pre-campaign baseline for 5+ sessions → de-escalation confirmed, channels can be marked toward dormant even without a formal ceasefire."
 
 ### 4. Prediction-Retirement (what closes/retires each live OSP row)
 Resolution conditions are pre-registered in each row's Invalidation column — canonical text lives in `thesis/PREDICTIONS.tsv`; on any wording conflict, the TSV wins (wording-identity discipline, PREDICTIONS preamble). This section adds the retire/void paths:
