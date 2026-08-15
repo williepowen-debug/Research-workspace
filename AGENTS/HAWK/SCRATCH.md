@@ -31,7 +31,7 @@
 **A · DO FIRST**
 1. **~9/9 — September STEO.** Grade the N6 decay/extension branches on the 2027-Q2 recovery figure (bar: 2.38 OPEC / 2.35 ME).
 2. **~8/17 — CPC/non-Russian-tanker rung.** Sheskharis re-strikes (8/11-12, 8/14) do NOT count — CPC itself not reported hit either time. Confirm OSPREY ran the direct CPC-status check WALTER flagged, not just absence-of-report.
-3. **`HAW-18` successor row — still owed**, now two sessions deliberately unwritten under time pressure. Theater-agnostic, class-explicit, molecule-explicit, DELETE (not repair) the vessel-sinking leg.
+3. **`HAW-18` successor row — still owed**, now two sessions deliberately unwritten under time pressure, and **now checkpoint-gating** (Will ruling 8/15 — see STATUS §1 `~8/24` sunset condition). Theater-agnostic, class-explicit, molecule-explicit, DELETE (not repair) the vessel-sinking leg. **A successor falsification surface is also owed** — the checkpoint needs both, not just the row.
 4. **~8/24 MRPL clause adoption test** — currently 1, explicit negative 7/27, now 18+ days unchecked. The most under-maintained thing I own.
 
 **B · AWAITING WILL**
@@ -46,7 +46,7 @@
 
 ## OPEN THREADS / WATCHES
 
-- 🔴 **HAW-18 successor** — owed two sessions running.
+- 🔴 **HAW-18 successor** — owed two sessions running. **Now checkpoint-gating:** Will ruled 8/15 that the `~8/24` sunset checkpoint cannot close STOOD-DOWN without ≥1 dated, gradeable prediction row + a successor falsification surface on this book (STATUS §1). This is the deadline that makes it more than a hygiene item.
 - 🟠 **Marsh primary unfetched**, 25 days.
 - 🟠 **"Kharg blockade lane" naming discrepancy** — flagged to Will/BRENT/PROME, unresolved.
 - 🟡 **Shadow-fleet enforcement lane still unbuilt.**

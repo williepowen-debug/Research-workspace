@@ -18,6 +18,7 @@
 | **Blockade lane (routed by BRENT 8/13)** | **✅ WORKED + RECONCILED PM.** TRANSIT layer: REROUTING. LOADING layer: **INDETERMINATE** — FALCON's leg-3 fired PM, rules out reroute as the cause. See §5b ADDENDUM, `KB-HAWK-261`/`-265` | HAWK |
 | **Cross-war coupling — CPC survives loudest test** | **✅ ADDED PM.** Sheskharis re-struck 8/12 (capability step-change) + halted 8/14; CPC untouched both times. Reinforces `KB-HAWK-252`. See §3, `KB-HAWK-266` | HAWK |
 | **Marsh primary unfetched** | The Gulf premium *and* my capacity arithmetic are one named individual, 403 at both mirrors. **Still unfetched, 25 days on** | FALCON volunteered |
+| 🆕 **`~8/24` sunset checkpoint — CONDITIONED, not free-standing** | **Will ruling (relayed via PROME 8/15, from DAEDALUS's war-triad review): closing the ~8/24 checkpoint STOOD-DOWN may NOT happen on cadence alone.** The 2026-08-03 DAEDALUS ruling re-armed HAWK's L4→L3 maturity downgrade gate on a 21-day Falsification-Sweep cycle (next due ~8/24) rather than a calendar date — but a desk with **0 open predictions** (true since `HAW-18` closed 8/4) is ungradeable, and that state cannot outlive the checkpoint. **Closing STOOD-DOWN is now conditioned on: (a) a successor falsification surface, (b) at least one dated, gradeable prediction row on this book.** The 8/10 freeze itself is blessed — this is a forward gate, not a retroactive fault. Neither condition is built yet; **building them is next-session work**, not tonight's | HAWK — successor row + falsification surface, next session |
 
 ---
 
@@ -31,7 +32,7 @@
 
 **Graded 8/4 not 7/26 deliberately** — deleting an inconvenient bracket to move a date is the same retro-fit as reading in a cargo filter to avoid a resolution. **THESIS UNTOUCHED: zero crude barrels physically lost in either theater**; Aramco "no material operational or financial impact" twice in 15 days. **A HAW-18 FAILED is not evidence of a crude supply loss.** → `KB-HAWK-250/251`.
 
-**Scoreboard: 5 CONFIRMED / 9 FAILED / 1 PARTIALLY / 1 VOIDED / 2 REHOMED / 0 OPEN.** No HAWK prediction is currently open; the successor is owed and deliberately unwritten under time pressure.
+**Scoreboard: 5 CONFIRMED / 9 FAILED / 1 PARTIALLY / 1 VOIDED / 2 REHOMED / 0 OPEN.** No HAWK prediction is currently open; the successor is owed and deliberately unwritten under time pressure. ⚠️ **This 0-OPEN state is now load-bearing beyond calibration optics: it is the exact condition the `~8/24` sunset checkpoint (§1) is gated on** — the checkpoint cannot close STOOD-DOWN with this line unchanged.
 
 ---
 
