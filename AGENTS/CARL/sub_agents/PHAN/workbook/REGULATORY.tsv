@@ -1,3 +1,14 @@
+# TWO-CLOCK HEADER (PAT-044) — added 2026-08-15 by CARL. This ledger is APPEND-ON-EVENT, not periodic-refresh.
+# Last real data refresh: 2026-07-10
+# Last hygiene/no-event check: 2026-08-15
+# ⚠️ READ THE GAP CORRECTLY: a stale DATA clock on an event log is AMBIGUOUS - it is consistent with "no qualifying events occurred"
+#    AND with "nobody looked". Only the hygiene clock distinguishes them, which is why both exist.
+#    ledger_staleness.py flagged this file at +36d behind STATUS on 2026-08-15; that flag had NO OWNER, because
+#    PHAN is DOSSIER-MODE (no standing refresh) while these two ledgers were designated "stay live-append" on 7/10.
+#    A live-append ledger owned by an agent with no boot cadence rots BY CONSTRUCTION - that is the defect, not the row count.
+# ⛔ NOT FROZEN, deliberately: the channels are genuinely live and PHAN has a spawn trigger imminent (Affirm FQ4, 8/20).
+#    OWED AT THAT SPAWN: sweep for qualifying events since 2026-07-10, then advance the DATA clock if events were added
+#    or record an explicit DID_NOT_APPEAR null if none. Advancing ONLY the hygiene clock must never launder freshness.
 Date	Entity	Target	Action	Description	Impact	Status	PHAN_Implication	Source
 2024-10-22	CFPB	Open Banking	RULE	CFPB finalized Rule 1033 — personal financial data rights. Largest banks comply Apr 1 2026. BNPL providers covered as card issuers.	Would force data sharing, making phantom debt visible to lenders and bureaus	ON_HOLD	Visibility shock DELAYED. Phantom debt stays invisible longer. Bubble grows.	CFPB / Federal Register [STALE 2026-07-10 — verify at next spawn: rule status superseded by WITHDRAWAL row (2026-04-01); ON_HOLD no longer current]
 2025-04-30	NY_AG	DailyPay / MoneyLion	LAWSUIT	NY AG James sued DailyPay and MoneyLion for allegedly pushing illegal payday loans. One worker: 450 payouts in <2 yrs, $1,400 fees. Effective APR >750%.	Regulatory pressure on cash advance apps. May force fee transparency.	ACTIVE	EWA industry facing existential regulatory challenge. If classified as loans, entire model changes.	NY AG press release

@@ -6,116 +6,116 @@ Signal_ID	Date	Domain	Precedence	Disposition	KB_Refs	Date_Logged	Notes	Post_Hoc_
 #   INFO_ONLY — noted, limited KB action, cached for recall
 #   REFERRED — other agent's primary domain, no CARL action
 # Post_Hoc_Conf — CARL's confidence (0.0-1.0) after own due-diligence pass, populated only when it differs from WALTER's dispatched verify-research verdict. Empty = CARL agrees with dispatched verdict OR no separate verification performed. Added 2026-05-05 PM per CARL↔WALTER LIAISON Turn 3 (Q7 calibration loop).
-SIG-W-20260410-001	2026-04-10	MACRO_INFLATION	IMMEDIATE	CARL_ORIGIN		2026-04-19	CPI 3.3% YoY + UMich 47.6 stagflation lock — CARL dispatched; content in prior KB
-SIG-W-20260411-001	2026-04-11	Adversarial meta	IMMEDIATE	REFERRED		2026-04-19	RED pre-registered falsification rule pierced; RED/HENRY scope
-SIG-W-20260411-002	2026-04-11	Coordination	PRIORITY	REFERRED		2026-04-19	FORGE/STATUS.md stale; PROME coordination, not CARL
-SIG-W-20260414-001	2026-04-14	CONSUMER_CREDIT	PRIORITY	CARL_ORIGIN		2026-04-19	Sen. Lummis Meals-on-Wheels admission; CARL dispatched
-SIG-W-20260414-002	2026-04-14	PRIVATE_CREDIT	IMMEDIATE	REFERRED		2026-04-19	TCW Red Lobster 98% writedown; LIQUID/REGINALD
-SIG-W-20260414-003	2026-04-14	MARKET_VOL	PRIORITY	REFERRED		2026-04-19	SEC PDT elimination; HENRY
-SIG-W-20260414-004	2026-04-14	FUNDING_LIQUIDITY	IMMEDIATE	REFERRED		2026-04-19	IMF GFSR liquidity dysfunction; LIQUID
-SIG-W-20260414-005	2026-04-14	BANK_CRE	PRIORITY	REFERRED		2026-04-19	ROAD to Housing Act / Freddie K-098; REGINALD
-SIG-W-20260414-006	2026-04-14	MARKET_VOL	IMMEDIATE	REFERRED		2026-04-19	GS Prime HF short cover whipsaw; HENRY
-SIG-W-20260414-007	2026-04-14	MACRO_INFLATION	IMMEDIATE	CARL_ORIGIN		2026-04-19	Mar PPI goods/energy shock; CARL dispatched
-SIG-W-20260414-008	2026-04-14	MARKET_VOL	PRIORITY	REFERRED		2026-04-19	DB Financials positioning gap; HENRY
-SIG-W-20260414-009	2026-04-14	OIL_ENERGY	PRIORITY	REFERRED		2026-04-19	Baker Hughes rig count flat; BRENT
-SIG-W-20260414-010	2026-04-14	ASIA_CONTAGION	PRIORITY	INFO_ONLY	KB-CARL-238	2026-04-19	FT China Shock 2.0 — attenuated US channel, ZHAO primary
-SIG-W-20260414-011	2026-04-14	ASIA_CONTAGION	PRIORITY	REFERRED		2026-04-19	FT China export controls tripled; ZHAO/REGINALD primary
-SIG-W-20260414-012	2026-04-15	BANK_CRE	PRIORITY	INFO_ONLY	KB-CARL-239	2026-04-19	KRE vs XLF counter-framing; REGINALD primary, CARL info-only
-SIG-W-20260416-001	2026-04-16	OIL_ENERGY	PRIORITY	REFERRED		2026-04-19	Kpler oil inventory destocking; BRENT
-SIG-W-20260416-002	2026-04-16	OIL_ENERGY	IMMEDIATE	REFERRED		2026-04-19	Viva Corio/Geelong refinery fire; BRENT
-SIG-W-20260416-003	2026-04-16	MARKET_VOL	PRIORITY	REFERRED		2026-04-19	NDX RSI / SPX breadth; HENRY
-SIG-W-20260419-001	2026-04-19	AUTO_FRAUD/BANK_CRE	PRIORITY	REFERRED		2026-04-19	Tricolor MTB ABS 2nd channel; REGINALD primary
-SIG-W-20260419-002	2026-04-19	MARKET_VOL	PRIORITY	REFERRED		2026-04-19	VIOLET VIX-family refresh; HENRY
-SIG-W-20260419-003	2026-04-19	MARKET_VOL	IMMEDIATE	REFERRED		2026-04-19	VIOLET posture 🟡→🟠; HENRY
-SIG-W-20260419-004	2026-04-19	MARKET_VOL	PRIORITY	REFERRED		2026-04-19	Wyckoff Distribution / NDX parabolic; HENRY
-SIG-W-20260419-005	2026-04-19	MARKET_VOL	PRIORITY	REFERRED		2026-04-19	Buffett Indicator 232.6% ATH; HENRY
-SIG-W-20260419-006	2026-04-19	OIL_ENERGY	IMMEDIATE	INFO_ONLY	KB-CARL-235	2026-04-19	Trump WH Sit Room + Bessent; Iran day-cluster context (channel)
-SIG-W-20260419-007	2026-04-19	MARKET_VOL	PRIORITY	REFERRED		2026-04-19	Altrichter VIX-family panel / OVX divergence; HENRY
-SIG-W-20260419-008	2026-04-19	MARKET_VOL	PRIORITY	REFERRED		2026-04-19	DDS 13-day SPX rally extremity; HENRY
-SIG-W-20260419-009	2026-04-19	MARKET_VOL	PRIORITY	REFERRED		2026-04-19	Zaccardi Finviz heatmap interior drawdowns; HENRY
-SIG-W-20260419-010	2026-04-19	OIL_ENERGY	PRIORITY	INFO_ONLY	KB-CARL-235	2026-04-19	Hormuz civilian traffic — superseded by SIG-014 re-closure; Iran cluster context
-SIG-W-20260419-011	2026-04-19	MARKET_VOL	PRIORITY	REFERRED		2026-04-19	Detrick SPX above-20d breadth counter; HENRY/RED
-SIG-W-20260419-012	2026-04-19	MARKET_VOL	PRIORITY	REFERRED		2026-04-19	Sethi 15% realized vol counter; HENRY/RED
-SIG-W-20260419-013	2026-04-19	MARKET_VOL	PRIORITY	REFERRED		2026-04-19	BRK.A vs SPY post-Buffett retirement; HENRY
-SIG-W-20260419-014	2026-04-19	OIL_ENERGY	IMMEDIATE	INFO_ONLY	KB-CARL-235	2026-04-19	Iran SoH re-closure Apr 18 verified; Iran cluster channel
-SIG-W-20260419-015	2026-04-19	BANK_CRE/CONSUMER_CREDIT	PRIORITY	INTEGRATED	KB-CARL-232	2026-04-19	NFIB CapEx GFC-low + Sub-V +67% — captured in KB-232 NFIB Mar deterioration entry
-SIG-W-20260419-016	2026-04-19	FUNDING_LIQUIDITY/VOL	PRIORITY	INFO_ONLY	KB-CARL-237	2026-04-19	BofA largest MMF outflow; institutional-not-retail positioning note
-SIG-W-20260419-017	2026-04-19	MARKET_VOL	PRIORITY	REFERRED		2026-04-19	Bilello VIX/SPX extremity counter; HENRY/RED
-SIG-W-20260419-018	2026-04-19	MARKET_VOL/FUNDING	PRIORITY	REFERRED		2026-04-19	Triple short-squeeze $93B cover; HENRY
-SIG-W-20260419-019	2026-04-19	FUNDING_LIQUIDITY/VOL	PRIORITY	INFO_ONLY	KB-CARL-237	2026-04-19	LTM fund flows — positioning institutional, not retail equity
-SIG-W-20260419-020	2026-04-19	CONSUMER_CREDIT/BANK_CRE	PRIORITY	INTEGRATED	CRL-06	2026-04-19	ATTOM Q1 +26% YoY foreclosure; already in CRL-06 Apr 17 update, SIG confirms
-SIG-W-20260419-021	2026-04-19	OIL_ENERGY	PRIORITY	INTEGRATED	KB-CARL-236	2026-04-19	MS/Piper Sandler oil-shock 1990-vs-2026 — logged RED team + 3-pt K-shape rebuttal
-SIG-W-20260419-022	2026-04-19	OIL_ENERGY/posture	PRIORITY	INFO_ONLY	KB-CARL-235	2026-04-19	EAM/HFGCS/E-6B overlap; Iran cluster channel
-SIG-W-20260419-023	2026-04-19	MARKET_VOL	PRIORITY	REFERRED		2026-04-19	Barchart CPC 0.66 most bullish since 2021; HENRY
-SIG-W-20260419-024	2026-04-19	OIL_ENERGY/Iran	IMMEDIATE	INFO_ONLY	KB-CARL-235	2026-04-19	US carrier buildup + Iran rejects talks; Iran cluster channels 4+5
-SIG-W-20260419-025	2026-04-19	MARKET_VOL	PRIORITY	REFERRED		2026-04-19	GS L/S macro shorts elevated; HENRY
-SIG-W-20260419-026	2026-04-19	OIL_ENERGY/Iran kinetic	IMMEDIATE	INFO_ONLY	KB-CARL-235	2026-04-19	Navy destroyer intercepts Iranian vessel; Iran cluster channel
-SIG-W-20260419-027	2026-04-19	OIL_ENERGY/policy	PRIORITY	INFO_ONLY		2026-04-19	Energy Sec gas >$3 — tautological at current $4.06; no KB action warranted
-SIG-W-20260419-028	2026-04-19	OIL_ENERGY/SoH	IMMEDIATE	INFO_ONLY	KB-CARL-235	2026-04-19	OSINTdefender MarineTraffic Iran attacks/turnarounds; Iran cluster channel
-SIG-W-20260419-029	2026-04-19	OIL_ENERGY/state	IMMEDIATE	INTEGRATED	KB-CARL-235	2026-04-19	Netherlands LCP-O Phase 1 Apr 20; STATUS WAR row + Iran day-cluster
-SIG-W-20260419-030	2026-04-19	MARKET_VOL/OIL	IMMEDIATE	INTEGRATED	KB-CARL-234	2026-04-19	Qatar LNG ~20% global offline since Mar 2; STATUS Macro/Energy row, CRL-08 bump input
-SIG-W-20260420-001	2026-04-20	OIL_ENERGY	IMMEDIATE	REFERRED		2026-04-29	Tuapse Black Sea refinery 2nd strike; BRENT primary
-SIG-W-20260420-002	2026-04-20	OIL_ENERGY	PRIORITY	REFERRED		2026-04-29	Pachpadra Rajasthan refinery fire; BRENT primary
-SIG-W-20260420-003	2026-04-20	OIL_ENERGY	PRIORITY	REFERRED		2026-04-29	Non-ME hydrocarbon 11-event aggregation; BRENT primary
-SIG-W-20260420-004	2026-04-20	PRIVATE_CREDIT	PRIORITY	REFERRED		2026-04-29	Blue Owl founders unwind $1.1B share-pledged loans; LIQUID/REGINALD
-SIG-W-20260420-005	2026-04-20	HOUSING/INSURANCE	PRIORITY	INFO_ONLY		2026-04-29	NV HOA dysfunction insurance/CRE chain; CARL info, FL Triple Squeeze pattern crossover
-SIG-W-20260420-006	2026-04-20	HOUSING_DEMAND	PRIORITY	REFERRED		2026-04-29	Spring purchase lock surge ARM share stretch; HOMER primary
-SIG-W-20260420-007	2026-04-20	HOUSING_POLICY	PRIORITY	REFERRED		2026-04-29	FHLB roadmap Trump mortgage credit EO; HOMER primary
-SIG-W-20260420-008	2026-04-20	BANK_CRE	PRIORITY	REFERRED		2026-04-29	$5B distressed office sales price-discovery reset; REGINALD primary
-SIG-W-20260420-009	2026-04-20	MACRO_RISK	PRIORITY	INFO_ONLY		2026-04-29	Fitch Q2 Iran-war + AI-software twin-risk; cross-cluster framing
-SIG-W-20260420-010	2026-04-20	MARKET_VOL	PRIORITY	REFERRED		2026-04-29	DB call/put extremity indeterminate; HENRY primary
-SIG-W-20260424-001	2026-04-24	LABOR/CONSUMER_CREDIT	PRIORITY	INTEGRATED	KB-CARL-249	2026-04-29	FL labor weakness BLS above US (4.6% vs 4.4%, -36.7K YoY) — STATE DIFFUSION update, FL Triple Squeeze Vector #7 reinforced
-SIG-W-20260424-002	2026-04-24	OIL_ENERGY	IMMEDIATE	REFERRED		2026-04-29	OFAC Hengli/Dalian teapot Iran-oil sanction; BRENT primary
-SIG-W-20260424-003	2026-04-24	OIL_ENERGY/IRAN	IMMEDIATE	INFO_ONLY	KB-CARL-242	2026-04-29	Iran diplomacy cascade Apr 24 (Araghchi Islamabad); folded into KB-242 cluster resolution
-SIG-W-20260424-004	2026-04-24	MARKET_VOL	PRIORITY	REFERRED		2026-04-29	Kobeissi asset mgrs $97B Nasdaq futures; HENRY primary
-SIG-W-20260424-005	2026-04-24	BANK_CRE	PRIORITY	REFERRED		2026-04-29	US office vacancy Q1 20.2% MSA breakdown; REGINALD primary
-SIG-W-20260424-006	2026-04-24	FUNDING_LIQUIDITY	IMMEDIATE	REFERRED		2026-04-29	Man Group $6B single-client withdrawal long-only; LIQUID primary
-SIG-W-20260424-007	2026-04-24	CONSUMER_CREDIT	PRIORITY	INFO_ONLY		2026-04-29	NY Fed CC 90+ DQ chart 12.7% Q4 2025 — already in STATUS at 12.70%; Schwab chart formalizes "92% of 2009-peak" framing, no new data
-SIG-W-20260424-008	2026-04-24	OIL_ENERGY	PRIORITY	REFERRED		2026-04-29	Corpus Christi water emergency petrochem-Sep curtailment risk; BRENT primary
-SIG-W-20260424-009	2026-04-24	GEOPOL	IMMEDIATE	REFERRED		2026-04-29	Ukraine mass drone-missile strike Crimea + W Russia; HAWK/WAR primary
-SIG-W-20260424-010	2026-04-24	GEOPOL/OIL	IMMEDIATE	INFO_ONLY	KB-CARL-242	2026-04-29	USAF ME airlift surge 3-carrier posture; KB-242 cluster channel
-SIG-W-20260424-011	2026-04-24	OIL_ENERGY/CONSUMER	PRIORITY	INFO_ONLY		2026-04-29	LV airline 60K seats cut + Delta RDU-LAS suspension on jet-fuel; consumer discretionary transmission, BRENT primary
-SIG-W-20260424-012	2026-04-24	FUNDING_LIQUIDITY	PRIORITY	REFERRED		2026-04-29	SoftBank $10B margin loan OpenAI shares; LIQUID primary
-SIG-W-20260424-013	2026-04-24	OIL_ENERGY	IMMEDIATE	REFERRED		2026-04-29	Gujarat Jhagadia GIDC chemical explosion fire; BRENT primary
-SIG-W-20260426-001	2026-04-26	FUNDING_LIQUIDITY/MACRO	PRIORITY	INFO_ONLY		2026-04-29	Fed operating framework shift demand-driven (Beckworth); CARL info recipient, macro liquidity regime → 2nd-order CC pressure layer per dispatch_note
-SIG-W-20260426-002	2026-04-26	HOUSING/CONSUMER	PRIORITY	INTEGRATED	KB-CARL-250	2026-04-29	Residential housing prices weakening (Zillow 35.5% top-200 metros falling YoY post-pandemic high + Realtor.com -2.3% SQFT 13-wk streak)
-SIG-W-20260426-003	2026-04-26	OIL_ENERGY	IMMEDIATE	REFERRED		2026-04-29	Louisiana St. Helena pipeline explosion Pine Grove; BRENT primary
-SIG-W-20260426-004	2026-04-26	OIL_ENERGY/CONSUMER	PRIORITY	INFO_ONLY		2026-04-29	AAL $4B fuel cost 2026 jet-fuel transmission; pairs with -011 (LV cuts), BRENT primary
-SIG-W-20260426-005	2026-04-26	CONSUMER_CREDIT/AG	PRIORITY	INTEGRATED	KB-CARL-251	2026-04-29	US farm bankruptcies Ch12 +46% YoY 2025 (315 vs 216); ag-credit stress = leading-edge consumer-credit-adjacent
-SIG-W-20260426-006	2026-04-26	OIL_ENERGY/LABOR	ROUTINE	INFO_ONLY		2026-04-29	Goldman oil-shock 10K jobs/mo Mar 26 framework re-surfaced; sensitivity-not-realized, BRENT primary
-SIG-W-20260426-007	2026-04-26	GEOPOL/IRAN	IMMEDIATE	INFO_ONLY	KB-CARL-242	2026-04-29	USS Pinckney shadow-fleet intercept Arabian Sea; folded into KB-242 cluster
-SIG-W-20260426-008	2026-04-26	MACRO_INFLATION	PRIORITY	INTEGRATED	KB-CARL-241	2026-04-29	UMich April Final 49.8 + 1Y inflation 4.7% / 5-10Y 3.5% un-anchoring deeper; STATUS dashboard updated
-SIG-W-20260426-009	2026-04-26	BANK_CRE	PRIORITY	REFERRED		2026-04-29	Baltimore CRE $1B value erased / 29% properties (MTB footprint); REGINALD primary
-SIG-W-20260426-010	2026-04-26	FUNDING_LIQUIDITY	PRIORITY	REFERRED		2026-04-29	Foreign private investors > foreign CB UST holdings (Apollo); LIQUID primary
-SIG-W-20260426-011	2026-04-26	GEOPOL/IRAN	IMMEDIATE	INFO_ONLY	KB-CARL-242	2026-04-29	UKMTO 045-26 tanker hijack Mareeyo Somalia; folded into KB-242 cluster
-SIG-W-20260426-012	2026-04-26	BANK_RISK	PRIORITY	REFERRED		2026-04-29	Fed seeks bank private credit exposure (Bloomberg Apr 11); REGINALD/LIQUID
-SIG-W-20260426-013	2026-04-26	GEOPOL/IRAN	IMMEDIATE	INFO_ONLY	KB-CARL-242	2026-04-29	Iran delegation Pakistan departure / Trump cancel channel disrupted; folded into KB-242 cluster
-SIG-W-20260426-014	2026-04-26	HOUSING_MF	PRIORITY	REFERRED		2026-04-29	Phoenix/Denver MF rents stress (Yardi/Trepp corrected-framing); HOMER primary
-SIG-W-20260426-015	2026-04-26	GEOPOL/IRAN	IMMEDIATE	REFERRED		2026-04-29	NBC Iran prior strikes US bases damage worse than acknowledged; HAWK/WAR primary
-SIG-W-20260428-001	2026-04-28	ASIA_CONTAGION	PRIORITY	REFERRED		2026-04-29	China FRED/BIS real residential property prices below 2005 baseline; ZHAO primary
-SIG-W-20260428-002	2026-04-28	MARKET_VOL	PRIORITY	REFERRED		2026-04-29	OpenAI CFO Friar revenue/user target miss + data-center spending (WSJ); HENRY primary
-SIG-W-20260428-003	2026-04-28	BANK_CRE	PRIORITY	REFERRED		2026-04-29	Louisville KY Home Life Building $15M-to-$4.67M credit-bid CRE; REGINALD primary
-SIG-W-20260428-004	2026-04-28	HOUSING_BTR	PRIORITY	REFERRED		2026-04-29	Phoenix BTR ROAD Act regulatory financing freeze (Hancock); HOMER primary
-SIG-W-20260428-005	2026-04-28	PRIVATE_CREDIT	PRIORITY	REFERRED		2026-04-29	Blue Owl investors shun cut-price exit (Boaz Weinstein FT); LIQUID/REGINALD
-SIG-W-20260428-006	2026-04-28	GEOPOL/IRAN	IMMEDIATE	INFO_ONLY	KB-CARL-242	2026-04-29	Merz "US humiliated, no exit strategy"; folded into KB-242 cluster intensification
-SIG-W-20260428-007	2026-04-28	MARKET_VOL	PRIORITY	REFERRED		2026-04-29	INTC CAO Gawel resigns post-earnings; HENRY primary, info-only otherwise
-SIG-W-20260429-001	2026-04-29	OIL_ENERGY	IMMEDIATE	INTEGRATED	KB-CARL-240	2026-04-29	Brent $115 intraday / $110.38 close 8-session streak highest since Jun 2022; STATUS + CRL-08 78% reprice
-SIG-W-20260429-002	2026-04-29	PRIVATE_CREDIT	PRIORITY	REFERRED		2026-04-29	Blue Owl OCIC/OTIC redemption cap (corrected-framing); LIQUID primary
-SIG-W-20260429-003	2026-04-29	GEOPOL/IRAN	IMMEDIATE	INFO_ONLY	KB-CARL-240,242	2026-04-29	Iranian rial -15% in 2 days record low 181M/USD; folded into KB-240/242 cluster
-SIG-W-20260429-004	2026-04-29	MARKET_VOL	PRIORITY	REFERRED		2026-04-29	META/MSFT Q1 prints AMC capex advisory; HENRY primary
-SIG-W-20260429-005	2026-04-29	HOUSING_POLICY	PRIORITY	REFERRED		2026-04-29	ROAD Act 76 House lawmakers letter Section 901 BTR; HOMER primary
-SIG-W-20260505-001	2026-05-05	OIL_ENERGY	PRIORITY	INFO_ONLY	KB-CARL-278	2026-05-05	IEA/S&P/Citi 205 MMbbl crude drawdown ex-Gulf + Q2 1.5 mb/d sharpest demand decline; BRENT primary; CARL pump-pass-through transmission via gas-stocks summer driving (paired -003)
-SIG-W-20260505-002	2026-05-05	OIL_ENERGY	PRIORITY	INFO_ONLY	KB-CARL-278	2026-05-05	IEA Apr LNG ~33 Mt 2-yr-low + 120 BCM 2026-2030 cumulative loss + 2-yr expansion delay; refines -019-030 Qatar damage; BRENT primary; CARL distillate/diesel cost-side via JKM/TTF spillover
-SIG-W-20260505-003	2026-05-05	OIL_ENERGY	PRIORITY	INFO_ONLY	KB-CARL-278	2026-05-05	EIA US gasoline stocks lowest seasonal in 10+yr Wk 17 ~225,000 kbbl below 2015-25 envelope; BRENT primary; CARL high-relevance Memorial Day → Labor Day pump pass-through ($4+ retest); reactivates UMich 1Y 4.7% link
-SIG-W-20260505-004	2026-05-05	GEOPOL_ENERGY	IMMEDIATE	REFERRED		2026-05-05	IRGC sovereign-corridor doctrine + new maritime-oversight body; broader-than-4/11; sets up next kinetic incident as Iran-justified; BRENT/HAWK/BARON primary
-SIG-W-20260505-005	2026-05-05	GEOPOL_ENERGY	PRIORITY	REFERRED		2026-05-05	2x USAF tanker squawk-7700 5/5 (CORRECTED-FRAMING — return-flight emergencies on continuous Tel Aviv tanker baseline since Feb, NOT inbound buildup); BRENT/HAWK primary
-SIG-W-20260505-006	2026-05-05	MACRO_INFLATION+LABOR	PRIORITY	INTEGRATED	KB-CARL-279,KB-CARL-280	2026-05-05	ISM Services Apr 53.6 / New Orders 60.6→53.5 -7.1pp / Prices Paid 70.7 highest since late 2022 + JOLTS Mar 6.866M openings / 3.5% hiring rate; multi-axis stagflation soft-landing stress; CARL primary
-SIG-W-20260505-007	2026-05-05	MACRO_INFLATION	PRIORITY	INFO_ONLY		2026-05-05	Census M3 Factory Orders Mar +1.5% MoM beat 0.5% est; counter-evidence within CONSUMER_STAGFLATION cluster; RED primary; capex +3.4% Daily Chartbook claim flagged for verify (conflict with Census nondefense capex -1.2% top-line)
+SIG-W-20260410-001	2026-04-10	MACRO_INFLATION	IMMEDIATE	CARL_ORIGIN		2026-04-19	CPI 3.3% YoY + UMich 47.6 stagflation lock — CARL dispatched; content in prior KB	
+SIG-W-20260411-001	2026-04-11	Adversarial meta	IMMEDIATE	REFERRED		2026-04-19	RED pre-registered falsification rule pierced; RED/HENRY scope	
+SIG-W-20260411-002	2026-04-11	Coordination	PRIORITY	REFERRED		2026-04-19	FORGE/STATUS.md stale; PROME coordination, not CARL	
+SIG-W-20260414-001	2026-04-14	CONSUMER_CREDIT	PRIORITY	CARL_ORIGIN		2026-04-19	Sen. Lummis Meals-on-Wheels admission; CARL dispatched	
+SIG-W-20260414-002	2026-04-14	PRIVATE_CREDIT	IMMEDIATE	REFERRED		2026-04-19	TCW Red Lobster 98% writedown; LIQUID/REGINALD	
+SIG-W-20260414-003	2026-04-14	MARKET_VOL	PRIORITY	REFERRED		2026-04-19	SEC PDT elimination; HENRY	
+SIG-W-20260414-004	2026-04-14	FUNDING_LIQUIDITY	IMMEDIATE	REFERRED		2026-04-19	IMF GFSR liquidity dysfunction; LIQUID	
+SIG-W-20260414-005	2026-04-14	BANK_CRE	PRIORITY	REFERRED		2026-04-19	ROAD to Housing Act / Freddie K-098; REGINALD	
+SIG-W-20260414-006	2026-04-14	MARKET_VOL	IMMEDIATE	REFERRED		2026-04-19	GS Prime HF short cover whipsaw; HENRY	
+SIG-W-20260414-007	2026-04-14	MACRO_INFLATION	IMMEDIATE	CARL_ORIGIN		2026-04-19	Mar PPI goods/energy shock; CARL dispatched	
+SIG-W-20260414-008	2026-04-14	MARKET_VOL	PRIORITY	REFERRED		2026-04-19	DB Financials positioning gap; HENRY	
+SIG-W-20260414-009	2026-04-14	OIL_ENERGY	PRIORITY	REFERRED		2026-04-19	Baker Hughes rig count flat; BRENT	
+SIG-W-20260414-010	2026-04-14	ASIA_CONTAGION	PRIORITY	INFO_ONLY	KB-CARL-238	2026-04-19	FT China Shock 2.0 — attenuated US channel, ZHAO primary	
+SIG-W-20260414-011	2026-04-14	ASIA_CONTAGION	PRIORITY	REFERRED		2026-04-19	FT China export controls tripled; ZHAO/REGINALD primary	
+SIG-W-20260414-012	2026-04-15	BANK_CRE	PRIORITY	INFO_ONLY	KB-CARL-239	2026-04-19	KRE vs XLF counter-framing; REGINALD primary, CARL info-only	
+SIG-W-20260416-001	2026-04-16	OIL_ENERGY	PRIORITY	REFERRED		2026-04-19	Kpler oil inventory destocking; BRENT	
+SIG-W-20260416-002	2026-04-16	OIL_ENERGY	IMMEDIATE	REFERRED		2026-04-19	Viva Corio/Geelong refinery fire; BRENT	
+SIG-W-20260416-003	2026-04-16	MARKET_VOL	PRIORITY	REFERRED		2026-04-19	NDX RSI / SPX breadth; HENRY	
+SIG-W-20260419-001	2026-04-19	AUTO_FRAUD/BANK_CRE	PRIORITY	REFERRED		2026-04-19	Tricolor MTB ABS 2nd channel; REGINALD primary	
+SIG-W-20260419-002	2026-04-19	MARKET_VOL	PRIORITY	REFERRED		2026-04-19	VIOLET VIX-family refresh; HENRY	
+SIG-W-20260419-003	2026-04-19	MARKET_VOL	IMMEDIATE	REFERRED		2026-04-19	VIOLET posture 🟡→🟠; HENRY	
+SIG-W-20260419-004	2026-04-19	MARKET_VOL	PRIORITY	REFERRED		2026-04-19	Wyckoff Distribution / NDX parabolic; HENRY	
+SIG-W-20260419-005	2026-04-19	MARKET_VOL	PRIORITY	REFERRED		2026-04-19	Buffett Indicator 232.6% ATH; HENRY	
+SIG-W-20260419-006	2026-04-19	OIL_ENERGY	IMMEDIATE	INFO_ONLY	KB-CARL-235	2026-04-19	Trump WH Sit Room + Bessent; Iran day-cluster context (channel)	
+SIG-W-20260419-007	2026-04-19	MARKET_VOL	PRIORITY	REFERRED		2026-04-19	Altrichter VIX-family panel / OVX divergence; HENRY	
+SIG-W-20260419-008	2026-04-19	MARKET_VOL	PRIORITY	REFERRED		2026-04-19	DDS 13-day SPX rally extremity; HENRY	
+SIG-W-20260419-009	2026-04-19	MARKET_VOL	PRIORITY	REFERRED		2026-04-19	Zaccardi Finviz heatmap interior drawdowns; HENRY	
+SIG-W-20260419-010	2026-04-19	OIL_ENERGY	PRIORITY	INFO_ONLY	KB-CARL-235	2026-04-19	Hormuz civilian traffic — superseded by SIG-014 re-closure; Iran cluster context	
+SIG-W-20260419-011	2026-04-19	MARKET_VOL	PRIORITY	REFERRED		2026-04-19	Detrick SPX above-20d breadth counter; HENRY/RED	
+SIG-W-20260419-012	2026-04-19	MARKET_VOL	PRIORITY	REFERRED		2026-04-19	Sethi 15% realized vol counter; HENRY/RED	
+SIG-W-20260419-013	2026-04-19	MARKET_VOL	PRIORITY	REFERRED		2026-04-19	BRK.A vs SPY post-Buffett retirement; HENRY	
+SIG-W-20260419-014	2026-04-19	OIL_ENERGY	IMMEDIATE	INFO_ONLY	KB-CARL-235	2026-04-19	Iran SoH re-closure Apr 18 verified; Iran cluster channel	
+SIG-W-20260419-015	2026-04-19	BANK_CRE/CONSUMER_CREDIT	PRIORITY	INTEGRATED	KB-CARL-232	2026-04-19	NFIB CapEx GFC-low + Sub-V +67% — captured in KB-232 NFIB Mar deterioration entry	
+SIG-W-20260419-016	2026-04-19	FUNDING_LIQUIDITY/VOL	PRIORITY	INFO_ONLY	KB-CARL-237	2026-04-19	BofA largest MMF outflow; institutional-not-retail positioning note	
+SIG-W-20260419-017	2026-04-19	MARKET_VOL	PRIORITY	REFERRED		2026-04-19	Bilello VIX/SPX extremity counter; HENRY/RED	
+SIG-W-20260419-018	2026-04-19	MARKET_VOL/FUNDING	PRIORITY	REFERRED		2026-04-19	Triple short-squeeze $93B cover; HENRY	
+SIG-W-20260419-019	2026-04-19	FUNDING_LIQUIDITY/VOL	PRIORITY	INFO_ONLY	KB-CARL-237	2026-04-19	LTM fund flows — positioning institutional, not retail equity	
+SIG-W-20260419-020	2026-04-19	CONSUMER_CREDIT/BANK_CRE	PRIORITY	INTEGRATED	CRL-06	2026-04-19	ATTOM Q1 +26% YoY foreclosure; already in CRL-06 Apr 17 update, SIG confirms	
+SIG-W-20260419-021	2026-04-19	OIL_ENERGY	PRIORITY	INTEGRATED	KB-CARL-236	2026-04-19	MS/Piper Sandler oil-shock 1990-vs-2026 — logged RED team + 3-pt K-shape rebuttal	
+SIG-W-20260419-022	2026-04-19	OIL_ENERGY/posture	PRIORITY	INFO_ONLY	KB-CARL-235	2026-04-19	EAM/HFGCS/E-6B overlap; Iran cluster channel	
+SIG-W-20260419-023	2026-04-19	MARKET_VOL	PRIORITY	REFERRED		2026-04-19	Barchart CPC 0.66 most bullish since 2021; HENRY	
+SIG-W-20260419-024	2026-04-19	OIL_ENERGY/Iran	IMMEDIATE	INFO_ONLY	KB-CARL-235	2026-04-19	US carrier buildup + Iran rejects talks; Iran cluster channels 4+5	
+SIG-W-20260419-025	2026-04-19	MARKET_VOL	PRIORITY	REFERRED		2026-04-19	GS L/S macro shorts elevated; HENRY	
+SIG-W-20260419-026	2026-04-19	OIL_ENERGY/Iran kinetic	IMMEDIATE	INFO_ONLY	KB-CARL-235	2026-04-19	Navy destroyer intercepts Iranian vessel; Iran cluster channel	
+SIG-W-20260419-027	2026-04-19	OIL_ENERGY/policy	PRIORITY	INFO_ONLY		2026-04-19	Energy Sec gas >$3 — tautological at current $4.06; no KB action warranted	
+SIG-W-20260419-028	2026-04-19	OIL_ENERGY/SoH	IMMEDIATE	INFO_ONLY	KB-CARL-235	2026-04-19	OSINTdefender MarineTraffic Iran attacks/turnarounds; Iran cluster channel	
+SIG-W-20260419-029	2026-04-19	OIL_ENERGY/state	IMMEDIATE	INTEGRATED	KB-CARL-235	2026-04-19	Netherlands LCP-O Phase 1 Apr 20; STATUS WAR row + Iran day-cluster	
+SIG-W-20260419-030	2026-04-19	MARKET_VOL/OIL	IMMEDIATE	INTEGRATED	KB-CARL-234	2026-04-19	Qatar LNG ~20% global offline since Mar 2; STATUS Macro/Energy row, CRL-08 bump input	
+SIG-W-20260420-001	2026-04-20	OIL_ENERGY	IMMEDIATE	REFERRED		2026-04-29	Tuapse Black Sea refinery 2nd strike; BRENT primary	
+SIG-W-20260420-002	2026-04-20	OIL_ENERGY	PRIORITY	REFERRED		2026-04-29	Pachpadra Rajasthan refinery fire; BRENT primary	
+SIG-W-20260420-003	2026-04-20	OIL_ENERGY	PRIORITY	REFERRED		2026-04-29	Non-ME hydrocarbon 11-event aggregation; BRENT primary	
+SIG-W-20260420-004	2026-04-20	PRIVATE_CREDIT	PRIORITY	REFERRED		2026-04-29	Blue Owl founders unwind $1.1B share-pledged loans; LIQUID/REGINALD	
+SIG-W-20260420-005	2026-04-20	HOUSING/INSURANCE	PRIORITY	INFO_ONLY		2026-04-29	NV HOA dysfunction insurance/CRE chain; CARL info, FL Triple Squeeze pattern crossover	
+SIG-W-20260420-006	2026-04-20	HOUSING_DEMAND	PRIORITY	REFERRED		2026-04-29	Spring purchase lock surge ARM share stretch; HOMER primary	
+SIG-W-20260420-007	2026-04-20	HOUSING_POLICY	PRIORITY	REFERRED		2026-04-29	FHLB roadmap Trump mortgage credit EO; HOMER primary	
+SIG-W-20260420-008	2026-04-20	BANK_CRE	PRIORITY	REFERRED		2026-04-29	$5B distressed office sales price-discovery reset; REGINALD primary	
+SIG-W-20260420-009	2026-04-20	MACRO_RISK	PRIORITY	INFO_ONLY		2026-04-29	Fitch Q2 Iran-war + AI-software twin-risk; cross-cluster framing	
+SIG-W-20260420-010	2026-04-20	MARKET_VOL	PRIORITY	REFERRED		2026-04-29	DB call/put extremity indeterminate; HENRY primary	
+SIG-W-20260424-001	2026-04-24	LABOR/CONSUMER_CREDIT	PRIORITY	INTEGRATED	KB-CARL-249	2026-04-29	FL labor weakness BLS above US (4.6% vs 4.4%, -36.7K YoY) — STATE DIFFUSION update, FL Triple Squeeze Vector #7 reinforced	
+SIG-W-20260424-002	2026-04-24	OIL_ENERGY	IMMEDIATE	REFERRED		2026-04-29	OFAC Hengli/Dalian teapot Iran-oil sanction; BRENT primary	
+SIG-W-20260424-003	2026-04-24	OIL_ENERGY/IRAN	IMMEDIATE	INFO_ONLY	KB-CARL-242	2026-04-29	Iran diplomacy cascade Apr 24 (Araghchi Islamabad); folded into KB-242 cluster resolution	
+SIG-W-20260424-004	2026-04-24	MARKET_VOL	PRIORITY	REFERRED		2026-04-29	Kobeissi asset mgrs $97B Nasdaq futures; HENRY primary	
+SIG-W-20260424-005	2026-04-24	BANK_CRE	PRIORITY	REFERRED		2026-04-29	US office vacancy Q1 20.2% MSA breakdown; REGINALD primary	
+SIG-W-20260424-006	2026-04-24	FUNDING_LIQUIDITY	IMMEDIATE	REFERRED		2026-04-29	Man Group $6B single-client withdrawal long-only; LIQUID primary	
+SIG-W-20260424-007	2026-04-24	CONSUMER_CREDIT	PRIORITY	INFO_ONLY		2026-04-29	NY Fed CC 90+ DQ chart 12.7% Q4 2025 — already in STATUS at 12.70%; Schwab chart formalizes "92% of 2009-peak" framing, no new data	
+SIG-W-20260424-008	2026-04-24	OIL_ENERGY	PRIORITY	REFERRED		2026-04-29	Corpus Christi water emergency petrochem-Sep curtailment risk; BRENT primary	
+SIG-W-20260424-009	2026-04-24	GEOPOL	IMMEDIATE	REFERRED		2026-04-29	Ukraine mass drone-missile strike Crimea + W Russia; HAWK/WAR primary	
+SIG-W-20260424-010	2026-04-24	GEOPOL/OIL	IMMEDIATE	INFO_ONLY	KB-CARL-242	2026-04-29	USAF ME airlift surge 3-carrier posture; KB-242 cluster channel	
+SIG-W-20260424-011	2026-04-24	OIL_ENERGY/CONSUMER	PRIORITY	INFO_ONLY		2026-04-29	LV airline 60K seats cut + Delta RDU-LAS suspension on jet-fuel; consumer discretionary transmission, BRENT primary	
+SIG-W-20260424-012	2026-04-24	FUNDING_LIQUIDITY	PRIORITY	REFERRED		2026-04-29	SoftBank $10B margin loan OpenAI shares; LIQUID primary	
+SIG-W-20260424-013	2026-04-24	OIL_ENERGY	IMMEDIATE	REFERRED		2026-04-29	Gujarat Jhagadia GIDC chemical explosion fire; BRENT primary	
+SIG-W-20260426-001	2026-04-26	FUNDING_LIQUIDITY/MACRO	PRIORITY	INFO_ONLY		2026-04-29	Fed operating framework shift demand-driven (Beckworth); CARL info recipient, macro liquidity regime → 2nd-order CC pressure layer per dispatch_note	
+SIG-W-20260426-002	2026-04-26	HOUSING/CONSUMER	PRIORITY	INTEGRATED	KB-CARL-250	2026-04-29	Residential housing prices weakening (Zillow 35.5% top-200 metros falling YoY post-pandemic high + Realtor.com -2.3% SQFT 13-wk streak)	
+SIG-W-20260426-003	2026-04-26	OIL_ENERGY	IMMEDIATE	REFERRED		2026-04-29	Louisiana St. Helena pipeline explosion Pine Grove; BRENT primary	
+SIG-W-20260426-004	2026-04-26	OIL_ENERGY/CONSUMER	PRIORITY	INFO_ONLY		2026-04-29	AAL $4B fuel cost 2026 jet-fuel transmission; pairs with -011 (LV cuts), BRENT primary	
+SIG-W-20260426-005	2026-04-26	CONSUMER_CREDIT/AG	PRIORITY	INTEGRATED	KB-CARL-251	2026-04-29	US farm bankruptcies Ch12 +46% YoY 2025 (315 vs 216); ag-credit stress = leading-edge consumer-credit-adjacent	
+SIG-W-20260426-006	2026-04-26	OIL_ENERGY/LABOR	ROUTINE	INFO_ONLY		2026-04-29	Goldman oil-shock 10K jobs/mo Mar 26 framework re-surfaced; sensitivity-not-realized, BRENT primary	
+SIG-W-20260426-007	2026-04-26	GEOPOL/IRAN	IMMEDIATE	INFO_ONLY	KB-CARL-242	2026-04-29	USS Pinckney shadow-fleet intercept Arabian Sea; folded into KB-242 cluster	
+SIG-W-20260426-008	2026-04-26	MACRO_INFLATION	PRIORITY	INTEGRATED	KB-CARL-241	2026-04-29	UMich April Final 49.8 + 1Y inflation 4.7% / 5-10Y 3.5% un-anchoring deeper; STATUS dashboard updated	
+SIG-W-20260426-009	2026-04-26	BANK_CRE	PRIORITY	REFERRED		2026-04-29	Baltimore CRE $1B value erased / 29% properties (MTB footprint); REGINALD primary	
+SIG-W-20260426-010	2026-04-26	FUNDING_LIQUIDITY	PRIORITY	REFERRED		2026-04-29	Foreign private investors > foreign CB UST holdings (Apollo); LIQUID primary	
+SIG-W-20260426-011	2026-04-26	GEOPOL/IRAN	IMMEDIATE	INFO_ONLY	KB-CARL-242	2026-04-29	UKMTO 045-26 tanker hijack Mareeyo Somalia; folded into KB-242 cluster	
+SIG-W-20260426-012	2026-04-26	BANK_RISK	PRIORITY	REFERRED		2026-04-29	Fed seeks bank private credit exposure (Bloomberg Apr 11); REGINALD/LIQUID	
+SIG-W-20260426-013	2026-04-26	GEOPOL/IRAN	IMMEDIATE	INFO_ONLY	KB-CARL-242	2026-04-29	Iran delegation Pakistan departure / Trump cancel channel disrupted; folded into KB-242 cluster	
+SIG-W-20260426-014	2026-04-26	HOUSING_MF	PRIORITY	REFERRED		2026-04-29	Phoenix/Denver MF rents stress (Yardi/Trepp corrected-framing); HOMER primary	
+SIG-W-20260426-015	2026-04-26	GEOPOL/IRAN	IMMEDIATE	REFERRED		2026-04-29	NBC Iran prior strikes US bases damage worse than acknowledged; HAWK/WAR primary	
+SIG-W-20260428-001	2026-04-28	ASIA_CONTAGION	PRIORITY	REFERRED		2026-04-29	China FRED/BIS real residential property prices below 2005 baseline; ZHAO primary	
+SIG-W-20260428-002	2026-04-28	MARKET_VOL	PRIORITY	REFERRED		2026-04-29	OpenAI CFO Friar revenue/user target miss + data-center spending (WSJ); HENRY primary	
+SIG-W-20260428-003	2026-04-28	BANK_CRE	PRIORITY	REFERRED		2026-04-29	Louisville KY Home Life Building $15M-to-$4.67M credit-bid CRE; REGINALD primary	
+SIG-W-20260428-004	2026-04-28	HOUSING_BTR	PRIORITY	REFERRED		2026-04-29	Phoenix BTR ROAD Act regulatory financing freeze (Hancock); HOMER primary	
+SIG-W-20260428-005	2026-04-28	PRIVATE_CREDIT	PRIORITY	REFERRED		2026-04-29	Blue Owl investors shun cut-price exit (Boaz Weinstein FT); LIQUID/REGINALD	
+SIG-W-20260428-006	2026-04-28	GEOPOL/IRAN	IMMEDIATE	INFO_ONLY	KB-CARL-242	2026-04-29	Merz "US humiliated, no exit strategy"; folded into KB-242 cluster intensification	
+SIG-W-20260428-007	2026-04-28	MARKET_VOL	PRIORITY	REFERRED		2026-04-29	INTC CAO Gawel resigns post-earnings; HENRY primary, info-only otherwise	
+SIG-W-20260429-001	2026-04-29	OIL_ENERGY	IMMEDIATE	INTEGRATED	KB-CARL-240	2026-04-29	Brent $115 intraday / $110.38 close 8-session streak highest since Jun 2022; STATUS + CRL-08 78% reprice	
+SIG-W-20260429-002	2026-04-29	PRIVATE_CREDIT	PRIORITY	REFERRED		2026-04-29	Blue Owl OCIC/OTIC redemption cap (corrected-framing); LIQUID primary	
+SIG-W-20260429-003	2026-04-29	GEOPOL/IRAN	IMMEDIATE	INFO_ONLY	KB-CARL-240,242	2026-04-29	Iranian rial -15% in 2 days record low 181M/USD; folded into KB-240/242 cluster	
+SIG-W-20260429-004	2026-04-29	MARKET_VOL	PRIORITY	REFERRED		2026-04-29	META/MSFT Q1 prints AMC capex advisory; HENRY primary	
+SIG-W-20260429-005	2026-04-29	HOUSING_POLICY	PRIORITY	REFERRED		2026-04-29	ROAD Act 76 House lawmakers letter Section 901 BTR; HOMER primary	
+SIG-W-20260505-001	2026-05-05	OIL_ENERGY	PRIORITY	INFO_ONLY	KB-CARL-278	2026-05-05	IEA/S&P/Citi 205 MMbbl crude drawdown ex-Gulf + Q2 1.5 mb/d sharpest demand decline; BRENT primary; CARL pump-pass-through transmission via gas-stocks summer driving (paired -003)	
+SIG-W-20260505-002	2026-05-05	OIL_ENERGY	PRIORITY	INFO_ONLY	KB-CARL-278	2026-05-05	IEA Apr LNG ~33 Mt 2-yr-low + 120 BCM 2026-2030 cumulative loss + 2-yr expansion delay; refines -019-030 Qatar damage; BRENT primary; CARL distillate/diesel cost-side via JKM/TTF spillover	
+SIG-W-20260505-003	2026-05-05	OIL_ENERGY	PRIORITY	INFO_ONLY	KB-CARL-278	2026-05-05	EIA US gasoline stocks lowest seasonal in 10+yr Wk 17 ~225,000 kbbl below 2015-25 envelope; BRENT primary; CARL high-relevance Memorial Day → Labor Day pump pass-through ($4+ retest); reactivates UMich 1Y 4.7% link	
+SIG-W-20260505-004	2026-05-05	GEOPOL_ENERGY	IMMEDIATE	REFERRED		2026-05-05	IRGC sovereign-corridor doctrine + new maritime-oversight body; broader-than-4/11; sets up next kinetic incident as Iran-justified; BRENT/HAWK/BARON primary	
+SIG-W-20260505-005	2026-05-05	GEOPOL_ENERGY	PRIORITY	REFERRED		2026-05-05	2x USAF tanker squawk-7700 5/5 (CORRECTED-FRAMING — return-flight emergencies on continuous Tel Aviv tanker baseline since Feb, NOT inbound buildup); BRENT/HAWK primary	
+SIG-W-20260505-006	2026-05-05	MACRO_INFLATION+LABOR	PRIORITY	INTEGRATED	KB-CARL-279,KB-CARL-280	2026-05-05	ISM Services Apr 53.6 / New Orders 60.6→53.5 -7.1pp / Prices Paid 70.7 highest since late 2022 + JOLTS Mar 6.866M openings / 3.5% hiring rate; multi-axis stagflation soft-landing stress; CARL primary	
+SIG-W-20260505-007	2026-05-05	MACRO_INFLATION	PRIORITY	INFO_ONLY		2026-05-05	Census M3 Factory Orders Mar +1.5% MoM beat 0.5% est; counter-evidence within CONSUMER_STAGFLATION cluster; RED primary; capex +3.4% Daily Chartbook claim flagged for verify (conflict with Census nondefense capex -1.2% top-line)	
 SIG-W-20260505-008	2026-05-05	CONSUMER_CREDIT/MACRO	PRIORITY	INTEGRATED	KB-CARL-281	2026-05-05	AHLA FIFA WC 2026 hotel outlook ~80% host-city hoteliers below projections (KC -85-90% cannibalizing summer baseline); NEW services-export/international-inbound demand-destruction transmission vector; visa/USD/policy drivers. Post-hoc downgrade 0.90→0.82 reflects AHLA-member-bias structural counter (survey doubles as policy-pressure tool; STR/CoStar methodologically-cleaner cross-check not pulled).	0.82
-SIG-W-20260505-009	2026-05-05	OIL_ENERGY	IMMEDIATE	INFO_ONLY	KB-CARL-278	2026-05-05	Chevron CEO Wirth Bloomberg TV Milken 5/4 — physical oil shortages "starting to appear" + EU jet fuel "tightening very quickly" + "potentially as big as 1970s"; EU airlines op confirmed (Lufthansa 20K cancellations + Spirit BK weekend); Vector #5/#12 reinforcement; Fed-reaction-function relevance
-SIG-W-20260505-010	2026-05-05	CONSUMER_CREDIT/MACRO	PRIORITY	INTEGRATED	KB-CARL-282	2026-05-05	Black Box Intel Apr restaurants SSS -0.4% / TRAFFIC -3.5% (Easter-clean) / 2nd decline in 3mo; Will-explicit discretionary-demand-destruction tracking lens; tier-stratified not consumer-collapse (BofA Checkpoint +4.3% counter); Live Nation Q1 5/5 AMC near-term watch
-SIG-W-20260505-011	2026-05-05	HEALTH/CRUISE_SENTIMENT	PRIORITY	INFO_ONLY		2026-05-05	WHO DON599 hantavirus cluster MV Hondius cruise (boutique polar expedition Dutch-flagged — NOT CCL/RCL/NCLH tier); ANDV strain confirmed; WHO LOW global risk; sentiment-only transmission to major-cruise tickers; pandemic-meta-cluster informal watch (1 substantive + 2 noise — no spawn yet)
-SIG-W-20260505-012	2026-05-05	OIL_ENERGY/MARKET_VOL	PRIORITY	INFO_ONLY	KB-CARL-278	2026-05-05	Brent intraday 5/5 -4% ($114.44 → $110.41 close) DESPITE 5-vector cluster confluence; tape confirms RED "risk-premium-already-priced"; market pricing scenario B/D modal not A; Wirth 1970s magnitude likely 0.6× direction-right; CARL stagflation-pressure relief signal
+SIG-W-20260505-009	2026-05-05	OIL_ENERGY	IMMEDIATE	INFO_ONLY	KB-CARL-278	2026-05-05	Chevron CEO Wirth Bloomberg TV Milken 5/4 — physical oil shortages "starting to appear" + EU jet fuel "tightening very quickly" + "potentially as big as 1970s"; EU airlines op confirmed (Lufthansa 20K cancellations + Spirit BK weekend); Vector #5/#12 reinforcement; Fed-reaction-function relevance	
+SIG-W-20260505-010	2026-05-05	CONSUMER_CREDIT/MACRO	PRIORITY	INTEGRATED	KB-CARL-282	2026-05-05	Black Box Intel Apr restaurants SSS -0.4% / TRAFFIC -3.5% (Easter-clean) / 2nd decline in 3mo; Will-explicit discretionary-demand-destruction tracking lens; tier-stratified not consumer-collapse (BofA Checkpoint +4.3% counter); Live Nation Q1 5/5 AMC near-term watch	
+SIG-W-20260505-011	2026-05-05	HEALTH/CRUISE_SENTIMENT	PRIORITY	INFO_ONLY		2026-05-05	WHO DON599 hantavirus cluster MV Hondius cruise (boutique polar expedition Dutch-flagged — NOT CCL/RCL/NCLH tier); ANDV strain confirmed; WHO LOW global risk; sentiment-only transmission to major-cruise tickers; pandemic-meta-cluster informal watch (1 substantive + 2 noise — no spawn yet)	
+SIG-W-20260505-012	2026-05-05	OIL_ENERGY/MARKET_VOL	PRIORITY	INFO_ONLY	KB-CARL-278	2026-05-05	Brent intraday 5/5 -4% ($114.44 → $110.41 close) DESPITE 5-vector cluster confluence; tape confirms RED "risk-premium-already-priced"; market pricing scenario B/D modal not A; Wirth 1970s magnitude likely 0.6× direction-right; CARL stagflation-pressure relief signal	
 SIG-W-20260507-002	2026-05-07	CONSUMER_CREDIT	PRIORITY	CARL_ORIGIN		2026-05-22	Fed G.19 Mar consumer credit $24.86B 2x beat; revolving rate 0.3%→9.1% Mar; non-revolving-led ($14.8B/$10B split). CORRECTED-FRAMING 0.55 — headline confirmed but component split is the load-bearing nuance for Path C. Marginal financing-stretch tell, not headline.	0.55
 SIG-W-20260507-003	2026-05-07	CONSUMER_CREDIT/IRAN_HORMUZ	PRIORITY	CARL_ORIGIN		2026-05-22	MCD Q1 US comps -3.9% miss; CFO Borden flagged Apr US comps NEGATIVE; Kempczinski explicit Iran-war gas attribution on call. CARL dispatched.	
 SIG-W-20260508-001	2026-05-08	CONSUMER_CREDIT/IRAN_HORMUZ	IMMEDIATE	CARL_ORIGIN		2026-05-22	Nightingale 3-CEO synthesis 48h confluence: Cahillane KHC + Bitzer WHR + Kempczinski MCD all citing consumer weakness. WHR cut FY guide 50% + suspended dividend + -11.91% intraday. Tier-stratified discretionary across packaged-food/appliance/QSR.	
@@ -699,3 +699,47 @@ SIG-W-20260810-003	2026-08-10	WAR_RU_UA	ROUTINE	INTEGRATED	KB-CARL-372 (update)	
 SIG-W-20260810-004	2026-08-10	POSITIONING	PRIORITY	REFERRED		2026-08-10	VIOLET/RED-lead positioning signal. CARL not routed.	
 SIG-W-20260811-001	2026-08-11	MACRO_POSITIONING	IMMEDIATE	REFERRED		2026-08-12	RED-FT-06 VIX sub-16 sustain-5 FIRED; routed RED -> HENRY/VIOLET. Vol-regime/positioning, not consumer credit. CARL not a recipient and holds no vol instrument. No CARL action.	
 SIG-W-20260811-002	2026-08-11	PROCESS_DISCIPLINE	PRIORITY	INFO_ONLY		2026-08-12	N5 fleet rule: never quote a futures daily bar as a close. CARL not listed as recipient and the rule does not bind CARL surfaces - gas/diesel are AAA/EIA/FRED retail averages and Brent is carried as a REFERENCED figure owned by HAWK/BRENT/FALCON, explicitly flagged as theirs to adjudicate. Logged so the scope call is on the record rather than assumed: if CARL ever prices a futures bar directly, clauses (i)-(iii) apply.	
+SIG-W-20260812-001	2026-08-12	GEOPOL_ENERGY	IMMEDIATE	REFERRED		2026-08-15	Novorossiysk/Sheskharis struck 8/11-12. Lead OSPREY/BRENT. CARL consumer leg is pump pass-through only and is already tracked via the gas/diesel rows; no separate CARL action.	
+SIG-W-20260812-002	2026-08-12	CONSUMER_CREDIT	PRIORITY	INTEGRATED	KB-CARL-382	2026-08-15	CARL-LEAD, ACTIONED 8/15. NY Fed switched Equifax Risk 3.0 -> VantageScore 4.0 at 2026:Q1; HHDC pp6-9 are a basis break. Relayed by REGINALD 8/13. CONSEQUENCE TAKEN: the -20bps QoQ delta is INTACT (both quarters post-switch) but the "first decline off the 15-YEAR HIGH" SUPERLATIVE is basis-broken - qualified at all 4 STATUS sites. Encoded into the kill-rule re-spec as a numbered basis policy: leg 2 is a QoQ DIRECTION test on Pg 14, which is not credit-score-banded, and whose Q1 value is identical across both vintages (7.1000%). ALSO SURFACED: CRL-05 IS basis-exposed where the kill rule is not - it resolves on a LEVEL (>13.74%, an Equifax-3.0-era figure) against VantageScore-4.0 prints; flagged as an open item for the Nov grade.	
+SIG-W-20260812-003	2026-08-12	HOUSING	PRIORITY	REFERRED		2026-08-15	Lead HOMER. Two foreclosure series ~2x apart both labelled "foreclosures" (ResiClub 55,160 vs ATTOM 115,714, same quarter). CARL checked its own surfaces: the CCP notations figure is NOT carried here, so nothing to fix. HOMER raised the same divergence directly (CCP notations 59.2K->55.2K DOWN vs ATTOM starts +18% YoY UP) and owns the reconciliation. Discipline adopted anyway: any foreclosure figure CARL carries names its VARIANT in the cell.	
+SIG-W-20260812-004	2026-08-12	OIL_ENERGY	ROUTINE	INTEGRATED		2026-08-15	CARL-LEAD. GasBuddy/De Haan 8/12: the US national average has NEVER been above $4/gal after Aug 12 in any prior year. A BASE-RATE claim on CARLs own series and it stands - AAA is $4.070 on 8/15, i.e. the record condition is LIVE. WALTER noted CARLs own GAS_TRACKER had it FALLING at dispatch; both were true and the fall reversed - $4.012 (8/11) -> $4.070 (8/15). Folded into the gas row: the V5 downgrade watch (~8/20) is currently answering NO, cushion WIDENED 1.2c -> 7.0c.	
+SIG-W-20260812-005	2026-08-12	GEOPOL_NON_ENERGY	PRIORITY	REFERRED		2026-08-15	Tartous/Hmeimim conversion, 3-month clock ~11/09. Lead HAWK/FALCON. No consumer-transmission leg.	
+SIG-W-20260812-006	2026-08-12	MACRO_INFLATION	ROUTINE	INFO_ONLY		2026-08-15	CARL-LEAD INOCULATION, and it points AGAINST a CARL prediction - logged as such. "Food +33% since 2019" is a LEVEL; CRL-10 grades a RATE (food CPI YoY approaching/breaching 4%), and the chart slope is FLATTENING. CRL-10 UNCHANGED at 62%: the signal is a reminder not to bank a level claim as rate evidence, not new rate evidence. July CPI food +0.1% MoM / 3.0% YoY corroborates the flattening.	
+SIG-W-20260812-007	2026-08-12	CONSUMER	ROUTINE	INFO_ONLY		2026-08-15	CARL-LEAD INOCULATION against a claim CARL might otherwise have banked: "a lot of physical retail is getting gutted" vs Coresight - the standard US store tracker - whose 2026 midyear review is titled "Declining Closures Stabilize the Market and Drive Growth" (~7,900 projected closures). Nothing integrated; recorded so the gutted framing does not enter via a secondary. Pairs with POPs 8/14 finding that the 944-1,049 chain-closure figure is an ANNOUNCEMENT total vs 390 realized H1.	
+SIG-W-20260812-008	2026-08-12	AI_CAPEX	PRIORITY	REFERRED		2026-08-15	Micron DRAM LTAs to 2030+, ~half of revenue. Lead VULCAN. CARL owns only the downstream consumer goods-price leg, which VULCAN routed separately 8/13 and CARL banked as KB-385.	
+SIG-W-20260812-009	2026-08-12	BANK_CRE	PRIORITY	REFERRED		2026-08-15	Stablecoin deposit-flight inoculation. Lead REGINALD.	
+SIG-W-20260812-010	2026-08-12	AI_CAPEX	PRIORITY	REFERRED		2026-08-15	CoreWeave capex ~3x revenue. Lead VULCAN/WATT.	
+SIG-W-20260812-011	2026-08-12	GEOPOL_ENERGY	PRIORITY	REFERRED		2026-08-15	Blockade redirect tally 12->55. Lead FALCON/BRENT.	
+SIG-W-20260812-012	2026-08-12	GEOPOL_NON_ENERGY	ROUTINE	REFERRED		2026-08-15	FALCON self-corrections x3, every event stands. Lead FALCON.	
+SIG-W-20260812-013	2026-08-12	METALS	ROUTINE	REFERRED		2026-08-15	Gold-miner equity channel gap. Lead MIDAS.	
+SIG-W-20260812-014	2026-08-12	GEOPOL_NON_ENERGY	ROUTINE	REFERRED		2026-08-15	Iran MOU invoked as live after being recorded repudiated. Lead FALCON.	
+SIG-W-20260812-015	2026-08-12	MACRO_INFLATION	ROUTINE	INFO_ONLY		2026-08-15	CARL-LEAD INOCULATION. The "$12B farmer bailout" is a component of a ~$95B reconciliation package that passed the House 216-214 and is STALLED in a divided Senate - i.e. NOT LAW, and the source artifact was a Massie FORECAST. Nothing integrated. Recorded because a farm-support transfer would be a real consumer-food-cost input IF it passed; the docket carries no row because there is no date.	
+SIG-W-20260812-016	2026-08-12	OIL_ENERGY	PRIORITY	REFERRED		2026-08-15	Shell deck / Qatar force majeure / Pearl GTL. Lead BRENT/FALCON.	
+SIG-W-20260812-017	2026-08-12	POWER_GRID	PRIORITY	REFERRED		2026-08-15	ERCOT data-centre interconnection pause vs 474GW. Lead WATT/VULCAN.	
+SIG-W-20260812-018	2026-08-12	PRIVATE_CREDIT	ROUTINE	REFERRED		2026-08-15	Deferred-payment strip printing par on a low-90s economic price. Lead BROCK.	
+SIG-W-20260812-019	2026-08-12	HOUSING	ROUTINE	REFERRED		2026-08-15	Tri Pointe CEO on net-effective new-home prices: -5 to -10% A markets, -15 to -20% B/C from peak. Lead HOMER. NOTED for CRL-23 context (builder GM compression) but not integrated - it is a price-concession datum on HOMERs series, and CRL-23 grades DHI/PHM gross margin at the Q1-FY27 prints. Revisit if builder GM guidance starts citing incentives.	
+SIG-W-20260813-001	2026-08-13	MACRO_INFLATION	PRIORITY	INTEGRATED		2026-08-15	CARL-LEAD, INTEGRATED WITH A CORRECTION TO THE SIGNALS OWN PREMISE. July ISM (rel ~8/1): PMI 55.6 (highest since May 2022, 7th consec expansion) - EMPLOYMENT 52.8, above 50 for the FIRST TIME AFTER 33 MONTHS - PRICES 71.1, third straight monthly decline BUT raw-materials costs up 22 CONSECUTIVE months. GENUINELY TWO-SIDED and taken as such: the growth leg cuts AGAINST the slowdown read, the price leg cuts FOR cost-push, and a third decline in the RATE of increase is not disinflation in LEVELS. Employment caveat carried: it is a DIFFUSION index (share adding vs cutting), NOT a headcount - can cross 50 while payrolls fall; do NOT net against NFP. ** CORRECTION TO WALTER: the claim "ISM returns ZERO hits across CARL" is WRONG. CARL KB holds 6 ISM Manufacturing rows and 6 ISM Services rows, and STATUS carries a live ISM Services dashboard row. The real defect is STALENESS/CAPTURE, not coverage - the STATUS row is ISM Services MAY (rel Jun 3, ~2.5 months old) and the July Manufacturing print was never captured. Those have different fixes: a coverage gap needs an instrument, a capture gap needs a docket row. Routed back to WALTER.	
+SIG-W-20260813-002	2026-08-13	MACRO_RATES	PRIORITY	REFERRED		2026-08-15	Null-bar / "if close is None: continue" false-negative class. Lead PROME/RED. CARL scripts noted as a check-later item: boot.py pulls FRED not yfinance bars, so the specific failure mode does not apply, but the general shape (a skip-on-null loop reporting a confident negative) is worth a pass over gas_tracker/consumer_pulse at a future maintenance session.	
+SIG-W-20260813-003	2026-08-13	MACRO_INFLATION	PRIORITY	REFERRED		2026-08-15	-$432B record July deficit; interest has NOT passed Medicare and the record is mostly a calendar (Saturday) effect. Lead BOND/HENRY. No CARL consumer leg; the inoculation half is the useful part and is noted, not banked.	
+SIG-W-20260813-004	2026-08-13	OIL_ENERGY	ROUTINE	REFERRED		2026-08-15	DPA invoked to force a shut-in CA field online. Lead BRENT. Artifact 5 months old.	
+SIG-W-20260813-005	2026-08-13	GEOPOL_ENERGY	ROUTINE	REFERRED		2026-08-15	FT: Iran prolonging rather than maximising. Lead FALCON/BRENT. Zero new facts by its own statement.	
+SIG-W-20260813-006	2026-08-13	OIL_ENERGY	PRIORITY	REFERRED		2026-08-15	SPR - WALTER self-corrected ~40min post-dispatch; BRENT already held it with a named watch. Lead BRENT.	
+SIG-W-20260813-007	2026-08-13	GEOPOL_ENERGY	PRIORITY	REFERRED		2026-08-15	Iran named Gulf energy target list; points opposite to -005 routed 90 min earlier. Lead FALCON/BRENT. Single-channel (Fars).	
+SIG-W-20260813-008	2026-08-13	OIL_ENERGY	ROUTINE	REFERRED		2026-08-15	China crude balance vs satellite stockbuild ~6x gap. Lead BRENT/ZHAO.	
+SIG-W-20260813-009	2026-08-13	JAPAN_BOJ	ROUTINE	REFERRED		2026-08-15	Japan reserves ~$1T but only ~$200B cash. Lead SAM.	
+SIG-W-20260813-010	2026-08-13	BANK_CRE	ROUTINE	REFERRED		2026-08-15	CORRECTION: GSE multifamily serious DQ is a 60+ day metric on UPB, NOT 90+. Lead REGINALD. ** CARL RELEVANCE CHECKED: CRL-03 (Fannie MF DQ >0.80% GFC) was INVALIDATED 2026-07-02 on its own pre-registered trigger and V3 stepped 4->3, so no live CARL prediction rests on this metric. The 0.58%/0.65%/0.80% figures in CARLs history are all Fannie Monthly Summary Table 7 readings of the same series, so the 60+-not-90+ correction does not change any CARL number - it corrects the LABEL. Historical rows left as-is; flagged so nobody re-derives a 90+ comparison from them.	
+SIG-W-20260813-011	2026-08-13	OIL_ENERGY	PRIORITY	REFERRED		2026-08-15	Goldman exhibits: non-official China refinery runs, global visible-stocks counter. Lead BRENT/FALCON.	
+SIG-W-20260813-012	2026-08-13	MARKET_VOL	ROUTINE	REFERRED		2026-08-15	21-day-old Burry thread, three real series, sign inverted on one. Lead BOND/LIQUID.	
+SIG-W-20260813-013	2026-08-13	OIL_ENERGY	PRIORITY	REFERRED		2026-08-15	Saudi Bab el-Mandeb exports -90%, Sidi Kerir doubled to ~2.3mb/d. Lead BRENT/FALCON.	
+SIG-W-20260813-014	2026-08-13	PRIVATE_CREDIT	ROUTINE	REFERRED		2026-08-15	Two private-credit leadership exits. Lead BROCK. SUPERSEDED by -20260815-006 (the BXSL "late/after-hours" framing was wrong).	
+SIG-W-20260813-015	2026-08-13	GEOPOL_ENERGY	ROUTINE	REFERRED		2026-08-15	War-cover restriction on Saudi Red Sea cargoes 7/24, four days before rerouting reported = the mechanism behind -013. Lead BRENT/FALCON.	
+SIG-W-20260813-016	2026-08-13	BANK_CRE	ROUTINE	REFERRED		2026-08-15	37% downtown Seattle office vacancy vs a Q1-stale CREED instrument. Lead CREED/REGINALD.	
+SIG-W-20260813-017	2026-08-13	HOUSING	ROUTINE	REFERRED		2026-08-15	All six FL top-50 counties negative YoY on Zillow June vs CORAL carrying FL SF median +4.9% YoY same month. Lead CORAL/HOMER. ** NOTED as a same-market/opposite-sign pair of the kind CARL hit three times this session (CC share vs dollars, OZK ratio vs dollars, FHA DQ vs foreclosure inventory). CARL carries no FL HPI figure of its own, so nothing to reconcile here; FL foreclosures row is ATTOM-based and unaffected.	
+SIG-W-20260813-018	2026-08-13	FUNDING_LIQUIDITY	ROUTINE	REFERRED		2026-08-15	T-bill holdings +$290B/7mo vs LIQUIDs ~$10B/mo RMP pace. Lead LIQUID.	
+SIG-W-20260813-019	2026-08-13	CONSUMER_CREDIT	ROUTINE	INTEGRATED		2026-08-15	CARL-LEAD. "Weakening unit sales now outweighing rising prices" in grocery - a regime claim on CARLs core arriving with NO NUMBERS (unusual_whales relaying CNBC). ** RESOLVED BY A BETTER SOURCE THE SAME WEEK: LABOR routed the underlying Bain/NielsenIQ study 8/12 WITH numbers (grocery UNIT sales down ~2% YoY in four of five months, June -1.8%, volume decline now outweighing price => nominal grocery sales falling; 80% trying to cut, 28% actively cutting; ~+33% vs 2019). Integrated on that basis, not this one. Recorded as an instance where the numberless viral version and the sourced version said the same thing - which is luck, not corroboration.	
+SIG-W-20260813-020	2026-08-13	PROCESS_DISCIPLINE	PRIORITY	INFO_ONLY		2026-08-15	N5 v1.1 - capture-time clause adopted, reference boundaries. Fleet process rule, CARL is a downstream adopter not a lead. Noted; CARL quotes daily settles and weekly FRED prints with explicit as-of dates already (see the 8/15 gas/diesel rows). No CARL surface change required.	
+SIG-W-20260815-001	2026-08-15	CONSUMER_CREDIT	PRIORITY	INTEGRATED		2026-08-15	CARL-LEAD, ACTION TAKEN. OTTO built a falsifier for its OWN thesis, ran it, and it REFUTED: the "invisible exit"/skip-default framing is DISCONFIRMED as a general deep-subprime effect. The test is an ASYMMETRY not a correlation - ordinary deterioration gives frequency UP / severity FLAT, skip-default gives frequency FLAT / severity UP. Panel mean dSeverity +0.06pp vs dFrequency +1.85pp (EART 4 deals x 13 monthly 10-D filings 2025-07-25 -> 2026-07-30); 3 of 4 deals show the ordinary-credit signature individually, 2 show severity FALLING. A MEASURED NULL with thresholds base-rated BEFORE being set (pooled monthly recovery SD 2.12pp => min detectable skip-share change 4.5% at n=12). ** CARL ACTION DISCHARGED: swept own surfaces for a skip-bypass discount on auto-DQ prints - CARL carries the Tricolor custody-collapse row and a ROADMAP "abandonment leg needed for roll-rate models" thread, but applies NO discount to any auto-DQ figure or prediction; the auto 90+ row reads the published series straight. So there was nothing to remove. The ROADMAP abandonment-leg thread is re-scoped from industry-wide to LENDER-CONCENTRATION per OTTOs own narrowing (Tricolor: 75% undocumented, 68% no credit score). ** INSTRUMENT NOTE BANKED, worth more than the result: Exeter/EART is the ONLY public subprime shelf disclosing a recovery rate (20/20 rows vs Santander 0/15, Bridgecrest 0/10) - loss SEVERITY is simply unobservable on those shelves, which bounds any replication and matters directly to the V2 OTTO-panel leg spec owed before ~8/17.	
+SIG-W-20260815-002	2026-08-15	PRIVATE_CREDIT	ROUTINE	REFERRED		2026-08-15	Prospect Capital / First Brands Rule 2004 discovery. Lead BROCK.	
+SIG-W-20260815-004	2026-08-15	OIL_ENERGY	PRIORITY	REFERRED		2026-08-15	Sheskharis halted crude loadings again 8/14, two stated causes. Lead OSPREY/BRENT. Consumer leg is pump pass-through, already tracked.	
+SIG-W-20260815-005	2026-08-15	GEOPOL_ENERGY	PRIORITY	REFERRED		2026-08-15	Third Jazan strike CLAIMED 8/13 (claim-only), two days before the stated 8/15 restart. Lead FALCON/BRENT. ** CARL docket row for the 8/15 Jazan restart watch is LIVE TODAY and stays - product-side supply loss is the diesel/gasoline pass-through input, and diesel is $5.440 and climbing (+11.9c in four days).	
+SIG-W-20260815-006	2026-08-15	PRIVATE_CREDIT	ROUTINE	REFERRED		2026-08-15	WRITETHRU of -20260813-014: BXSL was NOT disclosed late, it was filed at the Item 5.02 statutory deadline and "after hours" was never established. Lead SHADE/LIQUID/REGINALD.	

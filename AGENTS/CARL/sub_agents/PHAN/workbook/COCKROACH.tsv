@@ -1,3 +1,14 @@
+# TWO-CLOCK HEADER (PAT-044) — added 2026-08-15 by CARL. This ledger is APPEND-ON-EVENT, not periodic-refresh.
+# Last real data refresh: 2026-07-10
+# Last hygiene/no-event check: 2026-08-15
+# ⚠️ READ THE GAP CORRECTLY: a stale DATA clock on an event log is AMBIGUOUS - it is consistent with "no qualifying events occurred"
+#    AND with "nobody looked". Only the hygiene clock distinguishes them, which is why both exist.
+#    ledger_staleness.py flagged this file at +36d behind STATUS on 2026-08-15; that flag had NO OWNER, because
+#    PHAN is DOSSIER-MODE (no standing refresh) while these two ledgers were designated "stay live-append" on 7/10.
+#    A live-append ledger owned by an agent with no boot cadence rots BY CONSTRUCTION - that is the defect, not the row count.
+# ⛔ NOT FROZEN, deliberately: the channels are genuinely live and PHAN has a spawn trigger imminent (Affirm FQ4, 8/20).
+#    OWED AT THAT SPAWN: sweep for qualifying events since 2026-07-10, then advance the DATA clock if events were added
+#    or record an explicit DID_NOT_APPEAR null if none. Advancing ONLY the hygiene clock must never launder freshness.
 Company	Type	Event	Date	Description	Contagion	Consumer_Impact	Signal_Value	Source	Notes
 CURO	PAYDAY	FAILURE	2024-06-30	Payday/installment lender filed bankruptcy. One of the largest subprime consumer lenders.	Limited — mostly self-contained	Customers lost access to credit lines. Forced to other lenders.	HIGH	Public filings	First cockroach. Payday/installment model under stress from regulatory + credit deterioration.
 Synapse	BAAS	FAILURE	2024-07-01	Banking-as-a-Service platform collapsed. Consumer funds frozen across multiple fintech partners.	YES — downstream fintechs lost banking partner. Consumer funds inaccessible.	Thousands of consumers had funds frozen. Multiple fintechs impacted.	HIGH	Public / FDIC	BaaS model vulnerability exposed. Platform risk ≠ bank risk.
