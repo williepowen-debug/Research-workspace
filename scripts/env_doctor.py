@@ -134,7 +134,13 @@ MACHINE_EXTRAS = {
     "DESKTOP-BC6EF81": [  # desktop (verified 2026-07-02)
         ("kalshi creds (ORACLE lane)", Path.home() / ".config" / "kalshi" / "private_key.pem"),
         ("liquid-hy-watch timer unit", Path.home() / ".config" / "systemd" / "user" / "liquid-hy-watch.timer"),
-        ("pre-scrub mirror backup (until public-flip)", Path.home() / "Research-workspace-PRESCRUB-BACKUP-20260630.git"),
+        # Retired 2026-08-14 (DAEDALUS, scripts/ lane): the "pre-scrub mirror backup"
+        # row keyed on ~/Research-workspace-PRESCRUB-BACKUP-20260630.git. Backup was
+        # DELETED 2026-08-14 on Will's ruling (row 17 resolved the public-flip the
+        # other way — working repo private by design, demo repo is the public face),
+        # so the rollback net had no trigger left and its target held the unscrubbed
+        # history. The check would flag missing every desktop boot. Deleted rather
+        # than inverted per the ruling's own "nothing left to verify" wording.
     ],
     # "WilliePOwen" (laptop): no extras expected — kalshi/timer absence is by design.
 }
