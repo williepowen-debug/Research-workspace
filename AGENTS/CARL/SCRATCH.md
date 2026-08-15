@@ -1,89 +1,90 @@
 # CARL SCRATCH
-**Last session:** 2026-08-11 EVE → **2026-08-12 ~00:45 ET** (Tue eve, crossed midnight; Will live in-session)
-**Type:** **THE Q2 HHDC GRADE.** Print landed Tue morning, graded same evening against the frozen card + 3 addenda. 11 canonical/routing writes, 6 packets, closeout tail, 2 BOARD dispositions, AV_TRACKER frozen.
+**Last session:** 2026-08-15 (Sat, Will-directed 4-item run: kill-rule re-spec → inbox drain → July prints → BOARD + ledgers)
+**Type:** Backlog-clearing session after a 3-day gap. **Inbox 18 → 0. BOARD 44 → 0.** Three scored moves. One self-reversal.
 
-**PRIORITY-1: JULY CPI PRINTS **TODAY, Wed 8/12, 8:30 ET** — and it is pre-registered DO-NOT-GRADE ×2.** (a) **Gasoline: base effect** — CPI is a monthly average; June averaged $4.050 running DOWN, July-to-date averaged ~$3.95 ⇒ **~−2.6% MoM gasoline is EXPECTED and is NOT a pass-through failure.** (b) **Tariffs: only ~8 days of Sec-301 in-month** (effective 7/24), so a soft core-goods print is **not** evidence of weak pass-through. **The real pass-through test is AUGUST CPI (Fri 9/11).** Write that down before reading the print.
+---
+
+## PRIORITY-1: **THE KILL-RULE DECISION IS NOW *TWO* DECISIONS AND WILL OWES BOTH BY ~9/30.**
+Row 44 is **encoded** (`thesis/KILL_RULE_RESPEC_2026-08-15.md`, both riders satisfied) — but base-rating my own draft reversed it, and the choice that came out is **not** the one Will was asked to make on 8/12.
+
+**Direction-only leg 2 fires in 43.5% of 94 quarters and is not GFC-silent.** The survivor (**cumulative ≥100bp**: 5.4%, GFC-silent, fires once in 23 years on the genuine 2010-11 healing episode) **resets the count 1-of-2 → 0-of-2 and buys CARL a print.**
+
+- **(A)** ratify the ≥100bp floor — *CARL recommends*
+- **(B)** disjunctive share-OR-flow — **holds 1-of-2, ratchet-proof by construction** — *CARL pre-committed to accept without argument*
+- **(C)** reject, grade as-written at Q3
+
+**RED was asked to choose A or B and CARL will carry RED's answer to Will as its own rec.** ⚠️ **Owed before ratification:** re-pull `HHD_C_Report_2026Q2.pdf` and quote the **servicer-transfer caveat's scope** verbatim — it appears **nowhere in the data workbook**, and if it reaches card reporting the re-spec's instrument inherits a sign-unknown bias.
 
 ---
 
 ## CHANGES SINCE LAST SESSION
-- **The HHDC landed and was graded — see WHAT HAPPENED. It went AGAINST the thesis.**
-- **Gas: no breach, cushion WIDENED.** AAA daily **$4.012** [8/11] vs $4.0091 [8/10] = **1.2¢ cushion, clock NOT started.** ⚠️ **But the WEEKLY is the tighter instrument and it is closing: FRED GASREGW $4.006 (w/e 8/10), −7.3¢ WoW, 2nd consecutive down-week (4.106 → 4.079 → 4.006) = 0.6¢ from the line.** Diesel $5.321. Crude Brent $89.20.
-- **2 BOARD signals landed 8/11, both dispositioned this session** (neither CARL-lead): RED-FT-06 VIX fire → REFERRED; N5 futures-bar fleet rule → INFO_ONLY with an explicit scope call on the record.
-- **2 new inbox packets are UNPROCESSED** (below) — PROME/STEO 8/11 and **MARCO/Channel-4, landed 00:19 mid-session**.
+- **Gas went the OPPOSITE way from the standing watch.** AAA **$4.070** (8/15) vs $4.012 (8/11) — the ~8/20 V5 downgrade watch is answering **NO**; cushion **widened 1.2¢ → 7.0¢**, clock never started. **Diesel $5.440, +11.9¢ in four days** — bears on the **8/17 diesel natural-experiment final grade**.
+- **Two prints landed unintegrated:** July CPI (8/12) and **July retail sales (~8/14, ex-food −0.8% MoM)** — the latter **was not on the docket at all**, a gap not a stale row.
+- **16 new inbox packets** arrived 8/12-8/14, including **two corrections to figures CARL had published outward**.
+- **43 → 44 BOARD signals** accumulated across 8/12, 8/13, 8/15.
 
 ## WHAT HAPPENED
-1. **Boot** — clean pull, all 7 scripts OK. Flagged that the HHDC had printed ~8h earlier and was unintegrated.
-2. **Pulled the primary direct** — `HHD_C_Report_2026Q2.pdf` + **`.xlsx`**, newyorkfed.org. **WebFetch 403 → curl + browser-UA** (the documented route). Cover confirms *2026:Q2, released Aug-2026* — year-trap cleared. **Q1 NOT revised → guard #4 satisfied.**
-3. **Graded §2 → CRL-05 MATERIALLY ADVERSE.** CC 90+ **12.92%, −20bps from 13.12% = first decline off the 15-yr high.** Card band said cut 85 → ≤55; **took it to 20** on the arithmetic (+82bps needed in one quarter vs a +42bps largest-recent).
-4. **Graded §3 → CELL B (AMBIGUOUS)**, called ambiguous not favourable. **Cell C failed on its THIRD conjunct**: CC transitions MIXED not falling (into-30+ **ROSE**), auto + mortgage transitions rose on BOTH legs. **CRL-20 held 45, explicitly not scored either way.**
-5. **CRL-21 position action = HOLD** (Will's 7/24 cell-ruling) → **no trim, no duration extension; Aug-21 expiries revert to a standalone TERRY/Will call.**
-6. **Ran the §4 guards out loud as a checklist.** Guard #5 paid off twice — the **data file** publishes auto 90+ numerically, closing a 30-day thread **without eyeballing a chart**.
-7. **Logged two defects in my OWN card** rather than resolving silently: cells **B/C overlap at exactly −20bps**, and §2's *"starts the V1 clock"* **contradicts** the registered trigger (`THESIS.md:290`, <12.0%×2).
-8. **Wrote through 5 canonical surfaces + 6 packets**, then the closeout tail: ROADMAP (auto-90+ thread CLOSED; kill-rule thread OPENED), TEAM, MEMORY +2, **AV_TRACKER FROZEN** with a dated re-open trigger on GIG's card, BOARD ×2, **auto-memory extended** (`finding_crlf_textmode_tsv_flip`).
-9. **Hit the whole-file-TSV-rewrite trap TWICE and caught both** — `csv.writer` re-quoting rewrote all 378 KB rows; text-mode replace stripped CRLF from all 29 PREDICTIONS rows. Both repaired to minimal diffs. **PREDICTIONS.tsv could not be `git checkout`-ed** (held the uncommitted grade) — repaired in place.
+1. **Row 44 encoded** — leg 2 re-keyed 90+ balance SHARE → **flow into 90+ (HHDC `Page 14`)**, on two measurements: the flow series was **unrevised** where the balance series moved **$10B**, and a dollar leg would carry a **43× revision-to-signal ratio**.
+2. **Then I base-rated my own trigger and it failed** (DEWEY C3's "flat 6.93-7.18% for eight quarters" is what prompted it). Reversal disclosed in the loudest terms on every surface + packets to PROME and RED.
+3. **⚠️ CARD GUARD #4 WAS GRADED WRONG — Q1 *was* revised** (CC balances −$10B). Share and flow were **not**, so the grade stands; but *"dollars ROSE $0.23B"* is derived and **reverses sign cross-vintage**. §8 addendum on the frozen card, original verdict left visible.
+4. **Inbox 18 → 0**, leading with REGINALD (the "15-year high" superlative is **basis-broken** — Equifax 3.0 → VantageScore 4.0 at 2026:Q1) and HOMER (**FHA 11.88 → 11.79**, and the decline is **migration, not relief**).
+5. **July CPI integrated as DATA ONLY** — the pre-registered do-not-grade held on both legs. **August CPI (Fri 9/11) is the real pass-through test.**
+6. **BOARD 44 → 0** (35 REF / 5 INT / 4 INFO), 0 dupes, + **109 pre-existing ragged rows repaired**.
+7. **PHAN's two ledgers given two-clock headers**, not frozen; sweep obligation attached to its 8/20 spawn.
 
 ## STATUS CHANGES
 | Item | Change |
 |------|--------|
-| **CRL-05** | **85% → 20%** — materially adverse; stays OPEN, Q3 (~Nov) resolves, **timeframe NOT extended again** |
-| **CRL-20** | **45% HELD** — cell B, explicitly not scored in either direction |
-| **CRL-21** | Position action **= HOLD**; card no longer drives the Aug-21 expiries |
-| CRL-05 / CRL-15 | **Undated "Currently …" self-stamps re-stamped with vintages** (CRL-05's had survived 3 prints) |
-| **Convergence** | **NO CHANGE — 53/70 (76%), v2.6.5** (card §0 pre-committed it; V1 trigger untouched) |
-| STATUS.md | Header/Overall/NOW/BOTTOM-LINE + 5 rows rewritten; **6 superseded rows retired to hold exactly 250 lines** |
-| Auto 90+ | **Q1 = 5.60% EXACT (primary-confirmed)**, Q2 5.49% — 7/12 flag CLOSED |
-| Student 90+ | stock 10.34 → **10.60%**; flow into 90+ **10.86 → 7.83%** = **cohort exhaustion** |
-| AV_TRACKER | **FROZEN 2026-08-12** + dated re-open trigger on GIG's spawn card |
-| KB / BOARD_LOG | KB-382 (+1 → 378 rows) · 2 dispositions (+2 → 698 rows) |
+| **CRL-20** | **45 → 35** — DEWEY C3 benign base rate, taken as prominently as a confirm |
+| **CRL-17** | **40 → 25** + **forced call pre-registered 9/30, do not roll** |
+| CRL-04 | Notes −69pt → **−62pt** (canonical FICO figure) |
+| **Kill rule** | Re-spec DRAFTED, **not live**; THESIS pointer corrected same day after it carried a false "rescues nothing" for ~2h |
+| **Convergence** | **NO CHANGE — 53/70 (76%)** |
+| Gas / diesel | AAA $4.070 ↑ · diesel $5.440 ↑ · FRED weekly $4.006 |
+| KB / BOARD | KB 384 rows (+5) · BOARD_LOG 737 rows (+44), 0 undispositioned |
 
 ---
 
 ## NEXT SESSION SHOULD
 
-### IMMEDIATE (today, Wed 8/12)
-1. **Pull gas FIRST** (standing rule). **Watch the WEEKLY, not just the daily** — FRED w/e 8/17 prints Monday and is 0.6¢ from the line falling 7.3¢/wk; **a sub-$4.00 weekly starts nothing by itself (the trigger is AAA daily <$4.00 sustained 2wk) but it is the leading tell.** If AAA daily breaches, **write down the breach date — the 2-week clock starts THERE.**
-2. **July CPI 8:30 ET — DO NOT GRADE the pass-through** (both reasons in PRIORITY-1). Integrate as data; grade in September.
-3. **Process the 2 unprocessed packets** (PROME/STEO gasoline path — mine on the consumer-transmission leg; MARCO/Channel-4 fiscal terminus).
+### IMMEDIATE
+1. **Pull gas first** (standing rule). The V5 downgrade watch (~8/20) is currently answering NO — **if AAA breaches $4.00, write down the breach date; the 2-week clock starts THERE.**
+2. **8/17 — TWO items, both dated:** the **diesel natural-experiment FINAL grade** (print 2 = w/e 8/10, the pre-registered peak-arrival week; diesel is climbing, so direction favours the *structural* legs over reversible-Hormuz) **and the OTTO panel filings = V2's re-pointed instrument, first read.** ⚠️ **The OTTO leg spec is owed to Will BEFORE registration** — and OTTO's 8/15 falsifier adds a hard constraint: **Exeter/EART is the only public subprime shelf disclosing a recovery rate** (20/20 vs Santander 0/15, Bridgecrest 0/10), so loss severity is unobservable elsewhere.
+3. **Check whether RED answered on A-vs-B.** That gates the kill-rule rec to Will.
 
-### UPCOMING (this week)
-4. **~8/13 Treasury Phase-1** re-scoped watch (Default Resolution Hub primary; nothing → re-date ~8/27) · **~8/14 MOHELA** docket check (pre-answered silent thru 8/10 — **use curl+UA, WebFetch 403s**) + DEWEY C3 · **8/15 Jazan restart** (FALCON FAL-03) · **~8/17 OTTO panel filings = V2's re-pointed instrument, first read** (leg spec owed to Will BEFORE registration) + **diesel natural-experiment FINAL grade** (print 2 = w/e 8/10, the pre-registered peak week).
+### THIS WEEK
+4. **8/19** Canada Sec-338 +50% effective · **8/20** Affirm FQ4 — **PHAN ledger sweep rides this spawn** (events since 7/10, or an explicit DID_NOT_APPEAR null) · **8/20** V5 downgrade watch · **8/21** Iran waiver expiry · **8/22 DAEDALUS two-state pilot report DUE — the deferral expired when the HHDC landed and STATUS is at exactly 250/250; I bought that room by retiring rows and it is not repeatable.**
 
-### UPCOMING (next 2 weeks)
-5. **8/19 Canada Sec-338 +50%** effective (consumer-facing annex) · **8/20 Affirm FQ4** (PHAN trigger) · **8/20 V5 downgrade watch** (does the 8/2-3 crude break reach the pump?) · **8/21 Iran waiver expiry** · **8/22 DAEDALUS two-state pilot report DUE** — the rotation was deliberately deferred to post-HHDC and **the HHDC has now landed, so the deferral has expired; STATUS is at exactly 250/250 and I bought that room by retiring 6 rows, which is not repeatable** · **8/31 CRL-07 forced call**.
+### NEXT 2 WEEKS
+5. **8/31** CRL-07 forced call (do not roll) · ABS subordinate rating actions · FL/national UI exhaustion peak · **9/1 ISM** (new capture-gap row) · **9/4 August NFP — V16 escalate-to-5 resolver, month 2** · **9/11 August CPI — THE pass-through test** · **9/15 August retail sales** (new row; **demand the control / ex-auto-gas decomposition, not the headline**) · **9/18 CARL-DR-1 FHA leg re-commission decision** · **~9/30 kill-rule ratification deadline**.
 
 ### BACKLOG
-6. GIG-P03/P06 re-instrumentation · Check-G publishability precheck · **Check-G seam-lint candidate: do adjacent quantitative cells PARTITION?** (new, from this session's card defect) · Fix B (consistency sub-agent coverage) · CPI component-vol rebuild · AMCAR Apr-vs-Jun cert + GMCAR label fix · **Brier re-run at N≈20 — now N=14 with CRL-05 pending, and CRL-05 resolving MISSED would be the first big-cut-that-was-right datapoint** · DEWEY DR-1 ~8/18 / DR-2 ~8/25 / DR-3 ~8/28.
+6. **Check D upgrade** — must require the Instrument field to name a **publisher + series**, not a source category (POP's find; CRL-17 passed while reading *"CARL composite estimate"*). · **BOARD_LOG `challenges_threshold` column** — STUE's find: *`INTEGRATED` means TRANSCRIBED, not REASONED ABOUT*; nothing in the workflow asks whether an integrated fact contradicts a standing threshold. · Check-G seam-lint (do adjacent quantitative cells PARTITION?) · GIG-P03/P06 re-instrumentation · Brier re-run at N≈20 · AMCAR Apr-vs-Jun cert + GMCAR label fix · leg-1 (claims) revision exposure is un-specced.
 
 ---
 
 ## OUTBOX (0 new; 6 stale Apr-17 signals still deferred per messaging overhaul)
 
-## INBOX (2 unprocessed)
-| File | From | Summary |
-|------|------|---------|
-| `2026-08-11_from-PROME_forum4-close-steo-gasoline…` | PROME | Aug STEO: retail gasoline **2026 $3.78 → 2027 $3.29**; wholesale gasoline **+5.9%**, diesel **+8.5%** vs July. **Consumer-transmission leg is MINE** (BRENT makes no consumer claim). Cutoff 8/6. |
-| `2026-08-12_from-MARCO_channel4-fiscal-terminus…` | MARCO | Landed **00:19 mid-session**, unread. Channel-4 fiscal terminus — "evidenced against, but the test is weaker than it looks." |
-
-*Filed to `processed/` this session: PROME spawn-rider (AV disposition) · DAEDALUS AV_TRACKER.*
+## INBOX (0 unprocessed — drained from 18)
+*Filed to `processed/` this session (18): PROME ×3 (row-44 ruling · prune-scan · STEO) · RED · REGINALD · HOMER ×2 · STUE ×2 · DEWEY ×3 (C3 · DR-1 · DR-4) · POP ×2 · LABOR · MARCO · AEOLUS · VULCAN.*
+**Sent (10):** PROME ×2 (encode + reversal addendum) · RED ×2 · REGINALD · HOMER · STUE · POP · DEWEY · AEOLUS · LABOR · VULCAN · WALTER.
 
 ---
 
 ## WORKBOOK HEALTH
 | File | Rows/Size | Note |
 |---|---|---|
-| STATUS.md | **250 lines / 156KB** | **AT the cap exactly** — 6 rows retired to fit; byte mass is the pilot target, **rotation due 8/22** |
-| KB.tsv | 379 (378 data) | +1 (KB-382). **LF file — append with `\n`** |
+| STATUS.md | **250 lines / 172KB** | **AT the cap** — all edits were in-place expansions; **byte mass is the pilot target, rotation DUE 8/22** |
+| KB.tsv | 384 (383 data) | +5. **LF file — append with `\n`**; KB-302 ragged row repaired |
 | PREDICTIONS.tsv | 29 | 15 OPEN. ⚠️ **CRLF file — binary-mode edits ONLY** |
-| CATALYSTS.tsv | 22 | HHDC row pruned (fired); CALENDAR synced + hand-verified |
-| BOARD_LOG.tsv | 698 | 0 undispositioned |
-| NEXUS_BRIEF.md | ~101 lines | folded LAST per Amendment 10 |
-| MEMORY.md | 83 lines | +2 (card-seam; data-file-companion) — under 100 cap |
-| AV_TRACKER.tsv | 22 + banner | **FROZEN 2026-08-12** |
+| CATALYSTS.tsv | 22 (21 data) | 3 pruned / 3 added; **CALENDAR mirror hand-verified 21↔21** |
+| BOARD_LOG.tsv | 745 (737 data) | +44, **0 undispositioned, 0 dupes**; 109 legacy ragged rows repaired |
+| MEMORY.md | 89 lines | +5 findings — under the 100 cap but **close; next session should promote rather than append** |
+| PHAN COCKROACH/REGULATORY | +37d | **two-clock headers added, NOT frozen** — sweep rides the 8/20 PHAN spawn |
 
 ---
 
 ## URGENT
-- **🔴 THE FULL-THESIS KILL RULE IS ONE PRINT FROM FIRING AND WILL OWES A DECISION.** `THESIS.md:398` — claims <220K 8+wks **(199K = leg 1 satisfied)** AND CC 90+ declines 2 consecutive quarters **(Q2 = decline 1 of 2)**. **A second decline in November fires it.** Packet in `PROME/inbox`. **The decision must precede the Q3 data — chasing it in November is the failure mode.** Do not let this sit.
-- **DO NOT GRADE TARIFF OR GASOLINE PASS-THROUGH ON TODAY'S CPI.** Both are pre-registered. August CPI (9/11) is the test.
-- **53/70 is now asymmetric the OTHER way:** two up-legs executed on their letters while the down-leg's adverse evidence landed in **confidence** (CRL-05 −65pp), not the score — because V1's trigger wasn't reached. That is the trigger structure working, **and** the thing to watch. V2's OTTO panel reads ~8/17.
+- **🔴 THE KILL RULE IS STILL ONE PRINT FROM FIRING *AS WRITTEN*, AND THE RE-SPEC WOULD MAKE IT TWO.** That gap is the entire decision. **Under (A) the two counts start ONE APART, so the as-written rule can fire at Q3 while the re-spec sits two prints away** — the shadow-grade rider is what makes that visible and it is now load-bearing, not ceremonial.
+- **⚠️ CRL-05 IS BASIS-EXPOSED AND NOBODY HAD NOTICED.** It resolves on a **LEVEL** (>13.74%, an **Equifax-3.0-era** figure) against VantageScore-4.0 prints. The balance-based defence is probably right but **was asserted against the methodology change, never tested against this switch.** **Settle the basis question before grading it in November.**
+- **CARL OWES AN ADJUDICATION IT HAS NOT MADE:** SNAP-policy vs labour-cycle behind the grocery-volume decline. Both LABOR and WALTER routed it here; **a policy driver and a cycle driver produce the identical print with completely different durability.** Recorded as a gap on my own surface rather than resolved toward the book. Named test: SNAP participation **by state** vs grocery volume **by state**.
