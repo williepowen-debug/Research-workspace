@@ -1,6 +1,6 @@
 # FLEET DIRECTORY — what every agent is, does, and is missing
 
-> **GENERATED — DO NOT EDIT.** Rendered from `PROME/ROSTER.md` (existence · domain · status) + `AGENTS/DAEDALUS/FLEET_MAP.tsv` (class · maturity · missing/next) by `AGENTS/DAEDALUS/scripts/render_directory.py`. Edit the **sources**, then regenerate — hand-edits are overwritten. Generated 2026-08-12.
+> **GENERATED — DO NOT EDIT.** Rendered from `PROME/ROSTER.md` (existence · domain · status) + `AGENTS/DAEDALUS/FLEET_MAP.tsv` (class · maturity · missing/next) by `AGENTS/DAEDALUS/scripts/render_directory.py`. Edit the **sources**, then regenerate — hand-edits are overwritten. Generated 2026-08-15.
 
 *One source of truth per column (PAT-006): **what it does** + **status** ← ROSTER (PROME); **class** + **maturity level** + **missing/next** ← FLEET_MAP (DAEDALUS). "Missing / next" is a truncated one-liner — full gap detail in `FLEET_MAP.tsv` + `upgrades/<AGENT>_CARD.md`. Dormant agents are un-graded → blank grade cells. PROME graded 2026-07-28 (Will-ratified, judgment-read only — the scripted floor cannot see a root-level agent).*
 
@@ -31,7 +31,7 @@
 | ZHAO | Market | L3 | China macro — UST demand / capital flows / Korea | L3->L4: consumption evidence (LIQUID absorb |
 | AEOLUS | Market | L2 | Climate → economy (macro; insurance/ag/energy-demand channels) | PROME spawn flag routed 7/22 stands |
 | WATT | Market | L3 | Power/grid — PJM stress → wholesale price → industrial/data-center cost | L3->L4: consumption already forming (AEOLUS seam two-way, VULCAN CRWV c… |
-| VULCAN | Market | L3 | AI-capex / semiconductor / memory cycle → systemic risk (concentration, memory, power-demand, Taiwan chokepoint) | L3->L4: consumption legs (WATT already consuming the CRWV S3-S5 contrac… |
+| VULCAN | Market | L3 | AI-capex / semiconductor / memory cycle → systemic risk (concentration, memory, power-demand, Taiwan chokepoint) | L3->L4: consumption legs only (WATT already consuming the CRWV S3-S5 co… |
 | MIDAS | Market | L3 | Metals — monetary (gold/silver: debasement, real-rates) + industrial (copper/PGM: growth, China, supply) | Firm L3 conf M->H: MIDAS-05 grade ~7/23 |
 | OSPREY | Market | L2 | Russia/Ukraine war theater — energy-strike campaign, crude-vs-products channel, shadow-fleet kinetic strikes, Baltic/Black-Sea ports | L3: OSP-01/02/03 resolving (window Aug 1-3) |
 | FALCON | Market | L4 | US/Israel/Iran-Gulf war theater — A/B/C/D ladder, Hormuz, Gulf targeting, Bab-al-Mandab/Houthi, Baghdad watch | L4->L5: process the 8/6 Will-ruling write-back tail FIRST (VX-FALCON-SU… |

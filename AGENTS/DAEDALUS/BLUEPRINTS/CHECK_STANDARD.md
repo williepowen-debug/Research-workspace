@@ -40,3 +40,12 @@ A flag nobody can act on is alert fatigue. Each failure line carries (or the che
 ## 6. Failure-direction is chosen, and stated
 
 Every discriminator biases somewhere. State which way: a missed URL is noise, a missed real dead pointer is a fire-path break ⇒ bias toward flagging (firetime URL guard skips ONLY when no repo entry of that name exists). A guard against a known FP class is a standing false-negative risk (finding_standing_guard_is_a_false_negative_risk) — which is why §1 forbids pattern-suppression and why an FP-class fix narrows the check instead of widening the skip.
+
+## 7. Transient sources get ONE retry, and a cleared transient is still an EVENT (adopted 2026-08-15, PROME-routed off BRENT's 8/13 review; n=3 measured)
+
+Any fetcher feeding a **graded or boot-read surface** must, on a first-pass failure (HTTP 5xx, timeout, `None`-shaped empty response): **retry once immediately** before either recording the source unavailable or silently keeping the prior value. Then:
+
+- **Clears on retry** → use the fresh value AND **log the transient as an event** (a dated line in the fetcher's output or its owner's ledger — the class stays countable; it is never absorbed as if the first pass hadn't happened).
+- **Persists through retry** → record `UNAVAILABLE` **loudly** (a printed flag naming the series, per §2/§5) — never a silent keep-prior. A retry-free consumer sees a *silent gap rather than an error*: the row just doesn't update, no rc fires, and downstream freshness checks read the stale value as the newest. Transient-and-self-healing is the worst shape precisely because nothing fails.
+
+Measured instances (why n=3 earned a rule): 2026-08-13 BRENT — four FRED rows (`BAMLH0A0HYM2` ×3, `DHHNGSP`) threw 500/timeout on first pass, probed clean on immediate retry · 2026-08-12 PROME — `yfinance` `NoneType` ×3 + one FRED timeout, all cleared on retry · the `BZZ26` episodes (BRENT, prior sessions). This is the network-layer sibling of the mtime/staleness classes: the defect is invisible at the surface that inherits it. BRENT deliberately did NOT build a desk-local wrapper ("that fixes one desk and leaves the pattern live everywhere") — the rule is fleet-level by construction. Binds new fetchers at build time and existing ones at next material edit, per this standard's scope line.

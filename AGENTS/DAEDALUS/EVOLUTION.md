@@ -7,6 +7,14 @@ Newest first. Keep entries terse; archive build minutiae to `FLEET_MAP.tsv`.
 
 ## Changelog
 
+### 2026-08-15 — Inbox-drain triple encode: CHECK_STANDARD §7 (transient retry) · market-agent boot-time predictions scan · market-agent interpreter-proof invocations
+
+Three standard changes in one pass, all consuming queued packets:
+
+1. **`CHECK_STANDARD.md` §7 — transient sources get ONE retry, and a cleared transient is still an EVENT.** PROME-routed off BRENT's 8/13 review (n=3: BRENT four FRED 500s cleared on retry · PROME yfinance/FRED transients 8/12 · the BZZ26 episodes). The class is the network-layer sibling of the mtime/staleness family: transient-and-self-healing produces a *silent gap* — no rc fires, and freshness checks read the stale value as newest. Fleet-level by construction (BRENT deliberately declined a desk-local wrapper). Owner-lane encode, no Will gate needed per PROME's packet.
+2. **`market-agent.md` §5 — the boot-time "due/stale OPEN predictions" scan is now the mechanized REQUIRED form of Boot resolution** where the agent has a scripted boot, and the build-time default for new agents (Will-approved 8/14, row-39/49 rider). WATT/VULCAN/MIDAS `boot.py` trio + LABOR = reference implementations; content-vintage not mtime; rollout NEXT-TOUCH, no retroactive sweep. Closes the one PARTIALLY-mechanized exception class named by the recovered 7/23 system-report additions (P1/P5's "first extension").
+3. **`market-agent.md` hygiene lane — interpreter-proof tool invocations (PAT-103, off VULCAN L-16).** A venv-only dep behind a documented bare-`python3` recipe is a latent instrument failure; the dangerous subclass catches the import error and continues (semi_watch dropped its whole equity leg as honest `ERR:` rows). Fix at the TOOL (self re-exec under `.venv`), never the docs. Fleet measurement 8/15: 39 scripts import yfinance; protection spectrum doc-only → catch-and-continue → re-exec. Sibling of PAT-031 (cwd-proof): the documented invocation must match runtime reality — cwd was the first axis, interpreter is the second.
+
 ### 2026-08-14 (b) — N5 pointers in market-agent & utility-agent now name a VERSION (WALTER ASK closed)
 
 Two blueprint pointers to `SIG-W-20260811-002` (WALTER's futures-bar / capture-time rule) previously named no version. WALTER's SIG-W-20260813-020 flagged the class: *"a bare pointer silently resolves to whatever version exists at read time — which is correct here and is the failure mode elsewhere."* Both pointers now name **v1.1 (2026-08-13, capture-time clause (i-b) adopted)** with an inline version-pinning-discipline note that says the pointer moves in the same touch when WALTER bumps N5. Fixes the mechanism the ASK targeted — a reader can now compare the pointer's stated version against the file's actual version and detect drift. My pointer-not-mirror ruling from 8/12 is unchanged.
