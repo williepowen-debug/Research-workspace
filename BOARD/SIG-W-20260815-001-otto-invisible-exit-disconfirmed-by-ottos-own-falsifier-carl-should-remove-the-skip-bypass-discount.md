@@ -13,7 +13,7 @@ entities: [EART, Exeter, Tricolor, subprime-auto, loss-severity, delinquency-tra
 signal_type: correction
 confidence: 0.85
 verdict: CONFIRMED-SELF-REFUTATION
-corrects: SELF-OTTO (OTTO's Secondary "Invisible Exit" thesis as a GENERAL deep-subprime effect, supplied to the fleet since ~Feb 2026)
+corrects: EXTERNAL: OTTO's Secondary "Invisible Exit" thesis as a GENERAL deep-subprime effect, supplied to the fleet since ~Feb 2026 and cited in cross-agent work. Declared EXTERNAL rather than SELF because SELF is reserved for WALTER correcting a WALTER signal - this corrects an OTHER AGENT's thesis, and it is OTTO's own self-refutation. Corrects no prior WALTER signal.
 consumer_lens: CARL owns consumer-DQ transmission and is the most affected — any discount applied to auto-DQ prints on skip-default grounds is now unsupported for the broad deep-subprime population. MARCO's immigration-cohort channel does not lose relevance; it gains specificity.
 cluster_secondary: PC_STRESS
 ---
