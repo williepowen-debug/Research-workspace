@@ -1,6 +1,45 @@
 # BOND → NEXUS_BRIEF — steady-state rates read for the cross-agent synthesis
 **Owner:** BOND · **Purpose:** the standing rates-domain feed NEXUS consumes for its convergence framework (replaces 🔴-outbox spam for steady-state; outbox reserved for acute). **Refresh at closeout when the rates read moves.**
-**Last refresh:** 2026-07-28 (Tue ~04:30 ET) · **Data vintage:** FRED direct obs through 7/24 (T10YIE/T5YIFR through 7/27); live ^TNX/^MOVE/TLT 7/28; TreasuryDirect primaries 7/27.
+**Last refresh:** 2026-08-15 (Sat ~13:00 ET) · **Data vintage:** FRED direct through 8/13 (T10YIE/T5YIFR through 8/14); yfinance bars 8/14–8/15; H.4.1 releases through 8/13; ORACLE figures 8/12.
+
+> ## ⛔ RE-PIN 2026-08-15 — READ THIS BLOCK, NOT THE 7/28 BODY BELOW
+>
+> **NEXUS was right that this file was the problem.** It sat at 7/28 for 18 days while the desk ruled on C-36 (8/10) and re-graded (8/15), so *"BOND silent since 7/28"* was **true of the brief and false of the desk**. That cost NEXUS a wrong line on three surfaces for two days. **Everything below this block is the 7/28 edition and is superseded where it conflicts.**
+>
+> ### 1. REGIME LABEL — the headline, and it is a self-downgrade
+> **C-36 "policy-path-led": CONFIRM (~80-85%) → CONTESTED (~50%).** Owner-ruled 8/10, Will-ruled in session.
+> ⛔ **GUARD-RAIL, carry verbatim: this did NOT move C-36 toward term-premium.** It found the underlying channel (30Y sticky near cycle highs while Sept-hike odds collapsed 20pp) is **not covered by any bloc gate** — a weaker and more robust claim than a label resolution. NEXUS is already carrying this correctly as a ⛔ line; keep it that way.
+> **Confidence basis, after HENRY's cross-examination: 2 independent evidence TYPES, not 4 legs or 2 desks.** Of four cited legs, two were HENRY's own data/router packets and one a WALTER relay; only the falsifier *structure* (re-derivable by anyone) and MIDAS's gold read are genuinely independent.
+>
+> ### 2. LIVE RATES [FRED close 8/13 unless marked]
+> 30Y **5.21** · 10Y **4.63** · 2Y **4.15** · DFII10 **2.39** · T10YIE **2.27** [8/14] · T5YIFR **2.30** [8/14] · SOFR−IORB **−3bp** · TLT **$82.04** [yf 8/14].
+> **30Y: 28 CONSECUTIVE sessions >5.00% (7/07 → 8/13, ongoing) and 44 cumulative days >5.00% in 2026** = 28% of 155 sessions, vs 2025: 6 · 2024: 0 · 2023: 8. Bloomberg puts 2007 at 50 (not independently verified) ⇒ **6 days away with 4½ months left.**
+> 🔴 **THREE FIGURES THIS BRIEF PREVIOUSLY FED YOU WERE WRONG. Re-mark anything derived from them:**
+> - **"29-day run above 5%" — WRONG.** On the date written the run was **16 sessions**. Correct figures above. It conflated calendar days with sessions / a cumulative count with a run.
+> - **"30Y cycle high 5.28 [7/31/8/2]" — WRONG INSTRUMENT AND A SUNDAY.** `DGS30`'s 2026 max is **5.27 (7/31)**; 5.281 was a yfinance `^TYX` *intraday high*; **8/2/2026 is a Sunday.**
+> - **"DFII10 2.43 SERIES HIGH" — WRONG THREE WAYS.** All-time max is **3.15 (2008-11-21)**; **133 pre-2026 obs exceed the 2026 max** (most recently 2.52, 2023-10-25) ⇒ correct label is a **post-2023 / ~2.75yr high**; and **the 2026 peak is 2.47 (7/31), not 2.43.** MIDAS caught the first two via PROME; the third was found here.
+>
+> ### 3. CREDIT INVERTED — and the index number alone says the opposite of the truth
+> **HY OAS round-tripped the entire late-July widening: 268 [7/22] → 287 cycle high [7/29] → 271 [8/13]** — now *below* where it started. **CCC broke 1000 → 1024 and is making new highs.** IG **79**, flat, never participated. **CCC/HY 3.57x → 3.78x.**
+> **July was quality-INDISCRIMINATE (a broad repricing). This is quality-DISCRIMINATING**, which is the shape a credit signal actually has. **Not a registered trigger** — HY is 79bp below the 350 freeze line, 1000 is a watch not a threshold, zero pulled deals. `VX-BND-11` 2→3; the HY matrix row **held at 2 with conditions registered rather than exercised.** Composite **12/35**.
+>
+> ### 4. FROZEN TESTS — both live, neither graded
+> **T6** (30Y benign-bucket, co-owned w/ LIQUID; hard close **8/29**): **trigger NOT FIRED** — needs ORACLE Sept-hike <25%, live **33.5%** Polymarket / **35.0%** Kalshi [8/12], 8.5pp away and closing. DGS30's last five closes are **all ≥5.10**, so were it to fire today the *structural* branch would be satisfied. ⚠️ **Two spec defects flagged 8/15, frozen text NOT edited:** the fresh-high leg is keyed to **>5.28**, which `DGS30` has never printed (unreachable by construction); and the trigger **names no platform** while ORACLE publishes two that differ.
+> **T7** (8/19 FOMC minutes): 🔴 **the "independent convergence with LABOR" clause is RETRACTED — it was BOND's error.** LABOR graded off the 7/29 **statement + presser**; T7 grades the **minutes of that same meeting** ⇒ **shared antecedent, not two instruments.** A DENY is still corroboration across two records of one event; **it must not be banked at the weight of two independent measurements.** NEXUS is already carrying this into C2 — correct, keep it.
+> ⚠️ **VINTAGE TRAP binding on every desk grading those minutes:** participants met 7/29 and had **not** seen the 8/7 print. Grade their **111K / −74K** vintage, never today's **+20K / −103K**.
+>
+> ### 5. T-23 (policy-path vs credibility) — ACCEPTED, BOND owns it
+> The two axes moved in **opposite directions in the same week**: ORACLE's Fed board collapsed (Sept-specific −20pp; aggregate 71.5% → 54.5%) while **Kalshi's US-credit-downgrade-2026 climbed 11.0¢ → 14.0%**. I hold the sovereign-credibility **rates** half (Will-approved 8/10) and consume ORACLE's Kalshi board without owning it. **Registering the divergence as a real object, with no threshold** — per the 8/10 ruling I declined to guess one before a base rate exists, and that still holds. **No instrument yet; that is the honest state, not an oversight.**
+>
+> ### 6. JAPAN → UST SUPPLY: the flow claim is now CONDITIONAL, not automatic
+> `FL-BND-11` said actual MOF intervention = mechanical UST reserve selling = long-end supply shock. **Two measurements this week say neither branch is confirmed.** FIMA take-up for the 7/30-31 op is **measured ZERO** across all four H.4.1 releases spanning it (SAM). And the foreign-official UST custody "decline" is a **ROUND-TRIP**: +58,716mn build 7/16→7/30 (largest 2wk build in a 57-release sample) then −59,791mn unwind, **net −1,075mn ≈ zero** (BOND, off the Fed primary). ⚠️ The **secular** decline is separate and real — **YoY −257,964mn** — but the op window contributed ~nothing to it. **Do not carry "Japan sold USTs to fund intervention."** Definitive record: FRBNY Q3 FX quarterly **~11/13**.
+>
+> ### 7. Position — unchanged and boring, deliberately
+> **TLT puts HOLD, no add.** Will's 7/16 NO-ADD stands. **Add-gates (b), (c) and (d) all resolved-and-dead** — (d) died the right way, since the post-FOMC repricing ran *dovish*. **(a) DFII10 >2.5 is the only survivor**, 11bp away, and the closest it ever came was **3bp (2.47, 7/31)**. **Nothing here is a trade signal.**
+
+---
+
+> ⚠️ **EVERYTHING BELOW IS THE 2026-07-28 EDITION.** Retained as the record of what NEXUS was fed. **Superseded by the block above wherever the two conflict** — in particular the composite (14/35 → **12/35**), the FOMC framing (the meeting has since happened and held), the credit read (HY has round-tripped), and all three corrected figures in §2.
 
 > ### 🔴 CORRECTION 4 — ADDED ~04:45 ET, AFTER THE REST OF THIS FILE WAS WRITTEN. **The replacement falsifier below (§Falsifier, branches A–D) is itself compromised. Read this before using it.**
 > BOND's own backtest — **323 coupon auctions, 2023-01 → 2026-05, TLT 5-day outcomes** (`proposals/MATRIX_V2_DRAFT_prome-spawned.md`, an APPROVED design never implemented) — says:

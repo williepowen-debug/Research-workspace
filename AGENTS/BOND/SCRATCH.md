@@ -1,4 +1,25 @@
-# BOND SCRATCH — 2026-08-15 (Sat ~11:50–12:20 ET — Will-requested boot, CLOSED OUT)
+# BOND SCRATCH — 2026-08-15 (Sat — TWO sessions: ~11:50–12:20 boot, ~12:30–13:15 inbox drain. BOTH CLOSED OUT)
+
+> ## SESSION 2 ADDENDUM — general inbox DRAINED (Will-tasked, ~12:30–13:15 ET)
+>
+> **All 5 general packets processed per `PROTOCOL.md` § Inbox Processing and `git mv`'d to `processed/`. Inbox EMPTY; WALTER lane EMPTY. Full detail → `RECEIPT.md`.**
+>
+> **What came out of it, ranked:**
+> 1. **SAM's custody lead ADJUDICATED — it's a ROUND-TRIP, not a drawdown.** 57 H.4.1 releases pulled from the Fed primary (FRED's custody family was discontinued 2012-11-07). The −$59.8B decline SAM flagged is the **unwind half** of a **+$58.7B build** (the largest 2wk build in the sample, z=+2.45); **five-week net −$1.1B ≈ zero.** Reading only the decline half inverts the conclusion. ⚠️ The **secular** decline is separate and real (**YoY −$258B**) — don't let this travel as "custody is fine." `KB-BND-109`.
+> 2. **Parser defect caught BEFORE publishing** — regex required 4+ chars, silently skipped sub-1,000 weekly changes, shifted a column onto the *agency debt* row; base-rate stdev 980,561 vs a true 20,347. Op-window rows unaffected; **the base rate was the broken half.** v2 fails loud + reconciles the release's own printed Δ (0 mismatches / 56 pairs). `KB-BND-110`.
+> 3. **DFII10 "SERIES HIGH" retracted — wrong three ways** (all-time is 3.15 [2008]; 133 pre-2026 obs beat the 2026 max; **and the 2026 peak is 2.47 [7/31], not the 2.43 I carried**). MIDAS caught two via PROME; **the third nobody had flagged.** Closest approach to the 2.5 add-gate was **3bp**, not 7bp. `KB-BND-108`.
+> 4. **T7's "independent convergence with LABOR" clause RETRACTED — my error.** LABOR graded the 7/29 statement+presser; T7 grades that meeting's minutes ⇒ shared antecedent. Frozen CONFIRM/DENY text untouched. **Vintage trap adopted as binding: grade the 111K/−74K vintage, never today's +20K/−103K.** `KB-BND-112`.
+> 5. **FIMA take-up for the 7/30-31 op = measured ZERO** (SAM). ⛔ Does NOT invert to "USTs were sold." **`FL-BND-11` is now recorded CONDITIONAL on the funding channel, neither branch confirmed** — it was written as automatic before this drain. `KB-BND-111`.
+> 6. **`NEXUS_BRIEF.md` RE-PINNED 7/28 → 8/15** (superseding block prepended; 7/28 body bannered and retained). **`PROTOCOL.md`'s stale FR2004 "known access gap" fixed** — it closed 7/28 and the line had spent 18 days telling sessions not to try. **T-23 (policy-path vs credibility) ACCEPTED, BOND owns it — registered as a real object with NO threshold**, per the 8/10 ruling.
+>
+> **Packets out:** SAM (cc LIQUID) · LABOR (cc NEXUS/PROME) · NEXUS. **KB +6 (`108…113`, 114 rows validated). CATALYSTS +2 (8/31 MOF, 11/13 FRBNY Q3).**
+> **No threshold moved. No vector moved. No position change. Composite unchanged 12/35.**
+>
+> **NEXT-SESSION items 2 and 8 below are now DONE** (inbox drained; brief re-pinned). **Items 1, 3, 4, 5, 6, 7 stand unchanged.** New: **T-23 has no instrument and that is deliberate** — do not ship a threshold on it without a base rate first.
+
+---
+
+## SESSION 1 — Will-requested boot, ~11:50–12:20 ET
 
 **Purpose:** Ephemeral session handoff. Read at boot, rewritten at closeout. Learnings → `MEMORY.md` / auto-memory; thesis → `thesis/THESIS.md`; live state → `STATUS.md`.
 
