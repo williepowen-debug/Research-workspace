@@ -15,7 +15,8 @@
 | **`VX-HAWK-SULPHUR-01` band-basis RULED** | **✅ EXECUTED this session (Row 40, `PROME/proposals/2026-08-12_rule-batch-RULED.md`).** Basis ruled DELIVERED KOLWEZI, both bands restated in it, same $ thresholds. Current value $900/t delivered = **RED (escalated from ORANGE)** — basis-clarification, not a new fact; the figure has stood since March | HAWK — encode CLOSED |
 | **Brent 8/7 intraday-print error** | **✅ FIXED this session, all FOUR surfaces** (BRENT named 3; NEXUS_BRIEF.md was a 4th found on my own sweep): STATUS, SCRATCH, KB-HAWK-252, NEXUS_BRIEF. $82.27(−0.27%)→**$83.55(+1.28%)**, sign flips, ~18%→**~17%** below peak | HAWK, closed |
 | **August STEO erratum + Rule N6** | **✅ APPLIED.** 2027-Q1 surplus revised 1.57→0.03; no-absorber window LENGTHENED one quarter. Rule N6 (symmetric extension falsifier branch) **ACCEPTED** — see §4, `KB-HAWK-260` | HAWK, closed |
-| **Blockade lane (routed by BRENT 8/13)** | **✅ WORKED this session** — verdict: REROUTING not flow-denial. See §5b, `KB-HAWK-261` | HAWK |
+| **Blockade lane (routed by BRENT 8/13)** | **✅ WORKED + RECONCILED PM.** TRANSIT layer: REROUTING. LOADING layer: **INDETERMINATE** — FALCON's leg-3 fired PM, rules out reroute as the cause. See §5b ADDENDUM, `KB-HAWK-261`/`-265` | HAWK |
+| **Cross-war coupling — CPC survives loudest test** | **✅ ADDED PM.** Sheskharis re-struck 8/12 (capability step-change) + halted 8/14; CPC untouched both times. Reinforces `KB-HAWK-252`. See §3, `KB-HAWK-266` | HAWK |
 | **Marsh primary unfetched** | The Gulf premium *and* my capacity arithmetic are one named individual, 403 at both mirrors. **Still unfetched, 25 days on** | FALCON volunteered |
 
 ---
@@ -41,6 +42,8 @@
 ⚠️ **CORRECTED 2026-08-15** (BRENT publisher-side `consumer_check`, 8/10): the $82.27/−0.27% figure this row carried was an **intraday print quoted as a close** — both Brent and WTI legs shared an identical −0.27% off the wrong prior-day base, the tell that exposed it. Corrected series: 79.36(8/4)→79.45→82.49→**83.55**→87.85(8/10) = **four consecutive UP sessions, +10.7%**, not a fade. Fixed on all four surfaces that carried it: this row, `SCRATCH.md`, `KB-HAWK-252`, `NEXUS_BRIEF.md` (a fourth carrier found on my own sweep, beyond the three BRENT named). Full correction: `KB-HAWK-252`.
 
 **⇒ The durable asymmetry: one theater SUSPENDS risk, the other is MOVING TO TARIFF it.** Gulf = a **DRAFTED, NOT PASSED** Iranian bill that *would* toll Hormuz at **7% of cargo value** (US rejects it), a signed Mecca pact, a standing coalition. **Suspensions unwind; codified costs do not.** ⚠️ A direction, not an accomplished fact. → `KB-HAWK-253`, `VX-HAWK-CODIF-01`.
+
+🆕 **Reinforced PM 8/15:** Sheskharis was re-struck 8/12 with Ukraine's most capable package of the war (Neptune missiles + jet drones + USVs against the Black Sea Fleet's main base) and halted again 8/14 — **CPC was not hit either time.** The client is escalating hard and still holding the specific line the US asked it to hold; a capability-independent discrimination is stronger evidence than a restrained one. → `KB-HAWK-266`.
 
 ⚠️ **Two corrections on the Gulf-side evidence, WALTER 8/12 (not HAWK-authored claims, recorded for the register):** the **Mecca pact is an ACCESSION** (Turkey joining a Sept-2025 Saudi-Pakistan Strategic Mutual Defence Agreement), **not a bloc forming from scratch**, and the domain source (Atlantic Council) explicitly rejects a "NATO-style" reading — no Article-5-style enforcement history, no confirmed nuclear umbrella. Makes the arrangement **more durable** (rests on a year-old instrument) but the "two bloc formations in nine days" framing overstated [`SIG-W-20260812-012`]. Separately, **the maritime coalition is 43 nations wide** (Riyadh 7/30 attendance), not the 14-signatory count this desk has cited — reach understated ~3×. And: **Mojtaba Khamenei invoked the MOU as a live, breached instrument on 7/18** — two days after the fleet's "formally repudiated" framing — which is a materially *lower bar for revival* (voided-by-breach can be cured; unilateral withdrawal cannot) than the repudiation framing implies [`SIG-W-20260812-014`]. Neither correction moves a HAWK mark; FALCON owns adjudication of any flip-trigger consequence. → `KB-HAWK-264`.
 
@@ -80,7 +83,7 @@
 
 ---
 
-## 5b · 🆕 BLOCKADE LANE (routed by BRENT 8/13) — REROUTING, not flow denial
+## 5b · 🆕 BLOCKADE LANE (routed by BRENT 8/13) — REROUTING at the TRANSIT layer, INDETERMINATE at the LOADING layer (refined PM, see ADDENDUM below)
 
 **Question worked this session: is the blockade DENYING flow or REDIRECTING it?** Two independent series say the same thing.
 
@@ -88,13 +91,32 @@
 2. **Saudi Bab el-Mandeb exports DOWN ~90%** while **Sidi Kerir (Egypt, Mediterranean) more than DOUBLED, 1.0→2.3 mb/d**, over the same window. **Mechanism is not "avoid the Red Sea"** — it's avoid Bab specifically: load Saudi → sail north Red Sea → part-discharge into SUMED at Ain Sokhna → transit Suez lightened → reload at Sidi Kerir [`SIG-W-20260813-013`].
 3. **The lever forcing this is INSURANCE, not kinetics:** ship insurers restricted war cover for Saudi Red Sea cargoes **7/24** — four days before the first rerouting report. War-risk cover is a hard gate (no cover ⇒ charterers/banks refuse the voyage), so a repricing forces the route change before any vessel is touched [`SIG-W-20260813-015`].
 
-> **⇒ VERDICT: FLOW REROUTING, not FLOW DENIAL.** A production/export *loss* shows barrels vanishing from every route at once; here one route collapses while another absorbs a comparable volume, and the kinetic-denial counters are flat while the compliance counter is not. **Affirmative, positive evidence for FAL-01/R3 staying FIRM-NEGATIVE** — harder to overturn than an absence of contrary evidence.
+> **⇒ MORNING VERDICT (TRANSIT layer, still holds): FLOW REROUTING, not FLOW DENIAL.** A production/export *loss* shows barrels vanishing from every route at once; here one route collapses while another absorbs a comparable volume, and the kinetic-denial counters are flat while the compliance counter is not. ⚠️ **PM CORRECTION — this verdict is layer-scoped, not global; see the ADDENDUM below for the LOADING-layer read, which FALCON's fresh leg-3 adjudication changes.**
 
 **The instrument that tracks the difference, going forward:** (a) confirmed production/export barrels offline [FAL-01/R3 — stays at floor under rerouting, moves under denial]; (b) alternate-route throughput [SUMED/Sidi Kerir volumes — rises under rerouting, absent under denial]; (c) kinetic-denial counts [disabled/boarded — flat under rerouting, rises under denial]. **Denial = (a) or (c) rising WITHOUT a matching (b) rise.** Today's pattern is (b) rising while (a)/(c) hold flat.
 
 ⚠️ **Not cost-free:** a single Egyptian pipeline now carries a materially larger share of Saudi westbound crude than three weeks ago — a chokepoint has been **substituted, not removed**, and a strike on SUMED/Ain Sokhna/Sidi Kerir would be the first genuine flow-denial event in this chain where none exists today.
 
-⚠️ **Naming flag:** the routing called this the **"Kharg blockade lane."** BRENT's own 8/13 ledger reads Kharg (`RF-002`) **ATTACKED_INFRA_INTACT, offline 0** — Kharg itself is not under blockade; the evidence base above is Hormuz enforcement + the Houthi Red Sea blockade on Saudi exports. Flagged to BRENT/PROME rather than silently relabeled. SUMED nameplate capacity vs 2.3 mb/d, and whether Yanbu loadings and Sidi Kerir liftings double-count the same barrels, are **open and BRENT's/FALCON's** per WALTER's own asks. → `KB-HAWK-261`.
+⚠️ **Naming flag:** the routing called this the **"Kharg blockade lane."** BRENT's own 8/13 ledger reads Kharg (`RF-002`) **ATTACKED_INFRA_INTACT, offline 0** — Kharg itself is not under blockade; the evidence base above is Hormuz enforcement + the Houthi Red Sea blockade on Saudi exports. Flagged to BRENT/PROME rather than silently relabeled. → `KB-HAWK-261`.
+
+### ⚠️ ADDENDUM (2026-08-15 PM) — reconciled against FALCON's fresh leg-3 fire and OSPREY's Sheskharis recurrence
+
+**FALCON adjudicated `GATE-FALCON-001` leg-3 FIRED** (`AGENTS/FALCON/reports/2026-08-15_gate-falcon-001-leg3-yanbu-wc0803-fire-adjudication.md`): Yanbu loadings w/c-8/3, Kpler **1.78** / Vortexa **2.38 mb/d**, both below the ≤2.55 crude fire line. **Critically, FALCON's own §4 rules OUT the Sidi Kerir/SUMED reroute as the explanation for the Yanbu print** — a reroute cargo still requires the Yanbu loading event to happen; rerouting changes what happens to crude *after* it loads (south via Bab vs north via SUMED), not whether it loads at all.
+
+**⇒ The morning REROUTING verdict and FALCON's fire are NOT in conflict — they measure two different layers, and each explains what the other cannot:**
+
+| Layer | What it measures | Verdict | Basis |
+|---|---|---|---|
+| **TRANSIT** | Route choice for crude *already loaded* at Yanbu (Bab vs SUMED) | **REROUTING, confirmed** — unchanged from this morning | Bab −90% / Sidi Kerir +130%, insurance-driven [`SIG-W-20260813-013`, `-015`] |
+| **LOADING** | Total Yanbu throughput, before any routing choice | **INDETERMINATE** — genuine decline confirmed, mechanism open | FALCON leg-3 FIRED; §4 explicitly rules out rerouting as the cause |
+
+**My morning framing overstated its reach:** "affirmative evidence FAL-01/R3 staying FIRM-NEGATIVE" folded both layers into one verdict. **Correction: FAL-01 (production) is untouched by any of this — a Yanbu loadings decline is not a production loss on its own, and FALCON's report does not claim one.** But **R3 (export interruption) has moved — leg-3, one of R3's evidence legs, fired** — the exact resulting R3 arithmetic is FALCON's to state, not re-derived here. **`KB-HAWK-261`'s "R3 remains at the floor" line is SUPERSEDED; see `KB-HAWK-265`.**
+
+**FALCON's own open question — genuine export constraint vs. Petroline/Ras-Tanura Gulf-coast reallocation — is NOT resolved here; nobody holds the discriminating instrument.** If it resolves toward reallocation, the LOADING layer converges with the TRANSIT layer's rerouting story (Saudi crude finding a different path to market, still not lost). If it resolves toward genuine constraint, the blockade has a real denial component after all — just not the kinetic one this morning's evidence ruled out.
+
+**🔑 The SUMED/Sidi Kerir concentration-risk flag GAINS WEIGHT from this.** This morning it was a forward-looking vulnerability (a chokepoint substituted, not removed). Today it sits beside a *confirmed* Red Sea loading-layer deterioration of unknown cause — if that deterioration is ever attributed to constraint rather than reallocation, the Med corridor (SUMED → Sidi Kerir) becomes the *only* demonstrated working outlet for barrels this desk has already flagged as concentrated on a single pipeline. **Will: this is the piece worth watching, not the layer question itself** — nobody can resolve the layer question without an instrument nobody holds, but the concentration exposure is real and growing regardless of which explanation wins.
+
+**Second fold-in — the coupling account survives its loudest test.** OSPREY's 8/15 `STRIKES.tsv` records Sheskharis's third episode: halt 7/22-26 → **RE-STRUCK 8/12** (Neptune anti-ship missiles + jet drones + USVs against the Black Sea Fleet's main base — a capability step-change with no precedent in this war) → halted again 8/14 on two unmerged causes (attempted-not-landed drone + tanks-at-capacity). **CPC was NOT hit in either episode.** ⇒ Ukraine's most capable strike package of the war landed squarely on Russian/Transneft infrastructure while sparing the one facility the 8/8 understanding protects — **the discrimination is deliberate and capability-independent, not a product of limited reach.** This *strengthens* `KB-HAWK-252`'s non-transferability claim (leverage over the attacker): the client is demonstrating it can escalate hard and still hold the line the US asked it to hold. → `KB-HAWK-266`.
 
 ---
 
