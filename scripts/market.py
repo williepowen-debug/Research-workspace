@@ -1,8 +1,21 @@
 #!/usr/bin/env python3
 """Market watchlist — quick quote + change for all positions."""
 
-import yfinance as yf
+import os
 import sys
+
+try:
+    import yfinance as yf
+except ModuleNotFoundError:
+    # yfinance lives only in the repo .venv — re-exec under it rather than
+    # failing on the bare-python3 recipe (PAT-103; env guard prevents loops).
+    if os.environ.get("_MARKET_VENV_REEXEC") != "1":
+        _venv_py = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), ".venv", "bin", "python3")
+        if os.path.exists(_venv_py):
+            os.environ["_MARKET_VENV_REEXEC"] = "1"
+            os.execv(_venv_py, [_venv_py] + sys.argv)
+    sys.stderr.write("ERROR: yfinance not importable and no repo .venv found — run under .venv/bin/python3\n")
+    sys.exit(2)
 
 WATCHLIST = {
     "Positions": ["WAL", "OZK", "KRE", "ZION", "EGBN", "SSB", "IWM", "HYG", "TLT", "CF", "STNG", "AAL"],
