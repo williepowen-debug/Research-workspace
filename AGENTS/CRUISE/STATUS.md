@@ -61,10 +61,12 @@ Either way, the *option* is cheaper today than the ladder assumed it would be at
   - **Balance sheet:** liquidity $6.9B ($6.6B RCF); customer deposits $6.7B (record); returned $600M to shareholders in Q2 (dividends + buybacks).
 - **K-shape now primary-confirmed on both sides.** RCL: beat + raise + record deposits + 110% LF. NCLH: beat + cut forward + Q3 CC yield −8.9%.
 
-### Carnival (CCL) — Fuel-convexity ARMED, not yet expressed
+### Carnival (CCL) — Fuel-convexity ARMED; credit-distress framing DEAD (8/14 discovery)
 - **$28.28** — up-drift past 45d **despite Brent doubling**. Unhedged fuel exposure did not translate to tape stress; deposits/bookings absorbed.
+- **NEW 8/14 material finding:** CCL received a **SECOND investment-grade credit rating on 2026-06-25** (disclosed 8/5 in item 7.01, acc 0000950142-26-002267). 2029 First-Priority Senior Secured Notes became UNSECURED; CCL called $500M for redemption 8/15 at 103.5%. **Rating-agency identity look-up owed.** This kills the "$24B debt existential" leg that TRADE #2 partially inherited from the 3/20 boot thesis. Fuel-convexity thesis SURVIVES on its own merits; credit-distress leg RETIRED. See `WATCHLIST_CCL_PREANNOUNCE.md`.
 - **Fuel-convexity trigger fireable since ~7/17.** Will-decision. See packet + `TRADE.md` #2.
-- Q2 (6/23) still the reference: record rev/yields, deposits $9.0B, FY yields +3.2%. Watch item = does the fuel pass-through show up in a preannouncement or the Q3 (Sep) print.
+- Q2 (6/23) still the reference: record rev/yields, deposits $9.0B, FY yields +3.2%.
+- **Q3 FY26 report ~2026-09-28 or 9/29** (6.5 weeks from 8/14). Preannouncement base rate <10% (CCL runs the calendar); the Q3 print itself is the vehicle. Watch list: `WATCHLIST_CCL_PREANNOUNCE.md`.
 
 ### Norwegian (NCLH) — De-rating catalyst CONFIRMED AT PRIMARY
 - **$19.07** — weakest of Big 3, still below the 7/28 pre-earnings high ($21.22).
@@ -126,7 +128,9 @@ Either way, the *option* is cheaper today than the ladder assumed it would be at
 
 - ✅ ~~**NCLH Q2 FY26 8-K**~~ — DONE 8/14. Confirms de-rating; VX-CRU-05 → 🔴; CRU-04/06 CONFIRMED.
 - ✅ ~~**RCL Q2 FY26 8-K**~~ — DONE 8/14. Confirms beat + RAISED FY guide (opposite of NCLH). K-shape guidance-confirmed both sides.
-- **CCL Q3 preannouncement or preview** — the fuel-P&L question sits at CCL specifically (unhedged); needs a company voice, not just NCLH/RCL's proxy. Cross-operator fuel: RCL $839 · NCLH $888 · CCL unknown (unhedged → should be materially higher).
+- **CCL Q3 (~9/28-29) is the vehicle.** `WATCHLIST_CCL_PREANNOUNCE.md` created 8/14 — 8 surveillance channels, escalation ladder, pre-registered Q3 questions. Preannouncement base rate <10% (CCL runs the calendar). Check the watch list every spawn.
+- **Rating-agency identity for 6/25 second-IG upgrade** — look-up owed (Moody's? S&P? Fitch?). Filing said "second investment grade rating" — one agency was already IG before that date.
+- **Verify "CCL unhedged" claim** — the 7/2 STATUS asserts it, but I do not have a primary-verified fuel hedging note for CCL FY26. Check Q3 8-K or FY25 10-K.
 - **Will ruling on the fuel-arm ladder** — the 7/2 ladder said "levels proposed, Will to set final." Now that levels have been in-band for 4 weeks, the ladder needs either ratified-and-fired or retired.
 - **Boot cadence gap** — CRUISE was dark 42 days while two catalysts fired. Flag PROME for calendar/heartbeat cadence.
 - **No cruise NETWORK_GROUP** in vocabularies — flagged to PROME on 7/2, still using CONSUMER + `sub:CRUISE` provisionally.
