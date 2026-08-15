@@ -1,87 +1,93 @@
-# BOND SCRATCH — 2026-07-28 (Tue ~14:25–14:50 ET — PROME-spawned 7Y auction grade, CLOSED OUT)
+# BOND SCRATCH — 2026-08-15 (Sat ~11:50–12:20 ET — Will-requested boot, CLOSED OUT)
 
 **Purpose:** Ephemeral session handoff. Read at boot, rewritten at closeout. Learnings → `MEMORY.md` / auto-memory; thesis → `thesis/THESIS.md`; live state → `STATUS.md`.
 
-**Session shape:** spawned mid-day for ONE scoped task — grade the 1PM 7Y off the TreasuryDirect primary against the frozen pre-registration. Live-event override applies; write-back compressed to STATUS + workbook + PREDICTIONS + CATALYSTS + this file. **This is the second BOND session of 7/28** (the ~03:00–05:30 boot/mail-drain/file-review session is the one below in git).
+**Session shape:** Will said "boot up." Ran the full BOOT read phase, then the write-back tail — because boot step 4 surfaced a 15-day-overdue prediction and boot step 7 surfaced a 7-deep unprocessed WALTER lane. Neither is optional under the protocol.
 
 ---
 
-## THE VERDICT
+## CHANGES SINCE (7/28 SCRATCH → now)
 
-**BND-13 RESOLVES TRUE. Frozen branch B (POLICY-PATH HOLDS). No composition failure at the 7Y.**
+⚠️ **The 7/28 SCRATCH was the last one written. An 8/10 Financial-Conditions forum session ran in between, wrote STATUS, and did NOT rewrite SCRATCH or run the closeout tail** — which is why `BND-01` sat OPEN-but-stale for 15 days past its window. **The gap between "STATUS updated 8/10" and "SCRATCH dated 7/28" was the tell, and it is worth watching for again.**
 
-**7Y · 91282CRC7 · $44.0B · single-price · TreasuryDirect TA_WS, pulled 7/28 ~14:30 ET, TD `updatedTimestamp` 13:03:18:**
+What actually happened while dark, in order of consequence:
 
-| | print | trailing-12 7Y | read |
-|---|---:|---|---|
-| BTC | **2.49** | median 2.495 | **dead on median** |
-| Indirect | **70.15%** | median 60.65%, min 56.42% | **+9.50pp over median; clears the frozen 56.4% bar by 13.73pp** |
-| Direct | **16.88%** | — | −12.82pp vs 6/25 |
-| Dealer | **12.97%** | median 11.28%, max 13.14% | **below the max — not stuffed** |
-| High yield | **4.4730%** | — | **+21.3bp vs 6/25** |
+1. **FOMC 7/29 HELD**, and everything since has repriced **dovish**: ORACLE aggregate hike-2026 **71.5% [7/24] → 54.5% [8/12]**; Sept-specific **35.5% [8/9] → 33.5%**. Attribution is ORACLE's: 71% of the drop is the FOMC hold + 8/7 payrolls, only 29% is the 8/12 CPI.
+2. **8/10 forum (Will-ruled in-session):** C-36 "policy-path-led" downgraded **CONFIRM ~80-85% → CONTESTED ~50%**; **T6** and **T7** registered as frozen tests; **sovereign-credibility instrument set** claimed (rates half only). HENRY cross-examined the evidence count down from "4 legs" to **2 independent evidence types**. All recorded in STATUS; **the composite/dashboard were explicitly left un-re-scored as a full-closeout task** — this session did that part.
+3. **Credit INVERTED.** HY 279 [7/24] → **287 cycle high [7/29]** → 271 [8/13], fully round-tripped and now *below* the 268 it started from. **CCC 996 → 1024, through 1000, making new highs.** Ratio 3.57x → 3.78x.
+4. **DFII10 never breached 2.5** — re-touched 2.43 on 8/10-11 and backed off to 2.39. The gap to the re-arm **widened** (7bp → 11bp).
+5. **7 WALTER deliveries** landed (8/11–8/13) and **5 general-inbox packets** (8/10–8/14, two of them SAM retractions).
 
-All percentages = **% of competitive accepted** ($43,909,474,000). Branch A ❌ · **B ✅** · C ❌ (BTC 2.49, not <2.45) · D ❌ · tie-break not triggered.
+## WHAT I DID
 
-**Secondary backtest-aligned read (committed pre-print): NO DISAGREEMENT.** Indirect standalone fails to fire against the frozen trailing-12 min (**56.42%**, cleared by 13.73pp) *and* against the looser 15th-percentile rule (**57.24%**, cleared by 12.91pp). ⚠️ **The 57.24% was RECOMPUTED inside my own of-competitive-accepted denominator — the backtest's of-offering numbers were NOT ported**, per the ~05:15 amendment. Anyone citing it must carry the denominator.
+| # | Action |
+|---|---|
+| 1 | **`BND-01` RESOLVED FAILED.** Full May–Jul window re-pulled from FRED (67 obs): **max 287bp on 7/29**, **zero** obs ≥350, closest approach 63bp short, and the *mechanism* never engaged. **Prediction book is now EMPTY.** |
+| 2 | **WALTER lane drained** — all 7 read, integrated, `git mv` → `processed/`. Reply packet to WALTER answering both ACTION asks. |
+| 3 | **Computed the 30Y regime statistic** off FRED `DGS30` (1,149 obs, zero missing) — **and it corrected two of my own published figures.** |
+| 4 | **Found two T6 spec defects**, 14 days before the hard close. Flagged to LIQUID (co-owner) / PROME / ORACLE. **Frozen spec NOT edited.** |
+| 5 | STATUS rewritten: header, 11 dashboard rows, matrix HY row, T6 live state, gates, catalysts, new BOTTOM LINE. |
+| 6 | `KB-BND-101…107` (+7, 13-col validated, CRLF preserved). `VX-BND-02` held-with-conditions, **`VX-BND-11` 2→3**, `VX-BND-05` evidence corrected. `CATALYSTS.tsv` synced (4 rows resolved, 2 added, credit row refreshed). |
 
----
+## 🔴 THE THREE CORRECTIONS TO MY OWN NUMBERS — read these before citing anything in STATUS
 
-## THE THREE PLACES I ARGUED AGAINST MYSELF — read these before citing the grade
+1. **"29-day run above 5%" was WRONG.** On the day I wrote it (7/28) the run was **16 sessions**. It conflated calendar days with sessions and/or a cumulative count with a consecutive run — **two different statistics published as one number.** Correct: **28 consecutive sessions (7/07 → 8/13, ongoing)** and **44 cumulative days >5.00% in 2026** (28% of 155; 2025: 6 · 2024: 0 · 2023: 8). `KB-BND-102`.
+2. **The cycle high "5.28 [7/31/8/2]" is on the wrong instrument and a nonexistent date.** `DGS30` max is **5.27 (7/31)**. 5.281 was a yfinance `^TYX` **intraday high**; **8/2/2026 is a Sunday**. **Load-bearing because T6's fresh-high leg is keyed to it** ⇒ that leg is unreachable by construction against the series it grades on. `KB-BND-103`.
+3. **DFII10 "7bp from the 2.5 re-arm" was carried 18 days.** It is **11bp** away and the gap **widened**. Three approaches, no breach.
 
-1. **The "+12.6pp indirect surge" overstates real demand.** Directs fell **−12.82pp**, so **end-user take (ind+dir) was 87.03% vs 87.25% on 6/25 — flat**, and the indirect/direct boundary is **reclassification-sensitive** (same money can bid through a dealer or directly). The reclassification-proof claims: **dealers not stuffed (12.97%), gross competitive tendered $109.3B vs a $109.6B trailing-12 median = normal, dealer hit-rate 9.27% on a full $61.4B backstop (they bid and weren't needed), concession paid in price (+21.3bp).** Also: 70.15% is **#17 of 50** (67th pctile; series max 87.88%) and the 7Y indirect series is **bimodal** (~56–63% / ~77–78% clusters) with this sitting between the modes. **Strong, top-third, not a record.**
-2. **The bias disclosure travels with the verdict, and it is calibratable.** §4 is biased toward not firing, so this landed on the **weak-evidence side** and HENRY's instruction to discount a no-fire stands. But the defect is a **threshold-placement** error worth **0.82pp** (min 56.42 vs 15th-pctile 57.24), and the indirect leg cleared by **~13pp** — a placement error cannot manufacture that margin. **Discount the gate, not the indirect measurement.** The **dealer** leg is the opposite case: cleared by **0.032pp** (12.968 vs 13.0), knife-edge, full discount — but it is the wrong-signed leg, and dropping it makes B fire *more* cleanly.
-3. **§4's branch set was NOT EXHAUSTIVE and I only found it at resolution.** A 13.05% dealer print with 70.15% indirect would have fired **A, B, C, D and the tie-break all false** ⇒ BND-13 **ungradeable**. We landed **0.03pp** from that. Same defect *class* as the retired tail leg and the 04:30 hard-to-fire challenge — **three instances in one day, all mine, all caught at or near resolution rather than at authorship.** §4 was **not** edited.
+**All three are the plausible-stale class, and none would have been caught by re-reading the file — only by recomputing.** #1 and #2 were found because WALTER's `-012` asked me a question about my own instrument instead of telling me an answer.
 
----
-
-## SCORE / STATE CHANGES (all pre-registered — no threshold moved)
+## SCORE / STATE CHANGES
 
 | Surface | Change | Basis |
 |---|---|---|
-| **VX-BND-01 auction health** | **3 → 2** | registered revert: *"reverts to 2 on branch B"* |
-| **Composite** | **13 → 12/35** (2+2+1+2+3+1+1) | one move |
-| VX-BND-08 indirect bid % | **HELD at 3, deliberately** | no registered condition existed for a move today; a discretionary de-escalation on the day my own gate cleared, in the direction of my own standing call, is exactly what should require pre-registration. **Registered instead: 3 → 2 if the NEXT coupon also prints indirect ≥60%.** (2Y 56.59 and 5Y 59.24 are both still under the <60 yellow; only the 7Y is clear of it.) |
-| Long-end / duration | **unchanged 3** (VX-05 stays 4) | its "+ weak auction" leg is now **decided and did not fire** ⇒ the auction path to 4 is **closed**; →4 rests solely on **DFII10 >2.5 sustained, 7bp away** |
-| TLT add-gate (c) | **RESOLVED — DID NOT FIRE** | needed ind <56.4% AND dlr >13.2%; got 70.15% / 12.97% |
-| HEN-42 CONFIRM | **not downgraded** | was conditional on branch A or D |
-| BND-13 | **TRUE** | resolved in PREDICTIONS.tsv |
-
-**Position: TLT puts HOLD, no add. Will's 7/16 NO-ADD stands. No new BOND trade rec (scoped).**
-
----
+| `VX-BND-11` CCC OAS | **2 → 3** | CCC through 1000 (1024), new highs, while the index retraced. The session's one genuine escalation. |
+| `VX-BND-02` HY spread | **HELD at 2, deliberately** | Its 7/28 upgrade rationale evaporated (HY below where it started), but a different leg of the same rollup escalated. **Registered instead of exercised** (7/28 VX-08 precedent): →1 on CCC <1000 **AND** HY <280 for 5 sessions; →3 on HY >300, a first pulled deal, or CCC >1100. |
+| Matrix "HY market function" | **unchanged 2** | rollup counted once; conditions above. |
+| `VX-BND-05` long-end | **unchanged 4** | level breach decisively met; **evidence cell corrected**, score untouched. |
+| **Composite** | **unchanged 12/35** | No matrix row moved. VX-11 rolls up into a row counted once. |
+| TLT add-gates (b)(c)(d) | **all RESOLVED, DID NOT FIRE** | (d) died the right way — the post-FOMC repricing ran *dovish*, the opposite of what that gate needed. |
+| **Position** | **TLT puts HOLD, no add.** Will's 7/16 NO-ADD stands. No new BOND trade rec. | |
 
 ## NEXT SESSION (dated, future-verifiable)
 
-1. **🔴 WED 7/29 2:00PM ET — FOMC. This is the event the week turns on and today's auction says nothing about it.** ~34% hike, hold ~65%, **forward guidance removed**, presser 2:30. Frozen falsifier `analysis/2026-07-18_fed-path-map_fomc-7-28.md`: arm BREAKS on 2Y <3.85 **AND** DFII10 <2.15 **AND** 10Y <4.35 sustained 3 sessions. **DEEP-LIT against dovish** (2Y 4.33 / DFII10 2.43 / 10Y 4.69 [FRED, 7/24]). A **hike** is the live tail, not just tone. Add-gate (d) is now the only add-gate with a live catalyst attached.
-2. **🔴 DFII10 → 2.5 re-arm — 7bp away and now the nearest add-gate by default** (2.43 [FRED, 7/24]; **7/27 and 7/28 not yet posted — pull DFII10 first thing**).
-3. **v1.1.4 — adopt AFTER today's grade, as pre-committed** (so it cannot be accused of being fitted to the print): (a) indirect at the per-tenor **15th percentile** of trailing-12, **sufficient alone**, computed **of-competitive-accepted**, never ported from the of-offering backtest; (b) **drop dealer as a bearish leg**, keep only as a contrarian note >18%; (c) **BTC confirmatory only**; (d) **every branch set carries an explicit RESIDUAL branch** (KB-BND-099); (e) **state the margin on every leg at resolution** — "B fired" and "B fired by 0.032pp on one leg" are different facts. Also review whether the **VX-01 revert rule is too fast** (one auction round-trips a state vector) — flagged, not declined.
-4. **Fri 7/31 — BND-01 resolves FAILED** (HY 350 vs 279 [7/24]). It is now the **only** OPEN prediction. Also **BOJ 7/31** (SAM owns primary; FL-BND-11 FX leg; USDJPY carried at 163.83 [7/23] — **re-pull from SAM first**).
-5. **Mon 8/03 — P3 Batch-3 START GATE** (docketed, date-gated).
-6. **`NEXUS_BRIEF.md` still 7/23-vintage** — stale on the FOMC framing, the credit move and BOTH auction grades. **Refresh next session**; I told NEXUS to pull from the packet and memo rather than that file in the meantime.
-7. **Awaiting LIQUID on two things** (both routed, neither blocking): the new 7Y/5Y basis-trade observation, and the **still-owed refuse-or-confirm on repo/funding stress over 7/01→7/15** — if that exists, the −17.4% dealer unwind flips from *benign distribution* to *forced de-risking*, which is **more** bearish. The older one matters more.
+1. **🔴 WED 8/19 — FOMC minutes. `T7` resolves on its frozen text; this is the nearest graded event.** CONFIRM (≥4 participants beyond the 3 dissenters discuss a near-term hike; dissents read as a close-call majority; staff inflation language hardens) = policy-path leg strengthens. DENY (comfortable 9-3, dissents = risk-management outliers, "sufficiently restrictive") = term-premium leg strengthens **and converts LABOR's provisional read to non-provisional — flag PROME for the LABOR cc**. AMBIGUOUS = no countable signal. ⚠️ **T7 was written against ORACLE's 35.5%; the live figure is 33.5% [8/12]. The test's premise moved ~2pp — note it at grading, do not re-write the frozen text.** **8/19 does NOT grade T6.**
+2. **🔴 GENERAL INBOX — 5 packets, unprocessed, and TWO ARE LOAD-BEARING RETRACTIONS.** `2026-08-14_from-SAM_RETRACTION-2-fima-funded-was-my-inference-not-a-measurement-take-up-is-zero` + the 8/10 SAM retraction on the US-agent/OAT-seller/ESF-ceiling claim. **These bear directly on `FL-BND-11`** — see `KB-BND-107`: the intervention→UST-supply mechanism is now recorded as **conditional on the funding channel** (holds for reserve sales, **fails for FIMA repo**). **Do not re-state FL-BND-11 until these are read.** Also: `2026-08-12_from-NEXUS_your-c36-ruling-landed-my-board-carried-the-wrong-line-for-two-days-plus-a-5th-flag` and `2026-08-12_from-LABOR_T7-convergence-is-a-shared-antecedent-not-independence` — **the LABOR one challenges T7's independence claim four days before T7 resolves; read it BEFORE 8/19, not after.**
+3. **🟠 8/03 P3 START GATE — PASSED 8/03, NEVER STARTED. Top owed non-dated item.** Two questions owed: (a) is the external-financing refutation as strong as it looks (composition + **mobility** of China's $3.358T under capital controls/managed FX — reconcile to ONE figure with SAM); (b) where is the **edge** of reserve-currency privilege — name a measurable condition (term premium, foreign-official share, auction internals) under which it stops protecting the US fisc. Deliverable: memo to `outbox/` addressed to PROME + STATUS write-back **same session**.
+4. **🟠 8/24 — Will's HELD sovereign-CDS sub-item** comes up for reconsideration. Per the 8/10 ruling: **establish the series exists and is pullable before proposing any threshold.**
+5. **🔴 8/29 — T6 hard close + HEN-42.** Trigger **not fired**: Sept-hike 33.5%/35.0% vs the <25% line, 8.5pp away and closing (Δ7d −13.0pp). **If it fires, HOLD/EXTEND is currently satisfied on its primary leg** (DGS30 ≥5.10 on all five most recent closes). Awaiting LIQUID on the fresh-high leg and ORACLE on the platform.
+6. **🟡 9/10 — August MTS**, WALTER's calendar-artifact test, adopted. **Verify the release date at the Treasury primary first** — see item 8.
+7. **🟡 QRA 8/05 passed UNGRADED** — the date was pattern-inferred and never verified. **Same defect as the 7/23 ECB row; that is n=2.** Both need their calendars verified at primaries and re-docketed.
+8. **🟡 `NEXUS_BRIEF.md` is 7/23-vintage — now 23 days stale** and wrong on the C-36 downgrade, the credit inversion, and both corrected 30Y figures. **NEXUS has already packeted me that their board carried the wrong line for two days.** Refresh it.
 
 ## OPEN THREADS / WATCHES
 
-- 🔴 **FOMC 7/29 two-sided** · 🔴 DFII10 7bp from 2.5 · 🟠 30Y 29-day run >5% · 🟠 HY 279 → 300 watch (21bp) · 🟠 CCC 996 → 1000 (4bp)
-- 🟡 **KB-BND-092 basis-trade hypothesis — first read taken, routed to LIQUID, NOT adjudicated by me.** The 5Y thin cover did **not** extend to the 7Y 24h later in a *longer* tenor (5Y −0.060 vs its own median and below its own min; 7Y −0.005 with normal gross demand). Argues against a *general* belly-wide levered-bid withdrawal ⇒ points **5Y-specific**. Cuts the same way against the **FOMC-eve confound**, since the 7Y priced *closer* to the FOMC and longer in duration with normal cover. Alternatives I can't discriminate and LIQUID can: 5Y-specific basis/futures positioning · size effect ($70B vs $44B) · repo specials over 7/24–7/28.
-- 🟡 Auction **tail** remains unscoreable from primaries by construction — every future auction leg stays composition-keyed. ⚠️ **`VX-BND-09 "Auction Tail"` still carries a score of 2 on a metric formally retired as unscoreable on 7/28** — a live internal inconsistency, **not fixed this session** (out of scope, and a score change needs a registered path). Queue it with v1.1.4.
-- 🟡 REVIEW QUEUE (unchanged, none load-bearing for the FOMC): `RECEIPT.md` · `BND11_REFUNDING_PREREG` · `workbook/FLOW.tsv` · `workbook/SCHEMA.tsv` · `domain/sources/` (13) · `analysis/CROSS_TENOR_BASE_RATES` · `data/` · `research/` · older `outbox/` + `inbox/processed/`.
-- 🟢 Minor hygiene: `workbook/KB.tsv` carries **4 bare-LF line terminators** at the KB-073…076 boundaries — **pre-existing (verified identical in git HEAD), not introduced this session**; field counts all validate at 13. Fix opportunistically, don't rewrite the file for it.
-- 🟢 EU peripheral benign (BTP-Bund 83 [7/17], trigger 200) — ECB GovC calendar verify from primary still owed.
+- 🔴 **T7 8/19** · 🟠 CCC 1024 → 1100 (76bp) · 🟠 HY 271 → 300 (29bp) · 🟠 DFII10 2.39 → 2.5 (11bp, gap widening) · 🟠 30Y 44 days >5% vs 2007's 50 (6 away, 4½ months left)
+- 🟡 **`VX-BND-09 "Auction Tail"` still scores 2 on a metric formally retired as unscoreable on 7/28.** Live internal inconsistency, **still not fixed** (a score change needs a registered path). Queue with v1.1.4.
+- 🟡 **v1.1.4 still not adopted** — pre-committed on 7/28 for "next session," and two sessions have passed. Five changes: (a) indirect at the per-tenor 15th pctile, sufficient alone, of-competitive-accepted; (b) drop dealer as a bearish leg; (c) BTC confirmatory only; (d) **mandatory RESIDUAL branch on every branch set**; (e) state the margin on every leg at resolution. Plus: review whether the VX-01 revert rule is too fast.
+- 🟡 **`KB-BND-092` basis-trade hypothesis still unadjudicated by LIQUID** — and **WALTER `-012` §7 independently asked LIQUID the same question** (the $1.0T levered cash-futures book, −23% from peak, uninstrumented fleet-wide). Two routes, same question; worth telling LIQUID they converge.
+- 🟡 **Still owed from LIQUID:** the refuse-or-confirm on repo/funding stress over 7/01→7/15. **If it exists, the −17.4% dealer unwind flips from benign distribution to forced de-risking, which is MORE bearish.** Unanswered since 7/28.
+- 🟡 EU leg dormant — BTP-Bund 83 [7/17, now 29 days stale]; ECB GovC calendar verify from primary **still owed**.
+- 🟢 `workbook/KB.tsv` still has 4 bare-LF terminators at the KB-073…076 boundaries — pre-existing, field counts validate at 13 (108 rows). Fix opportunistically.
 
 ## MAIL STATE
 
-- **Inbox (general): EMPTY** · **Inbox WALTER: EMPTY** (both drained ~04:30).
-- **Outbox:** +1 — `2026-07-28_to-PROME_7y-grade.md` (verdict one-liner + composite change).
-- **Packets delivered this session:** `AGENTS/HENRY/inbox/2026-07-28_from-BOND_7Y-graded-BND-13-CONFIRMED-branch-B.md` · `AGENTS/NEXUS/inbox/2026-07-28_from-BOND_7Y-graded-BND-13-CONFIRMED-branch-B.md` · `AGENTS/LIQUID/inbox/2026-07-28_from-BOND_5Y-thin-cover-did-not-extend-to-7Y-basis-trade-observation.md` (self-authored → committed by me per root carve-out ①).
+- **Inbox WALTER: EMPTY** — 7 consumed and `git mv`'d to `processed/` this session.
+- **Inbox (general): 5 UNPROCESSED** — separate task per protocol; two are load-bearing SAM retractions (see NEXT SESSION #2).
+- **Packets delivered this session** (self-authored → committed by me per root carve-out ①):
+  - `AGENTS/WALTER/inbox/2026-08-15_from-BOND_30y-count-answered-44-not-27-and-mts-answered-no.md`
+  - `AGENTS/LIQUID/inbox/2026-08-15_from-BOND_T6-has-two-spec-defects-found-14-days-before-close-neither-moves-the-test.md`
+  - `AGENTS/ORACLE/inbox/2026-08-15_from-BOND_T6-trigger-does-not-name-your-platform-polymarket-33.5-vs-kalshi-35.0.md`
+  - `PROME/inbox/2026-08-15_from-BOND_T6-spec-defects-cc.md`
+- **Outbox:** unchanged (no 🔴-acute cross-agent signal this session — the T6 flags went as direct packets to the co-owner, which is the right channel).
 
-## CLOSEOUT (compressed per live-event override)
+## CLOSEOUT
 
-- **9 STATUS:** state line, matrix row (VX-01 3→2) + composite re-summed **12/35** and verified against VX.tsv, long-end row, configuration block, Trade Interface gate (c) resolved, OPEN PREDICTIONS line, catalyst row, new BOTTOM LINE at top.
-- **10 Workbook + PREDICTIONS:** **KB-BND-097…100** (+4, 13-col validated, CRLF preserved). **VX-01 3→2**, **VX-08 evidence refreshed / score held with the reason recorded**. **BND-13 resolved TRUE**; DUE-scan: BND-01 still in-window to 7/31, nothing left OPEN-but-stale.
-- **11 Thesis:** **no version bump** — the grade is evidence accumulation under v1.1.3 and the pre-committed v1.1.4 changes are **method**, adopted next session by design so they can't be read as fitted to the print.
-- **12 Forward state:** `CATALYSTS.tsv` 7/28 row resolved with the full grade; STATUS mirrors the same event SET (7/27 ✅ · 7/28 ✅ · 7/29 FOMC · 7/31 BND-01 + BOJ · 8/03 P3 · 8/05 QRA unverified).
+- **9 STATUS:** header + state line, 11 dashboard rows refreshed live, matrix HY row (held-with-conditions), long-end row, T6 live state + defect block, Trade Interface gates (b)(c)(d) resolved, OPEN PREDICTIONS → NONE, catalyst table, new BOTTOM LINE. Composite re-verified **12/35** against VX.tsv.
+- **10 Workbook + PREDICTIONS:** `KB-BND-101…107`. `VX-BND-11` **2→3**; `VX-BND-02` held with registered conditions; `VX-BND-05` evidence corrected. **`BND-01` RESOLVED FAILED** — DUE-scan clear, **zero OPEN**.
+- **11 Thesis:** **no version bump.** The C-36 downgrade is already recorded (8/10, v1.1.3 + STATUS flag); this session is evidence accumulation and error correction under it. ⚠️ **THESIS has not been read end-to-end since 7/28 and the 8/10 downgrade may not be reflected in it** — flagged, not assumed.
+- **12 Forward state:** `CATALYSTS.tsv` — 4 rows resolved (7/29, 7/31, 8/03, 8/05), 2 added (8/24, 9/10), T6 row annotated with both defects, credit row refreshed. STATUS mirrors the same event SET.
 - **13 SCRATCH:** this file. **14 RECEIPT:** overwritten.
-- **15 Promotion scan:** 1 auto-memory promoted — `finding_gate_bias_is_placement_error_compare_to_margin`. Fleet-transferable (applies to any pre-registered threshold, not just auctions), so **not** duplicated into local `MEMORY.md`. Index row added to `MEMORY.md`; `memory_index_check.py --strict --slug` run per root step 1d.
-- **16 Mirror-consistency:** STATUS matrix ↔ VX.tsv row-by-row; STATUS catalysts ↔ CATALYSTS.tsv same event set; PREDICTIONS OPEN set (BND-01 only) ↔ STATUS scoreboard. Durable docs carry no live values.
-- **17 Git:** BOND-only pathspec commits from repo root + the three self-authored inbox packets (carve-out ①), recipients named in the commit subjects. ⚠️ **WALTER has live uncommitted files in the tree — do NOT pull/stash/sweep.** safe-push only if fast-forward-clean; otherwise leave it to the push train.
+- **15 Promotion scan:** see `MEMORY.md` — one BOND-local learning added (the run-vs-count conflation). **No new auto-memory promoted:** the generalisable lessons here are already covered by `[[finding_plausible_stale_value_evades_review]]`, `[[finding_number_carries_threshold_unit_source]]` and `[[finding_prereg_verdict_boundary_must_be_a_number]]` — extending beats duplicating, and none needed extending.
+- **16 Mirror-consistency:** STATUS matrix ↔ VX.tsv row-by-row; STATUS catalysts ↔ CATALYSTS.tsv same event set; PREDICTIONS OPEN set (empty) ↔ STATUS scoreboard (NONE). Durable docs carry no live values.
+- **17 Git:** BOND-only pathspec commits from repo root + the four self-authored packets (carve-out ①). ⚠️ **CARL and WALTER have live uncommitted files in the tree — did NOT pull, stash or sweep.** Origin was 0-behind at boot so no pull was needed.
