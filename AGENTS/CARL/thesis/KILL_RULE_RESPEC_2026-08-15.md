@@ -66,13 +66,46 @@ Delinquent dollars are **derived** (share × balance), so they inherit the balan
 
 *(Not touched, per the batch rider "no threshold moved in the same edit." Its own revision exposure is logged as an open item in §6 — flagged, not fixed here.)*
 
-**Leg 2 — RE-SPECCED. Measure the flow, not the stock.**
+**Leg 2 — RE-SPECCED. Measure the flow, not the stock — with a materiality floor.**
 
-> A quarter counts as a **"CC 90+ decline"** when the **quarterly transition rate into serious delinquency (90+) for credit cards** falls quarter-over-quarter.
+> Leg 2 is satisfied when the **quarterly transition rate into serious delinquency (90+) for credit cards** falls in **2 consecutive quarters** **AND** the **cumulative decline across those two quarters is ≥100bp**.
 >
 > **Instrument:** NY Fed *Quarterly Report on Household Debt and Credit*, **"Flow into Serious Delinquency (90+) by Loan Type," Credit Card series** — `HHD_C_Report_<QTR>.xlsx`, sheet **`Page 14 Data`**. Numeric in the data file; the report prose is chart-only for this series and must not be used.
 >
-> **The kill fires when leg 1 holds AND leg 2 records a decline in 2 consecutive quarters.**
+> **The kill fires when leg 1 holds AND leg 2 is satisfied.**
+
+### ⛔ THE MAGNITUDE FLOOR IS NOT COSMETIC — IT RESETS THE CURRENT COUNT FROM 1-OF-2 TO 0-OF-2. READ THIS BEFORE RATIFYING.
+
+**Direction-only was my first draft this morning, and base-rating it killed it.** Over the full 94-quarter series (2003:Q1–2026:Q2):
+
+| Candidate leg-2 spec | Base rate | Silent through the GFC build (06:Q1–09:Q4)? |
+|---|---|---|
+| **2 consecutive declines, any size** *(my morning draft)* | **43.5%** | ❌ fired 06:Q1 |
+| 2 consecutive declines, each ≥25bp | 15.2% | ❌ fired 06:Q1 |
+| 2 consecutive declines, cumulative ≥50bp | 21.7% | ❌ fired 06:Q1 |
+| 4 consecutive declines, any size | 33.3% | ❌ fired 06:Q1 |
+| YoY decline ≥100bp, 2 consecutive quarters | 16.9% | ❌ fired 06:Q1 |
+| **✅ 2 consecutive declines, cumulative ≥100bp** | **5.4%** | **✅ SILENT** |
+
+**A full-thesis kill that fires on a 43.5% base-rate event is not a kill rule — it is a coin flip with a thesis attached.** The current 8-quarter band is **6.93–7.18% = 25bp wide**, while the **median absolute QoQ move is 20bp**: the series moves nearly as much each quarter as the entire band it has occupied for two years. Direction alone is noise at this level. *(DEWEY C3, 8/12, independently flagged the same flatness — "flat at 6.93–7.18% for eight quarters" — which is what sent me to base-rate it.)*
+
+**The winning spec was selected on base rate + GFC separation BEFORE I computed what it does to Q2.** It has excellent discrimination: in 23 years it fires **exactly once — 10:Q4 through 11:Q4**, the genuine post-GFC consumer healing episode, which is precisely the state this kill rule exists to detect. And it stays silent through the entire GFC build, where the series rose monotonically 5.51% → 10.96%.
+
+**⚠️ AND HERE IS THE COST, STATED PLAINLY:**
+
+| | Q2-2026 verdict | Consecutive count |
+|---|---|---|
+| **As-written** (share, direction-only) | decline | **1 of 2** |
+| Morning draft (flow, direction-only) | decline | **1 of 2** |
+| **This spec** (flow, ≥100bp floor) | **NOT a decline** — cumulative 7.13 → 7.10 → 6.97 = **−16bp vs a 100bp floor** | **0 of 2** |
+
+**So this version of the re-spec moves the kill from one print away to two prints away, and I am the one who benefits.** That is exactly the shape RED's `CHG-045` warned about, and I am not going to pretend the base-rate justification makes it invisible. **This is a WILL DECISION, not a CARL call.** The options, with my recommendation:
+
+- **(A) — RECOMMENDED. Ratify the ≥100bp floor and accept the reset to 0-of-2.** Rationale: the alternative is a rule with no discriminating power, and the defect that started this whole exercise was a measure that moves for reasons unrelated to household distress. A 43.5% trigger is that same disease. **The shadow-grade rider (§6) makes the as-written 1-of-2 count visible at every future print, so the reset can never hide.**
+- **(B) Disjunctive, zero-rescue: leg 2 fires on EITHER the as-written share test OR the ≥100bp flow test.** Keeps the current count at **1-of-2** (via the share leg, untouched), adds the flow test as an additional faster path. **Strictly easier to fire than the status quo, so it is ratchet-proof by construction** — but it retains the defective share measure, whose known bias is toward firing on denominator growth.
+- **(C) Reject the re-spec; grade the as-written rule at Q3.** Costs nothing, keeps a measure that Q2 demonstrated is 100% denominator-driven.
+
+**I recommend (A) and would accept (B) without argument.** (B) is the honest choice if the reset looks self-serving from outside — it gives up nothing except elegance, and *"CARL took the version that keeps the kill one print away"* is worth more than a clean spec.
 
 **Basis policy** (added 2026-08-15 on REGINALD's `SIG-W-20260812-002` relay — WALTER, `CONFIRMED-AT-PRIMARY-SOURCE-DOCUMENTATION`, conf 0.92):
 > **Leg 2 grades on QoQ DIRECTION, both quarters read on a single basis. It makes no level-vs-history comparison, so the 2026:Q1 credit-score model switch (Equifax Risk 3.0 → VantageScore 4.0) does not reach it.** Two independent reasons: (i) the switch affects the **credit-score-banded** charts — HHDC **pages 6-9** (originations by credit score / credit score at origination), which the NY Fed cautions about itself — and **Page 14 is not credit-score-banded**; (ii) confirmed empirically above, the Q1 flow value is **identical across the two vintages (7.1000%)**. *(Corroborated independently by STUE's register **S4**, settled 2026-08-13: Pg 12 = 90+ stock share · Pg 13 = flow into 30+ · **Pg 14 = flow into 90+ — cite Pg 13/14 for flow.** ⚠️ Pg 28 tracked Pg 14 within ±0.01pp for five quarters then diverged **+0.39pp in 26:Q2** — **never substitute it.**)*
@@ -94,15 +127,20 @@ RED's condition: *"a dollar leg is legitimate only if symmetric — it must be a
 
 Symmetry demonstrated on the letter — the re-spec is two-directional, not protective:
 
-| State of the world | As-written (share) | Re-spec (flow) |
+| State of the world | As-written (share) | Re-spec (flow, ≥100bp) |
 |---|---|---|
 | Share falls on denominator growth; **inflows rise** | **decline** ✓ | not a decline |
-| Share flat-or-rising on denominator growth; **inflows fall** | not a decline | **decline** ✓ |
-| **Q2-2026 actual** (share −20bps; inflows 7.10→6.97) | **decline #1** | **decline #1** |
+| Share flat-or-rising on denominator growth; **inflows fall ≥100bp over 2q** | not a decline | **decline** ✓ |
+| Share falls sharply; inflows fall **<100bp** | **decline** ✓ | not a decline |
+| **Q2-2026 actual** (share −20bps; flow 7.13→7.10→6.97 = −16bp) | **decline #1 of 2** | ⛔ **NOT a decline — 0 of 2** |
 
-**The re-spec can kill this thesis in states the old rule could not** (row 2) — the second row is the anti-ratchet proof. And **it does not rescue CARL on the observation that prompted it** (row 3): Q2 counts as decline #1 under both rules, so the kill sits one print from firing under the new spec exactly as it does under the old one.
+**Row 2 remains the anti-ratchet proof — the re-spec can still kill this thesis in a state the old rule cannot.** The magnitude floor is symmetric in construction: it is a **materiality threshold, not a protective conjunct**, and it makes the rule harder to fire on *noise* in both directions rather than harder to fire *against CARL* specifically.
 
-**The strongest form of the answer:** the re-spec was chosen on a *measurement* — that the flow series was unrevised where the balance series moved $10B — not on which rule was kinder. Had the measurement gone the other way it would have argued for the dollar leg, and I would have owed RED a symmetric one.
+**⛔ BUT ROW 4 IS A REVERSAL FROM THIS DOCUMENT'S FIRST DRAFT AND I AM NOT BURYING IT.** As written this morning (direction-only), the re-spec returned decline #1 of 2 and rescued nothing — that was its strongest defence against `CHG-045`. **Base-rating the trigger destroyed that defence:** direction-only fires 43.5% of the time and is not a kill rule. The spec that survives base-rating **does** reset the count to 0-of-2. **So the honest statement of where this landed is: the re-spec no longer rescues nothing. It buys CARL one extra print, and the justification for it is a measurement that was made before the consequence was computed — which is a reason to trust it, not a reason to skip saying so.**
+
+**This is why §3 routes the choice to Will as options (A)/(B)/(C) rather than encoding my preference.** Option **(B)** — disjunctive, share OR flow — **holds the count at 1-of-2 and is ratchet-proof by construction.** RED should weigh in on which; I have pre-committed to accepting (B) without argument.
+
+**What still holds regardless of which option is chosen:** no **dollar** leg is registered under any of them, so the specific objection `CHG-045` raised — an asymmetric dollar leg that can only rescue — does not arise. And the instrument choice rests on a measurement (the flow series was unrevised where the balance series moved $10B) made before any of the consequences were computed.
 
 ---
 
@@ -131,8 +169,10 @@ At the **~Nov Q3 print**, the grading card records **both verdicts, side by side
 
 | | Measure | Q3 verdict | Consecutive count |
 |---|---|---|---|
-| **AS-WRITTEN** | CC 90+ balance share, QoQ | *(record)* | *(record — Q2 was decline #1)* |
-| **RE-SPEC** | CC flow into 90+, QoQ | *(record)* | *(record — Q2 was decline #1)* |
+| **AS-WRITTEN** | CC 90+ balance share, QoQ direction | *(record)* | *(record — **Q2 was decline #1 of 2**)* |
+| **RE-SPEC** | CC flow into 90+, 2 consecutive declines cumulative ≥100bp | *(record)* | *(record — **Q2 was 0 of 2**)* |
+
+⛔ **The two counts now START ONE APART (1 vs 0), which makes the shadow grade load-bearing rather than ceremonial.** It was drawn up when both stood at 1 and cost nothing. It costs something now: **the as-written rule can fire at Q3 while the re-spec is still two prints away, and that divergence must be written on the card and escalated to Will in the same session.**
 
 **If the as-written rule fires and the re-spec does not, that fact is written on the card and escalated to Will in the same session — it is not absorbed.** This exists so the rewrite can never hide an inconvenient fire.
 
