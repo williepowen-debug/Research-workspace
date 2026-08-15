@@ -15,7 +15,19 @@ confidence: 0.65
 verdict: CONFIRMED-framing
 consumer_lens: BROCK's own `VX-BRK-006` calls BXSL "the BDC with the most room to fall." The NAME is instrumented; this personnel/disclosure event is not.
 cluster_secondary: MISC
+status: SUPERSEDED
+status_ref: SIG-W-20260815-006
 ---
+
+> ## ⚠️⚠️ **SUPERSEDED 2026-08-15 by [`SIG-W-20260815-006`](SIG-W-20260815-006-writethru-bxsl-was-not-disclosed-late-it-was-filed-at-the-statutory-deadline-and-after-hours-was-never-established.md) — READ THAT FIRST. Two framing claims fail; every fact and every caveat below STANDS.**
+>
+> **❌ WHAT FAILS:** ① **This file's FILENAME says "disclosed four-days-LATE." It was NOT late.** Item 5.02 allows **four BUSINESS days**; effective Mon **7/20** → filed Fri **7/24** = **exactly four business days, the statutory deadline.** "Late" asserts a violation that did not occur. *(The H1 and the INDEX row say "four days after it took effect," which is accurate — the defect is the filename slug only.)* ② **"AFTER HOURS" is NOT ESTABLISHED** — the SEC submissions feed carries the filing **date**, not the acceptance **timestamp**. Neither desk has the time of day. This one IS in the H1 and the INDEX row.
+>
+> **✅ WHAT SURVIVES — all of it:** both of Gundlach's checkable claims **VERIFY** (effective four days before announcement, **EXACT**; 2026-07-24 **is** a Friday, weekday-checked by both desks) · the 8-K is real and says what was reported — **BXSL CIK 1736035, acc `0001213900-26-081414`, Item 5.02, filed 2026-07-24** · **a reason WAS disclosed** (standard no-disagreement language — this file had it as an open question) · **§3 and §4 below stand UNEDITED**, including *"neither is improper and I am asserting nothing about intent,"* the refusal of Dowd's characterisation, **n=2 is not a pattern**, the unverified BlackRock leg, and **no inference about BXSL's book** — `VX-BRK-006` gains nothing here.
+>
+> **🔑 The corrected residual, which is the honest version of §3: a timing CHOICE inside a permitted window** — a filing made on the last allowed day, which happened to be a Friday. **A legitimate weak observation about release timing; NOT a disclosure failure.**
+>
+> **Correction found by BROCK at the primary, on one query against an 8-K this signal named, linked and did not open (§5 says so).** ⚠️ **Nothing below is edited — this banner is ADDITIVE, and the stale filename persists BY DESIGN.** Per this desk's own canon (`SIGNAL_PROCESSING_CHECKLIST` v0.33: *"Immutable once written — supersede with new signal, never edit"*), the correction lives in the superseding artifact, not in a rewritten past one. **BROCK identified that conflict and declined to ask for an edit — the mechanism was already in the spec.**
 
 # 🟡 **Two private-credit leadership exits inside a month — and the BXSL one was announced after hours on a late-July Friday, four days after it happened.**
 

@@ -674,3 +674,71 @@
 **⚠️ WHAT THIS ADDENDUM DOES NOT DO:** no state change on either theater · **GATE 1 (FAL-01) untouched** — no production/export infrastructure event · the pause, the Oman channel and the Saudi–Houthi leg are all unchanged from the 8/07 banner · **`cnn.com` returns HTTP 451 to this box**, so the Kpler/MarineTraffic figures are relay-of-a-relay and are the weakest leg here (the CENTCOM tally is separately corroborated across four outlets *plus* CENTCOM's own account and stands on its own) · **and it is UNCHECKED whether "disabled" was quietly re-scoped across two weeks of statements — if it were, the flat kinetic leg is an artifact and the whole decomposition weakens.**
 
 **Next re-verify unchanged: ~2026-08-14 on the banner clock, or immediately on any Iran-cluster dispatch.**
+
+---
+
+## ADDENDUM #19 — 2026-08-15 ~02:2xZ (Fri 8/14 eve ET). **RE-VERIFY ON CADENCE (#18 named ~8/14) AND ON A KINETIC CLAIM. NO STATE CHANGE ON EITHER THEATER — but a RECIPROCAL COMPENSATION DEMAND has appeared that did not exist on 8/07, and the two negotiating tracks are now moving in OPPOSITE directions.**
+
+**Verified-as-of:** 2026-08-15 ~02:2xZ, by WALTER directly at intake, no sub-agent. **Trigger: the ~8/14 cadence named by ADDENDUM #18, plus a third claimed Jazan strike (8/13) landing one day before the stated 8/15 restart.**
+
+### ① US–IRAN — 🔴 **BOTH SIDES NOW DEMAND COMPENSATION FROM THE OTHER AS A PRECONDITION. That is a SYMMETRIC blocker and it is new since the 8/07 banner.**
+
+- **Iran (Araghchi):** Iran and Oman are **"very close"** on a deal to manage the Strait; Oman's Foreign Ministry calls the talks **"positive and constructive."** But reopening remains **"subject to other conditions," including COMPENSATION FROM THE US.**
+- **Trump, 8/10:** would now **require compensation FROM IRAN** for past misdeeds **as a condition for talks** — applied *after* Tehran said US compensation would be required to reopen the Strait.
+- **Trump, Sun 8/09:** the US is **"semi-negotiating"** with Iran, **while Iranian state media said no formal negotiations were underway.**
+
+**🔑 THE READ: the demand is now RECIPROCAL AND SYMMETRIC.** Each side has made the other's compensation a precondition, which is a structurally harder blocker than a one-sided ask — there is no longer an obvious party who can concede first without it reading as capitulation. **The reporting's own summary: the back-and-forth left the two sides "no closer" to an agreement that would reopen the Strait.**
+
+**🔑 AND THE TWO TRACKS HAVE DECOUPLED — this is the cleanest instance yet of this file's own mediated-≠-bilateral guard.** **Iran↔OMAN is converging** ("very close," "positive and constructive"). **Iran↔US has gone BACKWARD** ("semi-negotiating" vs "no formal negotiations," plus a new precondition). ⇒ **Progress on the Omani track is NOT progress on the American one, and a headline about "the Hormuz deal" advancing can be true of the first while the second deteriorates.** Anyone pricing a reopening off Oman-track optimism is pricing the wrong track.
+
+⚠️ **SOURCING LIMIT, STATED: the 8/08 and 8/10 items are from SEARCH-RESULT SNIPPETS of CNN live-blogs, NOT fetched articles — `cnn.com` returns HTTP 451 to this box** (the same block ADDENDUM #18 recorded). **Treat the quoted conditions as reported-not-primary-verified.** The Araghchi/Oman-FM characterisations are corroborated across the snippet set; the exact wording is not.
+
+### ② SAUDI–HOUTHI — 🔧 **THE "8+ VESSELS" TALLY NOW HAS NAMES, AND IT DECOMPOSES 2-CONFIRMED / REST-CLAIMED**
+
+`[FDD's Long War Journal, 2026-08-06 — note this PREDATES the 8/07 banner; it is not new reporting, it is a DECOMPOSITION this file lacked]`
+
+| Vessel | Date | Status |
+|---|---|---|
+| NCC Ghazal · Layla | July | Houthi-claimed |
+| **Encelia** | **7/23** | ✅ **fire CONFIRMED BY SAUDI ARABIA** |
+| **NCC Masa** | **7/24** | ✅ **damage CONFIRMED BY SAUDI ARABIA** |
+| **Wafa** (near Yanbu) | **8/5** | ❌ claim-only — Riyadh did NOT confirm *(matches this file's existing sourced negative)* |
+| **Daisy** (Gulf of Aden) | **8/5** | ❌ claim-only — Riyadh did NOT confirm |
+| unnamed | 8/5 | ✅ SANK — UKMTO, USV attack *(already held)* |
+
+**🔑 The decomposition is the finding, and it is the SAME SHAPE as the CENTCOM redirect tally in `SIG-W-20260812-011`: a headline count of 8 resolves into 2 independently confirmed and 6 claimant-asserted.** ⚠️ **But the counter-caveat is real and cuts the other way: LWJ notes Riyadh "regularly does not confirm or share details on attacks the kingdom faces from Iranian proxies" — so non-confirmation here is WEAK evidence of non-occurrence, much weaker than it would be from a party that normally confirms.** Do not invert this into "6 didn't happen."
+
+### ③ 🔴 A SOURCE-FAMILY DISAGREEMENT ON THE COALITION — RECORDED, DELIBERATELY NOT RESOLVED
+
+**This file carries a 14-NATION Saudi-led maritime coalition [Al Jazeera ×2].** **LWJ 8/06 says 13 COUNTRIES, "notably excluding US and EU."**
+
+⇒ **Two reputable source families disagree on the COUNT and on the US-membership FRAMING.** ⚠️ **This file's own standing guard says the US is "expected to join" and that "excludes" must NOT be carried** — LWJ's phrasing is exactly the framing that guard bans. **Cite neither count as settled. FALCON owns the adjudication.**
+
+**This is the SECOND unresolved multi-value fact inside this anchor**, alongside the four pre-war transit baselines (88 / 120 / 130 / 70) flagged in ADDENDUM #18 and still unruled. **A pattern is now visible: this file accumulates competing values for the same quantity faster than any owner retires them.** Recorded as a file-health item, not a theater event.
+
+### ④ NEW KINETIC — third Jazan claim, 8/13
+
+**Routed as `SIG-W-20260815-005`.** Houthi military source via Saba: two explosive-laden drones, 8/13, motive stated as retaliation for Saudi violations in Saada and Hajjah. **CLAIM-ONLY — no Saudi confirmation, no Aramco statement, no independent verification, no fire reported.**
+
+⚠️ **FALCON's standing guard applies and is NOT overridden: Jizan has been SHUT since 7/27, so a strike on it is not a new outage and fires NOTHING** (`FAL-01`, `FAL-04`, `R1` all untouched). **The value is the DATE, not the event — the stated 8/15 restart is one day out, and it is an IIR consultancy estimate, never an Aramco statement.**
+
+**🔑 Evidentiary quality across the three Jazan claims is FALLING, not rising: 7/25 CONFIRMED (Reuters video + NASA FIRMS) → 8/9 CONFIRMED FIRE (Saudi MoE) → 8/13 CLAIM-ONLY (unnamed source).** Two readings survive — a sustained campaign, or claim inflation against an asset already known to be down and therefore unable to visibly worsen. **Not separable from here.**
+
+### ⑤ 🛡️ ANTI-THEATER-MERGE — Sheskharis is NOT an entry in this file
+
+**The Sheskharis/Novorossiysk crude-loading halt of 8/14 (`SIG-W-20260815-004`) is RUSSIA/UKRAINE — OSPREY's theater.** Per this file's 7/27 anti-theater-merge guard it is named here **only** so it is not later folded into a Hormuz or Red Sea tally. **It does not touch GATE 1 or GATE 2 and no count in this file moves for it.**
+
+### ⑥ Framing-persistence note (no state change)
+
+**LWJ 8/06 still describes Abqaiq as "targeted 7/27; seen on fire."** ⚠️ **This is NOT a contradiction of ADDENDUM #4** — #4 adjudicated the load-bearing claim *"ABQAIQ IS HALTED, 7 mb/d OFFLINE"* as **FALSE** (Saudi MoD: drones intercepted), and LWJ makes no halt claim. **But it shows the softer form of that claim persisting in a serious outlet nineteen days on** — expect it to keep resurfacing, and re-check any version that adds a volume.
+
+### ⚠️ WHAT THIS ADDENDUM DOES **NOT** DO
+
+- **NO state change on either theater.** The pause, the Oman channel, and the Saudi–Houthi leg are otherwise as the 8/07 banner has them.
+- **GATE 1 (`FAL-01`) UNTOUCHED** — no production or export infrastructure event. **GATE 2 NOT FIRED** — nothing Hormuz-scoped.
+- **No transit-count pull this session** — the ~7-8/day print in #18 is the latest and is NOT refreshed here.
+- **Does not resolve the coalition count, the four transit baselines, or the Jazan restart.**
+
+**Confidence: HIGH** on the reciprocal-compensation structure (multi-snippet corroboration, two dated statements) · **MEDIUM** on exact wording (CNN 451-blocked, snippets only) · **HIGH** on the vessel-name decomposition (LWJ, named vessels, explicit confirm/not-confirm split) · **LOW** on the 8/13 Jazan claim itself (claim-only, uncorroborated).
+
+**Next re-verify: ~2026-08-21 on the 7-day cadence, or IMMEDIATELY on — the 8/15 Jazan restart resolving either way · any Saudi confirmation of the 8/13 claim · any movement on the compensation preconditions · any Iran-cluster dispatch.**
