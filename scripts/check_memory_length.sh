@@ -13,9 +13,19 @@ root="$(git -C "$(dirname "$0")" rev-parse --show-toplevel)"
 idx="$root/memory/auto/MEMORY.md"
 [[ -f "$idx" ]] || { echo "no MEMORY.md at $idx — nothing to check."; exit 0; }
 
+# Load canonical caps SHARED with scripts/memory_index_check.py so the two
+# guards can never disagree on what "the cap" is (born 2026-08-14 off DEWEY's
+# 8/12 flag: same file read "82%" and "77%" in the same closeout).
+caps="$(dirname "$0")/harness_caps.env"
+[[ -f "$caps" ]] || { echo "MISSING: $caps — the shared caps file the guards read." >&2; exit 2; }
+# shellcheck disable=SC1090
+source "$caps"
+
 lines=$(wc -l < "$idx")
 bytes=$(wc -c < "$idx")
-soft_lines=180; hard_lines=200; hard_bytes=25600
+hard_lines="$MEMORY_HARNESS_CAP_LINES"
+hard_bytes="$MEMORY_HARNESS_CAP_BYTES"
+soft_lines=$(( hard_lines * MEMORY_WARN_PERCENT / 100 ))
 # soft_bytes ADDED 2026-08-03 (DAEDALUS, scripts/ break-fix). There was a soft tier for
 # LINES and none for BYTES, so the WARNING could not fire on this file's actual growth
 # mode: measured today it sat at 19027/25600 bytes = 74% of the binding cap but 23/200
@@ -23,7 +33,7 @@ soft_lines=180; hard_lines=200; hard_bytes=25600
 # three-tier restructure is what changed the growth mode — rows are now long single
 # lines, so the file grows in bytes, not lines, and the only tier watching bytes was the
 # CRITICAL one at 100%. PAT-074: the guard's PASS was silent about the dimension that binds.
-soft_bytes=$(( hard_bytes * 80 / 100 ))
+soft_bytes=$(( hard_bytes * MEMORY_WARN_PERCENT / 100 ))
 pct_lines=$(( lines * 100 / hard_lines )); pct_bytes=$(( bytes * 100 / hard_bytes ))
 
 echo "MEMORY.md: ${lines} lines (${pct_lines}% of ${hard_lines}), ${bytes} bytes (${pct_bytes}% of ${hard_bytes}) — boot-load cap"

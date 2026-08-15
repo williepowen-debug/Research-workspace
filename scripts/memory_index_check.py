@@ -102,11 +102,48 @@ MEM_DIR = os.path.join(REPO, "memory", "auto")
 INDEX = os.path.join(MEM_DIR, "MEMORY.md")
 INDEX_COLD = os.path.join(MEM_DIR, "INDEX_COLD.md")
 
-# --- byte cap (REQ 1.3) -----------------------------------------------------
-# MEMORY.md is auto-loaded into every agent's context at boot. 24,400 bytes is
-# the harness auto-load cap; warn at 80% so compaction is scheduled, not forced.
-HOT_CAP_BYTES = 24_400
-HOT_WARN_FRACTION = 0.80
+# --- shared caps (2026-08-14) -----------------------------------------------
+# Both this script AND scripts/check_memory_length.sh read from ONE source of
+# truth so the two guards can never disagree on what "the cap" is. Born off
+# DEWEY's 8/12 flag: the same MEMORY.md read "82% of cap" (py, when this file
+# said 24,400) and "77%" (sh, at 25,600) in the SAME closeout, because each
+# tool had its own local constant. PAT-069 shape: "the cap" is a concept, each
+# tool resolved a different instrument. Fix = ONE file, both read.
+# Root canon 1d is authoritative: 25,600 bytes / 200 lines. If the harness cap
+# changes, edit scripts/harness_caps.env and both guards move together.
+_CAPS_FILE = os.path.join(REPO, "scripts", "harness_caps.env")
+_CAPS_DEFAULTS = {
+    "MEMORY_HARNESS_CAP_BYTES": "25600",
+    "MEMORY_HARNESS_CAP_LINES": "200",
+    "MEMORY_WARN_PERCENT": "80",
+    "MEMORY_HOOK_WARN_CHARS": "80",
+}
+
+
+def _load_caps():
+    """Line-parse KEY=VALUE from harness_caps.env; fall back to root-canon defaults."""
+    values = dict(_CAPS_DEFAULTS)
+    if not os.path.exists(_CAPS_FILE):
+        return values, False  # signal: caps file missing — defaults in play
+    try:
+        with open(_CAPS_FILE, encoding="utf-8") as f:
+            for raw in f:
+                line = raw.split("#", 1)[0].strip()
+                if "=" not in line:
+                    continue
+                k, _, v = line.partition("=")
+                k, v = k.strip(), v.strip()
+                if k in values:
+                    values[k] = v
+    except OSError:
+        return values, False
+    return values, True
+
+
+_CAPS, _CAPS_PRESENT = _load_caps()
+HOT_CAP_BYTES = int(_CAPS["MEMORY_HARNESS_CAP_BYTES"])
+HOT_WARN_FRACTION = int(_CAPS["MEMORY_WARN_PERCENT"]) / 100.0
+HOOK_WARN_CHARS = int(_CAPS["MEMORY_HOOK_WARN_CHARS"])
 
 # --- stale embed-pendings (REQ 1.4) -----------------------------------------
 EMBED_PENDING_RE = re.compile(r"embed-pending\s*(?:→|->)\s*(\S+)")
@@ -164,6 +201,48 @@ def slugs_in(path):
         seen.add(s)
         ordered.append(s)
     return ordered
+
+
+def hook_length_warning(scope):
+    """Advisory (2026-08-14, PROME ask): warn when a named slug's inline hook
+    in MEMORY.md is longer than the canon cap (~80 chars).
+
+    Measured driver of the ~535 B/day growth in the hot index: appended hooks
+    running 150–250 B against the ≤80-char canon, and NOTHING TOLD THE WRITER
+    at the moment they were appending. This surfaces the length at the one
+    time the author is looking. Advisory only, never fails — the canon line
+    itself already exists in the index header; this just makes it visible.
+
+    A hook is text after ` — ` immediately following the slug on the same
+    row, up to the next ` · ` separator or line end. A slug with no inline
+    hook (just `· slug_name`) has nothing to lint and is skipped silently.
+    """
+    if not scope or not os.path.exists(INDEX):
+        return
+    with open(INDEX, encoding="utf-8", errors="replace") as f:
+        text = f.read()
+    findings = []
+    for slug in scope:
+        # Match `slug` followed by ` — hook…` on the same line; hook ends at
+        # the next ` · ` sibling separator or end of line.
+        pat = re.compile(
+            re.escape(slug) + r"\s+[—–-]\s+(.+?)(?=(?:\s+·\s+)|$)",
+            re.MULTILINE,
+        )
+        m = pat.search(text)
+        if not m:
+            continue  # no inline hook to lint; not a defect
+        hook = m.group(1).strip()
+        n = len(hook)
+        if n > HOOK_WARN_CHARS:
+            findings.append((slug, n, hook))
+    if not findings:
+        return
+    print(f"\n  [HOOK LENGTH — {len(findings)}]  advisory (canon ≤{HOOK_WARN_CHARS} chars)")
+    print(f"    Long hooks are the measured driver of MEMORY.md's byte growth (~535 B/day).")
+    print(f"    This is the one moment the author is looking — trim now, or leave it and move on.")
+    for slug, n, hook in findings:
+        print(f"      - {slug}  ({n} chars):  {hook[:120]}{'…' if len(hook) > 120 else ''}")
 
 
 def hot_size_warning():
@@ -329,6 +408,10 @@ def forward_check(quiet=False, scope=None):
 
     print("memory_index_check v2 — forward (index → committed file) + coverage (file → index)")
     print("=" * 78)
+    if not _CAPS_PRESENT:
+        print(f"  ⚠ scripts/harness_caps.env MISSING — using root-canon defaults "
+              f"({HOT_CAP_BYTES}B / {HOOK_WARN_CHARS}-char hook). The bash guard will FAIL LOUD "
+              f"on the same file; restore it.")
     cold_note = f"{len(cold)} in INDEX_COLD.md" if cold_exists else "INDEX_COLD.md absent (normal pre-migration)"
     print(f"  {len(slugs)} slug(s) across both indexes · {len(hot)} in MEMORY.md · {cold_note}")
     print(f"  {ok} resolve to committed files · {len(committed_slugs)} committed memory file(s) on record")
@@ -379,6 +462,8 @@ def forward_check(quiet=False, scope=None):
 
     hot_size_warning()
     stale_embed_pendings()
+    if scope is not None:
+        hook_length_warning(scope)
 
     if scope is not None:
         others = (len(gitignored) + len(uncommitted) + len(unindexed)) - len(blocking)
