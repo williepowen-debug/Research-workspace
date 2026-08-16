@@ -33,3 +33,19 @@ deliver from a zero-result log, re-run with an explicit midnight time. Note:
 even a correct relative window can race in-flight work — a chase that crosses
 a commit by minutes is a timing artifact, not a failure; verify by ancestry
 (`git merge-base --is-ancestor`) before treating a chase as substantiated.
+
+**Extension n+1 (2026-08-16, PROME — the search-floor class generalizes beyond
+git syntax, and your own hygiene digs the hole):** asked to "find X" (an item
+the asker had SEEN), PROME searched only commits NEWER than its last push and
+only the inbox ROOT — but X had landed *before* that floor and PROME itself had
+already consumed it and filed it to `processed/`. Both axes of the miss were
+self-inflicted: (a) a search floor anchored at "my last state change" excludes
+every referent that predates it, and an asker's referent usually DOES — they
+are pointing at something that already exists, not predicting an arrival;
+(b) filing discipline (inbox→processed/, done→archive) is invisible-by-design
+to naive scans of the live surface, so the better your hygiene, the blinder
+the shallow search. **How to apply:** on any "find X" ask, FIRST check your own
+session record and processed/archived stores for whether you already consumed
+X — search the full timeline, not forward-from-now; treat "nothing new
+arrived" as an answer about the WINDOW, never about X's existence (the same
+zero-scope discipline as the parent finding, one layer up).
