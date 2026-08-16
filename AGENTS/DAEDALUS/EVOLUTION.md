@@ -7,6 +7,11 @@ Newest first. Keep entries terse; archive build minutiae to `FLEET_MAP.tsv`.
 
 ## Changelog
 
+### 2026-08-16 — Dormancy is a registration event (REGISTRATION_CHECKLIST) · alert-consumer marker contract (CHECKS ledger_staleness row)
+
+- **REGISTRATION_CHECKLIST gains a DORMANCY block** (beside Retirements): going dormant gets the row-13-inverse treatment without waiting for formal retirement — live thresholds move to `GATES.tsv` with an assigned grader or retire in place with a dated banner; wake triggers need a DOCKET row. Forced by the FERT ruling §6 and earned by the same-day orphaned-threshold sweep: the class is non-empty beyond FERT (CRUISE dark 7/3→8/14 with BOTH live triggers firing in absentia; BARON unbannered expired watch items). n=2 strong on `finding_fired_gate_needs_owner_independent_ledger`.
+- **Alert-contract consumers key on MARKER-PRESENT (⚠️/🔴), never bare output-nonempty.** My 8/11 CHECK_STANDARD null-states-its-scope hardening added an unconditional scope line (`trade perimeter:`) to `ledger_staleness --trade` — which silently broke every consumer built on the 7/31 output-nonempty contract: WATT/VULCAN/MIDAS boots have printed a false REVIEW on every clean boot since 8/11 (verified live on VULCAN). Producer and consumer contracts changed hands independently — the fix to one guard broke its consumers, the same PAT-074 family from the opposite direction. FERT's new boot.py ships the marker form; trio fix is Will-gated (proposed 8/16). Context: the FERT re-charter build itself (EVENT-DRIVEN SPECIALIST, benchmark-discipline spine) is a BUILD, not a standard change — record in `builds/FERT_RECHARTER_2026-08-16.md`.
+
 ### 2026-08-15 — Inbox-drain triple encode: CHECK_STANDARD §7 (transient retry) · market-agent boot-time predictions scan · market-agent interpreter-proof invocations
 
 Three standard changes in one pass, all consuming queued packets:
