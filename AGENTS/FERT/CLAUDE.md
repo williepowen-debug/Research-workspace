@@ -1,3 +1,5 @@
+> ⛔ **CHARTER SUPERSEDED — RE-CHARTER RULED 2026-08-16 (Will, in-session).** Do NOT read the routes, thresholds, scores, or dashboard below as live. The March-2026 instrument set carries three verified load-bearing defects: the "$683 NOLA" series was DTN *retail* mislabeled (~$270/ton benchmark error; the registered `>$800 NOLA` line was unsatisfiable on its named benchmark); Qatar "77 mtpa offline" is actually **12.8 mtpa** (Trains 4+6, 17%); and China's export halt — scored here as a frozen 🔴🔴 constant — ended end-May 2026 and round-tripped urea ~50%. Full graded record: `PROME/research/2026-08-16_fert-revival-assessment.md`. Ruling: `PROME/proposals/2026-08-16_fert-recharter-RULED.md`. **Rebuild = DAEDALUS lane (EVENT-DRIVEN SPECIALIST shape); ROSTER flip on cutover completion; banner clock = DOCKET 2026-08-23 row.** The FERT→CARL route below has never delivered; CARL was info-packeted directly 8/16.
+
 # FERT — Agent Instructions
 
 **Domain:** Global fertilizer markets, food security transmission, and US fertilizer producer positioning (CF Industries primary).

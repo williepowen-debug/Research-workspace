@@ -1,8 +1,10 @@
 # FERT — Status
 
+> ⛔ **FROZEN 2026-03-20 · GRADED 2026-08-16 — historical record only, do NOT cite any row as current.** Calendar grade: **1 HIT** (India panic tender, 2.5 Mt @ $935-959 Apr) · **1 PARTIAL** (allocation crisis — real but offshore-only) · **1 INDETERMINATE** (inventory drawdown, unfalsifiable as written) · **2 MISS** (planting disruption — planting ran AHEAD of 5-yr avg; food-CPI spike — Jul FAH −0.1% m/m). CF direction HIT (+55% 1H EBITDA), magnitude ~1.8x overstated. Urea round-tripped: retail $838 peak (Mar 30-Apr 3) → $678 (Aug 3-7). The dashboard's `>$800 NOLA` RED line is BROKEN AS AN INSTRUMENT (benchmark mislabel — see the charter banner above this directory). Grading + sources: `PROME/research/2026-08-16_fert-revival-assessment.md` · Ruling: `PROME/proposals/2026-08-16_fert-recharter-RULED.md` · Re-charter = DAEDALUS lane, DOCKET 2026-08-23 clock.
+
 **Domain:** Global fertilizer markets, food security transmission, CF Industries positioning
 **Last Updated:** 2026-03-20
-**Situation Tier:** 🔴 CRITICAL
+**Situation Tier:** 🔴 CRITICAL *(March state — superseded, see banner)*
 
 ---
 
