@@ -29,6 +29,7 @@ LIQUID amplifies; HENRY gauges market speed; VIOLET tracks credit→vol lag.
 
 ## Closest bridges
 
+- Energy/commodity cost pass-through into consumer prices (BRENT → CARL gas-pump; WATT → CARL retail power; **FERT → CARL food-CPI, re-chartered 2026-08-16**) → [`_ENERGY.md`](./_ENERGY.md)
 - Private credit / BDC stress → [`_PRIVATE_CREDIT.md`](./_PRIVATE_CREDIT.md)
 - Treasury/funding amplification → [`_FUNDING_MACRO.md`](./_FUNDING_MACRO.md)
 - Cross-agent synthesis/trade conversion → [`_SYNTHESIS_OPS.md`](./_SYNTHESIS_OPS.md)

@@ -37,6 +37,7 @@ Active + Tier-2 agents and meta-agents with live folders. Full verified classifi
 | DEWEY | [`DEWEY/`](./DEWEY/) | Synthesis / Ops · Tier-2 |
 | HANS | [`HANS/`](./HANS/) | Funding / Macro · Tier-2 |
 | FALCON | [`FALCON/`](./FALCON/) | Energy / Geopolitics (Iran-Gulf war theater; ←HAWK split 7/12) |
+| FERT | [`FERT/`](./FERT/) | Energy / Commodities (fertilizer supply/price/policy → food-CPI → CF; nitrogen + phosphate, potash EXCLUDED-UNOWNED; re-chartered EVENT-DRIVEN 2026-08-16, ←archive-source) |
 | HAWK | [`HAWK/`](./HAWK/) | Energy / Geopolitics (cross-war synthesis + dormant book) |
 | HENRY | [`HENRY/`](./HENRY/) | Funding / Macro |
 | HOMER | [`HOMER/`](./HOMER/) | Credit (housing asset market; ←CARL promotion 7/12) |
@@ -71,8 +72,7 @@ Active + Tier-2 agents and meta-agents with live folders. Full verified classifi
 |---|---|---|
 | [`SENTRY/`](./SENTRY/) | dormant | Cross-domain signal pipeline; human-idle since 6/02 |
 | [`BARON/`](./BARON/) | dormant | Trump financial-policy network; dormant since 5/08 |
-| [`FERT/`](./FERT/) | archive-source | Fertilizer / food security — do not launch |
-| [`CRUISE/`](./CRUISE/) | archive-source | Cruise / tourism canary (Will's personal interest) — do not launch |
+| [`CRUISE/`](./CRUISE/) | archive-source | Cruise / tourism canary (Will's personal interest) — do not launch *(⚠️ label under review: DAEDALUS 8/16 sweep flagged de-facto ACTIVE; decision at Will)* |
 | [`ATHENA/`](./ATHENA/) | archive-source | Reading / knowledge companion — do not launch |
 
 ## Retired → `AGENTS/_archive/`

@@ -1,5 +1,5 @@
 # PROME/ROSTER.md — Verified Agent Roster
-**Owner:** Prome · **Last verified:** 2026-06-27 (commit-activity + STATUS-recency pass) · folder-existence reconciled 2026-06-30 · **ZHAO reactivated dormant→active 2026-07-05** (8 commits 7/4, Will-approved) · **counts refreshed 2026-07-10** (PROME commit-activity re-run — classification UNCHANGED; no active/tier-2/dormant flips) · **OZK flipped dormant→active 2026-07-22** (revived 7/18 exactly on its revival gate — Q2 print 7/21; ~15 commits incl. the four-rail Stage-1 grade; DAEDALUS added its first FLEET_MAP row L4 same day) · **WAL REGISTERED ACTIVE 2026-07-25 on cutover day** (Will-approved 7/22; DAEDALUS WP-W0 → WP-W1 `ed1ce777` git-mv `AGENTS/REGINALD/WAL` → `AGENTS/WAL`; ACTIVE count 29→30; ~~WP-W2 open~~ **WP-W2 EXECUTED same day `37ee2748e` — stale-open claim caught by spine-audit #7, 8/3** — see ††††† )
+**Owner:** Prome · **Last verified:** 2026-06-27 (commit-activity + STATUS-recency pass) · folder-existence reconciled 2026-06-30 · **ZHAO reactivated dormant→active 2026-07-05** (8 commits 7/4, Will-approved) · **counts refreshed 2026-07-10** (PROME commit-activity re-run — classification UNCHANGED; no active/tier-2/dormant flips) · **OZK flipped dormant→active 2026-07-22** (revived 7/18 exactly on its revival gate — Q2 print 7/21; ~15 commits incl. the four-rail Stage-1 grade; DAEDALUS added its first FLEET_MAP row L4 same day) · **WAL REGISTERED ACTIVE 2026-07-25 on cutover day** (Will-approved 7/22; DAEDALUS WP-W0 → WP-W1 `ed1ce777` git-mv `AGENTS/REGINALD/WAL` → `AGENTS/WAL`; ACTIVE count 29→30; ~~WP-W2 open~~ **WP-W2 EXECUTED same day `37ee2748e` — stale-open claim caught by spine-audit #7, 8/3** — see ††††† ) · **FERT REGISTERED ACTIVE 2026-08-16 on cutover completion** (Will-ruled RE-CHARTER same day, `PROME/proposals/2026-08-16_fert-recharter-RULED.md` §2, WAL precedent; DAEDALUS build landed `595ac2306` beating the 8/23 checkpoint by 7d; ACTIVE count 30→31; out of ARCHIVE SOURCES — see ††††††)
 
 **Method:** classification by **30/60-day git-commit activity** (the "is it actually running" signal) + STATUS mtime + self-declared domain — *not* a prose guess. Re-verify by re-running the activity map (`git log --since=<60d> --pretty=%s | grep -cE '^NAME'` per agent) and diffing against this table.
 
@@ -34,7 +34,7 @@
 
 ---
 
-## ACTIVE (30) — split by responsibility class
+## ACTIVE (31) — split by responsibility class *(30→31 at the 2026-08-16 FERT registration)*
 *Phase 1 taxonomy pass, 2026-08-05. Previously one flat bucket headed "persistent domain owners (30)", which mixed domain owners, organizing/service agents, a review lane, event-driven specialists and newborns under a header claiming all thirty were persistent domain owners.* Verified by recent commit cadence; each runs as its own Claude Code session.
 
 > **The count column is a vintage snapshot (as-of the header date), NOT live** — it rots within days (re-run the Method command to refresh). **Classification is the signal, not the raw count.** *(Vintage-stamp added 2026-07-10 — same "hardcoded-Current value silently rots" defect DAEDALUS fixed in CARL's sub-agent CLAUDE.md files the same day.)*
@@ -97,13 +97,14 @@
 
 > ⚠️ **Cross-reference, do not re-derive:** five of these seven — **AEOLUS · MIDAS · OSPREY · VULCAN · WATT** — are DAEDALUS's own **F5 finding** (2026-08-03: *"5 agents carry a live thesis and NO falsification surface … all 5 my builds, one blueprint cause"*), reached independently. **DAEDALUS has already ruled the disposition: a dated retrofit trigger, NOT an instant demotion** (PAT-075 grandfathering — nobody loses a level on the day a rule lands). The retrofit trigger is DAEDALUS's lane at Phase 2; this label must not be read as duplicating or pre-empting it.
 
-### EVENT-DRIVEN SPECIALIST (2)
+### EVENT-DRIVEN SPECIALIST (3)
 *Narrow agents expected to run around print/catalyst/event windows. **Cadence and scope description — NOT lower authority.***
 
 | Agent | Domain | Authority (≠ cadence) | 30d commits (as-of 2026-07-10) |
 |---|---|---|---:|
 | OZK | Bank OZK specialist (RESG construction / classified-migration watch) | **Real analytical authority** in-lane, DAEDALUS `L4`; cadence is print-driven (revival gate → Q2 print) | revived†††† |
 | WAL | Western Alliance Bancorp specialist (Office/B1-migration/MI3 idiosyncratic bear; thesis-of-record v2.3) | **Real analytical authority** in-lane, owner of its thesis-of-record; cadence is print-driven | new††††† |
+| FERT | Fertilizer supply/price/policy → food-CPI transmission → CF positioning (nitrogen + phosphate; China policy = LIVE vector; potash EXCLUDED-UNOWNED fleet-wide) | **Real analytical authority** in-lane; cadence is trigger-driven (TRIGGERS.tsv wake register; weekly-to-monthly decision tempo) | re-chartered†††††† |
 
 > **AEOLUS** built + wired by DAEDALUS 2026-06-28 (spec: `AGENTS/DAEDALUS/builds/AEOLUS_SPEC.md`). *(Stale "no commit history yet" note removed 7/9 — self-commits exist 6/28 + 7/9 catch-up `564d689d`; row reconciled.)* Macro climate owner; CORAL keeps Florida (boundary handshake RESOLVED 7/9: AEOLUS global/macro, CORAL FL-canonical, reconcile-to-one-number).
 > **† ZHAO** reactivated 2026-07-05 (Will-approved) after ~2.5mo dormancy — the "13" = the 7/4 reactivation burst (8: STATUS rewrite, KB-076…087, VX/FLOW/PREDICTIONS refresh, `boot.py`, `NEXUS_BRIEF.md`) + the 7/9 catch-up (~5), not yet steady multi-week cadence — recount next pass. Domain is load-bearing: China genuine UST exit ($651.1B, 18yr low) feeds the long-end flow question *(demand-hole refuted at flow level 7/9 — live thread = who-is-the-transient-bid, ZHA-11, TIC 7/16 arbiter)*; Korea (KRW ~1,530) feeds SAM. Ran 7/9 catch-up (China-leg pre-reg, activity current). DAEDALUS maturity-profile + NEXUS BRIEFS_MAP add routed 2026-07-05.
@@ -132,11 +133,13 @@
 >
 > **†††† OZK** — flipped dormant→active 2026-07-22 (PROME, per DAEDALUS Production-Review ask): revived **7/18** on its registered revival gate (Q2 print 7/21), ran the staleness sweep + pre-print freeze + four-rail Stage-1 grade (~15 commits 7/18-7/21) + Stage-2 spawned 7/22 eve. First FLEET_MAP row added by DAEDALUS 7/22 at **L4** (first-scan). Recount at the next activity pass (PAT-019).
 
+> **†††††† FERT** — **RE-CHARTERED (not revived) 2026-08-16, Will-ruled** (`PROME/proposals/2026-08-16_fert-recharter-RULED.md`; graded record = `PROME/research/2026-08-16_fert-revival-assessment.md` — March STATUS graded 1 HIT / 1 PARTIAL / 1 INDET / 2 MISS, cite only as history). Registered ACTIVE on **cutover completion** (WAL precedent): DAEDALUS build `595ac2306` landed 8/16, 7d inside the 8/23 DOCKET checkpoint — new charter (market-agent blueprint, benchmark+unit+date discipline, PAT-073 exclusions register) + `boot.py` (4 capable cases watched) + re-cut `PREDICTIONS.tsv` + `TRIGGERS.tsv` 10-row wake register; old charter archived intact. **Gates ratify at its first live session AFTER base-rating — nothing registered yet; do-not-re-register `urea NOLA >$800`** (ruling §3). First-live-session window rec: before ~8/25 (RCF award ~8/18 + DTN 8/20 land fresh). WALTER routing re-wired by DAEDALUS packet (row 7); **potash dropped from scope = UNOWNED fleet-wide, routes to PROME with caveat until Will assigns.** 0 commits on the new charter yet → reconcile at the next activity pass (PAT-019).
+
 ## RETIRED — moved out of the live tree
 **In `AGENTS/_archive/`** (archived 2026-06-27): **BUFFER** (shock-absorber / containment), **DOC** (system-health monitor), **EARNINGS** (corporate-earnings monitor), **FOREX** (FX monitor) — scaffolded but never launched (skeleton + empty workbooks, no STATUS, zero session commits); **DARWIN** (archived earlier). **Folders removed entirely** (2026-06 public-prep prune; recoverable from git history): **HERMES** (mail-carrier, deprecated by the messaging overhaul `[[project_messaging_overhaul]]`), **REITS** (REIT tape → absorbed into CREED), **TRADES** (trade scratchpad → superseded by TERRY).
 
 ## ARCHIVE SOURCES — do not launch (folder left in place)
-FERT · CRUISE (Will's personal-interest) · ATHENA (reading / knowledge).
+CRUISE (Will's personal-interest — ⚠️ label FLAGGED FALSE by DAEDALUS's 8/16 orphaned-threshold sweep: de-facto ACTIVE, 4 Will-directed sessions since 8/14, arm-CCL ladder unregistered; re-classification + registration = PROME-lane follow-up, decision packet at Will since 8/14 — do not re-derive here) · ATHENA (reading / knowledge). *(FERT removed 2026-08-16 → ACTIVE/EVENT-DRIVEN SPECIALIST, see ††††††.)*
 
 ## SPECIAL
 **YEYOU** — repo-wide reviewer on a manual/branch model (not a domain agent; stays manual per Auto-push Decision C).

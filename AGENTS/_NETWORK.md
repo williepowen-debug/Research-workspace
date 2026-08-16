@@ -45,6 +45,7 @@ flowchart LR
         BARON[BARON<br/>Policy network]
         WATT[WATT<br/>Grid stress / power price]
         MIDAS[MIDAS<br/>Metals: monetary + industrial]
+        FERT[FERT<br/>Fertilizer: N + P → food CPI]
     end
 
     subgraph MACRO[Funding / macro / market structure]
@@ -108,6 +109,13 @@ flowchart LR
     HAWK -->|Taiwan chip chokepoint| VULCAN
     MIDAS -->|gold ↔ real-rate tell| BOND
     MIDAS -->|safe-haven flow| LIQUID
+
+    %% Fertilizer (FERT) — re-chartered EVENT-DRIVEN 2026-08-16 (Will-ruled; potash EXCLUDED-UNOWNED fleet-wide → PROME w/ caveat)
+    BRENT -->|gas / feedstock cost| FERT
+    OSPREY -.->|Black-Sea / RU supply shocks| FERT
+    FALCON -.->|Hormuz / Gulf ammonia-urea shocks| FERT
+    FERT -->|food-CPI transmission| CARL
+    FERT -->|ag-input cost tape| HENRY
     MIDAS -->|copper ↔ China demand| ZHAO
     MIDAS -->|copper / PGM growth tell| HENRY
     HAWK -->|PGM supply SA/Russia| MIDAS
