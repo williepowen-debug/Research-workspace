@@ -37,7 +37,7 @@ Both are required. The file is the backup; the system message is the primary cha
 ## Example
 
 ```
-## COMPLETION
+## COMPLETION — BROCK — 2026-08-16
 STATUS: ⚠️ PARTIAL
 CHANGED: AGENTS/BROCK/STATUS.md, AGENTS/BROCK/workbook/KB.tsv, AGENTS/BROCK/research/outputs/RP-BRK-1.3_pik_shadow_defaults.md
 RESULT: Integrated BlackRock HPS gating ($26B, $1.2B redemptions) and MS 8% default projection. Gate count updated to 10. Contagion map advanced to Stage 2.5. KB entries KB-BRK-047 and KB-BRK-048 added.

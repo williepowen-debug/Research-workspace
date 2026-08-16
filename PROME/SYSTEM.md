@@ -131,7 +131,7 @@ Design principle:
 | `AGENTS/<NAME>/domain/sources/*_PREBUILD_*.md` | Domain agent / Prome when preparing catalyst | Event pre-builds with thresholds and read order. |
 | `AGENTS/<NAME>/inbox/` | Domain signal routing | Incoming signals, should be triaged/processed. |
 | `FORGE/research/` | Prome / domain-dependent | Thesis research outside a single agent. |
-| `FORGE/timing/` | Prome / timing thesis | Timing frameworks, changelog-first thesis files. |
+| `FORGE/timing/` | Prome / timing thesis | **FROZEN 2026-08-09** (banner in `FORGE/timing/README.md`; root `CLAUDE.md` Key Directories row concurs) — historical timing/convergence corpus; cite as history, never current. *(Row re-synced 8/16 audit #9 — it had described the corpus as live.)* |
 
 Historical example of the ownership split (FSK May-11 event; card archived):
 
