@@ -40,12 +40,14 @@ def run(cmd):
 
 
 def run_alert(cmd):
-    """Run an ALERT-CONTRACT script (ledger_staleness: prints only when something
-    needs attention, exit code ALWAYS 0 by documented contract). Relay its output;
-    the flag is OUTPUT-NONEMPTY, never rc — the old leg branched on rc 1, which
-    the script never emits, so staleness could never trip the REVIEW exit (dead
-    code since build 7/10; DAEDALUS fix 2026-07-31, Will-approved, PAT-074).
-    Returns 0 quiet · 1 printed-something (REVIEW) · 2 launch/usage failure."""
+    """Run an ALERT-CONTRACT script (ledger_staleness: exit code ALWAYS 0 by
+    documented contract). Relay its output; the flag is MARKER-PRESENT (a line
+    carrying ⚠️/🔴), never rc and never bare output-nonempty — rc 1 is never
+    emitted (dead-code fix 2026-07-31, PAT-074), and since 8/11 the script also
+    prints an unmarked SCOPE line ('trade perimeter: ...') even when clean, so
+    bare-nonempty false-REVIEWed every clean boot 8/11→8/16 (DAEDALUS marker
+    fix 2026-08-16, Will-approved; CHECKS.tsv ledger_staleness row = contract home).
+    Returns 0 quiet · 1 alert-marker printed (REVIEW) · 2 launch/usage failure."""
     try:
         p = subprocess.run([sys.executable, *cmd], cwd=str(ROOT),
                            capture_output=True, text=True)
@@ -60,7 +62,7 @@ def run_alert(cmd):
         print(err, file=sys.stderr)
     if p.returncode != 0:
         return 2
-    return 1 if out else 0
+    return 1 if ("⚠️" in out or "🔴" in out) else 0
 
 
 def predictions_due():
