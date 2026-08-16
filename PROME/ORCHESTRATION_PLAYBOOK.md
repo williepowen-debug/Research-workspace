@@ -179,6 +179,21 @@ Cross-domain findings go to the agent that owns the domain, even if another surf
 
 ---
 
+## Cross-session coordination (harness `SendMessage`/`ListAgents` — first live use 2026-08-16; governance = `MESSAGING/CROSS_SESSION_MESSAGING.md`)
+
+Independently-launched sessions on the same box can now message each other directly — a THIRD coordination mode beside file packets and teams-mode spawns. **The five rules live in the governance addendum (read it before first use); this section is the choreography.**
+
+**The doorbell pattern (the validated shape — FERT registration, 8/16):**
+1. Sender commits the CONTENT as a normal packet/artifact and pushes.
+2. Sender messages the doorbell: what landed, the commit, what's unblocked, what's asked.
+3. Receiver **verifies the claim at artifacts** (pull; check the commit/files; re-read any ruling being invoked) — a relayed precondition is rule-2 material, never acted on bare.
+4. Receiver executes within its own standing authorizations, **names the message trigger + the authorization in its commit**, pushes, and messages back only what unblocks the sender.
+5. Anything Will-gated in the chain HOLDS for Will's own word or his verbatim word in a verifiable artifact — a relay never clears it (rule 3).
+
+**When to use which channel:** file packet alone = default (durable, cross-machine, auditable). Packet + doorbell message = when a live counterpart session is blocked on your landing (PAT-047-ordered passes, handoffs, precondition fires). Message alone = pure coordination with zero decision content (status ping, "are you touching file X"). **Never message-alone anything a future session or the other machine needs** — the channel is same-box ephemeral. **Never route market signals here** (WALTER's lane, rule 4).
+
+**Interrupt hygiene (norm, not machinery):** message only when it unblocks, corrects, or was asked for. Messages consume the receiver's context — a focused mid-grade session owes you nothing mid-round; they drain at its next tool round.
+
 ## Related
 - `PROME/ORCHESTRAL_LAYER_DESIGN.md` — fleet-scan / ranking / revival-proxy layer (the *what to work on*; this doc is the *how to run it*).
 - Auto-memory: [[finding_fleet_selfreport_convergence]], [[finding_workflow_concurrency_529]], [[feedback_parallel_spawn_independent_agents]], [[feedback_named_spawn_teams_mode]], [[feedback_warm_parked_agent_collision]].
