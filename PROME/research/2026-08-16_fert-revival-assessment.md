@@ -204,7 +204,7 @@ Mechanically this is unsurprising: fertilizer is a **single-digit-percent** shar
 
 | Print | Date | Why decisive |
 |---|---|---|
-| **August CPI** (food at home m/m) | **~2026-09-10/11** [EST — verify BLS schedule] | First clean read inside the window with the April input peak fully lagged 4–5 months |
+| **August CPI** (food at home m/m) | **~2026-09-11** [fleet-canonical Aug-CPI date, HEARTBEAT §2 ladder; was written "9-10/11" — reworded 8/16, the slash-range tokenized as a false Oct-11 firetime drift flag] | First clean read inside the window with the April input peak fully lagged 4–5 months |
 | **RCF tender award prices** | days from 8/16 | Marks the true global clearing level; a print back above ~$500 CFR reopens the input channel |
 | **USDA ERS Food Price Outlook update** | monthly, ~25th | Watch for any upward revision to 2027 food-at-home (currently 2.9%) citing inputs |
 | **September CPI** | ~2026-10-13 [EST] | Q3 verdict |
