@@ -13,12 +13,26 @@
 // (checked at boot step 8 / closeout Chunk 3). Update the stamp after each run.
 // OUTPUT: consolidated per-file verdicts; PROME applies fixes same-session
 // (pathspec commits; shared docs Will-gated) and re-stamps STATUS.
-// COST: ~7 agents, roughly 1/4 of the 7/1 verify round.
+// COST: ~8 agents (7 paired + 1 anchor), roughly 1/4 of the 7/1 verify round.
+//
+// FIX-ROUND GUIDANCE (added 8/16, audit-#9 process review, Will-approved): prefer
+// DELETE-AND-POINT over annotate-and-accrete. Dated correction parentheticals are
+// themselves stale-able claims — one (the AD Am.#1 disambiguation) rotted through
+// TWO re-bases before audit #9 caught it. Annotate only when the wrong text must
+// stay readable as history; otherwise delete the stale copy and point at the owner.
+//
+// ANCHOR LEG (added 8/16, audit-#9 process review, Will-approved): the paired
+// readers check the spine AGAINST DOCKET.tsv as canon, so an error INSIDE DOCKET
+// is self-sealing — the audit would enforce it. firetime_check validates only rows
+// dated <=7d out; the 8th reader samples ~8 far-dated PENDING rows and verifies
+// them at their SOURCE ARTIFACTS. Sampling is deterministic off the run date's
+// day-of-month (Math.random is unavailable in Workflow scripts by design), so
+// successive weeks walk different slices of the tail.
 
 export const meta = {
   name: 'spine-audit',
   description: 'Weekly reconciliation of PROME boot-read/protocol docs against canon anchors',
-  phases: [{ title: 'Audit', detail: '7 readers x 2 spine files vs canon anchors' }],
+  phases: [{ title: 'Audit', detail: '7 paired readers x 2 spine files + 1 DOCKET anchor sampler vs canon anchors' }],
 }
 
 // args must be a JSON OBJECT ({ today: "YYYY-MM-DD", repo?: "/abs/path" }). The
@@ -66,6 +80,7 @@ const SCHEMA = {
         properties: {
           file: { type: 'string' },
           verdict: { type: 'string', enum: ['CLEAN', 'FLAG'] },
+          sample: { type: 'string' }, // anchor reader only: N/STEP/R + sampled-row manifest, so the sample is auditable
           issues: {
             type: 'array',
             items: {
@@ -103,9 +118,30 @@ For EACH of your two files:
 Severity: 'blocking' = a directive/date/band a boot reader would act on wrongly; 'minor' = wording drift, dated phrasing, cosmetic. Verdict CLEAN only if zero blocking issues. Be precise with locations (section name + approximate line). Do not pad — an empty issues list on a genuinely clean file is the correct output. Your final action: return the structured output.`
 }
 
+// Anchor leg: deterministic day-of-month seed (parsed from the TODAY string —
+// argless new Date()/Math.random are unavailable in Workflow scripts).
+const DAY_OFFSET = /^\d{4}-\d{2}-\d{2}$/.test(TODAY) ? parseInt(TODAY.slice(8, 10), 10) : 0
+
+function anchorPrompt() {
+  return `You are a READ-ONLY canon-anchor auditor in a multi-agent research repo. Do NOT edit, write, commit, or run any state-changing command. Today is ${TODAY}.
+
+CONTEXT: the weekly spine audit checks PROME's boot-read docs AGAINST ${REPO}/PROME/DOCKET.tsv as canon — so an error INSIDE DOCKET is self-sealing (views get "corrected" toward it). scripts/firetime_check.py already validates rows dated within 7 days; you audit a sample of the tail BEYOND that window against the rows' own source artifacts.
+
+1. Read ${REPO}/PROME/DOCKET.tsv entirely. Data rows are TAB-separated: date, description, owner, status, source, notes. Ignore comment/short legacy lines.
+2. ELIGIBLE rows: status field begins "PENDING" AND the row's date (the FIRST date, for "A..B" ranges) is 8 or more days after today.
+3. DETERMINISTIC SAMPLE — do this arithmetic carefully and record it: number the eligible rows 1..N in file order. STEP = max(1, floor(N/8)). R = ${DAY_OFFSET} mod STEP. Select rows whose (index mod STEP) == R; keep at most the FIRST 8 selected.
+4. For EACH sampled row, read the file(s) named in its source field (and notes-field pointers where the source is thin) and check: (a) the pointer EXISTS; (b) the artifact SUPPORTS the row's date — a row self-declared "~approximate" or "~TARGET/SLIPPABLE" passes unless the artifact names a DIFFERENT date; (c) the OWNER matches the artifact; (d) STATE — the artifact does not show the catalyst already resolved/graded/retired/superseded while the row still says PENDING.
+5. NOT findings: an artifact that is merely stale or not recently updated (you are testing CONTRADICTION, not freshness) · market levels · the inherent uncertainty of declared-slippable dates.
+
+Return ONE files[] entry with file "PROME/DOCKET.tsv (anchor sample)". Verdict CLEAN only if zero blocking issues. Severity "blocking" = a date/state/owner a boot reader or firetime consumer would act on wrongly when the row enters its window; "minor" = pointer or wording drift. In the entry's "sample" property record N, STEP, R, and each sampled row's date + first ~40 chars of description, so the sample itself is auditable. Do not pad — an all-CLEAN sample is a valid and useful result. Your final action: return the structured output.`
+}
+
 phase('Audit')
-const results = await parallel(GROUPS.map(pair => () =>
-  agent(prompt(pair), { label: 'spine:' + pair.map(p => p.split('/').pop()).join('+'), schema: SCHEMA })))
+const results = await parallel([
+  ...GROUPS.map(pair => () =>
+    agent(prompt(pair), { label: 'spine:' + pair.map(p => p.split('/').pop()).join('+'), schema: SCHEMA })),
+  () => agent(anchorPrompt(), { label: 'anchor:DOCKET-tail', schema: SCHEMA }),
+])
 
 const files = results.filter(Boolean).flatMap(r => r.files)
 const blocking = files.flatMap(f => f.issues.filter(i => i.severity === 'blocking').map(i => ({ file: f.file, ...i })))
