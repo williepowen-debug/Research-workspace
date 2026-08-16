@@ -1,1 +1,2 @@
-ID	Date	Prediction	Confidence	Timeframe	Status	Date_Resolved	Outcome	Notes
+# Status enum (STATE_VOCABULARY Class 3): OPEN | HIT | MISS | VOID | STUCK — nuance in parentheticals, narrative in Outcome/Notes. Resolve_By = hard YYYY-MM-DD date; boot.py flags OPEN rows past it. Header re-cut 2026-08-16 (re-charter; ledger was empty — March calendar never entered it, graded rows land at first live session per CLAUDE.md §FIRST LIVE SESSION).
+ID	Date	Prediction	Confidence	Timeframe	Resolve_By	Status	Date_Resolved	Outcome	If_Falsified_Action	Notes

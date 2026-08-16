@@ -1,0 +1,13 @@
+# LIVE — Last real data refresh: 2026-08-16 (seeded at re-charter from assessment §2d/§4a) | Staleness sweep (no data): 2026-08-16 | Next: first live session re-dates all rows
+# Wake register — one row per named trigger. boot.py prints rows past Next_Check. Every session that consumes a trigger RE-DATES or RETIRES its row. Triggers that must wake FERT while idle need a PROME DOCKET row too (route the ask). Dates marked [EST] in Notes are estimates — verify at the instrument before relying on them.
+ID	Trigger	Instrument	Next_Check	Cadence	Why_It_Wakes_You	Notes
+T1	RCF Aug-11 tender award prices publish	Fertilizer Daily / Profercy Insights	2026-08-18	episodic	True global clearing level; award back above ~$500/t CFR reopens the input channel	Bids opened 8/11, offers valid to 8/24; prices "emerge in coming days" per assessment §1e
+T2	USDA ERS Food Price Outlook monthly update	ers.usda.gov Food Price Outlook	2026-08-25	monthly ~25th	Upward revision to 2027 food-at-home (2.9% as of 7/24 edition) citing INPUTS = transmission signal	Diff the vintages, not just refresh (finding_diff_the_vintages_not_just_refresh)
+T3	August CPI — food-at-home m/m	BLS CPI release (alternate hosts; direct fetch 403s)	2026-09-10	monthly	First clean read with the April input peak fully lagged 4-5 months; >=+0.4% m/m starts the 2-month gate-candidate clock	[EST — verify BLS release schedule before relying on the date]
+T4	DTN weekly retail fertilizer article	dtnpf.com weekly crops article	2026-08-20	weekly	Benchmark refresh: urea retail + DAP/MAP tight-leg watch	Article lands mid-week for prior data week
+T5	Advanced Turf weekly Market Summary PDF	advancedturf.com PDF	2026-08-24	weekly	NOLA barge $/st refresh — the benchmark the March desk mislabeled	Best free NOLA source (assessment §4a)
+T6	September CPI	BLS CPI release	2026-10-13	monthly	Q3 transmission verdict	[EST — verify BLS release schedule]
+T7	CF Industries Q3 2026 results	ir.cfindustries.com	2026-11-01	quarterly	Whether nitrogen-tightness guidance survives the China supply return	[EST — pin exact date when CF announces]
+T8	USDA NASS harvest progress / Crop Production	nass.usda.gov weekly	2026-09-15	weekly Sep-Nov	Yield confirmation that the planting channel stayed shut	Planting ran AHEAD of 5-yr avg all season (assessment §1g)
+T9	Morocco AD/CVD suspension expiry	Federal Register	2027-02-15	one-shot	Suspension expires ~2027-02-28; lapse re-tariffs the phosphate import leg	PROME DOCKET row exists (registered 2026-08-16); check ~2wk ahead
+T10	China export quota / price-floor state re-read	MOFCOM relays / CF commentary / Profercy	2026-09-15	monthly	THE vector that decides price — never a frozen constant (charter scope table)	Re-read at every wake regardless; this row is the guaranteed floor
