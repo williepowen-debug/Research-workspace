@@ -7,6 +7,10 @@ Newest first. Keep entries terse; archive build minutiae to `FLEET_MAP.tsv`.
 
 ## Changelog
 
+### 2026-08-16 (b) — Cross-session messaging pointer into all three blueprint variants (Will-ruled same evening)
+
+One cite-don't-restate line per variant (market §8 hygiene lane · utility standing-disciplines ¶ · meta disciplines list): before first use of harness `SendMessage`/`ListAgents` between independently-launched sessions, read `MESSAGING/CROSS_SESSION_MESSAGING.md` + playbook §Cross-session. Encoded ONLY after Will ruled the two PROPOSED items (verbatim "OK on all three - mirror line, open p2p, ratify rule 3" — ruling record `PROME/inbox/2026-08-16_from-DAEDALUS_WILL-RULING-RECORD-mirror-OK-open-p2p-rule3-ratified.md`); the addendum itself is PROME-owned — blueprints point, never mirror. Inheritance model: existing agents encode-on-first-use (root pointer line already reaches every session via auto-load); this line binds NEW builds by construction. My blueprint-side review (no conflicts; teams-mode carve-out verified — deliver-before-idle binds spawned subagents, rule-5 restraint binds peers; 2 one-line findings routed to PROME): `PROME/inbox/2026-08-16_from-DAEDALUS_cross-session-addendum-review-CLEAN-two-findings-inheritance-rec.md`.
+
 ### 2026-08-16 — Dormancy is a registration event (REGISTRATION_CHECKLIST) · alert-consumer marker contract (CHECKS ledger_staleness row)
 
 - **REGISTRATION_CHECKLIST gains a DORMANCY block** (beside Retirements): going dormant gets the row-13-inverse treatment without waiting for formal retirement — live thresholds move to `GATES.tsv` with an assigned grader or retire in place with a dated banner; wake triggers need a DOCKET row. Forced by the FERT ruling §6 and earned by the same-day orphaned-threshold sweep: the class is non-empty beyond FERT (CRUISE dark 7/3→8/14 with BOTH live triggers firing in absentia; BARON unbannered expired watch items). n=2 strong on `finding_fired_gate_needs_owner_independent_ledger`.
