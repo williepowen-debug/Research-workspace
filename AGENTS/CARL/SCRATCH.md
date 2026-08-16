@@ -1,6 +1,6 @@
 # CARL SCRATCH
 **Last session:** 2026-08-15 (Sat, Will-directed 4-item run: kill-rule re-spec → inbox drain → July prints → BOARD + ledgers)
-**Type:** Backlog-clearing session after a 3-day gap. **Inbox 18 → 0. BOARD 44 → 0.** Three scored moves. One self-reversal.
+**Type:** Backlog-clearing session after a 3-day gap. **Inbox 18 → 0. BOARD 44 → 0.** Three scored moves. One self-reversal. **Plus a late Will item: a food-consumption sub-agent proposed, tested, and DEFERRED into a DEWEY commission — which surfaced a zombie fleet agent.**
 
 ---
 
@@ -31,6 +31,7 @@ Row 44 is **encoded** (`thesis/KILL_RULE_RESPEC_2026-08-15.md`, both riders sati
 5. **July CPI integrated as DATA ONLY** — the pre-registered do-not-grade held on both legs. **August CPI (Fri 9/11) is the real pass-through test.**
 6. **BOARD 44 → 0** (35 REF / 5 INT / 4 INFO), 0 dupes, + **109 pre-existing ragged rows repaired**.
 7. **PHAN's two ledgers given two-clock headers**, not frozen; sweep obligation attached to its 8/20 spawn.
+8. **LATE — Will asked whether we need a food-consumption sub-agent. Measured coverage BEFORE proposing one** (the same discipline I'd just applied to WALTER's ISM claim) **and it changed the answer twice:** (a) **`AGENTS/FERT/` already exists and its charter names CARL as the consumer endpoint**; (b) **FERT is a zombie** — STATUS 2026-03-20, never delivered a packet to CARL, **no row in `PROME/ROSTER.md` at all**, which is why it sat 5 months invisible to every staleness pass; (c) **FERT wouldn't answer the question anyway — it owns the SUPPLY half; the uncovered channel is DEMAND.** **Will chose: commission first, build later.** → **CARL-DR-5 to DEWEY (due ~8/29)** + FERT flagged to PROME.
 
 ## STATUS CHANGES
 | Item | Change |
@@ -51,9 +52,10 @@ Row 44 is **encoded** (`thesis/KILL_RULE_RESPEC_2026-08-15.md`, both riders sati
 1. **Pull gas first** (standing rule). The V5 downgrade watch (~8/20) is currently answering NO — **if AAA breaches $4.00, write down the breach date; the 2-week clock starts THERE.**
 2. **8/17 — TWO items, both dated:** the **diesel natural-experiment FINAL grade** (print 2 = w/e 8/10, the pre-registered peak-arrival week; diesel is climbing, so direction favours the *structural* legs over reversible-Hormuz) **and the OTTO panel filings = V2's re-pointed instrument, first read.** ⚠️ **The OTTO leg spec is owed to Will BEFORE registration** — and OTTO's 8/15 falsifier adds a hard constraint: **Exeter/EART is the only public subprime shelf disclosing a recovery rate** (20/20 vs Santander 0/15, Bridgecrest 0/10), so loss severity is unobservable elsewhere.
 3. **Check whether RED answered on A-vs-B.** That gates the kill-rule rec to Will.
+3b. **Check whether PROME ruled on FERT** (revive / retire / re-charter). **Does NOT block DR-5** — different half — but if PROME re-charters FERT onto the demand side, DR-5's standing-agent verdict needs re-scoping before it lands.
 
 ### THIS WEEK
-4. **8/19** Canada Sec-338 +50% effective · **8/20** Affirm FQ4 — **PHAN ledger sweep rides this spawn** (events since 7/10, or an explicit DID_NOT_APPEAR null) · **8/20** V5 downgrade watch · **8/21** Iran waiver expiry · **8/22 DAEDALUS two-state pilot report DUE — the deferral expired when the HHDC landed and STATUS is at exactly 250/250; I bought that room by retiring rows and it is not repeatable.**
+4. **~8/29 CARL-DR-5 DUE** — and **read §5 of the commission first, not the finding**: the standing-agent verdict is the deliverable that decides whether a 7th sub-agent gets built. ⚠️ **Two of DR-5's four pre-registered branches cost me the grocery-volume datum entirely (policy-dominant or substitution-artifact = scored strike) — honour that as prominently as a confirm.** · **8/19** Canada Sec-338 +50% effective · **8/20** Affirm FQ4 — **PHAN ledger sweep rides this spawn** (events since 7/10, or an explicit DID_NOT_APPEAR null) · **8/20** V5 downgrade watch · **8/21** Iran waiver expiry · **8/22 DAEDALUS two-state pilot report DUE — the deferral expired when the HHDC landed and STATUS is at exactly 250/250; I bought that room by retiring rows and it is not repeatable.**
 
 ### NEXT 2 WEEKS
 5. **8/31** CRL-07 forced call (do not roll) · ABS subordinate rating actions · FL/national UI exhaustion peak · **9/1 ISM** (new capture-gap row) · **9/4 August NFP — V16 escalate-to-5 resolver, month 2** · **9/11 August CPI — THE pass-through test** · **9/15 August retail sales** (new row; **demand the control / ex-auto-gas decomposition, not the headline**) · **9/18 CARL-DR-1 FHA leg re-commission decision** · **~9/30 kill-rule ratification deadline**.
@@ -67,7 +69,7 @@ Row 44 is **encoded** (`thesis/KILL_RULE_RESPEC_2026-08-15.md`, both riders sati
 
 ## INBOX (0 unprocessed — drained from 18)
 *Filed to `processed/` this session (18): PROME ×3 (row-44 ruling · prune-scan · STEO) · RED · REGINALD · HOMER ×2 · STUE ×2 · DEWEY ×3 (C3 · DR-1 · DR-4) · POP ×2 · LABOR · MARCO · AEOLUS · VULCAN.*
-**Sent (10):** PROME ×2 (encode + reversal addendum) · RED ×2 · REGINALD · HOMER · STUE · POP · DEWEY · AEOLUS · LABOR · VULCAN · WALTER.
+**Sent (12):** PROME ×2 (encode + reversal addendum) · RED ×2 · REGINALD · HOMER · STUE · POP · DEWEY · AEOLUS · LABOR · VULCAN · WALTER · **DEWEY (CARL-DR-5 commission)** · **PROME (FERT roster defect)**.
 
 ---
 
