@@ -9,7 +9,7 @@
 4. **FERT re-charter in flight (Will-ruled 8/16):** DAEDALUS build commission in its inbox (DOCKET 8/23 checkpoint) + orphaned-threshold sweep ask. On build landing: PROME flips ROSTER (ARCHIVE→ACTIVE/EVENT-DRIVEN) + drafts the root `CLAUDE.md` mirror one-liner for Will (C1 precedent, 30→31). Gates ratify at FERT's first live session AFTER base-rating — **do-not-re-register `urea NOLA >$800`.** Ruling: `PROME/proposals/2026-08-16_fert-recharter-RULED.md`.
 5. **CARL row-44 ruled (A) conditional:** CARL's §5 servicer-caveat check gates go-live (DOCKET 9/30 row); **live rule stays as-written at 1-of-2 until CARL's encode-confirm** — no surface moves to 0-of-2 before then. RED reopen = NEW objection only. Ruling: `PROME/proposals/2026-08-16_carl-row44-respec-optionA-RULED.md`.
 6. **Rule-batch sitting still owed (Will has it):** queue rows 52-54 (12 items, 🟡 zero-capital) + 2 aging rows; queue ~25 vs 20 cap. Also carried: Forum-4 §6 slate reconciliation = PROME task DOCKET 8/18.
-7. **Encode-confirm chase (owners):** MIDAS row-51 re-key + L-12 before 8/28 · HOMER row-50 · NEXUS ⑤ delta-leg · DAEDALUS war-triad owner packets + now the FERT build · CARL §5 + row-44 riders.
+7. **Encode-confirm chase (owners):** MIDAS row-51 re-key + L-12 before 8/28 · HOMER row-50 · NEXUS ⑤ delta-leg · DAEDALUS war-triad owner packets + the FERT build [8/23] **+ NEW 8/16: docket_view.py renderer commission [checkpoint 8/31, sequenced after FERT — kills the hand-maintained-calendar drift class, blocking in audits #7+#9]** · CARL §5 + row-44 riders.
 
 ## ⚠️ CAUTIONS FOR THE FRESH SESSION
 
