@@ -16,6 +16,9 @@ Checks per artifact (read-only; flags, never fixes):
                  Jul-30-vs-Jul-16 class). Dates on lines marked as historical
                  annotations ("corrected from", "was", "superseded", "slid",
                  "designed when") are skipped — alert-fatigue control.
+                 Only dates within DRIFT_HORIZON_DAYS of today are
+                 drift-eligible (see the constant's comment) — a far-future
+                 near-miss reads docket sparsity as drift.
   3. ORDERING  — artifact's last git-commit time vs each cited canon doc's
                  last-change time → "artifact predates canon change" flag.
 
@@ -41,6 +44,15 @@ import sys
 REPO = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DOCKET = os.path.join(REPO, "PROME", "DOCKET.tsv")
 ALLOWLIST = os.path.join(REPO, "scripts", "firetime_allowlist.tsv")
+
+# DATE DRIFT is only meaningful near-term — a drifted copy of an IMMINENT gate
+# date. Beyond this horizon, the ±45d near-match reads docket SPARSITY as
+# drift: measured 2026-08-16, 14 of 15 boot DATE-DRIFT flags were bare
+# historical tokens (Jan/Feb 2026 mentions) year-rolled into 2027, "near" only
+# the sparse year-end rows. The year-boundary roll (>183d) always lands past
+# this bound, so rolled tokens are inherently excluded. A CORRECT far-future
+# date stays quiet regardless via the exact-match (covered_dates) skip.
+DRIFT_HORIZON_DAYS = 90
 
 # Dates on a line containing one of these (before the date) are historical
 # annotations or vintage stamps, not live claims — skip them.
@@ -333,6 +345,10 @@ def check_artifact(path, docket_rows, covered_dates, today):
                 # Strictly-future dates only: past/today tokens are vintage
                 # stamps and provenance, not fire-path claims.
                 if d is None or d in seen or d <= today or d in covered_dates:
+                    continue
+                # Horizon bound: a far-future date is not a fire-path claim
+                # for this boot — see DRIFT_HORIZON_DAYS.
+                if (d - today).days > DRIFT_HORIZON_DAYS:
                     continue
                 before = line[: m.start()]
                 if ANNOTATION_RE.search(before):
