@@ -1,6 +1,6 @@
 # FLEET DIRECTORY — what every agent is, does, and is missing
 
-> **GENERATED — DO NOT EDIT.** Rendered from `PROME/ROSTER.md` (existence · domain · status) + `AGENTS/DAEDALUS/FLEET_MAP.tsv` (class · maturity · missing/next) by `AGENTS/DAEDALUS/scripts/render_directory.py`. Edit the **sources**, then regenerate — hand-edits are overwritten. Generated 2026-08-15.
+> **GENERATED — DO NOT EDIT.** Rendered from `PROME/ROSTER.md` (existence · domain · status) + `AGENTS/DAEDALUS/FLEET_MAP.tsv` (class · maturity · missing/next) by `AGENTS/DAEDALUS/scripts/render_directory.py`. Edit the **sources**, then regenerate — hand-edits are overwritten. Generated 2026-08-16.
 
 *One source of truth per column (PAT-006): **what it does** + **status** ← ROSTER (PROME); **class** + **maturity level** + **missing/next** ← FLEET_MAP (DAEDALUS). "Missing / next" is a truncated one-liner — full gap detail in `FLEET_MAP.tsv` + `upgrades/<AGENT>_CARD.md`. Dormant agents are un-graded → blank grade cells. PROME graded 2026-07-28 (Will-ratified, judgment-read only — the scripted floor cannot see a root-level agent).*
 
@@ -38,6 +38,7 @@
 | HOMER | Market | L2 | Housing — asset market + housing credit structure (pipeline, GSE+CMBS multifamily, builders, HPI, mortgage-rate surface) | L3: convergence handles + HOM-01 resolving (~7/30) + start the scaffold… |
 | OZK | Market | L4 | Bank OZK specialist (RESG construction / classified-migration watch) | HOLD L4 (legs STRENGTHENED 8/7: 3 outbound signals, routing restraint e… |
 | WAL | Market | L3 | Western Alliance Bancorp specialist (Office/B1-migration/MI3 idiosyncratic bear; thesis-of-record v2.3) | L3->L4 RE-CUT 8/7 PM (prior gate named a PERMANENTLY UNREACHABLE act —… |
+| FERT | Market | L1 | Fertilizer supply/price/policy → food-CPI transmission → CF positioning (nitrogen + phosphate; China policy = LIVE vector; potash EXCLUDED-UNOWNED fleet-wide) | L1->L2/L3 in ONE first live session (PROME spawn rec <8/25 — RCF award… |
 
 ## 🟡 TIER-2 — spawned as needed
 
@@ -64,4 +65,4 @@
 | RAV | Meta | L2 | Deep factual/analytical reviewer + bounded repair (Codex, Will-driven) | L3 on the FIRST charter-conformant run report in AGENTS/RAV/runs/ — §5'… |
 
 ---
-*30 active · 4 tier-2 · 2 dormant · 3 special. Dropped (retired): HERMES. Regenerated each Production Review — `sweeps/PRODUCTION_REVIEW.md`.*
+*31 active · 4 tier-2 · 2 dormant · 3 special. Dropped (retired): HERMES. Regenerated each Production Review — `sweeps/PRODUCTION_REVIEW.md`.*

@@ -41,7 +41,10 @@ CLASS = {
 # REGISTRATION RULE (self-sweep 7/22, H2): a REVIVAL must remove the name from this set
 # same-pass as the FLEET_MAP row — the renderer fails loud on mismatches, this fails SILENT
 # (OZK/ZHAO sat here months after reviving; see builds/REGISTRATION_CHECKLIST.md row 12).
-SKIP = {"ATHENA", "BARON", "CRUISE", "FERT", "REITS", "TRADES", "SENTRY"}
+SKIP = {"ATHENA", "BARON", "CRUISE", "REITS", "TRADES", "SENTRY"}
+# FERT removed 2026-08-16 (re-chartered ACTIVE, Will-ruled — registration rule above:
+# revival removes the name same-pass as the FLEET_MAP row). CRUISE stays pending PROME's
+# re-classification call (flagged 8/16, orphaned-threshold sweep — de-facto active).
 
 # LIVE agents the objective floor layer CANNOT measure — excluded from grading but ANNOUNCED,
 # never silently dropped. Distinct from SKIP: SKIP = not an agent; this = an agent this
