@@ -1,5 +1,5 @@
 {
- "built": "2026-08-16 17:20",
+ "built": "2026-08-16 19:25",
  "channels": {
   "AI capex": "elev",
   "Credit": "crit",
@@ -57,6 +57,7 @@
   "CARL": "ok",
   "CORAL": "ok",
   "FALCON": "ok",
+  "FERT": "ok",
   "HAWK": "ok",
   "HENRY": "ok",
   "HOMER": "ok",
