@@ -16,6 +16,16 @@
 > **No threshold moved. No vector moved. No position change. Composite unchanged 12/35.**
 >
 > **NEXT-SESSION items 2 and 8 below are now DONE** (inbox drained; brief re-pinned). **Items 1, 3, 4, 5, 6, 7 stand unchanged.** New: **T-23 has no instrument and that is deliberate** — do not ship a threshold on it without a base rate first.
+>
+> ### CLOSEOUT — promotion scan (supersedes Session 1's "no new auto-memory promoted")
+> **1 new fleet memory + 1 extension, both committed** (carve-out ③ covers files authored **or appended to**):
+> - **NEW `finding_window_start_at_an_extremum_inverts_the_move`** — a Δ measured off a local peak/trough measures the *extremum*, and base-rating it **confirms** the wrong read rather than correcting it. The check is one extra query: price the same-length window immediately before. **Two record magnitudes in opposite directions is a round-trip, not two rare events.** Dedup'd against `finding_new_pin_needs_trajectory_before_level_read`, which fires when you have **no** history — SAM had four points and was still inverted, so the trigger is genuinely distinct. Cross-linked both ways.
+> - **EXTENDED `finding_ragged_row_tolerance_hides_schema_change` with mode ④** (positional-scrape column shift) rather than creating a near-duplicate — costs zero index bytes.
+> - `memory_index_check --strict --slug` **rc=0**, 409 slugs all resolving. `check_memory_length.sh` **62% of byte cap** — under the 75% flow-rule trigger and the 80% warn, **no PROME flag owed on size**.
+> - ⚠️ **NOT MINE, observed while running the check — flag only:** **7 of 8 `embed-pending` cold-index rows are >14 days stale.** Those rows are promises to other agents' artifacts; the check's own warning applies (*"the row existing is not the embed happening — check the TARGET artifact"*). **PROME owns the index; BOND took no action.**
+>
+> ### Session-2 supersession of a Session-1 line
+> Session 1's correction #3 below reads *"DFII10 … 11bp away and the gap widened."* **Still true of the current distance, but incomplete:** the 2026 peak is **2.47 (7/31), not the 2.43 I carried**, so the closest approach to the 2.5 add-gate this cycle was **3bp**. Gate never fired either way. `KB-BND-108`.
 
 ---
 
