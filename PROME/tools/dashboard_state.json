@@ -1,5 +1,5 @@
 {
- "built": "2026-08-15 22:27",
+ "built": "2026-08-16 14:53",
  "channels": {
   "AI capex": "elev",
   "Credit": "crit",
@@ -13,7 +13,6 @@
  "docket": [
   "2026-08-07 Tricolor criminal: privilege-log schedule ladder (8/7 \u2192 8/14",
   "2026-08-14 Forum-4 WITHDRAWAL TESTS grading riders (Will-ruled batch 8/",
-  "2026-08-15 Jazan restart window (BRENT watch; 2nd Houthi strike 15d apa",
   "2026-08-17 BLAST 10-D panel hook (OTTO\u2194CARL cross-agent read)",
   "2026-08-17 OSPREY 8/8-understanding falsifier check (survived 8/12; ~8/",
   "2026-08-18 Forum-4 \u00a76 candidate-slate reconciliation \u2014 pull CURRENT sta",
@@ -26,6 +25,7 @@
   "2026-08-20 OSPREY Channel-3 (shadow-fleet) kill watch \u2014 21d clock lands",
   "2026-08-21 Bank-put OPEX \u2014 OZK residual rides to $0 or salvage (RULED R",
   "2026-08-22 S6 STATUS two-state PILOT grades (WATT/HENRY/CARL, ~2wk from",
+  "2026-08-23 FERT re-charter build checkpoint (Will RULED 8/16: EVENT-DRI",
   "2026-08-24 DEFERRAL \u2014 forum slate item 8 (coverage-gap commissioning: s",
   "2026-08-24 FDIC Q2-2026 Quarterly Banking Profile expected window (FDIC",
   "2026-08-24 FORUM fin-cond T1+T4 grades: T1 MIGRATING withdrawal test (>",
@@ -42,7 +42,8 @@
   "2026-08-31 MOF monthly intervention data \u2014 the HARD CONFIRM window that",
   "2026-09-01 FORUM fin-cond T3: decoupling Test A first adequately-powere",
   "2026-09-01 FSA Data Center Q2 update (quarterly cadence; Q1 posted 6/23",
-  "2026-09-01 Russia diesel producer-direct carve-out takes effect (OSP-02"
+  "2026-09-01 Russia diesel producer-direct carve-out takes effect (OSP-02",
+  "2026-09-06 OPEC+ meeting \u2014 the Q4-2026 quota decision (the ACTUAL Q4 de"
  ],
  "fleet": {
   "AEOLUS": "ok",
