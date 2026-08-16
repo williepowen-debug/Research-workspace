@@ -25,9 +25,22 @@
 // readers check the spine AGAINST DOCKET.tsv as canon, so an error INSIDE DOCKET
 // is self-sealing — the audit would enforce it. firetime_check validates only rows
 // dated <=7d out; the 8th reader samples ~8 far-dated PENDING rows and verifies
-// them at their SOURCE ARTIFACTS. Sampling is deterministic off the run date's
-// day-of-month (Math.random is unavailable in Workflow scripts by design), so
-// successive weeks walk different slices of the tail.
+// them at their SOURCE ARTIFACTS. Sampling is deterministic off a WEEK COUNTER
+// (Math.random is unavailable in Workflow scripts by design), so successive weeks
+// walk different slices of the tail.
+//   SEED RE-BASED same day (DAEDALUS 8/16 review, finding 1 — verified vs live
+//   N=66): day-of-month seeding degenerates. Weekly runs advance day-of-month +7
+//   EXCEPT at 31-day month boundaries (30->6 is -24 ≡ 0 mod STEP=8: two
+//   consecutive runs resample the same slice), and any N in 56..63 gives STEP=7
+//   where +7 ≡ 0 — every run samples ONE slice permanently. A days-since-epoch
+//   week counter advances exactly +1 per weekly run regardless of month or STEP.
+//
+// READING RULE (DAEDALUS 8/16 review, finding 3 — named residual, by design): the
+// anchor leg tests DIVERGENCE, not truth. A row and its artifact sharing a wrong
+// origin pass clean, and MISSING rows (the prose-only-catalyst class) are
+// invisible to it — that class stays covered by registration discipline + the
+// paired readers. Anchor CLEAN = "no row-vs-artifact contradiction in the
+// sample," never "dates externally confirmed."
 
 export const meta = {
   name: 'spine-audit',
@@ -118,9 +131,22 @@ For EACH of your two files:
 Severity: 'blocking' = a directive/date/band a boot reader would act on wrongly; 'minor' = wording drift, dated phrasing, cosmetic. Verdict CLEAN only if zero blocking issues. Be precise with locations (section name + approximate line). Do not pad — an empty issues list on a genuinely clean file is the correct output. Your final action: return the structured output.`
 }
 
-// Anchor leg: deterministic day-of-month seed (parsed from the TODAY string —
-// argless new Date()/Math.random are unavailable in Workflow scripts).
-const DAY_OFFSET = /^\d{4}-\d{2}-\d{2}$/.test(TODAY) ? parseInt(TODAY.slice(8, 10), 10) : 0
+// Anchor leg: deterministic WEEK-COUNTER seed — civil days since 1970-01-01
+// computed by pure arithmetic from the TODAY string (no Date APIs; argless
+// new Date()/Date.now()/Math.random are unavailable in Workflow scripts), /7.
+// Advances exactly +1 per weekly run, immune to month boundaries and to STEP=7
+// (the two degeneracies of the retired day-of-month seed — see header).
+function weekSeed(iso) {
+  if (!/^\d{4}-\d{2}-\d{2}$/.test(iso)) return 0
+  let y = parseInt(iso.slice(0, 4), 10)
+  const m = parseInt(iso.slice(5, 7), 10), d = parseInt(iso.slice(8, 10), 10)
+  y -= m <= 2 ? 1 : 0
+  const era = Math.floor(y / 400), yoe = y - era * 400
+  const doy = Math.floor((153 * (m + (m > 2 ? -3 : 9)) + 2) / 5) + d - 1
+  const doe = yoe * 365 + Math.floor(yoe / 4) - Math.floor(yoe / 100) + doy
+  return Math.floor((era * 146097 + doe - 719468) / 7)
+}
+const WEEK_SEED = weekSeed(TODAY)
 
 function anchorPrompt() {
   return `You are a READ-ONLY canon-anchor auditor in a multi-agent research repo. Do NOT edit, write, commit, or run any state-changing command. Today is ${TODAY}.
@@ -129,7 +155,7 @@ CONTEXT: the weekly spine audit checks PROME's boot-read docs AGAINST ${REPO}/PR
 
 1. Read ${REPO}/PROME/DOCKET.tsv entirely. Data rows are TAB-separated: date, description, owner, status, source, notes. Ignore comment/short legacy lines.
 2. ELIGIBLE rows: status field begins "PENDING" AND the row's date (the FIRST date, for "A..B" ranges) is 8 or more days after today.
-3. DETERMINISTIC SAMPLE — do this arithmetic carefully and record it: number the eligible rows 1..N in file order. STEP = max(1, floor(N/8)). R = ${DAY_OFFSET} mod STEP. Select rows whose (index mod STEP) == R; keep at most the FIRST 8 selected.
+3. DETERMINISTIC SAMPLE — do this arithmetic carefully and record it: number the eligible rows 1..N in file order. STEP = max(1, floor(N/8)). R = ${WEEK_SEED} mod STEP. Select rows whose (index mod STEP) == R; keep at most the FIRST 8 selected.
 4. For EACH sampled row, read the file(s) named in its source field (and notes-field pointers where the source is thin) and check: (a) the pointer EXISTS; (b) the artifact SUPPORTS the row's date — a row self-declared "~approximate" or "~TARGET/SLIPPABLE" passes unless the artifact names a DIFFERENT date; (c) the OWNER matches the artifact; (d) STATE — the artifact does not show the catalyst already resolved/graded/retired/superseded while the row still says PENDING.
 5. NOT findings: an artifact that is merely stale or not recently updated (you are testing CONTRADICTION, not freshness) · market levels · the inherent uncertainty of declared-slippable dates.
 
