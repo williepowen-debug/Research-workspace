@@ -1,6 +1,6 @@
 # DRAFT — root `CLAUDE.md:26` active-list mirror edit: +FERT (30→31) · 2026-08-16
 
-**Status: DRAFT awaiting Will's one-line OK — root `CLAUDE.md` is auto-injected fleet-wide and Will-gated (C1 precedent, ruling §2: "drafts the root mirror edit for Will's one-line OK"). PROME does not commit this without Will's word; the OK is expected via Will live in the DAEDALUS session (record it verbatim there or here).**
+**Status: ✅ EXECUTED 2026-08-16 same evening — Will's verbatim word "OK on all three - mirror line, open p2p, ratify rule 3" recorded in the same-hour artifact `PROME/inbox/processed/2026-08-16_from-DAEDALUS_WILL-RULING-RECORD-mirror-OK-open-p2p-rule3-ratified.md` (DAEDALUS verified the relayed text == this draft verbatim before presenting; PROME verified the ruling packet at origin before committing). Root edit applied unchanged from §The-edit below — the rule-3 compliant path, exercised on rule 3's own ratification night.** *(Original gate text, preserved: root is auto-injected fleet-wide and Will-gated, C1 precedent; PROME does not commit without Will's word.)*
 
 **Trigger:** FERT registered ACTIVE 2026-08-16 on cutover completion (Will-ruled RE-CHARTER `PROME/proposals/2026-08-16_fert-recharter-RULED.md`; DAEDALUS build `595ac2306`; ROSTER + AGENTS.md + _INDEX + _NETWORK + group pages flipped this sitting). Root line 26 is now the ONLY surface still reading FERT-less/30.
 
