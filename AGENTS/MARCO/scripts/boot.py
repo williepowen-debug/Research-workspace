@@ -130,7 +130,10 @@ def file_age_days(path):
     return (time.time() - path.stat().st_mtime) / 86400.0
 
 
-def run_script(path, timeout, args=()):
+def run_script(path, timeout, args=(), findings_rc=()):
+    # findings_rc: rc values meaning "ran correctly, reported real problems" (FINDINGS,
+    # never FAIL). ledger_staleness rc contract REVISED 2026-08-17 (DAEDALUS shared-script
+    # fix, CHECK_STANDARD §8 rule 3): 0 clean · 1 stale FINDINGS · 2 cannot-certify.
     if not path.exists():
         return "MISSING", f"  SKIP: {path.name} not found", 0.0
     start = time.time()
@@ -140,7 +143,8 @@ def run_script(path, timeout, args=()):
         out = r.stdout
         if r.returncode != 0 and r.stderr:
             out += f"\n  STDERR: {r.stderr[-400:]}"
-        return ("OK" if r.returncode == 0 else "FAIL"), out, time.time() - start
+        status = "OK" if r.returncode == 0 else ("FINDINGS" if r.returncode in findings_rc else "FAIL")
+        return status, out, time.time() - start
     except subprocess.TimeoutExpired:
         return "FAIL", f"  TIMEOUT after {timeout}s", time.time() - start
     except Exception as e:
@@ -183,9 +187,12 @@ def main():
     results = []
 
     # ---- Layer 1: read-only awareness ----
+    # ledger_staleness emits 1 = stale FINDINGS under its revised 2026-08-17 rc contract
+    # (2 = cannot-certify: MISCONFIGURED/OUTSIDE-GLOB — also findings, not script breakage).
+    findings_rcs = {"Ledger Staleness": (1, 2)}
     for label, path, extra in AWARENESS:
         print(f"\n  ⏳ {label}…", flush=True)
-        status, out, el = run_script(path, 60, extra)
+        status, out, el = run_script(path, 60, extra, findings_rc=findings_rcs.get(label, ()))
         if out.strip():
             print(out if (verbose or True) else "")  # awareness always shown full
         results.append((label, status, el))
@@ -221,7 +228,7 @@ def main():
     print(f"\n  {'Step':<26}{'Status':>8}{'Time':>8}")
     print(f"  {'-'*42}")
     for label, status, el in results:
-        icon = {"OK": "✅", "SKIP": "⏩", "MISSING": "❓"}.get(status, "❌")
+        icon = {"OK": "✅", "SKIP": "⏩", "MISSING": "❓", "FINDINGS": "⚠️"}.get(status, "❌")
         print(f"  {icon} {label:<24}{status:>6}{el:>7.1f}s")
     print(f"\n  Total boot: {time.time()-t0:.1f}s  |  {now:%Y-%m-%d}")
 
