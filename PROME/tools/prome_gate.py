@@ -450,6 +450,13 @@ def mode_closeout():
            "if you superseded a published number: scripts/consumer_check.py --old <v> --new <v> (root step 1c); "
            "canon/threshold change ⇒ add --mirror-map (T1-b)",
            "root CLAUDE.md step 1c + PROME/SYSTEM.md Mirror Map")
+    # 8/16 (RAV addition, Will-approved): the two WILL_QUEUE parsers duplicate
+    # their visibility regexes by design — this synthetic-row test is what
+    # keeps them agreeing (the lettered-ID fix shipped to the gate only and
+    # the brief silently diverged; this would have caught it same-day).
+    run_script(ADVISE, "queue-parser selftest (gate vs will_brief)",
+               [sys.executable, "PROME/tools/queue_parser_selftest.py"],
+               "PROME/tools/queue_parser_selftest.py")
 
 
 def main():

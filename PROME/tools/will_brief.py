@@ -201,7 +201,20 @@ def parse_actions():
         if not line.startswith("|"):
             continue
         c = [x.strip() for x in line.strip("|").split("|")]
-        if len(c) < 6 or not c[0].isdigit():
+        # `^\d` not .isdigit() — mirror of prome_gate.py's 8/16 lettered-ID
+        # fix (32b-class rows failed .isdigit() and vanished from the brief
+        # while the gate counted them: split-brain, RAV catch 8/16). The
+        # MISFILED exclusion mirrors the gate's too — a closed-in-place row
+        # (terminal marker LEADING the Item cell, anchored after
+        # strikethrough/bold strip, never substring) must not render as an
+        # open ask. Regexes duplicated deliberately (the gate is a blocking
+        # boot surface; no import coupling) — queue_parser_selftest.py is
+        # what keeps the two parsers agreeing.
+        if len(c) < 6 or not re.match(r"\d", c[0]):
+            continue
+        item_lead = re.sub(r"^(?:~~[^~]+~~\s*)+", "", c[1])
+        item_lead = re.sub(r"^[\*\s]+", "", item_lead)
+        if re.match(r"✅|DONE\b|RESOLVED\b|TERMINAL\b|DECLINED\b", item_lead):
             continue
         raw = c[3]
         d = re.search(r"\d{4}-\d{2}-\d{2}", raw)
