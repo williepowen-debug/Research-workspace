@@ -51,6 +51,20 @@ Zero PJM-RTO emergency-class postings 7/17–8/15; the July episodes were **heat
 7. **⚠️ Winter P1 registration is GATED and the gate HELD.** AEOLUS: winter **energy/mean DOWN (established)**; winter **PEAK — NO SIGN** (n=2, split). **2023-24 = warmest US winter on record AND PJM still peaked 134,777 MW Jan 17, running Cold Weather Advisory → Alert → Conservative Operations → NERC TLR-1.** ⇒ **never register "no EEA because El Niño."** Peak-based, sign-agnostic, weighted **mid-Jan–Feb**, not December. Vintage discipline: ONI is revised (use today's file); **never mix +2.03 and +1.2 in one sentence** (different baselines).
 8. **Lower urgency:** hedged-vs-floating share of neocloud load (owed VULCAN) · Oracle/We Energies $7B LC vs the Wisconsin PSC docket · Hut8 Beacon Point MW · TSMC-AZ timing · WSJ Trump/utilities full text · EIA-923 PJM-fleet heat rate · the "1-year-early" reconcile.
 
+## ✅ CLOSED LATE 8/17 (Will: "anything left incomplete or open?") — the deferred-debt sweep
+
+**`THESIS.md` REWRITTEN — all 9 contradictions fixed, the dead flip killed.** It had gone **36 days** unrefreshed (not the 26 measured 8/7). Fixed: P2 clears ×2→**×3** · shortfalls 1→**2** · **the dead flip** (it still named the 28/29 BRA a *"~Dec-2026"* future test — **an auction that resolved 7/14**; a falsification surface pointing at a PAST event reads live and can never fire, which is the worst defect in the file) · P1 "DM2 not wired"→**instrument of record** · P1 episodes 1→**2** · P3 "55GW not capex-funded"→**VULCAN-06** · P3 trigger live→**FIRED-AND-SPENT** · P4 heat-rate uncalibrated/+$49.53→**calibrated/+$48.31** (the number I formally retracted to BRENT was still alive in my own thesis file) · P4 ICE proxy source→**backdrop**.
+**🔑 ROOT CAUSE FIXED, not just the 9 symptoms:** the file had **no vintage of its own**, so it sat **outside every staleness check's range** — a checker keyed on STATUS literally cannot see a file that never claims a date. It now carries a **two-clock header + per-channel `[stamp]` lines** + an explicit **precedence rule (STATUS wins; THESIS is the defect)**. Added **P2 stage 5** (two doors → now a filing) and **P3 stage 5** (ride-through compliance cost).
+
+**Three hygiene defects from the same 8/7 profile, all closed:**
+- **`CLAUDE.md` said `power_watch.py` is 3 legs in TWO places** (boot step 4 + FILES table) when it has run **5** since 7/16 — PAT-052, **flagged 7/22, open 26 days.** Both fixed, with the measured **DM2 ~4-day verified lag** written in so the next reader inherits it.
+- **`FLOW.tsv` had NO vintage field (D10)** — currency readable only by inference. Added `as_of`, backfilled all 12 rows, documented in `SCHEMA.tsv` (which had covered only KB).
+- **`KILL_MEMO.md` did not exist** though my own THRESHOLDS section mandates one for every cascade trigger. **Written cold**: C1–C5 conjunctions, a 5-step ladder (verify → classify → route → score → write), standing prohibitions, and a separate *slower* ladder for C5 the thesis-kill. ⚠️ **C3 gained a third limb because of 8/16** — an absolute peak floor, so 97%-of-peak on a quiet Sunday can't pass as a July-grade event. ⚠️ It is **decoupled from STATUS by design — do NOT rewrite it at closeout**, and never during a live event.
+
+**`boot.py` now returns `all quiet` rc=0** (WATT-06 resolved, so the predictions-due scan is clear).
+
+---
+
 ## ▶ DUE 2026-08-22 — two-state STATUS pilot report to DAEDALUS
 
 **First rotation DONE: 10,902 B across 6 genuinely superseded blocks → `status_archive/STATUS_ARCHIVE_2026-08.md`. Pair 67,485 → 57,785 B, UNDER the 61,440 cap, nothing manufactured. Falsifier NOT hit.**

@@ -28,7 +28,7 @@ Each channel is a standing causal line, not a topic. If a channel has no current
 1. **Sync from GitHub** — follow root CLAUDE.md §Git Protocol "Before pulling".
 2. **Read `SCRATCH.md`** — where you left off; the single most important "pick up here."
 3. **Read `STATUS.md`** — convergence matrix, live channel reads, exit triad, BOTTOM LINE.
-4. **Run `boot.py`** — `python3 "$(git rev-parse --show-toplevel)/AGENTS/WATT/boot.py"` — runs `power_watch.py` (PJM emergency postings + EIA-930 demand + retail backdrop), ledger staleness, and the predictions-due scan. rc 0 = quiet · 1 = emergency-class posting OR prediction due — REVIEW · 2 = a fetch/parse leg failed (check manually, never assume quiet).
+4. **Run `boot.py`** — `python3 "$(git rev-parse --show-toplevel)/AGENTS/WATT/boot.py"` — runs `power_watch.py` (**5 legs:** ① PJM emergency postings · ② EIA-930 demand vs 24h peak · ③ retail-price backdrop · ④ EIA ICE wholesale proxy + spark spread · ⑤ **official PJM Data Miner 2 5-min LMP**, live since 7/16, needs `PJM_API_KEY`), ledger staleness (`--days 7`), and the predictions-due scan. rc 0 = quiet · 1 = emergency-class posting OR prediction due — REVIEW · 2 = a fetch/parse leg failed (check manually, never assume quiet). *(Leg count corrected 2026-08-17 — this line and the FILES table said "3 legs" for a month after leg-4/5 shipped; PAT-052 rot, flagged by DAEDALUS 7/22.)*
 5. **Resolve predictions** — scan `workbook/PREDICTIONS.tsv` for past-trigger rows → mark HIT / MISS / FALSIFIED; log resolution to KB.tsv; never leave OPEN-but-stale.
 6. **Process `inbox/`** — integrate each signal, log a KB.tsv row, move to `inbox/processed/`.
 7. **Channel-liveness check** — for each of P1–P4, is there a *current, dated* live read? Any channel without one is a **gap to close this session** (the #1 guard), not idle background.
@@ -182,12 +182,13 @@ Outbox filename: `YYYY-MM-DD_to-[target]_[desc].md`. Format: Signal / Detail (2�
 | `THESIS.md` | Per-channel transmission-stage tables (where the richness lives). |
 | `TRADE.md` | Domain trade ideas (IPP equities, power-event calls) feeding PROME synthesis. Carry a FROZEN banner or live mtime alert — never silent-rot (blueprint §8). |
 | `boot.py` | Boot instrument: runs `power_watch.py` + ledger staleness + predictions-due. cwd-proof; self-locating. |
-| `power_watch.py` | PJM leg instrument — emergency postings + EIA-930 demand + retail backdrop (imports shared FORGE `fetch.py`). |
+| `power_watch.py` | PJM instrument, **5 legs**: ① emergency postings · ② EIA-930 demand vs 24h peak · ③ retail backdrop · ④ EIA ICE wholesale proxy + spark spread (**backdrop only — ~12-day lag**) · ⑤ official **Data Miner 2** 5-min LMP (`PJM_API_KEY`). ⚠️ **DM2 verified hourly (`rt_hrl_lmps`) lags ~4 DAYS, not 1 business day** — measured 8/17 (KB-WATT-081). Imports the shared FORGE `fetch.py`. |
+| `KILL_MEMO.md` | Pre-written cascade ladder — what to do WHEN a conjunction trigger fires, written cold and **decoupled from STATUS rewrites** (CLAUDE.md THRESHOLDS clause). |
 | `SCRATCH.md` | Immediate next-session continuity — "pick up here." Read at boot, append at closeout. |
 | `NEXUS_BRIEF.md` | Curated cross-agent sync, written back every closeout (blueprint §6). |
 | `LESSONS.md` | Durable agent-level learning — domain & process lessons accrued over sessions. |
 | `workbook/KB.tsv` | Knowledge base (power-market → econ linkages, sourced). **Permanent record.** |
-| `workbook/SCHEMA.tsv` | Data dictionary for KB.tsv — read before writing. |
+| `workbook/SCHEMA.tsv` | Data dictionary for `KB.tsv` **and `FLOW.tsv`** — read before writing. |
 | `workbook/VX.tsv` | Vectors — channel risk indicators + state. |
 | `workbook/FLOW.tsv` | Transmission pathways. |
 | `workbook/PREDICTIONS.tsv` | Falsifiable forecasts (WATT-NN) + resolution tracking. |

@@ -8,3 +8,12 @@ source	origin (PJM / EIA-930 / EIA-retail / LBNL / IPP filing / agent handoff)
 as_of	as-of date of the value (may lag `date` for lagged series)
 confidence	EMPIRICAL | PROVISIONAL | ASSUMPTION
 notes	caveats, cross-refs, routing
+--- FLOW.tsv ---	(D10 fix 2026-08-17: FLOW had NO vintage field at all, so its content-vintage was underivable and it read LIVE by inference only)
+id	FLOW row id, format FL-WATT-NN
+channel	P1 | P2 | P3 | P4 | P5 | cross — which channel the pathway belongs to
+from	the originating event/quantity
+mechanism	the causal chain, event -> mechanism -> repricing
+to	what gets repriced / where it lands
+state	current status of the pathway + its evidence, caveats inline
+routes_to	the owning agents this pathway is routed to
+as_of	ADDED 2026-08-17 (D10) — ISO date this row's STATE was last re-derived. NOT the date the pathway was created. Backfilled from each row's own origin session. A row whose as_of predates the last STATUS write by a wide margin is a candidate for re-derivation, not automatically stale — FLOW pathways are MECHANISMS and change more slowly than reads.
