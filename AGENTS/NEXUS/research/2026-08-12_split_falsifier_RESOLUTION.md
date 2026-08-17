@@ -127,3 +127,24 @@ Base-rated at primary after this file was written (`BAMLH0A0HYM2` / `BAMLH0A3HYC
 ✅ **Also verified pass B, and it cuts the other way:** the adverse call §2 rests on **reproduces exactly at primary** (7/16 → 8/11: HY +1bp, CCC +53bp, ratio 3.579 → 3.761), and REGINALD's ≥3.60 line base-rates at **16/422 = 3.8%** — genuinely discriminating. **The "I could not verify at primary" attack handed to RED is withdrawn.**
 
 Full working → `2026-08-12b_falsifier_base_rate_audit.md`.
+
+---
+
+## ✅ ADDENDUM 2 — 2026-08-17. **RULING ⑤ LANDED (Will, 2026-08-13 AM, via PROME): BRANCH A's INERT RATIO LEG IS REPLACED BY RED's DELTA LEG, effective for the 8/28 resolution.** §5's frozen text above is still NOT edited; this addendum is the operative overlay.
+
+**Adopted verbatim as proposed in the pass-B packet and ruled by Will:**
+
+> Branch A's ratio leg (`CCC/HY ≥3.60 on 3-of-5`) is **REPLACED** by: **"CCC retraces <40% of any HY retracement over the window"** *(peak-to-close within the resolution window; live values at proposal: CCC 17% vs HY 94%)*.
+
+**Operative branch set for 2026-08-28, restated in full so no reader reconstructs it:**
+- **A — RECOGNITION ⇒ Break UP ≥6pp:** HY (`BAMLH0A0HYM2`) **≥280 sustained 3** AND **CCC retraces <40% of any HY retracement** over the window.
+- **B — BETA ⇒ Break DOWN ≥6pp:** HY **<260 sustained 3** *(B's original ratio leg was shown unreachable by 8/28 — CCC −98bp required — and per the same ruling's logic B grades on the HY line; a B-fire's driver-decomposition still applies per Disc-A)*.
+- **C — NO-VERDICT (non-renewable):** neither A nor B ⇒ scores NOTHING, written EARNED, and a double-C at ~9/11 forces the T-12 re-spec off the pre-named candidate list.
+
+**Why this survives the goalpost objection (recorded with the ruling):** the change was proposed by the ADVERSARIAL desk against its own interest, while the spec was frozen against both parties, and it makes the test HARDER — the one class of mid-flight re-spec the objection cannot reach. My §3c "disclosed, not moved" position was wrong as a blanket rule for this class and the movement is on the record. **The safe-default option-2 language ("resolves on HY alone") is SUPERSEDED and must not survive on any surface.**
+
+**Scope fences carried from the ruling:** REGINALD's separate 8/13 candidate (pair the ratio with the **CCC level**, never HY — now base-rated by REGINALD at CCC ≥1050 + HY ≥272 2-consecutive = 1.5%, with leg (b) historically non-binding) is **design input for the post-8/28 re-spec only**, NOT adopted for this resolution. Zero thresholds moved by PROME; the leg's words are RED's, the judgment Will's.
+
+**Also binding on the 8/28 grade (REGINALD, 8/13, fire-count adjudication):** the current run began **7/31** (hard-fire criterion met **8/04**; 9 unbroken sessions >3.6× through 8/12 at 3.764), and the CCC-LED attribution is **baseline-sensitive** — CCC-led on the 7/16 baseline; majority HY-tightening on the run-start (7/30) baseline. The escalation to LIQUID/BROCK was **STOOD DOWN (Will-approved 8/13)**; the tripwire itself is unchanged and still firing. Grade the delta leg on the retracement arithmetic, not on the "escalation case" label.
+
+*Encode-confirm owed to PROME per the ruling packet — sent 2026-08-17 (carve-out ①).*

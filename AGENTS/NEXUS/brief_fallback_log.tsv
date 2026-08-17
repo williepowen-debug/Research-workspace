@@ -41,3 +41,6 @@ date	agent	cause	note
 2026-08-12	SHADE	convergence	Trigger (b) — exam member #6 (Athene leg 2, ATH Q2 10-Q) coverage check for the frozen split falsifier; the brief cannot carry it because the owner has been dark since 8/4. Raw STATUS confirmed the leg is UNGRADED => #6 NOT REPORTED. Structural (owner-dark), not a brief defect.
 2026-08-12	RED	convergence	CHG-046 ruling read direct from packet (brief 16:59 predates the 17:51 ruling) — branch 4 upheld, window-length reconciliation demolished, falsifier ratio-leg shown inert
 2026-08-12	BRENT	convergence	brief read for the 8/12 crude basis ruling + zero-transit finding; not routed to me, consumed via post-pass commit scan
+2026-08-17	BROCK	stale	Trigger (a) - brief 8/3 vs STATUS 8/13 (private-credit grouping session: tranche dual-normalization agreement, APO $130 exit-rule fire, BCRED 5% cap, FORUM 5). Raw STATUS read; dual-normalization datum folded to M-08/T-12.
+2026-08-17	HENRY	stale	Trigger (a) - brief 8/6 vs STATUS 8/10 (forum vintage). Raw STATUS read (8/6 content); H-1 joint-condition correction already carried from the 8/10 forum; nothing new folded.
+2026-08-17	RED	stale	Trigger (a) scoped - brief 8/12 20:31 vs STATUS 8/17 S31 (SAM rail write-back only). Rail content consumed via SAM brief/commits (CH-016 preregistered discriminator, CH-017 SAM-41 relabel); RED raw STATUS not opened.
