@@ -24,7 +24,7 @@
 1. Root sync per root `CLAUDE.md` §Git Protocol ("Before pulling").
 2. `python3 "$(git rev-parse --show-toplevel)/AGENTS/FERT/boot.py"` — wall clock · ledger staleness (workbook + TRADE) · **predictions-due scan** (OPEN rows past `Resolve_By` print as named flags — mechanized per blueprint §5) · **triggers-due scan** (`workbook/TRIGGERS.tsv` rows past `Next_Check`). Exit 1 = REVIEW: work the flagged items before new research (root rule: mechanical before creative).
 3. Process `inbox/` per `inbox/PROTOCOL.md` (INTEGRATE / LOG / DISCARD; move to `inbox/processed/`).
-4. Read `STATUS.md`. **If it still carries the `FROZEN 2026-03-20` banner, this is a first-live-session boot → execute § FIRST LIVE SESSION below before anything else.**
+4. Read `STATUS.md`. *(The `FROZEN 2026-03-20` first-live-session trigger was spent 2026-08-17 — STATUS is live. Its own banner remains the authority on whether it is live.)*
 5. Execute the task. Write results back (STATUS + workbook). Update BOTTOM LINE.
 6. Closeout per root `CLAUDE.md` §Git Protocol (commit own pathspec, orphan check, auto-push).
 
@@ -125,18 +125,9 @@ Delivery model: write the packet into the recipient's `inbox/` and **commit it y
 
 ---
 
-## FIRST LIVE SESSION (protocol — active while STATUS.md carries the FROZEN 2026-03-20 banner)
+## FIRST LIVE SESSION — ✅ SPENT 2026-08-17
 
-Execute in order; each item cites its spec — read the source, don't work from memory:
-
-1. **Grade the record before writing a new one:** log the March calendar grades + threshold post-mortem into `PREDICTIONS.tsv` and `KB.tsv` as dated rows (grades are in the assessment §3; statuses per the Class-3 enum — e.g. `MISS`, `HIT (letter)`, `VOID (unfalsifiable-as-written)`).
-2. **Rebuild STATUS.md from scratch at primaries** per assessment **§5A verbatim** (benchmark-split price panel · Pink Sheet base-rating pull · retire the $516 baseline · correct Qatar to 12.8 mtpa/Trains 4+6/17% · replace "China: Full halt" with the live quota-regime row). Move the frozen March STATUS to `archive/`.
-3. **Deliver CARL packet #1** = assessment **§5C verbatim** (the channel-open-but-not-firing read) — closes the never-used charter route; CARL got an interim info copy 8/16.
-4. **File the two WALTER signals** (`inbox/WALTER/SIG-W-20260626-029`, `SIG-W-20260706-008`) to `inbox/processed/` — consumed by the revival assessment; note the assessment's two corrections to their content (Canada gloss unsourced; "urea $850 [7/6]" matches no benchmark).
-5. **Base-rate the §5B gate candidates** at the Pink Sheet backbone → proposal packet to PROME (Will-gated). Register your TRIGGERS.tsv wake rows that need DOCKET backing.
-6. **TRADE.md disposition:** it is FROZEN 2026-07-04 (correctly). Either author a fresh one from the rebuilt dashboard or extend the freeze with a dated re-look — never silently un-banner.
-7. **Author the dated kill rail** (§ FALSIFICATION above).
-8. When done, this section is spent: replace it with a one-line pointer to the session's closeout commit.
+All 8 items executed in the first live session (2026-08-17 11:14 ET). Closeout record: `inbox/RECEIPT.md` · proposals + asks: `PROME/inbox/2026-08-17_from-FERT_gate-proposals-base-rated-plus-three-asks.md` · graded March record: `workbook/PREDICTIONS.tsv` (FERT-01…10). **Do not re-run this protocol** — STATUS.md is live and the FROZEN banner is gone, so the boot-sequence trigger no longer fires.
 
 ---
 
