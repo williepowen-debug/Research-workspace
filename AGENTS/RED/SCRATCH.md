@@ -22,6 +22,16 @@
      by heading OFFSET (which occurrence), never by presence.
 -->
 
+**🆕 SESSION 31 ADDENDUM — Mon 2026-08-17, PROME spawn on Will's word. SCOPED, OUT-OF-DOMAIN: write-back-only pass on `AGENTS/SAM/red/`. NO RED weight, trigger, or watchline moved; RED's own domain state is untouched and Session 30 below is still the live handoff for it.**
+
+- **WHAT I DID:** dispositioned all 7 keys of the 6/30 SAM JGB pass; closed 5 in place with cited artifacts (CH-010 · CH-011 · CH-013 · CH-014 · CH-015), refreshed + bright-lined 2 (CH-009 · CH-012), opened 2 new (CH-016 🟠 attribution-OPEN-without-a-discriminator; CH-017 🔴 SAM-41 is a differential-LEVEL bar with no FX leg, pre-registered ahead of the v1.8 promotion session). PAT-044 two-clock headers added to all three rail files; `COUNTER_THESIS.md` bannered (argues against a frame v1.7 retired 8/7) — **bannered, not rewritten.** Full record → `challenges/2026-08-17_SAM_rail_writeback.md`; ledger row **CHG-RED-047** (ACTIVE, Resolved_Date 2026-08-20 per the W2 dated-row rule).
+- **ROUTED TO PROME (not to SAM — PROME coordinates, SAM was live in a concurrent session):** ① **SAM-33's `VOID if 30Y never tags ~4.0%` clause was SATISFIED 8/13-8/14 → live prediction sitting outside SAM's boot path.** ② **`CH-0NN` citation collision** — the SAM/red rail series vs the SAM-book series (`workbook/CHALLENGES.tsv` CHG-RED-029…032), overlapping at 004/005/009/010/011. ③ mid-cap lifer bifurcation watch ~50bp away.
+- **NEXT SESSION (dated):** **Thu 8/20** — 20Y JGB auction is the first adjudicator for CH-009 (BTC<2.3× or tail>8bp = CONFIRMED) **and** CH-016's dismiss condition (does SAM register a discriminator before it?). **Thu 9/3** — 30Y auction. **10/31** — CH-017 resolves with SAM-41. *These are SAM-rail clocks, not RED registry rows — they live in this addendum and in the rail, deliberately not in RED's `docket/CATALYSTS.tsv`.*
+- **OPEN THREAD:** a **full 5-axis adversarial pass on the v1.8 candidate is still owed** and is a separate spawn — v1.7 gates promotion on it. CH-017 is a pre-registration, not a substitute.
+- **GIT:** rail + own files committed pathspec from repo root; **no push — PROME sweeps.**
+
+---
+
 **Session 30 — Wed 2026-08-12 ~4:00–5:00 PM ET, CLOSED OUT (Will-directed reboot: "continue where we left off, I think T5").** **Post-audit plan resumed at T5 and CLOSED it. NO WEIGHT MOVED — HOLD 69 / net-bear 60 unchanged.** What moved is **registered-trigger state on all 9 rows**, which is why this reached CHANGELOG and OUTBOX at all: **the new A4 rule caught it.** Under the old protocol the entire session would have lived in a TSV and reached nobody.
 
 ## CHANGES SINCE (S29f closeout 8/12 ~2:30 PM → this boot, ~90 min)

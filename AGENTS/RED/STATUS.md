@@ -3,6 +3,20 @@
 
 ---
 
+## 🆕 SESSION 31 (2026-08-17) — SAM ADVERSARIAL RAIL WRITE-BACK (PROME spawn, Will's word). **NO RED WEIGHT MOVED — scoped, out-of-domain pass.**
+
+**Task:** write-back-only on `AGENTS/SAM/red/` (RED's editing right; SAM contractually barred), flagged **48d stale with ≥3 dead keys** by the DAEDALUS structure review. **Full record → [`challenges/2026-08-17_SAM_rail_writeback.md`](challenges/2026-08-17_SAM_rail_writeback.md); ledger row `CHG-RED-047`.**
+
+**Result — rail 7-OPEN/no-stamp → 4 OPEN · 13 CLOSED, PAT-044 two-clock header on all three rail files.** Closed with cited artifacts: **CH-010** CONFIRMED (adjudicated twice in RED's favour — THESIS v1.6.3 7/2 + v1.6.7 7/11) · **CH-011** DEAD-RETIRED-TARGET + DISMISS leg fired on the letter (THESIS v1.7; 30-yr-high 10Y, 30Y through 4.00% vs **USD/JPY −0.03%, 7th flat session**) · **CH-013** CONFIRMED (SAM-32 FAILED 7/2) · **CH-014** MITIGATED · **CH-015** charge DISMISSED / RED's falsifier CREDITED. **CH-009 · CH-012** refreshed and bright-lined to the **8/20 20Y** and **9/3 30Y** auctions.
+
+**Two new challenges, both dated 8/17:** **CH-016 🟠** — the 8/17 driver-attribution is OPEN with **no discriminator, no date, no NO-VERDICT branch** (3 regime reads in 8 days), and the pull-forward leg's own OIS instrument sits under SAM's own integrity flag (Polymarket 79.5% vs OIS 51.0%). **CH-017 🔴** — **SAM-41 / the v1.8 candidate is a differential-LEVEL bar with no FX leg**: its modal TRUE path is a US-led gap close with the yen flat (SAM-31 unfired ×2), and the transmission premise just failed its cleanest test. **Pre-registered ahead of the promotion session v1.7 gates on a RED pass.**
+
+**Routed to PROME:** ① **SAM-33's `VOID if 30Y never tags ~4.0%` clause was SATISFIED 8/13-8/14 → the prediction is LIVE and outside SAM's boot path.** ② **`CH-0NN` citation collision** — the rail series vs the SAM-book series (`workbook/CHALLENGES.tsv` CHG-RED-029…032), overlapping at 004/005/009/010/011; fix is citation discipline, not renumbering. ③ mid-cap lifer **bifurcation watch ~50bp away** — arms as a NEW key, not a CH-010 revival.
+
+**RED's own misses, logged:** CH-015's charge was wrong (SAM-32 was falsified in 48h — the opposite of unfalsifiable); CH-013's GPIF leg resolved **toward SAM**; CH-009's *"range-bound 3.5-4.0%"* DISMISS leg is **broken** and was restated in place rather than widened. **And the rail sat 48 days — the challenges were sound, the write-back was the failure.**
+
+---
+
 ## SESSION 29 / 30 (2026-08-12) — narrative ARCHIVED
 
 **The full per-session narrative for S29 / 29b-f / S30 — the FT-06 fire, the core+breakeven −6, the BOARD-scan miss, the crude-basis defect, ORACLE's answer, and the S30 post-audit closes (T5/T4/T6/T7) — is archived verbatim at [`reports/2026-08-12_S29-S30_status_narrative_archive.md`](reports/2026-08-12_S29-S30_status_narrative_archive.md).**
