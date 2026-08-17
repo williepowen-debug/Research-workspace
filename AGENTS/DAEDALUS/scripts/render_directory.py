@@ -12,6 +12,10 @@ Reliability (why this can be trusted, not just maintained):
   - FAILS LOUD on structural breakage (ROSTER table format changed / FLEET_MAP schema changed).
   - FAILS LOUD on any unhandled FLEET_MAP-only agent — a new real agent can never silently vanish;
     it must be either SPECIAL-mapped (prose in ROSTER) or explicitly DROPped (retired).
+  - REVERSE guard (2026-08-17 self-audit F14): an ACTIVE/TIER-2 ROSTER agent with NO FLEET_MAP row
+    renders an explicit "⚠️ UNGRADED" cell (never a blank identical to by-design dormant) and the
+    generator exits rc=1 after writing. Live trigger this guards: PAT-047 registration order lands
+    the ROSTER row before the FLEET_MAP row. DORMANT blanks remain by design.
   - Regenerated each Production Review (sweeps/PRODUCTION_REVIEW.md) so the artifact can't rot.
 
 cwd-proof: self-locates repo root from __file__ (PAT-031). Writes FLEET_DIRECTORY.md; prints a summary.
@@ -126,6 +130,7 @@ def main():
             f"(guard against a real agent silently vanishing from the directory)")
 
     stamp = date.today().isoformat()
+    ungraded = []
     L = []
     L.append("# FLEET DIRECTORY — what every agent is, does, and is missing")
     L.append("")
@@ -137,7 +142,9 @@ def main():
     L.append("*One source of truth per column (PAT-006): **what it does** + **status** ← ROSTER (PROME); "
              "**class** + **maturity level** + **missing/next** ← FLEET_MAP (DAEDALUS). \"Missing / next\" is a "
              "truncated one-liner — full gap detail in `FLEET_MAP.tsv` + `upgrades/<AGENT>_CARD.md`. "
-             "Dormant agents are un-graded → blank grade cells. PROME graded 2026-07-28 (Will-ratified, "
+             "Dormant agents are un-graded → blank grade cells; an ACTIVE/TIER-2 agent missing its "
+             "FLEET_MAP row renders ⚠️ UNGRADED and the generator exits nonzero — a blank there is never "
+             "by-design. PROME graded 2026-07-28 (Will-ratified, "
              "judgment-read only — the scripted floor cannot see a root-level agent).*")
     L.append("")
 
@@ -155,8 +162,11 @@ def main():
             if a in fleet:
                 klass, lvl, nxt = fleet[a]
                 L.append(row(a, klass, lvl, does, truncate(nxt)))
-            else:                                  # ROSTER-only (dormant / not-yet-graded) — blank grade
+            elif gkey == "DORMANT":                # dormant ungraded — blank grade, by design
                 L.append(row(a, "—", "—", does, "—"))
+            else:                                  # ACTIVE/TIER-2 with no FLEET_MAP row — loud, never blank
+                ungraded.append(a)
+                L.append(row(a, "⚠️", "⚠️", does, "⚠️ UNGRADED — in ROSTER, no FLEET_MAP row (register it)"))
         L.append("")
 
     # SPECIAL group (FLEET_MAP-only, prose in ROSTER)
@@ -182,6 +192,10 @@ def main():
     OUT.write_text("\n".join(L), encoding="utf-8")
     total = sum(counts.values())
     print(f"wrote {OUT.relative_to(REPO)}  ({total} agents: {counts}; dropped {sorted(DROP)})")
+    if ungraded:
+        print(f"⚠️  REVERSE-GUARD: {len(ungraded)} ACTIVE/TIER-2 agent(s) have NO FLEET_MAP row: "
+              f"{sorted(ungraded)} — rendered ⚠️ UNGRADED; register them (PAT-047 tail)")
+        sys.exit(1)
 
 
 if __name__ == "__main__":

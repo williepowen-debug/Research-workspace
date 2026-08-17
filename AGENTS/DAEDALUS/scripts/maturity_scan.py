@@ -27,6 +27,9 @@ import os, re, subprocess, sys
 
 REPO = subprocess.run(["git", "rev-parse", "--show-toplevel"],
                       capture_output=True, text=True).stdout.strip()
+if not REPO:
+    sys.exit("🔴 maturity_scan CANNOT-CERTIFY: git rev-parse failed (git unavailable or not a repo) — "
+             "cannot locate the tree; refusing to grade from a wrong root")
 AGENTS = os.path.join(REPO, "AGENTS")
 
 # Class map from PROME/ROSTER.md (active+tier2+dormant). Default = Market.
@@ -62,10 +65,21 @@ EXCLUDE_DIRS = {"archive", "_archive", "sources", "processed", "delivered",
                 "inbox", "outbox", ".git", "node_modules"}
 
 def sh(args):
-    return subprocess.run(args, capture_output=True, text=True, cwd=REPO).stdout
+    # §9-style guard (2026-08-17 self-audit C5): a failed git call previously returned "",
+    # zeroing HEAD_EPOCH/commits_30d and silently collapsing every agent to L2 — a full-fleet
+    # under-grade with no marker. Fail CANNOT-CERTIFY instead; a wrong map is worse than none.
+    p = subprocess.run(args, capture_output=True, text=True, cwd=REPO)
+    if p.returncode != 0:
+        sys.exit(f"🔴 maturity_scan CANNOT-CERTIFY: {' '.join(args)} failed rc={p.returncode} — "
+                 f"without git data every agent would silently under-grade to L2. "
+                 f"stderr: {(p.stderr or '').strip()[:200]}")
+    return p.stdout
 
 def head_commit_epoch():
-    return int(sh(["git", "log", "-1", "--format=%ct"]).strip() or 0)
+    epoch = int(sh(["git", "log", "-1", "--format=%ct"]).strip() or 0)
+    if not epoch:
+        sys.exit("🔴 maturity_scan CANNOT-CERTIFY: HEAD epoch unreadable (empty git log output)")
+    return epoch
 
 HEAD_EPOCH = head_commit_epoch()
 

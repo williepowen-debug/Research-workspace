@@ -290,7 +290,15 @@ def main():
     g = groups()
     only = None
     if "--agent" in sys.argv:
-        only = sys.argv[sys.argv.index("--agent") + 1].upper()
+        try:
+            only = sys.argv[sys.argv.index("--agent") + 1].upper()
+        except IndexError:
+            print("🔴 falsification_scan CANNOT-CERTIFY: --agent given with no name (usage: --agent NAME)")
+            return 2
+        if only not in g:
+            print(f"🔴 falsification_scan CANNOT-CERTIFY: agent {only!r} not in FLEET_DIRECTORY — "
+                  f"0 surfaces scanned (a typo here previously produced a clean-looking zero report)")
+            return 2
     rows, no_rail, no_thesis, no_clock, bannered_thesis = [], [], [], [], []
     for name, grp in sorted(g.items()):
         if only and name != only:
@@ -316,6 +324,12 @@ def main():
             print(f"{r['agent']}\t{r['group']}\t{r['surface']}\t{r['cls']}\t{r['verdict']}"
                   f"\t{r['stamp'] or '-'}\t{r['live_ref'] or '-'}\t{r['age'] if r['age'] is not None else '-'}"
                   f"\t{r['cited']}\t{r['live_ver']}\t{r['why']}")
+        # NOT-looked-at layer in BOTH modes (PAT-074; self-audit F15 — this mode previously
+        # dropped it, contradicting the docstring). '#'-prefixed = comment rows, parsers skip.
+        print(f"# NO-RAIL ({len(no_rail)}): {', '.join(no_rail) or 'none'} — thesis w/o separate rail, candidate findings")
+        print(f"# NO-THESIS ({len(no_thesis)}): {', '.join(no_thesis) or 'none'} — falsification n/a (utility/meta)")
+        print(f"# BANNERED-THESIS ({len(bannered_thesis)}): {', '.join(bannered_thesis) or 'none'} — graded on STATUS clock")
+        print(f"# NO-CLOCK ({len(no_clock)}): {', '.join(no_clock) or 'none'} — age comparisons unavailable")
     else:
         counts = {}
         for r in rows:
@@ -353,6 +367,11 @@ def main():
             print(f"\n**No live reference clock:** {', '.join(no_clock)} — no parseable date in STATUS.md "
                   "or thesis header, so age comparisons are unavailable for them.")
 
+    # §9 rc contract (adopted 2026-08-17 self-audit C3 — previously always None/0; exited 0
+    # with 3 STALE-FLAGGED live). Findings = stale/unstamped rows or thesis-without-rail.
+    flagged = [r for r in rows if r["verdict"] in ("STALE-FLAGGED", "UNSTAMPED")]
+    return 1 if (flagged or no_rail) else 0
+
 
 if __name__ == "__main__":
-    main()
+    sys.exit(main())
