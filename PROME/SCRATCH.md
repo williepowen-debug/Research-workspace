@@ -13,7 +13,7 @@
 8. **DAEDALUS build train:** #11 registration-checklist accepted (queued behind docket_view ~8/24-31; war-desks' 8/24 checkpoint = verification pass) · 8/22 ACTIVE_DECISIONS design pass [PROME, DOCKET row] · 8/23 FERT checkpoint + ~spine audit #10 (anchor-leg debut) · PROME L5 run-2 ~9/6.
 9. **Rule-batch sitting (Will):** queue rows 52-54 + row-16 one-liners (D-1 AAPL · D-10 MAIN≡IRA), AGING.
 9a. **Rule-at-next-refresh flag (WATT 8/16→8/17):** its NEXUS brief compact-variant blessing reverts to FULL at ≥3 persistent cross-agent edges — arguably met; NEXUS owns the schema; rule at next brief refresh, cite this line.
-9b. **PROME FORGE residue:** sweep.py fail-loud fix deferred on record (dormant surface, no live cron — LOW-PRI, do at next FORGE maintenance pass).
+9b. **PROME FORGE residue (queue for the next FORGE maintenance pass — ①②③ dashboard/fetch/corrupt-state DONE 8/17):** ④ `filing-watch/poll_edgar.py` — corrupt seen_filings.json → every filing isNew (FALSE FLOOD, wrong-direction fail; headline prints before the error block) ⑤ `vix_futures.py` — no age marker past T-1 (6d-old settlement prints as fresh; §8 rule 1) ⑥ `fetch.py --delta` — silently drops below-threshold tickers, no "N suppressed" line (§4 violation) ⑦ sweep.py fail-loud (dormant, no live cron — lowest). Source: DAEDALUS 8/17 reconciliation packet (processed/). Its §8 UPTAKE PASS ~8/31 will sample these — fix before then or carry honestly. Scope note of record: the sweep traced 41 of ~101 fetchers; tranche-2 rides the uptake pass.
 
 ## ⚠️ CAUTIONS FOR THE FRESH SESSION
 
