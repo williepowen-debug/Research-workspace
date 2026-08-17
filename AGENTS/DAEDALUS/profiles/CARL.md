@@ -1,5 +1,7 @@
 # Agent Profile — CARL
 
+## Δ 2026-08-17 — PR#4 (evidence: upgrades/PRODUCTION_REVIEW_2026-08-17_READER_REPORTS.md): STALE, TRIGGER CONFIRMED FIRED (matrix re-scored ×2 in-period; CRL-21 graded) — 10 verified-wrong claims incl. THESIS v2.6.1/51 → v2.6.5/53 · STATUS 265-over-cap → 250-at-cap (trend inverted) · consistency_check 'IN BUILD' → B-G ALL SHIPPED · ABS_BASELINE 'LIVE' → FROZEN-since-7/10 (wrong when written) · KB 297→384 · PHAN 'live-append' → +37d two-clocked-not-dispositioned · DEWEY commission layer + FERT route absent. FULL REFRESH queued (the 7/22 refresh-at-touch promise did not execute through repeated touches — PAT-089's shape).
+
 > Δ **2026-07-22 PRODUCTION REVIEW — named trigger fired; REFRESH-AT-TOUCH.** Per-agent delta bullets + row re-grade banked in `upgrades/PRODUCTION_REVIEW_2026-07-22.md` (the delta store). Body below is prior-vintage — READ WITH THE DELTAS; full refresh executes at the next firming touch of this agent.
 
 **Built by:** DAEDALUS · **Date:** 2026-06-29 · **REFRESHED 2026-07-10** (post sub-agent audit/restructure + CARL live-session uptake; deltas verified against live files — thesis v2.6.1, 51/70, sub-agent layer reshaped, boot.py wired) · **Comprehension method:** 1-reader live comprehension (workflow firm7-profiles-cards; documents the 6/28 firm-next7 adversarially-confirmed L4) + 7/10 4-reader sub-agent audit (`upgrades/CARL_SUBAGENT_AUDIT_2026-07-10.md`)

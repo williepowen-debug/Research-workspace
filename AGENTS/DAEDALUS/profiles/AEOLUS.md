@@ -1,54 +1,33 @@
-# Profile: AEOLUS (climate → economy)
+# AEOLUS — DAEDALUS Comprehension Profile
 
-**Built:** 2026-07-22 (single-reader, off the full QC read — light agent, sanctioned path; source: `upgrades/AEOLUS_QC_2026-07-22.md`)
-**Class:** Market · **L2** (both L3 gate legs clock/consumption-shaped, not structure) · **Vintage of underlying read:** all surfaces at 2026-07-09 session state + 7/22 QC edits
-**Built by DAEDALUS 2026-06-28** (market-agent blueprint, first post-blueprint build) — spec `builds/AEOLUS_SPEC.md`.
+**Built:** 2026-08-17 (FULL REWRITE at PR#4 — the 7/22 body was superseded at the ARCHITECTURE level by the 8/13 Will-directed rebuild; prior body's §5 central diagnosis was refuted, see §6) · **Vintage of underlying read:** 2026-08-13 session state via PR#4 deep reader (evidence: `upgrades/PRODUCTION_REVIEW_2026-08-17_READER_REPORTS.md` reader 5) · **Class/Level:** Market L3 (row 8/17)
+**Staleness (file-readable, PAT-089):** refresh when **(P)** `workbook/PREDICTIONS.tsv` AEO-06 or AEO-11 `Status` leaves `OPEN` — both imminent (AEO-11 resolves ~8/18; either flip = channel re-score = matrix move off 17/30): `awk -F'\t' '$1=="AEO-06"||$1=="AEO-11"{print $1,$10}' AGENTS/AEOLUS/workbook/PREDICTIONS.tsv` · **(S)** `ls -d AGENTS/AEOLUS/*/workbook | wc -l` moves off **5** (a 6th domain workspace = architecture grew; LEDGER_GLOB + §1 need re-cutting) · **(T)** KB.tsv rows move off **71** by ≥15 · **(floor)** next Production Review.
 
-## §1 File anatomy (complete — the agent is small enough to enumerate)
+## §1 File anatomy (post-8/13 architecture — enumeration is now TWO-LAYER; single-reader reads no longer cover it: Mode-A fan-out for the next full audit)
 
-| Surface | Role | State at profile time |
-|---|---|---|
-| `CLAUDE.md` | Identity, 5-channel scope, boot/closeout ritual, thresholds, routing | Current; C3→WATT verified at all 3 rows (:71/:111/:142); WALTER §8.1 consume block installed 7/22 (DAEDALUS) |
-| `STATUS.md` | Primary memory — regime read, matrix, live reads, triad, BOTTOM LINE | 122 ln < 250. Vintage 7/9 EXCEPT Citizens row (QC-applied 7/22, canonical 278,246) |
-| `THESIS.md` | Per-channel stage tables (the richness layer) | C1/C3 at 7/9; C2/C4/C5 self-bannered "unrefreshed, not re-confirmed" (6/28) — honest two-clock form |
-| `TRADE.md` | 3 event-gated ideas (C1 convex tail · C5 freight · C3 watch) | LIVE 7/9; header rule-citation reworded 7/22 (was false-FROZEN-ing the enforcer, PAT-059) |
-| `SCRATCH.md` | Pick-up-here + session log | Real discipline; 7/9 log matches STATUS/VX/FLOW exactly |
-| `NEXUS_BRIEF.md` | 5-pt handle + routed-this-session, every closeout | 7/9; note its "Routed → MARCO (listed, not executed)" lines — routing intent ≠ delivery (see §4) |
-| `LESSONS.md` | L-01..08 | Genuine build-design + domain lessons (L-05 NOAA NCEI discontinued; L-08 weekly-vs-ONI noise) |
-| `OPEN_THREADS_2026-07-09.md` | Dated self-sweep artifact (questions/gaps/threads) | High quality; now in FILES table (7/22); fold-or-archive owed at next session |
-| `workbook/` | KB (20 rows) · VX (8) · FLOW · PREDICTIONS (AEO-01..04) · SCHEMA | KB uses Stale_By + DerivedFrom + epistemic tiers properly; all 4 predictions OPEN, none past trigger (Nov'26+) |
-| `inbox/` | 10 unprocessed items 7/10–7/21 (7 top-level + 3 WALTER SIGs) at QC time | The rot locus — see §5 |
+**Root:** `CLAUDE.md` (328 ln/34.1 KB — C1-C6 channels + C6 discriminator :103-105; C6 re-key ruling :154-157; C5 trigger re-spec :161-184 (Kaub ≤25 ∧ Duisburg ≤153 × 10 consecutive days, WSV `NNW` frozen-as-published); **LAYER CONTRACT :262-279; SHARED-INPUT RULE :281-293; SUB-AGENT SPAWNING + worker hard limits :295-302; DOMAIN WORKSPACES :304-321**; closeout step 2b :55-64) · `STATUS.md` (165 ln/33.7 KB, vintage 8/13 — **105% of the default byte budget, no seat budget declared**, encode-on-next-cap-touch owed) · `THESIS.md` (per-channel flips — see §3b row 4, THE stale surface) · `TRADE.md` (idea #1 STOOD DOWN 8/12 both-legs-dead $0-at-risk; successor long-RNR pre-registered UNARMED; ⚠️ 8/12 banner sits above a `Status: LIVE, refreshed 2026-07-09` line — two-clock ambiguity) · `LESSONS.md` (**L-01..L-28**; L-15→26 minted 8/13) · `CALENDAR.md` (boot-read, dated catalysts) · `board_log.tsv` (WALTER-lane dispositions, v0.2) · `scripts/domain_log_check.py` (closeout guard — ⚠️ invoked BARE at CLAUDE.md:57, dead from launch cwd, watched-fail; packeted 8/17) · `workbook/` (KB 71 — ⚠️ rows 001-020 except 018 carry an extra empty column shifting Vectors/Notes, diagnosed 8/17 · VX 25 · PREDICTIONS AEO-01..11, 10 OPEN + AEO-05 HIT 8/12 · `LEDGER_GLOB` declares `workbook/*.tsv` + `*/workbook/*.tsv`) · `OPEN_THREADS_2026-07-09.md` (**dead-unfolded 39d** — the one open QC-docket item).
+**Five domain workspaces** (each `README · DOSSIER · SOURCES · AGENT · workbook/`): `regime/` `water/` `hurricane/` `wildfire/` `seismic/`. All five DOSSIERs carry **model-quality PAT-044 two-clock headers** (first line = data date + explicit hygiene-edit-must-not-bump clause) — the fleet reference form, harvest-worthy.
 
 ## §2 Where the richness lives
+The 8/13 rebuild moved the per-peril depth OUT of root files INTO domain DOSSIERs: hurricane C1 trigger table (`hurricane/DOSSIER.md:15-21`), wildfire C4 table w/ the loss-instrument-points-opposite-the-peril-leg note (`wildfire/DOSSIER.md:60-64`), water C6 falsifier (`water/DOSSIER.md:87`), seismic S-1..S-5 named numeric triggers (`seismic/DOSSIER.md:72-76`). The old STATUS "Hurricane block" escalation lines **no longer exist on STATUS** — resolved (fired BACKWARDS 8/5-6, honestly graded), record at `hurricane/DOSSIER.md:50` + `CALENDAR.md:47` + `TRADE.md:51`. Workers are PROPOSAL-ONLY (never score/fire/resolve/route); orchestrator does domain work → domain event-log under-records (AEOLUS's own L-28; its guard is the cwd-dead script above).
 
-- **The regime read** (STATUS top): ENSO as the single master variable with explicit sign map (suppresses C1/C4, lifts C3/C5) — the independence accounting is genuinely good (shared-root caveat on the composite, "1 root in N costumes" scored once).
-- **Pre-registered escalation lines** (STATUS Hurricane-Season block): 4 dated trigger→route→priority rows — fire mechanically, no judgment needed at fire time.
-- **KB epistemic discipline**: CFSv2 +4.01°C tail logged C3/ASSUMPTION/not-adopted — the agent resists dramatic single-model tails by construction.
-- **Channels-first anti-drift** (PAT-018 operationalized): an empty channel is a *failure signal*. This is the DARWIN antidote and it held — no scope drift observed across 3 sessions.
+## §3b INVALIDATION INVENTORY (the Falsification-Sweep target table; verdicts vs live STATUS 8/13)
+| # | Surface | Stamp | Verdict |
+|---|---|---|---|
+| 1 | Exit triad, 6 channels, 0/6 fired — `STATUS:99-114` | **"Kill rail re-derived: 2026-08-13"** | ✅ CURRENT (exercised 4× that session, all holds-against-pressure) |
+| 2 | PREDICTIONS AEO-01..11 + if-falsified + tier | 8/13 | ✅ CURRENT — ⚠️ AEO-11's 10-day run resolves ~8/18 with `water/workbook/SERIES.tsv` UNOBSERVED since 8/13; AEO-06 likely already HIT unobserved |
+| 3 | C5 →5 upgrade trigger (instrumented 8/13) | 8/13 | ✅ CURRENT |
+| 4 | **Bidirectional flips per channel — `THESIS.md:23,37,50,65,80,96`** | **C1-C5 [6/28] · C6 [7/31-8/2]** | 🔴 **STALE ~50d — the #1 sweep finding.** :80 publishes the RETIRED C5 trigger; :74 Kaub ~106cm vs live 13cm (record event absent); :89 republishes the Powell %-full metric STATUS deliberately DROPPED; :89/:91 carry the pre-WATT-correction C6 framing (binding constraint = Mead/Hoover 1,035 ft) |
+| 5 | Channel-kill vs thesis-kill split | STATUS 8/13 / THESIS 6/28 | ⚠️ SPLIT — STATUS half current |
+| 6-10 | Domain DOSSIER trigger tables (hurricane/wildfire/water/seismic) | all 8/13 two-clock | ✅ CURRENT, none fired |
+| 11 | `regime/` | 8/13 | ✅ correctly carries NO triggers (root, not channel) |
+| — | C1 stage-2 `falsified-direction` mark (`THESIS:18` [6/28]) | 6/28 | ✅ CORRECT and STRENGTHENING (STATUS:58 fresher corroboration) — re-stamp, don't re-adjudicate; do NOT conflate with the hurricane escalation line that fired backwards |
 
-## §3 Invalidation surfaces (Falsification-sweep inventory)
+## §4 DO-NOT-TOUCH (supersedes the 7/22 list wholesale)
+Carried: composite deliberately NOT independent (L-02) · weekly-vs-ONI under-reaction is discipline (L-08) · TRADE is event-gated ("no position" ≠ rot) · C4 feed off NOAA NCEI, never re-add (L-05) · FL numbers defer to CORAL. **New ×12 (8/13 architecture):** `regime/`+`water/` are ROOTS not channels — no matrix row, scoring them double-counts · `hurricane/`+`wildfire/` are peril legs of C1/C4; **deliberately NO `insurance/` folder (Will-ruled 8/13)** · `seismic/` exempt from the touched-but-silent test — quiet is correct, audit S-1..S-5 by trigger resolution never entry count · never fork a second ledger inside a domain folder; KB deliberately NOT split by domain (11 multi-channel rows) · **adding a domain folder requires extending `workbook/LEDGER_GLOB`** or ledger_staleness silently skips it · grade C5 on UNROUNDED daily means (25.4 rounds to 25) · never compare season-to-date ACE to full-season normal (~13.2 at mid-Aug, not 122.6) · Powell↔Mead = ONE coupled lagged system, not two witnesses · Rhine+Danube = ONE 2018 event, separate root from ENSO · Panama: TRANSITS (38.70) not ARRIVALS; never scrape the JS advisories index (L-24) · worker findings PROPOSAL-ONLY · do not restore a Powell percent-full figure (dropped deliberately, STATUS:94).
 
-| Surface | Form | Location |
-|---|---|---|
-| Exit triad | per-channel standing rule + state@level + FIRED?, literal fired-count (0/5) | STATUS §EXIT/INVALIDATION |
-| Channel-kill vs thesis-kill | benign season kills C1's read not the thesis; migration path stated (→C3/C5) | same + THESIS per-channel |
-| Bidirectional flips | per-channel, testable at next data release | THESIS stage tables |
-| Predictions | AEO-01..04 all carry if-falsified + tier + resolution criteria | workbook/PREDICTIONS.tsv |
-| Escalation lines | 4 pre-registered, incl. the C1 reversal (ACE >90% re-arm) | STATUS Hurricane block |
+## §5 Open items at build (routed 8/17, packet in AEOLUS inbox)
+A1 cwd-dead closeout guard (watched-fail; fix = git-root wrapper) · A2 KB rows 001-020 schema fork (diagnosed — extra empty col between Stale_By and Vectors) · A3 byte budget declaration (105% of default) · A4 AEO-11/AEO-06 observation gap (8/14-17 unrecorded, resolution imminent) · A5 KB-AEO-011 carries the FL figure CORAL retired 7/21 (`--self` class) · A6 TRADE two-clock ambiguity · THESIS row-4 refresh **before 8/24 sweep** · OPEN_THREADS fold-or-archive (39d).
 
-## §4 Do-not-touch / quirks
-
-- **The composite is deliberately NOT independent** — 12/25 carries an explicit correlated-through-one-root caution. Do not "fix" the composite arithmetic to weight for independence; the caveat IS the design (L-02).
-- **Weekly-vs-ONI discipline (L-08):** the agent intentionally under-reacts to weekly Niño-3.4 prints. A reader seeing "+1.7°C flagged but not acted on" is looking at discipline, not lag.
-- **TRADE.md is event-gated by design** — conviction 1–2 setups awaiting catalysts, not stale recommendations. Don't grade "no position taken" as rot.
-- **NEXUS_BRIEF "routed (listed, not executed)" is a known seam**: AEOLUS logs routing *intent* in the brief; actual delivery historically depended on the deprecated outbox-sweeper. Verify delivery at the TARGET when auditing (the 6/28 C5→MARCO packet sat undelivered 24d — root-cause of the long "consumption unverified" gap).
-- **C4 data feed is rewired** (NOAA NCEI discontinued Jul 2025 → reinsurer tallies, L-05/KB-AEO-015). Don't re-add NOAA NCEI.
-- **FL numbers defer to CORAL** (pre-registered rule, STATUS handshake block). Citizens canonical = CORAL's primary pull, currently 278,246 total PIF Jun-30.
-
-## §5 Standing risk profile (what breaks first)
-
-**Spawn cadence is the single failure mode.** The agent's protocol demonstrably works when spawned (7/9 drained 5 SIGs, honest two-clock banners, boot↔closeout symmetry) — but nothing spawns it. Fixed-clock weather data + no self-session = stale-by breaches (freight 7/15, ENSO 7/23) and corrections rotting in inbox (3 live-figure corrections sat 1–12 days at QC time). PAT-051-adjacent: detection channels get event-spawned; a standing regime-monitor has no spawn driver. PROME spawn flag routed 7/22.
-
-**Owner-owed at next session (QC docket, 7/22):** integrate CORAL 7/21 remainder (ROL 8.46% datum + Bertha) · KB-AEO-018 re-grade B2→A w/ metered-vs-DR split (PROME 7/16) · C3 re-score vs WATT 7/16 EEA-1 chain · ENSO + freight re-pulls (stale-by) · drain 3 WALTER SIGs via new consume block · PROME lane-query ratify · WATT LMP cross-check (optional) · fold-or-archive OPEN_THREADS.
-
-**Re-profile when:** first post-7/22 owner session lands (expect matrix re-score + KB growth), or if WATT seam changes shape again.
+## §6 Record corrections this build
+The 7/22 profile's central §5 claim ("spawn cadence is the single failure mode; nothing spawns it") and my own 8/17 FLEET_MAP cell ("PROME spawn flag UNSERVICED at 26d") were **both FALSE** — AEOLUS self-ran 8/03, 8/12, 8/13 (34 commits since 7/22, git-verified at PR#4). The 26d figure was carried-string arithmetic never re-evaluated at the tree; my F21 pass propagated it. Real cadence: lumpy (12d/9d/1d/4d gaps), not absent. MARCO-side C5 confirm-read: **DISCHARGED BY SUPERSESSION** (MARCO formally retired the receiving instrument 7/31; AEOLUS re-routed to CARL 8/03; CARL replied 8/15) — close, don't chase. QC docket 7-of-8 discharged.

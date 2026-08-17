@@ -1,5 +1,7 @@
 # HENRY — DAEDALUS Comprehension Profile
 
+## Δ 2026-08-17 — PR#4 (evidence: upgrades/PRODUCTION_REVIEW_2026-08-17_READER_REPORTS.md): SCOPE CORRECTION — PUBLISHED.tsv lag flag DISCHARGED (current 8/10) · VX silent-middle now 55d AND false-green at the vintage parser (SFG sub-form e) · inbox 4→22 (fleet-worst) · PAT-092 n=3: this profile's lead-based staleness rule can never fire on a dark agent — trigger form needs re-keying at next rebuild.
+
 **Built:** 2026-07-10 · **FULLY REWRITTEN:** 2026-08-07 (refresh-queue priority #1 — the 7/10 body carried 4 review-flagged wrong claims; delta-read adjudicated: 2 verified wrong outright [provisional-power ×2 lines], the "two closed items open" claim verified wrong and UNDERCOUNTED — six closed items were listed open — and the donor-pointer claim REFUTED AS STATED [the old profile named no file] with a sharper real defect underneath, recorded in §3 below) · **Class:** Market (macro/velocity: rates, vol regime, credit-equity transmission, AI-capex FCF node; macro-focus-not-positions per Will 6/15) · **Staleness (content-derived, PAT-044):** re-read when STATUS.md's as-of stamp leads this build date by >21d, OR when any DO-NOT-TOUCH anchor line number moves (the 7/10 profile's `CLAUDE:228/230` refs drifted to `:246/248/250` — line-pinned claims rot exactly this way).
 
 ## Identity in one line

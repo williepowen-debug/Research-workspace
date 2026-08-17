@@ -1,5 +1,7 @@
 # LIQUID — DAEDALUS Comprehension Profile
 
+## Δ 2026-08-17 — PR#4 (evidence: upgrades/PRODUCTION_REVIEW_2026-08-17_READER_REPORTS.md): SCOPE CORRECTION — flag #1 'every surface reads HY 287' → now 4 of 5 (STATUS header restamped 8/10; CLAUDE.md:143 boot-read + CALENDAR:15 + MEMORY:213 + NEXUS_BRIEF:4 + STATUS:6 BOTTOM LINE still inverted); CRWV DDTL grade DISCHARGED (MIXED 8/10). Everything else holds verbatim. Gate-state refresh trigger FIRED 8/10 — refresh DUE, queued behind WALTER (work-volume order).
+
 **Built:** 2026-07-04 (4-reader fan-out) · **REFRESHED (rewrite):** 2026-08-07 eve (refresh-queue slot; single-reader delta — the 7/4 body was ~70% accurate; its architectural reads all held, its state claims mostly didn't) · **Class:** Market — the amplification node ({BOND, ZHAO} ↔ MIDAS → **LIQUID** → HENRY chain seat; no book by design) · **Staleness (content-derived, file-readable — the 7/4 event-keyed rule fired 7/30 and this read is its execution):** refresh when `workbook/KILL_MEMO_HY_OAS_260.md`'s drill log gains a row, when any GATE-LIQ row in `PROME/GATES.tsv` changes state, or >30d — whichever first.
 
 ## Identity in one line

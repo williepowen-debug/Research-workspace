@@ -1,5 +1,7 @@
 # Agent Profile — WALTER
 
+## Δ 2026-08-17 — PR#4 (evidence: upgrades/PRODUCTION_REVIEW_2026-08-17_READER_REPORTS.md): BODY SUPERSEDED — both header triggers FIRED, 44d vs own 20d rule. Load-bearing corrections: CONTRACT block PRESENT since 7/11 (profile said STILL-NO) · BOTTOM LINE absent-cause is a REGRESSION not a non-apply (installed 7/11, eaten by own 7/23 spine regen — PAT-113) · '283 unconsumed/no processed at 4' → 121, all 4 have processed/, concentration now HENRY/LIQUID/ZHAO/MARCO · every §2 count stale (specs ~267KB v0.17-v0.26; doctor 26 checks; board_log 19 recipients; INDEX 740 SIG-W) · FILTER_V2_PLAN.md does not exist. NEW unmapped: STATUS 114.8KB no byte/spine cap; FALSIFICATION_FIRED_LOG 1-col header. FULL REBUILD = queue head (fleet-highest volume).
+
 > Δ **2026-07-22 PRODUCTION REVIEW — named trigger fired; REFRESH-AT-TOUCH.** Per-agent delta bullets + row re-grade banked in `upgrades/PRODUCTION_REVIEW_2026-07-22.md` (the delta store). Body below is prior-vintage — READ WITH THE DELTAS; full refresh executes at the next firming touch of this agent.
 
 **Built by:** DAEDALUS · **Date:** 2026-07-04 · **Comprehension method:** solo live read (fast-follow of the 7/3 utility-cohort firming; this pass RE-VERIFIES against WALTER's current live files rather than copying the 7/3 assessment)

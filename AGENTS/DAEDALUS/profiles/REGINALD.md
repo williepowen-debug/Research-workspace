@@ -1,5 +1,7 @@
 # REGINALD — DAEDALUS Comprehension Profile
 
+## Δ 2026-08-17 — PR#4 (evidence: upgrades/PRODUCTION_REVIEW_2026-08-17_READER_REPORTS.md): MI3 SECTION NOW HISTORICAL — repair EXECUTED basis-first 8/13 (169-row cohort, both bases, step_flag; >20% flag RETIRED base-rated; matrix banner struck; VX ok+1d; inbox drained). Surviving L4→L5 spine unchanged and re-confirmed: THESIS expired-trigger (+27d), BOTTOM LINE stamp lag (+19d), Brier-less predictions loop. BOTTOM LINE at :238 (was :236).
+
 **Built:** 2026-06-29 · **FULLY REWRITTEN:** 2026-08-07 (refresh-queue priority-2 since 7/22, serviced; **2-reader Mode-A fan-out** — core spine + per-bank tree — over the fleet's heaviest agent, ~500 files) · **Class:** Market — the transmission-chain terminus hub · **Staleness (content-derived):** re-read when the CONVERGENCE MATRIX scores or EXIT RULES materially change, when thesis/THESIS.md bumps off v1.4, **when the MI3 re-derivation lands**, or >45d.
 
 ## Identity in one line

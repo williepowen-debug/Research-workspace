@@ -1,5 +1,7 @@
 # Agent Profile — NEXUS
 
+## Δ 2026-08-17 — PR#4 (evidence: upgrades/PRODUCTION_REVIEW_2026-08-17_READER_REPORTS.md): BODY SUPERSEDED IN THE FLATTERING DIRECTION — L4-PROVISIONAL lifted 7/22, all 3 grounds false; 'idle since 6/27' → 3 sessions/31 commits; WALTER-lane 'never processed' → 22 files; DO-NOT-TOUCH 'board_log absence is not a bug' → file EXISTS 30 rows (actively misleading, STRUCK); closeout-16 RESOLVED 8/7; counters M-01..11/R1..R10/T-01..24; briefs 12→26; PREDICTIONS_MONITOR 47→43 uniques (8/7 resolved block ROTATED to archive — not loss); inbox root holds ONE deliberately-HELD ≥8/29 commission (grading it dwell-debt = false positive). PROMOTED L5/M at PR#4. ⚠️ R-prefix collision: antecedent R1..R10 ≠ forum-6 R1..R10 — cite with the qualifier.
+
 > Δ **2026-07-22 PRODUCTION REVIEW — named trigger fired; REFRESH-AT-TOUCH.** Per-agent delta bullets + row re-grade banked in `upgrades/PRODUCTION_REVIEW_2026-07-22.md` (the delta store). Body below is prior-vintage — READ WITH THE DELTAS; full refresh executes at the next firming touch of this agent.
 
 **Built by:** DAEDALUS · **Date:** 2026-07-04 · **Comprehension method:** solo live read (fast-follow of the 7/3 utility-firming pass; documents + re-verifies the 7/3 DAEDALUS-direct-applied L2→L4 firming, a confirmed two-level under-rate, PAT-024)

@@ -1,5 +1,7 @@
 # Agent Profile — VIOLET
 
+## Δ 2026-08-17 — PR#4 (evidence: upgrades/PRODUCTION_REVIEW_2026-08-17_READER_REPORTS.md): BODY SUPERSEDED IN PART — STATUS 113→210 ln/46.4KB · matrix 9-vector/45-pt → 12-vector/55 · THESIS v3.9 (2 POV bumps) · BOTTOM LINE GONE ≥21d (§8 violation; own CLAUDE:45 write-back omits it) · TRADE ok-claim = ledger_staleness false-green (footer vintage unparsed) · CSV freeze UNRECORDED · missing: 8/04 four-mechanisms session, 8/10 forum registrations, CANARY_MAP.md, artifacts/. Own clock expired 8/18; full rebuild queued (desk was 7d dark at review — a rebuild then would capture a frozen desk).
+
 > Δ **2026-07-22 PRODUCTION REVIEW — named trigger fired; REFRESH-AT-TOUCH.** Per-agent delta bullets + row re-grade banked in `upgrades/PRODUCTION_REVIEW_2026-07-22.md` (the delta store). Body below is prior-vintage — READ WITH THE DELTAS; full refresh executes at the next firming touch of this agent.
 
 **Built by:** DAEDALUS · **Date:** 2026-07-04 · **Comprehension method:** Mode-A 4-reader fan-out (identity/state/routing · thesis/thresholds/exit · predictions/trade/research · quant-engine) → synthesis. First full comprehension (was mechanical-only Conf-L before this).
