@@ -218,15 +218,28 @@ def check_will_queue():
     # now), distinct from PASSED (reconcile). W2: cap counts only ACTIONABLE rows
     # (dated + unblocked); undated unblocked rows age-trip at 21d instead. W5:
     # DONE rows past the ~7d window flag for roll-off (anchor-at-write makes the
-    # roll always safe). m/d parses assume the current year — v1, revisit in Dec.
+    # roll always safe).
     def _mmdd(cell):
         m2 = re.search(r"(\d{1,2})/(\d{1,2})", cell)
         if not m2:
             return None
         try:
-            return dt.date(today.year, int(m2.group(1)), int(m2.group(2)))
+            d0 = dt.date(today.year, int(m2.group(1)), int(m2.group(2)))
         except ValueError:
             return None
+        # Year-roll, BACKWARD ONLY (8/16 rider, deviation from firetime's ±183
+        # stated in the write-back): Since/Done cells are PAST-only, so a parse
+        # >183d in the future is last year's date (a `12/20` read in January —
+        # the false-negative direction the old "revisit in Dec" comment
+        # under-scoped). Rolling >183d-past dates FORWARD (firetime's other
+        # half) would instead make ancient rows read as future and silence
+        # AGING/roll-off — the same false-negative this rider exists to kill.
+        if (d0 - today).days > 183:
+            try:
+                d0 = d0.replace(year=today.year - 1)
+            except ValueError:
+                pass
+        return d0
 
     section, actionable = None, 0
     for line in text.splitlines():
@@ -239,6 +252,23 @@ def check_will_queue():
         cells = [c.strip() for c in line.strip("|").split("|")]
         if section == "open" and len(cells) >= 7:
             blocked = "⛔" in line
+            # MISFILED (8/16, DAEDALUS spec off PROME's queue-look defect
+            # report; ruling trail in the two packets): close-in-place is a
+            # silent middle state between OPEN and RECENTLY DONE — measured
+            # live 8/16 at ~15 of 25 rows, printing a false 25>20 over-cap
+            # and a false AGING-47d on a RESOLVED row. A terminal marker
+            # LEADING the Item cell (anchored after strikethrough/bold strip,
+            # never substring — "blocked until X is RESOLVED" must not match)
+            # flags the row-move; excluded from actionable + AGING at once so
+            # the count is honest even before the move. Roll-off applies
+            # normally once moved — the MISFILED line IS the action.
+            item = re.sub(r"^(?:~~[^~]+~~\s*)+", "", cells[1])
+            item = re.sub(r"^[\*\s]+", "", item)
+            if re.match(r"✅|DONE\b|RESOLVED\b|TERMINAL\b|DECLINED\b", item):
+                problems.append(
+                    f"MISFILED #{cells[0]} {cells[1][:30]} "
+                    "(closed-in-place in OPEN — move to RECENTLY DONE)")
+                continue
             d = re.search(r"\d{4}-\d{2}-\d{2}", cells[3])
             if d:
                 dd = dt.date.fromisoformat(d.group(0))
@@ -264,7 +294,7 @@ def check_will_queue():
            # measured live at this boot, 14 roll-off-eligible rows displayed as 4.
            "; ".join(problems[:5]) +
            (f" (+{len(problems)-5} more)" if len(problems) > 5 else "")
-           or "stamp current; nothing due today, passed, aging, or overdue for roll-off",
+           or "stamp current; nothing due today, passed, aging, misfiled, or overdue for roll-off",
            "PROME/WILL_QUEUE.md (act on DUE TODAY; reconcile PASSED; date/decline AGING)")
 
 
