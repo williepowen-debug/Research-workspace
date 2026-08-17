@@ -15,7 +15,7 @@
 4. **THE JOBS** — its concrete functions, each with its approval gate.
 5. **AUTHORITY & SAFETY** — *the load-bearing section for any agent with cross-fleet write power.* Spell out the guards (see below).
 6. **MEMORY MODEL** — its meta-shaped files (see below).
-7. **OUTPUT RULES** — tables, specificity, proposal format, reference-don't-copy, line cap.
+7. **OUTPUT RULES** — tables, specificity, proposal format, reference-don't-copy, line cap **+ byte tier (Will-ratified 2026-08-17 — full form: market-agent.md §BOTTOM LINE)**.
 8. **FILES** table.
 9. **BOTTOM LINE** discipline.
 
