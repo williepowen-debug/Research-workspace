@@ -1,6 +1,6 @@
 # DAEDALUS — Design Spec (Phase 0)
 
-**Status:** 🟢 APPROVED — Will signed off + merged to master 2026-06-27; wired into root `CLAUDE.md` / `PROME/ROSTER.md` / `AGENTS.md` + git-aligned to fleet auto-push by PROME. Phase 4 (first real maintenance pass) next. *(Historical Phase-0 snapshot — live state: STATUS.md; standard's history: EVOLUTION.md.)*
+**Status:** 🟢 APPROVED — Will signed off + merged to master 2026-06-27; wired into root `CLAUDE.md` / `PROME/ROSTER.md` / `AGENTS.md` + git-aligned to fleet auto-push by PROME. Phase 4 reached 2026-06-28 (AEOLUS build). *(Historical Phase-0 snapshot — live state: STATUS.md; standard's history: EVOLUTION.md. ⚠️ SUPERSEDED-IN-PARTS, marked 2026-08-17 self-audit F29: §4's four-file memory model and §5's ladder cells lag the charter — CLAUDE.md's MEMORY MODEL and MATURITY LADDER are canonical wherever they differ; notably the Market L3 dated-falsification-surface leg [8/7] and the Meta-L5 roadmap-leg STRIKE [W1, 8/17] live there, not here.)*
 **Created:** 2026-06-27 · **Owner:** Will (decisions) / DAEDALUS (maintenance)
 **Class:** Meta-agent — the fleet's architect. Not a market-domain agent.
 **Reports to:** PROME · **Spawnable by:** PROME *or* Will (on-demand, not always-on)
@@ -54,7 +54,7 @@ Plus the lifecycle inverse:
 
 ## 4. Memory & learning model
 
-DAEDALUS learns the same way a domain agent does — by accruing a structured record — but the "facts" are *design facts*, not market facts. Four files, each answering one need:
+DAEDALUS learns the same way a domain agent does — by accruing a structured record — but the "facts" are *design facts*, not market facts. Four founding files (2026-06-27 — the live register set has since grown; CLAUDE.md MEMORY MODEL is canonical), each answering one need:
 
 | File | Role | Analogue |
 |---|---|---|
