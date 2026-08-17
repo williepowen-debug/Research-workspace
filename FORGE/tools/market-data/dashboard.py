@@ -69,8 +69,12 @@ def load_last_state():
     if STATE_FILE.exists():
         try:
             return json.loads(STATE_FILE.read_text())
-        except Exception:
-            pass
+        except Exception as e:
+            # A corrupt state file made --cron print nothing — byte-identical to
+            # a quiet run (SFG sweep 8/17). Still fail-safe to {} (transitions
+            # re-baseline), but say so on stderr per CHECK_STANDARD §8 rule ⑤.
+            print(f"⚠️ dashboard: last_run.json unreadable ({e}) — transition "
+                  f"baseline RESET; this run's zones are all 'new'", file=sys.stderr)
     return {}
 
 
@@ -114,7 +118,13 @@ def fetch_all(series_list):
             if "error" not in pd:
                 entry["value"] = pd.get("price")
                 entry["prev"] = pd.get("prev")
-                entry["change"] = pd.get("change")
+                # fetch.py returns change_pct (a percent) + asof, never "change" —
+                # reading pd.get("change") left the Δ column silently None on every
+                # run (SFG sweep 8/17). Compute the absolute delta to match the
+                # FRED/EIA branches' semantics; asof stamps the As-of column.
+                entry["date"] = pd.get("asof")
+                if entry["value"] is not None and entry["prev"] is not None:
+                    entry["change"] = round(entry["value"] - entry["prev"], 4)
             else:
                 entry["error"] = pd.get("error", "fetch failed")
 

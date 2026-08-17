@@ -756,12 +756,17 @@ def display_history(results):
 def display_snapshot(price_results, fred_data):
     """One compact line per item — designed for quick agent consumption."""
     print(f"\n === MARKET SNAPSHOT ({time.strftime('%Y-%m-%d %H:%M ET')}) ===\n")
+    today = time.strftime("%Y-%m-%d")
     for t, d in price_results.items():
         if "error" in d:
             print(f" {t:<10} {d.get('name',''):<20} ERROR")
             continue
         chg = f"{d['change_pct']:+.2f}%" if d.get("change_pct") is not None else ""
-        print(f" {t:<10} {d.get('name',''):<20} ${d['price']:<10,.2f} {chg}")
+        # As-of stamp added 8/17 (SFG sweep) — same convention as display_prices:
+        # today's date plain, an older bar ⚠stale, unverifiable "date?".
+        asof = d.get("asof")
+        stamp = "date?" if asof is None else (asof if asof == today else f"{asof} ⚠stale")
+        print(f" {t:<10} {d.get('name',''):<20} ${d['price']:<10,.2f} {chg:>8} {stamp}")
 
     print()
     for sid, label in ALL_FRED.items():
@@ -796,6 +801,29 @@ INDEX_ALIASES = {
 }
 
 
+def _exit_on_fetch_errors(context, price_results=None, fred_data=None):
+    """rc=3 when any fetch inside a serving run failed (CHECK_STANDARD §8 rule ③).
+
+    Until 8/17 (SFG sweep) every non --history mode printed ERROR rows and
+    exited 0, so a scripted consumer could not tell a partial pull from a clean
+    one. Same rc=3 convention as the --history incomplete-series guard: the
+    output was still SERVED (human detail is in the rows), the code says it is
+    not clean. stderr keeps --json stdout parseable.
+    """
+    errs = []
+    for t, d in (price_results or {}).items():
+        if "error" in d:
+            errs.append(t)
+    for sid, obs in (fred_data or {}).items():
+        first = obs[0] if obs else None
+        if first is None or "error" in first:
+            errs.append(sid)
+    if errs:
+        print(f"fetch.py: exit 3 — {context}: {len(errs)} fetch failure(s) "
+              f"({', '.join(errs[:8])}{'…' if len(errs) > 8 else ''})", file=sys.stderr)
+        sys.exit(3)
+
+
 def cmd_price(tickers, flags):
     tickers = [INDEX_ALIASES.get(t.upper(), t) for t in tickers]
     results = price_fetch(tickers, delta_threshold=flags["delta"])
@@ -822,6 +850,7 @@ def cmd_price(tickers, flags):
         print(json.dumps(results, indent=2))
     else:
         display_prices(results)
+    _exit_on_fetch_errors("price", price_results=results)
 
 
 def cmd_fred(series_id, flags):
@@ -833,6 +862,7 @@ def cmd_fred(series_id, flags):
     else:
         print()
         display_fred(series_id, label, obs)
+    _exit_on_fetch_errors("fred", fred_data={series_id: obs})
 
 
 def cmd_prices(flags):
@@ -842,6 +872,7 @@ def cmd_prices(flags):
     else:
         print("\n=== TRACKED PRICES ===")
         display_prices(results)
+    _exit_on_fetch_errors("prices", price_results=results)
 
 
 def cmd_econ(flags):
@@ -856,6 +887,7 @@ def cmd_econ(flags):
         print("\n=== ECONOMIC DATA (FRED) ===\n")
         for sid, d in all_data.items():
             display_fred(sid, d["label"], d["observations"])
+    _exit_on_fetch_errors("econ", fred_data={sid: d["observations"] for sid, d in all_data.items()})
 
 
 def cmd_all(flags):
@@ -877,6 +909,7 @@ def cmd_all(flags):
         for sid, obs in fred_data.items():
             display_fred(sid, ALL_FRED[sid], obs)
         print()
+    _exit_on_fetch_errors("all", price_results=price_results, fred_data=fred_data)
 
 
 def cmd_snapshot(flags):
@@ -890,7 +923,10 @@ def cmd_snapshot(flags):
         compact = {"ts": time.strftime("%Y-%m-%dT%H:%M:%S%z"), "prices": {}, "econ": {}}
         for t, d in price_results.items():
             if "error" not in d:
-                compact["prices"][t] = {"p": d["price"], "chg": d.get("change_pct")}
+                # asof restored 8/17 (SFG sweep): snapshot was the ONE mode that
+                # dropped the price-date stamp — a consumer could not tell a live
+                # tick from a Friday close.
+                compact["prices"][t] = {"p": d["price"], "chg": d.get("change_pct"), "asof": d.get("asof")}
             else:
                 compact["prices"][t] = {"error": d["error"]}
         for sid, obs in fred_data.items():
@@ -901,6 +937,7 @@ def cmd_snapshot(flags):
         print(json.dumps(compact, indent=2))
     else:
         display_snapshot(price_results, fred_data)
+    _exit_on_fetch_errors("snapshot", price_results=price_results, fred_data=fred_data)
 
 
 # ---------------------------------------------------------------------------
