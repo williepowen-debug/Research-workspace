@@ -32,13 +32,16 @@ TRIGGERS = HERE / "workbook" / "TRIGGERS.tsv"
 
 
 def run_alert(cmd):
-    """ALERT-CONTRACT runner for ledger_staleness (always exits 0 by documented
-    contract). Since the 8/11 CHECK_STANDARD change the script ALSO prints
-    unmarked SCOPE statements ("trade perimeter: ...") even when clean — so the
-    flag is MARKER-PRESENT (a line carrying ⚠️/🔴), never bare output-nonempty
-    (which mis-reads a scope statement as an alert; found 2026-08-16 building
-    this file — the WATT/VULCAN/MIDAS boots carry the bare-nonempty form).
-    Returns 0 quiet · 1 alert-marker printed (REVIEW) · 2 launch failure."""
+    """Runner for the shared ledger_staleness check. rc contract REVISED
+    2026-08-17 (DAEDALUS shared-script fix, PROME-approved, CHECK_STANDARD §8
+    rule 3): 0 clean · 1 stale FINDINGS · 2 CANNOT-CERTIFY (MISCONFIGURED /
+    LEDGERS-OUTSIDE-GLOB / usage) — the old 'always 0' contract is retired;
+    rc now AGREES with the ⚠️/🔴 markers. Verdict = rc 1 OR marker-present
+    (§8 rule 5 keeps the marker channel authoritative; still never bare
+    output-nonempty, which mis-reads the clean-run SCOPE statement
+    ("trade perimeter: ...") as an alert — found 2026-08-16 building this file).
+    rc 2 → leg failure (enforcement silently absent = never assume quiet).
+    Returns 0 quiet · 1 REVIEW · 2 failure/cannot-certify."""
     try:
         p = subprocess.run([sys.executable, *cmd], cwd=str(ROOT),
                            capture_output=True, text=True)
@@ -51,9 +54,9 @@ def run_alert(cmd):
         print(out)
     if err:
         print(err, file=sys.stderr)
-    if p.returncode != 0:
+    if p.returncode not in (0, 1):
         return 2
-    return 1 if ("⚠️" in out or "🔴" in out) else 0
+    return 1 if (p.returncode == 1 or "⚠️" in out or "🔴" in out) else 0
 
 
 def _tsv_rows(path):
