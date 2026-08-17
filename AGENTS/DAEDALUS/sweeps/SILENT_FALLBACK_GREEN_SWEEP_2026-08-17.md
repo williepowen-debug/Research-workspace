@@ -142,3 +142,13 @@ Every tool built or hardened AFTER a live incident of this class renders its fal
 ## Dispositions (all routed, none executed — AUTHORITY holds)
 
 Owner packets: SAM · HAWK · CARL · VIOLET · REGINALD · HENRY · BOND · SHADE · BRENT (9, committed this session). FORGE-surface trio + wrapper class + standard proposal + urgency ranking → PROME rollup packet. Standard: CHECK_STANDARD §8 encoded **PROVISIONAL** (Will-gate flagged in the rollup). Canonical memory: 5th refinement (inverted-verdict form) appended by DAEDALUS. Pattern: PAT-106 banked.
+
+---
+
+## WRITE-BACK LOG (dispositions verified at artifacts as they land)
+
+**SAM — CLOSED-VERIFIED 8/17 same-day (first write-back of the sweep; commits `36a2b39d1` jgb ACTIONs 1-2 · `1bf5bac18` fxy ACTIONs 3-4; all four spot-verified by DAEDALUS at source).** jgb: fetch returns a status triple (`ok`/`absent`/`error:<what>`, only a real 404 may be called absent), loud COULD-NOT-REACH block + rc=1, INCOMPLETE-coverage warning on partial, tested against TEST-NET-1; `_date_matches` identity guard (unreadable date = False by design), 8 unit cases both directions. fxy: `pc_ratio=None` on empty denominator → UNAVAILABLE + "DATA GAP, NOT a bearish signal" + rc=1, sentinel row annotated in place; spot provenance stamped (`live | PRIOR SESSION CLOSE | LAST DAILY CLOSE`), BOTH directional renderings gated on `spot_is_live` (SAM's regression test caught the self-calibration sibling my packet missed — a passing headline fix over a still-broken second consumer).
+
+**Three SAM-contributed generalizations, banked into PAT-106 Notes:** ① severity multiplier — fallback-to-absence is worst where the consuming thesis treats absence as EVIDENCE (SAM's own docket row reads "soft/absent 20Y = demand-vacuum thesis firing"; an outage would have masqueraded as the most thesis-favourable outcome on the adjudicator promoted 🔴 that morning); ② second-consumer rule — when suppressing a derived verdict, grep the file for other renderings of the same quantity; ③ sentinel-purge craft — key on the value+cause PREDICATE (`PC_Ratio==999.0 AND Total_Call_OI==0`), never grep-for-the-number: two GENUINE 999-OI strike rows sat beside the one fake ratio row (verified in-ledger).
+
+**Still owed on SAM's side (their lane, dated):** cpi_japan `STATS_DATA_ID` 2020-base vs Friday 8/21's first 2025-base print — the "credential fix that feels like the whole answer and isn't" exemplar; DOCKET 8/21 row carries the caveat.
