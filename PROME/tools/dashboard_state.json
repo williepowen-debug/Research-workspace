@@ -1,5 +1,5 @@
 {
- "built": "2026-08-17 12:04",
+ "built": "2026-08-17 15:54",
  "channels": {
   "AI capex": "elev",
   "Credit": "crit",
@@ -46,10 +46,12 @@
   "2026-08-28 QCEW preliminary benchmark (Fri) \u2014 LAB-08 gate",
   "2026-08-29 FORUM fin-cond T6 HARD CLOSE: 30Y benign-bucket test (BOND s",
   "2026-08-29 HEN-42 rates-driver rotation discriminator resolves \u2014 policy",
+  "2026-08-29 NEXUS SYSTEMS REVIEW commission opens (Will-approved 8/17 ev",
   "2026-08-30 Post-2026 Colorado River operating guidelines \u2014 EARLIEST leg",
   "2026-08-31 BCRED Q3 tender EXPIRES (SC TO-I filed 8/4, acc 0001193125-2",
   "2026-08-31 DOCKET-view renderer build checkpoint (DAEDALUS, PROME-commi",
   "2026-08-31 FMHPI July print = HOM-01 early-kill decider (arm 1-of-2 FIR",
+  "2026-08-31 FORUM-6 deferral R9: consuming_date-at-dispatch (WALTER W-M1",
   "2026-08-31 MOF monthly intervention data \u2014 the HARD CONFIRM window that",
   "2026-08-31 OSP-04 CLOSES \u2014 DARK slow aggregates (floating storage ~120M",
   "2026-09-01 FORUM fin-cond T3: decoupling Test A first adequately-powere",
@@ -57,6 +59,7 @@
   "2026-09-01 Russia diesel producer-direct carve-out takes effect (OSP-02",
   "2026-09-06 OPEC+ meeting \u2014 the Q4-2026 quota decision (the ACTUAL Q4 de",
   "2026-09-07 CRMT / Silver Point covenant-relief waiver EXPIRES (date har",
+  "2026-09-07 FORUM-6 deferral R10: scan_report scope-stating instrument \u2014",
   "2026-09-07 Forum falsifiers grade day \u2460: ABN (re-run the fires-now list"
  ],
  "fleet": {
@@ -73,10 +76,10 @@
   "HOMER": "ok",
   "LABOR": "watch",
   "LIQUID": "watch",
-  "MARCO": "watch",
+  "MARCO": "ok",
   "MIDAS": "ok",
-  "NEXUS": "watch",
-  "ORACLE": "watch",
+  "NEXUS": "ok",
+  "ORACLE": "ok",
   "OSPREY": "ok",
   "OZK": "elev",
   "PROME": "ok",
@@ -131,10 +134,11 @@
  },
  "one": "the week's positioning question got answered three times in one print window and the answer was the same in every market: the fuel was REPLACED, not spent. Crude MM shorts re-grossed straight through their frozen boundary (+8,078 WoW \u2014 the \"SPENT\" modifier un-fired at its own letter, by 5.3\u00d7 the pre-computed coin-flip distance); gold longs rebuilt to top-5% crowding of the full 1986\u20132026 record under a frame that honestly graded INDETERMINATE; and the JPY book neither rebuilt nor flipped \u2014 it emptied (OI \u221227,519, both sides). Meanwhile the priced side stayed asleep: HY flat at 271, a seventh consecutive sub-16 VIX close, 5y5y anchored at 2.27 and drifting *down* \u2014 and the 30Y at 5.24 still buying zero rate relief from disinflation. The bear that pays remains the real-rate grind (duration + gold, the two live legs), and the physical-side conclusion sharpened rather than changed: the squeeze accelerant behind the oil premium is re-armed, not exhausted \u2014 if a physical trigger comes, more fuel stands behind it than the fleet believed on Wednesday. No sizing changed anywhere; the state is simply now honest.",
  "pending": [
-  "rule-batch (52-54)",
-  "row-16 one-liners",
-  "CRUISE re-class [row 55]",
-  "INFRA_AGENDA [row 56]",
+  "row-16 D-10 one-word",
+  "CRUISE row 55",
+  "INFRA_AGENDA row 56",
+  "war-risk source row 41 [after FALCON's free fetch]",
+  "Nov credentials row 31 [11/01]",
   "SAM v1"
  ],
  "split": "Break 21 \u00b7 Grind 44 \u00b7 Unresolved 35",
